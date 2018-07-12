@@ -7,7 +7,7 @@ old-location: com\failed_macro.htm
 old-project: com
 ms.assetid: d9c4ff73-c255-4a82-b901-23bd5b41ee6c
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: FAILED, FAILED macro [COM], _com_FAILED, com.failed, com.failed_macro, winerror/FAILED
 ms.prod: windows
 ms.technology: windows-sdk

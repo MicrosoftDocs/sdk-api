@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservicesevents_onwritedatacomplete.htm
 old-project: mbn
 ms.assetid: 2C885E15-C689-4ADF-BFB0-24D03932FAC7
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnWriteDataComplete method, IMbnDeviceServicesEvents.OnWriteDataComplete, IMbnDeviceServicesEvents::OnWriteDataComplete, OnWriteDataComplete, OnWriteDataComplete method [Microsoft Broadband Networks], OnWriteDataComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onwritedatacomplete, mbnapi/IMbnDeviceServicesEvents::OnWriteDataComplete
 ms.prod: windows
 ms.technology: windows-sdk

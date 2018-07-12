@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::GetNextUpdateTime
 author: windows-sdk-content
 description: Retrieves the date and time at which the policy expires and should be refreshed.
 old-location: security\ix509enrollmentpolicyserver_getnextupdatetime.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 23ddd933-2392-410b-a4e6-7f5c00f867b3
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetNextUpdateTime, GetNextUpdateTime method [Security], GetNextUpdateTime method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetNextUpdateTime method, IX509EnrollmentPolicyServer.GetNextUpdateTime, IX509EnrollmentPolicyServer::GetNextUpdateTime, certenroll/IX509EnrollmentPolicyServer::GetNextUpdateTime, security.ix509enrollmentpolicyserver_getnextupdatetime
 ms.prod: windows
 ms.technology: windows-sdk

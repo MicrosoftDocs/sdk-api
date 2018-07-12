@@ -4,10 +4,10 @@ title: "_WSD_HELLO"
 author: windows-sdk-content
 description: Represents a Hello message.
 old-location: ncd\wsd_hello_struct.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 71fad98a-d115-4350-b3aa-3f3927b2c24d
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: WSD_HELLO, WSD_HELLO structure, _WSD_HELLO, ncd.wsd_hello_struct, wsdtypes/WSD_HELLO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wsdhost.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_ui_fontdeltasize.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_fontdeltasize.htm
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: UI_FONTDELTASIZE, UI_FONTDELTASIZE enumeration [Windows Ribbon], UI_FONTDELTASIZE_GROW, UI_FONTDELTASIZE_SHRINK, scenicintent_UI_FONTDELTASIZE, uiribbon/UI_FONTDELTASIZE, uiribbon/UI_FONTDELTASIZE_GROW, uiribbon/UI_FONTDELTASIZE_SHRINK, windowsribbon.windowsribbon_ui_fontdeltasize
 ms.prod: windows
 ms.technology: windows-sdk

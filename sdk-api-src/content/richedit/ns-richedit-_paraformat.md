@@ -4,10 +4,10 @@ title: "_paraformat"
 author: windows-sdk-content
 description: Contains information about paragraph formatting attributes in a rich edit control.
 old-location: controls\PARAFORMAT.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\paraformat.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: 0, 1, 2, 3, 4, 5, PARAFORMAT, PARAFORMAT structure [Windows Controls], PFA_CENTER, PFA_LEFT, PFA_RIGHT, PFE_RLTPARA, PFM_ALIGNMENT, PFM_NUMBERING, PFM_OFFSET, PFM_OFFSETINDENT, PFM_RIGHTINDENT, PFM_RTLPARA, PFM_STARTINDENT, PFM_TABSTOPS, _paraformat, _win32_PARAFORMAT_str, _win32_PARAFORMAT_str_cpp, controls.PARAFORMAT, controls._win32_PARAFORMAT_str, richedit/PARAFORMAT
 ms.prod: windows
 ms.technology: windows-sdk

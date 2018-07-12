@@ -7,7 +7,7 @@ old-location: shell\IShellFolder_CompareIDs.htm
 old-project: shell
 ms.assetid: 54d805cc-5396-4892-9347-cafc2d90779f
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: CompareIDs, CompareIDs method [Windows Shell], CompareIDs method [Windows Shell],IShellFolder interface, CompareIDs method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],CompareIDs method, IShellFolder.CompareIDs, IShellFolder2 interface [Windows Shell],CompareIDs method, IShellFolder2::CompareIDs, IShellFolder::CompareIDs, SHCIDS_ALLFIELDS, SHCIDS_CANONICALONLY, _win32_IShellFolder_CompareIDs, shell.IShellFolder_CompareIDs, shobjidl_core/IShellFolder2::CompareIDs, shobjidl_core/IShellFolder::CompareIDs
 ms.prod: windows
 ms.technology: windows-sdk

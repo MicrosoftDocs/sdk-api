@@ -7,7 +7,7 @@ old-location: winsock\wsaaccept_2.htm
 old-project: WinSock
 ms.assetid: f385f63f-49b2-4eb7-8717-ad4cca1a2252
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: WSAAccept, WSAAccept function [Winsock], _win32_wsaaccept_2, winsock.wsaaccept_2, winsock2/WSAAccept
 ms.prod: windows
 ms.technology: windows-sdk

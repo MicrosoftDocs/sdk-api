@@ -7,7 +7,7 @@ old-location: winsync\iregisteredsyncprovider_init.htm
 old-project: winsync
 ms.assetid: 1f022a6b-8f8c-4def-9ca9-dc06ec80f020
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IRegisteredSyncProvider interface [Windows Sync],Init method, IRegisteredSyncProvider.Init, IRegisteredSyncProvider::Init, Init, Init method [Windows Sync], Init method [Windows Sync],IRegisteredSyncProvider interface, syncregistration/IRegisteredSyncProvider::Init, winsync.iregisteredsyncprovider_init
 ms.prod: windows
 ms.technology: windows-sdk

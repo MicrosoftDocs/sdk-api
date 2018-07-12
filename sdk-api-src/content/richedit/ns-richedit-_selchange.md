@@ -4,10 +4,10 @@ title: "_selchange"
 author: windows-sdk-content
 description: Contains information associated with an EN_SELCHANGE notification code. A rich edit control sends this notification to its parent window when the current selection changes.
 old-location: controls\SELCHANGE.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\selchange.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: SELCHANGE, SELCHANGE structure [Windows Controls], SEL_MULTICHAR, SEL_MULTIOBJECT, SEL_OBJECT, SEL_TEXT, _selchange, _win32_SELCHANGE_str, _win32_SELCHANGE_str_cpp, controls.SELCHANGE, controls._win32_SELCHANGE_str, richedit/SELCHANGE
 ms.prod: windows
 ms.technology: windows-sdk

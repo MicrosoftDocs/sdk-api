@@ -7,7 +7,7 @@ old-location: dataxchg\ddecreatedatahandle.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddecreatedatahandle.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DdeCreateDataHandle, DdeCreateDataHandle function [Data Exchange], _win32_DdeCreateDataHandle, _win32_ddecreatedatahandle_cpp, dataxchg.ddecreatedatahandle, ddeml/DdeCreateDataHandle, winui._win32_ddecreatedatahandle
 ms.prod: windows
 ms.technology: windows-sdk

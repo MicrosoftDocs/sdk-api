@@ -4,10 +4,10 @@ title: INetFwProfile
 author: windows-sdk-content
 description: The INetFwProfile interface provides access to the firewall settings profile.
 old-location: ics\inetfwprofile.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 694bbff5-003d-4dde-9a85-f81ca29e6208
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetFwProfile, INetFwProfile interface [ICS/ICF], INetFwProfile interface [ICS/ICF],described, ics.inetfwprofile, netfw/INetFwProfile
 ms.prod: windows
 ms.technology: windows-sdk

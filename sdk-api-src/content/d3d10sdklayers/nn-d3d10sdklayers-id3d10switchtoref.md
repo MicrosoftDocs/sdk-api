@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10switchtoref.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10switchtoref.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: ID3D10SwitchToRef, ID3D10SwitchToRef interface [Direct3D 10], ID3D10SwitchToRef interface [Direct3D 10],described, d3d10sdklayers/ID3D10SwitchToRef, d7769c3f-e1b2-ded4-9352-be26f55a05d1, direct3d10.id3d10switchtoref
 ms.prod: windows
 ms.technology: windows-sdk

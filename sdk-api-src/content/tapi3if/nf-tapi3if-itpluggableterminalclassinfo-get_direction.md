@@ -4,10 +4,10 @@ title: ITPluggableTerminalClassInfo::get_Direction
 author: windows-sdk-content
 description: The get_Direction method gets the direction supported by the terminal.
 old-location: tapi3\itpluggableterminalclassinfo_get_direction.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 843aeedc-08ca-436b-9d43-1e7b9aa1ac8e
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITPluggableTerminalClassInfo interface [TAPI 2.2],get_Direction method, ITPluggableTerminalClassInfo.get_Direction, ITPluggableTerminalClassInfo::get_Direction, _tapi3_itpluggableterminalclassinfo_get_direction, get_Direction, get_Direction method [TAPI 2.2], get_Direction method [TAPI 2.2],ITPluggableTerminalClassInfo interface, tapi3.itpluggableterminalclassinfo_get_direction, tapi3if/ITPluggableTerminalClassInfo::get_Direction
 ms.prod: windows
 ms.technology: windows-sdk

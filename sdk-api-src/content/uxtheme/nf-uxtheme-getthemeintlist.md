@@ -4,10 +4,10 @@ title: GetThemeIntList function
 author: windows-sdk-content
 description: Retrieves a list of int data from a visual style.
 old-location: controls\GetThemeIntList.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeintlist.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: GetThemeIntList, GetThemeIntList function [Windows Controls], controls.GetThemeIntList, controls.inet_GetThemeIntList, inet_GetThemeIntList, inet_GetThemeIntList_cpp, uxtheme/GetThemeIntList
 ms.prod: windows
 ms.technology: windows-sdk

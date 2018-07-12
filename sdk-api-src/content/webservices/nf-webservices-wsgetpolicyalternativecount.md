@@ -7,7 +7,7 @@ old-location: wsw\wsgetpolicyalternativecount.htm
 old-project: wsw
 ms.assetid: 2d3ac397-07a0-45c4-84b4-0f4806a324bc
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsGetPolicyAlternativeCount, WsGetPolicyAlternativeCount function [Web Services for Windows], webservices/WsGetPolicyAlternativeCount, wsw.wsgetpolicyalternativecount
 ms.prod: windows
 ms.technology: windows-sdk

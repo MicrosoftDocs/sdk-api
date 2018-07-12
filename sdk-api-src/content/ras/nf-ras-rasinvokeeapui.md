@@ -4,10 +4,10 @@ title: RasInvokeEapUI function
 author: windows-sdk-content
 description: The RasInvokeEapUI function displays a custom user interface to obtain Extensible Authentication Protocol (EAP) information from the user.
 old-location: rras\rasinvokeeapui.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 60661c23-3d6a-4b0c-9cc9-bf04ecea2425
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RasInvokeEapUI, RasInvokeEapUI function [RAS], _ras_rasinvokeeapui, ras/RasInvokeEapUI, rras.rasinvokeeapui
 ms.prod: windows
 ms.technology: windows-sdk

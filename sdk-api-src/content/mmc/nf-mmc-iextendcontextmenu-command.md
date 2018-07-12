@@ -4,10 +4,10 @@ title: IExtendContextMenu::Command
 author: windows-sdk-content
 description: The IExtendContextMenu::Command method is called if one of the items you added to the context menu with IExtendContextMenu::AddMenuItems is subsequently selected.
 old-location: mmc\iextendcontextmenu_command.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: ee91a737-c6b4-48a1-88a2-57bef3730f5e
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: Command, Command method [MMC], Command method [MMC],IExtendContextMenu interface, IExtendContextMenu interface [MMC],Command method, IExtendContextMenu.Command, IExtendContextMenu::Command, _slate_iextendcontextmenu_command, mmc.iextendcontextmenu_command, mmc/IExtendContextMenu::Command
 ms.prod: windows
 ms.technology: windows-sdk

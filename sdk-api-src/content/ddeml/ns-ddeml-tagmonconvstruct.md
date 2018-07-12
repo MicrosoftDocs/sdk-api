@@ -7,7 +7,7 @@ old-location: dataxchg\monconvstruct_str.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\monconvstruct.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*PMONCONVSTRUCT, MONCONVSTRUCT, MONCONVSTRUCT structure [Data Exchange], PMONCONVSTRUCT, PMONCONVSTRUCT structure pointer [Data Exchange], _win32_MONCONVSTRUCT_str, _win32_monconvstruct_str_cpp, dataxchg.monconvstruct_str, ddeml/MONCONVSTRUCT, ddeml/PMONCONVSTRUCT, tagMONCONVSTRUCT, winui._win32_monconvstruct_str"
 ms.prod: windows
 ms.technology: windows-sdk

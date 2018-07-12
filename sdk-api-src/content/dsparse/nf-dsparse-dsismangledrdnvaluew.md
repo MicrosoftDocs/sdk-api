@@ -4,10 +4,10 @@ title: DsIsMangledRdnValueW function
 author: windows-sdk-content
 description: Determines if a given relative distinguished name value is a mangled name of the given type.
 old-location: ad\dsismangledrdnvalue.htm
-old-project: AD
+old-project: ad
 ms.assetid: adf5e133-9e48-4e97-af0c-4f8ea9b8bf8f
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DsIsMangledRdnValue, DsIsMangledRdnValue function [Active Directory], DsIsMangledRdnValueA, DsIsMangledRdnValueW, _glines_dsismangledrdnvalue, ad.dsismangledrdnvalue, dsparse/DsIsMangledRdnValue, dsparse/DsIsMangledRdnValueA, dsparse/DsIsMangledRdnValueW
 ms.prod: windows
 ms.technology: windows-sdk

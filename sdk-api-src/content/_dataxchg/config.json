@@ -6,6 +6,5 @@
     "wingdi.h",
     "dde.h",
     "ddeml.h"
-  ],
-  "displayName": "Data Exchange"
+  ]
 }

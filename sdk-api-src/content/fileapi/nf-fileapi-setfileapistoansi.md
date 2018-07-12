@@ -4,10 +4,10 @@ title: SetFileApisToANSI function
 author: windows-sdk-content
 description: Causes the file I/O functions to use the ANSI character set code page for the current process.
 old-location: fs\setfileapistoansi.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 72b19773-9663-4cf8-90d3-656ee2785601
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: SetFileApisToANSI, SetFileApisToANSI function [Files], _win32_setfileapistoansi, base.setfileapistoansi, fileapi/SetFileApisToANSI, fs.setfileapistoansi
 ms.prod: windows
 ms.technology: windows-sdk

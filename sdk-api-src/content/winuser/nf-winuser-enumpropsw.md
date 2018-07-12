@@ -7,7 +7,7 @@ old-location: winmsg\enumprops.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\enumprops.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: EnumProps, EnumProps function [Windows and Messages], EnumPropsA, EnumPropsW, _win32_EnumProps, _win32_enumprops_cpp, winmsg.enumprops, winui._win32_enumprops, winuser/EnumProps, winuser/EnumPropsA, winuser/EnumPropsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

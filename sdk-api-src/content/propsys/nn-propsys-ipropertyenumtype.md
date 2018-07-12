@@ -7,7 +7,7 @@ old-location: properties\IPropertyEnumType.htm
 old-project: properties
 ms.assetid: 05ae6763-a3e1-461d-af90-08bddbe82300
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: IPropertyEnumType, IPropertyEnumType interface [Windows Properties], IPropertyEnumType interface [Windows Properties],described, _shell_IPropertyEnumType, properties.IPropertyEnumType, propsys/IPropertyEnumType, shell.IPropertyEnumType
 ms.prod: windows
 ms.technology: windows-sdk

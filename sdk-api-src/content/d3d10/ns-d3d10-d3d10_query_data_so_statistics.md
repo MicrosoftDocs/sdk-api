@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_query_data_so_statistics.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_query_data_so_statistics.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: D3D10_QUERY_DATA_SO_STATISTICS, D3D10_QUERY_DATA_SO_STATISTICS structure [Direct3D 10], cf410b92-83dc-df50-69b8-4970b24d4f1c, d3d10/D3D10_QUERY_DATA_SO_STATISTICS, direct3d10.d3d10_query_data_so_statistics
 ms.prod: windows
 ms.technology: windows-sdk

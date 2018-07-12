@@ -7,7 +7,7 @@ old-location: tsf\itfcontextview_getwnd.htm
 old-project: TSF
 ms.assetid: e805842d-4737-45be-8314-bd83d94da2d6
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: GetWnd, GetWnd method [Text Services Framework], GetWnd method [Text Services Framework],ITfContextView interface, ITfContextView interface [Text Services Framework],GetWnd method, ITfContextView.GetWnd, ITfContextView::GetWnd, _tsf_itfcontextview_getwnd_ref, msctf/ITfContextView::GetWnd, tsf.itfcontextview_getwnd
 ms.prod: windows
 ms.technology: windows-sdk

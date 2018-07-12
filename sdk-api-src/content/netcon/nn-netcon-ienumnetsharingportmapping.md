@@ -4,10 +4,10 @@ title: IEnumNetSharingPortMapping
 author: windows-sdk-content
 description: The IEnumNetSharingPortMapping interface provides methods to enumerate the port mappings for a particular connection.
 old-location: ics\ienumnetsharingportmapping.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 68334bd2-353f-457d-a2c7-1271816f10f5
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IEnumNetSharingPortMapping, IEnumNetSharingPortMapping interface [ICS/ICF], IEnumNetSharingPortMapping interface [ICS/ICF],described, _ics_ienumnetsharingportmapping, ics.ienumnetsharingportmapping, netcon/IEnumNetSharingPortMapping
 ms.prod: windows
 ms.technology: windows-sdk

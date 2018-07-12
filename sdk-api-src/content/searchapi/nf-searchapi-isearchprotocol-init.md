@@ -7,7 +7,7 @@ old-location: search\_search_ISearchProtocol_Init.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol\init.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISearchProtocol interface [search],Init method, ISearchProtocol.Init, ISearchProtocol::Init, Init, Init method [search], Init method [search],ISearchProtocol interface, _search_ISearchProtocol_Init, search._search_ISearchProtocol_Init, searchapi/ISearchProtocol::Init
 ms.prod: windows
 ms.technology: windows-sdk

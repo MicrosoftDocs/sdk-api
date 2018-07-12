@@ -2,13 +2,13 @@
 UID: NA:faxcomex
 ms.assetid: c63a3cf0-5ec8-3714-9692-7b8d0679fb35
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: fax
+archived: true
 ---
 
 # Faxcomex.h header

@@ -7,7 +7,7 @@ old-location: bltooth\bluetoothgattsetcharacteristicvalue.htm
 old-project: bltooth
 ms.assetid: 114C1FCD-95F8-4358-8178-C9B283CA7323
 ms.author: windowssdkdev
-ms.date: 04/27/2018
+ms.date: 04/30/2018
 ms.keywords: BluetoothGATTSetCharacteristicValue, BluetoothGATTSetCharacteristicValue function [Bluetooth Devices], bltooth.bluetoothgattsetcharacteristicvalue, bluetoothleapis/BluetoothGATTSetCharacteristicValue
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\wsaddcustomheader.htm
 old-project: wsw
 ms.assetid: 4b95085a-e522-4ab2-b7c9-d332599c5598
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsAddCustomHeader, WsAddCustomHeader function [Web Services for Windows], webservices/WsAddCustomHeader, wsw.wsaddcustomheader
 ms.prod: windows
 ms.technology: windows-sdk

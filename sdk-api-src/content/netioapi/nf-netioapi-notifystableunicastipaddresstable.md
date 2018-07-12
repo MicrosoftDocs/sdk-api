@@ -4,10 +4,10 @@ title: NotifyStableUnicastIpAddressTable function
 author: windows-sdk-content
 description: Retrieves the stable unicast IP address table on a local computer.
 old-location: iphlp\notifystableunicastipaddresstable.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 80d10088-79ef-41fd-add7-994d2a780ddb
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyStableUnicastIpAddressTable, NotifyStableUnicastIpAddressTable function [IP Helper], iphlp.notifystableunicastipaddresstable, netioapi/NotifyStableUnicastIpAddressTable
 ms.prod: windows
 ms.technology: windows-sdk

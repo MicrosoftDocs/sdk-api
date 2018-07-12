@@ -4,10 +4,10 @@ title: INetFwOpenPort::get_Name
 author: windows-sdk-content
 description: Specifies the friendly name of this port.
 old-location: ics\inetfwopenport_name.htm
-old-project: ICS
+old-project: ics
 ms.assetid: f81abb86-095c-4459-af71-a0c10f7b1acd
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetFwOpenPort interface [ICS/ICF],Name property, INetFwOpenPort.Name, INetFwOpenPort.get_Name, INetFwOpenPort::Name, INetFwOpenPort::get_Name, INetFwOpenPort::put_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwOpenPort interface, get_Name, ics.inetfwopenport_name, netfw/INetFwOpenPort::Name, netfw/INetFwOpenPort::get_Name, netfw/INetFwOpenPort::put_Name
 ms.prod: windows
 ms.technology: windows-sdk

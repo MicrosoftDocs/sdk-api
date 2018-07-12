@@ -4,10 +4,10 @@ title: CertDuplicateCTLContext function
 author: windows-sdk-content
 description: The CertDuplicateCTLContext function duplicates a certificate trust list (CTL) context by incrementing its reference count.
 old-location: security\certduplicatectlcontext.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 512d246f-9f22-4ac1-a4fc-d5c615a65cf9
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CertDuplicateCTLContext, CertDuplicateCTLContext function [Security], _crypto2_certduplicatectlcontext, security.certduplicatectlcontext, wincrypt/CertDuplicateCTLContext
 ms.prod: windows
 ms.technology: windows-sdk

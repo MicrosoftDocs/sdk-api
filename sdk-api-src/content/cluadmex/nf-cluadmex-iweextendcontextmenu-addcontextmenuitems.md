@@ -4,10 +4,10 @@ title: IWEExtendContextMenu::AddContextMenuItems
 author: windows-sdk-content
 description: Allows you to create context menu items for a cluster object and add the items to a Failover Cluster Administrator context menu.
 old-location: mscs\iweextendcontextmenu_addcontextmenuitems.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 48de3627-a919-437b-b19b-374327234df9
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: AddContextMenuItems, AddContextMenuItems method [Failover Cluster], AddContextMenuItems method [Failover Cluster],IWEExtendContextMenu interface, IWEExtendContextMenu interface [Failover Cluster],AddContextMenuItems method, IWEExtendContextMenu.AddContextMenuItems, IWEExtendContextMenu::AddContextMenuItems, _wolf_iweextendcontextmenu_addcontextmenuitems, cluadmex/IWEExtendContextMenu::AddContextMenuItems, mscs.iweextendcontextmenu_addcontextmenuitems
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Allows you to create context menu items for a cluster object and add the items t
 
 
 <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer for retrieving information relating to the new menu 
-       item. By calling the <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">IUnknown::QueryInterface</a> method with the 
+       item. By calling the <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method with the 
        <i>piData</i> pointer, the following interfaces are available:
 
 <ul>
@@ -124,7 +124,7 @@ Return one of the following values or any <b>HRESULT</b> that describes the resu
 <p class="proch"><img alt="" src="../common/wedge.gif"/><b>To implement AddContextMenuItems</b>
 
 <ol>
-<li>Call the <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">IUnknown::QueryInterface</a> method pointed to by 
+<li>Call the <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method pointed to by 
       <i>piData</i> to retrieve a pointer to an interface that can provide information about the 
       object associated with the menu item.</li>
 <li>Call the 

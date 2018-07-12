@@ -7,7 +7,7 @@ old-location: shell\IShellView_SaveViewState.htm
 old-project: shell
 ms.assetid: 4bc36340-1e52-48cf-8b9a-e32115cda88b
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IShellView interface [Windows Shell],SaveViewState method, IShellView.SaveViewState, IShellView::SaveViewState, SaveViewState, SaveViewState method [Windows Shell], SaveViewState method [Windows Shell],IShellView interface, _win32_IShellView_SaveViewState, shell.IShellView_SaveViewState, shobjidl_core/IShellView::SaveViewState
 ms.prod: windows
 ms.technology: windows-sdk

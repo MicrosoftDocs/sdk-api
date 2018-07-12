@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_serverft.htm
 old-project: wmi_v2
 ms.assetid: a8b3b230-8378-448b-9c89-82b601373f0e
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_ServerFT, MI_ServerFT structure [Windows Management Infrastructure (MI)], _MI_ServerFT, mi/MI_ServerFT, wmi_v2.mi_serverft
 ms.prod: windows
 ms.technology: windows-sdk

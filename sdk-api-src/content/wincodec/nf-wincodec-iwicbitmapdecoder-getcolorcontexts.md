@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapdecoder_getcolorcontexts.htm
 old-project: wic
 ms.assetid: 55fdf9c0-5fa4-46e2-b4d2-42b8d4c90887
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetColorContexts, GetColorContexts method [Windows Imaging Component], GetColorContexts method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetColorContexts method, IWICBitmapDecoder.GetColorContexts, IWICBitmapDecoder::GetColorContexts, _wic_codec_iwicbitmapdecoder_getcolorcontexts, wic._wic_codec_iwicbitmapdecoder_getcolorcontexts, wincodec/IWICBitmapDecoder::GetColorContexts
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: properties\PropVariantToInt32WithDefault.htm
 old-project: properties
 ms.assetid: 1d014cad-a9a5-4a58-855e-21c6d3ba6dcd
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PropVariantToInt32WithDefault, PropVariantToInt32WithDefault function [Windows Properties], properties.PropVariantToInt32WithDefault, propvarutil/PropVariantToInt32WithDefault, shell.PropVariantToInt32WithDefault, shell_PropVariantToInt32WithDefault
 ms.prod: windows
 ms.technology: windows-sdk

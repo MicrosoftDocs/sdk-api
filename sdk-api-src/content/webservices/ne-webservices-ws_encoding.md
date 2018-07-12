@@ -7,7 +7,7 @@ old-location: wsw\ws_encoding.htm
 old-project: wsw
 ms.assetid: 37858df7-ae76-41c1-8fd2-fc810b8927bf
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_ENCODING, WS_ENCODING enumeration [Web Services for Windows], WS_ENCODING_XML_BINARY_1, WS_ENCODING_XML_BINARY_SESSION_1, WS_ENCODING_XML_MTOM_UTF16BE, WS_ENCODING_XML_MTOM_UTF16LE, WS_ENCODING_XML_MTOM_UTF8, WS_ENCODING_XML_UTF16BE, WS_ENCODING_XML_UTF16LE, WS_ENCODING_XML_UTF8, webservices/WS_ENCODING, webservices/WS_ENCODING_XML_BINARY_1, webservices/WS_ENCODING_XML_BINARY_SESSION_1, webservices/WS_ENCODING_XML_MTOM_UTF16BE, webservices/WS_ENCODING_XML_MTOM_UTF16LE, webservices/WS_ENCODING_XML_MTOM_UTF8, webservices/WS_ENCODING_XML_UTF16BE, webservices/WS_ENCODING_XML_UTF16LE, webservices/WS_ENCODING_XML_UTF8, wsw.ws_encoding
 ms.prod: windows
 ms.technology: windows-sdk

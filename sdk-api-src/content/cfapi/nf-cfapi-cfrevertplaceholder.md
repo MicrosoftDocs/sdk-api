@@ -7,7 +7,7 @@ old-location: cloudapi\cfrevertplaceholder.htm
 old-project: cfApi
 ms.assetid: D5404BB6-A066-4B5F-A355-A11A107610CE
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CfRevertPlaceholder, CfRevertPlaceholder function, cfapi/CfRevertPlaceholder, cloudApi.cfrevertplaceholder
 ms.prod: windows
 ms.technology: windows-sdk

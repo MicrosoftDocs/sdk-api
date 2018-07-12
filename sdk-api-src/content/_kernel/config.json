@@ -11,6 +11,5 @@
     "ktmtypes.h",
     "poclass.h",
     "ntdef.h"
-  ],
-  "displayName": "Kernel-Mode Driver Reference"
+  ]
 }

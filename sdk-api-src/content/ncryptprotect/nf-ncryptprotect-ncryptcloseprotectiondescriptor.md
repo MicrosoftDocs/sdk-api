@@ -4,10 +4,10 @@ title: NCryptCloseProtectionDescriptor function
 author: windows-sdk-content
 description: Zeros and frees a protection descriptor object and releases its handle.
 old-location: security\ncryptcloseprotectiondescriptor.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 523FD83E-85A3-4A0E-BA8D-2F27F82C1072
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: NCryptCloseProtectionDescriptor, NCryptCloseProtectionDescriptor function [Security], ncryptprotect/NCryptCloseProtectionDescriptor, security.ncryptcloseprotectiondescriptor
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsock\wsadeletesocketpeertargetname.htm
 old-project: WinSock
 ms.assetid: 5d973316-fc51-453e-8d98-36ba36367df7
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: WSADeleteSocketPeerTargetName, WSADeleteSocketPeerTargetName function [Winsock], winsock.wsadeletesocketpeertargetname, ws2tcpip/WSADeleteSocketPeerTargetName
 ms.prod: windows
 ms.technology: windows-sdk

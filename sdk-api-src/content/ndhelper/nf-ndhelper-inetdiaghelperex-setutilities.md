@@ -4,10 +4,10 @@ title: INetDiagHelperEx::SetUtilities
 author: windows-sdk-content
 description: Used by the Network Diagnostics Framework (NDF). This method is reserved for system use.
 old-location: ndf\inetdiaghelperex_setutilities.htm
-old-project: NDF
+old-project: ndf
 ms.assetid: cdc3cdd5-c301-4052-81ec-a4a68248d3a4
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: INetDiagHelperEx interface [NDF],SetUtilities method, INetDiagHelperEx.SetUtilities, INetDiagHelperEx::SetUtilities, SetUtilities, SetUtilities method [NDF], SetUtilities method [NDF],INetDiagHelperEx interface, ndf.inetdiaghelperex_setutilities, ndhelper/INetDiagHelperEx::SetUtilities
 ms.prod: windows
 ms.technology: windows-sdk

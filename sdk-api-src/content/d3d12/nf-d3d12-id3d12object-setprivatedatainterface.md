@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12object_setprivatedatainterface.htm
 old-project: direct3d12
 ms.assetid: B03B9420-7E85-4C1A-858C-37B20E4D9B52
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: ID3D12Object interface,SetPrivateDataInterface method, ID3D12Object.SetPrivateDataInterface, ID3D12Object::SetPrivateDataInterface, SetPrivateDataInterface, SetPrivateDataInterface method, SetPrivateDataInterface method,ID3D12Object interface, d3d12/ID3D12Object::SetPrivateDataInterface, direct3d12.id3d12object_setprivatedatainterface
 ms.prod: windows
 ms.technology: windows-sdk

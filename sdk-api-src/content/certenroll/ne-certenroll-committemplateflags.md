@@ -4,10 +4,10 @@ title: CommitTemplateFlags
 author: windows-sdk-content
 description: Specifies options for saving and deleting templates.
 old-location: security\committemplateflags.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: e228928a-ef11-4caa-b33f-fe25a3a6ff86
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: CommitFlagDeleteTemplate, CommitFlagSaveTemplateGenerateOID, CommitFlagSaveTemplateOverwrite, CommitFlagSaveTemplateUseCurrentOID, CommitTemplateFlags, CommitTemplateFlags enumeration [Security], certenroll/CommitFlagDeleteTemplate, certenroll/CommitFlagSaveTemplateGenerateOID, certenroll/CommitFlagSaveTemplateOverwrite, certenroll/CommitFlagSaveTemplateUseCurrentOID, certenroll/CommitTemplateFlags, security.committemplateflags
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncCallback_CommitItem.htm
 old-project: shell
 ms.assetid: e0964cd3-42ad-4af0-90b2-0f365f457448
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: CommitItem, CommitItem method [Windows Shell], CommitItem method [Windows Shell],ISyncMgrSyncCallback interface, ISyncMgrSyncCallback interface [Windows Shell],CommitItem method, ISyncMgrSyncCallback.CommitItem, ISyncMgrSyncCallback::CommitItem, _shell_ISyncMgrSyncCallback_CommitItem, shell.ISyncMgrSyncCallback_CommitItem, syncmgr/ISyncMgrSyncCallback::CommitItem
 ms.prod: windows
 ms.technology: windows-sdk

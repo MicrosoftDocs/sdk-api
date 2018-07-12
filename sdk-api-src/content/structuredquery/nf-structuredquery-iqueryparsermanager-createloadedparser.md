@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParserManager_CreateLoadedParser.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\createloadedparser.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CreateLoadedParser, CreateLoadedParser method [search], CreateLoadedParser method [search],IQueryParserManager interface, IQueryParserManager interface [search],CreateLoadedParser method, IQueryParserManager.CreateLoadedParser, IQueryParserManager::CreateLoadedParser, _search_IQueryParserManager_CreateLoadedParser, search._search_IQueryParserManager_CreateLoadedParser, structuredquery/IQueryParserManager::CreateLoadedParser
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ The IID of the <a href="https://msdn.microsoft.com/library/Bb231353(v=VS.85).asp
 Type: <b>void**</b>
 
 
-          Receives a pointer to the newly created parser. The calling application must release it by calling its <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+          Receives a pointer to the newly created parser. The calling application must release it by calling its <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
         
 
 

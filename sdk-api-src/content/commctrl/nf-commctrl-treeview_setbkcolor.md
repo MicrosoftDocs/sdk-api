@@ -4,10 +4,10 @@ title: TreeView_SetBkColor macro
 author: windows-sdk-content
 description: Sets the background color of the control. You can use this macro or send the TVM_SETBKCOLOR message explicitly.
 old-location: controls\TreeView_SetBkColor.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setbkcolor.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: TreeView_SetBkColor, TreeView_SetBkColor macro [Windows Controls], _win32_TreeView_SetBkColor, _win32_TreeView_SetBkColor_cpp, commctrl/TreeView_SetBkColor, controls.TreeView_SetBkColor, controls._win32_TreeView_SetBkColor
 ms.prod: windows
 ms.technology: windows-sdk

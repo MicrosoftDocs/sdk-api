@@ -4,10 +4,10 @@ title: CertDeleteCTLFromStore function
 author: windows-sdk-content
 description: The CertDeleteCTLFromStore function deletes the specified certificate trust list (CTL) context from a certificate store.
 old-location: security\certdeletectlfromstore.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: e24d3445-8929-463a-b771-1f25f4e999b5
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CertDeleteCTLFromStore, CertDeleteCTLFromStore function [Security], _crypto2_certdeletectlfromstore, security.certdeletectlfromstore, wincrypt/CertDeleteCTLFromStore
 ms.prod: windows
 ms.technology: windows-sdk

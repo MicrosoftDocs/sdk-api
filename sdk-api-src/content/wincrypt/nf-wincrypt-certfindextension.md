@@ -4,10 +4,10 @@ title: CertFindExtension function
 author: windows-sdk-content
 description: The CertFindExtension function finds the first extension in the CERT_EXTENSION array, as identified by its object identifier (OID).
 old-location: security\certfindextension.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 489c58b6-a704-4f54-bc64-34eacafc347c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CertFindExtension, CertFindExtension function [Security], _crypto2_certfindextension, security.certfindextension, wincrypt/CertFindExtension
 ms.prod: windows
 ms.technology: windows-sdk

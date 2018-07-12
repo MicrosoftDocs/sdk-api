@@ -4,10 +4,10 @@ title: ISClusResGroupPreferredOwnerNodes::AddItem
 author: windows-sdk-content
 description: Adds a node to the ClusResGroupPreferredOwnerNodes collection.
 old-location: mscs\clusresgrouppreferredownernodes_additem.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 001e2766-d489-4406-b11e-c19c6426dfd4
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: AddItem, AddItem method [Failover Cluster], AddItem method [Failover Cluster],ClusResGroupPreferredOwnerNodes class, ClusResGroupPreferredOwnerNodes class [Failover Cluster],AddItem method, ClusResGroupPreferredOwnerNodes.AddItem, ISClusResGroupPreferredOwnerNodes.AddItem, ISClusResGroupPreferredOwnerNodes::AddItem, _wolf_clusresgrouppreferredownernodes.additem, mscs.clusresgrouppreferredownernodes_additem
 ms.prod: windows
 ms.technology: windows-sdk

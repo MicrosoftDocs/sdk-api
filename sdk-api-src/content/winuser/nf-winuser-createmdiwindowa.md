@@ -7,7 +7,7 @@ old-location: winmsg\createmdiwindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacefunctions\createmdiwindow.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: CreateMDIWindow, CreateMDIWindow function [Windows and Messages], CreateMDIWindowA, CreateMDIWindowW, WS_HSCROLL, WS_MAXIMIZE, WS_MINIMIZE, WS_VSCROLL, _win32_CreateMDIWindow, _win32_createmdiwindow_cpp, winmsg.createmdiwindow, winui._win32_createmdiwindow, winuser/CreateMDIWindow, winuser/CreateMDIWindowA, winuser/CreateMDIWindowW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

@@ -4,10 +4,10 @@ title: InternetInitializeAutoProxyDll function
 author: windows-sdk-content
 description: There are two WinINet functions named InternetInitializeAutoProxyDll.
 old-location: wininet\internetinitializeautoproxydll.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: d55d64cb-ee92-4366-a1bb-f5d421ed81c8
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: InternetInitializeAutoProxyDll, InternetInitializeAutoProxyDll function [WinINet], _inet_internetinitializeautoproxydll_function, wininet.internetinitializeautoproxydll, winineti/InternetInitializeAutoProxyDll
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wic\iwicddsframedecode.htm
 old-project: wic
 ms.assetid: 52E76A8D-E7E2-46F5-BBCC-B7C74F1B1122
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICDdsFrameDecode, IWICDdsFrameDecode interface [Windows Imaging Component], IWICDdsFrameDecode interface [Windows Imaging Component],described, wic.iwicddsframedecode, wincodec/IWICDdsFrameDecode
 ms.prod: windows
 ms.technology: windows-sdk

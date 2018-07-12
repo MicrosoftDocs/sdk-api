@@ -4,10 +4,10 @@ title: GopherCreateLocatorA function
 author: windows-sdk-content
 description: Creates a Gopher or Gopher+ locator string from the selector string's component parts.
 old-location: wininet\gophercreatelocator.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: 972a4ff9-efda-4784-9ac8-c76e679e8032
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GopherCreateLocator, GopherCreateLocator function [WinINet], GopherCreateLocatorA, GopherCreateLocatorW, _inet_gophercreatelocator_function, wininet.gophercreatelocator, wininet/GopherCreateLocator, wininet/GopherCreateLocatorA, wininet/GopherCreateLocatorW
 ms.prod: windows
 ms.technology: windows-sdk

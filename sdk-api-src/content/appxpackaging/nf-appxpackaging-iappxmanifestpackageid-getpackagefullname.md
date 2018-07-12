@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestpackageid_getpackagefullname.htm
 old-project: appxpkg
 ms.assetid: 514D2E04-5CA5-4F45-A6D8-96866588EECF
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: GetPackageFullName, GetPackageFullName method [App packaging and management], GetPackageFullName method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetPackageFullName method, IAppxManifestPackageId.GetPackageFullName, IAppxManifestPackageId::GetPackageFullName, appxpackaging/IAppxManifestPackageId::GetPackageFullName, appxpkg.iappxmanifestpackageid_getpackagefullname
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\wsresetheap.htm
 old-project: wsw
 ms.assetid: c927ccb9-66c8-4acf-bbb5-12313ea80ee0
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsResetHeap, WsResetHeap function [Web Services for Windows], webservices/WsResetHeap, wsw.wsresetheap
 ms.prod: windows
 ms.technology: windows-sdk

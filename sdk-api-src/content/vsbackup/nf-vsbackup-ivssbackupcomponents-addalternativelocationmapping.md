@@ -4,10 +4,10 @@ title: IVssBackupComponents::AddAlternativeLocationMapping
 author: windows-sdk-content
 description: The AddAlternativeLocationMapping method is used by a requester to indicate that an alternate location mapping was used to restore all the members of a file set in a given component.
 old-location: base\ivssbackupcomponents_addalternativelocationmapping.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 349ec124-f3f5-4142-8600-8d9f508c9bb2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: AddAlternativeLocationMapping, AddAlternativeLocationMapping method [VSS], AddAlternativeLocationMapping method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddAlternativeLocationMapping method, IVssBackupComponents.AddAlternativeLocationMapping, IVssBackupComponents::AddAlternativeLocationMapping, _win32_ivssbackupcomponents_addalternativelocationmapping, base.ivssbackupcomponents_addalternativelocationmapping, vsbackup/IVssBackupComponents::AddAlternativeLocationMapping
 ms.prod: windows
 ms.technology: windows-sdk

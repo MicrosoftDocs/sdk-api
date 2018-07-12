@@ -4,10 +4,10 @@ title: IBackgroundCopyManager::CreateJob
 author: windows-sdk-content
 description: Creates a job.
 old-location: bits\ibackgroundcopymanager_createjob.htm
-old-project: Bits
+old-project: bits
 ms.assetid: 6d23e3c0-673b-4f37-b6a0-e364b2d73886
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: CreateJob, CreateJob method [BITS], CreateJob method [BITS],IBackgroundCopyManager interface, IBackgroundCopyManager interface [BITS],CreateJob method, IBackgroundCopyManager.CreateJob, IBackgroundCopyManager::CreateJob, _drz_ibackgroundcopymanager_createjob, bits.ibackgroundcopymanager_createjob, bits/IBackgroundCopyManager::CreateJob
 ms.prod: windows
 ms.technology: windows-sdk

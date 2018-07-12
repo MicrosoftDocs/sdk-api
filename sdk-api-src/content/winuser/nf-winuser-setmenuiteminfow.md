@@ -7,7 +7,7 @@ old-location: menurc\setmenuiteminfo.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenuiteminfo.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: SetMenuItemInfo, SetMenuItemInfo function [Menus and Other Resources], SetMenuItemInfoA, SetMenuItemInfoW, _win32_SetMenuItemInfo, _win32_setmenuiteminfo_cpp, menurc.setmenuiteminfo, winui._win32_setmenuiteminfo, winuser/SetMenuItemInfo, winuser/SetMenuItemInfoA, winuser/SetMenuItemInfoW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

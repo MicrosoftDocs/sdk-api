@@ -4,10 +4,10 @@ title: ISmimeCapabilities::Clear
 author: windows-sdk-content
 description: Removes all objects from the collection.
 old-location: security\ismimecapabilities_clear_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 8df8eecd-c20f-40f0-a647-23d25ca76ae4
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],Clear method, ISmimeCapabilities.Clear, ISmimeCapabilities::Clear, certenroll/ISmimeCapabilities::Clear, security.ismimecapabilities_clear_method
 ms.prod: windows
 ms.technology: windows-sdk

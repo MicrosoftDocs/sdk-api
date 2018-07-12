@@ -4,10 +4,10 @@ title: ICspInformation::GetCspStatusFromOperations
 author: windows-sdk-content
 description: Creates an ICspStatus object for the first supported algorithm that is consistent with the specified signature, encryption, hashing, or cipher operation.
 old-location: security\icspinformation_getcspstatusfromoperations.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 6b551e72-2f0a-4ae8-ba06-dff1508a7d83
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetCspStatusFromOperations, GetCspStatusFromOperations method [Security], GetCspStatusFromOperations method [Security],ICspInformation interface, ICspInformation interface [Security],GetCspStatusFromOperations method, ICspInformation.GetCspStatusFromOperations, ICspInformation::GetCspStatusFromOperations, certenroll/ICspInformation::GetCspStatusFromOperations, security.icspinformation_getcspstatusfromoperations
 ms.prod: windows
 ms.technology: windows-sdk

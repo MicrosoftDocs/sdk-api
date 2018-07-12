@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandlerInfo_GetTypeLabel.htm
 old-project: shell
 ms.assetid: b1a30aad-bd8e-4375-a914-3010b86d83d9
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: GetTypeLabel, GetTypeLabel method [Windows Shell], GetTypeLabel method [Windows Shell],ISyncMgrHandlerInfo interface, ISyncMgrHandlerInfo interface [Windows Shell],GetTypeLabel method, ISyncMgrHandlerInfo.GetTypeLabel, ISyncMgrHandlerInfo::GetTypeLabel, _shell_ISyncMgrHandlerInfo_GetTypeLabel, shell.ISyncMgrHandlerInfo_GetTypeLabel, syncmgr/ISyncMgrHandlerInfo::GetTypeLabel
 ms.prod: windows
 ms.technology: windows-sdk

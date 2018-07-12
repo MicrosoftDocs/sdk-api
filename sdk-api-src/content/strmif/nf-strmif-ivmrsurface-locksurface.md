@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurface_locksurface.htm
 old-project: DirectShow
 ms.assetid: 119a6983-3639-4047-b8b4-7a8b0cb5583d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IVMRSurface interface [DirectShow],LockSurface method, IVMRSurface.LockSurface, IVMRSurface::LockSurface, IVMRSurfaceLockSurface, LockSurface, LockSurface method [DirectShow], LockSurface method [DirectShow],IVMRSurface interface, dshow.ivmrsurface_locksurface, strmif/IVMRSurface::LockSurface
 ms.prod: windows
 ms.technology: windows-sdk

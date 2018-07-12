@@ -7,7 +7,7 @@ old-location: devinst\setupdiclassguidsfromnameex.htm
 old-project: devinst
 ms.assetid: 5a692ed0-2e3a-464e-934e-2fe98d9c217b
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: SetupDiClassGuidsFromNameEx, SetupDiClassGuidsFromNameEx function [Device and Driver Installation], SetupDiClassGuidsFromNameExA, SetupDiClassGuidsFromNameExW, devinst.setupdiclassguidsfromnameex, di-rtns_de553347-9025-4477-8d83-9d1bdac1ceff.xml, setupapi/SetupDiClassGuidsFromNameEx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: automat\safearraycreatevector.htm
 old-project: automat
 ms.assetid: b794b8c6-a523-4636-8681-a936dff3fc6f
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: SafeArrayCreateVector, SafeArrayCreateVector function [Automation], _oa96_SafeArrayCreateVector, automat.safearraycreatevector, oleauto/SafeArrayCreateVector
 ms.prod: windows
 ms.technology: windows-sdk

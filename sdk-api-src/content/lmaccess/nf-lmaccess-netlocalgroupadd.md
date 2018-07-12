@@ -4,10 +4,10 @@ title: NetLocalGroupAdd function
 author: windows-sdk-content
 description: The NetLocalGroupAdd function creates a local group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netlocalgroupadd.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: 5028c1bc-8fed-4f02-8e69-d0d122b08d9f
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: 0, 1, NetLocalGroupAdd, NetLocalGroupAdd function [Network Management], _win32_netlocalgroupadd, lmaccess/NetLocalGroupAdd, netmgmt.netlocalgroupadd
 ms.prod: windows
 ms.technology: windows-sdk

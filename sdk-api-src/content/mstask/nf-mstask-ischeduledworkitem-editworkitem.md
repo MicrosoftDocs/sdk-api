@@ -4,10 +4,10 @@ title: IScheduledWorkItem::EditWorkItem
 author: windows-sdk-content
 description: Displays the Task, Schedule, and settings property pages for the work item, allowing a user set the properties on those pages.
 old-location: taskschd\ischeduledworkitem_editworkitem.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 3b0b335a-4386-4726-8758-ef5944cb5dfe
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: EditWorkItem, EditWorkItem method [Task Scheduler], EditWorkItem method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],EditWorkItem method, IScheduledWorkItem.EditWorkItem, IScheduledWorkItem::EditWorkItem, _msb_ischeduledworkitem_editworkitem, mstask/IScheduledWorkItem::EditWorkItem, taskschd.ischeduledworkitem_editworkitem
 ms.prod: windows
 ms.technology: windows-sdk

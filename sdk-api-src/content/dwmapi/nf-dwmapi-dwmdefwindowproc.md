@@ -7,7 +7,7 @@ old-location: dwm\dwmdefwindowproc.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmdefwindowproc.htm
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: DwmDefWindowProc, DwmDefWindowProc function [Desktop Window Manager], _udwm_dwmdefwindowproc, _udwm_dwmdefwindowproc_cpp, dwm.dwmdefwindowproc, dwmapi/DwmDefWindowProc, winui._udwm_dwmdefwindowproc
 ms.prod: windows
 ms.technology: windows-sdk

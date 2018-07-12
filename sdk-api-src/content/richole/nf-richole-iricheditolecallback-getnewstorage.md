@@ -4,10 +4,10 @@ title: IRichEditOleCallback::GetNewStorage
 author: windows-sdk-content
 description: Provides storage for a new object pasted from the clipboard or read in from an Rich Text Format (RTF) stream.
 old-location: controls\IRichEditOleCallback_GetNewStorage.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetnewstorage.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: GetNewStorage, GetNewStorage method [Windows Controls], GetNewStorage method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],GetNewStorage method, IRichEditOleCallback.GetNewStorage, IRichEditOleCallback::GetNewStorage, _win32_IRichEditOleCallback_GetNewStorage, _win32_IRichEditOleCallback_GetNewStorage_cpp, controls.IRichEditOleCallback_GetNewStorage, controls._win32_IRichEditOleCallback_GetNewStorage, richole/IRichEditOleCallback::GetNewStorage
 ms.prod: windows
 ms.technology: windows-sdk

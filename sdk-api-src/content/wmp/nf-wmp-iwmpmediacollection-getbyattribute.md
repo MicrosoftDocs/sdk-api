@@ -7,7 +7,7 @@ old-location: wmp\iwmpmediacollection_getbyattribute.htm
 old-project: WMP
 ms.assetid: ab1c53dd-6145-4b2b-a665-4c8c79143284
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getByAttribute method, IWMPMediaCollection.getByAttribute, IWMPMediaCollection::getByAttribute, IWMPMediaCollectiongetByAttribute, getByAttribute, getByAttribute method [Windows Media Player], getByAttribute method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getbyattribute, wmp/IWMPMediaCollection::getByAttribute
 ms.prod: windows
 ms.technology: windows-sdk

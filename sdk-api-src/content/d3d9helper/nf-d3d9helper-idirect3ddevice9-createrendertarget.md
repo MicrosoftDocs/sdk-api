@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__createrendertarget.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createrendertarget.htm
 ms.author: windowssdkdev
-ms.date: 04/10/2018
+ms.date: 04/11/2018
 ms.keywords: CreateRenderTarget, CreateRenderTarget method [Direct3D 9], CreateRenderTarget method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateRenderTarget method, IDirect3DDevice9.CreateRenderTarget, IDirect3DDevice9::CreateRenderTarget, d3d9helper/IDirect3DDevice9::CreateRenderTarget, direct3d9.idirect3ddevice9__createrendertarget, f8f172a7-3890-99e5-8a2b-5de407ffecf4
 ms.prod: windows
 ms.technology: windows-sdk

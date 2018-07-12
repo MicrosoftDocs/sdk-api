@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphseditor_getglyphmappingcount.htm
 old-project: printdocs
 ms.assetid: 06aa2546-c1d1-47d6-9d3d-94d13310e42b
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetGlyphMappingCount, GetGlyphMappingCount method [XPS Documents and Packaging], GetGlyphMappingCount method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetGlyphMappingCount method, IXpsOMGlyphsEditor.GetGlyphMappingCount, IXpsOMGlyphsEditor::GetGlyphMappingCount, xps.ixpsomglyphseditor_getglyphmappingcount, xpsobjectmodel/IXpsOMGlyphsEditor::GetGlyphMappingCount
 ms.prod: windows
 ms.technology: windows-sdk

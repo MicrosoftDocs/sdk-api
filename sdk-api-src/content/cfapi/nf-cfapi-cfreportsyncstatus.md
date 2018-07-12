@@ -7,7 +7,7 @@ old-location: cloudapi\cfreportsyncstatus.htm
 old-project: cfApi
 ms.assetid: DC77D18A-CBF4-4172-815A-AB49A48D10B3
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CfReportSyncStatus, CfReportSyncStatus function, cfapi/CfReportSyncStatus, cloudApi.cfreportsyncstatus
 ms.prod: windows
 ms.technology: windows-sdk

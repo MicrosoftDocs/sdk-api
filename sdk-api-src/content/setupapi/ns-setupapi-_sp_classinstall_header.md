@@ -7,7 +7,7 @@ old-location: devinst\sp_classinstall_header.htm
 old-project: devinst
 ms.assetid: 9f76b741-d2a7-484d-94cb-b559b017399d
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: "*PSP_CLASSINSTALL_HEADER, PSP_CLASSINSTALL_HEADER, PSP_CLASSINSTALL_HEADER structure pointer [Device and Driver Installation], SP_CLASSINSTALL_HEADER, SP_CLASSINSTALL_HEADER structure [Device and Driver Installation], _SP_CLASSINSTALL_HEADER, devinst.sp_classinstall_header, di-struct_96e0dbc0-fe54-4731-9ec7-0e633b521297.xml, setupapi/PSP_CLASSINSTALL_HEADER, setupapi/SP_CLASSINSTALL_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk

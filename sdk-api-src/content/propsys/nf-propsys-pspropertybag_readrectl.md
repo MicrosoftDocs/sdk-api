@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadRECTL.htm
 old-project: properties
 ms.assetid: 4DAABF63-7CBA-4361-9E58-7072869CFDEC
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PSPropertyBag_ReadRECTL, PSPropertyBag_ReadRECTL function [Windows Properties], properties.PSPropertyBag_ReadRECTL, propsys/PSPropertyBag_ReadRECTL, shell.PSPropertyBag_ReadRECTL, shell_PSPropertyBag_ReadRECTL
 ms.prod: windows
 ms.technology: windows-sdk

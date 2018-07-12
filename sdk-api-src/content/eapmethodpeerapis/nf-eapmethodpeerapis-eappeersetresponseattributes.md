@@ -4,10 +4,10 @@ title: EapPeerSetResponseAttributes function
 author: windows-sdk-content
 description: Provides an updated array of EAP response attributes to the EAP method.
 old-location: eaphost\eappeersetresponseattributes.htm
-old-project: EAPHost
+old-project: eaphost
 ms.assetid: 340f5284-53cb-4e1d-9df5-2b9c75774c0d
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: EapPeerSetResponseAttributes, EapPeerSetResponseAttributes function [EAPHost], eaphost.eappeersetresponseattributes, eapmethodpeerapis/EapPeerSetResponseAttributes
 ms.prod: windows
 ms.technology: windows-sdk

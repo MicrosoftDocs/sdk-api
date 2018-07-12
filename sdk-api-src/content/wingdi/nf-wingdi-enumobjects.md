@@ -7,7 +7,7 @@ old-location: gdi\enumobjects.htm
 old-project: gdi
 ms.assetid: 2a7b60b2-9a68-4c56-9376-c1b780488535
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: EnumObjects, EnumObjects function [Windows GDI], _win32_EnumObjects, gdi.enumobjects, wingdi/EnumObjects
 ms.prod: windows
 ms.technology: windows-sdk

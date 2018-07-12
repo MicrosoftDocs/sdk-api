@@ -4,10 +4,10 @@ title: ICspInformation::GetDefaultSecurityDescriptor
 author: windows-sdk-content
 description: Retrieves the default private key security descriptor.
 old-location: security\icspinformation_getdefaultsecuritydescriptor.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: b4594400-29f2-47e2-8b4f-87ee82ea5e82
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetDefaultSecurityDescriptor, GetDefaultSecurityDescriptor method [Security], GetDefaultSecurityDescriptor method [Security],ICspInformation interface, ICspInformation interface [Security],GetDefaultSecurityDescriptor method, ICspInformation.GetDefaultSecurityDescriptor, ICspInformation::GetDefaultSecurityDescriptor, certenroll/ICspInformation::GetDefaultSecurityDescriptor, security.icspinformation_getdefaultsecuritydescriptor
 ms.prod: windows
 ms.technology: windows-sdk

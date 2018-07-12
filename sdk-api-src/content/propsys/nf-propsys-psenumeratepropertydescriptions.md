@@ -7,7 +7,7 @@ old-location: properties\PSEnumeratePropertyDescriptions.htm
 old-project: properties
 ms.assetid: 687d5a32-3a2e-4b9b-b06c-ca06a6cd1595
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PSEnumeratePropertyDescriptions, PSEnumeratePropertyDescriptions function [Windows Properties], properties.PSEnumeratePropertyDescriptions, propsys/PSEnumeratePropertyDescriptions, shell.PSEnumeratePropertyDescriptions, shell_PSEnumeratePropertyDescriptions
 ms.prod: windows
 ms.technology: windows-sdk

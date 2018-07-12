@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs_getprohibitedcaretstops.htm
 old-project: printdocs
 ms.assetid: 9e5372af-5233-4278-8b84-c3a308cc3041
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetProhibitedCaretStops, GetProhibitedCaretStops method [XPS Documents and Packaging], GetProhibitedCaretStops method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetProhibitedCaretStops method, IXpsOMGlyphs.GetProhibitedCaretStops, IXpsOMGlyphs::GetProhibitedCaretStops, xps.ixpsomglyphs_getprohibitedcaretstops, xpsobjectmodel/IXpsOMGlyphs::GetProhibitedCaretStops
 ms.prod: windows
 ms.technology: windows-sdk

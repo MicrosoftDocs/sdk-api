@@ -4,10 +4,10 @@ title: ShowHideMenuCtl function
 author: windows-sdk-content
 description: Sets or removes the specified menu item's check mark attribute and shows or hides the corresponding control.
 old-location: controls\ShowHideMenuCtl.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\showhidemenuctl.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ShowHideMenuCtl, ShowHideMenuCtl function [Windows Controls], _win32_ShowHideMenuCtl, _win32_ShowHideMenuCtl_cpp, commctrl/ShowHideMenuCtl, controls.ShowHideMenuCtl, controls._win32_ShowHideMenuCtl
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DsValidateSubnetNameW function
 author: windows-sdk-content
 description: The DsValidateSubnetName function validates a subnet name in the form xxx.xxx.xxx.xxx/YY.
 old-location: ad\dsvalidatesubnetname.htm
-old-project: AD
+old-project: ad
 ms.assetid: bed49e08-4cb7-439c-bfb7-815263ec7568
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DsValidateSubnetName, DsValidateSubnetName function [Active Directory], DsValidateSubnetNameA, DsValidateSubnetNameW, _glines_dsvalidatesubnetname, ad.dsvalidatesubnetname, dsgetdc/DsValidateSubnetName, dsgetdc/DsValidateSubnetNameA, dsgetdc/DsValidateSubnetNameW
 ms.prod: windows
 ms.technology: windows-sdk

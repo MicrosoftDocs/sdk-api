@@ -4,10 +4,10 @@ title: FwpmProviderDestroyEnumHandle0 function
 author: windows-sdk-content
 description: Frees a handle returned by FwpmProviderCreateEnumHandle0.
 old-location: fwp\fwpmproviderdestroyenumhandle0_func.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: a3402150-ea99-4456-b2c4-ab7643058861
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FwpmProviderDestroyEnumHandle0, FwpmProviderDestroyEnumHandle0 function [Filtering], fwp.fwpmproviderdestroyenumhandle0_func, fwpmu/FwpmProviderDestroyEnumHandle0
 ms.prod: windows
 ms.technology: windows-sdk

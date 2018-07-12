@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromStringVector.htm
 old-project: properties
 ms.assetid: 4190337f-f9f6-4584-b667-6b96c1ce48c8
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: InitPropVariantFromStringVector, InitPropVariantFromStringVector function [Windows Properties], properties.InitPropVariantFromStringVector, propvarutil/InitPropVariantFromStringVector, shell.InitPropVariantFromStringVector, shell_InitPropVariantFromStringVector
 ms.prod: windows
 ms.technology: windows-sdk

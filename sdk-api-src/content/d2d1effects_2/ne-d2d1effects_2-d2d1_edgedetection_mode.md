@@ -4,10 +4,10 @@ title: D2D1_EDGEDETECTION_MODE
 author: windows-sdk-content
 description: Values for the D2D1_EDGEDETECTION_PROP_MODE property of the Edge Detection effect.
 old-location: direct2d\d2d1_edgedetection_mode.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 22C57518-8617-44F3-BC04-42605A77985C
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: D2D1_EDGEDETECTION_MODE, D2D1_EDGEDETECTION_MODE enumeration [Direct2D], D2D1_EDGEDETECTION_MODE_PREWITT, D2D1_EDGEDETECTION_MODE_SOBEL, d2d1effects_2/D2D1_EDGEDETECTION_MODE, d2d1effects_2/D2D1_EDGEDETECTION_MODE_PREWITT, d2d1effects_2/D2D1_EDGEDETECTION_MODE_SOBEL, direct2d.d2d1_edgedetection_mode
 ms.prod: windows
 ms.technology: windows-sdk

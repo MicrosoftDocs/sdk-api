@@ -4,10 +4,10 @@ title: WdsCliInitializeLog function
 author: windows-sdk-content
 description: Initializes logging for the WDS client.
 old-location: wds\wdscliinitializelog.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 9d5ad574-a2b6-49cc-8783-4947c3d81d25
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: PROCESSOR_ARCHITECTURE_AMD64, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_INTEL, WdsCliInitializeLog, WdsCliInitializeLog function [Windows Deployment Services], wds.wdscliinitializelog, wdsclientapi/WdsCliInitializeLog
 ms.prod: windows
 ms.technology: windows-sdk

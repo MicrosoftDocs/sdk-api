@@ -4,10 +4,10 @@ title: DSQUERYPARAMS
 author: windows-sdk-content
 description: The DSQUERYPARAMS structure contains query data used by the directory service query when searching the directory service.
 old-location: ad\dsqueryparams.htm
-old-project: AD
+old-project: ad
 ms.assetid: 78c3fb1c-275e-45b6-bbe9-ae2d85864e6a
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*LPDSQUERYPARAMS, DSQUERYPARAMS, DSQUERYPARAMS structure [Active Directory], LPDSQUERYPARAMS, LPDSQUERYPARAMS structure pointer [Active Directory], _glines_dsqueryparams, ad.dsqueryparams, dsquery/DSQUERYPARAMS, dsquery/LPDSQUERYPARAMS"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IEnumPluggableTerminalClassInfo::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumpluggableterminalclassinfo_clone.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: cc5fb452-c166-46dc-a529-be08924b15a4
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumPluggableTerminalClassInfo interface, IEnumPluggableTerminalClassInfo interface [TAPI 2.2],Clone method, IEnumPluggableTerminalClassInfo.Clone, IEnumPluggableTerminalClassInfo::Clone, _tapi3_ienumpluggableterminalclassinfo_clone, tapi3.ienumpluggableterminalclassinfo_clone, tapi3if/IEnumPluggableTerminalClassInfo::Clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,8 +131,8 @@ The method failed for unknown reasons.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/72c0db41-8391-4923-8961-6aefce9886c4">IEnumPluggableTerminalClassInfo</a> interface returned by <b>IEnumPluggableTerminalClassInfo::Clone</b>. The application must call <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/72c0db41-8391-4923-8961-6aefce9886c4">IEnumPluggableTerminalClassInfo</a> interface returned by <b>IEnumPluggableTerminalClassInfo::Clone</b>. The application must call <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">Release</a> on the 
 <b>IEnumPluggableTerminalClassInfo</b> interface to free resources associated with it.
 
 

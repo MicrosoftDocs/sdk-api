@@ -4,10 +4,10 @@ title: ISClusResources::Refresh
 author: windows-sdk-content
 description: Refreshes the data in the ClusResources collection.
 old-location: mscs\clusresources_refresh.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: db828d6a-6037-4d42-a32a-d99add06da18
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResources collection [Failover Cluster],Refresh method, ClusResources.Refresh, ISClusResources.Refresh, ISClusResources::Refresh, Refresh, Refresh method [Failover Cluster], Refresh method [Failover Cluster],ClusResources collection, _wolf_clusresources.refresh, mscs.clusresources_refresh
 ms.prod: windows
 ms.technology: windows-sdk

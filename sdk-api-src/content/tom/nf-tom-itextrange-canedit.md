@@ -4,10 +4,10 @@ title: ITextRange::CanEdit
 author: windows-sdk-content
 description: Determines whether the specified range can be edited.
 old-location: controls\ITextRange_CanEdit.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\canedit.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: CanEdit, CanEdit method [Windows Controls], CanEdit method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],CanEdit method, ITextRange.CanEdit, ITextRange::CanEdit, _win32_ITextRange_CanEdit, _win32_ITextRange_CanEdit_cpp, controls.ITextRange_CanEdit, controls._win32_ITextRange_CanEdit, tom/ITextRange::CanEdit
 ms.prod: windows
 ms.technology: windows-sdk

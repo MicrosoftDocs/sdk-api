@@ -7,7 +7,7 @@ old-location: devinst\setupdisetdeviceinstallparams.htm
 old-project: devinst
 ms.assetid: 20384538-e124-41f7-94a6-c0fb9f5fe6a0
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: SetupDiSetDeviceInstallParams, SetupDiSetDeviceInstallParams function [Device and Driver Installation], SetupDiSetDeviceInstallParamsA, SetupDiSetDeviceInstallParamsW, devinst.setupdisetdeviceinstallparams, di-rtns_4d977738-ea9e-4bb7-b0a6-37099647b8c8.xml, setupapi/SetupDiSetDeviceInstallParams
 ms.prod: windows
 ms.technology: windows-sdk

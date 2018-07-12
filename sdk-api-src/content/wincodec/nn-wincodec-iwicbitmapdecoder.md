@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapdecoder.htm
 old-project: wic
 ms.assetid: 91dafd5e-e4fb-4691-a3d0-ca8b6ff0aaf7
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICBitmapDecoder, IWICBitmapDecoder interface [Windows Imaging Component], IWICBitmapDecoder interface [Windows Imaging Component],described, _wic_codec_iwicbitmapdecoder, wic._wic_codec_iwicbitmapdecoder, wincodec/IWICBitmapDecoder
 ms.prod: windows
 ms.technology: windows-sdk

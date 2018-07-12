@@ -4,10 +4,10 @@ title: "_BLUETOOTH_ADDRESS"
 author: windows-sdk-content
 description: The BLUETOOTH_ADDRESS structure provides the address of a Bluetooth device.
 old-location: bluetooth\bluetooth_address.htm
-old-project: Bluetooth
+old-project: bluetooth
 ms.assetid: 2262a91b-c8b0-415a-9c23-7504998cc2a4
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: BLUETOOTH_ADDRESS, BLUETOOTH_ADDRESS structure [Bluetooth], BLUETOOTH_ADDRESS_STRUCT, _BLUETOOTH_ADDRESS, _bth_bluetooth_address, bluetooth.bluetooth_address, bluetoothapis/BLUETOOTH_ADDRESS
 ms.prod: windows
 ms.technology: windows-sdk

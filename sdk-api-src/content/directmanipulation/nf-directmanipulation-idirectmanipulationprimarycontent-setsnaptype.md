@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationprimarycontent_setsnaptype.h
 old-project: directmanipulation
 ms.assetid: 0f1ad54d-8c9a-4b3c-a78b-fe02cb889ca9
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetSnapType method, IDirectManipulationPrimaryContent.SetSnapType, IDirectManipulationPrimaryContent::SetSnapType, SetSnapType, SetSnapType method [Direct Manipulation], SetSnapType method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setsnaptype, directmanipulation/IDirectManipulationPrimaryContent::SetSnapType
 ms.prod: windows
 ms.technology: windows-sdk

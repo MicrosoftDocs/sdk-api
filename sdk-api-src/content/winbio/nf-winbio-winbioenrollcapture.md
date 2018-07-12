@@ -4,10 +4,10 @@ title: WinBioEnrollCapture function
 author: windows-sdk-content
 description: Captures a biometric sample and adds it to a template. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioenrollcapture.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: a50f0c9f-7b9c-4d80-b8fc-8b83bc333578
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: WinBioEnrollCapture, WinBioEnrollCapture function [Windows Biometric Framework API], secbiomet.winbioenrollcapture, winbio/WinBioEnrollCapture
 ms.prod: windows
 ms.technology: windows-sdk

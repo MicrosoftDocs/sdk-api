@@ -7,7 +7,7 @@ old-location: winsync\isyncsessionextendederrorinfo.htm
 old-project: winsync
 ms.assetid: 0c6f90af-f4ca-4fa9-8050-acc61b4ee8d2
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: ISyncSessionExtendedErrorInfo, ISyncSessionExtendedErrorInfo interface [Windows Sync], ISyncSessionExtendedErrorInfo interface [Windows Sync],described, winsync.isyncsessionextendederrorinfo, winsync/ISyncSessionExtendedErrorInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_writer_encoding_type.htm
 old-project: wsw
 ms.assetid: 3974f8f7-f58f-4df7-85b0-7df3fcf76cf3
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_XML_WRITER_ENCODING_TYPE, WS_XML_WRITER_ENCODING_TYPE enumeration [Web Services for Windows], WS_XML_WRITER_ENCODING_TYPE_BINARY, WS_XML_WRITER_ENCODING_TYPE_MTOM, WS_XML_WRITER_ENCODING_TYPE_TEXT, webservices/WS_XML_WRITER_ENCODING_TYPE, webservices/WS_XML_WRITER_ENCODING_TYPE_BINARY, webservices/WS_XML_WRITER_ENCODING_TYPE_MTOM, webservices/WS_XML_WRITER_ENCODING_TYPE_TEXT, wsw.ws_xml_writer_encoding_type
 ms.prod: windows
 ms.technology: windows-sdk

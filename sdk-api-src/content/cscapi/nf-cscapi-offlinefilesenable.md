@@ -4,10 +4,10 @@ title: OfflineFilesEnable function
 author: windows-sdk-content
 description: Enables or disables the Offline Files feature.
 old-location: of\offlinefilesenable.htm
-old-project: OfflineFiles
+old-project: offlinefiles
 ms.assetid: ea29b1f5-3f7e-479a-9409-f63c708d9c64
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: OfflineFilesEnable, OfflineFilesEnable function [Offline Files], cscapi/OfflineFilesEnable, of.offlinefilesenable
 ms.prod: windows
 ms.technology: windows-sdk

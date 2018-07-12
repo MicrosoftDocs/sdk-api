@@ -7,7 +7,7 @@ old-location: display\getdisplayconfigbuffersizes.htm
 old-project: display
 ms.assetid: 5ec7f521-28b5-4922-a3fc-aa4433de69e0
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: CCD_Functions_0d604cd6-222b-4e6e-a8aa-60866d3f3ef6.xml, GetDisplayConfigBufferSizes, GetDisplayConfigBufferSizes function [Display Devices], display.getdisplayconfigbuffersizes, winuser/GetDisplayConfigBufferSizes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

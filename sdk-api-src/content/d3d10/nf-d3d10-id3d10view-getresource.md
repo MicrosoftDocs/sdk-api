@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10view_getresource.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10view_getresource.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: GetResource, GetResource method [Direct3D 10], GetResource method [Direct3D 10],ID3D10View interface, ID3D10View interface [Direct3D 10],GetResource method, ID3D10View.GetResource, ID3D10View::GetResource, affb4f45-35eb-1680-9945-930b6caf601f, d3d10/ID3D10View::GetResource, direct3d10.id3d10view_getresource
 ms.prod: windows
 ms.technology: windows-sdk

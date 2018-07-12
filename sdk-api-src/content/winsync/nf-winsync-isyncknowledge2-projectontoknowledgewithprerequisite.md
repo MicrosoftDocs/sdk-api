@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge2_projectontoknowledgewithprerequisite.htm
 old-project: winsync
 ms.assetid: 71794c37-fea2-466b-a8dd-8a502b178f1b
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: ISyncKnowledge2 interface [Windows Sync],ProjectOntoKnowledgeWithPrerequisite method, ISyncKnowledge2.ProjectOntoKnowledgeWithPrerequisite, ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite, ProjectOntoKnowledgeWithPrerequisite, ProjectOntoKnowledgeWithPrerequisite method [Windows Sync], ProjectOntoKnowledgeWithPrerequisite method [Windows Sync],ISyncKnowledge2 interface, winsync.isyncknowledge2_projectontoknowledgewithprerequisite, winsync/ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite
 ms.prod: windows
 ms.technology: windows-sdk

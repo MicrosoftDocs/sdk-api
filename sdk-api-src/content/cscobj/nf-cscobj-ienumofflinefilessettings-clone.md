@@ -4,10 +4,10 @@ title: IEnumOfflineFilesSettings::Clone
 author: windows-sdk-content
 description: Creates a new instance of the enumerator with the same enumeration state as the current one.
 old-location: of\ienumofflinefilessettings_clone.htm
-old-project: OfflineFiles
+old-project: offlinefiles
 ms.assetid: 85c2e5a3-4b1c-4a21-8693-804c088a7a56
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: Clone, Clone method [Offline Files], Clone method [Offline Files],IEnumOfflineFilesSettings interface, IEnumOfflineFilesSettings interface [Offline Files],Clone method, IEnumOfflineFilesSettings.Clone, IEnumOfflineFilesSettings::Clone, cscobj/IEnumOfflineFilesSettings::Clone, of.ienumofflinefilessettings_clone
 ms.prod: windows
 ms.technology: windows-sdk

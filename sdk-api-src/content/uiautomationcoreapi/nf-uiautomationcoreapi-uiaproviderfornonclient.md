@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaProviderForNonClientFunction.htm
 old-project: WinAuto
 ms.assetid: 440E6659-C62F-4567-B00F-B0F0B0F21817
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: UiaProviderForNonClient, UiaProviderForNonClient function [Windows Accessibility], uiautomationcoreapi/UiaProviderForNonClient, winauto.uiauto_UiaProviderForNonClientFunction
 ms.prod: windows
 ms.technology: windows-sdk

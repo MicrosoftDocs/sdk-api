@@ -7,7 +7,7 @@ old-location: base\openjobobject.htm
 old-project: ProcThread
 ms.assetid: cb6ebc6f-5c61-408d-a781-ba029c83ddeb
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: OpenJobObject, OpenJobObject function, OpenJobObjectA, OpenJobObjectW, _win32_openjobobject, base.openjobobject, winbase/OpenJobObject, winbase/OpenJobObjectA, winbase/OpenJobObjectW
 ms.prod: windows
 ms.technology: windows-sdk

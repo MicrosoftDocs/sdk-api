@@ -4,10 +4,10 @@ title: ISClusResGroupPreferredOwnerNodes::get_Count
 author: windows-sdk-content
 description: Number of nodes in the ClusResGroupPreferredOwnerNodes collection.
 old-location: mscs\clusresgrouppreferredownernodes_count.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 02ea0677-45e0-4bce-bd01-2204703b613a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResGroupPreferredOwnerNodes class [Failover Cluster],Count property, ClusResGroupPreferredOwnerNodes.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusResGroupPreferredOwnerNodes class, ISClusResGroupPreferredOwnerNodes.get_Count, ISClusResGroupPreferredOwnerNodes::get_Count, _wolf_clusresgrouppreferredownernodes.count, get_Count, mscs.clusresgrouppreferredownernodes_count
 ms.prod: windows
 ms.technology: windows-sdk

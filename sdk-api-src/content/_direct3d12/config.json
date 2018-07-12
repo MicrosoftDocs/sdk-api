@@ -6,6 +6,5 @@
     "d3d12shader.h",
     "d3d11on12.h",
     "d3dx12.h"
-  ],
-  "displayName": "Direct3D 12 Graphics"
+  ]
 }

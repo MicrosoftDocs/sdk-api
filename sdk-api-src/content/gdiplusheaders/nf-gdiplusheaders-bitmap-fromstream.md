@@ -67,9 +67,9 @@ Type: <b><a href="https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx">ISt
 Pointer to an 
 					<a href="https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx">IStream</a>COMCOM interface. The implementation of 
 					IStream must include the 
-					<a href="_stg_istream_seek">IStream::Seek</a>, 
+					<a href="https://msdn.microsoft.com/library/Aa380043(v=VS.85).aspx">IStream::Seek</a>, 
 					<b>Read</b>, and 
-					<a href="_stg_istream_stat">IStream::Stat</a> methods. 
+					<a href="https://msdn.microsoft.com/library/Aa380045(v=VS.85).aspx">IStream::Stat</a> methods. 
 
 
 ### -param useEmbeddedColorManagement [in]

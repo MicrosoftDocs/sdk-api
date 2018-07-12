@@ -7,7 +7,7 @@ old-location: com\hresult_from_nt_macro.htm
 old-project: com
 ms.assetid: e8bf07b8-6bc4-4a6a-b982-03b6436ca6b0
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: HRESULT_FROM_NT, HRESULT_FROM_NT macro [COM], _com_HRESULT_FROM_NT, com.hresult_from_nt, com.hresult_from_nt_macro, winerror/HRESULT_FROM_NT
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: automat\bstr_usermarshal64.htm
 old-project: automat
 ms.assetid: f61b9e6b-14f1-4171-97c7-169547286626
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: BSTR_UserMarshal64, BSTR_UserMarshal64 function [Automation], automat.bstr_usermarshal64, oaidl/BSTR_UserMarshal64
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\drawfocusrect.htm
 old-project: gdi
 ms.assetid: a910d04f-fe4d-4fc9-a518-abac864da6f3
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: DrawFocusRect, DrawFocusRect function [Windows GDI], _win32_DrawFocusRect, gdi.drawfocusrect, winuser/DrawFocusRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

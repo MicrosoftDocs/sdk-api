@@ -4,10 +4,10 @@ title: "_MIB_TCP6TABLE"
 author: windows-sdk-content
 description: Contains a table of TCP connections for IPv6 on the local computer.
 old-location: mib\mib_tcp6table.htm
-old-project: MIB
+old-project: mib
 ms.assetid: 62bb8544-0a0a-40b5-92cf-9631c9a9987c
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 05/15/2018
 ms.keywords: "*PMIB_TCP6TABLE, MIB_TCP6TABLE, MIB_TCP6TABLE structure [MIB], PMIB_TCP6TABLE, PMIB_TCP6TABLE structure pointer [MIB], _MIB_TCP6TABLE, mib.mib_tcp6table, tcpmib/MIB_TCP6TABLE, tcpmib/PMIB_TCP6TABLE"
 ms.prod: windows
 ms.technology: windows-sdk

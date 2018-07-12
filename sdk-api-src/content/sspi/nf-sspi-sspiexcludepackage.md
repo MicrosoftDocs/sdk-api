@@ -7,7 +7,7 @@ old-location: security\sspiexcludepackage.htm
 old-project: SecAuthN
 ms.assetid: 2f85bb13-b72a-4c26-a328-9424a33a63b8
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: SspiExcludePackage, SspiExcludePackage function [Security], security.sspiexcludepackage, sspi/SspiExcludePackage
 ms.prod: windows
 ms.technology: windows-sdk

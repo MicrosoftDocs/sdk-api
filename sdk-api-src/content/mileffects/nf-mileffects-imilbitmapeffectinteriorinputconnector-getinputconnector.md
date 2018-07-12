@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectinteriorinputconnector_getinputconnecto
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinteriorinputconnector\getinputconnector.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: GetInputConnector, GetInputConnector method [WPF Bitmap Effects], GetInputConnector method [WPF Bitmap Effects],IMILBitmapEffectInteriorInputConnector interface, IMILBitmapEffectInteriorInputConnector interface [WPF Bitmap Effects],GetInputConnector method, IMILBitmapEffectInteriorInputConnector.GetInputConnector, IMILBitmapEffectInteriorInputConnector::GetInputConnector, _wibe_imilbitmapeffectinteriorinputconnector_getinputconnector, mileffects/IMILBitmapEffectInteriorInputConnector::GetInputConnector, wibe._wibe_imilbitmapeffectinteriorinputconnector_getinputconnector
 ms.prod: windows
 ms.technology: windows-sdk

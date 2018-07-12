@@ -4,10 +4,10 @@ title: IOCTL_DISK_GET_DRIVE_LAYOUT_EX
 author: windows-sdk-content
 description: Retrieves extended information for each entry in the partition tables for a disk.
 old-location: fs\ioctl_disk_get_drive_layout_ex.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 21507182-5a33-4e58-b5ed-3724feefa4ed
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_LAYOUT_EX, IOCTL_DISK_GET_DRIVE_LAYOUT_EX control, IOCTL_DISK_GET_DRIVE_LAYOUT_EX control code [Files], _win32_ioctl_disk_get_drive_layout_ex, base.ioctl_disk_get_drive_layout_ex, fs.ioctl_disk_get_drive_layout_ex, winioctl/IOCTL_DISK_GET_DRIVE_LAYOUT_EX
 ms.prod: windows
 ms.technology: windows-sdk

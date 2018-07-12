@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolmanager.htm
 old-project: TermServ
 ms.assetid: 626d579a-88a2-4f72-9d91-b27e517b4806
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: IWRdsProtocolManager, IWRdsProtocolManager interface [Remote Desktop Services], IWRdsProtocolManager interface [Remote Desktop Services],described, termserv.iwrdsprotocolmanager, wtsprotocol/IWRdsProtocolManager
 ms.prod: windows
 ms.technology: windows-sdk

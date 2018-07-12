@@ -4,10 +4,10 @@ title: ISdoDictionaryOld::GetAttributeInfo
 author: windows-sdk-content
 description: The GetAttributeInfo retrieves information for the specified attribute.
 old-location: nps\SDO_isdodictionaryold_getattributeinfo.htm
-old-project: Nps
+old-project: nps
 ms.assetid: 80535d3c-17bb-482b-b5bb-7d747f238b62
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetAttributeInfo, GetAttributeInfo method [Network Policy Server], GetAttributeInfo method [Network Policy Server],ISdoDictionaryOld interface, ISdoDictionaryOld interface [Network Policy Server],GetAttributeInfo method, ISdoDictionaryOld.GetAttributeInfo, ISdoDictionaryOld::GetAttributeInfo, _sdo_isdodictionaryold_getattributeinfo, nps.SDO_isdodictionaryold_getattributeinfo, sdo.isdodictionaryold_getattributeinfo, sdoias/ISdoDictionaryOld::GetAttributeInfo
 ms.prod: windows
 ms.technology: windows-sdk

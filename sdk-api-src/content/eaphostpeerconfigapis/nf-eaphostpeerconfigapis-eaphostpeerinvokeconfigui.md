@@ -4,10 +4,10 @@ title: EapHostPeerInvokeConfigUI function
 author: windows-sdk-content
 description: Starts the configuration user interface of the specified EAP method.
 old-location: eaphost\eaphostpeerinvokeconfigui.htm
-old-project: EAPHost
+old-project: eaphost
 ms.assetid: afb20482-a439-437d-9c8f-c4e87e440113
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: EapHostPeerInvokeConfigUI, EapHostPeerInvokeConfigUI function [EAPHost], eaphost.eaphostpeerinvokeconfigui, eaphostpeerconfigapis/EapHostPeerInvokeConfigUI
 ms.prod: windows
 ms.technology: windows-sdk

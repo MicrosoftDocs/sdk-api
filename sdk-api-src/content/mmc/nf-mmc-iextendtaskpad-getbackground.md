@@ -4,10 +4,10 @@ title: IExtendTaskPad::GetBackground
 author: windows-sdk-content
 description: The IExtendTaskPad::GetBackground method enables MMC to get the taskpad's background image to display in taskpads that use MMC taskpad templates.
 old-location: mmc\iextendtaskpad_getbackground.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: e34fc088-61d7-46a8-b493-8255a733d521
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: GetBackground, GetBackground method [MMC], GetBackground method [MMC],IExtendTaskPad interface, IExtendTaskPad interface [MMC],GetBackground method, IExtendTaskPad.GetBackground, IExtendTaskPad::GetBackground, _slate_iextendtaskpad_getbackground, mmc.iextendtaskpad_getbackground, mmc/IExtendTaskPad::GetBackground
 ms.prod: windows
 ms.technology: windows-sdk

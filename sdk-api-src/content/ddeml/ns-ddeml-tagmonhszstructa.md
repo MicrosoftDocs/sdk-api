@@ -7,7 +7,7 @@ old-location: dataxchg\monhszstruct_str.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\monhszstruct.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*PMONHSZSTRUCTA, MH_CLEANUP, MH_CREATE, MH_DELETE, MH_KEEP, MONHSZSTRUCT, MONHSZSTRUCT structure [Data Exchange], MONHSZSTRUCTA, MONHSZSTRUCTW, PMONHSZSTRUCT, PMONHSZSTRUCT structure pointer [Data Exchange], _win32_MONHSZSTRUCT_str, _win32_monhszstruct_str_cpp, dataxchg.monhszstruct_str, ddeml/MONHSZSTRUCT, ddeml/MONHSZSTRUCTA, ddeml/MONHSZSTRUCTW, ddeml/PMONHSZSTRUCT, tagMONHSZSTRUCTA, winui._win32_monhszstruct_str"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IntServFlowSpec
 author: windows-sdk-content
 description: The IntServFlowSpec structure contains information about Integrated Services flowspecs.
 old-location: qos\intservflowspec.htm
-old-project: QOS
+old-project: qos
 ms.assetid: c16115ba-03fa-4363-bf16-5341da54f792
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: IntServFlowSpec, IntServFlowSpec structure [QOS], lpmapi/IntServFlowSpec, qos.intservflowspec
 ms.prod: windows
 ms.technology: windows-sdk

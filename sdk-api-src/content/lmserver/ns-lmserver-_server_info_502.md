@@ -4,10 +4,10 @@ title: "_SERVER_INFO_502"
 author: windows-sdk-content
 description: The SERVER_INFO_502 structure is obsolete. The structure contains information about a specified server.
 old-location: netmgmt\server_info_502_str.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: 97657dff-7bd1-4108-934b-8203f41b3742
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: "*LPSERVER_INFO_502, *PSERVER_INFO_502, LPSERVER_INFO_502, LPSERVER_INFO_502 structure pointer [Network Management], PSERVER_INFO_502, PSERVER_INFO_502 structure pointer [Network Management], SERVER_INFO_502, SERVER_INFO_502 structure [Network Management], _SERVER_INFO_502, _win32_server_info_502_str, lmserver/LPSERVER_INFO_502, lmserver/PSERVER_INFO_502, lmserver/SERVER_INFO_502, netmgmt.server_info_502_str"
 ms.prod: windows
 ms.technology: windows-sdk

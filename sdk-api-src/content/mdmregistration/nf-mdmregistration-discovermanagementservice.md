@@ -7,7 +7,7 @@ old-location: mdmreg\discovermanagementservice.htm
 old-project: MDMReg
 ms.assetid: 0b01225c-83db-4b13-ad7e-52beae05a8ee
 ms.author: windowssdkdev
-ms.date: 02/20/2018
+ms.date: 02/21/2018
 ms.keywords: DiscoverManagementService, DiscoverManagementService function [MDM Registration], mdmreg.discovermanagementservice, mdmregistration/DiscoverManagementService
 ms.prod: windows
 ms.technology: windows-sdk

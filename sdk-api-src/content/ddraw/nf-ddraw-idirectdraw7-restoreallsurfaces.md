@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_restoreallsurfaces.htm
 old-project: directdraw
 ms.assetid: 72897004-cd44-4ca4-bc28-a49bffc09c76
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/18/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],RestoreAllSurfaces method, IDirectDraw7.RestoreAllSurfaces, IDirectDraw7::RestoreAllSurfaces, RestoreAllSurfaces, RestoreAllSurfaces method [DirectDraw], RestoreAllSurfaces method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::RestoreAllSurfaces, directdraw.idirectdraw7_restoreallsurfaces
 ms.prod: windows
 ms.technology: windows-sdk

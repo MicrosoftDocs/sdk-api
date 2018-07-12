@@ -4,10 +4,10 @@ title: "_PerfRegInfoType"
 author: windows-sdk-content
 description: Indicates the types of information that you can request about a performance counter set by calling the PerfQueryCounterSetRegistrationInfo function.
 old-location: perf\perfreginfotype.htm
-old-project: PerfCtrs
+old-project: perfctrs
 ms.assetid: 8D54F31F-9ABA-405F-84A5-9C7225B7BE67
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: PERF_REG_COUNTERSET_ENGLISH_NAME, PERF_REG_COUNTERSET_HELP_STRING, PERF_REG_COUNTERSET_NAME_STRING, PERF_REG_COUNTERSET_STRUCT, PERF_REG_COUNTER_ENGLISH_NAMES, PERF_REG_COUNTER_HELP_STRINGS, PERF_REG_COUNTER_NAME_STRINGS, PERF_REG_COUNTER_STRUCT, PERF_REG_PROVIDER_GUID, PERF_REG_PROVIDER_NAME, PerfRegInfoType, PerfRegInfoType enumeration [Perf], _PerfRegInfoType, perf.perfreginfotype, perflib/PERF_REG_COUNTERSET_ENGLISH_NAME, perflib/PERF_REG_COUNTERSET_HELP_STRING, perflib/PERF_REG_COUNTERSET_NAME_STRING, perflib/PERF_REG_COUNTERSET_STRUCT, perflib/PERF_REG_COUNTER_ENGLISH_NAMES, perflib/PERF_REG_COUNTER_HELP_STRINGS, perflib/PERF_REG_COUNTER_NAME_STRINGS, perflib/PERF_REG_COUNTER_STRUCT, perflib/PERF_REG_PROVIDER_GUID, perflib/PERF_REG_PROVIDER_NAME, perflib/PerfRegInfoType
 ms.prod: windows
 ms.technology: windows-sdk

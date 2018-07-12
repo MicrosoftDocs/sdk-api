@@ -7,7 +7,7 @@ old-location: mf\imfclock.htm
 old-project: medfound
 ms.assetid: 3a60bfec-8511-4a84-a833-e0c73c593970
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 3a60bfec-8511-4a84-a833-e0c73c593970, IMFClock, IMFClock interface [Media Foundation], IMFClock interface [Media Foundation],described, mf.imfclock, mfidl/IMFClock
 ms.prod: windows
 ms.technology: windows-sdk

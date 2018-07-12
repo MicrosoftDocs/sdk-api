@@ -4,10 +4,10 @@ title: ITextHost::TxShowScrollBar
 author: windows-sdk-content
 description: Shows or hides the scroll bar in the text host window.
 old-location: controls\ITextHost_TxShowScrollBar.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txshowscrollbar.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ITextHost interface [Windows Controls],TxShowScrollBar method, ITextHost.TxShowScrollBar, ITextHost::TxShowScrollBar, TxShowScrollBar, TxShowScrollBar method [Windows Controls], TxShowScrollBar method [Windows Controls],ITextHost interface, _win32_ITextHost_TxShowScrollBar, _win32_ITextHost_TxShowScrollBar_cpp, controls.ITextHost_TxShowScrollBar, controls._win32_ITextHost_TxShowScrollBar, textserv/ITextHost::TxShowScrollBar
 ms.prod: windows
 ms.technology: windows-sdk

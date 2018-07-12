@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection_getdisconnectedsession.htm
 old-project: TermServ
 ms.assetid: 3fb6d2af-a60c-4173-a2c0-9d9ce5d26811
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: GetDisconnectedSession, GetDisconnectedSession method [Remote Desktop Services], GetDisconnectedSession method [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],GetDisconnectedSession method, ITsSbClientConnection.GetDisconnectedSession, ITsSbClientConnection::GetDisconnectedSession, sbtsv/ITsSbClientConnection::GetDisconnectedSession, termserv.itssbclientconnection_getdisconnectedsession
 ms.prod: windows
 ms.technology: windows-sdk

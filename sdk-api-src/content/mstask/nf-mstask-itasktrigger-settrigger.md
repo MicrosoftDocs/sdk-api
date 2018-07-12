@@ -4,10 +4,10 @@ title: ITaskTrigger::SetTrigger
 author: windows-sdk-content
 description: The SetTrigger method sets the trigger criteria for a task trigger.
 old-location: taskschd\itasktrigger_settrigger.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 2f445835-a409-4a03-b853-4e0b07ded1ea
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: ITaskTrigger interface [Task Scheduler],SetTrigger method, ITaskTrigger.SetTrigger, ITaskTrigger::SetTrigger, SetTrigger, SetTrigger method [Task Scheduler], SetTrigger method [Task Scheduler],ITaskTrigger interface, _msb_itasktrigger_settrigger, mstask/ITaskTrigger::SetTrigger, taskschd.itasktrigger_settrigger
 ms.prod: windows
 ms.technology: windows-sdk
@@ -129,7 +129,7 @@ The <b>wBeginDay</b>, <b>wBeginMonth</b>, and <b>wBeginYear</b> members of the
 A task can have any number of triggers associated with it. The times that the task will run are the union of all the triggers defined for that task.
 
 To update the task with these new trigger settings, applications must call the 
-<a href="_com_ipersistfile_save">IPersistFile::Save</a> method after calling 
+<a href="https://msdn.microsoft.com/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a> method after calling 
 <b>SetTrigger</b>.
 
 
@@ -174,7 +174,7 @@ if (FAILED(hr))
 
 
 
-<a href="_com_ipersistfile_save">IPersistFile::Save</a>
+<a href="https://msdn.microsoft.com/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: wic\iwicimagingfactory2.htm
 old-project: wic
 ms.assetid: 95F64E01-6174-4C1C-B0BE-331380E583C2
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICImagingFactory2, IWICImagingFactory2 interface [Windows Imaging Component], IWICImagingFactory2 interface [Windows Imaging Component],described, wic.iwicimagingfactory2, wincodec/IWICImagingFactory2
 ms.prod: windows
 ms.technology: windows-sdk

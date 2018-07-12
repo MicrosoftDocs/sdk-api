@@ -4,10 +4,10 @@ title: MgmDeRegisterMProtocol function
 author: windows-sdk-content
 description: The MgmDeRegisterMProtocol function deregisters a client handle obtained from a call to MgmRegisterMProtocol.
 old-location: rras\mgmderegistermprotocol.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: e9b2613e-4e52-4993-81dd-0be50a072db6
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MgmDeRegisterMProtocol, MgmDeRegisterMProtocol function [RAS], _mpr_mgmderegistermprotocol, mgm/MgmDeRegisterMProtocol, rras.mgmderegistermprotocol
 ms.prod: windows
 ms.technology: windows-sdk

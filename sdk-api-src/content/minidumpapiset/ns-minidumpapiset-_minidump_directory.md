@@ -4,10 +4,10 @@ title: "_MINIDUMP_DIRECTORY"
 author: windows-sdk-content
 description: Contains the information needed to access a specific data stream in a minidump file.
 old-location: base\minidump_directory_str.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 1262c218-5351-4fea-9d35-4654da7c5e44
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*PMINIDUMP_DIRECTORY, MINIDUMP_DIRECTORY, MINIDUMP_DIRECTORY structure, PMINIDUMP_DIRECTORY, PMINIDUMP_DIRECTORY structure pointer, _MINIDUMP_DIRECTORY, _win32_minidump_directory_str, base.minidump_directory_str, minidumpapiset/MINIDUMP_DIRECTORY, minidumpapiset/PMINIDUMP_DIRECTORY"
 ms.prod: windows
 ms.technology: windows-sdk

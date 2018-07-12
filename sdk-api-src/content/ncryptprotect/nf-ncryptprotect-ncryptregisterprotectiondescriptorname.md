@@ -4,10 +4,10 @@ title: NCryptRegisterProtectionDescriptorName function
 author: windows-sdk-content
 description: Registers the display name and the associated rule string for a protection descriptor.
 old-location: security\ncryptregisterprotectiondescriptorname.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: DAB03CB2-630F-4BB3-93BD-06BE9126B1C4
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: NCryptRegisterProtectionDescriptorName, NCryptRegisterProtectionDescriptorName function [Security], ncryptprotect/NCryptRegisterProtectionDescriptorName, security.ncryptregisterprotectiondescriptorname
 ms.prod: windows
 ms.technology: windows-sdk

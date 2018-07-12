@@ -4,10 +4,10 @@ title: CertEnumCRLContextProperties function
 author: windows-sdk-content
 description: The CertEnumCRLContextProperties function retrieves the first or next extended property associated with a certificate revocation list (CRL) context.
 old-location: security\certenumcrlcontextproperties.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 330808ef-9b39-4bd4-ba0b-9e70ec516f33
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CertEnumCRLContextProperties, CertEnumCRLContextProperties function [Security], _crypto2_certenumcrlcontextproperties, security.certenumcrlcontextproperties, wincrypt/CertEnumCRLContextProperties
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IVdsSubSystem::QueryControllers
 author: windows-sdk-content
 description: Returns an object that enumerates the online and offline controllers managed by the subsystem.
 old-location: base\ivdssubsystem_querycontrollers.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 61f32915-c616-477e-b0f0-4a7f92aca0e2
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsSubSystem interface [VDS],QueryControllers method, IVdsSubSystem.QueryControllers, IVdsSubSystem::QueryControllers, QueryControllers, QueryControllers method [VDS], QueryControllers method [VDS],IVdsSubSystem interface, base.ivdssubsystem_querycontrollers, vds/IVdsSubSystem::QueryControllers, vdshwprv/IVdsSubSystem::QueryControllers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Returns an
 ### -param ppEnum [out]
 
 
-      The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the controllers in the subsystem as <a href="https://msdn.microsoft.com/ae2c4d47-15a6-4b9d-9165-4ee04a6ff3a8">controller objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the controller objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+      The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the controllers in the subsystem as <a href="https://msdn.microsoft.com/ae2c4d47-15a6-4b9d-9165-4ee04a6ff3a8">controller objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the controller objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
      
 
 

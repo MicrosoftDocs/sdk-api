@@ -7,7 +7,7 @@ old-location: display\engreadstateevent.htm
 old-project: display
 ms.assetid: 32dddcc0-4cf2-467f-b1a6-03c9892d3473
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: EngReadStateEvent, EngReadStateEvent function [Display Devices], display.engreadstateevent, gdifncs_921fb236-706b-405c-affd-25811f97c7de.xml, winddi/EngReadStateEvent
 ms.prod: windows
 ms.technology: windows-sdk

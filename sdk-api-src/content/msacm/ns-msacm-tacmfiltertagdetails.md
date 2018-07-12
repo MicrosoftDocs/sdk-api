@@ -7,7 +7,7 @@ old-location: multimedia\acmfiltertagdetails_struct.htm
 old-project: Multimedia
 ms.assetid: 94b31090-74ed-42ac-b904-0a90f055e03a
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: "*LPACMFILTERTAGDETAILS, *PACMFILTERTAGDETAILS, ACMDRIVERDETAILS_SUPPORTF_ASYNC, ACMDRIVERDETAILS_SUPPORTF_CODEC, ACMDRIVERDETAILS_SUPPORTF_CONVERTER, ACMDRIVERDETAILS_SUPPORTF_FILTER, ACMDRIVERDETAILS_SUPPORTF_HARDWARE, ACMFILTERTAGDETAILS, ACMFILTERTAGDETAILS structure [Windows Multimedia], msacm/ACMFILTERTAGDETAILS, multimedia.acmfiltertagdetails_COLLISION761, multimedia.acmfiltertagdetails_struct, tACMFILTERTAGDETAILS"
 ms.prod: windows
 ms.technology: windows-sdk

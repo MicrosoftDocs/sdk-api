@@ -4,10 +4,10 @@ title: ISnapinAbout::GetSnapinImage
 author: windows-sdk-content
 description: Enables the console to obtain the snap-in's main icon to be used in the About box.
 old-location: mmc\isnapinabout_getsnapinimage.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 0a009125-fee0-4ea4-9778-e28797e47465
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: GetSnapinImage, GetSnapinImage method [MMC], GetSnapinImage method [MMC],ISnapinAbout interface, ISnapinAbout interface [MMC],GetSnapinImage method, ISnapinAbout.GetSnapinImage, ISnapinAbout::GetSnapinImage, _slate_isnapinabout_getsnapinimage, mmc.isnapinabout_getsnapinimage, mmc/ISnapinAbout::GetSnapinImage
 ms.prod: windows
 ms.technology: windows-sdk

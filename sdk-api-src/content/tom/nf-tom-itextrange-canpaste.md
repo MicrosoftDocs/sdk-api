@@ -4,10 +4,10 @@ title: ITextRange::CanPaste
 author: windows-sdk-content
 description: Determines if a data object can be pasted, using a specified format, into the current range.
 old-location: controls\ITextRange_CanPaste.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\canpaste.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: CanPaste, CanPaste method [Windows Controls], CanPaste method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],CanPaste method, ITextRange.CanPaste, ITextRange::CanPaste, _win32_ITextRange_CanPaste, _win32_ITextRange_CanPaste_cpp, controls.ITextRange_CanPaste, controls._win32_ITextRange_CanPaste, tom/ITextRange::CanPaste
 ms.prod: windows
 ms.technology: windows-sdk

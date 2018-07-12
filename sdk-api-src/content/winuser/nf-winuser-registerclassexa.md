@@ -7,7 +7,7 @@ old-location: winmsg\registerclassex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\registerclassex.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: RegisterClassEx, RegisterClassEx function [Windows and Messages], RegisterClassExA, RegisterClassExW, _win32_RegisterClassEx, _win32_registerclassex_cpp, winmsg.registerclassex, winui._win32_registerclassex, winuser/RegisterClassEx, winuser/RegisterClassExA, winuser/RegisterClassExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

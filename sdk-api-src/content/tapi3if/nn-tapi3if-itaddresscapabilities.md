@@ -4,10 +4,10 @@ title: ITAddressCapabilities
 author: windows-sdk-content
 description: The ITAddressCapabilities interface is used to obtain information about an address's capabilities. It is on the Address object, and an application can access it by calling QueryInterface on the Address object.
 old-location: tapi3\itaddresscapabilities.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 36f452ce-9171-41da-b003-4c7df17790da
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITAddressCapabilities, ITAddressCapabilities interface [TAPI 2.2], ITAddressCapabilities interface [TAPI 2.2],described, _tapi3_itaddresscapabilities, tapi3.itaddresscapabilities, tapi3if/ITAddressCapabilities
 ms.prod: windows
 ms.technology: windows-sdk

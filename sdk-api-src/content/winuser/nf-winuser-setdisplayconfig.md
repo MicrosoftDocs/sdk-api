@@ -7,7 +7,7 @@ old-location: display\setdisplayconfig.htm
 old-project: display
 ms.assetid: 9f649fa0-ffb2-44c6-9a66-049f888e3b04
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: CCD_Functions_fceeecb0-8c34-4ff0-b201-fc5b7f39f2df.xml, SetDisplayConfig, SetDisplayConfig function [Display Devices], display.setdisplayconfig, winuser/SetDisplayConfig
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: shell\IBandHost_DestroyBand.htm
 old-project: shell
 ms.assetid: fc9fec01-97ff-44d9-833a-cd781977e5b9
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: DestroyBand, DestroyBand method [Windows Shell], DestroyBand method [Windows Shell],IBandHost interface, IBandHost interface [Windows Shell],DestroyBand method, IBandHost.DestroyBand, IBandHost::DestroyBand, _shell_IBandHost_DestroyBand, shell.IBandHost_DestroyBand, shobjidl/IBandHost::DestroyBand
 ms.prod: windows
 ms.technology: windows-sdk

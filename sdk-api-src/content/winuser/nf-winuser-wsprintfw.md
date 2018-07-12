@@ -7,7 +7,7 @@ old-location: menurc\wsprintf.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\wsprintf.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: "_win32_wsprintf, _win32_wsprintf_cpp, menurc.wsprintf, winui._win32_wsprintf, winuser/wsprintf, winuser/wsprintfA, winuser/wsprintfW, wsprintf, wsprintf function [Menus and Other Resources], wsprintfA, wsprintfW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

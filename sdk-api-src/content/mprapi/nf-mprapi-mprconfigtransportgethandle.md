@@ -4,10 +4,10 @@ title: MprConfigTransportGetHandle function
 author: windows-sdk-content
 description: The MprConfigTransportGetHandle function retrieves a handle to the specified transport protocol's configuration in the specified router configuration.
 old-location: rras\mprconfigtransportgethandle.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 2d3a2300-de10-4ee0-ba0e-bda26cf9a910
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprConfigTransportGetHandle, MprConfigTransportGetHandle function [RAS], _mpr_mprconfigtransportgethandle, mprapi/MprConfigTransportGetHandle, rras.mprconfigtransportgethandle
 ms.prod: windows
 ms.technology: windows-sdk

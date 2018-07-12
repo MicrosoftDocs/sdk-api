@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN
 author: windows-sdk-content
 description: Retrieves an array of object identifiers that represent the hash algorithms supported by the engine adapter.
 old-location: secbiomet\engineadapterqueryhashalgorithms.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 66766c80-44b5-4bec-b8cc-32adf1ddae8a
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: EngineAdapterQueryHashAlgorithms, EngineAdapterQueryHashAlgorithms callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN, PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN callback, secbiomet.engineadapterqueryhashalgorithms, winbio_adapter/EngineAdapterQueryHashAlgorithms
 ms.prod: windows
 ms.technology: windows-sdk

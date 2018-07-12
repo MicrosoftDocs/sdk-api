@@ -4,10 +4,10 @@ title: NetworkIsolationEnumerateAppContainerRules function
 author: windows-sdk-content
 description: Enumerates all of the rules related to app containers.
 old-location: ics\networkisolationenumerateappcontainerrules.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 53c9cd2c-06da-41ba-bbd8-bd695fb7fabf
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: NetworkIsolationEnumerateAppContainerRules, NetworkIsolationEnumerateAppContainerRules function [ICS/ICF], ics.networkisolationenumerateappcontainerrules, netfw/NetworkIsolationEnumerateAppContainerRules
 ms.prod: windows
 ms.technology: windows-sdk

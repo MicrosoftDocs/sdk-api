@@ -7,7 +7,7 @@ old-location: security\secpkg_extended_information_class.htm
 old-project: SecAuthN
 ms.assetid: 52c24886-ae81-4ac8-97d5-d638016e82bf
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: SECPKG_EXTENDED_INFORMATION_CLASS, SECPKG_EXTENDED_INFORMATION_CLASS enumeration [Security], SecpkgContextThunks, SecpkgExtraOids, SecpkgGssInfo, SecpkgMaxInfo, SecpkgMutualAuthLevel, SecpkgNego2Info, SecpkgWowClientDll, _SECPKG_EXTENDED_INFORMATION_CLASS, _ssp_secpkg_extended_information_class, ntsecpkg/SECPKG_EXTENDED_INFORMATION_CLASS, ntsecpkg/SecpkgContextThunks, ntsecpkg/SecpkgExtraOids, ntsecpkg/SecpkgGssInfo, ntsecpkg/SecpkgMaxInfo, ntsecpkg/SecpkgMutualAuthLevel, ntsecpkg/SecpkgNego2Info, ntsecpkg/SecpkgWowClientDll, security.secpkg_extended_information_class
 ms.prod: windows
 ms.technology: windows-sdk

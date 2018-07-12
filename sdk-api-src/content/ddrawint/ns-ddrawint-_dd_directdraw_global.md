@@ -7,7 +7,7 @@ old-location: display\dd_directdraw_global.htm
 old-project: display
 ms.assetid: a59f064b-48cf-4491-82cd-84f59467af87
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: "*PDD_DIRECTDRAW_GLOBAL, DD_DIRECTDRAW_GLOBAL, DD_DIRECTDRAW_GLOBAL structure [Display Devices], _DD_DIRECTDRAW_GLOBAL, ddrawint/DD_DIRECTDRAW_GLOBAL, ddstrcts_d176c3e5-1e8b-4ff6-ba62-2fcfc42a9e5b.xml, display.dd_directdraw_global"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -8,6 +8,5 @@
     "securitybaseapi.h",
     "relogger.h",
     "wmistr.h"
-  ],
-  "displayName": "Event Tracing"
+  ]
 }

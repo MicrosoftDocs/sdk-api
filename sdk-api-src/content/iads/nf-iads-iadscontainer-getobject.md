@@ -107,7 +107,7 @@ This method supports standard return values, including S_OK for a successful ope
 
 For the LDAP provider, the <i>bstrRelativeName</i> parameter must contain the name prefix, such as "CN=Jeff Smith". The <i>bstrRelativeName</i> parameter can also contain more than one level of name, such as "CN=Jeff Smith,OU=Sales".
 
-In C++, when <b>GetObject</b> has succeeded, the caller must query the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface for the desired interface using the <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> method.
+In C++, when <b>GetObject</b> has succeeded, the caller must query the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface for the desired interface using the <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> method.
 
 The <i>bstrClassName</i> parameter can be either a valid class name or <b>NULL</b>. If the class name is not valid, including when it contains a blank space, this method will throw an <a href="https://msdn.microsoft.com/193c5808-fc39-48e6-8bb8-8338e5c980ad">E_ADS_UNKNOWN_OBJECT</a> error.
 

@@ -4,10 +4,10 @@ title: "_RSVP_RESERVE_INFO"
 author: windows-sdk-content
 description: The QOS object RSVP_RESERVE_INFO, through the ProviderSpecific buffer, enables RSVP behavior for a given flow to be specified or modified at a granular level, and enables default RSVP style settings for a flow to be overridden.
 old-location: qos\rsvp_reserve_info.htm
-old-project: QOS
+old-project: qos
 ms.assetid: 0f43e544-afe3-40dd-81e1-96ae1f343006
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: "*LPRSVP_RESERVE_INFO, LPRSVP_RESERVE_INFO, LPRSVP_RESERVE_INFO structure pointer [QOS], RSVP_DEFAULT_STYLE, RSVP_FIXED_FILTER_STYLE, RSVP_RESERVE_INFO, RSVP_RESERVE_INFO structure [QOS], RSVP_SHARED_EXPLICIT_STYLE, RSVP_WILDCARD_SYLE, _RSVP_RESERVE_INFO, _gqos_rsvp_reserve_info, qos.rsvp_reserve_info, qossp/LPRSVP_RESERVE_INFO, qossp/RSVP_RESERVE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

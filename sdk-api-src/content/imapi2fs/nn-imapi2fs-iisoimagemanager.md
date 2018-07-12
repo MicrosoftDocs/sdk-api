@@ -7,7 +7,7 @@ old-location: imapi\iisoimagemanager.htm
 old-project: imapi
 ms.assetid: 47b059a9-a18a-4f32-9a02-6566175ca86b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IIsoImageManager, IIsoImageManager interface [IMAPI], IIsoImageManager interface [IMAPI],described, imapi.iisoimagemanager, imapi2fs/IIsoImageManager
 ms.prod: windows
 ms.technology: windows-sdk

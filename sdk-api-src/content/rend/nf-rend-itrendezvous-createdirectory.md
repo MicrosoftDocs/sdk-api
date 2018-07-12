@@ -4,10 +4,10 @@ title: ITRendezvous::CreateDirectory
 author: windows-sdk-content
 description: The CreateDirectory method creates an ITDirectory object corresponding to a directory of the given type and name.
 old-location: tapi3\itrendezvous_createdirectory.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: b285f852-a017-4dcd-b32e-afb2296487a5
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: CreateDirectory, CreateDirectory method [TAPI 2.2], CreateDirectory method [TAPI 2.2],ITRendezvous interface, ITRendezvous interface [TAPI 2.2],CreateDirectory method, ITRendezvous.CreateDirectory, ITRendezvous::CreateDirectory, _tapi3_itrendezvous_createdirectory, rend/ITRendezvous::CreateDirectory, tapi3.itrendezvous_createdirectory
 ms.prod: windows
 ms.technology: windows-sdk

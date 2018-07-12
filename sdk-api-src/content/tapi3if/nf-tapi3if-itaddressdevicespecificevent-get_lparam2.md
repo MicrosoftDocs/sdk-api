@@ -4,10 +4,10 @@ title: ITAddressDeviceSpecificEvent::get_lParam2
 author: windows-sdk-content
 description: The get_lParam2 method retrieves the second of three buffers specific to a given address device. The precise content and meaning of these buffers is defined by the provider.
 old-location: tapi3\itaddressdevicespecificevent_get_lparam2.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: b155cf6b-babd-4c47-8571-96f970878d81
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITAddressDeviceSpecificEvent interface [TAPI 2.2],get_lParam2 method, ITAddressDeviceSpecificEvent.get_lParam2, ITAddressDeviceSpecificEvent::get_lParam2, _tapi3_itaddressdevicespecificevent_get_lparam2, get_lParam2, get_lParam2 method [TAPI 2.2], get_lParam2 method [TAPI 2.2],ITAddressDeviceSpecificEvent interface, tapi3.itaddressdevicespecificevent_get_lparam2, tapi3if/ITAddressDeviceSpecificEvent::get_lParam2
 ms.prod: windows
 ms.technology: windows-sdk

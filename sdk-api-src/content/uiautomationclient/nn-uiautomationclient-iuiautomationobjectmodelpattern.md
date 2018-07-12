@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationObjectModelPattern.htm
 old-project: WinAuto
 ms.assetid: 044A1EE7-4CBD-45E3-A1A8-CA00DC03E136
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IUIAutomationObjectModelPattern, IUIAutomationObjectModelPattern interface [Windows Accessibility], IUIAutomationObjectModelPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationObjectModelPattern, winauto.uiauto_IUIAutomationObjectModelPattern
 ms.prod: windows
 ms.technology: windows-sdk

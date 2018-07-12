@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_Select.htm
 old-project: WinAuto
 ms.assetid: 486a604f-cea7-48de-aca2-2e9355699845
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],Select method, ITextRangeProvider.Select, ITextRangeProvider::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_Select, uiauto_ITextRangeProvider_Select, uiautomationcore/ITextRangeProvider::Select, winauto.uiauto_ITextRangeProvider_Select
 ms.prod: windows
 ms.technology: windows-sdk

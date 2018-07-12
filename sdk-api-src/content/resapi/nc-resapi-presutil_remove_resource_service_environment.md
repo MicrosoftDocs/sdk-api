@@ -4,10 +4,10 @@ title: PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT
 author: windows-sdk-content
 description: Removes the environment data from a service. This function must be called from a resource DLL. The PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT type defines a pointer to this function.
 old-location: mscs\resutilremoveresourceserviceenvironment.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: e0e3ea2d-9cf2-40f6-a3a8-fdcacb63479c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT, PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT callback, PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT callback function [Failover Cluster], mscs.resutilremoveresourceserviceenvironment, resapi/PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT
 ms.prod: windows
 ms.technology: windows-sdk

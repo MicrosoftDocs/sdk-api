@@ -7,7 +7,7 @@ old-location: gdi\tabbedtextout.htm
 old-project: gdi
 ms.assetid: 1cb78a75-752d-4e06-afdf-cd797f209114
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: TabbedTextOut, TabbedTextOut function [Windows GDI], TabbedTextOutA, TabbedTextOutW, _win32_TabbedTextOut, gdi.tabbedtextout, winuser/TabbedTextOut, winuser/TabbedTextOutA, winuser/TabbedTextOutW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

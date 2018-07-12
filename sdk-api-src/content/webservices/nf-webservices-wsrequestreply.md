@@ -7,7 +7,7 @@ old-location: wsw\wsrequestreply.htm
 old-project: wsw
 ms.assetid: 681e9c1c-bb18-4ffa-9287-e1965274043b
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsRequestReply, WsRequestReply function [Web Services for Windows], webservices/WsRequestReply, wsw.wsrequestreply
 ms.prod: windows
 ms.technology: windows-sdk

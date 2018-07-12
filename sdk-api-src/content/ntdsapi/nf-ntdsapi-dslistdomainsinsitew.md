@@ -4,10 +4,10 @@ title: DsListDomainsInSiteW function
 author: windows-sdk-content
 description: Lists all the domains in a site.
 old-location: ad\dslistdomainsinsite.htm
-old-project: AD
+old-project: ad
 ms.assetid: 3a039c0c-ac5b-4455-960d-b26a207693ed
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DsListDomainsInSite, DsListDomainsInSite function [Active Directory], DsListDomainsInSiteA, DsListDomainsInSiteW, _glines_dslistdomainsinsite, ad.dslistdomainsinsite, ntdsapi/DsListDomainsInSite, ntdsapi/DsListDomainsInSiteA, ntdsapi/DsListDomainsInSiteW
 ms.prod: windows
 ms.technology: windows-sdk

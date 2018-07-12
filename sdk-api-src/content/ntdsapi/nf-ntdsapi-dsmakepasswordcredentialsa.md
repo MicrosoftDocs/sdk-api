@@ -4,10 +4,10 @@ title: DsMakePasswordCredentialsA function
 author: windows-sdk-content
 description: Constructs a credential handle suitable for use with the DsBindWithCred function.
 old-location: ad\dsmakepasswordcredentials.htm
-old-project: AD
+old-project: ad
 ms.assetid: 51aba58b-07c5-4e6d-8568-fa6f1a963d8e
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DsMakePasswordCredentials, DsMakePasswordCredentials function [Active Directory], DsMakePasswordCredentialsA, DsMakePasswordCredentialsW, _glines_dsmakepasswordcredentials, ad.dsmakepasswordcredentials, ntdsapi/DsMakePasswordCredentials, ntdsapi/DsMakePasswordCredentialsA, ntdsapi/DsMakePasswordCredentialsW
 ms.prod: windows
 ms.technology: windows-sdk

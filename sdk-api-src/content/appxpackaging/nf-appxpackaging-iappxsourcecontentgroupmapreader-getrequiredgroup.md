@@ -7,7 +7,7 @@ old-location: appxpkg\iappxsourcecontentgroupmapreader_getrequiredgroup.htm
 old-project: appxpkg
 ms.assetid: 4C85F79F-CD91-4038-AF23-413E04CBA5AA
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: GetRequiredGroup, GetRequiredGroup method [App packaging and management], GetRequiredGroup method [App packaging and management],IAppxSourceContentGroupMapReader interface, IAppxSourceContentGroupMapReader interface [App packaging and management],GetRequiredGroup method, IAppxSourceContentGroupMapReader.GetRequiredGroup, IAppxSourceContentGroupMapReader::GetRequiredGroup, appxpackaging/IAppxSourceContentGroupMapReader::GetRequiredGroup, appxpkg.iappxsourcecontentgroupmapreader_getrequiredgroup
 ms.prod: windows
 ms.technology: windows-sdk

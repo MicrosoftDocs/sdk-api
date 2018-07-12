@@ -4,10 +4,10 @@ title: NdrDllGetClassObject function
 author: windows-sdk-content
 description: The NdrDllGetClassObject function retrieves the class object of the proxy or stub.
 old-location: rpc\ndrdllgetclassobject.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: 322e0a8c-1eda-4148-a7cc-7f7fd7bf0b6f
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: NdrDllGetClassObject, NdrDllGetClassObject function [RPC], rpc.ndrdllgetclassobject, rpcproxy/NdrDllGetClassObject
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setclipplane.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setclipplane.htm
 ms.author: windowssdkdev
-ms.date: 04/10/2018
+ms.date: 04/11/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetClipPlane method, IDirect3DDevice9.SetClipPlane, IDirect3DDevice9::SetClipPlane, SetClipPlane, SetClipPlane method [Direct3D 9], SetClipPlane method [Direct3D 9],IDirect3DDevice9 interface, b1eeda9e-38a1-4dea-dab6-04754538861d, d3d9helper/IDirect3DDevice9::SetClipPlane, direct3d9.idirect3ddevice9__setclipplane
 ms.prod: windows
 ms.technology: windows-sdk

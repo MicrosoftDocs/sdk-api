@@ -7,7 +7,7 @@ old-location: input_pointerdevice\getrawpointerdevicedata.htm
 old-project: Input_PointerDevice
 ms.assetid: 56b65cc9-9582-4c7f-81e8-0b0d45b4dc8b
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 03/27/2018
 ms.keywords: GetRawPointerDeviceData, GetRawPointerDeviceData function, input_pointerdevice.getrawpointerdevicedata, unifiedinputstack.getrawpointerdevicedata, winuser/GetRawPointerDeviceData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

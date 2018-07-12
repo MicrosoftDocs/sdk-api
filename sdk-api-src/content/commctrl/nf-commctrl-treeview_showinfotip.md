@@ -4,10 +4,10 @@ title: TreeView_ShowInfoTip macro
 author: windows-sdk-content
 description: Shows the infotip for a specified item in a tree-view control. Use this macro or send the TVM_SHOWINFOTIP message explicitly.
 old-location: controls\TreeView_ShowInfoTip.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_showinfotip.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: TreeView_ShowInfoTip, TreeView_ShowInfoTip macro [Windows Controls], _shell_TreeView_ShowInfoTip, _shell_TreeView_ShowInfoTip_cpp, commctrl/TreeView_ShowInfoTip, controls.TreeView_ShowInfoTip, controls._shell_TreeView_ShowInfoTip
 ms.prod: windows
 ms.technology: windows-sdk

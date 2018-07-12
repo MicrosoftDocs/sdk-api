@@ -4,10 +4,10 @@ title: ISClusNetwork::get_State
 author: windows-sdk-content
 description: State of a network.
 old-location: mscs\clusnetwork_state.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: abf1f90f-8044-40cf-b360-f80accb9cc58
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNetwork object [Failover Cluster],State property, ClusNetwork.State, ClusterNetworkDown, ClusterNetworkPartitioned, ClusterNetworkStateUnknown, ClusterNetworkUnavailable, ClusterNetworkUp, ISClusNetwork.get_State, ISClusNetwork::get_State, State property [Failover Cluster], State property [Failover Cluster],ClusNetwork object, _wolf_clusnetwork.state, get_State, mscs.clusnetwork_state
 ms.prod: windows
 ms.technology: windows-sdk

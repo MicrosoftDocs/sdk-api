@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevice_content.htm
 old-project: wpd_sdk
 ms.assetid: f65ff0b5-ca3b-498f-9c5e-36a76104d220
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.keywords: Content, Content method [Windows Portable Devices SDK], Content method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Content method, IPortableDevice.Content, IPortableDevice::Content, IPortableDeviceContent, portabledeviceapi/IPortableDevice::Content, wpdsdk.iportabledevice_content
 ms.prod: windows
 ms.technology: windows-sdk

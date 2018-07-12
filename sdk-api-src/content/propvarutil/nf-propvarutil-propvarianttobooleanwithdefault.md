@@ -7,7 +7,7 @@ old-location: properties\PropVariantToBooleanWithDefault.htm
 old-project: properties
 ms.assetid: 223767a7-a4de-4e7e-ad8b-2a6bdcea0a47
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PropVariantToBooleanWithDefault, PropVariantToBooleanWithDefault function [Windows Properties], properties.PropVariantToBooleanWithDefault, propvarutil/PropVariantToBooleanWithDefault, shell.PropVariantToBooleanWithDefault, shell_PropVariantToBooleanWithDefault
 ms.prod: windows
 ms.technology: windows-sdk

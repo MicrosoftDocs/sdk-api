@@ -7,7 +7,7 @@ old-location: winsock\wscsetapplicationcategory.htm
 old-project: WinSock
 ms.assetid: 266c9424-f6ab-4630-843d-bc0833d74e4f
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: WSCSetApplicationCategory, WSCSetApplicationCategory function [Winsock], winsock.wscsetapplicationcategory, ws2spi/WSCSetApplicationCategory
 ms.prod: windows
 ms.technology: windows-sdk

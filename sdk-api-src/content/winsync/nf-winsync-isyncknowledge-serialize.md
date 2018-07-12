@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge_serialize.htm
 old-project: winsync
 ms.assetid: 1feb0626-78f0-4d37-b3a0-c87a7fb22753
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],Serialize method, ISyncKnowledge.Serialize, ISyncKnowledge::Serialize, Serialize, Serialize method [Windows Sync], Serialize method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_serialize, winsync/ISyncKnowledge::Serialize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: machinelearning\winml_image_variable_desc.htm
 old-project: MachineLearning
 ms.assetid: 82EE6D9B-08C4-4128-BE8A-DF922AA7318E
 ms.author: windowssdkdev
-ms.date: 03/07/2018
+ms.date: 03/08/2018
 ms.keywords: MachineLearning.winml_image_variable_desc, PWINML_IMAGE_VARIABLE_DESC, PWINML_IMAGE_VARIABLE_DESC structure pointer, WINML_IMAGE_VARIABLE_DESC, WINML_IMAGE_VARIABLE_DESC structure, winml/PWINML_IMAGE_VARIABLE_DESC, winml/WINML_IMAGE_VARIABLE_DESC
 ms.prod: windows
 ms.technology: windows-sdk

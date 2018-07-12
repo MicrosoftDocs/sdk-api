@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_format_support.htm
 old-project: direct3d12
 ms.assetid: 6E4EB08F-0B60-4B1E-AD27-8F0AE2BD0766
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: D3D12_FEATURE_DATA_FORMAT_SUPPORT, D3D12_FEATURE_DATA_FORMAT_SUPPORT structure, d3d12/D3D12_FEATURE_DATA_FORMAT_SUPPORT, direct3d12.d3d12_feature_data_format_support
 ms.prod: windows
 ms.technology: windows-sdk

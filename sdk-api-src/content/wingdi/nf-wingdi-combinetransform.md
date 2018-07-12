@@ -7,7 +7,7 @@ old-location: gdi\combinetransform.htm
 old-project: gdi
 ms.assetid: 6ccd7828-7aa6-4c86-a340-b93e50cf3a2a
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: CombineTransform, CombineTransform function [Windows GDI], _win32_CombineTransform, gdi.combinetransform, wingdi/CombineTransform
 ms.prod: windows
 ms.technology: windows-sdk

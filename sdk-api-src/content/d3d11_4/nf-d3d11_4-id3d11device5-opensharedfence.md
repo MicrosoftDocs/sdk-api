@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device5_opensharedfence.htm
 old-project: direct3d11
 ms.assetid: 3EB1BA51-61CB-4389-84A9-77DAC9815AC7
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: ID3D11Device5 interface [Direct3D 11],OpenSharedFence method, ID3D11Device5.OpenSharedFence, ID3D11Device5::OpenSharedFence, OpenSharedFence, OpenSharedFence method [Direct3D 11], OpenSharedFence method [Direct3D 11],ID3D11Device5 interface, d3d11_4/ID3D11Device5::OpenSharedFence, direct3d11.id3d11device5_opensharedfence
 ms.prod: windows
 ms.technology: windows-sdk

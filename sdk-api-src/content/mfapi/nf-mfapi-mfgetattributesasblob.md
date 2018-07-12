@@ -7,7 +7,7 @@ old-location: mf\mfgetattributesasblob.htm
 old-project: medfound
 ms.assetid: 1a3bd860-1022-481f-8615-5a73c16dd77b
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 1a3bd860-1022-481f-8615-5a73c16dd77b, MFGetAttributesAsBlob, MFGetAttributesAsBlob function [Media Foundation], mf.mfgetattributesasblob, mfapi/MFGetAttributesAsBlob
 ms.prod: windows
 ms.technology: windows-sdk

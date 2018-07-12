@@ -7,7 +7,7 @@ old-location: mf\imfmediasourceextension_addsourcebuffer.htm
 old-project: medfound
 ms.assetid: 1ecb7047-4dc9-4657-8a19-12108de299c0
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: AddSourceBuffer, AddSourceBuffer method [Media Foundation], AddSourceBuffer method [Media Foundation],IMFMediaSourceExtension interface, IMFMediaSourceExtension interface [Media Foundation],AddSourceBuffer method, IMFMediaSourceExtension.AddSourceBuffer, IMFMediaSourceExtension::AddSourceBuffer, mf.imfmediasourceextension_addsourcebuffer, mfmediaengine/IMFMediaSourceExtension::AddSourceBuffer
 ms.prod: windows
 ms.technology: windows-sdk

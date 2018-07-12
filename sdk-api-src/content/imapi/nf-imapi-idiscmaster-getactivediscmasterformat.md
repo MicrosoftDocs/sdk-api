@@ -7,7 +7,7 @@ old-location: imapi\idiscmaster_getactivediscmasterformat.htm
 old-project: imapi
 ms.assetid: 37677090-fa1d-4515-9b01-13bfa55d8ebb
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: GetActiveDiscMasterFormat, GetActiveDiscMasterFormat method [IMAPI], GetActiveDiscMasterFormat method [IMAPI],IDiscMaster interface, IDiscMaster interface [IMAPI],GetActiveDiscMasterFormat method, IDiscMaster.GetActiveDiscMasterFormat, IDiscMaster::GetActiveDiscMasterFormat, _win32_idiscmaster_getactivediscmasterformat, base.idiscmaster_getactivediscmasterformat, imapi.idiscmaster_getactivediscmasterformat, imapi/IDiscMaster::GetActiveDiscMasterFormat
 ms.prod: windows
 ms.technology: windows-sdk

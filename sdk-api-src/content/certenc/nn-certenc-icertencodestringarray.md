@@ -4,10 +4,10 @@ title: ICertEncodeStringArray
 author: windows-sdk-content
 description: Provides methods for handling string arrays used in certificate extensions.
 old-location: security\icertencodestringarray.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 5515c25e-f788-4222-8f66-f5d86bd2a3a3
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: ICertEncodeStringArray, ICertEncodeStringArray interface [Security], ICertEncodeStringArray interface [Security],described, _certsrv_icertencodestringarray, certenc/ICertEncodeStringArray, security.icertencodestringarray
 ms.prod: windows
 ms.technology: windows-sdk

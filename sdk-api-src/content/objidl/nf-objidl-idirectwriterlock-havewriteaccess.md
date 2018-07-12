@@ -4,10 +4,10 @@ title: IDirectWriterLock::HaveWriteAccess
 author: windows-sdk-content
 description: The HaveWriteAccess method indicates whether the write lock has been taken.
 old-location: stg\idirectwriterlock_havewriteaccess.htm
-old-project: Stg
+old-project: stg
 ms.assetid: 8366b6b5-73c3-4b05-be68-c24ecd2eab96
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: HaveWriteAccess, HaveWriteAccess method [Structured Storage], HaveWriteAccess method [Structured Storage],IDirectWriterLock interface, IDirectWriterLock interface [Structured Storage],HaveWriteAccess method, IDirectWriterLock.HaveWriteAccess, IDirectWriterLock::HaveWriteAccess, _stg_idirectwriterlock_havewriteaccess, objidl/IDirectWriterLock::HaveWriteAccess, stg.idirectwriterlock_havewriteaccess
 ms.prod: windows
 ms.technology: windows-sdk

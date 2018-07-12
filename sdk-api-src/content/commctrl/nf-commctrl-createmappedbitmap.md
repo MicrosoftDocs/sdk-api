@@ -4,10 +4,10 @@ title: CreateMappedBitmap function
 author: windows-sdk-content
 description: Creates a bitmap for use in a toolbar.
 old-location: controls\CreateMappedBitmap.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\toolbar\functions\createmappedbitmap.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: CMB_MASKED, CreateMappedBitmap, CreateMappedBitmap function [Windows Controls], _win32_CreateMappedBitmap, _win32_CreateMappedBitmap_cpp, commctrl/CreateMappedBitmap, controls.CreateMappedBitmap, controls._win32_CreateMappedBitmap
 ms.prod: windows
 ms.technology: windows-sdk

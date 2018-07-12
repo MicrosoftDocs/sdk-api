@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_ui_ownership.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_ownership.htm
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: UI_OWNERSHIP, UI_OWNERSHIP enumeration [Windows Ribbon], UI_OWNERSHIP_COPY, UI_OWNERSHIP_TRANSFER, scenicintent_UI_OWNERSHIP, uiribbon/UI_OWNERSHIP, uiribbon/UI_OWNERSHIP_COPY, uiribbon/UI_OWNERSHIP_TRANSFER, windowsribbon.windowsribbon_ui_ownership
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: termserv\itssbprovider_createenvironmentpropertysetobject.htm
 old-project: TermServ
 ms.assetid: 52bb5c05-f8eb-42c9-862f-d42e71507a91
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: CreateEnvironmentPropertySetObject, CreateEnvironmentPropertySetObject method [Remote Desktop Services], CreateEnvironmentPropertySetObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateEnvironmentPropertySetObject method, ITsSbProvider.CreateEnvironmentPropertySetObject, ITsSbProvider::CreateEnvironmentPropertySetObject, sbtsv/ITsSbProvider::CreateEnvironmentPropertySetObject, termserv.itssbprovider_createenvironmentpropertysetobject
 ms.prod: windows
 ms.technology: windows-sdk

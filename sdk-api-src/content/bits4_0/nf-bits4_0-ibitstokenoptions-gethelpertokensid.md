@@ -4,10 +4,10 @@ title: IBitsTokenOptions::GetHelperTokenSid
 author: windows-sdk-content
 description: Returns the SID of the helper token if one is set.
 old-location: bits\ibitstokenoptions_gethelpertokensid.htm
-old-project: Bits
+old-project: bits
 ms.assetid: 724614af-cae8-47d7-888d-ed1504a9bc12
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetHelperTokenSid, GetHelperTokenSid method [BITS], GetHelperTokenSid method [BITS],IBitsTokenOptions interface, IBitsTokenOptions interface [BITS],GetHelperTokenSid method, IBitsTokenOptions.GetHelperTokenSid, IBitsTokenOptions::GetHelperTokenSid, bits.ibitstokenoptions_gethelpertokensid, bits4_0/IBitsTokenOptions::GetHelperTokenSid
 ms.prod: windows
 ms.technology: windows-sdk

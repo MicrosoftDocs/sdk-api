@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_settimelinemarkertimer.htm
 old-project: medfound
 ms.assetid: 2FD65E4A-C70A-4CB4-9038-3A8B791E251C
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetTimelineMarkerTimer method, IMFMediaEngineEx.SetTimelineMarkerTimer, IMFMediaEngineEx::SetTimelineMarkerTimer, SetTimelineMarkerTimer, SetTimelineMarkerTimer method [Media Foundation], SetTimelineMarkerTimer method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_settimelinemarkertimer, mfmediaengine/IMFMediaEngineEx::SetTimelineMarkerTimer
 ms.prod: windows
 ms.technology: windows-sdk

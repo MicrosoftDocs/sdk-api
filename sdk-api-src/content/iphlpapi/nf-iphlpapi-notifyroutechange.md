@@ -4,10 +4,10 @@ title: NotifyRouteChange function
 author: windows-sdk-content
 description: The NotifyRouteChange function causes a notification to be sent to the caller whenever a change occurs in the IPv4 routing table.
 old-location: iphlp\notifyroutechange.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 39f2ec4d-131a-4a0a-9740-0d96aaea2dc7
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: NotifyRouteChange, NotifyRouteChange function [IP Helper], _iphlp_notifyroutechange, iphlp.notifyroutechange, iphlpapi/NotifyRouteChange
 ms.prod: windows
 ms.technology: windows-sdk

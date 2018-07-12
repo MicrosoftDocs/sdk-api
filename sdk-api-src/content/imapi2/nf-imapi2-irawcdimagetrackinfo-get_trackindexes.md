@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagetrackinfo_get_trackindexes.htm
 old-project: imapi
 ms.assetid: a83766f7-8d02-47df-9691-26d6f2cd0d5b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_TrackIndexes method, IRawCDImageTrackInfo.get_TrackIndexes, IRawCDImageTrackInfo::get_TrackIndexes, get_TrackIndexes, get_TrackIndexes method [IMAPI], get_TrackIndexes method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_trackindexes, imapi2/IRawCDImageTrackInfo::get_TrackIndexes
 ms.prod: windows
 ms.technology: windows-sdk

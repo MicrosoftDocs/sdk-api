@@ -4,10 +4,10 @@ title: SymSetSearchPathW function
 author: windows-sdk-content
 description: Sets the search path for the specified process.
 old-location: base\symsetsearchpath.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 564ba1f6-65c6-4c45-bdbf-41ef0dd8a39d
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: SymSetSearchPath, SymSetSearchPath function, SymSetSearchPathW, _win32_symsetsearchpath, base.symsetsearchpath, dbghelp/SymSetSearchPath, dbghelp/SymSetSearchPathW
 ms.prod: windows
 ms.technology: windows-sdk

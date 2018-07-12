@@ -4,10 +4,10 @@ title: BCryptKeyDerivation function
 author: windows-sdk-content
 description: Derives a key without requiring a secret agreement.
 old-location: security\bcryptkeyderivation.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: D0B91FFE-2E72-4AE3-A84F-DC598C02CF53
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: BCryptKeyDerivation, BCryptKeyDerivation function [Security], bcrypt/BCryptKeyDerivation, security.bcryptkeyderivation
 ms.prod: windows
 ms.technology: windows-sdk

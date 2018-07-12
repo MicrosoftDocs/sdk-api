@@ -4,10 +4,10 @@ title: tagNMLVLINK
 author: windows-sdk-content
 description: Contains information about an LVN_LINKCLICK notification code.
 old-location: controls\NMLVLINK.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvlink.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*PNMLVLINK, LPNMLVLINK, LPNMLVLINK structure pointer [Windows Controls], NMLVLINK, NMLVLINK structure [Windows Controls], commctrl/LPNMLVLINK, commctrl/NMLVLINK, controls.NMLVLINK, controls.shell_NMLVLINK, shell_NMLVLINK, shell_NMLVLINK_cpp, tagNMLVLINK"
 ms.prod: windows
 ms.technology: windows-sdk

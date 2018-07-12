@@ -7,7 +7,7 @@ old-location: mf\mfp_event_header.htm
 old-project: medfound
 ms.assetid: ed9d3790-845a-4392-b755-6a5ce6e20de5
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: MFP_EVENT_HEADER, MFP_EVENT_HEADER structure [Media Foundation], mf.mfp_event_header, mfplay/MFP_EVENT_HEADER
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::SetDescription
 author: windows-sdk-content
 description: Provides a description of the job.
 old-location: bits\ibackgroundcopyjob_setdescription.htm
-old-project: Bits
+old-project: bits
 ms.assetid: 9148ec9b-7a03-4bb3-9644-e52f6cd13073
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetDescription method, IBackgroundCopyJob.SetDescription, IBackgroundCopyJob::SetDescription, SetDescription, SetDescription method [BITS], SetDescription method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setdescription, bits.ibackgroundcopyjob_setdescription, bits/IBackgroundCopyJob::SetDescription
 ms.prod: windows
 ms.technology: windows-sdk

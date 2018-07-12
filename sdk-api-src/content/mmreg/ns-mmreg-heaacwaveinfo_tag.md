@@ -7,7 +7,7 @@ old-location: dshow\heaacwaveinfo.htm
 old-project: DirectShow
 ms.assetid: a9b888fb-b4a5-44c3-a715-687cc751063d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: "*LPHEAACWAVEINFO, *NPHEAACWAVEINFO, *PHEAACWAVEINFO, HEAACWAVEINFO, HEAACWAVEINFO structure [DirectShow], PHEAACWAVEINFO, PHEAACWAVEINFO structure pointer [DirectShow], dshow.heaacwaveinfo, heaacwaveinfo_tag, mmreg/HEAACWAVEINFO, mmreg/PHEAACWAVEINFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ICspAlgorithms::get_IndexByObjectId
 author: windows-sdk-content
 description: Retrieves the index of an ICspAlgorithm object by object identifier (OID).
 old-location: security\icspalgorithms_indexbyobjectid_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 2a626738-8be4-4be4-ac32-860718a92ff9
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICspAlgorithms interface [Security],IndexByObjectId property, ICspAlgorithms.IndexByObjectId, ICspAlgorithms.get_IndexByObjectId, ICspAlgorithms::IndexByObjectId, ICspAlgorithms::get_IndexByObjectId, IndexByObjectId property [Security], IndexByObjectId property [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::IndexByObjectId, certenroll/ICspAlgorithms::get_IndexByObjectId, get_IndexByObjectId, security.icspalgorithms_indexbyobjectid_property
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: menurc\ischaralpha.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\ischaralpha.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IsCharAlpha, IsCharAlpha function [Menus and Other Resources], IsCharAlphaA, IsCharAlphaW, _win32_IsCharAlpha, _win32_ischaralpha_cpp, menurc.ischaralpha, winui._win32_ischaralpha, winuser/IsCharAlpha, winuser/IsCharAlphaA, winuser/IsCharAlphaW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

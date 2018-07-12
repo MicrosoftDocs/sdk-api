@@ -7,7 +7,7 @@ old-location: search\_search_IRichChunk_GetData.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irichchunk\getdata.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetData, GetData method [search], GetData method [search],IRichChunk interface, IRichChunk interface [search],GetData method, IRichChunk.GetData, IRichChunk::GetData, _search_IRichChunk_GetData, search._search_IRichChunk_GetData, structuredquerycondition/IRichChunk::GetData
 ms.prod: windows
 ms.technology: windows-sdk

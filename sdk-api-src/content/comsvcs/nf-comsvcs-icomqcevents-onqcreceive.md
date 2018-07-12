@@ -7,7 +7,7 @@ old-location: cos\icomqcevents_onqcreceive.htm
 old-project: cossdk
 ms.assetid: d4404fad-c656-4cbf-90d1-a09a7162a38f
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCReceive method, IComQCEvents.OnQCReceive, IComQCEvents::OnQCReceive, OnQCReceive, OnQCReceive method [COM+], OnQCReceive method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCReceive, comsvcs/IComQCEvents::OnQCReceive, cos.icomqcevents_onqcreceive
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: nwifi\wlansetpsdiedatalist.htm
 old-project: NativeWiFi
 ms.assetid: eea402d3-9a5f-4446-bf6c-9ab8430f9c60
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: WlanSetPsdIEDataList, WlanSetPsdIEDataList function [NativeWIFI], nwifi.wlansetpsdiedatalist, wlanapi/WlanSetPsdIEDataList
 ms.prod: windows
 ms.technology: windows-sdk

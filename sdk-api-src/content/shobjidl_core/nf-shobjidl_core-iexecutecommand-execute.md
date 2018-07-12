@@ -7,7 +7,7 @@ old-location: shell\IExecuteCommand_Execute.htm
 old-project: shell
 ms.assetid: 388136bb-a5c0-48c0-adfc-f5154910fd72
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: Execute, Execute method [Windows Shell], Execute method [Windows Shell],IExecuteCommand interface, IExecuteCommand interface [Windows Shell],Execute method, IExecuteCommand.Execute, IExecuteCommand::Execute, _shell_IExecuteCommand_Execute, shell.IExecuteCommand_Execute, shobjidl_core/IExecuteCommand::Execute
 ms.prod: windows
 ms.technology: windows-sdk

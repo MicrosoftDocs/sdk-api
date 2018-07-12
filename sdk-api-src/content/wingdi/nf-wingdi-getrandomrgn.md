@@ -7,7 +7,7 @@ old-location: gdi\getrandomrgn.htm
 old-project: gdi
 ms.assetid: a7527d7a-7b5e-4dd5-9270-94bc92b5a4a0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetRandomRgn, GetRandomRgn function [Windows GDI], _win32_GetRandomRgn, gdi.getrandomrgn, wingdi/GetRandomRgn
 ms.prod: windows
 ms.technology: windows-sdk

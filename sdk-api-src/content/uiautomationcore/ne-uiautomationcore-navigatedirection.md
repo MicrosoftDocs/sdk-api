@@ -7,7 +7,7 @@ old-location: winauto\uiauto_NavDirEnum.htm
 old-project: WinAuto
 ms.assetid: 33385413-3500-4f80-b53a-fe960d1b53ee
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: NavigateDirection, NavigateDirection enumeration [Windows Accessibility], NavigateDirection_FirstChild, NavigateDirection_LastChild, NavigateDirection_NextSibling, NavigateDirection_Parent, NavigateDirection_PreviousSibling, uiauto.uiauto_NavDirEnum, uiauto_NavDirEnum, uiautomationcore/NavigateDirection, uiautomationcore/NavigateDirection_FirstChild, uiautomationcore/NavigateDirection_LastChild, uiautomationcore/NavigateDirection_NextSibling, uiautomationcore/NavigateDirection_Parent, uiautomationcore/NavigateDirection_PreviousSibling, winauto.uiauto_NavDirEnum
 ms.prod: windows
 ms.technology: windows-sdk

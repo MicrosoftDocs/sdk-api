@@ -4,10 +4,10 @@ title: IVdsServiceIscsi::SetAllIpsecSecurity
 author: windows-sdk-content
 description: Not supported.
 old-location: base\ivdsserviceiscsi_setallipsecsecurity.htm
-old-project: VDS
+old-project: vds
 ms.assetid: d76be416-c5e2-4b53-a1ff-0a27418c151e
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],SetAllIpsecSecurity method, IVdsServiceIscsi.SetAllIpsecSecurity, IVdsServiceIscsi::SetAllIpsecSecurity, SetAllIpsecSecurity, SetAllIpsecSecurity method [VDS], SetAllIpsecSecurity method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_setallipsecsecurity, vds/IVdsServiceIscsi::SetAllIpsecSecurity
 ms.prod: windows
 ms.technology: windows-sdk

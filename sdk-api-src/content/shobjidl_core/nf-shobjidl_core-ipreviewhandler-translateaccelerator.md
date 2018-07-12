@@ -7,7 +7,7 @@ old-location: shell\IPreviewHandler_TranslateAccelerator.htm
 old-project: shell
 ms.assetid: 5e7e71f2-c728-44cb-820b-9a0b28b7266c
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],TranslateAccelerator method, IPreviewHandler.TranslateAccelerator, IPreviewHandler::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [Windows Shell], TranslateAccelerator method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_TranslateAccelerator, shell.IPreviewHandler_TranslateAccelerator, shobjidl_core/IPreviewHandler::TranslateAccelerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ This function will only be called from the message pump of the process in which 
 
 When the preview handler receives a message (a keystroke) from its message pump, it is responsible for forwarding it to its host.
 
-When <a href="https://msdn.microsoft.com/5e95b2a6-85b3-4899-9e23-54ed9e69e821">IObjectWithSite::SetSite</a> is called on the preview handler, a reference to the preview handler's host is passed in.  The object should immediately <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> that site for <a href="https://msdn.microsoft.com/4e1316e5-f736-4a9b-887b-ddc48a615c42">IPreviewHandlerFrame</a>, and store that pointer.
+When <a href="https://msdn.microsoft.com/5e95b2a6-85b3-4899-9e23-54ed9e69e821">IObjectWithSite::SetSite</a> is called on the preview handler, a reference to the preview handler's host is passed in.  The object should immediately <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> that site for <a href="https://msdn.microsoft.com/4e1316e5-f736-4a9b-887b-ddc48a615c42">IPreviewHandlerFrame</a>, and store that pointer.
 
 The preview handler then has the option to call <a href="https://msdn.microsoft.com/953b7571-0da1-4e31-bb6f-1761f8103c6e">GetWindowContext</a> to get an accelerator table to filter keystrokes. The preview can then compare keystrokes against that accelerator table using <a href="https://msdn.microsoft.com/2d09f81a-b422-4379-89c8-d50992ebb24c">IsAccelerator</a> and only call <b>IPreviewHandler::TranslateAccelerator</b> for keystrokes that match.  This can cause a modest performance increase.  The preview handler must release the accelerator table using <a href="https://msdn.microsoft.com/library/ms646368(v=VS.85).aspx">DestroyAcceleratorTable</a> function.
 

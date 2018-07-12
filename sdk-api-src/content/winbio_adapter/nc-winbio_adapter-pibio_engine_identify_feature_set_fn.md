@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_IDENTIFY_FEATURE_SET_FN
 author: windows-sdk-content
 description: Builds a template from the current feature set and locates a matching template in the database.
 old-location: secbiomet\engineadapteridentifyfeatureset.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 838f839d-0bb0-4194-b0a2-ad6936d7b0e4
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: EngineAdapterIdentifyFeatureSet, EngineAdapterIdentifyFeatureSet callback function [Windows Biometric Framework API], PIBIO_ENGINE_IDENTIFY_FEATURE_SET_FN, PIBIO_ENGINE_IDENTIFY_FEATURE_SET_FN callback, secbiomet.engineadapteridentifyfeatureset, winbio_adapter/EngineAdapterIdentifyFeatureSet
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsock\ioctlsocket_2.htm
 old-project: WinSock
 ms.assetid: 048fcb8d-acd3-4917-a997-dd133db399f8
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: "_win32_ioctlsocket_2, ioctlsocket, ioctlsocket function [Winsock], winsock.ioctlsocket_2, winsock/ioctlsocket"
 ms.prod: windows
 ms.technology: windows-sdk

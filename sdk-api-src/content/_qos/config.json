@@ -12,6 +12,5 @@
     "ntddpsch.h",
     "qospol.h",
     "qos2.h"
-  ],
-  "displayName": "Quality of Service (QOS)"
+  ]
 }

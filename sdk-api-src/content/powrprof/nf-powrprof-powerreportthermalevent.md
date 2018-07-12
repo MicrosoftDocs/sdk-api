@@ -4,10 +4,10 @@ title: PowerReportThermalEvent function
 author: windows-sdk-content
 description: Notifies the operating system of thermal events.
 old-location: base\powerreportthermalevent.htm
-old-project: Power
+old-project: power
 ms.assetid: DD3DE1B2-17C1-4FF8-9DF8-BEF35933D913
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: PowerReportThermalEvent, PowerReportThermalEvent function, base.powerreportthermalevent, powrprof/PowerReportThermalEvent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dlgbox\getdlgitem.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getdlgitem.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 05/22/2018
 ms.keywords: GetDlgItem, GetDlgItem function [Dialog Boxes], _win32_GetDlgItem, _win32_getdlgitem_cpp, dlgbox.getdlgitem, winui._win32_getdlgitem, winuser/GetDlgItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

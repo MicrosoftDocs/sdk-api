@@ -7,7 +7,7 @@ old-location: tablet\isstringsupported.htm
 old-project: tablet
 ms.assetid: b646225a-0008-45f3-9c42-48adf4942ebd
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: IsStringSupported, IsStringSupported function [Tablet PC], b646225a-0008-45f3-9c42-48adf4942ebd, recapis/IsStringSupported, tablet.isstringsupported
 ms.prod: windows
 ms.technology: windows-sdk

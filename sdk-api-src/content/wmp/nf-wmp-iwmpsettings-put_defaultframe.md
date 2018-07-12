@@ -7,7 +7,7 @@ old-location: wmp\iwmpsettings_put_defaultframe.htm
 old-project: WMP
 ms.assetid: 9b035e4e-84c5-46ea-aa8a-2e66810284b2
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_defaultFrame method, IWMPSettings.put_defaultFrame, IWMPSettings::put_defaultFrame, IWMPSettingsput_defaultFrame, put_defaultFrame, put_defaultFrame method [Windows Media Player], put_defaultFrame method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_defaultframe, wmp/IWMPSettings::put_defaultFrame
 ms.prod: windows
 ms.technology: windows-sdk

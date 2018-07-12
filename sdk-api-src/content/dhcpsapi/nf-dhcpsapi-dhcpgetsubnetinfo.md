@@ -4,10 +4,10 @@ title: DhcpGetSubnetInfo function
 author: windows-sdk-content
 description: The DhcpGetSubnetInfo function returns information on a specific subnet.
 old-location: dhcp\dhcpgetsubnetinfo.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 0e511993-a9c3-445b-bafc-3d66182ee32d
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DhcpGetSubnetInfo, DhcpGetSubnetInfo function [DHCP], dhcp.dhcpgetsubnetinfo, dhcpsapi/DhcpGetSubnetInfo
 ms.prod: windows
 ms.technology: windows-sdk

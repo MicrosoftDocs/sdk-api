@@ -7,7 +7,7 @@ old-location: automat\itypeinfo2_getallvarcustdata.htm
 old-project: automat
 ms.assetid: d123b63e-8393-4c76-914e-87aa399aae1c
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: GetAllVarCustData, GetAllVarCustData method [Automation], GetAllVarCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetAllVarCustData method, ITypeInfo2.GetAllVarCustData, ITypeInfo2::GetAllVarCustData, _oa96_ITypeInfo2_GetAllVarCustData, automat.itypeinfo2_getallvarcustdata, oaidl/ITypeInfo2::GetAllVarCustData
 ms.prod: windows
 ms.technology: windows-sdk

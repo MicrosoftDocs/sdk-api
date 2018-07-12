@@ -7,7 +7,7 @@ old-location: security\secpkgcredentials_kdcproxysettings.htm
 old-project: SecAuthN
 ms.assetid: 42BC75B8-6392-4FD4-95BC-266B3AFDDC62
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: "*PSecPkgCredentials_KdcProxySettingsW, PSecPkgCredentials_KdcProxySettings, PSecPkgCredentials_KdcProxySettings structure pointer [Security], SecPkgCredentials_KdcProxySettings, SecPkgCredentials_KdcProxySettings structure [Security], SecPkgCredentials_KdcProxySettingsW, _SecPkgCredentials_KdcProxySettingsW, security.secpkgcredentials_kdcproxysettings, sspi/PSecPkgCredentials_KdcProxySettings, sspi/SecPkgCredentials_KdcProxySettings, sspi/SecPkgCredentials_KdcProxySettingsW"
 ms.prod: windows
 ms.technology: windows-sdk

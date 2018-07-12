@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_VERIFY_FEATURE_SET_FN
 author: windows-sdk-content
 description: Compares the template in the current feature set with a specific template in the database.
 old-location: secbiomet\engineadapterverifyfeatureset.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 64107d5b-3071-4bd4-9c2c-dd06006aec4d
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: EngineAdapterVerifyFeatureSet, EngineAdapterVerifyFeatureSet callback function [Windows Biometric Framework API], PIBIO_ENGINE_VERIFY_FEATURE_SET_FN, PIBIO_ENGINE_VERIFY_FEATURE_SET_FN callback, secbiomet.engineadapterverifyfeatureset, winbio_adapter/EngineAdapterVerifyFeatureSet
 ms.prod: windows
 ms.technology: windows-sdk

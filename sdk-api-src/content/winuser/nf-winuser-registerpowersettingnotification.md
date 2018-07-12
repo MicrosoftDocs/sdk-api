@@ -4,10 +4,10 @@ title: RegisterPowerSettingNotification function
 author: windows-sdk-content
 description: Registers the application to receive power setting notifications for the specific power setting event.
 old-location: base\registerpowersettingnotification.htm
-old-project: Power
+old-project: power
 ms.assetid: e072222e-da66-4b36-a38f-f4b618eaa391
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: DEVICE_NOTIFY_SERVICE_HANDLE, DEVICE_NOTIFY_WINDOW_HANDLE, RegisterPowerSettingNotification, RegisterPowerSettingNotification function, base.registerpowersettingnotification, winuser/RegisterPowerSettingNotification
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

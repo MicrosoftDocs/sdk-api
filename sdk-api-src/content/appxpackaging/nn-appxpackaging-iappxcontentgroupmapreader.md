@@ -7,7 +7,7 @@ old-location: appxpkg\iappxcontentgroupmapreader.htm
 old-project: appxpkg
 ms.assetid: 45C6F61E-8CF6-4188-9715-3954562F8AB0
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: IAppxContentGroupMapReader, IAppxContentGroupMapReader interface [App packaging and management], IAppxContentGroupMapReader interface [App packaging and management],described, appxpackaging/IAppxContentGroupMapReader, appxpkg.iappxcontentgroupmapreader
 ms.prod: windows
 ms.technology: windows-sdk

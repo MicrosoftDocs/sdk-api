@@ -4,10 +4,10 @@ title: WinBioDeleteTemplate function
 author: windows-sdk-content
 description: Deletes a biometric template from the template store. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiodeletetemplate.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: aad22c42-d306-42b5-8415-0b561c8bcecf
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: WinBioDeleteTemplate, WinBioDeleteTemplate function [Windows Biometric Framework API], secbiomet.winbiodeletetemplate, winbio/WinBioDeleteTemplate
 ms.prod: windows
 ms.technology: windows-sdk

@@ -58,6 +58,5 @@
     "dsound.h",
     "wldp.h",
     "basetsd.h"
-  ],
-  "displayName": "Developer Notes"
+  ]
 }

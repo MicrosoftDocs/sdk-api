@@ -4,10 +4,10 @@ title: IObjectIds
 author: windows-sdk-content
 description: The IObjectIds interface defines methods and properties that enable you to manage a collection of IObjectId objects.
 old-location: security\iobjectids.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: f376a33e-005b-4810-9a26-b642236ff7af
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IObjectIds, IObjectIds interface [Security], IObjectIds interface [Security],described, certenroll/IObjectIds, security.iobjectids
 ms.prod: windows
 ms.technology: windows-sdk

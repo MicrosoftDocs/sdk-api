@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectgroupimpl.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroupimpl\imilbitmapeffectgroupimpl.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: IMILBitmapEffectGroupImpl, IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects], IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectgroupimpl, mileffects/IMILBitmapEffectGroupImpl, wibe._wibe_imilbitmapeffectgroupimpl
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrotatetransform3d_setcentery_overloaded.ht
 old-project: directcomp
 ms.assetid: 19B3B065-BE8C-4CBD-8A94-54934CA0B421
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IDCompositionRotateTransform3D::SetCenterY, SetCenterY, SetCenterY methods [DirectComposition], dcomp/SetCenterY, directcomp.idcompositionrotatetransform3d_setcentery_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

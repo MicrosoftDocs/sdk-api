@@ -4,10 +4,10 @@ title: IWSManConnectionOptionsEx2
 author: windows-sdk-content
 description: The IWSManConnectionOptionsEx2 object is passed to the IWSMan::CreateSession method to provide the authentication mechanism, access type, and credentials to connect to a proxy server.
 old-location: winrm\iwsmanconnectionoptionsex2.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: 09159904-0160-411d-af54-f6aca94d4d7d
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IWSManConnectionOptionsEx2, IWSManConnectionOptionsEx2 interface [Windows Remote Management], IWSManConnectionOptionsEx2 interface [Windows Remote Management],described, winrm.iwsmanconnectionoptionsex2, wsmandisp/IWSManConnectionOptionsEx2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12libraryreflection.htm
 old-project: direct3d12
 ms.assetid: CE6AEA77-A6A0-46A5-BDBC-AE4907AAC820
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: ID3D12LibraryReflection, ID3D12LibraryReflection interface, ID3D12LibraryReflection interface,described, d3d12shader/ID3D12LibraryReflection, direct3d12.id3d12libraryreflection
 ms.prod: windows
 ms.technology: windows-sdk

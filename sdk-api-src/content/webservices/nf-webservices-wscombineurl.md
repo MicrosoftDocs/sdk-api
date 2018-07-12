@@ -7,7 +7,7 @@ old-location: wsw\wscombineurl.htm
 old-project: wsw
 ms.assetid: 6cff906a-adb7-4453-8d44-6a5bf44a681b
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsCombineUrl, WsCombineUrl function [Web Services for Windows], webservices/WsCombineUrl, wsw.wscombineurl
 ms.prod: windows
 ms.technology: windows-sdk

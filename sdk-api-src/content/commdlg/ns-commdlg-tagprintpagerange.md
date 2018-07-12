@@ -7,7 +7,7 @@ old-location: dlgbox\printpagerange_str.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\printpagerange.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 05/22/2018
 ms.keywords: "*LPPRINTPAGERANGE, LPPRINTPAGERANGE, LPPRINTPAGERANGE structure pointer [Dialog Boxes], PRINTPAGERANGE, PRINTPAGERANGE structure [Dialog Boxes], _win32_PRINTPAGERANGE_str, _win32_printpagerange_str_cpp, commdlg/LPPRINTPAGERANGE, commdlg/PRINTPAGERANGE, dlgbox.printpagerange_str, tagPRINTPAGERANGE, winui._win32_printpagerange_str"
 ms.prod: windows
 ms.technology: windows-sdk

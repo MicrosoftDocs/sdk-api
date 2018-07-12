@@ -7,7 +7,7 @@ old-location: hcp\querythreadprofiling.htm
 old-project: hcp
 ms.assetid: cf746694-cc3a-4791-8877-fd879e968811
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: QueryThreadProfiling, QueryThreadProfiling function [Hardware Counter Profiling], hcp.querythreadprofiling, winbase/QueryThreadProfiling
 ms.prod: windows
 ms.technology: windows-sdk

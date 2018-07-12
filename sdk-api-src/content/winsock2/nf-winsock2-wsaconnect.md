@@ -7,7 +7,7 @@ old-location: winsock\wsaconnect_2.htm
 old-project: WinSock
 ms.assetid: 3b32cc6e-3df7-4104-a0d4-317fd445c7b2
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: WSAConnect, WSAConnect function [Winsock], _win32_wsaconnect_2, winsock.wsaconnect_2, winsock2/WSAConnect
 ms.prod: windows
 ms.technology: windows-sdk

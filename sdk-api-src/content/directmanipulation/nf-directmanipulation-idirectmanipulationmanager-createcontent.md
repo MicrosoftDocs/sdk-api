@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationmanager_createcontent.htm
 old-project: directmanipulation
 ms.assetid: f8a2fbb2-f662-4eb7-88fb-64286205f19e
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: CreateContent, CreateContent method [Direct Manipulation], CreateContent method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],CreateContent method, IDirectManipulationManager.CreateContent, IDirectManipulationManager::CreateContent, directmanipulation.idirectmanipulationmanager_createcontent, directmanipulation/IDirectManipulationManager::CreateContent
 ms.prod: windows
 ms.technology: windows-sdk

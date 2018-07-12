@@ -4,10 +4,10 @@ title: ITDigitDetectionEvent::get_CallbackInstance
 author: windows-sdk-content
 description: The get_CallbackInstance method gets a pointer to the callback instance associated with the event.
 old-location: tapi3\itdigitdetectionevent_get_callbackinstance.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: e24d6a37-8f72-42d7-8162-b201eed3cc9a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITDigitDetectionEvent interface [TAPI 2.2],get_CallbackInstance method, ITDigitDetectionEvent.get_CallbackInstance, ITDigitDetectionEvent::get_CallbackInstance, _tapi3_itdigitdetectionevent_get_callbackinstance, get_CallbackInstance, get_CallbackInstance method [TAPI 2.2], get_CallbackInstance method [TAPI 2.2],ITDigitDetectionEvent interface, tapi3.itdigitdetectionevent_get_callbackinstance, tapi3if/ITDigitDetectionEvent::get_CallbackInstance
 ms.prod: windows
 ms.technology: windows-sdk

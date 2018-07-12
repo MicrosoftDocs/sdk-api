@@ -4,10 +4,10 @@ title: FWPM_SUBLAYER0_
 author: windows-sdk-content
 description: Stores the state associated with a sublayer.
 old-location: fwp\fwpm_sublayer0_struct.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: ce689b1d-1f5c-4dde-96cd-9001de3827aa
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FWPM_SUBLAYER0, FWPM_SUBLAYER0 structure [Filtering], FWPM_SUBLAYER0_, FWPM_SUBLAYER_FLAG_PERSISTENT, fwp.fwpm_sublayer0_struct, fwpmtypes/FWPM_SUBLAYER0
 ms.prod: windows
 ms.technology: windows-sdk

@@ -6,6 +6,5 @@
     "dwrite_1.h",
     "dwrite_3.h",
     "dwrite_2.h"
-  ],
-  "displayName": "DirectWrite"
+  ]
 }

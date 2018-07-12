@@ -4,10 +4,10 @@ title: SetPerTcp6ConnectionEStats function
 author: windows-sdk-content
 description: Sets a value in the read/write information for an IPv6 TCP connection. This function is used to enable or disable extended statistics for an IPv6 TCP connection.
 old-location: iphlp\setpertcp6connectionestats.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 89ace750-ec32-46cb-8526-233f847ba9f4
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: SetPerTcp6ConnectionEStats, SetPerTcp6ConnectionEStats function [IP Helper], TcpConnectionEstatsBandwidth, TcpConnectionEstatsData, TcpConnectionEstatsFineRtt, TcpConnectionEstatsObsRec, TcpConnectionEstatsPath, TcpConnectionEstatsRec, TcpConnectionEstatsSendBuff, TcpConnectionEstatsSndCong, iphlp.setpertcp6connectionestats, iphlpapi/SetPerTcp6ConnectionEStats
 ms.prod: windows
 ms.technology: windows-sdk

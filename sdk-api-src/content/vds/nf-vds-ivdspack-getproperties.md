@@ -4,10 +4,10 @@ title: IVdsPack::GetProperties
 author: windows-sdk-content
 description: Returns the property details of a pack object.
 old-location: base\ivdspack_getproperties.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 0793642c-1905-470c-a69f-8bf5f8bbe90d
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsPack interface, IVdsPack interface [VDS],GetProperties method, IVdsPack.GetProperties, IVdsPack::GetProperties, base.ivdspack_getproperties, vds/IVdsPack::GetProperties
 ms.prod: windows
 ms.technology: windows-sdk

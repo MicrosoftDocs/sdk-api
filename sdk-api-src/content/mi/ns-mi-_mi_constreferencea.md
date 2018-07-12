@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constreferencea.htm
 old-project: wmi_v2
 ms.assetid: 01709e23-1c12-402b-a369-3100deeb0092
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_ConstReferenceA, MI_ConstReferenceA structure [Windows Management Infrastructure (MI)], _MI_ConstReferenceA, mi/MI_ConstReferenceA, wmi._mi_constreferencea, wmi_v2.mi_constreferencea
 ms.prod: windows
 ms.technology: windows-sdk

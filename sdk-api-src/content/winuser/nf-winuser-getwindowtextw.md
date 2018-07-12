@@ -7,7 +7,7 @@ old-location: winmsg\getwindowtext.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowtext.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: GetWindowText, GetWindowText function [Windows and Messages], GetWindowTextA, GetWindowTextW, _win32_GetWindowText, _win32_getwindowtext_cpp, winmsg.getwindowtext, winui._win32_getwindowtext, winuser/GetWindowText, winuser/GetWindowTextA, winuser/GetWindowTextW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

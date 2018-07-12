@@ -7,8 +7,8 @@ old-location: devinst\cm_open_device_interface_key_exw.htm
 old-project: devinst
 ms.assetid: 71F8EF83-4DEC-4BDC-BBCE-4F7C232F1768
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: CM_Open_Device_Interface_KeyA, CM_Open_Device_Interface_KeyW, CM_Open_Device_Interface_Key_ExW, CM_Open_Device_Interface_Key_ExW function [Device and Driver Installation], cfgmgr32/CM_Open_Device_Interface_KeyA, cfgmgr32/CM_Open_Device_Interface_KeyW, cfgmgr32/CM_Open_Device_Interface_Key_ExW, devinst.cm_open_device_interface_key_exw
+ms.date: 06/29/2018
+ms.keywords: CM_Open_Device_Interface_Key_ExW, CM_Open_Device_Interface_Key_ExW function [Device and Driver Installation], cfgmgr32/CM_Open_Device_Interface_Key_ExW, devinst.cm_open_device_interface_key_exw
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
@@ -20,7 +20,7 @@ req.target-min-winversvr:
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: CM_Open_Device_Interface_KeyW (Unicode) and CM_Open_Device_Interface_KeyA (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
@@ -41,8 +41,6 @@ api_location:
  - CfgMgr32.dll
 api_name:
  - CM_Open_Device_Interface_Key_ExW
- - CM_Open_Device_Interface_KeyA
- - CM_Open_Device_Interface_KeyW
 product: Windows
 targetos: Windows
 req.lib: Cfgmgr32.lib

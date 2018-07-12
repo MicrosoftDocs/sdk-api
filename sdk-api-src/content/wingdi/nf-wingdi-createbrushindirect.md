@@ -7,7 +7,7 @@ old-location: gdi\createbrushindirect.htm
 old-project: gdi
 ms.assetid: 75f94ad1-ca25-4ad1-9e8c-ad1a4b8475a7
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: CreateBrushIndirect, CreateBrushIndirect function [Windows GDI], _win32_CreateBrushIndirect, gdi.createbrushindirect, wingdi/CreateBrushIndirect
 ms.prod: windows
 ms.technology: windows-sdk

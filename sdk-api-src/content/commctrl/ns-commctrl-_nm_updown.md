@@ -4,10 +4,10 @@ title: "_NM_UPDOWN"
 author: windows-sdk-content
 description: Contains information specific to up-down control notification messages. It is identical to and replaces the NM_UPDOWN structure.
 old-location: controls\NMUPDOWN.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\updown\structures\nmupdown.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPNMUPDOWN, LPNMUPDOWN, LPNMUPDOWN structure pointer [Windows Controls], NMUPDOWN, NMUPDOWN structure [Windows Controls], _NM_UPDOWN, _win32_NMUPDOWN, _win32_NMUPDOWN_cpp, commctrl/LPNMUPDOWN, commctrl/NMUPDOWN, controls.NMUPDOWN, controls._win32_NMUPDOWN"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dataxchg\ddegetdata.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddegetdata.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DdeGetData, DdeGetData function [Data Exchange], _win32_DdeGetData, _win32_ddegetdata_cpp, dataxchg.ddegetdata, ddeml/DdeGetData, winui._win32_ddegetdata
 ms.prod: windows
 ms.technology: windows-sdk

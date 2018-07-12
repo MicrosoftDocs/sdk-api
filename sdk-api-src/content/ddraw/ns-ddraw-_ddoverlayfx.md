@@ -7,7 +7,7 @@ old-location: directdraw\ddoverlayfx.htm
 old-project: directdraw
 ms.assetid: 83b56211-0483-4e22-90b4-83ac5eaaa2f4
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/18/2018
 ms.keywords: "*LPDDOVERLAYFX, DDOVERFX_ARITHSTRETCHY, DDOVERFX_MIRRORLEFTRIGHT, DDOVERFX_MIRRORUPDOWN, DDOVERLAYFX, DDOVERLAYFX structure [DirectDraw], LPDDOVERLAYFX, LPDDOVERLAYFX structure pointer [DirectDraw], _DDOVERLAYFX, ddraw/DDOVERLAYFX, ddraw/LPDDOVERLAYFX, directdraw.ddoverlayfx"
 ms.prod: windows
 ms.technology: windows-sdk

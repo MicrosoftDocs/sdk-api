@@ -4,10 +4,10 @@ title: ITaskService::GetFolder
 author: windows-sdk-content
 description: Gets a folder of registered tasks.
 old-location: taskschd\itaskservice_getfolder.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 144b070f-43e9-40d6-8461-832abc7facd3
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetFolder, GetFolder method [Task Scheduler], GetFolder method [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],GetFolder method, ITaskService.GetFolder, ITaskService::GetFolder, taskschd.itaskservice_getfolder, taskschd/ITaskService::GetFolder
 ms.prod: windows
 ms.technology: windows-sdk

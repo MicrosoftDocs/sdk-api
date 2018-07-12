@@ -7,7 +7,7 @@ old-location: termserv\iworkspacescriptable3.htm
 old-project: TermServ
 ms.assetid: 6fe02f0a-8cce-47f0-807e-e627336adf2c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: IWorkspaceScriptable3, IWorkspaceScriptable3 interface [Remote Desktop Services], IWorkspaceScriptable3 interface [Remote Desktop Services],described, termserv.iworkspacescriptable3, workspaceruntime/IWorkspaceScriptable3
 ms.prod: windows
 ms.technology: windows-sdk

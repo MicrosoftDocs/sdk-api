@@ -7,6 +7,5 @@
     "indexsrv.h",
     "cierror.h",
     "cmdtree.h"
-  ],
-  "displayName": "Indexing Service"
+  ]
 }

@@ -4,10 +4,10 @@ title: MprAdminDeregisterConnectionNotification function
 author: windows-sdk-content
 description: The MprAdminDeregisterConnectionNotification function deregisters an event object that was previously registered using MprAdminRegisterConnectionNotification. Once deregistered, this event is no longer signaled when an interface connects or disconnects.
 old-location: rras\mpradminderegisterconnectionnotification.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 72918a54-8e8a-404a-9fd3-45b0bcc98038
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprAdminDeregisterConnectionNotification, MprAdminDeregisterConnectionNotification function [RAS], _mpr_mpradminderegisterconnectionnotification, mprapi/MprAdminDeregisterConnectionNotification, rras.mpradminderegisterconnectionnotification
 ms.prod: windows
 ms.technology: windows-sdk

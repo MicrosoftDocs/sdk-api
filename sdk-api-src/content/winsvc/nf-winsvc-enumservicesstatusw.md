@@ -4,10 +4,10 @@ title: EnumServicesStatusW function
 author: windows-sdk-content
 description: Enumerates services in the specified service control manager database. The name and status of each service are provided.
 old-location: base\enumservicesstatus.htm
-old-project: Services
+old-project: services
 ms.assetid: 3a82ac0e-f3e8-4a5a-9b13-84e952712229
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: EnumServicesStatus, EnumServicesStatus function, EnumServicesStatusA, EnumServicesStatusW, SERVICE_ACTIVE, SERVICE_DRIVER, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INACTIVE, SERVICE_KERNEL_DRIVER, SERVICE_STATE_ALL, SERVICE_WIN32, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_enumservicesstatus, base.enumservicesstatus, winsvc/EnumServicesStatus, winsvc/EnumServicesStatusA, winsvc/EnumServicesStatusW
 ms.prod: windows
 ms.technology: windows-sdk

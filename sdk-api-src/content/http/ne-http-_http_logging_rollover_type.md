@@ -4,10 +4,10 @@ title: "_HTTP_LOGGING_ROLLOVER_TYPE"
 author: windows-sdk-content
 description: Defines the log file rollover types.
 old-location: http\http_logging_rollover_type.htm
-old-project: Http
+old-project: http
 ms.assetid: f1560f05-f7c4-46f1-ad9e-d737d0019b41
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 04/13/2018
 ms.keywords: "*PHTTP_LOGGING_ROLLOVER_TYPE, *PHTTP_LOGGING_ROLLOVER_TYPE enumeration [HTTP], HTTP_LOGGING_ROLLOVER_TYPE, HTTP_LOGGING_ROLLOVER_TYPE enumeration [HTTP], HttpLoggingRolloverDaily, HttpLoggingRolloverHourly, HttpLoggingRolloverMonthly, HttpLoggingRolloverSize, HttpLoggingRolloverWeekly, _HTTP_LOGGING_ROLLOVER_TYPE, http.http_logging_rollover_type, http/*PHTTP_LOGGING_ROLLOVER_TYPE, http/HTTP_LOGGING_ROLLOVER_TYPE, http/HttpLoggingRolloverDaily, http/HttpLoggingRolloverHourly, http/HttpLoggingRolloverMonthly, http/HttpLoggingRolloverSize, http/HttpLoggingRolloverWeekly"
 ms.prod: windows
 ms.technology: windows-sdk

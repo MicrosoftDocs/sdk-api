@@ -7,7 +7,7 @@ old-location: base\setthreadpoolcallbackpriority.htm
 old-project: ProcThread
 ms.assetid: c24d3e9b-5a4e-43e1-a903-b612d022aa97
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: SetThreadpoolCallbackPriority, SetThreadpoolCallbackPriority function, TP_CALLBACK_PRIORITY_HIGH, TP_CALLBACK_PRIORITY_LOW, TP_CALLBACK_PRIORITY_NORMAL, base.setthreadpoolcallbackpriority, winbase/SetThreadpoolCallbackPriority
 ms.prod: windows
 ms.technology: windows-sdk

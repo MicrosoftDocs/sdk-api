@@ -7,7 +7,7 @@ old-location: search\_search_IConditionFactory2_CreateLeaf.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory\createleaf.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CreateLeaf, CreateLeaf method [search], CreateLeaf method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateLeaf method, IConditionFactory2.CreateLeaf, IConditionFactory2::CreateLeaf, _search_IConditionFactory2_CreateLeaf, search._search_IConditionFactory2_CreateLeaf, structuredquery/IConditionFactory2::CreateLeaf
 ms.prod: windows
 ms.technology: windows-sdk

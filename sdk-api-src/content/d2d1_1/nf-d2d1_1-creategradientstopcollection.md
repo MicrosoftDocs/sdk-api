@@ -4,10 +4,10 @@ title: CreateGradientStopCollection function
 author: windows-sdk-content
 description: Creates an ID2D1GradientStopCollection from the specified array of D2D1_GRADIENT_STOP structures.
 old-location: direct2d\id2d1rendertarget_creategradientstopcollection.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 674ffba5-18c5-46bf-8813-d8d13e5ba903
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: CreateGradientStopCollection, CreateGradientStopCollection methods [Direct2D], ID2D1RenderTarget::CreateGradientStopCollection, d2d1_1/CreateGradientStopCollection, direct2d.id2d1rendertarget_creategradientstopcollection
 ms.prod: windows
 ms.technology: windows-sdk

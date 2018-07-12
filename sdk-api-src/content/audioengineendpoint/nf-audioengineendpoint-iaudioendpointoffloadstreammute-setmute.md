@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointoffloadstreammute_setmute.htm
 old-project: CoreAudio
 ms.assetid: 43AF8146-BDF6-47F5-BD8F-DA46C4624D95
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: IAudioEndpointOffloadStreamMute interface [Core Audio],SetMute method, IAudioEndpointOffloadStreamMute.SetMute, IAudioEndpointOffloadStreamMute::SetMute, SetMute, SetMute method [Core Audio], SetMute method [Core Audio],IAudioEndpointOffloadStreamMute interface, audioengineendpoint/IAudioEndpointOffloadStreamMute::SetMute, coreaudio.iaudioendpointoffloadstreammute_setmute
 ms.prod: windows
 ms.technology: windows-sdk

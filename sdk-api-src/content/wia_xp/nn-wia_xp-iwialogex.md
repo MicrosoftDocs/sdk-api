@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaLogEx.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialogex\iwialogex.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: IWiaLogEx, IWiaLogEx interface [WIA], IWiaLogEx interface [WIA],described, _wia_IWiaLogEx, wia._wia_IWiaLogEx, wia_xp/IWiaLogEx
 ms.prod: windows
 ms.technology: windows-sdk

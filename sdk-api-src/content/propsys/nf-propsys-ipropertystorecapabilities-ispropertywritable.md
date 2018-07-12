@@ -7,7 +7,7 @@ old-location: properties\IPropertyStoreCapabilities_IsPropertyWritable.htm
 old-project: properties
 ms.assetid: ffd13c93-3011-4955-ad1e-2731afd83956
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: IPropertyStoreCapabilities interface [Windows Properties],IsPropertyWritable method, IPropertyStoreCapabilities.IsPropertyWritable, IPropertyStoreCapabilities::IsPropertyWritable, IsPropertyWritable, IsPropertyWritable method [Windows Properties], IsPropertyWritable method [Windows Properties],IPropertyStoreCapabilities interface, _shell_IPropertyStoreCapabilities_IsPropertyWritable, properties.IPropertyStoreCapabilities_IsPropertyWritable, propsys/IPropertyStoreCapabilities::IsPropertyWritable, shell.IPropertyStoreCapabilities_IsPropertyWritable
 ms.prod: windows
 ms.technology: windows-sdk

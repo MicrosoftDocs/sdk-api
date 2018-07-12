@@ -7,7 +7,7 @@ old-location: machinelearning\iwinmlmodel_enumeratemodeloutputs.htm
 old-project: MachineLearning
 ms.assetid: F946AF8E-67BE-4F4B-9BE3-2142CE646B0B
 ms.author: windowssdkdev
-ms.date: 03/07/2018
+ms.date: 03/08/2018
 ms.keywords: EnumerateModelOutputs, EnumerateModelOutputs method, EnumerateModelOutputs method,IWinMLModel interface, IWinMLModel interface,EnumerateModelOutputs method, IWinMLModel.EnumerateModelOutputs, IWinMLModel::EnumerateModelOutputs, MachineLearning.iwinmlmodel_enumeratemodeloutputs, winml/IWinMLModel::EnumerateModelOutputs
 ms.prod: windows
 ms.technology: windows-sdk

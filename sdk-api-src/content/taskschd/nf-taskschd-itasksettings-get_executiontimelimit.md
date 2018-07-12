@@ -4,10 +4,10 @@ title: ITaskSettings::get_ExecutionTimeLimit
 author: windows-sdk-content
 description: Gets or sets the amount of time that is allowed to complete the task.
 old-location: taskschd\itasksettings_executiontimelimit.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 33e70133-9dfe-402a-9a1a-87f3fcc3eb96
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: ExecutionTimeLimit property [Task Scheduler], ExecutionTimeLimit property [Task Scheduler],ITaskSettings interface, ITaskSettings interface [Task Scheduler],ExecutionTimeLimit property, ITaskSettings.ExecutionTimeLimit, ITaskSettings.get_ExecutionTimeLimit, ITaskSettings::ExecutionTimeLimit, ITaskSettings::get_ExecutionTimeLimit, ITaskSettings::put_ExecutionTimeLimit, get_ExecutionTimeLimit, taskschd.itasksettings_executiontimelimit, taskschd/ITaskSettings::ExecutionTimeLimit, taskschd/ITaskSettings::get_ExecutionTimeLimit, taskschd/ITaskSettings::put_ExecutionTimeLimit
 ms.prod: windows
 ms.technology: windows-sdk

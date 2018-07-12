@@ -4,10 +4,10 @@ title: "_RSVP_FILTERSPEC_V4_GPI"
 author: windows-sdk-content
 description: The RSVP_FILTERSPEC_V4_GPI structure provides general port identifier information for a given FILTERSPEC.
 old-location: qos\rsvp_filterspec_v4_gpi.htm
-old-project: QOS
+old-project: qos
 ms.assetid: bedb3526-700c-4c99-ba02-19389a78acf8
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: "*LPRSVP_FILTERSPEC_V4_GPI, *LPRSVP_FILTERSPEC_V4_GPI structure [QOS], RSVP_FILTERSPEC_V4_GPI, RSVP_FILTERSPEC_V4_GPI structure [QOS], _RSVP_FILTERSPEC_V4_GPI, qos.rsvp_filterspec_v4_gpi, qossp/*LPRSVP_FILTERSPEC_V4_GPI, qossp/RSVP_FILTERSPEC_V4_GPI"
 ms.prod: windows
 ms.technology: windows-sdk

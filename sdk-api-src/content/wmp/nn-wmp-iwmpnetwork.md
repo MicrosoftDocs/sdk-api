@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork.htm
 old-project: WMP
 ms.assetid: 074a4bc2-3d9f-4007-b6c8-91ea92a87b67
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], IWMPNetwork interface [Windows Media Player],described, IWMPNetworkInterface, wmp.iwmpnetwork, wmp/IWMPNetwork
 ms.prod: windows
 ms.technology: windows-sdk

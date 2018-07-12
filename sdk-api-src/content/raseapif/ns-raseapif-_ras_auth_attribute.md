@@ -4,10 +4,10 @@ title: "_RAS_AUTH_ATTRIBUTE"
 author: windows-sdk-content
 description: The RAS_AUTH_ATTRIBUTE structure is used to pass authentication attributes, of type RAS_AUTH_ATTRIBUTE_TYPE, during an EAP session.
 old-location: eap\ras_auth_attribute.htm
-old-project: EAP
+old-project: eap
 ms.assetid: 36659154-de2b-4a94-b25e-b731a4ef9d99
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: "*PRAS_AUTH_ATTRIBUTE, PRAS_AUTH_ATTRIBUTE, PRAS_AUTH_ATTRIBUTE structure pointer [EAP], RAS_AUTH_ATTRIBUTE, RAS_AUTH_ATTRIBUTE structure [EAP], _RAS_AUTH_ATTRIBUTE, _eap_ras_auth_attribute, eap.ras_auth_attribute, raseapif/PRAS_AUTH_ATTRIBUTE, raseapif/RAS_AUTH_ATTRIBUTE"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ISdoDictionaryOld::EnumAttributeValues
 author: windows-sdk-content
 description: The EnumAttributeValues method retrieves the values for an enumerable attribute.
 old-location: nps\SDO_isdodictionaryold_enumattributevalues.htm
-old-project: Nps
+old-project: nps
 ms.assetid: e46dc286-5316-49c2-a384-b486efc80d2a
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: EnumAttributeValues, EnumAttributeValues method [Network Policy Server], EnumAttributeValues method [Network Policy Server],ISdoDictionaryOld interface, ISdoDictionaryOld interface [Network Policy Server],EnumAttributeValues method, ISdoDictionaryOld.EnumAttributeValues, ISdoDictionaryOld::EnumAttributeValues, _sdo_isdodictionaryold_enumattributevalues, nps.SDO_isdodictionaryold_enumattributevalues, sdo.isdodictionaryold_enumattributevalues, sdoias/ISdoDictionaryOld::EnumAttributeValues
 ms.prod: windows
 ms.technology: windows-sdk

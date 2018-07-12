@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocinterface_isradioon.htm
 old-project: NativeWiFi
 ms.assetid: f5d76166-b960-4b70-acf7-e8eb65ca8cfb
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: IDot11AdHocInterface interface [NativeWIFI],IsRadioOn method, IDot11AdHocInterface.IsRadioOn, IDot11AdHocInterface::IsRadioOn, IsRadioOn, IsRadioOn method [NativeWIFI], IsRadioOn method [NativeWIFI],IDot11AdHocInterface interface, adhoc/IDot11AdHocInterface::IsRadioOn, nwifi.idot11adhocinterface_isradioon
 ms.prod: windows
 ms.technology: windows-sdk

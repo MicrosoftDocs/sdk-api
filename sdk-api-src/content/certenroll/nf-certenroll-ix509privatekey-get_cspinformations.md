@@ -4,10 +4,10 @@ title: IX509PrivateKey::get_CspInformations
 author: windows-sdk-content
 description: Specifies or retrieves a collection of ICspInformation objects that contain information about the available cryptographic providers that support the public key algorithm associated with the private key.
 old-location: security\ix509privatekey_cspinformations.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 81cf4689-0cd6-4185-9242-ef26de9161a1
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: CspInformations property [Security], CspInformations property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],CspInformations property, IX509PrivateKey.CspInformations, IX509PrivateKey.get_CspInformations, IX509PrivateKey::CspInformations, IX509PrivateKey::get_CspInformations, IX509PrivateKey::put_CspInformations, certenroll/IX509PrivateKey::CspInformations, certenroll/IX509PrivateKey::get_CspInformations, certenroll/IX509PrivateKey::put_CspInformations, get_CspInformations, security.ix509privatekey_cspinformations
 ms.prod: windows
 ms.technology: windows-sdk

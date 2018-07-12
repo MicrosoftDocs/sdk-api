@@ -7,7 +7,7 @@ old-location: nwifi\onex_variable_blob.htm
 old-project: NativeWiFi
 ms.assetid: 3a410bde-bcff-4a86-aadc-650862dbf38b
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: "*PONEX_VARIABLE_BLOB, ONEX_VARIABLE_BLOB, ONEX_VARIABLE_BLOB structure [NativeWIFI], PONEX_VARIABLE_BLOB, PONEX_VARIABLE_BLOB structure pointer [NativeWIFI], _ONEX_VARIABLE_BLOB, dot1x/ONEX_VARIABLE_BLOB, dot1x/PONEX_VARIABLE_BLOB, nwifi.onex_variable_blob"
 ms.prod: windows
 ms.technology: windows-sdk

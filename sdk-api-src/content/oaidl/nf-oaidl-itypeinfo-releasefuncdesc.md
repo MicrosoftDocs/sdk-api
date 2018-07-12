@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_releasefuncdesc.htm
 old-project: automat
 ms.assetid: 5c407301-87fd-4f79-89e1-c6db5d1cf36b
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: ITypeInfo interface [Automation],ReleaseFuncDesc method, ITypeInfo.ReleaseFuncDesc, ITypeInfo::ReleaseFuncDesc, ReleaseFuncDesc, ReleaseFuncDesc method [Automation], ReleaseFuncDesc method [Automation],ITypeInfo interface, _oa96_ITypeInfo_ReleaseFuncDesc, automat.itypeinfo_releasefuncdesc, oaidl/ITypeInfo::ReleaseFuncDesc
 ms.prod: windows
 ms.technology: windows-sdk

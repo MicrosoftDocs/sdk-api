@@ -4,10 +4,10 @@ title: ISClusResGroups::DeleteItem
 author: windows-sdk-content
 description: Deletes a group from the cluster as well as from the ClusResGroups collection.
 old-location: mscs\clusresgroups_deleteitem.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 907364e7-cf9d-49f6-9c98-d16f6058ce5f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResGroups collection [Failover Cluster],DeleteItem method, ClusResGroups.DeleteItem, DeleteItem, DeleteItem method [Failover Cluster], DeleteItem method [Failover Cluster],ClusResGroups collection, ISClusResGroups.DeleteItem, ISClusResGroups::DeleteItem, _wolf_clusresgroups.deleteitem, mscs.clusresgroups_deleteitem
 ms.prod: windows
 ms.technology: windows-sdk

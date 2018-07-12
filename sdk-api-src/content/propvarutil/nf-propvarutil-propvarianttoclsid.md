@@ -7,7 +7,7 @@ old-location: properties\PropVariantToCLSID.htm
 old-project: properties
 ms.assetid: 35b638e3-7610-49d6-92f3-5e4021fea635
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PropVariantToCLSID, PropVariantToCLSID function [Windows Properties], _shell_PropVariantToCLSID, properties.PropVariantToCLSID, propvarutil/PropVariantToCLSID, shell.PropVariantToCLSID
 ms.prod: windows
 ms.technology: windows-sdk

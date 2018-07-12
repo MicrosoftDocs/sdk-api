@@ -7,7 +7,7 @@ old-location: dxmath\xmstoredec4.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreDec4(XMDEC4@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 06/14/2018
 ms.keywords: DirectX::PackedVector.XMStoreDec4, XMStoreDec4, XMStoreDec4 method [DirectX Math Support APIs], dxmath.xmstoredec4
 ms.prod: windows
 ms.technology: windows-sdk

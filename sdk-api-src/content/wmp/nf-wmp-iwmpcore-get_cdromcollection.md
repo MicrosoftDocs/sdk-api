@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore_get_cdromcollection.htm
 old-project: WMP
 ms.assetid: 6bb6500e-7a30-400b-a88b-7ee3596501b1
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_cdromCollection method, IWMPCore.get_cdromCollection, IWMPCore::get_cdromCollection, IWMPCoreget_cdromCollection, get_cdromCollection, get_cdromCollection method [Windows Media Player], get_cdromCollection method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_cdromcollection, wmp/IWMPCore::get_cdromCollection
 ms.prod: windows
 ms.technology: windows-sdk

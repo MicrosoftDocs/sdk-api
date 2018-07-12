@@ -7,7 +7,7 @@ old-location: winprog\_win32_winnlsenableime.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\winnlsenableime.htm
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: WINNLSEnableIME, WINNLSEnableIME function [Windows API], _win32_WINNLSEnableIME, winnls32/WINNLSEnableIME, winprog._win32_winnlsenableime, winui._win32_winnlsenableime
 ms.prod: windows
 ms.technology: windows-sdk

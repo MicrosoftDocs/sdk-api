@@ -7,7 +7,7 @@ old-location: tsf\itfinputprocessorprofileactivationsink.htm
 old-project: TSF
 ms.assetid: 97a6a820-8e0e-46b0-a359-da0a17fb4cae
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfInputProcessorProfileActivationSink, ITfInputProcessorProfileActivationSink interface [Text Services Framework], ITfInputProcessorProfileActivationSink interface [Text Services Framework],described, _tsf_itfinputprocessorprofileactivationsink_ref, msctf/ITfInputProcessorProfileActivationSink, tsf.itfinputprocessorprofileactivationsink
 ms.prod: windows
 ms.technology: windows-sdk

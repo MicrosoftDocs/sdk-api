@@ -4,10 +4,10 @@ title: IWSDSSLClientCertificate
 author: windows-sdk-content
 description: Retrieves the client SSL certificate.
 old-location: ncd\iwsdsslclientcertificate.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: d1b5eb99-7bbb-4881-8251-4362368dff88
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: IWSDSSLClientCertificate, IWSDSSLClientCertificate interface, IWSDSSLClientCertificate interface,described, ncd.iwsdsslclientcertificate, wsdbase/IWSDSSLClientCertificate
 ms.prod: windows
 ms.technology: windows-sdk

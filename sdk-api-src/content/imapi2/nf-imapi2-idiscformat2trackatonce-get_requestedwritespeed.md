@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2trackatonce_get_requestedwritespeed.htm
 old-project: imapi
 ms.assetid: 8fe83f25-9d7d-472d-9b84-90e00c0b5a51
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_RequestedWriteSpeed method, IDiscFormat2TrackAtOnce.get_RequestedWriteSpeed, IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed, get_RequestedWriteSpeed, get_RequestedWriteSpeed method [IMAPI], get_RequestedWriteSpeed method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_requestedwritespeed, imapi2/IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog_refreshcomponents.htm
 old-project: cossdk
 ms.assetid: 50528312-60e1-4648-b0e5-709a6b49737e
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],RefreshComponents method, ICOMAdminCatalog.RefreshComponents, ICOMAdminCatalog::RefreshComponents, RefreshComponents, RefreshComponents method [COM+], RefreshComponents method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_RefreshComponents, comadmin/ICOMAdminCatalog::RefreshComponents, cos.icomadmincatalog_refreshcomponents
 ms.prod: windows
 ms.technology: windows-sdk

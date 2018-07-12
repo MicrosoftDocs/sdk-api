@@ -4,10 +4,10 @@ title: InitializeIpForwardEntry function
 author: windows-sdk-content
 description: Initializes a MIB_IPFORWARD_ROW2 structure with default values for an IP route entry on the local computer.
 old-location: iphlp\initializeipforwardentry.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 1968c4e5-4b28-4387-a918-3326bc80bb3e
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: InitializeIpForwardEntry, InitializeIpForwardEntry function [IP Helper], iphlp.initializeipforwardentry, netioapi/InitializeIpForwardEntry
 ms.prod: windows
 ms.technology: windows-sdk

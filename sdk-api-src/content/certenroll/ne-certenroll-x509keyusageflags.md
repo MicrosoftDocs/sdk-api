@@ -4,10 +4,10 @@ title: X509KeyUsageFlags
 author: windows-sdk-content
 description: Specifies the purpose of a key contained in a certificate.
 old-location: security\x509keyusageflags_enum.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 3fcb91a3-ffcd-419f-a686-3fd2d1e795b3
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: X509KeyUsageFlags, X509KeyUsageFlags enumeration [Security], XCN_CERT_CRL_SIGN_KEY_USAGE, XCN_CERT_DATA_ENCIPHERMENT_KEY_USAGE, XCN_CERT_DECIPHER_ONLY_KEY_USAGE, XCN_CERT_DIGITAL_SIGNATURE_KEY_USAGE, XCN_CERT_ENCIPHER_ONLY_KEY_USAGE, XCN_CERT_KEY_AGREEMENT_KEY_USAGE, XCN_CERT_KEY_CERT_SIGN_KEY_USAGE, XCN_CERT_KEY_ENCIPHERMENT_KEY_USAGE, XCN_CERT_NON_REPUDIATION_KEY_USAGE, XCN_CERT_NO_KEY_USAGE, XCN_CERT_OFFLINE_CRL_SIGN_KEY_USAGE, certenroll/X509KeyUsageFlags, certenroll/XCN_CERT_CRL_SIGN_KEY_USAGE, certenroll/XCN_CERT_DATA_ENCIPHERMENT_KEY_USAGE, certenroll/XCN_CERT_DECIPHER_ONLY_KEY_USAGE, certenroll/XCN_CERT_DIGITAL_SIGNATURE_KEY_USAGE, certenroll/XCN_CERT_ENCIPHER_ONLY_KEY_USAGE, certenroll/XCN_CERT_KEY_AGREEMENT_KEY_USAGE, certenroll/XCN_CERT_KEY_CERT_SIGN_KEY_USAGE, certenroll/XCN_CERT_KEY_ENCIPHERMENT_KEY_USAGE, certenroll/XCN_CERT_NON_REPUDIATION_KEY_USAGE, certenroll/XCN_CERT_NO_KEY_USAGE, certenroll/XCN_CERT_OFFLINE_CRL_SIGN_KEY_USAGE, security.x509keyusageflags_enum
 ms.prod: windows
 ms.technology: windows-sdk

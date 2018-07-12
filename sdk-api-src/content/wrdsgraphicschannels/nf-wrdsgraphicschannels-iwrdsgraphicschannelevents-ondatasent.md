@@ -7,7 +7,7 @@ old-location: termserv\iwrdsgraphicschannelevents_ondatasent.htm
 old-project: TermServ
 ms.assetid: eb5af337-a412-4bda-862f-7e12705d0446
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnDataSent method, IWRdsGraphicsChannelEvents.OnDataSent, IWRdsGraphicsChannelEvents::OnDataSent, OnDataSent, OnDataSent method [Remote Desktop Services], OnDataSent method [Remote Desktop Services],IWRdsGraphicsChannelEvents interface, termserv.iwrdsgraphicschannelevents_ondatasent, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnDataSent
 ms.prod: windows
 ms.technology: windows-sdk

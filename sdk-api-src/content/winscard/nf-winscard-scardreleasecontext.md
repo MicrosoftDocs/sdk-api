@@ -7,7 +7,7 @@ old-location: security\scardreleasecontext.htm
 old-project: SecAuthN
 ms.assetid: aa17cf94-ca66-4b5e-b1cd-00319f496b09
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: SCardReleaseContext, SCardReleaseContext function [Security], _smart_scardreleasecontext, security.scardreleasecontext, winscard/SCardReleaseContext
 ms.prod: windows
 ms.technology: windows-sdk

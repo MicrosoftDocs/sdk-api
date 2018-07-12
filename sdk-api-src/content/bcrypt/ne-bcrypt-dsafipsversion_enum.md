@@ -4,10 +4,10 @@ title: DSAFIPSVERSION_ENUM
 author: windows-sdk-content
 description: Contains FIPS version information.
 old-location: security\dsafipsversion_enum.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 6797D7C0-3451-464E-9261-61217ADAB9C1
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: DSAFIPSVERSION_ENUM, DSAFIPSVERSION_ENUM enumeration [Security], DSA_FIPS186_2, DSA_FIPS186_3, bcrypt/DSAFIPSVERSION_ENUM, bcrypt/DSA_FIPS186_2, bcrypt/DSA_FIPS186_3, security.dsafipsversion_enum
 ms.prod: windows
 ms.technology: windows-sdk

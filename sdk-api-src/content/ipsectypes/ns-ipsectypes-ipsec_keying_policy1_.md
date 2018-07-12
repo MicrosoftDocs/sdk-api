@@ -4,10 +4,10 @@ title: IPSEC_KEYING_POLICY1_
 author: windows-sdk-content
 description: Defines an unordered set of keying modules that will be tried for IPsec.
 old-location: fwp\ipsec_keying_policy1.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 4b574e1c-ce0f-4c72-a14b-5ca0ed8aa005
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IPSEC_KEYING_POLICY1, IPSEC_KEYING_POLICY1 structure [Filtering], IPSEC_KEYING_POLICY1_, IPSEC_KEYING_POLICY_FLAG_TERMINATING_MATCH, fwp.ipsec_keying_policy1, ipsectypes/IPSEC_KEYING_POLICY1
 ms.prod: windows
 ms.technology: windows-sdk

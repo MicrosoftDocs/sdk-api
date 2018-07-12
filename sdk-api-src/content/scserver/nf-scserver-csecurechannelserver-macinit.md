@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelserver_macinit.htm
 old-project: WMDM
 ms.assetid: 92161bf3-8e2f-4b4a-a09a-98e33637df27
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],MACInit method, CSecureChannelServer.MACInit, CSecureChannelServer::MACInit, CSecureChannelServerMACInit, MACInit, MACInit method [windows Media Device Manager], MACInit method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::MACInit, wmdm.csecurechannelserver_macinit
 ms.prod: windows
 ms.technology: windows-sdk

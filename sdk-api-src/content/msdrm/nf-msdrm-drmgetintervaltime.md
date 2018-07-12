@@ -4,10 +4,10 @@ title: DRMGetIntervalTime function
 author: windows-sdk-content
 description: Retrieves the number of days from issuance that can pass before an end&#8211;user license must be renewed.
 old-location: rm\drmgetintervaltime.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: 681791b1-caeb-46ef-8cae-c93d46a6729e
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMGetIntervalTime, DRMGetIntervalTime function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetIntervalTime, rm.drmgetintervaltime
 ms.prod: windows
 ms.technology: windows-sdk

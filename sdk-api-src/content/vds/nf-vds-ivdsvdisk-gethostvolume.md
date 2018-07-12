@@ -4,10 +4,10 @@ title: IVdsVDisk::GetHostVolume
 author: windows-sdk-content
 description: Returns an interface pointer to the volume object for the volume where the virtual disk resides.
 old-location: base\ivdsvdisk_gethostvolume.htm
-old-project: VDS
+old-project: vds
 ms.assetid: e8ab5d3a-775d-4c80-9c18-d25b5dd169e6
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: GetHostVolume, GetHostVolume method, GetHostVolume method,IVdsVDisk interface, IVdsVDisk interface,GetHostVolume method, IVdsVDisk.GetHostVolume, IVdsVDisk::GetHostVolume, base.ivdsvdisk_gethostvolume, vds/IVdsVDisk::GetHostVolume
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ Returns an interface pointer to the volume object for the volume where the virtu
 
 ### -param ppVolume [out]
 
-A pointer to a variable that receives an <a href="https://msdn.microsoft.com/a02ee0a6-ac29-406c-9fc0-4f632d32424f">IVdsVolume</a> interface pointer for the volume. Callers must release the interface pointer when it is no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+A pointer to a variable that receives an <a href="https://msdn.microsoft.com/a02ee0a6-ac29-406c-9fc0-4f632d32424f">IVdsVolume</a> interface pointer for the volume. Callers must release the interface pointer when it is no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

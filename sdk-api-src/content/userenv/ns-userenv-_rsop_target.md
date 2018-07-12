@@ -4,10 +4,10 @@ title: "_RSOP_TARGET"
 author: windows-sdk-content
 description: The RSOP_TARGET structure contains computer and user information required by the GenerateGroupPolicy function.
 old-location: policy\rsop_target_str.htm
-old-project: Policy
+old-project: policy
 ms.assetid: 65b0eb27-fc4a-44d6-843e-965a90dc51e8
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: "*PRSOP_TARGET, PRSOP_TARGET, PRSOP_TARGET structure pointer [Group Policy], RSOP_TARGET, RSOP_TARGET structure [Group Policy], _RSOP_TARGET, _win32_rsop_target_str, policy.rsop_target_str, userenv/PRSOP_TARGET, userenv/RSOP_TARGET"
 ms.prod: windows
 ms.technology: windows-sdk

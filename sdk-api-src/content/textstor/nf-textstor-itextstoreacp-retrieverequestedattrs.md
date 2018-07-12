@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_retrieverequestedattrs.htm
 old-project: TSF
 ms.assetid: 6cd34ca5-6561-4161-beac-98248f0415f6
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],RetrieveRequestedAttrs method, ITextStoreACP.RetrieveRequestedAttrs, ITextStoreACP::RetrieveRequestedAttrs, RetrieveRequestedAttrs, RetrieveRequestedAttrs method [Text Services Framework], RetrieveRequestedAttrs method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_retrieverequestedattrs_ref, textstor/ITextStoreACP::RetrieveRequestedAttrs, tsf.itextstoreacp_retrieverequestedattrs
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_setsingletabletmode.htm
 old-project: tablet
 ms.assetid: 7f3645fd-cb1e-4bd5-a995-d70197c61afc
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: 7f3645fd-cb1e-4bd5-a995-d70197c61afc, IRealTimeStylus interface [Tablet PC],SetSingleTabletMode method, IRealTimeStylus.SetSingleTabletMode, IRealTimeStylus::SetSingleTabletMode, SetSingleTabletMode, SetSingleTabletMode method [Tablet PC], SetSingleTabletMode method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::SetSingleTabletMode, tablet.irealtimestylus_setsingletabletmode
 ms.prod: windows
 ms.technology: windows-sdk

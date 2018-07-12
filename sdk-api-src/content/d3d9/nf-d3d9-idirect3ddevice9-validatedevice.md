@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__validatedevice.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__validatedevice.htm
 ms.author: windowssdkdev
-ms.date: 04/10/2018
+ms.date: 04/11/2018
 ms.keywords: 8ca7b036-a40e-e1d7-8756-34204c874629, IDirect3DDevice9 interface [Direct3D 9],ValidateDevice method, IDirect3DDevice9.ValidateDevice, IDirect3DDevice9::ValidateDevice, ValidateDevice, ValidateDevice method [Direct3D 9], ValidateDevice method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::ValidateDevice, direct3d9.idirect3ddevice9__validatedevice
 ms.prod: windows
 ms.technology: windows-sdk

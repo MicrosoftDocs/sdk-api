@@ -7,7 +7,7 @@ old-location: properties\PropVariantCompareEx.htm
 old-project: properties
 ms.assetid: 0fc9eb7b-e981-430c-b50e-77eb51620a76
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PVCF_DEFAULT, PVCF_TREATEMPTYASGREATERTHAN, PVCF_USESTRCMP, PVCF_USESTRCMPC, PVCF_USESTRCMPI, PVCF_USESTRCMPIC, PropVariantCompareEx, PropVariantCompareEx function [Windows Properties], _shell_PropVariantCompareEx, properties.PropVariantCompareEx, propvarutil/PropVariantCompareEx, shell.PropVariantCompareEx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_put_caption.htm
 old-project: DirectShow
 ms.assetid: d16dca01-95ba-4573-b9c4-ab996dcf21e4
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_Caption method, IVideoWindow.put_Caption, IVideoWindow::put_Caption, IVideoWindowput_Caption, control/IVideoWindow::put_Caption, dshow.ivideowindow_put_caption, put_Caption, put_Caption method [DirectShow], put_Caption method [DirectShow],IVideoWindow interface
 ms.prod: windows
 ms.technology: windows-sdk

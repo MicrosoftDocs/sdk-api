@@ -4,10 +4,10 @@ title: "_DHCP_FAILOVER_STATISTICS"
 author: windows-sdk-content
 description: The DHCP_FAILOVER_STATISTICS structure defines DHCP server scope statistics that are part of a failover relationship.
 old-location: dhcp\dhcp_failover_statistics.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: a06d873c-fc82-40c1-be3e-45f24328897d
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPDHCP_FAILOVER_STATISTICS, DHCP_FAILOVER_STATISTICS, DHCP_FAILOVER_STATISTICS structure [DHCP], LPDHCP_FAILOVER_STATISTICS, LPDHCP_FAILOVER_STATISTICS structure pointer [DHCP], _DHCP_FAILOVER_STATISTICS, dhcp.dhcp_failover_statistics, dhcpsapi/DHCP_FAILOVER_STATISTICS, dhcpsapi/LPDHCP_FAILOVER_STATISTICS"
 ms.prod: windows
 ms.technology: windows-sdk

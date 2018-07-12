@@ -7,7 +7,7 @@ old-location: cloudapi\cf_operation_info.htm
 old-project: cfApi
 ms.assetid: 4AE9A968-1325-4EFF-8F5B-8F465740B0C4
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CF_OPERATION_INFO, CF_OPERATION_INFO structure, cfapi/CF_OPERATION_INFO, cloudApi.cf_operation_info
 ms.prod: windows
 ms.technology: windows-sdk

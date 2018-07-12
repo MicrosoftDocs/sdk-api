@@ -7,7 +7,7 @@ old-location: mf\imfworkqueueservices_beginregistertopologyworkqueueswithmmcss.h
 old-project: medfound
 ms.assetid: 62256ae8-a18a-4160-9f3f-a08ab3e93d6b
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 62256ae8-a18a-4160-9f3f-a08ab3e93d6b, BeginRegisterTopologyWorkQueuesWithMMCSS, BeginRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation], BeginRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],BeginRegisterTopologyWorkQueuesWithMMCSS method, IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS, IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS, mf.imfworkqueueservices_beginregistertopologyworkqueueswithmmcss, mfidl/IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS
 ms.prod: windows
 ms.technology: windows-sdk

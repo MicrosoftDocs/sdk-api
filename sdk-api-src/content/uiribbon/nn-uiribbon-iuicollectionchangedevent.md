@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuicollectionchangedevent.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollectionchangedevent\iuicollectionchangedevent.htm
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IUICollectionChangedEvent, IUICollectionChangedEvent interface [Windows Ribbon], IUICollectionChangedEvent interface [Windows Ribbon],described, scenicintent_IUICollectionChangedEvent, uiribbon/IUICollectionChangedEvent, windowsribbon.windowsribbon_iuicollectionchangedevent
 ms.prod: windows
 ms.technology: windows-sdk

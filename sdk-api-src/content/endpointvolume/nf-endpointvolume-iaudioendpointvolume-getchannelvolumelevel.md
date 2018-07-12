@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolume_getchannelvolumelevel.htm
 old-project: CoreAudio
 ms.assetid: 3c5b594f-60b5-4172-8e4e-440b51cb13f4
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: GetChannelVolumeLevel, GetChannelVolumeLevel method [Core Audio], GetChannelVolumeLevel method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetChannelVolumeLevel method, IAudioEndpointVolume.GetChannelVolumeLevel, IAudioEndpointVolume::GetChannelVolumeLevel, IAudioEndpointVolumeGetChannelVolumeLevel, coreaudio.iaudioendpointvolume_getchannelvolumelevel, endpointvolume/IAudioEndpointVolume::GetChannelVolumeLevel
 ms.prod: windows
 ms.technology: windows-sdk

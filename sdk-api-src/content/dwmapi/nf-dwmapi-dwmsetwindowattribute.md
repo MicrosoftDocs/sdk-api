@@ -7,7 +7,7 @@ old-location: dwm\dwmsetwindowattribute.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmsetwindowattribute.htm
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: DwmSetWindowAttribute, DwmSetWindowAttribute function [Desktop Window Manager], _udwm_dwmsetwindowattribute, _udwm_dwmsetwindowattribute_cpp, dwm.dwmsetwindowattribute, dwmapi/DwmSetWindowAttribute, winui._udwm_dwmsetwindowattribute
 ms.prod: windows
 ms.technology: windows-sdk

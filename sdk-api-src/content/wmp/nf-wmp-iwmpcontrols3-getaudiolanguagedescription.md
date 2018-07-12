@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols3_getaudiolanguagedescription.htm
 old-project: WMP
 ms.assetid: 4530267c-8b43-4778-a396-f365f6dae5f3
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],getAudioLanguageDescription method, IWMPControls3.getAudioLanguageDescription, IWMPControls3::getAudioLanguageDescription, IWMPControls3getAudioLanguageDescription, getAudioLanguageDescription, getAudioLanguageDescription method [Windows Media Player], getAudioLanguageDescription method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_getaudiolanguagedescription, wmp/IWMPControls3::getAudioLanguageDescription
 ms.prod: windows
 ms.technology: windows-sdk

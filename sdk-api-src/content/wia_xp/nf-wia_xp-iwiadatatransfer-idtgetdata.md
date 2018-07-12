@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaDataTransfer_idtGetData.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtgetdata.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtGetData method, IWiaDataTransfer.idtGetData, IWiaDataTransfer::idtGetData, _wia_IWiaDataTransfer_idtGetData, idtGetData, idtGetData method [WIA], idtGetData method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtGetData, wia_xp/IWiaDataTransfer::idtGetData
 ms.prod: windows
 ms.technology: windows-sdk

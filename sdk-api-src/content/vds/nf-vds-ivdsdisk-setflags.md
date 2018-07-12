@@ -4,10 +4,10 @@ title: IVdsDisk::SetFlags
 author: windows-sdk-content
 description: Sets the flags of a disk object.
 old-location: base\ivdsdisk_setflags.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 0ede6a22-b15c-4afd-8d49-c963ea7e2052
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsDisk interface [VDS],SetFlags method, IVdsDisk.SetFlags, IVdsDisk::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsDisk interface, base.ivdsdisk_setflags, vds/IVdsDisk::SetFlags
 ms.prod: windows
 ms.technology: windows-sdk

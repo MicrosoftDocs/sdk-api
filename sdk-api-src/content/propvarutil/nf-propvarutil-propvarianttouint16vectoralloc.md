@@ -7,7 +7,7 @@ old-location: properties\PropVariantToUInt16VectorAlloc.htm
 old-project: properties
 ms.assetid: e5af0f91-49c1-4ff3-8339-77fffc2102f8
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PropVariantToUInt16VectorAlloc, PropVariantToUInt16VectorAlloc function [Windows Properties], _shell_PropVariantToUInt16VectorAlloc, properties.PropVariantToUInt16VectorAlloc, propvarutil/PropVariantToUInt16VectorAlloc, shell.PropVariantToUInt16VectorAlloc
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: tagTBADDBITMAP
 author: windows-sdk-content
 description: Adds a bitmap that contains button images to a toolbar.
 old-location: controls\TBADDBITMAP.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbaddbitmap.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPTBADDBITMAP, IDB_HIST_DISABLED, IDB_HIST_HOT, IDB_HIST_NORMAL, IDB_HIST_PRESSED, IDB_STD_LARGE_COLOR, IDB_STD_SMALL_COLOR, IDB_VIEW_LARGE_COLOR, IDB_VIEW_SMALL_COLOR, LPTBADDBITMAP, LPTBADDBITMAP structure pointer [Windows Controls], TBADDBITMAP, TBADDBITMAP structure [Windows Controls], _win32_TBADDBITMAP, _win32_TBADDBITMAP_cpp, commctrl/LPTBADDBITMAP, commctrl/TBADDBITMAP, controls.TBADDBITMAP, controls._win32_TBADDBITMAP, tagTBADDBITMAP"
 ms.prod: windows
 ms.technology: windows-sdk

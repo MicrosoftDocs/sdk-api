@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_asblend.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asblend.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: AsBlend, AsBlend method [Direct3D 10], AsBlend method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsBlend method, ID3D10EffectVariable.AsBlend, ID3D10EffectVariable::AsBlend, bc3da4a0-2ef6-7ffd-8a6d-1bf74e1ef7da, d3d10effect/ID3D10EffectVariable::AsBlend, direct3d10.id3d10effectvariable_asblend
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\wsresetmetadata.htm
 old-project: wsw
 ms.assetid: 091a227a-62d4-4625-9e96-b03f96e2304a
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsResetMetadata, WsResetMetadata function [Web Services for Windows], webservices/WsResetMetadata, wsw.wsresetmetadata
 ms.prod: windows
 ms.technology: windows-sdk

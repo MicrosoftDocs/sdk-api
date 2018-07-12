@@ -4,10 +4,10 @@ title: SetScrollRange function
 author: windows-sdk-content
 description: The SetScrollRange function sets the minimum and maximum scroll box positions for the specified scroll bar.
 old-location: controls\SetScrollRange.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\setscrollrange.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: SB_CTL, SB_HORZ, SB_VERT, SetScrollRange, SetScrollRange function [Windows Controls], _win32_SetScrollRange, _win32_SetScrollRange_cpp, controls.SetScrollRange, controls._win32_SetScrollRange, winuser/SetScrollRange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

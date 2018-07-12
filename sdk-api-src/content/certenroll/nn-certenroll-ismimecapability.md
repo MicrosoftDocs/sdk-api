@@ -4,10 +4,10 @@ title: ISmimeCapability
 author: windows-sdk-content
 description: Represents an SMIMECapabilities extension that identifies the decryption capabilities of an email recipient.
 old-location: security\ismimecapability.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 3cfbb16f-88fa-41f1-b719-cd5e8ad636cc
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ISmimeCapability, ISmimeCapability interface [Security], ISmimeCapability interface [Security],described, certenroll/ISmimeCapability, security.ismimecapability
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ITextRange2::Linearize
 author: windows-sdk-content
 description: Translates the built-up math, ruby, and other inline objects in this range to linearized form.
 old-location: controls\itextrange2_linearize.htm
-old-project: Controls
+old-project: controls
 ms.assetid: 9906547b-e31c-48a6-961e-0b7f5c0c0506
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ITextRange2 interface [Windows Controls],Linearize method, ITextRange2.Linearize, ITextRange2::Linearize, Linearize, Linearize method [Windows Controls], Linearize method [Windows Controls],ITextRange2 interface, controls.itextrange2_linearize, tom/ITextRange2::Linearize, tomMathAlphabetics, tomMathBuildDownOutermost, tomMathBuildUpArgOrZone, tomMathRemoveOutermost, tomPlain, tomTeX
 ms.prod: windows
 ms.technology: windows-sdk

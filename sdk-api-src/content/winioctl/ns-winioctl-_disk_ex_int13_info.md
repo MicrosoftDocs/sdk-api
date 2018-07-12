@@ -4,10 +4,10 @@ title: "_DISK_EX_INT13_INFO"
 author: windows-sdk-content
 description: Contains extended Int13 drive parameters.
 old-location: fs\disk_ex_int13_info_str.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: efde6ede-b921-4d1d-ab4a-b9f85ae6aea1
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: "*PDISK_EX_INT13_INFO, DISK_EX_INT13_INFO, DISK_EX_INT13_INFO structure [Files], PDISK_EX_INT13_INFO, PDISK_EX_INT13_INFO structure pointer [Files], _DISK_EX_INT13_INFO, _win32_disk_ex_int13_info_str, base.disk_ex_int13_info_str, fs.disk_ex_int13_info_str, winioctl/DISK_EX_INT13_INFO, winioctl/PDISK_EX_INT13_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

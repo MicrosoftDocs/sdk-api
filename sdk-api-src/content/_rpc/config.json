@@ -13,6 +13,5 @@
     "rpc.h",
     "rpcssl.h",
     "rpcproxy.h"
-  ],
-  "displayName": "Remote Procedure Call (RPC)"
+  ]
 }

@@ -4,10 +4,10 @@ title: PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE
 author: windows-sdk-content
 description: Adds a node to the list of possible nodes that a resource can run on.
 old-location: mscs\addclusterresourcenode.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: d87f9541-7cc6-4dbb-8f1f-e8e36462b01b
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE, PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE callback, PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE callback function [Failover Cluster], _wolf_addclusterresourcenode, clusapi/PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE, mscs.addclusterresourcenode
 ms.prod: windows
 ms.technology: windows-sdk

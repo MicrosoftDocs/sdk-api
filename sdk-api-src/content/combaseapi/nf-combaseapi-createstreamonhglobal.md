@@ -4,10 +4,10 @@ title: CreateStreamOnHGlobal function
 author: windows-sdk-content
 description: Creates a stream object that uses an HGLOBAL memory handle to store the stream contents.
 old-location: stg\createstreamonhglobal.htm
-old-project: Stg
+old-project: stg
 ms.assetid: 413c107b-a943-4c02-9c00-aea708e876d7
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: CreateStreamOnHGlobal, CreateStreamOnHGlobal function [Structured Storage], _stg_createstreamonhglobal, combaseapi/CreateStreamOnHGlobal, stg.createstreamonhglobal
 ms.prod: windows
 ms.technology: windows-sdk

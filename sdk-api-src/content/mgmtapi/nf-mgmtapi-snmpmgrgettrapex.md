@@ -4,10 +4,10 @@ title: SnmpMgrGetTrapEx function
 author: windows-sdk-content
 description: The SnmpMgrGetTrapEx function returns outstanding trap data that the caller has not received if trap reception is enabled.
 old-location: snmp\snmpmgrgettrapex.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 1dc4b432-8418-46a7-9ea8-5025799c8ec9
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SNMP_GENERICTRAP_AUTHFAILURE, SNMP_GENERICTRAP_COLDSTART, SNMP_GENERICTRAP_EGPNEIGHLOSS, SNMP_GENERICTRAP_ENTERSPECIFIC, SNMP_GENERICTRAP_LINKDOWN, SNMP_GENERICTRAP_LINKUP, SNMP_GENERICTRAP_WARMSTART, SnmpMgrGetTrapEx, SnmpMgrGetTrapEx function [SNMP], _snmp_snmpmgrgettrapex, mgmtapi/SnmpMgrGetTrapEx, snmp.snmpmgrgettrapex
 ms.prod: windows
 ms.technology: windows-sdk

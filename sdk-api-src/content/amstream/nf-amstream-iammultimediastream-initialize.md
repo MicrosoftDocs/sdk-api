@@ -7,7 +7,7 @@ old-location: dshow\iammultimediastream_initialize.htm
 old-project: DirectShow
 ms.assetid: c9c3295e-716f-4093-b437-f6c405f5bc7b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],Initialize method, IAMMultiMediaStream.Initialize, IAMMultiMediaStream::Initialize, IAMMultiMediaStreamInitialize, Initialize, Initialize method [DirectShow], Initialize method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::Initialize, dshow.iammultimediastream_initialize
 ms.prod: windows
 ms.technology: windows-sdk

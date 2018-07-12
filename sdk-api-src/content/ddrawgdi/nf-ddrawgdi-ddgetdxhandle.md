@@ -7,7 +7,7 @@ old-location: winprog\_dxgkernel_ddgetdxhandle.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddgetdxhandle.htm
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: DdGetDxHandle, DdGetDxHandle function [Windows API], GdiEntry14, _dxgkernel_ddgetdxhandle, ddrawgdi/DdGetDxHandle, ddrawgdi/GdiEntry14, winprog._dxgkernel_ddgetdxhandle, winui._dxgkernel_ddgetdxhandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*LPDDSURFACEDESC2, DDSURFACEDESC2"
+req.typenames: DDPIXELFORMAT
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: dataxchg\ddeack.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangestructures\ddeack.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DDEACK, DDEACK structure [Data Exchange], _win32_DDEACK_str, _win32_ddeack_str_cpp, dataxchg.ddeack, dde/DDEACK, winui._win32_ddeack_str
 ms.prod: windows
 ms.technology: windows-sdk

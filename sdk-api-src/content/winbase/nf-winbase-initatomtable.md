@@ -7,7 +7,7 @@ old-location: dataxchg\initatomtable.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\initatomtable.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: InitAtomTable, InitAtomTable function [Data Exchange], _win32_InitAtomTable, _win32_initatomtable_cpp, dataxchg.initatomtable, winbase/InitAtomTable, winui._win32_initatomtable
 ms.prod: windows
 ms.technology: windows-sdk

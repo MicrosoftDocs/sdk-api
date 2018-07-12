@@ -7,7 +7,7 @@ old-location: shell\PathCchCanonicalize.htm
 old-project: shell
 ms.assetid: 25ff08b2-5978-4d44-9877-ba4230ef7d12
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: PathCchCanonicalize, PathCchCanonicalize function [Windows Shell], pathcch/PathCchCanonicalize, shell.PathCchCanonicalize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\getumssystemthreadinformation.htm
 old-project: ProcThread
 ms.assetid: 7c8347b6-6546-4ea9-9b2a-11794782f482
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: GetUmsSystemThreadInformation, GetUmsSystemThreadInformation function, base.getumssystemthreadinformation, winbase/GetUmsSystemThreadInformation
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ILocation::GetDesiredAccuracy
 author: windows-sdk-content
 description: Retrieves the current requested accuracy setting.
 old-location: winlocation\ilocation_getdesiredaccuracy.htm
-old-project: LocationAPI
+old-project: locationapi
 ms.assetid: caa34e34-7370-4e42-9c0f-00498f5fc37d
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetDesiredAccuracy, GetDesiredAccuracy method [WinLocation], GetDesiredAccuracy method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetDesiredAccuracy method, ILocation.GetDesiredAccuracy, ILocation::GetDesiredAccuracy, locationapi/ILocation::GetDesiredAccuracy, winlocation.ilocation_getdesiredaccuracy
 ms.prod: windows
 ms.technology: windows-sdk

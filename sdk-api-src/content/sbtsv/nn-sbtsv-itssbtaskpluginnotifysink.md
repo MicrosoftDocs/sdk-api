@@ -7,7 +7,7 @@ old-location: termserv\itssbtaskpluginnotifysink.htm
 old-project: TermServ
 ms.assetid: dc1b56f3-ea5f-4df5-b90a-ce24c36aee21
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: ITsSbTaskPluginNotifySink, ITsSbTaskPluginNotifySink interface [Remote Desktop Services], ITsSbTaskPluginNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbTaskPluginNotifySink, termserv.itssbtaskpluginnotifysink
 ms.prod: windows
 ms.technology: windows-sdk

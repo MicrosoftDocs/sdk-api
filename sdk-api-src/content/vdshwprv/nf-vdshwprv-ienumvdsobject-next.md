@@ -4,10 +4,10 @@ title: IEnumVdsObject::Next
 author: windows-sdk-content
 description: Returns a specified number of objects in the enumeration, beginning from the current point. For more information, see Working with Enumeration Objects.
 old-location: base\ienumvdsobject_next.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 372eff29-7481-45aa-ad66-73147f7a631f
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IEnumVdsObject interface [VDS],Next method, IEnumVdsObject.Next, IEnumVdsObject::Next, Next, Next method [VDS], Next method [VDS],IEnumVdsObject interface, base.ienumvdsobject_next, vds/IEnumVdsObject::Next, vdshwprv/IEnumVdsObject::Next
 ms.prod: windows
 ms.technology: windows-sdk
@@ -126,7 +126,7 @@ The specified number of returned objects is greater than the number of objects r
 
 
 
-To obtain object-specific interface pointers from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> pointers returned in the <i>ppObjectArray</i> array, use the <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">IUnknown::QueryInterface</a> method.
+To obtain object-specific interface pointers from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> pointers returned in the <i>ppObjectArray</i> array, use the <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method.
 
 
 

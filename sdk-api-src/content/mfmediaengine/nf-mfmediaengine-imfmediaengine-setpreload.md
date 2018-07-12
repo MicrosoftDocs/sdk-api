@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_setpreload.htm
 old-project: medfound
 ms.assetid: 3480C16F-E4E4-469C-BE27-711044691A49
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetPreload method, IMFMediaEngine.SetPreload, IMFMediaEngine::SetPreload, SetPreload, SetPreload method [Media Foundation], SetPreload method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setpreload, mfmediaengine/IMFMediaEngine::SetPreload
 ms.prod: windows
 ms.technology: windows-sdk

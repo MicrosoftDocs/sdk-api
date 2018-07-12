@@ -4,10 +4,10 @@ title: IPsecSaContextGetById0 function
 author: windows-sdk-content
 description: Retrieves an IPsec security association (SA) context.
 old-location: fwp\ipsecsacontextgetbyid0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: a5bfd0e6-0113-4953-954c-d58e9cda91f0
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IPsecSaContextGetById0, IPsecSaContextGetById0 function [Filtering], fwp.ipsecsacontextgetbyid0, fwpmu/IPsecSaContextGetById0
 ms.prod: windows
 ms.technology: windows-sdk

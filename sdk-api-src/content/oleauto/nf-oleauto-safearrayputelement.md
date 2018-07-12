@@ -7,7 +7,7 @@ old-location: automat\safearrayputelement.htm
 old-project: automat
 ms.assetid: 7c837b4f-d319-4d98-934a-b585fe521bf8
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: SafeArrayPutElement, SafeArrayPutElement function [Automation], _oa96_SafeArrayPutElement, automat.safearrayputelement, oleauto/SafeArrayPutElement
 ms.prod: windows
 ms.technology: windows-sdk

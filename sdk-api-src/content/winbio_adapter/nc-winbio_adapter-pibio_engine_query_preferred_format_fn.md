@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN
 author: windows-sdk-content
 description: Determines the input data format preferred by the engine adapter.
 old-location: secbiomet\engineadapterquerypreferredformat.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: df76e7d7-9a71-4c98-b038-8925d8cf0980
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: EngineAdapterQueryPreferredFormat, EngineAdapterQueryPreferredFormat callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN, PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN callback, secbiomet.engineadapterquerypreferredformat, winbio_adapter/EngineAdapterQueryPreferredFormat
 ms.prod: windows
 ms.technology: windows-sdk

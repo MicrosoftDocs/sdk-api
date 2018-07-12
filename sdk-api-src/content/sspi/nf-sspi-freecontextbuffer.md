@@ -7,7 +7,7 @@ old-location: security\freecontextbuffer.htm
 old-project: SecAuthN
 ms.assetid: 3c3d27bb-4f9a-4979-b679-1e10fa1ff221
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: FreeContextBuffer, FreeContextBuffer function [Security], _ssp_freecontextbuffer, security.freecontextbuffer, sspi/FreeContextBuffer
 ms.prod: windows
 ms.technology: windows-sdk

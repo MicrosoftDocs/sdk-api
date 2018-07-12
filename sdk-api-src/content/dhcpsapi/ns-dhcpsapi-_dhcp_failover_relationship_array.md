@@ -4,10 +4,10 @@ title: "_DHCP_FAILOVER_RELATIONSHIP_ARRAY"
 author: windows-sdk-content
 description: The DHCP_FAILOVER_RELATIONSHIP_ARRAY structure defines an array of DHCPv4 failover relationships between partner servers.
 old-location: dhcp\dhcp_failover_relationship_array.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: A4C951F9-D5C6-4210-B77D-DBBD6FF2766C
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPDHCP_FAILOVER_RELATIONSHIP_ARRAY, DHCP_FAILOVER_RELATIONSHIP_ARRAY, DHCP_FAILOVER_RELATIONSHIP_ARRAY structure [DHCP], LPDHCP_FAILOVER_RELATIONSHIP_ARRAY, LPDHCP_FAILOVER_RELATIONSHIP_ARRAY structure pointer [DHCP], _DHCP_FAILOVER_RELATIONSHIP_ARRAY, dhcp.dhcp_failover_relationship_array, dhcpsapi/DHCP_FAILOVER_RELATIONSHIP_ARRAY, dhcpsapi/LPDHCP_FAILOVER_RELATIONSHIP_ARRAY"
 ms.prod: windows
 ms.technology: windows-sdk

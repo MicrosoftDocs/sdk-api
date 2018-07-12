@@ -4,10 +4,10 @@ title: MprAdminConnectionClearStats function
 author: windows-sdk-content
 description: The MprAdminConnectionClearStats function resets the statistics counters for the specified connection.
 old-location: rras\mpradminconnectionclearstats.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: d1d9b218-e376-4c26-a1c0-d06537492622
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprAdminConnectionClearStats, MprAdminConnectionClearStats function [RAS], _mpr_mpradminconnectionclearstats, mprapi/MprAdminConnectionClearStats, rras.mpradminconnectionclearstats
 ms.prod: windows
 ms.technology: windows-sdk

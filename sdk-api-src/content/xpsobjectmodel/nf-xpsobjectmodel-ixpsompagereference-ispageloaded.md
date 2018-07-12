@@ -7,7 +7,7 @@ old-location: xps\ixpsompagereference_ispageloaded.htm
 old-project: printdocs
 ms.assetid: 12b7d824-65eb-4d24-bfb6-40f55085186c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: FALSE, IXpsOMPageReference interface [XPS Documents and Packaging],IsPageLoaded method, IXpsOMPageReference.IsPageLoaded, IXpsOMPageReference::IsPageLoaded, IsPageLoaded, IsPageLoaded method [XPS Documents and Packaging], IsPageLoaded method [XPS Documents and Packaging],IXpsOMPageReference interface, TRUE, xps.ixpsompagereference_ispageloaded, xpsobjectmodel/IXpsOMPageReference::IsPageLoaded
 ms.prod: windows
 ms.technology: windows-sdk

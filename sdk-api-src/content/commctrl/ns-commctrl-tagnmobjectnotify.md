@@ -4,10 +4,10 @@ title: tagNMOBJECTNOTIFY
 author: windows-sdk-content
 description: Contains information used with the TBN_GETOBJECT, TCN_GETOBJECT, and PSN_GETOBJECT notification codes.
 old-location: controls\NMOBJECTNOTIFY.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmobjectnotify.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPNMOBJECTNOTIFY, LPNMOBJECTNOTIFY, LPNMOBJECTNOTIFY structure pointer [Windows Controls], NMOBJECTNOTIFY, NMOBJECTNOTIFY structure [Windows Controls], _win32_NMOBJECTNOTIFY, _win32_NMOBJECTNOTIFY_cpp, commctrl/LPNMOBJECTNOTIFY, commctrl/NMOBJECTNOTIFY, controls.NMOBJECTNOTIFY, controls._win32_NMOBJECTNOTIFY, tagNMOBJECTNOTIFY"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PeerIdentityGetDefault function
 author: windows-sdk-content
 description: The PeerIdentityGetDefault function retrieves the default peer name set for the current user.
 old-location: p2p\peeridentitygetdefault.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 195052a2-eaae-4b8c-bc13-0667ce50a967
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerIdentityGetDefault, PeerIdentityGetDefault function [Peer Networking], p2p.peeridentitygetdefault, p2p/PeerIdentityGetDefault
 ms.prod: windows
 ms.technology: windows-sdk

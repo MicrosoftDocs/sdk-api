@@ -4,10 +4,10 @@ title: WSDCreateDeviceHost function
 author: windows-sdk-content
 description: Creates a device host and returns a pointer to the IWSDDeviceHost interface.
 old-location: ncd\wsdcreatedevicehost.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: dbe7ccd0-494d-4f6c-90f6-e729839d7008
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: WSDCreateDeviceHost, WSDCreateDeviceHost function, ncd.wsdcreatedevicehost, wsdhost/WSDCreateDeviceHost
 ms.prod: windows
 ms.technology: windows-sdk

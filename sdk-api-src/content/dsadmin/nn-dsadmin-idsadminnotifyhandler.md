@@ -4,10 +4,10 @@ title: IDsAdminNotifyHandler
 author: windows-sdk-content
 description: The IDsAdminNotifyHandler interface is implemented by an Active Directory administrative notification handler.
 old-location: ad\idsadminnotifyhandler.htm
-old-project: AD
+old-project: ad
 ms.assetid: d55e1473-8e51-441e-bd22-63208b294e14
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: IDsAdminNotifyHandler, IDsAdminNotifyHandler interface [Active Directory], IDsAdminNotifyHandler interface [Active Directory],described, _glines_idsadminnotifyhandler, ad.idsadminnotifyhandler, dsadmin/IDsAdminNotifyHandler
 ms.prod: windows
 ms.technology: windows-sdk

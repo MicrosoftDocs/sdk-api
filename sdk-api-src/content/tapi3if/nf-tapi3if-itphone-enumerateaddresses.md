@@ -4,10 +4,10 @@ title: ITPhone::EnumerateAddresses
 author: windows-sdk-content
 description: The EnumerateAddresses method enumerates the addresses that the phone can be used on. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_enumerateaddresses.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: d72f6877-eb89-400e-a1bc-393116a9666f
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: EnumerateAddresses, EnumerateAddresses method [TAPI 2.2], EnumerateAddresses method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],EnumerateAddresses method, ITPhone.EnumerateAddresses, ITPhone::EnumerateAddresses, _tapi3_itphone_enumerateaddresses, tapi3.itphone_enumerateaddresses, tapi3if/ITPhone::EnumerateAddresses
 ms.prod: windows
 ms.technology: windows-sdk

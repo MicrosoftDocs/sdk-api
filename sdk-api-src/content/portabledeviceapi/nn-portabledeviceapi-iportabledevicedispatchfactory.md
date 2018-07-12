@@ -7,7 +7,7 @@ old-location: wpdauto\iportabledevicedispatchfactory_interface.htm
 old-project: wpdauto
 ms.assetid: 537551c9-0773-44a9-b602-7d2a6bf9ad00
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 04/06/2018
 ms.keywords: IPortableDeviceDispatchFactory, IPortableDeviceDispatchFactory interface [WPD Automation], IPortableDeviceDispatchFactory interface [WPD Automation],described, portabledeviceapi/IPortableDeviceDispatchFactory, wpdauto.iportabledevicedispatchfactory_interface
 ms.prod: windows
 ms.technology: windows-sdk

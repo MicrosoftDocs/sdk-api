@@ -4,10 +4,10 @@ title: IFsrmFileManagementJob::AddNotification
 author: windows-sdk-content
 description: Adds a new notification value (period) to the file management job's list of notifications.
 old-location: fsrm\ifsrmfilemanagementjob_addnotification.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 95b41aa0-44c9-41a2-8132-6aecc4685243
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: AddNotification, AddNotification method [File Server Resource Manager], AddNotification method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],AddNotification method, IFsrmFileManagementJob.AddNotification, IFsrmFileManagementJob::AddNotification, fs.ifsrmfilemanagementjob_addnotification, fsrm.ifsrmfilemanagementjob_addnotification, fsrmreports/IFsrmFileManagementJob::AddNotification
 ms.prod: windows
 ms.technology: windows-sdk

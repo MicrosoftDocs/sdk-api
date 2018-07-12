@@ -4,10 +4,10 @@ title: IDisplayHelp::ShowTopic
 author: windows-sdk-content
 description: The IDisplayHelp::ShowTopic method displays the specified HTML Help topic in the merged MMC HTML Help file.
 old-location: mmc\idisplayhelp_showtopic.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 184adc09-8b48-4a2e-bbd9-ec6bd9085c32
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: IDisplayHelp interface [MMC],ShowTopic method, IDisplayHelp.ShowTopic, IDisplayHelp::ShowTopic, ShowTopic, ShowTopic method [MMC], ShowTopic method [MMC],IDisplayHelp interface, _slate_idisplayhelp_showtopic, mmc.idisplayhelp_showtopic, mmc/IDisplayHelp::ShowTopic
 ms.prod: windows
 ms.technology: windows-sdk

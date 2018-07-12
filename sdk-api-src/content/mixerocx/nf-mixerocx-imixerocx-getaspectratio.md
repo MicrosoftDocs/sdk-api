@@ -7,7 +7,7 @@ old-location: dshow\imixerocx_getaspectratio.htm
 old-project: DirectShow
 ms.assetid: 6143ba3c-6472-47d3-b3ca-55c06ca8da0e
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: GetAspectRatio, GetAspectRatio method [DirectShow], GetAspectRatio method [DirectShow],IMixerOCX interface, IMixerOCX interface [DirectShow],GetAspectRatio method, IMixerOCX.GetAspectRatio, IMixerOCX::GetAspectRatio, IMixerOCXGetAspectRatio, dshow.imixerocx_getaspectratio, mixerocx/IMixerOCX::GetAspectRatio
 ms.prod: windows
 ms.technology: windows-sdk

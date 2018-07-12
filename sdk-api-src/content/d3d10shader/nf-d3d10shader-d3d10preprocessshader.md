@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10preprocessshader.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10preprocessshader.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: D3D10PreprocessShader, D3D10PreprocessShader function [Direct3D 10], d3d10shader/D3D10PreprocessShader, d3e7d365-dba7-908d-52f5-76fc58522bad, direct3d10.d3d10preprocessshader
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IX509AttributeArchiveKey
 author: windows-sdk-content
 description: Represents an attribute that contains an encrypted private key to be archived by a certification authority.
 old-location: security\ix509attributearchivekey.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: b42111e9-e39e-4192-9aba-47403fb627dc
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509AttributeArchiveKey, IX509AttributeArchiveKey interface [Security], IX509AttributeArchiveKey interface [Security],described, certenroll/IX509AttributeArchiveKey, security.ix509attributearchivekey
 ms.prod: windows
 ms.technology: windows-sdk

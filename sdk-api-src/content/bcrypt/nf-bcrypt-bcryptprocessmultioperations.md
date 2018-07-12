@@ -4,10 +4,10 @@ title: BCryptProcessMultiOperations function
 author: windows-sdk-content
 description: The BCryptProcessMultiOperations function processes a sequence of operations on a multi-object state.
 old-location: security\bcryptprocessmultioperation.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 5FD28AC3-46D2-4F06-BF06-F5FEF8E531F5
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: BCryptProcessMultiOperations, BCryptProcessMultiOperations function [Security], bcrypt/BCryptProcessMultiOperations, security.bcryptprocessmultioperation
 ms.prod: windows
 ms.technology: windows-sdk

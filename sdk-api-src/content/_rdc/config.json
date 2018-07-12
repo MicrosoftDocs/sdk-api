@@ -2,6 +2,5 @@
   "tech": "rdc",
   "headers": [
     "msrdc.h"
-  ],
-  "displayName": "Remote Differential Compression"
+  ]
 }

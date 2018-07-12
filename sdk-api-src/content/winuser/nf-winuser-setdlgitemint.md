@@ -7,7 +7,7 @@ old-location: dlgbox\setdlgitemint.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\setdlgitemint.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 05/22/2018
 ms.keywords: SetDlgItemInt, SetDlgItemInt function [Dialog Boxes], _win32_SetDlgItemInt, _win32_setdlgitemint_cpp, dlgbox.setdlgitemint, winui._win32_setdlgitemint, winuser/SetDlgItemInt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

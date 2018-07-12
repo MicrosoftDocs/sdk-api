@@ -4,10 +4,10 @@ title: TreeView_GetExtendedStyle macro
 author: windows-sdk-content
 description: Retrieves the extended style for a specified tree-view control. Use this macro or send the TVM_GETEXTENDEDSTYLE message explicitly.
 old-location: controls\TreeView_GetExtendedStyle.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getextendedstyle.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: TreeView_GetExtendedStyle, TreeView_GetExtendedStyle macro [Windows Controls], _shell_TreeView_GetExtendedStyle, _shell_TreeView_GetExtendedStyle_cpp, commctrl/TreeView_GetExtendedStyle, controls.TreeView_GetExtendedStyle, controls._shell_TreeView_GetExtendedStyle
 ms.prod: windows
 ms.technology: windows-sdk

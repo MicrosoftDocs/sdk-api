@@ -7,7 +7,7 @@ old-location: properties\PropVariantToStringAlloc.htm
 old-project: properties
 ms.assetid: 5e47cc72-4179-4ebe-8700-87861146b3d7
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PropVariantToStringAlloc, PropVariantToStringAlloc function [Windows Properties], _shell_PropVariantToStringAlloc, properties.PropVariantToStringAlloc, propvarutil/PropVariantToStringAlloc, shell.PropVariantToStringAlloc
 ms.prod: windows
 ms.technology: windows-sdk

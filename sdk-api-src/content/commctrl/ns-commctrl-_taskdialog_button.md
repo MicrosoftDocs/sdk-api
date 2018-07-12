@@ -4,10 +4,10 @@ title: "_TASKDIALOG_BUTTON"
 author: windows-sdk-content
 description: The TASKDIALOG_BUTTON structure contains information used to display a button in a task dialog. The TASKDIALOGCONFIG structure uses this structure.
 old-location: controls\TASKDIALOG_BUTTON.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogstructures\taskdialog_button.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: TASKDIALOG_BUTTON, TASKDIALOG_BUTTON structure [Windows Controls], _TASKDIALOG_BUTTON, _shell_TASKDIALOG_BUTTON, _shell_TASKDIALOG_BUTTON_cpp, commctrl/TASKDIALOG_BUTTON, controls.TASKDIALOG_BUTTON, controls._shell_TASKDIALOG_BUTTON
 ms.prod: windows
 ms.technology: windows-sdk

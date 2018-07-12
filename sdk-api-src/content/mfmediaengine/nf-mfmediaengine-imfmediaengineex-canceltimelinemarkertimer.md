@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_canceltimelinemarkertimer.htm
 old-project: medfound
 ms.assetid: AC295919-747B-445D-8C74-E648A612C0BF
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: CancelTimelineMarkerTimer, CancelTimelineMarkerTimer method [Media Foundation], CancelTimelineMarkerTimer method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],CancelTimelineMarkerTimer method, IMFMediaEngineEx.CancelTimelineMarkerTimer, IMFMediaEngineEx::CancelTimelineMarkerTimer, mf.imfmediaengineex_canceltimelinemarkertimer, mfmediaengine/IMFMediaEngineEx::CancelTimelineMarkerTimer
 ms.prod: windows
 ms.technology: windows-sdk

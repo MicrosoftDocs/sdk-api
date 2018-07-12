@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_unordered_access_view_desc1.htm
 old-project: direct3d11
 ms.assetid: 833B4B8A-5702-4C17-AFD2-DFDF69354DDD
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: CD3D11_UNORDERED_ACCESS_VIEW_DESC1, D3D11_UNORDERED_ACCESS_VIEW_DESC1, D3D11_UNORDERED_ACCESS_VIEW_DESC1 structure [Direct3D 11], d3d11_3/D3D11_UNORDERED_ACCESS_VIEW_DESC1, direct3d11.d3d11_unordered_access_view_desc1
 ms.prod: windows
 ms.technology: windows-sdk

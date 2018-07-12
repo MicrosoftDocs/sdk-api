@@ -4,10 +4,10 @@ title: "_CERT_LOGOTYPE_AUDIO"
 author: windows-sdk-content
 description: Contains information about an audio logotype.
 old-location: security\cert_logotype_audio.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 97357faa-2720-4240-a3c3-77abdce8d86d
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: "*PCERT_LOGOTYPE_AUDIO, CERT_LOGOTYPE_AUDIO, CERT_LOGOTYPE_AUDIO structure [Security], PCERT_LOGOTYPE_AUDIO, PCERT_LOGOTYPE_AUDIO structure pointer [Security], _CERT_LOGOTYPE_AUDIO, security.cert_logotype_audio, wincrypt/CERT_LOGOTYPE_AUDIO, wincrypt/PCERT_LOGOTYPE_AUDIO"
 ms.prod: windows
 ms.technology: windows-sdk

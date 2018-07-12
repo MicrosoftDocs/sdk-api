@@ -7,7 +7,7 @@ old-location: devinst\setupdigetclassimageindex.htm
 old-project: devinst
 ms.assetid: 56c17b9a-d516-4903-90fc-efac22e1f50d
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: SetupDiGetClassImageIndex, SetupDiGetClassImageIndex function [Device and Driver Installation], devinst.setupdigetclassimageindex, di-rtns_6f022ba0-12d8-47f4-9e7f-27f94dbe9b71.xml, setupapi/SetupDiGetClassImageIndex
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IFsrmFileScreenManager::EnumFileScreenExceptions
 author: windows-sdk-content
 description: Enumerates the file screen exceptions for the specified directory and its subdirectories.
 old-location: fsrm\ifsrmfilescreenmanager_enumfilescreenexceptions.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: c30377c8-d3a3-40fe-a42c-9b36d2a0b35e
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: EnumFileScreenExceptions, EnumFileScreenExceptions method [File Server Resource Manager], EnumFileScreenExceptions method [File Server Resource Manager],FsrmFileScreenManager class, EnumFileScreenExceptions method [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],EnumFileScreenExceptions method, IFsrmFileScreenManager interface [File Server Resource Manager],EnumFileScreenExceptions method, IFsrmFileScreenManager.EnumFileScreenExceptions, IFsrmFileScreenManager::EnumFileScreenExceptions, fs.ifsrmfilescreenmanager_enumfilescreenexceptions, fsrm.ifsrmfilescreenmanager_enumfilescreenexceptions, fsrmscreen/IFsrmFileScreenManager::EnumFileScreenExceptions
 ms.prod: windows
 ms.technology: windows-sdk

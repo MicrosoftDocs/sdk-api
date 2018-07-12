@@ -4,10 +4,10 @@ title: WSDCreateDiscoveryPublisher function
 author: windows-sdk-content
 description: Creates an IWSDiscoveryPublisher object.
 old-location: ncd\wsdcreatediscoverypublisher_func.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 18abde49-2ea7-4c49-9afe-1b7c7182aeeb
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: WSDCreateDiscoveryPublisher, WSDCreateDiscoveryPublisher function, ncd.wsdcreatediscoverypublisher_func, wsddisco/WSDCreateDiscoveryPublisher
 ms.prod: windows
 ms.technology: windows-sdk

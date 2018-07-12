@@ -4,10 +4,10 @@ title: ShiftRight128 function
 author: windows-sdk-content
 description: Shifts 128-bit right.
 old-location: winprog\shiftright128.htm
-old-project: WinProg
+old-project: winprog
 ms.assetid: 36DF1BEE-A3C4-46A4-B512-0A8FC9F80EDE
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: ShiftRight128, ShiftRight128 function [Windows API], winnt/ShiftRight128, winprog.shiftright128
 ms.prod: windows
 ms.technology: windows-sdk

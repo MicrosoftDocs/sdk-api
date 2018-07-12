@@ -7,7 +7,7 @@ old-location: shell\IExplorerBrowser_SetPropertyBag.htm
 old-project: shell
 ms.assetid: e43cc4a0-2ff4-42a2-ac60-78a884c37d75
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],SetPropertyBag method, IExplorerBrowser.SetPropertyBag, IExplorerBrowser::SetPropertyBag, SetPropertyBag, SetPropertyBag method [Windows Shell], SetPropertyBag method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_SetPropertyBag, shell.IExplorerBrowser_SetPropertyBag, shobjidl_core/IExplorerBrowser::SetPropertyBag
 ms.prod: windows
 ms.technology: windows-sdk

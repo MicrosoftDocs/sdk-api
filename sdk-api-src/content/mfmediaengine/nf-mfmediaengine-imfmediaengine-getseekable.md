@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getseekable.htm
 old-project: medfound
 ms.assetid: FB238892-B172-4E31-B4E5-68C96E135345
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetSeekable, GetSeekable method [Media Foundation], GetSeekable method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetSeekable method, IMFMediaEngine.GetSeekable, IMFMediaEngine::GetSeekable, mf.imfmediaengine_getseekable, mfmediaengine/IMFMediaEngine::GetSeekable
 ms.prod: windows
 ms.technology: windows-sdk

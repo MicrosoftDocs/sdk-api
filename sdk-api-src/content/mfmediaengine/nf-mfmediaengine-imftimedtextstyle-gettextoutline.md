@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_gettextoutline.htm
 old-project: medfound
 ms.assetid: 44701080-7E70-4073-85E2-4AF86D4B4FDB
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetTextOutline, GetTextOutline method [Media Foundation], GetTextOutline method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetTextOutline method, IMFTimedTextStyle.GetTextOutline, IMFTimedTextStyle::GetTextOutline, mf.imftimedtextstyle_gettextoutline, mfmediaengine/IMFTimedTextStyle::GetTextOutline
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentcontainerlist_gettransactiontype.htm
 old-project: WMP
 ms.assetid: 8712d134-9dd3-4964-ae53-f63c8b69818d
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: GetTransactionType, GetTransactionType method [Windows Media Player], GetTransactionType method [Windows Media Player],IWMPContentContainerList interface, IWMPContentContainerList interface [Windows Media Player],GetTransactionType method, IWMPContentContainerList.GetTransactionType, IWMPContentContainerList::GetTransactionType, IWMPContentContainerListGetTransactionType, contentpartner/IWMPContentContainerList::GetTransactionType, wmp.iwmpcontentcontainerlist_gettransactiontype
 ms.prod: windows
 ms.technology: windows-sdk

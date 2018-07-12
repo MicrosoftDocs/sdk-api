@@ -4,10 +4,10 @@ title: "_DISK_PARTITION_INFO"
 author: windows-sdk-content
 description: Contains the disk partition information.
 old-location: fs\disk_partition_info_str.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 34a086fc-72ea-46ed-adb3-c084abcb3c74
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: "*PDISK_PARTITION_INFO, DISK_PARTITION_INFO, DISK_PARTITION_INFO structure [Files], PDISK_PARTITION_INFO, PDISK_PARTITION_INFO structure pointer [Files], _DISK_PARTITION_INFO, _win32_disk_partition_info_str, base.disk_partition_info_str, fs.disk_partition_info_str, winioctl/DISK_PARTITION_INFO, winioctl/PDISK_PARTITION_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

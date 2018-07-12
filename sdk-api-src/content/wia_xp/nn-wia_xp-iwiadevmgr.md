@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaDevMgr.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\iwiadevmgr.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: IWiaDevMgr, IWiaDevMgr interface [WIA], IWiaDevMgr interface [WIA],described, _wia_IWiaDevMgr, wia._wia_IWiaDevMgr, wia_xp/IWiaDevMgr
 ms.prod: windows
 ms.technology: windows-sdk

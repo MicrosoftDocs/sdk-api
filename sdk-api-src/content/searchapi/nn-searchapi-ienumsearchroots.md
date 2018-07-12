@@ -7,7 +7,7 @@ old-location: search\_search_IEnumSearchRoots.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\ienumsearchroots.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IEnumSearchRoots, IEnumSearchRoots interface [search], IEnumSearchRoots interface [search],described, _search_IEnumSearchRoots, search._search_IEnumSearchRoots, searchapi/IEnumSearchRoots
 ms.prod: windows
 ms.technology: windows-sdk

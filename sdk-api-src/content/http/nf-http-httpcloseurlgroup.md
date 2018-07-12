@@ -4,10 +4,10 @@ title: HttpCloseUrlGroup function
 author: windows-sdk-content
 description: Closes the URL Group identified by the URL Group ID.
 old-location: http\httpcloseurlgroup.htm
-old-project: Http
+old-project: http
 ms.assetid: 8b8e4ec9-3d85-4d64-98dc-86e5fd093e93
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 04/13/2018
 ms.keywords: HttpCloseUrlGroup, HttpCloseUrlGroup function [HTTP], http.httpcloseurlgroup, http/HttpCloseUrlGroup
 ms.prod: windows
 ms.technology: windows-sdk

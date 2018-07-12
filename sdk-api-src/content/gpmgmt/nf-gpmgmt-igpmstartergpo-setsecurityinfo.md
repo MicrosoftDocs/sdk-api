@@ -4,10 +4,10 @@ title: IGPMStarterGPO::SetSecurityInfo
 author: windows-sdk-content
 description: Sets the list of permissions for the Group Policy object (GPO).
 old-location: gpmc\igpmstartergpo_setsecurityinfo.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: ad4df57f-29b3-4a18-922a-a0d4457703ad
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: IGPMStarterGPO interface [GPMC],SetSecurityInfo method, IGPMStarterGPO.SetSecurityInfo, IGPMStarterGPO::SetSecurityInfo, SetSecurityInfo, SetSecurityInfo method [GPMC], SetSecurityInfo method [GPMC],IGPMStarterGPO interface, gpmc.igpmstartergpo_setsecurityinfo, gpmgmt/IGPMStarterGPO::SetSecurityInfo
 ms.prod: windows
 ms.technology: windows-sdk

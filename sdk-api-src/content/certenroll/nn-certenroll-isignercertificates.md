@@ -4,10 +4,10 @@ title: ISignerCertificates
 author: windows-sdk-content
 description: The ISignerCertificates interface defines the following methods and properties to manage a collection of ISignerCertificate objects.
 old-location: security\isignercertificates.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 420d6550-514a-4fea-987b-6deecbc9b717
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ISignerCertificates, ISignerCertificates interface [Security], ISignerCertificates interface [Security],described, certenroll/ISignerCertificates, security.isignercertificates
 ms.prod: windows
 ms.technology: windows-sdk

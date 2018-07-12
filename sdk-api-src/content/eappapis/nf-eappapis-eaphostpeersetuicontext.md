@@ -4,10 +4,10 @@ title: EapHostPeerSetUIContext function
 author: windows-sdk-content
 description: Provides a new or updated user interface context to the EAP peer method loaded on EAPHost after the UI has been raised.
 old-location: eaphost\eaphostpeersetuicontext.htm
-old-project: EAPHost
+old-project: eaphost
 ms.assetid: f532dd65-d807-4880-9339-ba233e0faa38
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: EapHostPeerSetUIContext, EapHostPeerSetUIContext function [EAPHost], eaphost.eaphostpeersetuicontext, eappapis/EapHostPeerSetUIContext
 ms.prod: windows
 ms.technology: windows-sdk

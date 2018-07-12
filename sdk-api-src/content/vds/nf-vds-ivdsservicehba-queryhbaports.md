@@ -4,10 +4,10 @@ title: IVdsServiceHba::QueryHbaPorts
 author: windows-sdk-content
 description: Returns an IEnumVdsObject enumeration object containing a list of the HBA ports known to VDS on the local system.
 old-location: base\ivdsservicehba_queryhbaports.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 2f81e5e9-5563-4435-8ecb-82f2c385c3dc
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsServiceHba interface [VDS],QueryHbaPorts method, IVdsServiceHba.QueryHbaPorts, IVdsServiceHba::QueryHbaPorts, QueryHbaPorts, QueryHbaPorts method [VDS], QueryHbaPorts method [VDS],IVdsServiceHba interface, base.ivdsservicehba_queryhbaports, vds/IVdsServiceHba::QueryHbaPorts
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ req.product: Windows UI
 ### -param ppEnum [out]
 
 
-      The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the HBA ports  as <a href="https://msdn.microsoft.com/ae4d18f2-4d50-480c-bc7a-4eec0334707d">HBA port objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the HBA port objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+      The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the HBA ports  as <a href="https://msdn.microsoft.com/ae4d18f2-4d50-480c-bc7a-4eec0334707d">HBA port objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the HBA port objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

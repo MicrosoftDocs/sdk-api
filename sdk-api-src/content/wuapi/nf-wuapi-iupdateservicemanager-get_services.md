@@ -4,10 +4,10 @@ title: IUpdateServiceManager::get_Services
 author: windows-sdk-content
 description: Gets an IUpdateServiceCollection of the services that are registered with WUA.
 old-location: wua\iupdateservicemanager_services.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 9810e56b-a884-454b-adc8-ad839269dae3
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],Services property, IUpdateServiceManager.Services, IUpdateServiceManager.get_Services, IUpdateServiceManager::Services, IUpdateServiceManager::get_Services, Services property [Windows Update Agent], Services property [Windows Update Agent],IUpdateServiceManager interface, get_Services, wua.iupdateservicemanager_services, wuapi/IUpdateServiceManager::Services, wuapi/IUpdateServiceManager::get_Services
 ms.prod: windows
 ms.technology: windows-sdk

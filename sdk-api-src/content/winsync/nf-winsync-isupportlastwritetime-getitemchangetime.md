@@ -7,7 +7,7 @@ old-location: winsync\isupportlastwritetime_getitemchangetime.htm
 old-project: winsync
 ms.assetid: 15cbd398-81d9-4ea6-bfe4-1bf00510b419
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetItemChangeTime, GetItemChangeTime method [Windows Sync], GetItemChangeTime method [Windows Sync],ISupportLastWriteTime interface, ISupportLastWriteTime interface [Windows Sync],GetItemChangeTime method, ISupportLastWriteTime.GetItemChangeTime, ISupportLastWriteTime::GetItemChangeTime, winsync.isupportlastwritetime_getitemchangetime, winsync/ISupportLastWriteTime::GetItemChangeTime
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WriteBSTR.htm
 old-project: properties
 ms.assetid: 9C2DBD1F-6760-4812-A33E-9A71C5A421A9
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PSPropertyBag_WriteBSTR, PSPropertyBag_WriteBSTR function [Windows Properties], properties.PSPropertyBag_WriteBSTR, propsys/PSPropertyBag_WriteBSTR, shell.PSPropertyBag_WriteBSTR, shell_PSPropertyBag_WriteBSTR
 ms.prod: windows
 ms.technology: windows-sdk

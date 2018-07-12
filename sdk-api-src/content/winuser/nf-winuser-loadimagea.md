@@ -7,7 +7,7 @@ old-location: menurc\loadimage.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\loadimage.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IMAGE_BITMAP, IMAGE_CURSOR, IMAGE_ICON, LR_CREATEDIBSECTION, LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_LOADFROMFILE, LR_LOADMAP3DCOLORS, LR_LOADTRANSPARENT, LR_MONOCHROME, LR_SHARED, LR_VGACOLOR, LoadImage, LoadImage function [Menus and Other Resources], LoadImageA, LoadImageW, _win32_LoadImage, _win32_loadimage_cpp, menurc.loadimage, winui._win32_loadimage, winuser/LoadImage, winuser/LoadImageA, winuser/LoadImageW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

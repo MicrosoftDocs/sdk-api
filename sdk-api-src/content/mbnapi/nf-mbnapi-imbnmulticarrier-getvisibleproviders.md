@@ -7,7 +7,7 @@ old-location: mbn\imbnmulticarrier_getvisibleproviders.htm
 old-project: mbn
 ms.assetid: AC11D275-C6E3-48EE-B3DA-C9BC8648D49D
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetVisibleProviders, GetVisibleProviders method [Microsoft Broadband Networks], GetVisibleProviders method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetVisibleProviders method, IMbnMultiCarrier.GetVisibleProviders, IMbnMultiCarrier::GetVisibleProviders, mbn.imbnmulticarrier_getvisibleproviders, mbnapi/IMbnMultiCarrier::GetVisibleProviders
 ms.prod: windows
 ms.technology: windows-sdk

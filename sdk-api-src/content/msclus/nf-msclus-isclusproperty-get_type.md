@@ -4,10 +4,10 @@ title: ISClusProperty::get_Type
 author: windows-sdk-content
 description: Returns or sets the type of a cluster object property.
 old-location: mscs\clusproperty_type.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 4cae1bb4-2ca4-4957-b174-1dc07676ce3a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CLUSPROP_TYPE_DISK_GUID, CLUSPROP_TYPE_DISK_NUMBER, CLUSPROP_TYPE_DISK_SERIALNUMBER, CLUSPROP_TYPE_DISK_SIZE, CLUSPROP_TYPE_ENDMARK, CLUSPROP_TYPE_LIST_VALUE, CLUSPROP_TYPE_NAME, CLUSPROP_TYPE_PARTITION_INFO, CLUSPROP_TYPE_PARTITION_INFO_EX, CLUSPROP_TYPE_RESCLASS, CLUSPROP_TYPE_SCSI_ADDRESS, CLUSPROP_TYPE_SIGNATURE, CLUSPROP_TYPE_UNKNOWN, CLUSPROP_TYPE_USER, ClusProperty object [Failover Cluster],Type property, ClusProperty.Type, ISClusProperty.get_Type, ISClusProperty::get_Type, Type property [Failover Cluster], Type property [Failover Cluster],ClusProperty object, _wolf_clusproperty.type, get_Type, mscs.clusproperty_type
 ms.prod: windows
 ms.technology: windows-sdk

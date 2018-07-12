@@ -4,10 +4,10 @@ title: RSVP_HOP
 author: windows-sdk-content
 description: The RSVP_HOP structure contains information about an RSVP-enabled hop.
 old-location: qos\rsvp_hop.htm
-old-project: QOS
+old-project: qos
 ms.assetid: 4b23bc0e-ccea-4161-93fa-b136099e88bd
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: RSVP_HOP, RSVP_HOP structure [QOS], lpmapi/RSVP_HOP, qos.rsvp_hop
 ms.prod: windows
 ms.technology: windows-sdk

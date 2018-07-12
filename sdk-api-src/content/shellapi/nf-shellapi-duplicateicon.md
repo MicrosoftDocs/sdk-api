@@ -7,7 +7,7 @@ old-location: shell\DuplicateIcon.htm
 old-project: shell
 ms.assetid: 488a24e1-f6f0-4bbd-9487-2b4c650f4879
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: DuplicateIcon, DuplicateIcon function [Windows Shell], _shell_DuplicateIcon, shell.DuplicateIcon, shellapi/DuplicateIcon
 ms.prod: windows
 ms.technology: windows-sdk

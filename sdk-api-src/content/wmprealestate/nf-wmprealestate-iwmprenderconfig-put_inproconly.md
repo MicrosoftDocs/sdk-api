@@ -7,7 +7,7 @@ old-location: wmp\iwmprenderconfig_put_inproconly.htm
 old-project: WMP
 ms.assetid: fd7c7cbc-f428-46e1-b239-74b78cbf5835
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPRenderConfig interface [Windows Media Player],put_inProcOnly method, IWMPRenderConfig.put_inProcOnly, IWMPRenderConfig::put_inProcOnly, IWMPRenderConfigputInProcOnly, put_inProcOnly, put_inProcOnly method [Windows Media Player], put_inProcOnly method [Windows Media Player],IWMPRenderConfig interface, wmp.iwmprenderconfig_put_inproconly, wmprealestate/IWMPRenderConfig::put_inProcOnly
 ms.prod: windows
 ms.technology: windows-sdk

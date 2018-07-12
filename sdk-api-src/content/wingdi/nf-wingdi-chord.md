@@ -7,7 +7,7 @@ old-location: gdi\chord.htm
 old-project: gdi
 ms.assetid: d6752c47-96a5-4fac-a1bb-0611a91f03f9
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: Chord, Chord function [Windows GDI], _win32_Chord, gdi.chord, wingdi/Chord
 ms.prod: windows
 ms.technology: windows-sdk

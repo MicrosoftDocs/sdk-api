@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_pantiltrelative.htm
 old-project: DirectShow
 ms.assetid: 69d8303c-2ff2-416d-909c-e9f352e53cf1
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: ICameraControl interface [DirectShow],put_PanTiltRelative method, ICameraControl.put_PanTiltRelative, ICameraControl::put_PanTiltRelative, ICameraControlput_PanTiltRelative, dshow.icameracontrol_put_pantiltrelative, put_PanTiltRelative, put_PanTiltRelative method [DirectShow], put_PanTiltRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_PanTiltRelative
 ms.prod: windows
 ms.technology: windows-sdk

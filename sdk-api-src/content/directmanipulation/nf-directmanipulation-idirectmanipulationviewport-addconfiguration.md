@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_addconfiguration.ht
 old-project: directmanipulation
 ms.assetid: 908f67ef-3606-4636-88aa-4e95d80a9c7a
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: AddConfiguration, AddConfiguration method [Direct Manipulation], AddConfiguration method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],AddConfiguration method, IDirectManipulationViewport.AddConfiguration, IDirectManipulationViewport::AddConfiguration, directmanipulation.idirectmanipulationviewport_addconfiguration, directmanipulation/IDirectManipulationViewport::AddConfiguration
 ms.prod: windows
 ms.technology: windows-sdk

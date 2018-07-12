@@ -4,10 +4,10 @@ title: MprInfoDelete function
 author: windows-sdk-content
 description: The MprInfoDelete function deletes an information header created using MprInfoCreate, or retrieved by MprInfoBlockAdd, MprInfoBlockRemove, or MprInfoBlockSet.
 old-location: rras\mprinfodelete.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: c81b92c2-a977-40e0-b971-e4e70e1a1371
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprInfoDelete, MprInfoDelete function [RAS], _mpr_mprinfodelete, mprapi/MprInfoDelete, rras.mprinfodelete
 ms.prod: windows
 ms.technology: windows-sdk

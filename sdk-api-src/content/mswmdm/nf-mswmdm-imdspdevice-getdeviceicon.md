@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice_getdeviceicon.htm
 old-project: WMDM
 ms.assetid: 0a7fcae6-cf7f-4b78-847c-de9db8c32871
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: GetDeviceIcon, GetDeviceIcon method [windows Media Device Manager], GetDeviceIcon method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetDeviceIcon method, IMDSPDevice.GetDeviceIcon, IMDSPDevice::GetDeviceIcon, IMDSPDeviceGetDeviceIcon, mswmdm/IMDSPDevice::GetDeviceIcon, wmdm.imdspdevice_getdeviceicon
 ms.prod: windows
 ms.technology: windows-sdk

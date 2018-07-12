@@ -4,10 +4,10 @@ title: "_SI_ACCESS"
 author: windows-sdk-content
 description: Contains information about an access right or default access mask for a securable object.
 old-location: security\si_access.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 9c9b14da-a030-4f90-b090-d6de10507eb2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: "*PSI_ACCESS, CONTAINER_INHERIT_ACE, INHERIT_ONLY_ACE, OBJECT_INHERIT_ACE, PSI_ACCESS, PSI_ACCESS structure pointer [Security], SI_ACCESS, SI_ACCESS structure [Security], SI_ACCESS_CONTAINER, SI_ACCESS_GENERAL, SI_ACCESS_PROPERTY, SI_ACCESS_SPECIFIC, _SI_ACCESS, _win32_si_access_str, aclui/PSI_ACCESS, aclui/SI_ACCESS, security.si_access"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: REQUESTBODY_Unsubscribe
 author: windows-sdk-content
 description: Represents a WS-Eventing Unsubscribe request message.
 old-location: ncd\requestbody_unsubscribe_struct.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 4032fe2b-1fd4-4e6d-998d-3fb80a5b906f
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: REQUESTBODY_Unsubscribe, REQUESTBODY_Unsubscribe structure, ncd.requestbody_unsubscribe_struct, wsdtypes/REQUESTBODY_Unsubscribe
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wsdhost.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

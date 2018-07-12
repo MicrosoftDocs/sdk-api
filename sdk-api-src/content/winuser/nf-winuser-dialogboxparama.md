@@ -7,7 +7,7 @@ old-location: dlgbox\dialogboxparam.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogboxparam.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 05/22/2018
 ms.keywords: DialogBoxParam, DialogBoxParam function [Dialog Boxes], DialogBoxParamA, DialogBoxParamW, _win32_DialogBoxParam, _win32_dialogboxparam_cpp, dlgbox.dialogboxparam, winui._win32_dialogboxparam, winuser/DialogBoxParam, winuser/DialogBoxParamA, winuser/DialogBoxParamW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

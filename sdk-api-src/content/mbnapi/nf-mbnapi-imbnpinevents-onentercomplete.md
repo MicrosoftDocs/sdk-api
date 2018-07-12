@@ -7,7 +7,7 @@ old-location: mbn\imbnpinevents_onentercomplete.htm
 old-project: mbn
 ms.assetid: 6a4bc731-e498-4afb-a648-0b49d2f592ca
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: E_FAIL, E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnPinEvents interface [Microsoft Broadband Networks],OnEnterComplete method, IMbnPinEvents.OnEnterComplete, IMbnPinEvents::OnEnterComplete, OnEnterComplete, OnEnterComplete method [Microsoft Broadband Networks], OnEnterComplete method [Microsoft Broadband Networks],IMbnPinEvents interface, S_OK, mbn.imbnpinevents_onentercomplete, mbnapi/IMbnPinEvents::OnEnterComplete
 ms.prod: windows
 ms.technology: windows-sdk

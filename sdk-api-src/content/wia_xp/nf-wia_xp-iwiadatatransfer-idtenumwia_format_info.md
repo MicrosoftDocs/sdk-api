@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaDataTransfer_idtEnumWIA_FORMAT_INFO.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtenumwia_format_info.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtEnumWIA_FORMAT_INFO method, IWiaDataTransfer.idtEnumWIA_FORMAT_INFO, IWiaDataTransfer::idtEnumWIA_FORMAT_INFO, _wia_IWiaDataTransfer_idtEnumWIA_FORMAT_INFO, idtEnumWIA_FORMAT_INFO, idtEnumWIA_FORMAT_INFO method [WIA], idtEnumWIA_FORMAT_INFO method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtEnumWIA_FORMAT_INFO, wia_xp/IWiaDataTransfer::idtEnumWIA_FORMAT_INFO
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_shader_trace_desc.htm
 old-project: direct3d11
 ms.assetid: 0BF5D48F-EBC5-445B-B315-496C50411C72
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: D3D11_SHADER_TRACE_DESC, D3D11_SHADER_TRACE_DESC structure [Direct3D 11], d3d11shadertracing/D3D11_SHADER_TRACE_DESC, direct3d11.d3d11_shader_trace_desc
 ms.prod: windows
 ms.technology: windows-sdk

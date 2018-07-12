@@ -7,7 +7,7 @@ old-location: properties\PSGetNamedPropertyFromPropertyStorage.htm
 old-project: properties
 ms.assetid: bb4eedc0-9ef5-46f2-83e5-340b77b3d876
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PSGetNamedPropertyFromPropertyStorage, PSGetNamedPropertyFromPropertyStorage function [Windows Properties], _shell_PSGetNamedPropertyFromPropertyStorage, properties.PSGetNamedPropertyFromPropertyStorage, propsys/PSGetNamedPropertyFromPropertyStorage, shell.PSGetNamedPropertyFromPropertyStorage
 ms.prod: windows
 ms.technology: windows-sdk

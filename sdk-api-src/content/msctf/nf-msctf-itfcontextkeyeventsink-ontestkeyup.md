@@ -7,7 +7,7 @@ old-location: tsf\itfcontextkeyeventsink_ontestkeyup.htm
 old-project: TSF
 ms.assetid: 0905b5e0-077e-4867-affa-9b2b542ec53d
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfContextKeyEventSink interface [Text Services Framework],OnTestKeyUp method, ITfContextKeyEventSink.OnTestKeyUp, ITfContextKeyEventSink::OnTestKeyUp, OnTestKeyUp, OnTestKeyUp method [Text Services Framework], OnTestKeyUp method [Text Services Framework],ITfContextKeyEventSink interface, _tsf_itfcontextkeyeventsink_ontestkeyup_ref, msctf/ITfContextKeyEventSink::OnTestKeyUp, tsf.itfcontextkeyeventsink_ontestkeyup
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsock\wscwriteproviderorder32.htm
 old-project: WinSock
 ms.assetid: 03ce09b4-d80e-480d-9219-d226df055f18
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: WSCWriteProviderOrder32, WSCWriteProviderOrder32 function [Winsock], sporder/WSCWriteProviderOrder32, winsock.wscwriteproviderorder32
 ms.prod: windows
 ms.technology: windows-sdk

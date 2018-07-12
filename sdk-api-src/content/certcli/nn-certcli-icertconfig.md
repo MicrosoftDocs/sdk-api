@@ -4,10 +4,10 @@ title: ICertConfig
 author: windows-sdk-content
 description: The ICertConfig interface provides functionality for retrieving the public configuration data (specified during client setup) for a Certificate Services server.
 old-location: security\icertconfig.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 92bece6a-73f0-47cf-8142-77e986448824
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: ICertConfig, ICertConfig interface [Security], ICertConfig interface [Security],described, _certsrv_icertconfig, certcli/ICertConfig, security.icertconfig
 ms.prod: windows
 ms.technology: windows-sdk

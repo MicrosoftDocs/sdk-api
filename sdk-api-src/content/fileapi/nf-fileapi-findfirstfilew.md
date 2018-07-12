@@ -4,10 +4,10 @@ title: FindFirstFileW function
 author: windows-sdk-content
 description: Searches a directory for a file or subdirectory with a name that matches a specific name (or partial name if wildcards are used).
 old-location: fs\findfirstfile.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 02fc92c4-582d-4c9f-a811-b5c839e9fffa
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: FindFirstFile, FindFirstFile function [Files], FindFirstFileA, FindFirstFileW, _win32_findfirstfile, base.findfirstfile, fileapi/FindFirstFile, fileapi/FindFirstFileA, fileapi/FindFirstFileW, fs.findfirstfile, winbase/FindFirstFile, winbase/FindFirstFileA, winbase/FindFirstFileW
 ms.prod: windows
 ms.technology: windows-sdk

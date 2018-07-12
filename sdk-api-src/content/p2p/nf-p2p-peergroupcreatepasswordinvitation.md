@@ -4,10 +4,10 @@ title: PeerGroupCreatePasswordInvitation function
 author: windows-sdk-content
 description: Returns an XML string that can be used by the specified peer to join a group with a matching password.
 old-location: p2p\peergroupcreatepasswordinvitation.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 12d2920d-35b6-41e3-9129-1f11ce4cb5eb
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerGroupCreatePasswordInvitation, PeerGroupCreatePasswordInvitation function [Peer Networking], p2p.peergroupcreatepasswordinvitation, p2p/PeerGroupCreatePasswordInvitation
 ms.prod: windows
 ms.technology: windows-sdk

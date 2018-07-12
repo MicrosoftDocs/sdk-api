@@ -7,7 +7,7 @@ old-location: winsync\ienumsyncproviderconfiguiinfos.htm
 old-project: winsync
 ms.assetid: d8b4f4a4-b238-431f-a123-edebe07ea7b0
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IEnumSyncProviderConfigUIInfos, IEnumSyncProviderConfigUIInfos interface [Windows Sync], IEnumSyncProviderConfigUIInfos interface [Windows Sync],described, syncregistration/IEnumSyncProviderConfigUIInfos, winsync.ienumsyncproviderconfiguiinfos
 ms.prod: windows
 ms.technology: windows-sdk

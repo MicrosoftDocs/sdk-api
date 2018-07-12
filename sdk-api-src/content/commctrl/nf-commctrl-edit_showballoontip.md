@@ -4,10 +4,10 @@ title: Edit_ShowBalloonTip macro
 author: windows-sdk-content
 description: Displays a balloon tip associated with an edit control. You can use this macro or send the EM_SHOWBALLOONTIP message explicitly.
 old-location: controls\Edit_ShowBalloonTip.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_showballoontip.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: Edit_ShowBalloonTip, Edit_ShowBalloonTip macro [Windows Controls], _win32_Edit_ShowBalloonTip, _win32_Edit_ShowBalloonTip_cpp, commctrl/Edit_ShowBalloonTip, controls.Edit_ShowBalloonTip, controls._win32_Edit_ShowBalloonTip
 ms.prod: windows
 ms.technology: windows-sdk

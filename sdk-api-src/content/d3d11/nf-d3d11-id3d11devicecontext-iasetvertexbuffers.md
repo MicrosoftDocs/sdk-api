@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_iasetvertexbuffers.htm
 old-project: direct3d11
 ms.assetid: e9a9a69c-7df7-4784-98f5-9ad63f6cd407
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: IASetVertexBuffers, IASetVertexBuffers method [Direct3D 11], IASetVertexBuffers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],IASetVertexBuffers method, ID3D11DeviceContext.IASetVertexBuffers, ID3D11DeviceContext::IASetVertexBuffers, d3b78697-f1d6-7517-a7bb-93d9f91ac800, d3d11/ID3D11DeviceContext::IASetVertexBuffers, direct3d11.id3d11devicecontext_iasetvertexbuffers
 ms.prod: windows
 ms.technology: windows-sdk

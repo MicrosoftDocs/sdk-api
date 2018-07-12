@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITableItemProvider_GetRowHeaderItems.htm
 old-project: WinAuto
 ms.assetid: 02717f9a-93dd-4963-bbc7-a1eb257bf5e5
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetRowHeaderItems, GetRowHeaderItems method [Windows Accessibility], GetRowHeaderItems method [Windows Accessibility],ITableItemProvider interface, ITableItemProvider interface [Windows Accessibility],GetRowHeaderItems method, ITableItemProvider.GetRowHeaderItems, ITableItemProvider::GetRowHeaderItems, uiauto.uiauto_ITableItemProvider_GetRowHeaderItems, uiauto_ITableItemProvider_GetRowHeaderItems, uiautomationcore/ITableItemProvider::GetRowHeaderItems, winauto.uiauto_ITableItemProvider_GetRowHeaderItems
 ms.prod: windows
 ms.technology: windows-sdk

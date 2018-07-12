@@ -4,10 +4,10 @@ title: SetUrlCacheEntryGroup function
 author: windows-sdk-content
 description: Adds entries to or removes entries from a cache group.
 old-location: wininet\seturlcacheentrygroup.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: b39a96ac-c5b5-4b02-88e2-298a037be25f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: SetUrlCacheEntryGroup, SetUrlCacheEntryGroup function [WinINet], SetUrlCacheEntryGroupA, SetUrlCacheEntryGroupW, _inet_seturlcacheentrygroup_function, wininet.seturlcacheentrygroup, wininet/SetUrlCacheEntryGroup, wininet/SetUrlCacheEntryGroupA, wininet/SetUrlCacheEntryGroupW
 ms.prod: windows
 ms.technology: windows-sdk

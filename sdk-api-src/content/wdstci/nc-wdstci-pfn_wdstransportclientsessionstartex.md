@@ -4,10 +4,10 @@ title: PFN_WdsTransportClientSessionStartEx
 author: windows-sdk-content
 description: The PFN_WdsTransportClientSessionStart callback is called at the start of a multicast session to indicate file size and other server side information about the file to the consumer.
 old-location: wds\pfn_wdstransportclientsessionstartex.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 36970f1b-9dbf-421f-a078-3da3bbb050e8
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: PFN_WdsTransportClientSessionStartEx, PFN_WdsTransportClientSessionStartEx callback, PFN_WdsTransportClientSessionStartEx callback function [Windows Deployment Services], wds.pfn_wdstransportclientsessionstartex, wdstci/PFN_WdsTransportClientSessionStartEx
 ms.prod: windows
 ms.technology: windows-sdk

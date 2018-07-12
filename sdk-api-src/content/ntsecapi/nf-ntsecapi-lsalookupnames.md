@@ -4,10 +4,10 @@ title: LsaLookupNames function
 author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs) that correspond to an array of user, group, or local group names.
 old-location: security\lsalookupnames.htm
-old-project: SecMgmt
+old-project: secmgmt
 ms.assetid: 867604aa-7a39-4da7-b189-a9183461e9a0
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: LsaLookupNames, LsaLookupNames function [Security], _lsa_lsalookupnames, ntsecapi/LsaLookupNames, security.lsalookupnames
 ms.prod: windows
 ms.technology: windows-sdk

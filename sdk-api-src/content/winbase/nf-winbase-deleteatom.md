@@ -7,7 +7,7 @@ old-location: dataxchg\deleteatom.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\deleteatom.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DeleteAtom, DeleteAtom function [Data Exchange], _win32_DeleteAtom, _win32_deleteatom_cpp, dataxchg.deleteatom, winbase/DeleteAtom, winui._win32_deleteatom
 ms.prod: windows
 ms.technology: windows-sdk

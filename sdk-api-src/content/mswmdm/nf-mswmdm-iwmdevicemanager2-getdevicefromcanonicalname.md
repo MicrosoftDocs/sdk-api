@@ -7,7 +7,7 @@ old-location: wmdm\iwmdevicemanager2__getdevicefromcanonicalname.htm
 old-project: WMDM
 ms.assetid: cfa0fe8d-668a-443b-be50-cf1f83362a14
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: GetDeviceFromCanonicalName, GetDeviceFromCanonicalName method [windows Media Device Manager], GetDeviceFromCanonicalName method [windows Media Device Manager],IWMDeviceManager2 interface, IWMDeviceManager2 interface [windows Media Device Manager],GetDeviceFromCanonicalName method, IWMDeviceManager2.GetDeviceFromCanonicalName, IWMDeviceManager2::GetDeviceFromCanonicalName, IWMDeviceManager2GetDevicesFromCanonicalName, mswmdm/IWMDeviceManager2::GetDeviceFromCanonicalName, wmdm.iwmdevicemanager2__getdevicefromcanonicalname
 ms.prod: windows
 ms.technology: windows-sdk

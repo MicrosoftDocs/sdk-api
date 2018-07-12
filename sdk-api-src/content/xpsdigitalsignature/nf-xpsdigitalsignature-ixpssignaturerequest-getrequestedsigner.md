@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturerequest_getrequestedsigner.htm
 old-project: printdocs
 ms.assetid: fbe5872e-76af-4aa1-86ad-ed7c36fd6447
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetRequestedSigner, GetRequestedSigner method [XPS Documents and Packaging], GetRequestedSigner method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetRequestedSigner method, IXpsSignatureRequest.GetRequestedSigner, IXpsSignatureRequest::GetRequestedSigner, xps.ixpssignaturerequest_getrequestedsigner, xpsdigitalsignature/IXpsSignatureRequest::GetRequestedSigner
 ms.prod: windows
 ms.technology: windows-sdk

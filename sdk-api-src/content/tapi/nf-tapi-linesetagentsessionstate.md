@@ -4,10 +4,10 @@ title: lineSetAgentSessionState function
 author: windows-sdk-content
 description: The lineSetAgentSessionState function sets the agent session state associated with a particular agent session handle.
 old-location: tapi2\linesetagentsessionstate.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 284d8411-6ac7-4496-893b-0349057523e8
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: "_tapi2_linesetagentsessionstate, lineSetAgentSessionState, lineSetAgentSessionState function [TAPI 2.2], tapi/lineSetAgentSessionState, tapi2.linesetagentsessionstate"
 ms.prod: windows
 ms.technology: windows-sdk

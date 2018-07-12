@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2data_get_nextwritableaddress.htm
 old-project: imapi
 ms.assetid: bdbab74c-80bd-4dca-8d64-6d30452a5876
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_NextWritableAddress method, IDiscFormat2Data.get_NextWritableAddress, IDiscFormat2Data::get_NextWritableAddress, get_NextWritableAddress, get_NextWritableAddress method [IMAPI], get_NextWritableAddress method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_nextwritableaddress, imapi2/IDiscFormat2Data::get_NextWritableAddress
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\sspiunmarshalcreduicontext.htm
 old-project: SecAuthN
 ms.assetid: c8861b27-d42d-4f7f-96c7-718f23fbaf86
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: SspiUnmarshalCredUIContext, SspiUnmarshalCredUIContext function [Security], security.sspiunmarshalcreduicontext, sspi/SspiUnmarshalCredUIContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-Deserializes credential information obtained by a credential provider during  a previous call to the <a href="_shell_icredentialprovider_setserialization">ICredentialProvider::SetSerialization</a> method.
+Deserializes credential information obtained by a credential provider during  a previous call to the <a href="https://msdn.microsoft.com/library/Bb776043(v=VS.85).aspx">ICredentialProvider::SetSerialization</a> method.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Deserializes credential information obtained by a credential provider during  a 
 
 ### -param MarshaledCredUIContext [in]
 
-The serialized credential information obtained as the <b>rgbSerialization</b> member of the <a href="https://msdn.microsoft.com/library/Bb773242(v=VS.85).aspx">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> structure retrieved from a call to the <a href="_shell_icredentialprovider_setserialization">ICredentialProvider::SetSerialization</a> method.
+The serialized credential information obtained as the <b>rgbSerialization</b> member of the <a href="https://msdn.microsoft.com/library/Bb773242(v=VS.85).aspx">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> structure retrieved from a call to the <a href="https://msdn.microsoft.com/library/Bb776043(v=VS.85).aspx">ICredentialProvider::SetSerialization</a> method.
 
 
 ### -param MarshaledCredUIContextLength [in]

@@ -7,7 +7,7 @@ old-location: shell\IEnumIDList.htm
 old-project: shell
 ms.assetid: b6f139d3-c54c-4350-9d8b-cd534909a488
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IEnumIDList, IEnumIDList interface [Windows Shell], IEnumIDList interface [Windows Shell],described, _win32_IEnumIDList, shell.IEnumIDList, shobjidl_core/IEnumIDList
 ms.prod: windows
 ms.technology: windows-sdk

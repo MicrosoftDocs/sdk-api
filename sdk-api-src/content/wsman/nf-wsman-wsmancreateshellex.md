@@ -4,10 +4,10 @@ title: WSManCreateShellEx function
 author: windows-sdk-content
 description: Creates a shell object by using the same functionality as the WSManCreateShell function, with the addition of a client-specified shell ID.
 old-location: winrm\wsmancreateshellex.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: A339FC95-2235-4102-A0FC-7FB01132B7A1
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: WSManCreateShellEx, WSManCreateShellEx function [Windows Remote Management], winrm.wsmancreateshellex, wsman/WSManCreateShellEx
 ms.prod: windows
 ms.technology: windows-sdk

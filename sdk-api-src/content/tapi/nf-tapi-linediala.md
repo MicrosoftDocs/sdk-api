@@ -4,10 +4,10 @@ title: lineDialA function
 author: windows-sdk-content
 description: The lineDial function dials the specified dialable number on the specified call.
 old-location: tapi2\linedial.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 111e6c11-67a7-4aab-81dd-f1b4316887e7
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: "_tapi2_linedial, lineDial, lineDial function [TAPI 2.2], lineDialA, lineDialW, tapi/lineDial, tapi/lineDialA, tapi/lineDialW, tapi2.linedial"
 ms.prod: windows
 ms.technology: windows-sdk

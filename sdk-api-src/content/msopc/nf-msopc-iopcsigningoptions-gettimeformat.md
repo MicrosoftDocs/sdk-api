@@ -7,7 +7,7 @@ old-location: opc\iopcsigningoptions_gettimeformat.htm
 old-project: OPC
 ms.assetid: 69394df9-5382-49eb-9aa2-0785dee10ac4
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: GetTimeFormat, GetTimeFormat method [Open Packaging Conventions], GetTimeFormat method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetTimeFormat method, IOpcSigningOptions.GetTimeFormat, IOpcSigningOptions::GetTimeFormat, msopc/IOpcSigningOptions::GetTimeFormat, opc.iopcsigningoptions_gettimeformat
 ms.prod: windows
 ms.technology: windows-sdk

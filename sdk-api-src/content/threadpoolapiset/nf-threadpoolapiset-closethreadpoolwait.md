@@ -7,7 +7,7 @@ old-location: base\closethreadpoolwait.htm
 old-project: ProcThread
 ms.assetid: f8323ad2-c0b6-4e5c-b6eb-7195673f8992
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: CloseThreadpoolWait, CloseThreadpoolWait function, base.closethreadpoolwait, threadpoolapiset/CloseThreadpoolWait, winbase/CloseThreadpoolWait
 ms.prod: windows
 ms.technology: windows-sdk

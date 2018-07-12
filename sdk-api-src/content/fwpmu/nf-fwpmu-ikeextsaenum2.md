@@ -4,10 +4,10 @@ title: IkeextSaEnum2 function
 author: windows-sdk-content
 description: Returns the next page of results from the IKE/AuthIP security association (SA) enumerator.
 old-location: fwp\ikeextsaenum2.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 890e6521-69c1-4cb6-ba64-4fe14cb0dffe
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IkeextSaEnum2, IkeextSaEnum2 function [Filtering], fwp.ikeextsaenum2, fwpmu/IkeextSaEnum2
 ms.prod: windows
 ms.technology: windows-sdk

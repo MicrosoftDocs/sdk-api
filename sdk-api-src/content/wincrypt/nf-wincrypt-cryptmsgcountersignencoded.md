@@ -4,10 +4,10 @@ title: CryptMsgCountersignEncoded function
 author: windows-sdk-content
 description: Countersigns an existing PKCS #7 message signature.
 old-location: security\cryptmsgcountersignencoded.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: d9fd734b-e14d-4392-ac88-5565aefbedb4
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CryptMsgCountersignEncoded, CryptMsgCountersignEncoded function [Security], _crypto2_cryptmsgcountersignencoded, security.cryptmsgcountersignencoded, wincrypt/CryptMsgCountersignEncoded
 ms.prod: windows
 ms.technology: windows-sdk

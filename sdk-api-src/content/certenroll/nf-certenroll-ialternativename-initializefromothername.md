@@ -4,10 +4,10 @@ title: IAlternativeName::InitializeFromOtherName
 author: windows-sdk-content
 description: Initializes the object from an object identifier (OID) and the associated raw data (byte array).
 old-location: security\ialternativename_initializefromothername_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: cd697085-0e8e-4a18-a7c5-77cd4927f664
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IAlternativeName interface [Security],InitializeFromOtherName method, IAlternativeName.InitializeFromOtherName, IAlternativeName::InitializeFromOtherName, InitializeFromOtherName, InitializeFromOtherName method [Security], InitializeFromOtherName method [Security],IAlternativeName interface, certenroll/IAlternativeName::InitializeFromOtherName, security.ialternativename_initializefromothername_method
 ms.prod: windows
 ms.technology: windows-sdk

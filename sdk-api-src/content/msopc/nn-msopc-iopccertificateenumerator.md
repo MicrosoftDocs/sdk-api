@@ -7,7 +7,7 @@ old-location: opc\iopccertificateenumerator.htm
 old-project: OPC
 ms.assetid: a66ad728-9d20-44d9-a363-1d2a7927d810
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: IOpcCertificateEnumerator, IOpcCertificateEnumerator interface [Open Packaging Conventions], IOpcCertificateEnumerator interface [Open Packaging Conventions],described, msopc/IOpcCertificateEnumerator, opc.iopccertificateenumerator
 ms.prod: windows
 ms.technology: windows-sdk

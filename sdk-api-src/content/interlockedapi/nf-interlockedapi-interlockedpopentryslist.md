@@ -4,10 +4,10 @@ title: InterlockedPopEntrySList function
 author: windows-sdk-content
 description: Removes an item from the front of a singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: base\interlockedpopentryslist.htm
-old-project: Sync
+old-project: sync
 ms.assetid: 10760fd4-5973-4ab0-991c-7a5951c798a4
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/06/2018
 ms.keywords: InterlockedPopEntrySList, InterlockedPopEntrySList function, _win32_interlockedpopentryslist, base.interlockedpopentryslist, interlockedapi/InterlockedPopEntrySList, winbase/InterlockedPopEntrySList
 ms.prod: windows
 ms.technology: windows-sdk

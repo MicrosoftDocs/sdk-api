@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_releasetypeattr.htm
 old-project: automat
 ms.assetid: 86827f7f-d5c7-4297-8eb9-af7b03d16121
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: ITypeInfo interface [Automation],ReleaseTypeAttr method, ITypeInfo.ReleaseTypeAttr, ITypeInfo::ReleaseTypeAttr, ReleaseTypeAttr, ReleaseTypeAttr method [Automation], ReleaseTypeAttr method [Automation],ITypeInfo interface, _oa96_ITypeInfo_ReleaseTypeAttr, automat.itypeinfo_releasetypeattr, oaidl/ITypeInfo::ReleaseTypeAttr
 ms.prod: windows
 ms.technology: windows-sdk

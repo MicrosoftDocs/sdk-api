@@ -7,7 +7,7 @@ old-location: mbn\imbninterfacemanagerevents_oninterfaceremoval.htm
 old-project: mbn
 ms.assetid: d7c96d35-20e1-46e2-82db-4b1fc03cdd22
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IMbnInterfaceManagerEvents interface [Microsoft Broadband Networks],OnInterfaceRemoval method, IMbnInterfaceManagerEvents.OnInterfaceRemoval, IMbnInterfaceManagerEvents::OnInterfaceRemoval, OnInterfaceRemoval, OnInterfaceRemoval method [Microsoft Broadband Networks], OnInterfaceRemoval method [Microsoft Broadband Networks],IMbnInterfaceManagerEvents interface, mbn.imbninterfacemanagerevents_oninterfaceremoval, mbnapi/IMbnInterfaceManagerEvents::OnInterfaceRemoval
 ms.prod: windows
 ms.technology: windows-sdk

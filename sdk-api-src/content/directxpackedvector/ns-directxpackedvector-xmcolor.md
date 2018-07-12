@@ -7,7 +7,7 @@ old-location: dxmath\xmcolor.htm
 old-project: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMCOLOR
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 06/14/2018
 ms.keywords: XMCOLOR, XMCOLOR structure [DirectX Math Support APIs], directxpackedvector/XMCOLOR, dxmath.xmcolor
 ms.prod: windows
 ms.technology: windows-sdk

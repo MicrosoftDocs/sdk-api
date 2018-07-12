@@ -4,10 +4,10 @@ title: PIMAGEHLP_STATUS_ROUTINE
 author: windows-sdk-content
 description: An application-defined callback function used with the BindImageEx function. The status routine is called during the process of the image binding.
 old-location: base\statusroutine.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 38a6ddee-5ef1-416f-99ca-11a50643fc97
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: BindExpandFileHeaders, BindForwarder, BindForwarderNOT, BindImageComplete, BindImageModified, BindImportModule, BindImportModuleFailed, BindImportProcedure, BindImportProcedureFailed, BindMismatchedSymbols, BindNoRoomInImage, BindOutOfMemory, BindRvaToVaFailed, BindSymbolsNotUpdated, PIMAGEHLP_STATUS_ROUTINE, StatusRoutine, StatusRoutine callback, StatusRoutine callback function, _win32_statusroutine, base.statusroutine, imagehlp/StatusRoutine
 ms.prod: windows
 ms.technology: windows-sdk

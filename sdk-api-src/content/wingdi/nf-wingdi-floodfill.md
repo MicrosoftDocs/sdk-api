@@ -7,7 +7,7 @@ old-location: gdi\floodfill.htm
 old-project: gdi
 ms.assetid: e53bebb5-4e46-4ea4-8d41-c12f4c6645ef
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: FloodFill, FloodFill function [Windows GDI], _win32_FloodFill, gdi.floodfill, wingdi/FloodFill
 ms.prod: windows
 ms.technology: windows-sdk

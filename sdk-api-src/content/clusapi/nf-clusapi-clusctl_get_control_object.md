@@ -4,10 +4,10 @@ title: CLUSCTL_GET_CONTROL_OBJECT macro
 author: windows-sdk-content
 description: Extracts the object code from a control code. For more information on the various codes that comprise a control code, see Control Code Architecture.
 old-location: mscs\clusctl_get_control_object.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: b49c030e-fe7a-45cd-bbbf-0056763d827c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CLUSCTL_GET_CONTROL_OBJECT, CLUSCTL_GET_CONTROL_OBJECT macro [Failover Cluster], _wolf_clusctl_get_control_object, clusapi/CLUSCTL_GET_CONTROL_OBJECT, mscs.clusctl_get_control_object
 ms.prod: windows
 ms.technology: windows-sdk

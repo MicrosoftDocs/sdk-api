@@ -4,10 +4,10 @@ title: "_DATE_TIME"
 author: windows-sdk-content
 description: The DATE_TIME structure defines a 64-bit integer value that contains a date/time, expressed as the number of ticks (100-nanosecond increments) since 12:00 midnight, January 1, 1 C.E. in the Gregorian calendar.
 old-location: dhcp\date_time.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 2aca69b1-b7e5-4fda-b706-ed659d86cbd5
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPDATE_TIME, *PDATE_TIME, DATE_TIME, DATE_TIME structure [DHCP], LPDATE_TIME, LPDATE_TIME structure pointer [DHCP], _DATE_TIME, dhcp.date_time, dhcpsapi/LPDATE_TIME, dhcpsapi/_DATE_TIME"
 ms.prod: windows
 ms.technology: windows-sdk

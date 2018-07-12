@@ -4,10 +4,10 @@ title: ITRequestEvent::get_AppName
 author: windows-sdk-content
 description: The get_AppName method gets the name of the application.
 old-location: tapi3\itrequestevent_get_appname.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: d53fae21-4a4d-46ab-a0ff-48a7474b8782
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_AppName method, ITRequestEvent.get_AppName, ITRequestEvent::get_AppName, _tapi3_itrequestevent_get_appname, get_AppName, get_AppName method [TAPI 2.2], get_AppName method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_appname, tapi3if/ITRequestEvent::get_AppName
 ms.prod: windows
 ms.technology: windows-sdk

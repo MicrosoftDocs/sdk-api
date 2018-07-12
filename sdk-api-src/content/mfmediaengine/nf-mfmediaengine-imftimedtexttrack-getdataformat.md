@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttrack_getdataformat.htm
 old-project: medfound
 ms.assetid: B00FA013-1C96-48FB-8046-D9A24BB78412
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetDataFormat, GetDataFormat method [Media Foundation], GetDataFormat method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetDataFormat method, IMFTimedTextTrack.GetDataFormat, IMFTimedTextTrack::GetDataFormat, mf.imftimedtexttrack_getdataformat, mfmediaengine/IMFTimedTextTrack::GetDataFormat
 ms.prod: windows
 ms.technology: windows-sdk

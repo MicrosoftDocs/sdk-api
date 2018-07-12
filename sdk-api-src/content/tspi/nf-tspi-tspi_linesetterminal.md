@@ -4,10 +4,10 @@ title: TSPI_lineSetTerminal function
 author: windows-sdk-content
 description: The TSPI_lineSetTerminal function enables TAPI to specify to which terminal information related to the specified line, address, or call is to be routed.
 old-location: tspi\tspi_linesetterminal.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 106451b0-4491-472d-b73a-5d8333f0a372
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: TSPI_lineSetTerminal, TSPI_lineSetTerminal function [TAPI 2.2], _tspi_tspi_linesetterminal, tspi.tspi_linesetterminal, tspi/TSPI_lineSetTerminal
 ms.prod: windows
 ms.technology: windows-sdk

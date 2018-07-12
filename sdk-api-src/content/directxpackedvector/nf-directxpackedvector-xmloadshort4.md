@@ -7,7 +7,7 @@ old-location: dxmath\xmloadshort4.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadShort4(const XMSHORT4)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 06/14/2018
 ms.keywords: DirectX::PackedVector.XMLoadShort4, XMLoadShort4, XMLoadShort4 method [DirectX Math Support APIs], dxmath.xmloadshort4
 ms.prod: windows
 ms.technology: windows-sdk

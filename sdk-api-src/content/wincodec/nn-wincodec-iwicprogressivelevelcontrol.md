@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicprogressivelevelcontrol.htm
 old-project: wic
 ms.assetid: d77244bc-b9d4-4b7d-b718-4ee38de46614
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICProgressiveLevelControl, IWICProgressiveLevelControl interface [Windows Imaging Component], IWICProgressiveLevelControl interface [Windows Imaging Component],described, _wic_codec_iwicprogressivelevelcontrol, wic._wic_codec_iwicprogressivelevelcontrol, wincodec/IWICProgressiveLevelControl
 ms.prod: windows
 ms.technology: windows-sdk

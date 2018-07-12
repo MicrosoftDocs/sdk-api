@@ -7,7 +7,7 @@ old-location: termserv\wtsenumerateprocessesex.htm
 old-project: TermServ
 ms.assetid: bc8a2550-cf89-4203-b96b-c750c0dff255
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: WTSEnumerateProcessesEx, WTSEnumerateProcessesEx function [Remote Desktop Services], WTSEnumerateProcessesExA, WTSEnumerateProcessesExW, termserv.wtsenumerateprocessesex, wtsapi32/WTSEnumerateProcessesEx, wtsapi32/WTSEnumerateProcessesExA, wtsapi32/WTSEnumerateProcessesExW
 ms.prod: windows
 ms.technology: windows-sdk

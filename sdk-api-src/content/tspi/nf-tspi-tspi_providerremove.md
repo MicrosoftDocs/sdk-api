@@ -4,10 +4,10 @@ title: TSPI_providerRemove function
 author: windows-sdk-content
 description: The TSPI_providerRemove function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement TUISPI_providerRemove.
 old-location: tspi\tspi_providerremove.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 3d6c6183-d5ab-4939-8f44-dfc42458706f
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: TSPI_providerRemove, TSPI_providerRemove function [TAPI 2.2], _tspi_tspi_providerremove, tspi.tspi_providerremove, tspi/TSPI_providerRemove
 ms.prod: windows
 ms.technology: windows-sdk

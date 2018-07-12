@@ -7,7 +7,7 @@ old-location: security\wlxwkstalockedsas.htm
 old-project: SecAuthN
 ms.assetid: 7a9f8b00-857a-432e-bb49-2251504c46a0
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: WLX_SAS_TYPE_CTRL_ALT_DEL, WLX_SAS_TYPE_SC_INSERT, WLX_SAS_TYPE_SC_REMOVE, WLX_SAS_TYPE_TIMEOUT, WlxWkstaLockedSAS, WlxWkstaLockedSAS function [Security], _gina_wlxwkstalockedsas, security.wlxwkstalockedsas, winwlx/WlxWkstaLockedSAS
 ms.prod: windows
 ms.technology: windows-sdk

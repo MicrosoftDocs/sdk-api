@@ -7,7 +7,7 @@ old-location: com\eoc_changetype.htm
 old-project: com
 ms.assetid: 1dad5849-4c6c-4632-953c-1bb18f14e8c1
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: EOC_ChangeType, EOC_ChangeType enumeration [COM], EOC_DeletedObject, EOC_ModifiedObject, EOC_NewObject, __MIDL_IEventObjectChange_0001, _com_EOC_ChangeType, com.eoc_changetype, eventsys/EOC_ChangeType, eventsys/EOC_DeletedObject, eventsys/EOC_ModifiedObject, eventsys/EOC_NewObject
 ms.prod: windows
 ms.technology: windows-sdk

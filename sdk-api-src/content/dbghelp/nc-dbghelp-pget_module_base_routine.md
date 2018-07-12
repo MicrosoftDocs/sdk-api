@@ -4,10 +4,10 @@ title: PGET_MODULE_BASE_ROUTINE
 author: windows-sdk-content
 description: An application-defined callback function used with the StackWalk64 function. It is called when StackWalk64 needs a module base address for a given virtual address.
 old-location: base\getmodulebaseproc64.htm
-old-project: Debug
+old-project: debug
 ms.assetid: a1060d41-183f-4cb1-8214-afef2996ca66
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: GetModuleBaseProc64, GetModuleBaseProc64 callback, GetModuleBaseProc64 callback function, PGET_MODULE_BASE_ROUTINE, PGET_MODULE_BASE_ROUTINE64, _win32_getmodulebaseproc64, base.getmodulebaseproc64, dbghelp/GetModuleBaseProc64
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: search\_search_ISearchItemsChangedSink_StoppedMonitoringScope.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchitemschangedsink\stoppedmonitoringscope.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISearchItemsChangedSink interface [search],StoppedMonitoringScope method, ISearchItemsChangedSink.StoppedMonitoringScope, ISearchItemsChangedSink::StoppedMonitoringScope, StoppedMonitoringScope, StoppedMonitoringScope method [search], StoppedMonitoringScope method [search],ISearchItemsChangedSink interface, _search_ISearchItemsChangedSink_StoppedMonitoringScope, search._search_ISearchItemsChangedSink_StoppedMonitoringScope, searchapi/ISearchItemsChangedSink::StoppedMonitoringScope
 ms.prod: windows
 ms.technology: windows-sdk

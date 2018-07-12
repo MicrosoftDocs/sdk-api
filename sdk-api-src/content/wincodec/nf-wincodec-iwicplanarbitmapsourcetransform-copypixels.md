@@ -7,7 +7,7 @@ old-location: wic\iwicplanarbitmapsourcetransform_copypixels.htm
 old-project: wic
 ms.assetid: 0D6FB12B-B5C5-4A36-93FC-AF96BF03ED01
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: CopyPixels, CopyPixels method [Windows Imaging Component], CopyPixels method [Windows Imaging Component],IWICPlanarBitmapSourceTransform interface, IWICPlanarBitmapSourceTransform interface [Windows Imaging Component],CopyPixels method, IWICPlanarBitmapSourceTransform.CopyPixels, IWICPlanarBitmapSourceTransform::CopyPixels, wic.iwicplanarbitmapsourcetransform_copypixels, wincodec/IWICPlanarBitmapSourceTransform::CopyPixels
 ms.prod: windows
 ms.technology: windows-sdk

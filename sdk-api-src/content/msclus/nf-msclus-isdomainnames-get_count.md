@@ -4,10 +4,10 @@ title: ISDomainNames::get_Count
 author: windows-sdk-content
 description: Returns the number of objects in the DomainNames collection.
 old-location: mscs\domainnames_count.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 8a858642-3b74-4d06-a917-c6de272fb165
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: Count property [Failover Cluster], Count property [Failover Cluster],DomainNames collection, DomainNames collection [Failover Cluster],Count property, DomainNames.Count, ISDomainNames.get_Count, ISDomainNames::get_Count, _wolf_domainnames.count, get_Count, mscs.domainnames_count
 ms.prod: windows
 ms.technology: windows-sdk

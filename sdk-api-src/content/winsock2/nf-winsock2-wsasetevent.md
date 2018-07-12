@@ -7,7 +7,7 @@ old-location: winsock\wsasetevent_2.htm
 old-project: WinSock
 ms.assetid: 8a3f41fe-77da-4e4e-975d-00eec7c11446
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: WSASetEvent, WSASetEvent function [Winsock], _win32_wsasetevent_2, winsock.wsasetevent_2, winsock2/WSASetEvent
 ms.prod: windows
 ms.technology: windows-sdk

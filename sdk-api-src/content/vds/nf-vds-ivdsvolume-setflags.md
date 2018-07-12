@@ -4,10 +4,10 @@ title: IVdsVolume::SetFlags
 author: windows-sdk-content
 description: Sets the volume flags.
 old-location: base\ivdsvolume_setflags.htm
-old-project: VDS
+old-project: vds
 ms.assetid: f426b089-6c5f-4ab4-aa92-127e24cb57b1
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsVolume interface [VDS],SetFlags method, IVdsVolume.SetFlags, IVdsVolume::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsVolume interface, base.ivdsvolume_setflags, vds/IVdsVolume::SetFlags
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_HTTP_DATA_CHUNK_TYPE"
 author: windows-sdk-content
 description: Defines the data source for a data chunk.
 old-location: http\http_data_chunk_type.htm
-old-project: Http
+old-project: http
 ms.assetid: fbb04b0a-df1a-409d-aadc-c06b816924c5
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 04/13/2018
 ms.keywords: "*PHTTP_DATA_CHUNK_TYPE, HTTP_DATA_CHUNK_TYPE, HTTP_DATA_CHUNK_TYPE enumeration [HTTP], HttpDataChunkFromFileHandle, HttpDataChunkFromFragmentCache, HttpDataChunkFromFragmentCacheEx, HttpDataChunkFromMemory, _HTTP_DATA_CHUNK_TYPE, http.http_data_chunk_type, http/HTTP_DATA_CHUNK_TYPE, http/HttpDataChunkFromFileHandle, http/HttpDataChunkFromFragmentCache, http/HttpDataChunkFromFragmentCacheEx, http/HttpDataChunkFromMemory"
 ms.prod: windows
 ms.technology: windows-sdk

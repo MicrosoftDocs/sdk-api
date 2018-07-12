@@ -4,10 +4,10 @@ title: peer_node_info_tag
 author: windows-sdk-content
 description: The PEER_NODE_INFO structure contains information that is specific to a particular node in a peer graph.
 old-location: p2p\peer_node_info.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 51cc6c27-91ca-4d02-95d6-207827450fd5
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: "*PPEER_NODE_INFO, PEER_NODE_INFO, PEER_NODE_INFO structure [Peer Networking], PPEER_NODE_INFO, PPEER_NODE_INFO structure pointer [Peer Networking], p2p.peer_node_info, p2p/PPEER_NODE_INFO, p2p/peer_node_info_tag, peer_node_info_tag"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: coreaudio\_audclnt_bufferflags.htm
 old-project: CoreAudio
 ms.assetid: ac4ec901-b1e2-4c4e-b9fc-1808d5338d15
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY, AUDCLNT_BUFFERFLAGS_SILENT, AUDCLNT_BUFFERFLAGS_TIMESTAMP_ERROR, _AUDCLNT_BUFFERFLAGS, _AUDCLNT_BUFFERFLAGS , _AUDCLNT_BUFFERFLAGS enumeration [Core Audio], audioclient/AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY, audioclient/AUDCLNT_BUFFERFLAGS_SILENT, audioclient/AUDCLNT_BUFFERFLAGS_TIMESTAMP_ERROR, audioclient/_AUDCLNT_BUFFERFLAGS, coreaudio._audclnt_bufferflags
 ms.prod: windows
 ms.technology: windows-sdk

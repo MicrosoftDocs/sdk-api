@@ -4,10 +4,10 @@ title: NLM_SOCKADDR
 author: windows-sdk-content
 description: NLM_SOCKADDR structure contains the IPv4/IPv6 destination address.
 old-location: nla\nlm_sockaddr.htm
-old-project: NLA
+old-project: nla
 ms.assetid: BEAF672C-F9B3-4544-878B-BBCF96F502C6
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: NLM_SOCKADDR, NLM_SOCKADDR structure [Network Awareness], PNLM_SOCKADDR, PNLM_SOCKADDR structure pointer [Network Awareness], netlistmgr/NLM_SOCKADDR, netlistmgr/PNLM_SOCKADDR, nla.nlm_sockaddr
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: devinst\setupdisetclassproperty.htm
 old-project: devinst
 ms.assetid: 12402336-9894-4d0d-b176-c6907e0cdcd4
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: SetupDiSetClassProperty, SetupDiSetClassProperty function [Device and Driver Installation], SetupDiSetClassPropertyA, SetupDiSetClassPropertyW, devinst.setupdisetclassproperty, di-rtns_c0346a11-5f87-4578-af46-5cb82e5b6101.xml, setupapi/SetupDiSetClassProperty, setupapi/SetupDiSetClassPropertyA, setupapi/SetupDiSetClassPropertyW
 ms.prod: windows
 ms.technology: windows-sdk

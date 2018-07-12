@@ -4,10 +4,10 @@ title: ISClusResType::get_PossibleOwnerNodes
 author: windows-sdk-content
 description: Returns the nodes specified as possible owners of a resource type.
 old-location: mscs\clusrestype_possibleownernodes.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 9437a940-bb61-4de1-9d4b-54876161e02c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResType object [Failover Cluster],PossibleOwnerNodes property, ClusResType.PossibleOwnerNodes, ISClusResType.get_PossibleOwnerNodes, ISClusResType::get_PossibleOwnerNodes, PossibleOwnerNodes property [Failover Cluster], PossibleOwnerNodes property [Failover Cluster],ClusResType object, _wolf_clusrestype.possibleownernodes, get_PossibleOwnerNodes, mscs.clusrestype_possibleownernodes
 ms.prod: windows
 ms.technology: windows-sdk

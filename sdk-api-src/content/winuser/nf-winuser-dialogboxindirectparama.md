@@ -7,7 +7,7 @@ old-location: dlgbox\dialogboxindirectparam.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogboxindirectparam.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 05/22/2018
 ms.keywords: DialogBoxIndirectParam, DialogBoxIndirectParam function [Dialog Boxes], DialogBoxIndirectParamA, DialogBoxIndirectParamW, _win32_DialogBoxIndirectParam, _win32_dialogboxindirectparam_cpp, dlgbox.dialogboxindirectparam, winui._win32_dialogboxindirectparam, winuser/DialogBoxIndirectParam, winuser/DialogBoxIndirectParamA, winuser/DialogBoxIndirectParamW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

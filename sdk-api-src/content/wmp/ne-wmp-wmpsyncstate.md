@@ -7,7 +7,7 @@ old-location: wmp\wmpsyncstate.htm
 old-project: WMP
 ms.assetid: 8f1e8026-bbde-42bc-8ac8-555cc363b0b9
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: WMPSyncState, WMPSyncState enumeration [Windows Media Player], wmp.wmpsyncstate, wmp/WMPSyncState, wmp/wmpssEstimating, wmp/wmpssLast, wmp/wmpssStopped, wmp/wmpssSynchronizing, wmp/wmpssUnknown, wmpssEstimating, wmpssLast, wmpssStopped, wmpssSynchronizing, wmpssUnknown
 ms.prod: windows
 ms.technology: windows-sdk

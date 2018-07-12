@@ -4,10 +4,10 @@ title: ADsPropCreateNotifyObj function
 author: windows-sdk-content
 description: The ADsPropCreateNotifyObj function is used to create, or obtain, a notification object for use by an Active Directory Domain Services property sheet extension.
 old-location: ad\adspropcreatenotifyobj.htm
-old-project: AD
+old-project: ad
 ms.assetid: bfca3801-0d24-4177-8173-b6bf4b854fae
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: ADsPropCreateNotifyObj, ADsPropCreateNotifyObj function [Active Directory], ad.adspropcreatenotifyobj, adsprop/ADsPropCreateNotifyObj
 ms.prod: windows
 ms.technology: windows-sdk

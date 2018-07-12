@@ -7,7 +7,7 @@ old-location: search\_search_ISchemaLocalizerSupport.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemalocalizersupport\ischemalocalizersupport.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISchemaLocalizerSupport, ISchemaLocalizerSupport interface [search], ISchemaLocalizerSupport interface [search],described, _search_ISchemaLocalizerSupport, search._search_ISchemaLocalizerSupport, structuredquery/ISchemaLocalizerSupport
 ms.prod: windows
 ms.technology: windows-sdk

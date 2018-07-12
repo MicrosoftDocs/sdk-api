@@ -7,7 +7,7 @@ old-location: mf\mfgetservice.htm
 old-project: medfound
 ms.assetid: 119e9e2f-0e26-4dfc-9c89-156b63a63640
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 119e9e2f-0e26-4dfc-9c89-156b63a63640, MFGetService, MFGetService function [Media Foundation], mf.mfgetservice, mfidl/MFGetService
 ms.prod: windows
 ms.technology: windows-sdk

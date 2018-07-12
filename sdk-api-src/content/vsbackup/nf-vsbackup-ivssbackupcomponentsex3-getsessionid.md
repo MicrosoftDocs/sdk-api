@@ -4,10 +4,10 @@ title: IVssBackupComponentsEx3::GetSessionId
 author: windows-sdk-content
 description: Returns the requester's session identifier.
 old-location: base\ivssbackupcomponentsex3_getsessionid.htm
-old-project: VSS
+old-project: vss
 ms.assetid: ad7e548a-9f7a-4e35-9811-edb68458a1df
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: GetSessionId, GetSessionId method, GetSessionId method,IVssBackupComponentsEx3 interface, IVssBackupComponentsEx3 interface,GetSessionId method, IVssBackupComponentsEx3.GetSessionId, IVssBackupComponentsEx3::GetSessionId, base.ivssbackupcomponentsex3_getsessionid, vsbackup/IVssBackupComponentsEx3::GetSessionId
 ms.prod: windows
 ms.technology: windows-sdk

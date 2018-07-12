@@ -7,7 +7,7 @@ old-location: imapi\ifsiitem_get_fullpath.htm
 old-project: imapi
 ms.assetid: fb2d6f13-a833-42a3-abbd-39f86b95082d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IFsiItem interface [IMAPI],get_FullPath method, IFsiItem.get_FullPath, IFsiItem::get_FullPath, get_FullPath, get_FullPath method [IMAPI], get_FullPath method [IMAPI],IFsiItem interface, imapi.ifsiitem_get_fullpath, imapi2fs/IFsiItem::get_FullPath
 ms.prod: windows
 ms.technology: windows-sdk

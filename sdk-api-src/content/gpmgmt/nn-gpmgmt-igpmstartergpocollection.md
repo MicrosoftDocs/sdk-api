@@ -4,10 +4,10 @@ title: IGPMStarterGPOCollection
 author: windows-sdk-content
 description: The IGPMStarterGPOCollection interface contains methods that enable applications to access a collection of Group Policy Objects (GPOs) when using the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmstartergpocollection.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: b650b1c6-0597-468a-afdc-a21d61f1a8a0
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: GPMStarterGPOCollection, IGPMStarterGPOCollection, IGPMStarterGPOCollection interface [GPMC], IGPMStarterGPOCollection interface [GPMC],described, gpmc.igpmstartergpocollection, gpmgmt/IGPMStarterGPOCollection
 ms.prod: windows
 ms.technology: windows-sdk

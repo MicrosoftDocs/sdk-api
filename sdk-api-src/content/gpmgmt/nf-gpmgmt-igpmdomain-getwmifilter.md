@@ -4,10 +4,10 @@ title: IGPMDomain::GetWMIFilter
 author: windows-sdk-content
 description: Retrieves a GPMWMIFilter object for the specified path.
 old-location: gpmc\igpmdomain_getwmifilter.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: 093fba1a-69b3-4045-891a-de9c6a78e166
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: GPMDomain object [GPMC],GetWMIFilter method, GetWMIFilter, GetWMIFilter method [GPMC], GetWMIFilter method [GPMC],GPMDomain object, GetWMIFilter method [GPMC],IGPMDomain interface, IGPMDomain interface [GPMC],GetWMIFilter method, IGPMDomain.GetWMIFilter, IGPMDomain::GetWMIFilter, _win32_igpmdomain_getwmifilter, gpmc.igpmdomain_getwmifilter, gpmgmt/IGPMDomain::GetWMIFilter
 ms.prod: windows
 ms.technology: windows-sdk

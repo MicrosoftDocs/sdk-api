@@ -4,10 +4,10 @@ title: WSDCreateHttpMessageParameters function
 author: windows-sdk-content
 description: Creates an IWSDHttpMessageParameters object.
 old-location: ncd\wsdcreatehttpmessageparameters.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 43797991-7a9c-42f8-bf64-655bde014487
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: WSDCreateHttpMessageParameters, WSDCreateHttpMessageParameters function, ncd.wsdcreatehttpmessageparameters, wsdbase/WSDCreateHttpMessageParameters
 ms.prod: windows
 ms.technology: windows-sdk

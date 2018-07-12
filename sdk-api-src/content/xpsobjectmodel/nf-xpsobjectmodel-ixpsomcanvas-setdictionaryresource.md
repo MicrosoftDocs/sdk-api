@@ -7,7 +7,7 @@ old-location: xps\ixpsomcanvas_setdictionaryresource.htm
 old-project: printdocs
 ms.assetid: 8f6a80e9-fa66-45fa-bee9-c80a64a4593f
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IXpsOMCanvas interface [XPS Documents and Packaging],SetDictionaryResource method, IXpsOMCanvas.SetDictionaryResource, IXpsOMCanvas::SetDictionaryResource, SetDictionaryResource, SetDictionaryResource method [XPS Documents and Packaging], SetDictionaryResource method [XPS Documents and Packaging],IXpsOMCanvas interface, xps.ixpsomcanvas_setdictionaryresource, xpsobjectmodel/IXpsOMCanvas::SetDictionaryResource
 ms.prod: windows
 ms.technology: windows-sdk

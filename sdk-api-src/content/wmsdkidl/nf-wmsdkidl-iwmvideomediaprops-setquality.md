@@ -7,7 +7,7 @@ old-location: wmformat\iwmvideomediaprops_setquality.htm
 old-project: wmformat
 ms.assetid: 0f91380d-b8c8-47db-99ca-12c897bdff20
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: IWMVideoMediaProps interface [windows Media Format],SetQuality method, IWMVideoMediaProps.SetQuality, IWMVideoMediaProps::SetQuality, IWMVideoMediaPropsSetQuality, SetQuality, SetQuality method [windows Media Format], SetQuality method [windows Media Format],IWMVideoMediaProps interface, wmformat.iwmvideomediaprops_setquality, wmsdkidl/IWMVideoMediaProps::SetQuality
 ms.prod: windows
 ms.technology: windows-sdk

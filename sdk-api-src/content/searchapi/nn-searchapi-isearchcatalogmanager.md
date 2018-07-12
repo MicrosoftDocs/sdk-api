@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\isearchcatalogmanager.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISearchCatalogManager, ISearchCatalogManager interface [search], ISearchCatalogManager interface [search],described, _search_ISearchCatalogManager, search._search_ISearchCatalogManager, searchapi/ISearchCatalogManager
 ms.prod: windows
 ms.technology: windows-sdk

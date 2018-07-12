@@ -4,10 +4,10 @@ title: DeleteUrlCacheGroup function
 author: windows-sdk-content
 description: Releases the specified GROUPID and any associated state in the cache index file.
 old-location: wininet\deleteurlcachegroup.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: f1ff70db-36b7-4805-8f23-e3920acf0d11
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: DeleteUrlCacheGroup, DeleteUrlCacheGroup function [WinINet], _inet_deleteurlcachegroup_function, wininet.deleteurlcachegroup, wininet/DeleteUrlCacheGroup
 ms.prod: windows
 ms.technology: windows-sdk

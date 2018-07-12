@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager_setcancelprioritycomparison.htm
 old-project: UIAnimation
 ms.assetid: cea146d1-4a9c-4089-8015-ac16602f5afd
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],SetCancelPriorityComparison method, IUIAnimationManager.SetCancelPriorityComparison, IUIAnimationManager::SetCancelPriorityComparison, SetCancelPriorityComparison, SetCancelPriorityComparison method [Windows Animation], SetCancelPriorityComparison method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_setcancelprioritycomparison, uianimation/IUIAnimationManager::SetCancelPriorityComparison
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: devinst\sp_unremovedevice_params.htm
 old-project: devinst
 ms.assetid: 89f5e2a9-5336-421f-b781-688588695027
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: "*PSP_UNREMOVEDEVICE_PARAMS, PSP_UNREMOVEDEVICE_PARAMS, PSP_UNREMOVEDEVICE_PARAMS structure pointer [Device and Driver Installation], SP_UNREMOVEDEVICE_PARAMS, SP_UNREMOVEDEVICE_PARAMS structure [Device and Driver Installation], _SP_UNREMOVEDEVICE_PARAMS, devinst.sp_unremovedevice_params, di-struct_bcd98087-c502-40d6-81a7-5154340ce406.xml, setupapi/PSP_UNREMOVEDEVICE_PARAMS, setupapi/SP_UNREMOVEDEVICE_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk

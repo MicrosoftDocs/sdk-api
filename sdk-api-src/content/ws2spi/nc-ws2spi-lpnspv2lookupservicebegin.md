@@ -7,7 +7,7 @@ old-location: winsock\nspv2lookupservicebegin.htm
 old-project: WinSock
 ms.assetid: 5664b85d-8432-4068-aa97-caa57d9377ac
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: LPNSPV2LOOKUPSERVICEBEGIN, LUP_ADDRCONFIG, LUP_CONTAINERS, LUP_DEEP, LUP_DISABLE_IDN_ENCODING, LUP_DUAL_ADDR, LUP_FLUSHCACHE, LUP_FLUSHPREVIOUS, LUP_NEAREST, LUP_NOCONTAINERS, LUP_NON_AUTHORITATIVE, LUP_RES_RESERVICE, LUP_RETURN_ADDR, LUP_RETURN_ALIASES, LUP_RETURN_ALL, LUP_RETURN_BLOB, LUP_RETURN_COMMENT, LUP_RETURN_NAME, LUP_RETURN_PREFERRED_NAMES, LUP_RETURN_QUERY_STRING, LUP_RETURN_TYPE, LUP_RETURN_VERSION, LUP_SECURE, NSPv2LookupServiceBegin, NSPv2LookupServiceBegin function [Winsock], winsock.nspv2lookupservicebegin, ws2spi/NSPv2LookupServiceBegin
 ms.prod: windows
 ms.technology: windows-sdk

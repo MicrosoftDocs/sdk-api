@@ -7,7 +7,7 @@ old-location: com\ioleinplaceactiveobject_translateaccelerator.htm
 old-project: com
 ms.assetid: ce460c52-c7aa-4ee4-955e-76407af7cf1e
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],TranslateAccelerator method, IOleInPlaceActiveObject.TranslateAccelerator, IOleInPlaceActiveObject::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_translateaccelerator, com.ioleinplaceactiveobject_translateaccelerator, oleidl/IOleInPlaceActiveObject::TranslateAccelerator
 ms.prod: windows
 ms.technology: windows-sdk

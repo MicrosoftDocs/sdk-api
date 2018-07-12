@@ -4,10 +4,10 @@ title: DRMCreateClientSession function
 author: windows-sdk-content
 description: Creates a client session, which hosts license storage sessions and is used in activation and other function calls.
 old-location: rm\drmcreateclientsession.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: 4b8928a0-1d72-47ee-a357-47fb5777d60c
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMCreateClientSession, DRMCreateClientSession function [Active Directory Rights Management Services SDK 1.0], DRM_DEFAULTGROUPIDTYPE_PASSPORT, DRM_DEFAULTGROUPIDTYPE_WINDOWSAUTH, msdrm/DRMCreateClientSession, rm.drmcreateclientsession
 ms.prod: windows
 ms.technology: windows-sdk

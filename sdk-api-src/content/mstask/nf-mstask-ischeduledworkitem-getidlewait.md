@@ -4,10 +4,10 @@ title: IScheduledWorkItem::GetIdleWait
 author: windows-sdk-content
 description: Retrieves the idle wait time for the work item.
 old-location: taskschd\ischeduledworkitem_getidlewait.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 72d53691-f2ea-4a20-8e85-f9db81f830cd
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetIdleWait, GetIdleWait method [Task Scheduler], GetIdleWait method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetIdleWait method, IScheduledWorkItem.GetIdleWait, IScheduledWorkItem::GetIdleWait, _msb_ischeduledworkitem_getidlewait, mstask/IScheduledWorkItem::GetIdleWait, taskschd.ischeduledworkitem_getidlewait
 ms.prod: windows
 ms.technology: windows-sdk

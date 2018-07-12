@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaPropertyStorage_GetPropertyStream.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\getpropertystream.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: GetPropertyStream, GetPropertyStream method [WIA], GetPropertyStream method [WIA],IWiaPropertyStorage interface, IWiaPropertyStorage interface [WIA],GetPropertyStream method, IWiaPropertyStorage.GetPropertyStream, IWiaPropertyStorage::GetPropertyStream, _wia_IWiaPropertyStorage_GetPropertyStream, wia._wia_IWiaPropertyStorage_GetPropertyStream, wia_xp/IWiaPropertyStorage::GetPropertyStream
 ms.prod: windows
 ms.technology: windows-sdk

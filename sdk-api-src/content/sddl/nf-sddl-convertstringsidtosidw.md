@@ -4,10 +4,10 @@ title: ConvertStringSidToSidW function
 author: windows-sdk-content
 description: Converts a string-format security identifier (SID) into a valid, functional SID. You can use this function to retrieve a SID that the ConvertSidToStringSid function converted to string format.
 old-location: security\convertstringsidtosid.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: bf7262e3-ad2c-44c4-99cb-dcf29ad36efd
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: ConvertStringSidToSid, ConvertStringSidToSid function [Security], ConvertStringSidToSidA, ConvertStringSidToSidW, _win32_convertstringsidtosid, sddl/ConvertStringSidToSid, sddl/ConvertStringSidToSidA, sddl/ConvertStringSidToSidW, security.convertstringsidtosid
 ms.prod: windows
 ms.technology: windows-sdk

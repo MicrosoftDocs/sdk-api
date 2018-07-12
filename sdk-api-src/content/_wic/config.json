@@ -4,6 +4,5 @@
     "tbd",
     "wincodec.h",
     "wincodecsdk.h"
-  ],
-  "displayName": "Windows Imaging Component"
+  ]
 }

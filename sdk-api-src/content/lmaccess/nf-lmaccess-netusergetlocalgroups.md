@@ -4,10 +4,10 @@ title: NetUserGetLocalGroups function
 author: windows-sdk-content
 description: The NetUserGetLocalGroups function retrieves a list of local groups to which a specified user belongs.
 old-location: netmgmt\netusergetlocalgroups.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: cc5c1c15-cad7-4103-a2c9-1a8adf742703
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: 0, NetUserGetLocalGroups, NetUserGetLocalGroups function [Network Management], _win32_netusergetlocalgroups, lmaccess/NetUserGetLocalGroups, netmgmt.netusergetlocalgroups
 ms.prod: windows
 ms.technology: windows-sdk

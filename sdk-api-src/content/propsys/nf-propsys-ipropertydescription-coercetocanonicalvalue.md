@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_CoerceToCanonicalValue.htm
 old-project: properties
 ms.assetid: bc51ec1b-c1ec-4162-a60d-b67d19d5b591
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: CoerceToCanonicalValue, CoerceToCanonicalValue method [Windows Properties], CoerceToCanonicalValue method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],CoerceToCanonicalValue method, IPropertyDescription.CoerceToCanonicalValue, IPropertyDescription::CoerceToCanonicalValue, properties.IPropertyDescription_CoerceToCanonicalValue, propsys/IPropertyDescription::CoerceToCanonicalValue, shell.IPropertyDescription_CoerceToCanonicalValue, shell_IPropertyDescription_CoerceToCanonicalValue
 ms.prod: windows
 ms.technology: windows-sdk

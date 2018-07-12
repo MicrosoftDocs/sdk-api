@@ -7,7 +7,7 @@ old-location: winsock\inet_ntop.htm
 old-project: WinSock
 ms.assetid: 1e26b88c-808f-4807-8641-e5c6b10853ad
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: AF_INET, AF_INET6, InetNtop, InetNtop function [Winsock], InetNtopA, InetNtopA or inet_ntop, InetNtopW, inet_ntop, winsock.inet_ntop, ws2tcpip/InetNtop, ws2tcpip/InetNtopA or inet_ntop, ws2tcpip/InetNtopW
 ms.prod: windows
 ms.technology: windows-sdk

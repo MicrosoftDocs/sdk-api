@@ -7,7 +7,7 @@ old-location: nwifi\wfdclosehandle.htm
 old-project: NativeWiFi
 ms.assetid: A27C0AE1-1C51-4CAC-8929-63870ADB15A7
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: WFDCloseHandle, WFDCloseHandle function [NativeWIFI], nwifi.wfdclosehandle, wlanapi/WFDCloseHandle
 ms.prod: windows
 ms.technology: windows-sdk

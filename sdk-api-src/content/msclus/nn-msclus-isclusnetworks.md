@@ -4,10 +4,10 @@ title: ISClusNetworks
 author: windows-sdk-content
 description: Provides access to the networks in a cluster.
 old-location: mscs\clusnetworks_collection.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 7dba0985-16bc-4bda-9f37-275032c07811
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNetworks, ClusNetworks collection [Failover Cluster], ClusNetworks collection [Failover Cluster],described, ISClusNetworks, _wolf_clusnetworks_collection, msclus/ClusNetworks, mscs.clusnetworks_collection
 ms.prod: windows
 ms.technology: windows-sdk

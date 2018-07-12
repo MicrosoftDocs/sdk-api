@@ -7,7 +7,7 @@ old-location: automat\vardatefromdec.htm
 old-project: automat
 ms.assetid: 37cba5ec-5e17-474a-8d63-422f7e828ab3
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarDateFromDec, VarDateFromDec function [Automation], _oa96_VarDateFromDec, automat.vardatefromdec, oleauto/VarDateFromDec
 ms.prod: windows
 ms.technology: windows-sdk

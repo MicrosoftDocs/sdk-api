@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlemanifestpackageinfoenumerator_movenext.htm
 old-project: appxpkg
 ms.assetid: 8818FC6B-28CB-420F-A5BB-BCB62DFD4A78
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management],MoveNext method, IAppxBundleManifestPackageInfoEnumerator.MoveNext, IAppxBundleManifestPackageInfoEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxBundleManifestPackageInfoEnumerator interface, appxpackaging/IAppxBundleManifestPackageInfoEnumerator::MoveNext, appxpkg.iappxbundlemanifestpackageinfoenumerator_movenext
 ms.prod: windows
 ms.technology: windows-sdk

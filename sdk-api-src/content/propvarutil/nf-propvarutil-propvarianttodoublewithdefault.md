@@ -7,7 +7,7 @@ old-location: properties\PropVariantToDoubleWithDefault.htm
 old-project: properties
 ms.assetid: 81584e13-0ef7-47ce-b78f-b4a79712ff1e
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PropVariantToDoubleWithDefault, PropVariantToDoubleWithDefault function [Windows Properties], properties.PropVariantToDoubleWithDefault, propvarutil/PropVariantToDoubleWithDefault, shell.PropVariantToDoubleWithDefault, shell_PropVariantToDoubleWithDefault
 ms.prod: windows
 ms.technology: windows-sdk

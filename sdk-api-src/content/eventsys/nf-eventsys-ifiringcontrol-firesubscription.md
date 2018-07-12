@@ -7,7 +7,7 @@ old-location: cos\ifiringcontrol_firesubscription.htm
 old-project: cossdk
 ms.assetid: 64aaa99c-70e0-4a96-ab16-2f5b5666d1c4
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: FireSubscription, FireSubscription method [COM+], FireSubscription method [COM+],IFiringControl interface, IFiringControl interface [COM+],FireSubscription method, IFiringControl.FireSubscription, IFiringControl::FireSubscription, _cos_IFiringControl_FireSubscriptio, cos.ifiringcontrol_firesubscription, eventsys/IFiringControl::FireSubscription
 ms.prod: windows
 ms.technology: windows-sdk

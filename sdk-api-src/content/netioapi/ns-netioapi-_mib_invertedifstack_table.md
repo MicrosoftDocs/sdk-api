@@ -4,10 +4,10 @@ title: "_MIB_INVERTEDIFSTACK_TABLE"
 author: windows-sdk-content
 description: Contains a table of inverted network interface stack row entries. This specifies the relationship of the network interfaces on an interface stack in reverse order.
 old-location: mib\mib_invertedifstack_table.htm
-old-project: MIB
+old-project: mib
 ms.assetid: b3508bb5-4e36-4088-afcc-4a75a01d1fe6
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 05/15/2018
 ms.keywords: "*PMIB_INVERTEDIFSTACK_TABLE, MIB_INVERTEDIFSTACK_TABLE, MIB_INVERTEDIFSTACK_TABLE structure [MIB], PMIB_INVERTEDIFSTACK_TABLE, PMIB_INVERTEDIFSTACK_TABLE structure pointer [MIB], _MIB_INVERTEDIFSTACK_TABLE, mib.mib_invertedifstack_table, netioapi/MIB_INVERTEDIFSTACK_TABLE, netioapi/PMIB_INVERTEDIFSTACK_TABLE"
 ms.prod: windows
 ms.technology: windows-sdk

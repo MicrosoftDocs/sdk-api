@@ -4,10 +4,10 @@ title: NdfDiagnoseIncident function
 author: windows-sdk-content
 description: Diagnoses the root cause of an incident without displaying a user interface.
 old-location: ndf\ndfdiagnoseincident.htm
-old-project: NDF
+old-project: ndf
 ms.assetid: 69ae5624-7c3b-44a2-8468-d587739fc666
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: NDF_ADD_CAPTURE_TRACE, NDF_APPLY_INCLUSION_LIST_FILTER, NdfDiagnoseIncident, NdfDiagnoseIncident function [NDF], ndf.ndfdiagnoseincident, ndfapi/NdfDiagnoseIncident
 ms.prod: windows
 ms.technology: windows-sdk

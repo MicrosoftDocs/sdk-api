@@ -3,6 +3,5 @@
   "headers": [
     "raseapif.h",
     "rrascfg.h"
-  ],
-  "displayName": "Extensible Authentication Protocol"
+  ]
 }

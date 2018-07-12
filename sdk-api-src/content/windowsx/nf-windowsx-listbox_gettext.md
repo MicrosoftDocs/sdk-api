@@ -4,10 +4,10 @@ title: ListBox_GetText macro
 author: windows-sdk-content
 description: Gets a string from a list box. You can use this macro or send the LB_GETTEXT message explicitly.
 old-location: controls\ListBox_GetText.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_gettext.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListBox_GetText, ListBox_GetText macro [Windows Controls], _win32_ListBox_GetText, _win32_ListBox_GetText_cpp, controls.ListBox_GetText, controls._win32_ListBox_GetText, windowsx/ListBox_GetText
 ms.prod: windows
 ms.technology: windows-sdk

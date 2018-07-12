@@ -4,6 +4,5 @@
     "winbase.h",
     "sisbkup.h",
     "winnt.h"
-  ],
-  "displayName": "Backup"
+  ]
 }

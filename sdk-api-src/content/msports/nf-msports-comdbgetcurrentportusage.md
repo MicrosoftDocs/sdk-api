@@ -7,7 +7,7 @@ old-location: serports\comdbgetcurrentportusage.htm
 old-project: serports
 ms.assetid: f1c5fdc5-b84b-4c7f-832a-44151df39721
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 04/24/2018
 ms.keywords: ComDBGetCurrentPortUsage, ComDBGetCurrentPortUsage function [Serial Ports], comdb_b4de1b55-d769-424f-842a-21a8cb28ef1d.xml, msports/ComDBGetCurrentPortUsage, serports.comdbgetcurrentportusage
 ms.prod: windows
 ms.technology: windows-sdk

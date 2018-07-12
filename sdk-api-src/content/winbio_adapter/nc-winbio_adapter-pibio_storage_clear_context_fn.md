@@ -4,10 +4,10 @@ title: PIBIO_STORAGE_CLEAR_CONTEXT_FN
 author: windows-sdk-content
 description: Prepares the processing pipeline of the biometric unit for a new operation.
 old-location: secbiomet\storageadapterclearcontext.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: d7022363-01e9-4675-9bd0-e9369d237c3c
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: PIBIO_STORAGE_CLEAR_CONTEXT_FN, PIBIO_STORAGE_CLEAR_CONTEXT_FN callback, StorageAdapterClearContext, StorageAdapterClearContext callback function [Windows Biometric Framework API], secbiomet.storageadapterclearcontext, winbio_adapter/StorageAdapterClearContext
 ms.prod: windows
 ms.technology: windows-sdk

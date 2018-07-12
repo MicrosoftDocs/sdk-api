@@ -7,7 +7,7 @@ old-location: dshow\idvdgraphbuilder.htm
 old-project: DirectShow
 ms.assetid: 2179e54a-c6e2-4837-9f89-be210bde9180
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IDvdGraphBuilder, IDvdGraphBuilder interface [DirectShow], IDvdGraphBuilder interface [DirectShow],described, IDvdGraphBuilderInterface, dshow.idvdgraphbuilder, strmif/IDvdGraphBuilder
 ms.prod: windows
 ms.technology: windows-sdk

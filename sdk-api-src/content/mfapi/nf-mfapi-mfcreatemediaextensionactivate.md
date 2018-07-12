@@ -7,7 +7,7 @@ old-location: mf\mfcreatemediaextensionactivate.htm
 old-project: medfound
 ms.assetid: 3F9538F2-DB7A-4841-B61D-C59BC02718B1
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: MFCreateMediaExtensionActivate, MFCreateMediaExtensionActivate function [Media Foundation], mf.mfcreatemediaextensionactivate, mf.mfcreatewinrtactivate, mfapi/MFCreateMediaExtensionActivate
 ms.prod: windows
 ms.technology: windows-sdk

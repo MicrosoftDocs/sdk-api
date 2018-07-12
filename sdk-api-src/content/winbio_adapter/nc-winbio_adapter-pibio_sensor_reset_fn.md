@@ -4,10 +4,10 @@ title: PIBIO_SENSOR_RESET_FN
 author: windows-sdk-content
 description: Reinitializes the sensor.
 old-location: secbiomet\sensoradapterreset.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 09a93726-2dff-4a8a-b36c-ad481a4f61b6
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: PIBIO_SENSOR_RESET_FN, PIBIO_SENSOR_RESET_FN callback, SensorAdapterReset, SensorAdapterReset callback function [Windows Biometric Framework API], secbiomet.sensoradapterreset, winbio_adapter/SensorAdapterReset
 ms.prod: windows
 ms.technology: windows-sdk

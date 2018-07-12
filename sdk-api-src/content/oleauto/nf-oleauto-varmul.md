@@ -7,7 +7,7 @@ old-location: automat\varmul.htm
 old-project: automat
 ms.assetid: d804a23b-7d52-4f11-a93e-3eb02a079d2c
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarMul, VarMul function [Automation], _oa96_VarMul, automat.varmul, oleauto/VarMul
 ms.prod: windows
 ms.technology: windows-sdk

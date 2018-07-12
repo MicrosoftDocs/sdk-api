@@ -4,10 +4,10 @@ title: ISClusResource::get_RegistryKeys
 author: windows-sdk-content
 description: Returns a ClusRegistryKeys collection containing the checkpointed registry keys for the resource.
 old-location: mscs\clusresource_registrykeys.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 18bb4cfb-cd96-4f43-9cf6-ab06c22d0abf
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResource class [Failover Cluster],RegistryKeys property, ClusResource.RegistryKeys, ISClusResource.get_RegistryKeys, ISClusResource::get_RegistryKeys, RegistryKeys property [Failover Cluster], RegistryKeys property [Failover Cluster],ClusResource class, _wolf_clusresource.registrykeys, get_RegistryKeys, mscs.clusresource_registrykeys
 ms.prod: windows
 ms.technology: windows-sdk

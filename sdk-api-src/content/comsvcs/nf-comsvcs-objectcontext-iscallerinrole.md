@@ -7,7 +7,7 @@ old-location: cos\objectcontext_iscallerinrole.htm
 old-project: cossdk
 ms.assetid: e1ef03e6-fcb2-463b-b2b3-a88e958a1d19
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: IsCallerInRole, IsCallerInRole method [COM+], IsCallerInRole method [COM+],ObjectContext interface, ObjectContext interface [COM+],IsCallerInRole method, ObjectContext.IsCallerInRole, ObjectContext::IsCallerInRole, _cos_ObjectContext_IsCallerInRole, comsvcs/ObjectContext::IsCallerInRole, cos.objectcontext_iscallerinrole
 ms.prod: windows
 ms.technology: windows-sdk

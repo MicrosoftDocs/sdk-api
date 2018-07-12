@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTablePattern_GetCachedColumnHeaders.ht
 old-project: WinAuto
 ms.assetid: 817a13b3-6de5-4473-8286-e3d728d06819
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetCachedColumnHeaders, GetCachedColumnHeaders method [Windows Accessibility], GetCachedColumnHeaders method [Windows Accessibility],IUIAutomationTablePattern interface, IUIAutomationTablePattern interface [Windows Accessibility],GetCachedColumnHeaders method, IUIAutomationTablePattern.GetCachedColumnHeaders, IUIAutomationTablePattern::GetCachedColumnHeaders, uiauto.uiauto_IUIAutomationTablePattern_GetCachedColumnHeaders, uiauto_IUIAutomationTablePattern_GetCachedColumnHeaders, uiautomationclient/IUIAutomationTablePattern::GetCachedColumnHeaders, winauto.uiauto_IUIAutomationTablePattern_GetCachedColumnHeaders
 ms.prod: windows
 ms.technology: windows-sdk

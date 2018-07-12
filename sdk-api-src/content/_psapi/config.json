@@ -2,6 +2,5 @@
   "tech": "psapi",
   "headers": [
     "psapi.h"
-  ],
-  "displayName": "Process Status API (PSAPI)"
+  ]
 }

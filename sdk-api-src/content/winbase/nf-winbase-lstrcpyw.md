@@ -7,7 +7,7 @@ old-location: menurc\lstrcpy.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcpy.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: "_win32_lstrcpy, _win32_lstrcpy_cpp, lstrcpy, lstrcpy function [Menus and Other Resources], lstrcpyA, lstrcpyW, menurc.lstrcpy, winbase/lstrcpy, winbase/lstrcpyA, winbase/lstrcpyW, winui._win32_lstrcpy"
 ms.prod: windows
 ms.technology: windows-sdk

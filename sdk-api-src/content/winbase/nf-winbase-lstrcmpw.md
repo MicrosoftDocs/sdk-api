@@ -7,7 +7,7 @@ old-location: menurc\lstrcmp.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcmp.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: "_win32_lstrcmp, _win32_lstrcmp_cpp, lstrcmp, lstrcmp function [Menus and Other Resources], lstrcmpA, lstrcmpW, menurc.lstrcmp, winbase/lstrcmp, winbase/lstrcmpA, winbase/lstrcmpW, winui._win32_lstrcmp"
 ms.prod: windows
 ms.technology: windows-sdk

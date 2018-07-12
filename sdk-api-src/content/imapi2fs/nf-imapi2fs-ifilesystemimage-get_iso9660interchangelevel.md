@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_get_iso9660interchangelevel.htm
 old-project: imapi
 ms.assetid: 9536444b-60e4-456f-b6d8-07cf9a6f7848
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_ISO9660InterchangeLevel method, IFileSystemImage.get_ISO9660InterchangeLevel, IFileSystemImage::get_ISO9660InterchangeLevel, get_ISO9660InterchangeLevel, get_ISO9660InterchangeLevel method [IMAPI], get_ISO9660InterchangeLevel method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_iso9660interchangelevel, imapi2fs/IFileSystemImage::get_ISO9660InterchangeLevel
 ms.prod: windows
 ms.technology: windows-sdk

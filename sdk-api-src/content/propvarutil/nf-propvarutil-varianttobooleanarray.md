@@ -7,7 +7,7 @@ old-location: properties\VariantToBooleanArray.htm
 old-project: properties
 ms.assetid: 80a1e7d4-ec11-4b16-ba05-b97f3bbf02d0
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: VariantToBooleanArray, VariantToBooleanArray function [Windows Properties], _shell_VariantToBooleanArray, properties.VariantToBooleanArray, propvarutil/VariantToBooleanArray, shell.VariantToBooleanArray
 ms.prod: windows
 ms.technology: windows-sdk

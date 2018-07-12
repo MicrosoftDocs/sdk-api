@@ -4,10 +4,10 @@ title: GetOverlappedResultEx function
 author: windows-sdk-content
 description: Retrieves the results of an overlapped operation on the specified file, named pipe, or communications device within the specified time-out interval. The calling thread can perform an alertable wait.
 old-location: base\getoverlappedresultex.htm
-old-project: Sync
+old-project: sync
 ms.assetid: 2f77f7fe-bdde-4c52-8571-fe0ab533aa7f
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/06/2018
 ms.keywords: GetOverlappedResultEx, GetOverlappedResultEx function, base.getoverlappedresultex, ioapiset/GetOverlappedResultEx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DhcpV4CreatePolicy function
 author: windows-sdk-content
 description: Creates a new policy on the DHCP Server.
 old-location: dhcp\dhcpv4createpolicy.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: c42e9c64-d028-4489-82dc-85ce9a6d6c09
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DhcpV4CreatePolicy, DhcpV4CreatePolicy function [DHCP], dhcp.dhcpv4createpolicy, dhcpsapi/DhcpV4CreatePolicy
 ms.prod: windows
 ms.technology: windows-sdk

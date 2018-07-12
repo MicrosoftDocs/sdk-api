@@ -4,10 +4,10 @@ title: BCryptEnumContextFunctions function
 author: windows-sdk-content
 description: Obtains the cryptographic functions for a context in the specified configuration table.
 old-location: security\bcryptenumcontextfunctions.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 81bdfd47-7001-4e63-a8b3-33dae99f2c66
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptEnumContextFunctions, BCryptEnumContextFunctions function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptEnumContextFunctions, security.bcryptenumcontextfunctions
 ms.prod: windows
 ms.technology: windows-sdk

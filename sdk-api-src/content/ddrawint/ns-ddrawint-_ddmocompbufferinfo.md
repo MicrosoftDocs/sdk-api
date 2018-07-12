@@ -7,7 +7,7 @@ old-location: display\ddmocompbufferinfo.htm
 old-project: display
 ms.assetid: e039f85e-868f-4673-bbaa-9165bd760e9d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: "*LPDDMOCOMPBUFFERINFO, DDMOCOMPBUFFERINFO, DDMOCOMPBUFFERINFO structure [Display Devices], LPDDMOCOMPBUFFERINFO, LPDDMOCOMPBUFFERINFO structure pointer [Display Devices], _DDMOCOMPBUFFERINFO, ddrawint/DDMOCOMPBUFFERINFO, ddrawint/LPDDMOCOMPBUFFERINFO, ddstrcts_8716da01-eda5-4102-b881-c2e368f0792a.xml, display.ddmocompbufferinfo"
 ms.prod: windows
 ms.technology: windows-sdk

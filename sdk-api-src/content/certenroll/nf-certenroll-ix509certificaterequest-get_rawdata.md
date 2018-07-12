@@ -4,10 +4,10 @@ title: IX509CertificateRequest::get_RawData
 author: windows-sdk-content
 description: Retrieves a byte array that contains the signed, Distinguished Encoding Rules (DER) encoded certificate request.
 old-location: security\ix509certificaterequest_rawdata_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 1830a569-03a4-4692-adbf-b627bf4370a1
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509CertificateRequest interface [Security],RawData property, IX509CertificateRequest.RawData, IX509CertificateRequest.get_RawData, IX509CertificateRequest::RawData, IX509CertificateRequest::get_RawData, RawData property [Security], RawData property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::RawData, certenroll/IX509CertificateRequest::get_RawData, get_RawData, security.ix509certificaterequest_rawdata_property
 ms.prod: windows
 ms.technology: windows-sdk

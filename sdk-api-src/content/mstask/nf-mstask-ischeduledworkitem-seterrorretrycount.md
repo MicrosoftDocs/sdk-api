@@ -4,10 +4,10 @@ title: IScheduledWorkItem::SetErrorRetryCount
 author: windows-sdk-content
 description: Sets the number of times Task Scheduler will try to run the work item again if an error occurs. This method is not implemented.
 old-location: taskschd\ischeduledworkitem_seterrorretrycount.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: f2c5bafb-a792-4653-87ab-677daec9b10f
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetErrorRetryCount method, IScheduledWorkItem.SetErrorRetryCount, IScheduledWorkItem::SetErrorRetryCount, SetErrorRetryCount, SetErrorRetryCount method [Task Scheduler], SetErrorRetryCount method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_seterrorretrycount, mstask/IScheduledWorkItem::SetErrorRetryCount, taskschd.ischeduledworkitem_seterrorretrycount
 ms.prod: windows
 ms.technology: windows-sdk

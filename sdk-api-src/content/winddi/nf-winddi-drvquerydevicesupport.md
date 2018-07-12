@@ -7,7 +7,7 @@ old-location: display\drvquerydevicesupport.htm
 old-project: display
 ms.assetid: 684c5dd5-edf0-4b7d-888c-c01eb9670846
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: DrvQueryDeviceSupport, DrvQueryDeviceSupport function [Display Devices], ddifncs_21186d04-cf17-4707-88b4-bd72d5f78b23.xml, display.drvquerydevicesupport, winddi/DrvQueryDeviceSupport
 ms.prod: windows
 ms.technology: windows-sdk

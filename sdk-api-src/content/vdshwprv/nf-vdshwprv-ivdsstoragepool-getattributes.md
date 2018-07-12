@@ -4,10 +4,10 @@ title: IVdsStoragePool::GetAttributes
 author: windows-sdk-content
 description: Returns the attributes of a storage pool.
 old-location: base\ivdsstoragepool_getattributes.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 44906c1f-ecb2-4701-9392-a9b5924e9d65
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: GetAttributes, GetAttributes method, GetAttributes method,IVdsStoragePool interface, IVdsStoragePool interface,GetAttributes method, IVdsStoragePool.GetAttributes, IVdsStoragePool::GetAttributes, base.ivdsstoragepool_getattributes, vds/IVdsStoragePool::GetAttributes, vdshwprv/IVdsStoragePool::GetAttributes
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DsQuoteRdnValueA function
 author: windows-sdk-content
 description: Converts an RDN into a quoted RDN value, if the RDN value contains characters that require quotes.
 old-location: ad\dsquoterdnvalue.htm
-old-project: AD
+old-project: ad
 ms.assetid: a1e8a4c0-965a-4061-aab3-3e719ec6374d
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DsQuoteRdnValue, DsQuoteRdnValue function [Active Directory], DsQuoteRdnValueA, DsQuoteRdnValueW, ERROR_BUFFER_OVERFLOW, ERROR_SUCCESS, _glines_dsquoterdnvalue, ad.dsquoterdnvalue, dsparse/DsQuoteRdnValue, dsparse/DsQuoteRdnValueA, dsparse/DsQuoteRdnValueW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IGetClusterNetworkInfo
 author: windows-sdk-content
 description: Called by a Failover Cluster Administrator extension to retrieve information about a network.
 old-location: mscs\igetclusternetworkinfo.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 7c304d9c-69b6-48fc-bb1b-f49d1ac8ede4
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IGetClusterNetworkInfo, IGetClusterNetworkInfo interface [Failover Cluster], IGetClusterNetworkInfo interface [Failover Cluster],described, _wolf_igetclusternetworkinfo, cluadmex/IGetClusterNetworkInfo, mscs.igetclusternetworkinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,7 +114,7 @@ If the object being extended is not a network, queries for
 </ul>
 Failover Cluster Administrator passes in an <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer, 
      <i>piData</i>. Use <i>piData</i> to call 
-     <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> for one of the 
+     <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> for one of the 
      <b>IGetClusterNetworkInfo</b> methods.
 
 

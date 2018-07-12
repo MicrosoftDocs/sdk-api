@@ -4,10 +4,10 @@ title: IVdsSubSystemIscsi::QueryTargets
 author: windows-sdk-content
 description: Returns an object that enumerates the iSCSI targets of the subsystem.
 old-location: base\ivdssubsystemiscsi_querytargets.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 86a89c23-beed-48d0-8d35-ed8dd39db3c6
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsSubSystemIscsi interface [VDS],QueryTargets method, IVdsSubSystemIscsi.QueryTargets, IVdsSubSystemIscsi::QueryTargets, QueryTargets, QueryTargets method [VDS], QueryTargets method [VDS],IVdsSubSystemIscsi interface, base.ivdssubsystemiscsi_querytargets, vds/IVdsSubSystemIscsi::QueryTargets, vdshwprv/IVdsSubSystemIscsi::QueryTargets
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ Returns an object that enumerates the iSCSI targets of the subsystem.
 ### -param ppEnum [out]
 
 
-      The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the iSCSI targets  as <a href="https://msdn.microsoft.com/e88d65ad-9b56-4620-a0f5-573c5e245b3e">target objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the target objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+      The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the iSCSI targets  as <a href="https://msdn.microsoft.com/e88d65ad-9b56-4620-a0f5-573c5e245b3e">target objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the target objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
      
 
 

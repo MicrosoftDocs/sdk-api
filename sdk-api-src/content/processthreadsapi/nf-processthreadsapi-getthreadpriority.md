@@ -7,7 +7,7 @@ old-location: base\getthreadpriority.htm
 old-project: ProcThread
 ms.assetid: 9e5ce4e8-bdd1-48c3-aa1d-b24b2b7bfb00
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: GetThreadPriority, GetThreadPriority function, _win32_getthreadpriority, base.getthreadpriority, processthreadsapi/GetThreadPriority, winbase/GetThreadPriority
 ms.prod: windows
 ms.technology: windows-sdk

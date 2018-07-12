@@ -4,10 +4,10 @@ title: IVdsStoragePool::GetProvider
 author: windows-sdk-content
 description: Returns the hardware provider that manages the storage pool.
 old-location: base\ivdsstoragepool_getprovider.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 46265fca-eabd-4d42-b1fd-6a09c566cde9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: GetProvider, GetProvider method, GetProvider method,IVdsStoragePool interface, IVdsStoragePool interface,GetProvider method, IVdsStoragePool.GetProvider, IVdsStoragePool::GetProvider, base.ivdsstoragepool_getprovider, vds/IVdsStoragePool::GetProvider, vdshwprv/IVdsStoragePool::GetProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ Returns the hardware provider that manages the <a href="https://msdn.microsoft.c
 
 ### -param ppProvider [out]
 
-The address of a variable that receives an <a href="https://msdn.microsoft.com/c09aa32f-d859-44b1-8656-973ba1b6a167">IVdsProvider</a> interface pointer. Callers must release the interface when it is no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+The address of a variable that receives an <a href="https://msdn.microsoft.com/c09aa32f-d859-44b1-8656-973ba1b6a167">IVdsProvider</a> interface pointer. Callers must release the interface when it is no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

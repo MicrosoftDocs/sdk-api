@@ -7,7 +7,7 @@ old-location: shell\PathProcessCommand.htm
 old-project: shell
 ms.assetid: 9dbc39e7-f73b-450f-bb87-17a38e7ab66d
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: PPCF_ADDARGUMENTS, PPCF_ADDQUOTES, PPCF_FORCEQUALIFY, PPCF_LONGESTPOSSIBLE, PPCF_NODIRECTORIES, PathProcessCommand, PathProcessCommand function [Windows Shell], _win32_PathProcessCommand, shell.PathProcessCommand, shlobj/PathProcessCommand
 ms.prod: windows
 ms.technology: windows-sdk

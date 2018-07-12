@@ -7,7 +7,7 @@ old-location: imapi\iredbookdiscmaster_getavailableaudiotrackblocks.htm
 old-project: imapi
 ms.assetid: 57647490-0384-4cdb-842f-f1fb16dd2096
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: GetAvailableAudioTrackBlocks, GetAvailableAudioTrackBlocks method [IMAPI], GetAvailableAudioTrackBlocks method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],GetAvailableAudioTrackBlocks method, IRedbookDiscMaster.GetAvailableAudioTrackBlocks, IRedbookDiscMaster::GetAvailableAudioTrackBlocks, _win32_iredbookdiscmaster_getavailableaudiotrackblocks, base.iredbookdiscmaster_getavailableaudiotrackblocks, imapi.iredbookdiscmaster_getavailableaudiotrackblocks, imapi/IRedbookDiscMaster::GetAvailableAudioTrackBlocks
 ms.prod: windows
 ms.technology: windows-sdk

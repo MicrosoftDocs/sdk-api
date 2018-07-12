@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_BrowseForFolder.htm
 old-project: shell
 ms.assetid: 578C51C1-F59B-4604-A09B-62BA61225ABB
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: BrowseForFolder, BrowseForFolder method [Windows Shell], BrowseForFolder method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],BrowseForFolder method, IShellDispatch.BrowseForFolder, IShellDispatch::BrowseForFolder, shell.IShellDispatch_BrowseForFolder
 ms.prod: windows
 ms.technology: windows-sdk

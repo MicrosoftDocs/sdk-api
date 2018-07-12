@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpersiststream.htm
 old-project: wic
 ms.assetid: 9381cc2c-9554-4071-b9b5-3464d857c02d
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICPersistStream, IWICPersistStream interface [Windows Imaging Component], IWICPersistStream interface [Windows Imaging Component],described, _wic_codec_iwicpersiststream, wic._wic_codec_iwicpersiststream, wincodecsdk/IWICPersistStream
 ms.prod: windows
 ms.technology: windows-sdk

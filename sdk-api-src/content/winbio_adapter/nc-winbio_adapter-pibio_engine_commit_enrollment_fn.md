@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_COMMIT_ENROLLMENT_FN
 author: windows-sdk-content
 description: Finalizes the enrollment object, converts it to a template, and saves the template in the database.
 old-location: secbiomet\engineadaptercommitenrollment.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: f8eb3dd9-b993-4b45-b7f4-e1925c233a80
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: EngineAdapterCommitEnrollment, EngineAdapterCommitEnrollment callback function [Windows Biometric Framework API], PIBIO_ENGINE_COMMIT_ENROLLMENT_FN, PIBIO_ENGINE_COMMIT_ENROLLMENT_FN callback, secbiomet.engineadaptercommitenrollment, winbio_adapter/EngineAdapterCommitEnrollment
 ms.prod: windows
 ms.technology: windows-sdk

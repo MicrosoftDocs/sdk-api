@@ -7,7 +7,7 @@ old-location: base\createdispatcherqueuecontroller.htm
 old-project: ProcThread
 ms.assetid: 750097BB-C4D1-4579-9353-582124D5CE3B
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: CreateDispatcherQueueController, CreateDispatcherQueueController function, base.createdispatcherqueuecontroller, dispatcherqueue/CreateDispatcherQueueController
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\secpkg_name_type.htm
 old-project: SecAuthN
 ms.assetid: 6a534bfa-83ec-408d-ad21-e230a7adc61e
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: SECPKG_NAME_TYPE, SECPKG_NAME_TYPE enumeration [Security], SecNameAlternateId, SecNameDN, SecNameFlat, SecNameSamCompatible, _SECPKG_NAME_TYPE, _ssp_secpkg_name_type, ntsecpkg/SECPKG_NAME_TYPE, ntsecpkg/SecNameAlternateId, ntsecpkg/SecNameDN, ntsecpkg/SecNameFlat, ntsecpkg/SecNameSamCompatible, security.secpkg_name_type
 ms.prod: windows
 ms.technology: windows-sdk

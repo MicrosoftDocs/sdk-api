@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaVideo_DestroyVideo.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\destroyvideo.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: DestroyVideo, DestroyVideo method [WIA], DestroyVideo method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],DestroyVideo method, IWiaVideo.DestroyVideo, IWiaVideo::DestroyVideo, _wia_IWiaVideo_DestroyVideo, wia._wia_IWiaVideo_DestroyVideo, wiavideo/IWiaVideo::DestroyVideo
 ms.prod: windows
 ms.technology: windows-sdk

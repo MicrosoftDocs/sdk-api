@@ -3,6 +3,5 @@
   "headers": [
     "tapi.h",
     "tspi.h"
-  ],
-  "displayName": "TAPI 2.2"
+  ]
 }

@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs_getfontrenderingemsize.htm
 old-project: printdocs
 ms.assetid: be1c6eff-20ef-49d3-929e-3595b421bcb9
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetFontRenderingEmSize, GetFontRenderingEmSize method [XPS Documents and Packaging], GetFontRenderingEmSize method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFontRenderingEmSize method, IXpsOMGlyphs.GetFontRenderingEmSize, IXpsOMGlyphs::GetFontRenderingEmSize, xps.ixpsomglyphs_getfontrenderingemsize, xpsobjectmodel/IXpsOMGlyphs::GetFontRenderingEmSize
 ms.prod: windows
 ms.technology: windows-sdk

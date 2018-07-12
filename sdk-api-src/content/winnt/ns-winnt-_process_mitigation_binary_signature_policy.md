@@ -7,7 +7,7 @@ old-location: base\process_mitigation_binary_signature_policy.htm
 old-project: ProcThread
 ms.assetid: 581D6D0C-0480-45A1-9C76-2A269C46D27B
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: "*PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY structure pointer, PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY structure, _PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, base.process_mitigation_binary_signature_policy, winnt/PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, winnt/PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY"
 ms.prod: windows
 ms.technology: windows-sdk

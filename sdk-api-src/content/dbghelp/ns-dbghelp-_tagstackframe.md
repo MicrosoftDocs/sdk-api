@@ -4,10 +4,10 @@ title: "_tagSTACKFRAME"
 author: windows-sdk-content
 description: Represents a stack frame.
 old-location: base\stackframe64_str.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 2809e3f1-c64a-4753-9fca-f78e89a878b2
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*LPSTACKFRAME, LPSTACKFRAME64, LPSTACKFRAME64 structure pointer, STACKFRAME, STACKFRAME structure, STACKFRAME64, STACKFRAME64 structure, _tagSTACKFRAME, _tagSTACKFRAME64, _win32_stackframe64_str, base.stackframe64_str, dbghelp/LPSTACKFRAME64, dbghelp/STACKFRAME64"
 ms.prod: windows
 ms.technology: windows-sdk

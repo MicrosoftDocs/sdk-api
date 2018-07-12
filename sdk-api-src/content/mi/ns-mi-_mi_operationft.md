@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationft.htm
 old-project: wmi_v2
 ms.assetid: 925cd972-61fc-466d-a2a6-e315ef3fc499
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_OperationFT, MI_OperationFT structure [Windows Management Infrastructure (MI)], _MI_OperationFT, mi/MI_OperationFT, wmi_v2.mi_operationft
 ms.prod: windows
 ms.technology: windows-sdk

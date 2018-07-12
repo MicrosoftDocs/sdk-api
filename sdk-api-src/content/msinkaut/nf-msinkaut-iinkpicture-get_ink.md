@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_ink.htm
 old-project: tablet
 ms.assetid: 8a6001bb-cfb9-4c24-8f99-3c8f0acd443c
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: 8a6001bb-cfb9-4c24-8f99-3c8f0acd443c, IInkPicture interface [Tablet PC],Ink property, IInkPicture.Ink, IInkPicture.get_Ink, IInkPicture::Ink, IInkPicture::get_Ink, IInkPicture::put_Ink, Ink property [Tablet PC], Ink property [Tablet PC],IInkPicture interface, InkPicture.get_Ink, InkPicture.put_Ink, get_Ink, get_ink, msinkaut/IInkPicture::Ink, msinkaut/IInkPicture::get_Ink, msinkaut/IInkPicture::put_Ink, putref_ink, tablet.inkpicture_ink
 ms.prod: windows
 ms.technology: windows-sdk

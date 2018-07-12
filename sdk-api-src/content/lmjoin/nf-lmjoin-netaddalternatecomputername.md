@@ -4,10 +4,10 @@ title: NetAddAlternateComputerName function
 author: windows-sdk-content
 description: Adds an alternate name for the specified computer.
 old-location: netmgmt\netaddalternatecomputername.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: 710865c6-e327-439c-931d-de8674d69233
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: NetAddAlternateComputerName, NetAddAlternateComputerName function [Network Management], lmjoin/NetAddAlternateComputerName, netmgmt.netaddalternatecomputername
 ms.prod: windows
 ms.technology: windows-sdk

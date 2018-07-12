@@ -4,10 +4,10 @@ title: IEnumCERTVIEWCOLUMN
 author: windows-sdk-content
 description: Represents a column-enumeration sequence that contains the column data for the current row of the enumeration sequence.
 old-location: security\ienumcertviewcolumn.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 6e6547f9-44b2-4050-be90-ac8ede892adc
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IEnumCERTVIEWCOLUMN, IEnumCERTVIEWCOLUMN interface [Security], IEnumCERTVIEWCOLUMN interface [Security],described, _certsrv_ienumcertviewcolumn, certview/IEnumCERTVIEWCOLUMN, security.ienumcertviewcolumn
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DsBindToISTGA function
 author: windows-sdk-content
 description: Binds to the computer that holds the Inter-Site Topology Generator (ISTG) role in the domain of the local computer.
 old-location: ad\dsbindtoistg.htm
-old-project: AD
+old-project: ad
 ms.assetid: bd53124c-8578-495d-b540-d4b4c09297c3
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DsBindToISTG, DsBindToISTG function [Active Directory], DsBindToISTGA, DsBindToISTGW, ad.dsbindtoistg, ntdsapi/DsBindToISTG, ntdsapi/DsBindToISTGA, ntdsapi/DsBindToISTGW
 ms.prod: windows
 ms.technology: windows-sdk

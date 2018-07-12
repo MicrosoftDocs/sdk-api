@@ -7,8 +7,8 @@ old-location: devinst\cm_open_device_interface_key_exa.htm
 old-project: devinst
 ms.assetid: 2BD4755C-00F0-4C0F-9A4D-0BED4C27FC21
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: CM_Open_Device_Interface_KeyA, CM_Open_Device_Interface_KeyW, CM_Open_Device_Interface_Key_ExA, CM_Open_Device_Interface_Key_ExA function [Device and Driver Installation], cfgmgr32/CM_Open_Device_Interface_KeyA, cfgmgr32/CM_Open_Device_Interface_KeyW, cfgmgr32/CM_Open_Device_Interface_Key_ExA, devinst.cm_open_device_interface_key_exa
+ms.date: 06/29/2018
+ms.keywords: CM_Open_Device_Interface_Key_ExA, CM_Open_Device_Interface_Key_ExA function [Device and Driver Installation], cfgmgr32/CM_Open_Device_Interface_Key_ExA, devinst.cm_open_device_interface_key_exa
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
@@ -20,7 +20,7 @@ req.target-min-winversvr:
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: CM_Open_Device_Interface_KeyW (Unicode) and CM_Open_Device_Interface_KeyA (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
@@ -41,8 +41,6 @@ api_location:
  - CfgMgr32.dll
 api_name:
  - CM_Open_Device_Interface_Key_ExA
- - CM_Open_Device_Interface_KeyA
- - CM_Open_Device_Interface_KeyW
 product: Windows
 targetos: Windows
 req.lib: Cfgmgr32.lib
@@ -105,22 +103,12 @@ Pointer to an HKEY that will receive the opened key upon success.
 Reserved. Must be set to zero.
 
 
-#### - hMachine [in, optional]
+### -param hMachine [in, optional]
 
 Caller-supplied machine handle, obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff537948">CM_Connect_Machine</a>.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
-
-##### - Disposition.RegDisposition_OpenAlways
-
-Open the key if it exists. Otherwise, create the key.
-
-
-##### - Disposition.RegDisposition_OpenExisting
-
-Open the key only if it exists.
-
 
 ## -returns
 

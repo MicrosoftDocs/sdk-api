@@ -7,7 +7,7 @@ old-location: devinst\cm_query_and_remove_subtree_ex.htm
 old-project: devinst
 ms.assetid: c8a3af37-0886-4187-9cdb-49616bcb04a9
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: CM_Query_And_Remove_SubTree_Ex, CM_Query_And_Remove_SubTree_Ex function [Device and Driver Installation], CM_Query_And_Remove_SubTree_ExW, cfgmgr32/CM_Query_And_Remove_SubTree_Ex, cfgmgr32/CM_Query_And_Remove_SubTree_ExW, cfgmgrfn_69fa61ff-b77c-41d7-a263-facf56883977.xml, devinst.cm_query_and_remove_subtree_ex
 ms.prod: windows
 ms.technology: windows-sdk

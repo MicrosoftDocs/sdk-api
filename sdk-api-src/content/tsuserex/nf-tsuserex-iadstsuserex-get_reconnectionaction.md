@@ -7,7 +7,7 @@ old-location: termserv\iadstsuserex_reconnectionaction.htm
 old-project: TermServ
 ms.assetid: 3c97988b-f04f-4480-a5ae-cf38b07b9ae8
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],ReconnectionAction property, IADsTSUserEx.ReconnectionAction, IADsTSUserEx.get_ReconnectionAction, IADsTSUserEx::ReconnectionAction, IADsTSUserEx::get_ReconnectionAction, IADsTSUserEx::put_ReconnectionAction, ReconnectionAction property [Remote Desktop Services], ReconnectionAction property [Remote Desktop Services],IADsTSUserEx interface, get_ReconnectionAction, termserv.iadstsuserex_reconnectionaction, tsuserex/IADsTSUserEx::ReconnectionAction, tsuserex/IADsTSUserEx::get_ReconnectionAction, tsuserex/IADsTSUserEx::put_ReconnectionAction
 ms.prod: windows
 ms.technology: windows-sdk

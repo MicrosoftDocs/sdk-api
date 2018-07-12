@@ -4,10 +4,10 @@ title: ITask::GetTaskFlags
 author: windows-sdk-content
 description: This method returns the flags that modify the behavior of a task.
 old-location: taskschd\itask_gettaskflags.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: fd919375-c903-45eb-a8f4-45baf5b42203
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetTaskFlags, GetTaskFlags method [Task Scheduler], GetTaskFlags method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetTaskFlags method, ITask.GetTaskFlags, ITask::GetTaskFlags, _msb_itask_gettaskflags, mstask/ITask::GetTaskFlags, taskschd.itask_gettaskflags
 ms.prod: windows
 ms.technology: windows-sdk

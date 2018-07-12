@@ -7,7 +7,7 @@ old-location: wer\werreporthang.htm
 old-project: wer
 ms.assetid: db147395-4d60-4d74-9331-18137bcfff8e
 ms.author: windowssdkdev
-ms.date: 03/22/2018
+ms.date: 03/23/2018
 ms.keywords: WerReportHang, WerReportHang function [Windows Error Reporting], errorrep/WerReportHang, wer.werreporthang
 ms.prod: windows
 ms.technology: windows-sdk

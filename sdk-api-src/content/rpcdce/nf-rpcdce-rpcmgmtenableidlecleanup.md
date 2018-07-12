@@ -4,10 +4,10 @@ title: RpcMgmtEnableIdleCleanup function
 author: windows-sdk-content
 description: The RpcMgmtEnableIdleCleanup function enables RPC to close idle resources, such as network connections, on the client.
 old-location: rpc\rpcmgmtenableidlecleanup.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: f24bf105-2cdb-4efa-b095-8479545fecb5
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RpcMgmtEnableIdleCleanup, RpcMgmtEnableIdleCleanup function [RPC], _rpc_rpcmgmtenableidlecleanup, rpc.rpcmgmtenableidlecleanup, rpcdce/RpcMgmtEnableIdleCleanup
 ms.prod: windows
 ms.technology: windows-sdk

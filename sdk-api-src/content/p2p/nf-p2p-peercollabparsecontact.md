@@ -4,10 +4,10 @@ title: PeerCollabParseContact function
 author: windows-sdk-content
 description: Parses a Unicode string buffer containing contact XML data into a PEER_CONTACT data structure.
 old-location: p2p\peercollabparsecontact.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: c50954b2-0e63-412e-85ca-5149ed73791f
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerCollabParseContact, PeerCollabParseContact function [Peer Networking], p2p.peercollabparsecontact, p2p/PeerCollabParseContact
 ms.prod: windows
 ms.technology: windows-sdk

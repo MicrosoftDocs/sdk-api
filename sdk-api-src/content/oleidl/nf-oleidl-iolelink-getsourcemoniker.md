@@ -7,7 +7,7 @@ old-location: com\iolelink_getsourcemoniker.htm
 old-project: com
 ms.assetid: ef447726-7aef-45c4-a522-a8de9a3e6b74
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: GetSourceMoniker, GetSourceMoniker method [COM], GetSourceMoniker method [COM],IOleLink interface, IOleLink interface [COM],GetSourceMoniker method, IOleLink.GetSourceMoniker, IOleLink::GetSourceMoniker, _ole_iolelink_getsourcemoniker, com.iolelink_getsourcemoniker, oleidl/IOleLink::GetSourceMoniker
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\npopenenum.htm
 old-project: SecAuthN
 ms.assetid: d8fa7336-3ede-4445-b2e8-1a3efcae22ff
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: NPOpenEnum, NPOpenEnum function [Security], RESOURCETYPE_DISK, RESOURCETYPE_PRINT, RESOURCEUSAGE_ATTACHED, RESOURCEUSAGE_CONNECTABLE, RESOURCEUSAGE_CONTAINER, RESOURCE_CONNECTED, RESOURCE_CONTEXT, RESOURCE_GLOBALNET, _mnp_npopenenum, npapi/NPOpenEnum, security.npopenenum
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IVdsProviderSupport
 author: windows-sdk-content
 description: Provides a method to indicate what versions of the VDS interfaces are supported by the provider.
 old-location: base\ivdsprovidersupport.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 74e17a86-75ec-429b-9efb-80812ca4b431
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsProviderSupport, IVdsProviderSupport interface, IVdsProviderSupport interface,described, base.ivdsprovidersupport, vds/IVdsProviderSupport, vdshwprv/IVdsProviderSupport
 ms.prod: windows
 ms.technology: windows-sdk

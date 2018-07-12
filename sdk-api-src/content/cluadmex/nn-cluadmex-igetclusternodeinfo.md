@@ -4,10 +4,10 @@ title: IGetClusterNodeInfo
 author: windows-sdk-content
 description: The IGetClusterNodeInfo interface is called by a Failover Cluster Administrator extension to retrieve information about a node.
 old-location: mscs\igetclusternodeinfo.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 97c90830-1f6d-4f8f-ba0a-fee39aef5c1d
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IGetClusterNodeInfo, IGetClusterNodeInfo interface [Failover Cluster], IGetClusterNodeInfo interface [Failover Cluster],described, _wolf_igetclusternodeinfo, cluadmex/IGetClusterNodeInfo, mscs.igetclusternodeinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,7 +111,7 @@ If the object being extended is not a node, queries for
 </ul>
 Failover Cluster Administrator passes in an <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer, 
      <i>piData</i>. Use <i>piData</i> to call 
-     <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> for one of the 
+     <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> for one of the 
      <b>IGetClusterNodeInfo</b> methods.
 
 

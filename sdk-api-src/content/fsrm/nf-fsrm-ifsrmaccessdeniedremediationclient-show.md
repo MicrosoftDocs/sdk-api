@@ -4,10 +4,10 @@ title: IFsrmAccessDeniedRemediationClient::Show
 author: windows-sdk-content
 description: Displays the Access Denied Remediation (ADR) client dialog.
 old-location: fsrm\ifsrmaccessdeniedremediationclient_show.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: befebb2a-99a1-4a32-8bde-3b263d1f4459
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IFsrmAccessDeniedRemediationClient interface [File Server Resource Manager],Show method, IFsrmAccessDeniedRemediationClient.Show, IFsrmAccessDeniedRemediationClient::Show, Show, Show method [File Server Resource Manager], Show method [File Server Resource Manager],IFsrmAccessDeniedRemediationClient interface, fs.ifsrmaccessdeniedremediationclient_show, fsrm.ifsrmaccessdeniedremediationclient_show, fsrm/IFsrmAccessDeniedRemediationClient::Show
 ms.prod: windows
 ms.technology: windows-sdk

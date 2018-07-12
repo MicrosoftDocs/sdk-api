@@ -7,7 +7,7 @@ old-location: appxpkg\iappxcontentgroupfilesenumerator_.htm
 old-project: appxpkg
 ms.assetid: 42F1E3DE-B2A3-42DE-8FBE-BEE02D546ABA
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: IAppxContentGroupFilesEnumerator, IAppxContentGroupFilesEnumerator interface [App packaging and management], IAppxContentGroupFilesEnumerator interface [App packaging and management],described, appxpackaging/IAppxContentGroupFilesEnumerator, appxpkg.iappxcontentgroupfilesenumerator_
 ms.prod: windows
 ms.technology: windows-sdk

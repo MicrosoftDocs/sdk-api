@@ -4,10 +4,10 @@ title: IEnumDirectoryObject::Reset
 author: windows-sdk-content
 description: The Reset method resets to the beginning of enumeration sequence.
 old-location: tapi3\ienumdirectoryobject_reset.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: fd3d338e-f980-4a87-ae51-b59a8744d029
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IEnumDirectoryObject interface [TAPI 2.2],Reset method, IEnumDirectoryObject.Reset, IEnumDirectoryObject::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumDirectoryObject interface, _tapi3_ienumdirectoryobject_reset, rend/IEnumDirectoryObject::Reset, tapi3.ienumdirectoryobject_reset
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: BCryptDestroySecret function
 author: windows-sdk-content
 description: Destroys a secret agreement handle that was created by using the BCryptSecretAgreement function.
 old-location: security\bcryptdestroysecret.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 237743ff-ecb1-4c01-b4f9-192f27716f2c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: BCryptDestroySecret, BCryptDestroySecret function [Security], bcrypt/BCryptDestroySecret, security.bcryptdestroysecret
 ms.prod: windows
 ms.technology: windows-sdk

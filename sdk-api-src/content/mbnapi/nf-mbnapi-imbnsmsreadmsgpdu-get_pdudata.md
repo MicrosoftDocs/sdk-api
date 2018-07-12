@@ -7,7 +7,7 @@ old-location: mbn\imbnsmsreadmsgpdu_pdudata.htm
 old-project: mbn
 ms.assetid: 709dd6dd-c54d-4a46-bc29-f68229feb97d
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],PduData property, IMbnSmsReadMsgPdu.PduData, IMbnSmsReadMsgPdu.get_PduData, IMbnSmsReadMsgPdu::PduData, IMbnSmsReadMsgPdu::get_PduData, PduData property [Microsoft Broadband Networks], PduData property [Microsoft Broadband Networks],IMbnSmsReadMsgPdu interface, get_PduData, mbn.imbnsmsreadmsgpdu_pdudata, mbnapi/IMbnSmsReadMsgPdu::PduData, mbnapi/IMbnSmsReadMsgPdu::get_PduData
 ms.prod: windows
 ms.technology: windows-sdk

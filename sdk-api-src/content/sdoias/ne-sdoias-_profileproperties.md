@@ -4,10 +4,10 @@ title: "_PROFILEPROPERTIES"
 author: windows-sdk-content
 description: The PROFILEPROPERTIES enumeration type enumerates properties associated with a profile.
 old-location: nps\SDO_profileproperties.htm
-old-project: Nps
+old-project: nps
 ms.assetid: 54a498c4-af27-4438-a78e-ce92c632a122
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: PROFILEPROPERTIES, PROFILEPROPERTIES enumeration [Network Policy Server], PROPERTY_PROFILE_ATTRIBUTES_COLLECTION, _PROFILEPROPERTIES, _sdo_profileproperties, nps.SDO_profileproperties, sdo.profileproperties, sdoias/PROFILEPROPERTIES, sdoias/PROPERTY_PROFILE_ATTRIBUTES_COLLECTION
 ms.prod: windows
 ms.technology: windows-sdk

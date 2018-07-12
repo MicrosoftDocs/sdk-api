@@ -7,7 +7,7 @@ old-location: shell\ITaskbarList3.htm
 old-project: shell
 ms.assetid: a5eb4e5a-df17-4aca-96fb-d8475e266b92
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: ITaskbarList3, ITaskbarList3 interface [Windows Shell], ITaskbarList3 interface [Windows Shell],described, _shell_ITaskbarList3, shell.ITaskbarList3, shobjidl_core/ITaskbarList3
 ms.prod: windows
 ms.technology: windows-sdk

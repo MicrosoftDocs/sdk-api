@@ -4,10 +4,10 @@ title: INetwork::GetTimeCreatedAndConnected
 author: windows-sdk-content
 description: The GetTimeCreatedAndConnected method returns the local date and time when the network was created and connected.
 old-location: nla\inetwork_gettimecreatedandconnected.htm
-old-project: NLA
+old-project: nla
 ms.assetid: 607ce0be-fe7e-4969-b9d0-db1def054f67
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetTimeCreatedAndConnected, GetTimeCreatedAndConnected method [Network Awareness], GetTimeCreatedAndConnected method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetTimeCreatedAndConnected method, INetwork.GetTimeCreatedAndConnected, INetwork::GetTimeCreatedAndConnected, netlistmgr/INetwork::GetTimeCreatedAndConnected, nla.inetwork_gettimecreatedandconnected
 ms.prod: windows
 ms.technology: windows-sdk

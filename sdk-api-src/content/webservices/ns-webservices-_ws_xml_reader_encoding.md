@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_reader_encoding.htm
 old-project: wsw
 ms.assetid: 54d9683e-c2d1-4e18-92a2-a68558999e28
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_XML_READER_ENCODING, WS_XML_READER_ENCODING structure [Web Services for Windows], _WS_XML_READER_ENCODING, webservices/WS_XML_READER_ENCODING, wsw.ws_xml_reader_encoding
 ms.prod: windows
 ms.technology: windows-sdk

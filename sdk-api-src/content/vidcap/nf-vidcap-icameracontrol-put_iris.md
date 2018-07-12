@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_iris.htm
 old-project: DirectShow
 ms.assetid: b181f556-3d3d-4622-8cc9-57fda50bf9c0
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: ICameraControl interface [DirectShow],put_Iris method, ICameraControl.put_Iris, ICameraControl::put_Iris, ICameraControlput_Iris, dshow.icameracontrol_put_iris, put_Iris, put_Iris method [DirectShow], put_Iris method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Iris
 ms.prod: windows
 ms.technology: windows-sdk

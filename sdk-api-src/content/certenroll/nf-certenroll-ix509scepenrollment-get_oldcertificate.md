@@ -4,10 +4,10 @@ title: IX509SCEPEnrollment::get_OldCertificate
 author: windows-sdk-content
 description: Gets or sets an old certificate that a request is intended to replace.
 old-location: security\ix509scepenrollment_oldcertificate.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: caa88227-b068-4b3d-9334-c0283153b1ce
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],OldCertificate property, IX509SCEPEnrollment.OldCertificate, IX509SCEPEnrollment.get_OldCertificate, IX509SCEPEnrollment::OldCertificate, IX509SCEPEnrollment::get_OldCertificate, IX509SCEPEnrollment::put_OldCertificate, OldCertificate property [Security], OldCertificate property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::OldCertificate, certenroll/IX509SCEPEnrollment::get_OldCertificate, certenroll/IX509SCEPEnrollment::put_OldCertificate, get_OldCertificate, security.ix509scepenrollment_oldcertificate
 ms.prod: windows
 ms.technology: windows-sdk

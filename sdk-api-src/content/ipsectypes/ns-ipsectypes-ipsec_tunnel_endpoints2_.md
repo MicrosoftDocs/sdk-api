@@ -4,10 +4,10 @@ title: IPSEC_TUNNEL_ENDPOINTS2_
 author: windows-sdk-content
 description: Is used to store end points of a tunnel mode SA.
 old-location: fwp\ipsec_tunnel_endpoints2.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 091daec1-2c35-4d24-89be-fcdb0354b674
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IPSEC_TUNNEL_ENDPOINTS2, IPSEC_TUNNEL_ENDPOINTS2 structure [Filtering], IPSEC_TUNNEL_ENDPOINTS2_, fwp.ipsec_tunnel_endpoints2, ipsectypes/IPSEC_TUNNEL_ENDPOINTS2
 ms.prod: windows
 ms.technology: windows-sdk

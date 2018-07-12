@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapreader_getfiles.htm
 old-project: appxpkg
 ms.assetid: 7E46C555-8C61-4F26-9732-07E0DEEAF66F
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: GetFiles, GetFiles method [App packaging and management], GetFiles method [App packaging and management],IAppxBlockMapReader interface, IAppxBlockMapReader interface [App packaging and management],GetFiles method, IAppxBlockMapReader.GetFiles, IAppxBlockMapReader::GetFiles, appxpackaging/IAppxBlockMapReader::GetFiles, appxpkg.iappxblockmapreader_getfiles
 ms.prod: windows
 ms.technology: windows-sdk

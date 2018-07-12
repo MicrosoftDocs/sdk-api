@@ -4,10 +4,10 @@ title: DeactivateActCtx function
 author: windows-sdk-content
 description: The DeactivateActCtx function deactivates the activation context corresponding to the specified cookie.
 old-location: setup\deactivateactctx.htm
-old-project: SbsCs
+old-project: sbscs
 ms.assetid: 2a53eb1a-ce0b-4b20-a346-1ff9636a74d6
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: 0, DEACTIVATE_ACTCTX_FLAG_FORCE_EARLY_DEACTIVATION, DeactivateActCtx, DeactivateActCtx function [Side-by-side Assemblies], _win32_deactivateactctx, setup.deactivateactctx, winbase/DeactivateActCtx
 ms.prod: windows
 ms.technology: windows-sdk

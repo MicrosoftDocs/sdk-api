@@ -4,10 +4,10 @@ title: IGPMMigrationTable::Save
 author: windows-sdk-content
 description: Saves the migration table currently in memory in a specified location.
 old-location: gpmc\igpmmigrationtable_save.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: ce33306a-c72f-4231-a19c-eb733d87b361
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: GPMMigrationTable class [GPMC],Save method, IGPMMigrationTable interface [GPMC],Save method, IGPMMigrationTable.Save, IGPMMigrationTable::Save, Save, Save method [GPMC], Save method [GPMC],GPMMigrationTable class, Save method [GPMC],IGPMMigrationTable interface, gpmc.igpmmigrationtable_save, gpmgmt/IGPMMigrationTable::Save
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ITAutomatedPhoneControl::get_AutoVolumeControlRepeatDelay
 author: windows-sdk-content
 description: The get_AutoVolumeControlRepeatDelay method retrieves the current value of the AutoVolumeControlRepeatDelay property. The property specifies the delay, in milliseconds (ms), before a volume button starts repeating when it is held down.
 old-location: tapi3\itautomatedphonecontrol_get_autovolumecontrolrepeatdelay.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: a26fd436-b792-4415-bc47-eca2b1114002
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoVolumeControlRepeatDelay method, ITAutomatedPhoneControl.get_AutoVolumeControlRepeatDelay, ITAutomatedPhoneControl::get_AutoVolumeControlRepeatDelay, _tapi3_itautomatedphonecontrol_get_autovolumecontrolrepeatdelay, get_AutoVolumeControlRepeatDelay, get_AutoVolumeControlRepeatDelay method [TAPI 2.2], get_AutoVolumeControlRepeatDelay method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autovolumecontrolrepeatdelay, tapi3if/ITAutomatedPhoneControl::get_AutoVolumeControlRepeatDelay
 ms.prod: windows
 ms.technology: windows-sdk

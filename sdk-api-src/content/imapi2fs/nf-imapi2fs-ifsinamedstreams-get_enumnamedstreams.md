@@ -7,7 +7,7 @@ old-location: imapi\ifsinamedstreams_get_enumnamedstreams.htm
 old-project: imapi
 ms.assetid: 99691d12-bff6-4d75-b9ef-bd92f8198ae2
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IFsiNamedStreams interface [IMAPI],get_EnumNamedStreams method, IFsiNamedStreams.get_EnumNamedStreams, IFsiNamedStreams::get_EnumNamedStreams, get_EnumNamedStreams, get_EnumNamedStreams method [IMAPI], get_EnumNamedStreams method [IMAPI],IFsiNamedStreams interface, imapi.ifsinamedstreams_get_enumnamedstreams, imapi2fs/IFsiNamedStreams::get_EnumNamedStreams
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: netvista\fwps_filter2.htm
 old-project: netvista
 ms.assetid: 2be2c82b-5b7c-4027-b2a1-f43d2b27b860
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/13/2018
 ms.keywords: FWPS_FILTER2, FWPS_FILTER2 structure [Network Drivers Starting with Windows Vista], FWPS_FILTER2_, FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT, FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED, fwpstypes/FWPS_FILTER2, netvista.fwps_filter2
 ms.prod: windows
 ms.technology: windows-sdk

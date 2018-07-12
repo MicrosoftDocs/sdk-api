@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2create.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2Create(IXAudio2@,UINT32,XAUDIO2_PROCESSOR)
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 04/23/2018
 ms.keywords: XAudio2Create, XAudio2Create function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2create, xaudio2/XAudio2Create
 ms.prod: windows
 ms.technology: windows-sdk

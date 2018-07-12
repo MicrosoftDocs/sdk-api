@@ -4,10 +4,10 @@ title: ISCluster::get_CommonROProperties
 author: windows-sdk-content
 description: Returns the read-only common properties of a cluster.
 old-location: mscs\cluster_commonroproperties.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: fcd27e3b-4895-445f-a578-f08ccd110a99
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: Cluster object [Failover Cluster],CommonROProperties property, Cluster.CommonROProperties, CommonROProperties property [Failover Cluster], CommonROProperties property [Failover Cluster],Cluster object, ISCluster.get_CommonROProperties, ISCluster::get_CommonROProperties, _wolf_cluster.commonroproperties, get_CommonROProperties, mscs.cluster_commonroproperties
 ms.prod: windows
 ms.technology: windows-sdk

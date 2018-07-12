@@ -7,7 +7,7 @@ old-location: dshow\iamdecodercaps.htm
 old-project: DirectShow
 ms.assetid: 3951200b-5a81-4832-9dae-021a76c1ab20
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IAMDecoderCaps, IAMDecoderCaps interface [DirectShow], IAMDecoderCaps interface [DirectShow],described, IAMDecoderCapsInterface, dshow.iamdecodercaps, strmif/IAMDecoderCaps
 ms.prod: windows
 ms.technology: windows-sdk

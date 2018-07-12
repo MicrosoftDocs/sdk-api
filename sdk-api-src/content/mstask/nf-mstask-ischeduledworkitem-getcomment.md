@@ -4,10 +4,10 @@ title: IScheduledWorkItem::GetComment
 author: windows-sdk-content
 description: Retrieves the comment for the work item.
 old-location: taskschd\ischeduledworkitem_getcomment.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 49bfd451-8100-40e1-9727-e54c5478b415
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetComment, GetComment method [Task Scheduler], GetComment method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetComment method, IScheduledWorkItem.GetComment, IScheduledWorkItem::GetComment, _msb_ischeduledworkitem_getcomment, mstask/IScheduledWorkItem::GetComment, taskschd.ischeduledworkitem_getcomment
 ms.prod: windows
 ms.technology: windows-sdk

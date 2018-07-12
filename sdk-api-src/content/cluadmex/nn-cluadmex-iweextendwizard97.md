@@ -4,10 +4,10 @@ title: IWEExtendWizard97
 author: windows-sdk-content
 description: Implement the IWEExtendWizard97 interface to add Wizard97-style wizard pages to a Failover Cluster Administrator wizard.
 old-location: mscs\iweextendwizard97.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 3473dc89-8676-4b13-b3c8-f112c0b9cf8c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IWEExtendWizard97, IWEExtendWizard97 interface [Failover Cluster], IWEExtendWizard97 interface [Failover Cluster],described, _wolf_iweextendwizard97, cluadmex/IWEExtendWizard97, mscs.iweextendwizard97
 ms.prod: windows
 ms.technology: windows-sdk

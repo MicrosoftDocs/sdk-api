@@ -4,10 +4,10 @@ title: IGPMBackupDirEx::GetBackup
 author: windows-sdk-content
 description: Retrieves the GPMBackup or GPMStarterGPOBackup object with the specified backup ID. The backup ID is a GUID. The backup ID is the ID of the backed-up Group Policy object (GPO), not the ID of the GPO.
 old-location: gpmc\igpmbackupdirex_getbackup.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: d1c6ead9-882d-4041-9586-f08a83f4c9b0
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: GetBackup, GetBackup method [GPMC], GetBackup method [GPMC],IGPMBackupDirEx interface, IGPMBackupDirEx interface [GPMC],GetBackup method, IGPMBackupDirEx.GetBackup, IGPMBackupDirEx::GetBackup, gpmc.igpmbackupdirex_getbackup, gpmgmt/IGPMBackupDirEx::GetBackup
 ms.prod: windows
 ms.technology: windows-sdk

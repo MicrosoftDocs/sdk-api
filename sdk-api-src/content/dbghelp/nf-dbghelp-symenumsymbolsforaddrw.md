@@ -4,10 +4,10 @@ title: SymEnumSymbolsForAddrW function
 author: windows-sdk-content
 description: Enumerates the symbols for the specified address.
 old-location: base\symenumsymbolsforaddr.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 1c622d1d-e7be-4b02-8d6d-68b5f07f2e35
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: SymEnumSymbolsForAddr, SymEnumSymbolsForAddr function, SymEnumSymbolsForAddrW, _win32_symenumsymbolsforaddr, base.symenumsymbolsforaddr, dbghelp/SymEnumSymbolsForAddr, dbghelp/SymEnumSymbolsForAddrW
 ms.prod: windows
 ms.technology: windows-sdk

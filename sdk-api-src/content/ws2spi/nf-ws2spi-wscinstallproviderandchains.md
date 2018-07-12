@@ -7,7 +7,7 @@ old-location: winsock\wscinstallproviderandchains.htm
 old-project: WinSock
 ms.assetid: 592f48b4-5826-449f-b5cc-b0990679fe9f
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: WSCInstallProviderAndChains, WSCInstallProviderAndChains function [Winsock], XP1_IFS_HANDLES, winsock.wscinstallproviderandchains, ws2spi/WSCInstallProviderAndChains
 ms.prod: windows
 ms.technology: windows-sdk

@@ -3,6 +3,5 @@
   "headers": [
     "icontact.h",
     "contact.h"
-  ],
-  "displayName": "Windows Contacts"
+  ]
 }

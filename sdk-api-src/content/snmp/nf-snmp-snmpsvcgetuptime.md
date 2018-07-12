@@ -4,10 +4,10 @@ title: SnmpSvcGetUptime function
 author: windows-sdk-content
 description: The SnmpSvcGetUptime function retrieves the number of centiseconds that the SNMP service has been running. This function is an element of the SNMP Utility API.
 old-location: snmp\snmpsvcgetuptime.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 46702e39-3ea2-471c-9281-3cd7dcae9c9c
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SnmpSvcGetUptime, SnmpSvcGetUptime function [SNMP], _snmp_snmpsvcgetuptime, snmp.snmpsvcgetuptime, snmp/SnmpSvcGetUptime
 ms.prod: windows
 ms.technology: windows-sdk

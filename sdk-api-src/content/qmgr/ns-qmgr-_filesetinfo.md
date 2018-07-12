@@ -4,10 +4,10 @@ title: "_FILESETINFO"
 author: windows-sdk-content
 description: The FILESETINFO structure identifies the remote and local names of the file to download.
 old-location: bits\filesetinfo.htm
-old-project: Bits
+old-project: bits
 ms.assetid: 1a1d6683-5317-4a34-828d-55142f64f19f
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: FILESETINFO, FILESETINFO structure [BITS], _FILESETINFO, bits.filesetinfo, qmgr/FILESETINFO
 ms.prod: windows
 ms.technology: windows-sdk

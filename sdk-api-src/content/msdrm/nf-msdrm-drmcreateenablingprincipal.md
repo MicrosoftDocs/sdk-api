@@ -4,10 +4,10 @@ title: DRMCreateEnablingPrincipal function
 author: windows-sdk-content
 description: Creates an enabling principal needed to bind to a license.
 old-location: rm\drmcreateenablingprincipal.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: 92858a46-cef5-4d25-9f3c-cbb343743565
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMCreateEnablingPrincipal, DRMCreateEnablingPrincipal function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateEnablingPrincipal, rm.drmcreateenablingprincipal
 ms.prod: windows
 ms.technology: windows-sdk

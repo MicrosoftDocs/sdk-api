@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_packetcount.htm
 old-project: tablet
 ms.assetid: f7cd47f8-809b-455d-873f-81dba80549b9
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: IInkStrokeDisp interface [Tablet PC],PacketCount property, IInkStrokeDisp.PacketCount, IInkStrokeDisp.get_PacketCount, IInkStrokeDisp::PacketCount, IInkStrokeDisp::get_PacketCount, PacketCount property [Tablet PC], PacketCount property [Tablet PC],IInkStrokeDisp interface, f7cd47f8-809b-455d-873f-81dba80549b9, get_PacketCount, msinkaut/IInkStrokeDisp::PacketCount, msinkaut/IInkStrokeDisp::get_PacketCount, tablet.iinkstrokedisp_packetcount
 ms.prod: windows
 ms.technology: windows-sdk

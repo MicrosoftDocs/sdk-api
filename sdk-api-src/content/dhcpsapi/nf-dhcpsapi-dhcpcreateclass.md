@@ -4,10 +4,10 @@ title: DhcpCreateClass function
 author: windows-sdk-content
 description: Creates a custom option class.
 old-location: dhcp\dhcpcreateclass.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: ae30baba-a2cd-4662-a62a-58b59d119dc4
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DhcpCreateClass, DhcpCreateClass function [DHCP], dhcp.dhcpcreateclass, dhcpsapi/DhcpCreateClass
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PCLUSAPI_OFFLINE_CLUSTER_RESOURCE
 author: windows-sdk-content
 description: Takes a resource offline.
 old-location: mscs\offlineclusterresource.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 694dbf3d-3355-44d9-8af0-ea2baae832fd
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_OFFLINE_CLUSTER_RESOURCE, PCLUSAPI_OFFLINE_CLUSTER_RESOURCE callback, PCLUSAPI_OFFLINE_CLUSTER_RESOURCE callback function [Failover Cluster], _wolf_offlineclusterresource, clusapi/PCLUSAPI_OFFLINE_CLUSTER_RESOURCE, mscs.offlineclusterresource
 ms.prod: windows
 ms.technology: windows-sdk

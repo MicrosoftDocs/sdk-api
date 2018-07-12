@@ -7,7 +7,7 @@ old-location: windowsribbon\iuieventlogger.htm
 old-project: windowsribbon
 ms.assetid: 54DB1BFF-0657-4027-8C8C-89CE998253F4
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IUIEventLogger, IUIEventLogger interface [Windows Ribbon], IUIEventLogger interface [Windows Ribbon],described, uiribbon/IUIEventLogger, windowsribbon.iuieventlogger
 ms.prod: windows
 ms.technology: windows-sdk

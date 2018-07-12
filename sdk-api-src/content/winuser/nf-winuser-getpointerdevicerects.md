@@ -7,7 +7,7 @@ old-location: input_pointerdevice\getpointerdevicerects.htm
 old-project: Input_PointerDevice
 ms.assetid: a6586dec-6d57-4345-be56-89c7308c1097
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 03/27/2018
 ms.keywords: GetPointerDeviceRects, GetPointerDeviceRects function, input_pointerdevice.getpointerdevicerects, unifiedinputstack.getpointerdevicerects, winuser/GetPointerDeviceRects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

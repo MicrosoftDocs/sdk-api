@@ -4,10 +4,10 @@ title: ISClusResDependencies::DeleteItem
 author: windows-sdk-content
 description: Removes a resource from the dependency collection and deletes the resource from the cluster.
 old-location: mscs\clusresdependencies_deleteitem.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 01706fd2-48cc-4d98-a296-58caecc5857b
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResDependencies class [Failover Cluster],DeleteItem method, ClusResDependencies.DeleteItem, DeleteItem, DeleteItem method [Failover Cluster], DeleteItem method [Failover Cluster],ClusResDependencies class, ISClusResDependencies.DeleteItem, ISClusResDependencies::DeleteItem, _wolf_clusresdependencies.deleteitem, mscs.clusresdependencies_deleteitem
 ms.prod: windows
 ms.technology: windows-sdk

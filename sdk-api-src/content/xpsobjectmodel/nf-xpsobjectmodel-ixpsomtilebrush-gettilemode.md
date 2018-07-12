@@ -7,7 +7,7 @@ old-location: xps\ixpsomtilebrush_gettilemode.htm
 old-project: printdocs
 ms.assetid: 4f39a728-9f27-4137-96eb-8f10e6e002cd
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetTileMode, GetTileMode method [XPS Documents and Packaging], GetTileMode method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetTileMode method, IXpsOMTileBrush.GetTileMode, IXpsOMTileBrush::GetTileMode, xps.ixpsomtilebrush_gettilemode, xpsobjectmodel/IXpsOMTileBrush::GetTileMode
 ms.prod: windows
 ms.technology: windows-sdk

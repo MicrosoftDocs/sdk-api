@@ -7,7 +7,7 @@ old-location: multimedia\mciwndputsource.htm
 old-project: Multimedia
 ms.assetid: a55e72e3-47af-4846-a20d-5f0176127459
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: MCIWndPutSource, MCIWndPutSource macro [Windows Multimedia], _win32_MCIWndPutSource, multimedia.mciwndputsource, vfw/MCIWndPutSource
 ms.prod: windows
 ms.technology: windows-sdk

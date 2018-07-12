@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput_releaseownership.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_releaseownership.htm
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: 85bdbad9-3499-5766-c623-04b46be2a80a, IDXGIOutput interface [DXGI],ReleaseOwnership method, IDXGIOutput.ReleaseOwnership, IDXGIOutput::ReleaseOwnership, ReleaseOwnership, ReleaseOwnership method [DXGI], ReleaseOwnership method [DXGI],IDXGIOutput interface, direct3ddxgi.idxgioutput_releaseownership, dxgi/IDXGIOutput::ReleaseOwnership
 ms.prod: windows
 ms.technology: windows-sdk

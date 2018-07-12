@@ -4,10 +4,10 @@ title: IMaintenanceSettings::put_Period
 author: windows-sdk-content
 description: Gets or sets the amount of time the task needs to be once executed during regular Automatic maintenance.
 old-location: taskschd\imaintenancesettings_period.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 7499C35C-AE46-4F9C-9D81-1FC00B953DFB
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IMaintenanceSettings interface [Task Scheduler],Period property, IMaintenanceSettings.Period, IMaintenanceSettings.put_Period, IMaintenanceSettings::Period, IMaintenanceSettings::get_Period, IMaintenanceSettings::put_Period, Period property [Task Scheduler], Period property [Task Scheduler],IMaintenanceSettings interface, put_Period, taskschd.imaintenancesettings_period, taskschd/IMaintenanceSettings::Period, taskschd/IMaintenanceSettings::get_Period, taskschd/IMaintenanceSettings::put_Period
 ms.prod: windows
 ms.technology: windows-sdk

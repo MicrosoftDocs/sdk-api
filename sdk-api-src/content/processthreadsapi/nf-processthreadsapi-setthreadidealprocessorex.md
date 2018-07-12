@@ -7,7 +7,7 @@ old-location: base\setthreadidealprocessorex.htm
 old-project: ProcThread
 ms.assetid: 6b599a99-41c5-45c7-8aeb-87d8f34e9e82
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: SetThreadIdealProcessorEx, SetThreadIdealProcessorEx function, base.setthreadidealprocessorex, processthreadsapi/SetThreadIdealProcessorEx, winbase/SetThreadIdealProcessorEx
 ms.prod: windows
 ms.technology: windows-sdk

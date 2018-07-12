@@ -4,10 +4,10 @@ title: "_MIB_TCP6ROW_OWNER_MODULE"
 author: windows-sdk-content
 description: Contains information that describes an IPv6 TCP connection bound to a specific process ID (PID) with ownership data.
 old-location: mib\mib_tcp6row_owner_module.htm
-old-project: MIB
+old-project: mib
 ms.assetid: 24f2041c-0a8c-4f2c-8585-ebbb0cad394f
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 05/15/2018
 ms.keywords: "*PMIB_TCP6ROW_OWNER_MODULE, MIB_TCP6ROW_OWNER_MODULE, MIB_TCP6ROW_OWNER_MODULE structure [MIB], MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCP6ROW_OWNER_MODULE, PMIB_TCP6ROW_OWNER_MODULE structure pointer [MIB], _MIB_TCP6ROW_OWNER_MODULE, iprtrmib/MIB_TCP6ROW_OWNER_MODULE, iprtrmib/PMIB_TCP6ROW_OWNER_MODULE, mib.mib_tcp6row_owner_module, tcpmib/MIB_TCP6ROW_OWNER_MODULE, tcpmib/PMIB_TCP6ROW_OWNER_MODULE"
 ms.prod: windows
 ms.technology: windows-sdk

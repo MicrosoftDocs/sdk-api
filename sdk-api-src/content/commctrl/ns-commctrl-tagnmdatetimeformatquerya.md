@@ -4,10 +4,10 @@ title: tagNMDATETIMEFORMATQUERYA
 author: windows-sdk-content
 description: Contains information about a date and time picker (DTP) control callback field.
 old-location: controls\NMDATETIMEFORMATQUERY.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimeformatquery.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPNMDATETIMEFORMATQUERYA, LPNMDATETIMEFORMATQUERY, LPNMDATETIMEFORMATQUERY structure pointer [Windows Controls], NMDATETIMEFORMATQUERY, NMDATETIMEFORMATQUERY structure [Windows Controls], NMDATETIMEFORMATQUERYA, NMDATETIMEFORMATQUERYW, _win32_NMDATETIMEFORMATQUERY, _win32_NMDATETIMEFORMATQUERY_cpp, commctrl/LPNMDATETIMEFORMATQUERY, commctrl/NMDATETIMEFORMATQUERY, commctrl/NMDATETIMEFORMATQUERYA, commctrl/NMDATETIMEFORMATQUERYW, controls.NMDATETIMEFORMATQUERY, controls._win32_NMDATETIMEFORMATQUERY, tagNMDATETIMEFORMATQUERYA"
 ms.prod: windows
 ms.technology: windows-sdk

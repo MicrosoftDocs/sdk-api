@@ -7,7 +7,7 @@ old-location: winsock\sockaddr_gen.htm
 old-project: WinSock
 ms.assetid: 60b11476-07ca-476e-a2f0-669631835128
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: sockaddr_gen, sockaddr_gen union [Winsock], winsock.sockaddr_gen, ws2ipdef/sockaddr_gen, ws2tcpip/sockaddr_gen
 ms.prod: windows
 ms.technology: windows-sdk

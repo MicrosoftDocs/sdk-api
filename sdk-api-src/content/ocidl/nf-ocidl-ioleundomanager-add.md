@@ -7,7 +7,7 @@ old-location: com\ioleundomanager_add.htm
 old-project: com
 ms.assetid: 3288e0c6-e345-4c4d-a7bf-0c5f45c19732
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: Add, Add method [COM], Add method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],Add method, IOleUndoManager.Add, IOleUndoManager::Add, _ole_ioleundomanager_add, com.ioleundomanager_add, ocidl/IOleUndoManager::Add
 ms.prod: windows
 ms.technology: windows-sdk

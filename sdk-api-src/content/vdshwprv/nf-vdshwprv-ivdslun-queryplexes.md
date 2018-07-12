@@ -4,10 +4,10 @@ title: IVdsLun::QueryPlexes
 author: windows-sdk-content
 description: Returns an enumeration of the plexes in a LUN.
 old-location: base\ivdslun_queryplexes.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 128708cb-2ad1-45be-8e38-b5fd943d0945
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsLun interface [VDS],QueryPlexes method, IVdsLun.QueryPlexes, IVdsLun::QueryPlexes, QueryPlexes, QueryPlexes method [VDS], QueryPlexes method [VDS],IVdsLun interface, base.ivdslun_queryplexes, vds/IVdsLun::QueryPlexes, vdshwprv/IVdsLun::QueryPlexes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Returns an
 ### -param ppEnum [out]
 
 The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface 
-      pointer that can be used to enumerate the plexes  as <a href="https://msdn.microsoft.com/db6eabaa-1b84-4613-ab2a-8d5904305e08">LUN plex objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the LUN  plex objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+      pointer that can be used to enumerate the plexes  as <a href="https://msdn.microsoft.com/db6eabaa-1b84-4613-ab2a-8d5904305e08">LUN plex objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the LUN  plex objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

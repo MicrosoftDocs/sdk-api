@@ -4,10 +4,10 @@ title: PowerCanRestoreIndividualDefaultPowerScheme function
 author: windows-sdk-content
 description: Determines if the current user has access to the data for the specified power scheme so that it could be restored if necessary.
 old-location: base\powercanrestoreindividualdefaultpowerscheme.htm
-old-project: Power
+old-project: power
 ms.assetid: 8f29c993-b237-4302-a48b-05368ead9a44
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: PowerCanRestoreIndividualDefaultPowerScheme, PowerCanRestoreIndividualDefaultPowerScheme function, base.powercanrestoreindividualdefaultpowerscheme, powrprof/PowerCanRestoreIndividualDefaultPowerScheme
 ms.prod: windows
 ms.technology: windows-sdk

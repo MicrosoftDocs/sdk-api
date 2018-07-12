@@ -4,10 +4,10 @@ title: IRDPSRAPIInvitation::get_GroupName
 author: windows-sdk-content
 description: The group name.
 old-location: rdp\irdpsrapiinvitation_groupname.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: 7ac76417-bb5c-40ae-a22a-b322b42b0d2c
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 03/29/2018
 ms.keywords: GroupName property [RDP], GroupName property [RDP],IRDPSRAPIInvitation interface, GroupName property [RDP],RDPSRAPIInvitation object, IRDPSRAPIInvitation interface [RDP],GroupName property, IRDPSRAPIInvitation.GroupName, IRDPSRAPIInvitation.get_GroupName, IRDPSRAPIInvitation::GroupName, IRDPSRAPIInvitation::get_GroupName, RDPSRAPIInvitation object [RDP],GroupName property, get_GroupName, rdp.irdpsrapiinvitation_groupname, rdpencomapi/IRDPSRAPIInvitation::GroupName, rdpencomapi/IRDPSRAPIInvitation::get_GroupName
 ms.prod: windows
 ms.technology: windows-sdk

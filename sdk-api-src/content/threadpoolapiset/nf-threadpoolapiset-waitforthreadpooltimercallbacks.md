@@ -7,7 +7,7 @@ old-location: base\waitforthreadpooltimercallbacks.htm
 old-project: ProcThread
 ms.assetid: 511488b8-9e92-47b9-8b3c-7ece9d9f996c
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: WaitForThreadpoolTimerCallbacks, WaitForThreadpoolTimerCallbacks function, base.waitforthreadpooltimercallbacks, threadpoolapiset/WaitForThreadpoolTimerCallbacks, winbase/WaitForThreadpoolTimerCallbacks
 ms.prod: windows
 ms.technology: windows-sdk

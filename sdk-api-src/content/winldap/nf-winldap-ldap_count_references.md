@@ -4,10 +4,10 @@ title: ldap_count_references function
 author: windows-sdk-content
 description: The ldap_count_references function counts the number of subordinate references that were returned by the server in a response to a search request.
 old-location: ldap\ldap_count_references.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: 1d216f39-6eb4-4c3d-8f97-92835aac2aca
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/14/2018
 ms.keywords: "_ldap_ldap_count_references, ldap.ldap__count__references, ldap.ldap_count_references, ldap_count_references, ldap_count_references function [LDAP], winldap/ldap_count_references"
 ms.prod: windows
 ms.technology: windows-sdk

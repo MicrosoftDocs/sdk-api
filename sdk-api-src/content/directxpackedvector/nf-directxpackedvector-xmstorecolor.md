@@ -7,7 +7,7 @@ old-location: dxmath\xmstorecolor.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreColor(XMCOLOR@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 06/14/2018
 ms.keywords: DirectX::PackedVector.XMStoreColor, XMStoreColor, XMStoreColor method [DirectX Math Support APIs], dxmath.xmstorecolor
 ms.prod: windows
 ms.technology: windows-sdk

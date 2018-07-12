@@ -7,7 +7,7 @@ old-location: mf\mfcreatetransformactivate.htm
 old-project: medfound
 ms.assetid: 845c7114-756b-4d0f-a92e-9c6e2eba7c94
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: MFCreateTransformActivate, MFCreateTransformActivate function [Media Foundation], mf.mfcreatetransformactivate, mftransform/MFCreateTransformActivate
 ms.prod: windows
 ms.technology: windows-sdk

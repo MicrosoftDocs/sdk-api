@@ -4,10 +4,10 @@ title: PowerReadACValue function
 author: windows-sdk-content
 description: Retrieves the AC power value for the specified power setting.
 old-location: base\powerreadacvalue.htm
-old-project: Power
+old-project: power
 ms.assetid: b0afaf75-72cc-48a3-bbf2-0000cb85f2e2
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadACValue, PowerReadACValue function, base.powerreadacvalue, powersetting/PowerReadACValue, powrprof/PowerReadACValue
 ms.prod: windows
 ms.technology: windows-sdk

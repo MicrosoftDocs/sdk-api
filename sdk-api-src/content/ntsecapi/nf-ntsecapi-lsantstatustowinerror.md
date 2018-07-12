@@ -4,10 +4,10 @@ title: LsaNtStatusToWinError function
 author: windows-sdk-content
 description: The LsaNtStatusToWinError function converts an NTSTATUS code returned by an LSA function to a Windows error code.
 old-location: security\lsantstatustowinerror.htm
-old-project: SecMgmt
+old-project: secmgmt
 ms.assetid: fa91794c-c502-4b36-84cc-a8d77c8e9d9f
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: LsaNtStatusToWinError, LsaNtStatusToWinError function [Security], _lsa_lsantstatustowinerror, ntsecapi/LsaNtStatusToWinError, security.lsantstatustowinerror
 ms.prod: windows
 ms.technology: windows-sdk

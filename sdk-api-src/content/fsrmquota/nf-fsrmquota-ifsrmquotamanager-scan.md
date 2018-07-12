@@ -4,10 +4,10 @@ title: IFsrmQuotaManager::Scan
 author: windows-sdk-content
 description: Starts a quota scan on the specified path.
 old-location: fsrm\ifsrmquotamanager_scan.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 1581f4c7-a912-4214-9ad9-181ad5ebba7e
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: FsrmQuotaManager class [File Server Resource Manager],Scan method, IFsrmQuotaManager interface [File Server Resource Manager],Scan method, IFsrmQuotaManager.Scan, IFsrmQuotaManager::Scan, IFsrmQuotaManagerEx interface [File Server Resource Manager],Scan method, IFsrmQuotaManagerEx::Scan, Scan, Scan method [File Server Resource Manager], Scan method [File Server Resource Manager],FsrmQuotaManager class, Scan method [File Server Resource Manager],IFsrmQuotaManager interface, Scan method [File Server Resource Manager],IFsrmQuotaManagerEx interface, fs.ifsrmquotamanager_scan, fsrm.ifsrmquotamanager_scan, fsrmquota/IFsrmQuotaManager::Scan, fsrmquota/IFsrmQuotaManagerEx::Scan
 ms.prod: windows
 ms.technology: windows-sdk

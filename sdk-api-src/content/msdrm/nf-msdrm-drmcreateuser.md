@@ -4,10 +4,10 @@ title: DRMCreateUser function
 author: windows-sdk-content
 description: Creates a user that will be granted a right.
 old-location: rm\drmcreateuser.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: e5679f4f-23e7-40af-9f45-d2077643da98
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMCreateUser, DRMCreateUser function [Active Directory Rights Management Services SDK 1.0], Federation, Internal, Passport, Unspecified, Windows, msdrm/DRMCreateUser, rm.drmcreateuser
 ms.prod: windows
 ms.technology: windows-sdk

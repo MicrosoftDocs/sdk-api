@@ -45,6 +45,5 @@
     "windows.ui.xaml-coretypes.h",
     "weakreference.h",
     "eventtoken.h"
-  ],
-  "displayName": "Windows Runtime C++ reference"
+  ]
 }

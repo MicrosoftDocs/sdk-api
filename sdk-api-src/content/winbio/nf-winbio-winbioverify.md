@@ -4,10 +4,10 @@ title: WinBioVerify function
 author: windows-sdk-content
 description: Captures a biometric sample and determines whether the sample corresponds to the specified user identity. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioverify.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 7266ca33-d3f9-421f-8265-e23a3ec3a77e
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: WinBioVerify, WinBioVerify function [Windows Biometric Framework API], secbiomet.winbioverify, winbio/WinBioVerify
 ms.prod: windows
 ms.technology: windows-sdk

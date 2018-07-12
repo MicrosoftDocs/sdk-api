@@ -7,7 +7,7 @@ old-location: dwm\dwmseticonicthumbnail.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmseticonicthumbnail.htm
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: 0, DWM_SIT_DISPLAYFRAME, DwmSetIconicThumbnail, DwmSetIconicThumbnail function [Desktop Window Manager], _udwm_dwmseticonicthumbnail, _udwm_dwmseticonicthumbnail_cpp, dwm.dwmseticonicthumbnail, dwmapi/DwmSetIconicThumbnail, winui._udwm_dwmseticonicthumbnail
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceresources_createresource.htm
 old-project: wpd_sdk
 ms.assetid: 1daaa2cd-d3a7-44ea-b17d-717875ff748d
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.keywords: CreateResource, CreateResource method [Windows Portable Devices SDK], CreateResource method [Windows Portable Devices SDK],IPortableDeviceResources interface, IPortableDeviceResources interface [Windows Portable Devices SDK],CreateResource method, IPortableDeviceResources.CreateResource, IPortableDeviceResources::CreateResource, IPortableDeviceResourcesCreateResource, portabledeviceapi/IPortableDeviceResources::CreateResource, wpdsdk.iportabledeviceresources_createresource
 ms.prod: windows
 ms.technology: windows-sdk

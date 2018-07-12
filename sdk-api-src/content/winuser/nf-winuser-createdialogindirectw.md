@@ -7,7 +7,7 @@ old-location: dlgbox\createdialogindirect.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\createdialogindirect.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 05/22/2018
 ms.keywords: CreateDialogIndirect, CreateDialogIndirect function [Dialog Boxes], CreateDialogIndirectA, CreateDialogIndirectW, _win32_CreateDialogIndirect, _win32_createdialogindirect_cpp, dlgbox.createdialogindirect, winui._win32_createdialogindirect, winuser/CreateDialogIndirect, winuser/CreateDialogIndirectA, winuser/CreateDialogIndirectW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

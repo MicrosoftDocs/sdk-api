@@ -4,10 +4,10 @@ title: INetFwRule3::get_LocalAppPackageId
 author: windows-sdk-content
 description: Specifies the package identifier or the app container identifier of a process, whether from a Windows Store app or a desktop app.
 old-location: ics\inetfwrule3_localapppackageid.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 8c1bccc6-3c8d-401c-8e9f-e88a4a60e3f4
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetFwRule3 interface [ICS/ICF],LocalAppPackageId property, INetFwRule3.LocalAppPackageId, INetFwRule3.get_LocalAppPackageId, INetFwRule3::LocalAppPackageId, INetFwRule3::get_LocalAppPackageId, INetFwRule3::put_LocalAppPackageId, LocalAppPackageId property [ICS/ICF], LocalAppPackageId property [ICS/ICF],INetFwRule3 interface, get_LocalAppPackageId, ics.inetfwrule3_localapppackageid, netfw/INetFwRule3::LocalAppPackageId, netfw/INetFwRule3::get_LocalAppPackageId, netfw/INetFwRule3::put_LocalAppPackageId
 ms.prod: windows
 ms.technology: windows-sdk

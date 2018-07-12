@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectfactory_createcontext.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectfactory\createcontext.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: CreateContext, CreateContext method [WPF Bitmap Effects], CreateContext method [WPF Bitmap Effects],IMILBitmapEffectFactory interface, IMILBitmapEffectFactory interface [WPF Bitmap Effects],CreateContext method, IMILBitmapEffectFactory.CreateContext, IMILBitmapEffectFactory::CreateContext, _wibe_imilbitmapeffectfactory_createcontext, mileffects/IMILBitmapEffectFactory::CreateContext, wibe._wibe_imilbitmapeffectfactory_createcontext
 ms.prod: windows
 ms.technology: windows-sdk

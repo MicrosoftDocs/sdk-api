@@ -7,7 +7,7 @@ old-location: opc\iopccertificateset.htm
 old-project: OPC
 ms.assetid: 0ac56b41-a120-4a9b-9bfa-afba1ba0f3b4
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: IOpcCertificateSet, IOpcCertificateSet interface [Open Packaging Conventions], IOpcCertificateSet interface [Open Packaging Conventions],described, msopc/IOpcCertificateSet, opc.iopccertificateset
 ms.prod: windows
 ms.technology: windows-sdk

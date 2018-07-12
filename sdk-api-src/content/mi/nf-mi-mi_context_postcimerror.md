@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_context_postcimerror.htm
 old-project: wmi_v2
 ms.assetid: 96ef9e97-467b-4b71-a7f9-4f640102e744
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_Context_PostCimError, MI_Context_PostCimError function [Windows Management Infrastructure (MI)], mi/MI_Context_PostCimError, wmi.mi_postcimerror, wmi_v2.mi_context_postcimerror
 ms.prod: windows
 ms.technology: windows-sdk

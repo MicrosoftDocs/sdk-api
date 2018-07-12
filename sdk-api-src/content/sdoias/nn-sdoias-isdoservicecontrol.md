@@ -4,10 +4,10 @@ title: ISdoServiceControl
 author: windows-sdk-content
 description: Use the ISdoServiceControl interface to control the service being administered on the SDO computer.
 old-location: nps\SDO_isdoservicecontrol.htm
-old-project: Nps
+old-project: nps
 ms.assetid: c901ac9a-524a-498d-8b72-9afb26cf2c58
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ISdoServiceControl, ISdoServiceControl interface [Network Policy Server], ISdoServiceControl interface [Network Policy Server],described, _sdo_isdoservicecontrol, nps.SDO_isdoservicecontrol, sdo.isdoservicecontrol, sdoias/ISdoServiceControl
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: cos\itransactioncontext_commit.htm
 old-project: cossdk
 ms.assetid: 3945fdf1-6361-413e-9621-18871ded47a4
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: Commit, Commit method [COM+], Commit method [COM+],ITransactionContext interface, ITransactionContext interface [COM+],Commit method, ITransactionContext.Commit, ITransactionContext::Commit, _cos_ITransactionContext_Commit, comsvcs/ITransactionContext::Commit, cos.itransactioncontext_commit
 ms.prod: windows
 ms.technology: windows-sdk

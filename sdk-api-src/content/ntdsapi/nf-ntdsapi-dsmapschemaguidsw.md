@@ -4,10 +4,10 @@ title: DsMapSchemaGuidsW function
 author: windows-sdk-content
 description: Converts GUIDs of directory service schema objects to their display names.
 old-location: ad\dsmapschemaguids.htm
-old-project: AD
+old-project: ad
 ms.assetid: 439fff20-51eb-490d-a330-61d07f79c436
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DsMapSchemaGuids, DsMapSchemaGuids function [Active Directory], DsMapSchemaGuidsA, DsMapSchemaGuidsW, _glines_dsmapschemaguids, ad.dsmapschemaguids, ntdsapi/DsMapSchemaGuids, ntdsapi/DsMapSchemaGuidsA, ntdsapi/DsMapSchemaGuidsW
 ms.prod: windows
 ms.technology: windows-sdk

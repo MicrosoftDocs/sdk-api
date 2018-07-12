@@ -7,7 +7,7 @@ old-location: winprog\icamerauicontroleventcallback.htm
 old-project: DevNotes
 ms.assetid: f870557e-0e01-4f5c-81be-c709e397e5fd
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: ICameraUIControlEventCallback, ICameraUIControlEventCallback interface [Windows API], ICameraUIControlEventCallback interface [Windows API],described, camerauicontrol/ICameraUIControlEventCallback, winprog.icamerauicontroleventcallback
 ms.prod: windows
 ms.technology: windows-sdk

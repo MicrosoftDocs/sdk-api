@@ -4,10 +4,10 @@ title: ISClusNode::get_ResourceGroups
 author: windows-sdk-content
 description: Returns a ClusResGroups collection providing access to the groups currently owned by the node.
 old-location: mscs\clusnode_resourcegroups.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 45eae46b-54d2-4945-aab1-8b471df64881
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNode object [Failover Cluster],ResourceGroups property, ClusNode.ResourceGroups, ISClusNode.get_ResourceGroups, ISClusNode::get_ResourceGroups, ResourceGroups property [Failover Cluster], ResourceGroups property [Failover Cluster],ClusNode object, _wolf_clusnode.resourcegroups, get_ResourceGroups, mscs.clusnode_resourcegroups
 ms.prod: windows
 ms.technology: windows-sdk

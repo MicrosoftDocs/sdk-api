@@ -7,7 +7,7 @@ old-location: gdi\getlayout.htm
 old-project: gdi
 ms.assetid: 2bbc0bef-55e5-4f11-a195-d379e95e44bf
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetLayout, GetLayout function [Windows GDI], _win32_GetLayout, gdi.getlayout, wingdi/GetLayout
 ms.prod: windows
 ms.technology: windows-sdk

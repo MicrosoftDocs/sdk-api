@@ -7,7 +7,7 @@ old-location: cloudapi\cf_operation_ack_rename_flags.htm
 old-project: cfApi
 ms.assetid: 2EAABBAE-8737-4399-8C39-7D63B45C52B3
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CF_OPERATION_ACK_RENAME_FLAGS, CF_OPERATION_ACK_RENAME_FLAGS enumeration, CF_OPERATION_ACK_RENAME_FLAG_NONE, cfapi/CF_OPERATION_ACK_RENAME_FLAGS, cfapi/CF_OPERATION_ACK_RENAME_FLAG_NONE, cloudApi.cf_operation_ack_rename_flags
 ms.prod: windows
 ms.technology: windows-sdk

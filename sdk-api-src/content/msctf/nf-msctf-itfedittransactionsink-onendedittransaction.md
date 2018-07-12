@@ -7,7 +7,7 @@ old-location: tsf\itfedittransactionsink_onendedittransaction.htm
 old-project: TSF
 ms.assetid: 9ca9eac8-f30b-4a52-b851-3ad7a5c4dfb7
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfEditTransactionSink interface [Text Services Framework],OnEndEditTransaction method, ITfEditTransactionSink.OnEndEditTransaction, ITfEditTransactionSink::OnEndEditTransaction, OnEndEditTransaction, OnEndEditTransaction method [Text Services Framework], OnEndEditTransaction method [Text Services Framework],ITfEditTransactionSink interface, _tsf_itfedittransactionsink_onendedittransaction_ref, msctf/ITfEditTransactionSink::OnEndEditTransaction, tsf.itfedittransactionsink_onendedittransaction
 ms.prod: windows
 ms.technology: windows-sdk

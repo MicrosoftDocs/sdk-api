@@ -7,7 +7,7 @@ old-location: search\_search_IEntity_NamedEntities.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\namedentities.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IEntity interface [search],NamedEntities method, IEntity.NamedEntities, IEntity::NamedEntities, NamedEntities, NamedEntities method [search], NamedEntities method [search],IEntity interface, _search_IEntity_NamedEntities, search._search_IEntity_NamedEntities, structuredquery/IEntity::NamedEntities
 ms.prod: windows
 ms.technology: windows-sdk

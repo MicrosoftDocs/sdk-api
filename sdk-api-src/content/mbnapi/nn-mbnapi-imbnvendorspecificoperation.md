@@ -7,7 +7,7 @@ old-location: mbn\imbnvendorspecificoperation.htm
 old-project: mbn
 ms.assetid: cbc905f6-c5ac-4c6a-9021-4ec00b938bb2
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IMbnVendorSpecificOperation, IMbnVendorSpecificOperation interface [Microsoft Broadband Networks], IMbnVendorSpecificOperation interface [Microsoft Broadband Networks],described, mbn.imbnvendorspecificoperation, mbnapi/IMbnVendorSpecificOperation
 ms.prod: windows
 ms.technology: windows-sdk

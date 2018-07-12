@@ -7,7 +7,7 @@ old-location: automat\registertypelibforuser.htm
 old-project: automat
 ms.assetid: ca8ae169-f849-4df2-8537-095d65ad6a08
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: RegisterTypeLibForUser, RegisterTypeLibForUser function [Automation], _oa96_RegisterTypeLibForUser, automat.registertypelibforuser, oleauto/RegisterTypeLibForUser
 ms.prod: windows
 ms.technology: windows-sdk

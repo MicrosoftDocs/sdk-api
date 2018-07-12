@@ -4,10 +4,10 @@ title: OfflineFilesQueryStatusEx function
 author: windows-sdk-content
 description: Determines whether the Offline Files feature is enabled and, if so, whether it is active and available. This function is identical to the OfflineFilesQueryStatus function, except that it has an additional output parameter.
 old-location: of\offlinefilesquerystatusex.htm
-old-project: OfflineFiles
+old-project: offlinefiles
 ms.assetid: 1916F3F7-3B99-40CA-B503-EA1D10991BF4
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: OfflineFilesQueryStatusEx, OfflineFilesQueryStatusEx function [Offline Files], cscapi/OfflineFilesQueryStatusEx, of.offlinefilesquerystatusex
 ms.prod: windows
 ms.technology: windows-sdk

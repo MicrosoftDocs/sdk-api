@@ -4,10 +4,10 @@ title: WdsTransportClientStartSession function
 author: windows-sdk-content
 description: Initiates a multicast file transfer.
 old-location: wds\wdstransportclientstartsession.htm
-old-project: Wds
+old-project: wds
 ms.assetid: aa89899f-8f50-4617-84a1-4013412f0292
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: WdsTransportClientStartSession, WdsTransportClientStartSession function [Windows Deployment Services], wds.wdstransportclientstartsession, wdstci/WdsTransportClientStartSession
 ms.prod: windows
 ms.technology: windows-sdk

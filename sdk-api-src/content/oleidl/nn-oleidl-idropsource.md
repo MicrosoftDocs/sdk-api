@@ -7,7 +7,7 @@ old-location: com\idropsource.htm
 old-project: com
 ms.assetid: 963a36bc-4ad7-4591-bffc-a96b4310177d
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IDropSource, IDropSource interface [COM], IDropSource interface [COM],described, _ole_idropsource, com.idropsource, oleidl/IDropSource
 ms.prod: windows
 ms.technology: windows-sdk

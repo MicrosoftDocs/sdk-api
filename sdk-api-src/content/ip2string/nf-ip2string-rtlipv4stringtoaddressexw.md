@@ -4,10 +4,10 @@ title: RtlIpv4StringToAddressExW function
 author: windows-sdk-content
 description: Converts a string representation of an IPv4 address and port number to a binary IPv4 address and port.
 old-location: iphlp\rtlipv4stringtoaddressex.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 72d20cf0-38ff-4c00-93ec-949aaf6f96e2
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: RtlIpv4StringToAddressEx, RtlIpv4StringToAddressEx function [IP Helper], RtlIpv4StringToAddressExW, ip2string/RtlIpv4StringToAddressEx, ip2string/RtlIpv4StringToAddressExW, iphlp.rtlipv4stringtoaddressex
 ms.prod: windows
 ms.technology: windows-sdk

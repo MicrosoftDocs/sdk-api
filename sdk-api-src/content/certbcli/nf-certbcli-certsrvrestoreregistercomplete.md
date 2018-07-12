@@ -4,10 +4,10 @@ title: CertSrvRestoreRegisterComplete function
 author: windows-sdk-content
 description: Completes a registered Certificate Services restore operation.
 old-location: security\certsrvrestoreregistercomplete.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 1459d5b2-2c12-48df-ae01-c713c86f1c2e
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CertSrvRestoreRegisterComplete, CertSrvRestoreRegisterComplete function [Security], _certsrv_certsrvrestoreregistercomplete, certbcli/CertSrvRestoreRegisterComplete, security.certsrvrestoreregistercomplete
 ms.prod: windows
 ms.technology: windows-sdk

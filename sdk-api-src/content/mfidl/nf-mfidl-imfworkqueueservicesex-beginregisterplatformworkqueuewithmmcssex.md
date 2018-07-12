@@ -7,7 +7,7 @@ old-location: mf\imfworkqueueservicesex_beginregisterplatformworkqueuewithmmcsse
 old-project: medfound
 ms.assetid: 761e0e51-06e9-4b26-b6ad-afeaa7150e64
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: BeginRegisterPlatformWorkQueueWithMMCSSEx, BeginRegisterPlatformWorkQueueWithMMCSSEx method [Media Foundation], BeginRegisterPlatformWorkQueueWithMMCSSEx method [Media Foundation],IMFWorkQueueServicesEx interface, IMFWorkQueueServicesEx interface [Media Foundation],BeginRegisterPlatformWorkQueueWithMMCSSEx method, IMFWorkQueueServicesEx.BeginRegisterPlatformWorkQueueWithMMCSSEx, IMFWorkQueueServicesEx::BeginRegisterPlatformWorkQueueWithMMCSSEx, mf.imfworkqueueservicesex_beginregisterplatformworkqueuewithmmcssex, mfidl/IMFWorkQueueServicesEx::BeginRegisterPlatformWorkQueueWithMMCSSEx
 ms.prod: windows
 ms.technology: windows-sdk

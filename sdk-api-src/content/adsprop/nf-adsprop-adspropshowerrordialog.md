@@ -4,10 +4,10 @@ title: ADsPropShowErrorDialog function
 author: windows-sdk-content
 description: The ADsPropShowErrorDialog function displays a dialog box that contains the error messages accumulated through calls to the ADsPropSendErrorMessage function or the WM_ADSPROP_NOTIFY_ERROR.
 old-location: ad\adspropshowerrordialog.htm
-old-project: AD
+old-project: ad
 ms.assetid: c7ed3d36-474e-4cb1-82aa-1e2c1ebd4b83
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: ADsPropShowErrorDialog, ADsPropShowErrorDialog function [Active Directory], ad.adspropshowerrordialog, adsprop/ADsPropShowErrorDialog
 ms.prod: windows
 ms.technology: windows-sdk

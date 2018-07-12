@@ -4,10 +4,10 @@ title: Tbsi_Context_Create function
 author: windows-sdk-content
 description: Creates a context handle that can be used to pass commands to TBS.
 old-location: tbs\_tbsi_context_create.htm
-old-project: TBS
+old-project: tbs
 ms.assetid: 5f19f649-2132-4fd8-a346-4be73fb8917c
 ms.author: windowssdkdev
-ms.date: 03/01/2018
+ms.date: 03/02/2018
 ms.keywords: Tbsi_Context_Create, Tbsi_Context_Create function [TBS], tbs._tbsi_context_create, tbs/Tbsi_Context_Create
 ms.prod: windows
 ms.technology: windows-sdk

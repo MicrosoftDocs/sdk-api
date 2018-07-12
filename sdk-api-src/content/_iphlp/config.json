@@ -14,6 +14,5 @@
     "tcpestats.h",
     "iprtrmib.h",
     "ws2def.h"
-  ],
-  "displayName": "IP Helper"
+  ]
 }

@@ -4,10 +4,10 @@ title: IGetClusterObjectInfo
 author: windows-sdk-content
 description: Called by a Failover Cluster Administrator extension to retrieve information about a cluster object.
 old-location: mscs\igetclusterobjectinfo.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: a88ba05c-b64b-4d6d-b005-f2f867093355
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IGetClusterObjectInfo, IGetClusterObjectInfo interface [Failover Cluster], IGetClusterObjectInfo interface [Failover Cluster],described, _wolf_igetclusterobjectinfo, cluadmex/IGetClusterObjectInfo, mscs.igetclusterobjectinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,13 +117,13 @@ You can use the <b>IGetClusterObjectInfo</b> interface
 </ul>
 Failover Cluster Administrator passes in an <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer, 
      <i>piData</i>. Use <i>piData</i> to call 
-     <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> for one of the 
+     <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> for one of the 
      <b>IGetClusterObjectInfo</b> methods.
 
 Do not obtain other information interfaces, such as 
      <a href="https://msdn.microsoft.com/335114ff-3db8-4867-b830-6806adef01f8">IGetClusterGroupInfo</a>, from the 
      <b>IGetClusterObjectInfo</b> interface. While 
-     <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> will return a valid interface, 
+     <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> will return a valid interface, 
      the operation is not valid in the context of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>, 
      and the result is an interface that represents no real cluster object. For an illustration, see 
      <a href="https://msdn.microsoft.com/8a3a9e9d-4666-4d9a-83e3-10d667b42d66">IGetClusterResourceInfo</a>.

@@ -4,10 +4,10 @@ title: RtlEncryptMemory function
 author: windows-sdk-content
 description: Encrypts memory contents.
 old-location: security\rtlencryptmemory.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: b124a7fe-c62c-42f7-9d2b-cbf74d17186a
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: RTL_ENCRYPT_OPTION_CROSS_PROCESS, RTL_ENCRYPT_OPTION_SAME_LOGON, RtlEncryptMemory, RtlEncryptMemory function [Security], ntsecapi/RtlEncryptMemory, security.rtlencryptmemory
 ms.prod: windows
 ms.technology: windows-sdk

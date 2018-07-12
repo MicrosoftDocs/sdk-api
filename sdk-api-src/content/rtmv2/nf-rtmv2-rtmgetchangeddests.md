@@ -4,10 +4,10 @@ title: RtmGetChangedDests function
 author: windows-sdk-content
 description: The RtmGetChangedDests function returns a set of destinations with changed information.
 old-location: rras\rtmgetchangeddests.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 2b22927d-a857-4bcb-9d89-6ca156b04ea9
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RtmGetChangedDests, RtmGetChangedDests function [RAS], _rtmv2ref_rtmgetchangeddests, rras.rtmgetchangeddests, rtmv2/RtmGetChangedDests
 ms.prod: windows
 ms.technology: windows-sdk

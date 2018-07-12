@@ -7,7 +7,7 @@ old-location: inputmsg\getpointerframetouchinfohistory.htm
 old-project: InputMsg
 ms.assetid: f2521a67-9850-46e9-bc8b-75bf5b6cc263
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 07/09/2018
 ms.keywords: GetPointerFrameTouchInfoHistory, GetPointerFrameTouchInfoHistory function [Input Messages and Notifications], inputmsg.getpointerframetouchinfohistory, winuser/GetPointerFrameTouchInfoHistory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

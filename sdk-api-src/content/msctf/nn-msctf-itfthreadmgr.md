@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgr.htm
 old-project: TSF
 ms.assetid: 3a2ba59c-3565-4f54-ac10-923dcb4882cb
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfThreadMgr, ITfThreadMgr interface [Text Services Framework], ITfThreadMgr interface [Text Services Framework],described, _tsf_itfthreadmgr_ref, msctf/ITfThreadMgr, tsf.itfthreadmgr
 ms.prod: windows
 ms.technology: windows-sdk

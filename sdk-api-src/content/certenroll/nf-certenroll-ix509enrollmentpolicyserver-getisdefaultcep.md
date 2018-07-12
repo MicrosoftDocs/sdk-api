@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::GetIsDefaultCEP
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether this is the default certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getisdefaultcep.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 9c84993b-5d08-45c1-8139-458b047028aa
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetIsDefaultCEP, GetIsDefaultCEP method [Security], GetIsDefaultCEP method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetIsDefaultCEP method, IX509EnrollmentPolicyServer.GetIsDefaultCEP, IX509EnrollmentPolicyServer::GetIsDefaultCEP, certenroll/IX509EnrollmentPolicyServer::GetIsDefaultCEP, security.ix509enrollmentpolicyserver_getisdefaultcep
 ms.prod: windows
 ms.technology: windows-sdk

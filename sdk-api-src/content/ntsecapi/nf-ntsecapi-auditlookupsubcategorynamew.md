@@ -4,10 +4,10 @@ title: AuditLookupSubCategoryNameW function
 author: windows-sdk-content
 description: Retrieves the display name of the specified audit-policy subcategory.
 old-location: security\auditlookupsubcategoryname_func.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 65ccd0f6-ee43-4b4d-98fd-b7a49f23ad9d
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: AuditLookupSubCategoryName, AuditLookupSubCategoryName function [Security], AuditLookupSubCategoryNameA, AuditLookupSubCategoryNameW, ntsecapi/AuditLookupSubCategoryName, ntsecapi/AuditLookupSubCategoryNameA, ntsecapi/AuditLookupSubCategoryNameW, security.auditlookupsubcategoryname_func
 ms.prod: windows
 ms.technology: windows-sdk

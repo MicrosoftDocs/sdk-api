@@ -4,10 +4,10 @@ title: ITextDocument2::SetIMEInProgress
 author: windows-sdk-content
 description: Sets the state of the Input Method Editor (IME) in-progress flag.
 old-location: controls\itextdocument2_setimeinprogress.htm
-old-project: Controls
+old-project: controls
 ms.assetid: 65db4e97-48c9-48e0-b436-2b2e6713bebd
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetIMEInProgress method, ITextDocument2.SetIMEInProgress, ITextDocument2::SetIMEInProgress, SetIMEInProgress, SetIMEInProgress method [Windows Controls], SetIMEInProgress method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setimeinprogress, tom/ITextDocument2::SetIMEInProgress
 ms.prod: windows
 ms.technology: windows-sdk

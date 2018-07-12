@@ -4,10 +4,10 @@ title: IVdsLunControllerPorts::QueryActiveControllerPorts
 author: windows-sdk-content
 description: Returns an enumeration of currently active controller ports.
 old-location: base\ivdsluncontrollerports_queryactivecontrollerports.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 0a6f34c6-f333-4abf-ad37-b7756b125045
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsLunControllerPorts interface,QueryActiveControllerPorts method, IVdsLunControllerPorts.QueryActiveControllerPorts, IVdsLunControllerPorts::QueryActiveControllerPorts, QueryActiveControllerPorts, QueryActiveControllerPorts method, QueryActiveControllerPorts method,IVdsLunControllerPorts interface, base.ivdsluncontrollerports_queryactivecontrollerports, vds/IVdsLunControllerPorts::QueryActiveControllerPorts, vdshwprv/IVdsLunControllerPorts::QueryActiveControllerPorts
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ Returns an enumeration of currently active controller ports—
 ### -param ppEnum [out]
 
 
-      The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the controller ports  as <a href="https://msdn.microsoft.com/5f94bcdc-93ab-4522-88bd-009a049b5dc9">controller port objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the controller port objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+      The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the controller ports  as <a href="https://msdn.microsoft.com/5f94bcdc-93ab-4522-88bd-009a049b5dc9">controller port objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the controller port objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
      
 
 

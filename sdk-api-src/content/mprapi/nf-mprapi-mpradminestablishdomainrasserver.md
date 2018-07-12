@@ -4,10 +4,10 @@ title: MprAdminEstablishDomainRasServer function
 author: windows-sdk-content
 description: The MprAdminEstablishDomainRasServer function establishes the given machine as a Remote Access Server in the domain. This function must be executed only on a machine joined to a domain.
 old-location: rras\mpradminestablishdomainrasserver.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 756e267b-73bf-46d3-a1af-d2442ceb7b52
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprAdminEstablishDomainRasServer, MprAdminEstablishDomainRasServer function [RAS], mprapi/MprAdminEstablishDomainRasServer, rras.mpradminestablishdomainrasserver
 ms.prod: windows
 ms.technology: windows-sdk

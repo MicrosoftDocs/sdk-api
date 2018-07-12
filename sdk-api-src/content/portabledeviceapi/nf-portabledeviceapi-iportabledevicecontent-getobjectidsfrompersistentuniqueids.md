@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecontent_getobjectidsfrompersistentuniqueids.
 old-project: wpd_sdk
 ms.assetid: ee2aa718-0616-44b8-a9c6-cc835636500c
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.keywords: GetObjectIDsFromPersistentUniqueIDs, GetObjectIDsFromPersistentUniqueIDs method [Windows Portable Devices SDK], GetObjectIDsFromPersistentUniqueIDs method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],GetObjectIDsFromPersistentUniqueIDs method, IPortableDeviceContent.GetObjectIDsFromPersistentUniqueIDs, IPortableDeviceContent::GetObjectIDsFromPersistentUniqueIDs, IPortableDeviceContentGetObjectIDsFromPersistentUniqueIDs, portabledeviceapi/IPortableDeviceContent::GetObjectIDsFromPersistentUniqueIDs, wpdsdk.iportabledevicecontent_getobjectidsfrompersistentuniqueids
 ms.prod: windows
 ms.technology: windows-sdk

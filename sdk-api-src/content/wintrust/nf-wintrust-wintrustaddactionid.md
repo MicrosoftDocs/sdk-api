@@ -4,10 +4,10 @@ title: WintrustAddActionID function
 author: windows-sdk-content
 description: Adds a trust provider action to the user's system.
 old-location: security\wintrustaddactionid.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 3b282342-9c86-42fa-b745-e5194d2885dc
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: HTTPSPROV_ACTION, WINTRUST_ACTION_GENERIC_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WintrustAddActionID, WintrustAddActionID function [Security], security.wintrustaddactionid, wintrust/WintrustAddActionID
 ms.prod: windows
 ms.technology: windows-sdk

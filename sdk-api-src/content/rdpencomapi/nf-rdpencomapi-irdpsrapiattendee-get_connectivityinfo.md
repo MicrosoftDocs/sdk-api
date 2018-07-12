@@ -4,10 +4,10 @@ title: IRDPSRAPIAttendee::get_ConnectivityInfo
 author: windows-sdk-content
 description: Retrieves the connectivity information for the attendee.
 old-location: rdp\irdpsrapiattendee_connectivityinfo.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: 40112da5-c7b6-42f9-9acf-887161aceabf
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 03/29/2018
 ms.keywords: ConnectivityInfo property [RDP], ConnectivityInfo property [RDP],IRDPSRAPIAttendee interface, ConnectivityInfo property [RDP],RDPSRAPIAttendee object, IRDPSRAPIAttendee interface [RDP],ConnectivityInfo property, IRDPSRAPIAttendee.ConnectivityInfo, IRDPSRAPIAttendee.get_ConnectivityInfo, IRDPSRAPIAttendee::ConnectivityInfo, IRDPSRAPIAttendee::get_ConnectivityInfo, RDPSRAPIAttendee object [RDP],ConnectivityInfo property, get_ConnectivityInfo, rdp.irdpsrapiattendee_connectivityinfo, rdpencomapi/IRDPSRAPIAttendee::ConnectivityInfo, rdpencomapi/IRDPSRAPIAttendee::get_ConnectivityInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IStaticPortMapping::get_InternalClient
 author: windows-sdk-content
 description: The get_InternalClient method retrieves the name of the internal client for this port mapping.
 old-location: ics\istaticportmapping_get_internalclient.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 91756e75-1915-4d61-841e-6a6cf1e849eb
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_InternalClient method, IStaticPortMapping.get_InternalClient, IStaticPortMapping::get_InternalClient, _ics_istaticportmapping_get_internalclient, get_InternalClient, get_InternalClient method [ICS/ICF], get_InternalClient method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_internalclient, natupnp/IStaticPortMapping::get_InternalClient
 ms.prod: windows
 ms.technology: windows-sdk

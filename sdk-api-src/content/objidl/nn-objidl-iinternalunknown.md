@@ -7,7 +7,7 @@ old-location: com\iinternalunknown.htm
 old-project: com
 ms.assetid: d2f4c8bc-80b9-4ba0-9f30-f0864144902b
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IInternalUnknown, IInternalUnknown interface [COM], IInternalUnknown interface [COM],described, _com_iinternalunknown, com.iinternalunknown, objidlbase/IInternalUnknown
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary_createsinusoidaltransiti
 old-project: UIAnimation
 ms.assetid: 47998787-dcd5-4973-bf7e-30096b01c51b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: CreateSinusoidalTransitionFromVelocity, CreateSinusoidalTransitionFromVelocity method [Windows Animation], CreateSinusoidalTransitionFromVelocity method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateSinusoidalTransitionFromVelocity method, IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromVelocity, IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromVelocity, uianimation.iuianimationtransitionlibrary_createsinusoidaltransitionfromvelocity, uianimation/IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromVelocity
 ms.prod: windows
 ms.technology: windows-sdk

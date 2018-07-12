@@ -4,10 +4,10 @@ title: IMcastLeaseInfo::get_RequestID
 author: windows-sdk-content
 description: The get_RequestID method obtains the request ID for a lease.
 old-location: tapi3\imcastleaseinfo_get_requestid.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 832bf532-4779-4066-a630-9892ad746a6c
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_RequestID method, IMcastLeaseInfo.get_RequestID, IMcastLeaseInfo::get_RequestID, _tapi3_imcastleaseinfo_get_requestid, get_RequestID, get_RequestID method [TAPI 2.2], get_RequestID method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_RequestID, tapi3.imcastleaseinfo_get_requestid
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\iblockinglock_lock.htm
 old-project: com
 ms.assetid: 35657795-2f18-4738-b0b5-8d03e0e4179d
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IBlockingLock interface [COM],Lock method, IBlockingLock.Lock, IBlockingLock::Lock, Lock, Lock method [COM], Lock method [COM],IBlockingLock interface, _com_iblockinglock_lock, com.iblockinglock_lock, objidl/IBlockingLock::Lock
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IWSDAsyncResult::HasCompleted
 author: windows-sdk-content
 description: Indicates whether the operation has completed.
 old-location: ncd\iwsdasyncresult_hascompleted_method.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 67944519-c6cc-4dc8-9035-4e6ee84e1277
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: HasCompleted, HasCompleted method, HasCompleted method,IWSDAsyncResult interface, IWSDAsyncResult interface,HasCompleted method, IWSDAsyncResult.HasCompleted, IWSDAsyncResult::HasCompleted, ncd.iwsdasyncresult_hascompleted_method, wsdclient/IWSDAsyncResult::HasCompleted
 ms.prod: windows
 ms.technology: windows-sdk

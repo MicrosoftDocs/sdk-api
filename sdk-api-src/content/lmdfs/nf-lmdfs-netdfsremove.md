@@ -4,10 +4,10 @@ title: NetDfsRemove function
 author: windows-sdk-content
 description: Removes a Distributed File System (DFS) link or a specific link target of a DFS link in a DFS namespace. When removing a specific link target, the link itself is removed if the last link target of the link is removed.
 old-location: dfs\netdfsremove.htm
-old-project: Dfs
+old-project: dfs
 ms.assetid: c879ba56-cc42-4fa3-960f-ddc65a75dbe3
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: NetDfsRemove, NetDfsRemove function [Distributed File System], _win32_netdfsremove, dfs.netdfsremove, fs.netdfsremove, lmdfs/NetDfsRemove, netmgmt.netdfsremove
 ms.prod: windows
 ms.technology: windows-sdk

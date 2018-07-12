@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometryfigure_getsegmentstrokes.htm
 old-project: printdocs
 ms.assetid: 97832bcb-c193-48e2-84f5-21b9c5a55cc9
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: FALSE, GetSegmentStrokes, GetSegmentStrokes method [XPS Documents and Packaging], GetSegmentStrokes method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentStrokes method, IXpsOMGeometryFigure.GetSegmentStrokes, IXpsOMGeometryFigure::GetSegmentStrokes, TRUE, xps.ixpsomgeometryfigure_getsegmentstrokes, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentStrokes
 ms.prod: windows
 ms.technology: windows-sdk

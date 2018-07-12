@@ -4,10 +4,10 @@ title: IRDPSRAPIPerfCounterLogger::LogValue
 author: windows-sdk-content
 description: Logs a value.
 old-location: rdp\irdpsrapiperfcounterlogger_logvalue.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: B6EF608E-5AA9-4AB7-920D-F6E567E1258C
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 03/29/2018
 ms.keywords: IRDPSRAPIPerfCounterLogger interface [RDP],LogValue method, IRDPSRAPIPerfCounterLogger.LogValue, IRDPSRAPIPerfCounterLogger::LogValue, LogValue, LogValue method [RDP], LogValue method [RDP],IRDPSRAPIPerfCounterLogger interface, rdp.irdpsrapiperfcounterlogger_logvalue, rdpencomapi/IRDPSRAPIPerfCounterLogger::LogValue
 ms.prod: windows
 ms.technology: windows-sdk

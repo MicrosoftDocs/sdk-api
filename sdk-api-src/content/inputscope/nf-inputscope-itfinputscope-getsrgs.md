@@ -7,7 +7,7 @@ old-location: tsf\itfinputscope_getSRGS.htm
 old-project: TSF
 ms.assetid: 6514d925-b60e-4071-abb2-4c26a122089a
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: GetSRGS, GetSRGS method [Text Services Framework], GetSRGS method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetSRGS method, ITfInputScope.GetSRGS, ITfInputScope::GetSRGS, inputscope/ITfInputScope::GetSRGS, tsf.itfinputscope_getSRGS
 ms.prod: windows
 ms.technology: windows-sdk

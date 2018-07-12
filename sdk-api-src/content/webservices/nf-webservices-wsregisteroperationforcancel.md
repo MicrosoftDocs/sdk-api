@@ -7,7 +7,7 @@ old-location: wsw\wsregisteroperationforcancel.htm
 old-project: wsw
 ms.assetid: 3e456814-f70f-47ab-b866-f0b73d5cd35e
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsRegisterOperationForCancel, WsRegisterOperationForCancel function [Web Services for Windows], webservices/WsRegisterOperationForCancel, wsw.wsregisteroperationforcancel
 ms.prod: windows
 ms.technology: windows-sdk

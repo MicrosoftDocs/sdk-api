@@ -7,7 +7,7 @@ old-location: multimedia\capgrabframe.htm
 old-project: Multimedia
 ms.assetid: bd306414-74a9-4683-ad63-797a37152e8f
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: "_win32_capGrabFrame, capGrabFrame, capGrabFrame macro [Windows Multimedia], multimedia.capgrabframe, vfw/capGrabFrame"
 ms.prod: windows
 ms.technology: windows-sdk

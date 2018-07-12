@@ -7,7 +7,7 @@ old-location: search\_search_ISearchQueryHelper_put_QuerySyntax.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querysyntax.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QuerySyntax method, ISearchQueryHelper.put_QuerySyntax, ISearchQueryHelper::put_QuerySyntax, _search_ISearchQueryHelper_put_QuerySyntax, put_QuerySyntax, put_QuerySyntax method [search], put_QuerySyntax method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QuerySyntax, searchapi/ISearchQueryHelper::put_QuerySyntax
 ms.prod: windows
 ms.technology: windows-sdk

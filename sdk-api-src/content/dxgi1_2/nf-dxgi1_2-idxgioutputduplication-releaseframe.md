@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutputduplication_releaseframe.htm
 old-project: direct3ddxgi
 ms.assetid: 841858AA-4840-4B04-B54A-F10362D43F5B
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: IDXGIOutputDuplication interface [DXGI],ReleaseFrame method, IDXGIOutputDuplication.ReleaseFrame, IDXGIOutputDuplication::ReleaseFrame, ReleaseFrame, ReleaseFrame method [DXGI], ReleaseFrame method [DXGI],IDXGIOutputDuplication interface, direct3ddxgi.idxgioutputduplication_releaseframe, dxgi1_2/IDXGIOutputDuplication::ReleaseFrame
 ms.prod: windows
 ms.technology: windows-sdk

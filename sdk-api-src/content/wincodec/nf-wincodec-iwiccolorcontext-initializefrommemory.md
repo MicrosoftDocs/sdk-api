@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccolorcontext_initializefrommemory.htm
 old-project: wic
 ms.assetid: 0cadc79b-85d0-495e-8309-8d5e3b246242
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICColorContext interface [Windows Imaging Component],InitializeFromMemory method, IWICColorContext.InitializeFromMemory, IWICColorContext::InitializeFromMemory, InitializeFromMemory, InitializeFromMemory method [Windows Imaging Component], InitializeFromMemory method [Windows Imaging Component],IWICColorContext interface, _wic_codec_iwiccolorcontext_initializefrommemory, wic._wic_codec_iwiccolorcontext_initializefrommemory, wincodec/IWICColorContext::InitializeFromMemory
 ms.prod: windows
 ms.technology: windows-sdk

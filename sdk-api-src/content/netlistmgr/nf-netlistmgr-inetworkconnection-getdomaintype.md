@@ -4,10 +4,10 @@ title: INetworkConnection::GetDomainType
 author: windows-sdk-content
 description: The GetDomainType method returns the domain type of the network connection.
 old-location: nla\inetworkconnection_getdomaintype.htm
-old-project: NLA
+old-project: nla
 ms.assetid: e243c1a3-8166-4e08-80f5-32811bcada69
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetDomainType, GetDomainType method [Network Awareness], GetDomainType method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetDomainType method, INetworkConnection.GetDomainType, INetworkConnection::GetDomainType, netlistmgr/INetworkConnection::GetDomainType, nla.inetworkconnection_getdomaintype
 ms.prod: windows
 ms.technology: windows-sdk

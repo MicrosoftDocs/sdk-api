@@ -7,7 +7,7 @@ old-location: imapi\ddiscformat2dataevents.htm
 old-project: imapi
 ms.assetid: f9f1d976-9ec9-40a5-92b6-d00a7e15d0aa
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: DDiscFormat2DataEvents, DDiscFormat2DataEvents interface [IMAPI], DDiscFormat2DataEvents interface [IMAPI],described, imapi.ddiscformat2dataevents, imapi2/DDiscFormat2DataEvents
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: search\_search_ISearchNotifyInlineSite_OnItemIndexedStatusChange.h
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchnotifyinlinesite\onitemindexedstatuschange.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISearchNotifyInlineSite interface [search],OnItemIndexedStatusChange method, ISearchNotifyInlineSite.OnItemIndexedStatusChange, ISearchNotifyInlineSite::OnItemIndexedStatusChange, OnItemIndexedStatusChange, OnItemIndexedStatusChange method [search], OnItemIndexedStatusChange method [search],ISearchNotifyInlineSite interface, _search_ISearchNotifyInlineSite_OnItemIndexedStatusChange, search._search_ISearchNotifyInlineSite_OnItemIndexedStatusChange, searchapi/ISearchNotifyInlineSite::OnItemIndexedStatusChange
 ms.prod: windows
 ms.technology: windows-sdk

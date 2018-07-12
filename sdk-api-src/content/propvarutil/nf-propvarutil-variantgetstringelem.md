@@ -7,7 +7,7 @@ old-location: properties\VariantGetStringElem.htm
 old-project: properties
 ms.assetid: c4d1a37e-f7d1-4c0e-8d05-93a0153f2878
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: VariantGetStringElem, VariantGetStringElem function [Windows Properties], _shell_VariantGetStringElem, properties.VariantGetStringElem, propvarutil/VariantGetStringElem, shell.VariantGetStringElem
 ms.prod: windows
 ms.technology: windows-sdk

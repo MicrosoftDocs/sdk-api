@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_ui_viewverb.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_view_verb.htm
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: UI_VIEWVERB, UI_VIEWVERB enumeration [Windows Ribbon], UI_VIEWVERB_CREATE, UI_VIEWVERB_DESTROY, UI_VIEWVERB_ERROR, UI_VIEWVERB_SIZE, scenicintent_UI_VIEWVERB, uiribbon/UI_VIEWVERB, uiribbon/UI_VIEWVERB_CREATE, uiribbon/UI_VIEWVERB_DESTROY, uiribbon/UI_VIEWVERB_ERROR, uiribbon/UI_VIEWVERB_SIZE, windowsribbon.windowsribbon_ui_viewverb
 ms.prod: windows
 ms.technology: windows-sdk

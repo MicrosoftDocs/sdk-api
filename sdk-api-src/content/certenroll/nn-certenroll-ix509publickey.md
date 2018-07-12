@@ -4,10 +4,10 @@ title: IX509PublicKey
 author: windows-sdk-content
 description: Represents a public key in a public/private key pair.
 old-location: security\ix509publickey.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: cd6f28a3-9998-40d7-a3e8-dab0cf3991a8
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509PublicKey, IX509PublicKey interface [Security], IX509PublicKey interface [Security],described, certenroll/IX509PublicKey, security.ix509publickey
 ms.prod: windows
 ms.technology: windows-sdk

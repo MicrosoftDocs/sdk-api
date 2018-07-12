@@ -4,10 +4,10 @@ title: IWindowsMediaLibrarySharingDeviceProperty
 author: windows-sdk-content
 description: The IWindowsMediaLibrarySharingDeviceProperty interface defines methods that provide access to the name and value of an individual property of a media device.
 old-location: wmlss\IWindowsMediaLibrarySharingDevicePropertyInterface.htm
-old-project: WMLSS
+old-project: wmlss
 ms.assetid: 7b76cf66-0096-4b63-a30c-2df7d1a14527
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: IWindowsMediaLibrarySharingDeviceProperty, IWindowsMediaLibrarySharingDeviceProperty interface [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingDeviceProperty interface [Windows Media Library Sharing Services],described, wmlss.IWindowsMediaLibrarySharingDevicePropertyInterface, wmlss/IWindowsMediaLibrarySharingDeviceProperty
 ms.prod: windows
 ms.technology: windows-sdk

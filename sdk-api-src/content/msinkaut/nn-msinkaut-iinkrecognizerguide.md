@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognizerguide.htm
 old-project: tablet
 ms.assetid: 2B0302A8-EA85-44D4-8877-EFF23DBD9271
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: IInkRecognizerGuide, IInkRecognizerGuide interface [Tablet PC], IInkRecognizerGuide interface [Tablet PC],described, msinkaut/IInkRecognizerGuide, tablet.iinkrecognizerguide
 ms.prod: windows
 ms.technology: windows-sdk

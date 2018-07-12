@@ -4,10 +4,10 @@ title: ISClusVersion::get_VendorId
 author: windows-sdk-content
 description: Returns vendor information about the Cluster service installed on the local node.
 old-location: mscs\clusversion_vendorid.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: d7d4b2cd-bb61-429a-970a-4e69113d42a8
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusVersion object [Failover Cluster],VendorId property, ClusVersion.VendorId, ISClusVersion.get_VendorId, ISClusVersion::get_VendorId, VendorId property [Failover Cluster], VendorId property [Failover Cluster],ClusVersion object, _wolf_clusversion.vendorid, get_VendorId, mscs.clusversion_vendorid
 ms.prod: windows
 ms.technology: windows-sdk

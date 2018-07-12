@@ -2,7 +2,7 @@
 UID: NA:scrnsave
 ms.assetid: e9c15545-1ec5-3729-82d6-6e67aa7717fa
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

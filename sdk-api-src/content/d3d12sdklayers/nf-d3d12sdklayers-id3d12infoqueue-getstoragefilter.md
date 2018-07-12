@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getstoragefilter.htm
 old-project: direct3d12
 ms.assetid: 077C3BA1-9686-4405-A561-4A6A2B128320
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: GetStorageFilter, GetStorageFilter method, GetStorageFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetStorageFilter method, ID3D12InfoQueue.GetStorageFilter, ID3D12InfoQueue::GetStorageFilter, d3d12sdklayers/ID3D12InfoQueue::GetStorageFilter, direct3d12.id3d12infoqueue_getstoragefilter
 ms.prod: windows
 ms.technology: windows-sdk

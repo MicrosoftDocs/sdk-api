@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instance_getelementat.htm
 old-project: wmi_v2
 ms.assetid: 4437162d-6320-4ec5-9a1c-b50dcc1516e3
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_FLAG_IN, MI_FLAG_KEY, MI_FLAG_NULL, MI_FLAG_OUT, MI_Instance_GetElementAt, MI_Instance_GetElementAt function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetElementAt, wmi_v2.mi_instance_getelementat
 ms.prod: windows
 ms.technology: windows-sdk

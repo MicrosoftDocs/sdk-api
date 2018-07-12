@@ -7,7 +7,7 @@ old-location: automat\varcyfromui8.htm
 old-project: automat
 ms.assetid: 7267e880-d241-457f-b105-6b9d357d029f
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarCyFromUI8, VarCyFromUI8 function [Automation], _oa96_VarCyFromUI8, automat.varcyfromui8, oleauto/VarCyFromUI8
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: SymFromIndexW function
 author: windows-sdk-content
 description: Retrieves symbol information for the specified index.
 old-location: base\symfromindex.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 84e94edd-2874-4b57-89eb-18b01dac91f4
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: SymFromIndex, SymFromIndex function, SymFromIndexW, base.symfromindex, dbghelp/SymFromIndex, dbghelp/SymFromIndexW
 ms.prod: windows
 ms.technology: windows-sdk

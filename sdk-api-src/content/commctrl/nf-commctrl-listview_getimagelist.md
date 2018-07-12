@@ -4,10 +4,10 @@ title: ListView_GetImageList macro
 author: windows-sdk-content
 description: Gets the handle to an image list used for drawing list-view items. You can use this macro or send the LVM_GETIMAGELIST message explicitly.
 old-location: controls\ListView_GetImageList.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getimagelist.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: LVSIL_GROUPHEADER, LVSIL_NORMAL, LVSIL_SMALL, LVSIL_STATE, ListView_GetImageList, ListView_GetImageList macro [Windows Controls], _win32_ListView_GetImageList, _win32_ListView_GetImageList_cpp, commctrl/ListView_GetImageList, controls.ListView_GetImageList, controls._win32_ListView_GetImageList
 ms.prod: windows
 ms.technology: windows-sdk

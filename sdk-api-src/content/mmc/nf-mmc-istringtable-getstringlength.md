@@ -4,10 +4,10 @@ title: IStringTable::GetStringLength
 author: windows-sdk-content
 description: Enables a snap-in to determine the length of a string in the snap-in's string table.
 old-location: mmc\istringtable_getstringlength.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 1924c4fa-ecbb-4f03-8c93-e2bb3dc8f4e3
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: GetStringLength, GetStringLength method [MMC], GetStringLength method [MMC],IStringTable interface, IStringTable interface [MMC],GetStringLength method, IStringTable.GetStringLength, IStringTable::GetStringLength, _slate_istringtable_getstringlength, mmc.istringtable_getstringlength, mmc/IStringTable::GetStringLength
 ms.prod: windows
 ms.technology: windows-sdk

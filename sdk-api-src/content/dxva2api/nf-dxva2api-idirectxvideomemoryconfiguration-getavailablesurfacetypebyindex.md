@@ -7,7 +7,7 @@ old-location: mf\idirectxvideomemoryconfiguration_getavailablesurfacetypebyindex
 old-project: medfound
 ms.assetid: 63311052-f01b-4d77-afac-1cc89166f754
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 63311052-f01b-4d77-afac-1cc89166f754, GetAvailableSurfaceTypeByIndex, GetAvailableSurfaceTypeByIndex method [Media Foundation], GetAvailableSurfaceTypeByIndex method [Media Foundation],IDirectXVideoMemoryConfiguration interface, IDirectXVideoMemoryConfiguration interface [Media Foundation],GetAvailableSurfaceTypeByIndex method, IDirectXVideoMemoryConfiguration.GetAvailableSurfaceTypeByIndex, IDirectXVideoMemoryConfiguration::GetAvailableSurfaceTypeByIndex, dxva2api/IDirectXVideoMemoryConfiguration::GetAvailableSurfaceTypeByIndex, mf.idirectxvideomemoryconfiguration_getavailablesurfacetypebyindex
 ms.prod: windows
 ms.technology: windows-sdk

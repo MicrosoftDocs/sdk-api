@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturecustomobjectset_create.htm
 old-project: OPC
 ms.assetid: 93bf4509-900c-42bc-9834-c8a33cfe7e65
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignatureCustomObjectSet interface, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],Create method, IOpcSignatureCustomObjectSet.Create, IOpcSignatureCustomObjectSet::Create, msopc/IOpcSignatureCustomObjectSet::Create, opc.iopcsignaturecustomobjectset_create
 ms.prod: windows
 ms.technology: windows-sdk

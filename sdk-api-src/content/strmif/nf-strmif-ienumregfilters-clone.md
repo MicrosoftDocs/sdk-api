@@ -7,7 +7,7 @@ old-location: dshow\ienumregfilters_clone.htm
 old-project: DirectShow
 ms.assetid: ba4366fa-57ba-4057-b3b9-5380e0fca006
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumRegFilters interface, IEnumRegFilters interface [DirectShow],Clone method, IEnumRegFilters.Clone, IEnumRegFilters::Clone, IEnumRegFiltersClone, dshow.ienumregfilters_clone, strmif/IEnumRegFilters::Clone
 ms.prod: windows
 ms.technology: windows-sdk

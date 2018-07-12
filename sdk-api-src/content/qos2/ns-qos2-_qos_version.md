@@ -4,10 +4,10 @@ title: "_QOS_VERSION"
 author: windows-sdk-content
 description: The QOS_VERSION structure indicates the version of the QOS protocol.
 old-location: qos\qos_version.htm
-old-project: QOS
+old-project: qos
 ms.assetid: cc8d6dc3-87e9-46c7-8192-78053b4932a3
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: "*PQOS_VERSION, PQOS_VERSION, PQOS_VERSION structure pointer [QOS], QOS_VERSION, QOS_VERSION structure [QOS], _QOS_VERSION, qos.qos_version, qos2/PQOS_VERSION, qos2/QOS_VERSION"
 ms.prod: windows
 ms.technology: windows-sdk

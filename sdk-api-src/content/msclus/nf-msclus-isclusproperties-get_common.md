@@ -4,10 +4,10 @@ title: ISClusProperties::get_Common
 author: windows-sdk-content
 description: Indicates whether the properties in a ClusProperties collection are common properties.
 old-location: mscs\clusproperties_common.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 7003b7e6-56f9-4499-9967-966ba23c40ed
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusProperties collection [Failover Cluster],Common property, ClusProperties.Common, Common property [Failover Cluster], Common property [Failover Cluster],ClusProperties collection, ISClusProperties.get_Common, ISClusProperties::get_Common, _wolf_clusproperties.common, get_Common, mscs.clusproperties_common
 ms.prod: windows
 ms.technology: windows-sdk

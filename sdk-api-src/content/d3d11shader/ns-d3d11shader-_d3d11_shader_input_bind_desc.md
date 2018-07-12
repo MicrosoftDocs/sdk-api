@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_shader_input_bind_desc.htm
 old-project: direct3d11
 ms.assetid: 384ad8f8-0991-4cd2-bb3d-76b8338686da
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: D3D11_SHADER_INPUT_BIND_DESC, D3D11_SHADER_INPUT_BIND_DESC structure [Direct3D 11], _D3D11_SHADER_INPUT_BIND_DESC, b6214f45-418b-2509-b9d9-f7513efc5ba6, d3d11shader/D3D11_SHADER_INPUT_BIND_DESC, direct3d11.d3d11_shader_input_bind_desc
 ms.prod: windows
 ms.technology: windows-sdk

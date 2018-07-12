@@ -7,7 +7,7 @@ old-location: winauto\uiauto_RaiseAutoPropChangedEventFunction.htm
 old-project: WinAuto
 ms.assetid: ec9da198-eb1d-4883-9b5c-539c92bd530b
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: UiaRaiseAutomationPropertyChangedEvent, UiaRaiseAutomationPropertyChangedEvent function [Windows Accessibility], uiauto.uiauto_RaiseAutoPropChangedEventFunction, uiauto_RaiseAutoPropChangedEventFunction, uiautomationcoreapi/UiaRaiseAutomationPropertyChangedEvent, winauto.uiauto_RaiseAutoPropChangedEventFunction
 ms.prod: windows
 ms.technology: windows-sdk

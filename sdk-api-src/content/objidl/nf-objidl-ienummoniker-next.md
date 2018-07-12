@@ -7,7 +7,7 @@ old-location: com\ienummoniker_next.htm
 old-project: com
 ms.assetid: ab4fd626-bddc-42b4-b279-b89d1f79b1e1
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IEnumMoniker interface [COM],Next method, IEnumMoniker.Next, IEnumMoniker::Next, Next, Next method [COM], Next method [COM],IEnumMoniker interface, _ole_ienummoniker_next, com.ienummoniker_next, objidl/IEnumMoniker::Next
 ms.prod: windows
 ms.technology: windows-sdk

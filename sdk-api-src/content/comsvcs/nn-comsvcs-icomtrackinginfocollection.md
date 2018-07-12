@@ -7,7 +7,7 @@ old-location: cos\icomtrackinginfocollection.htm
 old-project: cossdk
 ms.assetid: 7caa0fd3-a42c-43ea-849d-aa2c4ed1c628
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: IComTrackingInfoCollection, IComTrackingInfoCollection interface [COM+], IComTrackingInfoCollection interface [COM+],described, _dtc_IComTrackingInfoCollection, comsvcs/IComTrackingInfoCollection, cos.icomtrackinginfocollection
 ms.prod: windows
 ms.technology: windows-sdk

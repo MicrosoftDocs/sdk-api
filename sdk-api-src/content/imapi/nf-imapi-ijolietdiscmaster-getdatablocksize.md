@@ -7,7 +7,7 @@ old-location: imapi\ijolietdiscmaster_getdatablocksize.htm
 old-project: imapi
 ms.assetid: 84bb0330-770d-44ab-8829-e81616f7c805
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: GetDataBlockSize, GetDataBlockSize method [IMAPI], GetDataBlockSize method [IMAPI],IJolietDiscMaster interface, IJolietDiscMaster interface [IMAPI],GetDataBlockSize method, IJolietDiscMaster.GetDataBlockSize, IJolietDiscMaster::GetDataBlockSize, _win32_ijolietdiscmaster_getdatablocksize, base.ijolietdiscmaster_getdatablocksize, imapi.ijolietdiscmaster_getdatablocksize, imapi/IJolietDiscMaster::GetDataBlockSize
 ms.prod: windows
 ms.technology: windows-sdk

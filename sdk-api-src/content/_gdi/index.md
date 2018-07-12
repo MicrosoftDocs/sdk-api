@@ -2,7 +2,7 @@
 UID: TP:gdi
 ms.assetid: b0acbb78-a6c0-3233-bb9d-d551a85f207d
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

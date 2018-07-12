@@ -7,7 +7,7 @@ old-location: dlgbox\messageboxindirect.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\messageboxindirect.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 05/22/2018
 ms.keywords: MessageBoxIndirect, MessageBoxIndirect function [Dialog Boxes], MessageBoxIndirectA, MessageBoxIndirectW, _win32_MessageBoxIndirect, _win32_messageboxindirect_cpp, dlgbox.messageboxindirect, winui._win32_messageboxindirect, winuser/MessageBoxIndirect, winuser/MessageBoxIndirectA, winuser/MessageBoxIndirectW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: iscsidisc\removepersistentiscsidevice.htm
 old-project: iSCSIDisc
 ms.assetid: 4016d8e4-de67-4c49-b54f-31c1b7bd64a8
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/14/2018
 ms.keywords: RemovePersistentIScsiDeviceA, RemovePersistentIscsiDevice, RemovePersistentIscsiDevice function [iSCSI Discovery Library API], RemovePersistentIscsiDeviceA, RemovePersistentIscsiDeviceW, iscsidisc.removepersistentiscsidevice, iscsidsc/RemovePersistentIscsiDevice, iscsidsc/RemovePersistentIscsiDeviceA, iscsidsc/RemovePersistentIscsiDeviceW
 ms.prod: windows
 ms.technology: windows-sdk

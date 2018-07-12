@@ -7,7 +7,7 @@ old-location: base\startupinfo_str.htm
 old-project: ProcThread
 ms.assetid: cf4b795c-52c1-4573-8328-99ee13f68bb3
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: "*LPSTARTUPINFOW, LPSTARTUPINFO, LPSTARTUPINFO structure pointer, STARTF_FORCEOFFFEEDBACK, STARTF_FORCEONFEEDBACK, STARTF_PREVENTPINNING, STARTF_RUNFULLSCREEN, STARTF_TITLEISAPPID, STARTF_TITLEISLINKNAME, STARTF_UNTRUSTEDSOURCE, STARTF_USECOUNTCHARS, STARTF_USEFILLATTRIBUTE, STARTF_USEHOTKEY, STARTF_USEPOSITION, STARTF_USESHOWWINDOW, STARTF_USESIZE, STARTF_USESTDHANDLES, STARTUPINFO, STARTUPINFO structure, STARTUPINFOA, STARTUPINFOW, _STARTUPINFOW, _win32_startupinfo_str, base.startupinfo_str, processthreadsapi/LPSTARTUPINFO, processthreadsapi/STARTUPINFO, processthreadsapi/STARTUPINFOA, processthreadsapi/STARTUPINFOW, winbase/LPSTARTUPINFO, winbase/STARTUPINFO, winbase/STARTUPINFOA, winbase/STARTUPINFOW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -226,7 +226,7 @@ This flag is only valid for console applications running on an x86 computer.
 </dl>
 </td>
 <td width="60%">
-The <b>lpTitle</b> member contains an AppUserModelID. This identifier controls how the taskbar and <b>Start</b> menu present the application, and enables it to be associated with the correct shortcuts and Jump Lists. Generally, applications will use the <a href="https://msdn.microsoft.com/library/Dd378422(v=VS.85).aspx">SetCurrentProcessExplicitAppUserModelID</a> and <b>GetCurrentProcessExplicitAppUserModelID</b> functions instead of setting this flag. For more information, see <a href="https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f">Application User Model IDs</a>.
+The <b>lpTitle</b> member contains an AppUserModelID. This identifier controls how the taskbar and <b>Start</b> menu present the application, and enables it to be associated with the correct shortcuts and Jump Lists. Generally, applications will use the <a href="https://msdn.microsoft.com/library/Dd378419(v=VS.85).aspx">SetCurrentProcessExplicitAppUserModelID</a> and <b>GetCurrentProcessExplicitAppUserModelID</b> functions instead of setting this flag. For more information, see <a href="https://msdn.microsoft.com/ebce2d99-6f20-4545-9f12-d79cd8d0828f">Application User Model IDs</a>.
 
 If STARTF_PREVENTPINNING is used, application windows cannot be pinned on the taskbar. The use of any AppUserModelID-related window properties by the application overrides this setting for that window only.
 

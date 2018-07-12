@@ -7,7 +7,7 @@ old-location: wmdm\imdserviceprovider.htm
 old-project: WMDM
 ms.assetid: 803b6cc5-2cb2-42ad-a92c-05f098cbe8ae
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IMDServiceProvider, IMDServiceProvider interface [windows Media Device Manager], IMDServiceProvider interface [windows Media Device Manager],described, IMDServiceProviderInterface, mswmdm/IMDServiceProvider, wmdm.imdserviceprovider
 ms.prod: windows
 ms.technology: windows-sdk

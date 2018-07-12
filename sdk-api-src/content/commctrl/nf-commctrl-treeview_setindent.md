@@ -4,10 +4,10 @@ title: TreeView_SetIndent macro
 author: windows-sdk-content
 description: Sets the width of indentation for a tree-view control and redraws the control to reflect the new width. You can use this macro or send the TVM_SETINDENT message explicitly.
 old-location: controls\TreeView_SetIndent.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setindent.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: TreeView_SetIndent, TreeView_SetIndent macro [Windows Controls], _win32_TreeView_SetIndent, _win32_TreeView_SetIndent_cpp, commctrl/TreeView_SetIndent, controls.TreeView_SetIndent, controls._win32_TreeView_SetIndent
 ms.prod: windows
 ms.technology: windows-sdk

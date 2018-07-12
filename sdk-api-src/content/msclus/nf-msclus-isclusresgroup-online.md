@@ -4,10 +4,10 @@ title: ISClusResGroup::Online
 author: windows-sdk-content
 description: Brings a group &#32; online.
 old-location: mscs\clusresgroup_online.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: f4861817-a2f6-4b1a-b50c-f3e9119234cd
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResGroup class [Failover Cluster],Online method, ClusResGroup.Online, ISClusResGroup.Online, ISClusResGroup::Online, Online, Online method [Failover Cluster], Online method [Failover Cluster],ClusResGroup class, _wolf_clusresgroup.online, mscs.clusresgroup_online
 ms.prod: windows
 ms.technology: windows-sdk

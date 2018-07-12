@@ -4,10 +4,10 @@ title: ListView_GetSelectedColumn macro
 author: windows-sdk-content
 description: Gets an integer that specifies the selected column. You can use this macro or send the LVM_GETSELECTEDCOLUMN message explicitly.
 old-location: controls\ListView_GetSelectedColumn.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getselectedcolumn.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListView_GetSelectedColumn, ListView_GetSelectedColumn macro [Windows Controls], _win32_ListView_GetSelectedColumn, _win32_ListView_GetSelectedColumn_cpp, commctrl/ListView_GetSelectedColumn, controls.ListView_GetSelectedColumn, controls._win32_ListView_GetSelectedColumn
 ms.prod: windows
 ms.technology: windows-sdk

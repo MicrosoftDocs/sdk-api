@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationScrollPattern_CachedVerticalScrollPerc
 old-project: WinAuto
 ms.assetid: e2b7fb86-1a2b-4b49-8c8f-73445327e4d6
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CachedVerticalScrollPercent property [Windows Accessibility], CachedVerticalScrollPercent property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CachedVerticalScrollPercent property, IUIAutomationScrollPattern.CachedVerticalScrollPercent, IUIAutomationScrollPattern.get_CachedVerticalScrollPercent, IUIAutomationScrollPattern::CachedVerticalScrollPercent, IUIAutomationScrollPattern::get_CachedVerticalScrollPercent, get_CachedVerticalScrollPercent, uiauto.uiauto_IUIAutomationScrollPattern_CachedVerticalScrollPercent, uiauto_IUIAutomationScrollPattern_CachedVerticalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::CachedVerticalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::get_CachedVerticalScrollPercent, winauto.uiauto_IUIAutomationScrollPattern_CachedVerticalScrollPercent
 ms.prod: windows
 ms.technology: windows-sdk

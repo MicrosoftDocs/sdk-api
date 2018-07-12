@@ -4,10 +4,10 @@ title: WINDOWTHEMEATTRIBUTETYPE
 author: windows-sdk-content
 description: Specifies the type of visual style attribute to set on a window.
 old-location: controls\WINDOWTHEMEATTRIBUTETYPE.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\enums\windowthemeattributetype.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: WINDOWTHEMEATTRIBUTETYPE, WINDOWTHEMEATTRIBUTETYPE enumeration [Windows Controls], WTA_NONCLIENT, controls.WINDOWTHEMEATTRIBUTETYPE, controls.inet_WINDOWTHEMEATTRIBUTETYPE, inet_WINDOWTHEMEATTRIBUTETYPE, inet_WINDOWTHEMEATTRIBUTETYPE_cpp, uxtheme/WINDOWTHEMEATTRIBUTETYPE, uxtheme/WTA_NONCLIENT
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\scardgetdevicetypeid.htm
 old-project: SecAuthN
 ms.assetid: E637B5D6-B605-4216-9581-7E4ADC75F75A
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: SCardGetDeviceTypeId, SCardGetDeviceTypeId function [Security], SCardGetDeviceTypeIdA, SCardGetDeviceTypeIdW, security.scardgetdevicetypeid, winscard/SCardGetDeviceTypeId, winscard/SCardGetDeviceTypeIdA, winscard/SCardGetDeviceTypeIdW
 ms.prod: windows
 ms.technology: windows-sdk

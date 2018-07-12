@@ -4,10 +4,10 @@ title: INetFwProducts::Item
 author: windows-sdk-content
 description: The Item method returns the product with the specified index if it is in the collection.
 old-location: ics\inetfwproducts_item.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 091d53bc-3c5e-4960-9bc9-34343fd352ce
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetFwProducts interface [ICS/ICF],Item method, INetFwProducts.Item, INetFwProducts::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwProducts interface, ics.inetfwproducts_item, netfw/INetFwProducts::Item
 ms.prod: windows
 ms.technology: windows-sdk

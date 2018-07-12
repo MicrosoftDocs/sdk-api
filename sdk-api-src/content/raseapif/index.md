@@ -2,13 +2,13 @@
 UID: NA:raseapif
 ms.assetid: e655ee18-e35d-3e45-a978-87a1288d8061
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: eap
+archived: true
 ---
 
 # Raseapif.h header

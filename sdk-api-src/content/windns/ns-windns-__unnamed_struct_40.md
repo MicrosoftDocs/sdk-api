@@ -4,10 +4,10 @@ title: DNS_WINS_DATA
 author: windows-sdk-content
 description: The DNS_WINS_DATA structure represents a DNS Windows Internet Name Service (WINS) record.
 old-location: dns\dns_wins_data.htm
-old-project: DNS
+old-project: dns
 ms.assetid: df41c397-e662-42b4-9193-6776f9071898
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: "*PDNS_WINS_DATA, DNS_WINS_DATA, DNS_WINS_DATA structure [DNS], DNS_WINS_FLAG_LOCAL, DNS_WINS_FLAG_SCOPE, PDNS_WINS_DATA, PDNS_WINS_DATA structure pointer [DNS], _dns_dns_wins_data, dns.dns_wins_data, windns/DNS_WINS_DATA, windns/PDNS_WINS_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

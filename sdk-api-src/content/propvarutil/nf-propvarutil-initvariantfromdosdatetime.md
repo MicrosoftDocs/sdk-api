@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromDosDateTime.htm
 old-project: properties
 ms.assetid: deb1b3e6-4e7b-49c2-a4dc-e3dfaa2727a0
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: InitVariantFromDosDateTime, InitVariantFromDosDateTime function [Windows Properties], _shell_InitVariantFromDosDateTime, properties.InitVariantFromDosDateTime, propvarutil/InitVariantFromDosDateTime, shell.InitVariantFromDosDateTime
 ms.prod: windows
 ms.technology: windows-sdk

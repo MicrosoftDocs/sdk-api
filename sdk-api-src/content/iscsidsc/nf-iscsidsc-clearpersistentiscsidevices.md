@@ -7,7 +7,7 @@ old-location: iscsidisc\clearpersistentiscsidevices.htm
 old-project: iSCSIDisc
 ms.assetid: 9e21dde6-face-40ae-803b-2aa7861e6f4f
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/14/2018
 ms.keywords: ClearPersistentIScsiDevices, ClearPersistentiScsiDevices, ClearPersistentiScsiDevices function [iSCSI Discovery Library API], iscsidisc.clearpersistentiscsidevices, iscsidsc/ClearPersistentiScsiDevices
 ms.prod: windows
 ms.technology: windows-sdk

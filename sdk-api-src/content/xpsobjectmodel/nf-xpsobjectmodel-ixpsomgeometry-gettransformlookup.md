@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometry_gettransformlookup.htm
 old-project: printdocs
 ms.assetid: 21a9a2c5-c9f2-42a4-84c4-8f702950d7ba
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetTransformLookup, GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging],IXpsOMGeometry interface, IXpsOMGeometry interface [XPS Documents and Packaging],GetTransformLookup method, IXpsOMGeometry.GetTransformLookup, IXpsOMGeometry::GetTransformLookup, xps.ixpsomgeometry_gettransformlookup, xpsobjectmodel/IXpsOMGeometry::GetTransformLookup
 ms.prod: windows
 ms.technology: windows-sdk

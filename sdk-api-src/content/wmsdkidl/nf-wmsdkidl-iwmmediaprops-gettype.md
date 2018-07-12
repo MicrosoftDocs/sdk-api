@@ -7,7 +7,7 @@ old-location: wmformat\iwmmediaprops_gettype.htm
 old-project: wmformat
 ms.assetid: d878caf9-2cd2-4b1d-b204-a43fe947c4c2
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: GetType, GetType method [windows Media Format], GetType method [windows Media Format],IWMMediaProps interface, IWMMediaProps interface [windows Media Format],GetType method, IWMMediaProps.GetType, IWMMediaProps::GetType, IWMMediaPropsGetType, wmformat.iwmmediaprops_gettype, wmsdkidl/IWMMediaProps::GetType
 ms.prod: windows
 ms.technology: windows-sdk

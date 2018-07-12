@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParser_ParsePropertyValue.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\parsepropertyvalue.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IQueryParser interface [search],ParsePropertyValue method, IQueryParser.ParsePropertyValue, IQueryParser::ParsePropertyValue, ParsePropertyValue, ParsePropertyValue method [search], ParsePropertyValue method [search],IQueryParser interface, _search_IQueryParser_ParsePropertyValue, search._search_IQueryParser_ParsePropertyValue, structuredquery/IQueryParser::ParsePropertyValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ Query string to be parsed, relative to that property.
 
 Type: <b><a href="https://msdn.microsoft.com/library/Bb231346(v=VS.85).aspx">IQuerySolution</a>**</b>
 
-Receives an <a href="https://msdn.microsoft.com/library/Bb231346(v=VS.85).aspx">IQuerySolution</a> object. The calling application must release it by calling its <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+Receives an <a href="https://msdn.microsoft.com/library/Bb231346(v=VS.85).aspx">IQuerySolution</a> object. The calling application must release it by calling its <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

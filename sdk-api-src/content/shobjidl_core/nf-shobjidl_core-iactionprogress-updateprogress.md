@@ -7,7 +7,7 @@ old-location: shell\IActionProgress_UpdateProgress.htm
 old-project: shell
 ms.assetid: d9c6fd82-96a2-4021-a6c4-ab61e20eb0d0
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IActionProgress interface [Windows Shell],UpdateProgress method, IActionProgress.UpdateProgress, IActionProgress::UpdateProgress, UpdateProgress, UpdateProgress method [Windows Shell], UpdateProgress method [Windows Shell],IActionProgress interface, shell.IActionProgress_UpdateProgress, shell_IActionProgress_UpdateProgress, shobjidl_core/IActionProgress::UpdateProgress
 ms.prod: windows
 ms.technology: windows-sdk

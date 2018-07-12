@@ -7,7 +7,7 @@ old-location: input_pointerdevice\pointer_device_type.htm
 old-project: Input_PointerDevice
 ms.assetid: 7702adec-e24f-4dc8-b5d4-f1f9dbcb5ed0
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 03/27/2018
 ms.keywords: POINTER_DEVICE_TYPE, POINTER_DEVICE_TYPE enumeration, POINTER_DEVICE_TYPE_EXTERNAL_PEN, POINTER_DEVICE_TYPE_INTEGRATED_PEN, POINTER_DEVICE_TYPE_MAX, POINTER_DEVICE_TYPE_TOUCH, POINTER_DEVICE_TYPE_TOUCH_PAD, input_pointerdevice.pointer_device_type, tagPOINTER_DEVICE_TYPE, unifiedinputstack.pointer_device_type, winuser/POINTER_DEVICE_TYPE, winuser/POINTER_DEVICE_TYPE_EXTERNAL_PEN, winuser/POINTER_DEVICE_TYPE_INTEGRATED_PEN, winuser/POINTER_DEVICE_TYPE_MAX, winuser/POINTER_DEVICE_TYPE_TOUCH, winuser/POINTER_DEVICE_TYPE_TOUCH_PAD
 ms.prod: windows
 ms.technology: windows-sdk

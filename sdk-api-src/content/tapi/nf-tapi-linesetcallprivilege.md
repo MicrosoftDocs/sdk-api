@@ -4,10 +4,10 @@ title: lineSetCallPrivilege function
 author: windows-sdk-content
 description: The lineSetCallPrivilege function sets the application's privilege to the specified privilege.
 old-location: tapi2\linesetcallprivilege.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: a13d7cfd-3709-43fb-88b9-291928f2c0d8
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: "_tapi2_linesetcallprivilege, lineSetCallPrivilege, lineSetCallPrivilege function [TAPI 2.2], tapi/lineSetCallPrivilege, tapi2.linesetcallprivilege"
 ms.prod: windows
 ms.technology: windows-sdk

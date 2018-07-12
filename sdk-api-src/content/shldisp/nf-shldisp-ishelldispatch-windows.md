@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_Windows.htm
 old-project: shell
 ms.assetid: 788E2106-3534-4e22-801F-677FD02BDFE0
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IShellDispatch object [Windows Shell],Windows method, IShellDispatch.Windows, IShellDispatch::Windows, Windows, Windows method [Windows Shell], Windows method [Windows Shell],IShellDispatch object, shell.IShellDispatch_Windows
 ms.prod: windows
 ms.technology: windows-sdk

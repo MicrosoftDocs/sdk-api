@@ -4,10 +4,10 @@ title: "_ADMINISTRATOR_POWER_POLICY"
 author: windows-sdk-content
 description: Represents the administrator override power policy settings.
 old-location: base\administrator_power_policy_str.htm
-old-project: Power
+old-project: power
 ms.assetid: abd2e2c5-1056-4985-ae07-a40d53bb17b1
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: "*PADMINISTRATOR_POWER_POLICY, ADMINISTRATOR_POWER_POLICY, ADMINISTRATOR_POWER_POLICY structure, PADMINISTRATOR_POWER_POLICY, PADMINISTRATOR_POWER_POLICY structure pointer, _ADMINISTRATOR_POWER_POLICY, _win32_administrator_power_policy_str, base.administrator_power_policy_str, winnt/ADMINISTRATOR_POWER_POLICY, winnt/PADMINISTRATOR_POWER_POLICY"
 ms.prod: windows
 ms.technology: windows-sdk

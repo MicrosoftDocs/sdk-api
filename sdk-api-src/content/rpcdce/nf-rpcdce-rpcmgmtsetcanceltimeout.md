@@ -4,10 +4,10 @@ title: RpcMgmtSetCancelTimeout function
 author: windows-sdk-content
 description: The RpcMgmtSetCancelTimeout function sets the lower bound on the time to wait before timing out after forwarding a cancel.
 old-location: rpc\rpcmgmtsetcanceltimeout.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: 0a616f5d-b30a-4cd3-9348-19f09f373c50
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RpcMgmtSetCancelTimeout, RpcMgmtSetCancelTimeout function [RPC], _rpc_rpcmgmtsetcanceltimeout, rpc.rpcmgmtsetcanceltimeout, rpcdce/RpcMgmtSetCancelTimeout
 ms.prod: windows
 ms.technology: windows-sdk

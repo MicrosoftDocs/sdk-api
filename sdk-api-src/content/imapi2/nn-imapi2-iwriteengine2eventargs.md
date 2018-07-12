@@ -7,7 +7,7 @@ old-location: imapi\iwriteengine2eventargs.htm
 old-project: imapi
 ms.assetid: 1922410a-5871-477f-b778-36b12ad95168
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IWriteEngine2EventArgs, IWriteEngine2EventArgs interface [IMAPI], IWriteEngine2EventArgs interface [IMAPI],described, imapi.iwriteengine2eventargs, imapi2/IWriteEngine2EventArgs
 ms.prod: windows
 ms.technology: windows-sdk

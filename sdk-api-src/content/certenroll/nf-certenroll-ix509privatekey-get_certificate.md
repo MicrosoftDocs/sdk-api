@@ -4,10 +4,10 @@ title: IX509PrivateKey::get_Certificate
 author: windows-sdk-content
 description: Specifies or retrieves a byte array that contains the certificate associated with the private key.
 old-location: security\ix509privatekey_certificate_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 035615f1-2dc7-47d7-98e4-7b5b0924030f
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: Certificate property [Security], Certificate property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Certificate property, IX509PrivateKey.Certificate, IX509PrivateKey.get_Certificate, IX509PrivateKey::Certificate, IX509PrivateKey::get_Certificate, IX509PrivateKey::put_Certificate, certenroll/IX509PrivateKey::Certificate, certenroll/IX509PrivateKey::get_Certificate, certenroll/IX509PrivateKey::put_Certificate, get_Certificate, security.ix509privatekey_certificate_property
 ms.prod: windows
 ms.technology: windows-sdk

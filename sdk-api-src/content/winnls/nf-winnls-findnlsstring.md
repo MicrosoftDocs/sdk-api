@@ -7,7 +7,7 @@ old-location: intl\findnlsstring.htm
 old-project: Intl
 ms.assetid: d65a67d1-a7e1-4d2a-ae8b-6b4ac7f2a987
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/28/2018
 ms.keywords: FindNLSString, FindNLSString function [Internationalization for Windows Applications], _win32_FindNLSString, intl.findnlsstring, winnls/FindNLSString
 ms.prod: windows
 ms.technology: windows-sdk

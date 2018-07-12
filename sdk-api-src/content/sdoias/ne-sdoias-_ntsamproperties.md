@@ -4,10 +4,10 @@ title: "_NTSAMPROPERTIES"
 author: windows-sdk-content
 description: The values of the NTSAMPROPERTIES enumeration type specify properties related to the NT Security Accounts Manager (SAM).
 old-location: nps\SDO_ntsamproperties.htm
-old-project: Nps
+old-project: nps
 ms.assetid: 84d3bc60-4756-49b3-a614-94640bc647be
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: NTSAMPROPERTIES, NTSAMPROPERTIES enumeration [Network Policy Server], PROPERTY_NTSAM_ALLOW_LM_AUTHENTICATION, _NTSAMPROPERTIES, _sdo_ntsamproperties, nps.SDO_ntsamproperties, sdo.ntsamproperties, sdoias/NTSAMPROPERTIES, sdoias/PROPERTY_NTSAM_ALLOW_LM_AUTHENTICATION
 ms.prod: windows
 ms.technology: windows-sdk

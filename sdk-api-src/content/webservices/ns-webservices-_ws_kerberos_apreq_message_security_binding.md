@@ -7,7 +7,7 @@ old-location: wsw\ws_kerberos_apreq_message_security_binding.htm
 old-project: wsw
 ms.assetid: 03127248-f5cc-44da-9c3d-abf016dd6bb2
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING, WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING structure [Web Services for Windows], _WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING, webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING, wsw.ws_kerberos_apreq_message_security_binding
 ms.prod: windows
 ms.technology: windows-sdk

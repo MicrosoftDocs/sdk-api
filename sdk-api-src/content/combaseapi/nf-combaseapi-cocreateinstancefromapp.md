@@ -7,7 +7,7 @@ old-location: com\cocreateinstancefromapp.htm
 old-project: com
 ms.assetid: 1C773D78-5B33-44FE-A09B-AB8087F678A1
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: CoCreateInstanceFromApp, CoCreateInstanceFromApp function [COM], com.cocreateinstancefromapp, combaseapi/CoCreateInstanceFromApp
 ms.prod: windows
 ms.technology: windows-sdk

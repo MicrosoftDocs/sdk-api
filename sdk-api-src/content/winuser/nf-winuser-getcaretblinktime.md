@@ -7,7 +7,7 @@ old-location: menurc\getcaretblinktime.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\getcaretblinktime.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: GetCaretBlinkTime, GetCaretBlinkTime function [Menus and Other Resources], _win32_GetCaretBlinkTime, _win32_getcaretblinktime_cpp, menurc.getcaretblinktime, winui._win32_getcaretblinktime, winuser/GetCaretBlinkTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

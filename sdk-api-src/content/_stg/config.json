@@ -11,6 +11,5 @@
     "propidlbase.h",
     "coml2api.h",
     "propapi.h"
-  ],
-  "displayName": "Structured Storage"
+  ]
 }

@@ -7,7 +7,7 @@ old-location: shell\IRunnableTask_Run.htm
 old-project: shell
 ms.assetid: b929543c-d5b3-4d48-b13f-bbef568287a5
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IRunnableTask interface [Windows Shell],Run method, IRunnableTask.Run, IRunnableTask::Run, Run, Run method [Windows Shell], Run method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_Run, shell.IRunnableTask_Run, shobjidl_core/IRunnableTask::Run
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PCLUSAPI_CLOSE_CLUSTER_NETWORK
 author: windows-sdk-content
 description: Closes a network handle.
 old-location: mscs\closeclusternetwork.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 2d112729-1306-45ff-8845-43032a55ca1c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CLOSE_CLUSTER_NETWORK, PCLUSAPI_CLOSE_CLUSTER_NETWORK callback, PCLUSAPI_CLOSE_CLUSTER_NETWORK callback function [Failover Cluster], _wolf_closeclusternetwork, clusapi/PCLUSAPI_CLOSE_CLUSTER_NETWORK, mscs.closeclusternetwork
 ms.prod: windows
 ms.technology: windows-sdk

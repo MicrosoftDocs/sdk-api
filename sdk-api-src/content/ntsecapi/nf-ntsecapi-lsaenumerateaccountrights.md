@@ -4,10 +4,10 @@ title: LsaEnumerateAccountRights function
 author: windows-sdk-content
 description: The LsaEnumerateAccountRights function enumerates the privileges assigned to an account.
 old-location: security\lsaenumerateaccountrights.htm
-old-project: SecMgmt
+old-project: secmgmt
 ms.assetid: 3f4a4a9a-66ca-410a-8bdc-c390e8b966e3
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: LsaEnumerateAccountRights, LsaEnumerateAccountRights function [Security], _lsa_lsaenumerateaccountrights, ntsecapi/LsaEnumerateAccountRights, security.lsaenumerateaccountrights
 ms.prod: windows
 ms.technology: windows-sdk

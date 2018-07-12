@@ -7,7 +7,7 @@ old-location: wmformat\iwmcodecamvideoaccelerator.htm
 old-project: wmformat
 ms.assetid: 48cfc4d1-4b79-47a5-9cc9-a1f19d2c0123
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: IWMCodecAMVideoAccelerator, IWMCodecAMVideoAccelerator interface [windows Media Format], IWMCodecAMVideoAccelerator interface [windows Media Format],described, IWMCodecAMVideoAcceleratorInterface, wmdxva/IWMCodecAMVideoAccelerator, wmformat.iwmcodecamvideoaccelerator
 ms.prod: windows
 ms.technology: windows-sdk

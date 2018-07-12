@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignature_getsignaturerelationshipreferenceenumerat
 old-project: OPC
 ms.assetid: ffb74828-1177-4c3d-8a8c-e40bb0c4cbf0
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: GetSignatureRelationshipReferenceEnumerator, GetSignatureRelationshipReferenceEnumerator method [Open Packaging Conventions], GetSignatureRelationshipReferenceEnumerator method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignatureRelationshipReferenceEnumerator method, IOpcDigitalSignature.GetSignatureRelationshipReferenceEnumerator, IOpcDigitalSignature::GetSignatureRelationshipReferenceEnumerator, msopc/IOpcDigitalSignature::GetSignatureRelationshipReferenceEnumerator, opc.iopcdigitalsignature_getsignaturerelationshipreferenceenumerator
 ms.prod: windows
 ms.technology: windows-sdk

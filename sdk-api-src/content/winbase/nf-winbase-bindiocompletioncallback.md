@@ -7,7 +7,7 @@ old-location: base\bindiocompletioncallback.htm
 old-project: ProcThread
 ms.assetid: 2eb18e84-6d6b-4b11-8e8f-6110fa44b7f9
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: BindIoCompletionCallback, BindIoCompletionCallback function, _win32_bindiocompletioncallback, base.bindiocompletioncallback, winbase/BindIoCompletionCallback
 ms.prod: windows
 ms.technology: windows-sdk

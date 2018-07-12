@@ -7,7 +7,7 @@ old-location: mdmreg\discovermanagementserviceex.htm
 old-project: MDMReg
 ms.assetid: 600269ff-df88-49ed-b151-df0302cbc4d4
 ms.author: windowssdkdev
-ms.date: 02/20/2018
+ms.date: 02/21/2018
 ms.keywords: DiscoverManagementServiceEx, DiscoverManagementServiceEx function [MDM Registration], mdmreg.discovermanagementserviceex, mdmregistration/DiscoverManagementServiceEx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\textout.htm
 old-project: gdi
 ms.assetid: 0c437ff8-3893-4dc3-827b-fa9ce4bcd7e6
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: TextOut, TextOut function [Windows GDI], TextOutA, TextOutW, _win32_TextOut, gdi.textout, wingdi/TextOut, wingdi/TextOutA, wingdi/TextOutW
 ms.prod: windows
 ms.technology: windows-sdk

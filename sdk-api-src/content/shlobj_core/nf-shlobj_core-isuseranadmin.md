@@ -7,7 +7,7 @@ old-location: shell\IsUserAnAdmin.htm
 old-project: shell
 ms.assetid: fe698d32-32f6-4b2b-ad0c-5d9ec815177f
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IsUserAnAdmin, IsUserAnAdmin function [Windows Shell], _win32_IsUserAnAdmin, shell.IsUserAnAdmin, shlobj_core/IsUserAnAdmin
 ms.prod: windows
 ms.technology: windows-sdk

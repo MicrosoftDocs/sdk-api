@@ -7,7 +7,7 @@ old-location: security\wlxactivateusershell.htm
 old-project: SecAuthN
 ms.assetid: 0db6653b-ec6f-4b2b-9371-b73d73be1f7b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: WlxActivateUserShell, WlxActivateUserShell function [Security], _gina_wlxactivateusershell, security.wlxactivateusershell, winwlx/WlxActivateUserShell
 ms.prod: windows
 ms.technology: windows-sdk

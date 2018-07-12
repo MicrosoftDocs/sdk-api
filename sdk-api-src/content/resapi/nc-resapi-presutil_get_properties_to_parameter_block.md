@@ -4,10 +4,10 @@ title: PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK
 author: windows-sdk-content
 description: Retrieves properties specified by a property table from the cluster database and returns them in a parameter block.
 old-location: mscs\resutilgetpropertiestoparameterblock.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 38d368ac-b212-4539-8faa-d7cd744da226
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK, PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK callback, PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK callback function [Failover Cluster], _wolf_resutilgetpropertiestoparameterblock, mscs.resutilgetpropertiestoparameterblock, resapi/PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK
 ms.prod: windows
 ms.technology: windows-sdk

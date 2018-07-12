@@ -4,10 +4,10 @@ title: "_USER_MODALS_INFO_1004"
 author: windows-sdk-content
 description: The USER_MODALS_INFO_1004 structure contains forced logoff information for users and global groups in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\user_modals_info_1004_str.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: c11a3c94-940e-474f-9251-a32ea098788d
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: "*LPUSER_MODALS_INFO_1004, *PUSER_MODALS_INFO_1004, LPUSER_MODALS_INFO_1004, LPUSER_MODALS_INFO_1004 structure pointer [Network Management], PUSER_MODALS_INFO_1004, PUSER_MODALS_INFO_1004 structure pointer [Network Management], USER_MODALS_INFO_1004, USER_MODALS_INFO_1004 structure [Network Management], _USER_MODALS_INFO_1004, _win32_user_modals_info_1004_str, lmaccess/LPUSER_MODALS_INFO_1004, lmaccess/PUSER_MODALS_INFO_1004, lmaccess/USER_MODALS_INFO_1004, netmgmt.user_modals_info_1004_str"
 ms.prod: windows
 ms.technology: windows-sdk

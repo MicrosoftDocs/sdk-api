@@ -4,10 +4,10 @@ title: INetworkListManager::GetNetworkConnection
 author: windows-sdk-content
 description: The GetNetworkConnection method retrieves a network based on a supplied Network Connection ID.
 old-location: nla\inetworklistmanager_getnetworkconnection.htm
-old-project: NLA
+old-project: nla
 ms.assetid: d57341f1-5f73-4d6d-964f-cb80cfbedf1b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetNetworkConnection, GetNetworkConnection method [Network Awareness], GetNetworkConnection method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetNetworkConnection method, INetworkListManager.GetNetworkConnection, INetworkListManager::GetNetworkConnection, netlistmgr/INetworkListManager::GetNetworkConnection, nla.inetworklistmanager_getnetworkconnection
 ms.prod: windows
 ms.technology: windows-sdk

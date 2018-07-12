@@ -4,10 +4,10 @@ title: FwpmEngineGetSecurityInfo0 function
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for the filter engine.
 old-location: fwp\fwpmenginegetsecurityinfo0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: a2bff3b0-efc9-4357-84e2-ceecc2d33498
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FwpmEngineGetSecurityInfo0, FwpmEngineGetSecurityInfo0 function [Filtering], fwp.fwpmenginegetsecurityinfo0, fwpmu/FwpmEngineGetSecurityInfo0
 ms.prod: windows
 ms.technology: windows-sdk

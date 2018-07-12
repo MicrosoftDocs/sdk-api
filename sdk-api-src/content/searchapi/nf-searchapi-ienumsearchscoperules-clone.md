@@ -7,7 +7,7 @@ old-location: search\_search_IEnumSearchScopeRules_Clone.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchscoperules\clone.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: Clone, Clone method [search], Clone method [search],IEnumSearchScopeRules interface, IEnumSearchScopeRules interface [search],Clone method, IEnumSearchScopeRules.Clone, IEnumSearchScopeRules::Clone, _search_IEnumSearchScopeRules_Clone, search._search_IEnumSearchScopeRules_Clone, searchapi/IEnumSearchScopeRules::Clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Creates a copy of this <a href="https://msdn.microsoft.com/library/Bb266499(v=VS
 
 Type: <b><a href="https://msdn.microsoft.com/library/Bb266499(v=VS.85).aspx">IEnumSearchScopeRules</a>**</b>
 
-On return, contains a pointer to the cloned <a href="https://msdn.microsoft.com/library/Bb266499(v=VS.85).aspx">IEnumSearchScopeRules</a> object. The calling application must free the new object by calling its <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+On return, contains a pointer to the cloned <a href="https://msdn.microsoft.com/library/Bb266499(v=VS.85).aspx">IEnumSearchScopeRules</a> object. The calling application must free the new object by calling its <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

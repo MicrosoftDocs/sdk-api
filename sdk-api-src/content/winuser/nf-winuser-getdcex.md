@@ -7,7 +7,7 @@ old-location: gdi\getdcex.htm
 old-project: gdi
 ms.assetid: 590cf928-0ad6-43f8-97e9-1dafbcfa9f49
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: DCX_CACHE, DCX_CLIPCHILDREN, DCX_CLIPSIBLINGS, DCX_EXCLUDERGN, DCX_INTERSECTRGN, DCX_INTERSECTUPDATE, DCX_LOCKWINDOWUPDATE, DCX_NORESETATTRS, DCX_PARENTCLIP, DCX_VALIDATE, DCX_WINDOW, GetDCEx, GetDCEx function [Windows GDI], _win32_GetDCEx, gdi.getdcex, winuser/GetDCEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

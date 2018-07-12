@@ -4,10 +4,10 @@ title: ListView_GetGroupHeaderImageList macro
 author: windows-sdk-content
 description: Gets the group header image list that has been set for an existing list-view control.
 old-location: controls\ListView_GetGroupHeaderImageList.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupheaderimagelist.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListView_GetGroupHeaderImageList, ListView_GetGroupHeaderImageList macro [Windows Controls], _shell_ListView_GetGroupHeaderImageList, _shell_ListView_GetGroupHeaderImageList_cpp, commctrl/ListView_GetGroupHeaderImageList, controls.ListView_GetGroupHeaderImageList, controls._shell_ListView_GetGroupHeaderImageList
 ms.prod: windows
 ms.technology: windows-sdk

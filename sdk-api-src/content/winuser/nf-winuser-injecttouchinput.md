@@ -7,7 +7,7 @@ old-location: input_touchinjection\injecttouchinput.htm
 old-project: Input_TouchInjection
 ms.assetid: c3c1425e-2af6-4ecb-a0b2-a456654f7a53
 ms.author: windowssdkdev
-ms.date: 02/28/2018
+ms.date: 03/01/2018
 ms.keywords: InjectTouchInput, InjectTouchInput function [Windows Touch], input_touchinjection.injecttouchinput, touch_injection.injecttouchinput, winuser/InjectTouchInput
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

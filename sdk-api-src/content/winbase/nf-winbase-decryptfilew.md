@@ -4,10 +4,10 @@ title: DecryptFileW function
 author: windows-sdk-content
 description: Decrypts an encrypted file or directory.
 old-location: fs\decryptfile.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 6b8f0ed0-8825-4c84-bf58-3a89cda882b4
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: DecryptFile, DecryptFile function [Files], DecryptFileA, DecryptFileW, _win32_decryptfile, base.decryptfile, fs.decryptfile, winbase/DecryptFile, winbase/DecryptFileA, winbase/DecryptFileW
 ms.prod: windows
 ms.technology: windows-sdk

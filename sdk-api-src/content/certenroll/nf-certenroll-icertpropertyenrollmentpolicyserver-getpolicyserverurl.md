@@ -4,10 +4,10 @@ title: ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl
 author: windows-sdk-content
 description: Retrieves a string that contains the URL for the certificate enrollment policy (CEP) server.
 old-location: security\icertpropertyenrollmentpolicyserver_getpolicyserverurl.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 9d7ba049-4566-423d-b750-ff091dce1e2a
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetPolicyServerUrl, GetPolicyServerUrl method [Security], GetPolicyServerUrl method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetPolicyServerUrl method, ICertPropertyEnrollmentPolicyServer.GetPolicyServerUrl, ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl, certenroll/ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl, security.icertpropertyenrollmentpolicyserver_getpolicyserverurl
 ms.prod: windows
 ms.technology: windows-sdk

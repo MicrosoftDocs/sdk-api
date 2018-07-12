@@ -7,7 +7,7 @@ old-location: amsi\iamsistream_read.htm
 old-project: AMSI
 ms.assetid: ACE164EF-B49D-4AD5-BC1B-9770AFCD1951
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 03/29/2018
 ms.keywords: IAmsiStream interface [Antimalware Scan Interface],Read method, IAmsiStream.Read, IAmsiStream::Read, Read, Read method [Antimalware Scan Interface], Read method [Antimalware Scan Interface],IAmsiStream interface, amsi.iamsistream_read, amsi/IAmsiStream::Read
 ms.prod: windows
 ms.technology: windows-sdk

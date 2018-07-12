@@ -7,7 +7,7 @@ old-location: shell\PathCchStripPrefix.htm
 old-project: shell
 ms.assetid: 2e50b23e-2725-4200-bd5e-845ff3458026
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: PathCchStripPrefix, PathCchStripPrefix function [Windows Shell], pathcch/PathCchStripPrefix, shell.PathCchStripPrefix
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ITLegacyAddressMediaControl
 author: windows-sdk-content
 description: The ITLegacyAddressMediaControl interface is provided to support legacy applications that require direct access to a device and its configuration. It is exposed by the Address Object and can be created by calling QueryInterface on ITAddress.
 old-location: tapi3\itlegacyaddressmediacontrol.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 5f3d0189-fc9d-4fa5-bc8e-a0abf1f607f8
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITLegacyAddressMediaControl, ITLegacyAddressMediaControl interface [TAPI 2.2], ITLegacyAddressMediaControl interface [TAPI 2.2],described, _tapi3_itlegacyaddressmediacontrol, tapi3.itlegacyaddressmediacontrol, tapi3if/ITLegacyAddressMediaControl
 ms.prod: windows
 ms.technology: windows-sdk

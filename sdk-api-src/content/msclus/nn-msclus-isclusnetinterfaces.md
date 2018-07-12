@@ -4,10 +4,10 @@ title: ISClusNetInterfaces
 author: windows-sdk-content
 description: Provides access to the network interfaces in a cluster.
 old-location: mscs\clusnetinterfaces_collection.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 7d0dc4fd-733c-4a2a-9136-7dc0089b213d
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNetInterfaces, ClusNetInterfaces collection [Failover Cluster], ClusNetInterfaces collection [Failover Cluster],described, ISClusNetInterfaces, _wolf_clusnetinterfaces_collection, msclus/ClusNetInterfaces, mscs.clusnetinterfaces_collection
 ms.prod: windows
 ms.technology: windows-sdk

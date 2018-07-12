@@ -4,10 +4,10 @@ title: IKEEXT_NAME_CREDENTIAL0_
 author: windows-sdk-content
 description: Is used to store credential name information.
 old-location: fwp\ikeext_name_credential0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 602f94bf-066d-418e-a469-a21b881a443d
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IKEEXT_NAME_CREDENTIAL0, IKEEXT_NAME_CREDENTIAL0 structure [Filtering], IKEEXT_NAME_CREDENTIAL0_, fwp.ikeext_name_credential0, iketypes/IKEEXT_NAME_CREDENTIAL0
 ms.prod: windows
 ms.technology: windows-sdk

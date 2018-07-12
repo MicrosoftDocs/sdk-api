@@ -7,7 +7,7 @@ old-location: hidpi\physicaltologicalpointforpermonitordpi.htm
 old-project: hidpi
 ms.assetid: DC744BFC-4410-4878-BEA7-382550DDF9E3
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 03/30/2018
 ms.keywords: PhysicalToLogicalPointForPerMonitorDPI, PhysicalToLogicalPointForPerMonitorDPI function [High DPI], hidpi.physicaltologicalpointforpermonitordpi, winuser/PhysicalToLogicalPointForPerMonitorDPI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

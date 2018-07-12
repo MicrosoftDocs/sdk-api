@@ -4,10 +4,10 @@ title: FwpmEngineGetOption0 function
 author: windows-sdk-content
 description: Retrieves a filter engine option.
 old-location: fwp\fwpmenginegetoption0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: e243f0d6-fb15-4c26-b41d-e33e96daf294
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FWPM_ENGINE_OPTION_PACKET_QUEUE_INBOUND, FWPM_ENGINE_OPTION_PACKET_QUEUE_NONE, FWPM_ENGINE_OPTION_PACKET_QUEUE_OUTBOUND, FWPM_NET_EVENT_KEYWORD_INBOUND_BCAST, FWPM_NET_EVENT_KEYWORD_INBOUND_MCAST, FwpmEngineGetOption0, FwpmEngineGetOption0 function [Filtering], fwp.fwpmenginegetoption0, fwpmu/FwpmEngineGetOption0
 ms.prod: windows
 ms.technology: windows-sdk

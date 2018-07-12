@@ -4,10 +4,10 @@ title: IPsecSaDbSetSecurityInfo0 function
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor of the IPsec security association database.
 old-location: fwp\ipsecsadbsetsecurityinfo0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 6e51c04f-c829-4452-9e40-2c97551ad0f0
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IPsecSaDbSetSecurityInfo0, IPsecSaDbSetSecurityInfo0 function [Filtering], fwp.ipsecsadbsetsecurityinfo0, fwpmu/IPsecSaDbSetSecurityInfo0
 ms.prod: windows
 ms.technology: windows-sdk

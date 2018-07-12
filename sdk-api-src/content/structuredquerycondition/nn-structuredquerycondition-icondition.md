@@ -7,7 +7,7 @@ old-location: search\_search_ICondition.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\icondition.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ICondition, ICondition interface [search], ICondition interface [search],described, _search_ICondition, search._search_ICondition, structuredquerycondition/ICondition
 ms.prod: windows
 ms.technology: windows-sdk

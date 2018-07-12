@@ -7,7 +7,7 @@ old-location: mbn\imbnmulticarrier_getsupportedcellularclasses.htm
 old-project: mbn
 ms.assetid: 80B29D28-9940-4A96-B95A-A9640CE5E929
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetSupportedCellularClasses, GetSupportedCellularClasses method [Microsoft Broadband Networks], GetSupportedCellularClasses method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetSupportedCellularClasses method, IMbnMultiCarrier.GetSupportedCellularClasses, IMbnMultiCarrier::GetSupportedCellularClasses, mbn.imbnmulticarrier_getsupportedcellularclasses, mbnapi/IMbnMultiCarrier::GetSupportedCellularClasses
 ms.prod: windows
 ms.technology: windows-sdk

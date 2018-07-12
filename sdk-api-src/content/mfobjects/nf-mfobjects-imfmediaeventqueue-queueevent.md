@@ -7,7 +7,7 @@ old-location: mf\imfmediaeventqueue_queueevent.htm
 old-project: medfound
 ms.assetid: eb04ce9f-fb64-438f-ad4d-ba1fb849d59c
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFMediaEventQueue interface [Media Foundation],QueueEvent method, IMFMediaEventQueue.QueueEvent, IMFMediaEventQueue::QueueEvent, QueueEvent, QueueEvent method [Media Foundation], QueueEvent method [Media Foundation],IMFMediaEventQueue interface, eb04ce9f-fb64-438f-ad4d-ba1fb849d59c, mf.imfmediaeventqueue_queueevent, mfobjects/IMFMediaEventQueue::QueueEvent
 ms.prod: windows
 ms.technology: windows-sdk

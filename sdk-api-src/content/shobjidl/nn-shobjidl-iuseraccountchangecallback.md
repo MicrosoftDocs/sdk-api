@@ -7,7 +7,7 @@ old-location: shell\IUserAccountChangeCallback.htm
 old-project: shell
 ms.assetid: de72aa25-7d0c-445c-aa1b-f0f3bdc07d10
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IUserAccountChangeCallback, IUserAccountChangeCallback interface [Windows Shell], IUserAccountChangeCallback interface [Windows Shell],described, _shell_IUserAccountChangeCallback, shell.IUserAccountChangeCallback, shobjidl/IUserAccountChangeCallback
 ms.prod: windows
 ms.technology: windows-sdk

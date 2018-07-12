@@ -7,7 +7,7 @@ old-location: shell\SHSimpleIDListFromPath.htm
 old-project: shell
 ms.assetid: 349974c2-4ab9-4eb2-897d-a5934893ed07
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: SHSimpleIDListFromPath, SHSimpleIDListFromPath function [Windows Shell], _win32_SHSimpleIDListFromPath, shell.SHSimpleIDListFromPath, shobjidl_core/SHSimpleIDListFromPath
 ms.prod: windows
 ms.technology: windows-sdk

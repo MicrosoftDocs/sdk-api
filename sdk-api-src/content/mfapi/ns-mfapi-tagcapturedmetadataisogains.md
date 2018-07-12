@@ -7,7 +7,7 @@ old-location: stream\capturedmetadataisogains.htm
 old-project: stream
 ms.assetid: 6B87BDFB-EAD5-496D-BE6A-9AE709119515
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/22/2018
 ms.keywords: CapturedMetadataISOGains, CapturedMetadataISOGains structure [Streaming Media Devices], mfapi/CapturedMetadataISOGains, stream.capturedmetadataisogains, tagCapturedMetadataISOGains
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: NetJoinDomain function
 author: windows-sdk-content
 description: The NetJoinDomain function joins a computer to a workgroup or domain.
 old-location: netmgmt\netjoindomain.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: 4efcb399-03af-4312-9f1d-6bc38f356cac
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: NETSETUP_ACCT_CREATE, NETSETUP_AMBIGUOUS_DC, NETSETUP_DEFER_SPN_SET, NETSETUP_DOMAIN_JOIN_IF_JOINED, NETSETUP_DONT_CONTROL_SERVICES, NETSETUP_FORCE_SPN_SET, NETSETUP_IGNORE_UNSUPPORTED_FLAGS, NETSETUP_JOIN_DC_ACCOUNT, NETSETUP_JOIN_DOMAIN, NETSETUP_JOIN_READONLY, NETSETUP_JOIN_UNSECURE, NETSETUP_JOIN_WITH_NEW_NAME, NETSETUP_MACHINE_PWD_PASSED, NETSETUP_NO_ACCT_REUSE, NETSETUP_NO_NETLOGON_CACHE, NETSETUP_SET_MACHINE_NAME, NETSETUP_WIN9X_UPGRADE, NetJoinDomain, NetJoinDomain function [Network Management], _win32_netjoindomain, lmjoin/NetJoinDomain, netmgmt.netjoindomain
 ms.prod: windows
 ms.technology: windows-sdk

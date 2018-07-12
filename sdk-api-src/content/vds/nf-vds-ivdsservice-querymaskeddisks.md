@@ -4,10 +4,10 @@ title: IVdsService::QueryMaskedDisks
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsservice_querymaskeddisks.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 6e53b250-0ceb-4a0c-a1ea-11b2686c5b4d
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsService interface [VDS],QueryMaskedDisks method, IVdsService.QueryMaskedDisks, IVdsService::QueryMaskedDisks, QueryMaskedDisks, QueryMaskedDisks method [VDS], QueryMaskedDisks method [VDS],IVdsService interface, base.ivdsservice_querymaskeddisks, vds/IVdsService::QueryMaskedDisks
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatareaderinfo_matchespattern.htm
 old-project: wic
 ms.assetid: 58ac58f4-25e0-4fc4-8d2a-854bb89e4af6
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICMetadataReaderInfo interface [Windows Imaging Component],MatchesPattern method, IWICMetadataReaderInfo.MatchesPattern, IWICMetadataReaderInfo::MatchesPattern, MatchesPattern, MatchesPattern method [Windows Imaging Component], MatchesPattern method [Windows Imaging Component],IWICMetadataReaderInfo interface, _wic_codec_iwicmetadatareaderinfo_matchespattern, wic._wic_codec_iwicmetadatareaderinfo_matchespattern, wincodecsdk/IWICMetadataReaderInfo::MatchesPattern
 ms.prod: windows
 ms.technology: windows-sdk

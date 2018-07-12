@@ -4,10 +4,10 @@ title: PCLUSAPI_CLUSTER_UPGRADE
 author: windows-sdk-content
 description: Initiates a rolling upgrade of the operating system on a cluster. PCLUSAPI_CLUSTER_UPGRADE defines a pointer to this function.
 old-location: mscs\clusterupgradefunctionallevel.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: EA013501-A4E2-48D8-9062-D20141485CC5
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CLUSTER_UPGRADE, PCLUSAPI_CLUSTER_UPGRADE callback, PCLUSAPI_CLUSTER_UPGRADE callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_UPGRADE, mscs.clusterupgradefunctionallevel
 ms.prod: windows
 ms.technology: windows-sdk

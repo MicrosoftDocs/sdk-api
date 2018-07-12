@@ -4,10 +4,10 @@ title: IComponent::GetDisplayInfo
 author: windows-sdk-content
 description: The IComponent::GetDisplayInfo method retrieves display information for an item in the result pane.
 old-location: mmc\icomponent_getdisplayinfo.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 8143d11c-3740-4ffc-88f0-6df779c50521
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: GetDisplayInfo, GetDisplayInfo method [MMC], GetDisplayInfo method [MMC],IComponent interface, IComponent interface [MMC],GetDisplayInfo method, IComponent.GetDisplayInfo, IComponent::GetDisplayInfo, _slate_icomponent_getdisplayinfo, mmc.icomponent_getdisplayinfo, mmc/IComponent::GetDisplayInfo
 ms.prod: windows
 ms.technology: windows-sdk

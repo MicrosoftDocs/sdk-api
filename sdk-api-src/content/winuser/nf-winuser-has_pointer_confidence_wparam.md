@@ -7,7 +7,7 @@ old-location: inputmsg\has_pointer_confidence_wparam.htm
 old-project: InputMsg
 ms.assetid: 58E66EC4-D855-4B24-80E9-54B6DAE6D36C
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 07/09/2018
 ms.keywords: HAS_POINTER_CONFIDENCE_WPARAM, HAS_POINTER_CONFIDENCE_WPARAM macro [Input Messages and Notifications], inputmsg.has_pointer_confidence_wparam, winuser/HAS_POINTER_CONFIDENCE_WPARAM
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

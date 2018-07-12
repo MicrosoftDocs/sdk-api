@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescriptionAliasInfo_GetSortByAlias.htm
 old-project: properties
 ms.assetid: 22a60d4e-d7e7-4a14-a56a-5325a5dae2eb
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: GetSortByAlias, GetSortByAlias method [Windows Properties], GetSortByAlias method [Windows Properties],IPropertyDescriptionAliasInfo interface, IPropertyDescriptionAliasInfo interface [Windows Properties],GetSortByAlias method, IPropertyDescriptionAliasInfo.GetSortByAlias, IPropertyDescriptionAliasInfo::GetSortByAlias, _shell_IPropertyDescriptionAliasInfo_GetSortByAlias, properties.IPropertyDescriptionAliasInfo_GetSortByAlias, propsys/IPropertyDescriptionAliasInfo::GetSortByAlias, shell.IPropertyDescriptionAliasInfo_GetSortByAlias
 ms.prod: windows
 ms.technology: windows-sdk

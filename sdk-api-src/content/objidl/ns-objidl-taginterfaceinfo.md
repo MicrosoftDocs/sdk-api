@@ -7,7 +7,7 @@ old-location: com\interfaceinfo.htm
 old-project: com
 ms.assetid: 5c2c07bf-1c15-4f21-baef-103837ea24d0
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: "*LPINTERFACEINFO, INTERFACEINFO, INTERFACEINFO structure [COM], LPINTERFACEINFO, LPINTERFACEINFO structure pointer [COM], _com_INTERFACEINFO, com.interfaceinfo, objidl/INTERFACEINFO, objidl/LPINTERFACEINFO, tagINTERFACEINFO"
 ms.prod: windows
 ms.technology: windows-sdk

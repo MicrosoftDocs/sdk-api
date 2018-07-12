@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_getcapability.htm
 old-project: DirectShow
 ms.assetid: f5544fd9-2899-4995-9401-a53f59d6400b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: GetCapability, GetCapability method [DirectShow], GetCapability method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetCapability method, IAMExtTransport.GetCapability, IAMExtTransport::GetCapability, IAMExtTransportGetCapability, dshow.iamexttransport_getcapability, strmif/IAMExtTransport::GetCapability
 ms.prod: windows
 ms.technology: windows-sdk

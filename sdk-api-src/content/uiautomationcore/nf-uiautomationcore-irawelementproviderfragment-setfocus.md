@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderFragment_SetFocus.htm
 old-project: WinAuto
 ms.assetid: 343959bc-42d0-4289-b507-7da78cee28f2
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IRawElementProviderFragment interface [Windows Accessibility],SetFocus method, IRawElementProviderFragment.SetFocus, IRawElementProviderFragment::SetFocus, SetFocus, SetFocus method [Windows Accessibility], SetFocus method [Windows Accessibility],IRawElementProviderFragment interface, uiauto.uiauto_IRawElementProviderFragment_SetFocus, uiauto_IRawElementProviderFragment_SetFocus, uiautomationcore/IRawElementProviderFragment::SetFocus, winauto.uiauto_IRawElementProviderFragment_SetFocus
 ms.prod: windows
 ms.technology: windows-sdk

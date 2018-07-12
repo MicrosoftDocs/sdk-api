@@ -7,7 +7,7 @@ old-location: winmsg\setwindowlongptr.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setwindowlongptr.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: DWLP_DLGPROC, DWLP_MSGRESULT, DWLP_USER, GWLP_HINSTANCE, GWLP_ID, GWLP_USERDATA, GWLP_WNDPROC, GWL_EXSTYLE, GWL_STYLE, SetWindowLongPtr, SetWindowLongPtr function [Windows and Messages], SetWindowLongPtrA, SetWindowLongPtrW, _win32_SetWindowLongPtr, _win32_setwindowlongptr_cpp, winmsg.setwindowlongptr, winui._win32_setwindowlongptr, winuser/SetWindowLongPtr, winuser/SetWindowLongPtrA, winuser/SetWindowLongPtrW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

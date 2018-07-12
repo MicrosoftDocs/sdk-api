@@ -7,7 +7,7 @@ old-location: dxmath\xmstorefloat3se.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat3SE(XMFLOAT3SE@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 06/14/2018
 ms.keywords: DirectX::PackedVector.XMStoreFloat3SE, XMStoreFloat3SE, XMStoreFloat3SE method [DirectX Math Support APIs], dxmath.xmstorefloat3se
 ms.prod: windows
 ms.technology: windows-sdk

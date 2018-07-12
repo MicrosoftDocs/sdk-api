@@ -4,10 +4,10 @@ title: PRESUTIL_GET_EXPAND_SZ_VALUE
 author: windows-sdk-content
 description: Returns a expandable string value from the cluster database.
 old-location: mscs\resutilgetexpandszvalue.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: c0f1064c-d9ae-43af-9622-beae9aee0ce0
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_GET_EXPAND_SZ_VALUE, PRESUTIL_GET_EXPAND_SZ_VALUE callback, PRESUTIL_GET_EXPAND_SZ_VALUE callback function [Failover Cluster], _wolf_resutilgetexpandszvalue, mscs.resutilgetexpandszvalue, resapi/PRESUTIL_GET_EXPAND_SZ_VALUE
 ms.prod: windows
 ms.technology: windows-sdk

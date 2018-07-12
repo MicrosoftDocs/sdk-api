@@ -4,10 +4,10 @@ title: ClusterGroupControl function
 author: windows-sdk-content
 description: Initiates an operation that affects a group. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clustergroupcontrol.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 72896685-a1db-43d7-a5e3-ba380c0624f2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusterGroupControl, ClusterGroupControl function [Failover Cluster], _wolf_clustergroupcontrol, clusapi/ClusterGroupControl, mscs.clustergroupcontrol
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetDisplayType.htm
 old-project: properties
 ms.assetid: e3147b06-0849-4b49-8153-e120e2220651
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: GetDisplayType, GetDisplayType method [Windows Properties], GetDisplayType method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetDisplayType method, IPropertyDescription.GetDisplayType, IPropertyDescription::GetDisplayType, PDDT_BOOLEAN (0x00000002), PDDT_DATETIME (0x00000003), PDDT_ENUMERATED (0x00000004), PDDT_NUMBER (0x00000001), PDDT_STRING (0x00000000), properties.IPropertyDescription_GetDisplayType, propsys/IPropertyDescription::GetDisplayType, shell.IPropertyDescription_GetDisplayType, shell_IPropertyDescription_GetDisplayType
 ms.prod: windows
 ms.technology: windows-sdk

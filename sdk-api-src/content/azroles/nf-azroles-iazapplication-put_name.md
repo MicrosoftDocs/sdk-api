@@ -4,10 +4,10 @@ title: IAzApplication::put_Name
 author: windows-sdk-content
 description: Sets or retrieves the name of the application.
 old-location: security\iazapplication_name.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: f94a902a-9187-486c-9442-6defa9893532
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: AzApplication object [Security],Name property, IAzApplication interface [Security],Name property, IAzApplication.Name, IAzApplication.put_Name, IAzApplication::Name, IAzApplication::get_Name, IAzApplication::put_Name, Name property [Security], Name property [Security],AzApplication object, Name property [Security],IAzApplication interface, azroles/IAzApplication::Name, azroles/IAzApplication::get_Name, azroles/IAzApplication::put_Name, put_Name, security.iazapplication_name
 ms.prod: windows
 ms.technology: windows-sdk

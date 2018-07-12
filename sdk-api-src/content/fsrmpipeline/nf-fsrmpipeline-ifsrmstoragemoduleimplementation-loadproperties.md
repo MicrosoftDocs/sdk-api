@@ -4,10 +4,10 @@ title: IFsrmStorageModuleImplementation::LoadProperties
 author: windows-sdk-content
 description: Instructs the storage module to load all properties.
 old-location: fsrm\ifsrmstoragemoduleimplementation_loadproperties.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 05de6dfe-0f90-4866-bedc-72b8fea9dfac
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IFsrmStorageModuleImplementation interface [File Server Resource Manager],LoadProperties method, IFsrmStorageModuleImplementation.LoadProperties, IFsrmStorageModuleImplementation::LoadProperties, LoadProperties, LoadProperties method [File Server Resource Manager], LoadProperties method [File Server Resource Manager],IFsrmStorageModuleImplementation interface, fs.ifsrmstoragemoduleimplementation_loadproperties, fsrm.ifsrmstoragemoduleimplementation_loadproperties, fsrmpipeline/IFsrmStorageModuleImplementation::LoadProperties
 ms.prod: windows
 ms.technology: windows-sdk

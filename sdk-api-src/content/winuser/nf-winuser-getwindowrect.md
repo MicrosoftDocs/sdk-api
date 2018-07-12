@@ -7,7 +7,7 @@ old-location: winmsg\getwindowrect.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowrect.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: GetWindowRect, GetWindowRect function [Windows and Messages], _win32_GetWindowRect, _win32_getwindowrect_cpp, winmsg.getwindowrect, winui._win32_getwindowrect, winuser/GetWindowRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

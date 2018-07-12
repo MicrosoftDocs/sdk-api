@@ -4,10 +4,10 @@ title: IVdsVolumeShrink::Shrink
 author: windows-sdk-content
 description: Shrinks the volume and all plexes and returns the released extents.
 old-location: base\ivdsvolumeshrink_shrink.htm
-old-project: VDS
+old-project: vds
 ms.assetid: a6d91cb0-b9a4-4a5f-94bc-824b1691bcd7
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsVolumeShrink interface,Shrink method, IVdsVolumeShrink.Shrink, IVdsVolumeShrink::Shrink, Shrink, Shrink method, Shrink method,IVdsVolumeShrink interface, base.ivdsvolumeshrink_shrink, vds/IVdsVolumeShrink::Shrink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ The address of an <a href="https://msdn.microsoft.com/7814b8ef-84b4-453e-b480-c3
       initializes the interface on return. Callers must release the interface. Use this interface to cancel, wait for, 
       or query the status of the operation. If 
       <a href="https://msdn.microsoft.com/1bb30247-efb8-488f-b142-8912c351f5f2">IVdsAsync::Wait</a> is called and a success HRESULT value is returned, the interfaces returned in 
-      the <a href="https://msdn.microsoft.com/21771c6a-eca9-47f3-b6fc-383bca1e11bf">VDS_ASYNC_OUTPUT</a> structure must be released by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method on each interface pointer. However, if <b>Wait</b> returns a failure HRESULT value, or if the <i>pHrResult</i> parameter of <b>Wait</b> receives a failure HRESULT value, the interface pointers in the <b>VDS_ASYNC_OUTPUT</b> structure are <b>NULL</b> and do not need to be released. You can test for success or failure HRESULT values by using the <a href="https://msdn.microsoft.com/library/ms687197(v=VS.85).aspx">SUCCEEDED</a> and <a href="https://msdn.microsoft.com/library/ms693474(v=VS.85).aspx">FAILED</a> macros defined in Winerror.h.
+      the <a href="https://msdn.microsoft.com/21771c6a-eca9-47f3-b6fc-383bca1e11bf">VDS_ASYNC_OUTPUT</a> structure must be released by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method on each interface pointer. However, if <b>Wait</b> returns a failure HRESULT value, or if the <i>pHrResult</i> parameter of <b>Wait</b> receives a failure HRESULT value, the interface pointers in the <b>VDS_ASYNC_OUTPUT</b> structure are <b>NULL</b> and do not need to be released. You can test for success or failure HRESULT values by using the <a href="https://msdn.microsoft.com/library/ms687197(v=VS.85).aspx">SUCCEEDED</a> and <a href="https://msdn.microsoft.com/library/ms693474(v=VS.85).aspx">FAILED</a> macros defined in Winerror.h.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: IEnumBitsPeerCacheRecords::GetCount
 author: windows-sdk-content
 description: Retrieves a count of the number of cache records in the enumeration.
 old-location: bits\ienumbitspeercacherecords_getcount.htm
-old-project: Bits
+old-project: bits
 ms.assetid: 40c4e7da-031f-4c3b-ab18-2476b54ae972
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBitsPeerCacheRecords interface, IEnumBitsPeerCacheRecords interface [BITS],GetCount method, IEnumBitsPeerCacheRecords.GetCount, IEnumBitsPeerCacheRecords::GetCount, bits.ienumbitspeercacherecords_getcount, bits3_0/IEnumBitsPeerCacheRecords::GetCount
 ms.prod: windows
 ms.technology: windows-sdk

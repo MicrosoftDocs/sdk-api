@@ -4,10 +4,10 @@ title: IEnumNetSharingEveryConnection
 author: windows-sdk-content
 description: The IEnumNetSharingEveryConnection interface provides methods for enumerating all the connections in the Connections folder.
 old-location: ics\ienumnetsharingeveryconnection.htm
-old-project: ICS
+old-project: ics
 ms.assetid: d3be8047-e0d5-44b7-97d9-536bc4aa11c5
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IEnumNetSharingEveryConnection, IEnumNetSharingEveryConnection interface [ICS/ICF], IEnumNetSharingEveryConnection interface [ICS/ICF],described, _ics_ienumnetsharingeveryconnection, ics.ienumnetsharingeveryconnection, netcon/IEnumNetSharingEveryConnection
 ms.prod: windows
 ms.technology: windows-sdk

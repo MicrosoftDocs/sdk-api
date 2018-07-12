@@ -7,7 +7,7 @@ old-location: wsw\wscreatereader.htm
 old-project: wsw
 ms.assetid: 0d4449aa-ffcc-41d9-99b1-7352edaf3700
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsCreateReader, WsCreateReader function [Web Services for Windows], webservices/WsCreateReader, wsw.wscreatereader
 ms.prod: windows
 ms.technology: windows-sdk

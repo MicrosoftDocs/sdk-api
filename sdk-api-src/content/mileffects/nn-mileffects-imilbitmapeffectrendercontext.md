@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectrendercontext.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\imilbitmapeffectrendercontext.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: IMILBitmapEffectRenderContext, IMILBitmapEffectRenderContext interface [WPF Bitmap Effects], IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectrendercontext, mileffects/IMILBitmapEffectRenderContext, wibe._wibe_imilbitmapeffectrendercontext
 ms.prod: windows
 ms.technology: windows-sdk

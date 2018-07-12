@@ -7,7 +7,7 @@ old-location: dshow\ivmraspectratiocontrol.htm
 old-project: DirectShow
 ms.assetid: a341be9d-9801-4215-840d-7d581e9ec3cb
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IVMRAspectRatioControl, IVMRAspectRatioControl interface [DirectShow], IVMRAspectRatioControl interface [DirectShow],described, IVMRAspectRatioControlInterface, dshow.ivmraspectratiocontrol, strmif/IVMRAspectRatioControl
 ms.prod: windows
 ms.technology: windows-sdk

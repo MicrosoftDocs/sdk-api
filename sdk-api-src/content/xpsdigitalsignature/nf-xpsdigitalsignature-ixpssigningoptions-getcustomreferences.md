@@ -7,7 +7,7 @@ old-location: xps\ixpssigningoptions_getcustomreferences.htm
 old-project: printdocs
 ms.assetid: 1a9ab939-4581-40a9-acd3-2afe02c5e201
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetCustomReferences, GetCustomReferences method [XPS Documents and Packaging], GetCustomReferences method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetCustomReferences method, IXpsSigningOptions.GetCustomReferences, IXpsSigningOptions::GetCustomReferences, xps.ixpssigningoptions_getcustomreferences, xpsdigitalsignature/IXpsSigningOptions::GetCustomReferences
 ms.prod: windows
 ms.technology: windows-sdk

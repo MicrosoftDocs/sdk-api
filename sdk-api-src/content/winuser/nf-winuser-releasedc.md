@@ -7,7 +7,7 @@ old-location: gdi\releasedc.htm
 old-project: gdi
 ms.assetid: c4f48f1e-4a37-4330-908e-2ac5c65e1a1d
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: ReleaseDC, ReleaseDC function [Windows GDI], _win32_ReleaseDC, gdi.releasedc, winuser/ReleaseDC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

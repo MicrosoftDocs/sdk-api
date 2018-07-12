@@ -7,7 +7,7 @@ old-location: winmsg\setwindowshookex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\setwindowshookex.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: SetWindowsHookEx, SetWindowsHookEx function [Windows and Messages], SetWindowsHookExA, SetWindowsHookExW, WH_CALLWNDPROC, WH_CALLWNDPROCRET, WH_CBT, WH_DEBUG, WH_FOREGROUNDIDLE, WH_GETMESSAGE, WH_JOURNALPLAYBACK, WH_JOURNALRECORD, WH_KEYBOARD, WH_KEYBOARD_LL, WH_MOUSE, WH_MOUSE_LL, WH_MSGFILTER, WH_SHELL, WH_SYSMSGFILTER, _win32_SetWindowsHookEx, _win32_setwindowshookex_cpp, winmsg.setwindowshookex, winui._win32_setwindowshookex, winuser/SetWindowsHookEx, winuser/SetWindowsHookExA, winuser/SetWindowsHookExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

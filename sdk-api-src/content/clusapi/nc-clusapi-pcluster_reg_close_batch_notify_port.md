@@ -4,10 +4,10 @@ title: PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT
 author: windows-sdk-content
 description: Closes a subscription to a batch notification port created by the ClusterRegCreateBatchNotifyPort function.
 old-location: mscs\clusterregclosebatchnotifyport.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 7ae10343-c97e-4036-9fe6-b894394bb605
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT, PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT callback, PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT callback function [Failover Cluster], clusapi/PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT, mscs.clusterregclosebatchnotifyport
 ms.prod: windows
 ms.technology: windows-sdk

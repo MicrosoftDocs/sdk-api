@@ -4,10 +4,10 @@ title: "_MIB_TCPTABLE"
 author: windows-sdk-content
 description: Contains a table of TCP connections for IPv4 on the local computer.
 old-location: mib\mib_tcptable.htm
-old-project: MIB
+old-project: mib
 ms.assetid: a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 05/15/2018
 ms.keywords: "*PMIB_TCPTABLE, MIB_TCPTABLE, MIB_TCPTABLE structure [MIB], PMIB_TCPTABLE, PMIB_TCPTABLE structure pointer [MIB], _MIB_TCPTABLE, _mpr_mib_tcptable, iprtrmib/MIB_TCPTABLE, iprtrmib/PMIB_TCPTABLE, mib.mib_tcptable, rras.mib_tcptable, tcpmib/MIB_TCPTABLE, tcpmib/PMIB_TCPTABLE"
 ms.prod: windows
 ms.technology: windows-sdk

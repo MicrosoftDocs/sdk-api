@@ -7,7 +7,7 @@ old-location: base\tlsfree.htm
 old-project: ProcThread
 ms.assetid: f5b1e8fc-02eb-4a06-b606-2b647944029b
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: TlsFree, TlsFree function, _win32_tlsfree, base.tlsfree, processthreadsapi/TlsFree, winbase/TlsFree
 ms.prod: windows
 ms.technology: windows-sdk

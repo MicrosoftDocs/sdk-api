@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgr_enumdocumentmgrs.htm
 old-project: TSF
 ms.assetid: 0b6f61fb-0ca0-4b93-ad30-d1e080b9bde1
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: EnumDocumentMgrs, EnumDocumentMgrs method [Text Services Framework], EnumDocumentMgrs method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],EnumDocumentMgrs method, ITfThreadMgr.EnumDocumentMgrs, ITfThreadMgr::EnumDocumentMgrs, _tsf_itfthreadmgr_enumdocumentmgrs_ref, msctf/ITfThreadMgr::EnumDocumentMgrs, tsf.itfthreadmgr_enumdocumentmgrs
 ms.prod: windows
 ms.technology: windows-sdk

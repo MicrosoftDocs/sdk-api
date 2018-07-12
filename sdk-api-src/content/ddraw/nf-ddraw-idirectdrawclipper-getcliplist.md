@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawclipper_getcliplist.htm
 old-project: directdraw
 ms.assetid: 0446f8b9-c965-4336-ae78-5bb791861844
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/18/2018
 ms.keywords: GetClipList, GetClipList method [DirectDraw], GetClipList method [DirectDraw],IDirectDrawClipper interface, IDirectDrawClipper interface [DirectDraw],GetClipList method, IDirectDrawClipper.GetClipList, IDirectDrawClipper::GetClipList, ddraw/IDirectDrawClipper::GetClipList, directdraw.idirectdrawclipper_getcliplist
 ms.prod: windows
 ms.technology: windows-sdk

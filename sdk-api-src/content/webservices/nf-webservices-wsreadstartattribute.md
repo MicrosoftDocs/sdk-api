@@ -7,7 +7,7 @@ old-location: wsw\wsreadstartattribute.htm
 old-project: wsw
 ms.assetid: 6fd0c8c2-2eac-4d98-898d-1c5849220c36
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsReadStartAttribute, WsReadStartAttribute function [Web Services for Windows], webservices/WsReadStartAttribute, wsw.wsreadstartattribute
 ms.prod: windows
 ms.technology: windows-sdk

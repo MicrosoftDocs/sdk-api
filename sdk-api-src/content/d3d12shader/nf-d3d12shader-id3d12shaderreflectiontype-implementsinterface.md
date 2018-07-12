@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectiontype_implementsinterface.htm
 old-project: direct3d12
 ms.assetid: FE84D58A-998D-4362-96B2-5C00D2A82CB8
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: ID3D12ShaderReflectionType interface,ImplementsInterface method, ID3D12ShaderReflectionType.ImplementsInterface, ID3D12ShaderReflectionType::ImplementsInterface, ImplementsInterface, ImplementsInterface method, ImplementsInterface method,ID3D12ShaderReflectionType interface, d3d12shader/ID3D12ShaderReflectionType::ImplementsInterface, direct3d12.id3d12shaderreflectiontype_implementsinterface
 ms.prod: windows
 ms.technology: windows-sdk

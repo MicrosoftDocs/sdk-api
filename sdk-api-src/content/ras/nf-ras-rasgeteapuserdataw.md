@@ -4,10 +4,10 @@ title: RasGetEapUserDataW function
 author: windows-sdk-content
 description: Use the RasGetEapUserData function to retrieve user-specific Extensible Authentication Protocol (EAP) information for the specified phone-book entry.
 old-location: rras\rasgeteapuserdata.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 6b1a1c73-28af-43ff-b79c-c796ddae219c
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RasGetEapUserData, RasGetEapUserData function [RAS], RasGetEapUserDataA, RasGetEapUserDataW, _ras_rasgeteapuserdata, ras/RasGetEapUserData, ras/RasGetEapUserDataA, ras/RasGetEapUserDataW, rras.rasgeteapuserdata
 ms.prod: windows
 ms.technology: windows-sdk

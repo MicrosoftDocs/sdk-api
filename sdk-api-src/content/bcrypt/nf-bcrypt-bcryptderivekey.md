@@ -4,10 +4,10 @@ title: BCryptDeriveKey function
 author: windows-sdk-content
 description: Derives a key from a secret agreement value.
 old-location: security\bcryptderivekey.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 33c3cbf7-6c08-42ed-ac3f-feb71f3a9cbf
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: BCRYPT_KDF_HASH, BCRYPT_KDF_HMAC, BCRYPT_KDF_SP80056A_CONCAT, BCRYPT_KDF_TLS_PRF, BCryptDeriveKey, BCryptDeriveKey function [Security], KDF_USE_SECRET_AS_HMAC_KEY_FLAG, bcrypt/BCryptDeriveKey, security.bcryptderivekey
 ms.prod: windows
 ms.technology: windows-sdk

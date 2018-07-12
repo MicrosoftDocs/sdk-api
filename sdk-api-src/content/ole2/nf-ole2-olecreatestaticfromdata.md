@@ -7,7 +7,7 @@ old-location: com\olecreatestaticfromdata.htm
 old-project: com
 ms.assetid: 847d82f5-149d-48a4-a228-f5551a07a790
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: OleCreateStaticFromData, OleCreateStaticFromData function [COM], _ole_OleCreateStaticFromData, com.olecreatestaticfromdata, ole2/OleCreateStaticFromData
 ms.prod: windows
 ms.technology: windows-sdk

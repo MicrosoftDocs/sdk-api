@@ -4,10 +4,10 @@ title: DRMEnumerateLicense function
 author: windows-sdk-content
 description: Enumerates valid licenses, machine certificates or rights account certificates, revocation lists for the current user, or issuance license templates.
 old-location: rm\drmenumeratelicense.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: 7a7797f2-d219-4a17-ac3d-96134cd14a55
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMEnumerateLicense, DRMEnumerateLicense function [Active Directory Rights Management Services SDK 1.0], DRM_EL_CLIENTLICENSOR, DRM_EL_CLIENTLICENSOR_LID, DRM_EL_EUL, DRM_EL_EUL_LID, DRM_EL_EXPIRED, DRM_EL_GROUPIDENTITY, DRM_EL_GROUPIDENTITY_LID, DRM_EL_GROUPIDENTITY_NAME, DRM_EL_ISSUANCELICENSE_TEMPLATE, DRM_EL_ISSUANCELICENSE_TEMPLATE_LID, DRM_EL_ISSUERNAME, DRM_EL_MACHINE, DRM_EL_REVOCATIONLIST, DRM_EL_REVOCATIONLIST_LID, DRM_EL_SPECIFIED_CLIENTLICENSOR, DRM_EL_SPECIFIED_GROUPIDENTITY, msdrm/DRMEnumerateLicense, rm.drmenumeratelicense
 ms.prod: windows
 ms.technology: windows-sdk

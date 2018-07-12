@@ -7,7 +7,7 @@ old-location: automat\vardecround.htm
 old-project: automat
 ms.assetid: 264914c6-2f47-4e99-b3bb-a2c510906954
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarDecRound, VarDecRound function [Automation], _oa96_VarDecRound, automat.vardecround, oleauto/VarDecRound
 ms.prod: windows
 ms.technology: windows-sdk

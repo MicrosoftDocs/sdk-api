@@ -4,10 +4,10 @@ title: PerfEnumerateCounterSetInstances function
 author: windows-sdk-content
 description: Gets the names and identifiers of the active instances of a counter set on the specified system.
 old-location: perf\perfenumeratecountersetinstances.htm
-old-project: PerfCtrs
+old-project: perfctrs
 ms.assetid: 83DCEAB7-5F79-4A55-8BAC-D20F545FF76D
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: PerfEnumerateCounterSetInstances, PerfEnumerateCounterSetInstances function [Perf], perf.perfenumeratecountersetinstances, perflib/PerfEnumerateCounterSetInstances
 ms.prod: windows
 ms.technology: windows-sdk

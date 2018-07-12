@@ -227,7 +227,7 @@ VariantClear(&amp;v);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">IUnknown::QueryInterface</a>
+<a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a>
 
 
 

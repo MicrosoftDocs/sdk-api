@@ -7,7 +7,7 @@ old-location: display\engfntcachefault.htm
 old-project: display
 ms.assetid: 27a44779-64df-4a3f-b8b8-9e0417010969
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: EngFntCacheFault, EngFntCacheFault function [Display Devices], display.engfntcachefault, gdifncs_f6395707-6ff6-4396-b280-77d4256db07b.xml, winddi/EngFntCacheFault
 ms.prod: windows
 ms.technology: windows-sdk

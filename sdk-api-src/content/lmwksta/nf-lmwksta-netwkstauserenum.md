@@ -4,10 +4,10 @@ title: NetWkstaUserEnum function
 author: windows-sdk-content
 description: The NetWkstaUserEnum function lists information about all users currently logged on to the workstation. This list includes interactive, service and batch logons.
 old-location: netmgmt\netwkstauserenum.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: 42eaeb70-3ce8-4eae-b20b-4729db90a7ef
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: 0, 1, NetWkstaUserEnum, NetWkstaUserEnum function [Network Management], _win32_netwkstauserenum, lmwksta/NetWkstaUserEnum, netmgmt.netwkstauserenum
 ms.prod: windows
 ms.technology: windows-sdk

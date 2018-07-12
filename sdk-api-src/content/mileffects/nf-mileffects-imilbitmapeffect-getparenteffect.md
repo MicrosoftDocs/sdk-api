@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffect_getparenteffect.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffect\getparenteffect.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: GetParentEffect, GetParentEffect method [WPF Bitmap Effects], GetParentEffect method [WPF Bitmap Effects],IMILBitmapEffect interface, IMILBitmapEffect interface [WPF Bitmap Effects],GetParentEffect method, IMILBitmapEffect.GetParentEffect, IMILBitmapEffect::GetParentEffect, _wibe_imilbitmapeffect_getparenteffect, mileffects/IMILBitmapEffect::GetParentEffect, wibe._wibe_imilbitmapeffect_getparenteffect
 ms.prod: windows
 ms.technology: windows-sdk

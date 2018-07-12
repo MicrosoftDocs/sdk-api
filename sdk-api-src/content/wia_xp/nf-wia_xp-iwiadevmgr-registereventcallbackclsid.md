@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaDevMgr_RegisterEventCallbackCLSID.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\registereventcallbackclsid.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: IWiaDevMgr interface [WIA],RegisterEventCallbackCLSID method, IWiaDevMgr.RegisterEventCallbackCLSID, IWiaDevMgr::RegisterEventCallbackCLSID, RegisterEventCallbackCLSID, RegisterEventCallbackCLSID method [WIA], RegisterEventCallbackCLSID method [WIA],IWiaDevMgr interface, _wia_IWiaDevMgr_RegisterEventCallbackCLSID, wia._wia_IWiaDevMgr_RegisterEventCallbackCLSID, wia_xp/IWiaDevMgr::RegisterEventCallbackCLSID
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservice_sendcommand.htm
 old-project: wpd_sdk
 ms.assetid: c6c42347-145c-4be7-bea6-34b13c211cb1
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],SendCommand method, IPortableDeviceService.SendCommand, IPortableDeviceService::SendCommand, SendCommand, SendCommand method [Windows Portable Devices SDK], SendCommand method [Windows Portable Devices SDK],IPortableDeviceService interface, portabledeviceapi/IPortableDeviceService::SendCommand, wpdsdk.iportabledeviceservice_sendcommand
 ms.prod: windows
 ms.technology: windows-sdk

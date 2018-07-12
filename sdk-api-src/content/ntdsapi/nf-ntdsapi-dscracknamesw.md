@@ -4,10 +4,10 @@ title: DsCrackNamesW function
 author: windows-sdk-content
 description: Converts an array of directory service object names from one format to another.
 old-location: ad\dscracknames.htm
-old-project: AD
+old-project: ad
 ms.assetid: f812a001-5aab-4c62-87bd-54f95792e271
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DsCrackNames, DsCrackNames function [Active Directory], DsCrackNamesA, DsCrackNamesW, _glines_dscracknames, ad.dscracknames, ntdsapi/DsCrackNames, ntdsapi/DsCrackNamesA, ntdsapi/DsCrackNamesW
 ms.prod: windows
 ms.technology: windows-sdk

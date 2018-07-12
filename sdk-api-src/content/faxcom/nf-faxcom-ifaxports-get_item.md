@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-A fax client application can also access the <a href="https://msdn.microsoft.com/library/ms691281(v=VS.85).aspx">IFaxPort</a> interface directly by calling the <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">IUnknown::QueryInterface</a> method to retrieve an <b>IFaxPort</b> interface pointer.
+A fax client application can also access the <a href="https://msdn.microsoft.com/library/ms691281(v=VS.85).aspx">IFaxPort</a> interface directly by calling the <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method to retrieve an <b>IFaxPort</b> interface pointer.
 
 
 

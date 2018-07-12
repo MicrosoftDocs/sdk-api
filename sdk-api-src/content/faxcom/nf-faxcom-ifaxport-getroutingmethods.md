@@ -79,7 +79,7 @@ Retrieves a <a href="https://msdn.microsoft.com/library/ms692847(v=VS.85).aspx">
 
 The <b>GetRoutingMethods</b> interface method retrieves an <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer to a <a href="https://msdn.microsoft.com/library/ms692847(v=VS.85).aspx">FaxRoutingMethods</a> object. This object is derived from the <a href="https://msdn.microsoft.com/library/ms691338(v=VS.85).aspx">FaxPort</a> object specified by the <a href="https://msdn.microsoft.com/library/ms690893(v=VS.85).aspx">IFaxPorts</a> interface.
 
-A fax client application can access the <a href="https://msdn.microsoft.com/library/ms692291(v=VS.85).aspx">IFaxRoutingMethods</a> interface directly by calling the <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">IUnknown::QueryInterface</a> method to retrieve an interface pointer.
+A fax client application can access the <a href="https://msdn.microsoft.com/library/ms692291(v=VS.85).aspx">IFaxRoutingMethods</a> interface directly by calling the <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method to retrieve an interface pointer.
 
 
 

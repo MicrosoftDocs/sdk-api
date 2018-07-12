@@ -7,7 +7,7 @@ old-location: search\_search_ISearchManager_SetParameter.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\setparameter.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISearchManager interface [search],SetParameter method, ISearchManager.SetParameter, ISearchManager::SetParameter, SetParameter, SetParameter method [search], SetParameter method [search],ISearchManager interface, _search_ISearchManager_SetParameter, search._search_ISearchManager_SetParameter, searchapi/ISearchManager::SetParameter
 ms.prod: windows
 ms.technology: windows-sdk

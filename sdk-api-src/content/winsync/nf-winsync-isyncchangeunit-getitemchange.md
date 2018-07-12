@@ -7,7 +7,7 @@ old-location: winsync\isyncchangeunit_getitemchange.htm
 old-project: winsync
 ms.assetid: d28b4eb0-ddd2-4abf-9183-4d39b728923b
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetItemChange, GetItemChange method [Windows Sync], GetItemChange method [Windows Sync],ISyncChangeUnit interface, ISyncChangeUnit interface [Windows Sync],GetItemChange method, ISyncChangeUnit.GetItemChange, ISyncChangeUnit::GetItemChange, winsync.isyncchangeunit_getitemchange, winsync/ISyncChangeUnit::GetItemChange
 ms.prod: windows
 ms.technology: windows-sdk

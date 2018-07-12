@@ -4,10 +4,10 @@ title: IX509ExtensionAuthorityKeyIdentifier::InitializeEncode
 author: windows-sdk-content
 description: Initializes the extension from a byte array.
 old-location: security\ix509extensionauthoritykeyidentifier_initializeencode_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 450e65f9-cca0-42bd-b70b-baaf2e353812
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509ExtensionAuthorityKeyIdentifier interface [Security],InitializeEncode method, IX509ExtensionAuthorityKeyIdentifier.InitializeEncode, IX509ExtensionAuthorityKeyIdentifier::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionAuthorityKeyIdentifier interface, certenroll/IX509ExtensionAuthorityKeyIdentifier::InitializeEncode, security.ix509extensionauthoritykeyidentifier_initializeencode_method
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_setlength.htm
 old-project: medfound
 ms.assetid: 55bee595-0a32-4b9e-8b22-48fdb2913dfc
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 55bee595-0a32-4b9e-8b22-48fdb2913dfc, IMFByteStream interface [Media Foundation],SetLength method, IMFByteStream.SetLength, IMFByteStream::SetLength, SetLength, SetLength method [Media Foundation], SetLength method [Media Foundation],IMFByteStream interface, mf.imfbytestream_setlength, mfobjects/IMFByteStream::SetLength
 ms.prod: windows
 ms.technology: windows-sdk

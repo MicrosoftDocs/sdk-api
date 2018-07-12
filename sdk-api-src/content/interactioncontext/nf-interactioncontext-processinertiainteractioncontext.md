@@ -7,7 +7,7 @@ old-location: input_intcontext\processinertiainteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: e1f18294-feb2-4340-8ed5-d76600c3d93a
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: ProcessInertiaInteractionContext, ProcessInertiaInteractionContext function, input_intcontext.processinertiainteractioncontext, interactioncontext.processinertiainteractioncontext, interactioncontext/ProcessInertiaInteractionContext
 ms.prod: windows
 ms.technology: windows-sdk

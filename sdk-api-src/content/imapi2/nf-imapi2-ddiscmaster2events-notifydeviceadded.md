@@ -7,7 +7,7 @@ old-location: imapi\ddiscmaster2events_notifydeviceadded.htm
 old-project: imapi
 ms.assetid: 1f728b33-3788-4fc4-b261-da243b4ff46e
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: DDiscMaster2Events interface [IMAPI],NotifyDeviceAdded method, DDiscMaster2Events.NotifyDeviceAdded, DDiscMaster2Events::NotifyDeviceAdded, NotifyDeviceAdded, NotifyDeviceAdded method [IMAPI], NotifyDeviceAdded method [IMAPI],DDiscMaster2Events interface, imapi.ddiscmaster2events_notifydeviceadded, imapi2/DDiscMaster2Events::NotifyDeviceAdded
 ms.prod: windows
 ms.technology: windows-sdk

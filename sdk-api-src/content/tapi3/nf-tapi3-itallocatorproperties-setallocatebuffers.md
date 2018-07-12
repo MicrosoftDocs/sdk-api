@@ -4,10 +4,10 @@ title: ITAllocatorProperties::SetAllocateBuffers
 author: windows-sdk-content
 description: The SetAllocateBuffers method determines whether the current allocator buffers must be set.
 old-location: tapi3\itallocatorproperties_setallocatebuffers.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 5f4a25f8-1a5f-40ff-9a29-586d1c7c217c
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITAllocatorProperties interface [TAPI 2.2],SetAllocateBuffers method, ITAllocatorProperties.SetAllocateBuffers, ITAllocatorProperties::SetAllocateBuffers, SetAllocateBuffers, SetAllocateBuffers method [TAPI 2.2], SetAllocateBuffers method [TAPI 2.2],ITAllocatorProperties interface, _tapi3_itallocatorproperties_setallocatebuffers, tapi3.itallocatorproperties_setallocatebuffers, tapi3ds/ITAllocatorProperties::SetAllocateBuffers
 ms.prod: windows
 ms.technology: windows-sdk

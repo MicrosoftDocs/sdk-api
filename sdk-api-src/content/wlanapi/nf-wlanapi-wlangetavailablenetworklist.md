@@ -7,7 +7,7 @@ old-location: nwifi\wlangetavailablenetworklist.htm
 old-project: NativeWiFi
 ms.assetid: 27353a1b-2a3c-4c3b-b512-917d010ee8dd
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_ADHOC_PROFILES, WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_MANUAL_HIDDEN_PROFILES, WlanGetAvailableNetworkList, WlanGetAvailableNetworkList function [NativeWIFI], nwifi.wlangetavailablenetworklist, nwifi.wlangetvisiblenetworklist, wlanapi/WlanGetAvailableNetworkList
 ms.prod: windows
 ms.technology: windows-sdk

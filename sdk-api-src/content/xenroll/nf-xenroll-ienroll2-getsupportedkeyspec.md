@@ -4,10 +4,10 @@ title: IEnroll2::GetSupportedKeySpec
 author: windows-sdk-content
 description: Retrieves information regarding the current cryptographic service provider (CSP) support for signature and/or exchange operations.
 old-location: security\ienroll4_getsupportedkeyspec.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 8f7ace8e-0102-4c89-9d8a-e252ad60bb96
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetSupportedKeySpec, GetSupportedKeySpec method [Security], GetSupportedKeySpec method [Security],IEnroll2 interface, IEnroll2 interface [Security],GetSupportedKeySpec method, IEnroll2.GetSupportedKeySpec, IEnroll2::GetSupportedKeySpec, security.ienroll4_getsupportedkeyspec, xenroll/IEnroll2::GetSupportedKeySpec
 ms.prod: windows
 ms.technology: windows-sdk

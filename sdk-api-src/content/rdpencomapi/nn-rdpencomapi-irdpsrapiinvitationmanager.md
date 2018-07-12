@@ -4,10 +4,10 @@ title: IRDPSRAPIInvitationManager
 author: windows-sdk-content
 description: Manages invitation objects.
 old-location: rdp\irdpsrapiinvitationmanager.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: 300940ef-e8a6-4dd9-a078-d4325e20ae91
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 03/29/2018
 ms.keywords: IRDPSRAPIInvitationManager, IRDPSRAPIInvitationManager interface [RDP], IRDPSRAPIInvitationManager interface [RDP],described, rdp.irdpsrapiinvitationmanager, rdpencomapi/IRDPSRAPIInvitationManager
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: search\_search_ISearchNotifyInlineSite_OnCatalogStatusChange.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchnotifyinlinesite\oncatalogstatuschange.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISearchNotifyInlineSite interface [search],OnCatalogStatusChange method, ISearchNotifyInlineSite.OnCatalogStatusChange, ISearchNotifyInlineSite::OnCatalogStatusChange, OnCatalogStatusChange, OnCatalogStatusChange method [search], OnCatalogStatusChange method [search],ISearchNotifyInlineSite interface, _search_ISearchNotifyInlineSite_OnCatalogStatusChange, search._search_ISearchNotifyInlineSite_OnCatalogStatusChange, searchapi/ISearchNotifyInlineSite::OnCatalogStatusChange
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: automat\varnot.htm
 old-project: automat
 ms.assetid: e3825905-2a28-4283-bb65-0273572f3150
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarNot, VarNot function [Automation], _oa96_VarNot, automat.varnot, oleauto/VarNot
 ms.prod: windows
 ms.technology: windows-sdk

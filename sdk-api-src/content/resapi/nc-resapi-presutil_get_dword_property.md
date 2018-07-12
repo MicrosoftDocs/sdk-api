@@ -4,10 +4,10 @@ title: PRESUTIL_GET_DWORD_PROPERTY
 author: windows-sdk-content
 description: Retrieves a DWORD property from a property list and advances a pointer to the next property in the list. The PRESUTIL_GET_DWORD_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetdwordproperty.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: d67f73f8-a5ce-4922-956f-392c27ee3b1d
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_GET_DWORD_PROPERTY, PRESUTIL_GET_DWORD_PROPERTY callback, PRESUTIL_GET_DWORD_PROPERTY callback function [Failover Cluster], _wolf_resutilgetdwordproperty, mscs.resutilgetdwordproperty, resapi/PRESUTIL_GET_DWORD_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk

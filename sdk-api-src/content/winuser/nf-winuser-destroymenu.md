@@ -7,7 +7,7 @@ old-location: menurc\destroymenu.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\destroymenu.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: DestroyMenu, DestroyMenu function [Menus and Other Resources], _win32_DestroyMenu, _win32_destroymenu_cpp, menurc.destroymenu, winui._win32_destroymenu, winuser/DestroyMenu
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

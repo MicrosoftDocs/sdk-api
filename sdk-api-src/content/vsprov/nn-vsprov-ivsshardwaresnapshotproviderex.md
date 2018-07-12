@@ -4,10 +4,10 @@ title: IVssHardwareSnapshotProviderEx
 author: windows-sdk-content
 description: Provides an additional method used by VSS to notify hardware providers of LUN state changes.
 old-location: base\ivsshardwaresnapshotproviderex.htm
-old-project: VSS
+old-project: vss
 ms.assetid: aaf94823-845b-49cb-8599-962229fef4cb
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IVssHardwareSnapshotProviderEx, IVssHardwareSnapshotProviderEx interface, IVssHardwareSnapshotProviderEx interface,described, base.ivsshardwaresnapshotproviderex, vsprov/IVssHardwareSnapshotProviderEx
 ms.prod: windows
 ms.technology: windows-sdk

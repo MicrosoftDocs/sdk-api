@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager_settrimprioritycomparison.htm
 old-project: UIAnimation
 ms.assetid: f4c81cc4-4c00-4f78-819d-55f79972fe46
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],SetTrimPriorityComparison method, IUIAnimationManager.SetTrimPriorityComparison, IUIAnimationManager::SetTrimPriorityComparison, SetTrimPriorityComparison, SetTrimPriorityComparison method [Windows Animation], SetTrimPriorityComparison method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_settrimprioritycomparison, uianimation/IUIAnimationManager::SetTrimPriorityComparison
 ms.prod: windows
 ms.technology: windows-sdk

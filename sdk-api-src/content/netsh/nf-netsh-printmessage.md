@@ -4,10 +4,10 @@ title: PrintMessage function
 author: windows-sdk-content
 description: Displays output to the NetShell console.
 old-location: netshell\printmessage.htm
-old-project: NetShell
+old-project: netshell
 ms.assetid: 6646a4f7-24b7-460c-8027-80485ac50785
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: PrintMessage, PrintMessage function [NetShell], _netsh_printmessage, netsh/PrintMessage, netshell.printmessage
 ms.prod: windows
 ms.technology: windows-sdk

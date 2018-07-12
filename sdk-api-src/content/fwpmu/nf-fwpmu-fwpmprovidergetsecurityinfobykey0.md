@@ -4,10 +4,10 @@ title: FwpmProviderGetSecurityInfoByKey0 function
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for a provider object.
 old-location: fwp\fwpmprovidergetsecurityinfobykey0_func.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 0791050d-86e7-4b19-931a-95a531461811
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FwpmProviderGetSecurityInfoByKey0, FwpmProviderGetSecurityInfoByKey0 function [Filtering], fwp.fwpmprovidergetsecurityinfobykey0_func, fwpmu/FwpmProviderGetSecurityInfoByKey0
 ms.prod: windows
 ms.technology: windows-sdk

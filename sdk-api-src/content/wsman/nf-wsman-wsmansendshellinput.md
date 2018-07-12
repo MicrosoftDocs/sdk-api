@@ -4,10 +4,10 @@ title: WSManSendShellInput function
 author: windows-sdk-content
 description: Ipes the input stream to a running command or to the shell.
 old-location: winrm\wsmansendshellinput.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: 2336671e-0f60-407f-86a2-9918bbf7f66b
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: WSManSendShellInput, WSManSendShellInput function [Windows Remote Management], winrm.wsmansendshellinput, wsman/WSManSendShellInput
 ms.prod: windows
 ms.technology: windows-sdk

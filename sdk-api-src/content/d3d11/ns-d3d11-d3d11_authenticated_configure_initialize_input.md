@@ -7,7 +7,7 @@ old-location: mf\d3d11_authenticated_configure_initialize_input.htm
 old-project: medfound
 ms.assetid: D634AF82-BC17-43FC-9E0E-1FEC10B5A42E
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT, D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT, mf.d3d11_authenticated_configure_initialize_input
 ms.prod: windows
 ms.technology: windows-sdk

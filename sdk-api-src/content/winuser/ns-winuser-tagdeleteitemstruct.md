@@ -4,10 +4,10 @@ title: tagDELETEITEMSTRUCT
 author: windows-sdk-content
 description: Describes a deleted list box or combo box item.
 old-location: controls\DELETEITEMSTRUCT.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxstructures\deleteitemstruct.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPDELETEITEMSTRUCT, *PDELETEITEMSTRUCT, DELETEITEMSTRUCT, DELETEITEMSTRUCT structure [Windows Controls], ODT_COMBOBOX, ODT_LISTBOX, PDELETEITEMSTRUCT, PDELETEITEMSTRUCT structure pointer [Windows Controls], _win32_DELETEITEMSTRUCT_str, _win32_DELETEITEMSTRUCT_str_cpp, controls.DELETEITEMSTRUCT, controls._win32_DELETEITEMSTRUCT_str, tagDELETEITEMSTRUCT, winuser/DELETEITEMSTRUCT, winuser/PDELETEITEMSTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk

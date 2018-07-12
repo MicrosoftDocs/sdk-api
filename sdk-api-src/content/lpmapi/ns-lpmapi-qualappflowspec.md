@@ -4,10 +4,10 @@ title: QualAppFlowSpec
 author: windows-sdk-content
 description: The QualAppFlowSpec structure contains FLOWSPEC information for a qualitative application.
 old-location: qos\qualappflowspec.htm
-old-project: QOS
+old-project: qos
 ms.assetid: 4e15b094-4250-4699-b66e-6734cf37cbb6
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: QualAppFlowSpec, QualAppFlowSpec structure [QOS], lpmapi/QualAppFlowSpec, qos.qualappflowspec
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imftimedtextformattedtext_getsubformatting.htm
 old-project: medfound
 ms.assetid: EC6F41A4-BB07-419B-BE03-8D82709D9A24
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetSubformatting, GetSubformatting method [Media Foundation], GetSubformatting method [Media Foundation],IMFTimedTextFormattedText interface, IMFTimedTextFormattedText interface [Media Foundation],GetSubformatting method, IMFTimedTextFormattedText.GetSubformatting, IMFTimedTextFormattedText::GetSubformatting, mf.imftimedtextformattedtext_getsubformatting, mfmediaengine/IMFTimedTextFormattedText::GetSubformatting
 ms.prod: windows
 ms.technology: windows-sdk

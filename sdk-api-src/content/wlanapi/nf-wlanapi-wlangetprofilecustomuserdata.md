@@ -7,7 +7,7 @@ old-location: nwifi\wlangetprofilecustomuserdata.htm
 old-project: NativeWiFi
 ms.assetid: 5973be2f-8267-496b-827b-778f705accdc
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: WlanGetProfileCustomUserData, WlanGetProfileCustomUserData function [NativeWIFI], nwifi.wlangetprofilecustomuserdata, wlanapi/WlanGetProfileCustomUserData
 ms.prod: windows
 ms.technology: windows-sdk

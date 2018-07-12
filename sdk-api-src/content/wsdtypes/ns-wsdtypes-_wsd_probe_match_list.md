@@ -4,10 +4,10 @@ title: "_WSD_PROBE_MATCH_LIST"
 author: windows-sdk-content
 description: Represents a node in a single-linked list of ProbeMatch message structures.
 old-location: ncd\wsd_probe_match_list_struct.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: b7922300-1dc7-487f-b703-736cb0393f17
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: WSD_PROBE_MATCH_LIST, WSD_PROBE_MATCH_LIST structure, _WSD_PROBE_MATCH_LIST, ncd.wsd_probe_match_list_struct, wsdtypes/WSD_PROBE_MATCH_LIST
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wsdhost.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

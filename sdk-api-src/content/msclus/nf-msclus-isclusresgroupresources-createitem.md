@@ -4,10 +4,10 @@ title: ISClusResGroupResources::CreateItem
 author: windows-sdk-content
 description: Creates a resource in the cluster and adds it to the ClusResGroupResources collection.
 old-location: mscs\clusresgroupresources_createitem.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 609e3016-b14d-4a64-b86b-15796444a9d9
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CLUSTER_RESOURCE_DEFAULT_MONITOR, CLUSTER_RESOURCE_SEPARATE_MONITOR, ClusResGroupResources class [Failover Cluster],CreateItem method, ClusResGroupResources.CreateItem, CreateItem, CreateItem method [Failover Cluster], CreateItem method [Failover Cluster],ClusResGroupResources class, ISClusResGroupResources.CreateItem, ISClusResGroupResources::CreateItem, _wolf_clusresgroupresources.createitem, mscs.clusresgroupresources_createitem
 ms.prod: windows
 ms.technology: windows-sdk

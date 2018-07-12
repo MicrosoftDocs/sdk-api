@@ -7,7 +7,7 @@ old-location: wmdm\mtp_command_data_out.htm
 old-project: WMDM
 ms.assetid: ddaf49c8-99df-4e21-a633-82e08691f088
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: "*PMTP_COMMAND_DATA_OUT, MTP_COMMAND_DATA_OUT, MTP_COMMAND_DATA_OUT structure [windows Media Device Manager], PMTP_COMMAND_DATA_OUT, PMTP_COMMAND_DATA_OUT structure pointer [windows Media Device Manager], _MTP_COMMAND_DATA_OUT, mtpext/MTP_COMMAND_DATA_OUT, mtpext/PMTP_COMMAND_DATA_OUT, wmdm.mtp_command_data_out"
 ms.prod: windows
 ms.technology: windows-sdk

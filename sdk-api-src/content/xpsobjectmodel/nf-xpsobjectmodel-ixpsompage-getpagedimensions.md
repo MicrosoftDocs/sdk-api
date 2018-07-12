@@ -7,7 +7,7 @@ old-location: xps\ixpsompage_getpagedimensions.htm
 old-project: printdocs
 ms.assetid: 24a81c7a-f048-4347-8023-96ed85bec2a1
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetPageDimensions, GetPageDimensions method [XPS Documents and Packaging], GetPageDimensions method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetPageDimensions method, IXpsOMPage.GetPageDimensions, IXpsOMPage::GetPageDimensions, xps.ixpsompage_getpagedimensions, xpsobjectmodel/IXpsOMPage::GetPageDimensions
 ms.prod: windows
 ms.technology: windows-sdk

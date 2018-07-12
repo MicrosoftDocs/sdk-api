@@ -7,7 +7,7 @@ old-location: search\isimplecommandcreator.htm
 old-project: search
 ms.assetid: CAC6BE83-863B-4DB0-B4FF-40029C242AE9
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISimpleCommandCreator, ISimpleCommandCreator interface [search], ISimpleCommandCreator interface [search],described, indexsrv/ISimpleCommandCreator, search.isimplecommandcreator
 ms.prod: windows
 ms.technology: windows-sdk

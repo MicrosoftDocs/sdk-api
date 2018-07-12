@@ -4,10 +4,10 @@ title: INetSharingEveryConnectionCollection
 author: windows-sdk-content
 description: The INetSharingEveryConnectionCollection interface makes it possible for scripting languages such as VBScript and JScript to enumerate all the connections in the connections folder.
 old-location: ics\inetsharingeveryconnectioncollection.htm
-old-project: ICS
+old-project: ics
 ms.assetid: a53c15f0-c7f3-49ea-a85d-663ad4b12f6e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetSharingEveryConnectionCollection, INetSharingEveryConnectionCollection interface [ICS/ICF], INetSharingEveryConnectionCollection interface [ICS/ICF],described, _ics_inetsharingeveryconnectioncollection, ics.inetsharingeveryconnectioncollection, netcon/INetSharingEveryConnectionCollection
 ms.prod: windows
 ms.technology: windows-sdk

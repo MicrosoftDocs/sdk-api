@@ -4,10 +4,10 @@ title: IVdsSwProvider::QueryPacks
 author: windows-sdk-content
 description: Returns an enumeration object that contains all packs managed by the software provider.
 old-location: base\ivdsswprovider_querypacks.htm
-old-project: VDS
+old-project: vds
 ms.assetid: f30494d8-ae82-479d-a47a-7087129e7e6a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsSwProvider interface [VDS],QueryPacks method, IVdsSwProvider.QueryPacks, IVdsSwProvider::QueryPacks, QueryPacks, QueryPacks method [VDS], QueryPacks method [VDS],IVdsSwProvider interface, base.ivdsswprovider_querypacks, vds/IVdsSwProvider::QueryPacks
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ Returns an enumeration object that contains all packs managed by the software pr
 
 ### -param ppEnum [out]
 
-The address of the <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the packs  as <a href="https://msdn.microsoft.com/e84a05a0-ea12-4bc1-83e1-1eb0dd291dc9">pack objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the   pack objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+The address of the <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the packs  as <a href="https://msdn.microsoft.com/e84a05a0-ea12-4bc1-83e1-1eb0dd291dc9">pack objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the   pack objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

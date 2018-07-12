@@ -4,10 +4,10 @@ title: WinBioAsyncOpenFramework function
 author: windows-sdk-content
 description: Opens a handle to the biometric framework. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioasyncopenframework.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: D9557A6F-32C4-464F-8800-6E546808F100
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: WINBIO_ASYNC_NOTIFY_CALLBACK, WINBIO_ASYNC_NOTIFY_MESSAGE, WinBioAsyncOpenFramework, WinBioAsyncOpenFramework function [Windows Biometric Framework API], secbiomet.winbioasyncopenframework, winbio/WinBioAsyncOpenFramework
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ISClusResGroupPreferredOwnerNodes::Refresh
 author: windows-sdk-content
 description: Refreshes the data in the ClusResGroupPreferredOwnerNodes collection.
 old-location: mscs\clusresgrouppreferredownernodes_refresh.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 05085f9c-776c-4dc9-8c48-8157eeec6280
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResGroupPreferredOwnerNodes class [Failover Cluster],Refresh method, ClusResGroupPreferredOwnerNodes.Refresh, ISClusResGroupPreferredOwnerNodes.Refresh, ISClusResGroupPreferredOwnerNodes::Refresh, Refresh, Refresh method [Failover Cluster], Refresh method [Failover Cluster],ClusResGroupPreferredOwnerNodes class, _wolf_clusresgrouppreferredownernodes.refresh, mscs.clusresgrouppreferredownernodes_refresh
 ms.prod: windows
 ms.technology: windows-sdk

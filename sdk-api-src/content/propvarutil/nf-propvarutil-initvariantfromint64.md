@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromInt64.htm
 old-project: properties
 ms.assetid: 3c5254a6-b498-40b0-acd3-0ffa7fd93104
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: InitVariantFromInt64, InitVariantFromInt64 function [Windows Properties], _shell_InitVariantFromInt64, properties.InitVariantFromInt64, propvarutil/InitVariantFromInt64, shell.InitVariantFromInt64
 ms.prod: windows
 ms.technology: windows-sdk

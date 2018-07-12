@@ -4,10 +4,10 @@ title: DRMSetApplicationSpecificData function
 author: windows-sdk-content
 description: Allows an issuance license to store arbitrary name-value pairs for use by the content-consuming application.
 old-location: rm\drmsetapplicationspecificdata.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: 659b2d73-1160-4e5a-8779-4bb272653c54
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMSetApplicationSpecificData, DRMSetApplicationSpecificData function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetApplicationSpecificData, rm.drmsetapplicationspecificdata
 ms.prod: windows
 ms.technology: windows-sdk

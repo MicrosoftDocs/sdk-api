@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataitemsbuffer.htm
 old-project: CoreAudio
 ms.assetid: 5DDD468E-0C46-4C00-BCFF-1FF7353ADB8B
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: ISpatialAudioMetadataItemsBuffer, ISpatialAudioMetadataItemsBuffer interface [Core Audio], ISpatialAudioMetadataItemsBuffer interface [Core Audio],described, coreaudio.ispatialaudiometadataitemsbuffer, spatialaudiometadata/ISpatialAudioMetadataItemsBuffer
 ms.prod: windows
 ms.technology: windows-sdk

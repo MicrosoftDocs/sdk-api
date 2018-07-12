@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device3_enqueuemakeresident.htm
 old-project: direct3d12
 ms.assetid: A9F8D656-C09D-47D5-9D97-3C2A60422E96
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: EnqueueMakeResident, EnqueueMakeResident method, EnqueueMakeResident method,ID3D12Device3 interface, ID3D12Device3 interface,EnqueueMakeResident method, ID3D12Device3.EnqueueMakeResident, ID3D12Device3::EnqueueMakeResident, d3d12/ID3D12Device3::EnqueueMakeResident, direct3d12.id3d12device3_enqueuemakeresident
 ms.prod: windows
 ms.technology: windows-sdk

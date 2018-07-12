@@ -4,10 +4,10 @@ title: IEnumAgentSession::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumagentsession_clone.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 6ccc7601-4355-49c8-b280-875f1accf9ff
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumAgentSession interface, IEnumAgentSession interface [TAPI 2.2],Clone method, IEnumAgentSession.Clone, IEnumAgentSession::Clone, _tapi3_ienumagentsession_clone, tapi3.ienumagentsession_clone, tapi3cc/IEnumAgentSession::Clone
 ms.prod: windows
 ms.technology: windows-sdk

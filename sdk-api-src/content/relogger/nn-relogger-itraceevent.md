@@ -4,10 +4,10 @@ title: ITraceEvent
 author: windows-sdk-content
 description: Provides access to data relating to a specific event.
 old-location: etw\ievent.htm
-old-project: ETW
+old-project: etw
 ms.assetid: 29b6f72a-ae81-4292-a023-a4bab16ae143
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: ITraceEvent, ITraceEvent interface [ETW], ITraceEvent interface [ETW],described, etw.ievent, relogger/ITraceEvent
 ms.prod: windows
 ms.technology: windows-sdk

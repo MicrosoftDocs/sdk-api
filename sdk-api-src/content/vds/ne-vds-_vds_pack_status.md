@@ -4,10 +4,10 @@ title: "_VDS_PACK_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a pack.
 old-location: base\vds_pack_status.htm
-old-project: VDS
+old-project: vds
 ms.assetid: a83d01e6-1173-410c-b880-3bc957d3f7e9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: VDS_PACK_STATUS, VDS_PACK_STATUS enumeration [VDS], VDS_PS_OFFLINE, VDS_PS_ONLINE, VDS_PS_UNKNOWN, _VDS_PACK_STATUS, base.vds_pack_status, vds/VDS_PACK_STATUS, vds/VDS_PS_OFFLINE, vds/VDS_PS_ONLINE, vds/VDS_PS_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk

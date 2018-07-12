@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelclient_setinterface.htm
 old-project: WMDM
 ms.assetid: b1af8f10-7bad-4f85-89f1-b983af6d4dc9
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: CSecureChannelClient interface [windows Media Device Manager],SetInterface method, CSecureChannelClient.SetInterface, CSecureChannelClient::SetInterface, CSecureChannelClientSetInterface, SetInterface, SetInterface method [windows Media Device Manager], SetInterface method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::SetInterface, wmdm.csecurechannelclient_setinterface
 ms.prod: windows
 ms.technology: windows-sdk

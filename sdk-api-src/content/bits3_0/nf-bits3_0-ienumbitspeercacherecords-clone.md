@@ -4,10 +4,10 @@ title: IEnumBitsPeerCacheRecords::Clone
 author: windows-sdk-content
 description: Creates another IEnumBitsPeerCacheRecords enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbitspeercacherecords_clone.htm
-old-project: Bits
+old-project: bits
 ms.assetid: 4eb19401-119d-4ce6-92b1-aa41b6dcb97c
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBitsPeerCacheRecords interface, IEnumBitsPeerCacheRecords interface [BITS],Clone method, IEnumBitsPeerCacheRecords.Clone, IEnumBitsPeerCacheRecords::Clone, bits.ienumbitspeercacherecords_clone, bits3_0/IEnumBitsPeerCacheRecords::Clone
 ms.prod: windows
 ms.technology: windows-sdk

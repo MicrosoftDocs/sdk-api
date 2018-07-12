@@ -7,7 +7,7 @@ old-location: dataxchg\ddeabandontransaction.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeabandontransaction.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DdeAbandonTransaction, DdeAbandonTransaction function [Data Exchange], _win32_DdeAbandonTransaction, _win32_ddeabandontransaction_cpp, dataxchg.ddeabandontransaction, ddeml/DdeAbandonTransaction, winui._win32_ddeabandontransaction
 ms.prod: windows
 ms.technology: windows-sdk

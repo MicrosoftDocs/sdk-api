@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadPropertyKey.htm
 old-project: properties
 ms.assetid: 910D1356-DC61-470b-90BB-0DCF1B861E05
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PSPropertyBag_ReadPropertyKey, PSPropertyBag_ReadPropertyKey function [Windows Properties], properties.PSPropertyBag_ReadPropertyKey, propsys/PSPropertyBag_ReadPropertyKey, shell.PSPropertyBag_ReadPropertyKey
 ms.prod: windows
 ms.technology: windows-sdk

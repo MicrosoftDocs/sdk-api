@@ -4,10 +4,10 @@ title: "_EAP_CONFIG_INPUT_FIELD_ARRAY"
 author: windows-sdk-content
 description: Contains a set of EAP_CONFIG_INPUT_FIELD_DATA structures that collectively contain the user input field data obtained from the user.
 old-location: eaphost\eap_config_input_field_array.htm
-old-project: EAPHost
+old-project: eaphost
 ms.assetid: e8a2e934-1ded-4159-8cd8-7aeb75ce743a
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: "*PEAP_CONFIG_INPUT_FIELD_ARRAY, EAP_CONFIG_INPUT_FIELD_ARRAY, EAP_CONFIG_INPUT_FIELD_ARRAY structure [EAPHost], EAP_CREDENTIAL_VERSION, EAP_CRED_LOGON_REQ, EAP_CRED_LOGON_RESP, EAP_CRED_REQ, EAP_CRED_RESP, PEAP_CONFIG_INPUT_FIELD_ARRAY, PEAP_CONFIG_INPUT_FIELD_ARRAY structure pointer [EAPHost], _EAP_CONFIG_INPUT_FIELD_ARRAY, eaphost.eap_config_input_field_array, eaptypes/EAP_CONFIG_INPUT_FIELD_ARRAY, eaptypes/PEAP_CONFIG_INPUT_FIELD_ARRAY"
 ms.prod: windows
 ms.technology: windows-sdk

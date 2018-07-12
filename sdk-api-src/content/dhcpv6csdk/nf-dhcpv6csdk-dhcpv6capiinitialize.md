@@ -4,10 +4,10 @@ title: Dhcpv6CApiInitialize function
 author: windows-sdk-content
 description: The Dhcpv6CApiInitialize function must be the first function call made by users of DHCPv6.
 old-location: dhcp\dhcpv6capiinitialize.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 4bf74a3d-5674-4bc7-b94c-cf6232bdc8d9
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: Dhcpv6CApiInitialize, Dhcpv6CApiInitialize function [DHCP], dhcp.dhcpv6capiinitialize, dhcpv6csdk/Dhcpv6CApiInitialize
 ms.prod: windows
 ms.technology: windows-sdk

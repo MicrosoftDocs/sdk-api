@@ -7,7 +7,7 @@ old-location: properties\PSGetNameFromPropertyKey.htm
 old-project: properties
 ms.assetid: 7ab6b5e8-8202-4553-ba9b-be7cf9f9381d
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PSGetNameFromPropertyKey, PSGetNameFromPropertyKey function [Windows Properties], properties.PSGetNameFromPropertyKey, propsys/PSGetNameFromPropertyKey, shell.PSGetNameFromPropertyKey, shell_PSGetNameFromPropertyKey
 ms.prod: windows
 ms.technology: windows-sdk

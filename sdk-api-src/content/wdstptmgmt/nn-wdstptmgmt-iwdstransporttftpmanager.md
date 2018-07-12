@@ -4,10 +4,10 @@ title: IWdsTransportTftpManager
 author: windows-sdk-content
 description: This interface provides a method to retrieve all the clients currently connected to the TFTP server.
 old-location: wds\iwdstransporttftpmanager.htm
-old-project: Wds
+old-project: wds
 ms.assetid: A2DB8313-2855-4B0E-908E-CAE71E88FEF0
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: IWdsTransportTftpManager, IWdsTransportTftpManager interface [Windows Deployment Services], IWdsTransportTftpManager interface [Windows Deployment Services],described, wds.iwdstransporttftpmanager, wdstptmgmt/IWdsTransportTftpManager
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winmsg\alttabinfo.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\alttabinfo.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: "*LPALTTABINFO, *PALTTABINFO, ALTTABINFO, ALTTABINFO structure [Windows and Messages], LPALTTABINFO, LPALTTABINFO structure pointer [Windows and Messages], PALTTABINFO, PALTTABINFO structure pointer [Windows and Messages], _win32_ALTTABINFO_str, _win32_alttabinfo_str_cpp, tagALTTABINFO, winmsg.alttabinfo, winui._win32_alttabinfo_str, winuser/ALTTABINFO, winuser/LPALTTABINFO, winuser/PALTTABINFO"
 ms.prod: windows
 ms.technology: windows-sdk

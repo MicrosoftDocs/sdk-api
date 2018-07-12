@@ -4,10 +4,10 @@ title: NCryptQueryProtectionDescriptorName function
 author: windows-sdk-content
 description: Retrieves the protection descriptor rule string associated with a registered descriptor display name.
 old-location: security\ncryptqueryprotectiondescriptorname.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 32953AEC-01EE-4ED1-80F3-29963F43004F
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: NCryptQueryProtectionDescriptorName, NCryptQueryProtectionDescriptorName function [Security], ncryptprotect/NCryptQueryProtectionDescriptorName, security.ncryptqueryprotectiondescriptorname
 ms.prod: windows
 ms.technology: windows-sdk

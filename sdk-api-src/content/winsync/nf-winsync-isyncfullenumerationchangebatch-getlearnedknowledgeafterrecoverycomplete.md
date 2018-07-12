@@ -7,7 +7,7 @@ old-location: winsync\isyncfullenumerationchangebatch_getlearnedknowledgeafterre
 old-project: winsync
 ms.assetid: 8eb9fdbf-b1ce-4acf-837f-01d693940790
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetLearnedKnowledgeAfterRecoveryComplete, GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync], GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync],ISyncFullEnumerationChangeBatch interface, ISyncFullEnumerationChangeBatch interface [Windows Sync],GetLearnedKnowledgeAfterRecoveryComplete method, ISyncFullEnumerationChangeBatch.GetLearnedKnowledgeAfterRecoveryComplete, ISyncFullEnumerationChangeBatch::GetLearnedKnowledgeAfterRecoveryComplete, winsync.isyncfullenumerationchangebatch_getlearnedknowledgeafterrecoverycomplete, winsync/ISyncFullEnumerationChangeBatch::GetLearnedKnowledgeAfterRecoveryComplete
 ms.prod: windows
 ms.technology: windows-sdk

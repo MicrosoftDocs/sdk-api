@@ -4,10 +4,10 @@ title: IVdsHwProviderStoragePools::QueryStoragePools
 author: windows-sdk-content
 description: Returns an IEnumVdsObject enumeration object containing a list of the storage pools managed by the hardware provider.
 old-location: base\ivdshwproviderstoragepools_querystoragepools.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 308c9821-927d-4b90-854d-b050f3730c22
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsHwProviderStoragePools interface,QueryStoragePools method, IVdsHwProviderStoragePools.QueryStoragePools, IVdsHwProviderStoragePools::QueryStoragePools, QueryStoragePools, QueryStoragePools method, QueryStoragePools method,IVdsHwProviderStoragePools interface, base.ivdshwproviderstoragepools_querystoragepools, vds/IVdsHwProviderStoragePools::QueryStoragePools, vdshwprv/IVdsHwProviderStoragePools::QueryStoragePools
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ A pointer to a <a href="https://msdn.microsoft.com/3dfbd3d9-ec2e-44ac-9d0f-7aa6c
 
 
       The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface 
-      pointer that can be used to enumerate the storage pools. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the storage pool  objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+      pointer that can be used to enumerate the storage pools. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the storage pool  objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
      This parameter is required and cannot be <b>NULL</b>.
 
 

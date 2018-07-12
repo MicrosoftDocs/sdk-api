@@ -7,7 +7,7 @@ old-location: shell\IFileOperation_GetAnyOperationsAborted.htm
 old-project: shell
 ms.assetid: 988f78a8-3a50-44d8-9214-7cf71be72d38
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: GetAnyOperationsAborted, GetAnyOperationsAborted method [Windows Shell], GetAnyOperationsAborted method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],GetAnyOperationsAborted method, IFileOperation.GetAnyOperationsAborted, IFileOperation::GetAnyOperationsAborted, _shell_IFileOperation_GetAnyOperationsAborted, shell.IFileOperation_GetAnyOperationsAborted, shobjidl_core/IFileOperation::GetAnyOperationsAborted
 ms.prod: windows
 ms.technology: windows-sdk

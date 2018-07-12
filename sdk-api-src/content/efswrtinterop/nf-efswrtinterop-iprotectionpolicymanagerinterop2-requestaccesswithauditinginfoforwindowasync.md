@@ -7,7 +7,7 @@ old-location: edp\iprotectionpolicymanagerinterop2_requestaccesswithauditinginfo
 old-project: EDP
 ms.assetid: 9C631272-BF69-4CA5-9664-45C6831C252F
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: EDP.iprotectionpolicymanagerinterop2_requestaccesswithauditinginfoforwindowasync, IProtectionPolicyManagerInterop2 interface,RequestAccessWithAuditingInfoForWindowAsync method, IProtectionPolicyManagerInterop2.RequestAccessWithAuditingInfoForWindowAsync, IProtectionPolicyManagerInterop2::RequestAccessWithAuditingInfoForWindowAsync, RequestAccessWithAuditingInfoForWindowAsync, RequestAccessWithAuditingInfoForWindowAsync method, RequestAccessWithAuditingInfoForWindowAsync method,IProtectionPolicyManagerInterop2 interface, efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessWithAuditingInfoForWindowAsync
 ms.prod: windows
 ms.technology: windows-sdk

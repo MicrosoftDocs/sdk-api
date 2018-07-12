@@ -2,13 +2,13 @@
 UID: NA:qospol
 ms.assetid: 32e0a3ad-8da3-3fe4-ad80-0d8074c78c47
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: qos
+archived: true
 ---
 
 # Qospol.h header

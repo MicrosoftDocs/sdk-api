@@ -4,10 +4,10 @@ title: DS_KCC_TASKID
 author: windows-sdk-content
 description: Specifies tasks that Knowledge Consistency Checker (KCC) can execute.
 old-location: ad\ds_kcc_taskid.htm
-old-project: AD
+old-project: ad
 ms.assetid: 61A2BB61-E3AE-4530-96CA-E7F85CB82DB2
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DS_KCC_TASKID, DS_KCC_TASKID enumeration [Active Directory], DS_KCC_TASKID_UPDATE_TOPOLOGY, ad.ds_kcc_taskid, ntdsapi/DS_KCC_TASKID, ntdsapi/DS_KCC_TASKID_UPDATE_TOPOLOGY
 ms.prod: windows
 ms.technology: windows-sdk

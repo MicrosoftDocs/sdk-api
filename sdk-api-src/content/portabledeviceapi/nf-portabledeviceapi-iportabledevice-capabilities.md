@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevice_capabilities.htm
 old-project: wpd_sdk
 ms.assetid: 3d44e488-1bef-4cdd-bb0b-2b8154deb19e
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.keywords: Capabilities, Capabilities method [Windows Portable Devices SDK], Capabilities method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Capabilities method, IPortableDevice.Capabilities, IPortableDevice::Capabilities, IPortableDeviceCapabilities, portabledeviceapi/IPortableDevice::Capabilities, wpdsdk.iportabledevice_capabilities
 ms.prod: windows
 ms.technology: windows-sdk

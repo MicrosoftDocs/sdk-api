@@ -7,7 +7,7 @@ old-location: winmsg\broadcastsystemmessageex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\broadcastsystemmessageex.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: BSF_ALLOWSFW, BSF_FLUSHDISK, BSF_FORCEIFHUNG, BSF_IGNORECURRENTTASK, BSF_LUID, BSF_NOHANG, BSF_NOTIMEOUTIFNOTHUNG, BSF_POSTMESSAGE, BSF_QUERY, BSF_RETURNHDESK, BSF_SENDNOTIFYMESSAGE, BSM_ALLCOMPONENTS, BSM_ALLDESKTOPS, BSM_APPLICATIONS, BroadcastSystemMessageEx, BroadcastSystemMessageEx function [Windows and Messages], BroadcastSystemMessageExA, BroadcastSystemMessageExW, _win32_BroadcastSystemMessageEx, _win32_broadcastsystemmessageex_cpp, winmsg.broadcastsystemmessageex, winui._win32_broadcastsystemmessageex, winuser/BroadcastSystemMessageEx, winuser/BroadcastSystemMessageExA, winuser/BroadcastSystemMessageExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

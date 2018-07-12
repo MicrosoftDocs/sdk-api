@@ -4,10 +4,10 @@ title: FwpmConnectionGetById0 function
 author: windows-sdk-content
 description: Retrieves a connection object.
 old-location: fwp\fwpmconnectiongetbyid0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 630f513b-49c9-4d3a-a5e2-7ea6b940d333
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FwpmConnectionGetById0, FwpmConnectionGetById0 function [Filtering], fwp.fwpmconnectiongetbyid0, fwpmu/FwpmConnectionGetById0
 ms.prod: windows
 ms.technology: windows-sdk

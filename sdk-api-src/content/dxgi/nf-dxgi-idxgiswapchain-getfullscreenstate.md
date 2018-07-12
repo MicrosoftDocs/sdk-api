@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain_getfullscreenstate.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_getfullscreenstate.htm
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: GetFullscreenState, GetFullscreenState method [DXGI], GetFullscreenState method [DXGI],IDXGISwapChain interface, IDXGISwapChain interface [DXGI],GetFullscreenState method, IDXGISwapChain.GetFullscreenState, IDXGISwapChain::GetFullscreenState, d3b177d7-2b70-fc90-2a07-3046eb5fdf48, direct3ddxgi.idxgiswapchain_getfullscreenstate, dxgi/IDXGISwapChain::GetFullscreenState
 ms.prod: windows
 ms.technology: windows-sdk

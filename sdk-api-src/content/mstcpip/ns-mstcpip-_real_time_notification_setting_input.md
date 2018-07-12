@@ -7,7 +7,7 @@ old-location: winsock\real_time_notification_setting_input.htm
 old-project: WinSock
 ms.assetid: A008310D-D812-4DCD-A3F2-64FEEEB31DB8
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: "*PREAL_TIME_NOTIFICATION_SETTING_INPUT, PREAL_TIME_NOTIFICATION_SETTING_INPUT, PREAL_TIME_NOTIFICATION_SETTING_INPUT structure pointer [Winsock], REAL_TIME_NOTIFICATION_SETTING_INPUT, REAL_TIME_NOTIFICATION_SETTING_INPUT structure [Winsock], _REAL_TIME_NOTIFICATION_SETTING_INPUT, mstcpip/PREAL_TIME_NOTIFICATION_SETTING_INPUT, mstcpip/REAL_TIME_NOTIFICATION_SETTING_INPUT, winsock.real_time_notification_setting_input"
 ms.prod: windows
 ms.technology: windows-sdk

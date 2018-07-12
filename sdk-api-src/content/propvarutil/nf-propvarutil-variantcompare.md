@@ -7,7 +7,7 @@ old-location: properties\VariantCompare.htm
 old-project: properties
 ms.assetid: 45aed78c-1614-4aad-a930-c44615546d6f
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: VariantCompare, VariantCompare function [Windows Properties], _shell_VariantCompare, properties.VariantCompare, propvarutil/VariantCompare, shell.VariantCompare
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisual_gethyperlinknavigateuri.htm
 old-project: printdocs
 ms.assetid: 297ddac1-8383-423a-8e47-7b4466e7e5d1
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetHyperlinkNavigateUri, GetHyperlinkNavigateUri method [XPS Documents and Packaging], GetHyperlinkNavigateUri method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetHyperlinkNavigateUri method, IXpsOMVisual.GetHyperlinkNavigateUri, IXpsOMVisual::GetHyperlinkNavigateUri, xps.ixpsomvisual_gethyperlinknavigateuri, xpsobjectmodel/IXpsOMVisual::GetHyperlinkNavigateUri
 ms.prod: windows
 ms.technology: windows-sdk

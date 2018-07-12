@@ -4,10 +4,10 @@ title: CryptXmlEncode function
 author: windows-sdk-content
 description: Encodes signature data by using the supplied XML writer callback function.
 old-location: security\cryptxmlencode.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: fb0cd00c-f410-486e-8910-41c0463f6a74
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CryptXmlEncode, CryptXmlEncode function [Security], cryptxml/CryptXmlEncode, security.cryptxmlencode
 ms.prod: windows
 ms.technology: windows-sdk

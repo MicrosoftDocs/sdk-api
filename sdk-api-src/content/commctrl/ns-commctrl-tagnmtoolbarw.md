@@ -4,10 +4,10 @@ title: tagNMTOOLBARW
 author: windows-sdk-content
 description: Contains information used to process toolbar notification codes. This structure supersedes the TBNOTIFY structure.
 old-location: controls\NMTOOLBAR.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtoolbar.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPNMTOOLBARW, LPNMTOOLBAR, LPNMTOOLBAR structure pointer [Windows Controls], NMTOOLBAR, NMTOOLBAR structure [Windows Controls], NMTOOLBARA, NMTOOLBARW, _win32_NMTOOLBAR, _win32_NMTOOLBAR_cpp, commctrl/LPNMTOOLBAR, commctrl/NMTOOLBAR, commctrl/NMTOOLBARA, commctrl/NMTOOLBARW, controls.NMTOOLBAR, controls._win32_NMTOOLBAR, tagNMTOOLBARW"
 ms.prod: windows
 ms.technology: windows-sdk

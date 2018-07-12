@@ -7,7 +7,7 @@ old-location: winrt\isurfaceimagesourcenativewithd2d_begindraw.htm
 old-project: WinRT
 ms.assetid: 077458AB-7644-4973-8955-95E097DAF859
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/06/2018
 ms.keywords: BeginDraw, BeginDraw method [Windows Runtime], BeginDraw method [Windows Runtime],ISurfaceImageSourceNativeWithD2D interface, ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],BeginDraw method, ISurfaceImageSourceNativeWithD2D.BeginDraw, ISurfaceImageSourceNativeWithD2D.xaml, ISurfaceImageSourceNativeWithD2D::BeginDraw, ISurfaceImageSourceNativeWithD2D::xaml, windows/ISurfaceImageSourceNativeWithD2D::BeginDraw, winrt.isurfaceimagesourcenativewithd2d_begindraw
 ms.prod: windows
 ms.technology: windows-sdk

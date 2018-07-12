@@ -4,10 +4,10 @@ title: "_VSS_COMPONENTINFO"
 author: windows-sdk-content
 description: Contains information about a given component.
 old-location: base\vss_componentinfo.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 9723e90e-cd5e-4815-843b-8ed8632ebe45
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: PVSSCOMPONENTINFO, PVSSCOMPONENTINFO structure pointer [VSS], VSS_COMPONENTINFO, VSS_COMPONENTINFO structure [VSS], _VSS_COMPONENTINFO, _win32_vss_componentinfo, base.vss_componentinfo, vsbackup/PVSSCOMPONENTINFO, vsbackup/VSS_COMPONENTINFO
 ms.prod: windows
 ms.technology: windows-sdk

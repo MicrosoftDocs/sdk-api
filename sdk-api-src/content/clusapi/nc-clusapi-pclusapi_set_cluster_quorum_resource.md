@@ -4,10 +4,10 @@ title: PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE
 author: windows-sdk-content
 description: Establishes a resource as the quorum resource for a cluster.
 old-location: mscs\setclusterquorumresource.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 1a00c09e-4470-4c02-807d-c559fd992066
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CLUS_HYBRID_QUORUM, CLUS_LEGACY_QUORUM, CLUS_NODE_MAJORITY_QUORUM, PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE, PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE callback, PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE callback function [Failover Cluster], _wolf_setclusterquorumresource, clusapi/PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE, mscs.setclusterquorumresource
 ms.prod: windows
 ms.technology: windows-sdk

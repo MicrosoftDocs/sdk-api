@@ -7,7 +7,7 @@ old-location: dxmath\xmcomparisonallfalse.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMComparisonAllFalse(uint32_t)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 06/14/2018
 ms.keywords: Use DirectX..XMComparisonAllFalse, XMComparisonAllFalse, XMComparisonAllFalse method [DirectX Math Support APIs], dxmath.xmcomparisonallfalse
 ms.prod: windows
 ms.technology: windows-sdk

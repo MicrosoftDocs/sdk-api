@@ -4,10 +4,10 @@ title: MgmSetMfe function
 author: windows-sdk-content
 description: The MgmSetMfe function changes the upstream neighbor for an MFE. An MFE contains the information about which interface is receiving and which interfaces are forwarding multicast data.
 old-location: rras\mgmsetmfe.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 143c080a-be80-47fb-a159-e6c95aa0d7ea
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MgmSetMfe, MgmSetMfe function [RAS], _mpr_mgmsetmfe, mgm/MgmSetMfe, rras.mgmsetmfe
 ms.prod: windows
 ms.technology: windows-sdk

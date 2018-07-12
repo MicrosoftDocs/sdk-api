@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_pushemptyretrievalfilter.htm
 old-project: direct3d12
 ms.assetid: FE5B0EA4-F4A9-41AF-A63C-A75FF42DF25E
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: ID3D12InfoQueue interface,PushEmptyRetrievalFilter method, ID3D12InfoQueue.PushEmptyRetrievalFilter, ID3D12InfoQueue::PushEmptyRetrievalFilter, PushEmptyRetrievalFilter, PushEmptyRetrievalFilter method, PushEmptyRetrievalFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PushEmptyRetrievalFilter, direct3d12.id3d12infoqueue_pushemptyretrievalfilter
 ms.prod: windows
 ms.technology: windows-sdk

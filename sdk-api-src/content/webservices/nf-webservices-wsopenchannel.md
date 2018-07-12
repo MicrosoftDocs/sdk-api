@@ -7,7 +7,7 @@ old-location: wsw\wsopenchannel.htm
 old-project: wsw
 ms.assetid: a7226194-0974-4f3c-b92d-78a93e86eea5
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsOpenChannel, WsOpenChannel function [Web Services for Windows], webservices/WsOpenChannel, wsw.wsopenchannel
 ms.prod: windows
 ms.technology: windows-sdk

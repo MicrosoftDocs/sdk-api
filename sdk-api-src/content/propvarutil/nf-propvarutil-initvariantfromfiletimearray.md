@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromFileTimeArray.htm
 old-project: properties
 ms.assetid: d1b25aec-f302-4d39-93c1-0fcb2d7dbf45
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: InitVariantFromFileTimeArray, InitVariantFromFileTimeArray function [Windows Properties], _shell_InitVariantFromFileTimeArray, properties.InitVariantFromFileTimeArray, propvarutil/InitVariantFromFileTimeArray, shell.InitVariantFromFileTimeArray
 ms.prod: windows
 ms.technology: windows-sdk

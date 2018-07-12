@@ -4,10 +4,10 @@ title: IVssExamineWriterMetadata::GetExcludeFile
 author: windows-sdk-content
 description: The GetExcludeFile method obtains information about files that have been explicitly excluded from backup for a given writer.
 old-location: base\ivssexaminewritermetadata_getexcludefile.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 886d526f-c477-4c1c-80b0-65e3ea227142
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: GetExcludeFile, GetExcludeFile method [VSS], GetExcludeFile method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetExcludeFile method, IVssExamineWriterMetadata.GetExcludeFile, IVssExamineWriterMetadata::GetExcludeFile, _win32_ivssexaminewritermetadata_getexcludefile, base.ivssexaminewritermetadata_getexcludefile, vsbackup/IVssExamineWriterMetadata::GetExcludeFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -170,7 +170,7 @@ The file set specified for exclusion does not exist.
 For more information on excluding files, see 
 <a href="https://msdn.microsoft.com/library/Aa384996(v=VS.85).aspx">Exclude File List Specification</a>.
 
-The caller is responsible for calling <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> to release the resources of the returned 
+The caller is responsible for calling <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the resources of the returned 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object.
 
 

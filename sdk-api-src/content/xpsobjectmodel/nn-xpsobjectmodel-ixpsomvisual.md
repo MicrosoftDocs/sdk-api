@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisual.htm
 old-project: printdocs
 ms.assetid: f2ec412c-aece-4b20-a721-e6c17615e56b
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], IXpsOMVisual interface [XPS Documents and Packaging],described, xps.ixpsomvisual, xpsobjectmodel/IXpsOMVisual
 ms.prod: windows
 ms.technology: windows-sdk

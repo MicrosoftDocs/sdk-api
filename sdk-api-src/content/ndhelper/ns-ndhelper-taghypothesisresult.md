@@ -4,10 +4,10 @@ title: tagHypothesisResult
 author: windows-sdk-content
 description: Contains information about a hypothesis returned from a helper class.
 old-location: ndf\hypothesisresult.htm
-old-project: NDF
+old-project: ndf
 ms.assetid: bbf3cc69-c81b-4a3d-8fd8-d4e37a57bed6
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: HypothesisResult, HypothesisResult structure [NDF], ndf.hypothesisresult, ndhelper/HypothesisResult, tagHypothesisResult
 ms.prod: windows
 ms.technology: windows-sdk

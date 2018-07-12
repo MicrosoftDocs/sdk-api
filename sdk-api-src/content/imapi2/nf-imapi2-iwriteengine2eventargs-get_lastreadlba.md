@@ -7,7 +7,7 @@ old-location: imapi\iwriteengine2eventargs_get_lastreadlba.htm
 old-project: imapi
 ms.assetid: 2db929b4-dbba-4f6a-bde0-0cefb30abf64
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_LastReadLba method, IWriteEngine2EventArgs.get_LastReadLba, IWriteEngine2EventArgs::get_LastReadLba, get_LastReadLba, get_LastReadLba method [IMAPI], get_LastReadLba method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_lastreadlba, imapi2/IWriteEngine2EventArgs::get_LastReadLba
 ms.prod: windows
 ms.technology: windows-sdk

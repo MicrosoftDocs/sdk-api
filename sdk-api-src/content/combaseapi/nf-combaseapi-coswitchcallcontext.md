@@ -7,7 +7,7 @@ old-location: com\coswitchcallcontext.htm
 old-project: com
 ms.assetid: 146855a2-97ec-4e71-88dc-316eaa1a24a0
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: CoSwitchCallContext, CoSwitchCallContext function [COM], _com_CoSwitchCallContext, com.coswitchcallcontext, combaseapi/CoSwitchCallContext
 ms.prod: windows
 ms.technology: windows-sdk

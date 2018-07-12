@@ -7,7 +7,7 @@ old-location: properties\IPropertyChangeArray_Append.htm
 old-project: properties
 ms.assetid: 45039163-dffc-4168-9c31-786dcfdab760
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: Append, Append method [Windows Properties], Append method [Windows Properties],IPropertyChangeArray interface, IPropertyChangeArray interface [Windows Properties],Append method, IPropertyChangeArray.Append, IPropertyChangeArray::Append, _shell_IPropertyChangeArray_Append, properties.IPropertyChangeArray_Append, propsys/IPropertyChangeArray::Append, shell.IPropertyChangeArray_Append
 ms.prod: windows
 ms.technology: windows-sdk

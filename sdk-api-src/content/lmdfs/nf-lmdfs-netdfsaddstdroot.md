@@ -4,10 +4,10 @@ title: NetDfsAddStdRoot function
 author: windows-sdk-content
 description: Creates a new stand-alone Distributed File System (DFS) namespace.
 old-location: dfs\netdfsaddstdroot.htm
-old-project: Dfs
+old-project: dfs
 ms.assetid: e59236ac-06d7-4b2f-b318-ec13e6c662ac
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: NetDfsAddStdRoot, NetDfsAddStdRoot function [Distributed File System], _win32_netdfsaddstdroot, dfs.netdfsaddstdroot, fs.netdfsaddstdroot, lmdfs/NetDfsAddStdRoot, netmgmt.netdfsaddstdroot
 ms.prod: windows
 ms.technology: windows-sdk

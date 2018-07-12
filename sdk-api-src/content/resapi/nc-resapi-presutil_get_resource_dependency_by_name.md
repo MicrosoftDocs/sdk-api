@@ -4,10 +4,10 @@ title: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME
 author: windows-sdk-content
 description: Enumerates the dependencies of a specified resource in a specified cluster and returns a handle to a dependency of a specified type. The PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME type defines a pointer to this function.
 old-location: mscs\resutilgetresourcedependencybyname.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 8c978b27-fd1a-47b6-8a30-cfe6e4fbcf57
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME callback, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME callback function [Failover Cluster], _wolf_resutilgetresourcedependencybyname, mscs.resutilgetresourcedependencybyname, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME
 ms.prod: windows
 ms.technology: windows-sdk

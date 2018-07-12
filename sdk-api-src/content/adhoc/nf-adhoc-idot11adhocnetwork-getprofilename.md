@@ -7,7 +7,7 @@ old-location: nwifi\idot11adhocnetwork_getprofilename.htm
 old-project: NativeWiFi
 ms.assetid: abd25741-25ad-4109-a07e-4146824695b5
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: GetProfileName, GetProfileName method [NativeWIFI], GetProfileName method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetProfileName method, IDot11AdHocNetwork.GetProfileName, IDot11AdHocNetwork::GetProfileName, adhoc/IDot11AdHocNetwork::GetProfileName, nwifi.idot11adhocnetwork_getprofilename
 ms.prod: windows
 ms.technology: windows-sdk

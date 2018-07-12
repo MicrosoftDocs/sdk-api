@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestreader_getprerequisite.htm
 old-project: appxpkg
 ms.assetid: 1CF44513-AA07-4591-9134-A156A538C8F1
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: GetPrerequisite, GetPrerequisite method [App packaging and management], GetPrerequisite method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetPrerequisite method, IAppxManifestReader.GetPrerequisite, IAppxManifestReader::GetPrerequisite, appxpackaging/IAppxManifestReader::GetPrerequisite, appxpkg.iappxmanifestreader_getprerequisite
 ms.prod: windows
 ms.technology: windows-sdk

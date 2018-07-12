@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device3_createunorderedaccessview1.htm
 old-project: direct3d11
 ms.assetid: AB64DDED-4C2D-4952-BAA5-3139F973C962
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: CreateUnorderedAccessView1, CreateUnorderedAccessView1 method [Direct3D 11], CreateUnorderedAccessView1 method [Direct3D 11],ID3D11Device3 interface, ID3D11Device3 interface [Direct3D 11],CreateUnorderedAccessView1 method, ID3D11Device3.CreateUnorderedAccessView1, ID3D11Device3::CreateUnorderedAccessView1, d3d11_3/ID3D11Device3::CreateUnorderedAccessView1, direct3d11.id3d11device3_createunorderedaccessview1
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mbn\imbninterface_getreadystate.htm
 old-project: mbn
 ms.assetid: 4236fd9d-292a-4840-b52e-c28c3e6eea10
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetReadyState, GetReadyState method [Microsoft Broadband Networks], GetReadyState method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetReadyState method, IMbnInterface.GetReadyState, IMbnInterface::GetReadyState, mbn.imbninterface_getreadystate, mbnapi/IMbnInterface::GetReadyState
 ms.prod: windows
 ms.technology: windows-sdk

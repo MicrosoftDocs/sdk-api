@@ -4,10 +4,10 @@ title: MsiRecordGetStringA function
 author: windows-sdk-content
 description: The MsiRecordGetString function returns the string value of a record field.
 old-location: setup\msirecordgetstring.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 4d1b049c-9511-4858-8cc1-3cd2424c55ca
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: MsiRecordGetString, MsiRecordGetString function, MsiRecordGetStringA, MsiRecordGetStringW, _msi_msirecordgetstring, msiquery/MsiRecordGetString, msiquery/MsiRecordGetStringA, msiquery/MsiRecordGetStringW, setup.msirecordgetstring
 ms.prod: windows
 ms.technology: windows-sdk

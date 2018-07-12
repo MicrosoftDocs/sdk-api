@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__warning.htm
 old-project: WMP
 ms.assetid: d68a2e17-c9db-4ad7-b7e8-ea7740de2980
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],Warning method, IWMPEvents.Warning, IWMPEvents::Warning, IWMPEventsWarning, Warning, Warning method [Windows Media Player], Warning method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__warning, wmp/IWMPEvents::Warning
 ms.prod: windows
 ms.technology: windows-sdk

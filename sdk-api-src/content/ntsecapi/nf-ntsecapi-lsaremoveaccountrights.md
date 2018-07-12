@@ -4,10 +4,10 @@ title: LsaRemoveAccountRights function
 author: windows-sdk-content
 description: Removes one or more privileges from an account.
 old-location: security\lsaremoveaccountrights.htm
-old-project: SecMgmt
+old-project: secmgmt
 ms.assetid: ad250a01-7a24-4fae-975c-aa3e65731c82
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: LsaRemoveAccountRights, LsaRemoveAccountRights function [Security], _lsa_lsaremoveaccountrights, ntsecapi/LsaRemoveAccountRights, security.lsaremoveaccountrights
 ms.prod: windows
 ms.technology: windows-sdk

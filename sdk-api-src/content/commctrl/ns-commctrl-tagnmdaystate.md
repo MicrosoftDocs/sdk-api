@@ -4,10 +4,10 @@ title: tagNMDAYSTATE
 author: windows-sdk-content
 description: Carries information required to process the MCN_GETDAYSTATE notification code. All members of this structure are for input, except prgDayState, which the receiving application must set when processing MCN_GETDAYSTATE.
 old-location: controls\NMDAYSTATE.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\nmdaystate.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPNMDAYSTATE, LPNMDAYSTATE, LPNMDAYSTATE structure pointer [Windows Controls], NMDAYSTATE, NMDAYSTATE structure [Windows Controls], _win32_NMDAYSTATE, _win32_NMDAYSTATE_cpp, commctrl/LPNMDAYSTATE, commctrl/NMDAYSTATE, controls.NMDAYSTATE, controls._win32_NMDAYSTATE, tagNMDAYSTATE"
 ms.prod: windows
 ms.technology: windows-sdk

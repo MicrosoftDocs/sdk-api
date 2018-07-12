@@ -7,7 +7,7 @@ old-location: wmformat\inssbuffer_getmaxlength.htm
 old-project: wmformat
 ms.assetid: 6b386c24-1737-4e30-98fa-444fc8a34503
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: GetMaxLength, GetMaxLength method [windows Media Format], GetMaxLength method [windows Media Format],INSSBuffer interface, INSSBuffer interface [windows Media Format],GetMaxLength method, INSSBuffer.GetMaxLength, INSSBuffer::GetMaxLength, INSSBufferGetMaxLength, wmformat.inssbuffer_getmaxlength, wmsbuffer/INSSBuffer::GetMaxLength
 ms.prod: windows
 ms.technology: windows-sdk

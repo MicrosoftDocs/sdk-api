@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffect_getoutput.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffect\getoutput.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: GetOutput, GetOutput method [WPF Bitmap Effects], GetOutput method [WPF Bitmap Effects],IMILBitmapEffect interface, IMILBitmapEffect interface [WPF Bitmap Effects],GetOutput method, IMILBitmapEffect.GetOutput, IMILBitmapEffect::GetOutput, _wibe_imilbitmapeffect_getoutput, mileffects/IMILBitmapEffect::GetOutput, wibe._wibe_imilbitmapeffect_getoutput
 ms.prod: windows
 ms.technology: windows-sdk

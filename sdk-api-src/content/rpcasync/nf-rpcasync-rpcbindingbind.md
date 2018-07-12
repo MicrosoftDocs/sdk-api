@@ -4,10 +4,10 @@ title: RpcBindingBind function
 author: windows-sdk-content
 description: The RpcBindingBind function contacts an RPC server and binds to it.
 old-location: rpc\rpcbindingbind.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: dbc73a66-b1ca-4a53-b662-430b611f8c20
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RpcBindingBind, RpcBindingBind function [RPC], rpc.rpcbindingbind, rpcasync/RpcBindingBind
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IVdsAsync::Cancel
 author: windows-sdk-content
 description: Cancels the asynchronous operation.
 old-location: base\ivdsasync_cancel.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 40940cb8-46b7-4483-9952-ab053c49dad7
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: Cancel, Cancel method [VDS], Cancel method [VDS],IVdsAsync interface, IVdsAsync interface [VDS],Cancel method, IVdsAsync.Cancel, IVdsAsync::Cancel, base.ivdsasync_cancel, vds/IVdsAsync::Cancel, vdshwprv/IVdsAsync::Cancel
 ms.prod: windows
 ms.technology: windows-sdk

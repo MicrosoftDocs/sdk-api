@@ -7,7 +7,7 @@ old-location: multimedia\avistreamdatasize.htm
 old-project: Multimedia
 ms.assetid: e91258ee-b90a-43b9-9d5e-0adee215714c
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: AVIStreamDataSize, AVIStreamDataSize macro [Windows Multimedia], _win32_AVIStreamDataSize, multimedia.avistreamdatasize, vfw/AVIStreamDataSize
 ms.prod: windows
 ms.technology: windows-sdk

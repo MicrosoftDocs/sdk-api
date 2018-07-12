@@ -4,10 +4,10 @@ title: IObjectId::get_FriendlyName
 author: windows-sdk-content
 description: Specifies and retrieves a display name for the object identifier.
 old-location: security\iobjectid_friendlyname_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 9360f652-afeb-4f30-a423-402f397b9255
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: FriendlyName property [Security], FriendlyName property [Security],IObjectId interface, IObjectId interface [Security],FriendlyName property, IObjectId.FriendlyName, IObjectId.get_FriendlyName, IObjectId::FriendlyName, IObjectId::get_FriendlyName, IObjectId::put_FriendlyName, certenroll/IObjectId::FriendlyName, certenroll/IObjectId::get_FriendlyName, certenroll/IObjectId::put_FriendlyName, get_FriendlyName, security.iobjectid_friendlyname_property
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: WdsCliFreeStringArray function
 author: windows-sdk-content
 description: This function can be used to free the array of string values that gets allocated by the WdsCliObtainDriverPackages function.
 old-location: wds\wdsclifreestringarray.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 37d96077-d3f0-4372-955d-f8c071d82230
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: WdsCliFreeStringArray, WdsCliFreeStringArray function [Windows Deployment Services], wds.wdsclifreestringarray, wdsclientapi/WdsCliFreeStringArray
 ms.prod: windows
 ms.technology: windows-sdk

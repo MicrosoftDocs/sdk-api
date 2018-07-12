@@ -7,7 +7,7 @@ old-location: wer\werreportadddump.htm
 old-project: wer
 ms.assetid: b40dac44-f7c5-43f0-876d-6f97c26bf461
 ms.author: windowssdkdev
-ms.date: 03/22/2018
+ms.date: 03/23/2018
 ms.keywords: WER_DUMP_NOHEAP_ONQUEUE, WerDumpTypeHeapDump, WerDumpTypeMicroDump, WerDumpTypeMiniDump, WerReportAddDump, WerReportAddDump function [Windows Error Reporting], base.werreportadddump, wer.werreportadddump, werapi/WerReportAddDump
 ms.prod: windows
 ms.technology: windows-sdk

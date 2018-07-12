@@ -4,10 +4,10 @@ title: PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM
 author: windows-sdk-content
 description: Opens an enumerator for iterating through objects on a network.
 old-location: mscs\clusternetworkopenenum.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 59f6fd26-1d96-4b04-858d-bfd3e4d25d01
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CLUSTER_NETWORK_ENUM_NETINTERFACES, PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM, PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM callback, PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM callback function [Failover Cluster], _wolf_clusternetworkopenenum, clusapi/PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM, mscs.clusternetworkopenenum
 ms.prod: windows
 ms.technology: windows-sdk

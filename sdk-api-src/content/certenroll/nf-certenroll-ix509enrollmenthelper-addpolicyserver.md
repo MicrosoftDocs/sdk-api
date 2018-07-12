@@ -4,10 +4,10 @@ title: IX509EnrollmentHelper::AddPolicyServer
 author: windows-sdk-content
 description: Registers a certificate enrollment policy (CEP) server and saves CEP access credentials in the credential cache.
 old-location: security\ix509enrollmenthelper_addpolicyserver.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 6b341b5a-88f2-4221-812d-b2997829aa4c
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: AddPolicyServer, AddPolicyServer method [Security], AddPolicyServer method [Security],IX509EnrollmentHelper interface, IX509EnrollmentHelper interface [Security],AddPolicyServer method, IX509EnrollmentHelper.AddPolicyServer, IX509EnrollmentHelper::AddPolicyServer, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentHelper::AddPolicyServer, security.ix509enrollmenthelper_addpolicyserver
 ms.prod: windows
 ms.technology: windows-sdk

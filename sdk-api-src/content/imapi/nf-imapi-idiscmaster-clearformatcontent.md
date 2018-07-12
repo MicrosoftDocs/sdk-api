@@ -7,7 +7,7 @@ old-location: imapi\idiscmaster_clearformatcontent.htm
 old-project: imapi
 ms.assetid: d3c0d850-914b-47ae-b614-a292411e6832
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: ClearFormatContent, ClearFormatContent method [IMAPI], ClearFormatContent method [IMAPI],IDiscMaster interface, IDiscMaster interface [IMAPI],ClearFormatContent method, IDiscMaster.ClearFormatContent, IDiscMaster::ClearFormatContent, _win32_idiscmaster_clearformatcontent, base.idiscmaster_clearformatcontent, imapi.idiscmaster_clearformatcontent, imapi/IDiscMaster::ClearFormatContent
 ms.prod: windows
 ms.technology: windows-sdk

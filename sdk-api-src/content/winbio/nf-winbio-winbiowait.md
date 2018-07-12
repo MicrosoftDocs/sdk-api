@@ -4,10 +4,10 @@ title: WinBioWait function
 author: windows-sdk-content
 description: Blocks caller execution until all pending biometric operations for a session have been completed or canceled. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiowait.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 3cf8b02b-5009-4244-b954-e82d47ed4735
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: WinBioWait, WinBioWait function [Windows Biometric Framework API], secbiomet.winbiowait, winbio/WinBioWait
 ms.prod: windows
 ms.technology: windows-sdk

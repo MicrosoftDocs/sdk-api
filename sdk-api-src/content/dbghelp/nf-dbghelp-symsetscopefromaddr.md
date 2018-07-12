@@ -4,10 +4,10 @@ title: SymSetScopeFromAddr function
 author: windows-sdk-content
 description: Sets the local scope to the symbol that matches the specified address.
 old-location: base\symsetscopefromaddr.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 7f7bcf12-8d8d-4dea-8191-4f7b24be1b5a
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: SymSetScopeFromAddr, SymSetScopeFromAddr function, base.symsetscopefromaddr, dbghelp/SymSetScopeFromAddr
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: EapHostPeerInvokeInteractiveUI function
 author: windows-sdk-content
 description: Raises an interactive user interface used to get credentials from the user.
 old-location: eaphost\eaphostpeerinvokeinteractiveui.htm
-old-project: EAPHost
+old-project: eaphost
 ms.assetid: a4a46b77-f8ab-4062-b966-1590ea9e46d2
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: EapHostPeerInvokeInteractiveUI, EapHostPeerInvokeInteractiveUI function [EAPHost], eaphost.eaphostpeerinvokeinteractiveui, eaphostpeerconfigapis/EapHostPeerInvokeInteractiveUI
 ms.prod: windows
 ms.technology: windows-sdk

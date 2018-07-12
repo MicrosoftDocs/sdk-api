@@ -4,10 +4,10 @@ title: IWSDAsyncResult
 author: windows-sdk-content
 description: Represents an asynchronous operation.
 old-location: ncd\iwsdasyncresult.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 49c5ad02-f24b-4ef9-b943-483728c0bbcd
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: IWSDAsyncResult, IWSDAsyncResult interface, IWSDAsyncResult interface,described, ncd.iwsdasyncresult, wsdclient/IWSDAsyncResult
 ms.prod: windows
 ms.technology: windows-sdk

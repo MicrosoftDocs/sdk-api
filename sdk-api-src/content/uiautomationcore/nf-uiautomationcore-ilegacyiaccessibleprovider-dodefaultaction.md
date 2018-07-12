@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ILegacyIAccessibleProvider_DoDefaultAction.htm
 old-project: WinAuto
 ms.assetid: 29aaabba-dafe-400c-9fd6-80e13c0c9097
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: DoDefaultAction, DoDefaultAction method [Windows Accessibility], DoDefaultAction method [Windows Accessibility],ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider interface [Windows Accessibility],DoDefaultAction method, ILegacyIAccessibleProvider.DoDefaultAction, ILegacyIAccessibleProvider::DoDefaultAction, uiauto.uiauto_ILegacyIAccessibleProvider_DoDefaultAction, uiauto_ILegacyIAccessibleProvider_DoDefaultAction, uiautomationcore/ILegacyIAccessibleProvider::DoDefaultAction, winauto.uiauto_ILegacyIAccessibleProvider_DoDefaultAction
 ms.prod: windows
 ms.technology: windows-sdk

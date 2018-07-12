@@ -4,10 +4,10 @@ title: ISClusProperties::UseDefaultValue
 author: windows-sdk-content
 description: Used in conjunction with ClusProperties.SaveChanges to return a property to its default value.
 old-location: mscs\clusproperties_usedefaultvalue.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 6ac19293-d489-41ee-b585-6997a29591af
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusProperties collection [Failover Cluster],UseDefaultValue method, ClusProperties.UseDefaultValue, ISClusProperties.UseDefaultValue, ISClusProperties::UseDefaultValue, UseDefaultValue, UseDefaultValue method [Failover Cluster], UseDefaultValue method [Failover Cluster],ClusProperties collection, _wolf_clusproperties.usedefaultvalue, mscs.clusproperties_usedefaultvalue
 ms.prod: windows
 ms.technology: windows-sdk

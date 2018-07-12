@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnection_getclientdata.htm
 old-project: TermServ
 ms.assetid: 1330fbb4-4c10-493b-ad95-3c2ad975459a
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: GetClientData, GetClientData method [Remote Desktop Services], GetClientData method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetClientData method, IWTSProtocolConnection.GetClientData, IWTSProtocolConnection::GetClientData, termserv.iwtsprotocolconnection_getclientdata, wtsprotocol/IWTSProtocolConnection::GetClientData
 ms.prod: windows
 ms.technology: windows-sdk

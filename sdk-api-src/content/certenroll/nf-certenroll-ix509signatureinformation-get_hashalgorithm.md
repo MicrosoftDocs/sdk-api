@@ -4,10 +4,10 @@ title: IX509SignatureInformation::get_HashAlgorithm
 author: windows-sdk-content
 description: Specifies and retrieves an object identifier (OID) for the hashing algorithm used in the GetSignatureAlgorithm method.
 old-location: security\ix509signatureinformation_hashalgorithm_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: b5242975-50e5-49d6-be1f-3a09ada03593
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],IX509SignatureInformation interface, IX509SignatureInformation interface [Security],HashAlgorithm property, IX509SignatureInformation.HashAlgorithm, IX509SignatureInformation.get_HashAlgorithm, IX509SignatureInformation::HashAlgorithm, IX509SignatureInformation::get_HashAlgorithm, IX509SignatureInformation::put_HashAlgorithm, certenroll/IX509SignatureInformation::HashAlgorithm, certenroll/IX509SignatureInformation::get_HashAlgorithm, certenroll/IX509SignatureInformation::put_HashAlgorithm, get_HashAlgorithm, security.ix509signatureinformation_hashalgorithm_property
 ms.prod: windows
 ms.technology: windows-sdk

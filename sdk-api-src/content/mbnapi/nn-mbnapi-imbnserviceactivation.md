@@ -7,7 +7,7 @@ old-location: mbn\imbnserviceactivation.htm
 old-project: mbn
 ms.assetid: cf23be24-f7a8-41b9-81f1-c267a265f85b
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IMbnServiceActivation, IMbnServiceActivation interface [Microsoft Broadband Networks], IMbnServiceActivation interface [Microsoft Broadband Networks],described, mbn.imbnserviceactivation, mbnapi/IMbnServiceActivation
 ms.prod: windows
 ms.technology: windows-sdk

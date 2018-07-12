@@ -7,7 +7,7 @@ old-location: winsync\iasynchronousdataretriever_getidparameters.htm
 old-project: winsync
 ms.assetid: 20f42e0d-dacb-4362-843b-8bc2fb664203
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetIdParameters, GetIdParameters method [Windows Sync], GetIdParameters method [Windows Sync],IAsynchronousDataRetriever interface, IAsynchronousDataRetriever interface [Windows Sync],GetIdParameters method, IAsynchronousDataRetriever.GetIdParameters, IAsynchronousDataRetriever::GetIdParameters, winsync.iasynchronousdataretriever_getidparameters, winsync/IAsynchronousDataRetriever::GetIdParameters
 ms.prod: windows
 ms.technology: windows-sdk

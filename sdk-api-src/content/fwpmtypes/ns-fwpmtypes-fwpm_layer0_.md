@@ -4,10 +4,10 @@ title: FWPM_LAYER0_
 author: windows-sdk-content
 description: Schema information for a layer.
 old-location: fwp\fwpm_layer0_struct.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 77d567a7-9495-4f16-9b02-e44a1ef67022
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FWPM_LAYER0, FWPM_LAYER0 structure [Filtering], FWPM_LAYER0_, FWPM_LAYER_FLAG_BUFFERED, FWPM_LAYER_FLAG_BUILTIN, FWPM_LAYER_FLAG_CLASSIFY_MOSTLY, FWPM_LAYER_FLAG_KERNEL, fwp.fwpm_layer0_struct, fwpmtypes/FWPM_LAYER0
 ms.prod: windows
 ms.technology: windows-sdk

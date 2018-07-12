@@ -4,10 +4,10 @@ title: INetFwIcmpSettings::get_AllowInboundEchoRequest
 author: windows-sdk-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowinboundechorequest.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 53ebd01b-71a1-4b4f-b8ad-ede20fae1a7b
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: AllowInboundEchoRequest property [ICS/ICF], AllowInboundEchoRequest property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowInboundEchoRequest property, INetFwIcmpSettings.AllowInboundEchoRequest, INetFwIcmpSettings.get_AllowInboundEchoRequest, INetFwIcmpSettings::AllowInboundEchoRequest, INetFwIcmpSettings::get_AllowInboundEchoRequest, INetFwIcmpSettings::put_AllowInboundEchoRequest, get_AllowInboundEchoRequest, ics.inetfwicmpsettings_allowinboundechorequest, netfw/INetFwIcmpSettings::AllowInboundEchoRequest, netfw/INetFwIcmpSettings::get_AllowInboundEchoRequest, netfw/INetFwIcmpSettings::put_AllowInboundEchoRequest
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: NMCOMBOBOXEXW
 author: windows-sdk-content
 description: Contains information specific to ComboBoxEx items for use with notification codes.
 old-location: controls\NMCOMBOBOXEX.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\comboex\structures\nmcomboboxex.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*PNMCOMBOBOXEXW, NMCOMBOBOXEX, NMCOMBOBOXEX structure [Windows Controls], NMCOMBOBOXEXA, NMCOMBOBOXEXW, PNMCOMBOBOXEX, PNMCOMBOBOXEX structure pointer [Windows Controls], _win32_NMCOMBOBOXEX, _win32_NMCOMBOBOXEX_cpp, commctrl/NMCOMBOBOXEX, commctrl/NMCOMBOBOXEXA, commctrl/NMCOMBOBOXEXW, commctrl/PNMCOMBOBOXEX, controls.NMCOMBOBOXEX, controls._win32_NMCOMBOBOXEX"
 ms.prod: windows
 ms.technology: windows-sdk

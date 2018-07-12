@@ -7,7 +7,7 @@ old-location: cos\icomobjectpoolevents2_onobjpooltimeout.htm
 old-project: cossdk
 ms.assetid: a5468ae6-6c7e-4ae1-afbc-24cc9b08102f
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: IComObjectPoolEvents2 interface [COM+],OnObjPoolTimeout method, IComObjectPoolEvents2.OnObjPoolTimeout, IComObjectPoolEvents2::OnObjPoolTimeout, OnObjPoolTimeout, OnObjPoolTimeout method [COM+], OnObjPoolTimeout method [COM+],IComObjectPoolEvents2 interface, _dtc_IComObjectPoolEvents2_OnObjPoolTimeout, comsvcs/IComObjectPoolEvents2::OnObjPoolTimeout, cos.icomobjectpoolevents2_onobjpooltimeout
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ITDetectTone
 author: windows-sdk-content
 description: The ITDetectTone interface exposes methods that allow an application to specify the tones and tone characteristics that should cause the TAPI Server to generate a tone event.
 old-location: tapi3\itdetecttone.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: c03db3e2-3dc9-443f-8acf-66c06940e0b9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITDetectTone, ITDetectTone interface [TAPI 2.2], ITDetectTone interface [TAPI 2.2],described, _tapi3_itdetecttone, tapi3.itdetecttone, tapi3if/ITDetectTone
 ms.prod: windows
 ms.technology: windows-sdk

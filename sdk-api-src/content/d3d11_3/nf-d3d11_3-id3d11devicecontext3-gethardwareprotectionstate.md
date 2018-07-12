@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext3_gethardwareprotectionstate.htm
 old-project: direct3d11
 ms.assetid: 52D1F2B2-DBC9-4714-A9C5-A0283EA6C5B7
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: GetHardwareProtectionState, GetHardwareProtectionState method [Direct3D 11], GetHardwareProtectionState method [Direct3D 11],ID3D11DeviceContext3 interface, ID3D11DeviceContext3 interface [Direct3D 11],GetHardwareProtectionState method, ID3D11DeviceContext3.GetHardwareProtectionState, ID3D11DeviceContext3::GetHardwareProtectionState, d3d11_3/ID3D11DeviceContext3::GetHardwareProtectionState, direct3d11.id3d11devicecontext3_gethardwareprotectionstate
 ms.prod: windows
 ms.technology: windows-sdk

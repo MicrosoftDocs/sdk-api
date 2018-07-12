@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createfastmetadataencoderfromfra
 old-project: wic
 ms.assetid: 076cfd22-f744-4152-a1c0-1e0f17ac764d
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: CreateFastMetadataEncoderFromFrameDecode, CreateFastMetadataEncoderFromFrameDecode method [Windows Imaging Component], CreateFastMetadataEncoderFromFrameDecode method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateFastMetadataEncoderFromFrameDecode method, IWICImagingFactory.CreateFastMetadataEncoderFromFrameDecode, IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode, _wic_codec_iwicimagingfactory_createfastmetadataencoderfromframedecode, wic._wic_codec_iwicimagingfactory_createfastmetadataencoderfromframedecode, wincodec/IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\dibindex.htm
 old-project: gdi
 ms.assetid: a1c2274e-ddcb-4e11-af70-9f79210d2d5f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: DIBINDEX, DIBINDEX macro [Windows GDI], _win32_DIBINDEX, gdi.dibindex, mmsystem/DIBINDEX
 ms.prod: windows
 ms.technology: windows-sdk

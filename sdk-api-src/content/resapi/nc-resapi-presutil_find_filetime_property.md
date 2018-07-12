@@ -4,10 +4,10 @@ title: PRESUTIL_FIND_FILETIME_PROPERTY
 author: windows-sdk-content
 description: TBD. The PRESUTIL_FIND_FILETIME_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindfiletimeproperty.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 089a7016-47bd-4878-81e6-8854e24b9220
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_FIND_FILETIME_PROPERTY, PRESUTIL_FIND_FILETIME_PROPERTY callback, PRESUTIL_FIND_FILETIME_PROPERTY callback function [Failover Cluster], mscs.resutilfindfiletimeproperty, resapi/PRESUTIL_FIND_FILETIME_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winmsg\windowinfo.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\windowinfo.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: "*LPWINDOWINFO, *PWINDOWINFO, LPWINDOWINFO, LPWINDOWINFO structure pointer [Windows and Messages], PWINDOWINFO, PWINDOWINFO structure pointer [Windows and Messages], WINDOWINFO, WINDOWINFO structure [Windows and Messages], _win32_WINDOWINFO_str, _win32_windowinfo_str_cpp, tagWINDOWINFO, winmsg.windowinfo, winui._win32_windowinfo_str, winuser/LPWINDOWINFO, winuser/PWINDOWINFO, winuser/WINDOWINFO"
 ms.prod: windows
 ms.technology: windows-sdk

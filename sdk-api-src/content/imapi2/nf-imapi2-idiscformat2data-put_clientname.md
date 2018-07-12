@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2data_put_clientname.htm
 old-project: imapi
 ms.assetid: 1cd4ef46-4769-4e8e-80ca-fdcd81b486f1
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],put_ClientName method, IDiscFormat2Data.put_ClientName, IDiscFormat2Data::put_ClientName, imapi.idiscformat2data_put_clientname, imapi2/IDiscFormat2Data::put_ClientName, put_ClientName, put_ClientName method [IMAPI], put_ClientName method [IMAPI],IDiscFormat2Data interface
 ms.prod: windows
 ms.technology: windows-sdk

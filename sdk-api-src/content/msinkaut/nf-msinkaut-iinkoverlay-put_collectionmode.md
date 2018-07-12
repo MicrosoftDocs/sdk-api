@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_collectionmode.htm
 old-project: tablet
 ms.assetid: 3538213f-b9c3-474c-a847-40915c8961dd
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: CollectionMode property [Tablet PC], CollectionMode property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],CollectionMode property, IInkOverlay.CollectionMode, IInkOverlay.put_CollectionMode, IInkOverlay::CollectionMode, IInkOverlay::get_CollectionMode, IInkOverlay::put_CollectionMode, InkOverlay.get_CollectionMode, InkOverlay.put_CollectionMode, msinkaut/IInkOverlay::CollectionMode, msinkaut/IInkOverlay::get_CollectionMode, msinkaut/IInkOverlay::put_CollectionMode, put_CollectionMode, tablet.inkoverlay_collectionmode
 ms.prod: windows
 ms.technology: windows-sdk

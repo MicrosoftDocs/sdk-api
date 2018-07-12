@@ -4,10 +4,10 @@ title: EnrollmentPolicyFlags
 author: windows-sdk-content
 description: Specifies group policy flags.
 old-location: security\enrollmentpolicyflags.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 07f80422-6856-4371-946f-88efdd9c765a
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: DisableGroupPolicyList, DisableUserServerList, EnrollmentPolicyFlags, EnrollmentPolicyFlags enumeration [Security], certenroll/DisableGroupPolicyList, certenroll/DisableUserServerList, certenroll/EnrollmentPolicyFlags, security.enrollmentpolicyflags
 ms.prod: windows
 ms.technology: windows-sdk

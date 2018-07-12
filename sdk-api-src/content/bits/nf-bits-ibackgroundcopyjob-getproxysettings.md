@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::GetProxySettings
 author: windows-sdk-content
 description: Retrieves the proxy information that the job uses to transfer the files.
 old-location: bits\ibackgroundcopyjob_getproxysettings.htm
-old-project: Bits
+old-project: bits
 ms.assetid: c2d0ec9b-eaa1-4f78-9ccc-4e91d045cd94
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetProxySettings, GetProxySettings method [BITS], GetProxySettings method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetProxySettings method, IBackgroundCopyJob.GetProxySettings, IBackgroundCopyJob::GetProxySettings, _drz_ibackgroundcopyjob_getproxysettings, bits.ibackgroundcopyjob_getproxysettings, bits/IBackgroundCopyJob::GetProxySettings
 ms.prod: windows
 ms.technology: windows-sdk

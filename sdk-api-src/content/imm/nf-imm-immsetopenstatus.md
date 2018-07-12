@@ -7,7 +7,7 @@ old-location: intl\immsetopenstatus.htm
 old-project: Intl
 ms.assetid: 4c6dfc40-56d3-41bb-8094-1f30dbb27cf5
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/28/2018
 ms.keywords: ImmSetOpenStatus, ImmSetOpenStatus function [Internationalization for Windows Applications], _win32_ImmSetOpenStatus, imm/ImmSetOpenStatus, intl.immsetopenstatus
 ms.prod: windows
 ms.technology: windows-sdk

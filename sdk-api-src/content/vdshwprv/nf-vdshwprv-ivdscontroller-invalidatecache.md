@@ -4,10 +4,10 @@ title: IVdsController::InvalidateCache
 author: windows-sdk-content
 description: Invalidates the cache of the controller. All data in the cache is lost.
 old-location: base\ivdscontroller_invalidatecache.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 91f77390-02eb-4c5f-a5de-382df608f0df
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsController interface [VDS],InvalidateCache method, IVdsController.InvalidateCache, IVdsController::InvalidateCache, InvalidateCache, InvalidateCache method [VDS], InvalidateCache method [VDS],IVdsController interface, base.ivdscontroller_invalidatecache, vds/IVdsController::InvalidateCache, vdshwprv/IVdsController::InvalidateCache
 ms.prod: windows
 ms.technology: windows-sdk

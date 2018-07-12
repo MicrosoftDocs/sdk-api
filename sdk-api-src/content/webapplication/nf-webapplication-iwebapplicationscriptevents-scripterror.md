@@ -7,7 +7,7 @@ old-location: debug\iwebapplicationscriptevents_scripterror.htm
 old-project: debug_wwahost
 ms.assetid: 4f1e6260-804d-4881-b2d8-70a1463a46bd
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IWebApplicationScriptEvents interface [Debugging Windows Store apps],ScriptError method, IWebApplicationScriptEvents.ScriptError, IWebApplicationScriptEvents::ScriptError, ScriptError, ScriptError method [Debugging Windows Store apps], ScriptError method [Debugging Windows Store apps],IWebApplicationScriptEvents interface, debug.iwebapplicationscriptevents_scripterror, webapplication/IWebApplicationScriptEvents::ScriptError
 ms.prod: windows
 ms.technology: windows-sdk

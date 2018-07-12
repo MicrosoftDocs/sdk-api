@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_startmodetest.htm
 old-project: directdraw
 ms.assetid: b669e3c7-b34b-4919-9a3e-0349288360ba
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/18/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],StartModeTest method, IDirectDraw7.StartModeTest, IDirectDraw7::StartModeTest, StartModeTest, StartModeTest method [DirectDraw], StartModeTest method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::StartModeTest, directdraw.idirectdraw7_startmodetest
 ms.prod: windows
 ms.technology: windows-sdk

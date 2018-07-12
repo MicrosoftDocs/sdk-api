@@ -7,7 +7,7 @@ old-location: search\_search_IStemmer_GetLicenseToUse.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\getlicensetouse.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetLicenseToUse, GetLicenseToUse method [search], GetLicenseToUse method [search],IStemmer interface, IStemmer interface [search],GetLicenseToUse method, IStemmer.GetLicenseToUse, IStemmer::GetLicenseToUse, _search_IStemmer_GetLicenseToUse, indexsrv/IStemmer::GetLicenseToUse, search._search_IStemmer_GetLicenseToUse
 ms.prod: windows
 ms.technology: windows-sdk

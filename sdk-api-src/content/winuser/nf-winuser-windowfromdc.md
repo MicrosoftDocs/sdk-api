@@ -7,7 +7,7 @@ old-location: gdi\windowfromdc.htm
 old-project: gdi
 ms.assetid: 57ecec82-03be-4d1a-84cf-6b64131af19d
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: WindowFromDC, WindowFromDC function [Windows GDI], _win32_WindowFromDC, gdi.windowfromdc, winuser/WindowFromDC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

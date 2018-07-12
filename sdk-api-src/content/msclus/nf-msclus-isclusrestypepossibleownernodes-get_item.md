@@ -4,10 +4,10 @@ title: ISClusResTypePossibleOwnerNodes::get_Item
 author: windows-sdk-content
 description: Returns a possible owner node from the collection.
 old-location: mscs\clusrestypepossibleownernodes_item.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 0d698f44-7480-43da-871b-51e7be2f9eff
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResTypePossibleOwnerNodes class [Failover Cluster],Item property, ClusResTypePossibleOwnerNodes.Item, ISClusResTypePossibleOwnerNodes.get_Item, ISClusResTypePossibleOwnerNodes::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ClusResTypePossibleOwnerNodes class, _wolf_clusrestypepossibleownernodes.item, get_Item, mscs.clusrestypepossibleownernodes_item
 ms.prod: windows
 ms.technology: windows-sdk

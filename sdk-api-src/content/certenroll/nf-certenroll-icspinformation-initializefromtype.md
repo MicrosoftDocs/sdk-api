@@ -4,10 +4,10 @@ title: ICspInformation::InitializeFromType
 author: windows-sdk-content
 description: Initializes the object from the default cryptographic provider.
 old-location: security\icspinformation_initializefromtype_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 24466981-2ea2-41f5-b2db-85b5629fba7d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICspInformation interface [Security],InitializeFromType method, ICspInformation.InitializeFromType, ICspInformation::InitializeFromType, InitializeFromType, InitializeFromType method [Security], InitializeFromType method [Security],ICspInformation interface, certenroll/ICspInformation::InitializeFromType, security.icspinformation_initializefromtype_method
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: INetFwPolicy
 author: windows-sdk-content
 description: The INetFwPolicy interface provides access to a firewall policy.
 old-location: ics\inetfwpolicy.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 8bfe55b6-c38d-47f8-9160-a304a85eb67f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetFwPolicy, INetFwPolicy interface [ICS/ICF], INetFwPolicy interface [ICS/ICF],described, ics.inetfwpolicy, netfw/INetFwPolicy
 ms.prod: windows
 ms.technology: windows-sdk

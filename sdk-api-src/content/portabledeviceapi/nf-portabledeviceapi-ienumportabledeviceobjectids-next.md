@@ -7,7 +7,7 @@ old-location: wpdsdk\ienumportabledeviceobjectids_next.htm
 old-project: wpd_sdk
 ms.assetid: 0a850b86-aeba-44b7-a686-9f3652a4c4ba
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.keywords: IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Next method, IEnumPortableDeviceObjectIDs.Next, IEnumPortableDeviceObjectIDs::Next, IEnumPortableDeviceObjectIDsNext, Next, Next method [Windows Portable Devices SDK], Next method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, portabledeviceapi/IEnumPortableDeviceObjectIDs::Next, wpdsdk.ienumportabledeviceobjectids_next
 ms.prod: windows
 ms.technology: windows-sdk

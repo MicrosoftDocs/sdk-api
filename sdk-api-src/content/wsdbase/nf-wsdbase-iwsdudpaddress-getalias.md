@@ -4,10 +4,10 @@ title: IWSDUdpAddress::GetAlias
 author: windows-sdk-content
 description: Gets the alias for the discovery address.
 old-location: ncd\iwsdudpaddress_getalias.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: c11a7e39-6df1-411b-9992-6ce869b0db69
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: GetAlias, GetAlias method, GetAlias method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetAlias method, IWSDUdpAddress.GetAlias, IWSDUdpAddress::GetAlias, ncd.iwsdudpaddress_getalias, wsdbase/IWSDUdpAddress::GetAlias
 ms.prod: windows
 ms.technology: windows-sdk

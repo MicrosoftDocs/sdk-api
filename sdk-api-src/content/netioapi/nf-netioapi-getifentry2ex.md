@@ -4,10 +4,10 @@ title: GetIfEntry2Ex function
 author: windows-sdk-content
 description: Retrieves the specified level of information for the specified interface on the local computer.
 old-location: iphlp\getifentry2ex.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 98C25986-1B38-4878-B578-3D30394F49E4
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: GetIfEntry2Ex, GetIfEntry2Ex function [IP Helper], MibIfEntryNormal, MibIfEntryNormalWithoutStatistics, iphlp.getifentry2ex, netioapi/GetIfEntry2Ex
 ms.prod: windows
 ms.technology: windows-sdk

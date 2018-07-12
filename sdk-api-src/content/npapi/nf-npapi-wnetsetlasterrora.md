@@ -7,7 +7,7 @@ old-location: security\wnetsetlasterror.htm
 old-project: SecAuthN
 ms.assetid: ee472f01-de44-4c47-9ae5-8bbac74de78b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: WNetSetLastError, WNetSetLastError function [Security], WNetSetLastErrorA, _mnp_wnetsetlasterror, npapi/WNetSetLastError, npapi/WNetSetLastErrorA, security.wnetsetlasterror
 ms.prod: windows
 ms.technology: windows-sdk

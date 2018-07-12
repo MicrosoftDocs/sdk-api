@@ -7,7 +7,7 @@ old-location: mf\mftenum2.htm
 old-project: medfound
 ms.assetid: 1BF74B1F-46D9-46E8-A9DC-5A9666C3CAFB
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: MFTEnum2, MFTEnum2 function [Media Foundation], mf.mftenum2, mfapi/MFTEnum2
 ms.prod: windows
 ms.technology: windows-sdk

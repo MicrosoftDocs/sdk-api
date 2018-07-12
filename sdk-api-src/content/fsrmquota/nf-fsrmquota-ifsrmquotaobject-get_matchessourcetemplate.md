@@ -4,10 +4,10 @@ title: IFsrmQuotaObject::get_MatchesSourceTemplate
 author: windows-sdk-content
 description: Retrieves a value that determines whether the property values of this quota object match those of the template from which it was derived.
 old-location: fsrm\ifsrmquotaobject_matchessourcetemplate.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 18999e5b-fae8-4bf3-9a10-5545f093afd4
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IFsrmQuotaObject interface [File Server Resource Manager],MatchesSourceTemplate property, IFsrmQuotaObject.MatchesSourceTemplate, IFsrmQuotaObject.get_MatchesSourceTemplate, IFsrmQuotaObject::MatchesSourceTemplate, IFsrmQuotaObject::get_MatchesSourceTemplate, MatchesSourceTemplate property [File Server Resource Manager], MatchesSourceTemplate property [File Server Resource Manager],IFsrmQuotaObject interface, fs.ifsrmquotaobject_matchessourcetemplate, fsrm.ifsrmquotaobject_matchessourcetemplate, fsrmquota/IFsrmQuotaObject::MatchesSourceTemplate, fsrmquota/IFsrmQuotaObject::get_MatchesSourceTemplate, get_MatchesSourceTemplate
 ms.prod: windows
 ms.technology: windows-sdk

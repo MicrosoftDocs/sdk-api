@@ -7,7 +7,7 @@ old-location: wmp\iwmpmetadatapicture_get_mimetype.htm
 old-project: WMP
 ms.assetid: bfc5243f-3f7c-4f4a-9057-7720c862a983
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPMetadataPicture interface [Windows Media Player],get_mimeType method, IWMPMetadataPicture.get_mimeType, IWMPMetadataPicture::get_mimeType, IWMPMetadataPictureget_mimeType, get_mimeType, get_mimeType method [Windows Media Player], get_mimeType method [Windows Media Player],IWMPMetadataPicture interface, wmp.iwmpmetadatapicture_get_mimetype, wmp/IWMPMetadataPicture::get_mimeType
 ms.prod: windows
 ms.technology: windows-sdk

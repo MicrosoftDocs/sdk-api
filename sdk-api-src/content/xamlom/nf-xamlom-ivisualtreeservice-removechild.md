@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservice_removechild.htm
 old-project: xaml_diagnostics
 ms.assetid: 6D53C961-7E85-4275-8D65-454684606290
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IVisualTreeService interface,RemoveChild method, IVisualTreeService.RemoveChild, IVisualTreeService::RemoveChild, RemoveChild, RemoveChild method, RemoveChild method,IVisualTreeService interface, xaml_diagnostics.ivisualtreeservice_removechild, xamlom/IVisualTreeService::RemoveChild
 ms.prod: windows
 ms.technology: windows-sdk

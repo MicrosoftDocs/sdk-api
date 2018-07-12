@@ -4,10 +4,10 @@ title: "_DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS"
 author: windows-sdk-content
 description: Contains parameters used when registering for a power notification.
 old-location: base\device_notify_subscribe_parameters.htm
-old-project: Power
+old-project: power
 ms.assetid: 749F7C6F-1A42-43DE-921E-C3654034570D
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: "*PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS structure, PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS structure pointer, _DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, base.device_notify_subscribe_parameters, powrprof/DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS, powrprof/PDEVICE_NOTIFY_SUBSCRIBE_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk

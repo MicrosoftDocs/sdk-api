@@ -4,10 +4,10 @@ title: DRMCreateRight function
 author: windows-sdk-content
 description: Creates an XrML right that will define a right granted to a user or group.
 old-location: rm\drmcreateright.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: 05074fbd-9268-41b4-a916-a932dc7a7858
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMCreateRight, DRMCreateRight function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateRight, rm.drmcreateright
 ms.prod: windows
 ms.technology: windows-sdk

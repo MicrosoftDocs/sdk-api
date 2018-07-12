@@ -7,7 +7,7 @@ old-location: xaudio2\xapo_process_buffer_parameters.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapo.XAPO_PROCESS_BUFFER_PARAMETERS
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 04/23/2018
 ms.keywords: XAPO_PROCESS_BUFFER_PARAMETERS, XAPO_PROCESS_BUFFER_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapo/XAPO_PROCESS_BUFFER_PARAMETERS, xaudio2.xapo_process_buffer_parameters
 ms.prod: windows
 ms.technology: windows-sdk

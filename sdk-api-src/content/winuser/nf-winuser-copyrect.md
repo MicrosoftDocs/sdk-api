@@ -7,7 +7,7 @@ old-location: gdi\copyrect.htm
 old-project: gdi
 ms.assetid: 9349ba83-59d6-49d0-ac9d-a4d9589748dd
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: CopyRect, CopyRect function [Windows GDI], _win32_CopyRect, gdi.copyrect, winuser/CopyRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

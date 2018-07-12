@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmmetadata_getitemcount.htm
 old-project: WMDM
 ms.assetid: 9f7f9661-d632-4502-940b-6d83fc32cdad
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: GetItemCount, GetItemCount method [windows Media Device Manager], GetItemCount method [windows Media Device Manager],IWMDMMetaData interface, IWMDMMetaData interface [windows Media Device Manager],GetItemCount method, IWMDMMetaData.GetItemCount, IWMDMMetaData::GetItemCount, IWMDMMetaDataGetItemCount, mswmdm/IWMDMMetaData::GetItemCount, wmdm.iwmdmmetadata_getitemcount
 ms.prod: windows
 ms.technology: windows-sdk

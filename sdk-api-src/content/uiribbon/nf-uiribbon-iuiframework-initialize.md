@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiframework_initialize.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\initialize.htm
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],Initialize method, IUIFramework.Initialize, IUIFramework::Initialize, Initialize, Initialize method [Windows Ribbon], Initialize method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_Initialize, uiribbon/IUIFramework::Initialize, windowsribbon.windowsribbon_iuiframework_initialize
 ms.prod: windows
 ms.technology: windows-sdk

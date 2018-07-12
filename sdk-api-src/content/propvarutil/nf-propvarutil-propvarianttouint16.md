@@ -7,7 +7,7 @@ old-location: properties\PropVariantToUInt16.htm
 old-project: properties
 ms.assetid: 4499842b-c802-4328-b463-f3cfb270e635
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PropVariantToUInt16, PropVariantToUInt16 function [Windows Properties], properties.PropVariantToUInt16, propvarutil/PropVariantToUInt16, shell.PropVariantToUInt16, shell_PropVariantToUInt16
 ms.prod: windows
 ms.technology: windows-sdk

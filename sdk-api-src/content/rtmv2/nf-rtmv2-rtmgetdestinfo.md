@@ -4,10 +4,10 @@ title: RtmGetDestInfo function
 author: windows-sdk-content
 description: The RtmGetDestInfo function returns information about a destination.
 old-location: rras\rtmgetdestinfo.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: bf6525ea-5f32-41d3-b436-920e7369b926
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RtmGetDestInfo, RtmGetDestInfo function [RAS], _rtmv2ref_rtmgetdestinfo, rras.rtmgetdestinfo, rtmv2/RtmGetDestInfo
 ms.prod: windows
 ms.technology: windows-sdk

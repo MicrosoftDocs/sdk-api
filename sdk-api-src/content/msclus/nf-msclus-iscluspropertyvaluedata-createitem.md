@@ -4,10 +4,10 @@ title: ISClusPropertyValueData::CreateItem
 author: windows-sdk-content
 description: Creates a data value and adds it to to a ClusPropertyValueData collection.
 old-location: mscs\cluspropertyvaluedata_createitem.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 75bd2145-aed5-4a8f-b1da-e8fdcb0a537a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusPropertyValueData collection [Failover Cluster],CreateItem method, ClusPropertyValueData.CreateItem, CreateItem, CreateItem method [Failover Cluster], CreateItem method [Failover Cluster],ClusPropertyValueData collection, ISClusPropertyValueData.CreateItem, ISClusPropertyValueData::CreateItem, _wolf_cluspropertyvaluedata.createitem, mscs.cluspropertyvaluedata_createitem
 ms.prod: windows
 ms.technology: windows-sdk

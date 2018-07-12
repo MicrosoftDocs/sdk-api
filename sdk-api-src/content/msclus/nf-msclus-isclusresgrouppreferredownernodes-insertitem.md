@@ -4,10 +4,10 @@ title: ISClusResGroupPreferredOwnerNodes::InsertItem
 author: windows-sdk-content
 description: Adds a node to the ClusResGroupPreferredOwnerNodes collection.
 old-location: mscs\clusresgrouppreferredownernodes_insertitem.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: ae234397-a592-41a3-a30d-cb4b6450e332
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResGroupPreferredOwnerNodes class [Failover Cluster],InsertItem method, ClusResGroupPreferredOwnerNodes.InsertItem, ISClusResGroupPreferredOwnerNodes.InsertItem, ISClusResGroupPreferredOwnerNodes::InsertItem, InsertItem, InsertItem method [Failover Cluster], InsertItem method [Failover Cluster],ClusResGroupPreferredOwnerNodes class, _wolf_clusresgrouppreferredownernodes.insertitem, mscs.clusresgrouppreferredownernodes_insertitem
 ms.prod: windows
 ms.technology: windows-sdk

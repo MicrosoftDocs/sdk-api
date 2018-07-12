@@ -2,7 +2,7 @@
 UID: TP:deviceaccess
 ms.assetid: c4afd78e-1e89-3dda-9c6f-6a2002ebabca
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

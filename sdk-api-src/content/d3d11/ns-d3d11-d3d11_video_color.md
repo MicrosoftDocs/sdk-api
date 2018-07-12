@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_color.htm
 old-project: medfound
 ms.assetid: F8E070EE-F8F6-4AAF-9A8A-6D0AF6B857B5
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: D3D11_VIDEO_COLOR, D3D11_VIDEO_COLOR structure [Media Foundation], d3d11/D3D11_VIDEO_COLOR, mf.d3d11_video_color
 ms.prod: windows
 ms.technology: windows-sdk

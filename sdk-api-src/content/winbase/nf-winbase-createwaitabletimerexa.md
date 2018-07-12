@@ -4,10 +4,10 @@ title: CreateWaitableTimerExA function
 author: windows-sdk-content
 description: Creates or opens a waitable timer object and returns a handle to the object.
 old-location: base\createwaitabletimerex.htm
-old-project: Sync
+old-project: sync
 ms.assetid: 9ef51567-7d0f-4a2e-a798-289564733410
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: CREATE_WAITABLE_TIMER_MANUAL_RESET, CreateWaitableTimerEx, CreateWaitableTimerEx function, CreateWaitableTimerExA, CreateWaitableTimerExW, base.createwaitabletimerex, winbase/CreateWaitableTimerEx, winbase/CreateWaitableTimerExA, winbase/CreateWaitableTimerExW
 ms.prod: windows
 ms.technology: windows-sdk

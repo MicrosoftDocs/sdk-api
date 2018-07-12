@@ -2,7 +2,7 @@
 UID: NA:mfobjects
 ms.assetid: 920f4beb-9813-34b6-bdfb-d5b9ee264f4c
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

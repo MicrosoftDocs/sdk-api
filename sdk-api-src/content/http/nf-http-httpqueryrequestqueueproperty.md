@@ -4,10 +4,10 @@ title: HttpQueryRequestQueueProperty function
 author: windows-sdk-content
 description: Queries a property of the request queue identified by the specified handle.
 old-location: http\httpqueryrequestqueueproperty.htm
-old-project: Http
+old-project: http
 ms.assetid: a3b1e85e-f152-4038-a56a-3d5985757c45
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 04/13/2018
 ms.keywords: HttpQueryRequestQueueProperty, HttpQueryRequestQueueProperty function [HTTP], HttpServer503VerbosityProperty, HttpServerQueueLengthProperty, HttpServerStateProperty, http.httpqueryrequestqueueproperty, http/HttpQueryRequestQueueProperty
 ms.prod: windows
 ms.technology: windows-sdk

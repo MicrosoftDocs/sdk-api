@@ -7,7 +7,7 @@ old-location: ifsk\filterconnectcommunicationport.htm
 old-project: ifsk
 ms.assetid: 294783f2-2cbf-4eea-82ae-a396c62f911a
 ms.author: windowssdkdev
-ms.date: 04/16/2018
+ms.date: 04/17/2018
 ms.keywords: FLT_PORT_FLAG_SYNC_HANDLE, FilterConnectCommunicationPort, FilterConnectCommunicationPort function [Installable File System Drivers], FltWin32ApiRef_3459349f-ecfb-47c0-ae70-3f75e1d18435.xml, fltuser/FilterConnectCommunicationPort, ifsk.filterconnectcommunicationport
 ms.prod: windows
 ms.technology: windows-sdk

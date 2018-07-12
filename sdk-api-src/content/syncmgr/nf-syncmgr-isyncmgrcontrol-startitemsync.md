@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_StartItemSync.htm
 old-project: shell
 ms.assetid: 7e4798ce-04ee-4c75-8be2-0ad8fdc400a5
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],StartItemSync method, ISyncMgrControl.StartItemSync, ISyncMgrControl::StartItemSync, StartItemSync, StartItemSync method [Windows Shell], StartItemSync method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StartItemSync, shell.ISyncMgrControl_StartItemSync, syncmgr/ISyncMgrControl::StartItemSync
 ms.prod: windows
 ms.technology: windows-sdk

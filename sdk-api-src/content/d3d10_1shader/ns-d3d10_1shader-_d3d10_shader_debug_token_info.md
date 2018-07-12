@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_debug_token_info.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_token_info.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: D3D10_SHADER_DEBUG_TOKEN_INFO, D3D10_SHADER_DEBUG_TOKEN_INFO structure [Direct3D 10], _D3D10_SHADER_DEBUG_TOKEN_INFO, bc17063b-6965-506e-6465-5f361287445e, d3d10_1shader/D3D10_SHADER_DEBUG_TOKEN_INFO, direct3d10.d3d10_shader_debug_token_info
 ms.prod: windows
 ms.technology: windows-sdk

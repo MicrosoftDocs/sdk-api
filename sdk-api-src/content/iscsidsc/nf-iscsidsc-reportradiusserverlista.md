@@ -7,7 +7,7 @@ old-location: iscsidisc\reportradiusserverlist.htm
 old-project: iSCSIDisc
 ms.assetid: 83f9fdca-805a-44ed-bd6b-0a731c63cfe6
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 06/14/2018
 ms.keywords: ReportRadiusServerList, ReportRadiusServerList function [iSCSI Discovery Library API], ReportRadiusServerListA, ReportRadiusServerListW, iscsidisc.reportradiusserverlist, iscsidsc/ReportRadiusServerList, iscsidsc/ReportRadiusServerListA, iscsidsc/ReportRadiusServerListW
 ms.prod: windows
 ms.technology: windows-sdk

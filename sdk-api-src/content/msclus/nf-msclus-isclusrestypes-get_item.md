@@ -4,10 +4,10 @@ title: ISClusResTypes::get_Item
 author: windows-sdk-content
 description: Returns a single ClusResType object from a ClusResTypes collection.
 old-location: mscs\clusrestypes_item.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 09535510-1824-4491-a638-04ffe944e932
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResTypes collection [Failover Cluster],Item property, ClusResTypes.Item, ISClusResTypes.get_Item, ISClusResTypes::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ClusResTypes collection, _wolf_clusrestypes.item, get_Item, mscs.clusrestypes_item
 ms.prod: windows
 ms.technology: windows-sdk

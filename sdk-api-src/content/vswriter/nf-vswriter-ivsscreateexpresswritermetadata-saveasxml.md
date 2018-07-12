@@ -4,10 +4,10 @@ title: IVssCreateExpressWriterMetadata::SaveAsXML
 author: windows-sdk-content
 description: Stores the Writer Metadata Document that contains an express writer's state information into a specified string.
 old-location: base\ivsscreateexpresswritermetadata_saveasxml.htm
-old-project: VSS
+old-project: vss
 ms.assetid: c2a1ba98-74a1-4944-ac31-fec364060a75
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IVssCreateExpressWriterMetadata interface,SaveAsXML method, IVssCreateExpressWriterMetadata.SaveAsXML, IVssCreateExpressWriterMetadata::SaveAsXML, SaveAsXML, SaveAsXML method, SaveAsXML method,IVssCreateExpressWriterMetadata interface, base.ivsscreateexpresswritermetadata_saveasxml, vswriter/IVssCreateExpressWriterMetadata::SaveAsXML
 ms.prod: windows
 ms.technology: windows-sdk

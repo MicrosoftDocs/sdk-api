@@ -7,7 +7,7 @@ old-location: gdi\gradient_triangle.htm
 old-project: gdi
 ms.assetid: 71f3a4bd-5823-47ae-aa7a-f3058f18c591
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: "*LPGRADIENT_TRIANGLE, *PGRADIENT_TRIANGLE, GRADIENT_TRIANGLE, GRADIENT_TRIANGLE structure [Windows GDI], PGRADIENT_TRIANGLE, PGRADIENT_TRIANGLE structure pointer [Windows GDI], _GRADIENT_TRIANGLE, _win32_GRADIENT_TRIANGLE_str, gdi.gradient_triangle, wingdi/GRADIENT_TRIANGLE, wingdi/PGRADIENT_TRIANGLE"
 ms.prod: windows
 ms.technology: windows-sdk

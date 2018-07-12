@@ -7,7 +7,7 @@ old-location: automat\varr8fromi8.htm
 old-project: automat
 ms.assetid: eeb68518-0038-43ef-991e-d6bf6a8db5b0
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarR8FromI8, VarR8FromI8 function [Automation], _oa96_VarR8FromI8, automat.varr8fromi8, oleauto/VarR8FromI8
 ms.prod: windows
 ms.technology: windows-sdk

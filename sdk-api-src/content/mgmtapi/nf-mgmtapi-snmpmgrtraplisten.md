@@ -4,10 +4,10 @@ title: SnmpMgrTrapListen function
 author: windows-sdk-content
 description: The SnmpMgrTrapListen function registers the ability of an SNMP manager application to receive SNMP traps from the SNMP Trap Service. This function is an element of the SNMP Management API.
 old-location: snmp\snmpmgrtraplisten.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 9ba799a7-0088-4939-9665-ce96074c6448
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SnmpMgrTrapListen, SnmpMgrTrapListen function [SNMP], _snmp_snmpmgrtraplisten, mgmtapi/SnmpMgrTrapListen, snmp.snmpmgrtraplisten
 ms.prod: windows
 ms.technology: windows-sdk

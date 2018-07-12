@@ -7,7 +7,7 @@ old-location: tsf\itfcontextownerservices_onlayoutchange.htm
 old-project: TSF
 ms.assetid: a9e17687-6be6-4d2d-ba3a-6c128e71de26
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfContextOwnerServices interface [Text Services Framework],OnLayoutChange method, ITfContextOwnerServices.OnLayoutChange, ITfContextOwnerServices::OnLayoutChange, OnLayoutChange, OnLayoutChange method [Text Services Framework], OnLayoutChange method [Text Services Framework],ITfContextOwnerServices interface, _tsf_itfcontextownerservices_onlayoutchange_ref, msctf/ITfContextOwnerServices::OnLayoutChange, tsf.itfcontextownerservices_onlayoutchange
 ms.prod: windows
 ms.technology: windows-sdk

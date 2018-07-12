@@ -2,6 +2,5 @@
   "tech": "input_touchhittest",
   "headers": [
     "winuser.h"
-  ],
-  "displayName": "Touch Hit Testing"
+  ]
 }

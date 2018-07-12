@@ -4,10 +4,10 @@ title: IWSManResourceLocator::get_FragmentDialect
 author: windows-sdk-content
 description: Gets or sets the language dialect for a resource fragment dialect when IWSManResourceLocator is used in IWSManSession object methods such as Get, Put, or Enumerate.
 old-location: winrm\iwsmanresourcelocator_fragmentdialect.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: eb458fc4-ddcc-42a2-8dd3-05498e035de2
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: FragmentDialect property [Windows Remote Management], FragmentDialect property [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],FragmentDialect property, IWSManResourceLocator.FragmentDialect, IWSManResourceLocator.get_FragmentDialect, IWSManResourceLocator::FragmentDialect, IWSManResourceLocator::get_FragmentDialect, IWSManResourceLocator::put_FragmentDialect, get_FragmentDialect, winrm.iwsmanresourcelocator_fragmentdialect, wsmandisp/IWSManResourceLocator::FragmentDialect, wsmandisp/IWSManResourceLocator::get_FragmentDialect, wsmandisp/IWSManResourceLocator::put_FragmentDialect
 ms.prod: windows
 ms.technology: windows-sdk

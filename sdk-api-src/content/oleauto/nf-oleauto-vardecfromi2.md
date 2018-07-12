@@ -7,7 +7,7 @@ old-location: automat\vardecfromi2.htm
 old-project: automat
 ms.assetid: c57c6428-15ef-47ae-b040-b473399b549a
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarDecFromI2, VarDecFromI2 function [Automation], _oa96_VarDecFromI2, automat.vardecfromi2, oleauto/VarDecFromI2
 ms.prod: windows
 ms.technology: windows-sdk

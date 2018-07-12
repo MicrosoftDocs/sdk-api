@@ -4,10 +4,10 @@ title: IVssComponentEx
 author: windows-sdk-content
 description: Defines additional methods for examining and modifying information about components contained in a requester's Backup Components Document.
 old-location: base\ivsscomponentex.htm
-old-project: VSS
+old-project: vss
 ms.assetid: b11f65b0-2de2-478b-88b6-4696a8da2419
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IVssComponentEx, IVssComponentEx interface, IVssComponentEx interface,described, base.ivsscomponentex, vswriter/IVssComponentEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ Defines additional methods for examining  and modifying information about compon
 The <b>IVssComponentEx</b> interface is a C++ (not COM) interface.
 
 To obtain an instance of the <b>IVssComponentEx</b> 
-   interface, call the <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> method of the 
+   interface, call the <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> method of the 
    <a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a> interface, and pass 
    the <b>IID_IVssComponentEx</b> constant as the interface identifier (IID) parameter.
 

@@ -4,10 +4,10 @@ title: MprInfoCreate function
 author: windows-sdk-content
 description: The MprInfoCreate function creates a new information header.
 old-location: rras\mprinfocreate.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: c48fc24f-8cf6-45c0-8ce1-841896648ba7
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprInfoCreate, MprInfoCreate function [RAS], _mpr_mprinfocreate, mprapi/MprInfoCreate, rras.mprinfocreate
 ms.prod: windows
 ms.technology: windows-sdk

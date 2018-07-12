@@ -7,7 +7,7 @@ old-location: wintouch\imanipulationprocessor_getvelocityx.htm
 old-project: wintouch
 ms.assetid: 64524f01-f7b2-4e78-97b8-20686018469f
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetVelocityX, GetVelocityX method [Windows Touch], GetVelocityX method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetVelocityX method, IManipulationProcessor.GetVelocityX, IManipulationProcessor::GetVelocityX, manipulations/IManipulationProcessor::GetVelocityX, wintouch.imanipulationprocessor_getvelocityx
 ms.prod: windows
 ms.technology: windows-sdk

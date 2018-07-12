@@ -7,7 +7,7 @@ old-location: dwm\dwmmodifypreviousdxframeduration.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmmodifypreviousdxframeduration.htm
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: DwmModifyPreviousDxFrameDuration, DwmModifyPreviousDxFrameDuration function [Desktop Window Manager], _udwm_dwmmodifypreviousdxframeduration, _udwm_dwmmodifypreviousdxframeduration_cpp, dwm.dwmmodifypreviousdxframeduration, dwmapi/DwmModifyPreviousDxFrameDuration, winui._udwm_dwmmodifypreviousdxframeduration
 ms.prod: windows
 ms.technology: windows-sdk

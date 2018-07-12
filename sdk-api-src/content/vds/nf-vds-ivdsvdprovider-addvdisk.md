@@ -4,10 +4,10 @@ title: IVdsVdProvider::AddVDisk
 author: windows-sdk-content
 description: Creates a virtual disk object for an existing virtual disk file.
 old-location: base\ivdsvdprovider_addvdisk.htm
-old-project: VDS
+old-project: vds
 ms.assetid: ef154bf3-ad30-4e6e-8292-af2037eced02
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: AddVDisk, AddVDisk method, AddVDisk method,IVdsVdProvider interface, IVdsVdProvider interface,AddVDisk method, IVdsVdProvider.AddVDisk, IVdsVdProvider::AddVDisk, base.ivdsvdprovider_addvdisk, vds/IVdsVdProvider::AddVDisk
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ A <b>NULL</b>-terminated wide-character string containing the name and directory
 
 ### -param ppVDisk [out]
 
-A pointer to a variable that receives an <a href="https://msdn.microsoft.com/2b4f81f9-81ec-4288-a26c-8ed4d378358a">IVdsVDisk</a> interface pointer to the newly created virtual disk object. Callers must release the interface pointer when it is no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+A pointer to a variable that receives an <a href="https://msdn.microsoft.com/2b4f81f9-81ec-4288-a26c-8ed4d378358a">IVdsVDisk</a> interface pointer to the newly created virtual disk object. Callers must release the interface pointer when it is no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

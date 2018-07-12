@@ -4,10 +4,10 @@ title: PropSheet_RecalcPageSizes macro
 author: windows-sdk-content
 description: Recalculates the page size of a standard or wizard property sheet after pages have been added or removed. You can use this macro or send the PSM_RECALCPAGESIZES message explicitly.
 old-location: controls\PropSheet_RecalcPageSizes.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_recalcpagesizes.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: PropSheet_RecalcPageSizes, PropSheet_RecalcPageSizes macro [Windows Controls], _win32_PropSheet_RecalcPageSizes, _win32_PropSheet_RecalcPageSizes_cpp, controls.PropSheet_RecalcPageSizes, controls._win32_PropSheet_RecalcPageSizes, prsht/PropSheet_RecalcPageSizes
 ms.prod: windows
 ms.technology: windows-sdk

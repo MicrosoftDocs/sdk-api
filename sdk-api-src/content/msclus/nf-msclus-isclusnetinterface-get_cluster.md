@@ -4,10 +4,10 @@ title: ISClusNetInterface::get_Cluster
 author: windows-sdk-content
 description: Cluster object providing access to the cluster associated with a network interface.
 old-location: mscs\clusnetinterface_cluster.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: fa09d9be-805c-4cf3-b2ac-8b194e52f429
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNetInterface object [Failover Cluster],Cluster property, ClusNetInterface.Cluster, Cluster property [Failover Cluster], Cluster property [Failover Cluster],ClusNetInterface object, ISClusNetInterface.get_Cluster, ISClusNetInterface::get_Cluster, _wolf_clusnetinterface.cluster, get_Cluster, mscs.clusnetinterface_cluster
 ms.prod: windows
 ms.technology: windows-sdk

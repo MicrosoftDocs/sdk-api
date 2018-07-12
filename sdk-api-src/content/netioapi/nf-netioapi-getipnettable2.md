@@ -4,10 +4,10 @@ title: GetIpNetTable2 function
 author: windows-sdk-content
 description: The GetIpNetTable2 function retrieves the IP neighbor table on the local computer.
 old-location: iphlp\getipnettable2.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 6c45d735-9a07-41ca-8d8a-919f32c98a3c
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetIpNetTable2, GetIpNetTable2 function [IP Helper], iphlp.getipnettable2, netioapi/GetIpNetTable2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_setdescription.htm
 old-project: printdocs
 ms.assetid: 5be76080-0f85-4937-913c-2037740a3e9d
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetDescription method, IXpsOMCoreProperties.SetDescription, IXpsOMCoreProperties::SetDescription, SetDescription, SetDescription method [XPS Documents and Packaging], SetDescription method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setdescription, xpsobjectmodel/IXpsOMCoreProperties::SetDescription
 ms.prod: windows
 ms.technology: windows-sdk

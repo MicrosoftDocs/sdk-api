@@ -7,7 +7,7 @@ old-location: mf\imfattributes_getunknown.htm
 old-project: medfound
 ms.assetid: a5f645a1-b7d2-47d3-b77e-ad94815b1c25
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetUnknown, GetUnknown method [Media Foundation], GetUnknown method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetUnknown method, IMFAttributes.GetUnknown, IMFAttributes::GetUnknown, a5f645a1-b7d2-47d3-b77e-ad94815b1c25, mf.imfattributes_getunknown, mfobjects/IMFAttributes::GetUnknown
 ms.prod: windows
 ms.technology: windows-sdk

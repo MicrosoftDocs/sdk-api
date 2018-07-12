@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_IsRestricted.htm
 old-project: shell
 ms.assetid: 04275c5f-c3ed-4962-882f-2cce0258a9f4
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IShellDispatch2 object [Windows Shell],IsRestricted method, IShellDispatch2.IsRestricted, IShellDispatch2::IsRestricted, IsRestricted, IsRestricted method [Windows Shell], IsRestricted method [Windows Shell],IShellDispatch2 object, _win32_IShellDispatch2_IsRestricted, shell.IShellDispatch2_IsRestricted
 ms.prod: windows
 ms.technology: windows-sdk

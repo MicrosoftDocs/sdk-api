@@ -4,10 +4,10 @@ title: PFNDAENUMCALLBACKCONST
 author: windows-sdk-content
 description: Defines the prototype for the callback function used by dynamic structure array (DSA) and dynamic pointer array (DPA) functions when the items involved are pointers to constant data.
 old-location: controls\PFNDAENUMCALLBACKCONST.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndaenumcallbackconst.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: PFNDAENUMCALLBACKCONST, PFNDAENUMCALLBACKCONST callback, PFNDAENUMCALLBACKCONST callback function [Windows Controls], PFNDPAENUMCALLBACKCONST, PFNDSAENUMCALLBACKCONST, _shell_PFNDAENUMCALLBACKCONST, _shell_PFNDAENUMCALLBACKCONST_cpp, controls.PFNDAENUMCALLBACKCONST, controls._shell_PFNDAENUMCALLBACKCONST, dpa_dsa/PFNDAENUMCALLBACKCONST
 ms.prod: windows
 ms.technology: windows-sdk

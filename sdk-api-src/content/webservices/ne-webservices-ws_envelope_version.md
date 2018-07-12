@@ -7,7 +7,7 @@ old-location: wsw\ws_envelope_version.htm
 old-project: wsw
 ms.assetid: 2a6f6148-d37d-4ac2-8fd0-409eae71a3d8
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_ENVELOPE_VERSION, WS_ENVELOPE_VERSION enumeration [Web Services for Windows], WS_ENVELOPE_VERSION_SOAP_1_1, WS_ENVELOPE_VERSION_SOAP_1_2, webservices/WS_ENVELOPE_VERSION, webservices/WS_ENVELOPE_VERSION_SOAP_1_1, webservices/WS_ENVELOPE_VERSION_SOAP_1_2, wsw.ws_envelope_version
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestmainpackagedependency.htm
 old-project: appxpkg
 ms.assetid: E9B04DAD-BD45-4699-9EB1-99CF59F8D934
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: IAppxManifestMainPackageDependency, IAppxManifestMainPackageDependency interface [App packaging and management], IAppxManifestMainPackageDependency interface [App packaging and management],described, appxpackaging/IAppxManifestMainPackageDependency, appxpkg.iappxmanifestmainpackagedependency
 ms.prod: windows
 ms.technology: windows-sdk

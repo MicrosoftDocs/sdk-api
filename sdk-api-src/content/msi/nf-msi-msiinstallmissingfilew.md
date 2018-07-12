@@ -4,10 +4,10 @@ title: MsiInstallMissingFileW function
 author: windows-sdk-content
 description: The MsiInstallMissingFile function installs files that are unexpectedly missing.
 old-location: setup\msiinstallmissingfile.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 289ce1e2-64ac-4222-9d0d-52c8fdd4f9c3
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: MsiInstallMissingFile, MsiInstallMissingFile function, MsiInstallMissingFileA, MsiInstallMissingFileW, _msi_msiinstallmissingfile, msi/MsiInstallMissingFile, msi/MsiInstallMissingFileA, msi/MsiInstallMissingFileW, setup.msiinstallmissingfile
 ms.prod: windows
 ms.technology: windows-sdk

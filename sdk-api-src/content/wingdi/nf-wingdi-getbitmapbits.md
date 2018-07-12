@@ -7,7 +7,7 @@ old-location: gdi\getbitmapbits.htm
 old-project: gdi
 ms.assetid: 72e8cc6b-d282-451e-b6ec-0473d2daea7c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetBitmapBits, GetBitmapBits function [Windows GDI], _win32_GetBitmapBits, gdi.getbitmapbits, wingdi/GetBitmapBits
 ms.prod: windows
 ms.technology: windows-sdk

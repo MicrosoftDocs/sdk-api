@@ -4,10 +4,10 @@ title: IEnumNetSharingPublicConnection::Skip
 author: windows-sdk-content
 description: The Skip method skips the specified number of publicly-shared connections for this enumeration.
 old-location: ics\ienumnetsharingpublicconnection_skip.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 25466a29-368b-4970-9995-5272cbca3c0a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IEnumNetSharingPublicConnection interface [ICS/ICF],Skip method, IEnumNetSharingPublicConnection.Skip, IEnumNetSharingPublicConnection::Skip, Skip, Skip method [ICS/ICF], Skip method [ICS/ICF],IEnumNetSharingPublicConnection interface, _ics_ienumnetsharingpublicconnection_skip, ics.ienumnetsharingpublicconnection_skip, netcon/IEnumNetSharingPublicConnection::Skip
 ms.prod: windows
 ms.technology: windows-sdk

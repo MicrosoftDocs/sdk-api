@@ -4,10 +4,10 @@ title: QueryRecoveryAgentsOnEncryptedFile function
 author: windows-sdk-content
 description: Retrieves a list of recovery agents for the specified file.
 old-location: fs\queryrecoveryagentsonencryptedfile.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 2f8d0673-3c87-46a4-b7d5-3888d20bd9b8
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: QueryRecoveryAgentsOnEncryptedFile, QueryRecoveryAgentsOnEncryptedFile function [Files], _win32_queryrecoveryagentsonencryptedfile, base.queryrecoveryagentsonencryptedfile, fs.queryrecoveryagentsonencryptedfile, winefs/QueryRecoveryAgentsOnEncryptedFile
 ms.prod: windows
 ms.technology: windows-sdk

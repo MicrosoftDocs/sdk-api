@@ -7,7 +7,7 @@ old-location: audio\ksp_pinmode.htm
 old-project: audio
 ms.assetid: 179517E8-BFC7-4B63-8F9E-A57D0C881102
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: "*PKSP_PINMODE, KSP_PINMODE, KSP_PINMODE structure [Audio Devices], PKSP_PINMODE, PKSP_PINMODE structure pointer [Audio Devices], audio.ksp_pinmode, msapofxproxy/KSP_PINMODE, msapofxproxy/PKSP_PINMODE, tagKSP_PINMODE"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaItem_GetRootItem.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\getrootitem.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: GetRootItem, GetRootItem method [WIA], GetRootItem method [WIA],IWiaItem interface, IWiaItem interface [WIA],GetRootItem method, IWiaItem.GetRootItem, IWiaItem::GetRootItem, _wia_IWiaItem_GetRootItem, wia._wia_IWiaItem_GetRootItem, wia_xp/IWiaItem::GetRootItem
 ms.prod: windows
 ms.technology: windows-sdk

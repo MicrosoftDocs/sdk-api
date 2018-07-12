@@ -7,7 +7,7 @@ old-location: properties\IPropertySystem_RefreshPropertySchema.htm
 old-project: properties
 ms.assetid: 9aa0c678-5139-42a4-ac71-deb39dae4129
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: IPropertySystem interface [Windows Properties],RefreshPropertySchema method, IPropertySystem.RefreshPropertySchema, IPropertySystem::RefreshPropertySchema, RefreshPropertySchema, RefreshPropertySchema method [Windows Properties], RefreshPropertySchema method [Windows Properties],IPropertySystem interface, properties.IPropertySystem_RefreshPropertySchema, propsys/IPropertySystem::RefreshPropertySchema, shell.IPropertySystem_RefreshPropertySchema, shell_IPropertySystem_RefreshPropertySchema
 ms.prod: windows
 ms.technology: windows-sdk

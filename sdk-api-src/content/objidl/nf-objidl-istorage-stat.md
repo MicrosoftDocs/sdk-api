@@ -4,10 +4,10 @@ title: IStorage::Stat
 author: windows-sdk-content
 description: The Stat method retrieves the STATSTG structure for this open storage object.
 old-location: stg\istorage_stat.htm
-old-project: Stg
+old-project: stg
 ms.assetid: 87478fa8-1b5f-44ed-bffc-e139c7f44a12
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: IStorage interface [Structured Storage],Stat method, IStorage.Stat, IStorage::Stat, Stat, Stat method [Structured Storage], Stat method [Structured Storage],IStorage interface, _stg_istorage_stat, objidl/IStorage::Stat, stg.istorage_stat
 ms.prod: windows
 ms.technology: windows-sdk

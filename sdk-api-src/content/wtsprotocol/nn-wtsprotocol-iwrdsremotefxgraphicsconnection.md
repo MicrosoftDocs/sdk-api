@@ -7,7 +7,7 @@ old-location: termserv\iwrdsremotefxgraphicsconnection.htm
 old-project: TermServ
 ms.assetid: ff8d2dd0-adbb-40de-a074-3228d803f4c8
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: IWRdsRemoteFXGraphicsConnection, IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services], IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services],described, termserv.iwrdsremotefxgraphicsconnection, wtsprotocol/IWRdsRemoteFXGraphicsConnection
 ms.prod: windows
 ms.technology: windows-sdk

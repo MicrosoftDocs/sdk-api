@@ -4,10 +4,10 @@ title: MsiGetDatabaseState function
 author: windows-sdk-content
 description: The MsiGetDatabaseState function returns the state of the database.
 old-location: setup\msigetdatabasestate.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 33c4618f-f9b5-4512-baba-27f62cd32329
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: MsiGetDatabaseState, MsiGetDatabaseState function, _msi_msigetdatabasestate, msiquery/MsiGetDatabaseState, setup.msigetdatabasestate
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\ifiltermapper_unregisterfilterinstance.htm
 old-project: DirectShow
 ms.assetid: bfeb0129-f67c-4318-8206-aa08e3b5b370
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IFilterMapper interface [DirectShow],UnregisterFilterInstance method, IFilterMapper.UnregisterFilterInstance, IFilterMapper::UnregisterFilterInstance, IFilterMapperUnregisterFilterInstance, UnregisterFilterInstance, UnregisterFilterInstance method [DirectShow], UnregisterFilterInstance method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_unregisterfilterinstance, strmif/IFilterMapper::UnregisterFilterInstance
 ms.prod: windows
 ms.technology: windows-sdk

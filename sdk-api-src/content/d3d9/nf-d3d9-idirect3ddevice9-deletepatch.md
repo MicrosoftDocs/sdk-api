@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__deletepatch.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__deletepatch.htm
 ms.author: windowssdkdev
-ms.date: 04/10/2018
+ms.date: 04/11/2018
 ms.keywords: 2eb17a58-7131-6669-67fe-a5a0226a6e9c, DeletePatch, DeletePatch method [Direct3D 9], DeletePatch method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],DeletePatch method, IDirect3DDevice9.DeletePatch, IDirect3DDevice9::DeletePatch, d3d9helper/IDirect3DDevice9::DeletePatch, direct3d9.idirect3ddevice9__deletepatch
 ms.prod: windows
 ms.technology: windows-sdk

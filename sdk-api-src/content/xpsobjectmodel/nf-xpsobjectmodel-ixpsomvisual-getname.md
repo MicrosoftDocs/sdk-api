@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisual_getname.htm
 old-project: printdocs
 ms.assetid: 0a8b592e-c80e-4a0f-b9a4-8c362da43ced
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetName, GetName method [XPS Documents and Packaging], GetName method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetName method, IXpsOMVisual.GetName, IXpsOMVisual::GetName, xps.ixpsomvisual_getname, xpsobjectmodel/IXpsOMVisual::GetName
 ms.prod: windows
 ms.technology: windows-sdk

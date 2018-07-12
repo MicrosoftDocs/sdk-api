@@ -4,10 +4,10 @@ title: IAlternativeNames::get_Count
 author: windows-sdk-content
 description: Retrieves the number of objects in the collection.
 old-location: security\ialternativenames_count_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: ef7f588a-f877-4626-ada6-782db6202c65
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: Count property [Security], Count property [Security],IAlternativeNames interface, IAlternativeNames interface [Security],Count property, IAlternativeNames.Count, IAlternativeNames.get_Count, IAlternativeNames::Count, IAlternativeNames::get_Count, certenroll/IAlternativeNames::Count, certenroll/IAlternativeNames::get_Count, get_Count, security.ialternativenames_count_property
 ms.prod: windows
 ms.technology: windows-sdk

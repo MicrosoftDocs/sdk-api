@@ -4,10 +4,10 @@ title: WinBioUnlockUnit function
 author: windows-sdk-content
 description: Releases the session lock on the specified biometric unit.
 old-location: secbiomet\winbiounlockunit.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 689adf39-da62-4e83-94e9-e2daa7bd4753
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: WinBioUnlockUnit, WinBioUnlockUnit function [Windows Biometric Framework API], secbiomet.winbiounlockunit, winbio/WinBioUnlockUnit
 ms.prod: windows
 ms.technology: windows-sdk

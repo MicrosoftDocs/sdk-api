@@ -4,10 +4,10 @@ title: PeerDistClientCloseContent function
 author: windows-sdk-content
 description: PeerDistClientCloseContent function closes the content handle opened by PeerDistClientOpenContent.
 old-location: p2p\peerdistclientclosecontent.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: c55300b7-13b6-42bf-b673-56a5e077416d
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerDistClientCloseContent, PeerDistClientCloseContent function [Peer Networking], p2p.peerdistclientclosecontent, peerdist/PeerDistClientCloseContent
 ms.prod: windows
 ms.technology: windows-sdk

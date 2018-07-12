@@ -4,10 +4,10 @@ title: PCLUSAPI_CLUSTER_CLOSE_ENUM
 author: windows-sdk-content
 description: Closes a cluster enumeration handle originally opened by ClusterOpenEnum.
 old-location: mscs\clustercloseenum.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 3d7e45a0-d580-4d14-8795-2418bba40c73
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CLUSTER_CLOSE_ENUM, PCLUSAPI_CLUSTER_CLOSE_ENUM callback, PCLUSAPI_CLUSTER_CLOSE_ENUM callback function [Failover Cluster], _wolf_clustercloseenum, clusapi/PCLUSAPI_CLUSTER_CLOSE_ENUM, mscs.clustercloseenum
 ms.prod: windows
 ms.technology: windows-sdk

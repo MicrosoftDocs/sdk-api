@@ -4,10 +4,10 @@ title: tagPXE_DHCP_MESSAGE
 author: windows-sdk-content
 description: The PXE_DHCP_MESSAGE structure can be used with the Windows Deployment Services PXE Server API.
 old-location: wds\pxe_dhcp_message.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 466906f1-9439-4c9f-91f1-28530969181c
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: "*PPXE_DHCP_MESSAGE, PPXE_DHCP_MESSAGE, PPXE_DHCP_MESSAGE structure pointer [Windows Deployment Services], PXE_DHCP_MESSAGE, PXE_DHCP_MESSAGE structure [Windows Deployment Services], tagPXE_DHCP_MESSAGE, wds.pxe_dhcp_message, wdspxe/PPXE_DHCP_MESSAGE, wdspxe/PXE_DHCP_MESSAGE"
 ms.prod: windows
 ms.technology: windows-sdk

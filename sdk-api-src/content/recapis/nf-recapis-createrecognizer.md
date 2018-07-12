@@ -7,7 +7,7 @@ old-location: tablet\createrecognizer.htm
 old-project: tablet
 ms.assetid: b4a5517e-d818-4d4d-a06f-3e0dcbcc52c6
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: CreateRecognizer, CreateRecognizer function [Tablet PC], b4a5517e-d818-4d4d-a06f-3e0dcbcc52c6, recapis/CreateRecognizer, tablet.createrecognizer
 ms.prod: windows
 ms.technology: windows-sdk

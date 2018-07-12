@@ -7,7 +7,7 @@ old-location: tsf\itfcontext_enumproperties.htm
 old-project: TSF
 ms.assetid: b57c9fdc-320b-4d97-8af4-c75756326437
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: EnumProperties, EnumProperties method [Text Services Framework], EnumProperties method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],EnumProperties method, ITfContext.EnumProperties, ITfContext::EnumProperties, _tsf_itfcontext_enumproperties_ref, msctf/ITfContext::EnumProperties, tsf.itfcontext_enumproperties
 ms.prod: windows
 ms.technology: windows-sdk

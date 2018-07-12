@@ -4,10 +4,10 @@ title: "_PNRP_CLOUD_ID"
 author: windows-sdk-content
 description: The PNRP_CLOUD_ID structure contains the values that define a network cloud.
 old-location: p2p\pnrp_cloud_id.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 8187ce9e-e1a9-4dce-902e-8a1c43b4b047
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: "*PPNRP_CLOUD_ID, PNRP_CLOUD_ID, PNRP_CLOUD_ID structure [Peer Networking], PPNRP_CLOUD_ID, PPNRP_CLOUD_ID structure pointer [Peer Networking], _PNRP_CLOUD_ID, p2p.pnrp_cloud_id, pnrpdef/PNRP_CLOUD_ID, pnrpdef/PPNRP_CLOUD_ID"
 ms.prod: windows
 ms.technology: windows-sdk

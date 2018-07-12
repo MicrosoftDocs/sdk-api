@@ -4,10 +4,10 @@ title: IAzApplication3::ScopeExists
 author: windows-sdk-content
 description: Indicates whether the specified scope exists in this IAzApplication3 object.
 old-location: security\iazapplication3_scopeexists.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 585f8b16-e634-4ac6-a20a-214eea344b0a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: IAzApplication3 interface [Security],ScopeExists method, IAzApplication3.ScopeExists, IAzApplication3::ScopeExists, ScopeExists, ScopeExists method [Security], ScopeExists method [Security],IAzApplication3 interface, azroles/IAzApplication3::ScopeExists, security.iazapplication3_scopeexists
 ms.prod: windows
 ms.technology: windows-sdk

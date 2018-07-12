@@ -4,10 +4,10 @@ title: SetWindowThemeNonClientAttributes function
 author: windows-sdk-content
 description: Sets non-client attributes to control how visual styles are applied to a specified window.
 old-location: controls\SetWindowThemeNonClientAttributes.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setwindowthemenonclientattributes.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: SetWindowThemeNonClientAttributes, SetWindowThemeNonClientAttributes function [Windows Controls], _shell_SetWindowThemeNonClientAttributes, _shell_SetWindowThemeNonClientAttributes_cpp, controls.SetWindowThemeNonClientAttributes, controls._shell_SetWindowThemeNonClientAttributes, uxtheme/SetWindowThemeNonClientAttributes
 ms.prod: windows
 ms.technology: windows-sdk

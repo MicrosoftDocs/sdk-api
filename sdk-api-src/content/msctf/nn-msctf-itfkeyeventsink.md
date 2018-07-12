@@ -7,7 +7,7 @@ old-location: tsf\itfkeyeventsink.htm
 old-project: TSF
 ms.assetid: 5fa1344f-d8c4-40d1-99df-3c493673ad87
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfKeyEventSink, ITfKeyEventSink interface [Text Services Framework], ITfKeyEventSink interface [Text Services Framework],described, _tsf_itfkeyeventsink_ref, msctf/ITfKeyEventSink, tsf.itfkeyeventsink
 ms.prod: windows
 ms.technology: windows-sdk

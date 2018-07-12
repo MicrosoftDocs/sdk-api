@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter3_setvideomemoryreservation.htm
 old-project: direct3ddxgi
 ms.assetid: 5D17F57F-9FFA-4B5C-98B6-33E5B3982A63
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: IDXGIAdapter3 interface [DXGI],SetVideoMemoryReservation method, IDXGIAdapter3.SetVideoMemoryReservation, IDXGIAdapter3::SetVideoMemoryReservation, SetVideoMemoryReservation, SetVideoMemoryReservation method [DXGI], SetVideoMemoryReservation method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_setvideomemoryreservation, dxgi1_4/IDXGIAdapter3::SetVideoMemoryReservation
 ms.prod: windows
 ms.technology: windows-sdk

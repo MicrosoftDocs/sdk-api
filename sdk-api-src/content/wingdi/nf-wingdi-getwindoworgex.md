@@ -7,7 +7,7 @@ old-location: gdi\getwindoworgex.htm
 old-project: gdi
 ms.assetid: 9579ed10-6d4c-4724-af8b-22cab5b6ff5e
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetWindowOrgEx, GetWindowOrgEx function [Windows GDI], _win32_GetWindowOrgEx, gdi.getwindoworgex, wingdi/GetWindowOrgEx
 ms.prod: windows
 ms.technology: windows-sdk

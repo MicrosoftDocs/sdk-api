@@ -7,7 +7,7 @@ old-location: intl\fontsignature.htm
 old-project: Intl
 ms.assetid: 5331da53-7e3d-46e9-a922-da04fedc8382
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/28/2018
 ms.keywords: "*LPFONTSIGNATURE, *PFONTSIGNATURE, FONTSIGNATURE, FONTSIGNATURE structure [Internationalization for Windows Applications], PFONTSIGNATURE, PFONTSIGNATURE structure pointer [Internationalization for Windows Applications], _win32_FONTSIGNATURE_str, intl.fontsignature, tagFONTSIGNATURE, wingdi/FONTSIGNATURE, wingdi/PFONTSIGNATURE"
 ms.prod: windows
 ms.technology: windows-sdk

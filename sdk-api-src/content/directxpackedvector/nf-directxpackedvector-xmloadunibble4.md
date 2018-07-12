@@ -7,7 +7,7 @@ old-location: dxmath\xmloadunibble4.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUNibble4(const XMUNIBBLE4)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 06/14/2018
 ms.keywords: DirectX::PackedVector.XMLoadUNibble4, XMLoadUNibble4, XMLoadUNibble4 method [DirectX Math Support APIs], dxmath.xmloadunibble4
 ms.prod: windows
 ms.technology: windows-sdk

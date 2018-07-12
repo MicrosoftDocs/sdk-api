@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_get_sessionstartblock.htm
 old-project: imapi
 ms.assetid: 0f1faea7-4272-42da-afdf-3399c9dd629f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_SessionStartBlock method, IFileSystemImage.get_SessionStartBlock, IFileSystemImage::get_SessionStartBlock, get_SessionStartBlock, get_SessionStartBlock method [IMAPI], get_SessionStartBlock method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_sessionstartblock, imapi2fs/IFileSystemImage::get_SessionStartBlock
 ms.prod: windows
 ms.technology: windows-sdk

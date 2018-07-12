@@ -4,10 +4,10 @@ title: PeerPnrpShutdown function
 author: windows-sdk-content
 description: Shuts down a running instance of the Peer Name Resolution Protocol (PNRP) service and releases all resources associated with it.
 old-location: p2p\peerpnrpshutdown.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: e617fb5b-ace2-46b4-b165-4cd9cf891ac7
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerPnrpShutdown, PeerPnrpShutdown function [Peer Networking], p2p.peerpnrpshutdown, p2p/PeerPnrpShutdown
 ms.prod: windows
 ms.technology: windows-sdk

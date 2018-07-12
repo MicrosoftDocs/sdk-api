@@ -4,10 +4,10 @@ title: DsCrackSpnA function
 author: windows-sdk-content
 description: Parses a service principal name (SPN) into its component strings.
 old-location: ad\dscrackspn.htm
-old-project: AD
+old-project: ad
 ms.assetid: 65c81c23-a259-480c-9c1e-03484d3e89c9
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DsCrackSpn, DsCrackSpn function [Active Directory], DsCrackSpnA, DsCrackSpnW, _glines_dscrackspn, ad.dscrackspn, dsparse/DsCrackSpn, dsparse/DsCrackSpnA, dsparse/DsCrackSpnW
 ms.prod: windows
 ms.technology: windows-sdk

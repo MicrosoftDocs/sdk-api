@@ -4,10 +4,10 @@ title: IPolicyQualifiers::Remove
 author: windows-sdk-content
 description: Removes an object from the collection by index value.
 old-location: security\ipolicyqualifiers_remove_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 6071dbc2-210d-42e2-8431-68eef1e89e24
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IPolicyQualifiers interface [Security],Remove method, IPolicyQualifiers.Remove, IPolicyQualifiers::Remove, Remove, Remove method [Security], Remove method [Security],IPolicyQualifiers interface, certenroll/IPolicyQualifiers::Remove, security.ipolicyqualifiers_remove_method
 ms.prod: windows
 ms.technology: windows-sdk

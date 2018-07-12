@@ -7,7 +7,7 @@ old-location: mf\imfbytestreamtimeseek_istimeseeksupported.htm
 old-project: medfound
 ms.assetid: 92FCE0EF-046C-4639-958E-731795C5A123
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFByteStreamTimeSeek interface [Media Foundation],IsTimeSeekSupported method, IMFByteStreamTimeSeek.IsTimeSeekSupported, IMFByteStreamTimeSeek::IsTimeSeekSupported, IsTimeSeekSupported, IsTimeSeekSupported method [Media Foundation], IsTimeSeekSupported method [Media Foundation],IMFByteStreamTimeSeek interface, mf.imfbytestreamtimeseek_istimeseeksupported, mfidl/IMFByteStreamTimeSeek::IsTimeSeekSupported
 ms.prod: windows
 ms.technology: windows-sdk

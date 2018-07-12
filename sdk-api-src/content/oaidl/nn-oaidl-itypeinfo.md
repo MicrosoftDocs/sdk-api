@@ -7,7 +7,7 @@ old-location: automat\itypeinfo.htm
 old-project: automat
 ms.assetid: f3356463-3373-4279-bae1-953378aa2680
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: ITypeInfo, ITypeInfo interface [Automation], ITypeInfo interface [Automation],described, _oa96_ITypeInfo_Interface, automat.itypeinfo, oaidl/ITypeInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ITTerminalSupport::CreateTerminal
 author: windows-sdk-content
 description: The CreateTerminal method creates and initializes a new ITTerminal object based on the dynamic terminal class and media. The terminal class is identified by a GUID. The GUID must be converted to a string using StringFromIID to pass to this method.
 old-location: tapi3\itterminalsupport_createterminal.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 2a2a037a-753c-4dd4-b6ce-10b69f2e2421
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: CreateTerminal, CreateTerminal method [TAPI 2.2], CreateTerminal method [TAPI 2.2],ITTerminalSupport interface, ITTerminalSupport interface [TAPI 2.2],CreateTerminal method, ITTerminalSupport.CreateTerminal, ITTerminalSupport::CreateTerminal, _tapi3_itterminalsupport_createterminal, tapi3.itterminalsupport_createterminal, tapi3if/ITTerminalSupport::CreateTerminal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -181,8 +181,8 @@ The application must use
 
 Once a terminal is created, it can be selected onto only one call.
 
-TAPI calls the <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> method on the 
-<b>ITTerminal</b> interface returned by <b>ITTerminalSupport::CreateTerminal</b>. The application must call <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
+<b>ITTerminal</b> interface returned by <b>ITTerminalSupport::CreateTerminal</b>. The application must call <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">Release</a> on the 
 <b>ITTerminal</b> interface to free resources associated with it.
 
 

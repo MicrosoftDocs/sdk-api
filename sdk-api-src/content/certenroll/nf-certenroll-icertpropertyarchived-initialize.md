@@ -4,10 +4,10 @@ title: ICertPropertyArchived::Initialize
 author: windows-sdk-content
 description: Initializes the object from a Boolean value that specifies whether the certificate has been archived.
 old-location: security\icertpropertyarchived_initialize_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 66efee4f-61af-447a-b668-81fbe2107b7f
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICertPropertyArchived interface [Security],Initialize method, ICertPropertyArchived.Initialize, ICertPropertyArchived::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyArchived interface, certenroll/ICertPropertyArchived::Initialize, security.icertpropertyarchived_initialize_method
 ms.prod: windows
 ms.technology: windows-sdk

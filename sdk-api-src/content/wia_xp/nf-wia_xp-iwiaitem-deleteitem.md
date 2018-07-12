@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaItem_DeleteItem.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\deleteitem.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: DeleteItem, DeleteItem method [WIA], DeleteItem method [WIA],IWiaItem interface, IWiaItem interface [WIA],DeleteItem method, IWiaItem.DeleteItem, IWiaItem::DeleteItem, _wia_IWiaItem_DeleteItem, wia._wia_IWiaItem_DeleteItem, wia_xp/IWiaItem::DeleteItem
 ms.prod: windows
 ms.technology: windows-sdk

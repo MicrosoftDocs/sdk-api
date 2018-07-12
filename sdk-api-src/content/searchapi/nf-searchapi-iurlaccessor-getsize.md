@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_GetSize.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsize.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetSize, GetSize method [search], GetSize method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetSize method, IUrlAccessor.GetSize, IUrlAccessor::GetSize, _search_IUrlAccessor_GetSize, search._search_IUrlAccessor_GetSize, searchapi/IUrlAccessor::GetSize
 ms.prod: windows
 ms.technology: windows-sdk

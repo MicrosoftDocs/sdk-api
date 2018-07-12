@@ -7,7 +7,7 @@ old-location: shell\IPublishedApp2_Install2.htm
 old-project: shell
 ms.assetid: ce2319d0-e4e8-49a8-9803-ef386c6969a9
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IPublishedApp2 interface [Windows Shell],Install2 method, IPublishedApp2.Install2, IPublishedApp2::Install2, Install2, Install2 method [Windows Shell], Install2 method [Windows Shell],IPublishedApp2 interface, _shell_IPublishedApp2_Install2, shappmgr/IPublishedApp2::Install2, shell.IPublishedApp2_Install2
 ms.prod: windows
 ms.technology: windows-sdk

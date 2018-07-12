@@ -7,7 +7,7 @@ old-location: wic\iwicddsdecoder_getframe.htm
 old-project: wic
 ms.assetid: 8842FD14-575B-4A81-9598-83A5A67415B7
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetFrame, GetFrame method [Windows Imaging Component], GetFrame method [Windows Imaging Component],IWICDdsDecoder interface, IWICDdsDecoder interface [Windows Imaging Component],GetFrame method, IWICDdsDecoder.GetFrame, IWICDdsDecoder::GetFrame, wic.iwicddsdecoder_getframe, wincodec/IWICDdsDecoder::GetFrame
 ms.prod: windows
 ms.technology: windows-sdk

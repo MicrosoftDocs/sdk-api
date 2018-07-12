@@ -7,7 +7,7 @@ old-location: winsock\wsapoll.htm
 old-project: WinSock
 ms.assetid: 3f6f872c-5cee-49f3-bf22-2e8a5d147987
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: WSAPoll, WSAPoll function [Winsock], mswsock/WSAPoll, winsock.wsapoll
 ms.prod: windows
 ms.technology: windows-sdk

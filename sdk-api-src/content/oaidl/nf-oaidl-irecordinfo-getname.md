@@ -7,7 +7,7 @@ old-location: automat\irecordinfo_getname.htm
 old-project: automat
 ms.assetid: b769f792-45cb-4070-9be7-0b95b17a9ed8
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: GetName, GetName method [Automation], GetName method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetName method, IRecordInfo.GetName, IRecordInfo::GetName, _oa96_IRecordInfo_GetName, automat.irecordinfo_getname, oaidl/IRecordInfo::GetName
 ms.prod: windows
 ms.technology: windows-sdk

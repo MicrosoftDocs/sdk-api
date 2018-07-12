@@ -119,7 +119,7 @@ SENS calls this method to notify an application that a computer is using battery
 
 
 
-<a href="_cos_ieventsubscription_putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
+<a href="https://msdn.microsoft.com/library/ms685465(v=VS.85).aspx">IEventSubscription::PutPublisherProperty</a>
 
 
 

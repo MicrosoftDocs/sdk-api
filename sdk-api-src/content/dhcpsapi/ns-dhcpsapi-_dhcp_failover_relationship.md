@@ -4,10 +4,10 @@ title: "_DHCP_FAILOVER_RELATIONSHIP"
 author: windows-sdk-content
 description: The DHCP_FAILOVER_RELATIONSHIP structure defines information about a DHCPv4 server failover relationship.
 old-location: dhcp\dhcp_failover_relationship.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: b409b0ff-2fdc-416c-a7ce-2cba9cf75122
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPDHCP_FAILOVER_RELATIONSHIP, DHCP_FAILOVER_RELATIONSHIP, DHCP_FAILOVER_RELATIONSHIP structure [DHCP], LPDHCP_FAILOVER_RELATIONSHIP, LPDHCP_FAILOVER_RELATIONSHIP structure pointer [DHCP], _DHCP_FAILOVER_RELATIONSHIP, dhcp.dhcp_failover_relationship, dhcpsapi/DHCP_FAILOVER_RELATIONSHIP, dhcpsapi/LPDHCP_FAILOVER_RELATIONSHIP"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ISDomainNames::Refresh
 author: windows-sdk-content
 description: Refreshes the data in the DomainNames collection.
 old-location: mscs\domainnames_refresh.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 8ba8a5ba-0cb0-461e-8a42-968600bef6f2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DomainNames collection [Failover Cluster],Refresh method, DomainNames.Refresh, ISDomainNames.Refresh, ISDomainNames::Refresh, Refresh, Refresh method [Failover Cluster], Refresh method [Failover Cluster],DomainNames collection, _wolf_domainnames.refresh, mscs.domainnames_refresh
 ms.prod: windows
 ms.technology: windows-sdk

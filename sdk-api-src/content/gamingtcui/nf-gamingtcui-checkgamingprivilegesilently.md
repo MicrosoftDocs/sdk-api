@@ -7,7 +7,7 @@ old-location: tcui\CheckGamingPrivilegeSilently.htm
 old-project: tcui
 ms.assetid: 1C67C36E-E6E8-45C8-8B89-ED7740F5827C
 ms.author: windowssdkdev
-ms.date: 03/19/2018
+ms.date: 03/20/2018
 ms.keywords: CheckGamingPrivilegeSilently, CheckGamingPrivilegeSilently function, gamingtcui/CheckGamingPrivilegeSilently, tcui.CheckGamingPrivilegeSilently
 ms.prod: windows
 ms.technology: windows-sdk

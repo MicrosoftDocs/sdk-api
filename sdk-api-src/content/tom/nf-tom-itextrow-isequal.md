@@ -4,10 +4,10 @@ title: ITextRow::IsEqual
 author: windows-sdk-content
 description: Compares two table rows to determine if they have the same properties.
 old-location: controls\itextrow_isequal.htm
-old-project: Controls
+old-project: controls
 ms.assetid: 2e516a4d-0f3b-475b-969d-661662bfaeef
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ITextRow interface [Windows Controls],IsEqual method, ITextRow.IsEqual, ITextRow::IsEqual, IsEqual, IsEqual method [Windows Controls], IsEqual method [Windows Controls],ITextRow interface, controls.itextrow_isequal, tom/ITextRow::IsEqual
 ms.prod: windows
 ms.technology: windows-sdk

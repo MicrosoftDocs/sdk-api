@@ -7,7 +7,7 @@ old-location: com\rpcolemessage.htm
 old-project: com
 ms.assetid: b4761462-1910-431c-b5cd-c14fdda0b6b6
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: "*PRPCOLEMESSAGE, PRPCOLEMESSAGE, PRPCOLEMESSAGE structure pointer [COM], RPCOLEMESSAGE, RPCOLEMESSAGE structure [COM], _com_RPCOLEMESSAGE, com.rpcolemessage, objidlbase/PRPCOLEMESSAGE, objidlbase/RPCOLEMESSAGE, tagRPCOLEMESSAGE"
 ms.prod: windows
 ms.technology: windows-sdk

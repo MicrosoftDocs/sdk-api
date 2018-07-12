@@ -4,10 +4,10 @@ title: TSPI_lineGetAddressStatus function
 author: windows-sdk-content
 description: The TSPI_lineGetAddressStatus function queries the specified address for its current status.
 old-location: tspi\tspi_linegetaddressstatus.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: e3afd959-a0cb-4f0a-a700-d50cf7a4c386
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: TSPI_lineGetAddressStatus, TSPI_lineGetAddressStatus function [TAPI 2.2], _tspi_tspi_linegetaddressstatus, tspi.tspi_linegetaddressstatus, tspi/TSPI_lineGetAddressStatus
 ms.prod: windows
 ms.technology: windows-sdk

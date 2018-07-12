@@ -7,7 +7,7 @@ old-location: shell\IFolderBandPriv_SetNoText.htm
 old-project: shell
 ms.assetid: 49a0e5ae-68ce-488c-a1a0-bd9df5458143
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IFolderBandPriv interface [Windows Shell],SetNoText method, IFolderBandPriv.SetNoText, IFolderBandPriv::SetNoText, SetNoText, SetNoText method [Windows Shell], SetNoText method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetNoText, shell.IFolderBandPriv_SetNoText, shobjidl/IFolderBandPriv::SetNoText
 ms.prod: windows
 ms.technology: windows-sdk

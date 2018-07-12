@@ -7,7 +7,7 @@ old-location: wmdm\iwmdevicemanager2.htm
 old-project: WMDM
 ms.assetid: ea4bf623-c93a-4c0f-a84f-e3a979b37d60
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IWMDeviceManager2, IWMDeviceManager2 interface [windows Media Device Manager], IWMDeviceManager2 interface [windows Media Device Manager],described, IWMDeviceManager2Interface, mswmdm/IWMDeviceManager2, wmdm.iwmdevicemanager2
 ms.prod: windows
 ms.technology: windows-sdk

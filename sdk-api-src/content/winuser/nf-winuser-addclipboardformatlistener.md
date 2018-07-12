@@ -7,7 +7,7 @@ old-location: dataxchg\addclipboardformatlistener.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\addclipboardformatlistener.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: AddClipboardFormatListener, AddClipboardFormatListener function [Data Exchange], _win32_AddClipboardFormatListener, _win32_addclipboardformatlistener_cpp, dataxchg.addclipboardformatlistener, winui._win32_addclipboardformatlistener, winuser/AddClipboardFormatListener
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

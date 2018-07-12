@@ -4,10 +4,10 @@ title: IEnumNetSharingPortMapping::Skip
 author: windows-sdk-content
 description: The Skip method skips the specified number of port mappings for this enumeration.
 old-location: ics\ienumnetsharingportmapping_skip.htm
-old-project: ICS
+old-project: ics
 ms.assetid: b041a1fd-fe33-4519-8ac2-106903c5892f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IEnumNetSharingPortMapping interface [ICS/ICF],Skip method, IEnumNetSharingPortMapping.Skip, IEnumNetSharingPortMapping::Skip, Skip, Skip method [ICS/ICF], Skip method [ICS/ICF],IEnumNetSharingPortMapping interface, _ics_ienumnetsharingportmapping_skip, ics.ienumnetsharingportmapping_skip, netcon/IEnumNetSharingPortMapping::Skip
 ms.prod: windows
 ms.technology: windows-sdk

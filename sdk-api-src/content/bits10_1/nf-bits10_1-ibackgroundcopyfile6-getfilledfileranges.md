@@ -4,10 +4,10 @@ title: IBackgroundCopyFile6::GetFilledFileRanges
 author: windows-sdk-content
 description: Returns the set of file ranges that have been downloaded.
 old-location: bits\ibackgroundcopyfile6_getfilledfileranges.htm
-old-project: Bits
+old-project: bits
 ms.assetid: D3549C42-6642-4C3C-9D97-6F2F9732C48E
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetFilledFileRanges, GetFilledFileRanges method [BITS], GetFilledFileRanges method [BITS],IBackgroundCopyFile6 interface, IBackgroundCopyFile6 interface [BITS],GetFilledFileRanges method, IBackgroundCopyFile6.GetFilledFileRanges, IBackgroundCopyFile6::GetFilledFileRanges, bits.ibackgroundcopyfile6_getfilledfileranges, bits10_1/IBackgroundCopyFile6::GetFilledFileRanges
 ms.prod: windows
 ms.technology: windows-sdk

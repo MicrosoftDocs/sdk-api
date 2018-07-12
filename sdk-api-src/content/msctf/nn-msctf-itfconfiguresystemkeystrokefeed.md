@@ -7,7 +7,7 @@ old-location: tsf\itfconfiguresystemkeystrokefeed.htm
 old-project: TSF
 ms.assetid: 9b15d628-87aa-4e20-b9c3-fb29a79683cb
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfConfigureSystemKeystrokeFeed, ITfConfigureSystemKeystrokeFeed interface [Text Services Framework], ITfConfigureSystemKeystrokeFeed interface [Text Services Framework],described, _tsf_itfconfiguresystemkeystrokefeed_ref, msctf/ITfConfigureSystemKeystrokeFeed, tsf.itfconfiguresystemkeystrokefeed
 ms.prod: windows
 ms.technology: windows-sdk

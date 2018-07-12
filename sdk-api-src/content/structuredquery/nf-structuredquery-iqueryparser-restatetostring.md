@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParser_RestateToString.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\restatetostring.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IQueryParser interface [search],RestateToString method, IQueryParser.RestateToString, IQueryParser::RestateToString, RestateToString, RestateToString method [search], RestateToString method [search],IQueryParser interface, _search_IQueryParser_RestateToString, search._search_IQueryParser_RestateToString, structuredquery/IQueryParser::RestateToString
 ms.prod: windows
 ms.technology: windows-sdk

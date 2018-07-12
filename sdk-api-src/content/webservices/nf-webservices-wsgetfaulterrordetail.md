@@ -7,7 +7,7 @@ old-location: wsw\wsgetfaulterrordetail.htm
 old-project: wsw
 ms.assetid: 426c292f-64a5-411f-a63e-6be05fe93438
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsGetFaultErrorDetail, WsGetFaultErrorDetail function [Web Services for Windows], webservices/WsGetFaultErrorDetail, wsw.wsgetfaulterrordetail
 ms.prod: windows
 ms.technology: windows-sdk

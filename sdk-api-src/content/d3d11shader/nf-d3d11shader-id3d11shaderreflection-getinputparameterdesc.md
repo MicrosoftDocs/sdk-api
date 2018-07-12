@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflection_getinputparameterdesc.htm
 old-project: direct3d11
 ms.assetid: 6483634d-6050-4218-98ee-a7062efcbe64
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: 06783a52-4fd2-1c86-8b0d-40efb3e6ac1e, GetInputParameterDesc, GetInputParameterDesc method [Direct3D 11], GetInputParameterDesc method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetInputParameterDesc method, ID3D11ShaderReflection.GetInputParameterDesc, ID3D11ShaderReflection::GetInputParameterDesc, d3d11shader/ID3D11ShaderReflection::GetInputParameterDesc, direct3d11.id3d11shaderreflection_getinputparameterdesc
 ms.prod: windows
 ms.technology: windows-sdk

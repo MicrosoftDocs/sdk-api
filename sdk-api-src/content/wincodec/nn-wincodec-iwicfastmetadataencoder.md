@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicfastmetadataencoder.htm
 old-project: wic
 ms.assetid: c7b57a71-f1fe-4e30-a52e-72ab6ce021f7
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICFastMetadataEncoder, IWICFastMetadataEncoder interface [Windows Imaging Component], IWICFastMetadataEncoder interface [Windows Imaging Component],described, _wic_codec_iwicfastmetadataencoder, wic._wic_codec_iwicfastmetadataencoder, wincodec/IWICFastMetadataEncoder
 ms.prod: windows
 ms.technology: windows-sdk

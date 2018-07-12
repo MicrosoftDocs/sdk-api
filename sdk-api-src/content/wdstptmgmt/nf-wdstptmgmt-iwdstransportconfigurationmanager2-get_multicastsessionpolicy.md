@@ -4,10 +4,10 @@ title: IWdsTransportConfigurationManager2::get_MulticastSessionPolicy
 author: windows-sdk-content
 description: Receives an interface pointer to the Configuration Manager’s Multicast Session Policy object. This object can be used to configure multicast session parameters that are available beginning with Windows Server 2008 R2.
 old-location: wds\iwdstransportconfigurationmanager2_multicastsessionpolicy.htm
-old-project: Wds
+old-project: wds
 ms.assetid: dab676ff-9dc2-4d54-841e-7fb7d13002d2
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: IWdsTransportConfigurationManager2 interface [Windows Deployment Services],MulticastSessionPolicy property, IWdsTransportConfigurationManager2.MulticastSessionPolicy, IWdsTransportConfigurationManager2.get_MulticastSessionPolicy, IWdsTransportConfigurationManager2::MulticastSessionPolicy, IWdsTransportConfigurationManager2::get_MulticastSessionPolicy, MulticastSessionPolicy property [Windows Deployment Services], MulticastSessionPolicy property [Windows Deployment Services],IWdsTransportConfigurationManager2 interface, get_MulticastSessionPolicy, wds.iwdstransportconfigurationmanager2_multicastsessionpolicy, wdstptmgmt/IWdsTransportConfigurationManager2::MulticastSessionPolicy, wdstptmgmt/IWdsTransportConfigurationManager2::get_MulticastSessionPolicy
 ms.prod: windows
 ms.technology: windows-sdk

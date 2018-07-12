@@ -4,10 +4,10 @@ title: ISClusNode::Pause
 author: windows-sdk-content
 description: Suspends the cluster activity of a node.
 old-location: mscs\clusnode_pause.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 2fd16dda-b554-47fa-a040-15c7685d6392
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNode object [Failover Cluster],Pause method, ClusNode.Pause, ISClusNode.Pause, ISClusNode::Pause, Pause, Pause method [Failover Cluster], Pause method [Failover Cluster],ClusNode object, _wolf_clusnode.pause, mscs.clusnode_pause
 ms.prod: windows
 ms.technology: windows-sdk

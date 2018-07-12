@@ -7,7 +7,7 @@ old-location: gdi\excludeupdatergn.htm
 old-project: gdi
 ms.assetid: 408fda82-30c3-4eb4-be42-3085c71ba99e
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: ExcludeUpdateRgn, ExcludeUpdateRgn function [Windows GDI], _win32_ExcludeUpdateRgn, gdi.excludeupdatergn, winuser/ExcludeUpdateRgn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

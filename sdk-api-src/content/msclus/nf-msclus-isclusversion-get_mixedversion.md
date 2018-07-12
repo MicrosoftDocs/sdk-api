@@ -4,10 +4,10 @@ title: ISClusVersion::get_MixedVersion
 author: windows-sdk-content
 description: Indicates whether more than one version of the Cluster service is present in the cluster, a state described as mixed mode.
 old-location: mscs\clusversion_mixedversion.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 20edafc7-5ff7-4a9a-b492-6e9230883643
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusVersion object [Failover Cluster],MixedVersion property, ClusVersion.MixedVersion, ISClusVersion.get_MixedVersion, ISClusVersion::get_MixedVersion, MixedVersion property [Failover Cluster], MixedVersion property [Failover Cluster],ClusVersion object, _wolf_clusversion.mixedversion, get_MixedVersion, mscs.clusversion_mixedversion
 ms.prod: windows
 ms.technology: windows-sdk

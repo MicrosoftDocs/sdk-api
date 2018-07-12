@@ -7,7 +7,7 @@ old-location: menurc\deletemenu.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\deletemenu.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: DeleteMenu, DeleteMenu function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, _win32_DeleteMenu, _win32_deletemenu_cpp, menurc.deletemenu, winui._win32_deletemenu, winuser/DeleteMenu
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

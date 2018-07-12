@@ -4,10 +4,10 @@ title: ITTAPI::SetApplicationPriority
 author: windows-sdk-content
 description: The SetApplicationPriority method allows an application to set its priority in the handoff priority list for a particular media type or Assisted Telephony request mode, or to remove itself from the priority list.
 old-location: tapi3\ittapi_setapplicationpriority.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: ca049695-02d0-4b30-ad1f-60cdbf0a4dbd
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],SetApplicationPriority method, ITTAPI.SetApplicationPriority, ITTAPI::SetApplicationPriority, SetApplicationPriority, SetApplicationPriority method [TAPI 2.2], SetApplicationPriority method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_setapplicationpriority, tapi3.ittapi_setapplicationpriority, tapi3if/ITTAPI::SetApplicationPriority
 ms.prod: windows
 ms.technology: windows-sdk

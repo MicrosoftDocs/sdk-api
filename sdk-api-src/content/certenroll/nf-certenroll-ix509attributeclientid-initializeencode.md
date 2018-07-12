@@ -4,10 +4,10 @@ title: IX509AttributeClientId::InitializeEncode
 author: windows-sdk-content
 description: Initializes the attribute from information about the user, client computer, and application that submitted the certificate request.
 old-location: security\ix509attributeclientid_initializeencode_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 6a0e5b6f-0522-4c60-9ea1-7a5c2722cebd
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509AttributeClientId interface [Security],InitializeEncode method, IX509AttributeClientId.InitializeEncode, IX509AttributeClientId::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeClientId interface, certenroll/IX509AttributeClientId::InitializeEncode, security.ix509attributeclientid_initializeencode_method
 ms.prod: windows
 ms.technology: windows-sdk

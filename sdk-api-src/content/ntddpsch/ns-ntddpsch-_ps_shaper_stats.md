@@ -4,10 +4,10 @@ title: "_PS_SHAPER_STATS"
 author: windows-sdk-content
 description: The PS_SHAPER_STATS structure provides statistical packet shaper information about the computer's packet shaper component. Note that the PS_SHAPER_STATS structure is used in conjunction with the PS_COMPONENT_STATS structure.
 old-location: qos\ps_shaper_stats.htm
-old-project: QOS
+old-project: qos
 ms.assetid: fd2ef45d-154a-47b0-ba40-a823f9dd6dce
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: "*PPS_SHAPER_STATS, PPS_SHAPER_STATS, PPS_SHAPER_STATS structure pointer [QOS], PS_SHAPER_STATS, PS_SHAPER_STATS structure [QOS], _PS_SHAPER_STATS, _gqos_ps_shaper_stats, ntddpsch/PPS_SHAPER_STATS, ntddpsch/PS_SHAPER_STATS, qos.ps_shaper_stats"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DRMDeleteLicense function
 author: windows-sdk-content
 description: Deletes a license, client licensor certificate, revocation list, or issuance license template.
 old-location: rm\drmdeletelicense.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: 596f9959-0beb-4051-87c4-b8704abd8fc0
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMDeleteLicense, DRMDeleteLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDeleteLicense, rm.drmdeletelicense
 ms.prod: windows
 ms.technology: windows-sdk

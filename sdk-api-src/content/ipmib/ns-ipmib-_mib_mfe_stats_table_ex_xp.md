@@ -4,10 +4,10 @@ title: "_MIB_MFE_STATS_TABLE_EX_XP"
 author: windows-sdk-content
 description: Contains a table of extended statistics for Multicast Forwarding Entries (MFEs).
 old-location: mib\mib_mfe_stats_table_ex.htm
-old-project: MIB
+old-project: mib
 ms.assetid: a13fbca9-b09e-458f-84e5-c8bb6d9fbd19
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 05/15/2018
 ms.keywords: "*PMIB_MFE_STATS_TABLE_EX, *PMIB_MFE_STATS_TABLE_EX_XP, MIB_MFE_STATS_TABLE_EX, MIB_MFE_STATS_TABLE_EX structure [MIB], MIB_MFE_STATS_TABLE_EX_XP, PMIB_MFE_STATS_TABLE_EX, PMIB_MFE_STATS_TABLE_EX structure pointer [MIB], _MIB_MFE_STATS_TABLE_EX_XP, ipmib/MIB_MFE_STATS_TABLE_EX, ipmib/PMIB_MFE_STATS_TABLE_EX, iprtrmib/MIB_MFE_STATS_TABLE_EX, iprtrmib/PMIB_MFE_STATS_TABLE_EX, mib.mib_mfe_stats_table_ex"
 ms.prod: windows
 ms.technology: windows-sdk

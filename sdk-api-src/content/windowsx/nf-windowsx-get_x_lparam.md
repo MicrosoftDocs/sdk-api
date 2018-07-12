@@ -7,7 +7,7 @@ old-location: winmsg\get_x_lparam.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\get_x_lparam.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: GET_X_LPARAM, GET_X_LPARAM macro [Windows and Messages], _win32_GET_X_LPARAM, _win32_get_x_lparam_cpp, windowsx/GET_X_LPARAM, winmsg.get_x_lparam, winui._win32_get_x_lparam
 ms.prod: windows
 ms.technology: windows-sdk

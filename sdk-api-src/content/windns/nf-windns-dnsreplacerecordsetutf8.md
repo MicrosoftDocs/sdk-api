@@ -4,10 +4,10 @@ title: DnsReplaceRecordSetUTF8 function
 author: windows-sdk-content
 description: Replaces an existing resource record (RR) set.
 old-location: dns\dnsreplacerecordset.htm
-old-project: DNS
+old-project: dns
 ms.assetid: 7b99f440-72fa-4cf4-9267-98f436e99a50
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: DnsReplaceRecordSet, DnsReplaceRecordSet function [DNS], DnsReplaceRecordSetA, DnsReplaceRecordSetUTF8, DnsReplaceRecordSetW, _dns_dnsreplacerecordset, dns.dnsreplacerecordset, windns/DnsReplaceRecordSet, windns/DnsReplaceRecordSetA, windns/DnsReplaceRecordSetUTF8, windns/DnsReplaceRecordSetW
 ms.prod: windows
 ms.technology: windows-sdk

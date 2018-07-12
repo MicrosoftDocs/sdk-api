@@ -7,7 +7,7 @@ old-location: winsock\getservbyport_2.htm
 old-project: WinSock
 ms.assetid: afd63c2d-4f77-49df-aeff-bfe56598fcbf
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: "_win32_getservbyport_2, getservbyport, getservbyport function [Winsock], winsock.getservbyport_2, winsock/getservbyport"
 ms.prod: windows
 ms.technology: windows-sdk

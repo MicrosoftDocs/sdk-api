@@ -7,7 +7,7 @@ old-location: tsf\itfcategorymgr_enumcategoriesinitem.htm
 old-project: TSF
 ms.assetid: 271e5fbe-54e2-47e3-97d4-cd4211b92080
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: EnumCategoriesInItem, EnumCategoriesInItem method [Text Services Framework], EnumCategoriesInItem method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],EnumCategoriesInItem method, ITfCategoryMgr.EnumCategoriesInItem, ITfCategoryMgr::EnumCategoriesInItem, _tsf_itfcategorymgr_enumcategoriesinitem_ref, msctf/ITfCategoryMgr::EnumCategoriesInItem, tsf.itfcategorymgr_enumcategoriesinitem
 ms.prod: windows
 ms.technology: windows-sdk

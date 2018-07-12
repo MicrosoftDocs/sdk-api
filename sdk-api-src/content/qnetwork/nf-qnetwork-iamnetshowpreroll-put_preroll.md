@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowpreroll_put_preroll.htm
 old-project: DirectShow
 ms.assetid: 3296f0ab-2be8-4693-99bd-5dae0672df26
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IAMNetShowPreroll interface [DirectShow],put_Preroll method, IAMNetShowPreroll.put_Preroll, IAMNetShowPreroll::put_Preroll, IAMNetShowPrerollput_Preroll, dshow.iamnetshowpreroll_put_preroll, put_Preroll, put_Preroll method [DirectShow], put_Preroll method [DirectShow],IAMNetShowPreroll interface, qnetwork/IAMNetShowPreroll::put_Preroll
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DhcpServerGetConfigVQ function
 author: windows-sdk-content
 description: Retrieves the current DHCP server configuration settings.
 old-location: dhcp\dhcpservergetconfigvq.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 77726631-2be0-4ec0-a50f-786e4f3b460a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DhcpServerGetConfigVQ, DhcpServerGetConfigVQ function [DHCP], dhcp.dhcpservergetconfigvq, dhcpsapi/DhcpServerGetConfigVQ
 ms.prod: windows
 ms.technology: windows-sdk

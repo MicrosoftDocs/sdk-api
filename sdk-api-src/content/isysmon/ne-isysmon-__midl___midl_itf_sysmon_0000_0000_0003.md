@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_sysmon_0000_0000_0003"
 author: windows-sdk-content
 description: Defines the reason for locking the System Monitor.
 old-location: sysmon\sysmonbatchreason.htm
-old-project: SysMon
+old-project: sysmon
 ms.assetid: f8dac303-105a-4d83-a92c-7d2002d7e4a3
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: SysmonBatchAddCounters, SysmonBatchAddFiles, SysmonBatchNone, SysmonBatchReason, SysmonBatchReason enumeration [SysMon], __MIDL___MIDL_itf_sysmon_0000_0000_0003, isysmon/SysmonBatchAddCounters, isysmon/SysmonBatchAddFiles, isysmon/SysmonBatchNone, isysmon/SysmonBatchReason, sysmon.sysmonbatchreason
 ms.prod: windows
 ms.technology: windows-sdk

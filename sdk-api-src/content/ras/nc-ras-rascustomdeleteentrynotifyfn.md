@@ -4,10 +4,10 @@ title: RasCustomDeleteEntryNotifyFn
 author: windows-sdk-content
 description: The RasCustomDeleteEntryNotify function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom dialogs for managing phone-book entries.
 old-location: rras\rascustomdeleteentrynotify.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: bbdaff05-ec86-461a-b466-8f69cb9cba5a
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RCD_AllUsers, RCD_Eap, RCD_Logon, RCD_SingleUser, RasCustomDeleteEntryNotify, RasCustomDeleteEntryNotify callback function [RAS], RasCustomDeleteEntryNotifyFn, RasCustomDeleteEntryNotifyFn callback, _ras_rascustomdeleteentrynotify, ras/RasCustomDeleteEntryNotify, rras.rascustomdeleteentrynotify
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsync\isyncproviderregistration_getsyncproviderstate.htm
 old-project: winsync
 ms.assetid: 4e2e2e17-e435-4def-9aee-9109e0e06a8c
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetSyncProviderState, GetSyncProviderState method [Windows Sync], GetSyncProviderState method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetSyncProviderState method, ISyncProviderRegistration.GetSyncProviderState, ISyncProviderRegistration::GetSyncProviderState, syncregistration/ISyncProviderRegistration::GetSyncProviderState, winsync.isyncproviderregistration_getsyncproviderstate
 ms.prod: windows
 ms.technology: windows-sdk

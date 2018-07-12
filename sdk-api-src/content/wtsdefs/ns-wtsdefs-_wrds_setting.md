@@ -7,7 +7,7 @@ old-location: termserv\wrds_setting.htm
 old-project: TermServ
 ms.assetid: F87368C8-FE18-424D-8D53-0E45E6AC5D6C
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: "*PWRDS_SETTING, PWRDS_SETTING, PWRDS_SETTING union pointer [Remote Desktop Services], WRDS_SETTING, WRDS_SETTING union [Remote Desktop Services], _WRDS_SETTING, termserv.wrds_setting, wtsdefs/PWRDS_SETTING, wtsdefs/WRDS_SETTING"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: buses\ioctl_genericusbfn_deactivate_usb_bus.htm
 old-project: usbref
 ms.assetid: 07F56732-590F-42B8-9939-5E02ED2A3EF0
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 05/08/2018
 ms.keywords: IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS, IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS control, IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS control code [Buses], buses.ioctl_genericusbfn_deactivate_usb_bus, genericusbfnioctl/IOCTL_GENERICUSBFN_DEACTIVATE_USB_BUS
 ms.prod: windows
 ms.technology: windows-sdk

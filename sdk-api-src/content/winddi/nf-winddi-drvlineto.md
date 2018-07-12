@@ -7,7 +7,7 @@ old-location: display\drvlineto.htm
 old-project: display
 ms.assetid: e1e5dd93-444d-4176-9f7f-8aa220cddf78
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: DrvLineTo, DrvLineTo function [Display Devices], ddifncs_85694fcd-95b7-4b3e-8f00-bec09b3d9a32.xml, display.drvlineto, winddi/DrvLineTo
 ms.prod: windows
 ms.technology: windows-sdk

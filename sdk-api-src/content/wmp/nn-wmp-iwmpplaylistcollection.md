@@ -7,7 +7,7 @@ old-location: wmp\iwmpplaylistcollection.htm
 old-project: WMP
 ms.assetid: b6861651-f0c3-4b99-8c81-a8a8f8b47692
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPPlaylistCollection, IWMPPlaylistCollection interface [Windows Media Player], IWMPPlaylistCollection interface [Windows Media Player],described, IWMPPlaylistCollectionInterface, wmp.iwmpplaylistcollection, wmp/IWMPPlaylistCollection
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ClusterRegCreateReadBatch function
 author: windows-sdk-content
 description: Creates a handle to the read batch that executes read commands on the cluster registry key.
 old-location: mscs\clusterregcreatereadbatch.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: FED3986E-7383-46C4-B2D5-259812EF63A2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusterRegCreateReadBatch, ClusterRegCreateReadBatch function [Failover Cluster], clusapi/ClusterRegCreateReadBatch, mscs.clusterregcreatereadbatch
 ms.prod: windows
 ms.technology: windows-sdk

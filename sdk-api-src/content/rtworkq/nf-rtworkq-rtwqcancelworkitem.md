@@ -7,7 +7,7 @@ old-location: base\rtwqcancelworkitem.htm
 old-project: ProcThread
 ms.assetid: 55d5c6d6-310e-4f73-bbf4-9ac47a3ed295
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: RtwqCancelWorkItem, RtwqCancelWorkItem function, base.rtwqcancelworkitem, rtworkq/RtwqCancelWorkItem
 ms.prod: windows
 ms.technology: windows-sdk

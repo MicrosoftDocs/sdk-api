@@ -7,7 +7,7 @@ old-location: shell\IExplorerBrowserEvents.htm
 old-project: shell
 ms.assetid: 802d547f-41c2-4c4a-9f07-be615d7b86eb
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IExplorerBrowserEvents, IExplorerBrowserEvents interface [Windows Shell], IExplorerBrowserEvents interface [Windows Shell],described, _shell_IExplorerBrowserEvents, shell.IExplorerBrowserEvents, shobjidl_core/IExplorerBrowserEvents
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IVdsVolumePlex::QueryExtents
 author: windows-sdk-content
 description: Returns all extents for the current plex.
 old-location: base\ivdsvolumeplex_queryextents.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 09548bcc-29b9-498f-a4c0-99428f26343a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsVolumePlex interface [VDS],QueryExtents method, IVdsVolumePlex.QueryExtents, IVdsVolumePlex::QueryExtents, QueryExtents, QueryExtents method [VDS], QueryExtents method [VDS],IVdsVolumePlex interface, base.ivdsvolumeplex_queryextents, vds/IVdsVolumePlex::QueryExtents
 ms.prod: windows
 ms.technology: windows-sdk

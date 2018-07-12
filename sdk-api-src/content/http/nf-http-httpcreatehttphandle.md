@@ -4,10 +4,10 @@ title: HttpCreateHttpHandle function
 author: windows-sdk-content
 description: Creates an HTTP request queue for the calling application and returns a handle to it.
 old-location: http\httpcreatehttphandle.htm
-old-project: Http
+old-project: http
 ms.assetid: c3741092-c23a-465f-9a65-5bcbf977fad3
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 04/13/2018
 ms.keywords: HttpCreateHttpHandle, HttpCreateHttpHandle function [HTTP], _http_httpcreatehttphandle, http.httpcreatehttphandle, http/HttpCreateHttpHandle
 ms.prod: windows
 ms.technology: windows-sdk

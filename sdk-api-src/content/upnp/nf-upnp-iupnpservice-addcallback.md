@@ -4,10 +4,10 @@ title: IUPnPService::AddCallback
 author: windows-sdk-content
 description: The AddCallback method registers an application's callback with the UPnP framework.
 old-location: upnp\iupnpservice_addcallback.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: f5797907-ae65-48e6-adf8-b717bfb5101f
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 04/26/2018
 ms.keywords: AddCallback, AddCallback method [UPnP APIs], AddCallback method [UPnP APIs],IUPnPService interface, IUPnPService interface [UPnP APIs],AddCallback method, IUPnPService.AddCallback, IUPnPService::AddCallback, _upnp_iupnpservice_addcallback, upnp.iupnpservice_addcallback, upnp/IUPnPService::AddCallback
 ms.prod: windows
 ms.technology: windows-sdk

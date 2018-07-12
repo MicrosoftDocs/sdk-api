@@ -4,10 +4,10 @@ title: WriteTapemark function
 author: windows-sdk-content
 description: Writes a specified number of filemarks, setmarks, short filemarks, or long filemarks to a tape device.
 old-location: backup\writetapemark.htm
-old-project: Backup
+old-project: backup
 ms.assetid: 74effd3b-693d-4808-9d80-6c70e2aef7fb
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: TAPE_FILEMARKS, TAPE_LONG_FILEMARKS, TAPE_SETMARKS, TAPE_SHORT_FILEMARKS, WriteTapemark, WriteTapemark function [Backup], _win32_writetapemark, backup.writetapemark, base.writetapemark, winbase/WriteTapemark
 ms.prod: windows
 ms.technology: windows-sdk

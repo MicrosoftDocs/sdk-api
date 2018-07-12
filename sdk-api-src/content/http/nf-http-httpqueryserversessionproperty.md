@@ -4,10 +4,10 @@ title: HttpQueryServerSessionProperty function
 author: windows-sdk-content
 description: Queries a server property on the specified server session.
 old-location: http\httpqueryserversessionproperty.htm
-old-project: Http
+old-project: http
 ms.assetid: 653b286b-dc86-4896-8f03-1628b7178680
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 04/13/2018
 ms.keywords: HttpQueryServerSessionProperty, HttpQueryServerSessionProperty function [HTTP], HttpServerAuthenticationProperty, HttpServerChannelBindProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, http.httpqueryserversessionproperty, http/HttpQueryServerSessionProperty
 ms.prod: windows
 ms.technology: windows-sdk

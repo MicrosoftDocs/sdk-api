@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatahandlerinfo.htm
 old-project: wic
 ms.assetid: 505105c2-de50-4b5f-9089-e9a3cea2f464
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICMetadataHandlerInfo, IWICMetadataHandlerInfo interface [Windows Imaging Component], IWICMetadataHandlerInfo interface [Windows Imaging Component],described, _wic_codec_iwicmetadatahandlerinfo, wic._wic_codec_iwicmetadatahandlerinfo, wincodecsdk/IWICMetadataHandlerInfo
 ms.prod: windows
 ms.technology: windows-sdk

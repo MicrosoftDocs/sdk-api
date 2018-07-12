@@ -4,10 +4,10 @@ title: Pager_GetBkColor macro
 author: windows-sdk-content
 description: Retrieves the current background color for the pager control. You can use this macro or send the PGM_GETBKCOLOR message explicitly.
 old-location: controls\Pager_GetBkColor.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getbkcolor.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: Pager_GetBkColor, Pager_GetBkColor macro [Windows Controls], _win32_Pager_GetBkColor, _win32_Pager_GetBkColor_cpp, commctrl/Pager_GetBkColor, controls.Pager_GetBkColor, controls._win32_Pager_GetBkColor
 ms.prod: windows
 ms.technology: windows-sdk

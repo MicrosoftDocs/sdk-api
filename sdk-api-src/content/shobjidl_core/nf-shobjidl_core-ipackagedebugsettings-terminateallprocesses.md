@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_TerminateAllProcesses.htm
 old-project: shell
 ms.assetid: e49faeaa-8fd8-4233-94ac-0899177a9bb3
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],TerminateAllProcesses method, IPackageDebugSettings.TerminateAllProcesses, IPackageDebugSettings::TerminateAllProcesses, TerminateAllProcesses, TerminateAllProcesses method [Windows Shell], TerminateAllProcesses method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_TerminateAllProcesses, shobjidl_core/IPackageDebugSettings::TerminateAllProcesses
 ms.prod: windows
 ms.technology: windows-sdk

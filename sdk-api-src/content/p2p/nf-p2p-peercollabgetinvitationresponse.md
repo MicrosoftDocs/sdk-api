@@ -4,10 +4,10 @@ title: PeerCollabGetInvitationResponse function
 author: windows-sdk-content
 description: Obtains the response from a peer previously invited to join a peer collaboration activity.
 old-location: p2p\peercollabgetinvitationresponse.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: f9471e51-5eec-4927-bd12-7d362f5101ee
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerCollabGetInvitationResponse, PeerCollabGetInvitationResponse function [Peer Networking], p2p.peercollabgetinvitationresponse, p2p/PeerCollabGetInvitationResponse
 ms.prod: windows
 ms.technology: windows-sdk

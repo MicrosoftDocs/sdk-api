@@ -7,7 +7,7 @@ old-location: security\sspipromptforcredentials.htm
 old-project: SecAuthN
 ms.assetid: 2af2ac00-0e91-4384-9ffa-3e100df218c1
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: SSPIPFC_CREDPROV_DO_NOT_SAVE, SSPIPFC_NO_CHECKBOX, SspiPromptForCredentials, SspiPromptForCredentials function [Security], SspiPromptForCredentialsA, SspiPromptForCredentialsW, security.sspipromptforcredentials, sspi/SspiPromptForCredentials, sspi/SspiPromptForCredentialsA, sspi/SspiPromptForCredentialsW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_DHCP_SERVER_CONFIG_INFO_V6"
 author: windows-sdk-content
 description: Contains the settings for the DHCPv6 server.
 old-location: dhcp\dhcp_server_config_info_v6.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 9862f0c1-3c42-4ad7-af3c-15868e4a9314
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPDHCP_SERVER_CONFIG_INFO_V6, DHCP_SERVER_CONFIG_INFO_V6, DHCP_SERVER_CONFIG_INFO_V6 structure [DHCP], PDHCP_SERVER_CONFIG_INFO_V6, PDHCP_SERVER_CONFIG_INFO_V6 structure pointer [DHCP], _DHCP_SERVER_CONFIG_INFO_V6, dhcp.dhcp_server_config_info_v6, dhcpsapi/DHCP_SERVER_CONFIG_INFO_V6, dhcpsapi/PDHCP_SERVER_CONFIG_INFO_V6"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfvideosampleallocator_setdirectxmanager.htm
 old-project: medfound
 ms.assetid: bad810c9-f5b1-42dc-9c7a-3306f3de2846
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFVideoSampleAllocator interface [Media Foundation],SetDirectXManager method, IMFVideoSampleAllocator.SetDirectXManager, IMFVideoSampleAllocator::SetDirectXManager, SetDirectXManager, SetDirectXManager method [Media Foundation], SetDirectXManager method [Media Foundation],IMFVideoSampleAllocator interface, bad810c9-f5b1-42dc-9c7a-3306f3de2846, mf.imfvideosampleallocator_setdirectxmanager, mfidl/IMFVideoSampleAllocator::SetDirectXManager
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclient_isformatsupported.htm
 old-project: CoreAudio
 ms.assetid: 92d1fc93-08e2-46d9-bd2f-ce1b2087d2d1
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: IAudioClient interface [Core Audio],IsFormatSupported method, IAudioClient.IsFormatSupported, IAudioClient::IsFormatSupported, IAudioClientIsFormatSupported, IsFormatSupported, IsFormatSupported method [Core Audio], IsFormatSupported method [Core Audio],IAudioClient interface, audioclient/IAudioClient::IsFormatSupported, coreaudio.iaudioclient_isformatsupported
 ms.prod: windows
 ms.technology: windows-sdk

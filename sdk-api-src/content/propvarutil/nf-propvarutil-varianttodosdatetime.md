@@ -7,7 +7,7 @@ old-location: properties\VariantToDosDateTime.htm
 old-project: properties
 ms.assetid: ebbba4d9-8e97-422d-b52f-67c417f295cc
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: VariantToDosDateTime, VariantToDosDateTime function [Windows Properties], _shell_VariantToDosDateTime, properties.VariantToDosDateTime, propvarutil/VariantToDosDateTime, shell.VariantToDosDateTime
 ms.prod: windows
 ms.technology: windows-sdk

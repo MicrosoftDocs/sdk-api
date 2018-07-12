@@ -4,10 +4,10 @@ title: IWindowsDriverUpdate2
 author: windows-sdk-content
 description: Contains the properties and methods that are available only from a Windows driver update.
 old-location: wua\iwindowsdriverupdate2.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 9a2d6318-c5f0-41bc-a4df-bb9a53c9dee4
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: IWindowsDriverUpdate2, IWindowsDriverUpdate2 interface [Windows Update Agent], IWindowsDriverUpdate2 interface [Windows Update Agent],described, wua.iwindowsdriverupdate2, wuapi/IWindowsDriverUpdate2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -142,7 +142,7 @@ Gets a Boolean value that indicates whether the computer must be restarted after
 
 
 
-This interface can be obtained by calling <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> method on an <a href="https://msdn.microsoft.com/d0feee2a-96f6-4c86-aaf8-f49d05616fc9">IUpdate</a> interface only if the interface represents a Windows Driver update.
+This interface can be obtained by calling <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> method on an <a href="https://msdn.microsoft.com/d0feee2a-96f6-4c86-aaf8-f49d05616fc9">IUpdate</a> interface only if the interface represents a Windows Driver update.
 
 
 

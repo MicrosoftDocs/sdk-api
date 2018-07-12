@@ -4,10 +4,10 @@ title: "_IP_UNIDIRECTIONAL_ADAPTER_ADDRESS"
 author: windows-sdk-content
 description: The IP_UNIDIRECTIONAL_ADAPTER_ADDRESS structure stores the IPv4 addresses associated with a unidirectional adapter.
 old-location: iphlp\ip_unidirectional_adapter_address.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 225b93ae-e34f-4e5b-a699-1fdd342265c6
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: "*PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS, IP_UNIDIRECTIONAL_ADAPTER_ADDRESS, IP_UNIDIRECTIONAL_ADAPTER_ADDRESS structure [IP Helper], PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS, PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS structure pointer [IP Helper], _IP_UNIDIRECTIONAL_ADAPTER_ADDRESS, _iphlp_ip_unidirectional_adapter_address, ipexport/IP_UNIDIRECTIONAL_ADAPTER_ADDRESS, ipexport/PIP_UNIDIRECTIONAL_ADAPTER_ADDRESS, iphlp.ip_unidirectional_adapter_address"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dxmath\xmcomparisonalltrue.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMComparisonAllTrue(uint32_t)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 06/14/2018
 ms.keywords: Use DirectX..XMComparisonAllTrue, XMComparisonAllTrue, XMComparisonAllTrue method [DirectX Math Support APIs], dxmath.xmcomparisonalltrue
 ms.prod: windows
 ms.technology: windows-sdk

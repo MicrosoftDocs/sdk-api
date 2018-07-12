@@ -4,10 +4,10 @@ title: WdsCliAuthorizeSession function
 author: windows-sdk-content
 description: Converts a session with a WDS server into an authenticated session.
 old-location: wds\wdscliauthorizesession.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 88e95fa8-1a83-4ef9-b486-c8086cb08116
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: WdsCliAuthorizeSession, WdsCliAuthorizeSession function [Windows Deployment Services], wds.wdscliauthorizesession, wdsclientapi/WdsCliAuthorizeSession
 ms.prod: windows
 ms.technology: windows-sdk

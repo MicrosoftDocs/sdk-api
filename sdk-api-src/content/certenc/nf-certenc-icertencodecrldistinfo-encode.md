@@ -4,10 +4,10 @@ title: ICertEncodeCRLDistInfo::Encode
 author: windows-sdk-content
 description: Performs Abstract Syntax Notation One (ASN.1) encoding on a certificate revocation list (CRL) distribution information array stored in the COM object and returns the ASN.1-encoded extension.
 old-location: security\icertencodecrldistinfo_encode.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 46520e3a-1f15-4d1c-9f44-b9b420fb4f25
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeCRLDistInfo object, Encode method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],Encode method, ICertEncodeCRLDistInfo.Encode, ICertEncodeCRLDistInfo::Encode, _certsrv_icertencodecrldistinfo_encode, certenc/ICertEncodeCRLDistInfo::Encode, security.icertencodecrldistinfo_encode
 ms.prod: windows
 ms.technology: windows-sdk

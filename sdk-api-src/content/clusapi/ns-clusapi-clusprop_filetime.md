@@ -4,10 +4,10 @@ title: CLUSPROP_FILETIME
 author: windows-sdk-content
 description: Describes a date and time stamp for a file.
 old-location: mscs\clusprop_filetime.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 2c88e9db-f218-4b88-9bb0-607fd09e8d0b
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: "*PCLUSPROP_FILETIME, CLUSPROP_FILETIME, CLUSPROP_FILETIME structure [Failover Cluster], PCLUSPROP_FILETIME, PCLUSPROP_FILETIME structure pointer [Failover Cluster], clusapi/CLUSPROP_FILETIME, clusapi/PCLUSPROP_FILETIME, mscs.clusprop_filetime"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptedpackagewriter.htm
 old-project: appxpkg
 ms.assetid: 19096DFB-A8CF-4DEF-863B-3DBB9E893A8D
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: IAppxEncryptedPackageWriter, IAppxEncryptedPackageWriter interface [App packaging and management], IAppxEncryptedPackageWriter interface [App packaging and management],described, appxpackaging/IAppxEncryptedPackageWriter, appxpkg.iappxencryptedpackagewriter
 ms.prod: windows
 ms.technology: windows-sdk

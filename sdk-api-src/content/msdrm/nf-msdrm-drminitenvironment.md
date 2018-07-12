@@ -4,10 +4,10 @@ title: DRMInitEnvironment function
 author: windows-sdk-content
 description: Creates a secure environment for all rights management calls.
 old-location: rm\drminitenvironment.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: b46277f4-e854-4590-847a-cf4f878bee70
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMInitEnvironment, DRMInitEnvironment function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMInitEnvironment, rm.drminitenvironment
 ms.prod: windows
 ms.technology: windows-sdk

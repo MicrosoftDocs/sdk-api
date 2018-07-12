@@ -4,10 +4,10 @@ title: SnmpEncodeMsg function
 author: windows-sdk-content
 description: The Microsoft WinSNMP implementation uses the parameters passed in the WinSNMP SnmpEncodeMsg function to encode an SNMP message.
 old-location: snmp\snmpencodemsg.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 0c8ebf49-b59e-4483-a7cf-456794e24bd6
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SnmpEncodeMsg, SnmpEncodeMsg function [SNMP], _snmp_snmpencodemsg, snmp.snmpencodemsg, winsnmp/SnmpEncodeMsg
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISelectionProvider.htm
 old-project: WinAuto
 ms.assetid: e02731f8-e58d-4c66-95bf-005cf954471c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: ISelectionProvider, ISelectionProvider interface [Windows Accessibility], ISelectionProvider interface [Windows Accessibility],described, uiauto.uiauto_ISelectionProvider, uiauto_ISelectionProvider, uiautomationcore/ISelectionProvider, winauto.uiauto_ISelectionProvider
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IWSManSession
 author: windows-sdk-content
 description: Defines operations and session settings.
 old-location: winrm\iwsmansession.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: 3e016080-339f-4bda-bfd2-f912e090981f
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IWSManSession, IWSManSession interface [Windows Remote Management], IWSManSession interface [Windows Remote Management],described, winrm.iwsmansession, wsmandisp/IWSManSession
 ms.prod: windows
 ms.technology: windows-sdk

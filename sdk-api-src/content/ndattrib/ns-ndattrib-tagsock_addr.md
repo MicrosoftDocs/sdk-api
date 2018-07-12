@@ -4,10 +4,10 @@ title: tagSOCK_ADDR
 author: windows-sdk-content
 description: Stores an Internet Protocol (IP) address for a computer that is participating in a Windows Sockets communication.
 old-location: ndf\diag_sockaddr.htm
-old-project: NDF
+old-project: ndf
 ms.assetid: 31da9541-e7d0-4cbc-9d9d-3bcf71acb975
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: "*PDIAG_SOCK_ADDR, DIAG_SOCKADDR, DIAG_SOCKADDR structure [NDF], PDIAG_SOCKADDR, PDIAG_SOCKADDR structure pointer [NDF], ndattrib/DIAG_SOCKADDR, ndattrib/PDIAG_SOCKADDR, ndf.diag_sockaddr, tagSOCK_ADDR"
 ms.prod: windows
 ms.technology: windows-sdk

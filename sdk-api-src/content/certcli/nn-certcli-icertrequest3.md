@@ -4,10 +4,10 @@ title: ICertRequest3
 author: windows-sdk-content
 description: Provide communications between a client or intermediary application and Certificate Services.
 old-location: security\icertrequest3.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 01de2ac0-4844-41a6-acef-e3e83b350393
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: ICertRequest3, ICertRequest3 interface [Security], ICertRequest3 interface [Security],described, certcli/ICertRequest3, security.icertrequest3
 ms.prod: windows
 ms.technology: windows-sdk

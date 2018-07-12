@@ -4,10 +4,10 @@ title: WinBioGetEnrolledFactors function
 author: windows-sdk-content
 description: Gets information about the biometric enrollments that the specified user has on the computer.
 old-location: secbiomet\winbiogetenrolledfactors.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 25DCB7FC-6971-4EFD-A686-E994F4345D2B
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: WinBioGetEnrolledFactors, WinBioGetEnrolledFactors function [Windows Biometric Framework API], secbiomet.winbiogetenrolledfactors, winbio/WinBioGetEnrolledFactors
 ms.prod: windows
 ms.technology: windows-sdk

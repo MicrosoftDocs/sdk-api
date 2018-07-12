@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicrawparameterset.htm
 old-project: wic
 ms.assetid: 0c39b769-9523-42ce-942f-761e6d39ec5b
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: WICAsShotParameterSet, WICAutoAdjustedParameterSet, WICRawParameterSet, WICRawParameterSet enumeration [Windows Imaging Component], WICUserAdjustedParameterSet, _wic_codec_wicrawparameterset, wic._wic_codec_wicrawparameterset, wincodec/WICAsShotParameterSet, wincodec/WICAutoAdjustedParameterSet, wincodec/WICRawParameterSet, wincodec/WICUserAdjustedParameterSet
 ms.prod: windows
 ms.technology: windows-sdk

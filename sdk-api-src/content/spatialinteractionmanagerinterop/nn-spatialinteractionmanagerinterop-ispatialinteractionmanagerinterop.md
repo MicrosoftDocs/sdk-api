@@ -7,7 +7,7 @@ old-location: mixedreality\ispatialinteractionmanagerinterop.htm
 old-project: MixedReality
 ms.assetid: A6ED74DB-D56A-4133-877C-A98BCBE34F7D
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: ISpatialInteractionManagerInterop, ISpatialInteractionManagerInterop interface, ISpatialInteractionManagerInterop interface,described, MixedReality.ispatialinteractionmanagerinterop, spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop
 ms.prod: windows
 ms.technology: windows-sdk

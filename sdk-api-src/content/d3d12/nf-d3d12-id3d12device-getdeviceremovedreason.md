@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_getdeviceremovedreason.htm
 old-project: direct3d12
 ms.assetid: DA723656-BE64-474E-833B-D97576DE0449
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: GetDeviceRemovedReason, GetDeviceRemovedReason method, GetDeviceRemovedReason method,ID3D12Device interface, ID3D12Device interface,GetDeviceRemovedReason method, ID3D12Device.GetDeviceRemovedReason, ID3D12Device::GetDeviceRemovedReason, d3d12/ID3D12Device::GetDeviceRemovedReason, direct3d12.id3d12device_getdeviceremovedreason
 ms.prod: windows
 ms.technology: windows-sdk

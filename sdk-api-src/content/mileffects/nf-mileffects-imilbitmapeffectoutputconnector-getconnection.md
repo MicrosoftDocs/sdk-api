@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectoutputconnector_getconnection.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnector\getconnection.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: GetConnection, GetConnection method [WPF Bitmap Effects], GetConnection method [WPF Bitmap Effects],IMILBitmapEffectOutputConnector interface, IMILBitmapEffectOutputConnector interface [WPF Bitmap Effects],GetConnection method, IMILBitmapEffectOutputConnector.GetConnection, IMILBitmapEffectOutputConnector::GetConnection, _wibe_imilbitmapeffectoutputconnector_getconnection, mileffects/IMILBitmapEffectOutputConnector::GetConnection, wibe._wibe_imilbitmapeffectoutputconnector_getconnection
 ms.prod: windows
 ms.technology: windows-sdk

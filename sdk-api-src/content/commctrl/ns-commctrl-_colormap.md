@@ -4,10 +4,10 @@ title: "_COLORMAP"
 author: windows-sdk-content
 description: Contains information used by the CreateMappedBitmap function to map the colors of the bitmap.
 old-location: controls\COLORMAP.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\colormap.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPCOLORMAP, COLORMAP, COLORMAP structure [Windows Controls], LPCOLORMAP, LPCOLORMAP structure pointer [Windows Controls], _COLORMAP, _win32_COLORMAP, _win32_COLORMAP_cpp, commctrl/COLORMAP, commctrl/LPCOLORMAP, controls.COLORMAP, controls._win32_COLORMAP"
 ms.prod: windows
 ms.technology: windows-sdk

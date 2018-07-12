@@ -7,7 +7,7 @@ old-location: automat\icreatetypeinfo2.htm
 old-project: automat
 ms.assetid: 34dc6f52-6864-4edb-b22d-80eef05d4c8c
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: ICreateTypeInfo2, ICreateTypeInfo2 interface [Automation], ICreateTypeInfo2 interface [Automation],described, _oa96_ICreateTypeInfo2_Interface, automat.icreatetypeinfo2, oaidl/ICreateTypeInfo2
 ms.prod: windows
 ms.technology: windows-sdk

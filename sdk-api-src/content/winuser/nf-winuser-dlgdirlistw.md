@@ -4,10 +4,10 @@ title: DlgDirListW function
 author: windows-sdk-content
 description: Replaces the contents of a list box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list can optionally include mapped drives.
 old-location: controls\DlgDirList.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\dlgdirlist.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: DDL_ARCHIVE, DDL_DIRECTORY, DDL_DRIVES, DDL_EXCLUSIVE, DDL_HIDDEN, DDL_POSTMSGS, DDL_READONLY, DDL_READWRITE, DDL_SYSTEM, DlgDirList, DlgDirList function [Windows Controls], DlgDirListA, DlgDirListW, _win32_DlgDirList, _win32_DlgDirList_cpp, controls.DlgDirList, controls._win32_DlgDirList, winuser/DlgDirList, winuser/DlgDirListA, winuser/DlgDirListW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

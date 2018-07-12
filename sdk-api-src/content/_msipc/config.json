@@ -5,6 +5,5 @@
     "ipcfile.h",
     "ipcerror.h",
     "ipcbase.h"
-  ],
-  "displayName": "Rights Management SDK 2.1"
+  ]
 }

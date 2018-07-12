@@ -4,10 +4,10 @@ title: IGPMStarterGPOCollection::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an enumerator for the collection.
 old-location: gpmc\igpmstartergpocollection_get__newenum.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: 0e0e6360-46a9-49ff-9eb9-0ea708258ebb
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: IGPMStarterGPOCollection interface [GPMC],get__NewEnum method, IGPMStarterGPOCollection.get__NewEnum, IGPMStarterGPOCollection::get__NewEnum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMStarterGPOCollection interface, gpmc.igpmstartergpocollection_get__newenum, gpmgmt/IGPMStarterGPOCollection::get__NewEnum
 ms.prod: windows
 ms.technology: windows-sdk

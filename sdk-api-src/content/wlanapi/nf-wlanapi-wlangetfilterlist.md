@@ -7,7 +7,7 @@ old-location: nwifi\wlangetfilterlist.htm
 old-project: NativeWiFi
 ms.assetid: 3ea88e52-34bb-47a6-b345-c789d1d8047d
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: WlanGetFilterList, WlanGetFilterList function [NativeWIFI], nwifi.wlangetfilterlist, wlanapi/WlanGetFilterList
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ListView_GetItemSpacing macro
 author: windows-sdk-content
 description: Determines the spacing between items in a list-view control. You can use this macro or send the LVM_GETITEMSPACING message explicitly.
 old-location: controls\ListView_GetItemSpacing.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemspacing.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListView_GetItemSpacing, ListView_GetItemSpacing macro [Windows Controls], _win32_ListView_GetItemSpacing, _win32_ListView_GetItemSpacing_cpp, commctrl/ListView_GetItemSpacing, controls.ListView_GetItemSpacing, controls._win32_ListView_GetItemSpacing
 ms.prod: windows
 ms.technology: windows-sdk

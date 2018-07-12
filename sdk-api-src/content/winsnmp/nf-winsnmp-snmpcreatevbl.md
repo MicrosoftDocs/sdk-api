@@ -4,10 +4,10 @@ title: SnmpCreateVbl function
 author: windows-sdk-content
 description: The WinSNMP SnmpCreateVbl function creates a new variable bindings list for the calling WinSNMP application.
 old-location: snmp\snmpcreatevbl.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 5e973b32-3e7e-41f7-9257-4ac3d67fd853
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SnmpCreateVbl, SnmpCreateVbl function [SNMP], _snmp_snmpcreatevbl, snmp.snmpcreatevbl, winsnmp/SnmpCreateVbl
 ms.prod: windows
 ms.technology: windows-sdk

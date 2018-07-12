@@ -4,10 +4,10 @@ title: ISClusResource::Fail
 author: windows-sdk-content
 description: Initiates failure of the resource.
 old-location: mscs\clusresource_fail.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: c184a7f3-b09a-4349-a940-20d622f729a6
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResource class [Failover Cluster],Fail method, ClusResource.Fail, Fail, Fail method [Failover Cluster], Fail method [Failover Cluster],ClusResource class, ISClusResource.Fail, ISClusResource::Fail, _wolf_clusresource.fail, mscs.clusresource_fail
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_CONTROL_UNIT_PRIVILEGED_FN
 author: windows-sdk-content
 description: Performs a vendor-defined control operation that requires elevated privilege.
 old-location: secbiomet\engineadaptercontrolunitprivileged.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 1d1fda45-3822-40c0-ac84-0fcdef1a6498
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: EngineAdapterControlUnitPrivileged, EngineAdapterControlUnitPrivileged callback function [Windows Biometric Framework API], PIBIO_ENGINE_CONTROL_UNIT_PRIVILEGED_FN, PIBIO_ENGINE_CONTROL_UNIT_PRIVILEGED_FN callback, secbiomet.engineadaptercontrolunitprivileged, winbio_adapter/EngineAdapterControlUnitPrivileged
 ms.prod: windows
 ms.technology: windows-sdk

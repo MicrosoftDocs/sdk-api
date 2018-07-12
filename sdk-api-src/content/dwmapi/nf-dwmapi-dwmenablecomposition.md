@@ -7,7 +7,7 @@ old-location: dwm\dwmenablecomposition.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmenablecomposition.htm
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: DwmEnableComposition, DwmEnableComposition function [Desktop Window Manager], _udwm_dwmenablecomposition, _udwm_dwmenablecomposition_cpp, dwm.dwmenablecomposition, dwmapi/DwmEnableComposition, winui._udwm_dwmenablecomposition
 ms.prod: windows
 ms.technology: windows-sdk

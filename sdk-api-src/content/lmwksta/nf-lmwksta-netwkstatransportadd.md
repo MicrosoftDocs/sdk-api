@@ -4,10 +4,10 @@ title: NetWkstaTransportAdd function
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netwkstatransportadd.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: 016060ea-eae1-421f-b708-5c2ddd2000c1
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: 0, NetWkstaTransportAdd, NetWkstaTransportAdd function [Network Management], _win32_netwkstatransportadd, lmwksta/NetWkstaTransportAdd, netmgmt.netwkstatransportadd
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: RpcSsFree function
 author: windows-sdk-content
 description: The RpcSsFree function releases memory allocated by RpcSsAllocate.
 old-location: rpc\rpcssfree.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: f004ea19-3d1c-485f-99be-da59cbe478d2
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RpcSsFree, RpcSsFree function [RPC], _rpc_rpcssfree, rpc.rpcssfree, rpcndr/RpcSsFree
 ms.prod: windows
 ms.technology: windows-sdk

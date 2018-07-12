@@ -7,7 +7,7 @@ old-location: properties\IPropertyStoreFactory.htm
 old-project: properties
 ms.assetid: 78ea822d-da8e-4883-b0eb-4277e7eb87a2
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: IPropertyStoreFactory, IPropertyStoreFactory interface [Windows Properties], IPropertyStoreFactory interface [Windows Properties],described, _shell_IPropertyStoreFactory, properties.IPropertyStoreFactory, propsys/IPropertyStoreFactory, shell.IPropertyStoreFactory
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: display\dxsetstate.htm
 old-project: display
 ms.assetid: f2d7f248-017e-4375-b0a0-49de65192511
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: DxSetState, DxSetState callback function [Display Devices], PDX_SETSTATE, PDX_SETSTATE callback, VideoMiniPort_DxApiFunctions_f9872ae5-7be7-4a13-bcb1-01353b3eb793.xml, display.dxsetstate, dxmini/DxSetState
 ms.prod: windows
 ms.technology: windows-sdk

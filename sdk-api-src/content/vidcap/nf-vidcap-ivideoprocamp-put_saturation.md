@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_put_saturation.htm
 old-project: DirectShow
 ms.assetid: 7167fcac-b0c8-444e-a6a9-7ff9a603cc58
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Saturation method, IVideoProcAmp.put_Saturation, IVideoProcAmp::put_Saturation, IVideoProcAmpput_Saturation, dshow.ivideoprocamp_put_saturation, put_Saturation, put_Saturation method [DirectShow], put_Saturation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Saturation
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: menurc\wvsprintf.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\wvsprintf.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: "_win32_wvsprintf, _win32_wvsprintf_cpp, menurc.wvsprintf, winui._win32_wvsprintf, winuser/wvsprintf, winuser/wvsprintfA, winuser/wvsprintfW, wvsprintf, wvsprintf function [Menus and Other Resources], wvsprintfA, wvsprintfW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

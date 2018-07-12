@@ -4,10 +4,10 @@ title: ICertPropertyDescription::Initialize
 author: windows-sdk-content
 description: Initializes the object from a string that contains descriptive information about the certificate.
 old-location: security\icertpropertydescription_initialize_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 17e8ee9c-c861-4437-a70d-ccad6a5a293d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICertPropertyDescription interface [Security],Initialize method, ICertPropertyDescription.Initialize, ICertPropertyDescription::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyDescription interface, certenroll/ICertPropertyDescription::Initialize, security.icertpropertydescription_initialize_method
 ms.prod: windows
 ms.technology: windows-sdk

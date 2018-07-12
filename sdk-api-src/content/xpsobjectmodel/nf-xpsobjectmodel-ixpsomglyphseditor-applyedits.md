@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphseditor_applyedits.htm
 old-project: printdocs
 ms.assetid: ddbd8dc4-5d4f-4b30-8943-f4a5bc8e64c2
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: ApplyEdits, ApplyEdits method [XPS Documents and Packaging], ApplyEdits method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],ApplyEdits method, IXpsOMGlyphsEditor.ApplyEdits, IXpsOMGlyphsEditor::ApplyEdits, xps.ixpsomglyphseditor_applyedits, xpsobjectmodel/IXpsOMGlyphsEditor::ApplyEdits
 ms.prod: windows
 ms.technology: windows-sdk

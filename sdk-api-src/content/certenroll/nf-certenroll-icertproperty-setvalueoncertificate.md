@@ -4,10 +4,10 @@ title: ICertProperty::SetValueOnCertificate
 author: windows-sdk-content
 description: Associates a property value with an existing certificate.
 old-location: security\icertproperty_setvalueoncertificate_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 46c409c4-46bd-4349-8363-1983f4411bc2
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICertProperty interface [Security],SetValueOnCertificate method, ICertProperty.SetValueOnCertificate, ICertProperty::SetValueOnCertificate, SetValueOnCertificate, SetValueOnCertificate method [Security], SetValueOnCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::SetValueOnCertificate, security.icertproperty_setvalueoncertificate_method
 ms.prod: windows
 ms.technology: windows-sdk

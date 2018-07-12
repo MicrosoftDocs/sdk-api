@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WriteInt.htm
 old-project: properties
 ms.assetid: 1FCC59B1-5084-4981-8F1D-A5860744F221
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PSPropertyBag_WriteInt, PSPropertyBag_WriteInt function [Windows Properties], properties.PSPropertyBag_WriteInt, propsys/PSPropertyBag_WriteInt, shell.PSPropertyBag_WriteInt, shell_PSPropertyBag_WriteInt
 ms.prod: windows
 ms.technology: windows-sdk

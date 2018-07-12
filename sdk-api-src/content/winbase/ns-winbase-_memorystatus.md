@@ -4,10 +4,10 @@ title: "_MEMORYSTATUS"
 author: windows-sdk-content
 description: Contains information about the current state of both physical and virtual memory.
 old-location: base\memorystatus_str.htm
-old-project: Memory
+old-project: memory
 ms.assetid: 7815ec8f-cacf-4c1b-b5f7-5bb3ef8d759c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: "*LPMEMORYSTATUS, LPMEMORYSTATUS, LPMEMORYSTATUS structure pointer, MEMORYSTATUS, MEMORYSTATUS structure, _MEMORYSTATUS, _win32_memorystatus_str, base.memorystatus_str, winbase/LPMEMORYSTATUS, winbase/_MEMORYSTATUS"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ITextPara::GetLineSpacingRule
 author: windows-sdk-content
 description: Retrieves the line-spacing rule for the text range.
 old-location: controls\ITextPara_GetLineSpacingRule.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlinespacingrule.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: GetLineSpacingRule, GetLineSpacingRule method [Windows Controls], GetLineSpacingRule method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetLineSpacingRule method, ITextPara.GetLineSpacingRule, ITextPara::GetLineSpacingRule, _win32_ITextPara_GetLineSpacingRule, _win32_ITextPara_GetLineSpacingRule_cpp, controls.ITextPara_GetLineSpacingRule, controls._win32_ITextPara_GetLineSpacingRule, tom/ITextPara::GetLineSpacingRule, tomLineSpace1pt5, tomLineSpaceAtLeast, tomLineSpaceDouble, tomLineSpaceExactly, tomLineSpaceMultiple, tomLineSpacePercent, tomLineSpaceSingle
 ms.prod: windows
 ms.technology: windows-sdk

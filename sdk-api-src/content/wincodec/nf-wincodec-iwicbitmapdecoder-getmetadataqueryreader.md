@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapdecoder_getmetadataqueryreader.htm
 old-project: wic
 ms.assetid: 353ce6d8-ef33-44b6-ab8a-7c5903a024f6
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetMetadataQueryReader, GetMetadataQueryReader method [Windows Imaging Component], GetMetadataQueryReader method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetMetadataQueryReader method, IWICBitmapDecoder.GetMetadataQueryReader, IWICBitmapDecoder::GetMetadataQueryReader, _wic_codec_iwicbitmapdecoder_getmetadataqueryreader, wic._wic_codec_iwicbitmapdecoder_getmetadataqueryreader, wincodec/IWICBitmapDecoder::GetMetadataQueryReader
 ms.prod: windows
 ms.technology: windows-sdk

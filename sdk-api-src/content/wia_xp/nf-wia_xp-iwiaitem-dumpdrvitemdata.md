@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaItem_DumpDrvItemData.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\dumpdrvitemdata.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: DumpDrvItemData, DumpDrvItemData method [WIA], DumpDrvItemData method [WIA],IWiaItem interface, IWiaItem interface [WIA],DumpDrvItemData method, IWiaItem.DumpDrvItemData, IWiaItem::DumpDrvItemData, _wia_IWiaItem_DumpDrvItemData, wia._wia_IWiaItem_DumpDrvItemData, wia_xp/IWiaItem::DumpDrvItemData
 ms.prod: windows
 ms.technology: windows-sdk

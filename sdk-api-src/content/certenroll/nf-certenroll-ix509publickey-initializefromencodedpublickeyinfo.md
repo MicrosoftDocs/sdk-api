@@ -4,10 +4,10 @@ title: IX509PublicKey::InitializeFromEncodedPublicKeyInfo
 author: windows-sdk-content
 description: Initializes the object from a byte array that contains a public key.
 old-location: security\ix509publickey_initializefromencodedpublickeyinfo_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 3e92d934-1ab7-4f09-a579-0dde4ef44c7f
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509PublicKey interface [Security],InitializeFromEncodedPublicKeyInfo method, IX509PublicKey.InitializeFromEncodedPublicKeyInfo, IX509PublicKey::InitializeFromEncodedPublicKeyInfo, InitializeFromEncodedPublicKeyInfo, InitializeFromEncodedPublicKeyInfo method [Security], InitializeFromEncodedPublicKeyInfo method [Security],IX509PublicKey interface, certenroll/IX509PublicKey::InitializeFromEncodedPublicKeyInfo, security.ix509publickey_initializefromencodedpublickeyinfo_method
 ms.prod: windows
 ms.technology: windows-sdk

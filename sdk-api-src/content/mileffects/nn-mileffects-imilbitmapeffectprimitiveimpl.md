@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectprimitiveimpl.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitiveimpl\imilbitmapeffectprimitiveimpl.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: IMILBitmapEffectPrimitiveImpl, IMILBitmapEffectPrimitiveImpl interface [WPF Bitmap Effects], IMILBitmapEffectPrimitiveImpl interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectprimitiveimpl, mileffects/IMILBitmapEffectPrimitiveImpl, wibe._wibe_imilbitmapeffectprimitiveimpl
 ms.prod: windows
 ms.technology: windows-sdk

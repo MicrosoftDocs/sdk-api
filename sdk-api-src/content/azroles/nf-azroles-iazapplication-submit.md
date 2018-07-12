@@ -4,10 +4,10 @@ title: IAzApplication::Submit
 author: windows-sdk-content
 description: Persists changes made to the IAzApplication object.
 old-location: security\iazapplication_submit.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: d00d55a1-884f-46c2-b80b-f90ce8f5c648
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: AzApplication object [Security],Submit method, IAzApplication interface [Security],Submit method, IAzApplication.Submit, IAzApplication::Submit, Submit, Submit method [Security], Submit method [Security],AzApplication object, Submit method [Security],IAzApplication interface, azroles/IAzApplication::Submit, security.iazapplication_submit
 ms.prod: windows
 ms.technology: windows-sdk

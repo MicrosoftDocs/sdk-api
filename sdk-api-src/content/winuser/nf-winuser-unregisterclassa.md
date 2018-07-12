@@ -7,7 +7,7 @@ old-location: winmsg\unregisterclass.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\unregisterclass.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: UnregisterClass, UnregisterClass function [Windows and Messages], UnregisterClassA, UnregisterClassW, _win32_UnregisterClass, _win32_unregisterclass_cpp, winmsg.unregisterclass, winui._win32_unregisterclass, winuser/UnregisterClass, winuser/UnregisterClassA, winuser/UnregisterClassW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

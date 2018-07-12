@@ -2,6 +2,5 @@
   "tech": "iscsitarg",
   "headers": [
     "sdoias.h"
-  ],
-  "displayName": "iSCSI Target Server Provider"
+  ]
 }

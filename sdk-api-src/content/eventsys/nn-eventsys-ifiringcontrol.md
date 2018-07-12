@@ -7,7 +7,7 @@ old-location: cos\ifiringcontrol.htm
 old-project: cossdk
 ms.assetid: 1db216b8-f334-4fa2-81db-0f6c1646b320
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: IFiringControl, IFiringControl interface [COM+], IFiringControl interface [COM+],described, _cos_IFiringControl, cos.ifiringcontrol, eventsys/IFiringControl
 ms.prod: windows
 ms.technology: windows-sdk

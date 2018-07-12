@@ -4,10 +4,10 @@ title: ISClusPropertyValueData
 author: windows-sdk-content
 description: All of the data values associated with a property value.
 old-location: mscs\cluspropertyvaluedata_collection.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: d95a90f6-2a70-428b-aff3-3be9e9e66071
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusPropertyValueData, ClusPropertyValueData collection [Failover Cluster], ClusPropertyValueData collection [Failover Cluster],described, ISClusPropertyValueData, _wolf_cluspropertyvaluedata_collection, msclus/ClusPropertyValueData, mscs.cluspropertyvaluedata_collection
 ms.prod: windows
 ms.technology: windows-sdk

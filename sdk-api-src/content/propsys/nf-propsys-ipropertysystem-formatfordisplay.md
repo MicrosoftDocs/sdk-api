@@ -7,7 +7,7 @@ old-location: properties\IPropertySystem_FormatForDisplay.htm
 old-project: properties
 ms.assetid: 674b1651-6354-4995-abeb-271df3748e1b
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: FormatForDisplay, FormatForDisplay method [Windows Properties], FormatForDisplay method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],FormatForDisplay method, IPropertySystem.FormatForDisplay, IPropertySystem::FormatForDisplay, properties.IPropertySystem_FormatForDisplay, propsys/IPropertySystem::FormatForDisplay, shell.IPropertySystem_FormatForDisplay, shell_IPropertySystem_FormatForDisplay
 ms.prod: windows
 ms.technology: windows-sdk

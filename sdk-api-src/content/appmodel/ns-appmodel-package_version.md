@@ -7,7 +7,7 @@ old-location: appxpkg\package_version.htm
 old-project: appxpkg
 ms.assetid: 8543DF84-A908-4DF5-AEE6-169FECB2AA97
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: PACKAGE_VERSION, PACKAGE_VERSION structure [App packaging and management], appmodel/PACKAGE_VERSION, appxpkg.package_version
 ms.prod: windows
 ms.technology: windows-sdk

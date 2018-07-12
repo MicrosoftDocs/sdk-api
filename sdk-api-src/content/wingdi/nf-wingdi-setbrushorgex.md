@@ -7,7 +7,7 @@ old-location: gdi\setbrushorgex.htm
 old-project: gdi
 ms.assetid: dcc7575a-49fd-4306-8baa-57e9e0d5ed1f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: SetBrushOrgEx, SetBrushOrgEx function [Windows GDI], _win32_SetBrushOrgEx, gdi.setbrushorgex, wingdi/SetBrushOrgEx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfstreamsink_getmediasink.htm
 old-project: medfound
 ms.assetid: 799fb0ce-6a43-49c2-97cf-49c51d8f69cd
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 799fb0ce-6a43-49c2-97cf-49c51d8f69cd, GetMediaSink, GetMediaSink method [Media Foundation], GetMediaSink method [Media Foundation],IMFStreamSink interface, IMFStreamSink interface [Media Foundation],GetMediaSink method, IMFStreamSink.GetMediaSink, IMFStreamSink::GetMediaSink, mf.imfstreamsink_getmediasink, mfidl/IMFStreamSink::GetMediaSink
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: intl\immreleasecontext.htm
 old-project: Intl
 ms.assetid: e14b087a-58ef-4360-9368-3fdd088c14f6
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/28/2018
 ms.keywords: ImmReleaseContext, ImmReleaseContext function [Internationalization for Windows Applications], _win32_ImmReleaseContext, imm/ImmReleaseContext, intl.immreleasecontext
 ms.prod: windows
 ms.technology: windows-sdk

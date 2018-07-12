@@ -7,7 +7,7 @@ old-location: wsw\ws_service_property_close_callback.htm
 old-project: wsw
 ms.assetid: 3806c87d-6abe-4dee-90cf-0a6d26826189
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_SERVICE_PROPERTY_CLOSE_CALLBACK, WS_SERVICE_PROPERTY_CLOSE_CALLBACK structure [Web Services for Windows], _WS_SERVICE_PROPERTY_CLOSE_CALLBACK, webservices/WS_SERVICE_PROPERTY_CLOSE_CALLBACK, wsw.ws_service_property_close_callback
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wia\_wia_WIA_DITHER_PATTERN_DATA.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_dither_pattern_data.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: "*PWIA_DITHER_PATTERN_DATA, PWIA_DITHER_PATTERN_DATA, PWIA_DITHER_PATTERN_DATA structure pointer [WIA], WIA_DITHER_PATTERN_DATA, WIA_DITHER_PATTERN_DATA structure [WIA], _WIA_DITHER_PATTERN_DATA, _wia_WIA_DITHER_PATTERN_DATA, wia._wia_WIA_DITHER_PATTERN_DATA, wia_xp/PWIA_DITHER_PATTERN_DATA, wia_xp/WIA_DITHER_PATTERN_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

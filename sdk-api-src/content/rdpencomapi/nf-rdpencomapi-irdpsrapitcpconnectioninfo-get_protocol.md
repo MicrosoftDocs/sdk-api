@@ -4,10 +4,10 @@ title: IRDPSRAPITcpConnectionInfo::get_Protocol
 author: windows-sdk-content
 description: Retrieves the protocol that is being used by the sharer or by the viewer for communication.
 old-location: rdp\irdpsrapitcpconnectioninfo_protocol.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: 1ca6d2db-bbd9-4332-bee6-7454a4c3cbea
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 03/29/2018
 ms.keywords: IRDPSRAPITcpConnectionInfo interface [RDP],Protocol property, IRDPSRAPITcpConnectionInfo.Protocol, IRDPSRAPITcpConnectionInfo.get_Protocol, IRDPSRAPITcpConnectionInfo::Protocol, IRDPSRAPITcpConnectionInfo::get_Protocol, Protocol property [RDP], Protocol property [RDP],IRDPSRAPITcpConnectionInfo interface, Protocol property [RDP],RDPSRAPITcpConnectionInfo object, RDPSRAPITcpConnectionInfo object [RDP],Protocol property, get_Protocol, rdp.irdpsrapitcpconnectioninfo_protocol, rdpencomapi/IRDPSRAPITcpConnectionInfo::Protocol, rdpencomapi/IRDPSRAPITcpConnectionInfo::get_Protocol
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsock\wpuclosesockethandle_2.htm
 old-project: WinSock
 ms.assetid: c125b763-6c5a-4a83-ba34-79e898fdc9fe
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: WPUCloseSocketHandle, WPUCloseSocketHandle function [Winsock], _win32_wpuclosesockethandle_2, winsock.wpuclosesockethandle_2, ws2spi/WPUCloseSocketHandle
 ms.prod: windows
 ms.technology: windows-sdk

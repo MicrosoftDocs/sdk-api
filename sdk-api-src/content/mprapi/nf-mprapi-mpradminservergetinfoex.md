@@ -4,10 +4,10 @@ title: MprAdminServerGetInfoEx function
 author: windows-sdk-content
 description: The MprAdminServerGetInfoEx function retrieves port information about the specified RRAS server.
 old-location: rras\mpradminservergetinfoex.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 19fff58d-6e13-478f-a960-de5d0702661c
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprAdminServerGetInfoEx, MprAdminServerGetInfoEx function [RAS], mprapi/MprAdminServerGetInfoEx, rras.mpradminservergetinfoex
 ms.prod: windows
 ms.technology: windows-sdk

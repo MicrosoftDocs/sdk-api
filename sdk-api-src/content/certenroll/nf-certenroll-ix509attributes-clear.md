@@ -4,10 +4,10 @@ title: IX509Attributes::Clear
 author: windows-sdk-content
 description: Removes all IX509Attribute objects from the collection.
 old-location: security\ix509attributes_clear_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: f7d4e443-4022-4a62-b3a0-88a813a4b778
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509Attributes interface, IX509Attributes interface [Security],Clear method, IX509Attributes.Clear, IX509Attributes::Clear, certenroll/IX509Attributes::Clear, security.ix509attributes_clear_method
 ms.prod: windows
 ms.technology: windows-sdk

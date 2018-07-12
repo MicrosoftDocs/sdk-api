@@ -4,10 +4,10 @@ title: ITDirectory::EnumerateDirectoryObjects
 author: windows-sdk-content
 description: The EnumerateDirectoryObjects method creates an enumeration of directory objects of a given type and name.
 old-location: tapi3\itdirectory_enumeratedirectoryobjects.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 4d7e0fd5-b85b-41e0-9603-132243a9a265
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: EnumerateDirectoryObjects, EnumerateDirectoryObjects method [TAPI 2.2], EnumerateDirectoryObjects method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],EnumerateDirectoryObjects method, ITDirectory.EnumerateDirectoryObjects, ITDirectory::EnumerateDirectoryObjects, _tapi3_itdirectory_enumeratedirectoryobjects, rend/ITDirectory::EnumerateDirectoryObjects, tapi3.itdirectory_enumeratedirectoryobjects
 ms.prod: windows
 ms.technology: windows-sdk

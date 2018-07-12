@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmlogger_isenabled.htm
 old-project: WMDM
 ms.assetid: 10bf20bd-7457-4d37-82b5-7d761b4371c5
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],IsEnabled method, IWMDMLogger.IsEnabled, IWMDMLogger::IsEnabled, IWMDMLoggerIsEnabled, IsEnabled, IsEnabled method [windows Media Device Manager], IsEnabled method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_isenabled, wmdmlog/IWMDMLogger::IsEnabled
 ms.prod: windows
 ms.technology: windows-sdk

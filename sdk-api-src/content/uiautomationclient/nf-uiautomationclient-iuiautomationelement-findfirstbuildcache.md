@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_FindFirstBuildCache.htm
 old-project: WinAuto
 ms.assetid: ecb10fbf-ff1d-4bd0-b036-1050560d82fe
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: FindFirstBuildCache, FindFirstBuildCache method [Windows Accessibility], FindFirstBuildCache method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],FindFirstBuildCache method, IUIAutomationElement.FindFirstBuildCache, IUIAutomationElement::FindFirstBuildCache, uiauto.uiauto_IUIAutomationElement_FindFirstBuildCache, uiauto_IUIAutomationElement_FindFirstBuildCache, uiautomationclient/IUIAutomationElement::FindFirstBuildCache, winauto.uiauto_IUIAutomationElement_FindFirstBuildCache
 ms.prod: windows
 ms.technology: windows-sdk

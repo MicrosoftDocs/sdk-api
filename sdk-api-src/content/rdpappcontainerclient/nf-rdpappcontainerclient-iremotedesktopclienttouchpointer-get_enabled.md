@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclienttouchpointer_enabled.htm
 old-project: TermServ
 ms.assetid: f1e2f2f2-1b96-4c5a-b0dd-fd57627c5ec3
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: Enabled property [Remote Desktop Services], Enabled property [Remote Desktop Services],IRemoteDesktopClientTouchPointer interface, IRemoteDesktopClientTouchPointer interface [Remote Desktop Services],Enabled property, IRemoteDesktopClientTouchPointer.Enabled, IRemoteDesktopClientTouchPointer.get_Enabled, IRemoteDesktopClientTouchPointer::Enabled, IRemoteDesktopClientTouchPointer::get_Enabled, IRemoteDesktopClientTouchPointer::put_Enabled, get_Enabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::Enabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::get_Enabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::put_Enabled, termserv.iremotedesktopclienttouchpointer_enabled
 ms.prod: windows
 ms.technology: windows-sdk

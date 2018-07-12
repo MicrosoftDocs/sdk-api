@@ -7,7 +7,7 @@ old-location: termserv\iaudioendpointrt_setpininactive.htm
 old-project: TermServ
 ms.assetid: 07062063-cae1-4517-aeed-fb73ec602b27
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: IAudioEndpointRT interface [Remote Desktop Services],SetPinInactive method, IAudioEndpointRT.SetPinInactive, IAudioEndpointRT::SetPinInactive, SetPinInactive, SetPinInactive method [Remote Desktop Services], SetPinInactive method [Remote Desktop Services],IAudioEndpointRT interface, audioengineendpoint/IAudioEndpointRT::SetPinInactive, termserv.iaudioendpointrt_setpininactive
 ms.prod: windows
 ms.technology: windows-sdk

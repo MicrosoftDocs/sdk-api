@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromDoubleVector.htm
 old-project: properties
 ms.assetid: 78e91213-870f-4bc1-b0eb-a9fbae3d6c4c
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: InitPropVariantFromDoubleVector, InitPropVariantFromDoubleVector function [Windows Properties], properties.InitPropVariantFromDoubleVector, propvarutil/InitPropVariantFromDoubleVector, shell.InitPropVariantFromDoubleVector, shell_InitPropVariantFromDoubleVector
 ms.prod: windows
 ms.technology: windows-sdk

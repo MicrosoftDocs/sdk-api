@@ -7,7 +7,7 @@ old-location: properties\PropVariantGetInt64Elem.htm
 old-project: properties
 ms.assetid: 6dd7212a-587f-4f9e-a2e5-dbd2a9c15a5b
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PropVariantGetInt64Elem, PropVariantGetInt64Elem function [Windows Properties], _shell_PropVariantGetInt64Elem, properties.PropVariantGetInt64Elem, propvarutil/PropVariantGetInt64Elem, shell.PropVariantGetInt64Elem
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2masteringvoice_interface_getchannelmask.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2masteringvoice.IXAudio2MasteringVoice.GetChannelMask(DWORD@)
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 04/23/2018
 ms.keywords: GetChannelMask, GetChannelMask method [XAudio2 Audio Mixing APIs], GetChannelMask method [XAudio2 Audio Mixing APIs],IXAudio2MasteringVoice interface, IXAudio2MasteringVoice interface [XAudio2 Audio Mixing APIs],GetChannelMask method, IXAudio2MasteringVoice.GetChannelMask, IXAudio2MasteringVoice::GetChannelMask, xaudio2.ixaudio2masteringvoice_interface_getchannelmask, xaudio2/IXAudio2MasteringVoice::GetChannelMask
 ms.prod: windows
 ms.technology: windows-sdk

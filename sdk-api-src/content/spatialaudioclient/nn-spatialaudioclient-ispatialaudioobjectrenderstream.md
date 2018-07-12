@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectrenderstream.htm
 old-project: CoreAudio
 ms.assetid: B4D10CC6-62BF-4D20-910F-E39DF812010D
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: ISpatialAudioObjectRenderStream, ISpatialAudioObjectRenderStream interface [Core Audio], ISpatialAudioObjectRenderStream interface [Core Audio],described, coreaudio.ispatialaudioobjectrenderstream, spatialaudioclient/ISpatialAudioObjectRenderStream
 ms.prod: windows
 ms.technology: windows-sdk

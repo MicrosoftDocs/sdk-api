@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectinteriorinputconnector.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinteriorinputconnector\imilbitmapeffectinteriorinputconnector.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: IMILBitmapEffectInteriorInputConnector, IMILBitmapEffectInteriorInputConnector interface [WPF Bitmap Effects], IMILBitmapEffectInteriorInputConnector interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectinteriorinputconnector, mileffects/IMILBitmapEffectInteriorInputConnector, wibe._wibe_imilbitmapeffectinteriorinputconnector
 ms.prod: windows
 ms.technology: windows-sdk

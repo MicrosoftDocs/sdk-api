@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaPropertyStorage_GetPropertyAttributes.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\getpropertyattributes.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: GetPropertyAttributes, GetPropertyAttributes method [WIA], GetPropertyAttributes method [WIA],IWiaPropertyStorage interface, IWiaPropertyStorage interface [WIA],GetPropertyAttributes method, IWiaPropertyStorage.GetPropertyAttributes, IWiaPropertyStorage::GetPropertyAttributes, _wia_IWiaPropertyStorage_GetPropertyAttributes, wia._wia_IWiaPropertyStorage_GetPropertyAttributes, wia_xp/IWiaPropertyStorage::GetPropertyAttributes
 ms.prod: windows
 ms.technology: windows-sdk

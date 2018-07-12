@@ -4,10 +4,10 @@ title: SearchTreeForFileW function
 author: windows-sdk-content
 description: Searches a directory tree for a specified file.
 old-location: base\searchtreeforfile.htm
-old-project: Debug
+old-project: debug
 ms.assetid: dc641de0-8e22-402e-be64-f3231ba9ed8c
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: SearchTreeForFile, SearchTreeForFile function, SearchTreeForFileW, _win32_searchtreeforfile, base.searchtreeforfile, dbghelp/SearchTreeForFile, dbghelp/SearchTreeForFileW
 ms.prod: windows
 ms.technology: windows-sdk

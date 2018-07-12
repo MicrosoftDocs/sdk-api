@@ -7,7 +7,7 @@ old-location: opc\iopcuri_combineparturi.htm
 old-project: OPC
 ms.assetid: 9bb4c351-12ef-4e26-bcb1-59f81a413588
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: CombinePartUri, CombinePartUri method [Open Packaging Conventions], CombinePartUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],CombinePartUri method, IOpcUri.CombinePartUri, IOpcUri::CombinePartUri, msopc/IOpcUri::CombinePartUri, opc.iopcuri_combineparturi
 ms.prod: windows
 ms.technology: windows-sdk

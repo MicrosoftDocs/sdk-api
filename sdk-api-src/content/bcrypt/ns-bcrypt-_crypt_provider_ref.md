@@ -4,10 +4,10 @@ title: "_CRYPT_PROVIDER_REF"
 author: windows-sdk-content
 description: Contains information about a cryptographic interface that a provider supports.
 old-location: security\crypt_provider_ref.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: 3bd4a07c-8b80-4bbc-9922-88ea007f6ccd
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: "*PCRYPT_PROVIDER_REF, CRYPT_PROVIDER_REF, CRYPT_PROVIDER_REF structure [Security], PCRYPT_PROVIDER_REF, PCRYPT_PROVIDER_REF structure pointer [Security], _CRYPT_PROVIDER_REF, bcrypt/CRYPT_PROVIDER_REF, bcrypt/PCRYPT_PROVIDER_REF, security.crypt_provider_ref"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IVdsVDisk::Open
 author: windows-sdk-content
 description: Opens a handle to the specified virtual disk file and returns an IVdsOpenVDisk interface pointer to the object that represents the opened handle.
 old-location: base\ivdsvdisk_open.htm
-old-project: VDS
+old-project: vds
 ms.assetid: e633f934-8f2d-4614-b34c-87bb74ebf385
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsVDisk interface,Open method, IVdsVDisk.Open, IVdsVDisk::Open, Open, Open method, Open method,IVdsVDisk interface, base.ivdsvdisk_open, vds/IVdsVDisk::Open
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ The number of stores (backing files), beginning with the child, of the backing s
 
 ### -param ppOpenVDisk [out]
 
-A pointer to a variable that receives an <a href="https://msdn.microsoft.com/3d5f080f-3e83-437e-8cbc-9730988f5dcc">IVdsOpenVDisk</a> interface pointer to the newly created object that represents the handle opened to the virtual disk object. Callers must release the interface pointer when it is no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+A pointer to a variable that receives an <a href="https://msdn.microsoft.com/3d5f080f-3e83-437e-8cbc-9730988f5dcc">IVdsOpenVDisk</a> interface pointer to the newly created object that represents the handle opened to the virtual disk object. Callers must release the interface pointer when it is no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

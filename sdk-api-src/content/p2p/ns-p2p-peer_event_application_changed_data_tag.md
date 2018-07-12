@@ -4,10 +4,10 @@ title: peer_event_application_changed_data_tag
 author: windows-sdk-content
 description: The PEER_EVENT_APPLICATION_CHANGED_DATA structure contains information returned when a PEER_EVENT_ENDPOINT_APPLICATION_CHANGED or PEER_EVENT_MY_APPLICATION_CHANGED event is raised on a peer participating in a peer collaboration network.
 old-location: p2p\peer_event_application_changed_data.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: f06e9fbd-7655-4d00-8d84-78852a34f016
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: "*PPEER_EVENT_APPLICATION_CHANGED_DATA, PEER_EVENT_APPLICATION_CHANGED_DATA, PEER_EVENT_APPLICATION_CHANGED_DATA structure [Peer Networking], PPEER_EVENT_APPLICATION_CHANGED_DATA, PPEER_EVENT_APPLICATION_CHANGED_DATA structure pointer [Peer Networking], p2p.peer_event_application_changed_data, p2p/PEER_EVENT_APPLICATION_CHANGED_DATA, p2p/PPEER_EVENT_APPLICATION_CHANGED_DATA, peer_event_application_changed_data_tag"
 ms.prod: windows
 ms.technology: windows-sdk

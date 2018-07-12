@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectshadervariable_getinputsignatureelementdesc
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshadervariable_getinputsignatureelementdesc.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 22632913-ab5d-3124-504e-d04b7e203897, GetInputSignatureElementDesc, GetInputSignatureElementDesc method [Direct3D 10], GetInputSignatureElementDesc method [Direct3D 10],ID3D10EffectShaderVariable interface, ID3D10EffectShaderVariable interface [Direct3D 10],GetInputSignatureElementDesc method, ID3D10EffectShaderVariable.GetInputSignatureElementDesc, ID3D10EffectShaderVariable::GetInputSignatureElementDesc, d3d10effect/ID3D10EffectShaderVariable::GetInputSignatureElementDesc, direct3d10.id3d10effectshadervariable_getinputsignatureelementdesc
 ms.prod: windows
 ms.technology: windows-sdk

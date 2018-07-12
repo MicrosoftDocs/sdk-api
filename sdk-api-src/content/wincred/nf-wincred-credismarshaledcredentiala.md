@@ -7,7 +7,7 @@ old-location: security\credismarshaledcredential.htm
 old-project: SecAuthN
 ms.assetid: fc902c0c-41e0-4178-8ca0-227a1d218388
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: CredIsMarshaledCredential, CredIsMarshaledCredential function [Security], CredIsMarshaledCredentialA, CredIsMarshaledCredentialW, _cred_credismarshaledcredential, security.credismarshaledcredential, wincred/CredIsMarshaledCredential, wincred/CredIsMarshaledCredentialA, wincred/CredIsMarshaledCredentialW
 ms.prod: windows
 ms.technology: windows-sdk

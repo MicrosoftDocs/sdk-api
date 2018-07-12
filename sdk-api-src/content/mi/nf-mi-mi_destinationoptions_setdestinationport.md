@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_setdestinationport.htm
 old-project: wmi_v2
 ms.assetid: 4359eb04-aaf7-490f-ab60-b42182b53611
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_DestinationOptions_SetDestinationPort, MI_DestinationOptions_SetDestinationPort function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetDestinationPort, wmi_v2.mi_destinationoptions_setdestinationport
 ms.prod: windows
 ms.technology: windows-sdk

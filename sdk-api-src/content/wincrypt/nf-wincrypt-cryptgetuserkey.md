@@ -4,10 +4,10 @@ title: CryptGetUserKey function
 author: windows-sdk-content
 description: Retrieves a handle of one of a user's two public/private key pairs.
 old-location: security\cryptgetuserkey.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: d9166b98-e5f1-4e5c-b6f1-2a086b102e0f
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CryptGetUserKey, CryptGetUserKey function [Security], _crypto2_cryptgetuserkey, security.cryptgetuserkey, wincrypt/CryptGetUserKey
 ms.prod: windows
 ms.technology: windows-sdk

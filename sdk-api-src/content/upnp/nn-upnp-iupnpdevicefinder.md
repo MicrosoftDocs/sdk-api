@@ -4,10 +4,10 @@ title: IUPnPDeviceFinder
 author: windows-sdk-content
 description: The IUPnPDeviceFinder interface enables an application to find a device.
 old-location: upnp\iupnpdevicefinder.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: a4697038-8abc-42f2-9381-702fc82af90b
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 04/26/2018
 ms.keywords: IUPnPDeviceFinder, IUPnPDeviceFinder interface [UPnP APIs], IUPnPDeviceFinder interface [UPnP APIs],described, _upnp_iupnpdevicefinder, upnp.iupnpdevicefinder, upnp/IUPnPDeviceFinder
 ms.prod: windows
 ms.technology: windows-sdk

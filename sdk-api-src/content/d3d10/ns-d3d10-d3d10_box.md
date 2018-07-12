@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_box.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_box.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: D3D10_BOX, D3D10_BOX structure [Direct3D 10], a02d025c-3b75-5cb1-2b68-a6c9d6261bf1, d3d10/D3D10_BOX, direct3d10.d3d10_box
 ms.prod: windows
 ms.technology: windows-sdk

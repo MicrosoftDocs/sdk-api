@@ -4,10 +4,10 @@ title: ITextSelection::SetFlags
 author: windows-sdk-content
 description: Sets the text selection flags.
 old-location: controls\ITextSelection_SetFlags.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setflags.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ITextSelection interface [Windows Controls],SetFlags method, ITextSelection.SetFlags, ITextSelection::SetFlags, SetFlags, SetFlags method [Windows Controls], SetFlags method [Windows Controls],ITextSelection interface, _win32_ITextSelection_SetFlags, _win32_ITextSelection_SetFlags_cpp, controls.ITextSelection_SetFlags, controls._win32_ITextSelection_SetFlags, tom/ITextSelection::SetFlags
 ms.prod: windows
 ms.technology: windows-sdk

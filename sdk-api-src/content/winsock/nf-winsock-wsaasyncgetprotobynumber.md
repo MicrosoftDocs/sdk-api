@@ -7,7 +7,7 @@ old-location: winsock\wsaasyncgetprotobynumber_2.htm
 old-project: WinSock
 ms.assetid: 10f28345-c178-47c0-9d0f-87f6743131d9
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: WSAAsyncGetProtoByNumber, WSAAsyncGetProtoByNumber function [Winsock], _win32_wsaasyncgetprotobynumber_2, winsock.wsaasyncgetprotobynumber_2, winsock/WSAAsyncGetProtoByNumber
 ms.prod: windows
 ms.technology: windows-sdk

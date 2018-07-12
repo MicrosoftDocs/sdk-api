@@ -7,7 +7,7 @@ old-location: winsock\getsockname_2.htm
 old-project: WinSock
 ms.assetid: be20a731-cdfc-48ae-90b2-43f2cf9ecf6d
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: "_win32_getsockname_2, getsockname, getsockname function [Winsock], winsock.getsockname_2, winsock/getsockname"
 ms.prod: windows
 ms.technology: windows-sdk

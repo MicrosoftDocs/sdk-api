@@ -4,10 +4,10 @@ title: "_WSD_EVENT"
 author: windows-sdk-content
 description: Provides an internal representation of a SOAP message.
 old-location: ncd\wsd_event_struct.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: d8697474-bfe5-4704-b1ac-15cf96f2ca92
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: WSD_EVENT, WSD_EVENT structure, _WSD_EVENT, ncd.wsd_event_struct, wsdtypes/WSD_EVENT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wsdhost.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

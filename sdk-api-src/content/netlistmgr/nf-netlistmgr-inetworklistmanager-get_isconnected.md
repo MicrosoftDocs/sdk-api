@@ -4,10 +4,10 @@ title: INetworkListManager::get_IsConnected
 author: windows-sdk-content
 description: The get_IsConnected property specifies if the local machine has network connectivity.
 old-location: nla\inetworklistmanager_get_isconnected.htm
-old-project: NLA
+old-project: nla
 ms.assetid: 51bdec8e-521f-4673-a2ad-07e8995f3905
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: INetworkListManager interface [Network Awareness],get_IsConnected method, INetworkListManager.get_IsConnected, INetworkListManager::get_IsConnected, get_IsConnected, get_IsConnected method [Network Awareness], get_IsConnected method [Network Awareness],INetworkListManager interface, netlistmgr/INetworkListManager::get_IsConnected, nla.inetworklistmanager_get_isconnected
 ms.prod: windows
 ms.technology: windows-sdk

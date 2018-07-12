@@ -4,10 +4,10 @@ title: HttpCreateRequestQueue function
 author: windows-sdk-content
 description: Creates a new request queue or opens an existing request queue.
 old-location: http\httpcreaterequestqueue.htm
-old-project: Http
+old-project: http
 ms.assetid: a0f4112e-db81-4eda-afeb-d00117f7240c
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 04/13/2018
 ms.keywords: HTTP_CREATE_REQUEST_QUEUE_FLAG_CONTROLLER, HTTP_CREATE_REQUEST_QUEUE_FLAG_OPEN_EXISTING, HttpCreateRequestQueue, HttpCreateRequestQueue function [HTTP], http.httpcreaterequestqueue, http/HttpCreateRequestQueue
 ms.prod: windows
 ms.technology: windows-sdk

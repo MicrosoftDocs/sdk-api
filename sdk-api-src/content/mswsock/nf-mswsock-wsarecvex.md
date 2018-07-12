@@ -7,7 +7,7 @@ old-location: winsock\wsarecvex_2.htm
 old-project: WinSock
 ms.assetid: 0ed639f7-e7bd-49a2-a7c0-177699a2cf5e
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: WSARecvEx, WSARecvEx function [Winsock], _win32_wsarecvex_2, winsock.wsarecvex_2, winsock/WSARecvEx
 ms.prod: windows
 ms.technology: windows-sdk

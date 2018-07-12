@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestresourcesenumerator_getcurrent.htm
 old-project: appxpkg
 ms.assetid: FCFEEC2B-F047-4417-B110-BD3C90C30BE2
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxManifestResourcesEnumerator interface, IAppxManifestResourcesEnumerator interface [App packaging and management],GetCurrent method, IAppxManifestResourcesEnumerator.GetCurrent, IAppxManifestResourcesEnumerator::GetCurrent, appxpackaging/IAppxManifestResourcesEnumerator::GetCurrent, appxpkg.iappxmanifestresourcesenumerator_getcurrent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IInputObject_TranslateAcceleratorIO.htm
 old-project: shell
 ms.assetid: e075556a-2910-41ee-a8f3-3fba1cd55a35
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IInputObject interface [Windows Shell],TranslateAcceleratorIO method, IInputObject.TranslateAcceleratorIO, IInputObject::TranslateAcceleratorIO, TranslateAcceleratorIO, TranslateAcceleratorIO method [Windows Shell], TranslateAcceleratorIO method [Windows Shell],IInputObject interface, _win32_IInputObject_TranslateAcceleratorIO, shell.IInputObject_TranslateAcceleratorIO, shobjidl_core/IInputObject::TranslateAcceleratorIO
 ms.prod: windows
 ms.technology: windows-sdk

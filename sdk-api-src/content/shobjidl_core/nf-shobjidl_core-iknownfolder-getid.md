@@ -7,7 +7,7 @@ old-location: shell\IKnownFolder_GetId.htm
 old-project: shell
 ms.assetid: c20fc32f-394d-4fbe-b7dd-072d84be2713
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: GetId, GetId method [Windows Shell], GetId method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetId method, IKnownFolder.GetId, IKnownFolder::GetId, _shell_IKnownFolder_GetId, shell.IKnownFolder_GetId, shobjidl_core/IKnownFolder::GetId
 ms.prod: windows
 ms.technology: windows-sdk

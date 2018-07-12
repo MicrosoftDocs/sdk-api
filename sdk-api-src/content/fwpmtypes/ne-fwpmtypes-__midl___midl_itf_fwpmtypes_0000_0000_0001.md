@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_fwpmtypes_0000_0000_0001"
 author: windows-sdk-content
 description: The DL_ADDRESS_TYPE enumerated type.
 old-location: fwp\dl_address_type.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 1ef0195a-af46-4eb3-8cc0-0408b644a7e9
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: "*PDL_ADDRESS_TYPE, DL_ADDRESS_TYPE, DL_ADDRESS_TYPE enumeration [Filtering], DlBroadcast, DlMulticast, DlUnicast, PDL_ADDRESS_TYPE, PDL_ADDRESS_TYPE enumeration pointer [Filtering], __MIDL___MIDL_itf_fwpmtypes_0000_0000_0001, fwp.dl_address_type, netiodef/DL_ADDRESS_TYPE, netiodef/DlBroadcast, netiodef/DlMulticast, netiodef/DlUnicast, netiodef/PDL_ADDRESS_TYPE"
 ms.prod: windows
 ms.technology: windows-sdk

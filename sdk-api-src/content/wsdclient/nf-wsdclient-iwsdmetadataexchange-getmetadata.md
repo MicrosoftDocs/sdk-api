@@ -4,10 +4,10 @@ title: IWSDMetadataExchange::GetMetadata
 author: windows-sdk-content
 description: Retrieves metadata for an object.
 old-location: ncd\iwsdmetadataexchange_getmetadata_method.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: ab84ed56-37a5-48ff-a616-cb92dc07a8ee
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: GetMetadata, GetMetadata method, GetMetadata method,IWSDMetadataExchange interface, IWSDMetadataExchange interface,GetMetadata method, IWSDMetadataExchange.GetMetadata, IWSDMetadataExchange::GetMetadata, ncd.iwsdmetadataexchange_getmetadata_method, wsdclient/IWSDMetadataExchange::GetMetadata
 ms.prod: windows
 ms.technology: windows-sdk

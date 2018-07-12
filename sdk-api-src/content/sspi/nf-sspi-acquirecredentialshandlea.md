@@ -7,7 +7,7 @@ old-location: security\acquirecredentialshandle__credssp_.htm
 old-project: SecAuthN
 ms.assetid: 3b73decf-75d4-4bc4-b7ca-5f16aaadff29
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: AcquireCredentialsHandle, AcquireCredentialsHandle (CredSSP), AcquireCredentialsHandle function [Security], AcquireCredentialsHandleA, AcquireCredentialsHandleW, SECPKG_CRED_INBOUND, SECPKG_CRED_OUTBOUND, security.acquirecredentialshandle__credssp_, sspi/AcquireCredentialsHandle, sspi/AcquireCredentialsHandleA, sspi/AcquireCredentialsHandleW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IShellView_AddPropertySheetPages.htm
 old-project: shell
 ms.assetid: 6f05ddf7-190e-41f5-b24a-d18112b34600
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: AddPropertySheetPages, AddPropertySheetPages method [Windows Shell], AddPropertySheetPages method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],AddPropertySheetPages method, IShellView.AddPropertySheetPages, IShellView::AddPropertySheetPages, _win32_IShellView_AddPropertySheetPages, shell.IShellView_AddPropertySheetPages, shobjidl_core/IShellView::AddPropertySheetPages
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: opc\iopcdigitalsignaturemanager.htm
 old-project: OPC
 ms.assetid: 13e8a7b9-1d25-421b-bc81-adc495e6d9c7
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: IOpcDigitalSignatureManager, IOpcDigitalSignatureManager interface [Open Packaging Conventions], IOpcDigitalSignatureManager interface [Open Packaging Conventions],described, msopc/IOpcDigitalSignatureManager, opc.iopcdigitalsignaturemanager
 ms.prod: windows
 ms.technology: windows-sdk

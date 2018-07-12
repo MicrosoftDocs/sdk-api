@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain1_setbackgroundcolor.htm
 old-project: direct3ddxgi
 ms.assetid: E46CA219-303F-40D4-8C62-6241C9199BA0
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: IDXGISwapChain1 interface [DXGI],SetBackgroundColor method, IDXGISwapChain1.SetBackgroundColor, IDXGISwapChain1::SetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [DXGI], SetBackgroundColor method [DXGI],IDXGISwapChain1 interface, direct3ddxgi.idxgiswapchain1_setbackgroundcolor, dxgi1_2/IDXGISwapChain1::SetBackgroundColor
 ms.prod: windows
 ms.technology: windows-sdk

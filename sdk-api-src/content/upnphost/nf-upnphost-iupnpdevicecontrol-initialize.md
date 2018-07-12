@@ -4,10 +4,10 @@ title: IUPnPDeviceControl::Initialize
 author: windows-sdk-content
 description: The Initialize method is used to initialize the device. The device host invokes this method.
 old-location: upnp\iupnpdevicecontrol_initialize.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: 0c1ea343-f04b-414d-92cf-044cb117bc9c
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 04/26/2018
 ms.keywords: IUPnPDeviceControl interface [UPnP APIs],Initialize method, IUPnPDeviceControl.Initialize, IUPnPDeviceControl::Initialize, Initialize, Initialize method [UPnP APIs], Initialize method [UPnP APIs],IUPnPDeviceControl interface, _upnp_iupnpdevicecontrol_initialize, upnp.iupnpdevicecontrol_initialize, upnphost/IUPnPDeviceControl::Initialize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\freecredentialshandle.htm
 old-project: SecAuthN
 ms.assetid: e089618c-8233-475a-9725-39265c6427ab
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: FreeCredentialsHandle, FreeCredentialsHandle function [Security], _ssp_freecredentialshandle, security.freecredentialshandle, sspi/FreeCredentialsHandle
 ms.prod: windows
 ms.technology: windows-sdk

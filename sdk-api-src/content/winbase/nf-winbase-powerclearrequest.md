@@ -4,10 +4,10 @@ title: PowerClearRequest function
 author: windows-sdk-content
 description: Decrements the count of power requests of the specified type for a power request object.
 old-location: base\powerclearrequest.htm
-old-project: Power
+old-project: power
 ms.assetid: 794248b1-5aa8-495e-aca6-1a1f35dc9c7f
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: PowerClearRequest, PowerClearRequest function, PowerRequestAwayModeRequired, PowerRequestDisplayRequired, PowerRequestExecutionRequired, PowerRequestSystemRequired, base.powerclearrequest, winbase/PowerClearRequest
 ms.prod: windows
 ms.technology: windows-sdk

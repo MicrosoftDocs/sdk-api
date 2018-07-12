@@ -4,10 +4,10 @@ title: Matrix3x2F::Identity
 author: windows-sdk-content
 description: Creates an identity matrix.
 old-location: direct2d\matrix3x2f_identity.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: c4596d43-fbc8-489e-a8fd-d33fb26461cc
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: D2D1.Matrix3x2F.Identity, D2D1::Matrix3x2F::Identity, Identity, Identity method [Direct2D], Identity method [Direct2D],Matrix3x2F class, Matrix3x2F class [Direct2D],Identity method, Matrix3x2F.Identity, Matrix3x2F::Identity, d2d1helper/Matrix3x2F::Identity, direct2d.colorf_identity, direct2d.matrix3x2f_identity
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CryptHashCertificate2 function
 author: windows-sdk-content
 description: Hashes a block of data by using a CNG hash provider.
 old-location: security\crypthashcertificate2.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 9f315374-0002-499a-81ea-efcb3c19e68f
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CryptHashCertificate2, CryptHashCertificate2 function [Security], security.crypthashcertificate2, wincrypt/CryptHashCertificate2
 ms.prod: windows
 ms.technology: windows-sdk

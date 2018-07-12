@@ -7,7 +7,7 @@ old-location: mf\imfvideosampleallocatornotifyex_notifyprune.htm
 old-project: medfound
 ms.assetid: DCC3B043-4BD9-4A39-AA4C-98054223769F
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFVideoSampleAllocatorNotifyEx interface [Media Foundation],NotifyPrune method, IMFVideoSampleAllocatorNotifyEx.NotifyPrune, IMFVideoSampleAllocatorNotifyEx::NotifyPrune, NotifyPrune, NotifyPrune method [Media Foundation], NotifyPrune method [Media Foundation],IMFVideoSampleAllocatorNotifyEx interface, mf.imfvideosampleallocatornotifyex_notifyprune, mfidl/IMFVideoSampleAllocatorNotifyEx::NotifyPrune
 ms.prod: windows
 ms.technology: windows-sdk

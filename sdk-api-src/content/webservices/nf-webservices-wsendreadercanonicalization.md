@@ -7,7 +7,7 @@ old-location: wsw\wsendreadercanonicalization.htm
 old-project: wsw
 ms.assetid: 5cacad47-8581-4713-96cb-3b3a863e6327
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsEndReaderCanonicalization, WsEndReaderCanonicalization function [Web Services for Windows], webservices/WsEndReaderCanonicalization, wsw.wsendreadercanonicalization
 ms.prod: windows
 ms.technology: windows-sdk

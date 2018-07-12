@@ -4,10 +4,10 @@ title: PFNDPAMERGECONST
 author: windows-sdk-content
 description: Defines the prototype for the merge function used by DPA_Merge, using constant values.
 old-location: controls\PFNDPAMERGECONST.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndpamergeconst.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: DPAMM_DELETE, DPAMM_INSERT, DPAMM_MERGE, PFNDPAMERGECONST, PFNDPAMERGECONST callback, PFNDPAMERGECONST callback function [Windows Controls], _shell_PFNDPAMERGECONST, _shell_PFNDPAMERGECONST_cpp, controls.PFNDPAMERGECONST, controls._shell_PFNDPAMERGECONST, dpa_dsa/PFNDPAMERGECONST
 ms.prod: windows
 ms.technology: windows-sdk

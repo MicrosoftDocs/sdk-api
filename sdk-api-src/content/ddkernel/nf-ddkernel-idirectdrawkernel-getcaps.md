@@ -7,7 +7,7 @@ old-location: display\idirectdrawkernel_getcaps.htm
 old-project: display
 ms.assetid: c97ebe38-d62c-4ce8-8530-193dd83ef3d4
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: GetCaps, GetCaps method [Display Devices], GetCaps method [Display Devices],IDirectDrawKernel interface, IDirectDrawKernel interface [Display Devices],GetCaps method, IDirectDrawKernel.GetCaps, IDirectDrawKernel::GetCaps, ddfncs_52bda933-e948-4942-b52b-c0a42440c1fb.xml, ddkernel/IDirectDrawKernel::GetCaps, display.idirectdrawkernel_getcaps
 ms.prod: windows
 ms.technology: windows-sdk

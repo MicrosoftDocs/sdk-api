@@ -7,7 +7,7 @@ old-location: com\stringfromguid2.htm
 old-project: com
 ms.assetid: 5f437658-b749-416b-805a-2afdac682660
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: StringFromGUID2, StringFromGUID2 function [COM], _com_StringFromGUID2, com.stringfromguid2, combaseapi/StringFromGUID2
 ms.prod: windows
 ms.technology: windows-sdk

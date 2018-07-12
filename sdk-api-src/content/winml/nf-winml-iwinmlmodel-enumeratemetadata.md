@@ -7,7 +7,7 @@ old-location: machinelearning\iwinmlmodel_enumeratemetadata.htm
 old-project: MachineLearning
 ms.assetid: ABB51498-44CE-4B98-89FB-ED8B9B8159ED
 ms.author: windowssdkdev
-ms.date: 03/07/2018
+ms.date: 03/08/2018
 ms.keywords: EnumerateMetadata, EnumerateMetadata method, EnumerateMetadata method,IWinMLModel interface, IWinMLModel interface,EnumerateMetadata method, IWinMLModel.EnumerateMetadata, IWinMLModel::EnumerateMetadata, MachineLearning.iwinmlmodel_enumeratemetadata, winml/IWinMLModel::EnumerateMetadata
 ms.prod: windows
 ms.technology: windows-sdk

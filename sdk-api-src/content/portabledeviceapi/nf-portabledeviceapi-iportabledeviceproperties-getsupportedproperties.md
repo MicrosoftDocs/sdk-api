@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceproperties_getsupportedproperties.htm
 old-project: wpd_sdk
 ms.assetid: 0098bfe9-965b-4c70-b28a-d497ac79f44a
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.keywords: GetSupportedProperties, GetSupportedProperties method [Windows Portable Devices SDK], GetSupportedProperties method [Windows Portable Devices SDK],IPortableDeviceProperties interface, IPortableDeviceProperties interface [Windows Portable Devices SDK],GetSupportedProperties method, IPortableDeviceProperties.GetSupportedProperties, IPortableDeviceProperties::GetSupportedProperties, IPortableDevicePropertiesGetSupportedProperties, portabledeviceapi/IPortableDeviceProperties::GetSupportedProperties, wpdsdk.iportabledeviceproperties_getsupportedproperties
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowexprops_getcodecdescription.htm
 old-project: DirectShow
 ms.assetid: 5a26e576-df4a-462d-8fab-0a133469e77b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: GetCodecDescription, GetCodecDescription method [DirectShow], GetCodecDescription method [DirectShow],IAMNetShowExProps interface, IAMNetShowExProps interface [DirectShow],GetCodecDescription method, IAMNetShowExProps.GetCodecDescription, IAMNetShowExProps::GetCodecDescription, IAMNetShowExPropsGetCodecDescription, dshow.iamnetshowexprops_getcodecdescription, qnetwork/IAMNetShowExProps::GetCodecDescription
 ms.prod: windows
 ms.technology: windows-sdk

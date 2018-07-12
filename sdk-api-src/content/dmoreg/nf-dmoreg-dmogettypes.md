@@ -7,7 +7,7 @@ old-location: dshow\dmogettypes.htm
 old-project: DirectShow
 ms.assetid: d50e067e-6bf2-4d19-86ef-38a414099666
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: DMOGetTypes, DMOGetTypes function [DirectShow], dmoreg/DMOGetTypes, dshow.dmogettypes
 ms.prod: windows
 ms.technology: windows-sdk

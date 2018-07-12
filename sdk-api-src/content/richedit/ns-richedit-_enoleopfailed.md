@@ -4,10 +4,10 @@ title: "_enoleopfailed"
 author: windows-sdk-content
 description: Contains information about a failed operation.
 old-location: controls\ENOLEOPFAILED.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enoleopfailed.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ENOLEOPFAILED, ENOLEOPFAILED structure [Windows Controls], _enoleopfailed, _win32_ENOLEOPFAILED_str, _win32_ENOLEOPFAILED_str_cpp, controls.ENOLEOPFAILED, controls._win32_ENOLEOPFAILED_str, richedit/ENOLEOPFAILED
 ms.prod: windows
 ms.technology: windows-sdk

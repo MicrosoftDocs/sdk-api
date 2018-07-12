@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_GetParameter.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\getparameter.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetParameter, GetParameter method [search], GetParameter method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetParameter method, ISearchCatalogManager.GetParameter, ISearchCatalogManager::GetParameter, _search_ISearchCatalogManager_GetParameter, search._search_ISearchCatalogManager_GetParameter, searchapi/ISearchCatalogManager::GetParameter
 ms.prod: windows
 ms.technology: windows-sdk

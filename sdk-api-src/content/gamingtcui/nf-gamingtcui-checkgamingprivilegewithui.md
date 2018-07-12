@@ -7,7 +7,7 @@ old-location: tcui\CheckGamingPrivilegeWithUI.htm
 old-project: tcui
 ms.assetid: D6336E6F-427B-4122-B437-411A7F6A0751
 ms.author: windowssdkdev
-ms.date: 03/19/2018
+ms.date: 03/20/2018
 ms.keywords: CheckGamingPrivilegeWithUI, CheckGamingPrivilegeWithUI function, gamingtcui/CheckGamingPrivilegeWithUI, tcui.CheckGamingPrivilegeWithUI
 ms.prod: windows
 ms.technology: windows-sdk

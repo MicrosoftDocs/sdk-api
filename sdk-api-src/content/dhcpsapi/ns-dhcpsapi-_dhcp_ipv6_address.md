@@ -4,10 +4,10 @@ title: "_DHCP_IPV6_ADDRESS"
 author: windows-sdk-content
 description: DHCP_IPV6_ADDRESS structure contains an IPv6 address.
 old-location: dhcp\dhcp_ipv6_address.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 9623e866-81e5-4d5a-8801-33f0f8973ed3
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPDHCP_IPV6_ADDRESS, *PDHCP_IPV6_ADDRESS, DHCP_IPV6_ADDRESS, DHCP_IPV6_ADDRESS structure [DHCP], DHCP_RESUME_IPV6_HANDLE, DHCP_RESUME_IPV6_HANDLE structure [DHCP], LPDHCP_IPV6_ADDRESS, LPDHCP_IPV6_ADDRESS structure pointer [DHCP], PDHCP_IPV6_ADDRESS, PDHCP_IPV6_ADDRESS structure pointer [DHCP], _DHCP_IPV6_ADDRESS, dhcp.dhcp_ipv6_address, dhcpsapi/DHCP_IPV6_ADDRESS, dhcpsapi/DHCP_RESUME_IPV6_HANDLE, dhcpsapi/LPDHCP_IPV6_ADDRESS, dhcpsapi/PDHCP_IPV6_ADDRESS"
 ms.prod: windows
 ms.technology: windows-sdk

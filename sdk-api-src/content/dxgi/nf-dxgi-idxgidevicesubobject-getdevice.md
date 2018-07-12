@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevicesubobject_getdevice.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevicesubobject_getdevice.htm
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: GetDevice, GetDevice method [DXGI], GetDevice method [DXGI],IDXGIDeviceSubObject interface, IDXGIDeviceSubObject interface [DXGI],GetDevice method, IDXGIDeviceSubObject.GetDevice, IDXGIDeviceSubObject::GetDevice, b3dce65b-334c-0973-c391-77df6912fc77, direct3ddxgi.idxgidevicesubobject_getdevice, dxgi/IDXGIDeviceSubObject::GetDevice
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: input_sourceid\input_message_origin_id.htm
 old-project: Input_SourceId
 ms.assetid: 5637bf3a-9fd8-4c89-acd0-4e0e47c0a3bf
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 03/27/2018
 ms.keywords: IMO_HARDWARE, IMO_INJECTED, IMO_SYSTEM, IMO_UNAVAILABLE, INPUT_MESSAGE_ORIGIN_ID, INPUT_MESSAGE_ORIGIN_ID enumeration, input_sourceid.input_message_origin_id, inputsourceid.input_message_origin_id, tagINPUT_MESSAGE_ORIGIN_ID, winuser/IMO_HARDWARE, winuser/IMO_INJECTED, winuser/IMO_SYSTEM, winuser/IMO_UNAVAILABLE, winuser/INPUT_MESSAGE_ORIGIN_ID
 ms.prod: windows
 ms.technology: windows-sdk

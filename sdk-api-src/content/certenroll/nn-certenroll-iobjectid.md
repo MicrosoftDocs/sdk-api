@@ -4,10 +4,10 @@ title: IObjectId
 author: windows-sdk-content
 description: Represents an object identifier (OID).
 old-location: security\iobjectid.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: bc6608e3-cae7-4992-b599-06bc04cc8ad7
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IObjectId, IObjectId interface [Security], IObjectId interface [Security],described, certenroll/IObjectId, security.iobjectid
 ms.prod: windows
 ms.technology: windows-sdk

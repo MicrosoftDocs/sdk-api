@@ -4,10 +4,10 @@ title: IVdsService::GetProperties
 author: windows-sdk-content
 description: Returns the properties of VDS.
 old-location: base\ivdsservice_getproperties.htm
-old-project: VDS
+old-project: vds
 ms.assetid: fb5fe743-4833-400a-a8aa-8de886203190
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsService interface, IVdsService interface [VDS],GetProperties method, IVdsService.GetProperties, IVdsService::GetProperties, base.ivdsservice_getproperties, vds/IVdsService::GetProperties
 ms.prod: windows
 ms.technology: windows-sdk

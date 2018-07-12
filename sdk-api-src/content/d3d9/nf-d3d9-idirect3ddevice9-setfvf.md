@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setfvf.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setfvf.htm
 ms.author: windowssdkdev
-ms.date: 04/10/2018
+ms.date: 04/11/2018
 ms.keywords: 19b67e41-5ea9-7478-a24f-8698b2b106a5, IDirect3DDevice9 interface [Direct3D 9],SetFVF method, IDirect3DDevice9.SetFVF, IDirect3DDevice9::SetFVF, SetFVF, SetFVF method [Direct3D 9], SetFVF method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetFVF, direct3d9.idirect3ddevice9__setfvf
 ms.prod: windows
 ms.technology: windows-sdk

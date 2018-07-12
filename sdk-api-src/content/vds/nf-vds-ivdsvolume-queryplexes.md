@@ -4,10 +4,10 @@ title: IVdsVolume::QueryPlexes
 author: windows-sdk-content
 description: Returns an object that enumerates the plexes of the volume.
 old-location: base\ivdsvolume_queryplexes.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 33fc5b7c-4d05-4ec7-8d03-631c6d9f2f34
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsVolume interface [VDS],QueryPlexes method, IVdsVolume.QueryPlexes, IVdsVolume::QueryPlexes, QueryPlexes, QueryPlexes method [VDS], QueryPlexes method [VDS],IVdsVolume interface, base.ivdsvolume_queryplexes, vds/IVdsVolume::QueryPlexes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ Returns an object that enumerates  the plexes of the volume.
 
 ### -param ppEnum [out]
 
-The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the plexes  as <a href="https://msdn.microsoft.com/9e770bfc-2bcb-45f0-a7fc-ba526349839e">volume plex objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the volume  plex objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the plexes  as <a href="https://msdn.microsoft.com/9e770bfc-2bcb-45f0-a7fc-ba526349839e">volume plex objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the volume  plex objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

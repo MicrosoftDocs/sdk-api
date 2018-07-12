@@ -4,6 +4,5 @@
     "windows.media.systemmediatransportcontrols.h",
     "windows.media.h",
     "systemmediatransportcontrolsinterop.h"
-  ],
-  "displayName": "Media Transport Controls"
+  ]
 }

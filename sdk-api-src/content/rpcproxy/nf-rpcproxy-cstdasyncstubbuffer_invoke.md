@@ -4,10 +4,10 @@ title: CStdAsyncStubBuffer_Invoke function
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::Invoke method.
 old-location: rpc\cstdasyncstubbuffer_invoke.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: 069A6E16-D96F-4E74-B511-77B6496FE966
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: CStdAsyncStubBuffer_Invoke, CStdAsyncStubBuffer_Invoke function [RPC], rpc.cstdasyncstubbuffer_invoke, rpcproxy/CStdAsyncStubBuffer_Invoke
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: ADAM
 
 <p class="CCE_Message">[CStdAsyncStubBuffer_Invoke is not supported and may be altered or unavailable in the future.]
 
-Implements the  <a href="_com_irpcstubbuffer_invoke">IRpcStubBuffer::Invoke</a> method. 
+Implements the  <a href="https://msdn.microsoft.com/library/ms686653(v=VS.85).aspx">IRpcStubBuffer::Invoke</a> method. 
 
 
 ## -parameters

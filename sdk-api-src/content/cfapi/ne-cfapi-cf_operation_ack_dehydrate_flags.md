@@ -7,7 +7,7 @@ old-location: cloudapi\cf_operation_ack_dehydrate_flags.htm
 old-project: cfApi
 ms.assetid: A1236139-947A-4360-91A0-E634A22C26A5
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CF_OPERATION_ACK_DEHYDRATE_FLAGS, CF_OPERATION_ACK_DEHYDRATE_FLAGS enumeration, CF_OPERATION_ACK_DEHYDRATE_FLAG_NONE, cfapi/CF_OPERATION_ACK_DEHYDRATE_FLAGS, cfapi/CF_OPERATION_ACK_DEHYDRATE_FLAG_NONE, cloudApi.cf_operation_ack_dehydrate_flags
 ms.prod: windows
 ms.technology: windows-sdk

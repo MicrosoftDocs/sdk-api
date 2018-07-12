@@ -4,10 +4,10 @@ title: AllocateAndGetTcpExTableFromStack function
 author: windows-sdk-content
 description: Retrieves the TCP connection table and allocates memory from the local heap to store the table.
 old-location: iphlp\allocateandgettcpextablefromstack.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: c79dd5ba-e80b-494f-80fa-efa10c021773
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: AF_INET, AF_INET6, AllocateAndGetTcpExTableFromStack, AllocateAndGetTcpExTableFromStack function [IP Helper], iphlp.allocateandgettcpextablefromstack, iphlpapi/AllocateAndGetTcpExTableFromStack
 ms.prod: windows
 ms.technology: windows-sdk

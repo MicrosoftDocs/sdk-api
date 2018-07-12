@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlemanifestoptionalbundleinfo_getfilename.htm
 old-project: appxpkg
 ms.assetid: 6553DAC3-D938-4653-8DE4-A5CA02640D31
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: GetFileName, GetFileName method [App packaging and management], GetFileName method [App packaging and management],IAppxBundleManifestOptionalBundleInfo interface, IAppxBundleManifestOptionalBundleInfo interface [App packaging and management],GetFileName method, IAppxBundleManifestOptionalBundleInfo.GetFileName, IAppxBundleManifestOptionalBundleInfo::GetFileName, appxpackaging/IAppxBundleManifestOptionalBundleInfo::GetFileName, appxpkg.iappxbundlemanifestoptionalbundleinfo_getfilename
 ms.prod: windows
 ms.technology: windows-sdk

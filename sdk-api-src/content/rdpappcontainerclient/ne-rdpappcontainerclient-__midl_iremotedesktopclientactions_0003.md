@@ -7,7 +7,7 @@ old-location: termserv\snapshotformattype.htm
 old-project: TermServ
 ms.assetid: 18B73928-F797-457A-84A1-0E1B2B1208A2
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: SnapshotFormatBmp, SnapshotFormatJpeg, SnapshotFormatPng, SnapshotFormatType, SnapshotFormatType enumeration [Remote Desktop Services], __MIDL_IRemoteDesktopClientActions_0003, rdpappcontainerclient/SnapshotFormatBmp, rdpappcontainerclient/SnapshotFormatJpeg, rdpappcontainerclient/SnapshotFormatPng, rdpappcontainerclient/SnapshotFormatType, termserv.snapshotformattype
 ms.prod: windows
 ms.technology: windows-sdk

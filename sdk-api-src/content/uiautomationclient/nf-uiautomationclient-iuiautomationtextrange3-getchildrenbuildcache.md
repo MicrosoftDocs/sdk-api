@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange3_GetChildrenBuildCache.htm
 old-project: WinAuto
 ms.assetid: 1C8F0E81-ED73-4752-BD27-7981508671D0
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetChildrenBuildCache, GetChildrenBuildCache method [Windows Accessibility], GetChildrenBuildCache method [Windows Accessibility],IUIAutomationTextRange3 interface, IUIAutomationTextRange3 interface [Windows Accessibility],GetChildrenBuildCache method, IUIAutomationTextRange3.GetChildrenBuildCache, IUIAutomationTextRange3::GetChildrenBuildCache, uiautomationclient/IUIAutomationTextRange3::GetChildrenBuildCache, winauto.uiauto_IUIAutomationTextRange3_GetChildrenBuildCache
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PCLUSTER_REG_BATCH_CLOSE_NOTIFICATION
 author: windows-sdk-content
 description: Frees the memory associated with the batch notification.
 old-location: mscs\clusterregbatchclosenotification.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: d7a127ba-6e97-46ac-8510-2da355359c50
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSTER_REG_BATCH_CLOSE_NOTIFICATION, PCLUSTER_REG_BATCH_CLOSE_NOTIFICATION callback, PCLUSTER_REG_BATCH_CLOSE_NOTIFICATION callback function [Failover Cluster], clusapi/PCLUSTER_REG_BATCH_CLOSE_NOTIFICATION, mscs.clusterregbatchclosenotification
 ms.prod: windows
 ms.technology: windows-sdk

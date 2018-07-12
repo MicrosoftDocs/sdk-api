@@ -2,6 +2,5 @@
   "tech": "rstmgr",
   "headers": [
     "restartmanager.h"
-  ],
-  "displayName": "Restart Manager"
+  ]
 }

@@ -4,10 +4,10 @@ title: RsopAccessCheckByType function
 author: windows-sdk-content
 description: The RSoPAccessCheckByType function determines whether a security descriptor grants a specified set of access rights to the client identified by an RSOPTOKEN.
 old-location: policy\rsopaccesscheckbytype.htm
-old-project: Policy
+old-project: policy
 ms.assetid: d63734a0-1a88-4669-828e-de467606fc14
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RSoPAccessCheckByType, RSoPAccessCheckByType function [Group Policy], RsopAccessCheckByType, _win32_rsopaccesscheckbytype, policy.rsopaccesscheckbytype, userenv/RSoPAccessCheckByType
 ms.prod: windows
 ms.technology: windows-sdk

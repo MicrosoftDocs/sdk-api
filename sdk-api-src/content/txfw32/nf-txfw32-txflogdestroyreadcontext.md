@@ -4,10 +4,10 @@ title: TxfLogDestroyReadContext function
 author: windows-sdk-content
 description: Closes a read context created by the TxfLogCreateFileReadContext function.
 old-location: fs\txflogdestroyreadcontext.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: e1f323bd-48cb-4264-89a0-185d18881726
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: TxfLogDestroyReadContext, TxfLogDestroyReadContext function [Files], fs.txflogdestroyreadcontext, txfw32/TxfLogDestroyReadContext
 ms.prod: windows
 ms.technology: windows-sdk

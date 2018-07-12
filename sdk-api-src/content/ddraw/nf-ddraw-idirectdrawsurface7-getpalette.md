@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_getpalette.htm
 old-project: directdraw
 ms.assetid: 35a667aa-9a69-4c71-9e26-b42359815a0d
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/18/2018
 ms.keywords: GetPalette, GetPalette method [DirectDraw], GetPalette method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetPalette method, IDirectDrawSurface7.GetPalette, IDirectDrawSurface7::GetPalette, ddraw/IDirectDrawSurface7::GetPalette, directdraw.idirectdrawsurface7_getpalette
 ms.prod: windows
 ms.technology: windows-sdk

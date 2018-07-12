@@ -7,7 +7,7 @@ old-location: wmp\iwmpnetwork_get_maxbandwidth.htm
 old-project: WMP
 ms.assetid: b3b1b845-7aa5-49d7-a9da-52dea06e51c4
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_maxBandwidth method, IWMPNetwork.get_maxBandwidth, IWMPNetwork::get_maxBandwidth, IWMPNetworkget_maxBandwidth, get_maxBandwidth, get_maxBandwidth method [Windows Media Player], get_maxBandwidth method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_maxbandwidth, wmp/IWMPNetwork::get_maxBandwidth
 ms.prod: windows
 ms.technology: windows-sdk

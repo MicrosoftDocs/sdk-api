@@ -7,7 +7,7 @@ old-location: devinst\setupwritetextlog.htm
 old-project: devinst
 ms.assetid: 8a59c796-1386-495c-9790-8916d677ebd3
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: SetupWriteTextLog, SetupWriteTextLog function [Device and Driver Installation], devinst.setupwritetextlog, setupapi/SetupWriteTextLog, setupapilog-ref_42860a5c-0ea7-4185-81eb-76996286cafc.xml
 ms.prod: windows
 ms.technology: windows-sdk

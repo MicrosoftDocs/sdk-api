@@ -4,10 +4,10 @@ title: IRunningTask::get_CurrentAction
 author: windows-sdk-content
 description: Gets the name of the current action that the running task is performing.
 old-location: taskschd\irunningtask_currentaction.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 52b58477-e968-4c76-835d-02ed63cef641
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: CurrentAction property [Task Scheduler], CurrentAction property [Task Scheduler],IRunningTask interface, IRunningTask interface [Task Scheduler],CurrentAction property, IRunningTask.CurrentAction, IRunningTask.get_CurrentAction, IRunningTask::CurrentAction, IRunningTask::get_CurrentAction, get_CurrentAction, taskschd.irunningtask_currentaction, taskschd/IRunningTask::CurrentAction, taskschd/IRunningTask::get_CurrentAction
 ms.prod: windows
 ms.technology: windows-sdk

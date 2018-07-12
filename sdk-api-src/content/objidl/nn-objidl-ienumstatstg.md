@@ -4,10 +4,10 @@ title: IEnumSTATSTG
 author: windows-sdk-content
 description: Enumerates an array of STATSTG structures.
 old-location: stg\ienumstatstg.htm
-old-project: Stg
+old-project: stg
 ms.assetid: 93b8b14e-94e4-460b-9846-413affad8e4f
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: IEnumSTATSTG, IEnumSTATSTG interface [Structured Storage], IEnumSTATSTG interface [Structured Storage],described, _stg_ienumstatstg, objidl/IEnumSTATSTG, stg.ienumstatstg
 ms.prod: windows
 ms.technology: windows-sdk

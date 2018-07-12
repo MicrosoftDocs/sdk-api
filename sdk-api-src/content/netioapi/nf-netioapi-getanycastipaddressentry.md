@@ -4,10 +4,10 @@ title: GetAnycastIpAddressEntry function
 author: windows-sdk-content
 description: Retrieves information for an existing anycast IP address entry on the local computer.
 old-location: iphlp\getanycastipaddressentry.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: d60828ed-e1fd-4e57-92be-08a189c27fe5
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: GetAnycastIpAddressEntry, GetAnycastIpAddressEntry function [IP Helper], iphlp.getanycastipaddressentry, netioapi/GetAnycastIpAddressEntry
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: X509CertificateEnrollmentContext
 author: windows-sdk-content
 description: Specifies the nature of the end entity for which the certificate is intended.
 old-location: security\x509certificateenrollmentcontext_enum.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 2db0e129-a566-47ba-ab57-53c7db09e8e3
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, X509CertificateEnrollmentContext, X509CertificateEnrollmentContext enumeration [Security], certenroll/ContextAdministratorForceMachine, certenroll/ContextMachine, certenroll/ContextUser, certenroll/X509CertificateEnrollmentContext, security.x509certificateenrollmentcontext_enum
 ms.prod: windows
 ms.technology: windows-sdk

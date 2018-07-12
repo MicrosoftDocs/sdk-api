@@ -4,10 +4,10 @@ title: IX509ExtensionTemplate::InitializeEncode
 author: windows-sdk-content
 description: Initializes the extension from a template object identifier (OID) and from major and minor version numbers.
 old-location: security\ix509extensiontemplate_initializeencode_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 93590649-78b4-4f78-81b8-5c21cf91608d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509ExtensionTemplate interface [Security],InitializeEncode method, IX509ExtensionTemplate.InitializeEncode, IX509ExtensionTemplate::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionTemplate interface, certenroll/IX509ExtensionTemplate::InitializeEncode, security.ix509extensiontemplate_initializeencode_method
 ms.prod: windows
 ms.technology: windows-sdk

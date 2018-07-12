@@ -4,10 +4,10 @@ title: MSChapSrvChangePassword function
 author: windows-sdk-content
 description: Changes the password of a user account.
 old-location: mschap\mschapsrvchangepassword.htm
-old-project: MsChap
+old-project: mschap
 ms.assetid: 6c154675-4c82-4305-8231-577f990eaeb1
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MSChapSrvChangePassword, MSChapSrvChangePassword function [MS-CHAP], _mschap_mschapsrvchangepassword, mschap.mschapsrvchangepassword, mschapp/MSChapSrvChangePassword
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::GetOwner
 author: windows-sdk-content
 description: Retrieves the identity of the job's owner.
 old-location: bits\ibackgroundcopyjob_getowner.htm
-old-project: Bits
+old-project: bits
 ms.assetid: 20a645d4-57ab-4b9c-b31a-b8dbb98ea550
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetOwner, GetOwner method [BITS], GetOwner method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetOwner method, IBackgroundCopyJob.GetOwner, IBackgroundCopyJob::GetOwner, _drz_ibackgroundcopyjob_getowner, bits.ibackgroundcopyjob_getowner, bits/IBackgroundCopyJob::GetOwner
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: vhd\merge_virtual_disk_version.htm
 old-project: VStor
 ms.assetid: 1f542a51-d314-4add-a389-d450785b0a73
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: MERGE_VIRTUAL_DISK_VERSION, MERGE_VIRTUAL_DISK_VERSION enumeration [VHD], MERGE_VIRTUAL_DISK_VERSION_1, MERGE_VIRTUAL_DISK_VERSION_2, MERGE_VIRTUAL_DISK_VERSION_UNSPECIFIED, _MERGE_VIRTUAL_DISK_VERSION, vdssys/MERGE_VIRTUAL_DISK_VERSION, vdssys/MERGE_VIRTUAL_DISK_VERSION_1, vdssys/MERGE_VIRTUAL_DISK_VERSION_2, vdssys/MERGE_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.merge_virtual_disk_version, virtdisk/MERGE_VIRTUAL_DISK_VERSION, virtdisk/MERGE_VIRTUAL_DISK_VERSION_1, virtdisk/MERGE_VIRTUAL_DISK_VERSION_2, virtdisk/MERGE_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: RtlInterlockedPopEntrySList function
 author: windows-sdk-content
 description: Removes an item from the front of a singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: base\rtlinterlockedpopentryslist.htm
-old-project: Sync
+old-project: sync
 ms.assetid: a3c14d28-627f-42e1-b149-04a333a2cde1
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/06/2018
 ms.keywords: RtlInterlockedPopEntrySList, RtlInterlockedPopEntrySList function, base.rtlinterlockedpopentryslist, winnt/RtlInterlockedPopEntrySList
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xps\ixpssignature_verify.htm
 old-project: printdocs
 ms.assetid: 6f3239dd-e29f-4340-a4ad-49ceb6a151de
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IXpsSignature interface [XPS Documents and Packaging],Verify method, IXpsSignature.Verify, IXpsSignature::Verify, Verify, Verify method [XPS Documents and Packaging], Verify method [XPS Documents and Packaging],IXpsSignature interface, xps.ixpssignature_verify, xpsdigitalsignature/IXpsSignature::Verify
 ms.prod: windows
 ms.technology: windows-sdk

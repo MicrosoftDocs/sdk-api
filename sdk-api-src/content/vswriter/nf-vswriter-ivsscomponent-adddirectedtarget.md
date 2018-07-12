@@ -4,10 +4,10 @@ title: IVssComponent::AddDirectedTarget
 author: windows-sdk-content
 description: The AddDirectedTarget method allows a writer to indicate at restore time that when a file is to be restored, it (the source file) should be remapped.
 old-location: base\ivsscomponent_adddirectedtarget.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 927865ff-f3c4-4863-913e-cfffb7bbdbb2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: AddDirectedTarget, AddDirectedTarget method [VSS], AddDirectedTarget method [VSS],IVssComponent interface, IVssComponent interface [VSS],AddDirectedTarget method, IVssComponent.AddDirectedTarget, IVssComponent::AddDirectedTarget, _win32_ivsscomponent_adddirectedtarget, base.ivsscomponent_adddirectedtarget, vswriter/IVssComponent::AddDirectedTarget
 ms.prod: windows
 ms.technology: windows-sdk

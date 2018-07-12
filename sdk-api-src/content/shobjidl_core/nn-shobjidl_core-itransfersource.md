@@ -7,7 +7,7 @@ old-location: shell\ITransferSource.htm
 old-project: shell
 ms.assetid: 341966d4-f9cf-457d-97ef-8e6107544283
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: ITransferSource, ITransferSource interface [Windows Shell], ITransferSource interface [Windows Shell],described, _shell_ITransferSource, shell.ITransferSource, shobjidl_core/ITransferSource
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: display\englocksurface.htm
 old-project: display
 ms.assetid: a5d44e16-459c-4722-b3e8-5dc4b5be5865
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: EngLockSurface, EngLockSurface function [Display Devices], display.englocksurface, gdifncs_99ca0d6a-a445-42ad-96fb-4ef8d3e23db7.xml, winddi/EngLockSurface
 ms.prod: windows
 ms.technology: windows-sdk

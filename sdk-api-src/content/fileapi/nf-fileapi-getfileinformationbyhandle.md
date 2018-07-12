@@ -4,10 +4,10 @@ title: GetFileInformationByHandle function
 author: windows-sdk-content
 description: Retrieves file information for the specified file.
 old-location: fs\getfileinformationbyhandle.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: d026ee3a-c165-42a2-a4e1-efccdafbefc5
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: GetFileInformationByHandle, GetFileInformationByHandle function [Files], _win32_getfileinformationbyhandle, base.getfileinformationbyhandle, fileapi/GetFileInformationByHandle, fs.getfileinformationbyhandle, winbase/GetFileInformationByHandle
 ms.prod: windows
 ms.technology: windows-sdk

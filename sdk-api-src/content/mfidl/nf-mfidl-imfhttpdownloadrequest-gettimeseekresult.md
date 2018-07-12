@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_gettimeseekresult.htm
 old-project: medfound
 ms.assetid: C7647460-8BAA-4480-A296-D83DFFBC5800
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetTimeSeekResult, GetTimeSeekResult method [Media Foundation], GetTimeSeekResult method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetTimeSeekResult method, IMFHttpDownloadRequest.GetTimeSeekResult, IMFHttpDownloadRequest::GetTimeSeekResult, mf.imfhttpdownloadrequest_gettimeseekresult, mfidl/IMFHttpDownloadRequest::GetTimeSeekResult
 ms.prod: windows
 ms.technology: windows-sdk

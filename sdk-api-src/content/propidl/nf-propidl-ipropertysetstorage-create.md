@@ -4,10 +4,10 @@ title: IPropertySetStorage::Create
 author: windows-sdk-content
 description: Creates and opens a new property set in the property set storage object.
 old-location: stg\ipropertysetstorage_create.htm
-old-project: Stg
+old-project: stg
 ms.assetid: 9307788d-bce6-4025-8043-8b68e874a62b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: Create, Create method [Structured Storage], Create method [Structured Storage],IPropertySetStorage interface, IPropertySetStorage interface [Structured Storage],Create method, IPropertySetStorage.Create, IPropertySetStorage::Create, _stg_ipropertysetstorage_create, propidl/IPropertySetStorage::Create, stg.ipropertysetstorage_create
 ms.prod: windows
 ms.technology: windows-sdk

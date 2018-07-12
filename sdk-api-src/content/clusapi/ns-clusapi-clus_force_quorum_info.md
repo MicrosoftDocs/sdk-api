@@ -4,10 +4,10 @@ title: CLUS_FORCE_QUORUM_INFO
 author: windows-sdk-content
 description: Specifies information about the list of nodes sufficient to establish quorum in a majority-of-nodes cluster.
 old-location: mscs\clus_force_quorum_info.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: dda10d88-0e5f-40f7-b18b-82dacef6f886
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: "*PCLUS_FORCE_QUORUM_INFO, CLUS_FORCE_QUORUM_INFO, CLUS_FORCE_QUORUM_INFO structure [Failover Cluster], PCLUS_FORCE_QUORUM_INFO, PCLUS_FORCE_QUORUM_INFO structure pointer [Failover Cluster], _wolf_clus_force_quorum_info, clusapi/CLUS_FORCE_QUORUM_INFO, clusapi/PCLUS_FORCE_QUORUM_INFO, mscs.clus_force_quorum_info"
 ms.prod: windows
 ms.technology: windows-sdk

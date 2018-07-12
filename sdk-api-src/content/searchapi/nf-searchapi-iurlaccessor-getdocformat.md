@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_GetDocFormat.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getdocformat.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetDocFormat, GetDocFormat method [search], GetDocFormat method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetDocFormat method, IUrlAccessor.GetDocFormat, IUrlAccessor::GetDocFormat, _search_IUrlAccessor_GetDocFormat, search._search_IUrlAccessor_GetDocFormat, searchapi/IUrlAccessor::GetDocFormat
 ms.prod: windows
 ms.technology: windows-sdk

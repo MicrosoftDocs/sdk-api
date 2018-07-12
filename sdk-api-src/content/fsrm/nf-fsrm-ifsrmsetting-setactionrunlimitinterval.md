@@ -4,10 +4,10 @@ title: IFsrmSetting::SetActionRunLimitInterval
 author: windows-sdk-content
 description: Sets the time that an action that uses the global run limit interval must wait before the action is run again.
 old-location: fsrm\ifsrmsetting_setactionrunlimitinterval.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 4cd4d583-2906-4ba0-b113-c21db143dec2
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: FsrmSetting class [File Server Resource Manager],SetActionRunLimitInterval method, IFsrmSetting interface [File Server Resource Manager],SetActionRunLimitInterval method, IFsrmSetting.SetActionRunLimitInterval, IFsrmSetting::SetActionRunLimitInterval, SetActionRunLimitInterval, SetActionRunLimitInterval method [File Server Resource Manager], SetActionRunLimitInterval method [File Server Resource Manager],FsrmSetting class, SetActionRunLimitInterval method [File Server Resource Manager],IFsrmSetting interface, fs.ifsrmsetting_setactionrunlimitinterval, fsrm.ifsrmsetting_setactionrunlimitinterval, fsrm/IFsrmSetting::SetActionRunLimitInterval
 ms.prod: windows
 ms.technology: windows-sdk

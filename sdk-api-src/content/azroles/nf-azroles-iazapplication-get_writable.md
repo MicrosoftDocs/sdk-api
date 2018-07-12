@@ -4,10 +4,10 @@ title: IAzApplication::get_Writable
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the object can be modified by the user context that initialized it.
 old-location: security\iazapplication_writable.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: b7aacab4-e013-4649-9673-790dfaafffd9
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: AzApplication object [Security],Writable property, IAzApplication interface [Security],Writable property, IAzApplication.Writable, IAzApplication.get_Writable, IAzApplication::Writable, IAzApplication::get_Writable, Writable property [Security], Writable property [Security],AzApplication object, Writable property [Security],IAzApplication interface, azroles/IAzApplication::Writable, azroles/IAzApplication::get_Writable, get_Writable, security.iazapplication_writable
 ms.prod: windows
 ms.technology: windows-sdk

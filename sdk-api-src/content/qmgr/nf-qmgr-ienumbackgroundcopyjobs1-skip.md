@@ -4,10 +4,10 @@ title: IEnumBackgroundCopyJobs1::Skip
 author: windows-sdk-content
 description: Use the Skip method to skip the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
 old-location: bits\ienumbackgroundcopyjobs1_skip.htm
-old-project: Bits
+old-project: bits
 ms.assetid: b388530c-688a-46a9-ae23-370f902b870e
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IEnumBackgroundCopyJobs1 interface [BITS],Skip method, IEnumBackgroundCopyJobs1.Skip, IEnumBackgroundCopyJobs1::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBackgroundCopyJobs1 interface, bits.ienumbackgroundcopyjobs1_skip, qmgr/IEnumBackgroundCopyJobs1::Skip
 ms.prod: windows
 ms.technology: windows-sdk

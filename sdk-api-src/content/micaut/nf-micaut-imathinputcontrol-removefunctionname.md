@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_removefunctionname.htm
 old-project: tablet
 ms.assetid: 7c1a16c7-4490-480d-9831-ca297ccdde80
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: IMathInputControl interface [Tablet PC],RemoveFunctionName method, IMathInputControl.RemoveFunctionName, IMathInputControl::RemoveFunctionName, RemoveFunctionName, RemoveFunctionName method [Tablet PC], RemoveFunctionName method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::RemoveFunctionName, tablet.imathinputcontrol_removefunctionname
 ms.prod: windows
 ms.technology: windows-sdk

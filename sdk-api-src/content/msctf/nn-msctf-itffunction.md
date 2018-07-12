@@ -7,7 +7,7 @@ old-location: tsf\itffunction.htm
 old-project: TSF
 ms.assetid: 140b1ed8-8876-4f06-8ed2-7b0dccdc0a69
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfFunction, ITfFunction interface [Text Services Framework], ITfFunction interface [Text Services Framework],described, _tsf_itffunction_ref, msctf/ITfFunction, tsf.itffunction
 ms.prod: windows
 ms.technology: windows-sdk

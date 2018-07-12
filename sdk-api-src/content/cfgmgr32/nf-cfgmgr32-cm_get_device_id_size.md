@@ -7,7 +7,7 @@ old-location: devinst\cm_get_device_id_size.htm
 old-project: devinst
 ms.assetid: 3ae682d0-d9fa-4a29-8258-c6f72f1940b7
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: CM_Get_Device_ID_Size, CM_Get_Device_ID_Size function [Device and Driver Installation], cfgmgr32/CM_Get_Device_ID_Size, cfgmgrfn_7e0a024a-355c-4c4d-8aa2-9ec4078c3a3a.xml, devinst.cm_get_device_id_size
 ms.prod: windows
 ms.technology: windows-sdk

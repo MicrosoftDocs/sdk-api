@@ -7,7 +7,7 @@ old-location: shell\IDesktopWallpaper_Enable.htm
 old-project: shell
 ms.assetid: 8BC04B93-4BF4-4713-8EF8-C4BCF1C8090E
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: Enable, Enable method [Windows Shell], Enable method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],Enable method, IDesktopWallpaper.Enable, IDesktopWallpaper::Enable, shell.IDesktopWallpaper_Enable, shobjidl_core/IDesktopWallpaper::Enable
 ms.prod: windows
 ms.technology: windows-sdk

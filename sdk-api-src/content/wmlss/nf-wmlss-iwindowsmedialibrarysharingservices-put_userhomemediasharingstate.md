@@ -4,10 +4,10 @@ title: IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState
 author: windows-sdk-content
 description: The put_userHomeMediaSharingState method enables or disables sharing of the current user's media library on the home network.
 old-location: wmlss\IWMLSSput_userHomeMediaSharingState.htm
-old-project: WMLSS
+old-project: wmlss
 ms.assetid: d638da61-8196-4d46-ad98-fd7ab8a19e9b
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_userHomeMediaSharingState method, IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingState, IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState, put_userHomeMediaSharingState, put_userHomeMediaSharingState method [Windows Media Library Sharing Services], put_userHomeMediaSharingState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_userHomeMediaSharingState, wmlss/IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState
 ms.prod: windows
 ms.technology: windows-sdk

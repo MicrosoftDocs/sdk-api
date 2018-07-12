@@ -4,10 +4,10 @@ title: ClearCommBreak function
 author: windows-sdk-content
 description: Restores character transmission for a specified communications device and places the transmission line in a nonbreak state.
 old-location: base\clearcommbreak.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 9692242c-e209-4492-ab0b-333f09595597
 ms.author: windowssdkdev
-ms.date: 04/03/2018
+ms.date: 06/29/2018
 ms.keywords: ClearCommBreak, ClearCommBreak function, _win32_clearcommbreak, base.clearcommbreak, winbase/ClearCommBreak
 ms.prod: windows
 ms.technology: windows-sdk

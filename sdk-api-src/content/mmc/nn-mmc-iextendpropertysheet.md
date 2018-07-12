@@ -4,10 +4,10 @@ title: IExtendPropertySheet
 author: windows-sdk-content
 description: Enables a snap-in component to add pages to the property sheet of an item.
 old-location: mmc\iextendpropertysheet.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: BE0AD832-0FF0-44ED-BD11-3F9BD2860DE5
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: IExtendPropertySheet, IExtendPropertySheet interface [MMC], IExtendPropertySheet interface [MMC],described, mmc.iextendpropertysheet, mmc/IExtendPropertySheet
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ListView_SetView macro
 author: windows-sdk-content
 description: Sets the view of a list-view control. You can use this macro or send the LVM_SETVIEW message explicitly.
 old-location: controls\ListView_SetView.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setview.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListView_SetView, ListView_SetView macro [Windows Controls], _win32_ListView_SetView, _win32_ListView_SetView_cpp, commctrl/ListView_SetView, controls.ListView_SetView, controls._win32_ListView_SetView
 ms.prod: windows
 ms.technology: windows-sdk

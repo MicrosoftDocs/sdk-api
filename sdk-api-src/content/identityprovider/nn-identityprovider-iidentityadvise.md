@@ -7,7 +7,7 @@ old-location: security\iidentityadvise.htm
 old-project: SecAuthN
 ms.assetid: fa348d46-bcd2-4009-89d6-11e738d4a82b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: IIdentityAdvise, IIdentityAdvise interface [Security], IIdentityAdvise interface [Security],described, identityprovider/IIdentityAdvise, identitystore/IIdentityAdvise, security.iidentityadvise
 ms.prod: windows
 ms.technology: windows-sdk

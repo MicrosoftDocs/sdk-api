@@ -7,7 +7,7 @@ old-location: dxmath\xmconvertfloattohalfstream.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.conversion.XMConvertFloatToHalfStream(HALF@,uint32_t,const float,uint32_t,uint32_t)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 06/14/2018
 ms.keywords: DirectX::PackedVector.XMConvertFloatToHalfStream, XMConvertFloatToHalfStream, XMConvertFloatToHalfStream method [DirectX Math Support APIs], dxmath.xmconvertfloattohalfstream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -34,7 +34,7 @@ topic_type:
 api_type:
  - COM
 api_location:
- - directxpackedvector.inl
+ - directxpackedvector.h
 api_name:
  - XMConvertFloatToHalfStream
 product: Windows

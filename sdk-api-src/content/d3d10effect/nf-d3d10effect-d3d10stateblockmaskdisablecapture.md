@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10stateblockmaskdisablecapture.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10stateblockmaskdisablecapture.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 94486a35-b1e6-78b2-b9fb-00c0ab5d19f3, D3D10StateBlockMaskDisableCapture, D3D10StateBlockMaskDisableCapture function [Direct3D 10], d3d10effect/D3D10StateBlockMaskDisableCapture, direct3d10.d3d10stateblockmaskdisablecapture
 ms.prod: windows
 ms.technology: windows-sdk

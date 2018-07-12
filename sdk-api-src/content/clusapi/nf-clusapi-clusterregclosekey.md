@@ -4,10 +4,10 @@ title: ClusterRegCloseKey function
 author: windows-sdk-content
 description: Releases the handle of a cluster database key.
 old-location: mscs\clusterregclosekey.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 2216ac42-6beb-4ceb-bd15-12bb2886bc6a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusterRegCloseKey, ClusterRegCloseKey function [Failover Cluster], _wolf_clusterregclosekey, clusapi/ClusterRegCloseKey, mscs.clusterregclosekey
 ms.prod: windows
 ms.technology: windows-sdk

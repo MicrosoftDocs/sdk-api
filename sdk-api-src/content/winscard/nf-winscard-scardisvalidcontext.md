@@ -7,7 +7,7 @@ old-location: security\scardisvalidcontext.htm
 old-project: SecAuthN
 ms.assetid: 50bcb6aa-6265-4035-8265-45990f791ce3
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: SCardIsValidContext, SCardIsValidContext function [Security], _smart_scardisvalidcontext, security.scardisvalidcontext, winscard/SCardIsValidContext
 ms.prod: windows
 ms.technology: windows-sdk

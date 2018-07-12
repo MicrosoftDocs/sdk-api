@@ -4,10 +4,10 @@ title: IEnumBitsPeerCacheRecords
 author: windows-sdk-content
 description: Use IEnumBitsPeerCacheRecords to enumerate the records of the cache.
 old-location: bits\ienumbitspeercacherecords.htm
-old-project: Bits
+old-project: bits
 ms.assetid: 680c1468-d780-44a3-9048-c7c3928234f9
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IEnumBitsPeerCacheRecords, IEnumBitsPeerCacheRecords interface [BITS], IEnumBitsPeerCacheRecords interface [BITS],described, bits.ienumbitspeercacherecords, bits3_0/IEnumBitsPeerCacheRecords
 ms.prod: windows
 ms.technology: windows-sdk

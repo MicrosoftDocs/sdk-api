@@ -7,7 +7,7 @@ old-location: termserv\wtsclient.htm
 old-project: TermServ
 ms.assetid: 864b7560-3f19-4a73-a02b-b82caa88b2de
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: "*PWTSCLIENTA, PWTSCLIENT, PWTSCLIENT structure pointer [Remote Desktop Services], WTSCLIENT, WTSCLIENT structure [Remote Desktop Services], WTSCLIENTA, WTSCLIENTW, _WTSCLIENTA, termserv.wtsclient, wtsapi32/PWTSCLIENT, wtsapi32/WTSCLIENT, wtsapi32/WTSCLIENTA, wtsapi32/WTSCLIENTW"
 ms.prod: windows
 ms.technology: windows-sdk

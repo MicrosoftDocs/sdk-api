@@ -4,10 +4,10 @@ title: NS_DLL_STOP_FN
 author: windows-sdk-content
 description: Is the DLL stop function for helper DLLs.
 old-location: netshell\ns_dll_stop_fn.htm
-old-project: NetShell
+old-project: netshell
 ms.assetid: 3bc6811c-0661-4fd7-aab1-6b0b21ab16f4
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: NS_DLL_STOP_FN, NS_DLL_STOP_FN callback, NS_DLL_STOP_FN callback function [NetShell], SampleStop, _netsh_ns_dll_stop_fn, netsh/NS_DLL_STOP_FN, netshell.ns_dll_stop_fn
 ms.prod: windows
 ms.technology: windows-sdk

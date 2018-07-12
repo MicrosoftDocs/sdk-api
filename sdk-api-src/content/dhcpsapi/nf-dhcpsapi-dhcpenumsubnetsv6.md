@@ -4,10 +4,10 @@ title: DhcpEnumSubnetsV6 function
 author: windows-sdk-content
 description: The DhcpEnumSubnetsV6 function returns an enumerated list of subnets defined on the DHCP server.
 old-location: dhcp\dhcpenumsubnetsv6.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 8e706ae7-6c4d-423d-a652-a101384104e8
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DhcpEnumSubnetsV6, DhcpEnumSubnetsV6 function [DHCP], dhcp.dhcpenumsubnetsv6, dhcpsapi/DhcpEnumSubnetsV6
 ms.prod: windows
 ms.technology: windows-sdk

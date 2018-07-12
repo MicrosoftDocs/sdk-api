@@ -4,10 +4,10 @@ title: "_DHCP_SUBNET_INFO_VQ"
 author: windows-sdk-content
 description: Defines information that describes a subnet.
 old-location: dhcp\dhcp_subnet_info_vq.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 8440378e-c1dc-4e22-8c56-2cf4412c2483
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPDHCP_SUBNET_INFO_VQ, DHCP_SUBNET_INFO_VQ, DHCP_SUBNET_INFO_VQ structure [DHCP], LPDHCP_SUBNET_INFO_VQ, LPDHCP_SUBNET_INFO_VQ structure pointer [DHCP], _DHCP_SUBNET_INFO_VQ, dhcp.dhcp_subnet_info_vq, dhcpsapi/DHCP_SUBNET_INFO_VQ, dhcpsapi/LPDHCP_SUBNET_INFO_VQ"
 ms.prod: windows
 ms.technology: windows-sdk

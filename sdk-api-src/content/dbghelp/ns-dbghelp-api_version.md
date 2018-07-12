@@ -4,10 +4,10 @@ title: API_VERSION
 author: windows-sdk-content
 description: Contains the library version.
 old-location: base\api_version_str.htm
-old-project: Debug
+old-project: debug
 ms.assetid: f983f639-6a94-4b83-a443-0d98b85d3950
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*LPAPI_VERSION, API_VERSION, API_VERSION structure, LPAPI_VERSION, LPAPI_VERSION structure pointer, _win32_api_version_str, base.api_version_str, dbghelp/API_VERSION, dbghelp/LPAPI_VERSION"
 ms.prod: windows
 ms.technology: windows-sdk

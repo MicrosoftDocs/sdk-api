@@ -7,7 +7,7 @@ old-location: search\_search_ISearchPersistentItemsChangedSink_StartedMonitoring
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchpersistentitemschangedsink\startedmonitoringscope.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISearchPersistentItemsChangedSink interface [search],StartedMonitoringScope method, ISearchPersistentItemsChangedSink.StartedMonitoringScope, ISearchPersistentItemsChangedSink::StartedMonitoringScope, StartedMonitoringScope, StartedMonitoringScope method [search], StartedMonitoringScope method [search],ISearchPersistentItemsChangedSink interface, _search_ISearchPersistentItemsChangedSink_StartedMonitoringScope, search._search_ISearchPersistentItemsChangedSink_StartedMonitoringScope, searchapi/ISearchPersistentItemsChangedSink::StartedMonitoringScope
 ms.prod: windows
 ms.technology: windows-sdk

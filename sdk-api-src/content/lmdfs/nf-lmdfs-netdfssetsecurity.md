@@ -4,10 +4,10 @@ title: NetDfsSetSecurity function
 author: windows-sdk-content
 description: Sets the security descriptor for the root object of the specified DFS namespace.
 old-location: dfs\netdfssetsecurity.htm
-old-project: Dfs
+old-project: dfs
 ms.assetid: 7ee81f67-face-498f-b5bd-ca2636408012
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: NetDfsSetSecurity, NetDfsSetSecurity function [Distributed File System], dfs.netdfssetsecurity, fs.netdfssetsecurity, lmdfs/NetDfsSetSecurity, netmgmt.netdfssetsecurity
 ms.prod: windows
 ms.technology: windows-sdk

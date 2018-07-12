@@ -4,10 +4,10 @@ title: ITTAPIObjectEvent::get_Address
 author: windows-sdk-content
 description: The get_Address method gets a pointer to the Address object on which the event occurred.
 old-location: tapi3\ittapiobjectevent_get_address.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: dfe4ec23-42ae-4bb7-86cc-4d45d36b8817
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITTAPIObjectEvent interface [TAPI 2.2],get_Address method, ITTAPIObjectEvent.get_Address, ITTAPIObjectEvent::get_Address, _tapi3_ittapiobjectevent_get_address, get_Address, get_Address method [TAPI 2.2], get_Address method [TAPI 2.2],ITTAPIObjectEvent interface, tapi3.ittapiobjectevent_get_address, tapi3if/ITTAPIObjectEvent::get_Address
 ms.prod: windows
 ms.technology: windows-sdk

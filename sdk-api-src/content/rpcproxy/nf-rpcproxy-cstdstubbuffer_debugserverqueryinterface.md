@@ -4,10 +4,10 @@ title: CStdStubBuffer_DebugServerQueryInterface function
 author: windows-sdk-content
 description: The CStdStubBuffer_DebugServerQueryInterface function implements the IRpcStubBuffer::DebugServerQueryInterface method.
 old-location: rpc\cstdstubbuffer_debugserverqueryinterface.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: 25c7f71a-7d47-4ea1-9bd0-001a1a01529d
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: CStdStubBuffer_DebugServerQueryInterface, CStdStubBuffer_DebugServerQueryInterface function [RPC], rpc.cstdstubbuffer_debugserverqueryinterface, rpcproxy/CStdStubBuffer_DebugServerQueryInterface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: ADAM
 
 <p class="CCE_Message">[CStdStubBuffer_DebugServerQueryInterface is not supported and may be altered or unavailable in the future.]
 
-The <b>CStdStubBuffer_DebugServerQueryInterface</b> function implements the <a href="_com_irpcstubbuffer_debugserverqueryinterface">IRpcStubBuffer::DebugServerQueryInterface</a> method.
+The <b>CStdStubBuffer_DebugServerQueryInterface</b> function implements the <a href="https://msdn.microsoft.com/library/ms692801(v=VS.85).aspx">IRpcStubBuffer::DebugServerQueryInterface</a> method.
 
 
 ## -parameters

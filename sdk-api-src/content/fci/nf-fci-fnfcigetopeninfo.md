@@ -7,7 +7,7 @@ old-location: winprog\fnfcigetopeninfo.htm
 old-project: DevNotes
 ms.assetid: 5baccb69-7872-4d67-ad74-70cdd7459f8d
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: FNFCIGETOPENINFO, FNFCIGETOPENINFO macro [Windows API], fci/FNFCIGETOPENINFO, winprog.fnfcigetopeninfo
 ms.prod: windows
 ms.technology: windows-sdk

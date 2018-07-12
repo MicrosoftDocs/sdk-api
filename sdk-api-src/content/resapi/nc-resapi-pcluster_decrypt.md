@@ -4,10 +4,10 @@ title: PCLUSTER_DECRYPT
 author: windows-sdk-content
 description: Decrypts Checkpointing data for a Cryptographic Service Provider (CSP).
 old-location: mscs\clusterdecrypt.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: F851BA13-3261-462C-98EA-402F77A39A14
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSTER_DECRYPT, PCLUSTER_DECRYPT callback, PCLUSTER_DECRYPT callback function [Failover Cluster], mscs.clusterdecrypt, resapi/PCLUSTER_DECRYPT
 ms.prod: windows
 ms.technology: windows-sdk

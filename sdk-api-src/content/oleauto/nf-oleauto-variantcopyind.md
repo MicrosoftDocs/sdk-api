@@ -7,7 +7,7 @@ old-location: automat\variantcopyind.htm
 old-project: automat
 ms.assetid: 5d9be6cd-92e5-485c-ba0d-8630d3e414b8
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VariantCopyInd, VariantCopyInd function [Automation], _oa96_VariantCopyInd, automat.variantcopyind, oleauto/VariantCopyInd
 ms.prod: windows
 ms.technology: windows-sdk

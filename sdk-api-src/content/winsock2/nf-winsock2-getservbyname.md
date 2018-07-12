@@ -7,7 +7,7 @@ old-location: winsock\getservbyname_2.htm
 old-project: WinSock
 ms.assetid: 730fa372-f620-4d21-99b9-3e7b79932792
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: "_win32_getservbyname_2, getservbyname, getservbyname function [Winsock], winsock.getservbyname_2, winsock/getservbyname"
 ms.prod: windows
 ms.technology: windows-sdk

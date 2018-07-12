@@ -4,10 +4,10 @@ title: ListView_GetTopIndex macro
 author: windows-sdk-content
 description: Gets the index of the topmost visible item when in list or report view. You can use this macro or send the LVM_GETTOPINDEX message explicitly.
 old-location: controls\ListView_GetTopIndex.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gettopindex.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListView_GetTopIndex, ListView_GetTopIndex macro [Windows Controls], _win32_ListView_GetTopIndex, _win32_ListView_GetTopIndex_cpp, commctrl/ListView_GetTopIndex, controls.ListView_GetTopIndex, controls._win32_ListView_GetTopIndex
 ms.prod: windows
 ms.technology: windows-sdk

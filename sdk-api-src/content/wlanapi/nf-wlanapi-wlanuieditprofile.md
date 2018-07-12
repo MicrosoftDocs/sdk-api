@@ -7,7 +7,7 @@ old-location: nwifi\wlanuieditprofile.htm
 old-project: NativeWiFi
 ms.assetid: e6453a70-2a11-4f01-adc1-67346a5856b2
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: WlanUIEditProfile, WlanUIEditProfile function [NativeWIFI], nwifi.wlanuieditprofile, wlanapi/WlanUIEditProfile
 ms.prod: windows
 ms.technology: windows-sdk

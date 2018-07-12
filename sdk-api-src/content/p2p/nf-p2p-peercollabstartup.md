@@ -4,10 +4,10 @@ title: PeerCollabStartup function
 author: windows-sdk-content
 description: Initializes the Peer Collaboration infrastructure.
 old-location: p2p\peercollabstartup.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: b3f4ac2a-c722-4609-b893-c4b9667ae559
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerCollabStartup, PeerCollabStartup function [Peer Networking], p2p.peercollabstartup, p2p/PeerCollabStartup
 ms.prod: windows
 ms.technology: windows-sdk

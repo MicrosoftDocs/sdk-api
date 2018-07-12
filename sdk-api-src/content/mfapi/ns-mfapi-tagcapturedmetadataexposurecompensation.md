@@ -7,7 +7,7 @@ old-location: stream\capturedmetadataexposurecompensation.htm
 old-project: stream
 ms.assetid: B7C32495-F9A1-4206-81D2-DCA247F83901
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/22/2018
 ms.keywords: CapturedMetadataExposureCompensation, CapturedMetadataExposureCompensation structure [Streaming Media Devices], mfapi/CapturedMetadataExposureCompensation, stream.capturedmetadataexposurecompensation, tagCapturedMetadataExposureCompensation
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectrendercontext_getfinaltransform.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\getfinaltransform.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: GetFinalTransform, GetFinalTransform method [WPF Bitmap Effects], GetFinalTransform method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],GetFinalTransform method, IMILBitmapEffectRenderContext.GetFinalTransform, IMILBitmapEffectRenderContext::GetFinalTransform, _wibe_imilbitmapeffectrendercontext_getfinaltransform, mileffects/IMILBitmapEffectRenderContext::GetFinalTransform, wibe._wibe_imilbitmapeffectrendercontext_getfinaltransform
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IOfflineFilesEvents::Enabled
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: of\iofflinefilesevents_enabled.htm
-old-project: OfflineFiles
+old-project: offlinefiles
 ms.assetid: 47db9318-2418-4e6c-aac0-75b0b498c7e6
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: Enabled, Enabled method [Offline Files], Enabled method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],Enabled method, IOfflineFilesEvents.Enabled, IOfflineFilesEvents::Enabled, cscobj/IOfflineFilesEvents::Enabled, of.iofflinefilesevents_enabled
 ms.prod: windows
 ms.technology: windows-sdk

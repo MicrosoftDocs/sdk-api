@@ -7,7 +7,7 @@ old-location: display\ddvideoportupdate.htm
 old-project: display
 ms.assetid: 50a55a89-bae0-4a65-96ef-3e9903f45a0c
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: DdVideoPortUpdate, DdVideoPortUpdate callback function [Display Devices], PDD_VPORTCB_UPDATE, PDD_VPORTCB_UPDATE callback, ddfncs_fd19067f-3bed-443f-a11f-78b740d9e34b.xml, ddrawint/DdVideoPortUpdate, display.ddvideoportupdate
 ms.prod: windows
 ms.technology: windows-sdk

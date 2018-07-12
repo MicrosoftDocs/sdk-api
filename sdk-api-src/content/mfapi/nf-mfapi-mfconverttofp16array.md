@@ -7,7 +7,7 @@ old-location: mf\mfconverttofp16array.htm
 old-project: medfound
 ms.assetid: b2149336-f1b2-4244-bf50-4e79638786e0
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: MFConvertToFP16Array, MFConvertToFP16Array function [Media Foundation], b2149336-f1b2-4244-bf50-4e79638786e0, mf.mfconverttofp16array, mfapi/MFConvertToFP16Array
 ms.prod: windows
 ms.technology: windows-sdk

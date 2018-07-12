@@ -7,7 +7,7 @@ old-location: dataxchg\packddelparam.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangefunctions\packddelparam.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: PackDDElParam, PackDDElParam function [Data Exchange], _win32_PackDDElParam, _win32_packddelparam_cpp, dataxchg.packddelparam, dde/PackDDElParam, winui._win32_packddelparam
 ms.prod: windows
 ms.technology: windows-sdk

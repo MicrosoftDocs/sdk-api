@@ -18,6 +18,5 @@
     "winbase.inl",
     "sfcfiles.h",
     "sfc.h"
-  ],
-  "displayName": "Application Installation and Servicing"
+  ]
 }

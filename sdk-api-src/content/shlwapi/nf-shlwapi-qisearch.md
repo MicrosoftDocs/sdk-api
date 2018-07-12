@@ -7,7 +7,7 @@ old-location: shell\QISearch.htm
 old-project: shell
 ms.assetid: 8429778b-bc9c-43f6-8d75-0fb78e36e790
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: QISearch, QISearch function [Windows Shell], _win32_QISearch, shell.QISearch, shlwapi/QISearch
 ms.prod: windows
 ms.technology: windows-sdk

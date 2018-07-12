@@ -4,10 +4,10 @@ title: ICEnroll2::addCertTypeToRequest
 author: windows-sdk-content
 description: Adds a certificate template to a request (used to support the enterprise certification authority (CA)). This method was first defined by the ICEnroll2 interface.
 old-location: security\icenroll4_addcerttypetorequest.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: d2c22689-d386-43d1-a42f-f303a034a087
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CEnroll object [Security],addCertTypeToRequest method, ICEnroll2 interface [Security],addCertTypeToRequest method, ICEnroll2.addCertTypeToRequest, ICEnroll2::addCertTypeToRequest, ICEnroll3 interface [Security],addCertTypeToRequest method, ICEnroll3::addCertTypeToRequest, ICEnroll4 interface [Security],addCertTypeToRequest method, ICEnroll4::addCertTypeToRequest, addCertTypeToRequest, addCertTypeToRequest method [Security], addCertTypeToRequest method [Security],CEnroll object, addCertTypeToRequest method [Security],ICEnroll2 interface, addCertTypeToRequest method [Security],ICEnroll3 interface, addCertTypeToRequest method [Security],ICEnroll4 interface, security.icenroll4_addcerttypetorequest, xenroll/ICEnroll2::addCertTypeToRequest, xenroll/ICEnroll3::addCertTypeToRequest, xenroll/ICEnroll4::addCertTypeToRequest
 ms.prod: windows
 ms.technology: windows-sdk

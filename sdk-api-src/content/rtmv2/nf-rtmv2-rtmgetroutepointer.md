@@ -4,10 +4,10 @@ title: RtmGetRoutePointer function
 author: windows-sdk-content
 description: The RtmGetRoutePointer function obtains a direct pointer to a route that allows the owner of the route read access.
 old-location: rras\rtmgetroutepointer.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 889e318c-b515-48bc-9117-83e8c1bb6f1a
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RtmGetRoutePointer, RtmGetRoutePointer function [RAS], _rtmv2ref_rtmgetroutepointer, rras.rtmgetroutepointer, rtmv2/RtmGetRoutePointer
 ms.prod: windows
 ms.technology: windows-sdk

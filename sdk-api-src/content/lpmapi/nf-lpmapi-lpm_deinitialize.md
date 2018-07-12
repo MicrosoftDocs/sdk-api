@@ -4,10 +4,10 @@ title: LPM_Deinitialize function
 author: windows-sdk-content
 description: The LPM_Deinitialize function allows the PCM to instruct LPMs to deinitialize, whether due to system shutdown or a change in Designated Subnet Bandwidth Manager (DSBM) status.
 old-location: qos\lpm_deinitialize.htm
-old-project: QOS
+old-project: qos
 ms.assetid: d3a1edc5-a3fd-4c49-9cd9-f06ba56fec81
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: LPM_Deinitialize, LPM_Deinitialize callback, LPM_Deinitialize callback function [QOS], _gqos_lpm_deinitialize, lpmapi/LPM_Deinitialize, qos.lpm_deinitialize
 ms.prod: windows
 ms.technology: windows-sdk

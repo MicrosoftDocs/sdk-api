@@ -4,10 +4,10 @@ title: IScheduledWorkItem::SetComment
 author: windows-sdk-content
 description: Sets the comment for the work item.
 old-location: taskschd\ischeduledworkitem_setcomment.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: c6017aa1-8860-454c-a402-becbc1a4ee5c
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetComment method, IScheduledWorkItem.SetComment, IScheduledWorkItem::SetComment, SetComment, SetComment method [Task Scheduler], SetComment method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setcomment, mstask/IScheduledWorkItem::SetComment, taskschd.ischeduledworkitem_setcomment
 ms.prod: windows
 ms.technology: windows-sdk

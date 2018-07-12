@@ -7,7 +7,7 @@ old-location: com\ipropertypage_translateaccelerator.htm
 old-project: com
 ms.assetid: 70501c3d-257c-4981-b841-4bd45f0bec27
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IPropertyPage interface [COM],TranslateAccelerator method, IPropertyPage.TranslateAccelerator, IPropertyPage::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IPropertyPage interface, _ctrl_ipropertypage_translateaccelerator, com.ipropertypage_translateaccelerator, ocidl/IPropertyPage::TranslateAccelerator
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\accessibleobjectfromwindow.htm
 old-project: WinAuto
 ms.assetid: 297ac50f-2a58-477b-ba57-5d1416c191b3
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: AccessibleObjectFromWindow, AccessibleObjectFromWindow function [Windows Accessibility], _msaa_AccessibleObjectFromWindow, msaa.accessibleobjectfromwindow, oleacc/AccessibleObjectFromWindow, winauto.accessibleobjectfromwindow
 ms.prod: windows
 ms.technology: windows-sdk

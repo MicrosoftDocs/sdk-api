@@ -4,10 +4,10 @@ title: ldap_get_next_page_s function
 author: windows-sdk-content
 description: Returns the next page in a sequence of synchronous paged search results.
 old-location: ldap\ldap_get_next_page_s.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: 44b1b298-9796-4627-945e-4051c20f3c92
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/14/2018
 ms.keywords: "_ldap_ldap_get_next_page_s, ldap.ldap__get__next__page__s, ldap.ldap_get_next_page_s, ldap_get_next_page_s, ldap_get_next_page_s function [LDAP], winldap/ldap_get_next_page_s"
 ms.prod: windows
 ms.technology: windows-sdk

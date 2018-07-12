@@ -4,10 +4,10 @@ title: IX509Extension::get_ObjectId
 author: windows-sdk-content
 description: Retrieves the object identifier (OID) for the extension.
 old-location: security\ix509extension_objectid_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: d3508bfe-e323-4075-9c82-d9b53b8f54aa
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509Extension interface [Security],ObjectId property, IX509Extension.ObjectId, IX509Extension.get_ObjectId, IX509Extension::ObjectId, IX509Extension::get_ObjectId, ObjectId property [Security], ObjectId property [Security],IX509Extension interface, certenroll/IX509Extension::ObjectId, certenroll/IX509Extension::get_ObjectId, get_ObjectId, security.ix509extension_objectid_property
 ms.prod: windows
 ms.technology: windows-sdk

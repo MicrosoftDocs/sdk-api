@@ -4,10 +4,10 @@ title: MprConfigInterfaceTransportEnum function
 author: windows-sdk-content
 description: The MprConfigInterfaceTransportEnum function enumerates the transports configured on the specified interface.
 old-location: rras\mprconfiginterfacetransportenum.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: ae395eb8-8019-432c-bf96-b602c8e34f12
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprConfigInterfaceTransportEnum, MprConfigInterfaceTransportEnum function [RAS], _mpr_mprconfiginterfacetransportenum, mprapi/MprConfigInterfaceTransportEnum, rras.mprconfiginterfacetransportenum
 ms.prod: windows
 ms.technology: windows-sdk

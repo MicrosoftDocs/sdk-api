@@ -7,7 +7,7 @@ old-location: security\scardaudit.htm
 old-project: SecAuthN
 ms.assetid: 5D30DC71-C69A-403B-8658-99C80C268E90
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: SCARD_AUDIT_CHV_FAILURE, SCARD_AUDIT_CHV_SUCCESS, SCardAudit, SCardAudit function [Security], security.scardaudit, winscard/SCardAudit
 ms.prod: windows
 ms.technology: windows-sdk

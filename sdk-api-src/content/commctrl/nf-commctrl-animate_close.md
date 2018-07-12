@@ -4,10 +4,10 @@ title: Animate_Close macro
 author: windows-sdk-content
 description: Closes an AVI clip. You can use this macro or send the ACM_OPEN message explicitly, passing in NULL parameters.
 old-location: controls\Animate_Close.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_close.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: Animate_Close, Animate_Close macro [Windows Controls], _win32_Animate_Close, _win32_Animate_Close_cpp, commctrl/Animate_Close, controls.Animate_Close, controls._win32_Animate_Close
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvolumetexture9.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolumetexture9.htm
 ms.author: windowssdkdev
-ms.date: 04/10/2018
+ms.date: 04/11/2018
 ms.keywords: IDirect3DVolumeTexture9, IDirect3DVolumeTexture9 interface [Direct3D 9], IDirect3DVolumeTexture9 interface [Direct3D 9],described, ac7e332f-4255-e077-7804-d9a2e2476d37, d3d9helper/IDirect3DVolumeTexture9, direct3d9.idirect3dvolumetexture9
 ms.prod: windows
 ms.technology: windows-sdk

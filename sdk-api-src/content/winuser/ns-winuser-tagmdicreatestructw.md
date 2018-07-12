@@ -7,7 +7,7 @@ old-location: winmsg\mdicreatestruct.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacestructures\mdicreatestruct.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: "*LPMDICREATESTRUCTW, LPMDICREATESTRUCT, LPMDICREATESTRUCT structure pointer [Windows and Messages], MDICREATESTRUCT, MDICREATESTRUCT structure [Windows and Messages], MDICREATESTRUCTA, MDICREATESTRUCTW, WS_HSCROLL, WS_MAXIMIZE, WS_MINIMIZE, WS_VSCROLL, _win32_MDICREATESTRUCT_str, _win32_mdicreatestruct_str_cpp, tagMDICREATESTRUCTW, winmsg.mdicreatestruct, winui._win32_mdicreatestruct_str, winuser/LPMDICREATESTRUCT, winuser/MDICREATESTRUCT, winuser/MDICREATESTRUCTA, winuser/MDICREATESTRUCTW"
 ms.prod: windows
 ms.technology: windows-sdk

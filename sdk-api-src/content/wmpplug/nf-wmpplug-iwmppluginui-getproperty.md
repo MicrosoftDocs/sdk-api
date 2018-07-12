@@ -7,7 +7,7 @@ old-location: wmp\iwmppluginui_getproperty.htm
 old-project: WMP
 ms.assetid: f01d0700-2399-4e33-8a0c-59bb1f0f2495
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: GetProperty, GetProperty method [Windows Media Player], GetProperty method [Windows Media Player],IWMPPluginUI interface, IWMPPluginUI interface [Windows Media Player],GetProperty method, IWMPPluginUI.GetProperty, IWMPPluginUI::GetProperty, IWMPPluginUIGetProperty, wmp.iwmppluginui_getproperty, wmpplug/IWMPPluginUI::GetProperty
 ms.prod: windows
 ms.technology: windows-sdk

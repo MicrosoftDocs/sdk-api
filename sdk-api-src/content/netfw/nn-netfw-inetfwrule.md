@@ -4,10 +4,10 @@ title: INetFwRule
 author: windows-sdk-content
 description: To the properties of a rule.
 old-location: ics\inetfwrule.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 59e2a140-bf55-4f0e-bf4b-1a39d3dc0457
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetFwRule, INetFwRule interface [ICS/ICF], INetFwRule interface [ICS/ICF],described, ics.inetfwrule, netfw/INetFwRule
 ms.prod: windows
 ms.technology: windows-sdk

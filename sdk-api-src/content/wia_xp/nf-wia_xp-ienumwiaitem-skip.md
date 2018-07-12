@@ -7,7 +7,7 @@ old-location: wia\_wia_IEnumWiaItem_Skip.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\skip.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: IEnumWiaItem interface [WIA],Skip method, IEnumWiaItem.Skip, IEnumWiaItem::Skip, Skip, Skip method [WIA], Skip method [WIA],IEnumWiaItem interface, _wia_IEnumWiaItem_Skip, wia._wia_IEnumWiaItem_Skip, wia_xp/IEnumWiaItem::Skip
 ms.prod: windows
 ms.technology: windows-sdk

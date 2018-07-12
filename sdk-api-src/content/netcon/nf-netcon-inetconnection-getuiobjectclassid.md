@@ -4,10 +4,10 @@ title: INetConnection::GetUiObjectClassId
 author: windows-sdk-content
 description: The GetUiObjectClassId method retrieves the class identifier of the user interface object for this connection.
 old-location: ics\inetconnection_getuiobjectclassid.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 33d69dff-8137-4901-9529-31130803b19f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetUiObjectClassId, GetUiObjectClassId method [ICS/ICF], GetUiObjectClassId method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],GetUiObjectClassId method, INetConnection.GetUiObjectClassId, INetConnection::GetUiObjectClassId, _ics_inetconnection_getuiobjectclassid, ics.inetconnection_getuiobjectclassid, netcon/INetConnection::GetUiObjectClassId
 ms.prod: windows
 ms.technology: windows-sdk

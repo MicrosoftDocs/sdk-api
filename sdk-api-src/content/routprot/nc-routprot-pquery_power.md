@@ -4,10 +4,10 @@ title: PQUERY_POWER
 author: windows-sdk-content
 description: The QueryPower function is reserved for future use.
 old-location: rras\querypower.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 591082fb-ef1e-4271-bf6c-d5034bdbae99
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: PQUERY_POWER, PQUERY_POWER callback, QueryPower, QueryPower callback function [RAS], _mpr_querypower, routprot/QueryPower, rras.querypower
 ms.prod: windows
 ms.technology: windows-sdk

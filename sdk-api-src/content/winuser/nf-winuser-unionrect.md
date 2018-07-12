@@ -7,7 +7,7 @@ old-location: gdi\unionrect.htm
 old-project: gdi
 ms.assetid: f2da2df4-3f09-4c54-afd1-c728805f0f64
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: UnionRect, UnionRect function [Windows GDI], _win32_UnionRect, gdi.unionrect, winuser/UnionRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

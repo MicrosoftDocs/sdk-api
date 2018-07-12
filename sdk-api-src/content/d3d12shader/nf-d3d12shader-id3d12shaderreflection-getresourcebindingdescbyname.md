@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection_getresourcebindingdescbyname.htm
 old-project: direct3d12
 ms.assetid: AA0FD49A-C5A2-4734-BDD6-FD739E4F5D59
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: GetResourceBindingDescByName, GetResourceBindingDescByName method, GetResourceBindingDescByName method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetResourceBindingDescByName method, ID3D12ShaderReflection.GetResourceBindingDescByName, ID3D12ShaderReflection::GetResourceBindingDescByName, d3d12shader/ID3D12ShaderReflection::GetResourceBindingDescByName, direct3d12.id3d12shaderreflection_getresourcebindingdescbyname
 ms.prod: windows
 ms.technology: windows-sdk

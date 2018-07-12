@@ -4,10 +4,10 @@ title: IX509SCEPEnrollment::CreateRequestMessage
 author: windows-sdk-content
 description: Create a PKCS10 request message with a challenge password. The request message is in an enveloped PKCS7 encrypted with the SCEP server encryption certificate and signed by the server signing certificate.
 old-location: security\ix509scepenrollment_createrequestmessage.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: b86d6dc3-aa96-45f3-9551-f24c39ea6cbf
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: CreateRequestMessage, CreateRequestMessage method [Security], CreateRequestMessage method [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],CreateRequestMessage method, IX509SCEPEnrollment.CreateRequestMessage, IX509SCEPEnrollment::CreateRequestMessage, certenroll/IX509SCEPEnrollment::CreateRequestMessage, security.ix509scepenrollment_createrequestmessage
 ms.prod: windows
 ms.technology: windows-sdk

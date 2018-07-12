@@ -7,7 +7,7 @@ old-location: nwifi\wlanihvcontrol.htm
 old-project: NativeWiFi
 ms.assetid: 3fc32119-0f92-4939-8125-812f45584d45
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: WlanIhvControl, WlanIhvControl function [NativeWIFI], nwifi.wlanihvcontrol, wlanapi/WlanIhvControl
 ms.prod: windows
 ms.technology: windows-sdk

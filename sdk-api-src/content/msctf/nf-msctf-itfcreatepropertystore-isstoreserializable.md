@@ -7,7 +7,7 @@ old-location: tsf\itfcreatepropertystore_isstoreserializable.htm
 old-project: TSF
 ms.assetid: f5fdd81f-266b-4ff3-ab44-2d1c89a7aaea
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfCreatePropertyStore interface [Text Services Framework],IsStoreSerializable method, ITfCreatePropertyStore.IsStoreSerializable, ITfCreatePropertyStore::IsStoreSerializable, IsStoreSerializable, IsStoreSerializable method [Text Services Framework], IsStoreSerializable method [Text Services Framework],ITfCreatePropertyStore interface, _tsf_itfcreatepropertystore_isstoreserializable_ref, msctf/ITfCreatePropertyStore::IsStoreSerializable, tsf.itfcreatepropertystore_isstoreserializable
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: INetFwIcmpSettings::get_AllowInboundMaskRequest
 author: windows-sdk-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowinboundmaskrequest.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 5d34c60a-115b-4882-bc41-ea8b3528f9df
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: AllowInboundMaskRequest property [ICS/ICF], AllowInboundMaskRequest property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowInboundMaskRequest property, INetFwIcmpSettings.AllowInboundMaskRequest, INetFwIcmpSettings.get_AllowInboundMaskRequest, INetFwIcmpSettings::AllowInboundMaskRequest, INetFwIcmpSettings::get_AllowInboundMaskRequest, INetFwIcmpSettings::put_AllowInboundMaskRequest, get_AllowInboundMaskRequest, ics.inetfwicmpsettings_allowinboundmaskrequest, netfw/INetFwIcmpSettings::AllowInboundMaskRequest, netfw/INetFwIcmpSettings::get_AllowInboundMaskRequest, netfw/INetFwIcmpSettings::put_AllowInboundMaskRequest
 ms.prod: windows
 ms.technology: windows-sdk

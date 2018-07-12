@@ -7,7 +7,7 @@ old-location: uianimation\ui_animation_update_result.htm
 old-project: UIAnimation
 ms.assetid: 19b1d80f-39b3-4046-aa6a-5312e004b4b0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: UI_ANIMATION_UPDATE_NO_CHANGE, UI_ANIMATION_UPDATE_RESULT, UI_ANIMATION_UPDATE_RESULT enumeration [Windows Animation], UI_ANIMATION_UPDATE_VARIABLES_CHANGED, __MIDL___MIDL_itf_UIAnimation_0000_0000_0001, uianimation.ui_animation_update_result, uianimation/UI_ANIMATION_UPDATE_NO_CHANGE, uianimation/UI_ANIMATION_UPDATE_RESULT, uianimation/UI_ANIMATION_UPDATE_VARIABLES_CHANGED
 ms.prod: windows
 ms.technology: windows-sdk

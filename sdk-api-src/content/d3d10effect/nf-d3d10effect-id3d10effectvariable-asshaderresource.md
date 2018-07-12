@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_asshaderresource.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asshaderresource.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 9ecc402e-7c27-c872-6635-599b5c000326, AsShaderResource, AsShaderResource method [Direct3D 10], AsShaderResource method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsShaderResource method, ID3D10EffectVariable.AsShaderResource, ID3D10EffectVariable::AsShaderResource, d3d10effect/ID3D10EffectVariable::AsShaderResource, direct3d10.id3d10effectvariable_asshaderresource
 ms.prod: windows
 ms.technology: windows-sdk

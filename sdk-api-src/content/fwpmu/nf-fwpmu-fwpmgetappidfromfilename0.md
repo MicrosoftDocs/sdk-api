@@ -4,10 +4,10 @@ title: FwpmGetAppIdFromFileName0 function
 author: windows-sdk-content
 description: Retrieves an application identifier from a file name.
 old-location: fwp\fwpmgetappidfromfilename0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 9bf3a101-7782-4075-bc77-a003184d0cbe
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FwpmGetAppIdFromFileName0, FwpmGetAppIdFromFileName0 function [Filtering], fwp.fwpmgetappidfromfilename0, fwpmu/FwpmGetAppIdFromFileName0
 ms.prod: windows
 ms.technology: windows-sdk

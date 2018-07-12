@@ -4,10 +4,10 @@ title: NdrMesProcEncodeDecode2 function
 author: windows-sdk-content
 description: NdrMesProcEncodeDecode2 may be altered or unavailable.
 old-location: rpc\ndrmesprocencodedecode2.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: A2FA0E3A-C038-42AB-9341-CC2D781743BE
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: NdrMesProcEncodeDecode2, NdrMesProcEncodeDecode2 function [RPC], midles/NdrMesProcEncodeDecode2, rpc.ndrmesprocencodedecode2
 ms.prod: windows
 ms.technology: windows-sdk

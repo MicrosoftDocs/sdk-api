@@ -7,7 +7,7 @@ old-location: dlgbox\msgboxparams.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxstructures\msgboxparams.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 05/22/2018
 ms.keywords: "*LPMSGBOXPARAMSW, *PMSGBOXPARAMSW, MSGBOXPARAMS, MSGBOXPARAMS structure [Dialog Boxes], MSGBOXPARAMSA, MSGBOXPARAMSW, PMSGBOXPARAMS, PMSGBOXPARAMS structure pointer [Dialog Boxes], _win32_MSGBOXPARAMS_str, _win32_msgboxparams_str_cpp, dlgbox.msgboxparams, tagMSGBOXPARAMSW, winui._win32_msgboxparams_str, winuser/MSGBOXPARAMS, winuser/MSGBOXPARAMSA, winuser/MSGBOXPARAMSW, winuser/PMSGBOXPARAMS"
 ms.prod: windows
 ms.technology: windows-sdk

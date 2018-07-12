@@ -7,7 +7,7 @@ old-location: mf\imfsourcereader_getpresentationattribute.htm
 old-project: medfound
 ms.assetid: 40544e1e-cce2-4860-aeb2-b60696b09145
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetPresentationAttribute, GetPresentationAttribute method [Media Foundation], GetPresentationAttribute method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],GetPresentationAttribute method, IMFSourceReader.GetPresentationAttribute, IMFSourceReader::GetPresentationAttribute, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, MF_SOURCE_READER_MEDIASOURCE, mf.imfsourcereader_getpresentationattribute, mfreadwrite/IMFSourceReader::GetPresentationAttribute
 ms.prod: windows
 ms.technology: windows-sdk

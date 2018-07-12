@@ -4,10 +4,10 @@ title: drt_registration_tag
 author: windows-sdk-content
 description: The DRT_REGISTRATION structure contains key and application data that make up a registration.
 old-location: p2p\drt_registration.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 1b5fea2c-c1df-4639-8f62-e62d8a09b1f5
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: "*PDRT_REGISTRATION, DRT_REGISTRATION, DRT_REGISTRATION structure [Peer Networking], PDRT_REGISTRATION, PDRT_REGISTRATION structure pointer [Peer Networking], drt/DRT_REGISTRATION, drt/PDRT_REGISTRATION, drt_registration_tag, p2p.drt_registration"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,6 +2,5 @@
   "tech": "midl",
   "headers": [
     "tbd"
-  ],
-  "displayName": "Microsoft Interface Definition Language (MIDL)"
+  ]
 }

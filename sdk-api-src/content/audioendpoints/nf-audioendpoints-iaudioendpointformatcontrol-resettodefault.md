@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointformatcontrol_resettodefault.htm
 old-project: CoreAudio
 ms.assetid: EAE5206D-8BDF-4016-A0E6-D56D0F6B3566
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: IAudioEndpointFormatControl interface [Core Audio],ResetToDefault method, IAudioEndpointFormatControl.ResetToDefault, IAudioEndpointFormatControl::ResetToDefault, ResetToDefault, ResetToDefault method [Core Audio], ResetToDefault method [Core Audio],IAudioEndpointFormatControl interface, audioendpoints/IAudioEndpointFormatControl::ResetToDefault, coreaudio.iaudioendpointformatcontrol_resettodefault
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,6 +4,5 @@
     "winuser.h",
     "user.h",
     "commdlg.h"
-  ],
-  "displayName": "Dialog Boxes"
+  ]
 }

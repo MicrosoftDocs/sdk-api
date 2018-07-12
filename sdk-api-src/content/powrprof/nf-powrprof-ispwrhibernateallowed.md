@@ -4,10 +4,10 @@ title: IsPwrHibernateAllowed function
 author: windows-sdk-content
 description: Determines whether the computer supports hibernation.
 old-location: base\ispwrhibernateallowed.htm
-old-project: Power
+old-project: power
 ms.assetid: fe9d06a8-c021-4cf4-9782-04519f370c5b
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: IsPwrHibernateAllowed, IsPwrHibernateAllowed function, _win32_ispwrhibernateallowed, base.ispwrhibernateallowed, powrprof/IsPwrHibernateAllowed
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents2_interface.htm
 old-project: WMP
 ms.assetid: 61cd0a2e-b94f-4c10-b3e2-ad1dc2a0b17d
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPEvents2, IWMPEvents2 interface [Windows Media Player], IWMPEvents2 interface [Windows Media Player],described, IWMPEvents2Interface, wmp.iwmpevents2_interface, wmp/IWMPEvents2
 ms.prod: windows
 ms.technology: windows-sdk

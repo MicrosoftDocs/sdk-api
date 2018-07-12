@@ -4,10 +4,10 @@ title: IX509EndorsementKey
 author: windows-sdk-content
 description: X.509 Endorsement Key Interface
 old-location: security\ix509endorsementkey.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 24f063a7-02e3-47cf-89ca-ebc63bf3e2dc
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509EndorsementKey, IX509EndorsementKey interface [Security], IX509EndorsementKey interface [Security],described, certenroll/IX509EndorsementKey, security.ix509endorsementkey
 ms.prod: windows
 ms.technology: windows-sdk

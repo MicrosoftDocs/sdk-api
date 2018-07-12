@@ -7,7 +7,7 @@ old-location: shell\IDragSourceHelper_InitializeFromBitmap.htm
 old-project: shell
 ms.assetid: d50be9c9-f407-4386-bb8f-04c849205359
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IDragSourceHelper interface [Windows Shell],InitializeFromBitmap method, IDragSourceHelper.InitializeFromBitmap, IDragSourceHelper::InitializeFromBitmap, InitializeFromBitmap, InitializeFromBitmap method [Windows Shell], InitializeFromBitmap method [Windows Shell],IDragSourceHelper interface, _win32_IDragSourceHelper_InitializeFromBitmap, shell.IDragSourceHelper_InitializeFromBitmap, shobjidl_core/IDragSourceHelper::InitializeFromBitmap
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS"
 author: windows-sdk-content
 description: Contains the information for digest authentication on a URL Group.
 old-location: http\http_server_authentication_digest_params.htm
-old-project: Http
+old-project: http
 ms.assetid: 923d06ed-8f34-46b6-98d8-96828848dca8
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 04/13/2018
 ms.keywords: "*PHTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS, *PHTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS structure [HTTP], HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS, HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS structure [HTTP], _HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS, http.http_server_authentication_digest_params, http/*PHTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS, http/HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk

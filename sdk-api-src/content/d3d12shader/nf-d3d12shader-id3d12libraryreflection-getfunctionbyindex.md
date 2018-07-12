@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12libraryreflection_getfunctionbyindex.htm
 old-project: direct3d12
 ms.assetid: 1600824A-6C9E-4C87-8D6B-07F299D47A53
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: GetFunctionByIndex, GetFunctionByIndex method, GetFunctionByIndex method,ID3D12LibraryReflection interface, ID3D12LibraryReflection interface,GetFunctionByIndex method, ID3D12LibraryReflection.GetFunctionByIndex, ID3D12LibraryReflection::GetFunctionByIndex, d3d12shader/ID3D12LibraryReflection::GetFunctionByIndex, direct3d12.id3d12libraryreflection_getfunctionbyindex
 ms.prod: windows
 ms.technology: windows-sdk

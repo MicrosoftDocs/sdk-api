@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiresource_setevictionpriority.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiresource_setevictionpriority.htm
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: 27202bac-1045-b4a9-634f-9fe77668f2ab, DXGI_RESOURCE_PRIORITY_HIGH (0xa0000000), DXGI_RESOURCE_PRIORITY_LOW (0x50000000), DXGI_RESOURCE_PRIORITY_MAXIMUM (0xc8000000), DXGI_RESOURCE_PRIORITY_MINIMUM (0x28000000), DXGI_RESOURCE_PRIORITY_NORMAL (0x78000000), IDXGIResource interface [DXGI],SetEvictionPriority method, IDXGIResource.SetEvictionPriority, IDXGIResource::SetEvictionPriority, SetEvictionPriority, SetEvictionPriority method [DXGI], SetEvictionPriority method [DXGI],IDXGIResource interface, direct3ddxgi.idxgiresource_setevictionpriority, dxgi/IDXGIResource::SetEvictionPriority
 ms.prod: windows
 ms.technology: windows-sdk

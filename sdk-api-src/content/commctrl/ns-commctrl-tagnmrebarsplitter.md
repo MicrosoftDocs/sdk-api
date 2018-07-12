@@ -4,10 +4,10 @@ title: tagNMREBARSPLITTER
 author: windows-sdk-content
 description: Contains information used to handle an RBN_SPLITTERDRAG notification code.
 old-location: controls\NMREBARSPLITTER.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebarsplitter.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPNMREBARSPLITTER, LPNMREBARSPLITTER, LPNMREBARSPLITTER structure pointer [Windows Controls], NMREBARSPLITTER, NMREBARSPLITTER structure [Windows Controls], _shell_NMREBARSPLITTER, _shell_NMREBARSPLITTER_cpp, commctrl/LPNMREBARSPLITTER, commctrl/NMREBARSPLITTER, controls.NMREBARSPLITTER, controls._shell_NMREBARSPLITTER, tagNMREBARSPLITTER"
 ms.prod: windows
 ms.technology: windows-sdk

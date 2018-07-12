@@ -4,10 +4,10 @@ title: PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION
 author: windows-sdk-content
 description: Retrieves the dependency expression associated with the specified resource.
 old-location: mscs\getclusterresourcedependencyexpression.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 16071086-66fe-428e-9bd5-dd0b31cf7b15
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION, PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION callback, PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION callback function [Failover Cluster], clusapi/PCLUSAPI_GET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION, mscs.getclusterresourcedependencyexpression
 ms.prod: windows
 ms.technology: windows-sdk

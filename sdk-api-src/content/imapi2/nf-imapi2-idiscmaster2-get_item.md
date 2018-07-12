@@ -7,7 +7,7 @@ old-location: imapi\idiscmaster2_get_item.htm
 old-project: imapi
 ms.assetid: e909acb9-850b-404d-a2f7-efb37faf3506
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IDiscMaster2 interface [IMAPI],get_Item method, IDiscMaster2.get_Item, IDiscMaster2::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IDiscMaster2 interface, imapi.idiscmaster2_get_item, imapi2/IDiscMaster2::get_Item
 ms.prod: windows
 ms.technology: windows-sdk

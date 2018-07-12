@@ -7,7 +7,7 @@ old-location: imapi\imultisessionsequential_get_isfirstdatasession.htm
 old-project: imapi
 ms.assetid: 5dd7a321-833a-4fee-8128-675d1b76736c
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IMultisessionSequential interface [IMAPI],get_IsFirstDataSession method, IMultisessionSequential.get_IsFirstDataSession, IMultisessionSequential::get_IsFirstDataSession, get_IsFirstDataSession, get_IsFirstDataSession method [IMAPI], get_IsFirstDataSession method [IMAPI],IMultisessionSequential interface, imapi.imultisessionsequential_get_isfirstdatasession, imapi2/IMultisessionSequential::get_IsFirstDataSession
 ms.prod: windows
 ms.technology: windows-sdk

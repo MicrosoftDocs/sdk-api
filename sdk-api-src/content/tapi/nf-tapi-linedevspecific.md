@@ -4,10 +4,10 @@ title: lineDevSpecific function
 author: windows-sdk-content
 description: The lineDevSpecific function enables service providers to provide access to features not offered by other TAPI functions.
 old-location: tapi2\linedevspecific.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 28f43b21-5118-465f-95b3-036aab16a049
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: "_tapi2_linedevspecific, lineDevSpecific, lineDevSpecific function [TAPI 2.2], tapi/lineDevSpecific, tapi2.linedevspecific"
 ms.prod: windows
 ms.technology: windows-sdk

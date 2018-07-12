@@ -7,7 +7,7 @@ old-location: search\_search_ISearchProtocolThreadContext_ThreadShutdown.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocolthreadcontext\threadshutdown.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISearchProtocolThreadContext interface [search],ThreadShutdown method, ISearchProtocolThreadContext.ThreadShutdown, ISearchProtocolThreadContext::ThreadShutdown, ThreadShutdown, ThreadShutdown method [search], ThreadShutdown method [search],ISearchProtocolThreadContext interface, _search_ISearchProtocolThreadContext_ThreadShutdown, search._search_ISearchProtocolThreadContext_ThreadShutdown, searchapi/ISearchProtocolThreadContext::ThreadShutdown
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xaudio2\ixapo_interface_reset.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.Reset
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 04/23/2018
 ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],Reset method, IXAPO.Reset, IXAPO::Reset, Reset, Reset method [XAudio2 Audio Mixing APIs], Reset method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::Reset, xaudio2.ixapo_interface_reset
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: View::DisplayScopeNodePropertySheet
 author: windows-sdk-content
 description: The DisplayScopeNodePropertySheet method displays the property sheet for the specified scope node.
 old-location: mmc\view_displayscopenodepropertysheet.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: b0cb43f6-0cc2-4770-a33b-925dc0c0c61e
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: DisplayScopeNodePropertySheet, DisplayScopeNodePropertySheet method [MMC], DisplayScopeNodePropertySheet method [MMC],View interface, DisplayScopeNodePropertySheet method [MMC],View object, View interface [MMC],DisplayScopeNodePropertySheet method, View object [MMC],DisplayScopeNodePropertySheet method, View.DisplayScopeNodePropertySheet, View::DisplayScopeNodePropertySheet, _slate_view.displayscopenodepropertysheet_method, mmc.view_displayscopenodepropertysheet
 ms.prod: windows
 ms.technology: windows-sdk

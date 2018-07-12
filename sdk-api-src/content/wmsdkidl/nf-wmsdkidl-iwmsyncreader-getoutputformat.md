@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader_getoutputformat.htm
 old-project: wmformat
 ms.assetid: 7faac9e7-ad5f-42a4-ba6e-562ae973f81b
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: GetOutputFormat, GetOutputFormat method [windows Media Format], GetOutputFormat method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputFormat method, IWMSyncReader.GetOutputFormat, IWMSyncReader::GetOutputFormat, IWMSyncReaderGetOutputFormat, wmformat.iwmsyncreader_getoutputformat, wmsdkidl/IWMSyncReader::GetOutputFormat
 ms.prod: windows
 ms.technology: windows-sdk

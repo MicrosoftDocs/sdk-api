@@ -7,7 +7,7 @@ old-location: automat\varfix.htm
 old-project: automat
 ms.assetid: d90f37c7-87a8-4800-901c-d2aa3e5d838b
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarFix, VarFix function [Automation], _oa96_VarFix, automat.varfix, oleauto/VarFix
 ms.prod: windows
 ms.technology: windows-sdk

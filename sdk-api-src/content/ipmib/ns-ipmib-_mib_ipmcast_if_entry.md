@@ -4,10 +4,10 @@ title: "_MIB_IPMCAST_IF_ENTRY"
 author: windows-sdk-content
 description: Stores information about an IP multicast interface.
 old-location: mib\mib_ipmcast_if_entry.htm
-old-project: MIB
+old-project: mib
 ms.assetid: 59bc8df1-3999-4acb-b556-e765a9faef79
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 05/15/2018
 ms.keywords: "*PMIB_IPMCAST_IF_ENTRY, MIB_IPMCAST_IF_ENTRY, MIB_IPMCAST_IF_ENTRY structure [MIB], PMIB_IPMCAST_IF_ENTRY, PMIB_IPMCAST_IF_ENTRY structure pointer [MIB], _MIB_IPMCAST_IF_ENTRY, _mpr_mib_ipmcast_if_entry, ipmib/MIB_IPMCAST_IF_ENTRY, ipmib/PMIB_IPMCAST_IF_ENTRY, iprtrmib/MIB_IPMCAST_IF_ENTRY, iprtrmib/PMIB_IPMCAST_IF_ENTRY, mib.mib_ipmcast_if_entry, rras.mib_ipmcast_if_entry"
 ms.prod: windows
 ms.technology: windows-sdk

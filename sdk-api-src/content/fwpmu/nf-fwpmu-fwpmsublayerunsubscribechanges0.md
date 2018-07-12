@@ -4,10 +4,10 @@ title: FwpmSubLayerUnsubscribeChanges0 function
 author: windows-sdk-content
 description: Is used to cancel a sublayer change subscription and stop receiving change notifications.
 old-location: fwp\fwpmsublayerunsubscribechanges0_func.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: e4a2ea1b-6d84-44de-bf3a-d1f449a91fa5
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FwpmSubLayerUnsubscribeChanges0, FwpmSubLayerUnsubscribeChanges0 function [Filtering], fwp.fwpmsublayerunsubscribechanges0_func, fwpmu/FwpmSubLayerUnsubscribeChanges0
 ms.prod: windows
 ms.technology: windows-sdk

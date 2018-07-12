@@ -7,7 +7,7 @@ old-location: wmformat\drm_val16.htm
 old-project: wmformat
 ms.assetid: 8981042a-f11d-458d-be27-3b1749f9e995
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: DRM_VAL16, DRM_VAL16 structure [windows Media Format], _DRM_VAL16, structure [windows Media Format], wmformat.drm_val16, wmsdkidl/DRM_VAL16
 ms.prod: windows
 ms.technology: windows-sdk

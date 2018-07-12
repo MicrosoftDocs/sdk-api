@@ -4,10 +4,10 @@ title: IRegisteredTask::Stop
 author: windows-sdk-content
 description: Stops the registered task immediately.
 old-location: taskschd\iregisteredtask_stop.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: c58d7b15-1044-4d35-a501-b936503ee0fc
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],Stop method, IRegisteredTask.Stop, IRegisteredTask::Stop, Stop, Stop method [Task Scheduler], Stop method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_stop, taskschd/IRegisteredTask::Stop
 ms.prod: windows
 ms.technology: windows-sdk

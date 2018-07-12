@@ -7,7 +7,7 @@ old-location: gdi\bitmap.htm
 old-project: gdi
 ms.assetid: 6ee382da-dd63-442b-80c3-59472defb41f
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: "*LPBITMAP, *NPBITMAP, *PBITMAP, BITMAP, BITMAP structure [Windows GDI], PBITMAP, PBITMAP structure pointer [Windows GDI], _win32_BITMAP_str, gdi.bitmap, tagBITMAP, wingdi/BITMAP, wingdi/PBITMAP"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IVdsPack::Recover
 author: windows-sdk-content
 description: Returns a failing or failed pack to a healthy state, if possible. This method is supported only for dynamic packs.
 old-location: base\ivdspack_recover.htm
-old-project: VDS
+old-project: vds
 ms.assetid: e558c2f4-e1a9-47c0-9b2f-972457e27bbf
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsPack interface [VDS],Recover method, IVdsPack.Recover, IVdsPack::Recover, Recover, Recover method [VDS], Recover method [VDS],IVdsPack interface, base.ivdspack_recover, vds/IVdsPack::Recover
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: RasGetEntryPropertiesW function
 author: windows-sdk-content
 description: The RasGetEntryProperties function retrieves the properties of a phone-book entry.
 old-location: rras\rasgetentryproperties.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: eef9c197-04b3-4f3c-a7bd-8c62f9fac560
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RasGetEntryProperties, RasGetEntryProperties function [RAS], RasGetEntryPropertiesA, RasGetEntryPropertiesW, _ras_rasgetentryproperties, ras/RasGetEntryProperties, ras/RasGetEntryPropertiesA, ras/RasGetEntryPropertiesW, rras.rasgetentryproperties
 ms.prod: windows
 ms.technology: windows-sdk

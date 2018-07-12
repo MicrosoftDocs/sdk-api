@@ -7,7 +7,7 @@ old-location: cos\isharedpropertygroup_createpropertybyposition.htm
 old-project: cossdk
 ms.assetid: 47e0e230-0952-4afb-a757-af387a7cddfb
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: CreatePropertyByPosition, CreatePropertyByPosition method [COM+], CreatePropertyByPosition method [COM+],ISharedPropertyGroup interface, ISharedPropertyGroup interface [COM+],CreatePropertyByPosition method, ISharedPropertyGroup.CreatePropertyByPosition, ISharedPropertyGroup::CreatePropertyByPosition, _cos_ISharedPropertyGroup_CreatePropertyByPosition, comsvcs/ISharedPropertyGroup::CreatePropertyByPosition, cos.isharedpropertygroup_createpropertybyposition
 ms.prod: windows
 ms.technology: windows-sdk

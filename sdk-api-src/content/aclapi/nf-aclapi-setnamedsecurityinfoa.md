@@ -4,10 +4,10 @@ title: SetNamedSecurityInfoA function
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor of a specified object.
 old-location: security\setnamedsecurityinfo.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 70fbba50-2576-4857-a955-119fb12bf7b6
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: SetNamedSecurityInfo, SetNamedSecurityInfo function [Security], SetNamedSecurityInfoA, SetNamedSecurityInfoW, _win32_setnamedsecurityinfo, aclapi/SetNamedSecurityInfo, aclapi/SetNamedSecurityInfoA, aclapi/SetNamedSecurityInfoW, security.setnamedsecurityinfo
 ms.prod: windows
 ms.technology: windows-sdk

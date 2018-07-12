@@ -7,7 +7,7 @@ old-location: dshow\iamdirectsound_getdirectsoundinterface.htm
 old-project: DirectShow
 ms.assetid: 0980d931-296f-47c1-a6f5-63a94032c1bf
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: GetDirectSoundInterface, GetDirectSoundInterface method [DirectShow], GetDirectSoundInterface method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetDirectSoundInterface method, IAMDirectSound.GetDirectSoundInterface, IAMDirectSound::GetDirectSoundInterface, IAMDirectSoundGetDirectSoundInterface, amaudio/IAMDirectSound::GetDirectSoundInterface, dshow.iamdirectsound_getdirectsoundinterface
 ms.prod: windows
 ms.technology: windows-sdk

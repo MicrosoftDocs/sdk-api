@@ -4,10 +4,10 @@ title: WinBioGetDomainLogonSetting function
 author: windows-sdk-content
 description: Retrieves a value that specifies whether users can log on to a domain by using biometric information.
 old-location: secbiomet\winbiogetdomainlogonsetting.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: bc09c606-654e-4871-ae2e-09fac3982e94
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: WINBIO_SETTING_SOURCE_DEFAULT, WINBIO_SETTING_SOURCE_INVALID, WINBIO_SETTING_SOURCE_LOCAL, WINBIO_SETTING_SOURCE_POLICY, WinBioGetDomainLogonSetting, WinBioGetDomainLogonSetting function [Windows Biometric Framework API], secbiomet.winbiogetdomainlogonsetting, winbio/WinBioGetDomainLogonSetting
 ms.prod: windows
 ms.technology: windows-sdk

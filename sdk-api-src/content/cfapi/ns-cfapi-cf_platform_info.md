@@ -7,7 +7,7 @@ old-location: cloudapi\cf_platform_info.htm
 old-project: cfApi
 ms.assetid: BEB1CBF0-05FB-4D48-AC43-AA957F2208DB
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CF_PLATFORM_INFO, CF_PLATFORM_INFO structure, cfapi/CF_PLATFORM_INFO, cloudApi.cf_platform_info
 ms.prod: windows
 ms.technology: windows-sdk

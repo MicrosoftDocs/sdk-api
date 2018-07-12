@@ -5,6 +5,5 @@
     "mbnapi.h",
     "aclui.h",
     "sdoias.h"
-  ],
-  "displayName": "CIMWin32 WMI Providers"
+  ]
 }

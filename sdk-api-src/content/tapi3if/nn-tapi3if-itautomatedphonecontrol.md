@@ -4,10 +4,10 @@ title: ITAutomatedPhoneControl
 author: windows-sdk-content
 description: The ITAutomatedPhoneControl is a fully OLE automatable and scriptable interface exposed by the TAPI phone object.
 old-location: tapi3\itautomatedphonecontrol.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 60d4f079-75ee-4aeb-9e7c-0b16d90da754
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITAutomatedPhoneControl, ITAutomatedPhoneControl interface [TAPI 2.2], ITAutomatedPhoneControl interface [TAPI 2.2],described, _tapi3_itautomatedphonecontrol, tapi3.itautomatedphonecontrol, tapi3if/ITAutomatedPhoneControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows XP with SP1 and later
 
 The 
 <b>ITAutomatedPhoneControl</b> is a fully OLE automatable and scriptable interface exposed by the TAPI phone object. When a phone device is opened with owner privilege, you can call the 
-<a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> method on the 
+<a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> method on the 
 <a href="https://msdn.microsoft.com/94dff33c-67a1-4df8-9ef5-2b6524438f6f">ITPhone</a> interface to obtain an 
 <b>ITAutomatedPhoneControl</b> interface pointer.
 

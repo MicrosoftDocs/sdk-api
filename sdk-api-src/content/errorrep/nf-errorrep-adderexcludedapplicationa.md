@@ -7,7 +7,7 @@ old-location: wer\adderexcludedapplication.htm
 old-project: wer
 ms.assetid: 9055437b-2ee2-4f0a-bcef-2b04ac5368b3
 ms.author: windowssdkdev
-ms.date: 03/22/2018
+ms.date: 03/23/2018
 ms.keywords: AddERExcludedApplication, AddERExcludedApplication function [Windows Error Reporting], AddERExcludedApplicationA, AddERExcludedApplicationW, _win32_adderexcludedapplication, base.adderexcludedapplication, errorrep/AddERExcludedApplication, errorrep/AddERExcludedApplicationA, errorrep/AddERExcludedApplicationW, wer.adderexcludedapplication
 ms.prod: windows
 ms.technology: windows-sdk

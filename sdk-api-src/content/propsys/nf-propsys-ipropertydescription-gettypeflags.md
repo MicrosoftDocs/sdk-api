@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetTypeFlags.htm
 old-project: properties
 ms.assetid: 20ff02c1-72de-479f-afd8-29ec580bbfcb
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: GetTypeFlags, GetTypeFlags method [Windows Properties], GetTypeFlags method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetTypeFlags method, IPropertyDescription.GetTypeFlags, IPropertyDescription::GetTypeFlags, properties.IPropertyDescription_GetTypeFlags, propsys/IPropertyDescription::GetTypeFlags, shell.IPropertyDescription_GetTypeFlags, shell_IPropertyDescription_GetTypeFlags
 ms.prod: windows
 ms.technology: windows-sdk

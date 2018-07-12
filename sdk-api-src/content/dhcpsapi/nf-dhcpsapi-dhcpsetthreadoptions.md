@@ -4,10 +4,10 @@ title: DhcpSetThreadOptions function
 author: windows-sdk-content
 description: The DhcpSetThreadOptions function sets options on the currently executing DHCP thread.
 old-location: dhcp\dhcpsetthreadoptions.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: aadca143-6fdd-4b25-9bd5-1ba177be148e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DHCP_FLAGS_DONT_ACCESS_DS, DhcpSetThreadOptions, DhcpSetThreadOptions function [DHCP], dhcp.dhcpsetthreadoptions, dhcpsapi/DhcpSetThreadOptions
 ms.prod: windows
 ms.technology: windows-sdk

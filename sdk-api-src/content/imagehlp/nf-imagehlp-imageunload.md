@@ -4,10 +4,10 @@ title: ImageUnload function
 author: windows-sdk-content
 description: Deallocates resources from a previous call to the ImageLoad function.
 old-location: base\imageunload.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 9cebd32f-11fe-4dfe-9579-b219d62c3e74
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: ImageUnload, ImageUnload function, _win32_imageunload, base.imageunload, imagehlp/ImageUnload
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\ioleobject_setclientsite.htm
 old-project: com
 ms.assetid: 6690b5a3-bada-496c-89cb-a9ae1fc9dfb0
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IOleObject interface [COM],SetClientSite method, IOleObject.SetClientSite, IOleObject::SetClientSite, SetClientSite, SetClientSite method [COM], SetClientSite method [COM],IOleObject interface, _ole_ioleobject_setclientsite, com.ioleobject_setclientsite, oleidl/IOleObject::SetClientSite
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PRESUTIL_ENUM_RESOURCES
 author: windows-sdk-content
 description: Enumerates all of the resources in the local cluster and initiates a user-defined operation for each resource. The PRESUTIL_ENUM_RESOURCES type defines a pointer to this function.
 old-location: mscs\resutilenumresources.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 109fefb7-a5fc-44d2-80c0-9a08ce8d91bf
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_ENUM_RESOURCES, PRESUTIL_ENUM_RESOURCES callback, PRESUTIL_ENUM_RESOURCES callback function [Failover Cluster], _wolf_resutilenumresources, mscs.resutilenumresources, resapi/PRESUTIL_ENUM_RESOURCES
 ms.prod: windows
 ms.technology: windows-sdk

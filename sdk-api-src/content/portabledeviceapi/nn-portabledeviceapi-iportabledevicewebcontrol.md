@@ -7,7 +7,7 @@ old-location: wpdauto\iportabledevicewebcontrol.htm
 old-project: wpdauto
 ms.assetid: 0ec81d6a-3671-4c4e-b650-f251fa99f7ea
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 04/06/2018
 ms.keywords: IPortableDeviceWebControl, IPortableDeviceWebControl interface [WPD Automation], IPortableDeviceWebControl interface [WPD Automation],described, portabledeviceapi/IPortableDeviceWebControl, wpdauto.iportabledevicewebcontrol
 ms.prod: windows
 ms.technology: windows-sdk

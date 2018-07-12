@@ -7,7 +7,7 @@ old-location: winmsg\getmessagetime.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\getmessagetime.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: GetMessageTime, GetMessageTime function [Windows and Messages], _win32_GetMessageTime, _win32_getmessagetime_cpp, winmsg.getmessagetime, winui._win32_getmessagetime, winuser/GetMessageTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

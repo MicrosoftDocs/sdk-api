@@ -4,10 +4,10 @@ title: ISClusVersion::get_ClusterLowestVersion
 author: windows-sdk-content
 description: Returns a value containing the lowest version of the Cluster service with which the current cluster is compatible.
 old-location: mscs\clusversion_clusterlowestversion.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 32393f01-467f-4d73-bbe7-18c428806e7c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusVersion object [Failover Cluster],ClusterLowestVersion property, ClusVersion.ClusterLowestVersion, ClusterLowestVersion property [Failover Cluster], ClusterLowestVersion property [Failover Cluster],ClusVersion object, ISClusVersion.get_ClusterLowestVersion, ISClusVersion::get_ClusterLowestVersion, _wolf_clusversion.clusterlowestversion, get_ClusterLowestVersion, mscs.clusversion_clusterlowestversion
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\startxpsprintjob1.htm
 old-project: printdocs
 ms.assetid: 91D0BA4D-60A6-43F8-8BD3-9183DC6CD50D
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: StartXpsPrintJob1, StartXpsPrintJob1 function [Windows GDI], gdi.startxpsprintjob1, xpsprint/StartXpsPrintJob1
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: windowsribbon\iuieventingmanager.htm
 old-project: windowsribbon
 ms.assetid: 11E53D75-B8C0-40A3-8E4D-ACAA10BEAC84
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IUIEventingManager, IUIEventingManager interface [Windows Ribbon], IUIEventingManager interface [Windows Ribbon],described, uiribbon/IUIEventingManager, windowsribbon.iuieventingmanager
 ms.prod: windows
 ms.technology: windows-sdk

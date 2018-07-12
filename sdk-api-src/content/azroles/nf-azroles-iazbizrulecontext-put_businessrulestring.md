@@ -4,10 +4,10 @@ title: IAzBizRuleContext::put_BusinessRuleString
 author: windows-sdk-content
 description: Sets or retrieves an application-specific string for the Business Rule (BizRule).
 old-location: security\azbizrulecontext_businessrulestring.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 0370b251-625a-410c-ab36-76f4432405cf
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: AzBizRuleContext object [Security],BusinessRuleString property, BusinessRuleString property [Security], BusinessRuleString property [Security],AzBizRuleContext object, BusinessRuleString property [Security],IAzBizRuleContext interface, IAzBizRuleContext interface [Security],BusinessRuleString property, IAzBizRuleContext.BusinessRuleString, IAzBizRuleContext.put_BusinessRuleString, IAzBizRuleContext::BusinessRuleString, IAzBizRuleContext::get_BusinessRuleString, IAzBizRuleContext::put_BusinessRuleString, azroles/IAzBizRuleContext::BusinessRuleString, azroles/IAzBizRuleContext::get_BusinessRuleString, azroles/IAzBizRuleContext::put_BusinessRuleString, put_BusinessRuleString, security.azbizrulecontext_businessrulestring
 ms.prod: windows
 ms.technology: windows-sdk

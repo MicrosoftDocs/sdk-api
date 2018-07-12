@@ -4,10 +4,10 @@ title: IAzApplication::DeleteApplicationGroup
 author: windows-sdk-content
 description: Removes the IAzApplicationGroup object with the specified name from the IAzApplication object.
 old-location: security\iazapplication_deleteapplicationgroup.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: e2ec7ba1-5998-45bf-aacf-e519bb944d5e
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: AzApplication object [Security],DeleteApplicationGroup method, DeleteApplicationGroup, DeleteApplicationGroup method [Security], DeleteApplicationGroup method [Security],AzApplication object, DeleteApplicationGroup method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteApplicationGroup method, IAzApplication.DeleteApplicationGroup, IAzApplication::DeleteApplicationGroup, azroles/IAzApplication::DeleteApplicationGroup, security.iazapplication_deleteapplicationgroup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ Reserved for future use.
 
 
 
-If there are any <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> references to an <b>IAzApplicationGroup</b> object that has been deleted from the cache, the <b>IAzApplicationGroup</b> object can no longer be used. In C++, you must release references to deleted <b>IAzApplicationGroup</b> objects by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
+If there are any <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> references to an <b>IAzApplicationGroup</b> object that has been deleted from the cache, the <b>IAzApplicationGroup</b> object can no longer be used. In C++, you must release references to deleted <b>IAzApplicationGroup</b> objects by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
 
 
 

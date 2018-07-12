@@ -7,7 +7,7 @@ old-location: winmsg\sendmessagetimeout.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendmessagetimeout.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: SMTO_ABORTIFHUNG, SMTO_BLOCK, SMTO_ERRORONEXIT, SMTO_NORMAL, SMTO_NOTIMEOUTIFNOTHUNG, SendMessageTimeout, SendMessageTimeout function [Windows and Messages], SendMessageTimeoutA, SendMessageTimeoutW, _win32_SendMessageTimeout, _win32_sendmessagetimeout_cpp, winmsg.sendmessagetimeout, winui._win32_sendmessagetimeout, winuser/SendMessageTimeout, winuser/SendMessageTimeoutA, winuser/SendMessageTimeoutW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

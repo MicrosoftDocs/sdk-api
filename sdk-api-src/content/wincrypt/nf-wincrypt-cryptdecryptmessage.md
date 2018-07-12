@@ -4,10 +4,10 @@ title: CryptDecryptMessage function
 author: windows-sdk-content
 description: The CryptDecryptMessage function decodes and decrypts a message.
 old-location: security\cryptdecryptmessage.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: e540b816-64e1-4c78-9020-2b221e813acc
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CryptDecryptMessage, CryptDecryptMessage function [Security], _crypto2_cryptdecryptmessage, security.cryptdecryptmessage, wincrypt/CryptDecryptMessage
 ms.prod: windows
 ms.technology: windows-sdk

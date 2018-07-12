@@ -7,7 +7,7 @@ old-location: search\_search_ISearchLanguageSupport_GetDiacriticSensitivity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\getdiacriticsensitivity.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetDiacriticSensitivity, GetDiacriticSensitivity method [search], GetDiacriticSensitivity method [search],ISearchLanguageSupport interface, ISearchLanguageSupport interface [search],GetDiacriticSensitivity method, ISearchLanguageSupport.GetDiacriticSensitivity, ISearchLanguageSupport::GetDiacriticSensitivity, _search_ISearchLanguageSupport_GetDiacriticSensitivity, search._search_ISearchLanguageSupport_GetDiacriticSensitivity, searchapi/ISearchLanguageSupport::GetDiacriticSensitivity
 ms.prod: windows
 ms.technology: windows-sdk

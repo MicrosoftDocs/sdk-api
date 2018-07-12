@@ -4,10 +4,10 @@ title: RegisterWaitChainCOMCallback function
 author: windows-sdk-content
 description: Register COM callback functions for WCT.
 old-location: base\registerwaitchaincomcallback.htm
-old-project: Debug
+old-project: debug
 ms.assetid: f8adffa3-6e63-4fae-81e8-5f6643e988e9
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: RegisterWaitChainCOMCallback, RegisterWaitChainCOMCallback function, base.registerwaitchaincomcallback, wct/RegisterWaitChainCOMCallback
 ms.prod: windows
 ms.technology: windows-sdk

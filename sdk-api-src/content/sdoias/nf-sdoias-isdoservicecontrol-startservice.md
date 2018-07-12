@@ -4,10 +4,10 @@ title: ISdoServiceControl::StartService
 author: windows-sdk-content
 description: The StartService method starts the service administered through SDO.
 old-location: nps\SDO_isdoservicecontrol_startservice.htm
-old-project: Nps
+old-project: nps
 ms.assetid: f024a3b8-c527-4a43-99df-c5b146dae1b8
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ISdoServiceControl interface [Network Policy Server],StartService method, ISdoServiceControl.StartService, ISdoServiceControl::StartService, StartService, StartService method [Network Policy Server], StartService method [Network Policy Server],ISdoServiceControl interface, _sdo_isdoservicecontrol_startservice, nps.SDO_isdoservicecontrol_startservice, sdo.isdoservicecontrol_startservice, sdoias/ISdoServiceControl::StartService
 ms.prod: windows
 ms.technology: windows-sdk

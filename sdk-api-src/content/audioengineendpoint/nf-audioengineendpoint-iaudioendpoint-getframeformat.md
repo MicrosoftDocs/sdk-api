@@ -7,7 +7,7 @@ old-location: termserv\iaudioendpoint_getframeformat.htm
 old-project: TermServ
 ms.assetid: fb34ef19-4155-461e-a8d7-0a903e9d7c72
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: GetFrameFormat, GetFrameFormat method [Remote Desktop Services], GetFrameFormat method [Remote Desktop Services],IAudioEndpoint interface, IAudioEndpoint interface [Remote Desktop Services],GetFrameFormat method, IAudioEndpoint.GetFrameFormat, IAudioEndpoint::GetFrameFormat, audioengineendpoint/IAudioEndpoint::GetFrameFormat, termserv.iaudioendpoint_getframeformat
 ms.prod: windows
 ms.technology: windows-sdk

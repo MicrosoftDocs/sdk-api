@@ -4,10 +4,10 @@ title: phoneGetStatus function
 author: windows-sdk-content
 description: The phoneGetStatus function enables an application to query the specified open phone device for its overall status.
 old-location: tapi2\phonegetstatus.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: d2e9e209-54f5-4895-b57a-a5f4c24e063e
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: "_tapi2_phonegetstatus, phoneGetStatus, phoneGetStatus function [TAPI 2.2], phoneGetStatusA, phoneGetStatusW, tapi/phoneGetStatus, tapi/phoneGetStatusA, tapi/phoneGetStatusW, tapi2.phonegetstatus"
 ms.prod: windows
 ms.technology: windows-sdk

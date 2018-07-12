@@ -4,10 +4,10 @@ title: PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP
 author: windows-sdk-content
 description: Moves a resource from one group to another.
 old-location: mscs\changeclusterresourcegroup.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 99720615-ad5d-4d9a-a6ae-8ba1cd2499f2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP, PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP callback, PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP callback function [Failover Cluster], _wolf_changeclusterresourcegroup, clusapi/PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP, mscs.changeclusterresourcegroup
 ms.prod: windows
 ms.technology: windows-sdk

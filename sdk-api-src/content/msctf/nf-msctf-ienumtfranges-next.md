@@ -7,7 +7,7 @@ old-location: tsf\ienumtfranges_next.htm
 old-project: TSF
 ms.assetid: 95fe45f0-bf30-4f8c-86f3-e20a0d70127e
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: IEnumTfRanges interface [Text Services Framework],Next method, IEnumTfRanges.Next, IEnumTfRanges::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfRanges interface, _tsf_ienumtfranges_next_ref, msctf/IEnumTfRanges::Next, tsf.ienumtfranges_next
 ms.prod: windows
 ms.technology: windows-sdk

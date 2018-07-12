@@ -7,7 +7,7 @@ old-location: properties\IsVarTypeUnsignedInteger.htm
 old-project: properties
 ms.assetid: e3af20d4-be61-446e-90be-765f1e84178a
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: IsVarTypeUnsignedInteger, IsVarTypeUnsignedInteger function [Windows Properties], _shell_IsVarTypeUnsignedInteger, properties.IsVarTypeUnsignedInteger, propvarutil/IsVarTypeUnsignedInteger, shell.IsVarTypeUnsignedInteger
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: StgCreateStorageEx function
 author: windows-sdk-content
 description: Creates a new storage object using a provided implementation for the IStorage or IPropertySetStorage interfaces.
 old-location: stg\stgcreatestorageex.htm
-old-project: Stg
+old-project: stg
 ms.assetid: 6442977d-e980-419e-abe9-9d15dbb045c1
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: All other values of stgfmt, STGFMT_DOCFILE, StgCreateStorageEx, StgCreateStorageEx function [Structured Storage], _stg_stgcreatestorageex, coml2api/StgCreateStorageEx, stg.stgcreatestorageex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -199,7 +199,7 @@ Specifying STGM_SIMPLE provides a much faster implementation of a compound file 
 The simple mode does not support all the methods on 
 <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a>. Specifically, in simple mode, supported 
 <b>IStorage</b> methods are <a href="https://msdn.microsoft.com/168f5ac9-8a72-4356-82a4-de3a7ec72c05">CreateStream</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439717">Commit</a>, and 
-<a href="https://msdn.microsoft.com/02ab2708-fc8b-4941-939a-a819cf823108">SetClass</a> as well as the COM <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> methods of <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a>, <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> and <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a>. In addition, 
+<a href="https://msdn.microsoft.com/02ab2708-fc8b-4941-939a-a819cf823108">SetClass</a> as well as the COM <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> methods of <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a>, <a href="https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx">AddRef</a> and <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">Release</a>. In addition, 
 <a href="https://msdn.microsoft.com/f6a1fba4-0444-4de3-a838-2d339878fe24">SetElementTimes</a> is supported with a <b>NULL</b> name, allowing applications to set times on a root storage. All the other methods of 
 <b>IStorage</b> return STG_E_INVALIDFUNCTION.
 

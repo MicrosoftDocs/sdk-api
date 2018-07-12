@@ -4,10 +4,10 @@ title: IRDPSRAPIVirtualChannel
 author: windows-sdk-content
 description: Manages the virtual channel.
 old-location: rdp\irdpsrapivirtualchannel.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: c3cceb22-424d-4ed9-8d4d-0ca523ba5e9c
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 03/29/2018
 ms.keywords: IRDPSRAPIVirtualChannel, IRDPSRAPIVirtualChannel interface [RDP], IRDPSRAPIVirtualChannel interface [RDP],described, rdp.irdpsrapivirtualchannel, rdpencomapi/IRDPSRAPIVirtualChannel
 ms.prod: windows
 ms.technology: windows-sdk

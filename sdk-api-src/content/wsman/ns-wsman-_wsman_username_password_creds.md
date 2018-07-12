@@ -4,10 +4,10 @@ title: "_WSMAN_USERNAME_PASSWORD_CREDS"
 author: windows-sdk-content
 description: Defines the credentials used for authentication.
 old-location: winrm\wsman_username_password_creds.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: 5cb2b52f-85a7-4760-9f0d-b515fad86d33
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: WSMAN_USERNAME_PASSWORD_CREDS, WSMAN_USERNAME_PASSWORD_CREDS structure [Windows Remote Management], _WSMAN_USERNAME_PASSWORD_CREDS, winrm.wsman_username_password_creds, wsman/WSMAN_USERNAME_PASSWORD_CREDS
 ms.prod: windows
 ms.technology: windows-sdk

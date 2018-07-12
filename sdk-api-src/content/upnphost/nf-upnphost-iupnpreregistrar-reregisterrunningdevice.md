@@ -4,10 +4,10 @@ title: IUPnPReregistrar::ReregisterRunningDevice
 author: windows-sdk-content
 description: The ReregisterRunningDevice method re-registers a running device with the device host.
 old-location: upnp\iupnpreregistrar_reregisterrunningdevice.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: e5e9257e-1143-416c-8862-a69b726f5e23
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 04/26/2018
 ms.keywords: IUPnPReregistrar interface [UPnP APIs],ReregisterRunningDevice method, IUPnPReregistrar.ReregisterRunningDevice, IUPnPReregistrar::ReregisterRunningDevice, ReregisterRunningDevice, ReregisterRunningDevice method [UPnP APIs], ReregisterRunningDevice method [UPnP APIs],IUPnPReregistrar interface, _upnp_iupnpreregistrar_reregisterrunningdevice, upnp.iupnpreregistrar_reregisterrunningdevice, upnphost/IUPnPReregistrar::ReregisterRunningDevice
 ms.prod: windows
 ms.technology: windows-sdk

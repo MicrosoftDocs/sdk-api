@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransition2.htm
 old-project: UIAnimation
 ms.assetid: CACB8053-7716-42E4-9C3B-9CCBBC30808A
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: IUIAnimationTransition2, IUIAnimationTransition2 interface [Windows Animation], IUIAnimationTransition2 interface [Windows Animation],described, uianimation.iuianimationtransition2, uianimation/IUIAnimationTransition2
 ms.prod: windows
 ms.technology: windows-sdk

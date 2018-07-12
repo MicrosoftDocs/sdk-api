@@ -7,7 +7,7 @@ old-location: properties\VariantToStringArrayAlloc.htm
 old-project: properties
 ms.assetid: 2725b824-b26c-4b33-bc18-a6f4c0ef74e6
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: VariantToStringArrayAlloc, VariantToStringArrayAlloc function [Windows Properties], _shell_VariantToStringArrayAlloc, properties.VariantToStringArrayAlloc, propvarutil/VariantToStringArrayAlloc, shell.VariantToStringArrayAlloc
 ms.prod: windows
 ms.technology: windows-sdk

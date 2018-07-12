@@ -7,7 +7,7 @@ old-location: stream\metadatatimestamps.htm
 old-project: stream
 ms.assetid: F7E5349B-37F0-4B94-B42B-EAEB04DC1AB5
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/22/2018
 ms.keywords: MetadataTimeStamps, MetadataTimeStamps structure [Streaming Media Devices], mfapi/MetadataTimeStamps, stream.metadatatimestamps, tagMetadataTimeStamps
 ms.prod: windows
 ms.technology: windows-sdk

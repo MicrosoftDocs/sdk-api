@@ -7,7 +7,7 @@ old-location: edp\iprotectionpolicymanager_getforwindow.htm
 old-project: EDP
 ms.assetid: 638316E0-8D5C-4966-A44F-8F31ECBE83EB
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: EDP.iprotectionpolicymanager_getforwindow, GetForWindow, GetForWindow method, GetForWindow method,IProtectionPolicyManagerInterop interface, IProtectionPolicyManagerInterop interface,GetForWindow method, IProtectionPolicyManagerInterop.GetForWindow, IProtectionPolicyManagerInterop::GetForWindow, efswrtinterop/IProtectionPolicyManagerInterop::GetForWindow
 ms.prod: windows
 ms.technology: windows-sdk

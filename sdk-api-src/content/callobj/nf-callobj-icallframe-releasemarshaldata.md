@@ -7,7 +7,7 @@ old-location: com\icallframe_releasemarshaldata.htm
 old-project: com
 ms.assetid: c82107ad-68d1-4a46-ba78-37592d445c57
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: ICallFrame interface [COM],ReleaseMarshalData method, ICallFrame.ReleaseMarshalData, ICallFrame::ReleaseMarshalData, ReleaseMarshalData, ReleaseMarshalData method [COM], ReleaseMarshalData method [COM],ICallFrame interface, _com_icallframe_releasemarshaldata, callobj/ICallFrame::ReleaseMarshalData, com.icallframe_releasemarshaldata
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PSYMBOL_FUNCENTRY_CALLBACK64
 author: windows-sdk-content
 description: An application-defined callback function used with the SymRegisterFunctionEntryCallback64 function. It is called by the stack walking procedure.
 old-location: base\symregisterfunctionentrycallbackproc64.htm
-old-project: Debug
+old-project: debug
 ms.assetid: cd10dfeb-451f-4d6d-ae1c-ecca75f86f3d
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: PSYMBOL_FUNCENTRY_CALLBACK, PSYMBOL_FUNCENTRY_CALLBACK64, SymRegisterFunctionEntryCallbackProc64, SymRegisterFunctionEntryCallbackProc64 callback, SymRegisterFunctionEntryCallbackProc64 callback function, _win32_symregisterfunctionentrycallbackproc64, base.symregisterfunctionentrycallbackproc64, dbghelp/SymRegisterFunctionEntryCallbackProc64
 ms.prod: windows
 ms.technology: windows-sdk

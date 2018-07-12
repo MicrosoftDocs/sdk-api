@@ -7,7 +7,7 @@ old-location: security\iconnectedidentityprovider_disconnectidentity.htm
 old-project: SecAuthN
 ms.assetid: D7869001-5412-48C9-9C31-0181A9366965
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: DisconnectIdentity, DisconnectIdentity method [Security], DisconnectIdentity method [Security],IConnectedIdentityProvider interface, IConnectedIdentityProvider interface [Security],DisconnectIdentity method, IConnectedIdentityProvider.DisconnectIdentity, IConnectedIdentityProvider::DisconnectIdentity, identityprovider/IConnectedIdentityProvider::DisconnectIdentity, security.iconnectedidentityprovider_disconnectidentity
 ms.prod: windows
 ms.technology: windows-sdk

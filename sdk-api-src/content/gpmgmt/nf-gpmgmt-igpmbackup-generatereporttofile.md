@@ -4,10 +4,10 @@ title: IGPMBackup::GenerateReportToFile
 author: windows-sdk-content
 description: The GenerateReportToFile method gets the report for the backup Group Policy object (GPO) and then saves the report to a file in a specified path.
 old-location: gpmc\igpmbackup_generatereporttofile.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: cba43c59-54d8-4d0b-b603-638f493cdf71
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: GenerateReportToFile, GenerateReportToFile method [GPMC], GenerateReportToFile method [GPMC],IGPMBackup interface, IGPMBackup interface [GPMC],GenerateReportToFile method, IGPMBackup.GenerateReportToFile, IGPMBackup::GenerateReportToFile, gpmc.igpmbackup_generatereporttofile, gpmgmt/IGPMBackup::GenerateReportToFile
 ms.prod: windows
 ms.technology: windows-sdk

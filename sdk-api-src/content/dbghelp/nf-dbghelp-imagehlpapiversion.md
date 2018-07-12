@@ -4,10 +4,10 @@ title: ImagehlpApiVersion function
 author: windows-sdk-content
 description: Retrieves the version information of the DbgHelp library installed on the system.
 old-location: base\imagehlpapiversion.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 0ad9a047-f2ae-4fbe-8a85-9817a616ef73
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: ImagehlpApiVersion, ImagehlpApiVersion function, _win32_imagehlpapiversion, base.imagehlpapiversion, dbghelp/ImagehlpApiVersion
 ms.prod: windows
 ms.technology: windows-sdk

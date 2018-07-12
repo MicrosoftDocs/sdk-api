@@ -7,7 +7,7 @@ old-location: mf\imfnetcredential_getpassword.htm
 old-project: medfound
 ms.assetid: ab7a4999-4a08-472c-bb7e-7068f2e2ac34
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetPassword, GetPassword method [Media Foundation], GetPassword method [Media Foundation],IMFNetCredential interface, IMFNetCredential interface [Media Foundation],GetPassword method, IMFNetCredential.GetPassword, IMFNetCredential::GetPassword, ab7a4999-4a08-472c-bb7e-7068f2e2ac34, mf.imfnetcredential_getpassword, mfidl/IMFNetCredential::GetPassword
 ms.prod: windows
 ms.technology: windows-sdk

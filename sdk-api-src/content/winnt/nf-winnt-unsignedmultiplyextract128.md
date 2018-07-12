@@ -4,10 +4,10 @@ title: UnsignedMultiplyExtract128 function
 author: windows-sdk-content
 description: Multiplies two unsigned 64-bit integers to produce an unsigned 128-bit integer, shifts the product to the right by the specified number of bits, and returns the low 64 bits of the result.
 old-location: winprog\unsignedmultiplyextract128.htm
-old-project: WinProg
+old-project: winprog
 ms.assetid: 93a2550d-b95a-4206-95a6-3412d9b38f37
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: UnsignedMultiplyExtract128, UnsignedMultiplyExtract128 function [Windows API], winnt/UnsignedMultiplyExtract128, winprog.unsignedmultiplyextract128
 ms.prod: windows
 ms.technology: windows-sdk

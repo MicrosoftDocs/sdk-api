@@ -4,10 +4,10 @@ title: DRMClosePubHandle function
 author: windows-sdk-content
 description: Closes a previously created DRMPUBHANDLE.
 old-location: rm\drmclosepubhandle.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: a263a1a8-01b8-4ca6-aefb-f4374459c0c0
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMClosePubHandle, DRMClosePubHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMClosePubHandle, rm.drmclosepubhandle
 ms.prod: windows
 ms.technology: windows-sdk

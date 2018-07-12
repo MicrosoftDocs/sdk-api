@@ -4,10 +4,10 @@ title: ISClusResource::get_TypeName
 author: windows-sdk-content
 description: Returns the resource type name of the resource.
 old-location: mscs\clusresource_typename.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: a3230fa1-67f9-43d5-b06a-03ffc2487a63
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResource class [Failover Cluster],TypeName property, ClusResource.TypeName, ISClusResource.get_TypeName, ISClusResource::get_TypeName, TypeName property [Failover Cluster], TypeName property [Failover Cluster],ClusResource class, _wolf_clusresource.typename, get_TypeName, mscs.clusresource_typename
 ms.prod: windows
 ms.technology: windows-sdk

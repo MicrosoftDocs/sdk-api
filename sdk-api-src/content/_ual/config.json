@@ -2,6 +2,5 @@
   "tech": "ual",
   "headers": [
     "ual.h"
-  ],
-  "displayName": "User Access Logging"
+  ]
 }

@@ -7,7 +7,7 @@ old-location: gdi\ttchartounicode.htm
 old-project: gdi
 ms.assetid: b5ed9429-31fa-4f78-8fc3-aeb5cb1540d1
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: TTCharToUnicode, TTCharToUnicode function [Windows GDI], _win32_BytesToUnicode, gdi.ttchartounicode, t2embapi/TTCharToUnicode
 ms.prod: windows
 ms.technology: windows-sdk

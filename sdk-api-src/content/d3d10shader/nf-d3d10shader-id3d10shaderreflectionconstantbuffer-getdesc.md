@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10shaderreflectionconstantbuffer_getdesc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflectionconstantbuffer_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 5ae50c37-2f90-6ff3-2719-c3b851ce778d, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10ShaderReflectionConstantBuffer interface, ID3D10ShaderReflectionConstantBuffer interface [Direct3D 10],GetDesc method, ID3D10ShaderReflectionConstantBuffer.GetDesc, ID3D10ShaderReflectionConstantBuffer::GetDesc, d3d10shader/ID3D10ShaderReflectionConstantBuffer::GetDesc, direct3d10.id3d10shaderreflectionconstantbuffer_getdesc
 ms.prod: windows
 ms.technology: windows-sdk

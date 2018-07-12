@@ -4,10 +4,10 @@ title: DnsHostnameToComputerNameW function
 author: windows-sdk-content
 description: Converts a DNS-style host name to a NetBIOS-style computer name.
 old-location: base\dnshostnametocomputername.htm
-old-project: SysInfo
+old-project: sysinfo
 ms.assetid: d5646fe6-9112-42cd-ace9-00dd1b590ecb
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: DnsHostnameToComputerName, DnsHostnameToComputerName function, DnsHostnameToComputerNameA, DnsHostnameToComputerNameW, _win32_dnshostnametocomputername, base.dnshostnametocomputername, winbase/DnsHostnameToComputerName, winbase/DnsHostnameToComputerNameA, winbase/DnsHostnameToComputerNameW
 ms.prod: windows
 ms.technology: windows-sdk

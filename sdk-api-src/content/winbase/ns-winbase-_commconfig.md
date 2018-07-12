@@ -4,10 +4,10 @@ title: "_COMMCONFIG"
 author: windows-sdk-content
 description: Contains information about the configuration state of a communications device.
 old-location: base\commconfig_str.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 9fd66f39-06a2-4159-9d1e-4ba84570c510
 ms.author: windowssdkdev
-ms.date: 04/03/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPCOMMCONFIG, COMMCONFIG, COMMCONFIG structure, LPCOMMCONFIG, LPCOMMCONFIG structure pointer, _COMMCONFIG, _win32_commconfig_str, base.commconfig_str, winbase/COMMCONFIG, winbase/LPCOMMCONFIG"
 ms.prod: windows
 ms.technology: windows-sdk

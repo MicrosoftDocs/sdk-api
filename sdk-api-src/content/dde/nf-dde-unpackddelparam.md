@@ -7,7 +7,7 @@ old-location: dataxchg\unpackddelparam.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangefunctions\unpackddelparam.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: UnpackDDElParam, UnpackDDElParam function [Data Exchange], _win32_UnpackDDElParam, _win32_unpackddelparam_cpp, dataxchg.unpackddelparam, dde/UnpackDDElParam, winui._win32_unpackddelparam
 ms.prod: windows
 ms.technology: windows-sdk

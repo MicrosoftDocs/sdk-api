@@ -4,10 +4,10 @@ title: PIBIO_STORAGE_QUERY_BY_CONTENT_FN
 author: windows-sdk-content
 description: Queries the database that is currently open for templates associated with a specified index vector.
 old-location: secbiomet\storageadapterquerybycontent.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 773aacd1-a34a-4c5a-b615-2a5485f13ca1
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: PIBIO_STORAGE_QUERY_BY_CONTENT_FN, PIBIO_STORAGE_QUERY_BY_CONTENT_FN callback, StorageAdapterQueryByContent, StorageAdapterQueryByContent callback function [Windows Biometric Framework API], secbiomet.storageadapterquerybycontent, winbio_adapter/StorageAdapterQueryByContent
 ms.prod: windows
 ms.technology: windows-sdk

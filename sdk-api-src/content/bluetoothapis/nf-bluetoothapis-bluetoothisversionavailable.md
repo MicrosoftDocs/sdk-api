@@ -4,10 +4,10 @@ title: BluetoothIsVersionAvailable function
 author: windows-sdk-content
 description: BluetoothIsVersionAvailable function indicates if the installed Bluetooth binary set supports the requested version.
 old-location: bluetooth\bluetoothisversionavailable.htm
-old-project: Bluetooth
+old-project: bluetooth
 ms.assetid: 735a4c3f-1977-4600-afb2-272de3f4e7ba
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: BluetoothIsVersionAvailable, BluetoothIsVersionAvailable function [Bluetooth], bluetooth.bluetoothisversionavailable, bluetoothapis/BluetoothIsVersionAvailable
 ms.prod: windows
 ms.technology: windows-sdk

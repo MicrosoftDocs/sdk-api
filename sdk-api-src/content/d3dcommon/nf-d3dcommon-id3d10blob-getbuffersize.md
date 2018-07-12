@@ -2,13 +2,13 @@
 UID: NF:d3dcommon.ID3D10Blob.GetBufferSize
 title: ID3D10Blob::GetBufferSize
 author: windows-sdk-content
-description: Get the size.
-old-location: direct3d10\id3d10blob_getbuffersize.htm
-old-project: direct3d10
-ms.assetid: VS|directx_sdk|~\id3d10blob_getbuffersize.htm
+description: Gets the size.
+old-location: direct3d11\id3d10blob_getbuffersize.htm
+old-project: direct3d11
+ms.assetid: E98833B1-07F7-4015-86C6-B9335529FC29
 ms.author: windowssdkdev
-ms.date: 05/21/2018
-ms.keywords: 05effbfa-dc35-2b6b-b2dd-7b8f31562625, GetBufferSize, GetBufferSize method [Direct3D 10], GetBufferSize method [Direct3D 10],ID3D10Blob interface, ID3D10Blob interface [Direct3D 10],GetBufferSize method, ID3D10Blob.GetBufferSize, ID3D10Blob::GetBufferSize, d3dcommon/ID3D10Blob::GetBufferSize, direct3d10.id3d10blob_getbuffersize
+ms.date: 06/26/2018
+ms.keywords: GetBufferSize, GetBufferSize method [Direct3D 11], GetBufferSize method [Direct3D 11],ID3D10Blob interface, ID3D10Blob interface [Direct3D 11],GetBufferSize method, ID3D10Blob.GetBufferSize, ID3D10Blob::GetBufferSize, d3dcommon/ID3D10Blob::GetBufferSize, direct3d11.id3d10blob_getbuffersize
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -34,7 +34,7 @@ topic_type:
 api_type:
  - COM
 api_location:
- - D3DCommon.h
+ - d3dcommon.h
 api_name:
  - ID3D10Blob.GetBufferSize
 product: Windows
@@ -50,7 +50,9 @@ req.irql:
 ## -description
 
 
-Get the size.
+
+          Gets the size.
+        
 
 
 ## -parameters
@@ -66,7 +68,9 @@ Get the size.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a></b>
 
-The size of the data, in bytes.
+
+            The size of the data, in bytes.
+          
 
 
 
@@ -76,7 +80,7 @@ The size of the data, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173507(v=VS.85).aspx">ID3D10Blob Interface</a>
+<a href="https://msdn.microsoft.com/7E97B8EB-E674-4B90-9B9B-202552DBD95C">ID3D10Blob</a>
  
 
  

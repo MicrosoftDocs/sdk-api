@@ -4,10 +4,10 @@ title: PRESUTIL_FIND_EXPANDED_SZ_PROPERTY
 author: windows-sdk-content
 description: Locates an expanded string property value in a property list. The PRESUTIL_FIND_EXPANDED_SZ_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindexpandedszproperty.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 7a639932-6dd5-41ef-a126-c2d5001a436f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_FIND_EXPANDED_SZ_PROPERTY, PRESUTIL_FIND_EXPANDED_SZ_PROPERTY callback, PRESUTIL_FIND_EXPANDED_SZ_PROPERTY callback function [Failover Cluster], _wolf_resutilfindexpandedszproperty, mscs.resutilfindexpandedszproperty, resapi/PRESUTIL_FIND_EXPANDED_SZ_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk

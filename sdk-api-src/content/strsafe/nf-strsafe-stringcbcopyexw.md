@@ -7,7 +7,7 @@ old-location: menurc\stringcbcopyex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopyex.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbCopyEx, StringCbCopyEx function [Menus and Other Resources], StringCbCopyExA, StringCbCopyExW, _shell_StringCbCopyEx, _shell_stringcbcopyex_cpp, menurc.stringcbcopyex, strsafe/StringCbCopyEx, strsafe/StringCbCopyExA, strsafe/StringCbCopyExW, winui._shell_stringcbcopyex
 ms.prod: windows
 ms.technology: windows-sdk

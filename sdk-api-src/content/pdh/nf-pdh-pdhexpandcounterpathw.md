@@ -4,10 +4,10 @@ title: PdhExpandCounterPathW function
 author: windows-sdk-content
 description: Examines the specified computer (or local computer if none is specified) for counters and instances of counters that match the wildcard strings in the counter path.
 old-location: perf\pdhexpandcounterpath.htm
-old-project: PerfCtrs
+old-project: perfctrs
 ms.assetid: d90954ab-ec2f-42fd-90b7-66f59f3d1115
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: PdhExpandCounterPath, PdhExpandCounterPath function [Perf], PdhExpandCounterPathA, PdhExpandCounterPathW, _win32_pdhexpandcounterpath, base.pdhexpandcounterpath, pdh/PdhExpandCounterPath, pdh/PdhExpandCounterPathA, pdh/PdhExpandCounterPathW, perf.pdhexpandcounterpath
 ms.prod: windows
 ms.technology: windows-sdk

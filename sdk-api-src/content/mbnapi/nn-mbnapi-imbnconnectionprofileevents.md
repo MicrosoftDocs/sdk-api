@@ -7,7 +7,7 @@ old-location: mbn\imbnconnectionprofileevents.htm
 old-project: mbn
 ms.assetid: 235fa0ef-4fc2-4a36-8ad7-2dceb597498f
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IMbnConnectionProfileEvents, IMbnConnectionProfileEvents interface [Microsoft Broadband Networks], IMbnConnectionProfileEvents interface [Microsoft Broadband Networks],described, mbn.imbnconnectionprofileevents, mbnapi/IMbnConnectionProfileEvents
 ms.prod: windows
 ms.technology: windows-sdk

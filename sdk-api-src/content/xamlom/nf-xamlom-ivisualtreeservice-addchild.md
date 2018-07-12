@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservice_addchild.htm
 old-project: xaml_diagnostics
 ms.assetid: 0F3BFACA-0B4C-4CC5-A48B-BD3921728612
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: AddChild, AddChild method, AddChild method,IVisualTreeService interface, IVisualTreeService interface,AddChild method, IVisualTreeService.AddChild, IVisualTreeService::AddChild, xaml_diagnostics.ivisualtreeservice_addchild, xamlom/IVisualTreeService::AddChild
 ms.prod: windows
 ms.technology: windows-sdk

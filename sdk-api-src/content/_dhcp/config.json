@@ -5,6 +5,5 @@
     "dhcpcsdk.h",
     "dhcpssdk.h",
     "dhcpsapi.h"
-  ],
-  "displayName": "Dynamic Host Configuration Protocol (DHCP)"
+  ]
 }

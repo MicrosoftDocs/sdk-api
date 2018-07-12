@@ -4,10 +4,10 @@ title: IcmpParseReplies function
 author: windows-sdk-content
 description: Parses the reply buffer provided and returns the number of ICMP echo request responses found.
 old-location: iphlp\icmpparsereplies.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: ec7c2a5f-5406-4350-b795-6e72fe25f62d
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: IcmpParseReplies, IcmpParseReplies function [IP Helper], _iphlp_icmpparsereplies, icmpapi/IcmpParseReplies, iphlp.icmpparsereplies
 ms.prod: windows
 ms.technology: windows-sdk

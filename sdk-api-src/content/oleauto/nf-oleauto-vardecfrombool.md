@@ -7,7 +7,7 @@ old-location: automat\vardecfrombool.htm
 old-project: automat
 ms.assetid: d0461861-6093-480c-9fd9-6387622e5b4f
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarDecFromBool, VarDecFromBool function [Automation], _oa96_VarDecFromBool, automat.vardecfrombool, oleauto/VarDecFromBool
 ms.prod: windows
 ms.technology: windows-sdk

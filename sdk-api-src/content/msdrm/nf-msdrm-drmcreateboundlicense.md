@@ -4,10 +4,10 @@ title: DRMCreateBoundLicense function
 author: windows-sdk-content
 description: Allows an application to examine or exercise the rights on a locally stored license.
 old-location: rm\drmcreateboundlicense.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: 102fa347-47be-4dc7-ba17-3f1ad3735b00
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMCreateBoundLicense, DRMCreateBoundLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateBoundLicense, rm.drmcreateboundlicense
 ms.prod: windows
 ms.technology: windows-sdk

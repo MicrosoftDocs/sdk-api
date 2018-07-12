@@ -4,10 +4,10 @@ title: IScheduledWorkItem::GetCreator
 author: windows-sdk-content
 description: Retrieves the name of the creator of the work item.
 old-location: taskschd\ischeduledworkitem_getcreator.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 25bbb200-3418-4ca9-87a5-5db537baceee
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetCreator, GetCreator method [Task Scheduler], GetCreator method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetCreator method, IScheduledWorkItem.GetCreator, IScheduledWorkItem::GetCreator, _msb_ischeduledworkitem_getcreator, mstask/IScheduledWorkItem::GetCreator, taskschd.ischeduledworkitem_getcreator
 ms.prod: windows
 ms.technology: windows-sdk

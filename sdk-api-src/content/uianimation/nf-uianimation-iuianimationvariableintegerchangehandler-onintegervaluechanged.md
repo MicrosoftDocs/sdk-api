@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariableintegerchangehandler_onintegervalu
 old-project: UIAnimation
 ms.assetid: e12224a2-c8f3-45eb-a254-d624de16e12d
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: IUIAnimationVariableIntegerChangeHandler interface [Windows Animation],OnIntegerValueChanged method, IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged, IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged, OnIntegerValueChanged, OnIntegerValueChanged method [Windows Animation], OnIntegerValueChanged method [Windows Animation],IUIAnimationVariableIntegerChangeHandler interface, uianimation.iuianimationvariableintegerchangehandler_onintegervaluechanged, uianimation/IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged
 ms.prod: windows
 ms.technology: windows-sdk

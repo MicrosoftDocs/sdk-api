@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayer2_get_windowlessvideo.htm
 old-project: WMP
 ms.assetid: da1cfa7c-aa79-4711-8de2-d83317e5598f
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPPlayer2 interface [Windows Media Player],get_windowlessVideo method, IWMPPlayer2.get_windowlessVideo, IWMPPlayer2::get_windowlessVideo, IWMPPlayer2get_windowlessVideo, get_windowlessVideo, get_windowlessVideo method [Windows Media Player], get_windowlessVideo method [Windows Media Player],IWMPPlayer2 interface, wmp.iwmpplayer2_get_windowlessvideo, wmp/IWMPPlayer2::get_windowlessVideo
 ms.prod: windows
 ms.technology: windows-sdk

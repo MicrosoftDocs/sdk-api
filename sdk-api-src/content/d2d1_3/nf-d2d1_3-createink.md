@@ -4,10 +4,10 @@ title: CreateInk function
 author: windows-sdk-content
 description: Creates a new ID2D1Ink object that starts at the given point.
 old-location: direct2d\id2d1devicecontext2_createink_overload.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 1e79b7cc-a6c4-72e3-d3d4-8346b19feac5
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: CreateInk, CreateInk methods [Direct2D], ID2D1DeviceContext2::CreateInk, d2d1_3/CreateInk, direct2d.id2d1devicecontext2_createink_overload
 ms.prod: windows
 ms.technology: windows-sdk

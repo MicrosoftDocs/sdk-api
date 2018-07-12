@@ -4,10 +4,10 @@ title: IVdsServiceIscsi::QueryInitiatorAdapters
 author: windows-sdk-content
 description: Returns an object that enumerates the iSCSI initiator adapters of the initiator.
 old-location: base\ivdsserviceiscsi_queryinitiatoradapters.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 427d33e1-d2a5-46f3-a3be-d3589685f6af
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],QueryInitiatorAdapters method, IVdsServiceIscsi.QueryInitiatorAdapters, IVdsServiceIscsi::QueryInitiatorAdapters, QueryInitiatorAdapters, QueryInitiatorAdapters method [VDS], QueryInitiatorAdapters method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_queryinitiatoradapters, vds/IVdsServiceIscsi::QueryInitiatorAdapters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ Returns an object that enumerates the iSCSI initiator adapters of the initiator.
 ### -param ppEnum [out]
 
 
-      The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the  initiator adapters  as <a href="https://msdn.microsoft.com/ae4d18f2-4d50-480c-bc7a-4eec0334707d">initiator adapter objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the initiator adapter objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+      The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the  initiator adapters  as <a href="https://msdn.microsoft.com/ae4d18f2-4d50-480c-bc7a-4eec0334707d">initiator adapter objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the initiator adapter objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
      
 
 

@@ -4,10 +4,10 @@ title: ListView_GetNextItemIndex macro
 author: windows-sdk-content
 description: Gets the index of the item in a particular list-view control that has the specified properties and relationship to another specific item. Use this macro or send the LVM_GETNEXTITEMINDEX message explicitly.
 old-location: controls\ListView_GetNextItemIndex.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getnextitemindex.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListView_GetNextItemIndex, ListView_GetNextItemIndex macro [Windows Controls], _shell_ListView_GetNextItemIndex, _shell_ListView_GetNextItemIndex_cpp, commctrl/ListView_GetNextItemIndex, controls.ListView_GetNextItemIndex, controls._shell_ListView_GetNextItemIndex
 ms.prod: windows
 ms.technology: windows-sdk

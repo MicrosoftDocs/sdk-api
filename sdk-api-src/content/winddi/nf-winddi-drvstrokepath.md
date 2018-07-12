@@ -7,7 +7,7 @@ old-location: display\drvstrokepath.htm
 old-project: display
 ms.assetid: c931a39d-c0ae-4f40-b70f-f51d5621c228
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: DrvStrokePath, DrvStrokePath function [Display Devices], ddifncs_73cbbe62-5351-4297-82fc-b0098f21fee2.xml, display.drvstrokepath, winddi/DrvStrokePath
 ms.prod: windows
 ms.technology: windows-sdk

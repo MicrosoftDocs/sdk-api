@@ -4,10 +4,10 @@ title: IUPnPService
 author: windows-sdk-content
 description: The IUPnPService interface enables an application to query state variables and invoke actions on an instance of a service.
 old-location: upnp\iupnpservice.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: 48b20b03-62a4-4dcd-8eda-f1bfef1eef38
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 04/26/2018
 ms.keywords: IUPnPService, IUPnPService interface [UPnP APIs], IUPnPService interface [UPnP APIs],described, _upnp_iupnpservice, upnp.iupnpservice, upnp/IUPnPService
 ms.prod: windows
 ms.technology: windows-sdk

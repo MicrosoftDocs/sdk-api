@@ -4,10 +4,10 @@ title: QOSStartTrackingClient function
 author: windows-sdk-content
 description: The QOSStartTrackingClient function notifies the QOS subsystem of the existence of a new client.
 old-location: qos\qosstarttrackingclient.htm
-old-project: QOS
+old-project: qos
 ms.assetid: 36e4a71f-fb6b-42b6-a770-8cbcf98e7eb3
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: QOSStartTrackingClient, QOSStartTrackingClient function [QOS], qos.qosstarttrackingclient, qos2/QOSStartTrackingClient
 ms.prod: windows
 ms.technology: windows-sdk

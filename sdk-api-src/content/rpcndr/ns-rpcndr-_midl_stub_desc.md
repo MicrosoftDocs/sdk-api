@@ -4,10 +4,10 @@ title: "_MIDL_STUB_DESC"
 author: windows-sdk-content
 description: The MIDL_STUB_DESC structure is a MIDL-generated structure that contains information about the interface stub regarding RPC calls between the client and server.
 old-location: rpc\midl_stub_desc.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: e3178aaa-a30a-43ba-a78a-a28d6f20fa74
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: MIDL_STUB_DESC, MIDL_STUB_DESC structure [RPC], PMIDL_STUB_DESC, PMIDL_STUB_DESC structure pointer [RPC], RPCFLG_HAS_CALLBACK, RPCFLG_HAS_MULTI_SYNTAXES, RPC_INTERFACE_HAS_PIPES, _MIDL_STUB_DESC, rpc.midl_stub_desc, rpcndr/MIDL_STUB_DESC, rpcndr/PMIDL_STUB_DESC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,7 +131,7 @@ NDR version required for the stub.
 
 ### -field pMallocFreeStruct
 
-Pointer to the MALLOC_FREE_STRUCT structure which contains the allocate and free function pointers. Use if the <a href="https://msdn.microsoft.com/">enable_allocate</a> MIDL attribute is specified.
+Pointer to the MALLOC_FREE_STRUCT structure which contains the allocate and free function pointers. Use if the <a href="https://msdn.microsoft.com/3a232a82-f114-4d8c-8b71-cf8860c77db3">enable_allocate</a> MIDL attribute is specified.
 
 
 ### -field MIDLVersion
@@ -141,12 +141,12 @@ Version of the MIDL compiler used to compile the .idl file.
 
 ### -field CommFaultOffsets
 
-Array of stack offsets for parameters with <a href="https://msdn.microsoft.com/3ea9ce62-8bd4-40fe-b838-bfebd52b5a15">comm_status</a> or <a href="https://msdn.microsoft.com/">fault_status</a> attributes. 
+Array of stack offsets for parameters with <a href="https://msdn.microsoft.com/">comm_status</a> or <a href="https://msdn.microsoft.com/9da7bd3d-cef0-4ad4-b2a4-3f8aa156e8e0">fault_status</a> attributes. 
 
 
 ### -field aUserMarshalQuadruple
 
-Array of an array of function pointers for user-defined <a href="https://msdn.microsoft.com/">user_marshal</a> and <a href="https://msdn.microsoft.com/51969f2c-7390-42c4-8aa6-ba12fdb22d23">wire_marshal</a>  types.
+Array of an array of function pointers for user-defined <a href="https://msdn.microsoft.com/">user_marshal</a> and <a href="https://msdn.microsoft.com/">wire_marshal</a>  types.
 
 
 ### -field NotifyRoutineTable

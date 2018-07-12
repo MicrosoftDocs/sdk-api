@@ -4,10 +4,10 @@ title: IStorage::Revert
 author: windows-sdk-content
 description: The Revert method discards all changes that have been made to the storage object since the last commit operation.
 old-location: stg\istorage_revert.htm
-old-project: Stg
+old-project: stg
 ms.assetid: d1b7626e-bad1-47b5-8bcd-3da3b05c53c4
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: IStorage interface [Structured Storage],Revert method, IStorage.Revert, IStorage::Revert, Revert, Revert method [Structured Storage], Revert method [Structured Storage],IStorage interface, _stg_istorage_revert, objidl/IStorage::Revert, stg.istorage_revert
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ This method can return one of these values.
 
 For storage objects opened in transacted mode, the <b>IStorage::Revert</b> method discards any uncommitted changes to this storage object or changes that have been committed to this storage object from nested elements.
 
-After this method returns, any existing elements (substorages or streams) that were opened from the reverted storage object are invalid and can no longer be used. Specifying these reverted elements in any call except <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> returns the error STG_E_REVERTED
+After this method returns, any existing elements (substorages or streams) that were opened from the reverted storage object are invalid and can no longer be used. Specifying these reverted elements in any call except <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> returns the error STG_E_REVERTED
 
 This method has no effect on storage objects opened in direct mode.
 

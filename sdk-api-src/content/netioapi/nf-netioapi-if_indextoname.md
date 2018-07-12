@@ -4,10 +4,10 @@ title: if_indextoname function
 author: windows-sdk-content
 description: Converts the local index for a network interface to the ANSI interface name.
 old-location: iphlp\if_indextoname.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 0da31819-3ee7-4474-9e68-f5a18d4a135a
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: if_indextoname, if_indextoname function [IP Helper], iphlp.if_indextoname, netioapi/if_indextoname
 ms.prod: windows
 ms.technology: windows-sdk

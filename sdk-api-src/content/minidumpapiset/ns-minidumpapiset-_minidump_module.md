@@ -4,10 +4,10 @@ title: "_MINIDUMP_MODULE"
 author: windows-sdk-content
 description: Contains information for a specific module.
 old-location: base\minidump_module_str.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 17e32c6e-29df-4308-b22d-39e13bc6a2a5
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*PMINIDUMP_MODULE, MINIDUMP_MODULE, MINIDUMP_MODULE structure, PMINIDUMP_MODULE, PMINIDUMP_MODULE structure pointer, _MINIDUMP_MODULE, _win32_minidump_module_str, base.minidump_module_str, minidumpapiset/MINIDUMP_MODULE, minidumpapiset/PMINIDUMP_MODULE"
 ms.prod: windows
 ms.technology: windows-sdk

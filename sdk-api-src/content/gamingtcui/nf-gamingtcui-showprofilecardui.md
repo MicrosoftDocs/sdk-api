@@ -7,7 +7,7 @@ old-location: tcui\showprofilecardui.htm
 old-project: tcui
 ms.assetid: 1BFC3B4B-4E48-4FAF-8B52-6E04EB72A064
 ms.author: windowssdkdev
-ms.date: 03/19/2018
+ms.date: 03/20/2018
 ms.keywords: ShowProfileCardUI, ShowProfileCardUI function, gamingtcui/ShowProfileCardUI, tcui.showprofilecardui
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_MINIDUMP_UNLOADED_MODULE_LIST"
 author: windows-sdk-content
 description: Contains a list of unloaded modules.
 old-location: base\minidump_unloaded_module_list_str.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 26a42ae7-f84d-451d-92e9-dbaffb15ca74
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*PMINIDUMP_UNLOADED_MODULE_LIST, MINIDUMP_UNLOADED_MODULE_LIST, MINIDUMP_UNLOADED_MODULE_LIST structure, PMINIDUMP_UNLOADED_MODULE_LIST, PMINIDUMP_UNLOADED_MODULE_LIST structure pointer, _MINIDUMP_UNLOADED_MODULE_LIST, _win32_minidump_unloaded_module_list_str, base.minidump_unloaded_module_list_str, minidumpapiset/MINIDUMP_UNLOADED_MODULE_LIST, minidumpapiset/PMINIDUMP_UNLOADED_MODULE_LIST"
 ms.prod: windows
 ms.technology: windows-sdk

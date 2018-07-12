@@ -7,7 +7,7 @@ old-location: shell\IDesktopWallpaper_SetSlideshowOptions.htm
 old-project: shell
 ms.assetid: B3106354-C321-4770-834F-D2EF790AE114
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: DSO_SHUFFLEIMAGES, IDesktopWallpaper interface [Windows Shell],SetSlideshowOptions method, IDesktopWallpaper.SetSlideshowOptions, IDesktopWallpaper::SetSlideshowOptions, SetSlideshowOptions, SetSlideshowOptions method [Windows Shell], SetSlideshowOptions method [Windows Shell],IDesktopWallpaper interface, shell.IDesktopWallpaper_SetSlideshowOptions, shobjidl_core/IDesktopWallpaper::SetSlideshowOptions
 ms.prod: windows
 ms.technology: windows-sdk

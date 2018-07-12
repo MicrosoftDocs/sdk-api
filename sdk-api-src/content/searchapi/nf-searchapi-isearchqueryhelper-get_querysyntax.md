@@ -7,7 +7,7 @@ old-location: search\_search_ISearchQueryHelper_get_QuerySyntax.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querysyntax.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISearchQueryHelper interface [search],get_QuerySyntax method, ISearchQueryHelper.get_QuerySyntax, ISearchQueryHelper::get_QuerySyntax, _search_ISearchQueryHelper_get_QuerySyntax, get_QuerySyntax, get_QuerySyntax method [search], get_QuerySyntax method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QuerySyntax, searchapi/ISearchQueryHelper::get_QuerySyntax
 ms.prod: windows
 ms.technology: windows-sdk

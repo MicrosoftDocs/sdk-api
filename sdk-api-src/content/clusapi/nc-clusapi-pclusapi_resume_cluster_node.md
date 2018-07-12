@@ -4,10 +4,10 @@ title: PCLUSAPI_RESUME_CLUSTER_NODE
 author: windows-sdk-content
 description: Requests that a paused node resume its cluster activity. The PCLUSAPI_RESUME_CLUSTER_NODE type defines a pointer to this function.
 old-location: mscs\resumeclusternode.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 01b98d8d-9235-4133-aa3c-f9ad45be8aaf
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_RESUME_CLUSTER_NODE, PCLUSAPI_RESUME_CLUSTER_NODE callback, PCLUSAPI_RESUME_CLUSTER_NODE callback function [Failover Cluster], _wolf_resumeclusternode, clusapi/PCLUSAPI_RESUME_CLUSTER_NODE, mscs.resumeclusternode
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mbn\imbnradioevents.htm
 old-project: mbn
 ms.assetid: f02fa823-c1ca-4867-981d-cb3107f7291b
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IMbnRadioEvents, IMbnRadioEvents interface [Microsoft Broadband Networks], IMbnRadioEvents interface [Microsoft Broadband Networks],described, mbn.imbnradioevents, mbnapi/IMbnRadioEvents
 ms.prod: windows
 ms.technology: windows-sdk

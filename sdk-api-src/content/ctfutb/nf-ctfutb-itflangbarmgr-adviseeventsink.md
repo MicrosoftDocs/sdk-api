@@ -7,7 +7,7 @@ old-location: tsf\itflangbarmgr_adviseeventsink.htm
 old-project: TSF
 ms.assetid: 8ac607fd-b2c4-4441-8738-c64c25b6c586
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: AdviseEventSink, AdviseEventSink method [Text Services Framework], AdviseEventSink method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],AdviseEventSink method, ITfLangBarMgr.AdviseEventSink, ITfLangBarMgr::AdviseEventSink, _tsf_itflangbarmgr_adviseeventsink_ref, ctfutb/ITfLangBarMgr::AdviseEventSink, tsf.itflangbarmgr_adviseeventsink
 ms.prod: windows
 ms.technology: windows-sdk

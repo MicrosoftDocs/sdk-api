@@ -4,10 +4,10 @@ title: "_STORAGE_DEVICE_ID_DESCRIPTOR"
 author: windows-sdk-content
 description: Used with the IOCTL_STORAGE_QUERY_PROPERTY control code request to retrieve the device ID descriptor data for a device.
 old-location: fs\storage_device_id_descriptor.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 67b346fd-8976-4cd7-bb2f-a44ef6d56bc4
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: PSTORAGE_DEVICE_ID_DESCRIPTOR, PSTORAGE_DEVICE_ID_DESCRIPTOR structure pointer [Files], STORAGE_DEVICE_ID_DESCRIPTOR, STORAGE_DEVICE_ID_DESCRIPTOR structure [Files], _STORAGE_DEVICE_ID_DESCRIPTOR, fs.storage_device_id_descriptor, winioctl/PSTORAGE_DEVICE_ID_DESCRIPTOR, winioctl/STORAGE_DEVICE_ID_DESCRIPTOR
 ms.prod: windows
 ms.technology: windows-sdk

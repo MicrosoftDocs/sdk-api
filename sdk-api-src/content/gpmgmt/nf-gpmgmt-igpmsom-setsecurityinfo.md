@@ -4,10 +4,10 @@ title: IGPMSOM::SetSecurityInfo
 author: windows-sdk-content
 description: Sets the list of permissions for the scope of management (SOM) to that of the specified object.
 old-location: gpmc\igpmsom_setsecurityinfo.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: 675de64c-4eef-47c8-a06c-9167559b11a9
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: GPMSOM class [GPMC],SetSecurityInfo method, IGPMSOM interface [GPMC],SetSecurityInfo method, IGPMSOM.SetSecurityInfo, IGPMSOM::SetSecurityInfo, SetSecurityInfo, SetSecurityInfo method [GPMC], SetSecurityInfo method [GPMC],GPMSOM class, SetSecurityInfo method [GPMC],IGPMSOM interface, _win32_igpmsom_setsecurityinfo, gpmc.igpmsom_setsecurityinfo, gpmgmt/IGPMSOM::SetSecurityInfo
 ms.prod: windows
 ms.technology: windows-sdk

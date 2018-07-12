@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_setbreakonid.htm
 old-project: direct3ddxgi
 ms.assetid: C225B262-B062-40D5-ADC0-491F47B111C9
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],SetBreakOnID method, IDXGIInfoQueue.SetBreakOnID, IDXGIInfoQueue::SetBreakOnID, SetBreakOnID, SetBreakOnID method [DXGI], SetBreakOnID method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_setbreakonid, dxgidebug/IDXGIInfoQueue::SetBreakOnID
 ms.prod: windows
 ms.technology: windows-sdk

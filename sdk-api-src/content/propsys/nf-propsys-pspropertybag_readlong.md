@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadLONG.htm
 old-project: properties
 ms.assetid: A39E1F7C-A4FB-47da-A05E-39F6176F2878
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PSPropertyBag_ReadLONG, PSPropertyBag_ReadLONG function [Windows Properties], properties.PSPropertyBag_ReadLONG, propsys/PSPropertyBag_ReadLONG, shell.PSPropertyBag_ReadLONG, shell_PSPropertyBag_ReadLONG
 ms.prod: windows
 ms.technology: windows-sdk

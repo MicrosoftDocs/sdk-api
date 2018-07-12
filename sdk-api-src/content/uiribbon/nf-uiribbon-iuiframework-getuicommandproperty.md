@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiframework_getuicommandproperty.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\getuicommandproperty.htm
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: GetUICommandProperty, GetUICommandProperty method [Windows Ribbon], GetUICommandProperty method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],GetUICommandProperty method, IUIFramework.GetUICommandProperty, IUIFramework::GetUICommandProperty, scenicintent_IUIFramework_GetUICommandProperty, uiribbon/IUIFramework::GetUICommandProperty, windowsribbon.windowsribbon_iuiframework_getuicommandproperty
 ms.prod: windows
 ms.technology: windows-sdk

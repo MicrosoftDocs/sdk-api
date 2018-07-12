@@ -4,10 +4,10 @@ title: ISClusResource::ChangeResourceGroup
 author: windows-sdk-content
 description: Removes the resource from its current group and places it in a different group.
 old-location: mscs\clusresource_changeresourcegroup.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: c272144f-f417-4ea5-8147-4f7bd02170b7
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ChangeResourceGroup, ChangeResourceGroup method [Failover Cluster], ChangeResourceGroup method [Failover Cluster],ClusResource class, ClusResource class [Failover Cluster],ChangeResourceGroup method, ClusResource.ChangeResourceGroup, ISClusResource.ChangeResourceGroup, ISClusResource::ChangeResourceGroup, _wolf_clusresource.changeresourcegroup, mscs.clusresource_changeresourcegroup
 ms.prod: windows
 ms.technology: windows-sdk

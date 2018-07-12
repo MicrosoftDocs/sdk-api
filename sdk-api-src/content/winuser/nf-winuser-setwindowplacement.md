@@ -7,7 +7,7 @@ old-location: winmsg\setwindowplacement.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setwindowplacement.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: SetWindowPlacement, SetWindowPlacement function [Windows and Messages], _win32_SetWindowPlacement, _win32_setwindowplacement_cpp, winmsg.setwindowplacement, winui._win32_setwindowplacement, winuser/SetWindowPlacement
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_deserializer_class_getclassname.htm
 old-project: wmi_v2
 ms.assetid: a4dc8992-ccdf-4883-a37d-83cb6d8da53a
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_Deserializer_Class_GetClassName, MI_Deserializer_Class_GetClassName function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_Class_GetClassName, wmi_v2.mi_deserializer_class_getclassname
 ms.prod: windows
 ms.technology: windows-sdk

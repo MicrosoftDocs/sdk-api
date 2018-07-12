@@ -4,10 +4,10 @@ title: MprConfigInterfaceTransportAdd function
 author: windows-sdk-content
 description: The MprConfigInterfaceTransportAdd function adds a transport protocol to an interface configuration on the router.
 old-location: rras\mprconfiginterfacetransportadd.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: f4735fd1-031d-4cda-af40-36f55e5796f9
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprConfigInterfaceTransportAdd, MprConfigInterfaceTransportAdd function [RAS], _mpr_mprconfiginterfacetransportadd, mprapi/MprConfigInterfaceTransportAdd, rras.mprconfiginterfacetransportadd
 ms.prod: windows
 ms.technology: windows-sdk

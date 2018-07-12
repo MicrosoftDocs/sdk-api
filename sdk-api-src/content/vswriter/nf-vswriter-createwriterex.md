@@ -4,10 +4,10 @@ title: CreateWriterEx function
 author: windows-sdk-content
 description: This function is reserved for system use.
 old-location: base\createwriterex.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 044dde5c-599f-495b-8d5c-7a37833bcb41
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: CreateWriterEx, CreateWriterEx function, base.createwriterex, vswriter/CreateWriterEx
 ms.prod: windows
 ms.technology: windows-sdk

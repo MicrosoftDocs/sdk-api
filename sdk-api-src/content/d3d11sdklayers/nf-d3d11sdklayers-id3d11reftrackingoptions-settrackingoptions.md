@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11reftrackingoptions_settrackingoptions.htm
 old-project: direct3d11
 ms.assetid: 2C782DBE-BA76-4D2E-82D6-1A03941B2FB1
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: ID3D11RefTrackingOptions interface [Direct3D 11],SetTrackingOptions method, ID3D11RefTrackingOptions.SetTrackingOptions, ID3D11RefTrackingOptions::SetTrackingOptions, SetTrackingOptions, SetTrackingOptions method [Direct3D 11], SetTrackingOptions method [Direct3D 11],ID3D11RefTrackingOptions interface, d3d11sdklayers/ID3D11RefTrackingOptions::SetTrackingOptions, direct3d11.id3d11reftrackingoptions_settrackingoptions
 ms.prod: windows
 ms.technology: windows-sdk

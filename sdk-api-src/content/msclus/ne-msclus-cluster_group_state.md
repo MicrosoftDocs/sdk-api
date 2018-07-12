@@ -4,10 +4,10 @@ title: CLUSTER_GROUP_STATE
 author: windows-sdk-content
 description: Enumerates the possible states of a group.
 old-location: mscs\cluster_group_state.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 1dbc5494-a830-4ee7-b982-48792ad87c51
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CLUSTER_GROUP_STATE, CLUSTER_GROUP_STATE enumeration [Failover Cluster], ClusterGroupFailed, ClusterGroupOffline, ClusterGroupOnline, ClusterGroupPartialOnline, ClusterGroupPending, ClusterGroupStateUnknown, _CLUSTER_GROUP_STATE, _CLUSTER_GROUP_STATE enumeration [Failover Cluster], clusapi/CLUSTER_GROUP_STATE, clusapi/ClusterGroupFailed, clusapi/ClusterGroupOffline, clusapi/ClusterGroupOnline, clusapi/ClusterGroupPartialOnline, clusapi/ClusterGroupPending, clusapi/ClusterGroupStateUnknown, clusapi/_CLUSTER_GROUP_STATE, msclus/CLUSTER_GROUP_STATE, msclus/ClusterGroupFailed, msclus/ClusterGroupOffline, msclus/ClusterGroupOnline, msclus/ClusterGroupPartialOnline, msclus/ClusterGroupPending, msclus/ClusterGroupStateUnknown, msclus/_CLUSTER_GROUP_STATE, mscs.cluster_group_state
 ms.prod: windows
 ms.technology: windows-sdk

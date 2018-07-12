@@ -4,10 +4,10 @@ title: "_FLOWDESCRIPTOR"
 author: windows-sdk-content
 description: The FLOWDESCRIPTOR structure specifies one or more filters for a given FLOWSPEC.
 old-location: qos\flowdescriptor.htm
-old-project: QOS
+old-project: qos
 ms.assetid: c81a9c68-7124-4a66-9c68-d147d41c0c4d
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: "*LPFLOWDESCRIPTOR, *LPFLOWDESCRIPTOR structure [QOS], FLOWDESCRIPTOR, FLOWDESCRIPTOR structure [QOS], _FLOWDESCRIPTOR, qos.flowdescriptor, qossp/*LPFLOWDESCRIPTOR, qossp/FLOWDESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk

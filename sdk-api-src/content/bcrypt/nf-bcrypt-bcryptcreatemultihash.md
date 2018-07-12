@@ -4,10 +4,10 @@ title: BCryptCreateMultiHash function
 author: windows-sdk-content
 description: The BCryptCreateMultiHash function creates a multi-hash state that allows for the parallel computation of multiple hash operations.
 old-location: security\bcryptcreatemultihash.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: AAF91460-AEFB-4E16-91EA-4A60272B3839
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: BCRYPT_HASH_REUSABLE_FLAG, BCryptCreateMultiHash, BCryptCreateMultiHash function [Security], bcrypt/BCryptCreateMultiHash, security.bcryptcreatemultihash
 ms.prod: windows
 ms.technology: windows-sdk

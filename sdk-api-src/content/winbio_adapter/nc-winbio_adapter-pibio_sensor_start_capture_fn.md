@@ -4,10 +4,10 @@ title: PIBIO_SENSOR_START_CAPTURE_FN
 author: windows-sdk-content
 description: Begins an asynchronous biometric capture.
 old-location: secbiomet\sensoradapterstartcapture.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 79922878-f5d3-4400-8c4f-2636323d7dcf
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: PIBIO_SENSOR_START_CAPTURE_FN, PIBIO_SENSOR_START_CAPTURE_FN callback, SensorAdapterStartCapture, SensorAdapterStartCapture callback function [Windows Biometric Framework API], secbiomet.sensoradapterstartcapture, winbio_adapter/SensorAdapterStartCapture
 ms.prod: windows
 ms.technology: windows-sdk

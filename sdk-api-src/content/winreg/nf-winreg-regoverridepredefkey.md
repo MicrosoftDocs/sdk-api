@@ -4,10 +4,10 @@ title: RegOverridePredefKey function
 author: windows-sdk-content
 description: Maps a predefined registry key to the specified registry key.
 old-location: base\regoverridepredefkey.htm
-old-project: SysInfo
+old-project: sysinfo
 ms.assetid: ad58b7ff-cd61-4719-9028-b470ae7e9bb0
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: RegOverridePredefKey, RegOverridePredefKey function, _win32_regoverridepredefkey, base.regoverridepredefkey, winreg/RegOverridePredefKey
 ms.prod: windows
 ms.technology: windows-sdk

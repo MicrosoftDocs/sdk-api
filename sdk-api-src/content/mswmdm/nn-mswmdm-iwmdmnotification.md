@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmnotification.htm
 old-project: WMDM
 ms.assetid: 3089a04d-24f5-4a4c-9df5-b4073fef358a
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IWMDMNotification, IWMDMNotification interface [windows Media Device Manager], IWMDMNotification interface [windows Media Device Manager],described, IWMDMNotificationInterface, mswmdm/IWMDMNotification, wmdm.iwmdmnotification
 ms.prod: windows
 ms.technology: windows-sdk

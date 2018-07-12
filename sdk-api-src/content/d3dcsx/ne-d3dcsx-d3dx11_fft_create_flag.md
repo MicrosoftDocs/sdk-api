@@ -7,7 +7,7 @@ old-location: direct3d11\d3dx11_fft_create_flag.htm
 old-project: direct3d11
 ms.assetid: 0e7eab8d-bbc5-4704-aa92-35de4a1eda28
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: D3DX11_FFT_CREATE_FLAG, D3DX11_FFT_CREATE_FLAG enumeration [Direct3D 11], D3DX11_FFT_CREATE_FLAG_NO_PRECOMPUTE_BUFFERS, ce09326a-8047-adf4-4d4a-86bfd0c74400, d3dcsx/D3DX11_FFT_CREATE_FLAG, d3dcsx/D3DX11_FFT_CREATE_FLAG_NO_PRECOMPUTE_BUFFERS, direct3d11.d3dx11_fft_create_flag
 ms.prod: windows
 ms.technology: windows-sdk

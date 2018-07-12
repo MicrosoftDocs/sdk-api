@@ -4,10 +4,10 @@ title: Edit_GetModify macro
 author: windows-sdk-content
 description: Gets the state of an edit or rich edit control's modification flag. The flag indicates whether the contents of the control have been modified. You can use this macro or send the EM_GETMODIFY message explicitly.
 old-location: controls\Edit_GetModify.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getmodify.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: Edit_GetModify, Edit_GetModify macro [Windows Controls], _win32_Edit_GetModify, _win32_Edit_GetModify_cpp, controls.Edit_GetModify, controls._win32_Edit_GetModify, windowsx/Edit_GetModify
 ms.prod: windows
 ms.technology: windows-sdk

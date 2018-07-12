@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_buffer_uav_flags.htm
 old-project: direct3d12
 ms.assetid: D5350B5B-4E15-4B9F-B3E0-5A3B1592ED5C
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: D3D12_BUFFER_UAV_FLAGS, D3D12_BUFFER_UAV_FLAGS enumeration, D3D12_BUFFER_UAV_FLAG_NONE, D3D12_BUFFER_UAV_FLAG_RAW, d3d12/D3D12_BUFFER_UAV_FLAGS, d3d12/D3D12_BUFFER_UAV_FLAG_NONE, d3d12/D3D12_BUFFER_UAV_FLAG_RAW, direct3d12.d3d12_buffer_uav_flags
 ms.prod: windows
 ms.technology: windows-sdk

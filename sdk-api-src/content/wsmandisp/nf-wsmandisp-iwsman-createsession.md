@@ -4,10 +4,10 @@ title: IWSMan::CreateSession
 author: windows-sdk-content
 description: Creates a Session object that can then be used for subsequent network operations.
 old-location: winrm\iwsman_createsession.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: 0ccab9bf-f8b4-432e-92d1-b5a5d3a2dfe5
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: CreateSession, CreateSession method [Windows Remote Management], CreateSession method [Windows Remote Management],IWSMan interface, IWSMan interface [Windows Remote Management],CreateSession method, IWSMan.CreateSession, IWSMan::CreateSession, winrm.iwsman_createsession, wsmandisp/IWSMan::CreateSession
 ms.prod: windows
 ms.technology: windows-sdk

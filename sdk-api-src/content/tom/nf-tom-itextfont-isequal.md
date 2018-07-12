@@ -4,10 +4,10 @@ title: ITextFont::IsEqual
 author: windows-sdk-content
 description: Determines whether this text font object has the same properties as the specified text font object.
 old-location: controls\ITextFont_IsEqual.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontisequal.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ITextFont interface [Windows Controls],IsEqual method, ITextFont.IsEqual, ITextFont::IsEqual, IsEqual, IsEqual method [Windows Controls], IsEqual method [Windows Controls],ITextFont interface, _win32_ITextFont_IsEqual, _win32_ITextFont_IsEqual_cpp, controls.ITextFont_IsEqual, controls._win32_ITextFont_IsEqual, tom/ITextFont::IsEqual
 ms.prod: windows
 ms.technology: windows-sdk

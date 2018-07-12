@@ -4,10 +4,10 @@ title: ldap_simple_bind_sA function
 author: windows-sdk-content
 description: The ldap_simple_bind_s function synchronously authenticates a client to a server, using a plaintext password.
 old-location: ldap\ldap_simple_bind_s.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: c3edca12-2dde-4f64-a479-2fbda8a4a996
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/14/2018
 ms.keywords: "_ldap_ldap_simple_bind_s, ldap.ldap__simple__bind__s, ldap.ldap_simple_bind_s, ldap_simple_bind_s, ldap_simple_bind_s function [LDAP], ldap_simple_bind_sA, ldap_simple_bind_sW, winldap/ldap_simple_bind_s, winldap/ldap_simple_bind_sA, winldap/ldap_simple_bind_sW"
 ms.prod: windows
 ms.technology: windows-sdk

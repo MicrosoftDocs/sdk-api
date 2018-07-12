@@ -4,10 +4,10 @@ title: NetAccessDel function
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netaccessdel.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: be33d9b4-9740-4ccb-ac95-25ae02edaa42
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: NetAccessDel, NetAccessDel function [Network Management], _win32_netaccessdel, lmaccess/NetAccessDel, netmgmt.netaccessdel
 ms.prod: windows
 ms.technology: windows-sdk

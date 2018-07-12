@@ -4,10 +4,10 @@ title: PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM
 author: windows-sdk-content
 description: Closes a resource type enumeration handle.
 old-location: mscs\clusterresourcetypecloseenum.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: c6524604-7a73-414c-95bb-dce9524f3295
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM, PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM callback, PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM callback function [Failover Cluster], _wolf_clusterresourcetypecloseenum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM, mscs.clusterresourcetypecloseenum
 ms.prod: windows
 ms.technology: windows-sdk

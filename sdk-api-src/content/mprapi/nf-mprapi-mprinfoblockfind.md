@@ -4,10 +4,10 @@ title: MprInfoBlockFind function
 author: windows-sdk-content
 description: The MprInfoBlockFind function locates a specified block in an information header, and retrieves information about the block.
 old-location: rras\mprinfoblockfind.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: fd9a048b-03fb-4fe9-9f72-df07b35dd804
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprInfoBlockFind, MprInfoBlockFind function [RAS], _mpr_mprinfoblockfind, mprapi/MprInfoBlockFind, rras.mprinfoblockfind
 ms.prod: windows
 ms.technology: windows-sdk

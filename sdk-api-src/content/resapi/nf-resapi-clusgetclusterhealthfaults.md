@@ -4,10 +4,10 @@ title: ClusGetClusterHealthFaults function
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\clusgetclusterhealthfaults.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 971d4cb6-be46-4259-9c40-72388b70aff7
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusGetClusterHealthFaults, ClusGetClusterHealthFaults function [Failover Cluster], mscs.clusgetclusterhealthfaults, resapi/ClusGetClusterHealthFaults
 ms.prod: windows
 ms.technology: windows-sdk

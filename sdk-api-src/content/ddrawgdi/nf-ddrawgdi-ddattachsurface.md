@@ -7,7 +7,7 @@ old-location: winprog\_dxgkernel_ddattachsurface.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddattachsurface.htm
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: DdAttachSurface, DdAttachSurface function [Windows API], GdiEntry11, _dxgkernel_ddattachsurface, ddrawgdi/DdAttachSurface, ddrawgdi/GdiEntry11, winprog._dxgkernel_ddattachsurface, winui._dxgkernel_ddattachsurface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*LPDDSURFACEDESC2, DDSURFACEDESC2"
+req.typenames: DDPIXELFORMAT
 topic_type:
  - APIRef
  - kbSyntax

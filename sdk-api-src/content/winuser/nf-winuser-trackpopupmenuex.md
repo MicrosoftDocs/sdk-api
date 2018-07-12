@@ -7,7 +7,7 @@ old-location: menurc\trackpopupmenuex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\trackpopupmenuex.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: TPM_BOTTOMALIGN, TPM_CENTERALIGN, TPM_HORIZONTAL, TPM_HORNEGANIMATION, TPM_HORPOSANIMATION, TPM_LEFTALIGN, TPM_LEFTBUTTON, TPM_NOANIMATION, TPM_NONOTIFY, TPM_RETURNCMD, TPM_RIGHTALIGN, TPM_RIGHTBUTTON, TPM_TOPALIGN, TPM_VCENTERALIGN, TPM_VERNEGANIMATION, TPM_VERPOSANIMATION, TPM_VERTICAL, TrackPopupMenuEx, TrackPopupMenuEx function [Menus and Other Resources], _win32_TrackPopupMenuEx, _win32_trackpopupmenuex_cpp, menurc.trackpopupmenuex, winui._win32_trackpopupmenuex, winuser/TrackPopupMenuEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

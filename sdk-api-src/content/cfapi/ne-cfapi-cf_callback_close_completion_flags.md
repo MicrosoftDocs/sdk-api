@@ -7,7 +7,7 @@ old-location: cloudapi\cf_callback_close_completion_flags.htm
 old-project: cfApi
 ms.assetid: D80D95FB-C53B-4A31-97B9-389BE73BE966
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CF_CALLBACK_CLOSE_COMPLETION_FLAGS, CF_CALLBACK_CLOSE_COMPLETION_FLAGS enumeration, CF_CALLBACK_CLOSE_COMPLETION_FLAG_DELETED, CF_CALLBACK_CLOSE_COMPLETION_FLAG_NONE, cfapi/CF_CALLBACK_CLOSE_COMPLETION_FLAGS, cfapi/CF_CALLBACK_CLOSE_COMPLETION_FLAG_DELETED, cfapi/CF_CALLBACK_CLOSE_COMPLETION_FLAG_NONE, cloudApi.cf_callback_close_completion_flags
 ms.prod: windows
 ms.technology: windows-sdk

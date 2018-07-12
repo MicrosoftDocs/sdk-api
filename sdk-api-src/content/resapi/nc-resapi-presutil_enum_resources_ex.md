@@ -4,10 +4,10 @@ title: PRESUTIL_ENUM_RESOURCES_EX
 author: windows-sdk-content
 description: Enumerates all of the resources in a specified cluster and initiates a user-defined operation for each resource. The PRESUTIL_ENUM_RESOURCES_EX type defines a pointer to this function.
 old-location: mscs\resutilenumresourcesex.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_ENUM_RESOURCES_EX, PRESUTIL_ENUM_RESOURCES_EX callback, PRESUTIL_ENUM_RESOURCES_EX callback function [Failover Cluster], _wolf_resutilenumresourcesex, mscs.resutilenumresourcesex, resapi/PRESUTIL_ENUM_RESOURCES_EX
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IGPMGPOCollection
 author: windows-sdk-content
 description: The IGPMGPOCollection interface contains methods that enable applications to access a collection of Group Policy Objects (GPOs) when using the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmgpocollection.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: 847aea86-48e9-428e-ae4d-e6a7e1e13428
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: GPMGPOCollection, IGPMGPOCollection, IGPMGPOCollection interface [GPMC], IGPMGPOCollection interface [GPMC],described, _win32_igpmgpocollection, gpmc.igpmgpocollection, gpmgmt/IGPMGPOCollection
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\itfcandidatelistuielement_getstring.htm
 old-project: TSF
 ms.assetid: 85cf60e3-f068-499f-b726-9ccea3cd8503
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetString method, ITfCandidateListUIElement.GetString, ITfCandidateListUIElement::GetString, msctf/ITfCandidateListUIElement::GetString, tsf.itfcandidatelistuielement_getstring
 ms.prod: windows
 ms.technology: windows-sdk

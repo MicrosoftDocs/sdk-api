@@ -6,6 +6,5 @@
     "windows.applicationmodel.background.h",
     "mstask.h",
     "taskschd.h"
-  ],
-  "displayName": "Task Scheduler"
+  ]
 }

@@ -4,10 +4,10 @@ title: CLUSTER_NETWORK_STATE
 author: windows-sdk-content
 description: Enumerates the possible values of the state of a network.
 old-location: mscs\cluster_network_state.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 1a9e3ff0-eb5a-4a2e-ae19-e70213dc1a4a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CLUSTER_NETWORK_STATE, CLUSTER_NETWORK_STATE enumeration [Failover Cluster], ClusterNetworkDown, ClusterNetworkPartitioned, ClusterNetworkStateUnknown, ClusterNetworkUnavailable, ClusterNetworkUp, _CLUSTER_NETWORK_STATE, _CLUSTER_NETWORK_STATE enumeration [Failover Cluster], clusapi/CLUSTER_NETWORK_STATE, clusapi/ClusterNetworkDown, clusapi/ClusterNetworkPartitioned, clusapi/ClusterNetworkStateUnknown, clusapi/ClusterNetworkUnavailable, clusapi/ClusterNetworkUp, clusapi/_CLUSTER_NETWORK_STATE, msclus/CLUSTER_NETWORK_STATE, msclus/ClusterNetworkDown, msclus/ClusterNetworkPartitioned, msclus/ClusterNetworkStateUnknown, msclus/ClusterNetworkUnavailable, msclus/ClusterNetworkUp, msclus/_CLUSTER_NETWORK_STATE, mscs.cluster_network_state
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IWSDEndpointProxy::GetFaultInfo
 author: windows-sdk-content
 description: Retrieves information on the last received fault.
 old-location: ncd\iwsdendpointproxy_getfaultinfo.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 45ed30fd-7e4f-44f5-bb90-5686746e39be
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: GetFaultInfo, GetFaultInfo method, GetFaultInfo method,IWSDEndpointProxy interface, IWSDEndpointProxy interface,GetFaultInfo method, IWSDEndpointProxy.GetFaultInfo, IWSDEndpointProxy::GetFaultInfo, ncd.iwsdendpointproxy_getfaultinfo, wsdclient/IWSDEndpointProxy::GetFaultInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: RegisterGPNotification function
 author: windows-sdk-content
 description: The RegisterGPNotification function enables an application to receive notification when there is a change in policy. When a policy change occurs, the specified event object is set to the signaled state.
 old-location: policy\registergpnotification.htm
-old-project: Policy
+old-project: policy
 ms.assetid: 0a758da3-73a8-4d9b-8663-e6cab1a1bd3f
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RegisterGPNotification, RegisterGPNotification function [Group Policy], _win32_registergpnotification, policy.registergpnotification, userenv/RegisterGPNotification
 ms.prod: windows
 ms.technology: windows-sdk

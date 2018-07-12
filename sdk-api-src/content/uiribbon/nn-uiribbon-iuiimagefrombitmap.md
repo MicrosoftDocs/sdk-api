@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiimagefrombitmap.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimagefrombitmap\iuiimagefrombitmap.htm
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IUIImageFromBitmap, IUIImageFromBitmap interface [Windows Ribbon], IUIImageFromBitmap interface [Windows Ribbon],described, scenicintent_IUIImageFromBitmap, uiribbon/IUIImageFromBitmap, windowsribbon.windowsribbon_iuiimagefrombitmap
 ms.prod: windows
 ms.technology: windows-sdk

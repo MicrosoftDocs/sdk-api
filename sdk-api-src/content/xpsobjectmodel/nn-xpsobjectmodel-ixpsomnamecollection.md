@@ -7,7 +7,7 @@ old-location: xps\ixpsomnamecollection.htm
 old-project: printdocs
 ms.assetid: b27f83fc-0fcf-44e9-a6ce-c3612c5399ff
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IXpsOMNameCollection, IXpsOMNameCollection interface [XPS Documents and Packaging], IXpsOMNameCollection interface [XPS Documents and Packaging],described, xps.ixpsomnamecollection, xpsobjectmodel/IXpsOMNameCollection
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_MIB_OPAQUE_QUERY"
 author: windows-sdk-content
 description: Contains information for a MIB opaque query.
 old-location: mib\mib_opaque_query.htm
-old-project: MIB
+old-project: mib
 ms.assetid: cd87cbe4-3da4-4205-9a88-becf4f341ab5
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 05/15/2018
 ms.keywords: "*PMIB_OPAQUE_QUERY, MIB_OPAQUE_QUERY, MIB_OPAQUE_QUERY structure [MIB], PMIB_OPAQUE_QUERY, PMIB_OPAQUE_QUERY structure pointer [MIB], _MIB_OPAQUE_QUERY, _mpr_mib_opaque_query, iprtrmib/MIB_OPAQUE_QUERY, iprtrmib/PMIB_OPAQUE_QUERY, mib.mib_opaque_query, rras.mib_opaque_query"
 ms.prod: windows
 ms.technology: windows-sdk

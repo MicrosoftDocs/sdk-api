@@ -4,10 +4,10 @@ title: EffectInputDescription function
 author: windows-sdk-content
 description: Creates a D2D1_EFFECT_INPUT_DESCRIPTION structure.
 old-location: direct2d\effectinputdescription.htm
-old-project: Direct2D
+old-project: direct2d
 ms.assetid: 3246476C-4110-43EC-88A3-55682A141383
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 07/02/2018
 ms.keywords: EffectInputDescription, EffectInputDescription function [Direct2D], d2d1_1helper/EffectInputDescription, direct2d.effectinputdescription
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IEnumSubStream::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumsubstream_next.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: fa8c4017-09ac-44e9-a7fa-922d0588d92a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IEnumSubStream interface [TAPI 2.2],Next method, IEnumSubStream.Next, IEnumSubStream::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumSubStream interface, _tapi3_ienumsubstream_next, tapi3.ienumsubstream_next, tapi3if/IEnumSubStream::Next
 ms.prod: windows
 ms.technology: windows-sdk
@@ -141,8 +141,8 @@ Insufficient memory exists to perform the operation.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/fc495bc3-1172-4e39-b617-055b7ac95898">ITSubStream</a> interface returned by <b>IEnumSubStream::Next</b>. The application must call <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/fc495bc3-1172-4e39-b617-055b7ac95898">ITSubStream</a> interface returned by <b>IEnumSubStream::Next</b>. The application must call <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">Release</a> on the 
 <b>ITSubStream</b> interface to free resources associated with it.
 
 

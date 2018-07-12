@@ -4,10 +4,10 @@ title: CreateProxyArpEntry function
 author: windows-sdk-content
 description: The CreateProxyArpEnry function creates a Proxy Address Resolution Protocol (PARP) entry on the local computer for the specified IPv4 address.
 old-location: iphlp\createproxyarpentry.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: a0e90c0a-9403-40cb-906e-6e1e2f8e73c4
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: CreateProxyArpEntry, CreateProxyArpEntry function [IP Helper], _iphlp_createproxyarpentry, iphlp.createproxyarpentry, iphlpapi/CreateProxyArpEntry
 ms.prod: windows
 ms.technology: windows-sdk

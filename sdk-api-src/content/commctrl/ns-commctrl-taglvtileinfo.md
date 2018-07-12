@@ -4,10 +4,10 @@ title: tagLVTILEINFO
 author: windows-sdk-content
 description: Provides information about an item in a list-view control when it is displayed in tile view.
 old-location: controls\LVTILEINFO.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvtileinfo.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*PLVTILEINFO, LVTILEINFO, LVTILEINFO structure [Windows Controls], PLVTILEINFO, PLVTILEINFO structure pointer [Windows Controls], commctrl/LVTILEINFO, commctrl/PLVTILEINFO, controls.LVTILEINFO, controls.inet_LVTILEINFO, inet_LVTILEINFO, inet_LVTILEINFO_cpp, tagLVTILEINFO"
 ms.prod: windows
 ms.technology: windows-sdk

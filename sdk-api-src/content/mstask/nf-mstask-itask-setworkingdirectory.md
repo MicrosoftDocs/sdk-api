@@ -4,10 +4,10 @@ title: ITask::SetWorkingDirectory
 author: windows-sdk-content
 description: This method sets the working directory for the task.
 old-location: taskschd\itask_setworkingdirectory.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: df12d899-c254-4bbf-a49f-d89a2fcb0e28
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: ITask interface [Task Scheduler],SetWorkingDirectory method, ITask.SetWorkingDirectory, ITask::SetWorkingDirectory, SetWorkingDirectory, SetWorkingDirectory method [Task Scheduler], SetWorkingDirectory method [Task Scheduler],ITask interface, _msb_itask_setworkingdirectory, mstask/ITask::SetWorkingDirectory, taskschd.itask_setworkingdirectory
 ms.prod: windows
 ms.technology: windows-sdk

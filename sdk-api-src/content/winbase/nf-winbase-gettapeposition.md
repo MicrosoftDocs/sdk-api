@@ -4,10 +4,10 @@ title: GetTapePosition function
 author: windows-sdk-content
 description: Retrieves the current address of the tape, in logical or absolute blocks.
 old-location: backup\gettapeposition.htm
-old-project: Backup
+old-project: backup
 ms.assetid: f4ce1436-ee16-4e05-b7a0-30ea79688e79
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: GetTapePosition, GetTapePosition function [Backup], TAPE_ABSOLUTE_POSITION, TAPE_LOGICAL_POSITION, _win32_gettapeposition, backup.gettapeposition, base.gettapeposition, winbase/GetTapePosition
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\mfgetattributeratio.htm
 old-project: medfound
 ms.assetid: 2572c30c-4ae1-42b7-b1f7-6c564d936c60
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 2572c30c-4ae1-42b7-b1f7-6c564d936c60, MFGetAttributeRatio, MFGetAttributeRatio function [Media Foundation], mf.mfgetattributeratio, mfapi/MFGetAttributeRatio
 ms.prod: windows
 ms.technology: windows-sdk

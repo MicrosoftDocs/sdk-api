@@ -7,7 +7,7 @@ old-location: intl\setthreadlocale.htm
 old-project: Intl
 ms.assetid: d86193c7-9b3a-422b-b76c-ff1992f68958
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/28/2018
 ms.keywords: SetThreadLocale, SetThreadLocale function [Internationalization for Windows Applications], _win32_SetThreadLocale, intl.setthreadlocale, winnls/SetThreadLocale
 ms.prod: windows
 ms.technology: windows-sdk

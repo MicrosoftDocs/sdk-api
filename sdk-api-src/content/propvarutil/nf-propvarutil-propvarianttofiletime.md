@@ -7,7 +7,7 @@ old-location: properties\PropVariantToFileTime.htm
 old-project: properties
 ms.assetid: fc835395-8c2c-4f6a-88be-f438625442b9
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PSTF_LOCAL, PSTF_UTC, PropVariantToFileTime, PropVariantToFileTime function [Windows Properties], _shell_PropVariantToFileTime, properties.PropVariantToFileTime, propvarutil/PropVariantToFileTime, shell.PropVariantToFileTime
 ms.prod: windows
 ms.technology: windows-sdk

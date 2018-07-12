@@ -7,7 +7,7 @@ old-location: wintouch\imanipulationprocessor_getvelocityy.htm
 old-project: wintouch
 ms.assetid: b531c4e5-8437-4869-9264-3fe131b8acc8
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetVelocityY, GetVelocityY method [Windows Touch], GetVelocityY method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetVelocityY method, IManipulationProcessor.GetVelocityY, IManipulationProcessor::GetVelocityY, manipulations/IManipulationProcessor::GetVelocityY, wintouch.imanipulationprocessor_getvelocityy
 ms.prod: windows
 ms.technology: windows-sdk

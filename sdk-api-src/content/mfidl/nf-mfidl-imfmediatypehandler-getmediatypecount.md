@@ -7,7 +7,7 @@ old-location: mf\imfmediatypehandler_getmediatypecount.htm
 old-project: medfound
 ms.assetid: c5ee41bc-ee8b-4990-ae9d-92ef54597f31
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetMediaTypeCount, GetMediaTypeCount method [Media Foundation], GetMediaTypeCount method [Media Foundation],IMFMediaTypeHandler interface, IMFMediaTypeHandler interface [Media Foundation],GetMediaTypeCount method, IMFMediaTypeHandler.GetMediaTypeCount, IMFMediaTypeHandler::GetMediaTypeCount, c5ee41bc-ee8b-4990-ae9d-92ef54597f31, mf.imfmediatypehandler_getmediatypecount, mfidl/IMFMediaTypeHandler::GetMediaTypeCount
 ms.prod: windows
 ms.technology: windows-sdk

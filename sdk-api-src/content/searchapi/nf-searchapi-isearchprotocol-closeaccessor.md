@@ -7,7 +7,7 @@ old-location: search\_search_ISearchProtocol_CloseAccessor.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol\closeaccessor.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CloseAccessor, CloseAccessor method [search], CloseAccessor method [search],ISearchProtocol interface, ISearchProtocol interface [search],CloseAccessor method, ISearchProtocol.CloseAccessor, ISearchProtocol::CloseAccessor, _search_ISearchProtocol_CloseAccessor, search._search_ISearchProtocol_CloseAccessor, searchapi/ISearchProtocol::CloseAccessor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
             
 
 
-              Accessors can be created and maintained in a pool, as resources to be used by protocol handlers when needed, and this might improve performance. If you are implementing a pool of <a href="https://msdn.microsoft.com/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> objects, use <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">IUnknown::AddRef</a> to add an <b>IUrlAccessor</b> to your pool.
+              Accessors can be created and maintained in a pool, as resources to be used by protocol handlers when needed, and this might improve performance. If you are implementing a pool of <a href="https://msdn.microsoft.com/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> objects, use <a href="https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx">IUnknown::AddRef</a> to add an <b>IUrlAccessor</b> to your pool.
             
 
 

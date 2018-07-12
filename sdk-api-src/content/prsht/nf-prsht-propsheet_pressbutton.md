@@ -4,10 +4,10 @@ title: PropSheet_PressButton macro
 author: windows-sdk-content
 description: Simulates the selection of a property sheet button. You can use this macro or send the PSM_PRESSBUTTON message explicitly.
 old-location: controls\PropSheet_PressButton.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_pressbutton.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: PSBTN_APPLYNOW, PSBTN_BACK, PSBTN_CANCEL, PSBTN_FINISH, PSBTN_HELP, PSBTN_NEXT, PSBTN_OK, PropSheet_PressButton, PropSheet_PressButton macro [Windows Controls], _win32_PropSheet_PressButton, _win32_PropSheet_PressButton_cpp, controls.PropSheet_PressButton, controls._win32_PropSheet_PressButton, prsht/PropSheet_PressButton
 ms.prod: windows
 ms.technology: windows-sdk

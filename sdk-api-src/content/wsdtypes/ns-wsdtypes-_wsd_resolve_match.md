@@ -4,10 +4,10 @@ title: "_WSD_RESOLVE_MATCH"
 author: windows-sdk-content
 description: Represents a ResolveMatch message.
 old-location: ncd\wsd_resolve_match_struct.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: eabcc3af-282c-4299-8061-6cddf14eca6b
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: WSD_RESOLVE_MATCH, WSD_RESOLVE_MATCH structure, _WSD_RESOLVE_MATCH, ncd.wsd_resolve_match_struct, wsdtypes/WSD_RESOLVE_MATCH
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wsdhost.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

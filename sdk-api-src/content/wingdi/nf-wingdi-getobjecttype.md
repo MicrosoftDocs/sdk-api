@@ -7,7 +7,7 @@ old-location: gdi\getobjecttype.htm
 old-project: gdi
 ms.assetid: 334a2c95-3bf4-44dc-abce-df3a3a2d37a8
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetObjectType, GetObjectType function [Windows GDI], _win32_GetObjectType, gdi.getobjecttype, wingdi/GetObjectType
 ms.prod: windows
 ms.technology: windows-sdk

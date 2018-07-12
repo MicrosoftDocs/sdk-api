@@ -7,7 +7,7 @@ old-location: menurc\beginupdateresource.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\beginupdateresource.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: BeginUpdateResource, BeginUpdateResource function [Menus and Other Resources], BeginUpdateResourceA, BeginUpdateResourceW, _win32_BeginUpdateResource, _win32_beginupdateresource_cpp, menurc.beginupdateresource, winbase/BeginUpdateResource, winbase/BeginUpdateResourceA, winbase/BeginUpdateResourceW, winui._win32_beginupdateresource
 ms.prod: windows
 ms.technology: windows-sdk

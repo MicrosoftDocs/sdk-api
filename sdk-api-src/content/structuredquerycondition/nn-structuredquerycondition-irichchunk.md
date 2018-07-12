@@ -7,7 +7,7 @@ old-location: search\_search_IRichChunk.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irichchunk\irichchunk.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IRichChunk, IRichChunk interface [search], IRichChunk interface [search],described, _search_IRichChunk, search._search_IRichChunk, structuredquerycondition/IRichChunk
 ms.prod: windows
 ms.technology: windows-sdk

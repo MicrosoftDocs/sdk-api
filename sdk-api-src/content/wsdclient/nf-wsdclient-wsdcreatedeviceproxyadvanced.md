@@ -4,10 +4,10 @@ title: WSDCreateDeviceProxyAdvanced function
 author: windows-sdk-content
 description: Creates a device proxy and returns a pointer to the IWSDDeviceProxy interface.
 old-location: ncd\wsdcreatedeviceproxyadvanced.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 31ddf62a-71d3-4f66-a704-2ee9e1fc8145
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: WSDCreateDeviceProxyAdvanced, WSDCreateDeviceProxyAdvanced function, ncd.wsdcreatedeviceproxyadvanced, wsdclient/WSDCreateDeviceProxyAdvanced
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: BCryptGetFipsAlgorithmMode function
 author: windows-sdk-content
 description: Determines whether Federal Information Processing Standard (FIPS) compliance is enabled.
 old-location: security\bcryptgetfipsalgorithmmode.htm
-old-project: SecCNG
+old-project: seccng
 ms.assetid: eb7b758d-3466-49fe-8729-a8a059fadcde
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: BCryptGetFipsAlgorithmMode, BCryptGetFipsAlgorithmMode function [Security], bcrypt/BCryptGetFipsAlgorithmMode, security.bcryptgetfipsalgorithmmode
 ms.prod: windows
 ms.technology: windows-sdk

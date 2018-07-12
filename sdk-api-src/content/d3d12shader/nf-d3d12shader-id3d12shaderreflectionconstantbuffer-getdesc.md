@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectionconstantbuffer_getdesc.htm
 old-project: direct3d12
 ms.assetid: 33D6926F-BF1B-4424-BC28-83F8A4A30589
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12ShaderReflectionConstantBuffer interface, ID3D12ShaderReflectionConstantBuffer interface,GetDesc method, ID3D12ShaderReflectionConstantBuffer.GetDesc, ID3D12ShaderReflectionConstantBuffer::GetDesc, d3d12shader/ID3D12ShaderReflectionConstantBuffer::GetDesc, direct3d12.id3d12shaderreflectionconstantbuffer_getdesc
 ms.prod: windows
 ms.technology: windows-sdk

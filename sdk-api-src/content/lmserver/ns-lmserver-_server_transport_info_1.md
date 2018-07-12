@@ -4,10 +4,10 @@ title: "_SERVER_TRANSPORT_INFO_1"
 author: windows-sdk-content
 description: The SERVER_TRANSPORT_INFO_1 structure contains information about the specified transport protocol, including name and address. This information level is valid only for the NetServerTransportAddEx function.
 old-location: netmgmt\server_transport_info_1_str.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: f21fed49-207a-4f64-becd-3d3c1e995eb0
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: "*LPSERVER_TRANSPORT_INFO_1, *PSERVER_TRANSPORT_INFO_1, LPSERVER_TRANSPORT_INFO_1, LPSERVER_TRANSPORT_INFO_1 structure pointer [Network Management], PSERVER_TRANSPORT_INFO_1, PSERVER_TRANSPORT_INFO_1 structure pointer [Network Management], SERVER_TRANSPORT_INFO_1, SERVER_TRANSPORT_INFO_1 structure [Network Management], _SERVER_TRANSPORT_INFO_1, _win32_server_transport_info_1_str, lmserver/LPSERVER_TRANSPORT_INFO_1, lmserver/PSERVER_TRANSPORT_INFO_1, lmserver/SERVER_TRANSPORT_INFO_1, netmgmt.server_transport_info_1_str"
 ms.prod: windows
 ms.technology: windows-sdk

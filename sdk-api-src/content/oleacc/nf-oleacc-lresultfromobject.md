@@ -7,7 +7,7 @@ old-location: winauto\lresultfromobject.htm
 old-project: WinAuto
 ms.assetid: c219a4cd-7a8f-4942-8975-b3d823b6497f
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: LresultFromObject, LresultFromObject function [Windows Accessibility], _msaa_LresultFromObject, msaa.lresultfromobject, oleacc/LresultFromObject, winauto.lresultfromobject
 ms.prod: windows
 ms.technology: windows-sdk

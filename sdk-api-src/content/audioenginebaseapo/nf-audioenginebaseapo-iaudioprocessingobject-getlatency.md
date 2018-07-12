@@ -7,7 +7,7 @@ old-location: audio\iaudioprocessingobject_getlatency.htm
 old-project: audio
 ms.assetid: 7ac982cd-7fb7-4427-ac17-508bcc72391d
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: GetLatency, GetLatency method [Audio Devices], GetLatency method [Audio Devices],IAudioProcessingObject interface, IAudioProcessingObject interface [Audio Devices],GetLatency method, IAudioProcessingObject.GetLatency, IAudioProcessingObject::GetLatency, audio.iaudioprocessingobject_getlatency, audio_syseffects_r_51c02d16-7f19-43e9-8656-411abb78ee56.xml, audioenginebaseapo/IAudioProcessingObject::GetLatency
 ms.prod: windows
 ms.technology: windows-sdk

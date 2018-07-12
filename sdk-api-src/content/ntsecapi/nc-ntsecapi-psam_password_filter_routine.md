@@ -4,10 +4,10 @@ title: PSAM_PASSWORD_FILTER_ROUTINE
 author: windows-sdk-content
 description: Implemented by a password filter DLL. The value returned by this function determines whether the new password is accepted by the system.
 old-location: security\passwordfilter.htm
-old-project: SecMgmt
+old-project: secmgmt
 ms.assetid: cb4fe40e-81ea-4040-b3ee-642a093e5fca
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: PSAM_PASSWORD_FILTER_ROUTINE, PSAM_PASSWORD_FILTER_ROUTINE callback, PasswordFilter, PasswordFilter callback function [Security], _pswd_passwordfilter, ntsecapi/PasswordFilter, security.passwordfilter
 ms.prod: windows
 ms.technology: windows-sdk

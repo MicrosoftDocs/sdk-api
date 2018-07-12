@@ -4,10 +4,10 @@ title: ISClusPartition::get_MaximumComponentLength
 author: windows-sdk-content
 description: Maximum component length of a storage class resource partition.
 old-location: mscs\cluspartition_maximumcomponentlength.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 9b664155-617a-4a3c-9c48-0e9fc9e206ba
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusPartition object [Failover Cluster],MaximumComponentLength property, ClusPartition.MaximumComponentLength, ISClusPartition.get_MaximumComponentLength, ISClusPartition::get_MaximumComponentLength, MaximumComponentLength property [Failover Cluster], MaximumComponentLength property [Failover Cluster],ClusPartition object, _wolf_cluspartition.maximumcomponentlength, get_MaximumComponentLength, mscs.cluspartition_maximumcomponentlength
 ms.prod: windows
 ms.technology: windows-sdk

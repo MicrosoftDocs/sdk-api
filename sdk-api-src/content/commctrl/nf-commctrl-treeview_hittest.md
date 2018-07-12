@@ -4,10 +4,10 @@ title: TreeView_HitTest macro
 author: windows-sdk-content
 description: Determines the location of the specified point relative to the client area of a tree-view control. You can use this macro or send the TVM_HITTEST message explicitly.
 old-location: controls\TreeView_HitTest.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_hittest.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: TreeView_HitTest, TreeView_HitTest macro [Windows Controls], _win32_TreeView_HitTest, _win32_TreeView_HitTest_cpp, commctrl/TreeView_HitTest, controls.TreeView_HitTest, controls._win32_TreeView_HitTest
 ms.prod: windows
 ms.technology: windows-sdk

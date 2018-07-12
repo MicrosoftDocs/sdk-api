@@ -4,10 +4,10 @@ title: IWEExtendPropertySheet::CreatePropertySheetPages
 author: windows-sdk-content
 description: Creates property pages for a cluster object and adds them to a Failover Cluster Administrator property sheet.
 old-location: mscs\iweextendpropertysheet_createpropertysheetpages.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 00eca370-a2c6-4f5c-94a9-7d7e4334ccd5
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CreatePropertySheetPages, CreatePropertySheetPages method [Failover Cluster], CreatePropertySheetPages method [Failover Cluster],IWEExtendPropertySheet interface, IWEExtendPropertySheet interface [Failover Cluster],CreatePropertySheetPages method, IWEExtendPropertySheet.CreatePropertySheetPages, IWEExtendPropertySheet::CreatePropertySheetPages, _wolf_iweextendpropertysheet_createpropertysheetpages, cluadmex/IWEExtendPropertySheet::CreatePropertySheetPages, mscs.iweextendpropertysheet_createpropertysheetpages
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ Creates property pages for a <a href="https://msdn.microsoft.com/library/ms68200
 
 
 <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer for retrieving information relating to the new 
-       property pages. By calling the <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">IUnknown::QueryInterface</a> method with the 
+       property pages. By calling the <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method with the 
        <i>piData</i> pointer, the following interfaces are available:
 
 <ul>
@@ -131,7 +131,7 @@ Return one of the following values or any <b>HRESULT</b> that describes the resu
 <p class="proch"><img alt="" src="../common/wedge.gif"/><b>For each property page to be added</b>
 
 <ol>
-<li>Use <i>piData</i> to call <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> and retrieve an 
+<li>Use <i>piData</i> to call <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> and retrieve an 
        interface pointer for the cluster object associated with the page. For example, if you are adding a property 
        page for a resource, you want to retrieve a pointer to the 
        <a href="https://msdn.microsoft.com/8a3a9e9d-4666-4d9a-83e3-10d667b42d66">IGetClusterResourceInfo</a> interface. 

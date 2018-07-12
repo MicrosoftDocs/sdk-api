@@ -4,10 +4,10 @@ title: IX509CertificateRequestPkcs10V2::get_Template
 author: windows-sdk-content
 description: Retrieves the certificate request template used during initialization.
 old-location: security\ix509certificaterequestpkcs10v2_template.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 903288b5-c4fd-4302-8140-be84532217c1
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509CertificateRequestPkcs10V2 interface [Security],Template property, IX509CertificateRequestPkcs10V2.Template, IX509CertificateRequestPkcs10V2.get_Template, IX509CertificateRequestPkcs10V2::Template, IX509CertificateRequestPkcs10V2::get_Template, Template property [Security], Template property [Security],IX509CertificateRequestPkcs10V2 interface, certenroll/IX509CertificateRequestPkcs10V2::Template, certenroll/IX509CertificateRequestPkcs10V2::get_Template, get_Template, security.ix509certificaterequestpkcs10v2_template
 ms.prod: windows
 ms.technology: windows-sdk

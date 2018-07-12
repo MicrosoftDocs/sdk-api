@@ -4,10 +4,10 @@ title: UninstallApplication function
 author: windows-sdk-content
 description: The UninstallApplication function uninstalls a group policy application that handles setup and installation using Windows Installer .msi files.
 old-location: policy\uninstallapplication.htm
-old-project: Policy
+old-project: policy
 ms.assetid: d45494e2-d86e-4d94-a158-4024eacf46a2
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: UninstallApplication, UninstallApplication function [Group Policy], appmgmt/UninstallApplication, policy.uninstallapplication
 ms.prod: windows
 ms.technology: windows-sdk

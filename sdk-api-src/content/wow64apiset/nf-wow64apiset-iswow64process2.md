@@ -7,7 +7,7 @@ old-location: base\iswow64process2.htm
 old-project: ProcThread
 ms.assetid: 77B4E3C8-F9DE-4674-9CEA-9C81AEEB393C
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: IsWow64Process2, IsWow64Process2 function, base.iswow64process2, wow64apiset/IsWow64Process2
 ms.prod: windows
 ms.technology: windows-sdk

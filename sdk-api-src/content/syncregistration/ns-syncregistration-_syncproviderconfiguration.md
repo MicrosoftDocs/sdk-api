@@ -7,7 +7,7 @@ old-location: winsync\syncproviderconfiguration.htm
 old-project: winsync
 ms.assetid: 2b8c9a94-4e11-4904-a6aa-da0433d5b237
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: SyncProviderConfiguration, SyncProviderConfiguration structure [Windows Sync], _SyncProviderConfiguration, syncregistration/SyncProviderConfiguration, winsync.syncproviderconfiguration
 ms.prod: windows
 ms.technology: windows-sdk

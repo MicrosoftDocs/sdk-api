@@ -4,10 +4,10 @@ title: CertFreeCertificateChainEngine function
 author: windows-sdk-content
 description: The CertFreeCertificateChainEngine function frees a certificate trust engine.
 old-location: security\certfreecertificatechainengine.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 5aebc09d-342d-4938-8a1a-0cbfdc147bb5
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CertFreeCertificateChainEngine, CertFreeCertificateChainEngine function [Security], _crypto2_certfreecertificatechainengine, security.certfreecertificatechainengine, wincrypt/CertFreeCertificateChainEngine
 ms.prod: windows
 ms.technology: windows-sdk

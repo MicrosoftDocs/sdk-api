@@ -4,10 +4,10 @@ title: SymGetTypeInfoEx function
 author: windows-sdk-content
 description: Retrieves multiple pieces of type information.
 old-location: base\symgettypeinfoex.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 77e0a8ad-8c75-4bb2-869a-670429475ccc
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: SymGetTypeInfoEx, SymGetTypeInfoEx function, base.symgettypeinfoex, dbghelp/SymGetTypeInfoEx
 ms.prod: windows
 ms.technology: windows-sdk

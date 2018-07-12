@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestpackageid_comparepublisher.htm
 old-project: appxpkg
 ms.assetid: 8AC811D0-D5C5-47DF-92FD-C66BC018B668
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: ComparePublisher, ComparePublisher method [App packaging and management], ComparePublisher method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],ComparePublisher method, IAppxManifestPackageId.ComparePublisher, IAppxManifestPackageId::ComparePublisher, appxpackaging/IAppxManifestPackageId::ComparePublisher, appxpkg.iappxmanifestpackageid_comparepublisher
 ms.prod: windows
 ms.technology: windows-sdk

@@ -21,6 +21,5 @@
     "xpsrassvc.h",
     "d4drvif.h",
     "d4iface.h"
-  ],
-  "displayName": "Print DDI reference"
+  ]
 }

@@ -4,10 +4,10 @@ title: PeerGraphClose function
 author: windows-sdk-content
 description: The PeerGraphClose function invalidates the peer graph handle returned by a call to either PeerGraphCreate or PeerGraphOpen, and closes all network connections for the specified peer graph.
 old-location: p2p\peergraphclose.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 7600da14-7641-4b5c-b5ba-e33ffc28097c
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerGraphClose, PeerGraphClose function [Peer Networking], p2p.peergraphclose, p2p/PeerGraphClose
 ms.prod: windows
 ms.technology: windows-sdk

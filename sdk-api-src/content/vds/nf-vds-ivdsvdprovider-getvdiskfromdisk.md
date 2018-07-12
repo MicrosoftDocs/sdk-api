@@ -4,10 +4,10 @@ title: IVdsVdProvider::GetVDiskFromDisk
 author: windows-sdk-content
 description: Returns an IVdsVDisk interface pointer for the virtual disk given an IVdsDisk interface pointer.
 old-location: base\ivdsvdprovider_getvdiskfromdisk.htm
-old-project: VDS
+old-project: vds
 ms.assetid: ef5fd5e0-d11f-44e1-8947-787f1e592c5c
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: GetVDiskFromDisk, GetVDiskFromDisk method, GetVDiskFromDisk method,IVdsVdProvider interface, IVdsVdProvider interface,GetVDiskFromDisk method, IVdsVdProvider.GetVDiskFromDisk, IVdsVdProvider::GetVDiskFromDisk, base.ivdsvdprovider_getvdiskfromdisk, vds/IVdsVdProvider::GetVDiskFromDisk
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ The <a href="https://msdn.microsoft.com/2b4f81f9-81ec-4288-a26c-8ed4d378358a">IV
 
 ### -param ppVDisk [out]
 
-A pointer to a variable that receives an <a href="https://msdn.microsoft.com/2b4f81f9-81ec-4288-a26c-8ed4d378358a">IVdsVDisk</a> interface pointer. Callers must release the interface pointer when it is no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+A pointer to a variable that receives an <a href="https://msdn.microsoft.com/2b4f81f9-81ec-4288-a26c-8ed4d378358a">IVdsVDisk</a> interface pointer. Callers must release the interface pointer when it is no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

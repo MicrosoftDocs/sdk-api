@@ -4,10 +4,10 @@ title: ICertificateEnrollmentPolicyServerSetup::GetProperty
 author: windows-sdk-content
 description: Retrieves a CEPSetupProperty enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.
 old-location: security\icertificateenrollmentpolicyserversetup_getproperty.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 52AD50BB-4146-44FC-BA32-9FC46FFE32E4
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetProperty, GetProperty method [Security], GetProperty method [Security],ICertificateEnrollmentPolicyServerSetup interface, ICertificateEnrollmentPolicyServerSetup interface [Security],GetProperty method, ICertificateEnrollmentPolicyServerSetup.GetProperty, ICertificateEnrollmentPolicyServerSetup::GetProperty, casetup/ICertificateEnrollmentPolicyServerSetup::GetProperty, security.icertificateenrollmentpolicyserversetup_getproperty
 ms.prod: windows
 ms.technology: windows-sdk

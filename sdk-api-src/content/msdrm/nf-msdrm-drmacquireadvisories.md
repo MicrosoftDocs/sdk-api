@@ -4,10 +4,10 @@ title: DRMAcquireAdvisories function
 author: windows-sdk-content
 description: Retrieves revocation lists required by a submitted license.
 old-location: rm\drmacquireadvisories.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: 42c58096-429c-4278-b9ab-8c5a91361af8
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMAcquireAdvisories, DRMAcquireAdvisories function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMAcquireAdvisories, rm.drmacquireadvisories
 ms.prod: windows
 ms.technology: windows-sdk

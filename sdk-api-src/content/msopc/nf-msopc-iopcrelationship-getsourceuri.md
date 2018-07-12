@@ -7,7 +7,7 @@ old-location: opc\iopcrelationship_getsourceuri.htm
 old-project: OPC
 ms.assetid: 8e2587af-fce0-437a-9608-6824e861d699
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: GetSourceUri, GetSourceUri method [Open Packaging Conventions], GetSourceUri method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetSourceUri method, IOpcRelationship.GetSourceUri, IOpcRelationship::GetSourceUri, msopc/IOpcRelationship::GetSourceUri, opc.iopcrelationship_getsourceuri
 ms.prod: windows
 ms.technology: windows-sdk

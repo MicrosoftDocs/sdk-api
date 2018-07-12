@@ -4,10 +4,10 @@ title: SetWaitableTimer function
 author: windows-sdk-content
 description: Activates the specified waitable timer. When the due time arrives, the timer is signaled and the thread that set the timer calls the optional completion routine.
 old-location: base\setwaitabletimer.htm
-old-project: Sync
+old-project: sync
 ms.assetid: 237e22dc-696d-473f-8bb5-c28f7c7c75b2
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/06/2018
 ms.keywords: SetWaitableTimer, SetWaitableTimer function, _win32_setwaitabletimer, base.setwaitabletimer, synchapi/SetWaitableTimer, winbase/SetWaitableTimer
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: properties\IPropertyUI_ParsePropertyName.htm
 old-project: properties
 ms.assetid: CCD8C646-B259-4445-AEA0-AD7364FE8DEF
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: IPropertyUI interface [Windows Properties],ParsePropertyName method, IPropertyUI.ParsePropertyName, IPropertyUI::ParsePropertyName, ParsePropertyName, ParsePropertyName method [Windows Properties], ParsePropertyName method [Windows Properties],IPropertyUI interface, _shell_IPropertyUI_ParsePropertyName, properties.IPropertyUI_ParsePropertyName, shell.IPropertyUI_ParsePropertyName, shobjidl_core/IPropertyUI::ParsePropertyName
 ms.prod: windows
 ms.technology: windows-sdk

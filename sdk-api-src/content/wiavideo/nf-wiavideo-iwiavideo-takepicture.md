@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaVideo_TakePicture.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\takepicture.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: IWiaVideo interface [WIA],TakePicture method, IWiaVideo.TakePicture, IWiaVideo::TakePicture, TakePicture, TakePicture method [WIA], TakePicture method [WIA],IWiaVideo interface, _wia_IWiaVideo_TakePicture, wia._wia_IWiaVideo_TakePicture, wiavideo/IWiaVideo::TakePicture
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PeerDistRegisterForStatusChangeNotification function
 author: windows-sdk-content
 description: The PeerDistRegisterForStatusChangeNotification function requests the Peer Distribution service status change notification.
 old-location: p2p\peerdistregisterforstatuschangenotification.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 7b01a499-534b-4c0f-9c9c-bafa066ad742
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerDistRegisterForStatusChangeNotification, PeerDistRegisterForStatusChangeNotification function [Peer Networking], p2p.peerdistregisterforstatuschangenotification, peerdist/PeerDistRegisterForStatusChangeNotification
 ms.prod: windows
 ms.technology: windows-sdk

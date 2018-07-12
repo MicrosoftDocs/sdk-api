@@ -3,6 +3,5 @@
   "headers": [
     "mi.h",
     "mispace_wmi.h"
-  ],
-  "displayName": "Windows Management Infrastructure (MI)"
+  ]
 }

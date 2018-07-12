@@ -7,7 +7,7 @@ old-location: display\iviewhelper_getproceedonnewconfiguration.htm
 old-project: display
 ms.assetid: 223fc545-0fe8-4907-870a-7c0e4ec2f2e8
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: GetProceedOnNewConfiguration, GetProceedOnNewConfiguration method [Display Devices], GetProceedOnNewConfiguration method [Display Devices],IViewHelper interface, IViewHelper interface [Display Devices],GetProceedOnNewConfiguration method, IViewHelper.GetProceedOnNewConfiguration, IViewHelper::GetProceedOnNewConfiguration, TMM_Ref_3cc57f4b-1882-4f95-955c-23b6e8635a98.xml, cloneviewhelper/IViewHelper::GetProceedOnNewConfiguration, display.iviewhelper_getproceedonnewconfiguration
 ms.prod: windows
 ms.technology: windows-sdk

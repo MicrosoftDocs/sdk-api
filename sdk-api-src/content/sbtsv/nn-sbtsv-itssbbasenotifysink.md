@@ -7,7 +7,7 @@ old-location: termserv\itssbbasenotifysink.htm
 old-project: TermServ
 ms.assetid: 11ef1bd4-301f-456b-a68b-2f32b75ac5ae
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: ITsSbBaseNotifySink, ITsSbBaseNotifySink interface [Remote Desktop Services], ITsSbBaseNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbBaseNotifySink, termserv.itssbbasenotifysink
 ms.prod: windows
 ms.technology: windows-sdk

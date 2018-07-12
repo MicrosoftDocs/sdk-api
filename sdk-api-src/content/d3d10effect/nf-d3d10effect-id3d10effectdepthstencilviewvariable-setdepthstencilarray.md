@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectdepthstencilviewvariable_setdepthstencilarr
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectdepthstencilviewvariable_setdepthstencilarray.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 19d677a4-86e6-d451-5d65-7ab228f247d5, ID3D10EffectDepthStencilViewVariable interface [Direct3D 10],SetDepthStencilArray method, ID3D10EffectDepthStencilViewVariable.SetDepthStencilArray, ID3D10EffectDepthStencilViewVariable::SetDepthStencilArray, SetDepthStencilArray, SetDepthStencilArray method [Direct3D 10], SetDepthStencilArray method [Direct3D 10],ID3D10EffectDepthStencilViewVariable interface, d3d10effect/ID3D10EffectDepthStencilViewVariable::SetDepthStencilArray, direct3d10.id3d10effectdepthstencilviewvariable_setdepthstencilarray
 ms.prod: windows
 ms.technology: windows-sdk

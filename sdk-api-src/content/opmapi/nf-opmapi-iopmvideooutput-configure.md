@@ -7,7 +7,7 @@ old-location: mf\iopmvideooutput_iopmvideooutput__configure.htm
 old-project: medfound
 ms.assetid: b8eb3561-7e81-4f4c-bcb1-1657f8556aea
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: Configure, Configure method [Media Foundation], Configure method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],Configure method, IOPMVideoOutput.Configure, IOPMVideoOutput::Configure, mf.iopmvideooutput_iopmvideooutput__configure, opmapi/IOPMVideoOutput::Configure
 ms.prod: windows
 ms.technology: windows-sdk

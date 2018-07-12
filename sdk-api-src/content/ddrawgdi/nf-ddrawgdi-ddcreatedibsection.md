@@ -7,7 +7,7 @@ old-location: winprog\_dxgkernel_ddcreatedibsection.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddcreatedibsection.htm
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: DdCreateDIBSection, DdCreateDIBSection function [Windows API], GdiEntry9, _dxgkernel_ddcreatedibsection, ddrawgdi/DdCreateDIBSection, ddrawgdi/GdiEntry9, winprog._dxgkernel_ddcreatedibsection, winui._dxgkernel_ddcreatedibsection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*LPDDSURFACEDESC2, DDSURFACEDESC2"
+req.typenames: DDPIXELFORMAT
 topic_type:
  - APIRef
  - kbSyntax

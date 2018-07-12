@@ -4,10 +4,10 @@ title: NdrPointerFree function
 author: windows-sdk-content
 description: The NdrPointerFree function frees memory.
 old-location: rpc\ndrpointerfree.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: 8b90ae12-af0f-41f8-9b8d-4b354de511be
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: NdrPointerFree, NdrPointerFree function [RPC], rpc.ndrpointerfree, rpcndr/NdrPointerFree
 ms.prod: windows
 ms.technology: windows-sdk

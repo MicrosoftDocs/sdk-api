@@ -2,13 +2,13 @@
 UID: NA:lmdfs
 ms.assetid: 7aa42b48-14a8-3900-9365-8053f6637629
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: dfs
+archived: true
 ---
 
 # Lmdfs.h header

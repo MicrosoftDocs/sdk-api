@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_setcreated.htm
 old-project: printdocs
 ms.assetid: 1a71d338-a34e-40df-ade0-130cd8e0a176
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetCreated method, IXpsOMCoreProperties.SetCreated, IXpsOMCoreProperties::SetCreated, SetCreated, SetCreated method [XPS Documents and Packaging], SetCreated method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcreated, xpsobjectmodel/IXpsOMCoreProperties::SetCreated
 ms.prod: windows
 ms.technology: windows-sdk

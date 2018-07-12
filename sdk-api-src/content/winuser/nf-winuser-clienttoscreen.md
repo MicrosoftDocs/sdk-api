@@ -7,7 +7,7 @@ old-location: gdi\clienttoscreen.htm
 old-project: gdi
 ms.assetid: 3b1e2699-7f5f-444d-9072-f2ca7c8fa511
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: ClientToScreen, ClientToScreen function [Windows GDI], _win32_ClientToScreen, gdi.clienttoscreen, winuser/ClientToScreen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

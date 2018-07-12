@@ -4,10 +4,10 @@ title: IAssemblyName
 author: windows-sdk-content
 description: The IAssemblyName interface represents a side-by-side assembly name.
 old-location: setup\iassemblyname.htm
-old-project: SbsCs
+old-project: sbscs
 ms.assetid: 304b8fb3-5d17-4af0-b070-450a40dc5cc9
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: IAssemblyName, IAssemblyName interface [Side-by-side Assemblies], IAssemblyName interface [Side-by-side Assemblies],described, setup.iassemblyname, winsxs/IAssemblyName
 ms.prod: windows
 ms.technology: windows-sdk

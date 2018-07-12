@@ -4,10 +4,10 @@ title: IFsrmFileManagementJobManager::get_ActionVariableDescriptions
 author: windows-sdk-content
 description: Retrieves the descriptions for the macros contained in the IFsrmFileManagementJobManager::ActionVariables property.
 old-location: fsrm\ifsrmfilemanagementjobmanager_actionvariabledescriptions.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: d8e625b2-5fdd-4e7e-8c20-ad6e3e21a918
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: ActionVariableDescriptions property [File Server Resource Manager], ActionVariableDescriptions property [File Server Resource Manager],FsrmFileManagementJobManager class, ActionVariableDescriptions property [File Server Resource Manager],IFsrmFileManagementJobManager interface, FsrmFileManagementJobManager class [File Server Resource Manager],ActionVariableDescriptions property, IFsrmFileManagementJobManager interface [File Server Resource Manager],ActionVariableDescriptions property, IFsrmFileManagementJobManager.ActionVariableDescriptions, IFsrmFileManagementJobManager.get_ActionVariableDescriptions, IFsrmFileManagementJobManager::ActionVariableDescriptions, IFsrmFileManagementJobManager::get_ActionVariableDescriptions, fs.ifsrmfilemanagementjobmanager_actionvariabledescriptions, fsrm.ifsrmfilemanagementjobmanager_actionvariabledescriptions, fsrmreports/IFsrmFileManagementJobManager::ActionVariableDescriptions, fsrmreports/IFsrmFileManagementJobManager::get_ActionVariableDescriptions, get_ActionVariableDescriptions
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_flow_direction.htm
 old-project: DirectWrite
 ms.assetid: 35a78bde-ba80-4328-8fb8-77ca73c1c04b
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: DWRITE_FLOW_DIRECTION, DWRITE_FLOW_DIRECTION enumeration [Direct Write], DWRITE_FLOW_DIRECTION_BOTTOM_TO_TOP, DWRITE_FLOW_DIRECTION_LEFT_TO_RIGHT, DWRITE_FLOW_DIRECTION_RIGHT_TO_LEFT, DWRITE_FLOW_DIRECTION_TOP_TO_BOTTOM, directwrite.dwrite_flow_direction, dwrite/DWRITE_FLOW_DIRECTION, dwrite/DWRITE_FLOW_DIRECTION_BOTTOM_TO_TOP, dwrite/DWRITE_FLOW_DIRECTION_LEFT_TO_RIGHT, dwrite/DWRITE_FLOW_DIRECTION_RIGHT_TO_LEFT, dwrite/DWRITE_FLOW_DIRECTION_TOP_TO_BOTTOM
 ms.prod: windows
 ms.technology: windows-sdk

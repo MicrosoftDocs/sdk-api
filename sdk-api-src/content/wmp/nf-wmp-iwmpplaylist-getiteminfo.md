@@ -7,7 +7,7 @@ old-location: wmp\iwmpplaylist_getiteminfo.htm
 old-project: WMP
 ms.assetid: c6763274-01e4-4a2f-9467-150e1964193a
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],getItemInfo method, IWMPPlaylist.getItemInfo, IWMPPlaylist::getItemInfo, IWMPPlaylistgetItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_getiteminfo, wmp/IWMPPlaylist::getItemInfo
 ms.prod: windows
 ms.technology: windows-sdk

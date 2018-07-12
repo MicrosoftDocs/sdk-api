@@ -2,7 +2,7 @@
 UID: NA:workspaceruntime
 ms.assetid: b31d3243-1e6d-3edc-9ef4-497efd12a2fd
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

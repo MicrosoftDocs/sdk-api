@@ -4,10 +4,10 @@ title: IVdsSubSystem::SetStatus
 author: windows-sdk-content
 description: Sets the status of the subsystem to the specified value.
 old-location: base\ivdssubsystem_setstatus.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 07104aac-acdc-447c-9a30-ff3318f6df09
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsSubSystem interface [VDS],SetStatus method, IVdsSubSystem.SetStatus, IVdsSubSystem::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsSubSystem interface, base.ivdssubsystem_setstatus, vds/IVdsSubSystem::SetStatus, vdshwprv/IVdsSubSystem::SetStatus
 ms.prod: windows
 ms.technology: windows-sdk

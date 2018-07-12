@@ -4,10 +4,10 @@ title: CreateUrlCacheGroup function
 author: windows-sdk-content
 description: Generates cache group identifications.
 old-location: wininet\createurlcachegroup.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: bea0bc3b-75fb-4147-a4bd-f4290dfbf290
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: CreateUrlCacheGroup, CreateUrlCacheGroup function [WinINet], _inet_createurlcachegroup_function, wininet.createurlcachegroup, wininet/CreateUrlCacheGroup
 ms.prod: windows
 ms.technology: windows-sdk

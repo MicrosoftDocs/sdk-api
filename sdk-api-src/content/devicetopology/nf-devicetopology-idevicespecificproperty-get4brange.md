@@ -7,7 +7,7 @@ old-location: coreaudio\idevicespecificproperty_get4brange.htm
 old-project: CoreAudio
 ms.assetid: 16ca72b5-2de2-4644-9c64-cdc69a9b2c51
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: Get4BRange, Get4BRange method [Core Audio], Get4BRange method [Core Audio],IDeviceSpecificProperty interface, IDeviceSpecificProperty interface [Core Audio],Get4BRange method, IDeviceSpecificProperty.Get4BRange, IDeviceSpecificProperty::Get4BRange, IDeviceSpecificPropertyGet4BRange, coreaudio.idevicespecificproperty_get4brange, devicetopology/IDeviceSpecificProperty::Get4BRange
 ms.prod: windows
 ms.technology: windows-sdk

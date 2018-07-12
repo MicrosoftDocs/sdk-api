@@ -7,7 +7,7 @@ old-location: com\iolelink_setupdateoptions.htm
 old-project: com
 ms.assetid: 310c25b5-a2f6-4ed7-8673-c53809fad32f
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IOleLink interface [COM],SetUpdateOptions method, IOleLink.SetUpdateOptions, IOleLink::SetUpdateOptions, SetUpdateOptions, SetUpdateOptions method [COM], SetUpdateOptions method [COM],IOleLink interface, _ole_iolelink_setupdateoptions, com.iolelink_setupdateoptions, oleidl/IOleLink::SetUpdateOptions
 ms.prod: windows
 ms.technology: windows-sdk

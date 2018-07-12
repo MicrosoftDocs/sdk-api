@@ -7,7 +7,7 @@ old-location: properties\PSCreateMemoryPropertyStore.htm
 old-project: properties
 ms.assetid: 6e7a2ac0-2a4a-41ec-a2a8-ddbe8aa45bc9
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PSCreateMemoryPropertyStore, PSCreateMemoryPropertyStore function [Windows Properties], _shell_PSCreateMemoryPropertyStore, properties.PSCreateMemoryPropertyStore, propsys/PSCreateMemoryPropertyStore, shell.PSCreateMemoryPropertyStore
 ms.prod: windows
 ms.technology: windows-sdk

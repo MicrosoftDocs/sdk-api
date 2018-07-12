@@ -4,10 +4,10 @@ title: PEND_CONTROL_CALL
 author: windows-sdk-content
 description: Called when a resource control code operation completes. The PEND_CONTROL_CALL type defines a pointer to this function.
 old-location: mscs\endcontrolcall.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 0FB2C129-B98C-4570-8621-6BAD46911682
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: EndControlCall, EndControlCall callback, EndControlCall callback function [Failover Cluster], PEND_CONTROL_CALL, PEND_CONTROL_CALL callback function [Failover Cluster], mscs.endcontrolcall, resapi/EndControlCall, resapi/PEND_CONTROL_CALL
 ms.prod: windows
 ms.technology: windows-sdk

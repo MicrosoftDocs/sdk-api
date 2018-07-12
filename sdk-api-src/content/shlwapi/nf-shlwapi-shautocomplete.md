@@ -7,7 +7,7 @@ old-location: shell\SHAutoComplete.htm
 old-project: shell
 ms.assetid: b47efa8d-2118-4805-bb04-97bd143228dc
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: SHACF_AUTOAPPEND_FORCE_OFF, SHACF_AUTOAPPEND_FORCE_ON, SHACF_AUTOSUGGEST_FORCE_OFF, SHACF_AUTOSUGGEST_FORCE_ON, SHACF_DEFAULT, SHACF_FILESYSTEM, SHACF_FILESYS_DIRS, SHACF_FILESYS_ONLY, SHACF_URLALL, SHACF_URLHISTORY, SHACF_URLMRU, SHACF_USETAB, SHACF_VIRTUAL_NAMESPACE, SHAutoComplete, SHAutoComplete function [Windows Shell], _win32_ShAutoComplete, shell.SHAutoComplete, shlwapi/SHAutoComplete
 ms.prod: windows
 ms.technology: windows-sdk

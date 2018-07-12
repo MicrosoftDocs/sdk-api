@@ -4,10 +4,10 @@ title: INetDiagHelperEx
 author: windows-sdk-content
 description: Provides methods that extend on the INetDiagHelper interface to capture and provide information associated with diagnoses and resolution of network-related issues.
 old-location: ndf\inetdiaghelperex.htm
-old-project: NDF
+old-project: ndf
 ms.assetid: 9c03f24c-073f-40bc-aee7-c462d4e2d781
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: INetDiagHelperEx, INetDiagHelperEx interface [NDF], INetDiagHelperEx interface [NDF],described, ndf.inetdiaghelperex, ndhelper/INetDiagHelperEx
 ms.prod: windows
 ms.technology: windows-sdk

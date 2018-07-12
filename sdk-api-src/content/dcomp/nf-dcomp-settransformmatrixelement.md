@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionaffinetransform2deffect_settransformmatrix
 old-project: directcomp
 ms.assetid: c618926b-c059-69dc-ab90-c58344128589
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: SetTransformMatrixElement, dcomp/settransformmatrixelement, directcomp.idcompositionaffinetransform2deffect_settransformmatrixelement_overloaded, idcompositionaffinetransform2deffect::SetTransformMatrixElement, settransformmatrixelement, settransformmatrixelement methods [DirectComposition]
 ms.prod: windows
 ms.technology: windows-sdk

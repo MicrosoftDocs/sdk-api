@@ -4,10 +4,10 @@ title: PeerDistClientGetInformationByHandle function
 author: windows-sdk-content
 description: The PeerDistClientGetInformationByHandle function retrieves additional information from the Peer Distribution service for a specific content handle.
 old-location: p2p\peerdistclientgetinformationbyhandle.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: d3bb080c-cde7-4623-95fd-3cffb3bd93aa
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerDistClientGetInformationByHandle, PeerDistClientGetInformationByHandle function [Peer Networking], p2p.peerdistclientgetinformationbyhandle, peerdist/PeerDistClientGetInformationByHandle
 ms.prod: windows
 ms.technology: windows-sdk

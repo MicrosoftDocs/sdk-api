@@ -7,7 +7,7 @@ old-location: xaudio2\fxecho_parameters.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapofx.FXECHO_PARAMETERS
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 04/23/2018
 ms.keywords: FXECHO_PARAMETERS, FXECHO_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXECHO_PARAMETERS, xaudio2.fxecho_parameters
 ms.prod: windows
 ms.technology: windows-sdk

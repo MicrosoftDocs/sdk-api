@@ -4,10 +4,10 @@ title: BrowseForGPO function
 author: windows-sdk-content
 description: The BrowseForGPO function creates a GPO browser dialog box that allows the user to open or create a GPO.
 old-location: policy\browseforgpo.htm
-old-project: Policy
+old-project: policy
 ms.assetid: ff144ae4-fc8c-499e-9086-75625b86693c
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: BrowseForGPO, BrowseForGPO function [Group Policy], _win32_browseforgpo, gpedit/BrowseForGPO, policy.browseforgpo
 ms.prod: windows
 ms.technology: windows-sdk

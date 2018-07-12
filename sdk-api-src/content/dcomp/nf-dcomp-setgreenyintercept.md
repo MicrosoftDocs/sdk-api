@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionlineartransfereffect_setgreenyintercept_ov
 old-project: directcomp
 ms.assetid: 1aa4c933-ee49-2772-9a7e-b120b5bdd331
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IDCompositionLinearTransferEffect::setgreenyintercept, SetGreenYIntercept, SetGreenYIntercept methods [DirectComposition], dcomp/SetGreenYIntercept, directcomp.idcompositionlineartransfereffect_setgreenyintercept_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ISClusterNames::get_DomainName
 author: windows-sdk-content
 description: Returns the name of the domain from which the ClusterNames collection came.
 old-location: mscs\clusternames_domainname.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 2425b375-be4e-4e8f-8b76-68c6fcc7fa92
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DomainName property [Failover Cluster], DomainName property [Failover Cluster],ISClusterNames collection, ISClusterNames collection [Failover Cluster],DomainName property, ISClusterNames.DomainName, ISClusterNames.get_DomainName, ISClusterNames::get_DomainName, _wolf_clusternames.domainname, get_DomainName, mscs.clusternames_domainname
 ms.prod: windows
 ms.technology: windows-sdk

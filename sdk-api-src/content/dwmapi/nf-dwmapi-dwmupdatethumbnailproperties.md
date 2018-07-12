@@ -7,7 +7,7 @@ old-location: dwm\dwmupdatethumbnailproperties.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmupdatethumbnailproperties.htm
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: DwmUpdateThumbnailProperties, DwmUpdateThumbnailProperties function [Desktop Window Manager], _udwm_dwmupdatethumbnailproperties, _udwm_dwmupdatethumbnailproperties_cpp, dwm.dwmupdatethumbnailproperties, dwmapi/DwmUpdateThumbnailProperties, winui._udwm_dwmupdatethumbnailproperties
 ms.prod: windows
 ms.technology: windows-sdk

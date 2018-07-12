@@ -77,7 +77,7 @@ Retrieves a <a href="https://msdn.microsoft.com/library/ms691355(v=VS.85).aspx">
 
 
 
-The <b>GetStatus</b> method retrieves an <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer to a <a href="https://msdn.microsoft.com/library/ms691355(v=VS.85).aspx">FaxStatus</a> object. A fax client application can also access the <a href="https://msdn.microsoft.com/library/ms690794(v=VS.85).aspx">IFaxStatus</a> interface directly by calling the <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">IUnknown::QueryInterface</a> method to retrieve an <b>IFaxStatus</b> interface pointer.
+The <b>GetStatus</b> method retrieves an <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer to a <a href="https://msdn.microsoft.com/library/ms691355(v=VS.85).aspx">FaxStatus</a> object. A fax client application can also access the <a href="https://msdn.microsoft.com/library/ms690794(v=VS.85).aspx">IFaxStatus</a> interface directly by calling the <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method to retrieve an <b>IFaxStatus</b> interface pointer.
 
 
 

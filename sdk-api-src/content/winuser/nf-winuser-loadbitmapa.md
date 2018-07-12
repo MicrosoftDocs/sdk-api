@@ -7,7 +7,7 @@ old-location: gdi\loadbitmap.htm
 old-project: gdi
 ms.assetid: 5eed5f78-deaf-4b23-986e-4802dc05936c
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: LoadBitmap, LoadBitmap function [Windows GDI], LoadBitmapA, LoadBitmapW, _win32_LoadBitmap, gdi.loadbitmap, winuser/LoadBitmap, winuser/LoadBitmapA, winuser/LoadBitmapW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

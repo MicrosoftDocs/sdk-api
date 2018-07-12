@@ -7,7 +7,7 @@ old-location: dlgbox\getdlgitemint.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getdlgitemint.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 05/22/2018
 ms.keywords: GetDlgItemInt, GetDlgItemInt function [Dialog Boxes], _win32_GetDlgItemInt, _win32_getdlgitemint_cpp, dlgbox.getdlgitemint, winui._win32_getdlgitemint, winuser/GetDlgItemInt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

@@ -4,10 +4,10 @@ title: ICertRequest2::GetErrorMessageText
 author: windows-sdk-content
 description: Retrieves the error message text for an HRESULT error code.
 old-location: security\icertrequest2_geterrormessagetext.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: eeecaeec-2e06-4d4b-9b85-5fb3ef90944a
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CCertRequest object [Security],GetErrorMessageText method, CR_GEMT_HRESULT_STRING, GetErrorMessageText, GetErrorMessageText method [Security], GetErrorMessageText method [Security],CCertRequest object, GetErrorMessageText method [Security],ICertRequest interface, GetErrorMessageText method [Security],ICertRequest2 interface, GetErrorMessageText method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetErrorMessageText method, ICertRequest2 interface [Security],GetErrorMessageText method, ICertRequest2.GetErrorMessageText, ICertRequest2::GetErrorMessageText, ICertRequest3 interface [Security],GetErrorMessageText method, ICertRequest3::GetErrorMessageText, ICertRequest::GetErrorMessageText, Zero (0), _certsrv_icertrequest2_geterrormessagetext, certcli/ICertRequest2::GetErrorMessageText, certcli/ICertRequest3::GetErrorMessageText, certcli/ICertRequest::GetErrorMessageText, security.icertrequest2_geterrormessagetext
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: NetApiBufferReallocate function
 author: windows-sdk-content
 description: The NetApiBufferReallocate function changes the size of a buffer allocated by a previous call to the NetApiBufferAllocate function.
 old-location: netmgmt\netapibufferreallocate.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: 61153de0-33d3-4c83-a8aa-a7179252328c
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: NetApiBufferReallocate, NetApiBufferReallocate function [Network Management], _win32_netapibufferreallocate, lmapibuf/NetApiBufferReallocate, netmgmt.netapibufferreallocate
 ms.prod: windows
 ms.technology: windows-sdk

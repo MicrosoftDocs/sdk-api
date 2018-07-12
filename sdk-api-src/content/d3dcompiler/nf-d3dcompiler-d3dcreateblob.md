@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dcreateblob.htm
 old-project: direct3dhlsl
 ms.assetid: 9cad9bff-1641-4fb1-a7c9-c3e31089d7f7
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 06/18/2018
 ms.keywords: D3DCreateBlob, D3DCreateBlob function [HLSL], d3dcompiler/D3DCreateBlob, direct3dhlsl.d3dcreateblob
 ms.prod: windows
 ms.technology: windows-sdk

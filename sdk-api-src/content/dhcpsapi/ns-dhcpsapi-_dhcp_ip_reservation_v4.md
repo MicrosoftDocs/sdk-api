@@ -4,10 +4,10 @@ title: "_DHCP_IP_RESERVATION_V4"
 author: windows-sdk-content
 description: The DHCP_IP_RESERVATION_V4 structure defines a client IP reservation. This structure extends an IP reservation by including the type of client (DHCP or BOOTP) holding the reservation.
 old-location: dhcp\dhcp_ip_reservation_v4.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 01951b18-fc54-4a34-9ccd-fd98f4e7864f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: "*LPDHCP_IP_RESERVATION_V4, CLIENT_TYPE_BOOTP, CLIENT_TYPE_BOTH, CLIENT_TYPE_DHCP, DHCP_IP_RESERVATION_V4, DHCP_IP_RESERVATION_V4 structure [DHCP], LPDHCP_IP_RESERVATION_V4, LPDHCP_IP_RESERVATION_V4 structure pointer [DHCP], _DHCP_IP_RESERVATION_V4, dhcp.dhcp_ip_reservation_v4, dhcpsapi/LPDHCP_IP_RESERVATION_V4, dhcpsapi/_DHCP_IP_RESERVATION_V4"
 ms.prod: windows
 ms.technology: windows-sdk

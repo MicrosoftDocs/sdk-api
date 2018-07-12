@@ -8,6 +8,5 @@
     "winsock2.h",
     "ws2spi.h",
     "in6addr.h"
-  ],
-  "displayName": "Network Drivers Prior to Windows Vista"
+  ]
 }

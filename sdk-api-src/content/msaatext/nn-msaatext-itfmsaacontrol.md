@@ -7,7 +7,7 @@ old-location: tsf\itfmsaacontrol.htm
 old-project: TSF
 ms.assetid: e01a0177-7e3a-4087-84b8-151da2145be8
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfMSAAControl, ITfMSAAControl interface [Text Services Framework], ITfMSAAControl interface [Text Services Framework],described, msaatext/ITfMSAAControl, tsf.itfmsaacontrol
 ms.prod: windows
 ms.technology: windows-sdk

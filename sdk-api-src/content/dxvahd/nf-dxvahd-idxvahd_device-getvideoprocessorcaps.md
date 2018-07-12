@@ -7,7 +7,7 @@ old-location: mf\idxvahd_device_getvideoprocessorcaps.htm
 old-project: medfound
 ms.assetid: d9423b3f-4a4b-49f0-8018-c19a7b663300
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetVideoProcessorCaps, GetVideoProcessorCaps method [Media Foundation], GetVideoProcessorCaps method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorCaps method, IDXVAHD_Device.GetVideoProcessorCaps, IDXVAHD_Device::GetVideoProcessorCaps, dxvahd/IDXVAHD_Device::GetVideoProcessorCaps, mf.idxvahd_device_getvideoprocessorcaps
 ms.prod: windows
 ms.technology: windows-sdk

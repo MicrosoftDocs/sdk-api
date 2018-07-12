@@ -4,10 +4,10 @@ title: CancelMibChangeNotify2 function
 author: windows-sdk-content
 description: Deregisters for change notifications for IP interface changes, IP address changes, IP route changes, Teredo port changes, and when the unicast IP address table is stable and can be retrieved.
 old-location: iphlp\cancelmibchangenotify2.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 81492118-7513-49a2-9c61-3ecfaf84cc2d
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: CancelMibChangeNotify2, CancelMibChangeNotify2 function [IP Helper], iphlp.cancelmibchangenotify2, netioapi/CancelMibChangeNotify2
 ms.prod: windows
 ms.technology: windows-sdk

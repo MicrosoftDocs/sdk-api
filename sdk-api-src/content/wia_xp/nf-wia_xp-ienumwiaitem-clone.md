@@ -7,7 +7,7 @@ old-location: wia\_wia_IEnumWiaItem_Clone.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwiaitem\clone.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: Clone, Clone method [WIA], Clone method [WIA],IEnumWiaItem interface, IEnumWiaItem interface [WIA],Clone method, IEnumWiaItem.Clone, IEnumWiaItem::Clone, _wia_IEnumWiaItem_Clone, wia._wia_IEnumWiaItem_Clone, wia_xp/IEnumWiaItem::Clone
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tcui\processpendinggameui.htm
 old-project: tcui
 ms.assetid: 054F3612-EE10-446C-87D1-BF3E0F751440
 ms.author: windowssdkdev
-ms.date: 03/19/2018
+ms.date: 03/20/2018
 ms.keywords: ProcessPendingGameUI, ProcessPendingGameUI function, gamingtcui/ProcessPendingGameUI, tcui.processpendinggameui
 ms.prod: windows
 ms.technology: windows-sdk

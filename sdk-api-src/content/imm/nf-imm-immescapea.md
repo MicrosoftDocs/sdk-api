@@ -7,7 +7,7 @@ old-location: intl\immescape.htm
 old-project: Intl
 ms.assetid: f63783a8-9434-4fe4-943c-9383d049f848
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/28/2018
 ms.keywords: ImmEscape, ImmEscape function [Internationalization for Windows Applications], ImmEscapeA, ImmEscapeW, _win32_ImmEscape, imm/ImmEscape, imm/ImmEscapeA, imm/ImmEscapeW, intl.immescape
 ms.prod: windows
 ms.technology: windows-sdk

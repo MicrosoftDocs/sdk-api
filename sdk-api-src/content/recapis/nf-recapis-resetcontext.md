@@ -7,7 +7,7 @@ old-location: tablet\resetcontext.htm
 old-project: tablet
 ms.assetid: 92446aca-e611-42b2-8b55-2d1c47ccaa5c
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: 92446aca-e611-42b2-8b55-2d1c47ccaa5c, ResetContext, ResetContext function [Tablet PC], recapis/ResetContext, tablet.resetcontext
 ms.prod: windows
 ms.technology: windows-sdk

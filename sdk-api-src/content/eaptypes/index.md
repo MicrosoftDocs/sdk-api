@@ -2,13 +2,13 @@
 UID: NA:eaptypes
 ms.assetid: aa5c1d16-98ea-35f5-b0bc-bd0f3d4ef3d5
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: eaphost
+archived: true
 ---
 
 # Eaptypes.h header

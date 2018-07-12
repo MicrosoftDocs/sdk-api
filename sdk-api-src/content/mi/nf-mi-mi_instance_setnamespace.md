@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instance_setnamespace.htm
 old-project: wmi_v2
 ms.assetid: edf17b80-698b-43f3-9e03-5435638d3209
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_Instance_SetNameSpace, MI_Instance_SetNameSpace function [Windows Management Infrastructure (MI)], mi/MI_Instance_SetNameSpace, wmi_v2.mi_instance_setnamespace
 ms.prod: windows
 ms.technology: windows-sdk

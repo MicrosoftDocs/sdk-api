@@ -7,7 +7,7 @@ old-location: tablet\peninputpanel_width.htm
 old-project: tablet
 ms.assetid: 81173c64-5d8b-48ae-866c-5292814a97c0
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: 81173c64-5d8b-48ae-866c-5292814a97c0, IPenInputPanel interface [Tablet PC],Width property, IPenInputPanel.Width, IPenInputPanel.get_Width, IPenInputPanel::Width, IPenInputPanel::get_Width, PenInputPanel.get_Width, Width property [Tablet PC], Width property [Tablet PC],IPenInputPanel interface, get_Width, peninputpanel/IPenInputPanel::Width, peninputpanel/IPenInputPanel::get_Width, put_Width, tablet.peninputpanel_width
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: QOSCreateHandle function
 author: windows-sdk-content
 description: This function initializes the QOS subsystem and the QOSHandle parameter. The QOSHandle parameter is used when calling other QOS functions. QOSCreateHandle must be called before any other functions.
 old-location: qos\qoscreatehandle.htm
-old-project: QOS
+old-project: qos
 ms.assetid: dcee0bed-dc6f-435d-b292-07e331f6cf5b
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: QOSCreateHandle, QOSCreateHandle function [QOS], qos.qoscreatehandle, qos2/QOSCreateHandle
 ms.prod: windows
 ms.technology: windows-sdk

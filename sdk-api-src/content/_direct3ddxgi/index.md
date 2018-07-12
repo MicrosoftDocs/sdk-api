@@ -2,7 +2,7 @@
 UID: TP:direct3ddxgi
 ms.assetid: 13788405-72f0-3653-b458-78589ede8b8a
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

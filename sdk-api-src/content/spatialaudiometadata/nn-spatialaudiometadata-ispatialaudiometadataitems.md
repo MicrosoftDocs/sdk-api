@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataitems.htm
 old-project: CoreAudio
 ms.assetid: 54A6B7DE-A41E-4214-AF02-CC19250B9037
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: ISpatialAudioMetadataItems, ISpatialAudioMetadataItems interface [Core Audio], ISpatialAudioMetadataItems interface [Core Audio],described, coreaudio.ispatialaudiometadataitems, spatialaudiometadata/ISpatialAudioMetadataItems
 ms.prod: windows
 ms.technology: windows-sdk

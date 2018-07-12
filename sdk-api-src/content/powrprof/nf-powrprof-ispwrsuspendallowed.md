@@ -4,10 +4,10 @@ title: IsPwrSuspendAllowed function
 author: windows-sdk-content
 description: Determines whether the computer supports the sleep states.
 old-location: base\ispwrsuspendallowed.htm
-old-project: Power
+old-project: power
 ms.assetid: 66ef2402-b1b8-432e-b47d-240d255fc907
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: IsPwrSuspendAllowed, IsPwrSuspendAllowed function, _win32_ispwrsuspendallowed, base.ispwrsuspendallowed, powrprof/IsPwrSuspendAllowed
 ms.prod: windows
 ms.technology: windows-sdk

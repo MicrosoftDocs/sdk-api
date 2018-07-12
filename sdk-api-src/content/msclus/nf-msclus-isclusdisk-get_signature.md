@@ -4,10 +4,10 @@ title: ISClusDisk::get_Signature
 author: windows-sdk-content
 description: Signature of a Physical Disk.
 old-location: mscs\clusdisk_signature.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: f8fae469-9259-4191-8af4-a7d408ce6667
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusDisk object [Failover Cluster],Signature property, ClusDisk.Signature, ISClusDisk.get_Signature, ISClusDisk::get_Signature, Signature property [Failover Cluster], Signature property [Failover Cluster],ClusDisk object, _wolf_clusdisk.signature, get_Signature, mscs.clusdisk_signature
 ms.prod: windows
 ms.technology: windows-sdk

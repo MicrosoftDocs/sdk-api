@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constreal32afield.htm
 old-project: wmi_v2
 ms.assetid: be3eee3c-e875-4e4b-ae26-2377747e6669
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_ConstReal32AField, MI_ConstReal32AField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstReal32AField, mi/MI_ConstReal32AField, wmi._mi_constreal32afield, wmi_v2.mi_constreal32afield
 ms.prod: windows
 ms.technology: windows-sdk

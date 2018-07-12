@@ -4,10 +4,10 @@ title: IVdsVolumePlex::GetProperties
 author: windows-sdk-content
 description: Returns the property details of the current volume plex.
 old-location: base\ivdsvolumeplex_getproperties.htm
-old-project: VDS
+old-project: vds
 ms.assetid: b5b6c141-3e9d-4e1a-9d3c-3c5063b3ab73
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsVolumePlex interface, IVdsVolumePlex interface [VDS],GetProperties method, IVdsVolumePlex.GetProperties, IVdsVolumePlex::GetProperties, base.ivdsvolumeplex_getproperties, vds/IVdsVolumePlex::GetProperties
 ms.prod: windows
 ms.technology: windows-sdk

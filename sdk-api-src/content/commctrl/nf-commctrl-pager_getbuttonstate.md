@@ -4,10 +4,10 @@ title: Pager_GetButtonState macro
 author: windows-sdk-content
 description: Retrieves the state of the specified button in a pager control. You can use this macro or send the PGM_GETBUTTONSTATE message explicitly.
 old-location: controls\Pager_GetButtonState.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getbuttonstate.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: Pager_GetButtonState, Pager_GetButtonState macro [Windows Controls], _win32_Pager_GetButtonState, _win32_Pager_GetButtonState_cpp, commctrl/Pager_GetButtonState, controls.Pager_GetButtonState, controls._win32_Pager_GetButtonState
 ms.prod: windows
 ms.technology: windows-sdk

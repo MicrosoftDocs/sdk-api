@@ -4,10 +4,10 @@ title: WinBioEnrollCommit function
 author: windows-sdk-content
 description: Finalizes a pending biometric template and saves it to the database associated with the biometric unit used for enrollment. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioenrollcommit.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: ed9242e5-fee7-46ca-b42c-cda1b5dcdc78
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: WinBioEnrollCommit, WinBioEnrollCommit function [Windows Biometric Framework API], secbiomet.winbioenrollcommit, winbio/WinBioEnrollCommit
 ms.prod: windows
 ms.technology: windows-sdk

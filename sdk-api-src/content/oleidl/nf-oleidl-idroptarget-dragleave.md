@@ -7,7 +7,7 @@ old-location: com\idroptarget_dragleave.htm
 old-project: com
 ms.assetid: 2f2f1bdb-e57c-42e2-9afb-65b13cdc22f8
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: DragLeave, DragLeave method [COM], DragLeave method [COM],IDropTarget interface, IDropTarget interface [COM],DragLeave method, IDropTarget.DragLeave, IDropTarget::DragLeave, _ole_idroptarget_dragleave, com.idroptarget_dragleave, oleidl/IDropTarget::DragLeave
 ms.prod: windows
 ms.technology: windows-sdk

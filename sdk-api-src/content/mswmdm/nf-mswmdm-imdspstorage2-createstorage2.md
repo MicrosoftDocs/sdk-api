@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage2_createstorage2.htm
 old-project: WMDM
 ms.assetid: f79f4bf5-948e-4201-a9bc-edde4dd333ea
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: CreateStorage2, CreateStorage2 method [windows Media Device Manager], CreateStorage2 method [windows Media Device Manager],IMDSPStorage2 interface, IMDSPStorage2 interface [windows Media Device Manager],CreateStorage2 method, IMDSPStorage2.CreateStorage2, IMDSPStorage2::CreateStorage2, IMDSPStorage2CreateStorage2, mswmdm/IMDSPStorage2::CreateStorage2, wmdm.imdspstorage2_createstorage2
 ms.prod: windows
 ms.technology: windows-sdk

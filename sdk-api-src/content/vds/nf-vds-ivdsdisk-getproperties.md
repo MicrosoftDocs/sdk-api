@@ -4,10 +4,10 @@ title: IVdsDisk::GetProperties
 author: windows-sdk-content
 description: Returns property information for a disk.
 old-location: base\ivdsdisk_getproperties.htm
-old-project: VDS
+old-project: vds
 ms.assetid: d2046a26-852d-46b2-b060-98b4a2a92387
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsDisk interface, IVdsDisk interface [VDS],GetProperties method, IVdsDisk.GetProperties, IVdsDisk::GetProperties, base.ivdsdisk_getproperties, vds/IVdsDisk::GetProperties
 ms.prod: windows
 ms.technology: windows-sdk

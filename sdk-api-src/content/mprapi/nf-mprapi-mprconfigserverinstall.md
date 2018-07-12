@@ -4,10 +4,10 @@ title: MprConfigServerInstall function
 author: windows-sdk-content
 description: The MprConfigServerInstall function configures Routing and Remote Access Service with a default configuration.
 old-location: rras\mprconfigserverinstall.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: a261aaf8-abb0-4580-850b-f447017e07b9
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprConfigServerInstall, MprConfigServerInstall function [RAS], _mpr_mprconfigserverinstall, mprapi/MprConfigServerInstall, rras.mprconfigserverinstall
 ms.prod: windows
 ms.technology: windows-sdk

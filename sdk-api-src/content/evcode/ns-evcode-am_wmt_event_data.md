@@ -2,18 +2,18 @@
 UID: NS:evcode.AM_WMT_EVENT_DATA
 title: AM_WMT_EVENT_DATA
 author: windows-sdk-content
-description: The AM_WMT_EVENT_DATA structure contains information pertaining to a EC_WMT_EVENT event.
-old-location: dshow\am_wmt_event_data.htm
-old-project: DirectShow
-ms.assetid: d28efe7f-b1ff-4454-8779-95851a86c94a
+description: The AM_WMT_EVENT_DATA structure contains information pertaining to an EC_WMT_EVENT and the associated status code returned by the Windows Media Format SDK.
+old-location: wmformat\am_wmt_event_data.htm
+old-project: wmformat
+ms.assetid: 49f48cb6-e1d0-4dd4-bfb4-c5917144c3cf
 ms.author: windowssdkdev
-ms.date: 06/06/2018
-ms.keywords: AM_WMT_EVENT_DATA, AM_WMT_EVENT_DATA structure [DirectShow], AM_WMT_EVENT_DATAStructure, dshow.am_wmt_event_data, evcode/AM_WMT_EVENT_DATA
+ms.date: 07/02/2018
+ms.keywords: AM_WMT_EVENT_DATA, AM_WMT_EVENT_DATA structure [windows Media Format], evcode/AM_WMT_EVENT_DATA, wmformat.am_wmt_event_data
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
 req.header: evcode.h
-req.include-header: Dshow.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -34,7 +34,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - evcode.h
+ - Evcode.h
 api_name:
  - AM_WMT_EVENT_DATA
 product: Windows
@@ -52,7 +52,7 @@ req.product: Windows Media Format 9 Series or later
 
 
 
-The AM_WMT_EVENT_DATA structure contains information pertaining to a <a href="https://msdn.microsoft.com/ac6ea7a1-238e-42ae-9f10-e1db60381357">EC_WMT_EVENT</a> event.
+The <b>AM_WMT_EVENT_DATA</b> structure contains information pertaining to an <a href="https://msdn.microsoft.com/51d51659-8e7d-49b7-83f2-a80e99d39d78">EC_WMT_EVENT</a> and the associated status code returned by the Windows Media Format SDK.
 
 
 
@@ -69,25 +69,14 @@ The status code returned by the Windows Media Format SDK.
 
 ### -field pData
 
-Pointer whose data is dependent on the value of the <a href="https://msdn.microsoft.com/ebf77e8a-65e8-4da9-bb21-a1e2bf427bbf">WMT_STATUS</a> message in <i>lParam1</i> of the <a href="https://msdn.microsoft.com/ac6ea7a1-238e-42ae-9f10-e1db60381357">EC_WMT_EVENT</a> event.
+Pointer whose data is dependent on the value of the <b>WMT_STATUS</b> message in <i>lParam1</i> of the <b>EC_WMT_EVENT</b> event. For more information, see <a href="https://msdn.microsoft.com/51d51659-8e7d-49b7-83f2-a80e99d39d78">EC_WMT_EVENT</a>.
 
 
 ## -remarks
 
 
 
-This structure is relevant when using the <a href="https://msdn.microsoft.com/82b9f849-b9dc-439b-8ca7-9dcd992338ab">WM ASF Reader</a> filter to read files protected with Digital Rights Management.
+This structure is relevant when using the <a href="https://msdn.microsoft.com/3d5ca88a-86bd-4d84-b4f4-782564ced58d">WM ASF Reader</a> filter to read files protected with Digital Rights Management.
 
 
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
- 
-
- 
 

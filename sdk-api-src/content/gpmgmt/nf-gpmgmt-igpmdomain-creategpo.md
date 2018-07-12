@@ -4,10 +4,10 @@ title: IGPMDomain::CreateGPO
 author: windows-sdk-content
 description: Creates and retrieves a GPMGPO object with a default display name. Typically, the caller sets the display name immediately after calling this method.
 old-location: gpmc\igpmdomain_creategpo.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: 00e83637-820b-488e-abf4-4210ac3b98b6
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: CreateGPO, CreateGPO method [GPMC], CreateGPO method [GPMC],GPMDomain object, CreateGPO method [GPMC],IGPMDomain interface, GPMDomain object [GPMC],CreateGPO method, IGPMDomain interface [GPMC],CreateGPO method, IGPMDomain.CreateGPO, IGPMDomain::CreateGPO, _win32_igpmdomain_creategpo, gpmc.igpmdomain_creategpo, gpmgmt/IGPMDomain::CreateGPO
 ms.prod: windows
 ms.technology: windows-sdk

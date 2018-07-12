@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dswapchain9__getdevice.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dswapchain9__getdevice.htm
 ms.author: windowssdkdev
-ms.date: 04/10/2018
+ms.date: 04/11/2018
 ms.keywords: 79ee089d-e981-2c78-1b81-170d3c9c3ccf, GetDevice, GetDevice method [Direct3D 9], GetDevice method [Direct3D 9],IDirect3DSwapChain9 interface, IDirect3DSwapChain9 interface [Direct3D 9],GetDevice method, IDirect3DSwapChain9.GetDevice, IDirect3DSwapChain9::GetDevice, d3d9helper/IDirect3DSwapChain9::GetDevice, direct3d9.idirect3dswapchain9__getdevice
 ms.prod: windows
 ms.technology: windows-sdk

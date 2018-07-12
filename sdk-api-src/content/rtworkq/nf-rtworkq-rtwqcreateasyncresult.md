@@ -7,7 +7,7 @@ old-location: base\rtwqcreateasyncresult.htm
 old-project: ProcThread
 ms.assetid: ba8e888a-5bd6-4624-94a6-2f2ce0a080d1
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: RtwqCreateAsyncResult, RtwqCreateAsyncResult function, base.rtwqcreateasyncresult, rtworkq/RtwqCreateAsyncResult
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ICertProperty::get_PropertyId
 author: windows-sdk-content
 description: Specifies or retrieves a value of the CERTENROLL_PROPERTYID enumeration that identifies an external certificate property.
 old-location: security\icertproperty_propertyid_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 2829dab5-253d-4ade-bba5-d399afe87a28
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICertProperty interface [Security],PropertyId property, ICertProperty.PropertyId, ICertProperty.get_PropertyId, ICertProperty::PropertyId, ICertProperty::get_PropertyId, ICertProperty::put_PropertyId, PropertyId property [Security], PropertyId property [Security],ICertProperty interface, certenroll/ICertProperty::PropertyId, certenroll/ICertProperty::get_PropertyId, certenroll/ICertProperty::put_PropertyId, get_PropertyId, security.icertproperty_propertyid_property
 ms.prod: windows
 ms.technology: windows-sdk

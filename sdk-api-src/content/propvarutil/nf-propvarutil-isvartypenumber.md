@@ -7,7 +7,7 @@ old-location: properties\IsVarTypeNumber.htm
 old-project: properties
 ms.assetid: 57051571-4871-46dd-8319-9c9f29890603
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: IsVarTypeNumber, IsVarTypeNumber function [Windows Properties], _shell_IsVarTypeNumber, properties.IsVarTypeNumber, propvarutil/IsVarTypeNumber, shell.IsVarTypeNumber
 ms.prod: windows
 ms.technology: windows-sdk

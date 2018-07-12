@@ -4,10 +4,10 @@ title: ISClusResType::get_CommonProperties
 author: windows-sdk-content
 description: Returns the read/write common properties of a resource type.
 old-location: mscs\clusrestype_commonproperties.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: cbed3cb1-ff86-4a60-9707-3e501fce95c5
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResType object [Failover Cluster],CommonProperties property, ClusResType.CommonProperties, CommonProperties property [Failover Cluster], CommonProperties property [Failover Cluster],ClusResType object, ISClusResType.get_CommonProperties, ISClusResType::get_CommonProperties, _wolf_clusrestype.commonproperties, get_CommonProperties, mscs.clusrestype_commonproperties
 ms.prod: windows
 ms.technology: windows-sdk

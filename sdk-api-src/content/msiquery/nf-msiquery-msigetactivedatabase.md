@@ -4,10 +4,10 @@ title: MsiGetActiveDatabase function
 author: windows-sdk-content
 description: The MsiGetActiveDatabase function returns the active database for the installation. This function returns a read-only handle that should be closed using MsiCloseHandle.
 old-location: setup\msigetactivedatabase.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 148d467f-fecd-42a9-b838-22799a159f97
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: MsiGetActiveDatabase, MsiGetActiveDatabase function, _msi_msigetactivedatabase, msiquery/MsiGetActiveDatabase, setup.msigetactivedatabase
 ms.prod: windows
 ms.technology: windows-sdk

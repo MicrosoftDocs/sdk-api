@@ -4,10 +4,10 @@ title: IHeaderCtrl::SetColumnWidth
 author: windows-sdk-content
 description: Sets the width, in pixels, of a specific column.
 old-location: mmc\iheaderctrl_setcolumnwidth.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: E704FF35-3859-4313-B42D-77A114AA6E78
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: IHeaderCtrl interface [MMC],SetColumnWidth method, IHeaderCtrl.SetColumnWidth, IHeaderCtrl::SetColumnWidth, MMCLV_AUTO, SetColumnWidth, SetColumnWidth method [MMC], SetColumnWidth method [MMC],IHeaderCtrl interface, mmc.iheaderctrl_setcolumnwidth, mmc/IHeaderCtrl::SetColumnWidth
 ms.prod: windows
 ms.technology: windows-sdk

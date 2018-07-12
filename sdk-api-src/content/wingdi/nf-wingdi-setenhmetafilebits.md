@@ -7,7 +7,7 @@ old-location: gdi\setenhmetafilebits.htm
 old-project: gdi
 ms.assetid: 0f21ed97-e37f-4b44-a2eb-b8e284b3dc4b
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: SetEnhMetaFileBits, SetEnhMetaFileBits function [Windows GDI], _win32_SetEnhMetaFileBits, gdi.setenhmetafilebits, wingdi/SetEnhMetaFileBits
 ms.prod: windows
 ms.technology: windows-sdk

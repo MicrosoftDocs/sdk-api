@@ -4,10 +4,10 @@ title: NetworkIsolationDiagnoseConnectFailureAndGetInfo function
 author: windows-sdk-content
 description: Gets information about a network isolation connection failure due to a missing capability.
 old-location: ics\networkisolationdiagnoseconnectfailureandgetinfo.htm
-old-project: ICS
+old-project: ics
 ms.assetid: fb59b2bb-03c1-472d-bb97-6fd9d5f7169d
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: NetworkIsolationDiagnoseConnectFailureAndGetInfo, NetworkIsolationDiagnoseConnectFailureAndGetInfo function [ICS/ICF], ics.networkisolationdiagnoseconnectfailureandgetinfo, networkisolation/NetworkIsolationDiagnoseConnectFailureAndGetInfo
 ms.prod: windows
 ms.technology: windows-sdk

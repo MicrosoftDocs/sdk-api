@@ -4,10 +4,10 @@ title: "_RAS_USER_0"
 author: windows-sdk-content
 description: The RAS_USER_0 structure contains information for a particular Remote Access Service user.
 old-location: rras\ras_user_0.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: f034c6c2-2dac-40bf-b810-9bf6f3eb3c41
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: "*PRAS_USER_0, PRAS_USER_0, PRAS_USER_0 structure pointer [RAS], RASPRIV_AdminSetCallback, RASPRIV_CallerSetCallback, RASPRIV_DialinPrivilege, RASPRIV_NoCallback, RAS_USER_0, RAS_USER_0 structure [RAS], _RAS_USER_0, _mpr_ras_user_0, mprapi/PRAS_USER_0, mprapi/RAS_USER_0, rras.ras_user_0"
 ms.prod: windows
 ms.technology: windows-sdk

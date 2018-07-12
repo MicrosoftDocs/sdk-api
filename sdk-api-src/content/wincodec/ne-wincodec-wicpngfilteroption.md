@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicpngfilteroption.htm
 old-project: wic
 ms.assetid: 468033cf-62e8-4aef-b34f-c833df048115
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: WICPngFilterAdaptive, WICPngFilterAverage, WICPngFilterNone, WICPngFilterOption, WICPngFilterOption enumeration [Windows Imaging Component], WICPngFilterPaeth, WICPngFilterSub, WICPngFilterUnspecified, WICPngFilterUp, _wic_codec_wicpngfilteroption, wic._wic_codec_wicpngfilteroption, wincodec/WICPngFilterAdaptive, wincodec/WICPngFilterAverage, wincodec/WICPngFilterNone, wincodec/WICPngFilterOption, wincodec/WICPngFilterPaeth, wincodec/WICPngFilterSub, wincodec/WICPngFilterUnspecified, wincodec/WICPngFilterUp
 ms.prod: windows
 ms.technology: windows-sdk

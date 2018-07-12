@@ -4,10 +4,10 @@ title: PIBIO_SENSOR_QUERY_CALIBRATION_FORMATS_FN
 author: windows-sdk-content
 description: Determines the set of calibration formats supported by the Sensor Adapter.
 old-location: secbiomet\sensoradapterquerycalibrationformats.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: F8C97013-3BDA-445F-A2C2-60D08DD9C71A
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: PIBIO_SENSOR_QUERY_CALIBRATION_FORMATS_FN, PIBIO_SENSOR_QUERY_CALIBRATION_FORMATS_FN callback, SensorAdapterQueryCalibrationFormats, SensorAdapterQueryCalibrationFormats callback function [Windows Biometric Framework API], secbiomet.sensoradapterquerycalibrationformats, winbio_adapter/SensorAdapterQueryCalibrationFormats
 ms.prod: windows
 ms.technology: windows-sdk

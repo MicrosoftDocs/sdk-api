@@ -4,10 +4,10 @@ title: ISClusResDependencies::CreateItem
 author: windows-sdk-content
 description: Creates a resource in the cluster and adds it to the dependency collection.
 old-location: mscs\clusresdependencies_createitem.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: aaaf80c4-216e-4aaa-a674-3f24e0bfce7e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CLUSTER_RESOURCE_DEFAULT_MONITOR, CLUSTER_RESOURCE_SEPARATE_MONITOR, ClusResDependencies class [Failover Cluster],CreateItem method, ClusResDependencies.CreateItem, CreateItem, CreateItem method [Failover Cluster], CreateItem method [Failover Cluster],ClusResDependencies class, ISClusResDependencies.CreateItem, ISClusResDependencies::CreateItem, _wolf_clusresdependencies.createitem, mscs.clusresdependencies_createitem
 ms.prod: windows
 ms.technology: windows-sdk

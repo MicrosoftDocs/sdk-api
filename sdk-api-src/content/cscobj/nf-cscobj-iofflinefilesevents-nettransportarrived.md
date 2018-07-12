@@ -4,10 +4,10 @@ title: IOfflineFilesEvents::NetTransportArrived
 author: windows-sdk-content
 description: Reports that the Offline Files feature has detected the arrival of a network transport.
 old-location: of\iofflinefilesevents_nettransportarrived.htm
-old-project: OfflineFiles
+old-project: offlinefiles
 ms.assetid: ac44010b-b14f-41d7-89f7-6f7822ed2a5d
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],NetTransportArrived method, IOfflineFilesEvents.NetTransportArrived, IOfflineFilesEvents::NetTransportArrived, NetTransportArrived, NetTransportArrived method [Offline Files], NetTransportArrived method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::NetTransportArrived, of.iofflinefilesevents_nettransportarrived
 ms.prod: windows
 ms.technology: windows-sdk

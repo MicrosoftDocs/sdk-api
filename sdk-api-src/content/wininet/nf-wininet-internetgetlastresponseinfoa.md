@@ -4,10 +4,10 @@ title: InternetGetLastResponseInfoA function
 author: windows-sdk-content
 description: Retrieves the last error description or server response on the thread calling this function.
 old-location: wininet\internetgetlastresponseinfo.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: 0aa274c5-0aa0-4eb9-8aef-3128e735759d
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: InternetGetLastResponseInfo, InternetGetLastResponseInfo function [WinINet], InternetGetLastResponseInfoA, InternetGetLastResponseInfoW, _win32_internetgetlastresponseinfo, wininet.internetgetlastresponseinfo, wininet/InternetGetLastResponseInfo, wininet/InternetGetLastResponseInfoA, wininet/InternetGetLastResponseInfoW
 ms.prod: windows
 ms.technology: windows-sdk

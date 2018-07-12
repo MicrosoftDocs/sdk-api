@@ -4,10 +4,10 @@ title: IVdsService::QueryProviders
 author: windows-sdk-content
 description: Returns an enumeration object containing a list of the hardware and software providers known to VDS.
 old-location: base\ivdsservice_queryproviders.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 55171eb1-6fec-4651-914c-88d23e8d7849
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsService interface [VDS],QueryProviders method, IVdsService.QueryProviders, IVdsService::QueryProviders, QueryProviders, QueryProviders method [VDS], QueryProviders method [VDS],IVdsService interface, base.ivdsservice_queryproviders, vds/IVdsService::QueryProviders
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ The provider mask enumerated by <a href="https://msdn.microsoft.com/849b3cbc-a1e
 
 ### -param ppEnum [out]
 
-The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the providers  as <a href="https://msdn.microsoft.com/131e927d-d32a-44f6-8aae-28839cfa9e7d">provider objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the provider objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the providers  as <a href="https://msdn.microsoft.com/131e927d-d32a-44f6-8aae-28839cfa9e7d">provider objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the provider objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

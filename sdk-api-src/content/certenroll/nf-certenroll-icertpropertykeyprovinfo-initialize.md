@@ -4,10 +4,10 @@ title: ICertPropertyKeyProvInfo::Initialize
 author: windows-sdk-content
 description: Initializes the object from a private key.
 old-location: security\icertpropertykeyprovinfo_initialize_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: bc317b7b-c4d8-480b-9de7-3324e30898b8
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICertPropertyKeyProvInfo interface [Security],Initialize method, ICertPropertyKeyProvInfo.Initialize, ICertPropertyKeyProvInfo::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyKeyProvInfo interface, certenroll/ICertPropertyKeyProvInfo::Initialize, security.icertpropertykeyprovinfo_initialize_method
 ms.prod: windows
 ms.technology: windows-sdk

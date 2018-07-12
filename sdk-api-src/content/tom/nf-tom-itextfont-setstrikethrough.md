@@ -4,10 +4,10 @@ title: ITextFont::SetStrikeThrough
 author: windows-sdk-content
 description: Sets whether characters are displayed with a horizontal line through the center.
 old-location: controls\ITextFont_SetStrikeThrough.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setstrikethrough.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ITextFont interface [Windows Controls],SetStrikeThrough method, ITextFont.SetStrikeThrough, ITextFont::SetStrikeThrough, SetStrikeThrough, SetStrikeThrough method [Windows Controls], SetStrikeThrough method [Windows Controls],ITextFont interface, _win32_ITextFont_SetStrikeThrough, _win32_ITextFont_SetStrikeThrough_cpp, controls.ITextFont_SetStrikeThrough, controls._win32_ITextFont_SetStrikeThrough, tom/ITextFont::SetStrikeThrough
 ms.prod: windows
 ms.technology: windows-sdk

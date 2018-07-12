@@ -7,7 +7,7 @@ old-location: winsock\getaddrinfow.htm
 old-project: WinSock
 ms.assetid: 82436a88-5b37-4758-a5c9-b60dd1cbc36c
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: GetAddrInfoW, GetAddrInfoW function [Winsock], winsock.getaddrinfow, ws2tcpip/GetAddrInfoW
 ms.prod: windows
 ms.technology: windows-sdk

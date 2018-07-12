@@ -4,10 +4,10 @@ title: "_POLICYPROPERTIES"
 author: windows-sdk-content
 description: The values of the POLICYPROPERTIES enumeration type enumerate properties of a Network Access Policy (NAP).
 old-location: nps\SDO_policyproperties.htm
-old-project: Nps
+old-project: nps
 ms.assetid: 1e12baf8-e1f4-4b46-ba08-58adf4f3012e
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: POLICYPROPERTIES, POLICYPROPERTIES enumeration [Network Policy Server], PROPERTY_POLICY_ACTION, PROPERTY_POLICY_CONDITIONS_COLLECTION, PROPERTY_POLICY_CONSTRAINT, PROPERTY_POLICY_ENABLED, PROPERTY_POLICY_MERIT, PROPERTY_POLICY_PROFILE_NAME, PROPERTY_POLICY_SOURCETAG, PROPERTY_POLICY_UNUSED0, PROPERTY_POLICY_UNUSED1, _POLICYPROPERTIES, _sdo_policyproperties, nps.SDO_policyproperties, sdo.policyproperties, sdoias/POLICYPROPERTIES, sdoias/PROPERTY_POLICY_ACTION, sdoias/PROPERTY_POLICY_CONDITIONS_COLLECTION, sdoias/PROPERTY_POLICY_CONSTRAINT, sdoias/PROPERTY_POLICY_ENABLED, sdoias/PROPERTY_POLICY_MERIT, sdoias/PROPERTY_POLICY_PROFILE_NAME, sdoias/PROPERTY_POLICY_SOURCETAG, sdoias/PROPERTY_POLICY_UNUSED0, sdoias/PROPERTY_POLICY_UNUSED1
 ms.prod: windows
 ms.technology: windows-sdk

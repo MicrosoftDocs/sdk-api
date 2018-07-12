@@ -7,7 +7,7 @@ old-location: tsf\ienumtfinputprocessorprofiles_skip.htm
 old-project: TSF
 ms.assetid: 7b0bf0be-1f0d-4da9-a8d2-c8a29ae3dcac
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: IEnumTfInputProcessorProfiles interface [Text Services Framework],Skip method, IEnumTfInputProcessorProfiles.Skip, IEnumTfInputProcessorProfiles::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfInputProcessorProfiles interface, msctf/IEnumTfInputProcessorProfiles::Skip, tsf.ienumtfinputprocessorprofiles_skip
 ms.prod: windows
 ms.technology: windows-sdk

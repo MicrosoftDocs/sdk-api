@@ -4,10 +4,10 @@ title: GetUserObjectSecurity function
 author: windows-sdk-content
 description: Retrieves security information for the specified user object.
 old-location: security\getuserobjectsecurity.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 998c2520-7833-4efd-a794-b13b528f0485
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: GetUserObjectSecurity, GetUserObjectSecurity function [Security], _win32_getuserobjectsecurity, security.getuserobjectsecurity, winuser/GetUserObjectSecurity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

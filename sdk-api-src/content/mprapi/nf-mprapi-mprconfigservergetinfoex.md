@@ -4,10 +4,10 @@ title: MprConfigServerGetInfoEx function
 author: windows-sdk-content
 description: The MprConfigServerGetInfoEx function retrieves port information for a specified server.
 old-location: rras\mprconfigservergetinfoex.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 654d1410-b54c-4284-bf7f-f6ae6b7ef85e
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprConfigServerGetInfoEx, MprConfigServerGetInfoEx function [RAS], mprapi/MprConfigServerGetInfoEx, rras.mprconfigservergetinfoex
 ms.prod: windows
 ms.technology: windows-sdk

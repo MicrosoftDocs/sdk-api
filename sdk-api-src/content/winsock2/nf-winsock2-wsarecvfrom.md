@@ -7,7 +7,7 @@ old-location: winsock\wsarecvfrom_2.htm
 old-project: WinSock
 ms.assetid: 8617dbb8-0e4e-4cd3-9597-5d20de6778f6
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: WSARecvFrom, WSARecvFrom function [Winsock], _win32_wsarecvfrom_2, winsock.wsarecvfrom_2, winsock2/WSARecvFrom
 ms.prod: windows
 ms.technology: windows-sdk

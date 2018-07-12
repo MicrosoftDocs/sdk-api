@@ -7,7 +7,7 @@ old-location: base\exitprocess.htm
 old-project: ProcThread
 ms.assetid: c26dbf15-62e8-4892-b7c5-2e6c085e4cd5
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: ExitProcess, ExitProcess function, _win32_exitprocess, base.exitprocess, processthreadsapi/ExitProcess, winbase/ExitProcess
 ms.prod: windows
 ms.technology: windows-sdk

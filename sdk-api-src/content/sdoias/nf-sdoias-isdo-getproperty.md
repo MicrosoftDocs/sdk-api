@@ -4,10 +4,10 @@ title: ISdo::GetProperty
 author: windows-sdk-content
 description: The GetProperty method retrieves the value of the specified property.
 old-location: nps\SDO_isdo_getproperty.htm
-old-project: Nps
+old-project: nps
 ms.assetid: 9567e731-4240-4b37-8757-2e25824bba0a
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetProperty, GetProperty method [Network Policy Server], GetProperty method [Network Policy Server],ISdo interface, ISdo interface [Network Policy Server],GetProperty method, ISdo.GetProperty, ISdo::GetProperty, _sdo_isdo_getproperty, nps.SDO_isdo_getproperty, sdo.isdo_getproperty, sdoias/ISdo::GetProperty
 ms.prod: windows
 ms.technology: windows-sdk

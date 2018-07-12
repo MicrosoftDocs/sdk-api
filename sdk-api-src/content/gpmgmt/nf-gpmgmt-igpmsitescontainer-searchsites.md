@@ -4,10 +4,10 @@ title: IGPMSitesContainer::SearchSites
 author: windows-sdk-content
 description: Retrieves a collection of scope of management (SOM) objects based on the specified search criteria. This method returns only site objects.
 old-location: gpmc\igpmsitescontainer_searchsites.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: bcbe1d94-ae82-4b33-8831-039896816a2d
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: GPMSitesContainer class [GPMC],SearchSites method, IGPMSitesContainer interface [GPMC],SearchSites method, IGPMSitesContainer.SearchSites, IGPMSitesContainer::SearchSites, SearchSites, SearchSites method [GPMC], SearchSites method [GPMC],GPMSitesContainer class, SearchSites method [GPMC],IGPMSitesContainer interface, _win32_igpmsitescontainer_searchsites, gpmc.igpmsitescontainer_searchsites, gpmgmt/IGPMSitesContainer::SearchSites, somLinks
 ms.prod: windows
 ms.technology: windows-sdk

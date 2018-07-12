@@ -7,7 +7,7 @@ old-location: winsock\wsaadvertiseprovider.htm
 old-project: WinSock
 ms.assetid: 574ebfa4-d7f2-43c2-b1ec-35ce3db9151f
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: WSAAdvertiseProvider, WSAAdvertiseProvider function [Winsock], winsock.wsaadvertiseprovider, ws2spi/WSAAdvertiseProvider
 ms.prod: windows
 ms.technology: windows-sdk

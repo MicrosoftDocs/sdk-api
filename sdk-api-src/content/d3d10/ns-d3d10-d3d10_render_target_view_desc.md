@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_render_target_view_desc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_render_target_view_desc.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 5e255a6a-0061-9fe8-11d9-e7f4391dd52d, D3D10_RENDER_TARGET_VIEW_DESC, D3D10_RENDER_TARGET_VIEW_DESC structure [Direct3D 10], d3d10/D3D10_RENDER_TARGET_VIEW_DESC, direct3d10.d3d10_render_target_view_desc
 ms.prod: windows
 ms.technology: windows-sdk

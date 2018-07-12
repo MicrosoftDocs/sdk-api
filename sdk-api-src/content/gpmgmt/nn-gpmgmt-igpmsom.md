@@ -4,10 +4,10 @@ title: IGPMSOM
 author: windows-sdk-content
 description: The IGPMSOM interface contains methods that allow you to create and retrieve GPO links for a scope of management (SOM), and to set and retrieve security attributes and various properties for a SOM. A SOM can be a site, domain or OU.
 old-location: gpmc\igpmsom.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: e3252dba-403d-486d-b666-9bb04ec0aa90
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: GPMSOM, IGPMSOM, IGPMSOM interface [GPMC], IGPMSOM interface [GPMC],described, _win32_igpmsom, gpmc.igpmsom, gpmgmt/IGPMSOM
 ms.prod: windows
 ms.technology: windows-sdk

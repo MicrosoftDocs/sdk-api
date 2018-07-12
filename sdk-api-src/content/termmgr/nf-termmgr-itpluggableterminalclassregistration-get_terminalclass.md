@@ -4,10 +4,10 @@ title: ITPluggableTerminalClassRegistration::get_TerminalClass
 author: windows-sdk-content
 description: The get_TerminalClass method gets the terminal's terminal class.
 old-location: tapi3\itpluggableterminalclassregistration_get_terminalclass.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 8da33c46-a369-4501-8249-48ad5d454c58
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_TerminalClass method, ITPluggableTerminalClassRegistration.get_TerminalClass, ITPluggableTerminalClassRegistration::get_TerminalClass, _tapi3_itpluggableterminalclassregistration_get_terminalclass, get_TerminalClass, get_TerminalClass method [TAPI 2.2], get_TerminalClass method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_get_terminalclass, termmgr/ITPluggableTerminalClassRegistration::get_TerminalClass
 ms.prod: windows
 ms.technology: windows-sdk

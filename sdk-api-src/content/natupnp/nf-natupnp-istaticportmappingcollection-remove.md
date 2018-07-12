@@ -4,10 +4,10 @@ title: IStaticPortMappingCollection::Remove
 author: windows-sdk-content
 description: The Remove method removes the specified port mapping from the collection.
 old-location: ics\istaticportmappingcollection_remove.htm
-old-project: ICS
+old-project: ics
 ms.assetid: c82a145d-7b85-419b-b64b-36f1ac7a2631
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],Remove method, IStaticPortMappingCollection.Remove, IStaticPortMappingCollection::Remove, Remove, Remove method [ICS/ICF], Remove method [ICS/ICF],IStaticPortMappingCollection interface, _ics_istaticportmappingcollection_remove, ics.istaticportmappingcollection_remove, natupnp/IStaticPortMappingCollection::Remove
 ms.prod: windows
 ms.technology: windows-sdk

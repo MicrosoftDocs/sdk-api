@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder.htm
 old-project: imapi
 ms.assetid: fc861cbb-a14e-499e-8b80-f5912e4f6076
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IDiscRecorder, IDiscRecorder interface [IMAPI], IDiscRecorder interface [IMAPI],described, _win32_idiscrecorder, base.idiscrecorder, imapi.idiscrecorder, imapi/IDiscRecorder
 ms.prod: windows
 ms.technology: windows-sdk

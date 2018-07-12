@@ -7,7 +7,7 @@ old-location: xps\ixpsomdocument.htm
 old-project: printdocs
 ms.assetid: 22d3c0a1-3ad5-4f48-9e1e-eaf3bd95b39f
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IXpsOMDocument, IXpsOMDocument interface [XPS Documents and Packaging], IXpsOMDocument interface [XPS Documents and Packaging],described, xps.ixpsomdocument, xpsobjectmodel/IXpsOMDocument
 ms.prod: windows
 ms.technology: windows-sdk

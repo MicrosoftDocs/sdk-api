@@ -4,10 +4,10 @@ title: IVdsSubSystem::QueryLuns
 author: windows-sdk-content
 description: Returns an enumeration of LUNs surfaced in the subsystem. This method applies to hardware provider objects only.
 old-location: base\ivdssubsystem_queryluns.htm
-old-project: VDS
+old-project: vds
 ms.assetid: b8e17085-03cd-40d1-accf-6ea5fa69de65
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsSubSystem interface [VDS],QueryLuns method, IVdsSubSystem.QueryLuns, IVdsSubSystem::QueryLuns, QueryLuns, QueryLuns method [VDS], QueryLuns method [VDS],IVdsSubSystem interface, base.ivdssubsystem_queryluns, vds/IVdsSubSystem::QueryLuns, vdshwprv/IVdsSubSystem::QueryLuns
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ Returns an
 
 
       The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface 
-      pointer that can be used to enumerate the LUNs  as <a href="https://msdn.microsoft.com/ea22bd6d-4a7a-4674-82e9-08460914ff8e">LUN objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the LUN  objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+      pointer that can be used to enumerate the LUNs  as <a href="https://msdn.microsoft.com/ea22bd6d-4a7a-4674-82e9-08460914ff8e">LUN objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the LUN  objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
      
 
 

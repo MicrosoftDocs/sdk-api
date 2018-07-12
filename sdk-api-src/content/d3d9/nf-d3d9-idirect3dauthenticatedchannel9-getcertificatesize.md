@@ -7,7 +7,7 @@ old-location: mf\idirect3dauthenticatedchannel9_getcertificatesize.htm
 old-project: medfound
 ms.assetid: a320a7be-6a0f-4de1-afc2-11eb2d7c24d6
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetCertificateSize, GetCertificateSize method [Media Foundation], GetCertificateSize method [Media Foundation],IDirect3DAuthenticatedChannel9 interface, IDirect3DAuthenticatedChannel9 interface [Media Foundation],GetCertificateSize method, IDirect3DAuthenticatedChannel9.GetCertificateSize, IDirect3DAuthenticatedChannel9::GetCertificateSize, d3d9/IDirect3DAuthenticatedChannel9::GetCertificateSize, mf.idirect3dauthenticatedchannel9_getcertificatesize
 ms.prod: windows
 ms.technology: windows-sdk

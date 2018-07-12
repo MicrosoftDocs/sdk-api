@@ -7,7 +7,7 @@ old-location: shell\IShellMenuCallback_CallbackSM.htm
 old-project: shell
 ms.assetid: 06809b61-041b-41bd-82dd-0d64edf8bbae
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: CallbackSM, CallbackSM method [Windows Shell], CallbackSM method [Windows Shell],IShellMenuCallback interface, IShellMenuCallback interface [Windows Shell],CallbackSM method, IShellMenuCallback.CallbackSM, IShellMenuCallback::CallbackSM, _win32_IShellMenuCallback_CallbackSM, shell.IShellMenuCallback_CallbackSM, shobjidl_core/IShellMenuCallback::CallbackSM
 ms.prod: windows
 ms.technology: windows-sdk

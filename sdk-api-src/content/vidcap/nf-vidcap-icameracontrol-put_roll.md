@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_roll.htm
 old-project: DirectShow
 ms.assetid: f74c7acc-e141-4238-bcbe-7890646e706c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: ICameraControl interface [DirectShow],put_Roll method, ICameraControl.put_Roll, ICameraControl::put_Roll, ICameraControlput_Roll, dshow.icameracontrol_put_roll, put_Roll, put_Roll method [DirectShow], put_Roll method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Roll
 ms.prod: windows
 ms.technology: windows-sdk

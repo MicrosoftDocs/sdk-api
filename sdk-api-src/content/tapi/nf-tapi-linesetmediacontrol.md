@@ -4,10 +4,10 @@ title: lineSetMediaControl function
 author: windows-sdk-content
 description: The lineSetMediaControl function enables and disables control actions on the media stream associated with the specified line, address, or call.
 old-location: tapi2\linesetmediacontrol.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 5a4fc83a-6bc9-4081-b374-ddb912fb2242
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: "_tapi2_linesetmediacontrol, lineSetMediaControl, lineSetMediaControl function [TAPI 2.2], tapi/lineSetMediaControl, tapi2.linesetmediacontrol"
 ms.prod: windows
 ms.technology: windows-sdk

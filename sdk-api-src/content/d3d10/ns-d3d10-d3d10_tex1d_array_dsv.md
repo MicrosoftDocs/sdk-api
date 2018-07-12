@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_tex1d_array_dsv.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex1d_array_dsv.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 6ec1c875-1c8a-b908-390d-b6e25b6557b8, D3D10_TEX1D_ARRAY_DSV, D3D10_TEX1D_ARRAY_DSV structure [Direct3D 10], d3d10/D3D10_TEX1D_ARRAY_DSV, direct3d10.d3d10_tex1d_array_dsv
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizercontext_endinkinput.htm
 old-project: tablet
 ms.assetid: a384edf8-3b3d-4e0c-b39c-976798457076
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: EndInkInput, EndInkInput method [Tablet PC], EndInkInput method [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],EndInkInput method, IInkRecognizerContext.EndInkInput, IInkRecognizerContext::EndInkInput, a384edf8-3b3d-4e0c-b39c-976798457076, msinkaut/IInkRecognizerContext::EndInkInput, tablet.inkrecognizercontext_endinkinput
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IVssBackupComponentsEx::GetWriterMetadataEx
 author: windows-sdk-content
 description: The GetWriterMetadataEx method returns the metadata for a specific writer instance running on the system.
 old-location: base\ivssbackupcomponentsex_getwritermetadataex.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 19a31627-54e0-4b0d-87cf-ac18b3049310
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: GetWriterMetadataEx, GetWriterMetadataEx method [VSS], GetWriterMetadataEx method [VSS],IVssBackupComponentsEx interface, IVssBackupComponentsEx interface [VSS],GetWriterMetadataEx method, IVssBackupComponentsEx.GetWriterMetadataEx, IVssBackupComponentsEx::GetWriterMetadataEx, base.ivssbackupcomponentsex_getwritermetadataex, vsbackup/IVssBackupComponentsEx::GetWriterMetadataEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -200,7 +200,7 @@ This is in contrast to the information returned by
 <a href="https://msdn.microsoft.com/b99e7e41-1c88-462c-b6d8-734f7a6e24d4">GetWriterComponents</a> (during restore operations), which was stored in the Backup Components Document by calls to 
 the <a href="https://msdn.microsoft.com/50cb0b16-9ed3-4496-962a-9c845c10986c">IVssBackupComponents::AddComponent</a> method.
 
-When the caller of this method is finished accessing the metadata, it must call <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a>.
+When the caller of this method is finished accessing the metadata, it must call <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a>.
 
 
 

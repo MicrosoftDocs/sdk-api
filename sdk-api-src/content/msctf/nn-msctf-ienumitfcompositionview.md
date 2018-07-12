@@ -7,7 +7,7 @@ old-location: tsf\ienumitfcompositionview.htm
 old-project: TSF
 ms.assetid: d842b367-a605-4ed0-887d-89dfcf6893a6
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: IEnumITfCompositionView, IEnumITfCompositionView interface [Text Services Framework], IEnumITfCompositionView interface [Text Services Framework],described, _tsf_ienumitfcompositionview_ref, msctf/IEnumITfCompositionView, tsf.ienumitfcompositionview
 ms.prod: windows
 ms.technology: windows-sdk

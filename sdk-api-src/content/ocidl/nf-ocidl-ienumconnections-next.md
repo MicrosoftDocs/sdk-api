@@ -7,7 +7,7 @@ old-location: com\ienumconnections_next.htm
 old-project: com
 ms.assetid: af58f961-1182-43fc-95ce-4afb251b9b08
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IEnumConnections interface [COM],Next method, IEnumConnections.Next, IEnumConnections::Next, Next, Next method [COM], Next method [COM],IEnumConnections interface, _com_ienumconnections_next, com.ienumconnections_next, ocidl/IEnumConnections::Next
 ms.prod: windows
 ms.technology: windows-sdk

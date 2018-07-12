@@ -7,7 +7,7 @@ old-location: gdi\psinjectdata.htm
 old-project: printdocs
 ms.assetid: f42c8f69-7fe9-4740-b295-32ef2a5b714c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: "*PPSINJECTDATA, PPSINJECTDATA, PPSINJECTDATA structure pointer [Windows GDI], PSINJECTDATA, PSINJECTDATA structure [Windows GDI], _PSINJECTDATA, _win32_PSINJECTDATA_str, gdi.psinjectdata, wingdi/PPSINJECTDATA, wingdi/PSINJECTDATA"
 ms.prod: windows
 ms.technology: windows-sdk

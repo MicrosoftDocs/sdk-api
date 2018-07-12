@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_buffer_rtv.htm
 old-project: direct3d11
 ms.assetid: 979c69cf-f9b5-4b10-92ff-ad5245880802
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: 89ee8333-dedf-139c-e1a8-05365866ee34, D3D11_BUFFER_RTV, D3D11_BUFFER_RTV structure [Direct3D 11], d3d11/D3D11_BUFFER_RTV, direct3d11.d3d11_buffer_rtv
 ms.prod: windows
 ms.technology: windows-sdk

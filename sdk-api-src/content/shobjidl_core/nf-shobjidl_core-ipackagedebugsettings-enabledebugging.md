@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_EnableDebugging.htm
 old-project: shell
 ms.assetid: a3afae41-b46e-47c8-95bb-a0aa747c6353
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: EnableDebugging, EnableDebugging method [Windows Shell], EnableDebugging method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],EnableDebugging method, IPackageDebugSettings.EnableDebugging, IPackageDebugSettings::EnableDebugging, shell.IPackageDebugSettings_EnableDebugging, shobjidl_core/IPackageDebugSettings::EnableDebugging
 ms.prod: windows
 ms.technology: windows-sdk

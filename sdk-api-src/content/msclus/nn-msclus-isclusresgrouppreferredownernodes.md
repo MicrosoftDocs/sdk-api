@@ -4,10 +4,10 @@ title: ISClusResGroupPreferredOwnerNodes
 author: windows-sdk-content
 description: Provides access to the nodes that belong to the preferred owner list for a group.
 old-location: mscs\clusresgrouppreferredownernodes_collection.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 3425825e-890c-4d3d-919e-a66963e1fc55
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResGroupPreferredOwnerNodes, ClusResGroupPreferredOwnerNodes collection [Failover Cluster], ClusResGroupPreferredOwnerNodes collection [Failover Cluster],described, ISClusResGroupPreferredOwnerNodes, _wolf_clusresgrouppreferredownernodes_collection, msclus/ClusResGroupPreferredOwnerNodes, mscs.clusresgrouppreferredownernodes_collection
 ms.prod: windows
 ms.technology: windows-sdk

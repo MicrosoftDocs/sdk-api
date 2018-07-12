@@ -4,10 +4,10 @@ title: ip_option_information
 author: windows-sdk-content
 description: Describes the options to be included in the header of an IP packet.
 old-location: iphlp\ip_option_information.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 4341d0a4-65d8-4677-b208-2cde5ff36f14
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: "*PIP_OPTION_INFORMATION, IP_FLAG_DF, IP_FLAG_REVERSE, IP_OPTION_INFORMATION, IP_OPTION_INFORMATION structure [IP Helper], PIP_OPTION_INFORMATION, PIP_OPTION_INFORMATION structure pointer [IP Helper], _iphlp_ip_option_information, ip_option_information, ipexport/IP_OPTION_INFORMATION, ipexport/PIP_OPTION_INFORMATION, iphlp.ip_option_information"
 ms.prod: windows
 ms.technology: windows-sdk

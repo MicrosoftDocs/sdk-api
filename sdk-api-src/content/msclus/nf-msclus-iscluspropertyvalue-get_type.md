@@ -4,10 +4,10 @@ title: ISClusPropertyValue::get_Type
 author: windows-sdk-content
 description: Returns or sets the type of a property value.
 old-location: mscs\cluspropertyvalue_type.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 7f596f30-a939-4fc4-b358-c8034e93f279
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CLUSPROP_TYPE_DISK_GUID, CLUSPROP_TYPE_DISK_NUMBER, CLUSPROP_TYPE_DISK_SERIALNUMBER, CLUSPROP_TYPE_DISK_SIZE, CLUSPROP_TYPE_ENDMARK, CLUSPROP_TYPE_LIST_VALUE, CLUSPROP_TYPE_NAME, CLUSPROP_TYPE_PARTITION_INFO, CLUSPROP_TYPE_PARTITION_INFO_EX, CLUSPROP_TYPE_RESCLASS, CLUSPROP_TYPE_SCSI_ADDRESS, CLUSPROP_TYPE_SIGNATURE, CLUSPROP_TYPE_UNKNOWN, CLUSPROP_TYPE_USER, ClusPropertyValue object [Failover Cluster],Type property, ClusPropertyValue.Type, ISClusPropertyValue.get_Type, ISClusPropertyValue::get_Type, Type property [Failover Cluster], Type property [Failover Cluster],ClusPropertyValue object, _wolf_cluspropertyvalue.type, get_Type, mscs.cluspropertyvalue_type
 ms.prod: windows
 ms.technology: windows-sdk

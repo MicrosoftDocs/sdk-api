@@ -7,7 +7,7 @@ old-location: search\_search_ISchemaProvider_Localize.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\localize.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISchemaProvider interface [search],Localize method, ISchemaProvider.Localize, ISchemaProvider::Localize, Localize, Localize method [search], Localize method [search],ISchemaProvider interface, _search_ISchemaProvider_Localize, search._search_ISchemaProvider_Localize, structuredquery/ISchemaProvider::Localize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IVdsVdProvider::QueryVDisks
 author: windows-sdk-content
 description: Returns a list of all virtual disks that are managed by the provider.
 old-location: base\ivdsvdprovider_querysurfaceddisks.htm
-old-project: VDS
+old-project: vds
 ms.assetid: eab65da4-eb26-46f5-9978-972fd8dffb41
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsVdProvider interface,QueryVDisks method, IVdsVdProvider.QueryVDisks, IVdsVdProvider::QueryVDisks, QueryVDisks, QueryVDisks method, QueryVDisks method,IVdsVdProvider interface, base.ivdsvdprovider_querysurfaceddisks, vds/IVdsVdProvider::QueryVDisks
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ Returns a list of all virtual disks that are managed by the provider.
 
 ### -param ppEnum [out]
 
-The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the virtual disk objects. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the virtual disk  objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the virtual disk objects. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the virtual disk  objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
      This parameter is required and cannot be <b>NULL</b>.
 
 

@@ -4,10 +4,10 @@ title: "_VDS_CONTROLLER_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a controller.
 old-location: base\vds_controller_status.htm
-old-project: VDS
+old-project: vds
 ms.assetid: a888fcb7-83f5-40c1-9f24-efa929aa9f6a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: "*PVDS_CONTROLLER_STATUS, VDS_CONTROLLER_STATUS, VDS_CONTROLLER_STATUS enumeration [VDS], VDS_CS_FAILED, VDS_CS_NOT_READY, VDS_CS_OFFLINE, VDS_CS_ONLINE, VDS_CS_REMOVED, VDS_CS_UNKNOWN, _VDS_CONTROLLER_STATUS, base.vds_controller_status, vds/VDS_CONTROLLER_STATUS, vds/VDS_CS_FAILED, vds/VDS_CS_NOT_READY, vds/VDS_CS_OFFLINE, vds/VDS_CS_ONLINE, vds/VDS_CS_REMOVED, vds/VDS_CS_UNKNOWN, vdshwprv/VDS_CONTROLLER_STATUS, vdshwprv/VDS_CS_FAILED, vdshwprv/VDS_CS_NOT_READY, vdshwprv/VDS_CS_OFFLINE, vdshwprv/VDS_CS_ONLINE, vdshwprv/VDS_CS_REMOVED, vdshwprv/VDS_CS_UNKNOWN"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dwm\dwmseticoniclivepreviewbitmap.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmseticoniclivepreviewbitmap.htm
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: DWM_SIT_DISPLAYFRAME, DwmSetIconicLivePreviewBitmap, DwmSetIconicLivePreviewBitmap function [Desktop Window Manager], _udwm_dwmseticoniclivepreviewbitmap, _udwm_dwmseticoniclivepreviewbitmap_cpp, dwm.dwmseticoniclivepreviewbitmap, dwmapi/DwmSetIconicLivePreviewBitmap, winui._udwm_dwmseticoniclivepreviewbitmap
 ms.prod: windows
 ms.technology: windows-sdk

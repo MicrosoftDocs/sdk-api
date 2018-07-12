@@ -4,10 +4,10 @@ title: ISClusResTypes::get_Count
 author: windows-sdk-content
 description: Returns the number of objects in the ClusResTypes collection.
 old-location: mscs\clusrestypes_count.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 4a9581d5-dad9-42ac-93d3-5ce8c70a0700
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResTypes collection [Failover Cluster],Count property, ClusResTypes.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusResTypes collection, ISClusResTypes.get_Count, ISClusResTypes::get_Count, _wolf_clusrestypes.count, get_Count, mscs.clusrestypes_count
 ms.prod: windows
 ms.technology: windows-sdk

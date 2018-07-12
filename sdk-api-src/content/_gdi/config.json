@@ -14,6 +14,5 @@
     "prnasnot.h",
     "prntvpt.h",
     "mxdc.h"
-  ],
-  "displayName": "Windows GDI"
+  ]
 }

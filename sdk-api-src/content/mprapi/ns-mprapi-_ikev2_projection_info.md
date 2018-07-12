@@ -4,10 +4,10 @@ title: "_IKEV2_PROJECTION_INFO"
 author: windows-sdk-content
 description: Contains information obtained during Internet Key Exchange (IKE) negotiation.
 old-location: rras\ikev2_projection_info.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 092ccaf9-d109-41a8-aa45-cf39f6bb70ca
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: "*PIKEV2_PROJECTION_INFO, IKEV2_PROJECTION_INFO, IKEV2_PROJECTION_INFO structure [RAS], IPSEC_CIPHER_TYPE_3DES, IPSEC_CIPHER_TYPE_AES_128, IPSEC_CIPHER_TYPE_AES_192, IPSEC_CIPHER_TYPE_AES_256, MPRAPI_IKEV2_AUTH_USING_CERT, MPRAPI_IKEV2_AUTH_USING_EAP, PIKEV2_PROJECTION_INFO, PIKEV2_PROJECTION_INFO structure pointer [RAS], _IKEV2_PROJECTION_INFO, mprapi/IKEV2_PROJECTION_INFO, mprapi/PIKEV2_PROJECTION_INFO, rras.ikev2_projection_info"
 ms.prod: windows
 ms.technology: windows-sdk

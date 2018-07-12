@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromBoolean.htm
 old-project: properties
 ms.assetid: aa23f7a2-1983-4a30-b2fc-601efa37e0ff
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: InitPropVariantFromBoolean, InitPropVariantFromBoolean function [Windows Properties], properties.InitPropVariantFromBoolean, propvarutil/InitPropVariantFromBoolean, shell.InitPropVariantFromBoolean, shell_InitPropVariantFromBoolean
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: automat\vari4fromdisp.htm
 old-project: automat
 ms.assetid: ee43a319-8863-441e-a2b8-b322f8c88f32
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarI4FromDisp, VarI4FromDisp function [Automation], _oa96_VarI4FromDisp, automat.vari4fromdisp, oleauto/VarI4FromDisp
 ms.prod: windows
 ms.technology: windows-sdk

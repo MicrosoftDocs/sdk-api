@@ -4,10 +4,10 @@ title: INetworkListManager::GetConnectivity
 author: windows-sdk-content
 description: The GetConnectivity method returns the overall connectivity state of the machine.
 old-location: nla\inetworklistmanager_getconnectivity.htm
-old-project: NLA
+old-project: nla
 ms.assetid: 4695554a-2f8b-4d2e-b3ff-ec22c43387d6
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetConnectivity, GetConnectivity method [Network Awareness], GetConnectivity method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetConnectivity method, INetworkListManager.GetConnectivity, INetworkListManager::GetConnectivity, netlistmgr/INetworkListManager::GetConnectivity, nla.inetworklistmanager_getconnectivity
 ms.prod: windows
 ms.technology: windows-sdk

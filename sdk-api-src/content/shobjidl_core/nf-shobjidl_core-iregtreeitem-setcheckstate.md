@@ -7,7 +7,7 @@ old-location: shell\IRegTreeItem_SetCheckState.htm
 old-project: shell
 ms.assetid: 0ba25491-8d18-4040-a256-9078b91e4f3f
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: FALSE, IRegTreeItem interface [Windows Shell],SetCheckState method, IRegTreeItem.SetCheckState, IRegTreeItem::SetCheckState, SetCheckState, SetCheckState method [Windows Shell], SetCheckState method [Windows Shell],IRegTreeItem interface, TRUE, _win32_IRegTreeItem_SetCheckState, shell.IRegTreeItem_SetCheckState, shobjidl_core/IRegTreeItem::SetCheckState
 ms.prod: windows
 ms.technology: windows-sdk

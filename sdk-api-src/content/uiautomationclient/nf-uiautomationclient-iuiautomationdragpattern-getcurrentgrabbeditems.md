@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationdragpattern_getcurrentgrabbeditems.htm
 old-project: WinAuto
 ms.assetid: 9311E1E3-FE4E-428F-9DAD-32AE347477EF
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetCurrentGrabbedItems, GetCurrentGrabbedItems method [Windows Accessibility], GetCurrentGrabbedItems method [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],GetCurrentGrabbedItems method, IUIAutomationDragPattern.GetCurrentGrabbedItems, IUIAutomationDragPattern::GetCurrentGrabbedItems, uiautomationclient/IUIAutomationDragPattern::GetCurrentGrabbedItems, winauto.uiauto_iuiautomationdragpattern_getcurrentgrabbeditems
 ms.prod: windows
 ms.technology: windows-sdk

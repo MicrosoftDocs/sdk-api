@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevicecontrol_stop.htm
 old-project: WMDM
 ms.assetid: 31dd1325-2a8d-4a61-a4a5-f585b320e841
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IMDSPDeviceControl interface [windows Media Device Manager],Stop method, IMDSPDeviceControl.Stop, IMDSPDeviceControl::Stop, IMDSPDeviceControlStop, Stop, Stop method [windows Media Device Manager], Stop method [windows Media Device Manager],IMDSPDeviceControl interface, mswmdm/IMDSPDeviceControl::Stop, wmdm.imdspdevicecontrol_stop
 ms.prod: windows
 ms.technology: windows-sdk

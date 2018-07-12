@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager_IncludedInCrawlScope.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\includedincrawlscope.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISearchCrawlScopeManager interface [search],IncludedInCrawlScope method, ISearchCrawlScopeManager.IncludedInCrawlScope, ISearchCrawlScopeManager::IncludedInCrawlScope, IncludedInCrawlScope, IncludedInCrawlScope method [search], IncludedInCrawlScope method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_IncludedInCrawlScope, search._search_ISearchCrawlScopeManager_IncludedInCrawlScope, searchapi/ISearchCrawlScopeManager::IncludedInCrawlScope
 ms.prod: windows
 ms.technology: windows-sdk

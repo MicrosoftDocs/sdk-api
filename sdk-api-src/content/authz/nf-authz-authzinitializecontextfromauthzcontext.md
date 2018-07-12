@@ -4,10 +4,10 @@ title: AuthzInitializeContextFromAuthzContext function
 author: windows-sdk-content
 description: Creates a new client context based on an existing client context.
 old-location: security\authzinitializecontextfromauthzcontext.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: dac5e354-ee31-45e3-9eb8-8f3263161ad2
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: AuthzInitializeContextFromAuthzContext, AuthzInitializeContextFromAuthzContext function [Security], _win32_authzinitializecontextfromauthzcontext, authz/AuthzInitializeContextFromAuthzContext, security.authzinitializecontextfromauthzcontext
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__playlistcollectionplaylistsetasdeleted.
 old-project: WMP
 ms.assetid: c54e936f-eca8-41ca-8a2d-94e67b5a9a49
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlaylistCollectionPlaylistSetAsDeleted method, IWMPEvents.PlaylistCollectionPlaylistSetAsDeleted, IWMPEvents::PlaylistCollectionPlaylistSetAsDeleted, IWMPEventsPlaylistCollectionPlaylistSetAsDeleted, PlaylistCollectionPlaylistSetAsDeleted, PlaylistCollectionPlaylistSetAsDeleted method [Windows Media Player], PlaylistCollectionPlaylistSetAsDeleted method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playlistcollectionplaylistsetasdeleted, wmp/IWMPEvents::PlaylistCollectionPlaylistSetAsDeleted
 ms.prod: windows
 ms.technology: windows-sdk

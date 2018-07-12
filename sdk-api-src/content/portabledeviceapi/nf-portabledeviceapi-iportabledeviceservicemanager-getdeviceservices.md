@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservicemanager_getdeviceservices.htm
 old-project: wpd_sdk
 ms.assetid: d6b06f4d-c07e-4cd4-b96e-e8b9b4f98df8
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.keywords: GetDeviceServices, GetDeviceServices method [Windows Portable Devices SDK], GetDeviceServices method [Windows Portable Devices SDK],IPortableDeviceServiceManager interface, IPortableDeviceServiceManager interface [Windows Portable Devices SDK],GetDeviceServices method, IPortableDeviceServiceManager.GetDeviceServices, IPortableDeviceServiceManager::GetDeviceServices, portabledeviceapi/IPortableDeviceServiceManager::GetDeviceServices, wpdsdk.iportabledeviceservicemanager_getdeviceservices
 ms.prod: windows
 ms.technology: windows-sdk

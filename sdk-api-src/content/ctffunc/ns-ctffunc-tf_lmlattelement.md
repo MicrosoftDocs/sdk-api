@@ -7,7 +7,7 @@ old-location: tsf\tf_lmlattelement.htm
 old-project: TSF
 ms.assetid: 55cc631f-c9ab-4ca8-ab5b-43e8a2e88fc9
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: TF_LMLATTELEMENT, TF_LMLATTELEMENT structure [Text Services Framework], _tsf_tf_lmlattelement_ref, ctffunc/TF_LMLATTELEMENT, tsf.tf_lmlattelement
 ms.prod: windows
 ms.technology: windows-sdk

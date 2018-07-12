@@ -7,7 +7,7 @@ old-location: dataxchg\getclipboarddata.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getclipboarddata.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: GetClipboardData, GetClipboardData function [Data Exchange], _win32_GetClipboardData, _win32_getclipboarddata_cpp, dataxchg.getclipboarddata, winui._win32_getclipboarddata, winuser/GetClipboardData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

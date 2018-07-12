@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_ui_collectionchange.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_collectionchange.htm
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: UI_COLLECTIONCHANGE, UI_COLLECTIONCHANGE enumeration [Windows Ribbon], UI_COLLECTIONCHANGE_INSERT, UI_COLLECTIONCHANGE_REMOVE, UI_COLLECTIONCHANGE_REPLACE, UI_COLLECTIONCHANGE_RESET, scenicintent_UI_COLLECTIONCHANGE, uiribbon/UI_COLLECTIONCHANGE, uiribbon/UI_COLLECTIONCHANGE_INSERT, uiribbon/UI_COLLECTIONCHANGE_REMOVE, uiribbon/UI_COLLECTIONCHANGE_REPLACE, uiribbon/UI_COLLECTIONCHANGE_RESET, windowsribbon.windowsribbon_ui_collectionchange
 ms.prod: windows
 ms.technology: windows-sdk

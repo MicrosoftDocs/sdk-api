@@ -4,10 +4,10 @@ title: NdfCloseIncident function
 author: windows-sdk-content
 description: Used to close an Network Diagnostics Framework (NDF) incident following its resolution.
 old-location: ndf\ndfcloseincident.htm
-old-project: NDF
+old-project: ndf
 ms.assetid: 5e5caf41-ca24-42e0-ac22-3b569400c383
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: NdfCloseIncident, NdfCloseIncident function [NDF], ndf.ndfcloseincident, ndfapi/NdfCloseIncident
 ms.prod: windows
 ms.technology: windows-sdk

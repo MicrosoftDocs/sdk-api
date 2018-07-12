@@ -4,10 +4,10 @@ title: DPA_GetPtrPtr macro
 author: windows-sdk-content
 description: Gets the pointer to the internal pointer array of a dynamic pointer array (DPA).
 old-location: controls\DPA_GetPtrPtr.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_getptrptr.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: DPA_GetPtrPtr, DPA_GetPtrPtr macro [Windows Controls], _shell_DPA_GetPtrPtr, _shell_DPA_GetPtrPtr_cpp, controls.DPA_GetPtrPtr, controls._shell_DPA_GetPtrPtr, dpa_dsa/DPA_GetPtrPtr
 ms.prod: windows
 ms.technology: windows-sdk

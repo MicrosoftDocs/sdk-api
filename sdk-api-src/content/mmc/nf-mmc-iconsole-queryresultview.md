@@ -4,10 +4,10 @@ title: IConsole::QueryResultView
 author: windows-sdk-content
 description: The IConsole2::QueryResultView method queries IConsole2 for the result view object IUnknown interface pointer.
 old-location: mmc\iconsole2_queryresultview.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 26d4859c-e79f-4c63-92ad-b66de7d0fa13
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: IConsole interface [MMC],QueryResultView method, IConsole.QueryResultView, IConsole2 interface [MMC],QueryResultView method, IConsole2::QueryResultView, IConsole3 interface [MMC],QueryResultView method, IConsole3::QueryResultView, IConsole::QueryResultView, QueryResultView, QueryResultView method [MMC], QueryResultView method [MMC],IConsole interface, QueryResultView method [MMC],IConsole2 interface, QueryResultView method [MMC],IConsole3 interface, _slate_iconsole2_queryresultview, mmc.iconsole2_queryresultview, mmc/IConsole2::QueryResultView, mmc/IConsole3::QueryResultView, mmc/IConsole::QueryResultView
 ms.prod: windows
 ms.technology: windows-sdk

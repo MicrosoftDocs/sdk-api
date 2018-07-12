@@ -7,7 +7,7 @@ old-location: search\_search_ICondition_Clone.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\clone.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: Clone, Clone method [search], Clone method [search],ICondition interface, ICondition interface [search],Clone method, ICondition.Clone, ICondition::Clone, _search_ICondition_Clone, search._search_ICondition_Clone, structuredquerycondition/ICondition::Clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-        Because there are no methods for modifying an <a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a>, there are few occasions when this method is necessary. In many cases it is adequate to call the <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">IUnknown::QueryInterface</a> method on the <b>ICondition</b> to obtain an additional reference to the same object.
+        Because there are no methods for modifying an <a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a>, there are few occasions when this method is necessary. In many cases it is adequate to call the <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method on the <b>ICondition</b> to obtain an additional reference to the same object.
       
 
 

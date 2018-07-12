@@ -4,10 +4,10 @@ title: PeerGraphOpenDirectConnection function
 author: windows-sdk-content
 description: The PeerGraphOpenDirectConnection function allows an application to establish a direct connection with a node in a peer graph.
 old-location: p2p\peergraphopendirectconnection.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 0625a2f6-7e16-43c7-8c03-1f0ddeda426f
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerGraphOpenDirectConnection, PeerGraphOpenDirectConnection function [Peer Networking], p2p.peergraphopendirectconnection, p2p/PeerGraphOpenDirectConnection
 ms.prod: windows
 ms.technology: windows-sdk

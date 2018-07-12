@@ -7,7 +7,7 @@ old-location: menurc\setcursorpos.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\setcursorpos.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: SetCursorPos, SetCursorPos function [Menus and Other Resources], _win32_SetCursorPos, _win32_setcursorpos_cpp, menurc.setcursorpos, winui._win32_setcursorpos, winuser/SetCursorPos
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

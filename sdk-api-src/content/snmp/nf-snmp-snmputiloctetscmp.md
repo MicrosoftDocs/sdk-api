@@ -4,10 +4,10 @@ title: SnmpUtilOctetsCmp function
 author: windows-sdk-content
 description: The SnmpUtilOctetsCmp function compares two octet strings. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputiloctetscmp.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: b7d12b31-488c-4b0b-b803-516054c99c34
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SnmpUtilOctetsCmp, SnmpUtilOctetsCmp function [SNMP], _snmp_snmputiloctetscmp, snmp.snmputiloctetscmp, snmp/SnmpUtilOctetsCmp
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ITask::GetMaxRunTime
 author: windows-sdk-content
 description: This method retrieves the maximum length of time, in milliseconds, the task can run before terminating.
 old-location: taskschd\itask_getmaxruntime.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: a9f27929-d304-4696-bb36-0c0a34c71388
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetMaxRunTime, GetMaxRunTime method [Task Scheduler], GetMaxRunTime method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetMaxRunTime method, ITask.GetMaxRunTime, ITask::GetMaxRunTime, _msb_itask_getmaxruntime, mstask/ITask::GetMaxRunTime, taskschd.itask_getmaxruntime
 ms.prod: windows
 ms.technology: windows-sdk

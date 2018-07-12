@@ -4,10 +4,10 @@ title: IWCContextMenuCallback::AddExtensionMenuItem
 author: windows-sdk-content
 description: Adds a menu item to a Failover Cluster Administrator context menu.
 old-location: mscs\iwccontextmenucallback_addextensionmenuitem.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 0eedc564-c82d-4309-b11c-c87d2e73c2c9
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: AddExtensionMenuItem, AddExtensionMenuItem method [Failover Cluster], AddExtensionMenuItem method [Failover Cluster],IWCContextMenuCallback interface, IWCContextMenuCallback interface [Failover Cluster],AddExtensionMenuItem method, IWCContextMenuCallback.AddExtensionMenuItem, IWCContextMenuCallback::AddExtensionMenuItem, MF_CHECKED, MF_DISABLED, MF_ENABLED, MF_GRAYED, MF_MENUBARBREAK, MF_MENUBREAK, MF_SEPARATOR, MF_STRING, MF_UNCHECKED, _wolf_iwccontextmenucallback_addextensionmenuitem, cluadmex/IWCContextMenuCallback::AddExtensionMenuItem, mscs.iwccontextmenucallback_addextensionmenuitem
 ms.prod: windows
 ms.technology: windows-sdk

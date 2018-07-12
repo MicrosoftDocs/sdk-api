@@ -7,7 +7,7 @@ old-location: gdi\gdisetbatchlimit.htm
 old-project: gdi
 ms.assetid: 53bf0dfe-e93c-401d-ac5d-6717bad2625e
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GdiSetBatchLimit, GdiSetBatchLimit function [Windows GDI], _win32_GdiSetBatchLimit, gdi.gdisetbatchlimit, wingdi/GdiSetBatchLimit
 ms.prod: windows
 ms.technology: windows-sdk

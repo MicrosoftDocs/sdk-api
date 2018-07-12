@@ -7,7 +7,7 @@ old-location: cos\imultiinterfacepublisherfilter.htm
 old-project: cossdk
 ms.assetid: f20f778b-fdd5-4c34-871b-d03cd1cd31cc
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: IMultiInterfacePublisherFilter, IMultiInterfacePublisherFilter interface [COM+], IMultiInterfacePublisherFilter interface [COM+],described, _cos_IMultiInterfacePublisherFilter, cos.imultiinterfacepublisherfilter, eventsys/IMultiInterfacePublisherFilter
 ms.prod: windows
 ms.technology: windows-sdk

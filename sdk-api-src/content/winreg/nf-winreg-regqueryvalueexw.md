@@ -4,10 +4,10 @@ title: RegQueryValueExW function
 author: windows-sdk-content
 description: Retrieves the type and data for the specified value name associated with an open registry key.
 old-location: base\regqueryvalueex.htm
-old-project: SysInfo
+old-project: sysinfo
 ms.assetid: 202d253a-10ff-40e7-8eec-a49717443b81
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: RegQueryValueEx, RegQueryValueEx function, RegQueryValueExA, RegQueryValueExW, _win32_regqueryvalueex, base.regqueryvalueex, winreg/RegQueryValueEx, winreg/RegQueryValueExA, winreg/RegQueryValueExW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ldap_result function
 author: windows-sdk-content
 description: Obtains the result of an asynchronous operation.
 old-location: ldap\ldap_result.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: e047fccc-a875-4360-be1b-3ac3dea15dd6
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/14/2018
 ms.keywords: "_ldap_ldap_result, ldap.ldap__result, ldap.ldap_result, ldap_result, ldap_result function [LDAP], winldap/ldap_result"
 ms.prod: windows
 ms.technology: windows-sdk

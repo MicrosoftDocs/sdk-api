@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_map.htm
 old-project: direct3d11
 ms.assetid: 916b00bd-2711-4ebd-a36d-d75b3a59a528
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: 8c057b75-49d4-723a-fe77-d236c5e87682, D3D11_MAP, D3D11_MAP enumeration [Direct3D 11], D3D11_MAP_READ, D3D11_MAP_READ_WRITE, D3D11_MAP_WRITE, D3D11_MAP_WRITE_DISCARD, D3D11_MAP_WRITE_NO_OVERWRITE, d3d11/D3D11_MAP, d3d11/D3D11_MAP_READ, d3d11/D3D11_MAP_READ_WRITE, d3d11/D3D11_MAP_WRITE, d3d11/D3D11_MAP_WRITE_DISCARD, d3d11/D3D11_MAP_WRITE_NO_OVERWRITE, direct3d11.d3d11_map
 ms.prod: windows
 ms.technology: windows-sdk

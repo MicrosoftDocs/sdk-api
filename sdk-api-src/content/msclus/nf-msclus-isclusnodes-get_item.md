@@ -4,10 +4,10 @@ title: ISClusNodes::get_Item
 author: windows-sdk-content
 description: Single node from a ClusNodes collection.
 old-location: mscs\clusnodes_item.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 5cb658c3-4eaa-482d-b467-04c1f65ed8a0
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNodes collection [Failover Cluster],Item property, ClusNodes.Item, ISClusNodes.get_Item, ISClusNodes::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ClusNodes collection, _wolf_clusnodes.item, get_Item, mscs.clusnodes_item
 ms.prod: windows
 ms.technology: windows-sdk

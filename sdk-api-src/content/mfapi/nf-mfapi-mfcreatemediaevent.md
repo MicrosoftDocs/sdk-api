@@ -7,7 +7,7 @@ old-location: mf\mfcreatemediaevent.htm
 old-project: medfound
 ms.assetid: 64da695e-5f56-4f23-9a06-0b0c358e3cc3
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 64da695e-5f56-4f23-9a06-0b0c358e3cc3, MFCreateMediaEvent, MFCreateMediaEvent function [Media Foundation], mf.mfcreatemediaevent, mfapi/MFCreateMediaEvent
 ms.prod: windows
 ms.technology: windows-sdk

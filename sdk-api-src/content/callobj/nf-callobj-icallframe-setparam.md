@@ -7,7 +7,7 @@ old-location: com\icallframe_setparam.htm
 old-project: com
 ms.assetid: ec828206-d49f-49da-91fc-554d703b53db
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: ICallFrame interface [COM],SetParam method, ICallFrame.SetParam, ICallFrame::SetParam, SetParam, SetParam method [COM], SetParam method [COM],ICallFrame interface, _com_icallframe_setparam, callobj/ICallFrame::SetParam, com.icallframe_setparam
 ms.prod: windows
 ms.technology: windows-sdk

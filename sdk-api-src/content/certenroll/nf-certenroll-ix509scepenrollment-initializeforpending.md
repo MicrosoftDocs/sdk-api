@@ -4,10 +4,10 @@ title: IX509SCEPEnrollment::InitializeForPending
 author: windows-sdk-content
 description: Initialize the instance to prepare to generate a message to either retrieve an issued certificate, or install a response for a previous request by the issuer.
 old-location: security\ix509scepenrollment_initializeforpending.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 6b6f9e9d-5316-4928-861a-22497e1f5c00
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],InitializeForPending method, IX509SCEPEnrollment.InitializeForPending, IX509SCEPEnrollment::InitializeForPending, InitializeForPending, InitializeForPending method [Security], InitializeForPending method [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::InitializeForPending, security.ix509scepenrollment_initializeforpending
 ms.prod: windows
 ms.technology: windows-sdk

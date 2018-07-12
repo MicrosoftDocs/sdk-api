@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_setmute.htm
 old-project: medfound
 ms.assetid: 81e2fb76-a125-4665-9aa5-8971410ee554
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetMute method, IMFPMediaPlayer.SetMute, IMFPMediaPlayer::SetMute, SetMute, SetMute method [Media Foundation], SetMute method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setmute, mfplay/IMFPMediaPlayer::SetMute
 ms.prod: windows
 ms.technology: windows-sdk

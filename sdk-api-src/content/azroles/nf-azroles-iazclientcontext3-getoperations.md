@@ -4,10 +4,10 @@ title: IAzClientContext3::GetOperations
 author: windows-sdk-content
 description: Returns a collection of the operations, within the specified scope, that the principal represented by the current client context has permission to perform.
 old-location: security\iazclientcontext3_getoperations_method.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 0f5c7e2d-e88d-4236-888c-9bf5a425713c
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: GetOperations, GetOperations method [Security], GetOperations method [Security],IAzClientContext3 interface, IAzClientContext3 interface [Security],GetOperations method, IAzClientContext3.GetOperations, IAzClientContext3::GetOperations, azroles/IAzClientContext3::GetOperations, security.iazclientcontext3_getoperations_method
 ms.prod: windows
 ms.technology: windows-sdk

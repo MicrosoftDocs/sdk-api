@@ -4,10 +4,10 @@ title: NotifyServiceStatusChangeW function
 author: windows-sdk-content
 description: Enables an application to receive notification when the specified service is created or deleted or when its status changes.
 old-location: base\notifyservicestatuschange.htm
-old-project: Services
+old-project: services
 ms.assetid: e22b7f69-f096-486f-97fa-0465bef499cd
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: NotifyServiceStatusChange, NotifyServiceStatusChange function, NotifyServiceStatusChangeA, NotifyServiceStatusChangeW, SERVICE_NOTIFY_CONTINUE_PENDING, SERVICE_NOTIFY_CREATED, SERVICE_NOTIFY_DELETED, SERVICE_NOTIFY_DELETE_PENDING, SERVICE_NOTIFY_PAUSED, SERVICE_NOTIFY_PAUSE_PENDING, SERVICE_NOTIFY_RUNNING, SERVICE_NOTIFY_START_PENDING, SERVICE_NOTIFY_STOPPED, SERVICE_NOTIFY_STOP_PENDING, base.notifyservicestatuschange, winsvc/NotifyServiceStatusChange, winsvc/NotifyServiceStatusChangeA, winsvc/NotifyServiceStatusChangeW
 ms.prod: windows
 ms.technology: windows-sdk

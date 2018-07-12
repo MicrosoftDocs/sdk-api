@@ -4,10 +4,10 @@ title: IX509Attributes::Remove
 author: windows-sdk-content
 description: Removes an IX509Attribute object from the collection by index number.
 old-location: security\ix509attributes_remove_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 5821f4bd-5165-4ffc-8d1c-5ef89188b307
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509Attributes interface [Security],Remove method, IX509Attributes.Remove, IX509Attributes::Remove, Remove, Remove method [Security], Remove method [Security],IX509Attributes interface, certenroll/IX509Attributes::Remove, security.ix509attributes_remove_method
 ms.prod: windows
 ms.technology: windows-sdk

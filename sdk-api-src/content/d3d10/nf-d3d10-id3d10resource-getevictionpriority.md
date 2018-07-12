@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10resource_getevictionpriority.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10resource_getevictionpriority.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 83f59a92-75b3-4efe-03ec-ca8afea155dc, GetEvictionPriority, GetEvictionPriority method [Direct3D 10], GetEvictionPriority method [Direct3D 10],ID3D10Resource interface, ID3D10Resource interface [Direct3D 10],GetEvictionPriority method, ID3D10Resource.GetEvictionPriority, ID3D10Resource::GetEvictionPriority, d3d10/ID3D10Resource::GetEvictionPriority, direct3d10.id3d10resource_getevictionpriority
 ms.prod: windows
 ms.technology: windows-sdk

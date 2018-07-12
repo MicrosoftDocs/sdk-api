@@ -7,7 +7,7 @@ old-location: machinelearning\iwinmlruntime_loadmodel.htm
 old-project: MachineLearning
 ms.assetid: 75FC42E6-CFFA-4E85-A2D5-80322630E958
 ms.author: windowssdkdev
-ms.date: 03/07/2018
+ms.date: 03/08/2018
 ms.keywords: IWinMLRuntime interface,LoadModel method, IWinMLRuntime.LoadModel, IWinMLRuntime::LoadModel, LoadModel, LoadModel method, LoadModel method,IWinMLRuntime interface, MachineLearning.iwinmlruntime_loadmodel, winml/IWinMLRuntime::LoadModel
 ms.prod: windows
 ms.technology: windows-sdk

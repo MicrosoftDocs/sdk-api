@@ -4,10 +4,10 @@ title: DSCOLUMN
 author: windows-sdk-content
 description: The DSCOLUMN structure represents a column in the directory services query dialog box. An array of this structure is contained in the DSQUERYPARAMS structure.
 old-location: ad\dscolumn.htm
-old-project: AD
+old-project: ad
 ms.assetid: b948b114-dd66-4e79-bdd0-559a13a7c644
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*LPDSCOLUMN, DSCOLUMN, DSCOLUMN structure [Active Directory], DSCOLUMNPROP_ADSPATH, DSCOLUMNPROP_OBJECTCLASS, LPDSCOLUMN, LPDSCOLUMN structure pointer [Active Directory], _glines_dscolumn, ad.dscolumn, dsquery/DSCOLUMN, dsquery/LPDSCOLUMN"
 ms.prod: windows
 ms.technology: windows-sdk

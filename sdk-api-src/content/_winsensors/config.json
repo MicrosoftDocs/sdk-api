@@ -3,6 +3,5 @@
   "headers": [
     "sensorsapi.h",
     "sensors.h"
-  ],
-  "displayName": "Sensor API"
+  ]
 }

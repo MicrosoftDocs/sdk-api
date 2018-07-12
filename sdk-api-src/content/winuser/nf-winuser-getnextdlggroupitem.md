@@ -7,7 +7,7 @@ old-location: dlgbox\getnextdlggroupitem.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getnextdlggroupitem.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 05/22/2018
 ms.keywords: GetNextDlgGroupItem, GetNextDlgGroupItem function [Dialog Boxes], _win32_GetNextDlgGroupItem, _win32_getnextdlggroupitem_cpp, dlgbox.getnextdlggroupitem, winui._win32_getnextdlggroupitem, winuser/GetNextDlgGroupItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

@@ -4,10 +4,10 @@ title: SetActivePwrScheme function
 author: windows-sdk-content
 description: Sets the active power scheme.
 old-location: base\setactivepwrscheme.htm
-old-project: Power
+old-project: power
 ms.assetid: f449ff0d-5c22-4c6d-8c88-dc18258a8c6d
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SetActivePwrScheme, SetActivePwrScheme function, _win32_setactivepwrscheme, base.setactivepwrscheme, powrprof/SetActivePwrScheme
 ms.prod: windows
 ms.technology: windows-sdk

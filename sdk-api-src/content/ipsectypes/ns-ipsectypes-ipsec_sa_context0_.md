@@ -4,10 +4,10 @@ title: IPSEC_SA_CONTEXT0_
 author: windows-sdk-content
 description: Encapsulates an inbound and outbound SA pair.
 old-location: fwp\ipsec_sa_context0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 1cf191f0-5052-40f6-8665-747ae3f38fb1
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IPSEC_SA_CONTEXT0, IPSEC_SA_CONTEXT0 structure [Filtering], IPSEC_SA_CONTEXT0_, fwp.ipsec_sa_context0, ipsectypes/IPSEC_SA_CONTEXT0
 ms.prod: windows
 ms.technology: windows-sdk

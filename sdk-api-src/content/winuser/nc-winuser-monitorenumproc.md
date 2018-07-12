@@ -7,7 +7,7 @@ old-location: gdi\monitorenumproc.htm
 old-project: gdi
 ms.assetid: 2d69e363-2b2c-450f-9069-488b80991217
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: MonitorEnumProc, MonitorEnumProc callback, MonitorEnumProc callback function [Windows GDI], _win32_MonitorEnumProc, gdi.monitorenumproc, winuser/MonitorEnumProc
 ms.prod: windows
 ms.technology: windows-sdk

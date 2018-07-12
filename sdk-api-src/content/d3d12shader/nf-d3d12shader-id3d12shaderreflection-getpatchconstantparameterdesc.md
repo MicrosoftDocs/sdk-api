@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection_getpatchconstantparameterdesc.ht
 old-project: direct3d12
 ms.assetid: 01353250-0C8F-4C72-93CE-64BEF52EB985
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: GetPatchConstantParameterDesc, GetPatchConstantParameterDesc method, GetPatchConstantParameterDesc method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetPatchConstantParameterDesc method, ID3D12ShaderReflection.GetPatchConstantParameterDesc, ID3D12ShaderReflection::GetPatchConstantParameterDesc, d3d12shader/ID3D12ShaderReflection::GetPatchConstantParameterDesc, direct3d12.id3d12shaderreflection_getpatchconstantparameterdesc
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: SetFileSecurityA function
 author: windows-sdk-content
 description: Sets the security of a file or directory object.
 old-location: security\setfilesecurity.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 27766c97-7ac5-40fc-b798-7cd07e496c0d
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 06/15/2018
 ms.keywords: SetFileSecurity, SetFileSecurity function [Security], SetFileSecurityA, SetFileSecurityW, _win32_setfilesecurity, security.setfilesecurity, winbase/SetFileSecurity, winbase/SetFileSecurityA, winbase/SetFileSecurityW
 ms.prod: windows
 ms.technology: windows-sdk

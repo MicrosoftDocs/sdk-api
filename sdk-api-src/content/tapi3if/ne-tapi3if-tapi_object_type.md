@@ -4,10 +4,10 @@ title: TAPI_OBJECT_TYPE
 author: windows-sdk-content
 description: The TAPI_OBJECT_TYPE enum is used to indicate the type of TAPI object involved in an event.
 old-location: tapi3\tapi_object_type.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 343a6049-d97b-4cba-bdf3-07fd72a10671
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: TAPI_OBJECT_TYPE, TAPI_OBJECT_TYPE enumeration [TAPI 2.2], TOT_ADDRESS, TOT_CALL, TOT_CALLHUB, TOT_NONE, TOT_PHONE, TOT_TAPI, TOT_TERMINAL, _tapi3_tapi_object_type, tapi3.tapi_object_type, tapi3if/TAPI_OBJECT_TYPE, tapi3if/TOT_ADDRESS, tapi3if/TOT_CALL, tapi3if/TOT_CALLHUB, tapi3if/TOT_NONE, tapi3if/TOT_PHONE, tapi3if/TOT_TAPI, tapi3if/TOT_TERMINAL
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CryptVerifyMessageHash function
 author: windows-sdk-content
 description: The CryptVerifyMessageHash function verifies the hash of specified content.
 old-location: security\cryptverifymessagehash.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 3b5185b9-e24b-4302-a60c-74ccbd19077c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CryptVerifyMessageHash, CryptVerifyMessageHash function [Security], _crypto2_cryptverifymessagehash, security.cryptverifymessagehash, wincrypt/CryptVerifyMessageHash
 ms.prod: windows
 ms.technology: windows-sdk

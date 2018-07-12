@@ -2,13 +2,13 @@
 UID: NA:natupnp
 ms.assetid: ae744464-3199-3f47-8a25-33051e201798
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: ics
+archived: true
 ---
 
 # Natupnp.h header

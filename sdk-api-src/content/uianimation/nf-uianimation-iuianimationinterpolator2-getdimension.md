@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationinterpolator2_getdimension.htm
 old-project: UIAnimation
 ms.assetid: 66CA3AE5-4332-42CC-BD38-A5F19F0F3C89
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetDimension, GetDimension method [Windows Animation], GetDimension method [Windows Animation],IUIAnimationInterpolator2 interface, IUIAnimationInterpolator2 interface [Windows Animation],GetDimension method, IUIAnimationInterpolator2.GetDimension, IUIAnimationInterpolator2::GetDimension, uianimation.iuianimationinterpolator2_getdimension, uianimation/IUIAnimationInterpolator2::GetDimension
 ms.prod: windows
 ms.technology: windows-sdk

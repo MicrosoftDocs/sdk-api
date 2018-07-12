@@ -4,10 +4,10 @@ title: ISClusResource::get_Group
 author: windows-sdk-content
 description: group to which a resource belongs.
 old-location: mscs\clusresource_group.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 8fea7c20-57bc-4037-bd1e-4c0c2915a5ce
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResource class [Failover Cluster],Group property, ClusResource.Group, Group property [Failover Cluster], Group property [Failover Cluster],ClusResource class, ISClusResource.get_Group, ISClusResource::get_Group, _wolf_clusresource.group, get_Group, mscs.clusresource_group
 ms.prod: windows
 ms.technology: windows-sdk

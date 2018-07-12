@@ -7,7 +7,7 @@ old-location: base\getcurrentumsthread.htm
 old-project: ProcThread
 ms.assetid: f2e20816-919a-443d-96d3-94e98afc28f2
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: GetCurrentUmsThread, GetCurrentUmsThread function, base.getcurrentumsthread, winbase/GetCurrentUmsThread
 ms.prod: windows
 ms.technology: windows-sdk

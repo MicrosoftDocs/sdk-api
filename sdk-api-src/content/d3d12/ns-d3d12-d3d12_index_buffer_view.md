@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_index_buffer_view.htm
 old-project: direct3d12
 ms.assetid: CADD98BF-EDA9-43D6-9ADA-392051541B61
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: D3D12_INDEX_BUFFER_VIEW, D3D12_INDEX_BUFFER_VIEW structure, d3d12/D3D12_INDEX_BUFFER_VIEW, direct3d12.d3d12_index_buffer_view
 ms.prod: windows
 ms.technology: windows-sdk

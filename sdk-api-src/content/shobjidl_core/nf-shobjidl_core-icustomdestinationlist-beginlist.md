@@ -7,7 +7,7 @@ old-location: shell\ICustomDestinationList_BeginList.htm
 old-project: shell
 ms.assetid: 431ae6b0-1421-46ec-a06a-38158acb0275
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: BeginList, BeginList method [Windows Shell], BeginList method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],BeginList method, ICustomDestinationList.BeginList, ICustomDestinationList::BeginList, _shell_ICustomDestinationList_BeginList, shell.ICustomDestinationList_BeginList, shobjidl_core/ICustomDestinationList::BeginList
 ms.prod: windows
 ms.technology: windows-sdk

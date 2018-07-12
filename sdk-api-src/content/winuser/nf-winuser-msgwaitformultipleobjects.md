@@ -4,10 +4,10 @@ title: MsgWaitForMultipleObjects function
 author: windows-sdk-content
 description: Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses. The objects can include input event objects.
 old-location: base\msgwaitformultipleobjects.htm
-old-project: Sync
+old-project: sync
 ms.assetid: 0629f1b3-6805-43a7-9aeb-4f80939ec62c
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/06/2018
 ms.keywords: MsgWaitForMultipleObjects, MsgWaitForMultipleObjects function, QS_ALLEVENTS, QS_ALLINPUT, QS_ALLPOSTMESSAGE, QS_HOTKEY, QS_INPUT, QS_KEY, QS_MOUSE, QS_MOUSEBUTTON, QS_MOUSEMOVE, QS_PAINT, QS_POSTMESSAGE, QS_RAWINPUT, QS_SENDMESSAGE, QS_TIMER, _win32_msgwaitformultipleobjects, base.msgwaitformultipleobjects, winuser/MsgWaitForMultipleObjects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

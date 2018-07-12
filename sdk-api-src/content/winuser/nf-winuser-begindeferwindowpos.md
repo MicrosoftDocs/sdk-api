@@ -7,7 +7,7 @@ old-location: winmsg\begindeferwindowpos.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\begindeferwindowpos.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: BeginDeferWindowPos, BeginDeferWindowPos function [Windows and Messages], _win32_BeginDeferWindowPos, _win32_begindeferwindowpos_cpp, winmsg.begindeferwindowpos, winui._win32_begindeferwindowpos, winuser/BeginDeferWindowPos
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

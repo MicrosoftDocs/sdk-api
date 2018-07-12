@@ -4,10 +4,10 @@ title: WinBioEnumDatabases function
 author: windows-sdk-content
 description: Enumerates all registered databases that match a specified type.
 old-location: secbiomet\winbioenumdatabases.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 163c669d-765f-4f8d-83c4-ff8bd064e44d
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: WinBioEnumDatabases, WinBioEnumDatabases function [Windows Biometric Framework API], secbiomet.winbioenumdatabases, winbio/WinBioEnumDatabases
 ms.prod: windows
 ms.technology: windows-sdk

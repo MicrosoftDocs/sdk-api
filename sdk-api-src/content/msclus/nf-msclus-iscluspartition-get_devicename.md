@@ -4,10 +4,10 @@ title: ISClusPartition::get_DeviceName
 author: windows-sdk-content
 description: Device name of a storage class resource partition.
 old-location: mscs\cluspartition_devicename.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: bd94ee19-33d1-43dd-bf4e-dddc63ea1e43
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusPartition object [Failover Cluster],DeviceName property, ClusPartition.DeviceName, DeviceName property [Failover Cluster], DeviceName property [Failover Cluster],ClusPartition object, ISClusPartition.get_DeviceName, ISClusPartition::get_DeviceName, _wolf_cluspartition.devicename, get_DeviceName, mscs.cluspartition_devicename
 ms.prod: windows
 ms.technology: windows-sdk

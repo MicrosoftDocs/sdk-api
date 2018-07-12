@@ -4,10 +4,10 @@ title: IWindowsMediaLibrarySharingServices::setDefaultAuthorization
 author: windows-sdk-content
 description: The setDefaultAuthorization method enables or disables access to all users' media libraries by a specified set of devices.
 old-location: wmlss\IWMLSSsetDefaultAuthorization.htm
-old-project: WMLSS
+old-project: wmlss
 ms.assetid: 7885f571-6b93-47d8-82ab-d998851f1304
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],setDefaultAuthorization method, IWindowsMediaLibrarySharingServices.setDefaultAuthorization, IWindowsMediaLibrarySharingServices::setDefaultAuthorization, setDefaultAuthorization, setDefaultAuthorization method [Windows Media Library Sharing Services], setDefaultAuthorization method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSsetDefaultAuthorization, wmlss/IWindowsMediaLibrarySharingServices::setDefaultAuthorization
 ms.prod: windows
 ms.technology: windows-sdk

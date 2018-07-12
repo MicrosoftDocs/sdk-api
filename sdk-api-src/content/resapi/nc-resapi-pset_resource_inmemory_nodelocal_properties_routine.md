@@ -4,10 +4,10 @@ title: PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\setresourceinmemorynodelocalproperties.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 9263E130-49DE-465C-A852-34E2D93A4211
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE, PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE callback function [Failover Cluster], SetResourceInMemoryNodeLocalProperties, SetResourceInMemoryNodeLocalProperties callback, SetResourceInMemoryNodeLocalProperties callback function [Failover Cluster], mscs.setresourceinmemorynodelocalproperties, resapi/PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE, resapi/SetResourceInMemoryNodeLocalProperties
 ms.prod: windows
 ms.technology: windows-sdk

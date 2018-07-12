@@ -4,10 +4,10 @@ title: ISClusResGroup::get_Resources
 author: windows-sdk-content
 description: resources in a group.
 old-location: mscs\clusresgroup_resources.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 891a2126-774d-43c6-bd27-6a0e9d943383
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResGroup class [Failover Cluster],Resources property, ClusResGroup.Resources, ISClusResGroup.get_Resources, ISClusResGroup::get_Resources, Resources property [Failover Cluster], Resources property [Failover Cluster],ClusResGroup class, _wolf_clusresgroup.resources, get_Resources, mscs.clusresgroup_resources
 ms.prod: windows
 ms.technology: windows-sdk

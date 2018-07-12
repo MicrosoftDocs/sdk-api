@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_depth_stencilop_desc.htm
 old-project: direct3d11
 ms.assetid: 8c375d2f-ecec-4b9f-bd84-625dad53fa6a
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: D3D11_DEPTH_STENCILOP_DESC, D3D11_DEPTH_STENCILOP_DESC structure [Direct3D 11], b5c19838-9f15-a711-8c15-008fbca8d2a1, d3d11/D3D11_DEPTH_STENCILOP_DESC, direct3d11.d3d11_depth_stencilop_desc
 ms.prod: windows
 ms.technology: windows-sdk

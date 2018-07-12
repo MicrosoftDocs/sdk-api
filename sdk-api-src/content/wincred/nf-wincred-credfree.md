@@ -7,7 +7,7 @@ old-location: security\credfree.htm
 old-project: SecAuthN
 ms.assetid: bc33ab1b-dd3f-4e1b-96d2-e32ceff89ada
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: CredFree, CredFree function [Security], _cred_credfree, security.credfree, wincred/CredFree
 ms.prod: windows
 ms.technology: windows-sdk

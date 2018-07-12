@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_CompareRuntimeIds.htm
 old-project: WinAuto
 ms.assetid: b0c481eb-3545-439c-bf6a-347b98ea35de
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CompareRuntimeIds, CompareRuntimeIds method [Windows Accessibility], CompareRuntimeIds method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CompareRuntimeIds method, IUIAutomation.CompareRuntimeIds, IUIAutomation::CompareRuntimeIds, uiauto.uiauto_IUIAutomation_CompareRuntimeIds, uiauto_IUIAutomation_CompareRuntimeIds, uiautomationclient/IUIAutomation::CompareRuntimeIds, winauto.uiauto_IUIAutomation_CompareRuntimeIds
 ms.prod: windows
 ms.technology: windows-sdk

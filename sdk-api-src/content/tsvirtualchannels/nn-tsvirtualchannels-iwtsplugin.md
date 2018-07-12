@@ -7,7 +7,7 @@ old-location: termserv\iwtsplugin.htm
 old-project: TermServ
 ms.assetid: e34caf2c-1eb6-40eb-9407-20ed4fde9cdb
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: IWTSPlugin, IWTSPlugin interface [Remote Desktop Services], IWTSPlugin interface [Remote Desktop Services],described, termserv.iwtsplugin, tsvirtualchannels/IWTSPlugin
 ms.prod: windows
 ms.technology: windows-sdk

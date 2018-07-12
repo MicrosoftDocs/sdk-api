@@ -4,10 +4,10 @@ title: Edit_GetRect macro
 author: windows-sdk-content
 description: Gets the formatting rectangle of an edit control. You can use this macro or send the EM_GETRECT message explicitly.
 old-location: controls\Edit_GetRect.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getrect.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: Edit_GetRect, Edit_GetRect macro [Windows Controls], _win32_Edit_GetRect, _win32_Edit_GetRect_cpp, controls.Edit_GetRect, controls._win32_Edit_GetRect, windowsx/Edit_GetRect
 ms.prod: windows
 ms.technology: windows-sdk

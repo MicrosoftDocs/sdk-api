@@ -7,7 +7,7 @@ old-location: shell\SHGetNameFromIDList.htm
 old-project: shell
 ms.assetid: d2fc1eeb-bd76-4bd7-9a4f-4142e53f0afb
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: SHGetNameFromIDList, SHGetNameFromIDList function [Windows Shell], _shell_SHGetNameFromIDList, shell.SHGetNameFromIDList, shobjidl_core/SHGetNameFromIDList
 ms.prod: windows
 ms.technology: windows-sdk

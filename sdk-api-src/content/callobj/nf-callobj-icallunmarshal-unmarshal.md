@@ -7,7 +7,7 @@ old-location: com\icallunmarshal_unmarshal.htm
 old-project: com
 ms.assetid: 15d04287-285d-43d9-ad55-3dc9c7ae192e
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: ICallUnmarshal interface [COM],Unmarshal method, ICallUnmarshal.Unmarshal, ICallUnmarshal::Unmarshal, Unmarshal, Unmarshal method [COM], Unmarshal method [COM],ICallUnmarshal interface, _com_icallunmarshal_unmarshal, callobj/ICallUnmarshal::Unmarshal, com.icallunmarshal_unmarshal
 ms.prod: windows
 ms.technology: windows-sdk

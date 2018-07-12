@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_getstereo3drendermode.htm
 old-project: medfound
 ms.assetid: 204C9B35-860F-46FD-AF3F-7BC7E1EE12EF
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetStereo3DRenderMode, GetStereo3DRenderMode method [Media Foundation], GetStereo3DRenderMode method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStereo3DRenderMode method, IMFMediaEngineEx.GetStereo3DRenderMode, IMFMediaEngineEx::GetStereo3DRenderMode, mf.imfmediaengineex_getstereo3drendermode, mfmediaengine/IMFMediaEngineEx::GetStereo3DRenderMode
 ms.prod: windows
 ms.technology: windows-sdk

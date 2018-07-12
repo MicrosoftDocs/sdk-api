@@ -7,7 +7,7 @@ old-location: automat\varr4fromdisp.htm
 old-project: automat
 ms.assetid: 9ce82c5e-cdcd-45f8-9b58-1dfbbfccd65d
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarR4FromDisp, VarR4FromDisp function [Automation], _oa96_VarR4FromDisp, automat.varr4fromdisp, oleauto/VarR4FromDisp
 ms.prod: windows
 ms.technology: windows-sdk

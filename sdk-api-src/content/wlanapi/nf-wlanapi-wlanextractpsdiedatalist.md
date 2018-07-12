@@ -7,7 +7,7 @@ old-location: nwifi\wlanextractpsdiedatalist.htm
 old-project: NativeWiFi
 ms.assetid: 7fb6707f-c229-4386-9058-e290693a20ce
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: WlanExtractPsdIEDataList, WlanExtractPsdIEDataList function [NativeWIFI], nwifi.wlanextractpsdiedatalist, wlanapi/WlanExtractPsdIEDataList
 ms.prod: windows
 ms.technology: windows-sdk

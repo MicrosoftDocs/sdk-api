@@ -4,10 +4,10 @@ title: MprAdminInterfaceGetInfo function
 author: windows-sdk-content
 description: The MprAdminInterfaceGetInfo function retrieves information for a specified interface on a specified server.
 old-location: rras\mpradmininterfacegetinfo.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: a6d353f0-1d68-4a37-89f3-cdab0fc7972a
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprAdminInterfaceGetInfo, MprAdminInterfaceGetInfo function [RAS], _mpr_mpradmininterfacegetinfo, mprapi/MprAdminInterfaceGetInfo, rras.mpradmininterfacegetinfo
 ms.prod: windows
 ms.technology: windows-sdk

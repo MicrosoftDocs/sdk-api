@@ -7,7 +7,7 @@ old-location: gdi\lineto.htm
 old-project: gdi
 ms.assetid: a31b3a9a-110f-4cdf-89d9-19937a2e40b4
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: LineTo, LineTo function [Windows GDI], _win32_LineTo, gdi.lineto, wingdi/LineTo
 ms.prod: windows
 ms.technology: windows-sdk

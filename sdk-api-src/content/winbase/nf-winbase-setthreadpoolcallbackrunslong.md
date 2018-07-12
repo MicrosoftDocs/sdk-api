@@ -7,7 +7,7 @@ old-location: base\setthreadpoolcallbackrunslong.htm
 old-project: ProcThread
 ms.assetid: 19ca0501-02d8-4851-8015-65e53d6f8074
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: SetThreadpoolCallbackRunsLong, SetThreadpoolCallbackRunsLong function, base.setthreadpoolcallbackrunslong, winbase/SetThreadpoolCallbackRunsLong
 ms.prod: windows
 ms.technology: windows-sdk

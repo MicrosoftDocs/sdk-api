@@ -7,7 +7,7 @@ old-location: display\floatobj_mullong.htm
 old-project: display
 ms.assetid: 945b9280-41fc-44f9-a5df-c0a725cef377
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 06/26/2018
 ms.keywords: FLOATOBJ_MulLong, FLOATOBJ_MulLong function [Display Devices], display.floatobj_mullong, gdifncs_7548db1a-4ed7-4946-95f6-5541e7c4226f.xml, winddi/FLOATOBJ_MulLong
 ms.prod: windows
 ms.technology: windows-sdk

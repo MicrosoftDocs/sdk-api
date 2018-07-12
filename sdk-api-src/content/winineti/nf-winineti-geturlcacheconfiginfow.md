@@ -4,10 +4,10 @@ title: GetUrlCacheConfigInfoW function
 author: windows-sdk-content
 description: Retrieves information about cache configuration.
 old-location: wininet\geturlcacheconfiginfo.htm
-old-project: WinInet
+old-project: wininet
 ms.assetid: 93a29a4f-57bf-497c-a7b1-3960935590f9
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: CACHE_CONFIG_CONTENT_PATHS_FC, CACHE_CONFIG_CONTENT_USAGE_FC, CACHE_CONFIG_COOKIES_PATHS_FC, CACHE_CONFIG_DISK_CACHE_PATHS_FC, CACHE_CONFIG_FORCE_CLEANUP_FC, CACHE_CONFIG_HISTORY_PATHS_FC, CACHE_CONFIG_QUOTA_FC, CACHE_CONFIG_STICKY_CONTENT_USAGE_FC, CACHE_CONFIG_SYNC_MODE_FC, CACHE_CONFIG_USER_MODE_FC, GetUrlCacheConfigInfo, GetUrlCacheConfigInfo function [WinINet], GetUrlCacheConfigInfoA, GetUrlCacheConfigInfoW, wininet.geturlcacheconfiginfo, winineti/GetUrlCacheConfigInfo, winineti/GetUrlCacheConfigInfoA, winineti/GetUrlCacheConfigInfoW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IOCTL_STORAGE_GET_MEDIA_TYPES
 author: windows-sdk-content
 description: Retrieves the geometry information for the device.
 old-location: base\ioctl_storage_get_media_types.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 67f65549-f24b-4ef2-a98f-1fc618a3bb77
 ms.author: windowssdkdev
-ms.date: 04/03/2018
+ms.date: 06/29/2018
 ms.keywords: IOCTL_STORAGE_GET_MEDIA_TYPES, IOCTL_STORAGE_GET_MEDIA_TYPES control, IOCTL_STORAGE_GET_MEDIA_TYPES control code, _win32_ioctl_storage_get_media_types, base.ioctl_storage_get_media_types, winioctl/IOCTL_STORAGE_GET_MEDIA_TYPES
 ms.prod: windows
 ms.technology: windows-sdk

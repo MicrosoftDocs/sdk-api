@@ -4,10 +4,10 @@ title: "_DS_MANGLE_FOR"
 author: windows-sdk-content
 description: The DS_MANGLE_FOR enumeration is used to define whether a relative distinguished name is mangled (encoded) and in what form the mangling occurs.
 old-location: ad\ds_mangle_for.htm
-old-project: AD
+old-project: ad
 ms.assetid: 79a66a54-889e-464e-8199-ad911ea84a86
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DS_MANGLE_FOR, DS_MANGLE_FOR enumeration [Active Directory], DS_MANGLE_OBJECT_RDN_FOR_DELETION, DS_MANGLE_OBJECT_RDN_FOR_NAME_CONFLICT, DS_MANGLE_UNKNOWN, _DS_MANGLE_FOR, _glines_ds_mangle_for, ad.ds__mangle__for, ad.ds_mangle_for, dsparse/DS_MANGLE_FOR, dsparse/DS_MANGLE_OBJECT_RDN_FOR_DELETION, dsparse/DS_MANGLE_OBJECT_RDN_FOR_NAME_CONFLICT, dsparse/DS_MANGLE_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk

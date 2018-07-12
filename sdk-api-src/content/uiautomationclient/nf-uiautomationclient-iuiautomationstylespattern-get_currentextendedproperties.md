@@ -7,7 +7,7 @@ old-location: winauto\iuiautomationstylespattern_currentextendedproperties.htm
 old-project: WinAuto
 ms.assetid: E0D643A5-92C5-4307-88A9-8CC13903D976
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CurrentExtendedProperties property [Windows Accessibility], CurrentExtendedProperties property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CurrentExtendedProperties property, IUIAutomationStylesPattern.CurrentExtendedProperties, IUIAutomationStylesPattern.get_CurrentExtendedProperties, IUIAutomationStylesPattern::CurrentExtendedProperties, IUIAutomationStylesPattern::get_CurrentExtendedProperties, get_CurrentExtendedProperties, uiautomationclient/IUIAutomationStylesPattern::CurrentExtendedProperties, uiautomationclient/IUIAutomationStylesPattern::get_CurrentExtendedProperties, winauto.iuiautomationstylespattern_currentextendedproperties
 ms.prod: windows
 ms.technology: windows-sdk

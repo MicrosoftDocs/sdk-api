@@ -4,10 +4,10 @@ title: IAzRoleAssignments
 author: windows-sdk-content
 description: Represents a collection of IAzRoleAssignment objects.
 old-location: security\iazroleassignments.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: d38fd7e0-6d0b-4b68-b6e5-f7adc2cfef47
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: IAzRoleAssignments, IAzRoleAssignments interface [Security], IAzRoleAssignments interface [Security],described, azroles/IAzRoleAssignments, security.iazroleassignments
 ms.prod: windows
 ms.technology: windows-sdk

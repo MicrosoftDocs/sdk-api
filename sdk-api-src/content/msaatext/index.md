@@ -2,7 +2,7 @@
 UID: NA:msaatext
 ms.assetid: 9d7f8726-f2d5-3a8e-9d11-dddcd34f33a0
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

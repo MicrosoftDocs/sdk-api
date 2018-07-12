@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolshadowconnection.htm
 old-project: TermServ
 ms.assetid: 83285a6a-903f-4c23-8f62-b04bbeaa52f9
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: IWTSProtocolShadowConnection, IWTSProtocolShadowConnection interface [Remote Desktop Services], IWTSProtocolShadowConnection interface [Remote Desktop Services],described, termserv.iwtsprotocolshadowconnection, wtsprotocol/IWTSProtocolShadowConnection
 ms.prod: windows
 ms.technology: windows-sdk

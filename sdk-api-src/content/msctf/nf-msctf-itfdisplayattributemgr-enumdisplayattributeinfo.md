@@ -7,7 +7,7 @@ old-location: tsf\itfdisplayattributemgr_enumdisplayattributeinfo.htm
 old-project: TSF
 ms.assetid: ea0cb5b1-46a3-43c6-a109-1972d3fcbc18
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: EnumDisplayAttributeInfo, EnumDisplayAttributeInfo method [Text Services Framework], EnumDisplayAttributeInfo method [Text Services Framework],ITfDisplayAttributeMgr interface, ITfDisplayAttributeMgr interface [Text Services Framework],EnumDisplayAttributeInfo method, ITfDisplayAttributeMgr.EnumDisplayAttributeInfo, ITfDisplayAttributeMgr::EnumDisplayAttributeInfo, _tsf_itfdisplayattributemgr_enumdisplayattributeinfo_ref, msctf/ITfDisplayAttributeMgr::EnumDisplayAttributeInfo, tsf.itfdisplayattributemgr_enumdisplayattributeinfo
 ms.prod: windows
 ms.technology: windows-sdk

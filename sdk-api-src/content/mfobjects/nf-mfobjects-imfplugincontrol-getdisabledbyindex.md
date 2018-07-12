@@ -7,7 +7,7 @@ old-location: mf\imfplugincontrol_imfplugincontrol__getdisabledbyindex.htm
 old-project: medfound
 ms.assetid: fae7ca09-3e37-444b-a4bc-bfd522917e3f
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetDisabledByIndex, GetDisabledByIndex method [Media Foundation], GetDisabledByIndex method [Media Foundation],IMFPluginControl interface, IMFPluginControl interface [Media Foundation],GetDisabledByIndex method, IMFPluginControl.GetDisabledByIndex, IMFPluginControl::GetDisabledByIndex, mf.imfplugincontrol_imfplugincontrol__getdisabledbyindex, mfobjects/IMFPluginControl::GetDisabledByIndex
 ms.prod: windows
 ms.technology: windows-sdk

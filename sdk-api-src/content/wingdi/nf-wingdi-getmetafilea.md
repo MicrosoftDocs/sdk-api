@@ -7,7 +7,7 @@ old-location: gdi\getmetafile.htm
 old-project: gdi
 ms.assetid: 56A602C4-AE4D-46DE-B5DA-66A68E3A16BF
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetMetaFile, GetMetaFile function [Windows GDI], GetMetaFileA, GetMetaFileW, gdi.getmetafile, wingdi/GetMetaFile, wingdi/GetMetaFileA, wingdi/GetMetaFileW
 ms.prod: windows
 ms.technology: windows-sdk

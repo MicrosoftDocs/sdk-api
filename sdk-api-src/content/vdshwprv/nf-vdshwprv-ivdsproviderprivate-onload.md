@@ -4,10 +4,10 @@ title: IVdsProviderPrivate::OnLoad
 author: windows-sdk-content
 description: Prompts the provider to initialize itself, and passes a callback object that the provider uses to get necessary interfaces.
 old-location: base\ivdsproviderprivate_onload.htm
-old-project: VDS
+old-project: vds
 ms.assetid: c5b2ac78-6a23-470c-a762-26ce6358e0b6
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsProviderPrivate interface [VDS],OnLoad method, IVdsProviderPrivate.OnLoad, IVdsProviderPrivate::OnLoad, OnLoad, OnLoad method [VDS], OnLoad method [VDS],IVdsProviderPrivate interface, base.ivdsproviderprivate_onload, vdshwprv/IVdsProviderPrivate::OnLoad
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,7 +123,7 @@ The provider failed to initialize.
     VDS calls this method immediately after calling the <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> method on a provider.
 
 
-    Implementers must implement this method. Invoke the  <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">IUnknown::QueryInterface</a> method 
+    Implementers must implement this method. Invoke the  <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method 
     to query for the <a href="https://msdn.microsoft.com/8e9b7c95-0b59-4268-a274-5d16812075a6">IVdsAdviseSink</a> interface.
 
 

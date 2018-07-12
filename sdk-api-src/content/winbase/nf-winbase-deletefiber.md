@@ -7,7 +7,7 @@ old-location: base\deletefiber.htm
 old-project: ProcThread
 ms.assetid: e1a7453a-6878-49dd-831f-1857a489e97f
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: DeleteFiber, DeleteFiber function, _win32_deletefiber, base.deletefiber, winbase/DeleteFiber
 ms.prod: windows
 ms.technology: windows-sdk

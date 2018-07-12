@@ -4,10 +4,10 @@ title: StgOpenStorageEx function
 author: windows-sdk-content
 description: Opens an existing root storage object in the file system. Use this function to open Compound Files and regular files.
 old-location: stg\stgopenstorageex.htm
-old-project: Stg
+old-project: stg
 ms.assetid: 4f2138fb-1f80-4345-a3cb-9c11023457b1
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: StgOpenStorageEx, StgOpenStorageEx function [Structured Storage], _stg_stgopenstorageex, coml2api/StgOpenStorageEx, stg.stgopenstorageex
 ms.prod: windows
 ms.technology: windows-sdk

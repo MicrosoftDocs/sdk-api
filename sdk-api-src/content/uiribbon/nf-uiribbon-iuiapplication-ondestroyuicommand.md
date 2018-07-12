@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiapplication_ondestroyuicommand.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\ondestroyuicommand.htm
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IUIApplication interface [Windows Ribbon],OnDestroyUICommand method, IUIApplication.OnDestroyUICommand, IUIApplication::OnDestroyUICommand, OnDestroyUICommand, OnDestroyUICommand method [Windows Ribbon], OnDestroyUICommand method [Windows Ribbon],IUIApplication interface, scenicintent_IUIApplication_OnDestroyUICommand, uiribbon/IUIApplication::OnDestroyUICommand, windowsribbon.windowsribbon_iuiapplication_ondestroyuicommand
 ms.prod: windows
 ms.technology: windows-sdk

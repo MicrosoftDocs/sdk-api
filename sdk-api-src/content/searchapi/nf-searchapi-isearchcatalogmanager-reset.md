@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_Reset.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\reset.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISearchCatalogManager interface [search],Reset method, ISearchCatalogManager.Reset, ISearchCatalogManager::Reset, Reset, Reset method [search], Reset method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_Reset, search._search_ISearchCatalogManager_Reset, searchapi/ISearchCatalogManager::Reset
 ms.prod: windows
 ms.technology: windows-sdk

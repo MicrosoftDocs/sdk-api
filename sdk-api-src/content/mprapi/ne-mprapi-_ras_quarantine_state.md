@@ -4,10 +4,10 @@ title: "_RAS_QUARANTINE_STATE"
 author: windows-sdk-content
 description: The RAS_QUARANTINE_STATE enumerated type indicates the quarantine state of a client connection.
 old-location: rras\ras_quarantine_state.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: df0193c0-a40b-464f-8c82-08d1fe66fdf9
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RAS_QUARANTINE_STATE, RAS_QUARANTINE_STATE enumeration [RAS], RAS_QUAR_STATE_NORMAL, RAS_QUAR_STATE_NOT_CAPABLE, RAS_QUAR_STATE_PROBATION, RAS_QUAR_STATE_QUARANTINE, _RAS_QUARANTINE_STATE, mprapi/RAS_QUARANTINE_STATE, mprapi/RAS_QUAR_STATE_NORMAL, mprapi/RAS_QUAR_STATE_NOT_CAPABLE, mprapi/RAS_QUAR_STATE_PROBATION, mprapi/RAS_QUAR_STATE_QUARANTINE, rras.ras_quarantine_state
 ms.prod: windows
 ms.technology: windows-sdk

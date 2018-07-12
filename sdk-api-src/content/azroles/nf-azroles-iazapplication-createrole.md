@@ -4,10 +4,10 @@ title: IAzApplication::CreateRole
 author: windows-sdk-content
 description: Creates an IAzRole object with the specified name.
 old-location: security\iazapplication_createrole.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: abad30e8-a483-4c29-ae87-4218882e8319
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: AzApplication object [Security],CreateRole method, CreateRole, CreateRole method [Security], CreateRole method [Security],AzApplication object, CreateRole method [Security],IAzApplication interface, IAzApplication interface [Security],CreateRole method, IAzApplication.CreateRole, IAzApplication::CreateRole, azroles/IAzApplication::CreateRole, security.iazapplication_createrole
 ms.prod: windows
 ms.technology: windows-sdk

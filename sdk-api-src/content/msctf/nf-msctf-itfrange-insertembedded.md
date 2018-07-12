@@ -7,7 +7,7 @@ old-location: tsf\itfrange_insertembedded.htm
 old-project: TSF
 ms.assetid: 95b8622d-c934-4293-abb4-9eface451be5
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfRange interface [Text Services Framework],InsertEmbedded method, ITfRange.InsertEmbedded, ITfRange::InsertEmbedded, InsertEmbedded, InsertEmbedded method [Text Services Framework], InsertEmbedded method [Text Services Framework],ITfRange interface, _tsf_itfrange_insertembedded_ref, msctf/ITfRange::InsertEmbedded, tsf.itfrange_insertembedded
 ms.prod: windows
 ms.technology: windows-sdk

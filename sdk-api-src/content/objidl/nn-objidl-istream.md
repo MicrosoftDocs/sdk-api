@@ -4,10 +4,10 @@ title: IStream
 author: windows-sdk-content
 description: The IStream interface lets you read and write data to stream objects.
 old-location: stg\istream.htm
-old-project: Stg
+old-project: stg
 ms.assetid: c6f60e37-eadc-46a1-94f6-cacc23613531
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: IStream, IStream interface [Structured Storage], IStream interface [Structured Storage],described, _stg_istream, objidl/IStream, stg.istream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,10 +61,10 @@ The
 
 The methods in this interface present your object's data as a contiguous sequence of bytes that you can read or write. There are also methods for committing and reverting changes on streams that are open in transacted mode and methods for restricting access to a range of bytes in the stream.
 
-Streams can remain open for long periods of time without consuming file-system resources. The <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method is similar to a close function on a file. Once released, the stream object is no longer valid and cannot be used.
+Streams can remain open for long periods of time without consuming file-system resources. The <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method is similar to a close function on a file. Once released, the stream object is no longer valid and cannot be used.
 
 Clients of asynchronous monikers can choose between a data-pull or data-push model for driving an asynchronous 
-<a href="_com_imoniker_bindtostorage">IMoniker::BindToStorage</a> operation and for receiving asynchronous notifications. See 
+<a href="https://msdn.microsoft.com/library/ms688738(v=VS.85).aspx">IMoniker::BindToStorage</a> operation and for receiving asynchronous notifications. See 
 <a href="https://msdn.microsoft.com/library/ms688580(v=VS.85).aspx">URL Monikers</a> for more information. The following table compares the behavior of asynchronous 
 <a href="https://msdn.microsoft.com/934a90bb-5ed0-4d80-9906-352ad8586655">ISequentialStream::Read</a> and 
 <a href="https://msdn.microsoft.com/ea087c6d-8854-4a81-b37b-15ab76630973">IStream::Seek</a> calls returned in <a href="_inet_ibindstatuscallback_interface_inet_ibindstatuscallback_ondataavailable_method_cpp">IBindStatusCallback::OnDataAvailable</a> in these two download models:

@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizers_count.htm
 old-project: tablet
 ms.assetid: 4217f70e-9995-4a6d-ad13-21d3db2aca60
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkRecognizers interface, IInkRecognizers interface [Tablet PC],Count property, IInkRecognizers.Count, IInkRecognizers.get_Count, IInkRecognizers::Count, IInkRecognizers::get_Count, InkRecognizers.get_Count, get_Count, msinkaut/IInkRecognizers::Count, msinkaut/IInkRecognizers::get_Count, tablet.inkrecognizers_count
 ms.prod: windows
 ms.technology: windows-sdk

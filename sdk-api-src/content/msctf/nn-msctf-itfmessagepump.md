@@ -7,7 +7,7 @@ old-location: tsf\itfmessagepump.htm
 old-project: TSF
 ms.assetid: f7c3d039-cffc-4ce0-8579-041ba849de6d
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfMessagePump, ITfMessagePump interface [Text Services Framework], ITfMessagePump interface [Text Services Framework],described, _tsf_itfmessagepump_ref, msctf/ITfMessagePump, tsf.itfmessagepump
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IGroupPolicyObject
 author: windows-sdk-content
 description: The IGroupPolicyObject interface provides methods to create and modify a GPO directly, without using the Group Policy Object Editor.
 old-location: policy\igrouppolicyobject.htm
-old-project: Policy
+old-project: policy
 ms.assetid: b3cd31a1-c238-4eb2-8164-9c4891e6227b
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: IGroupPolicyObject, IGroupPolicyObject interface [Group Policy], IGroupPolicyObject interface [Group Policy],described, _win32_igrouppolicyobject, gpedit/IGroupPolicyObject, policy.igrouppolicyobject
 ms.prod: windows
 ms.technology: windows-sdk

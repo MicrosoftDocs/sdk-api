@@ -4,10 +4,10 @@ title: FWPM_PROVIDER_CONTEXT2_
 author: windows-sdk-content
 description: Stores the state associated with a provider context.
 old-location: fwp\fwpm_provider_context2.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: aa397a4e-07cc-4eee-8d0f-798901a5bb29
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FWPM_PROVIDER_CONTEXT2, FWPM_PROVIDER_CONTEXT2 structure [Filtering], FWPM_PROVIDER_CONTEXT2_, FWPM_PROVIDER_CONTEXT_FLAG_DOWNLEVEL, FWPM_PROVIDER_CONTEXT_FLAG_PERSISTENT, fwp.fwpm_provider_context2, fwpmtypes/FWPM_PROVIDER_CONTEXT2
 ms.prod: windows
 ms.technology: windows-sdk

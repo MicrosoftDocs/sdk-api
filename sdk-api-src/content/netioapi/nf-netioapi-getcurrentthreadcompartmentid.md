@@ -7,7 +7,7 @@ old-location: netvista\getcurrentthreadcompartmentid.htm
 old-project: netvista
 ms.assetid: 3326b407-42cd-4970-b2d1-f24442b9b1c1
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/13/2018
 ms.keywords: GetCurrentThreadCompartmentId, GetCurrentThreadCompartmentId function [Network Drivers Starting with Windows Vista], iphelper_26fb9a5f-0050-4cea-a8bb-8954d03f5e97.xml, netioapi/GetCurrentThreadCompartmentId, netvista.getcurrentthreadcompartmentid
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ISClusNode::Evict
 author: windows-sdk-content
 description: Removes a node from the cluster.
 old-location: mscs\clusnode_evict.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: e65a230e-3931-4e1a-b80d-3fd2499d330c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNode object [Failover Cluster],Evict method, ClusNode.Evict, Evict, Evict method [Failover Cluster], Evict method [Failover Cluster],ClusNode object, ISClusNode.Evict, ISClusNode::Evict, _wolf_clusnode.evict, mscs.clusnode_evict
 ms.prod: windows
 ms.technology: windows-sdk

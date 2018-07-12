@@ -7,7 +7,7 @@ old-location: inputmsg\getpointerinfohistory.htm
 old-project: InputMsg
 ms.assetid: 92173197-45e8-4ee7-8959-2f14f90c2d21
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 07/09/2018
 ms.keywords: GetPointerInfoHistory, GetPointerInfoHistory function [Input Messages and Notifications], inputmsg.getpointerinfohistory, winuser/GetPointerInfoHistory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

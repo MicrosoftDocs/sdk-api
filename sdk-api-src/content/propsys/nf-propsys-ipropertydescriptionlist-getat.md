@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescriptionList_GetAt.htm
 old-project: properties
 ms.assetid: ab4967b8-6650-49fa-b6d5-d72688b080db
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: GetAt, GetAt method [Windows Properties], GetAt method [Windows Properties],IPropertyDescriptionList interface, IPropertyDescriptionList interface [Windows Properties],GetAt method, IPropertyDescriptionList.GetAt, IPropertyDescriptionList::GetAt, _shell_IPropertyDescriptionList_GetAt, properties.IPropertyDescriptionList_GetAt, propsys/IPropertyDescriptionList::GetAt, shell.IPropertyDescriptionList_GetAt
 ms.prod: windows
 ms.technology: windows-sdk

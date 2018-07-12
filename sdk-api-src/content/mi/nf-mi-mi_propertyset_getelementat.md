@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_propertyset_getelementat.htm
 old-project: wmi_v2
 ms.assetid: 234fe69f-cba6-4ad0-b970-f90346488417
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_PropertySet_GetElementAt, MI_PropertySet_GetElementAt function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_GetElementAt, wmi_v2.mi_propertyset_getelementat
 ms.prod: windows
 ms.technology: windows-sdk

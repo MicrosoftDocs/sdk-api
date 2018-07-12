@@ -4,10 +4,10 @@ title: PCLUSAPI_DESTROY_CLUSTER
 author: windows-sdk-content
 description: Removes a cluster.
 old-location: mscs\destroycluster.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 55e601de-b427-43cd-b7f8-6cc576077e59
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_DESTROY_CLUSTER, PCLUSAPI_DESTROY_CLUSTER callback, PCLUSAPI_DESTROY_CLUSTER callback function [Failover Cluster], clusapi/PCLUSAPI_DESTROY_CLUSTER, mscs.destroycluster
 ms.prod: windows
 ms.technology: windows-sdk

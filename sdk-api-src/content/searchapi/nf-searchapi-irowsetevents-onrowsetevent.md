@@ -7,7 +7,7 @@ old-location: search\_search_IRowsetEvents_OnRowsetEvent.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\onrowsetevent.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IRowsetEvents interface [search],OnRowsetEvent method, IRowsetEvents.OnRowsetEvent, IRowsetEvents::OnRowsetEvent, OnRowsetEvent, OnRowsetEvent method [search], OnRowsetEvent method [search],IRowsetEvents interface, _search_IRowsetEvents_OnRowsetEvent, search._search_IRowsetEvents_OnRowsetEvent, searchapi/IRowsetEvents::OnRowsetEvent
 ms.prod: windows
 ms.technology: windows-sdk

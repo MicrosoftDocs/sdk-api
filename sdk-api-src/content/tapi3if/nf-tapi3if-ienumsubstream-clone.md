@@ -4,10 +4,10 @@ title: IEnumSubStream::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumsubstream_clone.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 42f5ecba-4555-410c-97b1-65eb02cd5032
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumSubStream interface, IEnumSubStream interface [TAPI 2.2],Clone method, IEnumSubStream.Clone, IEnumSubStream::Clone, _tapi3_ienumsubstream_clone, tapi3.ienumsubstream_clone, tapi3if/IEnumSubStream::Clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,8 +131,8 @@ Failed for unknown reasons.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/d9076a32-983e-48d4-b025-5fc770156df6">IEnumSubStream</a> interface returned by <b>IEnumSubStream::Clone</b>. The application must call <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/d9076a32-983e-48d4-b025-5fc770156df6">IEnumSubStream</a> interface returned by <b>IEnumSubStream::Clone</b>. The application must call <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">Release</a> on the 
 <b>IEnumSubStream</b> interface to free resources associated with it.
 
 

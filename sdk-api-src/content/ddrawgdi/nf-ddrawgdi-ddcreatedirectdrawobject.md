@@ -7,7 +7,7 @@ old-location: winprog\_dxgkernel_ddcreatedirectdrawobject.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddcreatedirectdrawobject.htm
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: DdCreateDirectDrawObject, DdCreateDirectDrawObject function [Windows API], GdiEntry1, _dxgkernel_ddcreatedirectdrawobject, ddrawgdi/DdCreateDirectDrawObject, ddrawgdi/GdiEntry1, winprog._dxgkernel_ddcreatedirectdrawobject, winui._dxgkernel_ddcreatedirectdrawobject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*LPDDSURFACEDESC2, DDSURFACEDESC2"
+req.typenames: DDPIXELFORMAT
 topic_type:
  - APIRef
  - kbSyntax

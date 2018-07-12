@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_put_localcontrol.htm
 old-project: DirectShow
 ms.assetid: 1ac75eb7-4b4c-402b-8e4e-f94488eccec1
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IAMExtTransport interface [DirectShow],put_LocalControl method, IAMExtTransport.put_LocalControl, IAMExtTransport::put_LocalControl, IAMExtTransportput_LocalControl, dshow.iamexttransport_put_localcontrol, put_LocalControl, put_LocalControl method [DirectShow], put_LocalControl method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_LocalControl
 ms.prod: windows
 ms.technology: windows-sdk

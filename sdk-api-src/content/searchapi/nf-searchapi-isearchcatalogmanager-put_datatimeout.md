@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_put_DataTimeout.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\put_datatimeout.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISearchCatalogManager interface [search],put_DataTimeout method, ISearchCatalogManager.put_DataTimeout, ISearchCatalogManager::put_DataTimeout, _search_ISearchCatalogManager_put_DataTimeout, put_DataTimeout, put_DataTimeout method [search], put_DataTimeout method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_put_DataTimeout, searchapi/ISearchCatalogManager::put_DataTimeout
 ms.prod: windows
 ms.technology: windows-sdk

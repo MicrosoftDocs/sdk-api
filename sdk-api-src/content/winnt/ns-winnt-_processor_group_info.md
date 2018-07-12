@@ -7,7 +7,7 @@ old-location: base\processor_group_info.htm
 old-project: ProcThread
 ms.assetid: 6ff9cc3c-34e7-4dc4-94cd-6ed278dfaa03
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: "*PPROCESSOR_GROUP_INFO, PPROCESSOR_GROUP_INFO, PPROCESSOR_GROUP_INFO structure pointer, PROCESSOR_GROUP_INFO, PROCESSOR_GROUP_INFO structure, _PROCESSOR_GROUP_INFO, base.processor_group_info, winnt/PPROCESSOR_GROUP_INFO, winnt/PROCESSOR_GROUP_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

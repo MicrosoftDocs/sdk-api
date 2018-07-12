@@ -7,7 +7,7 @@ old-location: com\oleuipastespecial.htm
 old-project: com
 ms.assetid: fb1335da-a863-4d15-8a8d-289d8cccd13f
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: OleUIPasteSpecial, OleUIPasteSpecial function [COM], OleUIPasteSpecialA, OleUIPasteSpecialW, _ole_OleUIPasteSpecial, com.oleuipastespecial, oledlg/OleUIPasteSpecial, oledlg/OleUIPasteSpecialA, oledlg/OleUIPasteSpecialW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d11\d3ddisassemble11trace.htm
 old-project: direct3d11
 ms.assetid: 874A83C2-99DD-47EA-AF93-C3A47B61C4E5
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: D3DDisassemble11Trace, D3DDisassemble11Trace function [Direct3D 11], d3d11shadertracing/D3DDisassemble11Trace, direct3d11.d3ddisassemble11trace
 ms.prod: windows
 ms.technology: windows-sdk

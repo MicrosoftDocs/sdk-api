@@ -7,7 +7,7 @@ old-location: winmsg\sendmessagecallback.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendmessagecallback.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: SendMessageCallback, SendMessageCallback function [Windows and Messages], SendMessageCallbackA, SendMessageCallbackW, _win32_SendMessageCallback, _win32_sendmessagecallback_cpp, winmsg.sendmessagecallback, winui._win32_sendmessagecallback, winuser/SendMessageCallback, winuser/SendMessageCallbackA, winuser/SendMessageCallbackW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

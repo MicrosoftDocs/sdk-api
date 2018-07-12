@@ -4,10 +4,10 @@ title: ICertificationAuthorities
 author: windows-sdk-content
 description: The ICertificationAuthorities interface defines the following methods and properties that manage a collection of ICertificationAuthority objects.
 old-location: security\icertificationauthorities.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 8dad280a-1fe7-4a4b-9392-eee3aa9bcde9
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICertificationAuthorities, ICertificationAuthorities interface [Security], ICertificationAuthorities interface [Security],described, certenroll/ICertificationAuthorities, security.icertificationauthorities
 ms.prod: windows
 ms.technology: windows-sdk

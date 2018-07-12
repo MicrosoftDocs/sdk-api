@@ -7,7 +7,7 @@ old-location: base\waitforinputidle.htm
 old-project: ProcThread
 ms.assetid: 2a684921-36f1-438c-895c-5bebc242635a
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: WaitForInputIdle, WaitForInputIdle function, _win32_waitforinputidle, base.waitforinputidle, winuser/WaitForInputIdle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

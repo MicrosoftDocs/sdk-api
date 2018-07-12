@@ -4,10 +4,10 @@ title: tagNMHEADERW
 author: windows-sdk-content
 description: Contains information about header control notification messages. This structure supersedes the HD_NOTIFY structure.
 old-location: controls\NMHEADER.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\header\structures\nmheader.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPNMHEADERW, 0, 1, 2, LPNMHEADER, LPNMHEADER structure pointer [Windows Controls], NMHEADER, NMHEADER structure [Windows Controls], NMHEADERA, NMHEADERW, _win32_NMHEADER, _win32_NMHEADER_cpp, commctrl/LPNMHEADER, commctrl/NMHEADER, commctrl/NMHEADERA, commctrl/NMHEADERW, controls.NMHEADER, controls._win32_NMHEADER, tagNMHEADERW"
 ms.prod: windows
 ms.technology: windows-sdk

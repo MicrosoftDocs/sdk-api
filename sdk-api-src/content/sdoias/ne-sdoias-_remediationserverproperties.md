@@ -4,10 +4,10 @@ title: "_REMEDIATIONSERVERPROPERTIES"
 author: windows-sdk-content
 description: The values of the REMEDIATIONSERVERPROPERTIES enumeration type enumerate the properties of a remediation server.
 old-location: nps\SDO_remediationserverproperties.htm
-old-project: Nps
+old-project: nps
 ms.assetid: 46f3b67d-8060-44d5-b04b-b1655ac22c3d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: PROPERTY_REMEDIATIONSERVER_ADDRESS, PROPERTY_REMEDIATIONSERVER_FRIENDLY_NAME, REMEDIATIONSERVERPROPERTIES, REMEDIATIONSERVERPROPERTIES enumeration [Network Policy Server], _REMEDIATIONSERVERPROPERTIES, nps.SDO_remediationserverproperties, sdo.remediationserverproperties, sdoias/PROPERTY_REMEDIATIONSERVER_ADDRESS, sdoias/PROPERTY_REMEDIATIONSERVER_FRIENDLY_NAME, sdoias/REMEDIATIONSERVERPROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromGUIDAsString.htm
 old-project: properties
 ms.assetid: bcc343f7-741f-4cdd-bd2f-ae4786faab0e
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: InitPropVariantFromGUIDAsString, InitPropVariantFromGUIDAsString function [Windows Properties], properties.InitPropVariantFromGUIDAsString, propvarutil/InitPropVariantFromGUIDAsString, shell.InitPropVariantFromGUIDAsString, shell_InitPropVariantFromGUIDAsString
 ms.prod: windows
 ms.technology: windows-sdk

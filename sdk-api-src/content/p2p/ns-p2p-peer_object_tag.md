@@ -4,10 +4,10 @@ title: peer_object_tag
 author: windows-sdk-content
 description: The PEER_OBJECT structure contains application-specific run-time information that can be shared with trusted contacts within a peer collaboration network.
 old-location: p2p\peer_object.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 6babceaf-9648-4226-a0ce-6f4ae831e4a7
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: "*PPEER_OBJECT, PCPEER_OBJECT, PCPEER_OBJECT structure pointer [Peer Networking], PEER_OBJECT, PEER_OBJECT structure [Peer Networking], PPEER_OBJECT, PPEER_OBJECT structure pointer [Peer Networking], p2p.peer_object, p2p/PCPEER_OBJECT, p2p/PEER_OBJECT, p2p/PPEER_OBJECT, peer_object_tag"
 ms.prod: windows
 ms.technology: windows-sdk

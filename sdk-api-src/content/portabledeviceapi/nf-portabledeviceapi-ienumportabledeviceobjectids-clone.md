@@ -7,7 +7,7 @@ old-location: wpdsdk\ienumportabledeviceobjectids_clone.htm
 old-project: wpd_sdk
 ms.assetid: 70287534-501f-480d-85ee-64049a0938fb
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.keywords: Clone, Clone method [Windows Portable Devices SDK], Clone method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Clone method, IEnumPortableDeviceObjectIDs.Clone, IEnumPortableDeviceObjectIDs::Clone, IEnumPortableDeviceObjectIDsClone, portabledeviceapi/IEnumPortableDeviceObjectIDs::Clone, wpdsdk.ienumportabledeviceobjectids_clone
 ms.prod: windows
 ms.technology: windows-sdk

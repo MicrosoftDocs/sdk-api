@@ -4,10 +4,10 @@ title: IVdsLunIscsi::QueryAssociatedTargets
 author: windows-sdk-content
 description: Returns an enumeration of currently associated iSCSI targets&#8212;the targets through which the LUN is accessible.
 old-location: base\ivdsluniscsi_queryassociatedtargets.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 4979e3c1-d966-4dfd-bb87-73c3e1252c50
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsLunIscsi interface [VDS],QueryAssociatedTargets method, IVdsLunIscsi.QueryAssociatedTargets, IVdsLunIscsi::QueryAssociatedTargets, QueryAssociatedTargets, QueryAssociatedTargets method [VDS], QueryAssociatedTargets method [VDS],IVdsLunIscsi interface, base.ivdsluniscsi_queryassociatedtargets, vds/IVdsLunIscsi::QueryAssociatedTargets, vdshwprv/IVdsLunIscsi::QueryAssociatedTargets
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ Returns an enumeration of currently associated iSCSI targets—the targets
 
 ### -param ppEnum [out]
 
-The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the iSCSI targets  as <a href="https://msdn.microsoft.com/e88d65ad-9b56-4620-a0f5-573c5e245b3e">target objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the target objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the iSCSI targets  as <a href="https://msdn.microsoft.com/e88d65ad-9b56-4620-a0f5-573c5e245b3e">target objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the target objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

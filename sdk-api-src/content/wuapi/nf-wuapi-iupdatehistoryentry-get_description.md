@@ -4,10 +4,10 @@ title: IUpdateHistoryEntry::get_Description
 author: windows-sdk-content
 description: Gets the description of an update.
 old-location: wua\iupdatehistoryentry_description.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 355d4623-a84e-4994-ad41-cb4237feeaab
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: Description property [Windows Update Agent], Description property [Windows Update Agent],IUpdateHistoryEntry interface, IUpdateHistoryEntry interface [Windows Update Agent],Description property, IUpdateHistoryEntry.Description, IUpdateHistoryEntry.get_Description, IUpdateHistoryEntry::Description, IUpdateHistoryEntry::get_Description, get_Description, wua.iupdatehistoryentry_description, wuapi/IUpdateHistoryEntry::Description, wuapi/IUpdateHistoryEntry::get_Description
 ms.prod: windows
 ms.technology: windows-sdk

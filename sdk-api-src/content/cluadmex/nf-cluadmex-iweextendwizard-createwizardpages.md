@@ -4,10 +4,10 @@ title: IWEExtendWizard::CreateWizardPages
 author: windows-sdk-content
 description: Allows you to create wizard pages and add them to Failover Cluster Administrator's New Resource Wizard or Cluster Application Wizard.
 old-location: mscs\iweextendwizard_createwizardpages.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: b52ea5a5-aa80-4f65-9bab-b60fa8363b01
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CreateWizardPages, CreateWizardPages method [Failover Cluster], CreateWizardPages method [Failover Cluster],IWEExtendWizard interface, IWEExtendWizard interface [Failover Cluster],CreateWizardPages method, IWEExtendWizard.CreateWizardPages, IWEExtendWizard::CreateWizardPages, _wolf_iweextendwizard_createwizardpages, cluadmex/IWEExtendWizard::CreateWizardPages, mscs.iweextendwizard_createwizardpages
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ Allows you to create wizard pages and add them to
 
 <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer for retrieving information 
        relating to the wizard pages to be added. By calling 
-       <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">IUnknown::QueryInterface</a> with the 
+       <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> with the 
        <i>piData</i> pointer, the following interfaces are available:
 
 <ul>
@@ -132,7 +132,7 @@ To add Wizard97 wizard pages, use the
 
 <ol>
 <li>Use <i>piData</i> to call 
-       <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> and retrieve an interface 
+       <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> and retrieve an interface 
        pointer for the <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster object</a> associated with the new 
        page. For example, if you are adding a property page for a resource, you want to retrieve a pointer to the 
        <a href="https://msdn.microsoft.com/8a3a9e9d-4666-4d9a-83e3-10d667b42d66">IGetClusterResourceInfo</a> interface. 

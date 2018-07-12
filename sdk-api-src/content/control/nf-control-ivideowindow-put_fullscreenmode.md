@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_put_fullscreenmode.htm
 old-project: DirectShow
 ms.assetid: efa1c6ed-bea5-4c25-89c2-1b6fcdad3834
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_FullScreenMode method, IVideoWindow.put_FullScreenMode, IVideoWindow::put_FullScreenMode, IVideoWindowput_FullScreenMode, control/IVideoWindow::put_FullScreenMode, dshow.ivideowindow_put_fullscreenmode, put_FullScreenMode, put_FullScreenMode method [DirectShow], put_FullScreenMode method [DirectShow],IVideoWindow interface
 ms.prod: windows
 ms.technology: windows-sdk

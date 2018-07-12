@@ -4,10 +4,10 @@ title: ITextFont::SetSize
 author: windows-sdk-content
 description: Sets the font size.
 old-location: controls\ITextFont_SetSize.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsize.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ITextFont interface [Windows Controls],SetSize method, ITextFont.SetSize, ITextFont::SetSize, SetSize, SetSize method [Windows Controls], SetSize method [Windows Controls],ITextFont interface, _win32_ITextFont_SetSize, _win32_ITextFont_SetSize_cpp, controls.ITextFont_SetSize, controls._win32_ITextFont_SetSize, tom/ITextFont::SetSize
 ms.prod: windows
 ms.technology: windows-sdk

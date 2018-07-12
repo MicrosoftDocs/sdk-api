@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclientactions.htm
 old-project: TermServ
 ms.assetid: 64b3683e-e577-48c1-a319-601e7944f68a
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: IRemoteDesktopClientActions, IRemoteDesktopClientActions interface [Remote Desktop Services], IRemoteDesktopClientActions interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClientActions, termserv.iremotedesktopclientactions
 ms.prod: windows
 ms.technology: windows-sdk

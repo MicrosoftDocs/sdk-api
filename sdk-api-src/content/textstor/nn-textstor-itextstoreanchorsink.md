@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchorsink.htm
 old-project: TSF
 ms.assetid: fb96b4fb-864f-4f32-bf7c-cf7f199e552a
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITextStoreAnchorSink, ITextStoreAnchorSink interface [Text Services Framework], ITextStoreAnchorSink interface [Text Services Framework],described, _tsf_itextstoreanchorsink_ref, textstor/ITextStoreAnchorSink, tsf.itextstoreanchorsink
 ms.prod: windows
 ms.technology: windows-sdk

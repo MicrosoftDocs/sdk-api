@@ -4,10 +4,10 @@ title: ICEnroll4::acceptFileResponse
 author: windows-sdk-content
 description: Accepts delivery of the credentials issued in response to an earlier call to createFileRequest, and it places the credentials in the appropriate store.
 old-location: security\icenroll4_acceptfileresponse.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 127863ca-843b-46c5-b375-fb0400e8b49b
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CEnroll object [Security],acceptFileResponse method, ICEnroll4 interface [Security],acceptFileResponse method, ICEnroll4.acceptFileResponse, ICEnroll4::acceptFileResponse, _xen_icenroll4_acceptfileresponse, acceptFileResponse, acceptFileResponse method [Security], acceptFileResponse method [Security],CEnroll object, acceptFileResponse method [Security],ICEnroll4 interface, security.icenroll4_acceptfileresponse, xenroll/ICEnroll4::acceptFileResponse
 ms.prod: windows
 ms.technology: windows-sdk

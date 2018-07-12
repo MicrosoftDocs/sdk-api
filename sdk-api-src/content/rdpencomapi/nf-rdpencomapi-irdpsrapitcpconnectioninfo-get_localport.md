@@ -4,10 +4,10 @@ title: IRDPSRAPITcpConnectionInfo::get_LocalPort
 author: windows-sdk-content
 description: Retrieves the local port that is being used by the sharer or by the viewer in communication.
 old-location: rdp\irdpsrapitcpconnectioninfo_localport.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: a6cfb383-3aff-4c36-87c7-010409c732a1
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 03/29/2018
 ms.keywords: IRDPSRAPITcpConnectionInfo interface [RDP],LocalPort property, IRDPSRAPITcpConnectionInfo.LocalPort, IRDPSRAPITcpConnectionInfo.get_LocalPort, IRDPSRAPITcpConnectionInfo::LocalPort, IRDPSRAPITcpConnectionInfo::get_LocalPort, LocalPort property [RDP], LocalPort property [RDP],IRDPSRAPITcpConnectionInfo interface, LocalPort property [RDP],RDPSRAPITcpConnectionInfo object, RDPSRAPITcpConnectionInfo object [RDP],LocalPort property, get_LocalPort, rdp.irdpsrapitcpconnectioninfo_localport, rdpencomapi/IRDPSRAPITcpConnectionInfo::LocalPort, rdpencomapi/IRDPSRAPITcpConnectionInfo::get_LocalPort
 ms.prod: windows
 ms.technology: windows-sdk

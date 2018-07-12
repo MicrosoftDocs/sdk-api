@@ -4,10 +4,10 @@ title: ITaskScheduler
 author: windows-sdk-content
 description: Provides the methods for scheduling tasks.
 old-location: taskschd\itaskscheduler.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 70c276e1-a45a-4a7d-aacc-3eb647675098
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: ITaskScheduler, ITaskScheduler interface [Task Scheduler], ITaskScheduler interface [Task Scheduler],described, _msb_itaskscheduler, mstask/ITaskScheduler, taskschd.itaskscheduler
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IBitsPeerCacheAdministration::ClearPeers
 author: windows-sdk-content
 description: Removes all peers from the list of peers that can serve content.
 old-location: bits\ibitspeercacheadministration_clearpeers.htm
-old-project: Bits
+old-project: bits
 ms.assetid: 79a739ed-7618-410a-a6df-fab11794d932
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ClearPeers, ClearPeers method [BITS], ClearPeers method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],ClearPeers method, IBitsPeerCacheAdministration.ClearPeers, IBitsPeerCacheAdministration::ClearPeers, bits.ibitspeercacheadministration_clearpeers, bits3_0/IBitsPeerCacheAdministration::ClearPeers
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolsettings_mergesettings.htm
 old-project: TermServ
 ms.assetid: fa05bcde-e4db-481b-88ab-57d070153517
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: IWRdsProtocolSettings interface [Remote Desktop Services],MergeSettings method, IWRdsProtocolSettings.MergeSettings, IWRdsProtocolSettings::MergeSettings, MergeSettings, MergeSettings method [Remote Desktop Services], MergeSettings method [Remote Desktop Services],IWRdsProtocolSettings interface, termserv.iwrdsprotocolsettings_mergesettings, wtsprotocol/IWRdsProtocolSettings::MergeSettings
 ms.prod: windows
 ms.technology: windows-sdk

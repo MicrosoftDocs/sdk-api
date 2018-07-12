@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getbreakonseverity.htm
 old-project: direct3d12
 ms.assetid: 255CB074-9C05-4402-9EDE-43AD8C6707E6
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: GetBreakOnSeverity, GetBreakOnSeverity method, GetBreakOnSeverity method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetBreakOnSeverity method, ID3D12InfoQueue.GetBreakOnSeverity, ID3D12InfoQueue::GetBreakOnSeverity, d3d12sdklayers/ID3D12InfoQueue::GetBreakOnSeverity, direct3d12.id3d12infoqueue_getbreakonseverity
 ms.prod: windows
 ms.technology: windows-sdk

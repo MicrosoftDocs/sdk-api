@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflection_getbitwiseinstructioncount.htm
 old-project: direct3d11
 ms.assetid: 095fc6e0-972a-43d1-9738-16d7f0846e26
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: 211dac0a-7e08-9fdc-fa7e-a5ccaf4c20ac, GetBitwiseInstructionCount, GetBitwiseInstructionCount method [Direct3D 11], GetBitwiseInstructionCount method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetBitwiseInstructionCount method, ID3D11ShaderReflection.GetBitwiseInstructionCount, ID3D11ShaderReflection::GetBitwiseInstructionCount, d3d11shader/ID3D11ShaderReflection::GetBitwiseInstructionCount, direct3d11.id3d11shaderreflection_getbitwiseinstructioncount
 ms.prod: windows
 ms.technology: windows-sdk

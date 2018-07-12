@@ -7,7 +7,7 @@ old-location: dxmath\_xmloadudecn4_xr.htm
 old-project: dxmath
 ms.assetid: C67EEA1C-C416-4E8F-A0D9-F061EF1CD119
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 06/14/2018
 ms.keywords: DirectX::PackedVector.XMLoadUDecN4_XR, XMLoadUDecN4_XR, XMLoadUDecN4_XR method [DirectX Math Support APIs], dxmath._xmloadudecn4_xr
 ms.prod: windows
 ms.technology: windows-sdk

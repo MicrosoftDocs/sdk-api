@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11debug_getswapchain.htm
 old-project: direct3d11
 ms.assetid: 99dcdddf-dec8-497e-862a-72ef66528fa5
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: GetSwapChain, GetSwapChain method [Direct3D 11], GetSwapChain method [Direct3D 11],ID3D11Debug interface, ID3D11Debug interface [Direct3D 11],GetSwapChain method, ID3D11Debug.GetSwapChain, ID3D11Debug::GetSwapChain, c20306ae-8125-a9ff-0c0f-c8368ec1b294, d3d11sdklayers/ID3D11Debug::GetSwapChain, direct3d11.id3d11debug_getswapchain
 ms.prod: windows
 ms.technology: windows-sdk

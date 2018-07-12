@@ -4,10 +4,10 @@ title: ISClusProperties::get_Modified
 author: windows-sdk-content
 description: Indicates whether any properties in the ClusProperties collection have been added or removed, or if any properties have been changed, since the last ClusProperties.Refresh or ClusProperties.SaveChanges operation.
 old-location: mscs\clusproperties_modified.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 5eaeffda-e2ce-420a-b3f5-da8dfbfdde24
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusProperties collection [Failover Cluster],Modified property, ClusProperties.Modified, ISClusProperties.get_Modified, ISClusProperties::get_Modified, Modified property [Failover Cluster], Modified property [Failover Cluster],ClusProperties collection, _wolf_clusproperties.modified, get_Modified, mscs.clusproperties_modified
 ms.prod: windows
 ms.technology: windows-sdk

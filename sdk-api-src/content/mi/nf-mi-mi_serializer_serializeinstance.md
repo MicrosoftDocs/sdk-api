@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_serializer_serializeinstance.htm
 old-project: wmi_v2
 ms.assetid: 45c5033a-b2ef-4fb6-a09e-54b3cd9fc99f
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_Serializer_SerializeInstance, MI_Serializer_SerializeInstance function [Windows Management Infrastructure (MI)], mi/MI_Serializer_SerializeInstance, wmi_v2.mi_serializer_serializeinstance
 ms.prod: windows
 ms.technology: windows-sdk

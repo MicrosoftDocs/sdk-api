@@ -4,10 +4,10 @@ title: IWdsTransportNamespaceManager
 author: windows-sdk-content
 description: Manages namespaces on a WDS transport server.
 old-location: wds\iwdstransportnamespacemanager.htm
-old-project: Wds
+old-project: wds
 ms.assetid: de5fc470-af9f-4f9f-bc17-a347dc702e36
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: IWdsTransportNamespaceManager, IWdsTransportNamespaceManager interface [Windows Deployment Services], IWdsTransportNamespaceManager interface [Windows Deployment Services],described, wds.iwdstransportnamespacemanager, wdstptmgmt/IWdsTransportNamespaceManager
 ms.prod: windows
 ms.technology: windows-sdk

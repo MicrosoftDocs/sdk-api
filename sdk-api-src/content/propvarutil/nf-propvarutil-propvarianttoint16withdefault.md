@@ -7,7 +7,7 @@ old-location: properties\PropVariantToInt16WithDefault.htm
 old-project: properties
 ms.assetid: 51221281-6e06-49f4-83c0-7330f2a6d67e
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PropVariantToInt16WithDefault, PropVariantToInt16WithDefault function [Windows Properties], properties.PropVariantToInt16WithDefault, propvarutil/PropVariantToInt16WithDefault, shell.PropVariantToInt16WithDefault, shell_PropVariantToInt16WithDefault
 ms.prod: windows
 ms.technology: windows-sdk

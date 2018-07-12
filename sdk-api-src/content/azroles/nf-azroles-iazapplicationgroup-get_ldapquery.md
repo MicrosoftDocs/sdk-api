@@ -4,10 +4,10 @@ title: IAzApplicationGroup::get_LdapQuery
 author: windows-sdk-content
 description: Sets or retrieves the Lightweight Directory Access Protocol (LDAP) query used to define membership for an LDAP query application group.
 old-location: security\iazapplicationgroup_ldapquery.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 963ee516-6dd5-419f-9186-578b7fe9c5bc
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: AzApplicationGroup object [Security],LdapQuery property, IAzApplicationGroup interface [Security],LdapQuery property, IAzApplicationGroup.LdapQuery, IAzApplicationGroup.get_LdapQuery, IAzApplicationGroup::LdapQuery, IAzApplicationGroup::get_LdapQuery, IAzApplicationGroup::put_LdapQuery, LdapQuery property [Security], LdapQuery property [Security],AzApplicationGroup object, LdapQuery property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::LdapQuery, azroles/IAzApplicationGroup::get_LdapQuery, azroles/IAzApplicationGroup::put_LdapQuery, get_LdapQuery, security.iazapplicationgroup_ldapquery
 ms.prod: windows
 ms.technology: windows-sdk

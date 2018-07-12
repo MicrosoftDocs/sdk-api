@@ -7,7 +7,7 @@ old-location: dshow\vmr9presentationinfo.htm
 old-project: DirectShow
 ms.assetid: 7e5cf0e9-1cb9-494a-9370-550328dcd85c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: VMR9PresentationInfo, VMR9PresentationInfo structure [DirectShow], VMR9PresentationInfoStructure, _VMR9PresentationInfo, dshow.vmr9presentationinfo, vmr9/VMR9PresentationInfo
 ms.prod: windows
 ms.technology: windows-sdk

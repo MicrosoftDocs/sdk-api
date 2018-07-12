@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriternetworksink_setnetworkprotocol.htm
 old-project: wmformat
 ms.assetid: 8ad6b2a4-b50b-45a0-8aa0-cabfc1e59bb7
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: IWMWriterNetworkSink interface [windows Media Format],SetNetworkProtocol method, IWMWriterNetworkSink.SetNetworkProtocol, IWMWriterNetworkSink::SetNetworkProtocol, IWMWriterNetworkSinkSetNetworkProtocol, SetNetworkProtocol, SetNetworkProtocol method [windows Media Format], SetNetworkProtocol method [windows Media Format],IWMWriterNetworkSink interface, wmformat.iwmwriternetworksink_setnetworkprotocol, wmsdkidl/IWMWriterNetworkSink::SetNetworkProtocol
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: imapi\iredbookdiscmaster.htm
 old-project: imapi
 ms.assetid: ea531b22-869a-400e-801f-00bb85ebaac2
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IRedbookDiscMaster, IRedbookDiscMaster interface [IMAPI], IRedbookDiscMaster interface [IMAPI],described, _win32_iredbookdiscmaster, base.iredbookdiscmaster, imapi.iredbookdiscmaster, imapi/IRedbookDiscMaster
 ms.prod: windows
 ms.technology: windows-sdk

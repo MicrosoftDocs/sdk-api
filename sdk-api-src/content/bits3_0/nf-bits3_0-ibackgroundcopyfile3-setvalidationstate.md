@@ -4,10 +4,10 @@ title: IBackgroundCopyFile3::SetValidationState
 author: windows-sdk-content
 description: Sets the validation state of this file.
 old-location: bits\ibackgroundcopyfile3_setvalidationstate.htm
-old-project: Bits
+old-project: bits
 ms.assetid: c032ce32-07a4-4ab2-ae57-f9d526d1371a
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IBackgroundCopyFile3 interface [BITS],SetValidationState method, IBackgroundCopyFile3.SetValidationState, IBackgroundCopyFile3::SetValidationState, SetValidationState, SetValidationState method [BITS], SetValidationState method [BITS],IBackgroundCopyFile3 interface, bits.ibackgroundcopyfile3_setvalidationstate, bits3_0/IBackgroundCopyFile3::SetValidationState
 ms.prod: windows
 ms.technology: windows-sdk

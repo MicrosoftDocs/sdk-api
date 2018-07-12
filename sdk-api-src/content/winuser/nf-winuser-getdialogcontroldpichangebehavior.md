@@ -7,7 +7,7 @@ old-location: hidpi\getdialogresizebehavior.htm
 old-project: hidpi
 ms.assetid: 1651353F-5823-41B8-AE52-016AEBA6C4F0
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 03/30/2018
 ms.keywords: GetDialogControlDpiChangeBehavior, GetDialogControlDpiChangeBehavior function [High DPI], hidpi.getdialogresizebehavior, winuser/GetDialogControlDpiChangeBehavior
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

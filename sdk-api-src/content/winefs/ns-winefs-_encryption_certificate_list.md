@@ -4,10 +4,10 @@ title: "_ENCRYPTION_CERTIFICATE_LIST"
 author: windows-sdk-content
 description: Contains a list of certificates.
 old-location: fs\encryption_certificate_list_str.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: e1914b96-2fba-49ed-9dd2-464659323eda
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: "*PENCRYPTION_CERTIFICATE_LIST, ENCRYPTION_CERTIFICATE_LIST, ENCRYPTION_CERTIFICATE_LIST structure [Files], PENCRYPTION_CERTIFICATE_LIST, PENCRYPTION_CERTIFICATE_LIST structure pointer [Files], _ENCRYPTION_CERTIFICATE_LIST, _win32_encryption_certificate_list_str, base.encryption_certificate_list_str, fs.encryption_certificate_list_str, winefs/ENCRYPTION_CERTIFICATE_LIST, winefs/PENCRYPTION_CERTIFICATE_LIST"
 ms.prod: windows
 ms.technology: windows-sdk

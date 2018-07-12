@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation_setobjectname.htm
 old-project: WMDM
 ms.assetid: d15b9cb0-6984-401e-9f81-97d0aae17b76
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IWMDMOperation interface [windows Media Device Manager],SetObjectName method, IWMDMOperation.SetObjectName, IWMDMOperation::SetObjectName, IWMDMOperationSetObjectName, SetObjectName, SetObjectName method [windows Media Device Manager], SetObjectName method [windows Media Device Manager],IWMDMOperation interface, mswmdm/IWMDMOperation::SetObjectName, wmdm.iwmdmoperation_setobjectname
 ms.prod: windows
 ms.technology: windows-sdk

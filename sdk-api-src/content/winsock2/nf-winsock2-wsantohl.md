@@ -7,7 +7,7 @@ old-location: winsock\wsantohl_2.htm
 old-project: WinSock
 ms.assetid: 7e3b42eb-3b93-459f-828a-c19e277882c7
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: WSANtohl, WSANtohl function [Winsock], _win32_wsantohl_2, winsock.wsantohl_2, winsock2/WSANtohl
 ms.prod: windows
 ms.technology: windows-sdk

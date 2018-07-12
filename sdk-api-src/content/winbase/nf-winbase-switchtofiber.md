@@ -7,7 +7,7 @@ old-location: base\switchtofiber.htm
 old-project: ProcThread
 ms.assetid: 020a8c97-848d-4b33-9cfb-77e5bff644fd
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: SwitchToFiber, SwitchToFiber function, _win32_switchtofiber, base.switchtofiber, winbase/SwitchToFiber
 ms.prod: windows
 ms.technology: windows-sdk

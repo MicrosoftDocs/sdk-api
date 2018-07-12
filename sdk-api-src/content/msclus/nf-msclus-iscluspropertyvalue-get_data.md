@@ -4,10 +4,10 @@ title: ISClusPropertyValue::get_Data
 author: windows-sdk-content
 description: ClusPropertyValueData collection containing all of the data values associated with a property value.
 old-location: mscs\cluspropertyvalue_data.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 5305541c-ad28-4bdc-92e6-519ba5ab21d5
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusPropertyValue object [Failover Cluster],Data property, ClusPropertyValue.Data, Data property [Failover Cluster], Data property [Failover Cluster],ClusPropertyValue object, ISClusPropertyValue.get_Data, ISClusPropertyValue::get_Data, _wolf_cluspropertyvalue.data, get_Data, mscs.cluspropertyvalue_data
 ms.prod: windows
 ms.technology: windows-sdk

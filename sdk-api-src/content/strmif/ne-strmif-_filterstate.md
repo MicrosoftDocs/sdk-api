@@ -7,7 +7,7 @@ old-location: dshow\filter_state.htm
 old-project: DirectShow
 ms.assetid: 41f88abc-57d1-4f80-a099-d17e624ab8a6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: FILTER_STATE, FILTER_STATE , FILTER_STATE enumeration [DirectShow], FILTER_STATEEnumeration, State_Paused, State_Running, State_Stopped, _FilterState, dshow.filter_state, strmif/FILTER_STATE, strmif/State_Paused, strmif/State_Running, strmif/State_Stopped
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PWINBIO_IDENTIFY_CALLBACK
 author: windows-sdk-content
 description: Returns results from the asynchronous WinBioIdentifyWithCallback function.
 old-location: secbiomet\pwinbio_identify_callback.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 3AFB7F70-08F3-4861-B341-9D503FE59244
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: PWINBIO_IDENTIFY_CALLBACK, PWINBIO_IDENTIFY_CALLBACK callback, PWINBIO_IDENTIFY_CALLBACK callback function [Windows Biometric Framework API], secbiomet.pwinbio_identify_callback, winbio/PWINBIO_IDENTIFY_CALLBACK
 ms.prod: windows
 ms.technology: windows-sdk

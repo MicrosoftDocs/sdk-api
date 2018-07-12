@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_setpredication.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_setpredication.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 20a67636-3d02-6716-b38e-39b2f601230b, ID3D10Device interface [Direct3D 10],SetPredication method, ID3D10Device.SetPredication, ID3D10Device::SetPredication, SetPredication, SetPredication method [Direct3D 10], SetPredication method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::SetPredication, direct3d10.id3d10device_setpredication
 ms.prod: windows
 ms.technology: windows-sdk

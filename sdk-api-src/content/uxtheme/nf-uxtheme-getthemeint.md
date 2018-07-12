@@ -4,10 +4,10 @@ title: GetThemeInt function
 author: windows-sdk-content
 description: Retrieves the value of an int property.
 old-location: controls\GetThemeInt.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeint.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: GetThemeInt, GetThemeInt function [Windows Controls], controls.GetThemeInt, controls.inet_GetThemeInt, inet_GetThemeInt, inet_GetThemeInt_cpp, uxtheme/GetThemeInt
 ms.prod: windows
 ms.technology: windows-sdk

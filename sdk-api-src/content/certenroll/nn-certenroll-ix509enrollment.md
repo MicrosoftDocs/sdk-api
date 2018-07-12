@@ -4,10 +4,10 @@ title: IX509Enrollment
 author: windows-sdk-content
 description: Represents the top level object and enables you to enroll in a certificate hierarchy and install a certificate response.
 old-location: security\ix509enrollment.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 37f1dd3b-bbe9-40ab-87c9-2405d97f5541
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX509Enrollment, IX509Enrollment interface [Security], IX509Enrollment interface [Security],described, certenroll/IX509Enrollment, security.ix509enrollment
 ms.prod: windows
 ms.technology: windows-sdk

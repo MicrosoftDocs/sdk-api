@@ -7,7 +7,7 @@ old-location: xps\iprintdocumentpackagestatusevent_packagestatusupdated.htm
 old-project: printdocs
 ms.assetid: A672E554-B117-475C-A01E-9FD4EA31621E
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging],PackageStatusUpdated method, IPrintDocumentPackageStatusEvent.PackageStatusUpdated, IPrintDocumentPackageStatusEvent::PackageStatusUpdated, PackageStatusUpdated, PackageStatusUpdated method [XPS Documents and Packaging], PackageStatusUpdated method [XPS Documents and Packaging],IPrintDocumentPackageStatusEvent interface, documenttarget/IPrintDocumentPackageStatusEvent::PackageStatusUpdated, xps.iprintdocumentpackagestatusevent_packagestatusupdated
 ms.prod: windows
 ms.technology: windows-sdk

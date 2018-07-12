@@ -7,7 +7,7 @@ old-location: security\sspiprepareforcredwrite.htm
 old-project: SecAuthN
 ms.assetid: 4db92042-38f2-42c2-9c94-b24e0eaafdf9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: SspiPrepareForCredWrite, SspiPrepareForCredWrite function [Security], security.sspiprepareforcredwrite, sspi/SspiPrepareForCredWrite
 ms.prod: windows
 ms.technology: windows-sdk

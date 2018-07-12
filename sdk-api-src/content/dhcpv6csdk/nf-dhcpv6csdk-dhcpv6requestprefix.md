@@ -4,10 +4,10 @@ title: Dhcpv6RequestPrefix function
 author: windows-sdk-content
 description: Requests a specific prefix.
 old-location: dhcp\dhcpv6requestprefix.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 60f18e54-a0a4-4fbe-a416-16b924ce4616
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: Dhcpv6RequestPrefix, Dhcpv6RequestPrefix function [DHCP], dhcp.dhcpv6requestprefix, dhcpv6csdk/Dhcpv6RequestPrefix
 ms.prod: windows
 ms.technology: windows-sdk

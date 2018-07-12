@@ -4,10 +4,10 @@ title: DevicePowerClose function
 author: windows-sdk-content
 description: Frees all nodes in the device list and destroys the device list.
 old-location: base\devicepowerclose.htm
-old-project: Power
+old-project: power
 ms.assetid: 60f871bc-08b7-41d1-ba37-688ab68fb9b3
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: DevicePowerClose, DevicePowerClose function, base.devicepowerclose, powrprof/DevicePowerClose
 ms.prod: windows
 ms.technology: windows-sdk

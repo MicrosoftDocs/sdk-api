@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlemanifestreader_getstream.htm
 old-project: appxpkg
 ms.assetid: DC276734-3837-466E-ADBA-60B68356504E
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: GetStream, GetStream method [App packaging and management], GetStream method [App packaging and management],IAppxBundleManifestReader interface, IAppxBundleManifestReader interface [App packaging and management],GetStream method, IAppxBundleManifestReader.GetStream, IAppxBundleManifestReader::GetStream, appxpackaging/IAppxBundleManifestReader::GetStream, appxpkg.iappxbundlemanifestreader_getstream
 ms.prod: windows
 ms.technology: windows-sdk

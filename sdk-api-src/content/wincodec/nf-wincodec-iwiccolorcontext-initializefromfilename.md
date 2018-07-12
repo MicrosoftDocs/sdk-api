@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccolorcontext_initializefromfilename.htm
 old-project: wic
 ms.assetid: df1f841b-6b01-42d5-967d-47ec402f9b8c
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICColorContext interface [Windows Imaging Component],InitializeFromFilename method, IWICColorContext.InitializeFromFilename, IWICColorContext::InitializeFromFilename, InitializeFromFilename, InitializeFromFilename method [Windows Imaging Component], InitializeFromFilename method [Windows Imaging Component],IWICColorContext interface, _wic_codec_iwiccolorcontext_initializefromfilename, wic._wic_codec_iwiccolorcontext_initializefromfilename, wincodec/IWICColorContext::InitializeFromFilename
 ms.prod: windows
 ms.technology: windows-sdk

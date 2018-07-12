@@ -4,10 +4,10 @@ title: ListView_SubItemHitTestEx macro
 author: windows-sdk-content
 description: Determines which list-view item or subitem is located at a given position. You can use this macro or send the LVM_SUBITEMHITTEST message explicitly.
 old-location: controls\ListView_SubItemHitTestEx.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_subitemhittestex.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListView_SubItemHitTestEx, ListView_SubItemHitTestEx macro [Windows Controls], _shell_ListView_SubItemHitTestEx, _shell_ListView_SubItemHitTestEx_cpp, commctrl/ListView_SubItemHitTestEx, controls.ListView_SubItemHitTestEx, controls._shell_ListView_SubItemHitTestEx
 ms.prod: windows
 ms.technology: windows-sdk

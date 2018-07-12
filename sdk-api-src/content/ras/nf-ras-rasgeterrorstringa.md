@@ -4,10 +4,10 @@ title: RasGetErrorStringA function
 author: windows-sdk-content
 description: The RasGetErrorString function obtains an error message string for a specified RAS error value.
 old-location: rras\rasgeterrorstring.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 4d308dd8-e623-467b-836e-faace19460f1
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RasGetErrorString, RasGetErrorString function [RAS], RasGetErrorStringA, RasGetErrorStringW, _ras_rasgeterrorstring, ras/RasGetErrorString, ras/RasGetErrorStringA, ras/RasGetErrorStringW, rras.rasgeterrorstring
 ms.prod: windows
 ms.technology: windows-sdk

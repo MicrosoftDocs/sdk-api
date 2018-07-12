@@ -4,10 +4,10 @@ title: "_DEV_BROADCAST_VOLUME"
 author: windows-sdk-content
 description: Contains information about a logical volume.
 old-location: base\dev_broadcast_volume_str.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 8ce644d9-1e95-458e-924f-67bd37831048
 ms.author: windowssdkdev
-ms.date: 04/03/2018
+ms.date: 06/29/2018
 ms.keywords: DBTF_MEDIA, DBTF_NET, DEV_BROADCAST_VOLUME, DEV_BROADCAST_VOLUME structure, PDEV_BROADCAST_VOLUME, PDEV_BROADCAST_VOLUME structure pointer, _DEV_BROADCAST_VOLUME, _win32_dev_broadcast_volume_str, base.dev_broadcast_volume_str, dbt/DEV_BROADCAST_VOLUME, dbt/PDEV_BROADCAST_VOLUME
 ms.prod: windows
 ms.technology: windows-sdk

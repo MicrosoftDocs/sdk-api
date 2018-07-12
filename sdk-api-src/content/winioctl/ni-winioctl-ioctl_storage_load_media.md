@@ -4,10 +4,10 @@ title: IOCTL_STORAGE_LOAD_MEDIA
 author: windows-sdk-content
 description: Loads media into a device.
 old-location: base\ioctl_storage_load_media.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: e5b370e9-03e8-4ab8-ba3c-4677cecb3bef
 ms.author: windowssdkdev
-ms.date: 04/03/2018
+ms.date: 06/29/2018
 ms.keywords: IOCTL_STORAGE_LOAD_MEDIA, IOCTL_STORAGE_LOAD_MEDIA control, IOCTL_STORAGE_LOAD_MEDIA control code, _win32_ioctl_storage_load_media, base.ioctl_storage_load_media, winioctl/IOCTL_STORAGE_LOAD_MEDIA
 ms.prod: windows
 ms.technology: windows-sdk

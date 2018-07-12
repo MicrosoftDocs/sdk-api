@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgr2_isthreadfocus.htm
 old-project: TSF
 ms.assetid: 8440BEE8-865F-4403-8558-C77638290A7F
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfThreadMgr2 interface [Text Services Framework],IsThreadFocus method, ITfThreadMgr2.IsThreadFocus, ITfThreadMgr2::IsThreadFocus, IsThreadFocus, IsThreadFocus method [Text Services Framework], IsThreadFocus method [Text Services Framework],ITfThreadMgr2 interface, msctf/ITfThreadMgr2::IsThreadFocus, tsf.itfthreadmgr2_isthreadfocus
 ms.prod: windows
 ms.technology: windows-sdk

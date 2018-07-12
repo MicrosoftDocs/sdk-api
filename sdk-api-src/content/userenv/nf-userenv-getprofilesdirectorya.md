@@ -7,7 +7,7 @@ old-location: shell\GetProfilesDirectory.htm
 old-project: shell
 ms.assetid: e21411fa-f7e1-4944-93ce-7d9314d79fbf
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: GetProfilesDirectory, GetProfilesDirectory function [Windows Shell], GetProfilesDirectoryA, GetProfilesDirectoryW, _shell_GetProfilesDirectory, shell.GetProfilesDirectory, userenv/GetProfilesDirectory, userenv/GetProfilesDirectoryA, userenv/GetProfilesDirectoryW
 ms.prod: windows
 ms.technology: windows-sdk

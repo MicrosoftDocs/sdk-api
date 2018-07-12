@@ -4,10 +4,10 @@ title: ISClusPartition::get_FileSystem
 author: windows-sdk-content
 description: Name of the file system residing on a storage class resource partition (&#0034;FAT&#0034;, &#0034;NTFS&#0034;, and so on).
 old-location: mscs\cluspartition_filesystem.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 2cfc3851-23ee-4614-b581-e819be3f5de3
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusPartition object [Failover Cluster],FileSystem property, ClusPartition.FileSystem, FileSystem property [Failover Cluster], FileSystem property [Failover Cluster],ClusPartition object, ISClusPartition.get_FileSystem, ISClusPartition::get_FileSystem, _wolf_cluspartition.filesystem, get_FileSystem, mscs.cluspartition_filesystem
 ms.prod: windows
 ms.technology: windows-sdk

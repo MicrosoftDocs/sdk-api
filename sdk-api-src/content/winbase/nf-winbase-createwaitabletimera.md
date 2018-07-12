@@ -4,10 +4,10 @@ title: CreateWaitableTimerA function
 author: windows-sdk-content
 description: Creates or opens a waitable timer object.
 old-location: base\createwaitabletimer.htm
-old-project: Sync
+old-project: sync
 ms.assetid: 41c915c4-424d-43dd-89d9-a6b4fbee701c
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: CreateWaitableTimer, CreateWaitableTimer function, CreateWaitableTimerA, CreateWaitableTimerW, _win32_createwaitabletimer, base.createwaitabletimer, winbase/CreateWaitableTimer, winbase/CreateWaitableTimerA, winbase/CreateWaitableTimerW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xps\ixpsompage_setdictionarylocal.htm
 old-project: printdocs
 ms.assetid: d950a21a-0afe-410a-9f2c-32847c35471e
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetDictionaryLocal method, IXpsOMPage.SetDictionaryLocal, IXpsOMPage::SetDictionaryLocal, SetDictionaryLocal, SetDictionaryLocal method [XPS Documents and Packaging], SetDictionaryLocal method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setdictionarylocal, xpsobjectmodel/IXpsOMPage::SetDictionaryLocal
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CLRES_V1_FUNCTION_TABLE macro
 author: windows-sdk-content
 description: Initializes a function table for version 1.0 of the Resource API.
 old-location: mscs\clres_v1_function_table.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 2c390cbb-3bff-4850-9496-8991c112c233
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CLRES_V1_FUNCTION_TABLE, CLRES_V1_FUNCTION_TABLE macro [Failover Cluster], _wolf_clres_v1_function_table, mscs.clres_v1_function_table, resapi/CLRES_V1_FUNCTION_TABLE
 ms.prod: windows
 ms.technology: windows-sdk

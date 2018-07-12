@@ -7,7 +7,7 @@ old-location: termserv\itssbprovisioning_patchvirtualmachines.htm
 old-project: TermServ
 ms.assetid: 99afcba2-5567-47fa-9752-80394f145176
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: ITsSbProvisioning interface [Remote Desktop Services],PatchVirtualMachines method, ITsSbProvisioning.PatchVirtualMachines, ITsSbProvisioning::PatchVirtualMachines, PatchVirtualMachines, PatchVirtualMachines method [Remote Desktop Services], PatchVirtualMachines method [Remote Desktop Services],ITsSbProvisioning interface, sbtsv/ITsSbProvisioning::PatchVirtualMachines, termserv.itssbprovisioning_patchvirtualmachines
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectconnectionsinfo_getoutputconnectorinfo.
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectionsinfo\getoutputconnectorinfo.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: GetOutputConnectorInfo, GetOutputConnectorInfo method [WPF Bitmap Effects], GetOutputConnectorInfo method [WPF Bitmap Effects],IMILBitmapEffectConnectionsInfo interface, IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects],GetOutputConnectorInfo method, IMILBitmapEffectConnectionsInfo.GetOutputConnectorInfo, IMILBitmapEffectConnectionsInfo::GetOutputConnectorInfo, _wibe_imilbitmapeffectconnectionsinfo_getoutputconnectorinfo, mileffects/IMILBitmapEffectConnectionsInfo::GetOutputConnectorInfo, wibe._wibe_imilbitmapeffectconnectionsinfo_getoutputconnectorinfo
 ms.prod: windows
 ms.technology: windows-sdk

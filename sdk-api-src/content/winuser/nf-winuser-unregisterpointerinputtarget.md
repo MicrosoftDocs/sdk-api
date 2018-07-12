@@ -7,7 +7,7 @@ old-location: winauto\unregisterpointerinputtarget.htm
 old-project: WinAuto
 ms.assetid: 75faea24-91cd-448b-b67a-09fe530f1800
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: UnregisterPointerInputTarget, UnregisterPointerInputTarget function [Windows Accessibility], inputmsg.getactivepointers, winauto.unregisterpointerinputtarget, winuser/UnregisterPointerInputTarget
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

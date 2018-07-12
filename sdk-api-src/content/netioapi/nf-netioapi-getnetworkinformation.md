@@ -7,7 +7,7 @@ old-location: netvista\getnetworkinformation.htm
 old-project: netvista
 ms.assetid: 5c28b606-a8ab-48de-8cfb-97fa877c52c8
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/13/2018
 ms.keywords: GetNetworkInformation, GetNetworkInformation function [Network Drivers Starting with Windows Vista], iphelper_a4a29ea4-0581-4c98-a294-6042db2937c3.xml, netioapi/GetNetworkInformation, netvista.getnetworkinformation
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_GetFileName.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getfilename.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetFileName, GetFileName method [search], GetFileName method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetFileName method, IUrlAccessor.GetFileName, IUrlAccessor::GetFileName, _search_IUrlAccessor_GetFileName, search._search_IUrlAccessor_GetFileName, searchapi/IUrlAccessor::GetFileName
 ms.prod: windows
 ms.technology: windows-sdk

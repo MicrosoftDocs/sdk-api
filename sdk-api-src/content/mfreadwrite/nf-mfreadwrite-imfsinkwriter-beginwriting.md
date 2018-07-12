@@ -7,7 +7,7 @@ old-location: mf\imfsinkwriter_beginwriting.htm
 old-project: medfound
 ms.assetid: 32252658-662e-4d2f-a5fe-34f24ce60094
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: BeginWriting, BeginWriting method [Media Foundation], BeginWriting method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],BeginWriting method, IMFSinkWriter.BeginWriting, IMFSinkWriter::BeginWriting, mf.imfsinkwriter_beginwriting, mfreadwrite/IMFSinkWriter::BeginWriting
 ms.prod: windows
 ms.technology: windows-sdk

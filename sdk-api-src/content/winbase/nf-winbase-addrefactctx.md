@@ -4,10 +4,10 @@ title: AddRefActCtx function
 author: windows-sdk-content
 description: The AddRefActCtx function increments the reference count of the specified activation context.
 old-location: setup\addrefactctx.htm
-old-project: SbsCs
+old-project: sbscs
 ms.assetid: 6812a3f4-53e4-4b60-be04-711ab4c37d12
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: AddRefActCtx, AddRefActCtx function [Side-by-side Assemblies], _win32_addrefactctx, setup.addrefactctx, winbase/AddRefActCtx
 ms.prod: windows
 ms.technology: windows-sdk

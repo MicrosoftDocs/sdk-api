@@ -4,10 +4,10 @@ title: NetRequestProvisioningPackageInstall function
 author: windows-sdk-content
 description: Executes locally on a machine to modify a Windows operating system image mounted on a volume.
 old-location: netmgmt\netrequestprovisioningpackageinstall.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: 107ED0F7-8DDD-4C18-8C34-3A67F771FA62
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: NETSETUP_PROVISION_ONLINE_CALLER, NetRequestProvisioningPackageInstall, NetRequestProvisioningPackageInstall function [Network Management], lmjoin/NetRequestProvisioningPackageInstall, netmgmt.netrequestprovisioningpackageinstall
 ms.prod: windows
 ms.technology: windows-sdk

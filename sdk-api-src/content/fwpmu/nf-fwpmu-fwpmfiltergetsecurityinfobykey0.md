@@ -4,10 +4,10 @@ title: FwpmFilterGetSecurityInfoByKey0 function
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for a filter object.
 old-location: fwp\fwpmfiltergetsecurityinfobykey0_func.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 9d35f4ca-b268-45de-b252-527b3a6fbd93
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FwpmFilterGetSecurityInfoByKey0, FwpmFilterGetSecurityInfoByKey0 function [Filtering], fwp.fwpmfiltergetsecurityinfobykey0_func, fwpmu/FwpmFilterGetSecurityInfoByKey0
 ms.prod: windows
 ms.technology: windows-sdk

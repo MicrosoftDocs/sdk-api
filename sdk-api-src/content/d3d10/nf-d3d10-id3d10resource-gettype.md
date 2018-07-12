@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10resource_gettype.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10resource_gettype.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: GetType, GetType method [Direct3D 10], GetType method [Direct3D 10],ID3D10Resource interface, ID3D10Resource interface [Direct3D 10],GetType method, ID3D10Resource.GetType, ID3D10Resource::GetType, bf044bba-84f5-5192-908b-5b26b497c5e7, d3d10/ID3D10Resource::GetType, direct3d10.id3d10resource_gettype
 ms.prod: windows
 ms.technology: windows-sdk

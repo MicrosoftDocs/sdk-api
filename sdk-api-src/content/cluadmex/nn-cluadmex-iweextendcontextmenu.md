@@ -4,10 +4,10 @@ title: IWEExtendContextMenu
 author: windows-sdk-content
 description: Implement the IWEExtendContextMenu interface to extend a Failover Cluster Administrator context menu for a cluster object.
 old-location: mscs\iweextendcontextmenu.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: a41adde0-fc4f-4997-bb56-5fa43ba62fdb
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IWEExtendContextMenu, IWEExtendContextMenu interface [Failover Cluster], IWEExtendContextMenu interface [Failover Cluster],described, _wolf_iweextendcontextmenu, cluadmex/IWEExtendContextMenu, mscs.iweextendcontextmenu
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: cos\imtseventinfo_get_displayname.htm
 old-project: cossdk
 ms.assetid: d3d8ed52-0ad3-4073-877b-071bac90c71f
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: IMtsEventInfo interface [COM+],get_DisplayName method, IMtsEventInfo.get_DisplayName, IMtsEventInfo::get_DisplayName, _dtc_IMtsEventInfo_DisplayName, comsvcs/IMtsEventInfo::get_DisplayName, cos.imtseventinfo_get_displayname, get_DisplayName, get_DisplayName method [COM+], get_DisplayName method [COM+],IMtsEventInfo interface
 ms.prod: windows
 ms.technology: windows-sdk

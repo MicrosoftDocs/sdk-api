@@ -7,7 +7,7 @@ old-location: shell\ILGetNext.htm
 old-project: shell
 ms.assetid: 0b58cc30-fe1a-487c-8f24-f1de54f7730f
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: ILGetNext, ILGetNext function [Windows Shell], _win32_ILGetNext, shell.ILGetNext, shlobj_core/ILGetNext
 ms.prod: windows
 ms.technology: windows-sdk

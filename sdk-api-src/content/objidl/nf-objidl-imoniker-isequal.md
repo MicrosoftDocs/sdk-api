@@ -7,7 +7,7 @@ old-location: com\imoniker_isequal.htm
 old-project: com
 ms.assetid: 0092e93e-d87d-4b3e-b8e1-40eeaf04c43b
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IMoniker interface [COM],IsEqual method, IMoniker.IsEqual, IMoniker::IsEqual, IsEqual, IsEqual method [COM], IsEqual method [COM],IMoniker interface, _com_imoniker_isequal, com.imoniker_isequal, objidl/IMoniker::IsEqual
 ms.prod: windows
 ms.technology: windows-sdk

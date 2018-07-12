@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterpreprocess_setnumpreprocessingpasses.htm
 old-project: wmformat
 ms.assetid: 81ff36e1-cce5-4c99-bf3a-ee2f1050c026
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: IWMWriterPreprocess interface [windows Media Format],SetNumPreprocessingPasses method, IWMWriterPreprocess.SetNumPreprocessingPasses, IWMWriterPreprocess::SetNumPreprocessingPasses, IWMWriterPreprocessSetNumPreprocessingPasses, SetNumPreprocessingPasses, SetNumPreprocessingPasses method [windows Media Format], SetNumPreprocessingPasses method [windows Media Format],IWMWriterPreprocess interface, wmformat.iwmwriterpreprocess_setnumpreprocessingpasses, wmsdkidl/IWMWriterPreprocess::SetNumPreprocessingPasses
 ms.prod: windows
 ms.technology: windows-sdk

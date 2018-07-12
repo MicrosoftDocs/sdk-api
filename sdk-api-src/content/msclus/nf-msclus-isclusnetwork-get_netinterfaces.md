@@ -4,10 +4,10 @@ title: ISClusNetwork::get_NetInterfaces
 author: windows-sdk-content
 description: ClusNetworkNetInterfaces collection providing access to the network interfaces in the network.
 old-location: mscs\clusnetwork_netinterfaces.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: dbb51326-42a1-4b93-b7ab-a9b645c1ef8f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNetwork object [Failover Cluster],NetInterfaces property, ClusNetwork.NetInterfaces, ISClusNetwork.get_NetInterfaces, ISClusNetwork::get_NetInterfaces, NetInterfaces property [Failover Cluster], NetInterfaces property [Failover Cluster],ClusNetwork object, _wolf_clusnetwork.netinterfaces, get_NetInterfaces, mscs.clusnetwork_netinterfaces
 ms.prod: windows
 ms.technology: windows-sdk

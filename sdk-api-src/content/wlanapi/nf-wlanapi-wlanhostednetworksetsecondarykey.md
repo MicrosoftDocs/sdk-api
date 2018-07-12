@@ -7,7 +7,7 @@ old-location: nwifi\wlanhostednetworksetsecondarykey.htm
 old-project: NativeWiFi
 ms.assetid: 385148fd-b5cd-4221-be25-077f484e93e9
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: WlanHostedNetworkSetSecondaryKey, WlanHostedNetworkSetSecondaryKey function [NativeWIFI], nwifi.wlanhostednetworksetsecondarykey, wlanapi/WlanHostedNetworkSetSecondaryKey
 ms.prod: windows
 ms.technology: windows-sdk

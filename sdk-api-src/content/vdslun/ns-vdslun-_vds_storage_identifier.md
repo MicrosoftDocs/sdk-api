@@ -4,10 +4,10 @@ title: "_VDS_STORAGE_IDENTIFIER"
 author: windows-sdk-content
 description: Defines a storage device using a particular code set and type.
 old-location: base\vds_storage_identifier.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 8cc8b6d9-e189-44af-9f2b-2222b2eb0749
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: VDS_STORAGE_IDENTIFIER, VDS_STORAGE_IDENTIFIER structure [VDS], _VDS_STORAGE_IDENTIFIER, base.vds_storage_identifier, vdslun/_VDS_STORAGE_IDENTIFIER
 ms.prod: windows
 ms.technology: windows-sdk

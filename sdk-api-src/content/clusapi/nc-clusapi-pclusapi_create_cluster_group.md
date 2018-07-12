@@ -4,10 +4,10 @@ title: PCLUSAPI_CREATE_CLUSTER_GROUP
 author: windows-sdk-content
 description: Adds a group to a cluster and returns a handle to the newly added group.
 old-location: mscs\createclustergroup.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 7011640e-87d0-4f2b-971c-9e86c77db13e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CREATE_CLUSTER_GROUP, PCLUSAPI_CREATE_CLUSTER_GROUP callback, PCLUSAPI_CREATE_CLUSTER_GROUP callback function [Failover Cluster], _wolf_createclustergroup, clusapi/PCLUSAPI_CREATE_CLUSTER_GROUP, mscs.createclustergroup
 ms.prod: windows
 ms.technology: windows-sdk

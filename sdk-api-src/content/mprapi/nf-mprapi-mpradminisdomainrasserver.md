@@ -4,10 +4,10 @@ title: MprAdminIsDomainRasServer function
 author: windows-sdk-content
 description: The MprAdminIsDomainRasServer function returns information regarding whether the given machine is registered as the remote access server in the domain.
 old-location: rras\mpradminisdomainrasserver.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 5d9e09f9-3bb7-4877-b9f7-ce045fb30c8f
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprAdminIsDomainRasServer, MprAdminIsDomainRasServer function [RAS], mprapi/MprAdminIsDomainRasServer, rras.mpradminisdomainrasserver
 ms.prod: windows
 ms.technology: windows-sdk

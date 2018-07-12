@@ -4,10 +4,10 @@ title: RpcEpResolveBinding function
 author: windows-sdk-content
 description: The RpcEpResolveBinding function resolves a partially-bound server binding handle into a fully-bound server binding handle.
 old-location: rpc\rpcepresolvebinding.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: 839eefea-f06d-412b-9637-4af01b783121
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RpcEpResolveBinding, RpcEpResolveBinding function [RPC], _rpc_rpcepresolvebinding, rpc.rpcepresolvebinding, rpcdce/RpcEpResolveBinding
 ms.prod: windows
 ms.technology: windows-sdk

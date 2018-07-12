@@ -4,10 +4,10 @@ title: MsiRecordClearData function
 author: windows-sdk-content
 description: The MsiRecordClearData function sets all fields in a record to null.
 old-location: setup\msirecordcleardata.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 61fc362e-2b8e-4ce4-83e2-bade40fb96bc
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: MsiRecordClearData, MsiRecordClearData function, _msi_msirecordcleardata, msiquery/MsiRecordClearData, setup.msirecordcleardata
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ICertEncodeLongArray::SetValue
 author: windows-sdk-content
 description: Sets a Long value at the specified index of the Long array.
 old-location: security\icertencodelongarray_setvalue.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 021b2539-3226-4893-af76-9b7b1637e12e
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CCertEncodeLongArray object [Security],SetValue method, ICertEncodeLongArray interface [Security],SetValue method, ICertEncodeLongArray.SetValue, ICertEncodeLongArray::SetValue, SetValue, SetValue method [Security], SetValue method [Security],CCertEncodeLongArray object, SetValue method [Security],ICertEncodeLongArray interface, _certsrv_icertencodelongarray_setvalue, certenc/ICertEncodeLongArray::SetValue, security.icertencodelongarray_setvalue
 ms.prod: windows
 ms.technology: windows-sdk

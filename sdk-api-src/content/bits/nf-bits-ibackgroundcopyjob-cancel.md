@@ -4,10 +4,10 @@ title: IBackgroundCopyJob::Cancel
 author: windows-sdk-content
 description: Deletes the job from the transfer queue and removes related temporary files from the client (downloads) and server (uploads).
 old-location: bits\ibackgroundcopyjob_cancel.htm
-old-project: Bits
+old-project: bits
 ms.assetid: bb3f32d9-298a-4099-8d87-4057ddefb0ba
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: Cancel, Cancel method [BITS], Cancel method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],Cancel method, IBackgroundCopyJob.Cancel, IBackgroundCopyJob::Cancel, _drz_ibackgroundcopyjob_cancel, bits.ibackgroundcopyjob_cancel, bits/IBackgroundCopyJob::Cancel
 ms.prod: windows
 ms.technology: windows-sdk

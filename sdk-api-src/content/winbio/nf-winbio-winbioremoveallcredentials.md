@@ -4,10 +4,10 @@ title: WinBioRemoveAllCredentials function
 author: windows-sdk-content
 description: Removes all credentials from the store. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioremoveallcredentials.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 3c3f3bed-531a-4962-8eb3-bebe16bed3a8
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: WinBioRemoveAllCredentials, WinBioRemoveAllCredentials function [Windows Biometric Framework API], secbiomet.winbioremoveallcredentials, winbio/WinBioRemoveAllCredentials
 ms.prod: windows
 ms.technology: windows-sdk

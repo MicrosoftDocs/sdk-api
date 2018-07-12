@@ -7,7 +7,7 @@ old-location: properties\IPropertySystem_FormatForDisplayAlloc.htm
 old-project: properties
 ms.assetid: 8e62855a-6d2c-45fa-b7bc-01270126b969
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: FormatForDisplayAlloc, FormatForDisplayAlloc method [Windows Properties], FormatForDisplayAlloc method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],FormatForDisplayAlloc method, IPropertySystem.FormatForDisplayAlloc, IPropertySystem::FormatForDisplayAlloc, properties.IPropertySystem_FormatForDisplayAlloc, propsys/IPropertySystem::FormatForDisplayAlloc, shell.IPropertySystem_FormatForDisplayAlloc, shell_IPropertySystem_FormatForDisplayAlloc
 ms.prod: windows
 ms.technology: windows-sdk

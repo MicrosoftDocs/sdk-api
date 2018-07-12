@@ -4,10 +4,10 @@ title: CVssWriter::OnPostSnapshot
 author: windows-sdk-content
 description: The OnPostSnapshot method is called by a writer following a PostSnapshot event.
 old-location: base\cvsswriter_onpostsnapshot.htm
-old-project: VSS
+old-project: vss
 ms.assetid: d97d4246-882e-49c3-a214-d8d3887c1508
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: CVssWriter class [VSS],OnPostSnapshot method, CVssWriter.OnPostSnapshot, CVssWriter::OnPostSnapshot, OnPostSnapshot, OnPostSnapshot method [VSS], OnPostSnapshot method [VSS],CVssWriter class, _win32_cvsswriter_onpostsnapshot, base.cvsswriter_onpostsnapshot, vswriter/CVssWriter::OnPostSnapshot
 ms.prod: windows
 ms.technology: windows-sdk

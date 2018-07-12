@@ -7,7 +7,7 @@ old-location: shell\IShellLibrary.htm
 old-project: shell
 ms.assetid: c1ef3d22-7c88-42b0-93a2-5d1b75c327ba
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IShellLibrary, IShellLibrary interface [Windows Shell], IShellLibrary interface [Windows Shell],described, _shell_IShellLibrary, shell.IShellLibrary, shobjidl_core/IShellLibrary
 ms.prod: windows
 ms.technology: windows-sdk

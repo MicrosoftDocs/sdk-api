@@ -4,10 +4,10 @@ title: DSA_AppendItem macro
 author: windows-sdk-content
 description: Appends a new item to the end of a dynamic structure array (DSA).
 old-location: controls\DSA_AppendItem.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\common\macros\dsa_appenditem.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: DSA_AppendItem, DSA_AppendItem macro [Windows Controls], _shell_DSA_AppendItem, _shell_DSA_AppendItem_cpp, controls.DSA_AppendItem, controls._shell_DSA_AppendItem, dpa_dsa/DSA_AppendItem
 ms.prod: windows
 ms.technology: windows-sdk

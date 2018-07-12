@@ -4,10 +4,10 @@ title: IVdsServiceLoader::LoadService
 author: windows-sdk-content
 description: Launches VDS on the specified computer and returns a pointer to the service object.
 old-location: base\ivdsserviceloader_loadservice.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 26bb0a1f-37ad-4bb0-af6c-1063c5ccdc0f
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsServiceLoader interface [VDS],LoadService method, IVdsServiceLoader.LoadService, IVdsServiceLoader::LoadService, LoadService, LoadService method [VDS], LoadService method [VDS],IVdsServiceLoader interface, base.ivdsserviceloader_loadservice, vds/IVdsServiceLoader::LoadService
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ This parameter must be set to <b>NULL</b>.
 ### -param ppService [out]
 
 The address of an <a href="https://msdn.microsoft.com/6b081cc8-fe06-427f-b06d-831a1f1fef52">IVdsService</a>
-        interface pointer. Callers must release the interface when it is no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+        interface pointer. Callers must release the interface when it is no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: winsock\wsajoinleaf_2.htm
 old-project: WinSock
 ms.assetid: ef9efa03-feed-4f0d-b874-c646cce745c9
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: WSAJoinLeaf, WSAJoinLeaf function [Winsock], _win32_wsajoinleaf_2, winsock.wsajoinleaf_2, winsock2/WSAJoinLeaf
 ms.prod: windows
 ms.technology: windows-sdk

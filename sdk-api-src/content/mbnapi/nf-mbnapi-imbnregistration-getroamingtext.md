@@ -7,7 +7,7 @@ old-location: mbn\imbnregistration_getroamingtext.htm
 old-project: mbn
 ms.assetid: a2911387-7497-43c5-bc1c-db093f31186c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetRoamingText, GetRoamingText method [Microsoft Broadband Networks], GetRoamingText method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetRoamingText method, IMbnRegistration.GetRoamingText, IMbnRegistration::GetRoamingText, mbn.imbnregistration_getroamingtext, mbnapi/IMbnRegistration::GetRoamingText
 ms.prod: windows
 ms.technology: windows-sdk

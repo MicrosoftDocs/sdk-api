@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_GetEncoderParams.htm
 old-project: shell
 ms.assetid: 9b664d0f-7bb7-4cdd-8c0c-2ca80faaa764
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: GetEncoderParams, GetEncoderParams method [Windows Shell], GetEncoderParams method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetEncoderParams method, IShellImageData.GetEncoderParams, IShellImageData::GetEncoderParams, _shell_IShellImageData_GetEncoderParams, shell.IShellImageData_GetEncoderParams, shimgdata/IShellImageData::GetEncoderParams
 ms.prod: windows
 ms.technology: windows-sdk

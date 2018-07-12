@@ -4,10 +4,10 @@ title: RasDeleteEntryA function
 author: windows-sdk-content
 description: The RasDeleteEntry function deletes an entry from a phone book.
 old-location: rras\rasdeleteentry.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 80a6c2d3-917b-4d13-867f-a1399d434105
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RasDeleteEntry, RasDeleteEntry function [RAS], RasDeleteEntryA, RasDeleteEntryW, _ras_rasdeleteentry, ras/RasDeleteEntry, ras/RasDeleteEntryA, ras/RasDeleteEntryW, rras.rasdeleteentry
 ms.prod: windows
 ms.technology: windows-sdk

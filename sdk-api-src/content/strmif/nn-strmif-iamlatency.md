@@ -7,7 +7,7 @@ old-location: dshow\iamlatency.htm
 old-project: DirectShow
 ms.assetid: 83384ef6-40d6-4d37-866d-6059dc5d7542
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IAMLatency, IAMLatency interface [DirectShow], IAMLatency interface [DirectShow],described, IAMLatencyInterface, dshow.iamlatency, strmif/IAMLatency
 ms.prod: windows
 ms.technology: windows-sdk

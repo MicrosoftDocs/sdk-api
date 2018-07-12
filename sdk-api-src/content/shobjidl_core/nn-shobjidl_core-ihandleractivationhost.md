@@ -7,7 +7,7 @@ old-location: shell\IHandlerActivationHost.htm
 old-project: shell
 ms.assetid: 4c60a3f8-48ec-4686-9e27-692f88cd1c55
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IHandlerActivationHost, IHandlerActivationHost interface [Windows Shell], IHandlerActivationHost interface [Windows Shell],described, shell.IHandlerActivationHost, shobjidl_core/IHandlerActivationHost
 ms.prod: windows
 ms.technology: windows-sdk

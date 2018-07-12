@@ -7,7 +7,7 @@ old-location: automat\vardecneg.htm
 old-project: automat
 ms.assetid: c2c43a6c-6c9d-4d97-a003-96e3fea46e5e
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarDecNeg, VarDecNeg function [Automation], _oa96_VarDecNeg, automat.vardecneg, oleauto/VarDecNeg
 ms.prod: windows
 ms.technology: windows-sdk

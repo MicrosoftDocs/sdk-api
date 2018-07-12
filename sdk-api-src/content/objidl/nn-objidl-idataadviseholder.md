@@ -7,7 +7,7 @@ old-location: com\idataadviseholder.htm
 old-project: com
 ms.assetid: 740a6366-6ab1-4a20-82df-1efdd62211eb
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IDataAdviseHolder, IDataAdviseHolder interface [COM], IDataAdviseHolder interface [COM],described, _ole_idataadviseholder, com.idataadviseholder, objidl/IDataAdviseHolder
 ms.prod: windows
 ms.technology: windows-sdk

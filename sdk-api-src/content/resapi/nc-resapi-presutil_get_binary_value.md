@@ -4,10 +4,10 @@ title: PRESUTIL_GET_BINARY_VALUE
 author: windows-sdk-content
 description: Returns a binary value from the cluster database.
 old-location: mscs\resutilgetbinaryvalue.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: d5068cc4-1fdc-430a-a48b-8e024bc20ca3
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_GET_BINARY_VALUE, PRESUTIL_GET_BINARY_VALUE callback, PRESUTIL_GET_BINARY_VALUE callback function [Failover Cluster], _wolf_resutilgetbinaryvalue, mscs.resutilgetbinaryvalue, resapi/PRESUTIL_GET_BINARY_VALUE
 ms.prod: windows
 ms.technology: windows-sdk

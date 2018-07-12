@@ -7,7 +7,7 @@ old-location: cloudapi\cfdisconnectsyncroot.htm
 old-project: cfApi
 ms.assetid: AB09804A-257B-49A2-861E-B6E102D45182
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CfDisconnectSyncRoot, CfDisconnectSyncRoot function, cfapi/CfDisconnectSyncRoot, cloudApi.cfdisconnectsyncroot
 ms.prod: windows
 ms.technology: windows-sdk

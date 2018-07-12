@@ -4,10 +4,10 @@ title: WinHttpSendRequest function
 author: windows-sdk-content
 description: Sends the specified request to the HTTP server.
 old-location: http\winhttpsendrequest.htm
-old-project: WinHttp
+old-project: winhttp
 ms.assetid: 991bf531-2e6b-4581-8069-f75789915522
 ms.author: windowssdkdev
-ms.date: 03/08/2018
+ms.date: 03/09/2018
 ms.keywords: WinHttpSendRequest, WinHttpSendRequest function [WinHTTP], http.winhttpsendrequest, winhttp.winhttpsendrequest_function, winhttp/WinHttpSendRequest
 ms.prod: windows
 ms.technology: windows-sdk

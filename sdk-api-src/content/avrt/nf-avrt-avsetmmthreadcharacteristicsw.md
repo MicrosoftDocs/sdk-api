@@ -7,7 +7,7 @@ old-location: base\avsetmmthreadcharacteristics.htm
 old-project: ProcThread
 ms.assetid: 881d3f97-e68e-40cb-b799-76784185dd37
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: AvSetMmThreadCharacteristics, AvSetMmThreadCharacteristics function, AvSetMmThreadCharacteristicsA, AvSetMmThreadCharacteristicsW, avrt/AvSetMmThreadCharacteristics, avrt/AvSetMmThreadCharacteristicsA, avrt/AvSetMmThreadCharacteristicsW, base.avsetmmthreadcharacteristics
 ms.prod: windows
 ms.technology: windows-sdk

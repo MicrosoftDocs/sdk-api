@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclient_getstreamlatency.htm
 old-project: CoreAudio
 ms.assetid: ccc06e31-e56f-4910-882a-40b1ce0b43aa
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/29/2018
 ms.keywords: GetStreamLatency, GetStreamLatency method [Core Audio], GetStreamLatency method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetStreamLatency method, IAudioClient.GetStreamLatency, IAudioClient::GetStreamLatency, IAudioClientGetStreamLatency, audioclient/IAudioClient::GetStreamLatency, coreaudio.iaudioclient_getstreamlatency
 ms.prod: windows
 ms.technology: windows-sdk

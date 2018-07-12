@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatch.htm
 old-project: winsync
 ms.assetid: 3bfd5cf2-ca73-490e-84a7-506c198b3d7c
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: ISyncChangeBatch, ISyncChangeBatch interface [Windows Sync], ISyncChangeBatch interface [Windows Sync],described, winsync.isyncchangebatch, winsync/ISyncChangeBatch
 ms.prod: windows
 ms.technology: windows-sdk

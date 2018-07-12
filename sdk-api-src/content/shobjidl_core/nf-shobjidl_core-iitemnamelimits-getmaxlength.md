@@ -7,7 +7,7 @@ old-location: shell\IItemNameLimits_GetMaxLength.htm
 old-project: shell
 ms.assetid: 4bf27218-8ad2-4268-a2e0-1ba36b0db4a3
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: GetMaxLength, GetMaxLength method [Windows Shell], GetMaxLength method [Windows Shell],IItemNameLimits interface, IItemNameLimits interface [Windows Shell],GetMaxLength method, IItemNameLimits.GetMaxLength, IItemNameLimits::GetMaxLength, _shell_IItemNameLimits_GetMaxLength, shell.IItemNameLimits_GetMaxLength, shobjidl_core/IItemNameLimits::GetMaxLength
 ms.prod: windows
 ms.technology: windows-sdk

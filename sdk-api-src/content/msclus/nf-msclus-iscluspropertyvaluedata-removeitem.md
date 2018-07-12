@@ -4,10 +4,10 @@ title: ISClusPropertyValueData::RemoveItem
 author: windows-sdk-content
 description: Deletes a data value from a ClusPropertyValueData collection.
 old-location: mscs\cluspropertyvaluedata_removeitem.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 44cabe30-13ec-4303-9534-ab76e3c951ac
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusPropertyValueData collection [Failover Cluster],RemoveItem method, ClusPropertyValueData.RemoveItem, ISClusPropertyValueData.RemoveItem, ISClusPropertyValueData::RemoveItem, RemoveItem, RemoveItem method [Failover Cluster], RemoveItem method [Failover Cluster],ClusPropertyValueData collection, _wolf_cluspropertyvaluedata.removeitem, mscs.cluspropertyvaluedata_removeitem
 ms.prod: windows
 ms.technology: windows-sdk

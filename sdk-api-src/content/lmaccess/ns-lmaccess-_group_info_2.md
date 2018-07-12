@@ -4,10 +4,10 @@ title: "_GROUP_INFO_2"
 author: windows-sdk-content
 description: The GROUP_INFO_2 structure contains information about a global group, including name, identifier, and resource attributes.
 old-location: netmgmt\group_info_2_str.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: 2c17a70c-7b62-4dcc-9dc6-2f4b8c41d6ec
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: "*PGROUP_INFO_2, GROUP_INFO_2, GROUP_INFO_2 structure [Network Management], PGROUP_INFO_2, PGROUP_INFO_2 structure pointer [Network Management], _GROUP_INFO_2, _win32_group_info_2_str, lmaccess/GROUP_INFO_2, lmaccess/PGROUP_INFO_2, netmgmt.group_info_2_str"
 ms.prod: windows
 ms.technology: windows-sdk

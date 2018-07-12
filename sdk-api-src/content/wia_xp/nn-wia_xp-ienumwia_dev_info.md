@@ -7,7 +7,7 @@ old-location: wia\_wia_IEnumWIA_DEV_INFO.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_info\ienumwia_dev_info.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: IEnumWIA_DEV_INFO, IEnumWIA_DEV_INFO interface [WIA], IEnumWIA_DEV_INFO interface [WIA],described, _wia_IEnumWIA_DEV_INFO, wia._wia_IEnumWIA_DEV_INFO, wia_xp/IEnumWIA_DEV_INFO
 ms.prod: windows
 ms.technology: windows-sdk

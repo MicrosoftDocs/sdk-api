@@ -4,10 +4,10 @@ title: IFsrmFileScreenManager::CreateFileScreenException
 author: windows-sdk-content
 description: Creates a file screen exception object.
 old-location: fsrm\ifsrmfilescreenmanager_createfilescreenexception.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: b2a15f69-49fb-46fd-9219-aa970c9eb042
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CreateFileScreenException, CreateFileScreenException method [File Server Resource Manager], CreateFileScreenException method [File Server Resource Manager],FsrmFileScreenManager class, CreateFileScreenException method [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],CreateFileScreenException method, IFsrmFileScreenManager interface [File Server Resource Manager],CreateFileScreenException method, IFsrmFileScreenManager.CreateFileScreenException, IFsrmFileScreenManager::CreateFileScreenException, fs.ifsrmfilescreenmanager_createfilescreenexception, fsrm.ifsrmfilescreenmanager_createfilescreenexception, fsrmscreen/IFsrmFileScreenManager::CreateFileScreenException
 ms.prod: windows
 ms.technology: windows-sdk

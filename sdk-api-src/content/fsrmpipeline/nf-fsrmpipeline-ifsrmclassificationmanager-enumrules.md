@@ -4,10 +4,10 @@ title: IFsrmClassificationManager::EnumRules
 author: windows-sdk-content
 description: Enumerates the rules of the specified type.
 old-location: fsrm\ifsrmclassificationmanager_enumrules.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 2f67527c-cde3-4907-9e61-4d9e18b18859
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: EnumRules, EnumRules method [File Server Resource Manager], EnumRules method [File Server Resource Manager],FsrmClassificationManager class, EnumRules method [File Server Resource Manager],IFsrmClassificationManager interface, EnumRules method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],EnumRules method, IFsrmClassificationManager interface [File Server Resource Manager],EnumRules method, IFsrmClassificationManager.EnumRules, IFsrmClassificationManager2 interface [File Server Resource Manager],EnumRules method, IFsrmClassificationManager2::EnumRules, IFsrmClassificationManager::EnumRules, fs.ifsrmclassificationmanager_enumrules, fsrm.ifsrmclassificationmanager_enumrules, fsrmpipeline/IFsrmClassificationManager2::EnumRules, fsrmpipeline/IFsrmClassificationManager::EnumRules
 ms.prod: windows
 ms.technology: windows-sdk

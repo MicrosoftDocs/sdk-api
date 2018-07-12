@@ -7,7 +7,7 @@ old-location: mf\imfsourcebuffernotify.htm
 old-project: medfound
 ms.assetid: 4a823d37-f55a-4810-aaed-4e04f5371d3b
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFSourceBufferNotify, IMFSourceBufferNotify interface [Media Foundation], IMFSourceBufferNotify interface [Media Foundation],described, mf.imfsourcebuffernotify, mfmediaengine/IMFSourceBufferNotify
 ms.prod: windows
 ms.technology: windows-sdk

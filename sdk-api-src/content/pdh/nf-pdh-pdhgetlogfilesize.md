@@ -4,10 +4,10 @@ title: PdhGetLogFileSize function
 author: windows-sdk-content
 description: Returns the size of the specified log file.
 old-location: perf\pdhgetlogfilesize.htm
-old-project: PerfCtrs
+old-project: perfctrs
 ms.assetid: 2bb94019-c664-4144-98b6-a0a545f7e4c1
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: PdhGetLogFileSize, PdhGetLogFileSize function [Perf], _win32_pdhgetlogfilesize, base.pdhgetlogfilesize, pdh/PdhGetLogFileSize, perf.pdhgetlogfilesize
 ms.prod: windows
 ms.technology: windows-sdk

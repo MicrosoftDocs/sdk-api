@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcenotification_notifyclientconnectionstatechan
 old-project: TermServ
 ms.assetid: 8c5d6cf4-f99c-46fa-8b8e-008ff8a4d0d7
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: CONNECTION_REQUEST_CANCELLED, CONNECTION_REQUEST_FAILED, CONNECTION_REQUEST_PENDING, CONNECTION_REQUEST_SUCCEEDED, CONNECTION_REQUEST_TIMEDOUT, ITsSbResourceNotification interface [Remote Desktop Services],NotifyClientConnectionStateChange method, ITsSbResourceNotification.NotifyClientConnectionStateChange, ITsSbResourceNotification::NotifyClientConnectionStateChange, NotifyClientConnectionStateChange, NotifyClientConnectionStateChange method [Remote Desktop Services], NotifyClientConnectionStateChange method [Remote Desktop Services],ITsSbResourceNotification interface, sbtsv/ITsSbResourceNotification::NotifyClientConnectionStateChange, termserv.itssbresourcenotification_notifyclientconnectionstatechange
 ms.prod: windows
 ms.technology: windows-sdk

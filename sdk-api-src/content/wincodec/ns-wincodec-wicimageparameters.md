@@ -7,7 +7,7 @@ old-location: wic\wicimageparameters.htm
 old-project: wic
 ms.assetid: 0B461697-C7ED-48C9-A880-1B5F4A26FCFC
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: PWICImageParameters, PWICImageParameters structure pointer [Windows Imaging Component], WICImageParameters, WICImageParameters structure [Windows Imaging Component], wic.wicimageparameters, wincodec/PWICImageParameters, wincodec/WICImageParameters
 ms.prod: windows
 ms.technology: windows-sdk

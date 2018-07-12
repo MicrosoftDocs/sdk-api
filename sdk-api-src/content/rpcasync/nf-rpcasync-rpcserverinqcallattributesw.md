@@ -4,10 +4,10 @@ title: RpcServerInqCallAttributesW function
 author: windows-sdk-content
 description: The RpcServerInqCallAttributes function is an RPC server call that obtains client security context attributes.
 old-location: rpc\rpcserverinqcallattributes.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: 563b70ed-bc9a-40be-a77b-17b993cc64f3
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RpcServerInqCallAttributes, RpcServerInqCallAttributes function [RPC], RpcServerInqCallAttributesA, RpcServerInqCallAttributesW, _rpc_rpcserverinqcallattributes, rpc.rpcserverinqcallattributes, rpcasync/RpcServerInqCallAttributes, rpcasync/RpcServerInqCallAttributesA, rpcasync/RpcServerInqCallAttributesW
 ms.prod: windows
 ms.technology: windows-sdk

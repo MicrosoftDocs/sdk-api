@@ -4,10 +4,10 @@ title: EnrollmentCAProperty
 author: windows-sdk-content
 description: Specifies certification authority property values.
 old-location: security\enrollmentcaproperty.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: d4908ef0-aaf0-4396-9b89-cd7f3a9f6188
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: CAPropCertificate, CAPropCertificateTypes, CAPropCommonName, CAPropDNSName, CAPropDescription, CAPropDistinguishedName, CAPropRenewalOnly, CAPropSanitizedName, CAPropSanitizedShortName, CAPropSecurity, CAPropSiteName, CAPropWebServers, EnrollmentCAProperty, EnrollmentCAProperty enumeration [Security], certenroll/CAPropCertificate, certenroll/CAPropCertificateTypes, certenroll/CAPropCommonName, certenroll/CAPropDNSName, certenroll/CAPropDescription, certenroll/CAPropDistinguishedName, certenroll/CAPropRenewalOnly, certenroll/CAPropSanitizedName, certenroll/CAPropSanitizedShortName, certenroll/CAPropSecurity, certenroll/CAPropSiteName, certenroll/CAPropWebServers, certenroll/EnrollmentCAProperty, security.enrollmentcaproperty
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CLRES_V4_FUNCTION_TABLE_SET macro
 author: windows-sdk-content
 description: Initializes a function table for version 4.0 of the Resource API.
 old-location: mscs\clres_v4_function_table_set.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 85A3B088-0F69-4879-A844-E8834F832ED6
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CLRES_V4_FUNCTION_TABLE_SET, CLRES_V4_FUNCTION_TABLE_SET macro [Failover Cluster], mscs.clres_v4_function_table_set, resapi/CLRES_V4_FUNCTION_TABLE_SET
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsock\acceptex_2.htm
 old-project: WinSock
 ms.assetid: cfd4c169-a8af-46cc-9b0e-fd7fb5aad61b
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: AcceptEx, AcceptEx function [Winsock], _win32_acceptex_2, winsock.acceptex_2, winsock/AcceptEx
 ms.prod: windows
 ms.technology: windows-sdk

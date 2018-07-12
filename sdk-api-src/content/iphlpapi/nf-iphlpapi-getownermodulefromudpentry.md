@@ -4,10 +4,10 @@ title: GetOwnerModuleFromUdpEntry function
 author: windows-sdk-content
 description: Retrieves data about the module that issued the context bind for a specific IPv4 UDP endpoint in a MIB table row.
 old-location: iphlp\getownermodulefromudpentry.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: bd8f82b0-4a2d-48f1-8ae7-85257c6ae656
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: GetOwnerModuleFromUdpEntry, GetOwnerModuleFromUdpEntry function [IP Helper], iphlp.getownermodulefromudpentry, iphlpapi/GetOwnerModuleFromUdpEntry
 ms.prod: windows
 ms.technology: windows-sdk

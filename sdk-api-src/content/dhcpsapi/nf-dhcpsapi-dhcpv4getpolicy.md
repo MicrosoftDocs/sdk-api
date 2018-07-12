@@ -4,10 +4,10 @@ title: DhcpV4GetPolicy function
 author: windows-sdk-content
 description: Retrieves a policy from the DHCP Server.
 old-location: dhcp\dhcpv4getpolicy.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: a6112bf8-5c1f-4f33-ba1f-b4903cc6befa
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DhcpV4GetPolicy, DhcpV4GetPolicy function [DHCP], dhcp.dhcpv4getpolicy, dhcpsapi/DhcpV4GetPolicy
 ms.prod: windows
 ms.technology: windows-sdk

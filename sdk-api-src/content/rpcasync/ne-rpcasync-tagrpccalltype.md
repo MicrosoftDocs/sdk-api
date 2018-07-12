@@ -4,10 +4,10 @@ title: tagRpcCallType
 author: windows-sdk-content
 description: Specifies the set of RPC call types.
 old-location: rpc\rpccalltype.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: b7b95f51-ced4-423f-88b7-b1ec705af66f
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RpcCallType, RpcCallType enumeration [RPC], rctGuaranteed, rctInvalid, rctNormal, rctTraining, rpc.rpccalltype, rpcasync/RpcCallType, rpcasync/rctGuaranteed, rpcasync/rctInvalid, rpcasync/rctNormal, rpcasync/rctTraining, tagRpcCallType
 ms.prod: windows
 ms.technology: windows-sdk

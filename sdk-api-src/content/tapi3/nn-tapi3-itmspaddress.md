@@ -4,10 +4,10 @@ title: ITMSPAddress
 author: windows-sdk-content
 description: The ITMSPAddress interface is implemented by the MSP and represents a media service provider to the TAPI DLL. It is not exposed to end-user or server applications. TAPI 3 will call CoCreateInstance on this interface to create the MSP object.
 old-location: tapi3\itmspaddress.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 246a0bcd-0dbb-4b77-a1cd-e6378eaff889
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITMSPAddress, ITMSPAddress interface [TAPI 2.2], ITMSPAddress interface [TAPI 2.2],described, _tapi3_itmspaddress, msp/ITMSPAddress, tapi3.itmspaddress
 ms.prod: windows
 ms.technology: windows-sdk

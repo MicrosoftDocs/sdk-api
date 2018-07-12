@@ -7,7 +7,7 @@ old-location: mf\dxvahd_device_type.htm
 old-project: medfound
 ms.assetid: c472f2c6-214d-4bb0-ba9d-8dd04ff2a646
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: DXVAHD_DEVICE_TYPE, DXVAHD_DEVICE_TYPE enumeration [Media Foundation], DXVAHD_DEVICE_TYPE_HARDWARE, DXVAHD_DEVICE_TYPE_OTHER, DXVAHD_DEVICE_TYPE_REFERENCE, DXVAHD_DEVICE_TYPE_SOFTWARE, _DXVAHD_DEVICE_TYPE, dxvahd/DXVAHD_DEVICE_TYPE, dxvahd/DXVAHD_DEVICE_TYPE_HARDWARE, dxvahd/DXVAHD_DEVICE_TYPE_OTHER, dxvahd/DXVAHD_DEVICE_TYPE_REFERENCE, dxvahd/DXVAHD_DEVICE_TYPE_SOFTWARE, mf.dxvahd_device_type
 ms.prod: windows
 ms.technology: windows-sdk

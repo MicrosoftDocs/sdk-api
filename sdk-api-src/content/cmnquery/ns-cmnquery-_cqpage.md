@@ -4,10 +4,10 @@ title: "_cqpage"
 author: windows-sdk-content
 description: Used to define a query page added to a form in the query dialog box with the CQAddPagesProc callback function.
 old-location: ad\cqpage.htm
-old-project: AD
+old-project: ad
 ms.assetid: 09e407a2-7a58-483d-8422-4ae40c05b742
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*LPCQPAGE, CQPAGE, CQPAGE structure [Active Directory], LPCQPAGE, LPCQPAGE structure pointer [Active Directory], _cqpage, _glines_cqpage, ad.cqpage, cmnquery/CQPAGE, cmnquery/LPCQPAGE"
 ms.prod: windows
 ms.technology: windows-sdk

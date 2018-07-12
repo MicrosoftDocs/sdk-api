@@ -7,7 +7,7 @@ old-location: wsw\wsmatchpolicyalternative.htm
 old-project: wsw
 ms.assetid: 6e5f352b-5422-4bba-9525-7850bdddf0a5
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsMatchPolicyAlternative, WsMatchPolicyAlternative function [Web Services for Windows], webservices/WsMatchPolicyAlternative, wsw.wsmatchpolicyalternative
 ms.prod: windows
 ms.technology: windows-sdk

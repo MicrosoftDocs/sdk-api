@@ -4,10 +4,10 @@ title: IWdsTransportConfigurationManager::DisableWdsTransportServices
 author: windows-sdk-content
 description: Sets all WDS transport services to Disabled mode.
 old-location: wds\iwdstransportconfigurationmanager_disablewdstransportservices.htm
-old-project: Wds
+old-project: wds
 ms.assetid: 46ded55b-f371-405a-bfcd-c361ac6fb5bd
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: DisableWdsTransportServices, DisableWdsTransportServices method [Windows Deployment Services], DisableWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, IWdsTransportConfigurationManager interface [Windows Deployment Services],DisableWdsTransportServices method, IWdsTransportConfigurationManager.DisableWdsTransportServices, IWdsTransportConfigurationManager::DisableWdsTransportServices, wds.iwdstransportconfigurationmanager_disablewdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::DisableWdsTransportServices
 ms.prod: windows
 ms.technology: windows-sdk

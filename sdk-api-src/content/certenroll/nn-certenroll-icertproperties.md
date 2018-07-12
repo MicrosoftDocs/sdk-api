@@ -4,10 +4,10 @@ title: ICertProperties
 author: windows-sdk-content
 description: Contains methods and properties that enable you to manage a collection of certificate properties.
 old-location: security\icertproperties.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: b830c0af-0a38-419d-8a33-8e3626c4e8f1
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICertProperties, ICertProperties interface [Security], ICertProperties interface [Security],described, certenroll/ICertProperties, security.icertproperties
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\sspicopyauthidentity.htm
 old-project: SecAuthN
 ms.assetid: e53807bf-b5a1-4479-a73b-dd85c5da173e
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: SspiCopyAuthIdentity, SspiCopyAuthIdentity function [Security], security.sspicopyauthidentity, sspi/SspiCopyAuthIdentity
 ms.prod: windows
 ms.technology: windows-sdk

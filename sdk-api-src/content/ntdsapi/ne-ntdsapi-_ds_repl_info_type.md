@@ -4,10 +4,10 @@ title: "_DS_REPL_INFO_TYPE"
 author: windows-sdk-content
 description: The DS_REPL_INFO_TYPE enumeration is used with the DsReplicaGetInfo and DsReplicaGetInfo2 functions to specify the type of replication data to retrieve.
 old-location: ad\ds_repl_info_type.htm
-old-project: AD
+old-project: ad
 ms.assetid: 88d8a164-2192-4e73-a190-aa5b5dbb1101
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DS_REPL_INFO_CURSORS_2_FOR_NC, DS_REPL_INFO_CURSORS_3_FOR_NC, DS_REPL_INFO_CURSORS_FOR_NC, DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES, DS_REPL_INFO_KCC_DSA_LINK_FAILURES, DS_REPL_INFO_METADATA_2_FOR_ATTR_VALUE, DS_REPL_INFO_METADATA_2_FOR_OBJ, DS_REPL_INFO_METADATA_FOR_ATTR_VALUE, DS_REPL_INFO_METADATA_FOR_OBJ, DS_REPL_INFO_NEIGHBORS, DS_REPL_INFO_PENDING_OPS, DS_REPL_INFO_TYPE, DS_REPL_INFO_TYPE enumeration [Active Directory], _DS_REPL_INFO_TYPE, _glines_ds_repl_info_type, ad.ds__repl__info__type, ad.ds_repl_info_type, ntdsapi/DS_REPL_INFO_CURSORS_2_FOR_NC, ntdsapi/DS_REPL_INFO_CURSORS_3_FOR_NC, ntdsapi/DS_REPL_INFO_CURSORS_FOR_NC, ntdsapi/DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES, ntdsapi/DS_REPL_INFO_KCC_DSA_LINK_FAILURES, ntdsapi/DS_REPL_INFO_METADATA_2_FOR_ATTR_VALUE, ntdsapi/DS_REPL_INFO_METADATA_2_FOR_OBJ, ntdsapi/DS_REPL_INFO_METADATA_FOR_ATTR_VALUE, ntdsapi/DS_REPL_INFO_METADATA_FOR_OBJ, ntdsapi/DS_REPL_INFO_NEIGHBORS, ntdsapi/DS_REPL_INFO_PENDING_OPS, ntdsapi/DS_REPL_INFO_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

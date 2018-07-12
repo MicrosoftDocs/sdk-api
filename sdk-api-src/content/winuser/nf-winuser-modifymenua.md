@@ -7,7 +7,7 @@ old-location: menurc\modifymenu.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\modifymenu.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: MF_BITMAP, MF_BYCOMMAND, MF_BYPOSITION, MF_CHECKED, MF_DISABLED, MF_ENABLED, MF_GRAYED, MF_MENUBARBREAK, MF_MENUBREAK, MF_OWNERDRAW, MF_POPUP, MF_SEPARATOR, MF_STRING, MF_UNCHECKED, ModifyMenu, ModifyMenu function [Menus and Other Resources], ModifyMenuA, ModifyMenuW, _win32_ModifyMenu, _win32_modifymenu_cpp, menurc.modifymenu, winui._win32_modifymenu, winuser/ModifyMenu, winuser/ModifyMenuA, winuser/ModifyMenuW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

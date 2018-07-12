@@ -7,7 +7,7 @@ old-location: tsf\itfdisplayattributeprovider.htm
 old-project: TSF
 ms.assetid: c0346d5e-d4a2-4c72-90be-de5ff1681acd
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfDisplayAttributeProvider, ITfDisplayAttributeProvider interface [Text Services Framework], ITfDisplayAttributeProvider interface [Text Services Framework],described, _tsf_itfdisplayattributeprovider_ref, msctf/ITfDisplayAttributeProvider, tsf.itfdisplayattributeprovider
 ms.prod: windows
 ms.technology: windows-sdk

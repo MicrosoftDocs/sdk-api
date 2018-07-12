@@ -4,10 +4,10 @@ title: IWSDiscoveryPublisher::GetXMLContext
 author: windows-sdk-content
 description: Gets the XML context associated with the device.
 old-location: ncd\iwsdiscoverypublisher_getxmlcontext.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 9b849b17-0597-4e78-88c6-8ee95bcb754c
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: GetXMLContext, GetXMLContext method, GetXMLContext method,IWSDiscoveryPublisher interface, IWSDiscoveryPublisher interface,GetXMLContext method, IWSDiscoveryPublisher.GetXMLContext, IWSDiscoveryPublisher::GetXMLContext, ncd.iwsdiscoverypublisher_getxmlcontext, wsddisco/IWSDiscoveryPublisher::GetXMLContext
 ms.prod: windows
 ms.technology: windows-sdk

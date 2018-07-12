@@ -7,7 +7,7 @@ old-location: security\wlxislockok.htm
 old-project: SecAuthN
 ms.assetid: 764d7fc9-57d8-472a-9b91-ebfbe3628452
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: WlxIsLockOk, WlxIsLockOk function [Security], _gina_wlxislockok, security.wlxislockok, winwlx/WlxIsLockOk
 ms.prod: windows
 ms.technology: windows-sdk

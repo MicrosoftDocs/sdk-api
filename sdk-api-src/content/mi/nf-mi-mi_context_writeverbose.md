@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_context_writeverbose.htm
 old-project: wmi_v2
 ms.assetid: 55f46e42-3649-40f0-9bd6-4564afc2f8e2
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_Context_WriteVerbose, MI_Context_WriteVerbose function [Windows Management Infrastructure (MI)], mi/MI_Context_WriteVerbose, wmi.mi_writeverbose, wmi_v2.mi_context_writeverbose
 ms.prod: windows
 ms.technology: windows-sdk

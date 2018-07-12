@@ -4,10 +4,10 @@ title: "_DRMTIMETYPE"
 author: windows-sdk-content
 description: The DRMTIMETYPE enumeration specifies a time type.
 old-location: rm\drmtimetype.htm
-old-project: AdRms_Sdk
+old-project: adrms_sdk
 ms.assetid: 0adb6824-0b6e-414a-b9d2-a3266c80df23
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: DRMTIMETYPE, DRMTIMETYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMTIMETYPE_SYSTEMLOCAL, DRMTIMETYPE_SYSTEMUTC, _DRMTIMETYPE, msdrmdefs/DRMTIMETYPE, msdrmdefs/DRMTIMETYPE_SYSTEMLOCAL, msdrmdefs/DRMTIMETYPE_SYSTEMUTC, rm.drmtimetype
 ms.prod: windows
 ms.technology: windows-sdk

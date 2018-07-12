@@ -4,10 +4,10 @@ title: ICertSrvSetup::GetPrivateKeyContainerList
 author: windows-sdk-content
 description: Gets the list of key container names stored by the specified cryptographic service provider (CSP) for asymmetric signature key algorithms.
 old-location: security\icertsrvsetup_getprivatekeycontainerlist.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: a57590d3-0882-4407-b920-964c0e489f80
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetPrivateKeyContainerList, GetPrivateKeyContainerList method [Security], GetPrivateKeyContainerList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetPrivateKeyContainerList method, ICertSrvSetup.GetPrivateKeyContainerList, ICertSrvSetup::GetPrivateKeyContainerList, casetup/ICertSrvSetup::GetPrivateKeyContainerList, security.icertsrvsetup_getprivatekeycontainerlist
 ms.prod: windows
 ms.technology: windows-sdk

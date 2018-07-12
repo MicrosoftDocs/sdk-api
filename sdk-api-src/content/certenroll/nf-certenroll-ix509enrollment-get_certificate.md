@@ -4,10 +4,10 @@ title: IX509Enrollment::get_Certificate
 author: windows-sdk-content
 description: Retrieves the installed certificate.
 old-location: security\ix509enrollment_certificate_property.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 636e4c6d-38b9-4a27-b640-4c071816ee97
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: Certificate property [Security], Certificate property [Security],IX509Enrollment interface, IX509Enrollment interface [Security],Certificate property, IX509Enrollment.Certificate, IX509Enrollment.get_Certificate, IX509Enrollment::Certificate, IX509Enrollment::get_Certificate, certenroll/IX509Enrollment::Certificate, certenroll/IX509Enrollment::get_Certificate, get_Certificate, security.ix509enrollment_certificate_property
 ms.prod: windows
 ms.technology: windows-sdk

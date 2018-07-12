@@ -4,10 +4,10 @@ title: ITextPara::GetNoLineNumber
 author: windows-sdk-content
 description: Determines whether paragraph numbering is enabled.
 old-location: controls\ITextPara_GetNoLineNumber.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getnolinenumber.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: GetNoLineNumber, GetNoLineNumber method [Windows Controls], GetNoLineNumber method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetNoLineNumber method, ITextPara.GetNoLineNumber, ITextPara::GetNoLineNumber, _win32_ITextPara_GetNoLineNumber, _win32_ITextPara_GetNoLineNumber_cpp, controls.ITextPara_GetNoLineNumber, controls._win32_ITextPara_GetNoLineNumber, tom/ITextPara::GetNoLineNumber
 ms.prod: windows
 ms.technology: windows-sdk

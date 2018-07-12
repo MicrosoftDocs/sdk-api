@@ -4,10 +4,10 @@ title: RpcServerInqBindingHandle function
 author: windows-sdk-content
 description: Obtains the binding handle for RPC calls serviced by the thread in which RpcServerInqBindingHandle is called.
 old-location: rpc\rpcserverinqbindinghandle.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: 1b5fa031-ce25-4963-9085-df8786eb88d5
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RpcServerInqBindingHandle, RpcServerInqBindingHandle function [RPC], rpc.rpcserverinqbindinghandle, rpcdce/RpcServerInqBindingHandle
 ms.prod: windows
 ms.technology: windows-sdk

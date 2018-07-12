@@ -4,10 +4,10 @@ title: ISClusApplication::get_DomainNames
 author: windows-sdk-content
 description: Names of all domains available to a ClusApplication object.
 old-location: mscs\clusapplication_domainnames.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 418274eb-a366-4df8-af84-7e4ba8eeed5f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DomainNames property [Failover Cluster], DomainNames property [Failover Cluster],ISClusApplication object, ISClusApplication object [Failover Cluster],DomainNames property, ISClusApplication.DomainNames, ISClusApplication.get_DomainNames, ISClusApplication::get_DomainNames, _wolf_clusapplication.domainnames, get_DomainNames, mscs.clusapplication_domainnames
 ms.prod: windows
 ms.technology: windows-sdk

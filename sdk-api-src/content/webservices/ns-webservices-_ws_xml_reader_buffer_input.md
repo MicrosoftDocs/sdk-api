@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_reader_buffer_input.htm
 old-project: wsw
 ms.assetid: 86277c29-d42f-4b6a-ba33-b836bef284e7
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_XML_READER_BUFFER_INPUT, WS_XML_READER_BUFFER_INPUT structure [Web Services for Windows], _WS_XML_READER_BUFFER_INPUT, webservices/WS_XML_READER_BUFFER_INPUT, wsw.ws_xml_reader_buffer_input
 ms.prod: windows
 ms.technology: windows-sdk

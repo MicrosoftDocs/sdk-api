@@ -7,7 +7,7 @@ old-location: hcp\disablethreadprofiling.htm
 old-project: hcp
 ms.assetid: 650631a6-fd90-46e1-8f2d-84aaaed05bac
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: DisableThreadProfiling, DisableThreadProfiling function [Hardware Counter Profiling], hcp.disablethreadprofiling, winbase/DisableThreadProfiling
 ms.prod: windows
 ms.technology: windows-sdk

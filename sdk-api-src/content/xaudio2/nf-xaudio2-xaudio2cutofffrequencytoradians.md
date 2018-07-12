@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2cutofffrequencytoradians.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CutoffFrequencyToRadians(float,UINT32)
 ms.author: windowssdkdev
-ms.date: 04/20/2018
+ms.date: 04/23/2018
 ms.keywords: XAudio2CutoffFrequencyToRadians, XAudio2CutoffFrequencyToRadians function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2cutofffrequencytoradians, xaudio2/XAudio2CutoffFrequencyToRadians
 ms.prod: windows
 ms.technology: windows-sdk

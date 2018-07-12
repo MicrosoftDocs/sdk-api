@@ -4,10 +4,10 @@ title: DhcpV4FailoverTriggerAddrAllocation function
 author: windows-sdk-content
 description: Redistributes the free addresses between the primary server and the secondary server that are part of a failover relationship.
 old-location: dhcp\dhcpv4failovertriggeraddrallocation.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: ff258179-1091-4338-9317-68fd8fe5a556
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DhcpV4FailoverTriggerAddrAllocation, DhcpV4FailoverTriggerAddrAllocation function [DHCP], dhcp.dhcpv4failovertriggeraddrallocation, dhcpsapi/DhcpV4FailoverTriggerAddrAllocation
 ms.prod: windows
 ms.technology: windows-sdk

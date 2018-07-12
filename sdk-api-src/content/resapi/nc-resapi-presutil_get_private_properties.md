@@ -4,10 +4,10 @@ title: PRESUTIL_GET_PRIVATE_PROPERTIES
 author: windows-sdk-content
 description: Returns private properties for a cluster object. The PRESUTIL_GET_PRIVATE_PROPERTIES type defines a pointer to this function.
 old-location: mscs\resutilgetprivateproperties.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 84019a77-4ecd-4618-ab7d-458c6c855dfd
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_GET_PRIVATE_PROPERTIES, PRESUTIL_GET_PRIVATE_PROPERTIES callback, PRESUTIL_GET_PRIVATE_PROPERTIES callback function [Failover Cluster], _wolf_resutilgetprivateproperties, mscs.resutilgetprivateproperties, resapi/PRESUTIL_GET_PRIVATE_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk

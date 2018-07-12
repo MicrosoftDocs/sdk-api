@@ -7,7 +7,7 @@ old-location: dxmath\xmstoreshort2.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreShort2(XMSHORT2@,XMVECTOR)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 06/14/2018
 ms.keywords: DirectX::PackedVector.XMStoreShort2, XMStoreShort2, XMStoreShort2 method [DirectX Math Support APIs], dxmath.xmstoreshort2
 ms.prod: windows
 ms.technology: windows-sdk

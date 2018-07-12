@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_getavailablevidmem.htm
 old-project: directdraw
 ms.assetid: f7bfa81c-8e21-44ec-bed4-9b92aa099f00
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/18/2018
 ms.keywords: GetAvailableVidMem, GetAvailableVidMem method [DirectDraw], GetAvailableVidMem method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetAvailableVidMem method, IDirectDraw7.GetAvailableVidMem, IDirectDraw7::GetAvailableVidMem, ddraw/IDirectDraw7::GetAvailableVidMem, directdraw.idirectdraw7_getavailablevidmem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -135,7 +135,7 @@ if (FAILED(hr))
 </td>
 </tr>
 </table></span></div>
-If the surface has the <a href="https://msdn.microsoft.com/library/Gg426110(v=VS.85).aspx">DDSCAPS_VIDEOMEMORY</a> flag set, <b>GetAvailableVidMem</b> returns different amounts of video memory depending on whether the surface can be used as a 3-D texture. If the surface can be used for 3-D textures, <b>GetAvailableVidMem</b> returns the sum of the local video memory and the non-local video memory on AGP systems.
+If the surface has the <a href="https://msdn.microsoft.com/d7c4025c-dbb6-4182-b730-c69abd97f2bb">DDSCAPS_VIDEOMEMORY</a> flag set, <b>GetAvailableVidMem</b> returns different amounts of video memory depending on whether the surface can be used as a 3-D texture. If the surface can be used for 3-D textures, <b>GetAvailableVidMem</b> returns the sum of the local video memory and the non-local video memory on AGP systems.
 
 <b>GetAvailableVidMem</b> provides only a snapshot of the current display-memory state. The amount of free display memory is subject to change as surfaces are created and released. Therefore, you should use the free memory value only as an approximation. In addition, a particular display adapter card might make no distinction between two different memory types. For example, the adapter might use the same portion of display memory to store z-buffers and textures. So, allocating one type of surface (for example, a z-buffer) can affect the amount of display memory available for another type of surface (textures). Therefore, it is best to first allocate an application's fixed resources (such as front and back buffers and z-buffers) before determining how much memory is available for dynamic use (such as texture mapping).
 

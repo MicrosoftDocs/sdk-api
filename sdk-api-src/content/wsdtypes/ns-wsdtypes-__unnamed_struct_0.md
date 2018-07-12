@@ -4,10 +4,10 @@ title: RESPONSEBODY_GetMetadata
 author: windows-sdk-content
 description: Represents a WS-MetadataExchange GetMetadata response message.
 old-location: ncd\responsebody_getmetadata_struct.htm
-old-project: WsdApi
+old-project: wsdapi
 ms.assetid: 445513a8-5785-4822-bb2e-ec9b7665ac7a
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 07/04/2018
 ms.keywords: RESPONSEBODY_GetMetadata, RESPONSEBODY_GetMetadata structure, ncd.responsebody_getmetadata_struct, wsdtypes/RESPONSEBODY_GetMetadata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: Wsdhost.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

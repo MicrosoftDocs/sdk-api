@@ -7,7 +7,7 @@ old-location: cos\iservicecall_oncall.htm
 old-project: cossdk
 ms.assetid: 0a2bb7ed-018f-4cb1-a1b2-27f6949dae39
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: IServiceCall interface [COM+],OnCall method, IServiceCall.OnCall, IServiceCall::OnCall, OnCall, OnCall method [COM+], OnCall method [COM+],IServiceCall interface, _cos_IServiceCall_OnCall, comsvcs/IServiceCall::OnCall, cos.iservicecall_oncall
 ms.prod: windows
 ms.technology: windows-sdk

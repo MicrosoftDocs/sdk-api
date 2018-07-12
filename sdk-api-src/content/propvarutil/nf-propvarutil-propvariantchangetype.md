@@ -7,7 +7,7 @@ old-location: properties\PropVariantChangeType.htm
 old-project: properties
 ms.assetid: cb64ae1d-7dcf-4e73-b6ab-18fc9f91192d
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PropVariantChangeType, PropVariantChangeType function [Windows Properties], _shell_PropVariantChangeType, properties.PropVariantChangeType, propvarutil/PropVariantChangeType, shell.PropVariantChangeType
 ms.prod: windows
 ms.technology: windows-sdk

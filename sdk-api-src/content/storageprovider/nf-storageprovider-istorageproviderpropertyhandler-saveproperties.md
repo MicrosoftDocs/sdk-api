@@ -7,7 +7,7 @@ old-location: shell\istorageproviderpropertyhandler_saveproperties.htm
 old-project: shell
 ms.assetid: 983751BA-BF36-4018-A95A-4BEA1E9BA3BF
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IStorageProviderPropertyHandler interface [Windows Shell],SaveProperties method, IStorageProviderPropertyHandler.SaveProperties, IStorageProviderPropertyHandler::SaveProperties, SaveProperties, SaveProperties method [Windows Shell], SaveProperties method [Windows Shell],IStorageProviderPropertyHandler interface, shell.istorageproviderpropertyhandler_saveproperties, storageprovider/IStorageProviderPropertyHandler::SaveProperties
 ms.prod: windows
 ms.technology: windows-sdk

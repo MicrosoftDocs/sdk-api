@@ -7,7 +7,7 @@ old-location: vhd\compact_virtual_disk_version.htm
 old-project: VStor
 ms.assetid: 79b8088a-8e30-44c8-8227-82eb1c03e77c
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: COMPACT_VIRTUAL_DISK_VERSION, COMPACT_VIRTUAL_DISK_VERSION enumeration [VHD], COMPACT_VIRTUAL_DISK_VERSION_1, COMPACT_VIRTUAL_DISK_VERSION_UNSPECIFIED, _COMPACT_VIRTUAL_DISK_VERSION, vdssys/COMPACT_VIRTUAL_DISK_VERSION, vdssys/COMPACT_VIRTUAL_DISK_VERSION_1, vdssys/COMPACT_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.compact_virtual_disk_version, virtdisk/COMPACT_VIRTUAL_DISK_VERSION, virtdisk/COMPACT_VIRTUAL_DISK_VERSION_1, virtdisk/COMPACT_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: directdraw\enumsurfacescallback7.htm
 old-project: directdraw
 ms.assetid: DA0FBED3-B61F-4CC3-9B6D-132A9F8ECFE0
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/18/2018
 ms.keywords: EnumSurfacesCallback7, EnumSurfacesCallback7 callback function [DirectDraw], LPDDENUMSURFACESCALLBACK7, LPDDENUMSURFACESCALLBACK7 callback, ddraw/EnumSurfacesCallback7, directdraw.enumsurfacescallback7
 ms.prod: windows
 ms.technology: windows-sdk

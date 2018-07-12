@@ -7,7 +7,7 @@ old-location: gdi\pointstopoint.htm
 old-project: gdi
 ms.assetid: 921da8a5-cd8a-4851-b470-9b7bd10afaad
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: POINTSTOPOINT, POINTSTOPOINT macro [Windows GDI], _win32_POINTSTOPOINT, gdi.pointstopoint, winuser/POINTSTOPOINT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

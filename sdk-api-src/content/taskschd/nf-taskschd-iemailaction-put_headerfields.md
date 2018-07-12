@@ -4,10 +4,10 @@ title: IEmailAction::put_HeaderFields
 author: windows-sdk-content
 description: Gets or sets the header information in the email message to send.
 old-location: taskschd\iemailaction_headerfields.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: e7b822a0-1e5e-4dd2-8139-ac44c6308fe0
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: HeaderFields property [Task Scheduler], HeaderFields property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],HeaderFields property, IEmailAction.HeaderFields, IEmailAction.put_HeaderFields, IEmailAction::HeaderFields, IEmailAction::get_HeaderFields, IEmailAction::put_HeaderFields, put_HeaderFields, taskschd.iemailaction_headerfields, taskschd/IEmailAction::HeaderFields, taskschd/IEmailAction::get_HeaderFields, taskschd/IEmailAction::put_HeaderFields
 ms.prod: windows
 ms.technology: windows-sdk

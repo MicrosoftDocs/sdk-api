@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationframeinfoprovider.htm
 old-project: directmanipulation
 ms.assetid: 15B7CA2A-DEC3-479B-BD41-38A57037002F
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IDirectManipulationFrameInfoProvider, IDirectManipulationFrameInfoProvider interface [Direct Manipulation], IDirectManipulationFrameInfoProvider interface [Direct Manipulation],described, directmanipulation.idirectmanipulationframeinfoprovider, directmanipulation/IDirectManipulationFrameInfoProvider
 ms.prod: windows
 ms.technology: windows-sdk

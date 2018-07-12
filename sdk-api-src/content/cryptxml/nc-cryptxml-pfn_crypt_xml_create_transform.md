@@ -4,10 +4,10 @@ title: PFN_CRYPT_XML_CREATE_TRANSFORM
 author: windows-sdk-content
 description: Creates a transform for a specified data provider.
 old-location: security\pfn_crypt_xml_create_transform.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: d9228015-d5e7-4c72-9561-be4ee5fa4264
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: PFN_CRYPT_XML_CREATE_TRANSFORM, PFN_CRYPT_XML_CREATE_TRANSFORM callback, PFN_CRYPT_XML_CREATE_TRANSFORM callback function [Security], cryptxml/PFN_CRYPT_XML_CREATE_TRANSFORM, security.pfn_crypt_xml_create_transform
 ms.prod: windows
 ms.technology: windows-sdk

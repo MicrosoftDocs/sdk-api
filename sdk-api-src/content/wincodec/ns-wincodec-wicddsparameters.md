@@ -7,7 +7,7 @@ old-location: wic\wicddsparameters.htm
 old-project: wic
 ms.assetid: 2E5755B4-E8DC-40B2-8DA1-B053A261079B
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: PWICDdsParameters, PWICDdsParameters structure pointer [Windows Imaging Component], WICDdsParameters, WICDdsParameters structure [Windows Imaging Component], wic.wicddsparameters, wincodec/PWICDdsParameters, wincodec/WICDdsParameters
 ms.prod: windows
 ms.technology: windows-sdk

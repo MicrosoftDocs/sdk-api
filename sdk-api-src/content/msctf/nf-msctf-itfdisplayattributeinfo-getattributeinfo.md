@@ -7,7 +7,7 @@ old-location: tsf\itfdisplayattributeinfo_getattributeinfo.htm
 old-project: TSF
 ms.assetid: 32e28feb-1186-4848-a9d4-70b27f865d3c
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: GetAttributeInfo, GetAttributeInfo method [Text Services Framework], GetAttributeInfo method [Text Services Framework],ITfDisplayAttributeInfo interface, ITfDisplayAttributeInfo interface [Text Services Framework],GetAttributeInfo method, ITfDisplayAttributeInfo.GetAttributeInfo, ITfDisplayAttributeInfo::GetAttributeInfo, _tsf_itfdisplayattributeinfo_getattributeinfo_ref, msctf/ITfDisplayAttributeInfo::GetAttributeInfo, tsf.itfdisplayattributeinfo_getattributeinfo
 ms.prod: windows
 ms.technology: windows-sdk

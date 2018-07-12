@@ -7,7 +7,7 @@ old-location: mf\imfspatialaudiosample.htm
 old-project: medfound
 ms.assetid: EA0277BF-C9C8-42FE-9206-A87FC3C50A9F
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFSpatialAudioSample, IMFSpatialAudioSample interface [Media Foundation], IMFSpatialAudioSample interface [Media Foundation],described, mf.imfspatialaudiosample, mfspatialaudio/IMFSpatialAudioSample
 ms.prod: windows
 ms.technology: windows-sdk

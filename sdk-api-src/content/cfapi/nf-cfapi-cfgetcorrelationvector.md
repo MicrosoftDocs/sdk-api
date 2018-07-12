@@ -7,7 +7,7 @@ old-location: cloudapi\cfgetcorrelationvector.htm
 old-project: cfApi
 ms.assetid: 3DB0AAFE-82DC-4707-8DB6-C52D4A9B2771
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CfGetCorrelationVector, CfGetCorrelationVector function, cfapi/CfGetCorrelationVector, cloudApi.cfgetcorrelationvector
 ms.prod: windows
 ms.technology: windows-sdk

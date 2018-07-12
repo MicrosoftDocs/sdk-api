@@ -4,10 +4,10 @@ title: DhcpV4CreateClientInfo function
 author: windows-sdk-content
 description: Creates a DHCPv4 client lease record in the DHCP server database.
 old-location: dhcp\dhcpv4createclientinfo.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 467aa6c3-9ccb-4984-8ad7-409d593ac856
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DhcpV4CreateClientInfo, DhcpV4CreateClientInfo function [DHCP], dhcp.dhcpv4createclientinfo, dhcpsapi/DhcpV4CreateClientInfo
 ms.prod: windows
 ms.technology: windows-sdk

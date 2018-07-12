@@ -7,7 +7,7 @@ old-location: mf\imfsensorgroup_setdefaultsensordeviceindex.htm
 old-project: medfound
 ms.assetid: 06E2E2DB-8361-49BB-9369-0D0C33DF0C32
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: IMFSensorGroup interface [Media Foundation],SetDefaultSensorDeviceIndex method, IMFSensorGroup.SetDefaultSensorDeviceIndex, IMFSensorGroup::SetDefaultSensorDeviceIndex, SetDefaultSensorDeviceIndex, SetDefaultSensorDeviceIndex method [Media Foundation], SetDefaultSensorDeviceIndex method [Media Foundation],IMFSensorGroup interface, mf.imfsensorgroup_setdefaultsensordeviceindex, mfidl/IMFSensorGroup::SetDefaultSensorDeviceIndex
 ms.prod: windows
 ms.technology: windows-sdk

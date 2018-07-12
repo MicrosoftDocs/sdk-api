@@ -4,10 +4,10 @@ title: AuthzAccessCheck function
 author: windows-sdk-content
 description: Determines which access bits can be granted to a client for a given set of security descriptors.
 old-location: security\authzaccesscheck.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 633c2a73-169c-4e0c-abb6-96c360bd63cf
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 07/04/2018
 ms.keywords: AUTHZ_ACCESS_CHECK_NO_DEEP_COPY_SD, AuthzAccessCheck, AuthzAccessCheck function [Security], _win32_authzaccesscheck, authz/AuthzAccessCheck, security.authzaccesscheck
 ms.prod: windows
 ms.technology: windows-sdk

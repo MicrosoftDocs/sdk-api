@@ -7,7 +7,7 @@ old-location: properties\PropVariantToInt64WithDefault.htm
 old-project: properties
 ms.assetid: 6a051235-3e32-40d3-a17e-efc571592dae
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PropVariantToInt64WithDefault, PropVariantToInt64WithDefault function [Windows Properties], properties.PropVariantToInt64WithDefault, propvarutil/PropVariantToInt64WithDefault, shell.PropVariantToInt64WithDefault, shell_PropVariantToInt64WithDefault
 ms.prod: windows
 ms.technology: windows-sdk

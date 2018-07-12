@@ -4,10 +4,10 @@ title: "_GLOBAL_MACHINE_POWER_POLICY"
 author: windows-sdk-content
 description: Contains global computer power policy settings that apply to all power schemes for all users.
 old-location: base\global_machine_power_policy_str.htm
-old-project: Power
+old-project: power
 ms.assetid: 79b57da4-0125-427b-aec7-7ca4c9bfb870
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: "*PGLOBAL_MACHINE_POWER_POLICY, GLOBAL_MACHINE_POWER_POLICY, GLOBAL_MACHINE_POWER_POLICY structure, PGLOBAL_MACHINE_POWER_POLICY, PGLOBAL_MACHINE_POWER_POLICY structure pointer, _GLOBAL_MACHINE_POWER_POLICY, _win32_global_machine_power_policy_str, base.global_machine_power_policy_str, powrprof/GLOBAL_MACHINE_POWER_POLICY, powrprof/PGLOBAL_MACHINE_POWER_POLICY"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: imapi\ifsidirectoryitem_addfile.htm
 old-project: imapi
 ms.assetid: 82f62372-3c79-4bf5-a723-cd09a5444ffc
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: AddFile, AddFile method [IMAPI], AddFile method [IMAPI],IFsiDirectoryItem interface, IFsiDirectoryItem interface [IMAPI],AddFile method, IFsiDirectoryItem.AddFile, IFsiDirectoryItem::AddFile, imapi.ifsidirectoryitem_addfile, imapi2fs/IFsiDirectoryItem::AddFile
 ms.prod: windows
 ms.technology: windows-sdk

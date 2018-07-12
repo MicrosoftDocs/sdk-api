@@ -4,10 +4,10 @@ title: "_textrange"
 author: windows-sdk-content
 description: A range of text from a rich edit control. This structure is filled in by the EM_GETTEXTRANGE message. The buffer pointed to by the lpstrText member must be large enough to receive all characters and the terminating null character.
 old-location: controls\TEXTRANGE.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\textrange.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: TEXTRANGE, TEXTRANGE structure [Windows Controls], TEXTRANGEA, TEXTRANGEW, _textrange, _win32_TEXTRANGE_str, _win32_TEXTRANGE_str_cpp, controls.TEXTRANGE, controls._win32_TEXTRANGE_str, richedit/TEXTRANGE, richedit/TEXTRANGEA, richedit/TEXTRANGEW
 ms.prod: windows
 ms.technology: windows-sdk

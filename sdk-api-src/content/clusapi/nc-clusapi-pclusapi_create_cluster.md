@@ -4,10 +4,10 @@ title: PCLUSAPI_CREATE_CLUSTER
 author: windows-sdk-content
 description: Creates and starts a cluster.
 old-location: mscs\createcluster.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 672a1573-63e5-4321-a049-25bdafc1b5e0
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CREATE_CLUSTER, PCLUSAPI_CREATE_CLUSTER callback, PCLUSAPI_CREATE_CLUSTER callback function [Failover Cluster], clusapi/PCLUSAPI_CREATE_CLUSTER, mscs.createcluster
 ms.prod: windows
 ms.technology: windows-sdk

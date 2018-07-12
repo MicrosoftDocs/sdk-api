@@ -4,10 +4,10 @@ title: IX500DistinguishedName
 author: windows-sdk-content
 description: Represents an X.500 distinguished name (DN).
 old-location: security\ix500distinguishedname.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 49f176d9-33f6-4bc1-992c-c613279b0969
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IX500DistinguishedName, IX500DistinguishedName interface [Security], IX500DistinguishedName interface [Security],described, certenroll/IX500DistinguishedName, security.ix500distinguishedname
 ms.prod: windows
 ms.technology: windows-sdk

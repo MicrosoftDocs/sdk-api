@@ -7,7 +7,7 @@ old-location: search\_search_ISearchLanguageSupport_LoadStemmer.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\loadstemmer.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISearchLanguageSupport interface [search],LoadStemmer method, ISearchLanguageSupport.LoadStemmer, ISearchLanguageSupport::LoadStemmer, LoadStemmer, LoadStemmer method [search], LoadStemmer method [search],ISearchLanguageSupport interface, _search_ISearchLanguageSupport_LoadStemmer, search._search_ISearchLanguageSupport_LoadStemmer, searchapi/ISearchLanguageSupport::LoadStemmer
 ms.prod: windows
 ms.technology: windows-sdk

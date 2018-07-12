@@ -7,7 +7,7 @@ old-location: automat\variantcopy.htm
 old-project: automat
 ms.assetid: f6ddbe1f-37b0-44f1-a3f0-b7ef4df88f8a
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VariantCopy, VariantCopy function [Automation], _oa96_VariantCopy, automat.variantcopy, oleauto/VariantCopy
 ms.prod: windows
 ms.technology: windows-sdk

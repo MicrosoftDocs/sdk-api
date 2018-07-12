@@ -4,10 +4,10 @@ title: ICertificatePolicies::Add
 author: windows-sdk-content
 description: Adds an object to the collection.
 old-location: security\icertificatepolicies_add_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 85dc750c-ef18-4136-962e-c95bcca05b9a
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICertificatePolicies interface, ICertificatePolicies interface [Security],Add method, ICertificatePolicies.Add, ICertificatePolicies::Add, certenroll/ICertificatePolicies::Add, security.icertificatepolicies_add_method
 ms.prod: windows
 ms.technology: windows-sdk

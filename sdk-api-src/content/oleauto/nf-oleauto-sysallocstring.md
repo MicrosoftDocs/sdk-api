@@ -7,7 +7,7 @@ old-location: automat\sysallocstring.htm
 old-project: automat
 ms.assetid: 9e0437a2-9b4a-4576-88b0-5cb9d08ca29b
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: SysAllocString, SysAllocString function [Automation], _oa96_SysAllocString, automat.sysallocstring, oleauto/SysAllocString
 ms.prod: windows
 ms.technology: windows-sdk

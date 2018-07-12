@@ -4,10 +4,10 @@ title: GetNumberOfEventLogRecords function
 author: windows-sdk-content
 description: Retrieves the number of records in the specified event log.
 old-location: base\getnumberofeventlogrecords.htm
-old-project: EventLog
+old-project: eventlog
 ms.assetid: 80cc8735-26a2-4ad3-a111-28f2c0c52e98
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: GetNumberOfEventLogRecords, GetNumberOfEventLogRecords function, _win32_getnumberofeventlogrecords, base.getnumberofeventlogrecords, winbase/GetNumberOfEventLogRecords
 ms.prod: windows
 ms.technology: windows-sdk

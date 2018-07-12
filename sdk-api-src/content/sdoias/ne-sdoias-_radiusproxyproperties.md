@@ -4,10 +4,10 @@ title: "_RADIUSPROXYPROPERTIES"
 author: windows-sdk-content
 description: The values in the RADIUSPROXYPROPERTIES enumeration type enumerate properties related to the RADIUS proxy service.
 old-location: nps\SDO_radiusproxyproperties.htm
-old-project: Nps
+old-project: nps
 ms.assetid: 12cf768e-71b2-4b95-9b5a-2b9e3ce80f37
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: PROPERTY_RADIUSPROXY_SERVERGROUPS, RADIUSPROXYPROPERTIES, RADIUSPROXYPROPERTIES enumeration [Network Policy Server], _RADIUSPROXYPROPERTIES, _sdo_radiusproxyproperties, nps.SDO_radiusproxyproperties, sdo.radiusproxyproperties, sdoias/PROPERTY_RADIUSPROXY_SERVERGROUPS, sdoias/RADIUSPROXYPROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk

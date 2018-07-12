@@ -4,10 +4,10 @@ title: PCLUSTER_REG_GET_BATCH_NOTIFICATION
 author: windows-sdk-content
 description: Reads a command from a batch notification.
 old-location: mscs\clusterregbatchreadcommand.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: a1a7abc5-f306-4664-bb53-e54c6ee1051e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSTER_REG_GET_BATCH_NOTIFICATION, PCLUSTER_REG_GET_BATCH_NOTIFICATION callback, PCLUSTER_REG_GET_BATCH_NOTIFICATION callback function [Failover Cluster], clusapi/PCLUSTER_REG_GET_BATCH_NOTIFICATION, mscs.clusterregbatchreadcommand
 ms.prod: windows
 ms.technology: windows-sdk

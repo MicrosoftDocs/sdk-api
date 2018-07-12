@@ -4,10 +4,10 @@ title: WinBioReleaseFocus function
 author: windows-sdk-content
 description: Releases window focus.
 old-location: secbiomet\winbioreleasefocus.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 260f24e9-4527-4bec-b18a-64781060714b
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: WinBioReleaseFocus, WinBioReleaseFocus function [Windows Biometric Framework API], secbiomet.winbioreleasefocus, winbio/WinBioReleaseFocus
 ms.prod: windows
 ms.technology: windows-sdk

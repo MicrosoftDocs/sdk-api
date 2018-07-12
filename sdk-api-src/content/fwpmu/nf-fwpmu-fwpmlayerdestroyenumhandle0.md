@@ -4,10 +4,10 @@ title: FwpmLayerDestroyEnumHandle0 function
 author: windows-sdk-content
 description: Frees a handle returned by FwpmFilterCreateEnumHandle0.
 old-location: fwp\fwpmlayerdestroyenumhandle0_func.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 351112c2-7ede-4aa7-8ef3-673efeb1c7bb
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FwpmLayerDestroyEnumHandle0, FwpmLayerDestroyEnumHandle0 function [Filtering], fwp.fwpmlayerdestroyenumhandle0_func, fwpmu/FwpmLayerDestroyEnumHandle0
 ms.prod: windows
 ms.technology: windows-sdk

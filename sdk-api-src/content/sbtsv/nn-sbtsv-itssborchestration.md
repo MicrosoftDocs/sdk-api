@@ -7,7 +7,7 @@ old-location: termserv\itssborchestration.htm
 old-project: TermServ
 ms.assetid: fae858ae-19e5-453d-b9ef-1da7ea706e49
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: ITsSbOrchestration, ITsSbOrchestration interface [Remote Desktop Services], ITsSbOrchestration interface [Remote Desktop Services],described, sbtsv/ITsSbOrchestration, termserv.itssborchestration
 ms.prod: windows
 ms.technology: windows-sdk

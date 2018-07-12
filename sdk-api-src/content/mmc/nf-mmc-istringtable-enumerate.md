@@ -4,10 +4,10 @@ title: IStringTable::Enumerate
 author: windows-sdk-content
 description: Supplies a pointer to an IEnumString interface on an enumerator that can return the strings in a snap-in's string table.
 old-location: mmc\istringtable_enumerate.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 3d23e29d-a80f-4710-8285-c9e64fd580a1
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: Enumerate, Enumerate method [MMC], Enumerate method [MMC],IStringTable interface, IStringTable interface [MMC],Enumerate method, IStringTable.Enumerate, IStringTable::Enumerate, _slate_istringtable_enumerate, mmc.istringtable_enumerate, mmc/IStringTable::Enumerate
 ms.prod: windows
 ms.technology: windows-sdk

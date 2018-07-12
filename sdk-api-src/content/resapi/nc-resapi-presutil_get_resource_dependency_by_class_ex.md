@@ -4,10 +4,10 @@ title: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX
 author: windows-sdk-content
 description: Enumerates the dependencies of a specified resource in a specified cluster and returns a handle to a dependency that matches a specified resource class. The PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX type defines a pointer to this function.
 old-location: mscs\resutilgetresourcedependencybyclassex.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: D35816C8-A449-41FF-9398-A6A4E19C29FB
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX callback, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX callback function [Failover Cluster], mscs.resutilgetresourcedependencybyclassex, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX
 ms.prod: windows
 ms.technology: windows-sdk

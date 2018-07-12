@@ -10,6 +10,5 @@
     "wiavideo.h",
     "wiadefd.h",
     "wiadef.h"
-  ],
-  "displayName": "WIA"
+  ]
 }

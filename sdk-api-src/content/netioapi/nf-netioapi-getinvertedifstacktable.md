@@ -4,10 +4,10 @@ title: GetInvertedIfStackTable function
 author: windows-sdk-content
 description: Retrieves a table of inverted network interface stack row entries that specify the relationship of the network interfaces on an interface stack.
 old-location: iphlp\getinvertedifstacktable.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: d1808ded-2798-46cc-8021-fdbcd3da60ea
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: GetInvertedIfStackTable, GetInvertedIfStackTable function [IP Helper], iphlp.getinvertedifstacktable, netioapi/GetInvertedIfStackTable
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IFileDialog_GetFileName.htm
 old-project: shell
 ms.assetid: d27acb22-906a-4e5e-9239-6de3162fd263
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: GetFileName, GetFileName method [Windows Shell], GetFileName method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetFileName method, IFileDialog.GetFileName, IFileDialog::GetFileName, shell.IFileDialog_GetFileName, shell_IFileDialog_GetFileName, shobjidl_core/IFileDialog::GetFileName
 ms.prod: windows
 ms.technology: windows-sdk

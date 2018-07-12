@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_setprivatedata.htm
 old-project: directdraw
 ms.assetid: 822e4533-9073-4590-844e-8830110e4e33
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/18/2018
 ms.keywords: "(none), DDSPD_IUNKNOWNPOINTER, DDSPD_VOLATILE, IDirectDrawSurface7 interface [DirectDraw],SetPrivateData method, IDirectDrawSurface7.SetPrivateData, IDirectDrawSurface7::SetPrivateData, SetPrivateData, SetPrivateData method [DirectDraw], SetPrivateData method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetPrivateData, directdraw.idirectdrawsurface7_setprivatedata"
 ms.prod: windows
 ms.technology: windows-sdk

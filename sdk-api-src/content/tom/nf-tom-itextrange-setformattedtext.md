@@ -4,10 +4,10 @@ title: ITextRange::SetFormattedText
 author: windows-sdk-content
 description: Sets the formatted text of this range text to the formatted text of the specified range.
 old-location: controls\ITextRange_SetFormattedText.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setformattedtext.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ITextRange interface [Windows Controls],SetFormattedText method, ITextRange.SetFormattedText, ITextRange::SetFormattedText, SetFormattedText, SetFormattedText method [Windows Controls], SetFormattedText method [Windows Controls],ITextRange interface, _win32_ITextRange_SetFormattedText, _win32_ITextRange_SetFormattedText_cpp, controls.ITextRange_SetFormattedText, controls._win32_ITextRange_SetFormattedText, tom/ITextRange::SetFormattedText
 ms.prod: windows
 ms.technology: windows-sdk

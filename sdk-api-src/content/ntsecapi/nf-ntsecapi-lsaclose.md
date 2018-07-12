@@ -4,10 +4,10 @@ title: LsaClose function
 author: windows-sdk-content
 description: The LsaClose function closes a handle to a Policy or TrustedDomain object.
 old-location: security\lsaclose.htm
-old-project: SecMgmt
+old-project: secmgmt
 ms.assetid: 6283b1da-4ec3-48e1-91f6-321c6390befe
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: LsaClose, LsaClose function [Security], _lsa_lsaclose, ntsecapi/LsaClose, security.lsaclose
 ms.prod: windows
 ms.technology: windows-sdk

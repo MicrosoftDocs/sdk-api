@@ -4,10 +4,10 @@ title: "_WSMAN_AUTHZ_QUOTA"
 author: windows-sdk-content
 description: Reports quota information on a per-user basis for authorization plug-ins.
 old-location: winrm\wsman_authz_quota.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: dff093be-34cb-4e31-b3ff-b1ad8ecc7069
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: WSMAN_AUTHZ_QUOTA, WSMAN_AUTHZ_QUOTA structure [Windows Remote Management], _WSMAN_AUTHZ_QUOTA, winrm.wsman_authz_quota, wsman/WSMAN_AUTHZ_QUOTA
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IsBadStringPtrA function
 author: windows-sdk-content
 description: Verifies that the calling process has read access to the specified range of memory.
 old-location: base\isbadstringptr.htm
-old-project: Memory
+old-project: memory
 ms.assetid: ec708f97-36c8-4484-96d7-b8dfb8578667
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: IsBadStringPtr, IsBadStringPtr function, IsBadStringPtrA, IsBadStringPtrW, _win32_isbadstringptr, base.isbadstringptr, winbase/IsBadStringPtr, winbase/IsBadStringPtrA, winbase/IsBadStringPtrW
 ms.prod: windows
 ms.technology: windows-sdk

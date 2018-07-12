@@ -7,7 +7,7 @@ old-location: automat\vardatefromudateex.htm
 old-project: automat
 ms.assetid: eb6f52fe-3324-4ff2-afcd-854a3a8a20cb
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarDateFromUdateEx, VarDateFromUdateEx function [Automation], _oa96_VarDateFromUdateEx, automat.vardatefromudateex, oleauto/VarDateFromUdateEx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: GetAdaptersInfo function
 author: windows-sdk-content
 description: The GetAdaptersInfo function retrieves adapter information for the local computer.
 old-location: iphlp\getadaptersinfo.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 8cdecc84-6566-438b-86d0-3c55490a9a59
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: GetAdaptersInfo, GetAdaptersInfo function [IP Helper], _iphlp_getadaptersinfo, iphlp.getadaptersinfo, iphlpapi/GetAdaptersInfo
 ms.prod: windows
 ms.technology: windows-sdk

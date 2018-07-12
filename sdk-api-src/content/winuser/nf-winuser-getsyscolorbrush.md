@@ -7,7 +7,7 @@ old-location: gdi\getsyscolorbrush.htm
 old-project: gdi
 ms.assetid: 07a1d8e3-eae8-40ab-9d0f-4efa9fac0117
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetSysColorBrush, GetSysColorBrush function [Windows GDI], _win32_GetSysColorBrush, gdi.getsyscolorbrush, winuser/GetSysColorBrush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

@@ -2,13 +2,13 @@
 UID: NA:mpeg2structs
 ms.assetid: 4f63b952-cded-396a-9537-94cec4271831
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: mstv
+archived: true
 ---
 
 # Mpeg2Structs.h header

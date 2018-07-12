@@ -4,10 +4,10 @@ title: INetDiagHelper::GetLifeTime
 author: windows-sdk-content
 description: Retrieves the lifetime of the Helper Class Extension instance.
 old-location: ndf\inetdiaghelpe_getlifetime.htm
-old-project: NDF
+old-project: ndf
 ms.assetid: 0710b8d3-04d6-434f-9b0a-22049bf00ba0
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetLifeTime, GetLifeTime method [NDF], GetLifeTime method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetLifeTime method, INetDiagHelper.GetLifeTime, INetDiagHelper::GetLifeTime, ndf.inetdiaghelpe_getlifetime, ndhelper/INetDiagHelper::GetLifeTime
 ms.prod: windows
 ms.technology: windows-sdk

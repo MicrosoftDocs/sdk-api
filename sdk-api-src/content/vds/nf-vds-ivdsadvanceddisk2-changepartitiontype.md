@@ -4,10 +4,10 @@ title: IVdsAdvancedDisk2::ChangePartitionType
 author: windows-sdk-content
 description: Changes the partition type on the disk at a specified byte offset.
 old-location: base\ivdsadvanceddisk2_changepartitiontype.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 808a1e5a-d225-4b74-9764-3ad8cdc52ebe
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ChangePartitionType, ChangePartitionType method, ChangePartitionType method,IVdsAdvancedDisk2 interface, IVdsAdvancedDisk2 interface,ChangePartitionType method, IVdsAdvancedDisk2.ChangePartitionType, IVdsAdvancedDisk2::ChangePartitionType, base.ivdsadvanceddisk2_changepartitiontype, vds/IVdsAdvancedDisk2::ChangePartitionType
 ms.prod: windows
 ms.technology: windows-sdk

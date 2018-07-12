@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevice_getpnpdeviceid.htm
 old-project: wpd_sdk
 ms.assetid: e6bde2ac-ceef-47f8-b60b-e61595078e8c
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.keywords: GetPnPDeviceID, GetPnPDeviceID method [Windows Portable Devices SDK], GetPnPDeviceID method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],GetPnPDeviceID method, IPortableDevice.GetPnPDeviceID, IPortableDevice::GetPnPDeviceID, IPortableDeviceGetPnPDeviceID, portabledeviceapi/IPortableDevice::GetPnPDeviceID, wpdsdk.iportabledevice_getpnpdeviceid
 ms.prod: windows
 ms.technology: windows-sdk

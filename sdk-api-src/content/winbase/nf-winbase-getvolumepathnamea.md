@@ -4,10 +4,10 @@ title: GetVolumePathNameA function
 author: windows-sdk-content
 description: Retrieves the volume mount point where the specified path is mounted.
 old-location: fs\getvolumepathname.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: fa34786c-af82-4b59-bf36-e9a95a2f913e
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: GetVolumePathName, GetVolumePathName function [Files], GetVolumePathNameA, GetVolumePathNameW, _win32_getvolumepathname, base.getvolumepathname, fileapi/GetVolumePathName, fileapi/GetVolumePathNameA, fileapi/GetVolumePathNameW, fs.getvolumepathname, winbase/GetVolumePathName, winbase/GetVolumePathNameA, winbase/GetVolumePathNameW
 ms.prod: windows
 ms.technology: windows-sdk

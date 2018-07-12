@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionlineartransfereffect_setgreenslope_overloa
 old-project: directcomp
 ms.assetid: e7e92544-dbc5-91ce-b818-056b7b572a7c
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: IDCompositionLinearTransferEffect::SetGreenSlope, SetGreenSlope, dcomp/setgreenslope, directcomp.idcompositionlineartransfereffect_setgreenslope_overloaded, setgreenslope, setgreenslope methods [DirectComposition]
 ms.prod: windows
 ms.technology: windows-sdk

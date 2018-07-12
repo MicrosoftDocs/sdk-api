@@ -4,10 +4,10 @@ title: LsaSetTrustedDomainInfoByName function
 author: windows-sdk-content
 description: The LsaSetTrustedDomainInfoByName function sets values for a TrustedDomain object.
 old-location: security\lsasettrusteddomaininfobyname.htm
-old-project: SecMgmt
+old-project: secmgmt
 ms.assetid: 263e1025-1010-463d-8bc7-cdf916ce9872
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: LsaSetTrustedDomainInfoByName, LsaSetTrustedDomainInfoByName function [Security], TrustedDomainAuthInformation, TrustedDomainFullInformation, TrustedDomainInformationEx, TrustedPosixInformation, _lsa_lsasettrusteddomaininfobyname, ntsecapi/LsaSetTrustedDomainInfoByName, security.lsasettrusteddomaininfobyname
 ms.prod: windows
 ms.technology: windows-sdk

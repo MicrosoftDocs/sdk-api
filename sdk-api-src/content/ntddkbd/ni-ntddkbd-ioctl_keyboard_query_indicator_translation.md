@@ -7,7 +7,7 @@ old-location: hid\ioctl_keyboard_query_indicator_translation.htm
 old-project: hid
 ms.assetid: 84006453-cf73-44f2-ac8b-ea03382e113d
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 05/01/2018
 ms.keywords: IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION, IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION control, IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION control code [Human Input Devices], hid.ioctl_keyboard_query_indicator_translation, kref_6d0fc5dc-e636-464a-a537-c3a39b8cba53.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION
 ms.prod: windows
 ms.technology: windows-sdk

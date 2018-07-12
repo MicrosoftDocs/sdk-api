@@ -7,7 +7,7 @@ old-location: tcui\gameuicompletionroutine.htm
 old-project: tcui
 ms.assetid: 673F840F-1A87-42F5-8EE1-8CEAEB0CE7F8
 ms.author: windowssdkdev
-ms.date: 03/19/2018
+ms.date: 03/20/2018
 ms.keywords: GameUICompletionRoutine, GameUICompletionRoutine callback, GameUICompletionRoutine callback function, gamingtcui/GameUICompletionRoutine, tcui.gameuicompletionroutine
 ms.prod: windows
 ms.technology: windows-sdk

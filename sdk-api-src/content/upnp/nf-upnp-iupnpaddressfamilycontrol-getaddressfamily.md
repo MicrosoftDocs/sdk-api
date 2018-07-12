@@ -4,10 +4,10 @@ title: IUPnPAddressFamilyControl::GetAddressFamily
 author: windows-sdk-content
 description: The GetAddressFamily method retrieves the current value of the address family flag of the Device Finder object.
 old-location: upnp\iupnpaddressfamilycontrol_getaddressfamily.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: 3ad0897e-e128-4b49-92c1-eaf2ac516c3b
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 04/26/2018
 ms.keywords: GetAddressFamily, GetAddressFamily method [UPnP APIs], GetAddressFamily method [UPnP APIs],IUPnPAddressFamilyControl interface, IUPnPAddressFamilyControl interface [UPnP APIs],GetAddressFamily method, IUPnPAddressFamilyControl.GetAddressFamily, IUPnPAddressFamilyControl::GetAddressFamily, UPNP_ADDRESSFAMILY_BOTH, UPNP_ADDRESSFAMILY_IPv4, UPNP_ADDRESSFAMILY_IPv6, upnp.iupnpaddressfamilycontrol_getaddressfamily, upnp/IUPnPAddressFamilyControl::GetAddressFamily
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\iamcrossbar_get_crossbarpininfo.htm
 old-project: DirectShow
 ms.assetid: 29cda12e-a731-4995-8e0c-69dfcda6f158
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: FALSE, IAMCrossbar interface [DirectShow],get_CrossbarPinInfo method, IAMCrossbar.get_CrossbarPinInfo, IAMCrossbar::get_CrossbarPinInfo, IAMCrossbarget_CrossbarPinInfo, TRUE, dshow.iamcrossbar_get_crossbarpininfo, get_CrossbarPinInfo, get_CrossbarPinInfo method [DirectShow], get_CrossbarPinInfo method [DirectShow],IAMCrossbar interface, strmif/IAMCrossbar::get_CrossbarPinInfo
 ms.prod: windows
 ms.technology: windows-sdk

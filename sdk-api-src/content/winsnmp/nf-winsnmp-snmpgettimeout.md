@@ -4,10 +4,10 @@ title: SnmpGetTimeout function
 author: windows-sdk-content
 description: The WinSNMP SnmpGetTimeout function returns the time-out value, in hundredths of a second, for the transmission of SNMP message requests.
 old-location: snmp\snmpgettimeout.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 95f7afad-241c-473a-8041-3d1642f9d1fe
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SnmpGetTimeout, SnmpGetTimeout function [SNMP], _snmp_snmpgettimeout, snmp.snmpgettimeout, winsnmp/SnmpGetTimeout
 ms.prod: windows
 ms.technology: windows-sdk

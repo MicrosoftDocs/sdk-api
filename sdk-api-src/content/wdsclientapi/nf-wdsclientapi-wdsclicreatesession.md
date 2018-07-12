@@ -4,10 +4,10 @@ title: WdsCliCreateSession function
 author: windows-sdk-content
 description: Starts a new session with a WDS server.
 old-location: wds\wdsclicreatesession.htm
-old-project: Wds
+old-project: wds
 ms.assetid: c66801b2-ad5c-464b-ace3-269214621c20
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: WdsCliCreateSession, WdsCliCreateSession function [Windows Deployment Services], wds.wdsclicreatesession, wdsclientapi/WdsCliCreateSession
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: SetFileIoOverlappedRange function
 author: windows-sdk-content
 description: Associates a virtual address range with the specified file handle.
 old-location: fs\setfileiooverlappedrange_func.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 4e7eff5e-2877-4524-8f76-55d41afe521d
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: SetFileIoOverlappedRange, SetFileIoOverlappedRange function [Files], fileapi/SetFileIoOverlappedRange, fs.setfileiooverlappedrange_func
 ms.prod: windows
 ms.technology: windows-sdk

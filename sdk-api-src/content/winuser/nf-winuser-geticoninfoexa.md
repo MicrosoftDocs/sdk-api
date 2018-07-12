@@ -7,7 +7,7 @@ old-location: menurc\geticoninfoex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\geticoninfoex.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: GetIconInfoEx, GetIconInfoEx function [Menus and Other Resources], GetIconInfoExA, GetIconInfoExW, IDC_APPSTARTING, IDC_ARROW, IDC_CROSS, IDC_HAND, IDC_HELP, IDC_IBEAM, IDC_NO, IDC_SIZEALL, IDC_SIZENESW, IDC_SIZENS, IDC_SIZENWSE, IDC_SIZEWE, IDC_UPARROW, IDC_WAIT, IDI_APPLICATION, IDI_ASTERISK, IDI_EXCLAMATION, IDI_HAND, IDI_QUESTION, IDI_WINLOGO, _win32_GetIconInfoEx, _win32_geticoninfoex_cpp, menurc.geticoninfoex, winui._win32_geticoninfoex, winuser/GetIconInfoEx, winuser/GetIconInfoExA, winuser/GetIconInfoExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

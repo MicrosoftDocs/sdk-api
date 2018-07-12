@@ -4,10 +4,10 @@ title: ISCluster::get_ResourceGroups
 author: windows-sdk-content
 description: Returns the groups in a cluster.
 old-location: mscs\cluster_resourcegroups.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 449e4432-571c-403c-81c7-da50f455224c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: Cluster object [Failover Cluster],ResourceGroups property, Cluster.ResourceGroups, ISCluster.get_ResourceGroups, ISCluster::get_ResourceGroups, ResourceGroups property [Failover Cluster], ResourceGroups property [Failover Cluster],Cluster object, _wolf_cluster.resourcegroups, get_ResourceGroups, mscs.cluster_resourcegroups
 ms.prod: windows
 ms.technology: windows-sdk

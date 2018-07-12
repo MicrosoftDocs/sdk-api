@@ -4,10 +4,10 @@ title: MapiMessage
 author: windows-sdk-content
 description: A MapiMessage structure contains information about a message. For Unicode support, use the MapiMessageW structure.
 old-location: mapi\mapimessage.htm
-old-project: WindowsMAPI
+old-project: windowsmapi
 ms.assetid: 7f696dd6-bfae-4c7d-b55f-d37952691c02
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: "*lpMapiMessage, MAPI_RECEIPT_REQUESTED, MAPI_SENT, MAPI_UNREAD, MapiMessage, MapiMessage structure, lpMapiMessage, lpMapiMessage structure pointer, mapi.mapimessage, mapi/MapiMessage, mapi/lpMapiMessage"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IActionCollection
 author: windows-sdk-content
 description: Contains the actions that are performed by the task.
 old-location: taskschd\iactioncollection.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: aa7781b6-2600-4af5-95b8-2ac7928946fa
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IActionCollection, IActionCollection interface [Task Scheduler], IActionCollection interface [Task Scheduler],described, actions [Task Scheduler],collection interface, taskschd.iactioncollection, taskschd/IActionCollection
 ms.prod: windows
 ms.technology: windows-sdk

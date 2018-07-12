@@ -4,10 +4,10 @@ title: INetFwOpenPort::get_RemoteAddresses
 author: windows-sdk-content
 description: Specifies a set of remote addresses from which the port can listen for traffic.
 old-location: ics\inetfwopenport_remoteaddresses.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 5c38a9fc-b7d9-436d-92e6-8b0aec5e8628
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetFwOpenPort interface [ICS/ICF],RemoteAddresses property, INetFwOpenPort.RemoteAddresses, INetFwOpenPort.get_RemoteAddresses, INetFwOpenPort::RemoteAddresses, INetFwOpenPort::get_RemoteAddresses, INetFwOpenPort::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwOpenPort interface, get_RemoteAddresses, ics.inetfwopenport_remoteaddresses, netfw/INetFwOpenPort::RemoteAddresses, netfw/INetFwOpenPort::get_RemoteAddresses, netfw/INetFwOpenPort::put_RemoteAddresses
 ms.prod: windows
 ms.technology: windows-sdk

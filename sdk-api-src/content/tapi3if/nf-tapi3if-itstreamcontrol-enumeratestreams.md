@@ -4,10 +4,10 @@ title: ITStreamControl::EnumerateStreams
 author: windows-sdk-content
 description: The EnumerateStreams method enumerates currently available media streams. Provided for C and C++ applications. Automation client applications such as Visual Basic must use the get_Streams method.
 old-location: tapi3\itstreamcontrol_enumeratestreams.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: de018f3e-d3b9-4093-a2b5-4929ac4d1d2a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: EnumerateStreams, EnumerateStreams method [TAPI 2.2], EnumerateStreams method [TAPI 2.2],ITStreamControl interface, ITStreamControl interface [TAPI 2.2],EnumerateStreams method, ITStreamControl.EnumerateStreams, ITStreamControl::EnumerateStreams, _tapi3_itstreamcontrol_enumeratestreams, tapi3.itstreamcontrol_enumeratestreams, tapi3if/ITStreamControl::EnumerateStreams
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,8 +120,8 @@ The <i>ppEnumStream</i> parameter is not a valid pointer.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/52e8c040-8bc5-4c9c-a697-ec05164adea2">IEnumStream</a> interface returned by <b>ITStreamControl::EnumerateStreams</b>. The application must call <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/52e8c040-8bc5-4c9c-a697-ec05164adea2">IEnumStream</a> interface returned by <b>ITStreamControl::EnumerateStreams</b>. The application must call <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">Release</a> on the 
 <b>IEnumStream</b> interface to free resources associated with it.
 
 

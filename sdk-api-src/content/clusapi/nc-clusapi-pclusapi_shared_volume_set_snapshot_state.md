@@ -4,10 +4,10 @@ title: PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE
 author: windows-sdk-content
 description: Updates the state of a snapshot of a cluster shared volume.
 old-location: mscs\clustersharedvolumesetsnapshotstate.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: B264CF0E-33FD-44F9-B91E-2F90C35D09AC
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE, PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE callback, PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE callback function [Failover Cluster], clusapi/PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE, mscs.clustersharedvolumesetsnapshotstate
 ms.prod: windows
 ms.technology: windows-sdk

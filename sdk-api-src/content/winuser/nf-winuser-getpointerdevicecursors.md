@@ -7,7 +7,7 @@ old-location: input_pointerdevice\getpointerdevicecursors.htm
 old-project: Input_PointerDevice
 ms.assetid: 4dd25033-e63a-4fa9-89b9-bfcae4061a76
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 03/27/2018
 ms.keywords: GetPointerDeviceCursors, GetPointerDeviceCursors function, input_pointerdevice.getpointerdevicecursors, unifiedinputstack.getpointerdevicecursors, winuser/GetPointerDeviceCursors
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

@@ -4,10 +4,10 @@ title: "_VDS_LUN_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a LUN.
 old-location: base\vds_lun_status.htm
-old-project: VDS
+old-project: vds
 ms.assetid: dac82973-d8c0-430b-aeea-163af7d94d24
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: "*PVDS_LUN_STATUS, VDS_LS_FAILED, VDS_LS_NOT_READY, VDS_LS_OFFLINE, VDS_LS_ONLINE, VDS_LS_UNKNOWN, VDS_LUN_STATUS, VDS_LUN_STATUS enumeration [VDS], _VDS_LUN_STATUS, base.vds_lun_status, vds/VDS_LS_FAILED, vds/VDS_LS_NOT_READY, vds/VDS_LS_OFFLINE, vds/VDS_LS_ONLINE, vds/VDS_LS_UNKNOWN, vds/VDS_LUN_STATUS, vdshwprv/VDS_LS_FAILED, vdshwprv/VDS_LS_NOT_READY, vdshwprv/VDS_LS_OFFLINE, vdshwprv/VDS_LS_ONLINE, vdshwprv/VDS_LS_UNKNOWN, vdshwprv/VDS_LUN_STATUS"
 ms.prod: windows
 ms.technology: windows-sdk

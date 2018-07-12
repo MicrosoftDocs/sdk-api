@@ -7,7 +7,7 @@ old-location: search\_search_ISchemaProvider_MetaData.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\metadata.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISchemaProvider interface [search],MetaData method, ISchemaProvider.MetaData, ISchemaProvider::MetaData, MetaData, MetaData method [search], MetaData method [search],ISchemaProvider interface, _search_ISchemaProvider_MetaData, search._search_ISchemaProvider_MetaData, structuredquery/ISchemaProvider::MetaData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ Type: <b>REFIID</b>
 Type: <b>void**</b>
 
 
-          Receives a pointer to an enumeration of the <a href="https://msdn.microsoft.com/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects. The calling application must release it by calling its <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+          Receives a pointer to an enumeration of the <a href="https://msdn.microsoft.com/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects. The calling application must release it by calling its <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
         
 
 

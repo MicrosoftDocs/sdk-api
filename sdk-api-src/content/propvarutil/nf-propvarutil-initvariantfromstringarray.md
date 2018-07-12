@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromStringArray.htm
 old-project: properties
 ms.assetid: f46cfc71-9e27-4ba1-8a32-5b279b628732
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: InitVariantFromStringArray, InitVariantFromStringArray function [Windows Properties], _shell_InitVariantFromStringArray, properties.InitVariantFromStringArray, propvarutil/InitVariantFromStringArray, shell.InitVariantFromStringArray
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: menurc\verlanguagename.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verlanguagename.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: VerLanguageName, VerLanguageName function [Menus and Other Resources], VerLanguageNameA, VerLanguageNameW, _win32_VerLanguageName, _win32_verlanguagename_cpp, menurc.verlanguagename, winui._win32_verlanguagename, winver/VerLanguageName, winver/VerLanguageNameA, winver/VerLanguageNameW
 ms.prod: windows
 ms.technology: windows-sdk

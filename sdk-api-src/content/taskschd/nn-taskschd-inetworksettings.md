@@ -4,10 +4,10 @@ title: INetworkSettings
 author: windows-sdk-content
 description: Provides the settings that the Task Scheduler service uses to obtain a network profile.
 old-location: taskschd\inetworksettings.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 831e1259-df2b-4b03-8336-706727fd7b14
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: INetworkSettings, INetworkSettings interface [Task Scheduler], INetworkSettings interface [Task Scheduler],described, taskschd.inetworksettings, taskschd/INetworkSettings
 ms.prod: windows
 ms.technology: windows-sdk

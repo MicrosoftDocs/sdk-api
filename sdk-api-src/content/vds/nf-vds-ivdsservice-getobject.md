@@ -4,10 +4,10 @@ title: IVdsService::GetObject
 author: windows-sdk-content
 description: Returns an object pointer for the identified object.
 old-location: base\ivdsservice_getobject.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 622a95a4-0e8c-4f65-a935-61cb48379065
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: GetObject, GetObject method [VDS], GetObject method [VDS],IVdsService interface, IVdsService interface [VDS],GetObject method, IVdsService.GetObject, IVdsService::GetObject, base.ivdsservice_getobject, vds/IVdsService::GetObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ The GUID of the desired object.
 
 ### -param ppObjectUnk [out]
 
-A pointer to a buffer that receives the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer to the object. When the pointer is no longer needed, the caller should release it by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method. 
+A pointer to a buffer that receives the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer to the object. When the pointer is no longer needed, the caller should release it by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method. 
 
 
 ## -returns

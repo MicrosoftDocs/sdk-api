@@ -7,7 +7,7 @@ old-location: winsock\wpuqueueapc_2.htm
 old-project: WinSock
 ms.assetid: 4326547e-85e2-409c-9f36-aa013853dfd9
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: WPUQueueApc, WPUQueueApc function [Winsock], _win32_wpuqueueapc_2, winsock.wpuqueueapc_2, ws2spi/WPUQueueApc
 ms.prod: windows
 ms.technology: windows-sdk

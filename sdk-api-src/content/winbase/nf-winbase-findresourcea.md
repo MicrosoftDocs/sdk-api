@@ -7,7 +7,7 @@ old-location: menurc\findresource.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\findresource.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: FindResource, FindResource function [Menus and Other Resources], FindResourceA, FindResourceW, _win32_FindResource, _win32_findresource_cpp, menurc.findresource, winbase/FindResource, winbase/FindResourceA, winbase/FindResourceW, winui._win32_findresource
 ms.prod: windows
 ms.technology: windows-sdk

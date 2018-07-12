@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescriptionRelatedPropertyInfo_GetRelatedPrope
 old-project: properties
 ms.assetid: 735880dc-4cf2-4f4a-b9fc-f4dddd19415d
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: GetRelatedProperty, GetRelatedProperty method [Windows Properties], GetRelatedProperty method [Windows Properties],IPropertyDescriptionRelatedPropertyInfo interface, IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties],GetRelatedProperty method, IPropertyDescriptionRelatedPropertyInfo.GetRelatedProperty, IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty, _shell_IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty, properties.IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty, propsys/IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty, shell.IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty
 ms.prod: windows
 ms.technology: windows-sdk

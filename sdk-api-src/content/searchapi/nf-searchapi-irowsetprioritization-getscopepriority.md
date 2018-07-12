@@ -7,7 +7,7 @@ old-location: search\_search_IRowsetPrioritization_GetScopePriority.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetprioritization\getscopepriority.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetScopePriority, GetScopePriority method [search], GetScopePriority method [search],IRowsetPrioritization interface, IRowsetPrioritization interface [search],GetScopePriority method, IRowsetPrioritization.GetScopePriority, IRowsetPrioritization::GetScopePriority, _search_IRowsetPrioritization_GetScopePriority, search._search_IRowsetPrioritization_GetScopePriority, searchapi/IRowsetPrioritization::GetScopePriority
 ms.prod: windows
 ms.technology: windows-sdk

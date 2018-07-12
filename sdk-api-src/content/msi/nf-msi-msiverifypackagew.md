@@ -4,10 +4,10 @@ title: MsiVerifyPackageW function
 author: windows-sdk-content
 description: The MsiVerifyPackage function verifies that the given file is an installation package.
 old-location: setup\msiverifypackage.htm
-old-project: Msi
+old-project: msi
 ms.assetid: f5b48e5e-cafb-4ab8-8c14-0af5784f2ca6
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: MsiVerifyPackage, MsiVerifyPackage function, MsiVerifyPackageA, MsiVerifyPackageW, _msi_msiverifypackage, msi/MsiVerifyPackage, msi/MsiVerifyPackageA, msi/MsiVerifyPackageW, setup.msiverifypackage
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParser_Parse.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\parse.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IQueryParser interface [search],Parse method, IQueryParser.Parse, IQueryParser::Parse, Parse, Parse method [search], Parse method [search],IQueryParser interface, _search_IQueryParser_Parse, search._search_IQueryParser_Parse, structuredquery/IQueryParser::Parse
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/ms683764(v=VS.85).aspx">IEn
 Type: <b><a href="https://msdn.microsoft.com/library/Bb231346(v=VS.85).aspx">IQuerySolution</a>**</b>
 
 
-        Receives an <a href="https://msdn.microsoft.com/library/Bb231346(v=VS.85).aspx">IQuerySolution</a> object. The caller must release it by calling its <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+        Receives an <a href="https://msdn.microsoft.com/library/Bb231346(v=VS.85).aspx">IQuerySolution</a> object. The caller must release it by calling its <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

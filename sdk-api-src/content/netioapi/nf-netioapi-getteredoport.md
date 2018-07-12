@@ -4,10 +4,10 @@ title: GetTeredoPort function
 author: windows-sdk-content
 description: Retrieves the dynamic UDP port number used by the Teredo client on the local computer.
 old-location: iphlp\getteredoport.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 59d3764d-e560-4474-a73e-ab50bbddbf07
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: GetTeredoPort, GetTeredoPort function [IP Helper], iphlp.getteredoport, netioapi/GetTeredoPort
 ms.prod: windows
 ms.technology: windows-sdk

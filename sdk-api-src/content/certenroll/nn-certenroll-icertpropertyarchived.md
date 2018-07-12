@@ -4,10 +4,10 @@ title: ICertPropertyArchived
 author: windows-sdk-content
 description: Represents a certificate property that identifies whether a certificate has been archived.
 old-location: security\icertpropertyarchived.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 81219ad9-4717-40e5-9ecd-d3df980e23c6
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICertPropertyArchived, ICertPropertyArchived interface [Security], ICertPropertyArchived interface [Security],described, certenroll/ICertPropertyArchived, security.icertpropertyarchived
 ms.prod: windows
 ms.technology: windows-sdk

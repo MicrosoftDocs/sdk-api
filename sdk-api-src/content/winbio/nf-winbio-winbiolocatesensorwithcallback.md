@@ -4,10 +4,10 @@ title: WinBioLocateSensorWithCallback function
 author: windows-sdk-content
 description: Asynchronously retrieves the ID number of the biometric unit selected interactively by a user.
 old-location: secbiomet\winbiolocatesensorwithcallback.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: d94db51b-67da-477a-82e6-c92da756f017
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: WinBioLocateSensorWithCallback, WinBioLocateSensorWithCallback function [Windows Biometric Framework API], secbiomet.winbiolocatesensorwithcallback, winbio/WinBioLocateSensorWithCallback
 ms.prod: windows
 ms.technology: windows-sdk

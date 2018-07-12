@@ -4,10 +4,10 @@ title: IRDPSRAPIApplicationFilter
 author: windows-sdk-content
 description: Manages the shared desktop area at the window and process level. Applications can use the enumerators to display lists of objects in the session that can be shared.
 old-location: rdp\irdpsrapiapplicationfilter.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: 6a08c948-1b25-4a36-93c8-23e7e3f4fb08
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 03/29/2018
 ms.keywords: IRDPSRAPIApplicationFilter, IRDPSRAPIApplicationFilter interface [RDP], IRDPSRAPIApplicationFilter interface [RDP],described, rdp.irdpsrapiapplicationfilter, rdpencomapi/IRDPSRAPIApplicationFilter
 ms.prod: windows
 ms.technology: windows-sdk

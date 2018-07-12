@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_class_getmethodcount.htm
 old-project: wmi_v2
 ms.assetid: 7190273e-bed5-4888-87c6-7e2d44aae703
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_Class_GetMethodCount, MI_Class_GetMethodCount function [Windows Management Infrastructure (MI)], mi/MI_Class_GetMethodCount, wmi_v2.mi_class_getmethodcount
 ms.prod: windows
 ms.technology: windows-sdk

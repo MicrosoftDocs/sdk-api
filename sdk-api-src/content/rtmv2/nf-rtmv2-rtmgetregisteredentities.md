@@ -4,10 +4,10 @@ title: RtmGetRegisteredEntities function
 author: windows-sdk-content
 description: The RtmGetRegisteredEntities function returns information about all clients that have registered with the specified instance of the routing table manager and specified address family.
 old-location: rras\rtmgetregisteredentities.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 411e15bc-7f47-4ef7-9400-292203b581af
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RtmGetRegisteredEntities, RtmGetRegisteredEntities function [RAS], _rtmv2ref_rtmgetregisteredentities, rras.rtmgetregisteredentities, rtmv2/RtmGetRegisteredEntities
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\createdxgifactory.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\createdxgifactory.htm
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: CreateDXGIFactory, CreateDXGIFactory function [DXGI], direct3ddxgi.createdxgifactory, dxgi/CreateDXGIFactory, f8906daa-c399-a76f-d487-e1f2ee03b8a8
 ms.prod: windows
 ms.technology: windows-sdk

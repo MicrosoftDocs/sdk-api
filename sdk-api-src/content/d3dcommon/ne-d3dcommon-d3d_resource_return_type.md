@@ -2,13 +2,13 @@
 UID: NE:d3dcommon.D3D_RESOURCE_RETURN_TYPE
 title: D3D_RESOURCE_RETURN_TYPE
 author: windows-sdk-content
-description: Values that identify the return type of a resource.
-old-location: direct3d11\d3d_resource_return_type.htm
-old-project: direct3d11
-ms.assetid: 3da3f315-9f92-4557-93b8-94aff42a91fe
+description: The return type of a resource. See D3D10_SHADER_INPUT_BIND_DESC.
+old-location: direct3d10\d3d10_resource_return_type.htm
+old-project: direct3d10
+ms.assetid: VS|directx_sdk|~\d3d10_resource_return_type.htm
 ms.author: windowssdkdev
-ms.date: 04/06/2018
-ms.keywords: D3D10_RETURN_TYPE_FLOAT, D3D10_RETURN_TYPE_MIXED, D3D10_RETURN_TYPE_SINT, D3D10_RETURN_TYPE_SNORM, D3D10_RETURN_TYPE_UINT, D3D10_RETURN_TYPE_UNORM, D3D11_RETURN_TYPE_CONTINUED, D3D11_RETURN_TYPE_DOUBLE, D3D11_RETURN_TYPE_FLOAT, D3D11_RETURN_TYPE_MIXED, D3D11_RETURN_TYPE_SINT, D3D11_RETURN_TYPE_SNORM, D3D11_RETURN_TYPE_UINT, D3D11_RETURN_TYPE_UNORM, D3D_RESOURCE_RETURN_TYPE, D3D_RESOURCE_RETURN_TYPE enumeration [Direct3D 11], D3D_RETURN_TYPE_CONTINUED, D3D_RETURN_TYPE_DOUBLE, D3D_RETURN_TYPE_FLOAT, D3D_RETURN_TYPE_MIXED, D3D_RETURN_TYPE_SINT, D3D_RETURN_TYPE_SNORM, D3D_RETURN_TYPE_UINT, D3D_RETURN_TYPE_UNORM, d3dcommon/D3D10_RETURN_TYPE_FLOAT, d3dcommon/D3D10_RETURN_TYPE_MIXED, d3dcommon/D3D10_RETURN_TYPE_SINT, d3dcommon/D3D10_RETURN_TYPE_SNORM, d3dcommon/D3D10_RETURN_TYPE_UINT, d3dcommon/D3D10_RETURN_TYPE_UNORM, d3dcommon/D3D11_RETURN_TYPE_CONTINUED, d3dcommon/D3D11_RETURN_TYPE_DOUBLE, d3dcommon/D3D11_RETURN_TYPE_FLOAT, d3dcommon/D3D11_RETURN_TYPE_MIXED, d3dcommon/D3D11_RETURN_TYPE_SINT, d3dcommon/D3D11_RETURN_TYPE_SNORM, d3dcommon/D3D11_RETURN_TYPE_UINT, d3dcommon/D3D11_RETURN_TYPE_UNORM, d3dcommon/D3D_RESOURCE_RETURN_TYPE, d3dcommon/D3D_RETURN_TYPE_CONTINUED, d3dcommon/D3D_RETURN_TYPE_DOUBLE, d3dcommon/D3D_RETURN_TYPE_FLOAT, d3dcommon/D3D_RETURN_TYPE_MIXED, d3dcommon/D3D_RETURN_TYPE_SINT, d3dcommon/D3D_RETURN_TYPE_SNORM, d3dcommon/D3D_RETURN_TYPE_UINT, d3dcommon/D3D_RETURN_TYPE_UNORM, direct3d11.d3d_resource_return_type
+ms.date: 06/29/2018
+ms.keywords: D3D10_RESOURCE_RETURN_TYPE, D3D10_RESOURCE_RETURN_TYPE enumeration [Direct3D 10], D3D10_RETURN_TYPE_FLOAT, D3D10_RETURN_TYPE_MIXED, D3D10_RETURN_TYPE_SINT, D3D10_RETURN_TYPE_SNORM, D3D10_RETURN_TYPE_UINT, D3D10_RETURN_TYPE_UNORM, D3D_RESOURCE_RETURN_TYPE, b94e184e-c3af-ff27-27e0-19f7b353b053, d3d10shader/D3D10_RESOURCE_RETURN_TYPE, d3d10shader/D3D10_RETURN_TYPE_FLOAT, d3d10shader/D3D10_RETURN_TYPE_MIXED, d3d10shader/D3D10_RETURN_TYPE_SINT, d3d10shader/D3D10_RETURN_TYPE_SNORM, d3d10shader/D3D10_RETURN_TYPE_UINT, d3d10shader/D3D10_RETURN_TYPE_UNORM, d3dcommon/D3D10_RESOURCE_RETURN_TYPE, d3dcommon/D3D10_RETURN_TYPE_FLOAT, d3dcommon/D3D10_RETURN_TYPE_MIXED, d3dcommon/D3D10_RETURN_TYPE_SINT, d3dcommon/D3D10_RETURN_TYPE_SNORM, d3dcommon/D3D10_RETURN_TYPE_UINT, d3dcommon/D3D10_RETURN_TYPE_UNORM, direct3d10.d3d10_resource_return_type
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
@@ -34,9 +34,10 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - D3DCommon.h
+ - D3D10shader.h
+ - d3dcommon.h
 api_name:
- - D3D_RESOURCE_RETURN_TYPE
+ - D3D10_RESOURCE_RETURN_TYPE
 product: Windows
 targetos: Windows
 req.lib: D3d9.lib
@@ -50,7 +51,7 @@ req.irql:
 ## -description
 
 
-Values that identify the return type of a resource.
+The return type of a resource. See <a href="https://msdn.microsoft.com/8929f7d4-6fd0-4b48-b1d8-0b089d4c730d">D3D10_SHADER_INPUT_BIND_DESC</a>.
 
 
 ## -enum-fields
@@ -60,42 +61,26 @@ Values that identify the return type of a resource.
 
 ### -field D3D_RETURN_TYPE_UNORM
 
-Return type is an unsigned integer value normalized to a value between 0 and 1.
-
 
 ### -field D3D_RETURN_TYPE_SNORM
-
-Return type is a signed integer value normalized to a value between -1 and 1.
 
 
 ### -field D3D_RETURN_TYPE_SINT
 
-Return type is a signed integer.
-
 
 ### -field D3D_RETURN_TYPE_UINT
-
-Return type is an unsigned integer.
 
 
 ### -field D3D_RETURN_TYPE_FLOAT
 
-Return type is a floating-point number.
-
 
 ### -field D3D_RETURN_TYPE_MIXED
-
-Return type is unknown.
 
 
 ### -field D3D_RETURN_TYPE_DOUBLE
 
-Return type is a double-precision value.
-
 
 ### -field D3D_RETURN_TYPE_CONTINUED
-
-Return type is a multiple-dword type, such as a double or uint64, and the component is continued from the previous component that was declared.  The first component represents the lower bits.
 
 
 ### -field D3D10_RETURN_TYPE_UNORM
@@ -125,55 +110,52 @@ Floating-point number.
 
 ### -field D3D10_RETURN_TYPE_MIXED
 
-Return type is unknown.
+Reserved.
 
 
 ### -field D3D11_RETURN_TYPE_UNORM
 
-Return type is an unsigned integer value normalized to a value between 0 and 1.
-
 
 ### -field D3D11_RETURN_TYPE_SNORM
-
-Return type is a signed integer value normalized to a value between -1 and 1.
 
 
 ### -field D3D11_RETURN_TYPE_SINT
 
-Return type is a signed integer.
-
 
 ### -field D3D11_RETURN_TYPE_UINT
-
-Return type is an unsigned integer.
 
 
 ### -field D3D11_RETURN_TYPE_FLOAT
 
-Return type is a floating-point number.
-
 
 ### -field D3D11_RETURN_TYPE_MIXED
-
-Return type is unknown.
 
 
 ### -field D3D11_RETURN_TYPE_DOUBLE
 
-Return type is a double-precision value.
-
 
 ### -field D3D11_RETURN_TYPE_CONTINUED
 
-Return type is a multiple-dword type, such as a double or uint64, and the component is continued from the previous component that was declared.  The first component represents the lower bits.
+
 
 
 ## -remarks
 
 
 
-A resource return type is specified in the <b>ReturnType</b> member of the <a href="https://msdn.microsoft.com/384ad8f8-0991-4cd2-bb3d-76b8338686da">D3D11_SHADER_INPUT_BIND_DESC</a> structure.
+The    <b>D3D10_RESOURCE_RETURN_TYPE</b> enumeration is type defined in the  D3D10shader.h header file as a <a href="https://msdn.microsoft.com/3da3f315-9f92-4557-93b8-94aff42a91fe">D3D_RESOURCE_RETURN_TYPE</a> enumeration, which is fully defined in the  D3DCommon.h header file.
 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
+typedef D3D_RESOURCE_RETURN_TYPE D3D10_RESOURCE_RETURN_TYPE;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -182,7 +164,7 @@ A resource return type is specified in the <b>ReturnType</b> member of the <a hr
 
 
 
-<a href="https://msdn.microsoft.com/002154d5-74a6-48fb-b55f-8687e4505fc7">Common Version Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
  
 
  

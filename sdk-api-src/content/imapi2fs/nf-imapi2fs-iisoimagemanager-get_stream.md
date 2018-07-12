@@ -7,7 +7,7 @@ old-location: imapi\iisoimagemanager_get_stream.htm
 old-project: imapi
 ms.assetid: 0655edb2-5dce-4428-b883-984ef53712cd
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IIsoImageManager interface [IMAPI],get_Stream method, IIsoImageManager.get_Stream, IIsoImageManager::get_Stream, get_Stream, get_Stream method [IMAPI], get_Stream method [IMAPI],IIsoImageManager interface, imapi.iisoimagemanager_get_stream, imapi2fs/IIsoImageManager::get_Stream
 ms.prod: windows
 ms.technology: windows-sdk

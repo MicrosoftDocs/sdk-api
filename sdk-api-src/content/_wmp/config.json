@@ -10,6 +10,5 @@
     "contentpartner.h",
     "subscriptionservices.h",
     "wmpdevices.h"
-  ],
-  "displayName": "Windows Media Player SDK"
+  ]
 }

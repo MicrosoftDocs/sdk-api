@@ -4,10 +4,10 @@ title: "_QOS_DIFFSERV"
 author: windows-sdk-content
 description: The QOS_DIFFSERV traffic control object is used to specify filters for the packet scheduler when it operates in Differentiated Services Mode.
 old-location: qos\qos_diffserv.htm
-old-project: QOS
+old-project: qos
 ms.assetid: 3d1035dc-0e46-46f4-abb3-26100356b60d
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: "*LPQOS_DIFFSERV, LPQOS_DIFFSERV, LPQOS_DIFFSERV structure pointer [QOS], QOS_DIFFSERV, QOS_DIFFSERV structure [QOS], _QOS_DIFFSERV, _gqos_qos_diffserv, qos.qos_diffserv, qosobjs/LPQOS_DIFFSERV, qosobjs/QOS_DIFFSERV"
 ms.prod: windows
 ms.technology: windows-sdk

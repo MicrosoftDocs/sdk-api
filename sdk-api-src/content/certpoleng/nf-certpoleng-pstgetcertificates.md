@@ -7,7 +7,7 @@ old-location: security\pstgetcertificates.htm
 old-project: SecAuthN
 ms.assetid: 3dfe3a7b-aefd-487a-a826-065e80f21eb5
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: PstGetCertificates, PstGetCertificates function [Security], certpoleng/PstGetCertificates, security.pstgetcertificates
 ms.prod: windows
 ms.technology: windows-sdk

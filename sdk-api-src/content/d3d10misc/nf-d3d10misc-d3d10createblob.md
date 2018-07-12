@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10createblob.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10createblob.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 5f032879-d10b-8a54-5b40-9fa1e178b0d5, D3D10CreateBlob, D3D10CreateBlob function [Direct3D 10], d3d10misc/D3D10CreateBlob, direct3d10.d3d10createblob
 ms.prod: windows
 ms.technology: windows-sdk

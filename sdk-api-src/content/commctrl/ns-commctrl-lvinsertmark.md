@@ -4,10 +4,10 @@ title: LVINSERTMARK
 author: windows-sdk-content
 description: Used to describe insertion points.
 old-location: controls\LVINSERTMARK.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvinsertmark.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPLVINSERTMARK, LVIM_AFTER, LVINSERTMARK, LVINSERTMARK structure [Windows Controls], PLVINSERTMARK, PLVINSERTMARK structure pointer [Windows Controls], commctrl/LVINSERTMARK, commctrl/PLVINSERTMARK, controls.LVINSERTMARK, controls.inet_LVINSERTMARK, inet_LVINSERTMARK, inet_LVINSERTMARK_cpp"
 ms.prod: windows
 ms.technology: windows-sdk

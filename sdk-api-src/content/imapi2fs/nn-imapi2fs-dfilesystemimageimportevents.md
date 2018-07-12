@@ -7,7 +7,7 @@ old-location: imapi\dfilesystemimageimportevents.htm
 old-project: imapi
 ms.assetid: 972ab985-17c5-4458-a7f4-59ac25c0dca4
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: DFileSystemImageImportEvents, DFileSystemImageImportEvents interface [IMAPI], DFileSystemImageImportEvents interface [IMAPI],described, imapi.dfilesystemimageimportevents, imapi2fs/DFileSystemImageImportEvents
 ms.prod: windows
 ms.technology: windows-sdk

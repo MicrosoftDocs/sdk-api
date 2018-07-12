@@ -7,7 +7,7 @@ old-location: wsw\wsfreewriter.htm
 old-project: wsw
 ms.assetid: eb1eb835-838a-41e4-9e7d-c5c805237f65
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsFreeWriter, WsFreeWriter function [Web Services for Windows], webservices/WsFreeWriter, wsw.wsfreewriter
 ms.prod: windows
 ms.technology: windows-sdk

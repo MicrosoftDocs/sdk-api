@@ -4,10 +4,10 @@ title: IVssExamineWriterMetadata::GetRestoreMethod
 author: windows-sdk-content
 description: The GetRestoreMethod method returns information about how a writer wants its data to be restored.
 old-location: base\ivssexaminewritermetadata_getrestoremethod.htm
-old-project: VSS
+old-project: vss
 ms.assetid: c93f841f-057c-4aee-b8f2-263395e84c7b
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: GetRestoreMethod, GetRestoreMethod method [VSS], GetRestoreMethod method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetRestoreMethod method, IVssExamineWriterMetadata.GetRestoreMethod, IVssExamineWriterMetadata::GetRestoreMethod, _win32_ivssexaminewritermetadata_getrestoremethod, base.ivssexaminewritermetadata_getrestoremethod, vsbackup/IVssExamineWriterMetadata::GetRestoreMethod
 ms.prod: windows
 ms.technology: windows-sdk

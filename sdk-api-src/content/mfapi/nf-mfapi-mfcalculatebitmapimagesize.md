@@ -7,7 +7,7 @@ old-location: mf\mfcalculatebitmapimagesize.htm
 old-project: medfound
 ms.assetid: 67d80db8-996e-4f59-82f0-efd3d4bd8ff0
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 67d80db8-996e-4f59-82f0-efd3d4bd8ff0, MFCalculateBitmapImageSize, MFCalculateBitmapImageSize function [Media Foundation], mf.mfcalculatebitmapimagesize, mfapi/MFCalculateBitmapImageSize
 ms.prod: windows
 ms.technology: windows-sdk

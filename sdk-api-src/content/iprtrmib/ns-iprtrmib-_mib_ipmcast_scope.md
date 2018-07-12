@@ -4,10 +4,10 @@ title: "_MIB_IPMCAST_SCOPE"
 author: windows-sdk-content
 description: Contains a multicast scope name and the associated IPv4 multicast group address and mask that define the scope.
 old-location: mib\mib_ipmcast_scope.htm
-old-project: MIB
+old-project: mib
 ms.assetid: dbdbfdc6-becb-4ad5-9388-c2715d225fb0
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 05/15/2018
 ms.keywords: "*PMIB_IPMCAST_SCOPE, MIB_IPMCAST_SCOPE, MIB_IPMCAST_SCOPE structure [MIB], PMIB_IPMCAST_SCOPE, PMIB_IPMCAST_SCOPE structure pointer [MIB], _MIB_IPMCAST_SCOPE, iprtrmib/MIB_IPMCAST_SCOPE, iprtrmib/PMIB_IPMCAST_SCOPE, mib.mib_ipmcast_scope"
 ms.prod: windows
 ms.technology: windows-sdk

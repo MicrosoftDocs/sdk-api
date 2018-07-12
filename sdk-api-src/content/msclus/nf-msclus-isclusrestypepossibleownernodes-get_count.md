@@ -4,10 +4,10 @@ title: ISClusResTypePossibleOwnerNodes::get_Count
 author: windows-sdk-content
 description: Returns the number of objects in the collection (the number of possible owner nodes listed for a resource type).
 old-location: mscs\clusrestypepossibleownernodes_count.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 3dd07ddc-e07d-483a-b26b-754cea1bd2f2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResTypePossibleOwnerNodes class [Failover Cluster],Count property, ClusResTypePossibleOwnerNodes.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusResTypePossibleOwnerNodes class, ISClusResTypePossibleOwnerNodes.get_Count, ISClusResTypePossibleOwnerNodes::get_Count, _wolf_clusrestypepossibleownernodes.count, get_Count, mscs.clusrestypepossibleownernodes_count
 ms.prod: windows
 ms.technology: windows-sdk

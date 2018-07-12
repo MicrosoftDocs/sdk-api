@@ -4,10 +4,10 @@ title: MprAdminUserSetInfo function
 author: windows-sdk-content
 description: The MprAdminUserSetInfo function sets RAS information for the specified user.
 old-location: rras\mpradminusersetinfo.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 7f4d5213-56b4-43d2-93c8-ee5ca50b2a19
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprAdminUserSetInfo, MprAdminUserSetInfo function [RAS], _mpr_mpradminusersetinfo, mprapi/MprAdminUserSetInfo, rras.mpradminusersetinfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\system_cpu_set_information.htm
 old-project: ProcThread
 ms.assetid: 48C38098-C42E-46D0-B938-CBD0BA7F8586
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: "*PSYSTEM_CPU_SET_INFORMATION, PSYSTEM_CPU_SET_INFORMATION, PSYSTEM_CPU_SET_INFORMATION structure pointer, SYSTEM_CPU_SET_INFORMATION, SYSTEM_CPU_SET_INFORMATION structure, _SYSTEM_CPU_SET_INFORMATION, base.system_cpu_set_information, winnt/PSYSTEM_CPU_SET_INFORMATION, winnt/SYSTEM_CPU_SET_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

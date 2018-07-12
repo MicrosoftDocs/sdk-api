@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidecodeswapchain.htm
 old-project: direct3ddxgi
 ms.assetid: 814EDDA6-EFEA-4281-BE06-9FF8822B4927
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: IDXGIDecodeSwapChain, IDXGIDecodeSwapChain interface [DXGI], IDXGIDecodeSwapChain interface [DXGI],described, direct3ddxgi.idxgidecodeswapchain, dxgi1_3/IDXGIDecodeSwapChain
 ms.prod: windows
 ms.technology: windows-sdk

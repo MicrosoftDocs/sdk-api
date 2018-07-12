@@ -4,10 +4,10 @@ title: RpcNsBindingExportA function
 author: windows-sdk-content
 description: The RpcNsBindingExport function establishes a name service&#8211;database entry with multiple binding handles and multiple objects for a server.
 old-location: rpc\rpcnsbindingexport.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: c89d04d7-f607-48cc-8cb6-b6aebab41671
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RpcNsBindingExport, RpcNsBindingExport function [RPC], RpcNsBindingExportA, RpcNsBindingExportW, _rpc_rpcnsbindingexport, rpc.rpcnsbindingexport, rpcnsi/RpcNsBindingExport, rpcnsi/RpcNsBindingExportA, rpcnsi/RpcNsBindingExportW
 ms.prod: windows
 ms.technology: windows-sdk

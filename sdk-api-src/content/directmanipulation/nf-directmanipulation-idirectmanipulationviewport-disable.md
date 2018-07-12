@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_disable.htm
 old-project: directmanipulation
 ms.assetid: ac4f3cbe-2769-468e-abe3-07b76ada5d7e
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: Disable, Disable method [Direct Manipulation], Disable method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],Disable method, IDirectManipulationViewport.Disable, IDirectManipulationViewport::Disable, directmanipulation.idirectmanipulationviewport_disable, directmanipulation/IDirectManipulationViewport::Disable
 ms.prod: windows
 ms.technology: windows-sdk

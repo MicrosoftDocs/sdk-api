@@ -7,7 +7,7 @@ old-location: termserv\iwtsvirtualchannelcallback.htm
 old-project: TermServ
 ms.assetid: d90c6f80-ed4c-4b99-af85-d2c5816ade85
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: IWTSVirtualChannelCallback, IWTSVirtualChannelCallback interface [Remote Desktop Services], IWTSVirtualChannelCallback interface [Remote Desktop Services],described, termserv.iwtsvirtualchannelcallback, tsvirtualchannels/IWTSVirtualChannelCallback
 ms.prod: windows
 ms.technology: windows-sdk

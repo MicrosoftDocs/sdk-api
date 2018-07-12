@@ -4,10 +4,10 @@ title: IVssExamineWriterMetadataEx2
 author: windows-sdk-content
 description: Defines methods to retrieve version information and other basic information for a specific writer instance.
 old-location: base\ivssexaminewritermetadataex2.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 1ef5a83c-8f63-4884-8b70-a8241ba4857b
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: IVssExamineWriterMetadataEx2, IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,described, base.ivssexaminewritermetadataex2, vsbackup/IVssExamineWriterMetadataEx2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ Your writer application should implement this interface only if you need to use 
 The <b>IVssExamineWriterMetadataEx2</b> interface is a C++ (not COM) interface.
 
 To obtain an instance of the <b>IVssExamineWriterMetadataEx2</b> 
-   interface, call the <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> method of the 
+   interface, call the <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> method of the 
    <a href="https://msdn.microsoft.com/b3aa04d9-7299-4e3a-b092-d07f2de6eefe">IVssExamineWriterMetadata</a> interface, and pass  
    the <b>IID_IVssExamineWriterMetadataEx2</b> constant as the interface identifier (IID) parameter.
 

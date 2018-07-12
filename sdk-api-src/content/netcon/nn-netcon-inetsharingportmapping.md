@@ -4,10 +4,10 @@ title: INetSharingPortMapping
 author: windows-sdk-content
 description: The INetSharingPortMapping interface provides methods for managing a particular port mapping.
 old-location: ics\inetsharingportmapping.htm
-old-project: ICS
+old-project: ics
 ms.assetid: 236608c3-061e-4db0-96df-25d263b6463b
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: INetSharingPortMapping, INetSharingPortMapping interface [ICS/ICF], INetSharingPortMapping interface [ICS/ICF],described, _ics_inetsharingportmapping, ics.inetsharingportmapping, netcon/INetSharingPortMapping
 ms.prod: windows
 ms.technology: windows-sdk

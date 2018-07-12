@@ -4,10 +4,10 @@ title: RasSecurityDialogGetInfo function
 author: windows-sdk-content
 description: The RasSecurityDialogGetInfo function is called by a RAS security DLL to get information about a port from the RAS server.
 old-location: rras\rassecuritydialoggetinfo.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: b7fbcfb6-686c-4464-ba78-e689019e74be
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RasSecurityDialogGetInfo, RasSecurityDialogGetInfo function [RAS], _ras_rassecuritydialoggetinfo, rasshost/RasSecurityDialogGetInfo, rras.rassecuritydialoggetinfo
 ms.prod: windows
 ms.technology: windows-sdk

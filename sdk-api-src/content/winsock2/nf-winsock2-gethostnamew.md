@@ -7,7 +7,7 @@ old-location: winsock\gethostnamew.htm
 old-project: WinSock
 ms.assetid: 787EB209-5944-4F0A-8550-FE1115C2298A
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: GetHostNameW, GetHostNameW function [Winsock], winsock.gethostnamew, winsock2/GetHostNameW
 ms.prod: windows
 ms.technology: windows-sdk

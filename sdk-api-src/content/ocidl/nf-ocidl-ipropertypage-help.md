@@ -7,7 +7,7 @@ old-location: com\ipropertypage_help.htm
 old-project: com
 ms.assetid: ba715518-1aa0-42de-bad7-f2d0d0f00460
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: Help, Help method [COM], Help method [COM],IPropertyPage interface, IPropertyPage interface [COM],Help method, IPropertyPage.Help, IPropertyPage::Help, _ctrl_ipropertypage_help, com.ipropertypage_help, ocidl/IPropertyPage::Help
 ms.prod: windows
 ms.technology: windows-sdk

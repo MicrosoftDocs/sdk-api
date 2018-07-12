@@ -7,7 +7,7 @@ old-location: com\oleuiupdatelinks.htm
 old-project: com
 ms.assetid: f280b061-45d8-484d-9fe1-ec4d85288bc6
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: OleUIUpdateLinks, OleUIUpdateLinks function [COM], OleUIUpdateLinksA, OleUIUpdateLinksW, _ole_OleUIUpdateLinks, com.oleuiupdatelinks, oledlg/OleUIUpdateLinks, oledlg/OleUIUpdateLinksA, oledlg/OleUIUpdateLinksW
 ms.prod: windows
 ms.technology: windows-sdk

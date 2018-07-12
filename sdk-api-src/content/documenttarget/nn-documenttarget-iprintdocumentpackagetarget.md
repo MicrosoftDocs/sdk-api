@@ -7,7 +7,7 @@ old-location: xps\iprintdocumentpackagetarget.htm
 old-project: printdocs
 ms.assetid: 0F63C626-DB58-4952-BBB3-7E3901429C35
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IPrintDocumentPackageTarget, IPrintDocumentPackageTarget interface [XPS Documents and Packaging], IPrintDocumentPackageTarget interface [XPS Documents and Packaging],described, documenttarget/IPrintDocumentPackageTarget, xps.iprintdocumentpackagetarget
 ms.prod: windows
 ms.technology: windows-sdk

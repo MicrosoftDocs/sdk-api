@@ -7,7 +7,7 @@ old-location: automat\vari1fromui1.htm
 old-project: automat
 ms.assetid: 601f26df-abcb-4a2f-8425-ec9fb808d0d9
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VarI1FromUI1, VarI1FromUI1 function [Automation], _oa96_VarI1FromUI1, automat.vari1fromui1, oleauto/VarI1FromUI1
 ms.prod: windows
 ms.technology: windows-sdk

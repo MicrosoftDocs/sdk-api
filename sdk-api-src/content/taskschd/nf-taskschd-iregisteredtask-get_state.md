@@ -4,10 +4,10 @@ title: IRegisteredTask::get_State
 author: windows-sdk-content
 description: Gets the operational state of the registered task.
 old-location: taskschd\iregisteredtask_state.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: b5ac2207-b5c0-42bd-a059-93a2c1f49f33
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],State property, IRegisteredTask.State, IRegisteredTask.get_State, IRegisteredTask::State, IRegisteredTask::get_State, State property [Task Scheduler], State property [Task Scheduler],IRegisteredTask interface, TASK_STATE_DISABLED, TASK_STATE_QUEUED, TASK_STATE_READY, TASK_STATE_RUNNING, TASK_STATE_UNKNOWN, get_State, taskschd.iregisteredtask_state, taskschd/IRegisteredTask::State, taskschd/IRegisteredTask::get_State
 ms.prod: windows
 ms.technology: windows-sdk

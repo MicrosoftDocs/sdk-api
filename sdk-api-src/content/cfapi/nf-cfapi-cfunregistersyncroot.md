@@ -7,7 +7,7 @@ old-location: cloudapi\cfunregistersyncroot.htm
 old-project: cfApi
 ms.assetid: B4DA85DB-A63A-45EB-9F71-9395AC026A0C
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CfUnregisterSyncRoot, CfUnregisterSyncRoot function, cfapi/CfUnregisterSyncRoot, cloudApi.cfunregistersyncroot
 ms.prod: windows
 ms.technology: windows-sdk

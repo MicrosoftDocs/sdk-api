@@ -7,7 +7,7 @@ old-location: mf\imfsensoractivityreport_getcount.htm
 old-project: medfound
 ms.assetid: 459A0898-ED5F-479F-8DDC-EA67C04F7BF9
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetCount, GetCount method [Media Foundation], GetCount method [Media Foundation],IMFSensorActivitiesReport interface, IMFSensorActivitiesReport interface [Media Foundation],GetCount method, IMFSensorActivitiesReport.GetCount, IMFSensorActivitiesReport::GetCount, mf.imfsensoractivityreport_getcount, mfidl/IMFSensorActivitiesReport::GetCount
 ms.prod: windows
 ms.technology: windows-sdk

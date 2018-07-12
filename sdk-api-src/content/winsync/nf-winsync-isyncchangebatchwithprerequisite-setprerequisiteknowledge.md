@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatchwithprerequisite_setprerequisiteknowledge.
 old-project: winsync
 ms.assetid: a138dbd9-e498-40bf-9490-690103afbf0f
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: ISyncChangeBatchWithPrerequisite interface [Windows Sync],SetPrerequisiteKnowledge method, ISyncChangeBatchWithPrerequisite.SetPrerequisiteKnowledge, ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge, SetPrerequisiteKnowledge, SetPrerequisiteKnowledge method [Windows Sync], SetPrerequisiteKnowledge method [Windows Sync],ISyncChangeBatchWithPrerequisite interface, winsync.isyncchangebatchwithprerequisite_setprerequisiteknowledge, winsync/ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge
 ms.prod: windows
 ms.technology: windows-sdk

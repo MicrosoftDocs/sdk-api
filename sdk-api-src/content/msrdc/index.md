@@ -2,13 +2,13 @@
 UID: NA:msrdc
 ms.assetid: 9b35c935-bd0c-30c6-bfec-6e68edbbdd03
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-archived: true
 tech.root: rdc
+archived: true
 ---
 
 # Msrdc.h header

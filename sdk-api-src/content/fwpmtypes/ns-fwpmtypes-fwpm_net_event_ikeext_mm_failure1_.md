@@ -4,10 +4,10 @@ title: FWPM_NET_EVENT_IKEEXT_MM_FAILURE1_
 author: windows-sdk-content
 description: Contains information that describes an IKE/AuthIP Main Mode (MM) failure.
 old-location: fwp\fwpm_net_event_ikeext_mm_failure1.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 4c67353c-289c-42ef-9081-20c33a9a06a4
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FWPM_NET_EVENT_IKEEXT_MM_FAILURE1, FWPM_NET_EVENT_IKEEXT_MM_FAILURE1 structure [Filtering], FWPM_NET_EVENT_IKEEXT_MM_FAILURE1_, FWPM_NET_EVENT_IKEEXT_MM_FAILURE_FLAG_BENIGN, FWPM_NET_EVENT_IKEEXT_MM_FAILURE_FLAG_MULTIPLE, fwp.fwpm_net_event_ikeext_mm_failure1, fwpmtypes/FWPM_NET_EVENT_IKEEXT_MM_FAILURE1
 ms.prod: windows
 ms.technology: windows-sdk

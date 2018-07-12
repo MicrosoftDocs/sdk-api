@@ -7,7 +7,7 @@ old-location: nwifi\wlan_connection_attributes.htm
 old-project: NativeWiFi
 ms.assetid: 91b8058d-faf6-46ee-a03b-f762e9cdae4d
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: "*PWLAN_CONNECTION_ATTRIBUTES, PWLAN_CONNECTION_ATTRIBUTES, PWLAN_CONNECTION_ATTRIBUTES structure pointer [NativeWIFI], WLAN_CONNECTION_ATTRIBUTES, WLAN_CONNECTION_ATTRIBUTES structure [NativeWIFI], _WLAN_CONNECTION_ATTRIBUTES, nwifi.wlan_connection_attributes, wlanapi/PWLAN_CONNECTION_ATTRIBUTES, wlanapi/WLAN_CONNECTION_ATTRIBUTES"
 ms.prod: windows
 ms.technology: windows-sdk

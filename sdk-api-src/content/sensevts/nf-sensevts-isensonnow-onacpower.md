@@ -112,7 +112,7 @@ SENS calls this method to notify your application that AC power has been activat
 
 
 
-<a href="_cos_ieventsubscription_putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
+<a href="https://msdn.microsoft.com/library/ms685465(v=VS.85).aspx">IEventSubscription::PutPublisherProperty</a>
 
 
 

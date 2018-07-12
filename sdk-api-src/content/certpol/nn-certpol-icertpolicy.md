@@ -4,10 +4,10 @@ title: ICertPolicy
 author: windows-sdk-content
 description: Provides communications between the Certificate Services server engine and the policy module.
 old-location: security\icertpolicy.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 14031490-be8e-47f9-8c66-ae27f7d3599c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: ICertPolicy, ICertPolicy interface [Security], ICertPolicy interface [Security],described, _certsrv_icertpolicy, certpol/ICertPolicy, security.icertpolicy
 ms.prod: windows
 ms.technology: windows-sdk

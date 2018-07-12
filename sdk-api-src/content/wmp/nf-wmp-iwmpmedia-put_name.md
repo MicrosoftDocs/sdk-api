@@ -7,7 +7,7 @@ old-location: wmp\iwmpmedia_put_name.htm
 old-project: WMP
 ms.assetid: 2cf6cff8-c5d1-4d10-8d32-764e35ef7ba2
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],put_name method, IWMPMedia.put_name, IWMPMedia2 interface [Windows Media Player],put_name method, IWMPMedia2::put_name, IWMPMedia3 interface [Windows Media Player],put_name method, IWMPMedia3::put_name, IWMPMedia::put_name, IWMPMediaput_name, put_name, put_name method [Windows Media Player], put_name method [Windows Media Player],IWMPMedia interface, put_name method [Windows Media Player],IWMPMedia2 interface, put_name method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_put_name, wmp/IWMPMedia2::put_name, wmp/IWMPMedia3::put_name, wmp/IWMPMedia::put_name
 ms.prod: windows
 ms.technology: windows-sdk

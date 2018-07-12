@@ -4,10 +4,10 @@ title: "_CRYPT_XML_REFERENCE"
 author: windows-sdk-content
 description: Contains information used to populate the Reference element.
 old-location: security\crypt_xml_reference.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: af16af5a-b1e5-4250-bdb1-f3fceb1830b9
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: "*PCRYPT_XML_REFERENCE, CRYPT_XML_REFERENCE, CRYPT_XML_REFERENCE structure [Security], PCRYPT_XML_REFERENCE, PCRYPT_XML_REFERENCE structure pointer [Security], _CRYPT_XML_REFERENCE, cryptxml/CRYPT_XML_REFERENCE, cryptxml/PCRYPT_XML_REFERENCE, security.crypt_xml_reference"
 ms.prod: windows
 ms.technology: windows-sdk

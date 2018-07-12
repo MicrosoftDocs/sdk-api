@@ -7,7 +7,7 @@ old-location: wmformat\iwmbandwidthsharing_getbandwidth.htm
 old-project: wmformat
 ms.assetid: 2769328c-5c05-49fb-bfa6-729115dd417e
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: GetBandwidth, GetBandwidth method [windows Media Format], GetBandwidth method [windows Media Format],IWMBandwidthSharing interface, IWMBandwidthSharing interface [windows Media Format],GetBandwidth method, IWMBandwidthSharing.GetBandwidth, IWMBandwidthSharing::GetBandwidth, IWMBandwidthSharingGetBandwidth, wmformat.iwmbandwidthsharing_getbandwidth, wmsdkidl/IWMBandwidthSharing::GetBandwidth
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: SetEndOfFile function
 author: windows-sdk-content
 description: Sets the physical file size for the specified file to the current position of the file pointer.
 old-location: fs\setendoffile.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: 2a579609-144a-4b77-8605-87aecf1f0957
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: SetEndOfFile, SetEndOfFile function [Files], _win32_setendoffile, base.setendoffile, fileapi/SetEndOfFile, fs.setendoffile, winbase/SetEndOfFile
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: opc\iopcpartset_createpart.htm
 old-project: OPC
 ms.assetid: 8c5de7ac-f51c-42f2-9068-8e9ede86ad97
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: CreatePart, CreatePart method [Open Packaging Conventions], CreatePart method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],CreatePart method, IOpcPartSet.CreatePart, IOpcPartSet::CreatePart, msopc/IOpcPartSet::CreatePart, opc.iopcpartset_createpart
 ms.prod: windows
 ms.technology: windows-sdk

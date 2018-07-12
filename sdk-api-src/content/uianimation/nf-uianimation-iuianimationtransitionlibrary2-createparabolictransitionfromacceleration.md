@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary2_createparabolictransiti
 old-project: UIAnimation
 ms.assetid: C2005144-CA40-4835-8AFA-7E87AE99867F
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: CreateParabolicTransitionFromAcceleration, CreateParabolicTransitionFromAcceleration method [Windows Animation], CreateParabolicTransitionFromAcceleration method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateParabolicTransitionFromAcceleration method, IUIAnimationTransitionLibrary2.CreateParabolicTransitionFromAcceleration, IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration, uianimation.iuianimationtransitionlibrary2_createparabolictransitionfromacceleration, uianimation/IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration
 ms.prod: windows
 ms.technology: windows-sdk

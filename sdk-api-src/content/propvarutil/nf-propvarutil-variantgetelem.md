@@ -7,7 +7,7 @@ old-location: properties\VariantGetElem.htm
 old-project: properties
 ms.assetid: e1541e66-3ccc-494c-a909-72eeb9159d11
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: VariantGetElem, VariantGetElem function [Windows Properties], _shell_VariantGetElem, properties.VariantGetElem, propvarutil/VariantGetElem, shell.VariantGetElem
 ms.prod: windows
 ms.technology: windows-sdk

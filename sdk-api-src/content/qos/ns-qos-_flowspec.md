@@ -4,10 +4,10 @@ title: "_flowspec"
 author: windows-sdk-content
 description: The FLOWSPEC structure provides quality of service parameters to the RSVP SP.
 old-location: qos\flowspec.htm
-old-project: QOS
+old-project: qos
 ms.assetid: 268e0d3a-2b04-40fd-91eb-f1780236b3e4
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: "*LPFLOWSPEC, *PFLOWSPEC, FLOWSPEC, FLOWSPEC structure [QOS], LPFLOWSPEC, LPFLOWSPEC structure pointer [QOS], PFLOWSPEC, PFLOWSPEC structure pointer [QOS], SERVICETYPE_BESTEFFORT, SERVICETYPE_CONTROLLEDLOAD, SERVICETYPE_GENERAL_INFORMATION, SERVICETYPE_GUARANTEED, SERVICETYPE_NETWORK_CONTROL, SERVICETYPE_NETWORK_UNAVAILBLE, SERVICETYPE_NOCHANGE, SERVICETYPE_NONCONFORMING, SERVICETYPE_NOTRAFFIC, SERVICETYPE_QUALITATIVE, SERVICE_NO_QOS_SIGNALING, SERVICE_NO_TRAFFIC_CONTROL, _flowspec, _gqos_flowspec, qos.flowspec, qos/FLOWSPEC, qos/LPFLOWSPEC, qos/PFLOWSPEC"
 ms.prod: windows
 ms.technology: windows-sdk

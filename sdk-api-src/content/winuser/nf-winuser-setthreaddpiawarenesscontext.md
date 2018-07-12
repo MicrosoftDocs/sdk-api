@@ -7,7 +7,7 @@ old-location: hidpi\setthreaddpiawarenesscontext.htm
 old-project: hidpi
 ms.assetid: 95531BDC-3D45-4BB6-8C63-0D845C66B88F
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 03/30/2018
 ms.keywords: SetThreadDpiAwarenessContext, SetThreadDpiAwarenessContext function [High DPI], hidpi.setthreaddpiawarenesscontext, winuser/SetThreadDpiAwarenessContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

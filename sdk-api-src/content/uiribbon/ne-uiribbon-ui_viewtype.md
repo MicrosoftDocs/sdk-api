@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_ui_viewtype.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_view_type.htm
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: UI_VIEWTYPE, UI_VIEWTYPE enumeration [Windows Ribbon], UI_VIEWTYPE_RIBBON, scenicintent_UI_VIEWTYPE, uiribbon/UI_VIEWTYPE, uiribbon/UI_VIEWTYPE_RIBBON, windowsribbon.windowsribbon_ui_viewtype
 ms.prod: windows
 ms.technology: windows-sdk

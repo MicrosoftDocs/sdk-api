@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItemContainer.htm
 old-project: shell
 ms.assetid: c07487a5-aa12-411d-93bd-3774262e55c6
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: ISyncMgrSyncItemContainer, ISyncMgrSyncItemContainer interface [Windows Shell], ISyncMgrSyncItemContainer interface [Windows Shell],described, _shell_ISyncMgrSyncItemContainer, shell.ISyncMgrSyncItemContainer, syncmgr/ISyncMgrSyncItemContainer
 ms.prod: windows
 ms.technology: windows-sdk

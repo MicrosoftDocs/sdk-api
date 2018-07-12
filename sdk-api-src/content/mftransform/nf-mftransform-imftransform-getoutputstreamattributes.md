@@ -7,7 +7,7 @@ old-location: mf\imftransform_getoutputstreamattributes.htm
 old-project: medfound
 ms.assetid: d54ce20c-8ef9-4480-9ddd-908751fc0a7e
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetOutputStreamAttributes, GetOutputStreamAttributes method [Media Foundation], GetOutputStreamAttributes method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputStreamAttributes method, IMFTransform.GetOutputStreamAttributes, IMFTransform::GetOutputStreamAttributes, d54ce20c-8ef9-4480-9ddd-908751fc0a7e, mf.imftransform_getoutputstreamattributes, mftransform/IMFTransform::GetOutputStreamAttributes
 ms.prod: windows
 ms.technology: windows-sdk

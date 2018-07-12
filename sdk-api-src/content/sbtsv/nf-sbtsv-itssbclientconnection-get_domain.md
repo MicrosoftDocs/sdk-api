@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection_domain.htm
 old-project: TermServ
 ms.assetid: 628f450d-10f4-4405-8d7c-ae58c72c2755
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: Domain property [Remote Desktop Services], Domain property [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],Domain property, ITsSbClientConnection.Domain, ITsSbClientConnection.get_Domain, ITsSbClientConnection::Domain, ITsSbClientConnection::get_Domain, get_Domain, sbtsv/ITsSbClientConnection::Domain, sbtsv/ITsSbClientConnection::get_Domain, termserv.itssbclientconnection_domain
 ms.prod: windows
 ms.technology: windows-sdk

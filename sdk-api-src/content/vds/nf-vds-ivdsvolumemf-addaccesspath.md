@@ -4,10 +4,10 @@ title: IVdsVolumeMF::AddAccessPath
 author: windows-sdk-content
 description: Adds an access path.
 old-location: base\ivdsvolumemf_addaccesspath.htm
-old-project: VDS
+old-project: vds
 ms.assetid: cf29639e-33fd-42f6-b616-7145521da347
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: AddAccessPath, AddAccessPath method [VDS], AddAccessPath method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],AddAccessPath method, IVdsVolumeMF.AddAccessPath, IVdsVolumeMF::AddAccessPath, base.ivdsvolumemf_addaccesspath, vds/IVdsVolumeMF::AddAccessPath
 ms.prod: windows
 ms.technology: windows-sdk

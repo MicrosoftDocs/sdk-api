@@ -4,10 +4,10 @@ title: ldap_modrdn2_sW function
 author: windows-sdk-content
 description: The ldap_modrdn2_s function changes the relative distinguished name of an LDAP entry.
 old-location: ldap\ldap_modrdn2_s.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: a2cf121d-4e84-4195-9080-3b6c0c4cea82
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/14/2018
 ms.keywords: "_ldap_ldap_modrdn2_s, ldap.ldap__modrdn2__s, ldap.ldap_modrdn2_s, ldap_modrdn2_s, ldap_modrdn2_s function [LDAP], ldap_modrdn2_sA, ldap_modrdn2_sW, winldap/ldap_modrdn2_s, winldap/ldap_modrdn2_sA, winldap/ldap_modrdn2_sW"
 ms.prod: windows
 ms.technology: windows-sdk

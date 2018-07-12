@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromInt32.htm
 old-project: properties
 ms.assetid: b754149e-09e3-4420-b0e6-6e14ccbd9cff
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: InitVariantFromInt32, InitVariantFromInt32 function [Windows Properties], _shell_InitVariantFromInt32, properties.InitVariantFromInt32, propvarutil/InitVariantFromInt32, shell.InitVariantFromInt32
 ms.prod: windows
 ms.technology: windows-sdk

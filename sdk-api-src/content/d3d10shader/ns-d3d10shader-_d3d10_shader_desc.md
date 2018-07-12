@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_desc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_desc.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: 4f0bd653-5cd1-26ff-b805-ecf9070b3990, D3D10_SHADER_DESC, D3D10_SHADER_DESC structure [Direct3D 10], _D3D10_SHADER_DESC, d3d10shader/D3D10_SHADER_DESC, direct3d10.d3d10_shader_desc
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ICertProperties::Remove
 author: windows-sdk-content
 description: Removes a property from the collection by index value.
 old-location: security\icertproperties_remove_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 7ee9e624-6f27-4177-9711-7062cb10f77b
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICertProperties interface [Security],Remove method, ICertProperties.Remove, ICertProperties::Remove, Remove, Remove method [Security], Remove method [Security],ICertProperties interface, certenroll/ICertProperties::Remove, security.icertproperties_remove_method
 ms.prod: windows
 ms.technology: windows-sdk

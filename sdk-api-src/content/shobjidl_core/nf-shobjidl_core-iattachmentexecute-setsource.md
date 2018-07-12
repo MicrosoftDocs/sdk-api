@@ -7,7 +7,7 @@ old-location: shell\IAttachmentExecute_SetSource.htm
 old-project: shell
 ms.assetid: 6545252b-1c43-4d62-9784-b63688ef9fdc
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetSource method, IAttachmentExecute.SetSource, IAttachmentExecute::SetSource, SetSource, SetSource method [Windows Shell], SetSource method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetSource, shell.IAttachmentExecute_SetSource, shobjidl_core/IAttachmentExecute::SetSource
 ms.prod: windows
 ms.technology: windows-sdk

@@ -25,6 +25,5 @@
     "ktmtypes.h",
     "lmshare.h",
     "lmstats.h"
-  ],
-  "displayName": "Data Access and Storage"
+  ]
 }

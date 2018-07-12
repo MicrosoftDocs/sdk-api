@@ -4,10 +4,10 @@ title: GetUnicastIpAddressTable function
 author: windows-sdk-content
 description: Retrieves the unicast IP address table on the local computer.
 old-location: iphlp\getunicastipaddresstable.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: bdafc4a4-5f3c-4dd5-ba9b-4f6045a82652
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetUnicastIpAddressTable, GetUnicastIpAddressTable function [IP Helper], iphlp.getunicastipaddresstable, netioapi/GetUnicastIpAddressTable
 ms.prod: windows
 ms.technology: windows-sdk

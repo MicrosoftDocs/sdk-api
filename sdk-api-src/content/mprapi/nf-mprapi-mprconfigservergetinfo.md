@@ -4,10 +4,10 @@ title: MprConfigServerGetInfo function
 author: windows-sdk-content
 description: The MprConfigServerGetInfo function retrieves server-level configuration information for the specified router.
 old-location: rras\mprconfigservergetinfo.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 6d3cd97a-96ef-4ecd-b2fd-2743ba79aa5b
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprConfigServerGetInfo, MprConfigServerGetInfo function [RAS], _mpr_mprconfigservergetinfo, mprapi/MprConfigServerGetInfo, rras.mprconfigservergetinfo
 ms.prod: windows
 ms.technology: windows-sdk

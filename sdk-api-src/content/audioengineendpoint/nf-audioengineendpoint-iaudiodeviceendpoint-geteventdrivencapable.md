@@ -7,7 +7,7 @@ old-location: termserv\iaudiodeviceendpoint_geteventdrivencapable.htm
 old-project: TermServ
 ms.assetid: 56ed44ee-44dd-4a56-a4cc-2983d4802773
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: GetEventDrivenCapable, GetEventDrivenCapable method [Remote Desktop Services], GetEventDrivenCapable method [Remote Desktop Services],IAudioDeviceEndpoint interface, IAudioDeviceEndpoint interface [Remote Desktop Services],GetEventDrivenCapable method, IAudioDeviceEndpoint.GetEventDrivenCapable, IAudioDeviceEndpoint::GetEventDrivenCapable, audioengineendpoint/IAudioDeviceEndpoint::GetEventDrivenCapable, termserv.iaudiodeviceendpoint_geteventdrivencapable
 ms.prod: windows
 ms.technology: windows-sdk

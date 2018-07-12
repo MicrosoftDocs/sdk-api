@@ -7,7 +7,7 @@ old-location: tsf\tsactiveselend.htm
 old-project: TSF
 ms.assetid: 95695f10-2296-41fe-b2b4-efae548292bb
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: TS_AE_END, TS_AE_NONE, TS_AE_START, TsActiveSelEnd, TsActiveSelEnd enumeration [Text Services Framework], __MIDL___MIDL_itf_textstor_0000_0000_0001, _tsf_tsactiveselend_ref, textstor/TS_AE_END, textstor/TS_AE_NONE, textstor/TS_AE_START, textstor/TsActiveSelEnd, tsf.tsactiveselend
 ms.prod: windows
 ms.technology: windows-sdk

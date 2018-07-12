@@ -199,7 +199,7 @@ Providers that support the use of
 An 
 <b>IWbemContext</b> object, which is created using <a href="https://msdn.microsoft.com/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a>, is a simple container of named values. Access these methods to fill in  context information required by a dynamic provider. After the call to one of the 
 <a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> methods, the 
-<b>IWbemContext</b> object can be reused for another call, or it can be deallocated using <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a> and another object created for other calls to 
+<b>IWbemContext</b> object can be reused for another call, or it can be deallocated using <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">Release</a> and another object created for other calls to 
 <b>IWbemServices</b> methods.
 
 The information contained in an 
@@ -207,7 +207,7 @@ The information contained in an
 
 The client application calls <a href="https://msdn.microsoft.com/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> to create a single context object. Then, it calls 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a> one or more times to set up context values for the provider. Finally, it submits the object to one of the 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> methods, which immediately calls <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a> on the context object after the call has returned. The other methods are for use primarily by providers that receive the context object and have to extract information.
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> methods, which immediately calls <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">Release</a> on the context object after the call has returned. The other methods are for use primarily by providers that receive the context object and have to extract information.
 
 
 

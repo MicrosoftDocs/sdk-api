@@ -7,7 +7,7 @@ old-location: menurc\getfileversioninfosizeex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\getfileversioninfosizeex.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: FILE_VER_GET_LOCALISED, FILE_VER_GET_NEUTRAL, GetFileVersionInfoSizeEx, GetFileVersionInfoSizeEx function [Menus and Other Resources], GetFileVersionInfoSizeExA, GetFileVersionInfoSizeExW, _win32_GetFileVersionInfoSizeEx, _win32_getfileversioninfosizeex_cpp, menurc.getfileversioninfosizeex, winui._win32_getfileversioninfosizeex, winver/GetFileVersionInfoSizeEx, winver/GetFileVersionInfoSizeExA, winver/GetFileVersionInfoSizeExW
 ms.prod: windows
 ms.technology: windows-sdk

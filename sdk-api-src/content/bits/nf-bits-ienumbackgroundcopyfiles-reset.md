@@ -4,10 +4,10 @@ title: IEnumBackgroundCopyFiles::Reset
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: bits\ienumbackgroundcopyfiles_reset.htm
-old-project: Bits
+old-project: bits
 ms.assetid: 471e1417-8d22-4368-93f4-151aa8a662ba
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: IEnumBackgroundCopyFiles interface [BITS],Reset method, IEnumBackgroundCopyFiles.Reset, IEnumBackgroundCopyFiles::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBackgroundCopyFiles interface, _drz_ienumbackgroundcopyfiles_reset, bits.ienumbackgroundcopyfiles_reset, bits/IEnumBackgroundCopyFiles::Reset
 ms.prod: windows
 ms.technology: windows-sdk

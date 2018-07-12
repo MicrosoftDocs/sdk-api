@@ -7,7 +7,7 @@ old-location: wmformat\iwmsbufferallocator_allocatepagesizebuffer.htm
 old-project: wmformat
 ms.assetid: 5d2340dd-8f91-4cce-840a-256c04329513
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: AllocatePageSizeBuffer, AllocatePageSizeBuffer method [windows Media Format], AllocatePageSizeBuffer method [windows Media Format],IWMSBufferAllocator interface, IWMSBufferAllocator interface [windows Media Format],AllocatePageSizeBuffer method, IWMSBufferAllocator.AllocatePageSizeBuffer, IWMSBufferAllocator::AllocatePageSizeBuffer, IWMSBufferAllocatorAllocatePageSizeBuffer, wmformat.iwmsbufferallocator_allocatepagesizebuffer, wmsbuffer/IWMSBufferAllocator::AllocatePageSizeBuffer
 ms.prod: windows
 ms.technology: windows-sdk

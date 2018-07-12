@@ -4,10 +4,10 @@ title: ISClusResource::get_PrivateProperties
 author: windows-sdk-content
 description: Returns the read/write private properties of a resource.
 old-location: mscs\clusresource_privateproperties.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: eca63b55-9101-40fb-b2b2-3fb68e707745
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResource class [Failover Cluster],PrivateProperties property, ClusResource.PrivateProperties, ISClusResource.get_PrivateProperties, ISClusResource::get_PrivateProperties, PrivateProperties property [Failover Cluster], PrivateProperties property [Failover Cluster],ClusResource class, _wolf_clusresource.privateproperties, get_PrivateProperties, mscs.clusresource_privateproperties
 ms.prod: windows
 ms.technology: windows-sdk

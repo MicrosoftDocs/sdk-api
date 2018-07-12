@@ -3,6 +3,5 @@
   "headers": [
     "upnp.h",
     "upnphost.h"
-  ],
-  "displayName": "UPnP APIs"
+  ]
 }

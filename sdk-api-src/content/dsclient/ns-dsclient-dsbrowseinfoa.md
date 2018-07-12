@@ -4,10 +4,10 @@ title: DSBROWSEINFOA
 author: windows-sdk-content
 description: The DSBROWSEINFO structure is used with the DsBrowseForContainer function to supply and return data about the Active Directory container browser dialog box.
 old-location: ad\dsbrowseinfo.htm
-old-project: AD
+old-project: ad
 ms.assetid: eaa2da41-1ddf-42d3-b721-6649ad49acf1
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*PDSBROWSEINFOA, DSBI_CHECKBOXES, DSBI_DONTSIGNSEAL, DSBI_ENTIREDIRECTORY, DSBI_EXPANDONOPEN, DSBI_HASCREDENTIALS, DSBI_IGNORETREATASLEAF, DSBI_INCLUDEHIDDEN, DSBI_NOBUTTONS, DSBI_NOLINES, DSBI_NOLINESATROOT, DSBI_NOROOT, DSBI_RETURNOBJECTCLASS, DSBI_RETURN_FORMAT, DSBI_SIMPLEAUTHENTICATE, DSBROWSEINFO, DSBROWSEINFO structure [Active Directory], DSBROWSEINFOA, DSBROWSEINFOW, DSBROWSEINFOW structure [Active Directory], PDSBROWSEINFOW, PDSBROWSEINFOW structure pointer [Active Directory], _glines_dsbrowseinfo, ad.dsbrowseinfo, dsclient/DSBROWSEINFO, dsclient/DSBROWSEINFOA, dsclient/DSBROWSEINFOW, dsclient/PDSBROWSEINFOW"
 ms.prod: windows
 ms.technology: windows-sdk

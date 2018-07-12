@@ -4,10 +4,10 @@ title: GetThemeTextExtent function
 author: windows-sdk-content
 description: Calculates the size and location of the specified text when rendered in the visual style font.
 old-location: controls\GetThemeTextExtent.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemetextextent.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: GetThemeTextExtent, GetThemeTextExtent function [Windows Controls], controls.GetThemeTextExtent, controls.inet_GetThemeTextExtent, inet_GetThemeTextExtent, inet_GetThemeTextExtent_cpp, uxtheme/GetThemeTextExtent
 ms.prod: windows
 ms.technology: windows-sdk

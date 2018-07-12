@@ -7,7 +7,7 @@ old-location: com\iserversecurity_isimpersonating.htm
 old-project: com
 ms.assetid: f847348a-1785-4b4a-b43e-a5eea21847c4
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IServerSecurity interface [COM],IsImpersonating method, IServerSecurity.IsImpersonating, IServerSecurity::IsImpersonating, IsImpersonating, IsImpersonating method [COM], IsImpersonating method [COM],IServerSecurity interface, _com_iserversecurity_isimpersonating, com.iserversecurity_isimpersonating, objidlbase/IServerSecurity::IsImpersonating
 ms.prod: windows
 ms.technology: windows-sdk

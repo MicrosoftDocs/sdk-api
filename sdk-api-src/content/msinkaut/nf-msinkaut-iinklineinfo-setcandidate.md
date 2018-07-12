@@ -7,7 +7,7 @@ old-location: tablet\iinklineinfo_setcandidate.htm
 old-project: tablet
 ms.assetid: 0301706b-6d3e-4fe4-af87-764b1c959707
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: 0301706b-6d3e-4fe4-af87-764b1c959707, IInkLineInfo interface [Tablet PC],SetCandidate method, IInkLineInfo.SetCandidate, IInkLineInfo::SetCandidate, SetCandidate, SetCandidate method [Tablet PC], SetCandidate method [Tablet PC],IInkLineInfo interface, msinkaut/IInkLineInfo::SetCandidate, tablet.iinklineinfo_setcandidate
 ms.prod: windows
 ms.technology: windows-sdk

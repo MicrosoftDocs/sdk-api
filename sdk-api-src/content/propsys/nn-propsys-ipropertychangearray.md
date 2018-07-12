@@ -7,7 +7,7 @@ old-location: properties\IPropertyChangeArray.htm
 old-project: properties
 ms.assetid: c7de40d0-9fe6-4c4b-ba17-c4648501ce0a
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: IPropertyChangeArray, IPropertyChangeArray interface [Windows Properties], IPropertyChangeArray interface [Windows Properties],described, _shell_IPropertyChangeArray, properties.IPropertyChangeArray, propsys/IPropertyChangeArray, shell.IPropertyChangeArray
 ms.prod: windows
 ms.technology: windows-sdk

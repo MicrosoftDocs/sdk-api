@@ -7,7 +7,7 @@ old-location: automat\itypelib_getlibattr.htm
 old-project: automat
 ms.assetid: edc35364-99dc-438b-81de-4f129c0cf50f
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: GetLibAttr, GetLibAttr method [Automation], GetLibAttr method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetLibAttr method, ITypeLib.GetLibAttr, ITypeLib::GetLibAttr, _oa96_ITypeLib_GetLibAttr, automat.itypelib_getlibattr, oaidl/ITypeLib::GetLibAttr
 ms.prod: windows
 ms.technology: windows-sdk

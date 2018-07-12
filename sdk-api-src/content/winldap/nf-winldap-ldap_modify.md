@@ -4,10 +4,10 @@ title: ldap_modify function
 author: windows-sdk-content
 description: The ldap_modify function changes an existing entry.
 old-location: ldap\ldap_modify.htm
-old-project: LDAP
+old-project: ldap
 ms.assetid: 93ae0af4-1b16-4bb0-952f-139241189d79
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 06/14/2018
 ms.keywords: "_ldap_ldap_modify, ldap.ldap__modify, ldap.ldap_modify, ldap_modify, ldap_modify function [LDAP], ldap_modifyA, ldap_modifyW, winldap/ldap_modify, winldap/ldap_modifyA, winldap/ldap_modifyW"
 ms.prod: windows
 ms.technology: windows-sdk

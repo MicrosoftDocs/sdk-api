@@ -7,7 +7,7 @@ old-location: winprog\_dxgkernel_ddreleasedc.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddreleasedc.htm
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: DdReleaseDC, DdReleaseDC function [Windows API], GdiEntry8, _dxgkernel_ddreleasedc, ddrawgdi/DdReleaseDC, ddrawgdi/GdiEntry8, winprog._dxgkernel_ddreleasedc, winui._dxgkernel_ddreleasedc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: "*LPDDSURFACEDESC2, DDSURFACEDESC2"
+req.typenames: DDPIXELFORMAT
 topic_type:
  - APIRef
  - kbSyntax

@@ -4,10 +4,10 @@ title: IContextMenuProvider::AddPrimaryExtensionItems
 author: windows-sdk-content
 description: The IContextMenuProvider::AddPrimaryExtensionItems method enables one specific extension to add items to the insertion points defined for this context menu.
 old-location: mmc\icontextmenuprovider_addprimaryextensionitems.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 423106cd-3e81-4c4b-b28a-f7abc3bfe38b
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: AddPrimaryExtensionItems, AddPrimaryExtensionItems method [MMC], AddPrimaryExtensionItems method [MMC],IContextMenuProvider interface, IContextMenuProvider interface [MMC],AddPrimaryExtensionItems method, IContextMenuProvider.AddPrimaryExtensionItems, IContextMenuProvider::AddPrimaryExtensionItems, _slate_icontextmenuprovider_addprimaryextensionitems, mmc.icontextmenuprovider_addprimaryextensionitems, mmc/IContextMenuProvider::AddPrimaryExtensionItems
 ms.prod: windows
 ms.technology: windows-sdk

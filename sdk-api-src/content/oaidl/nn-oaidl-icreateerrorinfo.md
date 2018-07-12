@@ -7,7 +7,7 @@ old-location: automat\icreateerrorinfo.htm
 old-project: automat
 ms.assetid: 2e7c5ad5-9018-413e-8826-ef752ebf302c
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: ICreateErrorInfo, ICreateErrorInfo interface [Automation], ICreateErrorInfo interface [Automation],described, _oa96_ICreateErrorInfo_Interface, automat.icreateerrorinfo, oaidl/ICreateErrorInfo
 ms.prod: windows
 ms.technology: windows-sdk

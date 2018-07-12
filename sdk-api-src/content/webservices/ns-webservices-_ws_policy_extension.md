@@ -7,7 +7,7 @@ old-location: wsw\ws_policy_extension.htm
 old-project: wsw
 ms.assetid: 85a3fa35-b574-4091-9ef2-486ac751ef82
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WS_POLICY_EXTENSION, WS_POLICY_EXTENSION structure [Web Services for Windows], _WS_POLICY_EXTENSION, webservices/WS_POLICY_EXTENSION, wsw.ws_policy_extension
 ms.prod: windows
 ms.technology: windows-sdk

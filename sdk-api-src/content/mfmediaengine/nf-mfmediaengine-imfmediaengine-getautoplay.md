@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getautoplay.htm
 old-project: medfound
 ms.assetid: CEF50308-D4F9-435F-A81A-3746A27846F0
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: GetAutoPlay, GetAutoPlay method [Media Foundation], GetAutoPlay method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetAutoPlay method, IMFMediaEngine.GetAutoPlay, IMFMediaEngine::GetAutoPlay, mf.imfmediaengine_getautoplay, mfmediaengine/IMFMediaEngine::GetAutoPlay
 ms.prod: windows
 ms.technology: windows-sdk

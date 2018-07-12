@@ -7,7 +7,7 @@ old-location: dataxchg\impersonateddeclientwindow.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangefunctions\impersonateddeclientwindow.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: ImpersonateDdeClientWindow, ImpersonateDdeClientWindow function [Data Exchange], _win32_ImpersonateDdeClientWindow, _win32_impersonateddeclientwindow_cpp, dataxchg.impersonateddeclientwindow, dde/ImpersonateDdeClientWindow, winui._win32_impersonateddeclientwindow
 ms.prod: windows
 ms.technology: windows-sdk

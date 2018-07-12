@@ -4,10 +4,10 @@ title: WinBioAcquireFocus function
 author: windows-sdk-content
 description: Acquires window focus.
 old-location: secbiomet\winbioacquirefocus.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: ad8bdcc9-0317-4d35-a587-9a2f3a4144ae
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: WinBioAcquireFocus, WinBioAcquireFocus function [Windows Biometric Framework API], secbiomet.winbioacquirefocus, winbio/WinBioAcquireFocus
 ms.prod: windows
 ms.technology: windows-sdk

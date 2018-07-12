@@ -4,10 +4,10 @@ title: PCLUSAPI_DELETE_CLUSTER_RESOURCE
 author: windows-sdk-content
 description: Removes an offline resource from a cluster.
 old-location: mscs\deleteclusterresource.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: d6a8425c-c926-46d8-b13a-c293f8ed30a8
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_DELETE_CLUSTER_RESOURCE, PCLUSAPI_DELETE_CLUSTER_RESOURCE callback, PCLUSAPI_DELETE_CLUSTER_RESOURCE callback function [Failover Cluster], _wolf_deleteclusterresource, clusapi/PCLUSAPI_DELETE_CLUSTER_RESOURCE, mscs.deleteclusterresource
 ms.prod: windows
 ms.technology: windows-sdk

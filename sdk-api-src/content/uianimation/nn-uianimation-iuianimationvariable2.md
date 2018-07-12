@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2.htm
 old-project: UIAnimation
 ms.assetid: A676EF27-B59D-4D2D-AD5B-8F46EE337E69
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: IUIAnimationVariable2, IUIAnimationVariable2 interface [Windows Animation], IUIAnimationVariable2 interface [Windows Animation],described, uianimation.iuianimationvariable2, uianimation/IUIAnimationVariable2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_MIB_MFE_TABLE"
 author: windows-sdk-content
 description: Contains a table of Multicast Forwarding Entries (MFEs).
 old-location: mib\mib_mfe_table.htm
-old-project: MIB
+old-project: mib
 ms.assetid: 2567e899-760d-41dd-8347-634c1a0e5764
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 05/15/2018
 ms.keywords: "*PMIB_MFE_TABLE, MIB_MFE_TABLE, MIB_MFE_TABLE structure [MIB], PMIB_MFE_TABLE, PMIB_MFE_TABLE structure pointer [MIB], _MIB_MFE_TABLE, _mpr_mib_mfe_table, ipmib/MIB_MFE_TABLE, ipmib/PMIB_MFE_TABLE, iprtrmib/MIB_MFE_TABLE, iprtrmib/PMIB_MFE_TABLE, mib.mib_mfe_table, rras.mib_mfe_table"
 ms.prod: windows
 ms.technology: windows-sdk

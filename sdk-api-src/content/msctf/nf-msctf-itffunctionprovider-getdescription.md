@@ -7,7 +7,7 @@ old-location: tsf\itffunctionprovider_getdescription.htm
 old-project: TSF
 ms.assetid: a970c93f-2a1b-44b9-9177-fd69795ae9ee
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: GetDescription, GetDescription method [Text Services Framework], GetDescription method [Text Services Framework],ITfFunctionProvider interface, ITfFunctionProvider interface [Text Services Framework],GetDescription method, ITfFunctionProvider.GetDescription, ITfFunctionProvider::GetDescription, _tsf_itffunctionprovider_getdescription_ref, msctf/ITfFunctionProvider::GetDescription, tsf.itffunctionprovider_getdescription
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: NdrConformantStringUnmarshall function
 author: windows-sdk-content
 description: The NdrConformantStringUnmarshall function unmarshals the conformant string from the network buffer to memory.
 old-location: rpc\ndrconformantstringunmarshall.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: 3965e5aa-8695-4dd3-a75b-ee007ee3cccd
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: NdrConformantStringUnmarshall, NdrConformantStringUnmarshall function [RPC], rpc.ndrconformantstringunmarshall, rpcndr/NdrConformantStringUnmarshall
 ms.prod: windows
 ms.technology: windows-sdk

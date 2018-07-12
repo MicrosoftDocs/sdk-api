@@ -4,10 +4,10 @@ title: CreateILockBytesOnHGlobal function
 author: windows-sdk-content
 description: Creates a byte array object that uses an HGLOBAL memory handle to store the bytes intended for in-memory storage of a compound file.
 old-location: stg\createilockbytesonhglobal.htm
-old-project: Stg
+old-project: stg
 ms.assetid: e7963be7-ccd8-49fb-85bb-e22fbbb6dc5c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: CreateILockBytesOnHGlobal, CreateILockBytesOnHGlobal function [Structured Storage], _stg_createilockbytesonhglobal, coml2api/CreateILockBytesOnHGlobal, stg.createilockbytesonhglobal
 ms.prod: windows
 ms.technology: windows-sdk

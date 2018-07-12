@@ -4,10 +4,10 @@ title: ISClusPropertyValue::get_DataCount
 author: windows-sdk-content
 description: Number of data values currently assigned to a property value.
 old-location: mscs\cluspropertyvalue_datacount.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 6b4897e2-8396-4f93-b2b8-52bf7d14ad9c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusPropertyValue object [Failover Cluster],DataCount property, ClusPropertyValue.DataCount, DataCount property [Failover Cluster], DataCount property [Failover Cluster],ClusPropertyValue object, ISClusPropertyValue.get_DataCount, ISClusPropertyValue::get_DataCount, _wolf_cluspropertyvalue.datacount, get_DataCount, mscs.cluspropertyvalue_datacount
 ms.prod: windows
 ms.technology: windows-sdk

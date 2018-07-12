@@ -7,7 +7,7 @@ old-location: wmp\iwmpconvert.htm
 old-project: WMP
 ms.assetid: 316d1a13-0803-4414-8c51-0d5c4768b06d
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPConvert, IWMPConvert interface [Windows Media Player], IWMPConvert interface [Windows Media Player],described, IWMPConvertInterface, wmp.iwmpconvert, wmpservices/IWMPConvert
 ms.prod: windows
 ms.technology: windows-sdk

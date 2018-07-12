@@ -4,10 +4,10 @@ title: IUPnPReregistrar
 author: windows-sdk-content
 description: The IUPnPReregistrar interface allows the application to re-register a UPnP-based device with the device host.
 old-location: upnp\iupnpreregistrar.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: e01f325b-8fbd-43f2-a835-41cd3232f62e
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 04/26/2018
 ms.keywords: IUPnPReregistrar, IUPnPReregistrar interface [UPnP APIs], IUPnPReregistrar interface [UPnP APIs],described, _upnp_iupnpreregistrar, upnp.iupnpreregistrar, upnphost/IUPnPReregistrar
 ms.prod: windows
 ms.technology: windows-sdk

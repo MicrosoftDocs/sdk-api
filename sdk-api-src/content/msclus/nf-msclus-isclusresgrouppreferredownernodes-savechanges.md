@@ -4,10 +4,10 @@ title: ISClusResGroupPreferredOwnerNodes::SaveChanges
 author: windows-sdk-content
 description: Saves the list of preferred owner &#32; nodes to the cluster database.
 old-location: mscs\clusresgrouppreferredownernodes_savechanges.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: a345174f-be29-41bf-bb0a-398d9719f55f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResGroupPreferredOwnerNodes class [Failover Cluster],SaveChanges method, ClusResGroupPreferredOwnerNodes.SaveChanges, ISClusResGroupPreferredOwnerNodes.SaveChanges, ISClusResGroupPreferredOwnerNodes::SaveChanges, SaveChanges, SaveChanges method [Failover Cluster], SaveChanges method [Failover Cluster],ClusResGroupPreferredOwnerNodes class, _wolf_clusresgrouppreferredownernodes.savechanges, mscs.clusresgrouppreferredownernodes_savechanges
 ms.prod: windows
 ms.technology: windows-sdk

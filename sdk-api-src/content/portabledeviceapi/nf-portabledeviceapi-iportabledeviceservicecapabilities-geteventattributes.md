@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservicecapabilities_geteventattributes.htm
 old-project: wpd_sdk
 ms.assetid: cd3316aa-6d49-4d26-9ded-c9371ebea27b
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.keywords: GetEventAttributes, GetEventAttributes method [Windows Portable Devices SDK], GetEventAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetEventAttributes method, IPortableDeviceServiceCapabilities.GetEventAttributes, IPortableDeviceServiceCapabilities::GetEventAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetEventAttributes, wpdsdk.iportabledeviceservicecapabilities_geteventattributes
 ms.prod: windows
 ms.technology: windows-sdk

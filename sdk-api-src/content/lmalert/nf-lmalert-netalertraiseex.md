@@ -4,10 +4,10 @@ title: NetAlertRaiseEx function
 author: windows-sdk-content
 description: The NetAlertRaiseEx function notifies all registered clients when a particular event occurs. You can call this extended function to simplify the sending of an alert message because NetAlertRaiseEx does not require that you specify a STD_ALERT structure.
 old-location: netmgmt\netalertraiseex.htm
-old-project: NetMgmt
+old-project: netmgmt
 ms.assetid: 9762f0d6-0022-4e05-b2d8-6223d7bbb2c8
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT_PRINT_EVENT, ALERT_USER_EVENT, NetAlertRaiseEx, NetAlertRaiseEx function [Network Management], _win32_netalertraiseex, lmalert/NetAlertRaiseEx, netmgmt.netalertraiseex
 ms.prod: windows
 ms.technology: windows-sdk

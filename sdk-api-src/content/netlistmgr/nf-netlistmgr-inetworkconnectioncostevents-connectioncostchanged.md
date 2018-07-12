@@ -4,10 +4,10 @@ title: INetworkConnectionCostEvents::ConnectionCostChanged
 author: windows-sdk-content
 description: ConnectionCostChanged method notifies an application of a network cost change for a connection.
 old-location: nla\inetworkconnectioncostevents_connectioncostchanged.htm
-old-project: NLA
+old-project: nla
 ms.assetid: 85D0BF59-3E06-4978-8400-71FD7BF990C9
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: ConnectionCostChanged, ConnectionCostChanged method [Network Awareness], ConnectionCostChanged method [Network Awareness],INetworkConnectionCostEvents interface, INetworkConnectionCostEvents interface [Network Awareness],ConnectionCostChanged method, INetworkConnectionCostEvents.ConnectionCostChanged, INetworkConnectionCostEvents::ConnectionCostChanged, netlistmgr/INetworkConnectionCostEvents::ConnectionCostChanged, nla.inetworkconnectioncostevents_connectioncostchanged
 ms.prod: windows
 ms.technology: windows-sdk

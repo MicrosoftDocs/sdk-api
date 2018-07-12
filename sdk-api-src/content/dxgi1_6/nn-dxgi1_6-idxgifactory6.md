@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory6.htm
 old-project: direct3ddxgi
 ms.assetid: CB4BC8A4-D5D5-48B9-A477-65A12A43D4A6
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: IDXGIFactory6, IDXGIFactory6 interface [DXGI], IDXGIFactory6 interface [DXGI],described, direct3ddxgi.idxgifactory6, dxgi1_6/IDXGIFactory6
 ms.prod: windows
 ms.technology: windows-sdk

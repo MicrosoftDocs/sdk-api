@@ -4,10 +4,10 @@ title: IGetClusterDataInfo::GetClusterName
 author: windows-sdk-content
 description: Returns the name of the cluster.
 old-location: mscs\igetclusterdatainfo_getclustername.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 711a193f-de29-4e90-adf1-6dc6e95c0c61
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetClusterName, GetClusterName method [Failover Cluster], GetClusterName method [Failover Cluster],IGetClusterDataInfo interface, IGetClusterDataInfo interface [Failover Cluster],GetClusterName method, IGetClusterDataInfo.GetClusterName, IGetClusterDataInfo::GetClusterName, _wolf_igetclusterdatainfo_getclustername, cluadmex/IGetClusterDataInfo::GetClusterName, mscs.igetclusterdatainfo_getclustername
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_updateoverlayzorder.htm
 old-project: directdraw
 ms.assetid: a95f315f-7a1f-4ca0-bb18-9bd54f2cc78d
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/18/2018
 ms.keywords: DDOVERZ_INSERTINBACKOF, DDOVERZ_INSERTINFRONTOF, DDOVERZ_MOVEBACKWARD, DDOVERZ_MOVEFORWARD, DDOVERZ_SENDTOBACK, DDOVERZ_SENDTOFRONT, IDirectDrawSurface7 interface [DirectDraw],UpdateOverlayZOrder method, IDirectDrawSurface7.UpdateOverlayZOrder, IDirectDrawSurface7::UpdateOverlayZOrder, UpdateOverlayZOrder, UpdateOverlayZOrder method [DirectDraw], UpdateOverlayZOrder method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::UpdateOverlayZOrder, directdraw.idirectdrawsurface7_updateoverlayzorder
 ms.prod: windows
 ms.technology: windows-sdk

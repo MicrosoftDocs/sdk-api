@@ -7,7 +7,7 @@ old-location: appxpkg\appx_bundle_payload_package_type.htm
 old-project: appxpkg
 ms.assetid: 90A53E6D-D6DD-4E26-A343-9E6888675348
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE, APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE enumeration [App packaging and management], APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE_APPLICATION, APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE_RESOURCE, appxpackaging/APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE, appxpackaging/APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE_APPLICATION, appxpackaging/APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE_RESOURCE, appxpkg.appx_bundle_payload_package_type
 ms.prod: windows
 ms.technology: windows-sdk

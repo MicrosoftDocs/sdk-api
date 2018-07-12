@@ -4,10 +4,10 @@ title: INetConnection::Connect
 author: windows-sdk-content
 description: The Connect method connects, or establishes, this network connection.
 old-location: ics\inetconnection_connect.htm
-old-project: ICS
+old-project: ics
 ms.assetid: ff627133-1f48-4a4d-96d5-9a2ef95b6e61
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: Connect, Connect method [ICS/ICF], Connect method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],Connect method, INetConnection.Connect, INetConnection::Connect, _ics_inetconnection_connect, ics.inetconnection_connect, netcon/INetConnection::Connect
 ms.prod: windows
 ms.technology: windows-sdk

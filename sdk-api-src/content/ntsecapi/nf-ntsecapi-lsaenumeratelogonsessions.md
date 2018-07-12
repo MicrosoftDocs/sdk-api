@@ -7,7 +7,7 @@ old-location: security\lsaenumeratelogonsessions.htm
 old-project: SecAuthN
 ms.assetid: ddf3b9ec-dea7-4333-9ffe-142811048c83
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: LsaEnumerateLogonSessions, LsaEnumerateLogonSessions function [Security], _lsa_lsaenumeratelogonsessions, ntsecapi/LsaEnumerateLogonSessions, security.lsaenumeratelogonsessions
 ms.prod: windows
 ms.technology: windows-sdk

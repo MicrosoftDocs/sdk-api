@@ -7,7 +7,7 @@ old-location: gdi\getcharabcwidthsi.htm
 old-project: gdi
 ms.assetid: 7d1210ee-42b7-4f2e-9e89-fb1543d76290
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetCharABCWidthsI, GetCharABCWidthsI function [Windows GDI], _win32_GetCharABCWidthsI, gdi.getcharabcwidthsi, wingdi/GetCharABCWidthsI
 ms.prod: windows
 ms.technology: windows-sdk

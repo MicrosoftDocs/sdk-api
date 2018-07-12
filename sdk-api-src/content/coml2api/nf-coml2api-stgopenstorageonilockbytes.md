@@ -4,10 +4,10 @@ title: StgOpenStorageOnILockBytes function
 author: windows-sdk-content
 description: The StgOpenStorageOnILockBytes function opens an existing storage object that does not reside in a disk file, but instead has an underlying byte array provided by the caller.
 old-location: stg\stgopenstorageonilockbytes.htm
-old-project: Stg
+old-project: stg
 ms.assetid: 7920bd46-0a8f-42e0-9988-59d85edb64e2
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: StgOpenStorageOnILockBytes, StgOpenStorageOnILockBytes function [Structured Storage], _stg_stgopenstorageonilockbytes, coml2api/StgOpenStorageOnILockBytes, stg.stgopenstorageonilockbytes
 ms.prod: windows
 ms.technology: windows-sdk

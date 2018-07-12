@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dsurface9__releasedc.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__releasedc.htm
 ms.author: windowssdkdev
-ms.date: 04/10/2018
+ms.date: 04/11/2018
 ms.keywords: IDirect3DSurface9 interface [Direct3D 9],ReleaseDC method, IDirect3DSurface9.ReleaseDC, IDirect3DSurface9::ReleaseDC, ReleaseDC, ReleaseDC method [Direct3D 9], ReleaseDC method [Direct3D 9],IDirect3DSurface9 interface, c9032355-5437-491b-97b3-727d5c94fbfa, d3d9helper/IDirect3DSurface9::ReleaseDC, direct3d9.idirect3dsurface9__releasedc
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dataxchg\ddereconnect.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddereconnect.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DdeReconnect, DdeReconnect function [Data Exchange], _win32_DdeReconnect, _win32_ddereconnect_cpp, dataxchg.ddereconnect, ddeml/DdeReconnect, winui._win32_ddereconnect
 ms.prod: windows
 ms.technology: windows-sdk

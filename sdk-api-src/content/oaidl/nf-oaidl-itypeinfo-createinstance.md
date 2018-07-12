@@ -7,7 +7,7 @@ old-location: automat\itypeinfo_createinstance.htm
 old-project: automat
 ms.assetid: b11c51e6-8ae7-482d-87eb-8175ca98eb63
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: CreateInstance, CreateInstance method [Automation], CreateInstance method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],CreateInstance method, ITypeInfo.CreateInstance, ITypeInfo::CreateInstance, _oa96_ITypeInfo_CreateInstance, automat.itypeinfo_createinstance, oaidl/ITypeInfo::CreateInstance
 ms.prod: windows
 ms.technology: windows-sdk

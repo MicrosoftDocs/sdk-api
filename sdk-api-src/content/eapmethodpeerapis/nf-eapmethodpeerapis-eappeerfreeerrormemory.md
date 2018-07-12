@@ -4,10 +4,10 @@ title: EapPeerFreeErrorMemory function
 author: windows-sdk-content
 description: Releases error-specific memory allocated by the EAP peer method.
 old-location: eaphost\eappeerfreeerrormemory.htm
-old-project: EAPHost
+old-project: eaphost
 ms.assetid: 85b4197c-5caf-4e2b-94fd-e651712dd39d
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: EapPeerFreeErrorMemory, EapPeerFreeErrorMemory function [EAPHost], eaphost.eappeerfreeerrormemory, eapmethodpeerapis/EapPeerFreeErrorMemory
 ms.prod: windows
 ms.technology: windows-sdk

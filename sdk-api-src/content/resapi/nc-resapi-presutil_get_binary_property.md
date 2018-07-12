@@ -4,10 +4,10 @@ title: PRESUTIL_GET_BINARY_PROPERTY
 author: windows-sdk-content
 description: Retrieves a binary property from a property list and advances a pointer to the next property in the list. The PRESUTIL_GET_BINARY_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetbinaryproperty.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: fe69ba4c-d69a-4f5a-a620-0e2152e7be61
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_GET_BINARY_PROPERTY, PRESUTIL_GET_BINARY_PROPERTY callback, PRESUTIL_GET_BINARY_PROPERTY callback function [Failover Cluster], _wolf_resutilgetbinaryproperty, mscs.resutilgetbinaryproperty, resapi/PRESUTIL_GET_BINARY_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk

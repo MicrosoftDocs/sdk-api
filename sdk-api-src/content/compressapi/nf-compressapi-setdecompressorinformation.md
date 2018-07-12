@@ -7,7 +7,7 @@ old-location: cmpapi\setdecompressorinformation.htm
 old-project: cmpapi
 ms.assetid: 804B73D3-E68E-43A3-8F23-6A46ABDECB23
 ms.author: windowssdkdev
-ms.date: 04/10/2018
+ms.date: 04/11/2018
 ms.keywords: SetDecompressorInformation, SetDecompressorInformation function [Compression API], cmpapi.setdecompressorinformation, compressapi/SetDecompressorInformation
 ms.prod: windows
 ms.technology: windows-sdk

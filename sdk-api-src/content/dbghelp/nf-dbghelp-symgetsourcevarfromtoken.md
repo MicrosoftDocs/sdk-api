@@ -4,10 +4,10 @@ title: SymGetSourceVarFromToken function
 author: windows-sdk-content
 description: Retrieves the value associated with the specified variable name from the Source Server token.
 old-location: base\symgetsourcevarfromtoken.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 05e9005a-aef3-44a3-a73b-21830799a3d5
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: SymGetSourceVarFromToken, SymGetSourceVarFromToken function, SymGetSourceVarFromTokenW, base.symgetsourcevarfromtoken, dbghelp/SymGetSourceVarFromToken, dbghelp/SymGetSourceVarFromTokenW
 ms.prod: windows
 ms.technology: windows-sdk

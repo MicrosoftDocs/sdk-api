@@ -4,10 +4,10 @@ title: IFsrmPipelineModuleDefinition::put_SupportedExtensions
 author: windows-sdk-content
 description: The list of file extensions supported by this module.
 old-location: fsrm\ifsrmpipelinemoduledefinition_supportedextensions.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: d83caabf-ea62-4d3d-83e3-7b95f4fcc103
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],SupportedExtensions property, IFsrmPipelineModuleDefinition.SupportedExtensions, IFsrmPipelineModuleDefinition.put_SupportedExtensions, IFsrmPipelineModuleDefinition::SupportedExtensions, IFsrmPipelineModuleDefinition::get_SupportedExtensions, IFsrmPipelineModuleDefinition::put_SupportedExtensions, SupportedExtensions property [File Server Resource Manager], SupportedExtensions property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_supportedextensions, fsrm.ifsrmpipelinemoduledefinition_supportedextensions, fsrmpipeline/IFsrmPipelineModuleDefinition::SupportedExtensions, fsrmpipeline/IFsrmPipelineModuleDefinition::get_SupportedExtensions, fsrmpipeline/IFsrmPipelineModuleDefinition::put_SupportedExtensions, put_SupportedExtensions
 ms.prod: windows
 ms.technology: windows-sdk

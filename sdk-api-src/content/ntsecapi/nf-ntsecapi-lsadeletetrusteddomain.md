@@ -4,10 +4,10 @@ title: LsaDeleteTrustedDomain function
 author: windows-sdk-content
 description: The LsaDeleteTrustedDomain function removes a trusted domain from the list of trusted domains for a system and deletes the associated TrustedDomain object.
 old-location: security\lsadeletetrusteddomain.htm
-old-project: SecMgmt
+old-project: secmgmt
 ms.assetid: 4a7afa28-1786-4a58-a955-d2d8b12e62e4
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: LsaDeleteTrustedDomain, LsaDeleteTrustedDomain function [Security], _lsa_lsadeletetrusteddomain, ntsecapi/LsaDeleteTrustedDomain, security.lsadeletetrusteddomain
 ms.prod: windows
 ms.technology: windows-sdk

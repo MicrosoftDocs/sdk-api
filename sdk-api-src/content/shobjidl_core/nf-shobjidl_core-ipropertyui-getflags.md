@@ -7,7 +7,7 @@ old-location: properties\IPropertyUI_GetFlags.htm
 old-project: properties
 ms.assetid: 8ADF50C1-CD6C-489c-9599-2AEB5C5FF00C
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: GetFlags, GetFlags method [Windows Properties], GetFlags method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],GetFlags method, IPropertyUI.GetFlags, IPropertyUI::GetFlags, _shell_IPropertyUI_GetFlags, properties.IPropertyUI_GetFlags, shell.IPropertyUI_GetFlags, shobjidl_core/IPropertyUI::GetFlags
 ms.prod: windows
 ms.technology: windows-sdk

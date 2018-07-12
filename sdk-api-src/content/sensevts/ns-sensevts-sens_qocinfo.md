@@ -94,7 +94,7 @@ Speed of data coming in from the destination in bits per second.
 
 
 
-<a href="_cos_ieventsubscription_putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
+<a href="https://msdn.microsoft.com/library/ms685465(v=VS.85).aspx">IEventSubscription::PutPublisherProperty</a>
 
 
 

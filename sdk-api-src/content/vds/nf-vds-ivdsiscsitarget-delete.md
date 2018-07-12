@@ -4,10 +4,10 @@ title: IVdsIscsiTarget::Delete
 author: windows-sdk-content
 description: Deletes the target and all of its portal groups if no LUNs are associated with the target.
 old-location: base\ivdsiscsitarget_delete.htm
-old-project: VDS
+old-project: vds
 ms.assetid: a66077bf-7a08-49f6-9a32-da99aa1d218c
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],Delete method, IVdsIscsiTarget.Delete, IVdsIscsiTarget::Delete, base.ivdsiscsitarget_delete, vds/IVdsIscsiTarget::Delete, vdshwprv/IVdsIscsiTarget::Delete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ The address of an <a href="https://msdn.microsoft.com/7814b8ef-84b4-453e-b480-c3
       status of the operation. If you call the 
       <a href="https://msdn.microsoft.com/1bb30247-efb8-488f-b142-8912c351f5f2">IVdsAsync::Wait</a> method on this interface and a success HRESULT value is returned, you must 
       release the interfaces returned in the 
-      <a href="https://msdn.microsoft.com/21771c6a-eca9-47f3-b6fc-383bca1e11bf">VDS_ASYNC_OUTPUT</a> structure by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method on each interface pointer.
+      <a href="https://msdn.microsoft.com/21771c6a-eca9-47f3-b6fc-383bca1e11bf">VDS_ASYNC_OUTPUT</a> structure by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method on each interface pointer.
      However, if <b>Wait</b> returns a failure HRESULT value, or if the <i>pHrResult</i> parameter of <b>Wait</b> receives a failure HRESULT value, the interface pointers in the <b>VDS_ASYNC_OUTPUT</b> structure are <b>NULL</b> and do not need to be released. You can test for success or failure HRESULT values by using the <a href="https://msdn.microsoft.com/library/ms687197(v=VS.85).aspx">SUCCEEDED</a> and <a href="https://msdn.microsoft.com/library/ms693474(v=VS.85).aspx">FAILED</a> macros defined in Winerror.h.
 
 

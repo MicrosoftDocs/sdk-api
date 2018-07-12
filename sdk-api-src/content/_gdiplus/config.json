@@ -21,6 +21,5 @@
     "gdipluspixelformats.h",
     "gdiplusenums.h",
     "gdipluscolormatrix.h"
-  ],
-  "displayName": "GDI+"
+  ]
 }

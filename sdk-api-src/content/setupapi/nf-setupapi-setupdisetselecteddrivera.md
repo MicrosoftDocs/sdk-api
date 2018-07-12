@@ -7,7 +7,7 @@ old-location: devinst\setupdisetselecteddriver.htm
 old-project: devinst
 ms.assetid: 791df876-9037-405b-b899-eea2b577d923
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: SetupDiSetSelectedDriver, SetupDiSetSelectedDriver function [Device and Driver Installation], SetupDiSetSelectedDriverA, SetupDiSetSelectedDriverW, devinst.setupdisetselecteddriver, di-rtns_823d52e2-7c55-4c52-bccc-809135f28251.xml, setupapi/SetupDiSetSelectedDriver
 ms.prod: windows
 ms.technology: windows-sdk

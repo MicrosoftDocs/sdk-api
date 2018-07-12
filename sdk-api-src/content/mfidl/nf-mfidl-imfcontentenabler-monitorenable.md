@@ -7,7 +7,7 @@ old-location: mf\imfcontentenabler_monitorenable.htm
 old-project: medfound
 ms.assetid: 78fc4a17-f58c-4654-b37e-6b988848ff0d
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 78fc4a17-f58c-4654-b37e-6b988848ff0d, IMFContentEnabler interface [Media Foundation],MonitorEnable method, IMFContentEnabler.MonitorEnable, IMFContentEnabler::MonitorEnable, MonitorEnable, MonitorEnable method [Media Foundation], MonitorEnable method [Media Foundation],IMFContentEnabler interface, mf.imfcontentenabler_monitorenable, mfidl/IMFContentEnabler::MonitorEnable
 ms.prod: windows
 ms.technology: windows-sdk

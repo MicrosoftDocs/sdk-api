@@ -4,10 +4,10 @@ title: ISClusResGroup::Move
 author: windows-sdk-content
 description: Moves a group and all of its resources from one node to another.
 old-location: mscs\clusresgroup_move.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 8f923a22-31b2-4a41-b88d-8eb7bac9725e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResGroup object [Failover Cluster],Move method, ClusResGroup.Move, ISClusResGroup.Move, ISClusResGroup::Move, Move, Move method [Failover Cluster], Move method [Failover Cluster],ClusResGroup object, _wolf_clusresgroup.move, mscs.clusresgroup_move
 ms.prod: windows
 ms.technology: windows-sdk

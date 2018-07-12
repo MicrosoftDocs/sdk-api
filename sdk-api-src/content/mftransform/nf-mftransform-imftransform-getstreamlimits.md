@@ -7,7 +7,7 @@ old-location: mf\imftransform_getstreamlimits.htm
 old-project: medfound
 ms.assetid: 4d9585f0-5818-4e7f-925c-4c50ae6a6edc
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 4d9585f0-5818-4e7f-925c-4c50ae6a6edc, GetStreamLimits, GetStreamLimits method [Media Foundation], GetStreamLimits method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetStreamLimits method, IMFTransform.GetStreamLimits, IMFTransform::GetStreamLimits, mf.imftransform_getstreamlimits, mftransform/IMFTransform::GetStreamLimits
 ms.prod: windows
 ms.technology: windows-sdk

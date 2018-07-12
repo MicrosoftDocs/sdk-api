@@ -7,7 +7,7 @@ old-location: winmsg\ishungappwindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\ishungappwindow.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: IsHungAppWindow, IsHungAppWindow function [Windows and Messages], _win32_IsHungAppWindow, _win32_ishungappwindow_cpp, winmsg.ishungappwindow, winui._win32_ishungappwindow, winuser/IsHungAppWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: winsock\wsaremoveserviceclass_2.htm
 old-project: WinSock
 ms.assetid: 7d72f727-cca9-4a07-beb4-d64f23c1f0c1
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: WSARemoveServiceClass, WSARemoveServiceClass function [Winsock], _win32_wsaremoveserviceclass_2, winsock.wsaremoveserviceclass_2, winsock2/WSARemoveServiceClass
 ms.prod: windows
 ms.technology: windows-sdk

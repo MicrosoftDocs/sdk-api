@@ -4,10 +4,10 @@ title: ICspStatuses::Clear
 author: windows-sdk-content
 description: Removes all ICspStatus objects from the collection.
 old-location: security\icspstatuses_clear_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 6a959d88-3ee6-4233-8fc7-23c60b24c14e
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICspStatuses interface, ICspStatuses interface [Security],Clear method, ICspStatuses.Clear, ICspStatuses::Clear, certenroll/ICspStatuses::Clear, security.icspstatuses_clear_method
 ms.prod: windows
 ms.technology: windows-sdk

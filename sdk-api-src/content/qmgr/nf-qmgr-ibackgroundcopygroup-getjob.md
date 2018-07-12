@@ -4,10 +4,10 @@ title: IBackgroundCopyGroup::GetJob
 author: windows-sdk-content
 description: Use the GetJob method to retrieve a job from the group.
 old-location: bits\ibackgroundcopygroup_getjob.htm
-old-project: Bits
+old-project: bits
 ms.assetid: c392e9e2-0489-457b-b21a-dfff9e2c0f39
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetJob, GetJob method [BITS], GetJob method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],GetJob method, IBackgroundCopyGroup.GetJob, IBackgroundCopyGroup::GetJob, bits.ibackgroundcopygroup_getjob, qmgr/IBackgroundCopyGroup::GetJob
 ms.prod: windows
 ms.technology: windows-sdk

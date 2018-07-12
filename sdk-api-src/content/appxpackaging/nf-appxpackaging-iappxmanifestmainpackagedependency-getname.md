@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestmainpackagedependency_getname.htm
 old-project: appxpkg
 ms.assetid: 0D891C01-F149-4BF0-99E7-E2AAD6D781AD
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 06/22/2018
 ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxManifestMainPackageDependency interface, IAppxManifestMainPackageDependency interface [App packaging and management],GetName method, IAppxManifestMainPackageDependency.GetName, IAppxManifestMainPackageDependency::GetName, appxpackaging/IAppxManifestMainPackageDependency::GetName, appxpkg.iappxmanifestmainpackagedependency_getname
 ms.prod: windows
 ms.technology: windows-sdk

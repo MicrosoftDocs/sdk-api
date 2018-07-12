@@ -4,10 +4,10 @@ title: ListView_SetItemText macro
 author: windows-sdk-content
 description: Changes the text of a list-view item or subitem. You can use this macro or send the LVM_SETITEMTEXT message explicitly.
 old-location: controls\ListView_SetItemText.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemtext.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ListView_SetItemText, ListView_SetItemText macro [Windows Controls], _win32_ListView_SetItemText, _win32_ListView_SetItemText_cpp, commctrl/ListView_SetItemText, controls.ListView_SetItemText, controls._win32_ListView_SetItemText
 ms.prod: windows
 ms.technology: windows-sdk

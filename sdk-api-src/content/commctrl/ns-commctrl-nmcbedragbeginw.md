@@ -4,10 +4,10 @@ title: NMCBEDRAGBEGINW
 author: windows-sdk-content
 description: Contains information used with the CBEN_DRAGBEGIN notification code.
 old-location: controls\NMCBEDRAGBEGIN.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\comboex\structures\nmcbedragbegin.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPNMCBEDRAGBEGINW, *PNMCBEDRAGBEGINW, LPNMCBEDRAGBEGIN, LPNMCBEDRAGBEGIN structure pointer [Windows Controls], NMCBEDRAGBEGIN, NMCBEDRAGBEGIN structure [Windows Controls], NMCBEDRAGBEGINA, NMCBEDRAGBEGINW, _win32_NMCBEDRAGBEGIN, _win32_NMCBEDRAGBEGIN_cpp, commctrl/LPNMCBEDRAGBEGIN, commctrl/NMCBEDRAGBEGIN, commctrl/NMCBEDRAGBEGINA, commctrl/NMCBEDRAGBEGINW, controls.NMCBEDRAGBEGIN, controls._win32_NMCBEDRAGBEGIN"
 ms.prod: windows
 ms.technology: windows-sdk

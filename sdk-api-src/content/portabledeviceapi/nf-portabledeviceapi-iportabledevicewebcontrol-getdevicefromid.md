@@ -7,7 +7,7 @@ old-location: wpdauto\iportabledevicewebcontrol_getdevicefromid.htm
 old-project: wpdauto
 ms.assetid: ba375082-3f4f-44d7-96d3-bf8151408b9e
 ms.author: windowssdkdev
-ms.date: 04/05/2018
+ms.date: 04/06/2018
 ms.keywords: GetDeviceFromId, GetDeviceFromId method [WPD Automation], GetDeviceFromId method [WPD Automation],IPortableDeviceWebControl interface, IPortableDeviceWebControl interface [WPD Automation],GetDeviceFromId method, IPortableDeviceWebControl.GetDeviceFromId, IPortableDeviceWebControl::GetDeviceFromId, portabledeviceapi/IPortableDeviceWebControl::GetDeviceFromId, wpdauto.iportabledevicewebcontrol_getdevicefromid
 ms.prod: windows
 ms.technology: windows-sdk

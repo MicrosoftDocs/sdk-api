@@ -4,10 +4,10 @@ title: IComponentData::QueryDataObject
 author: windows-sdk-content
 description: The IComponentData::QueryDataObject method returns a data object that can be used to retrieve the context information for the specified cookie.
 old-location: mmc\icomponentdata_querydataobject.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 567d068e-5447-438c-9719-93227807263a
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: CCT_RESULT = 0x8001, CCT_SCOPE = 0x8000, CCT_SNAPIN_MANAGER = 0x8002, CCT_UNINITIALIZED = 0xFFFF, IComponentData interface [MMC],QueryDataObject method, IComponentData.QueryDataObject, IComponentData::QueryDataObject, QueryDataObject, QueryDataObject method [MMC], QueryDataObject method [MMC],IComponentData interface, _slate_icomponentdata_querydataobject, mmc.icomponentdata_querydataobject, mmc/IComponentData::QueryDataObject
 ms.prod: windows
 ms.technology: windows-sdk

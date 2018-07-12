@@ -7,7 +7,7 @@ old-location: gdi\deleteenhmetafile.htm
 old-project: gdi
 ms.assetid: d3b93b3b-fa0b-4480-8348-19919c9e904d
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: DeleteEnhMetaFile, DeleteEnhMetaFile function [Windows GDI], DeleteEnhMetaFileW, _win32_DeleteEnhMetaFile, gdi.deleteenhmetafile, wingdi/DeleteEnhMetaFile, wingdi/DeleteEnhMetaFileW
 ms.prod: windows
 ms.technology: windows-sdk

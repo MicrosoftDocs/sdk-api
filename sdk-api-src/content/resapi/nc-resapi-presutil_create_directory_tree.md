@@ -4,10 +4,10 @@ title: PRESUTIL_CREATE_DIRECTORY_TREE
 author: windows-sdk-content
 description: Creates every directory specified in a path, skipping directories that already exist. The PRESUTIL_CREATE_DIRECTORY_TREE type defines a pointer to this function.
 old-location: mscs\resutilcreatedirectorytree.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 5e1e689f-cc33-4cc7-9c6c-9799a6d6f70a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PRESUTIL_CREATE_DIRECTORY_TREE, PRESUTIL_CREATE_DIRECTORY_TREE callback, PRESUTIL_CREATE_DIRECTORY_TREE callback function [Failover Cluster], _wolf_resutilcreatedirectorytree, mscs.resutilcreatedirectorytree, resapi/PRESUTIL_CREATE_DIRECTORY_TREE
 ms.prod: windows
 ms.technology: windows-sdk

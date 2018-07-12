@@ -4,10 +4,10 @@ title: ITTAPI2
 author: windows-sdk-content
 description: The ITTAPI2 interface derives from the ITTAPI interface. It adds additional methods on the TAPI object to support phone devices.
 old-location: tapi3\ittapi2.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 8c67f31e-783e-4371-9f17-063f8ecfc069
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITTAPI2, ITTAPI2 interface [TAPI 2.2], ITTAPI2 interface [TAPI 2.2],described, _tapi3_ittapi2, tapi3.ittapi2, tapi3if/ITTAPI2
 ms.prod: windows
 ms.technology: windows-sdk

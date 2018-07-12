@@ -7,7 +7,7 @@ old-location: dataxchg\hszpair.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangestructures\hszpair.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*PHSZPAIR, HSZPAIR, HSZPAIR structure [Data Exchange], PHSZPAIR, PHSZPAIR structure pointer [Data Exchange], _win32_HSZPAIR_str, _win32_hszpair_str_cpp, dataxchg.hszpair, ddeml/HSZPAIR, ddeml/PHSZPAIR, tagHSZPAIR, winui._win32_hszpair_str"
 ms.prod: windows
 ms.technology: windows-sdk

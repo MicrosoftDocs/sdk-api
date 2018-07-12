@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_SetWinEventsForAutom
 old-project: WinAuto
 ms.assetid: 694cc14b-837c-4e09-b1e7-91bdc237657f
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IUIAutomationProxyFactoryEntry interface [Windows Accessibility],SetWinEventsForAutomationEvent method, IUIAutomationProxyFactoryEntry.SetWinEventsForAutomationEvent, IUIAutomationProxyFactoryEntry::SetWinEventsForAutomationEvent, SetWinEventsForAutomationEvent, SetWinEventsForAutomationEvent method [Windows Accessibility], SetWinEventsForAutomationEvent method [Windows Accessibility],IUIAutomationProxyFactoryEntry interface, uiauto.uiauto_IUIAutomationProxyFactoryEntry_SetWinEventsForAutomationEvent, uiauto_IUIAutomationProxyFactoryEntry_SetWinEventsForAutomationEvent, uiautomationclient/IUIAutomationProxyFactoryEntry::SetWinEventsForAutomationEvent, winauto.uiauto_IUIAutomationProxyFactoryEntry_SetWinEventsForAutomationEvent
 ms.prod: windows
 ms.technology: windows-sdk

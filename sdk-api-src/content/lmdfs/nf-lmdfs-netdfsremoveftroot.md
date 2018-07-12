@@ -4,10 +4,10 @@ title: NetDfsRemoveFtRoot function
 author: windows-sdk-content
 description: Removes the specified root target from a domain-based Distributed File System (DFS) namespace.
 old-location: dfs\netdfsremoveftroot.htm
-old-project: Dfs
+old-project: dfs
 ms.assetid: aa5c9991-ca8e-48ba-922d-feadaff45cc2
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: NetDfsRemoveFtRoot, NetDfsRemoveFtRoot function [Distributed File System], _win32_netdfsremoveftroot, dfs.netdfsremoveftroot, fs.netdfsremoveftroot, lmdfs/NetDfsRemoveFtRoot, netmgmt.netdfsremoveftroot
 ms.prod: windows
 ms.technology: windows-sdk

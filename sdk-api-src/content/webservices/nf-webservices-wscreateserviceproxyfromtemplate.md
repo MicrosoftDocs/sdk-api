@@ -7,7 +7,7 @@ old-location: wsw\wscreateserviceproxyfromtemplate.htm
 old-project: wsw
 ms.assetid: 09a6ee60-ffed-4bab-8747-61c9fee69695
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsCreateServiceProxyFromTemplate, WsCreateServiceProxyFromTemplate function [Web Services for Windows], webservices/WsCreateServiceProxyFromTemplate, wsw.wscreateserviceproxyfromtemplate
 ms.prod: windows
 ms.technology: windows-sdk

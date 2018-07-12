@@ -4,10 +4,10 @@ title: "_HTTPAPI_VERSION"
 author: windows-sdk-content
 description: Defines the version of the HTTP Server API.
 old-location: http\httpapi_version.htm
-old-project: Http
+old-project: http
 ms.assetid: af89ecee-2636-4c61-b863-21fe56666ea8
 ms.author: windowssdkdev
-ms.date: 04/12/2018
+ms.date: 04/13/2018
 ms.keywords: "*PHTTPAPI_VERSION, HTTPAPI_VERSION, HTTPAPI_VERSION structure [HTTP], PHTTPAPI_VERSION, PHTTPAPI_VERSION structure pointer [HTTP], _HTTPAPI_VERSION, _http_httpapi_version, http.httpapi_version, http/HTTPAPI_VERSION, http/PHTTPAPI_VERSION"
 ms.prod: windows
 ms.technology: windows-sdk

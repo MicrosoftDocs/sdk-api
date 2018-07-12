@@ -7,7 +7,7 @@ old-location: mf\imfasfprofile_clone.htm
 old-project: medfound
 ms.assetid: e91d3d2c-ef08-460e-b6f8-e8eed8df5a67
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: Clone, Clone method [Media Foundation], Clone method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],Clone method, IMFASFProfile.Clone, IMFASFProfile::Clone, e91d3d2c-ef08-460e-b6f8-e8eed8df5a67, mf.imfasfprofile_clone, wmcontainer/IMFASFProfile::Clone
 ms.prod: windows
 ms.technology: windows-sdk

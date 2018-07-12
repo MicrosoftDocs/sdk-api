@@ -4,10 +4,10 @@ title: SymSetScopeFromIndex function
 author: windows-sdk-content
 description: Sets the local scope to the symbol that matches the specified index.
 old-location: base\symsetscopefromindex.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 06792478-35e2-4f05-85c9-910909fe65cd
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: SymSetScopeFromIndex, SymSetScopeFromIndex function, base.symsetscopefromindex, dbghelp/SymSetScopeFromIndex
 ms.prod: windows
 ms.technology: windows-sdk

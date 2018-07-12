@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITableItemProvider_GetColumnHeaderItems.htm
 old-project: WinAuto
 ms.assetid: b08e20e8-142c-4f83-8422-c0e6ae2b7ebf
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: GetColumnHeaderItems, GetColumnHeaderItems method [Windows Accessibility], GetColumnHeaderItems method [Windows Accessibility],ITableItemProvider interface, ITableItemProvider interface [Windows Accessibility],GetColumnHeaderItems method, ITableItemProvider.GetColumnHeaderItems, ITableItemProvider::GetColumnHeaderItems, uiauto.uiauto_ITableItemProvider_GetColumnHeaderItems, uiauto_ITableItemProvider_GetColumnHeaderItems, uiautomationcore/ITableItemProvider::GetColumnHeaderItems, winauto.uiauto_ITableItemProvider_GetColumnHeaderItems
 ms.prod: windows
 ms.technology: windows-sdk

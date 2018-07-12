@@ -4,10 +4,10 @@ title: IOfflineFilesEvents::SyncBegin
 author: windows-sdk-content
 description: Reports that the Offline Files cache has begun a synchronization operation.
 old-location: of\iofflinefilesevents_syncbegin.htm
-old-project: OfflineFiles
+old-project: offlinefiles
 ms.assetid: ba09be0a-52bc-4715-9756-383954277a31
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncBegin method, IOfflineFilesEvents.SyncBegin, IOfflineFilesEvents::SyncBegin, SyncBegin, SyncBegin method [Offline Files], SyncBegin method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncBegin, of.iofflinefilesevents_syncbegin
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tsf\itfcandidatelistuielementbehavior.htm
 old-project: TSF
 ms.assetid: 3e1c53c6-f356-4b60-bb85-0f5a7251219d
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfCandidateListUIElementBehavior, ITfCandidateListUIElementBehavior interface [Text Services Framework], ITfCandidateListUIElementBehavior interface [Text Services Framework],described, _tsf_itfcandidatelistuielementbehavior_ref, msctf/ITfCandidateListUIElementBehavior, tsf.itfcandidatelistuielementbehavior
 ms.prod: windows
 ms.technology: windows-sdk

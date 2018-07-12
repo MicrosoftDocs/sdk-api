@@ -4,10 +4,10 @@ title: ISClusNetwork::get_NetworkID
 author: windows-sdk-content
 description: Unique network identifier for a network.
 old-location: mscs\clusnetwork_networkid.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: c9091461-c6cf-4b2f-97ad-3fb639a09f5e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusNetwork object [Failover Cluster],NetworkID property, ClusNetwork.NetworkID, ISClusNetwork.get_NetworkID, ISClusNetwork::get_NetworkID, NetworkID property [Failover Cluster], NetworkID property [Failover Cluster],ClusNetwork object, _wolf_clusnetwork.networkid, get_NetworkID, mscs.clusnetwork_networkid
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: automat\varianttimetodosdatetime.htm
 old-project: automat
 ms.assetid: 62307266-2434-4b06-9135-8854f4624c5c
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: VariantTimeToDosDateTime, VariantTimeToDosDateTime function [Automation], _oa96_VariantTimeToDosDateTime, automat.varianttimetodosdatetime, oleauto/VariantTimeToDosDateTime
 ms.prod: windows
 ms.technology: windows-sdk

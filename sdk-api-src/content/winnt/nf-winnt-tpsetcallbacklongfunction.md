@@ -7,7 +7,7 @@ old-location: base\tpsetcallbacklongfunction.htm
 old-project: ProcThread
 ms.assetid: 27E7F647-1005-4499-9787-F2CE6E8B6AFF
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: TpSetCallbackLongFunction, TpSetCallbackLongFunction function, base.tpsetcallbacklongfunction, winnt/TpSetCallbackLongFunction
 ms.prod: windows
 ms.technology: windows-sdk

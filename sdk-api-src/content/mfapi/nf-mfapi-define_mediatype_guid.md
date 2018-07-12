@@ -7,7 +7,7 @@ old-location: mf\define_mediatype_guid_macro.htm
 old-project: medfound
 ms.assetid: be094ccc-a475-480a-a345-bdad70b11f45
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: DEFINE_MEDIATYPE_GUID, DEFINE_MEDIATYPE_GUID macro [Media Foundation], be094ccc-a475-480a-a345-bdad70b11f45, mf.define_mediatype_guid_macro, mfapi/DEFINE_MEDIATYPE_GUID
 ms.prod: windows
 ms.technology: windows-sdk

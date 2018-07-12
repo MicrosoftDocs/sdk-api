@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromInt16.htm
 old-project: properties
 ms.assetid: 8ccb09bf-a2d2-4637-b8b1-e7abe83b846d
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: InitVariantFromInt16, InitVariantFromInt16 function [Windows Properties], _shell_InitVariantFromInt16, properties.InitVariantFromInt16, propvarutil/InitVariantFromInt16, shell.InitVariantFromInt16
 ms.prod: windows
 ms.technology: windows-sdk

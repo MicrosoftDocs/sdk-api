@@ -4,10 +4,10 @@ title: ITaskDefinition::put_Settings
 author: windows-sdk-content
 description: Gets or sets the settings that define how the Task Scheduler service performs the task.
 old-location: taskschd\itaskdefinition_settings.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: ecf768bd-5f07-4a9b-881c-e5306769f96e
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: ITaskDefinition interface [Task Scheduler],Settings property, ITaskDefinition.Settings, ITaskDefinition.put_Settings, ITaskDefinition::Settings, ITaskDefinition::get_Settings, ITaskDefinition::put_Settings, Settings property [Task Scheduler], Settings property [Task Scheduler],ITaskDefinition interface, put_Settings, taskschd.itaskdefinition_settings, taskschd/ITaskDefinition::Settings, taskschd/ITaskDefinition::get_Settings, taskschd/ITaskDefinition::put_Settings
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\scardfreememory.htm
 old-project: SecAuthN
 ms.assetid: d41d3891-671b-4129-8034-b251af983830
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: SCardFreeMemory, SCardFreeMemory function [Security], _smart_scardfreememory, security.scardfreememory, winscard/SCardFreeMemory
 ms.prod: windows
 ms.technology: windows-sdk

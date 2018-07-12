@@ -7,7 +7,7 @@ old-location: directmanipulation\directmanipulation_autoscroll_configuration.htm
 old-project: directmanipulation
 ms.assetid: 1184DD40-D615-440F-8B87-D53A475F8313
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION, DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION enumeration [Direct Manipulation], DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_FORWARD, DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_REVERSE, DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_STOP, directmanipulation.directmanipulation_autoscroll_configuration, directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION, directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_FORWARD, directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_REVERSE, directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_STOP
 ms.prod: windows
 ms.technology: windows-sdk

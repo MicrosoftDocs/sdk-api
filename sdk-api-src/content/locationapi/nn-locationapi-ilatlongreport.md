@@ -4,10 +4,10 @@ title: ILatLongReport
 author: windows-sdk-content
 description: ILatLongReport represents a location report that contains information in the form of latitude and longitude.
 old-location: winlocation\ilatlongreport.htm
-old-project: LocationAPI
+old-project: locationapi
 ms.assetid: b489959e-74c7-46df-b63f-7d37e3a244d5
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: ILatLongReport, ILatLongReport interface [WinLocation], ILatLongReport interface [WinLocation],described, locationapi/ILatLongReport, winlocation.ilatlongreport
 ms.prod: windows
 ms.technology: windows-sdk

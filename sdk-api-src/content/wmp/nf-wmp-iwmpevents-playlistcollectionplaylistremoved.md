@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents_iwmpevents__playlistcollectionplaylistremoved.htm
 old-project: WMP
 ms.assetid: 53b7e883-f392-4a07-8952-ab7a6e9c436e
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlaylistCollectionPlaylistRemoved method, IWMPEvents.PlaylistCollectionPlaylistRemoved, IWMPEvents::PlaylistCollectionPlaylistRemoved, IWMPEventsPlaylistCollectionPlaylistRemoved, PlaylistCollectionPlaylistRemoved, PlaylistCollectionPlaylistRemoved method [Windows Media Player], PlaylistCollectionPlaylistRemoved method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playlistcollectionplaylistremoved, wmp/IWMPEvents::PlaylistCollectionPlaylistRemoved
 ms.prod: windows
 ms.technology: windows-sdk

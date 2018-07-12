@@ -4,10 +4,10 @@ title: LocalAlloc function
 author: windows-sdk-content
 description: Allocates the specified number of bytes from the heap.
 old-location: base\localalloc.htm
-old-project: Memory
+old-project: memory
 ms.assetid: da8cd2be-ff4c-4da5-813c-8759a58228c9
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: LHND, LMEM_FIXED, LMEM_MOVEABLE, LMEM_ZEROINIT, LPTR, LocalAlloc, LocalAlloc function, NONZEROLHND, NONZEROLPTR, _win32_localalloc, base.localalloc, winbase/LocalAlloc
 ms.prod: windows
 ms.technology: windows-sdk

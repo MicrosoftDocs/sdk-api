@@ -7,7 +7,7 @@ old-location: dwm\dwmgetunmettabrequirements.htm
 old-project: dwm
 ms.assetid: 8E67E1BE-D6FC-4A8A-8E71-45B6F337E3BD
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: DwmGetUnmetTabRequirements, DwmGetUnmetTabRequirements function [Desktop Window Manager], dwm.dwmgetunmettabrequirements, dwmapi/DwmGetUnmetTabRequirements
 ms.prod: windows
 ms.technology: windows-sdk

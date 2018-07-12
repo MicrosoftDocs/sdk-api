@@ -4,10 +4,10 @@ title: PeerGraphStartup function
 author: windows-sdk-content
 description: The PeerGraphStartup function indicates to the Peer Graphing Infrastructure what version of the Peer protocols the calling application requires.
 old-location: p2p\peergraphstartup.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 00ffdec7-f084-4170-a4a1-e6112bab4d61
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerGraphStartup, PeerGraphStartup function [Peer Networking], p2p.peergraphstartup, p2p/PeerGraphStartup
 ms.prod: windows
 ms.technology: windows-sdk

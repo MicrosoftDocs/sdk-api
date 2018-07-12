@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_tex2dms_rtv.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2dms_rtv.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: D3D10_TEX2DMS_RTV, D3D10_TEX2DMS_RTV structure [Direct3D 10], b35fccdd-d7a7-672b-7f33-80eef15788d6, d3d10/D3D10_TEX2DMS_RTV, direct3d10.d3d10_tex2dms_rtv
 ms.prod: windows
 ms.technology: windows-sdk

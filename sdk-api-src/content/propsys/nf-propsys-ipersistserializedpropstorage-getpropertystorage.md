@@ -7,7 +7,7 @@ old-location: shell\IPersistSerializedPropStorage_GetPropertyStorage.htm
 old-project: shell
 ms.assetid: 86a1d7ec-759a-4b8a-91e1-4cfa28a17b41
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: GetPropertyStorage, GetPropertyStorage method [Windows Shell], GetPropertyStorage method [Windows Shell],IPersistSerializedPropStorage interface, IPersistSerializedPropStorage interface [Windows Shell],GetPropertyStorage method, IPersistSerializedPropStorage.GetPropertyStorage, IPersistSerializedPropStorage::GetPropertyStorage, _shell_IPersistSerializedPropStorage_GetPropertyStorage, propsys/IPersistSerializedPropStorage::GetPropertyStorage, shell.IPersistSerializedPropStorage_GetPropertyStorage
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DhcpSetClientInfo function
 author: windows-sdk-content
 description: The DhcpSetClientInfo function sets information on a client whose IP address lease is administrated by the DHCP server.
 old-location: dhcp\dhcpsetclientinfo.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 1eedddce-8b3e-419e-a065-163b22a0e9a8
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: DhcpSetClientInfo, DhcpSetClientInfo function [DHCP], dhcp.dhcpsetclientinfo, dhcpsapi/DhcpSetClientInfo
 ms.prod: windows
 ms.technology: windows-sdk

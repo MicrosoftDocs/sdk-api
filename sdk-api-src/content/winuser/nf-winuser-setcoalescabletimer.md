@@ -7,7 +7,7 @@ old-location: winmsg\setcoalescabletimer.htm
 old-project: winmsg
 ms.assetid: 39303811-972f-4131-deea-cebf84c50867
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: Any other value, SetCoalescableTimer, SetCoalescableTimer function [Windows and Messages], TIMERV_DEFAULT_COALESCING, TIMERV_NO_COALESCING, winmsg.setcoalescabletimer, winuser/SetCoalescableTimer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

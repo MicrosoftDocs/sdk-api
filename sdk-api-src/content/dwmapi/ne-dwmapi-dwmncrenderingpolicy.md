@@ -7,7 +7,7 @@ old-location: dwm\dwmncrenderingpolicy.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\enums\dwmncrenderingpolicy.htm
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: DWMNCRENDERINGPOLICY, DWMNCRENDERINGPOLICY enumeration [Desktop Window Manager], DWMNCRP_DISABLED, DWMNCRP_ENABLED, DWMNCRP_LAST, DWMNCRP_USEWINDOWSTYLE, _udwm_dwmncrenderingpolicy, _udwm_dwmncrenderingpolicy_cpp, dwm.dwmncrenderingpolicy, dwmapi/DWMNCRENDERINGPOLICY, dwmapi/DWMNCRP_DISABLED, dwmapi/DWMNCRP_ENABLED, dwmapi/DWMNCRP_LAST, dwmapi/DWMNCRP_USEWINDOWSTYLE, winui._udwm_dwmncrenderingpolicy
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IFileDialogCustomize_GetCheckButtonState.htm
 old-project: shell
 ms.assetid: c16643e5-a711-455a-8967-2c810e28ea60
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: GetCheckButtonState, GetCheckButtonState method [Windows Shell], GetCheckButtonState method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],GetCheckButtonState method, IFileDialogCustomize.GetCheckButtonState, IFileDialogCustomize::GetCheckButtonState, shell.IFileDialogCustomize_GetCheckButtonState, shell_IFileDialogCustomize_GetCheckButtonState, shobjidl_core/IFileDialogCustomize::GetCheckButtonState
 ms.prod: windows
 ms.technology: windows-sdk

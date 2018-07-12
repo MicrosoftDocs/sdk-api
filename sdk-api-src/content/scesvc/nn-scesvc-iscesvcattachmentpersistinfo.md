@@ -4,10 +4,10 @@ title: ISceSvcAttachmentPersistInfo
 author: windows-sdk-content
 description: The ISceSvcAttachmentPersistInfo interface retrieves any modified configuration or analysis information from an attachment snap-in.
 old-location: security\iscesvcattachmentpersistinfo.htm
-old-project: SecMgmt
+old-project: secmgmt
 ms.assetid: 3cd4bde2-55f6-4ab1-b175-7689b0cc529b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ISceSvcAttachmentPersistInfo, ISceSvcAttachmentPersistInfo interface [Security], ISceSvcAttachmentPersistInfo interface [Security],described, _config_iscesvcattachmentpersistinfo, scesvc/ISceSvcAttachmentPersistInfo, security.iscesvcattachmentpersistinfo
 ms.prod: windows
 ms.technology: windows-sdk

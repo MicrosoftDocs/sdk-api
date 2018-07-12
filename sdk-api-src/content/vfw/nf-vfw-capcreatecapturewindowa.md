@@ -7,7 +7,7 @@ old-location: multimedia\capcreatecapturewindow.htm
 old-project: Multimedia
 ms.assetid: b08785f8-9850-4d3b-acbf-b065f45910e1
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: "_win32_capCreateCaptureWindow, capCreateCaptureWindow, capCreateCaptureWindow function [Windows Multimedia], capCreateCaptureWindowA, capCreateCaptureWindowW, multimedia.capcreatecapturewindow, vfw/capCreateCaptureWindow, vfw/capCreateCaptureWindowA, vfw/capCreateCaptureWindowW"
 ms.prod: windows
 ms.technology: windows-sdk

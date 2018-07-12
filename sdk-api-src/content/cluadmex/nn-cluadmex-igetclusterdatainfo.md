@@ -4,10 +4,10 @@ title: IGetClusterDataInfo
 author: windows-sdk-content
 description: The IGetClusterDataInfo interface is called by a Failover Cluster Administrator extension to retrieve information about a cluster.
 old-location: mscs\igetclusterdatainfo.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: a2800ac8-a865-4e66-8147-90e95b54cb0c
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IGetClusterDataInfo, IGetClusterDataInfo interface [Failover Cluster], IGetClusterDataInfo interface [Failover Cluster],described, _wolf_igetclusterdatainfo, cluadmex/IGetClusterDataInfo, mscs.igetclusterdatainfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -129,7 +129,7 @@ You can use the <b>IGetClusterDataInfo</b> interface when
 </ul>
 Failover Cluster Administrator passes in an <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer as the 
      <i>piData</i> parameter for these methods. Use <i>piData</i> to call the 
-     <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> method for one of the 
+     <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> method for one of the 
      <b>IGetClusterDataInfo</b> methods.
 
 

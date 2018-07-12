@@ -7,7 +7,7 @@ old-location: winauto\createstdaccessibleobject.htm
 old-project: WinAuto
 ms.assetid: 50b6f391-98a4-4276-840f-028cc18e99ef
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CreateStdAccessibleObject, CreateStdAccessibleObject function [Windows Accessibility], _msaa_CreateStdAccessibleObject, msaa.createstdaccessibleobject, oleacc/CreateStdAccessibleObject, winauto.createstdaccessibleobject
 ms.prod: windows
 ms.technology: windows-sdk

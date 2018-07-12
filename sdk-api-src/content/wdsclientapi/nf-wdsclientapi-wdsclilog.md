@@ -4,10 +4,10 @@ title: WdsCliLog function
 author: windows-sdk-content
 description: Sends a log event to the WDS server.
 old-location: wds\wdsclilog.htm
-old-project: Wds
+old-project: wds
 ms.assetid: c4b183c7-5118-4752-a3a4-ef594f133288
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 06/14/2018
 ms.keywords: WDS_LOG_LEVEL_DISABLED, WDS_LOG_LEVEL_ERROR, WDS_LOG_LEVEL_INFO, WDS_LOG_LEVEL_WARNING, WDS_LOG_TYPE_CLIENT_APPLY_FINISHED, WDS_LOG_TYPE_CLIENT_APPLY_STARTED, WDS_LOG_TYPE_CLIENT_ERROR, WDS_LOG_TYPE_CLIENT_FINISHED, WDS_LOG_TYPE_CLIENT_GENERIC_MESSAGE, WDS_LOG_TYPE_CLIENT_IMAGE_SELECTED, WDS_LOG_TYPE_CLIENT_MAX_CODE, WDS_LOG_TYPE_CLIENT_STARTED, WdsCliLog, WdsCliLog function [Windows Deployment Services], wds.wdsclilog, wdsclientapi/WdsCliLog
 ms.prod: windows
 ms.technology: windows-sdk

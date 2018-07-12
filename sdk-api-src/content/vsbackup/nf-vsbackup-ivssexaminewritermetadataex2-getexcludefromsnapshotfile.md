@@ -4,10 +4,10 @@ title: IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile
 author: windows-sdk-content
 description: Obtains information about file sets that have been explicitly excluded from a given shadow copy.
 old-location: base\ivssexaminewritermetadataex2_getexcludefromsnapshotfile.htm
-old-project: VSS
+old-project: vss
 ms.assetid: 3df57749-9a26-4187-b1fc-aeb68a4d1d06
 ms.author: windowssdkdev
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.keywords: GetExcludeFromSnapshotFile, GetExcludeFromSnapshotFile method, GetExcludeFromSnapshotFile method,IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,GetExcludeFromSnapshotFile method, IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotFile, IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile, base.ivssexaminewritermetadataex2_getexcludefromsnapshotfile, vsbackup/IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -143,7 +143,7 @@ The caller is out of memory or other system resources.
 
 
 
-The caller is responsible for calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method to release the resources of the returned 
+The caller is responsible for calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method to release the resources of the returned 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object.
 
 The <b>GetExcludeFromSnapshotFile</b> method is intended to report information about <a href="https://msdn.microsoft.com/library/Aa384656(v=VS.85).aspx">file sets</a> excluded from a shadow copy. Requesters should not exclude files from backup based on the information returned by this method.

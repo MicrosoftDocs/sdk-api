@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createdecoderfromfilename.htm
 old-project: wic
 ms.assetid: 100c54c7-bb10-47dd-8436-04282ec6b110
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: CreateDecoderFromFilename, CreateDecoderFromFilename method [Windows Imaging Component], CreateDecoderFromFilename method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateDecoderFromFilename method, IWICImagingFactory.CreateDecoderFromFilename, IWICImagingFactory::CreateDecoderFromFilename, _wic_codec_iwicimagingfactory_createdecoderfromfilename, wic._wic_codec_iwicimagingfactory_createdecoderfromfilename, wincodec/IWICImagingFactory::CreateDecoderFromFilename
 ms.prod: windows
 ms.technology: windows-sdk

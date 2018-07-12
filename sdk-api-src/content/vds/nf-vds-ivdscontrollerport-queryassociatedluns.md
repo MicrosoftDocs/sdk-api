@@ -4,10 +4,10 @@ title: IVdsControllerPort::QueryAssociatedLuns
 author: windows-sdk-content
 description: Returns an enumeration of the LUNs with which the controller port is associated&#8212;the LUNs for which the controller is active. This method replaces IVdsController::QueryAssociatedLuns.
 old-location: base\ivdscontrollerport_queryassociatedluns.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 062b820e-f384-4c2e-a2f7-c90748c74976
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsControllerPort interface [VDS],QueryAssociatedLuns method, IVdsControllerPort.QueryAssociatedLuns, IVdsControllerPort::QueryAssociatedLuns, QueryAssociatedLuns, QueryAssociatedLuns method [VDS], QueryAssociatedLuns method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_queryassociatedluns, vds/IVdsControllerPort::QueryAssociatedLuns, vdshwprv/IVdsControllerPort::QueryAssociatedLuns
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ Returns an enumeration of the LUNs with which the controller port is associatedâ
 ### -param ppEnum [out]
 
 
-      The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the LUNs  as <a href="https://msdn.microsoft.com/ea22bd6d-4a7a-4674-82e9-08460914ff8e">LUN objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the LUN  objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+      The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the LUNs  as <a href="https://msdn.microsoft.com/ea22bd6d-4a7a-4674-82e9-08460914ff8e">LUN objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the LUN  objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
      
 
 

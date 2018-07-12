@@ -4,10 +4,10 @@ title: IWSManEnumerator
 author: windows-sdk-content
 description: Represents a stream of results returned from operations, such as a Pull operation.
 old-location: winrm\enumerator.htm
-old-project: WinRM
+old-project: winrm
 ms.assetid: 8d8b461d-06a7-4600-8b68-2faf741a394b
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: Enumerator, Enumerator object [Windows Remote Management], Enumerator object [Windows Remote Management],described, IWSManEnumerator, winrm.enumerator, wsman.enumerator, wsmandisp/Enumerator
 ms.prod: windows
 ms.technology: windows-sdk

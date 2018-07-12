@@ -7,7 +7,7 @@ old-location: mf\mfcreatevideomediatypefromvideoinfoheader.htm
 old-project: medfound
 ms.assetid: 922ab0b5-2363-4073-9252-a71b79e03573
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 922ab0b5-2363-4073-9252-a71b79e03573, MFCreateVideoMediaTypeFromVideoInfoHeader, MFCreateVideoMediaTypeFromVideoInfoHeader function [Media Foundation], mf.mfcreatevideomediatypefromvideoinfoheader, mfapi/MFCreateVideoMediaTypeFromVideoInfoHeader
 ms.prod: windows
 ms.technology: windows-sdk

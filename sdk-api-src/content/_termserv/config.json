@@ -28,6 +28,5 @@
     "wtsdefs.h",
     "wtsprotocol.h",
     "rdpappcontainerclient.h"
-  ],
-  "displayName": "Remote Desktop Services"
+  ]
 }

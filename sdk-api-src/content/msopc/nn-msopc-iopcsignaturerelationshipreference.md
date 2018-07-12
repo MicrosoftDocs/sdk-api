@@ -7,7 +7,7 @@ old-location: opc\iopcsignaturerelationshipreference.htm
 old-project: OPC
 ms.assetid: 24aebfff-6b4f-49cb-988f-670ffed7d815
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: IOpcSignatureRelationshipReference, IOpcSignatureRelationshipReference interface [Open Packaging Conventions], IOpcSignatureRelationshipReference interface [Open Packaging Conventions],described, msopc/IOpcSignatureRelationshipReference, opc.iopcsignaturerelationshipreference
 ms.prod: windows
 ms.technology: windows-sdk

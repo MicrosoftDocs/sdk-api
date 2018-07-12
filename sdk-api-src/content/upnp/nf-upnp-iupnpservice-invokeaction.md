@@ -4,10 +4,10 @@ title: IUPnPService::InvokeAction
 author: windows-sdk-content
 description: Invokes a method on the device.
 old-location: upnp\iupnpservice_invokeaction.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: fe8b4761-63cb-46a9-a7d0-5603cc1a5a58
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 04/26/2018
 ms.keywords: IUPnPService interface [UPnP APIs],InvokeAction method, IUPnPService.InvokeAction, IUPnPService::InvokeAction, InvokeAction, InvokeAction method [UPnP APIs], InvokeAction method [UPnP APIs],IUPnPService interface, _upnp_iupnpservice_invokeaction, upnp.iupnpservice_invokeaction, upnp/IUPnPService::InvokeAction
 ms.prod: windows
 ms.technology: windows-sdk

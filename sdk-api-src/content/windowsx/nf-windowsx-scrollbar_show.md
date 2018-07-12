@@ -4,10 +4,10 @@ title: ScrollBar_Show macro
 author: windows-sdk-content
 description: Shows or hides a scroll bar control.
 old-location: controls\ScrollBar_Show.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_show.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ScrollBar_Show, ScrollBar_Show macro [Windows Controls], _win32_ScrollBar_Show, _win32_ScrollBar_Show_cpp, controls.ScrollBar_Show, controls._win32_ScrollBar_Show, windowsx/ScrollBar_Show
 ms.prod: windows
 ms.technology: windows-sdk

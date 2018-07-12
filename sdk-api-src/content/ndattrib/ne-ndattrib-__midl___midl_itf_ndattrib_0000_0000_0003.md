@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_ndattrib_0000_0000_0003"
 author: windows-sdk-content
 description: The UI_INFO_TYPE enumeration identifies repairs that perform user interface tasks.
 old-location: ndf\ui_info_type.htm
-old-project: NDF
+old-project: ndf
 ms.assetid: 819ab594-860b-42a0-be6e-bab0e669c200
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: UIT_DUI, UIT_HELP_PANE, UIT_NONE, UIT_SHELL_COMMAND, UI_INFO_TYPE, UI_INFO_TYPE enumeration [NDF], __MIDL___MIDL_itf_ndattrib_0000_0000_0003, ndattrib/UIT_DUI, ndattrib/UIT_HELP_PANE, ndattrib/UIT_NONE, ndattrib/UIT_SHELL_COMMAND, ndattrib/UI_INFO_TYPE, ndf.ui_info_type
 ms.prod: windows
 ms.technology: windows-sdk

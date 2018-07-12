@@ -4,10 +4,10 @@ title: IFsrmQuotaTemplateManager
 author: windows-sdk-content
 description: Used to manage quota templates.
 old-location: fsrm\ifsrmquotatemplatemanager.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: c6e782ff-b2e7-4bd6-bd9f-cc645c6ee5d6
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IFsrmQuotaTemplateManager, IFsrmQuotaTemplateManager interface [File Server Resource Manager], IFsrmQuotaTemplateManager interface [File Server Resource Manager],described, fs.ifsrmquotatemplatemanager, fsrm.ifsrmquotatemplatemanager, fsrmquota/IFsrmQuotaTemplateManager
 ms.prod: windows
 ms.technology: windows-sdk

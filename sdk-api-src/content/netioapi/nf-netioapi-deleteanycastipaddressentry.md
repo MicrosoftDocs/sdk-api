@@ -4,10 +4,10 @@ title: DeleteAnycastIpAddressEntry function
 author: windows-sdk-content
 description: Deletes an existing anycast IP address entry on the local computer.
 old-location: iphlp\deleteanycastipaddressentry.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 3d6b7c5c-97a8-4a1d-a4cd-7ccf1f585305
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: DeleteAnycastIpAddressEntry, DeleteAnycastIpAddressEntry function [IP Helper], iphlp.deleteanycastipaddressentry, netioapi/DeleteAnycastIpAddressEntry
 ms.prod: windows
 ms.technology: windows-sdk

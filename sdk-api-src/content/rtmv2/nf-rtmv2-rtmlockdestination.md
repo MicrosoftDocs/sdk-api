@@ -4,10 +4,10 @@ title: RtmLockDestination function
 author: windows-sdk-content
 description: The RtmLockDestination function locks or unlocks a destination in the routing table. Use this function to protect a destination while changing opaque pointers.
 old-location: rras\rtmlockdestination.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 5666dc47-811f-481e-8bda-bf814a4028de
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RtmLockDestination, RtmLockDestination function [RAS], _rtmv2ref_rtmlockdestination, rras.rtmlockdestination, rtmv2/RtmLockDestination
 ms.prod: windows
 ms.technology: windows-sdk

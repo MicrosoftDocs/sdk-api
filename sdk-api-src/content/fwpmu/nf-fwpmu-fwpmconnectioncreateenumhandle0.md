@@ -4,10 +4,10 @@ title: FwpmConnectionCreateEnumHandle0 function
 author: windows-sdk-content
 description: Creates a handle used to enumerate a set of connection objects.
 old-location: fwp\fwpmconnectioncreateenumhandle0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: b33878d5-437d-4625-b488-28fbe95eb69f
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FwpmConnectionCreateEnumHandle0, FwpmConnectionCreateEnumHandle0 function [Filtering], fwp.fwpmconnectioncreateenumhandle0, fwpmu/FwpmConnectionCreateEnumHandle0
 ms.prod: windows
 ms.technology: windows-sdk

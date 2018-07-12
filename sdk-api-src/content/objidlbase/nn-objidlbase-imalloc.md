@@ -7,7 +7,7 @@ old-location: com\imalloc.htm
 old-project: com
 ms.assetid: 047f281e-2665-4d6d-9a0b-918cd3339447
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IMalloc, IMalloc interface [COM], IMalloc interface [COM],described, _com_imalloc, com.imalloc, objidlbase/IMalloc
 ms.prod: windows
 ms.technology: windows-sdk

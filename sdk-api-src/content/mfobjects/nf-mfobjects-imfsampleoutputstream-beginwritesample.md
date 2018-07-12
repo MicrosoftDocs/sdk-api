@@ -7,7 +7,7 @@ old-location: mf\imfsampleoutputstream_beginwritesample.htm
 old-project: medfound
 ms.assetid: 41056795-3E12-448E-9341-FB4DD4E7D079
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: BeginWriteSample, BeginWriteSample method [Media Foundation], BeginWriteSample method [Media Foundation],IMFSampleOutputStream interface, IMFSampleOutputStream interface [Media Foundation],BeginWriteSample method, IMFSampleOutputStream.BeginWriteSample, IMFSampleOutputStream::BeginWriteSample, mf.imfsampleoutputstream_beginwritesample, mfobjects/IMFSampleOutputStream::BeginWriteSample
 ms.prod: windows
 ms.technology: windows-sdk

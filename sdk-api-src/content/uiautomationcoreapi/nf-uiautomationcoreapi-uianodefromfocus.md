@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaNodeFromFocusFunction.htm
 old-project: WinAuto
 ms.assetid: 6ea47aee-1f9f-40e1-8c55-a1813203575e
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: UiaNodeFromFocus, UiaNodeFromFocus function [Windows Accessibility], uiauto.uiauto_UiaNodeFromFocusFunction, uiauto_UiaNodeFromFocusFunction, uiautomationcoreapi/UiaNodeFromFocus, winauto.uiauto_UiaNodeFromFocusFunction
 ms.prod: windows
 ms.technology: windows-sdk

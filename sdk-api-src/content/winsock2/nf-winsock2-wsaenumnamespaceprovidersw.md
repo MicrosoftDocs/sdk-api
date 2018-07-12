@@ -7,7 +7,7 @@ old-location: winsock\wsaenumnamespaceproviders_2.htm
 old-project: WinSock
 ms.assetid: f5b6cd42-c5cb-43b6-bb96-fd260217e252
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: WSAEnumNameSpaceProviders, WSAEnumNameSpaceProviders function [Winsock], WSAEnumNameSpaceProvidersA, WSAEnumNameSpaceProvidersW, _win32_wsaenumnamespaceproviders_2, winsock.wsaenumnamespaceproviders_2, winsock2/WSAEnumNameSpaceProviders, winsock2/WSAEnumNameSpaceProvidersA, winsock2/WSAEnumNameSpaceProvidersW
 ms.prod: windows
 ms.technology: windows-sdk

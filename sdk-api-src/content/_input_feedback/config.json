@@ -2,6 +2,5 @@
   "tech": "input_feedback",
   "headers": [
     "winuser.h"
-  ],
-  "displayName": "Input Feedback Configuration"
+  ]
 }

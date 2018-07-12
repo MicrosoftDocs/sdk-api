@@ -7,7 +7,7 @@ old-location: winrt\windowsisstringempty.htm
 old-project: WinRT
 ms.assetid: F354F692-4D64-4A3F-8B27-1951C93A6FCA
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/06/2018
 ms.keywords: WindowsIsStringEmpty, WindowsIsStringEmpty function [Windows Runtime], winrt.windowsisstringempty, winstring/WindowsIsStringEmpty
 ms.prod: windows
 ms.technology: windows-sdk

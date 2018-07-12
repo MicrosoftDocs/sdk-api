@@ -4,10 +4,10 @@ title: IGPMStatusMsgCollection
 author: windows-sdk-content
 description: The IGPMStatusMsgCollection interface contains methods that enable applications to access a collection of status messages when using the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmstatusmsgcollection.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: 774dd1b0-e5ea-4fef-b3bc-743870793db5
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: GPMStatusMsgCollection, IGPMStatusMsgCollection, IGPMStatusMsgCollection interface [GPMC], IGPMStatusMsgCollection interface [GPMC],described, _win32_igpmstatusmsgcollection, gpmc.igpmstatusmsgcollection, gpmgmt/IGPMStatusMsgCollection
 ms.prod: windows
 ms.technology: windows-sdk

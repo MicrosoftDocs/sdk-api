@@ -4,10 +4,10 @@ title: "_DS_REPL_ATTR_VALUE_META_DATA"
 author: windows-sdk-content
 description: The DS_REPL_ATTR_VALUE_META_DATA structure is used with the DsReplicaGetInfo2 function to provide metadata for a collection of attribute values.
 old-location: ad\ds_repl_attr_value_meta_data.htm
-old-project: AD
+old-project: ad
 ms.assetid: b13cdd31-d154-4539-81d6-d7a449e2b3d5
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DS_REPL_ATTR_VALUE_META_DATA, DS_REPL_ATTR_VALUE_META_DATA structure [Active Directory], _DS_REPL_ATTR_VALUE_META_DATA, ad.ds_repl_attr_value_meta_data, ntdsapi/DS_REPL_ATTR_VALUE_META_DATA
 ms.prod: windows
 ms.technology: windows-sdk

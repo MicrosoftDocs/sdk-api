@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_session_associatorinstances.htm
 old-project: wmi_v2
 ms.assetid: 4e517289-a30e-4ba3-8cbf-dfc4f9744b1a
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_Session_AssociatorInstances, MI_Session_AssociatorInstances function [Windows Management Infrastructure (MI)], mi/MI_Session_AssociatorInstances, wmi_v2.mi_session_associatorinstances
 ms.prod: windows
 ms.technology: windows-sdk

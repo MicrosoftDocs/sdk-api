@@ -4,10 +4,10 @@ title: PowerReadPossibleValue function
 author: windows-sdk-content
 description: Retrieves the value for a possible value of a power setting.
 old-location: base\powerreadpossiblevalue.htm
-old-project: Power
+old-project: power
 ms.assetid: 453f3db0-537d-4f24-a62c-d12b44b5e019
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadPossibleValue, PowerReadPossibleValue function, base.powerreadpossiblevalue, powrprof/PowerReadPossibleValue
 ms.prod: windows
 ms.technology: windows-sdk

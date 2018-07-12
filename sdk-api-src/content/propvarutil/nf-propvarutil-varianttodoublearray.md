@@ -7,7 +7,7 @@ old-location: properties\VariantToDoubleArray.htm
 old-project: properties
 ms.assetid: 6830c2e2-d19a-45d5-af15-debfb08548bc
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: VariantToDoubleArray, VariantToDoubleArray function [Windows Properties], _shell_VariantToDoubleArray, properties.VariantToDoubleArray, propvarutil/VariantToDoubleArray, shell.VariantToDoubleArray
 ms.prod: windows
 ms.technology: windows-sdk

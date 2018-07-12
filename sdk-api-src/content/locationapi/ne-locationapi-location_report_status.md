@@ -4,10 +4,10 @@ title: LOCATION_REPORT_STATUS
 author: windows-sdk-content
 description: Defines possible status for new reports of a particular report type.
 old-location: winlocation_com_ref\location_report_status.htm
-old-project: LocationAPI
+old-project: locationapi
 ms.assetid: 440e64cb-d09c-47cd-9434-8d4479fa52e2
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: LOCATION_REPORT_STATUS, LOCATION_REPORT_STATUS enumeration [WinLocation], REPORT_ACCESS_DENIED, REPORT_ERROR, REPORT_INITIALIZING, REPORT_NOT_SUPPORTED, REPORT_RUNNING, WinLocation_COM_Ref.location_report_status, locationapi/LOCATION_REPORT_STATUS, locationapi/REPORT_ACCESS_DENIED, locationapi/REPORT_ERROR, locationapi/REPORT_INITIALIZING, locationapi/REPORT_NOT_SUPPORTED, locationapi/REPORT_RUNNING
 ms.prod: windows
 ms.technology: windows-sdk

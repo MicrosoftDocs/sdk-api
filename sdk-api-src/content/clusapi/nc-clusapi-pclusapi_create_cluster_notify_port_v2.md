@@ -4,10 +4,10 @@ title: PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2
 author: windows-sdk-content
 description: Creates or modifies a notification port. For information about notification ports, see Receiving Cluster Events.
 old-location: mscs\createclusternotifyportv2.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 81FE17A9-DE1C-4CDD-BE7D-50EA202D5AAC
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2, PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2 callback, PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2 callback function [Failover Cluster], clusapi/PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2, mscs.createclusternotifyportv2
 ms.prod: windows
 ms.technology: windows-sdk

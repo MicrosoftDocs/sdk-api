@@ -4,10 +4,10 @@ title: PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET
 author: windows-sdk-content
 description: Removes the specified group from the groupset to which it is currently a member.
 old-location: mscs\clusterremovegroupfromgroupcollection.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 26fdf045-0c7d-49ca-adc4-2f687e85b858
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET, PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET callback, PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET, mscs.clusterremovegroupfromgroupcollection
 ms.prod: windows
 ms.technology: windows-sdk

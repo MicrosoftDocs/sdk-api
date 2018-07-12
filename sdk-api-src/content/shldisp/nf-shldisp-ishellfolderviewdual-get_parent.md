@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual_get_Parent.htm
 old-project: shell
 ms.assetid: 36a893b3-6c4e-4cca-949b-707fd2aed125
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_Parent method, IShellFolderViewDual.get_Parent, IShellFolderViewDual::get_Parent, _shell_IShellFolderViewDual_get_Parent, get_Parent, get_Parent method [Windows Shell], get_Parent method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_Parent, shldisp/IShellFolderViewDual::get_Parent
 ms.prod: windows
 ms.technology: windows-sdk

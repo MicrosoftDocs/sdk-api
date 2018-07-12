@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard2_schedule.htm
 old-project: UIAnimation
 ms.assetid: 9F20AE4A-F693-4DDA-90F4-FCCA5291208B
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],Schedule method, IUIAnimationStoryboard2.Schedule, IUIAnimationStoryboard2::Schedule, Schedule, Schedule method [Windows Animation], Schedule method [Windows Animation],IUIAnimationStoryboard2 interface, uianimation.iuianimationstoryboard2_schedule, uianimation/IUIAnimationStoryboard2::Schedule
 ms.prod: windows
 ms.technology: windows-sdk

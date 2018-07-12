@@ -7,7 +7,7 @@ old-location: multimedia\iavistreaming_end.htm
 old-project: Multimedia
 ms.assetid: 5db48b61-5926-41fb-9d0d-f39cba6deec9
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: End, End method [Windows Multimedia], End method [Windows Multimedia],IAVIStreaming interface, IAVIStreaming interface [Windows Multimedia],End method, IAVIStreaming.End, IAVIStreaming::End, _win32_IAVIStreaming_End, multimedia.iavistreaming_end, vfw/IAVIStreaming::End
 ms.prod: windows
 ms.technology: windows-sdk

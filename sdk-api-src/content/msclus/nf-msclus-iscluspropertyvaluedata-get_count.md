@@ -4,10 +4,10 @@ title: ISClusPropertyValueData::get_Count
 author: windows-sdk-content
 description: Number of data values in the ClusPropertyValueData collection.
 old-location: mscs\cluspropertyvaluedata_count.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 53f2da9f-d72d-4e1b-a7c0-d74ebf1c7418
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusPropertyValueData collection [Failover Cluster],Count property, ClusPropertyValueData.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusPropertyValueData collection, ISClusPropertyValueData.get_Count, ISClusPropertyValueData::get_Count, _wolf_cluspropertyvaluedata.count, get_Count, mscs.cluspropertyvaluedata_count
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IVdsVolume::GetPack
 author: windows-sdk-content
 description: Retrieves the pack to which the volume is a member.
 old-location: base\ivdsvolume_getpack.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 8719c4a4-a7d6-4329-a601-5c88de18f53d
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: GetPack, GetPack method [VDS], GetPack method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],GetPack method, IVdsVolume.GetPack, IVdsVolume::GetPack, base.ivdsvolume_getpack, vds/IVdsVolume::GetPack
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: FWPM_NET_EVENT_IPSEC_DOSP_DROP0_
 author: windows-sdk-content
 description: Contains information that describes an IPsec DoS Protection drop event.
 old-location: fwp\fwpm_net_event_ipsec_dosp_drop0.htm
-old-project: FWP
+old-project: fwp
 ms.assetid: 7b28a81f-bf80-4739-989e-a276a0ca8a3a
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.keywords: FWPM_NET_EVENT_IPSEC_DOSP_DROP0, FWPM_NET_EVENT_IPSEC_DOSP_DROP0 structure [Filtering], FWPM_NET_EVENT_IPSEC_DOSP_DROP0_, fwp.fwpm_net_event_ipsec_dosp_drop0, fwpmtypes/FWPM_NET_EVENT_IPSEC_DOSP_DROP0
 ms.prod: windows
 ms.technology: windows-sdk

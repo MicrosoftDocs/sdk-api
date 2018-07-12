@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayer_get_enabled.htm
 old-project: WMP
 ms.assetid: 42dc1774-686c-4336-9a61-b658a75ba257
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],get_enabled method, IWMPPlayer.get_enabled, IWMPPlayer::get_enabled, IWMPPlayerget_enabled, get_enabled, get_enabled method [Windows Media Player], get_enabled method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_get_enabled, wmp/IWMPPlayer::get_enabled
 ms.prod: windows
 ms.technology: windows-sdk

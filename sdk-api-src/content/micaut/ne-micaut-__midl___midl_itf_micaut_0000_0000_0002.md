@@ -7,7 +7,7 @@ old-location: tablet\micuielementstate.htm
 old-project: tablet
 ms.assetid: 6f2c9d45-ad2c-451a-8945-6c9f2f8d5f18
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 06/27/2018
 ms.keywords: MICUIELEMENTSTATE, MICUIELEMENTSTATE enumeration [Tablet PC], MICUIELEMENTSTATE_DISABLED, MICUIELEMENTSTATE_HOT, MICUIELEMENTSTATE_NORMAL, MICUIELEMENTSTATE_PRESSED, __MIDL___MIDL_itf_micaut_0000_0000_0002, micaut/MICUIELEMENTSTATE, micaut/MICUIELEMENTSTATE_DISABLED, micaut/MICUIELEMENTSTATE_HOT, micaut/MICUIELEMENTSTATE_NORMAL, micaut/MICUIELEMENTSTATE_PRESSED, tablet.micuielementstate
 ms.prod: windows
 ms.technology: windows-sdk

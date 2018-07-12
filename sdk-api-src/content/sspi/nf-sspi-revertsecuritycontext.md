@@ -7,7 +7,7 @@ old-location: security\revertsecuritycontext.htm
 old-project: SecAuthN
 ms.assetid: d4ed1fe9-2e0a-4648-a010-1eae49ba03ee
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/09/2018
 ms.keywords: RevertSecurityContext, RevertSecurityContext function [Security], _ssp_revertsecuritycontext, security.revertsecuritycontext, sspi/RevertSecurityContext
 ms.prod: windows
 ms.technology: windows-sdk

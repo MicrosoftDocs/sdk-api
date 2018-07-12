@@ -7,7 +7,7 @@ old-location: base\rtwqaddperiodiccallback.htm
 old-project: ProcThread
 ms.assetid: 5f472e42-7c62-462a-91a8-240c395ad765
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: RtwqAddPeriodicCallback, RtwqAddPeriodicCallback function, base.rtwqaddperiodiccallback, rtworkq/RtwqAddPeriodicCallback
 ms.prod: windows
 ms.technology: windows-sdk

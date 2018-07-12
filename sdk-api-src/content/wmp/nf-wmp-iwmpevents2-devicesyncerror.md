@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents2_iwmpevents2__devicesyncerror.htm
 old-project: WMP
 ms.assetid: 41e9a6df-3721-4fd2-aa9d-9874a004aa9a
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: DeviceSyncError, DeviceSyncError method [Windows Media Player], DeviceSyncError method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],DeviceSyncError method, IWMPEvents2.DeviceSyncError, IWMPEvents2::DeviceSyncError, IWMPEvents2DeviceSyncError, wmp.iwmpevents2_iwmpevents2__devicesyncerror, wmp/IWMPEvents2::DeviceSyncError
 ms.prod: windows
 ms.technology: windows-sdk

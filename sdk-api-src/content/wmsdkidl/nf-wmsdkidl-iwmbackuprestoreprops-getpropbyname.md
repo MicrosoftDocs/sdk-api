@@ -7,7 +7,7 @@ old-location: wmformat\iwmbackuprestoreprops_getpropbyname.htm
 old-project: wmformat
 ms.assetid: 771a7a49-7d42-4537-9945-97b907404097
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: GetPropByName, GetPropByName method [windows Media Format], GetPropByName method [windows Media Format],IWMBackupRestoreProps interface, IWMBackupRestoreProps interface [windows Media Format],GetPropByName method, IWMBackupRestoreProps.GetPropByName, IWMBackupRestoreProps::GetPropByName, IWMBackupRestorePropsGetPropByName, wmformat.iwmbackuprestoreprops_getpropbyname, wmsdkidl/IWMBackupRestoreProps::GetPropByName
 ms.prod: windows
 ms.technology: windows-sdk

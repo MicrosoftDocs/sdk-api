@@ -4,10 +4,10 @@ title: IVdsLunMpio::SetLoadBalancePolicy
 author: windows-sdk-content
 description: Sets the load balance policy on the LUN.
 old-location: base\ivdslunmpio_setloadbalancepolicy.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 2f3eb00a-864e-4fb7-a722-4537e6b8dd42
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsLunMpio interface [VDS],SetLoadBalancePolicy method, IVdsLunMpio.SetLoadBalancePolicy, IVdsLunMpio::SetLoadBalancePolicy, SetLoadBalancePolicy, SetLoadBalancePolicy method [VDS], SetLoadBalancePolicy method [VDS],IVdsLunMpio interface, base.ivdslunmpio_setloadbalancepolicy, vds/IVdsLunMpio::SetLoadBalancePolicy, vdshwprv/IVdsLunMpio::SetLoadBalancePolicy
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: TCI_ADD_FLOW_COMPLETE_HANDLER
 author: windows-sdk-content
 description: The ClAddFlowComplete function is used by traffic control to notify the client of the completion of its previous call to the TcAddFlow function.
 old-location: qos\claddflowcomplete.htm
-old-project: QOS
+old-project: qos
 ms.assetid: 0aa6f590-f7b2-4312-87a7-3854f883fa22
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: ClAddFlowComplete, ClAddFlowComplete callback, ClAddFlowComplete callback function [QOS], TCI_ADD_FLOW_COMPLETE_HANDLER, TCI_ADD_FLOW_COMPLETE_HANDLER callback function [QOS], _gqos_claddflowcomplete, qos.claddflowcomplete, traffic/ClAddFlowComplete
 ms.prod: windows
 ms.technology: windows-sdk

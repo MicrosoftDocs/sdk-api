@@ -4,10 +4,10 @@ title: ISCluster::get_Version
 author: windows-sdk-content
 description: Returns a ClusVersion object describing the operating system and Cluster service versions running on the local node.
 old-location: mscs\cluster_version.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 77abfb85-48fe-4b18-b79e-5641711f33d7
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: Cluster object [Failover Cluster],Version property, Cluster.Version, ISCluster.get_Version, ISCluster::get_Version, Version property [Failover Cluster], Version property [Failover Cluster],Cluster object, _wolf_cluster.version, get_Version, mscs.cluster_version
 ms.prod: windows
 ms.technology: windows-sdk

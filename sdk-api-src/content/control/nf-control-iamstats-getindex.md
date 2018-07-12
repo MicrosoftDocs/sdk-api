@@ -7,7 +7,7 @@ old-location: dshow\iamstats_getindex.htm
 old-project: DirectShow
 ms.assetid: a5ea650c-42dd-405c-8ad9-6e48cf51353d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: GetIndex, GetIndex method [DirectShow], GetIndex method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],GetIndex method, IAMStats.GetIndex, IAMStats::GetIndex, IAMStatsGetIndex, control/IAMStats::GetIndex, dshow.iamstats_getindex
 ms.prod: windows
 ms.technology: windows-sdk

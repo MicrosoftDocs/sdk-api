@@ -4,10 +4,10 @@ title: View::Is
 author: windows-sdk-content
 description: The Is method determines whether the view is the same as a specified view.
 old-location: mmc\view_is.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 41627d45-501e-4be3-a721-78b10de078f6
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 06/27/2018
 ms.keywords: Is, Is method [MMC], Is method [MMC],View interface, Is method [MMC],View object, View interface [MMC],Is method, View object [MMC],Is method, View.Is, View::Is, _slate_view.is_method, mmc.view_is
 ms.prod: windows
 ms.technology: windows-sdk

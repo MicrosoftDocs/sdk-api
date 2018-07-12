@@ -4,10 +4,10 @@ title: IVdsAdvancedDisk::QueryPartitions
 author: windows-sdk-content
 description: Returns the details of all partitions on the current disk.
 old-location: base\ivdsadvanceddisk_querypartitions.htm
-old-project: VDS
+old-project: vds
 ms.assetid: ca02c5f8-11cd-4bdf-a376-3b146eb2aa70
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsAdvancedDisk interface [VDS],QueryPartitions method, IVdsAdvancedDisk.QueryPartitions, IVdsAdvancedDisk::QueryPartitions, QueryPartitions, QueryPartitions method [VDS], QueryPartitions method [VDS],IVdsAdvancedDisk interface, base.ivdsadvanceddisk_querypartitions, vds/IVdsAdvancedDisk::QueryPartitions
 ms.prod: windows
 ms.technology: windows-sdk

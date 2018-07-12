@@ -7,7 +7,7 @@ old-location: shell\SetCurrentProcessExplicitAppUserModelID.htm
 old-project: shell
 ms.assetid: 2b8baf6d-9c9a-4727-9deb-3d335bd0dc7c
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: SetCurrentProcessExplicitAppUserModelID, SetCurrentProcessExplicitAppUserModelID function [Windows Shell], _shell_SetCurrentProcessExplicitAppUserModelID, shell.SetCurrentProcessExplicitAppUserModelID, shobjidl_core/SetCurrentProcessExplicitAppUserModelID
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_WIN32_FILE_ATTRIBUTE_DATA"
 author: windows-sdk-content
 description: Contains attribute information for a file or directory.
 old-location: fs\win32_file_attribute_data_str.htm
-old-project: FileIO
+old-project: fileio
 ms.assetid: e1a7fb5c-2d69-40e3-b9d8-b583a03d828a
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/14/2018
 ms.keywords: "*LPWIN32_FILE_ATTRIBUTE_DATA, LPWIN32_FILE_ATTRIBUTE_DATA, LPWIN32_FILE_ATTRIBUTE_DATA structure pointer [Files], WIN32_FILE_ATTRIBUTE_DATA, WIN32_FILE_ATTRIBUTE_DATA structure [Files], _WIN32_FILE_ATTRIBUTE_DATA, _win32_win32_file_attribute_data_str, base.win32_file_attribute_data_str, fileapi/LPWIN32_FILE_ATTRIBUTE_DATA, fileapi/WIN32_FILE_ATTRIBUTE_DATA, fs.win32_file_attribute_data_str"
 ms.prod: windows
 ms.technology: windows-sdk

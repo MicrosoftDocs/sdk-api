@@ -7,7 +7,7 @@ old-location: com\isurrogateservice_init.htm
 old-project: com
 ms.assetid: ed2e628c-5c86-48fd-aa55-f532602247ea
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: ISurrogateService interface [COM],Init method, ISurrogateService.Init, ISurrogateService::Init, Init, Init method [COM], Init method [COM],ISurrogateService interface, _com_isurrogateservice_init, com.isurrogateservice_init, objidl/ISurrogateService::Init
 ms.prod: windows
 ms.technology: windows-sdk

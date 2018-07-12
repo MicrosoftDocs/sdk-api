@@ -4,6 +4,5 @@
     "msajtransport.h",
     "status.h",
     "windows.devices.alljoyn.interop.h"
-  ],
-  "displayName": "AllJoyn API"
+  ]
 }

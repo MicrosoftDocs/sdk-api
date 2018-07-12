@@ -7,7 +7,7 @@ old-location: wer\werstorequeryreportmetadatav2.htm
 old-project: wer
 ms.assetid: ADF6619C-1F3E-4AFF-9E25-4F6F83D1353C
 ms.author: windowssdkdev
-ms.date: 03/22/2018
+ms.date: 03/23/2018
 ms.keywords: WerStoreQueryReportMetadataV2, WerStoreQueryReportMetadataV2 function [Windows Error Reporting], wer.werstorequeryreportmetadatav2, werapi/WerStoreQueryReportMetadataV2
 ms.prod: windows
 ms.technology: windows-sdk

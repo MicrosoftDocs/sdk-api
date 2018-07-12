@@ -4,10 +4,10 @@ title: DsRemoveDsServerA function
 author: windows-sdk-content
 description: The DsRemoveDsServer function removes all traces of a directory service agent (DSA) from the global area of the directory service.
 old-location: ad\dsremovedsserver.htm
-old-project: AD
+old-project: ad
 ms.assetid: a79a2b71-10c7-495b-861f-0c7a4d86f720
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DsRemoveDsServer, DsRemoveDsServer function [Active Directory], DsRemoveDsServerA, DsRemoveDsServerW, _glines_dsremovedsserver, ad.dsremovedsserver, ntdsapi/DsRemoveDsServer, ntdsapi/DsRemoveDsServerA, ntdsapi/DsRemoveDsServerW
 ms.prod: windows
 ms.technology: windows-sdk

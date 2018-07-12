@@ -4,10 +4,10 @@ title: "_EapUsernamePasswordCredential"
 author: windows-sdk-content
 description: Contains the username and password that is used by the EAP method for authenticating the user.
 old-location: eaphost\eapusernamepasswordcredential.htm
-old-project: EAPHost
+old-project: eaphost
 ms.assetid: 61484095-4354-4103-9E21-683002750B26
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: EapUsernamePasswordCredential, EapUsernamePasswordCredential structure [EAPHost], _EapUsernamePasswordCredential, eaphost.eapusernamepasswordcredential, eaptypes/EapUsernamePasswordCredential
 ms.prod: windows
 ms.technology: windows-sdk

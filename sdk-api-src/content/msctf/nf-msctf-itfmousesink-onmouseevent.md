@@ -7,7 +7,7 @@ old-location: tsf\itfmousesink_onmouseevent.htm
 old-project: TSF
 ms.assetid: 1aa4fdb7-b16d-4e58-934a-8323450f6749
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITfMouseSink interface [Text Services Framework],OnMouseEvent method, ITfMouseSink.OnMouseEvent, ITfMouseSink::OnMouseEvent, OnMouseEvent, OnMouseEvent method [Text Services Framework], OnMouseEvent method [Text Services Framework],ITfMouseSink interface, _tsf_itfmousesink_onmouseevent_ref, msctf/ITfMouseSink::OnMouseEvent, tsf.itfmousesink_onmouseevent
 ms.prod: windows
 ms.technology: windows-sdk

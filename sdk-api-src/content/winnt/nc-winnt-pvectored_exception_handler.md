@@ -4,10 +4,10 @@ title: PVECTORED_EXCEPTION_HANDLER
 author: windows-sdk-content
 description: An application-defined function that serves as a vectored exception handler.
 old-location: base\vectoredhandler.htm
-old-project: Debug
+old-project: debug
 ms.assetid: a00f0e8d-a10b-48d4-b918-57b2ff9cb984
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: PVECTORED_EXCEPTION_HANDLER, VectoredHandler, VectoredHandler callback, VectoredHandler callback function, _win32_vectoredhandler, base.vectoredhandler, winnt/VectoredHandler
 ms.prod: windows
 ms.technology: windows-sdk

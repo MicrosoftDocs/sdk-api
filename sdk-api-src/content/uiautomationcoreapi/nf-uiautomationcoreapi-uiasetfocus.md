@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaSetFocusAutoMeth.htm
 old-project: WinAuto
 ms.assetid: 89cc1c0d-b6c2-434d-b849-cf09b1711a3d
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: UiaSetFocus, UiaSetFocus function [Windows Accessibility], uiauto.uiauto_UiaSetFocusAutoMeth, uiauto_UiaSetFocusAutoMeth, uiautomationcoreapi/UiaSetFocus, winauto.uiauto_UiaSetFocusAutoMeth
 ms.prod: windows
 ms.technology: windows-sdk

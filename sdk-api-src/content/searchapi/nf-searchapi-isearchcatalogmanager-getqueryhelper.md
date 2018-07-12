@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_GetQueryHelper.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\getqueryhelper.htm
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: GetQueryHelper, GetQueryHelper method [search], GetQueryHelper method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetQueryHelper method, ISearchCatalogManager.GetQueryHelper, ISearchCatalogManager::GetQueryHelper, _search_ISearchCatalogManager_GetQueryHelper, search._search_ISearchCatalogManager_GetQueryHelper, searchapi/ISearchCatalogManager::GetQueryHelper
 ms.prod: windows
 ms.technology: windows-sdk

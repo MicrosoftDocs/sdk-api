@@ -7,7 +7,7 @@ old-location: winsock\nspv2lookupserviceend.htm
 old-project: WinSock
 ms.assetid: 5f2b56c5-3a8e-4bf9-8f28-d2a06543227b
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: LPNSPV2LOOKUPSERVICEEND, NSPv2LookupServiceEnd, NSPv2LookupServiceEnd function [Winsock], winsock.nspv2lookupserviceend, ws2spi/NSPv2LookupServiceEnd
 ms.prod: windows
 ms.technology: windows-sdk

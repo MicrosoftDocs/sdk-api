@@ -7,7 +7,7 @@ old-location: winauto\unhookwinevent.htm
 old-project: WinAuto
 ms.assetid: 5cffb279-85e1-4f7a-8bbb-d0d618f6afcd
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: UnhookWinEvent, UnhookWinEvent function [Windows Accessibility], _msaa_UnhookWinEvent, msaa.unhookwinevent, winauto.unhookwinevent, winuser/UnhookWinEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

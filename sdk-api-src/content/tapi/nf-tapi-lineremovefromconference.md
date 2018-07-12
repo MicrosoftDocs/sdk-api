@@ -4,10 +4,10 @@ title: lineRemoveFromConference function
 author: windows-sdk-content
 description: The lineRemoveFromConference function removes the specified call from the conference call to which it currently belongs. The remaining calls in the conference call are unaffected.
 old-location: tapi2\lineremovefromconference.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 03363579-66c2-4bb5-b110-01084c20bf09
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: "_tapi2_lineremovefromconference, lineRemoveFromConference, lineRemoveFromConference function [TAPI 2.2], tapi/lineRemoveFromConference, tapi2.lineremovefromconference"
 ms.prod: windows
 ms.technology: windows-sdk

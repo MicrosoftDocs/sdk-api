@@ -4,10 +4,10 @@ title: ReleaseSRWLockShared function
 author: windows-sdk-content
 description: Releases a slim reader/writer (SRW) lock that was acquired in shared mode.
 old-location: base\releasesrwlockshared.htm
-old-project: Sync
+old-project: sync
 ms.assetid: afefd9f2-7fd4-4cba-9a6f-1f9da614dcec
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/06/2018
 ms.keywords: ReleaseSRWLockShared, ReleaseSRWLockShared function, base.releasesrwlockshared, synchapi/ReleaseSRWLockShared, winbase/ReleaseSRWLockShared
 ms.prod: windows
 ms.technology: windows-sdk

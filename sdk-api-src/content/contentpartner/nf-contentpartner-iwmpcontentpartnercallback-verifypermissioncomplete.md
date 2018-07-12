@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontentpartnercallback_verifypermissioncomplete.htm
 old-project: WMP
 ms.assetid: bf99ead7-a50c-4638-9f4c-5c43a8d0a0be
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],VerifyPermissionComplete method, IWMPContentPartnerCallback.VerifyPermissionComplete, IWMPContentPartnerCallback::VerifyPermissionComplete, IWMPContentPartnerCallbackVerifyPermissionComplete, VerifyPermissionComplete, VerifyPermissionComplete method [Windows Media Player], VerifyPermissionComplete method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::VerifyPermissionComplete, wmp.iwmpcontentpartnercallback_verifypermissioncomplete
 ms.prod: windows
 ms.technology: windows-sdk

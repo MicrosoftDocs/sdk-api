@@ -4,10 +4,10 @@ title: ISClusResource::get_PrivateROProperties
 author: windows-sdk-content
 description: Returns the read-only private properties of a resource.
 old-location: mscs\clusresource_privateroproperties.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 88869f08-db47-4661-bd23-7fe0bb491fa3
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResource object [Failover Cluster],PrivateROProperties property, ClusResource.PrivateROProperties, ISClusResource.get_PrivateROProperties, ISClusResource::get_PrivateROProperties, PrivateROProperties property [Failover Cluster], PrivateROProperties property [Failover Cluster],ClusResource object, _wolf_clusresource.privateroproperties, get_PrivateROProperties, mscs.clusresource_privateroproperties
 ms.prod: windows
 ms.technology: windows-sdk

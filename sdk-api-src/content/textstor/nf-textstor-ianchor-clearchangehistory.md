@@ -7,7 +7,7 @@ old-location: tsf\ianchor_clearchangehistory.htm
 old-project: TSF
 ms.assetid: 3780ab3d-6b77-45bc-9630-747fa5caaecc
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ClearChangeHistory, ClearChangeHistory method [Text Services Framework], ClearChangeHistory method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],ClearChangeHistory method, IAnchor.ClearChangeHistory, IAnchor::ClearChangeHistory, textstor/IAnchor::ClearChangeHistory, tsf.ianchor_clearchangehistory
 ms.prod: windows
 ms.technology: windows-sdk

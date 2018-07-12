@@ -4,10 +4,10 @@ title: RasEditPhonebookEntryA function
 author: windows-sdk-content
 description: The RasEditPhonebookEntry function edits an existing phone-book entry. The function displays a dialog box in which the user can modify the existing information.
 old-location: rras\raseditphonebookentry.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: 7fce1ea8-7ed6-4975-af4b-e20a1c1be5fa
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: RasEditPhonebookEntry, RasEditPhonebookEntry function [RAS], RasEditPhonebookEntryA, RasEditPhonebookEntryW, _ras_raseditphonebookentry, ras/RasEditPhonebookEntry, ras/RasEditPhonebookEntryA, ras/RasEditPhonebookEntryW, rras.raseditphonebookentry
 ms.prod: windows
 ms.technology: windows-sdk

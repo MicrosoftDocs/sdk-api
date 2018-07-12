@@ -7,7 +7,7 @@ old-location: termserv\iwtslistenercallback_onnewchannelconnection.htm
 old-project: TermServ
 ms.assetid: 1fa2b063-3a41-4f56-8cc1-8a829e530fb2
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: IWTSListenerCallback interface [Remote Desktop Services],OnNewChannelConnection method, IWTSListenerCallback.OnNewChannelConnection, IWTSListenerCallback::OnNewChannelConnection, OnNewChannelConnection, OnNewChannelConnection method [Remote Desktop Services], OnNewChannelConnection method [Remote Desktop Services],IWTSListenerCallback interface, termserv.iwtslistenercallback_onnewchannelconnection, tsvirtualchannels/IWTSListenerCallback::OnNewChannelConnection
 ms.prod: windows
 ms.technology: windows-sdk

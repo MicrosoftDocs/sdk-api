@@ -7,7 +7,7 @@ old-location: cos\imtsgrp.htm
 old-project: cossdk
 ms.assetid: 976b4f0a-79cb-4b2d-8d69-225230147c53
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: IMtsGrp, IMtsGrp interface [COM+], IMtsGrp interface [COM+],described, _dtc_IMtsGrp_Interface, comsvcs/IMtsGrp, cos.imtsgrp
 ms.prod: windows
 ms.technology: windows-sdk

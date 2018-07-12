@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_setuilocale.htm
 old-project: wmi_v2
 ms.assetid: a536544c-003b-402e-9d63-d3e30b49cc39
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_DestinationOptions_SetUILocale, MI_DestinationOptions_SetUILocale function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetUILocale, wmi_v2.mi_destinationoptions_setuilocale
 ms.prod: windows
 ms.technology: windows-sdk

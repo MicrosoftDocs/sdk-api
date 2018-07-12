@@ -7,7 +7,7 @@ old-location: base\createumsthreadcontext.htm
 old-project: ProcThread
 ms.assetid: b27ce81a-8463-46af-8acf-2de091f625df
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: CreateUmsThreadContext, CreateUmsThreadContext function, base.createumsthreadcontext, winbase/CreateUmsThreadContext
 ms.prod: windows
 ms.technology: windows-sdk

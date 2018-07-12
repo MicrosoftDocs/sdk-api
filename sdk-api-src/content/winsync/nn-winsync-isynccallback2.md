@@ -7,7 +7,7 @@ old-location: winsync\isynccallback2.htm
 old-project: winsync
 ms.assetid: d2d690ba-8da2-4d53-a42c-14e4f010bc2d
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: ISyncCallback2, ISyncCallback2 interface [Windows Sync], ISyncCallback2 interface [Windows Sync],described, winsync.isynccallback2, winsync/ISyncCallback2
 ms.prod: windows
 ms.technology: windows-sdk

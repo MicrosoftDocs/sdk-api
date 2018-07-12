@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_getoptionat.htm
 old-project: wmi_v2
 ms.assetid: 8705721f-3631-4a92-aa5b-0f1b196fe684
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 06/14/2018
 ms.keywords: MI_DestinationOptions_GetOptionAt, MI_DestinationOptions_GetOptionAt function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetOptionAt, wmi_v2.mi_destinationoptions_getoptionat
 ms.prod: windows
 ms.technology: windows-sdk

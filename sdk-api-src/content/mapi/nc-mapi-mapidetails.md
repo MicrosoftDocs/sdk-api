@@ -4,10 +4,10 @@ title: MAPIDETAILS
 author: windows-sdk-content
 description: The MAPIDetails function displays a dialog box containing the details of a selected address list entry.
 old-location: mapi\mapidetails.htm
-old-project: WindowsMAPI
+old-project: windowsmapi
 ms.assetid: 28fbafff-8f34-4db8-bcb5-98f61883bea0
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 05/14/2018
 ms.keywords: MAPIDetails, MAPIDetails callback, MAPIDetails callback function, MAPI_AB_NOMODIFY, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapidetails, mapi/MAPIDetails
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_BG_FILE_INFO"
 author: windows-sdk-content
 description: The BG_FILE_INFO structure provides the local and remote names of the file to transfer.
 old-location: bits\bg_file_info.htm
-old-project: Bits
+old-project: bits
 ms.assetid: bf5302e9-da8f-4c57-a998-fd49484e0584
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: BG_FILE_INFO, BG_FILE_INFO structure [BITS], _BG_FILE_INFO, _drz_bg_file_info, bits.bg_file_info, bits/BG_FILE_INFO
 ms.prod: windows
 ms.technology: windows-sdk

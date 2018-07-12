@@ -4,10 +4,10 @@ title: ICertServerExit::EnumerateAttributes
 author: windows-sdk-content
 description: Returns the name of the next request attribute within the current context, then increments the internal pointer to the following attribute.
 old-location: security\icertserverexit_enumerateattributes.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: df778207-3b20-45a5-a705-8dba566eb658
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CCertServerExit object [Security],EnumerateAttributes method, EnumerateAttributes, EnumerateAttributes method [Security], EnumerateAttributes method [Security],CCertServerExit object, EnumerateAttributes method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateAttributes method, ICertServerExit.EnumerateAttributes, ICertServerExit::EnumerateAttributes, _certsrv_icertserverexit_enumerateattributes, certif/ICertServerExit::EnumerateAttributes, security.icertserverexit_enumerateattributes
 ms.prod: windows
 ms.technology: windows-sdk

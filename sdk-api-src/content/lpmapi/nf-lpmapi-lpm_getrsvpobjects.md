@@ -4,10 +4,10 @@ title: LPM_GetRsvpObjects function
 author: windows-sdk-content
 description: The LPM_GetRsvpObjects function allows the PCM to query LPMs for policy data.
 old-location: qos\lpm_getrsvpobjects.htm
-old-project: QOS
+old-project: qos
 ms.assetid: 1ae417e9-3180-4fd4-90f6-6e91c12d523b
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: FlowDescCount, FlowDescList, LPM_GetRsvpObjects, LPM_GetRsvpObjects callback, LPM_GetRsvpObjects callback function [QOS], RsvpHop, RsvpMsgType, RsvpScope, RsvpSession, RsvpStyle, _gqos_lpm_getrsvpobjects, lpmapi/LPM_GetRsvpObjects, qos.lpm_getrsvpobjects
 ms.prod: windows
 ms.technology: windows-sdk

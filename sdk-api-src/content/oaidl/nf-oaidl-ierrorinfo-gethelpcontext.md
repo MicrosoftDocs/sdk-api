@@ -7,7 +7,7 @@ old-location: automat\ierrorinfo_gethelpcontext.htm
 old-project: automat
 ms.assetid: aadfc151-50ed-4a31-b53a-ff9d74dceb6b
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: GetHelpContext, GetHelpContext method [Automation], GetHelpContext method [Automation],IErrorInfo interface, IErrorInfo interface [Automation],GetHelpContext method, IErrorInfo.GetHelpContext, IErrorInfo::GetHelpContext, _oa96_IErrorInfo_GetHelpContext, automat.ierrorinfo_gethelpcontext, oaidl/IErrorInfo::GetHelpContext
 ms.prod: windows
 ms.technology: windows-sdk

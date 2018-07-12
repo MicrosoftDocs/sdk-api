@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor.htm
 old-project: wintouch
 ms.assetid: 8dc171eb-0c6e-41dd-b506-5f91ea703a53
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: IInertiaProcessor, IInertiaProcessor interface [Windows Touch], IInertiaProcessor interface [Windows Touch],described, manipulations/IInertiaProcessor, wintouch.iinertiaprocessor
 ms.prod: windows
 ms.technology: windows-sdk

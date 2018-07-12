@@ -4,10 +4,10 @@ title: SnmpRecvMsg function
 author: windows-sdk-content
 description: The WinSNMP SnmpRecvMsg function retrieves the results of a completed asynchronous request submitted by a call to the SnmpSendMsg function, in the form of an SNMP message.
 old-location: snmp\snmprecvmsg.htm
-old-project: SNMP
+old-project: snmp
 ms.assetid: 0e306e40-cccc-4083-b3ba-97b8ece0ae35
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: SnmpRecvMsg, SnmpRecvMsg function [SNMP], _snmp_snmprecvmsg, snmp.snmprecvmsg, winsnmp/SnmpRecvMsg
 ms.prod: windows
 ms.technology: windows-sdk

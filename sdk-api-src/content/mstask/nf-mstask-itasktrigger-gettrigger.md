@@ -4,10 +4,10 @@ title: ITaskTrigger::GetTrigger
 author: windows-sdk-content
 description: The GetTrigger method retrieves the current task trigger.
 old-location: taskschd\itasktrigger_gettrigger.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: d6c9110d-c79e-475d-871b-83dca6577fc5
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: GetTrigger, GetTrigger method [Task Scheduler], GetTrigger method [Task Scheduler],ITaskTrigger interface, ITaskTrigger interface [Task Scheduler],GetTrigger method, ITaskTrigger.GetTrigger, ITaskTrigger::GetTrigger, _msb_itasktrigger_gettrigger, mstask/ITaskTrigger::GetTrigger, taskschd.itasktrigger_gettrigger
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IWEInvokeCommand::InvokeCommand
 author: windows-sdk-content
 description: Allows you to implement procedures that execute when users select your context menu items.
 old-location: mscs\iweinvokecommand_invokecommand.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 1e723535-d786-496f-bc16-5b10a8a22383
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: IWEInvokeCommand interface [Failover Cluster],InvokeCommand method, IWEInvokeCommand.InvokeCommand, IWEInvokeCommand::InvokeCommand, InvokeCommand, InvokeCommand method [Failover Cluster], InvokeCommand method [Failover Cluster],IWEInvokeCommand interface, _wolf_iweinvokecommand_invokecommand, cluadmex/IWEInvokeCommand::InvokeCommand, mscs.iweinvokecommand_invokecommand
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ Identifier of the menu item containing the command to perform. The identifier re
 
 <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer for retrieving information associated with the 
        command identified by <i>nCommandID</i>. By calling the 
-       <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">IUnknown::QueryInterface</a> method with the <i>piData</i> 
+       <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method with the <i>piData</i> 
        pointer, the following interfaces are available:
 
 <ul>

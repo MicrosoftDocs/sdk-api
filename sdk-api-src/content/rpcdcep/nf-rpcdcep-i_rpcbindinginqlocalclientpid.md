@@ -4,10 +4,10 @@ title: I_RpcBindingInqLocalClientPID function
 author: windows-sdk-content
 description: Obtains a client process ID.
 old-location: rpc\i_rpcbindinginqlocalclientpid.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: af31dc1e-51b9-4789-a97f-d51ae34850cf
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: I_RpcBindingInqLocalClientPID, I_RpcBindingInqLocalClientPID function [RPC], rpc.i_rpcbindinginqlocalclientpid, rpcdcep/I_RpcBindingInqLocalClientPID
 ms.prod: windows
 ms.technology: windows-sdk

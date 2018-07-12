@@ -7,7 +7,7 @@ old-location: dataxchg\closeclipboard.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\closeclipboard.htm
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: CloseClipboard, CloseClipboard function [Data Exchange], _win32_CloseClipboard, _win32_closeclipboard_cpp, dataxchg.closeclipboard, winui._win32_closeclipboard, winuser/CloseClipboard
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

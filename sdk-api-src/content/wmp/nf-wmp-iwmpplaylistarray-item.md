@@ -7,7 +7,7 @@ old-location: wmp\iwmpplaylistarray_item.htm
 old-project: WMP
 ms.assetid: 2ba85800-12b9-4f14-8d68-ff6a01167308
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPPlaylistArray interface [Windows Media Player],item method, IWMPPlaylistArray.item, IWMPPlaylistArray::item, IWMPPlaylistArrayitem, item, item method [Windows Media Player], item method [Windows Media Player],IWMPPlaylistArray interface, wmp.iwmpplaylistarray_item, wmp/IWMPPlaylistArray::item
 ms.prod: windows
 ms.technology: windows-sdk

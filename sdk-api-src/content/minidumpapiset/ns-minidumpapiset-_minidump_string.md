@@ -4,10 +4,10 @@ title: "_MINIDUMP_STRING"
 author: windows-sdk-content
 description: Describes a string.
 old-location: base\minidump_string_str.htm
-old-project: Debug
+old-project: debug
 ms.assetid: b90b2b29-9d39-4a73-b5fb-bb6e04c94811
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: "*PMINIDUMP_STRING, MINIDUMP_STRING, MINIDUMP_STRING structure, PMINIDUMP_STRING, PMINIDUMP_STRING structure pointer, _MINIDUMP_STRING, _win32_minidump_string_str, base.minidump_string_str, minidumpapiset/MINIDUMP_STRING, minidumpapiset/PMINIDUMP_STRING"
 ms.prod: windows
 ms.technology: windows-sdk

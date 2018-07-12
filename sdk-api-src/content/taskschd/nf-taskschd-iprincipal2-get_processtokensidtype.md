@@ -4,10 +4,10 @@ title: IPrincipal2::get_ProcessTokenSidType
 author: windows-sdk-content
 description: Gets or sets the task process security identifier (SID) type.
 old-location: taskschd\iprincipal2_processtokensidtype.htm
-old-project: TaskSchd
+old-project: taskschd
 ms.assetid: 73bd517f-5496-482e-ad9d-59066689e84a
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IPrincipal2 interface [Task Scheduler],ProcessTokenSidType property, IPrincipal2.ProcessTokenSidType, IPrincipal2.get_ProcessTokenSidType, IPrincipal2::ProcessTokenSidType, IPrincipal2::get_ProcessTokenSidType, IPrincipal2::put_ProcessTokenSidType, ProcessTokenSidType property [Task Scheduler], ProcessTokenSidType property [Task Scheduler],IPrincipal2 interface, TASK_PROCESSTOKENSID_DEFAULT, TASK_PROCESSTOKENSID_NONE, TASK_PROCESSTOKENSID_UNRESTRICTED, get_ProcessTokenSidType, taskschd.iprincipal2_processtokensidtype, taskschd/IPrincipal2::ProcessTokenSidType, taskschd/IPrincipal2::get_ProcessTokenSidType, taskschd/IPrincipal2::put_ProcessTokenSidType
 ms.prod: windows
 ms.technology: windows-sdk

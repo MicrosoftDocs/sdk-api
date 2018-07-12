@@ -7,7 +7,7 @@ old-location: wsw\wswriteelement.htm
 old-project: wsw
 ms.assetid: 5416d167-b832-4815-9826-6128f68dbc02
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 05/21/2018
 ms.keywords: WsWriteElement, WsWriteElement function [Web Services for Windows], webservices/WsWriteElement, wsw.wswriteelement
 ms.prod: windows
 ms.technology: windows-sdk

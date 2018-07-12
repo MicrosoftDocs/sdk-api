@@ -7,7 +7,7 @@ old-location: winmsg\postmessage.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\postmessage.htm
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/09/2018
 ms.keywords: HWND_BROADCAST, PostMessage, PostMessage function [Windows and Messages], PostMessageA, PostMessageW, _win32_PostMessage, _win32_postmessage_cpp, winmsg.postmessage, winui._win32_postmessage, winuser/PostMessage, winuser/PostMessageA, winuser/PostMessageW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: POINTER_DEVICE_TYPE
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__ExecChildren.htm
 old-project: shell
 ms.assetid: d66274b5-36ca-474c-b0e2-49b34394b19b
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_ExecChildren method, IBrowserService2._ExecChildren, IBrowserService2::_ExecChildren, _ExecChildren, _ExecChildren method [Windows Shell], _ExecChildren method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_ExecChildren, shell.IBrowserService2__ExecChildren, zone_IBrowserService2__ExecChildren
 ms.prod: windows
 ms.technology: windows-sdk

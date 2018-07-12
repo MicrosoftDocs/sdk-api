@@ -7,7 +7,7 @@ old-location: wmp\iwmpmetadatapicture_get_picturetype.htm
 old-project: WMP
 ms.assetid: 2c81d59a-9447-48bd-b95b-40e191e73a0f
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPMetadataPicture interface [Windows Media Player],get_pictureType method, IWMPMetadataPicture.get_pictureType, IWMPMetadataPicture::get_pictureType, IWMPMetadataPictureget_pictureType, get_pictureType, get_pictureType method [Windows Media Player], get_pictureType method [Windows Media Player],IWMPMetadataPicture interface, wmp.iwmpmetadatapicture_get_picturetype, wmp/IWMPMetadataPicture::get_pictureType
 ms.prod: windows
 ms.technology: windows-sdk

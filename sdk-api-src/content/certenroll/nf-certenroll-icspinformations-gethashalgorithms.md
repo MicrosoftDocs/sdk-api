@@ -4,10 +4,10 @@ title: ICspInformations::GetHashAlgorithms
 author: windows-sdk-content
 description: Retrieves the collection of hash algorithms supported by a provider.
 old-location: security\icspinformations_gethashalgorithms_method.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 647cad18-ed2e-4f3a-92d4-28fcfe60a800
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: GetHashAlgorithms, GetHashAlgorithms method [Security], GetHashAlgorithms method [Security],ICspInformations interface, ICspInformations interface [Security],GetHashAlgorithms method, ICspInformations.GetHashAlgorithms, ICspInformations::GetHashAlgorithms, certenroll/ICspInformations::GetHashAlgorithms, security.icspinformations_gethashalgorithms_method
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ISClusterNames::Refresh
 author: windows-sdk-content
 description: Refreshes the data in the ClusterNames collection.
 old-location: mscs\clusternames_refresh.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: d4f71465-3573-4525-b37a-5b8aa22a84ec
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ISClusterNames collection [Failover Cluster],Refresh method, ISClusterNames.Refresh, ISClusterNames::Refresh, Refresh, Refresh method [Failover Cluster], Refresh method [Failover Cluster],ISClusterNames collection, _wolf_clusternames.refresh, mscs.clusternames_refresh
 ms.prod: windows
 ms.technology: windows-sdk

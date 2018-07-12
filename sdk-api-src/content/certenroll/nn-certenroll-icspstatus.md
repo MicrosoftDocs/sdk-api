@@ -4,10 +4,10 @@ title: ICspStatus
 author: windows-sdk-content
 description: Contains information about a cryptographic provider/algorithm pair.
 old-location: security\icspstatus.htm
-old-project: SecCertEnroll
+old-project: seccertenroll
 ms.assetid: 30cc43c8-6ef3-49ad-8cff-9a5b7389ff68
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ICspStatus, ICspStatus interface [Security], ICspStatus interface [Security],described, certenroll/ICspStatus, security.icspstatus
 ms.prod: windows
 ms.technology: windows-sdk

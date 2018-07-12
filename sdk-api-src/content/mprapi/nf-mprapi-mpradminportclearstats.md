@@ -4,10 +4,10 @@ title: MprAdminPortClearStats function
 author: windows-sdk-content
 description: The MprAdminPortClearStats function resets the statistics for the specified port.
 old-location: rras\mpradminportclearstats.htm
-old-project: RRAS
+old-project: rras
 ms.assetid: dd932134-7954-4e0a-8170-1dea4ce82011
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.keywords: MprAdminPortClearStats, MprAdminPortClearStats function [RAS], _mpr_mpradminportclearstats, mprapi/MprAdminPortClearStats, rras.mpradminportclearstats
 ms.prod: windows
 ms.technology: windows-sdk

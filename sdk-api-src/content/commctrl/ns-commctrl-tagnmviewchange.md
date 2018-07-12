@@ -4,10 +4,10 @@ title: tagNMVIEWCHANGE
 author: windows-sdk-content
 description: Stores information required to process the MCN_VIEWCHANGE notification code.
 old-location: controls\NMVIEWCHANGE.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\nmviewchange.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: "*LPNMVIEWCHANGE, LPNMVIEWCHANGE, LPNMVIEWCHANGE structure pointer [Windows Controls], MCMV_CENTURY, MCMV_DECADE, MCMV_MONTH, MCMV_YEAR, NMVIEWCHANGE, NMVIEWCHANGE structure [Windows Controls], _shell_NMVIEWCHANGE, _shell_NMVIEWCHANGE_cpp, commctrl/LPNMVIEWCHANGE, commctrl/NMVIEWCHANGE, controls.NMVIEWCHANGE, controls._shell_NMVIEWCHANGE, tagNMVIEWCHANGE"
 ms.prod: windows
 ms.technology: windows-sdk

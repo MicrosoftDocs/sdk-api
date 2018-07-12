@@ -4,10 +4,10 @@ title: ITStreamControl::CreateStream
 author: windows-sdk-content
 description: The CreateStream method creates a new media stream.
 old-location: tapi3\itstreamcontrol_createstream.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 402cde43-6b2a-4e4e-bf46-97fcafb7574a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: CreateStream, CreateStream method [TAPI 2.2], CreateStream method [TAPI 2.2],ITStreamControl interface, ITStreamControl interface [TAPI 2.2],CreateStream method, ITStreamControl.CreateStream, ITStreamControl::CreateStream, _tapi3_itstreamcontrol_createstream, tapi3.itstreamcontrol_createstream, tapi3if/ITStreamControl::CreateStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -180,8 +180,8 @@ Many MSPs do not support dynamic creation of streams, and simply return TAPI_E_M
 
 Stream creation or removal may involve interaction with a remote endpoint, resulting in a CMC_REMOTE_REQUEST rather than the CMC_LOCAL_REQUEST messages that are received when a stream is stopped or started.
 
-TAPI calls the <a href="https://msdn.microsoft.com/library/Dd757100(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a">ITStream</a> interface returned by <b>ITStreamControl::CreateStream</b>. The application must call <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a">ITStream</a> interface returned by <b>ITStreamControl::CreateStream</b>. The application must call <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">Release</a> on the 
 <b>ITStream</b> interface to free resources associated with it.
 
 

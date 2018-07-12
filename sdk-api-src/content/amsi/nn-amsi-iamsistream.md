@@ -7,7 +7,7 @@ old-location: amsi\iamsistream.htm
 old-project: AMSI
 ms.assetid: 409CE6BF-57A5-454E-91F9-3D66FE7E323F
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 03/29/2018
 ms.keywords: IAmsiStream, IAmsiStream interface [Antimalware Scan Interface], IAmsiStream interface [Antimalware Scan Interface],described, amsi.iamsistream, amsi/IAmsiStream
 ms.prod: windows
 ms.technology: windows-sdk

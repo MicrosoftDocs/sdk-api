@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocator9_terminatedevice.htm
 old-project: DirectShow
 ms.assetid: 5006265d-6f2b-433b-b3ce-a7074d6eb159
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/09/2018
 ms.keywords: IVMRSurfaceAllocator9 interface [DirectShow],TerminateDevice method, IVMRSurfaceAllocator9.TerminateDevice, IVMRSurfaceAllocator9::TerminateDevice, IVMRSurfaceAllocator9TerminateDevice, TerminateDevice, TerminateDevice method [DirectShow], TerminateDevice method [DirectShow],IVMRSurfaceAllocator9 interface, dshow.ivmrsurfaceallocator9_terminatedevice, vmr9/IVMRSurfaceAllocator9::TerminateDevice
 ms.prod: windows
 ms.technology: windows-sdk

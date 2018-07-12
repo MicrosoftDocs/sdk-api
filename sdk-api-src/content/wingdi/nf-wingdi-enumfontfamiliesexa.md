@@ -7,7 +7,7 @@ old-location: gdi\enumfontfamiliesex.htm
 old-project: gdi
 ms.assetid: 4d70906d-8005-4c4a-869e-16dd3e6fa3f2
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: EnumFontFamiliesEx, EnumFontFamiliesEx function [Windows GDI], EnumFontFamiliesExA, EnumFontFamiliesExW, _win32_EnumFontFamiliesEx, gdi.enumfontfamiliesex, wingdi/EnumFontFamiliesEx, wingdi/EnumFontFamiliesExA, wingdi/EnumFontFamiliesExW
 ms.prod: windows
 ms.technology: windows-sdk

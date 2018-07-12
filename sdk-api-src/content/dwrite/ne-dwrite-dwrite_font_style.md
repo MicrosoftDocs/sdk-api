@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_font_style.htm
 old-project: DirectWrite
 ms.assetid: e48a3b82-4a60-472d-8cb8-a6f63d7eeefc
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: DWRITE_FONT_STYLE, DWRITE_FONT_STYLE enumeration [Direct Write], DWRITE_FONT_STYLE_ITALIC, DWRITE_FONT_STYLE_NORMAL, DWRITE_FONT_STYLE_OBLIQUE, directwrite.dwrite_font_style, dwrite/DWRITE_FONT_STYLE, dwrite/DWRITE_FONT_STYLE_ITALIC, dwrite/DWRITE_FONT_STYLE_NORMAL, dwrite/DWRITE_FONT_STYLE_OBLIQUE
 ms.prod: windows
 ms.technology: windows-sdk

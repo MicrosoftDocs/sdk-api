@@ -4,10 +4,10 @@ title: IGPMMapEntry
 author: windows-sdk-content
 description: The IGPMMapEntry interface provides access to a map entry.
 old-location: gpmc\igpmmapentry.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: 85a9bebf-0d96-4ec1-a0bf-37b262059067
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: GPMMapEntry, IGPMMapEntry, IGPMMapEntry interface [GPMC], IGPMMapEntry interface [GPMC],described, gpmc.igpmmapentry, gpmgmt/IGPMMapEntry
 ms.prod: windows
 ms.technology: windows-sdk

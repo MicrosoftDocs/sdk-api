@@ -4,10 +4,10 @@ title: MsiSetExternalUIRecord function
 author: windows-sdk-content
 description: The MsiSetExternalUIRecord function enables an external user-interface (UI) handler.
 old-location: setup\msisetexternaluirecord.htm
-old-project: Msi
+old-project: msi
 ms.assetid: f2cd2bb7-0e4f-4d3b-9e6c-6f15661064df
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/29/2018
 ms.keywords: INSTALLLOGMODE_ACTIONDATA, INSTALLLOGMODE_ACTIONSTART, INSTALLLOGMODE_COMMONDATA, INSTALLLOGMODE_ERROR, INSTALLLOGMODE_FATALEXIT, INSTALLLOGMODE_FILESINUSE, INSTALLLOGMODE_INFO, INSTALLLOGMODE_INITIALIZE, INSTALLLOGMODE_INSTALLEND, INSTALLLOGMODE_INSTALLSTART, INSTALLLOGMODE_OUTOFDISKSPACE, INSTALLLOGMODE_PROGRESS, INSTALLLOGMODE_RESOLVESOURCE, INSTALLLOGMODE_RMFILESINUSE, INSTALLLOGMODE_SHOWDIALOG, INSTALLLOGMODE_TERMINATE, INSTALLLOGMODE_USER, INSTALLLOGMODE_WARNING, MsiSetExternalUIRecord, MsiSetExternalUIRecord function, msi/MsiSetExternalUIRecord, setup.msisetexternaluirecord
 ms.prod: windows
 ms.technology: windows-sdk

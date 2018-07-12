@@ -4,10 +4,10 @@ title: ITScriptableAudioFormat::get_SamplesPerSec
 author: windows-sdk-content
 description: The get_SamplesPerSec method returns the value for the nSamplesPerSec member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_samplespersec.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: 614e0141-76dc-40ff-ad9b-a72b95e4a46d
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],get_SamplesPerSec method, ITScriptableAudioFormat.get_SamplesPerSec, ITScriptableAudioFormat::get_SamplesPerSec, _tapi3_itscriptableaudioformat_get_samplespersec, get_SamplesPerSec, get_SamplesPerSec method [TAPI 2.2], get_SamplesPerSec method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_get_samplespersec, tapi3if/ITScriptableAudioFormat::get_SamplesPerSec
 ms.prod: windows
 ms.technology: windows-sdk

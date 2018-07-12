@@ -4,10 +4,10 @@ title: PIBIO_SENSOR_FINISH_CAPTURE_FN
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the sensor indicator is on or off.
 old-location: secbiomet\sensoradapterfinishcapture.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: f9ede590-5208-40ed-ac62-604a2d13a5a6
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: PIBIO_SENSOR_FINISH_CAPTURE_FN, PIBIO_SENSOR_FINISH_CAPTURE_FN callback, SensorAdapterFinishCapture, SensorAdapterFinishCapture callback function [Windows Biometric Framework API], secbiomet.sensoradapterfinishcapture, winbio_adapter/SensorAdapterFinishCapture
 ms.prod: windows
 ms.technology: windows-sdk

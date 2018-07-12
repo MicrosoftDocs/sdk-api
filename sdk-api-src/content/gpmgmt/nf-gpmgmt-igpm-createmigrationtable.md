@@ -4,10 +4,10 @@ title: IGPM::CreateMigrationTable
 author: windows-sdk-content
 description: Creates an empty migration table.
 old-location: gpmc\igpm_createmigrationtable.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: ae9ea50f-d652-4d7a-aac5-5b9ef27b99e0
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: CreateMigrationTable, CreateMigrationTable method [GPMC], CreateMigrationTable method [GPMC],GPM class, CreateMigrationTable method [GPMC],IGPM interface, GPM class [GPMC],CreateMigrationTable method, IGPM interface [GPMC],CreateMigrationTable method, IGPM.CreateMigrationTable, IGPM::CreateMigrationTable, gpmc.igpm_createmigrationtable, gpmgmt/IGPM::CreateMigrationTable
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winprog\_dciman_dcibeginaccess.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dcibeginaccess.htm
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/09/2018
 ms.keywords: DCIBeginAccess, DCIBeginAccess function [Windows API], _dciman_dcibeginaccess, dciman/DCIBeginAccess, winprog._dciman_dcibeginaccess, winui._dciman_dcibeginaccess
 ms.prod: windows
 ms.technology: windows-sdk

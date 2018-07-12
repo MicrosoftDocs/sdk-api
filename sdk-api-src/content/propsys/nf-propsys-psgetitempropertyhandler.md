@@ -7,7 +7,7 @@ old-location: properties\PSGetItemPropertyHandler.htm
 old-project: properties
 ms.assetid: 7b7fd260-c863-41f7-8594-4ee435090228
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PSGetItemPropertyHandler, PSGetItemPropertyHandler function [Windows Properties], _shell_PSGetItemPropertyHandler, properties.PSGetItemPropertyHandler, propsys/PSGetItemPropertyHandler, shell.PSGetItemPropertyHandler
 ms.prod: windows
 ms.technology: windows-sdk

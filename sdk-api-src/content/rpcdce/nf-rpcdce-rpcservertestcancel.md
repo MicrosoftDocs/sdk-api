@@ -4,10 +4,10 @@ title: RpcServerTestCancel function
 author: windows-sdk-content
 description: The server calls RpcServerTestCancel to test for client cancel requests.
 old-location: rpc\rpcservertestcancel.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: de4b45a8-0516-4185-a342-364e0f5a633e
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: RpcServerTestCancel, RpcServerTestCancel function [RPC], _rpc_rpcservertestcancel, rpc.rpcservertestcancel, rpcdce/RpcServerTestCancel
 ms.prod: windows
 ms.technology: windows-sdk

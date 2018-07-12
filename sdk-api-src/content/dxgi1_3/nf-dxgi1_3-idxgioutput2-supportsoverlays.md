@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput2_supportsoverlays.htm
 old-project: direct3ddxgi
 ms.assetid: BC9CD287-CD89-4D0C-ADE3-EAA60D5FEAAD
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: IDXGIOutput2 interface [DXGI],SupportsOverlays method, IDXGIOutput2.SupportsOverlays, IDXGIOutput2::SupportsOverlays, SupportsOverlays, SupportsOverlays method [DXGI], SupportsOverlays method [DXGI],IDXGIOutput2 interface, direct3ddxgi.idxgioutput2_supportsoverlays, dxgi1_3/IDXGIOutput2::SupportsOverlays
 ms.prod: windows
 ms.technology: windows-sdk

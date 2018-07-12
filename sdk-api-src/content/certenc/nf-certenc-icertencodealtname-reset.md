@@ -4,10 +4,10 @@ title: ICertEncodeAltName::Reset
 author: windows-sdk-content
 description: Specifies the size of the alternate name array in this object. The value of all elements in the array are set to zero.
 old-location: security\icertencodealtname_reset.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 99aa43fe-534b-4696-8bfc-7049b16be1cf
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CCertEncodeAltName object [Security],Reset method, ICertEncodeAltName interface [Security],Reset method, ICertEncodeAltName.Reset, ICertEncodeAltName::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeAltName object, Reset method [Security],ICertEncodeAltName interface, certenc/ICertEncodeAltName::Reset, security.icertencodealtname_reset
 ms.prod: windows
 ms.technology: windows-sdk

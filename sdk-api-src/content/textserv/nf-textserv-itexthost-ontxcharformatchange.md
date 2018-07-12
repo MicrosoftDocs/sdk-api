@@ -4,10 +4,10 @@ title: ITextHost::OnTxCharFormatChange
 author: windows-sdk-content
 description: Sets the default character format for the text host.
 old-location: controls\ITextHost_OnTxCharFormatChange.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxcharformatchange.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: ITextHost interface [Windows Controls],OnTxCharFormatChange method, ITextHost.OnTxCharFormatChange, ITextHost::OnTxCharFormatChange, OnTxCharFormatChange, OnTxCharFormatChange method [Windows Controls], OnTxCharFormatChange method [Windows Controls],ITextHost interface, _win32_ITextHost_OnTxCharFormatChange, _win32_ITextHost_OnTxCharFormatChange_cpp, controls.ITextHost_OnTxCharFormatChange, controls._win32_ITextHost_OnTxCharFormatChange, textserv/ITextHost::OnTxCharFormatChange
 ms.prod: windows
 ms.technology: windows-sdk

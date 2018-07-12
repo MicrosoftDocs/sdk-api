@@ -4,10 +4,10 @@ title: ISdoMachine::GetServiceSDO
 author: windows-sdk-content
 description: The GetServiceSDO method retrieves a Server Data Object (SDO) for the specified service.
 old-location: nps\SDO_isdomachine_getservicesdo.htm
-old-project: Nps
+old-project: nps
 ms.assetid: 265f034a-78be-4792-958e-80ad7a71d1a7
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 05/11/2018
 ms.keywords: ""IAS", "RemoteAccess", GetServiceSDO, GetServiceSDO method [Network Policy Server], GetServiceSDO method [Network Policy Server],ISdoMachine interface, GetServiceSDO method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetServiceSDO method, ISdoMachine.GetServiceSDO, ISdoMachine::GetServiceSDO, SdoMachine object [Network Policy Server],GetServiceSDO method, _sdo_isdomachine_getservicesdo, nps.SDO_isdomachine_getservicesdo, sdo.isdomachine_getservicesdo, sdoias/ISdoMachine::GetServiceSDO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ Remote Access Server
 ### -param ppServiceSDO [out]
 
 Pointer to a pointer that points to an <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface 
-      pointer. Use the <a href="https://msdn.microsoft.com/library/Dd757101(v=VS.85).aspx">QueryInterface</a> method of this 
+      pointer. Use the <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> method of this 
       <b>IUnknown</b> interface to obtain an 
       <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface for the 
       <a href="https://msdn.microsoft.com/c901ac9a-524a-498d-8b72-9afb26cf2c58">ISdoServiceControl</a> object.

@@ -4,10 +4,10 @@ title: IDsAdminNewObj::GetPageCounts
 author: windows-sdk-content
 description: The IDsAdminNewObj::GetPageCounts method obtains the total number of pages in the wizard as well as the index of the first page of the extension.
 old-location: ad\idsadminnewobj_getpagecounts.htm
-old-project: AD
+old-project: ad
 ms.assetid: babc5baf-33d6-47e9-a99e-81ed339f71d6
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: GetPageCounts, GetPageCounts method [Active Directory], GetPageCounts method [Active Directory],IDsAdminNewObj interface, IDsAdminNewObj interface [Active Directory],GetPageCounts method, IDsAdminNewObj.GetPageCounts, IDsAdminNewObj::GetPageCounts, _glines_idsadminnewobj_getpagecounts, ad.idsadminnewobj__getpagecounts, ad.idsadminnewobj_getpagecounts, dsadmin/IDsAdminNewObj::GetPageCounts
 ms.prod: windows
 ms.technology: windows-sdk

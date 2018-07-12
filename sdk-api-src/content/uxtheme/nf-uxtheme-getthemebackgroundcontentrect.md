@@ -4,10 +4,10 @@ title: GetThemeBackgroundContentRect function
 author: windows-sdk-content
 description: Retrieves the size of the content area for the background defined by the visual style.
 old-location: controls\GetThemeBackgroundContentRect.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebackgroundcontentrect.htm
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 06/29/2018
 ms.keywords: GetThemeBackgroundContentRect, GetThemeBackgroundContentRect function [Windows Controls], controls.GetThemeBackgroundContentRect, controls.inet_GetThemeBackgroundContentRect, inet_GetThemeBackgroundContentRect, inet_GetThemeBackgroundContentRect_cpp, uxtheme/GetThemeBackgroundContentRect
 ms.prod: windows
 ms.technology: windows-sdk

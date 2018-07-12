@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadercallback_onsample.htm
 old-project: wmformat
 ms.assetid: 0f6e4d4f-4295-44ff-95bc-e683bdbab8e0
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/02/2018
 ms.keywords: IWMReaderCallback interface [windows Media Format],OnSample method, IWMReaderCallback.OnSample, IWMReaderCallback::OnSample, IWMReaderCallbackOnSample, OnSample, OnSample method [windows Media Format], OnSample method [windows Media Format],IWMReaderCallback interface, wmformat.iwmreadercallback_onsample, wmsdkidl/IWMReaderCallback::OnSample
 ms.prod: windows
 ms.technology: windows-sdk

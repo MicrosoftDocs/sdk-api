@@ -7,7 +7,7 @@ old-location: intl\scriptapplydigitsubstitution.htm
 old-project: Intl
 ms.assetid: 486b8a56-eb14-48c3-b2f0-f5494f79baea
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/28/2018
 ms.keywords: ScriptApplyDigitSubstitution, ScriptApplyDigitSubstitution function [Internationalization for Windows Applications], _win32_ScriptApplyDigitSubstitution, intl.scriptapplydigitsubstitution, usp10/ScriptApplyDigitSubstitution
 ms.prod: windows
 ms.technology: windows-sdk

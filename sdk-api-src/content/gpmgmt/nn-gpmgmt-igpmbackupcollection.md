@@ -4,10 +4,10 @@ title: IGPMBackupCollection
 author: windows-sdk-content
 description: The IGPMBackupCollection interface contains methods that enable applications to access a collection of GPMBackup objects when using the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmbackupcollection.htm
-old-project: GPMC
+old-project: gpmc
 ms.assetid: cd9e6b58-6fbc-449a-9941-b33761797199
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/12/2018
 ms.keywords: GPMBackupCollection, IGPMBackupCollection, IGPMBackupCollection interface [GPMC], IGPMBackupCollection interface [GPMC],described, _win32_igpmbackupcollection, gpmc.igpmbackupcollection, gpmgmt/IGPMBackupCollection
 ms.prod: windows
 ms.technology: windows-sdk

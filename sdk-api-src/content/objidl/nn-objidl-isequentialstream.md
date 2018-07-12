@@ -4,10 +4,10 @@ title: ISequentialStream
 author: windows-sdk-content
 description: The ISequentialStream interface supports simplified sequential access to stream objects. The IStream interface inherits its Read and Write methods from ISequentialStream.
 old-location: stg\isequentialstream.htm
-old-project: Stg
+old-project: stg
 ms.assetid: c1d33800-d2f1-4942-92fa-e115f524c23c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 06/07/2018
 ms.keywords: ISequentialStream, ISequentialStream interface [Structured Storage], ISequentialStream interface [Structured Storage],described, _stg_isequentialstream, objidl/ISequentialStream, stg.isequentialstream
 ms.prod: windows
 ms.technology: windows-sdk

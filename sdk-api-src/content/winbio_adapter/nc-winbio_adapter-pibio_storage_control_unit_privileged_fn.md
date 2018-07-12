@@ -4,10 +4,10 @@ title: PIBIO_STORAGE_CONTROL_UNIT_PRIVILEGED_FN
 author: windows-sdk-content
 description: Performs a vendor-defined control operation that requires elevated privilege.
 old-location: secbiomet\storageadaptercontrolunitprivileged.htm
-old-project: SecBioMet
+old-project: secbiomet
 ms.assetid: 42e33817-df5f-4598-bc6a-94e49ce5fca4
 ms.author: windowssdkdev
-ms.date: 04/24/2018
+ms.date: 04/25/2018
 ms.keywords: PIBIO_STORAGE_CONTROL_UNIT_PRIVILEGED_FN, PIBIO_STORAGE_CONTROL_UNIT_PRIVILEGED_FN callback, StorageAdapterControlUnitPrivileged, StorageAdapterControlUnitPrivileged callback function [Windows Biometric Framework API], secbiomet.storageadaptercontrolunitprivileged, winbio_adapter/StorageAdapterControlUnitPrivileged
 ms.prod: windows
 ms.technology: windows-sdk

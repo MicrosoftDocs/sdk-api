@@ -7,7 +7,7 @@ old-location: wmp\iwmpaudiorenderconfig.htm
 old-project: WMP
 ms.assetid: 743dae18-985a-405a-8025-ead54e06a4ea
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 05/07/2018
 ms.keywords: IWMPAudioRenderConfig, IWMPAudioRenderConfig interface [Windows Media Player], IWMPAudioRenderConfig interface [Windows Media Player],described, wmp.iwmpaudiorenderconfig, wmprealestate/IWMPAudioRenderConfig
 ms.prod: windows
 ms.technology: windows-sdk

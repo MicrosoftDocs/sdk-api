@@ -4,10 +4,10 @@ title: lineSetAgentMeasurementPeriod function
 author: windows-sdk-content
 description: The lineSetAgentMeasurementPeriod function sets the measurement period associated with a particular agent.
 old-location: tapi2\linesetagentmeasurementperiod.htm
-old-project: Tapi
+old-project: tapi
 ms.assetid: bb84f18f-0052-45f8-8049-8576e1eb6fef
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: "_tapi2_linesetagentmeasurementperiod, lineSetAgentMeasurementPeriod, lineSetAgentMeasurementPeriod function [TAPI 2.2], tapi/lineSetAgentMeasurementPeriod, tapi2.linesetagentmeasurementperiod"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_TAPE_ERASE"
 author: windows-sdk-content
 description: Describes the partition to be erased.
 old-location: backup\tape_erase_str.htm
-old-project: Backup
+old-project: backup
 ms.assetid: 6b621635-7499-4819-95d8-bce17ef11146
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 03/28/2018
 ms.keywords: "*PTAPE_ERASE, PTAPE_ERASE, PTAPE_ERASE structure pointer [Backup], TAPE_ERASE, TAPE_ERASE structure [Backup], TAPE_ERASE_LONG, TAPE_ERASE_SHORT, _TAPE_ERASE, _win32_tape_erase_str, backup.tape_erase_str, winnt/PTAPE_ERASE, winnt/TAPE_ERASE"
 ms.prod: windows
 ms.technology: windows-sdk

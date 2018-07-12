@@ -4,10 +4,10 @@ title: PCLUSAPI_CLUSTER_RESOURCE_ENUM
 author: windows-sdk-content
 description: Enumerates a resource's dependent resources, nodes, or both.
 old-location: mscs\clusterresourceenum.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 73627594-90df-496d-8120-b24c34f13fb5
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: CLUSTER_RESOURCE_ENUM_DEPENDS, CLUSTER_RESOURCE_ENUM_NODES, CLUSTER_RESOURCE_ENUM_PROVIDES, PCLUSAPI_CLUSTER_RESOURCE_ENUM, PCLUSAPI_CLUSTER_RESOURCE_ENUM callback, PCLUSAPI_CLUSTER_RESOURCE_ENUM callback function [Failover Cluster], _wolf_clusterresourceenum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_ENUM, mscs.clusterresourceenum
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: nwifi\wfdupdatedevicevisibility.htm
 old-project: NativeWiFi
 ms.assetid: 696B7466-5ED0-4202-9AAF-CE2544C5A5B8
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: WFDUpdateDeviceVisibility, WFDUpdateDeviceVisibility function [NativeWIFI], nwifi.wfdupdatedevicevisibility, wlanapi/WFDUpdateDeviceVisibility
 ms.prod: windows
 ms.technology: windows-sdk

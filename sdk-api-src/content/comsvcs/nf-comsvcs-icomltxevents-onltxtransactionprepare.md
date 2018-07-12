@@ -7,7 +7,7 @@ old-location: cos\icomltxevents_onltxtransactionprepare.htm
 old-project: cossdk
 ms.assetid: 31915d4c-7ac0-406b-b2d2-ab96b317be3f
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 06/18/2018
 ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionPrepare method, IComLTxEvents.OnLtxTransactionPrepare, IComLTxEvents::OnLtxTransactionPrepare, OnLtxTransactionPrepare, OnLtxTransactionPrepare method [COM+], OnLtxTransactionPrepare method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionPrepare, cos.icomltxevents_onltxtransactionprepare
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IVdsLunControllerPorts
 author: windows-sdk-content
 description: Provides methods for performing controller port configuration operations on a LUN.
 old-location: base\ivdsluncontrollerports.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 81e48874-8bc2-4b82-bcf8-ce87f99ca3ad
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsLunControllerPorts, IVdsLunControllerPorts interface [VDS], IVdsLunControllerPorts interface [VDS],described, base.ivdsluncontrollerports, vds/IVdsLunControllerPorts, vdshwprv/IVdsLunControllerPorts
 ms.prod: windows
 ms.technology: windows-sdk

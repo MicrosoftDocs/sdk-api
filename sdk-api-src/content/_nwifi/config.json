@@ -9,6 +9,5 @@
     "ntddndis.h",
     "adhoc.h",
     "wzcsapi.h"
-  ],
-  "displayName": "Native Wifi"
+  ]
 }

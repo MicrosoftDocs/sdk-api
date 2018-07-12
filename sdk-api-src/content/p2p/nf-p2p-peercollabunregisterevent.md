@@ -4,10 +4,10 @@ title: PeerCollabUnregisterEvent function
 author: windows-sdk-content
 description: Deregisters an application from notification about specific peer collaboration events.
 old-location: p2p\peercollabunregisterevent.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: dc1bcdaa-e58e-4567-9fd2-e1fa9071880f
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PeerCollabUnregisterEvent, PeerCollabUnregisterEvent function [Peer Networking], p2p.peercollabunregisterevent, p2p/PeerCollabUnregisterEvent
 ms.prod: windows
 ms.technology: windows-sdk

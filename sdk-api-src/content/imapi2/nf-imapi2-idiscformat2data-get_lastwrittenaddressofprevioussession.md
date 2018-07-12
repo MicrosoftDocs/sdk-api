@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2data_get_lastwrittenaddressofprevioussession.htm
 old-project: imapi
 ms.assetid: cfc9ba42-25a2-49a3-8047-7aaf331332ad
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/15/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_LastWrittenAddressOfPreviousSession method, IDiscFormat2Data.get_LastWrittenAddressOfPreviousSession, IDiscFormat2Data::get_LastWrittenAddressOfPreviousSession, get_LastWrittenAddressOfPreviousSession, get_LastWrittenAddressOfPreviousSession method [IMAPI], get_LastWrittenAddressOfPreviousSession method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_lastwrittenaddressofprevioussession, imapi2/IDiscFormat2Data::get_LastWrittenAddressOfPreviousSession
 ms.prod: windows
 ms.technology: windows-sdk

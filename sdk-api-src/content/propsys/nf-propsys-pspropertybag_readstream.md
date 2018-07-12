@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadStream.htm
 old-project: properties
 ms.assetid: 3D1D8B3E-DD16-4b34-918C-C8478EBF0930
 ms.author: windowssdkdev
-ms.date: 05/29/2018
+ms.date: 05/30/2018
 ms.keywords: PSPropertyBag_ReadStream, PSPropertyBag_ReadStream function [Windows Properties], properties.PSPropertyBag_ReadStream, propsys/PSPropertyBag_ReadStream, shell.PSPropertyBag_ReadStream, shell_PSPropertyBag_ReadStream
 ms.prod: windows
 ms.technology: windows-sdk

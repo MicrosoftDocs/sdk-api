@@ -4,10 +4,10 @@ title: tagProxyFileInfo
 author: windows-sdk-content
 description: The ProxyFileInfo structure contains information about the interface proxies in the proxy DLL.
 old-location: rpc\proxyfileinfo.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: dbe797da-3ec3-4fe0-83bf-30669127a401
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: ExtendedProxyFileInfo, ProxyFileInfo, ProxyFileInfo structure [RPC], rpc.proxyfileinfo, rpcproxy/ProxyFileInfo, tagProxyFileInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,7 +116,7 @@ The .idl file is compiled with the <a href="https://msdn.microsoft.com/dc5cafbb-
 </dl>
 </td>
 <td width="60%">
-The .idl file is compiled with the <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/0i</a>, <b>/0ic</b>, or <b>/Oicf</b> option.
+The .idl file is compiled with the <a href="https://msdn.microsoft.com/">/0i</a>, <b>/0ic</b>, or <b>/Oicf</b> option.
 
 </td>
 </tr>

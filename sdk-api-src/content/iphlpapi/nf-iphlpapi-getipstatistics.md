@@ -4,10 +4,10 @@ title: GetIpStatistics function
 author: windows-sdk-content
 description: The GetIpStatistics function retrieves the IP statistics for the current computer.
 old-location: iphlp\getipstatistics.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 15daaa34-2011-462a-9543-f8d7ccb9f6fd
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: GetIpStatistics, GetIpStatistics function [IP Helper], _iphlp_getipstatistics, iphlp.getipstatistics, iphlpapi/GetIpStatistics
 ms.prod: windows
 ms.technology: windows-sdk

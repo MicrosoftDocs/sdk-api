@@ -4,10 +4,10 @@ title: DsBindingSetTimeout function
 author: windows-sdk-content
 description: The DsBindingSetTimeout function sets the timeout value that is honored by all RPC calls that use the specified binding handle. RPC calls that required more time than the timeout value are canceled.
 old-location: ad\dsbindingsettimeout.htm
-old-project: AD
+old-project: ad
 ms.assetid: abdaae89-fba3-4949-92a9-acd62898ec24
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: DsBindingSetTimeout, DsBindingSetTimeout function [Active Directory], ad.dsbindingsettimeout, ntdsapi/DsBindingSetTimeout
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ISClusScsiAddress::get_PortNumber
 author: windows-sdk-content
 description: Returns the SCSI port number of the Physical Disk.
 old-location: mscs\clusscsiaddress_portnumber.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: a05715d8-4eae-4a80-bba3-9b26e90ba6d4
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusScsiAddress object [Failover Cluster],PortNumber property, ClusScsiAddress.PortNumber, ISClusScsiAddress.get_PortNumber, ISClusScsiAddress::get_PortNumber, PortNumber property [Failover Cluster], PortNumber property [Failover Cluster],ClusScsiAddress object, _wolf_clusscsiaddress.portnumber, get_PortNumber, mscs.clusscsiaddress_portnumber
 ms.prod: windows
 ms.technology: windows-sdk

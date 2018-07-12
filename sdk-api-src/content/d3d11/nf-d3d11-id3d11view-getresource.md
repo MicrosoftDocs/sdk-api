@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11view_getresource.htm
 old-project: direct3d11
 ms.assetid: f6f6c4db-80c0-49bc-bd15-53e3a52d9f3c
 ms.author: windowssdkdev
-ms.date: 04/06/2018
+ms.date: 06/26/2018
 ms.keywords: 9a136bd2-66f9-8800-9ce0-d8b9c402d899, GetResource, GetResource method [Direct3D 11], GetResource method [Direct3D 11],ID3D11View interface, ID3D11View interface [Direct3D 11],GetResource method, ID3D11View.GetResource, ID3D11View::GetResource, d3d11/ID3D11View::GetResource, direct3d11.id3d11view_getresource
 ms.prod: windows
 ms.technology: windows-sdk

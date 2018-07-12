@@ -7,7 +7,7 @@ old-location: cloudapi\cfsetpinstate.htm
 old-project: cfApi
 ms.assetid: 8B279914-E23A-479B-8621-E83DE1978597
 ms.author: windowssdkdev
-ms.date: 02/26/2018
+ms.date: 02/27/2018
 ms.keywords: CfSetPinState, CfSetPinState function, cfapi/CfSetPinState, cloudApi.cfsetpinstate
 ms.prod: windows
 ms.technology: windows-sdk

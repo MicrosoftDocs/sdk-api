@@ -4,10 +4,10 @@ title: ISClusResGroupPreferredOwnerNodes::RemoveItem
 author: windows-sdk-content
 description: Removes a node from the ClusResGroupPreferredOwnerNodes collection.
 old-location: mscs\clusresgrouppreferredownernodes_removeitem.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 9126b3ae-4dd3-402a-bda9-ce2d3ded8b36
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: ClusResGroupPreferredOwnerNodes class [Failover Cluster],RemoveItem method, ClusResGroupPreferredOwnerNodes.RemoveItem, ISClusResGroupPreferredOwnerNodes.RemoveItem, ISClusResGroupPreferredOwnerNodes::RemoveItem, RemoveItem, RemoveItem method [Failover Cluster], RemoveItem method [Failover Cluster],ClusResGroupPreferredOwnerNodes class, _wolf_clusresgrouppreferredownernodes.removeitem, mscs.clusresgrouppreferredownernodes_removeitem
 ms.prod: windows
 ms.technology: windows-sdk

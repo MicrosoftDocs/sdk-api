@@ -7,7 +7,7 @@ old-location: shell\AssocQueryStringByKey.htm
 old-project: shell
 ms.assetid: 6816f7fe-9a70-4c5f-bd45-d1ca96d4ebd0
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: AssocQueryStringByKey, AssocQueryStringByKey function [Windows Shell], AssocQueryStringByKeyA, AssocQueryStringByKeyW, _win32_AssocQueryStringByKey, shell.AssocQueryStringByKey, shlwapi/AssocQueryStringByKey, shlwapi/AssocQueryStringByKeyA, shlwapi/AssocQueryStringByKeyW
 ms.prod: windows
 ms.technology: windows-sdk

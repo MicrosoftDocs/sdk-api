@@ -7,7 +7,7 @@ old-location: opc\iopcsigningoptions_setdefaultdigestmethod.htm
 old-project: OPC
 ms.assetid: 8de18a0e-cb3a-4232-90cb-718abdc9fb28
 ms.author: windowssdkdev
-ms.date: 03/14/2018
+ms.date: 03/15/2018
 ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetDefaultDigestMethod method, IOpcSigningOptions.SetDefaultDigestMethod, IOpcSigningOptions::SetDefaultDigestMethod, SetDefaultDigestMethod, SetDefaultDigestMethod method [Open Packaging Conventions], SetDefaultDigestMethod method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetDefaultDigestMethod, opc.iopcsigningoptions_setdefaultdigestmethod
 ms.prod: windows
 ms.technology: windows-sdk

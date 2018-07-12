@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10texture2d_unmap.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10texture2d_unmap.htm
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 06/29/2018
 ms.keywords: ID3D10Texture2D interface [Direct3D 10],Unmap method, ID3D10Texture2D.Unmap, ID3D10Texture2D::Unmap, Unmap, Unmap method [Direct3D 10], Unmap method [Direct3D 10],ID3D10Texture2D interface, d3d10/ID3D10Texture2D::Unmap, direct3d10.id3d10texture2d_unmap, e1ca6720-deda-a569-77bf-8e1b691dd284
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsock\napi_domain_description_blob.htm
 old-project: WinSock
 ms.assetid: 543aa20c-eec2-4177-87ed-ba9c91251010
 ms.author: windowssdkdev
-ms.date: 04/30/2018
+ms.date: 07/09/2018
 ms.keywords: NAPI_DOMAIN_DESCRIPTION_BLOB, NAPI_DOMAIN_DESCRIPTION_BLOB structure [Winsock], PNAPI_DOMAIN_DESCRIPTION_BLOB, PNAPI_DOMAIN_DESCRIPTION_BLOB structure pointer [Winsock], napi_domain_description_blob_tag, nsemail/NAPI_DOMAIN_DESCRIPTION_BLOB, nsemail/PNAPI_DOMAIN_DESCRIPTION_BLOB, winsock.napi_domain_description_blob
 ms.prod: windows
 ms.technology: windows-sdk

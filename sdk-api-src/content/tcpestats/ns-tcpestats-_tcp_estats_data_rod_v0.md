@@ -4,10 +4,10 @@ title: "_TCP_ESTATS_DATA_ROD_v0"
 author: windows-sdk-content
 description: Contains read-only dynamic information for extended TCP statistics on data transfer for a TCP connection.
 old-location: iphlp\tcp_estats_data_rod_v0.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: 1e896660-10dd-471a-b4ae-116caa7a9d48
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: "*PTCP_ESTATS_DATA_ROD_v0, PTCP_ESTATS_DATA_ROD_v0, PTCP_ESTATS_DATA_ROD_v0 structure pointer [IP Helper], TCP_ESTATS_DATA_ROD_v0, TCP_ESTATS_DATA_ROD_v0 structure [IP Helper], _TCP_ESTATS_DATA_ROD_v0, iphlp.tcp_estats_data_rod_v0, tcpestats/PTCP_ESTATS_DATA_ROD_v0, tcpestats/TCP_ESTATS_DATA_ROD_v0"
 ms.prod: windows
 ms.technology: windows-sdk

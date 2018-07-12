@@ -7,7 +7,7 @@ old-location: shell\SHCreateQueryCancelAutoPlayMoniker.htm
 old-project: shell
 ms.assetid: 560a2b30-66f4-4b0f-9d46-ae714491c376
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 06/27/2018
 ms.keywords: SHCreateQueryCancelAutoPlayMoniker, SHCreateQueryCancelAutoPlayMoniker function [Windows Shell], _shell_SHCreateQueryCancelAutoPlayMoniker, shell.SHCreateQueryCancelAutoPlayMoniker, shlobj/SHCreateQueryCancelAutoPlayMoniker
 ms.prod: windows
 ms.technology: windows-sdk

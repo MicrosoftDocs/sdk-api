@@ -4,10 +4,10 @@ title: QualTspecParms
 author: windows-sdk-content
 description: The QualTspecParms structure contains qualitative Tspec parameters.
 old-location: qos\qualtspecparms.htm
-old-project: QOS
+old-project: qos
 ms.assetid: f9afa6f9-1de7-469e-a317-2dea98c8291c
 ms.author: windowssdkdev
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.keywords: QualTspecParms, QualTspecParms structure [QOS], lpmapi/QualTspecParms, qos.qualtspecparms
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable_getfinalvalue.htm
 old-project: UIAnimation
 ms.assetid: 577f83c1-aba7-4a51-82dc-68a103a31377
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: GetFinalValue, GetFinalValue method [Windows Animation], GetFinalValue method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetFinalValue method, IUIAnimationVariable.GetFinalValue, IUIAnimationVariable::GetFinalValue, uianimation.iuianimationvariable_getfinalvalue, uianimation/IUIAnimationVariable::GetFinalValue
 ms.prod: windows
 ms.technology: windows-sdk

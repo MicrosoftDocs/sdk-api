@@ -4,10 +4,10 @@ title: NET_ADDRESS_FORMAT_
 author: windows-sdk-content
 description: The NET_ADDRESS_FORMAT enumeration specifies the format of a network address returned by the ParseNetworkString function.
 old-location: iphlp\net_address_format.htm
-old-project: IpHlp
+old-project: iphlp
 ms.assetid: a99df758-d46e-452d-acf8-d2cb5a6fa22e
 ms.author: windowssdkdev
-ms.date: 05/16/2018
+ms.date: 05/17/2018
 ms.keywords: NET_ADDRESS_DNS_NAME, NET_ADDRESS_FORMAT, NET_ADDRESS_FORMAT enumeration [IP Helper], NET_ADDRESS_FORMAT_, NET_ADDRESS_FORMAT_UNSPECIFIED, NET_ADDRESS_IPV4, NET_ADDRESS_IPV6, iphlp.net_address_format, iphlpapi/NET_ADDRESS_DNS_NAME, iphlpapi/NET_ADDRESS_FORMAT, iphlpapi/NET_ADDRESS_FORMAT_UNSPECIFIED, iphlpapi/NET_ADDRESS_IPV4, iphlpapi/NET_ADDRESS_IPV6
 ms.prod: windows
 ms.technology: windows-sdk

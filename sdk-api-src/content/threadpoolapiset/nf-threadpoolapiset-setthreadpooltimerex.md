@@ -7,7 +7,7 @@ old-location: base\setthreadpooltimerex.htm
 old-project: ProcThread
 ms.assetid: 0B3C2552-0620-47A7-AF06-E215E7F862D4
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/09/2018
 ms.keywords: SetThreadpoolTimerEx, SetThreadpoolTimerEx function, base.setthreadpooltimerex, threadpoolapiset/SetThreadpoolTimerEx
 ms.prod: windows
 ms.technology: windows-sdk

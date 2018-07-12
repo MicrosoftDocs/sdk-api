@@ -4,10 +4,10 @@ title: SymGetScope function
 author: windows-sdk-content
 description: Retrieves the scope for the specified index.
 old-location: base\symgetscope.htm
-old-project: Debug
+old-project: debug
 ms.assetid: 048a4d07-bf87-4dbc-9169-d8782040b205
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 05/18/2018
 ms.keywords: SymGetScope, SymGetScope function, SymGetScopeW, base.symgetscope, dbghelp/SymGetScope, dbghelp/SymGetScopeW
 ms.prod: windows
 ms.technology: windows-sdk

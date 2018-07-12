@@ -4,10 +4,10 @@ title: IVdsPack::QueryVolumes
 author: windows-sdk-content
 description: Returns an object that enumerates the volumes in the pack.
 old-location: base\ivdspack_queryvolumes.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 43f9972d-14a6-4674-bf90-741ad3a9eb0d
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: IVdsPack interface [VDS],QueryVolumes method, IVdsPack.QueryVolumes, IVdsPack::QueryVolumes, QueryVolumes, QueryVolumes method [VDS], QueryVolumes method [VDS],IVdsPack interface, base.ivdspack_queryvolumes, vds/IVdsPack::QueryVolumes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ Returns an object that enumerates the volumes in the pack.
 
 ### -param ppEnum [out]
 
-The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the volumes  as <a href="https://msdn.microsoft.com/92013015-b0f5-4b92-937b-c2637f65810c">volume objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the volume objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> method.
+The address of an <a href="https://msdn.microsoft.com/08379071-b3cc-495a-bc8e-ad6cfacd432c">IEnumVdsObject</a> interface pointer that can be used to enumerate the volumes  as <a href="https://msdn.microsoft.com/92013015-b0f5-4b92-937b-c2637f65810c">volume objects</a>. For more information, see <a href="https://msdn.microsoft.com/cb99e9fd-613c-4e38-9e0f-e1a23b72aa07">Working with Enumeration Objects</a>. Callers must release the interface and each of the volume objects when they are no longer needed by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns

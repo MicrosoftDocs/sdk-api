@@ -4,10 +4,10 @@ title: PCLUSAPI_RESUME_CLUSTER_NODE_EX
 author: windows-sdk-content
 description: Initiates the specified failback operation, and then requests that a paused node resumes cluster activity.
 old-location: mscs\resumeclusternodeex.htm
-old-project: MsCS
+old-project: mscs
 ms.assetid: 6111AA77-8542-4183-98B2-A505889B0B87
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 06/08/2018
 ms.keywords: PCLUSAPI_RESUME_CLUSTER_NODE_EX, PCLUSAPI_RESUME_CLUSTER_NODE_EX callback, PCLUSAPI_RESUME_CLUSTER_NODE_EX callback function [Failover Cluster], clusapi/PCLUSAPI_RESUME_CLUSTER_NODE_EX, mscs.resumeclusternodeex
 ms.prod: windows
 ms.technology: windows-sdk

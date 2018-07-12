@@ -4,10 +4,10 @@ title: Ndr64AsyncClientCall function
 author: windows-sdk-content
 description: Ndr64AsyncClientCall is not intended to be directly called by applications.
 old-location: rpc\ndr64asyncclientcall.htm
-old-project: Rpc
+old-project: rpc
 ms.assetid: 0C2188A9-CEAA-487F-9385-48E9BF7773B9
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 05/31/2018
 ms.keywords: Ndr64AsyncClientCall, Ndr64AsyncClientCall function [RPC], rpc.ndr64asyncclientcall, rpcndr/Ndr64AsyncClientCall
 ms.prod: windows
 ms.technology: windows-sdk

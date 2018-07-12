@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_getcapabilities.htm
 old-project: medfound
 ms.assetid: 715e802b-4707-4c6d-9ae9-a4ddfa90f05e
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 06/06/2018
 ms.keywords: 715e802b-4707-4c6d-9ae9-a4ddfa90f05e, GetCapabilities, GetCapabilities method [Media Foundation], GetCapabilities method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],GetCapabilities method, IMFByteStream.GetCapabilities, IMFByteStream::GetCapabilities, MFBYTESTREAM_DOES_NOT_USE_NETWORK, MFBYTESTREAM_HAS_SLOW_SEEK, MFBYTESTREAM_IS_DIRECTORY, MFBYTESTREAM_IS_PARTIALLY_DOWNLOADED, MFBYTESTREAM_IS_READABLE, MFBYTESTREAM_IS_REMOTE, MFBYTESTREAM_IS_SEEKABLE, MFBYTESTREAM_IS_WRITABLE, MFBYTESTREAM_SHARE_WRITE, mf.imfbytestream_getcapabilities, mfobjects/IMFByteStream::GetCapabilities
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaDataCallback_BandedDataCallback.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatacallback\bandeddatacallback.htm
 ms.author: windowssdkdev
-ms.date: 05/03/2018
+ms.date: 05/04/2018
 ms.keywords: BandedDataCallback, BandedDataCallback method [WIA], BandedDataCallback method [WIA],IWiaDataCallback interface, IT_MSG_DATA, IT_MSG_DATA_HEADER, IT_MSG_DEVICE_STATUS, IT_MSG_FILE_PREVIEW_DATA, IT_MSG_FILE_PREVIEW_DATA_HEADER, IT_MSG_NEW_PAGE, IT_MSG_STATUS, IT_MSG_TERMINATION, IT_STATUS_PROCESSING_DATA, IT_STATUS_TRANSFER_FROM_DEVICE, IT_STATUS_TRANSFER_TO_CLIENT, IWiaDataCallback interface [WIA],BandedDataCallback method, IWiaDataCallback.BandedDataCallback, IWiaDataCallback::BandedDataCallback, _wia_IWiaDataCallback_BandedDataCallback, wia._wia_IWiaDataCallback_BandedDataCallback, wia_xp/IWiaDataCallback::BandedDataCallback
 ms.prod: windows
 ms.technology: windows-sdk

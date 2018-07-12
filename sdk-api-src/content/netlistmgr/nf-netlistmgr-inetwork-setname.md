@@ -4,10 +4,10 @@ title: INetwork::SetName
 author: windows-sdk-content
 description: The SetName method sets or renames a network.
 old-location: nla\inetwork_setname.htm
-old-project: NLA
+old-project: nla
 ms.assetid: 7495e26f-b7cf-4abd-ab7d-82b0d4bd4d87
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.keywords: INetwork interface [Network Awareness],SetName method, INetwork.SetName, INetwork::SetName, SetName, SetName method [Network Awareness], SetName method [Network Awareness],INetwork interface, netlistmgr/INetwork::SetName, nla.inetwork_setname
 ms.prod: windows
 ms.technology: windows-sdk

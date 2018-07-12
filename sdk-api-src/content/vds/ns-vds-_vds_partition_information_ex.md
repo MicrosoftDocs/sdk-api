@@ -4,10 +4,10 @@ title: "_VDS_PARTITION_INFORMATION_EX"
 author: windows-sdk-content
 description: This structure is reserved for system use.
 old-location: base\vds_partition_information_ex.htm
-old-project: VDS
+old-project: vds
 ms.assetid: 99ded61d-fcbc-4e1c-8b3a-69c14d4c20bb
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 05/28/2018
 ms.keywords: PVDS_PARTITION_INFORMATION_EX, PVDS_PARTITION_INFORMATION_EX structure pointer, VDS_PARTITION_INFORMATION_EX, VDS_PARTITION_INFORMATION_EX structure, _VDS_PARTITION_INFORMATION_EX, base.vds_partition_information_ex, vds/PVDS_PARTITION_INFORMATION_EX, vds/VDS_PARTITION_INFORMATION_EX
 ms.prod: windows
 ms.technology: windows-sdk

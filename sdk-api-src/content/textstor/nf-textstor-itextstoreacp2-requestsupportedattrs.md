@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp2_requestsupportedattrs.htm
 old-project: TSF
 ms.assetid: ce26c2ec-f808-4f59-bc54-b3681b97ad89
 ms.author: windowssdkdev
-ms.date: 06/01/2018
+ms.date: 06/28/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],RequestSupportedAttrs method, ITextStoreACP2.RequestSupportedAttrs, ITextStoreACP2::RequestSupportedAttrs, RequestSupportedAttrs, RequestSupportedAttrs method [Text Services Framework], RequestSupportedAttrs method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::RequestSupportedAttrs, tsf.itextstoreacp2_requestsupportedattrs
 ms.prod: windows
 ms.technology: windows-sdk

@@ -62,7 +62,7 @@ The <b>ICommandTree::GetCommandTree</b> method echoes the current command as a t
 
 ### -param ppRoot [out]
 
-The command object allocates memory for the command tree and returns the address to this memory; the consumer releases this memory with <a href="_com_imalloc_free">IMalloc::Free</a>, one node at a time, when it no longer needs the command tree. The provider sets <i>ppRoot</i> to a null pointer if an error occurs.
+The command object allocates memory for the command tree and returns the address to this memory; the consumer releases this memory with <a href="https://msdn.microsoft.com/library/ms693438(v=VS.85).aspx">IMalloc::Free</a>, one node at a time, when it no longer needs the command tree. The provider sets <i>ppRoot</i> to a null pointer if an error occurs.
 
 
 ## -returns

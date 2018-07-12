@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createdictionary.htm
 old-project: printdocs
 ms.assetid: d0a26f36-b25d-4ab6-9779-88d01d59e41c
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 06/05/2018
 ms.keywords: CreateDictionary, CreateDictionary method [XPS Documents and Packaging], CreateDictionary method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateDictionary method, IXpsOMObjectFactory.CreateDictionary, IXpsOMObjectFactory::CreateDictionary, xps.ixpsomobjectfactory_createdictionary, xpsobjectmodel/IXpsOMObjectFactory::CreateDictionary
 ms.prod: windows
 ms.technology: windows-sdk

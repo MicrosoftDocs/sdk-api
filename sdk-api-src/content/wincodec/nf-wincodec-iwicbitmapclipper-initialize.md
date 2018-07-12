@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapclipper_initialize.htm
 old-project: wic
 ms.assetid: a0b8a572-d947-4d57-9214-d39085a78b6e
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 05/10/2018
 ms.keywords: IWICBitmapClipper interface [Windows Imaging Component],Initialize method, IWICBitmapClipper.Initialize, IWICBitmapClipper::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapClipper interface, _wic_codec_iwicbitmapclipper_initialize, wic._wic_codec_iwicbitmapclipper_initialize, wincodec/IWICBitmapClipper::Initialize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: nwifi\wlansetuserdata.htm
 old-project: NativeWiFi
 ms.assetid: 3b37ff29-4c9b-42c8-b00a-a9dfca1d3fed
 ms.author: windowssdkdev
-ms.date: 04/13/2018
+ms.date: 07/09/2018
 ms.keywords: WlanSetProfileCustomUserData, WlanSetProfileCustomUserData function [NativeWIFI], nwifi.wlansetuserdata, wlanapi/WlanSetProfileCustomUserData
 ms.prod: windows
 ms.technology: windows-sdk

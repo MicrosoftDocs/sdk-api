@@ -7,7 +7,7 @@ old-location: com\imarshalingstream.htm
 old-project: com
 ms.assetid: 7C4A3982-3623-4F1F-929C-6D0503700450
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 06/11/2018
 ms.keywords: IMarshalingStream, IMarshalingStream interface [COM], IMarshalingStream interface [COM],described, com.imarshalingstream, objidl/IMarshalingStream
 ms.prod: windows
 ms.technology: windows-sdk
