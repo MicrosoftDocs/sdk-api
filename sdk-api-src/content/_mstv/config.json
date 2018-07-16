@@ -22,5 +22,6 @@
     "bdamedia.h",
     "bdaiface_enums.h",
     "mpeg2bits.h"
-  ]
+  ],
+  "displayName": "Microsoft TV Technologies"
 }

@@ -15,5 +15,6 @@
     "dpa_dsa.h",
     "uxtheme.h",
     "tmschema.h"
-  ]
+  ],
+  "displayName": "Windows Controls"
 }

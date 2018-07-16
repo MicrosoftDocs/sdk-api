@@ -6,5 +6,6 @@
     "winuser.h",
     "windowsx.h",
     "windef.h"
-  ]
+  ],
+  "displayName": "Windows and Messages"
 }

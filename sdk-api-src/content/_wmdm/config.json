@@ -10,5 +10,6 @@
     "wmscp.idl",
     "wmdm.idl",
     "mtpext.h"
-  ]
+  ],
+  "displayName": "Windows Media Device Manager 11 SDK"
 }

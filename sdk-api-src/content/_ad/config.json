@@ -14,5 +14,6 @@
     "dsgetdc.h",
     "dsrole.h",
     "dsparse.h"
-  ]
+  ],
+  "displayName": "Active Directory Domain Services"
 }

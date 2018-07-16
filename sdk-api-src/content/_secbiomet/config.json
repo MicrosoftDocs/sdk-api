@@ -5,5 +5,6 @@
     "winbio_types.h",
     "winbio_err.h",
     "winbio_adapter.h"
-  ]
+  ],
+  "displayName": "Windows Biometric Framework"
 }

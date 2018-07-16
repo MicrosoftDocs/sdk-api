@@ -3,5 +3,6 @@
   "headers": [
     "inkpresenterdesktop.h",
     "inkrenderer.h"
-  ]
+  ],
+  "displayName": "Ink input"
 }

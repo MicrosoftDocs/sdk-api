@@ -2,5 +2,6 @@
   "tech": "cmpapi",
   "headers": [
     "compressapi.h"
-  ]
+  ],
+  "displayName": "Compression API"
 }

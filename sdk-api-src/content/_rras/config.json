@@ -13,5 +13,6 @@
     "stm.h",
     "rtm.h",
     "rtmv2.h"
-  ]
+  ],
+  "displayName": "Routing and Remote Access Service"
 }

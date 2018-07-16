@@ -6,5 +6,6 @@
     "pnrpdef.h",
     "pnrpns.h",
     "peerdist.h"
-  ]
+  ],
+  "displayName": "Peer-to-Peer"
 }

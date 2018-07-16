@@ -19,5 +19,6 @@
     "wbemint.h",
     "wbemprov.h",
     "wbemdisp.h"
-  ]
+  ],
+  "displayName": "Windows Management Instrumentation"
 }

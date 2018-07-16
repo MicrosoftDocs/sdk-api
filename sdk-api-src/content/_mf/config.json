@@ -37,5 +37,6 @@
     "mfmediacapture.h",
     "mfspatialaudio.h",
     "mfidl.idl"
-  ]
+  ],
+  "displayName": "Microsoft Media Foundation"
 }

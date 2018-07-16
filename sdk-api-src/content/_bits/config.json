@@ -11,5 +11,6 @@
     "bits4_0.h",
     "bitscfg.h",
     "qmgr.h"
-  ]
+  ],
+  "displayName": "Background Intelligent Transfer Service"
 }

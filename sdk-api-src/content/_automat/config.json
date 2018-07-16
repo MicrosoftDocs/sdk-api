@@ -7,5 +7,6 @@
     "oleauto.h",
     "wia_xp.h",
     "olectl.h"
-  ]
+  ],
+  "displayName": "Automation"
 }

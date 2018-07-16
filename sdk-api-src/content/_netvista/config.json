@@ -15,5 +15,6 @@
     "fwpstypes.h",
     "l2cmn.h",
     "ndkinfo.h"
-  ]
+  ],
+  "displayName": "Network Drivers, Windows Vista and Later"
 }

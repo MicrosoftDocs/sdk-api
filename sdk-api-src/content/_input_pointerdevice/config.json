@@ -2,5 +2,6 @@
   "tech": "input_pointerdevice",
   "headers": [
     "winuser.h"
-  ]
+  ],
+  "displayName": "Pointer Device Input Stack"
 }

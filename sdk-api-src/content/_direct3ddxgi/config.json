@@ -12,5 +12,6 @@
     "dxgitype.h",
     "dxgicommon.h",
     "dxgiformat.h"
-  ]
+  ],
+  "displayName": "DXGI"
 }

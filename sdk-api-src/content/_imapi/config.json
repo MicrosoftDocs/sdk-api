@@ -7,5 +7,6 @@
     "imapi2error.h",
     "imapi.h",
     "imapierror.h"
-  ]
+  ],
+  "displayName": "Image Mastering API"
 }

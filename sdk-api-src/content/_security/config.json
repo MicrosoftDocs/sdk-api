@@ -91,5 +91,6 @@
     "secpkg.h",
     "winsafer.h",
     "slpublic.h"
-  ]
+  ],
+  "displayName": "Security and Identity"
 }

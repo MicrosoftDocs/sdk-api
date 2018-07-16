@@ -6,5 +6,6 @@
     "dinputd.h",
     "ntddkbd.h",
     "ntddmou.h"
-  ]
+  ],
+  "displayName": "Human Interface Devices Reference"
 }

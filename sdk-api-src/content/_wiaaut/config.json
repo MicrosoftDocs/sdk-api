@@ -2,5 +2,6 @@
   "tech": "wiaaut",
   "headers": [
     "wiaaut.h"
-  ]
+  ],
+  "displayName": "WIA Automation"
 }

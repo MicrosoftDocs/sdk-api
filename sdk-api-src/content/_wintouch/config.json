@@ -4,5 +4,6 @@
     "winuser.h",
     "uxtheme.h",
     "manipulations.h"
-  ]
+  ],
+  "displayName": "Touch Input"
 }

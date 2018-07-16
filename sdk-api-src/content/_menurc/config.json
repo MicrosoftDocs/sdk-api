@@ -10,5 +10,6 @@
     "winver.h",
     "verrsrc.h",
     "mrmresourceindexer.h"
-  ]
+  ],
+  "displayName": "Menus and Other Resources"
 }

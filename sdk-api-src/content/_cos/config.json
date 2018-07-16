@@ -7,5 +7,6 @@
     "eventsys.h",
     "comadmin.h",
     "mtxdm.h"
-  ]
+  ],
+  "displayName": "COM+ (Component Services)"
 }

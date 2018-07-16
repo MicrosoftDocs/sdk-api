@@ -2,5 +2,6 @@
   "tech": "proc_snap",
   "headers": [
     "processsnapshot.h"
-  ]
+  ],
+  "displayName": "Process Snapshotting"
 }

@@ -6,5 +6,6 @@
     "dbdao.h",
     "mmc.h",
     "vds.h"
-  ]
+  ],
+  "displayName": "Hyper-V WMI Provider"
 }

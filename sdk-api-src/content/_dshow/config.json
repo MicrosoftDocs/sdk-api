@@ -96,5 +96,6 @@
     "ddstream.h",
     "mmstream.h",
     "fil_data.h"
-  ]
+  ],
+  "displayName": "DirectShow"
 }

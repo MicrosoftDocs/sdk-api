@@ -14,5 +14,6 @@
     "spatialaudiometadata.h",
     "audiosessiontypes.h",
     "functiondiscoverykeys_devpkey.h"
-  ]
+  ],
+  "displayName": "Core Audio APIs"
 }

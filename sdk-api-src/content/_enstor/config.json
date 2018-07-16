@@ -3,5 +3,6 @@
   "headers": [
     "ehstorextensions.h",
     "ehstorapi.h"
-  ]
+  ],
+  "displayName": "Enhanced Storage"
 }

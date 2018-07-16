@@ -3,5 +3,6 @@
   "headers": [
     "webhost.h",
     "spcollec.h"
-  ]
+  ],
+  "displayName": "NetTCPIP Provider"
 }

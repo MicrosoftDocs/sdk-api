@@ -57,5 +57,6 @@
     "tlogstg.h",
     "shlwapip.h",
     "util.h"
-  ]
+  ],
+  "displayName": "The Windows Shell"
 }

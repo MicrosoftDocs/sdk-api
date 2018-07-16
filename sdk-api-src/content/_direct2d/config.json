@@ -23,5 +23,6 @@
     "d2d1effectauthor_1.h",
     "d2dbasetypes.h",
     "d2d1effecthelpers.hlsli"
-  ]
+  ],
+  "displayName": "Direct2D"
 }

@@ -3,5 +3,6 @@
   "headers": [
     "appxpackaging.h",
     "appmodel.h"
-  ]
+  ],
+  "displayName": "Packaging, deployment, and query of Windows Store apps"
 }

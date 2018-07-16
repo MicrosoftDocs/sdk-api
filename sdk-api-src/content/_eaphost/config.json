@@ -12,5 +12,6 @@
     "eapauthenticatoractiondefine.h",
     "eapmethodauthenticatorapis.h",
     "eapauthenticatortypes.h"
-  ]
+  ],
+  "displayName": "Extensible Authentication Protocol Host"
 }
