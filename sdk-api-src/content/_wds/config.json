@@ -7,5 +7,6 @@
     "wdstci.h",
     "wdstptmgmt.h",
     "wdsbp.h"
-  ]
+  ],
+  "displayName": "Windows Deployment Services"
 }

@@ -3,5 +3,6 @@
   "headers": [
     "shobjidl_core.h",
     "sdoias.h"
-  ]
+  ],
+  "displayName": "WMI Provider for NFS"
 }

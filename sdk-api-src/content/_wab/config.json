@@ -6,5 +6,6 @@
     "wabiab.h",
     "wabapi.h",
     "wabtags.h"
-  ]
+  ],
+  "displayName": "Windows Address Book"
 }

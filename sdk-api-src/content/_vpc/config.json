@@ -3,5 +3,6 @@
   "headers": [
     "vpccominterfaces.h",
     "mshtmlc.h"
-  ]
+  ],
+  "displayName": "Windows Virtual PC"
 }

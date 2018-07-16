@@ -4,5 +4,6 @@
     "wininet.h",
     "winineti.h",
     "proofofpossessioncookieinfo.h"
-  ]
+  ],
+  "displayName": "Windows Internet"
 }

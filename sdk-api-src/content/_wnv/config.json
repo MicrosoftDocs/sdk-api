@@ -2,5 +2,6 @@
   "tech": "wnv",
   "headers": [
     "wnvapi.h"
-  ]
+  ],
+  "displayName": "Windows Network Virtualization"
 }

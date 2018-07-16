@@ -4,5 +4,6 @@
     "iads.h",
     "adssts.h",
     "adshlp.h"
-  ]
+  ],
+  "displayName": "Active Directory Service Interfaces"
 }

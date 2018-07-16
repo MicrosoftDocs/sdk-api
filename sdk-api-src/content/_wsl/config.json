@@ -2,5 +2,6 @@
   "tech": "wsl",
   "headers": [
     "wslapi.h"
-  ]
+  ],
+  "displayName": "Windows Subsystem for Linux"
 }

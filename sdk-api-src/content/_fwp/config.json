@@ -8,5 +8,6 @@
     "ipsectypes.h",
     "netiodef.h",
     "fwpmtypes.h"
-  ]
+  ],
+  "displayName": "Windows Filtering Platform"
 }

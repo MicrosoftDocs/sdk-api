@@ -2,5 +2,6 @@
   "tech": "toolhelp",
   "headers": [
     "tlhelp32.h"
-  ]
+  ],
+  "displayName": "Tool Help Library"
 }

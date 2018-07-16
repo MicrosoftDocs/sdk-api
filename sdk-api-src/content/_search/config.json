@@ -12,5 +12,6 @@
     "search.h",
     "subsmgr.h",
     "query.h"
-  ]
+  ],
+  "displayName": "Windows Search"
 }

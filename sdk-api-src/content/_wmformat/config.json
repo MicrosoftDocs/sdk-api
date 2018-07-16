@@ -14,5 +14,6 @@
     "wmsinternaladminnetsource.h",
     "drmexternals.h",
     "wmdrmsdk.h"
-  ]
+  ],
+  "displayName": "Windows Media Format 11 SDK"
 }

@@ -18,5 +18,6 @@
     "d3dx9effect.h",
     "d3dx9xof.h",
     "dxfile.h"
-  ]
+  ],
+  "displayName": "Direct3D 9 Graphics"
 }

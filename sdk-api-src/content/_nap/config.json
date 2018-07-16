@@ -13,5 +13,6 @@
     "napservermanagement.h",
     "napsystemhealthagent.h",
     "naputil.h"
-  ]
+  ],
+  "displayName": "Network Access Protection"
 }

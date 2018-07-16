@@ -3,5 +3,6 @@
   "headers": [
     "tbd",
     "srrestoreptapi.h"
-  ]
+  ],
+  "displayName": "System Restore"
 }

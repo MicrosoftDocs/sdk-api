@@ -17,5 +17,6 @@
     "wsdattachment.h",
     "wsdxml.h",
     "wsdxmldom.h"
-  ]
+  ],
+  "displayName": "Other Devices Technologies"
 }

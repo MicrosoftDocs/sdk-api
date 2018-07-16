@@ -14,5 +14,6 @@
     "sysinfoapi.h",
     "wbemcli.h",
     "safeint.h"
-  ]
+  ],
+  "displayName": "Windows Sidebar"
 }

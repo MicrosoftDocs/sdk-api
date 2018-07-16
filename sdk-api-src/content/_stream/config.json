@@ -10,5 +10,6 @@
     "mfidl.h",
     "mfapi.h",
     "mftransform.h"
-  ]
+  ],
+  "displayName": "Streaming media DDI reference"
 }

@@ -3,5 +3,6 @@
   "headers": [
     "wsman.h",
     "wsmandisp.h"
-  ]
+  ],
+  "displayName": "Windows Remote Management"
 }

@@ -3,5 +3,6 @@
   "headers": [
     "traceloggingactivity.h",
     "traceloggingprovider.h"
-  ]
+  ],
+  "displayName": "TraceLogging"
 }

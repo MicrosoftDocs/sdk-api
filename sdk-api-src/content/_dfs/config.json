@@ -2,5 +2,6 @@
   "tech": "dfs",
   "headers": [
     "lmdfs.h"
-  ]
+  ],
+  "displayName": "Distributed File System"
 }

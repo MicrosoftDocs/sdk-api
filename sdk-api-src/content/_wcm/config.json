@@ -2,5 +2,6 @@
   "tech": "wcm",
   "headers": [
     "wcmapi.h"
-  ]
+  ],
+  "displayName": "Windows Connection Manager"
 }

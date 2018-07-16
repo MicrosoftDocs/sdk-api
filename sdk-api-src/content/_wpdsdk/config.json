@@ -7,5 +7,6 @@
     "devpkey.h",
     "portabledeviceconnectapi.h",
     "wpdmtpextensions.h"
-  ]
+  ],
+  "displayName": "WPD Application Programming Interface"
 }

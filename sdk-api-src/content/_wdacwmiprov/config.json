@@ -2,5 +2,6 @@
   "tech": "wdacwmiprov",
   "headers": [
     "wbemcli.h"
-  ]
+  ],
+  "displayName": "Windows Data Access Components WMI Provider"
 }

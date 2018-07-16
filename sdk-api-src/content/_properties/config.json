@@ -9,5 +9,6 @@
     "shobjidl_core.h",
     "propvarutil.h",
     "propidl.h"
-  ]
+  ],
+  "displayName": "Windows Property System"
 }

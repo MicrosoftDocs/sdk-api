@@ -2,5 +2,6 @@
   "tech": "xblidp",
   "headers": [
     "xblidpauthmanager.h"
-  ]
+  ],
+  "displayName": "XblIdpAuthManager"
 }

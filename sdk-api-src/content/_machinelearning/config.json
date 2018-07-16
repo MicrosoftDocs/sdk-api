@@ -2,5 +2,6 @@
   "tech": "machinelearning",
   "headers": [
     "winml.h"
-  ]
+  ],
+  "displayName": "Windows Machine Learning"
 }

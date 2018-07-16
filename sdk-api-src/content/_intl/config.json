@@ -24,5 +24,6 @@
     "usp10.h",
     "muiload.h",
     "gb18030.h"
-  ]
+  ],
+  "displayName": "Internationalization for Windows Applications"
 }

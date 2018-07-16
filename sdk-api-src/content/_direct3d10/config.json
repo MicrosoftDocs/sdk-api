@@ -15,5 +15,6 @@
     "d3dx10math.h",
     "d3dx10tex.h",
     "d3dx10mesh.h"
-  ]
+  ],
+  "displayName": "Direct3D 10 Graphics"
 }

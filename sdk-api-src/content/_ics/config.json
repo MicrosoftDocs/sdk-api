@@ -7,5 +7,6 @@
     "netfw.h",
     "icftypes.h",
     "networkisolation.h"
-  ]
+  ],
+  "displayName": "Windows Firewall Technologies"
 }

@@ -5,5 +5,6 @@
     "synchronizationerrors.h",
     "syncregistration.h",
     "syncregistrationerrors.h"
-  ]
+  ],
+  "displayName": "Windows Sync"
 }

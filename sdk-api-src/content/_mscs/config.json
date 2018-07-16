@@ -7,5 +7,6 @@
     "cluadmex.h",
     "wtclusres.h",
     "msclus.h"
-  ]
+  ],
+  "displayName": "Windows Clustering"
 }

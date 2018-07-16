@@ -6,5 +6,6 @@
     "ntddk.h",
     "ntdef.h",
     "fltuser.h"
-  ]
+  ],
+  "displayName": "Installable file systems DDI reference"
 }

@@ -9,5 +9,6 @@
     "winfax.h",
     "tbd",
     "faxcom.h"
-  ]
+  ],
+  "displayName": "Fax Service"
 }
