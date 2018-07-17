@@ -92,6 +92,6 @@ The following illustration shows the available cap styles for lines or segments.
 
 
 
-<img alt="Illustration of four cap styles" src="images/linecaps.png"/>
+<img alt="Illustration of four cap styles" src="./images/linecaps.png"/>
 
 

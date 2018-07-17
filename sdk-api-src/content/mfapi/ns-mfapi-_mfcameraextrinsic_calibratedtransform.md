@@ -80,7 +80,7 @@ The transform rotation.
 
 The <b>Position</b> value should be expressed in real-world coordinates in units of meters. The coordinate system of both position and orientation should be right-handed Cartesian as shown in the following diagram. 
 
-<img alt="Right-handed Cartesian coordinate system" src="images/MFCameraExtrinsic_Diagram.png"/>
+<img alt="Right-handed Cartesian coordinate system" src="./images/MFCameraExtrinsic_Diagram.png"/>
 <div class="alert"><b>Important</b>  <p class="note">The position and orientation are expressed as transforms toward the reference frame or origin. For example, a <b>Position</b> value of {-5, 0, 0} means that the origin is 5 meters to the left of the sensor, and therefore the sensor is 5 meters to the right of the origin. A sensor that is positioned 2 meters above the origin should specify a <b>Position</b> of {0, -2, 0} because that is the translation from the sensor to the origin.
 
 <p class="note">If the sensor is aligned with the origin, the rotation is the identity quaternion and the forward vector is along the -Z axis  {0, 0, -1}. If the sensor is rotated +30 degrees around the Y axis from the origin, then the <b>Orientation</b> value should be a rotation of -30 degrees around the Y axis, because it represents the rotation from the sensor to the origin.

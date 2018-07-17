@@ -80,8 +80,8 @@ The <b>GRADIENT_RECT</b> structure specifies the values of the <i>pVertex</i> ar
 
 The following images shows examples of a rectangle with a gradient fill - one in horizontal mode, the other in vertical mode.
 
-<img alt="Illustration of a rectangle that shades from dark on the left side to light on the right side" border="0" src="images/GradientFillRectangle.png"/>
-<img alt="Illustration of a rectangle that shades from dark on the top to light on the bottom" border="0" src="images/GradientFillRectangle2.png"/>
+<img alt="Illustration of a rectangle that shades from dark on the left side to light on the right side" border="0" src="./images/GradientFillRectangle.png"/>
+<img alt="Illustration of a rectangle that shades from dark on the top to light on the bottom" border="0" src="./images/GradientFillRectangle2.png"/>
 
 #### Examples
 
