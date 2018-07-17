@@ -2,13 +2,13 @@
 UID: NA:msopc
 ms.assetid: c005e016-3d7c-3e5f-91d0-04af655f8499
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: opc
 archived: true
+tech.root: opc
 ---
 
 # Msopc.h header

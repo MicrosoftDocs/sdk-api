@@ -2,13 +2,13 @@
 UID: NA:winml
 ms.assetid: 53ebaf75-681b-37e7-ad63-dd0466c53914
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: machinelearning
 archived: true
+tech.root: machinelearning
 ---
 
 # Winml.h header

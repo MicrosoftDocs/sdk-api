@@ -2,13 +2,13 @@
 UID: NA:wslapi
 ms.assetid: 2121fef1-ac3f-3125-89eb-c62ad915f5a2
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wsl
 archived: true
+tech.root: wsl
 ---
 
 # Wslapi.h header

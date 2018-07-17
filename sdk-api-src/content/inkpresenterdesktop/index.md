@@ -2,13 +2,13 @@
 UID: NA:inkpresenterdesktop
 ms.assetid: 45556f03-b45f-35f6-aed6-0c56c4bda63f
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: input_ink
 archived: true
+tech.root: input_ink
 ---
 
 # Inkpresenterdesktop.h header

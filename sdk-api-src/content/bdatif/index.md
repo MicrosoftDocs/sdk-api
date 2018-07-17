@@ -2,13 +2,13 @@
 UID: NA:bdatif
 ms.assetid: 2908eece-5a41-3897-a208-4bc229e3e9c4
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mstv
 archived: true
+tech.root: mstv
 ---
 
 # Bdatif.h header

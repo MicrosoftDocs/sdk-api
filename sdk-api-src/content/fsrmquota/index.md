@@ -2,13 +2,13 @@
 UID: NA:fsrmquota
 ms.assetid: fa9f439b-7f83-38c2-8b1b-2ec43f759bc1
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: fsrm
 archived: true
+tech.root: fsrm
 ---
 
 # Fsrmquota.h header

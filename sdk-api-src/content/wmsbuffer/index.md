@@ -2,7 +2,7 @@
 UID: NA:wmsbuffer
 ms.assetid: 3613131a-c116-3995-accb-050d1c0c8353
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

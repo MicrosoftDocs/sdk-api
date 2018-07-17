@@ -2,7 +2,7 @@
 UID: NA:activationregistration
 ms.assetid: 10a0ba17-20f5-3cf0-a0dd-880d5f8d28ed
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

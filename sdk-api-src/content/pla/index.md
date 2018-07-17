@@ -2,13 +2,13 @@
 UID: NA:pla
 ms.assetid: db8643be-835b-3749-85d9-740e42f4d6c0
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: pla
 archived: true
+tech.root: pla
 ---
 
 # Pla.h header

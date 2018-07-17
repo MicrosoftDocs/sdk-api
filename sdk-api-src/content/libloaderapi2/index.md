@@ -2,7 +2,7 @@
 UID: NA:libloaderapi2
 ms.assetid: e0f6b9b1-452c-36b6-85b9-df707e6929e2
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

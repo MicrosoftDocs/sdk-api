@@ -2,13 +2,13 @@
 UID: NA:smbclnt
 ms.assetid: c410e4e9-03fd-3d67-a73f-60913950e2df
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mscs
 archived: true
+tech.root: mscs
 ---
 
 # Smbclnt.h header

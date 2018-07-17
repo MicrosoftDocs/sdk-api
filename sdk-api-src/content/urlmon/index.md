@@ -2,7 +2,7 @@
 UID: NA:urlmon
 ms.assetid: 2eb4adc6-b51d-36c4-b443-17c903257819
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

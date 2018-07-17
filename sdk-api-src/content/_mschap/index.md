@@ -2,7 +2,7 @@
 UID: TP:mschap
 ms.assetid: c40be60a-5dfc-325b-8e6a-cfb4906a05e2
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

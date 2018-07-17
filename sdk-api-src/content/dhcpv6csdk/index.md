@@ -2,13 +2,13 @@
 UID: NA:dhcpv6csdk
 ms.assetid: f31358a7-4b3e-352e-be82-92517d26ec1c
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: dhcp
 archived: true
+tech.root: dhcp
 ---
 
 # Dhcpv6Csdk.h header

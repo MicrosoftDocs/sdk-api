@@ -2,7 +2,7 @@
 UID: NA:spellcheckprovider
 ms.assetid: 2c428cd0-5f84-32b1-a81e-d9c23b67f420
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

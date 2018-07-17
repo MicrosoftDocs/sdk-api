@@ -2,7 +2,7 @@
 UID: NA:endpointvolume
 ms.assetid: 0254f63c-cfca-3892-af5c-552b0b2e971e
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

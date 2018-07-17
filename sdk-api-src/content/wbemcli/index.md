@@ -2,7 +2,7 @@
 UID: NA:wbemcli
 ms.assetid: 3329853a-ad21-3382-a214-ab37a51be85a
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

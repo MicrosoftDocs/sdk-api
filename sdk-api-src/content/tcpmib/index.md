@@ -2,13 +2,13 @@
 UID: NA:tcpmib
 ms.assetid: 1d0a80f6-4527-32ed-92cd-d62e21b47bf0
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mib
 archived: true
+tech.root: mib
 ---
 
 # Tcpmib.h header
