@@ -7,7 +7,7 @@ old-location: security\icspstatuses_itembyprovider_property.htm
 old-project: seccertenroll
 ms.assetid: 6f6e29b3-4d20-44dc-9a9c-c68b6631a83f
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICspStatuses interface [Security],ItemByProvider property, ICspStatuses.ItemByProvider, ICspStatuses.get_ItemByProvider, ICspStatuses::ItemByProvider, ICspStatuses::get_ItemByProvider, ItemByProvider property [Security], ItemByProvider property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByProvider, certenroll/ICspStatuses::get_ItemByProvider, get_ItemByProvider, security.icspstatuses_itembyprovider_property
 ms.prod: windows
 ms.technology: windows-sdk

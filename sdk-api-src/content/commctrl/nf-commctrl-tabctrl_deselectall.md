@@ -4,10 +4,10 @@ title: TabCtrl_DeselectAll macro
 author: windows-sdk-content
 description: Resets items in a tab control, clearing any that were set to the TCIS_BUTTONPRESSED state. You can use this macro or send the TCM_DESELECTALL message explicitly.
 old-location: controls\TabCtrl_DeselectAll.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_deselectall.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: TabCtrl_DeselectAll, TabCtrl_DeselectAll macro [Windows Controls], _win32_TabCtrl_DeselectAll, _win32_TabCtrl_DeselectAll_cpp, commctrl/TabCtrl_DeselectAll, controls.TabCtrl_DeselectAll, controls._win32_TabCtrl_DeselectAll
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Resets items in a tab control, clearing any that were set to the <a href="https://msdn.microsoft.com/library/Bb760547(v=VS.85).aspx">TCIS_BUTTONPRESSED</a> state. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760579(v=VS.85).aspx">TCM_DESELECTALL</a> message explicitly. 
+Resets items in a tab control, clearing any that were set to the <a href="Tab_Control_Item_States.htm">TCIS_BUTTONPRESSED</a> state. You can use this macro or send the <a href="https://msdn.microsoft.com/cc2e5131-3c1b-473a-a0ca-274a2d39a2f1">TCM_DESELECTALL</a> message explicitly. 
 
 
 ## -parameters
@@ -81,7 +81,7 @@ Handle to the tab control.
 
 
 
-This message is only meaningful if the <a href="https://msdn.microsoft.com/library/Bb760549(v=VS.85).aspx">TCS_BUTTONS</a> style flag has been set. 
+This message is only meaningful if the <a href="Tab_Control_Styles.htm">TCS_BUTTONS</a> style flag has been set. 
 
 
 

@@ -4,10 +4,10 @@ title: ITsSbResourceNotification::NotifyTargetChange
 author: windows-sdk-content
 description: Notifies registered plug-ins about state changes in a target object.
 old-location: termserv\itssbresourcenotification_notifytargetchange.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: d075c7ae-fe86-4547-a980-2b82ea3498c6
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ITsSbResourceNotification interface [Remote Desktop Services],NotifyTargetChange method, ITsSbResourceNotification.NotifyTargetChange, ITsSbResourceNotification::NotifyTargetChange, NotifyTargetChange, NotifyTargetChange method [Remote Desktop Services], NotifyTargetChange method [Remote Desktop Services],ITsSbResourceNotification interface, sbtsv/ITsSbResourceNotification::NotifyTargetChange, termserv.itssbresourcenotification_notifytargetchange
 ms.prod: windows
 ms.technology: windows-sdk

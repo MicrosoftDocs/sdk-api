@@ -7,7 +7,7 @@ old-location: cos\itransactioncontext.htm
 old-project: cossdk
 ms.assetid: 818fe18b-04ed-4f54-aeb7-b19aafc8a51a
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: ITransactionContext, ITransactionContext interface [COM+], ITransactionContext interface [COM+],described, _cos_ITransactionContext_Interface, comsvcs/ITransactionContext, cos.itransactioncontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ Enables you to compose the work of multiple COM+ objects in a single transaction
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionContext</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITransactionContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionContext</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITransactionContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

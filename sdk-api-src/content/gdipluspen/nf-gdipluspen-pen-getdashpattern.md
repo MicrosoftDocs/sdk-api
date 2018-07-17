@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_GetDashPattern_dashArray_count_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getdashpattern.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: GetDashPattern, GetDashPattern method [GDI+], GetDashPattern method [GDI+],Pen class, Pen class [GDI+],GetDashPattern method, Pen.GetDashPattern, Pen::GetDashPattern, _gdiplus_CLASS_Pen_GetDashPattern_dashArray_count_, gdiplus._gdiplus_CLASS_Pen_GetDashPattern_dashArray_count_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Pen::GetDashPattern</b> method gets an array of custom dashes and spaces currently set for this 
-			<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object.
+			<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object.
 
 
 ## -parameters
@@ -99,7 +99,7 @@ The elements in the
 				<i>dashArray</i> array set the length of each dash and space in the dash pattern. The first element sets the length of a dash, the second element sets the length of a space, the third element sets the length of a dash, and so forth.
 
 The length of each dash and space in the dash pattern is the product of each element in the array and the width of the 
-				<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object.
+				<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object.
 
 
 #### Examples
@@ -107,7 +107,7 @@ The length of each dash and space in the dash pattern is the product of each ele
 
 
 The following example creates an array of real numbers and a 
-						<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object, sets the dash pattern, and draws a custom dashed line. The code then gets the dash pattern currently set for the pen.
+						<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object, sets the dash pattern, and draws a custom dashed line. The code then gets the dash pattern currently set for the pen.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -150,23 +150,23 @@ The following example creates an array of real numbers and a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533850(v=VS.85).aspx">Drawing a Custom Dashed Line</a>
+<a href="https://msdn.microsoft.com/0e75de3b-1006-4c8f-875c-eeb0782f24b0">Drawing a Custom Dashed Line</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a>
+<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535027(v=VS.85).aspx">Pen::GetDashPatternCount</a>
+<a href="https://msdn.microsoft.com/bba50ce3-d466-47a5-acad-7b0d83b41191">Pen::GetDashPatternCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535049(v=VS.85).aspx">Pen::SetDashPattern</a>
+<a href="https://msdn.microsoft.com/bfddd867-a2b1-4f2b-9c99-cc2112e13fa0">Pen::SetDashPattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
  
 
  

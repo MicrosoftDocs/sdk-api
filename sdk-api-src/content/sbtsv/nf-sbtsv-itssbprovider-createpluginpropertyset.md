@@ -4,10 +4,10 @@ title: ITsSbProvider::CreatePluginPropertySet
 author: windows-sdk-content
 description: Creates an ITsSbPluginPropertySet plug-in property set object.
 old-location: termserv\itssbprovider_createpluginpropertyset.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: a15edb7a-4ff5-4832-8632-17b08cff4675
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: CreatePluginPropertySet, CreatePluginPropertySet method [Remote Desktop Services], CreatePluginPropertySet method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreatePluginPropertySet method, ITsSbProvider.CreatePluginPropertySet, ITsSbProvider::CreatePluginPropertySet, sbtsv/ITsSbProvider::CreatePluginPropertySet, termserv.itssbprovider_createpluginpropertyset
 ms.prod: windows
 ms.technology: windows-sdk

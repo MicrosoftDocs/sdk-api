@@ -7,7 +7,7 @@ old-location: mmc\application_quit.htm
 old-project: mmc
 ms.assetid: 59eaaa60-457b-4f5a-84c7-2c704850749e
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: Application object [MMC],Quit method, Quit, Quit method [MMC], Quit method [MMC],Application object, Quit method [MMC],_Application interface, _Application interface [MMC],Quit method, _Application.Quit, _Application::Quit, _slate_application.quit_method, mmc.application_quit
 ms.prod: windows
 ms.technology: windows-sdk

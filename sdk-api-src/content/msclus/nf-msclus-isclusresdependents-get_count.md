@@ -7,7 +7,7 @@ old-location: mscs\clusresdependents_count.htm
 old-project: mscs
 ms.assetid: ab02c5ba-d63f-4eab-bad4-804760a8a40b
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResDependents class [Failover Cluster],Count property, ClusResDependents.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusResDependents class, ISClusResDependents.get_Count, ISClusResDependents::get_Count, _wolf_clusresdependents.count, get_Count, mscs.clusresdependents_count
 ms.prod: windows
 ms.technology: windows-sdk

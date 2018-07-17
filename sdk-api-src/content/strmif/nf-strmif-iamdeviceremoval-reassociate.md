@@ -7,7 +7,7 @@ old-location: dshow\iamdeviceremoval_reassociate.htm
 old-project: DirectShow
 ms.assetid: 214b98c7-4143-4466-a359-1e9c9e4c778d
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IAMDeviceRemoval interface [DirectShow],Reassociate method, IAMDeviceRemoval.Reassociate, IAMDeviceRemoval::Reassociate, IAMDeviceRemovalReassociate, Reassociate, Reassociate method [DirectShow], Reassociate method [DirectShow],IAMDeviceRemoval interface, dshow.iamdeviceremoval_reassociate, strmif/IAMDeviceRemoval::Reassociate
 ms.prod: windows
 ms.technology: windows-sdk

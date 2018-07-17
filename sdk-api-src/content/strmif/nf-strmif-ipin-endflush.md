@@ -7,7 +7,7 @@ old-location: dshow\ipin_endflush.htm
 old-project: DirectShow
 ms.assetid: 42b201b6-1fbf-4a01-aed7-23a9e66c11ea
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: EndFlush, EndFlush method [DirectShow], EndFlush method [DirectShow],IPin interface, IPin interface [DirectShow],EndFlush method, IPin.EndFlush, IPin::EndFlush, IPinEndFlush, dshow.ipin_endflush, strmif/IPin::EndFlush
 ms.prod: windows
 ms.technology: windows-sdk

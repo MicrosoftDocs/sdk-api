@@ -7,7 +7,7 @@ old-location: dshow\iamdevmemorycontrol.htm
 old-project: DirectShow
 ms.assetid: 9945bffb-6748-4c7d-ba14-91470cf6c651
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IAMDevMemoryControl, IAMDevMemoryControl interface [DirectShow], IAMDevMemoryControl interface [DirectShow],described, IAMDevMemoryControlInterface, dshow.iamdevmemorycontrol, strmif/IAMDevMemoryControl
 ms.prod: windows
 ms.technology: windows-sdk

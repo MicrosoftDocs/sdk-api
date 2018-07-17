@@ -4,10 +4,10 @@ title: tagNMPGHOTITEM
 author: windows-sdk-content
 description: Contains information used with the PGN_HOTITEMCHANGE notification code.
 old-location: controls\NMPGHOTITEM.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\pager\structures\nmpghotitem.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: "*LPNMPGHOTITEM, LPNMPGHOTITEM, LPNMPGHOTITEM structure pointer [Windows Controls], NMPGHOTITEM, NMPGHOTITEM structure [Windows Controls], commctrl/LPNMPGHOTITEM, commctrl/NMPGHOTITEM, controls.NMPGHOTITEM, controls.inet_NMPGHOTITEM, inet_NMPGHOTITEM, inet_NMPGHOTITEM_cpp, tagNMPGHOTITEM"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information used with the <a href="https://msdn.microsoft.com/library/Bb760865(v=VS.85).aspx">PGN_HOTITEMCHANGE</a> notification code. 
+Contains information used with the <a href="https://msdn.microsoft.com/0f59677c-0251-49f4-b909-6fac6d93f354">PGN_HOTITEMCHANGE</a> notification code. 
 
 
 
@@ -61,10 +61,10 @@ Contains information used with the <a href="https://msdn.microsoft.com/library/B
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field idOld

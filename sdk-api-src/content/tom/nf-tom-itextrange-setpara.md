@@ -4,10 +4,10 @@ title: ITextRange::SetPara
 author: windows-sdk-content
 description: Sets the paragraph attributes of this range to those of the specified ITextPara object.
 old-location: controls\ITextRange_SetPara.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setpara.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ITextRange interface [Windows Controls],SetPara method, ITextRange.SetPara, ITextRange::SetPara, SetPara, SetPara method [Windows Controls], SetPara method [Windows Controls],ITextRange interface, _win32_ITextRange_SetPara, _win32_ITextRange_SetPara_cpp, controls.ITextRange_SetPara, controls._win32_ITextRange_SetPara, tom/ITextRange::SetPara
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Sets the paragraph attributes of this range to those of the specified <a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a> object.
+Sets the paragraph attributes of this range to those of the specified <a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a> object.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Sets the paragraph attributes of this range to those of the specified <a href="h
 
 ### -param pPara [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>*</b>
 
 The paragraph object with the desired paragraph format. 
 
@@ -127,11 +127,11 @@ Out of memory.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774001(v=VS.85).aspx">GetPara</a>
+<a href="https://msdn.microsoft.com/dcc601e9-dc93-47ba-8be9-667e52da916c">GetPara</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -139,7 +139,7 @@ Out of memory.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

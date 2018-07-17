@@ -4,10 +4,10 @@ title: InitMUILanguage function
 author: windows-sdk-content
 description: Enables an application to specify a language to be used with the common controls that is different from the system language.
 old-location: controls\InitMUILanguage.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\initmuilanguage.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: InitMUILanguage, InitMUILanguage function [Windows Controls], _win32_InitMUILanguage, _win32_InitMUILanguage_cpp, commctrl/InitMUILanguage, controls.InitMUILanguage, controls._win32_InitMUILanguage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ This function enables an application to override the system language setting, an
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775676(v=VS.85).aspx">GetMUILanguage</a>
+<a href="https://msdn.microsoft.com/e034cd63-ffe5-4b48-8e23-248fe22b884a">GetMUILanguage</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mscs\cluspropertyvalues_count.htm
 old-project: mscs
 ms.assetid: 368f6d67-1096-4abb-85a4-c81d2660e918
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusPropertyValues collection [Failover Cluster],Count property, ClusPropertyValues.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusPropertyValues collection, ISClusPropertyValues.get_Count, ISClusPropertyValues::get_Count, _wolf_cluspropertyvalues.count, get_Count, mscs.cluspropertyvalues_count
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     in subsequent versions.]
 
 Returns the 
-    number of <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">property values</a> in the 
+    number of <a href="p_gly.htm">property values</a> in the 
     <a href="https://msdn.microsoft.com/18ae71ee-5582-4ac9-bb0f-f1c077c0352a">ClusPropertyValues</a> 
     collection.
 

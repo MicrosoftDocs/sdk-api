@@ -72,12 +72,12 @@ The semantic index for the element. A semantic index modifies a semantic, with a
 
 ### -field Format
 
-A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that specifies the format of the element data.
+A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed value that specifies the format of the element data.
 
 
 ### -field InputSlot
 
-An integer value that identifies the input-assembler. For more info, see <a href="https://msdn.microsoft.com/library/Bb205117(v=VS.85).aspx">Input Slots</a>. Valid values are between 0 and 15. 
+An integer value that identifies the input-assembler. For more info, see <a href="https://msdn.microsoft.com/84c0ca29-2356-4b7f-98ee-ff1758edc540">Input Slots</a>. Valid values are between 0 and 15. 
 
 
 ### -field AlignedByteOffset

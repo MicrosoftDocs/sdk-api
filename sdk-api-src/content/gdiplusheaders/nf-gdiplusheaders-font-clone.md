@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_Clone_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\clone_4.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Font class, Font class [GDI+],Clone method, Font.Clone, Font::Clone, _gdiplus_CLASS_Font_Clone_, gdiplus._gdiplus_CLASS_Font_Clone_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Font::Clone</b> method creates a new 
-			<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a> object based on this 
+			<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a> object based on this 
 			<b>Font</b> object.
 
 
@@ -67,11 +67,11 @@ The <b>Font::Clone</b> method creates a new
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a>*</b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a>*</b>
 </strong>
 
 This method returns a pointer to the new 
-						<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a> object.
+						<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a> object.
 
 
 
@@ -81,11 +81,11 @@ This method returns a pointer to the new
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/12bc38c3-5fbc-4d7b-902c-92a5f5057473">Using Text and Fonts</a>
  
 
  

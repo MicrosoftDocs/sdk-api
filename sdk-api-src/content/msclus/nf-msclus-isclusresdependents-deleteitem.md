@@ -7,7 +7,7 @@ old-location: mscs\clusresdependents_deleteitem.htm
 old-project: mscs
 ms.assetid: c737bed3-3af0-475e-8e4e-cb7d1ce99792
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResDependents class [Failover Cluster],DeleteItem method, ClusResDependents.DeleteItem, DeleteItem, DeleteItem method [Failover Cluster], DeleteItem method [Failover Cluster],ClusResDependents class, ISClusResDependents.DeleteItem, ISClusResDependents::DeleteItem, _wolf_clusresdependents.deleteitem, mscs.clusresdependents_deleteitem
 ms.prod: windows
 ms.technology: windows-sdk

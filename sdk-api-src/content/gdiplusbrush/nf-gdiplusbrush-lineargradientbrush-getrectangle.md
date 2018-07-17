@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetRectangle_Methods.ht
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\lineargradientbrushgetrectanglemethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: GetRectangle, GetRectangle methods [GDI+], LinearGradientBrush.GetRectangle, LinearGradientBrush::GetRectangle, _gdiplus_CLASS_LinearGradientBrush_GetRectangle_Methods, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetRectangle_Methods, gdiplusbrush/GetRectangle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,8 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 			GetRectangle methods of the 
-			<a href="https://msdn.microsoft.com/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a> class. For a complete list of methods for the 
-			<b>LinearGradientBrush</b> class, see <a href="https://msdn.microsoft.com/library/ms535327(v=VS.85).aspx">LinearGradientBrush Methods</a>.
+			<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a> class. For a complete list of methods for the 
+			<b>LinearGradientBrush</b> class, see <a href="https://msdn.microsoft.com/fbbc4cca-6337-4429-b35f-ef9de951ea12">LinearGradientBrush Methods</a>.
 
 </span><h3>Overload list</h3><table>
 <tr>
@@ -64,19 +64,19 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535351(v=VS.85).aspx">GetRectangle(Rect*)</a>
+<a href="https://msdn.microsoft.com/0c06b458-193b-4aef-aa3e-635174bdcdd1">GetRectangle(Rect*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535351(v=VS.85).aspx">LinearGradientBrush::GetRectangle</a> method gets the rectangle that defines the boundaries of the gradient. 
+The <a href="https://msdn.microsoft.com/0c06b458-193b-4aef-aa3e-635174bdcdd1">LinearGradientBrush::GetRectangle</a> method gets the rectangle that defines the boundaries of the gradient. 
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535352(v=VS.85).aspx">GetRectangle(RectF*)</a>
+<a href="https://msdn.microsoft.com/84ff06a0-6f77-42ab-adc1-bf1c18106f1e">GetRectangle(RectF*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535352(v=VS.85).aspx">LinearGradientBrush::GetRectangle</a> method gets the rectangle that defines the boundaries of the gradient.
+The <a href="https://msdn.microsoft.com/84ff06a0-6f77-42ab-adc1-bf1c18106f1e">LinearGradientBrush::GetRectangle</a> method gets the rectangle that defines the boundaries of the gradient.
 
 </td>
 </tr>

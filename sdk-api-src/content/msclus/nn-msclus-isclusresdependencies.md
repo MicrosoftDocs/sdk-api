@@ -7,7 +7,7 @@ old-location: mscs\clusresdependencies_collection.htm
 old-project: mscs
 ms.assetid: 10695840-38ec-4614-8bbd-5772a53dea4b
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResDependencies, ClusResDependencies collection [Failover Cluster], ClusResDependencies collection [Failover Cluster],described, ISClusResDependencies, _wolf_clusresdependencies_collection, msclus/ClusResDependencies, mscs.clusresdependencies_collection
 ms.prod: windows
 ms.technology: windows-sdk

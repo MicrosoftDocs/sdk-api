@@ -7,7 +7,7 @@ old-location: dshow\igraphbuilder_connect.htm
 old-project: DirectShow
 ms.assetid: 8ddcbb73-8220-4d70-9ab3-58d99fa8a958
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: Connect, Connect method [DirectShow], Connect method [DirectShow],IGraphBuilder interface, IGraphBuilder interface [DirectShow],Connect method, IGraphBuilder.Connect, IGraphBuilder::Connect, IGraphBuilderConnect, dshow.igraphbuilder_connect, strmif/IGraphBuilder::Connect
 ms.prod: windows
 ms.technology: windows-sdk

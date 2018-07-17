@@ -4,10 +4,10 @@ title: ListView_InsertMarkHitTest macro
 author: windows-sdk-content
 description: Retrieves the insertion point closest to a specified point. You can use this macro or send the LVM_INSERTMARKHITTEST message explicitly.
 old-location: controls\ListView_InsertMarkHitTest.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertmarkhittest.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ListView_InsertMarkHitTest, ListView_InsertMarkHitTest macro [Windows Controls], _win32_ListView_InsertMarkHitTest, _win32_ListView_InsertMarkHitTest_cpp, commctrl/ListView_InsertMarkHitTest, controls.ListView_InsertMarkHitTest, controls._win32_ListView_InsertMarkHitTest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the insertion point closest to a specified point. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761131(v=VS.85).aspx">LVM_INSERTMARKHITTEST</a> message explicitly. 
+Retrieves the insertion point closest to a specified point. You can use this macro or send the <a href="https://msdn.microsoft.com/901bb770-a36d-4d9f-a53b-d497b4df39e5">LVM_INSERTMARKHITTEST</a> message explicitly. 
 
 
 ## -parameters
@@ -84,14 +84,14 @@ TBD
 
 Type: <b>PLVINSERTMARK</b>
 
-<a href="https://msdn.microsoft.com/library/Bb774758(v=VS.85).aspx">LVINSERTMARK</a>
+<a href="https://msdn.microsoft.com/61af07a1-34b1-4780-b36e-765e80783116">LVINSERTMARK</a>
 <i>point</i>
 
 ## -remarks
 
 
 
-To use <b>ListView_InsertMarkHitTest</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_InsertMarkHitTest</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

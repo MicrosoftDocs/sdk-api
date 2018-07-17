@@ -7,7 +7,7 @@ old-location: inputmsg\is_pointer_fourthbutton_wparam.htm
 old-project: InputMsg
 ms.assetid: 71DEF64E-A372-47BF-B5CD-96A1524FD459
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IS_POINTER_FOURTHBUTTON_WPARAM, IS_POINTER_FOURTHBUTTON_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_fourthbutton_wparam, winuser/IS_POINTER_FOURTHBUTTON_WPARAM
 ms.prod: windows
 ms.technology: windows-sdk

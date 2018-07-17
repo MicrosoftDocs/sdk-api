@@ -7,7 +7,7 @@ old-location: com\cohandlepriorityeventsfrommessagepump.htm
 old-project: com
 ms.assetid: 24EA766D-82F8-4E57-AAB8-A06ECE644319
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: CoHandlePriorityEventsFromMessagePump, CoHandlePriorityEventsFromMessagePump function [COM], com.cohandlepriorityeventsfrommessagepump, messagedispatcherapi/CoHandlePriorityEventsFromMessagePump
 ms.prod: windows
 ms.technology: windows-sdk

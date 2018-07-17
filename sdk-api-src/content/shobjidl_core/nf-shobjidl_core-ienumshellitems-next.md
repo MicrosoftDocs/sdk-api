@@ -7,7 +7,7 @@ old-location: shell\IEnumShellItems_Next.htm
 old-project: shell
 ms.assetid: 8074ecea-30b9-4d1e-9184-457d3dd70bb8
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IEnumShellItems interface [Windows Shell],Next method, IEnumShellItems.Next, IEnumShellItems::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumShellItems interface, _shell_IEnumShellItems_Next, shell.IEnumShellItems_Next, shobjidl_core/IEnumShellItems::Next
 ms.prod: windows
 ms.technology: windows-sdk

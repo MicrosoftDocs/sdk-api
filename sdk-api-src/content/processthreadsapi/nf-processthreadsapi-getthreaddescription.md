@@ -4,10 +4,10 @@ title: GetThreadDescription function
 author: windows-sdk-content
 description: Retrieves the description that was assigned to a thread by calling SetThreadDescription.
 old-location: base\getthreaddescription.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 9CFF0A2D-2196-4AE0-8F77-229A8AB7A3E8
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: GetThreadDescription, GetThreadDescription function, base.getthreaddescription, processthreadsapi/GetThreadDescription
 ms.prod: windows
 ms.technology: windows-sdk

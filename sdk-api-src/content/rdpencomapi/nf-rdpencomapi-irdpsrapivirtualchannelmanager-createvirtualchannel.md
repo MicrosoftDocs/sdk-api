@@ -4,10 +4,10 @@ title: IRDPSRAPIVirtualChannelManager::CreateVirtualChannel
 author: windows-sdk-content
 description: Creates a virtual channel.
 old-location: rdp\irdpsrapivirtualchannelmanager_createvirtualchannel.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 0185af26-a29d-4227-bad6-2633de18617e
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/13/2018
 ms.keywords: CHANNEL_PRIORITY_HI, CHANNEL_PRIORITY_LO, CHANNEL_PRIORITY_MED, CreateVirtualChannel, CreateVirtualChannel method [RDP], CreateVirtualChannel method [RDP],IRDPSRAPIVirtualChannelManager interface, IRDPSRAPIVirtualChannelManager interface [RDP],CreateVirtualChannel method, IRDPSRAPIVirtualChannelManager.CreateVirtualChannel, IRDPSRAPIVirtualChannelManager::CreateVirtualChannel, rdp.irdpsrapivirtualchannelmanager_createvirtualchannel, rdpencomapi/IRDPSRAPIVirtualChannelManager::CreateVirtualChannel
 ms.prod: windows
 ms.technology: windows-sdk

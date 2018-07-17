@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_FUNC_IsCanonicalPixelFormat_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\iscanonicalpixelformat.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: IsCanonicalPixelFormat, IsCanonicalPixelFormat function [GDI+], _gdiplus_FUNC_IsCanonicalPixelFormat_, gdiplus._gdiplus_FUNC_IsCanonicalPixelFormat_, gdipluspixelformats/IsCanonicalPixelFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>IsCanonicalPixelFormat</b> method determines whether a specified pixel format is one of the canonical formats: <a href="https://msdn.microsoft.com/library/ms534412(v=VS.85).aspx">PixelFormat32bppARGB</a> or <a href="https://msdn.microsoft.com/library/ms534412(v=VS.85).aspx">PixelFormat64bppARGB</a>.
+The <b>IsCanonicalPixelFormat</b> method determines whether a specified pixel format is one of the canonical formats: <a href="https://msdn.microsoft.com/362204c5-5dd7-461a-b90b-15826c025689">PixelFormat32bppARGB</a> or <a href="https://msdn.microsoft.com/362204c5-5dd7-461a-b90b-15826c025689">PixelFormat64bppARGB</a>.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The <b>IsCanonicalPixelFormat</b> method determines whether a specified pixel fo
 
 Type: <b>PixelFormat</b>
 
-A <a href="https://msdn.microsoft.com/library/ms534412(v=VS.85).aspx">PixelFormat</a> constant that specifies the pixel format to be tested.
+A <a href="https://msdn.microsoft.com/362204c5-5dd7-461a-b90b-15826c025689">PixelFormat</a> constant that specifies the pixel format to be tested.
 
 
 ## -returns
@@ -74,7 +74,7 @@ A <a href="https://msdn.microsoft.com/library/ms534412(v=VS.85).aspx">PixelForma
 Type: <strong>Type: <b>BOOL</b>
 </strong>
 
-If the pixel format is <a href="https://msdn.microsoft.com/library/ms534412(v=VS.85).aspx">PixelFormat32bppARGB</a> or <b>PixelFormat64bppARGB</b>, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+If the pixel format is <a href="https://msdn.microsoft.com/362204c5-5dd7-461a-b90b-15826c025689">PixelFormat32bppARGB</a> or <b>PixelFormat64bppARGB</b>, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
 
 

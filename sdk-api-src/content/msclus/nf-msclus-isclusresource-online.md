@@ -7,7 +7,7 @@ old-location: mscs\clusresource_online.htm
 old-project: mscs
 ms.assetid: 64f63071-b07d-4391-9631-a7a1dae35dc5
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResource class [Failover Cluster],Online method, ClusResource.Online, ISClusResource.Online, ISClusResource::Online, Online, Online method [Failover Cluster], Online method [Failover Cluster],ClusResource class, _wolf_clusresource.online, mscs.clusresource_online
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,7 +104,7 @@ This method does not return a value.
 
 
 
-Any resources that the resource <a href="https://msdn.microsoft.com/library/ms691748(v=VS.85).aspx">depends</a> 
+Any resources that the resource <a href="d_gly.htm">depends</a> 
     on are brought online first.
 
 

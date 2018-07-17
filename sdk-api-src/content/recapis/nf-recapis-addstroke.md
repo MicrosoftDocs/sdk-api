@@ -7,7 +7,7 @@ old-location: tablet\addstroke.htm
 old-project: tablet
 ms.assetid: 1db3dbef-41bf-4b00-8e6c-07c7c414e595
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: 1db3dbef-41bf-4b00-8e6c-07c7c414e595, AddStroke, AddStroke function [Tablet PC], recapis/AddStroke, tablet.addstroke
 ms.prod: windows
 ms.technology: windows-sdk

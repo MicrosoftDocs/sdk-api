@@ -4,10 +4,10 @@ title: WinExec function
 author: windows-sdk-content
 description: Runs the specified application.
 old-location: base\winexec.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 00ac3bd8-59d3-4f7f-8720-e57d05cee056
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: WinExec, WinExec function, _win32_winexec, base.winexec, winbase/WinExec
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ The command line (file name plus optional parameters) for the application to be 
 ### -param uCmdShow [in]
 
 The display options. For a list of the acceptable values, see the description of the <i>nCmdShow</i> parameter of the 
-<a href="https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx">ShowWindow</a> function.
+<a href="_win32_showwindow_cpp">ShowWindow</a> function.
 
 
 ## -returns
@@ -151,7 +151,7 @@ The specified path was not found.
 
 
 The 
-<b>WinExec</b> function returns when the started process calls the <a href="https://msdn.microsoft.com/library/Aa359047(v=VS.85).aspx">GetMessage</a> function or a time-out limit is reached. To avoid waiting for the time out delay, call the <b>GetMessage</b> function as soon as possible in any process started by a call to 
+<b>WinExec</b> function returns when the started process calls the <a href="_win32_getmessage_cpp">GetMessage</a> function or a time-out limit is reached. To avoid waiting for the time out delay, call the <b>GetMessage</b> function as soon as possible in any process started by a call to 
 <b>WinExec</b>.
 
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>

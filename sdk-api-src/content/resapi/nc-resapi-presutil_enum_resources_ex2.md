@@ -7,8 +7,8 @@ old-location: mscs\resutilenumresourcesex2.htm
 old-project: mscs
 ms.assetid: F178850C-D68A-4A51-A830-F12E023352B4
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PRESUTIL_ENUM_RESOURCES_EX2, PRESUTIL_ENUM_RESOURCES_EX2 callback, PRESUTIL_ENUM_RESOURCES_EX2 callback function [Failover Cluster], mscs.resutilenumresourcesex2, resapi/PRESUTIL_ENUM_RESOURCES_EX2
+ms.date: 07/12/2018
+ms.keywords: PRESUTIL_ENUM_RESOURCES_EX2, PRESUTIL_ENUM_RESOURCES_EX2 function [Failover Cluster], ResUtilEnumResourcesEx2, ResUtilEnumResourcesEx2 function [Failover Cluster], mscs.resutilenumresourcesex2, resapi/PRESUTIL_ENUM_RESOURCES_EX2, resapi/ResUtilEnumResourcesEx2
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -32,15 +32,15 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - UserDefined
+ - DllExport
 api_location:
- - ResApi.h
+ - ResUtils.dll
 api_name:
- - PRESUTIL_ENUM_RESOURCES_EX2
+ - ResUtilEnumResourcesEx2
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
 req.irql: 
 req.product: ADAM
 ---

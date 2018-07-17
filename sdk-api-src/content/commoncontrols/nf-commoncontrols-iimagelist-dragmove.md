@@ -4,10 +4,10 @@ title: IImageList::DragMove
 author: windows-sdk-content
 description: Moves the image that is being dragged during a drag-and-drop operation. This function is typically called in response to a WM_MOUSEMOVE message.
 old-location: controls\IImageList_DragMove.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\dragmove.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: DragMove, DragMove method [Windows Controls], DragMove method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],DragMove method, IImageList.DragMove, IImageList::DragMove, comctl_IImageList_DragMove, comctl_IImageList_DragMove_cpp, commoncontrols/IImageList::DragMove, controls.IImageList_DragMove, controls.comctl_IImageList_DragMove
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Moves the image that is being dragged during a drag-and-drop operation. This function is typically called in response to a <a href="https://msdn.microsoft.com/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> message.
+Moves the image that is being dragged during a drag-and-drop operation. This function is typically called in response to a <a href="https://msdn.microsoft.com/9b99387e-e176-4b20-a05a-bc75928a1367">WM_MOUSEMOVE</a> message.
 		
 
 
@@ -91,10 +91,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-		To begin a drag operation, use the <a href="https://msdn.microsoft.com/library/Bb761440(v=VS.85).aspx">IImageList::BeginDrag</a> method. 
+		To begin a drag operation, use the <a href="https://msdn.microsoft.com/403fede8-7b13-470d-9200-f3cc831d3132">IImageList::BeginDrag</a> method. 
 		
 
-To use <b>IImageList::DragMove</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>IImageList::DragMove</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

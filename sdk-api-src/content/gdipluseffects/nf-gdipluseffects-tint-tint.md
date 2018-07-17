@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Tint_Tint_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\tintclass\tintconstructors\tint.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Tint, Tint class [GDI+],Tint constructor, Tint constructor [GDI+], Tint constructor [GDI+],Tint class, Tint.Tint, Tint::Tint, _gdiplus_CLASS_Tint_Tint_, gdiplus._gdiplus_CLASS_Tint_Tint_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/library/ms534513(v=VS.85).aspx">Tint</a> object. 
+Creates a <a href="https://msdn.microsoft.com/f012ec61-986d-40f4-a730-1b73a52952a8">Tint</a> object. 
 
 
 ## -parameters
@@ -66,15 +66,15 @@ Creates a <a href="https://msdn.microsoft.com/library/ms534513(v=VS.85).aspx">Ti
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534513(v=VS.85).aspx">Tint</a>
+<a href="https://msdn.microsoft.com/f012ec61-986d-40f4-a730-1b73a52952a8">Tint</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534518(v=VS.85).aspx">Tint::SetParameters</a>
+<a href="https://msdn.microsoft.com/f1d19fc2-2912-47f9-aa6b-29ae8df64a90">Tint::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534074(v=VS.85).aspx">TintParams</a>
+<a href="https://msdn.microsoft.com/d2d012d7-1e9e-4aea-a28c-df2d42ca1b69">TintParams</a>
  
 
  

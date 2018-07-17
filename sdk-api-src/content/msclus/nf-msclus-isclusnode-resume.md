@@ -7,7 +7,7 @@ old-location: mscs\clusnode_resume.htm
 old-project: mscs
 ms.assetid: 74e465e2-1328-4e05-b287-3ce27359c67a
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusNode object [Failover Cluster],Resume method, ClusNode.Resume, ISClusNode.Resume, ISClusNode::Resume, Resume, Resume method [Failover Cluster], Resume method [Failover Cluster],ClusNode object, _wolf_clusnode.resume, mscs.clusnode_resume
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 Resumes the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> activity of a 
     <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> after it has been 
-    <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">paused</a> by the 
+    <a href="p_gly.htm">paused</a> by the 
     <a href="https://msdn.microsoft.com/2fd16dda-b554-47fa-a040-15c7685d6392">ClusNode.Pause</a> method.
 
 

@@ -4,10 +4,10 @@ title: Edit_LimitText macro
 author: windows-sdk-content
 description: Limits the length of text that can be entered into an edit control. You can use this macro or send the EM_LIMITTEXT message explicitly.
 old-location: controls\Edit_LimitText.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_limittext.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: Edit_LimitText, Edit_LimitText macro [Windows Controls], _win32_Edit_LimitText, _win32_Edit_LimitText_cpp, controls.Edit_LimitText, controls._win32_Edit_LimitText, windowsx/Edit_LimitText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Limits the length of text that can be entered into an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761607(v=VS.85).aspx">EM_LIMITTEXT</a> message explicitly.
+Limits the length of text that can be entered into an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/5a605de7-8dc7-4c54-8f18-e0b08c720856">EM_LIMITTEXT</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ The maximum number of characters.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb761607(v=VS.85).aspx">EM_LIMITTEXT</a>.
+For more information, see <a href="https://msdn.microsoft.com/5a605de7-8dc7-4c54-8f18-e0b08c720856">EM_LIMITTEXT</a>.
 
 
 

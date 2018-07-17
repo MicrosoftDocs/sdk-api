@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput1_findclosestmatchingmode1.htm
 old-project: direct3ddxgi
 ms.assetid: D71ED536-0D90-4E0D-8683-6260E31EAF20
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: FindClosestMatchingMode1, FindClosestMatchingMode1 method [DXGI], FindClosestMatchingMode1 method [DXGI],IDXGIOutput1 interface, IDXGIOutput1 interface [DXGI],FindClosestMatchingMode1 method, IDXGIOutput1.FindClosestMatchingMode1, IDXGIOutput1::FindClosestMatchingMode1, direct3ddxgi.idxgioutput1_findclosestmatchingmode1, dxgi1_2/IDXGIOutput1::FindClosestMatchingMode1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,7 +106,7 @@ A pointer to the Direct3D device interface. If this parameter is <b>NULL</b>, <b
 
 
 
-Returns one of the error codes described in the <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.
+Returns one of the error codes described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.
 
 
 

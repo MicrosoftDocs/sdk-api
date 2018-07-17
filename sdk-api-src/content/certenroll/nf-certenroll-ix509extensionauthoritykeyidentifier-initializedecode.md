@@ -7,7 +7,7 @@ old-location: security\ix509extensionauthoritykeyidentifier_initializedecode_met
 old-project: seccertenroll
 ms.assetid: ce37bcba-05b1-4d42-8853-14fecbcb436b
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509ExtensionAuthorityKeyIdentifier interface [Security],InitializeDecode method, IX509ExtensionAuthorityKeyIdentifier.InitializeDecode, IX509ExtensionAuthorityKeyIdentifier::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionAuthorityKeyIdentifier interface, certenroll/IX509ExtensionAuthorityKeyIdentifier::InitializeDecode, security.ix509extensionauthoritykeyidentifier_initializedecode_method
 ms.prod: windows
 ms.technology: windows-sdk

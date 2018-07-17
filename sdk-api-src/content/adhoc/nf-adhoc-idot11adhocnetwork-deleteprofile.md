@@ -4,10 +4,10 @@ title: IDot11AdHocNetwork::DeleteProfile
 author: windows-sdk-content
 description: Deletes any profile associated with the network.
 old-location: nwifi\idot11adhocnetwork_deleteprofile.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: 7f2c007c-4d24-44d7-be30-0fa7c5fbce4a
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: DeleteProfile, DeleteProfile method [NativeWIFI], DeleteProfile method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],DeleteProfile method, IDot11AdHocNetwork.DeleteProfile, IDot11AdHocNetwork::DeleteProfile, adhoc/IDot11AdHocNetwork::DeleteProfile, nwifi.idot11adhocnetwork_deleteprofile
 ms.prod: windows
 ms.technology: windows-sdk

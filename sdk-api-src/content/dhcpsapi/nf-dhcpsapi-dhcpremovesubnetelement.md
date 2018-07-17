@@ -4,10 +4,10 @@ title: DhcpRemoveSubnetElement function
 author: windows-sdk-content
 description: Removes an IPv4 subnet element from an IPv4 subnet defined on the DHCPv4 server.
 old-location: dhcp\dhcpremovesubnetelement.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: b27de25f-c96d-4881-9788-495ffe220d61
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DhcpRemoveSubnetElement, DhcpRemoveSubnetElement function [DHCP], dhcp.dhcpremovesubnetelement, dhcpsapi/DhcpRemoveSubnetElement
 ms.prod: windows
 ms.technology: windows-sdk

@@ -123,11 +123,11 @@ This API does not participate in DPI virtualization. The output returned is not 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://msdn.microsoft.com/d24e21f2-224d-4f32-aa0b-70844e3628ad">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="https://msdn.microsoft.com/302f9238-4b03-4688-8b9b-a598beffb575">LoadCursor</a>
 
 
 
@@ -135,11 +135,11 @@ This API does not participate in DPI virtualization. The output returned is not 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648393(v=VS.85).aspx">SetCursor</a>
+<a href="https://msdn.microsoft.com/69bb9f90-5366-4141-97b6-57e41b774614">SetCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648395(v=VS.85).aspx">SetSystemCursor</a>
+<a href="https://msdn.microsoft.com/59b14556-34b9-4de3-843b-83d72daca128">SetSystemCursor</a>
  
 
  

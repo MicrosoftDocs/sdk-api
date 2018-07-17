@@ -4,10 +4,10 @@ title: ImageList_GetImageInfo function
 author: windows-sdk-content
 description: Retrieves information about an image.
 old-location: controls\ImageList_GetImageInfo.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_getimageinfo.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ImageList_GetImageInfo, ImageList_GetImageInfo function [Windows Controls], _win32_ImageList_GetImageInfo, _win32_ImageList_GetImageInfo_cpp, commctrl/ImageList_GetImageInfo, controls.ImageList_GetImageInfo, controls._win32_ImageList_GetImageInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,9 +74,9 @@ The index of the image.
 
 ### -param pImageInfo
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb761393(v=VS.85).aspx">IMAGEINFO</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/1f02cff9-1381-4396-a5fa-64960e5d9a99">IMAGEINFO</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Bb761393(v=VS.85).aspx">IMAGEINFO</a> structure that receives information about the image. The information in this structure can be used to directly manipulate the bitmaps for the image. 
+A pointer to an <a href="https://msdn.microsoft.com/1f02cff9-1381-4396-a5fa-64960e5d9a99">IMAGEINFO</a> structure that receives information about the image. The information in this structure can be used to directly manipulate the bitmaps for the image. 
 
 
 ## -returns
@@ -94,7 +94,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 
-An application should not call <a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a> to destroy the bitmaps retrieved by <b>ImageList_GetImageInfo</b>. The system destroys the bitmaps when the application calls the <a href="https://msdn.microsoft.com/library/Bb761524(v=VS.85).aspx">ImageList_Destroy</a> function. 
+An application should not call <a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a> to destroy the bitmaps retrieved by <b>ImageList_GetImageInfo</b>. The system destroys the bitmaps when the application calls the <a href="https://msdn.microsoft.com/6720c9e7-b35f-4acd-8fa7-9aa9f0991879">ImageList_Destroy</a> function. 
 
 
 

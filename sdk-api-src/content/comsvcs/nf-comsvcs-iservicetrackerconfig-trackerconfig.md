@@ -7,7 +7,7 @@ old-location: cos\iservicetrackerconfig_trackerconfig.htm
 old-project: cossdk
 ms.assetid: cdeb982b-720a-4d69-9c3c-d7a5a4527991
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: IServiceTrackerConfig interface [COM+],TrackerConfig method, IServiceTrackerConfig.TrackerConfig, IServiceTrackerConfig::TrackerConfig, TrackerConfig, TrackerConfig method [COM+], TrackerConfig method [COM+],IServiceTrackerConfig interface, _cos_IServiceTrackerConfig_TrackerConfig, comsvcs/IServiceTrackerConfig::TrackerConfig, cos.iservicetrackerconfig_trackerconfig
 ms.prod: windows
 ms.technology: windows-sdk

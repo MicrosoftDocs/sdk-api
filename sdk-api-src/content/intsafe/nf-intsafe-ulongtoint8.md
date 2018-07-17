@@ -7,7 +7,7 @@ old-location: shell\ULongToInt8.htm
 old-project: shell
 ms.assetid: b6c87822-ad6a-4549-925c-f73ef183b27f
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: ULongToInt8, ULongToInt8 function [Windows Shell], intsafe/ULongToInt8, shell.ULongToInt8
 ms.prod: windows
 ms.technology: windows-sdk

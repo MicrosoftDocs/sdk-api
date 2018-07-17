@@ -4,10 +4,10 @@ title: Header_SetHotDivider macro
 author: windows-sdk-content
 description: Changes the color of a divider between header items to indicate the destination of an external drag-and-drop operation. You can use this macro or send the HDM_SETHOTDIVIDER message explicitly.
 old-location: controls\Header_SetHotDivider.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_sethotdivider.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: FALSE, Header_SetHotDivider, Header_SetHotDivider macro [Windows Controls], TRUE, _win32_Header_SetHotDivider, _win32_Header_SetHotDivider_cpp, commctrl/Header_SetHotDivider, controls.Header_SetHotDivider, controls._win32_Header_SetHotDivider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Changes the color of a divider between header items to indicate the destination of an external drag-and-drop operation. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775363(v=VS.85).aspx">HDM_SETHOTDIVIDER</a> message explicitly. 
+Changes the color of a divider between header items to indicate the destination of an external drag-and-drop operation. You can use this macro or send the <a href="https://msdn.microsoft.com/56f6e5c6-1df3-4b4d-9ad8-97fb168c5462">HDM_SETHOTDIVIDER</a> message explicitly. 
 
 
 ## -parameters
@@ -143,7 +143,7 @@ A handle to a header control.
 
 
 
-A header control set to the <a href="https://msdn.microsoft.com/library/Bb775241(v=VS.85).aspx">HDS_DRAGDROP</a> style produces this effect automatically. This message is intended to be used when the owner of the control handles drag-and-drop operations manually. 
+A header control set to the <a href="Header_Control_Styles.htm">HDS_DRAGDROP</a> style produces this effect automatically. This message is intended to be used when the owner of the control handles drag-and-drop operations manually. 
 
 
 

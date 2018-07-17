@@ -7,8 +7,8 @@ old-location: mscs\resutilsetresourceservicestartparametersex.htm
 old-project: mscs
 ms.assetid: 12F1AD70-4B6C-4920-855C-C55C8F423C69
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX, PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX callback, PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX callback function [Failover Cluster], mscs.resutilsetresourceservicestartparametersex, resapi/PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX
+ms.date: 07/12/2018
+ms.keywords: PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX, PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX function [Failover Cluster], ResUtilSetResourceServiceStartParameters, ResUtilSetResourceServiceStartParameters function [Failover Cluster], ResUtilSetResourceServiceStartParametersEx, mscs.resutilsetresourceservicestartparametersex, resapi/PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX, resapi/ResUtilSetResourceServiceStartParameters
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -32,15 +32,15 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - UserDefined
+ - DllExport
 api_location:
- - ResApi.h
+ - ResUtils.dll
 api_name:
- - PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX
+ - ResUtilSetResourceServiceStartParameters
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
 req.irql: 
 req.product: ADAM
 ---
@@ -105,9 +105,9 @@ the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f
 
 
 
-<i>ResUtilSetResourceServiceStartParametersEx</i> verifies that the service is not disabled, changes the service configuration to manual start, and prevents the service from restarting in response to failure. This  enables  the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> and the resource DLL to control the service.
+<b>ResUtilSetResourceServiceStartParametersEx</b> verifies that the service is not disabled, changes the service configuration to manual start, and prevents the service from restarting in response to failure. This  enables  the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> and the resource DLL to control the service.
 
-If your resource DLL manages a service, use  <i>ResUtilSetResourceServiceStartParametersEx</i> and  <a href="https://msdn.microsoft.com/607695f5-c542-40b8-922f-b76de6859ca7">ResUtilSetResourceServiceEnvironment</a> before you  bring the service online.
+If your resource DLL manages a service, use  <b>ResUtilSetResourceServiceStartParametersEx</b> and  <a href="https://msdn.microsoft.com/607695f5-c542-40b8-922f-b76de6859ca7">ResUtilSetResourceServiceEnvironment</a> before you  bring the service online.
 
 
 

@@ -4,10 +4,10 @@ title: ClearCommError function
 author: windows-sdk-content
 description: Retrieves information about a communications error and reports the current status of a communications device.
 old-location: base\clearcommerror.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 9cc52104-aa5e-4baa-86f1-8c6dcdd661ef
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: CE_BREAK, CE_FRAME, CE_OVERRUN, CE_RXOVER, CE_RXPARITY, ClearCommError, ClearCommError function, _win32_clearcommerror, base.clearcommerror, winbase/ClearCommError
 ms.prod: windows
 ms.technology: windows-sdk

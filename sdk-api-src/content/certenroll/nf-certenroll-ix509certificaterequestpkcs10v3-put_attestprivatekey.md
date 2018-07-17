@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs10v3_attestprivatekey.htm
 old-project: seccertenroll
 ms.assetid: 9b3234a2-ec65-4624-8d35-a6f50cb10150
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: AttestPrivateKey property [Security], AttestPrivateKey property [Security],IX509CertificateRequestPkcs10V3 interface, IX509CertificateRequestPkcs10V3 interface [Security],AttestPrivateKey property, IX509CertificateRequestPkcs10V3.AttestPrivateKey, IX509CertificateRequestPkcs10V3.put_AttestPrivateKey, IX509CertificateRequestPkcs10V3::AttestPrivateKey, IX509CertificateRequestPkcs10V3::get_AttestPrivateKey, IX509CertificateRequestPkcs10V3::put_AttestPrivateKey, certenroll/IX509CertificateRequestPkcs10V3::AttestPrivateKey, certenroll/IX509CertificateRequestPkcs10V3::get_AttestPrivateKey, certenroll/IX509CertificateRequestPkcs10V3::put_AttestPrivateKey, put_AttestPrivateKey, security.ix509certificaterequestpkcs10v3_attestprivatekey
 ms.prod: windows
 ms.technology: windows-sdk

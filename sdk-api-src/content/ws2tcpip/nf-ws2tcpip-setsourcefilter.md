@@ -4,10 +4,10 @@ title: setsourcefilter function
 author: windows-sdk-content
 description: Sets the multicast filter state for an IPv4 or IPv6 socket.
 old-location: winsock\setsourcefilter.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 320455F3-FDFB-46C6-9F26-3C60064A2CB0
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: setsourcefilter, setsourcefilter function [Winsock], winsock.setsourcefilter, ws2tcpip/setsourcefilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,7 +110,7 @@ On success,  <b>setsourcefilter</b> returns NO_ERROR (0). Any nonzero return val
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -121,7 +121,7 @@ Insufficient buffer space is available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -7,7 +7,7 @@ old-location: shell\ISearchFolderItemFactory_SetFolderTypeID.htm
 old-project: shell
 ms.assetid: a9b09dc6-751e-4d5f-b016-0b26c15c68f6
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetFolderTypeID method, ISearchFolderItemFactory.SetFolderTypeID, ISearchFolderItemFactory::SetFolderTypeID, SetFolderTypeID, SetFolderTypeID method [Windows Shell], SetFolderTypeID method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetFolderTypeID, shell.ISearchFolderItemFactory_SetFolderTypeID, shobjidl_core/ISearchFolderItemFactory::SetFolderTypeID
 ms.prod: windows
 ms.technology: windows-sdk

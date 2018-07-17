@@ -100,7 +100,7 @@ Creates a VT_VECTOR | VT_UI1 propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762289(v=VS.85).aspx">InitPropVariantFromBuffer</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromBuffer">InitPropVariantFromBuffer</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -133,11 +133,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762318(v=VS.85).aspx">InitVariantFromBuffer</a>
+<a href="shell.InitVariantFromBuffer">InitVariantFromBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776536(v=VS.85).aspx">PropVariantToBuffer</a>
+<a href="shell.PropVariantToBuffer">PropVariantToBuffer</a>
  
 
  

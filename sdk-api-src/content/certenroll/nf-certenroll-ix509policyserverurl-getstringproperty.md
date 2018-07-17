@@ -7,7 +7,7 @@ old-location: security\ix509policyserverurl_getstringproperty.htm
 old-project: seccertenroll
 ms.assetid: 1a163774-2e32-48f7-9aa1-cbfa0ec7a943
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: GetStringProperty, GetStringProperty method [Security], GetStringProperty method [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],GetStringProperty method, IX509PolicyServerUrl.GetStringProperty, IX509PolicyServerUrl::GetStringProperty, PsFriendlyName, PsPolicyID, certenroll/IX509PolicyServerUrl::GetStringProperty, security.ix509policyserverurl_getstringproperty
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_Clone_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\bitmapclonemethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Bitmap.Clone, Bitmap.Clone(IN INT,IN INT,IN INT,IN INT,IN PixelFormat), Bitmap::Clone, Bitmap::Clone(IN INT,IN INT,IN INT,IN INT,IN PixelFormat), Clone, Clone methods [GDI+], _gdiplus_CLASS_Bitmap_Clone_Methods, gdiplus._gdiplus_CLASS_Bitmap_Clone_Methods, gdiplusheaders/Clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: GDI+ 1.0
 <span>This topic lists the 
 			Clone methods of the 
 			<a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> class. For a complete list of methods for the 
-			<b>Bitmap</b> class, see <a href="https://msdn.microsoft.com/library/ms536286(v=VS.85).aspx">Bitmap Methods</a>.
+			<b>Bitmap</b> class, see <a href="https://msdn.microsoft.com/e8768602-7ea2-42c2-b2ae-9ef1d7bdd30e">Bitmap Methods</a>.
 
 </span><h3>Overload list</h3><table>
 <tr>
@@ -63,41 +63,41 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535367(v=VS.85).aspx">Image::Clone</a>
+<a href="https://msdn.microsoft.com/a22163d0-36fc-4bf3-be21-f39145138a87">Image::Clone</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535367(v=VS.85).aspx">Image::Clone</a> method creates a new 
-			<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a> object and initializes it with the contents of this 
+The <a href="https://msdn.microsoft.com/a22163d0-36fc-4bf3-be21-f39145138a87">Image::Clone</a> method creates a new 
+			<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object and initializes it with the contents of this 
 			<b>Image</b> object.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536302(v=VS.85).aspx">Clone(Rect&,PixelFormat)</a>
+<a href="https://msdn.microsoft.com/68c03673-ad3c-43b7-a21d-23192de7ad19">Clone(Rect&,PixelFormat)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536302(v=VS.85).aspx">Bitmap::Clone</a> method creates a new 
+The <a href="https://msdn.microsoft.com/68c03673-ad3c-43b7-a21d-23192de7ad19">Bitmap::Clone</a> method creates a new 
 			<a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> object by copying a portion of this bitmap.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536303(v=VS.85).aspx">Clone(RectF&,PixelFormat)</a>
+<a href="https://msdn.microsoft.com/18de7f4a-8ec4-414b-92b3-d5285de0e370">Clone(RectF&,PixelFormat)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536303(v=VS.85).aspx">Bitmap::Clone</a> method creates a new 
+The <a href="https://msdn.microsoft.com/18de7f4a-8ec4-414b-92b3-d5285de0e370">Bitmap::Clone</a> method creates a new 
 			<a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> object by copying a portion of this bitmap.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536305(v=VS.85).aspx">Clone(INT,INT,INT,INT,PixelFormat)</a>
+<a href="https://msdn.microsoft.com/fa4700a9-5970-42c3-91f7-438453292abf">Clone(INT,INT,INT,INT,PixelFormat)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536305(v=VS.85).aspx">Bitmap::Clone</a> method creates a new 
+The <a href="https://msdn.microsoft.com/fa4700a9-5970-42c3-91f7-438453292abf">Bitmap::Clone</a> method creates a new 
 			<a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a>
  object by copying a portion of this bitmap.
 
@@ -105,10 +105,10 @@ The <a href="https://msdn.microsoft.com/library/ms536305(v=VS.85).aspx">Bitmap::
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536304(v=VS.85).aspx">Clone(REAL,REAL,REAL,REAL,PixelFormat)</a>
+<a href="https://msdn.microsoft.com/df51a453-cb40-438e-b1be-08e4ad6dc21e">Clone(REAL,REAL,REAL,REAL,PixelFormat)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536304(v=VS.85).aspx">Bitmap::Clone</a> method creates a new 
+The <a href="https://msdn.microsoft.com/df51a453-cb40-438e-b1be-08e4ad6dc21e">Bitmap::Clone</a> method creates a new 
 			<a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a>
  object by copying a portion of this bitmap.
 

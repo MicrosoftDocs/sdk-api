@@ -7,7 +7,7 @@ old-location: shell\IWizardExtension_GetFirstPage.htm
 old-project: shell
 ms.assetid: 1276b63d-6d5e-4e60-b936-b307cd922b4b
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: GetFirstPage, GetFirstPage method [Windows Shell], GetFirstPage method [Windows Shell],IWizardExtension interface, IWizardExtension interface [Windows Shell],GetFirstPage method, IWizardExtension.GetFirstPage, IWizardExtension::GetFirstPage, _shell_IWizardExtension_GetFirstPage, shell.IWizardExtension_GetFirstPage, shobjidl/IWizardExtension::GetFirstPage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Gets a handle to the first page of the wizard extension.
 
 Type: <b>HPROPSHEETPAGE*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> handle representing the first page of any wizard extension pages.
+A pointer to a <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> handle representing the first page of any wizard extension pages.
 
 
 ## -returns

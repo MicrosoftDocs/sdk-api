@@ -7,7 +7,7 @@ old-location: shell\citemidfactory_getpropertystorage.htm
 old-project: shell
 ms.assetid: 3A3F0F28-C9E1-4F2E-9A02-C6A48BF3C204
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],GetPropertyStorage method, CItemIDFactory.GetPropertyStorage, CItemIDFactory::GetPropertyStorage, GetPropertyStorage, GetPropertyStorage method [Windows Shell], GetPropertyStorage method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getpropertystorage, shidfact/CItemIDFactory::GetPropertyStorage
 ms.prod: windows
 ms.technology: windows-sdk

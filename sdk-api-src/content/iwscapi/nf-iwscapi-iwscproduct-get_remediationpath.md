@@ -7,7 +7,7 @@ old-location: winprog\iwscproduct_remediationpath.htm
 old-project: DevNotes
 ms.assetid: 6922B572-4E00-4B0B-BE1F-64343DD776A0
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IWscProduct interface [Windows API],get_RemediationPath method, IWscProduct.get_RemediationPath, IWscProduct::get_RemediationPath, get_RemediationPath, get_RemediationPath method [Windows API], get_RemediationPath method [Windows API],IWscProduct interface, iwscapi/IWscProduct::get_RemediationPath, winprog.iwscproduct_remediationpath
 ms.prod: windows
 ms.technology: windows-sdk

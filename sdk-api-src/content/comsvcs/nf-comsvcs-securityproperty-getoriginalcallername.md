@@ -7,7 +7,7 @@ old-location: cos\securityproperty_getoriginalcallername.htm
 old-project: cossdk
 ms.assetid: ca57950c-3079-42bd-a832-9b7753c61a39
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: GetOriginalCallerName, GetOriginalCallerName method [COM+], GetOriginalCallerName method [COM+],SecurityProperty interface, SecurityProperty interface [COM+],GetOriginalCallerName method, SecurityProperty.GetOriginalCallerName, SecurityProperty::GetOriginalCallerName, _cos_SecurityProperty_GetOriginalCallerName, comsvcs/SecurityProperty::GetOriginalCallerName, cos.securityproperty_getoriginalcallername
 ms.prod: windows
 ms.technology: windows-sdk

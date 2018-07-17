@@ -4,10 +4,10 @@ title: IWTSSBPlugin::WTSSBX_SessionChangeNotification
 author: windows-sdk-content
 description: Notifies the plug-in that a change, such as a logon, logoff, disconnect, or reconnect, occurred in the session.
 old-location: termserv\iwtssbplugin_wtssbx_sessionchangenotification.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 00426aa2-1d22-462f-9ad1-2a63d151493d
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],WTSSBX_SessionChangeNotification method, IWTSSBPlugin.WTSSBX_SessionChangeNotification, IWTSSBPlugin::WTSSBX_SessionChangeNotification, WTSSBX_SessionChangeNotification, WTSSBX_SessionChangeNotification method [Remote Desktop Services], WTSSBX_SessionChangeNotification method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_wtssbx_sessionchangenotification, tssbx/IWTSSBPlugin::WTSSBX_SessionChangeNotification
 ms.prod: windows
 ms.technology: windows-sdk

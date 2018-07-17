@@ -7,7 +7,7 @@ old-location: mscs\clusrestype_object.htm
 old-project: mscs
 ms.assetid: e4ad6364-f318-47f9-a276-d99c91ffbbb5
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResType, ClusResType object [Failover Cluster], ClusResType object [Failover Cluster],described, ISClusResType, _wolf_clusrestype_object, msclus/ClusResType, mscs.clusrestype_object
 ms.prod: windows
 ms.technology: windows-sdk
@@ -154,7 +154,7 @@ Returns a <a href="https://msdn.microsoft.com/b117b0eb-e188-4514-8e11-9acca1303e
 <td align="left" width="63%">
 Returns a 
      <a href="https://msdn.microsoft.com/be22d5b1-8c61-40a5-883c-f49651ba623d">ClusResTypePossibleOwnerNodes</a> 
-     collection containing the <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">possible owner</a> <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> of the resource type.
+     collection containing the <a href="p_gly.htm">possible owner</a> <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> of the resource type.
 
 </td>
 </tr>

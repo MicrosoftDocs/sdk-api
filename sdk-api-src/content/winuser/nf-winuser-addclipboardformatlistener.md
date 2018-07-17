@@ -82,7 +82,7 @@ Returns <b>TRUE</b> if successful, <b>FALSE</b> otherwise. Call <a href="https:/
 
 
 
-When a window has been added to the clipboard format listener list, it is posted a <a href="https://msdn.microsoft.com/library/ms649021(v=VS.85).aspx">WM_CLIPBOARDUPDATE</a> message whenever the contents of the clipboard have changed.
+When a window has been added to the clipboard format listener list, it is posted a <a href="https://msdn.microsoft.com/1508aa22-9cf0-40a2-8cb0-ce7c8671df2c">WM_CLIPBOARDUPDATE</a> message whenever the contents of the clipboard have changed.
 
 
 
@@ -92,15 +92,15 @@ When a window has been added to the clipboard format listener list, it is posted
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649042(v=VS.85).aspx">GetClipboardSequenceNumber</a>
+<a href="https://msdn.microsoft.com/5790fb14-473a-49fc-943b-9cc5f1170181">GetClipboardSequenceNumber</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649050(v=VS.85).aspx">RemoveClipboardFormatListener</a>
+<a href="https://msdn.microsoft.com/64b18bad-ebac-4e51-9806-aa288abfc112">RemoveClipboardFormatListener</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649021(v=VS.85).aspx">WM_CLIPBOARDUPDATE</a>
+<a href="https://msdn.microsoft.com/1508aa22-9cf0-40a2-8cb0-ce7c8671df2c">WM_CLIPBOARDUPDATE</a>
  
 
  

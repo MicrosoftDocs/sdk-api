@@ -4,10 +4,10 @@ title: SetDisplayAutoRotationPreferences function
 author: windows-sdk-content
 description: Sets the screen auto-rotation preferences for the current process.
 old-location: base\setdisplayautorotationpreferences.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 99A92E92-7FED-468C-9A00-D8D4B212CBFF
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: SetDisplayAutoRotationPreferences, SetDisplayAutoRotationPreferences function, base.setdisplayautorotationpreferences, winuser/SetDisplayAutoRotationPreferences
 ms.prod: windows
 ms.technology: windows-sdk

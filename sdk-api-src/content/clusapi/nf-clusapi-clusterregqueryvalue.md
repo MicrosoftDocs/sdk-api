@@ -7,7 +7,7 @@ old-location: mscs\clusterregqueryvalue.htm
 old-project: mscs
 ms.assetid: 78ea27da-2b95-46df-b01e-4a3717276859
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusterRegQueryValue, ClusterRegQueryValue function [Failover Cluster], REG_BINARY, REG_DWORD, REG_DWORD_BIG_ENDIAN, REG_EXPAND_SZ, REG_MULTI_SZ, REG_NONE, REG_QWORD, REG_SZ, _wolf_clusterregqueryvalue, clusapi/ClusterRegQueryValue, mscs.clusterregqueryvalue
 ms.prod: windows
 ms.technology: windows-sdk

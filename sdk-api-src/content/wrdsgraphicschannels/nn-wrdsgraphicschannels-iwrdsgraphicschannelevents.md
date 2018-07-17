@@ -4,10 +4,10 @@ title: IWRdsGraphicsChannelEvents
 author: windows-sdk-content
 description: This interface receives notifications that relate to a graphics virtual channel.
 old-location: termserv\iwrdsgraphicschannelevents.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 59802a2d-bdb0-4792-b667-5095d4a02b06
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IWRdsGraphicsChannelEvents, IWRdsGraphicsChannelEvents interface [Remote Desktop Services], IWRdsGraphicsChannelEvents interface [Remote Desktop Services],described, termserv.iwrdsgraphicschannelevents, wrdsgraphicschannels/IWRdsGraphicsChannelEvents
 ms.prod: windows
 ms.technology: windows-sdk

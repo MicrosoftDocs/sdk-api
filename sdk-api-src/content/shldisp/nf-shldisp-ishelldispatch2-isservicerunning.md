@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_IsServiceRunning.htm
 old-project: shell
 ms.assetid: 91f3fba1-7aa5-423a-bc37-49db230c79db
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IShellDispatch2 object [Windows Shell],IsServiceRunning method, IShellDispatch2.IsServiceRunning, IShellDispatch2::IsServiceRunning, IsServiceRunning, IsServiceRunning method [Windows Shell], IsServiceRunning method [Windows Shell],IShellDispatch2 object, _win32_IShellDispatch2_IsServiceRunning, shell.IShellDispatch2_IsServiceRunning
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ Returns a value that indicates whether a particular service is running.
 
 #### - sServiceName [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 A <b>String</b> that contains the name of the service.
 

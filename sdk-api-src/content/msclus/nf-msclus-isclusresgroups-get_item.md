@@ -7,7 +7,7 @@ old-location: mscs\clusresgroups_item.htm
 old-project: mscs
 ms.assetid: e4391fe1-23d4-4f33-897a-6982422e9fb6
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResGroups collection [Failover Cluster],Item property, ClusResGroups.Item, ISClusResGroups.get_Item, ISClusResGroups::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ClusResGroups collection, _wolf_clusresgroups.item, get_Item, mscs.clusresgroups_item
 ms.prod: windows
 ms.technology: windows-sdk

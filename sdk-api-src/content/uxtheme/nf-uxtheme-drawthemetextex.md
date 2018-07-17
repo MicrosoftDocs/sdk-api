@@ -4,10 +4,10 @@ title: DrawThemeTextEx function
 author: windows-sdk-content
 description: Draws text using the color and font defined by the visual style. Extends DrawThemeText by allowing additional text format options.
 old-location: controls\DrawThemeTextEx.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemetextex.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: DrawThemeTextEx, DrawThemeTextEx function [Windows Controls], controls.DrawThemeTextEx, controls.inet_DrawThemeTextEx, inet_DrawThemeTextEx, inet_DrawThemeTextEx_cpp, uxtheme/DrawThemeTextEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows UI
 ## -description
 
 
-Draws text using the color and font defined by the visual style. Extends <a href="https://msdn.microsoft.com/library/Bb773312(v=VS.85).aspx">DrawThemeText</a> by allowing additional text format options.
+Draws text using the color and font defined by the visual style. Extends <a href="https://msdn.microsoft.com/9f58909c-7ceb-4e30-8be7-f2de91cc38a8">DrawThemeText</a> by allowing additional text format options.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Draws text using the color and font defined by the visual style. Extends <a href
 
 Type: <b>HTHEME</b>
 
-Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/library/Bb759821(v=VS.85).aspx">OpenThemeData</a> to create an HTHEME.
+Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/3c496a3f-e4d0-4938-af66-85df93829cd8">OpenThemeData</a> to create an HTHEME.
 
 
 ### -param hdc [in]
@@ -79,14 +79,14 @@ HDC to use for drawing.
 
 Type: <b>int</b>
 
-The control part that has the desired text appearance. See <a href="https://msdn.microsoft.com/library/Bb773210(v=VS.85).aspx">Parts and States</a>. If this value is 0, the text is drawn in the default font, or a font selected into the device context.
+The control part that has the desired text appearance. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>. If this value is 0, the text is drawn in the default font, or a font selected into the device context.
 
 
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
-The control state that has the desired text appearance. See <a href="https://msdn.microsoft.com/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+The control state that has the desired text appearance. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
 
 
 ### -param pszText [in]
@@ -115,16 +115,16 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5692
 
 ### -param pOptions [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb773236(v=VS.85).aspx">DTTOPTS</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/4e20afab-a607-4107-a71c-a29589a8fc1f">DTTOPTS</a>*</b>
 
-A <a href="https://msdn.microsoft.com/library/Bb773236(v=VS.85).aspx">DTTOPTS</a> structure that defines additional formatting options that will be applied to the text being drawn.
+A <a href="https://msdn.microsoft.com/4e20afab-a607-4107-a71c-a29589a8fc1f">DTTOPTS</a> structure that defines additional formatting options that will be applied to the text being drawn.
 
 
 #### - dwFlags [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-<b>DWORD</b> that contains one or more values that specify the string's formatting. See <a href="https://msdn.microsoft.com/library/Bb773199(v=VS.85).aspx">Format Values</a> for possible parameter values.
+<b>DWORD</b> that contains one or more values that specify the string's formatting. See <a href="https://msdn.microsoft.com/765b90df-4753-43e6-bcf7-6512f6f378bd">Format Values</a> for possible parameter values.
 
 
 #### - iCharCount [in]
@@ -149,7 +149,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-The function always uses the themed font for the specified part and state if one is defined. Otherwise it uses the font currently selected into the device context. To find out if a themed font is defined, you can call <a href="https://msdn.microsoft.com/library/Bb759745(v=VS.85).aspx">GetThemeFont</a> or <a href="https://msdn.microsoft.com/library/Bb759764(v=VS.85).aspx">GetThemePropertyOrigin</a> with TMT_FONT as the property identifier.
+The function always uses the themed font for the specified part and state if one is defined. Otherwise it uses the font currently selected into the device context. To find out if a themed font is defined, you can call <a href="https://msdn.microsoft.com/8ecfd467-1dcf-46bc-9b49-61c11714b45d">GetThemeFont</a> or <a href="https://msdn.microsoft.com/6b7f298c-1b3d-463d-a5ec-fbe72672ef49">GetThemePropertyOrigin</a> with TMT_FONT as the property identifier.
 
 
 

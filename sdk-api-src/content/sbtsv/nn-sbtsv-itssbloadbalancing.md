@@ -4,10 +4,10 @@ title: ITsSbLoadBalancing
 author: windows-sdk-content
 description: Exposes methods you can use to provide a custom load-balancing algorithm.
 old-location: termserv\itssbloadbalancing.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 2dc9dd37-0dc1-4b73-bcac-9fb3d1158b54
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ITsSbLoadBalancing, ITsSbLoadBalancing interface [Remote Desktop Services], ITsSbLoadBalancing interface [Remote Desktop Services],described, sbtsv/ITsSbLoadBalancing, termserv.itssbloadbalancing
 ms.prod: windows
 ms.technology: windows-sdk

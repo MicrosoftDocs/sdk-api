@@ -4,10 +4,10 @@ title: IOCSPAdmin
 author: windows-sdk-content
 description: Provides functionality to manage an Online Certificate Status Protocol (OCSP) responder server.
 old-location: security\iocspadmin.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: cf76e934-07a2-46de-b2cf-7f6d3e274d71
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IOCSPAdmin, IOCSPAdmin interface [Security], IOCSPAdmin interface [Security],described, OCSPAdmin object, certadm/IOCSPAdmin, security.iocspadmin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ In Visual Basic Scripting Edition, you create an instance of the <b>OCSPAdmin</b
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOCSPAdmin</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IOCSPAdmin</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOCSPAdmin</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IOCSPAdmin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -240,7 +240,7 @@ The following table disambiguates the various properties used in the Microsoft O
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

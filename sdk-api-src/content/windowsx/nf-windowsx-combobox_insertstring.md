@@ -4,10 +4,10 @@ title: ComboBox_InsertString macro
 author: windows-sdk-content
 description: Adds a string to a list in a combo box at the specified location. You can use this macro or send the CB_INSERTSTRING message explicitly.
 old-location: controls\ComboBox_InsertString.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_insertstring.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ComboBox_InsertString, ComboBox_InsertString macro [Windows Controls], _win32_ComboBox_InsertString, _win32_ComboBox_InsertString_cpp, controls.ComboBox_InsertString, controls._win32_ComboBox_InsertString, windowsx/ComboBox_InsertString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Adds a string to a list in a combo box at the specified location. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775875(v=VS.85).aspx">CB_INSERTSTRING</a> message explicitly.
+Adds a string to a list in a combo box at the specified location. You can use this macro or send the <a href="https://msdn.microsoft.com/b9067b4e-afca-4c78-9ca2-c717b99c7459">CB_INSERTSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ The string to add.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb775875(v=VS.85).aspx">CB_INSERTSTRING</a>.
+For more information, see <a href="https://msdn.microsoft.com/b9067b4e-afca-4c78-9ca2-c717b99c7459">CB_INSERTSTRING</a>.
 	
 
 

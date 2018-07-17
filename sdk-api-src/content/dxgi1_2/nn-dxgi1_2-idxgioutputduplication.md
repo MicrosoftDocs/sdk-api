@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutputduplication.htm
 old-project: direct3ddxgi
 ms.assetid: 02C4EC3D-D97F-4CFC-ABF5-03B44CE6A658
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: IDXGIOutputDuplication, IDXGIOutputDuplication interface [DXGI], IDXGIOutputDuplication interface [DXGI],described, direct3ddxgi.idxgioutputduplication, dxgi1_2/IDXGIOutputDuplication
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: Windows Media Format 9 Series or later
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutputDuplication</b> interface inherits from <a href="https://msdn.microsoft.com/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>. <b>IDXGIOutputDuplication</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutputDuplication</b> interface inherits from <a href="https://msdn.microsoft.com/baf1dc5a-ae7e-4bc5-affa-11ed16091625">IDXGIObject</a>. <b>IDXGIOutputDuplication</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -163,7 +163,7 @@ Invalidates the pointer to the desktop image that was retrieved by using <a href
 <li>Acquire the next desktop image.</li>
 <li>Retrieve the information that describes the image.</li>
 <li>
-            Perform an operation on the image. This operation can be as simple as copying the image to a staging buffer so that the application can read the pixel data on the image. The application reads the pixel data  after the application calls <a href="https://msdn.microsoft.com/library/Bb174567(v=VS.85).aspx">IDXGISurface::Map</a>. Alternatively, this operation can be more complex. For example, the application can run some pixel shaders on the updated regions of the image to encode those regions for transmission to a client.
+            Perform an operation on the image. This operation can be as simple as copying the image to a staging buffer so that the application can read the pixel data on the image. The application reads the pixel data  after the application calls <a href="https://msdn.microsoft.com/027da15c-1670-41ec-a633-addd1c5ff150">IDXGISurface::Map</a>. Alternatively, this operation can be more complex. For example, the application can run some pixel shaders on the updated regions of the image to encode those regions for transmission to a client.
           </li>
 <li>After the application finishes  processing each desktop image, it releases the image, loops to step 1, and repeats the steps. The application repeats these steps until it is finished processing desktop images.</li>
 </ol>
@@ -196,11 +196,11 @@ The following components of the operating system can generate the desktop image:
         
 
 
-          While the application processes each desktop image, the operating system accumulates all the desktop image updates into a single update. For more information about desktop updates, see <a href="https://msdn.microsoft.com/library/Hh404487(v=VS.85).aspx">Updating the desktop image data</a>.
+          While the application processes each desktop image, the operating system accumulates all the desktop image updates into a single update. For more information about desktop updates, see <a href="desktop_dup_api.htm">Updating the desktop image data</a>.
         
 
 
-          The desktop image is always in the <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_B8G8R8A8_UNORM</a> format.
+          The desktop image is always in the <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_B8G8R8A8_UNORM</a> format.
         
 
 
@@ -219,7 +219,7 @@ The following components of the operating system can generate the desktop image:
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>
+<a href="https://msdn.microsoft.com/baf1dc5a-ae7e-4bc5-affa-11ed16091625">IDXGIObject</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: com\ioledocumentview_getdocument.htm
 old-project: com
 ms.assetid: 46174e4f-c943-4e70-af68-79363962cdee
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: GetDocument, GetDocument method [COM], GetDocument method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],GetDocument method, IOleDocumentView.GetDocument, IOleDocumentView::GetDocument, _ole_ioledocumentview_getdocument, com.ioledocumentview_getdocument, docobj/IOleDocumentView::GetDocument
 ms.prod: windows
 ms.technology: windows-sdk

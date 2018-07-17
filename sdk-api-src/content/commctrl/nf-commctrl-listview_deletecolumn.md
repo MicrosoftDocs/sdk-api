@@ -4,10 +4,10 @@ title: ListView_DeleteColumn macro
 author: windows-sdk-content
 description: Removes a column from a list-view control. You can use this macro or send the LVM_DELETECOLUMN message explicitly.
 old-location: controls\ListView_DeleteColumn.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_deletecolumn.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ListView_DeleteColumn, ListView_DeleteColumn macro [Windows Controls], _win32_ListView_DeleteColumn, _win32_ListView_DeleteColumn_cpp, commctrl/ListView_DeleteColumn, controls.ListView_DeleteColumn, controls._win32_ListView_DeleteColumn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Removes a column from a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774894(v=VS.85).aspx">LVM_DELETECOLUMN</a> message explicitly. 
+Removes a column from a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/1748a70b-9a13-4753-ac23-55b5652164c2">LVM_DELETECOLUMN</a> message explicitly. 
 
 
 ## -parameters
@@ -76,7 +76,7 @@ An index of the column to delete.
 
 
 
-Deleting column zero of a list-view control is supported only in ComCtl32.dll version 6 and later. Version 5 also supports deleting column zero, but only  after you use <a href="https://msdn.microsoft.com/library/Bb775581(v=VS.85).aspx">CCM_SETVERSION</a> to set the version to 5 or later. In versions prior to version 5, if you must delete column zero, insert a zero length dummy column zero and delete column one and above. 
+Deleting column zero of a list-view control is supported only in ComCtl32.dll version 6 and later. Version 5 also supports deleting column zero, but only  after you use <a href="https://msdn.microsoft.com/f87b20bc-0139-4d0a-b38c-32c75743d6f6">CCM_SETVERSION</a> to set the version to 5 or later. In versions prior to version 5, if you must delete column zero, insert a zero length dummy column zero and delete column one and above. 
 
 
 

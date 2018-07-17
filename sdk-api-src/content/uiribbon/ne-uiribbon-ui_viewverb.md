@@ -84,15 +84,15 @@ Unable to complete the action.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/8499a096-aac3-4af3-a4c9-eebf53698744">Constants and Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371654(v=VS.85).aspx">ContextPopup</a>
+<a href="https://msdn.microsoft.com/b955be16-803e-47b5-a72d-f993180fbf14">ContextPopup</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd316811(v=VS.85).aspx">Ribbon</a>
+<a href="https://msdn.microsoft.com/51083180-4e86-4c90-9fd1-a58c12bcc756">Ribbon</a>
  
 
  

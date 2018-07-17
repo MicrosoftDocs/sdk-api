@@ -4,10 +4,10 @@ title: "_TEB"
 author: windows-sdk-content
 description: The Thread Environment Block (TEB structure) describes the state of a thread.
 old-location: base\teb.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: fc77fc09-6319-4daa-ac96-1ded661ef800
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: "*PTEB, PTEB, PTEB structure pointer, TEB, TEB structure, _TEB, base.teb, winternl/PTEB, winternl/TEB"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ The Thread Environment Block (TEB structure) describes the state of a thread.
 
 The definition of this structure may change from one version of Windows to the next. Do not assume a maximum size for this structure. To see the members of this structure, refer to winternal.h.
 
-You should not directly access this structure. To access the values of the <b>TlsSlots</b> and <b>TlsExpansionSlots</b>  members, call <a href="https://msdn.microsoft.com/82bd5ff6-ff0b-42b7-9ece-e9e8531eb5fb">TlsGetValue</a>. To access the value of the <b>ReservedForOle</b> member, call <a href="https://msdn.microsoft.com/library/ms679665(v=VS.85).aspx">CoGetContextToken</a>.
+You should not directly access this structure. To access the values of the <b>TlsSlots</b> and <b>TlsExpansionSlots</b>  members, call <a href="https://msdn.microsoft.com/82bd5ff6-ff0b-42b7-9ece-e9e8531eb5fb">TlsGetValue</a>. To access the value of the <b>ReservedForOle</b> member, call <a href="_com_cogetcontexttoken">CoGetContextToken</a>.
 
 In the following versions of Windows, the offset of the 32-bit TEB address within the 64-bit TEB is 0. This can be used to directly access the 32-bit TEB of a WOW64 thread. This might change in later versions of Windows.
 

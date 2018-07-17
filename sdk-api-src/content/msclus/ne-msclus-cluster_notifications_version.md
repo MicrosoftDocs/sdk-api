@@ -7,7 +7,7 @@ old-location: mscs\cluster_notifications_version.htm
 old-project: mscs
 ms.assetid: 0328B52E-F9C7-4DA4-85C6-109E3AD3E1A7
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: CLUSTER_NOTIFICATIONS_V1, CLUSTER_NOTIFICATIONS_V2, CLUSTER_NOTIFICATIONS_VERSION, CLUSTER_NOTIFICATIONS_VERSION enumeration [Failover Cluster], clusapi/CLUSTER_NOTIFICATIONS_V1, clusapi/CLUSTER_NOTIFICATIONS_V2, clusapi/CLUSTER_NOTIFICATIONS_VERSION, msclus/CLUSTER_NOTIFICATIONS_V1, msclus/CLUSTER_NOTIFICATIONS_V2, msclus/CLUSTER_NOTIFICATIONS_VERSION, mscs.cluster_notifications_version
 ms.prod: windows
 ms.technology: windows-sdk

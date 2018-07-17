@@ -4,10 +4,10 @@ title: "_CRYPT_TIMESTAMP_ACCURACY"
 author: windows-sdk-content
 description: Is used by the CRYPT_TIMESTAMP_INFO structure to represent the accuracy of the time deviation around the UTC time at which the time stamp token was created by the Time Stamp Authority (TSA).
 old-location: security\crypt_timestamp_accuracy.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 9115db8a-7cc1-4360-b89b-6c33ddb67fe9
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: "*PCRYPT_TIMESTAMP_ACCURACY, CRYPT_TIMESTAMP_ACCURACY, CRYPT_TIMESTAMP_ACCURACY structure [Security], PCRYPT_TIMESTAMP_ACCURACY, PCRYPT_TIMESTAMP_ACCURACY structure pointer [Security], _CRYPT_TIMESTAMP_ACCURACY, security.crypt_timestamp_accuracy, wincrypt/CRYPT_TIMESTAMP_ACCURACY, wincrypt/PCRYPT_TIMESTAMP_ACCURACY"
 ms.prod: windows
 ms.technology: windows-sdk

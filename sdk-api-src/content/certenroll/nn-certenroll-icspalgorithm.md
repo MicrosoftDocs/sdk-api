@@ -7,7 +7,7 @@ old-location: security\icspalgorithm.htm
 old-project: seccertenroll
 ms.assetid: 08eba616-2e96-40cd-9fda-8549de98c138
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICspAlgorithm, ICspAlgorithm interface [Security], ICspAlgorithm interface [Security],described, certenroll/ICspAlgorithm, security.icspalgorithm
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ A collection of <b>ICspAlgorithm</b> objects can be retrieved from an <a href="h
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICspAlgorithm</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICspAlgorithm</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICspAlgorithm</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICspAlgorithm</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -269,7 +269,7 @@ Retrieves a Boolean value that specifies whether the algorithm object is valid.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

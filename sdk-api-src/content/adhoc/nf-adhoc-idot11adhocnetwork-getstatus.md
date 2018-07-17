@@ -4,10 +4,10 @@ title: IDot11AdHocNetwork::GetStatus
 author: windows-sdk-content
 description: Gets the connection status of the network.
 old-location: nwifi\idot11adhocnetwork_getstatus.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: fd627a36-92b7-478b-8fd5-c328b8e54924
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: GetStatus, GetStatus method [NativeWIFI], GetStatus method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetStatus method, IDot11AdHocNetwork.GetStatus, IDot11AdHocNetwork::GetStatus, adhoc/IDot11AdHocNetwork::GetStatus, nwifi.idot11adhocnetwork_getstatus
 ms.prod: windows
 ms.technology: windows-sdk

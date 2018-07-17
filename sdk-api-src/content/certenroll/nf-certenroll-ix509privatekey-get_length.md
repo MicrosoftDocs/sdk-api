@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_length_property.htm
 old-project: seccertenroll
 ms.assetid: de25aa05-bd65-49a6-9cd1-e18522c9e190
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509PrivateKey interface [Security],Length property, IX509PrivateKey.Length, IX509PrivateKey.get_Length, IX509PrivateKey::Length, IX509PrivateKey::get_Length, IX509PrivateKey::put_Length, Length property [Security], Length property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Length, certenroll/IX509PrivateKey::get_Length, certenroll/IX509PrivateKey::put_Length, get_Length, security.ix509privatekey_length_property
 ms.prod: windows
 ms.technology: windows-sdk

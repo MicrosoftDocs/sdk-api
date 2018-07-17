@@ -7,7 +7,7 @@ old-location: devinst\setupdienumdeviceinfo.htm
 old-project: devinst
 ms.assetid: 34df0557-eb86-4b00-bbd7-a4f0c1b82ff4
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: SetupDiEnumDeviceInfo, SetupDiEnumDeviceInfo function [Device and Driver Installation], devinst.setupdienumdeviceinfo, di-rtns_db6730f9-381a-4da6-91b1-046fec51f270.xml, setupapi/SetupDiEnumDeviceInfo
 ms.prod: windows
 ms.technology: windows-sdk

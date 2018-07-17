@@ -7,7 +7,7 @@ old-location: devinst\setupdicreatedeviceinterface.htm
 old-project: devinst
 ms.assetid: e5f78c34-b61c-4fcb-b021-fb8d07c2d841
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: SetupDiCreateDeviceInterface, SetupDiCreateDeviceInterface function [Device and Driver Installation], SetupDiCreateDeviceInterfaceA, SetupDiCreateDeviceInterfaceW, devinst.setupdicreatedeviceinterface, di-rtns_252e73f4-f140-44bf-bd81-abb08a036df7.xml, setupapi/SetupDiCreateDeviceInterface
 ms.prod: windows
 ms.technology: windows-sdk

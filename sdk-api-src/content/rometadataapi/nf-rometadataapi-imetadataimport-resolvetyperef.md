@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_resolvetyperef.htm
 old-project: WinRT
 ms.assetid: d19d47c7-bf06-4daa-bda6-8aca6939a543
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/13/2018
 ms.keywords: IMetaDataImport interface [Windows Runtime],ResolveTypeRef method, IMetaDataImport.ResolveTypeRef, IMetaDataImport::ResolveTypeRef, ResolveTypeRef, ResolveTypeRef method [Windows Runtime], ResolveTypeRef method [Windows Runtime],IMetaDataImport interface, rometadataapi/IMetaDataImport::ResolveTypeRef, winrt.imetadataimport_resolvetyperef
 ms.prod: windows
 ms.technology: windows-sdk

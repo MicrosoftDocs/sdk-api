@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs7_initializefromcertificate_me
 old-project: seccertenroll
 ms.assetid: 7500b714-4608-4da6-85ad-20cea30853cc
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],InitializeFromCertificate method, IX509CertificateRequestPkcs7.InitializeFromCertificate, IX509CertificateRequestPkcs7::InitializeFromCertificate, InheritDefault, InheritExtensionsFlag, InheritNewDefaultKey, InheritNewSimilarKey, InheritPrivateKey, InheritPublicKey, InheritRenewalCertificateFlag, InheritSubjectAltNameFlag, InheritSubjectFlag, InheritTemplateFlag, InheritValidityPeriodFlag, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::InitializeFromCertificate, security.ix509certificaterequestpkcs7_initializefromcertificate_method
 ms.prod: windows
 ms.technology: windows-sdk

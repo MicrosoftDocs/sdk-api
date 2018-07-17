@@ -4,10 +4,10 @@ title: IFsrmClassificationManager::put_Logging
 author: windows-sdk-content
 description: The types of logging to perform when running the classification rules.
 old-location: fsrm\ifsrmclassificationmanager_logging.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: c22f646b-36dc-45b8-a9ad-81ce6adab5bf
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],Logging property, IFsrmClassificationManager interface [File Server Resource Manager],Logging property, IFsrmClassificationManager.Logging, IFsrmClassificationManager.put_Logging, IFsrmClassificationManager2 interface [File Server Resource Manager],Logging property, IFsrmClassificationManager2.Logging, IFsrmClassificationManager2::get_Logging, IFsrmClassificationManager2::put_Logging, IFsrmClassificationManager::Logging, IFsrmClassificationManager::get_Logging, IFsrmClassificationManager::put_Logging, Logging property [File Server Resource Manager], Logging property [File Server Resource Manager],FsrmClassificationManager class, Logging property [File Server Resource Manager],IFsrmClassificationManager interface, Logging property [File Server Resource Manager],IFsrmClassificationManager2 interface, fs.ifsrmclassificationmanager_logging, fsrm.ifsrmclassificationmanager_logging, fsrmpipeline/IFsrmClassificationManager2::Logging, fsrmpipeline/IFsrmClassificationManager2::get_Logging, fsrmpipeline/IFsrmClassificationManager2::put_Logging, fsrmpipeline/IFsrmClassificationManager::Logging, fsrmpipeline/IFsrmClassificationManager::get_Logging, fsrmpipeline/IFsrmClassificationManager::put_Logging, put_Logging
 ms.prod: windows
 ms.technology: windows-sdk

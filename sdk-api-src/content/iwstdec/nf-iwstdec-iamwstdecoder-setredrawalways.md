@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder_setredrawalways.htm
 old-project: DirectShow
 ms.assetid: 4663a9c0-3d08-4f25-8742-458081536f98
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetRedrawAlways method, IAMWstDecoder.SetRedrawAlways, IAMWstDecoder::SetRedrawAlways, IAMWstDecoderSetRedrawAlways, SetRedrawAlways, SetRedrawAlways method [DirectShow], SetRedrawAlways method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setredrawalways, iwstdec/IAMWstDecoder::SetRedrawAlways
 ms.prod: windows
 ms.technology: windows-sdk

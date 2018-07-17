@@ -4,10 +4,10 @@ title: "_WTS_PROCESS_INFO_EXA"
 author: windows-sdk-content
 description: Contains extended information about a process running on a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wts_process_info_ex.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: a678d249-4943-4d2b-9cea-87ce20177c75
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*PWTS_PROCESS_INFO_EXA, PWTS_PROCESS_INFO_EX, PWTS_PROCESS_INFO_EX structure pointer [Remote Desktop Services], WTS_PROCESS_INFO_EX, WTS_PROCESS_INFO_EX structure [Remote Desktop Services], WTS_PROCESS_INFO_EXA, WTS_PROCESS_INFO_EXW, _WTS_PROCESS_INFO_EXA, termserv.wts_process_info_ex, wtsapi32/PWTS_PROCESS_INFO_EX, wtsapi32/WTS_PROCESS_INFO_EX, wtsapi32/WTS_PROCESS_INFO_EXA, wtsapi32/WTS_PROCESS_INFO_EXW"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\ix509scepenrollment_createrequestmessage.htm
 old-project: seccertenroll
 ms.assetid: b86d6dc3-aa96-45f3-9551-f24c39ea6cbf
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: CreateRequestMessage, CreateRequestMessage method [Security], CreateRequestMessage method [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],CreateRequestMessage method, IX509SCEPEnrollment.CreateRequestMessage, IX509SCEPEnrollment::CreateRequestMessage, certenroll/IX509SCEPEnrollment::CreateRequestMessage, security.ix509scepenrollment_createrequestmessage
 ms.prod: windows
 ms.technology: windows-sdk

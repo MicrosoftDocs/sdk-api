@@ -4,10 +4,10 @@ title: tagLVFOOTERITEM
 author: windows-sdk-content
 description: Contains information on a footer item.
 old-location: controls\LVFOOTERITEM.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvfooteritem.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: "*LPLVFOOTERITEM, LPLVFOOTERITEM, LPLVFOOTERITEM structure pointer [Windows Controls], LVFIF_STATE, LVFIF_TEXT, LVFIS_FOCUSED, LVFOOTERITEM, LVFOOTERITEM structure [Windows Controls], _shell_LVFOOTERITEM, _shell_LVFOOTERITEM_cpp, commctrl/LPLVFOOTERITEM, commctrl/LVFOOTERITEM, controls.LVFOOTERITEM, controls._shell_LVFOOTERITEM, tagLVFOOTERITEM"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -168,7 +168,7 @@ The LVFIS_FOCUSED bit of member <b>state</b> is valid. For example, setting this
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/library/Bb761270(v=VS.85).aspx">ListView_GetFooterItem</a> macro and the <a href="https://msdn.microsoft.com/library/Bb774928(v=VS.85).aspx">LVM_GETFOOTERITEM</a> message.
+This structure is used with the <a href="https://msdn.microsoft.com/4993d464-445a-4f16-8100-f65458a5927f">ListView_GetFooterItem</a> macro and the <a href="https://msdn.microsoft.com/92f55719-c265-433f-84fc-a673680c7ad9">LVM_GETFOOTERITEM</a> message.
 
 
 

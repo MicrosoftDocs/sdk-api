@@ -7,7 +7,7 @@ old-location: devinst\setupdigetdriverinfodetail.htm
 old-project: devinst
 ms.assetid: 42f3668c-8112-4cc0-bce8-b0b3886c45fb
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: SetupDiGetDriverInfoDetail, SetupDiGetDriverInfoDetail function [Device and Driver Installation], SetupDiGetDriverInfoDetailA, SetupDiGetDriverInfoDetailW, devinst.setupdigetdriverinfodetail, di-rtns_5a2fb98d-54ee-4290-9969-f5e12d77cbcf.xml, setupapi/SetupDiGetDriverInfoDetail
 ms.prod: windows
 ms.technology: windows-sdk

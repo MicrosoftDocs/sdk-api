@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetHotkeyPrefix_hotkeyPrefix_.
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\sethotkeyprefix.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: SetHotkeyPrefix, SetHotkeyPrefix method [GDI+], SetHotkeyPrefix method [GDI+],StringFormat class, StringFormat class [GDI+],SetHotkeyPrefix method, StringFormat.SetHotkeyPrefix, StringFormat::SetHotkeyPrefix, _gdiplus_CLASS_StringFormat_SetHotkeyPrefix_hotkeyPrefix_, gdiplus._gdiplus_CLASS_StringFormat_SetHotkeyPrefix_hotkeyPrefix_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ The <b>StringFormat::SetHotkeyPrefix</b> method sets the type of processing that
 
 ### -param hotkeyPrefix [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534131(v=VS.85).aspx">HotkeyPrefix</a></b>
+Type: <b><a href="https://msdn.microsoft.com/79b7fa3b-55f8-4ac8-814d-82e4f8280863">HotkeyPrefix</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/library/ms534131(v=VS.85).aspx">HotkeyPrefix</a> enumeration that specifies how to process the hot key prefix. 
+Element of the <a href="https://msdn.microsoft.com/79b7fa3b-55f8-4ac8-814d-82e4f8280863">HotkeyPrefix</a> enumeration that specifies how to process the hot key prefix. 
 
 
 ## -returns
@@ -104,7 +104,7 @@ A client programmer designates a hot key in an application by using the hot key 
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx">StringFormat</a> object and sets the type of hot key prefix processing to be performed on the string. The code then uses the 
+						<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object and sets the type of hot key prefix processing to be performed on the string. The code then uses the 
 						<b>StringFormat</b> object to draw a string that contains the hot key prefix character. The code also draws the string's layout rectangle.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -147,15 +147,15 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534131(v=VS.85).aspx">HotkeyPrefix</a>
+<a href="https://msdn.microsoft.com/79b7fa3b-55f8-4ac8-814d-82e4f8280863">HotkeyPrefix</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx">StringFormat</a>
+<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534717(v=VS.85).aspx">StringFormat::GetHotkeyPrefix</a>
+<a href="https://msdn.microsoft.com/3bedd011-6f46-4afe-9d82-90014c14b418">StringFormat::GetHotkeyPrefix</a>
  
 
  

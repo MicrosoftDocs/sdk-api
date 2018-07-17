@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking_setrate.htm
 old-project: DirectShow
 ms.assetid: 8cd44480-cadb-4b59-9fe7-4a82b3aed15b
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IMediaSeeking interface [DirectShow],SetRate method, IMediaSeeking.SetRate, IMediaSeeking::SetRate, IMediaSeekingSetRate, SetRate, SetRate method [DirectShow], SetRate method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_setrate, strmif/IMediaSeeking::SetRate
 ms.prod: windows
 ms.technology: windows-sdk

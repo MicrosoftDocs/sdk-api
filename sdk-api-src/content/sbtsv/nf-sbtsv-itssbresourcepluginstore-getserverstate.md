@@ -4,10 +4,10 @@ title: ITsSbResourcePluginStore::GetServerState
 author: windows-sdk-content
 description: Retrieves the state of a specified server.
 old-location: termserv\itssbresourcepluginstore_getserverstate.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 287863fe-55b3-456e-9488-09ee85af2e15
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: GetServerState, GetServerState method [Remote Desktop Services], GetServerState method [Remote Desktop Services],ITsSbResourcePluginStore interface, ITsSbResourcePluginStore interface [Remote Desktop Services],GetServerState method, ITsSbResourcePluginStore.GetServerState, ITsSbResourcePluginStore::GetServerState, sbtsv/ITsSbResourcePluginStore::GetServerState, termserv.itssbresourcepluginstore_getserverstate
 ms.prod: windows
 ms.technology: windows-sdk

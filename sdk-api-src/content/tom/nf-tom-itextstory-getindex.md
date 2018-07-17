@@ -4,10 +4,10 @@ title: ITextStory::GetIndex
 author: windows-sdk-content
 description: Gets the index of a story.
 old-location: controls\itextstory_getindex.htm
-old-project: controls
+old-project: Controls
 ms.assetid: ef7f4714-6887-429c-8f65-77c14d55a5c4
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: GetIndex, GetIndex method [Windows Controls], GetIndex method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetIndex method, ITextStory.GetIndex, ITextStory::GetIndex, controls.itextstory_getindex, tom/ITextStory::GetIndex
 ms.prod: windows
 ms.technology: windows-sdk

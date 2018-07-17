@@ -89,7 +89,7 @@ A WARP driver, which is a high-performance software rasterizer. The rasterizer s
 
 
 
-The device-driver type needs to be specified when the device is created (using <a href="https://msdn.microsoft.com/library/Bb205086(v=VS.85).aspx">D3D10CreateDevice</a> or <a href="https://msdn.microsoft.com/library/Bb205087(v=VS.85).aspx">D3D10CreateDeviceAndSwapChain</a>). 
+The device-driver type needs to be specified when the device is created (using <a href="https://msdn.microsoft.com/da48d6d4-f35b-4cd1-a358-8eec63dfa674">D3D10CreateDevice</a> or <a href="https://msdn.microsoft.com/3123d45a-47ef-464f-9664-ba72f6688ce0">D3D10CreateDeviceAndSwapChain</a>). 
 
 For information about limitations creating nonhardware-type devices on certain feature levels, see <a href="https://msdn.microsoft.com/7e022e5d-daa3-48fa-b9fe-4b569220e55e">Limitations Creating WARP and Reference Devices</a>.
 
@@ -101,7 +101,7 @@ For information about limitations creating nonhardware-type devices on certain f
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mscs\cluspartition_volumelabel.htm
 old-project: mscs
 ms.assetid: 12fbb270-63a4-438c-9492-82a4568ebcfc
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusPartition object [Failover Cluster],VolumeLabel property, ClusPartition.VolumeLabel, ISClusPartition.get_VolumeLabel, ISClusPartition::get_VolumeLabel, VolumeLabel property [Failover Cluster], VolumeLabel property [Failover Cluster],ClusPartition object, _wolf_cluspartition.volumelabel, get_VolumeLabel, mscs.cluspartition_volumelabel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
 
 Returns the 
     volume label of a 
-    <a href="https://msdn.microsoft.com/library/ms682866(v=VS.85).aspx">storage class resource</a> 
+    <a href="s_gly.htm">storage class resource</a> 
     partition.
 
 This property is read-only.

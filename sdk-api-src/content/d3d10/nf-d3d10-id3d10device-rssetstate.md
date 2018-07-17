@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Set the <a href="https://msdn.microsoft.com/library/Bb172408(v=VS.85).aspx">rasterizer state</a> for the <a href="https://msdn.microsoft.com/library/Bb205125(v=VS.85).aspx">rasterizer stage</a> of the pipeline.
+Set the <a href="https://msdn.microsoft.com/ae4bb4c4-35a8-43c3-bfa5-f57b44bc367e">rasterizer state</a> for the <a href="https://msdn.microsoft.com/efd3f819-7c63-4e1a-9923-8e7198354ec6">rasterizer stage</a> of the pipeline.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Set the <a href="https://msdn.microsoft.com/library/Bb172408(v=VS.85).aspx">rast
 
 ### -param pRasterizerState [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173825(v=VS.85).aspx">ID3D10RasterizerState</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/c365ab8a-085b-4706-b355-c4319673bdb7">ID3D10RasterizerState</a>*</b>
 
-Pointer to a rasterizer-state interface (see <a href="https://msdn.microsoft.com/library/Bb173825(v=VS.85).aspx">ID3D10RasterizerState</a>) to bind to the pipeline.
+Pointer to a rasterizer-state interface (see <a href="https://msdn.microsoft.com/c365ab8a-085b-4706-b355-c4319673bdb7">ID3D10RasterizerState</a>) to bind to the pipeline.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Returns nothing.
 
 
 
-To create a rasterizer state interface, call <a href="https://msdn.microsoft.com/library/Bb173554(v=VS.85).aspx">ID3D10Device::CreateRasterizerState</a>. For more details on setting up the rasterizer state, see <a href="https://msdn.microsoft.com/library/Bb205126(v=VS.85).aspx">Set Rasterizer State</a>.
+To create a rasterizer state interface, call <a href="https://msdn.microsoft.com/bd304e42-e4f6-4bc4-baf0-b4c8287e3351">ID3D10Device::CreateRasterizerState</a>. For more details on setting up the rasterizer state, see <a href="https://msdn.microsoft.com/d78c3845-76fd-4bd7-a603-bb1d8c66ac49">Set Rasterizer State</a>.
 
 The method will not hold a reference to the interfaces passed in. For that reason, applications should be careful not to release an interface currently in use by the device.
 
@@ -91,7 +91,7 @@ The method will not hold a reference to the interfaces passed in. For that reaso
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

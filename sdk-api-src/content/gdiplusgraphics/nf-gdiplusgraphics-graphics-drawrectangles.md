@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawRectangles_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawrectanglesmethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: DrawRectangles, DrawRectangles methods [GDI+], Graphics.DrawRectangles, Graphics::DrawRectangles, _gdiplus_CLASS_Graphics_DrawRectangles_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawRectangles_Methods, gdiplusgraphics/DrawRectangles
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,19 +65,19 @@ DrawRectangles methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535996(v=VS.85).aspx">DrawRectangles(Pen*,Rect*,INT)</a>
+<a href="https://msdn.microsoft.com/653b675c-408b-4e6d-97ae-db284be74287">DrawRectangles(Pen*,Rect*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535996(v=VS.85).aspx">Graphics::DrawRectangles</a> method draws a sequence of rectangles.
+The <a href="https://msdn.microsoft.com/653b675c-408b-4e6d-97ae-db284be74287">Graphics::DrawRectangles</a> method draws a sequence of rectangles.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535998(v=VS.85).aspx">DrawRectangles(Pen*,RectF*,INT)</a>
+<a href="https://msdn.microsoft.com/d8a6725b-6382-48a4-b83b-0a61614af6c9">DrawRectangles(Pen*,RectF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535998(v=VS.85).aspx">Graphics::DrawRectangles</a> method draws a sequence of rectangles.
+The <a href="https://msdn.microsoft.com/d8a6725b-6382-48a4-b83b-0a61614af6c9">Graphics::DrawRectangles</a> method draws a sequence of rectangles.
 
 </td>
 </tr>

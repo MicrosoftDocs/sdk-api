@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_PaletteType.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\palettetype.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: PaletteType, PaletteType enumeration [GDI+], PaletteTypeCustom, PaletteTypeFixedBW, PaletteTypeFixedHalftone125, PaletteTypeFixedHalftone216, PaletteTypeFixedHalftone252, PaletteTypeFixedHalftone256, PaletteTypeFixedHalftone27, PaletteTypeFixedHalftone64, PaletteTypeFixedHalftone8, PaletteTypeOptimal, _gdiplus_ENUM_PaletteType, gdiplus._gdiplus_ENUM_PaletteType, gdipluspixelformats/PaletteType, gdipluspixelformats/PaletteTypeCustom, gdipluspixelformats/PaletteTypeFixedBW, gdipluspixelformats/PaletteTypeFixedHalftone125, gdipluspixelformats/PaletteTypeFixedHalftone216, gdipluspixelformats/PaletteTypeFixedHalftone252, gdipluspixelformats/PaletteTypeFixedHalftone256, gdipluspixelformats/PaletteTypeFixedHalftone27, gdipluspixelformats/PaletteTypeFixedHalftone64, gdipluspixelformats/PaletteTypeFixedHalftone8, gdipluspixelformats/PaletteTypeOptimal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The  <b>PaletteType</b> enumeration is used by the <a href="https://msdn.microsoft.com/library/ms536309(v=VS.85).aspx">Bitmap::InitializePalette</a> and <a href="https://msdn.microsoft.com/library/ms536306(v=VS.85).aspx">Bitmap::ConvertFormat</a> methods of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> class. The members of the enumeration identify several standard color palette formats.
+The  <b>PaletteType</b> enumeration is used by the <a href="https://msdn.microsoft.com/8a692b2b-e9b1-465e-9bfa-7306cd1d7ced">Bitmap::InitializePalette</a> and <a href="https://msdn.microsoft.com/68641749-a274-41d7-b4ce-82999f9aac63">Bitmap::ConvertFormat</a> methods of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> class. The members of the enumeration identify several standard color palette formats.
 
 
 ## -enum-fields
@@ -66,7 +66,7 @@ An arbitrary custom palette provided by the caller.
 
 ### -field PaletteTypeOptimal
 
-An palette of colors that are optimal for a particular bitmap. To create an optimal palette, pass PaletteTypeOptimal, the number of colors you want in the palette, and the address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> object to the <a href="https://msdn.microsoft.com/library/ms536309(v=VS.85).aspx">Bitmap::InitializePalette</a> method.
+An palette of colors that are optimal for a particular bitmap. To create an optimal palette, pass PaletteTypeOptimal, the number of colors you want in the palette, and the address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> object to the <a href="https://msdn.microsoft.com/8a692b2b-e9b1-465e-9bfa-7306cd1d7ced">Bitmap::InitializePalette</a> method.
 
 
 ### -field PaletteTypeFixedBW

@@ -7,8 +7,8 @@ old-location: mscs\clusterregclosereadbatch.htm
 old-project: mscs
 ms.assetid: A164EB9F-290E-446E-98E9-95C6C3C3D00C
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PCLUSTER_REG_CLOSE_READ_BATCH, PCLUSTER_REG_CLOSE_READ_BATCH callback, PCLUSTER_REG_CLOSE_READ_BATCH callback function [Failover Cluster], clusapi/PCLUSTER_REG_CLOSE_READ_BATCH, mscs.clusterregclosereadbatch
+ms.date: 07/12/2018
+ms.keywords: ClusterRegCloseReadBatch, ClusterRegCloseReadBatch function [Failover Cluster], PCLUSTER_REG_CLOSE_READ_BATCH, PCLUSTER_REG_CLOSE_READ_BATCH function [Failover Cluster], clusapi/ClusterRegCloseReadBatch, clusapi/PCLUSTER_REG_CLOSE_READ_BATCH, mscs.clusterregclosereadbatch
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -32,15 +32,18 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - UserDefined
+ - DllExport
 api_location:
- - ClusAPI.h
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
- - PCLUSTER_REG_CLOSE_READ_BATCH
+ - ClusterRegCloseReadBatch
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
 req.irql: 
 ---
 
@@ -60,7 +63,7 @@ Executes a read batch and returns results from the read batch executions.
 
 ### -param hRegReadBatch [in]
 
-The handle of the read batch. After the <i>ClusterRegCloseReadBatch</i> function completes, this handle is no longer valid, and memory associated with it is freed.
+The handle of the read batch. After the <b>ClusterRegCloseReadBatch</b> function completes, this handle is no longer valid, and memory associated with it is freed.
 
 
 ### -param *phRegReadBatchReply [out]

@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriter_beginwriting.htm
 old-project: wmformat
 ms.assetid: df511ff0-a87b-442a-85bd-c8d924ab2047
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: BeginWriting, BeginWriting method [windows Media Format], BeginWriting method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],BeginWriting method, IWMWriter.BeginWriting, IWMWriter::BeginWriting, IWMWriterBeginWriting, wmformat.iwmwriter_beginwriting, wmsdkidl/IWMWriter::BeginWriting
 ms.prod: windows
 ms.technology: windows-sdk

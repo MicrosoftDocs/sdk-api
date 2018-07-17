@@ -4,10 +4,10 @@ title: IFsrmPropertyDefinition::get_ValueDescriptions
 author: windows-sdk-content
 description: Descriptions for each of the possible values specified in the PossibleValues property.
 old-location: fsrm\ifsrmpropertydefinition_valuedescriptions.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 3c6a9457-c1bb-4bc3-853a-3676bb4ce6bb
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IFsrmPropertyDefinition interface [File Server Resource Manager],ValueDescriptions property, IFsrmPropertyDefinition.ValueDescriptions, IFsrmPropertyDefinition.get_ValueDescriptions, IFsrmPropertyDefinition::ValueDescriptions, IFsrmPropertyDefinition::get_ValueDescriptions, IFsrmPropertyDefinition::put_ValueDescriptions, ValueDescriptions property [File Server Resource Manager], ValueDescriptions property [File Server Resource Manager],IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_valuedescriptions, fsrm.ifsrmpropertydefinition_valuedescriptions, fsrmpipeline/IFsrmPropertyDefinition::ValueDescriptions, fsrmpipeline/IFsrmPropertyDefinition::get_ValueDescriptions, fsrmpipeline/IFsrmPropertyDefinition::put_ValueDescriptions, get_ValueDescriptions
 ms.prod: windows
 ms.technology: windows-sdk

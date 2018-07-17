@@ -4,10 +4,10 @@ title: MonthCal_SetCalendarBorder macro
 author: windows-sdk-content
 description: Sets the border size, in pixels, of a month calendar control. You can use this macro or send the MCM_SETCALENDARBORDER message explicitly.
 old-location: controls\MonthCal_SetCalendarBorder.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcalendarborder.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: MonthCal_SetCalendarBorder, MonthCal_SetCalendarBorder macro [Windows Controls], _shell_MonthCal_SetCalendarBorder, _shell_MonthCal_SetCalendarBorder_cpp, commctrl/MonthCal_SetCalendarBorder, controls.MonthCal_SetCalendarBorder, controls._shell_MonthCal_SetCalendarBorder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the border size, in pixels, of a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760993(v=VS.85).aspx">MCM_SETCALENDARBORDER</a> message explicitly.
+Sets the border size, in pixels, of a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/2a64a08f-a1fb-47a8-8f09-725807e87a03">MCM_SETCALENDARBORDER</a> message explicitly.
 
 
 ## -parameters

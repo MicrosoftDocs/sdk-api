@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddString_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddstringmethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: AddString, AddString methods [GDI+], GraphicsPath.AddString, GraphicsPath.AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const Point &,IN const StringFormat), GraphicsPath::AddString, GraphicsPath::AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const Point &,IN const StringFormat), _gdiplus_CLASS_GraphicsPath_AddString_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddString_Methods, gdipluspath/AddString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,9 +53,9 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 AddString methods of the 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> class. For a complete list of methods for the 
 <b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -65,37 +65,37 @@ AddString methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535585(v=VS.85).aspx">AddString(WCHAR*,INT,FontFamily*,INT,REAL,Rect&,StringFormat*)</a>
+<a href="https://msdn.microsoft.com/5960f7a1-9a3c-44e7-81b1-bca9034dab9a">AddString(WCHAR*,INT,FontFamily*,INT,REAL,Rect&,StringFormat*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535585(v=VS.85).aspx">GraphicsPath::AddString</a> method adds the outline of a string to this path.
+The <a href="https://msdn.microsoft.com/5960f7a1-9a3c-44e7-81b1-bca9034dab9a">GraphicsPath::AddString</a> method adds the outline of a string to this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535587(v=VS.85).aspx">AddString(WCHAR*,INT,FontFamily*,INT,REAL,Point&,StringFormat*)</a>
+<a href="https://msdn.microsoft.com/6a4fed83-0084-44a4-bdff-e9ec982513af">AddString(WCHAR*,INT,FontFamily*,INT,REAL,Point&,StringFormat*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535587(v=VS.85).aspx">GraphicsPath::AddString</a> method adds the outlines of a string to this path.
+The <a href="https://msdn.microsoft.com/6a4fed83-0084-44a4-bdff-e9ec982513af">GraphicsPath::AddString</a> method adds the outlines of a string to this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535588(v=VS.85).aspx">AddString(WCHAR*,INT,FontFamily*,INT,REAL,RectF&,StringFormat*)</a>
+<a href="https://msdn.microsoft.com/47a44b75-296a-4142-95e2-a5adb477bc9b">AddString(WCHAR*,INT,FontFamily*,INT,REAL,RectF&,StringFormat*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535588(v=VS.85).aspx">GraphicsPath::AddString</a> method adds the outline of a string to this path.
+The <a href="https://msdn.microsoft.com/47a44b75-296a-4142-95e2-a5adb477bc9b">GraphicsPath::AddString</a> method adds the outline of a string to this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535586(v=VS.85).aspx">AddString(WCHAR*,INT,FontFamily*,INT,REAL,PointF&,StringFormat*)</a>
+<a href="https://msdn.microsoft.com/1bed1611-addc-464c-a7c9-64810e922a5e">AddString(WCHAR*,INT,FontFamily*,INT,REAL,PointF&,StringFormat*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535586(v=VS.85).aspx">GraphicsPath::AddString</a> method adds the outline of a string to this path.
+The <a href="https://msdn.microsoft.com/1bed1611-addc-464c-a7c9-64810e922a5e">GraphicsPath::AddString</a> method adds the outline of a string to this path.
 
 </td>
 </tr>

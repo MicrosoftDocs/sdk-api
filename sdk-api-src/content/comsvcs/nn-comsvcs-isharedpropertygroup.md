@@ -7,7 +7,7 @@ old-location: cos\isharedpropertygroup.htm
 old-project: cossdk
 ms.assetid: e7f23c83-40d3-4b08-a185-cd6e3260e0a9
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: ISharedPropertyGroup, ISharedPropertyGroup interface [COM+], ISharedPropertyGroup interface [COM+],described, _cos_ISharedPropertyGroup, comsvcs/ISharedPropertyGroup, cos.isharedpropertygroup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Used to create and access the shared properties in a shared property group.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISharedPropertyGroup</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ISharedPropertyGroup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISharedPropertyGroup</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ISharedPropertyGroup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

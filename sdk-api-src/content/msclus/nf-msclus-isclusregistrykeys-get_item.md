@@ -7,7 +7,7 @@ old-location: mscs\clusregistrykeys_item.htm
 old-project: mscs
 ms.assetid: e24239a4-feeb-468e-99b4-ca3093d8cfd0
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusRegistryKeys class [Failover Cluster],Item property, ClusRegistryKeys.Item, ISClusRegistryKeys.get_Item, ISClusRegistryKeys::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ClusRegistryKeys class, _wolf_clusregistrykeys.item, get_Item, mscs.clusregistrykeys_item
 ms.prod: windows
 ms.technology: windows-sdk

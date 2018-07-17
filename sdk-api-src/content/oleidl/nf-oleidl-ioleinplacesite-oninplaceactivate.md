@@ -7,7 +7,7 @@ old-location: com\ioleinplacesite_oninplaceactivate.htm
 old-project: com
 ms.assetid: e5744911-1ea6-4482-988d-8def16229f4c
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: IOleInPlaceSite interface [COM],OnInPlaceActivate method, IOleInPlaceSite.OnInPlaceActivate, IOleInPlaceSite::OnInPlaceActivate, OnInPlaceActivate, OnInPlaceActivate method [COM], OnInPlaceActivate method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_oninplaceactivate, com.ioleinplacesite_oninplaceactivate, oleidl/IOleInPlaceSite::OnInPlaceActivate
 ms.prod: windows
 ms.technology: windows-sdk

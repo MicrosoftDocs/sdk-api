@@ -7,7 +7,7 @@ old-location: shell\ISearchFolderItemFactory_SetCondition.htm
 old-project: shell
 ms.assetid: 6ac5acc3-e522-4b6f-a31c-c0850445e00c
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetCondition method, ISearchFolderItemFactory.SetCondition, ISearchFolderItemFactory::SetCondition, SetCondition, SetCondition method [Windows Shell], SetCondition method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetCondition, shell.ISearchFolderItemFactory_SetCondition, shobjidl_core/ISearchFolderItemFactory::SetCondition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-Sets the  <a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a> of the search.  When this method is not called, the resulting search will have no filters applied.
+Sets the  <a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a> of the search.  When this method is not called, the resulting search will have no filters applied.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Sets the  <a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">IC
 
 ### -param pCondition [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a> interface.
+A pointer to an <a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a> interface.
 
 
 ## -returns
@@ -82,7 +82,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231388(v=VS.85).aspx">ICondition::Clone</a>
+<a href="_search_ICondition_Clone">ICondition::Clone</a>
 
 
 

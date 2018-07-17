@@ -7,7 +7,7 @@ old-location: com\ipersiststream_save.htm
 old-project: com
 ms.assetid: b748b4f9-ef9c-486b-bdc4-4d23c4640ff7
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: IPersistStream interface [COM],Save method, IPersistStream.Save, IPersistStream::Save, Save, Save method [COM], Save method [COM],IPersistStream interface, _com_ipersiststream_save, com.ipersiststream_save, objidl/IPersistStream::Save
 ms.prod: windows
 ms.technology: windows-sdk

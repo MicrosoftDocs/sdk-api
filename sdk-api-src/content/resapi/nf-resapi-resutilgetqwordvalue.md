@@ -1,0 +1,79 @@
+---
+UID: NF:resapi.ResUtilGetQwordValue
+title: ResUtilGetQwordValue function
+author: windows-sdk-content
+description: TBD.
+old-location: mscs\resutilgetqwordvalue.htm
+old-project: mscs
+ms.assetid: 22017258-a71c-4167-b134-0cfd57f1ea08
+ms.author: windowssdkdev
+ms.date: 07/12/2018
+ms.keywords: PRESUTIL_GET_QWORD_VALUE, PRESUTIL_GET_QWORD_VALUE function [Failover Cluster], ResUtilGetQwordValue, ResUtilGetQwordValue function [Failover Cluster], mscs.resutilgetqwordvalue, resapi/PRESUTIL_GET_QWORD_VALUE, resapi/ResUtilGetQwordValue
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: resapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 Datacenter, Windows Server 2008 Enterprise
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: RESOURCE_EXIT_STATE
+topic_type:
+ - kbSyntax
+api_type:
+ - <TBD>
+api_location:
+ -
+api_name:
+ - ResUtilGetQwordValue
+product: Windows
+targetos: Windows
+req.lib: ResUtils.lib; ResApi.lib on Windows Server 2008 R2 and Windows Server 2008
+req.dll: ResUtils.dll
+req.irql: 
+req.product: ADAM
+---
+
+# ResUtilGetQwordValue function
+
+
+## -description
+
+
+TBD
+
+
+## -parameters
+
+
+
+
+### -param hkeyClusterKey [in]
+
+TBD
+
+
+### -param pszValueName [in]
+
+TBD
+
+
+### -param pqwOutValue [out]
+
+TBD
+
+
+### -param qwDefaultValue [in]
+
+TBD
+

@@ -7,7 +7,7 @@ old-location: devinst\diinstalldriver.htm
 old-project: devinst
 ms.assetid: 7015d05f-235e-42d1-b4e1-9919bbebf185
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: DiInstallDriver, DiInstallDriver function [Device and Driver Installation], DiInstallDriverA, DiInstallDriverW, devinst.diinstalldriver, di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml, newdev/DiInstallDriver
 ms.prod: windows
 ms.technology: windows-sdk
@@ -192,7 +192,7 @@ The application is a class installer, in which case, the class installer should 
 
 </li>
 </ul>
-To install a selected driver on a selected device, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544710">DiInstallDevice</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff547654">InstallSelectedDriver</a>. For more information about which of these functions to call to install a selected driver on a selected device, see <a href="devinst.setupapi_functions_that_simplify_driver_installation">SetupAPI Functions that Simplify Driver Installation</a>. 
+To install a selected driver on a selected device, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544710">DiInstallDevice</a>. For more info, see <a href="devinst.setupapi_functions_that_simplify_driver_installation">SetupAPI Functions that Simplify Driver Installation</a>.
 
 
 
@@ -203,10 +203,6 @@ To install a selected driver on a selected device, call <a href="https://msdn.mi
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544710">DiInstallDevice</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547654">InstallSelectedDriver</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagecompositor9_compositeimage.htm
 old-project: DirectShow
 ms.assetid: a59d21e8-faa2-484d-9d82-991c6bc4e045
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: CompositeImage, CompositeImage method [DirectShow], CompositeImage method [DirectShow],IVMRImageCompositor9 interface, IVMRImageCompositor9 interface [DirectShow],CompositeImage method, IVMRImageCompositor9.CompositeImage, IVMRImageCompositor9::CompositeImage, IVMRImageCompositor9CompositeImage, dshow.ivmrimagecompositor9_compositeimage, vmr9/IVMRImageCompositor9::CompositeImage
 ms.prod: windows
 ms.technology: windows-sdk

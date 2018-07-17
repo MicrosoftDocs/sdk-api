@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__Initialize.htm
 old-project: shell
 ms.assetid: 990f7456-dce3-4c67-9a1e-97c8772e4332
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_Initialize method, IBrowserService2._Initialize, IBrowserService2::_Initialize, _Initialize, _Initialize method [Windows Shell], _Initialize method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_Initialize, shell.IBrowserService2__Initialize, zone_IBrowserService2__Initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ A handle to the current window.
 Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
 
 
-          A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of the outer object's <a href="https://msdn.microsoft.com/library/Mt725309(v=VS.85).aspx">IWebBrowser2</a> automation interface.
+          A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of the outer object's <a href="https://msdn.microsoft.com/49b33ff9-f45c-4883-b31a-39e06b759b77">IWebBrowser2</a> automation interface.
         
 
 

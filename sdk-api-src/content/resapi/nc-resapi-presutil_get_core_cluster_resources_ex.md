@@ -7,8 +7,8 @@ old-location: mscs\resutilgetcoreclusterresourcesex.htm
 old-project: mscs
 ms.assetid: F6C576C1-5D34-41EB-95A4-BC8F78F02414
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX, PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX callback, PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX callback function [Failover Cluster], mscs.resutilgetcoreclusterresourcesex, resapi/PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX
+ms.date: 07/12/2018
+ms.keywords: PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX, PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX function [Failover Cluster], ResUtilGetCoreClusterResources, ResUtilGetCoreClusterResources function [Failover Cluster], ResUtilGetCoreClusterResourcesEx, mscs.resutilgetcoreclusterresourcesex, resapi/PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX, resapi/ResUtilGetCoreClusterResources
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -32,15 +32,17 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - UserDefined
+ - DllExport
 api_location:
- - ResApi.h
+ - ResUtils.dll
+ - ext-ms-win-cluster-resutils-l1-1-0.dll
+ - ext-ms-win-cluster-resutils-l1-1-1.dll
 api_name:
- - PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX
+ - ResUtilGetCoreClusterResources
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
 req.irql: 
 req.product: ADAM
 ---

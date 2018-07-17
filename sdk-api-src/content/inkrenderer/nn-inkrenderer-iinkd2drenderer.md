@@ -7,7 +7,7 @@ old-location: input_ink\iinkd2drenderer.htm
 old-project: input_ink
 ms.assetid: d1bd910d-ce64-4424-a0e1-4f55110b0265
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/13/2018
 ms.keywords: IInkD2DRenderer, IInkD2DRenderer interface, IInkD2DRenderer interface,described, inkrenderer/IInkD2DRenderer, input_ink.iinkd2drenderer
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DhcpGetClientOptions function
 author: windows-sdk-content
 description: Returns only ERROR_NOT_IMPLEMENTED, as it is not used or supported.
 old-location: dhcp\dhcpgetclientoptions.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: 60f4db5f-0359-4738-980e-2a56adbf551e
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DhcpGetClientOptions, DhcpGetClientOptions function [DHCP], dhcp.dhcpgetclientoptions, dhcpsapi/DhcpGetClientOptions
 ms.prod: windows
 ms.technology: windows-sdk

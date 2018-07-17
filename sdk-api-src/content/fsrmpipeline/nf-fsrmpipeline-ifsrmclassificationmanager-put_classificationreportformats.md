@@ -4,10 +4,10 @@ title: IFsrmClassificationManager::put_ClassificationReportFormats
 author: windows-sdk-content
 description: The list of formats in which to generate the classification reports.
 old-location: fsrm\ifsrmclassificationmanager_classificationreportformats.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: a9402faa-06f9-4cfe-9a36-a2fc1a581824
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: ClassificationReportFormats property [File Server Resource Manager], ClassificationReportFormats property [File Server Resource Manager],FsrmClassificationManager class, ClassificationReportFormats property [File Server Resource Manager],IFsrmClassificationManager interface, ClassificationReportFormats property [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],ClassificationReportFormats property, IFsrmClassificationManager interface [File Server Resource Manager],ClassificationReportFormats property, IFsrmClassificationManager.ClassificationReportFormats, IFsrmClassificationManager.put_ClassificationReportFormats, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassificationReportFormats property, IFsrmClassificationManager2.ClassificationReportFormats, IFsrmClassificationManager2::get_ClassificationReportFormats, IFsrmClassificationManager2::put_ClassificationReportFormats, IFsrmClassificationManager::ClassificationReportFormats, IFsrmClassificationManager::get_ClassificationReportFormats, IFsrmClassificationManager::put_ClassificationReportFormats, fs.ifsrmclassificationmanager_classificationreportformats, fsrm.ifsrmclassificationmanager_classificationreportformats, fsrmpipeline/IFsrmClassificationManager2::ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager2::put_ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager::ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager::get_ClassificationReportFormats, fsrmpipeline/IFsrmClassificationManager::put_ClassificationReportFormats, put_ClassificationReportFormats
 ms.prod: windows
 ms.technology: windows-sdk

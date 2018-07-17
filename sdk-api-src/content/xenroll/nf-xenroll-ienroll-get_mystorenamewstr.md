@@ -4,10 +4,10 @@ title: IEnroll::get_MyStoreNameWStr
 author: windows-sdk-content
 description: The MyStoreNameWStr property of IEnroll4 sets or retrieves the name of the store where certificates with linked private keys are kept.
 old-location: security\ienroll4_mystorenamewstr.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 077bc593-0071-4f41-8d07-141c9959b6ed
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IEnroll interface [Security],MyStoreNameWStr property, IEnroll.MyStoreNameWStr, IEnroll.get_MyStoreNameWStr, IEnroll::MyStoreNameWStr, IEnroll::get_MyStoreNameWStr, IEnroll::put_MyStoreNameWStr, MyStoreNameWStr property [Security], MyStoreNameWStr property [Security],IEnroll interface, get_MyStoreNameWStr, security.ienroll4_mystorenamewstr, xenroll/IEnroll::MyStoreNameWStr, xenroll/IEnroll::get_MyStoreNameWStr, xenroll/IEnroll::put_MyStoreNameWStr
 ms.prod: windows
 ms.technology: windows-sdk

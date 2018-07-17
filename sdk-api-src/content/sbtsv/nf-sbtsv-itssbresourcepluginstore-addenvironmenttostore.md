@@ -4,10 +4,10 @@ title: ITsSbResourcePluginStore::AddEnvironmentToStore
 author: windows-sdk-content
 description: Adds an environment to the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_addenvironmenttostore.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 5f1d995b-10de-4754-9160-fb93a9d8f263
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: AddEnvironmentToStore, AddEnvironmentToStore method [Remote Desktop Services], AddEnvironmentToStore method [Remote Desktop Services],ITsSbResourcePluginStore interface, AddEnvironmentToStore method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],AddEnvironmentToStore method, ITsSbResourcePluginStore.AddEnvironmentToStore, ITsSbResourcePluginStore::AddEnvironmentToStore, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],AddEnvironmentToStore method, ITsSbResourcePluginStoreEx::AddEnvironmentToStore, sbtsv/ITsSbResourcePluginStore::AddEnvironmentToStore, sbtsv/ITsSbResourcePluginStoreEx::AddEnvironmentToStore, termserv.itssbresourcepluginstore_addenvironmenttostore
 ms.prod: windows
 ms.technology: windows-sdk

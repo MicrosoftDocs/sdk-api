@@ -4,10 +4,10 @@ title: ImageList_BeginDrag function
 author: windows-sdk-content
 description: Begins dragging an image.
 old-location: controls\ImageList_BeginDrag.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_begindrag.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ImageList_BeginDrag, ImageList_BeginDrag function [Windows Controls], _win32_ImageList_BeginDrag, _win32_ImageList_BeginDrag_cpp, commctrl/ImageList_BeginDrag, controls.ImageList_BeginDrag, controls._win32_ImageList_BeginDrag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,7 +101,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 
-This function creates a temporary image list that is used for dragging. In response to subsequent <a href="https://msdn.microsoft.com/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> messages, you can move the drag image by using the <a href="https://msdn.microsoft.com/library/Bb761530(v=VS.85).aspx">ImageList_DragMove</a> function. To end the drag operation, you can use the <a href="https://msdn.microsoft.com/library/Bb761541(v=VS.85).aspx">ImageList_EndDrag</a> function. 
+This function creates a temporary image list that is used for dragging. In response to subsequent <a href="https://msdn.microsoft.com/9b99387e-e176-4b20-a05a-bc75928a1367">WM_MOUSEMOVE</a> messages, you can move the drag image by using the <a href="https://msdn.microsoft.com/a7d7fcd4-ba03-43ba-ae37-df8d4173c64d">ImageList_DragMove</a> function. To end the drag operation, you can use the <a href="https://msdn.microsoft.com/54465b0d-6bbe-4c50-8124-cbf3115d0848">ImageList_EndDrag</a> function. 
 
 
 

@@ -4,10 +4,10 @@ title: ICertRequest2::GetCAPropertyDisplayName
 author: windows-sdk-content
 description: Retrieves the property display name for a certification authority (CA) property.
 old-location: security\icertrequest2_getcapropertydisplayname.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 5c294758-b2aa-497b-8377-6c5987576f82
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CCertRequest object [Security],GetCAPropertyDisplayName method, GetCAPropertyDisplayName, GetCAPropertyDisplayName method [Security], GetCAPropertyDisplayName method [Security],CCertRequest object, GetCAPropertyDisplayName method [Security],ICertRequest interface, GetCAPropertyDisplayName method [Security],ICertRequest2 interface, GetCAPropertyDisplayName method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetCAPropertyDisplayName method, ICertRequest2 interface [Security],GetCAPropertyDisplayName method, ICertRequest2.GetCAPropertyDisplayName, ICertRequest2::GetCAPropertyDisplayName, ICertRequest3 interface [Security],GetCAPropertyDisplayName method, ICertRequest3::GetCAPropertyDisplayName, ICertRequest::GetCAPropertyDisplayName, _certsrv_icertrequest2_getcapropertydisplayname, certcli/ICertRequest2::GetCAPropertyDisplayName, certcli/ICertRequest3::GetCAPropertyDisplayName, certcli/ICertRequest::GetCAPropertyDisplayName, security.icertrequest2_getcapropertydisplayname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ Specifies the property identifier. For information about this parameter, see the
 
 ### -param pstrDisplayName [out, retval]
 
-A pointer to the <b>BSTR</b> that represents the property's display name. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+A pointer to the <b>BSTR</b> that represents the property's display name. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 ## -returns

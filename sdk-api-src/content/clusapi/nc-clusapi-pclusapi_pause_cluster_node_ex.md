@@ -7,8 +7,8 @@ old-location: mscs\pauseclusternodeex.htm
 old-project: mscs
 ms.assetid: 632C26C2-ED12-40DC-9615-4A09A7E2F7CB
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PCLUSAPI_PAUSE_CLUSTER_NODE_EX, PCLUSAPI_PAUSE_CLUSTER_NODE_EX callback, PCLUSAPI_PAUSE_CLUSTER_NODE_EX callback function [Failover Cluster], clusapi/PCLUSAPI_PAUSE_CLUSTER_NODE_EX, mscs.pauseclusternodeex
+ms.date: 07/12/2018
+ms.keywords: PCLUSAPI_PAUSE_CLUSTER_NODE_EX, PCLUSAPI_PAUSE_CLUSTER_NODE_EX function [Failover Cluster], PauseClusterNodeEx, PauseClusterNodeEx function [Failover Cluster], clusapi/PCLUSAPI_PAUSE_CLUSTER_NODE_EX, clusapi/PauseClusterNodeEx, mscs.pauseclusternodeex
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -35,11 +35,11 @@ api_type:
 api_location:
  -
 api_name:
- - PCLUSAPI_PAUSE_CLUSTER_NODE_EX callback
+ - PauseClusterNodeEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
 req.irql: 
 ---
 

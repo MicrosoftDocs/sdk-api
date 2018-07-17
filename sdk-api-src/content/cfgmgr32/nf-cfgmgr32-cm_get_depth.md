@@ -7,7 +7,7 @@ old-location: devinst\cm_get_depth.htm
 old-project: devinst
 ms.assetid: 4ea0a722-6d44-4690-a2e5-cb39e3fdeb1f
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: CM_Get_Depth, CM_Get_Depth function [Device and Driver Installation], cfgmgr32/CM_Get_Depth, cfgmgrfn_5b045e68-ae42-40ff-a265-693134c95c26.xml, devinst.cm_get_depth
 ms.prod: windows
 ms.technology: windows-sdk

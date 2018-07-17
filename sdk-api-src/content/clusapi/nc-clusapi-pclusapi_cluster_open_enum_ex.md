@@ -7,8 +7,8 @@ old-location: mscs\clusteropenenumex.htm
 old-project: mscs
 ms.assetid: DA35A67E-6F20-47CC-A96A-591702A79EF5
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PCLUSAPI_CLUSTER_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_OPEN_ENUM_EX callback, PCLUSAPI_CLUSTER_OPEN_ENUM_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_OPEN_ENUM_EX, mscs.clusteropenenumex
+ms.date: 07/12/2018
+ms.keywords: ClusterOpenEnumEx, ClusterOpenEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_OPEN_ENUM_EX function [Failover Cluster], clusapi/ClusterOpenEnumEx, clusapi/PCLUSAPI_CLUSTER_OPEN_ENUM_EX, mscs.clusteropenenumex
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -35,11 +35,11 @@ api_type:
 api_location:
  -
 api_name:
- - PCLUSAPI_CLUSTER_OPEN_ENUM_EX callback
+ - ClusterOpenEnumEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
 req.irql: 
 ---
 

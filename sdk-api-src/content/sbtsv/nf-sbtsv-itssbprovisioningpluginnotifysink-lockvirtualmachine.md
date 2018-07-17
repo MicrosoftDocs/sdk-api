@@ -4,10 +4,10 @@ title: ITsSbProvisioningPluginNotifySink::LockVirtualMachine
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the virtual machine is locked.
 old-location: termserv\itssbprovisioningpluginnotifysink_lockvirtualmachine.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 48eeaf06-3c6e-4c45-b5cd-9301dce7caee
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],LockVirtualMachine method, ITsSbProvisioningPluginNotifySink.LockVirtualMachine, ITsSbProvisioningPluginNotifySink::LockVirtualMachine, LockVirtualMachine, LockVirtualMachine method [Remote Desktop Services], LockVirtualMachine method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::LockVirtualMachine, termserv.itssbprovisioningpluginnotifysink_lockvirtualmachine
 ms.prod: windows
 ms.technology: windows-sdk

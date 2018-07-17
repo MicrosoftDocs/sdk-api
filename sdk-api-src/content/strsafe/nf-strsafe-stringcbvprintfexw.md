@@ -55,14 +55,14 @@ req.product: Windows XP with SP1 and later
 
 Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCbVPrintfEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/library/ms647514(v=VS.85).aspx">StringCbVPrintf</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags may also be passed to the function for additional control.
+<b>StringCbVPrintfEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/d6985910-65be-4b68-b410-026cef66c651">StringCbVPrintf</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags may also be passed to the function for additional control.
 
 <b>StringCbVPrintfEx</b> is a replacement for the following functions:
 <ul>
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=192500">vsprintf, vswprintf, _vstprintf</a></li>
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=192508">vsnprintf, _vsnwprintf, _vsntprintf</a></li>
 <li>
-<a href="https://msdn.microsoft.com/library/ms647551(v=VS.85).aspx">wvsprintf</a>
+<a href="https://msdn.microsoft.com/42edd47f-4adf-42db-a1e0-c2192f5a0f65">wvsprintf</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/a2aaaa05-d61e-41e3-8e49-7c0da1a661f0">wvnsprintf</a>
@@ -291,15 +291,15 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647513(v=VS.85).aspx">StringCbPrintfEx</a>
+<a href="https://msdn.microsoft.com/525e1fb5-9dfd-4ec2-a4af-9b9e198b6e17">StringCbPrintfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647514(v=VS.85).aspx">StringCbVPrintf</a>
+<a href="https://msdn.microsoft.com/d6985910-65be-4b68-b410-026cef66c651">StringCbVPrintf</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647548(v=VS.85).aspx">StringCchVPrintfEx</a>
+<a href="https://msdn.microsoft.com/07b4eb68-2b50-4c66-af1a-13cc57144e3a">StringCchVPrintfEx</a>
  
 
  

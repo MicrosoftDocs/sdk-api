@@ -7,7 +7,7 @@ old-location: wmformat\iwmlicenserestore_cancellicenserestore.htm
 old-project: wmformat
 ms.assetid: b8a39804-5ee6-43ab-8e89-d1008217622d
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: CancelLicenseRestore, CancelLicenseRestore method [windows Media Format], CancelLicenseRestore method [windows Media Format],IWMLicenseRestore interface, IWMLicenseRestore interface [windows Media Format],CancelLicenseRestore method, IWMLicenseRestore.CancelLicenseRestore, IWMLicenseRestore::CancelLicenseRestore, IWMLicenseRestoreCancelLicenseRestore, wmformat.iwmlicenserestore_cancellicenserestore, wmsdkidl/IWMLicenseRestore::CancelLicenseRestore
 ms.prod: windows
 ms.technology: windows-sdk

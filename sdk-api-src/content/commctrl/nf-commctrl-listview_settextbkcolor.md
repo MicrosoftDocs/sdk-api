@@ -4,10 +4,10 @@ title: ListView_SetTextBkColor macro
 author: windows-sdk-content
 description: Sets the background color of text in a list-view control. You can use this macro or send the LVM_SETTEXTBKCOLOR message explicitly.
 old-location: controls\ListView_SetTextBkColor.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settextbkcolor.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ListView_SetTextBkColor, ListView_SetTextBkColor macro [Windows Controls], _win32_ListView_SetTextBkColor, _win32_ListView_SetTextBkColor_cpp, commctrl/ListView_SetTextBkColor, controls.ListView_SetTextBkColor, controls._win32_ListView_SetTextBkColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the background color of text in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761206(v=VS.85).aspx">LVM_SETTEXTBKCOLOR</a> message explicitly. 
+Sets the background color of text in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/e51d6914-0e98-47f8-b2d8-4c2404b98242">LVM_SETTEXTBKCOLOR</a> message explicitly. 
 
 
 ## -parameters

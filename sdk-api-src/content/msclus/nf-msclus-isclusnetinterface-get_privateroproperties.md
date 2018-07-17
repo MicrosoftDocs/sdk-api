@@ -7,7 +7,7 @@ old-location: mscs\clusnetinterface_privateroproperties.htm
 old-project: mscs
 ms.assetid: 4a495832-d463-4390-b360-ce90fb5e6356
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusNetInterface object [Failover Cluster],PrivateROProperties property, ClusNetInterface.PrivateROProperties, ISClusNetInterface.get_PrivateROProperties, ISClusNetInterface::get_PrivateROProperties, PrivateROProperties property [Failover Cluster], PrivateROProperties property [Failover Cluster],ClusNetInterface object, _wolf_clusnetinterface.privateroproperties, get_PrivateROProperties, mscs.clusnetinterface_privateroproperties
 ms.prod: windows
 ms.technology: windows-sdk

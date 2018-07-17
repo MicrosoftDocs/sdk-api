@@ -7,7 +7,7 @@ old-location: mscs\clustercontrol.htm
 old-project: mscs
 ms.assetid: 7ef06c95-8d9d-4b87-a6d8-d6a2d49523ee
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusterControl, ClusterControl function [Failover Cluster], _wolf_clustercontrol, clusapi/ClusterControl, mscs.clustercontrol
 ms.prod: windows
 ms.technology: windows-sdk

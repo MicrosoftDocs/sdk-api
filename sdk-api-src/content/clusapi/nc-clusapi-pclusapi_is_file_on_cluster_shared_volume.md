@@ -7,8 +7,8 @@ old-location: mscs\isfileonclustersharedvolume.htm
 old-project: mscs
 ms.assetid: BEE71433-3408-47AA-A7EB-5E212ABC1023
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME, PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME callback, PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME callback function [Failover Cluster], clusapi/PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME, mscs.isfileonclustersharedvolume
+ms.date: 07/12/2018
+ms.keywords: IsFileOnClusterSharedVolume, IsFileOnClusterSharedVolume function [Failover Cluster], PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME, PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME function [Failover Cluster], clusapi/IsFileOnClusterSharedVolume, clusapi/PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME, mscs.isfileonclustersharedvolume
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -32,15 +32,16 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - UserDefined
+ - DllExport
 api_location:
- - ClusAPI.h
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
- - PCLUSAPI_IS_FILE_ON_CLUSTER_SHARED_VOLUME
+ - IsFileOnClusterSharedVolume
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
 req.irql: 
 ---
 

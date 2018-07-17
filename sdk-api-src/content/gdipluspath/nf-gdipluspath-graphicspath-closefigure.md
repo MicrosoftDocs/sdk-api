@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_CloseFigure_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\closefigure.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: CloseFigure, CloseFigure method [GDI+], CloseFigure method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],CloseFigure method, GraphicsPath.CloseFigure, GraphicsPath::CloseFigure, _gdiplus_CLASS_GraphicsPath_CloseFigure_, gdiplus._gdiplus_CLASS_GraphicsPath_CloseFigure_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,35 +80,35 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
+<a href="https://msdn.microsoft.com/816a5845-ca03-46c6-bdda-e6a7d02ff614">Clipping with a Region</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
+<a href="https://msdn.microsoft.com/dbfe8cea-bd9e-43ad-85c8-37cce3ef97a4">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
+<a href="https://msdn.microsoft.com/f6a8085c-3d6a-494f-a1ee-5fa96efb1aae">Creating a Path Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535528(v=VS.85).aspx">GraphicsPath::CloseAllFigures</a>
+<a href="https://msdn.microsoft.com/7f79e696-78bd-4071-81b0-2b00d95ea66e">GraphicsPath::CloseAllFigures</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535569(v=VS.85).aspx">GraphicsPath::StartFigure</a>
+<a href="https://msdn.microsoft.com/3c503ff5-6f20-45bd-b61e-13dd0f3efca5">GraphicsPath::StartFigure</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536366(v=VS.85).aspx">Open and Closed Curves</a>
+<a href="https://msdn.microsoft.com/e0fb8ba1-1783-4b36-93d8-f1242425d8bd">Open and Closed Curves</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536370(v=VS.85).aspx">Paths</a>
+<a href="https://msdn.microsoft.com/88fea2ec-7b53-44bb-841d-486c5c879c68">Paths</a>
  
 
  

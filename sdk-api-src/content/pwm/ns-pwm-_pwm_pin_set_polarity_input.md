@@ -4,10 +4,10 @@ title: "_PWM_PIN_SET_POLARITY_INPUT"
 author: windows-sdk-content
 description: Contains a desired value for polarity of a pin or channel.
 old-location: base\pwm_pin_set_polarity_input.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 346F981E-DAE1-4CEE-86A6-4416E3C293DE
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: PWM_PIN_SET_POLARITY_INPUT, PWM_PIN_SET_POLARITY_INPUT structure, _PWM_PIN_SET_POLARITY_INPUT, base.pwm_pin_set_polarity_input, pwm/PWM_PIN_SET_POLARITY_INPUT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The desired polarity for the pin or channel as a <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt843919(v=VS.85).aspx">IOCTL_PWM_PIN_SET_POLARITY</a>
+<a href="base.ioctl_ioctl_pwm_pin_set_polarity">IOCTL_PWM_PIN_SET_POLARITY</a>
 
 
 

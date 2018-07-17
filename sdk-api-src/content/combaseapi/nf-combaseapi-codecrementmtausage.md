@@ -7,7 +7,7 @@ old-location: com\codecrementmtausage.htm
 old-project: com
 ms.assetid: 66AA2783-7F24-41BB-911B-D452DF54C003
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: CoDecrementMTAUsage, CoDecrementMTAUsage function [COM], com.codecrementmtausage, combaseapi/CoDecrementMTAUsage
 ms.prod: windows
 ms.technology: windows-sdk

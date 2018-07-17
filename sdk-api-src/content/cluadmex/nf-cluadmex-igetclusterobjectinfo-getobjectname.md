@@ -7,7 +7,7 @@ old-location: mscs\igetclusterobjectinfo_getobjectname.htm
 old-project: mscs
 ms.assetid: e45f3652-74da-4d93-826d-320ddae10f49
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: GetObjectName, GetObjectName method [Failover Cluster], GetObjectName method [Failover Cluster],IGetClusterObjectInfo interface, IGetClusterObjectInfo interface [Failover Cluster],GetObjectName method, IGetClusterObjectInfo.GetObjectName, IGetClusterObjectInfo::GetObjectName, _wolf_igetclusterobjectinfo_getobjectname, cluadmex/IGetClusterObjectInfo::GetObjectName, mscs.igetclusterobjectinfo_getobjectname
 ms.prod: windows
 ms.technology: windows-sdk

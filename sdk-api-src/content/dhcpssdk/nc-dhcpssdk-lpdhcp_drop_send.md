@@ -2,13 +2,13 @@
 UID: NC:dhcpssdk.LPDHCP_DROP_SEND
 title: LPDHCP_DROP_SEND
 author: windows-sdk-content
-description: The DhcpPktDropHook function is called by Microsoft DHCP Server when a DHCP packet is dropped, or a packet is completely processed.
+description: LPDHCP_DROP_SEND callback function
 old-location: dhcp\dhcppktdrophook.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: 29fa3266-a0a7-4e17-bf15-35a454f78b12
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: DhcpPktDropHook, DhcpPktDropHook callback function [DHCP], LPDHCP_DROP_SEND, LPDHCP_DROP_SEND callback, _dhcp_dhcppktdrophook, dhcp.dhcppktdrophook, dhcpssdk/DhcpPktDropHook
+ms.date: 07/13/2018
+ms.keywords: DhcpPktDropHook, DhcpPktSendHook, LPDHCP_DROP_SEND, LPDHCP_DROP_SEND callback, LPDHCP_DROP_SEND callback function [DHCP], _dhcp_dhcppktdrophook, dhcp.dhcppktdrophook, dhcpssdk/LPDHCP_DROP_SEND
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -36,7 +36,7 @@ api_type:
 api_location:
  - Dhcpssdk.h
 api_name:
- - DhcpPktDropHook
+ - LPDHCP_DROP_SEND
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,12 +50,6 @@ req.irql:
 ## -description
 
 
-The 
-<b>DhcpPktDropHook</b> function is called by Microsoft DHCP Server when a DHCP packet is dropped, or a packet is completely processed. The 
-<b>DhcpPktDropHook</b> is implemented by a third-party DLL that registers for notification of significant Microsoft DHCP Server events.
-
-The 
-<b>DhcpPktDropHook</b> function should not block.
 
 
 ## -parameters
@@ -108,6 +102,13 @@ Return values are defined by the application providing the callback.
 ## -remarks
 
 
+
+The 
+<b>DhcpPktDropHook</b> function is called by Microsoft DHCP Server when a DHCP packet is dropped, or a packet is completely processed. The 
+<b>DhcpPktDropHook</b> is implemented by a third-party DLL that registers for notification of significant Microsoft DHCP Server events.
+
+The 
+<b>DhcpPktDropHook</b> function should not block.
 
 Third-party DLLs that register for notification of this event should be prepared to have their 
 <b>DhcpPktDropHook</b> function called multiple times for each packet. If a packet is dropped by Microsoft DHCP Server, this function is called twice for that packet: once to notify that the packet was dropped, and again to identify that the packet was completely processed.
@@ -169,6 +170,17 @@ The following table defines the possible control codes returned in the <i>Contro
 </tr>
 </table>
  
+
+The 
+<b>DhcpPktSendHook</b> function is called by Microsoft DHCP Server directly before Microsoft DHCP Server sends a response to a client. Registering for notification of 
+<b>DhcpPktSendHook</b> enables third-party developers to alter the response of the Microsoft DHCP Server by manipulation of the packet pointers. The 
+<b>DhcpPktSendHook</b> is implemented by a third-party DLL that registers for notification of significant Microsoft DHCP Server events.
+
+The 
+<b>DhcpPktSendHook</b> function should not block.
+
+The 
+<b>DhcpPktSendHook</b> function should not block.
 
 
 

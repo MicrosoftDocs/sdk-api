@@ -7,7 +7,7 @@ old-location: com\uasflags.htm
 old-project: com
 ms.assetid: cf711180-e38a-4cff-bd2d-2cfca41b376d
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: UASFLAGS, UASFLAGS enumeration [COM], UAS_BLOCKED, UAS_MASK, UAS_NOPARENTENABLE, UAS_NORMAL, _ole_UASFLAGS, com.uasflags, ocidl/UASFLAGS, ocidl/UAS_BLOCKED, ocidl/UAS_MASK, ocidl/UAS_NOPARENTENABLE, ocidl/UAS_NORMAL, tagUASFLAGS
 ms.prod: windows
 ms.technology: windows-sdk

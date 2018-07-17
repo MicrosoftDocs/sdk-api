@@ -7,7 +7,7 @@ old-location: wmformat\wm_reader_clientinfo.htm
 old-project: wmformat
 ms.assetid: 9c8d1534-976d-4a9e-9c89-368e1a11bd26
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: WM_READER_CLIENTINFO, WM_READER_CLIENTINFO structure [windows Media Format], _WMReaderClientInfo, wmformat.wm_reader_clientinfo, wmsdkidl/WM_READER_CLIENTINFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ The browser's user-agent string.
 
 ### -field wszBrowserWebPage
 
-Web page that contains the <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">plug-in</a>.
+Web page that contains the <a href="wmformat_glossary.htm">plug-in</a>.
 
 
 ### -field qwReserved

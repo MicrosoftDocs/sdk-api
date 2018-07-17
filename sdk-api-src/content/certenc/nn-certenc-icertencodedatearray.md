@@ -4,10 +4,10 @@ title: ICertEncodeDateArray
 author: windows-sdk-content
 description: Provides methods for handling Date arrays used in certificate extensions.
 old-location: security\icertencodedatearray.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 9973c49a-d886-4cc4-b75e-7ff46f56d51c
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: ICertEncodeDateArray, ICertEncodeDateArray interface [Security], ICertEncodeDateArray interface [Security],described, _certsrv_icertencodedatearray, certenc/ICertEncodeDateArray, security.icertencodedatearray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeDateArray</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertEncodeDateArray</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeDateArray</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertEncodeDateArray</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

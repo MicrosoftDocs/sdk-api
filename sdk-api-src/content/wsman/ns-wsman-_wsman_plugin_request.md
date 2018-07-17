@@ -80,7 +80,7 @@ Any call into the plug-in will have the locale on the thread set to the  locale 
 
 ### -field resourceUri
 
-Specifies the <a href="https://msdn.microsoft.com/library/Aa384465(v=VS.85).aspx">resource URI</a> for this operation.
+Specifies the <a href="windows_remote_management_glossary.htm">resource URI</a> for this operation.
 
 
 ### -field operationInfo

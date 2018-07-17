@@ -4,10 +4,10 @@ title: IAudioInputEndpointRT::ReleaseInputDataPointer
 author: windows-sdk-content
 description: Releases the acquired data pointer.
 old-location: termserv\iaudioinputendpointrt_releaseinputdatapointer.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 9dd3f72a-79fe-4d07-a301-d0960e30a2d1
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IAudioInputEndpointRT interface [Remote Desktop Services],ReleaseInputDataPointer method, IAudioInputEndpointRT.ReleaseInputDataPointer, IAudioInputEndpointRT::ReleaseInputDataPointer, ReleaseInputDataPointer, ReleaseInputDataPointer method [Remote Desktop Services], ReleaseInputDataPointer method [Remote Desktop Services],IAudioInputEndpointRT interface, audioengineendpoint/IAudioInputEndpointRT::ReleaseInputDataPointer, termserv.iaudioinputendpointrt_releaseinputdatapointer
 ms.prod: windows
 ms.technology: windows-sdk

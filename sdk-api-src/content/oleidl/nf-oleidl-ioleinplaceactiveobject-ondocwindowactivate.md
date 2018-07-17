@@ -7,7 +7,7 @@ old-location: com\ioleinplaceactiveobject_ondocwindowactivate.htm
 old-project: com
 ms.assetid: 8333d707-4d34-4a87-9990-b25597ffa9fc
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],OnDocWindowActivate method, IOleInPlaceActiveObject.OnDocWindowActivate, IOleInPlaceActiveObject::OnDocWindowActivate, OnDocWindowActivate, OnDocWindowActivate method [COM], OnDocWindowActivate method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_ondocwindowactivate, com.ioleinplaceactiveobject_ondocwindowactivate, oleidl/IOleInPlaceActiveObject::OnDocWindowActivate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ Call <b>IOleInPlaceActiveObject::OnDocWindowActivate</b> when the MDI child docu
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 You should include code in this method that installs frame-level tools during object activation. These tools include the shared composite menu and/or optional toolbars and frame adornments. You should then take focus. When deactivating, the object should remove the frame-level tools. Note that if you do not call <a href="https://msdn.microsoft.com/7c806a02-db6d-444e-a049-22c4ae2b19b0">IOleInPlaceUIWindow::SetBorderSpace</a> with pborderwidths set to <b>NULL</b>, you can avoid having to renegotiate border space.
 
-While executing <b>IOleInPlaceActiveObject::OnDocWindowActivate</b>, do not make calls to the <a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a> or <a href="https://msdn.microsoft.com/library/Aa359047(v=VS.85).aspx">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <b>IOleInPlaceActiveObject::OnDocWindowActivate</b>.
+While executing <b>IOleInPlaceActiveObject::OnDocWindowActivate</b>, do not make calls to the <a href="_win32_PeekMessage_cpp">PeekMessage</a> or <a href="_win32_GetMessage_cpp">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <b>IOleInPlaceActiveObject::OnDocWindowActivate</b>.
 
 
 
@@ -93,7 +93,7 @@ While executing <b>IOleInPlaceActiveObject::OnDocWindowActivate</b>, do not make
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa359047(v=VS.85).aspx">GetMessage</a>
+<a href="_win32_GetMessage_cpp">GetMessage</a>
 
 
 
@@ -101,7 +101,7 @@ While executing <b>IOleInPlaceActiveObject::OnDocWindowActivate</b>, do not make
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a>
+<a href="_win32_PeekMessage_cpp">PeekMessage</a>
  
 
  

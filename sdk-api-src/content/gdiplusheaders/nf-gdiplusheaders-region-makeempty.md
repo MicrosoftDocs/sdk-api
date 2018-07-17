@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_MakeEmpty_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\makeempty.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: MakeEmpty, MakeEmpty method [GDI+], MakeEmpty method [GDI+],Region class, Region class [GDI+],MakeEmpty method, Region.MakeEmpty, Region::MakeEmpty, _gdiplus_CLASS_Region_MakeEmpty_, gdiplus._gdiplus_CLASS_Region_MakeEmpty_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ The <b>Region::MakeEmpty</b> method updates this region to an empty region. In o
 Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a></b>
 </strong>
 
-If the method succeeds, it returns <a href="https://msdn.microsoft.com/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the <b>Status</b> enumeration.
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Ok</a>, which is an element of the <b>Status</b> enumeration.
 
 If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> enumeration.
 
@@ -84,11 +84,11 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534770(v=VS.85).aspx">Region::IsEmpty</a>
+<a href="https://msdn.microsoft.com/72366100-1aec-464e-8d87-0dc88413d7cb">Region::IsEmpty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534771(v=VS.85).aspx">Region::IsInfinite</a>
+<a href="https://msdn.microsoft.com/18f992cc-3f0f-49c0-991d-7b99936c5103">Region::IsInfinite</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: mscs\cluspartition_serialnumber.htm
 old-project: mscs
 ms.assetid: ffc91ad2-c3ce-4fa0-994f-2a2269dff52c
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusPartition object [Failover Cluster],SerialNumber property, ClusPartition.SerialNumber, ISClusPartition.get_SerialNumber, ISClusPartition::get_SerialNumber, SerialNumber property [Failover Cluster], SerialNumber property [Failover Cluster],ClusPartition object, _wolf_cluspartition.serialnumber, get_SerialNumber, mscs.cluspartition_serialnumber
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
 
 Returns the 
     serial number of a 
-    <a href="https://msdn.microsoft.com/library/ms682866(v=VS.85).aspx">storage class resource</a> 
+    <a href="s_gly.htm">storage class resource</a> 
     partition.
 
 This property is read-only.

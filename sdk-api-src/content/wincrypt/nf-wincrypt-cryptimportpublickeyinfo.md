@@ -4,10 +4,10 @@ title: CryptImportPublicKeyInfo function
 author: windows-sdk-content
 description: Converts and imports the public key information into the provider and returns a handle of the public key.
 old-location: security\cryptimportpublickeyinfo.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: f5f8ebb6-c838-404b-9b61-3ec36fdaef01
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CryptImportPublicKeyInfo, CryptImportPublicKeyInfo function [Security], _crypto2_cryptimportpublickeyinfo, security.cryptimportpublickeyinfo, wincrypt/CryptImportPublicKeyInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -166,7 +166,7 @@ if(pCertContext)
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

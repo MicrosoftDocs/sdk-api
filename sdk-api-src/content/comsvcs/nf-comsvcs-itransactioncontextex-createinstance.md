@@ -7,7 +7,7 @@ old-location: cos\itransactioncontextex_createinstance.htm
 old-project: cossdk
 ms.assetid: 49684f80-847b-4613-9148-dd34dc22a476
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ITransactionContextEx interface, ITransactionContextEx interface [COM+],CreateInstance method, ITransactionContextEx.CreateInstance, ITransactionContextEx::CreateInstance, _cos_ITransactionContextEx_CreateInstance, comsvcs/ITransactionContextEx::CreateInstance, cos.itransactioncontextex_createinstance
 ms.prod: windows
 ms.technology: windows-sdk

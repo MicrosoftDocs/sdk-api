@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_GetStrokeJoin_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\getstrokejoin.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: CustomLineCap class [GDI+],GetStrokeJoin method, CustomLineCap.GetStrokeJoin, CustomLineCap::GetStrokeJoin, GetStrokeJoin, GetStrokeJoin method [GDI+], GetStrokeJoin method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_GetStrokeJoin_, gdiplus._gdiplus_CLASS_CustomLineCap_GetStrokeJoin_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>CustomLineCap::GetStrokeJoin</b> method returns the style of <a href="https://msdn.microsoft.com/library/ms534148(v=VS.85).aspx">LineJoin</a> used to join multiple lines in the same <a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object.
+The <b>CustomLineCap::GetStrokeJoin</b> method returns the style of <a href="https://msdn.microsoft.com/7fd13263-10c9-45b1-99b4-a8da574a26f3">LineJoin</a> used to join multiple lines in the same <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ The <b>CustomLineCap::GetStrokeJoin</b> method returns the style of <a href="htt
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534148(v=VS.85).aspx">LineJoin</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/7fd13263-10c9-45b1-99b4-a8da574a26f3">LineJoin</a></b>
 </strong>
 
 This method returns the style of line join.
@@ -77,7 +77,7 @@ This method returns the style of line join.
 
 
 
-The <a href="https://msdn.microsoft.com/library/ms534432(v=VS.85).aspx">CustomLineCap</a> object uses a path and a stroke to define the end cap. The stroke is contained in a <a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object, which can contain more than one figure. If there is more than one figure in the <b>GraphicsPath</b> object, the stroke join determines how their joint is graphically displayed.
+The <a href="https://msdn.microsoft.com/bab33c8b-3203-4560-9e71-c112d528e20c">CustomLineCap</a> object uses a path and a stroke to define the end cap. The stroke is contained in a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object, which can contain more than one figure. If there is more than one figure in the <b>GraphicsPath</b> object, the stroke join determines how their joint is graphically displayed.
 
 
 #### Examples
@@ -85,7 +85,7 @@ The <a href="https://msdn.microsoft.com/library/ms534432(v=VS.85).aspx">CustomLi
 
 
 
-			The following example creates a <a href="https://msdn.microsoft.com/library/ms534432(v=VS.85).aspx">CustomLineCap</a> object with a stroke join. It then gets the stroke join and assigns it as the line join of a  <a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object that it then uses to draw a line.
+			The following example creates a <a href="https://msdn.microsoft.com/bab33c8b-3203-4560-9e71-c112d528e20c">CustomLineCap</a> object with a stroke join. It then gets the stroke join and assigns it as the line join of a  <a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object that it then uses to draw a line.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -131,15 +131,15 @@ The <a href="https://msdn.microsoft.com/library/ms534432(v=VS.85).aspx">CustomLi
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534432(v=VS.85).aspx">CustomLineCap</a>
+<a href="https://msdn.microsoft.com/bab33c8b-3203-4560-9e71-c112d528e20c">CustomLineCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534146(v=VS.85).aspx">LineCap</a>
+<a href="https://msdn.microsoft.com/e72e402b-3cb7-4fc7-9050-ce00054da352">LineCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534148(v=VS.85).aspx">LineJoin</a>
+<a href="https://msdn.microsoft.com/7fd13263-10c9-45b1-99b4-a8da574a26f3">LineJoin</a>
  
 
  

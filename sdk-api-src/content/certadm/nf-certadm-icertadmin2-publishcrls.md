@@ -4,10 +4,10 @@ title: ICertAdmin2::PublishCRLs
 author: windows-sdk-content
 description: Publishes certificate revocation lists (CRLs) for a certification authority (CA).
 old-location: security\icertadmin2_publishcrls.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 27f9e991-bf2a-47f3-8f95-b56092fed7d0
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CA_CRL_BASE, CA_CRL_DELTA, CA_CRL_REPUBLISH, CCertAdmin2 object [Security],PublishCRLs method, ICertAdmin2 interface [Security],PublishCRLs method, ICertAdmin2.PublishCRLs, ICertAdmin2::PublishCRLs, PublishCRLs, PublishCRLs method [Security], PublishCRLs method [Security],CCertAdmin2 object, PublishCRLs method [Security],ICertAdmin2 interface, _certsrv_icertadmin2_publishcrls, certadm/ICertAdmin2::PublishCRLs, security.icertadmin2_publishcrls
 ms.prod: windows
 ms.technology: windows-sdk

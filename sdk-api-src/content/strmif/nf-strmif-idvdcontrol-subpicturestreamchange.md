@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_subpicturestreamchange.htm
 old-project: DirectShow
 ms.assetid: 527031fa-bab9-49f5-89b1-f0c5c5812a76
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IDvdControl interface [DirectShow],SubpictureStreamChange method, IDvdControl.SubpictureStreamChange, IDvdControl::SubpictureStreamChange, IDvdControlSubpictureStreamChange, SubpictureStreamChange, SubpictureStreamChange method [DirectShow], SubpictureStreamChange method [DirectShow],IDvdControl interface, dshow.idvdcontrol_subpicturestreamchange, strmif/IDvdControl::SubpictureStreamChange
 ms.prod: windows
 ms.technology: windows-sdk

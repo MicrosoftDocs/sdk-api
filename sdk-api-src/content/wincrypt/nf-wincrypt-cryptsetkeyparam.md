@@ -4,10 +4,10 @@ title: CryptSetKeyParam function
 author: windows-sdk-content
 description: Customizes various aspects of a session key's operations.
 old-location: security\cryptsetkeyparam.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: e99a84a2-c23e-4251-8062-dd286ccc29b7
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CryptSetKeyParam, CryptSetKeyParam function [Security], KP_ALGID, KP_CERTIFICATE, KP_CMS_DH_KEY_INFO, KP_EFFECTIVE_KEYLEN, KP_G, KP_HIGHEST_VERSION, KP_IV, KP_KEYVAL, KP_MODE, KP_MODE_BITS, KP_OAEP_PARAMS, KP_P, KP_PADDING, KP_PERMISSIONS, KP_PUB_PARAMS, KP_Q, KP_SALT, KP_SALT_EX, KP_X, _crypto2_cryptsetkeyparam, security.cryptsetkeyparam, wincrypt/CryptSetKeyParam
 ms.prod: windows
 ms.technology: windows-sdk
@@ -548,7 +548,7 @@ For more code that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Key Generation and Exchange Functions</a>
+<a href="cryptography_functions.htm">Key Generation and Exchange Functions</a>
  
 
  

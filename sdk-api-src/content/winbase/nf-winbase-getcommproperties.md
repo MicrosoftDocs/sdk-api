@@ -4,10 +4,10 @@ title: GetCommProperties function
 author: windows-sdk-content
 description: Retrieves information about the communications properties for a specified communications device.
 old-location: base\getcommproperties.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: dbbf55d6-d369-4b28-bdc7-1fd9a736e658
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: GetCommProperties, GetCommProperties function, _win32_getcommproperties, base.getcommproperties, winbase/GetCommProperties
 ms.prod: windows
 ms.technology: windows-sdk

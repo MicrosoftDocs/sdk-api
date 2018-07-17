@@ -4,10 +4,10 @@ title: CreateThreadpoolIo function
 author: windows-sdk-content
 description: Creates a new I/O completion object.
 old-location: base\createthreadpoolio.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 621f4747-50fa-4538-bd6a-dbe4dbb05dd1
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: CreateThreadpoolIo, CreateThreadpoolIo function, base.createthreadpoolio, threadpoolapiset/CreateThreadpoolIo, winbase/CreateThreadpoolIo
 ms.prod: windows
 ms.technology: windows-sdk

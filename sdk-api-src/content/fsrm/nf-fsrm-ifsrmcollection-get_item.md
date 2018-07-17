@@ -4,10 +4,10 @@ title: IFsrmCollection::get_Item
 author: windows-sdk-content
 description: Retrieves the requested item from the collection.
 old-location: fsrm\ifsrmcollection_item.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 95d35117-b9fb-46ae-b392-aa0c12717359
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IFsrmCollection interface [File Server Resource Manager],Item property, IFsrmCollection.Item, IFsrmCollection.get_Item, IFsrmCollection::Item, IFsrmCollection::get_Item, Item property [File Server Resource Manager], Item property [File Server Resource Manager],IFsrmCollection interface, fs.ifsrmcollection_item, fsrm.ifsrmcollection_item, fsrm/IFsrmCollection::Item, fsrm/IFsrmCollection::get_Item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk

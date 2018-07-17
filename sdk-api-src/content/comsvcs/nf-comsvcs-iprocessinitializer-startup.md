@@ -7,7 +7,7 @@ old-location: cos\iprocessinitializer_startup.htm
 old-project: cossdk
 ms.assetid: 0ba8844e-a1ef-4a1a-aef6-abd828ec59b0
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: IProcessInitializer interface [COM+],Startup method, IProcessInitializer.Startup, IProcessInitializer::Startup, Startup, Startup method [COM+], Startup method [COM+],IProcessInitializer interface, _cos_IProcessInitializer_Startup, comsvcs/IProcessInitializer::Startup, cos.iprocessinitializer_startup
 ms.prod: windows
 ms.technology: windows-sdk

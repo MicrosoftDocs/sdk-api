@@ -7,7 +7,7 @@ old-location: devinst\cm_get_log_conf_priority.htm
 old-project: devinst
 ms.assetid: 0db6c2f4-2d44-49ad-a1cc-f29a5088c74c
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: CM_Get_Log_Conf_Priority, CM_Get_Log_Conf_Priority function [Device and Driver Installation], cfgmgr32/CM_Get_Log_Conf_Priority, cfgmgrfn_23c7a94b-fd43-493e-ae6b-56ce7c69278b.xml, devinst.cm_get_log_conf_priority
 ms.prod: windows
 ms.technology: windows-sdk

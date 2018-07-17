@@ -4,10 +4,10 @@ title: WLAN_STATISTICS
 author: windows-sdk-content
 description: Assorted statistics about an interface.
 old-location: nwifi\wlan_statistics.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: d66d89f1-bb12-4c2e-8c7a-a4eba008955d
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*PWLAN_STATISTICS, PWLAN_STATISTICS, PWLAN_STATISTICS structure pointer [NativeWIFI], WLAN_STATISTICS, WLAN_STATISTICS structure [NativeWIFI], nwifi.wlan_statistics, wlanapi/PWLAN_STATISTICS, wlanapi/WLAN_STATISTICS"
 ms.prod: windows
 ms.technology: windows-sdk

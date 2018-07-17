@@ -4,10 +4,10 @@ title: CertSrvBackupOpenFileW function
 author: windows-sdk-content
 description: Opens a file for backup.
 old-location: security\certsrvbackupopenfile.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 5ddce73f-c693-437a-9eae-d7eaf482ee05
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CertSrvBackupOpenFile, CertSrvBackupOpenFile function [Security], CertSrvBackupOpenFileW, _certsrv_certsrvbackupopenfile, certbcli/CertSrvBackupOpenFile, certbcli/CertSrvBackupOpenFileW, security.certsrvbackupopenfile
 ms.prod: windows
 ms.technology: windows-sdk

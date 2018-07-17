@@ -7,7 +7,7 @@ old-location: security\installresponserestrictionflags_enum.htm
 old-project: seccertenroll
 ms.assetid: 070cadd8-08cf-44ce-a8b7-39a4fb11e724
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: AllowNoOutstandingRequest, AllowNone, AllowUntrustedCertificate, AllowUntrustedRoot, InstallResponseRestrictionFlags, InstallResponseRestrictionFlags enumeration [Security], certenroll/AllowNoOutstandingRequest, certenroll/AllowNone, certenroll/AllowUntrustedCertificate, certenroll/AllowUntrustedRoot, certenroll/InstallResponseRestrictionFlags, security.installresponserestrictionflags_enum
 ms.prod: windows
 ms.technology: windows-sdk

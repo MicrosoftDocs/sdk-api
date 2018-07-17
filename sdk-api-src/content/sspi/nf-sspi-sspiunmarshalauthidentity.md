@@ -4,10 +4,10 @@ title: SspiUnmarshalAuthIdentity function
 author: windows-sdk-content
 description: Deserializes the specified array of byte values into an identity structure.
 old-location: security\sspiunmarshalauthidentity.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 89798b37-808a-4174-8362-a2dc4ee1b460
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: SspiUnmarshalAuthIdentity, SspiUnmarshalAuthIdentity function [Security], security.sspiunmarshalauthidentity, sspi/SspiUnmarshalAuthIdentity
 ms.prod: windows
 ms.technology: windows-sdk

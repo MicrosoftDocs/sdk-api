@@ -7,8 +7,8 @@ old-location: mscs\registerappinstance.htm
 old-project: mscs
 ms.assetid: 43CAC59A-5773-44BD-8965-F9FB85B86926
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PREGISTER_APPINSTANCE, PREGISTER_APPINSTANCE callback, PREGISTER_APPINSTANCE callback function [Failover Cluster], mscs.registerappinstance, smbclnt/PREGISTER_APPINSTANCE
+ms.date: 07/12/2018
+ms.keywords: PREGISTER_APPINSTANCE, PREGISTER_APPINSTANCE function [Failover Cluster], RegisterAppInstance, RegisterAppInstance function [Failover Cluster], mscs.registerappinstance, smbclnt/PREGISTER_APPINSTANCE, smbclnt/RegisterAppInstance
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -32,15 +32,15 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - UserDefined
+ - DllExport
 api_location:
- - SmbClnt.h
+ - NTLanMan.dll
 api_name:
- - PREGISTER_APPINSTANCE
+ - RegisterAppInstance
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: NTLanMan.lib
+req.dll: NTLanMan.dll
 req.irql: 
 req.product: Outlook Express 6.0
 ---
@@ -97,7 +97,7 @@ Returns DWORD that ...
 
 
 
-The <i>RegisterAppInstance</i> function issues an 
+The <b>RegisterAppInstance</b> function issues an 
      <b>IOCTL_CCF_REGISTER_APPINSTANCE</b> call to the CCF mini-filter. The function 
      passes the <i>AppInstance</i> <b>GUID</b>, the 
      process handle, and the tagged child processes to the CCF cache that maps the process handle to the 

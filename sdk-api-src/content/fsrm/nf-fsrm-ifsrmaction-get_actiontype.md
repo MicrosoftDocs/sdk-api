@@ -4,10 +4,10 @@ title: IFsrmAction::get_ActionType
 author: windows-sdk-content
 description: Retrieves the action's type.
 old-location: fsrm\ifsrmaction_actiontype.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 7ce0bafb-8076-4a0d-bd59-9e2d436f74c1
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: ActionType property [File Server Resource Manager], ActionType property [File Server Resource Manager],IFsrmAction interface, IFsrmAction interface [File Server Resource Manager],ActionType property, IFsrmAction.ActionType, IFsrmAction.get_ActionType, IFsrmAction::ActionType, IFsrmAction::get_ActionType, fs.ifsrmaction_actiontype, fsrm.ifsrmaction_actiontype, fsrm/IFsrmAction::ActionType, fsrm/IFsrmAction::get_ActionType, get_ActionType
 ms.prod: windows
 ms.technology: windows-sdk

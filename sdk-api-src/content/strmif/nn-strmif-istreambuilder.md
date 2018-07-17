@@ -7,7 +7,7 @@ old-location: dshow\istreambuilder.htm
 old-project: DirectShow
 ms.assetid: 233821e9-9916-4047-a554-4ff43769819f
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IStreamBuilder, IStreamBuilder interface [DirectShow], IStreamBuilder interface [DirectShow],described, IStreamBuilderInterface, dshow.istreambuilder, strmif/IStreamBuilder
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IFsrmFileManagementJob::put_DaysSinceFileCreated
 author: windows-sdk-content
 description: The number of days that have elapsed since the file was created.
 old-location: fsrm\ifsrmfilemanagementjob_dayssincefilecreated.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: f897321f-3e32-4965-b6c0-33d156601481
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: DaysSinceFileCreated property [File Server Resource Manager], DaysSinceFileCreated property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],DaysSinceFileCreated property, IFsrmFileManagementJob.DaysSinceFileCreated, IFsrmFileManagementJob.put_DaysSinceFileCreated, IFsrmFileManagementJob::DaysSinceFileCreated, IFsrmFileManagementJob::get_DaysSinceFileCreated, IFsrmFileManagementJob::put_DaysSinceFileCreated, fs.ifsrmfilemanagementjob_dayssincefilecreated, fsrm.ifsrmfilemanagementjob_dayssincefilecreated, fsrmreports/IFsrmFileManagementJob::DaysSinceFileCreated, fsrmreports/IFsrmFileManagementJob::get_DaysSinceFileCreated, fsrmreports/IFsrmFileManagementJob::put_DaysSinceFileCreated, put_DaysSinceFileCreated
 ms.prod: windows
 ms.technology: windows-sdk

@@ -91,7 +91,7 @@ D3D10_SHADER_MACRO Shader_Macros[1] = { "zero", "0"  };
 </td>
 </tr>
 </table></span></div>
-There are several shader or effect creation methods (such as <a href="https://msdn.microsoft.com/library/Bb205084(v=VS.85).aspx">D3D10CompileShader</a>, <a href="https://msdn.microsoft.com/library/Bb172658(v=VS.85).aspx">D3DX10CreateEffectFromFile</a> or <a href="https://msdn.microsoft.com/library/Bb172681(v=VS.85).aspx">D3DX10PreprocessShaderFromFile</a>) that take an array of macros as an input parameter.
+There are several shader or effect creation methods (such as <a href="https://msdn.microsoft.com/c81b06ba-129a-468e-8f39-a9ed7f9368b1">D3D10CompileShader</a>, <a href="https://msdn.microsoft.com/1418857e-bda1-4ffb-bbb9-dfa3709313b1">D3DX10CreateEffectFromFile</a> or <a href="https://msdn.microsoft.com/9f609aa5-5ee7-45fb-9693-69de130b6cc0">D3DX10PreprocessShaderFromFile</a>) that take an array of macros as an input parameter.
 
 The      <b>D3D10_SHADER_MACRO</b> structure is type defined in the  D3D10shader.h header file as a <a href="https://msdn.microsoft.com/8cfe0b3c-5ce8-4d59-8fd9-0fdf200c9552">D3D_SHADER_MACRO</a> structure, which is fully defined in the  D3DCommon.h header file.
 

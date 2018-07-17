@@ -4,10 +4,10 @@ title: "_OLD_LARGE_INTEGER"
 author: windows-sdk-content
 description: Is used to represent a 64-bit signed integer value as two 32-bit integers.
 old-location: security\old_large_integer.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: d2becc03-10ed-4741-97a4-53f900f0e675
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*POLD_LARGE_INTEGER, OLD_LARGE_INTEGER, OLD_LARGE_INTEGER structure [Security], POLD_LARGE_INTEGER, POLD_LARGE_INTEGER structure pointer [Security], _OLD_LARGE_INTEGER, security.old_large_integer, subauth/OLD_LARGE_INTEGER, subauth/POLD_LARGE_INTEGER"
 ms.prod: windows
 ms.technology: windows-sdk

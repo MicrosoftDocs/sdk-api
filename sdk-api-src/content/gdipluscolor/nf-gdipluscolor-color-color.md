@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Color_Color_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colorconstructors\color_31.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Color, Color class [GDI+],Color constructor, Color constructor [GDI+], Color constructor [GDI+],Color class, Color.Color, Color.Color(), Color::Color, _gdiplus_CLASS_Color_Color_, gdiplus._gdiplus_CLASS_Color_Color_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Creates a <b>Color::Color</b> object and initializes it to opaque black. This is
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536243(v=VS.85).aspx">Color Constructors</a>
+<a href="https://msdn.microsoft.com/ebd68c22-9b00-4a8e-9954-e8b0eda764f8">Color Constructors</a>
  
 
  

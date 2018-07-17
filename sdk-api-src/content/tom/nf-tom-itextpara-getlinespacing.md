@@ -4,10 +4,10 @@ title: ITextPara::GetLineSpacing
 author: windows-sdk-content
 description: Retrieves the line-spacing value for the text range.
 old-location: controls\ITextPara_GetLineSpacing.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlinespacing.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: GetLineSpacing, GetLineSpacing method [Windows Controls], GetLineSpacing method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetLineSpacing method, ITextPara.GetLineSpacing, ITextPara::GetLineSpacing, _win32_ITextPara_GetLineSpacing, _win32_ITextPara_GetLineSpacing_cpp, controls.ITextPara_GetLineSpacing, controls._win32_ITextPara_GetLineSpacing, tom/ITextPara::GetLineSpacing
 ms.prod: windows
 ms.technology: windows-sdk
@@ -155,7 +155,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-To retrieve the line-spacing rule, call the <a href="https://msdn.microsoft.com/library/Bb773981(v=VS.85).aspx">ITextPara::GetLineSpacingRule</a> method.
+To retrieve the line-spacing rule, call the <a href="https://msdn.microsoft.com/65a1b836-4f90-4b9b-8adc-68ace163df6a">ITextPara::GetLineSpacingRule</a> method.
 
 
 
@@ -169,11 +169,11 @@ To retrieve the line-spacing rule, call the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773981(v=VS.85).aspx">GetLineSpacingRule</a>
+<a href="https://msdn.microsoft.com/65a1b836-4f90-4b9b-8adc-68ace163df6a">GetLineSpacingRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -181,11 +181,11 @@ To retrieve the line-spacing rule, call the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774169(v=VS.85).aspx">SetLineSpacing</a>
+<a href="https://msdn.microsoft.com/36ef5af4-90dd-4185-92c9-5c4e88bf5ec2">SetLineSpacing</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

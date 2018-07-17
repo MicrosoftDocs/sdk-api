@@ -4,10 +4,10 @@ title: WSACancelAsyncRequest function
 author: windows-sdk-content
 description: The WSACancelAsyncRequest function cancels an incomplete asynchronous operation.
 old-location: winsock\wsacancelasyncrequest_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 0e53eccf-ef85-43ec-a02c-12896471a7a9
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WSACancelAsyncRequest, WSACancelAsyncRequest function [Winsock], _win32_wsacancelasyncrequest_2, winsock.wsacancelasyncrequest_2, winsock/WSACancelAsyncRequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ Handle that specifies the asynchronous operation to be canceled.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -95,7 +95,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -106,7 +106,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -117,7 +117,7 @@ Indicates that the specified asynchronous task handle was invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -128,7 +128,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEALREADY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEALREADY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -140,8 +140,8 @@ The asynchronous routine being canceled has already completed.
  
 
 <div class="alert"><b>Note</b>  It is unclear whether the application can usefully distinguish between 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a> and 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEALREADY</a>, since in both cases the error indicates that there is no asynchronous operation in progress with the indicated handle. (Trivial exception: zero is always an invalid asynchronous task handle.) The Windows Sockets specification does not prescribe how a conformant Windows Sockets provider should distinguish between the two cases. For maximum portability, a Windows Sockets application should treat the two errors as equivalent.</div>
+<a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a> and 
+<a href="windows_sockets_error_codes_2.htm">WSAEALREADY</a>, since in both cases the error indicates that there is no asynchronous operation in progress with the indicated handle. (Trivial exception: zero is always an invalid asynchronous task handle.) The Windows Sockets specification does not prescribe how a conformant Windows Sockets provider should distinguish between the two cases. For maximum portability, a Windows Sockets application should treat the two errors as equivalent.</div>
 <div> </div>
 
 
@@ -155,7 +155,7 @@ The
 <a href="https://msdn.microsoft.com/1a2b9c76-6e84-4ac2-b5c1-a2268edd0c49">WSAAsyncGetHostByName</a>. The operation to be canceled is identified by the <i>hAsyncTaskHandle</i> parameter, which should be set to the asynchronous task handle as returned by the initiating <b>WSAAsyncGetXByY</b> function.
 
 An attempt to cancel an existing asynchronous <b>WSAAsyncGetXByY</b> operation can fail with an error code of 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEALREADY</a> for two reasons. First, the original operation has already completed and the application has dealt with the resultant message. Second, the original operation has already completed but the resultant message is still waiting in the application window queue.
+<a href="windows_sockets_error_codes_2.htm">WSAEALREADY</a> for two reasons. First, the original operation has already completed and the application has dealt with the resultant message. Second, the original operation has already completed but the resultant message is still waiting in the application window queue.
 
 
 

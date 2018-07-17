@@ -95,15 +95,15 @@ The <b>DestroyCursor</b> function destroys a nonshared cursor. Do not use this f
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="https://msdn.microsoft.com/302f9238-4b03-4688-8b9b-a598beffb575">LoadCursor</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/ms648392(v=VS.85).aspx">LoadCursorFromFile</a>
+<a href="https://msdn.microsoft.com/3b44be8d-5a68-4b0f-ba86-7a0decf01c5a">LoadCursorFromFile</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/ms648045(v=VS.85).aspx">LoadImage</a> (if you use the <b>LR_SHARED</b> flag) </li>
+<a href="https://msdn.microsoft.com/27a18763-60e0-4a91-9262-807ea2b67416">LoadImage</a> (if you use the <b>LR_SHARED</b> flag) </li>
 <li>
-<a href="https://msdn.microsoft.com/library/ms648031(v=VS.85).aspx">CopyImage</a> (if you use the <b>LR_COPYRETURNORG</b> flag and the <i>hImage</i> parameter is a shared cursor) </li>
+<a href="https://msdn.microsoft.com/3912d9e3-f507-4046-80fd-12e76a61edc7">CopyImage</a> (if you use the <b>LR_COPYRETURNORG</b> flag and the <i>hImage</i> parameter is a shared cursor) </li>
 </ul>
 
 
@@ -117,31 +117,31 @@ The <b>DestroyCursor</b> function destroys a nonshared cursor. Do not use this f
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648384(v=VS.85).aspx">CopyCursor</a>
+<a href="https://msdn.microsoft.com/2ae1ee3e-5114-4712-a2a8-b413b83bb58c">CopyCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648031(v=VS.85).aspx">CopyImage</a>
+<a href="https://msdn.microsoft.com/3912d9e3-f507-4046-80fd-12e76a61edc7">CopyImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648385(v=VS.85).aspx">CreateCursor</a>
+<a href="https://msdn.microsoft.com/8a5bb069-4c2b-4924-9455-e6c91fef8461">CreateCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://msdn.microsoft.com/d24e21f2-224d-4f32-aa0b-70844e3628ad">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="https://msdn.microsoft.com/302f9238-4b03-4688-8b9b-a598beffb575">LoadCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648392(v=VS.85).aspx">LoadCursorFromFile</a>
+<a href="https://msdn.microsoft.com/3b44be8d-5a68-4b0f-ba86-7a0decf01c5a">LoadCursorFromFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648045(v=VS.85).aspx">LoadImage</a>
+<a href="https://msdn.microsoft.com/27a18763-60e0-4a91-9262-807ea2b67416">LoadImage</a>
 
 
 

@@ -4,10 +4,10 @@ title: ITsSbBaseNotifySink::OnReportStatus
 author: windows-sdk-content
 description: Sends status messages to the Remote Desktop Connection (RDC) client regarding the processing of a client connection.
 old-location: termserv\itssbbasenotifysink_onreportstatus.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 4bde8375-b03a-44b8-9ba5-bc15277f3a4a
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: CLIENT_MESSAGE_CONNECTION_ERROR, CLIENT_MESSAGE_CONNECTION_STATUS, ITsSbBaseNotifySink interface [Remote Desktop Services],OnReportStatus method, ITsSbBaseNotifySink.OnReportStatus, ITsSbBaseNotifySink::OnReportStatus, OnReportStatus, OnReportStatus method [Remote Desktop Services], OnReportStatus method [Remote Desktop Services],ITsSbBaseNotifySink interface, TS_STATUS_VM_BOOTING, TS_STATUS_VM_LOADING, TS_STATUS_VM_WAKING, sbtsv/ITsSbBaseNotifySink::OnReportStatus, termserv.itssbbasenotifysink_onreportstatus
 ms.prod: windows
 ms.technology: windows-sdk

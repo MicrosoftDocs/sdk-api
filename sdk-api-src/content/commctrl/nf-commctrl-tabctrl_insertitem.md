@@ -4,10 +4,10 @@ title: TabCtrl_InsertItem macro
 author: windows-sdk-content
 description: Inserts a new tab in a tab control. You can use this macro or send the TCM_INSERTITEM message explicitly.
 old-location: controls\TabCtrl_InsertItem.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_insertitem.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: TabCtrl_InsertItem, TabCtrl_InsertItem macro [Windows Controls], _win32_TabCtrl_InsertItem, _win32_TabCtrl_InsertItem_cpp, commctrl/TabCtrl_InsertItem, controls.TabCtrl_InsertItem, controls._win32_TabCtrl_InsertItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Inserts a new tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760606(v=VS.85).aspx">TCM_INSERTITEM</a> message explicitly. 
+Inserts a new tab in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/e547c49a-699c-4137-8680-20391d138d54">TCM_INSERTITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -76,5 +76,5 @@ Index of the new tab.
 
 Type: <b>const LPTCITEM</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb760554(v=VS.85).aspx">TCITEM</a> structure that specifies the attributes of the tab. The <b>dwState</b> and <b>dwStateMask</b> members of this structure are ignored by this message. 
+Pointer to a <a href="https://msdn.microsoft.com/e08c4528-5874-492c-97be-dfdf5f5636a9">TCITEM</a> structure that specifies the attributes of the tab. The <b>dwState</b> and <b>dwStateMask</b> members of this structure are ignored by this message. 
 

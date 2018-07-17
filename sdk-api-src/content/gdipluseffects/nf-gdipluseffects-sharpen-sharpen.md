@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Sharpen_Sharpen_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sharpenclass\sharpenconstructors\sharpen.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Sharpen, Sharpen class [GDI+],Sharpen constructor, Sharpen constructor [GDI+], Sharpen constructor [GDI+],Sharpen class, Sharpen.Sharpen, Sharpen::Sharpen, _gdiplus_CLASS_Sharpen_Sharpen_, gdiplus._gdiplus_CLASS_Sharpen_Sharpen_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/library/ms534503(v=VS.85).aspx">Sharpen</a> object. 
+Creates a <a href="https://msdn.microsoft.com/28d30f3d-5e55-4d65-bbc2-6fa2e049f349">Sharpen</a> object. 
 
 
 ## -parameters
@@ -66,15 +66,15 @@ Creates a <a href="https://msdn.microsoft.com/library/ms534503(v=VS.85).aspx">Sh
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534503(v=VS.85).aspx">Sharpen</a>
+<a href="https://msdn.microsoft.com/28d30f3d-5e55-4d65-bbc2-6fa2e049f349">Sharpen</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534758(v=VS.85).aspx">Sharpen::SetParameters</a>
+<a href="https://msdn.microsoft.com/279fee59-6fcf-4a9d-b16e-e6de6b5977c1">Sharpen::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534073(v=VS.85).aspx">SharpenParams</a>
+<a href="https://msdn.microsoft.com/9a3dd5ec-789b-4191-a680-6d85c12ab97b">SharpenParams</a>
  
 
  

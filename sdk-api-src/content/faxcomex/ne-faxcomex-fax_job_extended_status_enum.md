@@ -169,7 +169,7 @@ Obsolete. For information about proprietary extended status codes, see <a href="
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686029(v=VS.85).aspx">ExtendedStatusCode</a>
+<a href="https://msdn.microsoft.com/15333cd3-e71a-451c-ae93-9e217ea0895c">ExtendedStatusCode</a>
 
 
 

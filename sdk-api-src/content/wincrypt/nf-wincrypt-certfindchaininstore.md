@@ -4,10 +4,10 @@ title: CertFindChainInStore function
 author: windows-sdk-content
 description: Finds the first or next certificate in a store that meets the specified criteria.
 old-location: security\certfindchaininstore.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 698cece8-71a8-4bfa-8ee6-8035a6dcbe05
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CERT_CHAIN_FIND_BY_ISSUER, CERT_CHAIN_FIND_BY_ISSUER_CACHE_ONLY_FLAG, CERT_CHAIN_FIND_BY_ISSUER_CACHE_ONLY_URL_FLAG, CERT_CHAIN_FIND_BY_ISSUER_COMPARE_KEY_FLAG, CERT_CHAIN_FIND_BY_ISSUER_COMPLEX_CHAIN_FLAG, CERT_CHAIN_FIND_BY_ISSUER_LOCAL_MACHINE_FLAG, CERT_CHAIN_FIND_BY_ISSUER_NO_KEY_FLAG, CertFindChainInStore, CertFindChainInStore function [Security], X509_ASN_ENCODING, _crypto2_certfindchaininstore, security.certfindchaininstore, wincrypt/CertFindChainInStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -251,7 +251,7 @@ The <i>pPrevChainContext</i> parameter must be <b>NULL</b> on the first call to 
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a>
+<a href="cryptography_functions.htm">Certificate Chain Verification Functions</a>
  
 
  

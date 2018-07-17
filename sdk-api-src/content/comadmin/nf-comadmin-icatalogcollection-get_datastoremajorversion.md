@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_datastoremajorversion.htm
 old-project: cossdk
 ms.assetid: 846f4966-ff58-46b5-a56a-dc14f64fcae7
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: DataStoreMajorVersion property [COM+], DataStoreMajorVersion property [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],DataStoreMajorVersion property, ICatalogCollection.DataStoreMajorVersion, ICatalogCollection.get_DataStoreMajorVersion, ICatalogCollection::DataStoreMajorVersion, ICatalogCollection::get_DataStoreMajorVersion, _cos_ICatalogCollection_get_DataStoreMajorVersion, comadmin/ICatalogCollection::DataStoreMajorVersion, comadmin/ICatalogCollection::get_DataStoreMajorVersion, cos.icatalogcollection_datastoremajorversion, get_DataStoreMajorVersion
 ms.prod: windows
 ms.technology: windows-sdk

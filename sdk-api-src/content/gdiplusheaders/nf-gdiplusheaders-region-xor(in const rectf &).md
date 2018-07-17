@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Xor_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionxormethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Region.Xor, Region.Xor(IN const RectF &), Region::Xor, Region::Xor(IN const RectF &), Xor, Xor methods [GDI+], _gdiplus_CLASS_Region_Xor_Methods, gdiplus._gdiplus_CLASS_Region_Xor_Methods, gdiplusheaders/Xor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 <span>This topic lists the 
-			Xor methods of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn915769">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/library/ms534761(v=VS.85).aspx">Region Methods</a>.  
+			Xor methods of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn915769">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/bbaa4027-94aa-497f-8efb-a82d251847af">Region Methods</a>.  
 
 </span><h3>Overload list</h3><table>
 <tr>
@@ -61,37 +61,37 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534787(v=VS.85).aspx">Xor(Rect&)</a>
+<a href="https://msdn.microsoft.com/06a4b045-996c-4f99-8bce-ec42ea09c170">Xor(Rect&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534787(v=VS.85).aspx">Region::Xor</a> method updates this region to the nonintersecting portions of itself and the specified rectangle's interior.
+The <a href="https://msdn.microsoft.com/06a4b045-996c-4f99-8bce-ec42ea09c170">Region::Xor</a> method updates this region to the nonintersecting portions of itself and the specified rectangle's interior.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534786(v=VS.85).aspx">Xor(RectF&)</a>
+<a href="https://msdn.microsoft.com/36b37252-3f26-4b2c-af60-eaedfbb8a954">Xor(RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534786(v=VS.85).aspx">Region::Xor</a> method updates this region to the nonintersecting portions of itself and the specified rectangle's interior.
+The <a href="https://msdn.microsoft.com/36b37252-3f26-4b2c-af60-eaedfbb8a954">Region::Xor</a> method updates this region to the nonintersecting portions of itself and the specified rectangle's interior.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534788(v=VS.85).aspx">Xor(Region*)</a>
+<a href="https://msdn.microsoft.com/f3c06c92-7c53-468d-8397-acb6ec42f4f0">Xor(Region*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534788(v=VS.85).aspx">Region::Xor</a> method updates this region to the nonintersecting portions of itself and another region.
+The <a href="https://msdn.microsoft.com/f3c06c92-7c53-468d-8397-acb6ec42f4f0">Region::Xor</a> method updates this region to the nonintersecting portions of itself and another region.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534785(v=VS.85).aspx">Xor(GraphicsPath*)</a>
+<a href="https://msdn.microsoft.com/d7255a65-aeff-4e7c-848b-67aecd7af864">Xor(GraphicsPath*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534785(v=VS.85).aspx">Region::Xor</a> method updates this region to the nonintersecting portions of itself and the specified path's interior.
+The <a href="https://msdn.microsoft.com/d7255a65-aeff-4e7c-848b-67aecd7af864">Region::Xor</a> method updates this region to the nonintersecting portions of itself and the specified path's interior.
 
 </td>
 </tr>

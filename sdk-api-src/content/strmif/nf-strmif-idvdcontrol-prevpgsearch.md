@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_prevpgsearch.htm
 old-project: DirectShow
 ms.assetid: 8e2d0531-23be-471b-8094-d21771209c79
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IDvdControl interface [DirectShow],PrevPGSearch method, IDvdControl.PrevPGSearch, IDvdControl::PrevPGSearch, IDvdControlPrevPGSearch, PrevPGSearch, PrevPGSearch method [DirectShow], PrevPGSearch method [DirectShow],IDvdControl interface, dshow.idvdcontrol_prevpgsearch, strmif/IDvdControl::PrevPGSearch
 ms.prod: windows
 ms.technology: windows-sdk

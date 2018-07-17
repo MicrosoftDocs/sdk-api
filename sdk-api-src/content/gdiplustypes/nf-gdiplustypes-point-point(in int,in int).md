@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Point_Point_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointconstructors\point_14.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Point, Point class [GDI+],Point constructor, Point constructor [GDI+], Point constructor [GDI+],Point class, Point.Point, Point.Point(), Point.Point(IN INT,IN INT), Point::Point, Point::Point(IN INT,IN INT), _gdiplus_CLASS_Point_Point_, gdiplus._gdiplus_CLASS_Point_Point_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,11 +82,11 @@ Creates a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161"
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535005(v=VS.85).aspx">Point Constructors</a>
+<a href="https://msdn.microsoft.com/27952618-cf2d-4a85-b271-b3950c293ece">Point Constructors</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534488(v=VS.85).aspx">PointF</a>
+<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>
  
 
  

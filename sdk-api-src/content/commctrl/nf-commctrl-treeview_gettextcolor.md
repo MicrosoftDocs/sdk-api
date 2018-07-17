@@ -4,10 +4,10 @@ title: TreeView_GetTextColor macro
 author: windows-sdk-content
 description: Retrieves the current text color of the control. You can use this macro or send the TVM_GETTEXTCOLOR message explicitly.
 old-location: controls\TreeView_GetTextColor.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_gettextcolor.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: TreeView_GetTextColor, TreeView_GetTextColor macro [Windows Controls], _win32_TreeView_GetTextColor, _win32_TreeView_GetTextColor_cpp, commctrl/TreeView_GetTextColor, controls.TreeView_GetTextColor, controls._win32_TreeView_GetTextColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the current text color of the control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773633(v=VS.85).aspx">TVM_GETTEXTCOLOR</a> message explicitly. 
+Retrieves the current text color of the control. You can use this macro or send the <a href="https://msdn.microsoft.com/fe1aa2e8-fdf2-48d1-936b-6d6bc8e589f4">TVM_GETTEXTCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Handle to a tree-view control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb760131(v=VS.85).aspx">TreeView_SetTextColor</a>
+<a href="https://msdn.microsoft.com/7aacaf9f-2bec-4f5e-84eb-0d51252f0247">TreeView_SetTextColor</a>
  
 
  

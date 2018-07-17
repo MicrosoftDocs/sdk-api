@@ -4,10 +4,10 @@ title: DhcpEnumSubnetElementsV5 function
 author: windows-sdk-content
 description: The DhcpEnumSubnetElementsV5 function returns an enumerated list of elements for a specific DHCP subnet.
 old-location: dhcp\dhcpenumsubnetelementsv5.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: d6fd543c-5036-469e-9e48-02573c7dcb9f
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DhcpEnumSubnetElementsV5, DhcpEnumSubnetElementsV5 function [DHCP], dhcp.dhcpenumsubnetelementsv5, dhcpsapi/DhcpEnumSubnetElementsV5
 ms.prod: windows
 ms.technology: windows-sdk

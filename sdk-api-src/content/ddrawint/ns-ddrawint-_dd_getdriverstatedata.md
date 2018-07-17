@@ -7,7 +7,7 @@ old-location: display\dd_getdriverstatedata.htm
 old-project: display
 ms.assetid: a8b02b56-1733-467b-bd11-0185e6778d34
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/12/2018
 ms.keywords: "*PDD_GETDRIVERSTATEDATA, DD_GETDRIVERSTATEDATA, DD_GETDRIVERSTATEDATA structure [Display Devices], _DD_GETDRIVERSTATEDATA, d3dstrct_a7ee9601-b71c-4ff4-8ac5-37b62608d463.xml, ddrawint/DD_GETDRIVERSTATEDATA, display.dd_getdriverstatedata"
 ms.prod: windows
 ms.technology: windows-sdk

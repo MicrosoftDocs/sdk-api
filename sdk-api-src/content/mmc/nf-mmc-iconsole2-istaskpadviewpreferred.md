@@ -7,7 +7,7 @@ old-location: mmc\iconsole2_istaskpadviewpreferred.htm
 old-project: mmc
 ms.assetid: 9c9221db-54d5-4dd2-8577-27915b313046
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: IConsole2 interface [MMC],IsTaskpadViewPreferred method, IConsole2.IsTaskpadViewPreferred, IConsole2::IsTaskpadViewPreferred, IConsole3 interface [MMC],IsTaskpadViewPreferred method, IConsole3::IsTaskpadViewPreferred, IsTaskpadViewPreferred, IsTaskpadViewPreferred method [MMC], IsTaskpadViewPreferred method [MMC],IConsole2 interface, IsTaskpadViewPreferred method [MMC],IConsole3 interface, _slate_iconsole2_istaskpadviewpreferred, mmc.iconsole2_istaskpadviewpreferred, mmc/IConsole2::IsTaskpadViewPreferred, mmc/IConsole3::IsTaskpadViewPreferred
 ms.prod: windows
 ms.technology: windows-sdk

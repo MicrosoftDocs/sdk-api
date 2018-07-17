@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_NextMarker_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\graphicspathiteratornextmarkermethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: GraphicsPathIterator.NextMarker, GraphicsPathIterator::NextMarker, NextMarker, NextMarker methods [GDI+], _gdiplus_CLASS_GraphicsPathIterator_NextMarker_Methods, gdiplus._gdiplus_CLASS_GraphicsPathIterator_NextMarker_Methods, gdipluspath/NextMarker
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,8 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 			NextMarker methods of the 
-			<a href="https://msdn.microsoft.com/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a>  class. For a complete list of methods for the 
-			<b>GraphicsPathIterator</b> class, see <a href="https://msdn.microsoft.com/library/ms535450(v=VS.85).aspx">GraphicsPathIterator Methods</a>.
+			<a href="https://msdn.microsoft.com/f534b1b2-1fe3-4f30-8a7f-30d44f11d297">GraphicsPathIterator</a>  class. For a complete list of methods for the 
+			<b>GraphicsPathIterator</b> class, see <a href="https://msdn.microsoft.com/dd0a4908-642b-4af1-80f5-0af606aee990">GraphicsPathIterator Methods</a>.
 
 </span><h3>Overload list</h3><table>
 <tr>
@@ -63,19 +63,19 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535465(v=VS.85).aspx">NextMarker(INT*,INT*)</a>
+<a href="https://msdn.microsoft.com/42272823-7990-4c6e-bb47-4065f568d4bd">NextMarker(INT*,INT*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535465(v=VS.85).aspx">GraphicsPathIterator::NextMarker</a> method gets the starting index and the ending index of the next marker-delimited section in this iterator's associated path.
+The <a href="https://msdn.microsoft.com/42272823-7990-4c6e-bb47-4065f568d4bd">GraphicsPathIterator::NextMarker</a> method gets the starting index and the ending index of the next marker-delimited section in this iterator's associated path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535464(v=VS.85).aspx">NextMarker(GraphicsPath*)</a>
+<a href="https://msdn.microsoft.com/52454071-6806-430e-9ce0-d3640370047d">NextMarker(GraphicsPath*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535464(v=VS.85).aspx">GraphicsPathIterator::NextMarker</a> method gets the next marker-delimited section of this iterator's associated path.
+The <a href="https://msdn.microsoft.com/52454071-6806-430e-9ce0-d3640370047d">GraphicsPathIterator::NextMarker</a> method gets the next marker-delimited section of this iterator's associated path.
 
 </td>
 </tr>

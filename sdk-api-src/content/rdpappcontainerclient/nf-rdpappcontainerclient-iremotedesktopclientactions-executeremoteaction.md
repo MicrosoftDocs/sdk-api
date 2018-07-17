@@ -4,10 +4,10 @@ title: IRemoteDesktopClientActions::ExecuteRemoteAction
 author: windows-sdk-content
 description: Causes an action to be performed in the remote session.
 old-location: termserv\iremotedesktopclientactions_executeremoteaction.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 944fbfe4-b033-471b-9a28-87349382d37a
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ExecuteRemoteAction, ExecuteRemoteAction method [Remote Desktop Services], ExecuteRemoteAction method [Remote Desktop Services],IRemoteDesktopClientActions interface, IRemoteDesktopClientActions interface [Remote Desktop Services],ExecuteRemoteAction method, IRemoteDesktopClientActions.ExecuteRemoteAction, IRemoteDesktopClientActions::ExecuteRemoteAction, rdpappcontainerclient/IRemoteDesktopClientActions::ExecuteRemoteAction, termserv.iremotedesktopclientactions_executeremoteaction
 ms.prod: windows
 ms.technology: windows-sdk

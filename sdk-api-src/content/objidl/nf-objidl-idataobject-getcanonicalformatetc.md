@@ -7,7 +7,7 @@ old-location: com\idataobject_getcanonicalformatetc.htm
 old-project: com
 ms.assetid: 3a5009a0-8d92-483a-b055-8a97f326dccd
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: GetCanonicalFormatEtc, GetCanonicalFormatEtc method [COM], GetCanonicalFormatEtc method [COM],IDataObject interface, IDataObject interface [COM],GetCanonicalFormatEtc method, IDataObject.GetCanonicalFormatEtc, IDataObject::GetCanonicalFormatEtc, _ole_idataobject_getcanonicalformatetc, com.idataobject_getcanonicalformatetc, objidl/IDataObject::GetCanonicalFormatEtc
 ms.prod: windows
 ms.technology: windows-sdk

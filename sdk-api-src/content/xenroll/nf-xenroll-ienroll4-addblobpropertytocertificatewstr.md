@@ -4,10 +4,10 @@ title: IEnroll4::addBlobPropertyToCertificateWStr
 author: windows-sdk-content
 description: The IEnroll4::addBlobPropertyToCertificateWStr method adds a BLOB property to a certificate.
 old-location: security\ienroll4_addblobpropertytocertificatewstr.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 954c1b2f-08ea-471c-902f-1aa5523d58b3
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IEnroll4 interface [Security],addBlobPropertyToCertificateWStr method, IEnroll4.addBlobPropertyToCertificateWStr, IEnroll4::addBlobPropertyToCertificateWStr, addBlobPropertyToCertificateWStr, addBlobPropertyToCertificateWStr method [Security], addBlobPropertyToCertificateWStr method [Security],IEnroll4 interface, security.ienroll4_addblobpropertytocertificatewstr, xenroll/IEnroll4::addBlobPropertyToCertificateWStr
 ms.prod: windows
 ms.technology: windows-sdk

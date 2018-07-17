@@ -4,10 +4,10 @@ title: DhcpV4FailoverGetScopeStatistics function
 author: windows-sdk-content
 description: Retrieves the address usage statistics of a specific scope that is part of a failover relationship.
 old-location: dhcp\dhcpv4failovergetscopestatistics.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: 888945a8-5c07-440a-ad2d-2126342facda
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DhcpV4FailoverGetScopeStatistics, DhcpV4FailoverGetScopeStatistics function [DHCP], dhcp.dhcpv4failovergetscopestatistics, dhcpsapi/DhcpV4FailoverGetScopeStatistics
 ms.prod: windows
 ms.technology: windows-sdk

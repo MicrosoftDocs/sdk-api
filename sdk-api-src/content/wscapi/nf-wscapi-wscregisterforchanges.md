@@ -7,7 +7,7 @@ old-location: winprog\wscregisterforchanges.htm
 old-project: DevNotes
 ms.assetid: 55f2d281-6308-4344-98dc-3b1c7cbee9df
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: WscRegisterForChanges, WscRegisterForChanges function [Windows API], winprog.wscregisterforchanges, wscapi/WscRegisterForChanges
 ms.prod: windows
 ms.technology: windows-sdk

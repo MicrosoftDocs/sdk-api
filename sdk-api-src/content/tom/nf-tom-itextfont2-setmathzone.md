@@ -4,10 +4,10 @@ title: ITextFont2::SetMathZone
 author: windows-sdk-content
 description: Sets whether a math zone is active.
 old-location: controls\itextfont2_setmathzone.htm
-old-project: controls
+old-project: Controls
 ms.assetid: 4e43d51a-3001-4611-8aa1-fcf8cc2655fc
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetMathZone method, ITextFont2.SetMathZone, ITextFont2::SetMathZone, SetMathZone, SetMathZone method [Windows Controls], SetMathZone method [Windows Controls],ITextFont2 interface, controls.itextfont2_setmathzone, tom/ITextFont2::SetMathZone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Sets whether a math zone is active.
 
 Type: <b>long</b>
 
-A <a href="https://msdn.microsoft.com/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>

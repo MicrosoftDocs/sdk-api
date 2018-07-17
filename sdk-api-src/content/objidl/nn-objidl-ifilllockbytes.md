@@ -124,11 +124,11 @@ Notifies byte array wrapper of successful or unsuccessful termination of downloa
 
 
 
-<a href="https://msdn.microsoft.com/library/ms694318(v=VS.85).aspx">IConnectionPoint</a>
+<a href="_com_iconnectionpoint">IConnectionPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms683857(v=VS.85).aspx">IConnectionPointContainer</a>
+<a href="_com_iconnectionpointcontainer">IConnectionPointContainer</a>
 
 
 
@@ -136,7 +136,7 @@ Notifies byte array wrapper of successful or unsuccessful termination of downloa
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680740(v=VS.85).aspx">IProgressNotify</a>
+<a href="_com_iprogressnotify">IProgressNotify</a>
 
 
 

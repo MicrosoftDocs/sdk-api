@@ -4,10 +4,10 @@ title: ITsSbPlacementNotifySink
 author: windows-sdk-content
 description: Exposes methods that return information about environments to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbplacementnotifysink.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 7abc5454-141a-47bc-b9cd-341b41a093d2
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ITsSbPlacementNotifySink, ITsSbPlacementNotifySink interface [Remote Desktop Services], ITsSbPlacementNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbPlacementNotifySink, termserv.itssbplacementnotifysink
 ms.prod: windows
 ms.technology: windows-sdk

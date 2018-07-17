@@ -7,7 +7,7 @@ old-location: security\iobjectids_clear_method.htm
 old-project: seccertenroll
 ms.assetid: f539a79a-477a-49cc-b761-2a615c3d5ea4
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IObjectIds interface, IObjectIds interface [Security],Clear method, IObjectIds.Clear, IObjectIds::Clear, certenroll/IObjectIds::Clear, security.iobjectids_clear_method
 ms.prod: windows
 ms.technology: windows-sdk

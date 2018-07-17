@@ -7,7 +7,7 @@ old-location: winprog\_findorcreatenamecache.htm
 old-project: DevNotes
 ms.assetid: c10a501c-cc25-4586-a62a-7c7be207cbd9
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: FindOrCreateNameCache, FindOrCreateNameCache function [Windows API], filehc/FindOrCreateNameCache, winprog._findorcreatenamecache
 ms.prod: windows
 ms.technology: windows-sdk

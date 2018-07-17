@@ -7,7 +7,7 @@ old-location: mscs\clusproperty_valuecount.htm
 old-project: mscs
 ms.assetid: 894b4ce9-422e-481f-81a5-8cccae3140a6
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusProperty object [Failover Cluster],ValueCount property, ClusProperty.ValueCount, ISClusProperty.get_ValueCount, ISClusProperty::get_ValueCount, ValueCount property [Failover Cluster], ValueCount property [Failover Cluster],ClusProperty object, _wolf_clusproperty.valuecount, get_ValueCount, mscs.clusproperty_valuecount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,8 +57,8 @@ req.product: GDI+ 1.1
     in subsequent versions.]
 
 Returns the 
-    number of <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">property values</a> associated with 
-    a <a href="https://msdn.microsoft.com/library/ms682005(v=VS.85).aspx">cluster object</a> property.
+    number of <a href="p_gly.htm">property values</a> associated with 
+    a <a href="c_gly.htm">cluster object</a> property.
 
 This property is read-only.
 

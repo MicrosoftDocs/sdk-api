@@ -4,10 +4,10 @@ title: DhcpSetClientInfoVQ function
 author: windows-sdk-content
 description: Sets or modifies an existing DHCP client lease record in the DHCP server record database.
 old-location: dhcp\dhcpsetclientinfovq.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: c12ae8f5-8629-494f-905c-cbae57dcf3f1
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DhcpSetClientInfoVQ, DhcpSetClientInfoVQ function [DHCP], dhcp.dhcpsetclientinfovq, dhcpsapi/DhcpSetClientInfoVQ
 ms.prod: windows
 ms.technology: windows-sdk

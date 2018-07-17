@@ -7,7 +7,7 @@ old-location: wmformat\wmt_codec_info_type.htm
 old-project: wmformat
 ms.assetid: 31fcaa84-1b7e-407c-95dc-bf13263b788a
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: WMT_CODECINFO_AUDIO, WMT_CODECINFO_UNKNOWN, WMT_CODECINFO_VIDEO, WMT_CODEC_INFO_TYPE, WMT_CODEC_INFO_TYPE enumeration [windows Media Format], wmformat.wmt_codec_info_type, wmsdkidl/WMT_CODECINFO_AUDIO, wmsdkidl/WMT_CODECINFO_UNKNOWN, wmsdkidl/WMT_CODECINFO_VIDEO, wmsdkidl/WMT_CODEC_INFO_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

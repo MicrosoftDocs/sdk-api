@@ -88,7 +88,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/6e5b79ed-52e1-
 
 The <b>SERVICE_LAUNCH_PROTECTED_WINDOWS</b> and <b>SERVICE_LAUNCH_PROTECTED_WINDOWS_LIGHT</b> protection types are reserved for internal Windows use only.
 
-The <b>SERVICE_LAUNCH_PROTECTED_ANTIMALWARE_LIGHT</b> protection type can be used by the anti-malware vendors to launch their anti-malware service as protected. See <a href="https://msdn.microsoft.com/library/Dn313124(v=VS.85).aspx">Protecting Anti-Malware Services</a> for more info.
+The <b>SERVICE_LAUNCH_PROTECTED_ANTIMALWARE_LIGHT</b> protection type can be used by the anti-malware vendors to launch their anti-malware service as protected. See <a href="m_whitepapers.protecting_anti-malware_services_">Protecting Anti-Malware Services</a> for more info.
 
 Once the service is launched as protected, other unprotected processes will not be able to call the following APIs on the protected service.
 

@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestcertificate.htm
 old-project: seccertenroll
 ms.assetid: 7197a225-b2dc-47bb-8843-d3fb4bf95811
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509CertificateRequestCertificate, IX509CertificateRequestCertificate interface [Security], IX509CertificateRequestCertificate interface [Security],described, certenroll/IX509CertificateRequestCertificate, security.ix509certificaterequestcertificate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 
 The <b>IX509CertificateRequestCertificate</b> interface represents a request object for a self-generated certificate, enabling you to create a certificate directly without going through a registration or certification authority. The following illustration shows the inheritance structure for this object.
 
-<img alt="Inheritance diagram for a self-generated certificate" src="./images/X509Inherit_Requestcertificate.png"/>
+<img alt="Inheritance diagram for a self-generated certificate" src="images/X509Inherit_Requestcertificate.png"/>
 
 
 ## -inheritance

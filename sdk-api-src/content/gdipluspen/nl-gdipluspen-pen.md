@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pen.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Pen, Pen class [GDI+], Pen class [GDI+],described, _gdiplus_CLASS_Pen_Class, gdiplus._gdiplus_CLASS_Pen_Class, gdipluspen/Pen
 ms.prod: windows
 ms.technology: windows-sdk

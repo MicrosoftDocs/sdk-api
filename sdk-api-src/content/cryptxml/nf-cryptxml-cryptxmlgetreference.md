@@ -4,10 +4,10 @@ title: CryptXmlGetReference function
 author: windows-sdk-content
 description: Returns the Reference element specified by the supplied handle.
 old-location: security\cryptxmlgetreference.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: aa482331-872d-4b51-a975-62d832a369fc
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CryptXmlGetReference, CryptXmlGetReference function [Security], cryptxml/CryptXmlGetReference, security.cryptxmlgetreference
 ms.prod: windows
 ms.technology: windows-sdk

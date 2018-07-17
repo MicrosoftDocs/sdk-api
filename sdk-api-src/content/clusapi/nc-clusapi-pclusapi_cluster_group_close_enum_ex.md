@@ -7,8 +7,8 @@ old-location: mscs\clustergroupcloseenumex.htm
 old-project: mscs
 ms.assetid: 4777BB89-FB90-43F9-81B4-FCAE4E50889F
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX, PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX callback, PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX, mscs.clustergroupcloseenumex
+ms.date: 07/12/2018
+ms.keywords: ClusterGroupCloseEnumEx, ClusterGroupCloseEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX, PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX function [Failover Cluster], clusapi/ClusterGroupCloseEnumEx, clusapi/PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX, mscs.clustergroupcloseenumex
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -32,15 +32,18 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - UserDefined
+ - DllExport
 api_location:
- - ClusAPI.h
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
- - PCLUSAPI_CLUSTER_GROUP_CLOSE_ENUM_EX
+ - ClusterGroupCloseEnumEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
 req.irql: 
 ---
 
@@ -80,7 +83,7 @@ ERROR_SUCCESS is returned when the enumeration handle is freed.
 
 Any additional calls using the <i>hGroupEnumEx</i> will fail.  Do not use the 
     <i>hGroupEnumEx</i> handle after the 
-    <i>ClusterGroupCloseEnumEx</i> function is 
+    <b>ClusterGroupCloseEnumEx</b> function is 
     called.
 
 

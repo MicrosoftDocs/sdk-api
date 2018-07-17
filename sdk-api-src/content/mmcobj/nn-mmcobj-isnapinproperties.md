@@ -7,7 +7,7 @@ old-location: mmc\isnapinproperties.htm
 old-project: mmc
 ms.assetid: d3a7d7e0-25c3-4dfa-8984-ca9c91db8493
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: ISnapinProperties, ISnapinProperties interface [MMC], ISnapinProperties interface [MMC],described, _slate_isnapinproperties, mmc.isnapinproperties, mmcobj/ISnapinProperties
 ms.prod: windows
 ms.technology: windows-sdk

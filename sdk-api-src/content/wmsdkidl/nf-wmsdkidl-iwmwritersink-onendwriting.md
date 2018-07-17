@@ -7,7 +7,7 @@ old-location: wmformat\iwmwritersink_onendwriting.htm
 old-project: wmformat
 ms.assetid: e5f653cc-e756-4f33-a6ce-3158e83129c8
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: IWMWriterSink interface [windows Media Format],OnEndWriting method, IWMWriterSink.OnEndWriting, IWMWriterSink::OnEndWriting, IWMWriterSinkOnEndWriting, OnEndWriting, OnEndWriting method [windows Media Format], OnEndWriting method [windows Media Format],IWMWriterSink interface, wmformat.iwmwritersink_onendwriting, wmsdkidl/IWMWriterSink::OnEndWriting
 ms.prod: windows
 ms.technology: windows-sdk

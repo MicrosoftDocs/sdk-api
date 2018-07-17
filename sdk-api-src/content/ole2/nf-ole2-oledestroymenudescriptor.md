@@ -7,7 +7,7 @@ old-location: com\oledestroymenudescriptor.htm
 old-project: com
 ms.assetid: dc347d39-a7bb-4bbf-8957-c3fbcff461bf
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: OleDestroyMenuDescriptor, OleDestroyMenuDescriptor function [COM], _ole_OleDestroyMenuDescriptor, com.oledestroymenudescriptor, ole2/OleDestroyMenuDescriptor
 ms.prod: windows
 ms.technology: windows-sdk

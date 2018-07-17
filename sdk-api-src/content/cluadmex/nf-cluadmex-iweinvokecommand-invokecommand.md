@@ -7,7 +7,7 @@ old-location: mscs\iweinvokecommand_invokecommand.htm
 old-project: mscs
 ms.assetid: 1e723535-d786-496f-bc16-5b10a8a22383
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: IWEInvokeCommand interface [Failover Cluster],InvokeCommand method, IWEInvokeCommand.InvokeCommand, IWEInvokeCommand::InvokeCommand, InvokeCommand, InvokeCommand method [Failover Cluster], InvokeCommand method [Failover Cluster],IWEInvokeCommand interface, _wolf_iweinvokecommand_invokecommand, cluadmex/IWEInvokeCommand::InvokeCommand, mscs.iweinvokecommand_invokecommand
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,9 +72,9 @@ Identifier of the menu item containing the command to perform. The identifier re
 ### -param piData [in]
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer for retrieving information associated with the 
+<a href="_com_iunknown">IUnknown</a> interface pointer for retrieving information associated with the 
        command identified by <i>nCommandID</i>. By calling the 
-       <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method with the <i>piData</i> 
+       <a href="_com_IUnknown_QueryInterface">IUnknown::QueryInterface</a> method with the <i>piData</i> 
        pointer, the following interfaces are available:
 
 <ul>
@@ -88,7 +88,7 @@ Identifier of the menu item containing the command to perform. The identifier re
 <a href="https://msdn.microsoft.com/a88ba05c-b64b-4d6d-b005-f2f867093355">IGetClusterObjectInfo</a>
 </li>
 </ul>
-Depending on the type of <a href="https://msdn.microsoft.com/library/ms682005(v=VS.85).aspx">cluster object</a> to 
+Depending on the type of <a href="c_gly.htm">cluster object</a> to 
        which the context menu item applies, a pointer to one of the following interfaces is also available:
 
 <ul>

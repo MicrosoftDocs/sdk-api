@@ -4,10 +4,10 @@ title: ListBox_SelectString macro
 author: windows-sdk-content
 description: Searches a list box for an item that begins with the characters in a specified string. If a matching item is found, the item is selected. You can use this macro or send the LB_SELECTSTRING message explicitly.
 old-location: controls\ListBox_SelectString.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_selectstring.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ListBox_SelectString, ListBox_SelectString macro [Windows Controls], _win32_ListBox_SelectString, _win32_ListBox_SelectString_cpp, controls.ListBox_SelectString, controls._win32_ListBox_SelectString, windowsx/ListBox_SelectString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Searches a list box for an item that begins with the characters in a specified string. If a matching item is found, the item is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761327(v=VS.85).aspx">LB_SELECTSTRING</a> message explicitly.
+Searches a list box for an item that begins with the characters in a specified string. If a matching item is found, the item is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/fd443ade-665d-439a-8951-3d9fed50695b">LB_SELECTSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ The string to find.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb761327(v=VS.85).aspx">LB_SELECTSTRING</a>.
+For more information, see <a href="https://msdn.microsoft.com/fd443ade-665d-439a-8951-3d9fed50695b">LB_SELECTSTRING</a>.
 	
 
 

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_Contains_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectcontainsmethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Contains, Contains methods [GDI+], Rect.Contains, Rect.Contains(IN Rect &), Rect::Contains, Rect::Contains(IN Rect &), _gdiplus_CLASS_Rect_Contains_Methods, gdiplus._gdiplus_CLASS_Rect_Contains_Methods, gdiplustypes/Contains
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: GDI+ 1.0
 <span>This topic lists the 
 			Contains methods of the 
 			<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">Rect</a> class. For a complete list of methods for the 
-			<b>Rect</b> class, see <a href="https://msdn.microsoft.com/library/ms534961(v=VS.85).aspx">Rect Methods</a>. 
+			<b>Rect</b> class, see <a href="https://msdn.microsoft.com/fe6960fa-db73-4806-a2c2-675782eed41d">Rect Methods</a>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Method</th>
@@ -62,28 +62,28 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534985(v=VS.85).aspx">Contains(Rect&)</a>
+<a href="https://msdn.microsoft.com/266efa9d-9d78-401a-93e6-caacf19b977a">Contains(Rect&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534985(v=VS.85).aspx">Rect::Contains</a> method determines whether another rectangle is inside this rectangle.
+The <a href="https://msdn.microsoft.com/266efa9d-9d78-401a-93e6-caacf19b977a">Rect::Contains</a> method determines whether another rectangle is inside this rectangle.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534984(v=VS.85).aspx">Contains(Point&)</a>
+<a href="https://msdn.microsoft.com/4758fa07-5098-40a9-89f8-17a8fe10a67f">Contains(Point&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534984(v=VS.85).aspx">Rect::Contains</a> method determines whether a point is inside this rectangle.
+The <a href="https://msdn.microsoft.com/4758fa07-5098-40a9-89f8-17a8fe10a67f">Rect::Contains</a> method determines whether a point is inside this rectangle.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534986(v=VS.85).aspx">Contains(INT,INT)</a>
+<a href="https://msdn.microsoft.com/6f2d6333-9e50-45eb-b61f-441cc59f8b6b">Contains(INT,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534986(v=VS.85).aspx">Rect::Contains</a><i>x</i><i>y</i>) is inside this rectangle.
+The <a href="https://msdn.microsoft.com/6f2d6333-9e50-45eb-b61f-441cc59f8b6b">Rect::Contains</a><i>x</i><i>y</i>) is inside this rectangle.
 
 </td>
 </tr>

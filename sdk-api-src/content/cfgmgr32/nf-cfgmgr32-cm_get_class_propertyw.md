@@ -7,7 +7,7 @@ old-location: devinst\cm_get_class_property.htm
 old-project: devinst
 ms.assetid: D2388F05-20BC-42E5-907E-A7DD89448AF3
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: CM_Get_Class_Property, CM_Get_Class_Property function [Device and Driver Installation], CM_Get_Class_PropertyW, cfgmgr32/CM_Get_Class_Property, cfgmgr32/CM_Get_Class_PropertyW, devinst.cm_get_class_property
 ms.prod: windows
 ms.technology: windows-sdk

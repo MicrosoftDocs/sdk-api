@@ -4,10 +4,10 @@ title: IEnroll::put_RequestStoreFlags
 author: windows-sdk-content
 description: The RequestStoreFlags property of IEnroll4 sets or retrieves the registry location used for the request store.
 old-location: security\ienroll4_requeststoreflags.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 95ed42ed-04ff-482c-954c-a6c9dd9ccd4c
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IEnroll interface [Security],RequestStoreFlags property, IEnroll.RequestStoreFlags, IEnroll.put_RequestStoreFlags, IEnroll::RequestStoreFlags, IEnroll::get_RequestStoreFlags, IEnroll::put_RequestStoreFlags, RequestStoreFlags property [Security], RequestStoreFlags property [Security],IEnroll interface, put_RequestStoreFlags, security.ienroll4_requeststoreflags, xenroll/IEnroll::RequestStoreFlags, xenroll/IEnroll::get_RequestStoreFlags, xenroll/IEnroll::put_RequestStoreFlags
 ms.prod: windows
 ms.technology: windows-sdk

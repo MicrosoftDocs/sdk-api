@@ -7,7 +7,7 @@ old-location: display\engsecuremem.htm
 old-project: display
 ms.assetid: 30c1e7bb-5300-4c0f-871d-a1c09fa83fdd
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/12/2018
 ms.keywords: EngSecureMem, EngSecureMem function [Display Devices], display.engsecuremem, gdifncs_b152193e-5e03-4223-b847-8dc99aeb0852.xml, winddi/EngSecureMem
 ms.prod: windows
 ms.technology: windows-sdk

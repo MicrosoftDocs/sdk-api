@@ -7,7 +7,7 @@ old-location: mscs\clusproperties_readonly.htm
 old-project: mscs
 ms.assetid: 879bd8a6-3203-4ff0-8277-88c92ea8dbf3
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusProperties collection [Failover Cluster],ReadOnly property, ClusProperties.ReadOnly, ISClusProperties.get_ReadOnly, ISClusProperties::get_ReadOnly, ReadOnly property [Failover Cluster], ReadOnly property [Failover Cluster],ClusProperties collection, _wolf_clusproperties.readonly, get_ReadOnly, mscs.clusproperties_readonly
 ms.prod: windows
 ms.technology: windows-sdk

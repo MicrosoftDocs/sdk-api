@@ -7,7 +7,7 @@ old-location: com\cotaskmemrealloc.htm
 old-project: com
 ms.assetid: 83014a3e-198d-4b4b-91aa-0c0804c8e1bf
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: CoTaskMemRealloc, CoTaskMemRealloc function [COM], _com_CoTaskMemRealloc, com.cotaskmemrealloc, combaseapi/CoTaskMemRealloc
 ms.prod: windows
 ms.technology: windows-sdk

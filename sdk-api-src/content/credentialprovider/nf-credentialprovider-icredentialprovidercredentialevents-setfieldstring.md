@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredentialEvents_SetFieldString.htm
 old-project: shell
 ms.assetid: f391177a-0652-4a94-b31c-111fb82c371a
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldString method, ICredentialProviderCredentialEvents.SetFieldString, ICredentialProviderCredentialEvents::SetFieldString, SetFieldString, SetFieldString method [Windows Shell], SetFieldString method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldString, credentialprovider/ICredentialProviderCredentialEvents::SetFieldString, shell.ICredentialProviderCredentialEvents_SetFieldString
 ms.prod: windows
 ms.technology: windows-sdk

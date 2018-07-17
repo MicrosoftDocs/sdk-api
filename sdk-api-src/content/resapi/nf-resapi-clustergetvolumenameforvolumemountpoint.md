@@ -1,0 +1,223 @@
+---
+UID: NF:resapi.ClusterGetVolumeNameForVolumeMountPoint
+title: ClusterGetVolumeNameForVolumeMountPoint function
+author: windows-sdk-content
+description: ClusterGetVolumeNameForVolumeMountPoint may be altered or unavailable. Instead, use GetVolumeNameForVolumeMountPoint.
+old-location: mscs\clustergetvolumenameforvolumemountpoint.htm
+old-project: mscs
+ms.assetid: d110e30d-046e-45f3-b326-72160a69c17d
+ms.author: windowssdkdev
+ms.date: 07/12/2018
+ms.keywords: ClusterGetVolumeNameForVolumeMountPoint, ClusterGetVolumeNameForVolumeMountPoint function [Failover Cluster], PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT, PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT function [Failover Cluster], mscs.clustergetvolumenameforvolumemountpoint, resapi/ClusterGetVolumeNameForVolumeMountPoint, resapi/PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: function
+req.header: resapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: RESOURCE_EXIT_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.Dll
+api_name:
+ - ClusterGetVolumeNameForVolumeMountPoint
+product: Windows
+targetos: Windows
+req.lib: ResUtils.Lib
+req.dll: ResUtils.Dll
+req.irql: 
+req.product: ADAM
+---
+
+# ClusterGetVolumeNameForVolumeMountPoint function
+
+
+## -description
+
+
+<p class="CCE_Message">[<b>ClusterGetVolumeNameForVolumeMountPoint</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/3f749042-bdc9-4087-bb8a-d833713472eb">GetVolumeNameForVolumeMountPoint</a>.]
+
+Retrieves a cluster volume <b>GUID</b> path for the volume that is associated with the 
+    specified cluster shared volume (CSV) mount point (drive letter, volume <b>GUID</b> path, or 
+    mounted folder).
+
+
+## -parameters
+
+
+
+
+### -param lpszVolumeMountPoint [in]
+
+A pointer to a string that contains the path of a mounted folder (for example, "Y:\MountX\") or a drive 
+      letter (for example, "X:\"). The string must end with a trailing backslash (\).
+
+
+### -param lpszVolumeName [out]
+
+A pointer to a string that receives the volume <b>GUID</b> path. This path is of the form 
+      "\\?\Volume{<i>GUID</i>}\" where <i>GUID</i> is a 
+      <b>GUID</b> that identifies the volume. If there is more than one volume 
+      <b>GUID</b> path for the volume, only the first one in the mount manager's cache is 
+      returned. The string returned is in the format required for 
+      <a href="https://msdn.microsoft.com/6c20e386-7cd8-45d9-92d6-96d0a458db50">IVssBackupComponents::AddToSnapshotSet</a> 
+      and 
+      <a href="https://msdn.microsoft.com/42e069cb-3d9a-4592-bbb8-0113f14ed28c">IVssBackupComponents::IsVolumeSupported</a>.
+
+
+### -param cchBufferLength [in]
+
+The length of the output buffer, in <b>WCHARs</b>. A reasonable size for the buffer 
+      to accommodate the largest possible volume <b>GUID</b> path is 51 characters.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero. To get extended error information, call 
+       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. If the input CSV is not locally mounted 
+       the call will fail with an <b>ERROR_CSV_VOLUME_NOT_LOCAL</b> (5951) error.
+
+
+
+
+## -remarks
+
+
+
+The following examples may help. In these examples "Filename.Ext" does exist but 
+     "File\that\does\not\exist" and "Directory\that\does\not\exist\" do not.
+
+<ul>
+<li>
+Input: "C:\ClusterStorage\Volume31\"
+
+Output: "\\?\Volume{deadbeef-895e-4a1d-9d64-9b82fa068d76}\"
+
+</li>
+<li>
+Input: "C:\ClusterStorage\Volume31\"
+
+Output: Function fails and sets a last error of <b>ERROR_CSV_VOLUME_NOT_LOCAL</b> 
+       (5951).
+
+<div class="alert"><b>Note</b>  The CSV volume specified for input is not locally mounted for direct I/O.</div>
+<div> </div>
+</li>
+<li>
+Input: "\\?\C:\ClusterStorage\Volume31\Filename.Ext"
+
+Output: Function fails and sets a last error of <b>ERROR_INVALID_PARAMETER</b> (87).
+
+</li>
+<li>
+Input: "C:\ClusterStorage\Volume31\File\that\does\not\exist"
+
+Output: Function fails and sets a last error of <b>ERROR_INVALID_NAME</b> (123).
+
+</li>
+<li>
+Input: "C:\ClusterStorage\Volume31\Directory\that\does\not\exist\"
+
+Output: Function fails and sets a last error of <b>ERROR_INVALID_NAME</b> (123).
+
+</li>
+<li>
+Input: "\\?\Volume{deadbeef-895e-4a1d-9d64-9b82fa068d76}\"
+
+Output: "\\?\Volume{deadbeef-895e-4a1d-9d64-9b82fa068d76}\"
+
+</li>
+<li>
+Input: "\\?\Volume{de8b99bb-895e-4a1d-9d64-9b82fa068d76}\ClusterStorage\Volume31\"
+
+Output: "\\?\Volume{deadbeef-895e-4a1d-9d64-9b82fa068d76}\"
+
+<div class="alert"><b>Note</b>  The volume in the output is a CSV and  is different from the system volume that 
+       was part of the input.</div>
+<div> </div>
+</li>
+<li>
+Input: 
+       "\\?\GLOBALROOT\Device\Harddisk0\Partition1\ClusterStorage\Volume31\"
+
+Output: "\\?\Volume{deadbeef-895e-4a1d-9d64-9b82fa068d76}\"
+
+</li>
+<li>
+Input: 
+       "\\?\GLOBALROOT\Device\HarddiskVolume1\ClusterStorage\Volume31\"
+
+Output: "\\?\Volume{deadbeef-895e-4a1d-9d64-9b82fa068d76}\"
+
+</li>
+</ul>
+<b>Windows Server 2008 R2:  </b>The initial release of ResApi.h containing the 
+      <b>ClusterGetVolumeNameForVolumeMountPoint</b> 
+      function used <b>TCHAR</b>-based data types instead of 
+      <b>WCHAR</b>-based data types. The UNICODE preprocessor define must be set before ResApi.h 
+      is included.<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define UNICODE 1
+#include &lt;ResApi.h&gt;</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+The 
+    <b>ClusterGetVolumeNameForVolumeMountPoint</b> 
+    function must be called from a node of the cluster.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ea8b76b2-3931-4489-a648-e1077fd93b21">Backing Up and Restoring the Failover Cluster Configuration Using VSS</a>
+
+
+
+<a href="https://msdn.microsoft.com/0f492e51-f364-40f1-b2c8-478f707f079d">Backup and Restore Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/3f749042-bdc9-4087-bb8a-d833713472eb">GetVolumeNameForVolumeMountPoint</a>
+
+
+
+<a href="https://msdn.microsoft.com/6c20e386-7cd8-45d9-92d6-96d0a458db50">IVssBackupComponents::AddToSnapshotSet</a>
+
+
+
+<a href="https://msdn.microsoft.com/42e069cb-3d9a-4592-bbb8-0113f14ed28c">IVssBackupComponents::IsVolumeSupported</a>
+ 
+
+ 
+

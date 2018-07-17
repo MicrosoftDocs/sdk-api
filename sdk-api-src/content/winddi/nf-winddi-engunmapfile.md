@@ -7,7 +7,7 @@ old-location: display\engunmapfile.htm
 old-project: display
 ms.assetid: e98040c3-4817-470b-9f71-8ebf793fc9a8
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/12/2018
 ms.keywords: EngUnmapFile, EngUnmapFile function [Display Devices], display.engunmapfile, gdifncs_056f6d9c-2c92-4d88-b2b3-f016426d1aed.xml, winddi/EngUnmapFile
 ms.prod: windows
 ms.technology: windows-sdk

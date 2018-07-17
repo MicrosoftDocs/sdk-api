@@ -7,7 +7,7 @@ old-location: security\ix509extensionsubjectkeyidentifier.htm
 old-project: seccertenroll
 ms.assetid: dcf28967-65e0-4669-b1b1-b3d42f1b3d6b
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509ExtensionSubjectKeyIdentifier, IX509ExtensionSubjectKeyIdentifier interface [Security], IX509ExtensionSubjectKeyIdentifier interface [Security],described, certenroll/IX509ExtensionSubjectKeyIdentifier, security.ix509extensionsubjectkeyidentifier
 ms.prod: windows
 ms.technology: windows-sdk

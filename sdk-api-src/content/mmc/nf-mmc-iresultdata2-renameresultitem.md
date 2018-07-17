@@ -7,7 +7,7 @@ old-location: mmc\iresultdata2_renameresultitem.htm
 old-project: mmc
 ms.assetid: a667f638-88bb-4758-8df7-478b0d6c18c4
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: IResultData2 interface [MMC],RenameResultItem method, IResultData2.RenameResultItem, IResultData2::RenameResultItem, RenameResultItem, RenameResultItem method [MMC], RenameResultItem method [MMC],IResultData2 interface, _slate_iresultdata2_renameresultitem, mmc.iresultdata2_renameresultitem, mmc/IResultData2::RenameResultItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ The result item being placed into rename mode. When applied to virtual lists, pa
 
 
 
-If successful, the return value is S_OK; otherwise, the return value is an error code.  The <a href="https://msdn.microsoft.com/library/ms687197(v=VS.85).aspx">SUCCEEDED</a> and/or <a href="https://msdn.microsoft.com/library/ms693474(v=VS.85).aspx">FAILED</a> macros can be used to evaluate the return value. If the Rename verb is not enabled, this method returns E_FAIL.
+If successful, the return value is S_OK; otherwise, the return value is an error code.  The <a href="_com_succeeded">SUCCEEDED</a> and/or <a href="_com_failed">FAILED</a> macros can be used to evaluate the return value. If the Rename verb is not enabled, this method returns E_FAIL.
 
 
 

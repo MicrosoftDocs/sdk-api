@@ -68,7 +68,7 @@ Contains one of the <a href="https://msdn.microsoft.com/c79eb490-b950-4d49-bdf9-
 
 ### -field bstrText
 
-Contains a <b>BSTR</b> that contains the string for the balloon. This string must be allocated using the <a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a> function. The caller free this buffer when it is no longer required by calling <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+Contains a <b>BSTR</b> that contains the string for the balloon. This string must be allocated using the <a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> function. The caller free this buffer when it is no longer required by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 
 ## -see-also
@@ -81,11 +81,11 @@ Contains a <b>BSTR</b> that contains the string for the balloon. This string mus
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a>
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>
 
 
 

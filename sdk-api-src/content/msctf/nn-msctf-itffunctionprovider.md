@@ -124,7 +124,7 @@ A function provider is registered by calling <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

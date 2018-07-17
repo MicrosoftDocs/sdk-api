@@ -7,7 +7,7 @@ old-location: security\ix509extensionsubjectkeyidentifier_initializedecode_metho
 old-project: seccertenroll
 ms.assetid: 5886187d-33b1-4151-a01f-de263c41c27b
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509ExtensionSubjectKeyIdentifier interface [Security],InitializeDecode method, IX509ExtensionSubjectKeyIdentifier.InitializeDecode, IX509ExtensionSubjectKeyIdentifier::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionSubjectKeyIdentifier interface, certenroll/IX509ExtensionSubjectKeyIdentifier::InitializeDecode, security.ix509extensionsubjectkeyidentifier_initializedecode_method
 ms.prod: windows
 ms.technology: windows-sdk

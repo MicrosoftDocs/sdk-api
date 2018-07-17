@@ -7,8 +7,8 @@ old-location: mscs\clusterdecrypt.htm
 old-project: mscs
 ms.assetid: F851BA13-3261-462C-98EA-402F77A39A14
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PCLUSTER_DECRYPT, PCLUSTER_DECRYPT callback, PCLUSTER_DECRYPT callback function [Failover Cluster], mscs.clusterdecrypt, resapi/PCLUSTER_DECRYPT
+ms.date: 07/12/2018
+ms.keywords: ClusterDecrypt, ClusterDecrypt function [Failover Cluster], PCLUSTER_DECRYPT, PCLUSTER_DECRYPT function [Failover Cluster], mscs.clusterdecrypt, resapi/ClusterDecrypt, resapi/PCLUSTER_DECRYPT
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -32,15 +32,15 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - UserDefined
+ - DllExport
 api_location:
- - ResApi.h
+ - ResUtils.dll
 api_name:
- - PCLUSTER_DECRYPT
+ - ClusterDecrypt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
 req.irql: 
 req.product: ADAM
 ---

@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_casetup_0000_0004_0001"
 author: windows-sdk-content
 description: Used by the GetProperty and SetProperty methods on the ICertificateEnrollmentServerSetup interface to specify the type of property information to retrieve or set.
 old-location: security\cessetupproperty.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 9FA6B249-B5B3-40AF-B175-CD5933D468B9
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CESSetupProperty, CESSetupProperty enumeration [Security], ENUM_CESSETUPPROP_AUTHENTICATION, ENUM_CESSETUPPROP_CACONFIG, ENUM_CESSETUPPROP_RENEWALONLY, ENUM_CESSETUPPROP_SSLCERTHASH, ENUM_CESSETUPPROP_URL, ENUM_CESSETUPPROP_USE_IISAPPPOOLIDENTITY, __MIDL___MIDL_itf_casetup_0000_0004_0001, casetup/CESSetupProperty, casetup/ENUM_CESSETUPPROP_AUTHENTICATION, casetup/ENUM_CESSETUPPROP_CACONFIG, casetup/ENUM_CESSETUPPROP_RENEWALONLY, casetup/ENUM_CESSETUPPROP_SSLCERTHASH, casetup/ENUM_CESSETUPPROP_URL, casetup/ENUM_CESSETUPPROP_USE_IISAPPPOOLIDENTITY, security.cessetupproperty
 ms.prod: windows
 ms.technology: windows-sdk

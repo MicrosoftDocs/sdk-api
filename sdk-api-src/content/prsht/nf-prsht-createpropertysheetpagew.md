@@ -4,10 +4,10 @@ title: CreatePropertySheetPageW function
 author: windows-sdk-content
 description: Creates a new page for a property sheet.
 old-location: controls\CreatePropertySheetPage.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\createpropertysheetpage.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: CreatePropertySheetPage, CreatePropertySheetPage function [Windows Controls], CreatePropertySheetPageA, CreatePropertySheetPageW, _win32_CreatePropertySheetPage, _win32_CreatePropertySheetPage_cpp, controls.CreatePropertySheetPage, controls._win32_CreatePropertySheetPage, prsht/CreatePropertySheetPage, prsht/CreatePropertySheetPageA, prsht/CreatePropertySheetPageW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ TBD
 
 Type: <b>LPCPROPSHEETPAGE</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structure that defines a page to be included in a property sheet.
+Pointer to a <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> structure that defines a page to be included in a property sheet.
 
 
 ## -returns
@@ -92,7 +92,7 @@ Returns the handle to the new property page if successful, or <b>NULL</b> otherw
 
 <div class="alert"><b>Note</b>  Before common controls version 7.0, this function did not support visual styles.</div>
 <div> </div>
-An application uses the <a href="https://msdn.microsoft.com/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function to create a property sheet that includes the new page. If you are not using the Aero wizard style (<a href="https://msdn.microsoft.com/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>), the application can use the <a href="https://msdn.microsoft.com/library/Bb774573(v=VS.85).aspx">PSM_ADDPAGE</a> message to add the new page to an existing property sheet.
+An application uses the <a href="https://msdn.microsoft.com/1cef9b14-498e-4dcb-94a5-5faa17e0774e">PropertySheet</a> function to create a property sheet that includes the new page. If you are not using the Aero wizard style (<a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PSH_AEROWIZARD</a>), the application can use the <a href="https://msdn.microsoft.com/41f9a09e-6de6-466b-bdfa-c8c4e8f193e4">PSM_ADDPAGE</a> message to add the new page to an existing property sheet.
 
 Windows 95: The system can support a maximum of 16,364 window handles.
 

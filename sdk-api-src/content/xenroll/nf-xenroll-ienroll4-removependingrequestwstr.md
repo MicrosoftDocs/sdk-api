@@ -4,10 +4,10 @@ title: IEnroll4::removePendingRequestWStr
 author: windows-sdk-content
 description: Removes a pending request from the client's request store.
 old-location: security\ienroll4_removependingrequestwstr.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 0e00fad2-dc06-421d-9a8c-27c5a951466c
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IEnroll4 interface [Security],removePendingRequestWStr method, IEnroll4.removePendingRequestWStr, IEnroll4::removePendingRequestWStr, removePendingRequestWStr, removePendingRequestWStr method [Security], removePendingRequestWStr method [Security],IEnroll4 interface, security.ienroll4_removependingrequestwstr, xenroll/IEnroll4::removePendingRequestWStr
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IFsrmClassificationManager::EnumFileProperties
 author: windows-sdk-content
 description: Enumerates the properties of the specified file.
 old-location: fsrm\ifsrmclassificationmanager_enumfileproperties.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 9a833e94-d26b-4c94-bf2f-76ac6db3f8e9
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: EnumFileProperties, EnumFileProperties method [File Server Resource Manager], EnumFileProperties method [File Server Resource Manager],FsrmClassificationManager class, EnumFileProperties method [File Server Resource Manager],IFsrmClassificationManager interface, EnumFileProperties method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],EnumFileProperties method, IFsrmClassificationManager interface [File Server Resource Manager],EnumFileProperties method, IFsrmClassificationManager.EnumFileProperties, IFsrmClassificationManager2 interface [File Server Resource Manager],EnumFileProperties method, IFsrmClassificationManager2::EnumFileProperties, IFsrmClassificationManager::EnumFileProperties, fs.ifsrmclassificationmanager_enumfileproperties, fsrm.ifsrmclassificationmanager_enumfileproperties, fsrmpipeline/IFsrmClassificationManager2::EnumFileProperties, fsrmpipeline/IFsrmClassificationManager::EnumFileProperties
 ms.prod: windows
 ms.technology: windows-sdk

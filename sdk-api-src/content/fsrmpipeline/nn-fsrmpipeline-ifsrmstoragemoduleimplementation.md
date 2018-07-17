@@ -4,10 +4,10 @@ title: IFsrmStorageModuleImplementation
 author: windows-sdk-content
 description: Storage modules implement this interface.
 old-location: fsrm\ifsrmstoragemoduleimplementation.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 8540f1f4-8ed1-4e4d-b940-3e232eb8c2d6
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IFsrmStorageModuleImplementation, IFsrmStorageModuleImplementation interface [File Server Resource Manager], IFsrmStorageModuleImplementation interface [File Server Resource Manager],described, fs.ifsrmstoragemoduleimplementation, fsrm.ifsrmstoragemoduleimplementation, fsrm/IFsrmStorageModuleImplementation
 ms.prod: windows
 ms.technology: windows-sdk

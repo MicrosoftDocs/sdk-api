@@ -4,10 +4,10 @@ title: IEnumDot11AdHocSecuritySettings::Next
 author: windows-sdk-content
 description: Gets the specified number of elements from the sequence and advances the current position by the number of items retrieved.
 old-location: nwifi\ienumdot11adhocsecuritysettings_next.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: 77101f70-de5d-4db9-a59d-5b07f386c0b7
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IEnumDot11AdHocSecuritySettings interface [NativeWIFI],Next method, IEnumDot11AdHocSecuritySettings.Next, IEnumDot11AdHocSecuritySettings::Next, Next, Next method [NativeWIFI], Next method [NativeWIFI],IEnumDot11AdHocSecuritySettings interface, adhoc/IEnumDot11AdHocSecuritySettings::Next, nwifi.ienumdot11adhocsecuritysettings_next
 ms.prod: windows
 ms.technology: windows-sdk

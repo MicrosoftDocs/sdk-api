@@ -4,10 +4,10 @@ title: IFsrmQuotaBase::get_QuotaFlags
 author: windows-sdk-content
 description: Retrieves or sets the quota flags for the object.
 old-location: fsrm\ifsrmquotabase_quotaflags.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: af856281-8161-4165-bf24-0c160f7394d2
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IFsrmQuotaBase interface [File Server Resource Manager],QuotaFlags property, IFsrmQuotaBase.QuotaFlags, IFsrmQuotaBase.get_QuotaFlags, IFsrmQuotaBase::QuotaFlags, IFsrmQuotaBase::get_QuotaFlags, IFsrmQuotaBase::put_QuotaFlags, QuotaFlags property [File Server Resource Manager], QuotaFlags property [File Server Resource Manager],IFsrmQuotaBase interface, fs.ifsrmquotabase_quotaflags, fsrm.ifsrmquotabase_quotaflags, fsrmquota/IFsrmQuotaBase::QuotaFlags, fsrmquota/IFsrmQuotaBase::get_QuotaFlags, fsrmquota/IFsrmQuotaBase::put_QuotaFlags, get_QuotaFlags
 ms.prod: windows
 ms.technology: windows-sdk

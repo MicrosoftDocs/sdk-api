@@ -7,7 +7,7 @@ old-location: wmformat\wm_leaky_bucket_pair.htm
 old-project: wmformat
 ms.assetid: 8fada83d-cb66-4411-9ff5-0eb4c02a3b5f
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: WM_LEAKY_BUCKET_PAIR, WM_LEAKY_BUCKET_PAIR structure [windows Media Format], _WMLeakyBucketPair, wmformat.wm_leaky_bucket_pair, wmsdkidl/WM_LEAKY_BUCKET_PAIR
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IPNPXAssociation::Unassociate
 author: windows-sdk-content
 description: Marks an association database entry as unassociated.
 old-location: ncd\ipnpxassociation_unassociate.htm
-old-project: FunDisc
+old-project: fundisc
 ms.assetid: 92f0cc10-03a0-498f-acd1-4b03302aa33b
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/12/2018
 ms.keywords: IPNPXAssociation interface,Unassociate method, IPNPXAssociation.Unassociate, IPNPXAssociation::Unassociate, Unassociate, Unassociate method, Unassociate method,IPNPXAssociation interface, ncd.ipnpxassociation_unassociate, pnpxassoc/IPNPXAssociation::Unassociate
 ms.prod: windows
 ms.technology: windows-sdk

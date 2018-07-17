@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/library/Ee420216(v=VS.85).aspx">XMSHORTN4</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Loads an <a href="https://msdn.microsoft.com/1dfe894e-bc5f-4bfd-a4ba-71fb3e4c9728">XMSHORTN4</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Loads an <a href="https://msdn.microsoft.com/library/Ee420216(v=VS.85).aspx">XMS
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/library/Ee420216(v=VS.85).aspx">XMSHORTN4</a> structure to load. This parameter must point to cached
+Address of the <a href="https://msdn.microsoft.com/1dfe894e-bc5f-4bfd-a4ba-71fb3e4c9728">XMSHORTN4</a> structure to load. This parameter must point to cached
         memory.
 
 

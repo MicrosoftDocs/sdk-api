@@ -4,10 +4,10 @@ title: ListView_SetColumnWidth macro
 author: windows-sdk-content
 description: Used to change the width of a column in report view or the width of all columns in list-view mode. You can use this macro or send the LVM_SETCOLUMNWIDTH message explicitly.
 old-location: controls\ListView_SetColumnWidth.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcolumnwidth.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: LVSCW_AUTOSIZE, LVSCW_AUTOSIZE_USEHEADER, ListView_SetColumnWidth, ListView_SetColumnWidth macro [Windows Controls], _win32_ListView_SetColumnWidth, _win32_ListView_SetColumnWidth_cpp, commctrl/ListView_SetColumnWidth, controls.ListView_SetColumnWidth, controls._win32_ListView_SetColumnWidth
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Used to change the width of a column in report view or the width of all columns in list-view mode. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761163(v=VS.85).aspx">LVM_SETCOLUMNWIDTH</a> message explicitly. 
+Used to change the width of a column in report view or the width of all columns in list-view mode. You can use this macro or send the <a href="https://msdn.microsoft.com/309aebfb-9fed-4c77-acbb-ea905b32b0e2">LVM_SETCOLUMNWIDTH</a> message explicitly. 
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: mscs\cluscryptokeys_removeitem.htm
 old-project: mscs
 ms.assetid: ffaf36c7-86d2-4368-8c8f-f0b58a38fceb
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusCryptoKeys class [Failover Cluster],RemoveItem method, ClusCryptoKeys.RemoveItem, ISClusCryptoKeys.RemoveItem, ISClusCryptoKeys::RemoveItem, RemoveItem, RemoveItem method [Failover Cluster], RemoveItem method [Failover Cluster],ClusCryptoKeys class, _wolf_cluscryptokeys.removeitem, mscs.cluscryptokeys_removeitem
 ms.prod: windows
 ms.technology: windows-sdk

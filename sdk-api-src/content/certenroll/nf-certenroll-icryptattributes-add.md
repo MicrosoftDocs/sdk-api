@@ -7,7 +7,7 @@ old-location: security\icryptattributes_add_method.htm
 old-project: seccertenroll
 ms.assetid: a9288c74-3d7f-4293-b666-45c90a859166
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICryptAttributes interface, ICryptAttributes interface [Security],Add method, ICryptAttributes.Add, ICryptAttributes::Add, certenroll/ICryptAttributes::Add, security.icryptattributes_add_method
 ms.prod: windows
 ms.technology: windows-sdk

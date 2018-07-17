@@ -7,7 +7,7 @@ old-location: mmc\mmc_listpad_info.htm
 old-project: mmc
 ms.assetid: 53e3cd8f-9d78-4edc-a0bb-3b409857561f
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: MMC_LISTPAD_INFO, MMC_LISTPAD_INFO structure [MMC], _MMC_LISTPAD_INFO, _slate_mmc_listpad_info, mmc.mmc_listpad_info, mmc/MMC_LISTPAD_INFO
 ms.prod: windows
 ms.technology: windows-sdk

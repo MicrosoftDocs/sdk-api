@@ -7,7 +7,7 @@ old-location: dshow\iamextendederrorinfo_get_errorcode.htm
 old-project: DirectShow
 ms.assetid: e7ab81a5-bc62-48f5-a2c8-ee53e86aea89
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IAMExtendedErrorInfo interface [DirectShow],get_ErrorCode method, IAMExtendedErrorInfo.get_ErrorCode, IAMExtendedErrorInfo::get_ErrorCode, IAMExtendedErrorInfoget_ErrorCode, dshow.iamextendederrorinfo_get_errorcode, get_ErrorCode, get_ErrorCode method [DirectShow], get_ErrorCode method [DirectShow],IAMExtendedErrorInfo interface, qnetwork/IAMExtendedErrorInfo::get_ErrorCode
 ms.prod: windows
 ms.technology: windows-sdk

@@ -179,7 +179,7 @@ Compared to  the functions it replaces, <b>StringCchLength</b> is an additional 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647509(v=VS.85).aspx">StringCbLength</a>
+<a href="https://msdn.microsoft.com/a1aa834c-53e7-4321-9db4-86f32ef31dc4">StringCbLength</a>
  
 
  

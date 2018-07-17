@@ -7,7 +7,7 @@ old-location: mscs\sr_resource_type_replicated_partition_info.htm
 old-project: mscs
 ms.assetid: D8EAC986-280E-4092-AF1A-17AAB38248AF
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO structure pointer [Failover Cluster], SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO structure [Failover Cluster], _SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, clusapi/PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, clusapi/SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO, mscs.sr_resource_type_replicated_partition_info"
 ms.prod: windows
 ms.technology: windows-sdk

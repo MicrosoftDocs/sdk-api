@@ -4,10 +4,10 @@ title: DhcpServerGetConfigV6 function
 author: windows-sdk-content
 description: Retrieves the configuration information for the DHCPv6 server.
 old-location: dhcp\dhcpservergetconfigv6.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: a867d8fe-0222-44aa-a00a-65a94cf59730
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DhcpServerGetConfigV6, DhcpServerGetConfigV6 function [DHCP], dhcp.dhcpservergetconfigv6, dhcpsapi/DhcpServerGetConfigV6
 ms.prod: windows
 ms.technology: windows-sdk

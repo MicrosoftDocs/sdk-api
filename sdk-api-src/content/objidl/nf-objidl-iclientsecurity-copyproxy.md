@@ -7,7 +7,7 @@ old-location: com\iclientsecurity_copyproxy.htm
 old-project: com
 ms.assetid: 4664351b-d43b-45dc-800e-574685afd0f6
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: CopyProxy, CopyProxy method [COM], CopyProxy method [COM],IClientSecurity interface, IClientSecurity interface [COM],CopyProxy method, IClientSecurity.CopyProxy, IClientSecurity::CopyProxy, _com_iclientsecurity_copyproxy, com.iclientsecurity_copyproxy, objidlbase/IClientSecurity::CopyProxy
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_GetLastStatus_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\getlaststatus_54.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],Region class, Region class [GDI+],GetLastStatus method, Region.GetLastStatus, Region::GetLastStatus, _gdiplus_CLASS_Region_GetLastStatus_, gdiplus._gdiplus_CLASS_Region_GetLastStatus_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,7 +103,7 @@ The first time you call the <b>Region::GetLastStatus</b> method of a
 
 
 
-The following example creates a region from a path. Next, the code calls <a href="https://msdn.microsoft.com/library/ms534776(v=VS.85).aspx">Region::GetBounds Methods</a>, followed by a call to <a href="https://msdn.microsoft.com/library/ms534766(v=VS.85).aspx">Region::GetDataSize</a>. The code then calls <b>Region::GetLastStatus</b>. If all method calls have been successful up to this point, <b>Region::GetLastStatus</b> returns <b>Ok</b>.
+The following example creates a region from a path. Next, the code calls <a href="https://msdn.microsoft.com/20e6f834-1f36-4de0-b574-b89ebce917de">Region::GetBounds Methods</a>, followed by a call to <a href="https://msdn.microsoft.com/748cbc1c-cf0c-461f-ac14-52cf882a33b4">Region::GetDataSize</a>. The code then calls <b>Region::GetLastStatus</b>. If all method calls have been successful up to this point, <b>Region::GetLastStatus</b> returns <b>Ok</b>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

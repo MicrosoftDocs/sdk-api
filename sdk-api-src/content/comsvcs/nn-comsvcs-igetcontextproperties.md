@@ -7,7 +7,7 @@ old-location: cos\igetcontextproperties.htm
 old-project: cossdk
 ms.assetid: 5e960c75-b074-4d4b-b5d6-252c26c70176
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: IGetContextProperties, IGetContextProperties interface [COM+], IGetContextProperties interface [COM+],described, _cos_IGetContextProperties, comsvcs/IGetContextProperties, cos.igetcontextproperties
 ms.prod: windows
 ms.technology: windows-sdk

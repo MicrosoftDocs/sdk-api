@@ -4,10 +4,10 @@ title: IWRdsProtocolConnection::Close
 author: windows-sdk-content
 description: Closes a connection after the session is disconnected.
 old-location: termserv\iwrdsprotocolconnection_close.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 8d159e3f-b429-4522-b608-0068b1f7fa4e
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: Close, Close method [Remote Desktop Services], Close method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],Close method, IWRdsProtocolConnection.Close, IWRdsProtocolConnection::Close, termserv.iwrdsprotocolconnection_close, wtsprotocol/IWRdsProtocolConnection::Close
 ms.prod: windows
 ms.technology: windows-sdk

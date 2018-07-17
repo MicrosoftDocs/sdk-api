@@ -4,10 +4,10 @@ title: Animate_Play macro
 author: windows-sdk-content
 description: Plays an AVI clip in an animation control. The control plays the clip in the background while the thread continues executing. You can use this macro or send the ACM_PLAY message explicitly.
 old-location: controls\Animate_Play.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_play.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: Animate_Play, Animate_Play macro [Windows Controls], _win32_Animate_Play, _win32_Animate_Play_cpp, commctrl/Animate_Play, controls.Animate_Play, controls._win32_Animate_Play
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Plays an AVI clip in an animation control. The control plays the clip in the background while the thread continues executing. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761899(v=VS.85).aspx">ACM_PLAY</a> message explicitly. 
+Plays an AVI clip in an animation control. The control plays the clip in the background while the thread continues executing. You can use this macro or send the <a href="https://msdn.microsoft.com/738b7305-bb77-441d-a198-17daf3b76039">ACM_PLAY</a> message explicitly. 
 
 
 ## -parameters
@@ -114,7 +114,7 @@ The zero-based index of the frame where playing ends. The value must be less tha
 
 
 
-You can use <a href="https://msdn.microsoft.com/library/Bb761916(v=VS.85).aspx">Animate_Seek</a> to direct the animation control to display a particular frame of the AVI clip. 
+You can use <a href="https://msdn.microsoft.com/6778fe2e-5338-4111-973a-1fc26a3b5f82">Animate_Seek</a> to direct the animation control to display a particular frame of the AVI clip. 
 
 
 

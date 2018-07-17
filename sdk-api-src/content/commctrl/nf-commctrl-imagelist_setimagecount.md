@@ -4,10 +4,10 @@ title: ImageList_SetImageCount function
 author: windows-sdk-content
 description: Resizes an existing image list.
 old-location: controls\ImageList_SetImageCount.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_setimagecount.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ImageList_SetImageCount, ImageList_SetImageCount function [Windows Controls], _win32_ImageList_SetImageCount, _win32_ImageList_SetImageCount_cpp, commctrl/ImageList_SetImageCount, controls.ImageList_SetImageCount, controls._win32_ImageList_SetImageCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 
-If an application expands an image list with this function, it must add new images by using the <a href="https://msdn.microsoft.com/library/Bb775213(v=VS.85).aspx">ImageList_Replace</a> function. If your application does not add valid images at the new indexes, draw operations that use the new indexes will be unpredictable. 
+If an application expands an image list with this function, it must add new images by using the <a href="https://msdn.microsoft.com/ce5c9771-b0be-4450-af7b-f11dd365d102">ImageList_Replace</a> function. If your application does not add valid images at the new indexes, draw operations that use the new indexes will be unpredictable. 
 
 If you decrease the size of an image list by using this function, the truncated images are freed.
 

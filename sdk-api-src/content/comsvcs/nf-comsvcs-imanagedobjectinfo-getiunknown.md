@@ -7,7 +7,7 @@ old-location: cos\imanagedobjectinfo_getiunknown.htm
 old-project: cossdk
 ms.assetid: 1c0d27cb-1725-4654-ab15-0ef815ce6657
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: GetIUnknown, GetIUnknown method [COM+], GetIUnknown method [COM+],IManagedObjectInfo interface, IManagedObjectInfo interface [COM+],GetIUnknown method, IManagedObjectInfo.GetIUnknown, IManagedObjectInfo::GetIUnknown, _cos_IManagedObjectInfo_GetIUnknown, comsvcs/IManagedObjectInfo::GetIUnknown, cos.imanagedobjectinfo_getiunknown
 ms.prod: windows
 ms.technology: windows-sdk

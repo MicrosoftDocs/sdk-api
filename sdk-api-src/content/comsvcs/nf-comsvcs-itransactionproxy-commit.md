@@ -7,7 +7,7 @@ old-location: cos\itransactionproxy_commit.htm
 old-project: cossdk
 ms.assetid: 00b8fe43-22d3-44fd-a1c4-cf3cd36873c6
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: Commit, Commit method [COM+], Commit method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],Commit method, ITransactionProxy.Commit, ITransactionProxy::Commit, comsvcs/ITransactionProxy::Commit, cos.itransactionproxy_commit
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\clusnetinterface_name.htm
 old-project: mscs
 ms.assetid: efad2b26-6e36-44bd-b4c3-c63dbb54b256
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusNetInterface object [Failover Cluster],Name property, ClusNetInterface.Name, ISClusNetInterface.get_Name, ISClusNetInterface::get_Name, Name property [Failover Cluster], Name property [Failover Cluster],ClusNetInterface object, _wolf_clusnetinterface.name, get_Name, mscs.clusnetinterface_name
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_LSA_TOKEN_INFORMATION_V1"
 author: windows-sdk-content
 description: Contains information an authentication package can place in a Version 2 Windows token object and has superceded LSA_TOKEN_INFORMATION_V1.
 old-location: security\lsa_token_information_v2.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 6BEDAC01-99DA-4EE5-9667-A11E00BE7A30
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*PLSA_TOKEN_INFORMATION_V1, *PLSA_TOKEN_INFORMATION_V2, LSA_TOKEN_INFORMATION_V1, LSA_TOKEN_INFORMATION_V2, LSA_TOKEN_INFORMATION_V2 structure [Security], PLSA_TOKEN_INFORMATION_V2, PLSA_TOKEN_INFORMATION_V2 structure pointer [Security], _LSA_TOKEN_INFORMATION_V1, ntsecpkg/LSA_TOKEN_INFORMATION_V2, ntsecpkg/PLSA_TOKEN_INFORMATION_V2, security.lsa_token_information_v2"
 ms.prod: windows
 ms.technology: windows-sdk

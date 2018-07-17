@@ -7,7 +7,7 @@ old-location: com\oleloadpicture.htm
 old-project: com
 ms.assetid: de1847cd-ecc0-4941-9dbc-a60b8ef0b1c1
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: OleLoadPicture, OleLoadPicture function [COM], _ole_OleLoadPicture, com.oleloadpicture, olectl/OleLoadPicture
 ms.prod: windows
 ms.technology: windows-sdk

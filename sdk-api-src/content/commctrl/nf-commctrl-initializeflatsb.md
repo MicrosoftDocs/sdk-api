@@ -4,10 +4,10 @@ title: InitializeFlatSB function
 author: windows-sdk-content
 description: Initializes flat scroll bars for a particular window.
 old-location: controls\InitializeFlatSB.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\initializeflatsb.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: InitializeFlatSB, InitializeFlatSB function [Windows Controls], _win32_InitializeFlatSB, _win32_InitializeFlatSB_cpp, commctrl/InitializeFlatSB, controls.InitializeFlatSB, controls._win32_InitializeFlatSB
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 
-This function must be called before any other flat scroll bar functions are called. The window will receive flat scroll bars by default. The scroll bar style can be changed with the <a href="https://msdn.microsoft.com/library/Bb775438(v=VS.85).aspx">FlatSB_SetScrollProp</a> function. 
+This function must be called before any other flat scroll bar functions are called. The window will receive flat scroll bars by default. The scroll bar style can be changed with the <a href="https://msdn.microsoft.com/f9779369-2416-499d-a20b-a2fc190e4e01">FlatSB_SetScrollProp</a> function. 
 
 <div class="alert"><b>Note</b>  Flat scroll bar functions are implemented in Comctl32.dll versions 4.71 through 5.82. Comctl32.dll versions 6.00 and higher do not support flat scroll bars.</div>
 <div> </div>

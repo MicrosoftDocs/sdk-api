@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_IsEmpty_g_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\isempty.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: IsEmpty, IsEmpty method [GDI+], IsEmpty method [GDI+],Region class, Region class [GDI+],IsEmpty method, Region.IsEmpty, Region::IsEmpty, _gdiplus_CLASS_Region_IsEmpty_g_, gdiplus._gdiplus_CLASS_Region_IsEmpty_g_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,15 +95,15 @@ If this region is empty, this method returns <b>TRUE</b>; otherwise, it returns 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534771(v=VS.85).aspx">Region::IsInfinite</a>
+<a href="https://msdn.microsoft.com/18f992cc-3f0f-49c0-991d-7b99936c5103">Region::IsInfinite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534772(v=VS.85).aspx">Region::MakeEmpty</a>
+<a href="https://msdn.microsoft.com/9330da9b-99e9-4c24-988d-72def7fe2345">Region::MakeEmpty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534773(v=VS.85).aspx">Region::MakeInfinite</a>
+<a href="https://msdn.microsoft.com/8962df07-6f76-4b50-8dc4-aff358e7f72d">Region::MakeInfinite</a>
 
 
 

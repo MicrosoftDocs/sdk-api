@@ -7,7 +7,7 @@ old-location: dshow\mp_envelope_segment.htm
 old-project: DirectShow
 ms.assetid: b7386b63-c563-42dd-851c-780bf1043f65
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: MPF_ENVLP_BEGIN_CURRENTVAL, MPF_ENVLP_BEGIN_NEUTRALVAL, MPF_ENVLP_STANDARD, MP_ENVELOPEStructure, MP_ENVELOPE_SEGMENT, MP_ENVELOPE_SEGMENT structure [DirectShow], _MP_ENVELOPE_SEGMENT, dshow.mp_envelope_segment, medparam/MP_ENVELOPE_SEGMENT
 ms.prod: windows
 ms.technology: windows-sdk

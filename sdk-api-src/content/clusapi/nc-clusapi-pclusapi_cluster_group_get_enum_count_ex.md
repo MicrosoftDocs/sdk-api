@@ -7,8 +7,8 @@ old-location: mscs\clustergroupgetenumcountex.htm
 old-project: mscs
 ms.assetid: 28FCEC17-78C6-4902-BC4C-832BE3347380
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT_EX, PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT_EX callback, PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT_EX, mscs.clustergroupgetenumcountex
+ms.date: 07/12/2018
+ms.keywords: ClusterGroupGetEnumCountEx, ClusterGroupGetEnumCountEx function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT_EX, PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT_EX function [Failover Cluster], clusapi/ClusterGroupGetEnumCountEx, clusapi/PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT_EX, mscs.clustergroupgetenumcountex
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -32,15 +32,15 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - UserDefined
+ - DllExport
 api_location:
- - ClusAPI.h
+ - ClusAPI.dll
 api_name:
- - PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT_EX
+ - ClusterGroupGetEnumCountEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
 req.irql: 
 ---
 
@@ -77,7 +77,7 @@ The number of items in the enumeration.
 
 
 
-The <i>ClusterGroupGetEnumCountEx</i> function doesn't connect to the cluster, because <i>hGroupEnumEx</i> handle already contains the enumeration data.
+The <b>ClusterGroupGetEnumCountEx</b> function doesn't connect to the cluster, because <i>hGroupEnumEx</i> handle already contains the enumeration data.
 
 
 

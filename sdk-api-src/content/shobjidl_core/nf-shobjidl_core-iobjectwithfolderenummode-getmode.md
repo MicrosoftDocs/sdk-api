@@ -7,7 +7,7 @@ old-location: shell\IObjectWithFolderEnumMode_GetMode.htm
 old-project: shell
 ms.assetid: 5d331255-2295-4f7b-b2d6-1238edcc15bb
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: GetMode, GetMode method [Windows Shell], GetMode method [Windows Shell],IObjectWithFolderEnumMode interface, IObjectWithFolderEnumMode interface [Windows Shell],GetMode method, IObjectWithFolderEnumMode.GetMode, IObjectWithFolderEnumMode::GetMode, _shell_IObjectWithFolderEnumMode_GetMode, shell.IObjectWithFolderEnumMode_GetMode, shobjidl_core/IObjectWithFolderEnumMode::GetMode
 ms.prod: windows
 ms.technology: windows-sdk

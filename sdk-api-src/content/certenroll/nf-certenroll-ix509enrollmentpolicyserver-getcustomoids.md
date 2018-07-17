@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentpolicyserver_getcustomoids.htm
 old-project: seccertenroll
 ms.assetid: 0db4e188-cef1-46af-b5c7-f18a8de5f1a7
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: GetCustomOids, GetCustomOids method [Security], GetCustomOids method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCustomOids method, IX509EnrollmentPolicyServer.GetCustomOids, IX509EnrollmentPolicyServer::GetCustomOids, certenroll/IX509EnrollmentPolicyServer::GetCustomOids, security.ix509enrollmentpolicyserver_getcustomoids
 ms.prod: windows
 ms.technology: windows-sdk

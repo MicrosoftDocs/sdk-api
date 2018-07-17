@@ -7,7 +7,7 @@ old-location: shell\Folder_GetDetailsOf.htm
 old-project: shell
 ms.assetid: d2fe4550-f171-40d9-8bce-065b61826997
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: Folder object [Windows Shell],GetDetailsOf method, Folder.GetDetailsOf, Folder::GetDetailsOf, GetDetailsOf, GetDetailsOf method [Windows Shell], GetDetailsOf method [Windows Shell],Folder object, _win32_Folder_GetDetailsOf, shell.Folder_GetDetailsOf
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ Retrieves the info tip information for the item.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a>*</b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a>*</b>
 
 String containing the retrieved detail.
 

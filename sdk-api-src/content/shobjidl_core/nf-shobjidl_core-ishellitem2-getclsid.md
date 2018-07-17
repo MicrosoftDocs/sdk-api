@@ -7,7 +7,7 @@ old-location: shell\IShellItem2_GetCLSID.htm
 old-project: shell
 ms.assetid: 95b0c5fb-db09-4db0-8253-708f2dc2944b
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: GetCLSID, GetCLSID method [Windows Shell], GetCLSID method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetCLSID method, IShellItem2.GetCLSID, IShellItem2::GetCLSID, _shell_IShellItem2_GetCLSID, shell.IShellItem2_GetCLSID, shobjidl_core/IShellItem2::GetCLSID
 ms.prod: windows
 ms.technology: windows-sdk

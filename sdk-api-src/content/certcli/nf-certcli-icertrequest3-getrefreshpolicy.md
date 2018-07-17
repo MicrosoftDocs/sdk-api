@@ -4,10 +4,10 @@ title: ICertRequest3::GetRefreshPolicy
 author: windows-sdk-content
 description: Returns a value that indicates whether a client's cached certificate enrollment policy is out of date and needs to be refreshed.
 old-location: security\icertrequest3_getrefreshpolicy.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 0683b9ad-c3d5-418a-8f05-ae06ad74ef1d
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CCertRequest object [Security],GetRefreshPolicy method, GetRefreshPolicy, GetRefreshPolicy method [Security], GetRefreshPolicy method [Security],CCertRequest object, GetRefreshPolicy method [Security],ICertRequest3 class, ICertRequest3 class [Security],GetRefreshPolicy method, ICertRequest3.GetRefreshPolicy, ICertRequest3::GetRefreshPolicy, certcli/ICertRequest3::GetRefreshPolicy, security.icertrequest3_getrefreshpolicy
 ms.prod: windows
 ms.technology: windows-sdk

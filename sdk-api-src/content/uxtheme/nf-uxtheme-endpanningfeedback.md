@@ -4,10 +4,10 @@ title: EndPanningFeedback function
 author: windows-sdk-content
 description: Terminates any existing animation that was in process or set up by BeginPanningFeedback and UpdatePanningFeedback.
 old-location: controls\EndPanningFeedback.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\endpanningfeedback.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: EndPanningFeedback, EndPanningFeedback function [Windows Controls], _controls_EndPanningFeedback, _controls_EndPanningFeedback_cpp, controls.EndPanningFeedback, controls._controls_EndPanningFeedback, uxtheme/EndPanningFeedback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-Terminates any existing animation that was in process or set up by <a href="https://msdn.microsoft.com/library/Dd373383(v=VS.85).aspx">BeginPanningFeedback</a> and <a href="https://msdn.microsoft.com/library/Dd373385(v=VS.85).aspx">UpdatePanningFeedback</a>. 
+Terminates any existing animation that was in process or set up by <a href="https://msdn.microsoft.com/b1da3ed7-68bd-4bf7-a951-ee85368ea1d3">BeginPanningFeedback</a> and <a href="https://msdn.microsoft.com/227631b3-33e8-4ade-a7ff-51b70aed9ec6">UpdatePanningFeedback</a>. 
 
 
 ## -parameters
@@ -88,7 +88,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-This function can only be called after a <a href="https://msdn.microsoft.com/library/Dd373383(v=VS.85).aspx">BeginPanningFeedback</a> call.
+This function can only be called after a <a href="https://msdn.microsoft.com/b1da3ed7-68bd-4bf7-a951-ee85368ea1d3">BeginPanningFeedback</a> call.
 
 
 

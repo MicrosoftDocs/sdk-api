@@ -4,10 +4,10 @@ title: IFsrmDerivedObjectsResult
 author: windows-sdk-content
 description: Used to access the results when the source template calls the CommitAndUpdateDerived method.
 old-location: fsrm\ifsrmderivedobjectsresult.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 1486d53a-d09a-4eff-ba07-b9dbb32e18ba
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IFsrmDerivedObjectsResult, IFsrmDerivedObjectsResult interface [File Server Resource Manager], IFsrmDerivedObjectsResult interface [File Server Resource Manager],described, fs.ifsrmderivedobjectsresult, fsrm.ifsrmderivedobjectsresult, fsrm/IFsrmDerivedObjectsResult
 ms.prod: windows
 ms.technology: windows-sdk

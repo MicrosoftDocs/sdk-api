@@ -7,7 +7,7 @@ old-location: multimedia\acmfilterdetails.htm
 old-project: Multimedia
 ms.assetid: ab29362e-fa85-4833-a2c8-df5cfacc6140
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/13/2018
 ms.keywords: "_win32_acmFilterDetails, acmFilterDetails, acmFilterDetails function [Windows Multimedia], acmFilterDetailsA, acmFilterDetailsW, msacm/acmFilterDetails, msacm/acmFilterDetailsA, msacm/acmFilterDetailsW, multimedia.acmfilterdetails"
 ms.prod: windows
 ms.technology: windows-sdk

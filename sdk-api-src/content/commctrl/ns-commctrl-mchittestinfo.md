@@ -4,10 +4,10 @@ title: MCHITTESTINFO
 author: windows-sdk-content
 description: Carries information specific to hit-testing points for a month calendar control. This structure is used with the MCM_HITTEST message and the corresponding MonthCal_HitTest macro.
 old-location: controls\MCHITTESTINFO.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\mchittestinfo.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: "*PMCHITTESTINFO, MCHITTESTINFO, MCHITTESTINFO structure [Windows Controls], MCHT_CALENDARBK, MCHT_CALENDARCONTROL, MCHT_CALENDARDATE, MCHT_CALENDARDATEMAX, MCHT_CALENDARDATEMIN, MCHT_CALENDARDATENEXT, MCHT_CALENDARDATEPREV, MCHT_CALENDARDAY, MCHT_CALENDARWEEKNUM, MCHT_NOWHERE, MCHT_TITLEBK, MCHT_TITLEBTNNEXT, MCHT_TITLEBTNPREV, MCHT_TITLEMONTH, MCHT_TITLEYEAR, PMCHITTESTINFO, PMCHITTESTINFO structure pointer [Windows Controls], _win32_MCHITTESTINFO, _win32_MCHITTESTINFO_cpp, commctrl/MCHITTESTINFO, commctrl/PMCHITTESTINFO, controls.MCHITTESTINFO, controls._win32_MCHITTESTINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Carries information specific to hit-testing points for a month calendar control. This structure is used with the <a href="https://msdn.microsoft.com/library/Bb760991(v=VS.85).aspx">MCM_HITTEST</a> message and the corresponding <a href="https://msdn.microsoft.com/library/Bb774710(v=VS.85).aspx">MonthCal_HitTest</a> macro. 
+Carries information specific to hit-testing points for a month calendar control. This structure is used with the <a href="https://msdn.microsoft.com/51e74b07-4ed7-488d-ad5d-116f046577fc">MCM_HITTEST</a> message and the corresponding <a href="https://msdn.microsoft.com/b328f8e7-4f9d-477f-bbb8-97f0acd5af0d">MonthCal_HitTest</a> macro. 
 
 
 ## -struct-fields
@@ -171,7 +171,7 @@ The given point was over a day abbreviation ("Fri", for example). The <a href="h
 </dl>
 </td>
 <td width="60%">
-The given point was over a week number (<a href="https://msdn.microsoft.com/library/Bb760919(v=VS.85).aspx">MCS_WEEKNUMBERS</a> style only). The <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure at 
+The given point was over a week number (<a href="Month_calendar_control_styles.htm">MCS_WEEKNUMBERS</a> style only). The <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure at 
 						<i>lpMCHitTest</i>&gt;st is set to the corresponding date in the leftmost column.
 
 </td>

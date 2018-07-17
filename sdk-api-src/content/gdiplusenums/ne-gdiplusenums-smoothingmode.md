@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_SmoothingMode.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\smoothingmode.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: SmoothingMode, SmoothingMode enumeration [GDI+], SmoothingModeAntiAlias, SmoothingModeAntiAlias8x4, SmoothingModeAntiAlias8x8, SmoothingModeDefault, SmoothingModeHighQuality, SmoothingModeHighSpeed, SmoothingModeInvalid, SmoothingModeNone, _gdiplus_ENUM_SmoothingMode, gdiplus._gdiplus_ENUM_SmoothingMode, gdiplusenums/SmoothingMode, gdiplusenums/SmoothingModeAntiAlias, gdiplusenums/SmoothingModeAntiAlias8x4, gdiplusenums/SmoothingModeAntiAlias8x8, gdiplusenums/SmoothingModeDefault, gdiplusenums/SmoothingModeHighQuality, gdiplusenums/SmoothingModeHighSpeed, gdiplusenums/SmoothingModeInvalid, gdiplusenums/SmoothingModeNone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>SmoothingMode</b> enumeration specifies the type of smoothing (antialiasing) that is applied to lines and curves. This enumeration is used by the <a href="https://msdn.microsoft.com/library/ms535723(v=VS.85).aspx">Graphics::GetSmoothingMode</a> and <a href="https://msdn.microsoft.com/library/ms535815(v=VS.85).aspx">Graphics::SetSmoothingMode</a> methods of the 
+The <b>SmoothingMode</b> enumeration specifies the type of smoothing (antialiasing) that is applied to lines and curves. This enumeration is used by the <a href="https://msdn.microsoft.com/85aacaa3-3a08-4879-8f49-7d082269cbe4">Graphics::GetSmoothingMode</a> and <a href="https://msdn.microsoft.com/d42ae7c7-9381-4613-bb65-76683873a63a">Graphics::SetSmoothingMode</a> methods of the 
 			<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> class.
 
 
@@ -114,11 +114,11 @@ Smoothing performed by an 8 X 4 box filter gives better results for nearly verti
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535723(v=VS.85).aspx">Graphics::GetSmoothingMode</a>
+<a href="https://msdn.microsoft.com/85aacaa3-3a08-4879-8f49-7d082269cbe4">Graphics::GetSmoothingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535815(v=VS.85).aspx">Graphics::SetSmoothingMode</a>
+<a href="https://msdn.microsoft.com/d42ae7c7-9381-4613-bb65-76683873a63a">Graphics::SetSmoothingMode</a>
  
 
  

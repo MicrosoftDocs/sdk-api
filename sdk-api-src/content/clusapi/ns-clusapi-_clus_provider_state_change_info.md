@@ -7,7 +7,7 @@ old-location: mscs\clus_provider_state_change_info.htm
 old-project: mscs
 ms.assetid: 53e25d02-6dfa-4a74-8ff3-01c868d2fd44
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: "*PCLUS_PROVIDER_STATE_CHANGE_INFO, CLUS_PROVIDER_STATE_CHANGE_INFO, CLUS_PROVIDER_STATE_CHANGE_INFO structure [Failover Cluster], ClusterResourceFailed, ClusterResourceInherited, ClusterResourceOffline, ClusterResourceOfflinePending, ClusterResourceOnline, ClusterResourceOnlinePending, PCLUS_PROVIDER_STATE_CHANGE_INFO, PCLUS_PROVIDER_STATE_CHANGE_INFO structure pointer [Failover Cluster], _CLUS_PROVIDER_STATE_CHANGE_INFO, clusapi/CLUS_PROVIDER_STATE_CHANGE_INFO, clusapi/PCLUS_PROVIDER_STATE_CHANGE_INFO, mscs.clus_provider_state_change_info"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ The resource is not operational.
 
 #### ClusterResourceFailed (4)
 
-The resource has <a href="https://msdn.microsoft.com/library/ms682135(v=VS.85).aspx">failed</a>.
+The resource has <a href="f_gly.htm">failed</a>.
 
 
 

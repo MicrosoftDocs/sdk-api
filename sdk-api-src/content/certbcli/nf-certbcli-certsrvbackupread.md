@@ -4,10 +4,10 @@ title: CertSrvBackupRead function
 author: windows-sdk-content
 description: Reads bytes from a Certificate Services file.
 old-location: security\certsrvbackupread.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: cfc72002-40ee-4854-a026-b956acd5d758
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CertSrvBackupRead, CertSrvBackupRead function [Security], _certsrv_certsrvbackupread, certbcli/CertSrvBackupRead, security.certsrvbackupread
 ms.prod: windows
 ms.technology: windows-sdk

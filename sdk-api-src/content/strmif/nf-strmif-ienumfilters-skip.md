@@ -7,7 +7,7 @@ old-location: dshow\ienumfilters_skip.htm
 old-project: DirectShow
 ms.assetid: 594e25b1-03a8-4b6c-965c-f34dae9f3d3b
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IEnumFilters interface [DirectShow],Skip method, IEnumFilters.Skip, IEnumFilters::Skip, IEnumFiltersSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumFilters interface, dshow.ienumfilters_skip, strmif/IEnumFilters::Skip
 ms.prod: windows
 ms.technology: windows-sdk

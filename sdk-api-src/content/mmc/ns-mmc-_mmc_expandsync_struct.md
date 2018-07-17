@@ -7,7 +7,7 @@ old-location: mmc\mmc_expandsync_struct.htm
 old-project: mmc
 ms.assetid: a614ea59-0661-43db-8ad5-b732d4acee80
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: MMC_EXPANDSYNC_STRUCT, MMC_EXPANDSYNC_STRUCT structure [MMC], _MMC_EXPANDSYNC_STRUCT, _slate_mmc_expandsync_struct, mmc.mmc_expandsync_struct, mmc/MMC_EXPANDSYNC_STRUCT
 ms.prod: windows
 ms.technology: windows-sdk

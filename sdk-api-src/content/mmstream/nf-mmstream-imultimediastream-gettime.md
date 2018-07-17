@@ -7,7 +7,7 @@ old-location: dshow\imultimediastream_gettime.htm
 old-project: DirectShow
 ms.assetid: da92c68b-176c-4773-9ae1-63f803bc206e
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetTime method, IMultiMediaStream.GetTime, IMultiMediaStream::GetTime, IMultiMediaStreamGetTime, dshow.imultimediastream_gettime, mmstream/IMultiMediaStream::GetTime
 ms.prod: windows
 ms.technology: windows-sdk

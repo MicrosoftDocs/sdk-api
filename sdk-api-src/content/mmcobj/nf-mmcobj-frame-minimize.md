@@ -7,7 +7,7 @@ old-location: mmc\frame_minimize.htm
 old-project: mmc
 ms.assetid: f5b0bae8-79ea-463a-9a9c-9a4ace53aab3
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: Frame interface [MMC],Minimize method, Frame object [MMC],Minimize method, Frame.Minimize, Frame::Minimize, Minimize, Minimize method [MMC], Minimize method [MMC],Frame interface, Minimize method [MMC],Frame object, _slate_frame.minimize_method, mmc.frame_minimize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: WlanScan function
 author: windows-sdk-content
 description: Requests a scan for available networks on the indicated interface.
 old-location: nwifi\wlanscan.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: cf30b285-9694-4ab0-ad13-c1ec4d8cb6e1
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WlanScan, WlanScan function [NativeWIFI], nwifi.wlanscan, wlanapi/WlanScan
 ms.prod: windows
 ms.technology: windows-sdk

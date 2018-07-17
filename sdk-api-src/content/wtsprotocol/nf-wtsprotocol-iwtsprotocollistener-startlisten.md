@@ -4,10 +4,10 @@ title: IWTSProtocolListener::StartListen
 author: windows-sdk-content
 description: IWTSProtocolListener::StartListen is no longer available. Instead, use IWRdsProtocolListener::StartListen.
 old-location: termserv\iwtsprotocollistener_startlisten.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: d922ea90-a4eb-4495-947c-ef33bd81f40a
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IWTSProtocolListener interface [Remote Desktop Services],StartListen method, IWTSProtocolListener.StartListen, IWTSProtocolListener::StartListen, StartListen, StartListen method [Remote Desktop Services], StartListen method [Remote Desktop Services],IWTSProtocolListener interface, termserv.iwtsprotocollistener_startlisten, wtsprotocol/IWTSProtocolListener::StartListen
 ms.prod: windows
 ms.technology: windows-sdk

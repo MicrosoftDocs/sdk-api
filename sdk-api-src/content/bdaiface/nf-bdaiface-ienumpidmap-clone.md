@@ -7,7 +7,7 @@ old-location: dshow\ienumpidmap_clone.htm
 old-project: DirectShow
 ms.assetid: 4d965a71-ff5e-4d4a-8976-0de5b8bbae04
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumPIDMap interface, IEnumPIDMap interface [DirectShow],Clone method, IEnumPIDMap.Clone, IEnumPIDMap::Clone, IEnumPIDMapClone, bdaiface/IEnumPIDMap::Clone, dshow.ienumpidmap_clone
 ms.prod: windows
 ms.technology: windows-sdk

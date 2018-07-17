@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_createstrokes.htm
 old-project: tablet
 ms.assetid: 21e68151-38c9-414f-840c-c2687a05aea4
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: 21e68151-38c9-414f-840c-c2687a05aea4, CreateStrokes, CreateStrokes method [Tablet PC], CreateStrokes method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],CreateStrokes method, IInkDisp.CreateStrokes, IInkDisp::CreateStrokes, msinkaut/IInkDisp::CreateStrokes, tablet.inkdisp_createstrokes
 ms.prod: windows
 ms.technology: windows-sdk

@@ -72,7 +72,7 @@ Type: <b>LPCWSTR</b>
 
 ### -param pValue [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 
                 As there are no valid parameters currently configured, there are no valid parameters to pass to this method.

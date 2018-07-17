@@ -7,7 +7,7 @@ old-location: shell\COMPSTATEINFO.htm
 old-project: shell
 ms.assetid: 0087e868-0bdd-4ad2-a93f-84ff55b2cb06
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: "*LPCOMPSTATEINFO, COMPSTATEINFO, COMPSTATEINFO structure [Windows Shell], IS_FULLSCREEN, IS_NORMAL, IS_SPLIT, LPCOMPSTATEINFO, LPCOMPSTATEINFO structure pointer [Windows Shell], _tagCOMPSTATEINFO, _win32_COMPSTATEINFO, shell.COMPSTATEINFO, shlobj_core/COMPSTATEINFO, shlobj_core/LPCOMPSTATEINFO"
 ms.prod: windows
 ms.technology: windows-sdk

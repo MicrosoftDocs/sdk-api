@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Moves the internal counter to the beginning of the list so a subsequent call to <a href="https://msdn.microsoft.com/library/Bb266505(v=VS.85).aspx">IEnumSearchRoots::Next</a> retrieves from the beginning.
+Moves the internal counter to the beginning of the list so a subsequent call to <a href="https://msdn.microsoft.com/58838414-0609-4da8-9467-1ebfb5e42d8c">IEnumSearchRoots::Next</a> retrieves from the beginning.
         
 
 

@@ -4,10 +4,10 @@ title: DhcpV4FailoverDeleteScopeFromRelationship function
 author: windows-sdk-content
 description: Deletes a DHCPv4 scope from the specified failover relationship.
 old-location: dhcp\dhcpv4failoverdeletescopefromrelationship.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: 52420cc6-0a7b-499b-b7fe-35852a03adea
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DhcpV4FailoverDeleteScopeFromRelationship, DhcpV4FailoverDeleteScopeFromRelationship function [DHCP], dhcp.dhcpv4failoverdeletescopefromrelationship, dhcpsapi/DhcpV4FailoverDeleteScopeFromRelationship
 ms.prod: windows
 ms.technology: windows-sdk

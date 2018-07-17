@@ -7,7 +7,7 @@ old-location: display\iviewhelper_commit.htm
 old-project: display
 ms.assetid: f2d4ffcd-b1b4-419c-8c22-1f2561d77138
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/12/2018
 ms.keywords: Commit, Commit method [Display Devices], Commit method [Display Devices],IViewHelper interface, IViewHelper interface [Display Devices],Commit method, IViewHelper.Commit, IViewHelper::Commit, TMM_Ref_e3c1b7ef-16ad-4501-aba6-45e456bc7ac3.xml, cloneviewhelper/IViewHelper::Commit, display.iviewhelper_commit
 ms.prod: windows
 ms.technology: windows-sdk

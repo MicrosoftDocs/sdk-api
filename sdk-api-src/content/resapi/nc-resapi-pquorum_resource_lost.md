@@ -7,7 +7,7 @@ old-location: mscs\quorumresourcelost.htm
 old-project: mscs
 ms.assetid: 353eaf47-f93e-4243-8bed-7b6f07513a3c
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: PQUORUM_RESOURCE_LOST, PQUORUM_RESOURCE_LOST callback function [Failover Cluster], QuorumResourceLost, QuorumResourceLost callback, QuorumResourceLost callback function [Failover Cluster], _wolf_quorumresourcelost, mscs.quorumresourcelost, resapi/PQUORUM_RESOURCE_LOST, resapi/QuorumResourceLost
 ms.prod: windows
 ms.technology: windows-sdk

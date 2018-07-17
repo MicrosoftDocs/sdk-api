@@ -7,7 +7,7 @@ old-location: multimedia\capwavestreamcallback.htm
 old-project: Multimedia
 ms.assetid: e7047d3d-9393-4611-a034-d36d6e92ee01
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/13/2018
 ms.keywords: CAPWAVECALLBACK, _win32_capWaveStreamCallback, capWaveStreamCallback, capWaveStreamCallback callback, capWaveStreamCallback callback function [Windows Multimedia], multimedia.capwavestreamcallback, vfw/capWaveStreamCallback
 ms.prod: windows
 ms.technology: windows-sdk

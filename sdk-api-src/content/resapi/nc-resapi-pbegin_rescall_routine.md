@@ -7,7 +7,7 @@ old-location: mscs\beginresourcecontrol.htm
 old-project: mscs
 ms.assetid: 1B95607F-658A-469D-8935-DF7E537D1509
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: BeginResourceControl, BeginResourceControl callback, BeginResourceControl callback function [Failover Cluster], PBEGIN_RESCALL_ROUTINE, PBEGIN_RESCALL_ROUTINE callback function [Failover Cluster], mscs.beginresourcecontrol, resapi/BeginResourceControl, resapi/PBEGIN_RESCALL_ROUTINE
 ms.prod: windows
 ms.technology: windows-sdk

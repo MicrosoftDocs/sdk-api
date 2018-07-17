@@ -7,7 +7,7 @@ old-location: cos\ienumeventobject.htm
 old-project: cossdk
 ms.assetid: a42d0791-28d0-4d83-b94d-ff2f8ef9a614
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: IEnumEventObject, IEnumEventObject interface [COM+], IEnumEventObject interface [COM+],described, _cos_ienumeventobject, cos.ienumeventobject, eventsys/IEnumEventObject
 ms.prod: windows
 ms.technology: windows-sdk

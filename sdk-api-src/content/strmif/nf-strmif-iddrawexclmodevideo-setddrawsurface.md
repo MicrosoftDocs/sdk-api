@@ -7,7 +7,7 @@ old-location: dshow\iddrawexclmodevideo_setddrawsurface.htm
 old-project: DirectShow
 ms.assetid: a897c147-044d-44e2-9029-bd62c74483d2
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IDDrawExclModeVideo interface [DirectShow],SetDDrawSurface method, IDDrawExclModeVideo.SetDDrawSurface, IDDrawExclModeVideo::SetDDrawSurface, IDDrawExclModeVideoSetDDrawSurface, SetDDrawSurface, SetDDrawSurface method [DirectShow], SetDDrawSurface method [DirectShow],IDDrawExclModeVideo interface, dshow.iddrawexclmodevideo_setddrawsurface, strmif/IDDrawExclModeVideo::SetDDrawSurface
 ms.prod: windows
 ms.technology: windows-sdk

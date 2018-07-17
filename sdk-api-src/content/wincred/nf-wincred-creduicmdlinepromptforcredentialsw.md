@@ -4,10 +4,10 @@ title: CredUICmdLinePromptForCredentialsW function
 author: windows-sdk-content
 description: Prompts for and accepts credential information from a user working in a command-line (console) application. The name and password typed by the user are passed back to the calling application for verification.
 old-location: security\creduicmdlinepromptforcredentials.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 5b5bfe87-8f31-4228-931e-50cfc399b66b
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: CREDUI_FLAGS_ALWAYS_SHOW_UI, CREDUI_FLAGS_DO_NOT_PERSIST, CREDUI_FLAGS_EXCLUDE_CERTIFICATES, CREDUI_FLAGS_EXPECT_CONFIRMATION, CREDUI_FLAGS_GENERIC_CREDENTIALS, CREDUI_FLAGS_INCORRECT_PASSWORD, CREDUI_FLAGS_PERSIST, CREDUI_FLAGS_REQUEST_ADMINISTRATOR, CREDUI_FLAGS_REQUIRE_CERTIFICATE, CREDUI_FLAGS_REQUIRE_SMARTCARD, CREDUI_FLAGS_SERVER_CREDENTIAL, CREDUI_FLAGS_SHOW_SAVE_CHECK_BOX, CREDUI_FLAGS_USERNAME_TARGET_CREDENTIALS, CredUICmdLinePromptForCredentials, CredUICmdLinePromptForCredentials function [Security], CredUICmdLinePromptForCredentialsA, CredUICmdLinePromptForCredentialsW, _cred_creduicmdlinepromptforcredentials, security.creduicmdlinepromptforcredentials, wincred/CredUICmdLinePromptForCredentials, wincred/CredUICmdLinePromptForCredentialsA, wincred/CredUICmdLinePromptForCredentialsW
 ms.prod: windows
 ms.technology: windows-sdk

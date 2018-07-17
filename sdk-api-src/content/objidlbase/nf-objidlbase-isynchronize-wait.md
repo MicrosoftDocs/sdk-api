@@ -7,7 +7,7 @@ old-location: com\isynchronize_wait.htm
 old-project: com
 ms.assetid: 1abed0be-b4e3-41f4-af6c-e327ce934b59
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: ISynchronize interface [COM],Wait method, ISynchronize.Wait, ISynchronize::Wait, Wait, Wait method [COM], Wait method [COM],ISynchronize interface, _com_isynchronize_wait, com.isynchronize_wait, objidlbase/ISynchronize::Wait
 ms.prod: windows
 ms.technology: windows-sdk

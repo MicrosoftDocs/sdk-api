@@ -4,10 +4,10 @@ title: GetListBoxInfo function
 author: windows-sdk-content
 description: Retrieves the number of items per column in a specified list box.
 old-location: controls\GetListBoxInfo.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\getlistboxinfo.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: GetListBoxInfo, GetListBoxInfo function [Windows Controls], _win32_GetListBoxInfo, _win32_GetListBoxInfo_cpp, controls.GetListBoxInfo, controls._win32_GetListBoxInfo, winuser/GetListBoxInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ The return value is the number of items per column.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775939(v=VS.85).aspx">GetComboBoxInfo</a>
+<a href="https://msdn.microsoft.com/f7553df7-4309-49fc-9e4a-da9063e6b042">GetComboBoxInfo</a>
  
 
  

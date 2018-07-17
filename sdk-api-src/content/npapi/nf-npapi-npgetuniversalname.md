@@ -4,10 +4,10 @@ title: NPGetUniversalName function
 author: windows-sdk-content
 description: Retrieves the universal name of a network resource. The NPGetUniversalName function can retrieve this universal name in UNC format or in the older, remote-name format.
 old-location: security\npgetuniversalname.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 976b5910-c34f-49fa-b25e-82bf607e33a9
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: NPGetUniversalName, NPGetUniversalName function [Security], REMOTE_NAME_INFO_LEVEL, UNIVERSAL_NAME_INFO_LEVEL, _mnp_npgetuniversalname, npapi/NPGetUniversalName, security.npgetuniversalname
 ms.prod: windows
 ms.technology: windows-sdk

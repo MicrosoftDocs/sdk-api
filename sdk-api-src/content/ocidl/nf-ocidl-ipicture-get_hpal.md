@@ -7,7 +7,7 @@ old-location: com\ipicture_get_hpal.htm
 old-project: com
 ms.assetid: 84887cb7-05b0-44cc-9772-117a598c1b94
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: IPicture interface [COM],get_hPal method, IPicture.get_hPal, IPicture::get_hPal, _ctrl_ipicture_get_hpal, com.ipicture_get_hpal, get_hPal, get_hPal method [COM], get_hPal method [COM],IPicture interface, ocidl/IPicture::get_hPal
 ms.prod: windows
 ms.technology: windows-sdk

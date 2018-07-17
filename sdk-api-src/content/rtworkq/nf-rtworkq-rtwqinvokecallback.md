@@ -4,10 +4,10 @@ title: RtwqInvokeCallback function
 author: windows-sdk-content
 description: Invokes a callback method to complete an asynchronous operation.
 old-location: base\rtwqinvokecallback.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: ba1ac638-b21d-4a0e-8599-b572b5ef2fa6
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: RtwqInvokeCallback, RtwqInvokeCallback function, base.rtwqinvokecallback, rtworkq/RtwqInvokeCallback
 ms.prod: windows
 ms.technology: windows-sdk

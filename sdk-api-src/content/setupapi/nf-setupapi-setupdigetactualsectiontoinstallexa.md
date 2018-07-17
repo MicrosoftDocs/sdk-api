@@ -7,7 +7,7 @@ old-location: devinst\setupdigetactualsectiontoinstallex.htm
 old-project: devinst
 ms.assetid: 0f05e3ec-09ea-4d9a-99c9-ddbc16753481
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: SetupDiGetActualSectionToInstallEx, SetupDiGetActualSectionToInstallEx function [Device and Driver Installation], SetupDiGetActualSectionToInstallExA, SetupDiGetActualSectionToInstallExW, devinst.setupdigetactualsectiontoinstallex, di-rtns_d8baadc3-b6eb-49cb-a8ca-e3f877c2e8e7.xml, setupapi/SetupDiGetActualSectionToInstallEx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_TTGETTITLE"
 author: windows-sdk-content
 description: Provides information about the title of a tooltip control.
 old-location: controls\TTGETTITLE.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\ttgettitle.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: "*PTTGETTITLE, PTTGETTITLE, PTTGETTITLE structure pointer [Windows Controls], TTGETTITLE, TTGETTITLE structure [Windows Controls], _TTGETTITLE, commctrl/PTTGETTITLE, commctrl/TTGETTITLE, controls.TTGETTITLE, controls.inet_TTGETTITLE, inet_TTGETTITLE, inet_TTGETTITLE_cpp"
 ms.prod: windows
 ms.technology: windows-sdk

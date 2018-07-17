@@ -4,10 +4,10 @@ title: IOCSPCAConfiguration::get_CAConfig
 author: windows-sdk-content
 description: Gets or sets a certification authority (CA) name with which a signing certificate must be signed.
 old-location: security\iocspcaconfiguration_caconfig.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 642f8d0b-8dae-41a7-a87c-2b55d1034328
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CAConfig property [Security], CAConfig property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],CAConfig property, IOCSPCAConfiguration.CAConfig, IOCSPCAConfiguration.get_CAConfig, IOCSPCAConfiguration::CAConfig, IOCSPCAConfiguration::get_CAConfig, IOCSPCAConfiguration::put_CAConfig, certadm/IOCSPCAConfiguration::CAConfig, certadm/IOCSPCAConfiguration::get_CAConfig, certadm/IOCSPCAConfiguration::put_CAConfig, get_CAConfig, security.iocspcaconfiguration_caconfig
 ms.prod: windows
 ms.technology: windows-sdk

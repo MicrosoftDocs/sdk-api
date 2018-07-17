@@ -4,10 +4,10 @@ title: IRichEditOleCallback::QueryAcceptData
 author: windows-sdk-content
 description: During a paste operation or a drag event, determines if the data that is pasted or dragged should be accepted.
 old-location: controls\IRichEditOleCallback_QueryAcceptData.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackqueryacceptdata.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: IRichEditOleCallback interface [Windows Controls],QueryAcceptData method, IRichEditOleCallback.QueryAcceptData, IRichEditOleCallback::QueryAcceptData, QueryAcceptData, QueryAcceptData method [Windows Controls], QueryAcceptData method [Windows Controls],IRichEditOleCallback interface, RECO_DROP, RECO_PASTE, _win32_IRichEditOleCallback_QueryAcceptData, _win32_IRichEditOleCallback_QueryAcceptData_cpp, controls.IRichEditOleCallback_QueryAcceptData, controls._win32_IRichEditOleCallback_QueryAcceptData, richole/IRichEditOleCallback::QueryAcceptData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,7 +115,7 @@ Paste from the clipboard.
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Indicates whether the drag-drop is actually happening or if it is just a query. A nonzero value indicates the paste or drop is actually happening. A zero value indicates the operation is just a query, such as for 
-					<a href="https://msdn.microsoft.com/library/Bb787993(v=VS.85).aspx">EM_CANPASTE</a>.
+					<a href="https://msdn.microsoft.com/1b858ad8-1312-407b-b12a-c63668ba9f72">EM_CANPASTE</a>.
 
 
 ### -param hMetaPict
@@ -151,7 +151,7 @@ Returns <b>S_OK</b> on success. See Remarks.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774308(v=VS.85).aspx">IRichEditOleCallback</a>
+<a href="https://msdn.microsoft.com/2c3ba341-f62f-4c95-9547-6d50fcf3d6b4">IRichEditOleCallback</a>
  
 
  

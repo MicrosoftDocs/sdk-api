@@ -4,10 +4,10 @@ title: OpenThemeDataEx function
 author: windows-sdk-content
 description: Opens the theme data associated with a window for specified theme classes.
 old-location: controls\OpenThemeDataEx.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\openthemedataex.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: OTD_FORCE_RECT_SIZING, OTD_NONCLIENT, OpenThemeDataEx, OpenThemeDataEx function [Windows Controls], controls.OpenThemeDataEx, controls.inet_OpenThemeDataEx, inet_OpenThemeDataEx, inet_OpenThemeDataEx_cpp, uxtheme/OpenThemeDataEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -143,7 +143,7 @@ Class names for the Aero theme are defined in AeroStyle.xml.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb759821(v=VS.85).aspx">OpenThemeData</a>
+<a href="https://msdn.microsoft.com/3c496a3f-e4d0-4938-af66-85df93829cd8">OpenThemeData</a>
  
 
  

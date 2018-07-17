@@ -7,7 +7,7 @@ old-location: inputmsg\getunpredictedmessagepos.htm
 old-project: InputMsg
 ms.assetid: 5BE2748B-0124-4647-A77E-EA2937C7B1AD
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: GetUnpredictedMessagePos, GetUnpredictedMessagePos function [Input Messages and Notifications], inputmsg.getunpredictedmessagepos, winuser/GetUnpredictedMessagePos
 ms.prod: windows
 ms.technology: windows-sdk

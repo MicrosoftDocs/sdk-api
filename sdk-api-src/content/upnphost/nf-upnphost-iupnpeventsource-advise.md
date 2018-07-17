@@ -52,7 +52,7 @@ req.product: Windows UI
 
 
 The 
-<b>Advise</b> method is invoked by the device host to begin receiving events from the hosted service. The device host passes a pointer to its <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. The hosted service must query this <b>IUnknown</b> interface for the 
+<b>Advise</b> method is invoked by the device host to begin receiving events from the hosted service. The device host passes a pointer to its <a href="_com_iunknown">IUnknown</a> interface. The hosted service must query this <b>IUnknown</b> interface for the 
 <a href="https://msdn.microsoft.com/431423c9-2873-422d-a28c-c4ef23109114">IUPnPEventSink</a> interface the service must use to send event notifications.
 
 

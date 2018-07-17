@@ -7,7 +7,7 @@ old-location: mscs\clusternetinterfaceopenenum.htm
 old-project: mscs
 ms.assetid: fd300162-2472-4bd2-91d6-357397c4134c
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusterNetInterfaceOpenEnum, ClusterNetInterfaceOpenEnum function [Failover Cluster], clusapi/ClusterNetInterfaceOpenEnum, mscs.clusternetinterfaceopenenum
 ms.prod: windows
 ms.technology: windows-sdk

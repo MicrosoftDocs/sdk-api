@@ -7,7 +7,7 @@ old-location: cos\iobjectcontextinfo_getcontextid.htm
 old-project: cossdk
 ms.assetid: 97059f07-161f-451f-9f9b-b4dd81b7bf79
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: GetContextId, GetContextId method [COM+], GetContextId method [COM+],IObjectContextInfo interface, IObjectContextInfo interface [COM+],GetContextId method, IObjectContextInfo.GetContextId, IObjectContextInfo::GetContextId, _cos_IObjectContextInfo_GetContextId, comsvcs/IObjectContextInfo::GetContextId, cos.iobjectcontextinfo_getcontextid
 ms.prod: windows
 ms.technology: windows-sdk

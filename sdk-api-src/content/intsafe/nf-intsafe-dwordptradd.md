@@ -7,7 +7,7 @@ old-location: shell\DWordPtrAdd.htm
 old-project: shell
 ms.assetid: b7d2b04b-6ef7-45a5-a26c-b52c0a848d5a
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: DWordPtrAdd, DWordPtrAdd function [Windows Shell], _shell_DWordPtrAdd, intsafe/DWordPtrAdd, shell.DWordPtrAdd
 ms.prod: windows
 ms.technology: windows-sdk

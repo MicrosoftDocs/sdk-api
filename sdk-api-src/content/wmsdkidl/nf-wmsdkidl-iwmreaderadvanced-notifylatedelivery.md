@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced_notifylatedelivery.htm
 old-project: wmformat
 ms.assetid: 65d2470c-e6ce-4f3f-b4f8-0bc65a2a8bfd
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],NotifyLateDelivery method, IWMReaderAdvanced.NotifyLateDelivery, IWMReaderAdvanced::NotifyLateDelivery, IWMReaderAdvancedNotifyLateDelivery, NotifyLateDelivery, NotifyLateDelivery method [windows Media Format], NotifyLateDelivery method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_notifylatedelivery, wmsdkidl/IWMReaderAdvanced::NotifyLateDelivery
 ms.prod: windows
 ms.technology: windows-sdk

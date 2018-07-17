@@ -4,10 +4,10 @@ title: IAudioInputEndpointRT
 author: windows-sdk-content
 description: Gets the input buffer for each processing pass.
 old-location: termserv\iaudioinputendpointrt.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: f9638dea-f61d-45f6-b91d-72e4fc1b4a92
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IAudioInputEndpointRT, IAudioInputEndpointRT interface [Remote Desktop Services], IAudioInputEndpointRT interface [Remote Desktop Services],described, audioengineendpoint/IAudioInputEndpointRT, termserv.iaudioinputendpointrt
 ms.prod: windows
 ms.technology: windows-sdk

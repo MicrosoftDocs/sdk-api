@@ -7,7 +7,7 @@ old-location: dshow\amresctl_reserveflags.htm
 old-project: DirectShow
 ms.assetid: 528c4e2e-2045-45a1-b502-75e103745c93
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: AMRESCTL_RESERVEFLAGS, AMRESCTL_RESERVEFLAGSEnumeration, AMRESCTL_RESERVEFLAGS_RESERVE, AMRESCTL_RESERVEFLAGS_UNRESERVE, _AMRESCTL_RESERVEFLAGS, _AMRESCTL_RESERVEFLAGS enumeration [DirectShow], dshow.amresctl_reserveflags, strmif/AMRESCTL_RESERVEFLAGS_RESERVE, strmif/AMRESCTL_RESERVEFLAGS_UNRESERVE, strmif/_AMRESCTL_RESERVEFLAGS
 ms.prod: windows
 ms.technology: windows-sdk

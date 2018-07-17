@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_FUNC_ObjectTypeIsValid_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\objecttypeisvalid.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: ObjectTypeIsValid, ObjectTypeIsValid function [GDI+], _gdiplus_FUNC_ObjectTypeIsValid_, gdiplus._gdiplus_FUNC_ObjectTypeIsValid_, gdiplusenums/ObjectTypeIsValid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The <b>ObjectTypeIsValid</b> function determines whether an element of the Objec
 
 ### -param type
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534156(v=VS.85).aspx">ObjectType</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9b35cac6-62e7-4ca2-98e2-2a983da565c1">ObjectType</a></b>
 
 Element of the ObjectType enumeration to be tested.
 

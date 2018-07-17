@@ -4,10 +4,10 @@ title: IWRdsProtocolLogonErrorRedirector::OnBeginPainting
 author: windows-sdk-content
 description: Notifies the protocol that the logon user interface is ready to begin painting.
 old-location: termserv\iwrdsprotocollogonerrorredirector_onbeginpainting.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: cc044746-1127-44a3-993d-ca2445c99ff6
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services],OnBeginPainting method, IWRdsProtocolLogonErrorRedirector.OnBeginPainting, IWRdsProtocolLogonErrorRedirector::OnBeginPainting, OnBeginPainting, OnBeginPainting method [Remote Desktop Services], OnBeginPainting method [Remote Desktop Services],IWRdsProtocolLogonErrorRedirector interface, termserv.iwrdsprotocollogonerrorredirector_onbeginpainting, wtsprotocol/IWRdsProtocolLogonErrorRedirector::OnBeginPainting
 ms.prod: windows
 ms.technology: windows-sdk

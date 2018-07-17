@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevicesubobject.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevicesubobject.htm
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: IDXGIDeviceSubObject, IDXGIDeviceSubObject interface [DXGI], IDXGIDeviceSubObject interface [DXGI],described, cafb6d61-7a76-585b-438f-57d6aaa898c1, direct3ddxgi.idxgidevicesubobject, dxgi/IDXGIDeviceSubObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ Inherited from objects that are tied to the device so that they can retrieve a p
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDeviceSubObject</b> interface inherits from <a href="https://msdn.microsoft.com/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>. <b>IDXGIDeviceSubObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDeviceSubObject</b> interface inherits from <a href="https://msdn.microsoft.com/baf1dc5a-ae7e-4bc5-affa-11ed16091625">IDXGIObject</a>. <b>IDXGIDeviceSubObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -102,7 +102,7 @@ Retrieves the device.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>
+<a href="https://msdn.microsoft.com/baf1dc5a-ae7e-4bc5-affa-11ed16091625">IDXGIObject</a>
  
 
  

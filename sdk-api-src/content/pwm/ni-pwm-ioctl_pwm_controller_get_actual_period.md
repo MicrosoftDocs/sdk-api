@@ -4,10 +4,10 @@ title: IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD
 author: windows-sdk-content
 description: Retrieves the effective output signal period of the Pulse Width Modulation (PWM) controller as it would be measured on its output channels.
 old-location: base\ioctl_pwm_controller_get_actual_period.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 11EB530E-4C73-44A3-8739-315F992DBE7B
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD, IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD control, IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD control code, base.ioctl_pwm_controller_get_actual_period, pwm/IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD
 ms.prod: windows
 ms.technology: windows-sdk

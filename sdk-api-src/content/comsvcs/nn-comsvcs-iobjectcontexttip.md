@@ -7,7 +7,7 @@ old-location: cos\iobjectcontexttip.htm
 old-project: cossdk
 ms.assetid: 2fe4de87-e7ea-4120-8e37-5a26d836fcea
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: IObjectContextTip, IObjectContextTip interface [COM+], IObjectContextTip interface [COM+],described, _cos_IObjectContextTip, comsvcs/IObjectContextTip, cos.iobjectcontexttip
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IEnumFullIDList_Next.htm
 old-project: shell
 ms.assetid: 023f8935-0382-404e-b1bf-737824cf0f34
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IEnumFullIDList interface [Windows Shell],Next method, IEnumFullIDList.Next, IEnumFullIDList::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumFullIDList interface, _shell_IEnumFullIDList_Next, shell.IEnumFullIDList_Next, shobjidl_core/IEnumFullIDList::Next
 ms.prod: windows
 ms.technology: windows-sdk

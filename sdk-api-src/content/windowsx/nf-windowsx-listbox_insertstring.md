@@ -4,10 +4,10 @@ title: ListBox_InsertString macro
 author: windows-sdk-content
 description: Adds a string to a list box at the specified location. You can use this macro or send the LB_INSERTSTRING message explicitly.
 old-location: controls\ListBox_InsertString.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_insertstring.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ListBox_InsertString, ListBox_InsertString macro [Windows Controls], _win32_ListBox_InsertString, _win32_ListBox_InsertString_cpp, controls.ListBox_InsertString, controls._win32_ListBox_InsertString, windowsx/ListBox_InsertString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Adds a string to a list box at the specified location. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761321(v=VS.85).aspx">LB_INSERTSTRING</a> message explicitly.
+Adds a string to a list box at the specified location. You can use this macro or send the <a href="https://msdn.microsoft.com/dfaa742d-2f42-4485-aed5-cda8ca9ba66c">LB_INSERTSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ The string to add.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb761321(v=VS.85).aspx">LB_INSERTSTRING</a>.
+For more information, see <a href="https://msdn.microsoft.com/dfaa742d-2f42-4485-aed5-cda8ca9ba66c">LB_INSERTSTRING</a>.
 	
 
 

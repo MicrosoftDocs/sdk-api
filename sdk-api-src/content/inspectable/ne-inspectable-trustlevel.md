@@ -7,8 +7,8 @@ old-location: winrt\trustlevel.htm
 old-project: WinRT
 ms.assetid: 75E30E4B-EE5F-41C4-AC22-91D542E920EB
 ms.author: windowssdkdev
-ms.date: 07/06/2018
-ms.keywords: BaseTrust, FullTrust, PartialTrust, TrustLevel, TrustLevel enumeration [Windows Runtime], inspectable/BaseTrust, inspectable/FullTrust, inspectable/PartialTrust, inspectable/TrustLevel, winrt.trustlevel
+ms.date: 07/13/2018
+ms.keywords: BaseTrust, FullTrust, PartialTrust, RegisteredTrustLevel, TrustLevel, TrustLevel enumeration [Windows Runtime], inspectable/BaseTrust, inspectable/FullTrust, inspectable/PartialTrust, inspectable/TrustLevel, winrt.trustlevel
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
@@ -79,6 +79,9 @@ The component requires the full privileges of the user.
 
 
 Classes can be activated depending on the trust level of the caller and the trust classification of the activatable class.
+
+
+<a href="https://msdn.microsoft.com/1B579206-F6B9-47C1-A7F3-4E7ECDEDCBB4">RegisteredTrustLevel</a> is an alias for this enumeration. 
 
 
 

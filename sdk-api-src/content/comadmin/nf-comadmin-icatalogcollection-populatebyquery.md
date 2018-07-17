@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_populatebyquery.htm
 old-project: cossdk
 ms.assetid: 30e4bb16-f99f-4541-a70a-64eb285df7b6
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: ICatalogCollection interface [COM+],PopulateByQuery method, ICatalogCollection.PopulateByQuery, ICatalogCollection::PopulateByQuery, PopulateByQuery, PopulateByQuery method [COM+], PopulateByQuery method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_PopulateByQuery, comadmin/ICatalogCollection::PopulateByQuery, cos.icatalogcollection_populatebyquery
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: inputmsg\pointer_info_struct.htm
 old-project: InputMsg
 ms.assetid: fee176ba-ad07-4145-0b4d-1b8c335fd102
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: POINTER_INFO, POINTER_INFO structure [Input Messages and Notifications], _POINTER_INFO, inputmsg.pointer_info_struct, tagPOINTER_INFO, winuser/POINTER_INFO
 ms.prod: windows
 ms.technology: windows-sdk

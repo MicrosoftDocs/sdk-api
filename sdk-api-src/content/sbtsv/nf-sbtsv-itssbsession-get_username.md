@@ -4,10 +4,10 @@ title: ITsSbSession::get_Username
 author: windows-sdk-content
 description: Retrieves the user name for this session.
 old-location: termserv\itssbsession_username.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 0034e8cc-b67b-4e30-a059-47a269bab0fd
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],Username property, ITsSbSession.Username, ITsSbSession.get_Username, ITsSbSession::Username, ITsSbSession::get_Username, Username property [Remote Desktop Services], Username property [Remote Desktop Services],ITsSbSession interface, get_Username, sbtsv/ITsSbSession::Username, sbtsv/ITsSbSession::get_Username, termserv.itssbsession_username
 ms.prod: windows
 ms.technology: windows-sdk

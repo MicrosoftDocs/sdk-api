@@ -7,7 +7,7 @@ old-location: winprog\_cacherichcreatefile.htm
 old-project: DevNotes
 ms.assetid: 89b0adcd-0084-4538-b162-661ddae53dc8
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: CacheRichCreateFile, CacheRichCreateFile function [Windows API], filehc/CacheRichCreateFile, winprog._cacherichcreatefile
 ms.prod: windows
 ms.technology: windows-sdk

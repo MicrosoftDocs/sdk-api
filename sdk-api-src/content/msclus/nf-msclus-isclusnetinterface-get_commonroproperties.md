@@ -7,7 +7,7 @@ old-location: mscs\clusnetinterface_commonroproperties.htm
 old-project: mscs
 ms.assetid: 14d76420-1ac6-4d58-82dd-343dc8ad8dfe
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusNetInterface object [Failover Cluster],CommonROProperties property, ClusNetInterface.CommonROProperties, CommonROProperties property [Failover Cluster], CommonROProperties property [Failover Cluster],ClusNetInterface object, ISClusNetInterface.get_CommonROProperties, ISClusNetInterface::get_CommonROProperties, _wolf_clusnetinterface.commonroproperties, get_CommonROProperties, mscs.clusnetinterface_commonroproperties
 ms.prod: windows
 ms.technology: windows-sdk

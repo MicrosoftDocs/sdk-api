@@ -7,7 +7,7 @@ old-location: com\coregisterinitializespy.htm
 old-project: com
 ms.assetid: 1fd5606e-0a15-429a-b656-4620b873bec5
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: CoRegisterInitializeSpy, CoRegisterInitializeSpy function [COM], _com_CoRegisterInitializeSpy, com.coregisterinitializespy, objbase/CoRegisterInitializeSpy
 ms.prod: windows
 ms.technology: windows-sdk

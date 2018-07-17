@@ -7,7 +7,7 @@ old-location: com\coimpersonateclient.htm
 old-project: com
 ms.assetid: a3cbfbbc-fc6f-4d1b-8460-1e3351cd32d7
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: CoImpersonateClient, CoImpersonateClient function [COM], _com_CoImpersonateClient, com.coimpersonateclient, combaseapi/CoImpersonateClient
 ms.prod: windows
 ms.technology: windows-sdk

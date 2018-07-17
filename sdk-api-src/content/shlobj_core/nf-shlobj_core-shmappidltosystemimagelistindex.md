@@ -7,7 +7,7 @@ old-location: shell\SHMapPIDLToSystemImageListIndex.htm
 old-project: shell
 ms.assetid: 7f11049b-2481-496b-95e3-77d480f2c9df
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: SHMapPIDLToSystemImageListIndex, SHMapPIDLToSystemImageListIndex function [Windows Shell], _win32_SHMapPIDLToSystemImageListIndex, shell.SHMapPIDLToSystemImageListIndex, shlobj_core/SHMapPIDLToSystemImageListIndex
 ms.prod: windows
 ms.technology: windows-sdk

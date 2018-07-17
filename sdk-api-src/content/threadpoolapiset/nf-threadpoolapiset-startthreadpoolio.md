@@ -4,10 +4,10 @@ title: StartThreadpoolIo function
 author: windows-sdk-content
 description: Notifies the thread pool that I/O operations may possibly begin for the specified I/O completion object. A worker thread calls the I/O completion object's callback function after the operation completes on the file handle bound to this object.
 old-location: base\startthreadpoolio.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 5a817d6f-a8e6-4aaa-b560-0128eacb98b1
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: StartThreadpoolIo, StartThreadpoolIo function, base.startthreadpoolio, threadpoolapiset/StartThreadpoolIo, winbase/StartThreadpoolIo
 ms.prod: windows
 ms.technology: windows-sdk

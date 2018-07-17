@@ -4,10 +4,10 @@ title: ListView_SetBkImage macro
 author: windows-sdk-content
 description: Sets the background image in a list-view control. You can use this macro or send the LVM_SETBKIMAGE message explicitly.
 old-location: controls\ListView_SetBkImage.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setbkimage.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ListView_SetBkImage, ListView_SetBkImage macro [Windows Controls], _win32_ListView_SetBkImage, _win32_ListView_SetBkImage_cpp, commctrl/ListView_SetBkImage, controls.ListView_SetBkImage, controls._win32_ListView_SetBkImage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the background image in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761155(v=VS.85).aspx">LVM_SETBKIMAGE</a> message explicitly.
+Sets the background image in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/8fdd363c-ac12-498b-80b7-aaa5741cfd76">LVM_SETBKIMAGE</a> message explicitly.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ TBD
 
 Type: <b>LPLVBKIMAGE</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Bb774742(v=VS.85).aspx">LVBKIMAGE</a> structure that contains the new background image information. 
+A pointer to an <a href="https://msdn.microsoft.com/d8b35356-d112-43e5-b1ad-7fb945c84e33">LVBKIMAGE</a> structure that contains the new background image information. 
 
 
 #### - hwndLV
@@ -91,7 +91,7 @@ Because the list-view control uses OLE COM to manipulate the background images, 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761246(v=VS.85).aspx">ListView_GetBkImage</a>
+<a href="https://msdn.microsoft.com/292750e5-add2-44e7-8fa9-8cc13eb2dbc8">ListView_GetBkImage</a>
  
 
  

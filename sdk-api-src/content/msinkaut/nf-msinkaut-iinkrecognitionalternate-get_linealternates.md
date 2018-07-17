@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternate_linealternates.htm
 old-project: tablet
 ms.assetid: ccdf3092-b0a0-4626-b614-164548b1ca72
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IInkRecognitionAlternate interface [Tablet PC],LineAlternates property, IInkRecognitionAlternate.LineAlternates, IInkRecognitionAlternate.get_LineAlternates, IInkRecognitionAlternate::LineAlternates, IInkRecognitionAlternate::get_LineAlternates, LineAlternates property [Tablet PC], LineAlternates property [Tablet PC],IInkRecognitionAlternate interface, ccdf3092-b0a0-4626-b614-164548b1ca72, get_LineAlternates, msinkaut/IInkRecognitionAlternate::LineAlternates, msinkaut/IInkRecognitionAlternate::get_LineAlternates, tablet.iinkrecognitionalternate_linealternates
 ms.prod: windows
 ms.technology: windows-sdk

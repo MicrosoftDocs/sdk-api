@@ -7,8 +7,8 @@ old-location: mscs\closeclustercryptprovider.htm
 old-project: mscs
 ms.assetid: 844D991A-6B29-4ADE-8CFE-114FD4AF7C9B
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PCLOSE_CLUSTER_CRYPT_PROVIDER, PCLOSE_CLUSTER_CRYPT_PROVIDER callback, PCLOSE_CLUSTER_CRYPT_PROVIDER callback function [Failover Cluster], mscs.closeclustercryptprovider, resapi/PCLOSE_CLUSTER_CRYPT_PROVIDER
+ms.date: 07/12/2018
+ms.keywords: CloseClusterCryptProvider, CloseClusterCryptProvider function [Failover Cluster], PCLOSE_CLUSTER_CRYPT_PROVIDER, PCLOSE_CLUSTER_CRYPT_PROVIDER function [Failover Cluster], mscs.closeclustercryptprovider, resapi/CloseClusterCryptProvider, resapi/PCLOSE_CLUSTER_CRYPT_PROVIDER
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -32,15 +32,15 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - UserDefined
+ - DllExport
 api_location:
- - ResApi.h
+ - ResUtils.dll
 api_name:
- - PCLOSE_CLUSTER_CRYPT_PROVIDER
+ - CloseClusterCryptProvider
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
 req.irql: 
 req.product: ADAM
 ---

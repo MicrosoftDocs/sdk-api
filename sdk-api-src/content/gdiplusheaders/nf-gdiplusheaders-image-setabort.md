@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_SetAbort_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\setabort.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Image class [GDI+],SetAbort method, Image.SetAbort, Image::SetAbort, SetAbort, SetAbort method [GDI+], SetAbort method [GDI+],Image class, _gdiplus_CLASS_Image_SetAbort_, gdiplus._gdiplus_CLASS_Image_SetAbort_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ The <b>Image::SetAbort</b> method sets the object whose <b>Abort</b> method is c
 
 ### -param pIAbort
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534066(v=VS.85).aspx">GdiplusAbort</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/8ae69c57-ecee-410e-9166-2d1deed9241f">GdiplusAbort</a>*</b>
 
-Pointer to an application-defined descendant of the <a href="https://msdn.microsoft.com/library/ms534066(v=VS.85).aspx">GdiplusAbort</a> structure.
+Pointer to an application-defined descendant of the <a href="https://msdn.microsoft.com/8ae69c57-ecee-410e-9166-2d1deed9241f">GdiplusAbort</a> structure.
 
 
 ## -returns
@@ -87,7 +87,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
  
 
  

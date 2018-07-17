@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Brush_Clone_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brushclass\brushmethods\clone_54.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Brush class [GDI+],Clone method, Brush.Clone, Brush::Clone, Clone, Clone method [GDI+], Clone method [GDI+],Brush class, _gdiplus_CLASS_Brush_Clone_, gdiplus._gdiplus_CLASS_Brush_Clone_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Brush::Clone</b> method creates a new 
-			<a href="https://msdn.microsoft.com/library/ms534424(v=VS.85).aspx">Brush</a> object based on this brush.
+			<a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a> object based on this brush.
 
 
 ## -parameters
@@ -66,11 +66,11 @@ The <b>Brush::Clone</b> method creates a new
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534424(v=VS.85).aspx">Brush</a>*</b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a>*</b>
 </strong>
 
 This method returns a pointer to the new 
-						<a href="https://msdn.microsoft.com/library/ms534424(v=VS.85).aspx">Brush</a> object.
+						<a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a> object.
 
 
 
@@ -80,35 +80,35 @@ This method returns a pointer to the new
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534424(v=VS.85).aspx">Brush</a>
+<a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534459(v=VS.85).aspx">HatchBrush</a>
+<a href="https://msdn.microsoft.com/6e633cb2-8b0f-4b6a-95d8-f494d5f972eb">HatchBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534483(v=VS.85).aspx">PathGradientBrush</a>
+<a href="https://msdn.microsoft.com/cac0a3ce-982e-4de5-a160-cb8a755beddd">PathGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534508(v=VS.85).aspx">SolidBrush</a>
+<a href="https://msdn.microsoft.com/8d5c8780-f03c-40b2-b237-e40121e3d6f6">SolidBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534512(v=VS.85).aspx">TextureBrush</a>
+<a href="https://msdn.microsoft.com/4657ed8b-9cec-49ba-bf20-545bf3ee51f9">TextureBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533811(v=VS.85).aspx">Using a Brush to Fill Shapes</a>
+<a href="https://msdn.microsoft.com/8ccf2c4a-6f99-465f-8adf-0f7fcd002f79">Using a Brush to Fill Shapes</a>
  
 
  

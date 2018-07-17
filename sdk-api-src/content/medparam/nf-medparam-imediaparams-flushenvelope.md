@@ -7,7 +7,7 @@ old-location: dshow\imediaparams_flushenvelope.htm
 old-project: DirectShow
 ms.assetid: 574d6573-ea5d-4419-ad65-f5f7d711e720
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: FlushEnvelope, FlushEnvelope method [DirectShow], FlushEnvelope method [DirectShow],IMediaParams interface, IMediaParams interface [DirectShow],FlushEnvelope method, IMediaParams.FlushEnvelope, IMediaParams::FlushEnvelope, IMediaParamsFlushEnvelope, dshow.imediaparams_flushenvelope, medparam/IMediaParams::FlushEnvelope
 ms.prod: windows
 ms.technology: windows-sdk

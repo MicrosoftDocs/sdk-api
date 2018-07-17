@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol_getmixingprefs.htm
 old-project: DirectShow
 ms.assetid: ee410a7e-e021-408a-bf40-cb58dc8eca1c
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: GetMixingPrefs, GetMixingPrefs method [DirectShow], GetMixingPrefs method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetMixingPrefs method, IVMRMixerControl.GetMixingPrefs, IVMRMixerControl::GetMixingPrefs, IVMRMixerControlGetMixingPrefs, dshow.ivmrmixercontrol_getmixingprefs, strmif/IVMRMixerControl::GetMixingPrefs
 ms.prod: windows
 ms.technology: windows-sdk

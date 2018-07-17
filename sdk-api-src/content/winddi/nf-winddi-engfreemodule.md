@@ -7,7 +7,7 @@ old-location: display\engfreemodule.htm
 old-project: display
 ms.assetid: f5520aec-5747-4970-ba2f-06b39e4f43f2
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/12/2018
 ms.keywords: EngFreeModule, EngFreeModule function [Display Devices], display.engfreemodule, gdifncs_23d84e6d-60e7-43a4-af20-3234c8581190.xml, winddi/EngFreeModule
 ms.prod: windows
 ms.technology: windows-sdk

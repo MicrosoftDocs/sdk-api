@@ -7,7 +7,7 @@ old-location: dshow\imediaobject.htm
 old-project: DirectShow
 ms.assetid: a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IMediaObject, IMediaObject interface [DirectShow], IMediaObject interface [DirectShow],described, IMediaObjectInterface, dshow.imediaobject, mediaobj/IMediaObject
 ms.prod: windows
 ms.technology: windows-sdk

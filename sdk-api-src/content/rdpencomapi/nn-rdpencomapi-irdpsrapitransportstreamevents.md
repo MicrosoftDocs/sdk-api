@@ -4,10 +4,10 @@ title: IRDPSRAPITransportStreamEvents
 author: windows-sdk-content
 description: Exposes methods called by the stream interface (IRDPSRAPITransportStream) to notify the Remote Desktop Protocol (RDP) stack about the completion of events.
 old-location: rdp\irdpsrapitransportstreamevents.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: d38ee3fb-3867-40c9-8e6a-35c94762fdf4
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/13/2018
 ms.keywords: IRDPSRAPITransportStreamEvents, IRDPSRAPITransportStreamEvents interface [RDP], IRDPSRAPITransportStreamEvents interface [RDP],described, rdp.irdpsrapitransportstreamevents, rdpencomapi/IRDPSRAPITransportStreamEvents
 ms.prod: windows
 ms.technology: windows-sdk

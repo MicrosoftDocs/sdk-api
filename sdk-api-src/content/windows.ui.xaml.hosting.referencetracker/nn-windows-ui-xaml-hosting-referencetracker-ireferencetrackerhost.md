@@ -7,7 +7,7 @@ old-location: winrt\ireferencetrackerhost.htm
 old-project: WinRT
 ms.assetid: b17fe8ae-be79-4281-a313-517505017401
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/13/2018
 ms.keywords: IReferenceTrackerHost, IReferenceTrackerHost interface [Windows Runtime], IReferenceTrackerHost interface [Windows Runtime],described, windows/IReferenceTrackerHost, winrt.ireferencetrackerhost
 ms.prod: windows
 ms.technology: windows-sdk

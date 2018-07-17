@@ -4,10 +4,10 @@ title: GetEffectiveClientRect function
 author: windows-sdk-content
 description: Calculates the dimensions of a rectangle in the client area that contains all the specified controls.
 old-location: controls\GetEffectiveClientRect.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\geteffectiveclientrect.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: GetEffectiveClientRect, GetEffectiveClientRect function [Windows Controls], _win32_GetEffectiveClientRect, _win32_GetEffectiveClientRect_cpp, commctrl/GetEffectiveClientRect, controls.GetEffectiveClientRect, controls._win32_GetEffectiveClientRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,7 +104,7 @@ If a window in the <i>lprc</i> array is visible, or will be visible when its par
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775731(v=VS.85).aspx">ShowHideMenuCtl</a>
+<a href="https://msdn.microsoft.com/e7445f9a-3857-40a2-a62d-9e4853ebd959">ShowHideMenuCtl</a>
  
 
  

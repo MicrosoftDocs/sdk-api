@@ -126,7 +126,7 @@ Type: <b>LPCWSTR</b>
             
 
 
-              If <i>Name</i> matches the name of an existing resource, <b>CreateSharedHandle</b> fails with <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NAME_ALREADY_EXISTS</a>.
+              If <i>Name</i> matches the name of an existing resource, <b>CreateSharedHandle</b> fails with <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_NAME_ALREADY_EXISTS</a>.
               This occurs because these objects share the same namespace.
             
 
@@ -149,16 +149,16 @@ Type: <b>LPCWSTR</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
                 Returns S_OK if successful; otherwise, returns one of the following values:
               
 
 <ul>
-<li><a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a> if one of the parameters is invalid.
+<li><a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_INVALID_CALL</a> if one of the parameters is invalid.
               </li>
-<li><a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NAME_ALREADY_EXISTS</a> if the supplied name of the resource to share is already associated with another resource.
+<li><a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_NAME_ALREADY_EXISTS</a> if the supplied name of the resource to share is already associated with another resource.
               </li>
 <li>E_ACCESSDENIED if the object is being created in a protected namespace.</li>
 <li>E_OUTOFMEMORY if sufficient memory is not available to create the handle.</li>
@@ -173,7 +173,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRE
 
 
 
-In order to to create a shared handle for the specified fence, the fence must have been created with either the <b>D3D11_FENCE_FLAG_SHARED</b> or <b>D3D11_FENCE_FLAG_SHARED_CROSS_ADAPTER</b> flags. For more information see the <a href="https://msdn.microsoft.com/library/Mt492475(v=VS.85).aspx">D3D11_FENCE_FLAG</a> enumeration.
+In order to to create a shared handle for the specified fence, the fence must have been created with either the <b>D3D11_FENCE_FLAG_SHARED</b> or <b>D3D11_FENCE_FLAG_SHARED_CROSS_ADAPTER</b> flags. For more information see the <a href="direct3d11.d3d11fenceflag">D3D11_FENCE_FLAG</a> enumeration.
 
 
 

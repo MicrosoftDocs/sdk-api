@@ -4,10 +4,10 @@ title: "_DHCP_CLASS_INFO"
 author: windows-sdk-content
 description: Defines a DHCP option class.
 old-location: dhcp\dhcp_class_info.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: 62fb9f21-ad21-4525-90f4-48dc5a8b230b
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: "*LPDHCP_CLASS_INFO, DHCP_CLASS_INFO, DHCP_CLASS_INFO structure [DHCP], DHCP_FLAGS_OPTION_IS_VENDOR, LPDHCP_CLASS_INFO, LPDHCP_CLASS_INFO structure pointer [DHCP], _DHCP_CLASS_INFO, dhcp.dhcp_class_info, dhcpsapi/LPDHCP_CLASS_INFO, dhcpsapi/_DHCP_CLASS_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IEnumDot11AdHocInterfaces::Next
 author: windows-sdk-content
 description: Gets the specified number of elements from the sequence and advances the current position by the number of items retrieved.
 old-location: nwifi\ienumdot11adhocinterfaces_next.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: 2c20e215-a4ef-456e-ba19-0d9268279bf3
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IEnumDot11AdHocInterfaces interface [NativeWIFI],Next method, IEnumDot11AdHocInterfaces.Next, IEnumDot11AdHocInterfaces::Next, Next, Next method [NativeWIFI], Next method [NativeWIFI],IEnumDot11AdHocInterfaces interface, adhoc/IEnumDot11AdHocInterfaces::Next, nwifi.ienumdot11adhocinterfaces_next
 ms.prod: windows
 ms.technology: windows-sdk

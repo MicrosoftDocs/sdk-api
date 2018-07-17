@@ -7,7 +7,7 @@ old-location: cos\imultiinterfaceeventcontrol_fireinparallel.htm
 old-project: cossdk
 ms.assetid: c26cce66-e713-42f7-9716-385b59085977
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: FireInParallel property [COM+], FireInParallel property [COM+],IMultiInterfaceEventControl interface, IMultiInterfaceEventControl interface [COM+],FireInParallel property, IMultiInterfaceEventControl.FireInParallel, IMultiInterfaceEventControl.get_FireInParallel, IMultiInterfaceEventControl::FireInParallel, IMultiInterfaceEventControl::get_FireInParallel, IMultiInterfaceEventControl::put_FireInParallel, cos.imultiinterfaceeventcontrol_fireinparallel, eventsys/IMultiInterfaceEventControl::FireInParallel, eventsys/IMultiInterfaceEventControl::get_FireInParallel, eventsys/IMultiInterfaceEventControl::put_FireInParallel, get_FireInParallel
 ms.prod: windows
 ms.technology: windows-sdk

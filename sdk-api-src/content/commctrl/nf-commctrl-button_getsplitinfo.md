@@ -4,10 +4,10 @@ title: Button_GetSplitInfo macro
 author: windows-sdk-content
 description: Gets information for a specified split button control. Use this macro or send the BCM_GETSPLITINFO message explicitly.
 old-location: controls\Button_GetSplitInfo.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getsplitinfo.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: Button_GetSplitInfo, Button_GetSplitInfo macro [Windows Controls], _shell_Button_GetSplitInfo, _shell_Button_GetSplitInfo_cpp, commctrl/Button_GetSplitInfo, controls.Button_GetSplitInfo, controls._shell_Button_GetSplitInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets information for a specified split button control. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775969(v=VS.85).aspx">BCM_GETSPLITINFO</a> message explicitly.
+Gets information for a specified split button control. Use this macro or send the <a href="https://msdn.microsoft.com/d608440d-b8d8-4e32-9128-08b7566b185c">BCM_GETSPLITINFO</a> message explicitly.
 
 
 ## -parameters
@@ -67,16 +67,16 @@ A handle to the button control.
 
 ### -param pInfo [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775955(v=VS.85).aspx">BUTTON_SPLITINFO</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/ea2292c3-1dad-4e4f-9ebc-1719c86848c6">BUTTON_SPLITINFO</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Bb775955(v=VS.85).aspx">BUTTON_SPLITINFO</a> structure to receive information on the button specified by <i>hwnd</i>. The calling application is responsible for allocating the memory for the structure. Set the <b>mask</b> member of this structure to determine what information to receive.
+A pointer to a <a href="https://msdn.microsoft.com/ea2292c3-1dad-4e4f-9ebc-1719c86848c6">BUTTON_SPLITINFO</a> structure to receive information on the button specified by <i>hwnd</i>. The calling application is responsible for allocating the memory for the structure. Set the <b>mask</b> member of this structure to determine what information to receive.
 
 
 ## -remarks
 
 
 
-Use this macro only with the <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">BS_SPLITBUTTON</a> and <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">BS_DEFSPLITBUTTON</a> button styles.
+Use this macro only with the <a href="Button_Styles.htm">BS_SPLITBUTTON</a> and <a href="Button_Styles.htm">BS_DEFSPLITBUTTON</a> button styles.
 
 
 
@@ -86,11 +86,11 @@ Use this macro only with the <a href="https://msdn.microsoft.com/library/Bb77595
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">Button Styles</a>
+<a href="https://msdn.microsoft.com/30254cb5-43cd-407f-8ad6-bd7f9ec3edc7">Button Styles</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775947(v=VS.85).aspx">Button Types</a>
+<a href="https://msdn.microsoft.com/bfc8b88b-0da2-46f6-b8c2-72f693ee1e7b">Button Types</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: security\icertpropertyrequestoriginator.htm
 old-project: seccertenroll
 ms.assetid: ce33605e-c3ae-4b96-a13e-6f06e8d5ffee
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICertPropertyRequestOriginator, ICertPropertyRequestOriginator interface [Security], ICertPropertyRequestOriginator interface [Security],described, certenroll/ICertPropertyRequestOriginator, security.icertpropertyrequestoriginator
 ms.prod: windows
 ms.technology: windows-sdk

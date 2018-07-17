@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput_findclosestmatchingmode.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_findclosestmatchingmode.htm
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: FindClosestMatchingMode, FindClosestMatchingMode method [DXGI], FindClosestMatchingMode method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],FindClosestMatchingMode method, IDXGIOutput.FindClosestMatchingMode, IDXGIOutput::FindClosestMatchingMode, c140400c-32d4-ec57-8da0-a37a23cfd5e4, direct3ddxgi.idxgioutput_findclosestmatchingmode, dxgi/IDXGIOutput::FindClosestMatchingMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ Finds the display mode that most closely matches the requested display mode.
 
 ### -param pModeToMatch [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb173064(v=VS.85).aspx">DXGI_MODE_DESC</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/ed39012c-0c3b-4c8e-ae83-c252c0fd3cff">DXGI_MODE_DESC</a>*</b>
 
-The desired display mode (see <a href="https://msdn.microsoft.com/library/Bb173064(v=VS.85).aspx">DXGI_MODE_DESC</a>). Members of <b>DXGI_MODE_DESC</b> can be unspecified indicating no preference for 
+The desired display mode (see <a href="https://msdn.microsoft.com/ed39012c-0c3b-4c8e-ae83-c252c0fd3cff">DXGI_MODE_DESC</a>). Members of <b>DXGI_MODE_DESC</b> can be unspecified indicating no preference for 
         that member.  A value of 0 for <b>Width</b> or <b>Height</b> indicates the value is unspecified.  If either <b>Width</b> or 
         <b>Height</b> are 0, both must be 0.  A numerator and denominator of 0 in <b>RefreshRate</b> indicate it is unspecified. Other members 
         of <b>DXGI_MODE_DESC</b> have enumeration values indicating the member is unspecified.  If <i>pConcernedDevice</i> is <b>NULL</b>, <b>Format</b>
@@ -75,7 +75,7 @@ The desired display mode (see <a href="https://msdn.microsoft.com/library/Bb1730
 
 ### -param pClosestMatch [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173064(v=VS.85).aspx">DXGI_MODE_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/ed39012c-0c3b-4c8e-ae83-c252c0fd3cff">DXGI_MODE_DESC</a>*</b>
 
 The mode that most closely matches <i>pModeToMatch</i>.
 
@@ -115,9 +115,9 @@ A pointer to the Direct3D device interface. If this parameter is <b>NULL</b>, on
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
 
 
 
@@ -140,7 +140,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/library/Bb50955
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174546(v=VS.85).aspx">IDXGIOutput</a>
+<a href="https://msdn.microsoft.com/c641995e-a4d9-4bfb-bdc0-7ffbe77c3599">IDXGIOutput</a>
  
 
  

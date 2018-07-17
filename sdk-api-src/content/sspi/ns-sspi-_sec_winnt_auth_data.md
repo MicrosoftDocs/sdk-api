@@ -4,10 +4,10 @@ title: "_SEC_WINNT_AUTH_DATA"
 author: windows-sdk-content
 description: Specifies authentication data.
 old-location: security\sec_winnt_auth_data.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: d5319273-ef6c-4971-9336-394394d0dbc3
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*PSEC_WINNT_AUTH_DATA, PSEC_WINNT_AUTH_DATA, PSEC_WINNT_AUTH_DATA structure pointer [Security], SEC_WINNT_AUTH_DATA, SEC_WINNT_AUTH_DATA structure [Security], _SEC_WINNT_AUTH_DATA, security.sec_winnt_auth_data, sspi/PSEC_WINNT_AUTH_DATA, sspi/SEC_WINNT_AUTH_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

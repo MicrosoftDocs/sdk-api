@@ -7,7 +7,7 @@ old-location: winprog\_getdotstuffstate.htm
 old-project: DevNotes
 ms.assetid: 069d9cc9-0478-457a-826b-2e4d1e1b0b05
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: GetDotStuffState, GetDotStuffState function [Windows API], filehc/GetDotStuffState, winprog._getdotstuffstate
 ms.prod: windows
 ms.technology: windows-sdk

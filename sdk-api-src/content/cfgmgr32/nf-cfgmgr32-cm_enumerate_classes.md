@@ -7,7 +7,7 @@ old-location: devinst\cm_enumerate_classes.htm
 old-project: devinst
 ms.assetid: 37e3f6fa-b207-406d-9cfa-e5f11aead821
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: CM_Enumerate_Classes, CM_Enumerate_Classes function [Device and Driver Installation], cfgmgr32/CM_Enumerate_Classes, cfgmgrfn_ab0123b7-a657-40ee-aede-e58957589d3c.xml, devinst.cm_enumerate_classes
 ms.prod: windows
 ms.technology: windows-sdk

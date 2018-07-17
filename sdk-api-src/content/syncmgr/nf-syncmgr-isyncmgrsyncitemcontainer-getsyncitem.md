@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItemContainer_GetSyncItem.htm
 old-project: shell
 ms.assetid: 27cdfcfe-d419-4232-b1cc-b9e7b8b2d315
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: GetSyncItem, GetSyncItem method [Windows Shell], GetSyncItem method [Windows Shell],ISyncMgrSyncItemContainer interface, ISyncMgrSyncItemContainer interface [Windows Shell],GetSyncItem method, ISyncMgrSyncItemContainer.GetSyncItem, ISyncMgrSyncItemContainer::GetSyncItem, _shell_ISyncMgrSyncItemContainer_GetSyncItem, shell.ISyncMgrSyncItemContainer_GetSyncItem, syncmgr/ISyncMgrSyncItemContainer::GetSyncItem
 ms.prod: windows
 ms.technology: windows-sdk

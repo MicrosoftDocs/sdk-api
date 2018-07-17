@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_ExcludeClip_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsexcludeclipmethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: ExcludeClip, ExcludeClip methods [GDI+], Graphics.ExcludeClip, Graphics.ExcludeClip(IN const Region), Graphics::ExcludeClip, Graphics::ExcludeClip(IN const Region), _gdiplus_CLASS_Graphics_ExcludeClip_Methods, gdiplus._gdiplus_CLASS_Graphics_ExcludeClip_Methods, gdiplusgraphics/ExcludeClip
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,28 +65,28 @@ ExcludeClip methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535974(v=VS.85).aspx">ExcludeClip(Rect&)</a>
+<a href="https://msdn.microsoft.com/c04c1c10-e625-4031-b241-a069668a5285">ExcludeClip(Rect&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535974(v=VS.85).aspx">Graphics::ExcludeClip</a> method updates the clipping region to the portion of itself that does not intersect the specified rectangle.
+The <a href="https://msdn.microsoft.com/c04c1c10-e625-4031-b241-a069668a5285">Graphics::ExcludeClip</a> method updates the clipping region to the portion of itself that does not intersect the specified rectangle.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535975(v=VS.85).aspx">ExcludeClip(RectF&)</a>
+<a href="https://msdn.microsoft.com/3123dbf3-ea4c-4597-abe8-7fb97ec669f5">ExcludeClip(RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535975(v=VS.85).aspx">Graphics::ExcludeClip</a> method updates the clipping region to the portion of itself that does not intersect the specified rectangle.
+The <a href="https://msdn.microsoft.com/3123dbf3-ea4c-4597-abe8-7fb97ec669f5">Graphics::ExcludeClip</a> method updates the clipping region to the portion of itself that does not intersect the specified rectangle.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535976(v=VS.85).aspx">ExcludeClip(Region*)</a>
+<a href="https://msdn.microsoft.com/7b792026-182a-4927-b268-515e3abb41d3">ExcludeClip(Region*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535976(v=VS.85).aspx">Graphics::ExcludeClip</a> method updates the clipping region with the portion of itself that does not overlap the specified region.
+The <a href="https://msdn.microsoft.com/7b792026-182a-4927-b268-515e3abb41d3">Graphics::ExcludeClip</a> method updates the clipping region with the portion of itself that does not overlap the specified region.
 
 </td>
 </tr>

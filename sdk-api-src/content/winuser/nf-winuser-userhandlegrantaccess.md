@@ -4,10 +4,10 @@ title: UserHandleGrantAccess function
 author: windows-sdk-content
 description: Grants or denies access to a handle to a User object to a job that has a user-interface restriction.
 old-location: base\userhandlegrantaccess.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 6e7a6cfc-f881-43cc-a5af-b97e0bf14bf4
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: UserHandleGrantAccess, UserHandleGrantAccess function, _win32_userhandlegrantaccess, base.userhandlegrantaccess, winuser/UserHandleGrantAccess
 ms.prod: windows
 ms.technology: windows-sdk

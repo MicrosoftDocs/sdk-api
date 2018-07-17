@@ -7,7 +7,7 @@ old-location: mscs\resutilpaxoscomparer.htm
 old-project: mscs
 ms.assetid: 414F9BB0-2490-43A9-BE38-877B283573E1
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ResUtilPaxosComparer, ResUtilPaxosComparer function [Failover Cluster], mscs.resutilpaxoscomparer, resapi/ResUtilPaxosComparer
 ms.prod: windows
 ms.technology: windows-sdk

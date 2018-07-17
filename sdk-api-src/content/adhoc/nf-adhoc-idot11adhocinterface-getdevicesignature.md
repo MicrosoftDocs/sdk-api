@@ -4,10 +4,10 @@ title: IDot11AdHocInterface::GetDeviceSignature
 author: windows-sdk-content
 description: Gets the signature of the NIC.
 old-location: nwifi\idot11adhocinterface_getdevicesignature.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: d65fe0ae-ce7b-4d9e-af5b-d9aaeb909e21
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: GetDeviceSignature, GetDeviceSignature method [NativeWIFI], GetDeviceSignature method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetDeviceSignature method, IDot11AdHocInterface.GetDeviceSignature, IDot11AdHocInterface::GetDeviceSignature, adhoc/IDot11AdHocInterface::GetDeviceSignature, nwifi.idot11adhocinterface_getdevicesignature
 ms.prod: windows
 ms.technology: windows-sdk

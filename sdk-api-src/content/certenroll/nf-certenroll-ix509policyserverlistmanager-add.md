@@ -7,7 +7,7 @@ old-location: security\ix509policyserverlistmanager_add.htm
 old-project: seccertenroll
 ms.assetid: f1f22d27-96bf-47f7-8572-5f3842797c18
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509PolicyServerListManager interface, IX509PolicyServerListManager interface [Security],Add method, IX509PolicyServerListManager.Add, IX509PolicyServerListManager::Add, certenroll/IX509PolicyServerListManager::Add, security.ix509policyserverlistmanager_add
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ICEnroll4::put_IncludeSubjectKeyID
 author: windows-sdk-content
 description: Determines whether the subject key ID extension is added to the certificate request that is generated.
 old-location: security\icenroll4_includesubjectkeyid.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 12150ca2-59cc-402e-b25e-cc98b940ecf8
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CEnroll object [Security],IncludeSubjectKeyID property, ICEnroll4 interface [Security],IncludeSubjectKeyID property, ICEnroll4.IncludeSubjectKeyID, ICEnroll4.put_IncludeSubjectKeyID, ICEnroll4::IncludeSubjectKeyID, ICEnroll4::get_IncludeSubjectKeyID, ICEnroll4::put_IncludeSubjectKeyID, IncludeSubjectKeyID property [Security], IncludeSubjectKeyID property [Security],CEnroll object, IncludeSubjectKeyID property [Security],ICEnroll4 interface, put_IncludeSubjectKeyID, security.icenroll4_includesubjectkeyid, xenroll/ICEnroll4::IncludeSubjectKeyID, xenroll/ICEnroll4::get_IncludeSubjectKeyID, xenroll/ICEnroll4::put_IncludeSubjectKeyID
 ms.prod: windows
 ms.technology: windows-sdk

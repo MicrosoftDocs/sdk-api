@@ -4,10 +4,10 @@ title: "_DTTOPTS"
 author: windows-sdk-content
 description: Defines the options for the DrawThemeTextEx function.
 old-location: controls\DTTOPTS.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\dttopts.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: "*PDTTOPTS, DTTOPTS, DTTOPTS structure [Windows Controls], DTT_APPLYOVERLAY, DTT_BORDERCOLOR, DTT_BORDERSIZE, DTT_CALCRECT, DTT_CALLBACK, DTT_COLORPROP, DTT_COMPOSITED, DTT_FONTPROP, DTT_GLOWSIZE, DTT_SHADOWCOLOR, DTT_SHADOWOFFSET, DTT_SHADOWTYPE, DTT_STATEID, DTT_TEXTCOLOR, DTT_VALIDBITS, PDTTOPTS, PDTTOPTS structure pointer [Windows Controls], TST_CONTINUOUS, TST_NONE, TST_SINGLE, _DTTOPTS, controls.DTTOPTS, controls.inet_DTTOPTS, inet_DTTOPTS, inet_DTTOPTS_cpp, uxtheme/DTTOPTS, uxtheme/PDTTOPTS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-Defines the options for the <a href="https://msdn.microsoft.com/library/Bb773317(v=VS.85).aspx">DrawThemeTextEx</a> function.
+Defines the options for the <a href="https://msdn.microsoft.com/ec2bf19e-a8d2-4a51-9920-d12562407a48">DrawThemeTextEx</a> function.
 
 
 ## -struct-fields
@@ -173,7 +173,7 @@ The <b>iStateId</b> member value is valid.
 </dl>
 </td>
 <td width="60%">
-The <i>pRect</i> parameter of the <a href="https://msdn.microsoft.com/library/Bb773317(v=VS.85).aspx">DrawThemeTextEx</a> function that uses this structure will be used as both an in and an out parameter. After the function returns, the <i>pRect</i> parameter will contain the rectangle that corresponds to the region calculated to be drawn.
+The <i>pRect</i> parameter of the <a href="https://msdn.microsoft.com/ec2bf19e-a8d2-4a51-9920-d12562407a48">DrawThemeTextEx</a> function that uses this structure will be used as both an in and an out parameter. After the function returns, the <i>pRect</i> parameter will contain the rectangle that corresponds to the region calculated to be drawn.
 
 </td>
 </tr>
@@ -213,7 +213,7 @@ The <b>pfnDrawTextCallback</b> member value is valid.
 </dl>
 </td>
 <td width="60%">
-Draws text with antialiased alpha. Use of this flag requires a top-down DIB section. This flag works only if the HDC passed to function <a href="https://msdn.microsoft.com/library/Bb773317(v=VS.85).aspx">DrawThemeTextEx</a> has a top-down DIB section currently selected in it. For more information, see <a href="https://msdn.microsoft.com/56b39a3d-48a4-4620-9652-ec41ea4d6423">Device-Independent Bitmaps</a>.
+Draws text with antialiased alpha. Use of this flag requires a top-down DIB section. This flag works only if the HDC passed to function <a href="https://msdn.microsoft.com/ec2bf19e-a8d2-4a51-9920-d12562407a48">DrawThemeTextEx</a> has a top-down DIB section currently selected in it. For more information, see <a href="https://msdn.microsoft.com/56b39a3d-48a4-4620-9652-ec41ea4d6423">Device-Independent Bitmaps</a>.
 
 </td>
 </tr>
@@ -316,7 +316,7 @@ Specifies the radius of the outline that will be drawn around the text.
 
 Type: <b>int</b>
 
-Specifies an alternate font property to use when drawing text. For a list of possible values, see <a href="https://msdn.microsoft.com/library/Bb759783(v=VS.85).aspx">GetThemeSysFont</a>.
+Specifies an alternate font property to use when drawing text. For a list of possible values, see <a href="https://msdn.microsoft.com/adaa2269-8528-454e-a639-4371c4e2bc9f">GetThemeSysFont</a>.
 
 
 ### -field iColorPropId
@@ -330,7 +330,7 @@ Specifies an alternate color property to use when drawing text. If this value is
 
 Type: <b>int</b>
 
-Specifies an alternate state to use. This member is not used by <a href="https://msdn.microsoft.com/library/Bb773317(v=VS.85).aspx">DrawThemeTextEx</a>.
+Specifies an alternate state to use. This member is not used by <a href="https://msdn.microsoft.com/ec2bf19e-a8d2-4a51-9920-d12562407a48">DrawThemeTextEx</a>.
 
 
 ### -field fApplyOverlay
@@ -351,7 +351,7 @@ Specifies the size of a glow that will be drawn on the background prior to any t
 
 Type: <b>DTT_CALLBACK_PROC</b>
 
-Pointer to callback function for <a href="https://msdn.microsoft.com/library/Bb773317(v=VS.85).aspx">DrawThemeTextEx</a>.
+Pointer to callback function for <a href="https://msdn.microsoft.com/ec2bf19e-a8d2-4a51-9920-d12562407a48">DrawThemeTextEx</a>.
 
 
 ### -field lParam

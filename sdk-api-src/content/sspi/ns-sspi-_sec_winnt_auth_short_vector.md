@@ -4,10 +4,10 @@ title: "_SEC_WINNT_AUTH_SHORT_VECTOR"
 author: windows-sdk-content
 description: Specifies the offset and number of characters in an array of USHORT values.
 old-location: security\sec_winnt_auth_short_vector.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: c3c1ade7-db2b-4450-97c1-5b67e4ebdcb0
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*PSEC_WINNT_AUTH_SHORT_VECTOR, PSEC_WINNT_AUTH_SHORT_VECTOR, PSEC_WINNT_AUTH_SHORT_VECTOR structure pointer [Security], SEC_WINNT_AUTH_SHORT_VECTOR, SEC_WINNT_AUTH_SHORT_VECTOR structure [Security], _SEC_WINNT_AUTH_SHORT_VECTOR, security.sec_winnt_auth_short_vector, sspi/PSEC_WINNT_AUTH_SHORT_VECTOR, sspi/SEC_WINNT_AUTH_SHORT_VECTOR"
 ms.prod: windows
 ms.technology: windows-sdk

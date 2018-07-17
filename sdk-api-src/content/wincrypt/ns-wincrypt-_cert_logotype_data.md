@@ -4,10 +4,10 @@ title: "_CERT_LOGOTYPE_DATA"
 author: windows-sdk-content
 description: Contains logotype data.
 old-location: security\cert_logotype_data.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: f170dd48-a0f4-45e0-b5b8-a5f446d1a86e
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: "*PCERT_LOGOTYPE_DATA, CERT_LOGOTYPE_DATA, CERT_LOGOTYPE_DATA structure [Security], PCERT_LOGOTYPE_DATA, PCERT_LOGOTYPE_DATA structure pointer [Security], _CERT_LOGOTYPE_DATA, security.cert_logotype_data, wincrypt/CERT_LOGOTYPE_DATA, wincrypt/PCERT_LOGOTYPE_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

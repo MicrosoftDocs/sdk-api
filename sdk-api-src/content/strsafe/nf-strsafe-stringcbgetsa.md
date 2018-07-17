@@ -151,7 +151,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 <b>StringCbGets</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbGets</b>
 				always null-terminates a nonzero-length destination buffer.
 
-The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="https://msdn.microsoft.com/library/ms647507(v=VS.85).aspx">StringCbGetsEx</a> if you require the handling of null string pointer values.
+The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="https://msdn.microsoft.com/d0ab97e1-763f-4479-afb4-c9a865f11f76">StringCbGetsEx</a> if you require the handling of null string pointer values.
 
 <b>StringCbGets</b> can be used in its generic form, or in its more specific forms. The data type of the string determines the form of this function that you should use, as shown in the following table.
 
@@ -191,11 +191,11 @@ The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647507(v=VS.85).aspx">StringCbGetsEx</a>
+<a href="https://msdn.microsoft.com/d0ab97e1-763f-4479-afb4-c9a865f11f76">StringCbGetsEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647536(v=VS.85).aspx">StringCchGets</a>
+<a href="https://msdn.microsoft.com/eec6e646-83a1-403a-8b40-fd6ab2e6fdb6">StringCchGets</a>
  
 
  

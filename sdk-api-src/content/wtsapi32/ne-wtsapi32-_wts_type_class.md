@@ -4,10 +4,10 @@ title: "_WTS_TYPE_CLASS"
 author: windows-sdk-content
 description: Specifies the type of structure that a Remote Desktop Services function has returned in a buffer.
 old-location: termserv\wts_type_class.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 1827e862-add0-4271-b5d7-62834c396250
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WTSTypeProcessInfoLevel0, WTSTypeProcessInfoLevel1, WTSTypeSessionInfoLevel1, WTS_TYPE_CLASS, WTS_TYPE_CLASS enumeration [Remote Desktop Services], _WTS_TYPE_CLASS, termserv.wts_type_class, wtsapi32/WTSTypeProcessInfoLevel0, wtsapi32/WTSTypeProcessInfoLevel1, wtsapi32/WTSTypeSessionInfoLevel1, wtsapi32/WTS_TYPE_CLASS
 ms.prod: windows
 ms.technology: windows-sdk

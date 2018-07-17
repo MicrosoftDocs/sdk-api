@@ -4,10 +4,10 @@ title: CryptDecodeObject function
 author: windows-sdk-content
 description: The CryptDecodeObject function decodes a structure of the type indicated by the lpszStructType parameter. The use of CryptDecodeObjectEx is recommended as an API that performs the same function with significant performance improvements.
 old-location: security\cryptdecodeobject.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 7d5ed4f4-9d76-4a16-9059-27b0edd83459
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CRYPT_DECODE_NOCOPY_FLAG, CRYPT_DECODE_NO_SIGNATURE_BYTE_REVERSAL_FLAG, CRYPT_DECODE_SHARE_OID_STRING_FLAG, CRYPT_DECODE_TO_BE_SIGNED_FLAG, CRYPT_UNICODE_NAME_DECODE_DISABLE_IE4_UTF8_FLAG, CryptDecodeObject, CryptDecodeObject function [Security], _crypto2_cryptdecodeobject, security.cryptdecodeobject, wincrypt/CryptDecodeObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -261,7 +261,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Object Encoding and Decoding Functions</a>
+<a href="cryptography_functions.htm">Object Encoding and Decoding Functions</a>
  
 
  

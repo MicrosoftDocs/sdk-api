@@ -4,10 +4,10 @@ title: CryptUIDlgSelectCertificateFromStore function
 author: windows-sdk-content
 description: Displays a dialog box that allows the selection of a certificate from a specified store.
 old-location: security\cryptuidlgselectcertificatefromstore.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 5774af1c-f2d4-4b1e-a20b-dfb57bf9aa37
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CRYPTUI_SELECT_EXPIRATION_COLUMN, CRYPTUI_SELECT_FRIENDLYNAME_COLUMN, CRYPTUI_SELECT_INTENDEDUSE_COLUMN, CRYPTUI_SELECT_ISSUEDBY_COLUMN, CRYPTUI_SELECT_ISSUEDTO_COLUMN, CRYPTUI_SELECT_LOCATION_COLUMN, CryptUIDlgSelectCertificateFromStore, CryptUIDlgSelectCertificateFromStore function [Security], _crypto2_cryptuidlgselectcertificatefromstore, cryptuiapi/CryptUIDlgSelectCertificateFromStore, security.cryptuidlgselectcertificatefromstore
 ms.prod: windows
 ms.technology: windows-sdk

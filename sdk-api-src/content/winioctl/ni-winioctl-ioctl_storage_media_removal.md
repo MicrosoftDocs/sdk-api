@@ -4,10 +4,10 @@ title: IOCTL_STORAGE_MEDIA_REMOVAL
 author: windows-sdk-content
 description: Enables or disables the mechanism that ejects media, for those devices possessing that locking capability.
 old-location: base\ioctl_storage_media_removal.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 5971daa1-3bb7-4050-b252-2f5cabb1bf67
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: IOCTL_STORAGE_MEDIA_REMOVAL, IOCTL_STORAGE_MEDIA_REMOVAL control, IOCTL_STORAGE_MEDIA_REMOVAL control code, _win32_ioctl_storage_media_removal, base.ioctl_storage_media_removal, winioctl/IOCTL_STORAGE_MEDIA_REMOVAL
 ms.prod: windows
 ms.technology: windows-sdk

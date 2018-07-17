@@ -4,10 +4,10 @@ title: ITextPara::GetLeftIndent
 author: windows-sdk-content
 description: Retrieves the distance used to indent all lines except the first line of a paragraph. The distance is relative to the left margin.
 old-location: controls\ITextPara_GetLeftIndent.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getleftindent.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: GetLeftIndent, GetLeftIndent method [Windows Controls], GetLeftIndent method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetLeftIndent method, ITextPara.GetLeftIndent, ITextPara::GetLeftIndent, _win32_ITextPara_GetLeftIndent, _win32_ITextPara_GetLeftIndent_cpp, controls.ITextPara_GetLeftIndent, controls._win32_ITextPara_GetLeftIndent, tom/ITextPara::GetLeftIndent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,9 +122,9 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-To set the left indentation amount, call the <a href="https://msdn.microsoft.com/library/Bb774155(v=VS.85).aspx">ITextPara::SetIndents</a> method.
+To set the left indentation amount, call the <a href="https://msdn.microsoft.com/84584a22-7e0f-431a-9c7b-f7f574459948">ITextPara::SetIndents</a> method.
 
-To get the first-line indent, call <a href="https://msdn.microsoft.com/library/Bb773951(v=VS.85).aspx">ITextPara::GetFirstLineIndent</a>.
+To get the first-line indent, call <a href="https://msdn.microsoft.com/82831ef0-7ece-4d85-96f5-aa3c4591e458">ITextPara::GetFirstLineIndent</a>.
 
 
 
@@ -138,11 +138,11 @@ To get the first-line indent, call <a href="https://msdn.microsoft.com/library/B
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773951(v=VS.85).aspx">GetFirstLineIndent</a>
+<a href="https://msdn.microsoft.com/82831ef0-7ece-4d85-96f5-aa3c4591e458">GetFirstLineIndent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -150,11 +150,11 @@ To get the first-line indent, call <a href="https://msdn.microsoft.com/library/B
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774155(v=VS.85).aspx">SetIndents</a>
+<a href="https://msdn.microsoft.com/84584a22-7e0f-431a-9c7b-f7f574459948">SetIndents</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

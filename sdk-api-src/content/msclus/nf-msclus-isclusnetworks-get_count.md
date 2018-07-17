@@ -7,7 +7,7 @@ old-location: mscs\clusnetworks_count.htm
 old-project: mscs
 ms.assetid: c67ae910-a528-40e8-80a6-94c2d0574bbe
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusNetworks collection [Failover Cluster],Count property, ClusNetworks.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusNetworks collection, ISClusNetworks.get_Count, ISClusNetworks::get_Count, _wolf_clusnetworks.count, get_Count, mscs.clusnetworks_count
 ms.prod: windows
 ms.technology: windows-sdk

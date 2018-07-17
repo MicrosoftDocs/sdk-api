@@ -4,10 +4,10 @@ title: ICertEncodeDateArray::GetValue
 author: windows-sdk-content
 description: Returns the specified date from the DATE array.
 old-location: security\icertencodedatearray_getvalue.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: db108b2a-c3ee-4ef8-be5c-74dc739dacee
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CCertEncodeDateArray object [Security],GetValue method, GetValue, GetValue method [Security], GetValue method [Security],CCertEncodeDateArray object, GetValue method [Security],ICertEncodeDateArray interface, ICertEncodeDateArray interface [Security],GetValue method, ICertEncodeDateArray.GetValue, ICertEncodeDateArray::GetValue, _certsrv_icertencodedatearray_getvalue, certenc/ICertEncodeDateArray::GetValue, security.icertencodedatearray_getvalue
 ms.prod: windows
 ms.technology: windows-sdk

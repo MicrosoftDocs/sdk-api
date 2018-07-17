@@ -4,10 +4,10 @@ title: ITsSbTarget::put_FarmName
 author: windows-sdk-content
 description: Retrieves or specifies the name of the farm to which this target is joined.
 old-location: termserv\itssbtarget_farmname.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 83e168ae-f985-40f9-912b-496c0695f82a
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: FarmName property [Remote Desktop Services], FarmName property [Remote Desktop Services],ITsSbTarget interface, FarmName property [Remote Desktop Services],ITsSbTargetEx interface, ITsSbTarget interface [Remote Desktop Services],FarmName property, ITsSbTarget.FarmName, ITsSbTarget.put_FarmName, ITsSbTarget::FarmName, ITsSbTarget::get_FarmName, ITsSbTarget::put_FarmName, ITsSbTargetEx interface [Remote Desktop Services],FarmName property, ITsSbTargetEx.FarmName, ITsSbTargetEx::get_FarmName, ITsSbTargetEx::put_FarmName, put_FarmName, sbtsv/ITsSbTarget::FarmName, sbtsv/ITsSbTarget::get_FarmName, sbtsv/ITsSbTarget::put_FarmName, sbtsv/ITsSbTargetEx::FarmName, sbtsv/ITsSbTargetEx::get_FarmName, sbtsv/ITsSbTargetEx::put_FarmName, termserv.itssbtarget_farmname
 ms.prod: windows
 ms.technology: windows-sdk

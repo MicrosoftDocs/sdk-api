@@ -7,7 +7,7 @@ old-location: dshow\ifullscreenvideoex_setacceleratortable.htm
 old-project: DirectShow
 ms.assetid: aff393e8-e0a5-418d-8706-3fde96dbcfd9
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetAcceleratorTable method, IFullScreenVideoEx.SetAcceleratorTable, IFullScreenVideoEx::SetAcceleratorTable, IFullScreenVideoExSetAcceleratorTable, SetAcceleratorTable, SetAcceleratorTable method [DirectShow], SetAcceleratorTable method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetAcceleratorTable, dshow.ifullscreenvideoex_setacceleratortable
 ms.prod: windows
 ms.technology: windows-sdk

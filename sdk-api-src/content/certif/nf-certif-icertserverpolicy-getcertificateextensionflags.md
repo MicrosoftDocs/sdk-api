@@ -4,10 +4,10 @@ title: ICertServerPolicy::GetCertificateExtensionFlags
 author: windows-sdk-content
 description: Retrieves the flags associated with the extension acquired by the most recent call to GetCertificateExtension.
 old-location: security\icertserverpolicy_getcertificateextensionflags.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 6266e96d-81da-478f-99da-86936b4cfc6b
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CCertServerPolicy object [Security],GetCertificateExtensionFlags method, GetCertificateExtensionFlags, GetCertificateExtensionFlags method [Security], GetCertificateExtensionFlags method [Security],CCertServerPolicy object, GetCertificateExtensionFlags method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetCertificateExtensionFlags method, ICertServerPolicy.GetCertificateExtensionFlags, ICertServerPolicy::GetCertificateExtensionFlags, _certsrv_icertserverpolicy_getcertificateextensionflags, certif/ICertServerPolicy::GetCertificateExtensionFlags, security.icertserverpolicy_getcertificateextensionflags
 ms.prod: windows
 ms.technology: windows-sdk

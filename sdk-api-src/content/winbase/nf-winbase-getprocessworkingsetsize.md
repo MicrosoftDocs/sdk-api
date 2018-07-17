@@ -4,10 +4,10 @@ title: GetProcessWorkingSetSize function
 author: windows-sdk-content
 description: Retrieves the minimum and maximum working set sizes of the specified process.
 old-location: base\getprocessworkingsetsize.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 9ac2e9ae-31f4-40aa-8d23-6926fa6dec22
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: GetProcessWorkingSetSize, GetProcessWorkingSetSize function, _win32_getprocessworkingsetsize, base.getprocessworkingsetsize, winbase/GetProcessWorkingSetSize
 ms.prod: windows
 ms.technology: windows-sdk

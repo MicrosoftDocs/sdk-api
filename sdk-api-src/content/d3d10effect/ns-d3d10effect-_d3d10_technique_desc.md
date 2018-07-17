@@ -83,7 +83,7 @@ The number of annotations.
 
 
 
-To get a technique, call <a href="https://msdn.microsoft.com/library/Bb173712(v=VS.85).aspx">ID3D10EffectTechnique::GetDesc</a>.
+To get a technique, call <a href="https://msdn.microsoft.com/18d53bb6-0055-479e-ac32-7f53498859c7">ID3D10EffectTechnique::GetDesc</a>.
 
 
 
@@ -93,7 +93,7 @@ To get a technique, call <a href="https://msdn.microsoft.com/library/Bb173712(v=
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205180(v=VS.85).aspx">Effect Structures (Direct3D 10)</a>
+<a href="https://msdn.microsoft.com/bbd69b4b-d2f4-471f-a607-328f5fc603b5">Effect Structures (Direct3D 10)</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mscs\clusaddclusterhealthfault.htm
 old-project: mscs
 ms.assetid: 7240e9c9-a362-4de8-b0bd-aeadf53eb111
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusAddClusterHealthFault, ClusAddClusterHealthFault function [Failover Cluster], mscs.clusaddclusterhealthfault, resapi/ClusAddClusterHealthFault
 ms.prod: windows
 ms.technology: windows-sdk

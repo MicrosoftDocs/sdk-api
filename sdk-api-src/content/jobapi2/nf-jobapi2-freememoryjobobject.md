@@ -4,10 +4,10 @@ title: FreeMemoryJobObject function
 author: windows-sdk-content
 description: Frees memory that a function related to job objects allocated. Functions related to job objects that allocate memory include QueryIoRateControlInformationJobObject.
 old-location: base\freememoryjobobject.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 8EA45FC6-A8CC-4786-8CF2-4FC868B974F2
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: FreeMemoryJobObject, FreeMemoryJobObject function, base.freememoryjobobject, jobapi2/FreeMemoryJobObject
 ms.prod: windows
 ms.technology: windows-sdk

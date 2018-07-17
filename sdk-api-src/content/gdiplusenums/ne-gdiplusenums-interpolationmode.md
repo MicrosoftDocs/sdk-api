@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_InterpolationMode.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\interpolationmode.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: InterpolationMode, InterpolationMode enumeration [GDI+], InterpolationModeBicubic, InterpolationModeBilinear, InterpolationModeDefault, InterpolationModeHighQuality, InterpolationModeHighQualityBicubic, InterpolationModeHighQualityBilinear, InterpolationModeInvalid, InterpolationModeLowQuality, InterpolationModeNearestNeighbor, _gdiplus_ENUM_InterpolationMode, gdiplus._gdiplus_ENUM_InterpolationMode, gdiplusenums/InterpolationMode, gdiplusenums/InterpolationModeBicubic, gdiplusenums/InterpolationModeBilinear, gdiplusenums/InterpolationModeDefault, gdiplusenums/InterpolationModeHighQuality, gdiplusenums/InterpolationModeHighQualityBicubic, gdiplusenums/InterpolationModeHighQualityBilinear, gdiplusenums/InterpolationModeInvalid, gdiplusenums/InterpolationModeLowQuality, gdiplusenums/InterpolationModeNearestNeighbor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>InterpolationMode</b> enumeration specifies the algorithm that is used when images are scaled or rotated. This enumeration is used by the <a href="https://msdn.microsoft.com/library/ms535711(v=VS.85).aspx">Graphics::GetInterpolationMode</a> and <a href="https://msdn.microsoft.com/library/ms535810(v=VS.85).aspx">Graphics::SetInterpolationMode</a> methods of the 
+The <b>InterpolationMode</b> enumeration specifies the algorithm that is used when images are scaled or rotated. This enumeration is used by the <a href="https://msdn.microsoft.com/a9f3b27c-cb16-4d52-9970-ea3708bd1e0c">Graphics::GetInterpolationMode</a> and <a href="https://msdn.microsoft.com/1624691c-fbf0-4d14-8d48-e7c69e0100aa">Graphics::SetInterpolationMode</a> methods of the 
 			<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> class.
 
 
@@ -110,11 +110,11 @@ Specifies high-quality, bicubic interpolation. Prefiltering is performed to ensu
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535711(v=VS.85).aspx">Graphics::GetInterpolationMode</a>
+<a href="https://msdn.microsoft.com/a9f3b27c-cb16-4d52-9970-ea3708bd1e0c">Graphics::GetInterpolationMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535810(v=VS.85).aspx">Graphics::SetInterpolationMode</a>
+<a href="https://msdn.microsoft.com/1624691c-fbf0-4d14-8d48-e7c69e0100aa">Graphics::SetInterpolationMode</a>
  
 
  

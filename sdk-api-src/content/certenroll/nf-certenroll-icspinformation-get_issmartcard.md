@@ -7,7 +7,7 @@ old-location: security\icspinformation_issmartcard_property.htm
 old-project: seccertenroll
 ms.assetid: cfb88e17-39bb-4b4f-9eb3-3691376f8285
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICspInformation interface [Security],IsSmartCard property, ICspInformation.IsSmartCard, ICspInformation.get_IsSmartCard, ICspInformation::IsSmartCard, ICspInformation::get_IsSmartCard, IsSmartCard property [Security], IsSmartCard property [Security],ICspInformation interface, certenroll/ICspInformation::IsSmartCard, certenroll/ICspInformation::get_IsSmartCard, get_IsSmartCard, security.icspinformation_issmartcard_property
 ms.prod: windows
 ms.technology: windows-sdk

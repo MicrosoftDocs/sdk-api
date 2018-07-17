@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_GetLastStatus_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getlaststatus_84.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Font class [GDI+],GetLastStatus method, Font.GetLastStatus, Font::GetLastStatus, GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],Font class, _gdiplus_CLASS_Font_GetLastStatus_, gdiplus._gdiplus_CLASS_Font_GetLastStatus_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Font::GetLastStatus</b> method returns a value that indicates the nature of this 
-			<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a> object's most recent method failure.
+			<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a> object's most recent method failure.
 
 
 ## -parameters
@@ -72,10 +72,10 @@ Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/windows/hardw
 The <b>Font::GetLastStatus</b> method returns an element of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a> enumeration.
 
 If no methods invoked on this 
-						<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a> object have failed, then <b>Font::GetLastStatus</b> returns Ok.
+						<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a> object have failed, then <b>Font::GetLastStatus</b> returns Ok.
 
 If at least one method invoked on this 
-						<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a> object has failed, then <b>Font::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
+						<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a> object has failed, then <b>Font::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
 
 
 
@@ -85,10 +85,10 @@ If at least one method invoked on this
 
 
 You can call <b>Font::GetLastStatus</b> immediately after constructing a 
-				<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a> object to determine whether the constructor succeeded.
+				<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a> object to determine whether the constructor succeeded.
 
 The first time you call the <b>Font::GetLastStatus</b> method of a 
-				<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a> object, it returns Ok if the constructor succeeded and all methods invoked so far on the 
+				<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a> object, it returns Ok if the constructor succeeded and all methods invoked so far on the 
 				<b>Font</b> object succeeded. Otherwise, it returns a value that indicates the nature of the most recent failure.
 
 
@@ -97,7 +97,7 @@ The first time you call the <b>Font::GetLastStatus</b> method of a
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a> object, checks to see that the call to create the object was successful, and, if it was, uses the 
+						<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a> object, checks to see that the call to create the object was successful, and, if it was, uses the 
 						<b>Font</b> object to draw text.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -135,11 +135,11 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a>
+<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536200(v=VS.85).aspx">Font::IsAvailable</a>
+<a href="https://msdn.microsoft.com/39273f9d-6041-4820-a1f2-d422c935ccf6">Font::IsAvailable</a>
 
 
 
@@ -151,7 +151,7 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/12bc38c3-5fbc-4d7b-902c-92a5f5057473">Using Text and Fonts</a>
  
 
  

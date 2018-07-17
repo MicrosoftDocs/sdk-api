@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_DriverStringOptions.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\driverstringoptions.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: DriverStringOptions, DriverStringOptions enumeration [GDI+], DriverStringOptionsCmapLookup, DriverStringOptionsLimitSubpixel, DriverStringOptionsRealizedAdvance, DriverStringOptionsVertical, _gdiplus_ENUM_DriverStringOptions, gdiplus._gdiplus_ENUM_DriverStringOptions, gdiplusenums/DriverStringOptions, gdiplusenums/DriverStringOptionsCmapLookup, gdiplusenums/DriverStringOptionsLimitSubpixel, gdiplusenums/DriverStringOptionsRealizedAdvance, gdiplusenums/DriverStringOptionsVertical
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,15 +85,15 @@ Specifies that less memory should be used for cache of antialiased glyphs. This 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533818(v=VS.85).aspx">Antialiasing with Text</a>
+<a href="https://msdn.microsoft.com/780d97ec-f446-4d19-837f-517a7d6dd27d">Antialiasing with Text</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535683(v=VS.85).aspx">Graphics::DrawDriverString</a>
+<a href="https://msdn.microsoft.com/daed7b4e-5284-4a38-bd33-274618f01027">Graphics::DrawDriverString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535798(v=VS.85).aspx">Graphics::MeasureDriverString</a>
+<a href="https://msdn.microsoft.com/f68ee34e-84e9-4af1-b5f7-018b875d80ad">Graphics::MeasureDriverString</a>
  
 
  

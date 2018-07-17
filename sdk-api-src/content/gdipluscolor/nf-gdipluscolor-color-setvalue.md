@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Color_SetValue_argb_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\setvalue.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Color class [GDI+],SetValue method, Color.SetValue, Color::SetValue, SetValue, SetValue method [GDI+], SetValue method [GDI+],Color class, _gdiplus_CLASS_Color_SetValue_argb_, gdiplus._gdiplus_CLASS_Color_SetValue_argb_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,11 +84,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536253(v=VS.85).aspx">Color::GetValue</a>
+<a href="https://msdn.microsoft.com/b333bf7d-b212-43fd-8f86-d7bf73b6a3f4">Color::GetValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536254(v=VS.85).aspx">Color::MakeARGB</a>
+<a href="https://msdn.microsoft.com/41befc00-c256-4f56-90c3-8fd5aa18bb49">Color::MakeARGB</a>
  
 
  

@@ -4,10 +4,10 @@ title: GetFriendlyNameOfCertW function
 author: windows-sdk-content
 description: Retrieves the display name for a certificate.
 old-location: security\getfriendlynameofcert.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: a66a8573-b234-4d5d-bd38-72a3a44a0419
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: GetFriendlyNameOfCert, GetFriendlyNameOfCert function [Security], GetFriendlyNameOfCertA, GetFriendlyNameOfCertW, cryptdlg/GetFriendlyNameOfCert, cryptdlg/GetFriendlyNameOfCertA, cryptdlg/GetFriendlyNameOfCertW, security.getfriendlynameofcert
 ms.prod: windows
 ms.technology: windows-sdk

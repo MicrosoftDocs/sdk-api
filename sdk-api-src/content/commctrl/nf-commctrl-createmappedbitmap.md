@@ -4,10 +4,10 @@ title: CreateMappedBitmap function
 author: windows-sdk-content
 description: Creates a bitmap for use in a toolbar.
 old-location: controls\CreateMappedBitmap.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\functions\createmappedbitmap.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: CMB_MASKED, CreateMappedBitmap, CreateMappedBitmap function [Windows Controls], _win32_CreateMappedBitmap, _win32_CreateMappedBitmap_cpp, commctrl/CreateMappedBitmap, controls.CreateMappedBitmap, controls._win32_CreateMappedBitmap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,7 +102,7 @@ Uses a bitmap as a mask.
 
 Type: <b>LPCOLORMAP</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb760448(v=VS.85).aspx">COLORMAP</a> structure that contains the color information needed to map the bitmaps. If this parameter is <b>NULL</b>, the function uses the default color map. 
+Pointer to a <a href="https://msdn.microsoft.com/50838fd1-1886-4c6d-ad09-9646036ae9cf">COLORMAP</a> structure that contains the color information needed to map the bitmaps. If this parameter is <b>NULL</b>, the function uses the default color map. 
 
 
 ### -param iNumMaps

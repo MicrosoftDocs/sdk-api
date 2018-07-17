@@ -4,10 +4,10 @@ title: IWTSProtocolConnection::GetClientData
 author: windows-sdk-content
 description: IWTSProtocolConnection::GetClientData is no longer available. Instead, use IWRdsProtocolConnection::GetClientData.
 old-location: termserv\iwtsprotocolconnection_getclientdata.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 1330fbb4-4c10-493b-ad95-3c2ad975459a
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: GetClientData, GetClientData method [Remote Desktop Services], GetClientData method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetClientData method, IWTSProtocolConnection.GetClientData, IWTSProtocolConnection::GetClientData, termserv.iwtsprotocolconnection_getclientdata, wtsprotocol/IWTSProtocolConnection::GetClientData
 ms.prod: windows
 ms.technology: windows-sdk

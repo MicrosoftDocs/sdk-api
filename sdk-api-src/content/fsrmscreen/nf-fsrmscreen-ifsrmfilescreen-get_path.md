@@ -4,10 +4,10 @@ title: IFsrmFileScreen::get_Path
 author: windows-sdk-content
 description: Retrieves the directory path associated with the file screen object.
 old-location: fsrm\ifsrmfilescreen_path.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 383e829c-5089-4404-a6bd-429812069e85
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],Path property, IFsrmFileScreen.Path, IFsrmFileScreen.get_Path, IFsrmFileScreen::Path, IFsrmFileScreen::get_Path, Path property [File Server Resource Manager], Path property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_path, fsrm.ifsrmfilescreen_path, fsrmscreen/IFsrmFileScreen::Path, fsrmscreen/IFsrmFileScreen::get_Path, get_Path
 ms.prod: windows
 ms.technology: windows-sdk

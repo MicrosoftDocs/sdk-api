@@ -4,10 +4,10 @@ title: "_DHCP_FILTER_ADD_INFOV4"
 author: windows-sdk-content
 description: Contains information regarding the link-layer filter to be added to the allow and deny filter list.
 old-location: dhcp\dhcp_filter_add_info.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: eed7fffa-a48c-4ebc-ba3a-a118d2b0e20b
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: "*LPDHCP_FILTER_ADD_INFO, DHCP_FILTER_ADD_INFO, DHCP_FILTER_ADD_INFO structure [DHCP], PDHCP_FILTER_ADD_INFO, PDHCP_FILTER_ADD_INFO structure pointer [DHCP], _DHCP_FILTER_ADD_INFOV4, dhcp.dhcp_filter_add_info, dhcpsapi/DHCP_FILTER_ADD_INFO, dhcpsapi/PDHCP_FILTER_ADD_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

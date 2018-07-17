@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_getdefaultvalue.htm
 old-project: DirectShow
 ms.assetid: 749f5235-2f62-4609-84b8-a880a38cd9cb
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: GetDefaultValue, GetDefaultValue method [DirectShow], GetDefaultValue method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetDefaultValue method, ICodecAPI.GetDefaultValue, ICodecAPI::GetDefaultValue, ICodecAPIGetDefaultValue, dshow.icodecapi_getdefaultvalue, strmif/ICodecAPI::GetDefaultValue
 ms.prod: windows
 ms.technology: windows-sdk

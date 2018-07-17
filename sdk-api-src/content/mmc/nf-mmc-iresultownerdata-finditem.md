@@ -7,7 +7,7 @@ old-location: mmc\iresultownerdata_finditem.htm
 old-project: mmc
 ms.assetid: 839e6038-3f47-4192-b717-d81e4d9f202d
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: FindItem, FindItem method [MMC], FindItem method [MMC],IResultOwnerData interface, IResultOwnerData interface [MMC],FindItem method, IResultOwnerData.FindItem, IResultOwnerData::FindItem, _slate_iresultownerdata_finditem, mmc.iresultownerdata_finditem, mmc/IResultOwnerData::FindItem
 ms.prod: windows
 ms.technology: windows-sdk

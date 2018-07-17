@@ -7,7 +7,7 @@ old-location: security\ix509endorsementkey_getcertificatecount.htm
 old-project: seccertenroll
 ms.assetid: 1a8ae8f9-c4df-4701-845d-7f9a42593d57
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: GetCertificateCount, GetCertificateCount method [Security], GetCertificateCount method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],GetCertificateCount method, IX509EndorsementKey.GetCertificateCount, IX509EndorsementKey::GetCertificateCount, certenroll/IX509EndorsementKey::GetCertificateCount, security.ix509endorsementkey_getcertificatecount
 ms.prod: windows
 ms.technology: windows-sdk

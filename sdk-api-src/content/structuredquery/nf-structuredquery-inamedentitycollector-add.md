@@ -52,7 +52,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-          Adds a single (potential) named entity to this <a href="https://msdn.microsoft.com/library/Bb231361(v=VS.85).aspx">INamedEntityCollector</a> collection, as identified in a tokenized span of the input string being parsed.
+          Adds a single (potential) named entity to this <a href="https://msdn.microsoft.com/0ed17267-38e0-4a01-ab72-fbf1cb860300">INamedEntityCollector</a> collection, as identified in a tokenized span of the input string being parsed.
         
 
 
@@ -99,7 +99,7 @@ Type: <b>ULONG</b>
 
 ### -param pType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb231373(v=VS.85).aspx">IEntity</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a>*</b>
 
 
               The semantic type of the named entity.
@@ -117,7 +117,7 @@ Type: <b>LPCWSTR</b>
 
 ### -param certainty [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa965698(v=VS.85).aspx">NAMED_ENTITY_CERTAINTY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/32760c7b-7bfd-4bb0-b4bb-7f7fb6fcae8f">NAMED_ENTITY_CERTAINTY</a></b>
 
 
               One of the following values:
@@ -160,7 +160,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-          When a query parser parses an input string into condition nodes, the parser invokes an <a href="https://msdn.microsoft.com/library/Bb231380(v=VS.85).aspx">IConditionGenerator</a> object that, in turn, invokes <b>INamedEntityCollector::Add</b> to collect possible named entities in the input string. The <a href="https://msdn.microsoft.com/library/Bb231380(v=VS.85).aspx">IConditionGenerator</a> object must call this method for each potential named entity it recognizes in the input string. For each entity, the condition generator must provide the following information: 
+          When a query parser parses an input string into condition nodes, the parser invokes an <a href="https://msdn.microsoft.com/30fa2fb6-7dfd-41e1-ab4f-5fd80c8a81ec">IConditionGenerator</a> object that, in turn, invokes <b>INamedEntityCollector::Add</b> to collect possible named entities in the input string. The <a href="https://msdn.microsoft.com/30fa2fb6-7dfd-41e1-ab4f-5fd80c8a81ec">IConditionGenerator</a> object must call this method for each potential named entity it recognizes in the input string. For each entity, the condition generator must provide the following information: 
 
         
 
@@ -171,7 +171,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 <li>the level of certainty that the input really is that named entity</li>
 </ul>
  
-        If the named entity was used in the interpretation of the input string, the <a href="https://msdn.microsoft.com/library/Bb231379(v=VS.85).aspx">GenerateForLeaf</a> method of the condition generator will be invoked with the value string as one of the arguments.
+        If the named entity was used in the interpretation of the input string, the <a href="https://msdn.microsoft.com/940107e4-4f80-4eb8-8199-cfdfe989b8eb">GenerateForLeaf</a> method of the condition generator will be invoked with the value string as one of the arguments.
           
 
 

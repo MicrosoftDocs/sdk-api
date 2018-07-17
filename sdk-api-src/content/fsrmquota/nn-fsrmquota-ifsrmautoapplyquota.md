@@ -4,10 +4,10 @@ title: IFsrmAutoApplyQuota
 author: windows-sdk-content
 description: Used to automatically add the quota to new and existing subdirectories of the directory on which the automatic quota is applied.
 old-location: fsrm\ifsrmautoapplyquota.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 3eb30caa-ce29-4898-b1a7-bd905031ca98
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IFsrmAutoApplyQuota, IFsrmAutoApplyQuota interface [File Server Resource Manager], IFsrmAutoApplyQuota interface [File Server Resource Manager],described, fs.ifsrmautoapplyquota, fsrm.ifsrmautoapplyquota, fsrm/IFsrmAutoApplyQuota
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: NPFMXEditPerm function
 author: windows-sdk-content
 description: Enables network vendors to supply their own permission editor dialog boxes.
 old-location: security\npfmxeditperm.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 72ea90ce-3493-49bf-beaa-833217495e47
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: NPFMXEditPerm, NPFMXEditPerm function [Security], WNPERM_DLG_AUDIT, WNPERM_DLG_OWNER, WNPERM_DLG_PERM, _mnp_npfmxeditperm, npapi/NPFMXEditPerm, security.npfmxeditperm
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IFsrmPathMapper
 author: windows-sdk-content
 description: Used to retrieve the network share paths that are mapped to a local path.
 old-location: fsrm\ifsrmpathmapper.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 04e62a10-1719-454b-adfb-6320e31c7a88
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IFsrmPathMapper, IFsrmPathMapper interface [File Server Resource Manager], IFsrmPathMapper interface [File Server Resource Manager],described, fs.ifsrmpathmapper, fsrm.ifsrmpathmapper, fsrm/IFsrmPathMapper
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,14 +54,14 @@ req.product: Internet Explorer 5
 Used to retrieve the network share paths that are mapped to a local path.
 
 To get this interface, call the 
-    <a href="https://msdn.microsoft.com/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> function. Use 
+    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmPathMapper</b> as the class identifier and 
     <code>__uuidof(IFsrmPathMapper)</code> as the interface identifier.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmPathMapper</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmPathMapper</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmPathMapper</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFsrmPathMapper</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

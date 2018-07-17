@@ -4,10 +4,10 @@ title: MonthCal_SetFirstDayOfWeek macro
 author: windows-sdk-content
 description: Sets the first day of the week for a month calendar control. You can use this macro or send the MCM_SETFIRSTDAYOFWEEK message explicitly.
 old-location: controls\MonthCal_SetFirstDayOfWeek.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setfirstdayofweek.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: MonthCal_SetFirstDayOfWeek, MonthCal_SetFirstDayOfWeek macro [Windows Controls], _win32_MonthCal_SetFirstDayOfWeek, _win32_MonthCal_SetFirstDayOfWeek_cpp, commctrl/MonthCal_SetFirstDayOfWeek, controls.MonthCal_SetFirstDayOfWeek, controls._win32_MonthCal_SetFirstDayOfWeek
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the first day of the week for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761006(v=VS.85).aspx">MCM_SETFIRSTDAYOFWEEK</a> message explicitly. 
+Sets the first day of the week for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/6e0dc906-a41e-4c3a-9528-1f5428dceb8d">MCM_SETFIRSTDAYOFWEEK</a> message explicitly. 
 
 
 ## -parameters

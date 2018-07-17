@@ -4,10 +4,10 @@ title: IFunctionDiscoveryProvider
 author: windows-sdk-content
 description: This is the main interface implemented by a discovery provider. It is the primary interface the Function Discovery infrastructure uses to communicate with the provider and its resources.
 old-location: ncd\ifunctiondiscoveryprovider.htm
-old-project: FunDisc
+old-project: fundisc
 ms.assetid: e0019d0d-1495-4a0e-a7d9-7772046a4a26
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/12/2018
 ms.keywords: IFunctionDiscoveryProvider, IFunctionDiscoveryProvider interface, IFunctionDiscoveryProvider interface,described, functiondiscoveryprovider/IFunctionDiscoveryProvider, ncd.ifunctiondiscoveryprovider
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\ix509scepenrollment_initialize.htm
 old-project: seccertenroll
 ms.assetid: dcb887ab-c8b7-42e7-8b49-93755d24ba70
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],Initialize method, IX509SCEPEnrollment.Initialize, IX509SCEPEnrollment::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::Initialize, security.ix509scepenrollment_initialize
 ms.prod: windows
 ms.technology: windows-sdk

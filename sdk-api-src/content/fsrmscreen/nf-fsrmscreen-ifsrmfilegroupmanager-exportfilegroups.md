@@ -4,10 +4,10 @@ title: IFsrmFileGroupManager::ExportFileGroups
 author: windows-sdk-content
 description: Exports the specified file groups as an XML string.
 old-location: fsrm\ifsrmfilegroupmanager_exportfilegroups.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 59d7ef32-f06b-4167-8e28-da88da27ab0a
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: ExportFileGroups, ExportFileGroups method [File Server Resource Manager], ExportFileGroups method [File Server Resource Manager],FsrmFileGroupManager class, ExportFileGroups method [File Server Resource Manager],IFsrmFileGroupManager interface, FsrmFileGroupManager class [File Server Resource Manager],ExportFileGroups method, IFsrmFileGroupManager interface [File Server Resource Manager],ExportFileGroups method, IFsrmFileGroupManager.ExportFileGroups, IFsrmFileGroupManager::ExportFileGroups, fs.ifsrmfilegroupmanager_exportfilegroups, fsrm.ifsrmfilegroupmanager_exportfilegroups, fsrmscreen/IFsrmFileGroupManager::ExportFileGroups
 ms.prod: windows
 ms.technology: windows-sdk

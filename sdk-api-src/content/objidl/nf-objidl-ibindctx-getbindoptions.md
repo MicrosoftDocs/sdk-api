@@ -7,7 +7,7 @@ old-location: com\ibindctx_getbindoptions.htm
 old-project: com
 ms.assetid: ccb239ee-922f-4e66-8aca-7651c0243a2b
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: GetBindOptions, GetBindOptions method [COM], GetBindOptions method [COM],IBindCtx interface, IBindCtx interface [COM],GetBindOptions method, IBindCtx.GetBindOptions, IBindCtx::GetBindOptions, _com_ibindctx_getbindoptions, com.ibindctx_getbindoptions, objidl/IBindCtx::GetBindOptions
 ms.prod: windows
 ms.technology: windows-sdk

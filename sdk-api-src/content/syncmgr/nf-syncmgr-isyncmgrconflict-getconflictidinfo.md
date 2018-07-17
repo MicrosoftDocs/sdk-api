@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrConflict_GetConflictIdInfo.htm
 old-project: shell
 ms.assetid: 9686a6e5-5a0a-4520-803e-1660676d9f61
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: GetConflictIdInfo, GetConflictIdInfo method [Windows Shell], GetConflictIdInfo method [Windows Shell],ISyncMgrConflict interface, ISyncMgrConflict interface [Windows Shell],GetConflictIdInfo method, ISyncMgrConflict.GetConflictIdInfo, ISyncMgrConflict::GetConflictIdInfo, _shell_ISyncMgrConflict_GetConflictIdInfo, shell.ISyncMgrConflict_GetConflictIdInfo, syncmgr/ISyncMgrConflict::GetConflictIdInfo
 ms.prod: windows
 ms.technology: windows-sdk

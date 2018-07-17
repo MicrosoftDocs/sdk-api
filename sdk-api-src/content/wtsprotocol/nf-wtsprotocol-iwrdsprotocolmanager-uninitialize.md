@@ -4,10 +4,10 @@ title: IWRdsProtocolManager::Uninitialize
 author: windows-sdk-content
 description: Uninitializes the protocol manager.
 old-location: termserv\iwrdsprotocolmanager_uninitialize.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 1d7bc6e3-798e-4dc8-8892-7be6992b67ab
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],Uninitialize method, IWRdsProtocolManager.Uninitialize, IWRdsProtocolManager::Uninitialize, Uninitialize, Uninitialize method [Remote Desktop Services], Uninitialize method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_uninitialize, wtsprotocol/IWRdsProtocolManager::Uninitialize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_SolidBrush_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\solidbrush.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: SolidBrush, SolidBrush class [GDI+], SolidBrush class [GDI+],described, _gdiplus_CLASS_SolidBrush_Class, gdiplus._gdiplus_CLASS_SolidBrush_Class, gdiplusbrush/SolidBrush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,5 +51,5 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>SolidBrush</b> class defines a solid color <a href="https://msdn.microsoft.com/library/ms534424(v=VS.85).aspx">Brush</a> object. A <b>Brush</b> object is used to fill in shapes similar to the way a paint brush can paint the inside of a shape. This class inherits from the <b>Brush</b> abstract base class.
+The <b>SolidBrush</b> class defines a solid color <a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a> object. A <b>Brush</b> object is used to fill in shapes similar to the way a paint brush can paint the inside of a shape. This class inherits from the <b>Brush</b> abstract base class.
 

@@ -7,7 +7,7 @@ old-location: mscs\cancelclustergroupoperation.htm
 old-project: mscs
 ms.assetid: F7710CD6-2B02-48A5-B089-7F174B18463C
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: CancelClusterGroupOperation, CancelClusterGroupOperation function [Failover Cluster], clusapi/CancelClusterGroupOperation, mscs.cancelclustergroupoperation
 ms.prod: windows
 ms.technology: windows-sdk

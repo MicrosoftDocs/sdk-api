@@ -4,10 +4,10 @@ title: TreeView_SetItemHeight macro
 author: windows-sdk-content
 description: Sets the height of the tree-view items. You can use this macro or send the TVM_SETITEMHEIGHT message explicitly.
 old-location: controls\TreeView_SetItemHeight.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setitemheight.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: TreeView_SetItemHeight, TreeView_SetItemHeight macro [Windows Controls], _win32_TreeView_SetItemHeight, _win32_TreeView_SetItemHeight_cpp, commctrl/TreeView_SetItemHeight, controls.TreeView_SetItemHeight, controls._win32_TreeView_SetItemHeight
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the height of the tree-view items. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773761(v=VS.85).aspx">TVM_SETITEMHEIGHT</a> message explicitly. 
+Sets the height of the tree-view items. You can use this macro or send the <a href="https://msdn.microsoft.com/23f6f2a4-cdd9-441d-af24-ed40513d2721">TVM_SETITEMHEIGHT</a> message explicitly. 
 
 
 ## -parameters
@@ -90,7 +90,7 @@ Handle to a tree-view control.
 
 
 
-The tree-view control uses this value for the height of all items. To modify the height of individual items, see the description of the <b>iIntegral</b> member of the <a href="https://msdn.microsoft.com/library/Bb773459(v=VS.85).aspx">TVITEMEX</a> structure. 
+The tree-view control uses this value for the height of all items. To modify the height of individual items, see the description of the <b>iIntegral</b> member of the <a href="https://msdn.microsoft.com/a1112639-fe6d-432a-8b0a-b914bcb30e11">TVITEMEX</a> structure. 
 
 
 
@@ -100,7 +100,7 @@ The tree-view control uses this value for the height of all items. To modify the
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773844(v=VS.85).aspx">TreeView_GetItemHeight</a>
+<a href="https://msdn.microsoft.com/ca9d9a48-702d-4ea5-b3e3-bb9b71ca9518">TreeView_GetItemHeight</a>
  
 
  

@@ -4,10 +4,10 @@ title: "_DHCP_CLIENT_INFO"
 author: windows-sdk-content
 description: The DHCP_CLIENT_INFO structure defines a client information record used by the DHCP server.
 old-location: dhcp\dhcp_client_info.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: cc841dac-85d4-4250-a868-95c41731fe45
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: "*LPDHCP_CLIENT_INFO, DHCP_CLIENT_INFO, DHCP_CLIENT_INFO structure [DHCP], LPDHCP_CLIENT_INFO, LPDHCP_CLIENT_INFO structure pointer [DHCP], _DHCP_CLIENT_INFO, dhcp.dhcp_client_info, dhcpsapi/LPDHCP_CLIENT_INFO, dhcpsapi/_DHCP_CLIENT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

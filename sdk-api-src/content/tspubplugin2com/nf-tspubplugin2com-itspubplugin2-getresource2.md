@@ -4,10 +4,10 @@ title: ItsPubPlugin2::GetResource2
 author: windows-sdk-content
 description: This method is reserved and should always return E_NOTIMPL.
 old-location: termserv\itspubplugin2_getresource2.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 8edb3f28-0796-478e-bf0a-b157e1e12dc2
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: GetResource2, GetResource2 method [Remote Desktop Services], GetResource2 method [Remote Desktop Services],ItsPubPlugin2 interface, ItsPubPlugin2 interface [Remote Desktop Services],GetResource2 method, ItsPubPlugin2.GetResource2, ItsPubPlugin2::GetResource2, termserv.itspubplugin2_getresource2, tspubplugin2com/ItsPubPlugin2::GetResource2
 ms.prod: windows
 ms.technology: windows-sdk

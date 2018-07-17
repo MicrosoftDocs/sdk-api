@@ -7,7 +7,7 @@ old-location: display\engmapevent.htm
 old-project: display
 ms.assetid: a48f2367-49da-4d5c-87e5-b5c67e2311eb
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/12/2018
 ms.keywords: EngMapEvent, EngMapEvent function [Display Devices], display.engmapevent, gdifncs_5d41fd21-c767-4c7b-8bd6-546be9ce1439.xml, winddi/EngMapEvent
 ms.prod: windows
 ms.technology: windows-sdk

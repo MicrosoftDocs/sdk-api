@@ -7,7 +7,7 @@ old-location: mscs\clusregistrykeys_additem.htm
 old-project: mscs
 ms.assetid: 8b28b848-ab26-4422-9e0e-a47613d7aa63
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: AddItem, AddItem method [Failover Cluster], AddItem method [Failover Cluster],ClusRegistryKeys class, ClusRegistryKeys class [Failover Cluster],AddItem method, ClusRegistryKeys.AddItem, ISClusRegistryKeys.AddItem, ISClusRegistryKeys::AddItem, _wolf_clusregistrykeys.additem, mscs.clusregistrykeys_additem
 ms.prod: windows
 ms.technology: windows-sdk

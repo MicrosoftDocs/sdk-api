@@ -7,8 +7,8 @@ old-location: mscs\clustergroupopenenumex.htm
 old-project: mscs
 ms.assetid: 1BEF74A2-8230-4698-A3B7-FC2AA495D294
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM_EX callback, PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM_EX, mscs.clustergroupopenenumex
+ms.date: 07/12/2018
+ms.keywords: ClusterGroupOpenEnumEx, ClusterGroupOpenEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM_EX function [Failover Cluster], clusapi/ClusterGroupOpenEnumEx, clusapi/PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM_EX, mscs.clustergroupopenenumex
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -32,15 +32,18 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - UserDefined
+ - DllExport
 api_location:
- - ClusAPI.h
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
- - PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM_EX
+ - ClusterGroupOpenEnumEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
 req.irql: 
 ---
 
@@ -104,7 +107,7 @@ If the operation fails, the function returns <b>NULL</b>.
 
 
 
-The <i>ClusterGroupOpenEnumEx</i> function connects to the cluster service via remote procedure call (RPC) and gathers all of the data to handle the entire enumeration.  After the RPC call completes, the data is maintained locally.  The <b>HGROUPENUMEX</b> handle contains all of the data required to satisfy the enumeration.  Additional calls to <a href="https://msdn.microsoft.com/139FE5AB-9465-46F8-B360-F27F19D82A88">ClusterGroupEnumEx</a>   or <a href="https://msdn.microsoft.com/28FCEC17-78C6-4902-BC4C-832BE3347380">ClusterGroupGetEnumCountEx</a> do not connect to the cluster.
+The <b>ClusterGroupOpenEnumEx</b> function connects to the cluster service via remote procedure call (RPC) and gathers all of the data to handle the entire enumeration.  After the RPC call completes, the data is maintained locally.  The <b>HGROUPENUMEX</b> handle contains all of the data required to satisfy the enumeration.  Additional calls to <a href="https://msdn.microsoft.com/139FE5AB-9465-46F8-B360-F27F19D82A88">ClusterGroupEnumEx</a>   or <a href="https://msdn.microsoft.com/28FCEC17-78C6-4902-BC4C-832BE3347380">ClusterGroupGetEnumCountEx</a> do not connect to the cluster.
 
 
 

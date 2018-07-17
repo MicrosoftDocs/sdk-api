@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory4.htm
 old-project: direct3ddxgi
 ms.assetid: 248CF7CF-BC7D-430F-9EA1-638A42AAC021
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: IDXGIFactory4, IDXGIFactory4 interface [DXGI], IDXGIFactory4 interface [DXGI],described, direct3ddxgi.idxgifactory4, dxgi1_4/IDXGIFactory4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ The <b>IDXGIFactory4</b> interface has these methods.
 </td>
 <td align="left" width="63%">
 
-          Outputs the <a href="https://msdn.microsoft.com/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a> for the specified LUID.
+          Outputs the <a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a> for the specified LUID.
         
 
 </td>

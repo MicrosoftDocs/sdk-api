@@ -4,10 +4,10 @@ title: "_NOTIFYADD"
 author: windows-sdk-content
 description: The NOTIFYADD structure contains the details of a network connect operation. It is used by the AddConnectNotify function.
 old-location: security\notifyadd.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 23698bd9-12f6-4c1f-b833-bd5fddeba048
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*LPNOTIFYADD, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_TEMPORARY, CONNECT_UPDATE_PROFILE, CONNECT_UPDATE_RECENT, LPNOTIFYADD, LPNOTIFYADD structure pointer [Security], NOTIFYADD, NOTIFYADD structure [Security], _NOTIFYADD, _mnp_notifyadd, npapi/LPNOTIFYADD, npapi/NOTIFYADD, security.notifyadd"
 ms.prod: windows
 ms.technology: windows-sdk

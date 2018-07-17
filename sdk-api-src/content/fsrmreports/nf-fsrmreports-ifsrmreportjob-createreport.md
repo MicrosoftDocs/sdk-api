@@ -4,10 +4,10 @@ title: IFsrmReportJob::CreateReport
 author: windows-sdk-content
 description: Creates a new report object of the specified type.
 old-location: fsrm\ifsrmreportjob_createreport.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 484941d1-726c-4765-8652-bcb378f277b4
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CreateReport, CreateReport method [File Server Resource Manager], CreateReport method [File Server Resource Manager],IFsrmReportJob interface, IFsrmReportJob interface [File Server Resource Manager],CreateReport method, IFsrmReportJob.CreateReport, IFsrmReportJob::CreateReport, fs.ifsrmreportjob_createreport, fsrm.ifsrmreportjob_createreport, fsrmreports/IFsrmReportJob::CreateReport
 ms.prod: windows
 ms.technology: windows-sdk

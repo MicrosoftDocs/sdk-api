@@ -7,7 +7,7 @@ old-location: com\oleuiinsertobject.htm
 old-project: com
 ms.assetid: f0ca8c0d-2538-4197-a830-d5ffb9f8b635
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: OleUIInsertObject, OleUIInsertObject function [COM], OleUIInsertObjectA, OleUIInsertObjectW, _ole_OleUIInsertObject, com.oleuiinsertobject, oledlg/OleUIInsertObject, oledlg/OleUIInsertObjectA, oledlg/OleUIInsertObjectW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\SHCreateItemFromIDList.htm
 old-project: shell
 ms.assetid: a6dcddd9-cdbc-4cf9-97e3-d1b562283344
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: SHCreateItemFromIDList, SHCreateItemFromIDList function [Windows Shell], _shell_SHCreateItemFromIDList, shell.SHCreateItemFromIDList, shobjidl_core/SHCreateItemFromIDList
 ms.prod: windows
 ms.technology: windows-sdk

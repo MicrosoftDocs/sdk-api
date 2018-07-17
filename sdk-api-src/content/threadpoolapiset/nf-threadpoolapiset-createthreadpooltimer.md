@@ -4,10 +4,10 @@ title: CreateThreadpoolTimer function
 author: windows-sdk-content
 description: Creates a new timer object.
 old-location: base\createthreadpooltimer.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 1fa98b79-e646-4e48-9979-1817d2c1b713
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: CreateThreadpoolTimer, CreateThreadpoolTimer function, base.createthreadpooltimer, threadpoolapiset/CreateThreadpoolTimer, winbase/CreateThreadpoolTimer
 ms.prod: windows
 ms.technology: windows-sdk

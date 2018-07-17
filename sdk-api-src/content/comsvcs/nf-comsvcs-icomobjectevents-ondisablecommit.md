@@ -7,7 +7,7 @@ old-location: cos\icomobjectevents_ondisablecommit.htm
 old-project: cossdk
 ms.assetid: 413d7216-294c-4e46-b24c-abe1d1a09239
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: IComObjectEvents interface [COM+],OnDisableCommit method, IComObjectEvents.OnDisableCommit, IComObjectEvents::OnDisableCommit, OnDisableCommit, OnDisableCommit method [COM+], OnDisableCommit method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnDisableCommit, comsvcs/IComObjectEvents::OnDisableCommit, cos.icomobjectevents_ondisablecommit
 ms.prod: windows
 ms.technology: windows-sdk

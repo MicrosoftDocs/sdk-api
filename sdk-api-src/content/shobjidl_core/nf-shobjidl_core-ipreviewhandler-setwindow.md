@@ -7,7 +7,7 @@ old-location: shell\IPreviewHandler_SetWindow.htm
 old-project: shell
 ms.assetid: a323811a-8244-40a0-a6b2-68572639be5f
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],SetWindow method, IPreviewHandler.SetWindow, IPreviewHandler::SetWindow, SetWindow, SetWindow method [Windows Shell], SetWindow method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_SetWindow, shell.IPreviewHandler_SetWindow, shobjidl_core/IPreviewHandler::SetWindow
 ms.prod: windows
 ms.technology: windows-sdk

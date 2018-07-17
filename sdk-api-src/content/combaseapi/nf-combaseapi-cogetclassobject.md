@@ -7,7 +7,7 @@ old-location: com\cogetclassobject.htm
 old-project: com
 ms.assetid: 65e758ce-50a4-49e8-b3b2-0cd148d2781a
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: CoGetClassObject, CoGetClassObject function [COM], _com_CoGetClassObject, com.cogetclassobject, combaseapi/CoGetClassObject
 ms.prod: windows
 ms.technology: windows-sdk

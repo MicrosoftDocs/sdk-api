@@ -4,10 +4,10 @@ title: DhcpGetClassInfo function
 author: windows-sdk-content
 description: The DhcpGetClassInfo function returns the user or vendor class information configured on a specific DHCP server.
 old-location: dhcp\dhcpgetclassinfo.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: c38a593f-60f0-41c7-83a8-bbec9b79dfac
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DhcpGetClassInfo, DhcpGetClassInfo function [DHCP], dhcp.dhcpgetclassinfo, dhcpsapi/DhcpGetClassInfo
 ms.prod: windows
 ms.technology: windows-sdk

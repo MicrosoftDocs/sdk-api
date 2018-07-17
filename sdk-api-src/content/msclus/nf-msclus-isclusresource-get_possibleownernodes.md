@@ -7,7 +7,7 @@ old-location: mscs\clusresource_possibleownernodes.htm
 old-project: mscs
 ms.assetid: 591b0508-f963-4c62-afb8-1c9224299cc0
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResource class [Failover Cluster],PossibleOwnerNodes property, ClusResource.PossibleOwnerNodes, ISClusResource.get_PossibleOwnerNodes, ISClusResource::get_PossibleOwnerNodes, PossibleOwnerNodes property [Failover Cluster], PossibleOwnerNodes property [Failover Cluster],ClusResource class, _wolf_clusresource.possibleownernodes, get_PossibleOwnerNodes, mscs.clusresource_possibleownernodes
 ms.prod: windows
 ms.technology: windows-sdk

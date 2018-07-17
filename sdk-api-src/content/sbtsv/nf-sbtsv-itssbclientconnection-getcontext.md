@@ -4,10 +4,10 @@ title: ITsSbClientConnection::GetContext
 author: windows-sdk-content
 description: Retrieves context information that was stored by a plug-in by using the PutContext method.
 old-location: termserv\itssbclientconnection_getcontext.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: dd4938b5-aa33-4eca-851c-fdef75ecc815
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: GetContext, GetContext method [Remote Desktop Services], GetContext method [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],GetContext method, ITsSbClientConnection.GetContext, ITsSbClientConnection::GetContext, sbtsv/ITsSbClientConnection::GetContext, termserv.itssbclientconnection_getcontext
 ms.prod: windows
 ms.technology: windows-sdk

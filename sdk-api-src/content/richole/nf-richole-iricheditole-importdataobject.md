@@ -4,10 +4,10 @@ title: IRichEditOle::ImportDataObject
 author: windows-sdk-content
 description: Imports a clipboard object into a rich edit control, replacing the current selection.
 old-location: controls\IRichEditOle_ImportDataObject.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditoleimportdataobject.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: IRichEditOle interface [Windows Controls],ImportDataObject method, IRichEditOle.ImportDataObject, IRichEditOle::ImportDataObject, ImportDataObject, ImportDataObject method [Windows Controls], ImportDataObject method [Windows Controls],IRichEditOle interface, _win32_IRichEditOle_ImportDataObject, _win32_IRichEditOle_ImportDataObject_cpp, controls.IRichEditOle_ImportDataObject, controls._win32_IRichEditOle_ImportDataObject, richole/IRichEditOle::ImportDataObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -126,7 +126,7 @@ There was not enough memory to do the operation.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774306(v=VS.85).aspx">IRichEditOle</a>
+<a href="https://msdn.microsoft.com/d6d1794b-f16c-4a8c-84f5-dfe8bd8be08c">IRichEditOle</a>
  
 
  

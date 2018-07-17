@@ -4,10 +4,10 @@ title: TreeView_SetLineColor macro
 author: windows-sdk-content
 description: Sets the current line color. You can also use the TVM_SETLINECOLOR message directly.
 old-location: controls\TreeView_SetLineColor.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setlinecolor.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: TreeView_SetLineColor, TreeView_SetLineColor macro [Windows Controls], _win32_TreeView_SetLineColor, _win32_TreeView_SetLineColor_cpp, commctrl/TreeView_SetLineColor, controls.TreeView_SetLineColor, controls._win32_TreeView_SetLineColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the current line color. You can also use the <a href="https://msdn.microsoft.com/library/Bb773764(v=VS.85).aspx">TVM_SETLINECOLOR</a> message directly. 
+Sets the current line color. You can also use the <a href="https://msdn.microsoft.com/c5fc28af-5603-489f-aa6b-73e153f9aebc">TVM_SETLINECOLOR</a> message directly. 
 
 
 ## -parameters
@@ -90,7 +90,7 @@ Handle to the tree-view control.
 
 
 
-This message only changes line colors. To change the colors of the plus sign (+) and minus sign (-) inside the buttons, use the <a href="https://msdn.microsoft.com/library/Bb760131(v=VS.85).aspx">TreeView_SetTextColor</a> macro.
+This message only changes line colors. To change the colors of the plus sign (+) and minus sign (-) inside the buttons, use the <a href="https://msdn.microsoft.com/7aacaf9f-2bec-4f5e-84eb-0d51252f0247">TreeView_SetTextColor</a> macro.
 
 
 
@@ -100,7 +100,7 @@ This message only changes line colors. To change the colors of the plus sign (+)
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773764(v=VS.85).aspx">TVM_SETLINECOLOR</a>
+<a href="https://msdn.microsoft.com/c5fc28af-5603-489f-aa6b-73e153f9aebc">TVM_SETLINECOLOR</a>
  
 
  

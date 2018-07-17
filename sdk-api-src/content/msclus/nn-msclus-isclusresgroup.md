@@ -7,7 +7,7 @@ old-location: mscs\clusresgroup_object.htm
 old-project: mscs
 ms.assetid: cd0e8510-4eb0-45fe-819e-f40fe4bfa4e7
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResGroup, ClusResGroup object [Failover Cluster], ClusResGroup object [Failover Cluster],described, ISClusResGroup, _wolf_clusresgroup_object, msclus/ClusResGroup, mscs.clusresgroup_object
 ms.prod: windows
 ms.technology: windows-sdk
@@ -223,7 +223,7 @@ Read-only
 Returns a 
      <a href="https://msdn.microsoft.com/3425825e-890c-4d3d-919e-a66963e1fc55">ClusResGroupPreferredOwnerNodes</a> 
      collection providing access to the nodes that belong in a group's 
-     <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">preferred owner</a> list.
+     <a href="p_gly.htm">preferred owner</a> list.
 
 </td>
 </tr>

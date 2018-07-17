@@ -7,7 +7,7 @@ old-location: dshow\iamanalogvideoencoder_put_copyprotection.htm
 old-project: DirectShow
 ms.assetid: a2a762f3-8b11-4334-979d-206234d6cf09
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],put_CopyProtection method, IAMAnalogVideoEncoder.put_CopyProtection, IAMAnalogVideoEncoder::put_CopyProtection, IAMAnalogVideoEncoderput_CopyProtection, dshow.iamanalogvideoencoder_put_copyprotection, put_CopyProtection, put_CopyProtection method [DirectShow], put_CopyProtection method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::put_CopyProtection
 ms.prod: windows
 ms.technology: windows-sdk

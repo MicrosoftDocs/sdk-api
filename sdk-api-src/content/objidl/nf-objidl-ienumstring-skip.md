@@ -7,7 +7,7 @@ old-location: com\ienumstring_skip.htm
 old-project: com
 ms.assetid: 8c1cd7b4-ec68-4b60-9f1e-ed01674f7f8c
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: IEnumString interface [COM],Skip method, IEnumString.Skip, IEnumString::Skip, Skip, Skip method [COM], Skip method [COM],IEnumString interface, _com_ienumstring_skip, com.ienumstring_skip, objidlbase/IEnumString::Skip
 ms.prod: windows
 ms.technology: windows-sdk

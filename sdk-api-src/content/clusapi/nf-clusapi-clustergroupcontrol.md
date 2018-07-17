@@ -7,7 +7,7 @@ old-location: mscs\clustergroupcontrol.htm
 old-project: mscs
 ms.assetid: 72896685-a1db-43d7-a5e3-ba380c0624f2
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusterGroupControl, ClusterGroupControl function [Failover Cluster], _wolf_clustergroupcontrol, clusapi/ClusterGroupControl, mscs.clustergroupcontrol
 ms.prod: windows
 ms.technology: windows-sdk

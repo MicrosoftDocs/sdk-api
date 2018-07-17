@@ -63,7 +63,7 @@ Gets a string representation of a property value to an allocated memory buffer.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to the desired <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>.
+A reference to the desired <a href="shell.PROPERTYKEY">PROPERTYKEY</a>.
 
 
 ### -param propvar [in]
@@ -75,9 +75,9 @@ A reference to a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8
 
 ### -param pdff [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb762525(v=VS.85).aspx">PROPDESC_FORMAT_FLAGS</a></b>
+Type: <b><a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a></b>
 
-The format of the property string. See <a href="https://msdn.microsoft.com/library/Bb762525(v=VS.85).aspx">PROPDESC_FORMAT_FLAGS</a>.
+The format of the property string. See <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a>.
 
 
 ### -param ppszDisplay [out]
@@ -143,17 +143,17 @@ Indicates allocation failed.
 
 
 
-You must initialize Component Object Model (COM) with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before calling <a href="https://msdn.microsoft.com/library/Bb761430(v=VS.85).aspx">IPropertySystem::FormatForDisplayAlloc</a>.
+You must initialize Component Object Model (COM) with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before calling <a href="shell.IPropertySystem_FormatForDisplayAlloc">IPropertySystem::FormatForDisplayAlloc</a>.
 
-On success, this method gets a formatted Unicode string representation of a property value for a specified <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>, and one or more <a href="https://msdn.microsoft.com/library/Bb762525(v=VS.85).aspx">PROPDESC_FORMAT_FLAGS</a>. If the <b>PROPERTYKEY</b> is not recognized by the schema subsystem, <a href="https://msdn.microsoft.com/library/Bb761430(v=VS.85).aspx">IPropertySystem::FormatForDisplayAlloc</a> attempts to format the value according to its <a href="https://msdn.microsoft.com/library/ms221127(v=VS.85).aspx">VARTYPE</a>.
+On success, this method gets a formatted Unicode string representation of a property value for a specified <a href="shell.PROPERTYKEY">PROPERTYKEY</a>, and one or more <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a>. If the <b>PROPERTYKEY</b> is not recognized by the schema subsystem, <a href="shell.IPropertySystem_FormatForDisplayAlloc">IPropertySystem::FormatForDisplayAlloc</a> attempts to format the value according to its <a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a>.
 
 This method allocates memory for the buffer and returns a pointer to it at <i>ppszDisplay</i>. The calling application must use <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> to release the string specified by <i>ppszDisplay</i> when it is no longer needed.
 
-The purpose of this method is to convert data into a string suitable for display to the user. The value is formatted according to the current locale, the language of the user, the <a href="https://msdn.microsoft.com/library/Bb762525(v=VS.85).aspx">PROPDESC_FORMAT_FLAGS</a>, and the property description specified by the property key. For information about how the property description schema influences the formatting of the value, see <a href="https://msdn.microsoft.com/library/Bb773865(v=VS.85).aspx">displayInfo</a>, <a href="https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx">stringFormat</a>, <a href="https://msdn.microsoft.com/library/Bb773862(v=VS.85).aspx">booleanFormat</a>, <a href="https://msdn.microsoft.com/library/Bb773877(v=VS.85).aspx">numberFormat</a>, <a href="https://msdn.microsoft.com/library/Bb761731(v=VS.85).aspx">NMDATETIMEFORMAT</a>,  and <a href="https://msdn.microsoft.com/library/Bb773871(v=VS.85).aspx">enumeratedList</a>.  Typically, the <b>PROPDESC_FORMAT_FLAGS</b> are used to modify the format prescribed by the property description.
+The purpose of this method is to convert data into a string suitable for display to the user. The value is formatted according to the current locale, the language of the user, the <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a>, and the property description specified by the property key. For information about how the property description schema influences the formatting of the value, see <a href="shell.propdesc_schema_displayInfo">displayInfo</a>, <a href="shell.propdesc_schema_stringFormat">stringFormat</a>, <a href="shell.propdesc_schema_booleanFormat">booleanFormat</a>, <a href="shell.propdesc_schema_numberFormat">numberFormat</a>, <a href="https://msdn.microsoft.com/3ed64cf2-d6f3-4ad0-9194-838e82df7472">NMDATETIMEFORMAT</a>,  and <a href="shell.propdesc_schema_enumeratedList">enumeratedList</a>.  Typically, the <b>PROPDESC_FORMAT_FLAGS</b> are used to modify the format prescribed by the property description.
 
 The output string may contain Unicode directional characters.  These nonspacing characters influence the Unicode bidirectional algorithm so that the values appear correctly when a left to right (LTR) language is drawn on a right to left (RTL) window, and vice versa.  These characters include the following: <code>"\x200e", "\x200f", "\x202a", "\x202b", "\x202c", "\x202d", "\x202e".</code>
 
-The following properties use special formats and are unaffected by the <a href="https://msdn.microsoft.com/library/Bb762525(v=VS.85).aspx">PROPDESC_FORMAT_FLAGS</a> (examples cited are for strings with a current locale set to English; typically, output is localized except where noted).
+The following properties use special formats and are unaffected by the <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a> (examples cited are for strings with a current locale set to English; typically, output is localized except where noted).
 
 <table class="clsStd">
 <tr>
@@ -257,7 +257,7 @@ If the property key does not correspond to a property description in any of the 
 </tr>
 <tr>
 <td>VT_FILETIME</td>
-<td>Date/time string as specified by <a href="https://msdn.microsoft.com/library/Bb762525(v=VS.85).aspx">PROPDESC_FORMAT_FLAGS</a> and the current locale. PDFF_SHORTTIME and PDFF_SHORTDATE are the default. For example, "11/13/2006 3:22 PM".</td>
+<td>Date/time string as specified by <a href="shell.PROPDESC_FORMAT_FLAGS">PROPDESC_FORMAT_FLAGS</a> and the current locale. PDFF_SHORTTIME and PDFF_SHORTDATE are the default. For example, "11/13/2006 3:22 PM".</td>
 </tr>
 <tr>
 <td>Numeric VARTYPE</td>
@@ -282,7 +282,7 @@ If the property key does not correspond to a property description in any of the 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761437(v=VS.85).aspx">IPropertySystem</a>
+<a href="shell.IPropertySystem">IPropertySystem</a>
 
 
 

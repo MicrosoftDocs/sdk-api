@@ -4,10 +4,10 @@ title: IOCTL_PWM_PIN_SET_POLARITY
 author: windows-sdk-content
 description: Sets the signal polarity of the pin or channel. The control code sets the signal polarity based on a PWM_PIN_SET_POLARITY_INPUT structure. The signal polarity is either Active High or Active Low, as defined in the PWM_POLARITY enumeration.
 old-location: base\ioctl_pwm_pin_set_polarity.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 310014B5-9E2A-49E5-AB07-B23408D9570F
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: IOCTL_PWM_PIN_SET_POLARITY, IOCTL_PWM_PIN_SET_POLARITY control, IOCTL_PWM_PIN_SET_POLARITY control code, base.ioctl_pwm_pin_set_polarity, pwm/IOCTL_PWM_PIN_SET_POLARITY
 ms.prod: windows
 ms.technology: windows-sdk
@@ -263,7 +263,7 @@ For overlapped operations, <a href="https://msdn.microsoft.com/1d35c087-6672-4fc
 </table>
  
 
-Changing polarity is only allowed when the pin is stopped. You can tell whether the pin is stopped by using the <a href="https://msdn.microsoft.com/library/Mt843917(v=VS.85).aspx">IOCTL_PWM_PIN_IS_STARTED</a> control code.
+Changing polarity is only allowed when the pin is stopped. You can tell whether the pin is stopped by using the <a href="base.ioctl_ioctl_pwm_pin_is_started">IOCTL_PWM_PIN_IS_STARTED</a> control code.
 
 Changing polarity while a pin is started can lead to glitches on some Pulse Width Modulation (PWM) controllers. If you want to change polarity, stop the pin first, change the polarity, and then start the pin. 
 

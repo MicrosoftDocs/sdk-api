@@ -4,10 +4,10 @@ title: ITextFont::SetForeColor
 author: windows-sdk-content
 description: Sets the foreground (text) color.
 old-location: controls\ITextFont_SetForeColor.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setforecolor.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ITextFont interface [Windows Controls],SetForeColor method, ITextFont.SetForeColor, ITextFont::SetForeColor, SetForeColor, SetForeColor method [Windows Controls], SetForeColor method [Windows Controls],ITextFont interface, _win32_ITextFont_SetForeColor, _win32_ITextFont_SetForeColor_cpp, controls.ITextFont_SetForeColor, controls._win32_ITextFont_SetForeColor, tom/ITextFont::SetForeColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -172,11 +172,11 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773956(v=VS.85).aspx">GetForeColor</a>
+<a href="https://msdn.microsoft.com/f25279b5-001b-4e46-9b46-dde5fb4114b6">GetForeColor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -196,7 +196,7 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

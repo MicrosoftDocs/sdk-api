@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_CharacterRange_operator_rhs_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrangeclass\operator.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: CharacterRange class [GDI+],operator= method, CharacterRange.operator=, CharacterRange::operator=, _gdiplus_CLASS_CharacterRange_operator_rhs_, gdiplus._gdiplus_CLASS_CharacterRange_operator_rhs_, operator=, operator= method [GDI+], operator= method [GDI+],CharacterRange class
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>CharacterRange::operator=</b> method sets this <a href="https://msdn.microsoft.com/library/ms534426(v=VS.85).aspx">CharacterRange</a> object equal to the specified <b>CharacterRange</b> object.
+The <b>CharacterRange::operator=</b> method sets this <a href="https://msdn.microsoft.com/7bb98500-d1cf-422d-b1ff-a7ca4c84560e">CharacterRange</a> object equal to the specified <b>CharacterRange</b> object.
 
 
 ## -parameters
@@ -61,19 +61,19 @@ The <b>CharacterRange::operator=</b> method sets this <a href="https://msdn.micr
 
 ### -param rhs [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms534426(v=VS.85).aspx">CharacterRange</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/7bb98500-d1cf-422d-b1ff-a7ca4c84560e">CharacterRange</a></b>
 
-Reference to a <a href="https://msdn.microsoft.com/library/ms534426(v=VS.85).aspx">CharacterRange</a> object that is assigned to this <b>CharacterRange</b> object. 
+Reference to a <a href="https://msdn.microsoft.com/7bb98500-d1cf-422d-b1ff-a7ca4c84560e">CharacterRange</a> object that is assigned to this <b>CharacterRange</b> object. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534426(v=VS.85).aspx">CharacterRange</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/7bb98500-d1cf-422d-b1ff-a7ca4c84560e">CharacterRange</a></b>
 </strong>
 
-This method returns a reference to this <a href="https://msdn.microsoft.com/library/ms534426(v=VS.85).aspx">CharacterRange</a> object to allow cascaded assignments.
+This method returns a reference to this <a href="https://msdn.microsoft.com/7bb98500-d1cf-422d-b1ff-a7ca4c84560e">CharacterRange</a> object to allow cascaded assignments.
 
 
 
@@ -83,19 +83,19 @@ This method returns a reference to this <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534426(v=VS.85).aspx">CharacterRange</a>
+<a href="https://msdn.microsoft.com/7bb98500-d1cf-422d-b1ff-a7ca4c84560e">CharacterRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534720(v=VS.85).aspx">GetMeasurableCharacterRangeCount</a>
+<a href="https://msdn.microsoft.com/374b89d4-4f6f-4875-a34f-8a6e9ee379ab">GetMeasurableCharacterRangeCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535796(v=VS.85).aspx">MeasureCharacterRanges</a>
+<a href="https://msdn.microsoft.com/2176e638-5d83-46ae-ab4f-a3031d46bde2">MeasureCharacterRanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534729(v=VS.85).aspx">SetMeasurableCharacterRanges</a>
+<a href="https://msdn.microsoft.com/5c49c64f-f705-4b33-974b-34ffb1e43ff5">SetMeasurableCharacterRanges</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: security\ix509extensionenhancedkeyusage_initializeencode_method.ht
 old-project: seccertenroll
 ms.assetid: 6cb12736-db5d-4d65-b32f-4bd11ceea01d
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509ExtensionEnhancedKeyUsage interface [Security],InitializeEncode method, IX509ExtensionEnhancedKeyUsage.InitializeEncode, IX509ExtensionEnhancedKeyUsage::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionEnhancedKeyUsage interface, certenroll/IX509ExtensionEnhancedKeyUsage::InitializeEncode, security.ix509extensionenhancedkeyusage_initializeencode_method
 ms.prod: windows
 ms.technology: windows-sdk

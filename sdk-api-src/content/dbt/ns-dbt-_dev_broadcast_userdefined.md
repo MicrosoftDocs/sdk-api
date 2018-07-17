@@ -4,10 +4,10 @@ title: "_DEV_BROADCAST_USERDEFINED"
 author: windows-sdk-content
 description: Contains the user-defined event and optional data associated with the DBT_USERDEFINED device event.
 old-location: base\_dev_broadcast_userdefined_str.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: e90fbce2-cae7-4e78-b6f5-82b200390cb7
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: "_DEV_BROADCAST_USERDEFINED, _DEV_BROADCAST_USERDEFINED structure, _win32__dev_broadcast_userdefined_str, base._dev_broadcast_userdefined_str, dbt/_DEV_BROADCAST_USERDEFINED"
 ms.prod: windows
 ms.technology: windows-sdk

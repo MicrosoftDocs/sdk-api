@@ -71,7 +71,7 @@ The <b>IMILBitmapEffectPrimitive</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735254(v=VS.85).aspx">GetAffineMatrix</a>
+<a href="https://msdn.microsoft.com/b6cf0c16-eb52-4d82-a2b4-769116269637">GetAffineMatrix</a>
 </td>
 <td align="left" width="63%">
 Retrieves the affine transormation matrix for the effect.
@@ -80,7 +80,7 @@ Retrieves the affine transormation matrix for the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735255(v=VS.85).aspx">GetOutput</a>
+<a href="https://msdn.microsoft.com/8aa606e2-710a-4621-9311-7e0daaad7ef1">GetOutput</a>
 </td>
 <td align="left" width="63%">
 Performs pixel processing for the bitmap effect.
@@ -89,7 +89,7 @@ Performs pixel processing for the bitmap effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735256(v=VS.85).aspx">HasAffineTransform</a>
+<a href="https://msdn.microsoft.com/4851584e-47f3-42f6-ab80-fc82d0cb64ed">HasAffineTransform</a>
 </td>
 <td align="left" width="63%">
 Determines whether the effect has an affine transform.
@@ -98,7 +98,7 @@ Determines whether the effect has an affine transform.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735257(v=VS.85).aspx">HasInverseTransform</a>
+<a href="https://msdn.microsoft.com/80904f52-8f1e-4f53-a150-78ce98455011">HasInverseTransform</a>
 </td>
 <td align="left" width="63%">
 Determines whether the effect has an inverse transform.
@@ -107,7 +107,7 @@ Determines whether the effect has an inverse transform.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735259(v=VS.85).aspx">TransformPoint</a>
+<a href="https://msdn.microsoft.com/227e9b39-96c7-4c88-8c17-a538cd276ec2">TransformPoint</a>
 </td>
 <td align="left" width="63%">
 Transforms the given point.
@@ -116,7 +116,7 @@ Transforms the given point.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735260(v=VS.85).aspx">TransformRect</a>
+<a href="https://msdn.microsoft.com/684e619d-6047-4216-90f9-b9f6f8f7a1c8">TransformRect</a>
 </td>
 <td align="left" width="63%">
 Transforms the output of the given rectangle.
@@ -131,8 +131,8 @@ Transforms the output of the given rectangle.
 
 
 
-            Effect clients, in general, should interact with the outer <a href="https://msdn.microsoft.com/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> object rather than the <b>IMILBitmapEffectPrimitive</b> object.
-            If the client needs to interact with the <b>IMILBitmapEffectPrimitive</b> directly the client will need to implement <a href="https://msdn.microsoft.com/library/ms735314(v=VS.85).aspx">IMILBitmapEffectConnections</a>, <a href="https://msdn.microsoft.com/library/ms735311(v=VS.85).aspx">IMILBitmapEffectConnectionsInfo</a>, and <a href="https://msdn.microsoft.com/library/ms735303(v=VS.85).aspx">IMILBitmapEffectConnectorInfo</a>.
+            Effect clients, in general, should interact with the outer <a href="https://msdn.microsoft.com/74078eaa-ae95-4b9b-993b-efbfb18a164d">IMILBitmapEffect</a> object rather than the <b>IMILBitmapEffectPrimitive</b> object.
+            If the client needs to interact with the <b>IMILBitmapEffectPrimitive</b> directly the client will need to implement <a href="https://msdn.microsoft.com/befa56bb-149e-4a90-a1cb-9e61e7f5366c">IMILBitmapEffectConnections</a>, <a href="https://msdn.microsoft.com/5c1eb02e-7ba9-4197-b6df-53ec84c11c14">IMILBitmapEffectConnectionsInfo</a>, and <a href="https://msdn.microsoft.com/18f9260d-b7cd-4b45-a7bd-f3bd3647eebe">IMILBitmapEffectConnectorInfo</a>.
          
 
 

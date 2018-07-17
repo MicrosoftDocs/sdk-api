@@ -4,10 +4,10 @@ title: ImageList_AddIcon macro
 author: windows-sdk-content
 description: Adds an icon or cursor to an image list. ImageList_AddIcon calls the ImageList_ReplaceIcon function.
 old-location: controls\ImageList_AddIcon.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_addicon.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ImageList_AddIcon, ImageList_AddIcon macro [Windows Controls], _win32_ImageList_AddIcon, _win32_ImageList_AddIcon_cpp, commctrl/ImageList_AddIcon, controls.ImageList_AddIcon, controls._win32_ImageList_AddIcon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Adds an icon or cursor to an image list. <b>ImageList_AddIcon</b> calls the <a href="https://msdn.microsoft.com/library/Bb775215(v=VS.85).aspx">ImageList_ReplaceIcon</a> function. 
+Adds an icon or cursor to an image list. <b>ImageList_AddIcon</b> calls the <a href="https://msdn.microsoft.com/7fa467f3-73fb-4d01-bfce-bc0a8bc90883">ImageList_ReplaceIcon</a> function. 
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A handle to the icon or cursor that contains the bitmap and mask for the new ima
 
 
 Because the system does not save 
-				<i>hicon</i>, you can destroy it after the macro returns if the icon or cursor was created by the <a href="https://msdn.microsoft.com/library/ms648059(v=VS.85).aspx">CreateIcon</a> function. You do not need to destroy <i>hicon</i> if it was loaded by the <a href="https://msdn.microsoft.com/library/ms648072(v=VS.85).aspx">LoadIcon</a> function; the system automatically frees an icon resource when it is no longer needed. 
+				<i>hicon</i>, you can destroy it after the macro returns if the icon or cursor was created by the <a href="https://msdn.microsoft.com/73497232-fb99-4b9c-9ccb-575a9a6ece56">CreateIcon</a> function. You do not need to destroy <i>hicon</i> if it was loaded by the <a href="https://msdn.microsoft.com/3a8099f8-9db7-4ef8-838f-ca8f272df531">LoadIcon</a> function; the system automatically frees an icon resource when it is no longer needed. 
 
 The <b>ImageList_AddIcon</b> macro is defined as follows: 
 

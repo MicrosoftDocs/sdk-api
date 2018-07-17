@@ -7,7 +7,7 @@ old-location: mscs\clusremoveclusterhealthfault.htm
 old-project: mscs
 ms.assetid: ff20511b-beb0-4fa4-a8f3-cc2772cdc503
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusRemoveClusterHealthFault, ClusRemoveClusterHealthFault function [Failover Cluster], mscs.clusremoveclusterhealthfault, resapi/ClusRemoveClusterHealthFault
 ms.prod: windows
 ms.technology: windows-sdk

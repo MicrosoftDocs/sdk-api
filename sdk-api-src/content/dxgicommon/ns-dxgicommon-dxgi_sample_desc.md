@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_sample_desc.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_sample_desc.htm
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: 3b41465a-e6b5-e6d1-981e-8fb841dbb6f4, DXGI_SAMPLE_DESC, DXGI_SAMPLE_DESC structure [DXGI], direct3ddxgi.dxgi_sample_desc, dxgicommon/DXGI_SAMPLE_DESC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The number of multisamples per pixel.
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The image quality level. The higher the quality, the lower the performance. The valid range is between zero and one less than the level returned 
-        by <a href="https://msdn.microsoft.com/library/Bb173537(v=VS.85).aspx">ID3D10Device::CheckMultisampleQualityLevels</a> for Direct3D 10 or <a href="https://msdn.microsoft.com/346f5dae-3ce2-4c03-ab17-1c46e18efc64">ID3D11Device::CheckMultisampleQualityLevels</a> for Direct3D 11.
+        by <a href="https://msdn.microsoft.com/5b43c582-3ddb-49d8-be0d-1a784f482750">ID3D10Device::CheckMultisampleQualityLevels</a> for Direct3D 10 or <a href="https://msdn.microsoft.com/346f5dae-3ce2-4c03-ab17-1c46e18efc64">ID3D11Device::CheckMultisampleQualityLevels</a> for Direct3D 11.
 
 For Direct3D 10.1 and Direct3D 11, you can use two special quality level values. For more information about these quality level values, see Remarks.
 

@@ -7,7 +7,7 @@ old-location: dshow\am_pin_connection_block_flags.htm
 old-project: DirectShow
 ms.assetid: ad059d7c-86dd-41a4-8cef-dbd154057c50
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: AM_PIN_CONNECTION_BLOCK_FLAGSEnumeration, AM_PIN_FLOW_CONTROL_BLOCK, _AM_PIN_FLOW_CONTROL_BLOCK_FLAGS, _AM_PIN_FLOW_CONTROL_BLOCK_FLAGS , _AM_PIN_FLOW_CONTROL_BLOCK_FLAGS enumeration [DirectShow], dshow.am_pin_connection_block_flags, strmif/AM_PIN_FLOW_CONTROL_BLOCK, strmif/_AM_PIN_FLOW_CONTROL_BLOCK_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk

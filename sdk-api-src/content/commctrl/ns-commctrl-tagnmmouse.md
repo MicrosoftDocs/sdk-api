@@ -4,10 +4,10 @@ title: tagNMMOUSE
 author: windows-sdk-content
 description: Contains information used with mouse notification messages.
 old-location: controls\NMMOUSE.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmmouse.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: "*LPNMMOUSE, LPNMMOUSE, LPNMMOUSE structure pointer [Windows Controls], NMCLICK, NMMOUSE, NMMOUSE structure [Windows Controls], _win32_NMMOUSE, _win32_NMMOUSE_cpp, commctrl/LPNMMOUSE, commctrl/NMMOUSE, controls.NMMOUSE, controls._win32_NMMOUSE, tagNMMOUSE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,9 @@ Contains information used with mouse notification messages.
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about this notification. 
+An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about this notification. 
 
 
 ### -field dwItemSpec

@@ -4,10 +4,10 @@ title: ITextHost::TxGetParaFormat
 author: windows-sdk-content
 description: Requests the text host's default paragraph format.
 old-location: controls\ITextHost_TxGetParaFormat.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetparaformat.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetParaFormat method, ITextHost.TxGetParaFormat, ITextHost::TxGetParaFormat, TxGetParaFormat, TxGetParaFormat method [Windows Controls], TxGetParaFormat method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetParaFormat, _win32_ITextHost_TxGetParaFormat_cpp, controls.ITextHost_TxGetParaFormat, controls._win32_ITextHost_TxGetParaFormat, textserv/ITextHost::TxGetParaFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Requests the text host's default paragraph format.
 
 ### -param ppPF
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb787940(v=VS.85).aspx">PARAFORMAT</a>**</b>
+Type: <b>const <a href="https://msdn.microsoft.com/c384f3d6-8f2f-4c82-8a98-bc95d8e5828c">PARAFORMAT</a>**</b>
 
 The default paragraph format. 
 
@@ -102,7 +102,7 @@ Not implemented.
 
 
 
-The host object retains ownership of the <a href="https://msdn.microsoft.com/library/Bb787940(v=VS.85).aspx">PARAFORMAT</a> structure that is returned. However, the pointer returned must remain valid until the host notifies the text services object, through <a href="https://msdn.microsoft.com/library/Bb787627(v=VS.85).aspx">OnTxPropertyBitsChange</a>, that the default paragraph format has changed.
+The host object retains ownership of the <a href="https://msdn.microsoft.com/c384f3d6-8f2f-4c82-8a98-bc95d8e5828c">PARAFORMAT</a> structure that is returned. However, the pointer returned must remain valid until the host notifies the text services object, through <a href="https://msdn.microsoft.com/41ae1a84-e721-4666-bac0-eb11c9b55279">OnTxPropertyBitsChange</a>, that the default paragraph format has changed.
 
 
 
@@ -116,15 +116,15 @@ The host object retains ownership of the <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787627(v=VS.85).aspx">OnTxPropertyBitsChange</a>
+<a href="https://msdn.microsoft.com/41ae1a84-e721-4666-bac0-eb11c9b55279">OnTxPropertyBitsChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787940(v=VS.85).aspx">PARAFORMAT</a>
+<a href="https://msdn.microsoft.com/c384f3d6-8f2f-4c82-8a98-bc95d8e5828c">PARAFORMAT</a>
 
 
 
@@ -132,7 +132,7 @@ The host object retains ownership of the <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
  
 
  

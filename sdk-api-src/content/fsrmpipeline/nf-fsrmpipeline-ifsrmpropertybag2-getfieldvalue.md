@@ -4,10 +4,10 @@ title: IFsrmPropertyBag2::GetFieldValue
 author: windows-sdk-content
 description: Gets the value of the specified field from the property bag.
 old-location: fsrm\ifsrmpropertybag2_getfieldvalue.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: ccd52bbc-998e-435f-bea5-ed456adf3ff9
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: GetFieldValue, GetFieldValue method [File Server Resource Manager], GetFieldValue method [File Server Resource Manager],IFsrmPropertyBag2 interface, IFsrmPropertyBag2 interface [File Server Resource Manager],GetFieldValue method, IFsrmPropertyBag2.GetFieldValue, IFsrmPropertyBag2::GetFieldValue, fs.ifsrmpropertybag2_getfieldvalue, fsrm.ifsrmpropertybag2_getfieldvalue, fsrmpipeline/IFsrmPropertyBag2::GetFieldValue
 ms.prod: windows
 ms.technology: windows-sdk

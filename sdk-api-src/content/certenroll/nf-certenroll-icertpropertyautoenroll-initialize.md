@@ -7,7 +7,7 @@ old-location: security\icertpropertyautoenroll_initialize_method.htm
 old-project: seccertenroll
 ms.assetid: f9a949c8-acd9-45b2-882e-84daf0acfad4
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICertPropertyAutoEnroll interface [Security],Initialize method, ICertPropertyAutoEnroll.Initialize, ICertPropertyAutoEnroll::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyAutoEnroll interface, certenroll/ICertPropertyAutoEnroll::Initialize, security.icertpropertyautoenroll_initialize_method
 ms.prod: windows
 ms.technology: windows-sdk

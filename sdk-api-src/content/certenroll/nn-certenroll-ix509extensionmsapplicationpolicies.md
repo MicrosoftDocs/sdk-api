@@ -7,7 +7,7 @@ old-location: security\ix509extensionmsapplicationpolicies.htm
 old-project: seccertenroll
 ms.assetid: 35b6449e-5a82-4f47-bdda-5356f44bb1fd
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509ExtensionMSApplicationPolicies, IX509ExtensionMSApplicationPolicies interface [Security], IX509ExtensionMSApplicationPolicies interface [Security],described, certenroll/IX509ExtensionMSApplicationPolicies, security.ix509extensionmsapplicationpolicies
 ms.prod: windows
 ms.technology: windows-sdk

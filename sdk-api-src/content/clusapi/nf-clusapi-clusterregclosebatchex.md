@@ -7,7 +7,7 @@ old-location: mscs\clusterregclosebatchex.htm
 old-project: mscs
 ms.assetid: 127d06de-28a4-4df4-9f5f-17ea4a330528
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusterRegCloseBatchEx, ClusterRegCloseBatchEx function [Failover Cluster], clusapi/ClusterRegCloseBatchEx, mscs.clusterregclosebatchex
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IShellItem_Compare.htm
 old-project: shell
 ms.assetid: 737a93e0-2e27-466b-889c-04a25e52e883
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: Compare, Compare method [Windows Shell], Compare method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],Compare method, IShellItem.Compare, IShellItem::Compare, _win32_IShellItem_Compare, shell.IShellItem_Compare, shobjidl_core/IShellItem::Compare
 ms.prod: windows
 ms.technology: windows-sdk

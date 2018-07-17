@@ -4,10 +4,10 @@ title: inet_ntop function
 author: windows-sdk-content
 description: The InetNtop function converts an IPv4 or IPv6 Internet network address into a string in Internet standard format. The ANSI version of this function is inet_ntop.
 old-location: winsock\inet_ntop.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 1e26b88c-808f-4807-8641-e5c6b10853ad
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: AF_INET, AF_INET6, InetNtop, InetNtop function [Winsock], InetNtopA, InetNtopA or inet_ntop, InetNtopW, inet_ntop, winsock.inet_ntop, ws2tcpip/InetNtop, ws2tcpip/InetNtopA or inet_ntop, ws2tcpip/InetNtopW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -145,7 +145,7 @@ If the function fails, the extended error code returned by <a href="https://msdn
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">

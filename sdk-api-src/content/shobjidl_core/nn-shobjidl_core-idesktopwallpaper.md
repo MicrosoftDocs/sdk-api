@@ -7,7 +7,7 @@ old-location: shell\IDesktopWallpaper.htm
 old-project: shell
 ms.assetid: A83903B5-314B-4a8b-8D37-F8A8995DE0CB
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IDesktopWallpaper, IDesktopWallpaper interface [Windows Shell], IDesktopWallpaper interface [Windows Shell],described, shell.IDesktopWallpaper, shobjidl_core/IDesktopWallpaper
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ITsSbPluginNotifySink::OnInitialized
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the plug-in has completed a call of Initialize.
 old-location: termserv\itssbpluginnotifysink_oninitialized.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 2fe468c9-457f-4a56-aaf9-4eb48fec8720
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ITsSbPluginNotifySink interface [Remote Desktop Services],OnInitialized method, ITsSbPluginNotifySink.OnInitialized, ITsSbPluginNotifySink::OnInitialized, OnInitialized, OnInitialized method [Remote Desktop Services], OnInitialized method [Remote Desktop Services],ITsSbPluginNotifySink interface, sbtsv/ITsSbPluginNotifySink::OnInitialized, termserv.itssbpluginnotifysink_oninitialized
 ms.prod: windows
 ms.technology: windows-sdk

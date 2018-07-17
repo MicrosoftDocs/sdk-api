@@ -4,10 +4,10 @@ title: CredUnmarshalCredentialW function
 author: windows-sdk-content
 description: The CredUnmarshalCredential function transforms a marshaled credential back into its original form.
 old-location: security\credunmarshalcredential.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 65757235-d92c-479f-8e2b-1f8d8564792b
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: CredUnmarshalCredential, CredUnmarshalCredential function [Security], CredUnmarshalCredentialA, CredUnmarshalCredentialW, _cred_credunmarshalcredential, security.credunmarshalcredential, wincred/CredUnmarshalCredential, wincred/CredUnmarshalCredentialA, wincred/CredUnmarshalCredentialW
 ms.prod: windows
 ms.technology: windows-sdk

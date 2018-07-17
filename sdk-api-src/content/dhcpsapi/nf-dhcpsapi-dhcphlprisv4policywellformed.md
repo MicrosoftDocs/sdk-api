@@ -4,10 +4,10 @@ title: DhcpHlprIsV4PolicyWellFormed function
 author: windows-sdk-content
 description: Verifies that a DHCP server policy structure is well formed.
 old-location: dhcp\dhcphlprisv4policywellformed.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: 820b45f6-aa09-4e15-bf77-caa2723f4ea8
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DhcpHlprIsV4PolicyWellFormed, DhcpHlprIsV4PolicyWellFormed function [DHCP], dhcp.dhcphlprisv4policywellformed, dhcpsapi/DhcpHlprIsV4PolicyWellFormed
 ms.prod: windows
 ms.technology: windows-sdk

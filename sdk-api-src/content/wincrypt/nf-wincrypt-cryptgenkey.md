@@ -4,10 +4,10 @@ title: CryptGenKey function
 author: windows-sdk-content
 description: Generates a random cryptographic session key or a public/private key pair. A handle to the key or key pair is returned in phKey. This handle can then be used as needed with any CryptoAPI function that requires a key handle.
 old-location: security\cryptgenkey.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: b65dd856-2dfa-4cda-9b2f-b32f3c291470
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CALG_DH_EPHEM, CALG_DH_SF, CRYPT_ARCHIVABLE, CRYPT_CREATE_IV, CRYPT_CREATE_SALT, CRYPT_DATA_KEY, CRYPT_EXPORTABLE, CRYPT_FORCE_KEY_PROTECTION_HIGH, CRYPT_INITIATOR, CRYPT_KEK, CRYPT_NO_SALT, CRYPT_ONLINE, CRYPT_PREGEN, CRYPT_RECIPIENT, CRYPT_SF, CRYPT_SGCKEY, CRYPT_USER_PROTECTED, CRYPT_VOLATILE, CryptGenKey, CryptGenKey function [Security], _crypto2_cryptgenkey, security.cryptgenkey, wincrypt/CryptGenKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -729,7 +729,7 @@ if (!CryptDestroyKey(hKey))
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Key Generation and Exchange Functions</a>
+<a href="cryptography_functions.htm">Key Generation and Exchange Functions</a>
 
 
 

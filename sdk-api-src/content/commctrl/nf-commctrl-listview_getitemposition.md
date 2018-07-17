@@ -4,10 +4,10 @@ title: ListView_GetItemPosition macro
 author: windows-sdk-content
 description: Gets the position of a list-view item. You can use this macro or explicitly send the LVM_GETITEMPOSITION message.
 old-location: controls\ListView_GetItemPosition.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemposition.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ListView_GetItemPosition, ListView_GetItemPosition macro [Windows Controls], _win32_ListView_GetItemPosition, _win32_ListView_GetItemPosition_cpp, commctrl/ListView_GetItemPosition, controls.ListView_GetItemPosition, controls._win32_ListView_GetItemPosition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the position of a list-view item. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/library/Bb761048(v=VS.85).aspx">LVM_GETITEMPOSITION</a> message. 
+Gets the position of a list-view item. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/e5841089-c34e-498e-b94c-45c845bfc747">LVM_GETITEMPOSITION</a> message. 
 
 
 ## -parameters

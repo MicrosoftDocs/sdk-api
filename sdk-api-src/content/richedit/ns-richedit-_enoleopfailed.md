@@ -4,10 +4,10 @@ title: "_enoleopfailed"
 author: windows-sdk-content
 description: Contains information about a failed operation.
 old-location: controls\ENOLEOPFAILED.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enoleopfailed.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ENOLEOPFAILED, ENOLEOPFAILED structure [Windows Controls], _enoleopfailed, _win32_ENOLEOPFAILED_str, _win32_ENOLEOPFAILED_str_cpp, controls.ENOLEOPFAILED, controls._win32_ENOLEOPFAILED_str, richedit/ENOLEOPFAILED
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,10 +62,10 @@ req.product: ADAM
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> notification header. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> notification header. 
 
 
 ### -field iob
@@ -94,7 +94,7 @@ Error code returned by the object on the operation.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787979(v=VS.85).aspx">EN_OLEOPFAILED</a>
+<a href="https://msdn.microsoft.com/b674c36f-2454-473e-8e1c-368c0afd8c34">EN_OLEOPFAILED</a>
 
 
 

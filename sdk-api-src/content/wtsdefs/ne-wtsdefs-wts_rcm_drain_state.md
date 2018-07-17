@@ -4,10 +4,10 @@ title: WTS_RCM_DRAIN_STATE
 author: windows-sdk-content
 description: Contains information about the drain state of the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wts_rcm_drain_state.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: bb033bef-e325-42d0-8879-9a2151e43e91
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WRDS_RCM_DRAIN_STATE, WRDS_RCM_DRAIN_STATE enumeration [Remote Desktop Services], WTS_DRAIN_IN_DRAIN, WTS_DRAIN_NOT_IN_DRAIN, WTS_DRAIN_STATE_NONE, WTS_RCM_DRAIN_STATE, WTS_RCM_DRAIN_STATE enumeration [Remote Desktop Services], termserv.wts_rcm_drain_state, wtsdefs/WRDS_RCM_DRAIN_STATE, wtsdefs/WTS_DRAIN_IN_DRAIN, wtsdefs/WTS_DRAIN_NOT_IN_DRAIN, wtsdefs/WTS_DRAIN_STATE_NONE, wtsdefs/WTS_RCM_DRAIN_STATE
 ms.prod: windows
 ms.technology: windows-sdk

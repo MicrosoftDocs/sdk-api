@@ -7,7 +7,7 @@ old-location: dshow\iammediatypesample_getpointer.htm
 old-project: DirectShow
 ms.assetid: e1ca46d8-51d6-4dd5-bbcc-463acf53420c
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: GetPointer, GetPointer method [DirectShow], GetPointer method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetPointer method, IAMMediaTypeSample.GetPointer, IAMMediaTypeSample::GetPointer, IAMMediaTypeSampleGetPointer, amstream/IAMMediaTypeSample::GetPointer, dshow.iammediatypesample_getpointer
 ms.prod: windows
 ms.technology: windows-sdk

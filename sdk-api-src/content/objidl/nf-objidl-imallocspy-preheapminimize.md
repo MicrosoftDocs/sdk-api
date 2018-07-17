@@ -7,7 +7,7 @@ old-location: com\imallocspy_preheapminimize.htm
 old-project: com
 ms.assetid: 9e80f555-5382-4bd9-ab56-a67f42b13cae
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: IMallocSpy interface [COM],PreHeapMinimize method, IMallocSpy.PreHeapMinimize, IMallocSpy::PreHeapMinimize, PreHeapMinimize, PreHeapMinimize method [COM], PreHeapMinimize method [COM],IMallocSpy interface, _com_imallocspy_preheapminimize, com.imallocspy_preheapminimize, objidl/IMallocSpy::PreHeapMinimize
 ms.prod: windows
 ms.technology: windows-sdk

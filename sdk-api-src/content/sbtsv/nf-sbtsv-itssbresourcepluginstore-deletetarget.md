@@ -4,10 +4,10 @@ title: ITsSbResourcePluginStore::DeleteTarget
 author: windows-sdk-content
 description: Deletes a target.
 old-location: termserv\itssbresourcepluginstore_deletetarget.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: d8114126-f518-4a43-8f6e-900fe84052e5
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: DeleteTarget, DeleteTarget method [Remote Desktop Services], DeleteTarget method [Remote Desktop Services],ITsSbResourcePluginStore interface, DeleteTarget method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],DeleteTarget method, ITsSbResourcePluginStore.DeleteTarget, ITsSbResourcePluginStore::DeleteTarget, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],DeleteTarget method, ITsSbResourcePluginStoreEx::DeleteTarget, sbtsv/ITsSbResourcePluginStore::DeleteTarget, sbtsv/ITsSbResourcePluginStoreEx::DeleteTarget, termserv.itssbresourcepluginstore_deletetarget
 ms.prod: windows
 ms.technology: windows-sdk

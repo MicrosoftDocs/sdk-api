@@ -4,10 +4,10 @@ title: DhcpHlprAddV4PolicyCondition function
 author: windows-sdk-content
 description: Allocates, initializes, and adds a DHCP server policy condition to a DHCP server policy.
 old-location: dhcp\dhcphlpraddv4policycondition.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: 7c90625c-e6b5-475f-a9ea-0dfd27810f03
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DhcpHlprAddV4PolicyCondition, DhcpHlprAddV4PolicyCondition function [DHCP], dhcp.dhcphlpraddv4policycondition, dhcpsapi/DhcpHlprAddV4PolicyCondition
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ITextFont2::SetUnderlinePositionMode
 author: windows-sdk-content
 description: Sets the underline position mode.
 old-location: controls\itextfont2_setunderlinepositionmode.htm
-old-project: controls
+old-project: Controls
 ms.assetid: 31dff2d0-7165-42f0-b3d0-9cb679c738c3
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetUnderlinePositionMode method, ITextFont2.SetUnderlinePositionMode, ITextFont2::SetUnderlinePositionMode, SetUnderlinePositionMode, SetUnderlinePositionMode method [Windows Controls], SetUnderlinePositionMode method [Windows Controls],ITextFont2 interface, controls.itextfont2_setunderlinepositionmode, tom/ITextFont2::SetUnderlinePositionMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ Sets the underline position mode.
 Type: <b>long</b>
 
 The new underline position mode. It can be one of the following values.<ul>
-<li><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomUnderlinePositionAuto</a> (the default)</li>
-<li><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomUnderlinePositionBelow</a></li>
-<li><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomUnderlinePositionAbove</a></li>
+<li><a href="tomconstants.htm">tomUnderlinePositionAuto</a> (the default)</li>
+<li><a href="tomconstants.htm">tomUnderlinePositionBelow</a></li>
+<li><a href="tomconstants.htm">tomUnderlinePositionAbove</a></li>
 </ul>
 
 

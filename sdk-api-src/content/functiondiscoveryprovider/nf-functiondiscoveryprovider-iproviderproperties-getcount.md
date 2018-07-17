@@ -4,10 +4,10 @@ title: IProviderProperties::GetCount
 author: windows-sdk-content
 description: Gets the number of properties in the property store.
 old-location: ncd\iproviderproperties_getcount_method.htm
-old-project: FunDisc
+old-project: fundisc
 ms.assetid: 25ed5782-c19e-4c3d-81f1-74e0ea3e195e
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/12/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IProviderProperties interface, IProviderProperties interface,GetCount method, IProviderProperties.GetCount, IProviderProperties::GetCount, functiondiscoveryprovider/IProviderProperties::GetCount, ncd.iproviderproperties_getcount_method
 ms.prod: windows
 ms.technology: windows-sdk

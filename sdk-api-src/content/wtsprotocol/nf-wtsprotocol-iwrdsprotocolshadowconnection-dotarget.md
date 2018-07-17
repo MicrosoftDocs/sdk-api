@@ -4,10 +4,10 @@ title: IWRdsProtocolShadowConnection::DoTarget
 author: windows-sdk-content
 description: Requests that the protocol start the target side of a shadow connection.
 old-location: termserv\iwrdsprotocolshadowconnection_dotarget.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 9fe2e3fb-f368-4b7e-b679-402db900916c
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: DoTarget, DoTarget method [Remote Desktop Services], DoTarget method [Remote Desktop Services],IWRdsProtocolShadowConnection interface, IWRdsProtocolShadowConnection interface [Remote Desktop Services],DoTarget method, IWRdsProtocolShadowConnection.DoTarget, IWRdsProtocolShadowConnection::DoTarget, termserv.iwrdsprotocolshadowconnection_dotarget, wtsprotocol/IWRdsProtocolShadowConnection::DoTarget
 ms.prod: windows
 ms.technology: windows-sdk

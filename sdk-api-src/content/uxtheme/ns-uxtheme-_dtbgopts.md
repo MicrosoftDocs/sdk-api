@@ -4,10 +4,10 @@ title: "_DTBGOPTS"
 author: windows-sdk-content
 description: Defines the options for the DrawThemeBackgroundEx function.
 old-location: controls\DTBGOPTS.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\dtbgopts.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: "*PDTBGOPTS, DTBGOPTS, DTBGOPTS structure [Windows Controls], DTBG_CLIPRECT, DTBG_COMPUTINGREGION, DTBG_DRAWSOLID, DTBG_MIRRORDC, DTBG_NOMIRROR, DTBG_OMITBORDER, DTBG_OMITCONTENT, DTBG_VALIDBITS, PDTBGOPTS, PDTBGOPTS structure pointer [Windows Controls], _DTBGOPTS, controls.DTBGOPTS, controls.inet_DTBGOPTS, inet_DTBGOPTS, inet_DTBGOPTS_cpp, uxtheme/DTBGOPTS, uxtheme/PDTBGOPTS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-Defines the options for the <a href="https://msdn.microsoft.com/library/Bb773294(v=VS.85).aspx">DrawThemeBackgroundEx</a> function.
+Defines the options for the <a href="https://msdn.microsoft.com/2a961479-9fdf-4f9f-923e-2a6601a99442">DrawThemeBackgroundEx</a> function.
 
 
 ## -struct-fields
@@ -173,7 +173,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773294(v=VS.85).aspx">DrawThemeBackgroundEx</a>
+<a href="https://msdn.microsoft.com/2a961479-9fdf-4f9f-923e-2a6601a99442">DrawThemeBackgroundEx</a>
  
 
  

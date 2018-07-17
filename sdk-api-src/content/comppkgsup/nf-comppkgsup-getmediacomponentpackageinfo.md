@@ -7,7 +7,7 @@ old-location: winprog\getmediacomponentpackageinfo.htm
 old-project: DevNotes
 ms.assetid: EDBC9F34-62C3-4256-9AEC-9A743608B5B7
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: GetMediaComponentPackageInfo, GetMediaComponentPackageInfo function [Windows API], comppkgsup/GetMediaComponentPackageInfo, winprog.getmediacomponentpackageinfo
 ms.prod: windows
 ms.technology: windows-sdk

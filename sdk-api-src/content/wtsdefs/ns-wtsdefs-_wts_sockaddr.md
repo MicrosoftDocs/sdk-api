@@ -4,10 +4,10 @@ title: "_WTS_SOCKADDR"
 author: windows-sdk-content
 description: Contains a socket address.
 old-location: termserv\wts_sockaddr.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 03fb0225-20d1-491a-a052-0a23fa09d01a
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*PWTS_SOCKADDR, PWRDS_SOCKADDR, PWRDS_SOCKADDR structure pointer [Remote Desktop Services], PWTS_SOCKADDR, PWTS_SOCKADDR structure pointer [Remote Desktop Services], WRDS_SOCKADDR, WRDS_SOCKADDR structure [Remote Desktop Services], WTS_SOCKADDR, WTS_SOCKADDR structure [Remote Desktop Services], _WTS_SOCKADDR, termserv.wts_sockaddr, wtsdefs/PWRDS_SOCKADDR, wtsdefs/PWTS_SOCKADDR, wtsdefs/WRDS_SOCKADDR, wtsdefs/WTS_SOCKADDR"
 ms.prod: windows
 ms.technology: windows-sdk

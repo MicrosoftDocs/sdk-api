@@ -7,7 +7,7 @@ old-location: mscs\clusresgroup_name.htm
 old-project: mscs
 ms.assetid: 000a3b5e-3b77-47aa-9703-df0d7de48ba2
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResGroup class [Failover Cluster],Name property, ClusResGroup.Name, ISClusResGroup.get_Name, ISClusResGroup.put_Name, ISClusResGroup::get_Name, Name property [Failover Cluster], Name property [Failover Cluster],ClusResGroup class, _wolf_clusresgroup.name, get_Name, mscs.clusresgroup_name
 ms.prod: windows
 ms.technology: windows-sdk

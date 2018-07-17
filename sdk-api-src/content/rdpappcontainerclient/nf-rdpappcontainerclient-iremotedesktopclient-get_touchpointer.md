@@ -4,10 +4,10 @@ title: IRemoteDesktopClient::get_TouchPointer
 author: windows-sdk-content
 description: Contains the RemoteDesktopClientTouchPointer object for the Remote Desktop Protocol (RDP) app container client.
 old-location: termserv\iremotedesktopclient_touchpointer.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 0fe1d319-0553-46ca-8fa9-0d531a900344
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IRemoteDesktopClient interface [Remote Desktop Services],TouchPointer property, IRemoteDesktopClient.TouchPointer, IRemoteDesktopClient.get_TouchPointer, IRemoteDesktopClient::TouchPointer, IRemoteDesktopClient::get_TouchPointer, TouchPointer property [Remote Desktop Services], TouchPointer property [Remote Desktop Services],IRemoteDesktopClient interface, get_TouchPointer, rdpappcontainerclient/IRemoteDesktopClient::TouchPointer, rdpappcontainerclient/IRemoteDesktopClient::get_TouchPointer, termserv.iremotedesktopclient_touchpointer
 ms.prod: windows
 ms.technology: windows-sdk

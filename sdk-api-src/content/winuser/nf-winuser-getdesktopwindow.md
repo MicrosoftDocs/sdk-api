@@ -92,7 +92,7 @@ The return value is a handle to the desktop window.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633515(v=VS.85).aspx">GetWindow</a>
+<a href="https://msdn.microsoft.com/837f8d99-abc5-4c7c-a363-3d178e71aea2">GetWindow</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: multimedia\drawdibsetpalette.htm
 old-project: Multimedia
 ms.assetid: 196c4409-024a-41e4-b553-e3337c936f19
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/13/2018
 ms.keywords: DrawDibSetPalette, DrawDibSetPalette function [Windows Multimedia], _win32_DrawDibSetPalette, multimedia.drawdibsetpalette, vfw/DrawDibSetPalette
 ms.prod: windows
 ms.technology: windows-sdk

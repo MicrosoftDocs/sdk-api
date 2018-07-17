@@ -7,7 +7,7 @@ old-location: dshow\impeg2demultiplexer_deleteoutputpin.htm
 old-project: DirectShow
 ms.assetid: 6c6a0e38-54b8-4fa3-b37a-00073d40965d
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: DeleteOutputPin, DeleteOutputPin method [DirectShow], DeleteOutputPin method [DirectShow],IMpeg2Demultiplexer interface, IMpeg2Demultiplexer interface [DirectShow],DeleteOutputPin method, IMpeg2Demultiplexer.DeleteOutputPin, IMpeg2Demultiplexer::DeleteOutputPin, IMpeg2DemultiplexerDeleteOutputPin, dshow.impeg2demultiplexer_deleteoutputpin, strmif/IMpeg2Demultiplexer::DeleteOutputPin
 ms.prod: windows
 ms.technology: windows-sdk

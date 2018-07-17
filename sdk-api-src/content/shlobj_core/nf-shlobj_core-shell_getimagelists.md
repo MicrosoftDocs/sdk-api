@@ -7,7 +7,7 @@ old-location: shell\Shell_GetImageLists.htm
 old-project: shell
 ms.assetid: c3b73616-849c-4149-b04d-a7d389ebf700
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: Shell_GetImageLists, Shell_GetImageLists function [Windows Shell], _win32_Shell_GetImageLists, shell.Shell_GetImageLists, shlobj_core/Shell_GetImageLists
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ Returns <b>TRUE</b> on success. On failure, returns <b>FALSE</b> and the image l
 
 
 
-<div class="alert"><b>Important</b>  The image lists retrieved through this function are global system image lists; do not call <a href="https://msdn.microsoft.com/library/Bb761524(v=VS.85).aspx">ImageList_Destroy</a> using them.</div>
+<div class="alert"><b>Important</b>  The image lists retrieved through this function are global system image lists; do not call <a href="https://msdn.microsoft.com/6720c9e7-b35f-4acd-8fa7-9aa9f0991879">ImageList_Destroy</a> using them.</div>
 <div> </div>
 
 
@@ -102,7 +102,7 @@ Returns <b>TRUE</b> on success. On failure, returns <b>FALSE</b> and the image l
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761391(v=VS.85).aspx">Image Lists</a>
+<a href="_win32_Image_Lists">Image Lists</a>
 
 
 

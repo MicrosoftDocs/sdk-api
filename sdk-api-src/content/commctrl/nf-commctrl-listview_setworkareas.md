@@ -4,10 +4,10 @@ title: ListView_SetWorkAreas macro
 author: windows-sdk-content
 description: Sets the working areas within a list-view control. You can use this macro or send the LVM_SETWORKAREAS message explicitly.
 old-location: controls\ListView_SetWorkAreas.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setworkareas.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ListView_SetWorkAreas, ListView_SetWorkAreas macro [Windows Controls], _win32_ListView_SetWorkAreas, _win32_ListView_SetWorkAreas_cpp, commctrl/ListView_SetWorkAreas, controls.ListView_SetWorkAreas, controls._win32_ListView_SetWorkAreas
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the working areas within a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761223(v=VS.85).aspx">LVM_SETWORKAREAS</a> message explicitly. 
+Sets the working areas within a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/87ac192d-f481-43ac-b8a5-c754cf33e487">LVM_SETWORKAREAS</a> message explicitly. 
 
 
 ## -parameters
@@ -99,7 +99,7 @@ A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/har
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774736(v=VS.85).aspx">Using List-View Controls</a>
+<a href="https://msdn.microsoft.com/6953cdfc-8c59-4c6d-8998-f828cea3a315">Using List-View Controls</a>
  
 
  

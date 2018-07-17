@@ -4,10 +4,10 @@ title: ListView_ApproximateViewRect macro
 author: windows-sdk-content
 description: Calculates the approximate width and height required to display a given number of items. You can use this macro or send the LVM_APPROXIMATEVIEWRECT message explicitly.
 old-location: controls\ListView_ApproximateViewRect.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_approximateviewrect.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ListView_ApproximateViewRect, ListView_ApproximateViewRect macro [Windows Controls], _win32_ListView_ApproximateViewRect, _win32_ListView_ApproximateViewRect_cpp, commctrl/ListView_ApproximateViewRect, controls.ListView_ApproximateViewRect, controls._win32_ListView_ApproximateViewRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Calculates the approximate width and height required to display a given number of items. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774883(v=VS.85).aspx">LVM_APPROXIMATEVIEWRECT</a> message explicitly. 
+Calculates the approximate width and height required to display a given number of items. You can use this macro or send the <a href="https://msdn.microsoft.com/a14331a8-217d-48c6-9489-fb90c4d31b91">LVM_APPROXIMATEVIEWRECT</a> message explicitly. 
 
 
 ## -parameters

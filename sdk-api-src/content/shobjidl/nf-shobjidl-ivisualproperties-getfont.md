@@ -7,7 +7,7 @@ old-location: shell\IVisualProperties_GetFont.htm
 old-project: shell
 ms.assetid: d12e2091-37cb-4a9e-abfc-8795d18bddd2
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: GetFont, GetFont method [Windows Shell], GetFont method [Windows Shell],IVisualProperties interface, IVisualProperties interface [Windows Shell],GetFont method, IVisualProperties.GetFont, IVisualProperties::GetFont, _shell_IVisualProperties_GetFont, shell.IVisualProperties_GetFont, shobjidl/IVisualProperties::GetFont
 ms.prod: windows
 ms.technology: windows-sdk

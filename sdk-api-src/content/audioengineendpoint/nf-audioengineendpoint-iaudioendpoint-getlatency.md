@@ -4,10 +4,10 @@ title: IAudioEndpoint::GetLatency
 author: windows-sdk-content
 description: Gets the latency of the audio endpoint.
 old-location: termserv\iaudioendpoint_getlatency.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 9afca6b7-2e0e-40a1-bb4a-932dad21b9eb
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: GetLatency, GetLatency method [Remote Desktop Services], GetLatency method [Remote Desktop Services],IAudioEndpoint interface, IAudioEndpoint interface [Remote Desktop Services],GetLatency method, IAudioEndpoint.GetLatency, IAudioEndpoint::GetLatency, audioengineendpoint/IAudioEndpoint::GetLatency, termserv.iaudioendpoint_getlatency
 ms.prod: windows
 ms.technology: windows-sdk

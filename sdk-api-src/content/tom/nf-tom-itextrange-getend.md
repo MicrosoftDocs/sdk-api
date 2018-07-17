@@ -4,10 +4,10 @@ title: ITextRange::GetEnd
 author: windows-sdk-content
 description: Gets the end character position of the range.
 old-location: controls\ITextRange_GetEnd.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getend.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: GetEnd, GetEnd method [Windows Controls], GetEnd method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetEnd method, ITextRange.GetEnd, ITextRange::GetEnd, _win32_ITextRange_GetEnd, _win32_ITextRange_GetEnd_cpp, controls.ITextRange_GetEnd, controls._win32_ITextRange_GetEnd, tom/ITextRange::GetEnd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ Although a pointer to a range remains valid when the text is edited, this is not
 				character position. Be careful about using methods that return 
 				character position values, especially if the values are to be stored for any duration. 
 
-This method is similar to the <a href="https://msdn.microsoft.com/library/Bb774026(v=VS.85).aspx">ITextRange::GetStart</a> method which gets the start character position of the range.
+This method is similar to the <a href="https://msdn.microsoft.com/55c6785f-1e56-4e9d-86bb-d6f963c693b5">ITextRange::GetStart</a> method which gets the start character position of the range.
 			
 
 
@@ -102,11 +102,11 @@ This method is similar to the <a href="https://msdn.microsoft.com/library/Bb7740
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774026(v=VS.85).aspx">GetStart</a>
+<a href="https://msdn.microsoft.com/55c6785f-1e56-4e9d-86bb-d6f963c693b5">GetStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -114,11 +114,11 @@ This method is similar to the <a href="https://msdn.microsoft.com/library/Bb7740
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774139(v=VS.85).aspx">SetEnd</a>
+<a href="https://msdn.microsoft.com/d84f9fd8-ac3c-4b26-a745-7528c7ba0bb3">SetEnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

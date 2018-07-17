@@ -7,7 +7,7 @@ old-location: wmformat\iwmaddressaccess_getaccessentrycount.htm
 old-project: wmformat
 ms.assetid: 996d8a8a-887e-4e2f-b810-c57a4251f771
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: GetAccessEntryCount, GetAccessEntryCount method [windows Media Format], GetAccessEntryCount method [windows Media Format],IWMAddressAccess interface, IWMAddressAccess interface [windows Media Format],GetAccessEntryCount method, IWMAddressAccess.GetAccessEntryCount, IWMAddressAccess::GetAccessEntryCount, IWMAddressAccessGetAccessEntryCount, wmformat.iwmaddressaccess_getaccessentrycount, wmsdkidl/IWMAddressAccess::GetAccessEntryCount
 ms.prod: windows
 ms.technology: windows-sdk

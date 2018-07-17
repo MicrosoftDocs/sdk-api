@@ -4,10 +4,10 @@ title: TabCtrl_GetItemCount macro
 author: windows-sdk-content
 description: Retrieves the number of tabs in the tab control. You can use this macro or send the TCM_GETITEMCOUNT message explicitly.
 old-location: controls\TabCtrl_GetItemCount.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getitemcount.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: TabCtrl_GetItemCount, TabCtrl_GetItemCount macro [Windows Controls], _win32_TabCtrl_GetItemCount, _win32_TabCtrl_GetItemCount_cpp, commctrl/TabCtrl_GetItemCount, controls.TabCtrl_GetItemCount, controls._win32_TabCtrl_GetItemCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the number of tabs in the tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760592(v=VS.85).aspx">TCM_GETITEMCOUNT</a> message explicitly. 
+Retrieves the number of tabs in the tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/a8ec7d66-fe44-45ca-8f6c-4e75752ebe95">TCM_GETITEMCOUNT</a> message explicitly. 
 
 
 ## -parameters

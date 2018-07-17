@@ -4,10 +4,10 @@ title: RtwqCancelWorkItem function
 author: windows-sdk-content
 description: Attempts to cancel an asynchronous operation that was scheduled with RtwqScheduleWorkItem.
 old-location: base\rtwqcancelworkitem.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 55d5c6d6-310e-4f73-bbf4-9ac47a3ed295
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: RtwqCancelWorkItem, RtwqCancelWorkItem function, base.rtwqcancelworkitem, rtworkq/RtwqCancelWorkItem
 ms.prod: windows
 ms.technology: windows-sdk

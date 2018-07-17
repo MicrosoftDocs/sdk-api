@@ -7,7 +7,7 @@ old-location: security\ix509extensioncertificatepolicies_initializeencode_method
 old-project: seccertenroll
 ms.assetid: 3134c668-afe6-447b-9f0e-8c21df36e131
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509ExtensionCertificatePolicies interface [Security],InitializeEncode method, IX509ExtensionCertificatePolicies.InitializeEncode, IX509ExtensionCertificatePolicies::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionCertificatePolicies interface, certenroll/IX509ExtensionCertificatePolicies::InitializeEncode, security.ix509extensioncertificatepolicies_initializeencode_method
 ms.prod: windows
 ms.technology: windows-sdk

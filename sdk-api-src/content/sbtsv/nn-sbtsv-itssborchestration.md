@@ -4,10 +4,10 @@ title: ITsSbOrchestration
 author: windows-sdk-content
 description: Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) uses to ensure that the target is ready before a client is redirected to it.
 old-location: termserv\itssborchestration.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: fae858ae-19e5-453d-b9ef-1da7ea706e49
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ITsSbOrchestration, ITsSbOrchestration interface [Remote Desktop Services], ITsSbOrchestration interface [Remote Desktop Services],described, sbtsv/ITsSbOrchestration, termserv.itssborchestration
 ms.prod: windows
 ms.technology: windows-sdk

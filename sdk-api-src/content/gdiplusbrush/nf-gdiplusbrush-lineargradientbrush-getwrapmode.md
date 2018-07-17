@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetWrapMode_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\getwrapmode.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: GetWrapMode, GetWrapMode method [GDI+], GetWrapMode method [GDI+],LinearGradientBrush class, LinearGradientBrush class [GDI+],GetWrapMode method, LinearGradientBrush.GetWrapMode, LinearGradientBrush::GetWrapMode, _gdiplus_CLASS_LinearGradientBrush_GetWrapMode_, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetWrapMode_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,10 +65,10 @@ The <b>LinearGradientBrush::GetWrapMode</b> method gets the wrap mode for this b
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/library/ms534407(v=VS.85).aspx">WrapMode</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/24b035f9-c03e-4502-b603-d6a9e47d6df9">WrapMode</a></b>
 </strong>
 
-This method returns one of the following elements of the <a href="https://msdn.microsoft.com/library/ms534407(v=VS.85).aspx">WrapMode</a> enumeration:
+This method returns one of the following elements of the <a href="https://msdn.microsoft.com/24b035f9-c03e-4502-b603-d6a9e47d6df9">WrapMode</a> enumeration:
 
 <ul>
 <li>WrapModeTile</li>
@@ -137,19 +137,19 @@ The following example creates a linear gradient brush and sets its wrap mode. Ne
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533806(v=VS.85).aspx">Filling Shapes with a Gradient Brush</a>
+<a href="https://msdn.microsoft.com/e37b4c3a-b753-483a-990f-da3bcc70acf5">Filling Shapes with a Gradient Brush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535349(v=VS.85).aspx">LinearGradientBrush::SetWrapMode</a>
+<a href="https://msdn.microsoft.com/10b9aeb8-1925-4e59-8054-923b086af06f">LinearGradientBrush::SetWrapMode</a>
 
 
 
@@ -157,11 +157,11 @@ The following example creates a linear gradient brush and sets its wrap mode. Ne
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533861(v=VS.85).aspx">Tiling a Shape with an Image</a>
+<a href="https://msdn.microsoft.com/c92aa519-647a-4cd9-b88e-b79be0116d05">Tiling a Shape with an Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534407(v=VS.85).aspx">WrapMode</a>
+<a href="https://msdn.microsoft.com/24b035f9-c03e-4502-b603-d6a9e47d6df9">WrapMode</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mmc\isnapinproperties_propertieschanged.htm
 old-project: mmc
 ms.assetid: 6e64a620-9c1d-4803-81a0-ec432c30fbc9
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: ISnapinProperties interface [MMC],PropertiesChanged method, ISnapinProperties.PropertiesChanged, ISnapinProperties::PropertiesChanged, PropertiesChanged, PropertiesChanged method [MMC], PropertiesChanged method [MMC],ISnapinProperties interface, _slate_isnapinproperties_propertieschanged, mmc.isnapinproperties_propertieschanged, mmcobj/ISnapinProperties::PropertiesChanged
 ms.prod: windows
 ms.technology: windows-sdk

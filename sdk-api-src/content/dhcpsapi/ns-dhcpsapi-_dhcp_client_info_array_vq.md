@@ -4,10 +4,10 @@ title: "_DHCP_CLIENT_INFO_ARRAY_VQ"
 author: windows-sdk-content
 description: Specifies an array of DHCP_CLIENT_INFO_VQ structures.
 old-location: dhcp\dhcp_client_info_array_vq.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: 80474274-4ef8-4e53-85b4-78cb953e9831
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: "*LPDHCP_CLIENT_INFO_ARRAY_VQ, DHCP_CLIENT_INFO_ARRAY_VQ, DHCP_CLIENT_INFO_ARRAY_VQ structure [DHCP], PDHCP_CLIENT_INFO_ARRAY_VQ, PDHCP_CLIENT_INFO_ARRAY_VQ structure pointer [DHCP], _DHCP_CLIENT_INFO_ARRAY_VQ, dhcp.dhcp_client_info_array_vq, dhcpsapi/DHCP_CLIENT_INFO_ARRAY_VQ, dhcpsapi/PDHCP_CLIENT_INFO_ARRAY_VQ"
 ms.prod: windows
 ms.technology: windows-sdk

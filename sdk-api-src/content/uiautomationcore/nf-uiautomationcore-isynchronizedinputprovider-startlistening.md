@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When it finds matching input, the provider checks if the target UI Automation element matches the current element. If they match, the provider raises the <a href="https://msdn.microsoft.com/library/Ee671223(v=VS.85).aspx">UIA_InputReachedTargetEventId</a> event; otherwise, it raises the <a href="https://msdn.microsoft.com/library/Ee671223(v=VS.85).aspx">UIA_InputReachedOtherElementEventId</a>  or <a href="https://msdn.microsoft.com/library/Ee671223(v=VS.85).aspx">UIA_InputDiscardedEventId</a> event. The UI Automation provider must discard the input if it is for an element other than this one.
+When it finds matching input, the provider checks if the target UI Automation element matches the current element. If they match, the provider raises the <a href="uiauto_event_ids.htm">UIA_InputReachedTargetEventId</a> event; otherwise, it raises the <a href="uiauto_event_ids.htm">UIA_InputReachedOtherElementEventId</a>  or <a href="uiauto_event_ids.htm">UIA_InputDiscardedEventId</a> event. The UI Automation provider must discard the input if it is for an element other than this one.
 
 This is a one-shot method; after receiving input, the provider stops listening and continues normally.
 

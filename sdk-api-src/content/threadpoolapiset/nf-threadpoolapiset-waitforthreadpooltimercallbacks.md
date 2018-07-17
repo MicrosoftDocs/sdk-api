@@ -4,10 +4,10 @@ title: WaitForThreadpoolTimerCallbacks function
 author: windows-sdk-content
 description: Waits for outstanding timer callbacks to complete and optionally cancels pending callbacks that have not yet started to execute.
 old-location: base\waitforthreadpooltimercallbacks.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 511488b8-9e92-47b9-8b3c-7ece9d9f996c
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: WaitForThreadpoolTimerCallbacks, WaitForThreadpoolTimerCallbacks function, base.waitforthreadpooltimercallbacks, threadpoolapiset/WaitForThreadpoolTimerCallbacks, winbase/WaitForThreadpoolTimerCallbacks
 ms.prod: windows
 ms.technology: windows-sdk

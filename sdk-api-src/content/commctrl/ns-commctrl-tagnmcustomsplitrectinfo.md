@@ -4,10 +4,10 @@ title: tagNMCUSTOMSPLITRECTINFO
 author: windows-sdk-content
 description: Contains information about the two rectangles of a split button. Sent with the NM_GETCUSTOMSPLITRECT notification.
 old-location: controls\NMCUSTOMSPLITRECTINFO.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmcustomsplitrectinfo.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: "*LPNMCUSTOMSPLITRECTINFO, LPNMCUSTOMSPLITRECTINFO, LPNMCUSTOMSPLITRECTINFO structure pointer [Windows Controls], NMCUSTOMSPLITRECTINFO, NMCUSTOMSPLITRECTINFO structure [Windows Controls], _shell_NMCUSTOMSPLITRECTINFO, _shell_NMCUSTOMSPLITRECTINFO_cpp, commctrl/LPNMCUSTOMSPLITRECTINFO, commctrl/NMCUSTOMSPLITRECTINFO, controls.NMCUSTOMSPLITRECTINFO, controls._shell_NMCUSTOMSPLITRECTINFO, tagNMCUSTOMSPLITRECTINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information about the two rectangles of a split button. Sent with the <a href="https://msdn.microsoft.com/library/Bb775534(v=VS.85).aspx">NM_GETCUSTOMSPLITRECT</a> notification.
+Contains information about the two rectangles of a split button. Sent with the <a href="https://msdn.microsoft.com/ce72778d-3cca-46a4-9d05-40954a18681d">NM_GETCUSTOMSPLITRECT</a> notification.
 
 
 ## -struct-fields
@@ -60,9 +60,9 @@ Contains information about the two rectangles of a split button. Sent with the <
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification. 
+An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about the notification. 
 
 
 ### -field rcClient
@@ -90,7 +90,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a
 
 
 
-This information is used to draw the button. The button must be of style <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">BS_SPLITBUTTON</a> or <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">BS_DEFSPLITBUTTON</a>
+This information is used to draw the button. The button must be of style <a href="Button_Styles.htm">BS_SPLITBUTTON</a> or <a href="Button_Styles.htm">BS_DEFSPLITBUTTON</a>
 
 
 

@@ -4,10 +4,10 @@ title: tagQueryUpdateAction
 author: windows-sdk-content
 description: Represents the type of action Function Discovery is performing on the specified function instance. This information is used by the client program's change notification handler.
 old-location: ncd\queryupdateaction_enum.htm
-old-project: FunDisc
+old-project: fundisc
 ms.assetid: ae3a4fe2-1b1f-4a8d-9b5d-361a7ece315d
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/12/2018
 ms.keywords: QUA_ADD, QUA_CHANGE, QUA_REMOVE, QueryUpdateAction, QueryUpdateAction enumeration, functiondiscoveryapi/QUA_ADD, functiondiscoveryapi/QUA_CHANGE, functiondiscoveryapi/QUA_REMOVE, functiondiscoveryapi/QueryUpdateAction, ncd.queryupdateaction_enum, tagQueryUpdateAction
 ms.prod: windows
 ms.technology: windows-sdk

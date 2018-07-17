@@ -66,7 +66,7 @@ With the
 ### -param pNamespace
 
 An 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. The provider should call <a href="https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx">AddRef</a> on this pointer if it is going to call back into Windows Management during its execution.
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. The provider should call <a href="_com_iunknown_addref">AddRef</a> on this pointer if it is going to call back into Windows Management during its execution.
 
 
 ### -param pTemplate [in]
@@ -88,7 +88,7 @@ Bitmask of flags that modify the behavior of this method. If this parameter is s
 ### -param ppRefreshable [out]
 
 Pointer to hold the reference to a 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> object, which will contain the refreshable instance object. The client must call <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">Release</a> on the returned object when it is no longer required.
+<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> object, which will contain the refreshable instance object. The client must call <a href="_com_iunknown_release">Release</a> on the returned object when it is no longer required.
 
 
 ### -param plId
@@ -126,7 +126,7 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 The supplied instance must specify a valid object, which is provided by the High-Performance Provider. The returned object must not be modified by the client while a refresh operation is in process. The returned identifier can be used by the 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a> function to remove the object.
 
-It is not necessary for the user to explicitly remove added objects. The client must call <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">Release</a> on the returned object when it is no longer required.
+It is not necessary for the user to explicitly remove added objects. The client must call <a href="_com_iunknown_release">Release</a> on the returned object when it is no longer required.
 
 
 

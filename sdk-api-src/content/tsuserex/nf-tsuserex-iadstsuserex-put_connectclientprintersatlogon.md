@@ -4,10 +4,10 @@ title: IADsTSUserEx::put_ConnectClientPrintersAtLogon
 author: windows-sdk-content
 description: A value that specifies whether to reconnect to mapped client printers at logon.
 old-location: termserv\iadstsuserex_connectclientprintersatlogon.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 78fdb301-ea8c-4806-b24a-f40449e77b9a
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ConnectClientPrintersAtLogon property [Remote Desktop Services], ConnectClientPrintersAtLogon property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],ConnectClientPrintersAtLogon property, IADsTSUserEx.ConnectClientPrintersAtLogon, IADsTSUserEx.put_ConnectClientPrintersAtLogon, IADsTSUserEx::ConnectClientPrintersAtLogon, IADsTSUserEx::get_ConnectClientPrintersAtLogon, IADsTSUserEx::put_ConnectClientPrintersAtLogon, put_ConnectClientPrintersAtLogon, termserv.iadstsuserex_connectclientprintersatlogon, tsuserex/IADsTSUserEx::ConnectClientPrintersAtLogon, tsuserex/IADsTSUserEx::get_ConnectClientPrintersAtLogon, tsuserex/IADsTSUserEx::put_ConnectClientPrintersAtLogon
 ms.prod: windows
 ms.technology: windows-sdk

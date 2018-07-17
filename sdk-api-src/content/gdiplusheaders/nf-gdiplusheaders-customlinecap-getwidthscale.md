@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_GetWidthScale_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\getwidthscale.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: CustomLineCap class [GDI+],GetWidthScale method, CustomLineCap.GetWidthScale, CustomLineCap::GetWidthScale, GetWidthScale, GetWidthScale method [GDI+], GetWidthScale method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_GetWidthScale_, gdiplus._gdiplus_CLASS_CustomLineCap_GetWidthScale_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,15 +80,15 @@ This method returns the value of the width-scaling factor. It is of type
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534432(v=VS.85).aspx">CustomLineCap</a>
+<a href="https://msdn.microsoft.com/bab33c8b-3203-4560-9e71-c112d528e20c">CustomLineCap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534146(v=VS.85).aspx">LineCap</a>
+<a href="https://msdn.microsoft.com/e72e402b-3cb7-4fc7-9050-ce00054da352">LineCap</a>
 
 
 

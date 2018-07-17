@@ -7,7 +7,7 @@ old-location: com\isurrogateservice_applicationlaunch.htm
 old-project: com
 ms.assetid: 4e54c129-f321-4215-b084-21ab17f93a6f
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: ApplicationLaunch, ApplicationLaunch method [COM], ApplicationLaunch method [COM],ISurrogateService interface, ISurrogateService interface [COM],ApplicationLaunch method, ISurrogateService.ApplicationLaunch, ISurrogateService::ApplicationLaunch, _com_isurrogateservice_applicationlaunch, com.isurrogateservice_applicationlaunch, objidl/ISurrogateService::ApplicationLaunch
 ms.prod: windows
 ms.technology: windows-sdk

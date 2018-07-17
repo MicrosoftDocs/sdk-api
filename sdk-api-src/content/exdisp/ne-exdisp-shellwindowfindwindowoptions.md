@@ -7,7 +7,7 @@ old-location: shell\ShellWindowFindWindowOptions.htm
 old-project: shell
 ms.assetid: 2459ab16-56c0-4812-bc61-4a17978b04f3
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: SWFO_COOKIEPASSED, SWFO_INCLUDEPENDING, SWFO_NEEDDISPATCH, ShellWindowFindWindowOptions, ShellWindowFindWindowOptions enumeration [Windows Shell], _win32_ShellWindowFindWindowOptions, exdisp/SWFO_COOKIEPASSED, exdisp/SWFO_INCLUDEPENDING, exdisp/SWFO_NEEDDISPATCH, exdisp/ShellWindowFindWindowOptions, shell.ShellWindowFindWindowOptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ req.product: Internet Explorer 5
 ### -field SWFO_NEEDDISPATCH
 
 
-            The window must have an <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. 
+            The window must have an <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. 
             
 
 

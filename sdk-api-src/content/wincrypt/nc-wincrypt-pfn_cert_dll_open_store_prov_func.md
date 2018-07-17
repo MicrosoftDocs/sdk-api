@@ -4,10 +4,10 @@ title: PFN_CERT_DLL_OPEN_STORE_PROV_FUNC
 author: windows-sdk-content
 description: Implemented by a store-provider and is used to open a store.
 old-location: security\certdllopenstoreprov.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 2fe291dd-23e2-49df-b9e4-a4ed29667123
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CERT_FILE_STORE_COMMIT_ENABLE, CERT_LDAP_STORE_AREC_EXCLUSIVE_FLAG, CERT_LDAP_STORE_OPENED_FLAG, CERT_LDAP_STORE_SIGN_FLAG, CERT_LDAP_STORE_UNBIND_FLAG, CERT_REGISTRY_STORE_REMOTE_FLAG, CERT_REGISTRY_STORE_SERIALIZED_FLAG, CERT_STORE_BACKUP_RESTORE_FLAG, CERT_STORE_CREATE_NEW_FLAG, CERT_STORE_DEFER_CLOSE_UNTIL_LAST_FREE_FLAG, CERT_STORE_DELETE_FLAG, CERT_STORE_ENUM_ARCHIVED_FLAG, CERT_STORE_MAXIMUM_ALLOWED, CERT_STORE_NO_CRYPT_RELEASE_FLAG, CERT_STORE_OPEN_EXISTING_FLAG, CERT_STORE_READONLY_FLAG, CERT_STORE_SET_LOCALIZED_NAME_FLAG, CERT_STORE_SHARE_CONTEXT_FLAG, CERT_STORE_UPDATE_KEYID_FLAG, CERT_SYSTEM_STORE_CURRENT_SERVICE, CERT_SYSTEM_STORE_CURRENT_USER, CERT_SYSTEM_STORE_CURRENT_USER_GROUP_POLICY, CERT_SYSTEM_STORE_LOCAL_MACHINE, CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, CERT_SYSTEM_STORE_LOCAL_MACHINE_GROUP_POLICY, CERT_SYSTEM_STORE_RELOCATE_FLAG, CERT_SYSTEM_STORE_SERVICES, CERT_SYSTEM_STORE_UNPROTECTED_FLAG, CERT_SYSTEM_STORE_USERS, CertDllOpenStoreProv, CertDllOpenStoreProv callback, CertDllOpenStoreProv callback function [Security], PFN_CERT_DLL_OPEN_STORE_PROV_FUNC, PFN_CERT_DLL_OPEN_STORE_PROV_FUNC callback function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_certdllopenstoreprov, security.certdllopenstoreprov, wincrypt/CertDllOpenStoreProv, wincrypt/PFN_CERT_DLL_OPEN_STORE_PROV_FUNC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -835,7 +835,7 @@ The <b>cStoreProvFunc</b>  member of the <a href="https://msdn.microsoft.com/dc6
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
+<a href="cryptography_functions.htm">Callback Functions</a>
 
 
 

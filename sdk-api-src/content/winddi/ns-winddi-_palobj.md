@@ -7,7 +7,7 @@ old-location: display\palobj.htm
 old-project: display
 ms.assetid: 7c126067-eff8-4387-9fa7-2cde60796471
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/12/2018
 ms.keywords: PALOBJ, PALOBJ structure [Display Devices], _PALOBJ, display.palobj, grstrcts_5f0545f6-cfea-466c-8a61-4ff3be44fc72.xml, winddi/PALOBJ
 ms.prod: windows
 ms.technology: windows-sdk

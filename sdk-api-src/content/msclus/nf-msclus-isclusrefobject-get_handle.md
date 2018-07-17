@@ -7,7 +7,7 @@ old-location: mscs\clusrefobject_handle.htm
 old-project: mscs
 ms.assetid: E2E5F212-34C8-4A27-BAEE-759C0C707C85
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ISClusRefObject.get_Handle, ISClusRefObject.get_handle, ISClusRefObject::get_Handle, clusrefobject interface [Failover Cluster],handle property, clusrefobject::handle, get_Handle, handle property [Failover Cluster], handle property [Failover Cluster],clusrefobject interface, mscs.clusrefobject_handle
 ms.prod: windows
 ms.technology: windows-sdk

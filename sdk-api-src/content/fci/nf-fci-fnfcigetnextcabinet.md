@@ -7,7 +7,7 @@ old-location: winprog\fnfcigetnextcabinet.htm
 old-project: DevNotes
 ms.assetid: d56fb63e-91bf-4991-a954-176211697a2e
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: FNFCIGETNEXTCABINET, FNFCIGETNEXTCABINET macro [Windows API], fci/FNFCIGETNEXTCABINET, winprog.fnfcigetnextcabinet
 ms.prod: windows
 ms.technology: windows-sdk

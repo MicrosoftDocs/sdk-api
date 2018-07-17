@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterpostviewcallback.htm
 old-project: wmformat
 ms.assetid: 987dd3b4-2245-4640-820c-5a9660ab5e37
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: IWMWriterPostViewCallback, IWMWriterPostViewCallback interface [windows Media Format], IWMWriterPostViewCallback interface [windows Media Format],described, IWMWriterPostViewCallbackInterface, wmformat.iwmwriterpostviewcallback, wmsdkidl/IWMWriterPostViewCallback
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowexprops_get_codeccount.htm
 old-project: DirectShow
 ms.assetid: 7b16727d-565a-431e-8124-124d72816d65
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_CodecCount method, IAMNetShowExProps.get_CodecCount, IAMNetShowExProps::get_CodecCount, IAMNetShowExPropsget_CodecCount, dshow.iamnetshowexprops_get_codeccount, get_CodecCount, get_CodecCount method [DirectShow], get_CodecCount method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_CodecCount
 ms.prod: windows
 ms.technology: windows-sdk

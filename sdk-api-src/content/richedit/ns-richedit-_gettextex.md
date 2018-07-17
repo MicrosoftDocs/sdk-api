@@ -4,10 +4,10 @@ title: "_gettextex"
 author: windows-sdk-content
 description: Contains information used in getting text from a rich edit control. This structure used with the EM_GETTEXTEX message.
 old-location: controls\GETTEXTEX.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\gettextex.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: GETTEXTEX, GETTEXTEX structure [Windows Controls], GT_DEFAULT, GT_NOHIDDENTEXT, GT_RAWTEXT, GT_SELECTION, GT_USECRLF, _gettextex, _win32_GETTEXTEX_str, _win32_GETTEXTEX_str_cpp, controls.GETTEXTEX, controls._win32_GETTEXTEX_str, richedit/GETTEXTEX
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: ADAM
 
 
 
-	 Contains information used in getting text from a rich edit control. This structure used with the <a href="https://msdn.microsoft.com/library/Bb774192(v=VS.85).aspx">EM_GETTEXTEX</a> message.
+	 Contains information used in getting text from a rich edit control. This structure used with the <a href="https://msdn.microsoft.com/46431563-fde1-4407-ab7a-b2248c0e12b8">EM_GETTEXTEX</a> message.
 
 
 ## -struct-fields
@@ -167,7 +167,7 @@ A flag that indicates whether the default character (<b>lpDefaultChar</b>) was u
 
 
 
-The <a href="https://msdn.microsoft.com/library/Bb774192(v=VS.85).aspx">EM_GETTEXTEX</a> message is faster when both <b>lpDefaultChar</b> and <b>lpUsedDefChar</b> are <b>NULL</b>.
+The <a href="https://msdn.microsoft.com/46431563-fde1-4407-ab7a-b2248c0e12b8">EM_GETTEXTEX</a> message is faster when both <b>lpDefaultChar</b> and <b>lpUsedDefChar</b> are <b>NULL</b>.
 
 
 
@@ -177,7 +177,7 @@ The <a href="https://msdn.microsoft.com/library/Bb774192(v=VS.85).aspx">EM_GETTE
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774192(v=VS.85).aspx">EM_GETTEXTEX</a>
+<a href="https://msdn.microsoft.com/46431563-fde1-4407-ab7a-b2248c0e12b8">EM_GETTEXTEX</a>
  
 
  

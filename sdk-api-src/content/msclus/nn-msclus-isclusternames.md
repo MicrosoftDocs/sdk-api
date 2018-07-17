@@ -7,7 +7,7 @@ old-location: mscs\clusternames_collection.htm
 old-project: mscs
 ms.assetid: c4e29498-c4e2-4351-8eed-05bc73437485
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusterNames, ClusterNames collection [Failover Cluster], ClusterNames collection [Failover Cluster],described, ISClusterNames, _wolf_clusternames_collection, msclus/ClusterNames, mscs.clusternames_collection
 ms.prod: windows
 ms.technology: windows-sdk

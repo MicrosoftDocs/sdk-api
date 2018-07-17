@@ -7,7 +7,7 @@ old-location: display\floatobj_mul.htm
 old-project: display
 ms.assetid: 95b4c3eb-5e62-4209-9c05-eae9ab48f7ab
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/12/2018
 ms.keywords: FLOATOBJ_Mul, FLOATOBJ_Mul function [Display Devices], display.floatobj_mul, gdifncs_1647a791-7781-4e67-a7b1-06b283c32b0b.xml, winddi/FLOATOBJ_Mul
 ms.prod: windows
 ms.technology: windows-sdk

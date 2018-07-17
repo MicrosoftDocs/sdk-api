@@ -7,7 +7,7 @@ old-location: dshow\ifullscreenvideoex.htm
 old-project: DirectShow
 ms.assetid: 4c9de58f-6ceb-4cf5-b1a5-d3e345e08190
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IFullScreenVideoEx, IFullScreenVideoEx interface [DirectShow], IFullScreenVideoEx interface [DirectShow],described, IFullScreenVideoInterface, amvideo/IFullScreenVideoEx, dshow.ifullscreenvideoex
 ms.prod: windows
 ms.technology: windows-sdk

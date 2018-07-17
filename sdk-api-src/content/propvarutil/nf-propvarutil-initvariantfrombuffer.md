@@ -100,7 +100,7 @@ Creates a VT_ARRAY | VT_UI1 variant..
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762318(v=VS.85).aspx">InitVariantFromBuffer</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromBuffer">InitVariantFromBuffer</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -132,11 +132,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762289(v=VS.85).aspx">InitPropVariantFromBuffer</a>
+<a href="shell.InitPropVariantFromBuffer">InitPropVariantFromBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776596(v=VS.85).aspx">VariantToBuffer</a>
+<a href="shell.VariantToBuffer">VariantToBuffer</a>
  
 
  

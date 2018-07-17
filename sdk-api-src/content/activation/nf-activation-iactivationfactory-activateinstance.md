@@ -7,7 +7,7 @@ old-location: winrt\iactivationfactory_activateinstance.htm
 old-project: WinRT
 ms.assetid: AE3E2D87-3AE7-42C3-AA1D-510E717D2E51
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/13/2018
 ms.keywords: ActivateInstance, ActivateInstance method [Windows Runtime], ActivateInstance method [Windows Runtime],IActivationFactory interface, IActivationFactory interface [Windows Runtime],ActivateInstance method, IActivationFactory.ActivateInstance, IActivationFactory::ActivateInstance, activation/IActivationFactory::ActivateInstance, winrt.iactivationfactory_activateinstance
 ms.prod: windows
 ms.technology: windows-sdk

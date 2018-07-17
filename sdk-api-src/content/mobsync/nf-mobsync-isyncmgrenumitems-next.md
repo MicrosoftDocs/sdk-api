@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrenumitems_next.htm
 old-project: shell
 ms.assetid: bb4ab08a-aa12-46f0-8c7d-82742b0b1538
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: ISyncMgrEnumItems interface [Windows Shell],Next method, ISyncMgrEnumItems.Next, ISyncMgrEnumItems::Next, Next, Next method [Windows Shell], Next method [Windows Shell],ISyncMgrEnumItems interface, mobsync/ISyncMgrEnumItems::Next, shell.syncmgr_isyncmgrenumitems_next, syncmgr.isyncmgrenumitems_next
 ms.prod: windows
 ms.technology: windows-sdk

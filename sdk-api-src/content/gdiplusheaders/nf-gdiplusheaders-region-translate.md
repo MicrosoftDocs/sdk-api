@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Translate_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regiontranslatemethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Region.Translate, Region::Translate, Translate, Translate methods [GDI+], _gdiplus_CLASS_Region_Translate_Methods, gdiplus._gdiplus_CLASS_Region_Translate_Methods, gdiplusheaders/Translate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 			Translate methods of the 
-			<a href="https://msdn.microsoft.com/library/windows/hardware/dn915769">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/library/ms534761(v=VS.85).aspx">Region Methods</a>.
+			<a href="https://msdn.microsoft.com/library/windows/hardware/dn915769">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/bbaa4027-94aa-497f-8efb-a82d251847af">Region Methods</a>.
 
 </span><h3>Overload list</h3><table>
 <tr>
@@ -62,19 +62,19 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534794(v=VS.85).aspx">Translate(INT,INT)</a>
+<a href="https://msdn.microsoft.com/0dc16555-1df7-44b8-85fb-ff0963f3c68e">Translate(INT,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534794(v=VS.85).aspx">Region::Translate</a> method offsets this region by specified amounts in the horizontal and vertical directions.
+The <a href="https://msdn.microsoft.com/0dc16555-1df7-44b8-85fb-ff0963f3c68e">Region::Translate</a> method offsets this region by specified amounts in the horizontal and vertical directions.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534793(v=VS.85).aspx">Translate(REAL,REAL)</a>
+<a href="https://msdn.microsoft.com/8691cdff-6fac-4192-a2e6-1ac74b2c479f">Translate(REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534793(v=VS.85).aspx">Region::Translate</a> method offsets this region by specified amounts in the horizontal and vertical directions.
+The <a href="https://msdn.microsoft.com/8691cdff-6fac-4192-a2e6-1ac74b2c479f">Region::Translate</a> method offsets this region by specified amounts in the horizontal and vertical directions.
 
 </td>
 </tr>

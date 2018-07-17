@@ -7,7 +7,7 @@ old-location: winrt\istorageitemhandleaccess_create.htm
 old-project: WinRT
 ms.assetid: 2BBF5CFE-0212-4133-BA19-DEA322ED5569
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/13/2018
 ms.keywords: Create, Create method [Windows Runtime], Create method [Windows Runtime],IStorageItemHandleAccess interface, IStorageItemHandleAccess interface [Windows Runtime],Create method, IStorageItemHandleAccess.Create, IStorageItemHandleAccess::Create, windowsstoragecom/IStorageItemHandleAccess::Create, winrt.istorageitemhandleaccess_create
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt765063(v=VS.85).aspx">IStorageItemHandleAccess</a>
+<a href="com.istorageitemhandleaccess">IStorageItemHandleAccess</a>
  
 
  

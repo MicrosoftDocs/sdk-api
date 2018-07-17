@@ -4,10 +4,10 @@ title: CertFreeServerOcspResponseContext function
 author: windows-sdk-content
 description: Decrements the reference count for a CERT_SERVER_OCSP_RESPONSE_CONTEXT structure.
 old-location: security\certfreeserverocspresponsecontext.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: a07fc1e0-6f06-4336-b33c-d4d6a838b609
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CertFreeServerOcspResponseContext, CertFreeServerOcspResponseContext function [Security], security.certfreeserverocspresponsecontext, wincrypt/CertFreeServerOcspResponseContext
 ms.prod: windows
 ms.technology: windows-sdk

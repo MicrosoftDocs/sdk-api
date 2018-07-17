@@ -7,7 +7,7 @@ old-location: cos\ieventsubscription_interfaceid.htm
 old-project: cossdk
 ms.assetid: 13e88201-98c3-476e-bc75-34aed0b9ce9e
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: IEventSubscription interface [COM+],InterfaceID property, IEventSubscription.InterfaceID, IEventSubscription.get_InterfaceID, IEventSubscription::InterfaceID, IEventSubscription::get_InterfaceID, IEventSubscription::put_InterfaceID, InterfaceID property [COM+], InterfaceID property [COM+],IEventSubscription interface, cos.ieventsubscription_interfaceid, eventsys/IEventSubscription::InterfaceID, eventsys/IEventSubscription::get_InterfaceID, eventsys/IEventSubscription::put_InterfaceID, get_InterfaceID
 ms.prod: windows
 ms.technology: windows-sdk

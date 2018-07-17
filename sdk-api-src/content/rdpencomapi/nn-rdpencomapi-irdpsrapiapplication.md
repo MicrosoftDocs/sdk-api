@@ -4,10 +4,10 @@ title: IRDPSRAPIApplication
 author: windows-sdk-content
 description: Groups the sharable windows within a process. Each application object contains a list of window objects. If an application object is shared, all its windows are shared.
 old-location: rdp\irdpsrapiapplication.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 9a934718-1eea-4406-a1da-b7d493f6667e
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/13/2018
 ms.keywords: IRDPSRAPIApplication, IRDPSRAPIApplication interface [RDP], IRDPSRAPIApplication interface [RDP],described, rdp.irdpsrapiapplication, rdpencomapi/IRDPSRAPIApplication
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ Groups the sharable windows within a process. Each application object contains a
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

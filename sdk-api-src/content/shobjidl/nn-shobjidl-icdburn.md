@@ -7,7 +7,7 @@ old-location: shell\ICDBurn.htm
 old-project: shell
 ms.assetid: 8867ae52-2109-4967-b9b9-a4fe89cf4622
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: ICDBurn, ICDBurn interface [Windows Shell], ICDBurn interface [Windows Shell],described, _shell_ICDBurn, shell.ICDBurn, shobjidl/ICDBurn
 ms.prod: windows
 ms.technology: windows-sdk

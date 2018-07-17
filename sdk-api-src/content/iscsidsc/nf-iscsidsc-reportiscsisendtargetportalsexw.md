@@ -7,7 +7,7 @@ old-location: iscsidisc\reportiscsisendtargetportalsex.htm
 old-project: iSCSIDisc
 ms.assetid: bf67ff5c-77b5-42ec-81b3-86b98e216d81
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/12/2018
 ms.keywords: ReportIScsiSendTargetPortalsExW, ReportIscsiSendTargetPortalsEx, ReportIscsiSendTargetPortalsEx function [iSCSI Discovery Library API], ReportIscsiSendTargetPortalsExA, ReportIscsiSendTargetPortalsExW, iscsidisc.reportiscsisendtargetportalsex, iscsidsc/ReportIscsiSendTargetPortalsEx, iscsidsc/ReportIscsiSendTargetPortalsExA, iscsidsc/ReportIscsiSendTargetPortalsExW
 ms.prod: windows
 ms.technology: windows-sdk

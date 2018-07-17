@@ -4,10 +4,10 @@ title: ITextDocument2::GetTypographyOptions
 author: windows-sdk-content
 description: Gets the typography options.
 old-location: controls\itextdocument2_gettypographyoptions.htm
-old-project: controls
+old-project: Controls
 ms.assetid: 3433954c-818b-4811-9e38-4bc8ab3ee7f9
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: GetTypographyOptions, GetTypographyOptions method [Windows Controls], GetTypographyOptions method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetTypographyOptions method, ITextDocument2.GetTypographyOptions, ITextDocument2::GetTypographyOptions, TO_ADVANCEDTYPOGRAPHY, TO_SIMPLELINEBREAK, controls.itextdocument2_gettypographyoptions, tom/ITextDocument2::GetTypographyOptions
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentpolicyserver_getcachepath.htm
 old-project: seccertenroll
 ms.assetid: c71c9f97-a312-4260-995b-454de6a38cce
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: GetCachePath, GetCachePath method [Security], GetCachePath method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCachePath method, IX509EnrollmentPolicyServer.GetCachePath, IX509EnrollmentPolicyServer::GetCachePath, certenroll/IX509EnrollmentPolicyServer::GetCachePath, security.ix509enrollmentpolicyserver_getcachepath
 ms.prod: windows
 ms.technology: windows-sdk

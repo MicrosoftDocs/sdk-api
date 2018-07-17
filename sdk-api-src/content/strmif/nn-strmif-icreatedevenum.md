@@ -7,7 +7,7 @@ old-location: dshow\icreatedevenum.htm
 old-project: DirectShow
 ms.assetid: fc300bb8-aea4-4848-af43-a70a7fb8c07c
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: ICreateDevEnum, ICreateDevEnum interface [DirectShow], ICreateDevEnum interface [DirectShow],described, ICreateDevEnumInterface, dshow.icreatedevenum, strmif/ICreateDevEnum
 ms.prod: windows
 ms.technology: windows-sdk

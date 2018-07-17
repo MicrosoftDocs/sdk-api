@@ -4,10 +4,10 @@ title: "_WIN_CERTIFICATE"
 author: windows-sdk-content
 description: This structure encapsulates a signature used in verifying executable files.
 old-location: security\win_certificate.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: AC666871-265B-4D09-B7A6-DEC48D4645FD
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: "*LPWIN_CERTIFICATE, PWIN_CERTIFICATE, PWIN_CERTIFICATE structure pointer [Security], WIN_CERTIFICATE, WIN_CERTIFICATE structure [Security], _WIN_CERTIFICATE, security.win_certificate, wintrust/PWIN_CERTIFICATE, wintrust/WIN_CERTIFICATE"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: NPAddConnection function
 author: windows-sdk-content
 description: Connects a local device to a network resource.
 old-location: security\npaddconnection.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 37a3988c-18ee-400a-85c3-cc3cbdf015ea
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: NPAddConnection, NPAddConnection function [Security], _mnp_npaddconnection, dwType, lpLocalName, lpRemoteName, npapi/NPAddConnection, security.npaddconnection
 ms.prod: windows
 ms.technology: windows-sdk

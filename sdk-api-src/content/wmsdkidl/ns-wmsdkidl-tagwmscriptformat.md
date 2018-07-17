@@ -7,7 +7,7 @@ old-location: wmformat\wmscriptformat.htm
 old-project: wmformat
 ms.assetid: b7c513ac-9c28-4556-a0c8-f3e0d6efc735
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: WMSCRIPTFORMAT, WMSCRIPTFORMAT structure [windows Media Format], tagWMSCRIPTFORMAT, wmformat.wmscriptformat, wmsdkidl/WMSCRIPTFORMAT
 ms.prod: windows
 ms.technology: windows-sdk

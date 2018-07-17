@@ -4,10 +4,10 @@ title: ICertEncodeStringArray
 author: windows-sdk-content
 description: Provides methods for handling string arrays used in certificate extensions.
 old-location: security\icertencodestringarray.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 5515c25e-f788-4222-8f66-f5d86bd2a3a3
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: ICertEncodeStringArray, ICertEncodeStringArray interface [Security], ICertEncodeStringArray interface [Security],described, _certsrv_icertencodestringarray, certenc/ICertEncodeStringArray, security.icertencodestringarray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeStringArray</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertEncodeStringArray</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeStringArray</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertEncodeStringArray</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

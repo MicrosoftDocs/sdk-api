@@ -4,10 +4,10 @@ title: BeginBufferedAnimation function
 author: windows-sdk-content
 description: Begins a buffered animation operation. The animation consists of a cross-fade between the contents of two buffers over a specified period of time.
 old-location: controls\BeginBufferedAnimation.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\beginbufferedanimation.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: BeginBufferedAnimation, BeginBufferedAnimation function [Windows Controls], _shell_BeginBufferedAnimation, _shell_BeginBufferedAnimation_cpp, controls.BeginBufferedAnimation, controls._shell_BeginBufferedAnimation, uxtheme/BeginBufferedAnimation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,21 +81,21 @@ TBD
 
 ### -param dwFormat
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb759835(v=VS.85).aspx">BP_BUFFERFORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9D6666C4-06F0-4DE0-95FA-A18082A04448">BP_BUFFERFORMAT</a></b>
 
 The format of the buffer.
 
 
 ### -param pPaintParams [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb773228(v=VS.85).aspx">BP_PAINTPARAMS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/46ebf529-530f-4ccd-a3f8-7fcc7c71fca7">BP_PAINTPARAMS</a>*</b>
 
 A pointer to a structure that defines the paint operation parameters. This value can be <b>NULL</b>.
 
 
 ### -param pAnimationParams [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb773224(v=VS.85).aspx">BP_ANIMATIONPARAMS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/9693b45e-c58c-404d-bcbf-6ea02092b0bb">BP_ANIMATIONPARAMS</a>*</b>
 
 A pointer to a structure that defines the animation operation parameters.
 
@@ -139,9 +139,9 @@ A handle to the buffered paint animation.
 <b>BeginBufferedAnimation</b> will take care of drawing the intermediate frames between those two states by generating multiple <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> messages.
 		
 
-<b>BeginBufferedAnimation</b> starts a timer that generates <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> messages on which <a href="https://msdn.microsoft.com/library/Bb773271(v=VS.85).aspx">BufferedPaintRenderAnimation</a> should be called.  During these messages, <b>BufferedPaintRenderAnimation</b> will return <b>TRUE</b> when it paints an intermediate frame, to signify that the application has no further painting to do.
+<b>BeginBufferedAnimation</b> starts a timer that generates <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> messages on which <a href="https://msdn.microsoft.com/3280c43a-8597-4f09-bef6-f03b5af7e950">BufferedPaintRenderAnimation</a> should be called.  During these messages, <b>BufferedPaintRenderAnimation</b> will return <b>TRUE</b> when it paints an intermediate frame, to signify that the application has no further painting to do.
 
-If the animation duration is zero, then only <i>phdcTo</i> is returned and <i>phdcFrom</i>  is set to <b>NULL</b>.  In this case, the application should paint the final state using <i>phdcTo</i> to get the behavior similar to <a href="https://msdn.microsoft.com/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
+If the animation duration is zero, then only <i>phdcTo</i> is returned and <i>phdcFrom</i>  is set to <b>NULL</b>.  In this case, the application should paint the final state using <i>phdcTo</i> to get the behavior similar to <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a>.
 
 
 

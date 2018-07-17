@@ -4,10 +4,10 @@ title: ListView_GetItem macro
 author: windows-sdk-content
 description: Gets some or all of a list-view item's attributes. You can use this macro or send the LVM_GETITEM message explicitly.
 old-location: controls\ListView_GetItem.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitem.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ListView_GetItem, ListView_GetItem macro [Windows Controls], _win32_ListView_GetItem, _win32_ListView_GetItem_cpp, commctrl/ListView_GetItem, controls.ListView_GetItem, controls._win32_ListView_GetItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets some or all of a list-view item's attributes. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774953(v=VS.85).aspx">LVM_GETITEM</a> message explicitly. 
+Gets some or all of a list-view item's attributes. You can use this macro or send the <a href="https://msdn.microsoft.com/684ad96a-2c3b-4148-b66c-41f8322500bb">LVM_GETITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -69,17 +69,17 @@ A handle to the list-view control.
 
 Type: <b>LPLVITEM</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure that specifies the information to retrieve and receives information about the list-view item. 
+A pointer to an <a href="https://msdn.microsoft.com/4141a2ee-9016-4d76-8758-a36fc6eedb44">LVITEM</a> structure that specifies the information to retrieve and receives information about the list-view item. 
 
 
 ## -remarks
 
 
 
-When the <a href="https://msdn.microsoft.com/library/Bb774953(v=VS.85).aspx">LVM_GETITEM</a> message is sent, the 
-				<b>iItem</b> and <b>iSubItem</b> members identify the item or subitem to retrieve information about and the <b>mask</b> member specifies which attributes to retrieve. For a list of possible values, see the description of the <a href="https://msdn.microsoft.com/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure.
+When the <a href="https://msdn.microsoft.com/684ad96a-2c3b-4148-b66c-41f8322500bb">LVM_GETITEM</a> message is sent, the 
+				<b>iItem</b> and <b>iSubItem</b> members identify the item or subitem to retrieve information about and the <b>mask</b> member specifies which attributes to retrieve. For a list of possible values, see the description of the <a href="https://msdn.microsoft.com/4141a2ee-9016-4d76-8758-a36fc6eedb44">LVITEM</a> structure.
 
-If the LVIF_TEXT flag is set in the <b>mask</b> member of the <a href="https://msdn.microsoft.com/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure, the <b>pszText</b> member must point to a valid buffer and the <b>cchTextMax</b> member must be set to the number of characters in that buffer. Applications should not assume that the text will necessarily be placed in the specified buffer. The control may instead change the <b>pszText</b> member of the structure to point to the new text rather than place it in the buffer.
+If the LVIF_TEXT flag is set in the <b>mask</b> member of the <a href="https://msdn.microsoft.com/4141a2ee-9016-4d76-8758-a36fc6eedb44">LVITEM</a> structure, the <b>pszText</b> member must point to a valid buffer and the <b>cchTextMax</b> member must be set to the number of characters in that buffer. Applications should not assume that the text will necessarily be placed in the specified buffer. The control may instead change the <b>pszText</b> member of the structure to point to the new text rather than place it in the buffer.
 
 If the <b>mask</b> member specifies the LVIF_STATE value, the <b>stateMask</b> member must specify the item state bits to retrieve. On output, the <b>state</b> member contains the values of the specified state bits.
 

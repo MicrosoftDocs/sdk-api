@@ -7,7 +7,7 @@ old-location: shell\IFileOperation_ApplyPropertiesToItems.htm
 old-project: shell
 ms.assetid: d24aa63e-99ef-470c-9723-e561ee0a56bc
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: ApplyPropertiesToItems, ApplyPropertiesToItems method [Windows Shell], ApplyPropertiesToItems method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],ApplyPropertiesToItems method, IFileOperation.ApplyPropertiesToItems, IFileOperation::ApplyPropertiesToItems, _shell_IFileOperation_ApplyPropertiesToItems, shell.IFileOperation_ApplyPropertiesToItems, shobjidl_core/IFileOperation::ApplyPropertiesToItems
 ms.prod: windows
 ms.technology: windows-sdk

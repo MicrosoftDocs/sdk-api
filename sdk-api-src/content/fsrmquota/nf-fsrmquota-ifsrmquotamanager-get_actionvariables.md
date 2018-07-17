@@ -4,10 +4,10 @@ title: IFsrmQuotaManager::get_ActionVariables
 author: windows-sdk-content
 description: Retrieves a list of macros that you can specify in action property values.
 old-location: fsrm\ifsrmquotamanager_actionvariables.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: e7fe0139-692b-4f88-8411-ffd31d29e40d
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: ActionVariables property [File Server Resource Manager], ActionVariables property [File Server Resource Manager],FsrmQuotaManager class, ActionVariables property [File Server Resource Manager],IFsrmQuotaManager interface, ActionVariables property [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],ActionVariables property, IFsrmQuotaManager interface [File Server Resource Manager],ActionVariables property, IFsrmQuotaManager.ActionVariables, IFsrmQuotaManager.get_ActionVariables, IFsrmQuotaManager::ActionVariables, IFsrmQuotaManager::get_ActionVariables, IFsrmQuotaManagerEx interface [File Server Resource Manager],ActionVariables property, IFsrmQuotaManagerEx.ActionVariables, IFsrmQuotaManagerEx::get_ActionVariables, fs.ifsrmquotamanager_actionvariables, fsrm.ifsrmquotamanager_actionvariables, fsrmquota/IFsrmQuotaManager::ActionVariables, fsrmquota/IFsrmQuotaManager::get_ActionVariables, fsrmquota/IFsrmQuotaManagerEx::ActionVariables, fsrmquota/IFsrmQuotaManagerEx::get_ActionVariables, get_ActionVariables
 ms.prod: windows
 ms.technology: windows-sdk

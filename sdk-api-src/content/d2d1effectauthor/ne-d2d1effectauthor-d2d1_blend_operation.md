@@ -96,7 +96,7 @@ Subtract source 2 from source 1.
 
 
 
-This enumeration has the same numeric values as <a href="https://msdn.microsoft.com/library/Bb204894(v=VS.85).aspx">D3D10_BLEND_OP</a>.
+This enumeration has the same numeric values as <a href="https://msdn.microsoft.com/2d23109a-4d0e-4001-a693-185a942900c0">D3D10_BLEND_OP</a>.
 
 
 

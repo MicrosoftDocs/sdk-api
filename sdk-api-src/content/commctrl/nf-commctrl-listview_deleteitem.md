@@ -4,10 +4,10 @@ title: ListView_DeleteItem macro
 author: windows-sdk-content
 description: Removes an item from a list-view control. You can use this macro or send the LVM_DELETEITEM message explicitly.
 old-location: controls\ListView_DeleteItem.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_deleteitem.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ListView_DeleteItem, ListView_DeleteItem macro [Windows Controls], _win32_ListView_DeleteItem, _win32_ListView_DeleteItem_cpp, commctrl/ListView_DeleteItem, controls.ListView_DeleteItem, controls._win32_ListView_DeleteItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Removes an item from a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774895(v=VS.85).aspx">LVM_DELETEITEM</a> message explicitly. 
+Removes an item from a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/0eddd4c1-7786-4a8c-a16d-9fd83cce98b3">LVM_DELETEITEM</a> message explicitly. 
 
 
 ## -parameters

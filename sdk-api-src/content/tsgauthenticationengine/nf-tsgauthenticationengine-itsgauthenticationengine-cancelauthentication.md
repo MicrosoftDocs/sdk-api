@@ -4,10 +4,10 @@ title: ITSGAuthenticationEngine::CancelAuthentication
 author: windows-sdk-content
 description: Cancels an existing authentication request.
 old-location: termserv\itsgauthenticationengine_cancelauthentication.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 07da9ffa-b137-4e99-a1d1-14b7c14438a3
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: CancelAuthentication, CancelAuthentication method [Remote Desktop Services], CancelAuthentication method [Remote Desktop Services],ITSGAuthenticationEngine interface, ITSGAuthenticationEngine interface [Remote Desktop Services],CancelAuthentication method, ITSGAuthenticationEngine.CancelAuthentication, ITSGAuthenticationEngine::CancelAuthentication, termserv.itsgauthenticationengine_cancelauthentication, tsgauthenticationengine/ITSGAuthenticationEngine::CancelAuthentication
 ms.prod: windows
 ms.technology: windows-sdk

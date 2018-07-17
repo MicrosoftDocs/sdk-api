@@ -7,7 +7,7 @@ old-location: com\stringfromclsid.htm
 old-project: com
 ms.assetid: 61210ebd-cbf3-4e78-b077-53d2779053eb
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: StringFromCLSID, StringFromCLSID function [COM], _com_StringFromCLSID, com.stringfromclsid, combaseapi/StringFromCLSID
 ms.prod: windows
 ms.technology: windows-sdk

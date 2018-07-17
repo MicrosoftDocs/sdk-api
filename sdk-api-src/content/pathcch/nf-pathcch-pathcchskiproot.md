@@ -7,7 +7,7 @@ old-location: shell\PathCchSkipRoot.htm
 old-project: shell
 ms.assetid: 187bc49e-c5ae-42b8-acbd-a765f871d73b
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: PathCchSkipRoot, PathCchSkipRoot function [Windows Shell], pathcch/PathCchSkipRoot, shell.PathCchSkipRoot
 ms.prod: windows
 ms.technology: windows-sdk

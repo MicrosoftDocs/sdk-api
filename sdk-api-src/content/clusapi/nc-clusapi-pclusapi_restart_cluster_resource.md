@@ -7,8 +7,8 @@ old-location: mscs\restartclusterresource.htm
 old-project: mscs
 ms.assetid: 4DF2EF5A-F9F2-4230-96D8-F4B2CB6E4B92
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PCLUSAPI_RESTART_CLUSTER_RESOURCE, PCLUSAPI_RESTART_CLUSTER_RESOURCE callback, PCLUSAPI_RESTART_CLUSTER_RESOURCE callback function [Failover Cluster], clusapi/PCLUSAPI_RESTART_CLUSTER_RESOURCE, mscs.restartclusterresource
+ms.date: 07/12/2018
+ms.keywords: PCLUSAPI_RESTART_CLUSTER_RESOURCE, PCLUSAPI_RESTART_CLUSTER_RESOURCE function [Failover Cluster], RestartClusterResource, RestartClusterResource function [Failover Cluster], clusapi/PCLUSAPI_RESTART_CLUSTER_RESOURCE, clusapi/RestartClusterResource, mscs.restartclusterresource
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -35,11 +35,11 @@ api_type:
 api_location:
  -
 api_name:
- - PCLUSAPI_RESTART_CLUSTER_RESOURCE callback
+ - RestartClusterResource
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
 req.irql: 
 ---
 

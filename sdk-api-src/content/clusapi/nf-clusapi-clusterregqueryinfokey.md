@@ -7,7 +7,7 @@ old-location: mscs\clusterregqueryinfokey.htm
 old-project: mscs
 ms.assetid: 90feb6ae-bd15-4431-ba99-0116fa20e94a
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusterRegQueryInfoKey, ClusterRegQueryInfoKey function [Failover Cluster], _wolf_clusterregqueryinfokey, clusapi/ClusterRegQueryInfoKey, mscs.clusterregqueryinfokey
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ITextRange2::GetSubrange
 author: windows-sdk-content
 description: Retrieves a subrange in a range.
 old-location: controls\itextrange2_getsubrange.htm
-old-project: controls
+old-project: Controls
 ms.assetid: 64b031cf-9d32-4e36-8e13-f32a53f00abf
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: GetSubrange, GetSubrange method [Windows Controls], GetSubrange method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetSubrange method, ITextRange2.GetSubrange, ITextRange2::GetSubrange, controls.itextrange2_getsubrange, tom/ITextRange2::GetSubrange
 ms.prod: windows
 ms.technology: windows-sdk

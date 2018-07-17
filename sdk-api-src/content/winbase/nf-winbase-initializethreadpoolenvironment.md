@@ -4,10 +4,10 @@ title: InitializeThreadpoolEnvironment function
 author: windows-sdk-content
 description: Initializes a callback environment.
 old-location: base\initializethreadpoolenvironment.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: ad610b7a-9865-4feb-81d2-491f9f87ef3e
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: InitializeThreadpoolEnvironment, InitializeThreadpoolEnvironment function, base.initializethreadpoolenvironment, winbase/InitializeThreadpoolEnvironment
 ms.prod: windows
 ms.technology: windows-sdk

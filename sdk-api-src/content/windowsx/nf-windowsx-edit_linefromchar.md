@@ -4,10 +4,10 @@ title: Edit_LineFromChar macro
 author: windows-sdk-content
 description: Gets the index of the line that contains the specified character index in a multiline edit or rich edit control. You can use this macro or send the EM_LINEFROMCHAR message explicitly.
 old-location: controls\Edit_LineFromChar.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_linefromchar.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: Edit_LineFromChar, Edit_LineFromChar macro [Windows Controls], _win32_Edit_LineFromChar, _win32_Edit_LineFromChar_cpp, controls.Edit_LineFromChar, controls._win32_Edit_LineFromChar, windowsx/Edit_LineFromChar
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the index of the line that contains the specified character index in a multiline edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761609(v=VS.85).aspx">EM_LINEFROMCHAR</a> message explicitly.
+Gets the index of the line that contains the specified character index in a multiline edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/e8e9217b-3f0c-478d-b44d-2a51868dbc5a">EM_LINEFROMCHAR</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ The zero-based index of the character from the beginning of the text in the cont
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb761609(v=VS.85).aspx">EM_LINEFROMCHAR</a>.
+For more information, see <a href="https://msdn.microsoft.com/e8e9217b-3f0c-478d-b44d-2a51868dbc5a">EM_LINEFROMCHAR</a>.
 
 
 

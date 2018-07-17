@@ -7,7 +7,7 @@ old-location: mmc\iimagelist_imagelistsetstrip.htm
 old-project: mmc
 ms.assetid: b736a5ab-86a7-4c8d-82b7-bbe9f98bc402
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: IImageList interface [MMC],ImageListSetStrip method, IImageList.ImageListSetStrip, IImageList::ImageListSetStrip, ImageListSetStrip, ImageListSetStrip method [MMC], ImageListSetStrip method [MMC],IImageList interface, _slate_iimagelist_imagelistsetstrip, mmc.iimagelist_imagelistsetstrip, mmc/IImageList::ImageListSetStrip
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetWrapMode_wrapMode_.h
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\setwrapmode_76wrapmode.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: LinearGradientBrush class [GDI+],SetWrapMode method, LinearGradientBrush.SetWrapMode, LinearGradientBrush::SetWrapMode, SetWrapMode, SetWrapMode method [GDI+], SetWrapMode method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_SetWrapMode_wrapMode_, gdiplus._gdiplus_CLASS_LinearGradientBrush_SetWrapMode_wrapMode_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ The <b>LinearGradientBrush::SetWrapMode</b> method sets the wrap mode of this li
 
 ### -param wrapMode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534407(v=VS.85).aspx">WrapMode</a></b>
+Type: <b><a href="https://msdn.microsoft.com/24b035f9-c03e-4502-b603-d6a9e47d6df9">WrapMode</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/library/ms534407(v=VS.85).aspx">WrapMode</a> enumeration that specifies how areas painted with this linear gradient brush will be tiled. The value of this parameter must be one of the following elements: 
+Element of the <a href="https://msdn.microsoft.com/24b035f9-c03e-4502-b603-d6a9e47d6df9">WrapMode</a> enumeration that specifies how areas painted with this linear gradient brush will be tiled. The value of this parameter must be one of the following elements: 
 
 
 <ul>
@@ -96,7 +96,7 @@ If the method fails, it returns one of the other elements of the
 The boundary lines of a linear gradient brush form a tile. When you paint an area with a linear gradient brush, the tile repeats. A linear gradient brush may have alternate tiles flipped in a certain direction, as specified by the wrap mode. Flipping has the effect of reversing the order of the colors.
 
 The wrap mode defaults to WrapModeTile when a 
-				<a href="https://msdn.microsoft.com/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a> object is constructed. 
+				<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a> object is constructed. 
 
 
 #### Examples
@@ -140,19 +140,19 @@ The following example creates a linear gradient brush and uses it to fill a rect
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533914(v=VS.85).aspx">Creating a Linear Gradient</a>
+<a href="https://msdn.microsoft.com/9b0236b2-be6b-4918-a106-5b0e6c3dd5ff">Creating a Linear Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535336(v=VS.85).aspx">LinearGradientBrush::GetWrapMode</a>
+<a href="https://msdn.microsoft.com/149504d3-ca48-4fec-b090-33fb3f08b230">LinearGradientBrush::GetWrapMode</a>
 
 
 
@@ -160,11 +160,11 @@ The following example creates a linear gradient brush and uses it to fill a rect
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533861(v=VS.85).aspx">Tiling a Shape with an Image</a>
+<a href="https://msdn.microsoft.com/c92aa519-647a-4cd9-b88e-b79be0116d05">Tiling a Shape with an Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534407(v=VS.85).aspx">WrapMode</a>
+<a href="https://msdn.microsoft.com/24b035f9-c03e-4502-b603-d6a9e47d6df9">WrapMode</a>
  
 
  

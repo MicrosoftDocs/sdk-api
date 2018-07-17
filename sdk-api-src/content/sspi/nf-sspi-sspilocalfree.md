@@ -4,10 +4,10 @@ title: SspiLocalFree function
 author: windows-sdk-content
 description: Frees the memory associated with the specified buffer.
 old-location: security\sspilocalfree.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: afb890a8-a2c3-4c35-ba76-758b047ababb
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: SspiLocalFree, SspiLocalFree function [Security], security.sspilocalfree, sspi/SspiLocalFree
 ms.prod: windows
 ms.technology: windows-sdk

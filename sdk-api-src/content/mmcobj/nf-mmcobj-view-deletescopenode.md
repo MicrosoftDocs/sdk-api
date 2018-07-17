@@ -7,7 +7,7 @@ old-location: mmc\view_deletescopenode.htm
 old-project: mmc
 ms.assetid: f7678d3a-4638-4b4d-8255-d9517217cd89
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: DeleteScopeNode, DeleteScopeNode method [MMC], DeleteScopeNode method [MMC],View interface, DeleteScopeNode method [MMC],View object, View interface [MMC],DeleteScopeNode method, View object [MMC],DeleteScopeNode method, View.DeleteScopeNode, View::DeleteScopeNode, _slate_view.deletescopenode_method, mmc.view_deletescopenode
 ms.prod: windows
 ms.technology: windows-sdk

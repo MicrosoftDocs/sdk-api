@@ -93,7 +93,7 @@ If the message was not sent through <a href="https://msdn.microsoft.com/library/
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms644928(v=VS.85).aspx">Sending a Message</a>.
+For an example, see <a href="using_messages_and_message_queues.htm">Sending a Message</a>.
 
 <div class="code"></div>
 
@@ -108,11 +108,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms644928(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644941(v=VS.85).aspx">InSendMessage</a>
+<a href="https://msdn.microsoft.com/adca4de0-fba5-4a1e-952f-d65bdcca5b0c">InSendMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/885bb607-3ec0-4e24-9f55-fbdfb1c538a1">Messages and Message Queues</a>
 
 
 

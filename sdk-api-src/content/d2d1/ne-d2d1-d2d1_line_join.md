@@ -96,7 +96,7 @@ Regular angular vertices unless the join would extend beyond the miter limit; ot
 
 The following illustration shows  different line join settings for the same stroked path geometry.  
 
-<img alt="Illustration of line join settings" src="./images/StrokeStyle_Join.png"/>
+<img alt="Illustration of line join settings" src="images/StrokeStyle_Join.png"/>
 
 
 

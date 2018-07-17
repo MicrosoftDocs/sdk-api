@@ -7,7 +7,7 @@ old-location: com\ioleinplaceobjectwindowless_onwindowmessage.htm
 old-project: com
 ms.assetid: e9deaed5-485f-40e4-96ee-391dc3d12a86
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: IOleInPlaceObjectWindowless interface [COM],OnWindowMessage method, IOleInPlaceObjectWindowless.OnWindowMessage, IOleInPlaceObjectWindowless::OnWindowMessage, OnWindowMessage, OnWindowMessage method [COM], OnWindowMessage method [COM],IOleInPlaceObjectWindowless interface, _ole_ioleinplaceobjectwindowless_onwindowmessage, com.ioleinplaceobjectwindowless_onwindowmessage, ocidl/IOleInPlaceObjectWindowless::OnWindowMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -138,7 +138,7 @@ The container should dispatch the message to the windowless object with the keyb
 </ul>
 For all other messages, the container should process the message on its own.
 
-The windowless object can return S_FALSE to this method to indicate that it did not process the message. Then, the container either performs the default behavior for the message by calling the <a href="https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx">DefWindowProc</a> function, or processes the message itself.
+The windowless object can return S_FALSE to this method to indicate that it did not process the message. Then, the container either performs the default behavior for the message by calling the <a href="_win32_DefWindowProc_cpp">DefWindowProc</a> function, or processes the message itself.
 
 The container must pass the following window messages to the default window procedure:
 

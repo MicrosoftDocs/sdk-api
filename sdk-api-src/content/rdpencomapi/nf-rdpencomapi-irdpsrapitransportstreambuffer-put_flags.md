@@ -4,10 +4,10 @@ title: IRDPSRAPITransportStreamBuffer::put_Flags
 author: windows-sdk-content
 description: Retrieves or specifies options for the stream buffer.
 old-location: rdp\irdpsrapitransportstreambuffer_flags.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 505ff729-258c-4919-9985-a8a3a9f09871
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/13/2018
 ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPITransportStreamBuffer interface, IRDPSRAPITransportStreamBuffer interface [RDP],Flags property, IRDPSRAPITransportStreamBuffer.Flags, IRDPSRAPITransportStreamBuffer.put_Flags, IRDPSRAPITransportStreamBuffer::Flags, IRDPSRAPITransportStreamBuffer::get_Flags, IRDPSRAPITransportStreamBuffer::put_Flags, put_Flags, rdp.irdpsrapitransportstreambuffer_flags, rdpencomapi/IRDPSRAPITransportStreamBuffer::Flags, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_Flags, rdpencomapi/IRDPSRAPITransportStreamBuffer::put_Flags
 ms.prod: windows
 ms.technology: windows-sdk

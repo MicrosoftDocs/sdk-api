@@ -51,9 +51,9 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Expands on the information described in the <a href="https://msdn.microsoft.com/library/ms632608(v=VS.85).aspx">TITLEBARINFO</a> structure by including the coordinates of each element of the title bar.
+Expands on the information described in the <a href="https://msdn.microsoft.com/85987d3a-6abb-4692-9e50-ce1f71d7be74">TITLEBARINFO</a> structure by including the coordinates of each element of the title bar.
 
-This structure is sent with the <a href="https://msdn.microsoft.com/library/Aa969436(v=VS.85).aspx">WM_GETTITLEBARINFOEX</a> message.
+This structure is sent with the <a href="https://msdn.microsoft.com/0760dbf1-5b20-471c-bfd9-b8d28b52074b">WM_GETTITLEBARINFOEX</a> message.
 
 
 ## -struct-fields
@@ -65,7 +65,7 @@ This structure is sent with the <a href="https://msdn.microsoft.com/library/Aa96
 
 Type: <b>DWORD</b>
 
-The size of the structure, in bytes. Set this member to <code>sizeof(TITLEBARINFOEX)</code> before sending with the <a href="https://msdn.microsoft.com/library/Aa969436(v=VS.85).aspx">WM_GETTITLEBARINFOEX</a> message.
+The size of the structure, in bytes. Set this member to <code>sizeof(TITLEBARINFOEX)</code> before sending with the <a href="https://msdn.microsoft.com/0760dbf1-5b20-471c-bfd9-b8d28b52074b">WM_GETTITLEBARINFOEX</a> message.
 
 
 ### -field rcTitleBar
@@ -231,7 +231,7 @@ An array that receives a structure for each element of the title bar. The struct
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa969436(v=VS.85).aspx">WM_GETTITLEBARINFOEX</a>
+<a href="https://msdn.microsoft.com/0760dbf1-5b20-471c-bfd9-b8d28b52074b">WM_GETTITLEBARINFOEX</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: dshow\iddrawexclmodevideo_getddrawsurface.htm
 old-project: DirectShow
 ms.assetid: 0fb29af3-5f6f-4502-8785-72c64f72fec4
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: GetDDrawSurface, GetDDrawSurface method [DirectShow], GetDDrawSurface method [DirectShow],IDDrawExclModeVideo interface, IDDrawExclModeVideo interface [DirectShow],GetDDrawSurface method, IDDrawExclModeVideo.GetDDrawSurface, IDDrawExclModeVideo::GetDDrawSurface, IDDrawExclModeVideoGetDDrawSurface, dshow.iddrawexclmodevideo_getddrawsurface, strmif/IDDrawExclModeVideo::GetDDrawSurface
 ms.prod: windows
 ms.technology: windows-sdk

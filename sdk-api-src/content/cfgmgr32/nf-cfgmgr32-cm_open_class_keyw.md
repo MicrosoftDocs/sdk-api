@@ -7,7 +7,7 @@ old-location: devinst\cm_open_class_key.htm
 old-project: devinst
 ms.assetid: 5a87769e-3555-44ce-b4d8-16c98bdc3732
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: CM_Open_Class_Key, CM_Open_Class_Key function [Device and Driver Installation], CM_Open_Class_KeyW, cfgmgr32/CM_Open_Class_Key, cfgmgr32/CM_Open_Class_KeyW, cfgmgrfn_70b86a61-c687-4d43-8c3f-8a00db441580.xml, devinst.cm_open_class_key
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\ParseURL.htm
 old-project: shell
 ms.assetid: 3d42dad0-b9eb-4e40-afc8-68cb85b27504
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: ParseURL, ParseURL function [Windows Shell], ParseURLA, ParseURLW, _win32_ParseURL, shell.ParseURL, shlwapi/ParseURL, shlwapi/ParseURLA, shlwapi/ParseURLW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ Returns <b>S_OK</b> on success, or a COM error code otherwise. The function retu
 
 
 
-The parsing performed by <b>ParseURL</b> is fairly rudimentary. For more sophisticated URL parsing, use <a href="https://msdn.microsoft.com/library/Aa384376(v=VS.85).aspx">InternetCrackUrl</a>.
+The parsing performed by <b>ParseURL</b> is fairly rudimentary. For more sophisticated URL parsing, use <a href="_inet_InternetCrackUrl_Function">InternetCrackUrl</a>.
 
 
 #### Examples

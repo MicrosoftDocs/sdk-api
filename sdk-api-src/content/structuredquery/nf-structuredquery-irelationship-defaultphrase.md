@@ -66,7 +66,7 @@ req.product: Windows XP with SP1 and later
 Type: <b>LPWSTR*</b>
 
 
-            Receives the default phrase as a Unicode string. The calling application must free the string by calling <a href="https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>.
+            Receives the default phrase as a Unicode string. The calling application must free the string by calling <a href="_com_CoTaskMemFree">CoTaskMemFree</a>.
 
 
 ## -returns

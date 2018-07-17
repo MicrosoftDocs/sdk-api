@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadercallbackadvanced_onstreamsample.htm
 old-project: wmformat
 ms.assetid: 6bfdd903-a3a4-4ef4-b88a-4d24c9c0f4b8
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: IWMReaderCallbackAdvanced interface [windows Media Format],OnStreamSample method, IWMReaderCallbackAdvanced.OnStreamSample, IWMReaderCallbackAdvanced::OnStreamSample, IWMReaderCallbackAdvancedOnStreamSample, OnStreamSample, OnStreamSample method [windows Media Format], OnStreamSample method [windows Media Format],IWMReaderCallbackAdvanced interface, wmformat.iwmreadercallbackadvanced_onstreamsample, wmsdkidl/IWMReaderCallbackAdvanced::OnStreamSample
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,11 +92,11 @@ The flags that can be specified have the following uses.
 </tr>
 <tr>
 <td>No flag set</td>
-<td>None of the conditions for the other flags applies. For example, a <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">delta frame</a> in most cases would not have any flags set for it.</td>
+<td>None of the conditions for the other flags applies. For example, a <a href="wmformat_glossary.htm">delta frame</a> in most cases would not have any flags set for it.</td>
 </tr>
 <tr>
 <td>WM_SF_CLEANPOINT</td>
-<td>This is the same as a <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">key frame</a>. It indicates a good point to go to during a seek, for example.</td>
+<td>This is the same as a <a href="wmformat_glossary.htm">key frame</a>. It indicates a good point to go to during a seek, for example.</td>
 </tr>
 <tr>
 <td>WM_SF_DISCONTINUITY</td>

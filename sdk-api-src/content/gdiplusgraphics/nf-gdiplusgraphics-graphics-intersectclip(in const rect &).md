@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_IntersectClip_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsintersectclipmethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Graphics.IntersectClip, Graphics.IntersectClip(IN const Rect &), Graphics::IntersectClip, Graphics::IntersectClip(IN const Rect &), IntersectClip, IntersectClip methods [GDI+], _gdiplus_CLASS_Graphics_IntersectClip_Methods, gdiplus._gdiplus_CLASS_Graphics_IntersectClip_Methods, gdiplusgraphics/IntersectClip
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,30 +65,30 @@ InterscetClip methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535943(v=VS.85).aspx">IntersectClip(Rect&)</a>
+<a href="https://msdn.microsoft.com/4b2604c9-ddaf-46ec-91b1-0146b9365fd7">IntersectClip(Rect&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535943(v=VS.85).aspx">Graphics::IntersectClip</a>
+The <a href="https://msdn.microsoft.com/4b2604c9-ddaf-46ec-91b1-0146b9365fd7">Graphics::IntersectClip</a>
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a><b>Graphics</b> object.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535945(v=VS.85).aspx">IntersectClip(RectF&)</a>
+<a href="https://msdn.microsoft.com/9aa49ff6-adce-4495-9af2-719ad029f751">IntersectClip(RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535945(v=VS.85).aspx">Graphics::IntersectClip</a>
+The <a href="https://msdn.microsoft.com/9aa49ff6-adce-4495-9af2-719ad029f751">Graphics::IntersectClip</a>
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a><b>Graphics</b> object.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535944(v=VS.85).aspx">IntersectClip(Region*)</a>
+<a href="https://msdn.microsoft.com/4eab3ace-5bc0-442b-a88b-23160eebeee9">IntersectClip(Region*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms535944(v=VS.85).aspx">Graphics::IntersectClip</a>
+The <a href="https://msdn.microsoft.com/4eab3ace-5bc0-442b-a88b-23160eebeee9">Graphics::IntersectClip</a>
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a><b>Graphics</b> object.
 
 </td>

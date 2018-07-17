@@ -61,7 +61,7 @@ Restates a condition as a structured query string. If the condition was the resu
 
 ### -param pCondition [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a>*</b>
 
 The condition to be restated.
 
@@ -77,7 +77,7 @@ Reserved. Must be <b>FALSE</b>.
 
 Type: <b>LPWSTR*</b>
 
-Receives the restated query string. The caller must free the string by calling <a href="https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>.
+Receives the restated query string. The caller must free the string by calling <a href="_com_CoTaskMemFree">CoTaskMemFree</a>.
 
 
 ## -returns

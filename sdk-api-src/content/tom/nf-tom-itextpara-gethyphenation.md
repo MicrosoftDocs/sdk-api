@@ -4,10 +4,10 @@ title: ITextPara::GetHyphenation
 author: windows-sdk-content
 description: Determines whether automatic hyphenation is enabled for the range.
 old-location: controls\ITextPara_GetHyphenation.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gethyphenation.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: GetHyphenation, GetHyphenation method [Windows Controls], GetHyphenation method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetHyphenation method, ITextPara.GetHyphenation, ITextPara::GetHyphenation, _win32_ITextPara_GetHyphenation, _win32_ITextPara_GetHyphenation_cpp, controls.ITextPara_GetHyphenation, controls._win32_ITextPara_GetHyphenation, tom/ITextPara::GetHyphenation, tomFalse, tomTrue, tomUndefined
 ms.prod: windows
 ms.technology: windows-sdk
@@ -167,7 +167,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-This property corresponds to the PFE_DONOTHYPHEN effect described in the <a href="https://msdn.microsoft.com/library/Bb787942(v=VS.85).aspx">PARAFORMAT2</a> structure. 
+This property corresponds to the PFE_DONOTHYPHEN effect described in the <a href="https://msdn.microsoft.com/96c8ec3e-3d4c-4233-993b-201f4c62e653">PARAFORMAT2</a> structure. 
 
 
 
@@ -181,11 +181,11 @@ This property corresponds to the PFE_DONOTHYPHEN effect described in the <a href
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787942(v=VS.85).aspx">PARAFORMAT2</a>
+<a href="https://msdn.microsoft.com/96c8ec3e-3d4c-4233-993b-201f4c62e653">PARAFORMAT2</a>
 
 
 
@@ -193,11 +193,11 @@ This property corresponds to the PFE_DONOTHYPHEN effect described in the <a href
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774153(v=VS.85).aspx">SetHyphenation</a>
+<a href="https://msdn.microsoft.com/b0d8c426-bc6d-4175-ba56-68a9bb31bd46">SetHyphenation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

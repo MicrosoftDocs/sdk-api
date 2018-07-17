@@ -4,10 +4,10 @@ title: NPGetConnection function
 author: windows-sdk-content
 description: Retrieves information about a connection.
 old-location: security\npgetconnection.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 3f52bbff-998d-4e11-877f-478085207e6b
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: NPGetConnection, NPGetConnection function [Security], _mnp_npgetconnection, npapi/NPGetConnection, security.npgetconnection
 ms.prod: windows
 ms.technology: windows-sdk

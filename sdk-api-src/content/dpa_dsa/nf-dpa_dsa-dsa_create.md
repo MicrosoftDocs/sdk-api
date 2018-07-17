@@ -4,10 +4,10 @@ title: DSA_Create function
 author: windows-sdk-content
 description: Creates a dynamic structure array (DSA).
 old-location: controls\DSA_Create.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_create.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: DSA_Create, DSA_Create function [Windows Controls], _win32_DSA_Create, _win32_DSA_Create_cpp, controls.DSA_Create, controls._win32_DSA_Create, dpa_dsa/DSA_Create
 ms.prod: windows
 ms.technology: windows-sdk

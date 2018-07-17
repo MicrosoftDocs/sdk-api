@@ -4,10 +4,10 @@ title: CryptCreateHash function
 author: windows-sdk-content
 description: Initiates the hashing of a stream of data. It creates and returns to the calling application a handle to a cryptographic service provider (CSP) hash object.
 old-location: security\cryptcreatehash.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 05e3db57-8d83-48e2-8590-68039ea27253
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CRYPT_SECRETDIGEST, CryptCreateHash, CryptCreateHash function [Security], _crypto2_cryptcreatehash, security.cryptcreatehash, wincrypt/CryptCreateHash
 ms.prod: windows
 ms.technology: windows-sdk
@@ -351,7 +351,7 @@ if(hCryptProv)
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

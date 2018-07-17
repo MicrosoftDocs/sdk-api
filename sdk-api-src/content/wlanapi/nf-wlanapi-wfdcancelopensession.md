@@ -4,10 +4,10 @@ title: WFDCancelOpenSession function
 author: windows-sdk-content
 description: Indicates that the application wants to cancel a pending WFDStartOpenSession function that has not completed.
 old-location: nwifi\wfdcancelopensession.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: 0BE3DAED-C9B1-492B-BDFC-CB32BE23E700
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WFDCancelOpenSession, WFDCancelOpenSession function [NativeWIFI], nwifi.wfdcancelopensession, wlanapi/WFDCancelOpenSession
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: cos\iservicetransactionconfig_configurebyot.htm
 old-project: cossdk
 ms.assetid: be4fa727-962e-4254-8615-58f6ced15fc3
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: ConfigureBYOT, ConfigureBYOT method [COM+], ConfigureBYOT method [COM+],IServiceTransactionConfig interface, IServiceTransactionConfig interface [COM+],ConfigureBYOT method, IServiceTransactionConfig.ConfigureBYOT, IServiceTransactionConfig::ConfigureBYOT, _cos_IServiceTransactionConfig_ConfigureBYOT, comsvcs/IServiceTransactionConfig::ConfigureBYOT, cos.iservicetransactionconfig_configurebyot
 ms.prod: windows
 ms.technology: windows-sdk

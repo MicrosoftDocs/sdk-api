@@ -7,7 +7,7 @@ old-location: mscs\raiserestypenotification.htm
 old-project: mscs
 ms.assetid: 9F5C8008-6B7B-4CA9-896C-15E5A3FB68C9
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: PRAISE_RES_TYPE_NOTIFICATION, PRAISE_RES_TYPE_NOTIFICATION callback function [Failover Cluster], RaiseResTypeNotification, RaiseResTypeNotification callback, RaiseResTypeNotification callback function [Failover Cluster], mscs.raiserestypenotification, resapi/PRAISE_RES_TYPE_NOTIFICATION, resapi/RaiseResTypeNotification
 ms.prod: windows
 ms.technology: windows-sdk

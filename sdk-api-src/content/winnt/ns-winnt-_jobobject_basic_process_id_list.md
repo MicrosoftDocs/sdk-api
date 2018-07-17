@@ -4,10 +4,10 @@ title: "_JOBOBJECT_BASIC_PROCESS_ID_LIST"
 author: windows-sdk-content
 description: Contains the process identifier list for a job object.
 old-location: base\jobobject_basic_process_id_list_str.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: fae42f3b-d4bd-4126-aa19-47f046ced09f
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: "*PJOBOBJECT_BASIC_PROCESS_ID_LIST, JOBOBJECT_BASIC_PROCESS_ID_LIST, JOBOBJECT_BASIC_PROCESS_ID_LIST structure, PJOBOBJECT_BASIC_PROCESS_ID_LIST, PJOBOBJECT_BASIC_PROCESS_ID_LIST structure pointer, _JOBOBJECT_BASIC_PROCESS_ID_LIST, _win32_jobobject_basic_process_id_list_str, base.jobobject_basic_process_id_list_str, winnt/JOBOBJECT_BASIC_PROCESS_ID_LIST, winnt/PJOBOBJECT_BASIC_PROCESS_ID_LIST"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_hdr_metadata_hdr10.htm
 old-project: direct3ddxgi
 ms.assetid: 67A53A43-121F-4D83-AACC-D25D58123BE1
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: DXGI_HDR_METADATA_HDR10, DXGI_HDR_METADATA_HDR10 structure [DXGI], direct3ddxgi.dxgi_hdr_metadata_hdr10, dxgi1_5/DXGI_HDR_METADATA_HDR10
 ms.prod: windows
 ms.technology: windows-sdk

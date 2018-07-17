@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader2_setrangebyframeex.htm
 old-project: wmformat
 ms.assetid: 8a21529f-3645-4fe5-900e-19032d601ff4
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: IWMSyncReader2 interface [windows Media Format],SetRangeByFrameEx method, IWMSyncReader2.SetRangeByFrameEx, IWMSyncReader2::SetRangeByFrameEx, IWMSyncReader2SetRangeByFrameEx, SetRangeByFrameEx, SetRangeByFrameEx method [windows Media Format], SetRangeByFrameEx method [windows Media Format],IWMSyncReader2 interface, wmformat.iwmsyncreader2_setrangebyframeex, wmsdkidl/IWMSyncReader2::SetRangeByFrameEx
 ms.prod: windows
 ms.technology: windows-sdk

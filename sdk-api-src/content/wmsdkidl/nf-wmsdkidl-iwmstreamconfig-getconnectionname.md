@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamconfig_getconnectionname.htm
 old-project: wmformat
 ms.assetid: 04d50606-c355-45d4-9cc1-a8ef37113bf7
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: GetConnectionName, GetConnectionName method [windows Media Format], GetConnectionName method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetConnectionName method, IWMStreamConfig.GetConnectionName, IWMStreamConfig::GetConnectionName, IWMStreamConfigGetConnectionName, wmformat.iwmstreamconfig_getconnectionname, wmsdkidl/IWMStreamConfig::GetConnectionName
 ms.prod: windows
 ms.technology: windows-sdk

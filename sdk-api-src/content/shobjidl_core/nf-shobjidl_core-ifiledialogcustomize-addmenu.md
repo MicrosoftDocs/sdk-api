@@ -7,7 +7,7 @@ old-location: shell\IFileDialogCustomize_AddMenu.htm
 old-project: shell
 ms.assetid: e5e29554-e095-4164-bf67-64f9d6a3e502
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: AddMenu, AddMenu method [Windows Shell], AddMenu method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddMenu method, IFileDialogCustomize.AddMenu, IFileDialogCustomize::AddMenu, shell.IFileDialogCustomize_AddMenu, shell_IFileDialogCustomize_AddMenu, shobjidl_core/IFileDialogCustomize::AddMenu
 ms.prod: windows
 ms.technology: windows-sdk

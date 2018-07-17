@@ -7,7 +7,7 @@ old-location: mscs\clusresdependents_additem.htm
 old-project: mscs
 ms.assetid: f640b526-163d-4975-b135-6734569bf29a
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: AddItem, AddItem method [Failover Cluster], AddItem method [Failover Cluster],ClusResDependents class, ClusResDependents class [Failover Cluster],AddItem method, ClusResDependents.AddItem, ISClusResDependents.AddItem, ISClusResDependents::AddItem, _wolf_clusresdependents.additem, mscs.clusresdependents_additem
 ms.prod: windows
 ms.technology: windows-sdk

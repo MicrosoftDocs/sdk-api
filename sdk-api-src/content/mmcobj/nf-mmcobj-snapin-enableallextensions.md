@@ -7,7 +7,7 @@ old-location: mmc\snapin_enableallextensions.htm
 old-project: mmc
 ms.assetid: 9aee0bb9-ad2c-4bd5-97be-e38cc2425d70
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: EnableAllExtensions, EnableAllExtensions method [MMC], EnableAllExtensions method [MMC],SnapIn interface, EnableAllExtensions method [MMC],SnapIn object, SnapIn interface [MMC],EnableAllExtensions method, SnapIn object [MMC],EnableAllExtensions method, SnapIn.EnableAllExtensions, SnapIn::EnableAllExtensions, _slate_snapin.enableallextensions_method, mmc.snapin_enableallextensions
 ms.prod: windows
 ms.technology: windows-sdk

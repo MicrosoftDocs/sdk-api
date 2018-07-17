@@ -7,7 +7,7 @@ old-location: security\icspinformation_keyspec_property.htm
 old-project: seccertenroll
 ms.assetid: f66f2f5c-7f50-4be6-973e-844d6cb76f61
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICspInformation interface [Security],KeySpec property, ICspInformation.KeySpec, ICspInformation.get_KeySpec, ICspInformation::KeySpec, ICspInformation::get_KeySpec, KeySpec property [Security], KeySpec property [Security],ICspInformation interface, XCN_AT_KEYEXCHANGE (1), XCN_AT_SIGNATURE (2), certenroll/ICspInformation::KeySpec, certenroll/ICspInformation::get_KeySpec, get_KeySpec, security.icspinformation_keyspec_property
 ms.prod: windows
 ms.technology: windows-sdk

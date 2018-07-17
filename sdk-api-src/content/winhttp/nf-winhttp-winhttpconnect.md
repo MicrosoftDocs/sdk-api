@@ -98,7 +98,7 @@ Uses the default port for HTTP servers (port 80).
 </td>
 <td width="60%">
 Uses the default port for HTTPS servers (port 443).  Selecting this port does not automatically establish a secure connection.  You must still specify the use of secure transaction semantics by using the 
-<a href="https://msdn.microsoft.com/library/Aa384099(v=VS.85).aspx">WINHTTP_FLAG_SECURE</a> flag with 
+<a href="winhttpopenrequest.htm">WINHTTP_FLAG_SECURE</a> flag with 
 <a href="https://msdn.microsoft.com/9ecd035d-1abf-48ca-baf2-d9754f912c60">WinHttpOpenRequest</a>.
 
 </td>

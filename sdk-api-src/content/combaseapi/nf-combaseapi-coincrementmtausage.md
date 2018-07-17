@@ -7,7 +7,7 @@ old-location: com\coincrementmtausage.htm
 old-project: com
 ms.assetid: EFE6E66A-96A3-4B51-92DD-1CE84B1F0185
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: CoIncrementMTAUsage, CoIncrementMTAUsage function [COM], com.coincrementmtausage, combaseapi/CoIncrementMTAUsage
 ms.prod: windows
 ms.technology: windows-sdk

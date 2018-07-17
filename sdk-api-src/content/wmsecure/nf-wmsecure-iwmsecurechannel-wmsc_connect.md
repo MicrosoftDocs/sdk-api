@@ -7,7 +7,7 @@ old-location: wmformat\iwmsecurechannel_wmsc_connect.htm
 old-project: wmformat
 ms.assetid: d8386b23-6319-4687-9de2-a81e661a60e6
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Connect method, IWMSecureChannel.WMSC_Connect, IWMSecureChannel::WMSC_Connect, WMSC_Connect, WMSC_Connect method [windows Media Format], WMSC_Connect method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_connect, wmsecure/IWMSecureChannel::WMSC_Connect
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winrt\isurfaceimagesourcenativewithd2d_begindraw.htm
 old-project: WinRT
 ms.assetid: 077458AB-7644-4973-8955-95E097DAF859
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/13/2018
 ms.keywords: BeginDraw, BeginDraw method [Windows Runtime], BeginDraw method [Windows Runtime],ISurfaceImageSourceNativeWithD2D interface, ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],BeginDraw method, ISurfaceImageSourceNativeWithD2D.BeginDraw, ISurfaceImageSourceNativeWithD2D.xaml, ISurfaceImageSourceNativeWithD2D::BeginDraw, ISurfaceImageSourceNativeWithD2D::xaml, windows/ISurfaceImageSourceNativeWithD2D::BeginDraw, winrt.isurfaceimagesourcenativewithd2d_begindraw
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ IID used to lookup the object for drawing.
 
 ### -param updateObject [out]
 
-Receives a COM pointer to the drawing object. Based on <i>iid</i>, this may be either an <a href="https://msdn.microsoft.com/library/Bb174565(v=VS.85).aspx">IDXGISurface</a>, when not using batched drawing, or a shared <a href="https://msdn.microsoft.com/a54dd628-c2a2-4b04-9ced-7749a395f187">ID2D1DeviceContext</a>, when using batched Direct2D drawing to improve performance when updating Direct2D content across multiple surfaces. 
+Receives a COM pointer to the drawing object. Based on <i>iid</i>, this may be either an <a href="https://msdn.microsoft.com/9210b966-9e9a-4cd1-ba70-6f1a9fda9d80">IDXGISurface</a>, when not using batched drawing, or a shared <a href="https://msdn.microsoft.com/a54dd628-c2a2-4b04-9ced-7749a395f187">ID2D1DeviceContext</a>, when using batched Direct2D drawing to improve performance when updating Direct2D content across multiple surfaces. 
 
 
 ### -param offset [out]

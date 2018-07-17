@@ -4,10 +4,10 @@ title: ITextPara::GetListTab
 author: windows-sdk-content
 description: Retrieves the list tab setting, which is the distance between the first-line indent and the text on the first line. The numbered or bulleted text is left-justified, centered, or right-justified at the first-line indent value.
 old-location: controls\ITextPara_GetListTab.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlisttab.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: GetListTab, GetListTab method [Windows Controls], GetListTab method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetListTab method, ITextPara.GetListTab, ITextPara::GetListTab, _win32_ITextPara_GetListTab, _win32_ITextPara_GetListTab_cpp, controls.ITextPara_GetListTab, controls._win32_ITextPara_GetListTab, tom/ITextPara::GetListTab
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,7 +122,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-To determine whether the numbered or bulleted text is left-justified, centered, or right-justified, call <a href="https://msdn.microsoft.com/library/Bb773983(v=VS.85).aspx">ITextPara::GetListAlignment</a>.
+To determine whether the numbered or bulleted text is left-justified, centered, or right-justified, call <a href="https://msdn.microsoft.com/bc6785be-4e05-48fb-97ae-6f3e3518db9f">ITextPara::GetListAlignment</a>.
 
 
 
@@ -132,11 +132,11 @@ To determine whether the numbered or bulleted text is left-justified, centered, 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787728(v=VS.85).aspx">AddTab</a>
+<a href="https://msdn.microsoft.com/e53d8988-6c0f-405f-b9da-04c83ff0ff64">AddTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787738(v=VS.85).aspx">ClearAllTabs</a>
+<a href="https://msdn.microsoft.com/61899b21-a883-440d-bb2c-0c65b6ae48c0">ClearAllTabs</a>
 
 
 
@@ -144,27 +144,27 @@ To determine whether the numbered or bulleted text is left-justified, centered, 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787748(v=VS.85).aspx">DeleteTab</a>
+<a href="https://msdn.microsoft.com/82950caa-4fbc-4f80-aae4-91feecccef65">DeleteTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773951(v=VS.85).aspx">GetFirstLineIndent</a>
+<a href="https://msdn.microsoft.com/82831ef0-7ece-4d85-96f5-aa3c4591e458">GetFirstLineIndent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773983(v=VS.85).aspx">GetListAlignment</a>
+<a href="https://msdn.microsoft.com/bc6785be-4e05-48fb-97ae-6f3e3518db9f">GetListAlignment</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774034(v=VS.85).aspx">GetTab</a>
+<a href="https://msdn.microsoft.com/78e1c637-c2ae-4919-8e2f-8e8b89743ac4">GetTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774035(v=VS.85).aspx">GetTabCount</a>
+<a href="https://msdn.microsoft.com/4440ce51-f504-4489-851f-08895b23a22b">GetTabCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -172,11 +172,11 @@ To determine whether the numbered or bulleted text is left-justified, centered, 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774177(v=VS.85).aspx">SetListTab</a>
+<a href="https://msdn.microsoft.com/21966279-d84f-4f1a-9e90-5e0e79b14c7e">SetListTab</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

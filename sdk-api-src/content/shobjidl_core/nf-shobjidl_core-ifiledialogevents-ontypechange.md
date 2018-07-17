@@ -7,7 +7,7 @@ old-location: shell\IFileDialogEvents_OnTypeChange.htm
 old-project: shell
 ms.assetid: d57e7b57-520d-40d6-8bac-ebf245ad7484
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnTypeChange method, IFileDialogEvents.OnTypeChange, IFileDialogEvents::OnTypeChange, OnTypeChange, OnTypeChange method [Windows Shell], OnTypeChange method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnTypeChange, shell_IFileDialogEvents_OnTypeChange, shobjidl_core/IFileDialogEvents::OnTypeChange
 ms.prod: windows
 ms.technology: windows-sdk

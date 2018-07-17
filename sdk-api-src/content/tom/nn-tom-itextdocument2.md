@@ -4,10 +4,10 @@ title: ITextDocument2
 author: windows-sdk-content
 description: Extends the ITextDocument interface, adding methods that enable the Input Method Editor (IME) to drive the rich edit control, and methods to retrieve other interfaces such as ITextDisplays, ITextRange2, ITextFont2, ITextPara2, and so on.
 old-location: controls\itextdocument2.htm
-old-project: controls
+old-project: Controls
 ms.assetid: 0b0a54d7-7606-41f6-b8be-6367d9180ef4
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ITextDocument2, ITextDocument2 interface [Windows Controls], ITextDocument2 interface [Windows Controls],described, controls.itextdocument2, tom/ITextDocument2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Extends the <a href="https://msdn.microsoft.com/library/Bb774052(v=VS.85).aspx">ITextDocument</a> interface, adding methods that enable the Input Method Editor (IME) to drive the rich edit control, and methods to retrieve other interfaces such as  <a href="https://msdn.microsoft.com/e7266734-c066-4f80-8d3d-99ffb251cd39">ITextDisplays</a>, <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a>, <a href="https://msdn.microsoft.com/d2d43bfd-7cdf-458a-822d-e3965bfe2284">ITextFont2</a>, <a href="https://msdn.microsoft.com/31a0849f-c651-4178-b1ff-a4333bcde5d9">ITextPara2</a>, and so on. 
+Extends the <a href="https://msdn.microsoft.com/0c3f161f-f6d3-44b9-b041-1b682d1915af">ITextDocument</a> interface, adding methods that enable the Input Method Editor (IME) to drive the rich edit control, and methods to retrieve other interfaces such as  <a href="https://msdn.microsoft.com/e7266734-c066-4f80-8d3d-99ffb251cd39">ITextDisplays</a>, <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a>, <a href="https://msdn.microsoft.com/d2d43bfd-7cdf-458a-822d-e3965bfe2284">ITextFont2</a>, <a href="https://msdn.microsoft.com/31a0849f-c651-4178-b1ff-a4333bcde5d9">ITextPara2</a>, and so on. 
 
 Some <b>ITextDocument2</b> methods used with the IME need access to the current window handle (<b>HWND</b>). Use the <a href="https://msdn.microsoft.com/4bf5e644-292e-4847-8dad-71e8ccf86205">ITextDocument2::GetWindow</a> method to retrieve the handle.
 

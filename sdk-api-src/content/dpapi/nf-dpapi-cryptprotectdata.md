@@ -4,10 +4,10 @@ title: CryptProtectData function
 author: windows-sdk-content
 description: Performs encryption on the data in a DATA_BLOB structure.
 old-location: security\cryptprotectdata.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 765a68fd-f105-49fc-a738-4a8129eb0770
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CRYPTPROTECT_AUDIT, CRYPTPROTECT_LOCAL_MACHINE, CRYPTPROTECT_UI_FORBIDDEN, CryptProtectData, CryptProtectData function [Security], _crypto2_cryptprotectdata, dpapi/CryptProtectData, security.cryptprotectdata, wincrypt/CryptProtectData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -235,7 +235,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Data Encryption and Decryption Functions</a>
+<a href="cryptography_functions.htm">Data Encryption and Decryption Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: dshow\avimainheader.htm
 old-project: DirectShow
 ms.assetid: 3b8a326c-ebb2-4fb7-a167-7382d2e78ec2
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: AVIF_COPYRIGHTED, AVIF_HASINDEX, AVIF_ISINTERLEAVED, AVIF_MUSTUSEINDEX, AVIF_WASCAPTUREFILE, AVIMAINHEADER, AVIMAINHEADER structure [DirectShow], AVIMAINHEADERStructure, _avimainheader, aviriff/AVIMAINHEADER, dshow.avimainheader
 ms.prod: windows
 ms.technology: windows-sdk

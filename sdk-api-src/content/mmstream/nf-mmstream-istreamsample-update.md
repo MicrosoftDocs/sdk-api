@@ -7,7 +7,7 @@ old-location: dshow\istreamsample_update.htm
 old-project: DirectShow
 ms.assetid: 5f56e3f9-443b-4d67-bfed-3210e691ad4b
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IStreamSample interface [DirectShow],Update method, IStreamSample.Update, IStreamSample::Update, IStreamSampleUpdate, Update, Update method [DirectShow], Update method [DirectShow],IStreamSample interface, dshow.istreamsample_update, mmstream/IStreamSample::Update
 ms.prod: windows
 ms.technology: windows-sdk

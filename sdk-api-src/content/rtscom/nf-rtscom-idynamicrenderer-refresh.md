@@ -7,7 +7,7 @@ old-location: tablet\idynamicrenderer_refresh.htm
 old-project: tablet
 ms.assetid: 409d4353-fc85-49ff-99a4-d8393a3c0ec4
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: 409d4353-fc85-49ff-99a4-d8393a3c0ec4, IDynamicRenderer interface [Tablet PC],Refresh method, IDynamicRenderer.Refresh, IDynamicRenderer::Refresh, Refresh, Refresh method [Tablet PC], Refresh method [Tablet PC],IDynamicRenderer interface, rtscom/IDynamicRenderer::Refresh, tablet.idynamicrenderer_refresh
 ms.prod: windows
 ms.technology: windows-sdk

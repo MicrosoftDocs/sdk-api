@@ -4,10 +4,10 @@ title: ICertEncodeStringArray::GetValue
 author: windows-sdk-content
 description: Returns the specified string from the string array.
 old-location: security\icertencodestringarray_getvalue.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 93f827c6-4dc6-462f-8865-eb631d7fe7bc
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CCertEncodeStringArray object [Security],GetValue method, GetValue, GetValue method [Security], GetValue method [Security],CCertEncodeStringArray object, GetValue method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],GetValue method, ICertEncodeStringArray.GetValue, ICertEncodeStringArray::GetValue, _certsrv_icertencodestringarray_getvalue, certenc/ICertEncodeStringArray::GetValue, security.icertencodestringarray_getvalue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ The zero-based index that specifies the string to retrieve.
 
 ### -param pstr [out]
 
-A pointer to a <b>BSTR</b> that represents the string value. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> that represents the string value. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: shell\ShortToUInt.htm
 old-project: shell
 ms.assetid: e00b9dd2-fa40-401b-9002-e65c91d2b6ef
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: ShortToUInt, ShortToUInt function [Windows Shell], intsafe/ShortToUInt, shell.ShortToUInt
 ms.prod: windows
 ms.technology: windows-sdk

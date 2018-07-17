@@ -4,10 +4,10 @@ title: IOCSPCAConfigurationCollection::DeleteCAConfiguration
 author: windows-sdk-content
 description: Removes a named certification authority (CA) configuration from the configuration set.
 old-location: security\iocspcaconfigurationcollection_deletecaconfiguration_method.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 3733d98c-d262-4083-bac9-109720059f0b
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: DeleteCAConfiguration, DeleteCAConfiguration method [Security], DeleteCAConfiguration method [Security],IOCSPCAConfigurationCollection interface, IOCSPCAConfigurationCollection interface [Security],DeleteCAConfiguration method, IOCSPCAConfigurationCollection.DeleteCAConfiguration, IOCSPCAConfigurationCollection::DeleteCAConfiguration, certadm/IOCSPCAConfigurationCollection::DeleteCAConfiguration, security.iocspcaconfigurationcollection_deletecaconfiguration_method
 ms.prod: windows
 ms.technology: windows-sdk

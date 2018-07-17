@@ -7,7 +7,7 @@ old-location: mmc\icomponent2.htm
 old-project: mmc
 ms.assetid: b9e67a37-c09d-46f3-896f-e75122256812
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: IComponent2, IComponent2 interface [MMC], IComponent2 interface [MMC],described, _slate_icomponent2, mmc.icomponent2, mmc/IComponent2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\ix509publickey_algorithm_property.htm
 old-project: seccertenroll
 ms.assetid: 6c34323e-669e-434c-946f-65fe53456a11
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: Algorithm property [Security], Algorithm property [Security],IX509PublicKey interface, IX509PublicKey interface [Security],Algorithm property, IX509PublicKey.Algorithm, IX509PublicKey.get_Algorithm, IX509PublicKey::Algorithm, IX509PublicKey::get_Algorithm, certenroll/IX509PublicKey::Algorithm, certenroll/IX509PublicKey::get_Algorithm, get_Algorithm, security.ix509publickey_algorithm_property
 ms.prod: windows
 ms.technology: windows-sdk

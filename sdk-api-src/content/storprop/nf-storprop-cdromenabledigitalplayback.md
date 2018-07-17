@@ -4,10 +4,10 @@ title: CdromEnableDigitalPlayback function
 author: windows-sdk-content
 description: Enables digital playback for the specified CD-ROM or DVD drive.
 old-location: base\cdromenabledigitalplayback.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: a50a0c9a-21f3-4d55-97c3-144f5835b6af
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: CdromEnableDigitalPlayback, CdromEnableDigitalPlayback function, base.cdromenabledigitalplayback, storprop/CdromEnableDigitalPlayback
 ms.prod: windows
 ms.technology: windows-sdk

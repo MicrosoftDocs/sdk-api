@@ -7,7 +7,7 @@ old-location: mscs\clusregistrykeys_removeitem.htm
 old-project: mscs
 ms.assetid: 32b2eef7-40b1-4bfe-9f28-43831006d4cb
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusRegistryKeys class [Failover Cluster],RemoveItem method, ClusRegistryKeys.RemoveItem, ISClusRegistryKeys.RemoveItem, ISClusRegistryKeys::RemoveItem, RemoveItem, RemoveItem method [Failover Cluster], RemoveItem method [Failover Cluster],ClusRegistryKeys class, _wolf_clusregistrykeys.removeitem, mscs.clusregistrykeys_removeitem
 ms.prod: windows
 ms.technology: windows-sdk

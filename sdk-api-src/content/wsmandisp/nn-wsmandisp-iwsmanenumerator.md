@@ -118,7 +118,7 @@ Gets an XML representation of additional error information.
 
 
 
-To start an enumeration, use <a href="https://msdn.microsoft.com/ed8ad3ad-d033-45cb-b681-995c5f73b12e">Session.Enumerate</a>. To do a <a href="https://msdn.microsoft.com/library/Aa384465(v=VS.85).aspx">WS-Enumeration:</a><a href="https://msdn.microsoft.com/library/Aa384465(v=VS.85).aspx">Pull</a> operation that continues reading items in the enumeration, use <a href="https://msdn.microsoft.com/4280ecb8-2449-41bd-868a-785e8ac3b3d5">Enumerator.ReadItem</a>.
+To start an enumeration, use <a href="https://msdn.microsoft.com/ed8ad3ad-d033-45cb-b681-995c5f73b12e">Session.Enumerate</a>. To do a <a href="windows_remote_management_glossary.htm">WS-Enumeration:</a><a href="windows_remote_management_glossary.htm">Pull</a> operation that continues reading items in the enumeration, use <a href="https://msdn.microsoft.com/4280ecb8-2449-41bd-868a-785e8ac3b3d5">Enumerator.ReadItem</a>.
 
 The <b>Enumerator</b> object corresponds to the  <a href="https://msdn.microsoft.com/c7afac5d-946f-49ec-a7d0-de558ed2144b">IWSManEnumerator</a> interface.
 

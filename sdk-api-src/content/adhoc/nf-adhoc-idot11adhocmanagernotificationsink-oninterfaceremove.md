@@ -4,10 +4,10 @@ title: IDot11AdHocManagerNotificationSink::OnInterfaceRemove
 author: windows-sdk-content
 description: Notifies the client that a network interface card (NIC) has become inactive.
 old-location: nwifi\idot11adhocmanagernotificationsink_oninterfaceremove.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: ac62c211-9886-4c09-8867-32ce9763c2fc
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IDot11AdHocManagerNotificationSink interface [NativeWIFI],OnInterfaceRemove method, IDot11AdHocManagerNotificationSink.OnInterfaceRemove, IDot11AdHocManagerNotificationSink::OnInterfaceRemove, OnInterfaceRemove, OnInterfaceRemove method [NativeWIFI], OnInterfaceRemove method [NativeWIFI],IDot11AdHocManagerNotificationSink interface, adhoc/IDot11AdHocManagerNotificationSink::OnInterfaceRemove, nwifi.idot11adhocmanagernotificationsink_oninterfaceremove
 ms.prod: windows
 ms.technology: windows-sdk

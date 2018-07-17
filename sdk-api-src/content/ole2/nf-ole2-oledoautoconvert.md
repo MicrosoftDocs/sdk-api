@@ -7,7 +7,7 @@ old-location: com\oledoautoconvert.htm
 old-project: com
 ms.assetid: fe470f8a-b2f0-48a4-a270-77420bd1472a
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: OleDoAutoConvert, OleDoAutoConvert function [COM], _com_OleDoAutoConvert, com.oledoautoconvert, ole2/OleDoAutoConvert
 ms.prod: windows
 ms.technology: windows-sdk

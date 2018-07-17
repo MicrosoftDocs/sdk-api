@@ -7,7 +7,7 @@ old-location: dshow\iamanalogvideoencoder_get_tvformat.htm
 old-project: DirectShow
 ms.assetid: 5a88e2e7-508b-448b-ac1d-50a50b4bb79a
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],get_TVFormat method, IAMAnalogVideoEncoder.get_TVFormat, IAMAnalogVideoEncoder::get_TVFormat, IAMAnalogVideoEncoderget_TVFormat, dshow.iamanalogvideoencoder_get_tvformat, get_TVFormat, get_TVFormat method [DirectShow], get_TVFormat method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::get_TVFormat
 ms.prod: windows
 ms.technology: windows-sdk
