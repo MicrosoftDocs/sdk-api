@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the <a href="https://msdn.microsoft.com/cee72c1d-58da-4ee5-850e-a615ec6ad079">DTM_SETMCCOLOR</a> message explicitly. 
+Sets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761773(v=VS.85).aspx">DTM_SETMCCOLOR</a> message explicitly. 
 
 
 ## -parameters

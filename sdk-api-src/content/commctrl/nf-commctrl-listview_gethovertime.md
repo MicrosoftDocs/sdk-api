@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the amount of time that the mouse cursor must hover over an item before it is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/e7646024-f868-459f-88be-b232b6b4bb2a">LVM_GETHOVERTIME</a> message explicitly. 
+Gets the amount of time that the mouse cursor must hover over an item before it is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774941(v=VS.85).aspx">LVM_GETHOVERTIME</a> message explicitly. 
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A handle to a list-view control.
 
 
 
-The hover time only affects list-view controls that have the <a href="Extended_list_view_styles.htm">LVS_EX_TRACKSELECT</a>, <a href="Extended_list_view_styles.htm">LVS_EX_ONECLICKACTIVATE</a>, or <a href="Extended_list_view_styles.htm">LVS_EX_TWOCLICKACTIVATE</a> extended list-view style. 
+The hover time only affects list-view controls that have the <a href="https://msdn.microsoft.com/library/Bb774732(v=VS.85).aspx">LVS_EX_TRACKSELECT</a>, <a href="https://msdn.microsoft.com/library/Bb774732(v=VS.85).aspx">LVS_EX_ONECLICKACTIVATE</a>, or <a href="https://msdn.microsoft.com/library/Bb774732(v=VS.85).aspx">LVS_EX_TWOCLICKACTIVATE</a> extended list-view style. 
 
 
 

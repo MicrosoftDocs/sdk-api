@@ -65,7 +65,7 @@ req.product: ADAM
 ### -param ppCapabilities [out]
 
 
-            Address of a variable that receives a pointer to an <a href="wpdsdk.iportabledevicecapabilities">IPortableDeviceCapabilities</a> interface that can describe the device's capabilities. The caller must release this interface when it is done with it.
+            Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities</a> interface that can describe the device's capabilities. The caller must release this interface when it is done with it.
           
 
 

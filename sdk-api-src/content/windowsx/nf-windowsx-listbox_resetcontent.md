@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Removes all items from a list box.  You can use this macro or send the <a href="https://msdn.microsoft.com/3865e45e-62da-457a-801c-2f9a61687022">LB_RESETCONTENT</a> message explicitly.
+Removes all items from a list box.  You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761325(v=VS.85).aspx">LB_RESETCONTENT</a> message explicitly.
 
 
 ## -parameters

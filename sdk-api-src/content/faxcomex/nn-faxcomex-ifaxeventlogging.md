@@ -56,7 +56,7 @@ The <b>IFaxEventLogging</b> interface defines a configuration object used by a f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxEventLogging</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxEventLogging</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxEventLogging</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxEventLogging</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -167,7 +167,7 @@ The <a href="https://msdn.microsoft.com/115e661c-4f44-4ed3-a591-ffa89d55d72b">IF
 
 
 
-A default implementation of <b>IFaxEventLogging</b> is provided as the <a href="https://msdn.microsoft.com/c46f1b55-8211-4c9b-a622-356f2ea2db36">FaxEventLogging</a> object.
+A default implementation of <b>IFaxEventLogging</b> is provided as the <a href="https://msdn.microsoft.com/library/ms684912(v=VS.85).aspx">FaxEventLogging</a> object.
 
 
 

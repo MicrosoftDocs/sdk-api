@@ -64,7 +64,7 @@ Sets the alpha to a specified value in a given rectangle. The alpha controls the
 
 Type: <b>HPAINTBUFFER</b>
 
-The handle of the buffered paint context, obtained through <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a>.
+The handle of the buffered paint context, obtained through <a href="https://msdn.microsoft.com/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
 
 
 ### -param prc [in]

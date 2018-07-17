@@ -65,11 +65,11 @@ Type: <b>long*</b>
 
 The horizontal alignment. It can be one of the following values.
 
-<p class="indent"><a href="tomconstants.htm">tomAlignLeft</a>
+<p class="indent"><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomAlignLeft</a>
 
-<p class="indent"><a href="tomconstants.htm">tomAlignCenter</a>
+<p class="indent"><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomAlignCenter</a>
 
-<p class="indent"><a href="tomconstants.htm">tomAlignRight</a>
+<p class="indent"><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomAlignRight</a>
 
 
 ## -returns

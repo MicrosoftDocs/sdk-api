@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>Sharpen::GetParameters</b> method gets the current values of the parameters of this <a href="https://msdn.microsoft.com/28d30f3d-5e55-4d65-bbc2-6fa2e049f349">Sharpen</a> object.
+The <b>Sharpen::GetParameters</b> method gets the current values of the parameters of this <a href="https://msdn.microsoft.com/library/ms534503(v=VS.85).aspx">Sharpen</a> object.
 
 
 ## -parameters
@@ -63,14 +63,14 @@ The <b>Sharpen::GetParameters</b> method gets the current values of the paramete
 
 Type: <b>UINT*</b>
 
-Pointer to a <b>UINT</b> that specifies the size, in bytes, of a <a href="https://msdn.microsoft.com/9a3dd5ec-789b-4191-a680-6d85c12ab97b">SharpenParams</a> structure.
+Pointer to a <b>UINT</b> that specifies the size, in bytes, of a <a href="https://msdn.microsoft.com/library/ms534073(v=VS.85).aspx">SharpenParams</a> structure.
 
 
 ### -param parameters [out]
 
-Type: <b><a href="https://msdn.microsoft.com/9a3dd5ec-789b-4191-a680-6d85c12ab97b">SharpenParams</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms534073(v=VS.85).aspx">SharpenParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/9a3dd5ec-789b-4191-a680-6d85c12ab97b">SharpenParams</a> structure that receives the parameter values.
+Pointer to a <a href="https://msdn.microsoft.com/library/ms534073(v=VS.85).aspx">SharpenParams</a> structure that receives the parameter values.
 
 
 ## -returns
@@ -94,11 +94,11 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/28d30f3d-5e55-4d65-bbc2-6fa2e049f349">Sharpen</a>
+<a href="https://msdn.microsoft.com/library/ms534503(v=VS.85).aspx">Sharpen</a>
 
 
 
-<a href="https://msdn.microsoft.com/279fee59-6fcf-4a9d-b16e-e6de6b5977c1">Sharpen::SetParameters</a>
+<a href="https://msdn.microsoft.com/library/ms534758(v=VS.85).aspx">Sharpen::SetParameters</a>
  
 
  

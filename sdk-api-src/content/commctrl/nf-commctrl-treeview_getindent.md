@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the amount, in pixels, that child items are indented relative to their parent items. You can use this macro or send the <a href="https://msdn.microsoft.com/4109714e-94a3-4c88-96e7-b4b8ec67f4a1">TVM_GETINDENT</a> message explicitly. 
+Retrieves the amount, in pixels, that child items are indented relative to their parent items. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773588(v=VS.85).aspx">TVM_GETINDENT</a> message explicitly. 
 
 
 ## -parameters

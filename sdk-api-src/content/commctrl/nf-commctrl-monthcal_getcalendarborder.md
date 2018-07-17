@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the border size, in pixels, of a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/68366ee1-7511-46a5-aab0-a42fb80c265f">MCM_GETCALENDARBORDER</a> message explicitly.
+Gets the border size, in pixels, of a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760945(v=VS.85).aspx">MCM_GETCALENDARBORDER</a> message explicitly.
 
 
 ## -parameters

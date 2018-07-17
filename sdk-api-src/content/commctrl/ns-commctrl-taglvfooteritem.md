@@ -168,7 +168,7 @@ The LVFIS_FOCUSED bit of member <b>state</b> is valid. For example, setting this
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/4993d464-445a-4f16-8100-f65458a5927f">ListView_GetFooterItem</a> macro and the <a href="https://msdn.microsoft.com/92f55719-c265-433f-84fc-a673680c7ad9">LVM_GETFOOTERITEM</a> message.
+This structure is used with the <a href="https://msdn.microsoft.com/library/Bb761270(v=VS.85).aspx">ListView_GetFooterItem</a> macro and the <a href="https://msdn.microsoft.com/library/Bb774928(v=VS.85).aspx">LVM_GETFOOTERITEM</a> message.
 
 
 

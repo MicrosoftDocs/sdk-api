@@ -102,7 +102,7 @@ Uses a bitmap as a mask.
 
 Type: <b>LPCOLORMAP</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/50838fd1-1886-4c6d-ad09-9646036ae9cf">COLORMAP</a> structure that contains the color information needed to map the bitmaps. If this parameter is <b>NULL</b>, the function uses the default color map. 
+Pointer to a <a href="https://msdn.microsoft.com/library/Bb760448(v=VS.85).aspx">COLORMAP</a> structure that contains the color information needed to map the bitmaps. If this parameter is <b>NULL</b>, the function uses the default color map. 
 
 
 ### -param iNumMaps

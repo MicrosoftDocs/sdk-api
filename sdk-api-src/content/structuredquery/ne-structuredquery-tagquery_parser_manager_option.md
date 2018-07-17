@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/54cb5501-bb53-4be5-8b0b-a2ea754c778a">IQueryParserManager::SetOption</a> to set parsing options. This can be used to specify schemas and localization options.
+Used by <a href="https://msdn.microsoft.com/library/Bb231350(v=VS.85).aspx">IQueryParserManager::SetOption</a> to set parsing options. This can be used to specify schemas and localization options.
 
 
 ## -enum-fields
@@ -66,7 +66,7 @@ A <b>VT_LPWSTR</b> containing the name of the file that contains the schema bina
 
 ### -field QPMO_PRELOCALIZED_SCHEMA_BINARY_PATH
 
-Either a <b>VT_BOOL</b> or a <b>VT_LPWSTR</b>. If the value is a <b>VT_BOOL</b> and is <b>FALSE</b>, a pre-localized schema will not be used. If the value is a <b>VT_BOOL</b> and is <b>TRUE</b>, <a href="https://msdn.microsoft.com/ff1941e1-03f0-4fdb-a34b-61da4055f569">IQueryParserManager</a> will use the pre-localized schema binary in "<code>%ALLUSERSPROFILE%\Microsoft\Windows</code>". If the value is a <b>VT_LPWSTR</b>, the value should contain the full path of the folder in which the pre-localized schema binary can be found. The default value is <b>VT_BOOL</b> with <b>TRUE</b>.
+Either a <b>VT_BOOL</b> or a <b>VT_LPWSTR</b>. If the value is a <b>VT_BOOL</b> and is <b>FALSE</b>, a pre-localized schema will not be used. If the value is a <b>VT_BOOL</b> and is <b>TRUE</b>, <a href="https://msdn.microsoft.com/library/Bb231349(v=VS.85).aspx">IQueryParserManager</a> will use the pre-localized schema binary in "<code>%ALLUSERSPROFILE%\Microsoft\Windows</code>". If the value is a <b>VT_LPWSTR</b>, the value should contain the full path of the folder in which the pre-localized schema binary can be found. The default value is <b>VT_BOOL</b> with <b>TRUE</b>.
 
 
 ### -field QPMO_UNLOCALIZED_SCHEMA_BINARY_PATH
@@ -86,5 +86,5 @@ A <b>VT_BOOL</b>.  If <b>TRUE</b>, then the paths for pre-localized and localize
 
 ### -field QPMO_LOCALIZER_SUPPORT
 
-A <b>VT_UNKNOWN</b> with an object supporting <a href="https://msdn.microsoft.com/7db4c6ec-ba3a-49dd-bba5-3847d4d74e06">ISchemaLocalizerSupport</a>. This object will be used instead of the default localizer support object.
+A <b>VT_UNKNOWN</b> with an object supporting <a href="https://msdn.microsoft.com/library/Bb231332(v=VS.85).aspx">ISchemaLocalizerSupport</a>. This object will be used instead of the default localizer support object.
 

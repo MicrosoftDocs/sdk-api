@@ -53,9 +53,9 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 AddRectangle methods of the 
-<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
 <b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>. 
+<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -65,19 +65,19 @@ AddRectangle methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/46869d63-3201-4418-ac05-e27136eae924">AddRectangle(Rect&)</a>
+<a href="https://msdn.microsoft.com/library/ms535591(v=VS.85).aspx">AddRectangle(Rect&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/46869d63-3201-4418-ac05-e27136eae924">GraphicsPath::AddRectangle</a> method adds a rectangle to this path.
+The <a href="https://msdn.microsoft.com/library/ms535591(v=VS.85).aspx">GraphicsPath::AddRectangle</a> method adds a rectangle to this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3b7288d2-c5b9-4b3b-be6f-218ad8511217">AddRectangle(RectF&)</a>
+<a href="https://msdn.microsoft.com/library/ms535592(v=VS.85).aspx">AddRectangle(RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/3b7288d2-c5b9-4b3b-be6f-218ad8511217">GraphicsPath::AddRectangle</a> method adds a rectangle to this path.
+The <a href="https://msdn.microsoft.com/library/ms535592(v=VS.85).aspx">GraphicsPath::AddRectangle</a> method adds a rectangle to this path.
 
 </td>
 </tr>

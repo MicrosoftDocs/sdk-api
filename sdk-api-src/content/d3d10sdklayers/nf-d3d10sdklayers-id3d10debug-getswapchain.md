@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Get the swap chain that the runtime will use for automatically calling <a href="https://msdn.microsoft.com/4214fa05-d876-420e-a125-c68d6c4e6801">Present</a>.
+Get the swap chain that the runtime will use for automatically calling <a href="https://msdn.microsoft.com/library/Bb174576(v=VS.85).aspx">Present</a>.
 
 
 ## -parameters
@@ -60,18 +60,18 @@ Get the swap chain that the runtime will use for automatically calling <a href="
 
 ### -param ppSwapChain [out]
 
-Type: <b><a href="https://msdn.microsoft.com/344ada45-35a0-4e99-b3b7-0f316df029ab">IDXGISwapChain</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb174569(v=VS.85).aspx">IDXGISwapChain</a>**</b>
 
-Swap chain that the runtime will use for automatically calling <a href="https://msdn.microsoft.com/4214fa05-d876-420e-a125-c68d6c4e6801">Present</a>.
+Swap chain that the runtime will use for automatically calling <a href="https://msdn.microsoft.com/library/Bb174576(v=VS.85).aspx">Present</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -80,7 +80,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/7b6
 
 
 
-The swap chain retrieved by this method will only be used if D3D10_DEBUG_FEATURE_PRESENT_PER_RENDER_OP is set in the <a href="https://msdn.microsoft.com/e9404531-fdf4-48e0-9ab5-f4e5b32ae077">feature mask</a>.
+The swap chain retrieved by this method will only be used if D3D10_DEBUG_FEATURE_PRESENT_PER_RENDER_OP is set in the <a href="https://msdn.microsoft.com/library/Bb173520(v=VS.85).aspx">feature mask</a>.
 
 
 
@@ -90,7 +90,7 @@ The swap chain retrieved by this method will only be used if D3D10_DEBUG_FEATURE
 
 
 
-<a href="https://msdn.microsoft.com/2971189b-5df2-4d0a-ad7b-28dbfd6d0af3">ID3D10Debug Interface</a>
+<a href="https://msdn.microsoft.com/library/Bb173516(v=VS.85).aspx">ID3D10Debug Interface</a>
  
 
  

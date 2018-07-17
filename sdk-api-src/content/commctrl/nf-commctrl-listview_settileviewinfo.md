@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets information that a list-view control uses in tile view. You can use this macro or send the <a href="https://msdn.microsoft.com/1c4f2aff-1ce1-484a-9360-3efbe870b39b">LVM_SETTILEVIEWINFO</a> message explicitly. 
+Sets information that a list-view control uses in tile view. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761212(v=VS.85).aspx">LVM_SETTILEVIEWINFO</a> message explicitly. 
 
 
 ## -parameters
@@ -78,13 +78,13 @@ TBD
 
 Type: <b>PLVTILEVIEWINFO</b>
 
-<a href="https://msdn.microsoft.com/5169e3bd-1805-4a19-b5f1-098c100a7625">LVTILEVIEWINFO</a>
+<a href="https://msdn.microsoft.com/library/Bb774768(v=VS.85).aspx">LVTILEVIEWINFO</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_SetTileViewInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
+To use <b>ListView_SetTileViewInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

@@ -78,21 +78,21 @@ Displays the <b>Find Printer</b> dialog box.
 
 #### - sLocation [in, optional]
 
-Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a></b>
 
 A <b>String</b> that contains the printer location.
 
 
 #### - sModel [in, optional]
 
-Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a></b>
 
 A <b>String</b> that contains the printer model.
 
 
 #### - sName [in, optional]
 
-Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a></b>
 
 A <b>String</b> that contains the printer name.
 

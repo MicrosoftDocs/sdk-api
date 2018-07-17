@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the UNICODE character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="https://msdn.microsoft.com/18161fe5-c779-4be0-9e7a-1b5948e42b80">HDM_SETUNICODEFORMAT</a> message explicitly. 
+Sets the UNICODE character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775371(v=VS.85).aspx">HDM_SETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Determines the character set that is used by the control. If this value is nonze
 
 
 
-<a href="https://msdn.microsoft.com/5485c16e-a709-4195-89d7-bb30fad0ec5d">Header_GetUnicodeFormat</a>
+<a href="https://msdn.microsoft.com/library/Bb775405(v=VS.85).aspx">Header_GetUnicodeFormat</a>
  
 
  

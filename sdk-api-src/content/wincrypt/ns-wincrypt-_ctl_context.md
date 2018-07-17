@@ -56,7 +56,7 @@ req.product: Windows Address Book 5.0
 <a href="https://msdn.microsoft.com/83b015b5-a650-4a81-a9f0-c3e8a9805c81">CTL_INFO</a> as its <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">inner content</a>.
 
 CryptoAPI 
-<a href="cryptography_functions.htm">low-level message functions</a> can be used to extract additional signer information.
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">low-level message functions</a> can be used to extract additional signer information.
 
 A <b>CTL_CONTEXT</b> returned by any CryptoAPI function must be freed by calling the 
 <a href="https://msdn.microsoft.com/84b1aa0c-44d9-4a2f-861c-fa7d8caac192">CertFreeCTLContext</a> function.

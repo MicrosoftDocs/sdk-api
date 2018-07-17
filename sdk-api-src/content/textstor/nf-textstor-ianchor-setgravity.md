@@ -96,7 +96,7 @@ The method was successful.
 
 
 
-<a href="ranges.htm">Anchor Gravity</a>
+<a href="https://msdn.microsoft.com/library/ms629023(v=VS.85).aspx">Anchor Gravity</a>
 
 
 

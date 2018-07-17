@@ -226,7 +226,7 @@ Identifies a content string pertaining to a particular take in a movie or video.
 
 
 
-A <a href="https://msdn.microsoft.com/e8308432-a9a1-40d5-abec-aa6f86af9e5b">DVD_TextStringType</a> value is returned in the <a href="mstv.msvidwebdvd_dvdtextstringtype_property">DVDTextStringType</a> method to identify how the disc authors have categorized the specified text string. 
+A <a href="https://msdn.microsoft.com/e8308432-a9a1-40d5-abec-aa6f86af9e5b">DVD_TextStringType</a> value is returned in the <a href="https://msdn.microsoft.com/library/Dd693066(v=VS.85).aspx">DVDTextStringType</a> method to identify how the disc authors have categorized the specified text string. 
 
 Not every DVD text string identifier is included in this enumeration, so an authored DVD might include other values.
 
@@ -240,7 +240,7 @@ One important text string type not defined in this enumeration is 0xF0, the exte
 
 
 
-<a href="mstv.msvidwebdvd_dvdtextstringtype_property">DVDTextStringType</a>
+<a href="https://msdn.microsoft.com/library/Dd693066(v=VS.85).aspx">DVDTextStringType</a>
 
 
 
@@ -248,7 +248,7 @@ One important text string type not defined in this enumeration is 0xF0, the exte
 
 
 
-<a href="dshow.working_with_dvd_text_strings_COLLISION525">Working with DVD Text Strings</a>
+<a href="https://msdn.microsoft.com/library/Dd390995(v=VS.85).aspx">Working with DVD Text Strings</a>
  
 
  

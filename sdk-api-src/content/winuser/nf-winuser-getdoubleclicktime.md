@@ -84,7 +84,7 @@ The return value specifies the current double-click time, in milliseconds. The m
 
 
 
-<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
+<a href="https://msdn.microsoft.com/library/ms645533(v=VS.85).aspx">Mouse Input</a>
 
 
 
@@ -92,7 +92,7 @@ The return value specifies the current double-click time, in milliseconds. The m
 
 
 
-<a href="https://msdn.microsoft.com/02d5d9ba-99eb-4853-94a1-7c203b5d3620">SetDoubleClickTime</a>
+<a href="https://msdn.microsoft.com/library/ms646263(v=VS.85).aspx">SetDoubleClickTime</a>
  
 
  

@@ -68,9 +68,9 @@ Adds a character string to the global atom table and returns a unique value (an 
 
 Type: <b>LPCTSTR</b>
 
-The null-terminated string to be added. The string can have a maximum size of 255 bytes. Strings that differ only in case are considered identical. The case of the first string of this name added to the table is preserved and returned by the <a href="https://msdn.microsoft.com/7ba8ea4d-7efe-4eb3-afea-c84ab6cacaea">GlobalGetAtomName</a> function.
+The null-terminated string to be added. The string can have a maximum size of 255 bytes. Strings that differ only in case are considered identical. The case of the first string of this name added to the table is preserved and returned by the <a href="https://msdn.microsoft.com/library/ms649063(v=VS.85).aspx">GlobalGetAtomName</a> function.
 
-Alternatively, you can use an integer atom that has been converted using the <a href="https://msdn.microsoft.com/11270568-ef0e-4bed-9e07-cb62773178ff">MAKEINTATOM</a> macro. See the Remarks for more information. 
+Alternatively, you can use an integer atom that has been converted using the <a href="https://msdn.microsoft.com/library/ms649055(v=VS.85).aspx">MAKEINTATOM</a> macro. See the Remarks for more information. 
 
 
 ## -returns
@@ -92,13 +92,13 @@ If the function fails, the return value is zero. To get extended error informati
 
 If the string already exists in the global atom table, the atom for the existing string is returned and the atom's reference count is incremented. 
 
-The string associated with the atom is not deleted from memory until its reference count is zero. For more information, see the <a href="https://msdn.microsoft.com/387f2dbf-39c3-4294-b77d-0439e296a000">GlobalDeleteAtom</a> function. 
+The string associated with the atom is not deleted from memory until its reference count is zero. For more information, see the <a href="https://msdn.microsoft.com/library/ms649061(v=VS.85).aspx">GlobalDeleteAtom</a> function. 
 
-Global atoms are not deleted automatically when the application terminates. For every call to the <b>GlobalAddAtom</b> function, there must be a corresponding call to the <a href="https://msdn.microsoft.com/387f2dbf-39c3-4294-b77d-0439e296a000">GlobalDeleteAtom</a> function. 
+Global atoms are not deleted automatically when the application terminates. For every call to the <b>GlobalAddAtom</b> function, there must be a corresponding call to the <a href="https://msdn.microsoft.com/library/ms649061(v=VS.85).aspx">GlobalDeleteAtom</a> function. 
 
 If the 
 				<i>lpString</i> parameter has the form "#1234", <b>GlobalAddAtom</b> returns an integer atom whose value is the 16-bit representation of the decimal number specified in the string (0x04D2, in this example). If the decimal value specified is 0x0000 or is greater than or equal to 0xC000, the return value is zero, indicating an error. If 
-				<i>lpString</i> was created by the <a href="https://msdn.microsoft.com/11270568-ef0e-4bed-9e07-cb62773178ff">MAKEINTATOM</a> macro, the low-order word must be in the range 0x0001 through 0xBFFF. If the low-order word is not in this range, the function fails. 
+				<i>lpString</i> was created by the <a href="https://msdn.microsoft.com/library/ms649055(v=VS.85).aspx">MAKEINTATOM</a> macro, the low-order word must be in the range 0x0001 through 0xBFFF. If the low-order word is not in this range, the function fails. 
 
 If 
 				<i>lpString</i> has any other form, <b>GlobalAddAtom</b> returns a string atom. 
@@ -111,35 +111,35 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/0712cd2e-397f-48e1-b3bd-ed0dd3155373">AddAtom</a>
+<a href="https://msdn.microsoft.com/library/ms649056(v=VS.85).aspx">AddAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/44c4fbdd-2206-4a6f-9bf1-5495407f6800">DeleteAtom</a>
+<a href="https://msdn.microsoft.com/library/ms649057(v=VS.85).aspx">DeleteAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/de8ca30a-9de0-4d56-b508-4d02d6eed562">FindAtom</a>
+<a href="https://msdn.microsoft.com/library/ms649058(v=VS.85).aspx">FindAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/50b01772-660c-4421-8a6f-a6da5369bad4">GetAtomName</a>
+<a href="https://msdn.microsoft.com/library/ms649059(v=VS.85).aspx">GetAtomName</a>
 
 
 
-<a href="https://msdn.microsoft.com/387f2dbf-39c3-4294-b77d-0439e296a000">GlobalDeleteAtom</a>
+<a href="https://msdn.microsoft.com/library/ms649061(v=VS.85).aspx">GlobalDeleteAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/1787e632-aae7-44d9-881e-847ca20b8981">GlobalFindAtom</a>
+<a href="https://msdn.microsoft.com/library/ms649062(v=VS.85).aspx">GlobalFindAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ba8ea4d-7efe-4eb3-afea-c84ab6cacaea">GlobalGetAtomName</a>
+<a href="https://msdn.microsoft.com/library/ms649063(v=VS.85).aspx">GlobalGetAtomName</a>
 
 
 
-<a href="https://msdn.microsoft.com/11270568-ef0e-4bed-9e07-cb62773178ff">MAKEINTATOM</a>
+<a href="https://msdn.microsoft.com/library/ms649055(v=VS.85).aspx">MAKEINTATOM</a>
 
 
 

@@ -63,7 +63,7 @@ The fax service calls the <b>FaxDevInitialize</b> function each time the service
 
 Type: <b>HLINEAPP</b>
 
-Specifies a handle to the fax service's registration with TAPI. For more information, see the TAPI 2.x <a href="_tapi2_lineinitializeex">lineInitializeEx</a> function.
+Specifies a handle to the fax service's registration with TAPI. For more information, see the TAPI 2.x <a href="https://msdn.microsoft.com/library/ms735983(v=VS.85).aspx">lineInitializeEx</a> function.
 
 
 ### -param HeapHandle [in]
@@ -106,7 +106,7 @@ If the function fails, the return value is zero. In this case, the current insta
 
 The FSP must respond to the <b>FaxDevInitialize</b> function by performing any necessary initialization.
 
-The FSP must supply the <a href="https://msdn.microsoft.com/6327605f-9c83-4eef-b5f0-003de02f0992">FaxLineCallback</a> function specified by the <i>LineCallbackFunction</i> parameter. The fax service calls this function when it needs to deliver a TAPI event to the FSP. 
+The FSP must supply the <a href="https://msdn.microsoft.com/library/ms684548(v=VS.85).aspx">FaxLineCallback</a> function specified by the <i>LineCallbackFunction</i> parameter. The fax service calls this function when it needs to deliver a TAPI event to the FSP. 
 
 
 
@@ -116,27 +116,27 @@ The FSP must supply the <a href="https://msdn.microsoft.com/6327605f-9c83-4eef-b
 
 
 
-<a href="https://msdn.microsoft.com/402583fd-aef8-4197-a41e-870825c58351">Fax Service Provider Functions</a>
+<a href="https://msdn.microsoft.com/library/ms684546(v=VS.85).aspx">Fax Service Provider Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/40f647ba-05ed-453a-8eea-729b2f59ac05">FaxDevStartJob</a>
+<a href="https://msdn.microsoft.com/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/38cdd799-2096-4678-bf2d-f5f4e529383f">FaxDevVirtualDeviceCreation</a>
+<a href="https://msdn.microsoft.com/library/ms684538(v=VS.85).aspx">FaxDevVirtualDeviceCreation</a>
 
 
 
-<a href="https://msdn.microsoft.com/6327605f-9c83-4eef-b5f0-003de02f0992">FaxLineCallback</a>
+<a href="https://msdn.microsoft.com/library/ms684548(v=VS.85).aspx">FaxLineCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8788e8a-e97c-4082-8e89-b6f4a7568d3a">Using the Fax Service Provider API</a>
+<a href="https://msdn.microsoft.com/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
 
 
 
-<a href="_tapi2_lineinitializeex">lineInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/ms735983(v=VS.85).aspx">lineInitializeEx</a>
  
 
  

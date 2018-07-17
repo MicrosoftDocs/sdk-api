@@ -108,19 +108,19 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="base.readfile">ReadFile</a>
+<a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a>
 
 
 
-<a href="base.readfileex">ReadFileEx</a>
+<a href="https://msdn.microsoft.com/library/Aa365468(v=VS.85).aspx">ReadFileEx</a>
 
 
 
-<a href="base.writefile">WriteFile</a>
+<a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>
 
 
 
-<a href="base.writefileex">WriteFileEx</a>
+<a href="https://msdn.microsoft.com/library/Aa365748(v=VS.85).aspx">WriteFileEx</a>
  
 
  

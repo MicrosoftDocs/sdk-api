@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the number of working areas in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/ce0bcccd-62a2-45a4-959e-9959c9ca0c46">LVM_GETNUMBEROFWORKAREAS</a> message explicitly. 
+Gets the number of working areas in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761061(v=VS.85).aspx">LVM_GETNUMBEROFWORKAREAS</a> message explicitly. 
 
 
 ## -parameters
@@ -91,7 +91,7 @@ A pointer to a UINT value that receives the number of working areas in the list-
 
 
 
-<a href="https://msdn.microsoft.com/6953cdfc-8c59-4c6d-8998-f828cea3a315">Using List-View Controls</a>
+<a href="https://msdn.microsoft.com/library/Bb774736(v=VS.85).aspx">Using List-View Controls</a>
  
 
  

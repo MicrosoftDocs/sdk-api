@@ -298,11 +298,11 @@ A memory allocation failure occurred.
 
 
 
-<a href="cryptography_functions.htm">Low-level Message Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Low-level Message Functions</a>
 
 
 
-<a href="cryptography_functions.htm">Simplified Message Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
  
 
  

@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>ITfMSAAControl</b> interface is used by <a href="_msaa_microsoft_active_accessibility_start_page">Microsoft Active Accessibility</a> to add or remove a document from TSF control, to avoid unnecessary overhead in TSF. This interface is not recommended for use by other applications.
+The <b>ITfMSAAControl</b> interface is used by <a href="https://msdn.microsoft.com/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a> to add or remove a document from TSF control, to avoid unnecessary overhead in TSF. This interface is not recommended for use by other applications.
 
 The interface ID is IID_ITfMSAAControl.
 
@@ -97,11 +97,11 @@ Used by MSAA to request TSF support of an MSAA client.
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
 
 
 
-<a href="_msaa_microsoft_active_accessibility_start_page">Microsoft Active Accessibility</a>
+<a href="https://msdn.microsoft.com/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a>
  
 
  

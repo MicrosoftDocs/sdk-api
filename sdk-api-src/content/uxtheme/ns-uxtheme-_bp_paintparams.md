@@ -51,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-Defines paint operation parameters for <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a>.
+Defines paint operation parameters for <a href="https://msdn.microsoft.com/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
 
 
 ## -struct-fields
@@ -84,7 +84,7 @@ One or more of the following values.
 </dl>
 </td>
 <td width="60%">
-Initialize the buffer to ARGB = {0, 0, 0, 0} during <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a>. This erases the previous contents of the buffer.
+Initialize the buffer to ARGB = {0, 0, 0, 0} during <a href="https://msdn.microsoft.com/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>. This erases the previous contents of the buffer.
 
 
 

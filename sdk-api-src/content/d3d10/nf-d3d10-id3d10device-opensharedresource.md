@@ -83,9 +83,9 @@ Address of a pointer to the resource we are gaining access to.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -95,13 +95,13 @@ This method returns one of the following <a href="https://msdn.microsoft.com/7b6
 
 
 To share a resource between two Direct3D 10 devices the resource must have been created with the 
-      <a href="https://msdn.microsoft.com/bdcb4e87-0285-4e96-a7ce-e08a43d3a4cb">D3D10_RESOURCE_MISC_SHARED</a> flag, if it was created using the ID3D10Device interface. 
+      <a href="https://msdn.microsoft.com/library/Bb172412(v=VS.85).aspx">D3D10_RESOURCE_MISC_SHARED</a> flag, if it was created using the ID3D10Device interface. 
       If it was created using the IDXGIDevice interface, then the resource is always shared.
 
 The REFIID, or GUID, of the interface to the resource can be obtained by using the __uuidof() macro. 
       For example, __uuidof(ID3D10Buffer) will get the GUID of the interface to a buffer resource.
 
-When sharing a resource between two Direct3D 10 devices the unique handle of the resource can be obtained by querying the resource for the <a href="https://msdn.microsoft.com/de1f11a5-194b-438e-975b-3945179d0ed7">IDXGIResource</a> interface and then calling <a href="https://msdn.microsoft.com/7fa92667-2e37-498b-994b-7c576754b86b">GetSharedHandle</a>.
+When sharing a resource between two Direct3D 10 devices the unique handle of the resource can be obtained by querying the resource for the <a href="https://msdn.microsoft.com/library/Bb174560(v=VS.85).aspx">IDXGIResource</a> interface and then calling <a href="https://msdn.microsoft.com/library/Bb174562(v=VS.85).aspx">GetSharedHandle</a>.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -121,7 +121,7 @@ pOtherResource-&gt;GetSharedHandle(&amp;sharedHandle);
 The only resources that can be shared are 2D non-mipmapped textures.
 
 To share a resource between a Direct3D 9 device and a Direct3D 10 device the texture must have been created using 
-      the <i>pSharedHandle</i> argument of <a href="https://msdn.microsoft.com/61b27c7f-cfec-4cb1-bdb9-a973c37a7df4">CreateTexture</a>.  
+      the <i>pSharedHandle</i> argument of <a href="https://msdn.microsoft.com/library/Bb174363(v=VS.85).aspx">CreateTexture</a>.  
       The shared Direct3D 9 handle is then passed to OpenSharedResource in the <i>hResource</i> argument.
 
 The following code illustrates the method calls involved.
@@ -155,7 +155,7 @@ Textures being shared from D3D9 to D3D10 have the following restrictions.
 <li>Bind flags must have SHADER_RESOURCE and RENDER_TARGET set</li>
 <li>Only R10G10B10A2_UNORM, R16G16B16A16_FLOAT and R8G8B8A8_UNORM formats are allowed</li>
 </ul>
-If a shared texture is updated on one device <a href="https://msdn.microsoft.com/3f907d7d-4316-453f-a7ea-6b228a0df569">ID3D10Device::Flush</a> must be called on that device.
+If a shared texture is updated on one device <a href="https://msdn.microsoft.com/library/Bb173568(v=VS.85).aspx">ID3D10Device::Flush</a> must be called on that device.
 
 
 
@@ -165,7 +165,7 @@ If a shared texture is updated on one device <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
  
 
  

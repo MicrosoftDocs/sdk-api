@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the index of the hot item. You can use this macro or send the <a href="https://msdn.microsoft.com/f80189da-6c8b-4faf-925a-0c33fedf8c4e">LVM_GETHOTITEM</a> message explicitly. 
+Gets the index of the hot item. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774939(v=VS.85).aspx">LVM_GETHOTITEM</a> message explicitly. 
 
 
 ## -parameters

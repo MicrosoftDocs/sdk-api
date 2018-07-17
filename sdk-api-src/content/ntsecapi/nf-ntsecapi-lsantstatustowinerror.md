@@ -80,7 +80,7 @@ The return value is the Windows error code that corresponds to the <i>Status</i>
 
 
 
-<a href="management_return_values.htm">LSA Policy Function Return Values</a>
+<a href="https://msdn.microsoft.com/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>
  
 
  

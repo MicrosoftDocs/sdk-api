@@ -71,7 +71,7 @@ The number of color channels in the <i>pDeviceValues</i> arrays.
 
 ### -param pXYZColors [out]
 
-A pointer to the array of outgoing <a href="wcs.gamut_map_model_color_structures">XYZColorF structures</a>.
+A pointer to the array of outgoing <a href="https://msdn.microsoft.com/library/Dd372458(v=VS.85).aspx">XYZColorF structures</a>.
 
 
 ### -param pBlackInformation [in]
@@ -81,7 +81,7 @@ A pointer to the <a href="https://msdn.microsoft.com/b90699f6-b42e-4848-947b-766
 
 ### -param pDeviceValues [in]
 
-A pointer to the array of incoming device colors that are to be converted to <a href="wcs.gamut_map_model_color_structures">XYZColorF structures</a>.
+A pointer to the array of incoming device colors that are to be converted to <a href="https://msdn.microsoft.com/library/Dd372458(v=VS.85).aspx">XYZColorF structures</a>.
 
 
 ## -returns

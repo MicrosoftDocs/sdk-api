@@ -95,7 +95,7 @@ The <b>GetTrusteeName</b> function does not allocate any memory.
 
 
 
-<a href="authorization_functions.htm">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
 
 
 

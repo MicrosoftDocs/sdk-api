@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the date information for the date specified as "today" for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/a79feb57-6aa3-4c96-95f3-7018b6b8327f">MCM_GETTODAY</a> message explicitly. 
+Retrieves the date information for the date specified as "today" for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760987(v=VS.85).aspx">MCM_GETTODAY</a> message explicitly. 
 
 
 ## -parameters

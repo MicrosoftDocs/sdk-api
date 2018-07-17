@@ -77,7 +77,7 @@ The y-coordinate of a point, in screen coordinates.
 
 Type: <b>long</b>
 
-The alignment type of the specified point. For a list of valid values, see <a href="https://msdn.microsoft.com/67bb38d8-d96d-4d17-876d-4cadc39adece">ITextRange::GetPoint</a>.
+The alignment type of the specified point. For a list of valid values, see <a href="https://msdn.microsoft.com/library/Bb774003(v=VS.85).aspx">ITextRange::GetPoint</a>.
 
 
 ### -param ppRange [out, retval]

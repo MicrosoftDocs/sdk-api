@@ -65,9 +65,9 @@ Type: <b>long*</b>
 
 The underline position mode. It can be one of the following values.
 
-<a href="tomconstants.htm">tomUnderlinePositionAuto</a>
-<a href="tomconstants.htm">tomUnderlinePositionBelow</a>
-<a href="tomconstants.htm">tomUnderlinePositionAbove</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomUnderlinePositionAuto</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomUnderlinePositionBelow</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomUnderlinePositionAbove</a>
 
 ## -returns
 

@@ -83,7 +83,7 @@ Creates a copy of this <b>IEnumSearchScopeRules</b> object with the same content
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
 </td>
 <td align="left" width="63%">
-Retrieves the specified number of <a href="https://msdn.microsoft.com/ace8d4f8-ffe0-45ff-8ba4-691efad23013">ISearchScopeRule</a> elements.
+Retrieves the specified number of <a href="https://msdn.microsoft.com/library/Bb266457(v=VS.85).aspx">ISearchScopeRule</a> elements.
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ Retrieves the specified number of <a href="https://msdn.microsoft.com/ace8d4f8-f
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
 </td>
 <td align="left" width="63%">
-Moves the internal counter to the beginning of the list so that a subsequent call to <a href="https://msdn.microsoft.com/ef4472f1-348d-4545-8c8f-852a587e8096">IEnumSearchScopeRules::Next</a> retrieves from the beginning.
+Moves the internal counter to the beginning of the list so that a subsequent call to <a href="https://msdn.microsoft.com/library/Bb266500(v=VS.85).aspx">IEnumSearchScopeRules::Next</a> retrieves from the beginning.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ Moves the internal counter to the beginning of the list so that a subsequent cal
 
 
 
-<a href="https://msdn.microsoft.com/7d65d00a-7294-4718-b593-89394b2e416f">Using the Crawl Scope Manager</a>
+<a href="https://msdn.microsoft.com/library/Bb266541(v=VS.85).aspx">Using the Crawl Scope Manager</a>
  
 
  

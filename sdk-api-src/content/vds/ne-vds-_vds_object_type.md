@@ -147,17 +147,17 @@ The object is a <a href="https://msdn.microsoft.com/a6104742-3ef9-4570-9728-3e65
 
 ### -field VDS_OT_HBAPORT
 
-The object is an <a href="startup_and_service_objects.htm">HBA port</a>.
+The object is an <a href="https://msdn.microsoft.com/library/Aa383123(v=VS.85).aspx">HBA port</a>.
 
 
 ### -field VDS_OT_INIT_ADAPTER
 
-The object is an <a href="startup_and_service_objects.htm">iSCSI initiator adapter</a>.
+The object is an <a href="https://msdn.microsoft.com/library/Aa383123(v=VS.85).aspx">iSCSI initiator adapter</a>.
 
 
 ### -field VDS_OT_INIT_PORTAL
 
-The object is an <a href="startup_and_service_objects.htm">iSCSI initiator portal</a>.
+The object is an <a href="https://msdn.microsoft.com/library/Aa383123(v=VS.85).aspx">iSCSI initiator portal</a>.
 
 
 ### -field VDS_OT_ASYNC
