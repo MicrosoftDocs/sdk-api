@@ -2,7 +2,7 @@
 UID: NA:wcndevice
 ms.assetid: 3b93f6bf-39a2-3969-bbf3-2b507c72c799
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

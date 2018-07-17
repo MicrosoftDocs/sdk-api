@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_IntersectsWith_rect_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\intersectswith_96rect.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: IntersectsWith, IntersectsWith method [GDI+], IntersectsWith method [GDI+],RectF class, RectF class [GDI+],IntersectsWith method, RectF.IntersectsWith, RectF::IntersectsWith, _gdiplus_CLASS_RectF_IntersectsWith_rect_, gdiplus._gdiplus_CLASS_RectF_IntersectsWith_rect_
 ms.prod: windows
 ms.technology: windows-sdk

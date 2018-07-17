@@ -7,8 +7,8 @@ old-location: mscs\clusterregclosereadbatchex.htm
 old-project: mscs
 ms.assetid: 45509B96-F67D-4754-B073-0B881D681011
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: IsolatedRead, None, PCLUSTER_REG_CLOSE_READ_BATCH_EX, PCLUSTER_REG_CLOSE_READ_BATCH_EX callback, PCLUSTER_REG_CLOSE_READ_BATCH_EX callback function [Failover Cluster], clusapi/PCLUSTER_REG_CLOSE_READ_BATCH_EX, mscs.clusterregclosereadbatchex
+ms.date: 07/12/2018
+ms.keywords: ClusterRegCloseReadBatchEx, ClusterRegCloseReadBatchEx function [Failover Cluster], IsolatedRead, None, PCLUSTER_REG_CLOSE_READ_BATCH_EX, PCLUSTER_REG_CLOSE_READ_BATCH_EX function [Failover Cluster], clusapi/ClusterRegCloseReadBatchEx, clusapi/PCLUSTER_REG_CLOSE_READ_BATCH_EX, mscs.clusterregclosereadbatchex
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -32,15 +32,15 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - UserDefined
+ - DllExport
 api_location:
- - ClusAPI.h
+ - ClusAPI.dll
 api_name:
- - PCLUSTER_REG_CLOSE_READ_BATCH_EX
+ - ClusterRegCloseReadBatchEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
 req.irql: 
 ---
 

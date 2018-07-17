@@ -7,7 +7,7 @@ old-location: security\icertproperty_rawdata_property.htm
 old-project: seccertenroll
 ms.assetid: 1413f6da-0fcf-42ca-a79f-43f164368407
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICertProperty interface [Security],RawData property, ICertProperty.RawData, ICertProperty.get_RawData, ICertProperty::RawData, ICertProperty::get_RawData, RawData property [Security], RawData property [Security],ICertProperty interface, certenroll/ICertProperty::RawData, certenroll/ICertProperty::get_RawData, get_RawData, security.icertproperty_rawdata_property
 ms.prod: windows
 ms.technology: windows-sdk

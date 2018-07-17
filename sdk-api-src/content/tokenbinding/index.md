@@ -2,7 +2,7 @@
 UID: NA:tokenbinding
 ms.assetid: 0500b7b7-3170-3d52-aea2-d053280287e1
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

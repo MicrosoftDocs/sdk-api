@@ -7,7 +7,7 @@ old-location: shell\IDefaultFolderMenuInitialize_SetHandlerClsid.htm
 old-project: shell
 ms.assetid: 90D861DA-33B7-4054-888E-86B504B2C5D1
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IDefaultFolderMenuInitialize interface [Windows Shell],SetHandlerClsid method, IDefaultFolderMenuInitialize.SetHandlerClsid, IDefaultFolderMenuInitialize::SetHandlerClsid, SetHandlerClsid, SetHandlerClsid method [Windows Shell], SetHandlerClsid method [Windows Shell],IDefaultFolderMenuInitialize interface, shell.IDefaultFolderMenuInitialize_SetHandlerClsid, shobjidl_core/IDefaultFolderMenuInitialize::SetHandlerClsid
 ms.prod: windows
 ms.technology: windows-sdk

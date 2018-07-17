@@ -7,7 +7,7 @@ old-location: shell\istorageproviderhandler_getpropertyhandlerfrompath.htm
 old-project: shell
 ms.assetid: E02B43AC-73A8-4FD0-BC54-47922CA5EEDB
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: GetPropertyHandlerFromPath, GetPropertyHandlerFromPath method [Windows Shell], GetPropertyHandlerFromPath method [Windows Shell],IStorageProviderHandler interface, IStorageProviderHandler interface [Windows Shell],GetPropertyHandlerFromPath method, IStorageProviderHandler.GetPropertyHandlerFromPath, IStorageProviderHandler::GetPropertyHandlerFromPath, shell.istorageproviderhandler_getpropertyhandlerfrompath, storageprovider/IStorageProviderHandler::GetPropertyHandlerFromPath
 ms.prod: windows
 ms.technology: windows-sdk

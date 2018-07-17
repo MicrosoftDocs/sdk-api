@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylussynchronization_acquirelock.htm
 old-project: tablet
 ms.assetid: 74e315c5-99c2-4ba5-bca5-72d812624fa0
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: 74e315c5-99c2-4ba5-bca5-72d812624fa0, AcquireLock, AcquireLock method [Tablet PC], AcquireLock method [Tablet PC],IRealTimeStylusSynchronization interface, IRealTimeStylusSynchronization interface [Tablet PC],AcquireLock method, IRealTimeStylusSynchronization.AcquireLock, IRealTimeStylusSynchronization::AcquireLock, rtscom/IRealTimeStylusSynchronization::AcquireLock, tablet.irealtimestylussynchronization_acquirelock
 ms.prod: windows
 ms.technology: windows-sdk

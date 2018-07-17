@@ -7,7 +7,7 @@ old-location: mscs\clusversion_majorversion.htm
 old-project: mscs
 ms.assetid: f4d81e0a-4f65-470b-9215-f1b91e582646
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusVersion object [Failover Cluster],MajorVersion property, ClusVersion.MajorVersion, ISClusVersion.get_MajorVersion, ISClusVersion::get_MajorVersion, MajorVersion property [Failover Cluster], MajorVersion property [Failover Cluster],ClusVersion object, _wolf_clusversion.majorversion, get_MajorVersion, mscs.clusversion_majorversion
 ms.prod: windows
 ms.technology: windows-sdk

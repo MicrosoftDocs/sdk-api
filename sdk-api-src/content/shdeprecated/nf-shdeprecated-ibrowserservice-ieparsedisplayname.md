@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_IEParseDisplayName.htm
 old-project: shell
 ms.assetid: 02f5a6cb-2f90-4613-80cd-1e8a47bb32c2
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IBrowserService interface [Windows Shell],IEParseDisplayName method, IBrowserService.IEParseDisplayName, IBrowserService::IEParseDisplayName, IEParseDisplayName, IEParseDisplayName method [Windows Shell], IEParseDisplayName method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::IEParseDisplayName, shell.IBrowserService_IEParseDisplayName, zone_IBrowserService_IEParseDisplayName
 ms.prod: windows
 ms.technology: windows-sdk

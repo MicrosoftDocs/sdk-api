@@ -7,7 +7,7 @@ old-location: dshow\iamline21decoder_setcurrentservice.htm
 old-project: DirectShow
 ms.assetid: 2f1945c3-644d-4e72-b2b7-a7e068b59d96
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetCurrentService method, IAMLine21Decoder.SetCurrentService, IAMLine21Decoder::SetCurrentService, IAMLine21DecoderSetCurrentService, SetCurrentService, SetCurrentService method [DirectShow], SetCurrentService method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setcurrentservice, il21dec/IAMLine21Decoder::SetCurrentService
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: iscsidisc\iscsi_version_info.htm
 old-project: iSCSIDisc
 ms.assetid: 04b9e0c0-2c1e-4553-8eef-697819075bc4
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/12/2018
 ms.keywords: "*PISCSI_VERSION_INFO, ISCSI_VERSION_INFO, ISCSI_VERSION_INFO structure [iSCSI Discovery Library API], PISCSI_VERSION_INFO, PISCSI_VERSION_INFO structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_version_info, iscsidsc/ISCSI_VERSION_INFO, iscsidsc/PISCSI_VERSION_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\clusdisks_collection.htm
 old-project: mscs
 ms.assetid: 2823ccb2-5fb2-4e37-b842-340703165871
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusDisks, ClusDisks collection [Failover Cluster], ClusDisks collection [Failover Cluster],described, ISClusDisks, _wolf_clusdisks_collection, msclus/ClusDisks, mscs.clusdisks_collection
 ms.prod: windows
 ms.technology: windows-sdk

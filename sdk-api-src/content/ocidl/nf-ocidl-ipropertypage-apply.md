@@ -7,7 +7,7 @@ old-location: com\ipropertypage_apply.htm
 old-project: com
 ms.assetid: af0a1b49-54c3-453f-bd6a-70b63d625acb
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: Apply, Apply method [COM], Apply method [COM],IPropertyPage interface, IPropertyPage interface [COM],Apply method, IPropertyPage.Apply, IPropertyPage::Apply, _ctrl_ipropertypage_apply, com.ipropertypage_apply, ocidl/IPropertyPage::Apply
 ms.prod: windows
 ms.technology: windows-sdk

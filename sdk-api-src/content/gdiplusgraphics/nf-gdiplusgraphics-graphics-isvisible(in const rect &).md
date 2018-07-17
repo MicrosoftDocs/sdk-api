@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_IsVisible_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsisvisiblemethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Graphics.IsVisible, Graphics.IsVisible(IN const Rect &), Graphics::IsVisible, Graphics::IsVisible(IN const Rect &), IsVisible, IsVisible methods [GDI+], _gdiplus_CLASS_Graphics_IsVisible_Methods, gdiplus._gdiplus_CLASS_Graphics_IsVisible_Methods, gdiplusgraphics/IsVisible
 ms.prod: windows
 ms.technology: windows-sdk

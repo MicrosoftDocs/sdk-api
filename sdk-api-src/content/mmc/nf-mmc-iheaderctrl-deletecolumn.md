@@ -7,7 +7,7 @@ old-location: mmc\iheaderctrl_deletecolumn.htm
 old-project: mmc
 ms.assetid: 85A4D929-E98B-4C84-9E5C-EA5E41BD0D07
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: DeleteColumn, DeleteColumn method [MMC], DeleteColumn method [MMC],IHeaderCtrl interface, IHeaderCtrl interface [MMC],DeleteColumn method, IHeaderCtrl.DeleteColumn, IHeaderCtrl::DeleteColumn, mmc.iheaderctrl_deletecolumn, mmc/IHeaderCtrl::DeleteColumn
 ms.prod: windows
 ms.technology: windows-sdk

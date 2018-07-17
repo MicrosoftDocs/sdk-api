@@ -7,7 +7,7 @@ old-location: cos\getobjectcontext.htm
 old-project: cossdk
 ms.assetid: e93406df-e61c-4ee5-9cd4-828aab2c05b6
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: GetObjectContext, GetObjectContext function [COM+], _cos_GetObjectContext, comsvcs/GetObjectContext, cos.getobjectcontext
 ms.prod: windows
 ms.technology: windows-sdk

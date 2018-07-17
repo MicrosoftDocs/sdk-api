@@ -7,7 +7,7 @@ old-location: cos\icrmcompensatorvariants_begincommitvariants.htm
 old-project: cossdk
 ms.assetid: a6cd7421-5173-4edb-b752-5fbc44bac6dc
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: BeginCommitVariants, BeginCommitVariants method [COM+], BeginCommitVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],BeginCommitVariants method, ICrmCompensatorVariants.BeginCommitVariants, ICrmCompensatorVariants::BeginCommitVariants, _dtc_ICrmCompensatorVariants_BeginCommitVariants, comsvcs/ICrmCompensatorVariants::BeginCommitVariants, cos.icrmcompensatorvariants_begincommitvariants
 ms.prod: windows
 ms.technology: windows-sdk

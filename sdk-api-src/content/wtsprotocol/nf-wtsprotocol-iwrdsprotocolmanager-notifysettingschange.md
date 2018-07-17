@@ -4,10 +4,10 @@ title: IWRdsProtocolManager::NotifySettingsChange
 author: windows-sdk-content
 description: Notifies the protocol provider of changes in the settings within the Remote Desktop Services service.
 old-location: termserv\iwrdsprotocolmanager_notifysettingschange.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 80292d9b-fced-4726-8f83-5ba355df06a2
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifySettingsChange method, IWRdsProtocolManager.NotifySettingsChange, IWRdsProtocolManager::NotifySettingsChange, NotifySettingsChange, NotifySettingsChange method [Remote Desktop Services], NotifySettingsChange method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_notifysettingschange, wtsprotocol/IWRdsProtocolManager::NotifySettingsChange
 ms.prod: windows
 ms.technology: windows-sdk

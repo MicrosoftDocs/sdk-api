@@ -4,10 +4,10 @@ title: IWorkspace3::GetClaimsToken2
 author: windows-sdk-content
 description: Retrieves a claims token.
 old-location: termserv\iworkspace3_getclaimstoken2.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: d615b999-0713-4d16-a89b-b5b208a76124
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: GetClaimsToken2, GetClaimsToken2 method [Remote Desktop Services], GetClaimsToken2 method [Remote Desktop Services],IWorkspace3 interface, IWorkspace3 interface [Remote Desktop Services],GetClaimsToken2 method, IWorkspace3.GetClaimsToken2, IWorkspace3::GetClaimsToken2, termserv.iworkspace3_getclaimstoken2, workspaceruntime/IWorkspace3::GetClaimsToken2
 ms.prod: windows
 ms.technology: windows-sdk

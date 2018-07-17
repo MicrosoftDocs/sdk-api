@@ -4,10 +4,10 @@ title: IFsrmRule::get_ModuleDefinitionName
 author: windows-sdk-content
 description: The name of the module definition that you want to run this rule.
 old-location: fsrm\ifsrmrule_moduledefinitionname.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: b003b31b-fe40-446d-9db8-619dfcecc6c7
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],ModuleDefinitionName property, IFsrmRule.ModuleDefinitionName, IFsrmRule.get_ModuleDefinitionName, IFsrmRule::ModuleDefinitionName, IFsrmRule::get_ModuleDefinitionName, IFsrmRule::put_ModuleDefinitionName, ModuleDefinitionName property [File Server Resource Manager], ModuleDefinitionName property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_moduledefinitionname, fsrm.ifsrmrule_moduledefinitionname, fsrmpipeline/IFsrmRule::ModuleDefinitionName, fsrmpipeline/IFsrmRule::get_ModuleDefinitionName, fsrmpipeline/IFsrmRule::put_ModuleDefinitionName, get_ModuleDefinitionName
 ms.prod: windows
 ms.technology: windows-sdk

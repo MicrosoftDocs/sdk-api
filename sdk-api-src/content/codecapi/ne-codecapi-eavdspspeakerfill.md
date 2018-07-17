@@ -7,7 +7,7 @@ old-location: dshow\eavdspspeakerfill.htm
 old-project: DirectShow
 ms.assetid: 74afd030-bce6-4fb1-b937-2279c1e96264
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: codecapi/eAVDSPSpeakerFill, codecapi/eAVDSPSpeakerFill_AUTO, codecapi/eAVDSPSpeakerFill_OFF, codecapi/eAVDSPSpeakerFill_ON, dshow.eavdspspeakerfill, eAVDSPSpeakerFill, eAVDSPSpeakerFill enumeration [DirectShow], eAVDSPSpeakerFill_AUTO, eAVDSPSpeakerFill_OFF, eAVDSPSpeakerFill_ON
 ms.prod: windows
 ms.technology: windows-sdk

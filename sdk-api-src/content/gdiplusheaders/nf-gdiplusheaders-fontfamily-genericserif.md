@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_FontFamily_GenericSerif_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\genericserif.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: FontFamily class [GDI+],GenericSerif method, FontFamily.GenericSerif, FontFamily::GenericSerif, GenericSerif, GenericSerif method [GDI+], GenericSerif method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GenericSerif_, gdiplus._gdiplus_CLASS_FontFamily_GenericSerif_
 ms.prod: windows
 ms.technology: windows-sdk

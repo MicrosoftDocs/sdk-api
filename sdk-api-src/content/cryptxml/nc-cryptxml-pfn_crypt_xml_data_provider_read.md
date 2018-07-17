@@ -4,10 +4,10 @@ title: PFN_CRYPT_XML_DATA_PROVIDER_READ
 author: windows-sdk-content
 description: Reads XML data.
 old-location: security\pfn_crypt_xml_data_provider_read.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 86c7003e-eee2-4adf-adf4-8f9d1acb5c45
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: PFN_CRYPT_XML_DATA_PROVIDER_READ, PFN_CRYPT_XML_DATA_PROVIDER_READ callback, PFN_CRYPT_XML_DATA_PROVIDER_READ callback function [Security], cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_READ, security.pfn_crypt_xml_data_provider_read
 ms.prod: windows
 ms.technology: windows-sdk

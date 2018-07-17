@@ -4,10 +4,10 @@ title: "__MIDL_IWTSSBPlugin_0010"
 author: windows-sdk-content
 description: Contains values that indicate the type of status change that occurred on a Remote Desktop Session Host (RD Session Host) server or a user session.
 old-location: termserv\wtssbx_notification_type.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 06da6e20-a4de-4e2d-8f42-6d99b738226c
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WTSSBX_NOTIFICATION_ADDED, WTSSBX_NOTIFICATION_CHANGED, WTSSBX_NOTIFICATION_REMOVED, WTSSBX_NOTIFICATION_RESYNC, WTSSBX_NOTIFICATION_TYPE, WTSSBX_NOTIFICATION_TYPE enumeration [Remote Desktop Services], __MIDL_IWTSSBPlugin_0010, termserv.wtssbx_notification_type, tssbx/WTSSBX_NOTIFICATION_ADDED, tssbx/WTSSBX_NOTIFICATION_CHANGED, tssbx/WTSSBX_NOTIFICATION_REMOVED, tssbx/WTSSBX_NOTIFICATION_RESYNC, tssbx/WTSSBX_NOTIFICATION_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

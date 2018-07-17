@@ -4,10 +4,10 @@ title: tagLVFOOTERINFO
 author: windows-sdk-content
 description: Contains information on a footer in a list-view control.
 old-location: controls\LVFOOTERINFO.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvfooterinfo.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: "*LPLVFOOTERINFO, LPLVFOOTERINFO, LPLVFOOTERINFO structure pointer [Windows Controls], LVFOOTERINFO, LVFOOTERINFO structure [Windows Controls], _shell_LVFOOTERINFO, _shell_LVFOOTERINFO_cpp, commctrl/LPLVFOOTERINFO, commctrl/LVFOOTERINFO, controls.LVFOOTERINFO, controls._shell_LVFOOTERINFO, tagLVFOOTERINFO"
 ms.prod: windows
 ms.technology: windows-sdk

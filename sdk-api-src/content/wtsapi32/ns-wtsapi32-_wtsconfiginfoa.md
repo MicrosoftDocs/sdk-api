@@ -4,10 +4,10 @@ title: "_WTSCONFIGINFOA"
 author: windows-sdk-content
 description: Contains information about a Remote Desktop Services session.
 old-location: termserv\wtsconfiginfo.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 11561aee-0b73-4e4a-8a53-11a46c7838c7
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*PWTSCONFIGINFOA, PWTSCONFIGINFO, PWTSCONFIGINFO structure pointer [Remote Desktop Services], WTSCONFIGINFO, WTSCONFIGINFO structure [Remote Desktop Services], WTSCONFIGINFOA, WTSCONFIGINFOW, _WTSCONFIGINFOA, termserv.wtsconfiginfo, wtsapi32/PWTSCONFIGINFO, wtsapi32/WTSCONFIGINFO, wtsapi32/WTSCONFIGINFOA, wtsapi32/WTSCONFIGINFOW"
 ms.prod: windows
 ms.technology: windows-sdk

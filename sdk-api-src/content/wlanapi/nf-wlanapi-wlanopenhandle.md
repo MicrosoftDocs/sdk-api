@@ -4,10 +4,10 @@ title: WlanOpenHandle function
 author: windows-sdk-content
 description: Opens a connection to the server.
 old-location: nwifi\wlanopenhandle.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: 27bfa0c1-4443-47a4-a374-326f553fa3bb
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WlanOpenHandle, WlanOpenHandle function [NativeWIFI], nwifi.wlanopenhandle, wlanapi/WlanOpenHandle
 ms.prod: windows
 ms.technology: windows-sdk

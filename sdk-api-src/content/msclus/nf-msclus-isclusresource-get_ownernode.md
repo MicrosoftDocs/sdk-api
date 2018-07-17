@@ -7,7 +7,7 @@ old-location: mscs\clusresource_ownernode.htm
 old-project: mscs
 ms.assetid: dea1d13b-8a79-4ac4-ac29-437c520965f1
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResource class [Failover Cluster],OwnerNode property, ClusResource.OwnerNode, ISClusResource.get_OwnerNode, ISClusResource::get_OwnerNode, OwnerNode property [Failover Cluster], OwnerNode property [Failover Cluster],ClusResource class, _wolf_clusresource.ownernode, get_OwnerNode, mscs.clusresource_ownernode
 ms.prod: windows
 ms.technology: windows-sdk

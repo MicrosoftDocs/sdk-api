@@ -7,7 +7,7 @@ old-location: mscs\clusresource_becomequorumresource.htm
 old-project: mscs
 ms.assetid: fd316586-8553-4c4a-824e-ee5b7bf48184
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: BecomeQuorumResource, BecomeQuorumResource method [Failover Cluster], BecomeQuorumResource method [Failover Cluster],ClusResource object, ClusResource object [Failover Cluster],BecomeQuorumResource method, ClusResource.BecomeQuorumResource, ISClusResource.BecomeQuorumResource, ISClusResource::BecomeQuorumResource, _wolf_clusresource.becomequorumresource, mscs.clusresource_becomequorumresource
 ms.prod: windows
 ms.technology: windows-sdk

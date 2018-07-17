@@ -4,10 +4,10 @@ title: "_DHCP_CLIENT_INFO_ARRAY_V4"
 author: windows-sdk-content
 description: Defines an array of DHCP_CLIENT_INFO_V4 structures for use with enumeration functions.
 old-location: dhcp\dhcp_client_info_array_v4.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: cda4bf44-0a4c-4825-ae3f-379ceae5aadb
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: "*LPDHCP_CLIENT_INFO_ARRAY_V4, DHCP_CLIENT_INFO_ARRAY_V4, DHCP_CLIENT_INFO_ARRAY_V4 structure [DHCP], LPDHCP_CLIENT_INFO_ARRAY_V4, LPDHCP_CLIENT_INFO_ARRAY_V4 structure pointer [DHCP], _DHCP_CLIENT_INFO_ARRAY_V4, dhcp.dhcp_client_info_array_v4, dhcpsapi/LPDHCP_CLIENT_INFO_ARRAY_V4, dhcpsapi/_DHCP_CLIENT_INFO_ARRAY_V4"
 ms.prod: windows
 ms.technology: windows-sdk

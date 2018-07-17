@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetCenterPoint_Methods.ht
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\pathgradientbrushsetcenterpointmethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: PathGradientBrush.SetCenterPoint, PathGradientBrush.SetCenterPoint(IN const Point &), PathGradientBrush::SetCenterPoint, PathGradientBrush::SetCenterPoint(IN const Point &), SetCenterPoint, SetCenterPoint methods [GDI+], _gdiplus_CLASS_PathGradientBrush_SetCenterPoint_Methods, gdiplus._gdiplus_CLASS_PathGradientBrush_SetCenterPoint_Methods, gdipluspath/SetCenterPoint
 ms.prod: windows
 ms.technology: windows-sdk

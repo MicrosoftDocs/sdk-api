@@ -7,7 +7,7 @@ old-location: mmc\view_close.htm
 old-project: mmc
 ms.assetid: 5fe087c1-cee1-4f84-aa0c-6738af87d53e
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: Close, Close method [MMC], Close method [MMC],View interface, Close method [MMC],View object, View interface [MMC],Close method, View object [MMC],Close method, View.Close, View::Close, _slate_view.close_method, mmc.view_close
 ms.prod: windows
 ms.technology: windows-sdk

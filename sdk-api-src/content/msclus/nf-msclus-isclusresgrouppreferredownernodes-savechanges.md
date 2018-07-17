@@ -7,7 +7,7 @@ old-location: mscs\clusresgrouppreferredownernodes_savechanges.htm
 old-project: mscs
 ms.assetid: a345174f-be29-41bf-bb0a-398d9719f55f
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResGroupPreferredOwnerNodes class [Failover Cluster],SaveChanges method, ClusResGroupPreferredOwnerNodes.SaveChanges, ISClusResGroupPreferredOwnerNodes.SaveChanges, ISClusResGroupPreferredOwnerNodes::SaveChanges, SaveChanges, SaveChanges method [Failover Cluster], SaveChanges method [Failover Cluster],ClusResGroupPreferredOwnerNodes class, _wolf_clusresgrouppreferredownernodes.savechanges, mscs.clusresgrouppreferredownernodes_savechanges
 ms.prod: windows
 ms.technology: windows-sdk

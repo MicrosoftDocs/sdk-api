@@ -7,7 +7,7 @@ old-location: shell\StgMakeUniqueName.htm
 old-project: shell
 ms.assetid: d45ec25c-359b-46f8-b0f6-5888525c7349
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: StgMakeUniqueName, StgMakeUniqueName function [Windows Shell], _shell_StgMakeUniqueName, shell.StgMakeUniqueName, shlobj_core/StgMakeUniqueName
 ms.prod: windows
 ms.technology: windows-sdk

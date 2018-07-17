@@ -7,7 +7,7 @@ old-location: mmc\icomponentdata_createcomponent.htm
 old-project: mmc
 ms.assetid: cb9e7ccb-8431-4f12-a8da-648410ff3da6
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: CreateComponent, CreateComponent method [MMC], CreateComponent method [MMC],IComponentData interface, IComponentData interface [MMC],CreateComponent method, IComponentData.CreateComponent, IComponentData::CreateComponent, _slate_icomponentdata_createcomponent, mmc.icomponentdata_createcomponent, mmc/IComponentData::CreateComponent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IDot11AdHocInterfaceNotificationSink
 author: windows-sdk-content
 description: Defines the notifications supported by IDot11AdHocInterface.
 old-location: nwifi\idot11adhocinterfacenotificationsink.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: ab3fd026-32b4-48cb-aa10-37a084b5b08e
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IDot11AdHocInterfaceNotificationSink, IDot11AdHocInterfaceNotificationSink interface [NativeWIFI], IDot11AdHocInterfaceNotificationSink interface [NativeWIFI],described, adhoc/IDot11AdHocInterfaceNotificationSink, nwifi.idot11adhocinterfacenotificationsink
 ms.prod: windows
 ms.technology: windows-sdk

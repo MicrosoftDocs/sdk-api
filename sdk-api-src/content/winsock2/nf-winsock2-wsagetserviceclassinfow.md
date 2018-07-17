@@ -4,10 +4,10 @@ title: WSAGetServiceClassInfoW function
 author: windows-sdk-content
 description: The WSAGetServiceClassInfo function retrieves the class information (schema) pertaining to a specified service class from a specified namespace provider.
 old-location: winsock\wsagetserviceclassinfo_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: e177bb7d-c7d3-43a4-a809-ab8212feea2e
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WSAGetServiceClassInfo, WSAGetServiceClassInfo function [Winsock], WSAGetServiceClassInfoA, WSAGetServiceClassInfoW, _win32_wsagetserviceclassinfo_2, winsock.wsagetserviceclassinfo_2, winsock2/WSAGetServiceClassInfo, winsock2/WSAGetServiceClassInfoA, winsock2/WSAGetServiceClassInfoW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\ioleundounit_getdescription.htm
 old-project: com
 ms.assetid: 8fd9c49c-a8f3-4a4a-b501-211a107c1305
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: GetDescription, GetDescription method [COM], GetDescription method [COM],IOleUndoUnit interface, IOleUndoUnit interface [COM],GetDescription method, IOleUndoUnit.GetDescription, IOleUndoUnit::GetDescription, _ole_ioleundounit_getdescription, com.ioleundounit_getdescription, ocidl/IOleUndoUnit::GetDescription
 ms.prod: windows
 ms.technology: windows-sdk

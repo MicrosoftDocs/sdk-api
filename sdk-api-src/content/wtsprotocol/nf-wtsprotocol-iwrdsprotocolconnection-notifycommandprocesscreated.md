@@ -4,10 +4,10 @@ title: IWRdsProtocolConnection::NotifyCommandProcessCreated
 author: windows-sdk-content
 description: Notifies the protocol that the Winlogon.exe process has been created and initialized.
 old-location: termserv\iwrdsprotocolconnection_notifycommandprocesscreated.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: B2A9CC5A-6E6E-418D-9C03-FDF207AFB683
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],NotifyCommandProcessCreated method, IWRdsProtocolConnection.NotifyCommandProcessCreated, IWRdsProtocolConnection::NotifyCommandProcessCreated, NotifyCommandProcessCreated, NotifyCommandProcessCreated method [Remote Desktop Services], NotifyCommandProcessCreated method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_notifycommandprocesscreated, wtsprotocol/IWRdsProtocolConnection::NotifyCommandProcessCreated
 ms.prod: windows
 ms.technology: windows-sdk

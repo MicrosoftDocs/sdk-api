@@ -4,10 +4,10 @@ title: SetCommTimeouts function
 author: windows-sdk-content
 description: Sets the time-out parameters for all read and write operations on a specified communications device.
 old-location: base\setcommtimeouts.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 71aa6ab3-d56c-43bc-9932-5b4e61fc4b30
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: SetCommTimeouts, SetCommTimeouts function, _win32_setcommtimeouts, base.setcommtimeouts, winbase/SetCommTimeouts
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CreateProcessWithTokenW function
 author: windows-sdk-content
 description: Creates a new process and its primary thread. The new process runs in the security context of the specified token. It can optionally load the user profile for the specified user.
 old-location: base\createprocesswithtokenw.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: b329866a-0c0d-4cb3-838c-36aac17c87ed
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: CREATE_DEFAULT_ERROR_MODE, CREATE_NEW_CONSOLE, CREATE_NEW_PROCESS_GROUP, CREATE_SEPARATE_WOW_VDM, CREATE_SUSPENDED, CREATE_UNICODE_ENVIRONMENT, CreateProcessWithTokenW, CreateProcessWithTokenW function, EXTENDED_STARTUPINFO_PRESENT, LOGON_NETCREDENTIALS_ONLY, LOGON_WITH_PROFILE, base.createprocesswithtokenw, winbase/CreateProcessWithTokenW
 ms.prod: windows
 ms.technology: windows-sdk

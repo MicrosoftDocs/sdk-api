@@ -7,7 +7,7 @@ old-location: tablet\peninputpanel_refresh.htm
 old-project: tablet
 ms.assetid: 7f135184-76cc-4636-8c20-db29ca7d5540
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: 7f135184-76cc-4636-8c20-db29ca7d5540, IPenInputPanel interface [Tablet PC],Refresh method, IPenInputPanel.Refresh, IPenInputPanel::Refresh, Refresh, Refresh method [Tablet PC], Refresh method [Tablet PC],IPenInputPanel interface, peninputpanel/IPenInputPanel::Refresh, tablet.peninputpanel_refresh
 ms.prod: windows
 ms.technology: windows-sdk

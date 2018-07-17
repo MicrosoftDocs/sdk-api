@@ -2,13 +2,13 @@
 UID: NA:clusapi
 ms.assetid: 47fdf8f4-e355-309c-96e9-61cc51a21f8f
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mscs
 archived: true
+tech.root: mscs
 ---
 
 # Clusapi.h header

@@ -4,10 +4,10 @@ title: Msv1_0SubAuthenticationFilter function
 author: windows-sdk-content
 description: Performs user logon authentication that is specific to domain controllers.
 old-location: security\msv1_0subauthenticationfilter.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: d7162830-8cab-4ec1-afcb-7892f5e435d3
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: LOGON_GUEST, LOGON_NOENCRYPTION, MSV1_0_GUEST_LOGON, MSV1_0_PASSTHRU, Msv1_0SubAuthenticationFilter, Msv1_0SubAuthenticationFilter function [Security], USER_ALL_PARAMETERS, _lsa_msv1_0subauthenticationfilter, security.msv1_0subauthenticationfilter, subauth/Msv1_0SubAuthenticationFilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,7 +130,7 @@ Returns the members of the <a href="https://msdn.microsoft.com/18cf7194-4309-47b
 <td width="60%">
 Write the data contained in the <b>Parameters</b> member of the <i>UserAll</i> structure back to the SAM database.
 
-If the size of the <b>Parameters</b> member's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> buffer is changed, <b>Msv1_0SubAuthenticationFilter</b> must delete the buffer by using the <a href="https://msdn.microsoft.com/b5d8f133-ddd9-4b92-8540-611a03835be0">MIDL_user_free</a> function and reallocate it by using the <a href="https://msdn.microsoft.com/">MIDL_user_allocate</a> function.
+If the size of the <b>Parameters</b> member's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> buffer is changed, <b>Msv1_0SubAuthenticationFilter</b> must delete the buffer by using the <a href="https://msdn.microsoft.com/b5d8f133-ddd9-4b92-8540-611a03835be0">MIDL_user_free</a> function and reallocate it by using the <a href="https://msdn.microsoft.com/0eaf6df5-791d-4f6d-8f49-cc1ce64e7ab4">MIDL_user_allocate</a> function.
 
 </td>
 </tr>

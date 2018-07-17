@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_ExcludeClip_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsexcludeclipmethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: ExcludeClip, ExcludeClip methods [GDI+], Graphics.ExcludeClip, Graphics::ExcludeClip, _gdiplus_CLASS_Graphics_ExcludeClip_Methods, gdiplus._gdiplus_CLASS_Graphics_ExcludeClip_Methods, gdiplusgraphics/ExcludeClip
 ms.prod: windows
 ms.technology: windows-sdk

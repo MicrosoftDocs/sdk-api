@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetType_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\gettype_36.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: GetType, GetType method [GDI+], GetType method [GDI+],Image class, Image class [GDI+],GetType method, Image.GetType, Image::GetType, _gdiplus_CLASS_Image_GetType_, gdiplus._gdiplus_CLASS_Image_GetType_
 ms.prod: windows
 ms.technology: windows-sdk

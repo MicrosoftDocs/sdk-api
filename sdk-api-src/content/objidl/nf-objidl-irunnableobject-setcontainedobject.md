@@ -7,7 +7,7 @@ old-location: com\irunnableobject_setcontainedobject.htm
 old-project: com
 ms.assetid: dbd3f632-2b81-44d1-8376-4b507316895f
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: IRunnableObject interface [COM],SetContainedObject method, IRunnableObject.SetContainedObject, IRunnableObject::SetContainedObject, SetContainedObject, SetContainedObject method [COM], SetContainedObject method [COM],IRunnableObject interface, _com_irunnableobject_setcontainedobject, com.irunnableobject_setcontainedobject, objidl/IRunnableObject::SetContainedObject
 ms.prod: windows
 ms.technology: windows-sdk

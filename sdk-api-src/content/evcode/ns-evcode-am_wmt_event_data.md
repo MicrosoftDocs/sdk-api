@@ -7,7 +7,7 @@ old-location: wmformat\am_wmt_event_data.htm
 old-project: wmformat
 ms.assetid: 49f48cb6-e1d0-4dd4-bfb4-c5917144c3cf
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: AM_WMT_EVENT_DATA, AM_WMT_EVENT_DATA structure [windows Media Format], evcode/AM_WMT_EVENT_DATA, wmformat.am_wmt_event_data
 ms.prod: windows
 ms.technology: windows-sdk

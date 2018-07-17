@@ -4,10 +4,10 @@ title: CertDuplicateCRLContext function
 author: windows-sdk-content
 description: The CertDuplicateCRLContext function duplicates a certificate revocation list (CRL) context by incrementing its reference count.
 old-location: security\certduplicatecrlcontext.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: ea14c494-d1c7-46d0-9d56-fc89a4b4afa9
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CertDuplicateCRLContext, CertDuplicateCRLContext function [Security], _crypto2_certduplicatecrlcontext, security.certduplicatecrlcontext, wincrypt/CertDuplicateCRLContext
 ms.prod: windows
 ms.technology: windows-sdk

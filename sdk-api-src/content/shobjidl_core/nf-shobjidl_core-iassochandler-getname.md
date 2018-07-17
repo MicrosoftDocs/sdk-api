@@ -7,7 +7,7 @@ old-location: shell\IAssocHandler_GetName.htm
 old-project: shell
 ms.assetid: d20aee32-fa5a-40a9-b0e2-8479a90fcf35
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: GetName, GetName method [Windows Shell], GetName method [Windows Shell],IAssocHandler interface, IAssocHandler interface [Windows Shell],GetName method, IAssocHandler.GetName, IAssocHandler::GetName, _shell_IAssocHandler_GetName, shell.IAssocHandler_GetName, shobjidl_core/IAssocHandler::GetName
 ms.prod: windows
 ms.technology: windows-sdk

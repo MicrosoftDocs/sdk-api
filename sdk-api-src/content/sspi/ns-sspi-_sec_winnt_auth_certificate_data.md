@@ -4,10 +4,10 @@ title: "_SEC_WINNT_AUTH_CERTIFICATE_DATA"
 author: windows-sdk-content
 description: Specifies serialized certificate information.
 old-location: security\sec_winnt_auth_certificate_data.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 08dc5062-2925-4ec2-aef3-c7ff1cba9544
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*PSEC_WINNT_AUTH_CERTIFICATE_DATA, PSEC_WINNT_AUTH_CERTIFICATE_DATA, PSEC_WINNT_AUTH_CERTIFICATE_DATA structure pointer [Security], SEC_WINNT_AUTH_CERTIFICATE_DATA, SEC_WINNT_AUTH_CERTIFICATE_DATA structure [Security], _SEC_WINNT_AUTH_CERTIFICATE_DATA, security.sec_winnt_auth_certificate_data, sspi/PSEC_WINNT_AUTH_CERTIFICATE_DATA, sspi/SEC_WINNT_AUTH_CERTIFICATE_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

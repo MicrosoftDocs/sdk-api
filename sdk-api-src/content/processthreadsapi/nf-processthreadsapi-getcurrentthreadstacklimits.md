@@ -4,10 +4,10 @@ title: GetCurrentThreadStackLimits function
 author: windows-sdk-content
 description: Retrieves the boundaries of the stack that was allocated by the system for the current thread.
 old-location: base\getcurrentthreadstacklimits.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: a5556124-a832-477d-80ab-424779eb9553
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: GetCurrentThreadStackLimits, GetCurrentThreadStackLimits function, base.getcurrentthreadstacklimits, processthreadsapi/GetCurrentThreadStackLimits
 ms.prod: windows
 ms.technology: windows-sdk

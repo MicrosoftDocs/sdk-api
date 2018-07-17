@@ -4,10 +4,10 @@ title: WlanConnect function
 author: windows-sdk-content
 description: Attempts to connect to a specific network.
 old-location: nwifi\wlanconnect.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: 24ab2024-e786-454f-860f-cf2431f001bb
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WlanConnect, WlanConnect function [NativeWIFI], nwifi.wlanconnect, wlanapi/WlanConnect
 ms.prod: windows
 ms.technology: windows-sdk

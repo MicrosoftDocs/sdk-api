@@ -7,7 +7,7 @@ old-location: mscs\igetclusterobjectinfo.htm
 old-project: mscs
 ms.assetid: a88ba05c-b64b-4d6d-b005-f2f867093355
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: IGetClusterObjectInfo, IGetClusterObjectInfo interface [Failover Cluster], IGetClusterObjectInfo interface [Failover Cluster],described, _wolf_igetclusterobjectinfo, cluadmex/IGetClusterObjectInfo, mscs.igetclusterobjectinfo
 ms.prod: windows
 ms.technology: windows-sdk

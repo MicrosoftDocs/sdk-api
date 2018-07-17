@@ -2,7 +2,7 @@
 UID: NA:playtomanagerinterop
 ms.assetid: d21ff2b7-9532-3f6a-9af5-4617945d3bbd
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\clusresdependencies_removeitem.htm
 old-project: mscs
 ms.assetid: 904556e2-7d0b-4c03-8cf5-795342263045
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResDependencies class [Failover Cluster],RemoveItem method, ClusResDependencies.RemoveItem, ISClusResDependencies.RemoveItem, ISClusResDependencies::RemoveItem, RemoveItem, RemoveItem method [Failover Cluster], RemoveItem method [Failover Cluster],ClusResDependencies class, _wolf_clusresdependencies.removeitem, mscs.clusresdependencies_removeitem
 ms.prod: windows
 ms.technology: windows-sdk

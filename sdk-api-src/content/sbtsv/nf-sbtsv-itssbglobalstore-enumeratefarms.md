@@ -4,10 +4,10 @@ title: ITsSbGlobalStore::EnumerateFarms
 author: windows-sdk-content
 description: Enumerates all the farms that have been added by the specified resource plug-in.
 old-location: termserv\itssbglobalstore_enumeratefarms.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 51c59f35-667c-4723-aa7b-e8250bbdabe9
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: EnumerateFarms, EnumerateFarms method [Remote Desktop Services], EnumerateFarms method [Remote Desktop Services],ITsSbGlobalStore interface, ITsSbGlobalStore interface [Remote Desktop Services],EnumerateFarms method, ITsSbGlobalStore.EnumerateFarms, ITsSbGlobalStore::EnumerateFarms, sbtsv/ITsSbGlobalStore::EnumerateFarms, termserv.itssbglobalstore_enumeratefarms
 ms.prod: windows
 ms.technology: windows-sdk

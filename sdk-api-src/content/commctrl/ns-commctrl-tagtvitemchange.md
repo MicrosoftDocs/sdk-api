@@ -4,10 +4,10 @@ title: tagTVITEMCHANGE
 author: windows-sdk-content
 description: Contains information on a tree-view item change. This structure is sent with the TVN_ITEMCHANGED and TVN_ITEMCHANGING notifications.
 old-location: controls\NMTVITEMCHANGE.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvitemchange.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: NMTVITEMCHANGE, NMTVITEMCHANGE structure [Windows Controls], _shell_NMTVITEMCHANGE, _shell_NMTVITEMCHANGE_cpp, commctrl/NMTVITEMCHANGE, controls.NMTVITEMCHANGE, controls._shell_NMTVITEMCHANGE, tagTVITEMCHANGE
 ms.prod: windows
 ms.technology: windows-sdk

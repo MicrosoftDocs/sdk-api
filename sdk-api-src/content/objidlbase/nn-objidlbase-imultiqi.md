@@ -7,7 +7,7 @@ old-location: com\imultiqi.htm
 old-project: com
 ms.assetid: 5e50396f-2931-403f-946a-dc096cb012cc
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: IMultiQI, IMultiQI interface [COM], IMultiQI interface [COM],described, _com_imultiqi, com.imultiqi, objidlbase/IMultiQI
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddEllipse_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddellipsemethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: AddEllipse, AddEllipse methods [GDI+], GraphicsPath.AddEllipse, GraphicsPath::AddEllipse, _gdiplus_CLASS_GraphicsPath_AddEllipse_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddEllipse_Methods, gdipluspath/AddEllipse
 ms.prod: windows
 ms.technology: windows-sdk

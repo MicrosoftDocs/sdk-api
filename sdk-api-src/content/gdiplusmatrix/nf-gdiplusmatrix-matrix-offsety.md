@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_OffsetY_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\offsety.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Matrix class [GDI+],OffsetY method, Matrix.OffsetY, Matrix::OffsetY, OffsetY, OffsetY method [GDI+], OffsetY method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_OffsetY_, gdiplus._gdiplus_CLASS_Matrix_OffsetY_
 ms.prod: windows
 ms.technology: windows-sdk

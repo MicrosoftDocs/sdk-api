@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawClosedCurve_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawclosedcurvemethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: DrawClosedCurve, DrawClosedCurve methods [GDI+], Graphics.DrawClosedCurve, Graphics::DrawClosedCurve, _gdiplus_CLASS_Graphics_DrawClosedCurve_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawClosedCurve_Methods, gdiplusgraphics/DrawClosedCurve
 ms.prod: windows
 ms.technology: windows-sdk

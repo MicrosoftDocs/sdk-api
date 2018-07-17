@@ -4,10 +4,10 @@ title: ITextServices::TxGetCurTargetX
 author: windows-sdk-content
 description: Gets the target x position, that is, the current horizontal position of the caret.
 old-location: controls\ITextServices_TxGetCurTargetX.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetcurtargetx.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ITextServices interface [Windows Controls],TxGetCurTargetX method, ITextServices.TxGetCurTargetX, ITextServices::TxGetCurTargetX, TxGetCurTargetX, TxGetCurTargetX method [Windows Controls], TxGetCurTargetX method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetCurTargetX, _win32_ITextServices_TxGetCurTargetX_cpp, controls.ITextServices_TxGetCurTargetX, controls._win32_ITextServices_TxGetCurTargetX, textserv/ITextServices::TxGetCurTargetX
 ms.prod: windows
 ms.technology: windows-sdk

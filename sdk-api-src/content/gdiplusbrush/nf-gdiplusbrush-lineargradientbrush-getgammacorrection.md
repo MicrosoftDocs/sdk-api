@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetGammaCorrection_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\getgammacorrection.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: GetGammaCorrection, GetGammaCorrection method [GDI+], GetGammaCorrection method [GDI+],LinearGradientBrush class, LinearGradientBrush class [GDI+],GetGammaCorrection method, LinearGradientBrush.GetGammaCorrection, LinearGradientBrush::GetGammaCorrection, _gdiplus_CLASS_LinearGradientBrush_GetGammaCorrection_, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetGammaCorrection_
 ms.prod: windows
 ms.technology: windows-sdk

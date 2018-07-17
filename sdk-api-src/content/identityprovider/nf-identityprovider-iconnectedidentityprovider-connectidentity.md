@@ -4,10 +4,10 @@ title: IConnectedIdentityProvider::ConnectIdentity
 author: windows-sdk-content
 description: Connects an identity to a domain user.
 old-location: security\iconnectedidentityprovider_connectidentity.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 945CBE34-E364-41FF-8CE4-0FB0BEF3BC69
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ConnectIdentity, ConnectIdentity method [Security], ConnectIdentity method [Security],IConnectedIdentityProvider interface, IConnectedIdentityProvider interface [Security],ConnectIdentity method, IConnectedIdentityProvider.ConnectIdentity, IConnectedIdentityProvider::ConnectIdentity, identityprovider/IConnectedIdentityProvider::ConnectIdentity, security.iconnectedidentityprovider_connectidentity
 ms.prod: windows
 ms.technology: windows-sdk

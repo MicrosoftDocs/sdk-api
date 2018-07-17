@@ -4,10 +4,10 @@ title: WSAConnectByList function
 author: windows-sdk-content
 description: Establishes a connection to one out of a collection of possible endpoints represented by a set of destination addresses (host names and ports).
 old-location: winsock\wsaconnectbylist.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 7323d814-e96e-44b9-8ade-a9317e4fbf17
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WSAConnectByList, WSAConnectByList function [Winsock], winsock.wsaconnectbylist, winsock2/WSAConnectByList
 ms.prod: windows
 ms.technology: windows-sdk

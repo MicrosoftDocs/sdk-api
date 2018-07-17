@@ -7,7 +7,7 @@ old-location: security\icspinformation_version_property.htm
 old-project: seccertenroll
 ms.assetid: 9b5010e3-d4c2-4194-ad8a-f8f4e0a41446
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICspInformation interface [Security],Version property, ICspInformation.Version, ICspInformation.get_Version, ICspInformation::Version, ICspInformation::get_Version, Version property [Security], Version property [Security],ICspInformation interface, certenroll/ICspInformation::Version, certenroll/ICspInformation::get_Version, get_Version, security.icspinformation_version_property
 ms.prod: windows
 ms.technology: windows-sdk

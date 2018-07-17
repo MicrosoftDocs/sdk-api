@@ -7,7 +7,7 @@ old-location: security\ix509extensiontemplatename_initializeencode_method.htm
 old-project: seccertenroll
 ms.assetid: 8b72b73a-bfd5-4a56-a106-01f2fd59e922
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509ExtensionTemplateName interface [Security],InitializeEncode method, IX509ExtensionTemplateName.InitializeEncode, IX509ExtensionTemplateName::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionTemplateName interface, certenroll/IX509ExtensionTemplateName::InitializeEncode, security.ix509extensiontemplatename_initializeencode_method
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\iconnectionpoint.htm
 old-project: com
 ms.assetid: ef5a917c-b57f-4000-8daa-86fdbfb47579
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: IConnectionPoint, IConnectionPoint interface [COM], IConnectionPoint interface [COM],described, _com_iconnectionpoint, com.iconnectionpoint, ocidl/IConnectionPoint
 ms.prod: windows
 ms.technology: windows-sdk

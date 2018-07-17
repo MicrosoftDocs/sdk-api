@@ -4,10 +4,10 @@ title: "_CHANGER_SET_ACCESS"
 author: windows-sdk-content
 description: Contains information that the IOCTL_CHANGER_SET_ACCESS control code needs to set the state of the device's insert/eject port, door, or keypad.
 old-location: base\changer_set_access_str.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 14a687c0-18c0-4504-a49e-7ba1b1525d12
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: "*PCHANGER_SET_ACCESS, CHANGER_SET_ACCESS, CHANGER_SET_ACCESS structure, EXTEND_IEPORT, LOCK_ELEMENT, PCHANGER_SET_ACCESS, PCHANGER_SET_ACCESS structure pointer, RETRACT_IEPORT, UNLOCK_ELEMENT, _CHANGER_SET_ACCESS, _win32_changer_set_access_str, base.changer_set_access_str, winioctl/CHANGER_SET_ACCESS, winioctl/PCHANGER_SET_ACCESS"
 ms.prod: windows
 ms.technology: windows-sdk

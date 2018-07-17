@@ -7,7 +7,7 @@ old-location: cos\ienumnames_clone.htm
 old-project: cossdk
 ms.assetid: ea57be73-076a-445d-9b0d-4a1041befa2d
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: Clone, Clone method [COM+], Clone method [COM+],IEnumNames interface, IEnumNames interface [COM+],Clone method, IEnumNames.Clone, IEnumNames::Clone, _cos_IEnumNames_Clone, comsvcs/IEnumNames::Clone, cos.ienumnames_clone
 ms.prod: windows
 ms.technology: windows-sdk

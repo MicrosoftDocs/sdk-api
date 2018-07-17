@@ -7,7 +7,7 @@ old-location: mscs\clusresgroup_cluster.htm
 old-project: mscs
 ms.assetid: fb5f1ebd-8d30-4625-9cc1-ce7713e91da6
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResGroup class [Failover Cluster],Cluster property, ClusResGroup.Cluster, Cluster property [Failover Cluster], Cluster property [Failover Cluster],ClusResGroup class, ISClusResGroup.get_Cluster, ISClusResGroup::get_Cluster, _wolf_clusresgroup.cluster, get_Cluster, mscs.clusresgroup_cluster
 ms.prod: windows
 ms.technology: windows-sdk

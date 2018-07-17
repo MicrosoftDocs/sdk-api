@@ -7,7 +7,7 @@ old-location: security\ix509extensionalternativenames.htm
 old-project: seccertenroll
 ms.assetid: facfcc85-c1ca-47a1-90a6-10522b15cc65
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509ExtensionAlternativeNames, IX509ExtensionAlternativeNames interface [Security], IX509ExtensionAlternativeNames interface [Security],described, certenroll/IX509ExtensionAlternativeNames, security.ix509extensionalternativenames
 ms.prod: windows
 ms.technology: windows-sdk

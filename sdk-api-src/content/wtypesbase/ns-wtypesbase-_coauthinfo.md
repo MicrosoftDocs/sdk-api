@@ -7,7 +7,7 @@ old-location: com\coauthinfo.htm
 old-project: com
 ms.assetid: 8cbe27b6-c676-49f2-8341-9e180c335636
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: COAUTHINFO, COAUTHINFO structure [COM], _COAUTHINFO, _com_COAUTHINFO, com.coauthinfo, wtypesbase/COAUTHINFO
 ms.prod: windows
 ms.technology: windows-sdk

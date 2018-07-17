@@ -4,10 +4,10 @@ title: CloseThemeData function
 author: windows-sdk-content
 description: Closes the theme data handle.
 old-location: controls\CloseThemeData.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\closethemedata.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: CloseThemeData, CloseThemeData function [Windows Controls], controls.CloseThemeData, controls.inet_CloseThemeData, inet_CloseThemeData, inet_CloseThemeData_cpp, uxtheme/CloseThemeData
 ms.prod: windows
 ms.technology: windows-sdk

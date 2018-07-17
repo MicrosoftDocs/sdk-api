@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetWidth_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getwidth_81.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: GetWidth, GetWidth method [GDI+], GetWidth method [GDI+],Image class, Image class [GDI+],GetWidth method, Image.GetWidth, Image::GetWidth, _gdiplus_CLASS_Image_GetWidth_, gdiplus._gdiplus_CLASS_Image_GetWidth_
 ms.prod: windows
 ms.technology: windows-sdk

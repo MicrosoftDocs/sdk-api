@@ -2,13 +2,13 @@
 UID: NA:winfax
 ms.assetid: 1d8372da-bf53-3345-882f-8adc98f7fe8d
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: fax
 archived: true
+tech.root: fax
 ---
 
 # Winfax.h header

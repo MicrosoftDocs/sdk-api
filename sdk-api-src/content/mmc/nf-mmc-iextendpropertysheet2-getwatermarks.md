@@ -7,7 +7,7 @@ old-location: mmc\iextendpropertysheet2_getwatermarks.htm
 old-project: mmc
 ms.assetid: caecb35a-3f59-4a04-af46-862ded9685cf
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: GetWatermarks, GetWatermarks method [MMC], GetWatermarks method [MMC],IExtendPropertySheet2 interface, IExtendPropertySheet2 interface [MMC],GetWatermarks method, IExtendPropertySheet2.GetWatermarks, IExtendPropertySheet2::GetWatermarks, _slate_iextendpropertysheet2_getwatermarks, mmc.iextendpropertysheet2_getwatermarks, mmc/IExtendPropertySheet2::GetWatermarks
 ms.prod: windows
 ms.technology: windows-sdk

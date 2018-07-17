@@ -2,13 +2,13 @@
 UID: NA:fsrmpipeline
 ms.assetid: 1100e59c-44eb-35fa-abbc-b0e9423b5969
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: fsrm
 archived: true
+tech.root: fsrm
 ---
 
 # Fsrmpipeline.h header

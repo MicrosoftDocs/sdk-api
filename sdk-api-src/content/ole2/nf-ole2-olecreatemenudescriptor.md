@@ -7,7 +7,7 @@ old-location: com\olecreatemenudescriptor.htm
 old-project: com
 ms.assetid: b4a6b3f1-aee9-4b68-8ffe-24bd497db0a0
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: OleCreateMenuDescriptor, OleCreateMenuDescriptor function [COM], _ole_OleCreateMenuDescriptor, com.olecreatemenudescriptor, ole2/OleCreateMenuDescriptor
 ms.prod: windows
 ms.technology: windows-sdk

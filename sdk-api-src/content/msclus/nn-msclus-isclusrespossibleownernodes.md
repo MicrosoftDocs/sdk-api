@@ -7,7 +7,7 @@ old-location: mscs\clusrespossibleownernodes_collection.htm
 old-project: mscs
 ms.assetid: a3269288-f32f-45d5-8fd4-4e6fb257c1be
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResPossibleOwnerNodes, ClusResPossibleOwnerNodes collection [Failover Cluster], ClusResPossibleOwnerNodes collection [Failover Cluster],described, ISClusResPossibleOwnerNodes, _wolf_clusrespossibleownernodes_collection, msclus/ClusResPossibleOwnerNodes, mscs.clusrespossibleownernodes_collection
 ms.prod: windows
 ms.technology: windows-sdk

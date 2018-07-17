@@ -4,10 +4,10 @@ title: WlanSetAutoConfigParameter function
 author: windows-sdk-content
 description: Sets parameters for the automatic configuration service.
 old-location: nwifi\wlansetautoconfigparameter.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: 4f2514be-f05e-4be6-8c74-ef7a9ffe1c53
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WlanSetAutoConfigParameter, WlanSetAutoConfigParameter function [NativeWIFI], nwifi.wlansetautoconfigparameter, wlan_autoconf_opcode_allow_explicit_creds, wlan_autoconf_opcode_allow_virtual_station_extensibility, wlan_autoconf_opcode_block_period, wlan_autoconf_opcode_show_denied_networks, wlanapi/WlanSetAutoConfigParameter
 ms.prod: windows
 ms.technology: windows-sdk

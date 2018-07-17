@@ -7,7 +7,7 @@ old-location: mmc\irequiredextensions_enableallextensions.htm
 old-project: mmc
 ms.assetid: f7278976-8f15-43a4-b9ef-fb1952fdd455
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: EnableAllExtensions, EnableAllExtensions method [MMC], EnableAllExtensions method [MMC],IRequiredExtensions interface, IRequiredExtensions interface [MMC],EnableAllExtensions method, IRequiredExtensions.EnableAllExtensions, IRequiredExtensions::EnableAllExtensions, _slate_irequiredextensions_enableallextensions, mmc.irequiredextensions_enableallextensions, mmc/IRequiredExtensions::EnableAllExtensions
 ms.prod: windows
 ms.technology: windows-sdk

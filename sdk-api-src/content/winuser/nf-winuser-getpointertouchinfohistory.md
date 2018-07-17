@@ -7,7 +7,7 @@ old-location: inputmsg\getpointertouchinfohistory.htm
 old-project: InputMsg
 ms.assetid: 9fdfbde7-4126-4c1b-b870-479f846e1aa9
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: GetPointerTouchInfoHistory, GetPointerTouchInfoHistory function [Input Messages and Notifications], inputmsg.getpointertouchinfohistory, winuser/GetPointerTouchInfoHistory
 ms.prod: windows
 ms.technology: windows-sdk

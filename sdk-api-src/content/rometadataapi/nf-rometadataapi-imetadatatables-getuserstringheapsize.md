@@ -7,7 +7,7 @@ old-location: winrt\imetadatatables_getuserstringheapsize.htm
 old-project: WinRT
 ms.assetid: f01059be-6370-4bab-b4f4-69db158c17a3
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/13/2018
 ms.keywords: GetUserStringHeapSize, GetUserStringHeapSize method [Windows Runtime], GetUserStringHeapSize method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetUserStringHeapSize method, IMetaDataTables.GetUserStringHeapSize, IMetaDataTables::GetUserStringHeapSize, rometadataapi/IMetaDataTables::GetUserStringHeapSize, winrt.imetadatatables_getuserstringheapsize
 ms.prod: windows
 ms.technology: windows-sdk

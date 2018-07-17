@@ -4,10 +4,10 @@ title: ITsSbResourcePluginStore::TestAndSetServerState
 author: windows-sdk-content
 description: Conditionally sets a new state on a server.
 old-location: termserv\itssbresourcepluginstore_testandsetserverstate.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 5b209587-090e-4338-95b3-542e50412587
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],TestAndSetServerState method, ITsSbResourcePluginStore.TestAndSetServerState, ITsSbResourcePluginStore::TestAndSetServerState, TestAndSetServerState, TestAndSetServerState method [Remote Desktop Services], TestAndSetServerState method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::TestAndSetServerState, termserv.itssbresourcepluginstore_testandsetserverstate
 ms.prod: windows
 ms.technology: windows-sdk

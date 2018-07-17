@@ -7,7 +7,7 @@ old-location: winprog\fhserviceclosepipe.htm
 old-project: DevNotes
 ms.assetid: 20C46E2A-E79F-47B9-9D7A-74CD3AF03EF7
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: FhServiceClosePipe, FhServiceClosePipe function [Windows API], fhsvcctl/FhServiceClosePipe, winprog.fhserviceclosepipe
 ms.prod: windows
 ms.technology: windows-sdk

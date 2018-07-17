@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_IsVisible_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionisvisiblemethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: IsVisible, IsVisible methods [GDI+], Region.IsVisible, Region.IsVisible(IN REAL,IN REAL,IN const Graphics), Region::IsVisible, Region::IsVisible(IN REAL,IN REAL,IN const Graphics), _gdiplus_CLASS_Region_IsVisible_Methods, gdiplus._gdiplus_CLASS_Region_IsVisible_Methods, gdiplusheaders/IsVisible
 ms.prod: windows
 ms.technology: windows-sdk

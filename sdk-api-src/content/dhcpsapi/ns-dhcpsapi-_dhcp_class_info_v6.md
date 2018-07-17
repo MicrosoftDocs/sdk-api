@@ -4,10 +4,10 @@ title: "_DHCP_CLASS_INFO_V6"
 author: windows-sdk-content
 description: Contains the information for a particular DHCPv6 user class or vendor class.
 old-location: dhcp\dhcp_class_info_v6.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: 76d9a46b-6958-4c29-8512-e6299b28ca01
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: "*LPDHCP_CLASS_INFO_V6, DHCP_CLASS_INFO_V6, DHCP_CLASS_INFO_V6 structure [DHCP], PDHCP_CLASS_INFO_V6, PDHCP_CLASS_INFO_V6 structure pointer [DHCP], _DHCP_CLASS_INFO_V6, dhcp.dhcp_class_info_v6, dhcpsapi/DHCP_CLASS_INFO_V6, dhcpsapi/PDHCP_CLASS_INFO_V6"
 ms.prod: windows
 ms.technology: windows-sdk

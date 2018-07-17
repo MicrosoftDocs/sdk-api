@@ -4,10 +4,10 @@ title: CertRemoveStoreFromCollection function
 author: windows-sdk-content
 description: Removes a sibling certificate store from a collection store.
 old-location: security\certremovestorefromcollection.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: e1564848-8b39-4ea9-9148-142ceaaaed15
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CertRemoveStoreFromCollection, CertRemoveStoreFromCollection function [Security], _crypto2_certremovestorefromcollection, security.certremovestorefromcollection, wincrypt/CertRemoveStoreFromCollection
 ms.prod: windows
 ms.technology: windows-sdk

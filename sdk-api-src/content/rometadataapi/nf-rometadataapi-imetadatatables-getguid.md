@@ -7,7 +7,7 @@ old-location: winrt\imetadatatables_getguid.htm
 old-project: WinRT
 ms.assetid: 037d722f-3efb-4c01-8445-b23caafbbdb2
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/13/2018
 ms.keywords: GetGuid, GetGuid method [Windows Runtime], GetGuid method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetGuid method, IMetaDataTables.GetGuid, IMetaDataTables::GetGuid, rometadataapi/IMetaDataTables::GetGuid, winrt.imetadatatables_getguid
 ms.prod: windows
 ms.technology: windows-sdk

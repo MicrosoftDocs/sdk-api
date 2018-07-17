@@ -7,7 +7,7 @@ old-location: multimedia\icdrawopen.htm
 old-project: Multimedia
 ms.assetid: b625a5f7-8212-4339-a1a6-37736def40a0
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/13/2018
 ms.keywords: ICDrawOpen, ICDrawOpen macro [Windows Multimedia], _win32_ICDrawOpen, multimedia.icdrawopen, vfw/ICDrawOpen
 ms.prod: windows
 ms.technology: windows-sdk

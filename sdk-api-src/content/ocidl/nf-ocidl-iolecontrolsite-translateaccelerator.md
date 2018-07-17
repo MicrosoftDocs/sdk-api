@@ -7,7 +7,7 @@ old-location: com\iolecontrolsite_translateaccelerator.htm
 old-project: com
 ms.assetid: e4f9a6f7-bb0f-41d2-b1b8-7fda2dbee278
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: IOleControlSite interface [COM],TranslateAccelerator method, IOleControlSite.TranslateAccelerator, IOleControlSite::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_translateaccelerator, com.iolecontrolsite_translateaccelerator, ocidl/IOleControlSite::TranslateAccelerator
 ms.prod: windows
 ms.technology: windows-sdk

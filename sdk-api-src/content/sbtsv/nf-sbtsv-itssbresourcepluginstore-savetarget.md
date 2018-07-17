@@ -4,10 +4,10 @@ title: ITsSbResourcePluginStore::SaveTarget
 author: windows-sdk-content
 description: Saves a target.
 old-location: termserv\itssbresourcepluginstore_savetarget.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 323ac6ee-6a50-433b-85b3-a4409be08226
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SaveTarget method, ITsSbResourcePluginStore.SaveTarget, ITsSbResourcePluginStore::SaveTarget, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],SaveTarget method, ITsSbResourcePluginStoreEx::SaveTarget, SaveTarget, SaveTarget method [Remote Desktop Services], SaveTarget method [Remote Desktop Services],ITsSbResourcePluginStore interface, SaveTarget method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::SaveTarget, sbtsv/ITsSbResourcePluginStoreEx::SaveTarget, termserv.itssbresourcepluginstore_savetarget
 ms.prod: windows
 ms.technology: windows-sdk

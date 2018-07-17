@@ -4,10 +4,10 @@ title: ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck
 author: windows-sdk-content
 description: Sets the value of a property of a target.
 old-location: termserv\itssbresourcepluginstore_settargetpropertywithversioncheck.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 51b5e267-da1a-4d83-81bc-0cf8fb525fa9
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetTargetPropertyWithVersionCheck method, ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck, ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck, SetTargetPropertyWithVersionCheck, SetTargetPropertyWithVersionCheck method [Remote Desktop Services], SetTargetPropertyWithVersionCheck method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck, termserv.itssbresourcepluginstore_settargetpropertywithversioncheck
 ms.prod: windows
 ms.technology: windows-sdk

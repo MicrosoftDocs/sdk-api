@@ -4,10 +4,10 @@ title: WSAHtons function
 author: windows-sdk-content
 description: The WSAHtons function converts a u_short from host byte order to network byte order.
 old-location: winsock\wsahtons_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 95fb103b-f7dd-4fa4-bf68-ed8e87cdd96b
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WSAHtons, WSAHtons function [Winsock], _win32_wsahtons_2, winsock.wsahtons_2, winsock2/WSAHtons
 ms.prod: windows
 ms.technology: windows-sdk

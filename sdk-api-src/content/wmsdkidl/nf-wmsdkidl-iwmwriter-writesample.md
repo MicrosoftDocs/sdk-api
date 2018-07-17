@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriter_writesample.htm
 old-project: wmformat
 ms.assetid: ba1cf121-1d01-4e90-9ab0-95af0b6e3850
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: IWMWriter interface [windows Media Format],WriteSample method, IWMWriter.WriteSample, IWMWriter::WriteSample, IWMWriterWriteSample, WriteSample, WriteSample method [windows Media Format], WriteSample method [windows Media Format],IWMWriter interface, wmformat.iwmwriter_writesample, wmsdkidl/IWMWriter::WriteSample
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_TransformPoints_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\matrixtransformpointsmethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Matrix.TransformPoints, Matrix.TransformPoints(IN OUT Point,IN INT), Matrix::TransformPoints, Matrix::TransformPoints(IN OUT Point,IN INT), TransformPoints, TransformPoints methods [GDI+], _gdiplus_CLASS_Matrix_TransformPoints_Methods, gdiplus._gdiplus_CLASS_Matrix_TransformPoints_Methods, gdiplusmatrix/TransformPoints
 ms.prod: windows
 ms.technology: windows-sdk

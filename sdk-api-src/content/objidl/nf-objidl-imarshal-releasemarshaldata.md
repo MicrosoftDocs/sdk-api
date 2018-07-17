@@ -7,7 +7,7 @@ old-location: com\imarshal_releasemarshaldata.htm
 old-project: com
 ms.assetid: c58c7768-9200-4370-930c-89a6c6d2b430
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: IMarshal interface [COM],ReleaseMarshalData method, IMarshal.ReleaseMarshalData, IMarshal::ReleaseMarshalData, ReleaseMarshalData, ReleaseMarshalData method [COM], ReleaseMarshalData method [COM],IMarshal interface, _com_imarshal_releasemarshaldata, com.imarshal_releasemarshaldata, objidlbase/IMarshal::ReleaseMarshalData
 ms.prod: windows
 ms.technology: windows-sdk

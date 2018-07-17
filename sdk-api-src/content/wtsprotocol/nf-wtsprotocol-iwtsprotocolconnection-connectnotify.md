@@ -4,10 +4,10 @@ title: IWTSProtocolConnection::ConnectNotify
 author: windows-sdk-content
 description: IWTSProtocolConnection::ConnectNotify is no longer available. Instead, use IWRdsProtocolConnection::ConnectNotify.
 old-location: termserv\iwtsprotocolconnection_connectnotify.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 9109d867-d9dc-4b95-a674-9f59ed7aa6a4
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ConnectNotify, ConnectNotify method [Remote Desktop Services], ConnectNotify method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],ConnectNotify method, IWTSProtocolConnection.ConnectNotify, IWTSProtocolConnection::ConnectNotify, termserv.iwtsprotocolconnection_connectnotify, wtsprotocol/IWTSProtocolConnection::ConnectNotify
 ms.prod: windows
 ms.technology: windows-sdk

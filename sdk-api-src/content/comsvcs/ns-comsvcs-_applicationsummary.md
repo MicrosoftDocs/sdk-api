@@ -7,7 +7,7 @@ old-location: cos\applicationsummary.htm
 old-project: cossdk
 ms.assetid: 3291eede-5318-4d97-a969-ce54381f30af
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: ApplicationSummary, ApplicationSummary structure [COM+], _ApplicationSummary, comsvcs/ApplicationSummary, cos.applicationsummary
 ms.prod: windows
 ms.technology: windows-sdk

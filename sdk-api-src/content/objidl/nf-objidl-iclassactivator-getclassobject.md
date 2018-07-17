@@ -7,7 +7,7 @@ old-location: com\iclassactivator_getclassobject.htm
 old-project: com
 ms.assetid: 1bbffe63-bd3a-40c8-aece-63121a437269
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: GetClassObject, GetClassObject method [COM], GetClassObject method [COM],IClassActivator interface, IClassActivator interface [COM],GetClassObject method, IClassActivator.GetClassObject, IClassActivator::GetClassObject, _com_iclassactivator_getclassobject, com.iclassactivator_getclassobject, objidl/IClassActivator::GetClassObject
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsEmfPlusDual_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\isemfplusdual.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: IsEmfPlusDual, IsEmfPlusDual method [GDI+], IsEmfPlusDual method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],IsEmfPlusDual method, MetafileHeader.IsEmfPlusDual, MetafileHeader::IsEmfPlusDual, _gdiplus_CLASS_MetafileHeader_IsEmfPlusDual_, gdiplus._gdiplus_CLASS_MetafileHeader_IsEmfPlusDual_
 ms.prod: windows
 ms.technology: windows-sdk

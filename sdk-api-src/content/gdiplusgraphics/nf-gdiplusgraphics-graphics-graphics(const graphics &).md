@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_Constructors.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsconstructors.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Graphics, Graphics constructors [GDI+], Graphics.Graphics, Graphics.Graphics(const Graphics &), Graphics::Graphics, Graphics::Graphics(const Graphics &), _gdiplus_CLASS_Graphics_Constructors, gdiplus._gdiplus_CLASS_Graphics_Constructors, gdiplusgraphics/Graphics
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winrt\ilanguageexceptionerrorinfo_getlanguageexception.htm
 old-project: WinRT
 ms.assetid: 94B34741-88AA-4AD4-B1F4-30A7AE5AFCC8
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/13/2018
 ms.keywords: GetLanguageException, GetLanguageException method [Windows Runtime], GetLanguageException method [Windows Runtime],ILanguageExceptionErrorInfo interface, ILanguageExceptionErrorInfo interface [Windows Runtime],GetLanguageException method, ILanguageExceptionErrorInfo.GetLanguageException, ILanguageExceptionErrorInfo::GetLanguageException, restrictederrorinfo/ILanguageExceptionErrorInfo::GetLanguageException, winrt.ilanguageexceptionerrorinfo_getlanguageexception
 ms.prod: windows
 ms.technology: windows-sdk

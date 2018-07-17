@@ -4,10 +4,10 @@ title: CertEnumCTLContextProperties function
 author: windows-sdk-content
 description: The CertEnumCTLContextProperties function retrieves the first or next extended property associated with a certificate trust list (CTL) context. Used in a loop, this function can retrieve in sequence all extended properties associated with a CTL context.
 old-location: security\certenumctlcontextproperties.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: f5c9c4cd-bf99-41bf-b13e-f1921b011039
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CertEnumCTLContextProperties, CertEnumCTLContextProperties function [Security], _crypto2_certenumctlcontextproperties, security.certenumctlcontextproperties, wincrypt/CertEnumCTLContextProperties
 ms.prod: windows
 ms.technology: windows-sdk

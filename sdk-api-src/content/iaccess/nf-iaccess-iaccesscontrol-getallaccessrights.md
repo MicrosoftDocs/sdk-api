@@ -7,7 +7,7 @@ old-location: com\iaccesscontrol_getallaccessrights.htm
 old-project: com
 ms.assetid: 8c8551fb-8ba9-4a52-b6f8-bd11e4006fe9
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: GetAllAccessRights, GetAllAccessRights method [COM], GetAllAccessRights method [COM],IAccessControl interface, IAccessControl interface [COM],GetAllAccessRights method, IAccessControl.GetAllAccessRights, IAccessControl::GetAllAccessRights, _com_iaccesscontrol_getallaccessrights, com.iaccesscontrol_getallaccessrights, iaccess/IAccessControl::GetAllAccessRights
 ms.prod: windows
 ms.technology: windows-sdk

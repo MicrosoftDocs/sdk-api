@@ -2,7 +2,7 @@
 UID: NA:gdiplusmetaheader
 ms.assetid: 7ae4b235-aeb3-3362-b34b-dcac25c3825e
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

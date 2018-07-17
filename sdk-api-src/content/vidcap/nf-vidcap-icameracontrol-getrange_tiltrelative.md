@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_getrange_tiltrelative.htm
 old-project: DirectShow
 ms.assetid: 8b78e961-8b05-4339-ad66-49f2d892d4dc
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_TiltRelative method, ICameraControl.getRange_TiltRelative, ICameraControl::getRange_TiltRelative, ICameraControlgetRange_TiltRelative, dshow.icameracontrol_getrange_tiltrelative, getRange_TiltRelative, getRange_TiltRelative method [DirectShow], getRange_TiltRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_TiltRelative
 ms.prod: windows
 ms.technology: windows-sdk

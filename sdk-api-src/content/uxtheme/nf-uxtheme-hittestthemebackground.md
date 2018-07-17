@@ -4,10 +4,10 @@ title: HitTestThemeBackground function
 author: windows-sdk-content
 description: Retrieves a hit test code for a point in the background specified by a visual style.
 old-location: controls\HitTestThemeBackground.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\hittestthemebackground.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: HitTestThemeBackground, HitTestThemeBackground function [Windows Controls], controls.HitTestThemeBackground, controls.inet_HitTestThemeBackground, inet_HitTestThemeBackground, inet_HitTestThemeBackground_cpp, uxtheme/HitTestThemeBackground
 ms.prod: windows
 ms.technology: windows-sdk

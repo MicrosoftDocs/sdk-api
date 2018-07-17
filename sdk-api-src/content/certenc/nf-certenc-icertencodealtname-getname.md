@@ -4,10 +4,10 @@ title: ICertEncodeAltName::GetName
 author: windows-sdk-content
 description: Returns the specified name from the alternate name array.
 old-location: security\icertencodealtname_getname.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 25a3f36b-1c09-4b2e-84b7-a725d366fd77
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CCertEncodeAltName object [Security],GetName method, GetName, GetName method [Security], GetName method [Security],CCertEncodeAltName object, GetName method [Security],ICertEncodeAltName interface, ICertEncodeAltName interface [Security],GetName method, ICertEncodeAltName.GetName, ICertEncodeAltName::GetName, _certsrv_icertencodealtname_getname, certenc/ICertEncodeAltName::GetName, security.icertencodealtname_getname
 ms.prod: windows
 ms.technology: windows-sdk

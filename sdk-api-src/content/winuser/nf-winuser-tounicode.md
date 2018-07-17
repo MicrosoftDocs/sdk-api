@@ -7,7 +7,7 @@ old-location: inputdev\tounicode.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\tounicode.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/12/2018
 ms.keywords: ToUnicode, ToUnicode function [Keyboard and Mouse Input], _win32_ToUnicode, _win32_tounicode_cpp, inputdev.tounicode, winui._win32_tounicode, winuser/ToUnicode
 ms.prod: windows
 ms.technology: windows-sdk

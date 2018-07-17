@@ -4,10 +4,10 @@ title: DhcpServerQueryDnsRegCredentials function
 author: windows-sdk-content
 description: Retrieves the current Domain Name System (DNS) credentials used by the DHCP server for client dynamic DNS registration.
 old-location: dhcp\dhcpserverquerydnsregcredentials.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: 773cbfef-1dc5-4d44-9997-591acbfb3783
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DhcpServerQueryDnsRegCredentials, DhcpServerQueryDnsRegCredentials function [DHCP], dhcp.dhcpserverquerydnsregcredentials, dhcpsapi/DhcpServerQueryDnsRegCredentials
 ms.prod: windows
 ms.technology: windows-sdk

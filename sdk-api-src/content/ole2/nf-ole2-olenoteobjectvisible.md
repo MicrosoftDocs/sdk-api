@@ -7,7 +7,7 @@ old-location: com\olenoteobjectvisible.htm
 old-project: com
 ms.assetid: f140f068-3115-4389-b67b-6d41d12f7525
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: OleNoteObjectVisible, OleNoteObjectVisible function [COM], _ole_OleNoteObjectVisible, com.olenoteobjectvisible, ole2/OleNoteObjectVisible
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\ibasicaudio.htm
 old-project: DirectShow
 ms.assetid: 0335b263-8d32-4690-a606-ba2b3e382680
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IBasicAudio, IBasicAudio interface [DirectShow], IBasicAudio interface [DirectShow],described, IBasicAudioInterface, control/IBasicAudio, dshow.ibasicaudio
 ms.prod: windows
 ms.technology: windows-sdk

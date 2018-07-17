@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol.htm
 old-project: DirectShow
 ms.assetid: 7046f96d-a613-4056-84dd-be022efdda4f
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], ICameraControl interface [DirectShow],described, ICameraControlInterface, dshow.icameracontrol, vidcap/ICameraControl
 ms.prod: windows
 ms.technology: windows-sdk

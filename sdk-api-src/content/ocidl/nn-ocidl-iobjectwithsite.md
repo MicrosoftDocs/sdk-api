@@ -7,7 +7,7 @@ old-location: com\iobjectwithsite.htm
 old-project: com
 ms.assetid: e688136e-e06b-46ba-bec9-b8db2f9c468d
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: IObjectWithSite, IObjectWithSite interface [COM], IObjectWithSite interface [COM],described, _ole_iobjectwithsite, com.iobjectwithsite, ocidl/IObjectWithSite
 ms.prod: windows
 ms.technology: windows-sdk

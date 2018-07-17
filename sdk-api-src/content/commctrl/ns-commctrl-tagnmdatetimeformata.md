@@ -4,10 +4,10 @@ title: tagNMDATETIMEFORMATA
 author: windows-sdk-content
 description: Contains information about a portion of the format string that defines a callback field within a date and time picker (DTP) control.
 old-location: controls\NMDATETIMEFORMAT.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimeformat.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: "*LPNMDATETIMEFORMATA, LPNMDATETIMEFORMAT, LPNMDATETIMEFORMAT structure pointer [Windows Controls], NMDATETIMEFORMAT, NMDATETIMEFORMAT structure [Windows Controls], NMDATETIMEFORMATA, NMDATETIMEFORMATW, _win32_NMDATETIMEFORMAT, _win32_NMDATETIMEFORMAT_cpp, commctrl/LPNMDATETIMEFORMAT, commctrl/NMDATETIMEFORMAT, commctrl/NMDATETIMEFORMATA, commctrl/NMDATETIMEFORMATW, controls.NMDATETIMEFORMAT, controls._win32_NMDATETIMEFORMAT, tagNMDATETIMEFORMATA"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IAppVisibility_Advise.htm
 old-project: shell
 ms.assetid: 602F46EF-014C-4219-9C1F-C1B4371EA456
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IAppVisibility interface, IAppVisibility interface [Windows Shell],Advise method, IAppVisibility.Advise, IAppVisibility::Advise, shell.IAppVisibility_Advise, shobjidl_core/IAppVisibility::Advise
 ms.prod: windows
 ms.technology: windows-sdk

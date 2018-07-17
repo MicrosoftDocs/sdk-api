@@ -7,7 +7,7 @@ old-location: shell\ICustomDestinationList_DeleteList.htm
 old-project: shell
 ms.assetid: ef246f5a-9fcf-4475-b19a-e676f0351f3f
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: DeleteList, DeleteList method [Windows Shell], DeleteList method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],DeleteList method, ICustomDestinationList.DeleteList, ICustomDestinationList::DeleteList, _shell_ICustomDestinationList_DeleteList, shell.ICustomDestinationList_DeleteList, shobjidl_core/ICustomDestinationList::DeleteList
 ms.prod: windows
 ms.technology: windows-sdk

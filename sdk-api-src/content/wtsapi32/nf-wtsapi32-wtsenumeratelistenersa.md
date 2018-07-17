@@ -4,10 +4,10 @@ title: WTSEnumerateListenersA function
 author: windows-sdk-content
 description: Enumerates all the Remote Desktop Services listeners on a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsenumeratelisteners.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: dcdf4b4e-de01-4c23-97f6-0d45ba8608f5
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WTSEnumerateListeners, WTSEnumerateListeners function [Remote Desktop Services], WTSEnumerateListenersA, WTSEnumerateListenersW, termserv.wtsenumeratelisteners, wtsapi32/WTSEnumerateListeners, wtsapi32/WTSEnumerateListenersA, wtsapi32/WTSEnumerateListenersW
 ms.prod: windows
 ms.technology: windows-sdk

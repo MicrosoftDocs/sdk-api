@@ -7,7 +7,7 @@ old-location: com\imalloc_getsize.htm
 old-project: com
 ms.assetid: abf8cb53-7c1b-4dde-9745-30a45ad030b7
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: GetSize, GetSize method [COM], GetSize method [COM],IMalloc interface, IMalloc interface [COM],GetSize method, IMalloc.GetSize, IMalloc::GetSize, _com_imalloc_getsize, com.imalloc_getsize, objidlbase/IMalloc::GetSize
 ms.prod: windows
 ms.technology: windows-sdk

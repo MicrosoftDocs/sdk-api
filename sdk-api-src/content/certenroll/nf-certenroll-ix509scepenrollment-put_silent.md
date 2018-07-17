@@ -7,7 +7,7 @@ old-location: security\ix509scepenrollment_silent.htm
 old-project: seccertenroll
 ms.assetid: 6c672181-fdfa-4e9c-9e19-2af9d8bf3a03
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],Silent property, IX509SCEPEnrollment.Silent, IX509SCEPEnrollment.put_Silent, IX509SCEPEnrollment::Silent, IX509SCEPEnrollment::put_Silent, Silent property [Security], Silent property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::Silent, certenroll/IX509SCEPEnrollment::put_Silent, put_Silent, security.ix509scepenrollment_silent
 ms.prod: windows
 ms.technology: windows-sdk

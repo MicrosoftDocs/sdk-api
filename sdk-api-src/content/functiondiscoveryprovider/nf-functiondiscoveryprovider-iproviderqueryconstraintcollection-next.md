@@ -4,10 +4,10 @@ title: IProviderQueryConstraintCollection::Next
 author: windows-sdk-content
 description: Gets the name and value of the next query constraint in the collection.
 old-location: ncd\iproviderqueryconstraintcollection_next.htm
-old-project: FunDisc
+old-project: fundisc
 ms.assetid: 5dd03e98-5367-4434-aa68-be36cb7aaf24
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/12/2018
 ms.keywords: IProviderQueryConstraintCollection interface,Next method, IProviderQueryConstraintCollection.Next, IProviderQueryConstraintCollection::Next, Next, Next method, Next method,IProviderQueryConstraintCollection interface, functiondiscoveryprovider/IProviderQueryConstraintCollection::Next, ncd.iproviderqueryconstraintcollection_next
 ms.prod: windows
 ms.technology: windows-sdk

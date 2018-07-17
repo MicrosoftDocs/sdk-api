@@ -7,7 +7,7 @@ old-location: dshow\iamgraphbuildercallback.htm
 old-project: DirectShow
 ms.assetid: 4d8e45e3-7144-44ad-b79e-5acc0cec6ed4
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IAMGraphBuilderCallback, IAMGraphBuilderCallback interface [DirectShow], IAMGraphBuilderCallback interface [DirectShow],described, IAMGraphBuilderCallbackInterface, dshow.iamgraphbuildercallback, strmif/IAMGraphBuilderCallback
 ms.prod: windows
 ms.technology: windows-sdk

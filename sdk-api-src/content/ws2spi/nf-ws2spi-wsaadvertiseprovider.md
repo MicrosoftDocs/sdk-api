@@ -4,10 +4,10 @@ title: WSAAdvertiseProvider function
 author: windows-sdk-content
 description: Makes a specific namespace version-2 provider available for all eligible clients.
 old-location: winsock\wsaadvertiseprovider.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 574ebfa4-d7f2-43c2-b1ec-35ce3db9151f
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WSAAdvertiseProvider, WSAAdvertiseProvider function [Winsock], winsock.wsaadvertiseprovider, ws2spi/WSAAdvertiseProvider
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\ix509attributeextensions_x509extensions_property.htm
 old-project: seccertenroll
 ms.assetid: 719c4ac5-8d67-4026-9eb6-9682942ad367
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509AttributeExtensions interface [Security],X509Extensions property, IX509AttributeExtensions.X509Extensions, IX509AttributeExtensions.get_X509Extensions, IX509AttributeExtensions::X509Extensions, IX509AttributeExtensions::get_X509Extensions, X509Extensions property [Security], X509Extensions property [Security],IX509AttributeExtensions interface, certenroll/IX509AttributeExtensions::X509Extensions, certenroll/IX509AttributeExtensions::get_X509Extensions, get_X509Extensions, security.ix509attributeextensions_x509extensions_property
 ms.prod: windows
 ms.technology: windows-sdk

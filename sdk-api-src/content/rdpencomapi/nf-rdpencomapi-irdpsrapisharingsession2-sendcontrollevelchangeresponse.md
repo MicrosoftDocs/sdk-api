@@ -4,10 +4,10 @@ title: IRDPSRAPISharingSession2::SendControlLevelChangeResponse
 author: windows-sdk-content
 description: Sends an OnControlLevelChangeResponse event.
 old-location: rdp\irdpsrapisharingsession2_sendcontrollevelchangeresponse.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: d10c8f2b-b1ee-4966-9e96-21e78124874b
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/13/2018
 ms.keywords: IRDPSRAPISharingSession2 interface [RDP],SendControlLevelChangeResponse method, IRDPSRAPISharingSession2.SendControlLevelChangeResponse, IRDPSRAPISharingSession2::SendControlLevelChangeResponse, SendControlLevelChangeResponse, SendControlLevelChangeResponse method [RDP], SendControlLevelChangeResponse method [RDP],IRDPSRAPISharingSession2 interface, rdp.irdpsrapisharingsession2_sendcontrollevelchangeresponse, rdpencomapi/IRDPSRAPISharingSession2::SendControlLevelChangeResponse
 ms.prod: windows
 ms.technology: windows-sdk

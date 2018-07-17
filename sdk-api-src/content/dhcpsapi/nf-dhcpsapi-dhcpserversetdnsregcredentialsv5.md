@@ -4,10 +4,10 @@ title: DhcpServerSetDnsRegCredentialsV5 function
 author: windows-sdk-content
 description: Sets the credentials used by the DHCP server to create Domain Name System (DNS) registrations for the DHCP client lease record.
 old-location: dhcp\dhcpserversetdnsregcredentialsv5.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: 7fed2635-43a6-417a-996f-fff8d0692924
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DhcpServerSetDnsRegCredentialsV5, DhcpServerSetDnsRegCredentialsV5 function [DHCP], dhcp.dhcpserversetdnsregcredentialsv5, dhcpsapi/DhcpServerSetDnsRegCredentialsV5
 ms.prod: windows
 ms.technology: windows-sdk

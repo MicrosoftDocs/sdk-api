@@ -4,10 +4,10 @@ title: DhcpGetServerBindingInfoV6 function
 author: windows-sdk-content
 description: Retrieves an array of IPv6 interface binding information specific to the DHCPv6 server.
 old-location: dhcp\dhcpgetserverbindinginfov6.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: 1f33ac24-d547-4913-bc37-51627bb3af6a
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DhcpGetServerBindingInfoV6, DhcpGetServerBindingInfoV6 function [DHCP], dhcp.dhcpgetserverbindinginfov6, dhcpsapi/DhcpGetServerBindingInfoV6
 ms.prod: windows
 ms.technology: windows-sdk

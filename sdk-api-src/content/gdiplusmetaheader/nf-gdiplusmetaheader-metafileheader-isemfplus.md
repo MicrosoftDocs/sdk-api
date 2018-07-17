@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsEmfPlus_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\isemfplus.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: IsEmfPlus, IsEmfPlus method [GDI+], IsEmfPlus method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],IsEmfPlus method, MetafileHeader.IsEmfPlus, MetafileHeader::IsEmfPlus, _gdiplus_CLASS_MetafileHeader_IsEmfPlus_, gdiplus._gdiplus_CLASS_MetafileHeader_IsEmfPlus_
 ms.prod: windows
 ms.technology: windows-sdk

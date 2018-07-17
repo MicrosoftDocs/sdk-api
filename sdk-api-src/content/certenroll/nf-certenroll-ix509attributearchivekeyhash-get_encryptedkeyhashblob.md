@@ -7,7 +7,7 @@ old-location: security\ix509attributearchivekeyhash_encryptedkeyhashblob_propert
 old-project: seccertenroll
 ms.assetid: ff75aaf8-1544-465b-af0d-620ca6984249
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: EncryptedKeyHashBlob property [Security], EncryptedKeyHashBlob property [Security],IX509AttributeArchiveKeyHash interface, IX509AttributeArchiveKeyHash interface [Security],EncryptedKeyHashBlob property, IX509AttributeArchiveKeyHash.EncryptedKeyHashBlob, IX509AttributeArchiveKeyHash.get_EncryptedKeyHashBlob, IX509AttributeArchiveKeyHash::EncryptedKeyHashBlob, IX509AttributeArchiveKeyHash::get_EncryptedKeyHashBlob, certenroll/IX509AttributeArchiveKeyHash::EncryptedKeyHashBlob, certenroll/IX509AttributeArchiveKeyHash::get_EncryptedKeyHashBlob, get_EncryptedKeyHashBlob, security.ix509attributearchivekeyhash_encryptedkeyhashblob_property
 ms.prod: windows
 ms.technology: windows-sdk

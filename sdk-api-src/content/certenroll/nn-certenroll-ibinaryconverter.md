@@ -7,7 +7,7 @@ old-location: security\ibinaryconverter.htm
 old-project: seccertenroll
 ms.assetid: 495a321a-3005-4537-b082-5003e437d21f
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IBinaryConverter, IBinaryConverter interface [Security], IBinaryConverter interface [Security],described, certenroll/IBinaryConverter, security.ibinaryconverter
 ms.prod: windows
 ms.technology: windows-sdk

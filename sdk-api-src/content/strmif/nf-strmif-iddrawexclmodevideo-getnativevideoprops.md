@@ -7,7 +7,7 @@ old-location: dshow\iddrawexclmodevideo_getnativevideoprops.htm
 old-project: DirectShow
 ms.assetid: cc6b3f73-bfb4-4a71-b3e9-53345abd1430
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: GetNativeVideoProps, GetNativeVideoProps method [DirectShow], GetNativeVideoProps method [DirectShow],IDDrawExclModeVideo interface, IDDrawExclModeVideo interface [DirectShow],GetNativeVideoProps method, IDDrawExclModeVideo.GetNativeVideoProps, IDDrawExclModeVideo::GetNativeVideoProps, IDDrawExclModeVideoGetNativeVideoProps, dshow.iddrawexclmodevideo_getnativevideoprops, strmif/IDDrawExclModeVideo::GetNativeVideoProps
 ms.prod: windows
 ms.technology: windows-sdk

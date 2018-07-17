@@ -7,7 +7,7 @@ old-location: dshow\iammediatypesample_setpointer.htm
 old-project: DirectShow
 ms.assetid: fc7a04c5-3542-41e0-8abc-bb7b40bff2c9
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],SetPointer method, IAMMediaTypeSample.SetPointer, IAMMediaTypeSample::SetPointer, IAMMediaTypeSampleSetPointer, SetPointer, SetPointer method [DirectShow], SetPointer method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetPointer, dshow.iammediatypesample_setpointer
 ms.prod: windows
 ms.technology: windows-sdk

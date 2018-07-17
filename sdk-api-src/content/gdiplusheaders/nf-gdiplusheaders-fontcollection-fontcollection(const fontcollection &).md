@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_FontCollection_FontCollection_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontcollectionclass\fontcollection_82.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: FontCollection, FontCollection class [GDI+],FontCollection constructor, FontCollection constructor [GDI+], FontCollection constructor [GDI+],FontCollection class, FontCollection.FontCollection, FontCollection.FontCollection(const FontCollection &), FontCollection::FontCollection, FontCollection::FontCollection(const FontCollection &), _gdiplus_CLASS_FontCollection_FontCollection_, gdiplus._gdiplus_CLASS_FontCollection_FontCollection_
 ms.prod: windows
 ms.technology: windows-sdk

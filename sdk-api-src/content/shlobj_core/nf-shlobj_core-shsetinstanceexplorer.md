@@ -7,7 +7,7 @@ old-location: shell\SHSetInstanceExplorer.htm
 old-project: shell
 ms.assetid: 86f29587-8347-4e88-87bc-83ef2b8a7728
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: SHSetInstanceExplorer, SHSetInstanceExplorer function [Windows Shell], _win32_SHSetInstanceExplorer, shell.SHSetInstanceExplorer, shlobj_core/SHSetInstanceExplorer
 ms.prod: windows
 ms.technology: windows-sdk

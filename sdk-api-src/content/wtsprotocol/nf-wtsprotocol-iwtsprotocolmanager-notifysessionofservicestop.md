@@ -4,10 +4,10 @@ title: IWTSProtocolManager::NotifySessionOfServiceStop
 author: windows-sdk-content
 description: IWTSProtocolManager::NotifySessionOfServiceStop is no longer available. Instead, use IWRdsProtocolManager::NotifySessionOfServiceStop.
 old-location: termserv\iwtsprotocolmanager_notifysessionofservicestop.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: cdad7006-4cd5-4ea3-84a3-f3cdeb57befa
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IWTSProtocolManager interface [Remote Desktop Services],NotifySessionOfServiceStop method, IWTSProtocolManager.NotifySessionOfServiceStop, IWTSProtocolManager::NotifySessionOfServiceStop, NotifySessionOfServiceStop, NotifySessionOfServiceStop method [Remote Desktop Services], NotifySessionOfServiceStop method [Remote Desktop Services],IWTSProtocolManager interface, termserv.iwtsprotocolmanager_notifysessionofservicestop, wtsprotocol/IWTSProtocolManager::NotifySessionOfServiceStop
 ms.prod: windows
 ms.technology: windows-sdk

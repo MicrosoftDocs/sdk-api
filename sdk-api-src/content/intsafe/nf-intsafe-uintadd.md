@@ -7,7 +7,7 @@ old-location: shell\UIntAdd.htm
 old-project: shell
 ms.assetid: 387d53e8-3e52-470f-bfd2-ad2b1e0a3d5a
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: UIntAdd, UIntAdd function [Windows Shell], _shell_UIntAdd, intsafe/UIntAdd, shell.UIntAdd
 ms.prod: windows
 ms.technology: windows-sdk

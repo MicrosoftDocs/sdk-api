@@ -7,7 +7,7 @@ old-location: mscs\clusternames_count.htm
 old-project: mscs
 ms.assetid: e67f64d2-89e1-423d-94a1-fa5d734c7194
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: Count property [Failover Cluster], Count property [Failover Cluster],ISClusterNames collection, ISClusterNames collection [Failover Cluster],Count property, ISClusterNames.Count, ISClusterNames.get_Count, ISClusterNames::get_Count, _wolf_clusternames.count, get_Count, mscs.clusternames_count
 ms.prod: windows
 ms.technology: windows-sdk

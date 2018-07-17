@@ -4,10 +4,10 @@ title: IFsrmExportImport::ExportFileGroups
 author: windows-sdk-content
 description: Exports one or more file groups to the specified file.
 old-location: fsrm\ifsrmexportimport_exportfilegroups.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 2be3715f-d9c7-4554-9416-a1cc4e512402
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: ExportFileGroups, ExportFileGroups method [File Server Resource Manager], ExportFileGroups method [File Server Resource Manager],FsrmExportImport class, ExportFileGroups method [File Server Resource Manager],IFsrmExportImport interface, FsrmExportImport class [File Server Resource Manager],ExportFileGroups method, IFsrmExportImport interface [File Server Resource Manager],ExportFileGroups method, IFsrmExportImport.ExportFileGroups, IFsrmExportImport::ExportFileGroups, fs.ifsrmexportimport_exportfilegroups, fsrm.ifsrmexportimport_exportfilegroups, fsrm/IFsrmExportImport::ExportFileGroups
 ms.prod: windows
 ms.technology: windows-sdk

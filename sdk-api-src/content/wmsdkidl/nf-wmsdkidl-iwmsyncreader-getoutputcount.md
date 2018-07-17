@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader_getoutputcount.htm
 old-project: wmformat
 ms.assetid: fde0a136-6c13-43d9-9969-e1226be60f76
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: GetOutputCount, GetOutputCount method [windows Media Format], GetOutputCount method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputCount method, IWMSyncReader.GetOutputCount, IWMSyncReader::GetOutputCount, IWMSyncReaderGetOutputCount, wmformat.iwmsyncreader_getoutputcount, wmsdkidl/IWMSyncReader::GetOutputCount
 ms.prod: windows
 ms.technology: windows-sdk

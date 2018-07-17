@@ -4,10 +4,10 @@ title: CdromKnownGoodDigitalPlayback function
 author: windows-sdk-content
 description: Determines whether the specified CD-ROM or DVD drive has digital playback that is known to be good.
 old-location: base\cdromknowngooddigitalplayback.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: df242729-2082-4608-bd73-4c8d215a09ea
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: CdromKnownGoodDigitalPlayback, CdromKnownGoodDigitalPlayback function, base.cdromknowngooddigitalplayback, storprop/CdromKnownGoodDigitalPlayback
 ms.prod: windows
 ms.technology: windows-sdk

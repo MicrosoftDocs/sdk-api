@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_get_bufferingtime.htm
 old-project: DirectShow
 ms.assetid: 8594f8dd-9545-4e6d-b1d7-9a278dcb4129
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_BufferingTime method, IAMNetShowConfig.get_BufferingTime, IAMNetShowConfig::get_BufferingTime, IAMNetShowConfigget_BufferingTime, dshow.iamnetshowconfig_get_bufferingtime, get_BufferingTime, get_BufferingTime method [DirectShow], get_BufferingTime method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_BufferingTime
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IFunctionInstanceCollection::DeleteAll
 author: windows-sdk-content
 description: Removes all function instances from the collection.
 old-location: ncd\ifunctioninstancecollection_deleteall.htm
-old-project: FunDisc
+old-project: fundisc
 ms.assetid: 4d56a16a-d44a-4c7c-931d-b5f6708cb7d6
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/12/2018
 ms.keywords: DeleteAll, DeleteAll method, DeleteAll method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,DeleteAll method, IFunctionInstanceCollection.DeleteAll, IFunctionInstanceCollection::DeleteAll, functiondiscoveryapi/IFunctionInstanceCollection::DeleteAll, ncd.ifunctioninstancecollection_deleteall
 ms.prod: windows
 ms.technology: windows-sdk

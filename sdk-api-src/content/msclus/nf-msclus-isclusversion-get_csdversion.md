@@ -7,7 +7,7 @@ old-location: mscs\clusversion_csdversion.htm
 old-project: mscs
 ms.assetid: a7f32e65-98d6-4d69-a796-c0b4bcfe8316
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: CSDVersion property [Failover Cluster], CSDVersion property [Failover Cluster],ClusVersion object, ClusVersion object [Failover Cluster],CSDVersion property, ClusVersion.CSDVersion, ISClusVersion.get_CSDVersion, ISClusVersion::get_CSDVersion, _wolf_clusversion.csdversion, get_CSDVersion, mscs.clusversion_csdversion
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\clusterregsetkeysecurity.htm
 old-project: mscs
 ms.assetid: adb2ea52-6a3a-4243-944d-c7ae68a42a1a
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusterRegSetKeySecurity, ClusterRegSetKeySecurity function [Failover Cluster], _wolf_clusterregsetkeysecurity, clusapi/ClusterRegSetKeySecurity, mscs.clusterregsetkeysecurity
 ms.prod: windows
 ms.technology: windows-sdk

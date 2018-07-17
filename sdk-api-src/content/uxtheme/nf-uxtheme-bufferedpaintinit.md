@@ -4,10 +4,10 @@ title: BufferedPaintInit function
 author: windows-sdk-content
 description: Initialize buffered painting for the current thread.
 old-location: controls\BufferedPaintInit.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintinit.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: BufferedPaintInit, BufferedPaintInit function [Windows Controls], _shell_BufferedPaintInit, _shell_BufferedPaintInit_cpp, controls.BufferedPaintInit, controls._shell_BufferedPaintInit, uxtheme/BufferedPaintInit
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IOperationsProgressDialog_UpdateLocations.htm
 old-project: shell
 ms.assetid: df07833a-691c-4d93-a85e-8d21dd04ee64
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],UpdateLocations method, IOperationsProgressDialog.UpdateLocations, IOperationsProgressDialog::UpdateLocations, UpdateLocations, UpdateLocations method [Windows Shell], UpdateLocations method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_UpdateLocations, shell.IOperationsProgressDialog_UpdateLocations, shobjidl_core/IOperationsProgressDialog::UpdateLocations
 ms.prod: windows
 ms.technology: windows-sdk

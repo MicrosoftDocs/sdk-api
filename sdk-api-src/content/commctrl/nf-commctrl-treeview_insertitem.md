@@ -4,10 +4,10 @@ title: TreeView_InsertItem macro
 author: windows-sdk-content
 description: Inserts a new item in a tree-view control. You can use this macro or send the TVM_INSERTITEM message explicitly.
 old-location: controls\TreeView_InsertItem.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_insertitem.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: TreeView_InsertItem, TreeView_InsertItem macro [Windows Controls], _win32_TreeView_InsertItem, _win32_TreeView_InsertItem_cpp, commctrl/TreeView_InsertItem, controls.TreeView_InsertItem, controls._win32_TreeView_InsertItem
 ms.prod: windows
 ms.technology: windows-sdk

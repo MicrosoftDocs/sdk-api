@@ -7,7 +7,7 @@ old-location: mscs\iweextendwizard_createwizardpages.htm
 old-project: mscs
 ms.assetid: b52ea5a5-aa80-4f65-9bab-b60fa8363b01
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: CreateWizardPages, CreateWizardPages method [Failover Cluster], CreateWizardPages method [Failover Cluster],IWEExtendWizard interface, IWEExtendWizard interface [Failover Cluster],CreateWizardPages method, IWEExtendWizard.CreateWizardPages, IWEExtendWizard::CreateWizardPages, _wolf_iweextendwizard_createwizardpages, cluadmex/IWEExtendWizard::CreateWizardPages, mscs.iweextendwizard_createwizardpages
 ms.prod: windows
 ms.technology: windows-sdk

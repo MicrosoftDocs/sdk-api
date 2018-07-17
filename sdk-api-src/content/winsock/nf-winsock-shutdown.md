@@ -4,10 +4,10 @@ title: shutdown function
 author: windows-sdk-content
 description: The shutdown function disables sends or receives on a socket.
 old-location: winsock\shutdown_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 6998f0c6-adc9-481f-b9fb-75f9c9f5caaf
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: SD_BOTH, SD_RECEIVE, SD_SEND, _win32_shutdown_2, shutdown, shutdown function [Winsock], winsock.shutdown_2, winsock/shutdown
 ms.prod: windows
 ms.technology: windows-sdk

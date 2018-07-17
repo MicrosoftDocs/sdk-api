@@ -7,7 +7,7 @@ old-location: tablet\iinktablet_name.htm
 old-project: tablet
 ms.assetid: 8388ca02-b464-47e4-9911-1c55ce398557
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IInkTablet interface [Tablet PC],Name property, IInkTablet.Name, IInkTablet.get_Name, IInkTablet::Name, IInkTablet::get_Name, Name property [Tablet PC], Name property [Tablet PC],IInkTablet interface, get_Name, msinkaut/IInkTablet::Name, msinkaut/IInkTablet::get_Name, tablet.iinktablet_name
 ms.prod: windows
 ms.technology: windows-sdk

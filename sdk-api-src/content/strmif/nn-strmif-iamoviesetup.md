@@ -7,7 +7,7 @@ old-location: dshow\iamoviesetup.htm
 old-project: DirectShow
 ms.assetid: b200dbee-bab7-43d7-a204-751592fa2405
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IAMovieSetup, IAMovieSetup interface [DirectShow], IAMovieSetup interface [DirectShow],described, IAMovieSetupInterface, dshow.iamoviesetup, strmif/IAMovieSetup
 ms.prod: windows
 ms.technology: windows-sdk

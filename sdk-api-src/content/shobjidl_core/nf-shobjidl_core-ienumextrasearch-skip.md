@@ -7,7 +7,7 @@ old-location: shell\IEnumExtraSearch_Skip.htm
 old-project: shell
 ms.assetid: f77983e2-bae4-4350-8950-b4e76fc46365
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IEnumExtraSearch interface [Windows Shell],Skip method, IEnumExtraSearch.Skip, IEnumExtraSearch::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumExtraSearch interface, _win32_IEnumExtraSearch_Skip, shell.IEnumExtraSearch_Skip, shobjidl_core/IEnumExtraSearch::Skip
 ms.prod: windows
 ms.technology: windows-sdk

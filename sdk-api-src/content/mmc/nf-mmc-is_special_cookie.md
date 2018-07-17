@@ -7,7 +7,7 @@ old-location: mmc\is_special_cookie.htm
 old-project: mmc
 ms.assetid: 6638474e-987a-452b-90f1-30700df34ef2
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: IS_SPECIAL_COOKIE, IS_SPECIAL_COOKIE macro [MMC], _slate_is_special_cookie, mmc.is_special_cookie, mmc/IS_SPECIAL_COOKIE
 ms.prod: windows
 ms.technology: windows-sdk

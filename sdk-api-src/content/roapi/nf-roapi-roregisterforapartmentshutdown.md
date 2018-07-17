@@ -7,7 +7,7 @@ old-location: winrt\roregisterforapartmentshutdown.htm
 old-project: WinRT
 ms.assetid: DE0C79AD-D80F-44EE-A628-147FC8474905
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/13/2018
 ms.keywords: RoRegisterForApartmentShutdown, RoRegisterForApartmentShutdown function [Windows Runtime], roapi/RoRegisterForApartmentShutdown, winrt.roregisterforapartmentshutdown
 ms.prod: windows
 ms.technology: windows-sdk

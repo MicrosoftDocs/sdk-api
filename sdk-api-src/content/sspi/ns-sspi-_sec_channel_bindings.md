@@ -4,10 +4,10 @@ title: "_SEC_CHANNEL_BINDINGS"
 author: windows-sdk-content
 description: Specifies channel binding information for a security context.
 old-location: security\sec_channel_bindings.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 1cdbe53f-3fa0-46b1-9449-8fd3db6cddce
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*PSEC_CHANNEL_BINDINGS, PSEC_CHANNEL_BINDINGS, PSEC_CHANNEL_BINDINGS structure pointer [Security], SEC_CHANNEL_BINDINGS, SEC_CHANNEL_BINDINGS structure [Security], _SEC_CHANNEL_BINDINGS, security.sec_channel_bindings, sspi/PSEC_CHANNEL_BINDINGS, sspi/SEC_CHANNEL_BINDINGS"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,13 +2,13 @@
 UID: NA:msvidctl
 ms.assetid: 7fede5d9-758c-3018-bfd4-2e756e7a19bc
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mstv
 archived: true
+tech.root: mstv
 ---
 
 # Msvidctl.h header

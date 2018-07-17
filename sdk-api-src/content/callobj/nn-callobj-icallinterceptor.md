@@ -7,7 +7,7 @@ old-location: com\icallinterceptor.htm
 old-project: com
 ms.assetid: d0a72c87-598b-4ebe-bc93-65e0927a4c3d
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICallInterceptor, ICallInterceptor interface [COM], ICallInterceptor interface [COM],described, _com_icallinterceptor_interface, callobj/ICallInterceptor, com.icallinterceptor
 ms.prod: windows
 ms.technology: windows-sdk

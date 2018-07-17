@@ -7,7 +7,7 @@ old-location: mscs\cluspropertyvalues_createitem.htm
 old-project: mscs
 ms.assetid: b7175a46-3e0c-4d71-b435-589a145a56f3
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusPropertyValues collection [Failover Cluster],CreateItem method, ClusPropertyValues.CreateItem, CreateItem, CreateItem method [Failover Cluster], CreateItem method [Failover Cluster],ClusPropertyValues collection, ISClusPropertyValues.CreateItem, ISClusPropertyValues::CreateItem, _wolf_cluspropertyvalues.createitem, mscs.cluspropertyvalues_createitem
 ms.prod: windows
 ms.technology: windows-sdk

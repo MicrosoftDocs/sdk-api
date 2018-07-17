@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Color_Color_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colorconstructors\color_31.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Color, Color class [GDI+],Color constructor, Color constructor [GDI+], Color constructor [GDI+],Color class, Color.Color, Color.Color(), Color::Color, _gdiplus_CLASS_Color_Color_, gdiplus._gdiplus_CLASS_Color_Color_
 ms.prod: windows
 ms.technology: windows-sdk

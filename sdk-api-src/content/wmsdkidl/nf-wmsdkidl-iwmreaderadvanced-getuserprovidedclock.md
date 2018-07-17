@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced_getuserprovidedclock.htm
 old-project: wmformat
 ms.assetid: 54eb30ae-4b84-489c-a5e5-e73dee2c5056
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: GetUserProvidedClock, GetUserProvidedClock method [windows Media Format], GetUserProvidedClock method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetUserProvidedClock method, IWMReaderAdvanced.GetUserProvidedClock, IWMReaderAdvanced::GetUserProvidedClock, IWMReaderAdvancedGetUserProvidedClock, wmformat.iwmreaderadvanced_getuserprovidedclock, wmsdkidl/IWMReaderAdvanced::GetUserProvidedClock
 ms.prod: windows
 ms.technology: windows-sdk

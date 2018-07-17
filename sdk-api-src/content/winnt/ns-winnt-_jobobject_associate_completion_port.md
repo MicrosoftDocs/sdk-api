@@ -4,10 +4,10 @@ title: "_JOBOBJECT_ASSOCIATE_COMPLETION_PORT"
 author: windows-sdk-content
 description: Contains information used to associate a completion port with a job.
 old-location: base\jobobject_associate_completion_port_str.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 18120d81-5480-4e0d-8422-0366a6811319
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: "*PJOBOBJECT_ASSOCIATE_COMPLETION_PORT, JOBOBJECT_ASSOCIATE_COMPLETION_PORT, JOBOBJECT_ASSOCIATE_COMPLETION_PORT structure, PJOBOBJECT_ASSOCIATE_COMPLETION_PORT, PJOBOBJECT_ASSOCIATE_COMPLETION_PORT structure pointer, _JOBOBJECT_ASSOCIATE_COMPLETION_PORT, _win32_jobobject_associate_completion_port_str, base.jobobject_associate_completion_port_str, winnt/JOBOBJECT_ASSOCIATE_COMPLETION_PORT, winnt/PJOBOBJECT_ASSOCIATE_COMPLETION_PORT"
 ms.prod: windows
 ms.technology: windows-sdk

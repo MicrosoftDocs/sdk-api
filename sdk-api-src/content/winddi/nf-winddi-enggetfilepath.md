@@ -7,7 +7,7 @@ old-location: display\enggetfilepath.htm
 old-project: display
 ms.assetid: 751a9bef-f1ee-43a0-958b-f90ac63b2f37
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/12/2018
 ms.keywords: EngGetFilePath, EngGetFilePath function [Display Devices], display.enggetfilepath, gdifncs_219a84bc-93a3-4a5f-bf0e-d0087737fdb0.xml, winddi/EngGetFilePath
 ms.prod: windows
 ms.technology: windows-sdk

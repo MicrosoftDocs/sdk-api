@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetAlignment_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getalignment_66.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: GetAlignment, GetAlignment method [GDI+], GetAlignment method [GDI+],StringFormat class, StringFormat class [GDI+],GetAlignment method, StringFormat.GetAlignment, StringFormat::GetAlignment, _gdiplus_CLASS_StringFormat_GetAlignment_, gdiplus._gdiplus_CLASS_StringFormat_GetAlignment_
 ms.prod: windows
 ms.technology: windows-sdk

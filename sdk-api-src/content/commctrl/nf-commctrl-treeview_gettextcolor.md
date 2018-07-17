@@ -4,10 +4,10 @@ title: TreeView_GetTextColor macro
 author: windows-sdk-content
 description: Retrieves the current text color of the control. You can use this macro or send the TVM_GETTEXTCOLOR message explicitly.
 old-location: controls\TreeView_GetTextColor.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_gettextcolor.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: TreeView_GetTextColor, TreeView_GetTextColor macro [Windows Controls], _win32_TreeView_GetTextColor, _win32_TreeView_GetTextColor_cpp, commctrl/TreeView_GetTextColor, controls.TreeView_GetTextColor, controls._win32_TreeView_GetTextColor
 ms.prod: windows
 ms.technology: windows-sdk

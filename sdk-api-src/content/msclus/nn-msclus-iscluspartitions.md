@@ -7,7 +7,7 @@ old-location: mscs\cluspartitions_collection.htm
 old-project: mscs
 ms.assetid: 8a3c602a-a3b1-4b63-8dfa-36200c5c30ab
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusPartitions, ClusPartitions collection [Failover Cluster], ClusPartitions collection [Failover Cluster],described, ISClusPartitions, _wolf_cluspartitions_collection, msclus/ClusPartitions, mscs.cluspartitions_collection
 ms.prod: windows
 ms.technology: windows-sdk

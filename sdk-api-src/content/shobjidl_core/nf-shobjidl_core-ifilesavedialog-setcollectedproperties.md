@@ -7,7 +7,7 @@ old-location: shell\IFileSaveDialog_SetCollectedProperties.htm
 old-project: shell
 ms.assetid: cff40aba-6a87-4c20-957d-6729e0d995ae
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IFileSaveDialog interface [Windows Shell],SetCollectedProperties method, IFileSaveDialog.SetCollectedProperties, IFileSaveDialog::SetCollectedProperties, SetCollectedProperties, SetCollectedProperties method [Windows Shell], SetCollectedProperties method [Windows Shell],IFileSaveDialog interface, shell.IFileSaveDialog_SetCollectedProperties, shell_IFileSaveDialog_SetCollectedProperties, shobjidl_core/IFileSaveDialog::SetCollectedProperties
 ms.prod: windows
 ms.technology: windows-sdk

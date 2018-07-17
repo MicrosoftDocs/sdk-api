@@ -4,10 +4,10 @@ title: "_DHCP_SUBNET_ELEMENT_DATA"
 author: windows-sdk-content
 description: Defines an element that describes a feature or restriction of a subnet.
 old-location: dhcp\dhcp_subnet_element_data.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: d6c32be0-a080-42c1-b9bf-3f5da2c4dbe0
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: "*LPDHCP_SUBNET_ELEMENT_DATA, DHCP_SUBNET_ELEMENT_DATA, DHCP_SUBNET_ELEMENT_DATA structure [DHCP], LPDHCP_SUBNET_ELEMENT_DATA, LPDHCP_SUBNET_ELEMENT_DATA structure pointer [DHCP], _DHCP_SUBNET_ELEMENT_DATA, dhcp.dhcp_subnet_element_data, dhcpsapi/LPDHCP_SUBNET_ELEMENT_DATA, dhcpsapi/_DHCP_SUBNET_ELEMENT_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\icspalgorithms.htm
 old-project: seccertenroll
 ms.assetid: bbf8cff4-b1b2-480e-8c30-eb34166db143
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICspAlgorithms, ICspAlgorithms interface [Security], ICspAlgorithms interface [Security],described, certenroll/ICspAlgorithms, security.icspalgorithms
 ms.prod: windows
 ms.technology: windows-sdk

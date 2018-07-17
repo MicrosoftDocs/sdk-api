@@ -4,10 +4,10 @@ title: WSANtohs function
 author: windows-sdk-content
 description: The WSANtohs function converts a u_short from network byte order to host byte order.
 old-location: winsock\wsantohs_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 0a4bc3a9-9919-4dcb-8a37-af37e0243c8f
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WSANtohs, WSANtohs function [Winsock], _win32_wsantohs_2, winsock.wsantohs_2, winsock2/WSANtohs
 ms.prod: windows
 ms.technology: windows-sdk

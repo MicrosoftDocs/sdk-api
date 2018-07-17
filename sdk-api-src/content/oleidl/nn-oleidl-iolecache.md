@@ -7,7 +7,7 @@ old-location: com\iolecache.htm
 old-project: com
 ms.assetid: b5ef85d0-b54e-4831-87f1-ac6763179181
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: IOleCache, IOleCache interface [COM], IOleCache interface [COM],described, _ole_iolecache, com.iolecache, oleidl/IOleCache
 ms.prod: windows
 ms.technology: windows-sdk

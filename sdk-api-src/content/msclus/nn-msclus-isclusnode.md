@@ -7,7 +7,7 @@ old-location: mscs\clusnode_object.htm
 old-project: mscs
 ms.assetid: b164f5a6-13f1-4eff-a2f9-805b60138dd1
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusNode, ClusNode object [Failover Cluster], ClusNode object [Failover Cluster],described, ISClusNode, _wolf_clusnode_object, msclus/ClusNode, mscs.clusnode_object
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\irpcstubbuffer.htm
 old-project: com
 ms.assetid: 0aa724f0-6110-4ebf-a0c1-d309074a61d9
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: IRpcStubBuffer, IRpcStubBuffer interface [COM], IRpcStubBuffer interface [COM],described, _com_irpcstubbuffer, com.irpcstubbuffer, objidlbase/IRpcStubBuffer
 ms.prod: windows
 ms.technology: windows-sdk

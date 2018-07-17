@@ -7,7 +7,7 @@ old-location: mscs\clusresgroup_privateroproperties.htm
 old-project: mscs
 ms.assetid: 61a518b2-7792-4336-98ce-63de7ffe0e32
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResGroup class [Failover Cluster],PrivateROProperties property, ClusResGroup.PrivateROProperties, ISClusResGroup.get_PrivateROProperties, ISClusResGroup::get_PrivateROProperties, PrivateROProperties property [Failover Cluster], PrivateROProperties property [Failover Cluster],ClusResGroup class, _wolf_clusresgroup.privateroproperties, get_PrivateROProperties, mscs.clusresgroup_privateroproperties
 ms.prod: windows
 ms.technology: windows-sdk

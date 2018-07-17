@@ -4,10 +4,10 @@ title: IPNPXDeviceAssociation::Associate
 author: windows-sdk-content
 description: Marks an association database entry as associated and sends an appropriate notification.
 old-location: ncd\ipnpxdeviceassociation_associate.htm
-old-project: FunDisc
+old-project: fundisc
 ms.assetid: 2024c2b8-ef47-4352-80ea-c68b22f38d4c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/12/2018
 ms.keywords: Associate, Associate method, Associate method,IPNPXDeviceAssociation interface, IPNPXDeviceAssociation interface,Associate method, IPNPXDeviceAssociation.Associate, IPNPXDeviceAssociation::Associate, ncd.ipnpxdeviceassociation_associate, pnpxassoc/IPNPXDeviceAssociation::Associate
 ms.prod: windows
 ms.technology: windows-sdk

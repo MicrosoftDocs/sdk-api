@@ -7,7 +7,7 @@ old-location: mscs\clusrestype_availabledisks.htm
 old-project: mscs
 ms.assetid: fc700541-793b-423b-bea6-ad04deddb16a
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: AvailableDisks property [Failover Cluster], AvailableDisks property [Failover Cluster],ClusResType object, ClusResType object [Failover Cluster],AvailableDisks property, ClusResType.AvailableDisks, ISClusResType.get_AvailableDisks, ISClusResType::get_AvailableDisks, _wolf_clusrestype.availabledisks, get_AvailableDisks, mscs.clusrestype_availabledisks
 ms.prod: windows
 ms.technology: windows-sdk

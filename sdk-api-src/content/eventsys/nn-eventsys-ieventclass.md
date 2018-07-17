@@ -7,7 +7,7 @@ old-location: cos\ieventclass.htm
 old-project: cossdk
 ms.assetid: e8c1fcd1-59fb-49d6-94b9-52b7c8551651
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: IEventClass, IEventClass interface [COM+], IEventClass interface [COM+],described, _cos_IEventClass, cos.ieventclass, eventsys/IEventClass
 ms.prod: windows
 ms.technology: windows-sdk

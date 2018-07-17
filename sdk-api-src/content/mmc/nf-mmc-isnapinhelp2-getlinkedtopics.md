@@ -7,7 +7,7 @@ old-location: mmc\isnapinhelp2_getlinkedtopics.htm
 old-project: mmc
 ms.assetid: ceed0d9f-e1bf-4692-aadf-e924095cdfc8
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: GetLinkedTopics, GetLinkedTopics method [MMC], GetLinkedTopics method [MMC],ISnapinHelp2 interface, ISnapinHelp2 interface [MMC],GetLinkedTopics method, ISnapinHelp2.GetLinkedTopics, ISnapinHelp2::GetLinkedTopics, _slate_isnapinhelp2_getlinkedtopics, mmc.isnapinhelp2_getlinkedtopics, mmc/ISnapinHelp2::GetLinkedTopics
 ms.prod: windows
 ms.technology: windows-sdk

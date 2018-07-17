@@ -7,7 +7,7 @@ old-location: cos\iappdomainhelper.htm
 old-project: cossdk
 ms.assetid: 2709f284-ca8c-404e-b568-b655f780549a
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: IAppDomainHelper, IAppDomainHelper interface [COM+], IAppDomainHelper interface [COM+],described, _cos_IAppDomainHelper, comsvcs/IAppDomainHelper, cos.iappdomainhelper
 ms.prod: windows
 ms.technology: windows-sdk

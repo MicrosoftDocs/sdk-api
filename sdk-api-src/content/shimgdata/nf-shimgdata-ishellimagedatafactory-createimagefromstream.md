@@ -7,7 +7,7 @@ old-location: shell\IShellImageDataFactory_CreateImageFromStream.htm
 old-project: shell
 ms.assetid: 009c4b46-0f2c-43ee-84be-017bf12b28e5
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: CreateImageFromStream, CreateImageFromStream method [Windows Shell], CreateImageFromStream method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],CreateImageFromStream method, IShellImageDataFactory.CreateImageFromStream, IShellImageDataFactory::CreateImageFromStream, _shell_IShellImageDataFactory_CreateImageFromStream, shell.IShellImageDataFactory_CreateImageFromStream, shimgdata/IShellImageDataFactory::CreateImageFromStream
 ms.prod: windows
 ms.technology: windows-sdk

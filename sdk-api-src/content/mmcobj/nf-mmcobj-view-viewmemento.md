@@ -7,7 +7,7 @@ old-location: mmc\view_viewmemento.htm
 old-project: mmc
 ms.assetid: 9027c6fe-7a09-457a-859f-652f9e83dabd
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: View interface [MMC],ViewMemento method, View object [MMC],ViewMemento method, View.ViewMemento, View::ViewMemento, ViewMemento, ViewMemento method [MMC], ViewMemento method [MMC],View interface, ViewMemento method [MMC],View object, _slate_view.viewmemento_method, mmc.view_viewmemento
 ms.prod: windows
 ms.technology: windows-sdk

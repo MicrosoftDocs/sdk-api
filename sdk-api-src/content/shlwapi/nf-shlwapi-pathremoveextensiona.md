@@ -7,7 +7,7 @@ old-location: shell\PathRemoveExtension.htm
 old-project: shell
 ms.assetid: 6e26d005-50af-4376-b734-19ba3d9c470f
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: PathRemoveExtension, PathRemoveExtension function [Windows Shell], PathRemoveExtensionA, PathRemoveExtensionW, _win32_PathRemoveExtension, shell.PathRemoveExtension, shlwapi/PathRemoveExtension, shlwapi/PathRemoveExtensionA, shlwapi/PathRemoveExtensionW
 ms.prod: windows
 ms.technology: windows-sdk

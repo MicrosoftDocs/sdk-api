@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamconfig_setbitrate.htm
 old-project: wmformat
 ms.assetid: 202be688-e739-4e80-9574-f85b2eb168fc
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: IWMStreamConfig interface [windows Media Format],SetBitrate method, IWMStreamConfig.SetBitrate, IWMStreamConfig::SetBitrate, IWMStreamConfigSetBitrate, SetBitrate, SetBitrate method [windows Media Format], SetBitrate method [windows Media Format],IWMStreamConfig interface, wmformat.iwmstreamconfig_setbitrate, wmsdkidl/IWMStreamConfig::SetBitrate
 ms.prod: windows
 ms.technology: windows-sdk

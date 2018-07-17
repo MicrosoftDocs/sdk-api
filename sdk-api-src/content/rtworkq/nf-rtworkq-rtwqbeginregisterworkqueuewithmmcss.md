@@ -4,10 +4,10 @@ title: RtwqBeginRegisterWorkQueueWithMMCSS function
 author: windows-sdk-content
 description: Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: base\rtwqbeginregisterworkqueuewithmmcss.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 3012EFE9-437A-4B60-98DD-7602CD9A9E76
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: RtwqBeginRegisterWorkQueueWithMMCSS, RtwqBeginRegisterWorkQueueWithMMCSS function, base.rtwqbeginregisterworkqueuewithmmcss, rtworkq/RtwqBeginRegisterWorkQueueWithMMCSS
 ms.prod: windows
 ms.technology: windows-sdk

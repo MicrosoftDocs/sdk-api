@@ -4,10 +4,10 @@ title: DhcpGetClientInfoVQ function
 author: windows-sdk-content
 description: Retrieves DHCP client lease record information from the DHCP server database.
 old-location: dhcp\dhcpgetclientinfovq.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: e8ed729b-12c2-4179-b7ef-6c71acf2672e
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DhcpGetClientInfoVQ, DhcpGetClientInfoVQ function [DHCP], dhcp.dhcpgetclientinfovq, dhcpsapi/DhcpGetClientInfoVQ
 ms.prod: windows
 ms.technology: windows-sdk

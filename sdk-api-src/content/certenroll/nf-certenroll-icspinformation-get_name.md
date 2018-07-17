@@ -7,7 +7,7 @@ old-location: security\icspinformation_name_property.htm
 old-project: seccertenroll
 ms.assetid: 86f6993d-c96e-4753-9670-fdcc30e8c019
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICspInformation interface [Security],Name property, ICspInformation.Name, ICspInformation.get_Name, ICspInformation::Name, ICspInformation::get_Name, Name property [Security], Name property [Security],ICspInformation interface, certenroll/ICspInformation::Name, certenroll/ICspInformation::get_Name, get_Name, security.icspinformation_name_property
 ms.prod: windows
 ms.technology: windows-sdk

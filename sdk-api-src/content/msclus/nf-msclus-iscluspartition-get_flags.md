@@ -7,7 +7,7 @@ old-location: mscs\cluspartition_flags.htm
 old-project: mscs
 ms.assetid: 19a69c92-495c-486d-9f42-6b0531dfb992
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: CLUSPROP_PIFLAG_DEFAULT_QUORUM, CLUSPROP_PIFLAG_REMOVABLE, CLUSPROP_PIFLAG_STICKY, CLUSPROP_PIFLAG_USABLE, ClusPartition object [Failover Cluster],Flags property, ClusPartition.Flags, Flags property [Failover Cluster], Flags property [Failover Cluster],ClusPartition object, ISClusPartition.get_Flags, ISClusPartition::get_Flags, _wolf_cluspartition.flags, get_Flags, mscs.cluspartition_flags
 ms.prod: windows
 ms.technology: windows-sdk

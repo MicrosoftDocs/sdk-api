@@ -7,7 +7,7 @@ old-location: com\multi_qi.htm
 old-project: com
 ms.assetid: 845040c9-fad4-4ac8-856d-d35edbf48ec9
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: MULTI_QI, MULTI_QI structure [COM], _com_MULTI_QI, com.multi_qi, objidlbase/MULTI_QI, tagMULTI_QI
 ms.prod: windows
 ms.technology: windows-sdk

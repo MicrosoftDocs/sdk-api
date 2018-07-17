@@ -4,10 +4,10 @@ title: RtwqUnlockWorkQueue function
 author: windows-sdk-content
 description: Unlocks a work queue.
 old-location: base\rtwqunlockworkqueue.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: a7c4c8e2-ad35-4b39-9174-41e2a605304e
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: RtwqUnlockWorkQueue, RtwqUnlockWorkQueue function, base.rtwqunlockworkqueue, rtworkq/RtwqUnlockWorkQueue
 ms.prod: windows
 ms.technology: windows-sdk

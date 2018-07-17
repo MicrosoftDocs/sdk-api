@@ -7,8 +7,8 @@ old-location: mscs\clusterresourceenumex.htm
 old-project: mscs
 ms.assetid: 9B5C03DF-84BB-4B3A-8404-94C64F192305
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX, PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX callback, PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX, mscs.clusterresourceenumex
+ms.date: 07/12/2018
+ms.keywords: ClusterResourceEnumEx, ClusterResourceEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX, PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX function [Failover Cluster], clusapi/ClusterResourceEnumEx, clusapi/PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX, mscs.clusterresourceenumex
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -32,15 +32,18 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - UserDefined
+ - DllExport
 api_location:
- - ClusAPI.h
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
- - PCLUSAPI_CLUSTER_RESOURCE_ENUM_EX
+ - ClusterResourceEnumEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
 req.irql: 
 ---
 
@@ -67,7 +70,7 @@ A handle to a resource enumeration   that is returned from
 ### -param dwIndex [in]
 
 The index of the resource or node object to return. This parameter should be zero for the first call to the 
-       <i>ClusterResourceEnumEx</i> function and then be  
+       <b>ClusterResourceEnumEx</b> function and then be  
        incremented for subsequent calls.
 
 

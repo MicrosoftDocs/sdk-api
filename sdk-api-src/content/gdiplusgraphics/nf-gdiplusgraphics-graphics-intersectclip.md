@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_IntersectClip_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsintersectclipmethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Graphics.IntersectClip, Graphics::IntersectClip, IntersectClip, IntersectClip methods [GDI+], _gdiplus_CLASS_Graphics_IntersectClip_Methods, gdiplus._gdiplus_CLASS_Graphics_IntersectClip_Methods, gdiplusgraphics/IntersectClip
 ms.prod: windows
 ms.technology: windows-sdk

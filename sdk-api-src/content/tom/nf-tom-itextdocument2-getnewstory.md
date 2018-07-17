@@ -4,10 +4,10 @@ title: ITextDocument2::GetNewStory
 author: windows-sdk-content
 description: Gets a new story.
 old-location: controls\itextdocument2_getnewstory.htm
-old-project: controls
+old-project: Controls
 ms.assetid: 4d6ef859-150b-41e7-be58-b9c87c61f7d8
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: GetNewStory, GetNewStory method [Windows Controls], GetNewStory method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetNewStory method, ITextDocument2.GetNewStory, ITextDocument2::GetNewStory, controls.itextdocument2_getnewstory, tom/ITextDocument2::GetNewStory
 ms.prod: windows
 ms.technology: windows-sdk

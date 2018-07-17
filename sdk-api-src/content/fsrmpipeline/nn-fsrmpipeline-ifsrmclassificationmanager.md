@@ -4,10 +4,10 @@ title: IFsrmClassificationManager
 author: windows-sdk-content
 description: Manages file classification. Use this interface to define properties to use in classification, add classification rules for classifying files, define classification and storage modules, and enable classification reporting.
 old-location: fsrm\ifsrmclassificationmanager.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: cc504f6c-00d7-4f9d-9688-1c29b5066ce6
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], IFsrmClassificationManager interface [File Server Resource Manager],described, fs.ifsrmclassificationmanager, fsrm.ifsrmclassificationmanager, fsrmpipeline/IFsrmClassificationManager
 ms.prod: windows
 ms.technology: windows-sdk

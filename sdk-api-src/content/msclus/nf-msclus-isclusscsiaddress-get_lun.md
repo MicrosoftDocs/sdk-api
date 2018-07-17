@@ -7,7 +7,7 @@ old-location: mscs\clusscsiaddress_lun.htm
 old-project: mscs
 ms.assetid: 47ac3714-fe5c-4b3b-9271-57980981785d
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusScsiAddress object [Failover Cluster],Lun property, ClusScsiAddress.Lun, ISClusScsiAddress.get_Lun, ISClusScsiAddress::get_Lun, Lun property [Failover Cluster], Lun property [Failover Cluster],ClusScsiAddress object, _wolf_clusscsiaddress.lun, get_Lun, mscs.clusscsiaddress_lun
 ms.prod: windows
 ms.technology: windows-sdk

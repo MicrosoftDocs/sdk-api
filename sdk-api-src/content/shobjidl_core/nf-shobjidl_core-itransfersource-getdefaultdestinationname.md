@@ -7,7 +7,7 @@ old-location: shell\ITransferSource_GetDefaultDestinationName.htm
 old-project: shell
 ms.assetid: a99d9622-b205-4a8a-9840-879f655463a5
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: GetDefaultDestinationName, GetDefaultDestinationName method [Windows Shell], GetDefaultDestinationName method [Windows Shell],ITransferSource interface, ITransferSource interface [Windows Shell],GetDefaultDestinationName method, ITransferSource.GetDefaultDestinationName, ITransferSource::GetDefaultDestinationName, _shell_ITransferSource_GetDefaultDestinationName, shell.ITransferSource_GetDefaultDestinationName, shobjidl_core/ITransferSource::GetDefaultDestinationName
 ms.prod: windows
 ms.technology: windows-sdk

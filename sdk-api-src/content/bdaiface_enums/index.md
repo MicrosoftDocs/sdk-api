@@ -2,13 +2,13 @@
 UID: NA:bdaiface_enums
 ms.assetid: aaf06821-c784-3f72-af0f-33925e1fe46d
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mstv
 archived: true
+tech.root: mstv
 ---
 
 # Bdaiface_Enums.h header

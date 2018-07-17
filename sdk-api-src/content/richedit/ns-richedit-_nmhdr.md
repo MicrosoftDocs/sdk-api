@@ -4,10 +4,10 @@ title: "_nmhdr"
 author: windows-sdk-content
 description: Contains information about a notification message.
 old-location: controls\NMHDR.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmhdr.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: NMHDR, NMHDR structure [Windows Controls], _nmhdr, _win32_NMHDR_str, _win32_NMHDR_str_cpp, controls.NMHDR, controls._win32_NMHDR_str, richedit/NMHDR
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DhcpSetServerBindingInfoV6 function
 author: windows-sdk-content
 description: Sets or modifies the IPv6 interface bindings for the DHCPv6 server.
 old-location: dhcp\dhcpsetserverbindinginfov6.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: 55eb2073-87c4-49b1-b294-35bfeb13d530
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DhcpSetServerBindingInfoV6, DhcpSetServerBindingInfoV6 function [DHCP], dhcp.dhcpsetserverbindinginfov6, dhcpsapi/DhcpSetServerBindingInfoV6
 ms.prod: windows
 ms.technology: windows-sdk

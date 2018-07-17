@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_endframe.htm
 old-project: DirectShow
 ms.assetid: 38944989-2ce2-4275-bae9-faca0d51cca8
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: EndFrame, EndFrame method [DirectShow], EndFrame method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],EndFrame method, IAMVideoAccelerator.EndFrame, IAMVideoAccelerator::EndFrame, IAMVideoAcceleratorEndFrame, dshow.iamvideoaccelerator_endframe, videoacc/IAMVideoAccelerator::EndFrame
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_DEV_BROADCAST_HDR"
 author: windows-sdk-content
 description: Serves as a standard header for information related to a device event reported through the WM_DEVICECHANGE message.
 old-location: base\dev_broadcast_hdr_str.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 4fc81fcb-b9fe-4016-b639-a43845af2c5f
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: DBT_DEVTYP_DEVICEINTERFACE, DBT_DEVTYP_HANDLE, DBT_DEVTYP_OEM, DBT_DEVTYP_PORT, DBT_DEVTYP_VOLUME, DEV_BROADCAST_HDR, DEV_BROADCAST_HDR structure, PDEV_BROADCAST_HDR, PDEV_BROADCAST_HDR structure pointer, _DEV_BROADCAST_HDR, _win32_dev_broadcast_hdr_str, base.dev_broadcast_hdr_str, dbt/DEV_BROADCAST_HDR, dbt/PDEV_BROADCAST_HDR
 ms.prod: windows
 ms.technology: windows-sdk

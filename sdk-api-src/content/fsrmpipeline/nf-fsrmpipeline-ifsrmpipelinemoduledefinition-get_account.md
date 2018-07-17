@@ -4,10 +4,10 @@ title: IFsrmPipelineModuleDefinition::get_Account
 author: windows-sdk-content
 description: The account to use when running the module.
 old-location: fsrm\ifsrmpipelinemoduledefinition_account.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 8f50bd88-ad16-49a4-b9d8-6c71ef6d9620
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: Account property [File Server Resource Manager], Account property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Account property, IFsrmPipelineModuleDefinition.Account, IFsrmPipelineModuleDefinition.get_Account, IFsrmPipelineModuleDefinition::Account, IFsrmPipelineModuleDefinition::get_Account, IFsrmPipelineModuleDefinition::put_Account, fs.ifsrmpipelinemoduledefinition_account, fsrm.ifsrmpipelinemoduledefinition_account, fsrmpipeline/IFsrmPipelineModuleDefinition::Account, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Account, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Account, get_Account
 ms.prod: windows
 ms.technology: windows-sdk

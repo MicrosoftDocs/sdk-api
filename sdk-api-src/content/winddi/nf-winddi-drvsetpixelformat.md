@@ -7,7 +7,7 @@ old-location: display\drvsetpixelformat.htm
 old-project: display
 ms.assetid: b2211639-13ae-455c-97ef-8145318af591
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/12/2018
 ms.keywords: DrvSetPixelFormat, DrvSetPixelFormat function [Display Devices], ddifncs_095cf66c-832a-49c2-9bf2-f97ef74665b2.xml, display.drvsetpixelformat, winddi/DrvSetPixelFormat
 ms.prod: windows
 ms.technology: windows-sdk

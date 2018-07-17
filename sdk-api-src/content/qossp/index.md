@@ -2,13 +2,13 @@
 UID: NA:qossp
 ms.assetid: 62b056ad-d1d1-3838-b97f-b948906c1f24
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: qos
 archived: true
+tech.root: qos
 ---
 
 # Qossp.h header

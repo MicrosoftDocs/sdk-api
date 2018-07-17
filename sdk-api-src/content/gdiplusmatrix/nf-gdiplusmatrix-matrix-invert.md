@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_Invert_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\invert.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Invert, Invert method [GDI+], Invert method [GDI+],Matrix class, Matrix class [GDI+],Invert method, Matrix.Invert, Matrix::Invert, _gdiplus_CLASS_Matrix_Invert_, gdiplus._gdiplus_CLASS_Matrix_Invert_
 ms.prod: windows
 ms.technology: windows-sdk

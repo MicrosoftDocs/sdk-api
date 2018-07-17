@@ -4,10 +4,10 @@ title: ITsSbClientConnection::get_Domain
 author: windows-sdk-content
 description: Retrieves a value that indicates the domain name of the Remote Desktop Connection (RDC) client.
 old-location: termserv\itssbclientconnection_domain.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 628f450d-10f4-4405-8d7c-ae58c72c2755
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: Domain property [Remote Desktop Services], Domain property [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],Domain property, ITsSbClientConnection.Domain, ITsSbClientConnection.get_Domain, ITsSbClientConnection::Domain, ITsSbClientConnection::get_Domain, get_Domain, sbtsv/ITsSbClientConnection::Domain, sbtsv/ITsSbClientConnection::get_Domain, termserv.itssbclientconnection_domain
 ms.prod: windows
 ms.technology: windows-sdk

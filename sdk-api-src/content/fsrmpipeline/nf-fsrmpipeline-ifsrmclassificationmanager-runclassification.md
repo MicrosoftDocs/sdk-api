@@ -4,10 +4,10 @@ title: IFsrmClassificationManager::RunClassification
 author: windows-sdk-content
 description: Runs classification rules and generates the classification report.
 old-location: fsrm\ifsrmclassificationmanager_runclassification.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 50fdc5c8-d2eb-4206-b0fa-0de2696d29c7
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],RunClassification method, IFsrmClassificationManager interface [File Server Resource Manager],RunClassification method, IFsrmClassificationManager.RunClassification, IFsrmClassificationManager2 interface [File Server Resource Manager],RunClassification method, IFsrmClassificationManager2::RunClassification, IFsrmClassificationManager::RunClassification, RunClassification, RunClassification method [File Server Resource Manager], RunClassification method [File Server Resource Manager],FsrmClassificationManager class, RunClassification method [File Server Resource Manager],IFsrmClassificationManager interface, RunClassification method [File Server Resource Manager],IFsrmClassificationManager2 interface, fs.ifsrmclassificationmanager_runclassification, fsrm.ifsrmclassificationmanager_runclassification, fsrmpipeline/IFsrmClassificationManager2::RunClassification, fsrmpipeline/IFsrmClassificationManager::RunClassification
 ms.prod: windows
 ms.technology: windows-sdk

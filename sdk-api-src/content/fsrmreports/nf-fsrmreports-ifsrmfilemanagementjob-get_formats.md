@@ -4,10 +4,10 @@ title: IFsrmFileManagementJob::get_Formats
 author: windows-sdk-content
 description: The formats of the report to generate when the job is run.
 old-location: fsrm\ifsrmfilemanagementjob_formats.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 1147829d-c47b-4d80-8b49-4328dd54f8ef
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: Formats property [File Server Resource Manager], Formats property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],Formats property, IFsrmFileManagementJob.Formats, IFsrmFileManagementJob.get_Formats, IFsrmFileManagementJob::Formats, IFsrmFileManagementJob::get_Formats, IFsrmFileManagementJob::put_Formats, fs.ifsrmfilemanagementjob_formats, fsrm.ifsrmfilemanagementjob_formats, fsrmreports/IFsrmFileManagementJob::Formats, fsrmreports/IFsrmFileManagementJob::get_Formats, fsrmreports/IFsrmFileManagementJob::put_Formats, get_Formats
 ms.prod: windows
 ms.technology: windows-sdk

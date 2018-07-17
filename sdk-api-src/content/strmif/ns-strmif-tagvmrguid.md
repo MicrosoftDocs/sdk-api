@@ -7,7 +7,7 @@ old-location: dshow\vmrguid.htm
 old-project: DirectShow
 ms.assetid: e05d986a-c044-47c9-8430-7190ad29c7ec
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: VMRGUID, VMRGUID structure [DirectShow], VMRGUIDStructure, dshow.vmrguid, strmif/VMRGUID, tagVMRGUID
 ms.prod: windows
 ms.technology: windows-sdk

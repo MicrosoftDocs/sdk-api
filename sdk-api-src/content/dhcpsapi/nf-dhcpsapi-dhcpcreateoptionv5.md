@@ -4,10 +4,10 @@ title: DhcpCreateOptionV5 function
 author: windows-sdk-content
 description: Creates a DHCP option.
 old-location: dhcp\dhcpcreateoptionv5.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: de6e8f87-af4b-4e7f-8468-54359c5a8907
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpCreateOptionV5, DhcpCreateOptionV5 function [DHCP], dhcp.dhcpcreateoptionv5, dhcpsapi/DhcpCreateOptionV5
 ms.prod: windows
 ms.technology: windows-sdk

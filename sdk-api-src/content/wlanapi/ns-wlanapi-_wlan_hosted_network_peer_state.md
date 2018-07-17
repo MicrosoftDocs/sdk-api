@@ -4,10 +4,10 @@ title: "_WLAN_HOSTED_NETWORK_PEER_STATE"
 author: windows-sdk-content
 description: Contains information about the peer state for a peer on the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_peer_state.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: f42f7100-45c8-4dd3-ae01-07740cace871
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*PWLAN_HOSTED_NETWORK_PEER_STATE, PWLAN_HOSTED_NETWORK_PEER_STATE, PWLAN_HOSTED_NETWORK_PEER_STATE structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_PEER_STATE, WLAN_HOSTED_NETWORK_PEER_STATE structure [NativeWIFI], _WLAN_HOSTED_NETWORK_PEER_STATE, nwifi.wlan_hosted_network_peer_state, wlanapi/PWLAN_HOSTED_NETWORK_PEER_STATE, wlanapi/WLAN_HOSTED_NETWORK_PEER_STATE"
 ms.prod: windows
 ms.technology: windows-sdk

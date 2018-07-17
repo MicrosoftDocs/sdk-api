@@ -7,8 +7,8 @@ old-location: mscs\clusternodeopenenumex.htm
 old-project: mscs
 ms.assetid: A251C5A3-2C9F-4030-8013-4846AD83A2E9
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX callback, PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX, mscs.clusternodeopenenumex
+ms.date: 07/12/2018
+ms.keywords: ClusterNodeOpenEnumEx, ClusterNodeOpenEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX function [Failover Cluster], clusapi/ClusterNodeOpenEnumEx, clusapi/PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX, mscs.clusternodeopenenumex
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -35,11 +35,11 @@ api_type:
 api_location:
  -
 api_name:
- - PCLUSAPI_CLUSTER_NODE_OPEN_ENUM_EX callback
+ - ClusterNodeOpenEnumEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
 req.irql: 
 ---
 
@@ -80,7 +80,7 @@ TBD
 
 
 If the operation succeeds, 
-       the <i>ClusterNodeOpenEnumEx</i>  function  returns a handle to a node 
+       the <b>ClusterNodeOpenEnumEx</b>  function  returns a handle to a node 
        enumerator.
 
 If the operation fails, the function returns <b>NULL</b>. For more information about the 

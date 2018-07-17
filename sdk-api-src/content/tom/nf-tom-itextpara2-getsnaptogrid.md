@@ -4,10 +4,10 @@ title: ITextPara2::GetSnapToGrid
 author: windows-sdk-content
 description: Gets whether paragraph lines snap to a vertical grid that could be defined for the whole document.
 old-location: controls\itextpara2_getsnaptogrid.htm
-old-project: controls
+old-project: Controls
 ms.assetid: ee5fd1d8-cd2d-4674-bb0f-6021a3115aac
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: GetSnapToGrid, GetSnapToGrid method [Windows Controls], GetSnapToGrid method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetSnapToGrid method, ITextPara2.GetSnapToGrid, ITextPara2::GetSnapToGrid, controls.itextpara2_getsnaptogrid, tom/ITextPara2::GetSnapToGrid
 ms.prod: windows
 ms.technology: windows-sdk

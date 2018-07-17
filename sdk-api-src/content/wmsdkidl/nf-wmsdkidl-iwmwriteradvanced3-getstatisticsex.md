@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriteradvanced3_getstatisticsex.htm
 old-project: wmformat
 ms.assetid: 3ea41491-409c-42b7-a4b2-f0d7c222c299
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: GetStatisticsEx, GetStatisticsEx method [windows Media Format], GetStatisticsEx method [windows Media Format],IWMWriterAdvanced3 interface, IWMWriterAdvanced3 interface [windows Media Format],GetStatisticsEx method, IWMWriterAdvanced3.GetStatisticsEx, IWMWriterAdvanced3::GetStatisticsEx, IWMWriterAdvanced3GetStatisticsEx, wmformat.iwmwriteradvanced3_getstatisticsex, wmsdkidl/IWMWriterAdvanced3::GetStatisticsEx
 ms.prod: windows
 ms.technology: windows-sdk

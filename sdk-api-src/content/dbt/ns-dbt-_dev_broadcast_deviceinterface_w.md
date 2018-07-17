@@ -4,10 +4,10 @@ title: "_DEV_BROADCAST_DEVICEINTERFACE_W"
 author: windows-sdk-content
 description: Contains information about a class of devices.
 old-location: base\dev_broadcast_deviceinterface_str.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 23e6b2b9-2053-4dfa-9c0a-283279f086b8
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: "*PDEV_BROADCAST_DEVICEINTERFACE_W, DEV_BROADCAST_DEVICEINTERFACE, DEV_BROADCAST_DEVICEINTERFACE structure, DEV_BROADCAST_DEVICEINTERFACE_W, PDEV_BROADCAST_DEVICEINTERFACE, PDEV_BROADCAST_DEVICEINTERFACE structure pointer, _DEV_BROADCAST_DEVICEINTERFACE_W, _win32_dev_broadcast_deviceinterface_str, base.dev_broadcast_deviceinterface_str, dbt/DEV_BROADCAST_DEVICEINTERFACE, dbt/PDEV_BROADCAST_DEVICEINTERFACE"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\clres_v3_functions.htm
 old-project: mscs
 ms.assetid: 5D4B5494-5F75-4864-9BA5-EF1A88DFE143
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: "*PCLRES_V3_FUNCTIONS, CLRES_V3_FUNCTIONS, CLRES_V3_FUNCTIONS structure [Failover Cluster], PCLRES_V3_FUNCTIONS, PCLRES_V3_FUNCTIONS structure pointer [Failover Cluster], mscs.clres_v3_functions, resapi/CLRES_V3_FUNCTIONS, resapi/PCLRES_V3_FUNCTIONS"
 ms.prod: windows
 ms.technology: windows-sdk

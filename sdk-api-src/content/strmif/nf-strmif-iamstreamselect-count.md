@@ -7,7 +7,7 @@ old-location: dshow\iamstreamselect_count.htm
 old-project: DirectShow
 ms.assetid: 5104ce98-5b13-409a-9226-0c089ee8bb1e
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: Count, Count method [DirectShow], Count method [DirectShow],IAMStreamSelect interface, IAMStreamSelect interface [DirectShow],Count method, IAMStreamSelect.Count, IAMStreamSelect::Count, IAMStreamSelectCount, dshow.iamstreamselect_count, strmif/IAMStreamSelect::Count
 ms.prod: windows
 ms.technology: windows-sdk

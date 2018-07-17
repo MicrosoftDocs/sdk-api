@@ -4,10 +4,10 @@ title: "_CRL_INFO"
 author: windows-sdk-content
 description: Contains the information of a certificate revocation list (CRL).
 old-location: security\crl_info.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 06a28de3-dd7c-4efe-9baa-20aac69d63f3
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: "*PCRL_INFO, CRL_INFO, CRL_INFO structure [Security], CRL_V1, CRL_V2, PCRL_INFO, PCRL_INFO structure pointer [Security], _CRL_INFO, _crypto2_crl_info, security.crl_info, wincrypt/CRL_INFO, wincrypt/PCRL_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\group_failure_info.htm
 old-project: mscs
 ms.assetid: C3E7585B-21F8-4E4C-A970-C07F72C80E76
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: "*PGROUP_FAILURE_INFO, GROUP_FAILURE_INFO, GROUP_FAILURE_INFO structure [Failover Cluster], PGROUP_FAILURE_INFO, PGROUP_FAILURE_INFO structure pointer [Failover Cluster], clusapi/GROUP_FAILURE_INFO, clusapi/PGROUP_FAILURE_INFO, msclus/GROUP_FAILURE_INFO, msclus/PGROUP_FAILURE_INFO, mscs.group_failure_info"
 ms.prod: windows
 ms.technology: windows-sdk

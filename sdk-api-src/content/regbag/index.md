@@ -2,13 +2,13 @@
 UID: NA:regbag
 ms.assetid: 58224248-7176-32f2-ae6f-57666dad29aa
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: mstv
 archived: true
+tech.root: mstv
 ---
 
 # Regbag.h header

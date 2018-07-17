@@ -4,10 +4,10 @@ title: SCardRemoveReaderFromGroupW function
 author: windows-sdk-content
 description: Removes a reader from an existing reader group. This function has no effect on the reader.
 old-location: security\scardremovereaderfromgroup.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: a9bdaf16-1a6f-4a84-ab29-3d6df9003ff9
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardRemoveReaderFromGroup, SCardRemoveReaderFromGroup function [Security], SCardRemoveReaderFromGroupA, SCardRemoveReaderFromGroupW, _smart_scardremovereaderfromgroup, security.scardremovereaderfromgroup, winscard/SCardRemoveReaderFromGroup, winscard/SCardRemoveReaderFromGroupA, winscard/SCardRemoveReaderFromGroupW
 ms.prod: windows
 ms.technology: windows-sdk

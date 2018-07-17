@@ -4,10 +4,10 @@ title: IRDPSRAPITransportStream
 author: windows-sdk-content
 description: Exposes methods that perform operations with streams.
 old-location: rdp\irdpsrapitransportstream.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 18ac00d5-f574-463f-a34a-40c2dc16d4d8
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/13/2018
 ms.keywords: IRDPSRAPITransportStream, IRDPSRAPITransportStream interface [RDP], IRDPSRAPITransportStream interface [RDP],described, rdp.irdpsrapitransportstream, rdpencomapi/IRDPSRAPITransportStream
 ms.prod: windows
 ms.technology: windows-sdk

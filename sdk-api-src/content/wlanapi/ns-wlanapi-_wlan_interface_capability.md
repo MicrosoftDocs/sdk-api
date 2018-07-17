@@ -4,10 +4,10 @@ title: "_WLAN_INTERFACE_CAPABILITY"
 author: windows-sdk-content
 description: Contains information about the capabilities of an interface.
 old-location: nwifi\wlan_interface_capability.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: db7a9066-d699-4860-90cd-dc3f4bf42549
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*PWLAN_INTERFACE_CAPABILITY, PWLAN_INTERFACE_CAPABILITY, PWLAN_INTERFACE_CAPABILITY structure pointer [NativeWIFI], WLAN_INTERFACE_CAPABILITY, WLAN_INTERFACE_CAPABILITY structure [NativeWIFI], _WLAN_INTERFACE_CAPABILITY, nwifi.wlan_interface_capability, wlanapi/PWLAN_INTERFACE_CAPABILITY, wlanapi/WLAN_INTERFACE_CAPABILITY"
 ms.prod: windows
 ms.technology: windows-sdk

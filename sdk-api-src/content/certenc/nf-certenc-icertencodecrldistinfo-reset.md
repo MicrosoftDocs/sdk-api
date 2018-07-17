@@ -4,10 +4,10 @@ title: ICertEncodeCRLDistInfo::Reset
 author: windows-sdk-content
 description: Resets a certificate revocation list (CRL) distribution information array to a specified number of distribution point structures.
 old-location: security\icertencodecrldistinfo_reset.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 899de888-918f-4202-a324-0e603eba2324
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],Reset method, ICertEncodeCRLDistInfo interface [Security],Reset method, ICertEncodeCRLDistInfo.Reset, ICertEncodeCRLDistInfo::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeCRLDistInfo object, Reset method [Security],ICertEncodeCRLDistInfo interface, _certsrv_icertencodecrldistinfo_reset, certenc/ICertEncodeCRLDistInfo::Reset, security.icertencodecrldistinfo_reset
 ms.prod: windows
 ms.technology: windows-sdk

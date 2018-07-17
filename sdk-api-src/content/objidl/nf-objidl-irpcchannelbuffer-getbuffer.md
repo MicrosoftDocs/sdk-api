@@ -7,7 +7,7 @@ old-location: com\irpcchannelbuffer_getbuffer.htm
 old-project: com
 ms.assetid: 775a15df-8bcf-4c1b-a8b9-5c7c03106c09
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: GetBuffer, GetBuffer method [COM], GetBuffer method [COM],IRpcChannelBuffer interface, IRpcChannelBuffer interface [COM],GetBuffer method, IRpcChannelBuffer.GetBuffer, IRpcChannelBuffer::GetBuffer, _com_irpcchannelbuffer_getbuffer, com.irpcchannelbuffer_getbuffer, objidlbase/IRpcChannelBuffer::GetBuffer
 ms.prod: windows
 ms.technology: windows-sdk

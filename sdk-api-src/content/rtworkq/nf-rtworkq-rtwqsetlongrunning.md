@@ -4,10 +4,10 @@ title: RtwqSetLongRunning function
 author: windows-sdk-content
 description: Indicates that the app will be submitting a hint that long running work will occur on this work queue.
 old-location: base\rtwqsetlongrunning.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 8bf71eb5-d5d5-4b07-93b0-4b12b43e9687
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: RtwqSetLongRunning, RtwqSetLongRunning function, base.rtwqsetlongrunning, rtworkq/RtwqSetLongRunning
 ms.prod: windows
 ms.technology: windows-sdk

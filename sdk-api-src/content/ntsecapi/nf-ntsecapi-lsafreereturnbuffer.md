@@ -4,10 +4,10 @@ title: LsaFreeReturnBuffer function
 author: windows-sdk-content
 description: Frees the memory used by a buffer previously allocated by the LSA.
 old-location: security\lsafreereturnbuffer.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: e814ed68-07e7-4936-ba96-5411086f43f6
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: LsaFreeReturnBuffer, LsaFreeReturnBuffer function [Security], _lsa_lsafreereturnbuffer, ntsecapi/LsaFreeReturnBuffer, security.lsafreereturnbuffer
 ms.prod: windows
 ms.technology: windows-sdk

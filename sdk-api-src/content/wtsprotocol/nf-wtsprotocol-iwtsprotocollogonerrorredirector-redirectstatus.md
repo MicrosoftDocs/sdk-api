@@ -4,10 +4,10 @@ title: IWTSProtocolLogonErrorRedirector::RedirectStatus
 author: windows-sdk-content
 description: IWTSProtocolLogonErrorRedirector::RedirectStatus is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::RedirectStatus.
 old-location: termserv\iwtsprotocollogonerrorredirector_redirectstatus.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: a333db5a-3564-4d33-bfd6-244975cc3c4f
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services],RedirectStatus method, IWTSProtocolLogonErrorRedirector.RedirectStatus, IWTSProtocolLogonErrorRedirector::RedirectStatus, RedirectStatus, RedirectStatus method [Remote Desktop Services], RedirectStatus method [Remote Desktop Services],IWTSProtocolLogonErrorRedirector interface, termserv.iwtsprotocollogonerrorredirector_redirectstatus, wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectStatus
 ms.prod: windows
 ms.technology: windows-sdk

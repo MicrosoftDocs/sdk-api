@@ -4,10 +4,10 @@ title: CryptHashSessionKey function
 author: windows-sdk-content
 description: Computes the cryptographic hash of a session key object.
 old-location: security\crypthashsessionkey.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 75781993-7faf-4149-80cc-ae50dbd4de2a
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CRYPT_LITTLE_ENDIAN, CryptHashSessionKey, CryptHashSessionKey function [Security], _crypto2_crypthashsessionkey, security.crypthashsessionkey, wincrypt/CryptHashSessionKey
 ms.prod: windows
 ms.technology: windows-sdk

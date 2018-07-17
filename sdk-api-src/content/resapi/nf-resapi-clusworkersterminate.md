@@ -7,7 +7,7 @@ old-location: mscs\clusworkersterminate.htm
 old-project: mscs
 ms.assetid: af9bcdcf-ca92-438b-94f2-f0e7529952fb
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusWorkersTerminate, ClusWorkersTerminate function [Failover Cluster], mscs.clusworkersterminate, resapi/ClusWorkersTerminate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,6 +50,8 @@ req.product: ADAM
 
 ## -description
 
+
+<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Waits for multiple  worker threads to terminate up to the specified timeout.  Optionally,  signals the threads to terminate at the end of the timeout.
 

@@ -4,10 +4,10 @@ title: SetPriorityClass function
 author: windows-sdk-content
 description: Sets the priority class for the specified process. This value together with the priority value of each thread of the process determines each thread's base priority level.
 old-location: base\setpriorityclass.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 02686637-427a-4cf1-a4e5-60c707af3084
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: ABOVE_NORMAL_PRIORITY_CLASS, BELOW_NORMAL_PRIORITY_CLASS, HIGH_PRIORITY_CLASS, IDLE_PRIORITY_CLASS, NORMAL_PRIORITY_CLASS, PROCESS_MODE_BACKGROUND_BEGIN, PROCESS_MODE_BACKGROUND_END, REALTIME_PRIORITY_CLASS, SetPriorityClass, SetPriorityClass function, _win32_setpriorityclass, base.setpriorityclass, processthreadsapi/SetPriorityClass, winbase/SetPriorityClass
 ms.prod: windows
 ms.technology: windows-sdk

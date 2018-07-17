@@ -7,7 +7,7 @@ old-location: display\pathobj_benum.htm
 old-project: display
 ms.assetid: 2e8bd76c-5ee6-4fe5-b1e5-64e84d09fc8f
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/12/2018
 ms.keywords: PATHOBJ_bEnum, PATHOBJ_bEnum function [Display Devices], display.pathobj_benum, gdifncs_afa2e11c-1671-426c-aab8-c0998eafb4b5.xml, winddi/PATHOBJ_bEnum
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\ix509enrollmenthelper_initialize.htm
 old-project: seccertenroll
 ms.assetid: 83cb603b-9396-4983-8707-12d1c5b8b234
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509EnrollmentHelper interface [Security],Initialize method, IX509EnrollmentHelper.Initialize, IX509EnrollmentHelper::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509EnrollmentHelper interface, certenroll/IX509EnrollmentHelper::Initialize, security.ix509enrollmenthelper_initialize
 ms.prod: windows
 ms.technology: windows-sdk

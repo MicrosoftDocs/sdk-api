@@ -7,7 +7,7 @@ old-location: mmc\icomponentdata_initialize.htm
 old-project: mmc
 ms.assetid: 7893b3d6-f576-41cc-bbe5-2fcef7c327d7
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: IComponentData interface [MMC],Initialize method, IComponentData.Initialize, IComponentData::Initialize, Initialize, Initialize method [MMC], Initialize method [MMC],IComponentData interface, _slate_icomponentdata_initialize, mmc.icomponentdata_initialize, mmc/IComponentData::Initialize
 ms.prod: windows
 ms.technology: windows-sdk

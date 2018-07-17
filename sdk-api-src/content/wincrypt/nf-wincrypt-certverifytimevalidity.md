@@ -4,10 +4,10 @@ title: CertVerifyTimeValidity function
 author: windows-sdk-content
 description: The CertVerifyTimeValidity function verifies the time validity of a certificate.
 old-location: security\certverifytimevalidity.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 9ccf9230-e998-4f82-9db0-6cbaa1c36850
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CertVerifyTimeValidity, CertVerifyTimeValidity function [Security], _crypto2_certverifytimevalidity, security.certverifytimevalidity, wincrypt/CertVerifyTimeValidity
 ms.prod: windows
 ms.technology: windows-sdk

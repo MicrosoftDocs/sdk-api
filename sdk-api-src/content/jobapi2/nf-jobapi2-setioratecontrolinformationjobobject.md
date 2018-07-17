@@ -4,10 +4,10 @@ title: SetIoRateControlInformationJobObject function
 author: windows-sdk-content
 description: Sets I/O limits on a job object.
 old-location: base\setioratecontrolinformationjobobject.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 7E108E01-6D43-4336-BFE0-5EE655FD5D45
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: SetIoRateControlInformationJobObject, SetIoRateControlInformationJobObject function, base.setioratecontrolinformationjobobject, jobapi2/SetIoRateControlInformationJobObject
 ms.prod: windows
 ms.technology: windows-sdk

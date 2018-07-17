@@ -7,7 +7,7 @@ old-location: mscs\clusversion_clusterlowestversion.htm
 old-project: mscs
 ms.assetid: 32393f01-467f-4d73-bbe7-18c428806e7c
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusVersion object [Failover Cluster],ClusterLowestVersion property, ClusVersion.ClusterLowestVersion, ClusterLowestVersion property [Failover Cluster], ClusterLowestVersion property [Failover Cluster],ClusVersion object, ISClusVersion.get_ClusterLowestVersion, ISClusVersion::get_ClusterLowestVersion, _wolf_clusversion.clusterlowestversion, get_ClusterLowestVersion, mscs.clusversion_clusterlowestversion
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,13 +2,13 @@
 UID: NA:icftypes
 ms.assetid: 08aa9064-3b43-3595-8942-7682f54aa15f
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: ics
 archived: true
+tech.root: ics
 ---
 
 # Icftypes.h header

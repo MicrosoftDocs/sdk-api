@@ -4,10 +4,10 @@ title: WPUQueueApc function
 author: windows-sdk-content
 description: The WPUQueueApc function queues a user mode&#8211;asynchronous procedure call (APC) to the specified thread in order to facilitate invocation of overlapped I/O completion routines.
 old-location: winsock\wpuqueueapc_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 4326547e-85e2-409c-9f36-aa013853dfd9
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WPUQueueApc, WPUQueueApc function [Winsock], _win32_wpuqueueapc_2, winsock.wpuqueueapc_2, ws2spi/WPUQueueApc
 ms.prod: windows
 ms.technology: windows-sdk

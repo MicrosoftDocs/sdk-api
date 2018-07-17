@@ -7,7 +7,7 @@ old-location: mscs\clusnode_resume.htm
 old-project: mscs
 ms.assetid: 74e465e2-1328-4e05-b287-3ce27359c67a
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusNode object [Failover Cluster],Resume method, ClusNode.Resume, ISClusNode.Resume, ISClusNode::Resume, Resume, Resume method [Failover Cluster], Resume method [Failover Cluster],ClusNode object, _wolf_clusnode.resume, mscs.clusnode_resume
 ms.prod: windows
 ms.technology: windows-sdk

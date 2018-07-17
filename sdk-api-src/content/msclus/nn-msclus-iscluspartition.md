@@ -7,7 +7,7 @@ old-location: mscs\cluspartition_object.htm
 old-project: mscs
 ms.assetid: b7af8ab1-83dc-4164-bf59-901cc9fae56f
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusPartition, ClusPartition object [Failover Cluster], ClusPartition object [Failover Cluster],described, ISClusPartition, _wolf_cluspartition_object, msclus/ClusPartition, mscs.cluspartition_object
 ms.prod: windows
 ms.technology: windows-sdk

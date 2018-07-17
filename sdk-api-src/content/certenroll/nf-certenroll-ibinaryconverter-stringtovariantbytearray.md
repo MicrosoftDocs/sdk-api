@@ -7,7 +7,7 @@ old-location: security\ibinaryconverter_stringtovariantbytearray_method.htm
 old-project: seccertenroll
 ms.assetid: b0d649f7-79a1-452c-a790-b6c05ccb84b0
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IBinaryConverter interface [Security],StringToVariantByteArray method, IBinaryConverter.StringToVariantByteArray, IBinaryConverter::StringToVariantByteArray, StringToVariantByteArray, StringToVariantByteArray method [Security], StringToVariantByteArray method [Security],IBinaryConverter interface, certenroll/IBinaryConverter::StringToVariantByteArray, security.ibinaryconverter_stringtovariantbytearray_method
 ms.prod: windows
 ms.technology: windows-sdk

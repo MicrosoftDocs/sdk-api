@@ -7,7 +7,7 @@ old-location: mscs\cluspropertyvaluedata_item.htm
 old-project: mscs
 ms.assetid: adc7bb98-9d39-48e9-a7d5-f31b168972f4
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusPropertyValueData collection [Failover Cluster],Item property, ClusPropertyValueData.Item, ISClusPropertyValueData.get_Item, ISClusPropertyValueData::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ClusPropertyValueData collection, _wolf_cluspropertyvaluedata.item, get_Item, mscs.cluspropertyvaluedata_item
 ms.prod: windows
 ms.technology: windows-sdk

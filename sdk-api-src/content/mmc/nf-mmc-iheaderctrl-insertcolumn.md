@@ -7,7 +7,7 @@ old-location: mmc\iheaderctrl_insertcolumn.htm
 old-project: mmc
 ms.assetid: F5499550-9460-4BF9-AF99-F4BDC7F32EBC
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: HIDE_COLUMN, IHeaderCtrl interface [MMC],InsertColumn method, IHeaderCtrl.InsertColumn, IHeaderCtrl::InsertColumn, InsertColumn, InsertColumn method [MMC], InsertColumn method [MMC],IHeaderCtrl interface, LVCFMT_CENTER, LVCFMT_LEFT, LVCFMT_RIGHT, MMCLV_AUTO, mmc.iheaderctrl_insertcolumn, mmc/IHeaderCtrl::InsertColumn
 ms.prod: windows
 ms.technology: windows-sdk

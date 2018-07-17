@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Color_GetGreen_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getgreen.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Color class [GDI+],GetGreen method, Color.GetGreen, Color::GetGreen, GetGreen, GetGreen method [GDI+], GetGreen method [GDI+],Color class, _gdiplus_CLASS_Color_GetGreen_, gdiplus._gdiplus_CLASS_Color_GetGreen_
 ms.prod: windows
 ms.technology: windows-sdk

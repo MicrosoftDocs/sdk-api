@@ -7,7 +7,7 @@ old-location: mscs\clusctl_get_user.htm
 old-project: mscs
 ms.assetid: E96CD23F-D1A7-46FC-820C-D32A23E8E008
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: CLUSCTL_GET_USER, CLUSCTL_GET_USER macro [Failover Cluster], clusapi/CLUSCTL_GET_USER, mscs.clusctl_get_user
 ms.prod: windows
 ms.technology: windows-sdk

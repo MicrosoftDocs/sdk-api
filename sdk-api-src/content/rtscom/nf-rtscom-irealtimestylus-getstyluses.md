@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_getstyluses.htm
 old-project: tablet
 ms.assetid: 1e838591-ce9e-4f3f-9b5e-b8414faac6ba
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: 1e838591-ce9e-4f3f-9b5e-b8414faac6ba, GetStyluses, GetStyluses method [Tablet PC], GetStyluses method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStyluses method, IRealTimeStylus.GetStyluses, IRealTimeStylus::GetStyluses, rtscom/IRealTimeStylus::GetStyluses, tablet.irealtimestylus_getstyluses
 ms.prod: windows
 ms.technology: windows-sdk

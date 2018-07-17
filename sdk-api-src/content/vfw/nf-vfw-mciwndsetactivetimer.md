@@ -7,7 +7,7 @@ old-location: multimedia\mciwndsetactivetimer.htm
 old-project: Multimedia
 ms.assetid: 0a0815c4-6c35-4d67-a87b-d355f9ffbf3b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/13/2018
 ms.keywords: MCIWndSetActiveTimer, MCIWndSetActiveTimer macro [Windows Multimedia], _win32_MCIWndSetActiveTimer, multimedia.mciwndsetactivetimer, vfw/MCIWndSetActiveTimer
 ms.prod: windows
 ms.technology: windows-sdk

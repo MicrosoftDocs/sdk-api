@@ -7,7 +7,7 @@ old-location: shell\SHGetIDListFromObject.htm
 old-project: shell
 ms.assetid: 42821075-8123-4bfa-a6ba-8d3a77a9f50b
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: SHGetIDListFromObject, SHGetIDListFromObject function [Windows Shell], _shell_SHGetIDListFromObject, shell.SHGetIDListFromObject, shobjidl_core/SHGetIDListFromObject
 ms.prod: windows
 ms.technology: windows-sdk

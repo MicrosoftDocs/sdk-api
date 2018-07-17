@@ -7,7 +7,7 @@ old-location: multimedia\icdrawbegin.htm
 old-project: Multimedia
 ms.assetid: 52a43888-9839-45a3-b139-e84943c345c2
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/13/2018
 ms.keywords: ICDrawBegin, ICDrawBegin function [Windows Multimedia], _win32_ICDrawBegin, multimedia.icdrawbegin, vfw/ICDrawBegin
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DhcpV4FailoverCreateRelationship function
 author: windows-sdk-content
 description: Creates a new DHCPv4 failover relationship between two servers.
 old-location: dhcp\dhcpv4failovercreaterelationship.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: 6e360dd4-b4a0-4652-8754-17c3c284271c
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DhcpV4FailoverCreateRelationship, DhcpV4FailoverCreateRelationship function [DHCP], dhcp.dhcpv4failovercreaterelationship, dhcpsapi/DhcpV4FailoverCreateRelationship
 ms.prod: windows
 ms.technology: windows-sdk

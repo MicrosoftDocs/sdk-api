@@ -4,10 +4,10 @@ title: TerminateThread function
 author: windows-sdk-content
 description: Terminates a thread.
 old-location: base\terminatethread.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: ae1ad0f3-67df-4573-af22-7086f0470361
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: TerminateThread, TerminateThread function, _win32_terminatethread, base.terminatethread, processthreadsapi/TerminateThread, winbase/TerminateThread
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\ivmrdeinterlacecontrol9.htm
 old-project: DirectShow
 ms.assetid: 685f3627-30bd-4c78-9eda-0b06203dd46e
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IVMRDeinterlaceControl9, IVMRDeinterlaceControl9 interface [DirectShow], IVMRDeinterlaceControl9 interface [DirectShow],described, IVMRDeinterlaceControl9Interface, dshow.ivmrdeinterlacecontrol9, vmr9/IVMRDeinterlaceControl9
 ms.prod: windows
 ms.technology: windows-sdk

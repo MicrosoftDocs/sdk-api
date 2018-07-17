@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_Suspend.htm
 old-project: shell
 ms.assetid: b1a62712-cd03-4728-b0f1-c1b543f2e056
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],Suspend method, IPackageDebugSettings.Suspend, IPackageDebugSettings::Suspend, Suspend, Suspend method [Windows Shell], Suspend method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_Suspend, shobjidl_core/IPackageDebugSettings::Suspend
 ms.prod: windows
 ms.technology: windows-sdk

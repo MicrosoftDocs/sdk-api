@@ -7,7 +7,7 @@ old-location: shell\Shell_GetImageLists.htm
 old-project: shell
 ms.assetid: c3b73616-849c-4149-b04d-a7d389ebf700
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: Shell_GetImageLists, Shell_GetImageLists function [Windows Shell], _win32_Shell_GetImageLists, shell.Shell_GetImageLists, shlobj_core/Shell_GetImageLists
 ms.prod: windows
 ms.technology: windows-sdk

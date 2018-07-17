@@ -7,7 +7,7 @@ old-location: com\mkparsedisplayname.htm
 old-project: com
 ms.assetid: ada46dd3-e2c5-4ff5-89bd-3805f98b247b
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: MkParseDisplayName, MkParseDisplayName function [COM], _com_MkParseDisplayName, com.mkparsedisplayname, objbase/MkParseDisplayName
 ms.prod: windows
 ms.technology: windows-sdk

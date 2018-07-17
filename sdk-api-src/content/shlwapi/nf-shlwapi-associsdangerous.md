@@ -7,7 +7,7 @@ old-location: shell\AssocIsDangerous.htm
 old-project: shell
 ms.assetid: 4e0bc3ce-f9d2-4766-8b19-c0954d71e890
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: AssocIsDangerous, AssocIsDangerous function [Windows Shell], _shell_AssocIsDangerous, shell.AssocIsDangerous, shlwapi/AssocIsDangerous
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection.htm
 old-project: cossdk
 ms.assetid: 7c24ead4-d69f-467d-b3d8-a81adbc49a7b
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: ICatalogCollection, ICatalogCollection interface [COM+], ICatalogCollection interface [COM+],described, _cos_ICatalogCollection_Interface, comadmin/ICatalogCollection, cos.icatalogcollection
 ms.prod: windows
 ms.technology: windows-sdk

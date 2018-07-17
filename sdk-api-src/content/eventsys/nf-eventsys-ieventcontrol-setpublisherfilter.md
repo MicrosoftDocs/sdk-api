@@ -7,7 +7,7 @@ old-location: cos\ieventcontrol_setpublisherfilter.htm
 old-project: cossdk
 ms.assetid: 9ebe0f55-9e2f-4538-9c16-1b237abfd07b
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: IEventControl interface [COM+],SetPublisherFilter method, IEventControl.SetPublisherFilter, IEventControl::SetPublisherFilter, SetPublisherFilter, SetPublisherFilter method [COM+], SetPublisherFilter method [COM+],IEventControl interface, _cos_IEventControl_SetPublisherFilter, cos.ieventcontrol_setpublisherfilter, eventsys/IEventControl::SetPublisherFilter
 ms.prod: windows
 ms.technology: windows-sdk

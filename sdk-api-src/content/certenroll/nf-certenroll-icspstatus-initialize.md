@@ -7,7 +7,7 @@ old-location: security\icspstatus_initialize.htm
 old-project: seccertenroll
 ms.assetid: dc5f92e8-29fe-474c-bf1d-c6d7716abce1
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICspStatus interface [Security],Initialize method, ICspStatus.Initialize, ICspStatus::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICspStatus interface, certenroll/ICspStatus::Initialize, security.icspstatus_initialize
 ms.prod: windows
 ms.technology: windows-sdk

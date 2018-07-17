@@ -7,7 +7,7 @@ old-location: mscs\clusresgroups_createitem.htm
 old-project: mscs
 ms.assetid: 1b43a7d4-db08-402d-9910-464ba3ea8d18
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResGroups collection [Failover Cluster],CreateItem method, ClusResGroups.CreateItem, CreateItem, CreateItem method [Failover Cluster], CreateItem method [Failover Cluster],ClusResGroups collection, ISClusResGroups.CreateItem, ISClusResGroups::CreateItem, _wolf_clusresgroups.createitem, mscs.clusresgroups_createitem
 ms.prod: windows
 ms.technology: windows-sdk

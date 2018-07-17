@@ -7,7 +7,7 @@ old-location: shell\IRegTreeItem.htm
 old-project: shell
 ms.assetid: a9ae0fb3-4a6e-473e-9fa3-d3894834fb72
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IRegTreeItem, IRegTreeItem interface [Windows Shell], IRegTreeItem interface [Windows Shell],described, _win32_IRegTreeItem, shell.IRegTreeItem, shobjidl_core/IRegTreeItem
 ms.prod: windows
 ms.technology: windows-sdk

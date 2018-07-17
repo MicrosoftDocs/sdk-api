@@ -2,7 +2,7 @@
 UID: NA:functiondiscoveryconstraints
 ms.assetid: 0945fe1d-ffe0-38e9-a536-90a546cd6b90
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

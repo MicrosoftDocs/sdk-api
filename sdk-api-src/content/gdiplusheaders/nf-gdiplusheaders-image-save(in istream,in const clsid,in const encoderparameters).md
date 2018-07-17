@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_Save_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\imagesavemethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Image.Save, Image.Save(IN IStream,IN const CLSID,IN const EncoderParameters), Image::Save, Image::Save(IN IStream,IN const CLSID,IN const EncoderParameters), Save, Save methods [GDI+], _gdiplus_CLASS_Image_Save_Methods, gdiplus._gdiplus_CLASS_Image_Save_Methods, gdiplusheaders/Save
 ms.prod: windows
 ms.technology: windows-sdk

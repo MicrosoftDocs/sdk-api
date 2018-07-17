@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_getbufferingtime.htm
 old-project: wmformat
 ms.assetid: a3f35230-363c-48e7-bef9-b92e0b50b978
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: GetBufferingTime, GetBufferingTime method [windows Media Format], GetBufferingTime method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetBufferingTime method, IWMReaderNetworkConfig.GetBufferingTime, IWMReaderNetworkConfig::GetBufferingTime, IWMReaderNetworkConfigGetBufferingTime, wmformat.iwmreadernetworkconfig_getbufferingtime, wmsdkidl/IWMReaderNetworkConfig::GetBufferingTime
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_CHANGER_READ_ELEMENT_STATUS"
 author: windows-sdk-content
 description: Contains information that the IOCTL_CHANGER_GET_ELEMENT_STATUS control code needs to determine the elements whose status is to be retrieved.
 old-location: base\changer_read_element_status_str.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 4eefc457-ba39-4025-98c8-21f599a87fcb
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: "*PCHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS structure, PCHANGER_READ_ELEMENT_STATUS, PCHANGER_READ_ELEMENT_STATUS structure pointer, _CHANGER_READ_ELEMENT_STATUS, _win32_changer_read_element_status_str, base.changer_read_element_status_str, winioctl/CHANGER_READ_ELEMENT_STATUS, winioctl/PCHANGER_READ_ELEMENT_STATUS"
 ms.prod: windows
 ms.technology: windows-sdk

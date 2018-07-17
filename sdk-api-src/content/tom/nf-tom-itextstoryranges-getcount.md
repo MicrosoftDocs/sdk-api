@@ -4,10 +4,10 @@ title: ITextStoryRanges::GetCount
 author: windows-sdk-content
 description: Retrieves the number of stories in the specified stories collection.
 old-location: controls\ITextStoryRanges_GetCount.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getcount.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: GetCount, GetCount method [Windows Controls], GetCount method [Windows Controls],ITextStoryRanges interface, ITextStoryRanges interface [Windows Controls],GetCount method, ITextStoryRanges.GetCount, ITextStoryRanges::GetCount, _win32_ITextStoryRanges_GetCount, _win32_ITextStoryRanges_GetCount_cpp, controls.ITextStoryRanges_GetCount, controls._win32_ITextStoryRanges_GetCount, tom/ITextStoryRanges::GetCount
 ms.prod: windows
 ms.technology: windows-sdk

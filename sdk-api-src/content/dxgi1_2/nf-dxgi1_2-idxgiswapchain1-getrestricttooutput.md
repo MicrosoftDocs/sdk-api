@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain1_getrestricttooutput.htm
 old-project: direct3ddxgi
 ms.assetid: 024176FA-BD3B-4410-9342-B8FA2C5B18F6
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: GetRestrictToOutput, GetRestrictToOutput method [DXGI], GetRestrictToOutput method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetRestrictToOutput method, IDXGISwapChain1.GetRestrictToOutput, IDXGISwapChain1::GetRestrictToOutput, direct3ddxgi.idxgiswapchain1_getrestricttooutput, dxgi1_2/IDXGISwapChain1::GetRestrictToOutput
 ms.prod: windows
 ms.technology: windows-sdk

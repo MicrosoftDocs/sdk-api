@@ -7,7 +7,7 @@ old-location: security\ix509publickey_initializefromencodedpublickeyinfo_method.
 old-project: seccertenroll
 ms.assetid: 3e92d934-1ab7-4f09-a579-0dde4ef44c7f
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509PublicKey interface [Security],InitializeFromEncodedPublicKeyInfo method, IX509PublicKey.InitializeFromEncodedPublicKeyInfo, IX509PublicKey::InitializeFromEncodedPublicKeyInfo, InitializeFromEncodedPublicKeyInfo, InitializeFromEncodedPublicKeyInfo method [Security], InitializeFromEncodedPublicKeyInfo method [Security],IX509PublicKey interface, certenroll/IX509PublicKey::InitializeFromEncodedPublicKeyInfo, security.ix509publickey_initializefromencodedpublickeyinfo_method
 ms.prod: windows
 ms.technology: windows-sdk

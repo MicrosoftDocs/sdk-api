@@ -7,7 +7,7 @@ old-location: mscs\clusresource_changeresourcegroup.htm
 old-project: mscs
 ms.assetid: c272144f-f417-4ea5-8147-4f7bd02170b7
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ChangeResourceGroup, ChangeResourceGroup method [Failover Cluster], ChangeResourceGroup method [Failover Cluster],ClusResource class, ClusResource class [Failover Cluster],ChangeResourceGroup method, ClusResource.ChangeResourceGroup, ISClusResource.ChangeResourceGroup, ISClusResource::ChangeResourceGroup, _wolf_clusresource.changeresourcegroup, mscs.clusresource_changeresourcegroup
 ms.prod: windows
 ms.technology: windows-sdk

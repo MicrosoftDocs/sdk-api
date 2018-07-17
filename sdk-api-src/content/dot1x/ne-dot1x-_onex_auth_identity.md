@@ -4,10 +4,10 @@ title: "_ONEX_AUTH_IDENTITY"
 author: windows-sdk-content
 description: Specifies the possible values of the identity used for 802.1X authentication status.
 old-location: nwifi\onex_auth_identity.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: c51ab620-7e44-4798-8206-8ae9bbcd6614
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ONEX_AUTH_IDENTITY, ONEX_AUTH_IDENTITY enumeration [NativeWIFI], OneXAuthIdentityExplicitUser, OneXAuthIdentityGuest, OneXAuthIdentityInvalid, OneXAuthIdentityMachine, OneXAuthIdentityNone, OneXAuthIdentityUser, PONEX_AUTH_IDENTITY, PONEX_AUTH_IDENTITY enumeration pointer [NativeWIFI], _ONEX_AUTH_IDENTITY, dot1x/ONEX_AUTH_IDENTITY, dot1x/OneXAuthIdentityExplicitUser, dot1x/OneXAuthIdentityGuest, dot1x/OneXAuthIdentityInvalid, dot1x/OneXAuthIdentityMachine, dot1x/OneXAuthIdentityNone, dot1x/OneXAuthIdentityUser, dot1x/PONEX_AUTH_IDENTITY, nwifi.onex_auth_identity
 ms.prod: windows
 ms.technology: windows-sdk

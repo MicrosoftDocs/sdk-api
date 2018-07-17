@@ -2,13 +2,13 @@
 UID: NA:wnvapi
 ms.assetid: f882ce4a-20d7-339b-9fcd-bc37cfd92d99
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wnv
 archived: true
+tech.root: wnv
 ---
 
 # Wnvapi.h header

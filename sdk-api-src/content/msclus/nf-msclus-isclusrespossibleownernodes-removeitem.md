@@ -7,7 +7,7 @@ old-location: mscs\clusrespossibleownernodes_removeitem.htm
 old-project: mscs
 ms.assetid: f6018dd5-7cfc-4d1f-bb2f-23c87c671349
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResPossibleOwnerNodes class [Failover Cluster],RemoveItem method, ClusResPossibleOwnerNodes.RemoveItem, ISClusResPossibleOwnerNodes.RemoveItem, ISClusResPossibleOwnerNodes::RemoveItem, RemoveItem, RemoveItem method [Failover Cluster], RemoveItem method [Failover Cluster],ClusResPossibleOwnerNodes class, _wolf_clusrespossibleownernodes.removeitem, mscs.clusrespossibleownernodes_removeitem
 ms.prod: windows
 ms.technology: windows-sdk

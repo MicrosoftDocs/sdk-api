@@ -4,10 +4,10 @@ title: FlatSB_SetScrollProp function
 author: windows-sdk-content
 description: Sets the properties for a flat scroll bar.
 old-location: controls\FlatSB_SetScrollProp.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_setscrollprop.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: FlatSB_SetScrollProp, FlatSB_SetScrollProp function [Windows Controls], WSB_PROP_CXHSCROLL, WSB_PROP_CXHTHUMB, WSB_PROP_CXVSCROLL, WSB_PROP_CYHSCROLL, WSB_PROP_CYVSCROLL, WSB_PROP_CYVTHUMB, WSB_PROP_HBKGCOLOR, WSB_PROP_HSTYLE, WSB_PROP_PALETTE, WSB_PROP_VBKGCOLOR, WSB_PROP_VSTYLE, _win32_FlatSB_SetScrollProp, _win32_FlatSB_SetScrollProp_cpp, commctrl/FlatSB_SetScrollProp, controls.FlatSB_SetScrollProp, controls._win32_FlatSB_SetScrollProp
 ms.prod: windows
 ms.technology: windows-sdk

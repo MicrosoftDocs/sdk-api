@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_put_width.htm
 old-project: DirectShow
 ms.assetid: 7cb02033-0405-4b8b-91fc-2f33097f2c88
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_Width method, IVideoWindow.put_Width, IVideoWindow::put_Width, IVideoWindowput_Width, control/IVideoWindow::put_Width, dshow.ivideowindow_put_width, put_Width, put_Width method [DirectShow], put_Width method [DirectShow],IVideoWindow interface
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winrt\rogetserveractivatableclasses.htm
 old-project: WinRT
 ms.assetid: 845AC938-DE04-4151-8500-B8657234201C
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/13/2018
 ms.keywords: RoGetServerActivatableClasses, RoGetServerActivatableClasses function [Windows Runtime], roregistrationapi/RoGetServerActivatableClasses, winrt.rogetserveractivatableclasses
 ms.prod: windows
 ms.technology: windows-sdk

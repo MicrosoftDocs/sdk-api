@@ -4,10 +4,10 @@ title: ImageList_Read function
 author: windows-sdk-content
 description: Reads an image list from a stream.
 old-location: controls\ImageList_Read.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_read.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ImageList_Read, ImageList_Read function [Windows Controls], _win32_ImageList_Read, _win32_ImageList_Read_cpp, commctrl/ImageList_Read, controls.ImageList_Read, controls._win32_ImageList_Read
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\ICDBurnExt_GetSupportedActionTypes.htm
 old-project: shell
 ms.assetid: 46d0fe58-b8aa-42a8-811e-9762185bb8cc
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: CDBE_TYPE_ALL, CDBE_TYPE_DATA, CDBE_TYPE_MUSIC, GetSupportedActionTypes, GetSupportedActionTypes method [Windows Shell], GetSupportedActionTypes method [Windows Shell],ICDBurnExt interface, ICDBurnExt interface [Windows Shell],GetSupportedActionTypes method, ICDBurnExt.GetSupportedActionTypes, ICDBurnExt::GetSupportedActionTypes, _shell_ICDBurnExt_GetSupportedActionTypes, shell.ICDBurnExt_GetSupportedActionTypes, shobjidl/ICDBurnExt::GetSupportedActionTypes
 ms.prod: windows
 ms.technology: windows-sdk

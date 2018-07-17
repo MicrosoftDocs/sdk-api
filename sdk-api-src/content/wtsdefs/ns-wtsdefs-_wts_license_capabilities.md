@@ -4,10 +4,10 @@ title: "_WTS_LICENSE_CAPABILITIES"
 author: windows-sdk-content
 description: Contains information about the licensing capabilities of the client.
 old-location: termserv\wts_license_capabilities.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 975a534e-03f1-4c8f-9de1-42144e31c8cb
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*PWTS_LICENSE_CAPABILITIES, PWRDS_LICENSE_CAPABILITIES, PWRDS_LICENSE_CAPABILITIES structure pointer [Remote Desktop Services], PWTS_LICENSE_CAPABILITIES, PWTS_LICENSE_CAPABILITIES structure pointer [Remote Desktop Services], WRDS_LICENSE_CAPABILITIES, WRDS_LICENSE_CAPABILITIES structure [Remote Desktop Services], WTS_KEY_EXCHANGE_ALG_DH, WTS_KEY_EXCHANGE_ALG_RSA, WTS_LICENSE_CAPABILITIES, WTS_LICENSE_CAPABILITIES structure [Remote Desktop Services], _WTS_LICENSE_CAPABILITIES, termserv.wts_license_capabilities, wtsdefs/PWRDS_LICENSE_CAPABILITIES, wtsdefs/PWTS_LICENSE_CAPABILITIES, wtsdefs/WRDS_LICENSE_CAPABILITIES, wtsdefs/WTS_LICENSE_CAPABILITIES"
 ms.prod: windows
 ms.technology: windows-sdk

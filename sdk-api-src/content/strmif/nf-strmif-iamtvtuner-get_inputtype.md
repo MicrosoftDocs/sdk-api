@@ -7,7 +7,7 @@ old-location: dshow\iamtvtuner_get_inputtype.htm
 old-project: DirectShow
 ms.assetid: 49763cc3-be8b-4620-b99f-af787844c97c
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_InputType method, IAMTVTuner.get_InputType, IAMTVTuner::get_InputType, IAMTVTunerget_InputType, dshow.iamtvtuner_get_inputtype, get_InputType, get_InputType method [DirectShow], get_InputType method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_InputType
 ms.prod: windows
 ms.technology: windows-sdk

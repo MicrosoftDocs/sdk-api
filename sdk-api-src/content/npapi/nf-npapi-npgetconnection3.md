@@ -4,10 +4,10 @@ title: NPGetConnection3 function
 author: windows-sdk-content
 description: Retrieves information about a network connection, even if it is currently disconnected.
 old-location: security\npgetconnection3.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 6beb0a9e-4f32-4e83-be78-858185b30521
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: NPGetConnection3, NPGetConnection3 function [Security], WNGETCON_CONNECTED, WNGETCON_DISCONNECTED, _mnp_npgetconnection3, npapi/NPGetConnection3, security.npgetconnection3
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: QueryThreadCycleTime function
 author: windows-sdk-content
 description: Retrieves the cycle time for the specified thread.
 old-location: base\querythreadcycletime.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 5828b073-48af-4118-9206-096b87c978e7
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: QueryThreadCycleTime, QueryThreadCycleTime function, base.querythreadcycletime, realtimeapiset/QueryThreadCycleTime, winbase/QueryThreadCycleTime
 ms.prod: windows
 ms.technology: windows-sdk

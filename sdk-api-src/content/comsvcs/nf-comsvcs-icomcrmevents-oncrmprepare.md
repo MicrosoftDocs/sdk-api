@@ -7,7 +7,7 @@ old-location: cos\icomcrmevents_oncrmprepare.htm
 old-project: cossdk
 ms.assetid: 16ecd4a5-6ca6-443d-ab03-f9ceb951ed13
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMPrepare method, IComCRMEvents.OnCRMPrepare, IComCRMEvents::OnCRMPrepare, OnCRMPrepare, OnCRMPrepare method [COM+], OnCRMPrepare method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMPrepare, comsvcs/IComCRMEvents::OnCRMPrepare, cos.icomcrmevents_oncrmprepare
 ms.prod: windows
 ms.technology: windows-sdk

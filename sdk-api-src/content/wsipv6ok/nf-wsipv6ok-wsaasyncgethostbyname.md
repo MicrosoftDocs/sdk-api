@@ -4,10 +4,10 @@ title: WSAAsyncGetHostByName macro
 author: windows-sdk-content
 description: The WSAAsyncGetHostByName function asynchronously retrieves host information that corresponds to a host name.Note  The WSAAsyncGetHostByName function is not designed to provide parallel resolution of several names.
 old-location: winsock\wsaasyncgethostbyname_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 1a2b9c76-6e84-4ac2-b5c1-a2268edd0c49
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WSAAsyncGetHostByName, WSAAsyncGetHostByName function [Winsock], _win32_wsaasyncgethostbyname_2, winsock.wsaasyncgethostbyname_2, wsipv6ok/WSAAsyncGetHostByName
 ms.prod: windows
 ms.technology: windows-sdk

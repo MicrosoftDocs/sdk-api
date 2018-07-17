@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Flatten_matrix_flatness_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\flatten.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Flatten, Flatten method [GDI+], Flatten method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],Flatten method, GraphicsPath.Flatten, GraphicsPath::Flatten, _gdiplus_CLASS_GraphicsPath_Flatten_matrix_flatness_, gdiplus._gdiplus_CLASS_GraphicsPath_Flatten_matrix_flatness_
 ms.prod: windows
 ms.technology: windows-sdk

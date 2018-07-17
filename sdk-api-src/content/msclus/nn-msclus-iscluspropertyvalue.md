@@ -7,7 +7,7 @@ old-location: mscs\cluspropertyvalue_object.htm
 old-project: mscs
 ms.assetid: 6a8ffae6-c4f3-42fb-9703-eeb695902877
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusPropertyValue, ClusPropertyValue object [Failover Cluster], ClusPropertyValue object [Failover Cluster],described, ISClusPropertyValue, _wolf_cluspropertyvalue_object, msclus/ClusPropertyValue, mscs.cluspropertyvalue_object
 ms.prod: windows
 ms.technology: windows-sdk

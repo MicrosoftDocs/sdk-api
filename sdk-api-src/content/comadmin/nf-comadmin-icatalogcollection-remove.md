@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_remove.htm
 old-project: cossdk
 ms.assetid: 984f60b1-0963-482c-90a3-563e8699f73d
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: ICatalogCollection interface [COM+],Remove method, ICatalogCollection.Remove, ICatalogCollection::Remove, Remove, Remove method [COM+], Remove method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_Remove, comadmin/ICatalogCollection::Remove, cos.icatalogcollection_remove
 ms.prod: windows
 ms.technology: windows-sdk

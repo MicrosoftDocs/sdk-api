@@ -4,10 +4,10 @@ title: ICertRequest3::GetIssuedCertificate2
 author: windows-sdk-content
 description: Retrieves a certificate's disposition by specifying either the request ID string or the certificate serial number.
 old-location: security\icertrequest3_getissuedcertificate2.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: c311acaf-983b-4d61-a674-0fc6b475d212
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CCertRequest object [Security],GetIssuedCertificate2 method, CR_DISP_DENIED, CR_DISP_ERROR, CR_DISP_INCOMPLETE, CR_DISP_ISSUED, CR_DISP_ISSUED_OUT_OF_BAND, CR_DISP_UNDER_SUBMISSION, GetIssuedCertificate2, GetIssuedCertificate2 method [Security], GetIssuedCertificate2 method [Security],CCertRequest object, GetIssuedCertificate2 method [Security],ICertRequest3 class, ICertRequest3 class [Security],GetIssuedCertificate2 method, ICertRequest3.GetIssuedCertificate2, ICertRequest3::GetIssuedCertificate2, certcli/ICertRequest3::GetIssuedCertificate2, security.icertrequest3_getissuedcertificate2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\ix509namevaluepairs_remove_method.htm
 old-project: seccertenroll
 ms.assetid: f66dbfd1-331f-4e1b-a17e-f8071044d073
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509NameValuePairs interface [Security],Remove method, IX509NameValuePairs.Remove, IX509NameValuePairs::Remove, Remove, Remove method [Security], Remove method [Security],IX509NameValuePairs interface, certenroll/IX509NameValuePairs::Remove, security.ix509namevaluepairs_remove_method
 ms.prod: windows
 ms.technology: windows-sdk

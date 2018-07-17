@@ -4,10 +4,10 @@ title: IFsrmPropertyCondition::get_Type
 author: windows-sdk-content
 description: The comparison operator used to determine whether the property condition is met.
 old-location: fsrm\ifsrmpropertycondition_type.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 2cec0753-20ec-4df4-9a74-c65bfed28070
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IFsrmPropertyCondition interface [File Server Resource Manager],Type property, IFsrmPropertyCondition.Type, IFsrmPropertyCondition.get_Type, IFsrmPropertyCondition::Type, IFsrmPropertyCondition::get_Type, IFsrmPropertyCondition::put_Type, Type property [File Server Resource Manager], Type property [File Server Resource Manager],IFsrmPropertyCondition interface, fs.ifsrmpropertycondition_type, fsrm.ifsrmpropertycondition_type, fsrmreports/IFsrmPropertyCondition::Type, fsrmreports/IFsrmPropertyCondition::get_Type, fsrmreports/IFsrmPropertyCondition::put_Type, get_Type
 ms.prod: windows
 ms.technology: windows-sdk

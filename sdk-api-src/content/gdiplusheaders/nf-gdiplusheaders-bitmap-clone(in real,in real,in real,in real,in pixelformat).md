@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_Clone_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\bitmapclonemethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Bitmap.Clone, Bitmap.Clone(IN REAL,IN REAL,IN REAL,IN REAL,IN PixelFormat), Bitmap::Clone, Bitmap::Clone(IN REAL,IN REAL,IN REAL,IN REAL,IN PixelFormat), Clone, Clone methods [GDI+], _gdiplus_CLASS_Bitmap_Clone_Methods, gdiplus._gdiplus_CLASS_Bitmap_Clone_Methods, gdiplusheaders/Clone
 ms.prod: windows
 ms.technology: windows-sdk

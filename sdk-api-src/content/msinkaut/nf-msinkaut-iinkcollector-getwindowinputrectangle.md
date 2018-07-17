@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_getwindowinputrectangle.htm
 old-project: tablet
 ms.assetid: 0f47b4c7-7ba1-44a6-8f62-9e97c318bd2c
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: 0f47b4c7-7ba1-44a6-8f62-9e97c318bd2c, GetWindowInputRectangle, GetWindowInputRectangle method [Tablet PC], GetWindowInputRectangle method [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],GetWindowInputRectangle method, IInkCollector.GetWindowInputRectangle, IInkCollector::GetWindowInputRectangle, msinkaut/IInkCollector::GetWindowInputRectangle, tablet.inkcollector_getwindowinputrectangle
 ms.prod: windows
 ms.technology: windows-sdk

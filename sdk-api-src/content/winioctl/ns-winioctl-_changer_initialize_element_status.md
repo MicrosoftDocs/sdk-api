@@ -4,10 +4,10 @@ title: "_CHANGER_INITIALIZE_ELEMENT_STATUS"
 author: windows-sdk-content
 description: Represents the status of all media changer elements or the specified elements of a particular type.
 old-location: base\changer_initialize_element_status_str.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 593df7e3-dd2b-4ba9-b7a0-ed6ea06586ba
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: "*PCHANGER_INITIALIZE_ELEMENT_STATUS, CHANGER_INITIALIZE_ELEMENT_STATUS, CHANGER_INITIALIZE_ELEMENT_STATUS structure, PCHANGER_INITIALIZE_ELEMENT_STATUS, PCHANGER_INITIALIZE_ELEMENT_STATUS structure pointer, _CHANGER_INITIALIZE_ELEMENT_STATUS, _win32_changer_initialize_element_status_str, base.changer_initialize_element_status_str, winioctl/CHANGER_INITIALIZE_ELEMENT_STATUS, winioctl/PCHANGER_INITIALIZE_ELEMENT_STATUS"
 ms.prod: windows
 ms.technology: windows-sdk

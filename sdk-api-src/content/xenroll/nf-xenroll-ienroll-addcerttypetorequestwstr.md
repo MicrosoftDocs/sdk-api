@@ -4,10 +4,10 @@ title: IEnroll::AddCertTypeToRequestWStr
 author: windows-sdk-content
 description: Adds a certificate template to a request (used to support the enterprise certification authority (CA)).
 old-location: security\ienroll4_addcerttypetorequestwstr.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: d9bf51db-375e-4230-953c-d9893228d7e1
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: AddCertTypeToRequestWStr, AddCertTypeToRequestWStr method [Security], AddCertTypeToRequestWStr method [Security],IEnroll interface, IEnroll interface [Security],AddCertTypeToRequestWStr method, IEnroll.AddCertTypeToRequestWStr, IEnroll::AddCertTypeToRequestWStr, security.ienroll4_addcerttypetorequestwstr, xenroll/IEnroll::AddCertTypeToRequestWStr
 ms.prod: windows
 ms.technology: windows-sdk

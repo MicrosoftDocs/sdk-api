@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawArc_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawarcmethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: DrawArc, DrawArc methods [GDI+], Graphics.DrawArc, Graphics::DrawArc, _gdiplus_CLASS_Graphics_DrawArc_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawArc_Methods, gdiplusgraphics/DrawArc
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,13 +2,13 @@
 UID: NA:mileffects
 ms.assetid: 3373afd5-dd48-30e0-bb2b-7f6588fc84a0
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wibe
 archived: true
+tech.root: wibe
 ---
 
 # Mileffects.h header

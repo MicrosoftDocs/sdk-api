@@ -4,10 +4,10 @@ title: IAudioEndpointControl::Start
 author: windows-sdk-content
 description: Starts the endpoint stream.
 old-location: termserv\iaudioendpointcontrol_start.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: d9b54618-9750-49be-a966-1a2f02c81af6
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IAudioEndpointControl interface [Remote Desktop Services],Start method, IAudioEndpointControl.Start, IAudioEndpointControl::Start, Start, Start method [Remote Desktop Services], Start method [Remote Desktop Services],IAudioEndpointControl interface, audioengineendpoint/IAudioEndpointControl::Start, termserv.iaudioendpointcontrol_start
 ms.prod: windows
 ms.technology: windows-sdk

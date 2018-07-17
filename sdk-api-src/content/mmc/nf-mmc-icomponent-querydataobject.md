@@ -7,7 +7,7 @@ old-location: mmc\icomponent_querydataobject.htm
 old-project: mmc
 ms.assetid: 5bdbd321-4245-4c73-9071-1a9bc3853ba5
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: CCT_RESULT = 0x8001, CCT_SCOPE = 0x8000, CCT_SNAPIN_MANAGER = 0x8002, CCT_UNINITIALIZED = 0xFFFF, IComponent interface [MMC],QueryDataObject method, IComponent.QueryDataObject, IComponent::QueryDataObject, QueryDataObject, QueryDataObject method [MMC], QueryDataObject method [MMC],IComponent interface, _slate_icomponent_querydataobject, mmc.icomponent_querydataobject, mmc/IComponent::QueryDataObject
 ms.prod: windows
 ms.technology: windows-sdk

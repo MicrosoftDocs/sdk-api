@@ -7,7 +7,7 @@ old-location: shell\ExtractIcon.htm
 old-project: shell
 ms.assetid: a0314423-79d6-416e-8be0-be946477da3e
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: ExtractIcon, ExtractIcon function [Windows Shell], ExtractIconA, ExtractIconW, _shell_ExtractIcon, shell.ExtractIcon, shellapi/ExtractIcon, shellapi/ExtractIconA, shellapi/ExtractIconW
 ms.prod: windows
 ms.technology: windows-sdk

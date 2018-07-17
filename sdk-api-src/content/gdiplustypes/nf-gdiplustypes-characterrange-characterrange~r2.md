@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_CharacterRange_CharacterRange_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrangeclass\characterrangeconstructors\characterrange_54.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: CharacterRange, CharacterRange class [GDI+],CharacterRange constructor, CharacterRange constructor [GDI+], CharacterRange constructor [GDI+],CharacterRange class, CharacterRange.CharacterRange, CharacterRange.CharacterRange(), CharacterRange.CharacterRange~r2, CharacterRange::CharacterRange, CharacterRange::CharacterRange~r2, _gdiplus_CLASS_CharacterRange_CharacterRange_, gdiplus._gdiplus_CLASS_CharacterRange_CharacterRange_
 ms.prod: windows
 ms.technology: windows-sdk

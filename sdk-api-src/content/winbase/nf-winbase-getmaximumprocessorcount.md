@@ -4,10 +4,10 @@ title: GetMaximumProcessorCount function
 author: windows-sdk-content
 description: Returns the maximum number of logical processors that a processor group or the system can have.
 old-location: base\getmaximumprocessorcount.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 71ce4fb4-ef63-4750-a842-bbfb1a5b0543
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: GetMaximumProcessorCount, GetMaximumProcessorCount function, base.getmaximumprocessorcount, winbase/GetMaximumProcessorCount
 ms.prod: windows
 ms.technology: windows-sdk

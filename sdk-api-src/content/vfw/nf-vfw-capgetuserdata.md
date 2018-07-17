@@ -7,7 +7,7 @@ old-location: multimedia\capgetuserdata.htm
 old-project: Multimedia
 ms.assetid: a71afead-9beb-48d0-9e7f-d948e0fe276f
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/13/2018
 ms.keywords: "_win32_capGetUserData, capGetUserData, capGetUserData macro [Windows Multimedia], multimedia.capgetuserdata, vfw/capGetUserData"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_WSANSClassInfoW"
 author: windows-sdk-content
 description: The WSANSCLASSINFO structure provides individual parameter information for a specific Windows Sockets namespace.
 old-location: winsock\wsansclassinfo.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: b4f811ad-7967-45bd-b563-a28bb1633596
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*LPWSANSCLASSINFOW, *PWSANSCLASSINFO,*LPWSANSCLASSINFO, *PWSANSCLASSINFO,*LPWSANSCLASSINFO structure [Winsock], *PWSANSCLASSINFOW, WSANSCLASSINFO, WSANSCLASSINFO structure [Winsock], WSANSCLASSINFOW, _WSANSClassInfoW, winsock.wsansclassinfo, winsock2/*PWSANSCLASSINFO,*LPWSANSCLASSINFO, winsock2/WSANSCLASSINFO"
 ms.prod: windows
 ms.technology: windows-sdk

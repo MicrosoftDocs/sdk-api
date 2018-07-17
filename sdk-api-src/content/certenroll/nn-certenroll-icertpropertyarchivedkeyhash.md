@@ -7,7 +7,7 @@ old-location: security\icertpropertyarchivedkeyhash.htm
 old-project: seccertenroll
 ms.assetid: 06696346-b9d1-4229-991e-539862cff3c9
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICertPropertyArchivedKeyHash, ICertPropertyArchivedKeyHash interface [Security], ICertPropertyArchivedKeyHash interface [Security],described, certenroll/ICertPropertyArchivedKeyHash, security.icertpropertyarchivedkeyhash
 ms.prod: windows
 ms.technology: windows-sdk

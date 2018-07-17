@@ -4,10 +4,10 @@ title: RtwqGetWorkQueueMMCSSPriority function
 author: windows-sdk-content
 description: Gets the relative thread priority of a work queue.
 old-location: base\rtwqgetworkqueuemmcsspriority.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: c9f18299-bd0a-4c1c-acc0-2cc8bc84aa82
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: RtwqGetWorkQueueMMCSSPriority, RtwqGetWorkQueueMMCSSPriority function, base.rtwqgetworkqueuemmcsspriority, rtworkq/RtwqGetWorkQueueMMCSSPriority
 ms.prod: windows
 ms.technology: windows-sdk

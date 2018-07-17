@@ -7,7 +7,7 @@ old-location: shell\UIntPtrSub.htm
 old-project: shell
 ms.assetid: 629bc700-ca64-4849-bdad-59e67857ff8d
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: UIntPtrSub, UIntPtrSub function [Windows Shell], _shell_UIntPtrSub, intsafe/UIntPtrSub, shell.UIntPtrSub
 ms.prod: windows
 ms.technology: windows-sdk

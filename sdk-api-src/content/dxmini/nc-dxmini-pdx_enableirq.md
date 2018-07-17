@@ -7,7 +7,7 @@ old-location: display\dxenableirq.htm
 old-project: display
 ms.assetid: 31762a21-e604-4c95-b46c-224b39ab5ac8
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/12/2018
 ms.keywords: DxEnableIRQ, DxEnableIRQ callback function [Display Devices], PDX_ENABLEIRQ, PDX_ENABLEIRQ callback, VideoMiniPort_DxApiFunctions_9ef73159-8915-4534-881d-3dcdb9c13369.xml, display.dxenableirq, dxmini/DxEnableIRQ
 ms.prod: windows
 ms.technology: windows-sdk

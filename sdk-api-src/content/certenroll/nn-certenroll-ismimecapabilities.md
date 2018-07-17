@@ -7,7 +7,7 @@ old-location: security\ismimecapabilities.htm
 old-project: seccertenroll
 ms.assetid: f9750b68-9d35-4594-96fc-2fbd54a87dcc
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ISmimeCapabilities, ISmimeCapabilities interface [Security], ISmimeCapabilities interface [Security],described, certenroll/ISmimeCapabilities, security.ismimecapabilities
 ms.prod: windows
 ms.technology: windows-sdk

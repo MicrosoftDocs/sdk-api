@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_GetDashPatternCount_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getdashpatterncount.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: GetDashPatternCount, GetDashPatternCount method [GDI+], GetDashPatternCount method [GDI+],Pen class, Pen class [GDI+],GetDashPatternCount method, Pen.GetDashPatternCount, Pen::GetDashPatternCount, _gdiplus_CLASS_Pen_GetDashPatternCount_, gdiplus._gdiplus_CLASS_Pen_GetDashPatternCount_
 ms.prod: windows
 ms.technology: windows-sdk

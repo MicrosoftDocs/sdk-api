@@ -4,10 +4,10 @@ title: ITextPara::SetPageBreakBefore
 author: windows-sdk-content
 description: Controls whether there is a page break before each paragraph in a range.
 old-location: controls\ITextPara_SetPageBreakBefore.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setpagebreakbefore.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ITextPara interface [Windows Controls],SetPageBreakBefore method, ITextPara.SetPageBreakBefore, ITextPara::SetPageBreakBefore, SetPageBreakBefore, SetPageBreakBefore method [Windows Controls], SetPageBreakBefore method [Windows Controls],ITextPara interface, _win32_ITextPara_SetPageBreakBefore, _win32_ITextPara_SetPageBreakBefore_cpp, controls.ITextPara_SetPageBreakBefore, controls._win32_ITextPara_SetPageBreakBefore, tom/ITextPara::SetPageBreakBefore
 ms.prod: windows
 ms.technology: windows-sdk

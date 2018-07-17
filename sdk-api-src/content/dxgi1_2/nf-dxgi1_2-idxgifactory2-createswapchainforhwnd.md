@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory2_createswapchain1.htm
 old-project: direct3ddxgi
 ms.assetid: B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: CreateSwapChainForHwnd, CreateSwapChainForHwnd method [DXGI], CreateSwapChainForHwnd method [DXGI],IDXGIFactory2 interface, IDXGIFactory2 interface [DXGI],CreateSwapChainForHwnd method, IDXGIFactory2.CreateSwapChainForHwnd, IDXGIFactory2::CreateSwapChainForHwnd, direct3ddxgi.idxgifactory2_createswapchain1, dxgi1_2/IDXGIFactory2::CreateSwapChainForHwnd
 ms.prod: windows
 ms.technology: windows-sdk

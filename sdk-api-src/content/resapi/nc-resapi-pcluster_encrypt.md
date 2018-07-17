@@ -7,8 +7,8 @@ old-location: mscs\clusterencrypt.htm
 old-project: mscs
 ms.assetid: 5C15E553-D6C6-47F7-B6DE-E7CA4795CA87
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PCLUSTER_ENCRYPT, PCLUSTER_ENCRYPT callback, PCLUSTER_ENCRYPT callback function [Failover Cluster], mscs.clusterencrypt, resapi/PCLUSTER_ENCRYPT
+ms.date: 07/12/2018
+ms.keywords: ClusterEncrypt, ClusterEncrypt function [Failover Cluster], PCLUSTER_ENCRYPT, PCLUSTER_ENCRYPT function [Failover Cluster], mscs.clusterencrypt, resapi/ClusterEncrypt, resapi/PCLUSTER_ENCRYPT
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -32,15 +32,15 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - UserDefined
+ - DllExport
 api_location:
- - ResApi.h
+ - ResUtils.dll
 api_name:
- - PCLUSTER_ENCRYPT
+ - ClusterEncrypt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
 req.irql: 
 req.product: ADAM
 ---

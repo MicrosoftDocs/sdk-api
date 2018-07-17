@@ -4,10 +4,10 @@ title: "_PWM_PIN_GET_POLARITY_OUTPUT"
 author: windows-sdk-content
 description: Contains a polarity value to return.
 old-location: base\pwm_pin_get_polarity_output.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 432C10EF-AC08-4781-9BCA-A31E0DF12704
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: PWM_PIN_GET_POLARITY_OUTPUT, PWM_PIN_GET_POLARITY_OUTPUT structure, _PWM_PIN_GET_POLARITY_OUTPUT, base.pwm_pin_get_polarity_output, pwm/PWM_PIN_GET_POLARITY_OUTPUT
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ListView_GetGroupMetrics macro
 author: windows-sdk-content
 description: Gets information about the display of groups. You can use this macro or send the LVM_GETGROUPMETRICS message explicitly.
 old-location: controls\ListView_GetGroupMetrics.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupmetrics.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ListView_GetGroupMetrics, ListView_GetGroupMetrics macro [Windows Controls], _win32_ListView_GetGroupMetrics, _win32_ListView_GetGroupMetrics_cpp, commctrl/ListView_GetGroupMetrics, controls.ListView_GetGroupMetrics, controls._win32_ListView_GetGroupMetrics
 ms.prod: windows
 ms.technology: windows-sdk

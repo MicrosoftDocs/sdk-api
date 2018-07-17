@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_Constructors.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Bitmap, Bitmap constructors [GDI+], Bitmap.Bitmap, Bitmap.Bitmap(IN INT,IN INT,IN Graphics), Bitmap::Bitmap, Bitmap::Bitmap(IN INT,IN INT,IN Graphics), _gdiplus_CLASS_Bitmap_Constructors, gdiplus._gdiplus_CLASS_Bitmap_Constructors, gdiplusheaders/Bitmap
 ms.prod: windows
 ms.technology: windows-sdk

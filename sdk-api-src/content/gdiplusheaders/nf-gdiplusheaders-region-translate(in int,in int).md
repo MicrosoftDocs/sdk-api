@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Translate_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regiontranslatemethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Region.Translate, Region.Translate(IN INT,IN INT), Region::Translate, Region::Translate(IN INT,IN INT), Translate, Translate methods [GDI+], _gdiplus_CLASS_Region_Translate_Methods, gdiplus._gdiplus_CLASS_Region_Translate_Methods, gdiplusheaders/Translate
 ms.prod: windows
 ms.technology: windows-sdk

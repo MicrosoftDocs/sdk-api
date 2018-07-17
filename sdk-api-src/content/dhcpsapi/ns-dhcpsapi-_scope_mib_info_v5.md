@@ -4,10 +4,10 @@ title: "_SCOPE_MIB_INFO_V5"
 author: windows-sdk-content
 description: Contains information about a specific DHCP scope.
 old-location: dhcp\scope_mib_info_v5.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: 5144d83e-f21e-4f68-bf33-c7245b31da01
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: "*LPSCOPE_MIB_INFO_V5, LPSCOPE_MIB_INFO_V5, LPSCOPE_MIB_INFO_V5 structure pointer [DHCP], SCOPE_MIB_INFO_V5, SCOPE_MIB_INFO_V5 structure [DHCP], _SCOPE_MIB_INFO_V5, dhcp.scope_mib_info_v5, dhcpsapi/LPSCOPE_MIB_INFO_V5, dhcpsapi/SCOPE_MIB_INFO_V5"
 ms.prod: windows
 ms.technology: windows-sdk

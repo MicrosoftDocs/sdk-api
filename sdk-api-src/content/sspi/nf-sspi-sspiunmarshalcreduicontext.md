@@ -4,10 +4,10 @@ title: SspiUnmarshalCredUIContext function
 author: windows-sdk-content
 description: Deserializes credential information obtained by a credential provider during a previous call to the ICredentialProvider::SetSerialization method.
 old-location: security\sspiunmarshalcreduicontext.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: c8861b27-d42d-4f7f-96c7-718f23fbaf86
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: SspiUnmarshalCredUIContext, SspiUnmarshalCredUIContext function [Security], security.sspiunmarshalcreduicontext, sspi/SspiUnmarshalCredUIContext
 ms.prod: windows
 ms.technology: windows-sdk

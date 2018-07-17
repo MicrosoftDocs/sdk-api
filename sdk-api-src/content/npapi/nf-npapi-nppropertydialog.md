@@ -4,10 +4,10 @@ title: NPPropertyDialog function
 author: windows-sdk-content
 description: Called when the user clicks a button added by using the NPPropertyDialog function. The NPPropertyDialog function is called only for file and directory network properties.
 old-location: security\nppropertydialog.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 856057f3-2746-4c1e-89a6-6d4e06d0e353
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: NPPropertyDialog, NPPropertyDialog function [Security], WNPS_DIR, WNPS_FILE, WNPS_MULT, _mnp_nppropertydialog, npapi/NPPropertyDialog, security.nppropertydialog
 ms.prod: windows
 ms.technology: windows-sdk

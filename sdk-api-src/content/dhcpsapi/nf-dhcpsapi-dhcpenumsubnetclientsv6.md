@@ -4,10 +4,10 @@ title: DhcpEnumSubnetClientsV6 function
 author: windows-sdk-content
 description: The DhcpEnumSubnetClientsV6 function returns an enumerated list of clients with served IP addresses in the specified subnet.
 old-location: dhcp\dhcpenumsubnetclientsv6.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: 501a9cd4-56ff-4b56-9d08-83cb29932ef7
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DhcpEnumSubnetClientsV6, DhcpEnumSubnetClientsV6 function [DHCP], dhcp.dhcpenumsubnetclientsv6, dhcpsapi/DhcpEnumSubnetClientsV6
 ms.prod: windows
 ms.technology: windows-sdk

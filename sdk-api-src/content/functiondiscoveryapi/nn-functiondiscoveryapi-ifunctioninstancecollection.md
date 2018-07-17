@@ -4,10 +4,10 @@ title: IFunctionInstanceCollection
 author: windows-sdk-content
 description: Represents a group of IFunctionInstance objects returned as the result of a query or get instance request.
 old-location: ncd\ifunctioninstancecollection.htm
-old-project: FunDisc
+old-project: fundisc
 ms.assetid: 8ac1a406-92f3-4e39-985e-ab8fa7d28751
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/12/2018
 ms.keywords: IFunctionInstanceCollection, IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,described, functiondiscoveryapi/IFunctionInstanceCollection, ncd.ifunctioninstancecollection
 ms.prod: windows
 ms.technology: windows-sdk

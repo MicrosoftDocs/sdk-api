@@ -7,7 +7,7 @@ old-location: com\cowaitformultipleobjects.htm
 old-project: com
 ms.assetid: 7A14E4F4-20F0-43FF-8D64-9AAC34B8D56F
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: CoWaitForMultipleObjects, CoWaitForMultipleObjects function [COM], com.cowaitformultipleobjects, combaseapi/CoWaitForMultipleObjects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -35,6 +35,7 @@ api_type:
  - DllExport
 api_location:
  - combase.dll
+ - ole32.dll
  - API-MS-Win-Core-COM-l1-1-0.dll
  - API-MS-Win-Core-COM-l1-1-1.dll
 api_name:
@@ -42,7 +43,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: Combase.dll
+req.dll: Combase.dll; Ole32.dll
 req.irql: 
 ---
 

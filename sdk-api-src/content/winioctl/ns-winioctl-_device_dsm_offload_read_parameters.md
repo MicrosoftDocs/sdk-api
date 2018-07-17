@@ -4,10 +4,10 @@ title: "_DEVICE_DSM_OFFLOAD_READ_PARAMETERS"
 author: windows-sdk-content
 description: Contains parameters for the DeviceDsmAction_OffloadRead action for the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\device_dsm_offload_read_parameters.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 20dd3e5b-90f4-45fc-8cc8-bf9e6d08a026
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: "*PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, DEVICE_DSM_OFFLOAD_READ_PARAMETERS, DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure, PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, PDEVICE_DSM_OFFLOAD_READ_PARAMETERS structure pointer, _DEVICE_DSM_OFFLOAD_READ_PARAMETERS, base.device_dsm_offload_read_parameters, winioctl/DEVICE_DSM_OFFLOAD_READ_PARAMETERS, winioctl/PDEVICE_DSM_OFFLOAD_READ_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk

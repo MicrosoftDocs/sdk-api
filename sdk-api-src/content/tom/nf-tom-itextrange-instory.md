@@ -4,10 +4,10 @@ title: ITextRange::InStory
 author: windows-sdk-content
 description: Determines whether this range's story is the same as a specified range's story.
 old-location: controls\ITextRange_InStory.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\instory.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ITextRange interface [Windows Controls],InStory method, ITextRange.InStory, ITextRange::InStory, InStory, InStory method [Windows Controls], InStory method [Windows Controls],ITextRange interface, _win32_ITextRange_InStory, _win32_ITextRange_InStory_cpp, controls.ITextRange_InStory, controls._win32_ITextRange_InStory, tom/ITextRange::InStory
 ms.prod: windows
 ms.technology: windows-sdk

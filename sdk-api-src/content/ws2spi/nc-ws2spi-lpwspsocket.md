@@ -4,10 +4,10 @@ title: LPWSPSOCKET
 author: windows-sdk-content
 description: The WSPSocket function creates a socket.
 old-location: winsock\wspsocket_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 16735fd1-289d-425a-8ad2-c20d73888b1b
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: LPWSPSOCKET, WSPSocket, WSPSocket function [Winsock], _win32_wspsocket_2, winsock.wspsocket_2, ws2spi/WSPSocket
 ms.prod: windows
 ms.technology: windows-sdk

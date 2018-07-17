@@ -7,7 +7,7 @@ old-location: shell\AssocGetDetailsOfPropKey.htm
 old-project: shell
 ms.assetid: f13af5f4-1b6a-419c-a042-e05c9ec51d02
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: AssocGetDetailsOfPropKey, AssocGetDetailsOfPropKey function [Windows Shell], _shell_AssocGetDetailsOfPropKey, shell.AssocGetDetailsOfPropKey, shlobj_core/AssocGetDetailsOfPropKey
 ms.prod: windows
 ms.technology: windows-sdk

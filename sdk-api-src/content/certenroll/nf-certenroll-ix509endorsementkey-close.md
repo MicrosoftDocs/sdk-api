@@ -7,7 +7,7 @@ old-location: security\ix509endorsementkey_close.htm
 old-project: seccertenroll
 ms.assetid: 71855c96-a828-4bb6-849a-53be8269277d
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: Close, Close method [Security], Close method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],Close method, IX509EndorsementKey.Close, IX509EndorsementKey::Close, certenroll/IX509EndorsementKey::Close, security.ix509endorsementkey_close
 ms.prod: windows
 ms.technology: windows-sdk

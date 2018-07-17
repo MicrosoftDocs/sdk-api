@@ -7,7 +7,7 @@ old-location: security\ix509enrollmenthelper.htm
 old-project: seccertenroll
 ms.assetid: 19124591-be1a-401e-9b83-c640d00de34a
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509EnrollmentHelper, IX509EnrollmentHelper interface [Security], IX509EnrollmentHelper interface [Security],described, certenroll/IX509EnrollmentHelper, security.ix509enrollmenthelper
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\isignercertificates.htm
 old-project: seccertenroll
 ms.assetid: 420d6550-514a-4fea-987b-6deecbc9b717
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ISignerCertificates, ISignerCertificates interface [Security], ISignerCertificates interface [Security],described, certenroll/ISignerCertificates, security.isignercertificates
 ms.prod: windows
 ms.technology: windows-sdk

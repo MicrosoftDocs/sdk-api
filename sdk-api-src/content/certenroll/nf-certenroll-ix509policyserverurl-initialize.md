@@ -7,7 +7,7 @@ old-location: security\ix509policyserverurl_initialize.htm
 old-project: seccertenroll
 ms.assetid: 693c3a29-0d12-4603-a06a-4277db3b8b8b
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],Initialize method, IX509PolicyServerUrl.Initialize, IX509PolicyServerUrl::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::Initialize, security.ix509policyserverurl_initialize
 ms.prod: windows
 ms.technology: windows-sdk

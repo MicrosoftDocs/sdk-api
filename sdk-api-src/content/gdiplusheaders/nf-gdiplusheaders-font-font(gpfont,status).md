@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_Constructors.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontconstructors.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Font, Font constructors [GDI+], Font.Font, Font.Font(GpFont,Status), Font::Font, Font::Font(GpFont,Status), _gdiplus_CLASS_Font_Constructors, gdiplus._gdiplus_CLASS_Font_Constructors, gdiplusheaders/Font
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\ismimecapabilities_addfromcsp_method.htm
 old-project: seccertenroll
 ms.assetid: a4244a4e-6ec3-4c1f-a0d6-607cc942b5f5
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: AddFromCsp, AddFromCsp method [Security], AddFromCsp method [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],AddFromCsp method, ISmimeCapabilities.AddFromCsp, ISmimeCapabilities::AddFromCsp, certenroll/ISmimeCapabilities::AddFromCsp, security.ismimecapabilities_addfromcsp_method
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandlerInfo_IsEnabled.htm
 old-project: shell
 ms.assetid: 1485ae25-20b8-4ee9-a30d-247f719047cd
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: ISyncMgrHandlerInfo interface [Windows Shell],IsEnabled method, ISyncMgrHandlerInfo.IsEnabled, ISyncMgrHandlerInfo::IsEnabled, IsEnabled, IsEnabled method [Windows Shell], IsEnabled method [Windows Shell],ISyncMgrHandlerInfo interface, _shell_ISyncMgrHandlerInfo_IsEnabled, shell.ISyncMgrHandlerInfo_IsEnabled, syncmgr/ISyncMgrHandlerInfo::IsEnabled
 ms.prod: windows
 ms.technology: windows-sdk

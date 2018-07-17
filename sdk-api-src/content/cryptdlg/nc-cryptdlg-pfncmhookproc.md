@@ -4,10 +4,10 @@ title: PFNCMHOOKPROC
 author: windows-sdk-content
 description: Called before messages are processed by the certificate selection dialog box produced by the CertSelectCertificate function.
 old-location: security\pfncmhookproc.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 7172c995-a46b-437b-beaf-a0649cb8ec3d
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: PFNCMHOOKPROC, PFNCMHOOKPROC callback, PFNCMHOOKPROC callback function [Security], cryptdlg/PFNCMHOOKPROC, security.pfncmhookproc
 ms.prod: windows
 ms.technology: windows-sdk

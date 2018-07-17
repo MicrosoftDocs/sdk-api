@@ -2,7 +2,7 @@
 UID: NA:timeapi
 ms.assetid: 2edbce99-7063-381b-8699-e8e1ddea7a6b
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequest_hashalgorithm_property.htm
 old-project: seccertenroll
 ms.assetid: 9f68ee54-5dea-47bb-8a90-0285d081c9b8
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],HashAlgorithm property, IX509CertificateRequest.HashAlgorithm, IX509CertificateRequest.get_HashAlgorithm, IX509CertificateRequest::HashAlgorithm, IX509CertificateRequest::get_HashAlgorithm, IX509CertificateRequest::put_HashAlgorithm, certenroll/IX509CertificateRequest::HashAlgorithm, certenroll/IX509CertificateRequest::get_HashAlgorithm, certenroll/IX509CertificateRequest::put_HashAlgorithm, get_HashAlgorithm, security.ix509certificaterequest_hashalgorithm_property
 ms.prod: windows
 ms.technology: windows-sdk

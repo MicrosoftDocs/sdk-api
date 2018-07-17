@@ -4,10 +4,10 @@ title: WSPStartup function
 author: windows-sdk-content
 description: The WSPStartup function initiates use of a Windows Sockets service provider interface (SPI) by a client.
 old-location: winsock\wspstartup_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 9ebfe81c-bed6-4bde-b1dd-5eaefbaac9cf
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WSPStartup, WSPStartup function [Winsock], _win32_wspstartup_2, winsock.wspstartup_2, ws2spi/WSPStartup
 ms.prod: windows
 ms.technology: windows-sdk

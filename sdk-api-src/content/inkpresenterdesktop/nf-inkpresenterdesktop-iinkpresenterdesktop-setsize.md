@@ -7,7 +7,7 @@ old-location: input_ink\iinkpresenterdesktop_setsize.htm
 old-project: input_ink
 ms.assetid: ba2576e5-8039-475b-acd8-1e7336a779e7
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/13/2018
 ms.keywords: IInkPresenterDesktop interface,SetSize method, IInkPresenterDesktop.SetSize, IInkPresenterDesktop::SetSize, InkPresenterDesktop.iinkpresenterdesktop_setsize, SetSize, SetSize method, SetSize method,IInkPresenterDesktop interface, inkpresenterdesktop/IInkPresenterDesktop::SetSize, input_ink.iinkpresenterdesktop_setsize
 ms.prod: windows
 ms.technology: windows-sdk

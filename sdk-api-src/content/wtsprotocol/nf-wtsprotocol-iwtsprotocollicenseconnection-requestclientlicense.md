@@ -4,10 +4,10 @@ title: IWTSProtocolLicenseConnection::RequestClientLicense
 author: windows-sdk-content
 description: IWTSProtocolLicenseConnection::RequestClientLicense is no longer available. Instead, use IWRdsProtocolLicenseConnection::RequestClientLicense.
 old-location: termserv\iwtsprotocollicenseconnection_requestclientlicense.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 4740d7a4-aa82-4c9d-b93c-20a974f170ae
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],RequestClientLicense method, IWTSProtocolLicenseConnection.RequestClientLicense, IWTSProtocolLicenseConnection::RequestClientLicense, RequestClientLicense, RequestClientLicense method [Remote Desktop Services], RequestClientLicense method [Remote Desktop Services],IWTSProtocolLicenseConnection interface, termserv.iwtsprotocollicenseconnection_requestclientlicense, wtsprotocol/IWTSProtocolLicenseConnection::RequestClientLicense
 ms.prod: windows
 ms.technology: windows-sdk

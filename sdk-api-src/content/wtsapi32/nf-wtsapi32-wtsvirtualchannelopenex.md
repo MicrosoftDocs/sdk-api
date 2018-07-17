@@ -4,10 +4,10 @@ title: WTSVirtualChannelOpenEx function
 author: windows-sdk-content
 description: Creates a virtual channel in a manner similar to WTSVirtualChannelOpen.
 old-location: termserv\wtsvirtualchannelopenex.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 5694c4b6-3d0f-4a48-8d15-1e404cbb6164
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WTSVirtualChannelOpenEx, WTSVirtualChannelOpenEx function [Remote Desktop Services], WTS_CHANNEL_OPTION_DYNAMIC_NO_COMPRESS, WTS_CHANNEL_OPTION_DYNAMIC_PRI_HIGH, WTS_CHANNEL_OPTION_DYNAMIC_PRI_LOW (default), WTS_CHANNEL_OPTION_DYNAMIC_PRI_MED, WTS_CHANNEL_OPTION_DYNAMIC_PRI_REAL, termserv.wtsvirtualchannelopenex, wtsapi32/WTSVirtualChannelOpenEx
 ms.prod: windows
 ms.technology: windows-sdk

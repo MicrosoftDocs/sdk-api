@@ -4,10 +4,10 @@ title: IFsrmPropertyDefinition::put_Parameters
 author: windows-sdk-content
 description: The parameters for the property definition.
 old-location: fsrm\ifsrmpropertydefinition_parameters.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 52656c5d-2ded-40da-a6a3-595c4f8eb14e
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IFsrmPropertyDefinition interface [File Server Resource Manager],Parameters property, IFsrmPropertyDefinition.Parameters, IFsrmPropertyDefinition.put_Parameters, IFsrmPropertyDefinition::Parameters, IFsrmPropertyDefinition::get_Parameters, IFsrmPropertyDefinition::put_Parameters, Parameters property [File Server Resource Manager], Parameters property [File Server Resource Manager],IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_parameters, fsrm.ifsrmpropertydefinition_parameters, fsrmpipeline/IFsrmPropertyDefinition::Parameters, fsrmpipeline/IFsrmPropertyDefinition::get_Parameters, fsrmpipeline/IFsrmPropertyDefinition::put_Parameters, put_Parameters
 ms.prod: windows
 ms.technology: windows-sdk

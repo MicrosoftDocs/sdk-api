@@ -7,7 +7,7 @@ old-location: shell\SHCreateThreadRef.htm
 old-project: shell
 ms.assetid: 6abca2df-832c-410b-93c7-5131e481e595
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: SHCreateThreadRef, SHCreateThreadRef function [Windows Shell], _shell_SHCreateThreadRef, shell.SHCreateThreadRef, shlwapi/SHCreateThreadRef
 ms.prod: windows
 ms.technology: windows-sdk

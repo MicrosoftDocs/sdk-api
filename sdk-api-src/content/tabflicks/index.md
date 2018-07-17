@@ -2,7 +2,7 @@
 UID: NA:tabflicks
 ms.assetid: f224c61b-8fb6-3ad9-badb-08ad2ecca395
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

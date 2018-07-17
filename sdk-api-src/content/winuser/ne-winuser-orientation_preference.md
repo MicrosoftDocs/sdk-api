@@ -4,10 +4,10 @@ title: ORIENTATION_PREFERENCE
 author: windows-sdk-content
 description: Indicates the screen orientation preference for a desktop app process.
 old-location: base\orientation_preference.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 7399DD9F-F993-40CC-B9C6-20673D39C069
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: ORIENTATION_PREFERENCE, ORIENTATION_PREFERENCE enumeration, ORIENTATION_PREFERENCE_LANDSCAPE, ORIENTATION_PREFERENCE_LANDSCAPE_FLIPPED, ORIENTATION_PREFERENCE_NONE, ORIENTATION_PREFERENCE_PORTRAIT, ORIENTATION_PREFERENCE_PORTRAIT_FLIPPED, base.orientation_preference, winuser/ ORIENTATION_PREFERENCE_PORTRAIT, winuser/ORIENTATION_PREFERENCE, winuser/ORIENTATION_PREFERENCE_LANDSCAPE, winuser/ORIENTATION_PREFERENCE_LANDSCAPE_FLIPPED, winuser/ORIENTATION_PREFERENCE_NONE, winuser/ORIENTATION_PREFERENCE_PORTRAIT_FLIPPED
 ms.prod: windows
 ms.technology: windows-sdk

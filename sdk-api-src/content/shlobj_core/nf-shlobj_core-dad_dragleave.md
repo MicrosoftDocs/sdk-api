@@ -7,7 +7,7 @@ old-location: shell\DAD_DragLeave.htm
 old-project: shell
 ms.assetid: 5b2b8f04-c746-48d0-9fca-eda2c6b9ff2a
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: DAD_DragLeave, DAD_DragLeave function [Windows Shell], shell.DAD_DragLeave, shell_DAD_DragLeave, shlobj_core/DAD_DragLeave
 ms.prod: windows
 ms.technology: windows-sdk

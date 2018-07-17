@@ -4,10 +4,10 @@ title: WlanGetAvailableNetworkList function
 author: windows-sdk-content
 description: Retrieves the list of available networks on a wireless LAN interface.
 old-location: nwifi\wlangetavailablenetworklist.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: 27353a1b-2a3c-4c3b-b512-917d010ee8dd
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_ADHOC_PROFILES, WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_MANUAL_HIDDEN_PROFILES, WlanGetAvailableNetworkList, WlanGetAvailableNetworkList function [NativeWIFI], nwifi.wlangetavailablenetworklist, nwifi.wlangetvisiblenetworklist, wlanapi/WlanGetAvailableNetworkList
 ms.prod: windows
 ms.technology: windows-sdk

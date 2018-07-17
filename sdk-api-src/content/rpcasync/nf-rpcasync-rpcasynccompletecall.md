@@ -156,8 +156,8 @@ Server: <i>Reply</i> points to a buffer that contains the return value that need
 <b>RpcAsyncCompleteCall</b> returns. The invocation of <b>RpcAsyncCompleteCall</b> on the server is final. If the  <b>RpcAsyncCompleteCall</b> function call fails, the RPC runtime frees the parameters.
 
 Any <a href="https://msdn.microsoft.com/f92ef78a-321b-460e-a18a-b63a5e199ad0">[out]</a> parameters, including 
-				<a href="https://msdn.microsoft.com/">[comm_status]</a> and 
-				<a href="https://msdn.microsoft.com/9da7bd3d-cef0-4ad4-b2a4-3f8aa156e8e0">[fault_status]</a> parameters, are only valid if the return value of 
+				<a href="https://msdn.microsoft.com/3ea9ce62-8bd4-40fe-b838-bfebd52b5a15">[comm_status]</a> and 
+				<a href="https://msdn.microsoft.com/">[fault_status]</a> parameters, are only valid if the return value of 
 <b>RpcAsyncCompleteCall</b> is RPC_S_OK.
 
 

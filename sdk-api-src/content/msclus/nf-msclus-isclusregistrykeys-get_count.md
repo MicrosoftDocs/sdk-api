@@ -7,7 +7,7 @@ old-location: mscs\clusregistrykeys_count.htm
 old-project: mscs
 ms.assetid: b28a0a0e-5b8c-4d81-b10d-ad203e280835
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusRegistryKeys class [Failover Cluster],Count property, ClusRegistryKeys.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusRegistryKeys class, ISClusRegistryKeys.get_Count, ISClusRegistryKeys::get_Count, _wolf_clusregistrykeys.count, get_Count, mscs.clusregistrykeys_count
 ms.prod: windows
 ms.technology: windows-sdk

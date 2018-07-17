@@ -7,7 +7,7 @@ old-location: shell\SHCreateDirectoryEx.htm
 old-project: shell
 ms.assetid: 7f44f907-cd12-4156-91c0-76e577ae25f6
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: SHCreateDirectoryEx, SHCreateDirectoryEx function [Windows Shell], SHCreateDirectoryExA, SHCreateDirectoryExW, _win32_SHCreateDirectoryEx, shell.SHCreateDirectoryEx, shlobj_core/SHCreateDirectoryEx, shlobj_core/SHCreateDirectoryExA, shlobj_core/SHCreateDirectoryExW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_CloseFigure_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\closefigure.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: CloseFigure, CloseFigure method [GDI+], CloseFigure method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],CloseFigure method, GraphicsPath.CloseFigure, GraphicsPath::CloseFigure, _gdiplus_CLASS_GraphicsPath_CloseFigure_, gdiplus._gdiplus_CLASS_GraphicsPath_CloseFigure_
 ms.prod: windows
 ms.technology: windows-sdk

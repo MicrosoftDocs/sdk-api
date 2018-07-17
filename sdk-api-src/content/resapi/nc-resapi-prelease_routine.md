@@ -7,7 +7,7 @@ old-location: mscs\release.htm
 old-project: mscs
 ms.assetid: 9e8e4557-b223-4f8f-9393-67f589181754
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: PRELEASE_ROUTINE, PRELEASE_ROUTINE callback, Release, Release callback function [Failover Cluster], _wolf_release, mscs.release, resapi/PRELEASE_ROUTINE, resapi/Release
 ms.prod: windows
 ms.technology: windows-sdk

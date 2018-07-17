@@ -2,13 +2,13 @@
 UID: NA:fsrmenums
 ms.assetid: 55538567-5437-307b-a79d-afe4a7f74133
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: fsrm
 archived: true
+tech.root: fsrm
 ---
 
 # Fsrmenums.h header

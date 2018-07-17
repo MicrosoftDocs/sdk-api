@@ -7,7 +7,7 @@ old-location: mscs\clusresource_object.htm
 old-project: mscs
 ms.assetid: c1b66495-c428-4ee4-94e2-263fd31f61ad
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResource, ClusResource object [Failover Cluster], ClusResource object [Failover Cluster],described, ISClusResource, _wolf_clusresource_object, msclus/ClusResource, mscs.clusresource_object
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: cos\iholder_requestdestroyresource.htm
 old-project: cossdk
 ms.assetid: c1602718-2221-4e49-a57c-f65f87174dc9
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: IHolder interface [COM+],RequestDestroyResource method, IHolder.RequestDestroyResource, IHolder::RequestDestroyResource, RequestDestroyResource, RequestDestroyResource method [COM+], RequestDestroyResource method [COM+],IHolder interface, _dtc_IHolder_RequestDestroyResource, comsvcs/IHolder::RequestDestroyResource, cos.iholder_requestdestroyresource
 ms.prod: windows
 ms.technology: windows-sdk

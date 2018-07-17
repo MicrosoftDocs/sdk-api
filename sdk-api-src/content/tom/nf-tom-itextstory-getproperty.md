@@ -4,10 +4,10 @@ title: ITextStory::GetProperty
 author: windows-sdk-content
 description: Gets the value of the specified property.
 old-location: controls\itextstory_getproperty.htm
-old-project: controls
+old-project: Controls
 ms.assetid: 1c24e9d8-c737-42f8-87d9-585b0054b6df
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetProperty method, ITextStory.GetProperty, ITextStory::GetProperty, controls.itextstory_getproperty, tom/ITextStory::GetProperty
 ms.prod: windows
 ms.technology: windows-sdk

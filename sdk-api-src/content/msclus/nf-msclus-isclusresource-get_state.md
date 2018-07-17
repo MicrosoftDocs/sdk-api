@@ -7,7 +7,7 @@ old-location: mscs\clusresource_state.htm
 old-project: mscs
 ms.assetid: 3bae66a8-cc45-49e6-acea-c506623b25bc
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResource object [Failover Cluster],State property, ClusResource.State, ClusterResourceFailed, ClusterResourceInherited, ClusterResourceInitializing, ClusterResourceOffline, ClusterResourceOfflinePending, ClusterResourceOnline, ClusterResourceOnlinePending, ClusterResourcePending, ClusterResourceStateUnknown, ISClusResource.get_State, ISClusResource::get_State, State property [Failover Cluster], State property [Failover Cluster],ClusResource object, _wolf_clusresource.state, get_State, mscs.clusresource_state
 ms.prod: windows
 ms.technology: windows-sdk

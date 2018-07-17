@@ -4,10 +4,10 @@ title: ITsSbResourcePluginStore::QueryEnvironment
 author: windows-sdk-content
 description: Returns the specified environment object.
 old-location: termserv\itssbresourcepluginstore_queryenvironment.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 1497c638-ba9d-467e-8fbb-8467a43666cc
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],QueryEnvironment method, ITsSbResourcePluginStore.QueryEnvironment, ITsSbResourcePluginStore::QueryEnvironment, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],QueryEnvironment method, ITsSbResourcePluginStoreEx::QueryEnvironment, QueryEnvironment, QueryEnvironment method [Remote Desktop Services], QueryEnvironment method [Remote Desktop Services],ITsSbResourcePluginStore interface, QueryEnvironment method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::QueryEnvironment, sbtsv/ITsSbResourcePluginStoreEx::QueryEnvironment, termserv.itssbresourcepluginstore_queryenvironment
 ms.prod: windows
 ms.technology: windows-sdk

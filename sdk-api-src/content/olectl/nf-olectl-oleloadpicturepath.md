@@ -7,7 +7,7 @@ old-location: com\oleloadpicturepath.htm
 old-project: com
 ms.assetid: 08bad900-815a-4b6d-b977-92d5fdd7d9e8
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: OleLoadPicturePath, OleLoadPicturePath function [COM], _ctrl_OleLoadPicturePath, com.oleloadpicturepath, olectl/OleLoadPicturePath
 ms.prod: windows
 ms.technology: windows-sdk

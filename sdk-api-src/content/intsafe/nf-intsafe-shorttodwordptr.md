@@ -7,7 +7,7 @@ old-location: shell\ShortToDWordPtr.htm
 old-project: shell
 ms.assetid: e5d0bb74-adde-48c7-b2df-1ba86d528db1
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: ShortToDWordPtr, ShortToDWordPtr function [Windows Shell], intsafe/ShortToDWordPtr, shell.ShortToDWordPtr
 ms.prod: windows
 ms.technology: windows-sdk

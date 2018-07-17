@@ -7,7 +7,7 @@ old-location: security\ialternativenames.htm
 old-project: seccertenroll
 ms.assetid: 6ebd5bd5-7bf3-43e3-9b72-47b2c9743174
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IAlternativeNames, IAlternativeNames interface [Security], IAlternativeNames interface [Security],described, certenroll/IAlternativeNames, security.ialternativenames
 ms.prod: windows
 ms.technology: windows-sdk

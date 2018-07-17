@@ -7,7 +7,7 @@ old-location: mscs\clusdisk_scsiaddress.htm
 old-project: mscs
 ms.assetid: 2f9bd5e9-a939-438d-9bd1-bd9ef30c53cd
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusDisk object [Failover Cluster],ScsiAddress property, ClusDisk.ScsiAddress, ISClusDisk.get_ScsiAddress, ISClusDisk::get_ScsiAddress, ScsiAddress property [Failover Cluster], ScsiAddress property [Failover Cluster],ClusDisk object, _wolf_clusdisk.scsiaddress, get_ScsiAddress, mscs.clusdisk_scsiaddress
 ms.prod: windows
 ms.technology: windows-sdk

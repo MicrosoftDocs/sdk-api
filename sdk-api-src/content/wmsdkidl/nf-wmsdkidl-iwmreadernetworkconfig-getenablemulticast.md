@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_getenablemulticast.htm
 old-project: wmformat
 ms.assetid: 2fc51a74-18b6-4ddd-9089-9a8bdfce70ea
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: GetEnableMulticast, GetEnableMulticast method [windows Media Format], GetEnableMulticast method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetEnableMulticast method, IWMReaderNetworkConfig.GetEnableMulticast, IWMReaderNetworkConfig::GetEnableMulticast, IWMReaderNetworkConfigGetEnableMulticast, wmformat.iwmreadernetworkconfig_getenablemulticast, wmsdkidl/IWMReaderNetworkConfig::GetEnableMulticast
 ms.prod: windows
 ms.technology: windows-sdk

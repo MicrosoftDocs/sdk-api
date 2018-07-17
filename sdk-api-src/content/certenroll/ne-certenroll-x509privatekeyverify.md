@@ -7,7 +7,7 @@ old-location: security\x509privatekeyverify.htm
 old-project: seccertenroll
 ms.assetid: 23466035-6554-490f-ad46-e97ba5a5d996
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: VerifyAllowUI, VerifyNone, VerifySilent, VerifySmartCardNone, VerifySmartCardSilent, X509PrivateKeyVerify, X509PrivateKeyVerify enumeration [Security], certenroll/VerifyAllowUI, certenroll/VerifyNone, certenroll/VerifySilent, certenroll/VerifySmartCardNone, certenroll/VerifySmartCardSilent, certenroll/X509PrivateKeyVerify, security.x509privatekeyverify
 ms.prod: windows
 ms.technology: windows-sdk

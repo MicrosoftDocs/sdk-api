@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_GetRegionScans_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regiongetregionscansmethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: GetRegionScans, GetRegionScans methods [GDI+], Region.GetRegionScans, Region.GetRegionScans(IN const Matrix,OUT Rect,OUT INT), Region::GetRegionScans, Region::GetRegionScans(IN const Matrix,OUT Rect,OUT INT), _gdiplus_CLASS_Region_GetRegionScans_Methods, gdiplus._gdiplus_CLASS_Region_GetRegionScans_Methods, gdiplusheaders/GetRegionScans
 ms.prod: windows
 ms.technology: windows-sdk

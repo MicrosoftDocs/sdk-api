@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetPathPoints_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathgetpathpointsmethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: GetPathPoints, GetPathPoints methods [GDI+], GraphicsPath.GetPathPoints, GraphicsPath::GetPathPoints, _gdiplus_CLASS_GraphicsPath_GetPathPoints_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_GetPathPoints_Methods, gdipluspath/GetPathPoints
 ms.prod: windows
 ms.technology: windows-sdk

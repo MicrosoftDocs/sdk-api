@@ -7,7 +7,7 @@ old-location: mmc\iheaderctrl_getcolumnwidth.htm
 old-project: mmc
 ms.assetid: 2F0C08F2-C7AF-4E91-A7AD-34BC19D65DC2
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: GetColumnWidth, GetColumnWidth method [MMC], GetColumnWidth method [MMC],IHeaderCtrl interface, IHeaderCtrl interface [MMC],GetColumnWidth method, IHeaderCtrl.GetColumnWidth, IHeaderCtrl::GetColumnWidth, mmc.iheaderctrl_getcolumnwidth, mmc/IHeaderCtrl::GetColumnWidth
 ms.prod: windows
 ms.technology: windows-sdk

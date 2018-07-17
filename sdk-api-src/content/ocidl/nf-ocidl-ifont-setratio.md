@@ -7,7 +7,7 @@ old-location: com\ifont_setratio.htm
 old-project: com
 ms.assetid: aaa962d8-6f7f-4031-aa10-09cadf0e5aec
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: IFont interface [COM],SetRatio method, IFont.SetRatio, IFont::SetRatio, SetRatio, SetRatio method [COM], SetRatio method [COM],IFont interface, _ctrl_ifont_setratio, com.ifont_setratio, ocidl/IFont::SetRatio
 ms.prod: windows
 ms.technology: windows-sdk

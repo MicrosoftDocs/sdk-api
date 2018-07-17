@@ -4,10 +4,10 @@ title: IFsrmFileManagementJob::Cancel
 author: windows-sdk-content
 description: Cancels the job if it is running.
 old-location: fsrm\ifsrmfilemanagementjob_cancel.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 3abb6673-fdd8-4828-ba7a-7666208dc8f0
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: Cancel, Cancel method [File Server Resource Manager], Cancel method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],Cancel method, IFsrmFileManagementJob.Cancel, IFsrmFileManagementJob::Cancel, fs.ifsrmfilemanagementjob_cancel, fsrm.ifsrmfilemanagementjob_cancel, fsrmreports/IFsrmFileManagementJob::Cancel
 ms.prod: windows
 ms.technology: windows-sdk

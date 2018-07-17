@@ -4,10 +4,10 @@ title: IFsrmQuotaTemplate
 author: windows-sdk-content
 description: Used to configure templates from which new quota objects can be derived.
 old-location: fsrm\ifsrmquotatemplate.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: de8ac383-f309-4320-bc77-c859ba27e1ca
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IFsrmQuotaTemplate, IFsrmQuotaTemplate interface [File Server Resource Manager], IFsrmQuotaTemplate interface [File Server Resource Manager],described, fs.ifsrmquotatemplate, fsrm.ifsrmquotatemplate, fsrm/IFsrmQuotaTemplate
 ms.prod: windows
 ms.technology: windows-sdk

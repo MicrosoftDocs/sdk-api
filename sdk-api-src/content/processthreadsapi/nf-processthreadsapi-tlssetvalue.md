@@ -4,10 +4,10 @@ title: TlsSetValue function
 author: windows-sdk-content
 description: Stores a value in the calling thread's thread local storage (TLS) slot for the specified TLS index. Each thread of a process has its own slot for each TLS index.
 old-location: base\tlssetvalue.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 531b4a4a-a251-4ab4-b00a-754783a51283
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: TlsSetValue, TlsSetValue function, _win32_tlssetvalue, base.tlssetvalue, processthreadsapi/TlsSetValue, winbase/TlsSetValue
 ms.prod: windows
 ms.technology: windows-sdk

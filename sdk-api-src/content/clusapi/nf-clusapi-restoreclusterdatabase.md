@@ -7,7 +7,7 @@ old-location: mscs\restoreclusterdatabase.htm
 old-project: mscs
 ms.assetid: a0524363-c5dc-449a-aaf6-9bcd9522c9eb
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: RestoreClusterDatabase, RestoreClusterDatabase function [Failover Cluster], _wolf_restoreclusterdatabase, clusapi/RestoreClusterDatabase, mscs.restoreclusterdatabase
 ms.prod: windows
 ms.technology: windows-sdk

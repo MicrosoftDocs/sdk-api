@@ -7,7 +7,7 @@ old-location: security\icspinformations__newenum_property.htm
 old-project: seccertenroll
 ms.assetid: ea2bb37a-952c-4772-b44d-52429b5d0a86
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICspInformations interface [Security],_NewEnum property, ICspInformations._NewEnum, ICspInformations.get__NewEnum, ICspInformations::_NewEnum, ICspInformations::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICspInformations interface, certenroll/ICspInformations::_NewEnum, certenroll/ICspInformations::get__NewEnum, get__NewEnum, security.icspinformations__newenum_property
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_CharacterRange_operator_rhs_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrangeclass\operator.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: CharacterRange class [GDI+],operator= method, CharacterRange.operator=, CharacterRange::operator=, _gdiplus_CLASS_CharacterRange_operator_rhs_, gdiplus._gdiplus_CLASS_CharacterRange_operator_rhs_, operator=, operator= method [GDI+], operator= method [GDI+],CharacterRange class
 ms.prod: windows
 ms.technology: windows-sdk

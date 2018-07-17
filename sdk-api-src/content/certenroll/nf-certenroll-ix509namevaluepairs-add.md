@@ -7,7 +7,7 @@ old-location: security\ix509namevaluepairs_add_method.htm
 old-project: seccertenroll
 ms.assetid: 2b5592d4-4f3b-4cea-8c59-15529cc53efa
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509NameValuePairs interface, IX509NameValuePairs interface [Security],Add method, IX509NameValuePairs.Add, IX509NameValuePairs::Add, certenroll/IX509NameValuePairs::Add, security.ix509namevaluepairs_add_method
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tablet\scrollbarsconstants.htm
 old-project: tablet
 ms.assetid: d689f8ff-4ad9-4306-af2d-aaed60f33c53
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: ScrollBarsConstants, ScrollBarsConstants enumeration [Tablet PC], d689f8ff-4ad9-4306-af2d-aaed60f33c53, inked/ScrollBarsConstants, inked/rtfBoth, inked/rtfHorizontal, inked/rtfNone, inked/rtfVertical, rtfBoth, rtfHorizontal, rtfNone, rtfVertical, tablet.scrollbarsconstants
 ms.prod: windows
 ms.technology: windows-sdk

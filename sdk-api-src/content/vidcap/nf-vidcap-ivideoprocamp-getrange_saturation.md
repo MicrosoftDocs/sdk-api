@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_getrange_saturation.htm
 old-project: DirectShow
 ms.assetid: 7c3d99a4-fc23-4d5e-907e-72272599a684
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Saturation method, IVideoProcAmp.getRange_Saturation, IVideoProcAmp::getRange_Saturation, IVideoProcAmpgetRange_Saturation, dshow.ivideoprocamp_getrange_saturation, getRange_Saturation, getRange_Saturation method [DirectShow], getRange_Saturation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Saturation
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mmc\snodeid2.htm
 old-project: mmc
 ms.assetid: d7a0a5db-a84f-48f3-b1fb-5bccb104b62a
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: SNodeID2, SNodeID2 structure [MMC], _SNodeID2, _slate_snodeid2, mmc.snodeid2, mmc/SNodeID2
 ms.prod: windows
 ms.technology: windows-sdk

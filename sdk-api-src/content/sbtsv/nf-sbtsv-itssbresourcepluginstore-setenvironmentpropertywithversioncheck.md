@@ -4,10 +4,10 @@ title: ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck
 author: windows-sdk-content
 description: Sets a property of an environment.
 old-location: termserv\itssbresourcepluginstore_setenvironmentpropertywithversioncheck.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 9c4caee8-85fb-4d8f-9c5a-b82eea02a1d0
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetEnvironmentPropertyWithVersionCheck method, ITsSbResourcePluginStore.SetEnvironmentPropertyWithVersionCheck, ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck, SetEnvironmentPropertyWithVersionCheck, SetEnvironmentPropertyWithVersionCheck method [Remote Desktop Services], SetEnvironmentPropertyWithVersionCheck method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck, termserv.itssbresourcepluginstore_setenvironmentpropertywithversioncheck
 ms.prod: windows
 ms.technology: windows-sdk

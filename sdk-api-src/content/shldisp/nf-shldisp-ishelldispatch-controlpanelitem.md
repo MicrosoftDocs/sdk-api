@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_ControlPanelItem.htm
 old-project: shell
 ms.assetid: 9A9B6B3F-FBBC-4e76-8018-8858B6392276
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: ControlPanelItem, ControlPanelItem method [Windows Shell], ControlPanelItem method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],ControlPanelItem method, IShellDispatch.ControlPanelItem, IShellDispatch::ControlPanelItem, shell.IShellDispatch_ControlPanelItem
 ms.prod: windows
 ms.technology: windows-sdk

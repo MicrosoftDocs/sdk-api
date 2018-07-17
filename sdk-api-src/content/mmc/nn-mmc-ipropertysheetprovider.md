@@ -7,7 +7,7 @@ old-location: mmc\ipropertysheetprovider.htm
 old-project: mmc
 ms.assetid: c63d5d5f-a334-4367-8a1e-252b4eb5b50d
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: IPropertySheetProvider, IPropertySheetProvider interface [MMC], IPropertySheetProvider interface [MMC],described, _slate_ipropertysheetprovider, mmc.ipropertysheetprovider, mmc/IPropertySheetProvider
 ms.prod: windows
 ms.technology: windows-sdk

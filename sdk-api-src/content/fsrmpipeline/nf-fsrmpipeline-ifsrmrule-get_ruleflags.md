@@ -4,10 +4,10 @@ title: IFsrmRule::get_RuleFlags
 author: windows-sdk-content
 description: The flags that define the state of the rule.
 old-location: fsrm\ifsrmrule_ruleflags.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: c656115a-a0d4-4860-9756-98df84c1672f
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],RuleFlags property, IFsrmRule.RuleFlags, IFsrmRule.get_RuleFlags, IFsrmRule::RuleFlags, IFsrmRule::get_RuleFlags, IFsrmRule::put_RuleFlags, RuleFlags property [File Server Resource Manager], RuleFlags property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_ruleflags, fsrm.ifsrmrule_ruleflags, fsrmpipeline/IFsrmRule::RuleFlags, fsrmpipeline/IFsrmRule::get_RuleFlags, fsrmpipeline/IFsrmRule::put_RuleFlags, get_RuleFlags
 ms.prod: windows
 ms.technology: windows-sdk

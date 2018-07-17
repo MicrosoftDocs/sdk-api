@@ -4,10 +4,10 @@ title: ITsSbSession::get_SessionId
 author: windows-sdk-content
 description: Retrieves the session ID.
 old-location: termserv\itssbsession_sessionid.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: aede96ba-2fad-4cff-a710-dd1f668a2a34
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],SessionId property, ITsSbSession.SessionId, ITsSbSession.get_SessionId, ITsSbSession::SessionId, ITsSbSession::get_SessionId, SessionId property [Remote Desktop Services], SessionId property [Remote Desktop Services],ITsSbSession interface, get_SessionId, sbtsv/ITsSbSession::SessionId, sbtsv/ITsSbSession::get_SessionId, termserv.itssbsession_sessionid
 ms.prod: windows
 ms.technology: windows-sdk

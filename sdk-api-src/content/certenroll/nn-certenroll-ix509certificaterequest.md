@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequest.htm
 old-project: seccertenroll
 ms.assetid: 5425c9ab-565d-449d-87e1-e5765868acfb
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509CertificateRequest, IX509CertificateRequest interface [Security], IX509CertificateRequest interface [Security],described, certenroll/IX509CertificateRequest, security.ix509certificaterequest
 ms.prod: windows
 ms.technology: windows-sdk

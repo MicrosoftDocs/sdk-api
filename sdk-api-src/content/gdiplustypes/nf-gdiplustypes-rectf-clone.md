@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_Clone_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\clone_47.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],RectF class, RectF class [GDI+],Clone method, RectF.Clone, RectF::Clone, _gdiplus_CLASS_RectF_Clone_, gdiplus._gdiplus_CLASS_RectF_Clone_
 ms.prod: windows
 ms.technology: windows-sdk

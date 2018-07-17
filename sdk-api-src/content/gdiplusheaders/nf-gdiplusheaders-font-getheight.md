@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Font_GetHeight_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\fontgetheightmethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Font.GetHeight, Font::GetHeight, GetHeight, GetHeight methods [GDI+], _gdiplus_CLASS_Font_GetHeight_Methods, gdiplus._gdiplus_CLASS_Font_GetHeight_Methods, gdiplusheaders/GetHeight
 ms.prod: windows
 ms.technology: windows-sdk

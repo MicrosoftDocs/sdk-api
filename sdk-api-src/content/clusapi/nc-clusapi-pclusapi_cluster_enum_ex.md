@@ -7,8 +7,8 @@ old-location: mscs\clusterenumex.htm
 old-project: mscs
 ms.assetid: F50FB801-8ACA-40BD-9E89-7E3AF2CA2DA5
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PCLUSAPI_CLUSTER_ENUM_EX, PCLUSAPI_CLUSTER_ENUM_EX callback, PCLUSAPI_CLUSTER_ENUM_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_ENUM_EX, mscs.clusterenumex
+ms.date: 07/12/2018
+ms.keywords: ClusterEnumEx, ClusterEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_ENUM_EX, PCLUSAPI_CLUSTER_ENUM_EX function [Failover Cluster], clusapi/ClusterEnumEx, clusapi/PCLUSAPI_CLUSTER_ENUM_EX, mscs.clusterenumex
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -32,15 +32,15 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - UserDefined
+ - DllExport
 api_location:
- - ClusAPI.h
+ - ClusAPI.dll
 api_name:
- - PCLUSAPI_CLUSTER_ENUM_EX
+ - ClusterEnumEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
 req.irql: 
 ---
 
@@ -65,7 +65,7 @@ A handle to the enumerator that is returned by the <a href="https://msdn.microso
 
 ### -param dwIndex [in]
 
-The index that identifies the next cluster object to enumerate. This parameter should be zero for the first call to the  <i>ClusterEnumEx</i>  function and then be  incremented for subsequent calls.
+The index that identifies the next cluster object to enumerate. This parameter should be zero for the first call to the  <b>ClusterEnumEx</b>  function and then be  incremented for subsequent calls.
 
 
 ### -param pItem [in, out]

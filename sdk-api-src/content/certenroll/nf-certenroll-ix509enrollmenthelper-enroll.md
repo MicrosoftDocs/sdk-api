@@ -7,7 +7,7 @@ old-location: security\ix509enrollmenthelper_enroll.htm
 old-project: seccertenroll
 ms.assetid: 4f178df7-714f-49e6-9bf5-647acc23b0ad
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: Enroll, Enroll method [Security], Enroll method [Security],IX509EnrollmentHelper interface, EnrollPrompt, IX509EnrollmentHelper interface [Security],Enroll method, IX509EnrollmentHelper.Enroll, IX509EnrollmentHelper::Enroll, certenroll/IX509EnrollmentHelper::Enroll, security.ix509enrollmenthelper_enroll
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\iexternalconnection_addconnection.htm
 old-project: com
 ms.assetid: 7439cb16-1da3-4fab-a16d-519f9ce1053a
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: AddConnection, AddConnection method [COM], AddConnection method [COM],IExternalConnection interface, IExternalConnection interface [COM],AddConnection method, IExternalConnection.AddConnection, IExternalConnection::AddConnection, _com_iexternalconnection_addconnection, com.iexternalconnection_addconnection, objidlbase/IExternalConnection::AddConnection
 ms.prod: windows
 ms.technology: windows-sdk

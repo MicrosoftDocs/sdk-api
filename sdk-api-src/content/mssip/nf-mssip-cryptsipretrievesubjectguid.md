@@ -4,10 +4,10 @@ title: CryptSIPRetrieveSubjectGuid function
 author: windows-sdk-content
 description: Retrieves a GUID based on the header information in a specified file.
 old-location: security\cryptsipretrievesubjectguid.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: b81472bc-6d9c-4634-a378-e39786a0ca09
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CryptSIPRetrieveSubjectGuid, CryptSIPRetrieveSubjectGuid function [Security], mssip/CryptSIPRetrieveSubjectGuid, security.cryptsipretrievesubjectguid
 ms.prod: windows
 ms.technology: windows-sdk

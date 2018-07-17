@@ -7,7 +7,7 @@ old-location: mmc\views_item.htm
 old-project: mmc
 ms.assetid: adf1d8e4-96cd-4af0-bbd2-ec162ca382ad
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: Item, Item method [MMC], Item method [MMC],Views interface, Item method [MMC],Views object, Views interface [MMC],Item method, Views object [MMC],Item method, Views.Item, Views::Item, _slate_views.item_method, mmc.views_item
 ms.prod: windows
 ms.technology: windows-sdk

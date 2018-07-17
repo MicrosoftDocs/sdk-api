@@ -2,7 +2,7 @@
 UID: TP:directmanipulation
 ms.assetid: b4054831-982d-3b85-96f1-a2f6819aac6a
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

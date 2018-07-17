@@ -7,7 +7,7 @@ old-location: security\ix509policyserverlistmanager.htm
 old-project: seccertenroll
 ms.assetid: a9fe4f4b-a35d-40e6-b99a-a89f58e79250
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509PolicyServerListManager, IX509PolicyServerListManager interface [Security], IX509PolicyServerListManager interface [Security],described, certenroll/IX509PolicyServerListManager, security.ix509policyserverlistmanager
 ms.prod: windows
 ms.technology: windows-sdk

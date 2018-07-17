@@ -4,10 +4,10 @@ title: "_MARGINS"
 author: windows-sdk-content
 description: Returned by the GetThemeMargins function to define the margins of windows that have visual styles applied.
 old-location: controls\MARGINS.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\margins.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: "*PMARGINS, MARGINS, MARGINS structure [Windows Controls], PMARGINS, PMARGINS structure pointer [Windows Controls], _MARGINS, controls.MARGINS, controls.inet_MARGINS, inet_MARGINS, inet_MARGINS_cpp, uxtheme/MARGINS, uxtheme/PMARGINS"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ICertSrvSetup::GetSupportedCATypes
 author: windows-sdk-content
 description: Gets the types of certification authorities (CAs) that can be installed on a computer under the caller context.
 old-location: security\icertsrvsetup_getsupportedcatypes.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 404e5c34-f614-4555-9062-c28d4aac5c4b
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: GetSupportedCATypes, GetSupportedCATypes method [Security], GetSupportedCATypes method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetSupportedCATypes method, ICertSrvSetup.GetSupportedCATypes, ICertSrvSetup::GetSupportedCATypes, casetup/ICertSrvSetup::GetSupportedCATypes, security.icertsrvsetup_getsupportedcatypes
 ms.prod: windows
 ms.technology: windows-sdk

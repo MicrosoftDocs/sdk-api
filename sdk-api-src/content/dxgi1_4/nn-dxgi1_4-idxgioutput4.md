@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput4.htm
 old-project: direct3ddxgi
 ms.assetid: 6B9B4242-7B10-4022-9105-6903FEAE1161
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: IDXGIOutput4, IDXGIOutput4 interface [DXGI], IDXGIOutput4 interface [DXGI],described, direct3ddxgi.idxgioutput4, dxgi1_4/IDXGIOutput4
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,13 +2,13 @@
 UID: NA:msajtransport
 ms.assetid: c59fe873-368c-3798-a004-f41c3063785b
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: alljoyn
 archived: true
+tech.root: alljoyn
 ---
 
 # Msajtransport.h header

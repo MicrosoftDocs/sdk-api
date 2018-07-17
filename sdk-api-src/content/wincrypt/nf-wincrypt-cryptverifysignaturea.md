@@ -4,10 +4,10 @@ title: CryptVerifySignatureA function
 author: windows-sdk-content
 description: Verifies the signature of a hash object.
 old-location: security\cryptverifysignature.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 3119eabc-90ff-42c6-b3fa-e8be625f6d1e
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptVerifySignature, CryptVerifySignature function [Security], CryptVerifySignatureA, CryptVerifySignatureW, _crypto2_cryptverifysignature, security.cryptverifysignature, wincrypt/CryptVerifySignature, wincrypt/CryptVerifySignatureA, wincrypt/CryptVerifySignatureW
 ms.prod: windows
 ms.technology: windows-sdk

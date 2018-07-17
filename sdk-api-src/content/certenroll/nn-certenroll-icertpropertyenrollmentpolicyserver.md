@@ -7,7 +7,7 @@ old-location: security\icertpropertyenrollmentpolicyserver.htm
 old-project: seccertenroll
 ms.assetid: 1af7b178-3226-43c3-bfbe-08738f9ef851
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICertPropertyEnrollmentPolicyServer, ICertPropertyEnrollmentPolicyServer interface [Security], ICertPropertyEnrollmentPolicyServer interface [Security],described, certenroll/ICertPropertyEnrollmentPolicyServer, security.icertpropertyenrollmentpolicyserver
 ms.prod: windows
 ms.technology: windows-sdk

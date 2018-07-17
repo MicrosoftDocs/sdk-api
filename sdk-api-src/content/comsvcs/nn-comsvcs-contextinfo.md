@@ -7,7 +7,7 @@ old-location: cos\contextinfo.htm
 old-project: cossdk
 ms.assetid: ef8d7ef7-fae4-4a20-80fb-18f5daa9b564
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: ContextInfo, ContextInfo interface [COM+], ContextInfo interface [COM+],described, _cos_ContextInfo, comsvcs/ContextInfo, cos.contextinfo
 ms.prod: windows
 ms.technology: windows-sdk

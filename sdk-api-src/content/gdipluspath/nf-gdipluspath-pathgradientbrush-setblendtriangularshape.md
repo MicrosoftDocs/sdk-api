@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetBlendTriangularShape_f
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setblendtriangularshape_1focus_scale.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: PathGradientBrush class [GDI+],SetBlendTriangularShape method, PathGradientBrush.SetBlendTriangularShape, PathGradientBrush::SetBlendTriangularShape, SetBlendTriangularShape, SetBlendTriangularShape method [GDI+], SetBlendTriangularShape method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetBlendTriangularShape_focus_scale_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetBlendTriangularShape_focus_scale_
 ms.prod: windows
 ms.technology: windows-sdk

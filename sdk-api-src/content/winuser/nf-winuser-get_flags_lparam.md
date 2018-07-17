@@ -7,7 +7,7 @@ old-location: inputdev\get_flags_lparam.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_flags_lparam.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/12/2018
 ms.keywords: GET_FLAGS_LPARAM, GET_FLAGS_LPARAM macro [Keyboard and Mouse Input], _win32_GET_FLAGS_LPARAM, _win32_get_flags_lparam_cpp, inputdev.get_flags_lparam, winui._win32_get_flags_lparam, winuser/GET_FLAGS_LPARAM
 ms.prod: windows
 ms.technology: windows-sdk

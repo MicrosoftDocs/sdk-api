@@ -7,7 +7,7 @@ old-location: shell\Folder2_Object.htm
 old-project: shell
 ms.assetid: 5b52b141-ced3-4d38-8584-7dfcfe12ab56
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: Folder2, Folder2 object [Windows Shell], Folder2 object [Windows Shell],described, _win32_Folder2_Object, shell.Folder2_Object, shldisp/Folder2
 ms.prod: windows
 ms.technology: windows-sdk

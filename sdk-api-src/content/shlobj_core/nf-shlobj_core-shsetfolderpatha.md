@@ -7,7 +7,7 @@ old-location: shell\SHSetFolderPath.htm
 old-project: shell
 ms.assetid: 9da142fa-4765-4889-bd4c-d8167a16f86b
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: SHSetFolderPath, SHSetFolderPath function [Windows Shell], SHSetFolderPathA, SHSetFolderPathW, _win32_SHSetFolderPath, shell.SHSetFolderPath, shlobj_core/SHSetFolderPath, shlobj_core/SHSetFolderPathA, shlobj_core/SHSetFolderPathW
 ms.prod: windows
 ms.technology: windows-sdk

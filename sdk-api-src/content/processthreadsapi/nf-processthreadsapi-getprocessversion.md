@@ -4,10 +4,10 @@ title: GetProcessVersion function
 author: windows-sdk-content
 description: Retrieves the major and minor version numbers of the system on which the specified process expects to run.
 old-location: base\getprocessversion.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: ed12f2e5-1674-4885-878f-9ba39415780c
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: GetProcessVersion, GetProcessVersion function, _win32_getprocessversion, base.getprocessversion, processthreadsapi/GetProcessVersion, winbase/GetProcessVersion
 ms.prod: windows
 ms.technology: windows-sdk

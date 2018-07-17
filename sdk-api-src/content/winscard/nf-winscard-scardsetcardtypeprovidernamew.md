@@ -4,10 +4,10 @@ title: SCardSetCardTypeProviderNameW function
 author: windows-sdk-content
 description: Specifies the name of the module (dynamic link library) containing the provider for a given card name and provider type.
 old-location: security\scardsetcardtypeprovidername.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: c36dfb77-6ebe-4073-b657-72fa294b5464
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: SCARD_PROVIDER_CARD_MODULE, SCARD_PROVIDER_CSP, SCARD_PROVIDER_KSP, SCARD_PROVIDER_PRIMARY, SCardSetCardTypeProviderName, SCardSetCardTypeProviderName function [Security], SCardSetCardTypeProviderNameA, SCardSetCardTypeProviderNameW, _smart_scardsetcardtypeprovidername, security.scardsetcardtypeprovidername, winscard/SCardSetCardTypeProviderName, winscard/SCardSetCardTypeProviderNameA, winscard/SCardSetCardTypeProviderNameW
 ms.prod: windows
 ms.technology: windows-sdk

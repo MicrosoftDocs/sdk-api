@@ -7,7 +7,7 @@ old-location: com\ivbformat.htm
 old-project: com
 ms.assetid: 6b05c0c7-6f38-42cf-bf7b-2a54a4302b68
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: IVBFormat, IVBFormat interface [COM], IVBFormat interface [COM],described, _com_IVBFormat, com.ivbformat, vbinterf/IVBFormat
 ms.prod: windows
 ms.technology: windows-sdk

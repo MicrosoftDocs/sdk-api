@@ -4,10 +4,10 @@ title: WSAEnumNetworkEvents function
 author: windows-sdk-content
 description: The WSAEnumNetworkEvents function discovers occurrences of network events for the indicated socket, clear internal network event records, and reset event objects (optional).
 old-location: winsock\wsaenumnetworkevents_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 2e6abccd-c82c-4a6b-8720-259986ac9984
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WSAEnumNetworkEvents, WSAEnumNetworkEvents function [Winsock], _win32_wsaenumnetworkevents_2, winsock.wsaenumnetworkevents_2, winsock2/WSAEnumNetworkEvents
 ms.prod: windows
 ms.technology: windows-sdk

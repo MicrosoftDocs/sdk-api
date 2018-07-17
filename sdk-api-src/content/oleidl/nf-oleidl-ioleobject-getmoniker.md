@@ -7,7 +7,7 @@ old-location: com\ioleobject_getmoniker.htm
 old-project: com
 ms.assetid: 6b81ca75-31d8-45d6-8b36-663c5f19341c
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: GetMoniker, GetMoniker method [COM], GetMoniker method [COM],IOleObject interface, IOleObject interface [COM],GetMoniker method, IOleObject.GetMoniker, IOleObject::GetMoniker, _ole_ioleobject_getmoniker, com.ioleobject_getmoniker, oleidl/IOleObject::GetMoniker
 ms.prod: windows
 ms.technology: windows-sdk

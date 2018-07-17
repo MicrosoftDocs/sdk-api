@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_TranslateClip_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicstranslateclipmethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Graphics.TranslateClip, Graphics::TranslateClip, TranslateClip, TranslateClip methods [GDI+], _gdiplus_CLASS_Graphics_TranslateClip_Methods, gdiplus._gdiplus_CLASS_Graphics_TranslateClip_Methods, gdiplusgraphics/TranslateClip
 ms.prod: windows
 ms.technology: windows-sdk

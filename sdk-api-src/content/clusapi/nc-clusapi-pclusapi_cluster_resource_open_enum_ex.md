@@ -7,8 +7,8 @@ old-location: mscs\clusterresourceopenenumex.htm
 old-project: mscs
 ms.assetid: B43460F1-4BFE-48E0-889A-56370320E4E6
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM_EX callback, PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM_EX, mscs.clusterresourceopenenumex
+ms.date: 07/12/2018
+ms.keywords: ClusterResourceOpenEnumEx, ClusterResourceOpenEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM_EX function [Failover Cluster], clusapi/ClusterResourceOpenEnumEx, clusapi/PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM_EX, mscs.clusterresourceopenenumex
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -32,15 +32,18 @@ topic_type:
  - APIRef
  - kbSyntax
 api_type:
- - UserDefined
+ - DllExport
 api_location:
- - ClusAPI.h
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
- - PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM_EX
+ - ClusterResourceOpenEnumEx
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ClusAPI.lib
+req.dll: ClusAPI.dll
 req.irql: 
 ---
 
@@ -87,7 +90,7 @@ The size, in bytes, of the <i>lpszRoProperties</i>  parameter.
 
 ### -param dwFlags [in]
 
-The index that identifies the next object to enumerate. This parameter should be zero for the first call to <i>ClusterResourceOpenEnumEx</i> and then be incremented for subsequent calls.
+The index that identifies the next object to enumerate. This parameter should be zero for the first call to <b>ClusterResourceOpenEnumEx</b> and then be incremented for subsequent calls.
 
 
 ## -returns

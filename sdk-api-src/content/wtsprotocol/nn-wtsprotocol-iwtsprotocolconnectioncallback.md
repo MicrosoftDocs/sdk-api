@@ -4,10 +4,10 @@ title: IWTSProtocolConnectionCallback
 author: windows-sdk-content
 description: IWTSProtocolConnectionCallback is no longer available. Instead, use IWRdsProtocolConnectionCallback.
 old-location: termserv\iwtsprotocolconnectioncallback.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: ac8a2a66-fa1f-48bd-9502-def833e26f31
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IWTSProtocolConnectionCallback, IWTSProtocolConnectionCallback interface [Remote Desktop Services], IWTSProtocolConnectionCallback interface [Remote Desktop Services],described, termserv.iwtsprotocolconnectioncallback, wtsprotocol/IWTSProtocolConnectionCallback
 ms.prod: windows
 ms.technology: windows-sdk

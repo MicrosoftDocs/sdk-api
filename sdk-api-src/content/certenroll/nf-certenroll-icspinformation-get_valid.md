@@ -7,7 +7,7 @@ old-location: security\icspinformation_valid_property.htm
 old-project: seccertenroll
 ms.assetid: 507896b0-598c-4a2d-854e-d4d266fdfaf7
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICspInformation interface [Security],Valid property, ICspInformation.Valid, ICspInformation.get_Valid, ICspInformation::Valid, ICspInformation::get_Valid, Valid property [Security], Valid property [Security],ICspInformation interface, certenroll/ICspInformation::Valid, certenroll/ICspInformation::get_Valid, get_Valid, security.icspinformation_valid_property
 ms.prod: windows
 ms.technology: windows-sdk

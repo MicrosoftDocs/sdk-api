@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Exclude_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionexcludemethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Exclude, Exclude methods [GDI+], Region.Exclude, Region.Exclude(IN const GraphicsPath), Region::Exclude, Region::Exclude(IN const GraphicsPath), _gdiplus_CLASS_Region_Exclude_Methods, gdiplus._gdiplus_CLASS_Region_Exclude_Methods, gdiplusheaders/Exclude
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IUnknown_GetWindow.htm
 old-project: shell
 ms.assetid: f8a6f61f-bea3-4049-89fb-c33ef00b327f
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IUnknown_GetWindow, IUnknown_GetWindow function [Windows Shell], _win32_IUnknown_GetWindow, shell.IUnknown_GetWindow, shlwapi/IUnknown_GetWindow
 ms.prod: windows
 ms.technology: windows-sdk

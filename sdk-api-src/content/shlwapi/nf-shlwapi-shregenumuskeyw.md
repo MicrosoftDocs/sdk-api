@@ -7,7 +7,7 @@ old-location: shell\SHRegEnumUSKey.htm
 old-project: shell
 ms.assetid: 9418ad45-f451-4976-afd7-fa1e0088038d
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: SHRegEnumUSKey, SHRegEnumUSKey function [Windows Shell], SHRegEnumUSKeyA, SHRegEnumUSKeyW, _win32_SHRegEnumUSKey, shell.SHRegEnumUSKey, shlwapi/SHRegEnumUSKey, shlwapi/SHRegEnumUSKeyA, shlwapi/SHRegEnumUSKeyW
 ms.prod: windows
 ms.technology: windows-sdk

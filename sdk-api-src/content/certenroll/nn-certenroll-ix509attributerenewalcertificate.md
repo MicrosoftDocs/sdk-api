@@ -7,7 +7,7 @@ old-location: security\ix509attributerenewalcertificate.htm
 old-project: seccertenroll
 ms.assetid: fc432a7a-6ef7-4359-bb53-1ed5df6bc0ab
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509AttributeRenewalCertificate, IX509AttributeRenewalCertificate interface [Security], IX509AttributeRenewalCertificate interface [Security],described, certenroll/IX509AttributeRenewalCertificate, security.ix509attributerenewalcertificate
 ms.prod: windows
 ms.technology: windows-sdk

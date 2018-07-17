@@ -4,10 +4,10 @@ title: WSCDeinstallProvider function
 author: windows-sdk-content
 description: Removes the specified transport provider from the system configuration database.
 old-location: winsock\wscdeinstallprovider_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 9a2afd11-1944-491f-9c92-9dbac6b3b28e
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WSCDeinstallProvider, WSCDeinstallProvider function [Winsock], _win32_wscdeinstallprovider_2, winsock.wscdeinstallprovider_2, ws2spi/WSCDeinstallProvider
 ms.prod: windows
 ms.technology: windows-sdk

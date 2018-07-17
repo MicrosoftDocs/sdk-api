@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_TransformVectors_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\matrixtransformvectorsmethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Matrix.TransformVectors, Matrix.TransformVectors(IN OUT Point,IN INT), Matrix::TransformVectors, Matrix::TransformVectors(IN OUT Point,IN INT), TransformVectors, TransformVectors methods [GDI+], _gdiplus_CLASS_Matrix_TransformVectors_Methods, gdiplus._gdiplus_CLASS_Matrix_TransformVectors_Methods, gdiplusmatrix/TransformVectors
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\FolderItems__NewEnum.htm
 old-project: shell
 ms.assetid: c03aceab-3437-46ae-be43-a54935bb24cb
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: FolderItems object [Windows Shell],_NewEnum method, FolderItems._NewEnum, FolderItems::_NewEnum, _NewEnum, _NewEnum method [Windows Shell], _NewEnum method [Windows Shell],FolderItems object, _win32_FolderItems__NewEnum, shell.FolderItems__NewEnum
 ms.prod: windows
 ms.technology: windows-sdk

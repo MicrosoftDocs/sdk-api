@@ -7,7 +7,7 @@ old-location: shell\SHLocalStrDup.htm
 old-project: shell
 ms.assetid: 79da6160-b1b1-41c3-9b21-229aadf251dd
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: SHLocalStrDup, SHLocalStrDup function [Windows Shell], SHLocalStrDupA, SHLocalStrDupW, _shell_SHLocalStrDup, shell.SHLocalStrDup, shlwapi/SHLocalStrDup, shlwapi/SHLocalStrDupA, shlwapi/SHLocalStrDupW
 ms.prod: windows
 ms.technology: windows-sdk

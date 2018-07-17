@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_Region_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_18.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(), Region.Region(IN const BYTE,IN INT), Region::Region, Region::Region(IN const BYTE,IN INT), _gdiplus_CLASS_Region_Region_, gdiplus._gdiplus_CLASS_Region_Region_
 ms.prod: windows
 ms.technology: windows-sdk

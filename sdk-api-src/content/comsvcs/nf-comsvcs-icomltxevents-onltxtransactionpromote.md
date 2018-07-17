@@ -7,7 +7,7 @@ old-location: cos\icomltxevents_onltxtransactionpromote.htm
 old-project: cossdk
 ms.assetid: 9cd9927c-355c-4d9f-b679-278e4b6897e1
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionPromote method, IComLTxEvents.OnLtxTransactionPromote, IComLTxEvents::OnLtxTransactionPromote, OnLtxTransactionPromote, OnLtxTransactionPromote method [COM+], OnLtxTransactionPromote method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionPromote, cos.icomltxevents_onltxtransactionpromote
 ms.prod: windows
 ms.technology: windows-sdk

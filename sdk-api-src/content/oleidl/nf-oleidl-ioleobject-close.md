@@ -7,7 +7,7 @@ old-location: com\ioleobject_close.htm
 old-project: com
 ms.assetid: 61ecd153-ed6b-4a2c-a862-54742c5769ee
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: Close, Close method [COM], Close method [COM],IOleObject interface, IOleObject interface [COM],Close method, IOleObject.Close, IOleObject::Close, _ole_ioleobject_close, com.ioleobject_close, oleidl/IOleObject::Close
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_WLAN_ASSOCIATION_ATTRIBUTES"
 author: windows-sdk-content
 description: Contains association attributes for a connection.
 old-location: nwifi\wlan_association_attributes.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: f7d3d106-54a9-4bdf-bccf-216cac938995
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*PWLAN_ASSOCIATION_ATTRIBUTES, PWLAN_ASSOCIATION_ATTRIBUTES, PWLAN_ASSOCIATION_ATTRIBUTES structure pointer [NativeWIFI], WLAN_ASSOCIATION_ATTRIBUTES, WLAN_ASSOCIATION_ATTRIBUTES structure [NativeWIFI], _WLAN_ASSOCIATION_ATTRIBUTES, nwifi.wlan_association_attributes, wlanapi/PWLAN_ASSOCIATION_ATTRIBUTES, wlanapi/WLAN_ASSOCIATION_ATTRIBUTES"
 ms.prod: windows
 ms.technology: windows-sdk

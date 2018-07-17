@@ -4,10 +4,10 @@ title: IRemoteDesktopClient
 author: windows-sdk-content
 description: Provides methods and properties used to configure and use the Remote Desktop Protocol (RDP) app container client control.
 old-location: termserv\iremotedesktopclient.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 4b4c1080-3ea1-4557-92d6-45a80a788071
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IRemoteDesktopClient, IRemoteDesktopClient interface [Remote Desktop Services], IRemoteDesktopClient interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClient, termserv.iremotedesktopclient
 ms.prod: windows
 ms.technology: windows-sdk

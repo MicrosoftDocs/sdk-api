@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch6.htm
 old-project: shell
 ms.assetid: 540A5CFD-1520-4B61-B461-E893EFA27115
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IShellDispatch6, IShellDispatch6 object [Windows Shell], IShellDispatch6 object [Windows Shell],described, shell.IShellDispatch6, shldisp/IShellDispatch6
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: GetGuiResources function
 author: windows-sdk-content
 description: Retrieves the count of handles to graphical user interface (GUI) objects in use by the specified process.
 old-location: base\getguiresources.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 55fbb7e8-79b4-4011-b522-25ea5a928b86
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: GR_GDIOBJECTS, GR_GDIOBJECTS_PEAK, GR_USEROBJECTS, GR_USEROBJECTS_PEAK, GetGuiResources, GetGuiResources function, _win32_getguiresources, base.getguiresources, winuser/GetGuiResources
 ms.prod: windows
 ms.technology: windows-sdk

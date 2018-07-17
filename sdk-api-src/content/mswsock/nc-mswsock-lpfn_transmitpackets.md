@@ -4,10 +4,10 @@ title: LPFN_TRANSMITPACKETS
 author: windows-sdk-content
 description: Transmits in-memory data or file data over a connected socket.
 old-location: winsock\transmitpackets_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: c574d320-2a90-40bb-b34c-6023e80514e6
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: LPFN_TRANSMITPACKETS, LPFN_TRANSMITPACKETS callback, LPFN_TRANSMITPACKETS callback function [Winsock], TF_DISCONNECT, TF_REUSE_SOCKET, TF_USE_DEFAULT_WORKER, TF_USE_KERNEL_APC, TF_USE_SYSTEM_THREAD, _win32_transmitpackets_2, mswsock/LPFN_TRANSMITPACKETS, winsock.transmitpackets_2
 ms.prod: windows
 ms.technology: windows-sdk

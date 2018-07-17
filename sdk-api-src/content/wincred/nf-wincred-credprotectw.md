@@ -4,10 +4,10 @@ title: CredProtectW function
 author: windows-sdk-content
 description: Encrypts the specified credentials so that only the current security context can decrypt them.
 old-location: security\credprotect.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 1e299dfb-2ffe-463c-9e2c-b7774a2216e3
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: CredProtect, CredProtect function [Security], CredProtectA, CredProtectW, security.credprotect, wincred/CredProtect, wincred/CredProtectA, wincred/CredProtectW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\cluspropertyvalue_format.htm
 old-project: mscs
 ms.assetid: a53a969b-9269-43c7-81a0-178e61a23058
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: CLUSPROP_FORMAT_BINARY, CLUSPROP_FORMAT_DWORD, CLUSPROP_FORMAT_EXPANDED_SZ, CLUSPROP_FORMAT_EXPAND_SZ, CLUSPROP_FORMAT_FILETIME, CLUSPROP_FORMAT_LARGE_INTEGER, CLUSPROP_FORMAT_LONG, CLUSPROP_FORMAT_MULTI_SZ, CLUSPROP_FORMAT_SECURITY_DESCRIPTOR, CLUSPROP_FORMAT_SZ, CLUSPROP_FORMAT_ULARGE_INTEGER, CLUSPROP_FORMAT_UNKNOWN, CLUSPROP_FORMAT_USER, CLUSPROP_FORMAT_WORD, ClusPropertyValue object [Failover Cluster],Format property, ClusPropertyValue.Format, Format property [Failover Cluster], Format property [Failover Cluster],ClusPropertyValue object, ISClusPropertyValue.get_Format, ISClusPropertyValue::get_Format, _wolf_cluspropertyvalue.format, get_Format, mscs.cluspropertyvalue_format
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\icertificatepolicies_remove_method.htm
 old-project: seccertenroll
 ms.assetid: 5cd010bb-50ee-4251-815e-1fb4de1f2a81
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICertificatePolicies interface [Security],Remove method, ICertificatePolicies.Remove, ICertificatePolicies::Remove, Remove, Remove method [Security], Remove method [Security],ICertificatePolicies interface, certenroll/ICertificatePolicies::Remove, security.icertificatepolicies_remove_method
 ms.prod: windows
 ms.technology: windows-sdk

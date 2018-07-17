@@ -4,10 +4,10 @@ title: IRDPViewerInputSink::SendKeyboardEvent
 author: windows-sdk-content
 description: Sends a keyboard event message.
 old-location: rdp\irdpviewerinputsink_sendkeyboardevent.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 28EDA0AD-9669-4232-BD41-4ADEC90CA3A7
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/13/2018
 ms.keywords: IRDPViewerInputSink interface [RDP],SendKeyboardEvent method, IRDPViewerInputSink.SendKeyboardEvent, IRDPViewerInputSink::SendKeyboardEvent, SendKeyboardEvent, SendKeyboardEvent method [RDP], SendKeyboardEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendkeyboardevent, rdpencomapi/IRDPViewerInputSink::SendKeyboardEvent
 ms.prod: windows
 ms.technology: windows-sdk

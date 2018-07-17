@@ -7,7 +7,7 @@ old-location: cos\ieventsystem_querys.htm
 old-project: cossdk
 ms.assetid: 6bb76b7b-c19c-43bd-a2cc-fbe7b98fa7b9
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: IEventSystem interface [COM+],QueryS method, IEventSystem.QueryS, IEventSystem::QueryS, QueryS, QueryS method [COM+], QueryS method [COM+],IEventSystem interface, _cos_IEventSystem_QueryS, cos.ieventsystem_querys, eventsys/IEventSystem::QueryS
 ms.prod: windows
 ms.technology: windows-sdk

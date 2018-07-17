@@ -7,7 +7,7 @@ old-location: security\icertproperties_initializefromcertificate_method.htm
 old-project: seccertenroll
 ms.assetid: 74de47cb-44fd-45d7-ba32-03824fc0995d
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICertProperties interface [Security],InitializeFromCertificate method, ICertProperties.InitializeFromCertificate, ICertProperties::InitializeFromCertificate, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],ICertProperties interface, certenroll/ICertProperties::InitializeFromCertificate, security.icertproperties_initializefromcertificate_method
 ms.prod: windows
 ms.technology: windows-sdk

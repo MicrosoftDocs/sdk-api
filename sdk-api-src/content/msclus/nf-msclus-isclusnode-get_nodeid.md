@@ -7,7 +7,7 @@ old-location: mscs\clusnode_nodeid.htm
 old-project: mscs
 ms.assetid: 8ef68a5e-e7a0-4b32-8649-4fd194520ea6
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusNode object [Failover Cluster],NodeID property, ClusNode.NodeID, ISClusNode.get_NodeID, ISClusNode::get_NodeID, NodeID property [Failover Cluster], NodeID property [Failover Cluster],ClusNode object, _wolf_clusnode.nodeid, get_NodeID, mscs.clusnode_nodeid
 ms.prod: windows
 ms.technology: windows-sdk

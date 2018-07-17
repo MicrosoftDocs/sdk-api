@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_EmfType.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\emftype.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: EmfType, EmfType enumeration [GDI+], EmfTypeEmfOnly, EmfTypeEmfPlusDual, EmfTypeEmfPlusOnly, _gdiplus_ENUM_EmfType, gdiplus._gdiplus_ENUM_EmfType, gdiplusenums/EmfType, gdiplusenums/EmfTypeEmfOnly, gdiplusenums/EmfTypeEmfPlusDual, gdiplusenums/EmfTypeEmfPlusOnly
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DhcpCreateSubnetV6 function
 author: windows-sdk-content
 description: The DhcpCreateSubnetV6 function creates a new subnet on the DHCP server.
 old-location: dhcp\dhcpcreatesubnetv6.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: a27ac111-39bf-4695-989a-1c83e7704ff4
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DhcpCreateSubnetV6, DhcpCreateSubnetV6 function [DHCP], dhcp.dhcpcreatesubnetv6, dhcpsapi/DhcpCreateSubnetV6
 ms.prod: windows
 ms.technology: windows-sdk

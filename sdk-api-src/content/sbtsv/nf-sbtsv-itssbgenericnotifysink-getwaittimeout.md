@@ -4,10 +4,10 @@ title: ITsSbGenericNotifySink::GetWaitTimeout
 author: windows-sdk-content
 description: Retrieves the wait timeout.
 old-location: termserv\itssbgenericnotifysink_getwaittimeout.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 685471bd-3228-4fdd-a91f-e8da2a6c3b91
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: GetWaitTimeout, GetWaitTimeout method [Remote Desktop Services], GetWaitTimeout method [Remote Desktop Services],ITsSbGenericNotifySink interface, ITsSbGenericNotifySink interface [Remote Desktop Services],GetWaitTimeout method, ITsSbGenericNotifySink.GetWaitTimeout, ITsSbGenericNotifySink::GetWaitTimeout, sbtsv/ITsSbGenericNotifySink::GetWaitTimeout, termserv.itssbgenericnotifysink_getwaittimeout
 ms.prod: windows
 ms.technology: windows-sdk

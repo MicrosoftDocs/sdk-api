@@ -2,7 +2,7 @@
 UID: TP:inputdev
 ms.assetid: 70e74cba-8c16-3058-9f60-28cc19fa9410
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

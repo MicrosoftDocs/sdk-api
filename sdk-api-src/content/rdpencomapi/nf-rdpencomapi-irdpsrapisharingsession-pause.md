@@ -4,10 +4,10 @@ title: IRDPSRAPISharingSession::Pause
 author: windows-sdk-content
 description: Pauses the graphics stream that is sent to all viewers from the sharer until IRDPSRAPISharingSession::Resume is called.
 old-location: rdp\irdpsrapisharingsession_pause.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 1ea0e8c4-39ef-4261-af7b-d27d6052c17d
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/13/2018
 ms.keywords: IRDPSRAPISharingSession interface [RDP],Pause method, IRDPSRAPISharingSession.Pause, IRDPSRAPISharingSession2 interface [RDP],Pause method, IRDPSRAPISharingSession2::Pause, IRDPSRAPISharingSession::Pause, Pause, Pause method [RDP], Pause method [RDP],IRDPSRAPISharingSession interface, Pause method [RDP],IRDPSRAPISharingSession2 interface, rdp.irdpsrapisharingsession_pause, rdpencomapi/IRDPSRAPISharingSession2::Pause, rdpencomapi/IRDPSRAPISharingSession::Pause
 ms.prod: windows
 ms.technology: windows-sdk

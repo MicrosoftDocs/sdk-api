@@ -4,10 +4,10 @@ title: IRDPSRAPISharingSession
 author: windows-sdk-content
 description: The main object that an application must create to start a collaboration session.
 old-location: rdp\irdpsrapisharingsession.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 531382ec-d94f-411e-bd43-86cd3066ac26
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/13/2018
 ms.keywords: IRDPSRAPISharingSession, IRDPSRAPISharingSession interface [RDP], IRDPSRAPISharingSession interface [RDP],described, rdp.irdpsrapisharingsession, rdpencomapi/IRDPSRAPISharingSession
 ms.prod: windows
 ms.technology: windows-sdk

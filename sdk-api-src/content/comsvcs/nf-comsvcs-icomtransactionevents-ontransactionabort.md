@@ -7,7 +7,7 @@ old-location: cos\icomtransactionevents_ontransactionabort.htm
 old-project: cossdk
 ms.assetid: 1dfba278-f733-486e-8bd2-f9dec0736e68
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/13/2018
 ms.keywords: IComTransactionEvents interface [COM+],OnTransactionAbort method, IComTransactionEvents.OnTransactionAbort, IComTransactionEvents::OnTransactionAbort, OnTransactionAbort, OnTransactionAbort method [COM+], OnTransactionAbort method [COM+],IComTransactionEvents interface, _dtc_IComTransactionEvents_OnTransactionAbort, comsvcs/IComTransactionEvents::OnTransactionAbort, cos.icomtransactionevents_ontransactionabort
 ms.prod: windows
 ms.technology: windows-sdk

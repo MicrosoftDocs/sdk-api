@@ -7,7 +7,7 @@ old-location: shell\IUserAccountChangeCallback_OnPictureChange.htm
 old-project: shell
 ms.assetid: 9e524edc-3921-4fec-9999-4fd9f51f347b
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IUserAccountChangeCallback interface [Windows Shell],OnPictureChange method, IUserAccountChangeCallback.OnPictureChange, IUserAccountChangeCallback::OnPictureChange, OnPictureChange, OnPictureChange method [Windows Shell], OnPictureChange method [Windows Shell],IUserAccountChangeCallback interface, _shell_IUserAccountChangeCallback_OnPictureChange, shell.IUserAccountChangeCallback_OnPictureChange, shobjidl/IUserAccountChangeCallback::OnPictureChange
 ms.prod: windows
 ms.technology: windows-sdk

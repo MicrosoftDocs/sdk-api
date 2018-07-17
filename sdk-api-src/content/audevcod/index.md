@@ -2,7 +2,7 @@
 UID: NA:audevcod
 ms.assetid: d00688ec-e1c0-355e-b0dc-719be4570fb8
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

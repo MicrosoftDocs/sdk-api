@@ -7,7 +7,7 @@ old-location: security\ialternativename_objectid_property.htm
 old-project: seccertenroll
 ms.assetid: be14756b-a7dc-40f4-ae09-b576f85837f6
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IAlternativeName interface [Security],ObjectId property, IAlternativeName.ObjectId, IAlternativeName.get_ObjectId, IAlternativeName::ObjectId, IAlternativeName::get_ObjectId, ObjectId property [Security], ObjectId property [Security],IAlternativeName interface, certenroll/IAlternativeName::ObjectId, certenroll/IAlternativeName::get_ObjectId, get_ObjectId, security.ialternativename_objectid_property
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\iconfiginterleaving.htm
 old-project: DirectShow
 ms.assetid: 68594752-a711-4372-95db-10947bd2ce39
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IConfigInterleaving, IConfigInterleaving interface [DirectShow], IConfigInterleaving interface [DirectShow],described, IConfigInterleavingInterface, dshow.iconfiginterleaving, strmif/IConfigInterleaving
 ms.prod: windows
 ms.technology: windows-sdk

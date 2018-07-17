@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetFillMode_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\getfillmode.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: GetFillMode, GetFillMode method [GDI+], GetFillMode method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetFillMode method, GraphicsPath.GetFillMode, GraphicsPath::GetFillMode, _gdiplus_CLASS_GraphicsPath_GetFillMode_, gdiplus._gdiplus_CLASS_GraphicsPath_GetFillMode_
 ms.prod: windows
 ms.technology: windows-sdk

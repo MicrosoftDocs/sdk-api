@@ -4,10 +4,10 @@ title: WSCInstallNameSpaceEx function
 author: windows-sdk-content
 description: Installs a namespace provider.
 old-location: winsock\wscinstallnamespaceex.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: 13dde602-c958-4312-a16f-a393dd6fb829
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WSCInstallNameSpaceEx, WSCInstallNameSpaceEx function [Winsock], winsock.wscinstallnamespaceex, ws2spi/WSCInstallNameSpaceEx
 ms.prod: windows
 ms.technology: windows-sdk

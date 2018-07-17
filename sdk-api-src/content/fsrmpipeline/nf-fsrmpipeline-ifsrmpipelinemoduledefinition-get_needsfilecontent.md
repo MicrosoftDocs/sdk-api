@@ -4,10 +4,10 @@ title: IFsrmPipelineModuleDefinition::get_NeedsFileContent
 author: windows-sdk-content
 description: Determines whether the module needs to read the contents of the file.
 old-location: fsrm\ifsrmpipelinemoduledefinition_needsfilecontent.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: c2cbcfe1-113c-4eb9-9dea-5619bcda58a2
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],NeedsFileContent property, IFsrmPipelineModuleDefinition.NeedsFileContent, IFsrmPipelineModuleDefinition.get_NeedsFileContent, IFsrmPipelineModuleDefinition::NeedsFileContent, IFsrmPipelineModuleDefinition::get_NeedsFileContent, IFsrmPipelineModuleDefinition::put_NeedsFileContent, NeedsFileContent property [File Server Resource Manager], NeedsFileContent property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_needsfilecontent, fsrm.ifsrmpipelinemoduledefinition_needsfilecontent, fsrmpipeline/IFsrmPipelineModuleDefinition::NeedsFileContent, fsrmpipeline/IFsrmPipelineModuleDefinition::get_NeedsFileContent, fsrmpipeline/IFsrmPipelineModuleDefinition::put_NeedsFileContent, get_NeedsFileContent
 ms.prod: windows
 ms.technology: windows-sdk

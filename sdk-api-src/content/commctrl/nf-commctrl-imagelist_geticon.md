@@ -4,10 +4,10 @@ title: ImageList_GetIcon function
 author: windows-sdk-content
 description: Creates an icon from an image and mask in an image list.
 old-location: controls\ImageList_GetIcon.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_geticon.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: ImageList_GetIcon, ImageList_GetIcon function [Windows Controls], _win32_ImageList_GetIcon, _win32_ImageList_GetIcon_cpp, commctrl/ImageList_GetIcon, controls.ImageList_GetIcon, controls._win32_ImageList_GetIcon
 ms.prod: windows
 ms.technology: windows-sdk

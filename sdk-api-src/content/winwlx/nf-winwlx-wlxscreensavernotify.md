@@ -4,10 +4,10 @@ title: WlxScreenSaverNotify function
 author: windows-sdk-content
 description: Winlogon calls this function immediately before a screen saver is activated, allowing the GINA to interact with the screen saver program.
 old-location: security\wlxscreensavernotify.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 72ed356d-bae3-42ac-87c2-99305951e24b
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WlxScreenSaverNotify, WlxScreenSaverNotify function [Security], _gina_wlxscreensavernotify, security.wlxscreensavernotify, winwlx/WlxScreenSaverNotify
 ms.prod: windows
 ms.technology: windows-sdk

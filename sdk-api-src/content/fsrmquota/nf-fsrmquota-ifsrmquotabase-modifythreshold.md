@@ -4,10 +4,10 @@ title: IFsrmQuotaBase::ModifyThreshold
 author: windows-sdk-content
 description: Changes the threshold value.
 old-location: fsrm\ifsrmquotabase_modifythreshold.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 46cda78a-7c1d-42e0-abff-3be9c13925f5
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IFsrmQuotaBase interface [File Server Resource Manager],ModifyThreshold method, IFsrmQuotaBase.ModifyThreshold, IFsrmQuotaBase::ModifyThreshold, ModifyThreshold, ModifyThreshold method [File Server Resource Manager], ModifyThreshold method [File Server Resource Manager],IFsrmQuotaBase interface, fs.ifsrmquotabase_modifythreshold, fsrm.ifsrmquotabase_modifythreshold, fsrmquota/IFsrmQuotaBase::ModifyThreshold
 ms.prod: windows
 ms.technology: windows-sdk

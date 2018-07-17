@@ -4,10 +4,10 @@ title: IFsrmReportJob::put_Formats
 author: windows-sdk-content
 description: Retrieves or sets an array of formats that determine the content format of the reports.
 old-location: fsrm\ifsrmreportjob_formats.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 9d0f7a7f-ad25-4d44-bc11-67da7685142a
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: Formats property [File Server Resource Manager], Formats property [File Server Resource Manager],IFsrmReportJob interface, IFsrmReportJob interface [File Server Resource Manager],Formats property, IFsrmReportJob.Formats, IFsrmReportJob.put_Formats, IFsrmReportJob::Formats, IFsrmReportJob::get_Formats, IFsrmReportJob::put_Formats, fs.ifsrmreportjob_formats, fsrm.ifsrmreportjob_formats, fsrmreports/IFsrmReportJob::Formats, fsrmreports/IFsrmReportJob::get_Formats, fsrmreports/IFsrmReportJob::put_Formats, put_Formats
 ms.prod: windows
 ms.technology: windows-sdk

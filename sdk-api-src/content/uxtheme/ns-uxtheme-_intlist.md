@@ -4,10 +4,10 @@ title: "_INTLIST"
 author: windows-sdk-content
 description: Contains an array or list of int data items from a visual style.
 old-location: controls\INTLIST.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\intlist.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: "*PINTLIST, INTLIST, INTLIST structure [Windows Controls], PINTLIST, PINTLIST structure pointer [Windows Controls], _INTLIST, controls.INTLIST, controls.inet_INTLIST, inet_INTLIST, inet_INTLIST_cpp, uxtheme/INTLIST, uxtheme/PINTLIST"
 ms.prod: windows
 ms.technology: windows-sdk

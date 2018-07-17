@@ -4,10 +4,10 @@ title: PropSheet_UnChanged macro
 author: windows-sdk-content
 description: Informs a property sheet that information in a page has reverted to the previously saved state. You can use this macro or send the PSM_UNCHANGED message explicitly.
 old-location: controls\PropSheet_UnChanged.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_unchanged.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: PropSheet_UnChanged, PropSheet_UnChanged macro [Windows Controls], _win32_PropSheet_UnChanged, _win32_PropSheet_UnChanged_cpp, controls.PropSheet_UnChanged, controls._win32_PropSheet_UnChanged, prsht/PropSheet_UnChanged
 ms.prod: windows
 ms.technology: windows-sdk

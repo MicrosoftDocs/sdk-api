@@ -4,10 +4,10 @@ title: IFsrmReport::SetFilter
 author: windows-sdk-content
 description: Sets the current value of the specified report filter.
 old-location: fsrm\ifsrmreport_setfilter.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 6d36e3e2-7826-4bae-943c-3ab73404534c
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IFsrmReport interface [File Server Resource Manager],SetFilter method, IFsrmReport.SetFilter, IFsrmReport::SetFilter, SetFilter, SetFilter method [File Server Resource Manager], SetFilter method [File Server Resource Manager],IFsrmReport interface, fs.ifsrmreport_setfilter, fsrm.ifsrmreport_setfilter, fsrmreports/IFsrmReport::SetFilter
 ms.prod: windows
 ms.technology: windows-sdk

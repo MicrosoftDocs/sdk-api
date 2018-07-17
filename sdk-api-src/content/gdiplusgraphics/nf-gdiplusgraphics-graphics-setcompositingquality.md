@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_SetCompositingQuality_compositingQ
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\setcompositingquality.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Graphics class [GDI+],SetCompositingQuality method, Graphics.SetCompositingQuality, Graphics::SetCompositingQuality, SetCompositingQuality, SetCompositingQuality method [GDI+], SetCompositingQuality method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetCompositingQuality_compositingQuality_, gdiplus._gdiplus_CLASS_Graphics_SetCompositingQuality_compositingQuality_
 ms.prod: windows
 ms.technology: windows-sdk

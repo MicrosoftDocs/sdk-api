@@ -7,7 +7,7 @@ old-location: mmc\iextendcontextmenu_addmenuitems.htm
 old-project: mmc
 ms.assetid: d4fc7bfd-b017-466e-81f2-74f13aec4b52
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: AddMenuItems, AddMenuItems method [MMC], AddMenuItems method [MMC],IExtendContextMenu interface, CCM_INSERTIONALLOWED_NEW, CCM_INSERTIONALLOWED_TASK, CCM_INSERTIONALLOWED_TOP, CCM_INSERTIONALLOWED_VIEW, IExtendContextMenu interface [MMC],AddMenuItems method, IExtendContextMenu.AddMenuItems, IExtendContextMenu::AddMenuItems, _slate_iextendcontextmenu_addmenuitems, mmc.iextendcontextmenu_addmenuitems, mmc/IExtendContextMenu::AddMenuItems
 ms.prod: windows
 ms.technology: windows-sdk

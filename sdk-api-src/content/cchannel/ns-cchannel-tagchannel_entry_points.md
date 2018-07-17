@@ -4,10 +4,10 @@ title: tagCHANNEL_ENTRY_POINTS
 author: windows-sdk-content
 description: Contains pointers to the functions called by a client-side DLL to access virtual channels.
 old-location: termserv\channel_entry_points_str.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: f64471b0-1f2e-48cb-9f9c-1bb536afc248
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*PCHANNEL_ENTRY_POINTS, CHANNEL_ENTRY_POINTS, CHANNEL_ENTRY_POINTS structure [Remote Desktop Services], PCHANNEL_ENTRY_POINTS, PCHANNEL_ENTRY_POINTS structure pointer [Remote Desktop Services], _win32_channel_entry_points_str, cchannel/CHANNEL_ENTRY_POINTS, cchannel/PCHANNEL_ENTRY_POINTS, tagCHANNEL_ENTRY_POINTS, termserv.channel_entry_points_str"
 ms.prod: windows
 ms.technology: windows-sdk

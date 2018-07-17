@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_NextSubpath_Methods.ht
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\graphicspathiteratornextsubpathmethods.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: GraphicsPathIterator.NextSubpath, GraphicsPathIterator.NextSubpath(OUT const GraphicsPath,OUT BOOL), GraphicsPathIterator::NextSubpath, GraphicsPathIterator::NextSubpath(OUT const GraphicsPath,OUT BOOL), NextSubpath, NextSubpath methods [GDI+], _gdiplus_CLASS_GraphicsPathIterator_NextSubpath_Methods, gdiplus._gdiplus_CLASS_GraphicsPathIterator_NextSubpath_Methods, gdipluspath/NextSubpath
 ms.prod: windows
 ms.technology: windows-sdk

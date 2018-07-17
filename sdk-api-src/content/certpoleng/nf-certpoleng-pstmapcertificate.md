@@ -4,10 +4,10 @@ title: PstMapCertificate function
 author: windows-sdk-content
 description: Retrieves a structure that specifies information that can be used to create a user token associated with the specified certificate.
 old-location: security\pstmapcertificate.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: b4e7e3b0-97ec-4c59-b2a1-cb83a27df94d
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: PstMapCertificate, PstMapCertificate function [Security], certpoleng/PstMapCertificate, security.pstmapcertificate
 ms.prod: windows
 ms.technology: windows-sdk

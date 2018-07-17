@@ -4,10 +4,10 @@ title: IFsrmQuota::RefreshUsageProperties
 author: windows-sdk-content
 description: Refreshes this object's quota usage information from the current information in FSRM.
 old-location: fsrm\ifsrmquota_refreshusageproperties.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 1aa20d1a-4259-4ae0-9717-957f7b8b984e
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IFsrmQuota interface [File Server Resource Manager],RefreshUsageProperties method, IFsrmQuota.RefreshUsageProperties, IFsrmQuota::RefreshUsageProperties, RefreshUsageProperties, RefreshUsageProperties method [File Server Resource Manager], RefreshUsageProperties method [File Server Resource Manager],IFsrmQuota interface, fs.ifsrmquota_refreshusageproperties, fsrm.ifsrmquota_refreshusageproperties, fsrmquota/IFsrmQuota::RefreshUsageProperties
 ms.prod: windows
 ms.technology: windows-sdk

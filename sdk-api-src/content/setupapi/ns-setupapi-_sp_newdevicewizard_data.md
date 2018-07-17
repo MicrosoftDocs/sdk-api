@@ -7,7 +7,7 @@ old-location: devinst\sp_addpropertypage_data.htm
 old-project: devinst
 ms.assetid: 065c83b1-4b5d-4988-871a-48b0f8b14be7
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: "*PSP_NEWDEVICEWIZARD_DATA, PSP_ADDPROPERTYPAGE_DATA, PSP_ADDPROPERTYPAGE_DATA structure pointer [Device and Driver Installation], SP_ADDPROPERTYPAGE_DATA, SP_ADDPROPERTYPAGE_DATA structure [Device and Driver Installation], SP_NEWDEVICEWIZARD_DATA, _SP_NEWDEVICEWIZARD_DATA, devinst.sp_addpropertypage_data, di-struct_d555aae2-5898-4b20-b20c-163ff3ee2cdd.xml, setupapi/PSP_ADDPROPERTYPAGE_DATA, setupapi/SP_ADDPROPERTYPAGE_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

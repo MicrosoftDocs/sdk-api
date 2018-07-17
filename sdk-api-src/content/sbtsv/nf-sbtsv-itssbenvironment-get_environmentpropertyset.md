@@ -4,10 +4,10 @@ title: ITsSbEnvironment::get_EnvironmentPropertySet
 author: windows-sdk-content
 description: Retrieves or specifies the property set for the environment that hosts the target computer.
 old-location: termserv\itssbenvironment_environmentpropertyset.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 1615cfbc-09f7-4304-9995-fc1a26b76ce6
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: EnvironmentPropertySet property [Remote Desktop Services], EnvironmentPropertySet property [Remote Desktop Services],ITsSbEnvironment interface, ITsSbEnvironment interface [Remote Desktop Services],EnvironmentPropertySet property, ITsSbEnvironment.EnvironmentPropertySet, ITsSbEnvironment.get_EnvironmentPropertySet, ITsSbEnvironment::EnvironmentPropertySet, ITsSbEnvironment::get_EnvironmentPropertySet, ITsSbEnvironment::put_EnvironmentPropertySet, get_EnvironmentPropertySet, sbtsv/ITsSbEnvironment::EnvironmentPropertySet, sbtsv/ITsSbEnvironment::get_EnvironmentPropertySet, sbtsv/ITsSbEnvironment::put_EnvironmentPropertySet, termserv.itssbenvironment_environmentpropertyset
 ms.prod: windows
 ms.technology: windows-sdk

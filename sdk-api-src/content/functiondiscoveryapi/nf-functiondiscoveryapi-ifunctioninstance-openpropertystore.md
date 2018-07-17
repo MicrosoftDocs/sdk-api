@@ -4,10 +4,10 @@ title: IFunctionInstance::OpenPropertyStore
 author: windows-sdk-content
 description: Opens the property store for the function instance.
 old-location: ncd\ifunctioninstance_openpropertystore_method.htm
-old-project: FunDisc
+old-project: fundisc
 ms.assetid: 3e03567b-7bac-4bef-ae62-a040f0c33cfb
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/12/2018
 ms.keywords: IFunctionInstance interface,OpenPropertyStore method, IFunctionInstance.OpenPropertyStore, IFunctionInstance::OpenPropertyStore, OpenPropertyStore, OpenPropertyStore method, OpenPropertyStore method,IFunctionInstance interface, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryapi/IFunctionInstance::OpenPropertyStore, ncd.ifunctioninstance_openpropertystore_method
 ms.prod: windows
 ms.technology: windows-sdk

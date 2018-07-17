@@ -7,7 +7,7 @@ old-location: security\ix509attributeclientid_usersamname_property.htm
 old-project: seccertenroll
 ms.assetid: a5a5027f-3854-4064-9cf7-675562b4cd57
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509AttributeClientId interface [Security],UserSamName property, IX509AttributeClientId.UserSamName, IX509AttributeClientId.get_UserSamName, IX509AttributeClientId::UserSamName, IX509AttributeClientId::get_UserSamName, UserSamName property [Security], UserSamName property [Security],IX509AttributeClientId interface, certenroll/IX509AttributeClientId::UserSamName, certenroll/IX509AttributeClientId::get_UserSamName, get_UserSamName, security.ix509attributeclientid_usersamname_property
 ms.prod: windows
 ms.technology: windows-sdk

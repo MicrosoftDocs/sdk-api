@@ -7,7 +7,7 @@ old-location: shell\StrCmpN.htm
 old-project: shell
 ms.assetid: e2d97502-1819-463e-a56a-2d22b33502b7
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: StrCmpN, StrCmpN function [Windows Shell], StrCmpNA, StrCmpNW, _win32_StrCmpN, shell.StrCmpN, shlwapi/StrCmpN, shlwapi/StrCmpNA, shlwapi/StrCmpNW
 ms.prod: windows
 ms.technology: windows-sdk

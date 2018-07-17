@@ -4,10 +4,10 @@ title: PropSheet_SetWizButtons macro
 author: windows-sdk-content
 description: Enables or disables the Back, Next, and Finish buttons in a wizard by posting a PSM_SETWIZBUTTONS message. You can use this macro or send the PSM_SETWIZBUTTONS message explicitly.
 old-location: controls\PropSheet_SetWizButtons.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setwizbuttons.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: PSWIZB_BACK, PSWIZB_DISABLEDFINISH, PSWIZB_FINISH, PSWIZB_NEXT, PropSheet_SetWizButtons, PropSheet_SetWizButtons macro [Windows Controls], _win32_PropSheet_SetWizButtons, _win32_PropSheet_SetWizButtons_cpp, controls.PropSheet_SetWizButtons, controls._win32_PropSheet_SetWizButtons, prsht/PropSheet_SetWizButtons
 ms.prod: windows
 ms.technology: windows-sdk

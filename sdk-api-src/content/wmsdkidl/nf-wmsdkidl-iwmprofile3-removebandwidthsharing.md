@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofile3_removebandwidthsharing.htm
 old-project: wmformat
 ms.assetid: 3c0a90aa-154a-49c9-ab8e-0d1c4ce02641
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: IWMProfile3 interface [windows Media Format],RemoveBandwidthSharing method, IWMProfile3.RemoveBandwidthSharing, IWMProfile3::RemoveBandwidthSharing, IWMProfile3RemoveBandwidthSharing, RemoveBandwidthSharing, RemoveBandwidthSharing method [windows Media Format], RemoveBandwidthSharing method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile3_removebandwidthsharing, wmsdkidl/IWMProfile3::RemoveBandwidthSharing
 ms.prod: windows
 ms.technology: windows-sdk

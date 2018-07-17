@@ -7,7 +7,7 @@ old-location: security\isignercertificate_initialize_method.htm
 old-project: seccertenroll
 ms.assetid: 2553f0bc-a177-49fc-932f-080cb4bd7a5c
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ISignerCertificate interface [Security],Initialize method, ISignerCertificate.Initialize, ISignerCertificate::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ISignerCertificate interface, certenroll/ISignerCertificate::Initialize, security.isignercertificate_initialize_method
 ms.prod: windows
 ms.technology: windows-sdk

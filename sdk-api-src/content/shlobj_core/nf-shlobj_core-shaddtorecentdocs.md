@@ -7,7 +7,7 @@ old-location: shell\SHAddToRecentDocs.htm
 old-project: shell
 ms.assetid: 84e065e6-b68d-4303-b98b-3f8507539468
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: SHAddToRecentDocs, SHAddToRecentDocs function [Windows Shell], _win32_SHAddToRecentDocs, shell.SHAddToRecentDocs, shlobj_core/SHAddToRecentDocs
 ms.prod: windows
 ms.technology: windows-sdk

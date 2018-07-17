@@ -4,10 +4,10 @@ title: SCardEndTransaction function
 author: windows-sdk-content
 description: Completes a previously declared transaction, allowing other applications to resume interactions with the card.
 old-location: security\scardendtransaction.htm
-old-project: SecAuthN
+old-project: secauthn
 ms.assetid: 0acaff20-006a-47d3-bc7a-834b3281cde6
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: SCARD_EJECT_CARD, SCARD_LEAVE_CARD, SCARD_RESET_CARD, SCARD_UNPOWER_CARD, SCardEndTransaction, SCardEndTransaction function [Security], _smart_scardendtransaction, security.scardendtransaction, winscard/SCardEndTransaction
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IRDPSRAPIAttendeeManager
 author: windows-sdk-content
 description: Manages attendee objects.
 old-location: rdp\irdpsrapiattendeemanager.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 202b539c-b7a0-4cf3-ba64-f60cc062575a
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/13/2018
 ms.keywords: IRDPSRAPIAttendeeManager, IRDPSRAPIAttendeeManager interface [RDP], IRDPSRAPIAttendeeManager interface [RDP],described, rdp.irdpsrapiattendeemanager, rdpencomapi/IRDPSRAPIAttendeeManager
 ms.prod: windows
 ms.technology: windows-sdk

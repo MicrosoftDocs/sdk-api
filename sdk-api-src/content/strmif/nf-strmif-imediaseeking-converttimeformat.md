@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking_converttimeformat.htm
 old-project: DirectShow
 ms.assetid: 868ec03e-d4e5-4a1e-914a-6be8933f1c7c
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: ConvertTimeFormat, ConvertTimeFormat method [DirectShow], ConvertTimeFormat method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],ConvertTimeFormat method, IMediaSeeking.ConvertTimeFormat, IMediaSeeking::ConvertTimeFormat, IMediaSeekingConvertTimeFormat, dshow.imediaseeking_converttimeformat, strmif/IMediaSeeking::ConvertTimeFormat
 ms.prod: windows
 ms.technology: windows-sdk

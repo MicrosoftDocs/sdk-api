@@ -7,7 +7,7 @@ old-location: security\ix509extension.htm
 old-project: seccertenroll
 ms.assetid: f04e3f63-c826-4401-a1c8-b2614e0dc374
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509Extension, IX509Extension interface [Security], IX509Extension interface [Security],described, certenroll/IX509Extension, security.ix509extension
 ms.prod: windows
 ms.technology: windows-sdk

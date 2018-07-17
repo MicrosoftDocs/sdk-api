@@ -7,7 +7,7 @@ old-location: winprog\ntqueryobject.htm
 old-project: DevNotes
 ms.assetid: 08c801b5-a315-413e-adc5-576e6a740465
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: NtQueryObject, NtQueryObject function [Windows API], winprog.ntqueryobject, winternl/NtQueryObject
 ms.prod: windows
 ms.technology: windows-sdk

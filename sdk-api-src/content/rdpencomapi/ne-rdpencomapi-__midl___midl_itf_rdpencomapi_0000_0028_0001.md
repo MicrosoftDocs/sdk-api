@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_rdpencomapi_0000_0028_0001"
 author: windows-sdk-content
 description: Defines values for some of the constants used in this API.
 old-location: rdp\rdpencomapi_constants.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 50c56089-75f9-41c9-a4a4-10556f98d6e8
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/13/2018
 ms.keywords: CONST_ATTENDEE_ID_DEFAULT, CONST_ATTENDEE_ID_EVERYONE, CONST_ATTENDEE_ID_HOST, CONST_CONN_INTERVAL, CONST_MAX_CHANNEL_MESSAGE_SIZE, CONST_MAX_CHANNEL_NAME_LEN, CONST_MAX_LEGACY_CHANNEL_MESSAGE_SIZE, RDPENCOMAPI_CONSTANTS, RDPENCOMAPI_CONSTANTS enumeration [RDP], __MIDL___MIDL_itf_rdpencomapi_0000_0028_0001, rdp.rdpencomapi_constants, rdpencomapi/CONST_ATTENDEE_ID_DEFAULT, rdpencomapi/CONST_ATTENDEE_ID_EVERYONE, rdpencomapi/CONST_ATTENDEE_ID_HOST, rdpencomapi/CONST_CONN_INTERVAL, rdpencomapi/CONST_MAX_CHANNEL_MESSAGE_SIZE, rdpencomapi/CONST_MAX_CHANNEL_NAME_LEN, rdpencomapi/CONST_MAX_LEGACY_CHANNEL_MESSAGE_SIZE, rdpencomapi/RDPENCOMAPI_CONSTANTS
 ms.prod: windows
 ms.technology: windows-sdk

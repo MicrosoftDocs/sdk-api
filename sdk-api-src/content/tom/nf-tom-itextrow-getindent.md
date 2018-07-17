@@ -4,10 +4,10 @@ title: ITextRow::GetIndent
 author: windows-sdk-content
 description: Gets the indent of this row.
 old-location: controls\itextrow_getindent.htm
-old-project: controls
+old-project: Controls
 ms.assetid: 9caea02f-f8db-4366-aea6-d40759b8f792
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: GetIndent, GetIndent method [Windows Controls], GetIndent method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetIndent method, ITextRow.GetIndent, ITextRow::GetIndent, controls.itextrow_getindent, tom/ITextRow::GetIndent
 ms.prod: windows
 ms.technology: windows-sdk

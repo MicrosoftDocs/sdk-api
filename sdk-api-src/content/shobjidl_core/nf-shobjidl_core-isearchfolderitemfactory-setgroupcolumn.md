@@ -7,7 +7,7 @@ old-location: shell\ISearchFolderItemFactory_SetGroupColumn.htm
 old-project: shell
 ms.assetid: 52967ebe-3a8c-4696-aa5d-251a4cf58469
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetGroupColumn method, ISearchFolderItemFactory.SetGroupColumn, ISearchFolderItemFactory::SetGroupColumn, SetGroupColumn, SetGroupColumn method [Windows Shell], SetGroupColumn method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetGroupColumn, shell.ISearchFolderItemFactory_SetGroupColumn, shobjidl_core/ISearchFolderItemFactory::SetGroupColumn
 ms.prod: windows
 ms.technology: windows-sdk

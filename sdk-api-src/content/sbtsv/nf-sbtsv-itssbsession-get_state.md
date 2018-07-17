@@ -4,10 +4,10 @@ title: ITsSbSession::get_State
 author: windows-sdk-content
 description: Retrieves or specifies the session state.
 old-location: termserv\itssbsession_state.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 4e769ff7-2bd5-4fcb-b2d7-4dedc853482b
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],State property, ITsSbSession.State, ITsSbSession.get_State, ITsSbSession::State, ITsSbSession::get_State, ITsSbSession::put_State, State property [Remote Desktop Services], State property [Remote Desktop Services],ITsSbSession interface, get_State, sbtsv/ITsSbSession::State, sbtsv/ITsSbSession::get_State, sbtsv/ITsSbSession::put_State, termserv.itssbsession_state
 ms.prod: windows
 ms.technology: windows-sdk

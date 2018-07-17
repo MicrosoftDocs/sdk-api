@@ -7,7 +7,7 @@ old-location: security\ipolicyqualifier.htm
 old-project: seccertenroll
 ms.assetid: 3804e372-17bb-458d-8da5-85d760fe5e60
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IPolicyQualifier, IPolicyQualifier interface [Security], IPolicyQualifier interface [Security],described, certenroll/IPolicyQualifier, security.ipolicyqualifier
 ms.prod: windows
 ms.technology: windows-sdk

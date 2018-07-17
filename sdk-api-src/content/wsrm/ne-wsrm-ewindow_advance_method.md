@@ -4,10 +4,10 @@ title: eWINDOW_ADVANCE_METHOD
 author: windows-sdk-content
 description: The eWINDOW_ADVANCE_METHOD enumeration specifies the window advance mode used for Reliable Multicast.
 old-location: winsock\ewindow_advance_method.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: cd6f0809-ca6b-4a83-ae21-aea1cb4a101a
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: E_WINDOW_ADVANCE_BY_TIME, E_WINDOW_USE_AS_DATA_CACHE, eWINDOW_ADVANCE_METHOD, eWINDOW_ADVANCE_METHOD enumeration [Winsock], winsock.ewindow_advance_method, wsrm/E_WINDOW_ADVANCE_BY_TIME, wsrm/E_WINDOW_USE_AS_DATA_CACHE, wsrm/eWINDOW_ADVANCE_METHOD
 ms.prod: windows
 ms.technology: windows-sdk

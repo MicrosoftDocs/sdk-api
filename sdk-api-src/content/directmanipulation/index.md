@@ -2,13 +2,13 @@
 UID: NA:directmanipulation
 ms.assetid: 4adf8ddb-e5c1-3879-be51-17c50edcc23b
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: directmanipulation
 archived: true
+tech.root: directmanipulation
 ---
 
 # Directmanipulation.h header

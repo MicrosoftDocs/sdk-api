@@ -7,7 +7,7 @@ old-location: iscsidisc\addradiusserver.htm
 old-project: iSCSIDisc
 ms.assetid: ed89b329-f1ea-4606-b305-a245d29b119c
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/12/2018
 ms.keywords: AddRadiusServer, AddRadiusServer function [iSCSI Discovery Library API], AddRadiusServerA, AddRadiusServerW, iscsidisc.addradiusserver, iscsidsc/AddRadiusServer, iscsidsc/AddRadiusServerA, iscsidsc/AddRadiusServerW
 ms.prod: windows
 ms.technology: windows-sdk

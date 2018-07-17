@@ -2,13 +2,13 @@
 UID: NA:wabtags
 ms.assetid: 95712084-f6c7-32d3-90ec-060f4f56f1ba
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: wab
 archived: true
+tech.root: wab
 ---
 
 # Wabtags.h header

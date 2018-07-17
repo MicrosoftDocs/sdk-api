@@ -4,10 +4,10 @@ title: "_WLAN_MSM_NOTIFICATION_DATA"
 author: windows-sdk-content
 description: Contains information about media specific module (MSM) connection related notifications.
 old-location: nwifi\wlan_msm_notification_data.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: 76693a8e-7df8-45f0-a3c1-7960de27250c
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*PWLAN_MSM_NOTIFICATION_DATA, PWLAN_MSM_NOTIFICATION_DATA, PWLAN_MSM_NOTIFICATION_DATA structure pointer [NativeWIFI], WLAN_MSM_NOTIFICATION_DATA, WLAN_MSM_NOTIFICATION_DATA structure [NativeWIFI], _WLAN_MSM_NOTIFICATION_DATA, nwifi.wlan_msm_notification_data, wlanapi/PWLAN_MSM_NOTIFICATION_DATA, wlanapi/WLAN_MSM_NOTIFICATION_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

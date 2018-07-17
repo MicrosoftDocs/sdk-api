@@ -7,7 +7,7 @@ old-location: security\icspstatus_cspinformation.htm
 old-project: seccertenroll
 ms.assetid: 9e9202ad-086e-493b-8830-0a0f8980cec5
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: CspInformation property [Security], CspInformation property [Security],ICspStatus interface, ICspStatus interface [Security],CspInformation property, ICspStatus.CspInformation, ICspStatus.get_CspInformation, ICspStatus::CspInformation, ICspStatus::get_CspInformation, certenroll/ICspStatus::CspInformation, certenroll/ICspStatus::get_CspInformation, get_CspInformation, security.icspstatus_cspinformation
 ms.prod: windows
 ms.technology: windows-sdk

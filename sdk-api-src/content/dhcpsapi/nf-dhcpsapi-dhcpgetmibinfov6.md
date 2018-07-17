@@ -4,10 +4,10 @@ title: DhcpGetMibInfoV6 function
 author: windows-sdk-content
 description: Retrieves the IPv6 counter values of the DHCP server.
 old-location: dhcp\dhcpgetmibinfov6.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: fcc61321-2edd-4ea8-bcd7-7237fbc90b74
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: DhcpGetMibInfoV6, DhcpGetMibInfoV6 function [DHCP], dhcp.dhcpgetmibinfov6, dhcpsapi/DhcpGetMibInfoV6
 ms.prod: windows
 ms.technology: windows-sdk

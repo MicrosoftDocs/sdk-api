@@ -7,7 +7,7 @@ old-location: com\ipersiststorage_savecompleted.htm
 old-project: com
 ms.assetid: 18c223e7-38ce-4f20-818b-84bd4c7e0dfd
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: IPersistStorage interface [COM],SaveCompleted method, IPersistStorage.SaveCompleted, IPersistStorage::SaveCompleted, SaveCompleted, SaveCompleted method [COM], SaveCompleted method [COM],IPersistStorage interface, _com_ipersiststorage_savecompleted, com.ipersiststorage_savecompleted, objidl/IPersistStorage::SaveCompleted
 ms.prod: windows
 ms.technology: windows-sdk

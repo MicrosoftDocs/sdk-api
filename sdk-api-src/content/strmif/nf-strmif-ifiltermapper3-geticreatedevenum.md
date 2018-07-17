@@ -7,7 +7,7 @@ old-location: dshow\ifiltermapper3_geticreatedevenum.htm
 old-project: DirectShow
 ms.assetid: e54a1276-5c86-4127-9005-f2935e1664d0
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: GetICreateDevEnum, GetICreateDevEnum method [DirectShow], GetICreateDevEnum method [DirectShow],IFilterMapper3 interface, IFilterMapper3 interface [DirectShow],GetICreateDevEnum method, IFilterMapper3.GetICreateDevEnum, IFilterMapper3::GetICreateDevEnum, IFilterMapper3GetICreateDevEnum, dshow.ifiltermapper3_geticreatedevenum, strmif/IFilterMapper3::GetICreateDevEnum
 ms.prod: windows
 ms.technology: windows-sdk

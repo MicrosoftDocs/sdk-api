@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_Clone_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\clone_35.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],StringFormat class, StringFormat class [GDI+],Clone method, StringFormat.Clone, StringFormat::Clone, _gdiplus_CLASS_StringFormat_Clone_, gdiplus._gdiplus_CLASS_StringFormat_Clone_
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiresource.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiresource.htm
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: 74b46980-220f-d8c0-f488-2656b735bb5d, IDXGIResource, IDXGIResource interface [DXGI], IDXGIResource interface [DXGI],described, direct3ddxgi.idxgiresource, dxgi/IDXGIResource
 ms.prod: windows
 ms.technology: windows-sdk

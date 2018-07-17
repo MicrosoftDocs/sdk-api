@@ -2,13 +2,13 @@
 UID: NA:webapplication
 ms.assetid: 6d9d2723-d5f2-3ec5-9e37-35353b9d3405
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: debug
 archived: true
+tech.root: debug
 ---
 
 # Webapplication.h header

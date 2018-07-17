@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_get_enablemulticast.htm
 old-project: DirectShow
 ms.assetid: dae5c0ad-a41e-424c-a04d-69dbe7264143
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableMulticast method, IAMNetShowConfig.get_EnableMulticast, IAMNetShowConfig::get_EnableMulticast, IAMNetShowConfigget_EnableMulticast, dshow.iamnetshowconfig_get_enablemulticast, get_EnableMulticast, get_EnableMulticast method [DirectShow], get_EnableMulticast method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableMulticast
 ms.prod: windows
 ms.technology: windows-sdk

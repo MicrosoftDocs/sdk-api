@@ -7,7 +7,7 @@ old-location: mscs\clusversion_buildnumber.htm
 old-project: mscs
 ms.assetid: 2862d1b8-42b6-437f-8979-e3d385905801
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: BuildNumber property [Failover Cluster], BuildNumber property [Failover Cluster],ClusVersion object, ClusVersion object [Failover Cluster],BuildNumber property, ClusVersion.BuildNumber, ISClusVersion.get_BuildNumber, ISClusVersion::get_BuildNumber, _wolf_clusversion.buildnumber, get_BuildNumber, mscs.clusversion_buildnumber
 ms.prod: windows
 ms.technology: windows-sdk

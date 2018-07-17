@@ -4,10 +4,10 @@ title: WSASendTo function
 author: windows-sdk-content
 description: Sends data to a specific destination, using overlapped I/O where applicable.
 old-location: winsock\wsasendto_2.htm
-old-project: WinSock
+old-project: winsock
 ms.assetid: e3a11522-871c-4d6b-a2e6-ca91ffc2b698
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WSASendTo, WSASendTo function [Winsock], _win32_wsasendto_2, winsock.wsasendto_2, winsock2/WSASendTo
 ms.prod: windows
 ms.technology: windows-sdk

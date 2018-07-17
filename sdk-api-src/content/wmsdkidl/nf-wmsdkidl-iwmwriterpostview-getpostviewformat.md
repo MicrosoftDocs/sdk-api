@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterpostview_getpostviewformat.htm
 old-project: wmformat
 ms.assetid: 3636833d-3c96-45d9-bf82-e3ff930c7d9b
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/13/2018
 ms.keywords: GetPostViewFormat, GetPostViewFormat method [windows Media Format], GetPostViewFormat method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetPostViewFormat method, IWMWriterPostView.GetPostViewFormat, IWMWriterPostView::GetPostViewFormat, IWMWriterPostViewGetPostViewFormat, wmformat.iwmwriterpostview_getpostviewformat, wmsdkidl/IWMWriterPostView::GetPostViewFormat
 ms.prod: windows
 ms.technology: windows-sdk

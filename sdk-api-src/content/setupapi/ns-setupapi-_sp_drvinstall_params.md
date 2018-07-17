@@ -7,7 +7,7 @@ old-location: devinst\sp_drvinstall_params.htm
 old-project: devinst
 ms.assetid: 300e636c-3f77-4d0b-9868-caaf92d87bfd
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: "*PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARAMS, PSP_DRVINSTALL_PARAMS structure pointer [Device and Driver Installation], SP_DRVINSTALL_PARAMS, SP_DRVINSTALL_PARAMS structure [Device and Driver Installation], _SP_DRVINSTALL_PARAMS, devinst.sp_drvinstall_params, di-struct_32ef55e7-dc77-4350-b220-6cd566cf7c38.xml, setupapi/PSP_DRVINSTALL_PARAMS, setupapi/SP_DRVINSTALL_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk

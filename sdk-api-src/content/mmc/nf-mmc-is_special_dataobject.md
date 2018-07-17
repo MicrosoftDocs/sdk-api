@@ -7,7 +7,7 @@ old-location: mmc\is_special_dataobject.htm
 old-project: mmc
 ms.assetid: 63bc378a-b0ef-44d2-834a-f9fc4ab71e99
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: IS_SPECIAL_DATAOBJECT, IS_SPECIAL_DATAOBJECT macro [MMC], _slate_is_special_dataobject, mmc.is_special_dataobject, mmc/IS_SPECIAL_DATAOBJECT
 ms.prod: windows
 ms.technology: windows-sdk

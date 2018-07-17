@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs10_initializefrompublickey_met
 old-project: seccertenroll
 ms.assetid: 7b7e00dc-649b-4bcb-a9b6-5745b33ea48b
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],InitializeFromPublicKey method, IX509CertificateRequestPkcs10.InitializeFromPublicKey, IX509CertificateRequestPkcs10::InitializeFromPublicKey, InitializeFromPublicKey, InitializeFromPublicKey method [Security], InitializeFromPublicKey method [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::InitializeFromPublicKey, security.ix509certificaterequestpkcs10_initializefrompublickey_method
 ms.prod: windows
 ms.technology: windows-sdk

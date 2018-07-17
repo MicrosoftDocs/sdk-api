@@ -4,10 +4,10 @@ title: WlanSetProfileEapXmlUserData function
 author: windows-sdk-content
 description: Sets the Extensible Authentication Protocol (EAP) user credentials as specified by an XML string.
 old-location: nwifi\wlansetprofileeapxmluserdata.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: c34c39c0-8200-438a-8353-238225aea5cb
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: WLAN_SET_EAPHOST_DATA_ALL_USERS, WlanSetProfileEapXmlUserData, WlanSetProfileEapXmlUserData function [NativeWIFI], nwifi.wlansetprofileeapxmluserdata, wlanapi/WlanSetProfileEapXmlUserData
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mmc\iconsoleverb_setverbstate.htm
 old-project: mmc
 ms.assetid: 55cf5f73-a113-430e-be16-d7a88abe15b6
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: IConsoleVerb interface [MMC],SetVerbState method, IConsoleVerb.SetVerbState, IConsoleVerb::SetVerbState, SetVerbState, SetVerbState method [MMC], SetVerbState method [MMC],IConsoleVerb interface, _slate_iconsoleverb_setverbstate, mmc.iconsoleverb_setverbstate, mmc/IConsoleVerb::SetVerbState
 ms.prod: windows
 ms.technology: windows-sdk

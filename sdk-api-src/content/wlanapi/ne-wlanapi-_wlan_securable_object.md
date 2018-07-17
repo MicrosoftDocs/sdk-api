@@ -4,10 +4,10 @@ title: "_WLAN_SECURABLE_OBJECT"
 author: windows-sdk-content
 description: Defines the securable objects used by Native Wifi Functions.
 old-location: nwifi\wlan_securable_object.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: 1f6e1460-d27f-4800-8a32-6f9f509753cf
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*PWLAN_SECURABLE_OBJECT, PWLAN_SECURABLE_OBJECT, PWLAN_SECURABLE_OBJECT enumeration pointer [NativeWIFI], WLAN_SECURABLE_OBJECT, WLAN_SECURABLE_OBJECT enumeration [NativeWIFI], _WLAN_SECURABLE_OBJECT, nwifi.wlan_securable_object, wlan_secure_ac_enabled, wlan_secure_add_new_all_user_profiles, wlan_secure_add_new_per_user_profiles, wlan_secure_all_user_profiles_order, wlan_secure_bc_scan_enabled, wlan_secure_bss_type, wlan_secure_current_operation_mode, wlan_secure_deny_list, wlan_secure_get_plaintext_key, wlan_secure_hosted_network_elevated_access, wlan_secure_ihv_control, wlan_secure_interface_properties, wlan_secure_media_streaming_mode_enabled, wlan_secure_permit_list, wlan_secure_show_denied, wlan_secure_virtual_station_extensibility, wlan_secure_wfd_elevated_access, wlanapi/PWLAN_SECURABLE_OBJECT, wlanapi/WLAN_SECURABLE_OBJECT, wlanapi/wlan_secure_ac_enabled, wlanapi/wlan_secure_add_new_all_user_profiles, wlanapi/wlan_secure_add_new_per_user_profiles, wlanapi/wlan_secure_all_user_profiles_order, wlanapi/wlan_secure_bc_scan_enabled, wlanapi/wlan_secure_bss_type, wlanapi/wlan_secure_current_operation_mode, wlanapi/wlan_secure_deny_list, wlanapi/wlan_secure_get_plaintext_key, wlanapi/wlan_secure_hosted_network_elevated_access, wlanapi/wlan_secure_ihv_control, wlanapi/wlan_secure_interface_properties, wlanapi/wlan_secure_media_streaming_mode_enabled, wlanapi/wlan_secure_permit_list, wlanapi/wlan_secure_show_denied, wlanapi/wlan_secure_virtual_station_extensibility, wlanapi/wlan_secure_wfd_elevated_access"
 ms.prod: windows
 ms.technology: windows-sdk

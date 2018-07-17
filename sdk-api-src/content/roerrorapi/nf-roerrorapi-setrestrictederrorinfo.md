@@ -7,7 +7,7 @@ old-location: winrt\setrestrictederrorinfo.htm
 old-project: WinRT
 ms.assetid: 3F4A62EF-ECD3-45FA-836D-77C510C43C5E
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/13/2018
 ms.keywords: SetRestrictedErrorInfo, SetRestrictedErrorInfo function [Windows Runtime], roerrorapi/SetRestrictedErrorInfo, winrt.setrestrictederrorinfo
 ms.prod: windows
 ms.technology: windows-sdk

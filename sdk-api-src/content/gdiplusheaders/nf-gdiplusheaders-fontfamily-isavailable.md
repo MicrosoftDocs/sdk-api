@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_FontFamily_IsAvailable_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\isavailable_5.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: FontFamily class [GDI+],IsAvailable method, FontFamily.IsAvailable, FontFamily::IsAvailable, IsAvailable, IsAvailable method [GDI+], IsAvailable method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_IsAvailable_, gdiplus._gdiplus_CLASS_FontFamily_IsAvailable_
 ms.prod: windows
 ms.technology: windows-sdk

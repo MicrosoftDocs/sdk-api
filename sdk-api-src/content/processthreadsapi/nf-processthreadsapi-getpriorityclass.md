@@ -4,10 +4,10 @@ title: GetPriorityClass function
 author: windows-sdk-content
 description: Retrieves the priority class for the specified process. This value, together with the priority value of each thread of the process, determines each thread's base priority level.
 old-location: base\getpriorityclass.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 2a16b18f-8efa-43f0-9f7d-d38cc8a153d3
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: GetPriorityClass, GetPriorityClass function, _win32_getpriorityclass, base.getpriorityclass, processthreadsapi/GetPriorityClass, winbase/GetPriorityClass
 ms.prod: windows
 ms.technology: windows-sdk

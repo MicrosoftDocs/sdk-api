@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_getstylusasyncplugincount.htm
 old-project: tablet
 ms.assetid: 45861b92-0a2c-42ec-96e5-c3afd45e0e85
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: 45861b92-0a2c-42ec-96e5-c3afd45e0e85, GetStylusAsyncPluginCount, GetStylusAsyncPluginCount method [Tablet PC], GetStylusAsyncPluginCount method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStylusAsyncPluginCount method, IRealTimeStylus.GetStylusAsyncPluginCount, IRealTimeStylus::GetStylusAsyncPluginCount, rtscom/IRealTimeStylus::GetStylusAsyncPluginCount, tablet.irealtimestylus_getstylusasyncplugincount
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\icertificateattestationchallenge_initialize.htm
 old-project: seccertenroll
 ms.assetid: d4dbda92-4523-4adb-9b88-b2bc763570fd
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICertificateAttestationChallenge interface [Security],Initialize method, ICertificateAttestationChallenge.Initialize, ICertificateAttestationChallenge::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertificateAttestationChallenge interface, certenroll/ICertificateAttestationChallenge::Initialize, security.icertificateattestationchallenge_initialize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DPA_AppendPtr macro
 author: windows-sdk-content
 description: Inserts a new item at the end of a dynamic pointer array (DPA).
 old-location: controls\DPA_AppendPtr.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_appendptr.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: DPA_AppendPtr, DPA_AppendPtr macro [Windows Controls], _shell_DPA_AppendPtr, _shell_DPA_AppendPtr_cpp, controls.DPA_AppendPtr, controls._shell_DPA_AppendPtr, dpa_dsa/DPA_AppendPtr
 ms.prod: windows
 ms.technology: windows-sdk

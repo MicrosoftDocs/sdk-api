@@ -7,7 +7,7 @@ old-location: devinst\cm_reenumerate_devnode_ex.htm
 old-project: devinst
 ms.assetid: 1d927aec-db3c-403f-9952-1bcc931984bf
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/11/2018
 ms.keywords: CM_Reenumerate_DevNode_Ex, CM_Reenumerate_DevNode_Ex function [Device and Driver Installation], cfgmgr32/CM_Reenumerate_DevNode_Ex, cfgmgrfn_164140ec-3f5b-4047-8e18-7c7154975588.xml, devinst.cm_reenumerate_devnode_ex
 ms.prod: windows
 ms.technology: windows-sdk

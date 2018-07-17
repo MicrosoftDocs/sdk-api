@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetTabStops_firstTabOffset_cou
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\settabstops.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: SetTabStops, SetTabStops method [GDI+], SetTabStops method [GDI+],StringFormat class, StringFormat class [GDI+],SetTabStops method, StringFormat.SetTabStops, StringFormat::SetTabStops, _gdiplus_CLASS_StringFormat_SetTabStops_firstTabOffset_count_tabStops_, gdiplus._gdiplus_CLASS_StringFormat_SetTabStops_firstTabOffset_count_tabStops_
 ms.prod: windows
 ms.technology: windows-sdk

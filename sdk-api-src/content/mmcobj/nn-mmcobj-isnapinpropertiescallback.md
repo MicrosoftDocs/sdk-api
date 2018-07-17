@@ -7,7 +7,7 @@ old-location: mmc\isnapinpropertiescallback.htm
 old-project: mmc
 ms.assetid: d02d265c-f3fa-4332-910e-f0d9d4f0687a
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: ISnapinPropertiesCallback, ISnapinPropertiesCallback interface [MMC], ISnapinPropertiesCallback interface [MMC],described, _slate_isnapinpropertiescallback, mmc.isnapinpropertiescallback, mmcobj/ISnapinPropertiesCallback
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: TabCtrl_SetCurFocus macro
 author: windows-sdk-content
 description: Sets the focus to a specified tab in a tab control. You can use this macro or send the TCM_SETCURFOCUS message explicitly.
 old-location: controls\TabCtrl_SetCurFocus.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setcurfocus.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: TabCtrl_SetCurFocus, TabCtrl_SetCurFocus macro [Windows Controls], _win32_TabCtrl_SetCurFocus, _win32_TabCtrl_SetCurFocus_cpp, commctrl/TabCtrl_SetCurFocus, controls.TabCtrl_SetCurFocus, controls._win32_TabCtrl_SetCurFocus
 ms.prod: windows
 ms.technology: windows-sdk

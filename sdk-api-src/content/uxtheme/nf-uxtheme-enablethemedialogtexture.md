@@ -4,10 +4,10 @@ title: EnableThemeDialogTexture function
 author: windows-sdk-content
 description: Enables or disables the visual style of the background of a dialog window.
 old-location: controls\EnableThemeDialogTexture.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\enablethemedialogtexture.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: EnableThemeDialogTexture, EnableThemeDialogTexture function [Windows Controls], controls.EnableThemeDialogTexture, controls.inet_EnableThemeDialogTexture, inet_EnableThemeDialogTexture, inet_EnableThemeDialogTexture_cpp, uxtheme/EnableThemeDialogTexture
 ms.prod: windows
 ms.technology: windows-sdk

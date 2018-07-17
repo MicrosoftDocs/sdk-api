@@ -7,7 +7,7 @@ old-location: tablet\inkedit_textrtf.htm
 old-project: tablet
 ms.assetid: 7819d1eb-03b3-407f-a50f-2f7dc7eb474a
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IInkEdit interface [Tablet PC],TextRTF property, IInkEdit.TextRTF, IInkEdit.get_TextRTF, IInkEdit::TextRTF, IInkEdit::get_TextRTF, IInkEdit::put_TextRTF, InkEdit.get_TextRTF, InkEdit.put_TextRTF, TextRTF property [Tablet PC], TextRTF property [Tablet PC],IInkEdit interface, get_TextRTF, inked/IInkEdit::TextRTF, inked/IInkEdit::get_TextRTF, inked/IInkEdit::put_TextRTF, put_TextRTF, tablet.inkedit_textrtf
 ms.prod: windows
 ms.technology: windows-sdk

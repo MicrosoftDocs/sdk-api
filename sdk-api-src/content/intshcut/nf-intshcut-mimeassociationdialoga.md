@@ -7,7 +7,7 @@ old-location: shell\MIMEAssociationDialog.htm
 old-project: shell
 ms.assetid: 0f8ee95a-3f95-47ee-822b-740ba134cd3c
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: MIMEAssociationDialog, MIMEAssociationDialog function [Windows Shell], MIMEAssociationDialogA, MIMEAssociationDialogW, _win32_MIMEAssociationDialog, intshcut/MIMEAssociationDialog, intshcut/MIMEAssociationDialogA, intshcut/MIMEAssociationDialogW, shell.MIMEAssociationDialog
 ms.prod: windows
 ms.technology: windows-sdk

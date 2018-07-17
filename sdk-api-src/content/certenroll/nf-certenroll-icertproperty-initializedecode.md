@@ -7,7 +7,7 @@ old-location: security\icertproperty_initializedecode_method.htm
 old-project: seccertenroll
 ms.assetid: 38b51242-cd4a-402e-b7ff-286f7bf66953
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICertProperty interface [Security],InitializeDecode method, ICertProperty.InitializeDecode, ICertProperty::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],ICertProperty interface, certenroll/ICertProperty::InitializeDecode, security.icertproperty_initializedecode_method
 ms.prod: windows
 ms.technology: windows-sdk

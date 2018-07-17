@@ -4,10 +4,10 @@ title: IWTSProtocolManager
 author: windows-sdk-content
 description: IWTSProtocolManager is no longer available. Instead, use IWRdsProtocolManager.
 old-location: termserv\iwtsprotocolmanager.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: a54bdb46-b18b-4a6d-90fc-75947f6dd191
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: IWTSProtocolManager, IWTSProtocolManager interface [Remote Desktop Services], IWTSProtocolManager interface [Remote Desktop Services],described, termserv.iwtsprotocolmanager, wtsprotocol/IWTSProtocolManager
 ms.prod: windows
 ms.technology: windows-sdk

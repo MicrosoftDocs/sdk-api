@@ -7,7 +7,7 @@ old-location: input_ink\iinkpresenterdesktop.htm
 old-project: input_ink
 ms.assetid: 6d175981-6379-4a61-84b0-8b08274bc3a3
 ms.author: windowssdkdev
-ms.date: 06/04/2018
+ms.date: 07/13/2018
 ms.keywords: IInkPresenterDesktop, IInkPresenterDesktop interface, IInkPresenterDesktop interface,described, InkPresenterDesktop.iinkpresenterdesktop, inkpresenterdesktop/IInkPresenterDesktop, input_ink.iinkpresenterdesktop
 ms.prod: windows
 ms.technology: windows-sdk

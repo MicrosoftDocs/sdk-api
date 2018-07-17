@@ -7,7 +7,7 @@ old-location: mscs\clusresgroupresources_deleteitem.htm
 old-project: mscs
 ms.assetid: bfd908a3-b968-4729-8ca4-feb687108249
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusResGroupResources class [Failover Cluster],DeleteItem method, ClusResGroupResources.DeleteItem, DeleteItem, DeleteItem method [Failover Cluster], DeleteItem method [Failover Cluster],ClusResGroupResources class, ISClusResGroupResources.DeleteItem, ISClusResGroupResources::DeleteItem, _wolf_clusresgroupresources.deleteitem, mscs.clusresgroupresources_deleteitem
 ms.prod: windows
 ms.technology: windows-sdk

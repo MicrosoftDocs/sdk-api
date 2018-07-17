@@ -4,10 +4,10 @@ title: ITsSbPlacement::QueryEnvironmentForTarget
 author: windows-sdk-content
 description: Determines whether the specified environment is ready to host the target that was returned by load balancing.
 old-location: termserv\itssbplacement_queryenvironmentfortarget.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: 62320a0b-3f3e-4341-a481-a43af39c06f7
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ITsSbPlacement interface [Remote Desktop Services],QueryEnvironmentForTarget method, ITsSbPlacement.QueryEnvironmentForTarget, ITsSbPlacement::QueryEnvironmentForTarget, QueryEnvironmentForTarget, QueryEnvironmentForTarget method [Remote Desktop Services], QueryEnvironmentForTarget method [Remote Desktop Services],ITsSbPlacement interface, sbtsv/ITsSbPlacement::QueryEnvironmentForTarget, termserv.itssbplacement_queryenvironmentfortarget
 ms.prod: windows
 ms.technology: windows-sdk

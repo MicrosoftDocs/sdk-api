@@ -7,7 +7,7 @@ old-location: com\ioleundomanager_close.htm
 old-project: com
 ms.assetid: 4546f270-5cef-42a3-b07a-f0a491e78849
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: Close, Close method [COM], Close method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],Close method, IOleUndoManager.Close, IOleUndoManager::Close, _ole_ioleundomanager_close, com.ioleundomanager_close, ocidl/IOleUndoManager::Close
 ms.prod: windows
 ms.technology: windows-sdk

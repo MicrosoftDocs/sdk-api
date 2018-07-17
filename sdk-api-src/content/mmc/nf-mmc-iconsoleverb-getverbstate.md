@@ -7,7 +7,7 @@ old-location: mmc\iconsoleverb_getverbstate.htm
 old-project: mmc
 ms.assetid: 86388a22-5156-45e9-a601-33b7c5ca15f3
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: GetVerbState, GetVerbState method [MMC], GetVerbState method [MMC],IConsoleVerb interface, IConsoleVerb interface [MMC],GetVerbState method, IConsoleVerb.GetVerbState, IConsoleVerb::GetVerbState, _slate_iconsoleverb_getverbstate, mmc.iconsoleverb_getverbstate, mmc/IConsoleVerb::GetVerbState
 ms.prod: windows
 ms.technology: windows-sdk

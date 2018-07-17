@@ -4,10 +4,10 @@ title: IFsrmActionEmail::put_MailTo
 author: windows-sdk-content
 description: Retrieves or sets the email address to which email is sent when this action generates email.
 old-location: fsrm\ifsrmactionemail_mailto.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: b440bae5-0e46-432b-992b-0de7dee16b12
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailTo property, IFsrmActionEmail.MailTo, IFsrmActionEmail.put_MailTo, IFsrmActionEmail2 interface [File Server Resource Manager],MailTo property, IFsrmActionEmail2.MailTo, IFsrmActionEmail2::MailTo, IFsrmActionEmail2::get_MailTo, IFsrmActionEmail2::put_MailTo, IFsrmActionEmail::get_MailTo, IFsrmActionEmail::put_MailTo, MailTo property [File Server Resource Manager], MailTo property [File Server Resource Manager],IFsrmActionEmail interface, MailTo property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailto, fsrm.ifsrmactionemail_mailto, fsrm/IFsrmActionEmail2::MailTo, fsrm/IFsrmActionEmail2::get_MailTo, fsrm/IFsrmActionEmail2::put_MailTo, fsrm/IFsrmActionEmail::MailTo, fsrm/IFsrmActionEmail::get_MailTo, fsrm/IFsrmActionEmail::put_MailTo, put_MailTo
 ms.prod: windows
 ms.technology: windows-sdk

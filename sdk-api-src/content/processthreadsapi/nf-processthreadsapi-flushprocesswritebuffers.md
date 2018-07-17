@@ -4,10 +4,10 @@ title: FlushProcessWriteBuffers function
 author: windows-sdk-content
 description: Flushes the write queue of each processor that is running a thread of the current process.
 old-location: base\flushprocesswritebuffers.htm
-old-project: ProcThread
+old-project: procthread
 ms.assetid: 6dcf6851-59ee-4f6e-b2cb-e36ac5328b92
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: FlushProcessWriteBuffers, FlushProcessWriteBuffers function, base.flushprocesswritebuffers, processthreadsapi/FlushProcessWriteBuffers, winbase/FlushProcessWriteBuffers
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mmc\rdcompare.htm
 old-project: mmc
 ms.assetid: 78f0648b-1d1b-4786-89fa-ef51b7743a2d
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: RDCOMPARE, RDCOMPARE structure [MMC], _RDCOMPARE, _slate_rdcompare, mmc.rdcompare, mmc/RDCOMPARE
 ms.prod: windows
 ms.technology: windows-sdk

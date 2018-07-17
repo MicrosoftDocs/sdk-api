@@ -4,10 +4,10 @@ title: ITsSbTarget::get_TargetName
 author: windows-sdk-content
 description: Specifies or retrieves the name of the target.
 old-location: termserv\itssbtarget_targetname.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: ba5c3158-b4bc-457f-94ea-adb2e0852129
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: ITsSbTarget interface [Remote Desktop Services],TargetName property, ITsSbTarget.TargetName, ITsSbTarget.get_TargetName, ITsSbTarget::TargetName, ITsSbTarget::get_TargetName, ITsSbTarget::put_TargetName, ITsSbTargetEx interface [Remote Desktop Services],TargetName property, ITsSbTargetEx.TargetName, ITsSbTargetEx::get_TargetName, ITsSbTargetEx::put_TargetName, TargetName property [Remote Desktop Services], TargetName property [Remote Desktop Services],ITsSbTarget interface, TargetName property [Remote Desktop Services],ITsSbTargetEx interface, get_TargetName, sbtsv/ITsSbTarget::TargetName, sbtsv/ITsSbTarget::get_TargetName, sbtsv/ITsSbTarget::put_TargetName, sbtsv/ITsSbTargetEx::TargetName, sbtsv/ITsSbTargetEx::get_TargetName, sbtsv/ITsSbTargetEx::put_TargetName, termserv.itssbtarget_targetname
 ms.prod: windows
 ms.technology: windows-sdk

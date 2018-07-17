@@ -4,10 +4,10 @@ title: "_FsrmStorageModuleType"
 author: windows-sdk-content
 description: Defines the possible storage module types.
 old-location: fsrm\fsrmstoragemoduletype.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 7cd1d4eb-de69-44d2-89f9-41e1e9a371e0
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: FsrmStorageModuleType, FsrmStorageModuleType enumeration [File Server Resource Manager], FsrmStorageModuleType_Cache, FsrmStorageModuleType_Database, FsrmStorageModuleType_InFile, FsrmStorageModuleType_System, FsrmStorageModuleType_Unknown, _FsrmStorageModuleType, fs.fsrmstoragemoduletype, fsrm.fsrmstoragemoduletype, fsrmenums/FsrmStorageModuleType, fsrmenums/FsrmStorageModuleType_Cache, fsrmenums/FsrmStorageModuleType_Database, fsrmenums/FsrmStorageModuleType_InFile, fsrmenums/FsrmStorageModuleType_System, fsrmenums/FsrmStorageModuleType_Unknown
 ms.prod: windows
 ms.technology: windows-sdk

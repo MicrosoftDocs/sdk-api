@@ -7,7 +7,7 @@ old-location: mmc\istringtable_deletestring.htm
 old-project: mmc
 ms.assetid: 57d04890-5dd8-45e5-9b46-b982ea3a4f36
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/11/2018
 ms.keywords: DeleteString, DeleteString method [MMC], DeleteString method [MMC],IStringTable interface, IStringTable interface [MMC],DeleteString method, IStringTable.DeleteString, IStringTable::DeleteString, _slate_istringtable_deletestring, mmc.istringtable_deletestring, mmc/IStringTable::DeleteString
 ms.prod: windows
 ms.technology: windows-sdk

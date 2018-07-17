@@ -7,7 +7,7 @@ old-location: mscs\cluster_get_upgrade_version.htm
 old-project: mscs
 ms.assetid: 28C51A05-7BCC-4394-B4D7-505750C045E2
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: CLUSTER_GET_UPGRADE_VERSION, CLUSTER_GET_UPGRADE_VERSION macro [Failover Cluster], clusapi/CLUSTER_GET_UPGRADE_VERSION, mscs.cluster_get_upgrade_version
 ms.prod: windows
 ms.technology: windows-sdk

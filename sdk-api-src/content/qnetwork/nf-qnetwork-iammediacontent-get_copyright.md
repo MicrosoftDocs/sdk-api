@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent_get_copyright.htm
 old-project: DirectShow
 ms.assetid: f63dc869-6b95-4923-80a6-22b5d8b81fa0
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Copyright method, IAMMediaContent.get_Copyright, IAMMediaContent::get_Copyright, IAMMediaContentget_Copyright, dshow.iammediacontent_get_copyright, get_Copyright, get_Copyright method [DirectShow], get_Copyright method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Copyright
 ms.prod: windows
 ms.technology: windows-sdk

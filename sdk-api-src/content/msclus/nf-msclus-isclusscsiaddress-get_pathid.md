@@ -7,7 +7,7 @@ old-location: mscs\clusscsiaddress_pathid.htm
 old-project: mscs
 ms.assetid: c46946bb-87a8-4444-92c7-d15720a7fdd5
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/12/2018
 ms.keywords: ClusScsiAddress object [Failover Cluster],PathId property, ClusScsiAddress.PathId, ISClusScsiAddress.get_PathId, ISClusScsiAddress::get_PathId, PathId property [Failover Cluster], PathId property [Failover Cluster],ClusScsiAddress object, _wolf_clusscsiaddress.pathid, get_PathId, mscs.clusscsiaddress_pathid
 ms.prod: windows
 ms.technology: windows-sdk

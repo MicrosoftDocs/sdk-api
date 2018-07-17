@@ -7,8 +7,8 @@ old-location: mscs\freeclustercrypt.htm
 old-project: mscs
 ms.assetid: 33EE9915-2204-4431-8B72-014D47AB4651
 ms.author: windowssdkdev
-ms.date: 06/08/2018
-ms.keywords: PFREE_CLUSTER_CRYPT, PFREE_CLUSTER_CRYPT callback, PFREE_CLUSTER_CRYPT callback function [Failover Cluster], mscs.freeclustercrypt, resapi/PFREE_CLUSTER_CRYPT
+ms.date: 07/12/2018
+ms.keywords: FreeClusterCrypt, FreeClusterCrypt function [Failover Cluster], PFREE_CLUSTER_CRYPT, PFREE_CLUSTER_CRYPT function [Failover Cluster], mscs.freeclustercrypt, resapi/FreeClusterCrypt, resapi/PFREE_CLUSTER_CRYPT
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -35,11 +35,11 @@ api_type:
 api_location:
  -
 api_name:
- - PFREE_CLUSTER_CRYPT callback
+ - FreeClusterCrypt
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: ResUtils.lib
+req.dll: ResUtils.dll
 req.irql: 
 req.product: ADAM
 ---

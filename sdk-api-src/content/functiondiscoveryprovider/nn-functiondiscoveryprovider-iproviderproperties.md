@@ -4,10 +4,10 @@ title: IProviderProperties
 author: windows-sdk-content
 description: Is optionally implemented by discovery providers to directly create and manage their own property store.
 old-location: ncd\iproviderproperties.htm
-old-project: FunDisc
+old-project: fundisc
 ms.assetid: d6d3d1d1-d2fb-409c-be37-3cd286e325a3
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/12/2018
 ms.keywords: IProviderProperties, IProviderProperties interface, IProviderProperties interface,described, functiondiscoveryprovider/IProviderProperties, ncd.iproviderproperties
 ms.prod: windows
 ms.technology: windows-sdk

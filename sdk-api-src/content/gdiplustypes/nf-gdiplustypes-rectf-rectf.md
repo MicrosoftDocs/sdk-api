@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_RectF_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfconstructors\rectf_42.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: RectF, RectF class [GDI+],RectF constructor, RectF constructor [GDI+], RectF constructor [GDI+],RectF class, RectF.RectF, RectF.RectF(), RectF::RectF, _gdiplus_CLASS_RectF_RectF_, gdiplus._gdiplus_CLASS_RectF_RectF_
 ms.prod: windows
 ms.technology: windows-sdk

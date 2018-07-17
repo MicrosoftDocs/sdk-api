@@ -2,13 +2,13 @@
 UID: NA:expandedresources
 ms.assetid: 38a92760-c59b-33df-9c93-c34bb0842696
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: gamemode
 archived: true
+tech.root: gamemode
 ---
 
 # Expandedresources.h header

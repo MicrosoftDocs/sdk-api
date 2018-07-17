@@ -4,10 +4,10 @@ title: ITextRange::Cut
 author: windows-sdk-content
 description: Cuts the plain or rich text to a data object or to the Clipboard, depending on the pVar parameter.
 old-location: controls\ITextRange_Cut.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\cut.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/13/2018
 ms.keywords: Cut, Cut method [Windows Controls], Cut method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],Cut method, ITextRange.Cut, ITextRange::Cut, _win32_ITextRange_Cut, _win32_ITextRange_Cut_cpp, controls.ITextRange_Cut, controls._win32_ITextRange_Cut, tom/ITextRange::Cut
 ms.prod: windows
 ms.technology: windows-sdk

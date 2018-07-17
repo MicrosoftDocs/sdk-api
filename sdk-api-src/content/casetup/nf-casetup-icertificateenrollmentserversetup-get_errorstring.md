@@ -4,10 +4,10 @@ title: ICertificateEnrollmentServerSetup::get_ErrorString
 author: windows-sdk-content
 description: Retrieves a string that contains additional information about Certificate Enrollment Web Service (CES) setup failure.
 old-location: security\icertificateenrollmentserversetup_errorstring.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: D4322BE8-1CED-47D0-98C2-D5D7C151DEAB
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.keywords: ErrorString property [Security], ErrorString property [Security],ICertificateEnrollmentServerSetup interface, ICertificateEnrollmentServerSetup interface [Security],ErrorString property, ICertificateEnrollmentServerSetup.ErrorString, ICertificateEnrollmentServerSetup.get_ErrorString, ICertificateEnrollmentServerSetup::ErrorString, ICertificateEnrollmentServerSetup::get_ErrorString, casetup/ICertificateEnrollmentServerSetup::ErrorString, casetup/ICertificateEnrollmentServerSetup::get_ErrorString, get_ErrorString, security.icertificateenrollmentserversetup_errorstring
 ms.prod: windows
 ms.technology: windows-sdk

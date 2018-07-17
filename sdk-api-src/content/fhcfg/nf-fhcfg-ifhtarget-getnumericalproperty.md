@@ -7,7 +7,7 @@ old-location: winprog\ifhtarget_getnumericalproperty.htm
 old-project: DevNotes
 ms.assetid: 3FA2F3AB-A406-4F19-AA5A-0D5596F1BF2C
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: GetNumericalProperty, GetNumericalProperty method [Windows API], GetNumericalProperty method [Windows API],IFhTarget interface, IFhTarget interface [Windows API],GetNumericalProperty method, IFhTarget.GetNumericalProperty, IFhTarget::GetNumericalProperty, fhcfg/IFhTarget::GetNumericalProperty, winprog.ifhtarget_getnumericalproperty
 ms.prod: windows
 ms.technology: windows-sdk

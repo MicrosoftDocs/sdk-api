@@ -7,7 +7,7 @@ old-location: security\icspstatuses.htm
 old-project: seccertenroll
 ms.assetid: 73d0f3a7-7afd-42c9-88db-911531c50137
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/13/2018
 ms.keywords: ICspStatuses, ICspStatuses interface [Security], ICspStatuses interface [Security],described, certenroll/ICspStatuses, security.icspstatuses
 ms.prod: windows
 ms.technology: windows-sdk

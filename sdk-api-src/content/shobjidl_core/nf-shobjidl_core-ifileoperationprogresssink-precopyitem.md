@@ -7,7 +7,7 @@ old-location: shell\IFileOperationProgressSink_PreCopyItem.htm
 old-project: shell
 ms.assetid: ee436179-197d-49f6-986c-62a1ea930af5
 ms.author: windowssdkdev
-ms.date: 06/27/2018
+ms.date: 07/13/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PreCopyItem method, IFileOperationProgressSink.PreCopyItem, IFileOperationProgressSink::PreCopyItem, PreCopyItem, PreCopyItem method [Windows Shell], PreCopyItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PreCopyItem, shell.IFileOperationProgressSink_PreCopyItem, shobjidl_core/IFileOperationProgressSink::PreCopyItem
 ms.prod: windows
 ms.technology: windows-sdk

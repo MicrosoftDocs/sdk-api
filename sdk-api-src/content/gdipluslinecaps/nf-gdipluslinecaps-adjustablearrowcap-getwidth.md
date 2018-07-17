@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_GetWidth_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\getwidth.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: AdjustableArrowCap class [GDI+],GetWidth method, AdjustableArrowCap.GetWidth, AdjustableArrowCap::GetWidth, GetWidth, GetWidth method [GDI+], GetWidth method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_GetWidth_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_GetWidth_
 ms.prod: windows
 ms.technology: windows-sdk

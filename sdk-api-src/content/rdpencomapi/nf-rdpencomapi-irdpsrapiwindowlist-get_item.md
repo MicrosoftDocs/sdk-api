@@ -4,10 +4,10 @@ title: IRDPSRAPIWindowList::get_Item
 author: windows-sdk-content
 description: An item in the window collection.
 old-location: rdp\irdpsrapiwindowlist_item.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 5923c094-9378-4c7a-95df-3dd71aadfbd8
 ms.author: windowssdkdev
-ms.date: 03/29/2018
+ms.date: 07/13/2018
 ms.keywords: IRDPSRAPIWindowList interface [RDP],Item property, IRDPSRAPIWindowList.Item, IRDPSRAPIWindowList.get_Item, IRDPSRAPIWindowList::Item, IRDPSRAPIWindowList::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIWindowList interface, Item property [RDP],RDPSRAPIWindowList object, RDPSRAPIWindowList object [RDP],Item property, get_Item, rdp.irdpsrapiwindowlist_item, rdpencomapi/IRDPSRAPIWindowList::Item, rdpencomapi/IRDPSRAPIWindowList::get_Item
 ms.prod: windows
 ms.technology: windows-sdk

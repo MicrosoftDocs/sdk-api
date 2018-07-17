@@ -4,10 +4,10 @@ title: "_WLAN_SECURITY_ATTRIBUTES"
 author: windows-sdk-content
 description: Defines the security attributes for a wireless connection.
 old-location: nwifi\wlan_security_attributes.htm
-old-project: NativeWiFi
+old-project: nativewifi
 ms.assetid: 37aa07a2-fe7f-46e3-9f17-545f48442f35
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: "*PWLAN_SECURITY_ATTRIBUTES, PWLAN_SECURITY_ATTRIBUTES, PWLAN_SECURITY_ATTRIBUTES structure pointer [NativeWIFI], WLAN_SECURITY_ATTRIBUTES, WLAN_SECURITY_ATTRIBUTES structure [NativeWIFI], _WLAN_SECURITY_ATTRIBUTES, nwifi.wlan_security_attributes, wlanapi/PWLAN_SECURITY_ATTRIBUTES, wlanapi/WLAN_SECURITY_ATTRIBUTES"
 ms.prod: windows
 ms.technology: windows-sdk

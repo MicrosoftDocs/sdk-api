@@ -7,7 +7,7 @@ old-location: com\ifont_isequal.htm
 old-project: com
 ms.assetid: becef75d-8342-4b4f-82e2-f1cca4eb619e
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/13/2018
 ms.keywords: IFont interface [COM],IsEqual method, IFont.IsEqual, IFont::IsEqual, IsEqual, IsEqual method [COM], IsEqual method [COM],IFont interface, _ctrl_ifont_isequal, com.ifont_isequal, ocidl/IFont::IsEqual
 ms.prod: windows
 ms.technology: windows-sdk

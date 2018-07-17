@@ -2,13 +2,13 @@
 UID: NA:gamingtcui
 ms.assetid: ff15fd6d-c38d-3f75-9bae-10508dda883c
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: tcui
 archived: true
+tech.root: tcui
 ---
 
 # Gamingtcui.h header

@@ -4,10 +4,10 @@ title: "_DHCP_SERVER_CONFIG_INFO"
 author: windows-sdk-content
 description: The DHCP_SERVER_CONFIG_INFO structure defines the data used to configure the DHCP server.
 old-location: dhcp\dhcp_server_config_info.htm
-old-project: dhcp
+old-project: DHCP
 ms.assetid: 3c7226fd-703c-4981-b82b-180b4070d671
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/13/2018
 ms.keywords: "*LPDHCP_SERVER_CONFIG_INFO, DHCP_SERVER_CONFIG_INFO, DHCP_SERVER_CONFIG_INFO structure [DHCP], DHCP_SERVER_USE_RPC_OVER_LPC, DHCP_SERVER_USE_RPC_OVER_NP, DHCP_SERVER_USE_RPC_OVER_TCPIP, LPDHCP_SERVER_CONFIG_INFO, LPDHCP_SERVER_CONFIG_INFO structure pointer [DHCP], _DHCP_SERVER_CONFIG_INFO, dhcp.dhcp_server_config_info, dhcpsapi/LPDHCP_SERVER_CONFIG_INFO, dhcpsapi/_DHCP_SERVER_CONFIG_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

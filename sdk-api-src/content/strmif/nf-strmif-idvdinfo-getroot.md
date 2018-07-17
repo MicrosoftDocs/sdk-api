@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getroot.htm
 old-project: DirectShow
 ms.assetid: e3869da3-15c9-449e-bb0e-29dd4625a857
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/13/2018
 ms.keywords: GetRoot, GetRoot method [DirectShow], GetRoot method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetRoot method, IDvdInfo.GetRoot, IDvdInfo::GetRoot, IDvdInfoGetRoot, dshow.idvdinfo_getroot, strmif/IDvdInfo::GetRoot
 ms.prod: windows
 ms.technology: windows-sdk

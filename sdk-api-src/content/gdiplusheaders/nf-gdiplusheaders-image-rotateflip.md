@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_RotateFlip_rotateFlipType_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\rotateflip.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Image class [GDI+],RotateFlip method, Image.RotateFlip, Image::RotateFlip, RotateFlip, RotateFlip method [GDI+], RotateFlip method [GDI+],Image class, _gdiplus_CLASS_Image_RotateFlip_rotateFlipType_, gdiplus._gdiplus_CLASS_Image_RotateFlip_rotateFlipType_
 ms.prod: windows
 ms.technology: windows-sdk

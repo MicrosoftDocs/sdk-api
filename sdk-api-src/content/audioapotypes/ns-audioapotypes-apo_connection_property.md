@@ -4,10 +4,10 @@ title: APO_CONNECTION_PROPERTY
 author: windows-sdk-content
 description: Contains the dynamically changing connection properties.
 old-location: termserv\apo_connection_property.htm
-old-project: TermServ
+old-project: termserv
 ms.assetid: dbf7ed62-445e-4f15-bc21-46117e694dc0
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/10/2018
 ms.keywords: APO_CONNECTION_PROPERTY, APO_CONNECTION_PROPERTY structure [Remote Desktop Services], audioapotypes/APO_CONNECTION_PROPERTY, termserv.apo_connection_property
 ms.prod: windows
 ms.technology: windows-sdk

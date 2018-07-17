@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_FontFamily_GenericMonospace_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\genericmonospace.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: FontFamily class [GDI+],GenericMonospace method, FontFamily.GenericMonospace, FontFamily::GenericMonospace, GenericMonospace, GenericMonospace method [GDI+], GenericMonospace method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GenericMonospace_, gdiplus._gdiplus_CLASS_FontFamily_GenericMonospace_
 ms.prod: windows
 ms.technology: windows-sdk

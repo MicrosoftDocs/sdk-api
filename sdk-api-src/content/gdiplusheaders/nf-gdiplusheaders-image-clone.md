@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_Clone_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\clone_16.htm
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/13/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Image class, Image class [GDI+],Clone method, Image.Clone, Image::Clone, _gdiplus_CLASS_Image_Clone_, gdiplus._gdiplus_CLASS_Image_Clone_
 ms.prod: windows
 ms.technology: windows-sdk

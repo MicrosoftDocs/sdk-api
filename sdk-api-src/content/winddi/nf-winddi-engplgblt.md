@@ -7,7 +7,7 @@ old-location: display\engplgblt.htm
 old-project: display
 ms.assetid: a25a0fcd-1a61-483a-ba22-1214a9806b70
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/12/2018
 ms.keywords: EngPlgBlt, EngPlgBlt function [Display Devices], display.engplgblt, gdifncs_e7b5fc87-c1d3-4513-a101-742cd358ed85.xml, winddi/EngPlgBlt
 ms.prod: windows
 ms.technology: windows-sdk
