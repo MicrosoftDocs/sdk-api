@@ -2,7 +2,7 @@
 UID: NA:txfw32
 ms.assetid: fda0a15f-c235-36c8-9fc3-8df39d00bf01
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:ifmib
 ms.assetid: 09ced264-dd69-3b6e-b4cb-92413536d612
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

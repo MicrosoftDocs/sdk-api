@@ -2,7 +2,7 @@
 UID: NA:winhttp
 ms.assetid: b99c19ca-45eb-37ee-9de5-fbee9a7805d2
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

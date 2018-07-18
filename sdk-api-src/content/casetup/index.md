@@ -2,7 +2,7 @@
 UID: NA:casetup
 ms.assetid: 31a0d292-7f58-3ef0-b712-9cfd54ea7aec
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: TP:wdacwmiprov
 ms.assetid: 4a0360e0-1ed6-3688-a2a1-f628eb03374b
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
