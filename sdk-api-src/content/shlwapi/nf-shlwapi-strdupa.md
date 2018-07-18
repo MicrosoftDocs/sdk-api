@@ -7,7 +7,7 @@ old-location: shell\StrDup.htm
 old-project: shell
 ms.assetid: fa77f0b3-8a9b-4221-87e3-9aebff4409fb
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: StrDup, StrDup function [Windows Shell], StrDupA, StrDupW, _win32_StrDup, shell.StrDup, shlwapi/StrDup, shlwapi/StrDupA, shlwapi/StrDupW
 ms.prod: windows
 ms.technology: windows-sdk

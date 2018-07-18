@@ -4,10 +4,10 @@ title: SetCommState function
 author: windows-sdk-content
 description: Configures a communications device according to the specifications in a device-control block (a DCB structure). The function reinitializes all hardware and control settings, but it does not empty output or input queues.
 old-location: base\setcommstate.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: a9296514-4789-4830-ba68-84a16ac7fc47
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: SetCommState, SetCommState function, _win32_setcommstate, base.setcommstate, winbase/SetCommState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

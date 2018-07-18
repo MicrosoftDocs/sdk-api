@@ -4,10 +4,10 @@ title: DhcpV4SetPolicy function
 author: windows-sdk-content
 description: Updates one or more parameters of an existing policy.
 old-location: dhcp\dhcpv4setpolicy.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 1e51aea4-f56f-4a7c-95eb-e955e7d173ca
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DhcpV4SetPolicy, DhcpV4SetPolicy function [DHCP], dhcp.dhcpv4setpolicy, dhcpsapi/DhcpV4SetPolicy
 ms.prod: windows
 ms.technology: windows-sdk

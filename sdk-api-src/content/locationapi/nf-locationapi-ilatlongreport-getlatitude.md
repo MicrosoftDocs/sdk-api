@@ -4,10 +4,10 @@ title: ILatLongReport::GetLatitude
 author: windows-sdk-content
 description: Retrieves the latitude, in degrees.
 old-location: winlocation_com_ref\ilatlongreport_getlatitude.htm
-old-project: locationapi
+old-project: LocationAPI
 ms.assetid: 81392683-61bc-4b17-8f3c-172b66bd543b
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/16/2018
 ms.keywords: GetLatitude, GetLatitude method [WinLocation], GetLatitude method [WinLocation],ILatLongReport interface, ILatLongReport interface [WinLocation],GetLatitude method, ILatLongReport.GetLatitude, ILatLongReport::GetLatitude, WinLocation_COM_Ref.ilatlongreport_getlatitude, locationapi/ILatLongReport::GetLatitude
 ms.prod: windows
 ms.technology: windows-sdk

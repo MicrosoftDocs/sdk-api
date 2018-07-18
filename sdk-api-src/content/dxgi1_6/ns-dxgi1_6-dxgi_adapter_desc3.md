@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_adapter_desc3.htm
 old-project: direct3ddxgi
 ms.assetid: A04B37C9-9F83-4812-AAF6-14FA49976051
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DXGI_ADAPTER_DESC3, DXGI_ADAPTER_DESC3 structure [DXGI], direct3ddxgi.dxgi_adapter_desc3, dxgi1_6/DXGI_ADAPTER_DESC3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: struct
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

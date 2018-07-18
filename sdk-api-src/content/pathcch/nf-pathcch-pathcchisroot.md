@@ -7,7 +7,7 @@ old-location: shell\PathCchIsRoot.htm
 old-project: shell
 ms.assetid: b9770030-b298-47f8-98a7-3ce9b4d44dd1
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: PathCchIsRoot, PathCchIsRoot function [Windows Shell], pathcch/PathCchIsRoot, shell.PathCchIsRoot
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: function
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

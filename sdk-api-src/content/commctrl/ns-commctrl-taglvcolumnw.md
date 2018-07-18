@@ -4,10 +4,10 @@ title: tagLVCOLUMNW
 author: windows-sdk-content
 description: Contains information about a column in report view. This structure is used both for creating and manipulating columns. This structure supersedes the LV_COLUMN structure.
 old-location: controls\LVCOLUMN.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvcolumn.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*LPLVCOLUMNW, LPLVCOLUMN, LPLVCOLUMN structure pointer [Windows Controls], LVCFMT_BITMAP_ON_RIGHT, LVCFMT_CENTER, LVCFMT_COL_HAS_IMAGES, LVCFMT_FIXED_RATIO, LVCFMT_FIXED_WIDTH, LVCFMT_IMAGE, LVCFMT_JUSTIFYMASK, LVCFMT_LEFT, LVCFMT_NO_DPI_SCALE, LVCFMT_RIGHT, LVCFMT_SPLITBUTTON, LVCF_DEFAULTWIDTH, LVCF_FMT, LVCF_IDEALWIDTH, LVCF_IMAGE, LVCF_MINWIDTH, LVCF_ORDER, LVCF_SUBITEM, LVCF_TEXT, LVCF_WIDTH, LVCOLUMN, LVCOLUMN structure [Windows Controls], LVCOLUMNA, LVCOLUMNW, _win32_LVCOLUMN, _win32_LVCOLUMN_cpp, commctrl/LPLVCOLUMN, commctrl/LVCOLUMN, commctrl/LVCOLUMNA, commctrl/LVCOLUMNW, controls.LVCOLUMN, controls._win32_LVCOLUMN, tagLVCOLUMNW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -381,19 +381,19 @@ If a column is added to a list-view control with index 0 (the leftmost column), 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774894(v=VS.85).aspx">LVM_DELETECOLUMN</a>
+<a href="https://msdn.microsoft.com/1748a70b-9a13-4753-ac23-55b5652164c2">LVM_DELETECOLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774911(v=VS.85).aspx">LVM_GETCOLUMN</a>
+<a href="https://msdn.microsoft.com/59b4bbfc-6c38-4faa-8f2e-3ea5d24e55a6">LVM_GETCOLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761101(v=VS.85).aspx">LVM_INSERTCOLUMN</a>
+<a href="https://msdn.microsoft.com/1326e38e-bb45-4d0d-b5bc-ec684b3b92ef">LVM_INSERTCOLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761159(v=VS.85).aspx">LVM_SETCOLUMN</a>
+<a href="https://msdn.microsoft.com/8ca1c269-fd86-4561-940d-b75f8ca2b731">LVM_SETCOLUMN</a>
 
 
 

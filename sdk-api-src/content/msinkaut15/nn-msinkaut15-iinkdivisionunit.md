@@ -7,7 +7,7 @@ old-location: tablet\iinkdivisionunit.htm
 old-project: tablet
 ms.assetid: 5c5479e0-7568-40c8-bb75-e2ded3ac86b7
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: 5c5479e0-7568-40c8-bb75-e2ded3ac86b7, IInkDivisionUnit, IInkDivisionUnit interface [Tablet PC], IInkDivisionUnit interface [Tablet PC],described, msinkaut15/IInkDivisionUnit, tablet.iinkdivisionunit
 ms.prod: windows
 ms.technology: windows-sdk

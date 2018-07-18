@@ -2,13 +2,13 @@
 UID: NS:setupapi._SP_NEWDEVICEWIZARD_DATA
 title: "_SP_NEWDEVICEWIZARD_DATA"
 author: windows-sdk-content
-description: An installer uses an SP_ADDPROPERTYPAGE_DATA structure to supply custom property pages for a device when it handles a DIF_ADDPROPERTYPAGE_ADVANCED request.
-old-location: devinst\sp_addpropertypage_data.htm
+description: An SP_NEWDEVICEWIZARD_DATA structure is used by installers to extend the operation of the hardware installation wizard by adding custom pages. It is used with DIF_NEWDEVICEWIZARD_XXX installation requests.
+old-location: devinst\sp_newdevicewizard_data.htm
 old-project: devinst
-ms.assetid: 065c83b1-4b5d-4988-871a-48b0f8b14be7
+ms.assetid: 9e38ab29-af06-4ca4-b702-fdbed9cd54d4
 ms.author: windowssdkdev
-ms.date: 07/11/2018
-ms.keywords: "*PSP_NEWDEVICEWIZARD_DATA, PSP_ADDPROPERTYPAGE_DATA, PSP_ADDPROPERTYPAGE_DATA structure pointer [Device and Driver Installation], SP_ADDPROPERTYPAGE_DATA, SP_ADDPROPERTYPAGE_DATA structure [Device and Driver Installation], SP_NEWDEVICEWIZARD_DATA, _SP_NEWDEVICEWIZARD_DATA, devinst.sp_addpropertypage_data, di-struct_d555aae2-5898-4b20-b20c-163ff3ee2cdd.xml, setupapi/PSP_ADDPROPERTYPAGE_DATA, setupapi/SP_ADDPROPERTYPAGE_DATA"
+ms.date: 07/16/2018
+ms.keywords: "*PSP_NEWDEVICEWIZARD_DATA, PSP_NEWDEVICEWIZARD_DATA, PSP_NEWDEVICEWIZARD_DATA structure pointer [Device and Driver Installation], SP_ADDPROPERTYPAGE_DATA, SP_NEWDEVICEWIZARD_DATA, SP_NEWDEVICEWIZARD_DATA structure [Device and Driver Installation], _SP_NEWDEVICEWIZARD_DATA, devinst.sp_newdevicewizard_data, di-struct_68d6c952-9fca-4d7c-bddb-5e7ceba0117e.xml, setupapi/PSP_NEWDEVICEWIZARD_DATA, setupapi/SP_NEWDEVICEWIZARD_DATA"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
@@ -34,9 +34,9 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - Setupapi.h
+ - setupapi.h
 api_name:
- - SP_ADDPROPERTYPAGE_DATA
+ - SP_NEWDEVICEWIZARD_DATA
 product: Windows
 targetos: Windows
 req.lib: 
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-An installer uses an SP_ADDPROPERTYPAGE_DATA structure to supply custom property pages for a device when it handles a DIF_ADDPROPERTYPAGE_ADVANCED request. 
+An SP_NEWDEVICEWIZARD_DATA structure is used by installers to extend the operation of the hardware installation wizard by adding custom pages. It is used with DIF_NEWDEVICEWIZARD_<i>XXX</i> installation requests.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ An installer uses an SP_ADDPROPERTYPAGE_DATA structure to supply custom property
 
 ### -field ClassInstallHeader
 
-An install request header that contains the header size and the DIF code for the request.
+An install request header that contains the header size and the DIF code for the request. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552340">SP_CLASSINSTALL_HEADER</a>.
 
 
 ### -field Flags
@@ -71,26 +71,27 @@ Reserved. Must be zero.
 
 ### -field DynamicPages
 
-An array of property sheet page handles. An installer can add the handles of custom property pages to this array.
+An array of property sheet page handles. An installer can add the handles of custom wizard pages to this array.
 
 
 ### -field NumDynamicPages
 
 The number of pages that are added to the<b> DynamicPages</b> array. 
 
-Because the array index is zero-based, this value is also the index to the next free entry in the array. For example, if there are three pages in the array, <b>DynamicPages[</b>3<b>]</b> is the next entry for an installer to use.
+Because the array index is zero-based, this value is also the index to the next free entry in the array. For example, if there are 3 pages in the array, <b>DynamicPages[</b>3<b>]</b> is the next entry for an installer to use.
 
 
 ### -field hwndWizardDlg
 
-The handle to the Device Manager top-level window.
+The handle to the top-level window of the hardware installation wizard .
 
 
 ## -remarks
 
 
 
-See the Microsoft Windows SDK for documentation on the PROPSHEETPAGE structure and for more information about property pages.
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552337">SP_ADDPROPERTYPAGE_DATA</a> is an alias for this structure.
 
 
 
@@ -100,7 +101,23 @@ See the Microsoft Windows SDK for documentation on the PROPSHEETPAGE structure a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543656">DIF_ADDPROPERTYPAGE_ADVANCED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543702">DIF_NEWDEVICEWIZARD_FINISHINSTALL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543703">DIF_NEWDEVICEWIZARD_POSTANALYZE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543705">DIF_NEWDEVICEWIZARD_PREANALYZE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543706">DIF_NEWDEVICEWIZARD_PRESELECT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543708">DIF_NEWDEVICEWIZARD_SELECT</a>
  
 
  

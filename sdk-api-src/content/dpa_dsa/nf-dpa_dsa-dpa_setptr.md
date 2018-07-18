@@ -4,10 +4,10 @@ title: DPA_SetPtr function
 author: windows-sdk-content
 description: Assigns a value to an item in a dynamic pointer array (DPA).
 old-location: controls\DPA_SetPtr.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_setptr.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DPA_SetPtr, DPA_SetPtr function [Windows Controls], _win32_DPA_SetPtr, _win32_DPA_SetPtr_cpp, controls.DPA_SetPtr, controls._win32_DPA_SetPtr, dpa_dsa/DPA_SetPtr
 ms.prod: windows
 ms.technology: windows-sdk

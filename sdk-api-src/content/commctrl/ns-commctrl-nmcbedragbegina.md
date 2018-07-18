@@ -4,10 +4,10 @@ title: NMCBEDRAGBEGINA
 author: windows-sdk-content
 description: Contains information used with the CBEN_DRAGBEGIN notification code.
 old-location: controls\NMCBEDRAGBEGIN.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\comboex\structures\nmcbedragbegin.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*LPNMCBEDRAGBEGINA, *PNMCBEDRAGBEGINA, LPNMCBEDRAGBEGIN, LPNMCBEDRAGBEGIN structure pointer [Windows Controls], NMCBEDRAGBEGIN, NMCBEDRAGBEGIN structure [Windows Controls], NMCBEDRAGBEGINA, NMCBEDRAGBEGINW, _win32_NMCBEDRAGBEGIN, _win32_NMCBEDRAGBEGIN_cpp, commctrl/LPNMCBEDRAGBEGIN, commctrl/NMCBEDRAGBEGIN, commctrl/NMCBEDRAGBEGINA, commctrl/NMCBEDRAGBEGINW, controls.NMCBEDRAGBEGIN, controls._win32_NMCBEDRAGBEGIN"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Contains information used with the <a href="https://msdn.microsoft.com/library/Bb775758(v=VS.85).aspx">CBEN_DRAGBEGIN</a> notification code. 
+Contains information used with the <a href="https://msdn.microsoft.com/bdab2700-a605-48af-aee3-bbf573408e3f">CBEN_DRAGBEGIN</a> notification code. 
 
 
 ## -struct-fields
@@ -62,9 +62,9 @@ Contains information used with the <a href="https://msdn.microsoft.com/library/B
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification code. 
+An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about the notification code. 
 
 
 ### -field iItemid

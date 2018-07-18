@@ -4,10 +4,10 @@ title: MAKEIPRANGE macro
 author: windows-sdk-content
 description: Packs two byte-values into a single LPARAM suitable for use with the IPM_SETRANGE message.
 old-location: controls\MAKEIPRANGE.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\makeiprange.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: MAKEIPRANGE, MAKEIPRANGE macro [Windows Controls], _win32_MAKEIPRANGE, _win32_MAKEIPRANGE_cpp, commctrl/MAKEIPRANGE, controls.MAKEIPRANGE, controls._win32_MAKEIPRANGE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Packs two byte-values into a single LPARAM suitable for use with the <a href="https://msdn.microsoft.com/library/Bb761382(v=VS.85).aspx">IPM_SETRANGE</a> message. 
+Packs two byte-values into a single LPARAM suitable for use with the <a href="https://msdn.microsoft.com/03068c5d-822f-459d-8f79-e7f0430a27bf">IPM_SETRANGE</a> message. 
 
 
 ## -parameters

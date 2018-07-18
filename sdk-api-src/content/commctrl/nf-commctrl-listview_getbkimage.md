@@ -4,10 +4,10 @@ title: ListView_GetBkImage macro
 author: windows-sdk-content
 description: Gets the background image in a list-view control. You can use this macro or send the LVM_GETBKIMAGE message explicitly.
 old-location: controls\ListView_GetBkImage.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getbkimage.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ListView_GetBkImage, ListView_GetBkImage macro [Windows Controls], _win32_ListView_GetBkImage, _win32_ListView_GetBkImage_cpp, commctrl/ListView_GetBkImage, controls.ListView_GetBkImage, controls._win32_ListView_GetBkImage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the background image in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774907(v=VS.85).aspx">LVM_GETBKIMAGE</a> message explicitly. 
+Gets the background image in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/db0e8f31-746a-4a16-b689-68da696e3657">LVM_GETBKIMAGE</a> message explicitly. 
 
 
 ## -parameters
@@ -67,7 +67,7 @@ TBD
 
 Type: <b>LPLVBKIMAGE</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Bb774742(v=VS.85).aspx">LVBKIMAGE</a> structure that will receive the background image information. 
+A pointer to a <a href="https://msdn.microsoft.com/d8b35356-d112-43e5-b1ad-7fb945c84e33">LVBKIMAGE</a> structure that will receive the background image information. 
 
 
 #### - hwndLV
@@ -82,7 +82,7 @@ A handle to the list-view control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775065(v=VS.85).aspx">ListView_SetBkImage</a>
+<a href="https://msdn.microsoft.com/8ee481c7-e114-45bd-9082-16d756152e54">ListView_SetBkImage</a>
  
 
  

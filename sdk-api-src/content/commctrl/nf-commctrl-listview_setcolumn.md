@@ -4,10 +4,10 @@ title: ListView_SetColumn macro
 author: windows-sdk-content
 description: Sets the attributes of a list-view column. You can use this macro or send the LVM_SETCOLUMN message explicitly.
 old-location: controls\ListView_SetColumn.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcolumn.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ListView_SetColumn, ListView_SetColumn macro [Windows Controls], _win32_ListView_SetColumn, _win32_ListView_SetColumn_cpp, commctrl/ListView_SetColumn, controls.ListView_SetColumn, controls._win32_ListView_SetColumn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the attributes of a list-view column. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761159(v=VS.85).aspx">LVM_SETCOLUMN</a> message explicitly. 
+Sets the attributes of a list-view column. You can use this macro or send the <a href="https://msdn.microsoft.com/8ca1c269-fd86-4561-940d-b75f8ca2b731">LVM_SETCOLUMN</a> message explicitly. 
 
 
 ## -parameters
@@ -76,5 +76,5 @@ The index of the column.
 
 Type: <b>LPLVCOLUMN</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Bb774743(v=VS.85).aspx">LVCOLUMN</a> structure that contains the new column attributes. The <b>mask</b> member specifies which column attributes to set. If the <b>mask</b> member specifies the LVCF_TEXT value, the <b>pszText</b> member is the address of a null-terminated string and the <b>cchTextMax</b> member is ignored.
+A pointer to an <a href="https://msdn.microsoft.com/6ffa287d-0284-43c9-80ff-b9c90a83e855">LVCOLUMN</a> structure that contains the new column attributes. The <b>mask</b> member specifies which column attributes to set. If the <b>mask</b> member specifies the LVCF_TEXT value, the <b>pszText</b> member is the address of a null-terminated string and the <b>cchTextMax</b> member is ignored.
 

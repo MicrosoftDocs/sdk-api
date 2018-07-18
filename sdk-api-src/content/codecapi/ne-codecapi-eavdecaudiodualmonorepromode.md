@@ -7,7 +7,7 @@ old-location: dshow\eavdecaudiodualmonorepromode.htm
 old-project: DirectShow
 ms.assetid: 16374617-8342-4e8c-b52a-c5a419998699
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: codecapi/eAVDecAudioDualMonoReproMode, codecapi/eAVDecAudioDualMonoReproMode_LEFT_MONO, codecapi/eAVDecAudioDualMonoReproMode_MIX_MONO, codecapi/eAVDecAudioDualMonoReproMode_RIGHT_MONO, codecapi/eAVDecAudioDualMonoReproMode_STEREO, dshow.eavdecaudiodualmonorepromode, eAVDecAudioDualMonoReproMode, eAVDecAudioDualMonoReproMode enumeration [DirectShow], eAVDecAudioDualMonoReproModeEnumeration, eAVDecAudioDualMonoReproMode_LEFT_MONO, eAVDecAudioDualMonoReproMode_MIX_MONO, eAVDecAudioDualMonoReproMode_RIGHT_MONO, eAVDecAudioDualMonoReproMode_STEREO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

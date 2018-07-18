@@ -7,7 +7,7 @@ old-location: wmformat\iwmclientconnections2.htm
 old-project: wmformat
 ms.assetid: 7148dd13-e5de-4adb-89e7-3f02a463c2d1
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IWMClientConnections2, IWMClientConnections2 interface [windows Media Format], IWMClientConnections2 interface [windows Media Format],described, IWMClientConnections2Interface, wmformat.iwmclientconnections2, wmsdkidl/IWMClientConnections2
 ms.prod: windows
 ms.technology: windows-sdk

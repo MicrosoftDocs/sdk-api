@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__TryShell2Rename.htm
 old-project: shell
 ms.assetid: 30801c5d-151b-4556-a1e5-1cbc81a5c33a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_TryShell2Rename method, IBrowserService2._TryShell2Rename, IBrowserService2::_TryShell2Rename, _TryShell2Rename, _TryShell2Rename method [Windows Shell], _TryShell2Rename method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_TryShell2Rename, shell.IBrowserService2__TryShell2Rename, zone_IBrowserService2__TryShell2Rename
 ms.prod: windows
 ms.technology: windows-sdk

@@ -15,8 +15,8 @@ ms.topic: interface
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -349,7 +349,7 @@ A pointer to a current <b>ITfRange</b> object can be obtained from the &lt;range
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
 
 
 

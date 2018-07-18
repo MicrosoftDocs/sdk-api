@@ -4,10 +4,10 @@ title: CertDuplicateCertificateContext function
 author: windows-sdk-content
 description: Duplicates a certificate context by incrementing its reference count.
 old-location: security\certduplicatecertificatecontext.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 589edd25-c8d0-4f93-83b2-9df2ed2e2812
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CertDuplicateCertificateContext, CertDuplicateCertificateContext function [Security], _crypto2_certduplicatecertificatecontext, security.certduplicatecertificatecontext, wincrypt/CertDuplicateCertificateContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -87,7 +87,7 @@ Currently, a copy is not made of the <a href="https://msdn.microsoft.com/library
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Functions</a>
+<a href="cryptography_functions.htm">Certificate Functions</a>
  
 
  

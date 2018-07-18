@@ -52,7 +52,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-Called by an <a href="https://msdn.microsoft.com/library/Ee418456(v=VS.85).aspx">IXAPO::Process</a> implementation when an XAPO is disabled for thru processing.
+Called by an <a href="https://msdn.microsoft.com/2510590D-578A-4A39-847A-34DFE620A7CC">IXAPO::Process</a> implementation when an XAPO is disabled for thru processing.
 
 
 ## -parameters
@@ -150,11 +150,11 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee415236(v=VS.85).aspx">CXAPOBase</a>
+<a href="https://msdn.microsoft.com/C55C4597-F379-462E-94FE-D7CF2004D8F4">CXAPOBase</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee415893(v=VS.85).aspx">IXAPO</a>
+<a href="https://msdn.microsoft.com/21DA61D2-8EDE-496B-8513-D67121697FBA">IXAPO</a>
  
 
  

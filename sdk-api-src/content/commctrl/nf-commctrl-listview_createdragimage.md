@@ -4,10 +4,10 @@ title: ListView_CreateDragImage macro
 author: windows-sdk-content
 description: Creates a drag image list for the specified item. You can use this macro or send the LVM_CREATEDRAGIMAGE message explicitly.
 old-location: controls\ListView_CreateDragImage.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_createdragimage.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ListView_CreateDragImage, ListView_CreateDragImage macro [Windows Controls], _win32_ListView_CreateDragImage, _win32_ListView_CreateDragImage_cpp, commctrl/ListView_CreateDragImage, controls.ListView_CreateDragImage, controls._win32_ListView_CreateDragImage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Creates a drag image list for the specified item. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774890(v=VS.85).aspx">LVM_CREATEDRAGIMAGE</a> message explicitly. 
+Creates a drag image list for the specified item. You can use this macro or send the <a href="https://msdn.microsoft.com/face4c8f-01ff-4f5a-a468-e306a50dae35">LVM_CREATEDRAGIMAGE</a> message explicitly. 
 
 
 ## -parameters

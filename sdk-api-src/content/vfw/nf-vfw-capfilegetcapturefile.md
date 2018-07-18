@@ -7,7 +7,7 @@ old-location: multimedia\capfilegetcapturefile.htm
 old-project: Multimedia
 ms.assetid: ea18ee1e-a53e-4032-ae9a-86f61365faaf
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "_win32_capFileGetCaptureFile, capFileGetCaptureFile, capFileGetCaptureFile macro [Windows Multimedia], multimedia.capfilegetcapturefile, vfw/capFileGetCaptureFile"
 ms.prod: windows
 ms.technology: windows-sdk

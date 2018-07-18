@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrEvent_GetHandlerID.htm
 old-project: shell
 ms.assetid: b2f3bcbf-f14d-41ce-b4fc-3f491465ce84
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetHandlerID, GetHandlerID method [Windows Shell], GetHandlerID method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetHandlerID method, ISyncMgrEvent.GetHandlerID, ISyncMgrEvent::GetHandlerID, _shell_ISyncMgrEvent_GetHandlerID, shell.ISyncMgrEvent_GetHandlerID, syncmgr/ISyncMgrEvent::GetHandlerID
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PeerPnrpUnregister function
 author: windows-sdk-content
 description: Deregisters a peer from a PNRP cloud.
 old-location: p2p\peerpnrpunregister.htm
-old-project: p2psdk
+old-project: P2PSdk
 ms.assetid: ac032cfb-b1d4-4fe0-8d27-7d378aaa6aff
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/16/2018
 ms.keywords: PeerPnrpUnregister, PeerPnrpUnregister function [Peer Networking], p2p.peerpnrpunregister, p2p/PeerPnrpUnregister
 ms.prod: windows
 ms.technology: windows-sdk

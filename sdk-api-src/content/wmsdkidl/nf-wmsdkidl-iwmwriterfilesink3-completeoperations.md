@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterfilesink3_completeoperations.htm
 old-project: wmformat
 ms.assetid: 6eb4f09f-627e-4409-9f08-8f655aa7d0ec
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CompleteOperations, CompleteOperations method [windows Media Format], CompleteOperations method [windows Media Format],IWMWriterFileSink3 interface, IWMWriterFileSink3 interface [windows Media Format],CompleteOperations method, IWMWriterFileSink3.CompleteOperations, IWMWriterFileSink3::CompleteOperations, IWMWriterFileSink3CompleteOperations, wmformat.iwmwriterfilesink3_completeoperations, wmsdkidl/IWMWriterFileSink3::CompleteOperations
 ms.prod: windows
 ms.technology: windows-sdk

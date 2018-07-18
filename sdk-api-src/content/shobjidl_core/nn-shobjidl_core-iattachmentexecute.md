@@ -7,7 +7,7 @@ old-location: shell\IAttachmentExecute.htm
 old-project: shell
 ms.assetid: 2ebc3197-aa28-446e-8452-8ff71764fa9d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IAttachmentExecute, IAttachmentExecute interface [Windows Shell], IAttachmentExecute interface [Windows Shell],described, _win32_IAttachmentExecute, shell.IAttachmentExecute, shobjidl_core/IAttachmentExecute
 ms.prod: windows
 ms.technology: windows-sdk

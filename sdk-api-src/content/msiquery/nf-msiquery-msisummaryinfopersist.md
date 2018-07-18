@@ -4,10 +4,10 @@ title: MsiSummaryInfoPersist function
 author: windows-sdk-content
 description: The MsiSummaryInfoPersist function writes changed summary information back to the summary information stream.
 old-location: setup\msisummaryinfopersist.htm
-old-project: msi
+old-project: Msi
 ms.assetid: 76fd8339-2c57-4695-83c7-dcd3cd642f55
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/16/2018
 ms.keywords: MsiSummaryInfoPersist, MsiSummaryInfoPersist function, _msi_msisummaryinfopersist, msiquery/MsiSummaryInfoPersist, setup.msisummaryinfopersist
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ This function returns UINT.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Summary Information Property Functions</a>
+<a href="database_functions.htm">Summary Information Property Functions</a>
 
 
 

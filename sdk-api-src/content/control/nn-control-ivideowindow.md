@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow.htm
 old-project: DirectShow
 ms.assetid: 8e931c15-bd1d-409e-ada1-97fe49125fe7
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], IVideoWindow interface [DirectShow],described, IVideoWindowInterface, control/IVideoWindow, dshow.ivideowindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ The <a href="https://msdn.microsoft.com/7719ed9d-e3b9-4c84-b587-4e120b5cabf8">Vi
 
 In most cases, an application should query the Filter Graph Manager for this interface, and not call the filter directly, because of the messaging issue just described. However, if the filter graph has more than one Video Renderer, the Filter Graph Manager only communicates with one of them, selected arbitrarily. Therefore, if your application uses multiple video windows, use the <code>IVideoWindow</code> interface directly on the filters. In that case, you must forward window messages to each Video Renderer instance, using the <a href="https://msdn.microsoft.com/37d28f32-5da5-4082-ac57-5b274e95ca68">IVideoWindow::NotifyOwnerMessage</a> method.
 
-To prevent the video window from flickering during repaints, override the default handling for the <a href="https://msdn.microsoft.com/library/ms648055(v=VS.85).aspx">WM_ERASEBKGND</a> message and do not erase the window. (For MFC applications, override <b>CWnd::OnEraseBkgnd</b> with an empty handler.)
+To prevent the video window from flickering during repaints, override the default handling for the <a href="winui._win32_WM_ERASEBKGND">WM_ERASEBKGND</a> message and do not erase the window. (For MFC applications, override <b>CWnd::OnEraseBkgnd</b> with an empty handler.)
 
 Properties set on a video renderer persist between successive connections and disconnections.
 
@@ -76,7 +76,7 @@ Because this interface is Automation-compatible, all Boolean values are defined 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVideoWindow</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IVideoWindow</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVideoWindow</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IVideoWindow</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -448,7 +448,7 @@ Sets the position of the video window.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

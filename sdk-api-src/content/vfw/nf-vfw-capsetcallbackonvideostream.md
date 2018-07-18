@@ -7,7 +7,7 @@ old-location: multimedia\capsetcallbackonvideostream.htm
 old-project: Multimedia
 ms.assetid: c2e783a5-829b-4fa2-995a-c0cb4e63645b
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "_win32_capSetCallbackOnVideoStream, capSetCallbackOnVideoStream, capSetCallbackOnVideoStream macro [Windows Multimedia], multimedia.capsetcallbackonvideostream, vfw/capSetCallbackOnVideoStream"
 ms.prod: windows
 ms.technology: windows-sdk

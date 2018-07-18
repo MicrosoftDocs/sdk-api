@@ -7,7 +7,7 @@ old-location: shell\IFileDialogCustomize_RemoveControlItem.htm
 old-project: shell
 ms.assetid: 190aaeba-817d-421c-a356-157f3ae7d2e1
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],RemoveControlItem method, IFileDialogCustomize.RemoveControlItem, IFileDialogCustomize::RemoveControlItem, RemoveControlItem, RemoveControlItem method [Windows Shell], RemoveControlItem method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_RemoveControlItem, shell_IFileDialogCustomize_RemoveControlItem, shobjidl_core/IFileDialogCustomize::RemoveControlItem
 ms.prod: windows
 ms.technology: windows-sdk

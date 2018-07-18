@@ -144,6 +144,9 @@ Supported starting in Windows 8.1.
 ### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_INDIRECT_WIRED
 
 
+### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_INDIRECT_VIRTUAL
+
+
 ### -field DISPLAYCONFIG_OUTPUT_TECHNOLOGY_INTERNAL
 
 Indicates that the video output device connects internally to a display device (for example, the internal connection in a laptop computer).

@@ -4,10 +4,10 @@ title: IRDPSRAPIAttendeeDisconnectInfo::get_Reason
 author: windows-sdk-content
 description: The reason the attendee was disconnected.
 old-location: rdp\irdpsrapiattendeedisconnectinfo_reason.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: 4445809f-1aad-4d76-9199-4d5246c7c83d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IRDPSRAPIAttendeeDisconnectInfo interface [RDP],Reason property, IRDPSRAPIAttendeeDisconnectInfo.Reason, IRDPSRAPIAttendeeDisconnectInfo.get_Reason, IRDPSRAPIAttendeeDisconnectInfo::Reason, IRDPSRAPIAttendeeDisconnectInfo::get_Reason, RDPSRAPIAttendeeDisconnectInfo object [RDP],Reason property, Reason property [RDP], Reason property [RDP],IRDPSRAPIAttendeeDisconnectInfo interface, Reason property [RDP],RDPSRAPIAttendeeDisconnectInfo object, get_Reason, rdp.irdpsrapiattendeedisconnectinfo_reason, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::Reason, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::get_Reason
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

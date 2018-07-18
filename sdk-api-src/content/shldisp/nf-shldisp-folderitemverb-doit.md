@@ -7,7 +7,7 @@ old-location: shell\FolderItemVerb_DoIt.htm
 old-project: shell
 ms.assetid: 92400fe9-e4d1-4bc9-b4ee-d2adaf38154f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DoIt, DoIt method [Windows Shell], DoIt method [Windows Shell],FolderItemVerb object, FolderItemVerb object [Windows Shell],DoIt method, FolderItemVerb.DoIt, FolderItemVerb::DoIt, _win32_FolderItemVerb_DoIt, shell.FolderItemVerb_DoIt
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: devinst\setupdidrawminiicon.htm
 old-project: devinst
 ms.assetid: 99670376-a338-4001-bede-a4fea57b73a7
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/16/2018
 ms.keywords: SetupDiDrawMiniIcon, SetupDiDrawMiniIcon function [Device and Driver Installation], devinst.setupdidrawminiicon, di-rtns_b85627e0-4b6a-4198-b4b9-8a1afaa09a9a.xml, setupapi/SetupDiDrawMiniIcon
 ms.prod: windows
 ms.technology: windows-sdk

@@ -15,8 +15,8 @@ ms.topic: function
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -55,7 +55,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-Retrieves character type information for the characters in the specified Unicode source string. For each character in the string, the function sets one or more bits in the corresponding 16-bit element of the output array. Each bit identifies a given character type, for example, letter, digit, or neither.      <div class="alert"><b>Caution</b>  Using the <b>GetStringTypeW</b> function incorrectly can compromise the security of your application. To avoid a buffer overflow, the application must set the output buffer size correctly. For more security information, see <a href="https://msdn.microsoft.com/library/ms632584(v=VS.85).aspx">Security Considerations: Windows User Interface</a>.</div>
+Retrieves character type information for the characters in the specified Unicode source string. For each character in the string, the function sets one or more bits in the corresponding 16-bit element of the output array. Each bit identifies a given character type, for example, letter, digit, or neither.      <div class="alert"><b>Caution</b>  Using the <b>GetStringTypeW</b> function incorrectly can compromise the security of your application. To avoid a buffer overflow, the application must set the output buffer size correctly. For more security information, see <a href="sec_winui">Security Considerations: Windows User Interface</a>.</div>
 <div> </div>
 
 

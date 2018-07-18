@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_selectsubpicturestream.htm
 old-project: DirectShow
 ms.assetid: 0553a0c4-34d3-4774-9a22-acc01c0a832a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectSubpictureStream method, IDvdControl2.SelectSubpictureStream, IDvdControl2::SelectSubpictureStream, IDvdControl2SelectSubpictureStream, SelectSubpictureStream, SelectSubpictureStream method [DirectShow], SelectSubpictureStream method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectsubpicturestream, strmif/IDvdControl2::SelectSubpictureStream
 ms.prod: windows
 ms.technology: windows-sdk

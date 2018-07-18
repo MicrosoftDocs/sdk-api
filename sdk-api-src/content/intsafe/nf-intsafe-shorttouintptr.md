@@ -7,7 +7,7 @@ old-location: shell\ShortToUIntPtr.htm
 old-project: shell
 ms.assetid: 6b5d0c0c-a2c3-4d63-ab6c-d93372a7413e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ShortToUIntPtr, ShortToUIntPtr function [Windows Shell], intsafe/ShortToUIntPtr, shell.ShortToUIntPtr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: function
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

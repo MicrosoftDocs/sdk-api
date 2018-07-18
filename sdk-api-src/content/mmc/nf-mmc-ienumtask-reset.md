@@ -4,10 +4,10 @@ title: IEnumTASK::Reset
 author: windows-sdk-content
 description: The IEnumTASK::Reset method enables MMC to reset the enumeration to the beginning of the snap-in's task list.
 old-location: mmc\ienumtask_reset.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 5368d1f5-4b97-46d2-ba7c-1caa783a603e
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/16/2018
 ms.keywords: IEnumTASK interface [MMC],Reset method, IEnumTASK.Reset, IEnumTASK::Reset, Reset, Reset method [MMC], Reset method [MMC],IEnumTASK interface, _slate_ienumtask_reset, mmc.ienumtask_reset, mmc/IEnumTASK::Reset
 ms.prod: windows
 ms.technology: windows-sdk

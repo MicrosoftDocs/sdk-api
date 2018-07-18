@@ -7,7 +7,7 @@ old-location: dshow\ivmrdeinterlacecontrol_setdeinterlaceprefs.htm
 old-project: DirectShow
 ms.assetid: 5a78b8cc-ecf8-4e0a-87f0-56b7aac6abdd
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IVMRDeinterlaceControl interface [DirectShow],SetDeinterlacePrefs method, IVMRDeinterlaceControl.SetDeinterlacePrefs, IVMRDeinterlaceControl::SetDeinterlacePrefs, IVMRDeinterlaceControlSetDeinterlacePrefs, SetDeinterlacePrefs, SetDeinterlacePrefs method [DirectShow], SetDeinterlacePrefs method [DirectShow],IVMRDeinterlaceControl interface, dshow.ivmrdeinterlacecontrol_setdeinterlaceprefs, strmif/IVMRDeinterlaceControl::SetDeinterlacePrefs
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\GetScaleFactorForMonitor.htm
 old-project: shell
 ms.assetid: 2F214512-704D-41A2-86A6-1EF880CD3DB4
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetScaleFactorForMonitor, GetScaleFactorForMonitor function [Windows Shell], shell.GetScaleFactorForMonitor, shellscalingapi/GetScaleFactorForMonitor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 
-Your code needs to handle the <a href="https://msdn.microsoft.com/library/ms632652(v=VS.85).aspx">WM_WINDOWPOSCHANGED</a> message in addition to the scale change event registered through <a href="https://msdn.microsoft.com/05FAFC9B-DCB7-464A-9933-7166C7E53D40">RegisterScaleChangeEvent</a>, because the app window can be moved between monitors. In response to the <b>WM_WINDOWPOSCHANGED</b> message, call <a href="https://msdn.microsoft.com/fe6505c9-b481-4fec-ae9d-995943234a3a">MonitorFromWindow</a>, followed by <b>GetScaleFactorForMonitor</b> to get the scale factor of the monitor which the app window is on. Your code can then react to any dots per inch (dpi) change by reloading assets and changing layout.
+Your code needs to handle the <a href="https://msdn.microsoft.com/1eabd0b1-1f92-4576-b7fb-8af50fb04526">WM_WINDOWPOSCHANGED</a> message in addition to the scale change event registered through <a href="https://msdn.microsoft.com/05FAFC9B-DCB7-464A-9933-7166C7E53D40">RegisterScaleChangeEvent</a>, because the app window can be moved between monitors. In response to the <b>WM_WINDOWPOSCHANGED</b> message, call <a href="https://msdn.microsoft.com/fe6505c9-b481-4fec-ae9d-995943234a3a">MonitorFromWindow</a>, followed by <b>GetScaleFactorForMonitor</b> to get the scale factor of the monitor which the app window is on. Your code can then react to any dots per inch (dpi) change by reloading assets and changing layout.
 
 
 

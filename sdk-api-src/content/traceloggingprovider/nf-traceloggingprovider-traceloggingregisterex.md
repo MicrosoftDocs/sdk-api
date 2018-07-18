@@ -59,19 +59,26 @@ Registers a TraceLogging provider with callback so that it can be used for to lo
 
 
 
-### -param hProvider [in, out]
+### -param
+
+TBD
+
+
+
+
+#### - hProvider [in, out]
 
 The handle of the provider to register.
 
 
-### -param pEnableCallback [in, optional]
-
-Callback that ETW calls to notify you when a session enables or disables your provider. Defaults to <b>NULL</b>.
-
-
-### -param pCallbackContext [in, optional]
+#### - pCallbackContext [in, optional]
 
 Provider-defined context data to pass to the callback when the provider is enabled or disabled. Defaults to <b>NULL</b>.
+
+
+#### - pEnableCallback [in, optional]
+
+Callback that ETW calls to notify you when a session enables or disables your provider. Defaults to <b>NULL</b>.
 
 
 ## -returns

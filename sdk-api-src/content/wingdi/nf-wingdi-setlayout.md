@@ -166,7 +166,7 @@ Once the LAYOUT_RTL flag is selected, flags normally specifying right or left ar
 
 <b>SetLayout</b> cannot modify drawing directly into the bits of a DIB.
 
-For more information, see "Window Layout and Mirroring" in <a href="https://msdn.microsoft.com/library/ms632599(v=VS.85).aspx">Window Features</a>.
+For more information, see "Window Layout and Mirroring" in <a href="_win32_Window_Features_cpp">Window Features</a>.
 
 
 

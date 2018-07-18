@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput6.htm
 old-project: direct3ddxgi
 ms.assetid: 2F04E7F1-8295-441B-9E86-65C3DE5DE75F
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IDXGIOutput6, IDXGIOutput6 interface [DXGI], IDXGIOutput6 interface [DXGI],described, direct3ddxgi.idxgioutput6, dxgi1_6/IDXGIOutput6
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IDXGIOutput6</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Mt846755(v=VS.85).aspx">CheckHardwareCompositionSupport</a>
+<a href="direct3ddxgi.idxgioutput6_checkhardwarecompositionsupport">CheckHardwareCompositionSupport</a>
 </td>
 <td align="left" width="63%">
 Notifies applications that hardware stretching is supported.

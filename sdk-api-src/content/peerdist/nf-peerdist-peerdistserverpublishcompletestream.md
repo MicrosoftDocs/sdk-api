@@ -4,10 +4,10 @@ title: PeerDistServerPublishCompleteStream function
 author: windows-sdk-content
 description: PeerDistServerPublishCompleteStream function completes the process of adding data to the stream.
 old-location: p2p\peerdistserverpublishcompletestream.htm
-old-project: p2psdk
+old-project: P2PSdk
 ms.assetid: ad66025e-cc4f-49b7-9749-de97f4a55078
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/16/2018
 ms.keywords: PeerDistServerPublishCompleteStream, PeerDistServerPublishCompleteStream function [Peer Networking], p2p.peerdistserverpublishcompletestream, peerdist/PeerDistServerPublishCompleteStream
 ms.prod: windows
 ms.technology: windows-sdk

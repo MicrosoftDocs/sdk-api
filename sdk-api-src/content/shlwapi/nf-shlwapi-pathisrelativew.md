@@ -7,7 +7,7 @@ old-location: shell\PathIsRelative.htm
 old-project: shell
 ms.assetid: ad36c277-645f-4c62-af7d-b75e29de573f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: PathIsRelative, PathIsRelative function [Windows Shell], PathIsRelativeA, PathIsRelativeW, _win32_PathIsRelative, shell.PathIsRelative, shlwapi/PathIsRelative, shlwapi/PathIsRelativeA, shlwapi/PathIsRelativeW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ImageList_LoadBitmap macro
 author: windows-sdk-content
 description: Calls the ImageList_LoadImage function to create an image list from the specified bitmap resource.
 old-location: controls\ImageList_LoadBitmap.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_loadbitmap.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ImageList_LoadBitmap, ImageList_LoadBitmap macro [Windows Controls], _win32_ImageList_LoadBitmap, _win32_ImageList_LoadBitmap_cpp, commctrl/ImageList_LoadBitmap, controls.ImageList_LoadBitmap, controls._win32_ImageList_LoadBitmap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Calls the <a href="https://msdn.microsoft.com/library/Bb761557(v=VS.85).aspx">ImageList_LoadImage</a> function to create an image list from the specified bitmap resource. 
+Calls the <a href="https://msdn.microsoft.com/6392e485-10f4-46c1-a089-f447d078a20e">ImageList_LoadImage</a> function to create an image list from the specified bitmap resource. 
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A handle to the instance that contains the bitmap resource. This parameter is <b
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
 
-The image to load. If the <i>hi</i> parameter is non-<b>NULL</b>, <i>lpbmp</i>is the address of a null-terminated string that contains the name of the image resource in the <i>hi</i> module. If <i>hi</i> is <b>NULL</b>, the <a href="https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx">LOWORD</a> of this parameter must be the identifier of an OEM bitmap to load. To create this value, use the <a href="https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro with one of the OEM bitmap identifiers defined in WINUSER.H. These identifiers have the OBM_ prefix.
+The image to load. If the <i>hi</i> parameter is non-<b>NULL</b>, <i>lpbmp</i>is the address of a null-terminated string that contains the name of the image resource in the <i>hi</i> module. If <i>hi</i> is <b>NULL</b>, the <a href="https://msdn.microsoft.com/4f169f33-ed13-4efc-bf3f-ea2a4fe1de4e">LOWORD</a> of this parameter must be the identifier of an OEM bitmap to load. To create this value, use the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro with one of the OEM bitmap identifiers defined in WINUSER.H. These identifiers have the OBM_ prefix.
 
 
 ### -param cx

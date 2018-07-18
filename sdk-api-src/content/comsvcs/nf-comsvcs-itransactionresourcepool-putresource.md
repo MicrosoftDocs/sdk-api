@@ -7,7 +7,7 @@ old-location: cos\itransactionresourcepool_putresource.htm
 old-project: cossdk
 ms.assetid: 6e05f075-0fa8-4605-9f68-3ef7fc9f0132
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ITransactionResourcePool interface [COM+],PutResource method, ITransactionResourcePool.PutResource, ITransactionResourcePool::PutResource, PutResource, PutResource method [COM+], PutResource method [COM+],ITransactionResourcePool interface, _cos_ITransactionResourcePool_PutResource, comsvcs/ITransactionResourcePool::PutResource, cos.itransactionresourcepool_putresource
 ms.prod: windows
 ms.technology: windows-sdk

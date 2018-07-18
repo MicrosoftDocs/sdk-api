@@ -4,10 +4,10 @@ title: GetThemeDocumentationProperty function
 author: windows-sdk-content
 description: Retrieves the value for a theme property from the documentation section of the specified theme file.
 old-location: controls\GetThemeDocumentationProperty.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemedocumentationproperty.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetThemeDocumentationProperty, GetThemeDocumentationProperty function [Windows Controls], SZ_THDOCPROP_AUTHOR, SZ_THDOCPROP_CANONICALNAME, SZ_THDOCPROP_DISPLAYNAME, SZ_THDOCPROP_TOOLTIP, controls.GetThemeDocumentationProperty, controls.inet_GetThemeDocumentationProperty, inet_GetThemeDocumentationProperty, inet_GetThemeDocumentationProperty_cpp, uxtheme/GetThemeDocumentationProperty
 ms.prod: windows
 ms.technology: windows-sdk

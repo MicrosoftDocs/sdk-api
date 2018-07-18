@@ -15,8 +15,8 @@ ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -123,7 +123,7 @@ Returns nothing.
 
 
 
-If you call <b>UpdateSubresource1</b> to update a constant buffer, pass any region, and the driver has not been implemented to Windows 8, the runtime drops the call (except <a href="https://msdn.microsoft.com/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1, 9.2, and 9.3 where the runtime emulates support).  The runtime also drops the call if you update a constant buffer with a partial region whose extent is not aligned to 16-byte granularity (16 bytes being a full constant). When the runtime drops the call, the runtime doesn't call the corresponding device driver interface (DDI).
+If you call <b>UpdateSubresource1</b> to update a constant buffer, pass any region, and the driver has not been implemented to Windows 8, the runtime drops the call (except <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.1, 9.2, and 9.3 where the runtime emulates support).  The runtime also drops the call if you update a constant buffer with a partial region whose extent is not aligned to 16-byte granularity (16 bytes being a full constant). When the runtime drops the call, the runtime doesn't call the corresponding device driver interface (DDI).
 
 When you record a call to <a href="https://msdn.microsoft.com/2d8ef5a2-204a-434d-918a-104419050233">UpdateSubresource</a> with an offset <i>pDstBox</i> in a software command list, the offset in <i>pDstBox</i> is incorrectly applied to <i>pSrcData</i> when you play back the command list.  The new-for-Windows 8<b>UpdateSubresource1</b> fixes this issue. In a call to <b>UpdateSubresource1</b>, <i>pDstBox</i> does not affect <i>pSrcData</i>.
 

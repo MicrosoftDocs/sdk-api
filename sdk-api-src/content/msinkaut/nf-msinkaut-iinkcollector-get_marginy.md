@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_marginy.htm
 old-project: tablet
 ms.assetid: 6cba076e-6392-4f0a-a80d-3df903d0ba13
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: 6cba076e-6392-4f0a-a80d-3df903d0ba13, IInkCollector interface [Tablet PC],MarginY property, IInkCollector.MarginY, IInkCollector.get_MarginY, IInkCollector::MarginY, IInkCollector::get_MarginY, IInkCollector::put_MarginY, InkCollector.get_MarginY, InkCollector.put_MarginY, MarginY property [Tablet PC], MarginY property [Tablet PC],IInkCollector interface, get_MarginY, msinkaut/IInkCollector::MarginY, msinkaut/IInkCollector::get_MarginY, msinkaut/IInkCollector::put_MarginY, tablet.inkcollector_marginy
 ms.prod: windows
 ms.technology: windows-sdk

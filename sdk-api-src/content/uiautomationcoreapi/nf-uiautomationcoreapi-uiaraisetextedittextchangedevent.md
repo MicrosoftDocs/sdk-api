@@ -15,8 +15,8 @@ ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -77,7 +77,7 @@ The type of text-edit change that occurred.
 
 ### -param pChangedData [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Ee684093(v=VS.85).aspx">SAFEARRAY</a>*</b>
+Type: <b><a href="uiauto_WorkingWithSafeArrays.htm">SAFEARRAY</a>*</b>
 
 The event data. Should be assignable as a <b>VAR</b> of type <b>VT_BSTR</b>.
 

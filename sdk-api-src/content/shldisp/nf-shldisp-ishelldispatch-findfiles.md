@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_FindFiles.htm
 old-project: shell
 ms.assetid: 6F588D5E-5B6E-4000-BAD5-B557FB975FCA
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: FindFiles, FindFiles method [Windows Shell], FindFiles method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],FindFiles method, IShellDispatch.FindFiles, IShellDispatch::FindFiles, shell.IShellDispatch_FindFiles
 ms.prod: windows
 ms.technology: windows-sdk

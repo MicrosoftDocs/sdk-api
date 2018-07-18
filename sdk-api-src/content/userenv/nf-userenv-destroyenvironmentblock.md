@@ -7,7 +7,7 @@ old-location: shell\DestroyEnvironmentBlock.htm
 old-project: shell
 ms.assetid: 8d03e102-3f8a-4aa7-b175-0a6781eedea7
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DestroyEnvironmentBlock, DestroyEnvironmentBlock function [Windows Shell], _shell_DestroyEnvironmentBlock, shell.DestroyEnvironmentBlock, userenv/DestroyEnvironmentBlock
 ms.prod: windows
 ms.technology: windows-sdk

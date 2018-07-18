@@ -7,7 +7,7 @@ old-location: multimedia\mciwndplay.htm
 old-project: Multimedia
 ms.assetid: bfa88925-2f2a-4bbb-bd89-479515f759ac
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: MCIWndPlay, MCIWndPlay macro [Windows Multimedia], _win32_MCIWndPlay, multimedia.mciwndplay, vfw/MCIWndPlay
 ms.prod: windows
 ms.technology: windows-sdk

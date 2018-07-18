@@ -7,7 +7,7 @@ old-location: input_ink\iinkdesktophost_queueworkitem.htm
 old-project: input_ink
 ms.assetid: c8c5e1c4-c5a5-4172-a101-66276b7024e2
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IInkDesktopHost interface,QueueWorkItem method, IInkDesktopHost.QueueWorkItem, IInkDesktopHost::QueueWorkItem, InkPresenterDesktop.iinkdesktophost_queueworkitem, QueueWorkItem, QueueWorkItem method, QueueWorkItem method,IInkDesktopHost interface, inkpresenterdesktop/IInkDesktopHost::QueueWorkItem, input_ink.iinkdesktophost_queueworkitem
 ms.prod: windows
 ms.technology: windows-sdk

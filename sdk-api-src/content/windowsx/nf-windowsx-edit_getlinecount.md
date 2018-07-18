@@ -4,10 +4,10 @@ title: Edit_GetLineCount macro
 author: windows-sdk-content
 description: Gets the number of lines in the text of an edit control. You can use this macro or send the EM_GETLINECOUNT message explicitly.
 old-location: controls\Edit_GetLineCount.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getlinecount.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Edit_GetLineCount, Edit_GetLineCount macro [Windows Controls], _win32_Edit_GetLineCount, _win32_Edit_GetLineCount_cpp, controls.Edit_GetLineCount, controls._win32_Edit_GetLineCount, windowsx/Edit_GetLineCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the number of lines in the text of an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761586(v=VS.85).aspx">EM_GETLINECOUNT</a> message explicitly.
+Gets the number of lines in the text of an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/9fe63c10-7395-4f98-a672-14960a70d14f">EM_GETLINECOUNT</a> message explicitly.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb761586(v=VS.85).aspx">EM_GETLINECOUNT</a>
+For more information, see <a href="https://msdn.microsoft.com/9fe63c10-7395-4f98-a672-14960a70d14f">EM_GETLINECOUNT</a>
 
 
 

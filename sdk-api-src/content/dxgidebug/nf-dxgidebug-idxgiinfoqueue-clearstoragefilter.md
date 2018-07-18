@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_clearstoragefilter.htm
 old-project: direct3ddxgi
 ms.assetid: 4CD81C2B-53F2-4046-A001-72CBFD5C04CA
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ClearStorageFilter, ClearStorageFilter method [DXGI], ClearStorageFilter method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],ClearStorageFilter method, IDXGIInfoQueue.ClearStorageFilter, IDXGIInfoQueue::ClearStorageFilter, direct3ddxgi.idxgiinfoqueue_clearstoragefilter, dxgidebug/IDXGIInfoQueue::ClearStorageFilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

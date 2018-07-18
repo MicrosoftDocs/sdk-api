@@ -4,10 +4,10 @@ title: Edit_SetRect macro
 author: windows-sdk-content
 description: Sets the formatting rectangle of an edit control. You can use this macro or send the EM_SETRECT message explicitly.
 old-location: controls\Edit_SetRect.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setrect.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Edit_SetRect, Edit_SetRect macro [Windows Controls], _win32_Edit_SetRect, _win32_Edit_SetRect_cpp, controls.Edit_SetRect, controls._win32_Edit_SetRect, windowsx/Edit_SetRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the formatting rectangle of an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761657(v=VS.85).aspx">EM_SETRECT</a> message explicitly.
+Sets the formatting rectangle of an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/4f576e94-3bd3-4416-a960-b7f22da963ea">EM_SETRECT</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb761657(v=VS.85).aspx">EM_SETRECT</a>.
+For more information, see <a href="https://msdn.microsoft.com/4f576e94-3bd3-4416-a960-b7f22da963ea">EM_SETRECT</a>.
 
 
 

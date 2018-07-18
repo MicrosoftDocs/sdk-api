@@ -7,7 +7,7 @@ old-location: dshow\eavdecvideoswpowerlevel.htm
 old-project: DirectShow
 ms.assetid: bf1c4c79-8e45-43ac-a203-444a00240eed
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: codecapi/eAVDecVideoSWPowerLevel, codecapi/eAVDecVideoSWPowerLevel_Balanced, codecapi/eAVDecVideoSWPowerLevel_BatteryLife, codecapi/eAVDecVideoSWPowerLevel_VideoQuality, dshow.eavdecvideoswpowerlevel, eAVDecVideoSWPowerLevel, eAVDecVideoSWPowerLevel enumeration [DirectShow], eAVDecVideoSWPowerLevel_Balanced, eAVDecVideoSWPowerLevel_BatteryLife, eAVDecVideoSWPowerLevel_VideoQuality
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

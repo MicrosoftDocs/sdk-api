@@ -7,7 +7,7 @@ old-location: shell\PtrdiffTMult.htm
 old-project: shell
 ms.assetid: 79b4d5e3-3f10-46fb-a7c8-316629a2a9dd
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: PtrdiffTMult, PtrdiffTMult function [Windows Shell], intsafe/PtrdiffTMult, shell.PtrdiffTMult
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: function
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

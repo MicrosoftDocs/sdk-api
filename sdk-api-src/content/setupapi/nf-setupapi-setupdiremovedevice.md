@@ -7,7 +7,7 @@ old-location: devinst\setupdiremovedevice.htm
 old-project: devinst
 ms.assetid: 1070f6cc-e5de-4f4e-8325-b412751e9fb3
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/16/2018
 ms.keywords: SetupDiRemoveDevice, SetupDiRemoveDevice function [Device and Driver Installation], devinst.setupdiremovedevice, di-rtns_ab1e54f4-687d-4db2-8799-c33c1e0e3d25.xml, setupapi/SetupDiRemoveDevice
 ms.prod: windows
 ms.technology: windows-sdk

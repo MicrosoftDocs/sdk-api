@@ -4,10 +4,10 @@ title: ComboBox_GetExtendedUI macro
 author: windows-sdk-content
 description: Ascertains whether a combo box is using the default user interface (UI) or the extended UI. You can use this macro or send the CB_GETEXTENDEDUI message explicitly.
 old-location: controls\ComboBox_GetExtendedUI.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getextendedui.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ComboBox_GetExtendedUI, ComboBox_GetExtendedUI macro [Windows Controls], _win32_ComboBox_GetExtendedUI, _win32_ComboBox_GetExtendedUI_cpp, controls.ComboBox_GetExtendedUI, controls._win32_ComboBox_GetExtendedUI, windowsx/ComboBox_GetExtendedUI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Ascertains whether a combo box is using the default user interface (UI) or the extended UI. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775855(v=VS.85).aspx">CB_GETEXTENDEDUI</a> message explicitly.
+Ascertains whether a combo box is using the default user interface (UI) or the extended UI. You can use this macro or send the <a href="https://msdn.microsoft.com/4f5580e0-68b1-4584-bf79-561fb8222fe0">CB_GETEXTENDEDUI</a> message explicitly.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb775855(v=VS.85).aspx">CB_GETEXTENDEDUI</a>.
+For more information, see <a href="https://msdn.microsoft.com/4f5580e0-68b1-4584-bf79-561fb8222fe0">CB_GETEXTENDEDUI</a>.
 	
 
 

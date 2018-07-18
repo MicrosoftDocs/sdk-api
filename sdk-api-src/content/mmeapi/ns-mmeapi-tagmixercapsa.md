@@ -7,7 +7,7 @@ old-location: multimedia\mixercaps.htm
 old-project: Multimedia
 ms.assetid: 4a4220cb-fdb1-4afe-821f-27f5adb51530
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*LPMIXERCAPSA, *PMIXERCAPSA, MIXERCAPS, MIXERCAPS structure [Windows Multimedia], MIXERCAPSA, _win32_MIXERCAPS_str, mmeapi/MIXERCAPS, multimedia.mixercaps, tMIXERCAPS, tagMIXERCAPSA, tagMIXERCAPSW"
 ms.prod: windows
 ms.technology: windows-sdk

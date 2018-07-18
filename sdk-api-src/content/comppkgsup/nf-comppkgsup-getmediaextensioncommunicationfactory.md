@@ -4,10 +4,10 @@ title: GetMediaExtensionCommunicationFactory function
 author: windows-sdk-content
 description: Creates a communication factory for registering a media extension.
 old-location: winprog\getmediaextensioncommunicationfactory.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: 79186891-FD54-4498-AF2A-D79D30F859A2
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetMediaExtensionCommunicationFactory, GetMediaExtensionCommunicationFactory function [Windows API], comppkgsup/GetMediaExtensionCommunicationFactory, winprog.getmediaextensioncommunicationfactory
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_imecomptext"
 author: windows-sdk-content
 description: Contains information about the Input Method Editor (IME) composition text in a Microsoft Rich Edit control.
 old-location: controls\IMECOMPTEXT.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\imecomptext.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ICT_RESULTREADSTR, IMECOMPTEXT, IMECOMPTEXT structure [Windows Controls], _imecomptext, _win32_IMECOMPTEXT_str, _win32_IMECOMPTEXT_str_cpp, controls.IMECOMPTEXT, controls._win32_IMECOMPTEXT_str, richedit/IMECOMPTEXT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ The final composed string.
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/library/Bb788036(v=VS.85).aspx">EM_GETIMECOMPTEXT</a> message.
+This structure is used with the <a href="https://msdn.microsoft.com/1516305c-5f87-4ae0-97db-8709c71abacc">EM_GETIMECOMPTEXT</a> message.
 
 
 
@@ -106,7 +106,7 @@ This structure is used with the <a href="https://msdn.microsoft.com/library/Bb78
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb788036(v=VS.85).aspx">EM_GETIMECOMPTEXT</a>
+<a href="https://msdn.microsoft.com/1516305c-5f87-4ae0-97db-8709c71abacc">EM_GETIMECOMPTEXT</a>
  
 
  

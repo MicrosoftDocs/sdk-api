@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofile2.htm
 old-project: wmformat
 ms.assetid: 34e30edb-3247-4eaa-9a63-6d94c9e37c0b
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IWMProfile2, IWMProfile2 interface [windows Media Format], IWMProfile2 interface [windows Media Format],described, IWMProfile2Interface, wmformat.iwmprofile2, wmsdkidl/IWMProfile2
 ms.prod: windows
 ms.technology: windows-sdk

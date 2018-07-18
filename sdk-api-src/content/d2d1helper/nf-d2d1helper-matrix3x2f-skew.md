@@ -15,8 +15,8 @@ ms.topic: method
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -105,7 +105,7 @@ The typical y-axis skew means skews the angle in degrees counterclockwise from t
 
 For example, the following illustration shows the rectangle skewed with y-axis skew angle of 30 degrees.  Notice that the angle is 30 degrees clockwise from the x-axis. 
 
-<img alt="Illustration of a rectangle that is skewed along the y-axis for 30 degrees" src="./images/skewy.png"/>
+<img alt="Illustration of a rectangle that is skewed along the y-axis for 30 degrees" src="images/skewy.png"/>
 
 #### Examples
 

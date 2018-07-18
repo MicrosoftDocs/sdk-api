@@ -7,7 +7,7 @@ old-location: tablet\addstroke.htm
 old-project: tablet
 ms.assetid: 1db3dbef-41bf-4b00-8e6c-07c7c414e595
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: 1db3dbef-41bf-4b00-8e6c-07c7c414e595, AddStroke, AddStroke function [Tablet PC], recapis/AddStroke, tablet.addstroke
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,7 +15,7 @@ ms.topic: function
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

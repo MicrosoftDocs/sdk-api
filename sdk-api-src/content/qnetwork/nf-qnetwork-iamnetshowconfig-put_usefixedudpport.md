@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_put_usefixedudpport.htm
 old-project: DirectShow
 ms.assetid: a7b0c118-0479-4f28-8e2f-6c143cde9ff0
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_UseFixedUDPPort method, IAMNetShowConfig.put_UseFixedUDPPort, IAMNetShowConfig::put_UseFixedUDPPort, IAMNetShowConfigput_UseFixedUDPPort, dshow.iamnetshowconfig_put_usefixedudpport, put_UseFixedUDPPort, put_UseFixedUDPPort method [DirectShow], put_UseFixedUDPPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_UseFixedUDPPort
 ms.prod: windows
 ms.technology: windows-sdk

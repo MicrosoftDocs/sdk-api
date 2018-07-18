@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurface_unlocksurface.htm
 old-project: DirectShow
 ms.assetid: f6acaf96-925c-46b9-8d56-11d94f3dbda3
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IVMRSurface interface [DirectShow],UnlockSurface method, IVMRSurface.UnlockSurface, IVMRSurface::UnlockSurface, IVMRSurfaceUnlockSurface, UnlockSurface, UnlockSurface method [DirectShow], UnlockSurface method [DirectShow],IVMRSurface interface, dshow.ivmrsurface_unlocksurface, strmif/IVMRSurface::UnlockSurface
 ms.prod: windows
 ms.technology: windows-sdk

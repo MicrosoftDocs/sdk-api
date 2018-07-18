@@ -7,7 +7,7 @@ old-location: tablet\process.htm
 old-project: tablet
 ms.assetid: 564a2734-1a90-4566-a39d-7e16eff870ff
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: 564a2734-1a90-4566-a39d-7e16eff870ff, Process, Process function [Tablet PC], recapis/Process, tablet.process
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,7 +15,7 @@ ms.topic: function
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

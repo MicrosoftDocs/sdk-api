@@ -7,7 +7,7 @@ old-location: shell\DAD_ShowDragImage.htm
 old-project: shell
 ms.assetid: 71448b05-9657-41e4-b5e4-6ae403219c6a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DAD_ShowDragImage, DAD_ShowDragImage function [Windows Shell], FALSE, TRUE, shell.DAD_ShowDragImage, shell_DAD_ShowDragImage, shlobj_core/DAD_ShowDragImage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5.0
 ## -description
 
 
-<p class="CCE_Message">[<b>DAD_ShowDragImage</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://msdn.microsoft.com/library/Bb761532(v=VS.85).aspx">ImageList_DragShowNolock</a> instead.
+<p class="CCE_Message">[<b>DAD_ShowDragImage</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://msdn.microsoft.com/b4e4c1c0-21b4-4eb0-b38e-375eb5195816">ImageList_DragShowNolock</a> instead.
       ]
 
 Shows or hides the image being dragged.

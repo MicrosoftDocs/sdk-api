@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog_restoreregdb.htm
 old-project: cossdk
 ms.assetid: 7cb2201c-601c-4add-8608-3f98ef92c26d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],RestoreREGDB method, ICOMAdminCatalog.RestoreREGDB, ICOMAdminCatalog::RestoreREGDB, RestoreREGDB, RestoreREGDB method [COM+], RestoreREGDB method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_RestoreREGDB, comadmin/ICOMAdminCatalog::RestoreREGDB, cos.icomadmincatalog_restoreregdb
 ms.prod: windows
 ms.technology: windows-sdk

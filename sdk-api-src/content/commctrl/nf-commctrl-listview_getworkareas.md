@@ -4,10 +4,10 @@ title: ListView_GetWorkAreas macro
 author: windows-sdk-content
 description: Gets the working areas from a list-view control. You can use this macro, or send the LVM_GETWORKAREAS message explicitly.
 old-location: controls\ListView_GetWorkAreas.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getworkareas.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ListView_GetWorkAreas, ListView_GetWorkAreas macro [Windows Controls], _win32_ListView_GetWorkAreas, _win32_ListView_GetWorkAreas_cpp, commctrl/ListView_GetWorkAreas, controls.ListView_GetWorkAreas, controls._win32_ListView_GetWorkAreas
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the working areas from a list-view control. You can use this macro, or send the <a href="https://msdn.microsoft.com/library/Bb761095(v=VS.85).aspx">LVM_GETWORKAREAS</a> message explicitly. 
+Gets the working areas from a list-view control. You can use this macro, or send the <a href="https://msdn.microsoft.com/956368d9-bbb4-414a-ba17-0e8e4f0f1a45">LVM_GETWORKAREAS</a> message explicitly. 
 
 
 ## -parameters
@@ -98,7 +98,7 @@ A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/har
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774736(v=VS.85).aspx">Using List-View Controls</a>
+<a href="https://msdn.microsoft.com/6953cdfc-8c59-4c6d-8998-f828cea3a315">Using List-View Controls</a>
  
 
  

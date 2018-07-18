@@ -149,9 +149,29 @@ Queries  the SSL configuration for an SSL Centralized Certificate Store (CCS) re
  
 
 
-### -param OPTIONAL
+### -param pInput
 
 TBD
+
+
+### -param InputLength
+
+TBD
+
+
+### -param pOutput
+
+TBD
+
+
+### -param OutputLength
+
+TBD
+
+
+### -param pReturnLength [out, optional]
+
+A pointer to a variable that receives the number of bytes to be written in the output buffer. If the output buffer is too small, the call fails with a return value of <b>ERROR_INSUFFICIENT_BUFFER</b>. The value pointed to by <i>pReturnLength</i> can be used to determine the minimum length the buffer requires for the call to succeed.
 
 
 ### -param pOverlapped [in]
@@ -357,11 +377,6 @@ A pointer to a buffer in which the query results are returned. The type of this 
 </tr>
 </table>
  
-
-
-#### - pReturnLength [out, optional]
-
-A pointer to a variable that receives the number of bytes to be written in the output buffer. If the output buffer is too small, the call fails with a return value of <b>ERROR_INSUFFICIENT_BUFFER</b>. The value pointed to by <i>pReturnLength</i> can be used to determine the minimum length the buffer requires for the call to succeed.
 
 
 ## -returns

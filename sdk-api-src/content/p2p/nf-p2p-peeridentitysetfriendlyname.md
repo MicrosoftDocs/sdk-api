@@ -4,10 +4,10 @@ title: PeerIdentitySetFriendlyName function
 author: windows-sdk-content
 description: The PeerIdentitySetFriendlyName function modifies the friendly name for a specified peer identity. The friendly name is the human-readable name.
 old-location: p2p\peeridentitysetfriendlyname.htm
-old-project: p2psdk
+old-project: P2PSdk
 ms.assetid: 018e95b5-b817-44f8-909f-cc7c3edb84c8
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/16/2018
 ms.keywords: PeerIdentitySetFriendlyName, PeerIdentitySetFriendlyName function [Peer Networking], p2p.peeridentitysetfriendlyname, p2p/PeerIdentitySetFriendlyName
 ms.prod: windows
 ms.technology: windows-sdk

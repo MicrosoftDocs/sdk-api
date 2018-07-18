@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_aliascomponent.htm
 old-project: cossdk
 ms.assetid: 99d43ef5-f117-4307-aa44-f149b4986cda
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: AliasComponent, AliasComponent method [COM+], AliasComponent method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],AliasComponent method, ICOMAdminCatalog2.AliasComponent, ICOMAdminCatalog2::AliasComponent, _cos_icomadmincatalog2_AliasComponent, comadmin/ICOMAdminCatalog2::AliasComponent, cos.icomadmincatalog2_aliascomponent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: multimedia\mciwndrealize.htm
 old-project: Multimedia
 ms.assetid: 56230397-bdb2-4996-90a1-49c2f9a7e651
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: MCIWndRealize, MCIWndRealize macro [Windows Multimedia], _win32_MCIWndRealize, multimedia.mciwndrealize, vfw/MCIWndRealize
 ms.prod: windows
 ms.technology: windows-sdk

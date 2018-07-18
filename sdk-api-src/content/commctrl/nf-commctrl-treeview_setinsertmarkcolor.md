@@ -4,10 +4,10 @@ title: TreeView_SetInsertMarkColor macro
 author: windows-sdk-content
 description: Sets the color used to draw the insertion mark for the tree view. You can use this macro or send the TVM_SETINSERTMARKCOLOR message explicitly.
 old-location: controls\TreeView_SetInsertMarkColor.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setinsertmarkcolor.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: TreeView_SetInsertMarkColor, TreeView_SetInsertMarkColor macro [Windows Controls], _win32_TreeView_SetInsertMarkColor, _win32_TreeView_SetInsertMarkColor_cpp, commctrl/TreeView_SetInsertMarkColor, controls.TreeView_SetInsertMarkColor, controls._win32_TreeView_SetInsertMarkColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the color used to draw the insertion mark for the tree view. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773755(v=VS.85).aspx">TVM_SETINSERTMARKCOLOR</a> message explicitly. 
+Sets the color used to draw the insertion mark for the tree view. You can use this macro or send the <a href="https://msdn.microsoft.com/c82304a8-3726-42c0-81e7-90d8f8205ead">TVM_SETINSERTMARKCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -92,7 +92,7 @@ Handle to a tree-view control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773835(v=VS.85).aspx">TreeView_GetInsertMarkColor</a>
+<a href="https://msdn.microsoft.com/958ec5ff-9b6e-44de-940a-fbbb2e2857a8">TreeView_GetInsertMarkColor</a>
  
 
  

@@ -15,7 +15,7 @@ ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -61,7 +61,7 @@ Notification for data being read from a device service data session.
 
 ### -param deviceService [in]
 
-The <a href="https://msdn.microsoft.com/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> session object on which the data was read.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> session object on which the data was read.
 
 
 ### -param deviceServiceData [in]

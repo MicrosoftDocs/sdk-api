@@ -7,7 +7,7 @@ old-location: shell\IDefaultExtractIconInit_SetShortcutIcon.htm
 old-project: shell
 ms.assetid: 1defab08-3dce-4668-aca3-d11821a4c339
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IDefaultExtractIconInit interface [Windows Shell],SetShortcutIcon method, IDefaultExtractIconInit.SetShortcutIcon, IDefaultExtractIconInit::SetShortcutIcon, SetShortcutIcon, SetShortcutIcon method [Windows Shell], SetShortcutIcon method [Windows Shell],IDefaultExtractIconInit interface, _shell_IDefaultExtractIconInit_SetShortcutIcon, shell.IDefaultExtractIconInit_SetShortcutIcon, shobjidl_core/IDefaultExtractIconInit::SetShortcutIcon
 ms.prod: windows
 ms.technology: windows-sdk

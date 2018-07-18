@@ -7,7 +7,7 @@ old-location: devinst\sp_selectdevice_params.htm
 old-project: devinst
 ms.assetid: 7d1168dd-0b61-44fb-928d-38f2c57c1092
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/16/2018
 ms.keywords: "*PSP_SELECTDEVICE_PARAMS_A, PSP_SELECTDEVICE_PARAMS, PSP_SELECTDEVICE_PARAMS structure pointer [Device and Driver Installation], SP_SELECTDEVICE_PARAMS, SP_SELECTDEVICE_PARAMS structure [Device and Driver Installation], SP_SELECTDEVICE_PARAMS_A, _SP_SELECTDEVICE_PARAMS_A, devinst.sp_selectdevice_params, di-struct_897a5d1d-5ff3-4d70-b39d-3763b81d54bf.xml, setupapi/PSP_SELECTDEVICE_PARAMS, setupapi/SP_SELECTDEVICE_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ If an installer sets fields in this structure to be used during driver selection
 
 The following screen shot shows a sample Select Device dialog box and identifies the strings an installer can supply.
 
-<img alt="Screen shot of a Select a Device Driver dialog box" src="./images/select-dialog.png"/>
+<img alt="Screen shot of a Select a Device Driver dialog box" src="images/select-dialog.png"/>
 
 
 

@@ -15,8 +15,8 @@ ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -146,7 +146,7 @@ For a full listing of the information returned by
 
 
 
-<a href="https://msdn.microsoft.com/">user_marshal</a>
+<a href="https://msdn.microsoft.com/a2407aa3-574d-4690-8cdf-cb1c01ca8c49">user_marshal</a>
 
 
 

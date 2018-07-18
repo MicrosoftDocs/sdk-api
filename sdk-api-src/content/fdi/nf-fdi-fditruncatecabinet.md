@@ -4,10 +4,10 @@ title: FDITruncateCabinet function
 author: windows-sdk-content
 description: The FDITruncateCabinet function truncates a cabinet file starting at the specified folder number.
 old-location: winprog\fditruncatecabinet.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: c923b0a5-1a8d-42aa-bd05-0d318199756d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: FDITruncateCabinet, FDITruncateCabinet function [Windows API], fdi/FDITruncateCabinet, winprog.fditruncatecabinet
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: peer_group_authentication_scheme_tag
 author: windows-sdk-content
 description: Defines the set of possible authentication schemes that can be used to authenticate peers joining a peer group.
 old-location: p2p\peer_group_authentication_scheme.htm
-old-project: p2psdk
+old-project: P2PSdk
 ms.assetid: 51bbbfdb-fa64-473b-aa48-2562512a2af3
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/16/2018
 ms.keywords: PEER_GROUP_AUTHENTICATION_SCHEME, PEER_GROUP_AUTHENTICATION_SCHEME enumeration [Peer Networking], PEER_GROUP_GMC_AUTHENTICATION, PEER_GROUP_PASSWORD_AUTHENTICATION, p2p.peer_group_authentication_scheme, p2p/PEER_GROUP_AUTHENTICATION_SCHEME, p2p/PEER_GROUP_GMC_AUTHENTICATION, p2p/PEER_GROUP_PASSWORD_AUTHENTICATION, peer_group_authentication_scheme_tag
 ms.prod: windows
 ms.technology: windows-sdk

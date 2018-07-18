@@ -7,7 +7,7 @@ old-location: shell\UShortToInt8.htm
 old-project: shell
 ms.assetid: c4101f7f-dc67-40a9-a12a-344a03ef50f9
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: UShortToInt8, UShortToInt8 function [Windows Shell], intsafe/UShortToInt8, shell.UShortToInt8
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: function
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

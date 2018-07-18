@@ -7,7 +7,7 @@ old-location: cos\itransactionstatus_gettransactionstatus.htm
 old-project: cossdk
 ms.assetid: c8c37aee-c5d2-479f-989f-461877ee6136
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetTransactionStatus, GetTransactionStatus method [COM+], GetTransactionStatus method [COM+],ITransactionStatus interface, ITransactionStatus interface [COM+],GetTransactionStatus method, ITransactionStatus.GetTransactionStatus, ITransactionStatus::GetTransactionStatus, _cos_ITransactionStatus_GetTransactionStatus, comsvcs/ITransactionStatus::GetTransactionStatus, cos.itransactionstatus_gettransactionstatus
 ms.prod: windows
 ms.technology: windows-sdk

@@ -15,8 +15,8 @@ ms.topic: interface
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -51,9 +51,9 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-The ITextStoreAnchor interface is implemented by a <a href="https://msdn.microsoft.com/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a> client and is used by the TSF manager to manipulate text streams. <a href="https://msdn.microsoft.com/7488e29e-3409-4db3-98b4-f3438ad7c94e">Ranges</a> of text within a stream are delimited by <a href="https://msdn.microsoft.com/library/ms629023(v=VS.85).aspx">anchor</a> objects. these anchor objects are exposed and manipulated by the <a href="https://msdn.microsoft.com/a7d52959-8386-464f-958d-c870f286b265">IAnchor</a> interface.
+The ITextStoreAnchor interface is implemented by a <a href="_msaa_microsoft_active_accessibility_start_page">Microsoft Active Accessibility</a> client and is used by the TSF manager to manipulate text streams. <a href="https://msdn.microsoft.com/7488e29e-3409-4db3-98b4-f3438ad7c94e">Ranges</a> of text within a stream are delimited by <a href="ranges.htm">anchor</a> objects. these anchor objects are exposed and manipulated by the <a href="https://msdn.microsoft.com/a7d52959-8386-464f-958d-c870f286b265">IAnchor</a> interface.
 
-An application can obtain an instance of this interface with <a href="https://msdn.microsoft.com/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a>. The interface ID is IID_ITextStoreAnchor.
+An application can obtain an instance of this interface with <a href="_msaa_microsoft_active_accessibility_start_page">Microsoft Active Accessibility</a>. The interface ID is IID_ITextStoreAnchor.
 
 To use the application character position (ACP) model for text manipulation, use <a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP</a> instead.
 
@@ -324,7 +324,7 @@ Called by an application to indicate that it no longer requires notifications fr
 
 
 
-<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 
@@ -339,11 +339,11 @@ Called by an application to indicate that it no longer requires notifications fr
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a>
+<a href="_msaa_microsoft_active_accessibility_start_page">Microsoft Active Accessibility</a>
 
 
 

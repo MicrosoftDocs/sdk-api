@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_Resume.htm
 old-project: shell
 ms.assetid: 2f0b3188-4c58-4ff6-983e-912131a7c934
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],Resume method, IPackageDebugSettings.Resume, IPackageDebugSettings::Resume, Resume, Resume method [Windows Shell], Resume method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_Resume, shobjidl_core/IPackageDebugSettings::Resume
 ms.prod: windows
 ms.technology: windows-sdk

@@ -15,8 +15,8 @@ ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -78,7 +78,7 @@ Pointer to the format string description.
 
 
 
-Returns null upon success. If an error occurs, the function throws one of the following exception codes. In addition, the function can throw exception codes from <a href="https://msdn.microsoft.com/library/ms678428(v=VS.85).aspx">CoMarshalInterface</a>.
+Returns null upon success. If an error occurs, the function throws one of the following exception codes. In addition, the function can throw exception codes from <a href="_com_comarshalinterface">CoMarshalInterface</a>.
 
 <table>
 <tr>

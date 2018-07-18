@@ -7,7 +7,7 @@ old-location: shell\SHSTOCKICONINFO.htm
 old-project: shell
 ms.assetid: 4d32826a-bb40-4805-9826-801c142b8d28
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: SHSTOCKICONINFO, SHSTOCKICONINFO structure [Windows Shell], _SHSTOCKICONINFO, _SHSTOCKICONINFO structure [Windows Shell], _shell_SHSTOCKICONINFO, shell.SHSTOCKICONINFO, shellapi/SHSTOCKICONINFO
 ms.prod: windows
 ms.technology: windows-sdk

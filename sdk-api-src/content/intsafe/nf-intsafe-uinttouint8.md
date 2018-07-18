@@ -7,7 +7,7 @@ old-location: shell\UIntToUInt8.htm
 old-project: shell
 ms.assetid: c3c63264-6b5d-4d58-947a-d0cc7a051a6d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: UIntToByte, UIntToUInt8, UIntToUInt8 function [Windows Shell], intsafe/UIntToUInt8, shell.UIntToUInt8
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: function
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

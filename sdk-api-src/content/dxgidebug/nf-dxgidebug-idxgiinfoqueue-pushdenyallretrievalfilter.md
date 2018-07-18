@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_pushdenyallretrievalfilter.htm
 old-project: direct3ddxgi
 ms.assetid: 104C5BAD-D1FF-47EC-A1FA-C4B32EA4DFB6
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushDenyAllRetrievalFilter method, IDXGIInfoQueue.PushDenyAllRetrievalFilter, IDXGIInfoQueue::PushDenyAllRetrievalFilter, PushDenyAllRetrievalFilter, PushDenyAllRetrievalFilter method [DXGI], PushDenyAllRetrievalFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushdenyallretrievalfilter, dxgidebug/IDXGIInfoQueue::PushDenyAllRetrievalFilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -68,7 +68,7 @@ Pushes a deny-all retrieval filter onto the retrieval-filter stack.
 
 
 
-Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
 
 
 

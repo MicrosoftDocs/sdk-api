@@ -117,6 +117,11 @@ req.irql:
           Omit this flag if stream output is not required.
 
 
+### -field D3D12_ROOT_SIGNATURE_FLAG_LOCAL_ROOT_SIGNATURE
+
+
+
+
 ## -remarks
 
 

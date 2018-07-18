@@ -4,10 +4,10 @@ title: PeerIdentityGetFriendlyName function
 author: windows-sdk-content
 description: The PeerIdentityGetFriendlyName function returns the friendly name of the peer identity.
 old-location: p2p\peeridentitygetfriendlyname.htm
-old-project: p2psdk
+old-project: P2PSdk
 ms.assetid: c0d823db-9c2c-46c1-99b8-87fe7fdc9343
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/16/2018
 ms.keywords: PeerIdentityGetFriendlyName, PeerIdentityGetFriendlyName function [Peer Networking], p2p.peeridentitygetfriendlyname, p2p/PeerIdentityGetFriendlyName
 ms.prod: windows
 ms.technology: windows-sdk

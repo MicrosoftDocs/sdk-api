@@ -4,10 +4,10 @@ title: IFsrmFileGroupManager::ImportFileGroups
 author: windows-sdk-content
 description: Imports the specified file groups from an XML string.
 old-location: fsrm\ifsrmfilegroupmanager_importfilegroups.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 81f62d49-5fce-4d8c-96b5-506d741c5f77
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: FsrmFileGroupManager class [File Server Resource Manager],ImportFileGroups method, IFsrmFileGroupManager interface [File Server Resource Manager],ImportFileGroups method, IFsrmFileGroupManager.ImportFileGroups, IFsrmFileGroupManager::ImportFileGroups, ImportFileGroups, ImportFileGroups method [File Server Resource Manager], ImportFileGroups method [File Server Resource Manager],FsrmFileGroupManager class, ImportFileGroups method [File Server Resource Manager],IFsrmFileGroupManager interface, fs.ifsrmfilegroupmanager_importfilegroups, fsrm.ifsrmfilegroupmanager_importfilegroups, fsrmscreen/IFsrmFileGroupManager::ImportFileGroups
 ms.prod: windows
 ms.technology: windows-sdk

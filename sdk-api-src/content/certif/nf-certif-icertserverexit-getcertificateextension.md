@@ -4,10 +4,10 @@ title: ICertServerExit::GetCertificateExtension
 author: windows-sdk-content
 description: Gets a specified certificate extension.
 old-location: security\icertserverexit_getcertificateextension.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: ba2d2e5f-230e-4e69-8d86-dad9c743e5ee
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CCertServerExit object [Security],GetCertificateExtension method, GetCertificateExtension, GetCertificateExtension method [Security], GetCertificateExtension method [Security],CCertServerExit object, GetCertificateExtension method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetCertificateExtension method, ICertServerExit.GetCertificateExtension, ICertServerExit::GetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertserverexit_getcertificateextension, certif/ICertServerExit::GetCertificateExtension, security.icertserverexit_getcertificateextension
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IRDPSRAPIVirtualChannelManager::get_Item
 author: windows-sdk-content
 description: An item in the virtual channel collection.
 old-location: rdp\irdpsrapivirtualchannelmanager_item.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: 749072c9-9ad9-41e7-b706-9d27eb684a07
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IRDPSRAPIVirtualChannelManager interface [RDP],Item property, IRDPSRAPIVirtualChannelManager.Item, IRDPSRAPIVirtualChannelManager.get_Item, IRDPSRAPIVirtualChannelManager::Item, IRDPSRAPIVirtualChannelManager::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIVirtualChannelManager interface, Item property [RDP],RDPSRAPIVirtualChannelManager object, RDPSRAPIVirtualChannelManager object [RDP],Item property, get_Item, rdp.irdpsrapivirtualchannelmanager_item, rdpencomapi/IRDPSRAPIVirtualChannelManager::Item, rdpencomapi/IRDPSRAPIVirtualChannelManager::get_Item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

@@ -4,10 +4,10 @@ title: IMsmConfigurableItem::get_Name
 author: windows-sdk-content
 description: The Name property of the ConfigurableItem object returns the value from the Name column of the ModuleConfiguration table.
 old-location: setup\configurableitem_name.htm
-old-project: msi
+old-project: Msi
 ms.assetid: c28f508f-0788-4b60-a383-65c508ceef5f
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/16/2018
 ms.keywords: ConfigurableItem object,Name property, ConfigurableItem.Name, IMsmConfigurableItem.get_Name, IMsmConfigurableItem::get_Name, Name property, Name property,ConfigurableItem object, _msi_name_property, get_Name, setup.configurableitem_name
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PeerPnrpRegister function
 author: windows-sdk-content
 description: Registers a peer with a PNRP cloud and returns a handle that can be used for registration updates.
 old-location: p2p\peerpnrpregister.htm
-old-project: p2psdk
+old-project: P2PSdk
 ms.assetid: 18c26779-f50d-43bd-a772-763ceba25da8
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/16/2018
 ms.keywords: PeerPnrpRegister, PeerPnrpRegister function [Peer Networking], p2p.peerpnrpregister, p2p/PeerPnrpRegister
 ms.prod: windows
 ms.technology: windows-sdk

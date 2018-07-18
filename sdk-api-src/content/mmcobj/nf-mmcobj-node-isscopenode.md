@@ -4,10 +4,10 @@ title: Node::IsScopeNode
 author: windows-sdk-content
 description: The IsScopeNode method returns whether the node is a scope node.
 old-location: mmc\node_isscopenode.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 1c01c520-b4c8-4109-92b4-2e1595259f3c
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/16/2018
 ms.keywords: IsScopeNode, IsScopeNode method [MMC], IsScopeNode method [MMC],Node interface, IsScopeNode method [MMC],Node object, Node interface [MMC],IsScopeNode method, Node object [MMC],IsScopeNode method, Node.IsScopeNode, Node::IsScopeNode, _slate_node.isscopenode_method, mmc.node_isscopenode
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: multimedia\icseqcompressframeend.htm
 old-project: Multimedia
 ms.assetid: 3fdcd18d-4ee7-4b5a-871d-61316c716e06
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ICSeqCompressFrameEnd, ICSeqCompressFrameEnd function [Windows Multimedia], _win32_ICSeqCompressFrameEnd, multimedia.icseqcompressframeend, vfw/ICSeqCompressFrameEnd
 ms.prod: windows
 ms.technology: windows-sdk

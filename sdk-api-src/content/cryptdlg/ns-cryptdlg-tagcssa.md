@@ -4,10 +4,10 @@ title: tagCSSA
 author: windows-sdk-content
 description: Contains criteria upon which to select certificates that are presented in a certificate selection dialog box. This structure is used in the CertSelectCertificate function.
 old-location: security\cert_select_struct.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 49184872-d636-4e55-8e32-0f38b49b5c21
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*PCERT_SELECT_STRUCT_A, CERT_SELECT_STRUCT, CERT_SELECT_STRUCT structure [Security], CERT_SELECT_STRUCT_A, CERT_SELECT_STRUCT_W, CSS_ALLOWMULTISELECT, CSS_ENABLEHOOK, CSS_ENABLETEMPLATE, CSS_ENABLETEMPLATEHANDLE, CSS_HIDE_PROPERTIES, CSS_SHOW_HELP, PCERT_SELECT_STRUCT, PCERT_SELECT_STRUCT structure pointer [Security], cryptdlg/CERT_SELECT_STRUCT, cryptdlg/CERT_SELECT_STRUCT_A, cryptdlg/CERT_SELECT_STRUCT_W, cryptdlg/PCERT_SELECT_STRUCT, security.cert_select_struct, security.cert_select_struct_w, tagCSSA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ A handle to the module whose executable file contains the dialog box template.
 
 If the <b>CSS_ENABLETEMPLATE</b> flag is set in the <b>dwFlags</b> 
       member, set <b>pTemplateName</b> to a pointer to a global memory object that contains the 
-      template that <a href="https://msdn.microsoft.com/library/ms645461(v=VS.85).aspx">DialogBoxIndirectParam</a> 
+      template that <a href="_win32_dialogboxindirectparam_cpp">DialogBoxIndirectParam</a> 
       uses to create the dialog box. A dialog box template consists of a header that describes the dialog box. The 
       header is followed by one or more additional blocks of data that describe each of the controls in the dialog 
       box. The template can use either the standard format or the extended format.
@@ -96,7 +96,7 @@ If the <b>CSS_ENABLETEMPLATEHANDLE</b> flag is set in <b>dwFlags</b>,
        specifies the name of the dialog box template or an integer value that specifies the resource identifier of the 
        dialog box template. If the  specifies a resource identifier, its high-order word must be zero and its 
        low-order word must contain the identifier. One way to create this integer value is to use the 
-       <a href="https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro.
+       <a href="_win32_makeintresource_cpp">MAKEINTRESOURCE</a> macro.
 
 
 ### -field dwFlags
@@ -156,7 +156,7 @@ Show the <b>Help</b> button.
 <td width="60%">
 Cause <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> 
         function to call the 
-        <a href="https://msdn.microsoft.com/library/ms645461(v=VS.85).aspx">DialogBoxIndirectParam</a> function to 
+        <a href="_win32_dialogboxindirectparam_cpp">DialogBoxIndirectParam</a> function to 
         create a dialog box. For more information, see <b>pTemplateName</b>.
 
 </td>
@@ -168,7 +168,7 @@ Cause <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">
 </td>
 <td width="60%">
 Cause the <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> 
-        function to call the <a href="https://msdn.microsoft.com/library/ms645465(v=VS.85).aspx">DialogBoxParam</a> function 
+        function to call the <a href="_win32_dialogboxparam_cpp">DialogBoxParam</a> function 
         to create a dialog box. For more information, see <b>pTemplateName</b>.
 
 </td>
@@ -239,7 +239,7 @@ A pointer to an array of byte values that hold custom data that is passed throug
 
 A <a href="https://msdn.microsoft.com/7172c995-a46b-437b-beaf-a0649cb8ec3d">PFNCMHOOKPROC</a> function pointer to the Hook 
       callback function. This function is called before messages are processed by the dialog box. For more 
-      information, see <a href="https://msdn.microsoft.com/library/ms632589(v=VS.85).aspx">Hooks</a>.
+      information, see <a href="_win32_hooks_cpp">Hooks</a>.
 
 
 ### -field pfnFilter

@@ -4,10 +4,10 @@ title: Header_SetStateImageList macro
 author: windows-sdk-content
 description: Assigns an image list to an existing header control state.
 old-location: controls\Header_SetStateImageList.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setstateimagelist.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Header_SetStateImageList, Header_SetStateImageList macro [Windows Controls], _win32_Header_SetStateImageList, _win32_Header_SetStateImageList_cpp, commctrl/Header_SetStateImageList, controls.Header_SetStateImageList, controls._win32_Header_SetStateImageList
 ms.prod: windows
 ms.technology: windows-sdk

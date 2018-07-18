@@ -15,8 +15,8 @@ ms.topic: interface
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -118,7 +118,7 @@ Skips a specified number of <a href="https://msdn.microsoft.com/54e1df08-de8f-43
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693395(v=VS.85).aspx">CoGetMalloc</a>
+<a href="_com_cogetmalloc">CoGetMalloc</a>
 
 
 

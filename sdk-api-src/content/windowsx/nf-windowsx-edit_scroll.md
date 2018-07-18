@@ -4,10 +4,10 @@ title: Edit_Scroll macro
 author: windows-sdk-content
 description: Scrolls the text vertically in a multiline edit or rich edit control. You can use this macro or send the EM_SCROLL message explicitly.
 old-location: controls\Edit_Scroll.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_scroll.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Edit_Scroll, Edit_Scroll macro [Windows Controls], _win32_Edit_Scroll, _win32_Edit_Scroll_cpp, controls.Edit_Scroll, controls._win32_Edit_Scroll, windowsx/Edit_Scroll
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Scrolls the text vertically in a multiline edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761635(v=VS.85).aspx">EM_SCROLL</a> message explicitly.
+Scrolls the text vertically in a multiline edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/616b5ac2-d92f-4fc5-9a9e-2c7527fb0d97">EM_SCROLL</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ The amount to scroll horizontally.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb761635(v=VS.85).aspx">EM_SCROLL</a>.
+For more information, see <a href="https://msdn.microsoft.com/616b5ac2-d92f-4fc5-9a9e-2c7527fb0d97">EM_SCROLL</a>.
 
 
 

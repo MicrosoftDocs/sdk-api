@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_put_windowstate.htm
 old-project: DirectShow
 ms.assetid: 75189754-61c4-4196-9cfb-3f8c8e33efbc
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_WindowState method, IVideoWindow.put_WindowState, IVideoWindow::put_WindowState, IVideoWindowput_WindowState, control/IVideoWindow::put_WindowState, dshow.ivideowindow_put_windowstate, put_WindowState, put_WindowState method [DirectShow], put_WindowState method [DirectShow],IVideoWindow interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ The <code>put_WindowState</code> method shows, hides, minimizes, or maximizes th
 
 ### -param WindowState [in]
 
-Flag that specifies how the window is to be shown. The value can be any constant defined for the <i>nCmdShow</i> parameter of the <a href="https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx">ShowWindow</a> function. 
+Flag that specifies how the window is to be shown. The value can be any constant defined for the <i>nCmdShow</i> parameter of the <a href="winui._win32_ShowWindow">ShowWindow</a> function. 
 
 
 ## -returns

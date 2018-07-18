@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory2_RegisterStereoStatusWindow.htm
 old-project: direct3ddxgi
 ms.assetid: 42DA05B8-1490-45B6-B22D-95176EBE7150
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IDXGIFactory2 interface [DXGI],RegisterStereoStatusWindow method, IDXGIFactory2.RegisterStereoStatusWindow, IDXGIFactory2::RegisterStereoStatusWindow, RegisterStereoStatusWindow, RegisterStereoStatusWindow method [DXGI], RegisterStereoStatusWindow method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_RegisterStereoStatusWindow, dxgi1_2/IDXGIFactory2::RegisterStereoStatusWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ A pointer to a key value that an application can pass to the <a href="https://ms
         <ul>
 <li>S_OK if it successfully registered the window.</li>
 <li>E_OUTOFMEMORY if memory is unavailable to complete the operation.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
 </ul>
 
 

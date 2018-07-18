@@ -87,6 +87,18 @@ The size of the description string, in bytes, that includes the null terminator.
 
 
 
+### -field DeviceIdOffset
+
+ 
+
+
+### -field DeviceIdLength
+
+ 
+
+
+
+
 ## -remarks
 
 

@@ -15,8 +15,8 @@ ms.topic: function
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-Creates the <a href="https://msdn.microsoft.com/library/Ee663575(v=VS.85).aspx">ASF Header Object</a> object.
+Creates the <a href="asf_file_structure.htm">ASF Header Object</a> object.
 
 
 

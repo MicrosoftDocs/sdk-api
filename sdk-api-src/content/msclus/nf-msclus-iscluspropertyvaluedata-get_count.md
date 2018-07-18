@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Returns the 
-    number of <a href="https://msdn.microsoft.com/library/ms691748(v=VS.85).aspx">data values</a> in the 
+    number of <a href="d_gly.htm">data values</a> in the 
     <a href="https://msdn.microsoft.com/d95a90f6-2a70-428b-aff3-3be9e9e66071">ClusPropertyValueData</a> 
     collection.
 

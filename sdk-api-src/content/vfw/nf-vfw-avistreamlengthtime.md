@@ -7,7 +7,7 @@ old-location: multimedia\avistreamlengthtime.htm
 old-project: Multimedia
 ms.assetid: 550d04b2-d5d4-4acc-97d3-8cd180de1545
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: AVIStreamLengthTime, AVIStreamLengthTime macro [Windows Multimedia], _win32_AVIStreamLengthTime, multimedia.avistreamlengthtime, vfw/AVIStreamLengthTime
 ms.prod: windows
 ms.technology: windows-sdk

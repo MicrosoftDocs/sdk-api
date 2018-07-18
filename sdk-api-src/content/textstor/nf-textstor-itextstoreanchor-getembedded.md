@@ -15,8 +15,8 @@ ms.topic: method
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -84,7 +84,7 @@ Contains a GUID value that defines the requested format of the obtained object. 
 </dl>
 </td>
 <td width="60%">
-The object should be obtained as an <a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a> data object.
+The object should be obtained as an <a href="_ole_idataobject">IDataObject</a> data object.
 
 </td>
 </tr>
@@ -256,7 +256,7 @@ The caller must use <b>QueryInterface</b> to probe for appropriate interfaces. P
 
 
 
-<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

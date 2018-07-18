@@ -4,10 +4,10 @@ title: tagLHITTESTINFO
 author: windows-sdk-content
 description: Used to get information about the link corresponding to a given location.
 old-location: controls\LHITTESTINFO.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\syslink\structures\lhittestinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*PLHITTESTINFO, LHITTESTINFO, LHITTESTINFO structure [Windows Controls], PLHITTESTINFO, PLHITTESTINFO structure pointer [Windows Controls], commctrl/LHITTESTINFO, commctrl/PLHITTESTINFO, controls.LHITTESTINFO, controls.inet_LHITTESTINFO, inet_LHITTESTINFO, inet_LHITTESTINFO_cpp, tagLHITTESTINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ Location for the hit-test, in client coordinates (not screen coordinates).
 
 ### -field item
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb760710(v=VS.85).aspx">LITEM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/c3d62876-b92a-43b0-bc23-8b006847a474">LITEM</a></b>
 
 Receives information about the link corresponding to <b>pt</b>.
 
@@ -80,7 +80,7 @@ Receives information about the link corresponding to <b>pt</b>.
 
 To convert from screen coordinates to client coordinates, use <a href="https://msdn.microsoft.com/5d3e65d1-e0c8-4063-b2e8-dd9f482d3378">ScreenToClient</a>.
 
-<div class="alert"><b>Note</b>  If the <a href="https://msdn.microsoft.com/library/Bb760722(v=VS.85).aspx">LM_HITTEST</a> message succeeds, the system fills in <a href="https://msdn.microsoft.com/library/Bb760710(v=VS.85).aspx">LITEM.iLink</a> and <b>LITEM.szID</b>. If the <b>LM_HITTEST</b> message fails, do not assume that any information in <b>LITEM</b> is valid.</div>
+<div class="alert"><b>Note</b>  If the <a href="https://msdn.microsoft.com/a84c0388-26e7-4eda-9c6c-c5f64142d67a">LM_HITTEST</a> message succeeds, the system fills in <a href="https://msdn.microsoft.com/c3d62876-b92a-43b0-bc23-8b006847a474">LITEM.iLink</a> and <b>LITEM.szID</b>. If the <b>LM_HITTEST</b> message fails, do not assume that any information in <b>LITEM</b> is valid.</div>
 <div> </div>
 
 
@@ -90,7 +90,7 @@ To convert from screen coordinates to client coordinates, use <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb760722(v=VS.85).aspx">LM_HITTEST</a>
+<a href="https://msdn.microsoft.com/a84c0388-26e7-4eda-9c6c-c5f64142d67a">LM_HITTEST</a>
 
 
 

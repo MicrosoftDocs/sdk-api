@@ -15,8 +15,8 @@ ms.topic: function
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -161,7 +161,7 @@ If this function cannot create the PMP Media Session because a trusted binary wa
 </ol>
 If the function successfully creates the PMP Media Session, the <i>ppEnablerActivate</i> parameter receives the value <b>NULL</b>.
 
-Do not make calls to the PMP Media Session from a thread that is processing a window message sent from another thread. To test whether the current thread falls into this category, call <a href="https://msdn.microsoft.com/library/ms644941(v=VS.85).aspx">InSendMessage</a>.
+Do not make calls to the PMP Media Session from a thread that is processing a window message sent from another thread. To test whether the current thread falls into this category, call <a href="winui._win32_InSendMessage">InSendMessage</a>.
 
 
 

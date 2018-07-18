@@ -4,10 +4,10 @@ title: IMsmConfigurableItem::get_HelpLocation
 author: windows-sdk-content
 description: The HelpLocation property returns the value from the HelpLocation column of the ModuleConfiguration table.
 old-location: setup\configurableitem_helplocation.htm
-old-project: msi
+old-project: Msi
 ms.assetid: fe011188-c831-4fbd-b2dd-1ad4c08451ed
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/16/2018
 ms.keywords: ConfigurableItem object,HelpLocation property, ConfigurableItem.HelpLocation, HelpLocation property, HelpLocation property,ConfigurableItem object, IMsmConfigurableItem.get_HelpLocation, IMsmConfigurableItem::get_HelpLocation, _msi_helplocation_property, get_HelpLocation, setup.configurableitem_helplocation
 ms.prod: windows
 ms.technology: windows-sdk

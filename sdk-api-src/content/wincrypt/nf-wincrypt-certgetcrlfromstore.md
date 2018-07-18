@@ -4,10 +4,10 @@ title: CertGetCRLFromStore function
 author: windows-sdk-content
 description: Gets the first or next certificate revocation list (CRL) context from the certificate store for the specified issuer.
 old-location: security\certgetcrlfromstore.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 7bd21424-4f74-4bac-ab47-00d51ebdca1c
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CERT_STORE_BASE_CRL_FLAG, CERT_STORE_DELTA_CRL_FLAG, CERT_STORE_SIGNATURE_FLAG, CERT_STORE_TIME_VALIDITY_FLAG, CertGetCRLFromStore, CertGetCRLFromStore function [Security], _crypto2_certgetcrlfromstore, security.certgetcrlfromstore, wincrypt/CertGetCRLFromStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 The <b>CertGetCRLFromStore</b> function gets the first or next <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> from the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> for the specified issuer. The function also performs the enabled verification checks on the CRL. The new 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a> are recommended instead of this function.
+<a href="cryptography_functions.htm">Certificate Chain Verification Functions</a> are recommended instead of this function.
 
 
 ## -parameters
@@ -232,7 +232,7 @@ The hexadecimal values of the flags can be combined using a bitwise-<b>OR</b> op
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
  
 
  

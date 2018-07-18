@@ -7,7 +7,7 @@ old-location: setup\setupinitializefilelog.htm
 old-project: SetupApi
 ms.assetid: fac7abac-76a9-456a-843a-e1048df268b7
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/16/2018
 ms.keywords: SetupInitializeFileLog, SetupInitializeFileLog function [Setup API], SetupInitializeFileLogA, SetupInitializeFileLogW, _setupapi_setupinitializefilelog, setup.setupinitializefilelog, setupapi/SetupInitializeFileLog, setupapi/SetupInitializeFileLogA, setupapi/SetupInitializeFileLogW
 ms.prod: windows
 ms.technology: windows-sdk

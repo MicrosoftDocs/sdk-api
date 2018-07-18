@@ -15,8 +15,8 @@ ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>BCryptKeyDerivation</b>  function derives a key without requiring a secret agreement. It is similar in functionality to <a href="https://msdn.microsoft.com/library/Aa375393(v=VS.85).aspx">BCryptDeriveKey</a> but does not require a BCRYPT_SECRET_HANDLE value as input.
+The <b>BCryptKeyDerivation</b>  function derives a key without requiring a secret agreement. It is similar in functionality to <a href="https://msdn.microsoft.com/fb54b21d-d030-41b9-9374-8f6fdcd3996c">BCryptDeriveKey</a> but does not require a BCRYPT_SECRET_HANDLE value as input.
 
 
 ## -parameters
@@ -242,7 +242,7 @@ To call this function in kernel mode, use Cng.lib, which is part of the Driver D
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa375393(v=VS.85).aspx">BCryptDeriveKey</a>
+<a href="https://msdn.microsoft.com/fb54b21d-d030-41b9-9374-8f6fdcd3996c">BCryptDeriveKey</a>
 
 
 

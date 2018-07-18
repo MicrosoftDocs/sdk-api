@@ -4,10 +4,10 @@ title: View::RefreshSelection
 author: windows-sdk-content
 description: The RefreshSelection method refreshes the selected items.
 old-location: mmc\view_refreshselection.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 8e56cd8b-e947-4566-bf7f-197ee8510161
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/16/2018
 ms.keywords: RefreshSelection, RefreshSelection method [MMC], RefreshSelection method [MMC],View interface, RefreshSelection method [MMC],View object, View interface [MMC],RefreshSelection method, View object [MMC],RefreshSelection method, View.RefreshSelection, View::RefreshSelection, _slate_view.refreshselection_method, mmc.view_refreshselection
 ms.prod: windows
 ms.technology: windows-sdk

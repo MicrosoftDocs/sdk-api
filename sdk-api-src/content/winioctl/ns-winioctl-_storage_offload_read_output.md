@@ -4,10 +4,10 @@ title: "_STORAGE_OFFLOAD_READ_OUTPUT"
 author: windows-sdk-content
 description: Output structure for the DeviceDsmAction_OffloadRead action of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\storage_offload_read_output.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 93eaa8dd-b244-4fdd-abd4-c7cab46cb2a6
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT structure pointer, STORAGE_OFFLOAD_READ_OUTPUT, STORAGE_OFFLOAD_READ_OUTPUT structure, STORAGE_OFFLOAD_READ_RANGE_TRUNCATED, _STORAGE_OFFLOAD_READ_OUTPUT, base.storage_offload_read_output, winioctl/PSTORAGE_OFFLOAD_READ_OUTPUT, winioctl/STORAGE_OFFLOAD_READ_OUTPUT"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: tagTVKEYDOWN
 author: windows-sdk-content
 description: Contains information about a keyboard event in a tree-view control. This structure is used with the TVN_KEYDOWN notification code. The structure is identical to the TV_KEYDOWN structure, but it has been renamed to follow current naming conventions.
 old-location: controls\NMTVKEYDOWN.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvkeydown.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*LPNMTVKEYDOWN, LPNMTVKEYDOWN, LPNMTVKEYDOWN structure pointer [Windows Controls], NMTVKEYDOWN, NMTVKEYDOWN structure [Windows Controls], _win32_NMTVKEYDOWN, _win32_NMTVKEYDOWN_cpp, commctrl/LPNMTVKEYDOWN, commctrl/NMTVKEYDOWN, controls.NMTVKEYDOWN, controls._win32_NMTVKEYDOWN, tagTVKEYDOWN"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information about a keyboard event in a tree-view control. This structure is used with the <a href="https://msdn.microsoft.com/library/Bb773540(v=VS.85).aspx">TVN_KEYDOWN</a> notification code. The structure is identical to the 
+Contains information about a keyboard event in a tree-view control. This structure is used with the <a href="https://msdn.microsoft.com/da0d2b62-2295-4dce-9b37-a250f3be087f">TVN_KEYDOWN</a> notification code. The structure is identical to the 
 			<b>TV_KEYDOWN</b> structure, but it has been renamed to follow current naming conventions. 
 
 
@@ -61,10 +61,10 @@ Contains information about a keyboard event in a tree-view control. This structu
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about this notification. 
 
 
 ### -field wVKey
@@ -86,7 +86,7 @@ Always zero.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a>
+<a href="https://msdn.microsoft.com/23ff9dc1-3d92-4e94-8df5-7a645039ce27">WM_NOTIFY</a>
  
 
  

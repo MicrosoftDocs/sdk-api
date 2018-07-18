@@ -7,7 +7,7 @@ old-location: shell\Shell_GetCachedImageIndex.htm
 old-project: shell
 ms.assetid: f0d4dd1f-a41c-4dd0-9713-e3aec48ff101
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Shell_GetCachedImageIndex, Shell_GetCachedImageIndex function [Windows Shell], Shell_GetCachedImageIndexA, Shell_GetCachedImageIndexW, _win32_Shell_GetCachedImageIndex, shell.Shell_GetCachedImageIndex, shlobj_core/Shell_GetCachedImageIndex, shlobj_core/Shell_GetCachedImageIndexA, shlobj_core/Shell_GetCachedImageIndexW
 ms.prod: windows
 ms.technology: windows-sdk

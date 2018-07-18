@@ -4,10 +4,10 @@ title: IFsrmQuotaBase
 author: windows-sdk-content
 description: Base interface for all quota interfaces.
 old-location: fsrm\ifsrmquotabase.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 7f4d5a73-a836-4ea1-bc53-d51433eeb02e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IFsrmQuotaBase, IFsrmQuotaBase interface [File Server Resource Manager], IFsrmQuotaBase interface [File Server Resource Manager],described, fs.ifsrmquotabase, fsrm.ifsrmquotabase, fsrm/IFsrmQuotaBase
 ms.prod: windows
 ms.technology: windows-sdk

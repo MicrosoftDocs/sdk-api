@@ -4,10 +4,10 @@ title: ITextHost2::TxGetPalette
 author: windows-sdk-content
 description: Retrieves the color palette of the rich edit control.
 old-location: controls\itexthost2_txgetpalette.htm
-old-project: Controls
+old-project: controls
 ms.assetid: A9881BE7-0434-40EF-9BD8-AB8EF4E31582
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxGetPalette method, ITextHost2.TxGetPalette, ITextHost2::TxGetPalette, TxGetPalette, TxGetPalette method [Windows Controls], TxGetPalette method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgetpalette, textserv/ITextHost2::TxGetPalette
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ Returns the color palette, or <b>NULL</b> if the control uses the system default
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774259(v=VS.85).aspx">EM_SETPALETTE</a>
+<a href="https://msdn.microsoft.com/c1dc0c24-eaf2-47a8-9bb1-59f37b206feb">EM_SETPALETTE</a>
 
 
 

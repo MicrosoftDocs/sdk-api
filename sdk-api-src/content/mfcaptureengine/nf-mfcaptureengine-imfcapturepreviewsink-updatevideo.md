@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Updates the video frame.  Call this method when the preview window receives a <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> or <a href="https://msdn.microsoft.com/library/ms632646(v=VS.85).aspx">WM_SIZE</a> message.
+Updates the video frame.  Call this method when the preview window receives a <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> or <a href="https://msdn.microsoft.com/e3e14dcd-9236-48bd-a692-6985d8146f81">WM_SIZE</a> message.
 
 
 ## -parameters

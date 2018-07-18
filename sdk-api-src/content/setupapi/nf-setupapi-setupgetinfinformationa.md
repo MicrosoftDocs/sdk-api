@@ -7,7 +7,7 @@ old-location: setup\setupgetinfinformation.htm
 old-project: SetupApi
 ms.assetid: 367eb374-1295-41f6-a1b3-cfc04e94b816
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/16/2018
 ms.keywords: SetupGetInfInformation, SetupGetInfInformation function [Setup API], SetupGetInfInformationA, SetupGetInfInformationW, _setupapi_setupgetinfinformation, setup.setupgetinfinformation, setupapi/SetupGetInfInformation, setupapi/SetupGetInfInformationA, setupapi/SetupGetInfInformationW
 ms.prod: windows
 ms.technology: windows-sdk

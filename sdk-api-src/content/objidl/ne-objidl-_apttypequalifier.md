@@ -15,8 +15,8 @@ ms.topic: enum
 req.header: objidl.h
 req.include-header: Objidl.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -90,6 +90,9 @@ This qualifier is only valid when the <i>pAptType</i> parameter of the <a href="
 
 
 ### -field APTTYPEQUALIFIER_APPLICATION_STA
+
+
+### -field APTTYPEQUALIFIER_RESERVED_1
 
 
 

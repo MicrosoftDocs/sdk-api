@@ -4,10 +4,10 @@ title: ITextRange::SetPoint
 author: windows-sdk-content
 description: Changes the range based on a specified point at or up through (depending on Extend) the point (x, y) aligned according to Type.
 old-location: controls\ITextRange_SetPoint.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setpoint.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ITextRange interface [Windows Controls],SetPoint method, ITextRange.SetPoint, ITextRange::SetPoint, SetPoint, SetPoint method [Windows Controls], SetPoint method [Windows Controls],ITextRange interface, _win32_ITextRange_SetPoint, _win32_ITextRange_SetPoint_cpp, controls.ITextRange_SetPoint, controls._win32_ITextRange_SetPoint, tom/ITextRange::SetPoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,7 +115,7 @@ The method returns <b>S_OK</b>.
 
 
 
-An application can use the specified point in the <a href="https://msdn.microsoft.com/library/ms633558(v=VS.85).aspx">WindowFromPoint</a> function to get the handle  of the window, which usually can be used to find the client-rectangle coordinates (although a notable exception is with <a href="https://msdn.microsoft.com/library/Bb787609(v=VS.85).aspx">Windowless Controls</a>).
+An application can use the specified point in the <a href="https://msdn.microsoft.com/e4830394-f994-4d29-b843-3a618e331d52">WindowFromPoint</a> function to get the handle  of the window, which usually can be used to find the client-rectangle coordinates (although a notable exception is with <a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Controls</a>).
 
 
 
@@ -129,11 +129,11 @@ An application can use the specified point in the <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774003(v=VS.85).aspx">GetPoint</a>
+<a href="https://msdn.microsoft.com/67bb38d8-d96d-4d17-876d-4cadc39adece">GetPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -141,7 +141,7 @@ An application can use the specified point in the <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

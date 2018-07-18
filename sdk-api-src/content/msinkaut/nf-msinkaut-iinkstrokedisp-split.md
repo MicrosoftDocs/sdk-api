@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_split.htm
 old-project: tablet
 ms.assetid: 1ae627e9-c546-485a-880c-e59d2191884d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: 1ae627e9-c546-485a-880c-e59d2191884d, IInkStrokeDisp interface [Tablet PC],Split method, IInkStrokeDisp.Split, IInkStrokeDisp::Split, Split, Split method [Tablet PC], Split method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::Split, tablet.iinkstrokedisp_split
 ms.prod: windows
 ms.technology: windows-sdk

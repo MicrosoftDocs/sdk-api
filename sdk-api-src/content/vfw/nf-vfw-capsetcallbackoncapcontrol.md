@@ -7,7 +7,7 @@ old-location: multimedia\capsetcallbackoncapcontrol.htm
 old-project: Multimedia
 ms.assetid: 78bc83f6-06a0-4c41-92ce-932578bcb010
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "_win32_capSetCallbackOnCapControl, capSetCallbackOnCapControl, capSetCallbackOnCapControl macro [Windows Multimedia], multimedia.capsetcallbackoncapcontrol, vfw/capSetCallbackOnCapControl"
 ms.prod: windows
 ms.technology: windows-sdk

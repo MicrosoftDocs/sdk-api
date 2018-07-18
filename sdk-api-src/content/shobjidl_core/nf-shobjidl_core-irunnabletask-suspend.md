@@ -7,7 +7,7 @@ old-location: shell\IRunnableTask_Suspend.htm
 old-project: shell
 ms.assetid: f376d8e7-65d2-4824-a20f-e8604295df3f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IRunnableTask interface [Windows Shell],Suspend method, IRunnableTask.Suspend, IRunnableTask::Suspend, Suspend, Suspend method [Windows Shell], Suspend method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_Suspend, shell.IRunnableTask_Suspend, shobjidl_core/IRunnableTask::Suspend
 ms.prod: windows
 ms.technology: windows-sdk

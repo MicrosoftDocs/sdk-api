@@ -15,8 +15,8 @@ ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -94,8 +94,8 @@ A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec91
 
 A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure to 
       receive the date and time the file or directory was last written to, truncated, or overwritten (for example, 
-      with <a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a> or 
-      <a href="https://msdn.microsoft.com/library/Aa365531(v=VS.85).aspx">SetEndOfFile</a>). This date and time is not updated when 
+      with <a href="base.writefile">WriteFile</a> or 
+      <a href="base.setendoffile">SetEndOfFile</a>). This date and time is not updated when 
       file attributes or security descriptors are changed. This parameter can be <b>NULL</b> if the 
       application does not require this information.
 

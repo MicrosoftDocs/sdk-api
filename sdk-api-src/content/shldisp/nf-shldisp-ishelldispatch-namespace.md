@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_NameSpace.htm
 old-project: shell
 ms.assetid: CEA73705-1C27-4138-86C4-1715016E2ED8
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IShellDispatch object [Windows Shell],NameSpace method, IShellDispatch.NameSpace, IShellDispatch::NameSpace, NameSpace, NameSpace method [Windows Shell], NameSpace method [Windows Shell],IShellDispatch object, shell.IShellDispatch_NameSpace
 ms.prod: windows
 ms.technology: windows-sdk

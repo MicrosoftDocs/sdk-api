@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetvolume.htm
 old-project: Multimedia
 ms.assetid: e5fba475-d7d8-40de-aac7-0188954da180
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: MCIWndGetVolume, MCIWndGetVolume macro [Windows Multimedia], _win32_MCIWndGetVolume, multimedia.mciwndgetvolume, vfw/MCIWndGetVolume
 ms.prod: windows
 ms.technology: windows-sdk

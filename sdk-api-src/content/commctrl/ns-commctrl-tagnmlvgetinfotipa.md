@@ -4,10 +4,10 @@ title: tagNMLVGETINFOTIPA
 author: windows-sdk-content
 description: Contains and receives list-view item information needed to display a tooltip for an item. This structure is used with the LVN_GETINFOTIP notification code.
 old-location: controls\NMLVGETINFOTIP.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvgetinfotip.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*LPNMLVGETINFOTIPA, LPNMLVGETINFOTIP, LPNMLVGETINFOTIP structure pointer [Windows Controls], NMLVGETINFOTIP, NMLVGETINFOTIP structure [Windows Controls], NMLVGETINFOTIPA, NMLVGETINFOTIPW, _win32_NMLVGETINFOTIP, _win32_NMLVGETINFOTIP_cpp, commctrl/LPNMLVGETINFOTIP, commctrl/NMLVGETINFOTIP, commctrl/NMLVGETINFOTIPA, commctrl/NMLVGETINFOTIPW, controls.NMLVGETINFOTIP, controls._win32_NMLVGETINFOTIP, tagNMLVGETINFOTIPA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Contains and receives list-view item information needed to display a tooltip for an item. This structure is used with the <a href="https://msdn.microsoft.com/library/Bb774835(v=VS.85).aspx">LVN_GETINFOTIP</a> notification code. 
+Contains and receives list-view item information needed to display a tooltip for an item. This structure is used with the <a href="https://msdn.microsoft.com/62be5087-7e49-4722-a63a-1768e030af48">LVN_GETINFOTIP</a> notification code. 
 
 
 ## -struct-fields
@@ -62,10 +62,10 @@ Contains and receives list-view item information needed to display a tooltip for
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information on this notification code. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information on this notification code. 
 
 
 ### -field dwFlags

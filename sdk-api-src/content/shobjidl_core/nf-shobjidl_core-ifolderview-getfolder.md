@@ -7,7 +7,7 @@ old-location: shell\IFolderView_GetFolder.htm
 old-project: shell
 ms.assetid: 4fdeb995-2220-4461-a4d6-80bce08153b1
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetFolder, GetFolder method [Windows Shell], GetFolder method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetFolder method, IFolderView.GetFolder, IFolderView::GetFolder, _shell_IFolderView_GetFolder, shell.IFolderView_GetFolder, shobjidl_core/IFolderView::GetFolder
 ms.prod: windows
 ms.technology: windows-sdk

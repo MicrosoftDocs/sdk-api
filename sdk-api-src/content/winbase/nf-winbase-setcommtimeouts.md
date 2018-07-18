@@ -4,10 +4,10 @@ title: SetCommTimeouts function
 author: windows-sdk-content
 description: Sets the time-out parameters for all read and write operations on a specified communications device.
 old-location: base\setcommtimeouts.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 71aa6ab3-d56c-43bc-9932-5b4e61fc4b30
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: SetCommTimeouts, SetCommTimeouts function, _win32_setcommtimeouts, base.setcommtimeouts, winbase/SetCommTimeouts
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -108,19 +108,19 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a>
+<a href="base.readfile">ReadFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365468(v=VS.85).aspx">ReadFileEx</a>
+<a href="base.readfileex">ReadFileEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>
+<a href="base.writefile">WriteFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365748(v=VS.85).aspx">WriteFileEx</a>
+<a href="base.writefileex">WriteFileEx</a>
  
 
  

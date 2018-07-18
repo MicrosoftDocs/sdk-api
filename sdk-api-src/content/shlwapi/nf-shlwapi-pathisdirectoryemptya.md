@@ -7,7 +7,7 @@ old-location: shell\PathIsDirectoryEmpty.htm
 old-project: shell
 ms.assetid: 833fe68e-8b21-4819-8370-d1b5391a3080
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: PathIsDirectoryEmpty, PathIsDirectoryEmpty function [Windows Shell], PathIsDirectoryEmptyA, PathIsDirectoryEmptyW, _win32_PathIsDirectoryEmpty, shell.PathIsDirectoryEmpty, shlwapi/PathIsDirectoryEmpty, shlwapi/PathIsDirectoryEmptyA, shlwapi/PathIsDirectoryEmptyW
 ms.prod: windows
 ms.technology: windows-sdk

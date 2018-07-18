@@ -7,7 +7,7 @@ old-location: tablet\setflags.htm
 old-project: tablet
 ms.assetid: 62ad43c4-4795-4af9-af20-e45da30ba132
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: 62ad43c4-4795-4af9-af20-e45da30ba132, RECOFLAG_AUTOSPACE, RECOFLAG_COERCE, RECOFLAG_LINEMODE, RECOFLAG_PREFIXOK, RECOFLAG_SINGLESEG, RECOFLAG_WORDMODE, SetFlags, SetFlags function [Tablet PC], recapis/SetFlags, tablet.setflags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,7 +15,7 @@ ms.topic: function
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

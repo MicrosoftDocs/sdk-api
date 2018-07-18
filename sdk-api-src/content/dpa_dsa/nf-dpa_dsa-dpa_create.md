@@ -4,10 +4,10 @@ title: DPA_Create function
 author: windows-sdk-content
 description: Creates a dynamic pointer array (DPA).
 old-location: controls\DPA_Create.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_create.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DPA_Create, DPA_Create function [Windows Controls], _win32_DPA_Create, _win32_DPA_Create_cpp, controls.DPA_Create, controls._win32_DPA_Create, dpa_dsa/DPA_Create
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ Returns a handle to a DPA if successful, or <b>NULL</b> if the call fails.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775605(v=VS.85).aspx">DPA_CreateEx</a>
+<a href="https://msdn.microsoft.com/a77ad74e-3bb5-414a-9cd7-db4b1c6e8116">DPA_CreateEx</a>
  
 
  

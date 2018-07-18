@@ -4,10 +4,10 @@ title: ListView_GetFooterRect macro
 author: windows-sdk-content
 description: Gets the coordinates of the footer for a specified list-view control. Use this macro or send the LVM_GETFOOTERRECT message explicitly.
 old-location: controls\ListView_GetFooterRect.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getfooterrect.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ListView_GetFooterRect, ListView_GetFooterRect macro [Windows Controls], _shell_ListView_GetFooterRect, _shell_ListView_GetFooterRect_cpp, commctrl/ListView_GetFooterRect, controls.ListView_GetFooterRect, controls._shell_ListView_GetFooterRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the coordinates of the footer for a specified list-view control. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774930(v=VS.85).aspx">LVM_GETFOOTERRECT</a> message explicitly.
+Gets the coordinates of the footer for a specified list-view control. Use this macro or send the <a href="https://msdn.microsoft.com/f8816f35-c1d2-4072-81d3-0a9a3df53d64">LVM_GETFOOTERRECT</a> message explicitly.
 
 
 ## -parameters

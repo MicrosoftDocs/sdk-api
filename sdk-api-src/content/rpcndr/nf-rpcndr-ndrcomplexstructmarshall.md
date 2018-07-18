@@ -4,10 +4,10 @@ title: NdrComplexStructMarshall function
 author: windows-sdk-content
 description: The NdrComplexStructMarshall function marshals the complex structure into a network buffer.
 old-location: winprog\ndrcomplexstructmarshall.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: 722c274e-1c66-4b46-b243-02eeaaad1f6b
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: NdrComplexStructMarshall, NdrComplexStructMarshall function [Windows API], rpcndr/NdrComplexStructMarshall, winprog.ndrcomplexstructmarshall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: function
 req.header: rpcndr.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

@@ -4,10 +4,10 @@ title: TabCtrl_GetCurFocus macro
 author: windows-sdk-content
 description: Returns the index of the item that has the focus in a tab control. You can use this macro or send the TCM_GETCURFOCUS message explicitly.
 old-location: controls\TabCtrl_GetCurFocus.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getcurfocus.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: TabCtrl_GetCurFocus, TabCtrl_GetCurFocus macro [Windows Controls], _win32_TabCtrl_GetCurFocus, _win32_TabCtrl_GetCurFocus_cpp, commctrl/TabCtrl_GetCurFocus, controls.TabCtrl_GetCurFocus, controls._win32_TabCtrl_GetCurFocus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Returns the index of the item that has the focus in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760581(v=VS.85).aspx">TCM_GETCURFOCUS</a> message explicitly. 
+Returns the index of the item that has the focus in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/ae6ee159-c769-41d6-b0bb-2a9ade4c0e71">TCM_GETCURFOCUS</a> message explicitly. 
 
 
 ## -parameters

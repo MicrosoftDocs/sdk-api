@@ -4,10 +4,10 @@ title: ITextRange2::GetText2
 author: windows-sdk-content
 description: Gets the text in this range according to the specified conversion flags.
 old-location: controls\itextrange2_gettext2.htm
-old-project: Controls
+old-project: controls
 ms.assetid: 77f39808-b39d-45bb-ba03-3a27d503fe0e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetText2, GetText2 method [Windows Controls], GetText2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetText2 method, ITextRange2.GetText2, ITextRange2::GetText2, controls.itextrange2_gettext2, tom/ITextRange2::GetText2, tomAdjustCRLF, tomAllowFinalEOP, tomFoldMathAlpha, tomIncludeNumbering, tomLanguageTag, tomNoHidden, tomNoMathZoneBrackets, tomTextize, tomTranslateTableCell, tomUseCRLF
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Gets the text in this range according to the specified conversion flags.
 
 Type: <b>long</b>
 
-The flags controlling how the text is retrieved. The flags can include a combination of the following values. Specifying a <i>Flags</i> value of 0 is the same as calling the  <a href="https://msdn.microsoft.com/library/Bb774036(v=VS.85).aspx">ITextRange::GetText</a> method.  
+The flags controlling how the text is retrieved. The flags can include a combination of the following values. Specifying a <i>Flags</i> value of 0 is the same as calling the  <a href="https://msdn.microsoft.com/8cef8a1c-7b21-43cd-a4dd-b5a579bbfdaf">ITextRange::GetText</a> method.  
 
 <a id="tomAdjustCRLF"></a>
 <a id="tomadjustcrlf"></a>
@@ -199,7 +199,7 @@ Insufficient memory.
 
 
 
-This method includes the special flag <b>tomLanguageTag</b> to get the BCP-47 language tag for the range. This is an industry standard language tag which may be preferable to the language code identifier (LCID) obtained by calling <a href="https://msdn.microsoft.com/library/Bb773975(v=VS.85).aspx">ITextFont::GetLanguageID</a>.
+This method includes the special flag <b>tomLanguageTag</b> to get the BCP-47 language tag for the range. This is an industry standard language tag which may be preferable to the language code identifier (LCID) obtained by calling <a href="https://msdn.microsoft.com/422f94bc-44ef-44db-be8c-50fe1acc2320">ITextFont::GetLanguageID</a>.
 
 
 

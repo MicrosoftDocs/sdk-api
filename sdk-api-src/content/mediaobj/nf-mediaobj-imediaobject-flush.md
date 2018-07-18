@@ -7,7 +7,7 @@ old-location: dshow\imediaobject_flush.htm
 old-project: DirectShow
 ms.assetid: c80001b8-5648-430a-b565-e90486c48ac5
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Flush, Flush method [DirectShow], Flush method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],Flush method, IMediaObject.Flush, IMediaObject::Flush, IMediaObjectFlush, dshow.imediaobject_flush, mediaobj/IMediaObject::Flush
 ms.prod: windows
 ms.technology: windows-sdk

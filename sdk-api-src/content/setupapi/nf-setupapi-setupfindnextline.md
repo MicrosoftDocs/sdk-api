@@ -7,7 +7,7 @@ old-location: setup\setupfindnextline.htm
 old-project: SetupApi
 ms.assetid: ba5b3c62-c6b7-4ec1-83e2-45cdc910a34d
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/16/2018
 ms.keywords: SetupFindNextLine, SetupFindNextLine function [Setup API], _setupapi_setupfindnextline, setup.setupfindnextline, setupapi/SetupFindNextLine
 ms.prod: windows
 ms.technology: windows-sdk

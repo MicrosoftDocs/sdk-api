@@ -7,7 +7,7 @@ old-location: cos\icrmcompensator_beginabort.htm
 old-project: cossdk
 ms.assetid: 443d0a09-0f5f-4237-870b-5cc47c80e2fe
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: BeginAbort, BeginAbort method [COM+], BeginAbort method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],BeginAbort method, ICrmCompensator.BeginAbort, ICrmCompensator::BeginAbort, _dtc_ICrmCompensator_BeginAbort, comsvcs/ICrmCompensator::BeginAbort, cos.icrmcompensator_beginabort
 ms.prod: windows
 ms.technology: windows-sdk

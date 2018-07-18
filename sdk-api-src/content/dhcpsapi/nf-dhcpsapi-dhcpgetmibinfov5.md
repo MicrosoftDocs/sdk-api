@@ -4,10 +4,10 @@ title: DhcpGetMibInfoV5 function
 author: windows-sdk-content
 description: Obtains a MIB data structure that contains current statistics about the specified DHCP server.
 old-location: dhcp\dhcpgetmibinfov5.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 3439198d-5391-4f9b-a6fe-9a600e7dc77b
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DhcpGetMibInfoV5, DhcpGetMibInfoV5 function [DHCP], dhcp.dhcpgetmibinfov5, dhcpsapi/DhcpGetMibInfoV5
 ms.prod: windows
 ms.technology: windows-sdk

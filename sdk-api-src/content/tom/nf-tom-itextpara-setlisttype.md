@@ -4,10 +4,10 @@ title: ITextPara::SetListType
 author: windows-sdk-content
 description: Sets the type of list to be used for paragraphs.
 old-location: controls\ITextPara_SetListType.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlisttype.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ITextPara interface [Windows Controls],SetListType method, ITextPara.SetListType, ITextPara::SetListType, SetListType, SetListType method [Windows Controls], SetListType method [Windows Controls],ITextPara interface, _win32_ITextPara_SetListType, _win32_ITextPara_SetListType_cpp, controls.ITextPara_SetListType, controls._win32_ITextPara_SetListType, tom/ITextPara::SetListType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Sets the type of list to be used for paragraphs.
 
 Type: <b>long</b>
 
-New list type. For possible list types, see the <a href="https://msdn.microsoft.com/library/Bb773991(v=VS.85).aspx">ITextPara::GetListType</a> method. 
+New list type. For possible list types, see the <a href="https://msdn.microsoft.com/df2b0821-9216-465a-b066-60807a0b3e0f">ITextPara::GetListType</a> method. 
 
 
 ## -returns
@@ -149,11 +149,11 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773991(v=VS.85).aspx">GetListType</a>
+<a href="https://msdn.microsoft.com/df2b0821-9216-465a-b066-60807a0b3e0f">GetListType</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -161,7 +161,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

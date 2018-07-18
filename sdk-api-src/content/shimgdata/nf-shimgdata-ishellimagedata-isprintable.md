@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_IsPrintable.htm
 old-project: shell
 ms.assetid: 5c50e919-cb5b-4332-bc17-ad24f31cf680
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsPrintable method, IShellImageData.IsPrintable, IShellImageData::IsPrintable, IsPrintable, IsPrintable method [Windows Shell], IsPrintable method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsPrintable, shell.IShellImageData_IsPrintable, shimgdata/IShellImageData::IsPrintable
 ms.prod: windows
 ms.technology: windows-sdk

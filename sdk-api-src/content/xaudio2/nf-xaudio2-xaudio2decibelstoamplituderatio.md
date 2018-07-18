@@ -77,7 +77,7 @@ Returns a floating point value that represents the amplitude ratio.
 
 
 
-This function can be used to calculate the Volume parameter value passed to the <a href="https://msdn.microsoft.com/library/Ee418600(v=VS.85).aspx">IXAudio2Voice::SetVolume</a> function.
+This function can be used to calculate the Volume parameter value passed to the <a href="https://msdn.microsoft.com/D744E313-4281-4184-97E9-3FAB0F652871">IXAudio2Voice::SetVolume</a> function.
 
 
 

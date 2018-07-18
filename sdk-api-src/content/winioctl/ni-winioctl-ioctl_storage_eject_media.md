@@ -4,10 +4,10 @@ title: IOCTL_STORAGE_EJECT_MEDIA
 author: windows-sdk-content
 description: Ejects media from a SCSI device.
 old-location: base\ioctl_storage_eject_media.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: e1eeb3b8-b52b-4570-a3bc-e245ae58464f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IOCTL_STORAGE_EJECT_MEDIA, IOCTL_STORAGE_EJECT_MEDIA control, IOCTL_STORAGE_EJECT_MEDIA control code, _win32_ioctl_storage_eject_media, base.ioctl_storage_eject_media, winioctl/IOCTL_STORAGE_EJECT_MEDIA
 ms.prod: windows
 ms.technology: windows-sdk

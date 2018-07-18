@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_addenabled.htm
 old-project: cossdk
 ms.assetid: 6a8b0773-5ea7-4ad2-a520-ec9ea74a8755
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: AddEnabled property [COM+], AddEnabled property [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],AddEnabled property, ICatalogCollection.AddEnabled, ICatalogCollection.get_AddEnabled, ICatalogCollection::AddEnabled, ICatalogCollection::get_AddEnabled, _cos_ICatalogCollection_get_AddEnabled, comadmin/ICatalogCollection::AddEnabled, comadmin/ICatalogCollection::get_AddEnabled, cos.icatalogcollection_addenabled, get_AddEnabled
 ms.prod: windows
 ms.technology: windows-sdk

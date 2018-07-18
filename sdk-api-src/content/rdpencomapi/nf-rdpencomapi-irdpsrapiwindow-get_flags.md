@@ -4,10 +4,10 @@ title: IRDPSRAPIWindow::get_Flags
 author: windows-sdk-content
 description: Returns the flags on the current window.
 old-location: rdp\irdpsrapiwindow_flags.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: 64215325-fb94-4708-9391-5ef86c2c0076
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIWindow interface, Flags property [RDP],RDPSRAPIWindow object, IRDPSRAPIWindow interface [RDP],Flags property, IRDPSRAPIWindow.Flags, IRDPSRAPIWindow.get_Flags, IRDPSRAPIWindow::Flags, IRDPSRAPIWindow::get_Flags, RDPSRAPIWindow object [RDP],Flags property, get_Flags, rdp.irdpsrapiwindow_flags, rdpencomapi/IRDPSRAPIWindow::Flags, rdpencomapi/IRDPSRAPIWindow::get_Flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

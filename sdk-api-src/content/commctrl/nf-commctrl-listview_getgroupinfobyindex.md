@@ -4,10 +4,10 @@ title: ListView_GetGroupInfoByIndex macro
 author: windows-sdk-content
 description: Gets information on a specified group. Use this macro or send the LVM_GETGROUPINFOBYINDEX message explicitly.
 old-location: controls\ListView_GetGroupInfoByIndex.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupinfobyindex.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ListView_GetGroupInfoByIndex, ListView_GetGroupInfoByIndex macro [Windows Controls], _shell_ListView_GetGroupInfoByIndex, _shell_ListView_GetGroupInfoByIndex_cpp, commctrl/ListView_GetGroupInfoByIndex, controls.ListView_GetGroupInfoByIndex, controls._shell_ListView_GetGroupInfoByIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets information on a specified group. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774933(v=VS.85).aspx">LVM_GETGROUPINFOBYINDEX</a> message explicitly.
+Gets information on a specified group. Use this macro or send the <a href="https://msdn.microsoft.com/c40cb2c5-47c4-46ca-84fa-c017a9b1be15">LVM_GETGROUPINFOBYINDEX</a> message explicitly.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The index of the group.
 
 Type: <b>PLVGROUP</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Bb774769(v=VS.85).aspx">LVGROUP</a> structure to receive information on the group specified by <i>iIndex</i>. The calling application is responsible for allocating memory for the structure and any buffers in the structure, such as, the one pointed to by <b>pszHeader</b>. Set any contingent members of the structure, such as, <b>cchHeader</b>—the size of the buffer pointed to by <b>pszHeader</b> in <b>WCHAR</b><b>s</b>, including the terminating <b>NULL</b>. Set <b>cbSize</b> to the size of <b>LVGROUP</b> in bytes.
+A pointer to an <a href="https://msdn.microsoft.com/512a8524-d5f9-47c0-a28e-47c3c1a713bf">LVGROUP</a> structure to receive information on the group specified by <i>iIndex</i>. The calling application is responsible for allocating memory for the structure and any buffers in the structure, such as, the one pointed to by <b>pszHeader</b>. Set any contingent members of the structure, such as, <b>cchHeader</b>—the size of the buffer pointed to by <b>pszHeader</b> in <b>WCHAR</b><b>s</b>, including the terminating <b>NULL</b>. Set <b>cbSize</b> to the size of <b>LVGROUP</b> in bytes.
 
 The message receiver is responsible for setting the structure members with information for the group specified by <i>iIndex</i>.
 

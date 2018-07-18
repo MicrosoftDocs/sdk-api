@@ -4,10 +4,10 @@ title: View::CopyScopeNode
 author: windows-sdk-content
 description: The CopyScopeNode method copies the specified item's data object to the clipboard.
 old-location: mmc\view_copyscopenode.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 997f48fb-5b8f-43e3-8451-c1c1f80ba3b3
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/16/2018
 ms.keywords: CopyScopeNode, CopyScopeNode method [MMC], CopyScopeNode method [MMC],View interface, CopyScopeNode method [MMC],View object, View interface [MMC],CopyScopeNode method, View object [MMC],CopyScopeNode method, View.CopyScopeNode, View::CopyScopeNode, _slate_view.copyscopenode_method, mmc.view_copyscopenode
 ms.prod: windows
 ms.technology: windows-sdk

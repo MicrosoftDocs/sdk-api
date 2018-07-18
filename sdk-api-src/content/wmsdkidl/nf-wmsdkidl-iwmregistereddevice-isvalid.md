@@ -7,7 +7,7 @@ old-location: wmformat\iwmregistereddevice_isvalid.htm
 old-project: wmformat
 ms.assetid: ce09e6ad-10c0-4cdd-8dee-4faacd958f2b
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IWMRegisteredDevice interface [windows Media Format],IsValid method, IWMRegisteredDevice.IsValid, IWMRegisteredDevice::IsValid, IWMRegisteredDeviceIsValid, IsValid, IsValid method [windows Media Format], IsValid method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_isvalid, wmsdkidl/IWMRegisteredDevice::IsValid
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_DRT_REGISTRATION_STATE"
 author: windows-sdk-content
 description: The DRT_REGISTRATION_STATE enumeration defines the set of legal states for a registered key.
 old-location: p2p\drt_registration_state.htm
-old-project: p2psdk
+old-project: P2PSdk
 ms.assetid: 4c383efb-fedb-4f6f-9ae7-48fdf42887ac
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/16/2018
 ms.keywords: "*PDRT_REGISTRATION_STATE, DRT_REGISTRATION_STATE, DRT_REGISTRATION_STATE enumeration [Distributed Routing Tables], DRT_REGISTRATION_STATE_UNRESOLVEABLE, _DRT_REGISTRATION_STATE, drt/DRT_REGISTRATION_STATE, drt/DRT_REGISTRATION_STATE_UNRESOLVEABLE, p2p.drt_registration_state"
 ms.prod: windows
 ms.technology: windows-sdk

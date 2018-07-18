@@ -4,10 +4,10 @@ title: DhcpCreateClassV6 function
 author: windows-sdk-content
 description: Creates a custom DHCPv6 option class.
 old-location: dhcp\dhcpcreateclassv6.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 5ab20ec9-c809-4d89-8fe6-a5a966e5bff2
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DhcpCreateClassV6, DhcpCreateClassV6 function [DHCP], dhcp.dhcpcreateclassv6, dhcpsapi/DhcpCreateClassV6
 ms.prod: windows
 ms.technology: windows-sdk

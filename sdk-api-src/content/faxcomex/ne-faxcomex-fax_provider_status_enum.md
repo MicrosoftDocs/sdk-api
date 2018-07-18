@@ -99,7 +99,7 @@ An error occurred when the fax service called the extension's initialization fun
 
 
 
-<a href="https://msdn.microsoft.com/library/ms687445(v=VS.85).aspx">IFaxDeviceProvider::get_Status</a>
+<a href="https://msdn.microsoft.com/9378fc8c-6667-405e-adaf-bb2b1aca96ee">IFaxDeviceProvider::get_Status</a>
 
 
 

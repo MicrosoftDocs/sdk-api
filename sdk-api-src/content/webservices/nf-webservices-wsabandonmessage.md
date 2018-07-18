@@ -15,8 +15,8 @@ ms.topic: function
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -139,7 +139,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
                 state diagram:
             
 
-<img alt="" src="./images/AbandonMessage.png"/>
+<img alt="" src="images/AbandonMessage.png"/>
 
 
                 For read operations, an application typically calls <b>WsAbandonMessage</b> when it is unnecessary for the application to continue reading the 

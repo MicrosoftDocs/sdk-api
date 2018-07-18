@@ -4,10 +4,10 @@ title: "_COMMTIMEOUTS"
 author: windows-sdk-content
 description: Contains the time-out parameters for a communications device.
 old-location: base\commtimeouts_str.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 259aa110-b2c3-4583-a3f9-805a42025a81
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*LPCOMMTIMEOUTS, COMMTIMEOUTS, COMMTIMEOUTS structure, LPCOMMTIMEOUTS, LPCOMMTIMEOUTS structure pointer, _COMMTIMEOUTS, _win32_commtimeouts_str, base.commtimeouts_str, winbase/COMMTIMEOUTS, winbase/LPCOMMTIMEOUTS"
 ms.prod: windows
 ms.technology: windows-sdk

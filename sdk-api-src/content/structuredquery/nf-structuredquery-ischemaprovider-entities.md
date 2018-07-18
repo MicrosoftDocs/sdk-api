@@ -52,7 +52,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-        Retrieves an enumeration of <a href="https://msdn.microsoft.com/library/Bb231373(v=VS.85).aspx">IEntity</a> objects with one entry for each entity in the loaded schema.
+        Retrieves an enumeration of <a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a> objects with one entry for each entity in the loaded schema.
       
 
 
@@ -75,7 +75,7 @@ Type: <b>REFIID</b>
 Type: <b>void**</b>
 
 
-          Receives a pointer to an enumeration of entities. The calling application must release it by calling its <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
+          Receives a pointer to an enumeration of entities. The calling application must release it by calling its <a href="_com_IUnknown_Release">IUnknown::Release</a> method.
         
 
 

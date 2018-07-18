@@ -15,8 +15,8 @@ ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -85,7 +85,7 @@ This parameter must be zero.
 The system sends a <a href="https://msdn.microsoft.com/7ad73444-f1f6-4b73-8450-0580b146a5a6">WM_QUERYENDSESSION</a> to the main window of each running application.
 
 An application agrees to terminate by returning <b>TRUE</b> when it receives this message (or by allowing the 
-<a href="https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx">DefWindowProc</a> function to process the message). If any application returns <b>FALSE</b> when it receives the 
+<a href="_win32_defwindowproc_cpp">DefWindowProc</a> function to process the message). If any application returns <b>FALSE</b> when it receives the 
 <a href="https://msdn.microsoft.com/7ad73444-f1f6-4b73-8450-0580b146a5a6">WM_QUERYENDSESSION</a> message, the logoff is canceled.
 
 After the system processes the results of the 
@@ -107,7 +107,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx">DefWindowProc</a>
+<a href="_win32_defwindowproc_cpp">DefWindowProc</a>
 
 
 

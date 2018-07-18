@@ -4,10 +4,10 @@ title: peer_pnrp_registration_info_tag
 author: windows-sdk-content
 description: Contains the information provided by a peer identity when it registers with a PNRP cloud.
 old-location: p2p\peer_pnrp_registration_info.htm
-old-project: p2psdk
+old-project: P2PSdk
 ms.assetid: 2825cb65-94b4-4bed-acff-7fa35a992284
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/16/2018
 ms.keywords: "*PPEER_PNRP_REGISTRATION_INFO, PEER_PNRP_REGISTRATION_INFO, PEER_PNRP_REGISTRATION_INFO structure [Peer Networking], PPEER_PNRP_REGISTRATION_INFO, PPEER_PNRP_REGISTRATION_INFO structure pointer [Peer Networking], p2p.peer_pnrp_registration_info, p2p/PEER_PNRP_REGISTRATION_INFO, p2p/PPEER_PNRP_REGISTRATION_INFO, peer_pnrp_registration_info_tag"
 ms.prod: windows
 ms.technology: windows-sdk

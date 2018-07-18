@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_createserviceforapplication.htm
 old-project: cossdk
 ms.assetid: 9ffc7366-c47a-487e-b40c-bdcea5dbf052
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CreateServiceForApplication, CreateServiceForApplication method [COM+], CreateServiceForApplication method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CreateServiceForApplication method, ICOMAdminCatalog2.CreateServiceForApplication, ICOMAdminCatalog2::CreateServiceForApplication, _cos_icomadmincatalog2_CreateServiceForApplication, comadmin/ICOMAdminCatalog2::CreateServiceForApplication, cos.icomadmincatalog2_createserviceforapplication
 ms.prod: windows
 ms.technology: windows-sdk

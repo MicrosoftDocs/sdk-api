@@ -15,8 +15,8 @@ ms.topic: function
 req.header: coml2api.h
 req.include-header: Ole2.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -88,7 +88,7 @@ The
 <b>WriteClassStm</b> function writes a CLSID to the specified stream object so it can be read by the 
 <a href="https://msdn.microsoft.com/bcf11c5b-e164-4a0f-b30f-ee9e76c4356d">ReadClassStm</a> function. Most applications do not call 
 <b>WriteClassStm</b> directly. OLE calls it before making a call to an object's 
-<a href="https://msdn.microsoft.com/library/ms691473(v=VS.85).aspx">IPersistStream::Save</a> method.
+<a href="_com_ipersiststream_save">IPersistStream::Save</a> method.
 
 
 

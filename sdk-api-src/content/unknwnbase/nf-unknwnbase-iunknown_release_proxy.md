@@ -15,8 +15,8 @@ ms.topic: function
 req.header: unknwnbase.h
 req.include-header: Unknwn.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -53,7 +53,7 @@ req.product: Windows UI
 
 <p class="CCE_Message">[IUnknown_Release_Proxy is not supported and may be altered or unavailable in the future.]
 
-The <a href="https://msdn.microsoft.com/4f266740-e33a-4dc1-8ade-720308bb82fe">IUnknown_Release_Proxy</a> function implements the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">Release</a> method for all interface proxies.
+The <a href="https://msdn.microsoft.com/4f266740-e33a-4dc1-8ade-720308bb82fe">IUnknown_Release_Proxy</a> function implements the <a href="_com_iunknown_release">Release</a> method for all interface proxies.
 
 
 ## -parameters

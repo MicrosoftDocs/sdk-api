@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_put_httpproxyport.htm
 old-project: DirectShow
 ms.assetid: dada8684-66e7-4983-984a-589d48d167ba
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_HTTPProxyPort method, IAMNetShowConfig.put_HTTPProxyPort, IAMNetShowConfig::put_HTTPProxyPort, IAMNetShowConfigput_HTTPProxyPort, dshow.iamnetshowconfig_put_httpproxyport, put_HTTPProxyPort, put_HTTPProxyPort method [DirectShow], put_HTTPProxyPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_HTTPProxyPort
 ms.prod: windows
 ms.technology: windows-sdk

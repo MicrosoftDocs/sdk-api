@@ -7,7 +7,7 @@ old-location: multimedia\cappreview.htm
 old-project: Multimedia
 ms.assetid: c6888e35-9915-4ffb-ac0d-3cc1419fdac3
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "_win32_capPreview, capPreview, capPreview macro [Windows Multimedia], multimedia.cappreview, vfw/capPreview"
 ms.prod: windows
 ms.technology: windows-sdk

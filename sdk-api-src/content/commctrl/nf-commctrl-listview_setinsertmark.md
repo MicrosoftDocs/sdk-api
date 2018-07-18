@@ -4,10 +4,10 @@ title: ListView_SetInsertMark macro
 author: windows-sdk-content
 description: Sets the insertion point to the defined position. You can use this macro or send the LVM_SETINSERTMARK message explicitly.
 old-location: controls\ListView_SetInsertMark.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setinsertmark.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ListView_SetInsertMark, ListView_SetInsertMark macro [Windows Controls], _win32_ListView_SetInsertMark, _win32_ListView_SetInsertMark_cpp, commctrl/ListView_SetInsertMark, controls.ListView_SetInsertMark, controls._win32_ListView_SetInsertMark
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the insertion point to the defined position. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761182(v=VS.85).aspx">LVM_SETINSERTMARK</a> message explicitly. 
+Sets the insertion point to the defined position. You can use this macro or send the <a href="https://msdn.microsoft.com/32cf5a11-918a-4dc4-bf10-88b3c26f26cc">LVM_SETINSERTMARK</a> message explicitly. 
 
 
 ## -parameters
@@ -78,13 +78,13 @@ TBD
 
 Type: <b>PLVINSERTMARK</b>
 
-<a href="https://msdn.microsoft.com/library/Bb774758(v=VS.85).aspx">LVINSERTMARK</a>
+<a href="https://msdn.microsoft.com/61af07a1-34b1-4780-b36e-765e80783116">LVINSERTMARK</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_SetInsertMark</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_SetInsertMark</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

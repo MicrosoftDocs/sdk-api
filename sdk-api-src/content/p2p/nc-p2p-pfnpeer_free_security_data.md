@@ -4,10 +4,10 @@ title: PFNPEER_FREE_SECURITY_DATA
 author: windows-sdk-content
 description: The PFNPEER_FREE_SECURITY_DATA callback specifies the function that the Peer Graphing Infrastructure calls to free data returned by PFNPEER_SECURE_RECORD and PFNPEER_VALIDATE_RECORD callbacks.
 old-location: p2p\pfnpeer_free_security_data.htm
-old-project: p2psdk
+old-project: P2PSdk
 ms.assetid: aa340e32-6d7f-4218-b120-8c352fdbda0f
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/16/2018
 ms.keywords: PFNPEER_FREE_SECURITY_DATA, PFNPEER_FREE_SECURITY_DATA callback, PFNPEER_FREE_SECURITY_DATA callback function [Peer Networking], p2p.pfnpeer_free_security_data, p2p/PFNPEER_FREE_SECURITY_DATA
 ms.prod: windows
 ms.technology: windows-sdk

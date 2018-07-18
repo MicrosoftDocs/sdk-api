@@ -4,10 +4,10 @@ title: Static_SetIcon macro
 author: windows-sdk-content
 description: Sets the icon for a static control. You can use this macro or send the STM_SETICON message explicitly.
 old-location: controls\Static_SetIcon.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_seticon.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Static_SetIcon, Static_SetIcon macro [Windows Controls], _win32_Static_SetIcon, _win32_Static_SetIcon_cpp, controls.Static_SetIcon, controls._win32_Static_SetIcon, windowsx/Static_SetIcon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the icon for a static control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760780(v=VS.85).aspx">STM_SETICON</a> message explicitly. 
+Sets the icon for a static control. You can use this macro or send the <a href="https://msdn.microsoft.com/105b0667-8e23-47ed-9fb1-0792a22d7100">STM_SETICON</a> message explicitly. 
 
 
 

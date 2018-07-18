@@ -7,7 +7,7 @@ old-location: shell\NSTCCUSTOMDRAW.htm
 old-project: shell
 ms.assetid: 95747075-4882-4c29-8653-941ac04db54b
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: NSTCCUSTOMDRAW, NSTCCUSTOMDRAW structure [Windows Shell], _shell_NSTCCUSTOMDRAW, shell.NSTCCUSTOMDRAW, shobjidl/NSTCCUSTOMDRAW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ A pointer to a Shell item.
 
 Type: <b>UINT</b>
 
-The current item state. See <a href="https://msdn.microsoft.com/library/Bb775483(v=VS.85).aspx">NMCUSTOMDRAW</a> for more detail.
+The current item state. See <a href="https://msdn.microsoft.com/c8a990a9-fb39-46e7-a5d2-fc817ff46e1b">NMCUSTOMDRAW</a> for more detail.
 
 
 ### -field nstcis

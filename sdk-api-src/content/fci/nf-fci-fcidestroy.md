@@ -4,10 +4,10 @@ title: FCIDestroy function
 author: windows-sdk-content
 description: The FCIDestroy function deletes an open FCI context, freeing any memory and temporary files associated with the context.
 old-location: winprog\fcidestroy.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: bb1a6294-664f-450f-b8ec-d6f8957d920e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: FCIDestroy, FCIDestroy function [Windows API], fci/FCIDestroy, winprog.fcidestroy
 ms.prod: windows
 ms.technology: windows-sdk

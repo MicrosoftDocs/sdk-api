@@ -15,8 +15,8 @@ ms.topic: function
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP with SP2 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -151,7 +151,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 <b>StringCchGets</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchGets</b>
 				always null-terminates a nonzero-length destination buffer.
 
-The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="https://msdn.microsoft.com/library/ms647538(v=VS.85).aspx">StringCchGetsEx</a> if you require the handling of null string pointer values.
+The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="https://msdn.microsoft.com/12937a53-377d-46a7-88fb-124ade72f866">StringCchGetsEx</a> if you require the handling of null string pointer values.
 
 <b>StringCchGets</b> can be used in its generic form, or in its more specific forms. The data type of the string determines the form of this function that you should use, as shown in the following table.
 
@@ -191,11 +191,11 @@ The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647505(v=VS.85).aspx">StringCbGets</a>
+<a href="https://msdn.microsoft.com/6dea3433-9d63-40b0-907a-c79dd11ecd6f">StringCbGets</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647538(v=VS.85).aspx">StringCchGetsEx</a>
+<a href="https://msdn.microsoft.com/12937a53-377d-46a7-88fb-124ade72f866">StringCchGetsEx</a>
  
 
  

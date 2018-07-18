@@ -4,10 +4,10 @@ title: PeerDistServerUnpublish function
 author: windows-sdk-content
 description: PeerDistServerUnpublish function removes a publication created via PeerDistServerPublishStream.
 old-location: p2p\peerdistserverunpublish.htm
-old-project: p2psdk
+old-project: P2PSdk
 ms.assetid: 880927c4-f7d7-4c75-b371-2fe401a50b20
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/16/2018
 ms.keywords: PeerDistServerUnpublish, PeerDistServerUnpublish function [Peer Networking], p2p.peerdistserverunpublish, peerdist/PeerDistServerUnpublish
 ms.prod: windows
 ms.technology: windows-sdk

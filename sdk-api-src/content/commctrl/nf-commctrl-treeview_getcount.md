@@ -4,10 +4,10 @@ title: TreeView_GetCount macro
 author: windows-sdk-content
 description: Retrieves a count of the items in a tree-view control. You can use this macro or send the TVM_GETCOUNT message explicitly.
 old-location: controls\TreeView_GetCount.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getcount.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: TreeView_GetCount, TreeView_GetCount macro [Windows Controls], _win32_TreeView_GetCount, _win32_TreeView_GetCount_cpp, commctrl/TreeView_GetCount, controls.TreeView_GetCount, controls._win32_TreeView_GetCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves a count of the items in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773572(v=VS.85).aspx">TVM_GETCOUNT</a> message explicitly. 
+Retrieves a count of the items in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/cb8477be-51c9-4e96-8fa6-f978e0c1595f">TVM_GETCOUNT</a> message explicitly. 
 
 
 ## -parameters

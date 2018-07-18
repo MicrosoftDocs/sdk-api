@@ -15,8 +15,8 @@ ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -81,7 +81,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 A provider application should use this function to release UI Automation resources before shutting down.
 
-This function cannot be called in response to a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function. An application cannot make outbound Component Object Model (COM) calls in response to a call to <b>SendMessage</b>, and releasing a provider is typically an outbound COM call.  The <b>UiaDisconnectAllProviders</b> function returns RPC_E_CANTCALLOUT_ININPUTSYNCCALL if the function is called in response to a <b>SendMessage</b> call.  You can use the <a href="https://msdn.microsoft.com/library/ms644942(v=VS.85).aspx">InSendMessageEx</a> function to determine whether a particular message is being handled in response to a <b>SendMessage</b> call.
+This function cannot be called in response to a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function. An application cannot make outbound Component Object Model (COM) calls in response to a call to <b>SendMessage</b>, and releasing a provider is typically an outbound COM call.  The <b>UiaDisconnectAllProviders</b> function returns RPC_E_CANTCALLOUT_ININPUTSYNCCALL if the function is called in response to a <b>SendMessage</b> call.  You can use the <a href="https://msdn.microsoft.com/6625958c-9ebb-4fb1-806f-625fe9e69c22">InSendMessageEx</a> function to determine whether a particular message is being handled in response to a <b>SendMessage</b> call.
 
 For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=231683">BUG: RPC_E_CANTCALLOUT_ININPUTSYNCCALL Error When System Menu Is Shown in Taskbar</a> on the MSDN Support website.
 

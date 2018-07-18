@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurface_issurfacelocked.htm
 old-project: DirectShow
 ms.assetid: 690194c2-2f40-414f-9130-f2f9c44fe71e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IVMRSurface interface [DirectShow],IsSurfaceLocked method, IVMRSurface.IsSurfaceLocked, IVMRSurface::IsSurfaceLocked, IVMRSurfaceIsSurfaceLocked, IsSurfaceLocked, IsSurfaceLocked method [DirectShow], IsSurfaceLocked method [DirectShow],IVMRSurface interface, dshow.ivmrsurface_issurfacelocked, strmif/IVMRSurface::IsSurfaceLocked
 ms.prod: windows
 ms.technology: windows-sdk

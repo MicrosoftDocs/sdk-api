@@ -79,7 +79,7 @@ Receives a reference to the value of the variable specified by <i>bstrVariableNa
 
 
 
-To free this parameter, use <a href="https://msdn.microsoft.com/library/ms221165(v=VS.85).aspx">VariantClear</a>.
+To free this parameter, use <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>.
 						
 
 

@@ -4,10 +4,10 @@ title: IResultData::GetViewMode
 author: windows-sdk-content
 description: Enables the snap-in to retrieve a view mode for the result view pane.
 old-location: mmc\iresultdata_getviewmode.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: e6c9b3ef-3b12-42c1-9b3b-ad890b8bd05e
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/16/2018
 ms.keywords: GetViewMode, GetViewMode method [MMC], GetViewMode method [MMC],IResultData interface, GetViewMode method [MMC],IResultData2 interface, IResultData interface [MMC],GetViewMode method, IResultData.GetViewMode, IResultData2 interface [MMC],GetViewMode method, IResultData2::GetViewMode, IResultData::GetViewMode, MMCLV_VIEWSTYLE_FILTERED, MMCLV_VIEWSTYLE_ICON, MMCLV_VIEWSTYLE_LIST, MMCLV_VIEWSTYLE_REPORT, MMCLV_VIEWSTYLE_SMALLICON, _slate_iresultdata_getviewmode, mmc.iresultdata_getviewmode, mmc/IResultData2::GetViewMode, mmc/IResultData::GetViewMode
 ms.prod: windows
 ms.technology: windows-sdk

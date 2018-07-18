@@ -7,7 +7,7 @@ old-location: dshow\dvd_subpictureattributes.htm
 old-project: DirectShow
 ms.assetid: 55ddfa21-5600-4aa9-b554-7ff7f3c05b91
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DVD_SubpictureAttributes, DVD_SubpictureAttributes structure [DirectShow], DVD_SubpictureAttributesStructure, dshow.dvd_subpictureattributes, strmif/DVD_SubpictureAttributes, tagDVD_SubpictureAttributes
 ms.prod: windows
 ms.technology: windows-sdk

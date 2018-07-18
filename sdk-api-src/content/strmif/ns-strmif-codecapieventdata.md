@@ -7,7 +7,7 @@ old-location: dshow\codecapieventdata.htm
 old-project: DirectShow
 ms.assetid: 04d0177d-ec9d-4f23-abd1-a37c787c24b2
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CodecAPIEventData, CodecAPIEventData structure [DirectShow], CodecAPIEventDataStructure, dshow.codecapieventdata, strmif/CodecAPIEventData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP with SP2 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

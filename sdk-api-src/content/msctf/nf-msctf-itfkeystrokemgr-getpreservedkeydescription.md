@@ -15,8 +15,8 @@ ms.topic: method
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -65,7 +65,7 @@ Contains the command GUID of the preserved key.
 
 ### -param pbstrDesc [out]
 
-Pointer to a BSTR value the receives the description string. The caller must free this memory using <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+Pointer to a BSTR value the receives the description string. The caller must free this memory using <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 
 ## -returns
@@ -136,7 +136,7 @@ Preserved keys are registered by TSF text services and provide keyboard shortcut
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>
  
 
  

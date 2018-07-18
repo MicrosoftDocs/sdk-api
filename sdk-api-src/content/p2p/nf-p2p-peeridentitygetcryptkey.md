@@ -4,10 +4,10 @@ title: PeerIdentityGetCryptKey function
 author: windows-sdk-content
 description: The PeerIdentityGetCryptKey function retrieves a handle to a cryptographic service provider (CSP).
 old-location: p2p\peeridentitygetcryptkey.htm
-old-project: p2psdk
+old-project: P2PSdk
 ms.assetid: 27a1b563-7bbe-4117-8bc3-19dd47360308
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/16/2018
 ms.keywords: PeerIdentityGetCryptKey, PeerIdentityGetCryptKey function [Peer Networking], p2p.peeridentitygetcryptkey, p2p/PeerIdentityGetCryptKey
 ms.prod: windows
 ms.technology: windows-sdk

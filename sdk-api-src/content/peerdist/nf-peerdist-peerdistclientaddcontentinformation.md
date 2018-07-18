@@ -4,10 +4,10 @@ title: PeerDistClientAddContentInformation function
 author: windows-sdk-content
 description: PeerDistClientAddContentInformation function adds the content information associated with a content handle opened by PeerDistClientOpenContent.
 old-location: p2p\peerdistclientaddcontentinformation.htm
-old-project: p2psdk
+old-project: P2PSdk
 ms.assetid: 933ca20c-8a28-4b6a-9ec8-85608fd02990
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/16/2018
 ms.keywords: PeerDistClientAddContentInformation, PeerDistClientAddContentInformation function [Peer Networking], p2p.peerdistclientaddcontentinformation, peerdist/PeerDistClientAddContentInformation
 ms.prod: windows
 ms.technology: windows-sdk

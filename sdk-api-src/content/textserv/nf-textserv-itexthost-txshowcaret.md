@@ -4,10 +4,10 @@ title: ITextHost::TxShowCaret
 author: windows-sdk-content
 description: Shows or hides the caret at the caret position in the text host window.
 old-location: controls\ITextHost_TxShowCaret.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txshowcaret.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ITextHost interface [Windows Controls],TxShowCaret method, ITextHost.TxShowCaret, ITextHost::TxShowCaret, TxShowCaret, TxShowCaret method [Windows Controls], TxShowCaret method [Windows Controls],ITextHost interface, _win32_ITextHost_TxShowCaret, _win32_ITextHost_TxShowCaret_cpp, controls.ITextHost_TxShowCaret, controls._win32_ITextHost_TxShowCaret, textserv/ITextHost::TxShowCaret
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
 
 
 
@@ -105,15 +105,15 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787640(v=VS.85).aspx">TxCreateCaret</a>
+<a href="https://msdn.microsoft.com/b7e1b5a3-3d63-4a52-8d48-42865bf1eef3">TxCreateCaret</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787720(v=VS.85).aspx">TxSetCaretPos</a>
+<a href="https://msdn.microsoft.com/11615426-8c97-4cd0-b0dc-58da8acc45d5">TxSetCaretPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
  
 
  

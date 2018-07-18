@@ -4,10 +4,10 @@ title: TreeView_GetSelection macro
 author: windows-sdk-content
 description: Retrieves the currently selected item in a tree-view control. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_CARET flag.
 old-location: controls\TreeView_GetSelection.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getselection.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: TreeView_GetSelection, TreeView_GetSelection macro [Windows Controls], _win32_TreeView_GetSelection, _win32_TreeView_GetSelection_cpp, commctrl/TreeView_GetSelection, controls.TreeView_GetSelection, controls._win32_TreeView_GetSelection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the currently selected item in a tree-view control. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/library/Bb773622(v=VS.85).aspx">TVM_GETNEXTITEM</a> message with the TVGN_CARET flag. 
+Retrieves the currently selected item in a tree-view control. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/505c713c-7728-4119-bc0e-482fe7e73193">TVM_GETNEXTITEM</a> message with the TVGN_CARET flag. 
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Handle to the tree-view control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773861(v=VS.85).aspx">TreeView_GetNextItem</a>
+<a href="https://msdn.microsoft.com/987d0d0f-eecf-4a6a-9340-64dd6ce1ac80">TreeView_GetNextItem</a>
  
 
  

@@ -114,7 +114,7 @@ Unless a node is specified, <b>Move</b> automatically
 <ul>
 <li>The set of currently active nodes.</li>
 <li>The group's prioritized list of 
-      <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">preferred owner</a> nodes (see 
+      <a href="p_gly.htm">preferred owner</a> nodes (see 
       <a href="https://msdn.microsoft.com/5e2872a4-72db-4cd8-9fce-34c1bd701706">ClusResGroup.PreferredOwnerNodes</a>).</li>
 <li>The set of nodes listed as possible owners by all resources in the group. To access the possible owners 
       list for a resource, use the 

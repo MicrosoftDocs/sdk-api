@@ -7,7 +7,7 @@ old-location: direct3ddxgi\DXGI_SWAP_EFFECT.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_swap_effect.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DXGI_SWAP_EFFECT, DXGI_SWAP_EFFECT enumeration [DXGI], DXGI_SWAP_EFFECT_DISCARD, DXGI_SWAP_EFFECT_FLIP_DISCARD, DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL, DXGI_SWAP_EFFECT_SEQUENTIAL, c9248b7c-731f-95e1-6c64-22fdef69d697, direct3ddxgi.DXGI_SWAP_EFFECT, dxgi/DXGI_SWAP_EFFECT, dxgi/DXGI_SWAP_EFFECT_DISCARD, dxgi/DXGI_SWAP_EFFECT_FLIP_DISCARD, dxgi/DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL, dxgi/DXGI_SWAP_EFFECT_SEQUENTIAL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ This is because UWP applications are forced into FLIP swap modes (even if other 
 time used by the memory copies originally done by the older bitblt model.
 
 The recommended approach is to manually convert DX11 Discard swap chains to use flip models within UWP,  using <b>DXGI_SWAP_EFFECT_FLIP_DISCARD</b> instead of <b>DXGI_SWAP_EFFECT_DISCARD</b> where possible.
- Refer to the Example below, and see <a href="https://msdn.microsoft.com/library/Mt846759(v=VS.85).aspx">this article</a> for more information.</div>
+ Refer to the Example below, and see <a href="direct3ddxgi.for_best_performance__use_dxgi_flip_model">this article</a> for more information.</div>
 <div> </div>
 
 ### -field DXGI_SWAP_EFFECT_SEQUENTIAL
@@ -85,7 +85,7 @@ The recommended approach is to manually convert DX11 Discard swap chains to use 
               This flag cannot be used with multisampling.
             
 
-<div class="alert"><b>Note</b>  For best performance, use <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> instead of <b>DXGI_SWAP_EFFECT_SEQUENTIAL</b>. See <a href="https://msdn.microsoft.com/library/Mt846759(v=VS.85).aspx">this article</a> for more information.</div>
+<div class="alert"><b>Note</b>  For best performance, use <b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b> instead of <b>DXGI_SWAP_EFFECT_SEQUENTIAL</b>. See <a href="direct3ddxgi.for_best_performance__use_dxgi_flip_model">this article</a> for more information.</div>
 <div> </div>
 
 ### -field DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL
@@ -120,7 +120,7 @@ The recommended approach is to manually convert DX11 Discard swap chains to use 
 
 
 
-          This enumeration is used by the <a href="https://msdn.microsoft.com/library/Bb173075(v=VS.85).aspx">DXGI_SWAP_CHAIN_DESC</a> and <a href="https://msdn.microsoft.com/38B302DF-5617-4195-8E4A-619D75188AD5">DXGI_SWAP_CHAIN_DESC1</a>structures.
+          This enumeration is used by the <a href="https://msdn.microsoft.com/819d4ff3-f717-46ab-a626-cff065681c79">DXGI_SWAP_CHAIN_DESC</a> and <a href="https://msdn.microsoft.com/38B302DF-5617-4195-8E4A-619D75188AD5">DXGI_SWAP_CHAIN_DESC1</a>structures.
         
 
 
@@ -133,11 +133,11 @@ The recommended approach is to manually convert DX11 Discard swap chains to use 
         
 
 
-          When you call <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> on a flip model swap chain (<b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b>) with 0 specified in the <i>SyncInterval</i> parameter, <b>IDXGISwapChain1::Present1</b>'s behavior is the same as the behavior of <a href="https://msdn.microsoft.com/cb92a162-57eb-4aee-af7a-c8ece37075a7">Direct3D 9Ex</a>'s <a href="https://msdn.microsoft.com/library/Bb174343(v=VS.85).aspx">IDirect3DDevice9Ex::PresentEx</a> with <a href="https://msdn.microsoft.com/library/Bb172612(v=VS.85).aspx">D3DSWAPEFFECT_FLIPEX</a> and <a href="https://msdn.microsoft.com/library/Bb172585(v=VS.85).aspx">D3DPRESENT_FORCEIMMEDIATE</a>. That is, the runtime not only presents the next frame instead of any previously queued frames, it also terminates any remaining time left on the previously queued frames.
+          When you call <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> on a flip model swap chain (<b>DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</b>) with 0 specified in the <i>SyncInterval</i> parameter, <b>IDXGISwapChain1::Present1</b>'s behavior is the same as the behavior of <a href="https://msdn.microsoft.com/cb92a162-57eb-4aee-af7a-c8ece37075a7">Direct3D 9Ex</a>'s <a href="https://msdn.microsoft.com/845c72ff-669d-44bf-8065-cff456418e8c">IDirect3DDevice9Ex::PresentEx</a> with <a href="https://msdn.microsoft.com/522a5f71-3ad9-4cfc-a899-e25b9b721b1b">D3DSWAPEFFECT_FLIPEX</a> and <a href="https://msdn.microsoft.com/a7d774c1-93c0-47d8-a8a7-e66e394726a3">D3DPRESENT_FORCEIMMEDIATE</a>. That is, the runtime not only presents the next frame instead of any previously queued frames, it also terminates any remaining time left on the previously queued frames.
         
 
 
-          Regardless of whether the flip model is more efficient, an application still might choose the bitblt model because the bitblt model is the only way to mix GDI and DirectX presentation. In the flip model, the application must create the swap chain with <a href="https://msdn.microsoft.com/library/Bb173076(v=VS.85).aspx">DXGI_SWAP_CHAIN_FLAG_GDI_COMPATIBLE</a>, and then must use <a href="https://msdn.microsoft.com/b148d2b4-36a2-46b9-8a98-9f3c478549a4">GetDC</a> on the back buffer explicitly. After the first successful call to <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> on a flip-model swap chain, GDI no longer works with the <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a> that is associated with that swap chain, even after the destruction of the swap chain. This restriction even extends to methods like <a href="https://msdn.microsoft.com/library/Bb787593(v=VS.85).aspx">ScrollWindowEx</a>.
+          Regardless of whether the flip model is more efficient, an application still might choose the bitblt model because the bitblt model is the only way to mix GDI and DirectX presentation. In the flip model, the application must create the swap chain with <a href="https://msdn.microsoft.com/c0030570-89ba-4586-a358-8c3b8c393a90">DXGI_SWAP_CHAIN_FLAG_GDI_COMPATIBLE</a>, and then must use <a href="https://msdn.microsoft.com/b148d2b4-36a2-46b9-8a98-9f3c478549a4">GetDC</a> on the back buffer explicitly. After the first successful call to <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> on a flip-model swap chain, GDI no longer works with the <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a> that is associated with that swap chain, even after the destruction of the swap chain. This restriction even extends to methods like <a href="https://msdn.microsoft.com/5e6429a0-ea71-4628-9e6e-7ed5096b6f1f">ScrollWindowEx</a>.
         
 
 

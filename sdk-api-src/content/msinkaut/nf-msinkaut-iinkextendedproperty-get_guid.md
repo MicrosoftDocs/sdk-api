@@ -7,7 +7,7 @@ old-location: tablet\iinkextendedproperty_guid.htm
 old-project: tablet
 ms.assetid: cd029ffc-11c4-41f7-86bc-c11fac38ec72
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Guid property [Tablet PC], Guid property [Tablet PC],IInkExtendedProperty interface, IInkExtendedProperty interface [Tablet PC],Guid property, IInkExtendedProperty.Guid, IInkExtendedProperty.get_Guid, IInkExtendedProperty::Guid, IInkExtendedProperty::get_Guid, cd029ffc-11c4-41f7-86bc-c11fac38ec72, get_Guid, msinkaut/IInkExtendedProperty::Guid, msinkaut/IInkExtendedProperty::get_Guid, tablet.iinkextendedproperty_guid
 ms.prod: windows
 ms.technology: windows-sdk

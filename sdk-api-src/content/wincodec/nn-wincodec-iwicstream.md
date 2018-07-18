@@ -15,8 +15,8 @@ ms.topic: interface
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -56,7 +56,7 @@ Represents a Windows Imaging Component (WIC) stream for referencing imaging and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICStream</b> interface inherits from <a href="https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx">IStream</a>. <b>IWICStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICStream</b> interface inherits from <a href="_stg_istream">IStream</a>. <b>IWICStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -116,7 +116,7 @@ Decoders and metadata handlers are expected to create sub streams of whatever st
 
 
             The <b>IWICStream</b> interface methods do not enable you to provide a file sharing option.
-            To create a file stream for an image, use the <a href="https://msdn.microsoft.com/library/Bb759866(v=VS.85).aspx">SHCreateStreamOnFileEx</a> function.
+            To create a file stream for an image, use the <a href="_shell_SHCreateStreamOnFileEx">SHCreateStreamOnFileEx</a> function.
             This stream can then be used to create an <a href="https://msdn.microsoft.com/91dafd5e-e4fb-4691-a3d0-ca8b6ff0aaf7">IWICBitmapDecoder</a> using the <a href="https://msdn.microsoft.com/b9328715-54a0-4c9a-9977-3252068b7e4b">CreateDecoderFromStream</a> method.
          
 

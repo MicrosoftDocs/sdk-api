@@ -4,10 +4,10 @@ title: GetCommPorts function
 author: windows-sdk-content
 description: Gets an array that contains the well-formed COM ports.
 old-location: base\getcommports.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 8E57FB62-D7A0-4B47-942B-E33E0B7A37B1
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetCommPorts, GetCommPorts function, base.getcommports, winbase/GetCommPorts
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10, version 1803 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server, version 1709 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 10, version 1803 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server, version 1709 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

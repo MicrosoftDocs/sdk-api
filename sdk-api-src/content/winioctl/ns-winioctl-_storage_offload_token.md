@@ -4,10 +4,10 @@ title: "_STORAGE_OFFLOAD_TOKEN"
 author: windows-sdk-content
 description: The token used to represent a portion of a file used in by offload read and write operations.
 old-location: base\storage_offload_token.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: e33550d6-8d98-4fbb-8e61-d309f0e8e867
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*PSTORAGE_OFFLOAD_TOKEN, PSTORAGE_OFFLOAD_TOKEN, PSTORAGE_OFFLOAD_TOKEN structure pointer, STORAGE_OFFLOAD_TOKEN, STORAGE_OFFLOAD_TOKEN structure, STORAGE_OFFLOAD_TOKEN_TYPE_WELL_KNOWN, _STORAGE_OFFLOAD_TOKEN, base.storage_offload_token, winioctl/PSTORAGE_OFFLOAD_TOKEN, winioctl/STORAGE_OFFLOAD_TOKEN"
 ms.prod: windows
 ms.technology: windows-sdk

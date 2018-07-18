@@ -113,7 +113,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee845081(v=VS.85).aspx">PSPropertyBag_WriteUnknown</a>
+<a href="shell.PSPropertyBag_WriteUnknown">PSPropertyBag_WriteUnknown</a>
  
 
  

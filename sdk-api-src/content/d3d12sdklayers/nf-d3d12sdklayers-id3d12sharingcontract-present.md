@@ -72,6 +72,13 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 An unsigned 32bit subresource id.
 
 
+### -param window
+
+
+
+
+
+
 ## -returns
 
 

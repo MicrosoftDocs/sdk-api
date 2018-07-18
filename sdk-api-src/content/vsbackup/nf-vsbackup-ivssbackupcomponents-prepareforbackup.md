@@ -54,7 +54,7 @@ req.product: Windows UI
 
 The 
 <b>PrepareForBackup</b> method will cause VSS to generate a 
-<a href="https://msdn.microsoft.com/library/Aa384664(v=VS.85).aspx">PrepareForBackup</a> event, signaling writers to prepare for an upcoming backup operation. This makes a requester's Backup Components Document available to writers.
+<a href="vssgloss_p.htm">PrepareForBackup</a> event, signaling writers to prepare for an upcoming backup operation. This makes a requester's Backup Components Document available to writers.
 
 
 ## -parameters

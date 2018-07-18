@@ -4,10 +4,10 @@ title: SetScrollPos function
 author: windows-sdk-content
 description: The SetScrollPos function sets the position of the scroll box (thumb) in the specified scroll bar and, if requested, redraws the scroll bar to reflect the new position of the scroll box.
 old-location: controls\SetScrollPos.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\setscrollpos.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: SB_CTL, SB_HORZ, SB_VERT, SetScrollPos, SetScrollPos function [Windows Controls], _win32_SetScrollPos, _win32_SetScrollPos_cpp, controls.SetScrollPos, controls._win32_SetScrollPos, winuser/SetScrollPos
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 The <b>SetScrollPos</b> function sets the position of the scroll box (thumb) in the specified scroll bar and, if requested, redraws the scroll bar to reflect the new position of the scroll box.
 
         
-<div class="alert"><b>Note</b>  The <b>SetScrollPos</b> function is provided for backward compatibility. New applications should use the <a href="https://msdn.microsoft.com/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>SetScrollPos</b> function is provided for backward compatibility. New applications should use the <a href="https://msdn.microsoft.com/a45af17c-df18-4156-be8b-868fc4cb0696">SetScrollInfo</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -123,7 +123,7 @@ Sets the position of the scroll box in a window's standard vertical scroll bar.
 
 Type: <b>int</b>
 
-Specifies the new position of the scroll box. The position must be within the scrolling range. For more information about the scrolling range, see the <a href="https://msdn.microsoft.com/library/Bb787599(v=VS.85).aspx">SetScrollRange</a> function. 
+Specifies the new position of the scroll box. The position must be within the scrolling range. For more information about the scrolling range, see the <a href="https://msdn.microsoft.com/749c3b04-d5a6-4f7c-89a3-a1c0fbb85cb9">SetScrollRange</a> function. 
 
 
 ### -param bRedraw [in]
@@ -154,11 +154,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 If the scroll bar is redrawn by a subsequent call to another function, setting the <i>bRedraw</i> parameter to <b>FALSE</b> is useful. 
 
-Because the messages that indicate scroll bar position, <a href="https://msdn.microsoft.com/library/Bb787575(v=VS.85).aspx">WM_HSCROLL</a> and <a href="https://msdn.microsoft.com/library/Bb787577(v=VS.85).aspx">WM_VSCROLL</a>, are limited to 16 bits of position data, applications that rely solely on those messages for position data have a practical maximum value of 65,535 for the <b>SetScrollPos</b> function's <i>nPos</i> parameter. 
+Because the messages that indicate scroll bar position, <a href="https://msdn.microsoft.com/197e522f-defd-4356-8521-5b5dfda596da">WM_HSCROLL</a> and <a href="https://msdn.microsoft.com/495733b8-1aac-4ff7-b0be-15f14581f41c">WM_VSCROLL</a>, are limited to 16 bits of position data, applications that rely solely on those messages for position data have a practical maximum value of 65,535 for the <b>SetScrollPos</b> function's <i>nPos</i> parameter. 
 
-However, because the <a href="https://msdn.microsoft.com/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a>, <b>SetScrollPos</b>, <a href="https://msdn.microsoft.com/library/Bb787599(v=VS.85).aspx">SetScrollRange</a>, <a href="https://msdn.microsoft.com/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a>, <a href="https://msdn.microsoft.com/library/Bb787585(v=VS.85).aspx">GetScrollPos</a>, and <a href="https://msdn.microsoft.com/library/Bb787587(v=VS.85).aspx">GetScrollRange</a> functions support 32-bit scroll bar position data, there is a way to circumvent the 16-bit barrier of the <a href="https://msdn.microsoft.com/library/Bb787575(v=VS.85).aspx">WM_HSCROLL</a> and <a href="https://msdn.microsoft.com/library/Bb787577(v=VS.85).aspx">WM_VSCROLL</a> messages. See <b>GetScrollInfo</b> for a description of the technique. 
+However, because the <a href="https://msdn.microsoft.com/a45af17c-df18-4156-be8b-868fc4cb0696">SetScrollInfo</a>, <b>SetScrollPos</b>, <a href="https://msdn.microsoft.com/749c3b04-d5a6-4f7c-89a3-a1c0fbb85cb9">SetScrollRange</a>, <a href="https://msdn.microsoft.com/c4bd075b-b4fd-44cf-ba51-b9d8a95a5152">GetScrollInfo</a>, <a href="https://msdn.microsoft.com/8d8c43df-c444-4c0a-82e5-bdc568161561">GetScrollPos</a>, and <a href="https://msdn.microsoft.com/883a7d53-7dc0-4b0c-bcda-e1f022dad12a">GetScrollRange</a> functions support 32-bit scroll bar position data, there is a way to circumvent the 16-bit barrier of the <a href="https://msdn.microsoft.com/197e522f-defd-4356-8521-5b5dfda596da">WM_HSCROLL</a> and <a href="https://msdn.microsoft.com/495733b8-1aac-4ff7-b0be-15f14581f41c">WM_VSCROLL</a> messages. See <b>GetScrollInfo</b> for a description of the technique. 
 
-If the <i>nBar</i> parameter is SB_CTL and the window specified by the <i>hWnd</i> parameter is not a system scroll bar control, the system sends the <a href="https://msdn.microsoft.com/library/Bb787565(v=VS.85).aspx">SBM_SETPOS</a> message to the window to set scroll bar information.  This allows <b>SetScrollPos</b> to operate on a custom control that mimics a scroll bar.  If the window does not handle the <b>SBM_SETPOS</b> message, the <b>SetScrollPos</b> function fails.
+If the <i>nBar</i> parameter is SB_CTL and the window specified by the <i>hWnd</i> parameter is not a system scroll bar control, the system sends the <a href="https://msdn.microsoft.com/6b3c16ba-1cdf-41ff-8546-ba98477af334">SBM_SETPOS</a> message to the window to set scroll bar information.  This allows <b>SetScrollPos</b> to operate on a custom control that mimics a scroll bar.  If the window does not handle the <b>SBM_SETPOS</b> message, the <b>SetScrollPos</b> function fails.
 
 
 
@@ -169,15 +169,15 @@ If the <i>nBar</i> parameter is SB_CTL and the window specified by the <i>hWnd</
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a>
+<a href="https://msdn.microsoft.com/c4bd075b-b4fd-44cf-ba51-b9d8a95a5152">GetScrollInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787585(v=VS.85).aspx">GetScrollPos</a>
+<a href="https://msdn.microsoft.com/8d8c43df-c444-4c0a-82e5-bdc568161561">GetScrollPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787587(v=VS.85).aspx">GetScrollRange</a>
+<a href="https://msdn.microsoft.com/883a7d53-7dc0-4b0c-bcda-e1f022dad12a">GetScrollRange</a>
 
 
 
@@ -185,11 +185,11 @@ If the <i>nBar</i> parameter is SB_CTL and the window specified by the <i>hWnd</
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787595(v=VS.85).aspx">SetScrollInfo</a>
+<a href="https://msdn.microsoft.com/a45af17c-df18-4156-be8b-868fc4cb0696">SetScrollInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787599(v=VS.85).aspx">SetScrollRange</a>
+<a href="https://msdn.microsoft.com/749c3b04-d5a6-4f7c-89a3-a1c0fbb85cb9">SetScrollRange</a>
  
 
  

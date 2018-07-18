@@ -7,7 +7,7 @@ old-location: shell\FolderItem_InvokeVerb.htm
 old-project: shell
 ms.assetid: 569bdc88-15ef-4d08-923c-4f41e5ae5a38
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: FolderItem object [Windows Shell],InvokeVerb method, FolderItem.InvokeVerb, FolderItem::InvokeVerb, InvokeVerb, InvokeVerb method [Windows Shell], InvokeVerb method [Windows Shell],FolderItem object, _win32_FolderItem_InvokeVerb, shell.FolderItem_InvokeVerb
 ms.prod: windows
 ms.technology: windows-sdk

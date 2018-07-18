@@ -4,10 +4,10 @@ title: ITextRow::GetAlignment
 author: windows-sdk-content
 description: Gets the horizontal alignment of a row.
 old-location: controls\itextrow_getalignment.htm
-old-project: Controls
+old-project: controls
 ms.assetid: 2c7279b0-6329-4abd-a719-da4ed4d71c71
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetAlignment, GetAlignment method [Windows Controls], GetAlignment method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetAlignment method, ITextRow.GetAlignment, ITextRow::GetAlignment, controls.itextrow_getalignment, tom/ITextRow::GetAlignment
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,11 +65,11 @@ Type: <b>long*</b>
 
 The horizontal alignment. It can be one of the following values.
 
-<p class="indent"><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomAlignLeft</a>
+<p class="indent"><a href="tomconstants.htm">tomAlignLeft</a>
 
-<p class="indent"><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomAlignCenter</a>
+<p class="indent"><a href="tomconstants.htm">tomAlignCenter</a>
 
-<p class="indent"><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomAlignRight</a>
+<p class="indent"><a href="tomconstants.htm">tomAlignRight</a>
 
 
 ## -returns

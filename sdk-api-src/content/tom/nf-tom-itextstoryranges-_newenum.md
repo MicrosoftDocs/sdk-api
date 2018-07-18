@@ -4,10 +4,10 @@ title: ITextStoryRanges::_NewEnum
 author: windows-sdk-content
 description: Retrieves an IEnumVARIANT enumerator interface for this collection of stories.
 old-location: controls\ITextStoryRanges__NewEnum.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\_newenum.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ITextStoryRanges interface [Windows Controls],_NewEnum method, ITextStoryRanges._NewEnum, ITextStoryRanges::_NewEnum, _NewEnum, _NewEnum method [Windows Controls], _NewEnum method [Windows Controls],ITextStoryRanges interface, _win32_ITextStoryRanges__NewEnum, _win32_ITextStoryRanges__NewEnum_cpp, controls.ITextStoryRanges__NewEnum, controls._win32_ITextStoryRanges__NewEnum, tom/ITextStoryRanges::_NewEnum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -146,7 +146,7 @@ This definition together with the implementation of
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774062(v=VS.85).aspx">ITextStoryRanges</a>
+<a href="https://msdn.microsoft.com/eee6c992-1f6a-4e4e-bd8a-34a9aff41859">ITextStoryRanges</a>
 
 
 
@@ -154,7 +154,7 @@ This definition together with the implementation of
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

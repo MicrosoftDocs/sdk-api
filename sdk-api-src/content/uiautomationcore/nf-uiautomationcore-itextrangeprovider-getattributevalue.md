@@ -15,8 +15,8 @@ ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -73,7 +73,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">
 Receives one of the following. 
 
 <ul>
-<li>The address of an object representing the value of the specified attribute. The data type of the value varies depending on the specified attribute. For example, if <i>attributeId</i> is <a href="https://msdn.microsoft.com/library/Ee671662(v=VS.85).aspx">UIA_FontNameAttributeId</a>,  <b>GetAttributeValue</b> returns a string that represents the font name of the text range,  but if <i>attributeId</i> is <a href="https://msdn.microsoft.com/library/Ee671662(v=VS.85).aspx">UIA_IsItalicAttributeId</a>,  <b>GetAttributeValue</b> returns a boolean.
+<li>The address of an object representing the value of the specified attribute. The data type of the value varies depending on the specified attribute. For example, if <i>attributeId</i> is <a href="uiauto_textattribute_ids.htm">UIA_FontNameAttributeId</a>,  <b>GetAttributeValue</b> returns a string that represents the font name of the text range,  but if <i>attributeId</i> is <a href="uiauto_textattribute_ids.htm">UIA_IsItalicAttributeId</a>,  <b>GetAttributeValue</b> returns a boolean.
 
 
 

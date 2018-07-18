@@ -4,10 +4,10 @@ title: EnableScrollBar function
 author: windows-sdk-content
 description: The EnableScrollBar function enables or disables one or both scroll bar arrows.
 old-location: controls\EnableScrollBar.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\enablescrollbar.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ESB_DISABLE_BOTH, ESB_DISABLE_DOWN, ESB_DISABLE_LEFT, ESB_DISABLE_LTUP, ESB_DISABLE_RIGHT, ESB_DISABLE_RTDN, ESB_DISABLE_UP, ESB_ENABLE_BOTH, EnableScrollBar, EnableScrollBar function [Windows Controls], SB_BOTH, SB_CTL, SB_HORZ, SB_VERT, _win32_EnableScrollBar, _win32_EnableScrollBar_cpp, controls.EnableScrollBar, controls._win32_EnableScrollBar, winuser/EnableScrollBar
 ms.prod: windows
 ms.technology: windows-sdk

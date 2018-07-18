@@ -4,10 +4,10 @@ title: DhcpAddSubnetElement function
 author: windows-sdk-content
 description: Adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database.
 old-location: dhcp\dhcpaddsubnetelement.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 4f93d4e8-f41e-4df8-98cc-70a11be75eab
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DhcpAddSubnetElement, DhcpAddSubnetElement function [DHCP], dhcp.dhcpaddsubnetelement, dhcpsapi/DhcpAddSubnetElement
 ms.prod: windows
 ms.technology: windows-sdk

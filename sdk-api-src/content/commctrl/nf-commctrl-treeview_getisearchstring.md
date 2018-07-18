@@ -4,10 +4,10 @@ title: TreeView_GetISearchString macro
 author: windows-sdk-content
 description: Retrieves the incremental search string for a tree-view control. The tree-view control uses the incremental search string to select an item based on characters typed by the user. You can use this macro or send the TVM_GETISEARCHSTRING message explicitly.
 old-location: controls\TreeView_GetISearchString.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getisearchstring.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: TreeView_GetISearchString, TreeView_GetISearchString macro [Windows Controls], _win32_TreeView_GetISearchString, _win32_TreeView_GetISearchString_cpp, commctrl/TreeView_GetISearchString, controls.TreeView_GetISearchString, controls._win32_TreeView_GetISearchString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the incremental search string for a tree-view control. The tree-view control uses the incremental search string to select an item based on characters typed by the user. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773592(v=VS.85).aspx">TVM_GETISEARCHSTRING</a> message explicitly. 
+Retrieves the incremental search string for a tree-view control. The tree-view control uses the incremental search string to select an item based on characters typed by the user. You can use this macro or send the <a href="https://msdn.microsoft.com/71f9a9b6-e124-4655-80fc-dd23f441496d">TVM_GETISEARCHSTRING</a> message explicitly. 
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Pointer to the buffer that receives the incremental search string.
 
 
 
-<b>Security Warning:  </b>Using this macro incorrectly might compromise the security of your program. You must allocate a large enough buffer to hold the string. First call the macro passing <b>NULL</b> in <i>lpsz</i>. This returns the number of characters, excluding <b>NULL</b>, that are required. Then call the macro a second time to retrieve the string.  You should review <a href="https://msdn.microsoft.com/library/Bb773171(v=VS.85).aspx">Security Considerations: Microsoft Windows Controls</a> before continuing.
+<b>Security Warning:  </b>Using this macro incorrectly might compromise the security of your program. You must allocate a large enough buffer to hold the string. First call the macro passing <b>NULL</b> in <i>lpsz</i>. This returns the number of characters, excluding <b>NULL</b>, that are required. Then call the macro a second time to retrieve the string.  You should review <a href="https://msdn.microsoft.com/d5396fa1-452e-40e1-beaf-ae04690048f1">Security Considerations: Microsoft Windows Controls</a> before continuing.
 
 If the tree-view control is not in incremental search mode, the return value is zero. 
 

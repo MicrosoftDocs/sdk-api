@@ -7,7 +7,7 @@ old-location: shell\PathIsContentType.htm
 old-project: shell
 ms.assetid: 53eac496-9666-41fc-8682-f7b6583a62fe
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: PathIsContentType, PathIsContentType function [Windows Shell], PathIsContentTypeA, PathIsContentTypeW, _win32_PathIsContentType, shell.PathIsContentType, shlwapi/PathIsContentType, shlwapi/PathIsContentTypeA, shlwapi/PathIsContentTypeW
 ms.prod: windows
 ms.technology: windows-sdk

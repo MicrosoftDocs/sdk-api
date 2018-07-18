@@ -60,16 +60,16 @@ Describes the rasterizer state.
 
 ### -field FillMode
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb205059(v=VS.85).aspx">D3D10_FILL_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/9e9c5c9e-0733-4b63-9fc3-8b3a3daf9519">D3D10_FILL_MODE</a></b>
 
-A member of the <a href="https://msdn.microsoft.com/library/Bb205059(v=VS.85).aspx">D3D10_FILL_MODE</a> enumerated type that determines the fill mode to use when rendering.  The default value is <b>D3D10_FILL_SOLID</b>.
+A member of the <a href="https://msdn.microsoft.com/9e9c5c9e-0733-4b63-9fc3-8b3a3daf9519">D3D10_FILL_MODE</a> enumerated type that determines the fill mode to use when rendering.  The default value is <b>D3D10_FILL_SOLID</b>.
 
 
 ### -field CullMode
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb204911(v=VS.85).aspx">D3D10_CULL_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/b8b70479-e24b-4e60-98f4-9d184e3f1656">D3D10_CULL_MODE</a></b>
 
-A member of the <a href="https://msdn.microsoft.com/library/Bb204911(v=VS.85).aspx">D3D10_CULL_MODE</a> enumerated type that indicates whether triangles facing the specified direction are drawn.  The default value is <b>D3D10_CULL_BACK</b>.
+A member of the <a href="https://msdn.microsoft.com/b8b70479-e24b-4e60-98f4-9d184e3f1656">D3D10_CULL_MODE</a> enumerated type that indicates whether triangles facing the specified direction are drawn.  The default value is <b>D3D10_CULL_BACK</b>.
 
 
 ### -field FrontCounterClockwise
@@ -123,7 +123,7 @@ When you set <b>DepthClipEnable</b> to FALSE, the hardware skips the z clipping 
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
-Enable or disables scissor-rectangle culling. All pixels outside an active scissor rectangle are culled. The default value is <b>FALSE</b>. For more information, see <a href="https://msdn.microsoft.com/library/Bb205126(v=VS.85).aspx">Set the Scissor Rectangle</a>.
+Enable or disables scissor-rectangle culling. All pixels outside an active scissor rectangle are culled. The default value is <b>FALSE</b>. For more information, see <a href="https://msdn.microsoft.com/d78c3845-76fd-4bd7-a603-bb1d8c66ac49">Set the Scissor Rectangle</a>.
 
 
 ### -field MultisampleEnable
@@ -144,7 +144,7 @@ Specifies whether to enable line antialiasing; only applies when alpha blending 
 
 
 
-Rasterizer state defines the behavior of the <a href="https://msdn.microsoft.com/library/Bb205125(v=VS.85).aspx">rasterizer stage</a>. To create a rasterizer-state object, call <a href="https://msdn.microsoft.com/library/Bb173554(v=VS.85).aspx">ID3D10Device::CreateRasterizerState</a>. To set rasterizer state, call <a href="https://msdn.microsoft.com/library/Bb173612(v=VS.85).aspx">ID3D10Device::RSSetState</a>.
+Rasterizer state defines the behavior of the <a href="https://msdn.microsoft.com/efd3f819-7c63-4e1a-9923-8e7198354ec6">rasterizer stage</a>. To create a rasterizer-state object, call <a href="https://msdn.microsoft.com/bd304e42-e4f6-4bc4-baf0-b4c8287e3351">ID3D10Device::CreateRasterizerState</a>. To set rasterizer state, call <a href="https://msdn.microsoft.com/6b873af4-9724-4a36-bfdd-ea47c667124f">ID3D10Device::RSSetState</a>.
 
 <div class="alert"><b>Note</b>  For <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature levels</a> 9.1, 9.2, 9.3, and 10.0, if you set <b>MultisampleEnable</b> to <b>FALSE</b>, the runtime renders all points, lines, and triangles without anti-aliasing even for render targets with a sample count greater than 1. For feature level 10.1, the setting of <b>MultisampleEnable</b> has no effect on points and triangles with regard to MSAA and impacts only the selection of the line-rendering algorithm as shown in this table:</div>
 <div> </div>
@@ -190,7 +190,7 @@ The settings of the <b>MultisampleEnable</b> and <b>AntialiasedLineEnable</b> me
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205153(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/84769515-3f3b-4464-9620-7b806bf905b3">Core Structures</a>
  
 
  

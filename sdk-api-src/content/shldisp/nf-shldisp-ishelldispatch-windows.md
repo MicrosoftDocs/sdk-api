@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_Windows.htm
 old-project: shell
 ms.assetid: 788E2106-3534-4e22-801F-677FD02BDFE0
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IShellDispatch object [Windows Shell],Windows method, IShellDispatch.Windows, IShellDispatch::Windows, Windows, Windows method [Windows Shell], Windows method [Windows Shell],IShellDispatch object, shell.IShellDispatch_Windows
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,12 +71,12 @@ Creates and returns a <a href="https://msdn.microsoft.com/cad1f961-7fb4-4ba1-be4
 
 
 <h3>JScript</h3>
-Type: <b><a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>**</b>
+Type: <b><a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>**</b>
 
 An object reference to the <a href="https://msdn.microsoft.com/cad1f961-7fb4-4ba1-be48-b664d3de2c60">ShellWindows</a> object.
 
 <h3>VB</h3>
-Type: <b><a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>**</b>
+Type: <b><a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>**</b>
 
 An object reference to the <a href="https://msdn.microsoft.com/cad1f961-7fb4-4ba1-be48-b664d3de2c60">ShellWindows</a> object.
 

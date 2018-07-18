@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_debug_rlo_flags.htm
 old-project: direct3ddxgi
 ms.assetid: 8A4B4139-42FC-4983-9699-ABCDBF5783E7
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DXGI_DEBUG_RLO_ALL, DXGI_DEBUG_RLO_DETAIL, DXGI_DEBUG_RLO_FLAGS, DXGI_DEBUG_RLO_FLAGS enumeration [DXGI], DXGI_DEBUG_RLO_IGNORE_INTERNAL, DXGI_DEBUG_RLO_SUMMARY, direct3ddxgi.dxgi_debug_rlo_flags, dxgidebug/DXGI_DEBUG_RLO_ALL, dxgidebug/DXGI_DEBUG_RLO_DETAIL, dxgidebug/DXGI_DEBUG_RLO_FLAGS, dxgidebug/DXGI_DEBUG_RLO_IGNORE_INTERNAL, dxgidebug/DXGI_DEBUG_RLO_SUMMARY
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: enum
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Get the array of <a href="https://msdn.microsoft.com/library/Bb205126(v=VS.85).aspx">scissor rectangles</a> bound to the <a href="https://msdn.microsoft.com/library/Bb205125(v=VS.85).aspx">rasterizer stage</a>.
+Get the array of <a href="https://msdn.microsoft.com/d78c3845-76fd-4bd7-a603-bb1d8c66ac49">scissor rectangles</a> bound to the <a href="https://msdn.microsoft.com/efd3f819-7c63-4e1a-9923-8e7198354ec6">rasterizer stage</a>.
 
 
 ## -parameters
@@ -68,9 +68,9 @@ Number of scissor rectangles to get. If pRects is <b>NULL</b>, this will be fill
 
 ### -param pRects [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb232915(v=VS.85).aspx">D3D10_RECT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/a0b27fb0-1e48-4e46-ad8c-99f197c31dc2">D3D10_RECT</a>*</b>
 
-An array of scissor rectangles (see <a href="https://msdn.microsoft.com/library/Bb232915(v=VS.85).aspx">D3D10_RECT</a>). If NumRects is greater than the number of scissor rects currently bound, then unused members of the array will contain 0.
+An array of scissor rectangles (see <a href="https://msdn.microsoft.com/a0b27fb0-1e48-4e46-ad8c-99f197c31dc2">D3D10_RECT</a>). If NumRects is greater than the number of scissor rects currently bound, then unused members of the array will contain 0.
 
 
 ## -returns
@@ -87,7 +87,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

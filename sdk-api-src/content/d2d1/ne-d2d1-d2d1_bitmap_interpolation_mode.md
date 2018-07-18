@@ -15,8 +15,8 @@ ms.topic: enum
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -51,7 +51,7 @@ req.irql:
 
 
 Specifies the algorithm that is used when images are scaled or rotated.
-<div class="alert"><b>Note</b>  Starting in Windows 8, more interpolations modes are available.  See <a href="https://msdn.microsoft.com/library/Hh447004(v=VS.85).aspx">D2D1_INTERPOLATION_MODE</a> for more info.</div><div> </div>
+<div class="alert"><b>Note</b>  Starting in Windows 8, more interpolations modes are available.  See <a href="direct2d.__D2D1_INTERPOLATION_MODE">D2D1_INTERPOLATION_MODE</a> for more info.</div><div> </div>
 
 ## -enum-fields
 

@@ -4,10 +4,10 @@ title: ICertEncodeAltName::SetNameEntry
 author: windows-sdk-content
 description: Sets a name at a specified index of the alternate name array.
 old-location: security\icertencodealtname_setnameentry.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 5da07c09-9213-4604-b058-5e69df646b09
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CCertEncodeAltName object [Security],SetNameEntry method, CERT_ALT_NAME_DIRECTORY_NAME, CERT_ALT_NAME_DNS_NAME, CERT_ALT_NAME_IP_ADDRESS, CERT_ALT_NAME_OTHER_NAME, CERT_ALT_NAME_REGISTERED_ID, CERT_ALT_NAME_RFC822_NAME, CERT_ALT_NAME_URL, ICertEncodeAltName interface [Security],SetNameEntry method, ICertEncodeAltName.SetNameEntry, ICertEncodeAltName::SetNameEntry, SetNameEntry, SetNameEntry method [Security], SetNameEntry method [Security],CCertEncodeAltName object, SetNameEntry method [Security],ICertEncodeAltName interface, _certsrv_icertencodealtname_setnameentry, certenc/ICertEncodeAltName::SetNameEntry, security.icertencodealtname_setnameentry
 ms.prod: windows
 ms.technology: windows-sdk

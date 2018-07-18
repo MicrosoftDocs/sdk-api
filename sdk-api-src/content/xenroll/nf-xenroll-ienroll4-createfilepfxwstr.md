@@ -4,10 +4,10 @@ title: IEnroll4::createFilePFXWStr
 author: windows-sdk-content
 description: Saves the accepted certificate chain and private key in a file in Personal Information Exchange (PFX) format.
 old-location: security\ienroll4_createfilepfxwstr.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 1df364e7-35ab-4c16-ac13-2f0be36fe0f9
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IEnroll4 interface [Security],createFilePFXWStr method, IEnroll4.createFilePFXWStr, IEnroll4::createFilePFXWStr, createFilePFXWStr, createFilePFXWStr method [Security], createFilePFXWStr method [Security],IEnroll4 interface, security.ienroll4_createfilepfxwstr, xenroll/IEnroll4::createFilePFXWStr
 ms.prod: windows
 ms.technology: windows-sdk

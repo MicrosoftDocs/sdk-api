@@ -4,10 +4,10 @@ title: "_DEVICE_DSM_NOTIFICATION_PARAMETERS"
 author: windows-sdk-content
 description: Contains parameters for the DeviceDsmAction_Notification action for the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\device_dsm_notification_parameters.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 42f76bab-0260-4b43-a8cf-02faedb7e672
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*PDEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARAMETERS structure, DEVICE_DSM_NOTIFY_FLAG_BEGIN, DEVICE_DSM_NOTIFY_FLAG_END, FILE_TYPE_NOTIFICATION_GUID_CRASHDUMP_FILE, FILE_TYPE_NOTIFICATION_GUID_HIBERNATION_FILE, FILE_TYPE_NOTIFICATION_GUID_PAGE_FILE, PDEVICE_DSM_NOTIFICATION_PARAMETERS, PDEVICE_DSM_NOTIFICATION_PARAMETERS structure pointer, _DEVICE_DSM_NOTIFICATION_PARAMETERS, base.device_dsm_notification_parameters, winioctl/DEVICE_DSM_NOTIFICATION_PARAMETERS, winioctl/PDEVICE_DSM_NOTIFICATION_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_setdvddirectory.htm
 old-project: DirectShow
 ms.assetid: fa64a614-14cb-4ea9-a005-0e738490b6d6
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetDVDDirectory method, IDvdControl2.SetDVDDirectory, IDvdControl2::SetDVDDirectory, IDvdControl2SetDVDDirectory, SetDVDDirectory, SetDVDDirectory method [DirectShow], SetDVDDirectory method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setdvddirectory, strmif/IDvdControl2::SetDVDDirectory
 ms.prod: windows
 ms.technology: windows-sdk

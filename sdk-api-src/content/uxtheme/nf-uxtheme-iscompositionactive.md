@@ -4,10 +4,10 @@ title: IsCompositionActive function
 author: windows-sdk-content
 description: Determines whether Desktop Window Manager (DWM) composition effects are available to the theme.
 old-location: controls\IsCompositionActive.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\iscompositionactive.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IsCompositionActive, IsCompositionActive function [Windows Controls], _shell_IsCompositionActive, _shell_IsCompositionActive_cpp, controls.IsCompositionActive, controls._shell_IsCompositionActive, uxtheme/IsCompositionActive
 ms.prod: windows
 ms.technology: windows-sdk

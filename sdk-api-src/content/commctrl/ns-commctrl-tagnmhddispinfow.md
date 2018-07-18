@@ -4,10 +4,10 @@ title: tagNMHDDISPINFOW
 author: windows-sdk-content
 description: Contains information used in handling HDN_GETDISPINFO notification codes.
 old-location: controls\NMHDDISPINFO.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\header\structures\nmhddispinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*LPNMHDDISPINFOW, HDI_DI_SETITEM, HDI_IMAGE, HDI_LPARAM, HDI_TEXT, LPNMHDDISPINFO, LPNMHDDISPINFO structure pointer [Windows Controls], NMHDDISPINFO, NMHDDISPINFO structure [Windows Controls], NMHDDISPINFOA, NMHDDISPINFOW, _win32_NMHDDISPINFO, _win32_NMHDDISPINFO_cpp, commctrl/LPNMHDDISPINFO, commctrl/NMHDDISPINFO, commctrl/NMHDDISPINFOA, commctrl/NMHDDISPINFOW, controls.NMHDDISPINFO, controls._win32_NMHDDISPINFO, tagNMHDDISPINFOW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Contains information used in handling <a href="https://msdn.microsoft.com/library/Bb775280(v=VS.85).aspx">HDN_GETDISPINFO</a> notification codes. 
+Contains information used in handling <a href="https://msdn.microsoft.com/51522df0-83ae-4d9a-a8fc-31083e24242a">HDN_GETDISPINFO</a> notification codes. 
 
 
 ## -struct-fields
@@ -62,10 +62,10 @@ Contains information used in handling <a href="https://msdn.microsoft.com/librar
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure containing information about this notification code. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure containing information about this notification code. 
 
 
 ### -field iItem
@@ -155,7 +155,7 @@ The size of the buffer that
 Type: <b>int</b>
 
 The zero-based index of an image within the image list. The specified image will be displayed with the header item, but it does not take the place of the item's bitmap. If 
-					<b>iImage</b> is set to I_IMAGECALLBACK, the control requests image information for this item by using an <a href="https://msdn.microsoft.com/library/Bb775280(v=VS.85).aspx">HDN_GETDISPINFO</a> notification code. 
+					<b>iImage</b> is set to I_IMAGECALLBACK, the control requests image information for this item by using an <a href="https://msdn.microsoft.com/51522df0-83ae-4d9a-a8fc-31083e24242a">HDN_GETDISPINFO</a> notification code. 
 
 
 ### -field lParam

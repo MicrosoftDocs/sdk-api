@@ -71,7 +71,7 @@ The <b>ID3D10ShaderReflectionType</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173841(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/aafee47e-0b34-44af-9228-044be6eb1b53">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get the description of a shader-reflection-variable type.
@@ -80,7 +80,7 @@ Get the description of a shader-reflection-variable type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173842(v=VS.85).aspx">GetMemberTypeByIndex</a>
+<a href="https://msdn.microsoft.com/462fe507-41ad-4e7f-8a76-5f507e99167b">GetMemberTypeByIndex</a>
 </td>
 <td align="left" width="63%">
 Get a shader-reflection-variable type by index.
@@ -89,7 +89,7 @@ Get a shader-reflection-variable type by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173843(v=VS.85).aspx">GetMemberTypeByName</a>
+<a href="https://msdn.microsoft.com/62dc5221-77a1-4d2f-8c25-c18294ce25a0">GetMemberTypeByName</a>
 </td>
 <td align="left" width="63%">
 Get a shader-reflection-variable type by name.
@@ -98,7 +98,7 @@ Get a shader-reflection-variable type by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb173844(v=VS.85).aspx">GetMemberTypeName</a>
+<a href="https://msdn.microsoft.com/8b3a49f6-b800-412f-90f3-a902ad59e798">GetMemberTypeName</a>
 </td>
 <td align="left" width="63%">
 Get a shader-reflection-variable type.
@@ -112,7 +112,7 @@ Get a shader-reflection-variable type.
 
 
 
-The get a shader-reflection-type interface, call <a href="https://msdn.microsoft.com/library/Bb173847(v=VS.85).aspx">ID3D10ShaderReflectionVariable::GetType</a>.
+The get a shader-reflection-type interface, call <a href="https://msdn.microsoft.com/4a407589-122d-4d7c-944a-f63b0260a2fe">ID3D10ShaderReflectionVariable::GetType</a>.
 
 
 
@@ -122,7 +122,7 @@ The get a shader-reflection-type interface, call <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205158(v=VS.85).aspx">Shader Interfaces</a>
+<a href="https://msdn.microsoft.com/d8770b45-a05c-4dd8-9fa7-08fb4330d734">Shader Interfaces</a>
  
 
  

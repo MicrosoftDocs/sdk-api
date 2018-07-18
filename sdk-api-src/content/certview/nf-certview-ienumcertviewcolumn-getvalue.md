@@ -4,10 +4,10 @@ title: IEnumCERTVIEWCOLUMN::GetValue
 author: windows-sdk-content
 description: Retrieves the data value contained in the current column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_getvalue.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 5cc14bd1-7963-4b11-aef6-4ef3b0b7f6c1
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CV_OUT_BASE64, CV_OUT_BASE64HEADER, CV_OUT_BASE64REQUESTHEADER, CV_OUT_BASE64X509CRLHEADER, CV_OUT_BINARY, CV_OUT_HEX, CV_OUT_HEXADDR, CV_OUT_HEXASCII, CV_OUT_HEXASCIIADDR, GetValue, GetValue method [Security], GetValue method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetValue method, IEnumCERTVIEWCOLUMN.GetValue, IEnumCERTVIEWCOLUMN::GetValue, _certsrv_ienumcertviewcolumn_getvalue, certview/IEnumCERTVIEWCOLUMN::GetValue, security.ienumcertviewcolumn_getvalue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -164,7 +164,7 @@ Hexadecimal string with ASCII and address/offset
 
 ### -param pvarValue [out]
 
-A pointer to value of <b>VARIANT</b> type that contains the data column. This method fails if <i>pvarValue</i> is <b>NULL</b>. Upon successful completion of this method, <i>pvarValue</i> contains the data in the  column. The caller is responsible for calling <a href="https://msdn.microsoft.com/library/ms221165(v=VS.85).aspx">VariantClear</a> when done with this data.
+A pointer to value of <b>VARIANT</b> type that contains the data column. This method fails if <i>pvarValue</i> is <b>NULL</b>. Upon successful completion of this method, <i>pvarValue</i> contains the data in the  column. The caller is responsible for calling <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> when done with this data.
 
 
 ## -returns

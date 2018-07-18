@@ -7,7 +7,7 @@ old-location: cos\icomltxevents.htm
 old-project: cossdk
 ms.assetid: 8be6dddb-ed57-4715-8933-8a0e478095c8
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IComLTxEvents, IComLTxEvents interface [COM+], IComLTxEvents interface [COM+],described, comsvcs/IComLTxEvents, cos.icomltxevents
 ms.prod: windows
 ms.technology: windows-sdk

@@ -61,7 +61,14 @@ Determines whether OOBE (Windows Welcome) has been completed.
 
 
 
-### -param OOBEComplete [out]
+### -param isOOBEComplete
+
+TBD
+
+
+
+
+#### - OOBEComplete [out]
 
 Pointer to a variable that will receive the completion of OOBE upon success.
 

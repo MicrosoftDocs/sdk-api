@@ -4,10 +4,10 @@ title: CertSelectionGetSerializedBlob function
 author: windows-sdk-content
 description: A helper function used to retrieve a serialized certificate BLOB from a CERT_SELECTUI_INPUT structure.
 old-location: security\certselectiongetserializedblob.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 6c3240f7-5121-401d-a4d4-df3055cb301a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CertSelectionGetSerializedBlob, CertSelectionGetSerializedBlob function [Security], cryptuiapi/CertSelectionGetSerializedBlob, security.certselectiongetserializedblob
 ms.prod: windows
 ms.technology: windows-sdk

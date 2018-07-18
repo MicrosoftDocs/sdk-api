@@ -4,10 +4,10 @@ title: Header_GetBitmapMargin macro
 author: windows-sdk-content
 description: Gets the width of the margin (in pixels) of a bitmap in an existing header control. You can use this macro or send the HDM_GETBITMAPMARGIN message explicitly.
 old-location: controls\Header_GetBitmapMargin.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getbitmapmargin.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Header_GetBitmapMargin, Header_GetBitmapMargin macro [Windows Controls], _win32_Header_GetBitmapMargin, _win32_Header_GetBitmapMargin_cpp, commctrl/Header_GetBitmapMargin, controls.Header_GetBitmapMargin, controls._win32_Header_GetBitmapMargin
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the width of the margin (in pixels) of a bitmap in an existing header control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775314(v=VS.85).aspx">HDM_GETBITMAPMARGIN</a> message explicitly. 
+Gets the width of the margin (in pixels) of a bitmap in an existing header control. You can use this macro or send the <a href="https://msdn.microsoft.com/67794ad4-3c22-4fad-a1d7-7a5d5cc6ad67">HDM_GETBITMAPMARGIN</a> message explicitly. 
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to a header control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775413(v=VS.85).aspx">Header_SetBitmapMargin</a>
+<a href="https://msdn.microsoft.com/78c33277-2823-4830-92ba-37f89d55f63b">Header_SetBitmapMargin</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: dshow\ivpconfig_setscalingfactors.htm
 old-project: DirectShow
 ms.assetid: 62b8281e-6feb-43f5-b1a5-36444fda5543
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IVPConfig interface [DirectShow],SetScalingFactors method, IVPConfig.SetScalingFactors, IVPConfig::SetScalingFactors, IVPConfigSetScalingFactors, SetScalingFactors, SetScalingFactors method [DirectShow], SetScalingFactors method [DirectShow],IVPConfig interface, dshow.ivpconfig_setscalingfactors, vpconfig/IVPConfig::SetScalingFactors
 ms.prod: windows
 ms.technology: windows-sdk

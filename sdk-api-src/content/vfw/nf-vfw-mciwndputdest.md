@@ -7,7 +7,7 @@ old-location: multimedia\mciwndputdest.htm
 old-project: Multimedia
 ms.assetid: d058c1b7-f7f8-49a0-84cc-ece298a25289
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: MCIWndPutDest, MCIWndPutDest macro [Windows Multimedia], _win32_MCIWndPutDest, multimedia.mciwndputdest, vfw/MCIWndPutDest
 ms.prod: windows
 ms.technology: windows-sdk

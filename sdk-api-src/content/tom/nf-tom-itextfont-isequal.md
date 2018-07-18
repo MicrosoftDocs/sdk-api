@@ -4,10 +4,10 @@ title: ITextFont::IsEqual
 author: windows-sdk-content
 description: Determines whether this text font object has the same properties as the specified text font object.
 old-location: controls\ITextFont_IsEqual.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontisequal.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ITextFont interface [Windows Controls],IsEqual method, ITextFont.IsEqual, ITextFont::IsEqual, IsEqual, IsEqual method [Windows Controls], IsEqual method [Windows Controls],ITextFont interface, _win32_ITextFont_IsEqual, _win32_ITextFont_IsEqual_cpp, controls.ITextFont_IsEqual, controls._win32_ITextFont_IsEqual, tom/ITextFont::IsEqual
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Determines whether this text font object has the same properties as the specifie
 
 ### -param pFont
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>*</b>
 
 The text font object to compare against.
 
@@ -95,7 +95,7 @@ If the text font objects have the same properties, the method succeeds and retur
 
 
 
-The text font objects are equal only if <i>pFont</i> belongs to the same Text Object Model (TOM) object as the current font object. The <b>ITextFont::IsEqual</b> method ignores entries for which either font object has an <a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomUndefined</a>.
+The text font objects are equal only if <i>pFont</i> belongs to the same Text Object Model (TOM) object as the current font object. The <b>ITextFont::IsEqual</b> method ignores entries for which either font object has an <a href="tomconstants.htm">tomUndefined</a>.
 
 
 
@@ -109,7 +109,7 @@ The text font objects are equal only if <i>pFont</i> belongs to the same Text Ob
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -117,7 +117,7 @@ The text font objects are equal only if <i>pFont</i> belongs to the same Text Ob
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

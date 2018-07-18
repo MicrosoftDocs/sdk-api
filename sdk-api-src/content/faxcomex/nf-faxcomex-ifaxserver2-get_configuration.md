@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Configuration</b> property holds a <a href="https://msdn.microsoft.com/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a> object. The object permits a fax client application to access information about the configuration of the connected fax server.
+The <b>Configuration</b> property holds a <a href="https://msdn.microsoft.com/20a771ed-98c3-4d26-89dc-799008954767">IFaxConfiguration</a> object. The object permits a fax client application to access information about the configuration of the connected fax server.
 
 This property is read-only.
 
@@ -64,11 +64,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a>
+<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa358976(v=VS.85).aspx">IFaxServer2</a>
+<a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>
  
 
  

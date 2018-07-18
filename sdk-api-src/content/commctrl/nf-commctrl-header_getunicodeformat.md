@@ -4,10 +4,10 @@ title: Header_GetUnicodeFormat macro
 author: windows-sdk-content
 description: Gets the Unicode character format flag for the control. You can use this macro or send the HDM_GETUNICODEFORMAT message explicitly.
 old-location: controls\Header_GetUnicodeFormat.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getunicodeformat.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Header_GetUnicodeFormat, Header_GetUnicodeFormat macro [Windows Controls], _win32_Header_GetUnicodeFormat, _win32_Header_GetUnicodeFormat_cpp, commctrl/Header_GetUnicodeFormat, controls.Header_GetUnicodeFormat, controls._win32_Header_GetUnicodeFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the Unicode character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775347(v=VS.85).aspx">HDM_GETUNICODEFORMAT</a> message explicitly. 
+Gets the Unicode character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/2b36265a-023c-4083-a755-769461f3804b">HDM_GETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to the control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775427(v=VS.85).aspx">Header_SetUnicodeFormat</a>
+<a href="https://msdn.microsoft.com/07b1d105-771c-4913-89f8-fefa552432a2">Header_SetUnicodeFormat</a>
  
 
  

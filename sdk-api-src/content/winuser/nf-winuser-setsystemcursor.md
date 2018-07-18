@@ -65,7 +65,7 @@ Type: <b>HCURSOR</b>
 
 A handle to the cursor. The function replaces the contents of the system cursor specified by <i>id</i> with the contents of the cursor handled by <i>hcur</i>.
 
-The system destroys <i>hcur</i> by calling the <a href="https://msdn.microsoft.com/library/ms648386(v=VS.85).aspx">DestroyCursor</a> function. Therefore, <i>hcur</i> cannot be a cursor loaded using the <a href="https://msdn.microsoft.com/library/ms648391(v=VS.85).aspx">LoadCursor</a> function. To specify a cursor loaded from a resource, copy the cursor using the <a href="https://msdn.microsoft.com/library/ms648384(v=VS.85).aspx">CopyCursor</a> function, then pass the copy to <b>SetSystemCursor</b>.
+The system destroys <i>hcur</i> by calling the <a href="https://msdn.microsoft.com/fee6d837-9fc7-4ea6-b5d7-3889a64ccdea">DestroyCursor</a> function. Therefore, <i>hcur</i> cannot be a cursor loaded using the <a href="https://msdn.microsoft.com/302f9238-4b03-4688-8b9b-a598beffb575">LoadCursor</a> function. To specify a cursor loaded from a resource, copy the cursor using the <a href="https://msdn.microsoft.com/2ae1ee3e-5114-4712-a2a8-b413b83bb58c">CopyCursor</a> function, then pass the copy to <b>SetSystemCursor</b>.
 
 
 ### -param id [in]
@@ -269,19 +269,19 @@ For an application to use any of the OCR_ constants, the constant <b>OEMRESOURCE
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://msdn.microsoft.com/d24e21f2-224d-4f32-aa0b-70844e3628ad">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648386(v=VS.85).aspx">DestroyCursor</a>
+<a href="https://msdn.microsoft.com/fee6d837-9fc7-4ea6-b5d7-3889a64ccdea">DestroyCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648391(v=VS.85).aspx">LoadCursor</a>
+<a href="https://msdn.microsoft.com/302f9238-4b03-4688-8b9b-a598beffb575">LoadCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648392(v=VS.85).aspx">LoadCursorFromFile</a>
+<a href="https://msdn.microsoft.com/3b44be8d-5a68-4b0f-ba86-7a0decf01c5a">LoadCursorFromFile</a>
 
 
 
@@ -289,7 +289,7 @@ For an application to use any of the OCR_ constants, the constant <b>OEMRESOURCE
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648393(v=VS.85).aspx">SetCursor</a>
+<a href="https://msdn.microsoft.com/69bb9f90-5366-4141-97b6-57e41b774614">SetCursor</a>
  
 
  

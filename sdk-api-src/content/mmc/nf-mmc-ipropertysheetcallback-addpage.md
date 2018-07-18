@@ -4,10 +4,10 @@ title: IPropertySheetCallback::AddPage
 author: windows-sdk-content
 description: The IPropertySheetCallback::AddPage method enables a snap-in to add a page to a property sheet.
 old-location: mmc\ipropertysheetcallback_addpage.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: db19fc38-7111-42f2-83a9-a08473a4d49b
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/16/2018
 ms.keywords: AddPage, AddPage method [MMC], AddPage method [MMC],IPropertySheetCallback interface, IPropertySheetCallback interface [MMC],AddPage method, IPropertySheetCallback.AddPage, IPropertySheetCallback::AddPage, _slate_ipropertysheetcallback_addpage, mmc.ipropertysheetcallback_addpage, mmc/IPropertySheetCallback::AddPage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The <b>IPropertySheetCallback::AddPage</b> method enables a snap-in to add a pag
 
 A value that specifies the handle to the page to be added. The hPage parameter is a handle to a 
 <a href="https://msdn.microsoft.com/28cbf3df-f345-4b4f-ac34-e32e63c9b6ec">PROPSHEETPAGE</a> structure created by the Windows API 
-<a href="https://msdn.microsoft.com/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a>.
+<a href="_win32_createpropertysheetpage_cpp">CreatePropertySheetPage</a>.
 
 
 ## -returns

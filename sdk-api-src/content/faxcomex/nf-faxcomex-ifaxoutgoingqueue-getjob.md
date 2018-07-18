@@ -78,9 +78,9 @@ Specifies the job ID.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/f9686d11-fd32-4eaf-ae93-399dacf028ac">FaxOutgoingJob</a>**</b>
 
-A <a href="https://msdn.microsoft.com/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a> object.
+A <a href="https://msdn.microsoft.com/f9686d11-fd32-4eaf-ae93-399dacf028ac">FaxOutgoingJob</a> object.
 
 
 
@@ -89,9 +89,9 @@ A <a href="https://msdn.microsoft.com/library/ms689115(v=VS.85).aspx">FaxOutgoin
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farSUBMIT_LOW</a> or <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_JOBS</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_LOW</a> or <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_JOBS</a> access right.
 
-With the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farSUBMIT_LOW</a> access right, users can use this method only for their own faxes. With the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_JOBS</a> access right, users can use this method for all faxes on the server.
+With the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_LOW</a> access right, users can use this method only for their own faxes. With the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_JOBS</a> access right, users can use this method for all faxes on the server.
 
 
 
@@ -101,15 +101,15 @@ With the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">far
 
 
 
-<a href="https://msdn.microsoft.com/library/ms687528(v=VS.85).aspx">FaxOutgoingQueue</a>
+<a href="https://msdn.microsoft.com/bad77c9e-2ae5-41a6-ace3-b4b92eb66cc2">FaxOutgoingQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms687529(v=VS.85).aspx">IFaxOutgoingQueue</a>
+<a href="https://msdn.microsoft.com/2a6fede7-3fb8-495a-a8b1-81b53a701a16">IFaxOutgoingQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693393(v=VS.85).aspx">Managing Outgoing Jobs</a>
+<a href="https://msdn.microsoft.com/5fab26c3-99f6-4740-9899-3dccbd26a3ba">Managing Outgoing Jobs</a>
  
 
  

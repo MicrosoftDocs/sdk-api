@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced3_startatposition.htm
 old-project: wmformat
 ms.assetid: 64b922be-3a8f-4cbe-aa1d-aa3833e1f0fa
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IWMReaderAdvanced3 interface [windows Media Format],StartAtPosition method, IWMReaderAdvanced3.StartAtPosition, IWMReaderAdvanced3::StartAtPosition, IWMReaderAdvanced3StartAtPosition, StartAtPosition, StartAtPosition method [windows Media Format], StartAtPosition method [windows Media Format],IWMReaderAdvanced3 interface, wmformat.iwmreaderadvanced3_startatposition, wmsdkidl/IWMReaderAdvanced3::StartAtPosition
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagepresenter_startpresenting.htm
 old-project: DirectShow
 ms.assetid: b97debae-d792-4c9b-a171-11ef2a73e987
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IVMRImagePresenter interface [DirectShow],StartPresenting method, IVMRImagePresenter.StartPresenting, IVMRImagePresenter::StartPresenting, IVMRImagePresenterStartPresenting, StartPresenting, StartPresenting method [DirectShow], StartPresenting method [DirectShow],IVMRImagePresenter interface, dshow.ivmrimagepresenter_startpresenting, strmif/IVMRImagePresenter::StartPresenting
 ms.prod: windows
 ms.technology: windows-sdk

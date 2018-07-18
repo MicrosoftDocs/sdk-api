@@ -7,7 +7,7 @@ old-location: cos\isystemappeventdata.htm
 old-project: cossdk
 ms.assetid: fd88641e-e0ce-44b7-b8b6-59791be48026
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ISystemAppEventData, ISystemAppEventData interface [COM+], ISystemAppEventData interface [COM+],described, _dtc_ISystemAppEventData, comsvcs/ISystemAppEventData, cos.isystemappeventdata
 ms.prod: windows
 ms.technology: windows-sdk

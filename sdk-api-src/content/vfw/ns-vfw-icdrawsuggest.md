@@ -7,7 +7,7 @@ old-location: multimedia\icdrawsuggest.htm
 old-project: Multimedia
 ms.assetid: d8dab197-7364-4f90-b08e-c913df85723e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ICDRAWSUGGEST, ICDRAWSUGGEST structure [Windows Multimedia], _win32_ICDRAWSUGGEST_str, multimedia.icdrawsuggest, vfw/ICDRAWSUGGEST
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IShellBrowser_SendControlMsg.htm
 old-project: shell
 ms.assetid: 4494870b-45a8-478a-807a-7ed3674f69f3
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IShellBrowser interface [Windows Shell],SendControlMsg method, IShellBrowser.SendControlMsg, IShellBrowser::SendControlMsg, SendControlMsg, SendControlMsg method [Windows Shell], SendControlMsg method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_SendControlMsg, shell.IShellBrowser_SendControlMsg, shobjidl_core/IShellBrowser::SendControlMsg
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,7 +110,7 @@ Returns <b>S_OK</b> if successful, or a COM-defined error value otherwise.
 
 
 
-Refer to the <a href="https://msdn.microsoft.com/library/Bb775493(v=VS.85).aspx">Common Controls</a> documentation for more information on the messages that can be sent to the toolbar or status bar control.
+Refer to the <a href="https://msdn.microsoft.com/c0d3eff4-c5b5-4b59-b980-96e0e4d6a595">Common Controls</a> documentation for more information on the messages that can be sent to the toolbar or status bar control.
 
 <h3><a id="Notes_to_Calling_Applications"></a><a id="notes_to_calling_applications"></a><a id="NOTES_TO_CALLING_APPLICATIONS"></a>Notes to Calling Applications</h3>
 Use of this call requires diligent attention, because leaving either the status bar or toolbar in an inappropriate state will affect the performance of Windows Explorer.

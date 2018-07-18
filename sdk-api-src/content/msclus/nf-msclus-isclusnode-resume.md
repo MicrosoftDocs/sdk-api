@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 Resumes the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> activity of a 
     <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> after it has been 
-    <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">paused</a> by the 
+    <a href="p_gly.htm">paused</a> by the 
     <a href="https://msdn.microsoft.com/2fd16dda-b554-47fa-a040-15c7685d6392">ClusNode.Pause</a> method.
 
 

@@ -7,7 +7,7 @@ old-location: shell\TOOLBARITEM.htm
 old-project: shell
 ms.assetid: 7378f2f3-c164-46fe-9989-a7a57fceb48a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*LPTOOLBARITEM, LPTOOLBARITEM, LPTOOLBARITEM structure pointer [Windows Shell], SToolbarItem, TOOLBARITEM, TOOLBARITEM structure [Windows Shell], _shell_TOOLBARITEM, shdeprecated/LPTOOLBARITEM, shdeprecated/TOOLBARITEM, shell.TOOLBARITEM"
 ms.prod: windows
 ms.technology: windows-sdk

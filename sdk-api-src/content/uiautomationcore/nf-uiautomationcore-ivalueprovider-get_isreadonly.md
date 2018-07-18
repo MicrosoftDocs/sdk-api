@@ -15,8 +15,8 @@ ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-            A control should have its IsEnabled property (<a href="https://msdn.microsoft.com/library/Ee684017(v=VS.85).aspx">UIA_IsEnabledPropertyId</a>) set to <b>TRUE</b> and its <b>IValueProvider::IsReadOnly</b> 
+            A control should have its IsEnabled property (<a href="uiauto_automation_element_propids.htm">UIA_IsEnabledPropertyId</a>) set to <b>TRUE</b> and its <b>IValueProvider::IsReadOnly</b> 
             property set to <b>FALSE</b> before allowing a call to <a href="https://msdn.microsoft.com/af555ac6-5abd-4019-804b-68f9ed3be801">IValueProvider::SetValue</a>.
         
 

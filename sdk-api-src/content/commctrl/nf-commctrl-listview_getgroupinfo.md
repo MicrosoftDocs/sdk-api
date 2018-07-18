@@ -4,10 +4,10 @@ title: ListView_GetGroupInfo macro
 author: windows-sdk-content
 description: Gets group information. You can use this macro or send the LVM_GETGROUPINFO message explicitly.
 old-location: controls\ListView_GetGroupInfo.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ListView_GetGroupInfo, ListView_GetGroupInfo macro [Windows Controls], _win32_ListView_GetGroupInfo, _win32_ListView_GetGroupInfo_cpp, commctrl/ListView_GetGroupInfo, controls.ListView_GetGroupInfo, controls._win32_ListView_GetGroupInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets group information. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774932(v=VS.85).aspx">LVM_GETGROUPINFO</a> message explicitly. 
+Gets group information. You can use this macro or send the <a href="https://msdn.microsoft.com/72d84e0b-121e-473b-a34d-874234c598b6">LVM_GETGROUPINFO</a> message explicitly. 
 
 
 ## -parameters
@@ -74,13 +74,13 @@ Type: <b>int</b>
 
 Type: <b>PLVGROUP</b>
 
-<a href="https://msdn.microsoft.com/library/Bb774769(v=VS.85).aspx">LVGROUP</a>
+<a href="https://msdn.microsoft.com/512a8524-d5f9-47c0-a28e-47c3c1a713bf">LVGROUP</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_GetGroupInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_GetGroupInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

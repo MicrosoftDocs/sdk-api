@@ -4,10 +4,10 @@ title: ICameraUIControlEventCallback::OnSuspendComplete
 author: windows-sdk-content
 description: Occurs when the camera UI control has completed being suspended.
 old-location: winprog\icamerauicontroleventcallback_onsuspendcomplete.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: 4ec41f09-8278-48ad-838f-9f796617a683
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnSuspendComplete method, ICameraUIControlEventCallback.OnSuspendComplete, ICameraUIControlEventCallback::OnSuspendComplete, OnSuspendComplete, OnSuspendComplete method [Windows API], OnSuspendComplete method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnSuspendComplete, winprog.icamerauicontroleventcallback_onsuspendcomplete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,7 +15,7 @@ ms.topic: method
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

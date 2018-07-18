@@ -4,10 +4,10 @@ title: RecordFeatureUsage function
 author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\recordfeatureusage.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: B3DC323F-C4F3-4B56-AE55-CD62876F016B
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: RecordFeatureUsage, RecordFeatureUsage function [Windows API], featurestagingapi/RecordFeatureUsage, winprog.recordfeatureusage
 ms.prod: windows
 ms.technology: windows-sdk

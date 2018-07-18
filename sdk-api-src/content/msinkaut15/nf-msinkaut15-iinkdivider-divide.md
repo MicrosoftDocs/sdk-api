@@ -7,7 +7,7 @@ old-location: tablet\inkdivider_divide.htm
 old-project: tablet
 ms.assetid: be42ac65-2bde-4439-a82b-3453c0737717
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Divide, Divide method [Tablet PC], Divide method [Tablet PC],IInkDivider interface, IInkDivider, IInkDivider interface [Tablet PC],Divide method, IInkDivider.Divide, IInkDivider::Divide, be42ac65-2bde-4439-a82b-3453c0737717, msinkaut15/IInkDivider::Divide, tablet.inkdivider_divide
 ms.prod: windows
 ms.technology: windows-sdk

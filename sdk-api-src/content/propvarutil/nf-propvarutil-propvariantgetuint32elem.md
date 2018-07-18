@@ -104,12 +104,12 @@ This helper function works for <a href="https://msdn.microsoft.com/e86cc279-826d
 <li>VT_VECTOR | VT_UI4</li>
 <li>VT_ARRAY | VT_UI4</li>
 </ul>
-If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type VT_UI4, <i>iElem</i> must be 0. Otherwise, <i>iElem</i> must be less than the number of elements in the vector or array. You can use <a href="https://msdn.microsoft.com/library/Bb776522(v=VS.85).aspx">PropVariantGetElementCount</a> to obtain the number of elements in the vector or array.
+If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type VT_UI4, <i>iElem</i> must be 0. Otherwise, <i>iElem</i> must be less than the number of elements in the vector or array. You can use <a href="shell.PropVariantGetElementCount">PropVariantGetElementCount</a> to obtain the number of elements in the vector or array.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776529(v=VS.85).aspx">PropVariantGetUInt32Elem</a> with an iteration statement to access the values in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantGetUInt32Elem">PropVariantGetUInt32Elem</a> with an iteration statement to access the values in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -147,7 +147,7 @@ if ((propvar.vt &amp; VT_TYPEMASK) == VT_UI4)
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776521(v=VS.85).aspx">PropVariantGetElem</a>
+<a href="shell.PropVariantGetElem">PropVariantGetElem</a>
  
 
  

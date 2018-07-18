@@ -4,10 +4,10 @@ title: IWscProduct::get_ProductStateTimestamp
 author: windows-sdk-content
 description: Returns the current time stamp for the security product.
 old-location: winprog\iwscproduct_producttimestamp.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: 3BE70437-8BBE-47DF-8C5E-390353073580
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IWscProduct interface [Windows API],get_ProductStateTimeStamp method, IWscProduct.get_ProductStateTimestamp, IWscProduct::get_ProductStateTimeStamp, IWscProduct::get_ProductStateTimestamp, get_ProductStateTimeStamp, get_ProductStateTimeStamp method [Windows API], get_ProductStateTimeStamp method [Windows API],IWscProduct interface, get_ProductStateTimestamp, iwscapi/IWscProduct::get_ProductStateTimeStamp, winprog.iwscproduct_producttimestamp
 ms.prod: windows
 ms.technology: windows-sdk

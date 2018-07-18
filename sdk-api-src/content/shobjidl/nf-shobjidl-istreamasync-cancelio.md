@@ -7,7 +7,7 @@ old-location: shell\IStreamAsync_CancelIo.htm
 old-project: shell
 ms.assetid: ca2a1c59-b538-4c1b-9ad3-89d00f19325d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CancelIo, CancelIo method [Windows Shell], CancelIo method [Windows Shell],IStreamAsync interface, IStreamAsync interface [Windows Shell],CancelIo method, IStreamAsync.CancelIo, IStreamAsync::CancelIo, _shell_IStreamAsync_CancelIo, shell.IStreamAsync_CancelIo, shobjidl/IStreamAsync::CancelIo
 ms.prod: windows
 ms.technology: windows-sdk

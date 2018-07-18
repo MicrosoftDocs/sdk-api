@@ -98,7 +98,7 @@ The output slot that contains the vertex buffer that contains this output entry.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205153(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/84769515-3f3b-4464-9620-7b806bf905b3">Core Structures</a>
  
 
  

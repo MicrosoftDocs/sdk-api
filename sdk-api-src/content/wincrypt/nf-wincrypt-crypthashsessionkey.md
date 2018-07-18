@@ -4,10 +4,10 @@ title: CryptHashSessionKey function
 author: windows-sdk-content
 description: Computes the cryptographic hash of a session key object.
 old-location: security\crypthashsessionkey.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 75781993-7faf-4149-80cc-ae50dbd4de2a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CRYPT_LITTLE_ENDIAN, CryptHashSessionKey, CryptHashSessionKey function [Security], _crypto2_crypthashsessionkey, security.crypthashsessionkey, wincrypt/CryptHashSessionKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -244,7 +244,7 @@ The function failed in some unexpected way.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

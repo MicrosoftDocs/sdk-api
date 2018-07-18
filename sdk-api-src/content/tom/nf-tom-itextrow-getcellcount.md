@@ -4,10 +4,10 @@ title: ITextRow::GetCellCount
 author: windows-sdk-content
 description: Gets the count of cells in this row.
 old-location: controls\itextrow_getcellcount.htm
-old-project: Controls
+old-project: controls
 ms.assetid: 4aae4fe5-5a54-4f32-9f89-01752701c871
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetCellCount, GetCellCount method [Windows Controls], GetCellCount method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellCount method, ITextRow.GetCellCount, ITextRow::GetCellCount, controls.itextrow_getcellcount, tom/ITextRow::GetCellCount
 ms.prod: windows
 ms.technology: windows-sdk

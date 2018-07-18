@@ -52,7 +52,7 @@ req.product: Windows UI
 
 
 The <b>IUICollection</b> interface is implemented by the Ribbon framework. The <b>IUICollection</b> interface defines the 
-		methods for dynamically manipulating collection-based controls, such as the various Ribbon <a href="https://msdn.microsoft.com/library/Dd742868(v=VS.85).aspx">galleries</a> and the 
+		methods for dynamically manipulating collection-based controls, such as the various Ribbon <a href="https://msdn.microsoft.com/447039f3-1428-4b6f-94cf-78cf81974041">galleries</a> and the 
 		Quick Access Toolbar (QAT), at run time.
 
 
@@ -100,7 +100,7 @@ Retrieves the number of items contained in the <b>IUICollection</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371513(v=VS.85).aspx">GetItem</a>
+<a href="https://msdn.microsoft.com/a42ca74e-4768-4562-83d2-51f6295c5ed9">GetItem</a>
 </td>
 <td align="left" width="63%">
 Retrieves an item from the <b>IUICollection</b> at the specified index.
@@ -109,7 +109,7 @@ Retrieves an item from the <b>IUICollection</b> at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371516(v=VS.85).aspx">Insert</a>
+<a href="https://msdn.microsoft.com/567d53ea-c4c9-427b-b893-27c9a238203d">Insert</a>
 </td>
 <td align="left" width="63%">
 Inserts an item into the <b>IUICollection</b> at the specified index.
@@ -127,7 +127,7 @@ Removes an item from the <b>IUICollection</b> at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371524(v=VS.85).aspx">Replace</a>
+<a href="https://msdn.microsoft.com/0fbc3964-8088-4c13-98d7-33f56a04f6cf">Replace</a>
 </td>
 <td align="left" width="63%">
 Replaces an item at the specified index of the <b>IUICollection</b> with another item.
@@ -142,11 +142,11 @@ Replaces an item at the specified index of the <b>IUICollection</b> with another
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd742704(v=VS.85).aspx">Gallery Sample</a>
+<a href="https://msdn.microsoft.com/1a462f4e-e75a-40cf-9c52-0bad0a645d57">Gallery Sample</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371499(v=VS.85).aspx">IUICollectionChangedEvent</a>
+<a href="https://msdn.microsoft.com/f2342459-af53-4442-8280-27ad96e5868e">IUICollectionChangedEvent</a>
  
 
  

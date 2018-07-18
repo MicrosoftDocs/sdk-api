@@ -7,7 +7,7 @@ old-location: shell\PathIsSystemFolder.htm
 old-project: shell
 ms.assetid: 796901a8-1bc1-4fd1-b5b8-acd8f930ff14
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: PathIsSystemFolder, PathIsSystemFolder function [Windows Shell], PathIsSystemFolderA, PathIsSystemFolderW, _win32_PathIsSystemFolder, shell.PathIsSystemFolder, shlwapi/PathIsSystemFolder, shlwapi/PathIsSystemFolderA, shlwapi/PathIsSystemFolderW
 ms.prod: windows
 ms.technology: windows-sdk

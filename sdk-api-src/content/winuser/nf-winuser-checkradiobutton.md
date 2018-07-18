@@ -4,10 +4,10 @@ title: CheckRadioButton function
 author: windows-sdk-content
 description: Adds a check mark to (checks) a specified radio button in a group and removes a check mark from (clears) all other radio buttons in the group.
 old-location: controls\CheckRadioButton.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonfunctions\checkradiobutton.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CheckRadioButton, CheckRadioButton function [Windows Controls], _win32_CheckRadioButton, _win32_CheckRadioButton_cpp, controls.CheckRadioButton, controls._win32_CheckRadioButton, winuser/CheckRadioButton
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,7 +105,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The <b>CheckRadioButton</b> function sends a <a href="https://msdn.microsoft.com/library/Bb775989(v=VS.85).aspx">BM_SETCHECK</a> message to each of the radio buttons in the indicated group.
+The <b>CheckRadioButton</b> function sends a <a href="https://msdn.microsoft.com/8294e6c4-caac-4c60-85ff-38698a1d2ae4">BM_SETCHECK</a> message to each of the radio buttons in the indicated group.
 
 The <i>nIDFirstButton</i> and <i>nIDLastButton</i> parameters specify a range of button identifiers (normally the resource IDs of the buttons).  The position of buttons in the tab order is irrelevant; if a button forms part of a group, but has an ID outside the specified range, it is not affected by this call.
 
@@ -117,11 +117,11 @@ The <i>nIDFirstButton</i> and <i>nIDLastButton</i> parameters specify a range of
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761875(v=VS.85).aspx">CheckDlgButton</a>
+<a href="https://msdn.microsoft.com/bda42841-cc26-44c7-9295-3b3bc818d269">CheckDlgButton</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761879(v=VS.85).aspx">IsDlgButtonChecked</a>
+<a href="https://msdn.microsoft.com/859ff84e-a6d8-466b-9b85-f844a47febdf">IsDlgButtonChecked</a>
 
 
 

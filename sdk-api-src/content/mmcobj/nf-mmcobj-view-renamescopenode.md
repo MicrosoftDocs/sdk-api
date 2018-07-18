@@ -4,10 +4,10 @@ title: View::RenameScopeNode
 author: windows-sdk-content
 description: The RenameScopeNode method renames a node.
 old-location: mmc\view_renamescopenode.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: b5034924-fa90-41ec-8d02-02a2c294eae9
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/16/2018
 ms.keywords: RenameScopeNode, RenameScopeNode method [MMC], RenameScopeNode method [MMC],View interface, RenameScopeNode method [MMC],View object, View interface [MMC],RenameScopeNode method, View object [MMC],RenameScopeNode method, View.RenameScopeNode, View::RenameScopeNode, _slate_view.renamescopenode_method, mmc.view_renamescopenode
 ms.prod: windows
 ms.technology: windows-sdk

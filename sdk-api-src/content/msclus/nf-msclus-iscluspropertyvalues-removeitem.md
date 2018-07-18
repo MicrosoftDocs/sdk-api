@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Deletes 
-    a <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">property value</a> from a 
+    a <a href="p_gly.htm">property value</a> from a 
     <a href="https://msdn.microsoft.com/18ae71ee-5582-4ac9-bb0f-f1c077c0352a">ClusPropertyValues</a> 
     collection.
 

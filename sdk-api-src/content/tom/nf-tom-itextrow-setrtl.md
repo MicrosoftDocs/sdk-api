@@ -4,10 +4,10 @@ title: ITextRow::SetRTL
 author: windows-sdk-content
 description: Sets whether this row has right-to-left orientation.
 old-location: controls\itextrow_setrtl.htm
-old-project: Controls
+old-project: controls
 ms.assetid: e260f989-6028-4cd2-a1e0-0eca2a5bd553
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ITextRow interface [Windows Controls],SetRTL method, ITextRow.SetRTL, ITextRow::SetRTL, SetRTL, SetRTL method [Windows Controls], SetRTL method [Windows Controls],ITextRow interface, controls.itextrow_setrtl, tom/ITextRow::SetRTL, tomFalse, tomToggle, tomTrue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ Sets whether this row has right-to-left orientation.
 Type: <b>long</b>
 
 
-A <a href="https://msdn.microsoft.com/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 
 

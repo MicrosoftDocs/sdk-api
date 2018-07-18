@@ -4,10 +4,10 @@ title: IColumnData::GetColumnConfigData
 author: windows-sdk-content
 description: The IColumnData::GetColumnConfigData method enables a snap-in to retrieve the current width, order, and hidden status of each column in a column set that is stored in memory by MMC.
 old-location: mmc\icolumndata_getcolumnconfigdata.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 197804a2-63e5-4f0c-9d6d-4abc751a8a82
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/16/2018
 ms.keywords: GetColumnConfigData, GetColumnConfigData method [MMC], GetColumnConfigData method [MMC],IColumnData interface, IColumnData interface [MMC],GetColumnConfigData method, IColumnData.GetColumnConfigData, IColumnData::GetColumnConfigData, _slate_icolumndata_getcolumnconfigdata, mmc.icolumndata_getcolumnconfigdata, mmc/IColumnData::GetColumnConfigData
 ms.prod: windows
 ms.technology: windows-sdk

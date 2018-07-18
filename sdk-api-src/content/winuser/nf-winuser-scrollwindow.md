@@ -4,10 +4,10 @@ title: ScrollWindow function
 author: windows-sdk-content
 description: The ScrollWindow function scrolls the contents of the specified window's client area.
 old-location: controls\ScrollWindow.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\scrollwindow.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ScrollWindow, ScrollWindow function [Windows Controls], _win32_ScrollWindow, _win32_ScrollWindow_cpp, controls.ScrollWindow, controls._win32_ScrollWindow, winuser/ScrollWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 The <b>ScrollWindow</b> function scrolls the contents of the specified window's client area.  
-<div class="alert"><b>Note</b>  The <b>ScrollWindow</b> function is provided for backward compatibility. New applications should use the <a href="https://msdn.microsoft.com/library/Bb787593(v=VS.85).aspx">ScrollWindowEx</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>ScrollWindow</b> function is provided for backward compatibility. New applications should use the <a href="https://msdn.microsoft.com/5e6429a0-ea71-4628-9e6e-7ed5096b6f1f">ScrollWindowEx</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -130,7 +130,7 @@ If
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/Bb787531(v=VS.85).aspx">Scrolling Text with the WM_PAINT Message</a>.
+For an example, see <a href="Using_Scroll_Bars.htm">Scrolling Text with the WM_PAINT Message</a>.
 
 <div class="code"></div>
 
@@ -153,11 +153,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/Bb787531(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787589(v=VS.85).aspx">ScrollDC</a>
+<a href="https://msdn.microsoft.com/8f11ff67-d06f-4ef3-81b1-b16185bbb61b">ScrollDC</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787593(v=VS.85).aspx">ScrollWindowEx</a>
+<a href="https://msdn.microsoft.com/5e6429a0-ea71-4628-9e6e-7ed5096b6f1f">ScrollWindowEx</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: multimedia\mciwndhome.htm
 old-project: Multimedia
 ms.assetid: c028732d-7ead-4417-b3d5-a0df756ad623
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: MCIWndHome, MCIWndHome macro [Windows Multimedia], _win32_MCIWndHome, multimedia.mciwndhome, vfw/MCIWndHome
 ms.prod: windows
 ms.technology: windows-sdk

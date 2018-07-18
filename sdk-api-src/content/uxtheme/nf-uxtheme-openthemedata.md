@@ -4,10 +4,10 @@ title: OpenThemeData function
 author: windows-sdk-content
 description: Opens the theme data for a window and its associated class.
 old-location: controls\OpenThemeData.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\openthemedata.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: OpenThemeData, OpenThemeData function [Windows Controls], controls.OpenThemeData, controls.inet_OpenThemeData, inet_OpenThemeData, inet_OpenThemeData_cpp, uxtheme/OpenThemeData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,7 +104,7 @@ Class names for the Aero theme are defined in AeroStyle.xml.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773287(v=VS.85).aspx">CloseThemeData</a>
+<a href="https://msdn.microsoft.com/e9927fff-8d30-4180-a34f-ac71ccf02519">CloseThemeData</a>
  
 
  

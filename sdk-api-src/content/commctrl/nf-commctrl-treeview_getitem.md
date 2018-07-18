@@ -4,10 +4,10 @@ title: TreeView_GetItem macro
 author: windows-sdk-content
 description: Retrieves some or all of a tree-view item's attributes. You can use this macro or send the TVM_GETITEM message explicitly.
 old-location: controls\TreeView_GetItem.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getitem.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: TreeView_GetItem, TreeView_GetItem macro [Windows Controls], _win32_TreeView_GetItem, _win32_TreeView_GetItem_cpp, commctrl/TreeView_GetItem, controls.TreeView_GetItem, controls._win32_TreeView_GetItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves some or all of a tree-view item's attributes. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773596(v=VS.85).aspx">TVM_GETITEM</a> message explicitly.
+Retrieves some or all of a tree-view item's attributes. You can use this macro or send the <a href="https://msdn.microsoft.com/e26ec000-967d-46de-8f71-6ebc36fefe5e">TVM_GETITEM</a> message explicitly.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ TBD
 
 Type: <b>LPTVITEM</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb773456(v=VS.85).aspx">TVITEM</a> structure that specifies the information to retrieve and receives information about the item. With <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">version 4.71</a> and later, you can use a <a href="https://msdn.microsoft.com/library/Bb773459(v=VS.85).aspx">TVITEMEX</a> structure instead. 
+Pointer to a <a href="https://msdn.microsoft.com/8e97f293-3cfb-4320-9781-639dfda1bbfe">TVITEM</a> structure that specifies the information to retrieve and receives information about the item. With <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">version 4.71</a> and later, you can use a <a href="https://msdn.microsoft.com/a1112639-fe6d-432a-8b0a-b914bcb30e11">TVITEMEX</a> structure instead. 
 
 
 #### - hwndTV
@@ -81,11 +81,11 @@ Handle to the tree-view control.
 
 
 
-When the <a href="https://msdn.microsoft.com/library/Bb773596(v=VS.85).aspx">TVM_GETITEM</a> message is sent, the 
-				<b>hItem</b> member of the <a href="https://msdn.microsoft.com/library/Bb773456(v=VS.85).aspx">TVITEM</a> or <a href="https://msdn.microsoft.com/library/Bb773459(v=VS.85).aspx">TVITEMEX</a> structure identifies the item to retrieve information about, and the <b>mask</b> member specifies the attributes to retrieve.
+When the <a href="https://msdn.microsoft.com/e26ec000-967d-46de-8f71-6ebc36fefe5e">TVM_GETITEM</a> message is sent, the 
+				<b>hItem</b> member of the <a href="https://msdn.microsoft.com/8e97f293-3cfb-4320-9781-639dfda1bbfe">TVITEM</a> or <a href="https://msdn.microsoft.com/a1112639-fe6d-432a-8b0a-b914bcb30e11">TVITEMEX</a> structure identifies the item to retrieve information about, and the <b>mask</b> member specifies the attributes to retrieve.
 
 If the TVIF_TEXT flag is set in the 
-				<b>mask</b> member of the <a href="https://msdn.microsoft.com/library/Bb773456(v=VS.85).aspx">TVITEM</a> or <a href="https://msdn.microsoft.com/library/Bb773459(v=VS.85).aspx">TVITEMEX</a> structure, the <b>pszText</b> member must point to a valid buffer and the <b>cchTextMax</b> member must be set to the number of characters in that buffer. The returned text will not necessarily be stored in the original buffer passed by the application. It is possible that <b>pszText</b> will point to text in a new buffer rather than place it in the old buffer. 
+				<b>mask</b> member of the <a href="https://msdn.microsoft.com/8e97f293-3cfb-4320-9781-639dfda1bbfe">TVITEM</a> or <a href="https://msdn.microsoft.com/a1112639-fe6d-432a-8b0a-b914bcb30e11">TVITEMEX</a> structure, the <b>pszText</b> member must point to a valid buffer and the <b>cchTextMax</b> member must be set to the number of characters in that buffer. The returned text will not necessarily be stored in the original buffer passed by the application. It is possible that <b>pszText</b> will point to text in a new buffer rather than place it in the old buffer. 
 
 
 

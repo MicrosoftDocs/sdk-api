@@ -15,7 +15,7 @@ ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -84,7 +84,7 @@ Gets the list of supported device services by the Mobile Broadband device.
 <a href="https://msdn.microsoft.com/293E9BE5-AD7D-41B7-9A27-E964EE745183">GetDeviceService</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object that can be used for communicating with a device service on the Mobile Broadband device.
+Gets the <a href="IMbnDeviceService">IMbnDeviceService</a> object that can be used for communicating with a device service on the Mobile Broadband device.
 
 </td>
 </tr>

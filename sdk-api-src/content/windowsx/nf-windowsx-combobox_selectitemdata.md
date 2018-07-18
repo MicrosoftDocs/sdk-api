@@ -4,10 +4,10 @@ title: ComboBox_SelectItemData macro
 author: windows-sdk-content
 description: Searches a list in a combo box for an item that has the specified item data. If a matching item is found, the item is selected. You can use this macro or send the CB_SELECTSTRING message explicitly.
 old-location: controls\ComboBox_SelectItemData.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_selectitemdata.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ComboBox_SelectItemData, ComboBox_SelectItemData macro [Windows Controls], _win32_ComboBox_SelectItemData, _win32_ComboBox_SelectItemData_cpp, controls.ComboBox_SelectItemData, controls._win32_ComboBox_SelectItemData, windowsx/ComboBox_SelectItemData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Searches a list in a combo box for an item that has the specified item data. If a matching item is found, the item is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775895(v=VS.85).aspx">CB_SELECTSTRING</a> message explicitly.
+Searches a list in a combo box for an item that has the specified item data. If a matching item is found, the item is selected. You can use this macro or send the <a href="https://msdn.microsoft.com/c08dff72-7e44-40ed-8b64-513359292829">CB_SELECTSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ The item data to find.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb775895(v=VS.85).aspx">CB_SELECTSTRING</a>.
+For more information, see <a href="https://msdn.microsoft.com/c08dff72-7e44-40ed-8b64-513359292829">CB_SELECTSTRING</a>.
 	
 
 

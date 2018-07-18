@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Associates an application-defined value with a conversation handle or a transaction identifier. This is useful for simplifying the processing of asynchronous transactions. An application can use the <a href="https://msdn.microsoft.com/library/ms648761(v=VS.85).aspx">DdeQueryConvInfo</a> function to retrieve this value. 
+Associates an application-defined value with a conversation handle or a transaction identifier. This is useful for simplifying the processing of asynchronous transactions. An application can use the <a href="https://msdn.microsoft.com/bf8faeef-9a06-4460-9dcc-6e74b9b0e72e">DdeQueryConvInfo</a> function to retrieve this value. 
 
 
 ## -parameters
@@ -92,7 +92,7 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. 
 
-The <a href="https://msdn.microsoft.com/library/ms648755(v=VS.85).aspx">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
+The <a href="https://msdn.microsoft.com/ea7d758e-bf88-49a9-a51f-9be26376a1ed">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values: 
 
 
 
@@ -106,11 +106,11 @@ The <a href="https://msdn.microsoft.com/library/ms648755(v=VS.85).aspx">DdeGetLa
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648761(v=VS.85).aspx">DdeQueryConvInfo</a>
+<a href="https://msdn.microsoft.com/bf8faeef-9a06-4460-9dcc-6e74b9b0e72e">DdeQueryConvInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/f22d4a10-58b9-4f62-bbc3-3cbeb3246923">Dynamic Data Exchange Management Library</a>
 
 
 

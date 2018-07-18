@@ -4,10 +4,10 @@ title: Edit_ReplaceSel macro
 author: windows-sdk-content
 description: Replaces the selected text in an edit control or a rich edit control with the specified text. You can use this macro or send the EM_REPLACESEL message explicitly.
 old-location: controls\Edit_ReplaceSel.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_replacesel.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Edit_ReplaceSel, Edit_ReplaceSel macro [Windows Controls], _win32_Edit_ReplaceSel, _win32_Edit_ReplaceSel_cpp, controls.Edit_ReplaceSel, controls._win32_Edit_ReplaceSel, windowsx/Edit_ReplaceSel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Replaces the selected text in an edit control or a rich edit control with the specified text. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761633(v=VS.85).aspx">EM_REPLACESEL</a> message explicitly.
+Replaces the selected text in an edit control or a rich edit control with the specified text. You can use this macro or send the <a href="https://msdn.microsoft.com/525e6f5a-f52f-4bab-bc76-caa484729897">EM_REPLACESEL</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A pointer to a null-terminated string containing the replacement text.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb761633(v=VS.85).aspx">EM_REPLACESEL</a>.
+For more information, see <a href="https://msdn.microsoft.com/525e6f5a-f52f-4bab-bc76-caa484729897">EM_REPLACESEL</a>.
 
 
 

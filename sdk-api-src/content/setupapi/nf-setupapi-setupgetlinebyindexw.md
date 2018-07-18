@@ -7,7 +7,7 @@ old-location: setup\setupgetlinebyindex.htm
 old-project: SetupApi
 ms.assetid: 7a1c313b-3150-4f4f-a1e9-0fc9544b97ab
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/16/2018
 ms.keywords: SetupGetLineByIndex, SetupGetLineByIndex function [Setup API], SetupGetLineByIndexA, SetupGetLineByIndexW, _setupapi_setupgetlinebyindex, setup.setupgetlinebyindex, setupapi/SetupGetLineByIndex, setupapi/SetupGetLineByIndexA, setupapi/SetupGetLineByIndexW
 ms.prod: windows
 ms.technology: windows-sdk

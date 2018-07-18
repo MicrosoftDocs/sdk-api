@@ -4,10 +4,10 @@ title: ICertSrvSetup::SetCADistinguishedName
 author: windows-sdk-content
 description: Sets a certification authority (CA) common name and an optional distinguished name suffix.
 old-location: security\icertsrvsetup_setcadistinguishedname.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: d513d4fd-abc7-44e6-822e-955de8613d55
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ICertSrvSetup interface [Security],SetCADistinguishedName method, ICertSrvSetup.SetCADistinguishedName, ICertSrvSetup::SetCADistinguishedName, SetCADistinguishedName, SetCADistinguishedName method [Security], SetCADistinguishedName method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetCADistinguishedName, security.icertsrvsetup_setcadistinguishedname
 ms.prod: windows
 ms.technology: windows-sdk

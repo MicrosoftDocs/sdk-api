@@ -266,6 +266,11 @@ The count of unique handlers in the table. This member is available only for x86
  
 
 
+### -field VolatileMetadataPointer
+
+ 
+
+
 
 
 #### - Reserved1

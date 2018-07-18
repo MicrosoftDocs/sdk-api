@@ -4,10 +4,10 @@ title: WSC_SECURITY_PRODUCT_STATE
 author: windows-sdk-content
 description: Defines the current state of the security product that is made available to Windows Security Center.
 old-location: winprog\wsc_security_product_state.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: 2783795B-4A7A-4033-A9EE-9B4CEF2E61B9
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: WSC_SECURITY_PRODUCT_STATE, WSC_SECURITY_PRODUCT_STATE enumeration [Windows API], WSC_SECURITY_PRODUCT_STATE_EXPIRED, WSC_SECURITY_PRODUCT_STATE_OFF, WSC_SECURITY_PRODUCT_STATE_ON, WSC_SECURITY_PRODUCT_STATE_SNOOZED, iwscapi/WSC_SECURITY_PRODUCT_STATE, iwscapi/WSC_SECURITY_PRODUCT_STATE_EXPIRED, iwscapi/WSC_SECURITY_PRODUCT_STATE_OFF, iwscapi/WSC_SECURITY_PRODUCT_STATE_ON, iwscapi/WSC_SECURITY_PRODUCT_STATE_SNOOZED, winprog.wsc_security_product_state
 ms.prod: windows
 ms.technology: windows-sdk

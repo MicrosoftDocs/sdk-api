@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_alpha_mode.htm
 old-project: direct3ddxgi
 ms.assetid: DD3D1E49-06D2-4FB9-A41B-86453D8E566F
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DXGI_ALPHA_MODE, DXGI_ALPHA_MODE enumeration [DXGI], DXGI_ALPHA_MODE_FORCE_DWORD, DXGI_ALPHA_MODE_IGNORE, DXGI_ALPHA_MODE_PREMULTIPLIED, DXGI_ALPHA_MODE_STRAIGHT, DXGI_ALPHA_MODE_UNSPECIFIED, direct3ddxgi.dxgi_alpha_mode, dxgi1_2/DXGI_ALPHA_MODE, dxgi1_2/DXGI_ALPHA_MODE_FORCE_DWORD, dxgi1_2/DXGI_ALPHA_MODE_IGNORE, dxgi1_2/DXGI_ALPHA_MODE_PREMULTIPLIED, dxgi1_2/DXGI_ALPHA_MODE_STRAIGHT, dxgi1_2/DXGI_ALPHA_MODE_UNSPECIFIED
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: enum
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

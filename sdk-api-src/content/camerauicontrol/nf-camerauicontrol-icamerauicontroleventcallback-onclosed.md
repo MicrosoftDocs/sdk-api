@@ -4,10 +4,10 @@ title: ICameraUIControlEventCallback::OnClosed
 author: windows-sdk-content
 description: Occurs when the camera UI control is closed.
 old-location: winprog\icamerauicontroleventcallback_onclosed.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: 5d9237bc-38bb-4c14-8485-edec7c739150
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnClosed method, ICameraUIControlEventCallback.OnClosed, ICameraUIControlEventCallback::OnClosed, OnClosed, OnClosed method [Windows API], OnClosed method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnClosed, winprog.icamerauicontroleventcallback_onclosed
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,7 +15,7 @@ ms.topic: method
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

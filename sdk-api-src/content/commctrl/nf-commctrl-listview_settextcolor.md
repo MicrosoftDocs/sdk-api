@@ -4,10 +4,10 @@ title: ListView_SetTextColor macro
 author: windows-sdk-content
 description: Sets the text color of a list-view control. You can use this macro or send the LVM_SETTEXTCOLOR message explicitly.
 old-location: controls\ListView_SetTextColor.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settextcolor.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ListView_SetTextColor, ListView_SetTextColor macro [Windows Controls], _win32_ListView_SetTextColor, _win32_ListView_SetTextColor_cpp, commctrl/ListView_SetTextColor, controls.ListView_SetTextColor, controls._win32_ListView_SetTextColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the text color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761208(v=VS.85).aspx">LVM_SETTEXTCOLOR</a> message explicitly. 
+Sets the text color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/ff90c18b-0cd7-4331-bcd8-61044e891d1f">LVM_SETTEXTCOLOR</a> message explicitly. 
 
 
 ## -parameters

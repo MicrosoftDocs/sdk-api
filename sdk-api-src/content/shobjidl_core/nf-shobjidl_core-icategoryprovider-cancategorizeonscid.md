@@ -7,7 +7,7 @@ old-location: shell\ICategoryProvider_CanCategorizeOnSCID.htm
 old-project: shell
 ms.assetid: e0b10007-7b25-4ddf-8cb9-76d85f8fb4df
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CanCategorizeOnSCID, CanCategorizeOnSCID method [Windows Shell], CanCategorizeOnSCID method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],CanCategorizeOnSCID method, ICategoryProvider.CanCategorizeOnSCID, ICategoryProvider::CanCategorizeOnSCID, inet_ICategoryProvider_CanCategorizeOnSCID, shell.ICategoryProvider_CanCategorizeOnSCID, shobjidl_core/ICategoryProvider::CanCategorizeOnSCID
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_setallsettingswithnotify.htm
 old-project: DirectShow
 ms.assetid: 30f840d1-4c73-4a76-ba0b-c04f2901ad76
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetAllSettingsWithNotify method, ICodecAPI.SetAllSettingsWithNotify, ICodecAPI::SetAllSettingsWithNotify, ICodecAPISetAllSettingsWithNotify, SetAllSettingsWithNotify, SetAllSettingsWithNotify method [DirectShow], SetAllSettingsWithNotify method [DirectShow],ICodecAPI interface, dshow.icodecapi_setallsettingswithnotify, strmif/ICodecAPI::SetAllSettingsWithNotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP with SP2 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

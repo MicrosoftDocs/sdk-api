@@ -51,7 +51,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-Macro used to free memory allocated with the <a href="https://msdn.microsoft.com/library/Ee419205(v=VS.85).aspx">XAPOAlloc</a> macro. 
+Macro used to free memory allocated with the <a href="https://msdn.microsoft.com/99848638-9CB1-443C-A2D1-C3945ED4135B">XAPOAlloc</a> macro. 
 
 
 ## -parameters
@@ -68,14 +68,14 @@ Pointer to the memory block to be freed.
 
 
 
-<b>XAPOFree</b> and <a href="https://msdn.microsoft.com/library/Ee419205(v=VS.85).aspx">XAPOAlloc</a> are memory allocation macros that allow one module to allocate memory and another to free it, by guaranteeing that the same heap manager is used regardless of differences between the build environments of the two modules.
+<b>XAPOFree</b> and <a href="https://msdn.microsoft.com/99848638-9CB1-443C-A2D1-C3945ED4135B">XAPOAlloc</a> are memory allocation macros that allow one module to allocate memory and another to free it, by guaranteeing that the same heap manager is used regardless of differences between the build environments of the two modules.
 
 <table>
 <tr>
 <th>Xbox 360</th>
 </tr>
 <tr>
-<td><b>XAPOFree</b> and <a href="https://msdn.microsoft.com/library/Ee419205(v=VS.85).aspx">XAPOAlloc</a> resolve to <b>XMemAlloc</b> and <b>XMemFree</b> on Xbox 360.</td>
+<td><b>XAPOFree</b> and <a href="https://msdn.microsoft.com/99848638-9CB1-443C-A2D1-C3945ED4135B">XAPOAlloc</a> resolve to <b>XMemAlloc</b> and <b>XMemFree</b> on Xbox 360.</td>
 </tr>
 </table>
  
@@ -85,7 +85,7 @@ Pointer to the memory block to be freed.
 <th>Windows</th>
 </tr>
 <tr>
-<td><b>XAPOFree</b> and <a href="https://msdn.microsoft.com/library/Ee419205(v=VS.85).aspx">XAPOAlloc</a> resolve to <b>CoTaskMemAlloc</b> and <b>CoTaskMemFree</b>.</td>
+<td><b>XAPOFree</b> and <a href="https://msdn.microsoft.com/99848638-9CB1-443C-A2D1-C3945ED4135B">XAPOAlloc</a> resolve to <b>CoTaskMemAlloc</b> and <b>CoTaskMemFree</b>.</td>
 </tr>
 </table>
  

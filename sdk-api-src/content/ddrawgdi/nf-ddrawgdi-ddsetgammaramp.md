@@ -4,10 +4,10 @@ title: DdSetGammaRamp function
 author: windows-sdk-content
 description: The DdSetGammaRamp function sets the gamma ramp for the device.
 old-location: winprog\_dxgkernel_ddsetgammaramp.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddsetgammaramp.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DdSetGammaRamp, DdSetGammaRamp function [Windows API], GdiEntry15, _dxgkernel_ddsetgammaramp, ddrawgdi/DdSetGammaRamp, ddrawgdi/GdiEntry15, winprog._dxgkernel_ddsetgammaramp, winui._dxgkernel_ddsetgammaramp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,7 +104,7 @@ It is recommended that applications use the <b>IDirectDrawGammaControl::SetGamma
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648408(v=VS.85).aspx">Graphics Low Level Client Support</a>
+<a href="https://msdn.microsoft.com/96d11d10-dd21-4e2b-a30d-fe29d24eeba6">Graphics Low Level Client Support</a>
  
 
  

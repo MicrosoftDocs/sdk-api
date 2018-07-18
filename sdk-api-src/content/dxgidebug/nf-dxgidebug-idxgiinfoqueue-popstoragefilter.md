@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_popstoragefilter.htm
 old-project: direct3ddxgi
 ms.assetid: B621336B-9334-4408-988F-6F5DBB2C4B53
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PopStorageFilter method, IDXGIInfoQueue.PopStorageFilter, IDXGIInfoQueue::PopStorageFilter, PopStorageFilter, PopStorageFilter method [DXGI], PopStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_popstoragefilter, dxgidebug/IDXGIInfoQueue::PopStorageFilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

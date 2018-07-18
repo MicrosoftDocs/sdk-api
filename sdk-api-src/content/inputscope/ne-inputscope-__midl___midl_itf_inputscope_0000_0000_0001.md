@@ -15,8 +15,8 @@ ms.topic: enum
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/library/ms538181(v=VS.85).aspx">InputScope</a> enumeration contains values that specify which input scopes are applied to a given field.
+The <a href="tsf.inputscope">InputScope</a> enumeration contains values that specify which input scopes are applied to a given field.
 
 
 ## -enum-fields

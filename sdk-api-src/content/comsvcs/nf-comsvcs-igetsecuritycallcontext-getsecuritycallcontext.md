@@ -7,7 +7,7 @@ old-location: cos\igetsecuritycallcontext_getsecuritycallcontext.htm
 old-project: cossdk
 ms.assetid: 6a386cf6-1f75-4915-8c89-e453c4ebdab8
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetSecurityCallContext, GetSecurityCallContext method [COM+], GetSecurityCallContext method [COM+],IGetSecurityCallContext interface, IGetSecurityCallContext interface [COM+],GetSecurityCallContext method, IGetSecurityCallContext.GetSecurityCallContext, IGetSecurityCallContext::GetSecurityCallContext, _cos_IGetSecurityCallContext_GetSecurityCallContext, comsvcs/IGetSecurityCallContext::GetSecurityCallContext, cos.igetsecuritycallcontext_getsecuritycallcontext
 ms.prod: windows
 ms.technology: windows-sdk

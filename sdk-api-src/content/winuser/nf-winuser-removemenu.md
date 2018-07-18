@@ -55,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Deletes a menu item or detaches a submenu from the specified menu. If the menu item opens a drop-down menu or submenu, <b>RemoveMenu</b> does not destroy the menu or its handle, allowing the menu to be reused. Before this function is called, the <a href="https://msdn.microsoft.com/library/ms647984(v=VS.85).aspx">GetSubMenu</a> function should retrieve a handle to the drop-down menu or submenu. 
+Deletes a menu item or detaches a submenu from the specified menu. If the menu item opens a drop-down menu or submenu, <b>RemoveMenu</b> does not destroy the menu or its handle, allowing the menu to be reused. Before this function is called, the <a href="https://msdn.microsoft.com/009ede3f-da6e-4195-90e0-9f046146fd5c">GetSubMenu</a> function should retrieve a handle to the drop-down menu or submenu. 
 
 
 ## -parameters
@@ -131,7 +131,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The application must call the <a href="https://msdn.microsoft.com/library/ms647633(v=VS.85).aspx">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window. 
+The application must call the <a href="https://msdn.microsoft.com/3b17db02-5059-4182-bd5b-2fb67eecd1d7">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window. 
 
 
 
@@ -145,23 +145,23 @@ The application must call the <a href="https://msdn.microsoft.com/library/ms6476
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647626(v=VS.85).aspx">CreatePopupMenu</a>
+<a href="https://msdn.microsoft.com/b1341fe7-1532-4e0b-82f3-540cc88c0aa7">CreatePopupMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647629(v=VS.85).aspx">DeleteMenu</a>
+<a href="https://msdn.microsoft.com/0054bf62-cb70-4d6e-805d-58206fa2d297">DeleteMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647633(v=VS.85).aspx">DrawMenuBar</a>
+<a href="https://msdn.microsoft.com/3b17db02-5059-4182-bd5b-2fb67eecd1d7">DrawMenuBar</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647984(v=VS.85).aspx">GetSubMenu</a>
+<a href="https://msdn.microsoft.com/009ede3f-da6e-4195-90e0-9f046146fd5c">GetSubMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 

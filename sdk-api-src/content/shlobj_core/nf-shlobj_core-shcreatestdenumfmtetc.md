@@ -7,7 +7,7 @@ old-location: shell\SHCreateStdEnumFmtEtc.htm
 old-project: shell
 ms.assetid: c391c8c8-6062-4e70-9a1f-de0eb610250d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: SHCreateStdEnumFmtEtc, SHCreateStdEnumFmtEtc function [Windows Shell], _win32_SHCreateStdEnumFmtEtc, shell.SHCreateStdEnumFmtEtc, shlobj_core/SHCreateStdEnumFmtEtc
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: SnapIns::Item
 author: windows-sdk-content
 description: The Item method returns the SnapIn object at a specified index.
 old-location: mmc\snapins_item.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: f6b1c347-cec4-407a-96fd-71b2d0a070e0
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/16/2018
 ms.keywords: Item, Item method [MMC], Item method [MMC],SnapIns interface, Item method [MMC],SnapIns object, SnapIns interface [MMC],Item method, SnapIns object [MMC],Item method, SnapIns.Item, SnapIns::Item, _slate_snapins.item_method, mmc.snapins_item
 ms.prod: windows
 ms.technology: windows-sdk

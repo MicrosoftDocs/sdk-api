@@ -4,10 +4,10 @@ title: IImageList::Copy
 author: windows-sdk-content
 description: Copies images from a given image list.
 old-location: controls\IImageList_Copy.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\copy.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Copy, Copy method [Windows Controls], Copy method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],Copy method, IImageList.Copy, IImageList::Copy, comctl_IImageList_Copy, comctl_IImageList_Copy_cpp, commoncontrols/IImageList::Copy, controls.IImageList_Copy, controls.comctl_IImageList_Copy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,7 +127,7 @@ The <i>uFlags</i> parameter can have the following values.
 </table>
  
 
-To use <b>IImageList::Copy</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>IImageList::Copy</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

@@ -15,8 +15,8 @@ ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 <b>IWindowProvider::Close</b> must return immediately without blocking.
         
 
-<b>IWindowProvider::Close</b> raises the <a href="https://msdn.microsoft.com/library/Ee671223(v=VS.85).aspx">UIA_Window_WindowClosedEventId</a> 
+<b>IWindowProvider::Close</b> raises the <a href="uiauto_event_ids.htm">UIA_Window_WindowClosedEventId</a> 
         event. 
         If possible, the event should be raised after the control has completed its associated action. 
         

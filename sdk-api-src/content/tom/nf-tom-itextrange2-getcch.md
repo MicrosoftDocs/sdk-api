@@ -4,10 +4,10 @@ title: ITextRange2::GetCch
 author: windows-sdk-content
 description: Gets the count of characters in a range.
 old-location: controls\itextrange2_getcch.htm
-old-project: Controls
+old-project: controls
 ms.assetid: a6f06062-3c8f-40c0-9b5d-6c22a647bfbc
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetCch, GetCch method [Windows Controls], GetCch method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetCch method, ITextRange2.GetCch, ITextRange2::GetCch, controls.itextrange2_getcch, tom/ITextRange2::GetCch
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-The count of characters is the difference between the character position of the active end of the range, and the character position of the anchor end. Some Text Object Model (TOM) implementations might include active ends only for a selection (represented by the <a href="https://msdn.microsoft.com/library/Bb774060(v=VS.85).aspx">ITextSelection</a> interface). The rich edit control's TOM implementation of a text range (represented by the <a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a> interface) also has active ends. 
+The count of characters is the difference between the character position of the active end of the range, and the character position of the anchor end. Some Text Object Model (TOM) implementations might include active ends only for a selection (represented by the <a href="https://msdn.microsoft.com/e6afce18-4f02-4f1c-a2ee-735465d2e168">ITextSelection</a> interface). The rich edit control's TOM implementation of a text range (represented by the <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a> interface) also has active ends. 
 
 
 

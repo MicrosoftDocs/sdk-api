@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced_getallocateforstream.htm
 old-project: wmformat
 ms.assetid: 816f13b1-9856-482d-b5b1-4aaf5c61c230
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetAllocateForStream, GetAllocateForStream method [windows Media Format], GetAllocateForStream method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetAllocateForStream method, IWMReaderAdvanced.GetAllocateForStream, IWMReaderAdvanced::GetAllocateForStream, IWMReaderAdvancedGetAllocateForStream, wmformat.iwmreaderadvanced_getallocateforstream, wmsdkidl/IWMReaderAdvanced::GetAllocateForStream
 ms.prod: windows
 ms.technology: windows-sdk

@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>StringFormat::GetMeasurableCharacterRangeCount</b> method gets the number of measurable character ranges that are currently set. The character ranges that are set can be measured in a string by using the 
-			<a href="https://msdn.microsoft.com/library/ms535796(v=VS.85).aspx">MeasureCharacterRanges</a> method.
+			<a href="https://msdn.microsoft.com/2176e638-5d83-46ae-ab4f-a3031d46bde2">MeasureCharacterRanges</a> method.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ The <b>StringFormat::GetMeasurableCharacterRangeCount</b> method gets the number
 Type: <strong>Type: <b>INT</b>
 </strong>
 
-This method returns an integer that indicates the number of character ranges that can be measured by <a href="https://msdn.microsoft.com/library/ms535796(v=VS.85).aspx">MeasureCharacterRanges</a>.
+This method returns an integer that indicates the number of character ranges that can be measured by <a href="https://msdn.microsoft.com/2176e638-5d83-46ae-ab4f-a3031d46bde2">MeasureCharacterRanges</a>.
 
 
 
@@ -79,15 +79,15 @@ This method returns an integer that indicates the number of character ranges tha
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535796(v=VS.85).aspx">MeasureCharacterRanges</a>
+<a href="https://msdn.microsoft.com/2176e638-5d83-46ae-ab4f-a3031d46bde2">MeasureCharacterRanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx">StringFormat</a>
+<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534729(v=VS.85).aspx">StringFormat::SetMeasurableCharacterRanges</a>
+<a href="https://msdn.microsoft.com/5c49c64f-f705-4b33-974b-34ffb1e43ff5">StringFormat::SetMeasurableCharacterRanges</a>
  
 
  

@@ -15,7 +15,7 @@ ms.topic: method
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -61,7 +61,7 @@ Notification method indicating that a device service session <b>Write</b> reques
 
 ### -param deviceService [in]
 
-The <a href="https://msdn.microsoft.com/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> session object on which the <b>Write</b> was requested.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> session object on which the <b>Write</b> was requested.
 
 
 ### -param status [in]

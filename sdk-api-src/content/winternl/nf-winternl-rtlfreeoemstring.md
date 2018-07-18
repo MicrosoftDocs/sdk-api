@@ -4,10 +4,10 @@ title: RtlFreeOemString function
 author: windows-sdk-content
 description: Frees the string buffer allocated by RtlUnicodeStringToOemString.
 old-location: winprog\rtlfreeoemstring.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlfreeoemstring.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: RtlFreeOemString, RtlFreeOemString function [Windows API], winprog.rtlfreeoemstring, winternl/RtlFreeOemString, winui.rtlfreeoemstring
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DhcpGetVersion function
 author: windows-sdk-content
 description: The DhcpGetVersion function returns the major and minor version numbers of the DHCP server.
 old-location: dhcp\dhcpgetversion.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 1977c4d7-094c-41b0-a7bf-aacdb15e265f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DhcpGetVersion, DhcpGetVersion function [DHCP], dhcp.dhcpgetversion, dhcpsapi/DhcpGetVersion
 ms.prod: windows
 ms.technology: windows-sdk

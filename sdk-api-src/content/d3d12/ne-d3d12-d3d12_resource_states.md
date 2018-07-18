@@ -186,6 +186,9 @@ DEPTH_READ is a state which can be combined with other states. It should be used
           
 
 
+### -field D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE
+
+
 ### -field D3D12_RESOURCE_STATE_GENERIC_READ
 
 This is the required starting state for upload heaps. Applications should generally avoid this state when possible, and instead transition resources to only the actually-used states.
@@ -231,6 +234,14 @@ This is the required starting state for upload heaps. Applications should genera
 
             The resource is used to write video data during video processing; that is, the resource is used as the destination in a processing operation such as video encoding (compression).
           
+
+
+### -field D3D12_RESOURCE_STATE_VIDEO_ENCODE_READ
+
+
+### -field D3D12_RESOURCE_STATE_VIDEO_ENCODE_WRITE
+
+
 
 
 ## -remarks

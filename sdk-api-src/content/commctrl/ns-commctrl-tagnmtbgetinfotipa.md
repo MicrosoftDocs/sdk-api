@@ -4,10 +4,10 @@ title: tagNMTBGETINFOTIPA
 author: windows-sdk-content
 description: Contains and receives infotip information for a toolbar item. This structure is used with the TBN_GETINFOTIP notification code.
 old-location: controls\NMTBGETINFOTIP.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbgetinfotip.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*LPNMTBGETINFOTIPA, LPNMTBGETINFOTIP, LPNMTBGETINFOTIP structure pointer [Windows Controls], NMTBGETINFOTIP, NMTBGETINFOTIP structure [Windows Controls], NMTBGETINFOTIPA, NMTBGETINFOTIPW, _win32_NMTBGETINFOTIP, _win32_NMTBGETINFOTIP_cpp, commctrl/LPNMTBGETINFOTIP, commctrl/NMTBGETINFOTIP, commctrl/NMTBGETINFOTIPA, commctrl/NMTBGETINFOTIPW, controls.NMTBGETINFOTIP, controls._win32_NMTBGETINFOTIP, tagNMTBGETINFOTIPA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Contains and receives infotip information for a toolbar item. This structure is used with the <a href="https://msdn.microsoft.com/library/Bb787268(v=VS.85).aspx">TBN_GETINFOTIP</a> notification code. 
+Contains and receives infotip information for a toolbar item. This structure is used with the <a href="https://msdn.microsoft.com/ed6e4141-2bf8-4a92-8349-f3833c87fcf3">TBN_GETINFOTIP</a> notification code. 
 
 
 ## -struct-fields
@@ -62,10 +62,10 @@ Contains and receives infotip information for a toolbar item. This structure is 
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field pszText

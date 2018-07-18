@@ -154,7 +154,7 @@ Returns a <a href="https://msdn.microsoft.com/b117b0eb-e188-4514-8e11-9acca1303e
 <td align="left" width="63%">
 Returns a 
      <a href="https://msdn.microsoft.com/be22d5b1-8c61-40a5-883c-f49651ba623d">ClusResTypePossibleOwnerNodes</a> 
-     collection containing the <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">possible owner</a> <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> of the resource type.
+     collection containing the <a href="p_gly.htm">possible owner</a> <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> of the resource type.
 
 </td>
 </tr>

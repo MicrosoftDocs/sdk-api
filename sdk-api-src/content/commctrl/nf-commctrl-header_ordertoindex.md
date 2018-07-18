@@ -4,10 +4,10 @@ title: Header_OrderToIndex macro
 author: windows-sdk-content
 description: Retrieves an index value for an item based on its order in the header control. You can use this macro or send the HDM_ORDERTOINDEX message explicitly.
 old-location: controls\Header_OrderToIndex.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_ordertoindex.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Header_OrderToIndex, Header_OrderToIndex macro [Windows Controls], _win32_Header_OrderToIndex, _win32_Header_OrderToIndex_cpp, commctrl/Header_OrderToIndex, controls.Header_OrderToIndex, controls._win32_Header_OrderToIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves an index value for an item based on its order in the header control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775355(v=VS.85).aspx">HDM_ORDERTOINDEX</a> message explicitly. 
+Retrieves an index value for an item based on its order in the header control. You can use this macro or send the <a href="https://msdn.microsoft.com/3c3289cc-0f47-4d02-b027-8848b7ec05d5">HDM_ORDERTOINDEX</a> message explicitly. 
 
 
 ## -parameters

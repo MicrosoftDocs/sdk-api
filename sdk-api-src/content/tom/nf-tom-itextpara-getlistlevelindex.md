@@ -4,10 +4,10 @@ title: ITextPara::GetListLevelIndex
 author: windows-sdk-content
 description: Retrieves the list level index used with paragraphs.
 old-location: controls\ITextPara_GetListLevelIndex.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlistlevelindex.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetListLevelIndex, GetListLevelIndex method [Windows Controls], GetListLevelIndex method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetListLevelIndex method, ITextPara.GetListLevelIndex, ITextPara::GetListLevelIndex, _win32_ITextPara_GetListLevelIndex, _win32_ITextPara_GetListLevelIndex_cpp, controls.ITextPara_GetListLevelIndex, controls._win32_ITextPara_GetListLevelIndex, tom/ITextPara::GetListLevelIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -158,7 +158,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -166,11 +166,11 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774173(v=VS.85).aspx">SetListLevelIndex</a>
+<a href="https://msdn.microsoft.com/60f88971-e671-4f65-aeba-1774f732d4a9">SetListLevelIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

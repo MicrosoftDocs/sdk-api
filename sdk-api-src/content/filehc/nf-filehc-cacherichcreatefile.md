@@ -4,10 +4,10 @@ title: CacheRichCreateFile function
 author: windows-sdk-content
 description: Creates a file in the cache or finds an existing file and allows properties to be added to it in the cache.
 old-location: winprog\_cacherichcreatefile.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: 89b0adcd-0084-4538-b162-661ddae53dc8
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CacheRichCreateFile, CacheRichCreateFile function [Windows API], filehc/CacheRichCreateFile, winprog._cacherichcreatefile
 ms.prod: windows
 ms.technology: windows-sdk

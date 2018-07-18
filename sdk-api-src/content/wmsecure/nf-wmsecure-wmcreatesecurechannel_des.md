@@ -7,7 +7,7 @@ old-location: wmformat\wmcreatesecurechannel_des.htm
 old-project: wmformat
 ms.assetid: d90e591f-82c0-4129-a810-8705d770dd3a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: WMCreateSecureChannel_DES, WMCreateSecureChannel_DES function [windows Media Format], wmformat.wmcreatesecurechannel_des, wmsecure/WMCreateSecureChannel_DES
 ms.prod: windows
 ms.technology: windows-sdk

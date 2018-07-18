@@ -15,8 +15,8 @@ ms.topic: function
 req.header: propidl.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

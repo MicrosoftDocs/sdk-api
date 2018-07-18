@@ -15,8 +15,8 @@ ms.topic: function
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -55,7 +55,7 @@ req.product: Windows XP with SP1 and later
 
 Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCbPrintf_l</b> is similar to <a href="https://msdn.microsoft.com/library/ms647510(v=VS.85).aspx">StringCbPrintf</a> but includes a parameter for locale information.
+<b>StringCbPrintf_l</b> is similar to <a href="https://msdn.microsoft.com/224c8840-06c6-4144-8f23-8705ac8ef887">StringCbPrintf</a> but includes a parameter for locale information.
 
 
 ## -parameters

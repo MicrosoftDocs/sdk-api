@@ -15,8 +15,8 @@ ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -428,13 +428,13 @@ Repeating insert numbers when the source string contains width and precision spe
         resulting in an access violation).
 
 Floating-point format specifiers—e, E, f, and g—are not supported. 
-        The workaround is to use the <a href="https://msdn.microsoft.com/library/ms647541(v=VS.85).aspx">StringCchPrintf</a> 
+        The workaround is to use the <a href="_shell_StringCchPrintf_cpp">StringCchPrintf</a> 
         function to format the floating-point number into a temporary buffer, then use that buffer as the insert 
         string.
 
 Inserts that use the I64 prefix are treated as two 32-bit arguments. They must be used before subsequent 
         arguments are used. Note that it may be easier for you to use 
-        <a href="https://msdn.microsoft.com/library/ms647541(v=VS.85).aspx">StringCchPrintf</a> instead of this prefix.
+        <a href="_shell_StringCchPrintf_cpp">StringCchPrintf</a> instead of this prefix.
 
 </td>
 </tr>

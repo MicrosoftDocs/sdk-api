@@ -7,7 +7,7 @@ old-location: cos\icrmcompensatorvariants_endcommitvariants.htm
 old-project: cossdk
 ms.assetid: 1004437b-0281-439c-9b6d-0043caeb2844
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: EndCommitVariants, EndCommitVariants method [COM+], EndCommitVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],EndCommitVariants method, ICrmCompensatorVariants.EndCommitVariants, ICrmCompensatorVariants::EndCommitVariants, _dtc_ICrmCompensatorVariants_EndCommitVariants, comsvcs/ICrmCompensatorVariants::EndCommitVariants, cos.icrmcompensatorvariants_endcommitvariants
 ms.prod: windows
 ms.technology: windows-sdk

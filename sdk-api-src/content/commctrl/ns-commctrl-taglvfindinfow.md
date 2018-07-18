@@ -4,10 +4,10 @@ title: tagLVFINDINFOW
 author: windows-sdk-content
 description: Contains information used when searching for a list-view item. This structure is identical to LV_FINDINFO but has been renamed to fit standard naming conventions.
 old-location: controls\LVFINDINFO.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvfindinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*LPFINDINFOW, LPFINDINFO, LPFINDINFO structure pointer [Windows Controls], LVFINDINFO, LVFINDINFO structure [Windows Controls], LVFINDINFOA, LVFINDINFOW, LVFI_NEARESTXY, LVFI_PARAM, LVFI_PARTIAL, LVFI_STRING, LVFI_SUBSTRING, LVFI_WRAP, _win32_LVFINDINFO, _win32_LVFINDINFO_cpp, commctrl/LPFINDINFO, commctrl/LVFINDINFO, commctrl/LVFINDINFOA, commctrl/LVFINDINFOW, controls.LVFINDINFO, controls._win32_LVFINDINFO, tagLVFINDINFOW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ Type of search to perform. This member can be set to one or more of the followin
 </dl>
 </td>
 <td width="60%">
-Searches for a match between this structure's <b>lParam</b> member and the <b>lParam</b> member of an item's <a href="https://msdn.microsoft.com/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure.
+Searches for a match between this structure's <b>lParam</b> member and the <b>lParam</b> member of an item's <a href="https://msdn.microsoft.com/4141a2ee-9016-4d76-8758-a36fc6eedb44">LVITEM</a> structure.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ Address of a null-terminated string to compare with the item text. It is valid o
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
 
-Value to compare with the <b>lParam</b> member of a list-view item's <a href="https://msdn.microsoft.com/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure. It is valid only if LVFI_PARAM is set in the <b>flags</b> member.
+Value to compare with the <b>lParam</b> member of a list-view item's <a href="https://msdn.microsoft.com/4141a2ee-9016-4d76-8758-a36fc6eedb44">LVITEM</a> structure. It is valid only if LVFI_PARAM is set in the <b>flags</b> member.
 
 
 ### -field pt

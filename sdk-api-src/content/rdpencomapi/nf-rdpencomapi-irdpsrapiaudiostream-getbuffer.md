@@ -4,10 +4,10 @@ title: IRDPSRAPIAudioStream::GetBuffer
 author: windows-sdk-content
 description: Gets audio data from the buffer.
 old-location: rdp\irdpsrapiaudiostream_getbuffer.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: 9A155107-1C43-49C2-BA92-4CBF37AEF4DB
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetBuffer, GetBuffer method [RDP], GetBuffer method [RDP],IRDPSRAPIAudioStream interface, IRDPSRAPIAudioStream interface [RDP],GetBuffer method, IRDPSRAPIAudioStream.GetBuffer, IRDPSRAPIAudioStream::GetBuffer, rdp.irdpsrapiaudiostream_getbuffer, rdpencomapi/IRDPSRAPIAudioStream::GetBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

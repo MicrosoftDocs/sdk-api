@@ -4,10 +4,10 @@ title: IMsmMerge2::ExtractFilesEx
 author: windows-sdk-content
 description: The ExtractFilesEx method extracts the embedded .cab file from a module and then writes those files to the destination directory. For more information, see the ExtractFilesEx method of the Merge object.
 old-location: setup\imsmmerge2_extractfilesex.htm
-old-project: msi
+old-project: Msi
 ms.assetid: 0ba6adc9-a08f-47a6-b8a8-1624bd856511
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/16/2018
 ms.keywords: ExtractFilesEx, ExtractFilesEx method, ExtractFilesEx method,IMsmMerge2 interface, IMsmMerge2 interface,ExtractFilesEx method, IMsmMerge2.ExtractFilesEx, IMsmMerge2::ExtractFilesEx, _msi_extractfilesex_function, mergemod/IMsmMerge2::ExtractFilesEx, setup.imsmmerge2_extractfilesex
 ms.prod: windows
 ms.technology: windows-sdk

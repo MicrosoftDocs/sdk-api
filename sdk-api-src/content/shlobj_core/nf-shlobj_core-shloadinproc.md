@@ -7,7 +7,7 @@ old-location: shell\SHLoadInProc.htm
 old-project: shell
 ms.assetid: 307b99d9-2d0a-47c5-8a10-dfdc0a408942
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: SHLoadInProc, SHLoadInProc function [Windows Shell], _win32_SHLoadInProc, shell.SHLoadInProc, shlobj_core/SHLoadInProc
 ms.prod: windows
 ms.technology: windows-sdk

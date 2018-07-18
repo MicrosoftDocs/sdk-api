@@ -84,7 +84,7 @@ A value from the <a href="https://msdn.microsoft.com/242b3770-1082-4df9-b21b-cc7
 
 Type: <b><a href="https://msdn.microsoft.com/82b5db01-08c9-4518-9d33-15d7813d0c80">UiaCondition</a>*</b>
 
-The address of a <a href="https://msdn.microsoft.com/82b5db01-08c9-4518-9d33-15d7813d0c80">UiaCondition</a> structure that specifies a condition against which the information can be normalized, if <i>normalizeState</i> is <a href="https://msdn.microsoft.com/library/Ee671589(v=VS.85).aspx">NormalizeState_Custom</a>.
+The address of a <a href="https://msdn.microsoft.com/82b5db01-08c9-4518-9d33-15d7813d0c80">UiaCondition</a> structure that specifies a condition against which the information can be normalized, if <i>normalizeState</i> is <a href="uiauto_NormalizeStateEnum.htm">NormalizeState_Custom</a>.
 
 
 ### -param ppRequestedData [out]

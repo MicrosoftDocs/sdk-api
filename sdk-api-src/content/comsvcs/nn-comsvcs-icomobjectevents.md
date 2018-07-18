@@ -7,7 +7,7 @@ old-location: cos\icomobjectevents.htm
 old-project: cossdk
 ms.assetid: 4354fc5b-4d72-4a56-b246-2ae2cf9b5ae1
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IComObjectEvents, IComObjectEvents interface [COM+], IComObjectEvents interface [COM+],described, _dtc_IComObjectEvents, comsvcs/IComObjectEvents, cos.icomobjectevents
 ms.prod: windows
 ms.technology: windows-sdk

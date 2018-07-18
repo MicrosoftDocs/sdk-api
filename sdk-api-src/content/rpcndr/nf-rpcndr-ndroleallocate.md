@@ -15,8 +15,8 @@ ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>NdrOleAllocate</b> function is used by RPC to allocate memory for an object interface. This function is a wrapper for the <a href="https://msdn.microsoft.com/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a> function.
+The <b>NdrOleAllocate</b> function is used by RPC to allocate memory for an object interface. This function is a wrapper for the <a href="_com_cotaskmemalloc">CoTaskMemAlloc</a> function.
 
 
 ## -parameters
@@ -94,7 +94,7 @@ To return a pointer other than a void, use a type cast on the return value. The 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>
+<a href="_com_cotaskmemalloc">CoTaskMemAlloc</a>
  
 
  

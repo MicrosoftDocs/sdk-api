@@ -4,10 +4,10 @@ title: NtOpenFile function
 author: windows-sdk-content
 description: Opens an existing file, device, directory, or volume, and returns a handle for the file object.
 old-location: winprog\ntopenfile.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: b77a85d1-7d2d-4834-b5d9-9baf68804369
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: NtOpenFile, NtOpenFile function [Windows API], winprog.ntopenfile, winternl/NtOpenFile
 ms.prod: windows
 ms.technology: windows-sdk

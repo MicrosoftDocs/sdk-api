@@ -7,7 +7,7 @@ old-location: shell\UShortToUChar.htm
 old-project: shell
 ms.assetid: b50c8e95-929f-4c16-abd2-7b03bc0d5063
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: UShortToUChar, UShortToUChar function [Windows Shell], WordToUChar, _shell_UShortToUChar, intsafe/UShortToUChar, shell.UShortToUChar
 ms.prod: windows
 ms.technology: windows-sdk

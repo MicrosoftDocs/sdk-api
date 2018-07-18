@@ -7,7 +7,7 @@ old-location: multimedia\acmdrivermessage.htm
 old-project: Multimedia
 ms.assetid: c4e1685e-54b5-4c33-b23c-c3ccc31afe48
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "_win32_acmDriverMessage, acmDriverMessage, acmDriverMessage function [Windows Multimedia], msacm/acmDriverMessage, multimedia.acmdrivermessage"
 ms.prod: windows
 ms.technology: windows-sdk

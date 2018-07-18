@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_IsMultipage.htm
 old-project: shell
 ms.assetid: a9c86f0e-5237-432c-a2bb-4054a23d707e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsMultipage method, IShellImageData.IsMultipage, IShellImageData::IsMultipage, IsMultipage, IsMultipage method [Windows Shell], IsMultipage method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsMultipage, shell.IShellImageData_IsMultipage, shimgdata/IShellImageData::IsMultipage
 ms.prod: windows
 ms.technology: windows-sdk

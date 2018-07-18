@@ -4,10 +4,10 @@ title: IExtendView
 author: windows-sdk-content
 description: The IExtendView interface provides information about the extended view.
 old-location: mmc\iextendview.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: a6ea8735-4cad-4c04-be97-dfad01b00388
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/16/2018
 ms.keywords: IExtendView, IExtendView interface [MMC], IExtendView interface [MMC],described, _slate_iextendview, mmc.iextendview, mmc/IExtendView
 ms.prod: windows
 ms.technology: windows-sdk

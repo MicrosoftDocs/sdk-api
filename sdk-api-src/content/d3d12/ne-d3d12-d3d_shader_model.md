@@ -76,6 +76,12 @@ Indicates shader model 6.1.
 ### -field D3D_SHADER_MODEL_6_2
 
 
+### -field D3D_SHADER_MODEL_6_3
+
+
+### -field D3D_SHADER_MODEL_6_4
+
+
 
 
 ## -remarks

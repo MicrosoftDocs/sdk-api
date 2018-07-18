@@ -4,10 +4,10 @@ title: "_DPASTREAMINFO"
 author: windows-sdk-content
 description: Contains a stream item used by the PFNDPASTREAM callback function.
 old-location: controls\DPASTREAMINFO.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\common\structures\dpastreaminfo.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DPASTREAMINFO, DPASTREAMINFO structure [Windows Controls], _DPASTREAMINFO, _win32_DPASTREAMINFO, _win32_DPASTREAMINFO_cpp, controls.DPASTREAMINFO, controls._win32_DPASTREAMINFO, dpa_dsa/DPASTREAMINFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains a stream item used by the <a href="https://msdn.microsoft.com/library/Bb775725(v=VS.85).aspx">PFNDPASTREAM</a> callback function. 
+Contains a stream item used by the <a href="https://msdn.microsoft.com/b5910ac3-9066-49d8-8cb3-796de22428d3">PFNDPASTREAM</a> callback function. 
 
 
 ## -struct-fields

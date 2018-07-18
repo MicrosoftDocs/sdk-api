@@ -4,10 +4,10 @@ title: CryptGetHashParam function
 author: windows-sdk-content
 description: Retrieves data that governs the operations of a hash object.
 old-location: security\cryptgethashparam.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: ed008c07-1a40-4075-bdaa-eb7f7e12d9c3
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CryptGetHashParam, CryptGetHashParam function [Security], HP_ALGID, HP_HASHSIZE, HP_HASHVAL, _crypto2_cryptgethashparam, security.cryptgethashparam, wincrypt/CryptGetHashParam
 ms.prod: windows
 ms.technology: windows-sdk
@@ -278,7 +278,7 @@ The CSP context that was specified when the hash was created cannot be found.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

@@ -4,10 +4,10 @@ title: GetThemeStream function
 author: windows-sdk-content
 description: Retrieves a data stream corresponding to a specified theme, starting from a specified part, state, and property.
 old-location: controls\GetThemeStream.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemestream.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetThemeStream, GetThemeStream function [Windows Controls], controls.GetThemeStream, controls.inet_GetThemeStream, inet_GetThemeStream, inet_GetThemeStream_cpp, uxtheme/GetThemeStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Handle to the theme from which the stream will be retrieved.
 
 Type: <b>int</b>
 
-Specifies the part to retrieve a stream from. See <a href="https://msdn.microsoft.com/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Specifies the part to retrieve a stream from. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
 
 
 ### -param iStateId [in]
@@ -136,7 +136,7 @@ The data stream retrieved by this function is not a copy; do not delete or close
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773210(v=VS.85).aspx">Parts and States</a>
+<a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>
  
 
  

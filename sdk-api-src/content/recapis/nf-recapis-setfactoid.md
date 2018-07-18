@@ -7,7 +7,7 @@ old-location: tablet\setfactoid.htm
 old-project: tablet
 ms.assetid: f805b364-1e7b-4995-bda9-47bff87fcdfa
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: SetFactoid, SetFactoid function [Tablet PC], f805b364-1e7b-4995-bda9-47bff87fcdfa, recapis/SetFactoid, tablet.setfactoid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,7 +15,7 @@ ms.topic: function
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP Tablet PC Edition [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

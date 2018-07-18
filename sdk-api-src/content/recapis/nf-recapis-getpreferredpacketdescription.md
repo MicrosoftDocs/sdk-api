@@ -7,7 +7,7 @@ old-location: tablet\getpreferredpacketdescription.htm
 old-project: tablet
 ms.assetid: 6600b345-db7a-49ca-a54a-7d212952cb8f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: 6600b345-db7a-49ca-a54a-7d212952cb8f, GetPreferredPacketDescription, GetPreferredPacketDescription function [Tablet PC], recapis/GetPreferredPacketDescription, tablet.getpreferredpacketdescription
 ms.prod: windows
 ms.technology: windows-sdk

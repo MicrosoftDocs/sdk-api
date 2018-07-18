@@ -4,10 +4,10 @@ title: FNFCISEEK macro
 author: windows-sdk-content
 description: The FNFCISEEK macro provides the declaration for the application-defined callback function to move a file pointer to the specified location in an FCI context.
 old-location: winprog\fnfciseek.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: e5a14c98-4de6-452e-8993-afb7964aeee7
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: FNFCISEEK, FNFCISEEK macro [Windows API], fci/FNFCISEEK, winprog.fnfciseek
 ms.prod: windows
 ms.technology: windows-sdk

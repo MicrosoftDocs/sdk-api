@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_setwindowinputrectangle.htm
 old-project: tablet
 ms.assetid: b46139db-0473-4cd3-8f1b-d303f3430470
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IInkCollector interface [Tablet PC],SetWindowInputRectangle method, IInkCollector.SetWindowInputRectangle, IInkCollector::SetWindowInputRectangle, SetWindowInputRectangle, SetWindowInputRectangle method [Tablet PC], SetWindowInputRectangle method [Tablet PC],IInkCollector interface, b46139db-0473-4cd3-8f1b-d303f3430470, msinkaut/IInkCollector::SetWindowInputRectangle, tablet.inkcollector_setwindowinputrectangle
 ms.prod: windows
 ms.technology: windows-sdk

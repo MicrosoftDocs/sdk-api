@@ -7,7 +7,7 @@ old-location: multimedia\mciwndsetpalette.htm
 old-project: Multimedia
 ms.assetid: dba9370b-2412-47b2-a140-bc787a448024
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: MCIWndSetPalette, MCIWndSetPalette macro [Windows Multimedia], _win32_MCIWndSetPalette, multimedia.mciwndsetpalette, vfw/MCIWndSetPalette
 ms.prod: windows
 ms.technology: windows-sdk

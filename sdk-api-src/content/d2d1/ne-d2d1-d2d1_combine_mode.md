@@ -15,8 +15,8 @@ ms.topic: enum
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -90,7 +90,7 @@ The second region is excluded from the first. Given two geometries, <i>A</i> and
 The following illustration shows the different geometry combine modes.
 
 
-<img alt="Illustration of two geometries and the resulting shapes after various geometry combine modes" src="./images/geometry_combine_modes.png"/>
+<img alt="Illustration of two geometries and the resulting shapes after various geometry combine modes" src="images/geometry_combine_modes.png"/>
 
 #### Examples
 

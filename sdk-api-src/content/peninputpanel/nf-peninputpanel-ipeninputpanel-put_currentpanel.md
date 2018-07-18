@@ -7,7 +7,7 @@ old-location: tablet\peninputpanel_currentpanel.htm
 old-project: tablet
 ms.assetid: 536ba874-b9f9-45c9-bf9a-a64679afc861
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: 536ba874-b9f9-45c9-bf9a-a64679afc861, CurrentPanel property [Tablet PC], CurrentPanel property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],CurrentPanel property, IPenInputPanel.CurrentPanel, IPenInputPanel.put_CurrentPanel, IPenInputPanel::CurrentPanel, IPenInputPanel::get_CurrentPanel, IPenInputPanel::put_CurrentPanel, PenInputPanel.get_CurrentPanel, PenInputPanel.put_CurrentPanel, get_CurrentPanel, peninputpanel/IPenInputPanel::CurrentPanel, peninputpanel/IPenInputPanel::get_CurrentPanel, peninputpanel/IPenInputPanel::put_CurrentPanel, put_CurrentPanel, tablet.peninputpanel_currentpanel
 ms.prod: windows
 ms.technology: windows-sdk

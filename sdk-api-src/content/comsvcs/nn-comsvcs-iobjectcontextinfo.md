@@ -7,7 +7,7 @@ old-location: cos\iobjectcontextinfo.htm
 old-project: cossdk
 ms.assetid: 76dcc6f3-f840-4672-bba9-038c1249a306
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IObjectContextInfo, IObjectContextInfo interface [COM+], IObjectContextInfo interface [COM+],described, _cos_IObjectContextInfo, comsvcs/IObjectContextInfo, cos.iobjectcontextinfo
 ms.prod: windows
 ms.technology: windows-sdk

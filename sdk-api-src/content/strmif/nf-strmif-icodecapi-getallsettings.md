@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_getallsettings.htm
 old-project: DirectShow
 ms.assetid: 45685033-73cc-4810-90f2-49343494641b
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetAllSettings, GetAllSettings method [DirectShow], GetAllSettings method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetAllSettings method, ICodecAPI.GetAllSettings, ICodecAPI::GetAllSettings, ICodecAPIGetAllSettings, dshow.icodecapi_getallsettings, strmif/ICodecAPI::GetAllSettings
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP with SP2 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

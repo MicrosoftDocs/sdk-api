@@ -15,8 +15,8 @@ ms.topic: function
 req.header: mswsock.h
 req.include-header: Mswsock.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8.1, Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -179,7 +179,7 @@ Another key difference between the
 The <i>sAcceptSocket</i> parameter must be an open socket that is neither bound nor connected.
 
 The <i>lpNumberOfBytesTransferred</i> parameter of the 
-<a href="https://msdn.microsoft.com/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a> function or the 
+<a href="base.getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function or the 
 <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> function indicates the number of bytes received in the request.
 
 
@@ -187,10 +187,10 @@ When this operation is successfully completed, <i>sAcceptSocket</i> can be passe
 
 <dl>
 <dd>
-<a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a>
+<a href="base.readfile">ReadFile</a>
 </dd>
 <dd>
-<a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>
+<a href="base.writefile">WriteFile</a>
 </dd>
 <dd>
 <a href="https://msdn.microsoft.com/902bb9cf-d847-43fc-8282-394d619b8f1b">send</a>
@@ -478,7 +478,7 @@ There are important issues associated with connection setup when using Asynchron
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa364986(v=VS.85).aspx">GetQueuedCompletionStatus</a>
+<a href="base.getqueuedcompletionstatus">GetQueuedCompletionStatus</a>
 
 
 

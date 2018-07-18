@@ -4,10 +4,10 @@ title: DhcpDeleteClassV6 function
 author: windows-sdk-content
 description: Deletes a DHCP class from the DHCPv6 server.
 old-location: dhcp\dhcpdeleteclassv6.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: b818ed6f-16a3-4259-be40-001875809c78
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DhcpDeleteClassV6, DhcpDeleteClassV6 function [DHCP], dhcp.dhcpdeleteclassv6, dhcpsapi/DhcpDeleteClassV6
 ms.prod: windows
 ms.technology: windows-sdk

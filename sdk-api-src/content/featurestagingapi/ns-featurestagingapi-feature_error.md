@@ -4,10 +4,10 @@ title: FEATURE_ERROR
 author: windows-sdk-content
 description: This structure is intended for infrastructure use only.
 old-location: winprog\feature_error.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: D289E97E-CEA7-408E-98D5-44A5B07B512A
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: FEATURE_ERROR, FEATURE_ERROR structure [Windows API], featurestagingapi/FEATURE_ERROR, winprog.feature_error
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: Edit_SetText macro
 author: windows-sdk-content
 description: Sets the text of an edit control.
 old-location: controls\Edit_SetText.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_settext.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Edit_SetText, Edit_SetText macro [Windows Controls], _win32_Edit_SetText, _win32_Edit_SetText_cpp, controls.Edit_SetText, controls._win32_Edit_SetText, windowsx/Edit_SetText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ A pointer to a null-terminated string to be set as the text in the control.
 
 
 
-The macro expands to a call to <a href="https://msdn.microsoft.com/library/ms633546(v=VS.85).aspx">SetWindowText</a>.	
+The macro expands to a call to <a href="https://msdn.microsoft.com/6f3e3ef8-b342-43f0-9d8b-3a72c610a940">SetWindowText</a>.	
 
 
 

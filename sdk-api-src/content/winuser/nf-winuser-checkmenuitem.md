@@ -55,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-<p class="CCE_Message">[<b>CheckMenuItem</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/library/ms648001(v=VS.85).aspx">SetMenuItemInfo</a>.
+<p class="CCE_Message">[<b>CheckMenuItem</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/e1c669c7-7b56-428a-8433-d926330e42e1">SetMenuItemInfo</a>.
 ]
 
 Sets the state of the specified menu item's check-mark attribute to either selected or clear. 
@@ -166,7 +166,7 @@ The <i>uIDCheckItem</i> parameter identifies a item that opens a submenu or a co
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85).aspx">Simulating Check Boxes in a Menu</a>.
+For an example, see <a href="using_menus.htm">Simulating Check Boxes in a Menu</a>.
 
 <div class="code"></div>
 
@@ -181,15 +181,15 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647636(v=VS.85).aspx">EnableMenuItem</a>
+<a href="https://msdn.microsoft.com/893abf39-3475-48dc-920d-39a956463690">EnableMenuItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647979(v=VS.85).aspx">GetMenuItemID</a>
+<a href="https://msdn.microsoft.com/69ecdcba-177c-4465-95ae-897ed4e96c2d">GetMenuItemID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 
@@ -197,11 +197,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647998(v=VS.85).aspx">SetMenuItemBitmaps</a>
+<a href="https://msdn.microsoft.com/7c0fb026-52ca-4ac6-bb94-1e72431b6056">SetMenuItemBitmaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648001(v=VS.85).aspx">SetMenuItemInfo</a>
+<a href="https://msdn.microsoft.com/e1c669c7-7b56-428a-8433-d926330e42e1">SetMenuItemInfo</a>
  
 
  

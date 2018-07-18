@@ -7,7 +7,7 @@ old-location: dshow\imediasample.htm
 old-project: DirectShow
 ms.assetid: 883e5e3b-db91-4806-96cc-c6f8cddfcca6
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IMediaSample, IMediaSample interface [DirectShow], IMediaSample interface [DirectShow],described, IMediaSampleInterface, dshow.imediasample, strmif/IMediaSample
 ms.prod: windows
 ms.technology: windows-sdk

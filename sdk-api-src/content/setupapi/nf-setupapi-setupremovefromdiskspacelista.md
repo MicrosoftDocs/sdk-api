@@ -7,7 +7,7 @@ old-location: setup\setupremovefromdiskspacelist.htm
 old-project: SetupApi
 ms.assetid: 0d23c8ce-ada6-4640-b9ad-8989f9a122a2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/16/2018
 ms.keywords: FILEOP_COPY, FILEOP_DELETE, SetupRemoveFromDiskSpaceList, SetupRemoveFromDiskSpaceList function [Setup API], SetupRemoveFromDiskSpaceListA, SetupRemoveFromDiskSpaceListW, _setupapi_setupremovefromdiskspacelist, setup.setupremovefromdiskspacelist, setupapi/SetupRemoveFromDiskSpaceList, setupapi/SetupRemoveFromDiskSpaceListA, setupapi/SetupRemoveFromDiskSpaceListW
 ms.prod: windows
 ms.technology: windows-sdk

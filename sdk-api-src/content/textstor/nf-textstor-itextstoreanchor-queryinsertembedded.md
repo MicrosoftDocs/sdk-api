@@ -15,8 +15,8 @@ ms.topic: method
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -65,7 +65,7 @@ Pointer to the object type. If <b>NULL</b>, <i>pFormatEtc</i> should be used.
 
 ### -param pFormatEtc [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/ms682242(v=VS.85).aspx">FORMATETC</a> structure that contains format data of the object. This parameter cannot be <b>NULL</b> if the <i>pguidService</i> parameter is <b>NULL</b>.
+Pointer to the <a href="_com_the_formatetc_structure">FORMATETC</a> structure that contains format data of the object. This parameter cannot be <b>NULL</b> if the <i>pguidService</i> parameter is <b>NULL</b>.
 
 
 ### -param pfInsertable [out]
@@ -126,7 +126,7 @@ The clipboard formats supported by the document are dependent on the application
 
 
 
-<a href="https://msdn.microsoft.com/library/ms682242(v=VS.85).aspx">FORMATETC</a>
+<a href="_com_the_formatetc_structure">FORMATETC</a>
 
 
 

@@ -4,10 +4,10 @@ title: RtlUnicodeToMultiByteSize function
 author: windows-sdk-content
 description: Determines how many bytes are needed to represent a Unicode string as an ANSI string.
 old-location: winprog\rtlunicodetomultibytesize.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlunicodetomultibytesize.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: RtlUnicodeToMultiByteSize, RtlUnicodeToMultiByteSize function [Windows API], winprog.rtlunicodetomultibytesize, winternl/RtlUnicodeToMultiByteSize, winui.rtlunicodetomultibytesize
 ms.prod: windows
 ms.technology: windows-sdk

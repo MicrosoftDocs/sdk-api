@@ -7,7 +7,7 @@ old-location: shell\SHHandleUpdateImage.htm
 old-project: shell
 ms.assetid: 9d43e28a-bce0-4da4-98c9-5a6a199b4d8e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: SHHandleUpdateImage, SHHandleUpdateImage function [Windows Shell], _win32_SHHandleUpdateImage, shell.SHHandleUpdateImage, shlobj_core/SHHandleUpdateImage
 ms.prod: windows
 ms.technology: windows-sdk

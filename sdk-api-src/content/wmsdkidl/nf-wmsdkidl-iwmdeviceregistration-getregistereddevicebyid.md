@@ -7,7 +7,7 @@ old-location: wmformat\iwmdeviceregistration_getregistereddevicebyid.htm
 old-project: wmformat
 ms.assetid: 26ded37b-1169-4c47-8880-bd19c977171e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetRegisteredDeviceByID, GetRegisteredDeviceByID method [windows Media Format], GetRegisteredDeviceByID method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetRegisteredDeviceByID method, IWMDeviceRegistration.GetRegisteredDeviceByID, IWMDeviceRegistration::GetRegisteredDeviceByID, IWMDeviceRegistrationGetRegisteredDeviceByID, wmformat.iwmdeviceregistration_getregistereddevicebyid, wmsdkidl/IWMDeviceRegistration::GetRegisteredDeviceByID
 ms.prod: windows
 ms.technology: windows-sdk

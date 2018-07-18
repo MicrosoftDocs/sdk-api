@@ -4,10 +4,10 @@ title: PeerCollabInviteEndpoint function
 author: windows-sdk-content
 description: Sends an invitation to a specified peer endpoint to join the sender's peer collaboration activity. This call is synchronous and, if successful, obtains a response from the peer endpoint.
 old-location: p2p\peercollabinviteendpoint.htm
-old-project: p2psdk
+old-project: P2PSdk
 ms.assetid: c77eee5b-6fee-4eaa-ac0e-94a0fd3df92e
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/16/2018
 ms.keywords: PeerCollabInviteEndpoint, PeerCollabInviteEndpoint function [Peer Networking], p2p.peercollabinviteendpoint, p2p/PeerCollabInviteEndpoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -139,7 +139,7 @@ This API sends an invitation to the endpoint specified as input. It does not gua
 A toast will appear for the recipient of the invitation. This toast will be converted to a dialog box in which the user can accept or decline the invitation. When the invitation is successfully accepted, the collaborative application is launched on the recipient's machine.
 
 
-To successfully receive the invitation, the application must be registered on the recipient's machine using <a href="https://msdn.microsoft.com/library/Aa371076(v=VS.85).aspx">PeerCollabRegisterApplication</a>. It is also possible for the sender of the invite to have  failure codes returned because the recipient has turned off application invites.
+To successfully receive the invitation, the application must be registered on the recipient's machine using <a href="p2p.peercollabregisterapplication">PeerCollabRegisterApplication</a>. It is also possible for the sender of the invite to have  failure codes returned because the recipient has turned off application invites.
 
 
 The recipient of the invitation must respond within 5 minutes to avoid timeout.

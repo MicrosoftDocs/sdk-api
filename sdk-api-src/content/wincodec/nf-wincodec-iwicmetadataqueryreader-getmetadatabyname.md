@@ -15,8 +15,8 @@ ms.topic: method
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -68,7 +68,7 @@ The query expression to the requested metadata block or item.
 
 ### -param pvarValue [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 When this method returns, contains the metadata block or item requested.
 
@@ -120,7 +120,7 @@ If multiple blocks or items exist that are expressed by the same query expressio
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>
+<a href="_stg_propvariant">PROPVARIANT</a>
 
 
 

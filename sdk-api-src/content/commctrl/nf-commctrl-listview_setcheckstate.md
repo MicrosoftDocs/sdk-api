@@ -4,10 +4,10 @@ title: ListView_SetCheckState macro
 author: windows-sdk-content
 description: Selects or deselects an item in a list-view control. You can use this macro or send the LVM_SETITEMSTATE message explicitly.
 old-location: controls\ListView_SetCheckState.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcheckstate.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ListView_SetCheckState, ListView_SetCheckState macro [Windows Controls], _win32_ListView_SetCheckState, _win32_ListView_SetCheckState_cpp, commctrl/ListView_SetCheckState, controls.ListView_SetCheckState, controls._win32_ListView_SetCheckState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Selects or deselects an item in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761196(v=VS.85).aspx">LVM_SETITEMSTATE</a> message explicitly.
+Selects or deselects an item in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/aecd14dd-cfd0-4c7c-bddc-f65022de68c9">LVM_SETITEMSTATE</a> message explicitly.
 
 
 ## -parameters
@@ -88,7 +88,7 @@ The index of the item for which to set the check state.
 
 
 
-This macro should only be used for list-view controls with the <a href="https://msdn.microsoft.com/library/Bb774732(v=VS.85).aspx">LVS_EX_CHECKBOXES</a> style. 
+This macro should only be used for list-view controls with the <a href="Extended_list_view_styles.htm">LVS_EX_CHECKBOXES</a> style. 
 
 
 
@@ -98,7 +98,7 @@ This macro should only be used for list-view controls with the <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775102(v=VS.85).aspx">ListView_SetItemState</a>
+<a href="https://msdn.microsoft.com/b90900f1-833b-418c-8ddc-76c0743b77f9">ListView_SetItemState</a>
  
 
  

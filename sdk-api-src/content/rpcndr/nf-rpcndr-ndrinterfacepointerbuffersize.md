@@ -15,8 +15,8 @@ ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -78,7 +78,7 @@ Pointer to the format string description.
 
 
 
-This function has no return values. If an error occurs, the function throws  one of the following exception codes. In addition, the function can throw exception codes from <a href="https://msdn.microsoft.com/library/ms692640(v=VS.85).aspx">CoGetMarshalSizeMax</a>.
+This function has no return values. If an error occurs, the function throws  one of the following exception codes. In addition, the function can throw exception codes from <a href="_com_cogetmarshalsizemax">CoGetMarshalSizeMax</a>.
 
 <table>
 <tr>

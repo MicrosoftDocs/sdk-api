@@ -15,8 +15,8 @@ ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -106,7 +106,7 @@ Lead byte values are specific to each distinct DBCS. Some byte values can appear
 To make sense of a DBCS string, an application normally starts at the beginning of a string and scans forward, 
     keeping track when it encounters a lead byte, and treating the next byte as the trailing part of the same 
     character. If the application must back up, it should use 
-    <a href="https://msdn.microsoft.com/library/ms647471(v=VS.85).aspx">CharPrev</a> instead of attempting to develop its own 
+    <a href="_win32_CharPrev_cpp">CharPrev</a> instead of attempting to develop its own 
     algorithm.
 
 

@@ -15,8 +15,8 @@ ms.topic: function
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP with SP2 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -179,7 +179,7 @@ Compared to  the functions it replaces, <b>StringCchLength</b> is an additional 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647509(v=VS.85).aspx">StringCbLength</a>
+<a href="https://msdn.microsoft.com/a1aa834c-53e7-4321-9db4-86f32ef31dc4">StringCbLength</a>
  
 
  

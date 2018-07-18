@@ -7,7 +7,7 @@ old-location: shell\ITaskbarList_SetActiveAlt.htm
 old-project: shell
 ms.assetid: b9d08a72-6a4d-483b-bf12-3f78e1d2237a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ITaskbarList interface [Windows Shell],SetActiveAlt method, ITaskbarList.SetActiveAlt, ITaskbarList::SetActiveAlt, SetActiveAlt, SetActiveAlt method [Windows Shell], SetActiveAlt method [Windows Shell],ITaskbarList interface, _win32_ITaskbarList_SetActiveAlt, shell.ITaskbarList_SetActiveAlt, shobjidl_core/ITaskbarList::SetActiveAlt
 ms.prod: windows
 ms.technology: windows-sdk

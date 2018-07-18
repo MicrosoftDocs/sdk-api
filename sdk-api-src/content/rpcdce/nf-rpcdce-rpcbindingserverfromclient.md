@@ -146,7 +146,7 @@ The following protocol sequences support
 <a href="https://msdn.microsoft.com/c9133fcc-6dc2-49da-9c6f-5ce3c51090d5">ncadg_ip_udp</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/6b136eb9-4e18-43ff-993b-a2ad005273f1">ncadg_ipx</a>
+<a href="https://msdn.microsoft.com/">ncadg_ipx</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/8142c667-9a5f-4066-a36d-1bb5ce551d21">ncacn_ip_tcp</a>

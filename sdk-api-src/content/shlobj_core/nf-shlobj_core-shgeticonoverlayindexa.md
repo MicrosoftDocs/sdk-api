@@ -7,7 +7,7 @@ old-location: shell\SHGetIconOverlayIndex.htm
 old-project: shell
 ms.assetid: 20001ae0-05d0-46a7-8bb8-9bb722f5d795
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IDO_SHGIOI_DEFAULT, IDO_SHGIOI_LINK, IDO_SHGIOI_SHARE, IDO_SHGIOI_SLOWFILE, SHGetIconOverlayIndex, SHGetIconOverlayIndex function [Windows Shell], SHGetIconOverlayIndexA, SHGetIconOverlayIndexW, _win32_SHGetIconOverlayIndex, shell.SHGetIconOverlayIndex, shlobj_core/SHGetIconOverlayIndex, shlobj_core/SHGetIconOverlayIndexA, shlobj_core/SHGetIconOverlayIndexW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,7 +114,7 @@ Returns the index of the overlay icon in the system image list if successful, or
 
 
 
-Icon overlays are part of the system image list. They have two identifiers. The first is a one-based overlay index that identifies the overlay relative to other overlays in the image list. The other is an image index that identifies the actual image. These two indexes are equivalent to the values that you assign to the <i>iOverlay</i> and <i>iImage</i> parameters, respectively, when you add an icon overlay to a private image list with <a href="https://msdn.microsoft.com/library/Bb775227(v=VS.85).aspx">ImageList_SetOverlayImage</a>. <b>SHGetIconOverlayIndex</b> returns the overlay index. To convert an overlay index to its equivalent image index, call <a href="https://msdn.microsoft.com/library/Bb761408(v=VS.85).aspx">INDEXTOOVERLAYMASK</a>.
+Icon overlays are part of the system image list. They have two identifiers. The first is a one-based overlay index that identifies the overlay relative to other overlays in the image list. The other is an image index that identifies the actual image. These two indexes are equivalent to the values that you assign to the <i>iOverlay</i> and <i>iImage</i> parameters, respectively, when you add an icon overlay to a private image list with <a href="https://msdn.microsoft.com/8cb1babc-01bd-4aae-9bc7-073050242ce4">ImageList_SetOverlayImage</a>. <b>SHGetIconOverlayIndex</b> returns the overlay index. To convert an overlay index to its equivalent image index, call <a href="https://msdn.microsoft.com/6619d390-0c23-41ff-a07b-31425e47712b">INDEXTOOVERLAYMASK</a>.
 
 <div class="alert"><b>Note</b>  After the image has been loaded into the system image list during initialization, it cannot be changed. The file name and index specified by <i>pszIconPath</i> and <i>iIconIndex</i> are used only to identify the icon overlay. <b>SHGetIconOverlayIndex</b> cannot be used to modify the system image list.</div>
 <div> </div>

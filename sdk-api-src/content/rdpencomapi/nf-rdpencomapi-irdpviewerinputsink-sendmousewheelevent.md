@@ -4,10 +4,10 @@ title: IRDPViewerInputSink::SendMouseWheelEvent
 author: windows-sdk-content
 description: Sends a mouse wheel event message.
 old-location: rdp\irdpviewerinputsink_sendmousewheelevent.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: CEC54C27-F49E-4B41-A18D-69F0414955A1
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IRDPViewerInputSink interface [RDP],SendMouseWheelEvent method, IRDPViewerInputSink.SendMouseWheelEvent, IRDPViewerInputSink::SendMouseWheelEvent, SendMouseWheelEvent, SendMouseWheelEvent method [RDP], SendMouseWheelEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendmousewheelevent, rdpencomapi/IRDPViewerInputSink::SendMouseWheelEvent
 ms.prod: windows
 ms.technology: windows-sdk

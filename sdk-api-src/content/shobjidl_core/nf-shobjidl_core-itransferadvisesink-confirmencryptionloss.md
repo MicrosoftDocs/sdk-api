@@ -7,7 +7,7 @@ old-location: shell\ITransferAdviseSink_ConfirmEncryptionLoss.htm
 old-project: shell
 ms.assetid: 6c6c6c6a-9eb0-43dd-a51f-cdbe6d538652
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ConfirmEncryptionLoss, ConfirmEncryptionLoss method [Windows Shell], ConfirmEncryptionLoss method [Windows Shell],ITransferAdviseSink interface, ITransferAdviseSink interface [Windows Shell],ConfirmEncryptionLoss method, ITransferAdviseSink.ConfirmEncryptionLoss, ITransferAdviseSink::ConfirmEncryptionLoss, _shell_ITransferAdviseSink_ConfirmEncryptionLoss, shell.ITransferAdviseSink_ConfirmEncryptionLoss, shobjidl_core/ITransferAdviseSink::ConfirmEncryptionLoss
 ms.prod: windows
 ms.technology: windows-sdk

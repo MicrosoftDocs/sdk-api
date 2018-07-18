@@ -4,10 +4,10 @@ title: PeerGroupRegisterEvent function
 author: windows-sdk-content
 description: The PeerGroupRegisterEvent function registers a peer for specific peer group events.
 old-location: p2p\peergroupregisterevent.htm
-old-project: p2psdk
+old-project: P2PSdk
 ms.assetid: a4dc100a-d3dc-408e-a425-bded11d04db5
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/16/2018
 ms.keywords: PeerGroupRegisterEvent, PeerGroupRegisterEvent function [Peer Networking], p2p.peergroupregisterevent, p2p/PeerGroupRegisterEvent
 ms.prod: windows
 ms.technology: windows-sdk

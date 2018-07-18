@@ -4,10 +4,10 @@ title: tagNMREBARCHILDSIZE
 author: windows-sdk-content
 description: Contains information used in handling the RBN_CHILDSIZE notification code.
 old-location: controls\NMREBARCHILDSIZE.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebarchildsize.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*LPNMREBARCHILDSIZE, LPNMREBARCHILDSIZE, LPNMREBARCHILDSIZE structure pointer [Windows Controls], NMREBARCHILDSIZE, NMREBARCHILDSIZE structure [Windows Controls], _win32_NMREBARCHILDSIZE, _win32_NMREBARCHILDSIZE_cpp, commctrl/LPNMREBARCHILDSIZE, commctrl/NMREBARCHILDSIZE, controls.NMREBARCHILDSIZE, controls._win32_NMREBARCHILDSIZE, tagNMREBARCHILDSIZE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information used in handling the <a href="https://msdn.microsoft.com/library/Bb774411(v=VS.85).aspx">RBN_CHILDSIZE</a> notification code. 
+Contains information used in handling the <a href="https://msdn.microsoft.com/ba64d21a-e568-4894-8007-be644ae4f54a">RBN_CHILDSIZE</a> notification code. 
 
 
 ## -struct-fields
@@ -60,10 +60,10 @@ Contains information used in handling the <a href="https://msdn.microsoft.com/li
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field uBand

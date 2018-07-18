@@ -7,7 +7,7 @@ old-location: cos\componentstatistics.htm
 old-project: cossdk
 ms.assetid: 26bc5fc4-3e34-41cc-ba11-5c13cf54521f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ComponentStatistics, ComponentStatistics structure [COM+], _ComponentStatistics, comsvcs/ComponentStatistics, cos.componentstatistics
 ms.prod: windows
 ms.technology: windows-sdk

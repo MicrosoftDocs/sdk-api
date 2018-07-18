@@ -4,10 +4,10 @@ title: tagLVGROUP
 author: windows-sdk-content
 description: Used to set and retrieve groups.
 old-location: controls\LVGROUP.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lv_group.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*PLVGROUP, LVGF_FOOTER, LVGF_HEADER, LVGF_NONE, LVGF_STATE, LVGROUP, LVGROUP structure [Windows Controls], PLVGROUP, PLVGROUP structure pointer [Windows Controls], commctrl/LVGROUP, commctrl/PLVGROUP, controls.LVGROUP, controls.inet_LVGROUP, inet_LVGROUP, inet_LVGROUP_cpp, tagLVGROUP"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -295,7 +295,7 @@ ID of the group.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Mask used with <a href="https://msdn.microsoft.com/library/Bb774932(v=VS.85).aspx">LVM_GETGROUPINFO</a>  and <a href="https://msdn.microsoft.com/library/Bb761167(v=VS.85).aspx">LVM_SETGROUPINFO</a> to specify which flags in the <b>state</b> value are being retrieved or set.
+Mask used with <a href="https://msdn.microsoft.com/72d84e0b-121e-473b-a34d-874234c598b6">LVM_GETGROUPINFO</a>  and <a href="https://msdn.microsoft.com/f79bd235-e2de-4055-be3e-76eb2744e1ee">LVM_SETGROUPINFO</a> to specify which flags in the <b>state</b> value are being retrieved or set.
 
 
 ### -field state
@@ -527,7 +527,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPWSTR</a></b>
 
 
-             Pointer to a null-terminated string that contains the text for a task link when item information is being set. If group information is being retrieved, this member specifies the address of the buffer that receives the task text. This item is drawn right-aligned opposite the header text. When clicked by the user, the task link generates an <a href="https://msdn.microsoft.com/library/Bb774851(v=VS.85).aspx">LVN_LINKCLICK</a> notification.
+             Pointer to a null-terminated string that contains the text for a task link when item information is being set. If group information is being retrieved, this member specifies the address of the buffer that receives the task text. This item is drawn right-aligned opposite the header text. When clicked by the user, the task link generates an <a href="https://msdn.microsoft.com/de8f40d6-b79e-4324-af67-9a3c0915609d">LVN_LINKCLICK</a> notification.
 
 
 ### -field cchTask

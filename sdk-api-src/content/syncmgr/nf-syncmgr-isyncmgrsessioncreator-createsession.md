@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSessionCreator_CreateSession.htm
 old-project: shell
 ms.assetid: d1df43b6-406c-4da0-89f0-a17e51101520
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CreateSession, CreateSession method [Windows Shell], CreateSession method [Windows Shell],ISyncMgrSessionCreator interface, ISyncMgrSessionCreator interface [Windows Shell],CreateSession method, ISyncMgrSessionCreator.CreateSession, ISyncMgrSessionCreator::CreateSession, _shell_ISyncMgrSessionCreator_CreateSession, shell.ISyncMgrSessionCreator_CreateSession, syncmgr/ISyncMgrSessionCreator::CreateSession
 ms.prod: windows
 ms.technology: windows-sdk

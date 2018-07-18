@@ -7,7 +7,7 @@ old-location: devinst\cm_get_sibling.htm
 old-project: devinst
 ms.assetid: ac3b7bca-1504-465a-8dcf-dcde9da686a9
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/16/2018
 ms.keywords: CM_Get_Sibling, CM_Get_Sibling function [Device and Driver Installation], cfgmgr32/CM_Get_Sibling, cfgmgrfn_cc0cd494-9629-4915-a0b3-e634516eb62f.xml, devinst.cm_get_sibling
 ms.prod: windows
 ms.technology: windows-sdk

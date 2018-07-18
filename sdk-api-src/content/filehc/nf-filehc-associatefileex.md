@@ -4,10 +4,10 @@ title: AssociateFileEx function
 author: windows-sdk-content
 description: Associates a file with an asnychronous context.
 old-location: winprog\_associatefileex.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: b7efaa05-e6ac-4fb8-889f-ff6fa0755476
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: AssociateFileEx, AssociateFileEx function [Windows API], filehc/AssociateFileEx, winprog._associatefileex
 ms.prod: windows
 ms.technology: windows-sdk

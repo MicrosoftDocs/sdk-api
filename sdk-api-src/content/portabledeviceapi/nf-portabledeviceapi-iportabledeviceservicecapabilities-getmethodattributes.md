@@ -15,7 +15,7 @@ ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -83,7 +83,7 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 
 
 
-Possible attributes include the <a href="https://msdn.microsoft.com/library/Dd389006(v=VS.85).aspx">WPD_METHOD_ATTRIBUTE_NAME</a>, <b>WPD_METHOD_ATTRIBUTE_ASSOCIATED_FORMAT</b>, <b>WPD_METHOD_ATTRIBUTE_ACCESS</b>, and <a href="https://msdn.microsoft.com/library/Dd389067(v=VS.85).aspx">WPD_METHOD_ATTRIBUTE_PARAMETERS</a> properties.
+Possible attributes include the <a href="wpd_attributes.htm">WPD_METHOD_ATTRIBUTE_NAME</a>, <b>WPD_METHOD_ATTRIBUTE_ASSOCIATED_FORMAT</b>, <b>WPD_METHOD_ATTRIBUTE_ACCESS</b>, and <a href="wpd_method_attributes.htm">WPD_METHOD_ATTRIBUTE_PARAMETERS</a> properties.
       
 
 

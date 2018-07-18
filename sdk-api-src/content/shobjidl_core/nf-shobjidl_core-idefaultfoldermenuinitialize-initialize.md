@@ -7,7 +7,7 @@ old-location: shell\IDefaultFolderMenuInitialize_Initialize.htm
 old-project: shell
 ms.assetid: D837712B-1FF3-4021-BA50-E433BF5B24C2
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IDefaultFolderMenuInitialize interface [Windows Shell],Initialize method, IDefaultFolderMenuInitialize.Initialize, IDefaultFolderMenuInitialize::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IDefaultFolderMenuInitialize interface, shell.IDefaultFolderMenuInitialize_Initialize, shobjidl_core/IDefaultFolderMenuInitialize::Initialize
 ms.prod: windows
 ms.technology: windows-sdk

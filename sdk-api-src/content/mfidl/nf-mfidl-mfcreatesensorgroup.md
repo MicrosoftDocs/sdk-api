@@ -15,7 +15,7 @@ ms.topic: function
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10, version 1607 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 10, version 1607 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

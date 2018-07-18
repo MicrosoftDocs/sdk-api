@@ -4,10 +4,10 @@ title: PeerCollabExportContact function
 author: windows-sdk-content
 description: Exports the contact data associated with a peer name to a string buffer. The buffer contains contact data in XML format.
 old-location: p2p\peercollabexportcontact.htm
-old-project: p2psdk
+old-project: P2PSdk
 ms.assetid: 8239e42f-3d86-416e-ad1b-93a37091811f
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/16/2018
 ms.keywords: PeerCollabExportContact, PeerCollabExportContact function [Peer Networking], p2p.peercollabexportcontact, p2p/PeerCollabExportContact
 ms.prod: windows
 ms.technology: windows-sdk

@@ -15,7 +15,7 @@ ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -83,7 +83,7 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd389056(v=VS.85).aspx">WPD_FORMAT_ATTRIBUTE_NAME</a> is an example of a commonly retrieved attribute.
+<a href="wpd_format_attributes.htm">WPD_FORMAT_ATTRIBUTE_NAME</a> is an example of a commonly retrieved attribute.
       
 
 

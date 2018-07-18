@@ -4,10 +4,10 @@ title: PeerGroupStartup function
 author: windows-sdk-content
 description: The PeerGroupStartup function initiates a peer group by using a requested version of the Peer infrastructure.
 old-location: p2p\peergroupstartup.htm
-old-project: p2psdk
+old-project: P2PSdk
 ms.assetid: c07e200d-9578-4367-a0f8-699ae300fc1f
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/16/2018
 ms.keywords: PeerGroupStartup, PeerGroupStartup function [Peer Networking], p2p.peergroupstartup, p2p/PeerGroupStartup
 ms.prod: windows
 ms.technology: windows-sdk

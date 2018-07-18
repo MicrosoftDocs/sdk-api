@@ -15,8 +15,8 @@ ms.topic: method
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -128,7 +128,7 @@ The cookie in <i>ec</i> is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms629023(v=VS.85).aspx">Anchor Gravity</a>
+<a href="ranges.htm">Anchor Gravity</a>
 
 
 

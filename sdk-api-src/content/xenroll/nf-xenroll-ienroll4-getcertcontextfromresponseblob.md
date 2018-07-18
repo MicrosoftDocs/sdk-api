@@ -4,10 +4,10 @@ title: IEnroll4::getCertContextFromResponseBlob
 author: windows-sdk-content
 description: Retrieves the certificate from a certification authority's response.
 old-location: security\ienroll4_getcertcontextfromresponseblob.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 824626bf-a20d-4d34-a061-9f54b142e0fc
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IEnroll4 interface [Security],getCertContextFromResponseBlob method, IEnroll4.getCertContextFromResponseBlob, IEnroll4::getCertContextFromResponseBlob, getCertContextFromResponseBlob, getCertContextFromResponseBlob method [Security], getCertContextFromResponseBlob method [Security],IEnroll4 interface, security.ienroll4_getcertcontextfromresponseblob, xenroll/IEnroll4::getCertContextFromResponseBlob
 ms.prod: windows
 ms.technology: windows-sdk

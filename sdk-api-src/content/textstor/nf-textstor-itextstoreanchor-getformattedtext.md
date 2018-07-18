@@ -15,8 +15,8 @@ ms.topic: method
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -71,7 +71,7 @@ Anchor position at which to end retrieval of formatted text.
 
 ### -param ppDataObject [out]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a> object that contains the formatted text.
+Pointer to the <a href="_ole_idataobject">IDataObject</a> object that contains the formatted text.
 
 
 ## -returns
@@ -149,7 +149,7 @@ Text, embedded objects, and any formatting are wrapped into a single <b>IDataObj
 
 
 
-<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

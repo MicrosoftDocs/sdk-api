@@ -303,6 +303,9 @@ This value is reserved.
 ### -field TokenChildProcessFlags
 
 
+### -field TokenIsLessPrivilegedAppContainer
+
+
 ### -field MaxTokenInfoClass
 
 The maximum value for this enumeration.

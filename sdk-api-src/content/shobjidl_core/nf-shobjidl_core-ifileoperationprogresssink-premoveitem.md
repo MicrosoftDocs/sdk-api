@@ -7,7 +7,7 @@ old-location: shell\IFileOperationProgressSink_PreMoveItem.htm
 old-project: shell
 ms.assetid: bd92c9fa-fdea-4149-9727-90eafdf7c6bc
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PreMoveItem method, IFileOperationProgressSink.PreMoveItem, IFileOperationProgressSink::PreMoveItem, PreMoveItem, PreMoveItem method [Windows Shell], PreMoveItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PreMoveItem, shell.IFileOperationProgressSink_PreMoveItem, shobjidl_core/IFileOperationProgressSink::PreMoveItem
 ms.prod: windows
 ms.technology: windows-sdk

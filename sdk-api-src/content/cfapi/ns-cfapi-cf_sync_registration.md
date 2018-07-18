@@ -93,6 +93,13 @@ An optional file identity. This member has a maximum size of 4 KB.
 The length of the file identity.
 
 
+### -field ProviderId
+
+ 
+
+
+
+
 ## -remarks
 
 

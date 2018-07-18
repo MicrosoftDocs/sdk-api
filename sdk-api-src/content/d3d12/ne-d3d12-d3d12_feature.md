@@ -178,6 +178,9 @@ req.irql:
 ### -field D3D12_FEATURE_CROSS_NODE
 
 
+### -field D3D12_FEATURE_D3D12_OPTIONS5
+
+
 
 
 ## -remarks

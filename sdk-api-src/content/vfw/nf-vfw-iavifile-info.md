@@ -7,7 +7,7 @@ old-location: multimedia\iavifile_info.htm
 old-project: Multimedia
 ms.assetid: cac01da4-b979-4386-8fc7-f47a7771e6f4
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IAVIFile interface [Windows Multimedia],Info method, IAVIFile.Info, IAVIFile::Info, Info, Info method [Windows Multimedia], Info method [Windows Multimedia],IAVIFile interface, _win32_IAVIFile_Info, multimedia.iavifile_info, vfw/IAVIFile::Info
 ms.prod: windows
 ms.technology: windows-sdk

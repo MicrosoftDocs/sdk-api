@@ -4,10 +4,10 @@ title: NdrSimpleStructMarshall function
 author: windows-sdk-content
 description: The NdrSimpleStructMarshall function marshals the simple structure into a network buffer.
 old-location: winprog\ndrsimplestructmarshall.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: 9e921653-0669-4fe9-8a54-509ed39ad204
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: NdrSimpleStructMarshall, NdrSimpleStructMarshall function [Windows API], rpcndr/NdrSimpleStructMarshall, winprog.ndrsimplestructmarshall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: function
 req.header: rpcndr.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

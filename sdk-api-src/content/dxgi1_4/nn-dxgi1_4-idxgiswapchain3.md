@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain3.htm
 old-project: direct3ddxgi
 ms.assetid: 3B91A70D-C635-46DF-871D-F1796D4E50E7
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IDXGISwapChain3, IDXGISwapChain3 interface [DXGI], IDXGISwapChain3 interface [DXGI],described, direct3ddxgi.idxgiswapchain3, dxgi1_4/IDXGISwapChain3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: interface
 req.header: dxgi1_4.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

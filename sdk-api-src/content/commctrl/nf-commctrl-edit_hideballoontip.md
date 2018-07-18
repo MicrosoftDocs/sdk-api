@@ -4,10 +4,10 @@ title: Edit_HideBalloonTip macro
 author: windows-sdk-content
 description: Hides any balloon tip associated with an edit control. You can use this macro or send the EM_HIDEBALLOONTIP message explicitly.
 old-location: controls\Edit_HideBalloonTip.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_hideballoontip.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Edit_HideBalloonTip, Edit_HideBalloonTip macro [Windows Controls], _win32_Edit_HideBalloonTip, _win32_Edit_HideBalloonTip_cpp, commctrl/Edit_HideBalloonTip, controls.Edit_HideBalloonTip, controls._win32_Edit_HideBalloonTip
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Hides any balloon tip associated with an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761604(v=VS.85).aspx">EM_HIDEBALLOONTIP</a> message explicitly. 
+Hides any balloon tip associated with an edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/820b98d6-c2bd-4821-ba44-9d58e23eac81">EM_HIDEBALLOONTIP</a> message explicitly. 
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A handle to the edit control.
 
 
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 
@@ -83,11 +83,11 @@ A handle to the edit control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761604(v=VS.85).aspx">EM_HIDEBALLOONTIP</a>
+<a href="https://msdn.microsoft.com/820b98d6-c2bd-4821-ba44-9d58e23eac81">EM_HIDEBALLOONTIP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775458(v=VS.85).aspx">Edit Controls</a>
+<a href="https://msdn.microsoft.com/2a71b92c-f57a-4c27-80b7-e1d9092f3701">Edit Controls</a>
 
 
 

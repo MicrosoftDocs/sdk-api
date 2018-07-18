@@ -7,7 +7,7 @@ old-location: cos\iservicepoolconfig_put_classfactory.htm
 old-project: cossdk
 ms.assetid: 329c67f0-3c02-4cea-bee6-b5c8aaa9471b
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IServicePoolConfig interface [COM+],put_ClassFactory method, IServicePoolConfig.put_ClassFactory, IServicePoolConfig::put_ClassFactory, comsvcs/IServicePoolConfig::put_ClassFactory, cos.iservicepoolconfig_put_classfactory, put_ClassFactory, put_ClassFactory method [COM+], put_ClassFactory method [COM+],IServicePoolConfig interface
 ms.prod: windows
 ms.technology: windows-sdk

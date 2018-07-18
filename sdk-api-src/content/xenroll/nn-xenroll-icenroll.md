@@ -4,10 +4,10 @@ title: ICEnroll
 author: windows-sdk-content
 description: The ICEnroll interface is one of several interfaces that represent the Certificate Enrollment Control.
 old-location: security\icenroll.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: d5b746e0-91bd-45bd-9a67-ddc8868cee56
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ICEnroll, ICEnroll interface [Security], ICEnroll interface [Security],described, _xen_icenroll, security.icenroll, xenroll/ICEnroll
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ The <b>ICEnroll</b> interface is one of several interfaces that represent the Ce
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICEnroll</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICEnroll</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICEnroll</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICEnroll</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -835,7 +835,7 @@ Sets or retrieves a Boolean value that indicates whether a certificate should be
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

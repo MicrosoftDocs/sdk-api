@@ -61,7 +61,7 @@ Describes a shader-resource view.
 ### -field Format
 
 
-            A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that  specifies the viewing format. See remarks.
+            A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed value that  specifies the viewing format. See remarks.
           
 
 
@@ -150,6 +150,13 @@ Describes a shader-resource view.
 
               A <a href="https://msdn.microsoft.com/58DDCEB5-A0B7-4E8D-ABE2-3B5B02C92D8D">D3D12_TEXCUBE_ARRAY_SRV</a> structure that views the resource as a 3D-cube-texture array.
             
+
+
+### -field RaytracingAccelerationStructure
+
+ 
+
+
 
 
 ## -remarks

@@ -7,7 +7,7 @@ old-location: dshow\iammediastream_joinfilter.htm
 old-project: DirectShow
 ms.assetid: 638ab6e1-7663-4f15-a487-e22496672ddb
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IAMMediaStream interface [DirectShow],JoinFilter method, IAMMediaStream.JoinFilter, IAMMediaStream::JoinFilter, IAMMediaStreamJoinFilter, JoinFilter, JoinFilter method [DirectShow], JoinFilter method [DirectShow],IAMMediaStream interface, amstream/IAMMediaStream::JoinFilter, dshow.iammediastream_joinfilter
 ms.prod: windows
 ms.technology: windows-sdk

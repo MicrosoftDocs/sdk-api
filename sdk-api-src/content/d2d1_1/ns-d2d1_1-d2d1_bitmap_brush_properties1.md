@@ -15,8 +15,8 @@ ms.topic: struct
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -75,7 +75,7 @@ A value that describes how the brush vertically tiles those areas that extend pa
 
 ### -field interpolationMode
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh447004(v=VS.85).aspx">D2D1_INTERPOLATION_MODE</a></b>
+Type: <b><a href="direct2d.__D2D1_INTERPOLATION_MODE">D2D1_INTERPOLATION_MODE</a></b>
 
 A value that specifies how the bitmap is interpolated when it is scaled or rotated.
 

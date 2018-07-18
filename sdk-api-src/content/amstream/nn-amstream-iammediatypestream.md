@@ -7,7 +7,7 @@ old-location: dshow\iammediatypestream.htm
 old-project: DirectShow
 ms.assetid: 6ca1bad2-625b-4415-8311-acd5443452c1
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IAMMediaTypeStream, IAMMediaTypeStream interface [DirectShow], IAMMediaTypeStream interface [DirectShow],described, IAMMediaTypeStreamInterface, amstream/IAMMediaTypeStream, dshow.iammediatypestream
 ms.prod: windows
 ms.technology: windows-sdk

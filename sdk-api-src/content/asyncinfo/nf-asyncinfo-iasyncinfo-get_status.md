@@ -15,8 +15,8 @@ ms.topic: method
 req.header: asyncinfo.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/BR205795(v=VS.85).aspx">IAsyncInfo</a>
+<a href="https://msdn.microsoft.com/8a96931a-2bd0-4cc6-9d23-68064d6d1913">IAsyncInfo</a>
  
 
  

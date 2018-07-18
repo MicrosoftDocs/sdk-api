@@ -87,6 +87,11 @@ Descriptors are static and data is static while set at execute.
 Both descriptors and data are static. This maximizes the potential for driver optimization.
 
 
+### -field D3D12_DESCRIPTOR_RANGE_FLAG_DESCRIPTORS_STATIC_KEEPING_BUFFER_BOUNDS_CHECKS
+
+
+
+
 ## -remarks
 
 

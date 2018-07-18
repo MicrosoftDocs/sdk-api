@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent_get_description.htm
 old-project: DirectShow
 ms.assetid: fc0c14f3-2764-4897-8ddb-ed1146d98597
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Description method, IAMMediaContent.get_Description, IAMMediaContent::get_Description, IAMMediaContentget_Description, dshow.iammediacontent_get_description, get_Description, get_Description method [DirectShow], get_Description method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Description
 ms.prod: windows
 ms.technology: windows-sdk

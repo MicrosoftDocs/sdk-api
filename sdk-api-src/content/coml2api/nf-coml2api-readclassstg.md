@@ -15,8 +15,8 @@ ms.topic: function
 req.header: coml2api.h
 req.include-header: Ole2.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -106,7 +106,7 @@ This function also returns any of the error values returned by the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms694338(v=VS.85).aspx">OleLoad</a>
+<a href="_ole_oleload">OleLoad</a>
 
 
 

@@ -4,10 +4,10 @@ title: ITextHost::TxGetDC
 author: windows-sdk-content
 description: Requests the device context for the text host window.
 old-location: controls\ITextHost_TxGetDC.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetdc.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetDC method, ITextHost.TxGetDC, ITextHost::TxGetDC, TxGetDC, TxGetDC method [Windows Controls], TxGetDC method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetDC, _win32_ITextHost_TxGetDC_cpp, controls.ITextHost_TxGetDC, controls._win32_ITextHost_TxGetDC, textserv/ITextHost::TxGetDC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
 
 
 
@@ -104,7 +104,7 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
  
 
  

@@ -15,8 +15,8 @@ ms.topic: method
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -75,12 +75,12 @@ Specifies whether the <i>pSourceAspectRatio</i> and <i>pDestinationAspectRatio</
 
 ### -param pSourceAspectRatio [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a> structure that contains the pixel aspect ratio of the source rectangle. If <i>Enable</i> is <b>FALSE</b>, this parameter can be <b>NULL</b>.
+A pointer to a <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a> structure that contains the pixel aspect ratio of the source rectangle. If <i>Enable</i> is <b>FALSE</b>, this parameter can be <b>NULL</b>.
 
 
 ### -param pDestinationAspectRatio [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a> structure that contains the pixel aspect ratio of the destination rectangle. If <i>Enable</i> is <b>FALSE</b>, this parameter can be <b>NULL</b>.
+A pointer to a <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a> structure that contains the pixel aspect ratio of the destination rectangle. If <i>Enable</i> is <b>FALSE</b>, this parameter can be <b>NULL</b>.
 
 
 ## -returns

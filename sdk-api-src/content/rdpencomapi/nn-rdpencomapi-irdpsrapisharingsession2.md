@@ -4,10 +4,10 @@ title: IRDPSRAPISharingSession2
 author: windows-sdk-content
 description: The main object that an application must create to start a collaboration session.
 old-location: rdp\irdpsrapisharingsession2.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: 3ac68be7-e6fd-42c7-b2f3-b90bb5097b07
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IRDPSRAPISharingSession2, IRDPSRAPISharingSession2 interface [RDP], IRDPSRAPISharingSession2 interface [RDP],described, rdp.irdpsrapisharingsession2, rdpencomapi/IRDPSRAPISharingSession2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

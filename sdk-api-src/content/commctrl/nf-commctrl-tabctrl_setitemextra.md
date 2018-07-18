@@ -4,10 +4,10 @@ title: TabCtrl_SetItemExtra macro
 author: windows-sdk-content
 description: Sets the number of bytes per tab reserved for application-defined data in a tab control. You can use this macro or send the TCM_SETITEMEXTRA message explicitly.
 old-location: controls\TabCtrl_SetItemExtra.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setitemextra.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: TabCtrl_SetItemExtra, TabCtrl_SetItemExtra macro [Windows Controls], _win32_TabCtrl_SetItemExtra, _win32_TabCtrl_SetItemExtra_cpp, commctrl/TabCtrl_SetItemExtra, controls.TabCtrl_SetItemExtra, controls._win32_TabCtrl_SetItemExtra
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the number of bytes per tab reserved for application-defined data in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760633(v=VS.85).aspx">TCM_SETITEMEXTRA</a> message explicitly. 
+Sets the number of bytes per tab reserved for application-defined data in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/8315f1fd-8eca-48bd-bb4a-71b09e8aa2c4">TCM_SETITEMEXTRA</a> message explicitly. 
 
 
 ## -parameters
@@ -81,7 +81,7 @@ Handle to the tab control.
 
 
 
-By default, the number of extra bytes is four. An application that changes the number of extra bytes cannot use the <a href="https://msdn.microsoft.com/library/Bb760554(v=VS.85).aspx">TCITEM</a> structure to retrieve and set the application-defined data for a tab. Instead, you must define a new structure that consists of the <a href="https://msdn.microsoft.com/library/Bb760556(v=VS.85).aspx">TCITEMHEADER</a> structure followed by application-defined members. 
+By default, the number of extra bytes is four. An application that changes the number of extra bytes cannot use the <a href="https://msdn.microsoft.com/e08c4528-5874-492c-97be-dfdf5f5636a9">TCITEM</a> structure to retrieve and set the application-defined data for a tab. Instead, you must define a new structure that consists of the <a href="https://msdn.microsoft.com/018a0de7-fc05-4b56-817b-1af36261fff2">TCITEMHEADER</a> structure followed by application-defined members. 
 
 An application should only change the number of extra bytes when a tab control does not contain any tabs. 
 

@@ -4,10 +4,10 @@ title: ScopeNamespace::GetNext
 author: windows-sdk-content
 description: The GetNext method returns the next child sibling node for a given scope node. Before calling this method, the caller must retrieve the first child node by calling the ScopeNamespace.GetChild method.
 old-location: mmc\scopenamespace_getnext.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 21d06208-e84d-4f98-9a69-56ba06004c82
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/16/2018
 ms.keywords: GetNext, GetNext method [MMC], GetNext method [MMC],ScopeNamespace interface, GetNext method [MMC],ScopeNamespace object, ScopeNamespace interface [MMC],GetNext method, ScopeNamespace object [MMC],GetNext method, ScopeNamespace.GetNext, ScopeNamespace::GetNext, _slate_scopenamespace.getnext_method, mmc.scopenamespace_getnext
 ms.prod: windows
 ms.technology: windows-sdk

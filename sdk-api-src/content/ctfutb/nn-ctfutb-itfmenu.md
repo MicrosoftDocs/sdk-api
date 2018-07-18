@@ -102,7 +102,7 @@ Adds an item to the menu that the language bar will display for the button.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

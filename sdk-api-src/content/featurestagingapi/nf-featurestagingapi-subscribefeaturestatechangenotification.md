@@ -4,10 +4,10 @@ title: SubscribeFeatureStateChangeNotification function
 author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\subscribefeaturestatechangenotification.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: 92FABC45-752D-4265-AA21-6A13A15CB64B
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: SubscribeFeatureStateChangeNotification, SubscribeFeatureStateChangeNotification function [Windows API], featurestagingapi/SubscribeFeatureStateChangeNotification, winprog.subscribefeaturestatechangenotification
 ms.prod: windows
 ms.technology: windows-sdk

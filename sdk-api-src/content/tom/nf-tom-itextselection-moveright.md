@@ -4,10 +4,10 @@ title: ITextSelection::MoveRight
 author: windows-sdk-content
 description: Generalizes the functionality of the Right Arrow key.
 old-location: controls\ITextSelection_MoveRight.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveright.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ITextSelection interface [Windows Controls],MoveRight method, ITextSelection.MoveRight, ITextSelection::MoveRight, MoveRight, MoveRight method [Windows Controls], MoveRight method [Windows Controls],ITextSelection interface, _win32_ITextSelection_MoveRight, _win32_ITextSelection_MoveRight_cpp, controls.ITextSelection_MoveRight, controls._win32_ITextSelection_MoveRight, tom/ITextSelection::MoveRight
 ms.prod: windows
 ms.technology: windows-sdk
@@ -170,7 +170,7 @@ Microsoft WordBasic move methods like
 <li>Return a Boolean stating if movement occurred. </li>
 </ul>
 The 
-				<i>Extend</i> argument of <a href="https://msdn.microsoft.com/library/Bb774074(v=VS.85).aspx">MoveLeft</a>  and <b>MoveRight</b> enables you to be consistent with the first three items above, and the 
+				<i>Extend</i> argument of <a href="https://msdn.microsoft.com/d15ee442-708d-4210-925c-f4320d57330a">MoveLeft</a>  and <b>MoveRight</b> enables you to be consistent with the first three items above, and the 
 				<i>pDelta</i> is a generalization of the fourth. For example, given a selection, s, consisting of a single range, you have the following correspondences (for left-to-right characters).
 
 <table class="clsStd">
@@ -201,7 +201,7 @@ Similar to WordBasic and the Right Arrow key UI behavior, calling <code>MoveRigh
 When 
 				<i>Extend</i> is <b>tomExtend</b> (or is nonzero), <b>MoveRight</b> moves only the active end of the selection, leaving the other end where it is. However, if 
 				<i>Extend</i> equals zero and the selection starts as a nondegenerate range, <code>MoveRight(Unit, Count)</code> where <code>Count</code> is greater than zero moves the active end <code>Count</code> - 1 units right, and then moves the other end to the active end. In other words, it makes an insertion point at the active end. Collapsing the range counts as one 
-				unit. Thus, <code>MoveRight(tomCharacter)</code> converts a nondegenerate selection into a degenerate one at the selection's right end. Here, <i>Count</i> has the default value of 1 and <i>Extend</i> has the default value of zero. This example corresponds to pressing the Right Arrow key. <a href="https://msdn.microsoft.com/library/Bb774074(v=VS.85).aspx">MoveLeft</a> and <b>MoveRight</b> are related to the <a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a> move methods, but differ in that they explicitly use the active end (the end moved by pressing the Shift key).
+				unit. Thus, <code>MoveRight(tomCharacter)</code> converts a nondegenerate selection into a degenerate one at the selection's right end. Here, <i>Count</i> has the default value of 1 and <i>Extend</i> has the default value of zero. This example corresponds to pressing the Right Arrow key. <a href="https://msdn.microsoft.com/d15ee442-708d-4210-925c-f4320d57330a">MoveLeft</a> and <b>MoveRight</b> are related to the <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a> move methods, but differ in that they explicitly use the active end (the end moved by pressing the Shift key).
 
 
 
@@ -215,15 +215,15 @@ When
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774060(v=VS.85).aspx">ITextSelection</a>
+<a href="https://msdn.microsoft.com/e6afce18-4f02-4f1c-a2ee-735465d2e168">ITextSelection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774074(v=VS.85).aspx">MoveLeft</a>
+<a href="https://msdn.microsoft.com/d15ee442-708d-4210-925c-f4320d57330a">MoveLeft</a>
 
 
 
@@ -231,7 +231,7 @@ When
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

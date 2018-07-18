@@ -4,10 +4,10 @@ title: TreeView_GetParent macro
 author: windows-sdk-content
 description: Retrieves the parent item of the specified tree-view item. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_PARENT flag.
 old-location: controls\TreeView_GetParent.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getparent.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: TreeView_GetParent, TreeView_GetParent macro [Windows Controls], _win32_TreeView_GetParent, _win32_TreeView_GetParent_cpp, commctrl/TreeView_GetParent, controls.TreeView_GetParent, controls._win32_TreeView_GetParent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the parent item of the specified tree-view item. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/library/Bb773622(v=VS.85).aspx">TVM_GETNEXTITEM</a> message with the TVGN_PARENT flag. 
+Retrieves the parent item of the specified tree-view item. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/505c713c-7728-4119-bc0e-482fe7e73193">TVM_GETNEXTITEM</a> message with the TVGN_PARENT flag. 
 
 
 ## -parameters
@@ -95,19 +95,19 @@ This macro will return <b>NULL</b> if the parent of the specified item is the ro
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773812(v=VS.85).aspx">TreeView_GetChild</a>
+<a href="https://msdn.microsoft.com/49eb25c4-52b3-4b3a-ae2f-433af9adf0d4">TreeView_GetChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773861(v=VS.85).aspx">TreeView_GetNextItem</a>
+<a href="https://msdn.microsoft.com/987d0d0f-eecf-4a6a-9340-64dd6ce1ac80">TreeView_GetNextItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773867(v=VS.85).aspx">TreeView_GetNextSibling</a>
+<a href="https://msdn.microsoft.com/1fe480ea-dcb5-4d08-8eec-996f78757fda">TreeView_GetNextSibling</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773875(v=VS.85).aspx">TreeView_GetPrevSibling</a>
+<a href="https://msdn.microsoft.com/2f013ffb-43dd-460f-824a-36fb67639834">TreeView_GetPrevSibling</a>
  
 
  

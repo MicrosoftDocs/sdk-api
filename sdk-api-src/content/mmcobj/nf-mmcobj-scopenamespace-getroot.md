@@ -4,10 +4,10 @@ title: ScopeNamespace::GetRoot
 author: windows-sdk-content
 description: The GetRoot method returns the root node of the scope namespace.
 old-location: mmc\scopenamespace_getroot.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: bb50f59d-ff5d-457b-a1a1-6496e44fdfa9
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/16/2018
 ms.keywords: GetRoot, GetRoot method [MMC], GetRoot method [MMC],ScopeNamespace interface, GetRoot method [MMC],ScopeNamespace object, ScopeNamespace interface [MMC],GetRoot method, ScopeNamespace object [MMC],GetRoot method, ScopeNamespace.GetRoot, ScopeNamespace::GetRoot, _slate_scopenamespace.getroot_method, mmc.scopenamespace_getroot
 ms.prod: windows
 ms.technology: windows-sdk

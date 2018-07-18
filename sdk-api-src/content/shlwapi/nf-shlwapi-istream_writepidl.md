@@ -7,7 +7,7 @@ old-location: shell\IStream_WritePidl.htm
 old-project: shell
 ms.assetid: 29b6a42b-08bd-4b5f-92ad-a6456e7a6f98
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IStream_WritePidl, IStream_WritePidl function [Windows Shell], _shell_IStream_WritePidl, shell.IStream_WritePidl, shlwapi/IStream_WritePidl
 ms.prod: windows
 ms.technology: windows-sdk

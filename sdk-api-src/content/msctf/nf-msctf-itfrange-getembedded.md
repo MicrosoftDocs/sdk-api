@@ -15,8 +15,8 @@ ms.topic: method
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -99,7 +99,7 @@ Caller requires a direct pointer to the object that supports the interface speci
 </dl>
 </td>
 <td width="60%">
-Content should be obtained as an <a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a> data transfer object, with <i>riid</i> being IID_IDataObject. Clients should specify this option when a copy of the content is required.
+Content should be obtained as an <a href="_ole_idataobject">IDataObject</a> data transfer object, with <i>riid</i> being IID_IDataObject. Clients should specify this option when a copy of the content is required.
 
 </td>
 </tr>
@@ -239,7 +239,7 @@ While the obtained object might not support certain interfaces, it is likely tha
 
 
 
-<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

@@ -119,6 +119,9 @@ A MAC layer drop event has occurred.
 <div class="alert"><b>Note</b>  Available only in Windows 8 and Windows Server 2012.</div>
 <div> </div>
 
+### -field FWPM_NET_EVENT_TYPE_LPM_PACKET_ARRIVAL
+
+
 ### -field FWPM_NET_EVENT_TYPE_MAX
 
 Maximum value for testing purposes.

@@ -4,10 +4,10 @@ title: MsiCloseHandle function
 author: windows-sdk-content
 description: The MsiCloseHandle function closes an open installation handle.
 old-location: setup\msiclosehandle.htm
-old-project: msi
+old-project: Msi
 ms.assetid: b9e90ed4-fda8-4628-a713-67c651e1b572
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/16/2018
 ms.keywords: MsiCloseHandle, MsiCloseHandle function, _msi_msiclosehandle, msi/MsiCloseHandle, setup.msiclosehandle
 ms.prod: windows
 ms.technology: windows-sdk

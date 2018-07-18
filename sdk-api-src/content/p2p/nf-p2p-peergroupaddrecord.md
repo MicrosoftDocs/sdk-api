@@ -4,10 +4,10 @@ title: PeerGroupAddRecord function
 author: windows-sdk-content
 description: The PeerGroupAddRecord function adds a new record to the peer group, which is propagated to all participating peers.
 old-location: p2p\peergroupaddrecord.htm
-old-project: p2psdk
+old-project: P2PSdk
 ms.assetid: d9ca87bc-30da-4a19-b34a-8d8388ccd19a
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/16/2018
 ms.keywords: PeerGroupAddRecord, PeerGroupAddRecord function [Peer Networking], p2p.peergroupaddrecord, p2p/PeerGroupAddRecord
 ms.prod: windows
 ms.technology: windows-sdk

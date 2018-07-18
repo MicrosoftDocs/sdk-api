@@ -7,7 +7,7 @@ old-location: shell\PathMatchSpecEx.htm
 old-project: shell
 ms.assetid: bd9bf950-e349-4b67-8608-7acad84c0907
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: PMSF_DONT_STRIP_SPACES, PMSF_MULTIPLE, PMSF_NORMAL, PathMatchSpecEx, PathMatchSpecEx function [Windows Shell], PathMatchSpecExA, PathMatchSpecExW, _win32_PathMatchSpecEx, shell.PathMatchSpecEx, shlwapi/PathMatchSpecEx, shlwapi/PathMatchSpecExA, shlwapi/PathMatchSpecExW
 ms.prod: windows
 ms.technology: windows-sdk

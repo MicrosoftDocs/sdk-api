@@ -4,10 +4,10 @@ title: ListView_MapIndexToID macro
 author: windows-sdk-content
 description: Maps the index of an item to a unique ID. You can use this macro or send the LVM_MAPINDEXTOID message explicitly.
 old-location: controls\ListView_MapIndexToID.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_mapindextoid.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ListView_MapIndexToID, ListView_MapIndexToID macro [Windows Controls], _win32_ListView_MapIndexToID, _win32_ListView_MapIndexToID_cpp, commctrl/ListView_MapIndexToID, controls.ListView_MapIndexToID, controls._win32_ListView_MapIndexToID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Maps the index of an item to a unique ID. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761139(v=VS.85).aspx">LVM_MAPINDEXTOID</a> message explicitly. 
+Maps the index of an item to a unique ID. You can use this macro or send the <a href="https://msdn.microsoft.com/d0486e21-2703-4289-abb0-f5f9c7b60b40">LVM_MAPINDEXTOID</a> message explicitly. 
 
 
 ## -parameters
@@ -84,12 +84,12 @@ A <b>UINT</b> that contains the index of an item.
 		
 
 
-		To uniquely identify an item, take the index that is returned from a call such as <a href="https://msdn.microsoft.com/8143d11c-3740-4ffc-88f0-6df779c50521">IComponent::GetDisplayInfo</a> and call <a href="https://msdn.microsoft.com/library/Bb761139(v=VS.85).aspx">LVM_MAPINDEXTOID</a>. The return value is a unique ID.
+		To uniquely identify an item, take the index that is returned from a call such as <a href="https://msdn.microsoft.com/8143d11c-3740-4ffc-88f0-6df779c50521">IComponent::GetDisplayInfo</a> and call <a href="https://msdn.microsoft.com/d0486e21-2703-4289-abb0-f5f9c7b60b40">LVM_MAPINDEXTOID</a>. The return value is a unique ID.
 		
 
 <div class="alert"><b>Note</b>  In a multithreaded environment, you can only be sure the correct index is returned on the thread that hosts the list-view control, not on background threads.</div>
 <div> </div>
-To use <b>ListView_MapIndexToID</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_MapIndexToID</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

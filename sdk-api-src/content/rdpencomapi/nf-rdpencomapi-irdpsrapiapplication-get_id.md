@@ -4,10 +4,10 @@ title: IRDPSRAPIApplication::get_Id
 author: windows-sdk-content
 description: The application identifier.
 old-location: rdp\irdpsrapiapplication_id.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: 036a882d-9572-4b88-ad78-962251140a27
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IRDPSRAPIApplication interface [RDP],Id property, IRDPSRAPIApplication.Id, IRDPSRAPIApplication.get_Id, IRDPSRAPIApplication::Id, IRDPSRAPIApplication::get_Id, Id property [RDP], Id property [RDP],IRDPSRAPIApplication interface, Id property [RDP],RDPSRAPIApplication object, RDPSRAPIApplication object [RDP],Id property, get_Id, rdp.irdpsrapiapplication_id, rdpencomapi/IRDPSRAPIApplication::Id, rdpencomapi/IRDPSRAPIApplication::get_Id
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

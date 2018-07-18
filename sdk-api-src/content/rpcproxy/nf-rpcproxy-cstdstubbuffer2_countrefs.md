@@ -15,8 +15,8 @@ ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -65,7 +65,7 @@ Implements the <a href="https://msdn.microsoft.com/0a2a629a-b935-47a2-a4c6-ba9f2
 
 ### -param pthis [in]
 
-Pointer to  the <a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="_com_irpcstubbuffer">IRpcStubBuffer</a> object. 
 
 
 ## -returns

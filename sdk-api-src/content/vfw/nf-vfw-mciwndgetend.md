@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetend.htm
 old-project: Multimedia
 ms.assetid: 558d5412-1165-4dda-8ac1-6c599267beaf
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: MCIWndGetEnd, MCIWndGetEnd macro [Windows Multimedia], _win32_MCIWndGetEnd, multimedia.mciwndgetend, vfw/MCIWndGetEnd
 ms.prod: windows
 ms.technology: windows-sdk

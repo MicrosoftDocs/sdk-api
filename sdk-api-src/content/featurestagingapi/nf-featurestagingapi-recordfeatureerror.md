@@ -4,10 +4,10 @@ title: RecordFeatureError function
 author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\recordfeatureerror.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: 8179277A-9F98-4FF1-8368-9393B12023D0
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: RecordFeatureError, RecordFeatureError function [Windows API], featurestagingapi/RecordFeatureError, winprog.recordfeatureerror
 ms.prod: windows
 ms.technology: windows-sdk

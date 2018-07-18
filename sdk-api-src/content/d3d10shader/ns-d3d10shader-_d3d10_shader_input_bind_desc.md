@@ -67,9 +67,9 @@ Name of the shader resource.
 
 ### -field Type
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172435(v=VS.85).aspx">D3D10_SHADER_INPUT_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/67b8927a-e79a-42f5-845c-fe565ec7d8f8">D3D10_SHADER_INPUT_TYPE</a></b>
 
-Identifies the type of data in the resource. See <a href="https://msdn.microsoft.com/library/Bb172435(v=VS.85).aspx">D3D10_SHADER_INPUT_TYPE</a>.
+Identifies the type of data in the resource. See <a href="https://msdn.microsoft.com/67b8927a-e79a-42f5-845c-fe565ec7d8f8">D3D10_SHADER_INPUT_TYPE</a>.
 
 
 ### -field BindPoint
@@ -90,21 +90,21 @@ Number of contiguous bind points for arrays.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Shader input-parameter options. See <a href="https://msdn.microsoft.com/library/Bb172434(v=VS.85).aspx">D3D10_SHADER_INPUT_FLAGS</a>.
+Shader input-parameter options. See <a href="https://msdn.microsoft.com/edde03b3-c952-40fc-ab3a-4e5a2edbfd3f">D3D10_SHADER_INPUT_FLAGS</a>.
 
 
 ### -field ReturnType
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172413(v=VS.85).aspx">D3D10_RESOURCE_RETURN_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/c53dd5fa-ced4-47f1-9842-78c81c305641">D3D10_RESOURCE_RETURN_TYPE</a></b>
 
-If the input is a texture, the return type. See <a href="https://msdn.microsoft.com/library/Bb172413(v=VS.85).aspx">D3D10_RESOURCE_RETURN_TYPE</a>.
+If the input is a texture, the return type. See <a href="https://msdn.microsoft.com/c53dd5fa-ced4-47f1-9842-78c81c305641">D3D10_RESOURCE_RETURN_TYPE</a>.
 
 
 ### -field Dimension
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172452(v=VS.85).aspx">D3D10_SRV_DIMENSION</a></b>
+Type: <b><a href="https://msdn.microsoft.com/2c2a6a68-179a-478b-bd86-c023a387601d">D3D10_SRV_DIMENSION</a></b>
 
-Identifies the amount of data in the resource. See <a href="https://msdn.microsoft.com/library/Bb172452(v=VS.85).aspx">D3D10_SRV_DIMENSION</a>.
+Identifies the amount of data in the resource. See <a href="https://msdn.microsoft.com/2c2a6a68-179a-478b-bd86-c023a387601d">D3D10_SRV_DIMENSION</a>.
 
 
 ### -field NumSamples
@@ -118,7 +118,7 @@ The number of samples for a multisampled texture; otherwise 0.
 
 
 
-Get a shader-input-signature description by calling <a href="https://msdn.microsoft.com/library/Bb173853(v=VS.85).aspx">ID3D10ShaderReflection::GetResourceBindingDesc</a>.
+Get a shader-input-signature description by calling <a href="https://msdn.microsoft.com/e6e7717c-f4ca-4a65-bc52-d8a561a616e8">ID3D10ShaderReflection::GetResourceBindingDesc</a>.
 
 
 
@@ -128,7 +128,7 @@ Get a shader-input-signature description by calling <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://msdn.microsoft.com/b36309e0-1c44-42d9-adcf-33acd753438c">Shader Structures</a>
  
 
  

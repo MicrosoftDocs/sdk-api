@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronize_showerror.htm
 old-project: shell
 ms.assetid: 0e313c61-6482-4396-b4b8-824fba0226ac
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],ShowError method, ISyncMgrSynchronize.ShowError, ISyncMgrSynchronize::ShowError, ShowError, ShowError method [Windows Shell], ShowError method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::ShowError, shell.syncmgr_isyncmgrsynchronize_showerror, syncmgr.isyncmgrsynchronize_showerror
 ms.prod: windows
 ms.technology: windows-sdk

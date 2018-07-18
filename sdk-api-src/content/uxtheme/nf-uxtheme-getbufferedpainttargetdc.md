@@ -4,10 +4,10 @@ title: GetBufferedPaintTargetDC function
 author: windows-sdk-content
 description: Retrieves the target device context (DC).
 old-location: controls\GetBufferedPaintTargetDC.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getbufferedpainttargetdc.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetBufferedPaintTargetDC, GetBufferedPaintTargetDC function [Windows Controls], _shell_GetBufferedPaintTargetDC, _shell_GetBufferedPaintTargetDC_cpp, controls.GetBufferedPaintTargetDC, controls._shell_GetBufferedPaintTargetDC, uxtheme/GetBufferedPaintTargetDC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Retrieves the target device context (DC).
 
 Type: <b>HPAINTBUFFER</b>
 
-A handle to the buffered paint context obtained through <a href="https://msdn.microsoft.com/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
+A handle to the buffered paint context obtained through <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a>.
 
 
 ## -returns
@@ -81,7 +81,7 @@ A handle to the requested DC, or <b>NULL</b> otherwise.
 
 
 
-If successful, this function returns the target DC that was passed by the application to <a href="https://msdn.microsoft.com/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>. 
+If successful, this function returns the target DC that was passed by the application to <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a>. 
 
 
 

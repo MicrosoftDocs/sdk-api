@@ -7,7 +7,7 @@ old-location: dshow\vmralphabitmap.htm
 old-project: DirectShow
 ms.assetid: 03b3e619-4804-42de-88d5-5422089e875a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*PVMRALPHABITMAP, PVMRALPHABITMAP, PVMRALPHABITMAP structure pointer [DirectShow], VMRALPHABITMAP, VMRALPHABITMAP structure [DirectShow], VMRALPHABITMAPStructure, VMRBITMAP_DISABLE, VMRBITMAP_ENTIREDDS, VMRBITMAP_HDC, VMRBITMAP_SRCCOLORKEY, VMRBITMAP_SRCRECT, _VMRALPHABITMAP, dshow.vmralphabitmap, strmif/PVMRALPHABITMAP, strmif/VMRALPHABITMAP"
 ms.prod: windows
 ms.technology: windows-sdk

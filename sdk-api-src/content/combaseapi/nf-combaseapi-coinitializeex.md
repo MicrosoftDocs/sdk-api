@@ -15,8 +15,8 @@ ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -139,7 +139,7 @@ After the concurrency model for a thread is set, it cannot be changed. A call to
 
 
 
-Objects created in a single-threaded apartment (STA) receive method calls only from their apartment's thread, so calls are serialized and arrive only at message-queue boundaries (when the <a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function is called).
+Objects created in a single-threaded apartment (STA) receive method calls only from their apartment's thread, so calls are serialized and arrive only at message-queue boundaries (when the <a href="_win32_PeekMessage_cpp">PeekMessage</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function is called).
 
 Objects created on a COM thread in a multithread apartment (MTA) must be able to receive method calls from other threads at any time. You would typically implement some form of concurrency control in a multithreaded object's code using synchronization primitives such as critical sections, semaphores, or mutexes to help protect the object's data. 
 

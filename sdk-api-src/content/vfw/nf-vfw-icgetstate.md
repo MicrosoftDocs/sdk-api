@@ -7,7 +7,7 @@ old-location: multimedia\icgetstate.htm
 old-project: Multimedia
 ms.assetid: e0066cc2-a67d-4cf4-9d22-506cc152ec14
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ICGetState, ICGetState macro [Windows Multimedia], _win32_ICGetState, multimedia.icgetstate, vfw/ICGetState
 ms.prod: windows
 ms.technology: windows-sdk

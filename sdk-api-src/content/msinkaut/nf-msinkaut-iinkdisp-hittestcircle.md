@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_hittest_point__single.htm
 old-project: tablet
 ms.assetid: 2025f728-cb08-4285-8584-c9ad537e58f2
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: 2025f728-cb08-4285-8584-c9ad537e58f2, HitTestCircle, HitTestCircle method [Tablet PC], HitTestCircle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],HitTestCircle method, IInkDisp.HitTestCircle, IInkDisp::HitTestCircle, msinkaut/IInkDisp::HitTestCircle, tablet.inkdisp_hittest_point__single
 ms.prod: windows
 ms.technology: windows-sdk

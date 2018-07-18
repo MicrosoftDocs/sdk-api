@@ -15,8 +15,8 @@ ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1 Update [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 Update [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8.1 Update [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 Update [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-The <b>BCRYPT_MULTI_OBJECT_LENGTH_STRUCT</b> structure contains information to determine the size of the <i>pbHashObject</i> buffer for the <a href="https://msdn.microsoft.com/library/Mt845763(v=VS.85).aspx">BCryptCreateMultiHash</a> function.
+The <b>BCRYPT_MULTI_OBJECT_LENGTH_STRUCT</b> structure contains information to determine the size of the <i>pbHashObject</i> buffer for the <a href="security.bcryptcreatemultihash">BCryptCreateMultiHash</a> function.
 
 
 ## -struct-fields
@@ -72,7 +72,7 @@ The number of bytes needed for each element of the object.
 
 
 
-The size of the <i>pbHashObject</i> buffer for the <a href="https://msdn.microsoft.com/library/Mt845763(v=VS.85).aspx">BCryptCreateMultiHash</a> function is the following: <code>cbPerObject + (number of hash states) * cbPerElement</code>.
+The size of the <i>pbHashObject</i> buffer for the <a href="security.bcryptcreatemultihash">BCryptCreateMultiHash</a> function is the following: <code>cbPerObject + (number of hash states) * cbPerElement</code>.
 
 
 
@@ -82,7 +82,7 @@ The size of the <i>pbHashObject</i> buffer for the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt845763(v=VS.85).aspx">BCryptCreateMultiHash</a>
+<a href="security.bcryptcreatemultihash">BCryptCreateMultiHash</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderallocatorex.htm
 old-project: wmformat
 ms.assetid: be727c7b-b252-44db-825b-5c683e551fd2
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IWMReaderAllocatorEx, IWMReaderAllocatorEx interface [windows Media Format], IWMReaderAllocatorEx interface [windows Media Format],described, IWMReaderAllocatorExInterface, wmformat.iwmreaderallocatorex, wmsdkidl/IWMReaderAllocatorEx
 ms.prod: windows
 ms.technology: windows-sdk

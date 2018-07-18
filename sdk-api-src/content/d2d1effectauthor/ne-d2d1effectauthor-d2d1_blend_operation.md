@@ -15,8 +15,8 @@ ms.topic: enum
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -96,7 +96,7 @@ Subtract source 2 from source 1.
 
 
 
-This enumeration has the same numeric values as <a href="https://msdn.microsoft.com/library/Bb204894(v=VS.85).aspx">D3D10_BLEND_OP</a>.
+This enumeration has the same numeric values as <a href="https://msdn.microsoft.com/2d23109a-4d0e-4001-a693-185a942900c0">D3D10_BLEND_OP</a>.
 
 
 

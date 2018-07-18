@@ -68,7 +68,7 @@ Size of the file in bytes.
 
 ### -field ftLastModifiedTime
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms724284(v=VS.85).aspx">FILETIME</a></b>
+Type: <b><a href="_com_FILETIME">FILETIME</a></b>
 
 Last time the file was modified.
 

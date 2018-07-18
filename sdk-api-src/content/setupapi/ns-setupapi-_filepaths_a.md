@@ -7,7 +7,7 @@ old-location: setup\filepaths_str.htm
 old-project: SetupApi
 ms.assetid: 220b1485-73f0-4c31-aa40-e4c9179bfd0f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/16/2018
 ms.keywords: "*PFILEPATHS_A, FILEOP_COPY, FILEOP_DELETE, FILEPATHS, FILEPATHS structure [Setup API], FILEPATHS_A, PFILEPATHS, PFILEPATHS structure pointer [Setup API], SP_COPY_NOBROWSE, SP_COPY_NOSKIP, SP_COPY_WARNIFSKIP, _FILEPATHS_A, _setupapi_filepaths_str, setup.filepaths_str, setupapi/FILEPATHS, setupapi/PFILEPATHS"
 ms.prod: windows
 ms.technology: windows-sdk

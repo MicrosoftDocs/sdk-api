@@ -15,8 +15,8 @@ ms.topic: function
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -91,7 +91,7 @@ On a blocking socket, the return value indicates success or failure of the conne
 With a nonblocking socket, the connection attempt cannot be completed immediately. In this case, 
 <b>connect</b> will return SOCKET_ERROR, and 
 <a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a> will return 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a>. In this case, there are three possible scenarios:
+<a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a>. In this case, there are three possible scenarios:
 
 <ul>
 <li>Use the 
@@ -107,17 +107,17 @@ With a nonblocking socket, the connection attempt cannot be completed immediatel
 
 Until the connection attempt completes on a nonblocking socket, all subsequent calls to 
 <b>connect</b> on the same socket will fail with the error code 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEALREADY</a>, and 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEISCONN</a> when the connection completes successfully. Due to ambiguities in version 1.1 of the Windows Sockets specification, error codes returned from 
+<a href="windows_sockets_error_codes_2.htm">WSAEALREADY</a>, and 
+<a href="windows_sockets_error_codes_2.htm">WSAEISCONN</a> when the connection completes successfully. Due to ambiguities in version 1.1 of the Windows Sockets specification, error codes returned from 
 <b>connect</b> while a connection is already pending may vary among implementations. As a result, it is not recommended that applications use multiple calls to connect to detect connection completion. If they do, they must be prepared to handle 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a> and 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a> error values the same way that they handle 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEALREADY</a>, to assure robust operation.
+<a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a> and 
+<a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a> error values the same way that they handle 
+<a href="windows_sockets_error_codes_2.htm">WSAEALREADY</a>, to assure robust operation.
 
 If the error code returned indicates the connection attempt failed (that is, 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAECONNREFUSED</a>, 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENETUNREACH</a>, 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAETIMEDOUT</a>) the application can call 
+<a href="windows_sockets_error_codes_2.htm">WSAECONNREFUSED</a>, 
+<a href="windows_sockets_error_codes_2.htm">WSAENETUNREACH</a>, 
+<a href="windows_sockets_error_codes_2.htm">WSAETIMEDOUT</a>) the application can call 
 <b>connect</b> again for the same socket.
 
 <table>
@@ -128,7 +128,7 @@ If the error code returned indicates the connection attempt failed (that is,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -140,7 +140,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -151,7 +151,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEADDRINUSE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEADDRINUSE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -164,7 +164,7 @@ The socket's local address is already in use and the socket was not marked to al
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINTR</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINTR</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -176,7 +176,7 @@ The blocking Windows Socket 1.1 call was canceled through
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -187,7 +187,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEALREADY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEALREADY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -196,7 +196,7 @@ A nonblocking
 
 
 <div class="alert"><b>Note</b>  In order to preserve backward compatibility, this error is reported as 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a> to Windows Sockets 1.1 applications that link to either Winsock.dll or Wsock32.dll.</div>
+<a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a> to Windows Sockets 1.1 applications that link to either Winsock.dll or Wsock32.dll.</div>
 <div> </div>
 
 
@@ -205,7 +205,7 @@ A nonblocking
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEADDRNOTAVAIL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEADDRNOTAVAIL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -216,7 +216,7 @@ The remote address is not a valid address (such as <b>INADDR_ANY</b> or <b>in6ad
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -227,7 +227,7 @@ Addresses in the specified family cannot be used with this socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAECONNREFUSED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAECONNREFUSED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -238,7 +238,7 @@ The attempt to connect was forcefully rejected.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -249,7 +249,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">socka
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -260,7 +260,7 @@ The parameter <i>s</i> is a listening socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEISCONN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEISCONN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -271,7 +271,7 @@ The socket is already connected (connection-oriented sockets only).
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENETUNREACH</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETUNREACH</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -282,7 +282,7 @@ The network cannot be reached from this host at this time.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEHOSTUNREACH</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEHOSTUNREACH</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -293,7 +293,7 @@ A socket operation was attempted to an unreachable host.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -304,7 +304,7 @@ A socket operation was attempted to an unreachable host.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -315,7 +315,7 @@ The descriptor specified in the <i>s</i> parameter is not a socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAETIMEDOUT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAETIMEDOUT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -326,7 +326,7 @@ An attempt to connect timed out without establishing a connection.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -337,7 +337,7 @@ The socket is marked as nonblocking and the connection cannot be completed immed
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEACCES</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEACCES</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -370,11 +370,11 @@ For connection-oriented sockets (for example, type SOCK_STREAM), an active conne
 
 When the socket call completes successfully, the socket is ready to send and receive data. If the address member of the structure specified by the <i>name</i> parameter is filled with zeros, 
 <b>connect</b> will return the error 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEADDRNOTAVAIL</a>. Any attempt to reconnect an active connection will fail with the error code 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEISCONN</a>.
+<a href="windows_sockets_error_codes_2.htm">WSAEADDRNOTAVAIL</a>. Any attempt to reconnect an active connection will fail with the error code 
+<a href="windows_sockets_error_codes_2.htm">WSAEISCONN</a>.
 
 For connection-oriented, nonblocking sockets, it is often not possible to complete the connection immediately. In such a case, this function returns the error 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a>. However, the operation proceeds.
+<a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a>. However, the operation proceeds.
 
 
 When the success or failure outcome becomes known, it may be reported in one of two ways, depending on how the client registers for notification.
@@ -398,7 +398,7 @@ For a connectionless socket (for example, type SOCK_DGRAM), the operation perfor
 				<a href="https://msdn.microsoft.com/764339e6-a1ac-455d-8ebd-ad0fa50dc3b0">WSASend</a> and 
 <a href="https://msdn.microsoft.com/8c247cd3-479f-45d0-a038-a24e80cc7c73">recv</a>/
 				<a href="https://msdn.microsoft.com/bfe66e11-e9a7-4321-ad55-3141113e9a03">WSARecv</a> calls will return the error code 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOTCONN</a>. However, 
+<a href="windows_sockets_error_codes_2.htm">WSAENOTCONN</a>. However, 
 <a href="https://msdn.microsoft.com/a1c89c6b-d11d-4d3e-a664-af2beed0cd09">sendto</a>/
 				<a href="https://msdn.microsoft.com/e3a11522-871c-4d6b-a2e6-ca91ffc2b698">WSASendTo</a> and 
 <a href="https://msdn.microsoft.com/3e4282e0-3ed0-43e7-9b27-72ec36b9cfa1">recvfrom</a>/
@@ -409,7 +409,7 @@ For a connectionless socket (for example, type SOCK_DGRAM), the operation perfor
 For connectionless sockets, <i>name</i> can indicate any valid address, including a broadcast address. However, to connect to a broadcast address, a socket must use 
 <a href="https://msdn.microsoft.com/3a6960c9-0c04-4403-aee1-ce250459dc30">setsockopt</a> to enable the SO_BROADCAST option. Otherwise, 
 <b>connect</b> will fail with the error code 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEACCES</a>.
+<a href="windows_sockets_error_codes_2.htm">WSAEACCES</a>.
 
 When a connection between sockets is broken, the socket that was connected should be discarded and new socket should be created. When a problem develops on a connected socket, the application must discard the socket and create the socket again in order to return to a stable point.
 
@@ -500,14 +500,14 @@ For another example that uses the <b>connect</b> function, see <a href="https://
 <ul>
 <li>The Af_irda.h header file must be explicitly included.</li>
 <li>If an existing IrDA connection is detected at the media-access level, 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a> is returned.</li>
+<a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a> is returned.</li>
 <li>If active connections to a device with a different address exist, 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEADDRINUSE</a> is returned.</li>
+<a href="windows_sockets_error_codes_2.htm">WSAEADDRINUSE</a> is returned.</li>
 <li>If the socket is already connected or an exclusive/multiplexed mode change failed, 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEISCONN</a> is returned.</li>
+<a href="windows_sockets_error_codes_2.htm">WSAEISCONN</a> is returned.</li>
 <li>If the socket was previously bound to a local service name to accept incoming connections using 
 <a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a>, 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a> is returned. Note that once a socket is bound, it cannot be used for establishing an outbound connection.</li>
+<a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a> is returned. Note that once a socket is bound, it cannot be used for establishing an outbound connection.</li>
 </ul>
 
 
