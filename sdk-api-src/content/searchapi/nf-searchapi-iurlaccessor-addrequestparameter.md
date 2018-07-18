@@ -63,19 +63,19 @@ req.product: ADAM
 
 ### -param pSpec [in]
 
-Type: <b><a href="_stg_propspec">PROPSPEC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Aa380070(v=VS.85).aspx">PROPSPEC</a>*</b>
 
 
-                Pointer to a <a href="_stg_propspec">PROPSPEC</a> structure containing the requested property.
+                Pointer to a <a href="https://msdn.microsoft.com/library/Aa380070(v=VS.85).aspx">PROPSPEC</a> structure containing the requested property.
                 
 
 
 ### -param pVar [in]
 
-Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
 
 
-                Pointer to a <a href="_stg_propvariant">PROPVARIANT</a> structure containing the value for the property specified by <i>pSpec</i>.
+                Pointer to a <a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> structure containing the value for the property specified by <i>pSpec</i>.
                 
 
 

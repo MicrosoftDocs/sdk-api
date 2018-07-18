@@ -121,7 +121,7 @@ For an example of how to use this method see <a href="https://msdn.microsoft.com
 
 
 
-<a href="wpdsdk.iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
+<a href="https://msdn.microsoft.com/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
 
 
 

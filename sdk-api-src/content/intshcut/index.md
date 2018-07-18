@@ -2,7 +2,7 @@
 UID: NA:intshcut
 ms.assetid: 8ad078b1-c5a8-3609-9401-88a6546547c0
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

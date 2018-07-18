@@ -78,7 +78,7 @@ This method can return one of these values.
 
 
 Memory for out parameters must be allocated using the COM function 
-<a href="_com_cotaskmemalloc">CoTaskMemAlloc</a>.
+<a href="https://msdn.microsoft.com/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>.
 
 
 

@@ -96,7 +96,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 The AD RMS system does not check to determine whether out of date licenses or revocation lists are stored in the license store, even when acquiring a new license or revocation list for content already owned. Therefore, it is important to occasionally delete  licenses or certificates. This can be a time-consuming process, so it might be best to perform this action occasionally or during program idle time.
 
-If you delete an <a href="e_gly.htm">end-user license</a>, this function will not automatically delete associated revocation lists.
+If you delete an <a href="https://msdn.microsoft.com/library/Aa368574(v=VS.85).aspx">end-user license</a>, this function will not automatically delete associated revocation lists.
 
 If you delete a license by using the content  ID, the <i>hSession</i> parameter must be the handle of a client session.
 

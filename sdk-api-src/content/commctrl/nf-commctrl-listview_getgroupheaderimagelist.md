@@ -69,7 +69,7 @@ A handle to the list-view control.
 
 
 
-To specify an image list another way, such as, by large icons, small icons, or state images, send the <a href="https://msdn.microsoft.com/dd48d8b5-6dbd-48ab-95c3-0fcf1e8c24f0">LVM_GETIMAGELIST</a> message explicitly.
+To specify an image list another way, such as, by large icons, small icons, or state images, send the <a href="https://msdn.microsoft.com/library/Bb774943(v=VS.85).aspx">LVM_GETIMAGELIST</a> message explicitly.
 
 
 

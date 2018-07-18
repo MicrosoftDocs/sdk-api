@@ -98,7 +98,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="iisdb_sdtt::getcountofrecords">IISDB_SDTT::GetCountOfRecords</a>
+<a href="https://msdn.microsoft.com/library/Dd694352(v=VS.85).aspx">IISDB_SDTT::GetCountOfRecords</a>
  
 
  

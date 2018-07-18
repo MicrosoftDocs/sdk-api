@@ -163,7 +163,7 @@ If the function fails, the return value is zero (<b>FALSE</b>).
 
 
 
-<a href="cryptography_functions.htm">OID Support Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
  
 
  

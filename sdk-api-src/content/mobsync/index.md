@@ -2,7 +2,7 @@
 UID: NA:mobsync
 ms.assetid: 15562484-2100-3efa-88e0-10761b091856
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

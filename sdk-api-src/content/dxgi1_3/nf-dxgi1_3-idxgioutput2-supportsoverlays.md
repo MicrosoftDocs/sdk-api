@@ -52,7 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-Queries an adapter output for multiplane overlay support. If this API returns ‘TRUE’, multiple swap chain composition takes place in a performant manner using overlay hardware. If this API returns false, apps should avoid using foreground swap chains (that is, avoid using swap chains created with the <a href="https://msdn.microsoft.com/c0030570-89ba-4586-a358-8c3b8c393a90">DXGI_SWAP_CHAIN_FLAG_FOREGROUND_LAYER</a> flag).
+Queries an adapter output for multiplane overlay support. If this API returns ‘TRUE’, multiple swap chain composition takes place in a performant manner using overlay hardware. If this API returns false, apps should avoid using foreground swap chains (that is, avoid using swap chains created with the <a href="https://msdn.microsoft.com/library/Bb173076(v=VS.85).aspx">DXGI_SWAP_CHAIN_FLAG_FOREGROUND_LAYER</a> flag).
 
 
 ## -parameters

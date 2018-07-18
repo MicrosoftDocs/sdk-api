@@ -168,7 +168,7 @@ Releases the TLIBATTR originally obtained from <a href="https://msdn.microsoft.c
 
 The system registry contains a list of all the installed type libraries. Type library organization is illustrated in the following figure:
 
-<img alt="" src="images/oa03_10.Png"/>
+<img alt="" src="./images/oa03_10.Png"/>
 The <b>ITypeLib</b> interface provides methods for accessing a library of type descriptions. This interface supports the following:  
 
 <ul>
@@ -193,7 +193,7 @@ General information, including a user-readable name for the library and help for
 
 
 
-<a href="387d44b7-407b-44a9-9239-a4cb20e88cac">Type Description Interfaces and Functions </a>
+<a href="https://msdn.microsoft.com/library/ms221442(v=VS.85).aspx">Type Description Interfaces and Functions </a>
  
 
  

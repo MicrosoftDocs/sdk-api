@@ -75,7 +75,7 @@ A null-terminated property name string.
 
 ### -param value [in]
 
-Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a></b>
 
 The <b>BSTR</b> value to which the named property should be set.
 
@@ -105,7 +105,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="shell.PSPropertyBag_ReadBSTR">PSPropertyBag_ReadBSTR</a>
+<a href="https://msdn.microsoft.com/library/Ee845051(v=VS.85).aspx">PSPropertyBag_ReadBSTR</a>
  
 
  

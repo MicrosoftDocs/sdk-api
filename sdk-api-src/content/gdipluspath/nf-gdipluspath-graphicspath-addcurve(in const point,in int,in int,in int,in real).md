@@ -53,9 +53,9 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 AddCurve methods of the 
-<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
 <b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>. 
+<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -65,55 +65,55 @@ AddCurve methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4cc7d31a-4d73-4a8a-bc85-5bdc4090e7db">AddCurve(Point*,INT)</a>
+<a href="https://msdn.microsoft.com/library/ms535609(v=VS.85).aspx">AddCurve(Point*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/4cc7d31a-4d73-4a8a-bc85-5bdc4090e7db">GraphicsPath::AddCurve</a> method adds a cardinal spline to the current figure of this path.
+The <a href="https://msdn.microsoft.com/library/ms535609(v=VS.85).aspx">GraphicsPath::AddCurve</a> method adds a cardinal spline to the current figure of this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bcd96b35-e6f5-42c6-8e08-185aad503453">AddCurve(PointF*,INT)</a>
+<a href="https://msdn.microsoft.com/library/ms535611(v=VS.85).aspx">AddCurve(PointF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/bcd96b35-e6f5-42c6-8e08-185aad503453">GraphicsPath::AddCurve</a> method adds a cardinal spline to the current figure of this path.
+The <a href="https://msdn.microsoft.com/library/ms535611(v=VS.85).aspx">GraphicsPath::AddCurve</a> method adds a cardinal spline to the current figure of this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b28e42b4-048e-49ca-bb4f-2eb85d0ec57f">AddCurve(Point*,INT,REAL)</a>
+<a href="https://msdn.microsoft.com/library/ms535613(v=VS.85).aspx">AddCurve(Point*,INT,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/b28e42b4-048e-49ca-bb4f-2eb85d0ec57f">GraphicsPath::AddCurve</a> method adds a cardinal spline to the current figure of this path.
+The <a href="https://msdn.microsoft.com/library/ms535613(v=VS.85).aspx">GraphicsPath::AddCurve</a> method adds a cardinal spline to the current figure of this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/67e2e80f-a57a-4f5f-bc3a-e979be1ec59c">AddCurve(PointF*,INT,REAL)</a>
+<a href="https://msdn.microsoft.com/library/ms535610(v=VS.85).aspx">AddCurve(PointF*,INT,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/67e2e80f-a57a-4f5f-bc3a-e979be1ec59c">GraphicsPath::AddCurve</a> method adds a cardinal spline to the current figure of this path.
+The <a href="https://msdn.microsoft.com/library/ms535610(v=VS.85).aspx">GraphicsPath::AddCurve</a> method adds a cardinal spline to the current figure of this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cd0a6e82-37a0-4825-ab3a-6d71dc952c7a">AddCurve(Point*,INT,INT,INT,REAL)</a>
+<a href="https://msdn.microsoft.com/library/ms535612(v=VS.85).aspx">AddCurve(Point*,INT,INT,INT,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/cd0a6e82-37a0-4825-ab3a-6d71dc952c7a">GraphicsPath::AddCurve</a> method adds a cardinal spline to the current figure of this path.
+The <a href="https://msdn.microsoft.com/library/ms535612(v=VS.85).aspx">GraphicsPath::AddCurve</a> method adds a cardinal spline to the current figure of this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5160189c-d9a1-40a1-87a6-845cb78bc338">AddCurve(PointF*,INT,INT,INT,REAL)</a>
+<a href="https://msdn.microsoft.com/library/ms535614(v=VS.85).aspx">AddCurve(PointF*,INT,INT,INT,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/5160189c-d9a1-40a1-87a6-845cb78bc338">GraphicsPath::AddCurve</a> method adds a cardinal spline to the current figure of this path.
+The <a href="https://msdn.microsoft.com/library/ms535614(v=VS.85).aspx">GraphicsPath::AddCurve</a> method adds a cardinal spline to the current figure of this path.
 
 </td>
 </tr>

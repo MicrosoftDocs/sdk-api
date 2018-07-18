@@ -106,7 +106,7 @@ This function is called by a server application to control impersonation outside
 
 
 
-<a href="authentication_functions.htm">SSPI Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
  
 
  

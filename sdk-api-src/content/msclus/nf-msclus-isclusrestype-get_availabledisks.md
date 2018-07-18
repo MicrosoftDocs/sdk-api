@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 Returns the 
     collection representing the <a href="https://msdn.microsoft.com/d42e9bca-3717-44f7-a1b9-dfad1dbddd23">Physical Disks</a> available to the 
     resource type. A Physical Disk is available if it is 
-    <a href="c_gly.htm">cluster-capable</a> and is currently not being 
+    <a href="https://msdn.microsoft.com/library/ms682005(v=VS.85).aspx">cluster-capable</a> and is currently not being 
     used as a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>.
 
 This property is read-only.

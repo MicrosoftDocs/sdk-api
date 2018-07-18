@@ -64,12 +64,12 @@ Contains a <b>BOOL</b> that specifies if this is a key-down or a key-up event. C
 
 ### -param vKey [in]
 
-Contains the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="_win32_wm_keydown">WM_KEYDOWN</a>.
+Contains the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="https://msdn.microsoft.com/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>.
 
 
 ### -param lparamKeydata [in]
 
-Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="_win32_wm_keydown">WM_KEYDOWN</a>.
+Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="https://msdn.microsoft.com/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>.
 
 
 ### -param pfInterested [out]
@@ -114,11 +114,11 @@ The method was successful.
 
 
 
-<a href="_win32_wm_keydown">WM_KEYDOWN</a>
+<a href="https://msdn.microsoft.com/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>
 
 
 
-<a href="_win32_wm_keyup">WM_KEYUP</a>
+<a href="https://msdn.microsoft.com/library/ms646281(v=VS.85).aspx">WM_KEYUP</a>
  
 
  

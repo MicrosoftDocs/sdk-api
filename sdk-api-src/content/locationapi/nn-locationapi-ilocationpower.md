@@ -86,7 +86,7 @@ Notify the location platform that an app has connected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="winlocation.ilocationpower_disconnect">Disconnect</a>
+<a href="https://msdn.microsoft.com/library/ms689589(v=VS.85).aspx">Disconnect</a>
 </td>
 <td align="left" width="63%">
 Notify the location platform that an app has disconnected.

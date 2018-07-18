@@ -61,22 +61,22 @@ Defines values that are used with the Text Object Model (TOM) API.
 
 ### -field tomFalse
 
-A <a href="About_Text_Object_Model.htm">tomBool</a> value that indicates false.
+A <a href="https://msdn.microsoft.com/library/Bb787724(v=VS.85).aspx">tomBool</a> value that indicates false.
 
 
 ### -field tomTrue
 
-A <a href="About_Text_Object_Model.htm">tomBool</a> value that indicates true.
+A <a href="https://msdn.microsoft.com/library/Bb787724(v=VS.85).aspx">tomBool</a> value that indicates true.
 
 
 ### -field tomUndefined
 
-A <a href="About_Text_Object_Model.htm">tomBool</a> value that indicates a no-input, no-change value that works with <b>long</b>, <b>float</b>, and <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> parameters. For strings, <b>tomUndefined</b> (or NINCH) is represented by the null string. For Set operations, using <b>tomUndefined</b> does not change the target property. For Get operations, <b>tomUndefined</b> means that the characters in the range have different values (it gives the grayed check box in property dialog boxes).
+A <a href="https://msdn.microsoft.com/library/Bb787724(v=VS.85).aspx">tomBool</a> value that indicates a no-input, no-change value that works with <b>long</b>, <b>float</b>, and <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> parameters. For strings, <b>tomUndefined</b> (or NINCH) is represented by the null string. For Set operations, using <b>tomUndefined</b> does not change the target property. For Get operations, <b>tomUndefined</b> means that the characters in the range have different values (it gives the grayed check box in property dialog boxes).
 
 
 ### -field tomToggle
 
-A <a href="About_Text_Object_Model.htm">tomBool</a> value that toggles the state of a property.
+A <a href="https://msdn.microsoft.com/library/Bb787724(v=VS.85).aspx">tomBool</a> value that toggles the state of a property.
 
 
 ### -field tomAutoColor
@@ -548,26 +548,26 @@ List is ordered with uppercase Roman letters (I, II, III, ...).
 
 ### -field tomListNumberAsSequence
 
-The value returned by <a href="https://msdn.microsoft.com/e797f494-bc34-4529-a773-22d1ebfe1250">ITextPara::GetListStart</a> is treated as the first code in a Unicode sequence.
+The value returned by <a href="https://msdn.microsoft.com/library/Bb773987(v=VS.85).aspx">ITextPara::GetListStart</a> is treated as the first code in a Unicode sequence.
 
 
 ### -field tomListNumberedCircle
 
 List is ordered with Unicode circled numbers 
 
-<img alt="Unicode numbers in a circle." src="images/unicodecirclednumbers.png"/>
+<img alt="Unicode numbers in a circle." src="./images/unicodecirclednumbers.png"/>
 
 ### -field tomListNumberedBlackCircleWingding
 
 List is ordered with Wingdings black circled digits 
 
-<img alt="Circled black digits." src="images/wingdingblackcircleddigits.png"/>
+<img alt="Circled black digits." src="./images/wingdingblackcircleddigits.png"/>
 
 ### -field tomListNumberedWhiteCircleWingding
 
 List is ordered with Wingdings white circled digits:
 
-<img alt="White digits in a black circle." src="images/wingdingwhitecircleddigits.png"/>
+<img alt="White digits in a black circle." src="./images/wingdingwhitecircleddigits.png"/>
 
 ### -field tomListNumberedArabicWide
 
@@ -1773,12 +1773,12 @@ Alternative orientation.
 
 ### -field tomNoIME
 
-Disables the IME operation (see <a href="Rich_Edit_Control_Styles.htm">ES_NOIME</a>).
+Disables the IME operation (see <a href="https://msdn.microsoft.com/library/Bb774367(v=VS.85).aspx">ES_NOIME</a>).
 
 
 ### -field tomSelfIME
 
-Directs the rich edit control to allow the application to handle all IME operations (see <a href="Rich_Edit_Control_Styles.htm">ES_SELFIME</a>).
+Directs the rich edit control to allow the application to handle all IME operations (see <a href="https://msdn.microsoft.com/library/Bb774367(v=VS.85).aspx">ES_SELFIME</a>).
 
 
 ### -field tomNoUpScroll
@@ -3091,26 +3091,26 @@ Enable recursive build up.
 
 Mask for specifying changes to make during math linearization (build down). It can be a combination of the following values. 
 
-<a href="tomconstants.htm">tomMathInsRowBefore</a>
-<a href="tomconstants.htm">tomMathInsRowAfter</a>
-<a href="tomconstants.htm">tomMathInsColBefore</a>
-<a href="tomconstants.htm">tomMathInsColAfter</a>
-<a href="tomconstants.htm">tomMathDeleteRow</a>
-<a href="tomconstants.htm">tomMathDeleteCol</a>
-<a href="tomconstants.htm">tomMathDeleteArg</a>
-<a href="tomconstants.htm">tomMathDeleteArg1</a>
-<a href="tomconstants.htm">tomMathDeleteArg2</a>
-<a href="tomconstants.htm">tomMathMakeFracLinear</a>
-<a href="tomconstants.htm">tomMathMakeFracStacked</a>
-<a href="tomconstants.htm">tomMathMakeFracSlashed</a>
-<a href="tomconstants.htm">tomMathMakeLeftSubSup</a>
-<a href="tomconstants.htm">tomMathMakeSubSup</a>
-<a href="tomconstants.htm">tomMathBackspace</a>
-<a href="tomconstants.htm">tomMathEnter</a>
-<a href="tomconstants.htm">tomMathShiftTab</a>
-<a href="tomconstants.htm">tomMathTab</a>
-<a href="tomconstants.htm">tomMathSubscript</a>
-<a href="tomconstants.htm">tomMathSuperscript</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathInsRowBefore</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathInsRowAfter</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathInsColBefore</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathInsColAfter</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathDeleteRow</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathDeleteCol</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathDeleteArg</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathDeleteArg1</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathDeleteArg2</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathMakeFracLinear</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathMakeFracStacked</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathMakeFracSlashed</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathMakeLeftSubSup</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathMakeSubSup</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathBackspace</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathEnter</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathShiftTab</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathTab</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathSubscript</a>
+<a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomMathSuperscript</a>
 
 #### - tomMathCollapseSel
 
@@ -3250,19 +3250,19 @@ The character is treated as part of the current operand.
 #### - tomTeX
 
 Enables TeX syntax for build up/down operations. The <b>tomTeX</b> style can have the following values: <dl>
-<dd><a href="tomconstants.htm">tomStyleDefault</a></dd>
-<dd><a href="tomconstants.htm">tomStyleScriptScriptCramped</a></dd>
-<dd><a href="tomconstants.htm">tomStyleScriptScript</a></dd>
-<dd><a href="tomconstants.htm">tomStyleScriptCramped</a></dd>
-<dd><a href="tomconstants.htm">tomStyleScript</a></dd>
-<dd><a href="tomconstants.htm">tomStyleTextCramped</a></dd>
-<dd><a href="tomconstants.htm">tomStyleText</a></dd>
-<dd><a href="tomconstants.htm">tomStyleDisplayCramped</a></dd>
-<dd><a href="tomconstants.htm">tomStyleDisplay</a></dd>
-<dd><a href="tomconstants.htm">tomDecDecSize</a></dd>
-<dd><a href="tomconstants.htm">tomDecSize</a></dd>
-<dd><a href="tomconstants.htm">tomIncSize</a></dd>
-<dd><a href="tomconstants.htm">tomIncIncSize</a></dd>
+<dd><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomStyleDefault</a></dd>
+<dd><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomStyleScriptScriptCramped</a></dd>
+<dd><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomStyleScriptScript</a></dd>
+<dd><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomStyleScriptCramped</a></dd>
+<dd><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomStyleScript</a></dd>
+<dd><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomStyleTextCramped</a></dd>
+<dd><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomStyleText</a></dd>
+<dd><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomStyleDisplayCramped</a></dd>
+<dd><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomStyleDisplay</a></dd>
+<dd><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomDecDecSize</a></dd>
+<dd><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomDecSize</a></dd>
+<dd><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomIncSize</a></dd>
+<dd><a href="https://msdn.microsoft.com/library/Hh768766(v=VS.85).aspx">tomIncIncSize</a></dd>
 </dl>
 
 

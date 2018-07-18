@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Which resources are supported for a given format and given device (see <a href="https://msdn.microsoft.com/50b4fcbb-3c51-4027-b766-ea0590eb7766">ID3D10Device::CheckFormatSupport</a>).
+Which resources are supported for a given format and given device (see <a href="https://msdn.microsoft.com/library/Bb173536(v=VS.85).aspx">ID3D10Device::CheckFormatSupport</a>).
 
 
 ## -enum-fields
@@ -100,18 +100,18 @@ Cube texture resources supported.
 
 ### -field D3D10_FORMAT_SUPPORT_SHADER_LOAD
 
-The intrinsic HLSL function <a href="https://msdn.microsoft.com/a2fbda88-29c7-4d28-bd3e-df1d9aa36ee8">load</a> is supported.
+The intrinsic HLSL function <a href="https://msdn.microsoft.com/library/Bb509694(v=VS.85).aspx">load</a> is supported.
 
 
 ### -field D3D10_FORMAT_SUPPORT_SHADER_SAMPLE
 
-The intrinsic HLSL functions <a href="https://msdn.microsoft.com/788ba4b4-8013-411f-9a19-fb9983386fa0">Sample</a> supported.
+The intrinsic HLSL functions <a href="https://msdn.microsoft.com/library/Bb509695(v=VS.85).aspx">Sample</a> supported.
 
 
 ### -field D3D10_FORMAT_SUPPORT_SHADER_SAMPLE_COMPARISON
 
-The intrinsic HLSL functions <a href="https://msdn.microsoft.com/e21894c4-e8c5-4c3d-92c1-727964f8fd94">SampleCmp</a> 
-        and <a href="https://msdn.microsoft.com/cecfc5e8-d293-4e0e-a3f4-b23f84843b7d">SampleCmpLevelZero</a> are supported.
+The intrinsic HLSL functions <a href="https://msdn.microsoft.com/library/Bb509696(v=VS.85).aspx">SampleCmp</a> 
+        and <a href="https://msdn.microsoft.com/library/Bb509697(v=VS.85).aspx">SampleCmpLevelZero</a> are supported.
 
 
 ### -field D3D10_FORMAT_SUPPORT_SHADER_SAMPLE_MONO_TEXT
@@ -171,12 +171,12 @@ Format can be used as a multisampled rendertarget.
 
 ### -field D3D10_FORMAT_SUPPORT_MULTISAMPLE_LOAD
 
-Format can be used as a multisampled texture and read into a shader with the <a href="https://msdn.microsoft.com/a2fbda88-29c7-4d28-bd3e-df1d9aa36ee8">load</a> function.
+Format can be used as a multisampled texture and read into a shader with the <a href="https://msdn.microsoft.com/library/Bb509694(v=VS.85).aspx">load</a> function.
 
 
 ### -field D3D10_FORMAT_SUPPORT_SHADER_GATHER
 
-Format can be used with the <a href="https://msdn.microsoft.com/a394d8c2-99cc-4a38-9ac9-34afc666ebe0">gather</a> function. This value is available in DirectX 10.1 or higher.
+Format can be used with the <a href="https://msdn.microsoft.com/library/Bb944003(v=VS.85).aspx">gather</a> function. This value is available in DirectX 10.1 or higher.
 
 
 ### -field D3D10_FORMAT_SUPPORT_BACK_BUFFER_CAST
@@ -189,7 +189,7 @@ Format can be used with the <a href="https://msdn.microsoft.com/a394d8c2-99cc-4a
 
 
 
-<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
  
 
  

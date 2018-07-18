@@ -111,7 +111,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The settings retrieved by this method are set through the <i>sortDescription</i> attribute of the <a href="shell.propdesc_schema_labelInfo">labelInfo</a> element in the property's .propdesc file.
+The settings retrieved by this method are set through the <i>sortDescription</i> attribute of the <a href="https://msdn.microsoft.com/library/Bb773876(v=VS.85).aspx">labelInfo</a> element in the property's .propdesc file.
 
 
 
@@ -121,7 +121,7 @@ The settings retrieved by this method are set through the <i>sortDescription</i>
 
 
 
-<a href="shell.IPropertyDescription">IPropertyDescription</a>
+<a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
 
 
 

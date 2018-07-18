@@ -2,7 +2,7 @@
 UID: TP:fwp
 ms.assetid: a51f62fb-3c8a-3b1f-92ae-873df74e2cc2
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/18/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

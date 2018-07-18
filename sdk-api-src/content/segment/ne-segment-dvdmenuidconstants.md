@@ -113,7 +113,7 @@ All the titles in a title set share the same Subpicture, Audio, Angle, and Chapt
 
 
 
-<a href="mstv.msvidwebdvd_showmenu_method">ShowMenu</a>
+<a href="https://msdn.microsoft.com/library/Dd376389(v=VS.85).aspx">ShowMenu</a>
  
 
  

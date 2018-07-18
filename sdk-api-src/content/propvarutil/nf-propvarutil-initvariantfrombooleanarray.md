@@ -100,7 +100,7 @@ Creates a VT_ARRAY | VT_BOOL variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromBooleanArray">InitVariantFromBooleanArray</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb762317(v=VS.85).aspx">InitVariantFromBooleanArray</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -129,11 +129,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromBooleanVector">InitPropVariantFromBooleanVector</a>
+<a href="https://msdn.microsoft.com/library/Bb762288(v=VS.85).aspx">InitPropVariantFromBooleanVector</a>
 
 
 
-<a href="shell.VariantToBooleanArray">VariantToBooleanArray</a>
+<a href="https://msdn.microsoft.com/library/Bb776593(v=VS.85).aspx">VariantToBooleanArray</a>
  
 
  

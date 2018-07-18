@@ -107,7 +107,7 @@ The type of the property value. For example, the type of the string property <a 
 
 
 
-To preview attachments with a third-party protocol handler on computers running Windows XP or Windows Server 2003, it may be necessary to use the <a href="https://msdn.microsoft.com/0fef34c5-f20f-475a-9223-5cb73079c842">IItemPropertyBag</a> interface and the following APIs: the <a href="https://msdn.microsoft.com/b52fd64b-b03a-4d02-a64f-201f6b7d5045">ISearchProtocolUI</a>, <a href="https://msdn.microsoft.com/d7d6cbb0-18bf-4e68-b7b4-307cadbced5c">IItemPreviewerExt</a> and <a href="https://msdn.microsoft.com/e48c9e5b-9b15-4bc1-91ef-81ba7a05bfbd">ISearchItem</a> interfaces, the <a href="https://msdn.microsoft.com/c1d525ea-ee80-49fb-9447-20465b8f8654">LINKINFO</a> and <b>ITEMPROP</b> structures, and the <a href="https://msdn.microsoft.com/2a0ddb31-df35-4da5-9950-b091cd461556">LINKTYPE</a> enumeration.
+To preview attachments with a third-party protocol handler on computers running Windows XP or Windows Server 2003, it may be necessary to use the <a href="https://msdn.microsoft.com/0fef34c5-f20f-475a-9223-5cb73079c842">IItemPropertyBag</a> interface and the following APIs: the <a href="https://msdn.microsoft.com/library/Dd756719(v=VS.85).aspx">ISearchProtocolUI</a>, <a href="https://msdn.microsoft.com/library/Dd561904(v=VS.85).aspx">IItemPreviewerExt</a> and <a href="https://msdn.microsoft.com/library/Dd756722(v=VS.85).aspx">ISearchItem</a> interfaces, the <a href="https://msdn.microsoft.com/library/Dd561894(v=VS.85).aspx">LINKINFO</a> and <b>ITEMPROP</b> structures, and the <a href="https://msdn.microsoft.com/library/Dd561982(v=VS.85).aspx">LINKTYPE</a> enumeration.
 
 
 

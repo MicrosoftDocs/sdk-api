@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="mf.imfsensorprofile">IMFSensorProfile</a>
+<a href="https://msdn.microsoft.com/library/Mt845815(v=VS.85).aspx">IMFSensorProfile</a>
  
 
  

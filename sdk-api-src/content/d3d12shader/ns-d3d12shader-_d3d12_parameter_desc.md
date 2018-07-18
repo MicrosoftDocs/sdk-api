@@ -70,7 +70,7 @@ req.irql:
 ### -field SemanticName
 
 
-            The HLSL <a href="https://msdn.microsoft.com/6f5c504c-1940-4d1c-b594-a2132599376b">semantic</a> that is associated with this function parameter. This name includes the index, for example, SV_Target[n].
+            The HLSL <a href="https://msdn.microsoft.com/library/Bb509647(v=VS.85).aspx">semantic</a> that is associated with this function parameter. This name includes the index, for example, SV_Target[n].
           
 
 

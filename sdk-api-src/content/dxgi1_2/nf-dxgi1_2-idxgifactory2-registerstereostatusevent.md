@@ -78,7 +78,7 @@ A pointer to a key value that an application can pass to the <a href="https://ms
         <ul>
 <li>S_OK if it successfully registered the event.</li>
 <li>E_OUTOFMEMORY if memory is unavailable to complete the operation.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
 </ul>
 
 

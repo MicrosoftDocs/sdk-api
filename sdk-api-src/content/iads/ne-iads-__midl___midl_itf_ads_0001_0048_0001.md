@@ -57,7 +57,7 @@ The <b>ADS_RIGHTS_ENUM</b> enumeration specifies
     property contains a combination of these values for an Active Directory object.
 
 For more information and a list of possible access right values for file or file share objects, see 
-    <a href="base.file_security_and_access_rights">File Security and Access Rights</a>.
+    <a href="https://msdn.microsoft.com/library/Aa364399(v=VS.85).aspx">File Security and Access Rights</a>.
 
 For more information and a list of possible access right values for registry objects, see 
     <a href="https://msdn.microsoft.com/266d5c8e-1bcd-48e5-bc06-2fbc956d8658">Registry Key Security and Access Rights</a>.

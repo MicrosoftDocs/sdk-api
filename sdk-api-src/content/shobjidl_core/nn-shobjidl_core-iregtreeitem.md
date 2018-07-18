@@ -53,7 +53,7 @@ req.product: Outlook Express 6.0
 
 <p class="CCE_Message">[This interface is supported through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be unsupported in subsequent versions of Windows.]
 
-Exposes methods that retrieve and set the state of items in a tree-view control that have the <a href="_win32_Tree_View_Control_Window_Styles">Tree-View Control Window Styles</a> flag set.
+Exposes methods that retrieve and set the state of items in a tree-view control that have the <a href="https://msdn.microsoft.com/library/Bb760013(v=VS.85).aspx">Tree-View Control Window Styles</a> flag set.
 
 
 ## -inheritance
