@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Creates an animation control. <b>Animate_Create</b> calls the <a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a> function to create the animation control. 
+Creates an animation control. <b>Animate_Create</b> calls the <a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a> function to create the animation control. 
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The child window identifier of the animation control.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-The window styles. For a list of the animation control style values, see <a href="https://msdn.microsoft.com/library/Bb761886(v=VS.85).aspx">Animation Control Styles</a>. 
+The window styles. For a list of the animation control style values, see <a href="https://msdn.microsoft.com/ad4fc4fd-166d-4871-9f60-5133a48681aa">Animation Control Styles</a>. 
 
 
 ### -param hInstance
@@ -90,7 +90,7 @@ A handle to the instance of the module that is creating the animation control.
 
 
 
-The <b>Animate_Create</b> macro sets the width and height of the animation control to zero if the <a href="https://msdn.microsoft.com/library/Bb761886(v=VS.85).aspx">ACS_CENTER</a> style is specified. If the <b>ACS_CENTER</b> style is not specified, <b>Animate_Create</b> sets the width and height based on the dimensions of a frame in the AVI clip. 
+The <b>Animate_Create</b> macro sets the width and height of the animation control to zero if the <a href="Animation_Control_Styles.htm">ACS_CENTER</a> style is specified. If the <b>ACS_CENTER</b> style is not specified, <b>Animate_Create</b> sets the width and height based on the dimensions of a frame in the AVI clip. 
 
 
 

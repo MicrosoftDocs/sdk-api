@@ -88,11 +88,11 @@ This function has no return value. Throws an exception upon error.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms679738(v=VS.85).aspx">IRpcChannelBuffer</a>
+<a href="_com_irpcchannelbuffer">IRpcChannelBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a>
+<a href="_com_irpcstubbuffer">IRpcStubBuffer</a>
  
 
  

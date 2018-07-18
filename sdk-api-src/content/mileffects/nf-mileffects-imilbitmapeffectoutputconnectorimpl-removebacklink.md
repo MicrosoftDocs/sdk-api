@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 
 ### -param pConnection [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735274(v=VS.85).aspx">IMILBitmapEffectInputConnector</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/930ffa74-8a38-44c2-8b1c-74c0839d1a5d">IMILBitmapEffectInputConnector</a>*</b>
 
 
 ## -returns

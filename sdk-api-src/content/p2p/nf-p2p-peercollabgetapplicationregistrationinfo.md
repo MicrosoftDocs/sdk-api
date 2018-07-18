@@ -159,7 +159,7 @@ A peer's application has a GUID representing a single application. When an appli
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa371076(v=VS.85).aspx">PeerCollabRegisterApplication</a>
+<a href="p2p.peercollabregisterapplication">PeerCollabRegisterApplication</a>
 
 
 

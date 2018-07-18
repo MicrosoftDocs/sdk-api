@@ -2,7 +2,7 @@
 UID: NA:docobj
 ms.assetid: 6c10e816-fb06-360e-9ac2-51b2bd887ab4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

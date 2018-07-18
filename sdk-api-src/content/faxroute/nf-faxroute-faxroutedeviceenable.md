@@ -121,15 +121,15 @@ This function will return ERROR_BAD_CONFIGURATION if you attempt to refer to a d
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684519(v=VS.85).aspx">Fax Routing Extension Application Programming Interface Overview</a>
+<a href="https://msdn.microsoft.com/f8bdf0de-9455-45d1-9271-3929e0429d5c">Fax Routing Extension Application Programming Interface Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692865(v=VS.85).aspx">Fax Routing Extension Functions</a>
+<a href="https://msdn.microsoft.com/339f7fb6-64eb-403e-91be-210501042a25">Fax Routing Extension Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692910(v=VS.85).aspx">FaxRouteDeviceChangeNotification</a>
+<a href="https://msdn.microsoft.com/c9cf7b62-9a92-4b80-bd5b-6669817b3ad5">FaxRouteDeviceChangeNotification</a>
  
 
  

@@ -82,7 +82,7 @@ The zero-based index of the item to retrieve. This value must be less than the v
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>**</b>
+Type: <b><a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>**</b>
 
 Object that receives the <a href="https://msdn.microsoft.com/22f52e3f-875e-4dde-8875-3228639bc7f1">FolderItemVerb</a> object.
 

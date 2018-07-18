@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Calculates a tab control's display area given a window rectangle, or calculates the window rectangle that would correspond to a specified display area. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760573(v=VS.85).aspx">TCM_ADJUSTRECT</a> message explicitly. 
+Calculates a tab control's display area given a window rectangle, or calculates the window rectangle that would correspond to a specified display area. You can use this macro or send the <a href="https://msdn.microsoft.com/2f14201a-e4a3-4ae5-b9cf-4a674c52f24a">TCM_ADJUSTRECT</a> message explicitly. 
 
 
 ## -parameters

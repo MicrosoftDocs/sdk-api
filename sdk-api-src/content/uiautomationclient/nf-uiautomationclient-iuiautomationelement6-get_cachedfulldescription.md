@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt798238(v=VS.85).aspx">IUIAutomationElement6</a>
+<a href="winauto.iuiautomationelement6">IUIAutomationElement6</a>
  
 
  

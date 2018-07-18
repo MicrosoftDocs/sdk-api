@@ -51,7 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Defines operations and session settings.  Any Windows Remote Management operations require creation of an <b>IWSManSession</b> object that connects to a remote computer, <a href="https://msdn.microsoft.com/library/Aa384465(v=VS.85).aspx">base management controller</a> (BMC), or the local computer. WinRM network operations include getting, writing, enumerating data, or invoking methods.  The methods of the <b>IWSManSession</b> object mirror the basic  operations defined in the WS-Management protocol.
+Defines operations and session settings.  Any Windows Remote Management operations require creation of an <b>IWSManSession</b> object that connects to a remote computer, <a href="windows_remote_management_glossary.htm">base management controller</a> (BMC), or the local computer. WinRM network operations include getting, writing, enumerating data, or invoking methods.  The methods of the <b>IWSManSession</b> object mirror the basic  operations defined in the WS-Management protocol.
 
 
 ## -inheritance
@@ -102,7 +102,7 @@ Enumerates a table, data collection, or  log resource.
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983411">Get</a>
 </td>
 <td align="left" width="63%">
-Retrieves the resource specified by the  <a href="https://msdn.microsoft.com/library/Aa384465(v=VS.85).aspx">URI</a> and returns an XML representation of the current instance of the resource.
+Retrieves the resource specified by the  <a href="windows_remote_management_glossary.htm">URI</a> and returns an XML representation of the current instance of the resource.
 
 </td>
 </tr>

@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Removes all items from the list box and edit control of a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775878(v=VS.85).aspx">CB_RESETCONTENT</a> message explicitly.
+Removes all items from the list box and edit control of a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/55203c34-87ca-46e9-a914-a480d43ccadd">CB_RESETCONTENT</a> message explicitly.
 
 
 ## -parameters

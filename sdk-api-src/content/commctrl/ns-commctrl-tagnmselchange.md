@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Carries information required to process the <a href="https://msdn.microsoft.com/library/Bb760937(v=VS.85).aspx">MCN_SELCHANGE</a> notification code. 
+Carries information required to process the <a href="https://msdn.microsoft.com/8923524f-d257-409d-bd3e-021684b88856">MCN_SELCHANGE</a> notification code. 
 
 
 ## -struct-fields
@@ -60,10 +60,10 @@ Carries information required to process the <a href="https://msdn.microsoft.com/
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about this notification. 
 
 
 ### -field stSelStart

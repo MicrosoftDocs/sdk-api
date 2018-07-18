@@ -62,7 +62,7 @@ Describes double data type support in the current graphics driver.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
-Specifies whether <a href="https://msdn.microsoft.com/library/Bb509646(v=VS.85).aspx">double</a> types are allowed. If <b>TRUE</b>, <a href="https://msdn.microsoft.com/library/Bb509646(v=VS.85).aspx">double</a> types are allowed; otherwise <b>FALSE</b>. The runtime must set <b>DoublePrecisionFloatShaderOps</b> to  <b>TRUE</b> in order for you to use any <a href="https://msdn.microsoft.com/library/Bb509561(v=VS.85).aspx">HLSL</a> shader that is compiled with a <a href="https://msdn.microsoft.com/library/Bb509646(v=VS.85).aspx">double</a> type.
+Specifies whether <a href="https://msdn.microsoft.com/bf24d27f-2720-4268-bc74-fc46afedb9aa">double</a> types are allowed. If <b>TRUE</b>, <a href="https://msdn.microsoft.com/bf24d27f-2720-4268-bc74-fc46afedb9aa">double</a> types are allowed; otherwise <b>FALSE</b>. The runtime must set <b>DoublePrecisionFloatShaderOps</b> to  <b>TRUE</b> in order for you to use any <a href="https://msdn.microsoft.com/09cdd8d6-0cf5-4f7e-b480-f748d2fa9ca9">HLSL</a> shader that is compiled with a <a href="https://msdn.microsoft.com/bf24d27f-2720-4268-bc74-fc46afedb9aa">double</a> type.
 
 
 ## -remarks

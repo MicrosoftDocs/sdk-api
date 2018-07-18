@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Get the number of milliseconds to sleep after <a href="https://msdn.microsoft.com/library/Bb174576(v=VS.85).aspx">IDXGISwapChain::Present</a> is called.
+Get the number of milliseconds to sleep after <a href="https://msdn.microsoft.com/4214fa05-d876-420e-a125-c68d6c4e6801">IDXGISwapChain::Present</a> is called.
 
 
 ## -parameters

@@ -61,7 +61,7 @@ Creates a new folder.
 
 ### -param bName
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 A string that specifies the name of the new folder.
 

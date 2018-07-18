@@ -86,14 +86,14 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The cursor is a shared resource. If an application confines the cursor with the <a href="https://msdn.microsoft.com/library/ms648383(v=VS.85).aspx">ClipCursor</a> function, it must later release the cursor by using <b>ClipCursor</b> before relinquishing control to another application. 
+The cursor is a shared resource. If an application confines the cursor with the <a href="https://msdn.microsoft.com/bafaf206-cc53-4537-b7a5-2903fbfca893">ClipCursor</a> function, it must later release the cursor by using <b>ClipCursor</b> before relinquishing control to another application. 
 
 The calling process must have <b>WINSTA_READATTRIBUTES</b> access to the window station. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms648380(v=VS.85).aspx">Confining a Cursor</a>.
+For an example, see <a href="using_cursors.htm">Confining a Cursor</a>.
 
 <div class="code"></div>
 
@@ -104,7 +104,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648380(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648383(v=VS.85).aspx">ClipCursor</a>
+<a href="https://msdn.microsoft.com/bafaf206-cc53-4537-b7a5-2903fbfca893">ClipCursor</a>
 
 
 
@@ -112,11 +112,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648380(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://msdn.microsoft.com/d24e21f2-224d-4f32-aa0b-70844e3628ad">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648390(v=VS.85).aspx">GetCursorPos</a>
+<a href="https://msdn.microsoft.com/c76370d3-741a-4192-97d4-d63d2885b36b">GetCursorPos</a>
 
 
 

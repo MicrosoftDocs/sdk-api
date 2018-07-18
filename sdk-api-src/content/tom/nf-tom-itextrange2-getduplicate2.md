@@ -81,7 +81,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-If this range is an <a href="https://msdn.microsoft.com/75a4e233-6672-4407-bd68-ba8a7072b7b1">ITextSelection2</a> object, the duplicate returned is an <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a> object. See the <a href="https://msdn.microsoft.com/library/Bb787783(v=VS.85).aspx">ITextRange::FindText</a> method for more information. 
+If this range is an <a href="https://msdn.microsoft.com/75a4e233-6672-4407-bd68-ba8a7072b7b1">ITextSelection2</a> object, the duplicate returned is an <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a> object. See the <a href="https://msdn.microsoft.com/e0c95f5b-e147-4c1f-ae1a-def36b0be5c1">ITextRange::FindText</a> method for more information. 
 
 
 

@@ -51,7 +51,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-Creates a new <b>XAudio2</b> object and returns a pointer to its <a href="https://msdn.microsoft.com/library/Ee415908(v=VS.85).aspx">IXAudio2</a> interface.
+Creates a new <b>XAudio2</b> object and returns a pointer to its <a href="https://msdn.microsoft.com/A49469C6-2C29-407C-8C57-65E3FC9463F1">IXAudio2</a> interface.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Creates a new <b>XAudio2</b> object and returns a pointer to its <a href="https:
 
 ### -param ppXAudio2 [out]
 
-If the operation is successful, returns a pointer to an <a href="https://msdn.microsoft.com/library/Ee415908(v=VS.85).aspx">IXAudio2</a> object.
+If the operation is successful, returns a pointer to an <a href="https://msdn.microsoft.com/A49469C6-2C29-407C-8C57-65E3FC9463F1">IXAudio2</a> object.
 
 
 ### -param X2DEFAULT
@@ -73,7 +73,7 @@ TBD
 
 #### - Flags [in]
 
-Flags that specify the behavior of the <a href="https://msdn.microsoft.com/library/Ee415908(v=VS.85).aspx">IXAudio2</a> object. The value of this parameter must be 0.
+Flags that specify the behavior of the <a href="https://msdn.microsoft.com/A49469C6-2C29-407C-8C57-65E3FC9463F1">IXAudio2</a> object. The value of this parameter must be 0.
 
 
 #### - XAudio2Processor [in]

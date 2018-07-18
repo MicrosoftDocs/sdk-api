@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the color for a given portion of a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760997(v=VS.85).aspx">MCM_SETCOLOR</a> message explicitly. 
+Sets the color for a given portion of a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/4ceb7b0e-82be-474a-a163-7e71356818c0">MCM_SETCOLOR</a> message explicitly. 
 
 
 ## -parameters

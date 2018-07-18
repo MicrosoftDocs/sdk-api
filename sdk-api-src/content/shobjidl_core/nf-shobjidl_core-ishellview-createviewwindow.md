@@ -100,7 +100,7 @@ The address of the window handle being created.
 
 Type: <b>HRESULT</b>
 
-Returns a success code if successful, or a COM error code otherwise. Use the <a href="https://msdn.microsoft.com/library/ms687197(v=VS.85).aspx">SUCCEEDED</a> and <a href="https://msdn.microsoft.com/library/ms693474(v=VS.85).aspx">FAILED</a> macros to determine whether the operation succeeded or failed.
+Returns a success code if successful, or a COM error code otherwise. Use the <a href="com.succeeded">SUCCEEDED</a> and <a href="com.failed">FAILED</a> macros to determine whether the operation succeeded or failed.
 
 
 

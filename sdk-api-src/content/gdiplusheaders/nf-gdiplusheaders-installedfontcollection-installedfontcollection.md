@@ -66,15 +66,15 @@ Creates an <b>InstalledFontCollection::InstalledFontCollection</b> object.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534438(v=VS.85).aspx">FontCollection</a>
+<a href="https://msdn.microsoft.com/5e1336ea-cb29-4fa4-85d5-077498a69cb2">FontCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534469(v=VS.85).aspx">InstalledFontCollection</a>
+<a href="https://msdn.microsoft.com/6c71a3eb-4fbf-45b0-ab35-8756a100af31">InstalledFontCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/12bc38c3-5fbc-4d7b-902c-92a5f5057473">Using Text and Fonts</a>
  
 
  

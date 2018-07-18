@@ -60,25 +60,25 @@ Create a blend-state object that encapsules blend state for the output-merger st
 
 ### -param pBlendStateDesc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb694528(v=VS.85).aspx">D3D10_BLEND_DESC1</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/1da6dc74-ff15-4707-866d-5aaf80c495f9">D3D10_BLEND_DESC1</a>*</b>
 
-Pointer to a blend-state description (see <a href="https://msdn.microsoft.com/library/Bb694528(v=VS.85).aspx">D3D10_BLEND_DESC1</a>).
+Pointer to a blend-state description (see <a href="https://msdn.microsoft.com/1da6dc74-ff15-4707-866d-5aaf80c495f9">D3D10_BLEND_DESC1</a>).
 
 
 ### -param ppBlendState [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb694544(v=VS.85).aspx">ID3D10BlendState1</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/acb41920-8090-4357-afe0-ba5a6644b984">ID3D10BlendState1</a>**</b>
 
-Address of a pointer to the blend-state object created (see <a href="https://msdn.microsoft.com/library/Bb694544(v=VS.85).aspx">ID3D10BlendState1 Interface</a>).
+Address of a pointer to the blend-state object created (see <a href="https://msdn.microsoft.com/acb41920-8090-4357-afe0-ba5a6644b984">ID3D10BlendState1 Interface</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -99,7 +99,7 @@ This method requires Windows Vista Service Pack 1.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb694546(v=VS.85).aspx">ID3D10Device1 Interface</a>
+<a href="https://msdn.microsoft.com/511f710d-f35e-46bf-93e0-47b6ceb5c84d">ID3D10Device1 Interface</a>
  
 
  

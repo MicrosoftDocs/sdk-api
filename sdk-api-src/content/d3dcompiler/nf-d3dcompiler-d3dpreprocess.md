@@ -133,7 +133,7 @@ Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-1
 
 
 
-<b>D3DPreprocess</b> outputs <a href="https://msdn.microsoft.com/library/Dd607350(v=VS.85).aspx">#line</a> directives and preserves line numbering of source input so that output line numbering can be properly related to the input source.
+<b>D3DPreprocess</b> outputs <a href="https://msdn.microsoft.com/307410af-bd78-4b3d-b515-adf58298f35f">#line</a> directives and preserves line numbering of source input so that output line numbering can be properly related to the input source.
 
 
 

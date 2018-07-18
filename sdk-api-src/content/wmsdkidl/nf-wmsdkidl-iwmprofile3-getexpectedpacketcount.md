@@ -55,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>GetExpectedPacketCount</b> method calculates the expected <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">packet</a> count for the specified duration. The packet count returned is only an estimate, and it is based upon the settings of the profile at the time this call is made.
+The <b>GetExpectedPacketCount</b> method calculates the expected <a href="wmformat_glossary.htm">packet</a> count for the specified duration. The packet count returned is only an estimate, and it is based upon the settings of the profile at the time this call is made.
 
 
 

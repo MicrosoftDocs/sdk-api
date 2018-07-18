@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>BrightnessContrast::GetParameters</b> method gets the current values of the parameters of this <a href="https://msdn.microsoft.com/library/ms534423(v=VS.85).aspx">BrightnessContrast</a> object.
+The <b>BrightnessContrast::GetParameters</b> method gets the current values of the parameters of this <a href="https://msdn.microsoft.com/92eaf786-ab9e-46ae-af02-e620b3a35a8a">BrightnessContrast</a> object.
 
 
 ## -parameters
@@ -63,14 +63,14 @@ The <b>BrightnessContrast::GetParameters</b> method gets the current values of t
 
 Type: <b>UINT*</b>
 
-Pointer to a <b>UINT</b> that specifies the size, in bytes, of a <a href="https://msdn.microsoft.com/library/ms534058(v=VS.85).aspx">BrightnessContrastParams</a> structure.
+Pointer to a <b>UINT</b> that specifies the size, in bytes, of a <a href="https://msdn.microsoft.com/b5271911-7759-4e87-af25-7d9a9d9c653e">BrightnessContrastParams</a> structure.
 
 
 ### -param parameters [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534058(v=VS.85).aspx">BrightnessContrastParams</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/b5271911-7759-4e87-af25-7d9a9d9c653e">BrightnessContrastParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534058(v=VS.85).aspx">BrightnessContrastParams</a> structure that receives the parameter values.
+Pointer to a <a href="https://msdn.microsoft.com/b5271911-7759-4e87-af25-7d9a9d9c653e">BrightnessContrastParams</a> structure that receives the parameter values.
 
 
 ## -returns
@@ -94,11 +94,11 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534423(v=VS.85).aspx">BrightnessContrast</a>
+<a href="https://msdn.microsoft.com/92eaf786-ab9e-46ae-af02-e620b3a35a8a">BrightnessContrast</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536278(v=VS.85).aspx">BrightnessContrast::SetParameters</a>
+<a href="https://msdn.microsoft.com/ca9e5978-75ff-4e06-9597-0e706db19259">BrightnessContrast::SetParameters</a>
  
 
  

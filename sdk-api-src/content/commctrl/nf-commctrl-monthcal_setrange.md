@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the minimum and maximum allowable dates for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761012(v=VS.85).aspx">MCM_SETRANGE</a> message explicitly. 
+Sets the minimum and maximum allowable dates for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/dab9ebb0-f397-4e71-b060-ef8d7d89a6bc">MCM_SETRANGE</a> message explicitly. 
 
 
 ## -parameters

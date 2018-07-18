@@ -61,9 +61,9 @@ Get the properties of a render target view.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172410(v=VS.85).aspx">D3D10_RENDER_TARGET_VIEW_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/05a8dcf3-c815-47f1-b51f-e382804b030b">D3D10_RENDER_TARGET_VIEW_DESC</a>*</b>
 
-Pointer to the description of a render target view (see <a href="https://msdn.microsoft.com/library/Bb172410(v=VS.85).aspx">D3D10_RENDER_TARGET_VIEW_DESC</a>).
+Pointer to the description of a render target view (see <a href="https://msdn.microsoft.com/05a8dcf3-c815-47f1-b51f-e382804b030b">D3D10_RENDER_TARGET_VIEW_DESC</a>).
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173827(v=VS.85).aspx">ID3D10RenderTargetView Interface</a>
+<a href="https://msdn.microsoft.com/0a545476-19d2-41f7-9012-82fbf633f23b">ID3D10RenderTargetView Interface</a>
  
 
  

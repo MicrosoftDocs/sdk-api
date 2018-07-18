@@ -79,8 +79,8 @@ A pointer to a key value that an application can pass to the <a href="https://ms
 <li>S_OK if the method successfully registered the event.</li>
 <li>E_OUTOFMEMORY if memory is unavailable to complete the operation.</li>
 <li>
-<a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a>  if <i>hEvent</i> is not a valid handle or not an event handle. </li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_INVALID_CALL</a>  if <i>hEvent</i> is not a valid handle or not an event handle. </li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
 </ul>
 
 
@@ -93,7 +93,7 @@ A pointer to a key value that an application can pass to the <a href="https://ms
 
 
 
-If you call <b>RegisterOcclusionStatusEvent</b> multiple times with the same event handle, <b>RegisterOcclusionStatusEvent</b> fails with <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a>.
+If you call <b>RegisterOcclusionStatusEvent</b> multiple times with the same event handle, <b>RegisterOcclusionStatusEvent</b> fails with <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_INVALID_CALL</a>.
 
 If you call <b>RegisterOcclusionStatusEvent</b> multiple times with the different event handles, <b>RegisterOcclusionStatusEvent</b> properly registers the events.
 

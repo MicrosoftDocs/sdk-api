@@ -77,7 +77,7 @@ Integer that specifies the number of characters in the <i>string</i> array. If t
 
 ### -param font [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms534437(v=VS.85).aspx">Font</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a>*</b>
 
 Pointer to a <i>Font</i> object that specifies the font characteristics (the family name, size, and style of the font) to be applied to the string. 
 
@@ -91,7 +91,7 @@ Reference to a rectangle that bounds the string.
 
 ### -param stringFormat [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms534510(v=VS.85).aspx">StringFormat</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a>*</b>
 
 Pointer to a <i>StringFormat</i> object that specifies the character ranges and layout information, such as alignment, trimming, tab stops, and so forth. 
 
@@ -128,7 +128,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-A character range is a range of character positions within a string of text. The area of the display that is occupied by a group of characters that are specified by the character range, is the bounding region. A character range is set by <a href="https://msdn.microsoft.com/library/ms534729(v=VS.85).aspx">SetMeasurableCharacterRanges</a>. The number of ranges that are currently set can be determined by calling <a href="https://msdn.microsoft.com/library/ms534720(v=VS.85).aspx">GetMeasurableCharacterRangeCount</a>. This number is also the number of regions expected to be obtained by the <b>MeasureCharacterRanges</b> method.
+A character range is a range of character positions within a string of text. The area of the display that is occupied by a group of characters that are specified by the character range, is the bounding region. A character range is set by <a href="https://msdn.microsoft.com/5c49c64f-f705-4b33-974b-34ffb1e43ff5">SetMeasurableCharacterRanges</a>. The number of ranges that are currently set can be determined by calling <a href="https://msdn.microsoft.com/374b89d4-4f6f-4875-a34f-8a6e9ee379ab">GetMeasurableCharacterRangeCount</a>. This number is also the number of regions expected to be obtained by the <b>MeasureCharacterRanges</b> method.
 
 
 #### Examples
@@ -232,11 +232,11 @@ The following example defines three ranges of character positions within a strin
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534426(v=VS.85).aspx">CharacterRange</a>
+<a href="https://msdn.microsoft.com/7bb98500-d1cf-422d-b1ff-a7ca4c84560e">CharacterRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534720(v=VS.85).aspx">GetMeasurableCharacterRangeCount</a>
+<a href="https://msdn.microsoft.com/374b89d4-4f6f-4875-a34f-8a6e9ee379ab">GetMeasurableCharacterRangeCount</a>
 
 
 
@@ -244,7 +244,7 @@ The following example defines three ranges of character positions within a strin
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534729(v=VS.85).aspx">SetMeasurableCharacterRanges</a>
+<a href="https://msdn.microsoft.com/5c49c64f-f705-4b33-974b-34ffb1e43ff5">SetMeasurableCharacterRanges</a>
  
 
  

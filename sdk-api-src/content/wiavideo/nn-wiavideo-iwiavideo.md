@@ -74,46 +74,46 @@ The <b>IWiaVideo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629884(v=VS.85).aspx">CreateVideoByDevNum</a>
+<a href="https://msdn.microsoft.com/0ea7ab75-7893-485d-a523-faa6019e1f67">CreateVideoByDevNum</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629884(v=VS.85).aspx">IWiaVideo::CreateVideoByDevNum</a> method creates a connection to a streaming video device with the device number obtained from a Directshow enumeration.
+The <a href="https://msdn.microsoft.com/0ea7ab75-7893-485d-a523-faa6019e1f67">IWiaVideo::CreateVideoByDevNum</a> method creates a connection to a streaming video device with the device number obtained from a Directshow enumeration.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629886(v=VS.85).aspx">CreateVideoByName</a>
+<a href="https://msdn.microsoft.com/4ea34408-cf71-45d2-ac3b-6e3ad9622ae5">CreateVideoByName</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629886(v=VS.85).aspx">IWiaVideo::CreateVideoByName</a> method creates a connection to a streaming video device with the friendly device name obtained from a Directshow enumeration.
+The <a href="https://msdn.microsoft.com/4ea34408-cf71-45d2-ac3b-6e3ad9622ae5">IWiaVideo::CreateVideoByName</a> method creates a connection to a streaming video device with the friendly device name obtained from a Directshow enumeration.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629889(v=VS.85).aspx">CreateVideoByWiaDevID</a>
+<a href="https://msdn.microsoft.com/bc5379fb-54ba-4bcd-b302-e07676885106">CreateVideoByWiaDevID</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629889(v=VS.85).aspx">IWiaVideo::CreateVideoByWiaDevID</a> method creates a connection to a streaming video device from its WIA_DIP_DEV_ID property.
+The <a href="https://msdn.microsoft.com/bc5379fb-54ba-4bcd-b302-e07676885106">IWiaVideo::CreateVideoByWiaDevID</a> method creates a connection to a streaming video device from its WIA_DIP_DEV_ID property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629890(v=VS.85).aspx">DestroyVideo</a>
+<a href="https://msdn.microsoft.com/9c175fb1-8d3f-47a5-98d6-8f7d256b8f4e">DestroyVideo</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629890(v=VS.85).aspx">IWiaVideo::DestroyVideo</a> method shuts down the streaming video. To restart video playback, the application must call one of the <b>IWiaVideo</b> CreateVideo methods again.
+The <a href="https://msdn.microsoft.com/9c175fb1-8d3f-47a5-98d6-8f7d256b8f4e">IWiaVideo::DestroyVideo</a> method shuts down the streaming video. To restart video playback, the application must call one of the <b>IWiaVideo</b> CreateVideo methods again.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629893(v=VS.85).aspx">GetCurrentState</a>
+<a href="https://msdn.microsoft.com/ccd5abb6-8baa-4751-a8f8-5120c78739b4">GetCurrentState</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629893(v=VS.85).aspx">IWiaVideo::GetCurrentState</a> method specifies the state of the video stream as a member of the <a href="https://msdn.microsoft.com/library/ms630181(v=VS.85).aspx">WIAVIDEO_STATE</a> enumeration.
+The <a href="https://msdn.microsoft.com/ccd5abb6-8baa-4751-a8f8-5120c78739b4">IWiaVideo::GetCurrentState</a> method specifies the state of the video stream as a member of the <a href="https://msdn.microsoft.com/3d460ca8-6760-4649-b33d-ebf24d318346">WIAVIDEO_STATE</a> enumeration.
 
 </td>
 </tr>
@@ -122,13 +122,13 @@ The <a href="https://msdn.microsoft.com/library/ms629893(v=VS.85).aspx">IWiaVide
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629898(v=VS.85).aspx">IWiaVideo::Pause</a> method pauses video playback.
+The <a href="https://msdn.microsoft.com/ed4c5669-33e4-43f9-8e61-7cd2b01fdd44">IWiaVideo::Pause</a> method pauses video playback.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629900(v=VS.85).aspx">Play</a>
+<a href="https://msdn.microsoft.com/b8917c5f-6569-496d-a2ed-bd5ed76dfbcf">Play</a>
 </td>
 <td align="left" width="63%">
 Begins playback of streaming video.
@@ -137,19 +137,19 @@ Begins playback of streaming video.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629903(v=VS.85).aspx">ResizeVideo</a>
+<a href="https://msdn.microsoft.com/08a22af1-73cf-4d05-8242-8c7f1497a15b">ResizeVideo</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629903(v=VS.85).aspx">IWiaVideo::ResizeVideo</a> method resizes the video playback to the largest supported resolution that fits inside the parent window. Call this method whenever the parent window is moved or resized.
+The <a href="https://msdn.microsoft.com/08a22af1-73cf-4d05-8242-8c7f1497a15b">IWiaVideo::ResizeVideo</a> method resizes the video playback to the largest supported resolution that fits inside the parent window. Call this method whenever the parent window is moved or resized.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629905(v=VS.85).aspx">TakePicture</a>
+<a href="https://msdn.microsoft.com/edd4b242-f4df-4f5b-8655-e697e78fef47">TakePicture</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629905(v=VS.85).aspx">IWiaVideo::TakePicture</a> method extracts a still image from the video stream, and saves the image as a JPEG file.
+The <a href="https://msdn.microsoft.com/edd4b242-f4df-4f5b-8655-e697e78fef47">IWiaVideo::TakePicture</a> method extracts a still image from the video stream, and saves the image as a JPEG file.
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ The <a href="https://msdn.microsoft.com/library/ms629905(v=VS.85).aspx">IWiaVide
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms629895(v=VS.85).aspx">ImagesDirectory</a>
+<a href="https://msdn.microsoft.com/f7bff8d2-1cdd-4d32-877b-c61343888a26">ImagesDirectory</a>
 
 
 </td>
@@ -173,14 +173,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629895(v=VS.85).aspx">IWiaVideo::ImagesDirectory</a> property specifies the full path and directory where images are stored when calling the <a href="https://msdn.microsoft.com/library/ms629905(v=VS.85).aspx">IWiaVideo::TakePicture</a> method.
+The <a href="https://msdn.microsoft.com/f7bff8d2-1cdd-4d32-877b-c61343888a26">IWiaVideo::ImagesDirectory</a> property specifies the full path and directory where images are stored when calling the <a href="https://msdn.microsoft.com/edd4b242-f4df-4f5b-8655-e697e78fef47">IWiaVideo::TakePicture</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms629902(v=VS.85).aspx">PreviewVisible</a>
+<a href="https://msdn.microsoft.com/c2a8b794-94f8-4405-878a-5c257c33affc">PreviewVisible</a>
 
 
 </td>
@@ -189,7 +189,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms629902(v=VS.85).aspx">IWiaVideo::PreviewVisible</a> property specifies whether the video playback is visible in its parent window. This does not affect the <a href="https://msdn.microsoft.com/library/ms630181(v=VS.85).aspx">WIAVIDEO_STATE</a> of the video.
+The <a href="https://msdn.microsoft.com/c2a8b794-94f8-4405-878a-5c257c33affc">IWiaVideo::PreviewVisible</a> property specifies whether the video playback is visible in its parent window. This does not affect the <a href="https://msdn.microsoft.com/3d460ca8-6760-4649-b33d-ebf24d318346">WIAVIDEO_STATE</a> of the video.
 
 </td>
 </tr>

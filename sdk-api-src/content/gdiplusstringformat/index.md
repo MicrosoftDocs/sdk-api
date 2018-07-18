@@ -2,7 +2,7 @@
 UID: NA:gdiplusstringformat
 ms.assetid: 6f198292-2076-3c7a-98e0-4b75865a39b0
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -91,7 +91,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419425(v=VS.85).aspx">XMConvertToDegrees</a>
+<a href="https://msdn.microsoft.com/5d14f50e-cab6-49e9-9b7b-be5519d7bd63">XMConvertToDegrees</a>
  
 
  

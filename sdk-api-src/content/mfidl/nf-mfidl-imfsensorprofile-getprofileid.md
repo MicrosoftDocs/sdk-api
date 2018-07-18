@@ -61,7 +61,7 @@ Retrieves the sensor profile ID.
 
 ### -param pId [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Mt845826(v=VS.85).aspx">SENSORPROFILEID</a> containing the profile ID.
+Pointer to a <a href="mf.sensorprofileid">SENSORPROFILEID</a> containing the profile ID.
 
 
 ## -returns
@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt845815(v=VS.85).aspx">IMFSensorProfile</a>
+<a href="mf.imfsensorprofile">IMFSensorProfile</a>
  
 
  

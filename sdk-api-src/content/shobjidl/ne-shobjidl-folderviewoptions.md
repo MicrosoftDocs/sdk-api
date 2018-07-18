@@ -97,5 +97,5 @@ Used by methods of the <a href="https://msdn.microsoft.com/4831e62c-45e4-435d-b9
 
 A scroll tip displays the names of files as they are scrolled past, as a visual clue to your location in the list. An example is shown here.
 
-<img alt="Screen shot of a Scroll tip displaying the name of the Shell32.dll file in the System32 folder." src="./images/scrolltip.jpg"/>
+<img alt="Screen shot of a Scroll tip displaying the name of the Shell32.dll file in the System32 folder." src="images/scrolltip.jpg"/>
 

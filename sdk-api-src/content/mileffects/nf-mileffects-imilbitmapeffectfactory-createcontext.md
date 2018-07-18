@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a> object.
+Creates an <a href="https://msdn.microsoft.com/0c8fbbba-32e6-459c-90ab-2453b57c27ee">IMILBitmapEffectRenderContext</a> object.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Creates an <a href="https://msdn.microsoft.com/library/ms735245(v=VS.85).aspx">I
 
 ### -param ppContext [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/0c8fbbba-32e6-459c-90ab-2453b57c27ee">IMILBitmapEffectRenderContext</a>**</b>
 
-A pointer that receives a pointer to a new <a href="https://msdn.microsoft.com/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a>.
+A pointer that receives a pointer to a new <a href="https://msdn.microsoft.com/0c8fbbba-32e6-459c-90ab-2453b57c27ee">IMILBitmapEffectRenderContext</a>.
 
 
 ## -returns

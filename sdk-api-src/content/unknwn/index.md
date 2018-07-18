@@ -2,7 +2,7 @@
 UID: NA:unknwn
 ms.assetid: 2465b4db-f3c3-37e4-8e60-1750924704d8
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

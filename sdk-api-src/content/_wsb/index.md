@@ -2,7 +2,7 @@
 UID: TP:wsb
 ms.assetid: d329838b-7159-34cd-b2ce-9c345c166b33
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

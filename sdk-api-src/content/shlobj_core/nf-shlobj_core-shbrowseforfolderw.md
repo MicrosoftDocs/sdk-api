@@ -321,7 +321,7 @@ STDAPI SHGetTargetFolderPath(LPCITEMIDLIST pidlFolder, LPWSTR pszPath, UINT cchP
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646960(v=VS.85).aspx">Open and Save as Dialog Boxes</a>
+<a href="_win32_open_and_save_as_dialog_boxes">Open and Save as Dialog Boxes</a>
  
 
  

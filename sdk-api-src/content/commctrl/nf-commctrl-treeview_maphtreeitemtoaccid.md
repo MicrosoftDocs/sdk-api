@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Maps an <b>HTREEITEM</b> to an accessibility ID. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773735(v=VS.85).aspx">TVM_MAPHTREEITEMTOACCID</a> message explicitly. 
+Maps an <b>HTREEITEM</b> to an accessibility ID. You can use this macro or send the <a href="https://msdn.microsoft.com/87ef0785-88c1-49f4-8a05-872577e16fe4">TVM_MAPHTREEITEMTOACCID</a> message explicitly. 
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The value to be mapped.
 
 
 
-To use <b>TreeView_MapHTREEITEMtoAccID</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>TreeView_MapHTREEITEMtoAccID</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 <div class="alert"><b>Note</b>  The accessibility ID is not the same as that mentioned in <a href="https://msdn.microsoft.com/bac49a2d-4357-4607-a89d-d2ed4abf89bb">IAccessibleObject</a>. This is a unique ID used for treeview items as long as treeitems do not exceed the max limit of <b>UINT</b>.
 </div>

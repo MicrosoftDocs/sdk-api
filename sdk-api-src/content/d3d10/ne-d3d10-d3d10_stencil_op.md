@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-The stencil operations that can be performed during <a href="https://msdn.microsoft.com/library/Bb205120(v=VS.85).aspx">depth-stencil</a> testing.
+The stencil operations that can be performed during <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">depth-stencil</a> testing.
 
 
 ## -enum-fields
@@ -70,7 +70,7 @@ Set the stencil data to 0.
 
 ### -field D3D10_STENCIL_OP_REPLACE
 
-Set the stencil data to the reference value set by calling <a href="https://msdn.microsoft.com/library/Bb173596(v=VS.85).aspx">ID3D10Device::OMSetDepthStencilState</a>.
+Set the stencil data to the reference value set by calling <a href="https://msdn.microsoft.com/7cf8e5ca-08f2-4fa3-8657-cbce5d773dcf">ID3D10Device::OMSetDepthStencilState</a>.
 
 
 ### -field D3D10_STENCIL_OP_INCR_SAT
@@ -103,7 +103,7 @@ Increment the stencil value by 1, and wrap the result if necessary.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
  
 
  

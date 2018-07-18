@@ -696,7 +696,7 @@ Bind information about the primitive type, and data order that describes input d
 </td>
 <td align="left" width="63%">
 
-      Bind an array of vertex buffers to the <a href="https://msdn.microsoft.com/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>.
+      Bind an array of vertex buffers to the <a href="https://msdn.microsoft.com/71141a5e-2d79-4b02-8370-c0cbc8618908">input-assembler stage</a>.
 
 </td>
 </tr>
@@ -769,7 +769,7 @@ Sets the depth-stencil state of the output-merger stage.
 <a href="https://msdn.microsoft.com/65514812-7433-4c13-a6cb-53980dacdf65">OMSetRenderTargets</a>
 </td>
 <td align="left" width="63%">
-Bind one or more render targets atomically and the depth-stencil buffer to the <a href="https://msdn.microsoft.com/library/Bb205120(v=VS.85).aspx">output-merger stage</a>.
+Bind one or more render targets atomically and the depth-stencil buffer to the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger stage</a>.
 
 </td>
 </tr>

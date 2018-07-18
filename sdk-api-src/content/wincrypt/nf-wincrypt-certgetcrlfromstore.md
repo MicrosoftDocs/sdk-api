@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 The <b>CertGetCRLFromStore</b> function gets the first or next <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> from the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> for the specified issuer. The function also performs the enabled verification checks on the CRL. The new 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a> are recommended instead of this function.
+<a href="cryptography_functions.htm">Certificate Chain Verification Functions</a> are recommended instead of this function.
 
 
 ## -parameters
@@ -232,7 +232,7 @@ The hexadecimal values of the flags can be combined using a bitwise-<b>OR</b> op
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
  
 
  

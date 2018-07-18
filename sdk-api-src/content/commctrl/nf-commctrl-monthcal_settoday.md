@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the "today" selection for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761016(v=VS.85).aspx">MCM_SETTODAY</a> message explicitly. 
+Sets the "today" selection for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/fcd4d33d-e661-4e02-8d19-666d80e1a070">MCM_SETTODAY</a> message explicitly. 
 
 
 ## -parameters

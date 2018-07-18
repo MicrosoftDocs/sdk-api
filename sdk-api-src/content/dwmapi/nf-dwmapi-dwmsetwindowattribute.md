@@ -68,12 +68,12 @@ The handle to the window that will receive the attributes.
 
 ### -param dwAttribute
 
-A single <a href="https://msdn.microsoft.com/library/Aa969530(v=VS.85).aspx">DWMWINDOWATTRIBUTE</a> flag to apply to the window. This parameter specifies the attribute and the <i>pvAttribute</i> parameter points to the value of that attribute.
+A single <a href="https://msdn.microsoft.com/f7ed01d1-b5c6-4071-906b-1647ffa2157c">DWMWINDOWATTRIBUTE</a> flag to apply to the window. This parameter specifies the attribute and the <i>pvAttribute</i> parameter points to the value of that attribute.
 
 
 ### -param pvAttribute [in]
 
-A pointer to the value of the attribute specified in the <i>dwAttribute</i> parameter. Different <a href="https://msdn.microsoft.com/library/Aa969530(v=VS.85).aspx">DWMWINDOWATTRIBUTE</a> flags require different value types.
+A pointer to the value of the attribute specified in the <i>dwAttribute</i> parameter. Different <a href="https://msdn.microsoft.com/f7ed01d1-b5c6-4071-906b-1647ffa2157c">DWMWINDOWATTRIBUTE</a> flags require different value types.
 
 
 ### -param cbAttribute
@@ -94,14 +94,14 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-Calling this function with the <i>dwAttribute</i> set to <b>DWMWA_NCRENDERING_ENABLED</b> does not set the attribute. <b>DWMWA_NCRENDERING_ENABLED</b> is a "get" attribute and the resulting call is equivalent to a <a href="https://msdn.microsoft.com/library/Aa969515(v=VS.85).aspx">DwmGetWindowAttribute</a> call. To enable or disable non-client rendering, the <b>DWMWA_NCRENDERING_POLICY</b> attribute must set to the desired value.
+Calling this function with the <i>dwAttribute</i> set to <b>DWMWA_NCRENDERING_ENABLED</b> does not set the attribute. <b>DWMWA_NCRENDERING_ENABLED</b> is a "get" attribute and the resulting call is equivalent to a <a href="https://msdn.microsoft.com/1b08de95-703f-4f61-9341-97124a3072f2">DwmGetWindowAttribute</a> call. To enable or disable non-client rendering, the <b>DWMWA_NCRENDERING_POLICY</b> attribute must set to the desired value.
 
 If Desktop Composition has been disabled, this function returns <b>DWM_E_COMPOSITIONDISABLED</b>.
 
 
 #### Examples
 
-The following example disables nonclient-area rendering, causing any previous calls to <a href="https://msdn.microsoft.com/library/Aa969508(v=VS.85).aspx">DwmEnableBlurBehindWindow</a> or <a href="https://msdn.microsoft.com/library/Aa969512(v=VS.85).aspx">DwmExtendFrameIntoClientArea</a> to be disabled.
+The following example disables nonclient-area rendering, causing any previous calls to <a href="https://msdn.microsoft.com/e4b99f11-cab0-4713-8112-aab93c78378d">DwmEnableBlurBehindWindow</a> or <a href="https://msdn.microsoft.com/4ea409df-3980-4903-b481-6ff718dc01bc">DwmExtendFrameIntoClientArea</a> to be disabled.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -136,7 +136,7 @@ HRESULT DisableNCRendering(HWND hwnd)
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa969538(v=VS.85).aspx">Enable and Control DWM Composition</a>
+<a href="https://msdn.microsoft.com/b728db22-db83-4607-8b09-6967697ef1b0">Enable and Control DWM Composition</a>
  
 
  

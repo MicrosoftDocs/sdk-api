@@ -113,11 +113,11 @@ SENS calls this method to notify an application that the screen display is locke
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686510(v=VS.85).aspx">IEventSubscription</a>
+<a href="_cos_ieventsubscription">IEventSubscription</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms685465(v=VS.85).aspx">IEventSubscription::PutPublisherProperty</a>
+<a href="_cos_ieventsubscription_putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
 
 
 

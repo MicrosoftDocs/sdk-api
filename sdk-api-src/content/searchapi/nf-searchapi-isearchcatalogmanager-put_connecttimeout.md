@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Sets the connection time-out value in the <a href="https://msdn.microsoft.com/library/Aa965374(v=VS.85).aspx">TIMEOUT_INFO</a> structure, in seconds.
+Sets the connection time-out value in the <a href="https://msdn.microsoft.com/f6032470-abfd-4808-921c-7fa687ed640f">TIMEOUT_INFO</a> structure, in seconds.
 
 
 ## -parameters

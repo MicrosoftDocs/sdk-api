@@ -166,7 +166,7 @@ Currently, only an exact, case-sensitive match is supported.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

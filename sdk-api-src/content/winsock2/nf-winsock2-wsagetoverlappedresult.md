@@ -119,7 +119,7 @@ If
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -131,7 +131,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -142,7 +142,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -153,7 +153,7 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_INVALID_HANDLE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_INVALID_HANDLE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -165,7 +165,7 @@ The <i>hEvent</i> parameter of the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_INVALID_PARAMETER</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_INVALID_PARAMETER</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -176,7 +176,7 @@ One of the parameters is unacceptable.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_IO_INCOMPLETE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_IO_INCOMPLETE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -187,7 +187,7 @@ The <i>fWait</i> parameter is <b>FALSE</b> and the I/O operation has not yet com
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -209,7 +209,7 @@ The
 <b>WSAGetOverlappedResult</b> function reports the results of the overlapped operation specified in the <i>lpOverlapped</i> parameter for the socket specified in the <i>s</i> parameter. The 
 <b>WSAGetOverlappedResult</b> function is passed the socket descriptor and the 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure that was specified when the overlapped function was called. A pending operation is indicated when the function that started the operation returns <b>FALSE</b> and the 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a> function returns <a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_IO_PENDING</a>. When an I/O operation such as 
+<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a> function returns <a href="windows_sockets_error_codes_2.htm">WSA_IO_PENDING</a>. When an I/O operation such as 
 <a href="https://msdn.microsoft.com/bfe66e11-e9a7-4321-ad55-3141113e9a03">WSARecv</a> is pending, the function that started the operation resets the <i>hEvent</i> member of the 
 <b>WSAOVERLAPPED</b> structure to the nonsignaled state. Then, when the pending operation has completed, the system sets the event object to the signaled state.
 
@@ -217,7 +217,7 @@ If the <i>fWait</i> parameter is <b>TRUE</b>,
 <b>WSAGetOverlappedResult</b> determines whether the pending operation has been completed by waiting for the event object to be in the signaled state. A client may set the <i>fWait</i> parameter to <b>TRUE</b>, but only if it selected event-based completion notification when the I/O operation was requested. If another form of notification was selected, the usage of the <i>hEvent</i> parameter of the 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure is different, and setting <i>fWait</i> to <b>TRUE</b> causes unpredictable results.
 
-If the <b>WSAGetOverlappedResult</b> function is called with the <i>lpOverlapped</i>, <i>lpcbTransfer</i>, or <i>lpdwFlags</i> parameter  set to a <b>NULL</b> pointer on Windows Vista, this will result in an access violation. If the <b>WSAGetOverlappedResult</b> function is called with the <i>lpOverlapped</i>, <i>lpcbTransfer</i>, or <i>lpdwFlags</i> parameter  set to a <b>NULL</b> pointer on Windows Server 2003 and earlier, this will result in the <a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a> error code being returned.  
+If the <b>WSAGetOverlappedResult</b> function is called with the <i>lpOverlapped</i>, <i>lpcbTransfer</i>, or <i>lpdwFlags</i> parameter  set to a <b>NULL</b> pointer on Windows Vista, this will result in an access violation. If the <b>WSAGetOverlappedResult</b> function is called with the <i>lpOverlapped</i>, <i>lpcbTransfer</i>, or <i>lpdwFlags</i> parameter  set to a <b>NULL</b> pointer on Windows Server 2003 and earlier, this will result in the <a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a> error code being returned.  
 
 <div class="alert"><b>Note</b>   All I/O is canceled when a thread exits. For overlapped sockets, pending asynchronous operations can fail if the thread is closed before the  operations complete. See <a href="https://msdn.microsoft.com/e7f6d054-c535-4521-a3b4-800a9174732f">ExitThread</a> for more information.</div>
 <div> </div>

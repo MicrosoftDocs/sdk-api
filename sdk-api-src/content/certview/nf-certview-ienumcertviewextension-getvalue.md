@@ -215,7 +215,7 @@ Hexadecimal string with ASCII and address/offset
 
 ### -param pvarValue [out]
 
-A pointer to a value of <b>VARIANT</b> type that contains the data for the currently referenced extension. This method fails if the   <i>pvarValue</i> parameter is <b>NULL</b>. Upon successful completion of this function, <i>pvarValue</i> contains the extension data currently referenced by the extension-enumeration sequence. The caller is responsible for calling <a href="https://msdn.microsoft.com/library/ms221165(v=VS.85).aspx">VariantClear</a> when done with the data in <i>pvarValue</i>.
+A pointer to a value of <b>VARIANT</b> type that contains the data for the currently referenced extension. This method fails if the   <i>pvarValue</i> parameter is <b>NULL</b>. Upon successful completion of this function, <i>pvarValue</i> contains the extension data currently referenced by the extension-enumeration sequence. The caller is responsible for calling <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> when done with the data in <i>pvarValue</i>.
 
 
 ## -returns

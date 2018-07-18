@@ -55,9 +55,9 @@ req.product: Windows Address Book 5.0
 
 The 
 <b>IWbemObjectAccess</b> interface provides access to the methods and properties of an object.  An 
-<b>IWbemObjectAccess</b> object is a container for an instance updated by a <a href="https://msdn.microsoft.com/library/JJ819824(v=VS.85).aspx">refresher</a>. With the 
+<b>IWbemObjectAccess</b> object is a container for an instance updated by a <a href="gloss_r.htm">refresher</a>. With the 
 <b>IWbemObjectAccess</b> interface, you can get and set properties by using property handles instead of object property names.
-<div class="alert"><b>Note</b>  This interface is not implemented by client applications or providers under any circumstances. The implementation provided by WMI is the only one that is supported. A pointer to the interface can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IWbemClassObject::QueryInterface</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This interface is not implemented by client applications or providers under any circumstances. The implementation provided by WMI is the only one that is supported. A pointer to the interface can be retrieved by calling <a href="_com_iunknown_queryinterface">IWbemClassObject::QueryInterface</a>.</div><div> </div>
 
 ## -inheritance
 

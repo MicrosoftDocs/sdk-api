@@ -2,7 +2,7 @@
 UID: TP:msiprov
 ms.assetid: abe8849e-63b1-3b32-9ba5-6645fd44f216
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

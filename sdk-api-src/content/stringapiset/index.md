@@ -2,7 +2,7 @@
 UID: NA:stringapiset
 ms.assetid: b0a163cd-d95c-3cca-b637-b21e2c1741bc
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

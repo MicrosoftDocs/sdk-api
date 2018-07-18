@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>Bitmap::GetHistogramSize</b> returns the number of elements (in an array of <b>UINT</b>s) that you must allocate before you call the <a href="https://msdn.microsoft.com/library/ms536307(v=VS.85).aspx">Bitmap::GetHistogram</a> method of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> object.
+The <b>Bitmap::GetHistogramSize</b> returns the number of elements (in an array of <b>UINT</b>s) that you must allocate before you call the <a href="https://msdn.microsoft.com/c7dcc384-54b1-457a-86cd-e27b232a9152">Bitmap::GetHistogram</a> method of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> object.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ The <b>Bitmap::GetHistogramSize</b> returns the number of elements (in an array 
 
 ### -param format [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534129(v=VS.85).aspx">HistogramFormat</a></b>
+Type: <b><a href="https://msdn.microsoft.com/1769ec16-e915-4a87-83d4-0989a4d79e85">HistogramFormat</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/library/ms534129(v=VS.85).aspx">HistogramFormat</a> enumeration that specifies the pixel format of the bitmap.
+Element of the <a href="https://msdn.microsoft.com/1769ec16-e915-4a87-83d4-0989a4d79e85">HistogramFormat</a> enumeration that specifies the pixel format of the bitmap.
 
 
 ### -param NumberOfEntries [out]

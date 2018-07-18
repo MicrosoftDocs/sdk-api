@@ -67,7 +67,7 @@ Returns a value clamped to the maximum level-of-detail set for a managed texture
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-A DWORD value, clamped to the maximum level-of-detail value (one less than the total number of levels). Calling <b>GetLOD</b> on an unmanaged texture is not supported and will result in a <a href="https://msdn.microsoft.com/library/Bb172554(v=VS.85).aspx">D3DERR</a> error code being returned.
+A DWORD value, clamped to the maximum level-of-detail value (one less than the total number of levels). Calling <b>GetLOD</b> on an unmanaged texture is not supported and will result in a <a href="https://msdn.microsoft.com/4a9daa05-74f3-4173-b63d-53767feea7e2">D3DERR</a> error code being returned.
 
 
 
@@ -77,7 +77,7 @@ A DWORD value, clamped to the maximum level-of-detail value (one less than the t
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174322(v=VS.85).aspx">IDirect3DBaseTexture9</a>
+<a href="https://msdn.microsoft.com/d4d7f8b9-2e7b-4445-8380-2d321a46e064">IDirect3DBaseTexture9</a>
  
 
  

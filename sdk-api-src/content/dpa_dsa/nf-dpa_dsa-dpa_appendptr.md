@@ -77,7 +77,7 @@ A handle to a DPA.
 
 
 
-<div class="alert"><b>Note</b>  This macro wraps the <a href="https://msdn.microsoft.com/library/Bb775625(v=VS.85).aspx">DPA_InsertPtr</a> function.</div>
+<div class="alert"><b>Note</b>  This macro wraps the <a href="https://msdn.microsoft.com/275585f9-b26b-4528-a5b2-471dc1623a68">DPA_InsertPtr</a> function.</div>
 <div> </div>
 
 

@@ -185,7 +185,7 @@ Pointer to a <a href="https://msdn.microsoft.com/38400cce-d84a-4439-9dab-20102c1
 ### -field pScsiAddressValue
 
 Pointer to a <a href="https://msdn.microsoft.com/30907886-0c86-4e8a-9a95-5b62f6ffff76">CLUSPROP_SCSI_ADDRESS</a> 
-       structure containing an <a href="https://msdn.microsoft.com/library/ms682866(v=VS.85).aspx">SCSI</a> 
+       structure containing an <a href="s_gly.htm">SCSI</a> 
        address value.
 
 

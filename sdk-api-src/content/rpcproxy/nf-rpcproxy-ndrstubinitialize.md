@@ -94,7 +94,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms679738(v=VS.85).aspx">IRpcChannelBuffer</a>
+<a href="_com_irpcchannelbuffer">IRpcChannelBuffer</a>
  
 
  

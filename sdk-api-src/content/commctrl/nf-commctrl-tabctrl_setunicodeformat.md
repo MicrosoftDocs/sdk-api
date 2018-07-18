@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760643(v=VS.85).aspx">TCM_SETUNICODEFORMAT</a> message explicitly. 
+Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="https://msdn.microsoft.com/4a9bacfc-d1b7-432a-9b61-b0fe18576679">TCM_SETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Determines the character set that is used by the control. If this value is nonze
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb760672(v=VS.85).aspx">TabCtrl_GetUnicodeFormat</a>
+<a href="https://msdn.microsoft.com/2750b27d-e4a7-416e-b76f-53c26baba399">TabCtrl_GetUnicodeFormat</a>
  
 
  

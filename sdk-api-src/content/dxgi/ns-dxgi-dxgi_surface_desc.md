@@ -75,23 +75,23 @@ A value describing the surface height.
 
 ### -field Format
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a></b>
 
-A member of the <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> enumerated type that describes the surface format.
+A member of the <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> enumerated type that describes the surface format.
 
 
 ### -field SampleDesc
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a></b>
+Type: <b><a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a></b>
 
-A member of the <a href="https://msdn.microsoft.com/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a> structure that describes multi-sampling parameters for the surface.
+A member of the <a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a> structure that describes multi-sampling parameters for the surface.
 
 
 ## -remarks
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/Bb174566(v=VS.85).aspx">GetDesc</a> and  <a href="https://msdn.microsoft.com/library/windows/hardware/hh998978">CreateSurface</a> methods.
+This structure is used by the <a href="https://msdn.microsoft.com/a71fc68a-b875-43b9-921a-29e88953d8e6">GetDesc</a> and  <a href="https://msdn.microsoft.com/library/windows/hardware/hh998978">CreateSurface</a> methods.
 
 
 

@@ -61,9 +61,9 @@ Pre-process the given render context.
 
 ### -param pContext [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/0c8fbbba-32e6-459c-90ab-2453b57c27ee">IMILBitmapEffectRenderContext</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a> to process.
+A pointer to the <a href="https://msdn.microsoft.com/0c8fbbba-32e6-459c-90ab-2453b57c27ee">IMILBitmapEffectRenderContext</a> to process.
 
 
 ## -returns

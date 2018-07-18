@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
 
 Returns a 
     <a href="https://msdn.microsoft.com/7becbcf6-bad9-44e2-9731-d53de8299b99">ClusScsiAddress</a> object describing 
-    <a href="https://msdn.microsoft.com/library/ms682866(v=VS.85).aspx">SCSI</a> information about a 
+    <a href="s_gly.htm">SCSI</a> information about a 
     <a href="https://msdn.microsoft.com/d42e9bca-3717-44f7-a1b9-dfad1dbddd23">Physical Disk</a>.
 
 This property is read-only.

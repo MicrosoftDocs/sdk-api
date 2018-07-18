@@ -2,7 +2,7 @@
 UID: NA:mfmp2dlna
 ms.assetid: d0f2563e-0289-3de3-8ba9-4bb82514c8b7
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

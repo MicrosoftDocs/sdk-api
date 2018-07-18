@@ -61,9 +61,9 @@ The <b>Graphics::SetInterpolationMode</b> method sets the interpolation mode of 
 
 ### -param interpolationMode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534141(v=VS.85).aspx">InterpolationMode</a></b>
+Type: <b><a href="https://msdn.microsoft.com/a74250f7-7939-49a9-bf64-5a97913a4c5b">InterpolationMode</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/library/ms534141(v=VS.85).aspx">InterpolationMode</a> enumeration that specifies the interpolation mode. 
+Element of the <a href="https://msdn.microsoft.com/a74250f7-7939-49a9-bf64-5a97913a4c5b">InterpolationMode</a> enumeration that specifies the interpolation mode. 
 
 
 ## -returns
@@ -89,15 +89,15 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535711(v=VS.85).aspx">Graphics::GetInterpolationMode</a>
+<a href="https://msdn.microsoft.com/a9f3b27c-cb16-4d52-9970-ea3708bd1e0c">Graphics::GetInterpolationMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534141(v=VS.85).aspx">InterpolationMode</a>
+<a href="https://msdn.microsoft.com/a74250f7-7939-49a9-bf64-5a97913a4c5b">InterpolationMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533836(v=VS.85).aspx">Using Interpolation Mode to Control Image Quality During Scaling</a>
+<a href="https://msdn.microsoft.com/3aeead47-78da-4ab3-9126-2fbe9e341e48">Using Interpolation Mode to Control Image Quality During Scaling</a>
  
 
  

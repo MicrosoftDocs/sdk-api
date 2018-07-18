@@ -52,7 +52,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-<b>IXAudio2Voice</b> represents the base interface from which <a href="https://msdn.microsoft.com/library/Ee415914(v=VS.85).aspx">IXAudio2SourceVoice</a>, <a href="https://msdn.microsoft.com/library/Ee415915(v=VS.85).aspx">IXAudio2SubmixVoice</a> and <a href="https://msdn.microsoft.com/library/Ee415912(v=VS.85).aspx">IXAudio2MasteringVoice</a> are derived. The methods listed below are common to all voice subclasses.
+<b>IXAudio2Voice</b> represents the base interface from which <a href="https://msdn.microsoft.com/116DD0E0-8F0B-4934-A48D-FDBE0D0DF049">IXAudio2SourceVoice</a>, <a href="https://msdn.microsoft.com/EBEF26DE-BEAB-4E1F-9C54-2EC01449F413">IXAudio2SubmixVoice</a> and <a href="https://msdn.microsoft.com/96D8A15E-5090-4D67-982D-ACE99CEC4379">IXAudio2MasteringVoice</a> are derived. The methods listed below are common to all voice subclasses.
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul><h3><a id="methods"></a>Methods</h3>The <b>IXAudio2Voice Interface</b> interface has these methods.
@@ -63,7 +63,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418481(v=VS.85).aspx">DestroyVoice</a>
+<a href="https://msdn.microsoft.com/03C825B8-BC7B-4A9F-B514-2C1C3684FAD9">DestroyVoice</a>
 </td>
 <td align="left" width="63%">
 Destroys the voice. If necessary, stops the voice and removes it from the XAudio2 graph.
@@ -72,7 +72,7 @@ Destroys the voice. If necessary, stops the voice and removes it from the XAudio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418583(v=VS.85).aspx">DisableEffect</a>
+<a href="https://msdn.microsoft.com/5613C03D-4447-4779-8619-F3F562140B5A">DisableEffect</a>
 </td>
 <td align="left" width="63%">
 Disables the effect at a given position in the effect chain of the voice.
@@ -81,7 +81,7 @@ Disables the effect at a given position in the effect chain of the voice.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418584(v=VS.85).aspx">EnableEffect</a>
+<a href="https://msdn.microsoft.com/CA5B0467-D811-4A42-99B1-9F7DCFECA979">EnableEffect</a>
 </td>
 <td align="left" width="63%">
 Enables the effect at a given position in the effect chain of the voice.
@@ -90,7 +90,7 @@ Enables the effect at a given position in the effect chain of the voice.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418585(v=VS.85).aspx">GetChannelVolumes</a>
+<a href="https://msdn.microsoft.com/A0ED638C-9C20-4401-A204-9F8747044DBA">GetChannelVolumes</a>
 </td>
 <td align="left" width="63%">
 Returns the volume levels for the voice, per channel.
@@ -99,7 +99,7 @@ Returns the volume levels for the voice, per channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418586(v=VS.85).aspx">GetEffectParameters</a>
+<a href="https://msdn.microsoft.com/75CC5E5D-74B2-4972-9E1D-D6CB4A3034CD">GetEffectParameters</a>
 </td>
 <td align="left" width="63%">
 Returns the current effect-specific parameters of a given effect in the voice's effect chain.
@@ -108,7 +108,7 @@ Returns the current effect-specific parameters of a given effect in the voice's 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418587(v=VS.85).aspx">GetEffectState</a>
+<a href="https://msdn.microsoft.com/73AEBC14-F044-4914-9ED5-2E438268373E">GetEffectState</a>
 </td>
 <td align="left" width="63%">
 Returns the running state of the effect at a specified position in the effect chain of the voice.
@@ -117,7 +117,7 @@ Returns the running state of the effect at a specified position in the effect ch
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418588(v=VS.85).aspx">GetFilterParameters</a>
+<a href="https://msdn.microsoft.com/7E5B3896-A415-4E06-94EB-F9205B3CFB32">GetFilterParameters</a>
 </td>
 <td align="left" width="63%">
 Gets the voice's filter parameters.
@@ -126,7 +126,7 @@ Gets the voice's filter parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418589(v=VS.85).aspx">GetOutputFilterParameters</a>
+<a href="https://msdn.microsoft.com/146A6338-40E9-489D-B5E9-679D328C75C7">GetOutputFilterParameters</a>
 </td>
 <td align="left" width="63%">
 Returns the filter parameters from one of this voice's sends.
@@ -135,7 +135,7 @@ Returns the filter parameters from one of this voice's sends.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418590(v=VS.85).aspx">GetOutputMatrix</a>
+<a href="https://msdn.microsoft.com/6FA23BF5-E79E-404B-A54D-514EEAA4A668">GetOutputMatrix</a>
 </td>
 <td align="left" width="63%">
 Gets the volume level of each channel of the final output for the voice. These channels are mapped to the input channels of a specified destination voice.
@@ -144,7 +144,7 @@ Gets the volume level of each channel of the final output for the voice. These c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418591(v=VS.85).aspx">GetVoiceDetails</a>
+<a href="https://msdn.microsoft.com/33EFF71F-FA55-4D7C-A727-35C78774DBFA">GetVoiceDetails</a>
 </td>
 <td align="left" width="63%">
 Returns information about the creation flags, input channels, and sample rate of a voice.
@@ -153,7 +153,7 @@ Returns information about the creation flags, input channels, and sample rate of
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418592(v=VS.85).aspx">GetVolume</a>
+<a href="https://msdn.microsoft.com/39389E49-95C9-48D2-8B35-0F2E1D52A43B">GetVolume</a>
 </td>
 <td align="left" width="63%">
 Gets the current overall volume level of the voice.
@@ -162,7 +162,7 @@ Gets the current overall volume level of the voice.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418593(v=VS.85).aspx">SetChannelVolumes</a>
+<a href="https://msdn.microsoft.com/9DE09972-4FBD-41F5-BDB7-75627CBDA35A">SetChannelVolumes</a>
 </td>
 <td align="left" width="63%">
 Sets the volume levels for the voice, per channel.
@@ -171,7 +171,7 @@ Sets the volume levels for the voice, per channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418594(v=VS.85).aspx">SetEffectChain</a>
+<a href="https://msdn.microsoft.com/6CA630E6-66D5-495C-808D-79EE5E85D92B">SetEffectChain</a>
 </td>
 <td align="left" width="63%">
 Replaces the effect chain of the voice.
@@ -180,7 +180,7 @@ Replaces the effect chain of the voice.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418595(v=VS.85).aspx">SetEffectParameters</a>
+<a href="https://msdn.microsoft.com/7A5217AE-D7D6-4D92-A14E-DA36854F4D3E">SetEffectParameters</a>
 </td>
 <td align="left" width="63%">
 Sets parameters for a given effect in the voice's effect chain.
@@ -189,7 +189,7 @@ Sets parameters for a given effect in the voice's effect chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418596(v=VS.85).aspx">SetFilterParameters</a>
+<a href="https://msdn.microsoft.com/56ACB3DB-58E0-4A57-A97F-31EFA8929A7E">SetFilterParameters</a>
 </td>
 <td align="left" width="63%">
 Sets the voice's filter parameters.
@@ -198,7 +198,7 @@ Sets the voice's filter parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418597(v=VS.85).aspx">SetOutputFilterParameters</a>
+<a href="https://msdn.microsoft.com/A707A64A-D929-4387-AABC-30E7AAECB99B">SetOutputFilterParameters</a>
 </td>
 <td align="left" width="63%">
 Sets the filter parameters on one of this voice's sends.
@@ -207,7 +207,7 @@ Sets the filter parameters on one of this voice's sends.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418598(v=VS.85).aspx">SetOutputMatrix</a>
+<a href="https://msdn.microsoft.com/7ECE4A2B-89DF-4D76-BBE4-C930EBB5F3EA">SetOutputMatrix</a>
 </td>
 <td align="left" width="63%">
 Sets the volume level of each channel of the final output for the voice. These channels are mapped to the input channels of a specified destination voice.
@@ -216,7 +216,7 @@ Sets the volume level of each channel of the final output for the voice. These c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418599(v=VS.85).aspx">SetOutputVoices</a>
+<a href="https://msdn.microsoft.com/2AAF9A0D-2CDF-4A91-9620-3328494E0162">SetOutputVoices</a>
 </td>
 <td align="left" width="63%">
 Designates a new set of submix or mastering voices to receive the output of the voice.
@@ -225,7 +225,7 @@ Designates a new set of submix or mastering voices to receive the output of the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418600(v=VS.85).aspx">SetVolume</a>
+<a href="https://msdn.microsoft.com/D744E313-4281-4184-97E9-3FAB0F652871">SetVolume</a>
 </td>
 <td align="left" width="63%">
 Sets the overall volume level for the voice.
@@ -245,7 +245,7 @@ The <b>IXAudio2Voice Interface</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418481(v=VS.85).aspx">DestroyVoice</a>
+<a href="https://msdn.microsoft.com/03C825B8-BC7B-4A9F-B514-2C1C3684FAD9">DestroyVoice</a>
 </td>
 <td align="left" width="63%">
 Destroys the voice. If necessary, stops the voice and removes it from the XAudio2 graph.
@@ -254,7 +254,7 @@ Destroys the voice. If necessary, stops the voice and removes it from the XAudio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418583(v=VS.85).aspx">DisableEffect</a>
+<a href="https://msdn.microsoft.com/5613C03D-4447-4779-8619-F3F562140B5A">DisableEffect</a>
 </td>
 <td align="left" width="63%">
 Disables the effect at a given position in the effect chain of the voice.
@@ -263,7 +263,7 @@ Disables the effect at a given position in the effect chain of the voice.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418584(v=VS.85).aspx">EnableEffect</a>
+<a href="https://msdn.microsoft.com/CA5B0467-D811-4A42-99B1-9F7DCFECA979">EnableEffect</a>
 </td>
 <td align="left" width="63%">
 Enables the effect at a given position in the effect chain of the voice.
@@ -272,7 +272,7 @@ Enables the effect at a given position in the effect chain of the voice.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418585(v=VS.85).aspx">GetChannelVolumes</a>
+<a href="https://msdn.microsoft.com/A0ED638C-9C20-4401-A204-9F8747044DBA">GetChannelVolumes</a>
 </td>
 <td align="left" width="63%">
 Returns the volume levels for the voice, per channel.
@@ -281,7 +281,7 @@ Returns the volume levels for the voice, per channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418586(v=VS.85).aspx">GetEffectParameters</a>
+<a href="https://msdn.microsoft.com/75CC5E5D-74B2-4972-9E1D-D6CB4A3034CD">GetEffectParameters</a>
 </td>
 <td align="left" width="63%">
 Returns the current effect-specific parameters of a given effect in the voice's effect chain.
@@ -290,7 +290,7 @@ Returns the current effect-specific parameters of a given effect in the voice's 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418587(v=VS.85).aspx">GetEffectState</a>
+<a href="https://msdn.microsoft.com/73AEBC14-F044-4914-9ED5-2E438268373E">GetEffectState</a>
 </td>
 <td align="left" width="63%">
 Returns the running state of the effect at a specified position in the effect chain of the voice.
@@ -299,7 +299,7 @@ Returns the running state of the effect at a specified position in the effect ch
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418588(v=VS.85).aspx">GetFilterParameters</a>
+<a href="https://msdn.microsoft.com/7E5B3896-A415-4E06-94EB-F9205B3CFB32">GetFilterParameters</a>
 </td>
 <td align="left" width="63%">
 Gets the voice's filter parameters.
@@ -308,7 +308,7 @@ Gets the voice's filter parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418589(v=VS.85).aspx">GetOutputFilterParameters</a>
+<a href="https://msdn.microsoft.com/146A6338-40E9-489D-B5E9-679D328C75C7">GetOutputFilterParameters</a>
 </td>
 <td align="left" width="63%">
 Returns the filter parameters from one of this voice's sends.
@@ -317,7 +317,7 @@ Returns the filter parameters from one of this voice's sends.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418590(v=VS.85).aspx">GetOutputMatrix</a>
+<a href="https://msdn.microsoft.com/6FA23BF5-E79E-404B-A54D-514EEAA4A668">GetOutputMatrix</a>
 </td>
 <td align="left" width="63%">
 Gets the volume level of each channel of the final output for the voice. These channels are mapped to the input channels of a specified destination voice.
@@ -326,7 +326,7 @@ Gets the volume level of each channel of the final output for the voice. These c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418591(v=VS.85).aspx">GetVoiceDetails</a>
+<a href="https://msdn.microsoft.com/33EFF71F-FA55-4D7C-A727-35C78774DBFA">GetVoiceDetails</a>
 </td>
 <td align="left" width="63%">
 Returns information about the creation flags, input channels, and sample rate of a voice.
@@ -335,7 +335,7 @@ Returns information about the creation flags, input channels, and sample rate of
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418592(v=VS.85).aspx">GetVolume</a>
+<a href="https://msdn.microsoft.com/39389E49-95C9-48D2-8B35-0F2E1D52A43B">GetVolume</a>
 </td>
 <td align="left" width="63%">
 Gets the current overall volume level of the voice.
@@ -344,7 +344,7 @@ Gets the current overall volume level of the voice.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418593(v=VS.85).aspx">SetChannelVolumes</a>
+<a href="https://msdn.microsoft.com/9DE09972-4FBD-41F5-BDB7-75627CBDA35A">SetChannelVolumes</a>
 </td>
 <td align="left" width="63%">
 Sets the volume levels for the voice, per channel.
@@ -353,7 +353,7 @@ Sets the volume levels for the voice, per channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418594(v=VS.85).aspx">SetEffectChain</a>
+<a href="https://msdn.microsoft.com/6CA630E6-66D5-495C-808D-79EE5E85D92B">SetEffectChain</a>
 </td>
 <td align="left" width="63%">
 Replaces the effect chain of the voice.
@@ -362,7 +362,7 @@ Replaces the effect chain of the voice.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418595(v=VS.85).aspx">SetEffectParameters</a>
+<a href="https://msdn.microsoft.com/7A5217AE-D7D6-4D92-A14E-DA36854F4D3E">SetEffectParameters</a>
 </td>
 <td align="left" width="63%">
 Sets parameters for a given effect in the voice's effect chain.
@@ -371,7 +371,7 @@ Sets parameters for a given effect in the voice's effect chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418596(v=VS.85).aspx">SetFilterParameters</a>
+<a href="https://msdn.microsoft.com/56ACB3DB-58E0-4A57-A97F-31EFA8929A7E">SetFilterParameters</a>
 </td>
 <td align="left" width="63%">
 Sets the voice's filter parameters.
@@ -380,7 +380,7 @@ Sets the voice's filter parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418597(v=VS.85).aspx">SetOutputFilterParameters</a>
+<a href="https://msdn.microsoft.com/A707A64A-D929-4387-AABC-30E7AAECB99B">SetOutputFilterParameters</a>
 </td>
 <td align="left" width="63%">
 Sets the filter parameters on one of this voice's sends.
@@ -389,7 +389,7 @@ Sets the filter parameters on one of this voice's sends.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418598(v=VS.85).aspx">SetOutputMatrix</a>
+<a href="https://msdn.microsoft.com/7ECE4A2B-89DF-4D76-BBE4-C930EBB5F3EA">SetOutputMatrix</a>
 </td>
 <td align="left" width="63%">
 Sets the volume level of each channel of the final output for the voice. These channels are mapped to the input channels of a specified destination voice.
@@ -398,7 +398,7 @@ Sets the volume level of each channel of the final output for the voice. These c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418599(v=VS.85).aspx">SetOutputVoices</a>
+<a href="https://msdn.microsoft.com/2AAF9A0D-2CDF-4A91-9620-3328494E0162">SetOutputVoices</a>
 </td>
 <td align="left" width="63%">
 Designates a new set of submix or mastering voices to receive the output of the voice.
@@ -407,7 +407,7 @@ Designates a new set of submix or mastering voices to receive the output of the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Ee418600(v=VS.85).aspx">SetVolume</a>
+<a href="https://msdn.microsoft.com/D744E313-4281-4184-97E9-3FAB0F652871">SetVolume</a>
 </td>
 <td align="left" width="63%">
 Sets the overall volume level for the voice.

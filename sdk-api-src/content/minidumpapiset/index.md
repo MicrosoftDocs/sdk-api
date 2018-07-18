@@ -2,7 +2,7 @@
 UID: NA:minidumpapiset
 ms.assetid: 676f5326-4351-3205-a2be-3ff946a865d4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

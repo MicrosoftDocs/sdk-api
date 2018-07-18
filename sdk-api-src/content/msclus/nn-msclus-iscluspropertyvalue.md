@@ -57,9 +57,9 @@ req.product: GDI+ 1.1
     in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent 
     versions.]
 
-Represents a single <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">property value</a> 
+Represents a single <a href="p_gly.htm">property value</a> 
     associated with a multi-value property. The property value consists of one or more 
-    <a href="https://msdn.microsoft.com/library/ms691748(v=VS.85).aspx">data values</a>.
+    <a href="d_gly.htm">data values</a>.
 
 
 ## -remarks

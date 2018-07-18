@@ -70,7 +70,7 @@ Reference to the globally unique identifier that identifies the private data to 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL, D3DERR_NOTFOUND.
 
@@ -91,7 +91,7 @@ Direct3D calls this method automatically when a resource is released.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>
+<a href="https://msdn.microsoft.com/1fdb0bfe-6e36-49ca-b119-a2b3266037d2">IDirect3DResource9</a>
  
 
  

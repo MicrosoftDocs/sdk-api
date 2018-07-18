@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the focus to a specified item in a header control. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775361(v=VS.85).aspx">HDM_SETFOCUSEDITEM</a> message explicitly.
+Sets the focus to a specified item in a header control. Use this macro or send the <a href="https://msdn.microsoft.com/20a321ce-4420-4239-b34d-9e7f24a89fc3">HDM_SETFOCUSEDITEM</a> message explicitly.
 
 
 ## -parameters
@@ -82,7 +82,7 @@ A handle to the header control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775238(v=VS.85).aspx">About Header Controls</a>
+<a href="https://msdn.microsoft.com/b464fb9a-e342-4209-ba6f-15b5388f3914">About Header Controls</a>
  
 
  

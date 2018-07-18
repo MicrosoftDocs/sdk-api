@@ -63,7 +63,7 @@ Sets the list level index used for paragraphs.
 
 Type: <b>long</b>
 
-New list level index value. For possible values, see <a href="https://msdn.microsoft.com/library/Bb773985(v=VS.85).aspx">ITextPara::GetListLevelIndex</a>. 
+New list level index value. For possible values, see <a href="https://msdn.microsoft.com/37ea25ee-a41b-42d4-99c4-d316f596c040">ITextPara::GetListLevelIndex</a>. 
 
 
 ## -returns
@@ -158,11 +158,11 @@ Setting the list level index does not automatically change a list's indentation 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773985(v=VS.85).aspx">GetListLevelIndex</a>
+<a href="https://msdn.microsoft.com/37ea25ee-a41b-42d4-99c4-d316f596c040">GetListLevelIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -170,7 +170,7 @@ Setting the list level index does not automatically change a list's indentation 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

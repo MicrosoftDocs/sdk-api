@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the current background color of the control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773570(v=VS.85).aspx">TVM_GETBKCOLOR</a> message explicitly.
+Retrieves the current background color of the control. You can use this macro or send the <a href="https://msdn.microsoft.com/1b9eea90-54cd-47b9-befa-ec0128a0230f">TVM_GETBKCOLOR</a> message explicitly.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Handle to a tree-view control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb760036(v=VS.85).aspx">TreeView_SetBkColor</a>
+<a href="https://msdn.microsoft.com/7cc839f8-3c60-432f-b3bd-f6a027aa5dbc">TreeView_SetBkColor</a>
  
 
  

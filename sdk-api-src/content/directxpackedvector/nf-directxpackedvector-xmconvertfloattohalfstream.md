@@ -111,7 +111,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419421(v=VS.85).aspx">XMConvertFloatToHalf</a>
+<a href="https://msdn.microsoft.com/463abe18-b8c4-44be-9740-b7e0459d3ebd">XMConvertFloatToHalf</a>
  
 
  

@@ -148,13 +148,13 @@ The XML document is not valid. Check the event log for details. For more informa
 If no backup time stamp has been set, 
 <b>GetBackupStamp</b> returns S_FALSE.
 
-If the call to <b>GetBackupStamp</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrBackupStamp</i> parameter by calling the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+If the call to <b>GetBackupStamp</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrBackupStamp</i> parameter by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 The string returned refers to all files in the component and any nonselectable subcomponents it has.
 
 The backup stamp retrieved by 
 <b>GetBackupStamp</b> is generally set by a writer by a call to 
-<a href="https://msdn.microsoft.com/54995cc9-8988-4f26-9c60-5d809a93e4e1">IVssComponent::SetBackupStamp</a> from within the <a href="https://msdn.microsoft.com/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> event handler, 
+<a href="https://msdn.microsoft.com/54995cc9-8988-4f26-9c60-5d809a93e4e1">IVssComponent::SetBackupStamp</a> from within the <a href="vssgloss_p.htm">PostSnapshot</a> event handler, 
 <a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a>.
 
 Requesters merely store the backup stamps in the Backup Components Document; they do not make direct use of the backup stamp, know how to generate it, or understand its format.

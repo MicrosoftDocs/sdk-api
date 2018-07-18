@@ -60,7 +60,7 @@ A <b>BCRYPT_MULTI_HASH_OPERATION</b> structure defines a single operation in a m
 
 ### -field iHash
 
-An index into the multi-object state array of the hash state on which this computation operates. The first element of the array corresponds to an <i>iHash</i> value of zero (0). Valid values are less than the value of the <i>nHashes</i> parameter of the <a href="https://msdn.microsoft.com/library/Mt845763(v=VS.85).aspx">BCryptCreateMultiHash</a> function.
+An index into the multi-object state array of the hash state on which this computation operates. The first element of the array corresponds to an <i>iHash</i> value of zero (0). Valid values are less than the value of the <i>nHashes</i> parameter of the <a href="security.bcryptcreatemultihash">BCryptCreateMultiHash</a> function.
 
 
 ### -field hashOperation
@@ -87,7 +87,7 @@ The buffer on which the operation works.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt845763(v=VS.85).aspx">BCryptCreateMultiHash</a>
+<a href="security.bcryptcreatemultihash">BCryptCreateMultiHash</a>
 
 
 

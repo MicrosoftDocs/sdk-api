@@ -54,7 +54,7 @@ req.product: GDI+ 1.0
 <span>This topic lists the 
 			Offset methods of the 
 			<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">Rect</a> class. For a complete list of methods for the 
-			<b>Rect</b> class, see <a href="https://msdn.microsoft.com/library/ms534961(v=VS.85).aspx">Rect Methods</a>. 
+			<b>Rect</b> class, see <a href="https://msdn.microsoft.com/fe6960fa-db73-4806-a2c2-675782eed41d">Rect Methods</a>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Method</th>
@@ -62,19 +62,19 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534979(v=VS.85).aspx">Offset(Point&)</a>
+<a href="https://msdn.microsoft.com/b10ddcf9-c76b-4f95-9295-3fffc80c2fb0">Offset(Point&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534979(v=VS.85).aspx">Rect::Offset</a><i>point</i>.<b>X</b><i>point</i>.<b>Y</b>.
+The <a href="https://msdn.microsoft.com/b10ddcf9-c76b-4f95-9295-3fffc80c2fb0">Rect::Offset</a><i>point</i>.<b>X</b><i>point</i>.<b>Y</b>.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms534978(v=VS.85).aspx">Offset(INT,INT)</a>
+<a href="https://msdn.microsoft.com/e660ded5-05e9-4786-8c82-922b5f118e49">Offset(INT,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms534978(v=VS.85).aspx">Rect::Offset</a><i>dx</i><i>dy</i> vertically.
+The <a href="https://msdn.microsoft.com/e660ded5-05e9-4786-8c82-922b5f118e49">Rect::Offset</a><i>dx</i><i>dy</i> vertically.
 
 </td>
 </tr>

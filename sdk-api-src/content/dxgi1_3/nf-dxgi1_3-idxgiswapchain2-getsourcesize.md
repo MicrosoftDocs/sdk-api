@@ -76,7 +76,7 @@ The current height of the source region of the swap chain. This value can range 
 
 
 
- This method can return error codes that are described in the <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.
+ This method can return error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.
 
 
 

@@ -115,7 +115,7 @@ CERT_STORE_PROV_WRITE_ADD_FLAG is used to specify when this function is called b
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
+<a href="cryptography_functions.htm">Callback Functions</a>
 
 
 

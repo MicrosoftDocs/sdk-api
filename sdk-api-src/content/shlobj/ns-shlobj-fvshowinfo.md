@@ -77,7 +77,7 @@ A window handle to the owner of the window where the file will be displayed.
 
 Type: <b>int</b>
 
-The show command for the window. This parameter is one of the <b>SW_</b> values detailed in <a href="https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx">ShowWindow</a>.
+The show command for the window. This parameter is one of the <b>SW_</b> values detailed in <a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a>.
 
 
 ### -field dwFlags

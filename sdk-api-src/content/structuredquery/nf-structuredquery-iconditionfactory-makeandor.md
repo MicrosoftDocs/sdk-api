@@ -61,16 +61,16 @@ Creates a condition node that is a logical conjunction (AND) or disjunction (OR)
 
 ### -param ct [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa965692(v=VS.85).aspx">CONDITION_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/921cdcb0-2915-4bbe-af4b-3f62c3867ea4">CONDITION_TYPE</a></b>
 
-The <a href="https://msdn.microsoft.com/library/Aa965692(v=VS.85).aspx">CONDITION_TYPE</a> of the condition node. The <b>CONDITION_TYPE</b> must be either <b>CT_AND_CONDITION</b> or <b>CT_OR_CONDITION</b>.
+The <a href="https://msdn.microsoft.com/921cdcb0-2915-4bbe-af4b-3f62c3867ea4">CONDITION_TYPE</a> of the condition node. The <b>CONDITION_TYPE</b> must be either <b>CT_AND_CONDITION</b> or <b>CT_OR_CONDITION</b>.
 
 
 ### -param peuSubs [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms683764(v=VS.85).aspx">IEnumUnknown</a>*</b>
+Type: <b><a href="_com_IEnumUnknown">IEnumUnknown</a>*</b>
 
-A pointer to an enumeration of <a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a> objects, or <b>NULL</b> for an empty enumeration.
+A pointer to an enumeration of <a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a> objects, or <b>NULL</b> for an empty enumeration.
 
 
 ### -param fSimplify [in]
@@ -85,9 +85,9 @@ An application that plans to execute a query based on the condition tree would t
 
 ### -param ppcResult [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a>**</b>
 
-Receives the address of a pointer to the new <a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a> node.
+Receives the address of a pointer to the new <a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a> node.
 
 
 ## -returns
@@ -115,27 +115,27 @@ There are no special condition trees for <b>TRUE</b> and <b>FALSE</b>. However, 
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>
+<a href="https://msdn.microsoft.com/d1ec553d-f9fb-4039-9121-0f57bac15345">CONDITION_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965692(v=VS.85).aspx">CONDITION_TYPE</a>
+<a href="https://msdn.microsoft.com/921cdcb0-2915-4bbe-af4b-3f62c3867ea4">CONDITION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a>
+<a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd742811(v=VS.85).aspx">ICondition2</a>
+<a href="https://msdn.microsoft.com/32c68ff7-f0f3-40eb-801a-c5c21ec496fa">ICondition2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231383(v=VS.85).aspx">IConditionFactory</a>
+<a href="https://msdn.microsoft.com/c678fa37-8673-4da7-9c23-9a7f478dc1b0">IConditionFactory</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd742799(v=VS.85).aspx">IConditionFactory2</a>
+<a href="https://msdn.microsoft.com/5ac0acb1-67f0-43f0-b1c1-2d8cf682a277">IConditionFactory2</a>
 
 
 

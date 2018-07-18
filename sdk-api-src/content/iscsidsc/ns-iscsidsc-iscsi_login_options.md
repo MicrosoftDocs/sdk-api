@@ -212,18 +212,18 @@ Multipathing is allowed. When specified the iSCSI Initiator service will allow m
 
 ### -field AuthType
 
-An enumerator value of type <a href="https://msdn.microsoft.com/library/Bb870791(v=VS.85).aspx">ISCSI_AUTH_TYPES</a> that indicates the authentication type. 
+An enumerator value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561486">ISCSI_AUTH_TYPES</a> that indicates the authentication type. 
 
 
 
 ### -field HeaderDigest
 
-An enumerator value of type <a href="https://msdn.microsoft.com/library/Bb870799(v=VS.85).aspx">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of header data. 
+An enumerator value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561498">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of header data. 
 
 
 ### -field DataDigest
 
-An enumerator value of type <a href="https://msdn.microsoft.com/library/Bb870799(v=VS.85).aspx">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of non-header data. 
+An enumerator value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561498">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of non-header data. 
 
 
 ### -field MaximumConnections

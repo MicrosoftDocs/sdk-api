@@ -61,7 +61,7 @@ Creates a collection object that enumerates the properties contained in the prop
 
 ### -param collection [out, retval]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/ms682833(v=VS.85).aspx">IEventObjectCollection</a> interface pointer on an event object collection. This parameter cannot be <b>NULL</b>.
+A pointer to an <a href="_cos_IEventObjectCollection">IEventObjectCollection</a> interface pointer on an event object collection. This parameter cannot be <b>NULL</b>.
 
 
 ## -returns

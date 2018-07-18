@@ -75,7 +75,7 @@ The <b>IConsoleNameSpace</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb970486(v=VS.85).aspx">DeleteItem</a>
+<a href="https://msdn.microsoft.com/a3324e25-1bfa-4adb-b811-509daff3127c">DeleteItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to delete a single item from the scope pane.
@@ -93,7 +93,7 @@ Enables the snap-in to get the handle to the first child item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Aa965805(v=VS.85).aspx">GetItem</a>
+<a href="https://msdn.microsoft.com/72c4cafb-f39b-4e37-b8f0-4f0867ac78f0">GetItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to get the attributes of a single scope pane item.
@@ -102,7 +102,7 @@ Enables the snap-in to get the attributes of a single scope pane item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb761626(v=VS.85).aspx">GetNextItem</a>
+<a href="https://msdn.microsoft.com/5e4ada78-4e95-4053-a1ce-05368e70dba7">GetNextItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to get the handle to the next item.
@@ -111,7 +111,7 @@ Enables the snap-in to get the handle to the next item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629987(v=VS.85).aspx">GetParentItem</a>
+<a href="https://msdn.microsoft.com/b32d9669-b71d-4ff3-8cc5-c22503773644">GetParentItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to get the handle to the parent item.
@@ -129,7 +129,7 @@ Enables the snap-in to insert a single item into the scope pane.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb970346(v=VS.85).aspx">SetItem</a>
+<a href="https://msdn.microsoft.com/bdcd5630-b29f-484a-a20a-af4328e721a5">SetItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to set the attributes of a single scope pane item.

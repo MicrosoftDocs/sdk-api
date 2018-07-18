@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-This structure is passed to applications when they receive a <a href="https://msdn.microsoft.com/library/Bb787285(v=VS.85).aspx">TBN_SAVE</a> notification code. It contains information about the button currently being saved. Applications can modify the values of the members to save additional information. 
+This structure is passed to applications when they receive a <a href="https://msdn.microsoft.com/31622f5e-2e33-4a42-8c49-cc3028a6fa62">TBN_SAVE</a> notification code. It contains information about the button currently being saved. Applications can modify the values of the members to save additional information. 
 
 
 ## -struct-fields
@@ -60,9 +60,9 @@ This structure is passed to applications when they receive a <a href="https://ms
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field pData
@@ -108,7 +108,7 @@ An estimate of the number of buttons. Because it is based on the size of the dat
 
 ### -field tbButton
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb760476(v=VS.85).aspx">TBBUTTON</a></b>
+Type: <b><a href="https://msdn.microsoft.com/c7dea982-d8b3-44e1-a4d2-3cca560c2096">TBBUTTON</a></b>
 
-A <a href="https://msdn.microsoft.com/library/Bb760476(v=VS.85).aspx">TBBUTTON</a> structure that contains information about the button currently being saved. 
+A <a href="https://msdn.microsoft.com/c7dea982-d8b3-44e1-a4d2-3cca560c2096">TBBUTTON</a> structure that contains information about the button currently being saved. 
 

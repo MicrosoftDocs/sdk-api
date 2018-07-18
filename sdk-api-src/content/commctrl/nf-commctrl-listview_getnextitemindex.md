@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the index of the item in a particular list-view control that has the specified properties and relationship to another specific item. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761059(v=VS.85).aspx">LVM_GETNEXTITEMINDEX</a> message explicitly.
+Gets the index of the item in a particular list-view control that has the specified properties and relationship to another specific item. Use this macro or send the <a href="https://msdn.microsoft.com/84cfeb24-83b5-4028-a4ca-97c39ae3c817">LVM_GETNEXTITEMINDEX</a> message explicitly.
 
 
 ## -parameters
@@ -67,9 +67,9 @@ A handle to the list-view control.
 
 ### -param plvii [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb774762(v=VS.85).aspx">LVITEMINDEX</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/62d28e14-fa0d-42c8-9f8e-afc0cfdff3e3">LVITEMINDEX</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/Bb774762(v=VS.85).aspx">LVITEMINDEX</a> structure with which the item begins the search, or -1 to find the first item that matches the specified flags. The calling process is responsible for allocating this structure and setting its members.
+A pointer to the <a href="https://msdn.microsoft.com/62d28e14-fa0d-42c8-9f8e-afc0cfdff3e3">LVITEMINDEX</a> structure with which the item begins the search, or -1 to find the first item that matches the specified flags. The calling process is responsible for allocating this structure and setting its members.
 
 
 ### -param flags
@@ -198,7 +198,7 @@ Searches for an item to the right of the specified item.
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="https://msdn.microsoft.com/library/Bb774733(v=VS.85).aspx">LVIS_CUT</a> state flag set.
+The item has the <a href="List_view_item_states.htm">LVIS_CUT</a> state flag set.
 
 </td>
 </tr>
@@ -209,7 +209,7 @@ The item has the <a href="https://msdn.microsoft.com/library/Bb774733(v=VS.85).a
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="https://msdn.microsoft.com/library/Bb774733(v=VS.85).aspx">LVIS_DROPHILITED</a> state flag set
+The item has the <a href="List_view_item_states.htm">LVIS_DROPHILITED</a> state flag set
 
 </td>
 </tr>
@@ -220,7 +220,7 @@ The item has the <a href="https://msdn.microsoft.com/library/Bb774733(v=VS.85).a
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="https://msdn.microsoft.com/library/Bb774733(v=VS.85).aspx">LVIS_FOCUSED</a> state flag set.
+The item has the <a href="List_view_item_states.htm">LVIS_FOCUSED</a> state flag set.
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ The item has the <a href="https://msdn.microsoft.com/library/Bb774733(v=VS.85).a
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="https://msdn.microsoft.com/library/Bb774733(v=VS.85).aspx">LVIS_SELECTED</a> state flag set.
+The item has the <a href="List_view_item_states.htm">LVIS_SELECTED</a> state flag set.
 
 </td>
 </tr>
@@ -317,7 +317,7 @@ Note that the following flags, for use only with Windows Vista, are mutually ex
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761057(v=VS.85).aspx">LVM_GETNEXTITEM</a>
+<a href="https://msdn.microsoft.com/2d458f12-b9d3-4b9e-bcb4-927c14c16537">LVM_GETNEXTITEM</a>
  
 
  

@@ -53,7 +53,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Item</b> property represents a device ID from the <a href="https://msdn.microsoft.com/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection.
+The <b>Item</b> property represents a device ID from the <a href="https://msdn.microsoft.com/a1906ca1-0025-464a-bb60-752b25c802e7">FaxDeviceIds</a> collection.
 
 This property is read/write.
 
@@ -66,15 +66,15 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a>
+<a href="https://msdn.microsoft.com/a1906ca1-0025-464a-bb60-752b25c802e7">FaxDeviceIds</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686503(v=VS.85).aspx">IFaxDeviceIds</a>
+<a href="https://msdn.microsoft.com/8ba11f07-3796-4910-98f7-541a32519c41">IFaxDeviceIds</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/5a05df3b-c56b-4dfc-a0ee-7f1c2861e9ae">Visual Basic Example</a>
  
 
  

@@ -318,7 +318,7 @@ If the transport application created the security context to support sequence de
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

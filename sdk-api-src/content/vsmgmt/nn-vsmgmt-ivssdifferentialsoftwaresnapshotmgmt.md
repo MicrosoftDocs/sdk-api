@@ -122,7 +122,7 @@ Queries volumes that support shadow copy storage  areas (including volumes with 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
 
 
 

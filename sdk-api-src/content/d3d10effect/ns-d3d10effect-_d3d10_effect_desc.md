@@ -62,7 +62,7 @@ Describes an effect.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
-<b>TRUE</b> if the effect is a <a href="https://msdn.microsoft.com/library/Bb205113(v=VS.85).aspx">child effect</a>; otherwise <b>FALSE</b>.
+<b>TRUE</b> if the effect is a <a href="https://msdn.microsoft.com/9f029be5-4ce0-46ca-909b-adaa980398e7">child effect</a>; otherwise <b>FALSE</b>.
 
 
 ### -field ConstantBuffers
@@ -104,7 +104,7 @@ The number of techniques.
 
 
 
-To get an effect description, call <a href="https://msdn.microsoft.com/library/Bb173763(v=VS.85).aspx">ID3D10Effect::GetDesc</a>.
+To get an effect description, call <a href="https://msdn.microsoft.com/bc8add27-778b-416e-a031-d5861ec79b90">ID3D10Effect::GetDesc</a>.
 
 
 
@@ -114,7 +114,7 @@ To get an effect description, call <a href="https://msdn.microsoft.com/library/B
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205180(v=VS.85).aspx">Effect Structures (Direct3D 10)</a>
+<a href="https://msdn.microsoft.com/bbd69b4b-d2f4-471f-a607-328f5fc603b5">Effect Structures (Direct3D 10)</a>
  
 
  

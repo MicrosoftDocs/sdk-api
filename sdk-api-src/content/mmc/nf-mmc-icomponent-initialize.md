@@ -102,7 +102,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
  
 
  

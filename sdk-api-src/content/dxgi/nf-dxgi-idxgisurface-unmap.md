@@ -52,7 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-Invalidate the pointer to the surface retrieved by <a href="https://msdn.microsoft.com/library/Bb174567(v=VS.85).aspx">IDXGISurface::Map</a> and re-enable GPU access to the resource.
+Invalidate the pointer to the surface retrieved by <a href="https://msdn.microsoft.com/027da15c-1670-41ec-a633-addd1c5ff150">IDXGISurface::Map</a> and re-enable GPU access to the resource.
 
 
 ## -parameters
@@ -66,9 +66,9 @@ Invalidate the pointer to the surface retrieved by <a href="https://msdn.microso
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns S_OK if successful; otherwise, returns one of the error codes that are described in the <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.
+Returns S_OK if successful; otherwise, returns one of the error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.
 
 
 
@@ -78,7 +78,7 @@ Returns S_OK if successful; otherwise, returns one of the error codes that are d
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174565(v=VS.85).aspx">IDXGISurface</a>
+<a href="https://msdn.microsoft.com/9210b966-9e9a-4cd1-ba70-6f1a9fda9d80">IDXGISurface</a>
  
 
  

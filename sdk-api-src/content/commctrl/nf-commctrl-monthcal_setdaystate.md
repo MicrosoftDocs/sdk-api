@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the day states for all months that are currently visible within a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761004(v=VS.85).aspx">MCM_SETDAYSTATE</a> message explicitly. 
+Sets the day states for all months that are currently visible within a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/518cb2a9-ea82-40b4-88ca-f901b6f9f8c4">MCM_SETDAYSTATE</a> message explicitly. 
 
 
 ## -parameters
@@ -95,14 +95,14 @@ Value of type <b>int</b> indicating how many elements are in the array that <i>l
 
 Type: <b>LPMONTHDAYSTATE</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/library/Bb760915(v=VS.85).aspx">MONTHDAYSTATE</a> values that define how the month calendar control will draw each day in its display. 
+Pointer to an array of <a href="https://msdn.microsoft.com/eb3dd6cb-738e-424b-945b-1485798a444c">MONTHDAYSTATE</a> values that define how the month calendar control will draw each day in its display. 
 
 
 ## -remarks
 
 
 
-An application can explicitly set day state information by using this macro, but the state will not persist when a different part of the calendar is scrolled into view. Day state information is usually set in response to the <a href="https://msdn.microsoft.com/library/Bb760935(v=VS.85).aspx">MCN_GETDAYSTATE</a> notification code, which is sent whenever the control needs to be refreshed.
+An application can explicitly set day state information by using this macro, but the state will not persist when a different part of the calendar is scrolled into view. Day state information is usually set in response to the <a href="https://msdn.microsoft.com/dc2608e0-c598-4b26-9195-208f09cd84b7">MCN_GETDAYSTATE</a> notification code, which is sent whenever the control needs to be refreshed.
 
 The array at 
 				<i>lpDayStateArray</i> must contain as many elements as the value returned by the following macro: 
@@ -112,7 +112,7 @@ The array at
 The preceding macro returns the total number of months that are in complete or partial view within the month calendar's display. 
 
 Keep in mind that the array at 
-				<i>lpDayStateArray</i> must contain <a href="https://msdn.microsoft.com/library/Bb760915(v=VS.85).aspx">MONTHDAYSTATE</a> values that correspond with all months currently in the control's display, in chronological order. This includes the two months that may be  partially displayed before the first month and after the last month.
+				<i>lpDayStateArray</i> must contain <a href="https://msdn.microsoft.com/eb3dd6cb-738e-424b-945b-1485798a444c">MONTHDAYSTATE</a> values that correspond with all months currently in the control's display, in chronological order. This includes the two months that may be  partially displayed before the first month and after the last month.
 
 
 
@@ -122,7 +122,7 @@ Keep in mind that the array at
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb760921(v=VS.85).aspx">Using Month Calendar Controls</a>
+<a href="https://msdn.microsoft.com/d27d8f11-b400-409e-a9bf-65c0a79093b4">Using Month Calendar Controls</a>
  
 
  

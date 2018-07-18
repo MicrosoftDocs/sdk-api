@@ -90,7 +90,7 @@ Returns nothing.
 
 The vertex data for a draw call normally comes from a vertex buffer that is bound to the pipeline.
 
-Even without any vertex buffer bound to the pipeline, you can generate your own vertex data in your vertex shader by using the <a href="https://msdn.microsoft.com/library/Bb509647(v=VS.85).aspx">SV_VertexID</a> system-value semantic to determine the current vertex that the runtime is processing.
+Even without any vertex buffer bound to the pipeline, you can generate your own vertex data in your vertex shader by using the <a href="https://msdn.microsoft.com/6f5c504c-1940-4d1c-b594-a2132599376b">SV_VertexID</a> system-value semantic to determine the current vertex that the runtime is processing.
 
 
 

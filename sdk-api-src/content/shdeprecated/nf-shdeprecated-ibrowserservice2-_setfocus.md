@@ -77,7 +77,7 @@ The handle of the browser window in which the focus shift is taking place.
 
 Type: <b>LPMSG</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a> that contains a keystroke message that indicates an accelerator.
+A pointer to a <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a> that contains a keystroke message that indicates an accelerator.
 
 
 ## -returns

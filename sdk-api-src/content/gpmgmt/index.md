@@ -2,7 +2,7 @@
 UID: NA:gpmgmt
 ms.assetid: d6f6d8c9-d4c4-3bd5-b377-ca4015cf9c41
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

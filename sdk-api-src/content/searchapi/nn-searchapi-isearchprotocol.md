@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Provides methods for invoking, initializing, and managing <a href="https://msdn.microsoft.com/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> objects. Methods in this interface are called by the protocol host when processing URLs from the gatherer. 
+Provides methods for invoking, initializing, and managing <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> objects. Methods in this interface are called by the protocol host when processing URLs from the gatherer. 
         
 
 
@@ -76,22 +76,22 @@ The <b>ISearchProtocol</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231437(v=VS.85).aspx">CloseAccessor</a>
+<a href="https://msdn.microsoft.com/2334914c-baab-4c4b-963b-b3c48d9a96c6">CloseAccessor</a>
 </td>
 <td align="left" width="63%">
 
-        Closes a previously created <a href="https://msdn.microsoft.com/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object. 
+        Closes a previously created <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> object. 
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231438(v=VS.85).aspx">CreateAccessor</a>
+<a href="https://msdn.microsoft.com/6fa8bf02-155d-48e9-8f94-c54680ae33e2">CreateAccessor</a>
 </td>
 <td align="left" width="63%">
 
-          Creates and initializes an <a href="https://msdn.microsoft.com/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object.  
+          Creates and initializes an <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> object.  
         
 
 </td>
@@ -126,7 +126,7 @@ The <b>ISearchProtocol</b> interface has these methods.
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
+<a href="https://msdn.microsoft.com/cfba12eb-4123-4b57-8311-d4fc8f9f514e">The Indexing Process</a>
  
 
  

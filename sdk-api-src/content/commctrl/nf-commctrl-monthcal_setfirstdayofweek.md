@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the first day of the week for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761006(v=VS.85).aspx">MCM_SETFIRSTDAYOFWEEK</a> message explicitly. 
+Sets the first day of the week for a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/6e0dc906-a41e-4c3a-9528-1f5428dceb8d">MCM_SETFIRSTDAYOFWEEK</a> message explicitly. 
 
 
 ## -parameters

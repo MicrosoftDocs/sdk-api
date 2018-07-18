@@ -61,9 +61,9 @@ Get the depth-stencil state.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb205036(v=VS.85).aspx">D3D10_DEPTH_STENCIL_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/5337bb50-95ce-47cd-bda5-2828bf3f85d0">D3D10_DEPTH_STENCIL_DESC</a>*</b>
 
-A pointer to the depth-stencil state (see <a href="https://msdn.microsoft.com/library/Bb205036(v=VS.85).aspx">D3D10_DEPTH_STENCIL_DESC</a>).
+A pointer to the depth-stencil state (see <a href="https://msdn.microsoft.com/5337bb50-95ce-47cd-bda5-2828bf3f85d0">D3D10_DEPTH_STENCIL_DESC</a>).
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173524(v=VS.85).aspx">ID3D10DepthStencilState Interface</a>
+<a href="https://msdn.microsoft.com/7cb79259-5575-4307-ab02-8bf11a0acf90">ID3D10DepthStencilState Interface</a>
  
 
  
