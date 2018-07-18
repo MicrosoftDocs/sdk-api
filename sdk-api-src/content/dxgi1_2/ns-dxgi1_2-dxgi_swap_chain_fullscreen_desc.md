@@ -61,17 +61,17 @@ Describes full-screen mode for a swap chain.
 
 ### -field RefreshRate
 
-A <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a> structure that describes the refresh rate in hertz.
+A <a href="https://msdn.microsoft.com/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a> structure that describes the refresh rate in hertz.
 
 
 ### -field ScanlineOrdering
 
-A member of the <a href="https://msdn.microsoft.com/ecb66eed-9368-4cac-82e9-0e32c41e3ec5">DXGI_MODE_SCANLINE_ORDER</a> enumerated type that describes the scan-line drawing mode.
+A member of the <a href="https://msdn.microsoft.com/library/Bb173067(v=VS.85).aspx">DXGI_MODE_SCANLINE_ORDER</a> enumerated type that describes the scan-line drawing mode.
 
 
 ### -field Scaling
 
-A member of the <a href="https://msdn.microsoft.com/2f9c16c6-b2d2-4135-8399-fd37aece3286">DXGI_MODE_SCALING</a> enumerated type that describes the scaling mode.
+A member of the <a href="https://msdn.microsoft.com/library/Bb173066(v=VS.85).aspx">DXGI_MODE_SCALING</a> enumerated type that describes the scaling mode.
 
 
 ### -field Windowed

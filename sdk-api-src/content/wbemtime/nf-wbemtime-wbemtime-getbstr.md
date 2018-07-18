@@ -84,7 +84,7 @@ The method returns a <b>BSTR</b> in <a href="https://msdn.microsoft.com/be239bf8
 
 
 
-If the value returned is not <b>NULL</b>, the calling function must call <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> on the returned value. This method returns the same value as <a href="https://msdn.microsoft.com/3bfcf7f8-0b0c-4a3f-83c7-be4c37753a7a">WBEMTime::GetDMTF</a>(false).
+If the value returned is not <b>NULL</b>, the calling function must call <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> on the returned value. This method returns the same value as <a href="https://msdn.microsoft.com/3bfcf7f8-0b0c-4a3f-83c7-be4c37753a7a">WBEMTime::GetDMTF</a>(false).
 
 
 

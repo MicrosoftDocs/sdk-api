@@ -99,14 +99,14 @@ This helper function is used when the calling application expects a <a href="htt
 
 If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> is of type <b>VT_DATE</b>, this function extracts the datetime value.
 
-If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> is not of type <b>VT_DATE</b>, the function attempts to convert the value in the <b>VARIANT</b> structure into the right format. If a conversion is not possible, <a href="shell.VariantToDosDateTime">VariantToDosDateTime</a> returns a failure code. See <a href="shell.PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions.
+If the source <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> is not of type <b>VT_DATE</b>, the function attempts to convert the value in the <b>VARIANT</b> structure into the right format. If a conversion is not possible, <a href="https://msdn.microsoft.com/library/Bb776597(v=VS.85).aspx">VariantToDosDateTime</a> returns a failure code. See <a href="https://msdn.microsoft.com/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a> for a list of possible conversions.
 
-See <a href="61b029cb-8b60-400a-a6bb-a3f6839dc9d2">DosDateTimeToVariantTime</a> for more information about the formats of <i>pwDate</i>, <i>pwTime</i>, and the source datetime value.
+See <a href="https://msdn.microsoft.com/library/ms221238(v=VS.85).aspx">DosDateTimeToVariantTime</a> for more information about the formats of <i>pwDate</i>, <i>pwTime</i>, and the source datetime value.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToDosDateTime">VariantToDosDateTime</a> to access a datetime value in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776597(v=VS.85).aspx">VariantToDosDateTime</a> to access a datetime value in a <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -138,19 +138,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitVariantFromDosDateTime">InitVariantFromDosDateTime</a>
+<a href="https://msdn.microsoft.com/library/Bb762320(v=VS.85).aspx">InitVariantFromDosDateTime</a>
 
 
 
-<a href="shell.PropVariantChangeType">PropVariantChangeType</a>
+<a href="https://msdn.microsoft.com/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>
 
 
 
-<a href="shell.PropVariantToFileTime">PropVariantToFileTime</a>
+<a href="https://msdn.microsoft.com/library/Bb776542(v=VS.85).aspx">PropVariantToFileTime</a>
 
 
 
-<a href="shell.VariantToFileTime">VariantToFileTime</a>
+<a href="https://msdn.microsoft.com/library/Bb776602(v=VS.85).aspx">VariantToFileTime</a>
  
 
  

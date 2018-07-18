@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Specifies the parts of the depth stencil to clear. Usually used with <a href="https://msdn.microsoft.com/ac596c4d-dc54-4433-8625-defa8a04bba0">ID3D10Device::ClearDepthStencilView</a>.
+Specifies the parts of the depth stencil to clear. Usually used with <a href="https://msdn.microsoft.com/library/Bb173538(v=VS.85).aspx">ID3D10Device::ClearDepthStencilView</a>.
 
 
 ## -enum-fields
@@ -82,7 +82,7 @@ These flags can be bitwise ORed together.
 
 
 
-<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
  
 
  

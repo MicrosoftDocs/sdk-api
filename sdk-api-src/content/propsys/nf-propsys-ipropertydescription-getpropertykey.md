@@ -61,9 +61,9 @@ Gets a structure that acts as a property's unique identifier.
 
 ### -param pkey [out]
 
-Type: <b><a href="shell.PROPERTYKEY">PROPERTYKEY</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>*</b>
 
-When this method returns, contains a pointer to a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure.
+When this method returns, contains a pointer to a <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The information retrieved by this method comes from the <a href="shell.propdesc_schema_propertyDescription">propertyDescription</a> element in the property's .propdesc file.
+The information retrieved by this method comes from the <a href="https://msdn.microsoft.com/library/Bb773880(v=VS.85).aspx">propertyDescription</a> element in the property's .propdesc file.
 
 
 
@@ -91,7 +91,7 @@ The information retrieved by this method comes from the <a href="shell.propdesc_
 
 
 
-<a href="shell.IPropertyDescription">IPropertyDescription</a>
+<a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
 
 
 

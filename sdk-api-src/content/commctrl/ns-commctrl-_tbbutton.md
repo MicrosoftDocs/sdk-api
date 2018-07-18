@@ -62,33 +62,33 @@ Contains information about a button in a toolbar.
 
 Type: <b>int</b>
 
-Zero-based index of the button image. Set this member to I_IMAGECALLBACK, and the toolbar will send the <a href="https://msdn.microsoft.com/ed6e4141-2bf8-4a92-8349-f3833c87fcf3">TBN_GETDISPINFO</a> notification code to retrieve the image index when it is needed. 
+Zero-based index of the button image. Set this member to I_IMAGECALLBACK, and the toolbar will send the <a href="https://msdn.microsoft.com/library/Bb787268(v=VS.85).aspx">TBN_GETDISPINFO</a> notification code to retrieve the image index when it is needed. 
 
 
 <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.81</a>. Set this member to I_IMAGENONE to indicate that the button does not have an image. The button layout will not include any space for a bitmap, only text.
 
-If the button is a separator, that is, if <b>fsStyle</b> is set to <a href="Toolbar_Control_and_Button_Styles.htm">BTNS_SEP</a>, <b>iBitmap</b> determines the width of the separator, in pixels. For information on selecting button images from image lists, see <a href="https://msdn.microsoft.com/432ffdfc-bb63-4405-90da-9392910fdbb6">TB_SETIMAGELIST</a> message.
+If the button is a separator, that is, if <b>fsStyle</b> is set to <a href="https://msdn.microsoft.com/library/Bb760439(v=VS.85).aspx">BTNS_SEP</a>, <b>iBitmap</b> determines the width of the separator, in pixels. For information on selecting button images from image lists, see <a href="https://msdn.microsoft.com/library/Bb787433(v=VS.85).aspx">TB_SETIMAGELIST</a> message.
 
 
 ### -field idCommand
 
 Type: <b>int</b>
 
-Command identifier associated with the button. This identifier is used in a <a href="https://msdn.microsoft.com/5516098e-fd90-49c8-afb0-78164b028376">WM_COMMAND</a> message when the button is chosen. 
+Command identifier associated with the button. This identifier is used in a <a href="https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> message when the button is chosen. 
 
 
 ### -field fsState
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
 
-Button state flags. This member can be a combination of the values listed in <a href="https://msdn.microsoft.com/422e0d81-bd80-45dc-b843-82fc5d5c2a9a">Toolbar Button States</a>. 
+Button state flags. This member can be a combination of the values listed in <a href="https://msdn.microsoft.com/library/Bb760437(v=VS.85).aspx">Toolbar Button States</a>. 
 
 
 ### -field fsStyle
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
 
-Button style. This member can be a combination of the button style values listed in <a href="https://msdn.microsoft.com/75dc0c2c-6d1d-4b13-b0df-2cc541a9b1bb">Toolbar Control and Button Styles</a>. 
+Button style. This member can be a combination of the button style values listed in <a href="https://msdn.microsoft.com/library/Bb760439(v=VS.85).aspx">Toolbar Control and Button Styles</a>. 
 
 
 ### -field bReserved
@@ -128,7 +128,7 @@ Reserved.
 
 
 
-The <b>iString</b> member can return either a string pointer or an index. You can use the <a href="https://msdn.microsoft.com/af7d1343-93b7-4e11-a299-3c2f19bb2e98">IS_INTRESOURCE</a> macro to determine which is returned. 
+The <b>iString</b> member can return either a string pointer or an index. You can use the <a href="https://msdn.microsoft.com/library/ms648028(v=VS.85).aspx">IS_INTRESOURCE</a> macro to determine which is returned. 
 
 
 

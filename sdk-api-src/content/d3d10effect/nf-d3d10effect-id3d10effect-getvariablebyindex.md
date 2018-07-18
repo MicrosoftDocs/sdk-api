@@ -69,9 +69,9 @@ A zero-based index.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable Interface</a>.
+A pointer to a <a href="https://msdn.microsoft.com/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>.
 
 
 
@@ -82,7 +82,7 @@ A pointer to a <a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e
 
 An effect may contain one or more variables. Variables outside of a technique are considered global to all effects, those located inside of a technique are local to that technique. You can access any local non-static effect variable using its name or with an index.
 
-The method returns a pointer to an <a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">effect-variable interface</a> if a variable is not found; you can call <a href="https://msdn.microsoft.com/e31defc8-92cf-4409-bfe6-5e8e98c4e44f">ID3D10Effect::IsValid</a> to verify whether or not the index exists.
+The method returns a pointer to an <a href="https://msdn.microsoft.com/library/Bb173724(v=VS.85).aspx">effect-variable interface</a> if a variable is not found; you can call <a href="https://msdn.microsoft.com/library/Bb173772(v=VS.85).aspx">ID3D10Effect::IsValid</a> to verify whether or not the index exists.
 
 
 
@@ -92,7 +92,7 @@ The method returns a pointer to an <a href="https://msdn.microsoft.com/55bfed47-
 
 
 
-<a href="https://msdn.microsoft.com/3525d559-11e4-4c38-acfe-5dc560264c31">ID3D10Effect Interface</a>
+<a href="https://msdn.microsoft.com/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a>
  
 
  

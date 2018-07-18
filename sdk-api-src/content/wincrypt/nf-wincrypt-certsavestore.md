@@ -245,7 +245,7 @@ If the function succeeds, the function returns nonzero.
 If the function fails, it returns zero. For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
-Note that <a href="base.createfile">CreateFile</a> or <a href="base.writefile">WriteFile</a> errors can be propagated to this function. One possible error code is <b>CRYPT_E_FILE_ERROR</b> which indicates that an error occurred while writing to the file.
+Note that <a href="base.createfile">CreateFile</a> or <a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a> errors can be propagated to this function. One possible error code is <b>CRYPT_E_FILE_ERROR</b> which indicates that an error occurred while writing to the file.
 
 
 
@@ -263,7 +263,7 @@ Note that <a href="base.createfile">CreateFile</a> or <a href="base.writefile">W
 
 
 
-<a href="cryptography_functions.htm">Certificate Store Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
 
 
 
@@ -271,7 +271,7 @@ Note that <a href="base.createfile">CreateFile</a> or <a href="base.writefile">W
 
 
 
-<a href="base.writefile">WriteFile</a>
+<a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>
  
 
  

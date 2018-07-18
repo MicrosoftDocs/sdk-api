@@ -69,7 +69,7 @@ The value to be converted.
 
 
 
-This macro is identical to the <a href="https://msdn.microsoft.com/1af5cf12-0b20-4042-8e01-65e3c5886560">GET_KEYSTATE_LPARAM</a> macro.
+This macro is identical to the <a href="https://msdn.microsoft.com/library/ms646250(v=VS.85).aspx">GET_KEYSTATE_LPARAM</a> macro.
 
 
 
@@ -83,11 +83,11 @@ This macro is identical to the <a href="https://msdn.microsoft.com/1af5cf12-0b20
 
 
 
-<a href="https://msdn.microsoft.com/1af5cf12-0b20-4042-8e01-65e3c5886560">GET_KEYSTATE_LPARAM</a>
+<a href="https://msdn.microsoft.com/library/ms646250(v=VS.85).aspx">GET_KEYSTATE_LPARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
+<a href="https://msdn.microsoft.com/library/ms645533(v=VS.85).aspx">Mouse Input</a>
 
 
 

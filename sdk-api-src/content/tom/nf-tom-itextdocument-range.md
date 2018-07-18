@@ -71,9 +71,9 @@ Retrieves a text range object for a specified range of content in the active sto
 
 ### -param ppRange
 
-Type: <b><a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>**</b>
 
-Address of a pointer to a variable of type <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a> that receives a pointer to the specified text range. 
+Address of a pointer to a variable of type <a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a> that receives a pointer to the specified text range. 
 
 
 #### - cpFirst
@@ -140,11 +140,11 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/0c3f161f-f6d3-44b9-b041-1b682d1915af">ITextDocument</a>
+<a href="https://msdn.microsoft.com/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
+<a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>
 
 
 
@@ -152,7 +152,7 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

@@ -56,8 +56,8 @@ A <b>BlurParams</b> structure contains members that specify the nature of a Gaus
  You can apply a Gaussian blur effect to a bitmap by following these steps. 
 <ol>
 <li>Create and initialize a <b>BlurParams</b> structure.</li>
-<li>Pass the address of the <b>BlurParams</b> structure to the <a href="https://msdn.microsoft.com/d5e62587-01f3-4869-a596-7e84d1752e37">Blur::SetParameters</a> method of a <a href="https://msdn.microsoft.com/a061b15b-bce4-4b38-adba-836b6b295c80">Blur</a> object.</li>
-<li>Pass the address of the <a href="https://msdn.microsoft.com/a061b15b-bce4-4b38-adba-836b6b295c80">Blur</a> object to the <a href="https://msdn.microsoft.com/cb85a7ac-5af0-45c7-8035-d7bc2827af6a">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/6b3d0a2f-acff-47a7-bc9f-6e9d659f683c">Bitmap::ApplyEffect</a> method.</li>
+<li>Pass the address of the <b>BlurParams</b> structure to the <a href="https://msdn.microsoft.com/library/ms536282(v=VS.85).aspx">Blur::SetParameters</a> method of a <a href="https://msdn.microsoft.com/library/ms534422(v=VS.85).aspx">Blur</a> object.</li>
+<li>Pass the address of the <a href="https://msdn.microsoft.com/library/ms534422(v=VS.85).aspx">Blur</a> object to the <a href="https://msdn.microsoft.com/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method.</li>
 </ol>
 
 ## -struct-fields
@@ -84,7 +84,7 @@ Boolean value that specifies whether the bitmap expands by an amount equal to th
 
 
 
-			One of the two <a href="https://msdn.microsoft.com/6b3d0a2f-acff-47a7-bc9f-6e9d659f683c">Bitmap::ApplyEffect</a> methods blurs a bitmap in place. That particular <a href="https://msdn.microsoft.com/fff2c151-92df-477e-aafd-6aaca27df414">Bitmap::ApplyEffect</a> method ignores the <b>expandEdge</b> parameter.
+			One of the two <a href="https://msdn.microsoft.com/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> methods blurs a bitmap in place. That particular <a href="https://msdn.microsoft.com/library/ms536321(v=VS.85).aspx">Bitmap::ApplyEffect</a> method ignores the <b>expandEdge</b> parameter.
           
 
 

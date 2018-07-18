@@ -142,7 +142,7 @@ You can pass these data objects to the same snap-in or to extension snap-ins tha
 
 
 
-<a href="_ole_idataobject">IDataObject</a>
+<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a>
  
 
  

@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the current left-to-right order of columns in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/d4636aa8-c61e-4467-abc7-eea897bf370e">LVM_GETCOLUMNORDERARRAY</a> message explicitly. 
+Gets the current left-to-right order of columns in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774913(v=VS.85).aspx">LVM_GETCOLUMNORDERARRAY</a> message explicitly. 
 
 
 ## -parameters

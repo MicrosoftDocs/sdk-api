@@ -128,7 +128,7 @@ The resource is not operational.
 
 #### ClusterResourceFailed (4)
 
-The resource has <a href="f_gly.htm">failed</a>.
+The resource has <a href="https://msdn.microsoft.com/library/ms682135(v=VS.85).aspx">failed</a>.
 
 
 

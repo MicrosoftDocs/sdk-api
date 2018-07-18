@@ -82,35 +82,35 @@ This method returns the alpha component of this color.
 
 
 
-<a href="https://msdn.microsoft.com/9b40ba57-88c5-4a8d-9722-256a0bc66a3e">Color::GetAlpha</a>
+<a href="https://msdn.microsoft.com/library/ms536246(v=VS.85).aspx">Color::GetAlpha</a>
 
 
 
-<a href="https://msdn.microsoft.com/09977e61-e46f-48c5-a9b9-5a29f24f15c1">Color::GetB</a>
+<a href="https://msdn.microsoft.com/library/ms536247(v=VS.85).aspx">Color::GetB</a>
 
 
 
-<a href="https://msdn.microsoft.com/53a42e45-2c2d-40c1-8d22-a954a151f7b6">Color::GetBlue</a>
+<a href="https://msdn.microsoft.com/library/ms536248(v=VS.85).aspx">Color::GetBlue</a>
 
 
 
-<a href="https://msdn.microsoft.com/254b40cb-d82e-401c-8b46-8bf09ce3914f">Color::GetG</a>
+<a href="https://msdn.microsoft.com/library/ms536249(v=VS.85).aspx">Color::GetG</a>
 
 
 
-<a href="https://msdn.microsoft.com/b5499194-7078-434e-9d6b-a686ece3fd55">Color::GetGreen</a>
+<a href="https://msdn.microsoft.com/library/ms536250(v=VS.85).aspx">Color::GetGreen</a>
 
 
 
-<a href="https://msdn.microsoft.com/70051577-5f60-4b4c-8d0c-9b285edbd77c">Color::GetR</a>
+<a href="https://msdn.microsoft.com/library/ms536251(v=VS.85).aspx">Color::GetR</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d2dc63d-14e3-4e38-a41f-1d3e41f07cdd">Color::GetRed</a>
+<a href="https://msdn.microsoft.com/library/ms536252(v=VS.85).aspx">Color::GetRed</a>
 
 
 
-<a href="https://msdn.microsoft.com/b333bf7d-b212-43fd-8f86-d7bf73b6a3f4">Color::GetValue</a>
+<a href="https://msdn.microsoft.com/library/ms536253(v=VS.85).aspx">Color::GetValue</a>
  
 
  

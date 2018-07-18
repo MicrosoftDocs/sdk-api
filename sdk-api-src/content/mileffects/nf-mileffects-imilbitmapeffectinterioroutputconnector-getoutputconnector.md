@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/36a2d9da-7a25-4316-acdf-8add4016f18f">IMILBitmapEffectOutputConnector</a> associated with the interior output connector.
+Gets the <a href="https://msdn.microsoft.com/library/ms735267(v=VS.85).aspx">IMILBitmapEffectOutputConnector</a> associated with the interior output connector.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets the <a href="https://msdn.microsoft.com/36a2d9da-7a25-4316-acdf-8add4016f18
 
 ### -param pOutputConnector [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/36a2d9da-7a25-4316-acdf-8add4016f18f">IMILBitmapEffectOutputConnector</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms735267(v=VS.85).aspx">IMILBitmapEffectOutputConnector</a>**</b>
 
 
 ## -returns

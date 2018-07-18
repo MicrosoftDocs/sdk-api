@@ -300,8 +300,8 @@ The exception is related to remote files. Although
     merged.
 
 A mapped view of a file is not guaranteed to be coherent with a file being accessed by the 
-    <a href="base.readfile">ReadFile</a> or 
-    <a href="base.writefile">WriteFile</a> function.
+    <a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a> or 
+    <a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a> function.
 
 To guard against <b>EXCEPTION_IN_PAGE_ERROR</b> exceptions, use structured exception 
     handling to protect any code that writes to or reads from a memory mapped view of a file other than the page file. 
@@ -415,7 +415,7 @@ Yes
 
 
 
-<a href="base.readfile">ReadFile</a>
+<a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a>
 
 
 
@@ -431,7 +431,7 @@ Yes
 
 
 
-<a href="base.writefile">WriteFile</a>
+<a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>
  
 
  

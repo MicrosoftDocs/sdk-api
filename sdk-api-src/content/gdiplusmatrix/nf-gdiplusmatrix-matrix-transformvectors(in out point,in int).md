@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-<span>This topic lists the TransformVectors methods of the <a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a> class. For a complete list of methods for the <b>Matrix</b> class, see <a href="https://msdn.microsoft.com/d43a7956-9822-4093-9722-91f0d2edf50c">Matrix Methods</a>. 
+<span>This topic lists the TransformVectors methods of the <a href="https://msdn.microsoft.com/library/ms534475(v=VS.85).aspx">Matrix</a> class. For a complete list of methods for the <b>Matrix</b> class, see <a href="https://msdn.microsoft.com/library/ms535298(v=VS.85).aspx">Matrix Methods</a>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Method</th>
@@ -59,19 +59,19 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c44b813-9045-4452-8598-87f119ad2870">TransformVectors(Point*,INT)</a>
+<a href="https://msdn.microsoft.com/library/ms535318(v=VS.85).aspx">TransformVectors(Point*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/6c44b813-9045-4452-8598-87f119ad2870">Matrix::TransformVectors</a> method multiplies each vector in an array by this matrix. The translation elements of this matrix (third row) are ignored. Each vector is treated as a row matrix. The multiplication is performed with the row matrix on the left and this matrix on the right.
+The <a href="https://msdn.microsoft.com/library/ms535318(v=VS.85).aspx">Matrix::TransformVectors</a> method multiplies each vector in an array by this matrix. The translation elements of this matrix (third row) are ignored. Each vector is treated as a row matrix. The multiplication is performed with the row matrix on the left and this matrix on the right.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3afb707-e507-4d6f-a8e0-42c7fa559f3e">TransformVectors(PointF*,INT)</a>
+<a href="https://msdn.microsoft.com/library/ms535319(v=VS.85).aspx">TransformVectors(PointF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/a3afb707-e507-4d6f-a8e0-42c7fa559f3e">Matrix::TransformVectors</a> method multiplies each vector in an array by this matrix. The translation elements of this matrix (third row) are ignored. Each vector is treated as a row matrix. The multiplication is performed with the row matrix on the left and this matrix on the right.
+The <a href="https://msdn.microsoft.com/library/ms535319(v=VS.85).aspx">Matrix::TransformVectors</a> method multiplies each vector in an array by this matrix. The translation elements of this matrix (third row) are ignored. Each vector is treated as a row matrix. The multiplication is performed with the row matrix on the left and this matrix on the right.
 
 </td>
 </tr>

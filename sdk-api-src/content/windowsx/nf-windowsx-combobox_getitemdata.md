@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the application-defined value associated with the specified list item in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/433b7f75-2831-4919-b931-c17ba651d145">CB_GETITEMDATA</a> message explicitly.
+Gets the application-defined value associated with the specified list item in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775859(v=VS.85).aspx">CB_GETITEMDATA</a> message explicitly.
 
 
 ## -parameters

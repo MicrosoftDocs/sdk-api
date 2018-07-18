@@ -61,9 +61,9 @@ Handles global accelerators so that input objects can respond to the keyboard ev
 
 ### -param pMsg [in]
 
-Type: <b><a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a> structure that contains a keyboard message.
+A pointer to an <a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a> structure that contains a keyboard message.
 
 
 ## -returns

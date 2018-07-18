@@ -57,7 +57,7 @@ Represents the collection of fax accounts on the fax server. It provides methods
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccounts</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxAccounts</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccounts</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxAccounts</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,10 +73,10 @@ The <b>IFaxAccounts</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bdbf117a-6855-4306-9572-5355fdccdfc3">get_Item</a>
+<a href="https://msdn.microsoft.com/library/Aa359020(v=VS.85).aspx">get_Item</a>
 </td>
 <td align="left" width="63%">
-Returns a <a href="https://msdn.microsoft.com/85adc440-3dc8-47ce-aae8-dfb04f824b09">FaxAccount</a> object from a <a href="https://msdn.microsoft.com/bf26e82e-af97-43a1-81be-1bcb61b6cf98">FaxAccounts</a> collection. 
+Returns a <a href="https://msdn.microsoft.com/library/Aa358967(v=VS.85).aspx">FaxAccount</a> object from a <a href="https://msdn.microsoft.com/library/Aa358940(v=VS.85).aspx">FaxAccounts</a> collection. 
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ Holds the enumerator for the <b>IFaxAccounts</b> object.
 
 
 
-A default implementation of <b>IFaxAccounts</b> is provided as the <a href="https://msdn.microsoft.com/bf26e82e-af97-43a1-81be-1bcb61b6cf98">FaxAccounts</a> object. The interface and the object are supported only on Windows Vista or later.
+A default implementation of <b>IFaxAccounts</b> is provided as the <a href="https://msdn.microsoft.com/library/Aa358940(v=VS.85).aspx">FaxAccounts</a> object. The interface and the object are supported only on Windows Vista or later.
 
 
 

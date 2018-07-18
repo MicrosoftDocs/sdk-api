@@ -127,7 +127,7 @@ To read the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd
 
 
 
-<a href="authorization_functions.htm">Low-level Access Control Functions</a>
+<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Low-level Access Control Functions</a>
 
 
 

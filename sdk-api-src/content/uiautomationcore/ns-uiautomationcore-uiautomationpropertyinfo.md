@@ -88,12 +88,12 @@ A custom property must have one of the following data types specified by the <a 
 
 
 <ul>
-<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Bool</a></li>
-<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Double</a></li>
-<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Element</a></li>
-<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Int</a></li>
-<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_Point</a></li>
-<li><a href="uiauto_UIAutomationTypeEnum.htm">UIAutomationType_String</a></li>
+<li><a href="https://msdn.microsoft.com/library/Ee684080(v=VS.85).aspx">UIAutomationType_Bool</a></li>
+<li><a href="https://msdn.microsoft.com/library/Ee684080(v=VS.85).aspx">UIAutomationType_Double</a></li>
+<li><a href="https://msdn.microsoft.com/library/Ee684080(v=VS.85).aspx">UIAutomationType_Element</a></li>
+<li><a href="https://msdn.microsoft.com/library/Ee684080(v=VS.85).aspx">UIAutomationType_Int</a></li>
+<li><a href="https://msdn.microsoft.com/library/Ee684080(v=VS.85).aspx">UIAutomationType_Point</a></li>
+<li><a href="https://msdn.microsoft.com/library/Ee684080(v=VS.85).aspx">UIAutomationType_String</a></li>
 </ul>
 
 

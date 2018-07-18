@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Debug messages for setting up an info-queue filter (see <a href="https://msdn.microsoft.com/78eb4b2c-ec22-4d30-befc-bf253d8768ba">D3D10_INFO_QUEUE_FILTER</a>); use these messages to allow or deny message categories to pass through the storage and retrieval filters. These IDs are used by methods such as <a href="https://msdn.microsoft.com/c7ed2819-d726-4719-b46c-03c001b9b40d">ID3D10InfoQueue::GetMessage</a> or <a href="https://msdn.microsoft.com/d31a0c87-b895-49e2-96e6-1df68db3995b">ID3D10InfoQueue::AddMessage</a>. 
+Debug messages for setting up an info-queue filter (see <a href="https://msdn.microsoft.com/library/Bb205313(v=VS.85).aspx">D3D10_INFO_QUEUE_FILTER</a>); use these messages to allow or deny message categories to pass through the storage and retrieval filters. These IDs are used by methods such as <a href="https://msdn.microsoft.com/library/Bb173790(v=VS.85).aspx">ID3D10InfoQueue::GetMessage</a> or <a href="https://msdn.microsoft.com/library/Bb173781(v=VS.85).aspx">ID3D10InfoQueue::AddMessage</a>. 
 
 
 ## -enum-fields
@@ -1584,7 +1584,7 @@ Debug messages for setting up an info-queue filter (see <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
  
 
  
