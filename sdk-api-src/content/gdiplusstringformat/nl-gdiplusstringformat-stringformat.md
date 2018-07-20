@@ -52,5 +52,5 @@ req.product: GDI+ 1.0
 
 
 The <b>StringFormat</b> class encapsulates text layout information (such as alignment, orientation, tab stops, and clipping) and display manipulations (such as trimming, font substitution for characters that are not supported by the requested font, and digit substitution for languages that do not use Western European digits). A <b>StringFormat</b> object can be passed to the 
-			<a href="https://msdn.microsoft.com/b3568ed9-e359-4916-a83d-7553c021d197">DrawString Methods</a>  method to format a string.
+			<a href="https://msdn.microsoft.com/library/ms535759(v=VS.85).aspx">DrawString Methods</a>  method to format a string.
 

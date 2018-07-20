@@ -178,7 +178,7 @@ The WordBasic move methods like
 The 
 				<i>Extend</i> argument of 
 				<b>MoveLeft</b> and
-				 <a href="https://msdn.microsoft.com/7bf0dfad-5397-4898-a794-2789bc5f0291">MoveRight</a> enables you to be consistent with the first three items above, and the 
+				 <a href="https://msdn.microsoft.com/library/Bb774076(v=VS.85).aspx">MoveRight</a> enables you to be consistent with the first three items above, and the 
 				<i>pDelta</i> is a generalization of the fourth. For example, given a selection consisting of a single range, you have the following correspondences (for left-to-right characters).
 
 <table class="clsStd">
@@ -218,7 +218,7 @@ When
 				<i>Count</i> has the default value of 1 and 
 				<i>Extend</i> has the default value of zero. This example corresponds to pressing the Left Arrow key. 
 				<b>MoveLeft</b> and 
-				<a href="https://msdn.microsoft.com/7bf0dfad-5397-4898-a794-2789bc5f0291">MoveRight</a> are related to the <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a> move methods, but differ in that they explicitly use the active end (the end moved by pressing the Shift key).
+				<a href="https://msdn.microsoft.com/library/Bb774076(v=VS.85).aspx">MoveRight</a> are related to the <a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a> move methods, but differ in that they explicitly use the active end (the end moved by pressing the Shift key).
 
 
 
@@ -232,15 +232,15 @@ When
 
 
 
-<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
+<a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6afce18-4f02-4f1c-a2ee-735465d2e168">ITextSelection</a>
+<a href="https://msdn.microsoft.com/library/Bb774060(v=VS.85).aspx">ITextSelection</a>
 
 
 
-<a href="https://msdn.microsoft.com/7bf0dfad-5397-4898-a794-2789bc5f0291">MoveRight</a>
+<a href="https://msdn.microsoft.com/library/Bb774076(v=VS.85).aspx">MoveRight</a>
 
 
 
@@ -248,7 +248,7 @@ When
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

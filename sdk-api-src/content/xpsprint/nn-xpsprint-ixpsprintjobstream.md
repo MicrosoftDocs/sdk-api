@@ -58,7 +58,7 @@ A write-only stream interface into which an application writes print job data.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsPrintJobStream</b> interface inherits from <a href="_stg_isequentialstream">ISequentialStream</a>. <b>IXpsPrintJobStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsPrintJobStream</b> interface inherits from <a href="https://msdn.microsoft.com/library/Aa380010(v=VS.85).aspx">ISequentialStream</a>. <b>IXpsPrintJobStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -101,7 +101,7 @@ Closes the stream and indicates that the entire document has been written.
 
 
 
-<a href="_stg_isequentialstream">ISequentialStream</a>
+<a href="https://msdn.microsoft.com/library/Aa380010(v=VS.85).aspx">ISequentialStream</a>
 
 
 

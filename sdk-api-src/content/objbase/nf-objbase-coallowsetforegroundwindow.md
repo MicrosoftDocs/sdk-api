@@ -56,7 +56,7 @@ req.product: ADAM
 ## -description
 
 
-This function passes the foreground privilege (the privilege to set the foreground window) from one process to another. The process that has the foreground privilege can call this function to pass that privilege on to a local COM server process. Note that calling <b>CoAllowSetForegroundWindow</b> only confers the privilege; it does not set the foreground window itself. Foreground and focus are only taken away from the client application when the target COM server calls either <a href="_win32_SetForegroundWindow_cpp">SetForegroundWindow</a> or another API that does so indirectly.
+This function passes the foreground privilege (the privilege to set the foreground window) from one process to another. The process that has the foreground privilege can call this function to pass that privilege on to a local COM server process. Note that calling <b>CoAllowSetForegroundWindow</b> only confers the privilege; it does not set the foreground window itself. Foreground and focus are only taken away from the client application when the target COM server calls either <a href="https://msdn.microsoft.com/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a> or another API that does so indirectly.
 
 
 ## -parameters
@@ -141,8 +141,8 @@ The calling process does not currently possess the foreground privilege.
 
 
 The system restricts which processes can call the 
-    <a href="_win32_SetForegroundWindow_cpp">SetForegroundWindow</a> and 
-    <a href="_win32_AllowSetForegroundWindow_cpp">AllowSetForegroundWindow</a> functions to 
+    <a href="https://msdn.microsoft.com/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a> and 
+    <a href="https://msdn.microsoft.com/library/ms632668(v=VS.85).aspx">AllowSetForegroundWindow</a> functions to 
     set the foreground window. As a result, an application is blocked from stealing the focus from another application 
     even when the user is interacting with it. Use <b>CoAllowSetForegroundWindow</b> to pass on the foreground privilege from a process that has it to a process that does not yet have it. This can be done transitively: passing the privilege from one process to another, and then to another, and so on.
 
@@ -155,7 +155,7 @@ Behind the scenes, the <a href="https://msdn.microsoft.com/21857592-0f98-4eb4-a1
 
 #### Examples
 
-The following example demonstrates how a client process can create a local COM server, call <b>CoAllowSetForegroundWindow</b> to transfer the foreground privilege, and then call a function on  the COM server that in turn directly or indirectly calls <a href="_win32_SetForegroundWindow_cpp">SetForegroundWindow</a>.
+The following example demonstrates how a client process can create a local COM server, call <b>CoAllowSetForegroundWindow</b> to transfer the foreground privilege, and then call a function on  the COM server that in turn directly or indirectly calls <a href="https://msdn.microsoft.com/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

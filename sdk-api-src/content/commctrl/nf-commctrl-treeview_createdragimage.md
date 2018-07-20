@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Creates a dragging bitmap for the specified item in a tree-view control. The macro also creates an image list for the bitmap and adds the bitmap to the image list. An application can display the image when dragging the item by using the image list functions. You can use this macro or send the <a href="https://msdn.microsoft.com/fbe97921-c9d3-473c-933c-d6bc0599e24d">TVM_CREATEDRAGIMAGE</a> message explicitly. 
+Creates a dragging bitmap for the specified item in a tree-view control. The macro also creates an image list for the bitmap and adds the bitmap to the image list. An application can display the image when dragging the item by using the image list functions. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773558(v=VS.85).aspx">TVM_CREATEDRAGIMAGE</a> message explicitly. 
 
 
 ## -parameters

@@ -105,7 +105,7 @@ A pointer to the Direct3D device interface. If this parameter is <b>NULL</b>, <b
 
 
 
-Returns one of the error codes described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.
+Returns one of the error codes described in the <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.
 
 
 

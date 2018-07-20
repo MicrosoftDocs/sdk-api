@@ -140,7 +140,7 @@ Use the <a href="https://msdn.microsoft.com/e37ebff7-b44e-469d-81ab-7a6bd1a0c822
 
 </li>
 <li>
-In the thread to which the message will be posted, call <a href="https://msdn.microsoft.com/b9f5baa4-8166-4d6e-b416-df023aed9bad">PeekMessage</a> as shown here to force the system to create the message queue.
+In the thread to which the message will be posted, call <a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a> as shown here to force the system to create the message queue.
 
 <code>PeekMessage(&amp;msg, NULL, WM_USER, WM_USER, PM_NOREMOVE)</code>
 
@@ -150,11 +150,11 @@ Set the event, to indicate that the thread is ready to receive posted messages.
 
 </li>
 </ul>
-The thread to which the message is posted retrieves the message by calling the <a href="https://msdn.microsoft.com/e92266a7-86ac-43f4-b0eb-762e145a1017">GetMessage</a> or <a href="https://msdn.microsoft.com/b9f5baa4-8166-4d6e-b416-df023aed9bad">PeekMessage</a> function. The <b>hwnd</b> member of the returned <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a> structure is <b>NULL</b>.
+The thread to which the message is posted retrieves the message by calling the <a href="https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx">GetMessage</a> or <a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a> function. The <b>hwnd</b> member of the returned <a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a> structure is <b>NULL</b>.
 
-Messages sent by <b>PostThreadMessage</b> are not associated with a window. As a general rule, messages that are not associated with a window cannot be dispatched by the <a href="https://msdn.microsoft.com/6d5e2d1d-dcd2-48ce-a8ba-99bd5dbdfb21">DispatchMessage</a> function. Therefore, if the recipient thread is in a modal loop (as used by <a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a> or <a href="https://msdn.microsoft.com/0b28b084-e519-4114-9950-0aebf089b0c8">DialogBox</a>), the messages will be lost. To intercept thread messages while in a modal loop, use a thread-specific hook.
+Messages sent by <b>PostThreadMessage</b> are not associated with a window. As a general rule, messages that are not associated with a window cannot be dispatched by the <a href="https://msdn.microsoft.com/library/ms644934(v=VS.85).aspx">DispatchMessage</a> function. Therefore, if the recipient thread is in a modal loop (as used by <a href="https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx">MessageBox</a> or <a href="https://msdn.microsoft.com/library/ms645452(v=VS.85).aspx">DialogBox</a>), the messages will be lost. To intercept thread messages while in a modal loop, use a thread-specific hook.
 
-The system only does marshalling for system messages (those in the range 0 to (<a href="https://msdn.microsoft.com/4115c587-fcb4-4170-9948-fe33bcb8742a">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
+The system only does marshalling for system messages (those in the range 0 to (<a href="https://msdn.microsoft.com/library/ms644931(v=VS.85).aspx">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
 
  There is a limit of 10,000 posted messages per message queue. This limit should be sufficiently large. If your application exceeds the limit, it should be redesigned to avoid consuming so many system resources. To adjust this limit, modify the following registry key.
 
@@ -187,19 +187,19 @@ The minimum acceptable value is 4000.
 
 
 
-<a href="https://msdn.microsoft.com/e92266a7-86ac-43f4-b0eb-762e145a1017">GetMessage</a>
+<a href="https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx">GetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee257a43-e348-44a5-945b-d04412266b39">GetWindowThreadProcessId</a>
+<a href="https://msdn.microsoft.com/library/ms633522(v=VS.85).aspx">GetWindowThreadProcessId</a>
 
 
 
-<a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a>
+<a href="https://msdn.microsoft.com/library/ms644958(v=VS.85).aspx">MSG</a>
 
 
 
-<a href="https://msdn.microsoft.com/885bb607-3ec0-4e24-9f55-fbdfb1c538a1">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
 
 
 
@@ -207,11 +207,11 @@ The minimum acceptable value is 4000.
 
 
 
-<a href="https://msdn.microsoft.com/b9f5baa4-8166-4d6e-b416-df023aed9bad">PeekMessage</a>
+<a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/5357de37-1e44-4e4a-bdae-b5a386032dd4">PostMessage</a>
+<a href="https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx">PostMessage</a>
 
 
 

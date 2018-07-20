@@ -99,15 +99,15 @@ The job's sender information can be retrieved.
 
 
 
-<a href="https://msdn.microsoft.com/04149d5c-e26f-4cef-9ae0-eba2a199ec51">AvailableOperations</a>
+<a href="https://msdn.microsoft.com/library/ms684593(v=VS.85).aspx">AvailableOperations</a>
 
 
 
-<a href="https://msdn.microsoft.com/113087c6-90dc-4bbc-ace6-b020d9949350">IFaxJobStatus::get_AvailableOperations</a>
+<a href="https://msdn.microsoft.com/library/ms684920(v=VS.85).aspx">IFaxJobStatus::get_AvailableOperations</a>
 
 
 
-<a href="https://msdn.microsoft.com/4d97ef95-77d0-4616-afcd-7adbc26ff3c5">IFaxOutgoingJob::get_AvailableOperations</a>
+<a href="https://msdn.microsoft.com/library/ms690257(v=VS.85).aspx">IFaxOutgoingJob::get_AvailableOperations</a>
  
 
  

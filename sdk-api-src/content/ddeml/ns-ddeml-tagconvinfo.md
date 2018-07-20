@@ -76,7 +76,7 @@ Application-defined data.
 
 Type: <b>HCONV</b>
 
-A handle to the partner application in the DDE conversation. This member is zero if the partner has not registered itself (using the <a href="https://msdn.microsoft.com/ea679d2b-8c03-4706-b6a8-37a99c6d61d1">DdeInitialize</a> function) to make DDEML function calls. An application should not pass this member to any DDEML function except <a href="https://msdn.microsoft.com/bf8faeef-9a06-4460-9dcc-6e74b9b0e72e">DdeQueryConvInfo</a>. 
+A handle to the partner application in the DDE conversation. This member is zero if the partner has not registered itself (using the <a href="https://msdn.microsoft.com/library/ms648757(v=VS.85).aspx">DdeInitialize</a> function) to make DDEML function calls. An application should not pass this member to any DDEML function except <a href="https://msdn.microsoft.com/library/ms648761(v=VS.85).aspx">DdeQueryConvInfo</a>. 
 
 
 ### -field hszSvcPartner
@@ -143,7 +143,7 @@ Informs a client that advise data from a server has arrived.
 </dl>
 </td>
 <td width="60%">
-Requests a server to send updated data to the client during an advise loop. This transaction results when the server calls <a href="https://msdn.microsoft.com/0dc9a867-16e5-4597-87c0-6a9e6dd164ef">DdePostAdvise</a>.
+Requests a server to send updated data to the client during an advise loop. This transaction results when the server calls <a href="https://msdn.microsoft.com/library/ms648760(v=VS.85).aspx">DdePostAdvise</a>.
 
 </td>
 </tr>
@@ -345,7 +345,7 @@ The conversation will block after calling the next callback.
 </dl>
 </td>
 <td width="60%">
-The con0x0010versation handle passed to the <a href="https://msdn.microsoft.com/bf8faeef-9a06-4460-9dcc-6e74b9b0e72e">DdeQueryConvInfo</a> function is a client-side handle. If the handle is zero, the conversation handle passed to the <b>DdeQueryConvInfo</b> function is a server-side handle.
+The con0x0010versation handle passed to the <a href="https://msdn.microsoft.com/library/ms648761(v=VS.85).aspx">DdeQueryConvInfo</a> function is a client-side handle. If the handle is zero, the conversation handle passed to the <b>DdeQueryConvInfo</b> function is a server-side handle.
 
 </td>
 </tr>
@@ -626,7 +626,7 @@ A handle to the conversation list if the handle to the current conversation is i
 
 ### -field ConvCtxt
 
-Type: <b><a href="https://msdn.microsoft.com/0082c16a-5411-4ed2-a278-cc0f5b136133">CONVCONTEXT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms648730(v=VS.85).aspx">CONVCONTEXT</a></b>
 
 The conversation context. 
 
@@ -650,7 +650,7 @@ A handle to the window of the calling application involved in the conversation.
 
 
 
-<a href="https://msdn.microsoft.com/0082c16a-5411-4ed2-a278-cc0f5b136133">CONVCONTEXT</a>
+<a href="https://msdn.microsoft.com/library/ms648730(v=VS.85).aspx">CONVCONTEXT</a>
 
 
 
@@ -658,19 +658,19 @@ A handle to the window of the calling application involved in the conversation.
 
 
 
-<a href="https://msdn.microsoft.com/ea679d2b-8c03-4706-b6a8-37a99c6d61d1">DdeInitialize</a>
+<a href="https://msdn.microsoft.com/library/ms648757(v=VS.85).aspx">DdeInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/0dc9a867-16e5-4597-87c0-6a9e6dd164ef">DdePostAdvise</a>
+<a href="https://msdn.microsoft.com/library/ms648760(v=VS.85).aspx">DdePostAdvise</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf8faeef-9a06-4460-9dcc-6e74b9b0e72e">DdeQueryConvInfo</a>
+<a href="https://msdn.microsoft.com/library/ms648761(v=VS.85).aspx">DdeQueryConvInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/f22d4a10-58b9-4f62-bbc3-3cbeb3246923">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
 
 
 

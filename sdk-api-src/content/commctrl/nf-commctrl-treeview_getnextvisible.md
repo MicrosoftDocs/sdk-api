@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the next visible item that follows a specified item in a tree-view control. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/505c713c-7728-4119-bc0e-482fe7e73193">TVM_GETNEXTITEM</a> message with the TVGN_NEXTVISIBLE flag. 
+Retrieves the next visible item that follows a specified item in a tree-view control. You can use this macro, or you can explicitly send the <a href="https://msdn.microsoft.com/library/Bb773622(v=VS.85).aspx">TVM_GETNEXTITEM</a> message with the TVGN_NEXTVISIBLE flag. 
 
 
 ## -parameters
@@ -67,7 +67,7 @@ TBD
 
 Type: <b>HTREEITEM</b>
 
-Handle to an item. The specified item must be visible. Use the <a href="https://msdn.microsoft.com/f2d7d7b1-cfe7-4361-bd90-e3e99dbcd99c">TVM_GETITEMRECT</a> message to determine whether an item is visible. 
+Handle to an item. The specified item must be visible. Use the <a href="https://msdn.microsoft.com/library/Bb773610(v=VS.85).aspx">TVM_GETITEMRECT</a> message to determine whether an item is visible. 
 
 
 #### - hwndTV
@@ -86,15 +86,15 @@ Handle to the tree-view control.
 
 
 
-<a href="https://msdn.microsoft.com/9da74062-e029-4c73-821f-829a0964afba">TreeView_GetFirstVisible</a>
+<a href="https://msdn.microsoft.com/library/Bb773827(v=VS.85).aspx">TreeView_GetFirstVisible</a>
 
 
 
-<a href="https://msdn.microsoft.com/987d0d0f-eecf-4a6a-9340-64dd6ce1ac80">TreeView_GetNextItem</a>
+<a href="https://msdn.microsoft.com/library/Bb773861(v=VS.85).aspx">TreeView_GetNextItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/b9a4ad11-bd4a-48c6-9dbb-a92a3e410dc3">TreeView_GetPrevVisible</a>
+<a href="https://msdn.microsoft.com/library/Bb773878(v=VS.85).aspx">TreeView_GetPrevVisible</a>
  
 
  

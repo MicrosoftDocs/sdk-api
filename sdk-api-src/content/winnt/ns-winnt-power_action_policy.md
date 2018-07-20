@@ -62,7 +62,7 @@ Contains information used to set the system power state.
 ### -field Action
 
 The requested system power state. This member must be one of the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff560459">POWER_ACTION</a> enumeration type values.
+      <a href="https://msdn.microsoft.com/library/Aa373145(v=VS.85).aspx">POWER_ACTION</a> enumeration type values.
 
 
 ### -field Flags

@@ -78,7 +78,7 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt1314
 
 
 You can display a cached bitmap by passing the address of a <b>CachedBitmap::CachedBitmap</b> object to the 
-				<a href="https://msdn.microsoft.com/9b7a2015-7d10-4b7a-88f4-c3b4d92c888d">DrawCachedBitmap</a> method of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object. Use the <b>Graphics</b> object that was passed to the <b>CachedBitmap::CachedBitmap</b> constructor or another <b>Graphics</b> object that represents the same device.
+				<a href="https://msdn.microsoft.com/library/ms535681(v=VS.85).aspx">DrawCachedBitmap</a> method of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object. Use the <b>Graphics</b> object that was passed to the <b>CachedBitmap::CachedBitmap</b> constructor or another <b>Graphics</b> object that represents the same device.
 
 
 #### Examples
@@ -86,7 +86,7 @@ You can display a cached bitmap by passing the address of a <b>CachedBitmap::Cac
 
 
 The following example creates a <b>CachedBitmap::CachedBitmap</b> object based on a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545216">Bitmap</a> object and a <a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> object. The code calls the 
-						<a href="https://msdn.microsoft.com/9b7a2015-7d10-4b7a-88f4-c3b4d92c888d">DrawCachedBitmap</a> method of that <b>Graphics</b> object to display the cached bitmap.
+						<a href="https://msdn.microsoft.com/library/ms535681(v=VS.85).aspx">DrawCachedBitmap</a> method of that <b>Graphics</b> object to display the cached bitmap.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -117,7 +117,7 @@ The following example creates a <b>CachedBitmap::CachedBitmap</b> object based o
 
 
 
-<a href="https://msdn.microsoft.com/298880a5-cc6a-4b1a-9459-7cf6c2252328">CachedBitmap</a>
+<a href="https://msdn.microsoft.com/library/ms534425(v=VS.85).aspx">CachedBitmap</a>
 
 
 
@@ -125,11 +125,11 @@ The following example creates a <b>CachedBitmap::CachedBitmap</b> object based o
 
 
 
-<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
+<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/42e2b664-197c-4c54-9220-b6231d6439d0">Using a Cached Bitmap to Improve Performance</a>
+<a href="https://msdn.microsoft.com/library/ms533835(v=VS.85).aspx">Using a Cached Bitmap to Improve Performance</a>
  
 
  

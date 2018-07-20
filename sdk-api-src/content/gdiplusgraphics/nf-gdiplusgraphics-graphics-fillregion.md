@@ -61,7 +61,7 @@ The <b>Graphics::FillRegion</b> method uses a brush to fill a specified region.
 
 ### -param brush [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/library/ms534424(v=VS.85).aspx">Brush</a>*</b>
 
 Pointer to a brush that is used to paint the region. 
 
@@ -140,7 +140,7 @@ The following example creates a region from a rectangle and then fills the regio
 
 
 
-<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a>
+<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a>
 
 
 

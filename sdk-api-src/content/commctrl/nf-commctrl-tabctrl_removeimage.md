@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Removes an image from a tab control's image list. You can use this macro or send the <a href="https://msdn.microsoft.com/f2761338-0afa-47d8-9d9c-1d5a4a7f7bcf">TCM_REMOVEIMAGE</a> message explicitly. 
+Removes an image from a tab control's image list. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760608(v=VS.85).aspx">TCM_REMOVEIMAGE</a> message explicitly. 
 
 
 ## -parameters

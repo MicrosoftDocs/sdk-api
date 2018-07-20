@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>IWiaItem::EnumChildItems</b> method creates an enumerator object and passes back a pointer to its <a href="https://msdn.microsoft.com/25eab463-a531-4cb7-b8b7-6b1c8d060ee8">IEnumWiaItem</a> interface for non-empty folders in a <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> tree of a Windows Image Acquisition (WIA) device.
+The <b>IWiaItem::EnumChildItems</b> method creates an enumerator object and passes back a pointer to its <a href="https://msdn.microsoft.com/library/ms630176(v=VS.85).aspx">IEnumWiaItem</a> interface for non-empty folders in a <a href="https://msdn.microsoft.com/library/ms630113(v=VS.85).aspx">IWiaItem</a> tree of a Windows Image Acquisition (WIA) device.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ The <b>IWiaItem::EnumChildItems</b> method creates an enumerator object and pass
 
 ### -param ppIEnumWiaItem [out]
 
-Type: <b><a href="https://msdn.microsoft.com/25eab463-a531-4cb7-b8b7-6b1c8d060ee8">IEnumWiaItem</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms630176(v=VS.85).aspx">IEnumWiaItem</a>**</b>
 
-Receives the address of a pointer to the <a href="https://msdn.microsoft.com/25eab463-a531-4cb7-b8b7-6b1c8d060ee8">IEnumWiaItem</a> interface that <b>IWiaItem::EnumChildItems</b> creates.
+Receives the address of a pointer to the <a href="https://msdn.microsoft.com/library/ms630176(v=VS.85).aspx">IEnumWiaItem</a> interface that <b>IWiaItem::EnumChildItems</b> creates.
 
 
 ## -returns
@@ -81,9 +81,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The WIA run-time system represents each WIA hardware device as a hierarchical tree of <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> objects. The <b>IWiaItem::EnumChildItems</b> method enables applications to enumerate child items in the current item. However, it can only be applied to items that are folders. 
+The WIA run-time system represents each WIA hardware device as a hierarchical tree of <a href="https://msdn.microsoft.com/library/ms630113(v=VS.85).aspx">IWiaItem</a> objects. The <b>IWiaItem::EnumChildItems</b> method enables applications to enumerate child items in the current item. However, it can only be applied to items that are folders. 
 
-If the folder is not empty, it contains a subtree of <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> objects. The <b>IWiaItem::EnumChildItems</b> method enumerates all of the items contained in the folder. It stores a pointer to an enumerator in the <i>ppIEnumWiaItem</i> parameter. Applications use the enumerator pointer to perform the enumeration of an object's child items.
+If the folder is not empty, it contains a subtree of <a href="https://msdn.microsoft.com/library/ms630113(v=VS.85).aspx">IWiaItem</a> objects. The <b>IWiaItem::EnumChildItems</b> method enumerates all of the items contained in the folder. It stores a pointer to an enumerator in the <i>ppIEnumWiaItem</i> parameter. Applications use the enumerator pointer to perform the enumeration of an object's child items.
 
 Applications must call the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIEnumWiaItem</i> parameter.
 

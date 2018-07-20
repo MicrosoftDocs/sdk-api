@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Determines which portion of a month calendar control is at a given point on the screen. You can use this macro or send the <a href="https://msdn.microsoft.com/51e74b07-4ed7-488d-ad5d-116f046577fc">MCM_HITTEST</a> message explicitly. 
+Determines which portion of a month calendar control is at a given point on the screen. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760991(v=VS.85).aspx">MCM_HITTEST</a> message explicitly. 
 
 
 ## -parameters
@@ -83,5 +83,5 @@ Handle to a month calendar control.
 
 Type: <b>PMCHITTESTINFO</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/82597f85-25c9-416a-b9b9-fee84f7480d7">MCHITTESTINFO</a> structure. Upon calling the macro, the <b>cbSize</b> member must be set to the size of the <b>MCHITTESTINFO</b> structure, and <b>pt</b> must be set to the point you want to hit test. 
+Pointer to an <a href="https://msdn.microsoft.com/library/Bb760927(v=VS.85).aspx">MCHITTESTINFO</a> structure. Upon calling the macro, the <b>cbSize</b> member must be set to the size of the <b>MCHITTESTINFO</b> structure, and <b>pt</b> must be set to the point you want to hit test. 
 

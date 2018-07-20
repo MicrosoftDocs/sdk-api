@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>ColorLUT::GetParameters</b> method gets the current values of the parameters of this <a href="https://msdn.microsoft.com/d13dc185-e6f2-4a0f-b972-e9b6ce0859c6">ColorLUT</a> object.
+The <b>ColorLUT::GetParameters</b> method gets the current values of the parameters of this <a href="https://msdn.microsoft.com/library/ms534430(v=VS.85).aspx">ColorLUT</a> object.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>ColorLUT::GetParameters</b> method gets the current values of the paramet
 
 Type: <b>UINT*</b>
 
-Pointer to a <b>UINT</b> that specifies the size, in bytes, of a <a href="https://msdn.microsoft.com/6ae866ac-6335-428a-bb11-ec793b69c2b7">ColorLUTParams</a> structure.
+Pointer to a <b>UINT</b> that specifies the size, in bytes, of a <a href="https://msdn.microsoft.com/library/ms534061(v=VS.85).aspx">ColorLUTParams</a> structure.
 
 
 ### -param lut
@@ -75,9 +75,9 @@ Pointer to a <b>UINT</b> that specifies the size, in bytes, of a <a href="https:
 
 #### - parameters [out]
 
-Type: <b><a href="https://msdn.microsoft.com/6ae866ac-6335-428a-bb11-ec793b69c2b7">ColorLUTParams</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms534061(v=VS.85).aspx">ColorLUTParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/6ae866ac-6335-428a-bb11-ec793b69c2b7">ColorLUTParams</a> structure that receives the parameter values.
+Pointer to a <a href="https://msdn.microsoft.com/library/ms534061(v=VS.85).aspx">ColorLUTParams</a> structure that receives the parameter values.
 
 
 ## -returns
@@ -94,11 +94,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/d13dc185-e6f2-4a0f-b972-e9b6ce0859c6">ColorLUT</a>
+<a href="https://msdn.microsoft.com/library/ms534430(v=VS.85).aspx">ColorLUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/94f35947-7e62-4f47-b21a-ed3939a4f36f">ColorLUT::SetParameters</a>
+<a href="https://msdn.microsoft.com/library/ms536237(v=VS.85).aspx">ColorLUT::SetParameters</a>
  
 
  

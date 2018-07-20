@@ -156,7 +156,7 @@ A NSPv2 provider is required to implement the following functions:<ul>
 </li>
 </ul>All other functions are optional, dependent on the requirements of the NSPv2 provider. 
 
- If a function isn't implemented, then calls to that function should be intercepted by a stub function that returns <a href="windows_sockets_error_codes_2.htm">WSAEOPNOTSUPP</a>.  The NSPv2 function pointer to the unimplemented function in the <b>NSPV2_ROUTINE</b> structure should point be to the stub function. 
+ If a function isn't implemented, then calls to that function should be intercepted by a stub function that returns <a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a>.  The NSPv2 function pointer to the unimplemented function in the <b>NSPV2_ROUTINE</b> structure should point be to the stub function. 
 
 In general, NSPv2 providers are implemented in processes other than the calling applications. NSPv2 providers are not activated as a result of client activity. Each provider hosting application decides when to make a specific provider available or unavailable by calling the <a href="https://msdn.microsoft.com/574ebfa4-d7f2-43c2-b1ec-35ce3db9151f">WSAAdvertiseProvider</a> and <a href="https://msdn.microsoft.com/5975b496-53a7-4f8a-8efc-27ef447596c2">WSAUnadvertiseProvider</a> functions. The client activity only results in attempts to contact the provider, when available (when the namespace provider is advertised).
 

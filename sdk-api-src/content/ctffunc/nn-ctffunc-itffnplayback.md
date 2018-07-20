@@ -109,7 +109,7 @@ Obtains the range of text for a word or phrase that contains audio data.
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  
