@@ -4,10 +4,10 @@ title: ISearchResult
 author: windows-sdk-content
 description: Represents the result of a search.
 old-location: wua\isearchresult.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: f38c5b0f-8010-4db1-802c-5005c332188b
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: ISearchResult, ISearchResult interface [Windows Update Agent], ISearchResult interface [Windows Update Agent],described, wua.isearchresult, wuapi/ISearchResult
 ms.prod: windows
 ms.technology: windows-sdk

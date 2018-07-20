@@ -7,7 +7,7 @@ old-location: tablet\inkedit_recognize.htm
 old-project: tablet
 ms.assetid: e22043da-6c38-49e2-9651-43211ce7f377
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IInkEdit interface [Tablet PC],Recognize method, IInkEdit.Recognize, IInkEdit::Recognize, Recognize, Recognize method [Tablet PC], Recognize method [Tablet PC],IInkEdit interface, e22043da-6c38-49e2-9651-43211ce7f377, inked/IInkEdit::Recognize, tablet.inkedit_recognize
 ms.prod: windows
 ms.technology: windows-sdk

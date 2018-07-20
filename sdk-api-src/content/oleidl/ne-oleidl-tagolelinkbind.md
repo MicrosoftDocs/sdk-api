@@ -7,7 +7,7 @@ old-location: com\olelinkbind.htm
 old-project: com
 ms.assetid: a5b8bb64-002f-4c85-b6bb-61b2fba88c0f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: OLELINKBIND, OLELINKBIND enumeration [COM], OLELINKBIND_EVENIFCLASSDIFF, _ole_OLELINKBIND, com.olelinkbind, oleidl/OLELINKBIND, oleidl/OLELINKBIND_EVENIFCLASSDIFF, tagOLELINKBIND
 ms.prod: windows
 ms.technology: windows-sdk

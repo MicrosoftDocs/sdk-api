@@ -7,7 +7,7 @@ old-location: shell\UrlEscapeSpaces.htm
 old-project: shell
 ms.assetid: d6d676f1-0ef3-4701-99b2-ca520b39ce6e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: UrlEscapeSpaces, UrlEscapeSpaces function [Windows Shell], _win32_UrlEscapeSpaces, shell.UrlEscapeSpaces, shlwapi/UrlEscapeSpaces
 ms.prod: windows
 ms.technology: windows-sdk

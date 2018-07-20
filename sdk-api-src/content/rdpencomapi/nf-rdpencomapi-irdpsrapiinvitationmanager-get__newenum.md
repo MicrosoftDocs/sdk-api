@@ -4,10 +4,10 @@ title: IRDPSRAPIInvitationManager::get__NewEnum
 author: windows-sdk-content
 description: An enumerator interface for the invitation collection.
 old-location: rdp\irdpsrapiinvitationmanager__newenum.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: e1959226-04a0-4eae-9abb-b82cdd545975
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IRDPSRAPIInvitationManager interface [RDP],_NewEnum property, IRDPSRAPIInvitationManager._NewEnum, IRDPSRAPIInvitationManager.get__NewEnum, IRDPSRAPIInvitationManager::_NewEnum, IRDPSRAPIInvitationManager::get__NewEnum, RDPSRAPIInvitationManager object [RDP],_NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP],IRDPSRAPIInvitationManager interface, _NewEnum property [RDP],RDPSRAPIInvitationManager object, get__NewEnum, rdp.irdpsrapiinvitationmanager__newenum, rdpencomapi/IRDPSRAPIInvitationManager::_NewEnum, rdpencomapi/IRDPSRAPIInvitationManager::get__NewEnum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

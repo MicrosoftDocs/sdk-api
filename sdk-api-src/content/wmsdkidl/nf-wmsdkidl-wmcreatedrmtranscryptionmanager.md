@@ -7,7 +7,7 @@ old-location: wmformat\wmcreatedrmtranscryptionmanager.htm
 old-project: wmformat
 ms.assetid: 15bae3af-e601-4865-aee2-a36931c7813d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: WMCreateDRMTranscryptionManager, WMCreateDRMTranscryptionManager function [windows Media Format], wmformat.wmcreatedrmtranscryptionmanager, wmsdkidl/WMCreateDRMTranscryptionManager
 ms.prod: windows
 ms.technology: windows-sdk

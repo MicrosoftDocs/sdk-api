@@ -7,7 +7,7 @@ old-location: dshow\iasyncreader_length.htm
 old-project: DirectShow
 ms.assetid: 4e583ade-92a9-4853-96fb-c46cd24dd7ac
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IAsyncReader interface [DirectShow],Length method, IAsyncReader.Length, IAsyncReader::Length, IAsyncReaderLength, Length, Length method [DirectShow], Length method [DirectShow],IAsyncReader interface, dshow.iasyncreader_length, strmif/IAsyncReader::Length
 ms.prod: windows
 ms.technology: windows-sdk

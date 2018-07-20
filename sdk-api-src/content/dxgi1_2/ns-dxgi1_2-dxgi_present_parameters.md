@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_present_parameters.htm
 old-project: direct3ddxgi
 ms.assetid: C2C69457-5415-4CAA-901B-A3A8591C6CB0
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: DXGI_PRESENT_PARAMETERS, DXGI_PRESENT_PARAMETERS structure [DXGI], direct3ddxgi.dxgi_present_parameters, dxgi1_2/DXGI_PRESENT_PARAMETERS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: struct
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -92,8 +92,7 @@ The scroll rectangle and the list of dirty rectangles could overlap.  In this si
 The following diagram and coordinates illustrate this example.
 
 <img alt="Illustration of scroll and dirty rectangles overlapping" border="" src="./images/DXGIPresentParam.png"/>
-<pre class="syntax" xml:space="preserve"><code>
-DirtyRectsCount = 2
+<pre class="syntax" xml:space="preserve"><code>DirtyRectsCount = 2
 pDirtyRects[ 0 ] = { 10, 30, 40, 50 } // Video
 pDirtyRects[ 1 ] = { 0, 70, 50, 80 } // New line
 *pScrollRect = { 0, 0, 50, 70 }

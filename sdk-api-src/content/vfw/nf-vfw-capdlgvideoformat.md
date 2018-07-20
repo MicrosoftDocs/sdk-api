@@ -7,7 +7,7 @@ old-location: multimedia\capdlgvideoformat.htm
 old-project: Multimedia
 ms.assetid: 542913e8-c3f4-4ea5-afa0-035af6f3126e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/17/2018
 ms.keywords: "_win32_capDlgVideoFormat, capDlgVideoFormat, capDlgVideoFormat macro [Windows Multimedia], multimedia.capdlgvideoformat, vfw/capDlgVideoFormat"
 ms.prod: windows
 ms.technology: windows-sdk

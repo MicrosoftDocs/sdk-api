@@ -68,3 +68,8 @@ No flags.
 
 Comparison of string properties is not case-sensitive.
 
+
+### -field PropertyConditionFlags_MatchSubstring
+
+
+

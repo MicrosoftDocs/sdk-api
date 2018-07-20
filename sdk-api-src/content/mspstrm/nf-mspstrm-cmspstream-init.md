@@ -7,7 +7,7 @@ old-location: tapi3\cmspstream_init.htm
 old-project: tapi
 ms.assetid: 8e522987-ac94-4597-8491-4c66b15aa262
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: CMSPStream interface [TAPI 2.2],Init method, CMSPStream.Init, CMSPStream::Init, Init, Init method [TAPI 2.2], Init method [TAPI 2.2],CMSPStream interface, _tapi3_cmspstream_init, mspstrm/CMSPStream::Init, tapi3.cmspstream_init
 ms.prod: windows
 ms.technology: windows-sdk

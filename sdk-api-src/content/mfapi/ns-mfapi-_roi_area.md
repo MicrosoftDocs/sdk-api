@@ -7,7 +7,7 @@ old-location: mf\roi_area.htm
 old-project: medfound
 ms.assetid: E808CAC4-97FE-4D03-B9FF-200D1DE12D47
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: "*PROI_AREA, PROI_AREA, PROI_AREA structure pointer [Media Foundation], ROI_AREA, ROI_AREA structure [Media Foundation], _ROI_AREA, mf.roi_area, mfapi/PROI_AREA, mfapi/ROI_AREA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: struct
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

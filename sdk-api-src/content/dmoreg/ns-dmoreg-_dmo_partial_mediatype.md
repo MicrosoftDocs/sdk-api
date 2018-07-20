@@ -7,7 +7,7 @@ old-location: dshow\dmo_partial_mediatype.htm
 old-project: DirectShow
 ms.assetid: 53bf4c34-d180-4edd-b59a-55d7d90708b5
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*PDMO_PARTIAL_MEDIATYPE, DMO_PARTIAL_MEDIATYPE, DMO_PARTIAL_MEDIATYPE structure [DirectShow], DMO_PARTIAL_MEDIATYPEStructure, PDMO_PARTIAL_MEDIATYPE, PDMO_PARTIAL_MEDIATYPE structure pointer [DirectShow], _DMO_PARTIAL_MEDIATYPE, dmoreg/DMO_PARTIAL_MEDIATYPE, dmoreg/PDMO_PARTIAL_MEDIATYPE, dshow.dmo_partial_mediatype"
 ms.prod: windows
 ms.technology: windows-sdk

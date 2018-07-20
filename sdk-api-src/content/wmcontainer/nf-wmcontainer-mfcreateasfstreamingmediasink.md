@@ -7,7 +7,7 @@ old-location: mf\mfcreateasfstreamingmediasink.htm
 old-project: medfound
 ms.assetid: bfa34529-e1f9-462b-9c99-b65cd526d364
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: MFCreateASFStreamingMediaSink, MFCreateASFStreamingMediaSink function [Media Foundation], mf.mfcreateasfstreamingmediasink, wmcontainer/MFCreateASFStreamingMediaSink
 ms.prod: windows
 ms.technology: windows-sdk

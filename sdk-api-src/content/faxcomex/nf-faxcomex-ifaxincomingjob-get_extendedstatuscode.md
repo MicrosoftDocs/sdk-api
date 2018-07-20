@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingjob_extendedstatuscode.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_40v9.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: ExtendedStatusCode property [Fax Service], ExtendedStatusCode property [Fax Service],FaxIncomingJob object, FaxIncomingJob object [Fax Service],ExtendedStatusCode property, FaxIncomingJob.ExtendedStatusCode, IFaxIncomingJob.get_ExtendedStatusCode, IFaxIncomingJob::get_ExtendedStatusCode, _mfax_faxincomingjob.extendedstatuscode, fax._mfax_faxincomingjob_extendedstatuscode, get_ExtendedStatusCode
 ms.prod: windows
 ms.technology: windows-sdk

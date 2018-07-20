@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxstatus_get_documentname_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6jvp.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: DocumentName property [Fax Service], DocumentName property [Fax Service],FaxStatus object, FaxStatus object [Fax Service],DocumentName property, FaxStatus.DocumentName, IFaxStatus.get_DocumentName, IFaxStatus::get_DocumentName, _mfax_ifaxstatus_get_documentname, fax._mfax_ifaxstatus_get_documentname, fax._mfax_ifaxstatus_get_documentname_vb, get_DocumentName
 ms.prod: windows
 ms.technology: windows-sdk

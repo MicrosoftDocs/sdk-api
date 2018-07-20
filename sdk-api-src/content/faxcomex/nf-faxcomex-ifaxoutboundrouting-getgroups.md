@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundrouting_getgroups.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8j1v.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxOutboundRouting object [Fax Service],GetGroups method, FaxOutboundRouting.GetGroups, GetGroups, GetGroups method [Fax Service], GetGroups method [Fax Service],FaxOutboundRouting object, IFaxOutboundRouting.GetGroups, IFaxOutboundRouting::GetGroups, _mfax_faxoutboundrouting.getgroups, fax._mfax_faxoutboundrouting_getgroups
 ms.prod: windows
 ms.technology: windows-sdk

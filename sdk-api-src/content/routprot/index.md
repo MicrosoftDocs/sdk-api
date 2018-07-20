@@ -2,7 +2,7 @@
 UID: NA:routprot
 ms.assetid: 3ed4e743-acd6-3f77-9ada-3f5fde23262c
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/20/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

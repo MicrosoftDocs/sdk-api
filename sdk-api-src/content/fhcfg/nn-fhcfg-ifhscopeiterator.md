@@ -4,10 +4,10 @@ title: IFhScopeIterator
 author: windows-sdk-content
 description: The IFhScopeIterator interface allows client applications to enumerate individual items in an inclusion or exclusion list. To retrieve inclusion and exclusion lists, call the IFhConfigMgr::GetIncludeExcludeRules method.
 old-location: winprog\ifhscopeiterator.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: E8F993BD-CB53-474A-926D-AED0F5A17073
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IFhScopeIterator, IFhScopeIterator interface [Windows API], IFhScopeIterator interface [Windows API],described, fhcfg/IFhScopeIterator, winprog.ifhscopeiterator
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxrecipients_add_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_73l0.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],FaxRecipients object, FaxRecipients object [Fax Service],Add method, FaxRecipients.Add, IFaxRecipients.Add, IFaxRecipients::Add, _mfax_faxrecipients.add, fax._mfax_faxrecipients_add, fax._mfax_faxrecipients_add_vb
 ms.prod: windows
 ms.technology: windows-sdk

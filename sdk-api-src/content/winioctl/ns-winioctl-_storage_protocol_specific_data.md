@@ -94,6 +94,11 @@ The length of the protocol data.
 The returned data.
 
 
+### -field ProtocolDataRequestSubValue2
+
+ 
+
+
 ### -field Reserved
 
 Reserved for future use.

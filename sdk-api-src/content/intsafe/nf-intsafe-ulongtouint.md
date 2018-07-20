@@ -7,7 +7,7 @@ old-location: shell\ULongToUInt.htm
 old-project: shell
 ms.assetid: f3e11789-9fea-41f6-9d96-ac0a7e267e7e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DWordToUInt, ULongToUInt, ULongToUInt function [Windows Shell], _shell_ULongToUInt, intsafe/ULongToUInt, shell.ULongToUInt
 ms.prod: windows
 ms.technology: windows-sdk

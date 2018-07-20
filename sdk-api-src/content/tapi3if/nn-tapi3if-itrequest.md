@@ -7,7 +7,7 @@ old-location: tapi3\itrequest.htm
 old-project: tapi
 ms.assetid: 2b6d4f99-3ffe-44ce-9cb5-3fdd565085db
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITRequest, ITRequest interface [TAPI 2.2], ITRequest interface [TAPI 2.2],described, _tapi3_itrequest, tapi3.itrequest, tapi3if/ITRequest
 ms.prod: windows
 ms.technology: windows-sdk

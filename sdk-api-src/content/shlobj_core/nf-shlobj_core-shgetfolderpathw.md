@@ -7,7 +7,7 @@ old-location: shell\SHGetFolderPath.htm
 old-project: shell
 ms.assetid: a240abc0-e0a6-4f95-8e74-7dc410970212
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: SHGFP_TYPE_CURRENT, SHGFP_TYPE_DEFAULT, SHGetFolderPath, SHGetFolderPath function [Windows Shell], SHGetFolderPathA, SHGetFolderPathW, _win32_SHGetFolderPath, _win32_SHGetFolderPath_cpp, shell.SHGetFolderPath, shlobj_core/SHGetFolderPath, shlobj_core/SHGetFolderPathA, shlobj_core/SHGetFolderPathW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\itdispatchmapper_querydispatchinterface.htm
 old-project: tapi
 ms.assetid: 7ee7c6f4-5710-4300-a2b8-de9aecf0528b
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITDispatchMapper interface [TAPI 2.2],QueryDispatchInterface method, ITDispatchMapper.QueryDispatchInterface, ITDispatchMapper::QueryDispatchInterface, QueryDispatchInterface, QueryDispatchInterface method [TAPI 2.2], QueryDispatchInterface method [TAPI 2.2],ITDispatchMapper interface, _tapi3_itdispatchmapper_querydispatchinterface, tapi3.itdispatchmapper_querydispatchinterface, tapi3if/ITDispatchMapper::QueryDispatchInterface
 ms.prod: windows
 ms.technology: windows-sdk

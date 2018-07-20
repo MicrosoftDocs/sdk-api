@@ -7,7 +7,7 @@ old-location: tapi3\callhub_event.htm
 old-project: tapi
 ms.assetid: 199e6c8b-805c-40c6-80d0-2e5803ec85a1
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: CALLHUB_EVENT, CALLHUB_EVENT enumeration [TAPI 2.2], CHE_CALLHUBIDLE, CHE_CALLHUBNEW, CHE_CALLJOIN, CHE_CALLLEAVE, _tapi3_callhub_event, tapi3.callhub_event, tapi3if/CALLHUB_EVENT, tapi3if/CHE_CALLHUBIDLE, tapi3if/CHE_CALLHUBNEW, tapi3if/CHE_CALLJOIN, tapi3if/CHE_CALLLEAVE
 ms.prod: windows
 ms.technology: windows-sdk

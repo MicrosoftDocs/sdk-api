@@ -7,7 +7,7 @@ old-location: mmc\view_select.htm
 old-project: mmc
 ms.assetid: 60ac7181-8cb6-4779-b27c-261faa2c2cc5
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: Select, Select method [MMC], Select method [MMC],View interface, Select method [MMC],View object, View interface [MMC],Select method, View object [MMC],Select method, View.Select, View::Select, _slate_view.select_method, mmc.view_select
 ms.prod: windows
 ms.technology: windows-sdk

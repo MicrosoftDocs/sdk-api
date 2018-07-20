@@ -7,7 +7,7 @@ old-location: shell\IFileDialogCustomize_AddText.htm
 old-project: shell
 ms.assetid: efea2fdb-4006-4567-b53c-faa891d18c7e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: AddText, AddText method [Windows Shell], AddText method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddText method, IFileDialogCustomize.AddText, IFileDialogCustomize::AddText, shell.IFileDialogCustomize_AddText, shell_IFileDialogCustomize_AddText, shobjidl_core/IFileDialogCustomize::AddText
 ms.prod: windows
 ms.technology: windows-sdk

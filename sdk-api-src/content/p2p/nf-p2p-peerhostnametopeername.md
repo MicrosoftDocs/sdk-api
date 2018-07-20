@@ -7,7 +7,7 @@ old-location: p2p\peerhostnametopeername.htm
 old-project: p2psdk
 ms.assetid: 3150d37e-84a3-4386-b38c-b37f7d6642cc
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PeerHostNameToPeerName, PeerHostNameToPeerName function [Peer Networking], p2p.peerhostnametopeername, p2p/PeerHostNameToPeerName
 ms.prod: windows
 ms.technology: windows-sdk

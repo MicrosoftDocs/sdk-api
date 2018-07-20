@@ -7,7 +7,7 @@ old-location: tapi2\linecalltreatmententry_str.htm
 old-project: tapi
 ms.assetid: c4a9fbb1-5201-45bd-b88c-b0c81b216f72
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "*LPLINECALLTREATMENTENTRY, LINECALLTREATMENTENTRY, LINECALLTREATMENTENTRY structure [TAPI 2.2], LPLINECALLTREATMENTENTRY, LPLINECALLTREATMENTENTRY structure pointer [TAPI 2.2], _tapi2_linecalltreatmententry_str, linecalltreatmententry_tag, tapi/LINECALLTREATMENTENTRY, tapi/LPLINECALLTREATMENTENTRY, tapi2.linecalltreatmententry_str"
 ms.prod: windows
 ms.technology: windows-sdk

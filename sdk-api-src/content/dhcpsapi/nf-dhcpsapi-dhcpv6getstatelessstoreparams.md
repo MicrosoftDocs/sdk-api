@@ -4,10 +4,10 @@ title: DhcpV6GetStatelessStoreParams function
 author: windows-sdk-content
 description: Retrieves the current DHCPv6 stateless client inventory configuration settings at the server or scope level.
 old-location: dhcp\dhcpv6getstatelessstoreparams.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 80a32132-a032-452f-9438-52a1eb280fdf
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DhcpV6GetStatelessStoreParams, DhcpV6GetStatelessStoreParams function [DHCP], dhcp.dhcpv6getstatelessstoreparams, dhcpsapi/DhcpV6GetStatelessStoreParams
 ms.prod: windows
 ms.technology: windows-sdk

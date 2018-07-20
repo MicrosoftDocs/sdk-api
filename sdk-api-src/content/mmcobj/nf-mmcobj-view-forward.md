@@ -7,7 +7,7 @@ old-location: mmc\view_forward.htm
 old-project: mmc
 ms.assetid: 22fa61c9-8936-40eb-9d2c-61dc20b7eb83
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: Forward, Forward method [MMC], Forward method [MMC],View interface, Forward method [MMC],View object, View interface [MMC],Forward method, View object [MMC],Forward method, View.Forward, View::Forward, _slate_view.forward_method, mmc.view_forward
 ms.prod: windows
 ms.technology: windows-sdk

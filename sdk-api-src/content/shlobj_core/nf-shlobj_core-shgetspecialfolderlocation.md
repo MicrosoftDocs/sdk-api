@@ -7,7 +7,7 @@ old-location: shell\SHGetSpecialFolderLocation.htm
 old-project: shell
 ms.assetid: 10b00497-fc3b-4e34-acd8-bc0721c0dc05
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: SHGetSpecialFolderLocation, SHGetSpecialFolderLocation function [Windows Shell], _win32_SHGetSpecialFolderLocation, _win32_SHGetSpecialFolderLocation_cpp, shell.SHGetSpecialFolderLocation, shlobj_core/SHGetSpecialFolderLocation
 ms.prod: windows
 ms.technology: windows-sdk

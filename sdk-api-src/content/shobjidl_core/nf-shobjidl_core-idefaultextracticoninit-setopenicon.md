@@ -7,7 +7,7 @@ old-location: shell\IDefaultExtractIconInit_SetOpenIcon.htm
 old-project: shell
 ms.assetid: 837a0006-2153-405f-a035-06738b89b058
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IDefaultExtractIconInit interface [Windows Shell],SetOpenIcon method, IDefaultExtractIconInit.SetOpenIcon, IDefaultExtractIconInit::SetOpenIcon, SetOpenIcon, SetOpenIcon method [Windows Shell], SetOpenIcon method [Windows Shell],IDefaultExtractIconInit interface, _shell_IDefaultExtractIconInit_SetOpenIcon, shell.IDefaultExtractIconInit_SetOpenIcon, shobjidl_core/IDefaultExtractIconInit::SetOpenIcon
 ms.prod: windows
 ms.technology: windows-sdk

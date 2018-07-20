@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxgetpagedata.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3ko1.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxGetPageDataA, FaxGetPageDataW, PFAXGETPAGEDATA, PFAXGETPAGEDATA callback, PFAXGETPAGEDATA callback function [Fax Service], _mfax_faxgetpagedata, fax._mfax_faxgetpagedata, winfax/FaxGetPageDataA, winfax/FaxGetPageDataW, winfax/PFAXGETPAGEDATA
 ms.prod: windows
 ms.technology: windows-sdk

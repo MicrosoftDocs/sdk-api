@@ -7,7 +7,7 @@ old-location: setup\msigetproductcode.htm
 old-project: msi
 ms.assetid: 5893c437-6827-44d6-bc22-18c402dda894
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/17/2018
 ms.keywords: MsiGetProductCode, MsiGetProductCode function, MsiGetProductCodeA, MsiGetProductCodeW, _msi_msigetproductcode, msi/MsiGetProductCode, msi/MsiGetProductCodeA, msi/MsiGetProductCodeW, setup.msigetproductcode
 ms.prod: windows
 ms.technology: windows-sdk

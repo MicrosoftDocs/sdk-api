@@ -7,7 +7,7 @@ old-location: tapi3\itcallinfo_put_callinfostring.htm
 old-project: tapi
 ms.assetid: d22f1afb-e036-40d0-9a7f-61d8d24d2376
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],put_CallInfoString method, ITCallInfo.put_CallInfoString, ITCallInfo::put_CallInfoString, _tapi3_itcallinfo_put_callinfostring, put_CallInfoString, put_CallInfoString method [TAPI 2.2], put_CallInfoString method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_put_callinfostring, tapi3if/ITCallInfo::put_CallInfoString
 ms.prod: windows
 ms.technology: windows-sdk

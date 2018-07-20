@@ -7,7 +7,7 @@ old-location: shell\UIntPtrToULong.htm
 old-project: shell
 ms.assetid: 29d33dd1-c6fd-445b-a340-0a194735a763
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: SizeTToDWord, SizeTToULong, UIntPtrToDWord, UIntPtrToULong, UIntPtrToULong function [Windows Shell], _shell_UIntPtrToULong, intsafe/UIntPtrToULong, shell.UIntPtrToULong
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IUpdate::get_IsInstalled
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the update is installed on a computer when the search is performed.
 old-location: wua\iupdate_isinstalled.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 2adebe8e-554e-4337-9bbf-1d8967fefef1
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: IUpdate interface [Windows Update Agent],IsInstalled property, IUpdate.IsInstalled, IUpdate.get_IsInstalled, IUpdate::IsInstalled, IUpdate::get_IsInstalled, IsInstalled property [Windows Update Agent], IsInstalled property [Windows Update Agent],IUpdate interface, get_IsInstalled, wua.iupdate_isinstalled, wuapi/IUpdate::IsInstalled, wuapi/IUpdate::get_IsInstalled
 ms.prod: windows
 ms.technology: windows-sdk

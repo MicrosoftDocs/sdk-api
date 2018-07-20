@@ -152,6 +152,13 @@ Describes a shader-resource view.
             
 
 
+### -field RaytracingAccelerationStructure
+
+ 
+
+
+
+
 ## -remarks
 
 

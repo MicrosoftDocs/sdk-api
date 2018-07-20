@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_clipboardpaste.htm
 old-project: tablet
 ms.assetid: c2760791-4238-45a9-a561-a48a55d6444b
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ClipboardPaste, ClipboardPaste method [Tablet PC], ClipboardPaste method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ClipboardPaste method, IInkDisp.ClipboardPaste, IInkDisp::ClipboardPaste, c2760791-4238-45a9-a561-a48a55d6444b, msinkaut/IInkDisp::ClipboardPaste, tablet.inkdisp_clipboardpaste
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlDropHandler.htm
 old-project: shell
 ms.assetid: 5d2c1783-daeb-488d-93b9-34df2712d849
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: INameSpaceTreeControlDropHandler, INameSpaceTreeControlDropHandler interface [Windows Shell], INameSpaceTreeControlDropHandler interface [Windows Shell],described, _shell_INameSpaceTreeControlDropHandler, shell.INameSpaceTreeControlDropHandler, shobjidl/INameSpaceTreeControlDropHandler
 ms.prod: windows
 ms.technology: windows-sdk

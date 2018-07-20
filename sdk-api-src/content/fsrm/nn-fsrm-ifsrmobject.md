@@ -4,10 +4,10 @@ title: IFsrmObject
 author: windows-sdk-content
 description: Base class for all FSRM objects.
 old-location: fsrm\ifsrmobject.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: bb08ea40-6f0e-4ad5-ad57-78f17bbbd4b7
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IFsrmObject, IFsrmObject interface [File Server Resource Manager], IFsrmObject interface [File Server Resource Manager],described, fs.ifsrmobject, fsrm.ifsrmobject, fsrm/IFsrmObject
 ms.prod: windows
 ms.technology: windows-sdk

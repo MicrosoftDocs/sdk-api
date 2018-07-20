@@ -7,7 +7,7 @@ old-location: tapi2\linemediacontroldigit_str.htm
 old-project: tapi
 ms.assetid: d31cd365-d6a6-4595-8202-87113035d807
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "*LPLINEMEDIACONTROLDIGIT, LINEMEDIACONTROLDIGIT, LINEMEDIACONTROLDIGIT structure [TAPI 2.2], LPLINEMEDIACONTROLDIGIT, LPLINEMEDIACONTROLDIGIT structure pointer [TAPI 2.2], _tapi2_linemediacontroldigit_str, linemediacontroldigit_tag, tapi/LINEMEDIACONTROLDIGIT, tapi/LPLINEMEDIACONTROLDIGIT, tapi2.linemediacontroldigit_str"
 ms.prod: windows
 ms.technology: windows-sdk

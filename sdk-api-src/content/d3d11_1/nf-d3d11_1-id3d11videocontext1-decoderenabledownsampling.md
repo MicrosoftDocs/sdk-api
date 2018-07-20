@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext1_decoderenabledownsampling.htm
 old-project: medfound
 ms.assetid: 0BE7E6EC-E090-4A13-9D18-108BDBBC211A
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: DecoderEnableDownsampling, DecoderEnableDownsampling method [Media Foundation], DecoderEnableDownsampling method [Media Foundation],ID3D11VideoContext1 interface, ID3D11VideoContext1 interface [Media Foundation],DecoderEnableDownsampling method, ID3D11VideoContext1.DecoderEnableDownsampling, ID3D11VideoContext1::DecoderEnableDownsampling, d3d11_1/ID3D11VideoContext1::DecoderEnableDownsampling, mf.id3d11videocontext1_decoderenabledownsampling
 ms.prod: windows
 ms.technology: windows-sdk

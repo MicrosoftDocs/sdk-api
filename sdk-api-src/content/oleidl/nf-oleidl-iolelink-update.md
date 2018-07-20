@@ -7,7 +7,7 @@ old-location: com\iolelink_update.htm
 old-project: com
 ms.assetid: c1da8b95-88e7-42b0-884c-5aa394cc49f4
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IOleLink interface [COM],Update method, IOleLink.Update, IOleLink::Update, Update, Update method [COM], Update method [COM],IOleLink interface, _ole_iolelink_update, com.iolelink_update, oleidl/IOleLink::Update
 ms.prod: windows
 ms.technology: windows-sdk

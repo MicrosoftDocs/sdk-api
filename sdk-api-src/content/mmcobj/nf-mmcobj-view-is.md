@@ -7,7 +7,7 @@ old-location: mmc\view_is.htm
 old-project: mmc
 ms.assetid: 41627d45-501e-4be3-a721-78b10de078f6
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: Is, Is method [MMC], Is method [MMC],View interface, Is method [MMC],View object, View interface [MMC],Is method, View object [MMC],Is method, View.Is, View::Is, _slate_view.is_method, mmc.view_is
 ms.prod: windows
 ms.technology: windows-sdk

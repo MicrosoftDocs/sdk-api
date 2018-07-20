@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreamsamplemanager.htm
 old-project: medfound
 ms.assetid: DABA5955-1366-4CEE-ABDF-7CC0F3788A8E
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFMuxStreamSampleManager, IMFMuxStreamSampleManager interface [Media Foundation], IMFMuxStreamSampleManager interface [Media Foundation],described, mf.imfmuxstreamsamplemanager, mfobjects/IMFMuxStreamSampleManager
 ms.prod: windows
 ms.technology: windows-sdk

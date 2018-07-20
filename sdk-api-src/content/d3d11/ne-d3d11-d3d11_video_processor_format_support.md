@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_processor_format_support.htm
 old-project: medfound
 ms.assetid: A23C33B8-20D0-4F78-B21F-36FCD1506DC6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT, D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT_INPUT, D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT_OUTPUT, d3d11/D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT, d3d11/D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT_INPUT, d3d11/D3D11_VIDEO_PROCESSOR_FORMAT_SUPPORT_OUTPUT, mf.d3d11_video_processor_format_support
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

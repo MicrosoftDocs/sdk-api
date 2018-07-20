@@ -120,3 +120,11 @@ The window has been explicitly opted out by setting <b>DWMWA_TABBING_ENABLED</b>
 
 The user has configured this application to not participate in tabbing.
 
+
+### -field DWMTWR_GROUP_POLICY
+
+
+### -field DWMTWR_APP_COMPAT
+
+
+

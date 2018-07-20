@@ -7,7 +7,7 @@ old-location: dshow\idvsplitter_discardalternatevideoframes.htm
 old-project: DirectShow
 ms.assetid: 121b94cd-cc39-4ac2-9423-f75df9fcd491
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DiscardAlternateVideoFrames, DiscardAlternateVideoFrames method [DirectShow], DiscardAlternateVideoFrames method [DirectShow],IDVSplitter interface, IDVSplitter interface [DirectShow],DiscardAlternateVideoFrames method, IDVSplitter.DiscardAlternateVideoFrames, IDVSplitter::DiscardAlternateVideoFrames, IDVSplitterDiscardAlternateVideoFrames, dshow.idvsplitter_discardalternatevideoframes, strmif/IDVSplitter::DiscardAlternateVideoFrames
 ms.prod: windows
 ms.technology: windows-sdk

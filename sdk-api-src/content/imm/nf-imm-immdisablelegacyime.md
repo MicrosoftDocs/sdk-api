@@ -7,7 +7,7 @@ old-location: intl\immdisablelegacyime.htm
 old-project: Intl
 ms.assetid: 5B207438-B437-45B0-AE0C-DDB1B19488F2
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 07/18/2018
 ms.keywords: IMMDisableLegacyIME, IMMDisableLegacyIME function [Internationalization for Windows Applications], ImmDisableLegacyIME, imm/IMMDisableLegacyIME, intl.immdisablelegacyime
 ms.prod: windows
 ms.technology: windows-sdk

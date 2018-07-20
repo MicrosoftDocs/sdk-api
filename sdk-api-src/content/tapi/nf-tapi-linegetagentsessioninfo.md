@@ -7,7 +7,7 @@ old-location: tapi2\linegetagentsessioninfo.htm
 old-project: tapi
 ms.assetid: 06a5ea23-4205-46fd-abe7-ee4575be81c8
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_linegetagentsessioninfo, lineGetAgentSessionInfo, lineGetAgentSessionInfo function [TAPI 2.2], tapi/lineGetAgentSessionInfo, tapi2.linegetagentsessioninfo"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IKnownFolder_GetCategory.htm
 old-project: shell
 ms.assetid: b3a7f249-9d57-4bd1-830f-1c83c745782f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetCategory, GetCategory method [Windows Shell], GetCategory method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetCategory method, IKnownFolder.GetCategory, IKnownFolder::GetCategory, _shell_IKnownFolder_GetCategory, shell.IKnownFolder_GetCategory, shobjidl_core/IKnownFolder::GetCategory
 ms.prod: windows
 ms.technology: windows-sdk

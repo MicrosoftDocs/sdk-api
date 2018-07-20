@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutinggroups_item.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8l9p.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxOutboundRoutingGroups object [Fax Service],Item property, FaxOutboundRoutingGroups.Item, IFaxOutboundRoutingGroups.get_Item, IFaxOutboundRoutingGroups::get_Item, Item property [Fax Service], Item property [Fax Service],FaxOutboundRoutingGroups object, _mfax_faxoutboundroutinggroups.item, fax._mfax_faxoutboundroutinggroups_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IDownloadJob::RequestAbort
 author: windows-sdk-content
 description: Makes a request to end an asynchronous download.
 old-location: wua\idownloadjob_requestabort.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 01f403c5-b73d-4366-8e9e-132f373a354f
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: IDownloadJob interface [Windows Update Agent],RequestAbort method, IDownloadJob.RequestAbort, IDownloadJob::RequestAbort, RequestAbort, RequestAbort method [Windows Update Agent], RequestAbort method [Windows Update Agent],IDownloadJob interface, wua.idownloadjob_requestabort, wuapi/IDownloadJob::RequestAbort
 ms.prod: windows
 ms.technology: windows-sdk

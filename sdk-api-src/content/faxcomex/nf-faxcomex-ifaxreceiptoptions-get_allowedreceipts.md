@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxreceiptoptions_allowedreceipts_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3xbn.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: AllowedReceipts property [Fax Service], AllowedReceipts property [Fax Service],FaxReceiptOptions object, FaxReceiptOptions object [Fax Service],AllowedReceipts property, FaxReceiptOptions.AllowedReceipts, IFaxReceiptOptions.get_AllowedReceipts, IFaxReceiptOptions::get_AllowedReceipts, _mfax_faxreceiptoptions.allowedreceipts, fax._mfax_faxreceiptoptions_allowedreceipts, fax._mfax_faxreceiptoptions_allowedreceipts_vb, get_AllowedReceipts
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: devinst\cm_get_device_interface_property_keys_exw.htm
 old-project: devinst
 ms.assetid: 52EEF50F-4559-4C22-BE33-1F87E469BB47
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: CM_Get_Device_Interface_Property_Keys_ExW, CM_Get_Device_Interface_Property_Keys_ExW function [Device and Driver Installation], cfgmgr32/CM_Get_Device_Interface_Property_Keys_ExW, devinst.cm_get_device_interface_property_keys_exw
 ms.prod: windows
 ms.technology: windows-sdk

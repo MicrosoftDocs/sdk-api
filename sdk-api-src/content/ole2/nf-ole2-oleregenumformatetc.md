@@ -7,7 +7,7 @@ old-location: com\oleregenumformatetc.htm
 old-project: com
 ms.assetid: 6caebc68-a136-40f2-92d8-7f8003c18e5c
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: OleRegEnumFormatEtc, OleRegEnumFormatEtc function [COM], _ole_OleRegEnumFormatEtc, com.oleregenumformatetc, ole2/OleRegEnumFormatEtc
 ms.prod: windows
 ms.technology: windows-sdk

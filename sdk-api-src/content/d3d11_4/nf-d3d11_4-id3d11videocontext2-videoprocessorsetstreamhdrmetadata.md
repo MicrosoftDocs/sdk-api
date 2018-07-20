@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext2_videoprocessorsetstreamhdrmetadata.htm
 old-project: medfound
 ms.assetid: C76CD8EF-3FBF-48B5-9633-BB65840BE34F
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: ID3D11VideoContext2 interface [Media Foundation],VideoProcessorSetStreamHDRMetaData method, ID3D11VideoContext2.VideoProcessorSetStreamHDRMetaData, ID3D11VideoContext2::VideoProcessorSetStreamHDRMetaData, VideoProcessorSetStreamHDRMetaData, VideoProcessorSetStreamHDRMetaData method [Media Foundation], VideoProcessorSetStreamHDRMetaData method [Media Foundation],ID3D11VideoContext2 interface, d3d11_4/ID3D11VideoContext2::VideoProcessorSetStreamHDRMetaData, mf.id3d11videocontext2_videoprocessorsetstreamhdrmetadata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 10 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

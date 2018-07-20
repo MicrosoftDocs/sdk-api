@@ -7,7 +7,7 @@ old-location: mmc\iextendtaskpad_tasknotify.htm
 old-project: mmc
 ms.assetid: c20d87f9-a5a0-41b9-b343-a11e8b41ed71
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: IExtendTaskPad interface [MMC],TaskNotify method, IExtendTaskPad.TaskNotify, IExtendTaskPad::TaskNotify, TaskNotify, TaskNotify method [MMC], TaskNotify method [MMC],IExtendTaskPad interface, _slate_iextendtaskpad_tasknotify, mmc.iextendtaskpad_tasknotify, mmc/IExtendTaskPad::TaskNotify
 ms.prod: windows
 ms.technology: windows-sdk

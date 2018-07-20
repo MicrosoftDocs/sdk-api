@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_processor_filter.htm
 old-project: medfound
 ms.assetid: 87CF9A1A-E196-4B5A-BAAE-DD948A5468C2
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_FILTER, D3D11_VIDEO_PROCESSOR_FILTER enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_FILTER_ANAMORPHIC_SCALING, D3D11_VIDEO_PROCESSOR_FILTER_BRIGHTNESS, D3D11_VIDEO_PROCESSOR_FILTER_CONTRAST, D3D11_VIDEO_PROCESSOR_FILTER_EDGE_ENHANCEMENT, D3D11_VIDEO_PROCESSOR_FILTER_HUE, D3D11_VIDEO_PROCESSOR_FILTER_NOISE_REDUCTION, D3D11_VIDEO_PROCESSOR_FILTER_SATURATION, D3D11_VIDEO_PROCESSOR_FILTER_STEREO_ADJUSTMENT, d3d11/D3D11_VIDEO_PROCESSOR_FILTER, d3d11/D3D11_VIDEO_PROCESSOR_FILTER_ANAMORPHIC_SCALING, d3d11/D3D11_VIDEO_PROCESSOR_FILTER_BRIGHTNESS, d3d11/D3D11_VIDEO_PROCESSOR_FILTER_CONTRAST, d3d11/D3D11_VIDEO_PROCESSOR_FILTER_EDGE_ENHANCEMENT, d3d11/D3D11_VIDEO_PROCESSOR_FILTER_HUE, d3d11/D3D11_VIDEO_PROCESSOR_FILTER_NOISE_REDUCTION, d3d11/D3D11_VIDEO_PROCESSOR_FILTER_SATURATION, d3d11/D3D11_VIDEO_PROCESSOR_FILTER_STEREO_ADJUSTMENT, mf.d3d11_video_processor_filter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

@@ -7,7 +7,7 @@ old-location: tapi3\imcastleaseinfo.htm
 old-project: tapi
 ms.assetid: a4ad8009-559e-4db9-9ae2-28e4d36cf346
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IMcastLeaseInfo, IMcastLeaseInfo interface [TAPI 2.2], IMcastLeaseInfo interface [TAPI 2.2],described, _tapi3_imcastleaseinfo, mdhcp/IMcastLeaseInfo, tapi3.imcastleaseinfo
 ms.prod: windows
 ms.technology: windows-sdk

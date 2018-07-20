@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getvolume.htm
 old-project: medfound
 ms.assetid: E7890777-480E-4EA1-88BA-657182B66010
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetVolume, GetVolume method [Media Foundation], GetVolume method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetVolume method, IMFMediaEngine.GetVolume, IMFMediaEngine::GetVolume, mf.imfmediaengine_getvolume, mfmediaengine/IMFMediaEngine::GetVolume
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

@@ -7,7 +7,7 @@ old-location: tapi3\itsubstreamcontrol_enumeratesubstreams.htm
 old-project: tapi
 ms.assetid: 848d31e8-f878-4d33-b2b9-2d28e96bd14a
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: EnumerateSubStreams, EnumerateSubStreams method [TAPI 2.2], EnumerateSubStreams method [TAPI 2.2],ITSubStreamControl interface, ITSubStreamControl interface [TAPI 2.2],EnumerateSubStreams method, ITSubStreamControl.EnumerateSubStreams, ITSubStreamControl::EnumerateSubStreams, _tapi3_itsubstreamcontrol_enumeratesubstreams, tapi3.itsubstreamcontrol_enumeratesubstreams, tapi3if/ITSubStreamControl::EnumerateSubStreams
 ms.prod: windows
 ms.technology: windows-sdk

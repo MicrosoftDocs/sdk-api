@@ -7,7 +7,7 @@ old-location: intl\sysgeoclass.htm
 old-project: Intl
 ms.assetid: 27c2dec7-b5e7-47b7-8ce2-8dba3d0916bf
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 07/18/2018
 ms.keywords: GEOCLASS_ALL, GEOCLASS_NATION, GEOCLASS_REGION, SYSGEOCLASS, SYSGEOCLASS enumeration [Internationalization for Windows Applications], _win32_SYSGEOCLASS, intl.sysgeoclass, winnls/GEOCLASS_ALL, winnls/GEOCLASS_NATION, winnls/GEOCLASS_REGION, winnls/SYSGEOCLASS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: enum
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

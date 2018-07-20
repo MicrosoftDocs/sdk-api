@@ -106,4 +106,7 @@ The sync engine is retrieving metadata from the cloud.
 ### -field STS_INCOMPLETE
 
 
+### -field STS_PLACEHOLDER_IFEMPTY
+
+
 

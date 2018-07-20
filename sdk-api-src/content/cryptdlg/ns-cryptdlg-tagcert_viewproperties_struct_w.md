@@ -4,10 +4,10 @@ title: tagCERT_VIEWPROPERTIES_STRUCT_W
 author: windows-sdk-content
 description: The CERT_VIEWPROPERTIES_STRUCT structure defines information used when the CertViewProperties function is called to display a certificate's properties.
 old-location: security\cert_viewproperties_struct.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 3d18526b-1052-4f0c-999b-881a74a94549
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*PCERT_VIEWPROPERTIES_STRUCT_W, CERT_VIEWPROPERTIES_STRUCT, CERT_VIEWPROPERTIES_STRUCT structure [Security], CERT_VIEWPROPERTIES_STRUCT_W, CM_ADD_CERT_STORES, CM_ENABLEHOOK, CM_ENABLETEMPLATE, CM_HIDE_ADVANCEPAGE, CM_HIDE_DETAILPAGE, CM_HIDE_TRUSTPAGE, CM_NO_EDITTRUST, CM_NO_NAMECHANGE, CM_SHOW_HELP, CM_SHOW_HELPICON, PCERT_VIEWPROPERTIES_STRUCT, PCERT_VIEWPROPERTIES_STRUCT structure pointer [Security], cryptdlg/CERT_VIEWPROPERTIES_STRUCT, cryptdlg/PCERT_VIEWPROPERTIES_STRUCT, security.cert_viewproperties_struct, tagCERT_VIEWPROPERTIES_STRUCT_W"
 ms.prod: windows
 ms.technology: windows-sdk

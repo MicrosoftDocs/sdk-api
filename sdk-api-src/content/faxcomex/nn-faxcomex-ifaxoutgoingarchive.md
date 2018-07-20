@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingarchive_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3wmd_cpp.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: IFaxOutgoingArchive, IFaxOutgoingArchive interface [Fax Service], IFaxOutgoingArchive interface [Fax Service],described, _mfax_faxoutgoingarchive_cpp, fax._mfax_faxoutgoingarchive_cpp, faxcomex/IFaxOutgoingArchive
 ms.prod: windows
 ms.technology: windows-sdk

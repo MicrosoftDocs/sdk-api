@@ -4,10 +4,10 @@ title: IUpdateInstaller::put_Updates
 author: windows-sdk-content
 description: Gets and sets an interface that contains a read-only collection of the updates that are specified for installation or uninstallation.
 old-location: wua\iupdateinstaller_updates.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: f56121fd-f8ba-48b5-840b-1a5a751e1a70
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],Updates property, IUpdateInstaller.Updates, IUpdateInstaller.put_Updates, IUpdateInstaller::Updates, IUpdateInstaller::get_Updates, IUpdateInstaller::put_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],IUpdateInstaller interface, put_Updates, wua.iupdateinstaller_updates, wuapi/IUpdateInstaller::Updates, wuapi/IUpdateInstaller::get_Updates, wuapi/IUpdateInstaller::put_Updates
 ms.prod: windows
 ms.technology: windows-sdk

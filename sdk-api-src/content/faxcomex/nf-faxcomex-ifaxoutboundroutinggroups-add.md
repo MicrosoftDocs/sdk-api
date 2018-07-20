@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutinggroups_add.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_35r8.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],FaxOutboundRoutingGroups object, FaxOutboundRoutingGroups object [Fax Service],Add method, FaxOutboundRoutingGroups.Add, IFaxOutboundRoutingGroups.Add, IFaxOutboundRoutingGroups::Add, _mfax_faxoutboundroutinggroups.add, fax._mfax_faxoutboundroutinggroups_add
 ms.prod: windows
 ms.technology: windows-sdk

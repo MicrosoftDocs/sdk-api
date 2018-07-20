@@ -7,7 +7,7 @@ old-location: setup\configurableitem_type.htm
 old-project: msi
 ms.assetid: af2cb859-2e9d-4bca-867b-cdc61d9758cd
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/17/2018
 ms.keywords: ConfigurableItem object,Type property, ConfigurableItem.Type, IMsmConfigurableItem.get_Type, IMsmConfigurableItem::get_Type, Type property, Type property,ConfigurableItem object, _msi_type_property_configurableitem_object_, get_Type, setup.configurableitem_type
 ms.prod: windows
 ms.technology: windows-sdk

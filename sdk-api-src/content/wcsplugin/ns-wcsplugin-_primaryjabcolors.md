@@ -7,7 +7,7 @@ old-location: wcs\primaryjabcolors.htm
 old-project: WCS
 ms.assetid: 510dce85-23de-4c1c-a794-8ad53cc9fdfb
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/18/2018
 ms.keywords: PrimaryJabColors, PrimaryJabColors structure [Windows Color System], _PrimaryJabColors, _color_PrimaryJabColors_str, wcs.primaryjabcolors, wcsplugin/PrimaryJabColors
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\iviewobject.htm
 old-project: com
 ms.assetid: 4310c987-3542-4a59-a6fb-951143001741
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IViewObject, IViewObject interface [COM], IViewObject interface [COM],described, _ole_iviewobject, com.iviewobject, oleidl/IViewObject
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\ivpbaseconfig_setvideoportid.htm
 old-project: DirectShow
 ms.assetid: 9be16349-b214-4441-8093-dfb0caa84507
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],SetVideoPortID method, IVPBaseConfig.SetVideoPortID, IVPBaseConfig::SetVideoPortID, IVPBaseConfigSetVideoPortID, SetVideoPortID, SetVideoPortID method [DirectShow], SetVideoPortID method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setvideoportid, vpconfig/IVPBaseConfig::SetVideoPortID
 ms.prod: windows
 ms.technology: windows-sdk

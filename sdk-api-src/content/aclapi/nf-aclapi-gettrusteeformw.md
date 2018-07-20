@@ -4,10 +4,10 @@ title: GetTrusteeFormW function
 author: windows-sdk-content
 description: Retrieves the trustee name from the specified TRUSTEE structure. This value indicates whether the structure uses a name string or a security identifier (SID) to identify the trustee.
 old-location: security\gettrusteeform.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: e5e450b8-0b7b-4324-b453-5c020e74b1ee
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: GetTrusteeForm, GetTrusteeForm function [Security], GetTrusteeFormA, GetTrusteeFormW, _win32_gettrusteeform, aclapi/GetTrusteeForm, aclapi/GetTrusteeFormA, aclapi/GetTrusteeFormW, security.gettrusteeform
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_setposition.htm
 old-project: medfound
 ms.assetid: d8665c3b-e0da-4a6f-a61b-38d507d1e78a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetPosition method, IMFPMediaPlayer.SetPosition, IMFPMediaPlayer::SetPosition, MFP_POSITIONTYPE_100NS, SetPosition, SetPosition method [Media Foundation], SetPosition method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setposition, mfplay/IMFPMediaPlayer::SetPosition
 ms.prod: windows
 ms.technology: windows-sdk

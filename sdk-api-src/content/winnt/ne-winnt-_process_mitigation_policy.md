@@ -123,6 +123,9 @@ The policy that turns off the ability of the process to load images from some lo
 ### -field ProcessChildProcessPolicy
 
 
+### -field ProcessSideChannelIsolationPolicy
+
+
 ### -field MaxProcessMitigationPolicy
 
 Ends the enumeration.

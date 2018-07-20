@@ -7,7 +7,7 @@ old-location: multimedia\avistreamsetformat.htm
 old-project: Multimedia
 ms.assetid: b896f674-823d-49c9-8e48-c5081e37a13a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/17/2018
 ms.keywords: AVIStreamSetFormat, AVIStreamSetFormat function [Windows Multimedia], _win32_AVIStreamSetFormat, multimedia.avistreamsetformat, vfw/AVIStreamSetFormat
 ms.prod: windows
 ms.technology: windows-sdk

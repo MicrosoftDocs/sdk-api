@@ -7,7 +7,7 @@ old-location: mf\d3d11_authenticated_query_crypto_session_input.htm
 old-project: medfound
 ms.assetid: 012E594C-4E0B-48A3-828A-A8F8B901F8E7
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT, D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT, mf.d3d11_authenticated_query_crypto_session_input
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

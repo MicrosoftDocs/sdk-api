@@ -4,10 +4,10 @@ title: DhcpGetServerSpecificStrings function
 author: windows-sdk-content
 description: Retrieves the names of the default vendor class and user class.
 old-location: dhcp\dhcpgetserverspecificstrings.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: dc283fa3-6077-4010-8c71-9dc91ed2dadf
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DhcpGetServerSpecificStrings, DhcpGetServerSpecificStrings function [DHCP], dhcp.dhcpgetserverspecificstrings, dhcpsapi/DhcpGetServerSpecificStrings
 ms.prod: windows
 ms.technology: windows-sdk

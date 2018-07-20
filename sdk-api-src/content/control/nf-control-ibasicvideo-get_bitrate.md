@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_get_bitrate.htm
 old-project: DirectShow
 ms.assetid: aae4c41d-4cab-4c49-9733-44ba5e0e03bb
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_BitRate method, IBasicVideo.get_BitRate, IBasicVideo::get_BitRate, IBasicVideoget_BitRate, control/IBasicVideo::get_BitRate, dshow.ibasicvideo_get_bitrate, get_BitRate, get_BitRate method [DirectShow], get_BitRate method [DirectShow],IBasicVideo interface
 ms.prod: windows
 ms.technology: windows-sdk

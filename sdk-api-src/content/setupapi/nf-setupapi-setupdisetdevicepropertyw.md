@@ -7,7 +7,7 @@ old-location: devinst\setupdisetdeviceproperty.htm
 old-project: devinst
 ms.assetid: c03c51ba-3027-4be9-8869-6d7dbeac2428
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: SetupDiSetDeviceProperty, SetupDiSetDeviceProperty function [Device and Driver Installation], SetupDiSetDevicePropertyW, devinst.setupdisetdeviceproperty, di-rtns_ee591571-7fc2-4a2b-a893-ba8d43cc0ed4.xml, setupapi/SetupDiSetDeviceProperty
 ms.prod: windows
 ms.technology: windows-sdk

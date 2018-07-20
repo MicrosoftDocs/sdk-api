@@ -4,10 +4,10 @@ title: ImageList_DragEnter function
 author: windows-sdk-content
 description: Displays the drag image at the specified position within the window.
 old-location: controls\ImageList_DragEnter.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_dragenter.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ImageList_DragEnter, ImageList_DragEnter function [Windows Controls], _win32_ImageList_DragEnter, _win32_ImageList_DragEnter_cpp, commctrl/ImageList_DragEnter, controls.ImageList_DragEnter, controls._win32_ImageList_DragEnter
 ms.prod: windows
 ms.technology: windows-sdk

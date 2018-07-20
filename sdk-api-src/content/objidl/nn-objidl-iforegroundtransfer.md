@@ -7,7 +7,7 @@ old-location: com\iforegroundtransfer.htm
 old-project: com
 ms.assetid: 21857592-0f98-4eb4-a153-4ce20edf26c7
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IForegroundTransfer, IForegroundTransfer interface [COM], IForegroundTransfer interface [COM],described, _com_iforegroundtransfer, com.iforegroundtransfer, objidl/IForegroundTransfer
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader_setstreamsselected.htm
 old-project: wmformat
 ms.assetid: d62a61cb-3b5a-4ce8-9677-92e280449d26
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],SetStreamsSelected method, IWMSyncReader.SetStreamsSelected, IWMSyncReader::SetStreamsSelected, IWMSyncReaderSetStreamsSelected, SetStreamsSelected, SetStreamsSelected method [windows Media Format], SetStreamsSelected method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setstreamsselected, wmsdkidl/IWMSyncReader::SetStreamsSelected
 ms.prod: windows
 ms.technology: windows-sdk

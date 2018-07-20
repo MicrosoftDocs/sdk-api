@@ -7,7 +7,7 @@ old-location: tspi\tspi_lineconfigdialog.htm
 old-project: tapi
 ms.assetid: b0f26029-ddb2-472c-8a09-2abf213dab16
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineConfigDialog, TSPI_lineConfigDialog function [TAPI 2.2], _tspi_tspi_lineconfigdialog, tspi.tspi_lineconfigdialog, tspi/TSPI_lineConfigDialog
 ms.prod: windows
 ms.technology: windows-sdk

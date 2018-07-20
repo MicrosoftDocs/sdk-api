@@ -7,7 +7,7 @@ old-location: tapi3\ittoneterminalevent_get_error.htm
 old-project: tapi
 ms.assetid: f91497b0-b340-4eb9-8d9f-364991343c3b
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITToneTerminalEvent interface [TAPI 2.2],get_Error method, ITToneTerminalEvent.get_Error, ITToneTerminalEvent::get_Error, _tapi3_ittoneterminalevent_get_error, get_Error, get_Error method [TAPI 2.2], get_Error method [TAPI 2.2],ITToneTerminalEvent interface, tapi3.ittoneterminalevent_get_error, tapi3if/ITToneTerminalEvent::get_Error
 ms.prod: windows
 ms.technology: windows-sdk

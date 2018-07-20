@@ -7,7 +7,7 @@ old-location: mmc\iconsolepower.htm
 old-project: mmc
 ms.assetid: d34e8da0-2689-4514-be10-4c11008432b3
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: ConsolePower, IConsolePower, IConsolePower interface [MMC], IConsolePower interface [MMC],described, _slate_iconsolepower, mmc.iconsolepower, mmc/IConsolePower
 ms.prod: windows
 ms.technology: windows-sdk

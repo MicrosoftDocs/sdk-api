@@ -7,7 +7,7 @@ old-location: perf\perf_string_buffer_header.htm
 old-project: perfctrs
 ms.assetid: 874A97BA-708E-4001-A7CA-1C3114577D7D
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/18/2018
 ms.keywords: "*PPERF_STRING_BUFFER_HEADER, PERF_STRING_BUFFER_HEADER, PERF_STRING_BUFFER_HEADER structure [Perf], PPERF_STRING_BUFFER_HEADER, PPERF_STRING_BUFFER_HEADER structure pointer [Perf], _STRING_BUFFER_HEADER, perf.perf_string_buffer_header, perflib/PERF_STRING_BUFFER_HEADER, perflib/PPERF_STRING_BUFFER_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk

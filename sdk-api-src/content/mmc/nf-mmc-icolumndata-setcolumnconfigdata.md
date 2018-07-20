@@ -7,7 +7,7 @@ old-location: mmc\icolumndata_setcolumnconfigdata.htm
 old-project: mmc
 ms.assetid: 2f6727bd-b7ba-4e91-9dce-53605b0b6fe1
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: IColumnData interface [MMC],SetColumnConfigData method, IColumnData.SetColumnConfigData, IColumnData::SetColumnConfigData, SetColumnConfigData, SetColumnConfigData method [MMC], SetColumnConfigData method [MMC],IColumnData interface, _slate_icolumndata_setcolumnconfigdata, mmc.icolumndata_setcolumnconfigdata, mmc/IColumnData::SetColumnConfigData
 ms.prod: windows
 ms.technology: windows-sdk

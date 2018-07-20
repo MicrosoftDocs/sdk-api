@@ -7,7 +7,7 @@ old-location: perf\allocatememory.htm
 old-project: perfctrs
 ms.assetid: 09af7e56-2174-4a82-b45b-59f4180e4aab
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/18/2018
 ms.keywords: AllocateMemory, AllocateMemory callback function [Perf], PERF_MEM_ALLOC, PERF_MEM_ALLOC callback, perf.allocatememory, perflib/AllocateMemory
 ms.prod: windows
 ms.technology: windows-sdk

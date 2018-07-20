@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxenableroutingmethod.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9ov8.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxEnableRoutingMethod, FaxEnableRoutingMethod function [Fax Service], FaxEnableRoutingMethodA, FaxEnableRoutingMethodW, _mfax_faxenableroutingmethod, fax._mfax_faxenableroutingmethod, winfax/FaxEnableRoutingMethod, winfax/FaxEnableRoutingMethodA, winfax/FaxEnableRoutingMethodW
 ms.prod: windows
 ms.technology: windows-sdk

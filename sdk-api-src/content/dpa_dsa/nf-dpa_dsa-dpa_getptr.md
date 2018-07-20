@@ -4,10 +4,10 @@ title: DPA_GetPtr function
 author: windows-sdk-content
 description: Gets an item from a dynamic pointer array (DPA).
 old-location: controls\DPA_GetPtr.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_getptr.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DPA_GetPtr, DPA_GetPtr function [Windows Controls], _win32_DPA_GetPtr, _win32_DPA_GetPtr_cpp, controls.DPA_GetPtr, controls._win32_DPA_GetPtr, dpa_dsa/DPA_GetPtr
 ms.prod: windows
 ms.technology: windows-sdk

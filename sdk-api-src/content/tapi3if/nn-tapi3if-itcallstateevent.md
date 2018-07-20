@@ -7,7 +7,7 @@ old-location: tapi3\itcallstateevent.htm
 old-project: tapi
 ms.assetid: 0885ef81-726d-41ca-be8c-b3ff2e02fc3c
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITCallStateEvent, ITCallStateEvent interface [TAPI 2.2], ITCallStateEvent interface [TAPI 2.2],described, _tapi3_itcallstateevent, tapi3.itcallstateevent, tapi3if/ITCallStateEvent
 ms.prod: windows
 ms.technology: windows-sdk

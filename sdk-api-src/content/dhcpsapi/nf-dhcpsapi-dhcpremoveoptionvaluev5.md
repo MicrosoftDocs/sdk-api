@@ -4,10 +4,10 @@ title: DhcpRemoveOptionValueV5 function
 author: windows-sdk-content
 description: The DhcpRemoveOptionValueV5 function removes an option value from a scope defined on the DHCP server.
 old-location: dhcp\dhcpremoveoptionvaluev5.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 3fe45007-0de2-4905-96d7-fe351c81ae30
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpRemoveOptionValueV5, DhcpRemoveOptionValueV5 function [DHCP], dhcp.dhcpremoveoptionvaluev5, dhcpsapi/DhcpRemoveOptionValueV5
 ms.prod: windows
 ms.technology: windows-sdk

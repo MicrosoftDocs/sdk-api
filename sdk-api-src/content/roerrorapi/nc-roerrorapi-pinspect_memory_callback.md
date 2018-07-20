@@ -7,7 +7,7 @@ old-location: winrt\pinspect_memory_callback.htm
 old-project: WinRT
 ms.assetid: A5BF207D-BB8D-47C1-8D32-0B6494809E2B
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: PINSPECT_MEMORY_CALLBACK, PINSPECT_MEMORY_CALLBACK callback, PINSPECT_MEMORY_CALLBACK callback function [Windows Runtime], roerrorapi/PINSPECT_MEMORY_CALLBACK, winrt.pinspect_memory_callback
 ms.prod: windows
 ms.technology: windows-sdk

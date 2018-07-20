@@ -7,7 +7,7 @@ old-location: mf\mfvideosurfaceinfo.htm
 old-project: medfound
 ms.assetid: b48099a2-8427-496c-9a60-ace5b89d81e9
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: MFVideoSurfaceInfo, MFVideoSurfaceInfo structure [Media Foundation], _MFVideoSurfaceInfo, b48099a2-8427-496c-9a60-ace5b89d81e9, mf.mfvideosurfaceinfo, mfobjects/MFVideoSurfaceInfo
 ms.prod: windows
 ms.technology: windows-sdk

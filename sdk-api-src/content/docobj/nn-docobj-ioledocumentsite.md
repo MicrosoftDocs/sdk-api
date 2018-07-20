@@ -7,7 +7,7 @@ old-location: com\ioledocumentsite.htm
 old-project: com
 ms.assetid: cac435c9-caee-4751-9ad8-df48b6d4c7e0
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IOleDocumentSite, IOleDocumentSite interface [COM], IOleDocumentSite interface [COM],described, _ole_ioledocumentsite, com.ioledocumentsite, docobj/IOleDocumentSite
 ms.prod: windows
 ms.technology: windows-sdk

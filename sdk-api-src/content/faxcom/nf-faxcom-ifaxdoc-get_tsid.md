@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_tsid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3xyc.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxDoc object [Fax Service],Tsid property, FaxDoc.Tsid, IFaxDoc.get_Tsid, IFaxDoc::get_Tsid, Tsid property [Fax Service], Tsid property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_tsid, fax._mfax_ifaxdoc_get_tsid, fax._mfax_ifaxdoc_get_tsid_vb, get_Tsid
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmformat\drm_copy_opl.htm
 old-project: wmformat
 ms.assetid: cf35626a-5583-440f-8f17-0c9b79bd843d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DRM_COPY_OPL, DRM_COPY_OPL structure [windows Media Format], __tagDRM_COPY_OPL, structure [windows Media Format], wmformat.drm_copy_opl, wmsdkidl/DRM_COPY_OPL
 ms.prod: windows
 ms.technology: windows-sdk

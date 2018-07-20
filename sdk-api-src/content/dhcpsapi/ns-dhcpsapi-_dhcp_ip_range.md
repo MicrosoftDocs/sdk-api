@@ -4,10 +4,10 @@ title: "_DHCP_IP_RANGE"
 author: windows-sdk-content
 description: The DHCP_IP_RANGE structure defines a range of IP addresses.
 old-location: dhcp\dhcp_ip_range.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 8d3f021d-25ac-44de-9bbc-cc558bc47f91
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*LPDHCP_IP_RANGE, DHCP_IP_RANGE, DHCP_IP_RANGE structure [DHCP], LPDHCP_IP_RANGE, LPDHCP_IP_RANGE structure pointer [DHCP], _DHCP_IP_RANGE, dhcp.dhcp_ip_range, dhcpsapi/LPDHCP_IP_RANGE, dhcpsapi/_DHCP_IP_RANGE"
 ms.prod: windows
 ms.technology: windows-sdk

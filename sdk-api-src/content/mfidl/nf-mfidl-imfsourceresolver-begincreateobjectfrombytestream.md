@@ -7,7 +7,7 @@ old-location: mf\imfsourceresolver_begincreateobjectfrombytestream.htm
 old-project: medfound
 ms.assetid: 6e218b93-4855-40dd-96cc-c4ee02792c14
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 6e218b93-4855-40dd-96cc-c4ee02792c14, BeginCreateObjectFromByteStream, BeginCreateObjectFromByteStream method [Media Foundation], BeginCreateObjectFromByteStream method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],BeginCreateObjectFromByteStream method, IMFSourceResolver.BeginCreateObjectFromByteStream, IMFSourceResolver::BeginCreateObjectFromByteStream, mf.imfsourceresolver_begincreateobjectfrombytestream, mfidl/IMFSourceResolver::BeginCreateObjectFromByteStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

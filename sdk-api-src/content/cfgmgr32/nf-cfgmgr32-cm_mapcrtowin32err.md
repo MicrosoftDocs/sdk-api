@@ -7,7 +7,7 @@ old-location: devinst\cm_mapcrtowin32err.htm
 old-project: devinst
 ms.assetid: 7FC862D9-124D-413A-9082-F524E172FBDC
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: CM_MapCrToWin32Err, CM_MapCrToWin32Err function [Device and Driver Installation], cfgmgr32/CM_MapCrToWin32Err, devinst.cm_mapcrtowin32err
 ms.prod: windows
 ms.technology: windows-sdk

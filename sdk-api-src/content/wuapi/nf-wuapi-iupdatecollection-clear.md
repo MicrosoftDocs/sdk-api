@@ -4,10 +4,10 @@ title: IUpdateCollection::Clear
 author: windows-sdk-content
 description: Removes all the elements from the collection.
 old-location: wua\iupdatecollection_clear.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 53b30472-ae1b-4d29-a411-25f03e515996
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: Clear, Clear method [Windows Update Agent], Clear method [Windows Update Agent],IUpdateCollection interface, IUpdateCollection interface [Windows Update Agent],Clear method, IUpdateCollection.Clear, IUpdateCollection::Clear, wua.iupdatecollection_clear, wuapi/IUpdateCollection::Clear
 ms.prod: windows
 ms.technology: windows-sdk

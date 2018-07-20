@@ -7,7 +7,7 @@ old-location: dshow\imediaparams_settimeformat.htm
 old-project: DirectShow
 ms.assetid: 48c28dd8-aeae-4212-9221-ab943113aa76
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IMediaParams interface [DirectShow],SetTimeFormat method, IMediaParams.SetTimeFormat, IMediaParams::SetTimeFormat, IMediaParamsSetTimeFormat, SetTimeFormat, SetTimeFormat method [DirectShow], SetTimeFormat method [DirectShow],IMediaParams interface, dshow.imediaparams_settimeformat, medparam/IMediaParams::SetTimeFormat
 ms.prod: windows
 ms.technology: windows-sdk

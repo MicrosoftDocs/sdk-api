@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice_setprivatedata.htm
 old-project: medfound
 ms.assetid: B7B9E225-A27E-4278-B191-08C0C93C86AC
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: ID3D11VideoDevice interface [Media Foundation],SetPrivateData method, ID3D11VideoDevice.SetPrivateData, ID3D11VideoDevice::SetPrivateData, SetPrivateData, SetPrivateData method [Media Foundation], SetPrivateData method [Media Foundation],ID3D11VideoDevice interface, d3d11/ID3D11VideoDevice::SetPrivateData, mf.id3d11videodevice_setprivatedata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

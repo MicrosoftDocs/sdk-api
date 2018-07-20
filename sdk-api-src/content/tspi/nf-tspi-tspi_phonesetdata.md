@@ -7,7 +7,7 @@ old-location: tspi\tspi_phonesetdata.htm
 old-project: tapi
 ms.assetid: c4861878-639b-45a5-aff8-3f1fd1a2e153
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_phoneSetData, TSPI_phoneSetData function [TAPI 2.2], _tspi_tspi_phonesetdata, tspi.tspi_phonesetdata, tspi/TSPI_phoneSetData
 ms.prod: windows
 ms.technology: windows-sdk

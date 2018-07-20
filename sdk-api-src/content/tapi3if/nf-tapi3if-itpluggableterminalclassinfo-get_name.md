@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalclassinfo_get_name.htm
 old-project: tapi
 ms.assetid: 97bd38f3-27d8-4618-9138-bd972db9abb9
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITPluggableTerminalClassInfo interface [TAPI 2.2],get_Name method, ITPluggableTerminalClassInfo.get_Name, ITPluggableTerminalClassInfo::get_Name, _tapi3_itpluggableterminalclassinfo_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITPluggableTerminalClassInfo interface, tapi3.itpluggableterminalclassinfo_get_name, tapi3if/ITPluggableTerminalClassInfo::get_Name
 ms.prod: windows
 ms.technology: windows-sdk

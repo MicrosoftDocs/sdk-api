@@ -7,7 +7,7 @@ old-location: tapi3\itcallingcard_get_numberofdigits.htm
 old-project: tapi
 ms.assetid: 9eacfd2d-b137-4923-9cfa-139473ba8298
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_NumberOfDigits method, ITCallingCard.get_NumberOfDigits, ITCallingCard::get_NumberOfDigits, _tapi3_itcallingcard_get_numberofdigits, get_NumberOfDigits, get_NumberOfDigits method [TAPI 2.2], get_NumberOfDigits method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_numberofdigits, tapi3if/ITCallingCard::get_NumberOfDigits
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\itphoneevent_get_numbergathered.htm
 old-project: tapi
 ms.assetid: 04537dbb-e1a1-445c-963e-13a8733f2566
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_NumberGathered method, ITPhoneEvent.get_NumberGathered, ITPhoneEvent::get_NumberGathered, _tapi3_itphoneevent_get_numbergathered, get_NumberGathered, get_NumberGathered method [TAPI 2.2], get_NumberGathered method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_numbergathered, tapi3if/ITPhoneEvent::get_NumberGathered
 ms.prod: windows
 ms.technology: windows-sdk

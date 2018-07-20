@@ -7,7 +7,7 @@ old-location: tapi3\itbasiccallcontrol_connect.htm
 old-project: tapi
 ms.assetid: cc9a8bfd-14c0-459c-a911-325b73323c08
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: Connect, Connect method [TAPI 2.2], Connect method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Connect method, ITBasicCallControl.Connect, ITBasicCallControl::Connect, _tapi3_itbasiccallcontrol_connect, tapi3.itbasiccallcontrol_connect, tapi3if/ITBasicCallControl::Connect
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: p2p\peergetitemcount.htm
 old-project: p2psdk
 ms.assetid: 8f6fec31-8867-4d65-b5b0-e6506be9c991
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PeerGetItemCount, PeerGetItemCount function [Peer Networking], p2p.peergetitemcount, p2p/PeerGetItemCount
 ms.prod: windows
 ms.technology: windows-sdk

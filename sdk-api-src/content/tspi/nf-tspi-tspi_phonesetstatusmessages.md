@@ -7,7 +7,7 @@ old-location: tspi\tspi_phonesetstatusmessages.htm
 old-project: tapi
 ms.assetid: 19e240e5-ba75-4806-a271-dc87235ba598
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_phoneSetStatusMessages, TSPI_phoneSetStatusMessages function [TAPI 2.2], _tspi_tspi_phonesetstatusmessages, tspi.tspi_phonesetstatusmessages, tspi/TSPI_phoneSetStatusMessages
 ms.prod: windows
 ms.technology: windows-sdk

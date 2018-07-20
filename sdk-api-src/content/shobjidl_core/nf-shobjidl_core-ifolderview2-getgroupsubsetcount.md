@@ -7,7 +7,7 @@ old-location: shell\IFolderView2_GetGroupSubsetCount.htm
 old-project: shell
 ms.assetid: f377b9ec-6421-454f-b2d0-f3d1b537e2c3
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetGroupSubsetCount, GetGroupSubsetCount method [Windows Shell], GetGroupSubsetCount method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetGroupSubsetCount method, IFolderView2.GetGroupSubsetCount, IFolderView2::GetGroupSubsetCount, _shell_IFolderView2_GetGroupSubsetCount, shell.IFolderView2_GetGroupSubsetCount, shobjidl_core/IFolderView2::GetGroupSubsetCount
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: cos\icatalogobject_ispropertywriteonly.htm
 old-project: cossdk
 ms.assetid: 463ca1eb-5386-4265-882b-fa29c4cbe877
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ICatalogObject interface [COM+],IsPropertyWriteOnly method, ICatalogObject.IsPropertyWriteOnly, ICatalogObject::IsPropertyWriteOnly, IsPropertyWriteOnly, IsPropertyWriteOnly method [COM+], IsPropertyWriteOnly method [COM+],ICatalogObject interface, _cos_ICatalogObject_IsPropertyWriteOnly, comadmin/ICatalogObject::IsPropertyWriteOnly, cos.icatalogobject_ispropertywriteonly
 ms.prod: windows
 ms.technology: windows-sdk

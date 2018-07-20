@@ -7,7 +7,7 @@ old-location: devinst\updatedriverforplugandplaydevices.htm
 old-project: devinst
 ms.assetid: dd5022df-5b65-4ed4-ac54-68149df2c851
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: UpdateDriverForPlugAndPlayDevices, UpdateDriverForPlugAndPlayDevices function [Device and Driver Installation], UpdateDriverForPlugAndPlayDevicesA, UpdateDriverForPlugAndPlayDevicesW, devinst.updatedriverforplugandplaydevices, di-rtns_a9a559d4-7b81-4bd7-b6a7-f493787a3657.xml, newdev/UpdateDriverForPlugAndPlayDevices
 ms.prod: windows
 ms.technology: windows-sdk

@@ -15,8 +15,8 @@ ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -109,8 +109,8 @@ The system is out of memory.
 In cases where the stub memory management is not enabled by the server stub itself, applications call 
 <b>RpcSmEnableAllocate</b> to establish the stub memory–management environment. This environment must be established prior to making a call to 
 <a href="https://msdn.microsoft.com/ca3373fa-8ea4-452e-b2a2-f30eb48fef9d">RpcSmAllocate</a>. In OSF-compatibility (<b>/osf</b>) mode, for server manager code called from the stub, the memory-management environment may be established by the server stub itself by using pointer manipulation or the 
-<a href="https://msdn.microsoft.com/3a232a82-f114-4d8c-8b71-cf8860c77db3">enable_allocate</a> attribute. In default (Microsoft-extended) mode, the environment is established only upon request by using the 
-<a href="https://msdn.microsoft.com/3a232a82-f114-4d8c-8b71-cf8860c77db3">enable_allocate</a> attribute. Otherwise, call 
+<a href="https://msdn.microsoft.com/">enable_allocate</a> attribute. In default (Microsoft-extended) mode, the environment is established only upon request by using the 
+<a href="https://msdn.microsoft.com/">enable_allocate</a> attribute. Otherwise, call 
 <b>RpcSmEnableAllocate</b> before calling 
 <b>RpcSmAllocate</b>. For more information, see 
 <a href="https://msdn.microsoft.com/b56ccac1-84cb-4687-bdd2-21ee716b472a">Memory Management</a>, 

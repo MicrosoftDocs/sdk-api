@@ -4,10 +4,10 @@ title: FEATURE_CHANGE_TIME
 author: windows-sdk-content
 description: This enumeration is intended for infrastructure use only.
 old-location: winprog\feature_change_time.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: BF4301FD-8F23-48EE-826C-2C4378F24CE1
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: FEATURE_CHANGE_TIME, FEATURE_CHANGE_TIME enumeration [Windows API], FEATURE_CHANGE_TIME_MODULE_RELOAD, FEATURE_CHANGE_TIME_READ, FEATURE_CHANGE_TIME_REBOOT, FEATURE_CHANGE_TIME_SESSION, FEATURE_CHANGE_TIME_USER_FLAG, featurestagingapi/FEATURE_CHANGE_TIME, featurestagingapi/FEATURE_CHANGE_TIME_MODULE_RELOAD, featurestagingapi/FEATURE_CHANGE_TIME_READ, featurestagingapi/FEATURE_CHANGE_TIME_REBOOT, featurestagingapi/FEATURE_CHANGE_TIME_SESSION, featurestagingapi/FEATURE_CHANGE_TIME_USER_FLAG, winprog.feature_change_time
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mmc\menuitem_execute.htm
 old-project: mmc
 ms.assetid: 5ae3957a-c4d6-4f1e-b0df-f4ed6bd60ca5
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: Execute, Execute method [MMC], Execute method [MMC],MenuItem interface, Execute method [MMC],MenuItem object, MenuItem interface [MMC],Execute method, MenuItem object [MMC],Execute method, MenuItem.Execute, MenuItem::Execute, _slate_menuitem.execute_method, mmc.menuitem_execute
 ms.prod: windows
 ms.technology: windows-sdk

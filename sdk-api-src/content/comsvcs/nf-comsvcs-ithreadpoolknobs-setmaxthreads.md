@@ -7,7 +7,7 @@ old-location: cos\ithreadpoolknobs_setmaxthreads.htm
 old-project: cossdk
 ms.assetid: abca2ec3-4dcd-4770-a500-1d46b87b4cda
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IThreadPoolKnobs interface [COM+],SetMaxThreads method, IThreadPoolKnobs.SetMaxThreads, IThreadPoolKnobs::SetMaxThreads, SetMaxThreads, SetMaxThreads method [COM+], SetMaxThreads method [COM+],IThreadPoolKnobs interface, _cos_IThreadPoolKnobs_SetMaxThreads, comsvcs/IThreadPoolKnobs::SetMaxThreads, cos.ithreadpoolknobs_setmaxthreads
 ms.prod: windows
 ms.technology: windows-sdk

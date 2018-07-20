@@ -7,7 +7,7 @@ old-location: tapi3\itcallmediaevent_get_event.htm
 old-project: tapi
 ms.assetid: 3dd6210f-e904-46c5-8fc3-50a62b8754ed
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Event method, ITCallMediaEvent.get_Event, ITCallMediaEvent::get_Event, _tapi3_itcallmediaevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_event, tapi3if/ITCallMediaEvent::get_Event
 ms.prod: windows
 ms.technology: windows-sdk

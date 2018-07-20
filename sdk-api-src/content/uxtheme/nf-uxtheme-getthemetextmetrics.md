@@ -4,10 +4,10 @@ title: GetThemeTextMetrics function
 author: windows-sdk-content
 description: Retrieves information about the font specified by a visual style for a particular part.
 old-location: controls\GetThemeTextMetrics.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemetextmetrics.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetThemeTextMetrics, GetThemeTextMetrics function [Windows Controls], controls.GetThemeTextMetrics, controls.inet_GetThemeTextMetrics, inet_GetThemeTextMetrics, inet_GetThemeTextMetrics_cpp, uxtheme/GetThemeTextMetrics
 ms.prod: windows
 ms.technology: windows-sdk

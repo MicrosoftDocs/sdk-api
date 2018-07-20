@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_senderofficephone_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0mzp.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxDoc object [Fax Service],SenderOfficePhone property, FaxDoc.SenderOfficePhone, IFaxDoc.get_SenderOfficePhone, IFaxDoc::get_SenderOfficePhone, SenderOfficePhone property [Fax Service], SenderOfficePhone property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_senderofficephone, fax._mfax_ifaxdoc_get_senderofficephone, fax._mfax_ifaxdoc_get_senderofficephone_vb, get_SenderOfficePhone
 ms.prod: windows
 ms.technology: windows-sdk

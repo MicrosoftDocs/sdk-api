@@ -7,7 +7,7 @@ old-location: dshow\ifullscreenvideoex_hideondeactivate.htm
 old-project: DirectShow
 ms.assetid: b2839876-40b1-4b41-a3a4-99e5cbdd9ef1
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: HideOnDeactivate, HideOnDeactivate method [DirectShow], HideOnDeactivate method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],HideOnDeactivate method, IFullScreenVideoEx.HideOnDeactivate, IFullScreenVideoEx::HideOnDeactivate, IFullScreenVideoHideOnDeactivate, amvideo/IFullScreenVideoEx::HideOnDeactivate, dshow.ifullscreenvideoex_hideondeactivate
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\itsubstreamcontrol_createsubstream.htm
 old-project: tapi
 ms.assetid: 00fe0f8f-c814-4ae6-a60b-c58f3dc60b67
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: CreateSubStream, CreateSubStream method [TAPI 2.2], CreateSubStream method [TAPI 2.2],ITSubStreamControl interface, ITSubStreamControl interface [TAPI 2.2],CreateSubStream method, ITSubStreamControl.CreateSubStream, ITSubStreamControl::CreateSubStream, _tapi3_itsubstreamcontrol_createsubstream, tapi3.itsubstreamcontrol_createsubstream, tapi3if/ITSubStreamControl::CreateSubStream
 ms.prod: windows
 ms.technology: windows-sdk

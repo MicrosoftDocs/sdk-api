@@ -4,10 +4,10 @@ title: IPInterfaceInfo
 author: windows-sdk-content
 description: The IPInterfaceInfo structure contains information about a specific IP interface, returned by the IOCTL_TCP_QUERY_INFORMATION_EX control code.
 old-location: winprog\ipinterfaceinfo.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: dc9de369-f739-475c-96f5-e2e058705fe8
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IPInterfaceInfo, IPInterfaceInfo structure [Windows API], tcpioctl/IPInterfaceInfo, winprog.ipinterfaceinfo
 ms.prod: windows
 ms.technology: windows-sdk

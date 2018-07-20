@@ -7,7 +7,7 @@ old-location: tapi2\linegetagentcaps.htm
 old-project: tapi
 ms.assetid: 04bb6c00-2654-4707-ab11-2490ab5d9ab0
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_linegetagentcaps, lineGetAgentCaps, lineGetAgentCaps function [TAPI 2.2], lineGetAgentCapsA, lineGetAgentCapsW, tapi/lineGetAgentCaps, tapi/lineGetAgentCapsA, tapi/lineGetAgentCapsW, tapi2.linegetagentcaps"
 ms.prod: windows
 ms.technology: windows-sdk

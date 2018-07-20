@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_apiversion_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_43vy.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: APIVersion property [Fax Service], APIVersion property [Fax Service],FaxServer object, FaxServer object [Fax Service],APIVersion property, FaxServer.APIVersion, IFaxServer.get_APIVersion, IFaxServer::get_APIVersion, _mfax_faxserver.apiversion, fax._mfax_faxserver_apiversion, fax._mfax_faxserver_apiversion_vb, get_APIVersion
 ms.prod: windows
 ms.technology: windows-sdk

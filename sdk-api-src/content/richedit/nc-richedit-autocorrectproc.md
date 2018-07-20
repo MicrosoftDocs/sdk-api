@@ -4,10 +4,10 @@ title: AutoCorrectProc
 author: windows-sdk-content
 description: The AutoCorrectProc function is an application-defined callback function that is used with the EM_SETAUTOCORRECTPROC message.
 old-location: controls\autocorrectproc.htm
-old-project: Controls
+old-project: controls
 ms.assetid: 36EF880D-F6A9-434A-820B-17E663357573
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: AutoCorrectProc, AutoCorrectProc callback, AutoCorrectProc callback function [Windows Controls], controls.autocorrectproc, richedit/AutoCorrectProc
 ms.prod: windows
 ms.technology: windows-sdk

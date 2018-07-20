@@ -7,7 +7,7 @@ old-location: shell\idatatransfermanagerinterop.htm
 old-project: shell
 ms.assetid: C4F49401-C863-4D3B-80EE-D36F714E7D90
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IDataTransferManagerInterop, IDataTransferManagerInterop interface [Windows Shell], IDataTransferManagerInterop interface [Windows Shell],described, shell.idatatransfermanagerinterop, shobjidl_core/IDataTransferManagerInterop
 ms.prod: windows
 ms.technology: windows-sdk

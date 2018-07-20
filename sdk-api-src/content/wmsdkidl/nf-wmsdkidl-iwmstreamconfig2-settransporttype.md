@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamconfig2_settransporttype.htm
 old-project: wmformat
 ms.assetid: 89958c80-2140-49ab-b696-189e8f722e96
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IWMStreamConfig2 interface [windows Media Format],SetTransportType method, IWMStreamConfig2.SetTransportType, IWMStreamConfig2::SetTransportType, IWMStreamConfig2SetTransportType, SetTransportType, SetTransportType method [windows Media Format], SetTransportType method [windows Media Format],IWMStreamConfig2 interface, wmformat.iwmstreamconfig2_settransporttype, wmsdkidl/IWMStreamConfig2::SetTransportType
 ms.prod: windows
 ms.technology: windows-sdk

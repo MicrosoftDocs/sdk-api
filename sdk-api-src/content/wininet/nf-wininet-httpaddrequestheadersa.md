@@ -7,7 +7,7 @@ old-location: wininet\httpaddrequestheaders.htm
 old-project: wininet
 ms.assetid: 636c3442-a2e6-4885-8fb4-1f6996ba6860
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/18/2018
 ms.keywords: HTTP_ADDREQ_FLAG_ADD, HTTP_ADDREQ_FLAG_ADD_IF_NEW, HTTP_ADDREQ_FLAG_COALESCE, HTTP_ADDREQ_FLAG_COALESCE_WITH_COMMA, HTTP_ADDREQ_FLAG_COALESCE_WITH_SEMICOLON, HTTP_ADDREQ_FLAG_REPLACE, HttpAddRequestHeaders, HttpAddRequestHeaders function [WinINet], HttpAddRequestHeadersA, HttpAddRequestHeadersW, _inet_httpaddrequestheaders_function, wininet.httpaddrequestheaders, wininet/HttpAddRequestHeaders, wininet/HttpAddRequestHeadersA, wininet/HttpAddRequestHeadersW
 ms.prod: windows
 ms.technology: windows-sdk

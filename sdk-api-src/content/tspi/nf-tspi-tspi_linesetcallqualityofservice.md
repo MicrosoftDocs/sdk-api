@@ -7,7 +7,7 @@ old-location: tspi\tspi_linesetcallqualityofservice.htm
 old-project: tapi
 ms.assetid: ebef3ee3-94e3-4aef-831d-5ce031882b5c
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineSetCallQualityOfService, TSPI_lineSetCallQualityOfService function [TAPI 2.2], _tspi_tspi_linesetcallqualityofservice, tspi.tspi_linesetcallqualityofservice, tspi/TSPI_lineSetCallQualityOfService
 ms.prod: windows
 ms.technology: windows-sdk

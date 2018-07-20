@@ -7,7 +7,7 @@ old-location: cos\csc_iisintrinsicsconfig.htm
 old-project: cossdk
 ms.assetid: 69a3989b-724c-4e32-8a6a-4892610b0118
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CSC_IISIntrinsicsConfig, CSC_IISIntrinsicsConfig enumeration [COM+], CSC_InheritIISIntrinsics, CSC_NoIISIntrinsics, _cos_CSC_IISIntrinsicsConfig, comsvcs/CSC_IISIntrinsicsConfig, comsvcs/CSC_InheritIISIntrinsics, comsvcs/CSC_NoIISIntrinsics, cos.csc_iisintrinsicsconfig, tagCSC_IISIntrinsicsConfig
 ms.prod: windows
 ms.technology: windows-sdk

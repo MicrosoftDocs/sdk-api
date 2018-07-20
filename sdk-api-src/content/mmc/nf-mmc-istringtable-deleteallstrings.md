@@ -7,7 +7,7 @@ old-location: mmc\istringtable_deleteallstrings.htm
 old-project: mmc
 ms.assetid: 9a0b02f6-3c15-4687-a1b8-2beba40dd1dc
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: DeleteAllStrings, DeleteAllStrings method [MMC], DeleteAllStrings method [MMC],IStringTable interface, IStringTable interface [MMC],DeleteAllStrings method, IStringTable.DeleteAllStrings, IStringTable::DeleteAllStrings, _slate_istringtable_deleteallstrings, mmc.istringtable_deleteallstrings, mmc/IStringTable::DeleteAllStrings
 ms.prod: windows
 ms.technology: windows-sdk

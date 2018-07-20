@@ -7,7 +7,7 @@ old-location: p2p\peercollabunregisterapplication.htm
 old-project: p2psdk
 ms.assetid: 2479b726-20f1-4370-9fcf-f29cec44c3ec
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PeerCollabUnregisterApplication, PeerCollabUnregisterApplication function [Peer Networking], p2p.peercollabunregisterapplication, p2p/PeerCollabUnregisterApplication
 ms.prod: windows
 ms.technology: windows-sdk

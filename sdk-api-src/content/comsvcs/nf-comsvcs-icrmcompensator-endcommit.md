@@ -7,7 +7,7 @@ old-location: cos\icrmcompensator_endcommit.htm
 old-project: cossdk
 ms.assetid: 83701797-c386-4471-91ed-cbe936b1988e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: EndCommit, EndCommit method [COM+], EndCommit method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],EndCommit method, ICrmCompensator.EndCommit, ICrmCompensator::EndCommit, _dtc_ICrmCompensator_EndCommit, comsvcs/ICrmCompensator::EndCommit, cos.icrmcompensator_endcommit
 ms.prod: windows
 ms.technology: windows-sdk

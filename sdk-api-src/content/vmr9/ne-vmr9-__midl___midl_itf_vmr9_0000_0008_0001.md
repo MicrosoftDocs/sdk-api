@@ -7,7 +7,7 @@ old-location: dshow\vmr9renderprefs.htm
 old-project: DirectShow
 ms.assetid: a32119c2-a10d-41a0-b3e9-500323eb3094
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: RenderPrefs9_DoNotRenderBorder, RenderPrefs9_Mask, VMR9RenderPrefs, VMR9RenderPrefs , VMR9RenderPrefs enumeration [DirectShow], VMR9RenderPrefsEnumeration, __MIDL___MIDL_itf_vmr9_0000_0008_0001, dshow.vmr9renderprefs, vmr9/RenderPrefs9_DoNotRenderBorder, vmr9/RenderPrefs9_Mask, vmr9/VMR9RenderPrefs
 ms.prod: windows
 ms.technology: windows-sdk

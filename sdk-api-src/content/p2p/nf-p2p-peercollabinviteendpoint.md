@@ -7,7 +7,7 @@ old-location: p2p\peercollabinviteendpoint.htm
 old-project: p2psdk
 ms.assetid: c77eee5b-6fee-4eaa-ac0e-94a0fd3df92e
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PeerCollabInviteEndpoint, PeerCollabInviteEndpoint function [Peer Networking], p2p.peercollabinviteendpoint, p2p/PeerCollabInviteEndpoint
 ms.prod: windows
 ms.technology: windows-sdk

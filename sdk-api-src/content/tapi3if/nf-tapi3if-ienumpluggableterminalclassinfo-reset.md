@@ -7,7 +7,7 @@ old-location: tapi3\ienumpluggableterminalclassinfo_reset.htm
 old-project: tapi
 ms.assetid: 075faaed-4678-4676-8780-e5b595541488
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumPluggableTerminalClassInfo interface [TAPI 2.2],Reset method, IEnumPluggableTerminalClassInfo.Reset, IEnumPluggableTerminalClassInfo::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumPluggableTerminalClassInfo interface, _tapi3_ienumpluggableterminalclassinfo_reset, tapi3.ienumpluggableterminalclassinfo_reset, tapi3if/IEnumPluggableTerminalClassInfo::Reset
 ms.prod: windows
 ms.technology: windows-sdk

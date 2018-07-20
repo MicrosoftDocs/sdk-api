@@ -7,7 +7,7 @@ old-location: mmc\iresultdatacompareex.htm
 old-project: mmc
 ms.assetid: e4b305e4-4649-42f4-86f4-3c12e5aa5337
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: IResultDataCompareEx, IResultDataCompareEx interface [MMC], IResultDataCompareEx interface [MMC],described, _slate_iresultdatacompareex, mmc.iresultdatacompareex, mmc/IResultDataCompareEx
 ms.prod: windows
 ms.technology: windows-sdk

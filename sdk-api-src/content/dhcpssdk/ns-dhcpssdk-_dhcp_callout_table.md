@@ -4,10 +4,10 @@ title: "_DHCP_CALLOUT_TABLE"
 author: windows-sdk-content
 description: The DHCP_CALLOUT_TABLE structure is used by Microsoft DHCP Server and third-party DLLs to send notification requests for DHCP Server events.
 old-location: dhcp\dhcp_callout_table.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: fa57e5c5-2335-44ba-8642-61dcb8b33ffe
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*LPDHCP_CALLOUT_TABLE, DHCP_CALLOUT_TABLE, DHCP_CALLOUT_TABLE structure [DHCP], LPDHCP_CALLOUT_TABLE, LPDHCP_CALLOUT_TABLE structure pointer [DHCP], _DHCP_CALLOUT_TABLE, _dhcp_dhcp_callout_table, dhcp.dhcp_callout_table, dhcpssdk/DHCP_CALLOUT_TABLE, dhcpssdk/LPDHCP_CALLOUT_TABLE"
 ms.prod: windows
 ms.technology: windows-sdk

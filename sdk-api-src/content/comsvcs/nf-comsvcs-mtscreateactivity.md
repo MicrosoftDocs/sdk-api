@@ -7,7 +7,7 @@ old-location: cos\mtscreateactivity.htm
 old-project: cossdk
 ms.assetid: 25ae1f2e-f937-4d06-9709-ded2fc8c5777
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: MTSCreateActivity, MTSCreateActivity function [COM+], _cos_MTSCreateActivity, comsvcs/MTSCreateActivity, cos.mtscreateactivity
 ms.prod: windows
 ms.technology: windows-sdk

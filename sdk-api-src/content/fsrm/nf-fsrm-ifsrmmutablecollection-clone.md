@@ -4,10 +4,10 @@ title: IFsrmMutableCollection::Clone
 author: windows-sdk-content
 description: Creates a duplicate IFsrmMutableCollection collection.
 old-location: fsrm\ifsrmmutablecollection_clone.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 8d673a7c-c8c3-409c-881f-58b87bf0809f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Clone, Clone method [File Server Resource Manager], Clone method [File Server Resource Manager],IFsrmMutableCollection interface, IFsrmMutableCollection interface [File Server Resource Manager],Clone method, IFsrmMutableCollection.Clone, IFsrmMutableCollection::Clone, fs.ifsrmmutablecollection_clone, fsrm.ifsrmmutablecollection_clone, fsrm/IFsrmMutableCollection::Clone
 ms.prod: windows
 ms.technology: windows-sdk

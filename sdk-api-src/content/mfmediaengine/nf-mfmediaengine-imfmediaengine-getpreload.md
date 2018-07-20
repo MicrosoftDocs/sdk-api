@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getpreload.htm
 old-project: medfound
 ms.assetid: AA1942B2-C5BB-46F7-B163-1BCB3372D453
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetPreload, GetPreload method [Media Foundation], GetPreload method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetPreload method, IMFMediaEngine.GetPreload, IMFMediaEngine::GetPreload, mf.imfmediaengine_getpreload, mfmediaengine/IMFMediaEngine::GetPreload
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

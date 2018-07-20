@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandler_GetPolicies.htm
 old-project: shell
 ms.assetid: ff30441a-43bb-4f30-af04-4d2056b8dfb0
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetPolicies, GetPolicies method [Windows Shell], GetPolicies method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetPolicies method, ISyncMgrHandler.GetPolicies, ISyncMgrHandler::GetPolicies, _shell_ISyncMgrHandler_GetPolicies, shell.ISyncMgrHandler_GetPolicies, syncmgr/ISyncMgrHandler::GetPolicies
 ms.prod: windows
 ms.technology: windows-sdk

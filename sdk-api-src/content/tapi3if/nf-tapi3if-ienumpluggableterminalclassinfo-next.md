@@ -7,7 +7,7 @@ old-location: tapi3\ienumpluggableterminalclassinfo_next.htm
 old-project: tapi
 ms.assetid: 6a661738-06e9-49b8-948a-02c61c621fdd
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumPluggableTerminalClassInfo interface [TAPI 2.2],Next method, IEnumPluggableTerminalClassInfo.Next, IEnumPluggableTerminalClassInfo::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumPluggableTerminalClassInfo interface, _tapi3_ienumpluggableterminalclassinfo_next, tapi3.ienumpluggableterminalclassinfo_next, tapi3if/IEnumPluggableTerminalClassInfo::Next
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: intl\convertdefaultlocale.htm
 old-project: Intl
 ms.assetid: e227bb9f-f072-4e44-bd55-24c98b990a36
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 07/18/2018
 ms.keywords: ConvertDefaultLocale, ConvertDefaultLocale function [Internationalization for Windows Applications], _win32_ConvertDefaultLocale, intl.convertdefaultlocale, winnls/ConvertDefaultLocale
 ms.prod: windows
 ms.technology: windows-sdk

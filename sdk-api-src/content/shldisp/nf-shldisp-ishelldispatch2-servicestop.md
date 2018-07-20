@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_ServiceStop.htm
 old-project: shell
 ms.assetid: f4cd0e2c-4ecc-4e9f-a0b5-d2a8a739f0e2
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IShellDispatch2 object [Windows Shell],ServiceStop method, IShellDispatch2.ServiceStop, IShellDispatch2::ServiceStop, ServiceStop, ServiceStop method [Windows Shell], ServiceStop method [Windows Shell],IShellDispatch2 object, _win32_IShellDispatch2_ServiceStop, shell.IShellDispatch2_ServiceStop
 ms.prod: windows
 ms.technology: windows-sdk

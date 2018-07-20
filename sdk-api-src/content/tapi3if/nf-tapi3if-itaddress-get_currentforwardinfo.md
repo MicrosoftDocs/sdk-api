@@ -7,7 +7,7 @@ old-location: tapi3\itaddress_get_currentforwardinfo.htm
 old-project: tapi
 ms.assetid: 7817ac03-d9fc-4042-ae7d-350ee6cbef53
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_CurrentForwardInfo method, ITAddress.get_CurrentForwardInfo, ITAddress::get_CurrentForwardInfo, _tapi3_itaddress_get_currentforwardinfo, get_CurrentForwardInfo, get_CurrentForwardInfo method [TAPI 2.2], get_CurrentForwardInfo method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_currentforwardinfo, tapi3if/ITAddress::get_CurrentForwardInfo
 ms.prod: windows
 ms.technology: windows-sdk

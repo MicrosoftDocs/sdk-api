@@ -7,7 +7,7 @@ old-location: tapi3\ienumcallhub_clone.htm
 old-project: tapi
 ms.assetid: 034d6f56-b3b7-4b8d-af49-e94d5fdfe47e
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumCallHub interface, IEnumCallHub interface [TAPI 2.2],Clone method, IEnumCallHub.Clone, IEnumCallHub::Clone, _tapi3_ienumcallhub_clone, tapi3.ienumcallhub_clone, tapi3if/IEnumCallHub::Clone
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\itagent_get_state.htm
 old-project: tapi
 ms.assetid: 6690a62b-65a1-4892-aeee-4a6652939d5f
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_State method, ITAgent.get_State, ITAgent::get_State, _tapi3_itagent_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_state, tapi3cc/ITAgent::get_State
 ms.prod: windows
 ms.technology: windows-sdk

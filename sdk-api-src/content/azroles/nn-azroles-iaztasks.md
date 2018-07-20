@@ -4,10 +4,10 @@ title: IAzTasks
 author: windows-sdk-content
 description: Represents a collection of IAzTask objects.
 old-location: security\iaztasks.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 324dec16-3fd6-4289-ba15-002e8626dec8
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: IAzTasks, IAzTasks interface [Security], IAzTasks interface [Security],described, azroles/IAzTasks, security.iaztasks
 ms.prod: windows
 ms.technology: windows-sdk

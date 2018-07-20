@@ -7,7 +7,7 @@ old-location: devinst\cm_delete_device_interface_key.htm
 old-project: devinst
 ms.assetid: 3DA5BD50-54AE-47A5-A99C-9E24CB2FA3D6
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: CM_Delete_Device_Interface_Key, CM_Delete_Device_Interface_Key function [Device and Driver Installation], CM_Delete_Device_Interface_KeyW, cfgmgr32/CM_Delete_Device_Interface_Key, cfgmgr32/CM_Delete_Device_Interface_KeyW, devinst.cm_delete_device_interface_key
 ms.prod: windows
 ms.technology: windows-sdk

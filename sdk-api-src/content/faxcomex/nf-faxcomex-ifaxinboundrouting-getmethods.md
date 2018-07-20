@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundrouting_getmethods.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2x9v.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxInboundRouting object [Fax Service],GetMethods method, FaxInboundRouting.GetMethods, GetMethods, GetMethods method [Fax Service], GetMethods method [Fax Service],FaxInboundRouting object, IFaxInboundRouting.GetMethods, IFaxInboundRouting::GetMethods, _mfax_faxinboundrouting.getmethods, fax._mfax_faxinboundrouting_getmethods
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: p2p\peer_record_change_type.htm
 old-project: p2psdk
 ms.assetid: d2451b45-eb42-4401-ab1d-505a41e25822
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PEER_RECORD_ADDED, PEER_RECORD_CHANGE_TYPE, PEER_RECORD_CHANGE_TYPE enumeration [Peer Networking], PEER_RECORD_DELETED, PEER_RECORD_EXPIRED, PEER_RECORD_UPDATED, p2p.peer_record_change_type, p2p/ PEER_RECORD_CHANGE_TYPE, p2p/PEER_RECORD_ADDED, p2p/PEER_RECORD_DELETED, p2p/PEER_RECORD_EXPIRED, p2p/PEER_RECORD_UPDATED, peer_record_change_type_tag
 ms.prod: windows
 ms.technology: windows-sdk

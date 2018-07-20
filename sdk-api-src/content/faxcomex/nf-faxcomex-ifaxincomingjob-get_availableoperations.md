@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingjob_availableoperations.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0z1v.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: AvailableOperations property [Fax Service], AvailableOperations property [Fax Service],FaxIncomingJob object, FaxIncomingJob object [Fax Service],AvailableOperations property, FaxIncomingJob.AvailableOperations, IFaxIncomingJob.get_AvailableOperations, IFaxIncomingJob::get_AvailableOperations, _mfax_faxincomingjob.availableoperations, fax._mfax_faxincomingjob_availableoperations, get_AvailableOperations
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\mfcreatewmvencoderactivate.htm
 old-project: medfound
 ms.assetid: f818dba1-e28f-4fd4-813d-33f638d979d7
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: MFCreateWMVEncoderActivate, MFCreateWMVEncoderActivate function [Media Foundation], f818dba1-e28f-4fd4-813d-33f638d979d7, mf.mfcreatewmvencoderactivate, wmcontainer/MFCreateWMVEncoderActivate
 ms.prod: windows
 ms.technology: windows-sdk

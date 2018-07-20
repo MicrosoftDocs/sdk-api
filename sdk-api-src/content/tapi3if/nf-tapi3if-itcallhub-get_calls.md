@@ -7,7 +7,7 @@ old-location: tapi3\itcallhub_get_calls.htm
 old-project: tapi
 ms.assetid: 56634ab6-b905-48bb-a4d1-7ca1f0c4c0cf
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITCallHub interface [TAPI 2.2],get_Calls method, ITCallHub.get_Calls, ITCallHub::get_Calls, _tapi3_itcallhub_get_calls, get_Calls, get_Calls method [TAPI 2.2], get_Calls method [TAPI 2.2],ITCallHub interface, tapi3.itcallhub_get_calls, tapi3if/ITCallHub::get_Calls
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\videoinfoheader.htm
 old-project: DirectShow
 ms.assetid: a175592b-0dc1-4001-b52f-785407965932
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: VIDEOINFOHEADER, VIDEOINFOHEADER structure [DirectShow], VIDEOINFOHEADERStructure, amvideo/VIDEOINFOHEADER, dshow.videoinfoheader, tagVIDEOINFOHEADER
 ms.prod: windows
 ms.technology: windows-sdk

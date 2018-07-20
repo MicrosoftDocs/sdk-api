@@ -7,7 +7,7 @@ old-location: dshow\imemallocatorcallbacktemp_getfreecount.htm
 old-project: DirectShow
 ms.assetid: 2dd0cdb3-664a-4022-b8bb-fda759172dd6
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetFreeCount, GetFreeCount method [DirectShow], GetFreeCount method [DirectShow],IMemAllocatorCallbackTemp interface, IMemAllocatorCallbackTemp interface [DirectShow],GetFreeCount method, IMemAllocatorCallbackTemp.GetFreeCount, IMemAllocatorCallbackTemp::GetFreeCount, IMemAllocatorCallbackTempGetFreeCount, dshow.imemallocatorcallbacktemp_getfreecount, strmif/IMemAllocatorCallbackTemp::GetFreeCount
 ms.prod: windows
 ms.technology: windows-sdk

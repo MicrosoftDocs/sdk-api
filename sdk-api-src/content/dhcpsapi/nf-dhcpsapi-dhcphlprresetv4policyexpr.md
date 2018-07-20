@@ -4,10 +4,10 @@ title: DhcpHlprResetV4PolicyExpr function
 author: windows-sdk-content
 description: Resets the DHCP server policy expression in a DHCP server policy structure.
 old-location: dhcp\dhcphlprresetv4policyexpr.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 5f252840-d474-405e-8b32-50e6efe35f62
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DhcpHlprResetV4PolicyExpr, DhcpHlprResetV4PolicyExpr function [DHCP], dhcp.dhcphlprresetv4policyexpr, dhcpsapi/DhcpHlprResetV4PolicyExpr
 ms.prod: windows
 ms.technology: windows-sdk

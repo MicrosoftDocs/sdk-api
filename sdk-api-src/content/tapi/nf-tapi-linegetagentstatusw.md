@@ -7,7 +7,7 @@ old-location: tapi2\linegetagentstatus.htm
 old-project: tapi
 ms.assetid: 6736cde5-af38-493d-b09a-a807d9e9a382
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_linegetagentstatus, lineGetAgentStatus, lineGetAgentStatus function [TAPI 2.2], lineGetAgentStatusA, lineGetAgentStatusW, tapi/lineGetAgentStatus, tapi/lineGetAgentStatusA, tapi/lineGetAgentStatusW, tapi2.linegetagentstatus"
 ms.prod: windows
 ms.technology: windows-sdk

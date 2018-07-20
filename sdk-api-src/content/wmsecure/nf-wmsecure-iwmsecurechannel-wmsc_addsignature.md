@@ -7,7 +7,7 @@ old-location: wmformat\iwmsecurechannel_wmsc_addsignature.htm
 old-project: wmformat
 ms.assetid: 08fa8ec6-8832-4b5d-bb0d-0a7485ca63d3
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_AddSignature method, IWMSecureChannel.WMSC_AddSignature, IWMSecureChannel::WMSC_AddSignature, WMSC_AddSignature, WMSC_AddSignature method [windows Media Format], WMSC_AddSignature method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_addsignature, wmsecure/IWMSecureChannel::WMSC_AddSignature
 ms.prod: windows
 ms.technology: windows-sdk

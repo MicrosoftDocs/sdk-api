@@ -7,7 +7,7 @@ old-location: mmc\extension_enable.htm
 old-project: mmc
 ms.assetid: 7e060b12-880d-4639-8571-63e237446847
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: Enable, Enable method [MMC], Enable method [MMC],Extension interface, Enable method [MMC],Extension object, Extension interface [MMC],Enable method, Extension object [MMC],Enable method, Extension.Enable, Extension::Enable, _slate_extension.enable_method, mmc.extension_enable
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\itlegacyaddressmediacontrol_getdevconfig.htm
 old-project: tapi
 ms.assetid: ed8cc556-31a5-4725-92fe-1f78c16aadcd
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: GetDevConfig, GetDevConfig method [TAPI 2.2], GetDevConfig method [TAPI 2.2],ITLegacyAddressMediaControl interface, ITLegacyAddressMediaControl interface [TAPI 2.2],GetDevConfig method, ITLegacyAddressMediaControl.GetDevConfig, ITLegacyAddressMediaControl::GetDevConfig, _tapi3_itlegacyaddressmediacontrol_getdevconfig, tapi3.itlegacyaddressmediacontrol_getdevconfig, tapi3if/ITLegacyAddressMediaControl::GetDevConfig
 ms.prod: windows
 ms.technology: windows-sdk

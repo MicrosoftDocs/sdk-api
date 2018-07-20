@@ -4,10 +4,10 @@ title: IRDPSRAPIPerfCounterLoggingManager
 author: windows-sdk-content
 description: Manages IRDPSRAPIPerfCounterLogger objects.
 old-location: rdp\irdpsrapiperfcounterloggingmanager.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: 611ABFB6-851F-4A2C-86A0-E26732CD20BE
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IRDPSRAPIPerfCounterLoggingManager, IRDPSRAPIPerfCounterLoggingManager class [RDP], IRDPSRAPIPerfCounterLoggingManager class [RDP],described, rdp.irdpsrapiperfcounterloggingmanager, rdp.irdpsrapiperfcounterloggingmanager_, rdpencomapi/IRDPSRAPIPerfCounterLoggingManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

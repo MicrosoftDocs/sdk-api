@@ -7,7 +7,7 @@ old-location: tapi2\linemonitordigits.htm
 old-project: tapi
 ms.assetid: 7987761f-429c-4a6f-876b-eafe4274907a
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_linemonitordigits, lineMonitorDigits, lineMonitorDigits function [TAPI 2.2], tapi/lineMonitorDigits, tapi2.linemonitordigits"
 ms.prod: windows
 ms.technology: windows-sdk

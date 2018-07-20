@@ -4,10 +4,10 @@ title: DhcpV4FailoverAddScopeToRelationship function
 author: windows-sdk-content
 description: Adds a DHCPv4 scope to the specified failover relationship.
 old-location: dhcp\dhcpv4failoveraddscopetorelationship.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: fc54b3dc-86b3-4a18-b05f-7152097f8d5b
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DhcpV4FailoverAddScopeToRelationship, DhcpV4FailoverAddScopeToRelationship function [DHCP], dhcp.dhcpv4failoveraddscopetorelationship, dhcpsapi/DhcpV4FailoverAddScopeToRelationship
 ms.prod: windows
 ms.technology: windows-sdk

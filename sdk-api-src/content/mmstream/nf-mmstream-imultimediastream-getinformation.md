@@ -7,7 +7,7 @@ old-location: dshow\imultimediastream_getinformation.htm
 old-project: DirectShow
 ms.assetid: 27be6104-9ca4-48d7-aeda-5b633460e252
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetInformation, GetInformation method [DirectShow], GetInformation method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetInformation method, IMultiMediaStream.GetInformation, IMultiMediaStream::GetInformation, IMultiMediaStreamGetInformation, dshow.imultimediastream_getinformation, mmstream/IMultiMediaStream::GetInformation
 ms.prod: windows
 ms.technology: windows-sdk

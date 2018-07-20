@@ -7,7 +7,7 @@ old-location: tapi3\itaddress2.htm
 old-project: tapi
 ms.assetid: 3cc47291-8130-45bd-8db8-c5d1b463507d
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITAddress2, ITAddress2 interface [TAPI 2.2], ITAddress2 interface [TAPI 2.2],described, _tapi3_itaddress2, tapi3.itaddress2, tapi3if/ITAddress2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -118,6 +118,16 @@ Offset, in bytes, of a broader piece of data to provide to a sync provider. This
 Length, in bytes, of a broader piece of data to provide to a sync provider. This is optional and can be used if the sync provider prefers to work with larger segments of data.
 
 
+### -field DUMMYUNIONNAME.FetchData.LastDehydrationTime
+
+ 
+
+
+### -field DUMMYUNIONNAME.FetchData.LastDehydrationReason
+
+ 
+
+
 ### -field DUMMYUNIONNAME.ValidateData
 
 
@@ -173,12 +183,22 @@ Placeholder close completion flags.
 Placeholder dehydration flags.
 
 
+### -field DUMMYUNIONNAME.Dehydrate.Reason
+
+ 
+
+
 ### -field DUMMYUNIONNAME.DehydrateCompletion
 
  
 
 
 ### -field DUMMYUNIONNAME.DehydrateCompletion.Flags
+
+ 
+
+
+### -field DUMMYUNIONNAME.DehydrateCompletion.Reason
 
  
 

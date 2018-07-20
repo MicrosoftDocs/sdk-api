@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_processor_stereo_caps.htm
 old-project: medfound
 ms.assetid: 352B982A-E950-4593-973E-ECDAFCF2A5F4
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_STEREO_CAPS, D3D11_VIDEO_PROCESSOR_STEREO_CAPS enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_STEREO_CAPS_CHECKERBOARD, D3D11_VIDEO_PROCESSOR_STEREO_CAPS_COLUMN_INTERLEAVED, D3D11_VIDEO_PROCESSOR_STEREO_CAPS_FLIP_MODE, D3D11_VIDEO_PROCESSOR_STEREO_CAPS_MONO_OFFSET, D3D11_VIDEO_PROCESSOR_STEREO_CAPS_ROW_INTERLEAVED, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS_CHECKERBOARD, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS_COLUMN_INTERLEAVED, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS_FLIP_MODE, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS_MONO_OFFSET, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS_ROW_INTERLEAVED, mf.d3d11_video_processor_stereo_caps
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

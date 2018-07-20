@@ -7,7 +7,7 @@ old-location: shell\UShortToShort.htm
 old-project: shell
 ms.assetid: 77fd8f32-0b24-4d03-8a6e-d7512c8c6482
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: UShortToShort, UShortToShort function [Windows Shell], WordToShort, _shell_UShortToShort, intsafe/UShortToShort, shell.UShortToShort
 ms.prod: windows
 ms.technology: windows-sdk

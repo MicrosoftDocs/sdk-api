@@ -7,7 +7,7 @@ old-location: multimedia\icabout.htm
 old-project: Multimedia
 ms.assetid: 18ec2659-8589-4a13-95ea-825a3aecbf98
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/17/2018
 ms.keywords: ICAbout, ICAbout macro [Windows Multimedia], _win32_ICAbout, multimedia.icabout, vfw/ICAbout
 ms.prod: windows
 ms.technology: windows-sdk

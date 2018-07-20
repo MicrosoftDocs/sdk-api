@@ -4,10 +4,10 @@ title: TreeView_SetLineColor macro
 author: windows-sdk-content
 description: Sets the current line color. You can also use the TVM_SETLINECOLOR message directly.
 old-location: controls\TreeView_SetLineColor.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setlinecolor.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: TreeView_SetLineColor, TreeView_SetLineColor macro [Windows Controls], _win32_TreeView_SetLineColor, _win32_TreeView_SetLineColor_cpp, commctrl/TreeView_SetLineColor, controls.TreeView_SetLineColor, controls._win32_TreeView_SetLineColor
 ms.prod: windows
 ms.technology: windows-sdk

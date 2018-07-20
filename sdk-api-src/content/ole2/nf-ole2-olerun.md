@@ -7,7 +7,7 @@ old-location: com\olerun.htm
 old-project: com
 ms.assetid: 9035f996-b163-4855-aa9d-184b77072ead
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: OleRun, OleRun function [COM], _ole_OleRun, com.olerun, ole2/OleRun
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IExplorerBrowser_Initialize.htm
 old-project: shell
 ms.assetid: 4b86646a-a20c-4bb5-a4c8-5c2e11e18862
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],Initialize method, IExplorerBrowser.Initialize, IExplorerBrowser::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_Initialize, shell.IExplorerBrowser_Initialize, shobjidl_core/IExplorerBrowser::Initialize
 ms.prod: windows
 ms.technology: windows-sdk

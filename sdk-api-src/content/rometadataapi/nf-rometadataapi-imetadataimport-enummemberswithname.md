@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_enummemberswithname.htm
 old-project: WinRT
 ms.assetid: cfb72609-7db5-4780-aeeb-b3effa37665a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: EnumMembersWithName, EnumMembersWithName method [Windows Runtime], EnumMembersWithName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMembersWithName method, IMetaDataImport.EnumMembersWithName, IMetaDataImport::EnumMembersWithName, rometadataapi/IMetaDataImport::EnumMembersWithName, winrt.imetadataimport_enummemberswithname
 ms.prod: windows
 ms.technology: windows-sdk

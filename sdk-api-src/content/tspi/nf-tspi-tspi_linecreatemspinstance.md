@@ -7,7 +7,7 @@ old-location: tspi\tspi_linecreatemspinstance.htm
 old-project: tapi
 ms.assetid: 1d3421d8-2ef8-4f62-b6b0-5671a18ffc0b
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineCreateMSPInstance, TSPI_lineCreateMSPInstance function [TAPI 2.2], _tspi_tspi_linecreatemspinstance, tspi.tspi_linecreatemspinstance, tspi/TSPI_lineCreateMSPInstance
 ms.prod: windows
 ms.technology: windows-sdk

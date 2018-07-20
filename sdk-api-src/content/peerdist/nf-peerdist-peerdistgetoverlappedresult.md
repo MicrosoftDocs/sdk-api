@@ -7,7 +7,7 @@ old-location: p2p\peerdistgetoverlappedresult.htm
 old-project: p2psdk
 ms.assetid: 09feff6e-fa74-4212-8345-09a11cc026c7
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PeerDistGetOverlappedResult, PeerDistGetOverlappedResult function [Peer Networking], p2p.peerdistgetoverlappedresult, peerdist/PeerDistGetOverlappedResult
 ms.prod: windows
 ms.technology: windows-sdk

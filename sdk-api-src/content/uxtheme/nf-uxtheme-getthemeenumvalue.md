@@ -4,10 +4,10 @@ title: GetThemeEnumValue function
 author: windows-sdk-content
 description: Retrieves the value of an enumerated type property.
 old-location: controls\GetThemeEnumValue.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeenumvalue.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetThemeEnumValue, GetThemeEnumValue function [Windows Controls], controls.GetThemeEnumValue, controls.inet_GetThemeEnumValue, inet_GetThemeEnumValue, inet_GetThemeEnumValue_cpp, uxtheme/GetThemeEnumValue
 ms.prod: windows
 ms.technology: windows-sdk

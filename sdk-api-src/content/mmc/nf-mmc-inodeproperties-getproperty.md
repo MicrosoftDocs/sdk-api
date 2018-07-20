@@ -7,7 +7,7 @@ old-location: mmc\inodeproperties_getproperty.htm
 old-project: mmc
 ms.assetid: e891428a-c0a1-4451-aa69-c0a4a3d09078
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: GetProperty, GetProperty method [MMC], GetProperty method [MMC],INodeProperties interface, INodeProperties interface [MMC],GetProperty method, INodeProperties.GetProperty, INodeProperties::GetProperty, _slate_inodeproperties_getproperty, mmc.inodeproperties_getproperty, mmc/INodeProperties::GetProperty
 ms.prod: windows
 ms.technology: windows-sdk

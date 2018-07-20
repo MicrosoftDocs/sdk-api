@@ -7,7 +7,7 @@ old-location: tapi2\linesetqueuemeasurementperiod.htm
 old-project: tapi
 ms.assetid: 62b972ed-4a2d-4756-b905-dfb8c2bb0a8c
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_linesetqueuemeasurementperiod, lineSetQueueMeasurementPeriod, lineSetQueueMeasurementPeriod function [TAPI 2.2], tapi/lineSetQueueMeasurementPeriod, tapi2.linesetqueuemeasurementperiod"
 ms.prod: windows
 ms.technology: windows-sdk

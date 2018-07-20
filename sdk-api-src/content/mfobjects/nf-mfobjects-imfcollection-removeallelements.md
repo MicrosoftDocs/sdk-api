@@ -7,7 +7,7 @@ old-location: mf\imfcollection_removeallelements.htm
 old-project: medfound
 ms.assetid: 8c82d287-b73e-46dd-a319-70c5d0f536c6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 8c82d287-b73e-46dd-a319-70c5d0f536c6, IMFCollection interface [Media Foundation],RemoveAllElements method, IMFCollection.RemoveAllElements, IMFCollection::RemoveAllElements, RemoveAllElements, RemoveAllElements method [Media Foundation], RemoveAllElements method [Media Foundation],IMFCollection interface, mf.imfcollection_removeallelements, mfobjects/IMFCollection::RemoveAllElements
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

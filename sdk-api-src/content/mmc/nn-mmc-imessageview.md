@@ -7,7 +7,7 @@ old-location: mmc\imessageview.htm
 old-project: mmc
 ms.assetid: e1ea6bb2-f35e-4379-b4e4-70d4e5d77b93
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: IMessageView, IMessageView interface [MMC], IMessageView interface [MMC],described, _slate_imessageview, mmc.imessageview, mmc/IMessageView
 ms.prod: windows
 ms.technology: windows-sdk

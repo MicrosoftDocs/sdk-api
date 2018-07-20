@@ -7,7 +7,7 @@ old-location: tapi2\linegetagentactivitylist.htm
 old-project: tapi
 ms.assetid: 8f0be375-2891-45bd-a2cb-246ea5c4b9bb
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_linegetagentactivitylist, lineGetAgentActivityList, lineGetAgentActivityList function [TAPI 2.2], lineGetAgentActivityListA, lineGetAgentActivityListW, tapi/lineGetAgentActivityList, tapi/lineGetAgentActivityListA, tapi/lineGetAgentActivityListW, tapi2.linegetagentactivitylist"
 ms.prod: windows
 ms.technology: windows-sdk

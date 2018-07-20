@@ -7,7 +7,7 @@ old-location: mmc\application_help.htm
 old-project: mmc
 ms.assetid: b23962c2-8850-4c45-b601-76ff9d1bf9c8
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: Application object [MMC],Help method, Help, Help method [MMC], Help method [MMC],Application object, Help method [MMC],_Application interface, _Application interface [MMC],Help method, _Application.Help, _Application::Help, _slate_application.help_method, mmc.application_help
 ms.prod: windows
 ms.technology: windows-sdk

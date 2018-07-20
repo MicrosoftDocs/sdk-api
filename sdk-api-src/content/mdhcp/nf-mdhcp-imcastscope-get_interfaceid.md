@@ -7,7 +7,7 @@ old-location: tapi3\imcastscope_get_interfaceid.htm
 old-project: tapi
 ms.assetid: 376ccbe4-ad83-4eef-88bd-11ed95d14359
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IMcastScope interface [TAPI 2.2],get_InterfaceID method, IMcastScope.get_InterfaceID, IMcastScope::get_InterfaceID, _tapi3_imcastscope_get_interfaceid, get_InterfaceID, get_InterfaceID method [TAPI 2.2], get_InterfaceID method [TAPI 2.2],IMcastScope interface, mdhcp/IMcastScope::get_InterfaceID, tapi3.imcastscope_get_interfaceid
 ms.prod: windows
 ms.technology: windows-sdk

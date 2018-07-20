@@ -7,7 +7,7 @@ old-location: tablet\inkedit_refresh.htm
 old-project: tablet
 ms.assetid: 74b8e3dc-7bea-4188-bd0d-681e4661828c
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: 74b8e3dc-7bea-4188-bd0d-681e4661828c, IInkEdit interface [Tablet PC],Refresh method, IInkEdit.Refresh, IInkEdit::Refresh, Refresh, Refresh method [Tablet PC], Refresh method [Tablet PC],IInkEdit interface, inked/IInkEdit::Refresh, tablet.inkedit_refresh
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControl_GetItemState.htm
 old-project: shell
 ms.assetid: 78bee2db-6a28-4fcb-9c43-ab411196ab04
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetItemState, GetItemState method [Windows Shell], GetItemState method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],GetItemState method, INameSpaceTreeControl.GetItemState, INameSpaceTreeControl::GetItemState, _shell_INameSpaceTreeControl_GetItemState, shell.INameSpaceTreeControl_GetItemState, shobjidl_core/INameSpaceTreeControl::GetItemState
 ms.prod: windows
 ms.technology: windows-sdk

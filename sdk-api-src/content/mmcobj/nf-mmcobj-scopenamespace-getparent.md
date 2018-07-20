@@ -7,7 +7,7 @@ old-location: mmc\scopenamespace_getparent.htm
 old-project: mmc
 ms.assetid: 3b444d2f-41e6-45bc-8833-09d3ab4238de
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: GetParent, GetParent method [MMC], GetParent method [MMC],ScopeNamespace interface, GetParent method [MMC],ScopeNamespace object, ScopeNamespace interface [MMC],GetParent method, ScopeNamespace object [MMC],GetParent method, ScopeNamespace.GetParent, ScopeNamespace::GetParent, _slate_scopenamespace.getparent_method, mmc.scopenamespace_getparent
 ms.prod: windows
 ms.technology: windows-sdk

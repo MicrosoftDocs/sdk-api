@@ -7,7 +7,7 @@ old-location: com\ioleinplacesitewindowless_adjustrect.htm
 old-project: com
 ms.assetid: 36fa395d-09b2-474d-85ae-5a22d25e88eb
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: AdjustRect, AdjustRect method [COM], AdjustRect method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],AdjustRect method, IOleInPlaceSiteWindowless.AdjustRect, IOleInPlaceSiteWindowless::AdjustRect, _ole_ioleinplacesitewindowless_adjustrect, com.ioleinplacesitewindowless_adjustrect, ocidl/IOleInPlaceSiteWindowless::AdjustRect
 ms.prod: windows
 ms.technology: windows-sdk

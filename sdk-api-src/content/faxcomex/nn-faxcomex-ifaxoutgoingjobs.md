@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjobs_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_62yb_cpp.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: IFaxOutgoingJobs, IFaxOutgoingJobs interface [Fax Service], IFaxOutgoingJobs interface [Fax Service],described, _mfax_faxoutgoingjobs_cpp, fax._mfax_faxoutgoingjobs_cpp, faxcomex/IFaxOutgoingJobs
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ListView_GetSubItemRect macro
 author: windows-sdk-content
 description: Gets information about the rectangle that surrounds a subitem in a list-view control.
 old-location: controls\ListView_GetSubItemRect.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getsubitemrect.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: LVIR_BOUNDS, LVIR_ICON, LVIR_LABEL, ListView_GetSubItemRect, ListView_GetSubItemRect macro [Windows Controls], _win32_ListView_GetSubItemRect, _win32_ListView_GetSubItemRect_cpp, commctrl/ListView_GetSubItemRect, controls.ListView_GetSubItemRect, controls._win32_ListView_GetSubItemRect
 ms.prod: windows
 ms.technology: windows-sdk

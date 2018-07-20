@@ -7,7 +7,7 @@ old-location: wmformat\iwmmetadataeditor_close.htm
 old-project: wmformat
 ms.assetid: 7c10d0ea-8a19-4374-94f2-e12d7c1ba553
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMMetadataEditor interface, IWMMetadataEditor interface [windows Media Format],Close method, IWMMetadataEditor.Close, IWMMetadataEditor::Close, IWMMetadataEditorClose, wmformat.iwmmetadataeditor_close, wmsdkidl/IWMMetadataEditor::Close
 ms.prod: windows
 ms.technology: windows-sdk

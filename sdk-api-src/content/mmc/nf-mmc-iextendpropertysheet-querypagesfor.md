@@ -7,7 +7,7 @@ old-location: mmc\iextendpropertysheet_querypagesfor.htm
 old-project: mmc
 ms.assetid: F21A0AA2-8F79-4AEA-A5B1-8D650BE14C9F
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: IExtendPropertySheet interface [MMC],QueryPagesFor method, IExtendPropertySheet.QueryPagesFor, IExtendPropertySheet::QueryPagesFor, QueryPagesFor, QueryPagesFor method [MMC], QueryPagesFor method [MMC],IExtendPropertySheet interface, mmc.iextendpropertysheet_querypagesfor, mmc/IExtendPropertySheet::QueryPagesFor
 ms.prod: windows
 ms.technology: windows-sdk

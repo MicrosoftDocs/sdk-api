@@ -7,7 +7,7 @@ old-location: setup\msibegintransaction.htm
 old-project: msi
 ms.assetid: 05904e58-b24d-4d2c-8b59-a66ad71b494a
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/17/2018
 ms.keywords: MsiBeginTransaction, MsiBeginTransaction function [Setup API], MsiBeginTransactionA, MsiBeginTransactionW, msi/MsiBeginTransaction, msi/MsiBeginTransactionA, msi/MsiBeginTransactionW, setup.msibegintransaction
 ms.prod: windows
 ms.technology: windows-sdk

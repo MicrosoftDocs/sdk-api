@@ -7,7 +7,7 @@ old-location: shell\CreateProfile.htm
 old-project: shell
 ms.assetid: cab9e20b-d94c-42e5-ada9-27194f398bb3
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CreateProfile, CreateProfile function [Windows Shell], _shell_CreateProfile, shell.CreateProfile, userenv/CreateProfile
 ms.prod: windows
 ms.technology: windows-sdk

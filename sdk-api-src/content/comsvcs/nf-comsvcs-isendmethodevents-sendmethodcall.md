@@ -7,7 +7,7 @@ old-location: cos\isendmethodevents_sendmethodcall.htm
 old-project: cossdk
 ms.assetid: 730466c8-440c-42ee-899f-0d93007fbf8d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ISendMethodEvents interface [COM+],SendMethodCall method, ISendMethodEvents.SendMethodCall, ISendMethodEvents::SendMethodCall, SendMethodCall, SendMethodCall method [COM+], SendMethodCall method [COM+],ISendMethodEvents interface, _cos_ISendMethodEvents_SendMethodCall, comsvcs/ISendMethodEvents::SendMethodCall, cos.isendmethodevents_sendmethodcall
 ms.prod: windows
 ms.technology: windows-sdk

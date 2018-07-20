@@ -7,7 +7,7 @@ old-location: tspi\tspi_phonegetring.htm
 old-project: tapi
 ms.assetid: dcdfff60-e853-4ad7-a2b4-ddfc0ee73a48
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_phoneGetRing, TSPI_phoneGetRing function [TAPI 2.2], _tspi_tspi_phonegetring, tspi.tspi_phonegetring, tspi/TSPI_phoneGetRing
 ms.prod: windows
 ms.technology: windows-sdk

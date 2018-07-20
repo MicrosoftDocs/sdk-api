@@ -4,10 +4,10 @@ title: tagNMTOOLTIPSCREATED
 author: windows-sdk-content
 description: Contains information used with NM_TOOLTIPSCREATED notification codes.
 old-location: controls\NMTOOLTIPSCREATED.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmtooltipscreated.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*LPNMTOOLTIPSCREATED, LPNMTOOLTIPSCREATED, LPNMTOOLTIPSCREATED structure pointer [Windows Controls], NMTOOLTIPSCREATED, NMTOOLTIPSCREATED structure [Windows Controls], _win32_NMTOOLTIPSCREATED, _win32_NMTOOLTIPSCREATED_cpp, commctrl/LPNMTOOLTIPSCREATED, commctrl/NMTOOLTIPSCREATED, controls.NMTOOLTIPSCREATED, controls._win32_NMTOOLTIPSCREATED, tagNMTOOLTIPSCREATED"
 ms.prod: windows
 ms.technology: windows-sdk

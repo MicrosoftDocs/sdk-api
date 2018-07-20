@@ -4,10 +4,10 @@ title: IUpdateExceptionCollection::get__NewEnum
 author: windows-sdk-content
 description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
 old-location: wua\iupdateexceptioncollection__newenum.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 2150dda6-99b5-4819-b16b-91c38aa2bbab
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: IUpdateExceptionCollection interface [Windows Update Agent],_NewEnum property, IUpdateExceptionCollection._NewEnum, IUpdateExceptionCollection.get__NewEnum, IUpdateExceptionCollection::_NewEnum, IUpdateExceptionCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IUpdateExceptionCollection interface, get__NewEnum, wua.iupdateexceptioncollection__newenum, wuapi/IUpdateExceptionCollection::_NewEnum, wuapi/IUpdateExceptionCollection::get__NewEnum
 ms.prod: windows
 ms.technology: windows-sdk

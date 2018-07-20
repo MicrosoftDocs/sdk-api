@@ -7,7 +7,7 @@ old-location: winsock\rio_extension_function_table.htm
 old-project: winsock
 ms.assetid: 33C190B0-DE01-47A0-93AF-627FC5C5FF48
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/18/2018
 ms.keywords: "*PRIO_EXTENSION_FUNCTION_TABLE, PRIO_EXTENSION_FUNCTION_TABLE, PRIO_EXTENSION_FUNCTION_TABLE structure pointer [Winsock], RIO_EXTENSION_FUNCTION_TABLE, RIO_EXTENSION_FUNCTION_TABLE structure [Winsock], _RIO_EXTENSION_FUNCTION_TABLE, mswsockdef/PRIO_EXTENSION_FUNCTION_TABLE, mswsockdef/RIO_EXTENSION_FUNCTION_TABLE, winsock.rio_extension_function_table"
 ms.prod: windows
 ms.technology: windows-sdk

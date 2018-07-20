@@ -7,7 +7,7 @@ old-location: multimedia\acmmetrics.htm
 old-project: Multimedia
 ms.assetid: 30b6dc13-b523-4c42-aa35-c86b3ebe04c3
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/17/2018
 ms.keywords: "_win32_acmMetrics, acmMetrics, acmMetrics function [Windows Multimedia], msacm/acmMetrics, multimedia.acmmetrics"
 ms.prod: windows
 ms.technology: windows-sdk

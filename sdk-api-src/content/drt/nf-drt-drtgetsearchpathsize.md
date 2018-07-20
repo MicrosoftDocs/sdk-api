@@ -7,7 +7,7 @@ old-location: p2p\drtgetsearchpathsize.htm
 old-project: p2psdk
 ms.assetid: dadd5f2a-2584-4046-8cdf-4d6ea97cc878
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: DrtGetSearchPathSize, DrtGetSearchPathSize function [Peer Networking], drt/DrtGetSearchPathSize, p2p.drtgetsearchpathsize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tspi\tspi_linesetlinedevstatus.htm
 old-project: tapi
 ms.assetid: 82afe6fd-a9fd-4e53-a460-370cab404366
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineSetLineDevStatus, TSPI_lineSetLineDevStatus function [TAPI 2.2], _tspi_tspi_linesetlinedevstatus, tspi.tspi_linesetlinedevstatus, tspi/TSPI_lineSetLineDevStatus
 ms.prod: windows
 ms.technology: windows-sdk

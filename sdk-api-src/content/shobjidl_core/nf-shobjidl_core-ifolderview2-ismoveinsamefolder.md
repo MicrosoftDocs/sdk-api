@@ -7,7 +7,7 @@ old-location: shell\IFolderView2_IsMoveInSameFolder.htm
 old-project: shell
 ms.assetid: 1687a162-f81c-422b-afc2-0b5b8b6951ad
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IFolderView2 interface [Windows Shell],IsMoveInSameFolder method, IFolderView2.IsMoveInSameFolder, IFolderView2::IsMoveInSameFolder, IsMoveInSameFolder, IsMoveInSameFolder method [Windows Shell], IsMoveInSameFolder method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_IsMoveInSameFolder, shell.IFolderView2_IsMoveInSameFolder, shobjidl_core/IFolderView2::IsMoveInSameFolder
 ms.prod: windows
 ms.technology: windows-sdk

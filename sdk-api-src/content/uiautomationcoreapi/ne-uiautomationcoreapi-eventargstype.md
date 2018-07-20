@@ -98,3 +98,8 @@ An event raised by calling <a href="https://msdn.microsoft.com/AA6F1F6E-3EE9-44A
 
 An event raised by calling <a href="https://msdn.microsoft.com/E9555BC0-A53B-416F-95C3-53696716F61F">UiaRaiseNotificationEvent</a>.
 
+
+### -field EventArgsType_ActiveTextPositionChanged
+
+
+

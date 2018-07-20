@@ -7,7 +7,7 @@ old-location: mf\d3d11_aes_ctr_iv.htm
 old-project: medfound
 ms.assetid: 2D1B24CA-6386-4406-9195-40913744C9CF
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: D3D11_AES_CTR_IV, D3D11_AES_CTR_IV structure [Media Foundation], _D3D11_AES_CTR_IV, d3d11/D3D11_AES_CTR_IV, mf.d3d11_aes_ctr_iv
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

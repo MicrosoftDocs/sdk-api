@@ -7,7 +7,7 @@ old-location: multimedia\mciwndsendstring.htm
 old-project: Multimedia
 ms.assetid: d73b087b-c697-470b-aa19-ca14d18ac430
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/17/2018
 ms.keywords: MCIWndSendString, MCIWndSendString macro [Windows Multimedia], _win32_MCIWndSendString, multimedia.mciwndsendstring, vfw/MCIWndSendString
 ms.prod: windows
 ms.technology: windows-sdk

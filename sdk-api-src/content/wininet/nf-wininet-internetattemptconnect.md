@@ -7,7 +7,7 @@ old-location: wininet\internetattemptconnect.htm
 old-project: wininet
 ms.assetid: a6f22704-f7ca-4c4d-91c3-304b592db6ca
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/18/2018
 ms.keywords: InternetAttemptConnect, InternetAttemptConnect function [WinINet], _inet_internetattemptconnect_function, wininet.internetattemptconnect, wininet/InternetAttemptConnect
 ms.prod: windows
 ms.technology: windows-sdk

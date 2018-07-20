@@ -7,7 +7,7 @@ old-location: tapi3\itagent_createsessionwithpin.htm
 old-project: tapi
 ms.assetid: d901ad31-8ccc-4bca-9413-dff838a33088
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: CreateSessionWithPIN, CreateSessionWithPIN method [TAPI 2.2], CreateSessionWithPIN method [TAPI 2.2],ITAgent interface, ITAgent interface [TAPI 2.2],CreateSessionWithPIN method, ITAgent.CreateSessionWithPIN, ITAgent::CreateSessionWithPIN, _tapi3_itagent_createsessionwithpin, tapi3.itagent_createsessionwithpin, tapi3cc/ITAgent::CreateSessionWithPIN
 ms.prod: windows
 ms.technology: windows-sdk

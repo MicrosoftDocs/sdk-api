@@ -7,7 +7,7 @@ old-location: mf\imfsourcereadercallback2.htm
 old-project: medfound
 ms.assetid: D0EC7FE9-74C3-4A7C-A5F3-798A3D6EF2CC
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFSourceReaderCallback2, IMFSourceReaderCallback2 interface [Media Foundation], IMFSourceReaderCallback2 interface [Media Foundation],described, mf.imfsourcereadercallback2, mfreadwrite/IMFSourceReaderCallback2
 ms.prod: windows
 ms.technology: windows-sdk

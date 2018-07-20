@@ -7,7 +7,7 @@ old-location: shell\StrFromTimeInterval.htm
 old-project: shell
 ms.assetid: e2a9492f-acfa-4cbd-8426-895e361f0174
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: StrFromTimeInterval, StrFromTimeInterval function [Windows Shell], StrFromTimeIntervalA, StrFromTimeIntervalW, _win32_StrFromTimeInterval, shell.StrFromTimeInterval, shlwapi/StrFromTimeInterval, shlwapi/StrFromTimeIntervalA, shlwapi/StrFromTimeIntervalW
 ms.prod: windows
 ms.technology: windows-sdk

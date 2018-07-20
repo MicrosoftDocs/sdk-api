@@ -7,7 +7,7 @@ old-location: p2p\drtunregisterkey.htm
 old-project: p2psdk
 ms.assetid: cf8f877b-44a8-4153-bf02-0b0061bc53d2
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: DrtUnregisterKey, DrtUnregisterKey function [Peer Networking], drt/DrtUnregisterKey, p2p.drtunregisterkey
 ms.prod: windows
 ms.technology: windows-sdk

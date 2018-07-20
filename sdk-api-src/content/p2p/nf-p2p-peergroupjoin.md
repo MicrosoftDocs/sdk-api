@@ -7,7 +7,7 @@ old-location: p2p\peergroupjoin.htm
 old-project: p2psdk
 ms.assetid: a7f5689d-4849-4363-bc61-3fed63f4287b
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PeerGroupJoin, PeerGroupJoin function [Peer Networking], p2p.peergroupjoin, p2p/PeerGroupJoin
 ms.prod: windows
 ms.technology: windows-sdk

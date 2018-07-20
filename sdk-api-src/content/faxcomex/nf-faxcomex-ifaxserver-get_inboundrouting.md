@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_inboundrouting.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1w4n.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxServer object [Fax Service],InboundRouting property, FaxServer.InboundRouting, IFaxServer.get_InboundRouting, IFaxServer::get_InboundRouting, InboundRouting property [Fax Service], InboundRouting property [Fax Service],FaxServer object, _mfax_faxserver.inboundrouting, fax._mfax_faxserver_inboundrouting, get_InboundRouting
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_NETLOGON_INFO_3"
 author: windows-sdk-content
 description: Defines a level-3 control query response from a domain controller.
 old-location: winprog\netlogon_info_3.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: 6498c4b2-523a-4050-acbd-5088b9e0eaae
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: "*PNETLOGON_INFO_3, NETLOGON_DNS_UPDATE_FAILURE, NETLOGON_FULL_SYNC_REPLICATION, NETLOGON_HAS_IP, NETLOGON_HAS_TIMESERV, NETLOGON_INFO_3, NETLOGON_INFO_3 structure [Windows API], NETLOGON_REDO_NEEDED, NETLOGON_REPLICATION_IN_PROGRESS, NETLOGON_REPLICATION_NEEDED, PNETLOGON_INFO_3, PNETLOGON_INFO_3 structure pointer [Windows API], _NETLOGON_INFO_3, lmaccess/NETLOGON_INFO_3, lmaccess/PNETLOGON_INFO_3, winprog.netlogon_info_3"
 ms.prod: windows
 ms.technology: windows-sdk

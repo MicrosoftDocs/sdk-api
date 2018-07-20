@@ -7,7 +7,7 @@ old-location: wininet\gopherfindfirstfile.htm
 old-project: wininet
 ms.assetid: 801dc601-9d1d-4f7d-acf0-b36ea2314d70
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/18/2018
 ms.keywords: GopherFindFirstFile, GopherFindFirstFile function [WinINet], GopherFindFirstFileA, GopherFindFirstFileW, _inet_gopherfindfirstfile_function, wininet.gopherfindfirstfile, wininet/GopherFindFirstFile, wininet/GopherFindFirstFileA, wininet/GopherFindFirstFileW
 ms.prod: windows
 ms.technology: windows-sdk

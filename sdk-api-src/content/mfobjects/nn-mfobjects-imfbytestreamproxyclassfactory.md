@@ -7,7 +7,7 @@ old-location: mf\imfbytestreamproxyclassfactory.htm
 old-project: medfound
 ms.assetid: DF29B5FC-864F-4400-8EDB-3A2CD797E37A
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFByteStreamProxyClassFactory, IMFByteStreamProxyClassFactory interface [Media Foundation], IMFByteStreamProxyClassFactory interface [Media Foundation],described, mf.imfbytestreamproxyclassfactory, mfobjects/IMFByteStreamProxyClassFactory
 ms.prod: windows
 ms.technology: windows-sdk

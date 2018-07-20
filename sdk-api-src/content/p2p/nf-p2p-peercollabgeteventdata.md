@@ -7,7 +7,7 @@ old-location: p2p\peercollabgeteventdata.htm
 old-project: p2psdk
 ms.assetid: ee410a47-91a6-48ed-8c05-128a141a5c98
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PeerCollabGetEventData, PeerCollabGetEventData function [Peer Networking], p2p.peercollabgeteventdata, p2p/PeerCollabGetEventData
 ms.prod: windows
 ms.technology: windows-sdk

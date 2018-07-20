@@ -7,7 +7,7 @@ old-location: mf\mfcreatedxsurfacebuffer.htm
 old-project: medfound
 ms.assetid: d1ee158e-5d70-41a4-b746-2ecaea2db92c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: MFCreateDXSurfaceBuffer, MFCreateDXSurfaceBuffer function [Media Foundation], d1ee158e-5d70-41a4-b746-2ecaea2db92c, mf.mfcreatedxsurfacebuffer, mfapi/MFCreateDXSurfaceBuffer
 ms.prod: windows
 ms.technology: windows-sdk

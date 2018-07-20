@@ -7,7 +7,7 @@ old-location: tapi2\linegetaddressstatus.htm
 old-project: tapi
 ms.assetid: 8d747aa5-05cc-4426-9d46-24bce6b4af26
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_linegetaddressstatus, lineGetAddressStatus, lineGetAddressStatus function [TAPI 2.2], lineGetAddressStatusA, lineGetAddressStatusW, tapi/lineGetAddressStatus, tapi/lineGetAddressStatusA, tapi/lineGetAddressStatusW, tapi2.linegetaddressstatus"
 ms.prod: windows
 ms.technology: windows-sdk

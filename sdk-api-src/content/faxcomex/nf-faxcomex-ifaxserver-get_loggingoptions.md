@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_loggingoptions.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7x4j.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxServer object [Fax Service],LoggingOptions property, FaxServer.LoggingOptions, IFaxServer.get_LoggingOptions, IFaxServer::get_LoggingOptions, LoggingOptions property [Fax Service], LoggingOptions property [Fax Service],FaxServer object, _mfax_faxserver.loggingoptions, fax._mfax_faxserver_loggingoptions, get_LoggingOptions
 ms.prod: windows
 ms.technology: windows-sdk

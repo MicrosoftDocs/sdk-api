@@ -4,10 +4,10 @@ title: "_lread function"
 author: windows-sdk-content
 description: The _lread function reads data from the specified file. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the ReadFile function.
 old-location: winprog\_lread.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: A5374B2B-12EC-4130-8D21-1801D1D72524
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: "_lread, _lread function [Windows API], winbase/_lread, winprog._lread"
 ms.prod: windows
 ms.technology: windows-sdk

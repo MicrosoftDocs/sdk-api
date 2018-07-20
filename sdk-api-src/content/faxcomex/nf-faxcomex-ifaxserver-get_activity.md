@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_activity.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2i9l.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: Activity property [Fax Service], Activity property [Fax Service],FaxServer object, FaxServer object [Fax Service],Activity property, FaxServer.Activity, IFaxServer.get_Activity, IFaxServer::get_Activity, _mfax_faxserver.activity, fax._mfax_faxserver_activity, get_Activity
 ms.prod: windows
 ms.technology: windows-sdk

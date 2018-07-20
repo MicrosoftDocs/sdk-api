@@ -7,7 +7,7 @@ old-location: tapi3\itqueue_get_finaldisposition.htm
 old-project: tapi
 ms.assetid: 024680d2-5b27-4002-a492-54b35a2d3513
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_FinalDisposition method, ITQueue.get_FinalDisposition, ITQueue::get_FinalDisposition, _tapi3_itqueue_get_finaldisposition, get_FinalDisposition, get_FinalDisposition method [TAPI 2.2], get_FinalDisposition method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_finaldisposition, tapi3cc/ITQueue::get_FinalDisposition
 ms.prod: windows
 ms.technology: windows-sdk

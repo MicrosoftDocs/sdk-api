@@ -7,7 +7,7 @@ old-location: dshow\iamanalogvideodecoder_get_outputenable.htm
 old-project: DirectShow
 ms.assetid: 2379079d-3852-45c7-a290-b3a33ea8af1a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_OutputEnable method, IAMAnalogVideoDecoder.get_OutputEnable, IAMAnalogVideoDecoder::get_OutputEnable, IAMAnalogVideoDecoderget_OutputEnable, dshow.iamanalogvideodecoder_get_outputenable, get_OutputEnable, get_OutputEnable method [DirectShow], get_OutputEnable method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::get_OutputEnable
 ms.prod: windows
 ms.technology: windows-sdk

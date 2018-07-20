@@ -7,7 +7,7 @@ old-location: tspi\tspi_lineswaphold.htm
 old-project: tapi
 ms.assetid: 9ecd6a63-e906-483b-b404-28797d259149
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineSwapHold, TSPI_lineSwapHold function [TAPI 2.2], _tspi_tspi_lineswaphold, tspi.tspi_lineswaphold, tspi/TSPI_lineSwapHold
 ms.prod: windows
 ms.technology: windows-sdk

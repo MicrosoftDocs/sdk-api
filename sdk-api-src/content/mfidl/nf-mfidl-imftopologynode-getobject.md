@@ -7,7 +7,7 @@ old-location: mf\imftopologynode_getobject.htm
 old-project: medfound
 ms.assetid: 039d8009-5e5a-4503-9908-7317bc2bf412
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 039d8009-5e5a-4503-9908-7317bc2bf412, GetObject, GetObject method [Media Foundation], GetObject method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetObject method, IMFTopologyNode.GetObject, IMFTopologyNode::GetObject, mf.imftopologynode_getobject, mfidl/IMFTopologyNode::GetObject
 ms.prod: windows
 ms.technology: windows-sdk

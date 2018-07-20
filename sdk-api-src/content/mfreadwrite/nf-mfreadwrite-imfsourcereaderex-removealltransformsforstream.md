@@ -7,7 +7,7 @@ old-location: mf\imfsourcereaderex_removealltransformsforstream.htm
 old-project: medfound
 ms.assetid: 6C0617CA-8F85-4854-9E4B-8F4300FAE8E3
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFSourceReaderEx interface [Media Foundation],RemoveAllTransformsForStream method, IMFSourceReaderEx.RemoveAllTransformsForStream, IMFSourceReaderEx::RemoveAllTransformsForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, RemoveAllTransformsForStream, RemoveAllTransformsForStream method [Media Foundation], RemoveAllTransformsForStream method [Media Foundation],IMFSourceReaderEx interface, mf.imfsourcereaderex_removealltransformsforstream, mfreadwrite/IMFSourceReaderEx::RemoveAllTransformsForStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

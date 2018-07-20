@@ -7,7 +7,7 @@ old-location: shell\IFolderView2_SetExtendedTileViewProperties.htm
 old-project: shell
 ms.assetid: efb2eb1a-47fa-45b2-8d8d-fc75bbe46c80
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetExtendedTileViewProperties method, IFolderView2.SetExtendedTileViewProperties, IFolderView2::SetExtendedTileViewProperties, SetExtendedTileViewProperties, SetExtendedTileViewProperties method [Windows Shell], SetExtendedTileViewProperties method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetExtendedTileViewProperties, shell.IFolderView2_SetExtendedTileViewProperties, shobjidl_core/IFolderView2::SetExtendedTileViewProperties
 ms.prod: windows
 ms.technology: windows-sdk

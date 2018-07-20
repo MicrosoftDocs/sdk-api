@@ -7,7 +7,7 @@ old-location: wmformat\wmt_stream_selection.htm
 old-project: wmformat
 ms.assetid: 7191d608-1a25-48c0-858b-c5e93f9d8e6e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: WMT_CLEANPOINT_ONLY, WMT_OFF, WMT_ON, WMT_STREAM_SELECTION, WMT_STREAM_SELECTION enumeration [windows Media Format], wmformat.wmt_stream_selection, wmsdkidl/WMT_CLEANPOINT_ONLY, wmsdkidl/WMT_OFF, wmsdkidl/WMT_ON, wmsdkidl/WMT_STREAM_SELECTION
 ms.prod: windows
 ms.technology: windows-sdk

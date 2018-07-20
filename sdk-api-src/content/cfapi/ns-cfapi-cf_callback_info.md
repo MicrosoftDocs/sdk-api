@@ -148,6 +148,13 @@ An optional correlation vector.
 Points to a structure that contains the information about the user process that triggers this callback.
 
 
+### -field RequestKey
+
+ 
+
+
+
+
 #### - CommandLine
 
 <div class="alert"><b>Note</b>  This member is new for Windows 10, version 1803.</div>

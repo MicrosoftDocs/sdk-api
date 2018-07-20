@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: 188bf6e5-9cd2-15c4-2bbd-2b3801aac81e, IDXGISwapChain, IDXGISwapChain interface [DXGI], IDXGISwapChain interface [DXGI],described, direct3ddxgi.idxgiswapchain, dxgi/IDXGISwapChain
 ms.prod: windows
 ms.technology: windows-sdk
@@ -140,8 +140,7 @@ Presents a rendered image to the user.
 <a href="https://msdn.microsoft.com/library/Bb174577(v=VS.85).aspx">ResizeBuffers</a>
 </td>
 <td align="left" width="63%">
-
-      Changes the swap chain's back buffer size, format, and number of buffers. 
+Changes the swap chain's back buffer size, format, and number of buffers. 
       This should be called when the application window is resized.
 
 </td>

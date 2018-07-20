@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrConflictItems_GetItem.htm
 old-project: shell
 ms.assetid: f75a0cc5-1f82-426a-bb66-f34000219300
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetItem, GetItem method [Windows Shell], GetItem method [Windows Shell],ISyncMgrConflictItems interface, ISyncMgrConflictItems interface [Windows Shell],GetItem method, ISyncMgrConflictItems.GetItem, ISyncMgrConflictItems::GetItem, _shell_ISyncMgrConflictItems_GetItem, shell.ISyncMgrConflictItems_GetItem, syncmgr/ISyncMgrConflictItems::GetItem
 ms.prod: windows
 ms.technology: windows-sdk

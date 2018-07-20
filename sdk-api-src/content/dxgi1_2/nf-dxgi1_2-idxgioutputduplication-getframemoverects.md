@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutputduplication_getframemoverects.htm
 old-project: direct3ddxgi
 ms.assetid: 7B7BF1A2-5F89-4AE1-BBDE-A298813B3AE7
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: GetFrameMoveRects, GetFrameMoveRects method [DXGI], GetFrameMoveRects method [DXGI],IDXGIOutputDuplication interface, IDXGIOutputDuplication interface [DXGI],GetFrameMoveRects method, IDXGIOutputDuplication.GetFrameMoveRects, IDXGIOutputDuplication::GetFrameMoveRects, direct3ddxgi.idxgioutputduplication_getframemoverects, dxgi1_2/IDXGIOutputDuplication::GetFrameMoveRects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,8 +94,7 @@ For more information about returning the required buffer size, see Remarks.
 <li>Desktop switch</li>
 <li>Mode change</li>
 <li>Switch from DWM on, DWM off, or other full-screen application</li>
-</ul>
-          In this situation, the application must release the 
+</ul>In this situation, the application must release the 
           <a href="https://msdn.microsoft.com/02C4EC3D-D97F-4CFC-ABF5-03B44CE6A658">IDXGIOutputDuplication</a> interface and 
           create a new <b>IDXGIOutputDuplication</b> 
           for the new content.</li>

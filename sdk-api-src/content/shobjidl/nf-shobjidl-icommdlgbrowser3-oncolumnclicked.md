@@ -7,7 +7,7 @@ old-location: shell\ICommDlgBrowser3_OnColumnClicked.htm
 old-project: shell
 ms.assetid: 19cd3dc6-14e4-494d-b4d7-2c9d4fd0fe55
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ICommDlgBrowser3 interface [Windows Shell],OnColumnClicked method, ICommDlgBrowser3.OnColumnClicked, ICommDlgBrowser3::OnColumnClicked, OnColumnClicked, OnColumnClicked method [Windows Shell], OnColumnClicked method [Windows Shell],ICommDlgBrowser3 interface, _shell_ICommDlgBrowser3_OnColumnClicked, shell.ICommDlgBrowser3_OnColumnClicked, shobjidl/ICommDlgBrowser3::OnColumnClicked
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mmc\iconsole2_setstatustext.htm
 old-project: mmc
 ms.assetid: 31c95dcc-8bb8-4a11-9977-d4fa2ca30992
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: IConsole2 interface [MMC],SetStatusText method, IConsole2.SetStatusText, IConsole2::SetStatusText, IConsole3 interface [MMC],SetStatusText method, IConsole3::SetStatusText, SetStatusText, SetStatusText method [MMC], SetStatusText method [MMC],IConsole2 interface, SetStatusText method [MMC],IConsole3 interface, _slate_iconsole2_setstatustext, mmc.iconsole2_setstatustext, mmc/IConsole2::SetStatusText, mmc/IConsole3::SetStatusText
 ms.prod: windows
 ms.technology: windows-sdk

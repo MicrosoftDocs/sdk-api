@@ -7,7 +7,7 @@ old-location: tablet\inkstrokes_item.htm
 old-project: tablet
 ms.assetid: ecffbdf0-4b1c-46de-bc4c-c44812dae27a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IInkStrokes interface [Tablet PC],Item method, IInkStrokes.Item, IInkStrokes::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkStrokes interface, ecffbdf0-4b1c-46de-bc4c-c44812dae27a, msinkaut/IInkStrokes::Item, tablet.inkstrokes_item
 ms.prod: windows
 ms.technology: windows-sdk

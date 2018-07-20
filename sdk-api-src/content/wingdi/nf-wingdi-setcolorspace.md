@@ -7,7 +7,7 @@ old-location: wcs\setcolorspace.htm
 old-project: WCS
 ms.assetid: 037c864f-f8ec-4467-9236-74ea4493d743
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/18/2018
 ms.keywords: SetColorSpace, SetColorSpace function [Windows Color System], _color_SetColorSpace, wcs.setcolorspace, wingdi/SetColorSpace
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\ienumlocation_clone.htm
 old-project: tapi
 ms.assetid: 3c190f38-26f4-49a6-8dcb-49e61c09db43
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumLocation interface, IEnumLocation interface [TAPI 2.2],Clone method, IEnumLocation.Clone, IEnumLocation::Clone, _tapi3_ienumlocation_clone, tapi3.ienumlocation_clone, tapi3if/IEnumLocation::Clone
 ms.prod: windows
 ms.technology: windows-sdk

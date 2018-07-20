@@ -7,7 +7,7 @@ old-location: p2p\peerdistclientblockread.htm
 old-project: p2psdk
 ms.assetid: ee64c0a8-7a07-4045-96fa-855b31c2e5b1
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PEERDIST_READ_TIMEOUT_DEFAULT, PEERDIST_READ_TIMEOUT_LOCAL_CACHE_ONLY, PeerDistClientBlockRead, PeerDistClientBlockRead function [Peer Networking], p2p.peerdistclientblockread, peerdist/PeerDistClientBlockRead
 ms.prod: windows
 ms.technology: windows-sdk

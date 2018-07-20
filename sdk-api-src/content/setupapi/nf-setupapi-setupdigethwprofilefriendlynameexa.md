@@ -7,7 +7,7 @@ old-location: devinst\setupdigethwprofilefriendlynameex.htm
 old-project: devinst
 ms.assetid: 839c1e4c-cfa6-4f59-979c-24623a040d5c
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: SetupDiGetHwProfileFriendlyNameEx, SetupDiGetHwProfileFriendlyNameEx function [Device and Driver Installation], SetupDiGetHwProfileFriendlyNameExA, SetupDiGetHwProfileFriendlyNameExW, devinst.setupdigethwprofilefriendlynameex, di-rtns_43d54c1e-047c-491c-93a1-cd5eff918a58.xml, setupapi/SetupDiGetHwProfileFriendlyNameEx
 ms.prod: windows
 ms.technology: windows-sdk

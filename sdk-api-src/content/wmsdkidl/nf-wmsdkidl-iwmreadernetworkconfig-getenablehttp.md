@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_getenablehttp.htm
 old-project: wmformat
 ms.assetid: 892879a3-8ab2-4d2c-ba47-9f6c2dd2aec3
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetEnableHTTP, GetEnableHTTP method [windows Media Format], GetEnableHTTP method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetEnableHTTP method, IWMReaderNetworkConfig.GetEnableHTTP, IWMReaderNetworkConfig::GetEnableHTTP, IWMReaderNetworkConfigGetEnableHTTP, wmformat.iwmreadernetworkconfig_getenablehttp, wmsdkidl/IWMReaderNetworkConfig::GetEnableHTTP
 ms.prod: windows
 ms.technology: windows-sdk

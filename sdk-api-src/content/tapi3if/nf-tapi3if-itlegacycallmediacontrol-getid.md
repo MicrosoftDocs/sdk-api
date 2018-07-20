@@ -7,7 +7,7 @@ old-location: tapi3\itlegacycallmediacontrol_getid.htm
 old-project: tapi
 ms.assetid: 7516f929-d782-499b-a9fb-24c44a85aa9e
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: GetID, GetID method [TAPI 2.2], GetID method [TAPI 2.2],ITLegacyCallMediaControl interface, ITLegacyCallMediaControl interface [TAPI 2.2],GetID method, ITLegacyCallMediaControl.GetID, ITLegacyCallMediaControl::GetID, _tapi3_itlegacycallmediacontrol_getid, tapi3.itlegacycallmediacontrol_getid, tapi3if/ITLegacyCallMediaControl::GetID
 ms.prod: windows
 ms.technology: windows-sdk

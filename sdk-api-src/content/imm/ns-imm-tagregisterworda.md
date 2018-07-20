@@ -7,7 +7,7 @@ old-location: intl\registerword.htm
 old-project: Intl
 ms.assetid: 70a11a96-a0e3-4741-be91-b85eb38cd767
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 07/18/2018
 ms.keywords: "*LPREGISTERWORDA, *NPREGISTERWORDA, *PREGISTERWORDA, PREGISTERWORD, PREGISTERWORD structure pointer [Internationalization for Windows Applications], REGISTERWORD, REGISTERWORD structure [Internationalization for Windows Applications], REGISTERWORDA, REGISTERWORDW, _win32_REGISTERWORD_str, imm/PREGISTERWORD, imm/REGISTERWORD, imm/REGISTERWORDA, imm/REGISTERWORDW, intl.registerword, tagREGISTERWORDA, tagREGISTERWORDW"
 ms.prod: windows
 ms.technology: windows-sdk

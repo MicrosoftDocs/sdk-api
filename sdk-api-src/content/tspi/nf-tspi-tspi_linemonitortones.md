@@ -7,7 +7,7 @@ old-location: tspi\tspi_linemonitortones.htm
 old-project: tapi
 ms.assetid: 8b16dda3-bcb4-4a89-b2e5-b9330be3eb01
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineMonitorTones, TSPI_lineMonitorTones function [TAPI 2.2], _tspi_tspi_linemonitortones, tspi.tspi_linemonitortones, tspi/TSPI_lineMonitorTones
 ms.prod: windows
 ms.technology: windows-sdk

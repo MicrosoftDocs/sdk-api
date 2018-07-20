@@ -7,7 +7,7 @@ old-location: tapi3\itdispatchmapper.htm
 old-project: tapi
 ms.assetid: 65286ea6-b9a6-423b-9833-2d41ef2fd8de
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITDispatchMapper, ITDispatchMapper interface [TAPI 2.2], ITDispatchMapper interface [TAPI 2.2],described, _tapi3_itdispatchmapper, tapi3.itdispatchmapper, tapi3if/ITDispatchMapper
 ms.prod: windows
 ms.technology: windows-sdk

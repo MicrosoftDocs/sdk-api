@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingmethods_item.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6m5p.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxInboundRoutingMethods object [Fax Service],Item property, FaxInboundRoutingMethods.Item, IFaxInboundRoutingMethods.get_Item, IFaxInboundRoutingMethods::get_Item, Item property [Fax Service], Item property [Fax Service],FaxInboundRoutingMethods object, _mfax_faxinboundroutingmethods.item, fax._mfax_faxinboundroutingmethods_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk

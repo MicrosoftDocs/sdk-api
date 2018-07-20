@@ -7,7 +7,7 @@ old-location: shell\IObjectWithFolderEnumMode_SetMode.htm
 old-project: shell
 ms.assetid: 7e7271ec-47a7-42bf-ab02-26cd587448bd
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IObjectWithFolderEnumMode interface [Windows Shell],SetMode method, IObjectWithFolderEnumMode.SetMode, IObjectWithFolderEnumMode::SetMode, SetMode, SetMode method [Windows Shell], SetMode method [Windows Shell],IObjectWithFolderEnumMode interface, _shell_IObjectWithFolderEnumMode_SetMode, shell.IObjectWithFolderEnumMode_SetMode, shobjidl_core/IObjectWithFolderEnumMode::SetMode
 ms.prod: windows
 ms.technology: windows-sdk

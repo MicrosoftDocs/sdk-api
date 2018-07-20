@@ -7,7 +7,7 @@ old-location: winsock\nspv2setserviceex.htm
 old-project: winsock
 ms.assetid: 596fe0bd-ec11-44f3-bffe-333758171ea6
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/18/2018
 ms.keywords: LPNSPV2SETSERVICEEX, NSPv2SetServiceEx, NSPv2SetServiceEx function [Winsock], RNRSERVICE_DELETE, RNRSERVICE_DEREGISTER, RNRSERVICE_REGISTER, SERVICE_MULTIPLE, winsock.nspv2setserviceex, ws2spi/NSPv2SetServiceEx
 ms.prod: windows
 ms.technology: windows-sdk

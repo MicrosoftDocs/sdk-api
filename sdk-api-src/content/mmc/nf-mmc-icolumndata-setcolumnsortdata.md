@@ -7,7 +7,7 @@ old-location: mmc\icolumndata_setcolumnsortdata.htm
 old-project: mmc
 ms.assetid: ece69cce-6861-4795-b1cb-da22d2bdc67a
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: IColumnData interface [MMC],SetColumnSortData method, IColumnData.SetColumnSortData, IColumnData::SetColumnSortData, SetColumnSortData, SetColumnSortData method [MMC], SetColumnSortData method [MMC],IColumnData interface, _slate_icolumndata_setcolumnsortdata, mmc.icolumndata_setcolumnsortdata, mmc/IColumnData::SetColumnSortData
 ms.prod: windows
 ms.technology: windows-sdk

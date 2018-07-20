@@ -4,10 +4,10 @@ title: IsThemeBackgroundPartiallyTransparent function
 author: windows-sdk-content
 description: Retrieves whether the background specified by the visual style has transparent pieces or alpha-blended pieces.
 old-location: controls\IsThemeBackgroundPartiallyTransparent.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemebackgroundpartiallytransparent.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IsThemeBackgroundPartiallyTransparent, IsThemeBackgroundPartiallyTransparent function [Windows Controls], controls.IsThemeBackgroundPartiallyTransparent, controls.inet_IsThemeBackgroundPartiallyTransparent, inet_IsThemeBackgroundPartiallyTransparent, inet_IsThemeBackgroundPartiallyTransparent_cpp, uxtheme/IsThemeBackgroundPartiallyTransparent
 ms.prod: windows
 ms.technology: windows-sdk

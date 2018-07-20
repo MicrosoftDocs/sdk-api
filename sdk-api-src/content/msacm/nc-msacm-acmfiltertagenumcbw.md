@@ -2,13 +2,13 @@
 UID: NC:msacm.ACMFILTERTAGENUMCBW
 title: ACMFILTERTAGENUMCBW
 author: windows-sdk-content
-description: The acmFilterEnumCallback function specifies a callback function used with the acmFilterEnum function. The acmFilterEnumCallback name is a placeholder for an application-defined function name.
-old-location: multimedia\acmfilterenumcallback.htm
+description: The acmFilterTagEnumCallback function specifies a callback function used with the acmFilterTagEnum function. The acmFilterTagEnumCallback function name is a placeholder for an application-defined function name.
+old-location: multimedia\acmfiltertagenumcallback.htm
 old-project: Multimedia
-ms.assetid: 8d2eb1eb-97a3-4001-bec0-7bb9b107d38e
+ms.assetid: 63469be1-d657-4e95-9978-d31140ccd46f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
-ms.keywords: ACMFILTERENUMCB, ACMFILTERENUMCB callback, ACMFILTERENUMCB callback function [Windows Multimedia], ACMFILTERENUMCBA, ACMFILTERENUMCBW, ACMFILTERTAGENUMCBA, ACMFILTERTAGENUMCBW, _win32_acmFilterEnumCallback, acmFilterEnumCallback, msacm/ACMFILTERENUMCB, msacm/ACMFILTERENUMCBA, msacm/ACMFILTERENUMCBW, multimedia.acmfilterenumcallback
+ms.date: 07/17/2018
+ms.keywords: ACMFILTERTAGENUMCB, ACMFILTERTAGENUMCB callback, ACMFILTERTAGENUMCBA, ACMFILTERTAGENUMCBW, _win32_acmFilterTagEnumCallback, acmFilterTagEnumCallback, acmFilterTagEnumCallback callback function [Windows Multimedia], msacm/ACMFILTERTAGENUMCBA, msacm/ACMFILTERTAGENUMCBW, msacm/acmFilterTagEnumCallback, multimedia.acmfiltertagenumcallback
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -36,9 +36,9 @@ api_type:
 api_location:
  - Msacm.h
 api_name:
- - ACMFILTERENUMCB
- - ACMFILTERENUMCBA
- - ACMFILTERENUMCBW
+ - acmFilterTagEnumCallback
+ - ACMFILTERTAGENUMCBA
+ - ACMFILTERTAGENUMCBW
 product: Windows
 targetos: Windows
 req.lib: 
@@ -54,7 +54,7 @@ req.product: GDI+ 1.1
 
 
 
-The <b>acmFilterEnumCallback</b> function specifies a callback function used with the <a href="https://msdn.microsoft.com/ee8154d6-3aa1-49ce-96c5-7b8526f02a8a">acmFilterEnum</a> function. The <b>acmFilterEnumCallback</b> name is a placeholder for an application-defined function name.
+The <b>acmFilterTagEnumCallback</b> function specifies a callback function used with the <a href="https://msdn.microsoft.com/eaec57c2-51b8-4842-ba78-f5726c2dc31d">acmFilterTagEnum</a> function. The <b>acmFilterTagEnumCallback</b> function name is a placeholder for an application-defined function name.
 
 
 
@@ -71,15 +71,17 @@ Handle to the ACM driver identifier.
 
 ### -param paftd
 
+Pointer to an <a href="https://msdn.microsoft.com/94b31090-74ed-42ac-b904-0a90f055e03a">ACMFILTERTAGDETAILS</a> structure that contains the enumerated filter tag details.
+
 
 ### -param dwInstance
 
-Application-defined value specified in <a href="https://msdn.microsoft.com/ee8154d6-3aa1-49ce-96c5-7b8526f02a8a">acmFilterEnum</a>.
+Application-defined value specified in <a href="https://msdn.microsoft.com/eaec57c2-51b8-4842-ba78-f5726c2dc31d">acmFilterTagEnum</a>.
 
 
 ### -param fdwSupport
 
-Driver-support flags specific to the driver identified by <i>hadid</i> for the specified filter. These flags are identical to the <b>fdwSupport</b> flags of the <a href="https://msdn.microsoft.com/b45b26e2-a9c0-4d01-9989-a071d9c73993">ACMDRIVERDETAILS</a> structure, but they are specific to the filter that is being enumerated. This parameter can be a combination of the following values and identifies which operations the driver supports for the filter tag.
+Driver-support flags specific to the driver identifier <i>hadid</i>. These flags are identical to the <i>fdwSupport</i> flags of the <a href="https://msdn.microsoft.com/b45b26e2-a9c0-4d01-9989-a071d9c73993">ACMDRIVERDETAILS</a> structure. This parameter can be a combination of the following values and identifies which operations the driver supports with the filter tag.
 
 <table>
 <tr>
@@ -91,32 +93,27 @@ Meaning
 </th>
 </tr>
 <tr>
-<td>ACMDRIVERDETAILS_SUPPORTF_ASYNC</td>
+<td><b>ACMDRIVERDETAILS_SUPPORTF_ASYNC</b></td>
 <td>Driver supports asynchronous conversions with the specified filter tag.</td>
 </tr>
 <tr>
-<td>ACMDRIVERDETAILS_SUPPORTF_CODEC</td>
-<td>Driver supports conversion between two different format tags while using the specified filter. For example, if a driver supports compression from WAVE_FORMAT_PCM to WAVE_FORMAT_ADPCM with the specified filter, this flag is set.</td>
+<td><b>ACMDRIVERDETAILS_SUPPORTF_CODEC</b></td>
+<td>Driver supports conversion between two different format tags while using the specified filter tag. For example, if a driver supports compression from <b>WAVE_FORMAT_PCM</b> to <b>WAVE_FORMAT_ADPCM</b> with the specified filter tag, this flag is set.</td>
 </tr>
 <tr>
-<td>ACMDRIVERDETAILS_SUPPORTF_CONVERTER</td>
-<td>Driver supports conversion between two different formats of the same format tag while using the specified filter. For example, if a driver supports resampling of WAVE_FORMAT_PCM with the specified filter, this flag is set.</td>
+<td><b>ACMDRIVERDETAILS_SUPPORTF_CONVERTER</b></td>
+<td>Driver supports conversion between two different formats of the same format tag while using the specified filter tag. For example, if a driver supports resampling of <b>WAVE_FORMAT_PCM</b> with the specified filter tag, this flag is set.</td>
 </tr>
 <tr>
-<td>ACMDRIVERDETAILS_SUPPORTF_FILTER</td>
-<td>Driver supports a filter (modification of the data without changing any of the format attributes). For example, if a driver supports volume or echo operations on WAVE_FORMAT_PCM, this flag is set.</td>
+<td><b>ACMDRIVERDETAILS_SUPPORTF_FILTER</b></td>
+<td>Driver supports a filter (modification of the data without changing any of the format attributes). For example, if a driver supports volume or echo operations on <b>WAVE_FORMAT_PCM</b>, this flag is set.</td>
 </tr>
 <tr>
-<td>ACMDRIVERDETAILS_SUPPORTF_HARDWARE</td>
-<td>Driver supports hardware input, output, or both with the specified filter through a waveform-audio device. An application should use the <a href="https://msdn.microsoft.com/30b6dc13-b523-4c42-aa35-c86b3ebe04c3">acmMetrics</a> function with the ACM_METRIC_HARDWARE_WAVE_INPUT and ACM_METRIC_HARDWARE_WAVE_OUTPUT metric indices to get the waveform-audio device identifiers associated with the supporting ACM driver.</td>
+<td><b>ACMDRIVERDETAILS_SUPPORTF_HARDWARE</b></td>
+<td>Driver supports hardware input, output, or both with the specified filter tag through a waveform-audio device. An application should use the <a href="https://msdn.microsoft.com/30b6dc13-b523-4c42-aa35-c86b3ebe04c3">acmMetrics</a> function with the <b>ACM_METRIC_HARDWARE_WAVE_INPUT</b> and <b>ACM_METRIC_HARDWARE_WAVE_OUTPUT</b> metric indices to get the waveform-audio device identifiers associated with the supporting ACM driver.</td>
 </tr>
 </table>
  
-
-
-#### - pafd
-
-Pointer to an <a href="https://msdn.microsoft.com/c0423701-b957-4f77-a565-f6f761614389">ACMFILTERDETAILS</a> structure that contains the enumerated filter details for a filter tag.
 
 
 ## -returns
@@ -132,9 +129,9 @@ The callback function must return <b>TRUE</b> to continue enumeration or <b>FALS
 
 
 
-The <b>acmFilterEnum</b> function will return MMSYSERR_NOERROR (zero) if no filters are to be enumerated. Moreover, the callback function will not be called.
+The <a href="https://msdn.microsoft.com/eaec57c2-51b8-4842-ba78-f5726c2dc31d">acmFilterTagEnum</a> function returns <b>MMSYSERR_NOERROR</b> (zero) if no filter tags are to be enumerated. Moreover, the callback function will not be called.
 
-The following functions should not be called from within the callback function: <b>acmDriverAdd</b>, <b>acmDriverRemove</b>, and <b>acmDriverPriority</b>.
+The following functions should not be called from within the callback function: <a href="https://msdn.microsoft.com/f037cab8-a1f4-487f-ab0a-11e11993b007">acmDriverAdd</a>, <a href="https://msdn.microsoft.com/7182d452-a935-4ed5-808a-595fca4f0429">acmDriverRemove</a>, and <a href="https://msdn.microsoft.com/62ab009e-b8fe-4b92-ba0f-a98cd761307b">acmDriverPriority</a>.
 
 
 

@@ -7,7 +7,7 @@ old-location: tapi3\ienumcallhub_skip.htm
 old-project: tapi
 ms.assetid: 6650d0c7-d067-47fa-a597-c45924b03351
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumCallHub interface [TAPI 2.2],Skip method, IEnumCallHub.Skip, IEnumCallHub::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumCallHub interface, _tapi3_ienumcallhub_skip, tapi3.ienumcallhub_skip, tapi3if/IEnumCallHub::Skip
 ms.prod: windows
 ms.technology: windows-sdk

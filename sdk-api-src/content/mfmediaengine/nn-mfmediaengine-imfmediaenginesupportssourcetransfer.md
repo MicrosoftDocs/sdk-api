@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginesupportssourcetransfer.htm
 old-project: medfound
 ms.assetid: 8784dcc2-52f4-41d9-a0ae-3ea7a736b604
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFMediaEngineSupportsSourceTransfer, IMFMediaEngineSupportsSourceTransfer interface [Media Foundation], IMFMediaEngineSupportsSourceTransfer interface [Media Foundation],described, mf.imfmediaenginesupportssourcetransfer, mfmediaengine/IMFMediaEngineSupportsSourceTransfer
 ms.prod: windows
 ms.technology: windows-sdk

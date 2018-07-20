@@ -7,7 +7,7 @@ old-location: mf\d3d11_authenticated_query_input.htm
 old-project: medfound
 ms.assetid: D1FE4B31-A29D-4079-ABAE-8EB7DB0A0B42
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_ACCESSIBILITY_ATTRIBUTES, D3D11_AUTHENTICATED_QUERY_CHANNEL_TYPE, D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION, D3D11_AUTHENTICATED_QUERY_CURRENT_ENCRYPTION_WHEN_ACCESSIBLE, D3D11_AUTHENTICATED_QUERY_DEVICE_HANDLE, D3D11_AUTHENTICATED_QUERY_ENCRYPTION_WHEN_ACCESSIBLE_GUID, D3D11_AUTHENTICATED_QUERY_ENCRYPTION_WHEN_ACCESSIBLE_GUID_COUNT, D3D11_AUTHENTICATED_QUERY_INPUT, D3D11_AUTHENTICATED_QUERY_INPUT structure [Media Foundation], D3D11_AUTHENTICATED_QUERY_OUTPUT_ID, D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT, D3D11_AUTHENTICATED_QUERY_PROTECTION, D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS, D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_COUNT, D3D11_AUTHENTICATED_QUERY_UNRESTRICTED_PROTECTED_SHARED_RESOURCE_COUNT, d3d11/D3D11_AUTHENTICATED_QUERY_INPUT, mf.d3d11_authenticated_query_input
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

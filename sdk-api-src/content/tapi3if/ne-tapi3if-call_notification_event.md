@@ -7,7 +7,7 @@ old-location: tapi3\call_notification_event.htm
 old-project: tapi
 ms.assetid: 0c05042f-af1e-4657-bb1c-e6741361b11c
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: CALL_NOTIFICATION_EVENT, CALL_NOTIFICATION_EVENT enumeration [TAPI 2.2], CNE_MONITOR, CNE_OWNER, _tapi3_call_notification_event, tapi3.call_notification_event, tapi3if/CALL_NOTIFICATION_EVENT, tapi3if/CNE_MONITOR, tapi3if/CNE_OWNER
 ms.prod: windows
 ms.technology: windows-sdk

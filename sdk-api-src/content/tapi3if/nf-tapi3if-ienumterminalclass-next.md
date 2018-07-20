@@ -7,7 +7,7 @@ old-location: tapi3\ienumterminalclass_next.htm
 old-project: tapi
 ms.assetid: 67ed4017-9cd2-4694-9853-c07bd4f81e0a
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumTerminalClass interface [TAPI 2.2],Next method, IEnumTerminalClass.Next, IEnumTerminalClass::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumTerminalClass interface, _tapi3_ienumterminalclass_next, tapi3.ienumterminalclass_next, tapi3if/IEnumTerminalClass::Next
 ms.prod: windows
 ms.technology: windows-sdk

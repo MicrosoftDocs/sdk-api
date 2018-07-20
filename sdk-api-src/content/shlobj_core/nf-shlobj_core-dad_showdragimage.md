@@ -7,7 +7,7 @@ old-location: shell\DAD_ShowDragImage.htm
 old-project: shell
 ms.assetid: 71448b05-9657-41e4-b5e4-6ae403219c6a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DAD_ShowDragImage, DAD_ShowDragImage function [Windows Shell], FALSE, TRUE, shell.DAD_ShowDragImage, shell_DAD_ShowDragImage, shlobj_core/DAD_ShowDragImage
 ms.prod: windows
 ms.technology: windows-sdk

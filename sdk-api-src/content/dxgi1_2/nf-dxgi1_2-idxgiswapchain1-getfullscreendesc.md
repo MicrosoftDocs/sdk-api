@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain1_getfullscreendesc.htm
 old-project: direct3ddxgi
 ms.assetid: 6056239A-B3CA-4C70-9081-499B0AAEFBEF
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: GetFullscreenDesc, GetFullscreenDesc method [DXGI], GetFullscreenDesc method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetFullscreenDesc method, IDXGISwapChain1.GetFullscreenDesc, IDXGISwapChain1::GetFullscreenDesc, direct3ddxgi.idxgiswapchain1_getfullscreendesc, dxgi1_2/IDXGISwapChain1::GetFullscreenDesc
 ms.prod: windows
 ms.technology: windows-sdk

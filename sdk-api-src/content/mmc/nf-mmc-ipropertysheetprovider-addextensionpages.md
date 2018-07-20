@@ -7,7 +7,7 @@ old-location: mmc\ipropertysheetprovider_addextensionpages.htm
 old-project: mmc
 ms.assetid: 3a2ce7a6-65d6-4e39-b8b8-8d9b59b32d11
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: AddExtensionPages, AddExtensionPages method [MMC], AddExtensionPages method [MMC],IPropertySheetProvider interface, IPropertySheetProvider interface [MMC],AddExtensionPages method, IPropertySheetProvider.AddExtensionPages, IPropertySheetProvider::AddExtensionPages, _slate_ipropertysheetprovider_addextensionpages, mmc.ipropertysheetprovider_addextensionpages, mmc/IPropertySheetProvider::AddExtensionPages
 ms.prod: windows
 ms.technology: windows-sdk

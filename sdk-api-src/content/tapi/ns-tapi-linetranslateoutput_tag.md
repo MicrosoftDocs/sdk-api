@@ -7,7 +7,7 @@ old-location: tapi2\linetranslateoutput_str.htm
 old-project: tapi
 ms.assetid: bcf094ad-8098-4e45-9131-25dbdb7e4093
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "*LPLINETRANSLATEOUTPUT, LINETRANSLATEOUTPUT, LINETRANSLATEOUTPUT structure [TAPI 2.2], LPLINETRANSLATEOUTPUT, LPLINETRANSLATEOUTPUT structure pointer [TAPI 2.2], _tapi2_linetranslateoutput_str, linetranslateoutput_tag, tapi/LINETRANSLATEOUTPUT, tapi/LPLINETRANSLATEOUTPUT, tapi2.linetranslateoutput_str"
 ms.prod: windows
 ms.technology: windows-sdk

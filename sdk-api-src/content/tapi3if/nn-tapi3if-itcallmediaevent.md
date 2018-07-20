@@ -7,7 +7,7 @@ old-location: tapi3\itcallmediaevent.htm
 old-project: tapi
 ms.assetid: db55ff03-9271-4a94-9cba-a3ef0282b7b6
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITCallMediaEvent, ITCallMediaEvent interface [TAPI 2.2], ITCallMediaEvent interface [TAPI 2.2],described, _tapi3_itcallmediaevent, tapi3.itcallmediaevent, tapi3if/ITCallMediaEvent
 ms.prod: windows
 ms.technology: windows-sdk

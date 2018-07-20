@@ -7,7 +7,7 @@ old-location: mmc\icomponentdata_destroy.htm
 old-project: mmc
 ms.assetid: adf7238d-b452-499b-8924-2ea1bfecd69f
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: Destroy, Destroy method [MMC], Destroy method [MMC],IComponentData interface, IComponentData interface [MMC],Destroy method, IComponentData.Destroy, IComponentData::Destroy, _slate_icomponentdata_destroy, mmc.icomponentdata_destroy, mmc/IComponentData::Destroy
 ms.prod: windows
 ms.technology: windows-sdk

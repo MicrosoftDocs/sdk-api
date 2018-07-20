@@ -7,7 +7,7 @@ old-location: devinst\setupsetnoninteractivemode.htm
 old-project: devinst
 ms.assetid: 5858547d-cd0e-4067-a94b-fff58b4f1334
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: SetupSetNonInteractiveMode, SetupSetNonInteractiveMode function [Device and Driver Installation], devinst.setupsetnoninteractivemode, setup-ref_6afe961a-ba91-4ab8-b296-39308b6413c7.xml, setupapi/SetupSetNonInteractiveMode
 ms.prod: windows
 ms.technology: windows-sdk

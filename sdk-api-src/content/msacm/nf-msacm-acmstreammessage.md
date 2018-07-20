@@ -7,7 +7,7 @@ old-location: multimedia\acmstreammessage.htm
 old-project: Multimedia
 ms.assetid: 30f77126-a874-4014-bbde-ce194da2c61c
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/17/2018
 ms.keywords: "_win32_acmStreamMessage, acmStreamMessage, acmStreamMessage function [Windows Multimedia], msacm/acmStreamMessage, multimedia.acmstreammessage"
 ms.prod: windows
 ms.technology: windows-sdk

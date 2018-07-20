@@ -4,10 +4,10 @@ title: CryptVerifyMessageSignature function
 author: windows-sdk-content
 description: Verifies a signed message's signature.
 old-location: security\cryptverifymessagesignature.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 03411e7a-b097-4059-a198-3d412ae40e38
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CryptVerifyMessageSignature, CryptVerifyMessageSignature function [Security], _crypto2_cryptverifymessagesignature, security.cryptverifymessagesignature, wincrypt/CryptVerifyMessageSignature
 ms.prod: windows
 ms.technology: windows-sdk

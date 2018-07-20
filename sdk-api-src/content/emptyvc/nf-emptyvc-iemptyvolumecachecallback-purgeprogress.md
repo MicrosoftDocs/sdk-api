@@ -7,7 +7,7 @@ old-location: lwef\iemptyvolumecachecallback_purgeprogress.htm
 old-project: lwef
 ms.assetid: 96b97919-9b3b-418e-a76a-a2e8aad453b9
 ms.author: windowssdkdev
-ms.date: 04/27/2018
+ms.date: 07/16/2018
 ms.keywords: EVCCBF_LASTNOTIFICATION, IEmptyVolumeCacheCallBack interface [Legacy Windows Environment Features],PurgeProgress method, IEmptyVolumeCacheCallBack.PurgeProgress, IEmptyVolumeCacheCallBack::PurgeProgress, PurgeProgress, PurgeProgress method [Legacy Windows Environment Features], PurgeProgress method [Legacy Windows Environment Features],IEmptyVolumeCacheCallBack interface, _win32_IEmptyVolumeCacheCallBack_PurgeProgress, emptyvc/IEmptyVolumeCacheCallBack::PurgeProgress, lwef.iemptyvolumecachecallback_purgeprogress, shell.iemptyvolumecachecallback_purgeprogress
 ms.prod: windows
 ms.technology: windows-sdk

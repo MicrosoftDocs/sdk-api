@@ -7,7 +7,7 @@ old-location: mf\_mft_set_type_flags.htm
 old-project: medfound
 ms.assetid: dd7e97fb-80ab-4e6b-ac2a-a257d7e8ec63
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: MFT_SET_TYPE_TEST_ONLY, _MFT_SET_TYPE_FLAGS, _MFT_SET_TYPE_FLAGS enumeration [Media Foundation], dd7e97fb-80ab-4e6b-ac2a-a257d7e8ec63, mf._mft_set_type_flags, mftransform/MFT_SET_TYPE_TEST_ONLY, mftransform/_MFT_SET_TYPE_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: enum
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

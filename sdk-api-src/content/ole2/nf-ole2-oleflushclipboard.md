@@ -7,7 +7,7 @@ old-location: com\oleflushclipboard.htm
 old-project: com
 ms.assetid: 18291a91-be7d-42ec-a44a-d1bbfb017c6e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: OleFlushClipboard, OleFlushClipboard function [COM], _ole_OleFlushClipboard, com.oleflushclipboard, ole2/OleFlushClipboard
 ms.prod: windows
 ms.technology: windows-sdk

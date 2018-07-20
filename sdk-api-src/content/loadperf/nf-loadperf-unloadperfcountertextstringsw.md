@@ -7,7 +7,7 @@ old-location: perf\unloadperfcountertextstrings.htm
 old-project: perfctrs
 ms.assetid: f78858ca-d8d0-4178-9f9a-731b89cf5a61
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/18/2018
 ms.keywords: UnloadPerfCounterTextStrings, UnloadPerfCounterTextStrings function [Perf], UnloadPerfCounterTextStringsA, UnloadPerfCounterTextStringsW, _win32_unloadperfcountertextstrings, base.unloadperfcountertextstrings, loadperf/UnloadPerfCounterTextStrings, loadperf/UnloadPerfCounterTextStringsA, loadperf/UnloadPerfCounterTextStringsW, perf.unloadperfcountertextstrings
 ms.prod: windows
 ms.technology: windows-sdk

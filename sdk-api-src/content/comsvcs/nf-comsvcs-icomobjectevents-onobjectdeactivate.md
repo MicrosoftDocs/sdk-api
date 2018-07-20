@@ -7,7 +7,7 @@ old-location: cos\icomobjectevents_onobjectdeactivate.htm
 old-project: cossdk
 ms.assetid: 3284da44-bcc4-49eb-9aa8-40061bf51869
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IComObjectEvents interface [COM+],OnObjectDeactivate method, IComObjectEvents.OnObjectDeactivate, IComObjectEvents::OnObjectDeactivate, OnObjectDeactivate, OnObjectDeactivate method [COM+], OnObjectDeactivate method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnObjectDeactivate, comsvcs/IComObjectEvents::OnObjectDeactivate, cos.icomobjectevents_onobjectdeactivate
 ms.prod: windows
 ms.technology: windows-sdk

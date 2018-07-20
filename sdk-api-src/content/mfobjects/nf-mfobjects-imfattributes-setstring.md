@@ -7,7 +7,7 @@ old-location: mf\imfattributes_setstring.htm
 old-project: medfound
 ms.assetid: 51d2a2a0-92cb-49e0-b4a9-7201e9d92322
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 51d2a2a0-92cb-49e0-b4a9-7201e9d92322, IMFAttributes interface [Media Foundation],SetString method, IMFAttributes.SetString, IMFAttributes::SetString, SetString, SetString method [Media Foundation], SetString method [Media Foundation],IMFAttributes interface, mf.imfattributes_setstring, mfobjects/IMFAttributes::SetString
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

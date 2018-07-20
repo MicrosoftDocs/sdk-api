@@ -7,7 +7,7 @@ old-location: setup\msiextractpatchxmldata.htm
 old-project: msi
 ms.assetid: b0044783-552d-4492-bb1d-337227dd3e16
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/17/2018
 ms.keywords: MsiExtractPatchXMLData, MsiExtractPatchXMLData function, MsiExtractPatchXMLDataA, MsiExtractPatchXMLDataW, msi/MsiExtractPatchXMLData, msi/MsiExtractPatchXMLDataA, msi/MsiExtractPatchXMLDataW, setup.msiextractpatchxmldata
 ms.prod: windows
 ms.technology: windows-sdk

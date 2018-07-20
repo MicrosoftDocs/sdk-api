@@ -7,7 +7,7 @@ old-location: mf\mfcameraextrinsic_calibratedtransform.htm
 old-project: medfound
 ms.assetid: 2D227167-68DC-4A43-8665-9A253BD66401
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: MFCameraExtrinsic_CalibratedTransform, MFCameraExtrinsic_CalibratedTransform structure [Media Foundation], PMFCameraExtrinsic_CalibratedTransform, PMFCameraExtrinsic_CalibratedTransform structure pointer [Media Foundation], _MFCameraExtrinsic_CalibratedTransform, mf.mfcameraextrinsic_calibratedtransform, mfapi/MFCameraExtrinsic_CalibratedTransform, mfapi/PMFCameraExtrinsic_CalibratedTransform
 ms.prod: windows
 ms.technology: windows-sdk

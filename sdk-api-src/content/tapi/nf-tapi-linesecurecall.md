@@ -7,7 +7,7 @@ old-location: tapi2\linesecurecall.htm
 old-project: tapi
 ms.assetid: b12a5734-0638-4bb0-8f25-ca27d28e528b
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_linesecurecall, lineSecureCall, lineSecureCall function [TAPI 2.2], tapi/lineSecureCall, tapi2.linesecurecall"
 ms.prod: windows
 ms.technology: windows-sdk

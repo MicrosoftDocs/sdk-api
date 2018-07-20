@@ -7,7 +7,7 @@ old-location: perf\pdhisrealtimequery.htm
 old-project: perfctrs
 ms.assetid: 4f6b2d8d-3a0f-4346-8b8e-a7aea11fbc40
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/18/2018
 ms.keywords: PdhIsRealTimeQuery, PdhIsRealTimeQuery function [Perf], _win32_pdhisrealtimequery, base.pdhisrealtimequery, pdh/PdhIsRealTimeQuery, perf.pdhisrealtimequery
 ms.prod: windows
 ms.technology: windows-sdk

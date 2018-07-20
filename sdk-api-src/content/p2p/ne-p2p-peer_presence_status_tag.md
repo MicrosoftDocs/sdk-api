@@ -7,7 +7,7 @@ old-location: p2p\peer_presence_status.htm
 old-project: p2psdk
 ms.assetid: 0f7f6fa8-5da4-4f59-b9ea-0117ff8a3e28
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PEER_PRESENCE_AWAY, PEER_PRESENCE_BE_RIGHT_BACK, PEER_PRESENCE_BUSY, PEER_PRESENCE_IDLE, PEER_PRESENCE_OFFLINE, PEER_PRESENCE_ONLINE, PEER_PRESENCE_ON_THE_PHONE, PEER_PRESENCE_OUT_TO_LUNCH, PEER_PRESENCE_STATUS, PEER_PRESENCE_STATUS enumeration [Peer Networking], p2p.peer_presence_status, p2p/PEER_PRESENCE_AWAY, p2p/PEER_PRESENCE_BE_RIGHT_BACK, p2p/PEER_PRESENCE_BUSY, p2p/PEER_PRESENCE_IDLE, p2p/PEER_PRESENCE_OFFLINE, p2p/PEER_PRESENCE_ONLINE, p2p/PEER_PRESENCE_ON_THE_PHONE, p2p/PEER_PRESENCE_OUT_TO_LUNCH, p2p/PEER_PRESENCE_STATUS, peer_presence_status_tag
 ms.prod: windows
 ms.technology: windows-sdk

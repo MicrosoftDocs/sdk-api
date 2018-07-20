@@ -4,10 +4,10 @@ title: ListView_SetBkImage macro
 author: windows-sdk-content
 description: Sets the background image in a list-view control. You can use this macro or send the LVM_SETBKIMAGE message explicitly.
 old-location: controls\ListView_SetBkImage.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setbkimage.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ListView_SetBkImage, ListView_SetBkImage macro [Windows Controls], _win32_ListView_SetBkImage, _win32_ListView_SetBkImage_cpp, commctrl/ListView_SetBkImage, controls.ListView_SetBkImage, controls._win32_ListView_SetBkImage
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IAzApplicationGroup
 author: windows-sdk-content
 description: Defines a collection of principals.
 old-location: security\iazapplicationgroup.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 6a15acde-e582-4c49-b7e4-82d4e54012b1
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: IAzApplicationGroup, IAzApplicationGroup interface [Security], IAzApplicationGroup interface [Security],described, azroles/IAzApplicationGroup, security.iazapplicationgroup
 ms.prod: windows
 ms.technology: windows-sdk

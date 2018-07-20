@@ -7,7 +7,7 @@ old-location: tapi2\lineagentactivitylist_str.htm
 old-project: tapi
 ms.assetid: 61e46717-8a14-440f-bb61-991c3dadd778
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "*LPLINEAGENTACTIVITYLIST, LINEAGENTACTIVITYLIST, LINEAGENTACTIVITYLIST structure [TAPI 2.2], LPLINEAGENTACTIVITYLIST, LPLINEAGENTACTIVITYLIST structure pointer [TAPI 2.2], _tapi2_lineagentactivitylist_str, lineagentactivitylist_tag, tapi/LINEAGENTACTIVITYLIST, tapi/LPLINEAGENTACTIVITYLIST, tapi2.lineagentactivitylist_str"
 ms.prod: windows
 ms.technology: windows-sdk

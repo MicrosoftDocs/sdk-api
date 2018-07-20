@@ -4,10 +4,10 @@ title: ICEnroll::getCertFromPKCS7
 author: windows-sdk-content
 description: Retrieves the certificate, contained in a PKCS #7 message, that was issued in response to a PKCS #10 certificate request. This method was first defined by the ICEnroll interface.
 old-location: security\icenroll4_getcertfrompkcs7.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 3094cd58-d123-40f1-ac81-dffdfb56d47d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CEnroll object [Security],getCertFromPKCS7 method, ICEnroll interface [Security],getCertFromPKCS7 method, ICEnroll.getCertFromPKCS7, ICEnroll2 interface [Security],getCertFromPKCS7 method, ICEnroll2::getCertFromPKCS7, ICEnroll3 interface [Security],getCertFromPKCS7 method, ICEnroll3::getCertFromPKCS7, ICEnroll4 interface [Security],getCertFromPKCS7 method, ICEnroll4::getCertFromPKCS7, ICEnroll::getCertFromPKCS7, getCertFromPKCS7, getCertFromPKCS7 method [Security], getCertFromPKCS7 method [Security],CEnroll object, getCertFromPKCS7 method [Security],ICEnroll interface, getCertFromPKCS7 method [Security],ICEnroll2 interface, getCertFromPKCS7 method [Security],ICEnroll3 interface, getCertFromPKCS7 method [Security],ICEnroll4 interface, security.icenroll4_getcertfrompkcs7, xenroll/ICEnroll2::getCertFromPKCS7, xenroll/ICEnroll3::getCertFromPKCS7, xenroll/ICEnroll4::getCertFromPKCS7, xenroll/ICEnroll::getCertFromPKCS7
 ms.prod: windows
 ms.technology: windows-sdk

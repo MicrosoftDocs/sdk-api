@@ -4,10 +4,10 @@ title: AreAllAccessesGranted function
 author: windows-sdk-content
 description: Checks whether a set of requested access rights has been granted. The access rights are represented as bit flags in an access mask.
 old-location: security\areallaccessesgranted.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 91349693-8667-49dd-a813-657497b7d467
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: AreAllAccessesGranted, AreAllAccessesGranted function [Security], _win32_areallaccessesgranted, security.areallaccessesgranted, securitybaseapi/AreAllAccessesGranted
 ms.prod: windows
 ms.technology: windows-sdk

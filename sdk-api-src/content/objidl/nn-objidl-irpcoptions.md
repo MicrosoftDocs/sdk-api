@@ -7,7 +7,7 @@ old-location: com\irpcoptions.htm
 old-project: com
 ms.assetid: aa5db8ac-4c29-43cf-a7ed-a870df9dfb82
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IRpcOptions, IRpcOptions interface [COM], IRpcOptions interface [COM],described, _com_irpcoptions, com.irpcoptions, objidlbase/IRpcOptions
 ms.prod: windows
 ms.technology: windows-sdk

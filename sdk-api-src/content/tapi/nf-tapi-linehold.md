@@ -7,7 +7,7 @@ old-location: tapi2\linehold.htm
 old-project: tapi
 ms.assetid: d2fd450c-402c-4122-a785-a6b5216acfe9
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_linehold, lineHold, lineHold function [TAPI 2.2], tapi/lineHold, tapi2.linehold"
 ms.prod: windows
 ms.technology: windows-sdk

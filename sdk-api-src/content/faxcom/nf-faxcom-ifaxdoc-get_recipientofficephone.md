@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_recipientofficephone_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3945.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxDoc object [Fax Service],RecipientOfficePhone property, FaxDoc.RecipientOfficePhone, IFaxDoc.get_RecipientOfficePhone, IFaxDoc::get_RecipientOfficePhone, RecipientOfficePhone property [Fax Service], RecipientOfficePhone property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientofficephone, fax._mfax_ifaxdoc_get_recipientofficephone, fax._mfax_ifaxdoc_get_recipientofficephone_vb, get_RecipientOfficePhone
 ms.prod: windows
 ms.technology: windows-sdk

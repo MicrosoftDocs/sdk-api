@@ -7,7 +7,7 @@ old-location: tapi3\ittapi_setapplicationpriority.htm
 old-project: tapi
 ms.assetid: ca049695-02d0-4b30-ad1f-60cdbf0a4dbd
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],SetApplicationPriority method, ITTAPI.SetApplicationPriority, ITTAPI::SetApplicationPriority, SetApplicationPriority, SetApplicationPriority method [TAPI 2.2], SetApplicationPriority method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_setapplicationpriority, tapi3.ittapi_setapplicationpriority, tapi3if/ITTAPI::SetApplicationPriority
 ms.prod: windows
 ms.technology: windows-sdk

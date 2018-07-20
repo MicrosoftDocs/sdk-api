@@ -7,7 +7,7 @@ old-location: shell\IAutoComplete_Init.htm
 old-project: shell
 ms.assetid: e5ee36b7-11b4-4eca-ae8e-eefa6245f287
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IAutoComplete interface [Windows Shell],Init method, IAutoComplete.Init, IAutoComplete::Init, Init, Init method [Windows Shell], Init method [Windows Shell],IAutoComplete interface, _win32_IAutoComplete_Init, shell.IAutoComplete_Init, shldisp/IAutoComplete::Init
 ms.prod: windows
 ms.technology: windows-sdk

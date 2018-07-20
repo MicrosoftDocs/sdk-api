@@ -7,7 +7,7 @@ old-location: p2p\peer_connection_status.htm
 old-project: p2psdk
 ms.assetid: 42095744-bcbf-433f-b631-2281f079d2fd
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PEER_CONNECTED, PEER_CONNECTION_FAILED, PEER_CONNECTION_STATUS, PEER_CONNECTION_STATUS enumeration [Peer Networking], PEER_DISCONNECTED, p2p.peer_connection_status, p2p/PEER_CONNECTED, p2p/PEER_CONNECTION_FAILED, p2p/PEER_CONNECTION_STATUS, p2p/PEER_DISCONNECTED, peer_connection_status_tag
 ms.prod: windows
 ms.technology: windows-sdk

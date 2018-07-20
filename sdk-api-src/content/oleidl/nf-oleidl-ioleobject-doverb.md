@@ -7,7 +7,7 @@ old-location: com\ioleobject_doverb.htm
 old-project: com
 ms.assetid: fabd6a0a-7b0c-4c99-af22-8b117addd5f7
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: DoVerb, DoVerb method [COM], DoVerb method [COM],IOleObject interface, IOleObject interface [COM],DoVerb method, IOleObject.DoVerb, IOleObject::DoVerb, _ole_ioleobject_doverb, com.ioleobject_doverb, oleidl/IOleObject::DoVerb
 ms.prod: windows
 ms.technology: windows-sdk

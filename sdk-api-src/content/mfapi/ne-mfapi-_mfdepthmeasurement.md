@@ -7,7 +7,7 @@ old-location: mf\_mfdepthmeasurement.htm
 old-project: medfound
 ms.assetid: CCE34279-A52C-4F6E-9E8E-679F76187B3B
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: DistanceToFocalPlane, DistanceToOpticalCenter, MFDepthMeasurement, _MFDepthMeasurement, _MFDepthMeasurement enumeration [Media Foundation], mf._mfdepthmeasurement, mfapi/DistanceToFocalPlane, mfapi/DistanceToOpticalCenter, mfapi/_MFDepthMeasurement
 ms.prod: windows
 ms.technology: windows-sdk

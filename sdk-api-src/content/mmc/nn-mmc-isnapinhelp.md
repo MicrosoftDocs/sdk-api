@@ -7,7 +7,7 @@ old-location: mmc\isnapinhelp.htm
 old-project: mmc
 ms.assetid: 237E52F7-5EB9-45DA-ACC3-391ED3BF7C5E
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: ISnapinHelp, ISnapinHelp interface [MMC], ISnapinHelp interface [MMC],described, mmc.isnapinhelp, mmc/ISnapinHelp
 ms.prod: windows
 ms.technology: windows-sdk

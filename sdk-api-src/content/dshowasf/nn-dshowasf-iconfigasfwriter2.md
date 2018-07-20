@@ -7,7 +7,7 @@ old-location: dshow\iconfigasfwriter2.htm
 old-project: DirectShow
 ms.assetid: fd931a95-3678-46de-8f17-9e7c27087398
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IConfigAsfWriter2, IConfigAsfWriter2 interface [DirectShow], IConfigAsfWriter2 interface [DirectShow],described, IConfigAsfWriter2Interface, dshow.iconfigasfwriter2, dshowasf/IConfigAsfWriter2
 ms.prod: windows
 ms.technology: windows-sdk

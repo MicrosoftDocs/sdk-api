@@ -7,7 +7,7 @@ old-location: mf\imfvideodisplaycontrol_getbordercolor.htm
 old-project: medfound
 ms.assetid: 1b65b793-d06d-4d7f-a19f-0068dd7f2e44
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 1b65b793-d06d-4d7f-a19f-0068dd7f2e44, GetBorderColor, GetBorderColor method [Media Foundation], GetBorderColor method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetBorderColor method, IMFVideoDisplayControl.GetBorderColor, IMFVideoDisplayControl::GetBorderColor, evr/IMFVideoDisplayControl::GetBorderColor, mf.imfvideodisplaycontrol_getbordercolor
 ms.prod: windows
 ms.technology: windows-sdk

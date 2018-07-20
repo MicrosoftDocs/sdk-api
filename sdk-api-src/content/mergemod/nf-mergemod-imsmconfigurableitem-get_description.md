@@ -7,7 +7,7 @@ old-location: setup\configurableitem_description.htm
 old-project: msi
 ms.assetid: a43e3392-0539-4904-a0d9-827b69e1ce07
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/17/2018
 ms.keywords: ConfigurableItem object,Description property, ConfigurableItem.Description, Description property, Description property,ConfigurableItem object, IMsmConfigurableItem.get_Description, IMsmConfigurableItem::get_Description, _msi_description_property_configurableitem_object_, get_Description, setup.configurableitem_description
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_queryheader.htm
 old-project: medfound
 ms.assetid: BFAE5257-0BE8-47F3-B3CD-490885E60065
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFHttpDownloadRequest interface [Media Foundation],QueryHeader method, IMFHttpDownloadRequest.QueryHeader, IMFHttpDownloadRequest::QueryHeader, QueryHeader, QueryHeader method [Media Foundation], QueryHeader method [Media Foundation],IMFHttpDownloadRequest interface, mf.imfhttpdownloadrequest_queryheader, mfidl/IMFHttpDownloadRequest::QueryHeader
 ms.prod: windows
 ms.technology: windows-sdk

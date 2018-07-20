@@ -7,7 +7,7 @@ old-location: direct3ddxgi\createdxgifactory.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\createdxgifactory.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: CreateDXGIFactory, CreateDXGIFactory function [DXGI], direct3ddxgi.createdxgifactory, dxgi/CreateDXGIFactory, f8906daa-c399-a76f-d487-e1f2ee03b8a8
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,8 +108,7 @@ The <b>CreateDXGIFactory</b> function does not exist for Windows Store apps. Ins
 
 #### Examples
 
-
-          Creating a DXGI 1.0 Factory
+Creating a DXGI 1.0 Factory
           
 
 The following code example demonstrates how to create a DXGI 1.0 factory.  This example uses the __uuidof() intrinsic to obtain the REFIID, or GUID, of the <a href="https://msdn.microsoft.com/library/Bb174535(v=VS.85).aspx">IDXGIFactory</a> interface.

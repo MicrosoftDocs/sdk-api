@@ -262,22 +262,22 @@ Number of active IPv6 outbound connections.
  
 
 
-### -field reauthReasonLocalAddressUniFiltersChanged
+### -field reauthReasonPreclassifyLocalAddrLayerChange
 
  
 
 
-### -field reauthReasonRemoteAddressUniFiltersChanged
+### -field reauthReasonPreclassifyRemoteAddrLayerChange
 
  
 
 
-### -field reauthReasonLocalPortUniFiltersChanges
+### -field reauthReasonPreclassifyLocalPortLayerChange
 
  
 
 
-### -field reauthReasonRemotePortUniFiltersChanges
+### -field reauthReasonPreclassifyRemotePortLayerChange
 
  
 

@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxstatus_get_devicename_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_67mt.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: DeviceName property [Fax Service], DeviceName property [Fax Service],FaxStatus object, FaxStatus object [Fax Service],DeviceName property, FaxStatus.DeviceName, IFaxStatus.get_DeviceName, IFaxStatus::get_DeviceName, _mfax_ifaxstatus_get_devicename, fax._mfax_ifaxstatus_get_devicename, fax._mfax_ifaxstatus_get_devicename_vb, get_DeviceName
 ms.prod: windows
 ms.technology: windows-sdk

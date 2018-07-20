@@ -7,7 +7,7 @@ old-location: tapi3\itphone_get_buttonmode.htm
 old-project: tapi
 ms.assetid: 5b3173bf-1c79-4c5d-a2bc-3b3ae4f0ae8a
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_ButtonMode method, ITPhone.get_ButtonMode, ITPhone::get_ButtonMode, _tapi3_itphone_get_buttonmode, get_ButtonMode, get_ButtonMode method [TAPI 2.2], get_ButtonMode method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_buttonmode, tapi3if/ITPhone::get_ButtonMode
 ms.prod: windows
 ms.technology: windows-sdk

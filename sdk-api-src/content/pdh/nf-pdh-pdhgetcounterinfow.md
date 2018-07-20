@@ -7,7 +7,7 @@ old-location: perf\pdhgetcounterinfo.htm
 old-project: perfctrs
 ms.assetid: 12e1a194-5418-4c2a-9853-ef2d2c666893
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/18/2018
 ms.keywords: PdhGetCounterInfo, PdhGetCounterInfo function [Perf], PdhGetCounterInfoA, PdhGetCounterInfoW, _win32_pdhgetcounterinfo, base.pdhgetcounterinfo, pdh/PdhGetCounterInfo, pdh/PdhGetCounterInfoA, pdh/PdhGetCounterInfoW, perf.pdhgetcounterinfo
 ms.prod: windows
 ms.technology: windows-sdk

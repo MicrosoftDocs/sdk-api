@@ -4,10 +4,10 @@ title: FDIIsCabinet function
 author: windows-sdk-content
 description: The FDIIsCabinet function determines whether a file is a cabinet and, if it is, returns information about it.
 old-location: winprog\fdiiscabinet.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: 01d223ca-56c6-49fa-b9e6-e5eeda88936a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: FDIIsCabinet, FDIIsCabinet function [Windows API], fdi/FDIIsCabinet, winprog.fdiiscabinet
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: function
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

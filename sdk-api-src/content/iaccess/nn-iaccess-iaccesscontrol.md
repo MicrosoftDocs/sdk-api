@@ -7,7 +7,7 @@ old-location: com\iaccesscontrol.htm
 old-project: com
 ms.assetid: f7f19a9d-27ed-479f-b5d4-562cab5be12a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IAccessControl, IAccessControl interface [COM], IAccessControl interface [COM],described, _com_iaccesscontrol, com.iaccesscontrol, iaccess/IAccessControl
 ms.prod: windows
 ms.technology: windows-sdk

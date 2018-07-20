@@ -4,10 +4,10 @@ title: QueryServiceObjectSecurity function
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor associated with a service object.
 old-location: security\queryserviceobjectsecurity.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 5d95945f-f11b-42af-b302-8d924917b9ab
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: QueryServiceObjectSecurity, QueryServiceObjectSecurity function [Security], _win32_queryserviceobjectsecurity, security.queryserviceobjectsecurity, winsvc/QueryServiceObjectSecurity
 ms.prod: windows
 ms.technology: windows-sdk

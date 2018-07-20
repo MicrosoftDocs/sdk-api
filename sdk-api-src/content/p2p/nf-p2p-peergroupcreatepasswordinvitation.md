@@ -7,7 +7,7 @@ old-location: p2p\peergroupcreatepasswordinvitation.htm
 old-project: p2psdk
 ms.assetid: 12d2920d-35b6-41e3-9129-1f11ce4cb5eb
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PeerGroupCreatePasswordInvitation, PeerGroupCreatePasswordInvitation function [Peer Networking], p2p.peergroupcreatepasswordinvitation, p2p/PeerGroupCreatePasswordInvitation
 ms.prod: windows
 ms.technology: windows-sdk

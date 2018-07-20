@@ -4,10 +4,10 @@ title: IFsrmMutableCollection
 author: windows-sdk-content
 description: Used to manage a collection of FSRM objects that can have objects added to or removed from the collection.
 old-location: fsrm\ifsrmmutablecollection.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: e41f01ef-5dd2-4066-82cd-45b57578c9bb
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IFsrmMutableCollection, IFsrmMutableCollection interface [File Server Resource Manager], IFsrmMutableCollection interface [File Server Resource Manager],described, fs.ifsrmmutablecollection, fsrm.ifsrmmutablecollection, fsrm/IFsrmMutableCollection
 ms.prod: windows
 ms.technology: windows-sdk

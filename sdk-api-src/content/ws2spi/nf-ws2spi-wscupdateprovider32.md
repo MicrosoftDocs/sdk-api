@@ -7,7 +7,7 @@ old-location: winsock\wscupdateprovider32.htm
 old-project: winsock
 ms.assetid: 803ef58a-853b-491c-bed1-e02275fef258
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/18/2018
 ms.keywords: WSCUpdateProvider32, WSCUpdateProvider32 function [Winsock], winsock.wscupdateprovider32, ws2spi/WSCUpdateProvider32
 ms.prod: windows
 ms.technology: windows-sdk

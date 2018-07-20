@@ -113,6 +113,11 @@ The resource is a cube texture.
 The resource is an array of cube textures.
 
 
+### -field D3D12_SRV_DIMENSION_RAYTRACING_ACCELERATION_STRUCTURE
+
+
+
+
 ## -remarks
 
 

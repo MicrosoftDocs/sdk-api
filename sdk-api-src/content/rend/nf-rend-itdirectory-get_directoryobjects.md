@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_get_directoryobjects.htm
 old-project: tapi
 ms.assetid: dd768103-4dfc-4be2-accf-38e33959102d
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],get_DirectoryObjects method, ITDirectory.get_DirectoryObjects, ITDirectory::get_DirectoryObjects, _tapi3_itdirectory_get_directoryobjects, get_DirectoryObjects, get_DirectoryObjects method [TAPI 2.2], get_DirectoryObjects method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_DirectoryObjects, tapi3.itdirectory_get_directoryobjects
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_CERT_ISSUER_SERIAL_NUMBER"
 author: windows-sdk-content
 description: Acts as a unique identifier of a certificate containing the issuer and issuer's serial number for a certificate.
 old-location: security\cert_issuer_serial_number.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 4e44113f-81e7-4551-bf4d-50986d6d57bb
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*PCERT_ISSUER_SERIAL_NUMBER, CERT_ISSUER_SERIAL_NUMBER, CERT_ISSUER_SERIAL_NUMBER structure [Security], PCERT_ISSUER_SERIAL_NUMBER, PCERT_ISSUER_SERIAL_NUMBER structure pointer [Security], _CERT_ISSUER_SERIAL_NUMBER, _crypto2_cert_issuer_serial_number, security.cert_issuer_serial_number, wincrypt/CERT_ISSUER_SERIAL_NUMBER, wincrypt/PCERT_ISSUER_SERIAL_NUMBER"
 ms.prod: windows
 ms.technology: windows-sdk

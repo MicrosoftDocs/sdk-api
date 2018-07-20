@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredentialEvents2.htm
 old-project: shell
 ms.assetid: 47290FF7-1785-4470-B3A9-F35C5028A6FE
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ICredentialProviderCredentialEvents2, ICredentialProviderCredentialEvents2 interface [Windows Shell], ICredentialProviderCredentialEvents2 interface [Windows Shell],described, credentialprovider/ICredentialProviderCredentialEvents2, shell.ICredentialProviderCredentialEvents2
 ms.prod: windows
 ms.technology: windows-sdk

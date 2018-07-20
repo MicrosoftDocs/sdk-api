@@ -7,7 +7,7 @@ old-location: p2p\peergroupsearchrecords.htm
 old-project: p2psdk
 ms.assetid: 7df13041-e802-47b6-8b44-14837c513936
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PeerGroupSearchRecords, PeerGroupSearchRecords function [Peer Networking], p2p.peergroupsearchrecords, p2p/PeerGroupSearchRecords
 ms.prod: windows
 ms.technology: windows-sdk

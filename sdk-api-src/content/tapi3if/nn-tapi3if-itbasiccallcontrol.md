@@ -7,7 +7,7 @@ old-location: tapi3\itbasiccallcontrol.htm
 old-project: tapi
 ms.assetid: a0b4c496-5ee8-4810-8170-8ea505c99f18
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITBasicCallControl, ITBasicCallControl interface [TAPI 2.2], ITBasicCallControl interface [TAPI 2.2],described, _tapi3_itbasiccallcontrol, tapi3.itbasiccallcontrol, tapi3if/ITBasicCallControl
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_getmodulerefprops.htm
 old-project: WinRT
 ms.assetid: 1f14fe81-d585-4167-8817-0c7d000413de
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: GetModuleRefProps, GetModuleRefProps method [Windows Runtime], GetModuleRefProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetModuleRefProps method, IMetaDataImport.GetModuleRefProps, IMetaDataImport::GetModuleRefProps, rometadataapi/IMetaDataImport::GetModuleRefProps, winrt.imetadataimport_getmodulerefprops
 ms.prod: windows
 ms.technology: windows-sdk

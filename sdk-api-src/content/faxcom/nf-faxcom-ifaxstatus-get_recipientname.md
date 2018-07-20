@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxstatus_get_recipientname_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6qlh.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxStatus object [Fax Service],RecipientName property, FaxStatus.RecipientName, IFaxStatus.get_RecipientName, IFaxStatus::get_RecipientName, RecipientName property [Fax Service], RecipientName property [Fax Service],FaxStatus object, _mfax_ifaxstatus_get_recipientname, fax._mfax_ifaxstatus_get_recipientname, fax._mfax_ifaxstatus_get_recipientname_vb, get_RecipientName
 ms.prod: windows
 ms.technology: windows-sdk

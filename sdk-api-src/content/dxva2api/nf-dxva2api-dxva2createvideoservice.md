@@ -7,7 +7,7 @@ old-location: mf\dxva2createvideoservice.htm
 old-project: medfound
 ms.assetid: e62dbacb-f638-4307-ba56-88415d881fc9
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: DXVA2CreateVideoService, DXVA2CreateVideoService function [Media Foundation], dxva2api/DXVA2CreateVideoService, e62dbacb-f638-4307-ba56-88415d881fc9, mf.dxva2createvideoservice
 ms.prod: windows
 ms.technology: windows-sdk

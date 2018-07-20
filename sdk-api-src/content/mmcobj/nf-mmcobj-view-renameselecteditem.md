@@ -7,7 +7,7 @@ old-location: mmc\view_renameselecteditem.htm
 old-project: mmc
 ms.assetid: 65788a9f-7d56-4114-8cb7-479f3899d418
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: RenameSelectedItem, RenameSelectedItem method [MMC], RenameSelectedItem method [MMC],View interface, RenameSelectedItem method [MMC],View object, View interface [MMC],RenameSelectedItem method, View object [MMC],RenameSelectedItem method, View.RenameSelectedItem, View::RenameSelectedItem, _slate_view.renameselecteditem_method, mmc.view_renameselecteditem
 ms.prod: windows
 ms.technology: windows-sdk

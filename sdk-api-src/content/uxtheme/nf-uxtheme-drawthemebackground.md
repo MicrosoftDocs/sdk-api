@@ -4,10 +4,10 @@ title: DrawThemeBackground function
 author: windows-sdk-content
 description: Draws the border and fill defined by the visual style for the specified control part.
 old-location: controls\DrawThemeBackground.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemebackground.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DrawThemeBackground, DrawThemeBackground function [Windows Controls], controls.DrawThemeBackground, controls.inet_DrawThemeBackground, inet_DrawThemeBackground, inet_DrawThemeBackground_cpp, uxtheme/DrawThemeBackground
 ms.prod: windows
 ms.technology: windows-sdk

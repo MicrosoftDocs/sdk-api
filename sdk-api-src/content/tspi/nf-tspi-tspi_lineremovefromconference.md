@@ -7,7 +7,7 @@ old-location: tspi\tspi_lineremovefromconference.htm
 old-project: tapi
 ms.assetid: 6e09ba3e-d233-4026-9866-8bc0d45ec9aa
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineRemoveFromConference, TSPI_lineRemoveFromConference function [TAPI 2.2], _tspi_tspi_lineremovefromconference, tspi.tspi_lineremovefromconference, tspi/TSPI_lineRemoveFromConference
 ms.prod: windows
 ms.technology: windows-sdk

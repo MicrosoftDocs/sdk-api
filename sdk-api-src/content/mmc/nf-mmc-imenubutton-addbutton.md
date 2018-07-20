@@ -7,7 +7,7 @@ old-location: mmc\imenubutton_addbutton.htm
 old-project: mmc
 ms.assetid: 75d19e2a-0d3e-4883-852e-983fcee8166a
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: AddButton, AddButton method [MMC], AddButton method [MMC],IMenuButton interface, IMenuButton interface [MMC],AddButton method, IMenuButton.AddButton, IMenuButton::AddButton, _slate_imenubutton_addbutton, mmc.imenubutton_addbutton, mmc/IMenuButton::AddButton
 ms.prod: windows
 ms.technology: windows-sdk

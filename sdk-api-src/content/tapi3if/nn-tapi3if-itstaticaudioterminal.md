@@ -7,7 +7,7 @@ old-location: tapi3\itstaticaudioterminal.htm
 old-project: tapi
 ms.assetid: 154c07b6-c693-469d-819a-f6d2d2afd744
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITStaticAudioTerminal, ITStaticAudioTerminal interface [TAPI 2.2], ITStaticAudioTerminal interface [TAPI 2.2],described, _tapi3_itstaticaudioterminal, tapi3.itstaticaudioterminal, tapi3if/ITStaticAudioTerminal
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\heaacwaveformat.htm
 old-project: DirectShow
 ms.assetid: 0809eaa7-3c4c-467d-afa0-d9555ab6d71f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*LPHEAACWAVEFORMAT, *NPHEAACWAVEFORMAT, *PHEAACWAVEFORMAT, HEAACWAVEFORMAT, HEAACWAVEFORMAT structure [DirectShow], PHEAACWAVEFORMAT, PHEAACWAVEFORMAT structure pointer [DirectShow], dshow.heaacwaveformat, heaacwaveformat_tag, mmreg/HEAACWAVEFORMAT, mmreg/PHEAACWAVEFORMAT"
 ms.prod: windows
 ms.technology: windows-sdk

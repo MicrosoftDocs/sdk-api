@@ -4,10 +4,10 @@ title: ITextRange2::GetGravity
 author: windows-sdk-content
 description: Gets the gravity of this range.
 old-location: controls\itextrange2_getgravity.htm
-old-project: Controls
+old-project: controls
 ms.assetid: a57ab2c2-1871-413a-bccd-47f5c1dd4570
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetGravity, GetGravity method [Windows Controls], GetGravity method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetGravity method, ITextRange2.GetGravity, ITextRange2::GetGravity, controls.itextrange2_getgravity, tom/ITextRange2::GetGravity, tomGravityBack, tomGravityFore, tomGravityIn, tomGravityOut, tomGravityUI
 ms.prod: windows
 ms.technology: windows-sdk

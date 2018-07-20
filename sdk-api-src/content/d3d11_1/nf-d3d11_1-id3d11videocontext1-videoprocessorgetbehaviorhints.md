@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext1_videoprocessorgetbehaviorhints.htm
 old-project: medfound
 ms.assetid: DDA8B3DE-A9D2-48A5-ABEE-E3F7A0EEB965
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: ID3D11VideoContext1 interface [Media Foundation],VideoProcessorGetBehaviorHints method, ID3D11VideoContext1.VideoProcessorGetBehaviorHints, ID3D11VideoContext1::VideoProcessorGetBehaviorHints, VideoProcessorGetBehaviorHints, VideoProcessorGetBehaviorHints method [Media Foundation], VideoProcessorGetBehaviorHints method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::VideoProcessorGetBehaviorHints, mf.id3d11videocontext1_videoprocessorgetbehaviorhints
 ms.prod: windows
 ms.technology: windows-sdk

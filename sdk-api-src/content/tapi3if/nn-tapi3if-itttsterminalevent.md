@@ -7,7 +7,7 @@ old-location: tapi3\itttsterminalevent.htm
 old-project: tapi
 ms.assetid: 0375d6e4-cd9f-4245-abf5-1b200af79848
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITTTSTerminalEvent, ITTTSTerminalEvent interface [TAPI 2.2], ITTTSTerminalEvent interface [TAPI 2.2],described, _tapi3_itttsterminalevent, tapi3.itttsterminalevent, tapi3if/ITTTSTerminalEvent
 ms.prod: windows
 ms.technology: windows-sdk

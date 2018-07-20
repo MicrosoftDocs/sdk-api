@@ -7,7 +7,7 @@ old-location: setup\setupgetintfield.htm
 old-project: SetupApi
 ms.assetid: 4c77052a-46ef-4154-82c0-5ec447861bcf
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/16/2018
 ms.keywords: SetupGetIntField, SetupGetIntField function [Setup API], _setupapi_setupgetintfield, setup.setupgetintfield, setupapi/SetupGetIntField
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfattributes_setuint64.htm
 old-project: medfound
 ms.assetid: 817ed1c1-16ad-4520-a1a0-a93563936b50
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 817ed1c1-16ad-4520-a1a0-a93563936b50, IMFAttributes interface [Media Foundation],SetUINT64 method, IMFAttributes.SetUINT64, IMFAttributes::SetUINT64, SetUINT64, SetUINT64 method [Media Foundation], SetUINT64 method [Media Foundation],IMFAttributes interface, mf.imfattributes_setuint64, mfobjects/IMFAttributes::SetUINT64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

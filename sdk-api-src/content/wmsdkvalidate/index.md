@@ -2,7 +2,7 @@
 UID: NA:wmsdkvalidate
 ms.assetid: 6811ee4b-adad-30c8-9b76-7cbeff9348ab
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/20/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

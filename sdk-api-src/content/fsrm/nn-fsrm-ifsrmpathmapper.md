@@ -4,10 +4,10 @@ title: IFsrmPathMapper
 author: windows-sdk-content
 description: Used to retrieve the network share paths that are mapped to a local path.
 old-location: fsrm\ifsrmpathmapper.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 04e62a10-1719-454b-adfb-6320e31c7a88
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IFsrmPathMapper, IFsrmPathMapper interface [File Server Resource Manager], IFsrmPathMapper interface [File Server Resource Manager],described, fs.ifsrmpathmapper, fsrm.ifsrmpathmapper, fsrm/IFsrmPathMapper
 ms.prod: windows
 ms.technology: windows-sdk

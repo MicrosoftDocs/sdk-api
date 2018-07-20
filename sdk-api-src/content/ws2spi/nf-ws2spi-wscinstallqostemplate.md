@@ -7,7 +7,7 @@ old-location: winsock\wscinstallqostemplate.htm
 old-project: winsock
 ms.assetid: b83cfb67-c3be-49aa-930d-d6b056f7bde2
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/18/2018
 ms.keywords: WSCInstallQOSTemplate, WSCInstallQOSTemplate function [Winsock], winsock.wscinstallqostemplate, ws2spi/WSCInstallQOSTemplate
 ms.prod: windows
 ms.technology: windows-sdk

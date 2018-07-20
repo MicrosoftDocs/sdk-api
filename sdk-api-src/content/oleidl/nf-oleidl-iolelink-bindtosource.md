@@ -7,7 +7,7 @@ old-location: com\iolelink_bindtosource.htm
 old-project: com
 ms.assetid: 1fadd27d-cb2c-47fc-891a-16f82bdac0f6
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: BindToSource, BindToSource method [COM], BindToSource method [COM],IOleLink interface, IOleLink interface [COM],BindToSource method, IOleLink.BindToSource, IOleLink::BindToSource, _ole_iolelink_bindtosource, com.iolelink_bindtosource, oleidl/IOleLink::BindToSource
 ms.prod: windows
 ms.technology: windows-sdk

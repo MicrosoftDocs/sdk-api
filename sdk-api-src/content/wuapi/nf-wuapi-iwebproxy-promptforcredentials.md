@@ -4,10 +4,10 @@ title: IWebProxy::PromptForCredentials
 author: windows-sdk-content
 description: Prompts the user for the password to use for proxy authentication.
 old-location: wua\iwebproxy_promptforcredentials.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 2eeb4418-d9fe-41b8-97c9-cafe18aab528
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: IWebProxy interface [Windows Update Agent],PromptForCredentials method, IWebProxy.PromptForCredentials, IWebProxy::PromptForCredentials, PromptForCredentials, PromptForCredentials method [Windows Update Agent], PromptForCredentials method [Windows Update Agent],IWebProxy interface, wua.iwebproxy_promptforcredentials, wuapi/IWebProxy::PromptForCredentials
 ms.prod: windows
 ms.technology: windows-sdk

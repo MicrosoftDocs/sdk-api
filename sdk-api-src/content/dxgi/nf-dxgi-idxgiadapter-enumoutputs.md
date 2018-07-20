@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter_enumoutputs.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter_enumoutputs.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: 7da8b512-df54-dc59-9b13-fb6ef2f60fd6, EnumOutputs, EnumOutputs method [DXGI], EnumOutputs method [DXGI],IDXGIAdapter interface, IDXGIAdapter interface [DXGI],EnumOutputs method, IDXGIAdapter.EnumOutputs, IDXGIAdapter::EnumOutputs, direct3ddxgi.idxgiadapter_enumoutputs, dxgi/IDXGIAdapter::EnumOutputs
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,8 +102,7 @@ When the <b>EnumOutputs</b> method succeeds and fills the <i>ppOutput</i> parame
 
 #### Examples
 
-
-          Enumerating Outputs
+Enumerating Outputs
           
 
 Here is an example of how to use <b>EnumOutputs</b> to enumerate all the outputs on an adapter:

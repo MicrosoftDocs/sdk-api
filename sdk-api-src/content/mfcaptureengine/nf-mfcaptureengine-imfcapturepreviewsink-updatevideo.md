@@ -7,7 +7,7 @@ old-location: mf\imfcapturepreviewsink_updatevideo.htm
 old-project: medfound
 ms.assetid: B541D209-BB03-4FCF-834C-82002037C357
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],UpdateVideo method, IMFCapturePreviewSink.UpdateVideo, IMFCapturePreviewSink::UpdateVideo, UpdateVideo, UpdateVideo method [Media Foundation], UpdateVideo method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_updatevideo, mfcaptureengine/IMFCapturePreviewSink::UpdateVideo
 ms.prod: windows
 ms.technology: windows-sdk

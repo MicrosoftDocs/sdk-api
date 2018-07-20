@@ -7,7 +7,7 @@ old-location: winsock\nspcleanup_2.htm
 old-project: winsock
 ms.assetid: bef888a2-7cfd-4096-bd03-e1864af42365
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/18/2018
 ms.keywords: LPNSPCLEANUP, NSPCleanup, NSPCleanup function [Winsock], _win32_nspcleanup_2, winsock.nspcleanup_2, ws2spi/NSPCleanup
 ms.prod: windows
 ms.technology: windows-sdk

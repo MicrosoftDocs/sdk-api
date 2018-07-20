@@ -7,7 +7,7 @@ old-location: tspi\tuispi_providergenericdialog.htm
 old-project: tapi
 ms.assetid: 2615ad41-b9bb-4bd4-9cfa-26b3c3336bee
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TUISPI_providerGenericDialog, TUISPI_providerGenericDialog function [TAPI 2.2], _tspi_tuispi_providergenericdialog, tspi.tuispi_providergenericdialog, tspi/TUISPI_providerGenericDialog
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutputduplication_getframedirtyrects.htm
 old-project: direct3ddxgi
 ms.assetid: F242E7C8-6A39-4B39-A811-243E17408577
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: GetFrameDirtyRects, GetFrameDirtyRects method [DXGI], GetFrameDirtyRects method [DXGI],IDXGIOutputDuplication interface, IDXGIOutputDuplication interface [DXGI],GetFrameDirtyRects method, IDXGIOutputDuplication.GetFrameDirtyRects, IDXGIOutputDuplication::GetFrameDirtyRects, direct3ddxgi.idxgioutputduplication_getframedirtyrects, dxgi1_2/IDXGIOutputDuplication::GetFrameDirtyRects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,8 +97,7 @@ For more information about returning the required buffer size, see Remarks.
 <li>Desktop switch</li>
 <li>Mode change</li>
 <li>Switch from DWM on, DWM off, or other full-screen application</li>
-</ul>
-          In this situation, the application must release the 
+</ul>In this situation, the application must release the 
           <a href="https://msdn.microsoft.com/02C4EC3D-D97F-4CFC-ABF5-03B44CE6A658">IDXGIOutputDuplication</a> interface and 
           create a new 
           <b>IDXGIOutputDuplication</b> for the new 

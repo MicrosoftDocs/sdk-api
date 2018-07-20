@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessage_sender.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1iya.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxOutgoingMessage object [Fax Service],Sender property, FaxOutgoingMessage.Sender, IFaxOutgoingMessage.get_Sender, IFaxOutgoingMessage::get_Sender, Sender property [Fax Service], Sender property [Fax Service],FaxOutgoingMessage object, _mfax_faxoutgoingmessage.sender, fax._mfax_faxoutgoingmessage_sender, get_Sender
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator.htm
 old-project: DirectShow
 ms.assetid: 78e0a165-5a19-4dca-8d6c-445345772824
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IAMVideoAccelerator, IAMVideoAccelerator interface [DirectShow], IAMVideoAccelerator interface [DirectShow],described, IAMVideoAcceleratorInterface, dshow.iamvideoaccelerator, videoacc/IAMVideoAccelerator
 ms.prod: windows
 ms.technology: windows-sdk

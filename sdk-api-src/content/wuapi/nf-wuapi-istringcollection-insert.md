@@ -4,10 +4,10 @@ title: IStringCollection::Insert
 author: windows-sdk-content
 description: Inserts an item into the collection at the specified position.
 old-location: wua\istringcollection_insert.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 51a00dde-7781-4674-bbb2-10bb2eb23548
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],Insert method, IStringCollection.Insert, IStringCollection::Insert, Insert, Insert method [Windows Update Agent], Insert method [Windows Update Agent],IStringCollection interface, wua.istringcollection_insert, wuapi/IStringCollection::Insert
 ms.prod: windows
 ms.technology: windows-sdk

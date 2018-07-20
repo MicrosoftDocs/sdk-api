@@ -7,7 +7,7 @@ old-location: mf\imfcollection.htm
 old-project: medfound
 ms.assetid: fec6aa17-2770-4f53-b36d-b94236093d23
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFCollection, IMFCollection interface [Media Foundation], IMFCollection interface [Media Foundation],described, fec6aa17-2770-4f53-b36d-b94236093d23, mf.imfcollection, mfobjects/IMFCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_TileVertically.htm
 old-project: shell
 ms.assetid: 63CB7E20-48E6-4cfe-B0BA-0D28A7B151BD
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IShellDispatch object [Windows Shell],TileVertically method, IShellDispatch.TileVertically, IShellDispatch::TileVertically, TileVertically, TileVertically method [Windows Shell], TileVertically method [Windows Shell],IShellDispatch object, shell.IShellDispatch_TileVertically
 ms.prod: windows
 ms.technology: windows-sdk

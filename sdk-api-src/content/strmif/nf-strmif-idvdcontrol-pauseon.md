@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_pauseon.htm
 old-project: DirectShow
 ms.assetid: d67a7a16-41f9-4718-a6ad-d48ba77fb1d4
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IDvdControl interface [DirectShow],PauseOn method, IDvdControl.PauseOn, IDvdControl::PauseOn, IDvdControlPauseOn, PauseOn, PauseOn method [DirectShow], PauseOn method [DirectShow],IDvdControl interface, dshow.idvdcontrol_pauseon, strmif/IDvdControl::PauseOn
 ms.prod: windows
 ms.technology: windows-sdk

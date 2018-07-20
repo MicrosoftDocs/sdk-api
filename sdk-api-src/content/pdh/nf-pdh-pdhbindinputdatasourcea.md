@@ -7,7 +7,7 @@ old-location: perf\pdhbindinputdatasource.htm
 old-project: perfctrs
 ms.assetid: eaed9b28-eb09-4123-9317-5d3d50e2d77a
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/18/2018
 ms.keywords: PdhBindInputDataSource, PdhBindInputDataSource function [Perf], PdhBindInputDataSourceA, PdhBindInputDataSourceW, _win32_pdhbindinputdatasource, base.pdhbindinputdatasource, pdh/PdhBindInputDataSource, pdh/PdhBindInputDataSourceA, pdh/PdhBindInputDataSourceW, perf.pdhbindinputdatasource
 ms.prod: windows
 ms.technology: windows-sdk

@@ -15,7 +15,7 @@ ms.topic: enum
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista and Platform Update for Windows Vista, Windows 7 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista and Platform Update for Windows Vista, Windows 7 [desktop apps \| UWP apps]
 req.target-min-winversvr: None supported
 req.kmdf-ver: 
 req.umdf-ver: 

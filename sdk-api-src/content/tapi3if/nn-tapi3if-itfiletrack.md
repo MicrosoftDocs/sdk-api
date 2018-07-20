@@ -7,7 +7,7 @@ old-location: tapi3\itfiletrack.htm
 old-project: tapi
 ms.assetid: 590ca1ea-e058-4238-b01c-249fddd3c87d
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITFileTrack, ITFileTrack interface [TAPI 2.2], ITFileTrack interface [TAPI 2.2],described, _tapi3_itfiletrack, tapi3.itfiletrack, tapi3if/ITFileTrack
 ms.prod: windows
 ms.technology: windows-sdk

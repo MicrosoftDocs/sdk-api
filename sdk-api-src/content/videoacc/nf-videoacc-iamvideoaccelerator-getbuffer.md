@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_getbuffer.htm
 old-project: DirectShow
 ms.assetid: 3385cad2-8885-4b17-83fa-f40f25b0c433
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetBuffer, GetBuffer method [DirectShow], GetBuffer method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetBuffer method, IAMVideoAccelerator.GetBuffer, IAMVideoAccelerator::GetBuffer, IAMVideoAcceleratorGetBuffer, dshow.iamvideoaccelerator_getbuffer, videoacc/IAMVideoAccelerator::GetBuffer
 ms.prod: windows
 ms.technology: windows-sdk

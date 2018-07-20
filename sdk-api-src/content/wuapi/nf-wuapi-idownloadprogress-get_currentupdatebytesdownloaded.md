@@ -4,10 +4,10 @@ title: IDownloadProgress::get_CurrentUpdateBytesDownloaded
 author: windows-sdk-content
 description: Gets a string that specifies how much data has been transferred for the content file or files of the update that is being downloaded, in bytes.
 old-location: wua\idownloadprogress_currentupdatebytesdownloaded.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 48ba3ab9-405d-474b-a85b-fe70db343433
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: CurrentUpdateBytesDownloaded property [Windows Update Agent], CurrentUpdateBytesDownloaded property [Windows Update Agent],IDownloadProgress interface, IDownloadProgress interface [Windows Update Agent],CurrentUpdateBytesDownloaded property, IDownloadProgress.CurrentUpdateBytesDownloaded, IDownloadProgress.get_CurrentUpdateBytesDownloaded, IDownloadProgress::CurrentUpdateBytesDownloaded, IDownloadProgress::get_CurrentUpdateBytesDownloaded, get_CurrentUpdateBytesDownloaded, wua.idownloadprogress_currentupdatebytesdownloaded, wuapi/IDownloadProgress::CurrentUpdateBytesDownloaded, wuapi/IDownloadProgress::get_CurrentUpdateBytesDownloaded
 ms.prod: windows
 ms.technology: windows-sdk

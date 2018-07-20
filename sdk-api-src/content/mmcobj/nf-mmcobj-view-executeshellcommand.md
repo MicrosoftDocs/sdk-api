@@ -7,7 +7,7 @@ old-location: mmc\view_executeshellcommand.htm
 old-project: mmc
 ms.assetid: e786df29-b9ad-4cdd-81b1-99fe73a551fb
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: ""Maximized", "Minimized", "Restored", ExecuteShellCommand, ExecuteShellCommand method [MMC], ExecuteShellCommand method [MMC],View interface, ExecuteShellCommand method [MMC],View object, View interface [MMC],ExecuteShellCommand method, View object [MMC],ExecuteShellCommand method, View.ExecuteShellCommand, View::ExecuteShellCommand, _slate_view.executeshellcommand_method, mmc.view_executeshellcommand"
 ms.prod: windows
 ms.technology: windows-sdk

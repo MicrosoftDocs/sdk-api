@@ -7,7 +7,7 @@ old-location: tapi3\ienumpluggablesuperclassinfo_skip.htm
 old-project: tapi
 ms.assetid: ad23eeb8-295c-43d0-af50-fa5fef0f295b
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumPluggableSuperclassInfo interface [TAPI 2.2],Skip method, IEnumPluggableSuperclassInfo.Skip, IEnumPluggableSuperclassInfo::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumPluggableSuperclassInfo interface, _tapi3_ienumpluggablesuperclassinfo_skip, tapi3.ienumpluggablesuperclassinfo_skip, tapi3if/IEnumPluggableSuperclassInfo::Skip
 ms.prod: windows
 ms.technology: windows-sdk

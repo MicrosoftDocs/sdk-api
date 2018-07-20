@@ -4,10 +4,10 @@ title: IPAddrEntry
 author: windows-sdk-content
 description: Implements part of the Management Information Base (MIB-II) information group for the Internet Protocol (IP) as specified in the Internet Engineering Task Force (IETF) Request for Comments (RFC) 2011.
 old-location: winprog\ipaddrentry.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: c48453e8-05f1-49d8-bae6-fad0681bdf7e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IPAddrEntry, IPAddrEntry structure [Windows API], tcpioctl/IPAddrEntry, winprog.ipaddrentry
 ms.prod: windows
 ms.technology: windows-sdk

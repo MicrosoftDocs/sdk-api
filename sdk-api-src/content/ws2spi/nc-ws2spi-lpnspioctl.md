@@ -7,7 +7,7 @@ old-location: winsock\nspioctl.htm
 old-project: winsock
 ms.assetid: 061969f5-dbb5-47d7-820d-5af6fe6a0c62
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/18/2018
 ms.keywords: LPNSPIOCTL, NSPIoctl, NSPIoctl function [Winsock], SIO_NSP_NOTIFY_CHANGE, winsock.nspioctl, ws2spi/NSPIoctl
 ms.prod: windows
 ms.technology: windows-sdk

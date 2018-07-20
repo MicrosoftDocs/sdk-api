@@ -7,7 +7,7 @@ old-location: mmc\icomponent2_restoreresultview.htm
 old-project: mmc
 ms.assetid: fe9a71c7-eaa6-4479-8337-0746a784a57f
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: IComponent2 interface [MMC],RestoreResultView method, IComponent2.RestoreResultView, IComponent2::RestoreResultView, RestoreResultView, RestoreResultView method [MMC], RestoreResultView method [MMC],IComponent2 interface, _slate_icomponent2_restoreresultview, mmc.icomponent2_restoreresultview, mmc/IComponent2::RestoreResultView
 ms.prod: windows
 ms.technology: windows-sdk

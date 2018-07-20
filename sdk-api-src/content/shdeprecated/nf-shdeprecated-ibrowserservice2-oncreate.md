@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_OnCreate.htm
 old-project: shell
 ms.assetid: abfcb67a-c383-4480-9da9-788fb9cebf5e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnCreate method, IBrowserService2.OnCreate, IBrowserService2::OnCreate, OnCreate, OnCreate method [Windows Shell], OnCreate method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnCreate, shell.IBrowserService2_OnCreate, zone_IBrowserService2_OnCreate
 ms.prod: windows
 ms.technology: windows-sdk

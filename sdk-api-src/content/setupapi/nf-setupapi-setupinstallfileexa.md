@@ -7,7 +7,7 @@ old-location: setup\setupinstallfileex.htm
 old-project: SetupApi
 ms.assetid: 56013a33-341f-4b6b-a428-ec5aa0981835
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/16/2018
 ms.keywords: SP_COPY_DELETESOURCE, SP_COPY_FORCE_IN_USE, SP_COPY_FORCE_NEWER, SP_COPY_FORCE_NOOVERWRITE, SP_COPY_IN_USE_NEEDS_REBOOT, SP_COPY_LANGUAGEAWARE, SP_COPY_NEWER_ONLY, SP_COPY_NEWER_OR_SAME, SP_COPY_NODECOMP, SP_COPY_NOOVERWRITE, SP_COPY_NOSKIP, SP_COPY_REPLACEONLY, SP_COPY_SOURCEPATH_ABSOLUTE, SP_COPY_SOURCE_ABSOLUTE, SP_COPY_WARNIFSKIP, SetupInstallFileEx, SetupInstallFileEx function [Setup API], SetupInstallFileExA, SetupInstallFileExW, _setupapi_setupinstallfileex, setup.setupinstallfileex, setupapi/SetupInstallFileEx, setupapi/SetupInstallFileExA, setupapi/SetupInstallFileExW
 ms.prod: windows
 ms.technology: windows-sdk

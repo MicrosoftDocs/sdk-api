@@ -7,7 +7,7 @@ old-location: tapi3\ienumpluggablesuperclassinfo_next.htm
 old-project: tapi
 ms.assetid: 820cf2cd-1354-473d-974d-267b888f07a9
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumPluggableSuperclassInfo interface [TAPI 2.2],Next method, IEnumPluggableSuperclassInfo.Next, IEnumPluggableSuperclassInfo::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumPluggableSuperclassInfo interface, _tapi3_ienumpluggablesuperclassinfo_next, tapi3.ienumpluggablesuperclassinfo_next, tapi3if/IEnumPluggableSuperclassInfo::Next
 ms.prod: windows
 ms.technology: windows-sdk

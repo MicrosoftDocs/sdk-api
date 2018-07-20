@@ -4,10 +4,10 @@ title: "_CRYPT_ENCRYPTED_PRIVATE_KEY_INFO"
 author: windows-sdk-content
 description: Contains the information in a PKCS #8 EncryptedPrivateKeyInfo ASN.1 type found in the PKCS #8 standard.
 old-location: security\crypt_encrypted_private_key_info.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 5e80d6d1-2e38-4a2d-90df-e6e4000cd626
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO, CRYPT_ENCRYPTED_PRIVATE_KEY_INFO, CRYPT_ENCRYPTED_PRIVATE_KEY_INFO structure [Security], PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO, PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO structure pointer [Security], _CRYPT_ENCRYPTED_PRIVATE_KEY_INFO, security.crypt_encrypted_private_key_info, wincrypt/CRYPT_ENCRYPTED_PRIVATE_KEY_INFO, wincrypt/PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IResultsFolder.htm
 old-project: shell
 ms.assetid: db44052b-bd26-412f-9f2a-66a0c53b65ac
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IResultsFolder, IResultsFolder interface [Windows Shell], IResultsFolder interface [Windows Shell],described, _shell_IResultsFolder, shell.IResultsFolder, shobjidl/IResultsFolder
 ms.prod: windows
 ms.technology: windows-sdk

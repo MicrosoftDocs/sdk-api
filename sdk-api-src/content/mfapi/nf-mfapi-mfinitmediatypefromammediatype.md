@@ -7,7 +7,7 @@ old-location: mf\mfinitmediatypefromammediatype.htm
 old-project: medfound
 ms.assetid: da5dcc32-c027-4b9a-b72f-a60b98885636
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: MFInitMediaTypeFromAMMediaType, MFInitMediaTypeFromAMMediaType function [Media Foundation], da5dcc32-c027-4b9a-b72f-a60b98885636, mf.mfinitmediatypefromammediatype, mfapi/MFInitMediaTypeFromAMMediaType
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\ioledocumentview_clone.htm
 old-project: com
 ms.assetid: d8acc469-26f6-4f1b-94a5-4839aa235a1d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],Clone method, IOleDocumentView.Clone, IOleDocumentView::Clone, _ole_ioledocumentview_clone, com.ioledocumentview_clone, docobj/IOleDocumentView::Clone
 ms.prod: windows
 ms.technology: windows-sdk

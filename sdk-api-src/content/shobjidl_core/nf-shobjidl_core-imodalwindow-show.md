@@ -7,7 +7,7 @@ old-location: shell\IModalWindow_Show.htm
 old-project: shell
 ms.assetid: 0284b694-64d1-48db-bef3-92f808b29b23
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IModalWindow interface [Windows Shell],Show method, IModalWindow.Show, IModalWindow::Show, Show, Show method [Windows Shell], Show method [Windows Shell],IModalWindow interface, _win32_IModalWindow_Show, shell.IModalWindow_Show, shobjidl_core/IModalWindow::Show
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsock\nspv2lookupservicenextex.htm
 old-project: winsock
 ms.assetid: 957fe544-9a3f-47f4-a98c-0624747650f4
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/18/2018
 ms.keywords: LPNSPV2LOOKUPSERVICENEXTEX, NSPv2LookupServiceNextEx, NSPv2LookupServiceNextEx function [Winsock], winsock.nspv2lookupservicenextex, ws2spi/NSPv2LookupServiceNextEx
 ms.prod: windows
 ms.technology: windows-sdk

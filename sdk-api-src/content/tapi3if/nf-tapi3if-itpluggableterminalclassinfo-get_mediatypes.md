@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalclassinfo_get_mediatypes.htm
 old-project: tapi
 ms.assetid: 3c17540f-b899-4768-b0a2-2ab11f34636c
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITPluggableTerminalClassInfo interface [TAPI 2.2],get_MediaTypes method, ITPluggableTerminalClassInfo.get_MediaTypes, ITPluggableTerminalClassInfo::get_MediaTypes, _tapi3_itpluggableterminalclassinfo_get_mediatypes, get_MediaTypes, get_MediaTypes method [TAPI 2.2], get_MediaTypes method [TAPI 2.2],ITPluggableTerminalClassInfo interface, tapi3.itpluggableterminalclassinfo_get_mediatypes, tapi3if/ITPluggableTerminalClassInfo::get_MediaTypes
 ms.prod: windows
 ms.technology: windows-sdk

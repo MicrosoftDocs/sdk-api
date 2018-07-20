@@ -7,7 +7,7 @@ old-location: cos\isecurityproperty.htm
 old-project: cossdk
 ms.assetid: 116715a5-a3e1-48aa-b155-107ea330b7ee
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ISecurityProperty, ISecurityProperty interface [COM+], ISecurityProperty interface [COM+],described, _cos_ISecurityProperty, comsvcs/ISecurityProperty, cos.isecurityproperty
 ms.prod: windows
 ms.technology: windows-sdk

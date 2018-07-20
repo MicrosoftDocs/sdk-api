@@ -7,7 +7,7 @@ old-location: winrt\ireferencetrackermanager_referencetrackingcompleted.htm
 old-project: WinRT
 ms.assetid: 17f3832f-c3cb-4797-8f48-c1cf0c9e408a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IReferenceTrackerManager interface [Windows Runtime],ReferenceTrackingCompleted method, IReferenceTrackerManager.ReferenceTrackingCompleted, IReferenceTrackerManager.xaml, IReferenceTrackerManager::ReferenceTrackingCompleted, IReferenceTrackerManager::xaml, ReferenceTrackingCompleted, ReferenceTrackingCompleted method [Windows Runtime], ReferenceTrackingCompleted method [Windows Runtime],IReferenceTrackerManager interface, windows/IReferenceTrackerManager::ReferenceTrackingCompleted, winrt.ireferencetrackermanager_referencetrackingcompleted
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

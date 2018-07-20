@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxstatus_get_deviceid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_097o.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: DeviceId property [Fax Service], DeviceId property [Fax Service],FaxStatus object, FaxStatus object [Fax Service],DeviceId property, FaxStatus.DeviceId, IFaxStatus.get_DeviceId, IFaxStatus::get_DeviceId, _mfax_ifaxstatus_get_deviceid, fax._mfax_ifaxstatus_get_deviceid, fax._mfax_ifaxstatus_get_deviceid_vb, get_DeviceId
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxloggingoptions_activitylogging_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0mav.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: ActivityLogging property [Fax Service], ActivityLogging property [Fax Service],FaxLoggingOptions object, FaxLoggingOptions object [Fax Service],ActivityLogging property, FaxLoggingOptions.ActivityLogging, IFaxLoggingOptions.get_ActivityLogging, IFaxLoggingOptions::get_ActivityLogging, _mfax_faxloggingoptions.activitylogging, fax._mfax_faxloggingoptions_activitylogging, fax._mfax_faxloggingoptions_activitylogging_vb, get_ActivityLogging
 ms.prod: windows
 ms.technology: windows-sdk

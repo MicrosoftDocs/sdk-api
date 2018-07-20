@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_addstrokesatrectangle.htm
 old-project: tablet
 ms.assetid: c5a7cbbc-361c-4e99-af31-f7114eb5261b
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: AddStrokesAtRectangle, AddStrokesAtRectangle method [Tablet PC], AddStrokesAtRectangle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],AddStrokesAtRectangle method, IInkDisp.AddStrokesAtRectangle, IInkDisp::AddStrokesAtRectangle, c5a7cbbc-361c-4e99-af31-f7114eb5261b, msinkaut/IInkDisp::AddStrokesAtRectangle, tablet.inkdisp_addstrokesatrectangle
 ms.prod: windows
 ms.technology: windows-sdk

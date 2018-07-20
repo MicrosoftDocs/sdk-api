@@ -7,7 +7,7 @@ old-location: tapi3\itphone_negotiateextversion.htm
 old-project: tapi
 ms.assetid: a29311bf-0fe4-4e58-96cc-2e3734c32aee
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITPhone interface [TAPI 2.2],NegotiateExtVersion method, ITPhone.NegotiateExtVersion, ITPhone::NegotiateExtVersion, NegotiateExtVersion, NegotiateExtVersion method [TAPI 2.2], NegotiateExtVersion method [TAPI 2.2],ITPhone interface, _tapi3_itphone_negotiateextversion, tapi3.itphone_negotiateextversion, tapi3if/ITPhone::NegotiateExtVersion
 ms.prod: windows
 ms.technology: windows-sdk

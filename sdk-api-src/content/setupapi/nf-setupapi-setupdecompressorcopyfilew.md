@@ -7,7 +7,7 @@ old-location: setup\setupdecompressorcopyfile.htm
 old-project: SetupApi
 ms.assetid: 6058567b-fa34-472b-91d8-3c5f9ee741b1
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/16/2018
 ms.keywords: SetupDecompressOrCopyFile, SetupDecompressOrCopyFile function [Setup API], SetupDecompressOrCopyFileA, SetupDecompressOrCopyFileW, _setupapi_setupdecompressorcopyfile, setup.setupdecompressorcopyfile, setupapi/SetupDecompressOrCopyFile, setupapi/SetupDecompressOrCopyFileA, setupapi/SetupDecompressOrCopyFileW
 ms.prod: windows
 ms.technology: windows-sdk

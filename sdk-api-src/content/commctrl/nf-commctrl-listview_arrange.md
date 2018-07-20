@@ -4,10 +4,10 @@ title: ListView_Arrange macro
 author: windows-sdk-content
 description: Arranges items in icon view. You can use this macro or send the LVM_ARRANGE message explicitly.
 old-location: controls\ListView_Arrange.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_arrange.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: LVA_ALIGNLEFT, LVA_ALIGNTOP, LVA_DEFAULT, LVA_SNAPTOGRID, ListView_Arrange, ListView_Arrange macro [Windows Controls], _win32_ListView_Arrange, _win32_ListView_Arrange_cpp, commctrl/ListView_Arrange, controls.ListView_Arrange, controls._win32_ListView_Arrange
 ms.prod: windows
 ms.technology: windows-sdk

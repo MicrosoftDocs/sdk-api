@@ -7,7 +7,7 @@ old-location: p2p\peercollabasyncinvitecontact.htm
 old-project: p2psdk
 ms.assetid: 2101e16e-ee05-417f-835b-c00cba7f6576
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PeerCollabAsyncInviteContact, PeerCollabAsyncInviteContact function [Peer Networking], p2p.peercollabasyncinvitecontact, p2p/PeerCollabAsyncInviteContact
 ms.prod: windows
 ms.technology: windows-sdk

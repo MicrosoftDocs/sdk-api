@@ -7,7 +7,7 @@ old-location: tapi3\ienumlocation_skip.htm
 old-project: tapi
 ms.assetid: 1e365f95-5d84-449a-9ae2-eeb4ea269b0d
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumLocation interface [TAPI 2.2],Skip method, IEnumLocation.Skip, IEnumLocation::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumLocation interface, _tapi3_ienumlocation_skip, tapi3.ienumlocation_skip, tapi3if/IEnumLocation::Skip
 ms.prod: windows
 ms.technology: windows-sdk

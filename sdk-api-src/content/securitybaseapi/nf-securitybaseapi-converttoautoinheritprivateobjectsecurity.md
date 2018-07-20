@@ -4,10 +4,10 @@ title: ConvertToAutoInheritPrivateObjectSecurity function
 author: windows-sdk-content
 description: Converts a security descriptor and its access control lists (ACLs) to a format that supports automatic propagation of inheritable access control entries (ACEs).
 old-location: security\converttoautoinheritprivateobjectsecurity.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: eaaa5509-eff5-461d-843b-7ebbbe0dd58f
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: ConvertToAutoInheritPrivateObjectSecurity, ConvertToAutoInheritPrivateObjectSecurity function [Security], _win32_converttoautoinheritprivateobjectsecurity, security.converttoautoinheritprivateobjectsecurity, securitybaseapi/ConvertToAutoInheritPrivateObjectSecurity
 ms.prod: windows
 ms.technology: windows-sdk

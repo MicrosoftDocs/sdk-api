@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: 5f145307-fa6f-0182-45d3-5fa9da029cf2, IDXGIAdapter, IDXGIAdapter interface [DXGI], IDXGIAdapter interface [DXGI],described, direct3ddxgi.idxgiadapter, dxgi/IDXGIAdapter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-        The <b>IDXGIAdapter</b> interface represents a display subsystem (including one or more GPUs, DACs and video memory).
+The <b>IDXGIAdapter</b> interface represents a display subsystem (including one or more GPUs, DACs and video memory).
       
 
 
@@ -106,20 +105,16 @@ Gets a DXGI 1.0 description of an adapter (or video card).
 
 
 
-
-            A display subsystem is often referred to as a video card, however, on some machines the display subsystem is part of the motherboard.
+A display subsystem is often referred to as a video card, however, on some machines the display subsystem is part of the motherboard.
           
 
-
-            To enumerate the display subsystems, use <a href="https://msdn.microsoft.com/library/Bb174538(v=VS.85).aspx">IDXGIFactory::EnumAdapters</a>.
+To enumerate the display subsystems, use <a href="https://msdn.microsoft.com/library/Bb174538(v=VS.85).aspx">IDXGIFactory::EnumAdapters</a>.
           
 
-
-            To get an interface to the adapter for a particular device, use <a href="https://msdn.microsoft.com/library/Bb174531(v=VS.85).aspx">IDXGIDevice::GetAdapter</a>.
+To get an interface to the adapter for a particular device, use <a href="https://msdn.microsoft.com/library/Bb174531(v=VS.85).aspx">IDXGIDevice::GetAdapter</a>.
           
 
-
-            To create a software adapter, use <a href="https://msdn.microsoft.com/library/Bb174536(v=VS.85).aspx">IDXGIFactory::CreateSoftwareAdapter</a>.
+To create a software adapter, use <a href="https://msdn.microsoft.com/library/Bb174536(v=VS.85).aspx">IDXGIFactory::CreateSoftwareAdapter</a>.
           
 
 <b>Windows Phone 8:

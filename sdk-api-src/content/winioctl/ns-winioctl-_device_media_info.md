@@ -4,10 +4,10 @@ title: "_DEVICE_MEDIA_INFO"
 author: windows-sdk-content
 description: Provides information about the media supported by a device.
 old-location: base\device_media_info_str.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 90367411-3008-4e37-9884-e586fc5162d9
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*PDEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO, DEVICE_MEDIA_INFO structure, MEDIA_CURRENTLY_MOUNTED, MEDIA_ERASEABLE, MEDIA_READ_ONLY, MEDIA_READ_WRITE, MEDIA_WRITE_ONCE, MEDIA_WRITE_PROTECTED, PDEVICE_MEDIA_INFO, PDEVICE_MEDIA_INFO structure pointer, _DEVICE_MEDIA_INFO, _win32_device_media_info_str, base.device_media_info_str, winioctl/DEVICE_MEDIA_INFO, winioctl/PDEVICE_MEDIA_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

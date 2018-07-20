@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol9_getzorder.htm
 old-project: DirectShow
 ms.assetid: eccc72cc-9ae5-45e9-a47a-5dddc901d1b5
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetZOrder, GetZOrder method [DirectShow], GetZOrder method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetZOrder method, IVMRMixerControl9.GetZOrder, IVMRMixerControl9::GetZOrder, IVMRMixerControl9GetZOrder, dshow.ivmrmixercontrol9_getzorder, vmr9/IVMRMixerControl9::GetZOrder
 ms.prod: windows
 ms.technology: windows-sdk

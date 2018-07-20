@@ -4,10 +4,10 @@ title: ListView_SetGroupInfo macro
 author: windows-sdk-content
 description: Sets group information. You can use this macro or send the LVM_SETGROUPINFO message explicitly.
 old-location: controls\ListView_SetGroupInfo.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setgroupinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ListView_SetGroupInfo, ListView_SetGroupInfo macro [Windows Controls], _win32_ListView_SetGroupInfo, _win32_ListView_SetGroupInfo_cpp, commctrl/ListView_SetGroupInfo, controls.ListView_SetGroupInfo, controls._win32_ListView_SetGroupInfo
 ms.prod: windows
 ms.technology: windows-sdk

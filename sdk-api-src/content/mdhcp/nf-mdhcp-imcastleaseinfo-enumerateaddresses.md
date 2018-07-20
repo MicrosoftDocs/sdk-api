@@ -7,7 +7,7 @@ old-location: tapi3\imcastleaseinfo_enumerateaddresses.htm
 old-project: tapi
 ms.assetid: edbfe386-9b3d-4160-916e-6c9ea640cfbc
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: EnumerateAddresses, EnumerateAddresses method [TAPI 2.2], EnumerateAddresses method [TAPI 2.2],IMcastLeaseInfo interface, IMcastLeaseInfo interface [TAPI 2.2],EnumerateAddresses method, IMcastLeaseInfo.EnumerateAddresses, IMcastLeaseInfo::EnumerateAddresses, _tapi3_imcastleaseinfo_enumerateaddresses, mdhcp/IMcastLeaseInfo::EnumerateAddresses, tapi3.imcastleaseinfo_enumerateaddresses
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IRDPSRAPIWindow::get_Id
 author: windows-sdk-content
 description: Returns the ID of a window.
 old-location: rdp\irdpsrapiwindow_id.htm
-old-project: Rdp
+old-project: rdp
 ms.assetid: 4defca24-d9f0-4131-86c6-795d6b2e45de
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IRDPSRAPIWindow interface [RDP],Id property, IRDPSRAPIWindow.Id, IRDPSRAPIWindow.get_Id, IRDPSRAPIWindow::Id, IRDPSRAPIWindow::get_Id, Id property [RDP], Id property [RDP],IRDPSRAPIWindow interface, Id property [RDP],RDPSRAPIWindow object, RDPSRAPIWindow object [RDP],Id property, get_Id, rdp.irdpsrapiwindow_id, rdpencomapi/IRDPSRAPIWindow::Id, rdpencomapi/IRDPSRAPIWindow::get_Id
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

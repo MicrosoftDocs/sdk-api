@@ -7,7 +7,7 @@ old-location: com\imoniker_isrunning.htm
 old-project: com
 ms.assetid: 081b394c-1fe8-4519-999e-b3985a77bd9c
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IMoniker interface [COM],IsRunning method, IMoniker.IsRunning, IMoniker::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IMoniker interface, _com_imoniker_isrunning, com.imoniker_isrunning, objidl/IMoniker::IsRunning
 ms.prod: windows
 ms.technology: windows-sdk

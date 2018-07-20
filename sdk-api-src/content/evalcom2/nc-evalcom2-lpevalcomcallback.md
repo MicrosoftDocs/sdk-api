@@ -7,7 +7,7 @@ old-location: setup\lpevalcomcallback.htm
 old-project: msi
 ms.assetid: 76504031-b63a-40fc-aa5b-728f3551057b
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/17/2018
 ms.keywords: LPEVALCOMCALLBACK, LPEVALCOMCALLBACK callback, LPEVALCOMCALLBACK callback function, evalcom2/LPEVALCOMCALLBACK, ieStatusCancel, ieStatusCreateEngine, ieStatusFail, ieStatusICECount, ieStatusMerge, ieStatusRunICE, ieStatusShutdown, ieStatusStarting, ieStatusSuccess, ieStatusSummaryInfo, setup.lpevalcomcallback
 ms.prod: windows
 ms.technology: windows-sdk

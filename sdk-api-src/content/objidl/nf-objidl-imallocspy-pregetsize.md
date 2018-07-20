@@ -7,7 +7,7 @@ old-location: com\imallocspy_pregetsize.htm
 old-project: com
 ms.assetid: 7bebc327-490e-4a41-8043-5d7211e645f5
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IMallocSpy interface [COM],PreGetSize method, IMallocSpy.PreGetSize, IMallocSpy::PreGetSize, PreGetSize, PreGetSize method [COM], PreGetSize method [COM],IMallocSpy interface, _com_imallocspy_pregetsize, com.imallocspy_pregetsize, objidl/IMallocSpy::PreGetSize
 ms.prod: windows
 ms.technology: windows-sdk

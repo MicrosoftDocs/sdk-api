@@ -7,7 +7,7 @@ old-location: p2p\peercollabdeleteendpointdata.htm
 old-project: p2psdk
 ms.assetid: bafaef04-d7f6-4873-bd38-db156817b0c8
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PeerCollabDeleteEndpointData, PeerCollabDeleteEndpointData function [Peer Networking], p2p.peercollabdeleteendpointdata, p2p/PeerCollabDeleteEndpointData
 ms.prod: windows
 ms.technology: windows-sdk

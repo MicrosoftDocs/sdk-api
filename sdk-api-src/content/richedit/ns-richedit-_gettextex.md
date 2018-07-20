@@ -4,10 +4,10 @@ title: "_gettextex"
 author: windows-sdk-content
 description: Contains information used in getting text from a rich edit control. This structure used with the EM_GETTEXTEX message.
 old-location: controls\GETTEXTEX.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\gettextex.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GETTEXTEX, GETTEXTEX structure [Windows Controls], GT_DEFAULT, GT_NOHIDDENTEXT, GT_RAWTEXT, GT_SELECTION, GT_USECRLF, _gettextex, _win32_GETTEXTEX_str, _win32_GETTEXTEX_str_cpp, controls.GETTEXTEX, controls._win32_GETTEXTEX_str, richedit/GETTEXTEX
 ms.prod: windows
 ms.technology: windows-sdk

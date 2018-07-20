@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_getdeviceproviders.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6xv7.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxServer object [Fax Service],GetDeviceProviders method, FaxServer.GetDeviceProviders, GetDeviceProviders, GetDeviceProviders method [Fax Service], GetDeviceProviders method [Fax Service],FaxServer object, IFaxServer.GetDeviceProviders, IFaxServer::GetDeviceProviders, _mfax_faxserver.getdeviceproviders, fax._mfax_faxserver_getdeviceproviders
 ms.prod: windows
 ms.technology: windows-sdk

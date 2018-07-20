@@ -7,7 +7,7 @@ old-location: tapi3\ienumcallingcard_next.htm
 old-project: tapi
 ms.assetid: df0b4591-581b-4949-9212-ff4c92eec12c
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumCallingCard interface [TAPI 2.2],Next method, IEnumCallingCard.Next, IEnumCallingCard::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumCallingCard interface, _tapi3_ienumcallingcard_next, tapi3.ienumcallingcard_next, tapi3if/IEnumCallingCard::Next
 ms.prod: windows
 ms.technology: windows-sdk

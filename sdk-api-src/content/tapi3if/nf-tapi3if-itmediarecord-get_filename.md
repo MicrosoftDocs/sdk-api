@@ -7,7 +7,7 @@ old-location: tapi3\itmediarecord_get_filename.htm
 old-project: tapi
 ms.assetid: fd97665c-ff9e-4621-baf9-7c0b603400c5
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITMediaRecord interface [TAPI 2.2],get_FileName method, ITMediaRecord.get_FileName, ITMediaRecord::get_FileName, _tapi3_itmediarecord_get_filename, get_FileName, get_FileName method [TAPI 2.2], get_FileName method [TAPI 2.2],ITMediaRecord interface, tapi3.itmediarecord_get_filename, tapi3if/ITMediaRecord::get_FileName
 ms.prod: windows
 ms.technology: windows-sdk

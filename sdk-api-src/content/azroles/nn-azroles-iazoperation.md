@@ -4,10 +4,10 @@ title: IAzOperation
 author: windows-sdk-content
 description: Defines a low-level operation supported by an application.
 old-location: security\iazoperation.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 054fa4aa-70be-4618-a635-3941c830ea4e
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: IAzOperation, IAzOperation interface [Security], IAzOperation interface [Security],described, azroles/IAzOperation, security.iazoperation
 ms.prod: windows
 ms.technology: windows-sdk

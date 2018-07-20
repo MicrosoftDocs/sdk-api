@@ -7,7 +7,7 @@ old-location: mmc\istringtable_getstring.htm
 old-project: mmc
 ms.assetid: 34dbf92a-b54d-4f60-87ff-493c9946a57d
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: GetString, GetString method [MMC], GetString method [MMC],IStringTable interface, IStringTable interface [MMC],GetString method, IStringTable.GetString, IStringTable::GetString, _slate_istringtable_getstring, mmc.istringtable_getstring, mmc/IStringTable::GetString
 ms.prod: windows
 ms.technology: windows-sdk

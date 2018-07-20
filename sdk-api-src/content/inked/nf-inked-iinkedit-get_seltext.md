@@ -7,7 +7,7 @@ old-location: tablet\inkedit_seltext.htm
 old-project: tablet
 ms.assetid: 2cd805b5-f421-48d1-9678-b3cae0bc6b86
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelText property, IInkEdit.SelText, IInkEdit.get_SelText, IInkEdit::SelText, IInkEdit::get_SelText, IInkEdit::put_SelText, InkEdit.get_SelText, InkEdit.put_SelText, SelText property [Tablet PC], SelText property [Tablet PC],IInkEdit interface, get_SelText, inked/IInkEdit::SelText, inked/IInkEdit::get_SelText, inked/IInkEdit::put_SelText, put_SelText, tablet.inkedit_seltext
 ms.prod: windows
 ms.technology: windows-sdk

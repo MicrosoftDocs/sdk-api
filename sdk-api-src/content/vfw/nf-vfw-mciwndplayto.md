@@ -7,7 +7,7 @@ old-location: multimedia\mciwndplayto.htm
 old-project: Multimedia
 ms.assetid: 49048776-85bd-43ac-a5a0-414a26a6a533
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/17/2018
 ms.keywords: MCIWndPlayTo, MCIWndPlayTo macro [Windows Multimedia], _win32_MCIWndPlayTo, multimedia.mciwndplayto, vfw/MCIWndPlayTo
 ms.prod: windows
 ms.technology: windows-sdk

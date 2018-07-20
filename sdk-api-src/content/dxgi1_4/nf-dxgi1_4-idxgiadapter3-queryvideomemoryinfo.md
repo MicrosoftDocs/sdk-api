@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter3_queryvideomemoryinfo.htm
 old-project: direct3ddxgi
 ms.assetid: A2F95FE5-CF8D-4F17-8CC8-62AAA40B71FC
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IDXGIAdapter3 interface [DXGI],QueryVideoMemoryInfo method, IDXGIAdapter3.QueryVideoMemoryInfo, IDXGIAdapter3::QueryVideoMemoryInfo, QueryVideoMemoryInfo, QueryVideoMemoryInfo method [DXGI], QueryVideoMemoryInfo method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_queryvideomemoryinfo, dxgi1_4/IDXGIAdapter3::QueryVideoMemoryInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          This method informs the process of the current budget and process usage.
+This method informs the process of the current budget and process usage.
         
 
 
@@ -65,8 +64,7 @@ req.product: Windows Media Format 9 Series or later
 
 Type: <b>UINT</b>
 
-
-            Specifies the device's physical adapter for which the video memory information is queried.
+Specifies the device's physical adapter for which the video memory information is queried.
             For single-GPU operation, set this to zero.
             If there are multiple GPU nodes, set this to the index of the node (the device's physical adapter) for which the video memory information is queried.
             See <a href="https://msdn.microsoft.com/CC4C6594-D48F-40C1-93EE-9F98532BC038">Multi-Adapter</a>.
@@ -77,8 +75,7 @@ Type: <b>UINT</b>
 
 Type: <b><a href="https://msdn.microsoft.com/2FE35513-040E-41BF-866E-A13679C4F322">DXGI_MEMORY_SEGMENT_GROUP</a></b>
 
-
-            Specifies a DXGI_MEMORY_SEGMENT_GROUP that identifies the group as local or non-local.
+Specifies a DXGI_MEMORY_SEGMENT_GROUP that identifies the group as local or non-local.
           
 
 
@@ -86,8 +83,7 @@ Type: <b><a href="https://msdn.microsoft.com/2FE35513-040E-41BF-866E-A13679C4F32
 
 Type: <b><a href="https://msdn.microsoft.com/E710F3A9-CB12-43B0-B56C-789350BCAE59">DXGI_QUERY_VIDEO_MEMORY_INFO</a>*</b>
 
-
-            Fills in a DXGI_QUERY_VIDEO_MEMORY_INFO structure with the current values.
+Fills in a DXGI_QUERY_VIDEO_MEMORY_INFO structure with the current values.
           
 
 
@@ -97,8 +93,7 @@ Type: <b><a href="https://msdn.microsoft.com/E710F3A9-CB12-43B0-B56C-789350BCAE5
 
 Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-
-            Returns S_OK if successful; an error code otherwise.
+Returns S_OK if successful; an error code otherwise.
             For a list of error codes, see <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
           
 
@@ -109,8 +104,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRE
 
 
 
-
-          Applications must explicitly manage their usage of physical memory explicitly and keep usage within the budget assigned to the application process.
+Applications must explicitly manage their usage of physical memory explicitly and keep usage within the budget assigned to the application process.
           Processes that cannot kept their usage within their assigned budgets will likely experience stuttering, as they are intermittently frozen and paged-out to allow other processes to run.
         
 

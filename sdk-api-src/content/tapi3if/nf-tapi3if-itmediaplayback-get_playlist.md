@@ -7,7 +7,7 @@ old-location: tapi3\itmediaplayback_get_playlist.htm
 old-project: tapi
 ms.assetid: 57bc8373-0015-4652-bad7-21497d1fd6ff
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITMediaPlayback interface [TAPI 2.2],get_PlayList method, ITMediaPlayback.get_PlayList, ITMediaPlayback::get_PlayList, _tapi3_itmediaplayback_get_playlist, get_PlayList, get_PlayList method [TAPI 2.2], get_PlayList method [TAPI 2.2],ITMediaPlayback interface, tapi3.itmediaplayback_get_playlist, tapi3if/ITMediaPlayback::get_PlayList
 ms.prod: windows
 ms.technology: windows-sdk

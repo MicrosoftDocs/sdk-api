@@ -7,7 +7,7 @@ old-location: tapi3\ienumterminal.htm
 old-project: tapi
 ms.assetid: a364e466-1d10-402f-935d-ff2713522fed
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumTerminal, IEnumTerminal interface [TAPI 2.2], IEnumTerminal interface [TAPI 2.2],described, _tapi3_ienumterminal, tapi3.ienumterminal, tapi3if/IEnumTerminal
 ms.prod: windows
 ms.technology: windows-sdk

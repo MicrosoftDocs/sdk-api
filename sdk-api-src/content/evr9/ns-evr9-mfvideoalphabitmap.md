@@ -7,7 +7,7 @@ old-location: mf\mfvideoalphabitmap.htm
 old-project: medfound
 ms.assetid: 609041f2-7ba4-4157-819b-4ac21612dca2
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 609041f2-7ba4-4157-819b-4ac21612dca2, MFVideoAlphaBitmap, MFVideoAlphaBitmap structure [Media Foundation], evr9/MFVideoAlphaBitmap, mf.mfvideoalphabitmap
 ms.prod: windows
 ms.technology: windows-sdk

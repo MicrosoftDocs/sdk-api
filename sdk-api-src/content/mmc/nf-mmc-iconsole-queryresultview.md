@@ -7,7 +7,7 @@ old-location: mmc\iconsole2_queryresultview.htm
 old-project: mmc
 ms.assetid: 26d4859c-e79f-4c63-92ad-b66de7d0fa13
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: IConsole interface [MMC],QueryResultView method, IConsole.QueryResultView, IConsole2 interface [MMC],QueryResultView method, IConsole2::QueryResultView, IConsole3 interface [MMC],QueryResultView method, IConsole3::QueryResultView, IConsole::QueryResultView, QueryResultView, QueryResultView method [MMC], QueryResultView method [MMC],IConsole interface, QueryResultView method [MMC],IConsole2 interface, QueryResultView method [MMC],IConsole3 interface, _slate_iconsole2_queryresultview, mmc.iconsole2_queryresultview, mmc/IConsole2::QueryResultView, mmc/IConsole3::QueryResultView, mmc/IConsole::QueryResultView
 ms.prod: windows
 ms.technology: windows-sdk

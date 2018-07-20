@@ -4,10 +4,10 @@ title: IAzAuthorizationStore2
 author: windows-sdk-content
 description: Inherits from the AzAuthorizationStore object and implements methods to create and open IAzApplication2 objects.
 old-location: security\iazauthorizationstore2.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 8b3901a9-003f-4346-a0c7-34a1ed730949
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: IAzAuthorizationStore2, IAzAuthorizationStore2 interface [Security], IAzAuthorizationStore2 interface [Security],described, azroles/IAzAuthorizationStore2, security.iazauthorizationstore2
 ms.prod: windows
 ms.technology: windows-sdk

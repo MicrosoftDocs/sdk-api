@@ -7,7 +7,7 @@ old-location: tspi\tspi_phonenegotiateextversion.htm
 old-project: tapi
 ms.assetid: 03ea6d25-8e65-4c8a-80dc-f2ecd214ad0e
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_phoneNegotiateExtVersion, TSPI_phoneNegotiateExtVersion function [TAPI 2.2], _tspi_tspi_phonenegotiateextversion, tspi.tspi_phonenegotiateextversion, tspi/TSPI_phoneNegotiateExtVersion
 ms.prod: windows
 ms.technology: windows-sdk

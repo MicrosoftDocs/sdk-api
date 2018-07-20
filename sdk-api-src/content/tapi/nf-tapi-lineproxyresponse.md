@@ -7,7 +7,7 @@ old-location: tapi2\lineproxyresponse.htm
 old-project: tapi
 ms.assetid: af774fc5-d013-4da2-a737-9e99c09456a0
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_lineproxyresponse, lineProxyResponse, lineProxyResponse function [TAPI 2.2], tapi/lineProxyResponse, tapi2.lineproxyresponse"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\coqueryauthenticationservices.htm
 old-project: com
 ms.assetid: e9e7c5a3-70ec-4a68-ac21-1ab6774d140f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: CoQueryAuthenticationServices, CoQueryAuthenticationServices function [COM], _com_CoQueryAuthenticationServices, com.coqueryauthenticationservices, combaseapi/CoQueryAuthenticationServices
 ms.prod: windows
 ms.technology: windows-sdk

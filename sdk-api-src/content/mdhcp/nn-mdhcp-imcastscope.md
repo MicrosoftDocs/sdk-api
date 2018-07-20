@@ -7,7 +7,7 @@ old-location: tapi3\imcastscope.htm
 old-project: tapi
 ms.assetid: b0252ac4-856e-4aa7-aa3b-37b92472e864
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IMcastScope, IMcastScope interface [TAPI 2.2], IMcastScope interface [TAPI 2.2],described, _tapi3_imcastscope, mdhcp/IMcastScope, tapi3.imcastscope
 ms.prod: windows
 ms.technology: windows-sdk

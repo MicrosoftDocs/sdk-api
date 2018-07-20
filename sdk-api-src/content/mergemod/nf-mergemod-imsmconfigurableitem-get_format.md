@@ -7,7 +7,7 @@ old-location: setup\configurableitem_format.htm
 old-project: msi
 ms.assetid: e75ed650-7309-4e24-9c35-82ebf27d011b
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/17/2018
 ms.keywords: ConfigurableItem object,Format property, ConfigurableItem.Format, Format property, Format property,ConfigurableItem object, IMsmConfigurableItem.get_Format, IMsmConfigurableItem::get_Format, _msi_format_property, get_Format, setup.configurableitem_format
 ms.prod: windows
 ms.technology: windows-sdk

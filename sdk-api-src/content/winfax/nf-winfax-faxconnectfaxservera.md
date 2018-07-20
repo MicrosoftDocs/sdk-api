@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxconnectfaxserver.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3qya.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxConnectFaxServer, FaxConnectFaxServer function [Fax Service], FaxConnectFaxServerA, FaxConnectFaxServerW, _mfax_faxconnectfaxserver, fax._mfax_faxconnectfaxserver, winfax/FaxConnectFaxServer, winfax/FaxConnectFaxServerA, winfax/FaxConnectFaxServerW
 ms.prod: windows
 ms.technology: windows-sdk

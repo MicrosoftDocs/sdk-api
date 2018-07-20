@@ -7,7 +7,7 @@ old-location: perf\pdhsetquerytimerange.htm
 old-project: perfctrs
 ms.assetid: ed0e100e-9f82-48c0-b4bb-72820c5eeaa8
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/18/2018
 ms.keywords: PdhSetQueryTimeRange, PdhSetQueryTimeRange function [Perf], _win32_pdhsetquerytimerange, base.pdhsetquerytimerange, pdh/PdhSetQueryTimeRange, perf.pdhsetquerytimerange
 ms.prod: windows
 ms.technology: windows-sdk

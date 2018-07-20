@@ -7,7 +7,7 @@ old-location: com\ioleobject_update.htm
 old-project: com
 ms.assetid: 1743f99b-4c3b-47be-b77b-1d3378a44903
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IOleObject interface [COM],Update method, IOleObject.Update, IOleObject::Update, Update, Update method [COM], Update method [COM],IOleObject interface, _ole_ioleobject_update, com.ioleobject_update, oleidl/IOleObject::Update
 ms.prod: windows
 ms.technology: windows-sdk

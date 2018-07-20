@@ -7,7 +7,7 @@ old-location: wininet\internetsetoptionex.htm
 old-project: wininet
 ms.assetid: 535e4f38-d941-4b69-8c48-ea47f3fbd5e7
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/18/2018
 ms.keywords: InternetSetOptionEx, InternetSetOptionEx function [WinINet], InternetSetOptionExA, InternetSetOptionExW, _inet_internetsetoptionex_function, wininet.internetsetoptionex, wininet/InternetSetOptionEx, wininet/InternetSetOptionExA, wininet/InternetSetOptionExW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: perf\pdhconnectmachine.htm
 old-project: perfctrs
 ms.assetid: 8f8b4651-b550-4b34-bb2f-d2497c56b572
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/18/2018
 ms.keywords: PdhConnectMachine, PdhConnectMachine function [Perf], PdhConnectMachineA, PdhConnectMachineW, _win32_pdhconnectmachine, base.pdhconnectmachine, pdh/PdhConnectMachine, pdh/PdhConnectMachineA, pdh/PdhConnectMachineW, perf.pdhconnectmachine
 ms.prod: windows
 ms.technology: windows-sdk

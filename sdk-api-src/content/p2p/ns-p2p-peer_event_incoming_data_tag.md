@@ -7,7 +7,7 @@ old-location: p2p\peer_event_incoming_data.htm
 old-project: p2psdk
 ms.assetid: 93104ca5-b3de-492c-965e-3acd12d05ea6
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: "*PPEER_EVENT_INCOMING_DATA, PEER_EVENT_INCOMING_DATA, PEER_EVENT_INCOMING_DATA structure [Peer Networking], PPEER_EVENT_INCOMING_DATA, PPEER_EVENT_INCOMING_DATA structure pointer [Peer Networking], p2p.peer_event_incoming_data, p2p/PPEER_EVENT_INCOMING_DATA, p2p/peer_event_incoming_data_tag, peer_event_incoming_data_tag"
 ms.prod: windows
 ms.technology: windows-sdk

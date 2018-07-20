@@ -7,7 +7,7 @@ old-location: setup\configurableitem_helpkeyword.htm
 old-project: msi
 ms.assetid: 470db520-3a9a-47bf-90ff-a284bafa1020
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/17/2018
 ms.keywords: ConfigurableItem object,HelpKeyword property, ConfigurableItem.HelpKeyword, HelpKeyword property, HelpKeyword property,ConfigurableItem object, IMsmConfigurableItem.get_HelpKeyword, IMsmConfigurableItem::get_HelpKeyword, _msi_helpkeyword_property, get_HelpKeyword, setup.configurableitem_helpkeyword
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: tagCOMBOBOXEXITEMA
 author: windows-sdk-content
 description: Contains information about an item in a ComboBoxEx control.
 old-location: controls\COMBOBOXEXITEM.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\comboex\structures\comboboxexitem.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*PCOMBOBOXEXITEMA, CBEIF_DI_SETITEM, CBEIF_IMAGE, CBEIF_INDENT, CBEIF_LPARAM, CBEIF_OVERLAY, CBEIF_SELECTEDIMAGE, CBEIF_TEXT, COMBOBOXEXITEM, COMBOBOXEXITEM structure [Windows Controls], COMBOBOXEXITEMA, COMBOBOXEXITEMW, PCOMBOBOXEXITEM, PCOMBOBOXEXITEM structure pointer [Windows Controls], _win32_COMBOBOXEXITEM, _win32_COMBOBOXEXITEM_cpp, commctrl/COMBOBOXEXITEM, commctrl/COMBOBOXEXITEMA, commctrl/COMBOBOXEXITEMW, commctrl/PCOMBOBOXEXITEM, controls.COMBOBOXEXITEM, controls._win32_COMBOBOXEXITEM, tagCOMBOBOXEXITEMA"
 ms.prod: windows
 ms.technology: windows-sdk

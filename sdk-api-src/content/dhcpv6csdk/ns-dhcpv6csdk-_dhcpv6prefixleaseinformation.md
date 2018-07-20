@@ -4,10 +4,10 @@ title: "_DHCPV6PrefixLeaseInformation"
 author: windows-sdk-content
 description: Information about a prefix lease.
 old-location: dhcp\dhcpv6prefixleaseinformation.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: d3e76716-a8cc-4618-a85f-d8fb9ca3257e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*LPDHCPV6PrefixLeaseInformation, *PDHCPV6PrefixLeaseInformation, DHCPV6PrefixLeaseInformation, DHCPV6PrefixLeaseInformation structure [DHCP], LPDHCPV6PrefixLeaseInformation, LPDHCPV6PrefixLeaseInformation structure pointer [DHCP], PDHCPV6PrefixLeaseInformation, PDHCPV6PrefixLeaseInformation structure pointer [DHCP], STATUS_NOPREFIX_AVAIL, STATUS_NO_BINDING, STATUS_NO_ERROR, STATUS_UNSPECIFIED_FAILURE, _DHCPV6PrefixLeaseInformation, dhcp.dhcpv6prefixleaseinformation, dhcpv6csdk/DHCPV6PrefixLeaseInformation, dhcpv6csdk/LPDHCPV6PrefixLeaseInformation, dhcpv6csdk/PDHCPV6PrefixLeaseInformation"
 ms.prod: windows
 ms.technology: windows-sdk

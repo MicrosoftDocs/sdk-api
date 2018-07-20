@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_enumuserstrings.htm
 old-project: WinRT
 ms.assetid: 646f6e8a-4c78-493c-90e2-2114bce82c46
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: EnumUserStrings, EnumUserStrings method [Windows Runtime], EnumUserStrings method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumUserStrings method, IMetaDataImport.EnumUserStrings, IMetaDataImport::EnumUserStrings, rometadataapi/IMetaDataImport::EnumUserStrings, winrt.imetadataimport_enumuserstrings
 ms.prod: windows
 ms.technology: windows-sdk

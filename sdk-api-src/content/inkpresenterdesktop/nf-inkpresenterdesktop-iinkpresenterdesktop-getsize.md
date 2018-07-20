@@ -7,7 +7,7 @@ old-location: input_ink\iinkpresenterdesktop_getsize.htm
 old-project: input_ink
 ms.assetid: d4ce0503-72dc-4a25-a48d-58fa50c5047f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetSize, GetSize method, GetSize method,IInkPresenterDesktop interface, IInkPresenterDesktop interface,GetSize method, IInkPresenterDesktop.GetSize, IInkPresenterDesktop::GetSize, InkPresenterDesktop.iinkpresenterdesktop_getsize, inkpresenterdesktop/IInkPresenterDesktop::GetSize, input_ink.iinkpresenterdesktop_getsize
 ms.prod: windows
 ms.technology: windows-sdk

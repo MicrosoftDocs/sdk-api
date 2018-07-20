@@ -4,10 +4,10 @@ title: DhcpEnumSubnetClientsV4 function
 author: windows-sdk-content
 description: Returns an enumerated list of client lease records with served IP addresses in the specified subnet.
 old-location: dhcp\dhcpenumsubnetclientsv4.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 3451dc35-4cd1-4430-a19f-f0aa0533ea4b
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DhcpEnumSubnetClientsV4, DhcpEnumSubnetClientsV4 function [DHCP], dhcp.dhcpenumsubnetclientsv4, dhcpsapi/DhcpEnumSubnetClientsV4
 ms.prod: windows
 ms.technology: windows-sdk

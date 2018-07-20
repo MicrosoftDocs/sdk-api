@@ -7,7 +7,7 @@ old-location: mf\idirect3dcryptosession9_getsurfacepitch.htm
 old-project: medfound
 ms.assetid: 7f9f637e-a693-4fc5-9bf9-a6900aa2ed8c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetSurfacePitch, GetSurfacePitch method [Media Foundation], GetSurfacePitch method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],GetSurfacePitch method, IDirect3DCryptoSession9.GetSurfacePitch, IDirect3DCryptoSession9::GetSurfacePitch, d3d9/IDirect3DCryptoSession9::GetSurfacePitch, mf.idirect3dcryptosession9_getsurfacepitch
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfsystemid.htm
 old-project: medfound
 ms.assetid: 45c80fc5-5ea7-4d4e-9c9c-5a38f62b2d28
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFSystemId, IMFSystemId interface [Media Foundation], IMFSystemId interface [Media Foundation],described, mf.imfsystemid, mfidl/IMFSystemId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

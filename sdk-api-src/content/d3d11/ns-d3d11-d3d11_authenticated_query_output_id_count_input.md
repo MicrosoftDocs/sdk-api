@@ -7,7 +7,7 @@ old-location: mf\d3d11_authenticated_query_output_id_count_input.htm
 old-project: medfound
 ms.assetid: 9968985F-64F4-4BCC-801A-4929A52A10B7
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_INPUT, D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_INPUT, mf.d3d11_authenticated_query_output_id_count_input
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

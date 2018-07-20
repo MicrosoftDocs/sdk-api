@@ -7,7 +7,7 @@ old-location: tspi\tspi_providerconfig.htm
 old-project: tapi
 ms.assetid: b0fa2a9e-bc8b-4364-9442-2091f2366107
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_providerConfig, TSPI_providerConfig function [TAPI 2.2], _tspi_tspi_providerconfig, tspi.tspi_providerconfig, tspi/TSPI_providerConfig
 ms.prod: windows
 ms.technology: windows-sdk

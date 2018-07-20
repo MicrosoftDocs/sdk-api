@@ -4,10 +4,10 @@ title: IEditionUpgradeHelper::UpdateOperatingSystem
 author: windows-sdk-content
 description: Upgrades the installed edition of the operating system to the edition that the user purchased in the Windows Store, or gets a genuine copy of the operating system.
 old-location: winprog\ieditionupgradehelper_updateoperatingsystem.htm
-old-project: DevNotes
+old-project: devnotes
 ms.assetid: C7A97C7E-654D-4717-975F-41B05F3BE901
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IEditionUpgradeHelper interface [Windows API],UpdateOperatingSystem method, IEditionUpgradeHelper.UpdateOperatingSystem, IEditionUpgradeHelper::UpdateOperatingSystem, UpdateOperatingSystem, UpdateOperatingSystem method [Windows API], UpdateOperatingSystem method [Windows API],IEditionUpgradeHelper interface, editionupgradehelper/IEditionUpgradeHelper::UpdateOperatingSystem, winprog.ieditionupgradehelper_updateoperatingsystem
 ms.prod: windows
 ms.technology: windows-sdk

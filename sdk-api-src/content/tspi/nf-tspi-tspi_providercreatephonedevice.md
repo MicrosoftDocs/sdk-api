@@ -7,7 +7,7 @@ old-location: tspi\tspi_providercreatephonedevice.htm
 old-project: tapi
 ms.assetid: 9768cc69-fa7b-4b84-9e85-c9e75def3823
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_providerCreatePhoneDevice, TSPI_providerCreatePhoneDevice function [TAPI 2.2], _tspi_tspi_providercreatephonedevice, tspi.tspi_providercreatephonedevice, tspi/TSPI_providerCreatePhoneDevice
 ms.prod: windows
 ms.technology: windows-sdk

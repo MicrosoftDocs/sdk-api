@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttrack_setlabel.htm
 old-project: medfound
 ms.assetid: 751CBF14-C445-4F2A-96F6-CB6159FAA1EE
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFTimedTextTrack interface [Media Foundation],SetLabel method, IMFTimedTextTrack.SetLabel, IMFTimedTextTrack::SetLabel, SetLabel, SetLabel method [Media Foundation], SetLabel method [Media Foundation],IMFTimedTextTrack interface, mf.imftimedtexttrack_setlabel, mfmediaengine/IMFTimedTextTrack::SetLabel
 ms.prod: windows
 ms.technology: windows-sdk

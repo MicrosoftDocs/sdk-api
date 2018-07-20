@@ -4,10 +4,10 @@ title: IUpdateHistoryEntry::get_Operation
 author: windows-sdk-content
 description: Gets an UpdateOperation value that specifies the operation on an update.
 old-location: wua\iupdatehistoryentry_operation.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 4dfad46b-ee42-41d6-be25-69aaf12fd53c
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],Operation property, IUpdateHistoryEntry.Operation, IUpdateHistoryEntry.get_Operation, IUpdateHistoryEntry::Operation, IUpdateHistoryEntry::get_Operation, Operation property [Windows Update Agent], Operation property [Windows Update Agent],IUpdateHistoryEntry interface, get_Operation, wua.iupdatehistoryentry_operation, wuapi/IUpdateHistoryEntry::Operation, wuapi/IUpdateHistoryEntry::get_Operation
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: p2p\pfnpeer_free_security_data.htm
 old-project: p2psdk
 ms.assetid: aa340e32-6d7f-4218-b120-8c352fdbda0f
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PFNPEER_FREE_SECURITY_DATA, PFNPEER_FREE_SECURITY_DATA callback, PFNPEER_FREE_SECURITY_DATA callback function [Peer Networking], p2p.pfnpeer_free_security_data, p2p/PFNPEER_FREE_SECURITY_DATA
 ms.prod: windows
 ms.technology: windows-sdk

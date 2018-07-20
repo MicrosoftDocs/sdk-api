@@ -7,7 +7,7 @@ old-location: tapi2\phoneopen.htm
 old-project: tapi
 ms.assetid: 8fba6d5e-0d8c-488f-a17c-4852b487e300
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_phoneopen, phoneOpen, phoneOpen function [TAPI 2.2], tapi/phoneOpen, tapi2.phoneopen"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ITextStrings::Cat2
 author: windows-sdk-content
 description: Concatenates two strings.
 old-location: controls\itextstrings_cat2.htm
-old-project: Controls
+old-project: controls
 ms.assetid: 9691d04f-5c87-42a3-81f2-efb051e2ed30
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Cat2, Cat2 method [Windows Controls], Cat2 method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],Cat2 method, ITextStrings.Cat2, ITextStrings::Cat2, controls.itextstrings_cat2, tom/ITextStrings::Cat2
 ms.prod: windows
 ms.technology: windows-sdk

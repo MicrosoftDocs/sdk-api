@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidecodeswapchain.htm
 old-project: direct3ddxgi
 ms.assetid: 814EDDA6-EFEA-4281-BE06-9FF8822B4927
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IDXGIDecodeSwapChain, IDXGIDecodeSwapChain interface [DXGI], IDXGIDecodeSwapChain interface [DXGI],described, direct3ddxgi.idxgidecodeswapchain, dxgi1_3/IDXGIDecodeSwapChain
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          Represents a swap chain that is used by desktop media apps to decode video data and show it on a <a href="https://msdn.microsoft.com/A220189D-8546-4352-8F6F-AC5D2192940D">DirectComposition</a> surface.
+Represents a swap chain that is used by desktop media apps to decode video data and show it on a <a href="https://msdn.microsoft.com/A220189D-8546-4352-8F6F-AC5D2192940D">DirectComposition</a> surface.
         
 
 
@@ -160,16 +159,13 @@ Sets the rectangle that defines the target region for the video processing blit 
 
 
 
-
-        Decode swap chains are intended for use primarily with YUV surface formats. When using decode buffers created with an RGB surface format, the <i>TargetRect</i> and <i>DestSize</i> must be set equal to the buffer dimensions. <i>SourceRect</i> cannot exceed the buffer dimensions.
+Decode swap chains are intended for use primarily with YUV surface formats. When using decode buffers created with an RGB surface format, the <i>TargetRect</i> and <i>DestSize</i> must be set equal to the buffer dimensions. <i>SourceRect</i> cannot exceed the buffer dimensions.
       
 
-
-        In clone mode, the decode swap chain is only guaranteed to be shown on the primary output.
+In clone mode, the decode swap chain is only guaranteed to be shown on the primary output.
       
 
-
-        Decode swap chains cannot be used with dirty rects.
+Decode swap chains cannot be used with dirty rects.
       
 
 

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_security.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_41h5.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxServer object [Fax Service],Security property, FaxServer.Security, IFaxServer.get_Security, IFaxServer::get_Security, Security property [Fax Service], Security property [Fax Service],FaxServer object, _mfax_faxserver.security, fax._mfax_faxserver_security, get_Security
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\itcallmediaevent_get_terminal.htm
 old-project: tapi
 ms.assetid: 49fa442a-d4b0-4f51-b14a-c7819e06dcef
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Terminal method, ITCallMediaEvent.get_Terminal, ITCallMediaEvent::get_Terminal, _tapi3_itcallmediaevent_get_terminal, get_Terminal, get_Terminal method [TAPI 2.2], get_Terminal method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_terminal, tapi3if/ITCallMediaEvent::get_Terminal
 ms.prod: windows
 ms.technology: windows-sdk

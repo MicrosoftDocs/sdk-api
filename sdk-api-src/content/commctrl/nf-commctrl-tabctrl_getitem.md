@@ -4,10 +4,10 @@ title: TabCtrl_GetItem macro
 author: windows-sdk-content
 description: Retrieves information about a tab in a tab control. You can use this macro or send the TCM_GETITEM message explicitly.
 old-location: controls\TabCtrl_GetItem.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getitem.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: TabCtrl_GetItem, TabCtrl_GetItem macro [Windows Controls], _win32_TabCtrl_GetItem, _win32_TabCtrl_GetItem_cpp, commctrl/TabCtrl_GetItem, controls.TabCtrl_GetItem, controls._win32_TabCtrl_GetItem
 ms.prod: windows
 ms.technology: windows-sdk

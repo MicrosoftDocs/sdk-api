@@ -4,10 +4,10 @@ title: GetScrollPos function
 author: windows-sdk-content
 description: The GetScrollPos function retrieves the current position of the scroll box (thumb) in the specified scroll bar.
 old-location: controls\GetScrollPos.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\getscrollpos.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetScrollPos, GetScrollPos function [Windows Controls], SB_CTL, SB_HORZ, SB_VERT, _win32_GetScrollPos, _win32_GetScrollPos_cpp, controls.GetScrollPos, controls._win32_GetScrollPos, winuser/GetScrollPos
 ms.prod: windows
 ms.technology: windows-sdk

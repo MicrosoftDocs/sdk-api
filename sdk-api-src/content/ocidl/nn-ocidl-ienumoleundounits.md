@@ -7,7 +7,7 @@ old-location: com\ienumoleundounits.htm
 old-project: com
 ms.assetid: f43cbd9d-d91b-4230-816f-693dec7056a4
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumOleUndoUnits, IEnumOleUndoUnits interface [COM], IEnumOleUndoUnits interface [COM],described, _ole_ienumoleundounits, com.ienumoleundounits, ocidl/IEnumOleUndoUnits
 ms.prod: windows
 ms.technology: windows-sdk

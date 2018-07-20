@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalsuperclassregistration_delete.htm
 old-project: tapi
 ms.assetid: fe87d55f-1e1c-4241-b8a3-b56d2000f3ca
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: Delete, Delete method [TAPI 2.2], Delete method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],Delete method, ITPluggableTerminalSuperclassRegistration.Delete, ITPluggableTerminalSuperclassRegistration::Delete, _tapi3_itpluggableterminalsuperclassregistration_delete, tapi3.itpluggableterminalsuperclassregistration_delete, termmgr/ITPluggableTerminalSuperclassRegistration::Delete
 ms.prod: windows
 ms.technology: windows-sdk

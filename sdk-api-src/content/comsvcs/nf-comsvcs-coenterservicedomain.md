@@ -7,7 +7,7 @@ old-location: cos\coenterservicedomain.htm
 old-project: cossdk
 ms.assetid: 84640b3b-1f43-4bec-abf6-c295cfb3da8b
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CoEnterServiceDomain, CoEnterServiceDomain function [COM+], _cos_CoEnterServiceDomain, comsvcs/CoEnterServiceDomain, cos.coenterservicedomain
 ms.prod: windows
 ms.technology: windows-sdk

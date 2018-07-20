@@ -7,7 +7,7 @@ old-location: tapi2\phoneinitializeexparams_str.htm
 old-project: tapi
 ms.assetid: 465653e4-b88a-42a0-99b0-ce26eeaf99fd
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "*LPPHONEINITIALIZEEXPARAMS, LPPHONEINITIALIZEEXPARAMS, LPPHONEINITIALIZEEXPARAMS structure pointer [TAPI 2.2], PHONEINITIALIZEEXPARAMS, PHONEINITIALIZEEXPARAMS structure [TAPI 2.2], _tapi2_phoneinitializeexparams_str, phoneinitializeexparams_tag, tapi/LPPHONEINITIALIZEEXPARAMS, tapi/PHONEINITIALIZEEXPARAMS, tapi2.phoneinitializeexparams_str"
 ms.prod: windows
 ms.technology: windows-sdk

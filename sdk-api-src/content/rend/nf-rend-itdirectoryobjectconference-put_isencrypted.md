@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobjectconference_put_isencrypted.htm
 old-project: tapi
 ms.assetid: af2d55be-cd4f-498b-9c23-abb2dda39f6e
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_IsEncrypted method, ITDirectoryObjectConference.put_IsEncrypted, ITDirectoryObjectConference::put_IsEncrypted, _tapi3_itdirectoryobjectconference_put_isencrypted, put_IsEncrypted, put_IsEncrypted method [TAPI 2.2], put_IsEncrypted method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_IsEncrypted, tapi3.itdirectoryobjectconference_put_isencrypted
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\id3d11videoprocessorenumerator_getvideoprocessorrateconversionc
 old-project: medfound
 ms.assetid: 2DB74CB9-C6B3-477A-9EF9-6E2EC1DE37D6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetVideoProcessorRateConversionCaps, GetVideoProcessorRateConversionCaps method [Media Foundation], GetVideoProcessorRateConversionCaps method [Media Foundation],ID3D11VideoProcessorEnumerator interface, ID3D11VideoProcessorEnumerator interface [Media Foundation],GetVideoProcessorRateConversionCaps method, ID3D11VideoProcessorEnumerator.GetVideoProcessorRateConversionCaps, ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps, d3d11/ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps, mf.id3d11videoprocessorenumerator_getvideoprocessorrateconversioncaps
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

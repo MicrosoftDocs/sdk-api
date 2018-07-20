@@ -7,7 +7,7 @@ old-location: multimedia\mciwndclose.htm
 old-project: Multimedia
 ms.assetid: f0adc980-c7f6-4937-b844-f65b98047e84
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/17/2018
 ms.keywords: MCIWndClose, MCIWndClose macro [Windows Multimedia], _win32_MCIWndClose, multimedia.mciwndclose, vfw/MCIWndClose
 ms.prod: windows
 ms.technology: windows-sdk

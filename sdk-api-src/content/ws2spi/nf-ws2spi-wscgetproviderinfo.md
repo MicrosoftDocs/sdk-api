@@ -7,7 +7,7 @@ old-location: winsock\wscgetproviderinfo.htm
 old-project: winsock
 ms.assetid: 5880f3dd-2a74-4af8-b0d8-2a8eedccc1e6
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/18/2018
 ms.keywords: WSCGetProviderInfo, WSCGetProviderInfo function [Winsock], winsock.wscgetproviderinfo, ws2spi/WSCGetProviderInfo
 ms.prod: windows
 ms.technology: windows-sdk

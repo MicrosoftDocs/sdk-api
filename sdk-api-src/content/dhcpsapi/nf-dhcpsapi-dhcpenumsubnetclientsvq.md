@@ -4,10 +4,10 @@ title: DhcpEnumSubnetClientsVQ function
 author: windows-sdk-content
 description: Retrieves all DHCP clients serviced from the specified IPv4 subnet.
 old-location: dhcp\dhcpenumsubnetclientsvq.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 4e5cd074-1e1f-43cb-9c8b-e1cca0b8f2a8
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DhcpEnumSubnetClientsVQ, DhcpEnumSubnetClientsVQ function [DHCP], dhcp.dhcpenumsubnetclientsvq, dhcpsapi/DhcpEnumSubnetClientsVQ
 ms.prod: windows
 ms.technology: windows-sdk

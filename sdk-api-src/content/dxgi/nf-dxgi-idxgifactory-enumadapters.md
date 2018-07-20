@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory_enumadapters.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory_enumadapters.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: 457b8c88-be8c-c241-7864-e16ac2622ee0, EnumAdapters, EnumAdapters method [DXGI], EnumAdapters method [DXGI],IDXGIFactory interface, IDXGIFactory interface [DXGI],EnumAdapters method, IDXGIFactory.EnumAdapters, IDXGIFactory::EnumAdapters, direct3ddxgi.idxgifactory_enumadapters, dxgi/IDXGIFactory::EnumAdapters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,8 +102,7 @@ When the <b>EnumAdapters</b> method succeeds and fills the <i>ppAdapter</i> para
 
 #### Examples
 
-
-          Enumerating Adapters
+Enumerating Adapters
           
 
 The following code example demonstrates how to enumerate adapters using the <b>EnumAdapters</b> method.

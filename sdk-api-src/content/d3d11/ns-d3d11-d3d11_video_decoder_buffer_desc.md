@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_decoder_buffer_desc.htm
 old-project: medfound
 ms.assetid: B7F10FD2-79D1-483F-A95A-4CA7BAC7434F
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: D3D11_VIDEO_DECODER_BUFFER_DESC, D3D11_VIDEO_DECODER_BUFFER_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_DECODER_BUFFER_DESC, mf.d3d11_video_decoder_buffer_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

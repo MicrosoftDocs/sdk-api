@@ -7,7 +7,7 @@ old-location: mf\imfoutputschema_getoriginatorid.htm
 old-project: medfound
 ms.assetid: a8e7ccbe-8fcf-418e-b3e8-263f6296ff36
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetOriginatorID, GetOriginatorID method [Media Foundation], GetOriginatorID method [Media Foundation],IMFOutputSchema interface, IMFOutputSchema interface [Media Foundation],GetOriginatorID method, IMFOutputSchema.GetOriginatorID, IMFOutputSchema::GetOriginatorID, a8e7ccbe-8fcf-418e-b3e8-263f6296ff36, mf.imfoutputschema_getoriginatorid, mfidl/IMFOutputSchema::GetOriginatorID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

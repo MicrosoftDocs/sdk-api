@@ -7,7 +7,7 @@ old-location: mmc\frame_maximize.htm
 old-project: mmc
 ms.assetid: b07f5da1-7bc8-4637-b5c9-830bef085ff5
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: Frame interface [MMC],Maximize method, Frame object [MMC],Maximize method, Frame.Maximize, Frame::Maximize, Maximize, Maximize method [MMC], Maximize method [MMC],Frame interface, Maximize method [MMC],Frame object, _slate_frame.maximize_method, mmc.frame_maximize
 ms.prod: windows
 ms.technology: windows-sdk

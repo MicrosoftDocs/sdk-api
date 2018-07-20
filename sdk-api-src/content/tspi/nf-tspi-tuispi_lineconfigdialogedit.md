@@ -7,7 +7,7 @@ old-location: tspi\tuispi_lineconfigdialogedit.htm
 old-project: tapi
 ms.assetid: 05169974-31f3-445b-b55f-5931bace6505
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TUISPI_lineConfigDialogEdit, TUISPI_lineConfigDialogEdit function [TAPI 2.2], _tspi_tuispi_lineconfigdialogedit, tspi.tuispi_lineconfigdialogedit, tspi/TUISPI_lineConfigDialogEdit
 ms.prod: windows
 ms.technology: windows-sdk

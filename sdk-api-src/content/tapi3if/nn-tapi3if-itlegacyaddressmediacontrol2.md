@@ -7,7 +7,7 @@ old-location: tapi3\itlegacyaddressmediacontrol2.htm
 old-project: tapi
 ms.assetid: 38e5f1ba-b31e-47c9-a24a-2e4d37a0961b
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITLegacyAddressMediaControl2, ITLegacyAddressMediaControl2 interface [TAPI 2.2], ITLegacyAddressMediaControl2 interface [TAPI 2.2],described, _tapi3_itlegacyaddressmediacontrol2, tapi3.itlegacyaddressmediacontrol2, tapi3if/ITLegacyAddressMediaControl2
 ms.prod: windows
 ms.technology: windows-sdk

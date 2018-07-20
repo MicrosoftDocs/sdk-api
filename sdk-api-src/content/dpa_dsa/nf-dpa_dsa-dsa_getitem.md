@@ -4,10 +4,10 @@ title: DSA_GetItem function
 author: windows-sdk-content
 description: Gets an element from a dynamic structure array (DSA).
 old-location: controls\DSA_GetItem.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_getitem.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DSA_GetItem, DSA_GetItem function [Windows Controls], _win32_DSA_GetItem, _win32_DSA_GetItem_cpp, controls.DSA_GetItem, controls._win32_DSA_GetItem, dpa_dsa/DSA_GetItem
 ms.prod: windows
 ms.technology: windows-sdk

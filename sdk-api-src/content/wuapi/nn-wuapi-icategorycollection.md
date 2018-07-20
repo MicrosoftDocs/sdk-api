@@ -4,10 +4,10 @@ title: ICategoryCollection
 author: windows-sdk-content
 description: Represents an ordered read-only list of ICategory interfaces.
 old-location: wua\icategorycollection.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 2d43ee74-f3c7-4c94-8e83-e497d3aa81ee
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: ICategoryCollection, ICategoryCollection interface [Windows Update Agent], ICategoryCollection interface [Windows Update Agent],described, wua.icategorycollection, wuapi/ICategoryCollection
 ms.prod: windows
 ms.technology: windows-sdk

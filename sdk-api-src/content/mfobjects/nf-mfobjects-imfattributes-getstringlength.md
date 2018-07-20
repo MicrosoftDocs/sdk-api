@@ -7,7 +7,7 @@ old-location: mf\imfattributes_getstringlength.htm
 old-project: medfound
 ms.assetid: 6ccc753f-e147-47f4-ab95-17687729404a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 6ccc753f-e147-47f4-ab95-17687729404a, GetStringLength, GetStringLength method [Media Foundation], GetStringLength method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetStringLength method, IMFAttributes.GetStringLength, IMFAttributes::GetStringLength, mf.imfattributes_getstringlength, mfobjects/IMFAttributes::GetStringLength
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

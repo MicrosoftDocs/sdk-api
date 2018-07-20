@@ -7,7 +7,7 @@ old-location: tablet\appearanceconstants.htm
 old-project: tablet
 ms.assetid: 1ec00514-49d0-40dc-a9cf-8ec7d9e6a816
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: 1ec00514-49d0-40dc-a9cf-8ec7d9e6a816, AppearanceConstants, AppearanceConstants enumeration [Tablet PC], inked/AppearanceConstants, inked/rtfFlat, inked/rtfThreeD, rtfFlat, rtfThreeD, tablet.appearanceconstants
 ms.prod: windows
 ms.technology: windows-sdk

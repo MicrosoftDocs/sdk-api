@@ -7,7 +7,7 @@ old-location: mmc\view_executescopenodemenuitem.htm
 old-project: mmc
 ms.assetid: 1b2fe31a-1a04-45a7-afff-18290c697cb9
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: ExecuteScopeNodeMenuItem, ExecuteScopeNodeMenuItem method [MMC], ExecuteScopeNodeMenuItem method [MMC],View interface, ExecuteScopeNodeMenuItem method [MMC],View object, View interface [MMC],ExecuteScopeNodeMenuItem method, View object [MMC],ExecuteScopeNodeMenuItem method, View.ExecuteScopeNodeMenuItem, View::ExecuteScopeNodeMenuItem, _slate_view.executescopenodemenuitem_method, mmc.view_executescopenodemenuitem
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CryptCATCDFOpen function
 author: windows-sdk-content
 description: Opens an existing catalog definition file (CDF) for reading and initializes a CRYPTCATCDF structure.
 old-location: security\cryptcatcdfopen.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: d400d8bd-c0a0-41dc-9093-8e4fc758d82f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CryptCATCDFOpen, CryptCATCDFOpen function [Security], mscat/CryptCATCDFOpen, security.cryptcatcdfopen
 ms.prod: windows
 ms.technology: windows-sdk

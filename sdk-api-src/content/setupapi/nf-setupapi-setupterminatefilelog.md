@@ -7,7 +7,7 @@ old-location: setup\setupterminatefilelog.htm
 old-project: SetupApi
 ms.assetid: a230063a-2b4a-4ed3-8624-4859a17f8ccc
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/16/2018
 ms.keywords: SetupTerminateFileLog, SetupTerminateFileLog function [Setup API], _setupapi_setupterminatefilelog, setup.setupterminatefilelog, setupapi/SetupTerminateFileLog
 ms.prod: windows
 ms.technology: windows-sdk

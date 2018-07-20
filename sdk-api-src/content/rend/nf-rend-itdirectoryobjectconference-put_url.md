@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobjectconference_put_url.htm
 old-project: tapi
 ms.assetid: ca275c06-fd8f-4044-b528-cc197e4f1177
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_Url method, ITDirectoryObjectConference.put_Url, ITDirectoryObjectConference::put_Url, _tapi3_itdirectoryobjectconference_put_url, put_Url, put_Url method [TAPI 2.2], put_Url method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_Url, tapi3.itdirectoryobjectconference_put_url
 ms.prod: windows
 ms.technology: windows-sdk

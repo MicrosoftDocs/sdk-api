@@ -7,7 +7,7 @@ old-location: p2p\drtcreatenullsecurityprovider.htm
 old-project: p2psdk
 ms.assetid: ba6e766f-784b-4609-8ad5-c1bfb0575f34
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: DrtCreateNullSecurityProvider, DrtCreateNullSecurityProvider function [Distributed Routing Tables], drt/DrtCreateNullSecurityProvider, p2p.drtcreatenullsecurityprovider
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IDXGIFactory, IDXGIFactory interface [DXGI], IDXGIFactory interface [DXGI],described, b1276108-6fb6-9c57-75ed-b22303809d9e, direct3ddxgi.idxgifactory, dxgi/IDXGIFactory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-        An <b>IDXGIFactory</b> interface implements methods for generating DXGI objects (which handle full screen transitions).
+An <b>IDXGIFactory</b> interface implements methods for generating DXGI objects (which handle full screen transitions).
       
 
 
@@ -126,12 +125,10 @@ Allows DXGI to monitor an application's message queue for the alt-enter key sequ
 
 
 
-
-          Create a factory by calling <a href="https://msdn.microsoft.com/library/Bb204862(v=VS.85).aspx">CreateDXGIFactory</a>.
+Create a factory by calling <a href="https://msdn.microsoft.com/library/Bb204862(v=VS.85).aspx">CreateDXGIFactory</a>.
         
 
-
-          Because you can create a Direct3D device without creating a swap chain, you might need to retrieve the factory that is used to create the device in order to create a swap chain.
+Because you can create a Direct3D device without creating a swap chain, you might need to retrieve the factory that is used to create the device in order to create a swap chain.
           You can request the <a href="https://msdn.microsoft.com/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a> interface from the Direct3D device and then use the <a href="https://msdn.microsoft.com/library/Bb174542(v=VS.85).aspx">IDXGIObject::GetParent</a> method to locate
           the factory.  The following code shows how.
         

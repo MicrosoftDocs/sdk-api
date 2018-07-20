@@ -7,7 +7,7 @@ old-location: tapi3\itcallnotificationevent.htm
 old-project: tapi
 ms.assetid: d0ea4f7a-7b50-4610-ae17-957c0c1891e1
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITCallNotificationEvent, ITCallNotificationEvent interface [TAPI 2.2], ITCallNotificationEvent interface [TAPI 2.2],described, _tapi3_itcallnotificationevent, tapi3.itcallnotificationevent, tapi3if/ITCallNotificationEvent
 ms.prod: windows
 ms.technology: windows-sdk

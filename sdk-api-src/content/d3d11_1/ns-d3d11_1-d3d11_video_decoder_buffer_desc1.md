@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_decoder_buffer_desc1.htm
 old-project: medfound
 ms.assetid: B35E4E27-6D69-49D4-908E-6EBF6DF5689A
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: D3D11_VIDEO_DECODER_BUFFER_DESC1, D3D11_VIDEO_DECODER_BUFFER_DESC1 structure [Media Foundation], d3d11_1/D3D11_VIDEO_DECODER_BUFFER_DESC1, mf.d3d11_video_decoder_buffer_desc1
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfdxgidevicemanagersource.htm
 old-project: medfound
 ms.assetid: 80078ed6-61cc-4fb9-8fd5-eda78cd5be30
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFDXGIDeviceManagerSource, IMFDXGIDeviceManagerSource interface [Media Foundation], IMFDXGIDeviceManagerSource interface [Media Foundation],described, mf.imfdxgidevicemanagersource, mfidl/IMFDXGIDeviceManagerSource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: interface
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8.1 [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2012 R2 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

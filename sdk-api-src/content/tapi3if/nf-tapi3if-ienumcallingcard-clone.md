@@ -7,7 +7,7 @@ old-location: tapi3\ienumcallingcard_clone.htm
 old-project: tapi
 ms.assetid: fb1a2ac3-12d1-42f0-9c73-c4d0d8a88700
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumCallingCard interface, IEnumCallingCard interface [TAPI 2.2],Clone method, IEnumCallingCard.Clone, IEnumCallingCard::Clone, _tapi3_ienumcallingcard_clone, tapi3.ienumcallingcard_clone, tapi3if/IEnumCallingCard::Clone
 ms.prod: windows
 ms.technology: windows-sdk

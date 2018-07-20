@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdeviceids_add_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4g2s.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],FaxDeviceIds object, FaxDeviceIds object [Fax Service],Add method, FaxDeviceIds.Add, IFaxDeviceIds.Add, IFaxDeviceIds::Add, _mfax_faxdeviceids.add, fax._mfax_faxdeviceids_add, fax._mfax_faxdeviceids_add_vb
 ms.prod: windows
 ms.technology: windows-sdk

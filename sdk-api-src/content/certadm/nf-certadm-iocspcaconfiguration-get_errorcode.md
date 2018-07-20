@@ -4,10 +4,10 @@ title: IOCSPCAConfiguration::get_ErrorCode
 author: windows-sdk-content
 description: Gets a code that identifies an error condition in a CA configuration.
 old-location: security\iocspcaconfiguration_errorcode_method.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: ef41699e-761b-454e-a759-424bb5989459
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ErrorCode property [Security], ErrorCode property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],ErrorCode property, IOCSPCAConfiguration.ErrorCode, IOCSPCAConfiguration.get_ErrorCode, IOCSPCAConfiguration::ErrorCode, IOCSPCAConfiguration::get_ErrorCode, certadm/IOCSPCAConfiguration::ErrorCode, certadm/IOCSPCAConfiguration::get_ErrorCode, get_ErrorCode, security.iocspcaconfiguration_errorcode_method
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingarchive_archivefolder_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7vle.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: ArchiveFolder property [Fax Service], ArchiveFolder property [Fax Service],FaxIncomingArchive object, FaxIncomingArchive object [Fax Service],ArchiveFolder property, FaxIncomingArchive.ArchiveFolder, IFaxIncomingArchive.put_ArchiveFolder, IFaxIncomingArchive::put_ArchiveFolder, _mfax_faxincomingarchive.archivefolder, fax._mfax_faxincomingarchive_archivefolder, fax._mfax_faxincomingarchive_archivefolder_vb, put_ArchiveFolder
 ms.prod: windows
 ms.technology: windows-sdk

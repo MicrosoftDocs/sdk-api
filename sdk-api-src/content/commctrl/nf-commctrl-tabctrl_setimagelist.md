@@ -4,10 +4,10 @@ title: TabCtrl_SetImageList macro
 author: windows-sdk-content
 description: Assigns an image list to a tab control. You can use this macro or send the TCM_SETIMAGELIST message explicitly.
 old-location: controls\TabCtrl_SetImageList.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setimagelist.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: TabCtrl_SetImageList, TabCtrl_SetImageList macro [Windows Controls], _win32_TabCtrl_SetImageList, _win32_TabCtrl_SetImageList_cpp, commctrl/TabCtrl_SetImageList, controls.TabCtrl_SetImageList, controls._win32_TabCtrl_SetImageList
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_RetryDelay_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\retrydelay.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxConfiguration object [Fax Service],RetryDelay property, FaxConfiguration.RetryDelay, IFaxConfiguration.get_RetryDelay, IFaxConfiguration::get_RetryDelay, RetryDelay property [Fax Service], RetryDelay property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_RetryDelay, fax._mfax_FaxConfiguration_RetryDelay_vb, get_RetryDelay
 ms.prod: windows
 ms.technology: windows-sdk

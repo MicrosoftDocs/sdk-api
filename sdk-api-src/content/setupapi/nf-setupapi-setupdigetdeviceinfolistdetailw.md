@@ -7,7 +7,7 @@ old-location: devinst\setupdigetdeviceinfolistdetail.htm
 old-project: devinst
 ms.assetid: 3f624882-9ccc-4be1-92aa-8bba9f0022ea
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: SetupDiGetDeviceInfoListDetail, SetupDiGetDeviceInfoListDetail function [Device and Driver Installation], SetupDiGetDeviceInfoListDetailA, SetupDiGetDeviceInfoListDetailW, devinst.setupdigetdeviceinfolistdetail, di-rtns_b25a6105-3c1f-4b79-ad07-37be79fa36ae.xml, setupapi/SetupDiGetDeviceInfoListDetail
 ms.prod: windows
 ms.technology: windows-sdk

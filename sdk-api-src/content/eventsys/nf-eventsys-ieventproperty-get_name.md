@@ -7,7 +7,7 @@ old-location: com\ieventproperty_name.htm
 old-project: com
 ms.assetid: 9bc083fe-3a11-400b-83c2-d0ac4bb8d0c5
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IEventProperty interface [COM],Name property, IEventProperty.Name, IEventProperty.get_Name, IEventProperty::Name, IEventProperty::get_Name, IEventProperty::put_Name, Name property [COM], Name property [COM],IEventProperty interface, _com_ieventproperty_name, com.ieventproperty_name, eventsys/IEventProperty::Name, eventsys/IEventProperty::get_Name, eventsys/IEventProperty::put_Name, get_Name
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\mfrate_direction.htm
 old-project: medfound
 ms.assetid: 34cc861c-ab15-48f4-bb6e-736b70383546
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 34cc861c-ab15-48f4-bb6e-736b70383546, MFRATE_DIRECTION, MFRATE_DIRECTION enumeration [Media Foundation], MFRATE_FORWARD, MFRATE_REVERSE, _MFRATE_DIRECTION, mf.mfrate_direction, mfidl/MFRATE_DIRECTION, mfidl/MFRATE_FORWARD, mfidl/MFRATE_REVERSE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: enum
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2008 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

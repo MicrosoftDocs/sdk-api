@@ -7,7 +7,7 @@ old-location: p2p\peergraphsetpresence.htm
 old-project: p2psdk
 ms.assetid: f9d34fb0-4834-4fcf-ab44-e16c8114a3f4
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PeerGraphSetPresence, PeerGraphSetPresence function [Peer Networking], p2p.peergraphsetpresence, p2p/PeerGraphSetPresence
 ms.prod: windows
 ms.technology: windows-sdk

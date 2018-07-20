@@ -4,10 +4,10 @@ title: PFNDACOMPARECONST
 author: windows-sdk-content
 description: Defines the prototype for the compare function used by DSA_Sort when the items being compared are constant objects.
 old-location: controls\PFNDACOMPARECONST.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndacompareconst.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: PFNDACOMPARECONST, PFNDACOMPARECONST callback, PFNDACOMPARECONST callback function [Windows Controls], PFNDPACOMPARECONST, PFNDSACOMPARECONST, _shell_PFNDACOMPARECONST, _shell_PFNDACOMPARECONST_cpp, controls.PFNDACOMPARECONST, controls._shell_PFNDACOMPARECONST, dpa_dsa/PFNDACOMPARECONST
 ms.prod: windows
 ms.technology: windows-sdk

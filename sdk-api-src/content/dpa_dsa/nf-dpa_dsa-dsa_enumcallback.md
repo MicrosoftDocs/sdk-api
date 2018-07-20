@@ -4,10 +4,10 @@ title: DSA_EnumCallback function
 author: windows-sdk-content
 description: Iterates through the dynamic structure array (DSA) and calls pfnCB on each item.
 old-location: controls\DSA_EnumCallback.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_enumcallback.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DSA_EnumCallback, DSA_EnumCallback function [Windows Controls], _shell_DSA_EnumCallback, _shell_DSA_EnumCallback_cpp, controls.DSA_EnumCallback, controls._shell_DSA_EnumCallback, dpa_dsa/DSA_EnumCallback
 ms.prod: windows
 ms.technology: windows-sdk

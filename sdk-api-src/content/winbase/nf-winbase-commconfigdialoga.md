@@ -4,10 +4,10 @@ title: CommConfigDialogA function
 author: windows-sdk-content
 description: Displays a driver-supplied configuration dialog box.
 old-location: base\commconfigdialog.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 6c7a3833-1d40-40c5-bfa7-14523bc73ab0
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CommConfigDialog, CommConfigDialog function, CommConfigDialogA, CommConfigDialogW, _win32_commconfigdialog, base.commconfigdialog, winbase/CommConfigDialog, winbase/CommConfigDialogA, winbase/CommConfigDialogW
 ms.prod: windows
 ms.technology: windows-sdk

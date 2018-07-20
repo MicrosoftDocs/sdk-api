@@ -7,7 +7,7 @@ old-location: tapi3\itcallinfo2.htm
 old-project: tapi
 ms.assetid: 20f7b20e-37f8-49f7-ae9d-83a9b9f574b6
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITCallInfo2, ITCallInfo2 interface [TAPI 2.2], ITCallInfo2 interface [TAPI 2.2],described, _tapi3_itcallinfo2, tapi3.itcallinfo2, tapi3if/ITCallInfo2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\itforwardinformation_clear.htm
 old-project: tapi
 ms.assetid: 721a4efc-e379-4553-a2a1-efb8831cda38
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: Clear, Clear method [TAPI 2.2], Clear method [TAPI 2.2],ITForwardInformation interface, ITForwardInformation interface [TAPI 2.2],Clear method, ITForwardInformation.Clear, ITForwardInformation::Clear, _tapi3_itforwardinformation_clear, tapi3.itforwardinformation_clear, tapi3if/ITForwardInformation::Clear
 ms.prod: windows
 ms.technology: windows-sdk

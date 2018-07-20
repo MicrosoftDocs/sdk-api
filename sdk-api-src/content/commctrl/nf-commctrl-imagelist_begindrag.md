@@ -4,10 +4,10 @@ title: ImageList_BeginDrag function
 author: windows-sdk-content
 description: Begins dragging an image.
 old-location: controls\ImageList_BeginDrag.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_begindrag.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ImageList_BeginDrag, ImageList_BeginDrag function [Windows Controls], _win32_ImageList_BeginDrag, _win32_ImageList_BeginDrag_cpp, commctrl/ImageList_BeginDrag, controls.ImageList_BeginDrag, controls._win32_ImageList_BeginDrag
 ms.prod: windows
 ms.technology: windows-sdk

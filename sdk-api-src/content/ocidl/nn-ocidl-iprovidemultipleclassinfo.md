@@ -7,7 +7,7 @@ old-location: com\iprovidemultipleclassinfo.htm
 old-project: com
 ms.assetid: 87407830-b34b-4d4e-a5cc-551f47cffb75
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IProvideMultipleClassInfo, IProvideMultipleClassInfo interface [COM], IProvideMultipleClassInfo interface [COM],described, _com_iprovidemultipleclassinfo, com.iprovidemultipleclassinfo, ocidl/IProvideMultipleClassInfo
 ms.prod: windows
 ms.technology: windows-sdk

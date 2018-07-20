@@ -7,7 +7,7 @@ old-location: dshow\ifullscreenvideoex_getclipfactor.htm
 old-project: DirectShow
 ms.assetid: f45e1736-8130-483b-9f90-614c4b6970db
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetClipFactor, GetClipFactor method [DirectShow], GetClipFactor method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetClipFactor method, IFullScreenVideoEx.GetClipFactor, IFullScreenVideoEx::GetClipFactor, IFullScreenVideoGetClipFactor, amvideo/IFullScreenVideoEx::GetClipFactor, dshow.ifullscreenvideoex_getclipfactor
 ms.prod: windows
 ms.technology: windows-sdk

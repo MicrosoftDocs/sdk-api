@@ -7,7 +7,7 @@ old-location: tapi3\itterminalmanager2.htm
 old-project: tapi
 ms.assetid: f91c8684-27f8-4db8-99ff-d5a6cb87a0c2
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITTerminalManager2, ITTerminalManager2 interface [TAPI 2.2], ITTerminalManager2 interface [TAPI 2.2],described, _tapi3_itterminalmanager2, tapi3.itterminalmanager2, termmgr/ITTerminalManager2
 ms.prod: windows
 ms.technology: windows-sdk

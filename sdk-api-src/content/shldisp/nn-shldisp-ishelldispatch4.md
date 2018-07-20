@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch4.htm
 old-project: shell
 ms.assetid: 4fe37e38-ee71-41f0-b620-35fdc18f9dbb
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IShellDispatch4, IShellDispatch4 object [Windows Shell], IShellDispatch4 object [Windows Shell],described, _shell_IShellDispatch4, shell.IShellDispatch4, shldisp/IShellDispatch4
 ms.prod: windows
 ms.technology: windows-sdk

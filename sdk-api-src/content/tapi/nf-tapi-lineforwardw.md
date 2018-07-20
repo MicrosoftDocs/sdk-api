@@ -7,7 +7,7 @@ old-location: tapi2\lineforward.htm
 old-project: tapi
 ms.assetid: 68dc99c5-1158-4e18-8e32-08216ff3567b
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_lineforward, lineForward, lineForward function [TAPI 2.2], lineForwardA, lineForwardW, tapi/lineForward, tapi/lineForwardA, tapi/lineForwardW, tapi2.lineforward"
 ms.prod: windows
 ms.technology: windows-sdk

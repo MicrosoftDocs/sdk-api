@@ -7,7 +7,7 @@ old-location: com\coallowsetforegroundwindow.htm
 old-project: com
 ms.assetid: a728aaad-3d7a-425c-b886-ba35c4fa54d0
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: CoAllowSetForegroundWindow, CoAllowSetForegroundWindow function [COM], _com_CoAllowSetForegroundWindow, com.coallowsetforegroundwindow, objbase/CoAllowSetForegroundWindow
 ms.prod: windows
 ms.technology: windows-sdk

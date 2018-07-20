@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttrack_getlabel.htm
 old-project: medfound
 ms.assetid: BB3B1089-6489-4C70-BAFD-22D72DE3CB38
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetLabel, GetLabel method [Media Foundation], GetLabel method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetLabel method, IMFTimedTextTrack.GetLabel, IMFTimedTextTrack::GetLabel, mf.imftimedtexttrack_getlabel, mfmediaengine/IMFTimedTextTrack::GetLabel
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winrt\imetadatatables_getblob.htm
 old-project: WinRT
 ms.assetid: 1a9da245-a1a9-4004-8925-00b2fe72c9ca
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: GetBlob, GetBlob method [Windows Runtime], GetBlob method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetBlob method, IMetaDataTables.GetBlob, IMetaDataTables::GetBlob, rometadataapi/IMetaDataTables::GetBlob, winrt.imetadatatables_getblob
 ms.prod: windows
 ms.technology: windows-sdk

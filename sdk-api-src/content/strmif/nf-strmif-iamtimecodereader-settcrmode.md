@@ -7,7 +7,7 @@ old-location: dshow\iamtimecodereader_settcrmode.htm
 old-project: DirectShow
 ms.assetid: dd9f5310-b1c0-46ff-b038-d6a50ac400a2
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IAMTimecodeReader interface [DirectShow],SetTCRMode method, IAMTimecodeReader.SetTCRMode, IAMTimecodeReader::SetTCRMode, IAMTimecodeReaderSetTCRMode, SetTCRMode, SetTCRMode method [DirectShow], SetTCRMode method [DirectShow],IAMTimecodeReader interface, dshow.iamtimecodereader_settcrmode, strmif/IAMTimecodeReader::SetTCRMode
 ms.prod: windows
 ms.technology: windows-sdk

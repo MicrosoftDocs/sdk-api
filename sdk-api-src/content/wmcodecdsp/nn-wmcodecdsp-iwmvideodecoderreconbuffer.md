@@ -7,7 +7,7 @@ old-location: mf\iwmvideodecoderreconbufferinterface.htm
 old-project: medfound
 ms.assetid: e2a4600e-3d55-42f1-804c-8dc5bdf5daec
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IWMVideoDecoderReconBuffer, IWMVideoDecoderReconBuffer interface [Media Foundation], IWMVideoDecoderReconBuffer interface [Media Foundation],described, codecapi.iwmvideodecoderreconbufferinterface, mf.iwmvideodecoderreconbuffer, mf.iwmvideodecoderreconbufferinterface, wmcodecdsp/IWMVideoDecoderReconBuffer
 ms.prod: windows
 ms.technology: windows-sdk

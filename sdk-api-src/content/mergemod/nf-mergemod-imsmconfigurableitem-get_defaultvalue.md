@@ -7,7 +7,7 @@ old-location: setup\configurableitem_defaultvalue.htm
 old-project: msi
 ms.assetid: 2d99ee59-5dea-41ca-bd24-359195a37864
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/17/2018
 ms.keywords: ConfigurableItem object,DefaultValue property, ConfigurableItem.DefaultValue, DefaultValue property, DefaultValue property,ConfigurableItem object, IMsmConfigurableItem.get_DefaultValue, IMsmConfigurableItem::get_DefaultValue, _msi_defaultvalue_property, get_DefaultValue, setup.configurableitem_defaultvalue
 ms.prod: windows
 ms.technology: windows-sdk

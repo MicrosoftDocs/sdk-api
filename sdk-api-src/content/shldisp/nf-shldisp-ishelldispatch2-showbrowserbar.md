@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_ShowBrowserBar.htm
 old-project: shell
 ms.assetid: 5776370c-3bbf-449b-a8fe-2dbc7d89dd25
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IShellDispatch2 object [Windows Shell],ShowBrowserBar method, IShellDispatch2.ShowBrowserBar, IShellDispatch2::ShowBrowserBar, ShowBrowserBar, ShowBrowserBar method [Windows Shell], ShowBrowserBar method [Windows Shell],IShellDispatch2 object, _win32_IShellDispatch2_ShowBrowserBar, shell.IShellDispatch2_ShowBrowserBar
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\itbasiccallcontrol_handoffdirect.htm
 old-project: tapi
 ms.assetid: a96a3790-ee5d-4983-b69a-30c7af96afd9
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: HandoffDirect, HandoffDirect method [TAPI 2.2], HandoffDirect method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],HandoffDirect method, ITBasicCallControl.HandoffDirect, ITBasicCallControl::HandoffDirect, _tapi3_itbasiccallcontrol_handoffdirect, tapi3.itbasiccallcontrol_handoffdirect, tapi3if/ITBasicCallControl::HandoffDirect
 ms.prod: windows
 ms.technology: windows-sdk

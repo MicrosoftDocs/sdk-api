@@ -7,7 +7,7 @@ old-location: shell\IShellItemResources_EnumResources.htm
 old-project: shell
 ms.assetid: 29ac8ac9-4bd1-470c-885a-56f860d50a70
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: EnumResources, EnumResources method [Windows Shell], EnumResources method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],EnumResources method, IShellItemResources.EnumResources, IShellItemResources::EnumResources, _shell_IShellItemResources_EnumResources, shell.IShellItemResources_EnumResources, shobjidl_core/IShellItemResources::EnumResources
 ms.prod: windows
 ms.technology: windows-sdk

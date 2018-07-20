@@ -4,10 +4,10 @@ title: "_DHCP_OPTION_LIST"
 author: windows-sdk-content
 description: Defines a list of DHCP option values (just the option data with associated ID tags).
 old-location: dhcp\dhcp_option_list.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: ffe9ed82-1aec-4e09-8258-399099c87b5a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*LPDHCP_OPTION_LIST, DHCP_OPTION_LIST, DHCP_OPTION_LIST structure [DHCP], LPDHCP_OPTION_LIST, LPDHCP_OPTION_LIST structure pointer [DHCP], _DHCP_OPTION_LIST, dhcp.dhcp_option_list, dhcpsapi/LPDHCP_OPTION_LIST, dhcpsapi/_DHCP_OPTION_LIST"
 ms.prod: windows
 ms.technology: windows-sdk

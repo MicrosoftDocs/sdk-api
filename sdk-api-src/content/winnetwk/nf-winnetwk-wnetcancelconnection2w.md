@@ -4,10 +4,10 @@ title: WNetCancelConnection2W function
 author: windows-sdk-content
 description: The WNetCancelConnection2 function cancels an existing network connection. You can also call the function to remove remembered network connections that are not currently connected.
 old-location: wnet\wnetcancelconnection2.htm
-old-project: WNet
+old-project: wnet
 ms.assetid: 8bb8222f-6ede-4bf4-a6e4-681560cce162
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/18/2018
 ms.keywords: 0, CONNECT_UPDATE_PROFILE, WNetCancelConnection2, WNetCancelConnection2 function [Windows Networking (WNet)], WNetCancelConnection2A, WNetCancelConnection2W, _win32_wnetcancelconnection2, winnetwk/WNetCancelConnection2, winnetwk/WNetCancelConnection2A, winnetwk/WNetCancelConnection2W, wnet.wnetcancelconnection2
 ms.prod: windows
 ms.technology: windows-sdk

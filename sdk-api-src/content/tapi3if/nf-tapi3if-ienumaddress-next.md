@@ -7,7 +7,7 @@ old-location: tapi3\ienumaddress_next.htm
 old-project: tapi
 ms.assetid: 14bc32c4-8b59-41ec-a7f6-1ed7f26ae62a
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumAddress interface [TAPI 2.2],Next method, IEnumAddress.Next, IEnumAddress::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumAddress interface, _tapi3_ienumaddress_next, tapi3.ienumaddress_next, tapi3if/IEnumAddress::Next
 ms.prod: windows
 ms.technology: windows-sdk

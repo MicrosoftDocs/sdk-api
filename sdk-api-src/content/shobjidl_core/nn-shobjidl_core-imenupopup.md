@@ -7,7 +7,7 @@ old-location: shell\IMenuPopup.htm
 old-project: shell
 ms.assetid: dc5749b1-43b7-4f68-ac38-8a6e99613149
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IMenuPopup, IMenuPopup interface [Windows Shell], IMenuPopup interface [Windows Shell],described, _win32_IMenuPopup, shell.IMenuPopup, shobjidl_core/IMenuPopup
 ms.prod: windows
 ms.technology: windows-sdk

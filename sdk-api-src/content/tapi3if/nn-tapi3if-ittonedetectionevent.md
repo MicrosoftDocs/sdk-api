@@ -7,7 +7,7 @@ old-location: tapi3\ittonedetectionevent.htm
 old-project: tapi
 ms.assetid: 1e0f71a2-1aae-46b7-9147-7bf9da4d9503
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITToneDetectionEvent, ITToneDetectionEvent interface [TAPI 2.2], ITToneDetectionEvent interface [TAPI 2.2],described, _tapi3_ittonedetectionevent, tapi3.ittonedetectionevent, tapi3if/ITToneDetectionEvent
 ms.prod: windows
 ms.technology: windows-sdk

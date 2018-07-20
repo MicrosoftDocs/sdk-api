@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadsession_setserver.htm
 old-project: medfound
 ms.assetid: 408D4863-D95F-4BBD-9F0B-9796ED08A256
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFHttpDownloadSession interface [Media Foundation],SetServer method, IMFHttpDownloadSession.SetServer, IMFHttpDownloadSession::SetServer, SetServer, SetServer method [Media Foundation], SetServer method [Media Foundation],IMFHttpDownloadSession interface, mf.imfhttpdownloadsession_setserver, mfidl/IMFHttpDownloadSession::SetServer
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mmc\isnapinproperties_initialize.htm
 old-project: mmc
 ms.assetid: b5140b15-d622-4abe-baef-061fe13a213f
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: ISnapinProperties interface [MMC],Initialize method, ISnapinProperties.Initialize, ISnapinProperties::Initialize, Initialize, Initialize method [MMC], Initialize method [MMC],ISnapinProperties interface, _slate_isnapinproperties_initialize, mmc.isnapinproperties_initialize, mmcobj/ISnapinProperties::Initialize
 ms.prod: windows
 ms.technology: windows-sdk

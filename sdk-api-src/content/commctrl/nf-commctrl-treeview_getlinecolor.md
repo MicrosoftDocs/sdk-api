@@ -4,10 +4,10 @@ title: TreeView_GetLineColor macro
 author: windows-sdk-content
 description: Gets the current line color. You can also use the TVM_GETLINECOLOR message directly.
 old-location: controls\TreeView_GetLineColor.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getlinecolor.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: TreeView_GetLineColor, TreeView_GetLineColor macro [Windows Controls], _win32_TreeView_GetLineColor, _win32_TreeView_GetLineColor_cpp, commctrl/TreeView_GetLineColor, controls.TreeView_GetLineColor, controls._win32_TreeView_GetLineColor
 ms.prod: windows
 ms.technology: windows-sdk

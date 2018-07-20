@@ -7,7 +7,7 @@ old-location: mmc\mmc_control_type.htm
 old-project: mmc
 ms.assetid: f4f64769-a3d0-46eb-8520-a6cb7237d007
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: COMBOBOXBAR, MENUBUTTON, MMC_CONTROL_TYPE, MMC_CONTROL_TYPE enumeration [MMC], TOOLBAR, _MMC_CONTROL_TYPE, _slate_mmc_control_type, mmc.mmc_control_type, mmc/COMBOBOXBAR, mmc/MENUBUTTON, mmc/MMC_CONTROL_TYPE, mmc/TOOLBAR
 ms.prod: windows
 ms.technology: windows-sdk

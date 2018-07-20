@@ -7,7 +7,7 @@ old-location: winsock\wpusetevent_2.htm
 old-project: winsock
 ms.assetid: d5caa926-1223-4917-85ba-4f79731e955a
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/18/2018
 ms.keywords: WPUSetEvent, WPUSetEvent function [Winsock], _win32_wpusetevent_2, winsock.wpusetevent_2, ws2spi/WPUSetEvent
 ms.prod: windows
 ms.technology: windows-sdk

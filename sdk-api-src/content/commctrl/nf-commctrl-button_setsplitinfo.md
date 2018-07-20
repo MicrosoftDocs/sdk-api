@@ -4,10 +4,10 @@ title: Button_SetSplitInfo macro
 author: windows-sdk-content
 description: Sets information for a specified split button control. Use this macro or send the BCM_SETSPLITINFO message explicitly.
 old-location: controls\Button_SetSplitInfo.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setsplitinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Button_SetSplitInfo, Button_SetSplitInfo macro [Windows Controls], _shell_Button_SetSplitInfo, _shell_Button_SetSplitInfo_cpp, commctrl/Button_SetSplitInfo, controls.Button_SetSplitInfo, controls._shell_Button_SetSplitInfo
 ms.prod: windows
 ms.technology: windows-sdk

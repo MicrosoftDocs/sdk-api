@@ -7,7 +7,7 @@ old-location: tspi\tspi_linegetid.htm
 old-project: tapi
 ms.assetid: d4331721-61c3-4de0-bb1f-c27f475170d1
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineGetID, TSPI_lineGetID function [TAPI 2.2], _tspi_tspi_linegetid, tspi.tspi_linegetid, tspi/TSPI_lineGetID
 ms.prod: windows
 ms.technology: windows-sdk

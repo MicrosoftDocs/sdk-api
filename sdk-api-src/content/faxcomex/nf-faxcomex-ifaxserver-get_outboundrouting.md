@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_outboundrouting.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6y1z.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxServer object [Fax Service],OutboundRouting property, FaxServer.OutboundRouting, IFaxServer.get_OutboundRouting, IFaxServer::get_OutboundRouting, OutboundRouting property [Fax Service], OutboundRouting property [Fax Service],FaxServer object, _mfax_faxserver.outboundrouting, fax._mfax_faxserver_outboundrouting, get_OutboundRouting
 ms.prod: windows
 ms.technology: windows-sdk

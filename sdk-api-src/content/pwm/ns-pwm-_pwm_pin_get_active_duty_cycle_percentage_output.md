@@ -4,10 +4,10 @@ title: "_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE_OUTPUT"
 author: windows-sdk-content
 description: Contains the current duty cycle percentage for a pin or channel in a Pulse Width Modulation (PWM) controller.
 old-location: base\pwm_pin_get_active_duty_cycle_percentage_output.htm
-old-project: DevIO
+old-project: devio
 ms.assetid: 09C0232A-DF5C-4A1C-8138-D3D65E45731B
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE_OUTPUT, PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE_OUTPUT structure, _PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE_OUTPUT, base.pwm_pin_get_active_duty_cycle_percentage_output, pwm/PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE_OUTPUT
 ms.prod: windows
 ms.technology: windows-sdk

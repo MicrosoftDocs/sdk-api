@@ -4,10 +4,10 @@ title: IUpdate2::get_CveIDs
 author: windows-sdk-content
 description: Gets a collection of common vulnerabilities and exposures (CVE) IDs that are associated with the update.
 old-location: wua\iupdate2_cveids.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 536a3dea-708d-4885-bf07-4088cb83d9da
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: CveIDs property [Windows Update Agent], CveIDs property [Windows Update Agent],IUpdate2 interface, IUpdate2 interface [Windows Update Agent],CveIDs property, IUpdate2.CveIDs, IUpdate2.get_CveIDs, IUpdate2::CveIDs, IUpdate2::get_CveIDs, get_CveIDs, wua.iupdate2_cveids, wuapi/IUpdate2::CveIDs, wuapi/IUpdate2::get_CveIDs
 ms.prod: windows
 ms.technology: windows-sdk

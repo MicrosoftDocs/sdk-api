@@ -7,7 +7,7 @@ old-location: mmc\mmcpropertychangenotify.htm
 old-project: mmc
 ms.assetid: f563a6dd-22e7-4839-bd44-1702ab3e17a3
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: MMCPropertyChangeNotify, MMCPropertyChangeNotify callback, MMCPropertyChangeNotify callback function [MMC], _slate_mmcpropertychangenotify, mmc.mmcpropertychangenotify, mmc/MMCPropertyChangeNotify
 ms.prod: windows
 ms.technology: windows-sdk

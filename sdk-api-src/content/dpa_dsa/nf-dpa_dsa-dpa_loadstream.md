@@ -4,10 +4,10 @@ title: DPA_LoadStream function
 author: windows-sdk-content
 description: Loads the dynamic pointer array (DPA) from a stream by calling the specified callback function to read each element.
 old-location: controls\DPA_LoadStream.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_loadstream.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DPA_LoadStream, DPA_LoadStream function [Windows Controls], _win32_DPA_LoadStream, _win32_DPA_LoadStream_cpp, controls.DPA_LoadStream, controls._win32_DPA_LoadStream, dpa_dsa/DPA_LoadStream
 ms.prod: windows
 ms.technology: windows-sdk

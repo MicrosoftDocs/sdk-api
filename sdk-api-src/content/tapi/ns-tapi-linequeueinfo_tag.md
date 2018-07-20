@@ -7,7 +7,7 @@ old-location: tapi2\linequeueinfo.htm
 old-project: tapi
 ms.assetid: ba49404f-eb84-485f-be27-60760986d489
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "*LPLINEQUEUEINFO, LINEQUEUEINFO, LINEQUEUEINFO structure [TAPI 2.2], LPLINEQUEUEINFO, LPLINEQUEUEINFO structure pointer [TAPI 2.2], _tapi2_linequeueinfo, linequeueinfo_tag, tapi/LINEQUEUEINFO, tapi/LPLINEQUEUEINFO, tapi2.linequeueinfo"
 ms.prod: windows
 ms.technology: windows-sdk

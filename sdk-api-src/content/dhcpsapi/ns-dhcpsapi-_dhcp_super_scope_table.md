@@ -4,10 +4,10 @@ title: "_DHCP_SUPER_SCOPE_TABLE"
 author: windows-sdk-content
 description: Defines the superscope of a DHCP server.
 old-location: dhcp\dhcp_super_scope_table.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: ed7ad090-b13a-464b-af03-04944f018b36
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*LPDHCP_SUPER_SCOPE_TABLE, DHCP_SUPER_SCOPE_TABLE, DHCP_SUPER_SCOPE_TABLE structure [DHCP], LPDHCP_SUPER_SCOPE_TABLE, LPDHCP_SUPER_SCOPE_TABLE structure pointer [DHCP], _DHCP_SUPER_SCOPE_TABLE, dhcp.dhcp_super_scope_table, dhcpsapi/LPDHCP_SUPER_SCOPE_TABLE, dhcpsapi/_DHCP_SUPER_SCOPE_TABLE"
 ms.prod: windows
 ms.technology: windows-sdk

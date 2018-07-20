@@ -7,7 +7,7 @@ old-location: intl\sysgeotype.htm
 old-project: Intl
 ms.assetid: f72f5cc5-4709-408f-a50c-b4b3092c4419
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 07/18/2018
 ms.keywords: GEO_CURRENCYCODE, GEO_CURRENCYSYMBOL, GEO_DIALINGCODE, GEO_FRIENDLYNAME, GEO_ID, GEO_ISO2, GEO_ISO3, GEO_ISO_UN_NUMBER, GEO_LATITUDE, GEO_LCID, GEO_LONGITUDE, GEO_NAME, GEO_NATION, GEO_OFFICIALLANGUAGES, GEO_OFFICIALNAME, GEO_PARENT, GEO_RFC1766, GEO_TIMEZONES, SYSGEOTYPE, SYSGEOTYPE enumeration [Internationalization for Windows Applications], _win32_SYSGEOTYPE, intl.sysgeotype, winnls/GEO_CURRENCYCODE, winnls/GEO_CURRENCYSYMBOL, winnls/GEO_DIALINGCODE, winnls/GEO_FRIENDLYNAME, winnls/GEO_ID, winnls/GEO_ISO2, winnls/GEO_ISO3, winnls/GEO_ISO_UN_NUMBER, winnls/GEO_LATITUDE, winnls/GEO_LCID, winnls/GEO_LONGITUDE, winnls/GEO_NAME, winnls/GEO_NATION, winnls/GEO_OFFICIALLANGUAGES, winnls/GEO_OFFICIALNAME, winnls/GEO_PARENT, winnls/GEO_RFC1766, winnls/GEO_TIMEZONES, winnls/SYSGEOTYPE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: enum
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps | UWP apps]
-req.target-min-winversvr: Windows Server 2003 [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

@@ -7,7 +7,7 @@ old-location: tapi3\itsubstream_stopsubstream.htm
 old-project: tapi
 ms.assetid: fa5028f6-80eb-4076-a81c-c83b462fc27c
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],StopSubStream method, ITSubStream.StopSubStream, ITSubStream::StopSubStream, StopSubStream, StopSubStream method [TAPI 2.2], StopSubStream method [TAPI 2.2],ITSubStream interface, _tapi3_itsubstream_stopsubstream, tapi3.itsubstream_stopsubstream, tapi3if/ITSubStream::StopSubStream
 ms.prod: windows
 ms.technology: windows-sdk

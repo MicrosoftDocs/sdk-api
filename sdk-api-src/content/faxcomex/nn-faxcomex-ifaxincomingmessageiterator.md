@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessageiterator_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9zg2_cpp.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: IFaxIncomingMessageIterator, IFaxIncomingMessageIterator interface [Fax Service], IFaxIncomingMessageIterator interface [Fax Service],described, _mfax_faxincomingmessageiterator_cpp, fax._mfax_faxincomingmessageiterator_cpp, faxcomex/IFaxIncomingMessageIterator
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\ienumstream_skip.htm
 old-project: tapi
 ms.assetid: aa9f3a77-4e5c-43b7-9526-b621a300c2ec
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumStream interface [TAPI 2.2],Skip method, IEnumStream.Skip, IEnumStream::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumStream interface, _tapi3_ienumstream_skip, tapi3.ienumstream_skip, tapi3if/IEnumStream::Skip
 ms.prod: windows
 ms.technology: windows-sdk

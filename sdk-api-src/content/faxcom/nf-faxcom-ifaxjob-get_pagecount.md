@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjob_get_pagecount_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0nlg.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxJob object [Fax Service],PageCount property, FaxJob.PageCount, IFaxJob.get_PageCount, IFaxJob::get_PageCount, PageCount property [Fax Service], PageCount property [Fax Service],FaxJob object, _mfax_ifaxjob_get_pagecount, fax._mfax_ifaxjob_get_pagecount, fax._mfax_ifaxjob_get_pagecount_vb, get_PageCount
 ms.prod: windows
 ms.technology: windows-sdk

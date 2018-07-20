@@ -7,7 +7,7 @@ old-location: mf\imfasfindexer_commitindex.htm
 old-project: medfound
 ms.assetid: 44b889e1-8860-44fa-b19f-5be9f844a194
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 44b889e1-8860-44fa-b19f-5be9f844a194, CommitIndex, CommitIndex method [Media Foundation], CommitIndex method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],CommitIndex method, IMFASFIndexer.CommitIndex, IMFASFIndexer::CommitIndex, mf.imfasfindexer_commitindex, wmcontainer/IMFASFIndexer::CommitIndex
 ms.prod: windows
 ms.technology: windows-sdk

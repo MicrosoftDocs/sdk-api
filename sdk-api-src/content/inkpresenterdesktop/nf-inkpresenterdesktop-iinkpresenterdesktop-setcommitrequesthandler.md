@@ -7,7 +7,7 @@ old-location: input_ink\iinkpresenterdesktop_setcommitrequesthandler.htm
 old-project: input_ink
 ms.assetid: b53eba5d-c53d-45a4-ae51-5a8a27043554
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IInkPresenterDesktop interface,SetCommitRequestHandler method, IInkPresenterDesktop.SetCommitRequestHandler, IInkPresenterDesktop::SetCommitRequestHandler, InkPresenterDesktop.iinkpresenterdesktop_setcommitrequesthandler, SetCommitRequestHandler, SetCommitRequestHandler method, SetCommitRequestHandler method,IInkPresenterDesktop interface, inkpresenterdesktop/IInkPresenterDesktop::SetCommitRequestHandler, input_ink.iinkpresenterdesktop_setcommitrequesthandler
 ms.prod: windows
 ms.technology: windows-sdk

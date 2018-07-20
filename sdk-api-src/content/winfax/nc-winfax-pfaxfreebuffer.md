@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxfreebuffer.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9xki.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxFreeBufferA, FaxFreeBufferW, PFAXFREEBUFFER, PFAXFREEBUFFER callback, PFAXFREEBUFFER callback function [Fax Service], _mfax_faxfreebuffer, fax._mfax_faxfreebuffer, winfax/FaxFreeBufferA, winfax/FaxFreeBufferW, winfax/PFAXFREEBUFFER
 ms.prod: windows
 ms.technology: windows-sdk

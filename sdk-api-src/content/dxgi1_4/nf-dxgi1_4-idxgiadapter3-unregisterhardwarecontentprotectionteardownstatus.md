@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter3_unregisterhardwarecontentprotectiontear
 old-project: direct3ddxgi
 ms.assetid: 821F8BFA-FD11-4E3E-BE5A-05A1F1002EE6
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IDXGIAdapter3 interface [DXGI],UnregisterHardwareContentProtectionTeardownStatus method, IDXGIAdapter3.UnregisterHardwareContentProtectionTeardownStatus, IDXGIAdapter3::UnregisterHardwareContentProtectionTeardownStatus, UnregisterHardwareContentProtectionTeardownStatus, UnregisterHardwareContentProtectionTeardownStatus method [DXGI], UnregisterHardwareContentProtectionTeardownStatus method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_unregisterhardwarecontentprotectionteardownstatus, dxgi1_4/IDXGIAdapter3::UnregisterHardwareContentProtectionTeardownStatus
 ms.prod: windows
 ms.technology: windows-sdk

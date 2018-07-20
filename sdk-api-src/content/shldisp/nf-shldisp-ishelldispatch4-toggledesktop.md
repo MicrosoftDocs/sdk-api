@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch4_ToggleDesktop.htm
 old-project: shell
 ms.assetid: 60199e18-b8da-48a6-b316-e7f07ff44b78
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IShellDispatch4 object [Windows Shell],ToggleDesktop method, IShellDispatch4.ToggleDesktop, IShellDispatch4::ToggleDesktop, ToggleDesktop, ToggleDesktop method [Windows Shell], ToggleDesktop method [Windows Shell],IShellDispatch4 object, _shell_IShellDispatch4_ToggleDesktop, shell.IShellDispatch4_ToggleDesktop
 ms.prod: windows
 ms.technology: windows-sdk

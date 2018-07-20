@@ -4,10 +4,10 @@ title: IFsrmFileManagementJob::CreateNotificationAction
 author: windows-sdk-content
 description: Creates a notification action and associates it with the notification value.
 old-location: fsrm\ifsrmfilemanagementjob_createnotificationaction.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: d0cb2ac1-842c-4ebb-adac-8298a0e0beed
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CreateNotificationAction, CreateNotificationAction method [File Server Resource Manager], CreateNotificationAction method [File Server Resource Manager],IFsrmFileManagementJob interface, FsrmActionType_Command, FsrmActionType_Email, FsrmActionType_EventLog, IFsrmFileManagementJob interface [File Server Resource Manager],CreateNotificationAction method, IFsrmFileManagementJob.CreateNotificationAction, IFsrmFileManagementJob::CreateNotificationAction, fs.ifsrmfilemanagementjob_createnotificationaction, fsrm.ifsrmfilemanagementjob_createnotificationaction, fsrmreports/IFsrmFileManagementJob::CreateNotificationAction
 ms.prod: windows
 ms.technology: windows-sdk

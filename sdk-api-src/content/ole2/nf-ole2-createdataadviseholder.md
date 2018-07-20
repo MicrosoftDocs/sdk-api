@@ -7,7 +7,7 @@ old-location: com\createdataadviseholder.htm
 old-project: com
 ms.assetid: a2114f2f-106a-4a26-ba94-1b40af90a0f3
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: CreateDataAdviseHolder, CreateDataAdviseHolder function [COM], _ole_CreateDataAdviseHolder, com.createdataadviseholder, ole2/CreateDataAdviseHolder
 ms.prod: windows
 ms.technology: windows-sdk

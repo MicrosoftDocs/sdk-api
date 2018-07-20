@@ -7,7 +7,7 @@ old-location: com\isimpleframesite.htm
 old-project: com
 ms.assetid: ccddeae4-14fc-47df-a612-83d48a479b48
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: ISimpleFrameSite, ISimpleFrameSite interface [COM], ISimpleFrameSite interface [COM],described, _ctrl_isimpleframesite, com.isimpleframesite, ocidl/ISimpleFrameSite
 ms.prod: windows
 ms.technology: windows-sdk

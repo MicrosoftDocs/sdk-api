@@ -7,7 +7,7 @@ old-location: mf\mfsequencertopologyflags.htm
 old-project: medfound
 ms.assetid: d52bac8c-e490-417c-ac00-e4cf57fd151c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: MFSequencerTopologyFlags, MFSequencerTopologyFlags enumeration [Media Foundation], SequencerTopologyFlags_Last, _MFSequencerTopologyFlags, d52bac8c-e490-417c-ac00-e4cf57fd151c, mf.mfsequencertopologyflags, mfidl/MFSequencerTopologyFlags, mfidl/SequencerTopologyFlags_Last
 ms.prod: windows
 ms.technology: windows-sdk

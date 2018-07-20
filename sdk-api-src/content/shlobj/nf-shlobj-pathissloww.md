@@ -7,7 +7,7 @@ old-location: shell\PathIsSlow.htm
 old-project: shell
 ms.assetid: f848a098-9248-453b-a957-77c35d70e528
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: PathIsSlow, PathIsSlow function [Windows Shell], PathIsSlowA, PathIsSlowW, _win32_PathIsSlow, shell.PathIsSlow, shlobj/PathIsSlow, shlobj/PathIsSlowA, shlobj/PathIsSlowW
 ms.prod: windows
 ms.technology: windows-sdk

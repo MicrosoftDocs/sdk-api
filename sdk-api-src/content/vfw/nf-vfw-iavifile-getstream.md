@@ -7,7 +7,7 @@ old-location: multimedia\iavifile_getstream.htm
 old-project: Multimedia
 ms.assetid: 66ab2d8f-39f5-4eec-a873-c6f554e3b8ff
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/17/2018
 ms.keywords: GetStream, GetStream method [Windows Multimedia], GetStream method [Windows Multimedia],IAVIFile interface, IAVIFile interface [Windows Multimedia],GetStream method, IAVIFile.GetStream, IAVIFile::GetStream, _win32_IAVIFile_GetStream, multimedia.iavifile_getstream, vfw/IAVIFile::GetStream
 ms.prod: windows
 ms.technology: windows-sdk

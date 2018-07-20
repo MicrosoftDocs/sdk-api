@@ -7,7 +7,7 @@ old-location: tapi3\itautomatedphonecontrol_get_autostopringonoffhook.htm
 old-project: tapi
 ms.assetid: 357266e7-b103-43c1-a6af-b00347c90f51
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoStopRingOnOffHook method, ITAutomatedPhoneControl.get_AutoStopRingOnOffHook, ITAutomatedPhoneControl::get_AutoStopRingOnOffHook, _tapi3_itautomatedphonecontrol_get_autostopringonoffhook, get_AutoStopRingOnOffHook, get_AutoStopRingOnOffHook method [TAPI 2.2], get_AutoStopRingOnOffHook method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autostopringonoffhook, tapi3if/ITAutomatedPhoneControl::get_AutoStopRingOnOffHook
 ms.prod: windows
 ms.technology: windows-sdk

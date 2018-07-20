@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiobject.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IDXGIObject, IDXGIObject interface [DXGI], IDXGIObject interface [DXGI],described, ae721ac9-3ed3-d7ef-07a7-3f3acbb19dcd, direct3ddxgi.idxgiobject, dxgi/IDXGIObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-        An <b>IDXGIObject</b> interface is a base interface for all DXGI objects;
+An <b>IDXGIObject</b> interface is a base interface for all DXGI objects;
         <b>IDXGIObject</b> supports associating caller-defined (private data) with an object and retrieval of an interface to the parent object.
       
 

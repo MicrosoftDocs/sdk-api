@@ -7,7 +7,7 @@ old-location: cos\iservicetransactionconfigbase_isolationlevel.htm
 old-project: cossdk
 ms.assetid: 4595239b-30e7-4b03-a2c7-7061cbf28bac
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IServiceTransactionConfigBase interface [COM+],IsolationLevel method, IServiceTransactionConfigBase.IsolationLevel, IServiceTransactionConfigBase::IsolationLevel, IsolationLevel, IsolationLevel method [COM+], IsolationLevel method [COM+],IServiceTransactionConfigBase interface, _cos_IServiceTransactionConfigBase_IsolationLevel, comsvcs/IServiceTransactionConfigBase::IsolationLevel, cos.iservicetransactionconfigbase_isolationlevel
 ms.prod: windows
 ms.technology: windows-sdk

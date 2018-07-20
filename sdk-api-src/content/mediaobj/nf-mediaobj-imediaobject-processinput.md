@@ -7,7 +7,7 @@ old-location: dshow\imediaobject_processinput.htm
 old-project: DirectShow
 ms.assetid: f52e9586-f65d-418f-8c1a-c97c0a81d253
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IMediaObject interface [DirectShow],ProcessInput method, IMediaObject.ProcessInput, IMediaObject::ProcessInput, IMediaObjectProcessInput, ProcessInput, ProcessInput method [DirectShow], ProcessInput method [DirectShow],IMediaObject interface, dshow.imediaobject_processinput, mediaobj/IMediaObject::ProcessInput
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tspi\tspi_phonegetdisplay.htm
 old-project: tapi
 ms.assetid: dff5fdc5-a627-4282-85d3-2a7ceaf063ed
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_phoneGetDisplay, TSPI_phoneGetDisplay function [TAPI 2.2], _tspi_tspi_phonegetdisplay, tspi.tspi_phonegetdisplay, tspi/TSPI_phoneGetDisplay
 ms.prod: windows
 ms.technology: windows-sdk

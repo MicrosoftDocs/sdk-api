@@ -7,7 +7,7 @@ old-location: p2p\peercollabsetobject.htm
 old-project: p2psdk
 ms.assetid: 99a3e206-7d76-4773-956c-bbd101766392
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PeerCollabSetObject, PeerCollabSetObject function [Peer Networking], p2p.peercollabsetobject, p2p/PeerCollabSetObject
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_getdevices.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7hrn.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxServer object [Fax Service],GetDevices method, FaxServer.GetDevices, GetDevices, GetDevices method [Fax Service], GetDevices method [Fax Service],FaxServer object, IFaxServer.GetDevices, IFaxServer::GetDevices, _mfax_faxserver.getdevices, fax._mfax_faxserver_getdevices
 ms.prod: windows
 ms.technology: windows-sdk

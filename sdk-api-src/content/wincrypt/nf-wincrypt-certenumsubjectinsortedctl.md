@@ -4,10 +4,10 @@ title: CertEnumSubjectInSortedCTL function
 author: windows-sdk-content
 description: Retrieves the first or next TrustedSubject in a sorted certificate trust list (CTL).
 old-location: security\certenumsubjectinsortedctl.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: b37cff03-5e9c-4e6c-b46e-d3f02dbf8783
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: CertEnumSubjectInSortedCTL, CertEnumSubjectInSortedCTL function [Security], _crypto2_certenumsubjectinsortedctl, security.certenumsubjectinsortedctl, wincrypt/CertEnumSubjectInSortedCTL
 ms.prod: windows
 ms.technology: windows-sdk

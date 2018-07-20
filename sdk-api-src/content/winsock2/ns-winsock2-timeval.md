@@ -7,7 +7,7 @@ old-location: winsock\timeval_2.htm
 old-project: winsock
 ms.assetid: 3024c961-bb47-40ac-a49c-b12cd431e4e7
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/18/2018
 ms.keywords: "*LPTIMEVAL, *PTIMEVAL, TIMEVAL, _win32_timeval_2, timeval, timeval structure [Winsock], winsock.timeval_2, winsock/timeval"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: AuthzInitializeResourceManagerEx function
 author: windows-sdk-content
 description: Allocates and initializes a resource manager structure.
 old-location: security\authzinitializeresourcemanagerex.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: CDB78606-1B53-4516-90E6-1FF096B3D7D9
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION, AUTHZ_RM_FLAG_NO_AUDIT, AUTHZ_RM_FLAG_NO_CENTRAL_ACCESS_POLICIES, AuthzInitializeResourceManagerEx, AuthzInitializeResourceManagerEx function [Security], authz/AuthzInitializeResourceManagerEx, security.authzinitializeresourcemanagerex
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: p2p\drtopen.htm
 old-project: p2psdk
 ms.assetid: 67320767-f622-478a-a886-bbea1650ac1a
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: DrtOpen, DrtOpen function [Peer Networking], drt/DrtOpen, p2p.drtopen
 ms.prod: windows
 ms.technology: windows-sdk

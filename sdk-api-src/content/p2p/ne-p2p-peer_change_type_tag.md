@@ -7,7 +7,7 @@ old-location: p2p\peer_change_type.htm
 old-project: p2psdk
 ms.assetid: ef8f1cc7-e1db-4d6d-9ff6-141746d0787a
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PEER_CHANGE_ADDED, PEER_CHANGE_DELETED, PEER_CHANGE_TYPE, PEER_CHANGE_TYPE enumeration [Peer Networking], PEER_CHANGE_UPDATED, p2p.peer_change_type, p2p/PEER_CHANGE_ADDED, p2p/PEER_CHANGE_DELETED, p2p/PEER_CHANGE_TYPE, p2p/PEER_CHANGE_UPDATED, peer_change_type_tag
 ms.prod: windows
 ms.technology: windows-sdk

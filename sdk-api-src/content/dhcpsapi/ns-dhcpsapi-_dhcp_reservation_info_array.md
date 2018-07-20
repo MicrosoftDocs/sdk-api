@@ -4,10 +4,10 @@ title: "_DHCP_RESERVATION_INFO_ARRAY"
 author: windows-sdk-content
 description: The DHCP_RESERVATION_INFO_ARRAY structure defines an array of IPv4 reservations for DHCPv4 clients.
 old-location: dhcp\dhcp_reservation_info_array.htm
-old-project: DHCP
+old-project: dhcp
 ms.assetid: 9823ee47-6b61-4256-8fac-d301d72774ec
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: "*LPDHCP_RESERVATION_INFO_ARRAY, DHCP_RESERVATION_INFO_ARRAY, DHCP_RESERVATION_INFO_ARRAY structure [DHCP], LPDHCP_RESERVATION_INFO_ARRAY, LPDHCP_RESERVATION_INFO_ARRAY structure pointer [DHCP], _DHCP_RESERVATION_INFO_ARRAY, dhcp.dhcp_reservation_info_array, dhcpsapi/DHCP_RESERVATION_INFO_ARRAY, dhcpsapi/LPDHCP_RESERVATION_INFO_ARRAY"
 ms.prod: windows
 ms.technology: windows-sdk

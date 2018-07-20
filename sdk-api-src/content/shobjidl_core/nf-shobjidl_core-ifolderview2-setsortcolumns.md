@@ -7,7 +7,7 @@ old-location: shell\IFolderView2_SetSortColumns.htm
 old-project: shell
 ms.assetid: 54dfac6b-8355-4064-9f54-4172975b8028
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetSortColumns method, IFolderView2.SetSortColumns, IFolderView2::SetSortColumns, SetSortColumns, SetSortColumns method [Windows Shell], SetSortColumns method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetSortColumns, shell.IFolderView2_SetSortColumns, shobjidl_core/IFolderView2::SetSortColumns
 ms.prod: windows
 ms.technology: windows-sdk

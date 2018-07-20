@@ -7,7 +7,7 @@ old-location: com\ienumoledocumentviews.htm
 old-project: com
 ms.assetid: cd8fa8b8-17b1-4d77-9611-473725899351
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumOleDocumentViews, IEnumOleDocumentViews interface [COM], IEnumOleDocumentViews interface [COM],described, _ole_ienumoledocumentviews, com.ienumoledocumentviews, docobj/IEnumOleDocumentViews
 ms.prod: windows
 ms.technology: windows-sdk

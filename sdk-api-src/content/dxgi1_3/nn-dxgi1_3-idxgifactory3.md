@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory3.htm
 old-project: direct3ddxgi
 ms.assetid: 63B7A8E3-9A8F-409F-84DA-E9303C52A146
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IDXGIFactory3, IDXGIFactory3 interface [DXGI], IDXGIFactory3 interface [DXGI],described, direct3ddxgi.idxgifactory3, dxgi1_3/IDXGIFactory3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          Enables creating Microsoft DirectX Graphics Infrastructure (DXGI) objects.
+Enables creating Microsoft DirectX Graphics Infrastructure (DXGI) objects.
         
 
 

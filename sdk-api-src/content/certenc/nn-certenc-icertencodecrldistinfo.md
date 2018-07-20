@@ -4,10 +4,10 @@ title: ICertEncodeCRLDistInfo
 author: windows-sdk-content
 description: Provides methods for handling certificate revocation list (CRL) distribution information arrays used in certificate extensions.
 old-location: security\icertencodecrldistinfo.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: e9c0053f-263f-4d7b-9356-bc33af989dbe
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ICertEncodeCRLDistInfo, ICertEncodeCRLDistInfo interface [Security], ICertEncodeCRLDistInfo interface [Security],described, _certsrv_icertencodecrldistinfo, certenc/ICertEncodeCRLDistInfo, security.icertencodecrldistinfo
 ms.prod: windows
 ms.technology: windows-sdk

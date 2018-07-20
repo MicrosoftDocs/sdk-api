@@ -7,7 +7,7 @@ old-location: mmc\scopenamespace_getchild.htm
 old-project: mmc
 ms.assetid: 955b35fb-4dbf-4e58-ba90-4dbc93367746
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: GetChild, GetChild method [MMC], GetChild method [MMC],ScopeNamespace interface, GetChild method [MMC],ScopeNamespace object, ScopeNamespace interface [MMC],GetChild method, ScopeNamespace object [MMC],GetChild method, ScopeNamespace.GetChild, ScopeNamespace::GetChild, _slate_scopenamespace.getchild_method, mmc.scopenamespace_getchild
 ms.prod: windows
 ms.technology: windows-sdk

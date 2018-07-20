@@ -7,7 +7,7 @@ old-location: mmc\icontextmenuprovider_showcontextmenu.htm
 old-project: mmc
 ms.assetid: 8fe9f474-c47b-4b53-8cbc-d658c82d7591
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: IContextMenuProvider interface [MMC],ShowContextMenu method, IContextMenuProvider.ShowContextMenu, IContextMenuProvider::ShowContextMenu, ShowContextMenu, ShowContextMenu method [MMC], ShowContextMenu method [MMC],IContextMenuProvider interface, _slate_icontextmenuprovider_showcontextmenu, mmc.icontextmenuprovider_showcontextmenu, mmc/IContextMenuProvider::ShowContextMenu
 ms.prod: windows
 ms.technology: windows-sdk

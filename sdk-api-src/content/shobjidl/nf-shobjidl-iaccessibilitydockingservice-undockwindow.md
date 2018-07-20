@@ -7,7 +7,7 @@ old-location: com\iaccessibilitydockingservice_undockwindow.htm
 old-project: com
 ms.assetid: 8A88D02C-E542-49F0-B423-771E755D506D
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IAccessibilityDockingService interface [COM],UndockWindow method, IAccessibilityDockingService.UndockWindow, IAccessibilityDockingService::UndockWindow, UndockWindow, UndockWindow method [COM], UndockWindow method [COM],IAccessibilityDockingService interface, com.iaccessibilitydockingservice_undockwindow, shobjidl/IAccessibilityDockingService::UndockWindow
 ms.prod: windows
 ms.technology: windows-sdk

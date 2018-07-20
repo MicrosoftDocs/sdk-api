@@ -7,7 +7,7 @@ old-location: com\iolecommandtarget.htm
 old-project: com
 ms.assetid: 5c8b455e-7740-4f71-aef6-27390a11a1a3
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IOleCommandTarget, IOleCommandTarget interface [COM], IOleCommandTarget interface [COM],described, _ole_iolecommandtarget, com.iolecommandtarget, docobj/IOleCommandTarget
 ms.prod: windows
 ms.technology: windows-sdk

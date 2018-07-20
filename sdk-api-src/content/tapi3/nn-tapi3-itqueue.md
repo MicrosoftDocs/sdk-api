@@ -7,7 +7,7 @@ old-location: tapi3\itqueue.htm
 old-project: tapi
 ms.assetid: dd1bc6c7-4d4e-4f66-ac5a-7004b85ec023
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITQueue, ITQueue interface [TAPI 2.2], ITQueue interface [TAPI 2.2],described, _tapi3_itqueue, tapi3.itqueue, tapi3cc/ITQueue
 ms.prod: windows
 ms.technology: windows-sdk

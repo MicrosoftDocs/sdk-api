@@ -7,7 +7,7 @@ old-location: winsock\wpufdisset_2.htm
 old-project: winsock
 ms.assetid: 87726b13-ede4-4c73-be98-4ad4180ea3e7
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/18/2018
 ms.keywords: WPUFDIsSet, WPUFDIsSet function [Winsock], _win32_wpufdisset_2, winsock.wpufdisset_2, ws2spi/WPUFDIsSet
 ms.prod: windows
 ms.technology: windows-sdk

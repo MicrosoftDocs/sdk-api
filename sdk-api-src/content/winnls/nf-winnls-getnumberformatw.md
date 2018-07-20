@@ -7,7 +7,7 @@ old-location: intl\getnumberformat.htm
 old-project: Intl
 ms.assetid: acbfebed-71bd-4266-b639-66f453158442
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 07/18/2018
 ms.keywords: GetNumberFormat, GetNumberFormat function [Internationalization for Windows Applications], GetNumberFormatA, GetNumberFormatW, _win32_GetNumberFormat, intl.getnumberformat, winnls/GetNumberFormat, winnls/GetNumberFormatA, winnls/GetNumberFormatW
 ms.prod: windows
 ms.technology: windows-sdk

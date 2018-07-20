@@ -7,7 +7,7 @@ old-location: tapi3\itterminalcontrol_runrenderfilter.htm
 old-project: tapi
 ms.assetid: ed02ed04-3665-47be-a77b-7804a2197767
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITTerminalControl interface [TAPI 2.2],RunRenderFilter method, ITTerminalControl.RunRenderFilter, ITTerminalControl::RunRenderFilter, RunRenderFilter, RunRenderFilter method [TAPI 2.2], RunRenderFilter method [TAPI 2.2],ITTerminalControl interface, _tapi3_itterminalcontrol_runrenderfilter, tapi3.itterminalcontrol_runrenderfilter, termmgr/ITTerminalControl::RunRenderFilter
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\itcollection2_add.htm
 old-project: tapi
 ms.assetid: 96c26f76-3835-4140-8379-91171fc4ad37
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: Add, Add method [TAPI 2.2], Add method [TAPI 2.2],ITCollection2 interface, ITCollection2 interface [TAPI 2.2],Add method, ITCollection2.Add, ITCollection2::Add, _tapi3_itcollection2_add, tapi3.itcollection2_add, tapi3if/ITCollection2::Add
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mmc\application_hide.htm
 old-project: mmc
 ms.assetid: 0ac59101-61ee-48a6-85f8-7aff0ba466b6
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: Application object [MMC],Hide method, Hide, Hide method [MMC], Hide method [MMC],Application object, Hide method [MMC],_Application interface, _Application interface [MMC],Hide method, _Application.Hide, _Application::Hide, _slate_application.hide_method, mmc.application_hide
 ms.prod: windows
 ms.technology: windows-sdk

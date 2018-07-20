@@ -7,7 +7,7 @@ old-location: setup\msienableuipreview.htm
 old-project: msi
 ms.assetid: 77df6829-119d-4fe6-96b0-c75381b9de6c
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/17/2018
 ms.keywords: MsiEnableUIPreview, MsiEnableUIPreview function, _msi_msienableuipreview, msiquery/MsiEnableUIPreview, setup.msienableuipreview
 ms.prod: windows
 ms.technology: windows-sdk

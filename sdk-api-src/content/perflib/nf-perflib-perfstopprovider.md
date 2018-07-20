@@ -7,7 +7,7 @@ old-location: perf\perfstopprovider.htm
 old-project: perfctrs
 ms.assetid: 4b31f88b-cadc-4bee-bdea-9079cc14c140
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/18/2018
 ms.keywords: PerfStopProvider, PerfStopProvider function [Perf], base.perfstopprovider, perf.perfstopprovider, perflib/PerfStopProvider
 ms.prod: windows
 ms.technology: windows-sdk

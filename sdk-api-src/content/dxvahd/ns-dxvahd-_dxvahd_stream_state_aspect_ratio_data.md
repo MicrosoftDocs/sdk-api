@@ -7,7 +7,7 @@ old-location: mf\dxvahd_stream_state_aspect_ratio_data.htm
 old-project: medfound
 ms.assetid: dd7ab16e-2dc6-462e-b55d-b93a14c362cf
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA, DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA structure [Media Foundation], PDXVAHD_STREAM_STATE_ASPECT_RATIO_DATA, PDXVAHD_STREAM_STATE_ASPECT_RATIO_DATA structure pointer [Media Foundation], _DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA, dxvahd/DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA, dxvahd/PDXVAHD_STREAM_STATE_ASPECT_RATIO_DATA, mf.dxvahd_stream_state_aspect_ratio_data
 ms.prod: windows
 ms.technology: windows-sdk

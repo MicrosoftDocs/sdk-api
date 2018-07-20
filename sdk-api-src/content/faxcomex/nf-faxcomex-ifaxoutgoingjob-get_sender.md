@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_sender.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0qsy.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxOutgoingJob object [Fax Service],Sender property, FaxOutgoingJob.Sender, IFaxOutgoingJob.get_Sender, IFaxOutgoingJob::get_Sender, Sender property [Fax Service], Sender property [Fax Service],FaxOutgoingJob object, _mfax_faxoutgoingjob.sender, fax._mfax_faxoutgoingjob_sender, get_Sender
 ms.prod: windows
 ms.technology: windows-sdk

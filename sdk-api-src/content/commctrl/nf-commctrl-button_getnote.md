@@ -4,10 +4,10 @@ title: Button_GetNote macro
 author: windows-sdk-content
 description: Gets the text of the note associated with a command link button. You can use this macro or send the BCM_GETNOTE message explicitly.
 old-location: controls\Button_GetNote.htm
-old-project: Controls
+old-project: controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getnote.htm
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Button_GetNote, Button_GetNote macro [Windows Controls], _shell_Button_GetNote, _shell_Button_GetNote_cpp, commctrl/Button_GetNote, controls.Button_GetNote, controls._shell_Button_GetNote
 ms.prod: windows
 ms.technology: windows-sdk

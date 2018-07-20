@@ -7,7 +7,7 @@ old-location: p2p\peerpnrpgetcloudinfo.htm
 old-project: p2psdk
 ms.assetid: e6067973-68e3-4b0e-8a7a-ffba2ab2a971
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/17/2018
 ms.keywords: PeerPnrpGetCloudInfo, PeerPnrpGetCloudInfo function [Peer Networking], p2p.peerpnrpgetcloudinfo, p2p/PeerPnrpGetCloudInfo
 ms.prod: windows
 ms.technology: windows-sdk

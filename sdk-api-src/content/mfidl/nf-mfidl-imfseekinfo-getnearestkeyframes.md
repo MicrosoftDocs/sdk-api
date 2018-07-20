@@ -7,7 +7,7 @@ old-location: mf\imfseekinfo_getnearestkeyframes.htm
 old-project: medfound
 ms.assetid: 72A7161A-09CA-4582-B240-1442D70936D7
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetNearestKeyFrames, GetNearestKeyFrames method [Media Foundation], GetNearestKeyFrames method [Media Foundation],IMFSeekInfo interface, IMFSeekInfo interface [Media Foundation],GetNearestKeyFrames method, IMFSeekInfo.GetNearestKeyFrames, IMFSeekInfo::GetNearestKeyFrames, mf.imfseekinfo_getnearestkeyframes, mfidl/IMFSeekInfo::GetNearestKeyFrames
 ms.prod: windows
 ms.technology: windows-sdk

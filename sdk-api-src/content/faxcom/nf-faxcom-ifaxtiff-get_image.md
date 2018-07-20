@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxtiff_get_image_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0cdh.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxTiff object [Fax Service],Image property, FaxTiff.Image, IFaxTiff.get_Image, IFaxTiff::get_Image, Image property [Fax Service], Image property [Fax Service],FaxTiff object, _mfax_ifaxtiff_get_image, fax._mfax_ifaxtiff_get_image, fax._mfax_ifaxtiff_get_image_vb, get_Image
 ms.prod: windows
 ms.technology: windows-sdk

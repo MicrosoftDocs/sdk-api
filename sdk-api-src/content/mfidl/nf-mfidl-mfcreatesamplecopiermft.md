@@ -7,7 +7,7 @@ old-location: mf\mfcreatesamplecopiermft.htm
 old-project: medfound
 ms.assetid: 4270c45e-4f20-4fcd-ad60-b205e334f692
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: MFCreateSampleCopierMFT, MFCreateSampleCopierMFT function [Media Foundation], mf.mfcreatesamplecopiermft, mfidl/MFCreateSampleCopierMFT
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: setup\setupsetplatformpathoverride.htm
 old-project: SetupApi
 ms.assetid: 98867613-18d8-4954-b37a-39c442756bbc
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/16/2018
 ms.keywords: SetupSetPlatformPathOverride, SetupSetPlatformPathOverride function [Setup API], SetupSetPlatformPathOverrideA, SetupSetPlatformPathOverrideW, _setupapi_setupsetplatformpathoverride, setup.setupsetplatformpathoverride, setupapi/SetupSetPlatformPathOverride, setupapi/SetupSetPlatformPathOverrideA, setupapi/SetupSetPlatformPathOverrideW
 ms.prod: windows
 ms.technology: windows-sdk

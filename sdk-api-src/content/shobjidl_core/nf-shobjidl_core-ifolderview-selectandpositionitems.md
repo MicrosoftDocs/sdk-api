@@ -7,7 +7,7 @@ old-location: shell\IFolderView_SelectAndPositionItems.htm
 old-project: shell
 ms.assetid: 1263bba8-63c8-4630-ab59-bb4ae10061fc
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IFolderView interface [Windows Shell],SelectAndPositionItems method, IFolderView.SelectAndPositionItems, IFolderView::SelectAndPositionItems, SelectAndPositionItems, SelectAndPositionItems method [Windows Shell], SelectAndPositionItems method [Windows Shell],IFolderView interface, _shell_IFolderView_SelectAndPositionItems, shell.IFolderView_SelectAndPositionItems, shobjidl_core/IFolderView::SelectAndPositionItems
 ms.prod: windows
 ms.technology: windows-sdk

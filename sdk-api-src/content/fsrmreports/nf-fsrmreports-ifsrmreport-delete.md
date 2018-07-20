@@ -4,10 +4,10 @@ title: IFsrmReport::Delete
 author: windows-sdk-content
 description: Removes this report object from the report job object.
 old-location: fsrm\ifsrmreport_delete.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: b50139bc-c584-4bed-bf2e-34f1fef16e6d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: Delete, Delete method [File Server Resource Manager], Delete method [File Server Resource Manager],IFsrmReport interface, IFsrmReport interface [File Server Resource Manager],Delete method, IFsrmReport.Delete, IFsrmReport::Delete, fs.ifsrmreport_delete, fsrm.ifsrmreport_delete, fsrmreports/IFsrmReport::Delete
 ms.prod: windows
 ms.technology: windows-sdk

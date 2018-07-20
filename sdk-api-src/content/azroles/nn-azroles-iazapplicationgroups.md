@@ -4,10 +4,10 @@ title: IAzApplicationGroups
 author: windows-sdk-content
 description: Represents a collection of IAzApplicationGroup objects.
 old-location: security\iazapplicationgroups.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: e96c4cae-0a0a-4ac4-805f-2042312f0267
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: IAzApplicationGroups, IAzApplicationGroups interface [Security], IAzApplicationGroups interface [Security],described, azroles/IAzApplicationGroups, security.iazapplicationgroups
 ms.prod: windows
 ms.technology: windows-sdk

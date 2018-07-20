@@ -2,7 +2,7 @@
 UID: NA:imessagedispatcher
 ms.assetid: e71c0ec7-dd8b-31a2-a755-c43ec985a38d
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/20/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

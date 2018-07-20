@@ -7,7 +7,7 @@ old-location: mf\imfsensorprofile_addprofilefilter.htm
 old-project: medfound
 ms.assetid: D79C83AA-A105-4320-80D8-F7A3753DF4C4
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: AddProfileFilter, AddProfileFilter method [Media Foundation], AddProfileFilter method [Media Foundation],IMFSensorProfile interface, IMFSensorProfile interface [Media Foundation],AddProfileFilter method, IMFSensorProfile.AddProfileFilter, IMFSensorProfile::AddProfileFilter, mf.imfsensorprofile_addprofilefilter, mfidl/IMFSensorProfile::AddProfileFilter
 ms.prod: windows
 ms.technology: windows-sdk

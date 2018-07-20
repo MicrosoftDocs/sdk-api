@@ -7,7 +7,7 @@ old-location: tapi3\itqueueevent.htm
 old-project: tapi
 ms.assetid: 7e4655ff-6ed4-4166-91f7-49d2e0556662
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITQueueEvent, ITQueueEvent interface [TAPI 2.2], ITQueueEvent interface [TAPI 2.2],described, _tapi3_itqueueevent, tapi3.itqueueevent, tapi3cc/ITQueueEvent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IFsrmPropertyDefinition2::get_PropertyDefinitionFlags
 author: windows-sdk-content
 description: Contains the flags for the property definition.
 old-location: fsrm\ifsrmpropertydefinition2_propertydefinitionflags.htm
-old-project: Fsrm
+old-project: fsrm
 ms.assetid: 35eb6597-b358-4084-99dc-931bad8a4425
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: IFsrmPropertyDefinition2 interface [File Server Resource Manager],PropertyDefinitionFlags property, IFsrmPropertyDefinition2.PropertyDefinitionFlags, IFsrmPropertyDefinition2.get_PropertyDefinitionFlags, IFsrmPropertyDefinition2::PropertyDefinitionFlags, IFsrmPropertyDefinition2::get_PropertyDefinitionFlags, PropertyDefinitionFlags property [File Server Resource Manager], PropertyDefinitionFlags property [File Server Resource Manager],IFsrmPropertyDefinition2 interface, fs.ifsrmpropertydefinition2_propertydefinitionflags, fsrm.ifsrmpropertydefinition2_propertydefinitionflags, fsrmpipeline/IFsrmPropertyDefinition2::PropertyDefinitionFlags, fsrmpipeline/IFsrmPropertyDefinition2::get_PropertyDefinitionFlags, get_PropertyDefinitionFlags
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mmc\iconsole_queryconsoleverb.htm
 old-project: mmc
 ms.assetid: 6C40014C-EBCC-455C-A575-4637B253439C
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: IConsole interface [MMC],QueryConsoleVerb method, IConsole.QueryConsoleVerb, IConsole::QueryConsoleVerb, QueryConsoleVerb, QueryConsoleVerb method [MMC], QueryConsoleVerb method [MMC],IConsole interface, mmc.iconsole_queryconsoleverb, mmc/IConsole::QueryConsoleVerb
 ms.prod: windows
 ms.technology: windows-sdk

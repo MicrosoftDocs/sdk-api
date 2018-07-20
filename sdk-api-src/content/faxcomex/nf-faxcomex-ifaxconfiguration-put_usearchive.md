@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_UseArchive_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\usearchive.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxConfiguration object [Fax Service],UseArchive property, FaxConfiguration.UseArchive, IFaxConfiguration.put_UseArchive, IFaxConfiguration::put_UseArchive, UseArchive property [Fax Service], UseArchive property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_UseArchive, fax._mfax_FaxConfiguration_UseArchive_vb, put_UseArchive
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\itphone_put_ringmode.htm
 old-project: tapi
 ms.assetid: f693bf24-540d-4509-bf0c-01be27f823f8
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_RingMode method, ITPhone.put_RingMode, ITPhone::put_RingMode, _tapi3_itphone_put_ringmode, put_RingMode, put_RingMode method [TAPI 2.2], put_RingMode method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_ringmode, tapi3if/ITPhone::put_RingMode
 ms.prod: windows
 ms.technology: windows-sdk

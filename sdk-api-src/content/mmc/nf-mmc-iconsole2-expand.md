@@ -7,7 +7,7 @@ old-location: mmc\iconsole2_expand.htm
 old-project: mmc
 ms.assetid: 958c9611-fd9c-4895-903b-145eacf76901
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: Expand, Expand method [MMC], Expand method [MMC],IConsole2 interface, Expand method [MMC],IConsole3 interface, IConsole2 interface [MMC],Expand method, IConsole2.Expand, IConsole2::Expand, IConsole3 interface [MMC],Expand method, IConsole3::Expand, _slate_iconsole2_expand, mmc.iconsole2_expand, mmc/IConsole2::Expand, mmc/IConsole3::Expand
 ms.prod: windows
 ms.technology: windows-sdk

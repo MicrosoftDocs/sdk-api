@@ -7,7 +7,7 @@ old-location: tapi2\tapirequestdrop.htm
 old-project: tapi
 ms.assetid: 57fe47c8-5a03-4c31-8008-0ebca88a840c
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: tapi/tapiRequestDrop, tapi2.tapirequestdrop, tapiRequestDrop, tapiRequestDrop function [TAPI 2.2]
 ms.prod: windows
 ms.technology: windows-sdk

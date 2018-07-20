@@ -7,7 +7,7 @@ old-location: tspi\tspi_linesenduseruserinfo.htm
 old-project: tapi
 ms.assetid: a63fcb64-f509-4cc0-a388-91f7e05e2ef0
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineSendUserUserInfo, TSPI_lineSendUserUserInfo function [TAPI 2.2], _tspi_tspi_linesenduseruserinfo, tspi.tspi_linesenduseruserinfo, tspi/TSPI_lineSendUserUserInfo
 ms.prod: windows
 ms.technology: windows-sdk

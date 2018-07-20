@@ -7,7 +7,7 @@ old-location: winrt\icorewindowinterop_messagehandled.htm
 old-project: WinRT
 ms.assetid: 22E94B52-98B6-4F8A-83B5-7D672143A210
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: ICoreWindowInterop interface [Windows Runtime],MessageHandled property, ICoreWindowInterop.MessageHandled, ICoreWindowInterop.put_MessageHandled, ICoreWindowInterop::MessageHandled, ICoreWindowInterop::put_MessageHandled, MessageHandled property [Windows Runtime], MessageHandled property [Windows Runtime],ICoreWindowInterop interface, corewindow/ICoreWindowInterop::MessageHandled, corewindow/ICoreWindowInterop::put_MessageHandled, put_MessageHandled, winrt.icorewindowinterop_messagehandled
 ms.prod: windows
 ms.technology: windows-sdk

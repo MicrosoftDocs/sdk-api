@@ -7,7 +7,7 @@ old-location: mf\iwmcodecoutputtimestampgetnextoutputtime.htm
 old-project: medfound
 ms.assetid: 8af7e77b-da10-4d6a-b7a1-515a54aa3a20
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetNextOutputTime, GetNextOutputTime method [Media Foundation], GetNextOutputTime method [Media Foundation],IWMCodecOutputTimestamp interface, IWMCodecOutputTimestamp interface [Media Foundation],GetNextOutputTime method, IWMCodecOutputTimestamp.GetNextOutputTime, IWMCodecOutputTimestamp::GetNextOutputTime, codecapi.iwmcodecoutputtimestampgetnextoutputtime, mf.iwmcodecoutputtimestampgetnextoutputtime, wmcodecdsp/ IWMCodecOutputTimestamp::GetNextOutputTime
 ms.prod: windows
 ms.technology: windows-sdk

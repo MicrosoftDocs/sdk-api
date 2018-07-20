@@ -7,7 +7,7 @@ old-location: com\ienumguid_reset.htm
 old-project: com
 ms.assetid: 5f31c45a-c7a2-4cdc-a468-76a31a9ba1e9
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumGUID interface [COM],Reset method, IEnumGUID.Reset, IEnumGUID::Reset, Reset, Reset method [COM], Reset method [COM],IEnumGUID interface, _com_ienumguid_reset, com.ienumguid_reset, comcat/IEnumGUID::Reset
 ms.prod: windows
 ms.technology: windows-sdk

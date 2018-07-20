@@ -7,7 +7,7 @@ old-location: intl\cpinfoex.htm
 old-project: Intl
 ms.assetid: 9639bb11-477e-45ee-b9fb-d5d099925e00
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 07/18/2018
 ms.keywords: "*LPCPINFOEXA, CPINFOEX, CPINFOEX structure [Internationalization for Windows Applications], CPINFOEXA, LPCPINFOEX, LPCPINFOEX structure pointer [Internationalization for Windows Applications], _cpinfoexA, _win32_CPINFOEX_str, intl.cpinfoex, winnls/CPINFOEX, winnls/LPCPINFOEX"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -15,8 +15,8 @@ ms.topic: struct
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps | UWP apps]
-req.target-min-winversvr: Windows 2000 Server [desktop apps | UWP apps]
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

@@ -7,7 +7,7 @@ old-location: tapi3\itbasiccallcontrol_pickup.htm
 old-project: tapi
 ms.assetid: 25da3cf2-50f0-4f64-94ce-cf952e057376
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],Pickup method, ITBasicCallControl.Pickup, ITBasicCallControl::Pickup, Pickup, Pickup method [TAPI 2.2], Pickup method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_pickup, tapi3.itbasiccallcontrol_pickup, tapi3if/ITBasicCallControl::Pickup
 ms.prod: windows
 ms.technology: windows-sdk

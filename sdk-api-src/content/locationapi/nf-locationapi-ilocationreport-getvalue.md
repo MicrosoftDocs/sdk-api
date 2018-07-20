@@ -7,7 +7,7 @@ old-location: winlocation_com_ref\ilocationreport_getvalue.htm
 old-project: locationapi
 ms.assetid: a4bc1cc8-e246-4740-8290-afc8cd6def09
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/17/2018
 ms.keywords: GetValue, GetValue method [WinLocation], GetValue method [WinLocation],ILocationReport interface, ILocationReport interface [WinLocation],GetValue method, ILocationReport.GetValue, ILocationReport::GetValue, WinLocation_COM_Ref.ilocationreport_getvalue, locationapi/ILocationReport::GetValue
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: cos\icatalogobject.htm
 old-project: cossdk
 ms.assetid: fe3f7452-57b2-4f9e-9b48-5dedfe519ac1
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: ICatalogObject, ICatalogObject interface [COM+], ICatalogObject interface [COM+],described, _cos_ICatalogObject_Interface, comadmin/ICatalogObject, cos.icatalogobject
 ms.prod: windows
 ms.technology: windows-sdk

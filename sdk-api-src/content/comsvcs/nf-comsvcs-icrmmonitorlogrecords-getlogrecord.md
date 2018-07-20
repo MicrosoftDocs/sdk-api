@@ -7,7 +7,7 @@ old-location: cos\icrmmonitorlogrecords_getlogrecord.htm
 old-project: cossdk
 ms.assetid: 9b5b566a-e98c-482d-9959-3498000875d3
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: GetLogRecord, GetLogRecord method [COM+], GetLogRecord method [COM+],ICrmMonitorLogRecords interface, ICrmMonitorLogRecords interface [COM+],GetLogRecord method, ICrmMonitorLogRecords.GetLogRecord, ICrmMonitorLogRecords::GetLogRecord, _dtc_ICrmMonitorLogRecords_GetLogRecord, comsvcs/ICrmMonitorLogRecords::GetLogRecord, cos.icrmmonitorlogrecords_getlogrecord
 ms.prod: windows
 ms.technology: windows-sdk

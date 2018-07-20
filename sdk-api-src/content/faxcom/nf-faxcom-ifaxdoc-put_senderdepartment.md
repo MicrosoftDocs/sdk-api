@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_senderdepartment_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0m7o.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxDoc object [Fax Service],SenderDepartment property, FaxDoc.SenderDepartment, IFaxDoc.put_SenderDepartment, IFaxDoc::put_SenderDepartment, SenderDepartment property [Fax Service], SenderDepartment property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_senderdepartment, fax._mfax_ifaxdoc_get_senderdepartment, fax._mfax_ifaxdoc_get_senderdepartment_vb, put_SenderDepartment
 ms.prod: windows
 ms.technology: windows-sdk

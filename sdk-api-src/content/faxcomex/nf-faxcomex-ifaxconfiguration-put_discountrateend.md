@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_DiscountRateEnd_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\discountrateend.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: DiscountRateEnd property [Fax Service], DiscountRateEnd property [Fax Service],FaxConfiguration object, FaxConfiguration object [Fax Service],DiscountRateEnd property, FaxConfiguration.DiscountRateEnd, IFaxConfiguration.put_DiscountRateEnd, IFaxConfiguration::put_DiscountRateEnd, _mfax_IFaxConfiguration_DiscountRateEnd, fax._mfax_FaxConfiguration_DiscountRateEnd_vb, put_DiscountRateEnd
 ms.prod: windows
 ms.technology: windows-sdk

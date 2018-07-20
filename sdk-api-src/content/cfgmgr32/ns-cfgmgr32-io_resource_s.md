@@ -7,7 +7,7 @@ old-location: devinst\io_resource.htm
 old-project: devinst
 ms.assetid: d18a1f92-b76c-4240-9a0e-7474c258436c
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: "*PIO_RESOURCE, IO_RESOURCE, IO_RESOURCE structure [Device and Driver Installation], IO_Resource_s, PIO_RESOURCE, PIO_RESOURCE structure pointer [Device and Driver Installation], cfgmgr32/IO_RESOURCE, cfgmgr32/PIO_RESOURCE, cfgmgrst_4016b1e2-26af-4ccb-b2d9-823e0c4bf66c.xml, devinst.io_resource"
 ms.prod: windows
 ms.technology: windows-sdk

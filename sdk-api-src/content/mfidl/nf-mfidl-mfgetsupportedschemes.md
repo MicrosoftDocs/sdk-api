@@ -7,7 +7,7 @@ old-location: mf\mfgetsupportedschemes.htm
 old-project: medfound
 ms.assetid: b40315fc-7e2b-4573-a98f-840b6ce31dd3
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: MFGetSupportedSchemes, MFGetSupportedSchemes function [Media Foundation], b40315fc-7e2b-4573-a98f-840b6ce31dd3, mf.mfgetsupportedschemes, mfidl/MFGetSupportedSchemes
 ms.prod: windows
 ms.technology: windows-sdk

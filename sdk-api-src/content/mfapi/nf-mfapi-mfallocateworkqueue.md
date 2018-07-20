@@ -7,7 +7,7 @@ old-location: mf\mfallocateworkqueue.htm
 old-project: medfound
 ms.assetid: 8def4375-919c-4619-9484-9ce2708a3886
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 8def4375-919c-4619-9484-9ce2708a3886, MFAllocateWorkQueue, MFAllocateWorkQueue function [Media Foundation], mf.mfallocateworkqueue, mfapi/MFAllocateWorkQueue
 ms.prod: windows
 ms.technology: windows-sdk

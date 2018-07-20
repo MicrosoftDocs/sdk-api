@@ -7,7 +7,7 @@ old-location: devinst\mfcard_resource.htm
 old-project: devinst
 ms.assetid: 26dbefb6-bc5c-4060-902d-3fd1adf833cb
 ms.author: windowssdkdev
-ms.date: 07/11/2018
+ms.date: 07/17/2018
 ms.keywords: "*PMFCARD_RESOURCE, MFCARD_RESOURCE, MFCARD_RESOURCE structure [Device and Driver Installation], MfCard_Resource_s, PMFCARD_RESOURCE, PMFCARD_RESOURCE structure pointer [Device and Driver Installation], cfgmgr32/MFCARD_RESOURCE, cfgmgr32/PMFCARD_RESOURCE, cfgmgrst_bb72fc57-6d43-447c-8995-1cb7649914af.xml, devinst.mfcard_resource"
 ms.prod: windows
 ms.technology: windows-sdk

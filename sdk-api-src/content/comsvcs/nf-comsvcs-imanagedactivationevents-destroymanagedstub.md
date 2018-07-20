@@ -7,7 +7,7 @@ old-location: cos\imanagedactivationevents_destroymanagedstub.htm
 old-project: cossdk
 ms.assetid: aabc8192-d499-441e-be5d-9a51108bd344
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.keywords: DestroyManagedStub, DestroyManagedStub method [COM+], DestroyManagedStub method [COM+],IManagedActivationEvents interface, IManagedActivationEvents interface [COM+],DestroyManagedStub method, IManagedActivationEvents.DestroyManagedStub, IManagedActivationEvents::DestroyManagedStub, _cos_IManagedActivationEvents_DestroyManagedStub, comsvcs/IManagedActivationEvents::DestroyManagedStub, cos.imanagedactivationevents_destroymanagedstub
 ms.prod: windows
 ms.technology: windows-sdk
