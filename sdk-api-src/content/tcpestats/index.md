@@ -2,7 +2,7 @@
 UID: NA:tcpestats
 ms.assetid: da21a657-109b-36e4-acc9-a116cf6065eb
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/20/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

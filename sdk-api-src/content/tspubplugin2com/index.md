@@ -2,7 +2,7 @@
 UID: NA:tspubplugin2com
 ms.assetid: 188e3156-885e-3f73-873d-d6473a0c7833
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/20/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

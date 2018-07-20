@@ -2,7 +2,7 @@
 UID: NA:winstring
 ms.assetid: dba0b1e7-db90-3fa7-92a9-636c9ba707cd
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/20/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

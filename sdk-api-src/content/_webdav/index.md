@@ -2,7 +2,7 @@
 UID: TP:webdav
 ms.assetid: 5597accb-800b-3fc7-8b64-addde3fd100d
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/20/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

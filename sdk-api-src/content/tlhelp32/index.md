@@ -2,7 +2,7 @@
 UID: NA:tlhelp32
 ms.assetid: fdc911c8-e8cf-30ab-b7bc-44818efde7ab
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/20/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

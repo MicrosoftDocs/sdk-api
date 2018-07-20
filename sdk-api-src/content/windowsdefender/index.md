@@ -2,7 +2,7 @@
 UID: NA:windowsdefender
 ms.assetid: 732e4cd7-396f-3741-9704-37e9d5720b2a
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/20/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

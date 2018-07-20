@@ -2,7 +2,7 @@
 UID: NA:winnls32
 ms.assetid: 9d85d13a-e95a-3710-b362-a95c1cb893e6
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/20/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

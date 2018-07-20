@@ -2,7 +2,7 @@
 UID: NA:scserver
 ms.assetid: 382cdac1-02d0-3b67-b262-ff8aa4e4d3a3
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/20/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
