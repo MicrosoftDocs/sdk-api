@@ -7,7 +7,7 @@ old-location: mf\mfaddperiodiccallback.htm
 old-project: medfound
 ms.assetid: e5898fc8-72e9-45cc-8e85-4410ed7cc512
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: MFAddPeriodicCallback, MFAddPeriodicCallback function [Media Foundation], e5898fc8-72e9-45cc-8e85-4410ed7cc512, mf.mfaddperiodiccallback, mfapi/MFAddPeriodicCallback
 ms.prod: windows
 ms.technology: windows-sdk

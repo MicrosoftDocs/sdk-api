@@ -7,7 +7,7 @@ old-location: multimedia\createeditablestream.htm
 old-project: Multimedia
 ms.assetid: 9c7b0ebe-c113-49c9-a74f-61f47e7c18af
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: CreateEditableStream, CreateEditableStream function [Windows Multimedia], _win32_CreateEditableStream, multimedia.createeditablestream, vfw/CreateEditableStream
 ms.prod: windows
 ms.technology: windows-sdk

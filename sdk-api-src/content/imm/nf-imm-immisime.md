@@ -7,7 +7,7 @@ old-location: intl\immisime.htm
 old-project: Intl
 ms.assetid: 87bd38ce-c82c-4a65-8157-fcd69bc79566
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 07/18/2018
 ms.keywords: ImmIsIME, ImmIsIME function [Internationalization for Windows Applications], _win32_ImmIsIME, imm/ImmIsIME, intl.immisime
 ms.prod: windows
 ms.technology: windows-sdk

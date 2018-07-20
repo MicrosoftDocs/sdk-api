@@ -7,7 +7,7 @@ old-location: tapi3\itscriptableaudioformat_put_channels.htm
 old-project: tapi
 ms.assetid: 301fd17f-393b-46dd-9d76-1a1e34547629
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_Channels method, ITScriptableAudioFormat.put_Channels, ITScriptableAudioFormat::put_Channels, _tapi3_itscriptableaudioformat_put_channels, put_Channels, put_Channels method [TAPI 2.2], put_Channels method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_channels, tapi3if/ITScriptableAudioFormat::put_Channels
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winprog\fdicopy.htm
 old-project: devnotes
 ms.assetid: 6ec2b10b-f70a-4a22-beff-df6b6a4c4cfd
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: FDICopy, FDICopy function [Windows API], fdi/FDICopy, winprog.fdicopy
 ms.prod: windows
 ms.technology: windows-sdk

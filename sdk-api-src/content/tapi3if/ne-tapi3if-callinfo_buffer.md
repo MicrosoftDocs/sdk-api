@@ -7,7 +7,7 @@ old-location: tapi3\callinfo_buffer.htm
 old-project: tapi
 ms.assetid: 76774741-2aa3-455c-a203-1daee42cf0fa
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: CALLINFO_BUFFER, CALLINFO_BUFFER enumeration [TAPI 2.2], CIB_CALLDATABUFFER, CIB_CHARGINGINFOBUFFER, CIB_DEVSPECIFICBUFFER, CIB_HIGHLEVELCOMPATIBILITYBUFFER, CIB_LOWLEVELCOMPATIBILITYBUFFER, CIB_USERUSERINFO, _tapi3_callinfo_buffer, tapi3.callinfo_buffer, tapi3if/CALLINFO_BUFFER, tapi3if/CIB_CALLDATABUFFER, tapi3if/CIB_CHARGINGINFOBUFFER, tapi3if/CIB_DEVSPECIFICBUFFER, tapi3if/CIB_HIGHLEVELCOMPATIBILITYBUFFER, tapi3if/CIB_LOWLEVELCOMPATIBILITYBUFFER, tapi3if/CIB_USERUSERINFO
 ms.prod: windows
 ms.technology: windows-sdk

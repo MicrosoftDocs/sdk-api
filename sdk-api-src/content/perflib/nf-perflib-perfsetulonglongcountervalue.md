@@ -7,7 +7,7 @@ old-location: perf\perfsetulonglongcountervalue.htm
 old-project: perfctrs
 ms.assetid: c38f9efc-7ea8-4841-9a31-a88d4f87369c
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/18/2018
 ms.keywords: PerfSetULongLongCounterValue, PerfSetULongLongCounterValue function [Perf], base.perfsetulonglongcountervalue, perf.perfsetulonglongcountervalue, perflib/PerfSetULongLongCounterValue
 ms.prod: windows
 ms.technology: windows-sdk

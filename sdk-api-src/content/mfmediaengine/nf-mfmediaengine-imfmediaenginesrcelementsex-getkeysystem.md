@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginesrcelementsex_getkeysystem.htm
 old-project: medfound
 ms.assetid: 5d8db178-a17d-4920-9eed-b2dfba9f05fc
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetKeySystem, GetKeySystem method [Media Foundation], GetKeySystem method [Media Foundation],IMFMediaEngineSrcElementsEx interface, IMFMediaEngineSrcElementsEx interface [Media Foundation],GetKeySystem method, IMFMediaEngineSrcElementsEx.GetKeySystem, IMFMediaEngineSrcElementsEx::GetKeySystem, mf.imfmediaenginesrcelementsex_getkeysystem, mfmediaengine/IMFMediaEngineSrcElementsEx::GetKeySystem
 ms.prod: windows
 ms.technology: windows-sdk

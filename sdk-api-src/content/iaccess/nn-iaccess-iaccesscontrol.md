@@ -7,7 +7,7 @@ old-location: com\iaccesscontrol.htm
 old-project: com
 ms.assetid: f7f19a9d-27ed-479f-b5d4-562cab5be12a
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IAccessControl, IAccessControl interface [COM], IAccessControl interface [COM],described, _com_iaccesscontrol, com.iaccesscontrol, iaccess/IAccessControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Enables the management of access to objects and properties on the objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessControl</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IAccessControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessControl</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IAccessControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

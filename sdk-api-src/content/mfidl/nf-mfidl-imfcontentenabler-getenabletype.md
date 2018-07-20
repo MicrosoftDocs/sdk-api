@@ -7,7 +7,7 @@ old-location: mf\imfcontentenabler_getenabletype.htm
 old-project: medfound
 ms.assetid: 9fe597d8-788c-48c4-a21a-0b91a890710f
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 9fe597d8-788c-48c4-a21a-0b91a890710f, GetEnableType, GetEnableType method [Media Foundation], GetEnableType method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],GetEnableType method, IMFContentEnabler.GetEnableType, IMFContentEnabler::GetEnableType, mf.imfcontentenabler_getenabletype, mfidl/IMFContentEnabler::GetEnableType
 ms.prod: windows
 ms.technology: windows-sdk

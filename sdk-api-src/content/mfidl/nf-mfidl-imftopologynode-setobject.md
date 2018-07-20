@@ -7,7 +7,7 @@ old-location: mf\imftopologynode_setobject.htm
 old-project: medfound
 ms.assetid: bbef706d-a4a0-4ff3-bfdb-8ba39d70617c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFTopologyNode interface [Media Foundation],SetObject method, IMFTopologyNode.SetObject, IMFTopologyNode::SetObject, SetObject, SetObject method [Media Foundation], SetObject method [Media Foundation],IMFTopologyNode interface, bbef706d-a4a0-4ff3-bfdb-8ba39d70617c, mf.imftopologynode_setobject, mfidl/IMFTopologyNode::SetObject
 ms.prod: windows
 ms.technology: windows-sdk

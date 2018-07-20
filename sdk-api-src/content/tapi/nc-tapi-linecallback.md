@@ -7,7 +7,7 @@ old-location: tapi2\linecallbackfunc.htm
 old-project: tapi
 ms.assetid: 449ecf4f-0b1b-449e-9eae-049770d41dbc
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: LINECALLBACK, LINECALLBACK callback function [TAPI 2.2], _tapi2_linecallbackfunc, lineCallback callback, tapi/LINECALLBACK, tapi2.linecallbackfunc
 ms.prod: windows
 ms.technology: windows-sdk

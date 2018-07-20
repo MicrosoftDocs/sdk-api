@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 <span>This topic lists the constructors of the 
-			<a href="https://msdn.microsoft.com/library/ms534462(v=VS.85).aspx">Image</a> class. For a complete class listing, see <b>Image Class</b>. 
+			<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> class. For a complete class listing, see <b>Image Class</b>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Constructor</th>
@@ -60,19 +60,19 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535411(v=VS.85).aspx">Image(WCHAR*,BOOL)</a>
+<a href="https://msdn.microsoft.com/35c4b98b-6fbb-4506-9437-756d0d90ce8a">Image(WCHAR*,BOOL)</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/library/ms535411(v=VS.85).aspx">Image::Image</a> object based on a file.
+Creates an <a href="https://msdn.microsoft.com/35c4b98b-6fbb-4506-9437-756d0d90ce8a">Image::Image</a> object based on a file.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms535410(v=VS.85).aspx">Image(IStream*,BOOL)</a>
+<a href="https://msdn.microsoft.com/0b29d016-0283-42b4-b06e-29f89079827b">Image(IStream*,BOOL)</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/library/ms535410(v=VS.85).aspx">Image::Image</a> object based on a stream.
+Creates an <a href="https://msdn.microsoft.com/0b29d016-0283-42b4-b06e-29f89079827b">Image::Image</a> object based on a stream.
 
 </td>
 </tr>

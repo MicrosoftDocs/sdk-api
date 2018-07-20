@@ -7,7 +7,7 @@ old-location: winprog\feature_error.htm
 old-project: devnotes
 ms.assetid: D289E97E-CEA7-408E-98D5-44A5B07B512A
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: FEATURE_ERROR, FEATURE_ERROR structure [Windows API], featurestagingapi/FEATURE_ERROR, winprog.feature_error
 ms.prod: windows
 ms.technology: windows-sdk

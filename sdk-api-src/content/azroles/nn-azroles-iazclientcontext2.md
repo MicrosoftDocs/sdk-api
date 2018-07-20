@@ -4,10 +4,10 @@ title: IAzClientContext2
 author: windows-sdk-content
 description: Inherits from the IAzClientContext interface and implements new methods that manipulate the client context.
 old-location: security\iazclientcontext2.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 8e922370-18e3-481c-93f2-9a56d7898ba7
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: IAzClientContext2, IAzClientContext2 interface [Security], IAzClientContext2 interface [Security],described, azroles/IAzClientContext2, security.iazclientcontext2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ The <b>IAzClientContext2</b> interface inherits from the <a href="https://msdn.m
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzClientContext2</b> interface inherits from <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/e24184d2-a77b-4a8b-b2f3-78f1e0b902f9">IAzClientContext</a>. <b>IAzClientContext2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzClientContext2</b> interface inherits from <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> and <a href="https://msdn.microsoft.com/e24184d2-a77b-4a8b-b2f3-78f1e0b902f9">IAzClientContext</a>. <b>IAzClientContext2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

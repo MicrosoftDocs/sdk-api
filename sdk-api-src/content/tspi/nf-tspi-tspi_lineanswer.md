@@ -7,7 +7,7 @@ old-location: tspi\tspi_lineanswer.htm
 old-project: tapi
 ms.assetid: efd4d7f8-bf81-46c4-b51b-516036e9baef
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineAnswer, TSPI_lineAnswer function [TAPI 2.2], _tspi_tspi_lineanswer, tspi.tspi_lineanswer, tspi/TSPI_lineAnswer
 ms.prod: windows
 ms.technology: windows-sdk

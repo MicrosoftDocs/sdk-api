@@ -4,10 +4,10 @@ title: MsiJoinTransaction function
 author: windows-sdk-content
 description: The MsiJoinTransaction function requests that the Windows Installer make the current process the owner of the transaction installing the multiple-package installation.
 old-location: setup\msijointransaction.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 222c37fd-1a77-4017-8e55-cbd844f375df
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: MsiJoinTransaction, MsiJoinTransaction function [Setup API], msi/MsiJoinTransaction, setup.msijointransaction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-The <b>MsiJoinTransaction</b> function requests that the Windows Installer make the current process the owner of the <a href="https://msdn.microsoft.com/library/ms691785(v=VS.85).aspx">transaction</a> installing the multiple-package installation. 
+The <b>MsiJoinTransaction</b> function requests that the Windows Installer make the current process the owner of the <a href="t_gly.htm">transaction</a> installing the multiple-package installation. 
 
 <b><a href="https://msdn.microsoft.com/7256b759-3fb5-4195-b0e4-a1631327ebb7">Windows Installer 4.0 and earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 4.5.
 

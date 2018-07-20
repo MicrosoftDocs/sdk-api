@@ -7,7 +7,7 @@ old-location: com\ienumcategoryinfo.htm
 old-project: com
 ms.assetid: 87469ace-ae34-40e5-aab6-f26a4bc50b54
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumCATEGORYINFO, IEnumCATEGORYINFO interface [COM], IEnumCATEGORYINFO interface [COM],described, _com_ienumcategoryinfo, com.ienumcategoryinfo, comcat/IEnumCATEGORYINFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Enumerates component categories registered in the system.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumCATEGORYINFO</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnumCATEGORYINFO</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumCATEGORYINFO</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IEnumCATEGORYINFO</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

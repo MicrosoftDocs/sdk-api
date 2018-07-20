@@ -7,7 +7,7 @@ old-location: wininet\iproofofpossessioncookieinfomanager_getcookieinfoforuri.ht
 old-project: wininet
 ms.assetid: e7e22e0e-f84c-47e5-878f-b70459c921b8
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/18/2018
 ms.keywords: GetCookieInfoForUri, GetCookieInfoForUri method [WinINet], GetCookieInfoForUri method [WinINet],IProofOfPossessionCookieInfoManager interface, IProofOfPossessionCookieInfoManager interface [WinINet],GetCookieInfoForUri method, IProofOfPossessionCookieInfoManager.GetCookieInfoForUri, IProofOfPossessionCookieInfoManager::GetCookieInfoForUri, proofofpossessioncookieinfo/IProofOfPossessionCookieInfoManager::GetCookieInfoForUri, wininet.iproofofpossessioncookieinfomanager_getcookieinfoforuri
 ms.prod: windows
 ms.technology: windows-sdk

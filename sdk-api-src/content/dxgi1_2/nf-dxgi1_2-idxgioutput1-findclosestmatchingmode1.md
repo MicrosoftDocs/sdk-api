@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput1_findclosestmatchingmode1.htm
 old-project: direct3ddxgi
 ms.assetid: D71ED536-0D90-4E0D-8683-6260E31EAF20
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: FindClosestMatchingMode1, FindClosestMatchingMode1 method [DXGI], FindClosestMatchingMode1 method [DXGI],IDXGIOutput1 interface, IDXGIOutput1 interface [DXGI],FindClosestMatchingMode1 method, IDXGIOutput1.FindClosestMatchingMode1, IDXGIOutput1::FindClosestMatchingMode1, direct3ddxgi.idxgioutput1_findclosestmatchingmode1, dxgi1_2/IDXGIOutput1::FindClosestMatchingMode1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ Finds the display mode that most closely matches the requested display mode.
 A pointer to the <a href="https://msdn.microsoft.com/8F44CF77-D3A1-44F7-AB7F-69E5727A4378">DXGI_MODE_DESC1</a> structure that describes the display mode to match. Members of <b>DXGI_MODE_DESC1</b> can be unspecified, which indicates no preference for 
         that member.  A value of 0 for <b>Width</b> or <b>Height</b> indicates that the value is unspecified.  If either <b>Width</b> or 
         <b>Height</b> is 0, both must be 0.  A numerator and denominator of 0 in <b>RefreshRate</b> indicate it is unspecified. Other members 
-        of <b>DXGI_MODE_DESC1</b> have enumeration values that indicate that the member is unspecified.  If <i>pConcernedDevice</i> is <b>NULL</b>, the <b>Format</b>
-        member of <b>DXGI_MODE_DESC1</b> cannot be <b>DXGI_FORMAT_UNKNOWN</b>.
+        of <b>DXGI_MODE_DESC1</b> have enumeration values that indicate that the member is unspecified.  If <i>pConcernedDevice</i> is <b>NULL</b>, the <b>Format</b>member of <b>DXGI_MODE_DESC1</b> cannot be <b>DXGI_FORMAT_UNKNOWN</b>.
 
 
 ### -param pClosestMatch [out]
@@ -106,7 +105,7 @@ A pointer to the Direct3D device interface. If this parameter is <b>NULL</b>, <b
 
 
 
-Returns one of the error codes described in the <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.
+Returns one of the error codes described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.
 
 
 

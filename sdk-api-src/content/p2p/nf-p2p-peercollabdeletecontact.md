@@ -4,10 +4,10 @@ title: PeerCollabDeleteContact function
 author: windows-sdk-content
 description: Deletes a contact from the local contact store associated with the caller.
 old-location: p2p\peercollabdeletecontact.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: b901ec82-69d2-4a1c-b316-37f209af2b19
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: PeerCollabDeleteContact, PeerCollabDeleteContact function [Peer Networking], p2p.peercollabdeletecontact, p2p/PeerCollabDeleteContact
 ms.prod: windows
 ms.technology: windows-sdk

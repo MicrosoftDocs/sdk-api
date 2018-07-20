@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_display_color_space.htm
 old-project: direct3ddxgi
 ms.assetid: AE549DD8-240C-41F9-9223-728BFCA19DD7
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: DXGI_DISPLAY_COLOR_SPACE, DXGI_DISPLAY_COLOR_SPACE structure [DXGI], direct3ddxgi.dxgi_display_color_space, dxgi/DXGI_DISPLAY_COLOR_SPACE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          Don't use this structure; it is not supported and it will be removed from the header in a future release.
+Don't use this structure; it is not supported and it will be removed from the header in a future release.
         
 
 
@@ -63,15 +62,13 @@ req.product: Windows Media Format 9 Series or later
 
 ### -field PrimaryCoordinates
 
-
-            The primary coordinates, as an 8 by 2 array of FLOAT values.
+The primary coordinates, as an 8 by 2 array of FLOAT values.
           
 
 
 ### -field WhitePoints
 
-
-            The white points, as a 16 by 2 array of FLOAT values.
+The white points, as a 16 by 2 array of FLOAT values.
           
 
 

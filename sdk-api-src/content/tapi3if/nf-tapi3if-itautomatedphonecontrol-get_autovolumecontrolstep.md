@@ -7,7 +7,7 @@ old-location: tapi3\itautomatedphonecontrol_get_autovolumecontrolstep.htm
 old-project: tapi
 ms.assetid: 6cf6beba-36ca-417b-91b4-9c008a14efef
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoVolumeControlStep method, ITAutomatedPhoneControl.get_AutoVolumeControlStep, ITAutomatedPhoneControl::get_AutoVolumeControlStep, _tapi3_itautomatedphonecontrol_get_autovolumecontrolstep, get_AutoVolumeControlStep, get_AutoVolumeControlStep method [TAPI 2.2], get_AutoVolumeControlStep method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autovolumecontrolstep, tapi3if/ITAutomatedPhoneControl::get_AutoVolumeControlStep
 ms.prod: windows
 ms.technology: windows-sdk

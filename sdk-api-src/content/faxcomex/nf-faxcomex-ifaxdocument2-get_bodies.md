@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdocument2_bodies_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxdocument2\bodies.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: Bodies property [Fax Service], Bodies property [Fax Service],FaxDocument object, FaxDocument object [Fax Service],Bodies property, FaxDocument.Bodies, IFaxDocument2.get_Bodies, IFaxDocument2::get_Bodies, _mfax_faxdocument2.bodies, fax._mfax_faxdocument2_bodies, fax._mfax_faxdocument2_bodies_vb, get_Bodies
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Provides a collection of one or more documents to the fax document.
 
 Examples of documents that you can send as fax bodies include text files (.txt), Microsoft Word documents (.doc), or Microsoft Excel spreadsheets (.xls). Filenames are separated with semi-colons ";". For example, "myfile.txt;anotherfile.doc".
 
-Either the <b>Bodies</b> property or the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545226">Body</a> property must be <b>NULL</b>. You must use <b>Bodies</b> if you will be submitting using either <a href="https://msdn.microsoft.com/6a62e987-8853-41f0-b440-1571e761ac75">ConnectedSubmit2</a> or <a href="https://msdn.microsoft.com/library/Aa359012(v=VS.85).aspx">Submit2</a> (both available only in Windows Vista or later). You must use <b>Body</b> if you will be submitting using either <a href="https://msdn.microsoft.com/library/ms686178(v=VS.85).aspx">ConnectedSubmit</a> or <a href="https://msdn.microsoft.com/library/ms687477(v=VS.85).aspx">Submit</a>. 
+Either the <b>Bodies</b> property or the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545226">Body</a> property must be <b>NULL</b>. You must use <b>Bodies</b> if you will be submitting using either <a href="https://msdn.microsoft.com/6a62e987-8853-41f0-b440-1571e761ac75">ConnectedSubmit2</a> or <a href="https://msdn.microsoft.com/6adffb23-0a42-4846-b60d-dcdfc9ef63b6">Submit2</a> (both available only in Windows Vista or later). You must use <b>Body</b> if you will be submitting using either <a href="https://msdn.microsoft.com/61bf59fd-b921-4356-a3ab-4b83757cc346">ConnectedSubmit</a> or <a href="https://msdn.microsoft.com/50062e89-9e97-43aa-bb60-7ddf6448585d">Submit</a>. 
 
 
 
@@ -76,11 +76,11 @@ Either the <b>Bodies</b> property or the <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/ms685958(v=VS.85).aspx">FaxDocument</a>
+<a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa359010(v=VS.85).aspx">IFaxDocument2</a>
+<a href="https://msdn.microsoft.com/20b98e3e-3126-4be1-b9af-228164d0bda6">IFaxDocument2</a>
  
 
  

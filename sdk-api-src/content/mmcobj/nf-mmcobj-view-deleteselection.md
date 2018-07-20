@@ -4,10 +4,10 @@ title: View::DeleteSelection
 author: windows-sdk-content
 description: The DeleteSelection method executes the Delete command for the selected items. If the context menu does not support Delete, then this method will not perform any operation.
 old-location: mmc\view_deleteselection.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 850516ae-4450-4773-8662-1e1bda805a30
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: DeleteSelection, DeleteSelection method [MMC], DeleteSelection method [MMC],View interface, DeleteSelection method [MMC],View object, View interface [MMC],DeleteSelection method, View object [MMC],DeleteSelection method, View.DeleteSelection, View::DeleteSelection, _slate_view.deleteselection_method, mmc.view_deleteselection
 ms.prod: windows
 ms.technology: windows-sdk

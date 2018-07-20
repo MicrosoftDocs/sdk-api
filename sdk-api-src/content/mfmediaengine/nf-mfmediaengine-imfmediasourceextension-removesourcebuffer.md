@@ -7,7 +7,7 @@ old-location: mf\imfmediasourceextension_removesourcebuffer.htm
 old-project: medfound
 ms.assetid: 2f29cbac-4261-41ee-84c8-cb73686aeee5
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFMediaSourceExtension interface [Media Foundation],RemoveSourceBuffer method, IMFMediaSourceExtension.RemoveSourceBuffer, IMFMediaSourceExtension::RemoveSourceBuffer, RemoveSourceBuffer, RemoveSourceBuffer method [Media Foundation], RemoveSourceBuffer method [Media Foundation],IMFMediaSourceExtension interface, mf.imfmediasourceextension_removesourcebuffer, mfmediaengine/IMFMediaSourceExtension::RemoveSourceBuffer
 ms.prod: windows
 ms.technology: windows-sdk

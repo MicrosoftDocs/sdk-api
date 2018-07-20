@@ -7,7 +7,7 @@ old-location: mf\imfmediatimerange_containstime.htm
 old-project: medfound
 ms.assetid: 67BA2464-D8F0-4A5C-9C12-DBD9AD0238A7
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: ContainsTime, ContainsTime method [Media Foundation], ContainsTime method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],ContainsTime method, IMFMediaTimeRange.ContainsTime, IMFMediaTimeRange::ContainsTime, mf.imfmediatimerange_containstime, mfmediaengine/IMFMediaTimeRange::ContainsTime
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: peer_event_node_change_data_tag
 author: windows-sdk-content
 description: The PEER_EVENT_NODE_CHANGE_DATA structure contains a pointer to the data if a PEER_GRAPH_EVENT_NODE_CHANGE event is triggered.
 old-location: p2p\peer_event_node_change_data.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 656c9155-643d-4c94-9141-3499f7e0adac
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: "*PPEER_EVENT_NODE_CHANGE_DATA, PEER_EVENT_NODE_CHANGE_DATA, PEER_EVENT_NODE_CHANGE_DATA structure [Peer Networking], PEER_NODE_CHANGE_CONNECTED, PEER_NODE_CHANGE_DISCONNECTED, PEER_NODE_CHANGE_UPDATED, PPEER_EVENT_NODE_CHANGE_DATA, PPEER_EVENT_NODE_CHANGE_DATA structure pointer [Peer Networking], p2p.peer_event_node_change_data, p2p/PPEER_EVENT_NODE_CHANGE_DATA, p2p/peer_event_node_change_data_tag, peer_event_node_change_data_tag"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tspi\tspi_phonegetid.htm
 old-project: tapi
 ms.assetid: ed34641d-091a-45a3-becc-b5fca36a9367
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_phoneGetID, TSPI_phoneGetID function [TAPI 2.2], _tspi_tspi_phonegetid, tspi.tspi_phonegetid, tspi/TSPI_phoneGetID
 ms.prod: windows
 ms.technology: windows-sdk

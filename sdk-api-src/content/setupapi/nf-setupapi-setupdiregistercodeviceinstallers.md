@@ -7,7 +7,7 @@ old-location: devinst\setupdiregistercodeviceinstallers.htm
 old-project: devinst
 ms.assetid: 75d0275b-9eb8-45ec-ac8e-b18d59e0c011
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: SetupDiRegisterCoDeviceInstallers, SetupDiRegisterCoDeviceInstallers function [Device and Driver Installation], devinst.setupdiregistercodeviceinstallers, di-rtns_03f0dc0a-f133-4280-b32d-9a811d04a844.xml, setupapi/SetupDiRegisterCoDeviceInstallers
 ms.prod: windows
 ms.technology: windows-sdk

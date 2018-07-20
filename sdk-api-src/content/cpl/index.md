@@ -2,7 +2,7 @@
 UID: NA:cpl
 ms.assetid: e8fa9f63-a6a3-3a6b-b199-c46941dcedbc
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

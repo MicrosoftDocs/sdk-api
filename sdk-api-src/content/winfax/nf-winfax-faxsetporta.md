@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsetport.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5sac.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxSetPort, FaxSetPort function [Fax Service], FaxSetPortA, FaxSetPortW, _mfax_faxsetport, fax._mfax_faxsetport, winfax/FaxSetPort, winfax/FaxSetPortA, winfax/FaxSetPortW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,14 +66,14 @@ A fax client application calls the <b>FaxSetPort</b> function to change the conf
 
 Type: <b>HANDLE</b>
 
-Specifies a fax port handle returned by a call to the <a href="https://msdn.microsoft.com/library/ms690875(v=VS.85).aspx">FaxOpenPort</a> function.
+Specifies a fax port handle returned by a call to the <a href="https://msdn.microsoft.com/9010d651-3259-40b2-91bf-de0a841207c1">FaxOpenPort</a> function.
 
 
 ### -param PortInfo [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms692359(v=VS.85).aspx">FAX_PORT_INFO</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/a1772290-7f78-49f2-a1e6-d312247995e4">FAX_PORT_INFO</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms692359(v=VS.85).aspx">FAX_PORT_INFO</a> structure. The structure contains data to modify the configuration of the specified fax port.
+Pointer to a <a href="https://msdn.microsoft.com/a1772290-7f78-49f2-a1e6-d312247995e4">FAX_PORT_INFO</a> structure. The structure contains data to modify the configuration of the specified fax port.
 
 
 ## -returns
@@ -98,7 +98,7 @@ If the function fails, the return value is zero. To get extended error informati
 </dl>
 </td>
 <td width="60%">
-Access is denied. <a href="https://msdn.microsoft.com/library/ms692302(v=VS.85).aspx">FAX_PORT_SET</a> access is required.
+Access is denied. <a href="https://msdn.microsoft.com/7d6ff208-33e4-42b2-ae21-76ec8ff58809">FAX_PORT_SET</a> access is required.
 
 </td>
 </tr>
@@ -134,13 +134,13 @@ One or both of the <i>FaxPortHandle</i> or <i>PortInfo</i> parameters are <b>NUL
 
 
 
-The application must call the <a href="https://msdn.microsoft.com/library/ms690875(v=VS.85).aspx">FaxOpenPort</a> function and specify the <b>PORT_OPEN_MODIFY</b> access level before calling the <b>FaxSetPort</b> function.
+The application must call the <a href="https://msdn.microsoft.com/9010d651-3259-40b2-91bf-de0a841207c1">FaxOpenPort</a> function and specify the <b>PORT_OPEN_MODIFY</b> access level before calling the <b>FaxSetPort</b> function.
 
-Only the following members of the <a href="https://msdn.microsoft.com/library/ms692359(v=VS.85).aspx">FAX_PORT_INFO</a> structure can be set using this function: Flags, Rings, Priority, Tsid, and Csid
+Only the following members of the <a href="https://msdn.microsoft.com/a1772290-7f78-49f2-a1e6-d312247995e4">FAX_PORT_INFO</a> structure can be set using this function: Flags, Rings, Priority, Tsid, and Csid
 
-A fax administration application typically calls the <b>FaxSetPort</b> function to administer the fax devices associated with the fax server. To query the devices, call the <a href="https://msdn.microsoft.com/library/ms691388(v=VS.85).aspx">FaxGetPort</a> function.
+A fax administration application typically calls the <b>FaxSetPort</b> function to administer the fax devices associated with the fax server. To query the devices, call the <a href="https://msdn.microsoft.com/1cf89b9c-525d-42df-b3fa-4dda6f560fd6">FaxGetPort</a> function.
 
-To obtain a valid port handle to specify in the <i>FaxPortHandle</i> parameter of the <b>FaxSetPort</b> function, call the <a href="https://msdn.microsoft.com/library/ms690875(v=VS.85).aspx">FaxOpenPort</a> function. For more information, see <a href="https://msdn.microsoft.com/library/ms691489(v=VS.85).aspx">Fax Device Management</a>.
+To obtain a valid port handle to specify in the <i>FaxPortHandle</i> parameter of the <b>FaxSetPort</b> function, call the <a href="https://msdn.microsoft.com/9010d651-3259-40b2-91bf-de0a841207c1">FaxOpenPort</a> function. For more information, see <a href="https://msdn.microsoft.com/784fdc0e-c664-4ea9-8a4f-0a0cd89c0d81">Fax Device Management</a>.
 
 
 
@@ -150,27 +150,27 @@ To obtain a valid port handle to specify in the <i>FaxPortHandle</i> parameter o
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692359(v=VS.85).aspx">FAX_PORT_INFO</a>
+<a href="https://msdn.microsoft.com/a1772290-7f78-49f2-a1e6-d312247995e4">FAX_PORT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
+<a href="https://msdn.microsoft.com/b076b5ba-09af-4312-90c1-27abd0b859df">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690826(v=VS.85).aspx">FaxEnumPorts</a>
+<a href="https://msdn.microsoft.com/7bd33e6f-09ff-449b-ac22-b79a14e5d928">FaxEnumPorts</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691388(v=VS.85).aspx">FaxGetPort</a>
+<a href="https://msdn.microsoft.com/1cf89b9c-525d-42df-b3fa-4dda6f560fd6">FaxGetPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690875(v=VS.85).aspx">FaxOpenPort</a>
+<a href="https://msdn.microsoft.com/9010d651-3259-40b2-91bf-de0a841207c1">FaxOpenPort</a>
  
 
  

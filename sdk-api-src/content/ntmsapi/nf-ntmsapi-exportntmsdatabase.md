@@ -172,7 +172,7 @@ This function creates a subdirectory called Export and places the consistent fil
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Database Backup and Recovery Functions</a>
+<a href="removable_storage_manager_functions.htm">Database Backup and Recovery Functions</a>
 
 
 

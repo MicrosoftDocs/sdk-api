@@ -7,7 +7,7 @@ old-location: tspi\tspi_phonedevspecific.htm
 old-project: tapi
 ms.assetid: 8c2161c2-ab7c-44b0-a7a0-249412359838
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_phoneDevSpecific, TSPI_phoneDevSpecific function [TAPI 2.2], _tspi_tspi_phonedevspecific, tspi.tspi_phonedevspecific, tspi/TSPI_phoneDevSpecific
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\ienumbstr_next.htm
 old-project: tapi
 ms.assetid: e4a03985-9f90-4ae4-b4ec-a6aa43e5bb10
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumBstr interface [TAPI 2.2],Next method, IEnumBstr.Next, IEnumBstr::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumBstr interface, _tapi3_ienumbstr_next, tapi3.ienumbstr_next, tapi3if/IEnumBstr::Next
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,7 +130,7 @@ The <i>ppStrings</i> parameter is not a valid pointer.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppStrings</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppStrings</i> parameter.
 
 
 

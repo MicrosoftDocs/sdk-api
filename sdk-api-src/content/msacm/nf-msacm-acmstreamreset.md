@@ -7,7 +7,7 @@ old-location: multimedia\acmstreamreset.htm
 old-project: Multimedia
 ms.assetid: 641c882e-b9c8-4945-bf8a-f3e70c5d5c64
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: "_win32_acmStreamReset, acmStreamReset, acmStreamReset function [Windows Multimedia], msacm/acmStreamReset, multimedia.acmstreamreset"
 ms.prod: windows
 ms.technology: windows-sdk

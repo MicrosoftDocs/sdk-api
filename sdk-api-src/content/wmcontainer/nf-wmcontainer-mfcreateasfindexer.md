@@ -7,7 +7,7 @@ old-location: mf\mfcreateasfindexer.htm
 old-project: medfound
 ms.assetid: df141f8e-10b4-4ac4-8a83-c25764b8f0c6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: MFCreateASFIndexer, MFCreateASFIndexer function [Media Foundation], df141f8e-10b4-4ac4-8a83-c25764b8f0c6, mf.mfcreateasfindexer, wmcontainer/MFCreateASFIndexer
 ms.prod: windows
 ms.technology: windows-sdk

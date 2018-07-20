@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_HighQuotaWaterMark_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\highquotawatermark.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxConfiguration object [Fax Service],HighQuotaWaterMark property, FaxConfiguration.HighQuotaWaterMark, HighQuotaWaterMark property [Fax Service], HighQuotaWaterMark property [Fax Service],FaxConfiguration object, IFaxConfiguration.put_HighQuotaWaterMark, IFaxConfiguration::put_HighQuotaWaterMark, _mfax_IFaxConfiguration_HighQuotaWaterMark, fax._mfax_FaxConfiguration_HighQuotaWaterMark_vb, put_HighQuotaWaterMark
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa358913(v=VS.85).aspx">FaxConfiguration</a>
+<a href="https://msdn.microsoft.com/381e098b-d130-4e15-9aba-cb0048cc5b98">FaxConfiguration</a>
  
 
  

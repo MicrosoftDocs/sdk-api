@@ -4,10 +4,10 @@ title: tagUpdateOperation
 author: windows-sdk-content
 description: Defines operations that can be attempted on an update.
 old-location: wua\updateoperation.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 93f38d77-fb8c-4d2e-acc2-f4c06cbc04f8
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: UpdateOperation, UpdateOperation enumeration [Windows Update Agent], tagUpdateOperation, uoInstallation, uoUninstallation, wua.updateoperation, wuapi/UpdateOperation, wuapi/uoInstallation, wuapi/uoUninstallation
 ms.prod: windows
 ms.technology: windows-sdk

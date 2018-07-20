@@ -54,7 +54,7 @@ req.product: Windows UI
 ## -description
 
 
-Retrieves the value of a <a href="https://msdn.microsoft.com/library/Bb773244(v=VS.85).aspx">MARGINS</a> property.
+Retrieves the value of a <a href="https://msdn.microsoft.com/f8aeb067-8564-4d87-9289-a10a7109e667">MARGINS</a> property.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Retrieves the value of a <a href="https://msdn.microsoft.com/library/Bb773244(v=
 
 Type: <b>HTHEME</b>
 
-Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/library/Bb759821(v=VS.85).aspx">OpenThemeData</a> to create an HTHEME.
+Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/3c496a3f-e4d0-4938-af66-85df93829cd8">OpenThemeData</a> to create an HTHEME.
 
 
 ### -param hdc [in]
@@ -80,21 +80,21 @@ HDC to select fonts into. This parameter may be set to <b>NULL</b>.
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the part that contains the <a href="https://msdn.microsoft.com/library/Bb773244(v=VS.85).aspx">MARGINS</a> property. See <a href="https://msdn.microsoft.com/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Value of type <b>int</b> that specifies the part that contains the <a href="https://msdn.microsoft.com/f8aeb067-8564-4d87-9289-a10a7109e667">MARGINS</a> property. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
 
 
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the state of the part. See <a href="https://msdn.microsoft.com/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Value of type <b>int</b> that specifies the state of the part. See <a href="https://msdn.microsoft.com/97740fb8-c393-4c12-b5ef-9285220117f0">Parts and States</a>.
 
 
 ### -param iPropId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the property to retrieve. For a list of possible values, see <a href="https://msdn.microsoft.com/library/Bb773213(v=VS.85).aspx">Property Identifiers</a>.
+Value of type <b>int</b> that specifies the property to retrieve. For a list of possible values, see <a href="https://msdn.microsoft.com/b0e22022-fea9-43d1-8ef0-7a1c518760f1">Property Identifiers</a>.
 
 
 ### -param prc [in]
@@ -106,9 +106,9 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5692
 
 ### -param pMargins [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb773244(v=VS.85).aspx">MARGINS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/f8aeb067-8564-4d87-9289-a10a7109e667">MARGINS</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb773244(v=VS.85).aspx">MARGINS</a> structure that receives the retrieved value.
+Pointer to a <a href="https://msdn.microsoft.com/f8aeb067-8564-4d87-9289-a10a7109e667">MARGINS</a> structure that receives the retrieved value.
 
 
 ## -returns
@@ -127,7 +127,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773213(v=VS.85).aspx">Property Identifiers</a>
+<a href="https://msdn.microsoft.com/b0e22022-fea9-43d1-8ef0-7a1c518760f1">Property Identifiers</a>
  
 
  

@@ -63,10 +63,10 @@ req.product: Windows XP with SP1 and later
 
 ### -param pBaseEntity [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb231373(v=VS.85).aspx">IEntity</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a>**</b>
 
 
-          Receives a pointer to the parent <a href="https://msdn.microsoft.com/library/Bb231373(v=VS.85).aspx">IEntity</a> object, or <b>NULL</b> if there is no parent entity.
+          Receives a pointer to the parent <a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a> object, or <b>NULL</b> if there is no parent entity.
         
 
 

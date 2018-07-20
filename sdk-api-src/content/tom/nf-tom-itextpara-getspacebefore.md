@@ -127,11 +127,11 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774021(v=VS.85).aspx">GetSpaceAfter</a>
+<a href="https://msdn.microsoft.com/affdb197-f8c5-46b1-a2b4-f21776e362b3">GetSpaceAfter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -139,15 +139,15 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787817(v=VS.85).aspx">SetSpaceAfter</a>
+<a href="https://msdn.microsoft.com/3e4fb12e-a7ac-4776-be66-ad5e4fdf9370">SetSpaceAfter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787820(v=VS.85).aspx">SetSpaceBefore</a>
+<a href="https://msdn.microsoft.com/003aa8d2-f80e-4925-8e25-dcb3ea6d95cf">SetSpaceBefore</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

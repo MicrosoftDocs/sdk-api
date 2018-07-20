@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method retrieves the <a href="https://msdn.microsoft.com/library/Aa381052(v=VS.85).aspx">task's</a> command-line parameters.
+This method retrieves the <a href="t.htm">task's</a> command-line parameters.
 
 
 ## -parameters

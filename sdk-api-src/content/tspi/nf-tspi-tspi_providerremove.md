@@ -7,7 +7,7 @@ old-location: tspi\tspi_providerremove.htm
 old-project: tapi
 ms.assetid: 3d6c6183-d5ab-4939-8f44-dfc42458706f
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_providerRemove, TSPI_providerRemove function [TAPI 2.2], _tspi_tspi_providerremove, tspi.tspi_providerremove, tspi/TSPI_providerRemove
 ms.prod: windows
 ms.technology: windows-sdk

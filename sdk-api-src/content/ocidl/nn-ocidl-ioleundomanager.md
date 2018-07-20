@@ -7,7 +7,7 @@ old-location: com\ioleundomanager.htm
 old-project: com
 ms.assetid: 0f507506-3589-4d5b-b1b3-010bce9ae42f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IOleUndoManager, IOleUndoManager interface [COM], IOleUndoManager interface [COM],described, _ole_ioleundomanager, com.ioleundomanager, ocidl/IOleUndoManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The <b>IOleUndoManager</b> interface enables containers to implement multi-level
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUndoManager</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleUndoManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUndoManager</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IOleUndoManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

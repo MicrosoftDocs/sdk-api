@@ -7,7 +7,7 @@ old-location: tapi2\linecreateagent.htm
 old-project: tapi
 ms.assetid: 14b2e9c8-32ab-42c0-acfa-17a0f8a9b73f
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_linecreateagent, lineCreateAgent, lineCreateAgent function [TAPI 2.2], lineCreateAgentA, lineCreateAgentW, tapi/lineCreateAgent, tapi/lineCreateAgentA, tapi/lineCreateAgentW, tapi2.linecreateagent"
 ms.prod: windows
 ms.technology: windows-sdk

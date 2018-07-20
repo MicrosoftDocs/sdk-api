@@ -4,10 +4,10 @@ title: ILocationReport::GetTimestamp
 author: windows-sdk-content
 description: Retrieves the date and time when the report was generated.
 old-location: winlocation_com_ref\ilocationreport_gettimestamp.htm
-old-project: LocationAPI
+old-project: locationapi
 ms.assetid: 3573b2e7-fa76-4819-894d-d1215dc625bc
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: GetTimestamp, GetTimestamp method [WinLocation], GetTimestamp method [WinLocation],ILocationReport interface, ILocationReport interface [WinLocation],GetTimestamp method, ILocationReport.GetTimestamp, ILocationReport::GetTimestamp, WinLocation_COM_Ref.ilocationreport_gettimestamp, locationapi/ILocationReport::GetTimestamp
 ms.prod: windows
 ms.technology: windows-sdk

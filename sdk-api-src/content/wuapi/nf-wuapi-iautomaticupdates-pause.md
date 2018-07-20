@@ -4,10 +4,10 @@ title: IAutomaticUpdates::Pause
 author: windows-sdk-content
 description: Pauses automatic updates.
 old-location: wua\iautomaticupdates_pause.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 42985fdf-b3b3-43f0-addb-478298bd8ebd
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],Pause method, IAutomaticUpdates.Pause, IAutomaticUpdates::Pause, Pause, Pause method [Windows Update Agent], Pause method [Windows Update Agent],IAutomaticUpdates interface, wua.iautomaticupdates_pause, wuapi/IAutomaticUpdates::Pause
 ms.prod: windows
 ms.technology: windows-sdk

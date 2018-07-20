@@ -7,7 +7,7 @@ old-location: perf\freememory.htm
 old-project: perfctrs
 ms.assetid: 3b2f9f68-131a-4e17-8b43-6c3a20871dad
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/18/2018
 ms.keywords: FreeMemory, FreeMemory callback function [Perf], PERF_MEM_FREE, PERF_MEM_FREE callback, perf.freememory, perflib/FreeMemory
 ms.prod: windows
 ms.technology: windows-sdk

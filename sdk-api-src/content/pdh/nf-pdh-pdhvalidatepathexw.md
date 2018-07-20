@@ -7,7 +7,7 @@ old-location: perf\pdhvalidatepathex.htm
 old-project: perfctrs
 ms.assetid: e6b52af7-7276-4565-aa61-73899796a13c
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/18/2018
 ms.keywords: PdhValidatePathEx, PdhValidatePathEx function [Perf], PdhValidatePathExA, PdhValidatePathExW, pdh/PdhValidatePathEx, pdh/PdhValidatePathExA, pdh/PdhValidatePathExW, perf.pdhvalidatepathex
 ms.prod: windows
 ms.technology: windows-sdk

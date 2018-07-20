@@ -2,7 +2,7 @@
 UID: TP:sens
 ms.assetid: 90cfd6a7-8ab8-37c6-ad62-4a2764299d85
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

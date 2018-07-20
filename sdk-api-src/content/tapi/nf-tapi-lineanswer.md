@@ -7,7 +7,7 @@ old-location: tapi2\lineanswer.htm
 old-project: tapi
 ms.assetid: dd51991c-c044-4b88-8f97-9e0ae701a2a5
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_lineanswer, lineAnswer, lineAnswer function [TAPI 2.2], tapi/lineAnswer, tapi2.lineanswer"
 ms.prod: windows
 ms.technology: windows-sdk

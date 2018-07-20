@@ -7,7 +7,7 @@ old-location: com\coaddrefserverprocess.htm
 old-project: com
 ms.assetid: 79887f9d-cad1-492a-b406-d1753ffaf82b
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: CoAddRefServerProcess, CoAddRefServerProcess function [COM], _com_CoAddRefServerProcess, com.coaddrefserverprocess, combaseapi/CoAddRefServerProcess
 ms.prod: windows
 ms.technology: windows-sdk

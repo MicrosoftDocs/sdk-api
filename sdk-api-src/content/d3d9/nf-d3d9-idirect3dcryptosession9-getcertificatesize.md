@@ -7,7 +7,7 @@ old-location: mf\idirect3dcryptosession9_getcertificatesize.htm
 old-project: medfound
 ms.assetid: f85f3453-5bf8-412c-9ed9-e39bff496df6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetCertificateSize, GetCertificateSize method [Media Foundation], GetCertificateSize method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],GetCertificateSize method, IDirect3DCryptoSession9.GetCertificateSize, IDirect3DCryptoSession9::GetCertificateSize, d3d9/IDirect3DCryptoSession9::GetCertificateSize, mf.idirect3dcryptosession9_getcertificatesize
 ms.prod: windows
 ms.technology: windows-sdk

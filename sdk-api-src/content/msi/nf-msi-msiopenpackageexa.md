@@ -4,10 +4,10 @@ title: MsiOpenPackageExA function
 author: windows-sdk-content
 description: The MsiOpenPackageEx function opens a package to use with functions that access the product database.
 old-location: setup\msiopenpackageex.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 9e9550e9-9c10-4ef1-a172-dfacaaa37fd0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: MSIOPENPACKAGEFLAGS_IGNOREMACHINESTATE, MsiOpenPackageEx, MsiOpenPackageEx function, MsiOpenPackageExA, MsiOpenPackageExW, _msi_msiopenpackageex, msi/MsiOpenPackageEx, msi/MsiOpenPackageExA, msi/MsiOpenPackageExW, setup.msiopenpackageex
 ms.prod: windows
 ms.technology: windows-sdk

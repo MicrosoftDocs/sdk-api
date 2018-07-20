@@ -7,7 +7,7 @@ old-location: com\olesetcontainedobject.htm
 old-project: com
 ms.assetid: 154aa6f0-3c02-4139-8c8e-c2112b015fe0
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: OleSetContainedObject, OleSetContainedObject function [COM], _ole_OleSetContainedObject, com.olesetcontainedobject, ole2/OleSetContainedObject
 ms.prod: windows
 ms.technology: windows-sdk

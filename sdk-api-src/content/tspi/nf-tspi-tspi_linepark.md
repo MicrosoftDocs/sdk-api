@@ -7,7 +7,7 @@ old-location: tspi\tspi_linepark.htm
 old-project: tapi
 ms.assetid: 6ff14bfc-ba48-4f70-b732-81c19dba92c5
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_linePark, TSPI_linePark function [TAPI 2.2], _tspi_tspi_linepark, tspi.tspi_linepark, tspi/TSPI_linePark
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PeerGraphUniversalTimeToPeerTime function
 author: windows-sdk-content
 description: The PeerGraphUniversalTimeToPeerTime function converts a universal time value from the peer's computer to a common peer graph time value.
 old-location: p2p\peergraphuniversaltimetopeertime.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 4d2c8943-cef5-4df3-96fe-447bd5bf37e8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: PeerGraphUniversalTimeToPeerTime, PeerGraphUniversalTimeToPeerTime function [Peer Networking], p2p.peergraphuniversaltimetopeertime, p2p/PeerGraphUniversalTimeToPeerTime
 ms.prod: windows
 ms.technology: windows-sdk

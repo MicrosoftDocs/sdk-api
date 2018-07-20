@@ -7,7 +7,7 @@ old-location: mf\imftimedtextformattedtext.htm
 old-project: medfound
 ms.assetid: 98327CA2-21C4-481F-B979-12C31AA1E7B2
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFTimedTextFormattedText, IMFTimedTextFormattedText interface [Media Foundation], IMFTimedTextFormattedText interface [Media Foundation],described, mf.imftimedtextformattedtext, mfmediaengine/IMFTimedTextFormattedText
 ms.prod: windows
 ms.technology: windows-sdk

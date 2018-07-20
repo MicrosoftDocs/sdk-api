@@ -7,7 +7,7 @@ old-location: tapi3\itphone_put_buttonmode.htm
 old-project: tapi
 ms.assetid: d2287c86-5884-4890-956c-fcc26c426cd3
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_ButtonMode method, ITPhone.put_ButtonMode, ITPhone::put_ButtonMode, _tapi3_itphone_put_buttonmode, put_ButtonMode, put_ButtonMode method [TAPI 2.2], put_ButtonMode method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_buttonmode, tapi3if/ITPhone::put_ButtonMode
 ms.prod: windows
 ms.technology: windows-sdk

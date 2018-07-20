@@ -4,10 +4,10 @@ title: PeerGroupParseInvitation function
 author: windows-sdk-content
 description: The PeerGroupParseInvitation function returns a PEER_INVITATION_INFO structure with the details of a specific invitation.
 old-location: p2p\peergroupparseinvitation.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: ddc1c419-7be3-4115-af21-1108921c7b1d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: PeerGroupParseInvitation, PeerGroupParseInvitation function [Peer Networking], p2p.peergroupparseinvitation, p2p/PeerGroupParseInvitation
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\ienumacdgroup.htm
 old-project: tapi
 ms.assetid: 301cd27e-00ac-44a4-b5c6-0efcb36ad974
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumACDGroup, IEnumACDGroup interface [TAPI 2.2], IEnumACDGroup interface [TAPI 2.2],described, _tapi3_ienumacdgroup, tapi3.ienumacdgroup, tapi3cc/IEnumACDGroup
 ms.prod: windows
 ms.technology: windows-sdk

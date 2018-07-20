@@ -7,7 +7,7 @@ old-location: winsock\nspv2lookupserviceend.htm
 old-project: winsock
 ms.assetid: 5f2b56c5-3a8e-4bf9-8f28-d2a06543227b
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/18/2018
 ms.keywords: LPNSPV2LOOKUPSERVICEEND, NSPv2LookupServiceEnd, NSPv2LookupServiceEnd function [Winsock], winsock.nspv2lookupserviceend, ws2spi/NSPv2LookupServiceEnd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ The handle obtained previously by a call to
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_INVALID_HANDLE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_INVALID_HANDLE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -96,7 +96,7 @@ The handle is not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -124,7 +124,7 @@ It is possible to receive an
 <a href="https://msdn.microsoft.com/957fe544-9a3f-47f4-a98c-0624747650f4">NSPv2LookupServiceNextEx</a>. This indicates that the client has canceled the request and the provider should close the handle and return from the 
 <b>NSPv2LookupServiceNextEx</b> function call as well, setting the last error to <b>WSA_E_CANCELLED</b>.
 
-In Windows Sockets 2, conflicting error codes are defined for <b>WSAECANCELLED</b> and <a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_E_CANCELLED</a>. The error code <b>WSAECANCELLED</b> will be removed in a future version and only WSA_E_CANCELLED will remain. Namespace Providers should use the WSA_E_CANCELLED error code to maintain compatibility with the widest possible range of applications.
+In Windows Sockets 2, conflicting error codes are defined for <b>WSAECANCELLED</b> and <a href="windows_sockets_error_codes_2.htm">WSA_E_CANCELLED</a>. The error code <b>WSAECANCELLED</b> will be removed in a future version and only WSA_E_CANCELLED will remain. Namespace Providers should use the WSA_E_CANCELLED error code to maintain compatibility with the widest possible range of applications.
 
 
 

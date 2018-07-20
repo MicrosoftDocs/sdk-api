@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Scrolls the caret into view in an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761637(v=VS.85).aspx">EM_SCROLLCARET</a> message explicitly.
+Scrolls the caret into view in an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/7a33034d-9369-49f8-a881-0c1d2cedff6a">EM_SCROLLCARET</a> message explicitly.
 
 
 ## -parameters

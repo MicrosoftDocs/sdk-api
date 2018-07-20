@@ -7,7 +7,7 @@ old-location: mf\imfmediasession_start.htm
 old-project: medfound
 ms.assetid: 1bdec0c0-b042-4e5e-a72b-b15942750ced
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 1bdec0c0-b042-4e5e-a72b-b15942750ced, GUID_NULL, IMFMediaSession interface [Media Foundation],Start method, IMFMediaSession.Start, IMFMediaSession::Start, MF_TIME_FORMAT_ENTRY_RELATIVE, MF_TIME_FORMAT_SEGMENT_OFFSET, Start, Start method [Media Foundation], Start method [Media Foundation],IMFMediaSession interface, mf.imfmediasession_start, mfidl/IMFMediaSession::Start
 ms.prod: windows
 ms.technology: windows-sdk

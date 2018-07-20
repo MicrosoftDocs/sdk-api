@@ -145,7 +145,7 @@ If
 
 
 
-<b>CharNextExA</b> specifies a code-page to use, whereas <a href="https://msdn.microsoft.com/library/ms647469(v=VS.85).aspx">CharNext</a> (if called as an ANSI function) uses the system default code-page.
+<b>CharNextExA</b> specifies a code-page to use, whereas <a href="https://msdn.microsoft.com/23be5ba3-bc2e-4c5b-95d2-b36dc24007ae">CharNext</a> (if called as an ANSI function) uses the system default code-page.
 
 
 
@@ -155,11 +155,11 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647469(v=VS.85).aspx">CharNext</a>
+<a href="https://msdn.microsoft.com/23be5ba3-bc2e-4c5b-95d2-b36dc24007ae">CharNext</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647472(v=VS.85).aspx">CharPrevExA</a>
+<a href="https://msdn.microsoft.com/887a11c3-57fb-4407-a842-957e20931610">CharPrevExA</a>
 
 
 

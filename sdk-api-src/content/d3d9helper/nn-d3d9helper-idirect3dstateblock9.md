@@ -71,7 +71,7 @@ The <b>IDirect3DStateBlock9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205889(v=VS.85).aspx">Apply</a>
+<a href="https://msdn.microsoft.com/cb3a5ddb-eb09-4e95-954d-2a4acea80e4b">Apply</a>
 </td>
 <td align="left" width="63%">
 Apply the state block to the current device state.
@@ -80,7 +80,7 @@ Apply the state block to the current device state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb205890(v=VS.85).aspx">Capture</a>
+<a href="https://msdn.microsoft.com/da31beba-89b4-48a9-909c-cf505ac758a4">Capture</a>
 </td>
 <td align="left" width="63%">
 Capture the current value of states that are included in a stateblock.

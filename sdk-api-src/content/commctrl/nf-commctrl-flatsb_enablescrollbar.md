@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Enables or disables one or both flat scroll bar direction buttons. If flat scroll bars are not initialized for the window, this function calls the standard <a href="https://msdn.microsoft.com/library/Bb787579(v=VS.85).aspx">EnableScrollBar</a> function. 
+Enables or disables one or both flat scroll bar direction buttons. If flat scroll bars are not initialized for the window, this function calls the standard <a href="https://msdn.microsoft.com/f00224d5-5f37-4b18-91e2-63c66797b243">EnableScrollBar</a> function. 
 
 
 ## -parameters
@@ -69,7 +69,7 @@ TBD
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
-A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
+A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/ecad7e1b-5250-47fc-bc0f-81889186729f">InitializeFlatSB</a>. 
 
 
 #### - wArrows

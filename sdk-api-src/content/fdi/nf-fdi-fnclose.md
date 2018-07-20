@@ -7,7 +7,7 @@ old-location: winprog\fnclose.htm
 old-project: devnotes
 ms.assetid: 89db9c2a-42ab-410d-a427-60d282385c2b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: FNCLOSE, FNCLOSE macro [Windows API], fdi/FNCLOSE, winprog.fnclose
 ms.prod: windows
 ms.technology: windows-sdk

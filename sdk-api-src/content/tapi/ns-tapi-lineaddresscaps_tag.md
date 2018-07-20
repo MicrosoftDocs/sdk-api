@@ -7,7 +7,7 @@ old-location: tapi2\lineaddresscaps_str.htm
 old-project: tapi
 ms.assetid: c1fe1aaf-2f50-4423-bacf-6a3cf218a809
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "*LPLINEADDRESSCAPS, LINEADDRESSCAPS, LINEADDRESSCAPS structure [TAPI 2.2], LPLINEADDRESSCAPS, LPLINEADDRESSCAPS structure pointer [TAPI 2.2], _tapi2_lineaddresscaps_str, lineaddresscaps_tag, tapi/LINEADDRESSCAPS, tapi/LPLINEADDRESSCAPS, tapi2.lineaddresscaps_str"
 ms.prod: windows
 ms.technology: windows-sdk

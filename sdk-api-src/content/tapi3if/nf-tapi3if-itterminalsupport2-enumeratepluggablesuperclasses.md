@@ -7,7 +7,7 @@ old-location: tapi3\itterminalsupport2_enumeratepluggablesuperclasses.htm
 old-project: tapi
 ms.assetid: 5f1e8490-1b26-45e6-9f9a-e7ddcc840e90
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: EnumeratePluggableSuperclasses, EnumeratePluggableSuperclasses method [TAPI 2.2], EnumeratePluggableSuperclasses method [TAPI 2.2],ITTerminalSupport2 interface, ITTerminalSupport2 interface [TAPI 2.2],EnumeratePluggableSuperclasses method, ITTerminalSupport2.EnumeratePluggableSuperclasses, ITTerminalSupport2::EnumeratePluggableSuperclasses, _tapi3_itterminalsupport2_enumeratepluggablesuperclasses, tapi3.itterminalsupport2_enumeratepluggablesuperclasses, tapi3if/ITTerminalSupport2::EnumeratePluggableSuperclasses
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,8 +123,8 @@ The <i>ppSuperclassEnumerator</i> parameter is not a valid pointer.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/80b84976-4256-47d2-a965-3ebe89a3821a">IEnumPluggableSuperclassInfo</a> interface returned by <b>ITTerminalSupport2::EnumeratePluggableSuperclasses</b>. The application must call <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/80b84976-4256-47d2-a965-3ebe89a3821a">IEnumPluggableSuperclassInfo</a> interface returned by <b>ITTerminalSupport2::EnumeratePluggableSuperclasses</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>IEnumPluggableSuperclassInfo</b> interface to free resources associated with it.
 
 

@@ -7,7 +7,7 @@ old-location: com\oleinitialize.htm
 old-project: com
 ms.assetid: 9a13e7a0-f2e2-466b-98f5-38d5972fa391
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: OleInitialize, OleInitialize function [COM], _ole_OleInitialize, com.oleinitialize, ole2/OleInitialize
 ms.prod: windows
 ms.technology: windows-sdk

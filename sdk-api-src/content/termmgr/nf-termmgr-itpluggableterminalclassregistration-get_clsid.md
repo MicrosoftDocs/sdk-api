@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalclassregistration_get_clsid.htm
 old-project: tapi
 ms.assetid: 085139b8-3f72-40d5-8323-c6083f06abe7
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_CLSID method, ITPluggableTerminalClassRegistration.get_CLSID, ITPluggableTerminalClassRegistration::get_CLSID, _tapi3_itpluggableterminalclassregistration_get_clsid, get_CLSID, get_CLSID method [TAPI 2.2], get_CLSID method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_get_clsid, termmgr/ITPluggableTerminalClassRegistration::get_CLSID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The
 ### -param pCLSID [out]
 
 The <b>BSTR</b> representation of the CLSID. The <b>BSTR</b> is allocated using 
-<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
 
 
 ## -returns

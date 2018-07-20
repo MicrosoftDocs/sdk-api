@@ -7,7 +7,7 @@ old-location: mf\imfmediasession_cleartopologies.htm
 old-project: medfound
 ms.assetid: fcb7e5f1-1095-4766-afed-43ad2279abb4
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: ClearTopologies, ClearTopologies method [Media Foundation], ClearTopologies method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],ClearTopologies method, IMFMediaSession.ClearTopologies, IMFMediaSession::ClearTopologies, fcb7e5f1-1095-4766-afed-43ad2279abb4, mf.imfmediasession_cleartopologies, mfidl/IMFMediaSession::ClearTopologies
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wininet\unlockurlcacheentryfile.htm
 old-project: wininet
 ms.assetid: ccc650dc-1759-4438-85d5-539c71d21a74
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/18/2018
 ms.keywords: UnlockUrlCacheEntryFile, UnlockUrlCacheEntryFile function [WinINet], UnlockUrlCacheEntryFileA, UnlockUrlCacheEntryFileW, _inet_unlockurlcacheentryfile_function, wininet.unlockurlcacheentryfile, wininet/UnlockUrlCacheEntryFile, wininet/UnlockUrlCacheEntryFileA, wininet/UnlockUrlCacheEntryFileW
 ms.prod: windows
 ms.technology: windows-sdk

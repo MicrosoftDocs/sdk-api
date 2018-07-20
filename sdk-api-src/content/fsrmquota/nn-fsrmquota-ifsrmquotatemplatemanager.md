@@ -58,7 +58,7 @@ req.product: Internet Explorer 5
 Used to manage quota templates.
 
 To get this interface, call the 
-    <a href="https://msdn.microsoft.com/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> function. Use 
+    <a href="_com_CoCreateInstanceEx">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmQuotaTemplateManager</b> as the class identifier and 
     <code>__uuidof(IFsrmQuotaTemplateManager)</code> as the interface 
     identifier. For an example, see 
@@ -67,7 +67,7 @@ To get this interface, call the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmQuotaTemplateManager</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmQuotaTemplateManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmQuotaTemplateManager</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFsrmQuotaTemplateManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

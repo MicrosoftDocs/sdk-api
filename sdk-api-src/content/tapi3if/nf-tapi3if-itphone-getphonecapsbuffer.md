@@ -7,7 +7,7 @@ old-location: tapi3\itphone_getphonecapsbuffer.htm
 old-project: tapi
 ms.assetid: 239902ca-0e9e-4b8d-927d-ee46a35dd9d8
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: GetPhoneCapsBuffer, GetPhoneCapsBuffer method [TAPI 2.2], GetPhoneCapsBuffer method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],GetPhoneCapsBuffer method, ITPhone.GetPhoneCapsBuffer, ITPhone::GetPhoneCapsBuffer, _tapi3_itphone_getphonecapsbuffer, tapi3.itphone_getphonecapsbuffer, tapi3if/ITPhone::GetPhoneCapsBuffer
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wininet\internetgoonline.htm
 old-project: wininet
 ms.assetid: ed1c0282-5469-49d5-8a8c-b7671d27ebd2
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/18/2018
 ms.keywords: INTERNET_GOONLINE_REFRESH, InternetGoOnline, InternetGoOnline function [WinINet], InternetGoOnlineA, InternetGoOnlineW, _inet_internetgoonline_function, wininet.internetgoonline, winineti/InternetGoOnline, winineti/InternetGoOnlineA, winineti/InternetGoOnlineW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: MsiEnumFeaturesW function
 author: windows-sdk-content
 description: The MsiEnumFeatures function enumerates the published features for a given product. This function retrieves one feature ID each time it is called.
 old-location: setup\msienumfeatures.htm
-old-project: Msi
+old-project: msi
 ms.assetid: 0ac6fea4-cdc8-4799-9001-f9399b22e7a5
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: MsiEnumFeatures, MsiEnumFeatures function, MsiEnumFeaturesA, MsiEnumFeaturesW, _msi_msienumfeatures, msi/MsiEnumFeatures, msi/MsiEnumFeaturesA, msi/MsiEnumFeaturesW, setup.msienumfeatures
 ms.prod: windows
 ms.technology: windows-sdk

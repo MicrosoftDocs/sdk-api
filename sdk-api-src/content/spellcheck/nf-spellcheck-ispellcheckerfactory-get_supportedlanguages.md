@@ -7,7 +7,7 @@ old-location: intl\ispellcheckerfactory_supportedlanguages.htm
 old-project: Intl
 ms.assetid: ae6794fd-ce7c-4c62-abc5-824699054a37
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 07/18/2018
 ms.keywords: ISpellCheckerFactory interface [Internationalization for Windows Applications],SupportedLanguages property, ISpellCheckerFactory.SupportedLanguages, ISpellCheckerFactory.get_SupportedLanguages, ISpellCheckerFactory::SupportedLanguages, ISpellCheckerFactory::get_SupportedLanguages, SupportedLanguages property [Internationalization for Windows Applications], SupportedLanguages property [Internationalization for Windows Applications],ISpellCheckerFactory interface, get_SupportedLanguages, intl.ispellcheckerfactory_supportedlanguages, spellcheck/ISpellCheckerFactory::SupportedLanguages, spellcheck/ISpellCheckerFactory::get_SupportedLanguages
 ms.prod: windows
 ms.technology: windows-sdk

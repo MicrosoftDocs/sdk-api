@@ -7,7 +7,7 @@ old-location: com\coinitializeex.htm
 old-project: com
 ms.assetid: ffb79c0f-aeda-4ea1-aea8-afb79109837f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: CoInitializeEx, CoInitializeEx function [COM], _com_CoInitializeEx, com.coinitializeex, combaseapi/CoInitializeEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -139,7 +139,7 @@ After the concurrency model for a thread is set, it cannot be changed. A call to
 
 
 
-Objects created in a single-threaded apartment (STA) receive method calls only from their apartment's thread, so calls are serialized and arrive only at message-queue boundaries (when the <a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function is called).
+Objects created in a single-threaded apartment (STA) receive method calls only from their apartment's thread, so calls are serialized and arrive only at message-queue boundaries (when the <a href="_win32_PeekMessage_cpp">PeekMessage</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/jj151552">SendMessage</a> function is called).
 
 Objects created on a COM thread in a multithread apartment (MTA) must be able to receive method calls from other threads at any time. You would typically implement some form of concurrency control in a multithreaded object's code using synchronization primitives such as critical sections, semaphores, or mutexes to help protect the object's data. 
 

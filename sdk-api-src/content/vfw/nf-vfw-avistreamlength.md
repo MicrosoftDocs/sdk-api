@@ -7,7 +7,7 @@ old-location: multimedia\avistreamlength.htm
 old-project: Multimedia
 ms.assetid: 5fc5dd31-9f2d-48c8-8d7e-76add4608473
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: AVIStreamLength, AVIStreamLength function [Windows Multimedia], _win32_AVIStreamLength, multimedia.avistreamlength, vfw/AVIStreamLength
 ms.prod: windows
 ms.technology: windows-sdk

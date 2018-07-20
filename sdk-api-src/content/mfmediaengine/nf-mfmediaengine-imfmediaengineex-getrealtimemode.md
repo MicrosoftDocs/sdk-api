@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_getrealtimemode.htm
 old-project: medfound
 ms.assetid: 473a2b5a-5b9d-4754-bd32-89c9c4ab8c4a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetRealTimeMode, GetRealTimeMode method [Media Foundation], GetRealTimeMode method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetRealTimeMode method, IMFMediaEngineEx.GetRealTimeMode, IMFMediaEngineEx::GetRealTimeMode, mf.imfmediaengineex_getrealtimemode, mfmediaengine/IMFMediaEngineEx::GetRealTimeMode
 ms.prod: windows
 ms.technology: windows-sdk

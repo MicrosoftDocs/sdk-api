@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_hardware_composition_support_flags.htm
 old-project: direct3ddxgi
 ms.assetid: FA8BCF74-58CB-4806-A0A5-1D8E6EC576DC
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS, DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS enumeration [DXGI], DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAG_CURSOR_STRETCHED, DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAG_FULLSCREEN, DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAG_WINDOWED, direct3ddxgi.dxgi_hardware_composition_support_flags, dxgi1_6/DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS, dxgi1_6/DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAG_CURSOR_STRETCHED, dxgi1_6/DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAG_FULLSCREEN, dxgi1_6/DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAG_WINDOWED
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ This flag specifies that swapchain composition facilitated using hardware can ca
 
 
 
-Values of this enumeration are returned from the <a href="https://msdn.microsoft.com/library/Mt846755(v=VS.85).aspx">IDXGIOutput6::CheckHardwareCompositionSupport</a> method in the <i>pFlags</i> out parameter.
+Values of this enumeration are returned from the <a href="direct3ddxgi.idxgioutput6_checkhardwarecompositionsupport">IDXGIOutput6::CheckHardwareCompositionSupport</a> method in the <i>pFlags</i> out parameter.
 
 
 
@@ -92,7 +92,7 @@ Values of this enumeration are returned from the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt846755(v=VS.85).aspx">IDXGIOutput6::CheckHardwareCompositionSupport method</a>
+<a href="direct3ddxgi.idxgioutput6_checkhardwarecompositionsupport">IDXGIOutput6::CheckHardwareCompositionSupport method</a>
  
 
  

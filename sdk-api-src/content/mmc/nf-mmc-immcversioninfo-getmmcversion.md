@@ -4,10 +4,10 @@ title: IMMCVersionInfo::GetMMCVersion
 author: windows-sdk-content
 description: The GetMMCVersion method retrieves version information for the MMC application.
 old-location: mmc\immcversioninfo_getmmcversion.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 64b8cdfe-e65e-48c6-bc7a-2349140867a4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: GetMMCVersion, GetMMCVersion method [MMC], GetMMCVersion method [MMC],IMMCVersionInfo interface, IMMCVersionInfo interface [MMC],GetMMCVersion method, IMMCVersionInfo.GetMMCVersion, IMMCVersionInfo::GetMMCVersion, _slate_immcversioninfo_getmmcversion, mmc.immcversioninfo_getmmcversion, mmc/IMMCVersionInfo::GetMMCVersion
 ms.prod: windows
 ms.technology: windows-sdk

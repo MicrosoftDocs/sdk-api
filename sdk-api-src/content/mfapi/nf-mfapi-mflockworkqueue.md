@@ -7,7 +7,7 @@ old-location: mf\mflockworkqueue.htm
 old-project: medfound
 ms.assetid: 307a1ec5-e54a-47f6-8ace-3b935081faf8
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 307a1ec5-e54a-47f6-8ace-3b935081faf8, MFLockWorkQueue, MFLockWorkQueue function [Media Foundation], mf.mflockworkqueue, mfapi/MFLockWorkQueue
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DeleteAce function
 author: windows-sdk-content
 description: Deletes an access control entry (ACE) from an access control list (ACL).
 old-location: security\deleteace.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 02ce45ad-3d51-4548-848e-a62bf4bf72a8
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: DeleteAce, DeleteAce function [Security], _win32_deleteace, security.deleteace, securitybaseapi/DeleteAce
 ms.prod: windows
 ms.technology: windows-sdk

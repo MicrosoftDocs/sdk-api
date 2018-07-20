@@ -7,7 +7,7 @@ old-location: mf\mfcreatesamplegrabbersinkactivate.htm
 old-project: medfound
 ms.assetid: ac8e415e-5df8-4fdb-adf6-c3c717c3d625
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: MFCreateSampleGrabberSinkActivate, MFCreateSampleGrabberSinkActivate function [Media Foundation], ac8e415e-5df8-4fdb-adf6-c3c717c3d625, mf.mfcreatesamplegrabbersinkactivate, mfidl/MFCreateSampleGrabberSinkActivate
 ms.prod: windows
 ms.technology: windows-sdk

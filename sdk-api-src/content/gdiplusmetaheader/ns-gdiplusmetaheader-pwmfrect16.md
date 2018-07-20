@@ -92,7 +92,7 @@ Bottom coordinate of the rectangle that bounds the metafile.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534075(v=VS.85).aspx">WmfPlaceableFileHeader</a>
+<a href="https://msdn.microsoft.com/d8315d7d-b613-4175-b7cd-7a36cb411a12">WmfPlaceableFileHeader</a>
  
 
  

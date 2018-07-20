@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>Sharpen::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/library/ms534503(v=VS.85).aspx">Sharpen</a> object. 
+The <b>Sharpen::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/28d30f3d-5e55-4d65-bbc2-6fa2e049f349">Sharpen</a> object. 
 
 
 ## -parameters
@@ -61,9 +61,9 @@ The <b>Sharpen::SetParameters</b> method sets the parameters of this <a href="ht
 
 ### -param parameters [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms534073(v=VS.85).aspx">SharpenParams</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/9a3dd5ec-789b-4191-a680-6d85c12ab97b">SharpenParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms534073(v=VS.85).aspx">SharpenParams</a> structure that specifies the parameters.
+Pointer to a <a href="https://msdn.microsoft.com/9a3dd5ec-789b-4191-a680-6d85c12ab97b">SharpenParams</a> structure that specifies the parameters.
 
 
 ## -returns
@@ -87,11 +87,11 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534503(v=VS.85).aspx">Sharpen</a>
+<a href="https://msdn.microsoft.com/28d30f3d-5e55-4d65-bbc2-6fa2e049f349">Sharpen</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms534757(v=VS.85).aspx">Sharpen::GetParameters</a>
+<a href="https://msdn.microsoft.com/5c2adaf9-4569-4cc7-a413-ea089869b42f">Sharpen::GetParameters</a>
  
 
  

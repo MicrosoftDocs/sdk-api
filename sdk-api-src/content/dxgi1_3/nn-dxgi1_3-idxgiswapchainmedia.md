@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchainmedia.htm
 old-project: direct3ddxgi
 ms.assetid: 80C2A6D8-3435-4671-A473-0EF0F5A70ADB
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: IDXGISwapChainMedia, IDXGISwapChainMedia interface [DXGI], IDXGISwapChainMedia interface [DXGI],described, direct3ddxgi.idxgiswapchainmedia, dxgi1_3/IDXGISwapChainMedia
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,7 @@ req.product: Windows Media Format 9 Series or later
 
 This swap chain interface allows desktop media applications to request a seamless change to a specific refresh rate.
 
-
-        For example, a media application presenting video at a typical framerate of 23.997 frames per second can request a custom refresh rate of 24 or 48 Hz to eliminate jitter. If the request is approved, the app starts presenting frames at the custom refresh rate immediately - without the typical 'mode switch' a user would experience when changing the refresh rate themselves by using the control panel.
+For example, a media application presenting video at a typical framerate of 23.997 frames per second can request a custom refresh rate of 24 or 48 Hz to eliminate jitter. If the request is approved, the app starts presenting frames at the custom refresh rate immediately - without the typical 'mode switch' a user would experience when changing the refresh rate themselves by using the control panel.
       
 
 
@@ -108,12 +107,10 @@ Requests a custom presentation duration (custom refresh rate).
 
 
 
-
-          Seamless changes to custom framerates can only be done on integrated panels. Custom frame rates cannot be applied to external displays. If the DXGI output adapter is attached to an external display then <a href="https://msdn.microsoft.com/3334E761-745E-4476-9AB4-4FC6DABC78E8">CheckPresentDurationSupport</a> will return (0, 0) for upper and lower bounds, indicating that the device does not support seamless refresh rate changes.
+Seamless changes to custom framerates can only be done on integrated panels. Custom frame rates cannot be applied to external displays. If the DXGI output adapter is attached to an external display then <a href="https://msdn.microsoft.com/3334E761-745E-4476-9AB4-4FC6DABC78E8">CheckPresentDurationSupport</a> will return (0, 0) for upper and lower bounds, indicating that the device does not support seamless refresh rate changes.
         
 
-
-          Custom refresh rates can be used when displaying video with a dynamic framerate. However, the refresh rate change should be kept imperceptible to the user. A best practice for keeping the refresh rate transition imperceptible  is to only set the custom framerate if the app determines it can present at that rate for least 5 seconds.
+Custom refresh rates can be used when displaying video with a dynamic framerate. However, the refresh rate change should be kept imperceptible to the user. A best practice for keeping the refresh rate transition imperceptible  is to only set the custom framerate if the app determines it can present at that rate for least 5 seconds.
         
 
 

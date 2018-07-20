@@ -4,10 +4,10 @@ title: PeerGraphGetProperties function
 author: windows-sdk-content
 description: The PeerGraphGetProperties function retrieves the current peer graph properties.
 old-location: p2p\peergraphgetproperties.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: f62fadf8-8cc2-4597-93b0-e076258ccd6a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: PeerGraphGetProperties, PeerGraphGetProperties function [Peer Networking], p2p.peergraphgetproperties, p2p/PeerGraphGetProperties
 ms.prod: windows
 ms.technology: windows-sdk

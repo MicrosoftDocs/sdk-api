@@ -63,7 +63,7 @@ req.product: ADAM
 
 ### -param pUseProxy [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa965699(v=VS.85).aspx">PROXY_ACCESS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/40104593-80f1-4ac5-811c-b923b1a72435">PROXY_ACCESS</a>*</b>
 
 
                     Receives a pointer to the proxy server to be used.

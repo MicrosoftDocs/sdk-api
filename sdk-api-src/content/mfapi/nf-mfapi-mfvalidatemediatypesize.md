@@ -7,7 +7,7 @@ old-location: mf\mfvalidatemediatypesize.htm
 old-project: medfound
 ms.assetid: 782b59ca-bfa8-4217-9b72-50a78937775a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 782b59ca-bfa8-4217-9b72-50a78937775a, FORMAT_DvInfo, FORMAT_MFVideoFormat, FORMAT_MPEG2Video, FORMAT_MPEGStreams, FORMAT_MPEGVideo, FORMAT_VideoInfo, FORMAT_VideoInfo2, FORMAT_WaveFormatEx, MFValidateMediaTypeSize, MFValidateMediaTypeSize function [Media Foundation], mf.mfvalidatemediatypesize, mfapi/MFValidateMediaTypeSize
 ms.prod: windows
 ms.technology: windows-sdk

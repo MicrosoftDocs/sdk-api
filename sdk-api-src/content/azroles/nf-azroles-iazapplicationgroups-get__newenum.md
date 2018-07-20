@@ -4,10 +4,10 @@ title: IAzApplicationGroups::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 old-location: security\iazapplicationgroups_newenum.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 412fe347-63cb-4f87-98e1-2d8665f39a6a
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: AzApplicationGroups object [Security],_NewEnum property, IAzApplicationGroups interface [Security],_NewEnum property, IAzApplicationGroups._NewEnum, IAzApplicationGroups.get__NewEnum, IAzApplicationGroups::_NewEnum, IAzApplicationGroups::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzApplicationGroups object, _NewEnum property [Security],IAzApplicationGroups interface, azroles/IAzApplicationGroups::_NewEnum, azroles/IAzApplicationGroups::get__NewEnum, get__NewEnum, security.iazapplicationgroups_newenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>_NewEnum</b> property retrieves an <a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
+The <b>_NewEnum</b> property retrieves an <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 
 This property is read-only.
 

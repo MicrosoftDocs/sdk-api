@@ -7,7 +7,7 @@ old-location: mf\packratio.htm
 old-project: medfound
 ms.assetid: 2E175E21-D5A3-43B1-8AB9-A427E0F9350E
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: PackRatio, PackRatio function [Media Foundation], mf.packratio, mfapi/PackRatio
 ms.prod: windows
 ms.technology: windows-sdk

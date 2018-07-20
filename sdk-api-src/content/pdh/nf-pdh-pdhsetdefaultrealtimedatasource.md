@@ -7,7 +7,7 @@ old-location: perf\pdhsetdefaultrealtimedatasource.htm
 old-project: perfctrs
 ms.assetid: 5a46ac26-c1a1-40c1-a328-688e0b394e18
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/18/2018
 ms.keywords: DATA_SOURCE_REGISTRY, DATA_SOURCE_WBEM, PdhSetDefaultRealTimeDataSource, PdhSetDefaultRealTimeDataSource function [Perf], _win32_pdhsetdefaultrealtimedatasource, base.pdhsetdefaultrealtimedatasource, pdh/PdhSetDefaultRealTimeDataSource, perf.pdhsetdefaultrealtimedatasource
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: View::Close
 author: windows-sdk-content
 description: The Close method closes the view. You cannot close the last view of the document; instead, you must close the document.
 old-location: mmc\view_close.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 5fe087c1-cee1-4f84-aa0c-6738af87d53e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: Close, Close method [MMC], Close method [MMC],View interface, Close method [MMC],View object, View interface [MMC],Close method, View object [MMC],Close method, View.Close, View::Close, _slate_view.close_method, mmc.view_close
 ms.prod: windows
 ms.technology: windows-sdk

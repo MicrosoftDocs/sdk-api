@@ -7,7 +7,7 @@ old-location: mf\imftransform_getstreamlimits.htm
 old-project: medfound
 ms.assetid: 4d9585f0-5818-4e7f-925c-4c50ae6a6edc
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 4d9585f0-5818-4e7f-925c-4c50ae6a6edc, GetStreamLimits, GetStreamLimits method [Media Foundation], GetStreamLimits method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetStreamLimits method, IMFTransform.GetStreamLimits, IMFTransform::GetStreamLimits, mf.imftransform_getstreamlimits, mftransform/IMFTransform::GetStreamLimits
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,7 +119,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
         This method should not be called with <b>NULL</b> parameters, although in practice some implementations may allow <b>NULL</b> parameters.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetStreamLimits</b>. See <a href="https://msdn.microsoft.com/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetStreamLimits</b>. See <a href="comparison_of_mfts_and_dmos.htm">Creating Hybrid DMO/MFT Objects</a>.
 
 
 

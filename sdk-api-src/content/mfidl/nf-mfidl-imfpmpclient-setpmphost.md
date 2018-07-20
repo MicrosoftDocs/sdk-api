@@ -7,7 +7,7 @@ old-location: mf\imfpmpclient_setpmphost.htm
 old-project: medfound
 ms.assetid: d6e48f36-7896-4e6d-ba10-d8c0288ccffc
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFPMPClient interface [Media Foundation],SetPMPHost method, IMFPMPClient.SetPMPHost, IMFPMPClient::SetPMPHost, SetPMPHost, SetPMPHost method [Media Foundation], SetPMPHost method [Media Foundation],IMFPMPClient interface, d6e48f36-7896-4e6d-ba10-d8c0288ccffc, mf.imfpmpclient_setpmphost, mfidl/IMFPMPClient::SetPMPHost
 ms.prod: windows
 ms.technology: windows-sdk

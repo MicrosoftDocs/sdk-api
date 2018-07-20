@@ -7,7 +7,7 @@ old-location: multimedia\mciwndsettimers.htm
 old-project: Multimedia
 ms.assetid: 0a1b1c87-714b-438f-b865-5f5798cb4cf3
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: MCIWndSetTimers, MCIWndSetTimers macro [Windows Multimedia], _win32_MCIWndSetTimers, multimedia.mciwndsettimers, vfw/MCIWndSetTimers
 ms.prod: windows
 ms.technology: windows-sdk

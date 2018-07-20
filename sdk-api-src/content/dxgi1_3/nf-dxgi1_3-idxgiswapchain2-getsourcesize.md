@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutpu2_getsourcesize.htm
 old-project: direct3ddxgi
 ms.assetid: C7E9BC13-74E5-4981-8F87-390F95B71AE0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: GetSourceSize, GetSourceSize method [DXGI], GetSourceSize method [DXGI],IDXGISwapChain2 interface, IDXGISwapChain2 interface [DXGI],GetSourceSize method, IDXGISwapChain2.GetSourceSize, IDXGISwapChain2::GetSourceSize, direct3ddxgi.idxgioutpu2_getsourcesize, dxgi1_3/IDXGISwapChain2::GetSourceSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ The current height of the source region of the swap chain. This value can range 
 
 
 
- This method can return error codes that are described in the <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.
+ This method can return error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.
 
 
 

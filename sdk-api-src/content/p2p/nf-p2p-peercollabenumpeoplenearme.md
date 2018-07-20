@@ -4,10 +4,10 @@ title: PeerCollabEnumPeopleNearMe function
 author: windows-sdk-content
 description: Returns a handle to an enumerated set that contains all of the peer collaboration network &#0034;people near me&#0034; endpoints currently available on the subnet of the calling peer.
 old-location: p2p\peercollabenumpeoplenearme.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 4dc53f43-e662-4696-bc16-42b124f3358f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: PeerCollabEnumPeopleNearMe, PeerCollabEnumPeopleNearMe function [Peer Networking], p2p.peercollabenumpeoplenearme, p2p/PeerCollabEnumPeopleNearMe
 ms.prod: windows
 ms.technology: windows-sdk

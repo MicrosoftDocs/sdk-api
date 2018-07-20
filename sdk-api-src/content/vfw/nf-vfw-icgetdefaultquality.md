@@ -7,7 +7,7 @@ old-location: multimedia\icgetdefaultquality.htm
 old-project: Multimedia
 ms.assetid: dd88a141-5461-4725-83f9-c2ead3a3a2b6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: ICGetDefaultQuality, ICGetDefaultQuality macro [Windows Multimedia], _win32_ICGetDefaultQuality, multimedia.icgetdefaultquality, vfw/ICGetDefaultQuality
 ms.prod: windows
 ms.technology: windows-sdk

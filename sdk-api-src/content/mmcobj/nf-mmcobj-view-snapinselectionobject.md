@@ -4,10 +4,10 @@ title: View::SnapinSelectionObject
 author: windows-sdk-content
 description: The SnapinSelectionObject method returns the automation interface supplied by the snap-in selection.
 old-location: mmc\view_snapinselectionobject.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: f29347ab-9339-4e77-95a7-c9fb7992e676
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: SnapinSelectionObject, SnapinSelectionObject method [MMC], SnapinSelectionObject method [MMC],View interface, SnapinSelectionObject method [MMC],View object, View interface [MMC],SnapinSelectionObject method, View object [MMC],SnapinSelectionObject method, View.SnapinSelectionObject, View::SnapinSelectionObject, _slate_view.snapinselectionobject_method, mmc.view_snapinselectionobject
 ms.prod: windows
 ms.technology: windows-sdk

@@ -72,7 +72,7 @@ The <b>IUrlAccessor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231413(v=VS.85).aspx">AddRequestParameter</a>
+<a href="https://msdn.microsoft.com/282f13d8-8a68-4fcc-b2ff-1a5b0346918a">AddRequestParameter</a>
 </td>
 <td align="left" width="63%">
 
@@ -83,40 +83,40 @@ The <b>IUrlAccessor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231414(v=VS.85).aspx">BindToFilter</a>
+<a href="https://msdn.microsoft.com/9213766c-0e18-4b95-8535-b34e2e5dfa69">BindToFilter</a>
 </td>
 <td align="left" width="63%">
 
-        Binds the item being processed to the appropriate <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a>and retrieves a pointer to the <b>IFilter</b>.
+        Binds the item being processed to the appropriate <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a>and retrieves a pointer to the <b>IFilter</b>.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231415(v=VS.85).aspx">BindToStream</a>
+<a href="https://msdn.microsoft.com/02dc13c0-01a4-416d-ba14-c0390b4c4aae">BindToStream</a>
 </td>
 <td align="left" width="63%">
 
-        Binds the item being processed to an <a href="https://msdn.microsoft.com/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a> data stream and retrieves a pointer to that stream.
+        Binds the item being processed to an <a href="_stg_istream">IStream interface [Structured Storage]</a> data stream and retrieves a pointer to that stream.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231416(v=VS.85).aspx">GetCLSID</a>
+<a href="https://msdn.microsoft.com/dc56bacc-17a9-450f-a57c-22a90bde24b8">GetCLSID</a>
 </td>
 <td align="left" width="63%">
 
-        Gets the <a href="https://msdn.microsoft.com/library/ms688628(v=VS.85).aspx">CLSID</a> for the document type of the URL item being processed.
+        Gets the <a href="_com_CLSID_Key">CLSID</a> for the document type of the URL item being processed.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231417(v=VS.85).aspx">GetDocFormat</a>
+<a href="https://msdn.microsoft.com/2847de4b-79bb-4596-a0ed-fd494046aab4">GetDocFormat</a>
 </td>
 <td align="left" width="63%">
 
@@ -131,14 +131,14 @@ The <b>IUrlAccessor</b> interface has these methods.
 </td>
 <td align="left" width="63%">
 
-        Retrieves the file name of the item, which the filter host uses for indexing. If the item does not exist in a file system and the <a href="https://msdn.microsoft.com/library/Bb231415(v=VS.85).aspx">IUrlAccessor::BindToStream</a> method is implemented, this method returns the shell's System.ParsingPath property for the item. 
+        Retrieves the file name of the item, which the filter host uses for indexing. If the item does not exist in a file system and the <a href="https://msdn.microsoft.com/02dc13c0-01a4-416d-ba14-c0390b4c4aae">IUrlAccessor::BindToStream</a> method is implemented, this method returns the shell's System.ParsingPath property for the item. 
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231419(v=VS.85).aspx">GetHost</a>
+<a href="https://msdn.microsoft.com/f411af30-bbc0-46d7-9504-44e8bd4e9ea0">GetHost</a>
 </td>
 <td align="left" width="63%">
 
@@ -149,7 +149,7 @@ The <b>IUrlAccessor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231420(v=VS.85).aspx">GetLastModified</a>
+<a href="https://msdn.microsoft.com/266d7eb8-fac6-410c-b733-07f69e7a1b35">GetLastModified</a>
 </td>
 <td align="left" width="63%">
 
@@ -160,7 +160,7 @@ The <b>IUrlAccessor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231421(v=VS.85).aspx">GetRedirectedURL</a>
+<a href="https://msdn.microsoft.com/5d1e2a43-8d8f-444f-afcc-1e2da0d02563">GetRedirectedURL</a>
 </td>
 <td align="left" width="63%">
 
@@ -171,7 +171,7 @@ The <b>IUrlAccessor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231422(v=VS.85).aspx">GetSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/e63c00bf-dcc0-4245-b91d-183970b8e712">GetSecurityDescriptor</a>
 </td>
 <td align="left" width="63%">
 
@@ -182,7 +182,7 @@ The <b>IUrlAccessor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231423(v=VS.85).aspx">GetSecurityProvider</a>
+<a href="https://msdn.microsoft.com/36990eb7-3fdb-4e2f-810c-9469bf441b38">GetSecurityProvider</a>
 </td>
 <td align="left" width="63%">
 
@@ -193,7 +193,7 @@ The <b>IUrlAccessor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231424(v=VS.85).aspx">GetSize</a>
+<a href="https://msdn.microsoft.com/15f11ad7-8727-4da1-b33f-9e5bb870813d">GetSize</a>
 </td>
 <td align="left" width="63%">
 
@@ -204,7 +204,7 @@ The <b>IUrlAccessor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231425(v=VS.85).aspx">IsDirectory</a>
+<a href="https://msdn.microsoft.com/1b41a3d7-7d82-4f3c-8c43-db906a64c42d">IsDirectory</a>
 </td>
 <td align="left" width="63%">
 
@@ -238,11 +238,11 @@ Although the protocol handler runs in the protocol host's multithreaded environm
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231412(v=VS.85).aspx">IUrlAccessor2</a>
+<a href="https://msdn.microsoft.com/b4e6eb77-6cc3-48db-8b2a-4f7a3a052e49">IUrlAccessor2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc142931(v=VS.85).aspx">IUrlAccessor3</a>
+<a href="https://msdn.microsoft.com/4e13a780-b264-4baa-a7b5-a5736f2004f8">IUrlAccessor3</a>
 
 
 
@@ -250,11 +250,11 @@ Although the protocol handler runs in the protocol host's multithreaded environm
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965709(v=VS.85).aspx">Search Protocol Handler Error Messages</a>
+<a href="https://msdn.microsoft.com/b5e99ad1-1698-483c-8173-796af33085c4">Search Protocol Handler Error Messages</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
+<a href="https://msdn.microsoft.com/cfba12eb-4123-4b57-8311-d4fc8f9f514e">The Indexing Process</a>
  
 
  

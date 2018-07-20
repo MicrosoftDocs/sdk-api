@@ -7,7 +7,7 @@ old-location: devinst\setupdiselectoemdrv.htm
 old-project: devinst
 ms.assetid: e97f0569-419a-4a9a-a657-fd972b160269
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: SetupDiSelectOEMDrv, SetupDiSelectOEMDrv function [Device and Driver Installation], devinst.setupdiselectoemdrv, di-rtns_00ac5dd3-d358-4f14-b8ea-20231051ed8d.xml, setupapi/SetupDiSelectOEMDrv
 ms.prod: windows
 ms.technology: windows-sdk

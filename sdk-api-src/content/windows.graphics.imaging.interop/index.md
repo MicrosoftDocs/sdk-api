@@ -2,7 +2,7 @@
 UID: NA:windows.graphics.imaging.interop
 ms.assetid: 79a1faa0-5343-3d8b-b1cb-77a394593ff1
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

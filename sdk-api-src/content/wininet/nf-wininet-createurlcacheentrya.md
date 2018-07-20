@@ -7,7 +7,7 @@ old-location: wininet\createurlcacheentry.htm
 old-project: wininet
 ms.assetid: 9a58cf05-2306-4a0f-876d-85f5e91c5a2b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/18/2018
 ms.keywords: CreateUrlCacheEntry, CreateUrlCacheEntry function [WinINet], CreateUrlCacheEntryA, CreateUrlCacheEntryW, _inet_createurlcacheentry_function, wininet.createurlcacheentry, wininet/CreateUrlCacheEntry, wininet/CreateUrlCacheEntryA, wininet/CreateUrlCacheEntryW
 ms.prod: windows
 ms.technology: windows-sdk

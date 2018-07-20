@@ -7,7 +7,7 @@ old-location: winrt\hstring_usersize64.htm
 old-project: WinRT
 ms.assetid: 38ACC82C-959C-4E15-ABEF-0B92EE712E87
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: HSTRING_UserSize64, HSTRING_UserSize64 function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserSize64, winrt.hstring_usersize64
 ms.prod: windows
 ms.technology: windows-sdk

@@ -200,7 +200,7 @@ Not all devices support the <b>PatBlt</b> function. For more information, see th
 
 #### Examples
 
-For an example, see "Example of Menu-Item Bitmaps" in <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85).aspx">Using Menus</a>.
+For an example, see "Example of Menu-Item Bitmaps" in <a href="_win32_Using_Menus_cpp">Using Menus</a>.
 
 <div class="code"></div>
 

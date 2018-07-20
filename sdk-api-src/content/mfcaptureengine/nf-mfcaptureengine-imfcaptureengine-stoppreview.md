@@ -7,7 +7,7 @@ old-location: mf\imfcaptureengine_stoppreview.htm
 old-project: medfound
 ms.assetid: 36DE5079-D4D5-4FC5-8CF6-1F5B3F9E8B66
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFCaptureEngine interface [Media Foundation],StopPreview method, IMFCaptureEngine.StopPreview, IMFCaptureEngine::StopPreview, StopPreview, StopPreview method [Media Foundation], StopPreview method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_stoppreview, mfcaptureengine/IMFCaptureEngine::StopPreview
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IUpdate2::CopyToCache
 author: windows-sdk-content
 description: Copies files for an update from a specified source location to the internal Windows Update Agent (WUA) download cache.
 old-location: wua\iupdate2_copytocache.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: a12f850a-df08-4263-bb66-94c45f7d875e
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: CopyToCache, CopyToCache method [Windows Update Agent], CopyToCache method [Windows Update Agent],IUpdate2 interface, IUpdate2 interface [Windows Update Agent],CopyToCache method, IUpdate2.CopyToCache, IUpdate2::CopyToCache, wua.iupdate2_copytocache, wuapi/IUpdate2::CopyToCache
 ms.prod: windows
 ms.technology: windows-sdk

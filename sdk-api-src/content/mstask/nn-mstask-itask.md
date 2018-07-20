@@ -77,7 +77,7 @@ The <b>ITask</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ff8c9c3b-697f-42f0-a5b5-6194e4c89096">CreateTrigger</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/library/Aa381052(v=VS.85).aspx">trigger</a> using a work item object.
+Creates a <a href="t.htm">trigger</a> using a work item object.
 
 </td>
 </tr>
@@ -257,7 +257,7 @@ Returns the flags used to modify the behavior of the task.
 <a href="https://msdn.microsoft.com/f99b342c-9233-43e3-93f1-88586e975608">GetTrigger</a>
 </td>
 <td align="left" width="63%">
-Retrieves a <a href="https://msdn.microsoft.com/library/Aa381052(v=VS.85).aspx">trigger structure</a>.
+Retrieves a <a href="t.htm">trigger structure</a>.
 
 </td>
 </tr>
@@ -275,7 +275,7 @@ Retrieves the number of triggers associated with a work item.
 <a href="https://msdn.microsoft.com/5e342807-4796-449b-b490-815ce57f4d8f">GetTriggerString</a>
 </td>
 <td align="left" width="63%">
-Retrieves a <a href="https://msdn.microsoft.com/library/Aa381052(v=VS.85).aspx">trigger string</a>.
+Retrieves a <a href="t.htm">trigger string</a>.
 
 </td>
 </tr>
@@ -374,7 +374,7 @@ Sets the flags that modify the behavior of the work item.
 <a href="https://msdn.microsoft.com/f7ad639a-4094-4621-9add-b89958c0bda4">SetIdleWait</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://msdn.microsoft.com/library/Aa381016(v=VS.85).aspx">idle wait time</a> for the work item.
+Sets the <a href="i.htm">idle wait time</a> for the work item.
 
 </td>
 </tr>
@@ -448,7 +448,7 @@ Ends the execution of the work item.
 
 
 
-<b>ITask</b> is the primary interface of the <a href="https://msdn.microsoft.com/library/Aa381052(v=VS.85).aspx">task trigger object</a>. To create a task object, call 
+<b>ITask</b> is the primary interface of the <a href="t.htm">task trigger object</a>. To create a task object, call 
 <a href="https://msdn.microsoft.com/27391e34-8632-4ab5-9d6e-d2fde7942f80">ITaskScheduler::Activate</a> for existing tasks or 
 <a href="https://msdn.microsoft.com/1fbd65ae-0b54-4175-bf26-4226b1aabdc1">ITaskScheduler::NewWorkItem</a> for new tasks.
 

@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Sets the title of a property sheet. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774627(v=VS.85).aspx">PSM_SETTITLE</a> message explicitly.
+Sets the title of a property sheet. You can use this macro or send the <a href="https://msdn.microsoft.com/53ce8e20-4554-41f4-bad9-fb24c2c93c34">PSM_SETTITLE</a> message explicitly.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ TBD
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
 
-Pointer to a buffer that contains the title string. If the <a href="https://msdn.microsoft.com/library/ms632657(v=VS.85).aspx">HIWORD</a> of this parameter is <b>NULL</b>, the property sheet loads the string resource specified in the <a href="https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx">LOWORD</a>.
+Pointer to a buffer that contains the title string. If the <a href="https://msdn.microsoft.com/9f79d489-ff3f-437c-821e-fd353d712c7b">HIWORD</a> of this parameter is <b>NULL</b>, the property sheet loads the string resource specified in the <a href="https://msdn.microsoft.com/4f169f33-ed13-4efc-bf3f-ea2a4fe1de4e">LOWORD</a>.
 
 
 #### - dwStyle
@@ -94,7 +94,7 @@ Handle to the property sheet.
 
 
 
-In an Aero Wizard, this macro can be used to change the title of an interior page dynamically; for example, when handling the <a href="https://msdn.microsoft.com/library/Bb774568(v=VS.85).aspx">PSN_SETACTIVE</a> notification.
+In an Aero Wizard, this macro can be used to change the title of an interior page dynamically; for example, when handling the <a href="https://msdn.microsoft.com/0cf918b7-9f0d-4dec-8df1-a1d2d8ac6463">PSN_SETACTIVE</a> notification.
 
 
 

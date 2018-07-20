@@ -75,4 +75,7 @@ Specifies that the credential is a reference to a CRED_FLAGS_USERNAME_TARGET cre
 ### -field UsernameForPackedCredentials
 
 
+### -field BinaryBlobForSystem
+
+
 

@@ -4,10 +4,10 @@ title: ISnapinAbout::GetStaticFolderImage
 author: windows-sdk-content
 description: The ISnapinAbout::GetStaticFolderImage method allows the console to obtain the static folder images for the scope and result panes.
 old-location: mmc\isnapinabout_getstaticfolderimage.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 87be74e1-67d4-4205-a12a-f4fd1b22f038
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: GetStaticFolderImage, GetStaticFolderImage method [MMC], GetStaticFolderImage method [MMC],ISnapinAbout interface, ISnapinAbout interface [MMC],GetStaticFolderImage method, ISnapinAbout.GetStaticFolderImage, ISnapinAbout::GetStaticFolderImage, _slate_isnapinabout_getstaticfolderimage, mmc.isnapinabout_getstaticfolderimage, mmc/ISnapinAbout::GetStaticFolderImage
 ms.prod: windows
 ms.technology: windows-sdk

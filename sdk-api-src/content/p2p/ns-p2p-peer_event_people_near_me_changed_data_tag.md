@@ -4,10 +4,10 @@ title: peer_event_people_near_me_changed_data_tag
 author: windows-sdk-content
 description: The PEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA structure contains information returned when a PEER_EVENT_PEOPLE_NEAR_ME_CHANGED event is raised on a peer participating in a subnet-specific peer collaboration network.
 old-location: p2p\peer_event_people_near_me_changed_data.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: d983a399-17b1-43ea-a8fb-05b5d75e179a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: "*PPEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA, PEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA, PEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA structure [Peer Networking], PPEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA, PPEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA structure pointer [Peer Networking], p2p.peer_event_people_near_me_changed_data, p2p/PEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA, p2p/PPEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA, peer_event_people_near_me_changed_data_tag"
 ms.prod: windows
 ms.technology: windows-sdk

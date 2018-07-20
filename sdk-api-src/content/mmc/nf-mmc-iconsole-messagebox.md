@@ -4,10 +4,10 @@ title: IConsole::MessageBox
 author: windows-sdk-content
 description: Displays a message box.
 old-location: mmc\iconsole_messagebox.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 37F5BF57-A2F6-41BB-822D-298BBCF28B45
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: IConsole interface [MMC],MessageBox method, IConsole.MessageBox, IConsole::MessageBox, MB_ABORTRETRYIGNORE, MB_APPLMODAL, MB_DEFAULT_DESKTOP_ONLY, MB_DEFBUTTON1, MB_DEFBUTTON2, MB_DEFBUTTON3, MB_DEFBUTTON4, MB_HELP, MB_ICONEXCLAMATION,MB_ICONWARNING, MB_ICONINFORMATION,MB_ICONASTERISK, MB_ICONQUESTION, MB_ICONSTOP,MB_ICONERROR,MB_ICONHAND, MB_OK, MB_OKCANCEL, MB_RETRYCANCEL, MB_RIGHT, MB_RTLREADING, MB_SERVICE_NOTIFICATION, MB_SERVICE_NOTIFICATION_NT3x, MB_SETFOREGROUND, MB_SYSTEMMODAL, MB_TASKMODAL, MB_TOPMOST, MB_YESNO, MB_YESNOCANCEL, MessageBox, MessageBox method [MMC], MessageBox method [MMC],IConsole interface, mmc.iconsole_messagebox, mmc/IConsole::MessageBox
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ A pointer to a null-terminated string used for the message box title. If this pa
 ### -param fuStyle [in]
 
 A value that specifies a set of bit flags that determine the contents and behavior of the message box. This parameter can be a combination of flags from the following groups of flags taken from the documentation for the Windows API 
-<a href="https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx">MessageBox</a>.
+<a href="https://msdn.microsoft.com/4840decc-8173-4021-8d3e-bae3b0eaa956">MessageBox</a>.
 
 Specify one of the following flags to indicate which buttons appear in the message box.
 
@@ -221,7 +221,7 @@ Displays message and caption text using right-to-left reading order for Hebrew a
 
 #### MB_SETFOREGROUND
 
-The message box becomes the foreground window. Internally, the operating system calls the <a href="https://msdn.microsoft.com/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a> function for the message box.
+The message box becomes the foreground window. Internally, the operating system calls the <a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a> function for the message box.
 
 
 
@@ -235,7 +235,7 @@ The message box is created with the <b>WS_EX_TOPMOST</b> window style.
 
 The caller is a service notifying the user of an event. The function displays a message box on the current active desktop, even if there is no user logged on to the computer.
 
-For more information about using this flag, see the <a href="https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx">MessageBox</a> function.
+For more information about using this flag, see the <a href="_win32_MessageBox_cpp">MessageBox</a> function.
 
 
 
@@ -277,7 +277,7 @@ In most cases, the MMC message OCX control is a more appropriate way of that dis
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt300830(v=VS.85).aspx">IConsole</a>
+<a href="https://msdn.microsoft.com/edd98f5e-e251-40ff-8136-02bf1b9ea670">IConsole</a>
  
 
  

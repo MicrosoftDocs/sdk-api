@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_output_desc1.htm
 old-project: direct3ddxgi
 ms.assetid: 5215EF2C-9511-4B21-B574-3447FA5896F7
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: DXGI_OUTPUT_DESC1, DXGI_OUTPUT_DESC1 structure [DXGI], direct3ddxgi.dxgi_output_desc1, dxgi1_6/DXGI_OUTPUT_DESC1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ A string that contains the name of the output device.
 Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a></b>
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure containing the bounds of the output in desktop coordinates. Desktop coordinates depend on the dots per inch (DPI) of the desktop.
-	  For info about writing DPI-aware Win32 apps, see <a href="https://msdn.microsoft.com/library/Mt843498(v=VS.85).aspx">High DPI</a>.
+	  For info about writing DPI-aware Win32 apps, see <a href="https://msdn.microsoft.com/784e308d-904b-40ac-bf98-1a00fa1c9cf0">High DPI</a>.
 
 
 ### -field AttachedToDesktop
@@ -83,9 +83,9 @@ True if the output is attached to the desktop; otherwise, false.
 
 ### -field Rotation
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173065(v=VS.85).aspx">DXGI_MODE_ROTATION</a></b>
+Type: <b><a href="https://msdn.microsoft.com/fcf5bce5-dde1-4d3b-9786-2abf1e18d942">DXGI_MODE_ROTATION</a></b>
 
-A member of the <a href="https://msdn.microsoft.com/library/Bb173065(v=VS.85).aspx">DXGI_MODE_ROTATION</a> enumerated type describing on how an image is rotated by the output.
+A member of the <a href="https://msdn.microsoft.com/fcf5bce5-dde1-4d3b-9786-2abf1e18d942">DXGI_MODE_ROTATION</a> enumerated type describing on how an image is rotated by the output.
 
 
 ### -field Monitor

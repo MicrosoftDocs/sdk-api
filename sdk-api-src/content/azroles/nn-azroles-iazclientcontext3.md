@@ -4,10 +4,10 @@ title: IAzClientContext3
 author: windows-sdk-content
 description: Extends the IAzClientContext2 interface.
 old-location: security\iazclientcontext3.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 9435e41b-b2ec-4a2a-9058-82025f2c2e09
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: IAzClientContext3, IAzClientContext3 interface [Security], IAzClientContext3 interface [Security],described, azroles/IAzClientContext3, security.iazclientcontext3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -134,7 +134,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the collection of <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interfaces that can be called by the BizRule script associated with this client context.
+Gets the collection of <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interfaces that can be called by the BizRule script associated with this client context.
 
 </td>
 </tr>

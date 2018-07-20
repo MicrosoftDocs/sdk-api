@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_queryauthenticatedchannel.htm
 old-project: medfound
 ms.assetid: 4E059358-E1FD-4EDB-B1D4-982802385232
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],QueryAuthenticatedChannel method, ID3D11VideoContext.QueryAuthenticatedChannel, ID3D11VideoContext::QueryAuthenticatedChannel, QueryAuthenticatedChannel, QueryAuthenticatedChannel method [Media Foundation], QueryAuthenticatedChannel method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::QueryAuthenticatedChannel, mf.id3d11videocontext_queryauthenticatedchannel
 ms.prod: windows
 ms.technology: windows-sdk

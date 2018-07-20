@@ -7,7 +7,7 @@ old-location: mf\imfaudiostreamvolume.htm
 old-project: medfound
 ms.assetid: f06ed262-a2ec-4688-b477-877d04cf1892
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFAudioStreamVolume, IMFAudioStreamVolume interface [Media Foundation], IMFAudioStreamVolume interface [Media Foundation],described, f06ed262-a2ec-4688-b477-877d04cf1892, mf.imfaudiostreamvolume, mfidl/IMFAudioStreamVolume
 ms.prod: windows
 ms.technology: windows-sdk

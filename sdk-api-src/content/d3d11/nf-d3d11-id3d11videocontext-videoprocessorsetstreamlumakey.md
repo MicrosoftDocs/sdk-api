@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorsetstreamlumakey.htm
 old-project: medfound
 ms.assetid: DAFDAF7C-BBE2-41AA-9E44-C1BD28CE03FE
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamLumaKey method, ID3D11VideoContext.VideoProcessorSetStreamLumaKey, ID3D11VideoContext::VideoProcessorSetStreamLumaKey, VideoProcessorSetStreamLumaKey, VideoProcessorSetStreamLumaKey method [Media Foundation], VideoProcessorSetStreamLumaKey method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamLumaKey, mf.id3d11videocontext_videoprocessorsetstreamlumakey
 ms.prod: windows
 ms.technology: windows-sdk

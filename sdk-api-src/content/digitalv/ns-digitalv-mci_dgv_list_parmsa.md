@@ -7,7 +7,7 @@ old-location: multimedia\mci_dgv_list_parms.htm
 old-project: Multimedia
 ms.assetid: f1b44fca-6c33-4883-911c-7b18fc3084c2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: "*LPMCI_DGV_LIST_PARMSA, MCI_DGV_LIST_PARMS, MCI_DGV_LIST_PARMS structure [Windows Multimedia], MCI_DGV_LIST_PARMSA, _win32_MCI_DGV_LIST_PARMS_str, digitalv/MCI_DGV_LIST_PARMS, multimedia.mci_dgv_list_parms"
 ms.prod: windows
 ms.technology: windows-sdk

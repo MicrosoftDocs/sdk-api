@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorsetstreamoutputrate.htm
 old-project: medfound
 ms.assetid: D353F6E8-B465-46CB-AA47-8B097AB4AF2A
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: FALSE, ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamOutputRate method, ID3D11VideoContext.VideoProcessorSetStreamOutputRate, ID3D11VideoContext::VideoProcessorSetStreamOutputRate, TRUE, VideoProcessorSetStreamOutputRate, VideoProcessorSetStreamOutputRate method [Media Foundation], VideoProcessorSetStreamOutputRate method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamOutputRate, mf.id3d11videocontext_videoprocessorsetstreamoutputrate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,7 +108,7 @@ Interpolate frames.
 
 ### -param pCustomRate [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a> structure. If <i>OutputRate</i> is <b>D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM</b>,  this parameter specifies the exact output rate. Otherwise, this parameter is ignored and can be <b>NULL</b>.
+A pointer to a <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a> structure. If <i>OutputRate</i> is <b>D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM</b>,  this parameter specifies the exact output rate. Otherwise, this parameter is ignored and can be <b>NULL</b>.
 
 
 ## -returns

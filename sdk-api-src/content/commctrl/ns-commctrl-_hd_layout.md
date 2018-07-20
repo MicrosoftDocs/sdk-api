@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information used to set the size and position of a header control. <b>HDLAYOUT</b> is used with the <a href="https://msdn.microsoft.com/library/Bb775353(v=VS.85).aspx">HDM_LAYOUT</a> message. This structure supersedes the 
+Contains information used to set the size and position of a header control. <b>HDLAYOUT</b> is used with the <a href="https://msdn.microsoft.com/0763e483-f01d-4739-8c61-1c52d1aad0b4">HDM_LAYOUT</a> message. This structure supersedes the 
 			<b>HD_LAYOUT</b> structure. 
 
 
@@ -68,7 +68,7 @@ Structure that contains the coordinates of a rectangle that the header control w
 
 ### -field pwpos
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms632612(v=VS.85).aspx">WINDOWPOS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/5a4c4a59-c1b0-4401-aa8c-7168b1029fd0">WINDOWPOS</a>*</b>
 
 Structure that receives information about the appropriate size and position of the header control. 
 

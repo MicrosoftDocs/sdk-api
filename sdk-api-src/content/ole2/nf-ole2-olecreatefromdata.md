@@ -7,7 +7,7 @@ old-location: com\olecreatefromdata.htm
 old-project: com
 ms.assetid: aa5e997e-60d4-472d-9c81-5359c277bde3
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: OleCreateFromData, OleCreateFromData function [COM], _ole_OleCreateFromData, com.olecreatefromdata, ole2/OleCreateFromData
 ms.prod: windows
 ms.technology: windows-sdk

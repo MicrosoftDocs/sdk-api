@@ -7,7 +7,7 @@ old-location: mf\imfmediasourceextension_getreadystate.htm
 old-project: medfound
 ms.assetid: 155d9202-5598-467c-b4d0-d22424b13b9d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetReadyState, GetReadyState method [Media Foundation], GetReadyState method [Media Foundation],IMFMediaSourceExtension interface, IMFMediaSourceExtension interface [Media Foundation],GetReadyState method, IMFMediaSourceExtension.GetReadyState, IMFMediaSourceExtension::GetReadyState, mf.imfmediasourceextension_getreadystate, mfmediaengine/IMFMediaSourceExtension::GetReadyState
 ms.prod: windows
 ms.technology: windows-sdk

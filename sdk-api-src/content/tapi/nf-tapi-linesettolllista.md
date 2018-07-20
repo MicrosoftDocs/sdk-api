@@ -7,7 +7,7 @@ old-location: tapi2\linesettolllist.htm
 old-project: tapi
 ms.assetid: 40471e45-cb1d-4730-ba35-ffec99953235
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_linesettolllist, lineSetTollList, lineSetTollList function [TAPI 2.2], lineSetTollListA, lineSetTollListW, tapi/lineSetTollList, tapi/lineSetTollListA, tapi/lineSetTollListW, tapi2.linesettolllist"
 ms.prod: windows
 ms.technology: windows-sdk

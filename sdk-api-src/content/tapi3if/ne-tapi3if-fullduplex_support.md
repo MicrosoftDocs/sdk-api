@@ -7,7 +7,7 @@ old-location: tapi3\fullduplex_support.htm
 old-project: tapi
 ms.assetid: 36f9f126-361f-448a-a464-ffef1de25d26
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: FDS_NOTSUPPORTED, FDS_SUPPORTED, FDS_UNKNOWN, FULLDUPLEX_SUPPORT, FULLDUPLEX_SUPPORT enumeration [TAPI 2.2], _tapi3_fullduplex_support, tapi3.fullduplex_support, tapi3if/FDS_NOTSUPPORTED, tapi3if/FDS_SUPPORTED, tapi3if/FDS_UNKNOWN, tapi3if/FULLDUPLEX_SUPPORT
 ms.prod: windows
 ms.technology: windows-sdk

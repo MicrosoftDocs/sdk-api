@@ -4,10 +4,10 @@ title: WNetEnumResourceA function
 author: windows-sdk-content
 description: The WNetEnumResource function continues an enumeration of network resources that was started by a call to the WNetOpenEnum function.
 old-location: wnet\wnetenumresource.htm
-old-project: WNet
+old-project: wnet
 ms.assetid: 2c58c6d0-d5fe-447e-be39-df34072c160e
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/18/2018
 ms.keywords: WNetEnumResource, WNetEnumResource function [Windows Networking (WNet)], WNetEnumResourceA, WNetEnumResourceW, _win32_wnetenumresource, winnetwk/WNetEnumResource, winnetwk/WNetEnumResourceA, winnetwk/WNetEnumResourceW, wnet.wnetenumresource
 ms.prod: windows
 ms.technology: windows-sdk

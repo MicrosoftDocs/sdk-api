@@ -7,7 +7,7 @@ old-location: perf\perf_data_block_str.htm
 old-project: perfctrs
 ms.assetid: 29f89719-7597-4f7b-879e-1670386f8396
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/18/2018
 ms.keywords: "*PPERF_DATA_BLOCK, PERF_DATA_BLOCK, PERF_DATA_BLOCK structure [Perf], _PERF_DATA_BLOCK, _win32_perf_data_block_str, base.perf_data_block_str, perf.perf_data_block_str, winperf/PERF_DATA_BLOCK"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,12 +107,12 @@ Time when the system was monitored. This member is in Coordinated Universal Time
 
 ### -field PerfTime
 
-Performance-counter value, in counts, for the system being monitored. For more information, see <a href="https://msdn.microsoft.com/library/ms644904(v=VS.85).aspx">QueryPerformanceCounter</a>.
+Performance-counter value, in counts, for the system being monitored. For more information, see <a href="_win32_queryperformancecounter_cpp">QueryPerformanceCounter</a>.
 
 
 ### -field PerfFreq
 
-Performance-counter frequency, in counts per second, for the system being monitored. For more information, see <a href="https://msdn.microsoft.com/library/ms644905(v=VS.85).aspx">QueryPerformanceFrequency</a>.
+Performance-counter frequency, in counts per second, for the system being monitored. For more information, see <a href="_win32_queryperformancefrequency_cpp">QueryPerformanceFrequency</a>.
 
 
 ### -field PerfTime100nSec

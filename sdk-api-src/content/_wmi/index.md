@@ -2,7 +2,7 @@
 UID: TP:wmi
 ms.assetid: f7736949-4243-340f-890f-1ae3a5bda3e9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

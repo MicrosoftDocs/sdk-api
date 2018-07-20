@@ -7,7 +7,7 @@ old-location: mf\imfactivate.htm
 old-project: medfound
 ms.assetid: c0936e3c-3cd1-4c1e-a336-2dee7d943963
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFActivate, IMFActivate interface [Media Foundation], IMFActivate interface [Media Foundation],described, c0936e3c-3cd1-4c1e-a336-2dee7d943963, mf.imfactivate, mfobjects/IMFActivate
 ms.prod: windows
 ms.technology: windows-sdk

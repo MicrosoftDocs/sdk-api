@@ -7,7 +7,7 @@ old-location: tapi2\phoneinitialize.htm
 old-project: tapi
 ms.assetid: e06153c1-707e-45a9-8d26-747d53e16cf2
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_phoneinitialize, phoneInitialize, phoneInitialize function [TAPI 2.2], tapi/phoneInitialize, tapi2.phoneinitialize"
 ms.prod: windows
 ms.technology: windows-sdk

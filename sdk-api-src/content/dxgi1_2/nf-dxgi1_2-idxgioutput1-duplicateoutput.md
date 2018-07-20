@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput1_duplicateoutput.htm
 old-project: direct3ddxgi
 ms.assetid: 32B13906-0920-4891-B1E7-BCB291E78E73
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: DuplicateOutput, DuplicateOutput method [DXGI], DuplicateOutput method [DXGI],IDXGIOutput1 interface, IDXGIOutput1 interface [DXGI],DuplicateOutput method, IDXGIOutput1.DuplicateOutput, IDXGIOutput1::DuplicateOutput, direct3ddxgi.idxgioutput1_duplicateoutput, dxgi1_2/IDXGIOutput1::DuplicateOutput
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ A pointer to a variable that receives the new <a href="https://msdn.microsoft.co
 <li>DXGI_ERROR_UNSUPPORTED if the created <a href="https://msdn.microsoft.com/02C4EC3D-D97F-4CFC-ABF5-03B44CE6A658">IDXGIOutputDuplication</a> interface does not support the current desktop mode or scenario.  For example, 8bpp and non-DWM desktop modes are not supported. If <b>DuplicateOutput</b> fails with DXGI_ERROR_UNSUPPORTED, the application can wait for system notification of desktop switches and mode changes and then call <b>DuplicateOutput</b> again after such a notification occurs.  For more information, refer to <a href="https://msdn.microsoft.com/e27b135d-4faf-401e-a6c1-64ed0e1b5de5">EVENT_SYSTEM_DESKTOPSWITCH</a> and mode change notification (<a href="https://msdn.microsoft.com/5a6111fd-648e-41a9-aaf8-e5d93f5d54cd">WM_DISPLAYCHANGE</a>). </li>
 <li>DXGI_ERROR_NOT_CURRENTLY_AVAILABLE if DXGI reached the limit on the maximum number of concurrent duplication applications (default of four). Therefore, the calling application cannot create any desktop duplication interfaces until the other applications close.</li>
 <li>DXGI_ERROR_SESSION_DISCONNECTED if <b>DuplicateOutput</b> failed because the session is currently disconnected.</li>
-<li>Other error codes are described in the <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<li>Other error codes are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
 </ul>
 
 

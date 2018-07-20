@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutputduplication_getframepointershape.htm
 old-project: direct3ddxgi
 ms.assetid: 321FDB62-BF0E-402E-A00B-6F60B7F132AA
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: GetFramePointerShape, GetFramePointerShape method [DXGI], GetFramePointerShape method [DXGI],IDXGIOutputDuplication interface, IDXGIOutputDuplication interface [DXGI],GetFramePointerShape method, IDXGIOutputDuplication.GetFramePointerShape, IDXGIOutputDuplication::GetFramePointerShape, direct3ddxgi.idxgioutputduplication_getframepointershape, dxgi1_2/IDXGIOutputDuplication::GetFramePointerShape
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ Pointer to a <a href="https://msdn.microsoft.com/8C270C30-01B8-467C-939F-7F4B82B
 <li>DXGI_ERROR_MORE_DATA if the buffer that the calling application provided was not big enough.</li>
 <li>DXGI_ERROR_INVALID_CALL if the application called <b>GetFramePointerShape</b> without owning the desktop image.</li>
 <li>E_INVALIDARG if one of the parameters to <b>GetFramePointerShape</b> is incorrect; for example, if <i>pPointerShapeInfo</i> is NULL.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
 </ul>
 
 

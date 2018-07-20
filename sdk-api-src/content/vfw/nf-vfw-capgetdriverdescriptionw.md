@@ -7,7 +7,7 @@ old-location: multimedia\capgetdriverdescription.htm
 old-project: Multimedia
 ms.assetid: 97ec77f8-79fe-4c0b-9b73-5b09903c47b2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: "_win32_capGetDriverDescription, capGetDriverDescription, capGetDriverDescription function [Windows Multimedia], capGetDriverDescriptionA, capGetDriverDescriptionW, multimedia.capgetdriverdescription, vfw/capGetDriverDescription, vfw/capGetDriverDescriptionA, vfw/capGetDriverDescriptionW"
 ms.prod: windows
 ms.technology: windows-sdk

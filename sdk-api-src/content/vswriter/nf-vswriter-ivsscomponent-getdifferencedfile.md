@@ -189,12 +189,12 @@ The XML document is not valid. Check the event log for details. For more
 <b>GetDifferencedFile</b> can be called by 
     a requester or a writer during backup or restore operations.
 
-If the call to <b>GetDifferencedFile</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrPath</i> and  <i>pbstrFilespec</i> parameters by calling the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+If the call to <b>GetDifferencedFile</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrPath</i> and  <i>pbstrFilespec</i> parameters by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 As writers can indicate differenced files with calls to 
     <a href="https://msdn.microsoft.com/33372d10-c947-45de-9ea2-03ba6378179d">IVssComponent::AddDifferencedFilesByLastModifyTime</a> 
     at any time prior to the actual backing up of files, typically while handling a 
-    <a href="https://msdn.microsoft.com/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> event 
+    <a href="vssgloss_p.htm">PostSnapshot</a> event 
     (<a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a>), during backups 
     <b>GetDifferencedFile</b> is not usefully 
     called prior to the return of 

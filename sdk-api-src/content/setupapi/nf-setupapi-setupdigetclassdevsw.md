@@ -7,7 +7,7 @@ old-location: devinst\setupdigetclassdevs.htm
 old-project: devinst
 ms.assetid: 31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: SetupDiGetClassDevs, SetupDiGetClassDevs function [Device and Driver Installation], SetupDiGetClassDevsW, devinst.setupdigetclassdevs, di-rtns_8f48a4a7-e4b9-4843-aacc-88f678b4145c.xml, setupapi/SetupDiGetClassDevs, setupapi/SetupDiGetClassDevsW
 ms.prod: windows
 ms.technology: windows-sdk

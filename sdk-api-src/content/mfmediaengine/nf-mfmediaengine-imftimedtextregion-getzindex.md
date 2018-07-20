@@ -7,7 +7,7 @@ old-location: mf\imftimedtextregion_getzindex.htm
 old-project: medfound
 ms.assetid: 662A5D79-7FCE-45D3-BCB1-5DE08DC0F981
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetZIndex, GetZIndex method [Media Foundation], GetZIndex method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetZIndex method, IMFTimedTextRegion.GetZIndex, IMFTimedTextRegion::GetZIndex, mf.imftimedtextregion_getzindex, mfmediaengine/IMFTimedTextRegion::GetZIndex
 ms.prod: windows
 ms.technology: windows-sdk

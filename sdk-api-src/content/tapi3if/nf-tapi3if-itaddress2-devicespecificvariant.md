@@ -7,7 +7,7 @@ old-location: tapi3\itaddress2_devicespecificvariant.htm
 old-project: tapi
 ms.assetid: 27882bb2-dab8-4b8c-acca-35fbdc526362
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: DeviceSpecificVariant, DeviceSpecificVariant method [TAPI 2.2], DeviceSpecificVariant method [TAPI 2.2],ITAddress2 interface, ITAddress2 interface [TAPI 2.2],DeviceSpecificVariant method, ITAddress2.DeviceSpecificVariant, ITAddress2::DeviceSpecificVariant, _tapi3_itaddress2_devicespecificvariant, tapi3.itaddress2_devicespecificvariant, tapi3if/ITAddress2::DeviceSpecificVariant
 ms.prod: windows
 ms.technology: windows-sdk

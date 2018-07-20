@@ -4,10 +4,10 @@ title: PeerCollabEnumContacts function
 author: windows-sdk-content
 description: Returns a handle to an enumerated set that contains all of the peer collaboration network contacts currently available on the calling peer.
 old-location: p2p\peercollabenumcontacts.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: e5a259e5-c5cb-4a7e-8f60-29e4d7cc6ede
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: PeerCollabEnumContacts, PeerCollabEnumContacts function [Peer Networking], p2p.peercollabenumcontacts, p2p/PeerCollabEnumContacts
 ms.prod: windows
 ms.technology: windows-sdk

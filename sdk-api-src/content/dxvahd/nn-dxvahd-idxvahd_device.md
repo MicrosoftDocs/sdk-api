@@ -7,7 +7,7 @@ old-location: mf\idxvahd_device.htm
 old-project: medfound
 ms.assetid: 3f79ac9c-2aed-4e1c-bf6f-02f9c54d59cd
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IDXVAHD_Device, IDXVAHD_Device interface [Media Foundation], IDXVAHD_Device interface [Media Foundation],described, dxvahd/IDXVAHD_Device, mf.idxvahd_device
 ms.prod: windows
 ms.technology: windows-sdk

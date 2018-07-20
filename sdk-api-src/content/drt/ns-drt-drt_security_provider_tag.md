@@ -4,10 +4,10 @@ title: drt_security_provider_tag
 author: windows-sdk-content
 description: DRT_SECURITY_PROVIDER structure defines the DRT interface that must be implemented by a security provider.
 old-location: p2p\drt_security_provider.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 1eedfff3-d561-462e-bad0-45e7bc46fb1a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: "*PDRT_SECURITY_PROVIDER, DRT_SECURITY_PROVIDER, DRT_SECURITY_PROVIDER structure [Peer Networking], PDRT_SECURITY_PROVIDER, PDRT_SECURITY_PROVIDER structure pointer [Peer Networking], drt/DRT_SECURITY_PROVIDER, drt/PDRT_SECURITY_PROVIDER, drt_security_provider_tag, p2p.drt_security_provider"
 ms.prod: windows
 ms.technology: windows-sdk

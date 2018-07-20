@@ -7,7 +7,7 @@ old-location: perf\perfcreateinstance.htm
 old-project: perfctrs
 ms.assetid: 73be8588-2c87-4c27-933d-62b8605ed9a3
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/18/2018
 ms.keywords: PerfCreateInstance, PerfCreateInstance function [Perf], base.perfcreateinstance, perf.perfcreateinstance, perflib/PerfCreateInstance
 ms.prod: windows
 ms.technology: windows-sdk

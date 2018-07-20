@@ -7,7 +7,7 @@ old-location: tspi\tspi_linesetmediacontrol.htm
 old-project: tapi
 ms.assetid: e9273bd6-8dc3-4b45-bf0e-a1a10d78a604
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineSetMediaControl, TSPI_lineSetMediaControl function [TAPI 2.2], _tspi_tspi_linesetmediacontrol, tspi.tspi_linesetmediacontrol, tspi/TSPI_lineSetMediaControl
 ms.prod: windows
 ms.technology: windows-sdk

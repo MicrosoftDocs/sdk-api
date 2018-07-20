@@ -7,7 +7,7 @@ old-location: devinst\setupdisetdeviceinterfaceproperty.htm
 old-project: devinst
 ms.assetid: 5c8da8a3-1c53-42c1-8adc-46743b63f731
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: SetupDiSetDeviceInterfaceProperty, SetupDiSetDeviceInterfaceProperty , SetupDiSetDeviceInterfaceProperty function [Device and Driver Installation], SetupDiSetDeviceInterfacePropertyW, devinst.setupdisetdeviceinterfaceproperty, di-rtns_046f3d0e-43cc-4a62-be1e-4bbad8e59e48.xml, setupapi/SetupDiSetDeviceInterfaceProperty
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi2\tapierror_formatmessage.htm
 old-project: tapi
 ms.assetid: 95817592-467f-438e-ae81-b4c2fff42d1f
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TAPIERROR_FORMATMESSAGE, TAPIERROR_FORMATMESSAGE macro [TAPI 2.2], _tapi2_tapierror_formatmessage, tapi/TAPIERROR_FORMATMESSAGE, tapi2.tapierror_formatmessage
 ms.prod: windows
 ms.technology: windows-sdk

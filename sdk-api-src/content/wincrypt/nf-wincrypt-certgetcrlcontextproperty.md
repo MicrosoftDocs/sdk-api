@@ -503,7 +503,7 @@ If the buffer specified by the <i>pvData</i> parameter is not large enough to ho
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Extended Property Functions</a>
+<a href="cryptography_functions.htm">Extended Property Functions</a>
  
 
  

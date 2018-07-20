@@ -7,7 +7,7 @@ old-location: mf\imfshutdown_shutdown.htm
 old-project: medfound
 ms.assetid: 9e7824d2-0f76-4c4c-98c5-ba51cd297de7
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 9e7824d2-0f76-4c4c-98c5-ba51cd297de7, IMFShutdown interface [Media Foundation],Shutdown method, IMFShutdown.Shutdown, IMFShutdown::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFShutdown interface, mf.imfshutdown_shutdown, mfidl/IMFShutdown::Shutdown
 ms.prod: windows
 ms.technology: windows-sdk

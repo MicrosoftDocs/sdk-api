@@ -7,7 +7,7 @@ old-location: tapi3\itlegacyaddressmediacontrol_setdevconfig.htm
 old-project: tapi
 ms.assetid: 7c5fe0ab-8a03-41db-994b-9786782cf7c1
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITLegacyAddressMediaControl interface [TAPI 2.2],SetDevConfig method, ITLegacyAddressMediaControl.SetDevConfig, ITLegacyAddressMediaControl::SetDevConfig, SetDevConfig, SetDevConfig method [TAPI 2.2], SetDevConfig method [TAPI 2.2],ITLegacyAddressMediaControl interface, _tapi3_itlegacyaddressmediacontrol_setdevconfig, tapi3.itlegacyaddressmediacontrol_setdevconfig, tapi3if/ITLegacyAddressMediaControl::SetDevConfig
 ms.prod: windows
 ms.technology: windows-sdk
@@ -150,8 +150,8 @@ The
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546827">GetID</a> must be performed prior to calling this method.
 
 The application must use 
-<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pDeviceClass</i> parameter and use 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> to allocate memory for the <i>pDeviceClass</i> parameter and use 
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 <b>TAPI 2.1 Cross-References:  </b><a href="https://msdn.microsoft.com/39ff5ddb-142e-4f11-9395-e2c3a3ac7d19">lineGetDevConfig</a>, <a href="https://msdn.microsoft.com/f1b04224-e535-4100-b026-3203eebc42c8">lineSetDevConfig</a>
 

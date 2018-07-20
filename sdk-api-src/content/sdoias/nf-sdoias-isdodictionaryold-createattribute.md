@@ -53,7 +53,7 @@ req.product: ADAM
 
 The 
 <b>CreateAttribute</b> method creates a new attribute object and returns an 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface to it.
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface to it.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Specifies a value from the enumeration type
 ### -param ppAttributeObject [out]
 
 Pointer to a pointer to an 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer for the created attribute object.
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface pointer for the created attribute object.
 
 
 ## -returns

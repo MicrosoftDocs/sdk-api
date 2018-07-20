@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Finds the first item in a combo box list that has the specified item data. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775835(v=VS.85).aspx">CB_FINDSTRING</a> message explicitly.
+Finds the first item in a combo box list that has the specified item data. You can use this macro or send the <a href="https://msdn.microsoft.com/872a72d5-4d8e-41c7-ac6b-eeb571403623">CB_FINDSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ The data to find.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb775835(v=VS.85).aspx">CB_FINDSTRING</a>.
+For more information, see <a href="https://msdn.microsoft.com/872a72d5-4d8e-41c7-ac6b-eeb571403623">CB_FINDSTRING</a>.
 	
 
 

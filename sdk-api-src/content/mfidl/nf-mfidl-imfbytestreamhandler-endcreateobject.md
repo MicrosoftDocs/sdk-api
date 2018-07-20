@@ -7,7 +7,7 @@ old-location: mf\imfbytestreamhandler_endcreateobject.htm
 old-project: medfound
 ms.assetid: 8fd9797a-8dfb-4e59-8bcb-52dc53b5bb2e
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 8fd9797a-8dfb-4e59-8bcb-52dc53b5bb2e, EndCreateObject, EndCreateObject method [Media Foundation], EndCreateObject method [Media Foundation],IMFByteStreamHandler interface, IMFByteStreamHandler interface [Media Foundation],EndCreateObject method, IMFByteStreamHandler.EndCreateObject, IMFByteStreamHandler::EndCreateObject, mf.imfbytestreamhandler_endcreateobject, mfidl/IMFByteStreamHandler::EndCreateObject
 ms.prod: windows
 ms.technology: windows-sdk

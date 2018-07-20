@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxrouteenumfile.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_3of9.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxRouteEnumFile, FaxRouteEnumFile callback function [Fax Service], PFAXROUTEENUMFILE, PFAXROUTEENUMFILE callback, _mfax_faxrouteenumfile, fax._mfax_faxrouteenumfile, faxroute/FaxRouteEnumFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <i>FaxRouteEnumFile</i> callback function receives the file names in the fax file list associated with a received fax document. This function receives a file name in the fax file list associated with a received fax document, and executes a procedure defined by the routing extension. It can return a nonzero value to proceed to the next file name in the fax file list, or zero to stop <a href="https://msdn.microsoft.com/library/ms692864(v=VS.85).aspx">FaxRouteEnumFiles</a>.
+The <i>FaxRouteEnumFile</i> callback function receives the file names in the fax file list associated with a received fax document. This function receives a file name in the fax file list associated with a received fax document, and executes a procedure defined by the routing extension. It can return a nonzero value to proceed to the next file name in the fax file list, or zero to stop <a href="https://msdn.microsoft.com/779e7c8e-13b7-4495-b0b3-3b01594a88fb">FaxRouteEnumFiles</a>.
 
 <i>FaxRouteEnumFile</i> is a placeholder for a function name defined by the fax routing extension DLL. The <b>PFAXROUTEENUMFILE</b> data type is a pointer to a <i>FaxRouteEnumFile</i> function.
 
@@ -79,7 +79,7 @@ Pointer to the GUID associated with the fax routing method that added the file t
 
 Type: <b>GUID*</b>
 
-Pointer to the GUID associated with the fax routing method that called the <a href="https://msdn.microsoft.com/library/ms692864(v=VS.85).aspx">FaxRouteEnumFiles</a> function. (<i>FaxRouteEnumFiles</i> passes a pointer to the <i>FaxRouteEnumFile</i> function.) Note that this parameter has the same value as the <i>Guid</i> parameter of <i>FaxRouteEnumFiles</i>. The <i>GuidCaller</i> parameter can be <b>NULL</b>.
+Pointer to the GUID associated with the fax routing method that called the <a href="https://msdn.microsoft.com/779e7c8e-13b7-4495-b0b3-3b01594a88fb">FaxRouteEnumFiles</a> function. (<i>FaxRouteEnumFiles</i> passes a pointer to the <i>FaxRouteEnumFile</i> function.) Note that this parameter has the same value as the <i>Guid</i> parameter of <i>FaxRouteEnumFiles</i>. The <i>GuidCaller</i> parameter can be <b>NULL</b>.
 
 
 ### -param FileName [in]
@@ -93,7 +93,7 @@ Pointer to a constant null-terminated Unicode character string. The fax service 
 
 Type: <b>PVOID</b>
 
-Pointer to an extension-defined value supplied by the fax routing method identified by the <i>GuidCaller</i> parameter. This is an opaque value that the <a href="https://msdn.microsoft.com/library/ms692864(v=VS.85).aspx">FaxRouteEnumFiles</a> function passes to <i>FaxRouteEnumFile</i>. 
+Pointer to an extension-defined value supplied by the fax routing method identified by the <i>GuidCaller</i> parameter. This is an opaque value that the <a href="https://msdn.microsoft.com/779e7c8e-13b7-4495-b0b3-3b01594a88fb">FaxRouteEnumFiles</a> function passes to <i>FaxRouteEnumFile</i>. 
 
 
 ## -returns
@@ -111,9 +111,9 @@ The function returns a nonzero value to continue enumeration, or zero to stop en
 
 
 
-The fax routing extension DLL must register the <i>FaxRouteEnumFile</i> callback function by passing its address to the <a href="https://msdn.microsoft.com/library/ms692864(v=VS.85).aspx">FaxRouteEnumFiles</a> function.
+The fax routing extension DLL must register the <i>FaxRouteEnumFile</i> callback function by passing its address to the <a href="https://msdn.microsoft.com/779e7c8e-13b7-4495-b0b3-3b01594a88fb">FaxRouteEnumFiles</a> function.
 
-For more information, see <a href="https://msdn.microsoft.com/library/ms684521(v=VS.85).aspx">Fax File Lists</a>.
+For more information, see <a href="https://msdn.microsoft.com/6aa919ad-3c99-4e27-a462-5ad670cfb4e9">Fax File Lists</a>.
 
 
 
@@ -123,15 +123,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/ms684521(v
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684519(v=VS.85).aspx">Fax Routing Extension Application Programming Interface Overview</a>
+<a href="https://msdn.microsoft.com/f8bdf0de-9455-45d1-9271-3929e0429d5c">Fax Routing Extension Application Programming Interface Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692865(v=VS.85).aspx">Fax Routing Extension Functions</a>
+<a href="https://msdn.microsoft.com/339f7fb6-64eb-403e-91be-210501042a25">Fax Routing Extension Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692864(v=VS.85).aspx">FaxRouteEnumFiles</a>
+<a href="https://msdn.microsoft.com/779e7c8e-13b7-4495-b0b3-3b01594a88fb">FaxRouteEnumFiles</a>
  
 
  

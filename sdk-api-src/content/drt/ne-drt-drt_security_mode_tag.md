@@ -4,10 +4,10 @@ title: drt_security_mode_tag
 author: windows-sdk-content
 description: The DRT_SECURITY_MODE enumeration defines possible security modes for the DRT. The security mode is specified by a field of the DRT_SETTINGS structure.
 old-location: p2p\drt_security_mode.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 652942a3-94cd-466c-bf7c-80e87ba692c4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: DRT_SECURE_CONFIDENTIALPAYLOAD, DRT_SECURE_MEMBERSHIP, DRT_SECURE_RESOLVE, DRT_SECURITY_MODE, DRT_SECURITY_MODE enumeration [Distributed Routing Tables], drt/DRT_SECURE_CONFIDENTIALPAYLOAD, drt/DRT_SECURE_MEMBERSHIP, drt/DRT_SECURE_RESOLVE, drt/DRT_SECURITY_MODE, drt_security_mode_tag, p2p.drt_security_mode
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext1_decoderenabledownsampling.htm
 old-project: medfound
 ms.assetid: 0BE7E6EC-E090-4A13-9D18-108BDBBC211A
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: DecoderEnableDownsampling, DecoderEnableDownsampling method [Media Foundation], DecoderEnableDownsampling method [Media Foundation],ID3D11VideoContext1 interface, ID3D11VideoContext1 interface [Media Foundation],DecoderEnableDownsampling method, ID3D11VideoContext1.DecoderEnableDownsampling, ID3D11VideoContext1::DecoderEnableDownsampling, d3d11_1/ID3D11VideoContext1::DecoderEnableDownsampling, mf.id3d11videocontext1_decoderenabledownsampling
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ The number of reference frames to be used in the operation.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the following error codes.
 

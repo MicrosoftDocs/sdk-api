@@ -7,7 +7,7 @@ old-location: tapi3\ienumagenthandler.htm
 old-project: tapi
 ms.assetid: a318318a-769e-4619-a461-4988d90d3f1a
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumAgentHandler, IEnumAgentHandler interface [TAPI 2.2], IEnumAgentHandler interface [TAPI 2.2],described, _tapi3_ienumagenthandler, tapi3.ienumagenthandler, tapi3cc/IEnumAgentHandler
 ms.prod: windows
 ms.technology: windows-sdk

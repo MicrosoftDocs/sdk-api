@@ -7,7 +7,7 @@ old-location: com\cogetcontexttoken.htm
 old-project: com
 ms.assetid: 1218d928-ca3f-4bdc-9a00-ea4c214175a9
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: CoGetContextToken, CoGetContextToken function [COM], _com_CoGetContextToken, com.cogetcontexttoken, combaseapi/CoGetContextToken
 ms.prod: windows
 ms.technology: windows-sdk

@@ -194,7 +194,7 @@ Specifies the current play mode.
 <a href="https://msdn.microsoft.com/444adb2f-4289-4950-8841-07353479ef43">StartAtMarker</a>
 </td>
 <td align="left" width="63%">
-Starts the reader from a specified <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">marker</a>.
+Starts the reader from a specified <a href="wmformat_glossary.htm">marker</a>.
 
 </td>
 </tr>

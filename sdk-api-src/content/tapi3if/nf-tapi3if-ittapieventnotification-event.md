@@ -7,7 +7,7 @@ old-location: tapi3\ittapieventnotification_event.htm
 old-project: tapi
 ms.assetid: 8cd57c81-cd71-4fe5-a176-805c96c06c31
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: Event, Event method [TAPI 2.2], Event method [TAPI 2.2],ITTAPIEventNotification interface, ITTAPIEventNotification interface [TAPI 2.2],Event method, ITTAPIEventNotification.Event, ITTAPIEventNotification::Event, _tapi3_ittapieventnotification_event, tapi3.ittapieventnotification_event, tapi3if/ITTAPIEventNotification::Event
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidebug.htm
 old-project: direct3ddxgi
 ms.assetid: 7DCA4750-A397-4B5A-908F-A046427D30FB
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: IDXGIDebug, IDXGIDebug interface [DXGI], IDXGIDebug interface [DXGI],described, direct3ddxgi.idxgidebug, dxgidebug/IDXGIDebug
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,20 +85,17 @@ Reports info about the lifetime of an object or objects.
 
 
 
-
-          This interface is obtained by calling the <a href="https://msdn.microsoft.com/7702B842-6808-4CA9-A5B4-B1A1DC2479A7">DXGIGetDebugInterface</a> function.
+This interface is obtained by calling the <a href="https://msdn.microsoft.com/7702B842-6808-4CA9-A5B4-B1A1DC2479A7">DXGIGetDebugInterface</a> function.
         
 
-
-          For more info about the debug layer, see <a href="https://msdn.microsoft.com/c545983c-5351-42a9-82e5-deea73aa035f">Debug Layer</a>.
+For more info about the debug layer, see <a href="https://msdn.microsoft.com/c545983c-5351-42a9-82e5-deea73aa035f">Debug Layer</a>.
         
 
 <b>Windows Phone 8:
         </b> This API is supported.
       
 
-<div class="alert"><b>Note</b>  
-        This API requires the Windows Software Development Kit (SDK) for Windows 8.
+<div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.
       </div>
 <div> </div>
 

@@ -7,7 +7,7 @@ old-location: com\iprovidemultipleclassinfo_getinfoofindex.htm
 old-project: com
 ms.assetid: 084dfb9d-5545-4845-9959-1b054566adca
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: GetInfoOfIndex, GetInfoOfIndex method [COM], GetInfoOfIndex method [COM],IProvideMultipleClassInfo interface, IProvideMultipleClassInfo interface [COM],GetInfoOfIndex method, IProvideMultipleClassInfo.GetInfoOfIndex, IProvideMultipleClassInfo::GetInfoOfIndex, MULTICLASSINFO_GETIIDPRIMARY, MULTICLASSINFO_GETIIDSOURCE, MULTICLASSINFO_GETNUMRESERVEDDISPIDS, MULTICLASSINFO_GETTYPEINFO, _com_iprovidemultipleclassinfo_getinfoofindex, com.iprovidemultipleclassinfo_getinfoofindex, ocidl/IProvideMultipleClassInfo::GetInfoOfIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,7 +123,7 @@ Indicates a request for <i>piidSource</i> information.
 
 ### -param pptiCoClass [out]
 
-The <a href="https://msdn.microsoft.com/">coclass</a> type information for the requested contributor. See <a href="https://msdn.microsoft.com/library/ms221696(v=VS.85).aspx">ITypeInfo</a>.
+The <a href="https://msdn.microsoft.com/">coclass</a> type information for the requested contributor. See <a href="f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a>.
 
 
 ### -param pdwTIFlags [out]

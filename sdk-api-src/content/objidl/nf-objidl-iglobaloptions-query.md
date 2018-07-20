@@ -7,7 +7,7 @@ old-location: com\iglobaloptions_query.htm
 old-project: com
 ms.assetid: ee16e59d-c629-45c1-afe6-fb4e37eba5d1
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IGlobalOptions interface [COM],Query method, IGlobalOptions.Query, IGlobalOptions::Query, Query, Query method [COM], Query method [COM],IGlobalOptions interface, _com_iglobaloptions_query, com.iglobaloptions_query, objidlbase/IGlobalOptions::Query
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wcs\setdevicegammaramp.htm
 old-project: WCS
 ms.assetid: 8e4cc9a4-f292-47a1-a12a-43a479326ca7
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/18/2018
 ms.keywords: SetDeviceGammaRamp, SetDeviceGammaRamp function [Windows Color System], _color_SetDeviceGammaRamp, wcs.setdevicegammaramp, wingdi/SetDeviceGammaRamp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>SetDeviceGammaRamp</b> function sets the <a href="https://msdn.microsoft.com/library/ms708499(v=VS.85).aspx">gamma ramp</a> on direct color display boards having drivers that support downloadable gamma ramps in hardware.
+The <b>SetDeviceGammaRamp</b> function sets the <a href="g.htm">gamma ramp</a> on direct color display boards having drivers that support downloadable gamma ramps in hardware.
 
 
 ## -parameters

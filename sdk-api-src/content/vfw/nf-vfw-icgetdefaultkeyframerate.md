@@ -7,7 +7,7 @@ old-location: multimedia\icgetdefaultkeyframerate.htm
 old-project: Multimedia
 ms.assetid: 81ae287a-13e3-4bf0-bdd8-915a81e78d32
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: ICGetDefaultKeyFrameRate, ICGetDefaultKeyFrameRate macro [Windows Multimedia], _win32_ICGetDefaultKeyFrameRate, multimedia.icgetdefaultkeyframerate, vfw/ICGetDefaultKeyFrameRate
 ms.prod: windows
 ms.technology: windows-sdk

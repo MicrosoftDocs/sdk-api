@@ -4,10 +4,10 @@ title: ICivicAddressReport::GetCity
 author: windows-sdk-content
 description: Retrieves the city name.
 old-location: winlocation_com_ref\icivicaddressreport_getcity.htm
-old-project: LocationAPI
+old-project: locationapi
 ms.assetid: c87debb3-63ab-4d5b-85ff-0ee0653d6ffe
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: GetCity, GetCity method [WinLocation], GetCity method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetCity method, ICivicAddressReport.GetCity, ICivicAddressReport::GetCity, WinLocation_COM_Ref.icivicaddressreport_getcity, locationapi/ICivicAddressReport::GetCity
 ms.prod: windows
 ms.technology: windows-sdk

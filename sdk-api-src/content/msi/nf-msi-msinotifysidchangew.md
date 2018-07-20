@@ -4,10 +4,10 @@ title: MsiNotifySidChangeW function
 author: windows-sdk-content
 description: The MsiNotifySidChange function notifies and updates the Windows Installer internal information with changes to user SIDs.
 old-location: setup\msinotifysidchange.htm
-old-project: Msi
+old-project: msi
 ms.assetid: f35e503e-0bc0-4895-8e88-fc5636774e75
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: MsiNotifySidChange, MsiNotifySidChange function, MsiNotifySidChangeA, MsiNotifySidChangeW, msi/MsiNotifySidChange, msi/MsiNotifySidChangeA, msi/MsiNotifySidChangeW, setup.msinotifysidchange
 ms.prod: windows
 ms.technology: windows-sdk

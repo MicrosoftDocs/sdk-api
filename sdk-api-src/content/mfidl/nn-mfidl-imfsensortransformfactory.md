@@ -7,7 +7,7 @@ old-location: mf\imfsensortransformfactory.htm
 old-project: medfound
 ms.assetid: 291EA582-22E3-4646-8E89-74162E98203F
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFSensorTransformFactory, IMFSensorTransformFactory interface [Media Foundation], IMFSensorTransformFactory interface [Media Foundation],described, mf.imfsensortransformfactory, mfidl/IMFSensorTransformFactory
 ms.prod: windows
 ms.technology: windows-sdk

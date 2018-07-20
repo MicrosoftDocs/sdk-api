@@ -7,7 +7,7 @@ old-location: mf\imfsensorprofilecollection_getprofile.htm
 old-project: medfound
 ms.assetid: 3E229A12-D53A-493F-9EFB-EA28131ABB10
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetProfile, GetProfile method [Media Foundation], GetProfile method [Media Foundation],IMFSensorProfileCollection interface, IMFSensorProfileCollection interface [Media Foundation],GetProfile method, IMFSensorProfileCollection.GetProfile, IMFSensorProfileCollection::GetProfile, mf.imfsensorprofilecollection_getprofile, mfidl/IMFSensorProfileCollection::GetProfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Index of the profile to retrieve.
 
 ### -param ppProfile [out]
 
-On success, returns a double pointer to an <a href="https://msdn.microsoft.com/library/Mt845815(v=VS.85).aspx">IMFSensorProfile</a> object that describes the specified sensor profile.
+On success, returns a double pointer to an <a href="mf.imfsensorprofile">IMFSensorProfile</a> object that describes the specified sensor profile.
 
 
 ## -returns
@@ -83,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt845816(v=VS.85).aspx">IMFSensorProfileCollection</a>
+<a href="mf.imfsensorprofilecollection">IMFSensorProfileCollection</a>
  
 
  

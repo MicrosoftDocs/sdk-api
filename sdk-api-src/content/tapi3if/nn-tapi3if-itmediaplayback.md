@@ -7,7 +7,7 @@ old-location: tapi3\itmediaplayback.htm
 old-project: tapi
 ms.assetid: 66b43721-f902-4a0e-8cbb-418438617f47
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITMediaPlayback, ITMediaPlayback interface [TAPI 2.2], ITMediaPlayback interface [TAPI 2.2],described, _tapi3_itmediaplayback, tapi3.itmediaplayback, tapi3if/ITMediaPlayback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMediaPlayback</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITMediaPlayback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMediaPlayback</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITMediaPlayback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -97,7 +97,7 @@ Sets the list of files to play.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

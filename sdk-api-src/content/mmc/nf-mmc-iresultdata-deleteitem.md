@@ -4,10 +4,10 @@ title: IResultData::DeleteItem
 author: windows-sdk-content
 description: Enables the snap-in to delete a single item in the result view pane.
 old-location: mmc\iresultdata_deleteitem.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: e0e6192a-2cc0-4a90-9793-e425879fcff2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: DeleteItem, DeleteItem method [MMC], DeleteItem method [MMC],IResultData interface, DeleteItem method [MMC],IResultData2 interface, IResultData interface [MMC],DeleteItem method, IResultData.DeleteItem, IResultData2 interface [MMC],DeleteItem method, IResultData2::DeleteItem, IResultData::DeleteItem, _slate_iresultdata_deleteitem, mmc.iresultdata_deleteitem, mmc/IResultData2::DeleteItem, mmc/IResultData::DeleteItem
 ms.prod: windows
 ms.technology: windows-sdk

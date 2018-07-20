@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the text color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761079(v=VS.85).aspx">LVM_GETTEXTCOLOR</a> message explicitly. 
+Gets the text color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/51685e61-dd0a-4c21-8c66-31cf72c2b3e4">LVM_GETTEXTCOLOR</a> message explicitly. 
 
 
 ## -parameters

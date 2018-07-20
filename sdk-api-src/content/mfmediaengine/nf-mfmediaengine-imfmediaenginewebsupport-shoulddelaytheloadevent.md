@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginewebsupport_shoulddelaytheloadevent.htm
 old-project: medfound
 ms.assetid: 850ED4DC-1790-481E-A8CD-9F87F9E389EC
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFMediaEngineWebSupport interface [Media Foundation],ShouldDelayTheLoadEvent method, IMFMediaEngineWebSupport.ShouldDelayTheLoadEvent, IMFMediaEngineWebSupport::ShouldDelayTheLoadEvent, ShouldDelayTheLoadEvent, ShouldDelayTheLoadEvent method [Media Foundation], ShouldDelayTheLoadEvent method [Media Foundation],IMFMediaEngineWebSupport interface, mf.imfmediaenginewebsupport_shoulddelaytheloadevent, mfmediaengine/IMFMediaEngineWebSupport::ShouldDelayTheLoadEvent
 ms.prod: windows
 ms.technology: windows-sdk

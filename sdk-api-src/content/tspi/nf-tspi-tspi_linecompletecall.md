@@ -7,7 +7,7 @@ old-location: tspi\tspi_linecompletecall.htm
 old-project: tapi
 ms.assetid: ec7b9aec-01f2-497a-924b-471fbb526bee
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineCompleteCall, TSPI_lineCompleteCall function [TAPI 2.2], _tspi_tspi_linecompletecall, tspi.tspi_linecompletecall, tspi/TSPI_lineCompleteCall
 ms.prod: windows
 ms.technology: windows-sdk

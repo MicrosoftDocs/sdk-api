@@ -7,7 +7,7 @@ old-location: tapi3\ienumbstr_skip.htm
 old-project: tapi
 ms.assetid: fcece935-d133-4991-8eae-f2cabfde423b
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumBstr interface [TAPI 2.2],Skip method, IEnumBstr.Skip, IEnumBstr::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumBstr interface, _tapi3_ienumbstr_skip, tapi3.ienumbstr_skip, tapi3if/IEnumBstr::Skip
 ms.prod: windows
 ms.technology: windows-sdk

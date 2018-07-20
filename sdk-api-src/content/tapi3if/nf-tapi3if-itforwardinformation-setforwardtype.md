@@ -7,7 +7,7 @@ old-location: tapi3\itforwardinformation_setforwardtype.htm
 old-project: tapi
 ms.assetid: 5f7972a8-c9b0-4033-8b00-a107a513ee66
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITForwardInformation interface [TAPI 2.2],SetForwardType method, ITForwardInformation.SetForwardType, ITForwardInformation::SetForwardType, SetForwardType, SetForwardType method [TAPI 2.2], SetForwardType method [TAPI 2.2],ITForwardInformation interface, _tapi3_itforwardinformation_setforwardtype, tapi3.itforwardinformation_setforwardtype, tapi3if/ITForwardInformation::SetForwardType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -142,8 +142,8 @@ Insufficient memory exists to perform the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pDestAddress</i> and <i>pCallerAddress</i> parameters. The application must use 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variables are no longer needed.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> to allocate memory for the <i>pDestAddress</i> and <i>pCallerAddress</i> parameters. The application must use 
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory when the variables are no longer needed.
 
 
 

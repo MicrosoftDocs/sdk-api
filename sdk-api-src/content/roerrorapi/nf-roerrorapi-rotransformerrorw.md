@@ -7,7 +7,7 @@ old-location: winrt\rotransformerrorw.htm
 old-project: WinRT
 ms.assetid: A13265FD-DC14-4552-A9FD-C954A7EA08C9
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: RoTransformErrorW, RoTransformErrorW function [Windows Runtime], WinRTTransformErrorW, roerrorapi/RoTransformErrorW, roerrorapi/WinRTTransformErrorW, winrt.rotransformerrorw, winrt.winrttransformerrorw
 ms.prod: windows
 ms.technology: windows-sdk
@@ -144,7 +144,7 @@ Use the <b>RoTransformErrorW</b> function  to substitute a custom error code for
 
 The behavior of the  <b>RoTransformErrorW</b> function is otherwise the same as the <a href="https://msdn.microsoft.com/FC75DDA5-59BA-4CCF-93CC-8D0BB2AB415B">RoOriginateErrorW</a> function.
 
- If the <b>UseSetErrorInfo</b> flag is set by calling the <a href="https://msdn.microsoft.com/167C2EC9-9EA0-4E1D-840B-DAF5F47ED1FE">RoSetErrorReportingFlags</a> function, and the calling thread has been initialized in COM, the function creates an appropriate error object that supports <a href="https://msdn.microsoft.com/1af8d4bf-1217-44ca-b0dd-9a6feda16100">IRestrictedErrorInfo</a> and  associates it with the COM channel by calling <a href="https://msdn.microsoft.com/library/ms221409(v=VS.85).aspx">SetErrorInfo</a>.  If the thread has not been initialized into COM, the call will still succeed with no  error, but the error will not be associated with the COM channel.
+ If the <b>UseSetErrorInfo</b> flag is set by calling the <a href="https://msdn.microsoft.com/167C2EC9-9EA0-4E1D-840B-DAF5F47ED1FE">RoSetErrorReportingFlags</a> function, and the calling thread has been initialized in COM, the function creates an appropriate error object that supports <a href="https://msdn.microsoft.com/1af8d4bf-1217-44ca-b0dd-9a6feda16100">IRestrictedErrorInfo</a> and  associates it with the COM channel by calling <a href="8eaacfac-fc37-4eaa-870b-10b99d598d66">SetErrorInfo</a>.  If the thread has not been initialized into COM, the call will still succeed with no  error, but the error will not be associated with the COM channel.
 
 
 <div class="alert"><b>Note</b>  This is no ANSI version of the <b>RoTransformErrorW</b> function. Message strings are required to be Unicode.</div>

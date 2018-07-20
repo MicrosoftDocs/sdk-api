@@ -7,7 +7,7 @@ old-location: mf\imfasfmultiplexer_end.htm
 old-project: medfound
 ms.assetid: 2a106ea5-976a-40df-a554-1b76d9a07286
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 2a106ea5-976a-40df-a554-1b76d9a07286, End, End method [Media Foundation], End method [Media Foundation],IMFASFMultiplexer interface, IMFASFMultiplexer interface [Media Foundation],End method, IMFASFMultiplexer.End, IMFASFMultiplexer::End, mf.imfasfmultiplexer_end, wmcontainer/IMFASFMultiplexer::End
 ms.prod: windows
 ms.technology: windows-sdk

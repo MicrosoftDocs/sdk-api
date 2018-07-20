@@ -7,7 +7,7 @@ old-location: tapi3\itautomatedphonecontrol.htm
 old-project: tapi
 ms.assetid: 60d4f079-75ee-4aeb-9e7c-0b16d90da754
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITAutomatedPhoneControl, ITAutomatedPhoneControl interface [TAPI 2.2], ITAutomatedPhoneControl interface [TAPI 2.2],described, _tapi3_itautomatedphonecontrol, tapi3.itautomatedphonecontrol, tapi3if/ITAutomatedPhoneControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows XP with SP1 and later
 
 The 
 <b>ITAutomatedPhoneControl</b> is a fully OLE automatable and scriptable interface exposed by the TAPI phone object. When a phone device is opened with owner privilege, you can call the 
-<a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> method on the 
+<a href="_com_iunknown_queryinterface">QueryInterface</a> method on the 
 <a href="https://msdn.microsoft.com/94dff33c-67a1-4df8-9ef5-2b6524438f6f">ITPhone</a> interface to obtain an 
 <b>ITAutomatedPhoneControl</b> interface pointer.
 
@@ -68,7 +68,7 @@ This interface performs several high-level phone-related functions:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAutomatedPhoneControl</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITAutomatedPhoneControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAutomatedPhoneControl</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITAutomatedPhoneControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -388,7 +388,7 @@ An
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

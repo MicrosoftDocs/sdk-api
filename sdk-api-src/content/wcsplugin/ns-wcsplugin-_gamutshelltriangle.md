@@ -7,7 +7,7 @@ old-location: wcs\gamutshelltriangle.htm
 old-project: WCS
 ms.assetid: 3b49d548-640c-47d0-a7bb-4edbb654464e
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/18/2018
 ms.keywords: GamutShellTriangle, GamutShellTriangle structure [Windows Color System], _GamutShellTriangle, _color_GamutShellTriangle_str, wcs.gamutshelltriangle, wcsplugin/GamutShellTriangle
 ms.prod: windows
 ms.technology: windows-sdk

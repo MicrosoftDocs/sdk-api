@@ -7,7 +7,7 @@ old-location: tapi3\tapi_detecttone_str.htm
 old-project: tapi
 ms.assetid: c0e311e8-67b5-4dae-848e-589f306191fa
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "*LPTAPI_DETECTTONE, TAPI_DETECTTONE, TAPI_DETECTTONE structure [TAPI 2.2], _tapi3_tapi_detecttone_str, tapi3.tapi_detecttone_str, tapi3if/TAPI_DETECTTONE"
 ms.prod: windows
 ms.technology: windows-sdk

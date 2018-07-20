@@ -7,7 +7,7 @@ old-location: intl\enumsystemlocalesex.htm
 old-project: Intl
 ms.assetid: 74b1b453-66e9-4724-a956-26cea2d7d744
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 07/18/2018
 ms.keywords: EnumSystemLocalesEx, EnumSystemLocalesEx function [Internationalization for Windows Applications], _win32_EnumSystemLocalesEx, intl.enumsystemlocalesex, winnls/EnumSystemLocalesEx
 ms.prod: windows
 ms.technology: windows-sdk

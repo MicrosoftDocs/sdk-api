@@ -4,10 +4,10 @@ title: Column::IsSortColumn
 author: windows-sdk-content
 description: The IsSortColumn method returns whether the column is the sort column.
 old-location: mmc\column_issortcolumn.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: b2c6bf3f-fa2b-4c4d-8cb3-35937a6777af
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: Column interface [MMC],IsSortColumn method, Column object [MMC],IsSortColumn method, Column.IsSortColumn, Column::IsSortColumn, IsSortColumn, IsSortColumn method [MMC], IsSortColumn method [MMC],Column interface, IsSortColumn method [MMC],Column object, _slate_column.issortcolumn_method, mmc.column_issortcolumn
 ms.prod: windows
 ms.technology: windows-sdk

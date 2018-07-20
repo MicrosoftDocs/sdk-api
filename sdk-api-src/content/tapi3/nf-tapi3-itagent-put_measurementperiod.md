@@ -7,7 +7,7 @@ old-location: tapi3\itagent_put_measurementperiod.htm
 old-project: tapi
 ms.assetid: 3c5d6e8e-8ddf-4eef-be79-fed56daecb1b
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITAgent interface [TAPI 2.2],put_MeasurementPeriod method, ITAgent.put_MeasurementPeriod, ITAgent::put_MeasurementPeriod, _tapi3_itagent_put_measurementperiod, put_MeasurementPeriod, put_MeasurementPeriod method [TAPI 2.2], put_MeasurementPeriod method [TAPI 2.2],ITAgent interface, tapi3.itagent_put_measurementperiod, tapi3cc/ITAgent::put_MeasurementPeriod
 ms.prod: windows
 ms.technology: windows-sdk

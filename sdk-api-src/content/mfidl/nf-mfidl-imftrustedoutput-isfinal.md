@@ -7,7 +7,7 @@ old-location: mf\imftrustedoutput_isfinal.htm
 old-project: medfound
 ms.assetid: 085cac9c-f8c1-45b9-a8fe-c2c5cc941439
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 085cac9c-f8c1-45b9-a8fe-c2c5cc941439, IMFTrustedOutput interface [Media Foundation],IsFinal method, IMFTrustedOutput.IsFinal, IMFTrustedOutput::IsFinal, IsFinal, IsFinal method [Media Foundation], IsFinal method [Media Foundation],IMFTrustedOutput interface, mf.imftrustedoutput_isfinal, mfidl/IMFTrustedOutput::IsFinal
 ms.prod: windows
 ms.technology: windows-sdk

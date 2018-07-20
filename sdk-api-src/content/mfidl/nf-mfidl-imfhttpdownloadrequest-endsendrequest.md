@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_endsendrequest.htm
 old-project: medfound
 ms.assetid: 2B1554C7-2814-4A9E-BBAC-B25C78775420
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: EndSendRequest, EndSendRequest method [Media Foundation], EndSendRequest method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],EndSendRequest method, IMFHttpDownloadRequest.EndSendRequest, IMFHttpDownloadRequest::EndSendRequest, mf.imfhttpdownloadrequest_endsendrequest, mfidl/IMFHttpDownloadRequest::EndSendRequest
 ms.prod: windows
 ms.technology: windows-sdk

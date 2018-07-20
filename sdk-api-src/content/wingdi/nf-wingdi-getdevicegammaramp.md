@@ -7,7 +7,7 @@ old-location: wcs\getdevicegammaramp.htm
 old-project: WCS
 ms.assetid: c32600a9-545e-4bbf-a3c1-21878f5106b0
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/18/2018
 ms.keywords: GetDeviceGammaRamp, GetDeviceGammaRamp function [Windows Color System], _color_GetDeviceGammaRamp, wcs.getdevicegammaramp, wingdi/GetDeviceGammaRamp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>GetDeviceGammaRamp</b> function gets the <a href="https://msdn.microsoft.com/library/ms708499(v=VS.85).aspx">gamma ramp</a> on direct color display boards having drivers that support downloadable gamma ramps in hardware.
+The <b>GetDeviceGammaRamp</b> function gets the <a href="g.htm">gamma ramp</a> on direct color display boards having drivers that support downloadable gamma ramps in hardware.
 
 
 ## -parameters

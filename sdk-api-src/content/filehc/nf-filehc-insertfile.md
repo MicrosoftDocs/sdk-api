@@ -7,7 +7,7 @@ old-location: winprog\_insertfile.htm
 old-project: devnotes
 ms.assetid: 5461dc96-a625-43d7-87e7-c25389e9c822
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: InsertFile, InsertFile function [Windows API], filehc/InsertFile, winprog._insertfile
 ms.prod: windows
 ms.technology: windows-sdk

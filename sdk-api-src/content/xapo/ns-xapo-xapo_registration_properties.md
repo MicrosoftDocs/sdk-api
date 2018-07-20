@@ -52,8 +52,8 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 
 
 Describes general characteristics of an XAPO. Used with 
-	 <a href="https://msdn.microsoft.com/library/Ee418451(v=VS.85).aspx">IXAPO::GetRegistrationProperties</a>, <a href="https://msdn.microsoft.com/library/Ee416386(v=VS.85).aspx">CXAPOParametersBase::CXAPOParametersBase</a>, and 
-	 <a href="https://msdn.microsoft.com/library/Ee416373(v=VS.85).aspx">CXAPOBase::CXAPOBase</a>. 
+	 <a href="https://msdn.microsoft.com/F9922DF3-3E7D-4847-A6B1-C2AE99C6ADEC">IXAPO::GetRegistrationProperties</a>, <a href="https://msdn.microsoft.com/08236DB5-8119-4F3F-BB18-D9DCD3713D45">CXAPOParametersBase::CXAPOParametersBase</a>, and 
+	 <a href="https://msdn.microsoft.com/119EA60F-BB59-4D9A-972F-A95D81EEF765">CXAPOBase::CXAPOBase</a>. 
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: winrt\iexeserveractivatableclassregistration.htm
 old-project: WinRT
 ms.assetid: 1D8F7B12-2883-478D-B83D-84AC47D512E4
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IExeServerActivatableClassRegistration, IExeServerActivatableClassRegistration interface [Windows Runtime], IExeServerActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IExeServerActivatableClassRegistration, winrt.iexeserveractivatableclassregistration
 ms.prod: windows
 ms.technology: windows-sdk

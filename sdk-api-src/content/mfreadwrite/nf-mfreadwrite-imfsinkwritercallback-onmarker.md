@@ -7,7 +7,7 @@ old-location: mf\imfsinkwritercallback_onmarker.htm
 old-project: medfound
 ms.assetid: 5b1ca6a7-c2bc-4b30-aa86-05bd4ccc052c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFSinkWriterCallback interface [Media Foundation],OnMarker method, IMFSinkWriterCallback.OnMarker, IMFSinkWriterCallback::OnMarker, OnMarker, OnMarker method [Media Foundation], OnMarker method [Media Foundation],IMFSinkWriterCallback interface, mf.imfsinkwritercallback_onmarker, mfreadwrite/IMFSinkWriterCallback::OnMarker
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineeme_setmediakeys.htm
 old-project: medfound
 ms.assetid: 659b566e-d488-489d-9a12-bfe9695c5f94
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFMediaEngineEME interface [Media Foundation],SetMediaKeys method, IMFMediaEngineEME.SetMediaKeys, IMFMediaEngineEME::SetMediaKeys, SetMediaKeys, SetMediaKeys method [Media Foundation], SetMediaKeys method [Media Foundation],IMFMediaEngineEME interface, mf.imfmediaengineeme_setmediakeys, mfmediaengine/IMFMediaEngineEME::SetMediaKeys
 ms.prod: windows
 ms.technology: windows-sdk

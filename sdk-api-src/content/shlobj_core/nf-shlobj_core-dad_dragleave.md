@@ -53,7 +53,7 @@ req.product: Internet Explorer 5.0
 ## -description
 
 
-<p class="CCE_Message">[<b>DAD_DragLeave</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://msdn.microsoft.com/library/Bb761528(v=VS.85).aspx">ImageList_DragLeave</a> instead.]
+<p class="CCE_Message">[<b>DAD_DragLeave</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://msdn.microsoft.com/87249df7-1489-4a70-8ed7-92c926a22edf">ImageList_DragLeave</a> instead.]
 
 Unlocks the window locked by the <a href="https://msdn.microsoft.com/32f98df7-e357-4d17-9e33-f162a6ffb7ed">DAD_DragEnterEx</a> function.
 

@@ -7,7 +7,7 @@ old-location: winrt\iinputpaneinterop_getforwindow.htm
 old-project: WinRT
 ms.assetid: 98A591F8-B85C-4400-9BA6-1B8F422C067B
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: GetForWindow, GetForWindow method [Windows Runtime], GetForWindow method [Windows Runtime],IInputPaneInterop interface, IInputPaneInterop interface [Windows Runtime],GetForWindow method, IInputPaneInterop.GetForWindow, IInputPaneInterop::GetForWindow, inputpaneinterop/IInputPaneInterop::GetForWindow, winrt.iinputpaneinterop_getforwindow
 ms.prod: windows
 ms.technology: windows-sdk

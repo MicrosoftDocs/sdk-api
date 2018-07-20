@@ -7,7 +7,7 @@ old-location: tapi3\itautomatedphonecontrol_get_selectedcalls.htm
 old-project: tapi
 ms.assetid: 50196789-c243-4279-8748-960898323992
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_SelectedCalls method, ITAutomatedPhoneControl.get_SelectedCalls, ITAutomatedPhoneControl::get_SelectedCalls, _tapi3_itautomatedphonecontrol_get_selectedcalls, get_SelectedCalls, get_SelectedCalls method [TAPI 2.2], get_SelectedCalls method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_selectedcalls, tapi3if/ITAutomatedPhoneControl::get_SelectedCalls
 ms.prod: windows
 ms.technology: windows-sdk

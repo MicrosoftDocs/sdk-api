@@ -7,7 +7,7 @@ old-location: tapi2\lineforwardlist_str.htm
 old-project: tapi
 ms.assetid: 3dec9ab6-43d8-4dda-b0b1-a25407e4d77a
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "*LPLINEFORWARDLIST, LINEFORWARDLIST, LINEFORWARDLIST structure [TAPI 2.2], LPLINEFORWARDLIST, LPLINEFORWARDLIST structure pointer [TAPI 2.2], _tapi2_lineforwardlist_str, lineforwardlist_tag, tapi/LINEFORWARDLIST, tapi/LPLINEFORWARDLIST, tapi2.lineforwardlist_str"
 ms.prod: windows
 ms.technology: windows-sdk

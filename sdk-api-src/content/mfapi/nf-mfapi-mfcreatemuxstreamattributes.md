@@ -7,7 +7,7 @@ old-location: mf\mfcreatemuxstreamattributes.htm
 old-project: medfound
 ms.assetid: 946D56BC-13A2-4464-8399-22A74E26693E
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: MFCreateMuxStreamAttributes, MFCreateMuxStreamAttributes function [Media Foundation], mf.mfcreatemuxstreamattributes, mfapi/MFCreateMuxStreamAttributes
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winprog\ifhconfigmgr_provisionandsetnewtarget.htm
 old-project: devnotes
 ms.assetid: 9C9FA696-CFB2-4814-96D5-2B9B6A2AB426
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: FhConfigMgr class [Windows API],ProvisionAndSetNewTarget method, IFhConfigMgr interface [Windows API],ProvisionAndSetNewTarget method, IFhConfigMgr.ProvisionAndSetNewTarget, IFhConfigMgr::ProvisionAndSetNewTarget, ProvisionAndSetNewTarget, ProvisionAndSetNewTarget method [Windows API], ProvisionAndSetNewTarget method [Windows API],FhConfigMgr class, ProvisionAndSetNewTarget method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::ProvisionAndSetNewTarget, winprog.ifhconfigmgr_provisionandsetnewtarget
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfbytestreamhandler_cancelobjectcreation.htm
 old-project: medfound
 ms.assetid: 9731dac4-879c-4cbc-97b4-fa596b20c033
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 9731dac4-879c-4cbc-97b4-fa596b20c033, CancelObjectCreation, CancelObjectCreation method [Media Foundation], CancelObjectCreation method [Media Foundation],IMFByteStreamHandler interface, IMFByteStreamHandler interface [Media Foundation],CancelObjectCreation method, IMFByteStreamHandler.CancelObjectCreation, IMFByteStreamHandler::CancelObjectCreation, mf.imfbytestreamhandler_cancelobjectcreation, mfidl/IMFByteStreamHandler::CancelObjectCreation
 ms.prod: windows
 ms.technology: windows-sdk

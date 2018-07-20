@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_pushdenyallstoragefilter.htm
 old-project: direct3ddxgi
 ms.assetid: 7985F43F-B0D3-4FF1-83D9-EEB568B29664
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushDenyAllStorageFilter method, IDXGIInfoQueue.PushDenyAllStorageFilter, IDXGIInfoQueue::PushDenyAllStorageFilter, PushDenyAllStorageFilter, PushDenyAllStorageFilter method [DXGI], PushDenyAllStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushdenyallstoragefilter, dxgidebug/IDXGIInfoQueue::PushDenyAllStorageFilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ Pushes a deny-all storage filter onto the storage-filter stack.
 
 
 
-Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
 
 
 

@@ -7,7 +7,7 @@ old-location: winprog\_releasenamecache.htm
 old-project: devnotes
 ms.assetid: 3abab799-4f55-40e4-9b2c-f40e92dc9af5
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: ReleaseNameCache, ReleaseNameCache function [Windows API], filehc/ReleaseNameCache, winprog._releasenamecache
 ms.prod: windows
 ms.technology: windows-sdk

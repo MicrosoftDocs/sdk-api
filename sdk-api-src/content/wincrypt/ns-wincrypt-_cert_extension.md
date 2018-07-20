@@ -62,7 +62,7 @@ The <b>CERT_EXTENSION</b> structure contains the extension information for a <a 
 ### -field pszObjId
 
 <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">Object identifier</a> (OID) that specifies the structure of the extension data contained in the <b>Value</b> member. For specifics on extension OIDs and their related structures, see 
-<a href="https://msdn.microsoft.com/library/Aa380258(v=VS.85).aspx">X.509 Certificate Extension Structures</a>.
+<a href="cryptography_structures.htm">X.509 Certificate Extension Structures</a>.
 
 
 ### -field fCritical

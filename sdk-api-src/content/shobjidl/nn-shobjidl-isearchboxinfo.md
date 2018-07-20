@@ -74,7 +74,7 @@ The <b>ISearchBoxInfo</b> interface has these methods.
 <a href="https://msdn.microsoft.com/9a1159df-78ef-493b-8286-eefb0ac004ef">GetCondition</a>
 </td>
 <td align="left" width="63%">
-Retrieves the contents of the search box as an <a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a> object.
+Retrieves the contents of the search box as an <a href="_search_ICondition">ICondition</a> object.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ The search box is shown here in an Windows Explorer window frame.
 
 
 
-<img alt="Screen shot of upper-right corner of explorer frame showing search box" src="./images/searchbox.jpg"/>
+<img alt="Screen shot of upper-right corner of explorer frame showing search box" src="images/searchbox.jpg"/>
 The frame that contains the search box might also be hosted in another window or in the common file dialog box.
 
 To access the search dialog, use <a href="_inet_IServiceProvider_QueryService_Method">QueryService</a> using SID_SSearchBoxInfo on a site pointer within the Windows Explorer window.

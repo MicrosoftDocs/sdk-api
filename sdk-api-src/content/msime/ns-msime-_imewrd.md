@@ -7,7 +7,7 @@ old-location: intl\imewrd.htm
 old-project: Intl
 ms.assetid: BC0D039A-7EB4-4A8D-B063-479CF4294FF0
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 07/18/2018
 ms.keywords: "*PIMEWRD, IMEWRD, IMEWRD structure [Internationalization for Windows Applications], PIMEWRD, PIMEWRD structure pointer [Internationalization for Windows Applications], _IMEWRD, intl.imewrd, msime/IMEWRD, msime/PIMEWRD"
 ms.prod: windows
 ms.technology: windows-sdk

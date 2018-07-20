@@ -7,7 +7,7 @@ old-location: winprog\avrf_backtrace_information.htm
 old-project: devnotes
 ms.assetid: 634d9569-469c-4dc7-9192-217af0937b6c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: "*PAVRF_BACKTRACE_INFORMATION, AVRF_BACKTRACE_INFORMATION, AVRF_BACKTRACE_INFORMATION structure [Windows API], _AVRF_BACKTRACE_INFORMATION, avrfsdk/AVRF_BACKTRACE_INFORMATION, base.avrf_backtrace_information, winprog.avrf_backtrace_information"
 ms.prod: windows
 ms.technology: windows-sdk

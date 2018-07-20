@@ -7,7 +7,7 @@ old-location: tspi\tspi_phonesetvolume.htm
 old-project: tapi
 ms.assetid: c9aa2a3a-71ef-4214-b165-00a9620bb7e9
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_phoneSetVolume, TSPI_phoneSetVolume function [TAPI 2.2], _tspi_tspi_phonesetvolume, tspi.tspi_phonesetvolume, tspi/TSPI_phoneSetVolume
 ms.prod: windows
 ms.technology: windows-sdk

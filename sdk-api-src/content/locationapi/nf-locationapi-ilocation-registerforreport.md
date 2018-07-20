@@ -4,10 +4,10 @@ title: ILocation::RegisterForReport
 author: windows-sdk-content
 description: Requests location report events.
 old-location: winlocation_com_ref\ilocation_registerforreport.htm
-old-project: LocationAPI
+old-project: locationapi
 ms.assetid: 1aca3e5b-20cb-4fa9-b28d-7d992601df96
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: ILocation interface [WinLocation],RegisterForReport method, ILocation.RegisterForReport, ILocation::RegisterForReport, RegisterForReport, RegisterForReport method [WinLocation], RegisterForReport method [WinLocation],ILocation interface, WinLocation_COM_Ref.ilocation_registerforreport, locationapi/ILocation::RegisterForReport
 ms.prod: windows
 ms.technology: windows-sdk

@@ -101,7 +101,7 @@ If the call to <b>DdeImpersonateClient</b> fails for any reason, the client is n
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/f22d4a10-58b9-4f62-bbc3-3cbeb3246923">Dynamic Data Exchange Management Library</a>
 
 
 

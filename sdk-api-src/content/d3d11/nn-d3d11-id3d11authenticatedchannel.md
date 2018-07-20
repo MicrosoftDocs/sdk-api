@@ -7,7 +7,7 @@ old-location: mf\id3d11authenticatedchannel.htm
 old-project: medfound
 ms.assetid: B2DE8E06-1571-4D50-9296-8EB4BB74D6BA
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: ID3D11AuthenticatedChannel, ID3D11AuthenticatedChannel interface [Media Foundation], ID3D11AuthenticatedChannel interface [Media Foundation],described, d3d11/ID3D11AuthenticatedChannel, mf.id3d11authenticatedchannel
 ms.prod: windows
 ms.technology: windows-sdk

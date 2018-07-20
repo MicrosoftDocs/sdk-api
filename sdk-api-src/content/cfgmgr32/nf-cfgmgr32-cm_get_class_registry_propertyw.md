@@ -7,7 +7,7 @@ old-location: devinst\cm_get_class_registry_property.htm
 old-project: devinst
 ms.assetid: 2247771d-5edd-47c3-8635-586bf815544a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: CM_Get_Class_Registry_Property, CM_Get_Class_Registry_Property function [Device and Driver Installation], CM_Get_Class_Registry_PropertyW, cfgmgr32/CM_Get_Class_Registry_Property, cfgmgr32/CM_Get_Class_Registry_PropertyW, cfgmgrfn_d6abfa4e-81ee-4f56-8b0f-9c4cf8b2f632.xml, devinst.cm_get_class_registry_property
 ms.prod: windows
 ms.technology: windows-sdk

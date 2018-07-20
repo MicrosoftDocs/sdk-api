@@ -7,7 +7,7 @@ old-location: tspi\tspi_linegetaddressid.htm
 old-project: tapi
 ms.assetid: 8783fb72-a50c-444c-aa89-485cb0eb6739
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineGetAddressID, TSPI_lineGetAddressID function [TAPI 2.2], _tspi_tspi_linegetaddressid, tspi.tspi_linegetaddressid, tspi/TSPI_lineGetAddressID
 ms.prod: windows
 ms.technology: windows-sdk

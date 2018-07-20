@@ -7,7 +7,7 @@ old-location: winprog\fhservicestartbackup.htm
 old-project: devnotes
 ms.assetid: 30800744-8605-4F8B-9B7A-50F57CC73483
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: FhServiceStartBackup, FhServiceStartBackup function [Windows API], fhsvcctl/FhServiceStartBackup, winprog.fhservicestartbackup
 ms.prod: windows
 ms.technology: windows-sdk

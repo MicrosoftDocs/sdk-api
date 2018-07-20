@@ -7,7 +7,7 @@ old-location: mf\iplaytocontrol_connect.htm
 old-project: medfound
 ms.assetid: 5252DC51-E1EF-4A61-A2BD-682F51DC219B
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: Connect, Connect method [Media Foundation], Connect method [Media Foundation],IPlayToControl interface, IPlayToControl interface [Media Foundation],Connect method, IPlayToControl.Connect, IPlayToControl::Connect, mf.iplaytocontrol_connect, mfsharingengine/IPlayToControl::Connect
 ms.prod: windows
 ms.technology: windows-sdk

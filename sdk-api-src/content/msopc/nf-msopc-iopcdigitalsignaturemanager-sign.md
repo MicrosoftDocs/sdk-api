@@ -213,7 +213,7 @@ The specified part does not exist.
 </td>
 <td width="60%">
 
-                An <b>HRESULT</b> error code from a <a href="https://msdn.microsoft.com/library/Dd430435(v=VS.85).aspx">Windows Web Services</a> API.
+                An <b>HRESULT</b> error code from a <a href="wsw.web_services_for_windows_error_codes">Windows Web Services</a> API.
 
 </td>
 </tr>

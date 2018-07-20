@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessage_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8ujp_cpp.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: IFaxOutgoingMessage, IFaxOutgoingMessage interface [Fax Service], IFaxOutgoingMessage interface [Fax Service],described, _mfax_faxoutgoingmessage_cpp, fax._mfax_faxoutgoingmessage_cpp, faxcomex/IFaxOutgoingMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,12 +51,12 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxOutgoingMessage</b> interface describes an object that is used by a fax client application to retrieve information about a fax message in the archive of outbound faxes. The archive contains faxes transmitted successfully by the fax service. The object enables you to retrieve information about the fax recipient, contained in the <a href="https://msdn.microsoft.com/library/ms690204(v=VS.85).aspx">FaxRecipient</a> object, and information about the fax sender, contained in the <a href="https://msdn.microsoft.com/library/ms687532(v=VS.85).aspx">FaxSender</a> object. It also includes methods to delete a message from the archive and to copy the Tagged Image File Format Class F (TIFF Class F) file associated with the fax message, to a file on the local computer.
+The <b>IFaxOutgoingMessage</b> interface describes an object that is used by a fax client application to retrieve information about a fax message in the archive of outbound faxes. The archive contains faxes transmitted successfully by the fax service. The object enables you to retrieve information about the fax recipient, contained in the <a href="https://msdn.microsoft.com/e418dbaf-9b07-40a9-bab8-7b4561b63325">FaxRecipient</a> object, and information about the fax sender, contained in the <a href="https://msdn.microsoft.com/f265cfd0-cf62-4d86-9ba5-d1842ac94baa">FaxSender</a> object. It also includes methods to delete a message from the archive and to copy the Tagged Image File Format Class F (TIFF Class F) file associated with the fax message, to a file on the local computer.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutgoingMessage</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxOutgoingMessage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutgoingMessage</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxOutgoingMessage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,10 +72,10 @@ The <b>IFaxOutgoingMessage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms687991(v=VS.85).aspx">CopyTiff</a>
+<a href="https://msdn.microsoft.com/5f45a95e-434f-42e5-be26-f84e21bc94de">CopyTiff</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms687991(v=VS.85).aspx">IFaxOutgoingMessage::CopyTiff</a> method copies the TIFF Class F file associated with the outbound fax message, to a file on the local computer.
+The <a href="https://msdn.microsoft.com/5f45a95e-434f-42e5-be26-f84e21bc94de">IFaxOutgoingMessage::CopyTiff</a> method copies the TIFF Class F file associated with the outbound fax message, to a file on the local computer.
 
 </td>
 </tr>
@@ -211,7 +211,7 @@ The <a href="https://msdn.microsoft.com/bd727334-0e7a-4f2b-a4bb-2308c9ecfc9a">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms689201(v=VS.85).aspx">Recipient</a>
+<a href="https://msdn.microsoft.com/a4cb1330-6216-43fb-b158-0f9b9321815e">Recipient</a>
 
 
 </td>
@@ -220,7 +220,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms689201(v=VS.85).aspx">IFaxOutgoingMessage::get_Recipient</a> property retrieves an interface containing information about the recipient of the fax message.
+The <a href="https://msdn.microsoft.com/a4cb1330-6216-43fb-b158-0f9b9321815e">IFaxOutgoingMessage::get_Recipient</a> property retrieves an interface containing information about the recipient of the fax message.
 
 </td>
 </tr>
@@ -243,7 +243,7 @@ The <a href="https://msdn.microsoft.com/bc0c32ec-d19c-4eb3-b8a1-1f8c648875e6">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms688010(v=VS.85).aspx">Sender</a>
+<a href="https://msdn.microsoft.com/2f02f888-69af-4913-af7b-602afa1d816c">Sender</a>
 
 
 </td>
@@ -252,7 +252,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms688010(v=VS.85).aspx">IFaxOutgoingMessage::get_Sender</a> property retrieves an interface containing information about the sender of the fax message.
+The <a href="https://msdn.microsoft.com/2f02f888-69af-4913-af7b-602afa1d816c">IFaxOutgoingMessage::get_Sender</a> property retrieves an interface containing information about the sender of the fax message.
 
 </td>
 </tr>
@@ -375,7 +375,7 @@ The <a href="https://msdn.microsoft.com/0d74492b-b504-4c67-a8bd-b23f5814763f">IF
 
 
 
-A default implementation of <b>IFaxOutgoingMessage</b> is provided as the <a href="https://msdn.microsoft.com/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a> object.
+A default implementation of <b>IFaxOutgoingMessage</b> is provided as the <a href="https://msdn.microsoft.com/fb06254f-f37b-4783-b4fd-42b5c5a28496">FaxOutgoingMessage</a> object.
 
 
 

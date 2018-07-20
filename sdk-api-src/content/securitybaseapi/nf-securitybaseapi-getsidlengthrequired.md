@@ -4,10 +4,10 @@ title: GetSidLengthRequired function
 author: windows-sdk-content
 description: Returns the length, in bytes, of the buffer required to store a SID with a specified number of subauthorities.
 old-location: security\getsidlengthrequired.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: a481fb4f-20bd-4f44-a3d5-d8b8d6228339
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: GetSidLengthRequired, GetSidLengthRequired function [Security], _win32_getsidlengthrequired, security.getsidlengthrequired, securitybaseapi/GetSidLengthRequired
 ms.prod: windows
 ms.technology: windows-sdk

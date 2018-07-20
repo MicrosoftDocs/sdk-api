@@ -7,7 +7,7 @@ old-location: com\imoniker_getdisplayname.htm
 old-project: com
 ms.assetid: 424036c9-c097-4507-b562-4a01f9199b1f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: GetDisplayName, GetDisplayName method [COM], GetDisplayName method [COM],IMoniker interface, IMoniker interface [COM],GetDisplayName method, IMoniker.GetDisplayName, IMoniker::GetDisplayName, _com_imoniker_getdisplayname, com.imoniker_getdisplayname, objidl/IMoniker::GetDisplayName
 ms.prod: windows
 ms.technology: windows-sdk

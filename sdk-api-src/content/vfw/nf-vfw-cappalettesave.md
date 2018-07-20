@@ -7,7 +7,7 @@ old-location: multimedia\cappalettesave.htm
 old-project: Multimedia
 ms.assetid: 11309b32-bc42-41fd-a0cd-e356caade849
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: "_win32_capPaletteSave, capPaletteSave, capPaletteSave macro [Windows Multimedia], multimedia.cappalettesave, vfw/capPaletteSave"
 ms.prod: windows
 ms.technology: windows-sdk

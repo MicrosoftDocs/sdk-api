@@ -4,10 +4,10 @@ title: Nodes::Item
 author: windows-sdk-content
 description: The Item method returns the Node object at a specified index.
 old-location: mmc\nodes_item.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 72ca0815-2a62-4ec6-b178-3ed4b8ad834e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: Item, Item method [MMC], Item method [MMC],Nodes interface, Item method [MMC],Nodes object, Nodes interface [MMC],Item method, Nodes object [MMC],Item method, Nodes.Item, Nodes::Item, _slate_nodes.item_method, mmc.nodes_item
 ms.prod: windows
 ms.technology: windows-sdk

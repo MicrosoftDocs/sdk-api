@@ -7,7 +7,7 @@ old-location: multimedia\avistreamopenfromfile.htm
 old-project: Multimedia
 ms.assetid: f9ac2a8a-08b7-42a7-b71b-a1d44c924b20
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: AVIStreamOpenFromFile, AVIStreamOpenFromFile function [Windows Multimedia], AVIStreamOpenFromFileA, AVIStreamOpenFromFileW, _win32_AVIStreamOpenFromFile, multimedia.avistreamopenfromfile, vfw/AVIStreamOpenFromFile, vfw/AVIStreamOpenFromFileA, vfw/AVIStreamOpenFromFileW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: perf\pdhgetdefaultperfobject.htm
 old-project: perfctrs
 ms.assetid: 7c6d4d82-8b60-4422-8108-8ac10f254278
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/18/2018
 ms.keywords: PdhGetDefaultPerfObject, PdhGetDefaultPerfObject function [Perf], PdhGetDefaultPerfObjectA, PdhGetDefaultPerfObjectW, _win32_pdhgetdefaultperfobject, base.pdhgetdefaultperfobject, pdh/PdhGetDefaultPerfObject, pdh/PdhGetDefaultPerfObjectA, pdh/PdhGetDefaultPerfObjectW, perf.pdhgetdefaultperfobject
 ms.prod: windows
 ms.technology: windows-sdk

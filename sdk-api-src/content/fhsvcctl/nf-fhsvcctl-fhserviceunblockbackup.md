@@ -7,7 +7,7 @@ old-location: winprog\fhserviceunblockbackup.htm
 old-project: devnotes
 ms.assetid: 4CCCEEA5-40BC-4862-ADF5-C8757E02916A
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: FhServiceUnblockBackup, FhServiceUnblockBackup function [Windows API], fhsvcctl/FhServiceUnblockBackup, winprog.fhserviceunblockbackup
 ms.prod: windows
 ms.technology: windows-sdk

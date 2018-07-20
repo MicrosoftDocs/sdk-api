@@ -7,7 +7,7 @@ old-location: intl\enumdateformatsexex.htm
 old-project: Intl
 ms.assetid: 52bfec03-4cb3-4418-b467-f75d2900ba40
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 07/18/2018
 ms.keywords: DATE_LONGDATE, DATE_MONTHDAY, DATE_SHORTDATE, DATE_YEARMONTH, EnumDateFormatsExEx, EnumDateFormatsExEx function [Internationalization for Windows Applications], _win32_EnumDateFormatsExEx, intl.enumdateformatsexex, winnls/EnumDateFormatsExEx
 ms.prod: windows
 ms.technology: windows-sdk

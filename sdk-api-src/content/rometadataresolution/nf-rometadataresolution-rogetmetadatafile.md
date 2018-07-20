@@ -7,7 +7,7 @@ old-location: winrt\rogetmetadatafile.htm
 old-project: WinRT
 ms.assetid: FF4FEA9F-3FB0-4D56-BE9A-E8E2CB13D718
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: RoGetMetaDataFile, RoGetMetaDataFile function [Windows Runtime], rometadataresolution/RoGetMetaDataFile, winrt.rogetmetadatafile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -41,7 +41,7 @@ api_name:
  - RoGetMetaDataFile
 product: Windows
 targetos: Windows
-req.lib: WinTypes.lib
+req.lib: WindowsApp.lib
 req.dll: WinTypes.dll
 req.irql: 
 req.product: ADAM

@@ -7,7 +7,7 @@ old-location: com\ioledocumentsite.htm
 old-project: com
 ms.assetid: cac435c9-caee-4751-9ad8-df48b6d4c7e0
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IOleDocumentSite, IOleDocumentSite interface [COM], IOleDocumentSite interface [COM],described, _ole_ioledocumentsite, com.ioledocumentsite, docobj/IOleDocumentSite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ For each document object to be hosted, a container must provide a corresponding 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleDocumentSite</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleDocumentSite</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleDocumentSite</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IOleDocumentSite</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

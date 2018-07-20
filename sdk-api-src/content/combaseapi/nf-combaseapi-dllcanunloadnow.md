@@ -7,7 +7,7 @@ old-location: com\dllcanunloadnow.htm
 old-project: com
 ms.assetid: a47df9eb-97cb-4875-a121-1dabe7bc9db6
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: DllCanUnloadNow, DllCanUnloadNow function [COM], _com_DllCanUnloadNow, com.dllcanunloadnow, combaseapi/DllCanUnloadNow
 ms.prod: windows
 ms.technology: windows-sdk

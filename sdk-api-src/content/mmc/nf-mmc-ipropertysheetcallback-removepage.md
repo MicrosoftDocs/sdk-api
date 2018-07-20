@@ -4,10 +4,10 @@ title: IPropertySheetCallback::RemovePage
 author: windows-sdk-content
 description: The IPropertySheetCallback::RemovePage method enables a snap-in to remove a page from a property sheet.
 old-location: mmc\ipropertysheetcallback_removepage.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 2d54efbd-d88e-430e-9e46-c2b80559d356
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: IPropertySheetCallback interface [MMC],RemovePage method, IPropertySheetCallback.RemovePage, IPropertySheetCallback::RemovePage, RemovePage, RemovePage method [MMC], RemovePage method [MMC],IPropertySheetCallback interface, _slate_ipropertysheetcallback_removepage, mmc.ipropertysheetcallback_removepage, mmc/IPropertySheetCallback::RemovePage
 ms.prod: windows
 ms.technology: windows-sdk

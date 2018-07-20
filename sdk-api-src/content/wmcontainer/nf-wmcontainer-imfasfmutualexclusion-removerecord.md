@@ -7,7 +7,7 @@ old-location: mf\imfasfmutualexclusion_removerecord.htm
 old-project: medfound
 ms.assetid: ecfb5e10-5102-4f6a-b67b-ba0ed06d0ed8
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFASFMutualExclusion interface [Media Foundation],RemoveRecord method, IMFASFMutualExclusion.RemoveRecord, IMFASFMutualExclusion::RemoveRecord, RemoveRecord, RemoveRecord method [Media Foundation], RemoveRecord method [Media Foundation],IMFASFMutualExclusion interface, ecfb5e10-5102-4f6a-b67b-ba0ed06d0ed8, mf.imfasfmutualexclusion_removerecord, wmcontainer/IMFASFMutualExclusion::RemoveRecord
 ms.prod: windows
 ms.technology: windows-sdk

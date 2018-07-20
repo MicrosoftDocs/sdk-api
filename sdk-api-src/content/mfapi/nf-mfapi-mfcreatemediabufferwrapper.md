@@ -7,7 +7,7 @@ old-location: mf\mfcreatemediabufferwrapper.htm
 old-project: medfound
 ms.assetid: 6850e75c-4612-4514-a74d-9b36fd88a598
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 6850e75c-4612-4514-a74d-9b36fd88a598, MFCreateMediaBufferWrapper, MFCreateMediaBufferWrapper function [Media Foundation], mf.mfcreatemediabufferwrapper, mfapi/MFCreateMediaBufferWrapper
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wcs\cmyk.htm
 old-project: WCS
 ms.assetid: ee28d4e3-314f-429d-841b-da432ff6dc78
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/18/2018
 ms.keywords: CMYK, CMYK macro [Windows Color System], _color_CMYK, wcs.cmyk, wingdi/CMYK
 ms.prod: windows
 ms.technology: windows-sdk

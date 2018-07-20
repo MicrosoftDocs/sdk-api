@@ -52,7 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-Obtains the number of <a href="https://msdn.microsoft.com/library/Aa384656(v=VS.85).aspx">file sets</a> that have been explicitly excluded from a given shadow copy.
+Obtains the number of <a href="vssgloss_f.htm">file sets</a> that have been explicitly excluded from a given shadow copy.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Obtains the number of <a href="https://msdn.microsoft.com/library/Aa384656(v=VS.
 
 ### -param pcExcludedFromSnapshot [out]
 
-A pointer to the number of <a href="https://msdn.microsoft.com/library/Aa384656(v=VS.85).aspx">file sets</a> explicitly excluded from the shadow copy.
+A pointer to the number of <a href="vssgloss_f.htm">file sets</a> explicitly excluded from the shadow copy.
 
 
 ## -returns
@@ -83,7 +83,7 @@ The following are the valid return codes for this method.
 </dl>
 </td>
 <td width="60%">
-The number of <a href="https://msdn.microsoft.com/library/Aa384656(v=VS.85).aspx">file sets</a> was successfully returned.
+The number of <a href="vssgloss_f.htm">file sets</a> was successfully returned.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: tspi\tspi_lineconditionalmediadetection.htm
 old-project: tapi
 ms.assetid: 8fa3f9ab-1749-43c8-b2a5-c481b1f94177
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineConditionalMediaDetection, TSPI_lineConditionalMediaDetection function [TAPI 2.2], _tspi_tspi_lineconditionalmediadetection, tspi.tspi_lineconditionalmediadetection, tspi/TSPI_lineConditionalMediaDetection
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PeerCollabGetPresenceInfo function
 author: windows-sdk-content
 description: Retrieves the presence information for the endpoint associated with a specific contact.
 old-location: p2p\peercollabgetpresenceinfo.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 596191a1-94cf-4497-aaf0-951e2c63b145
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: PeerCollabGetPresenceInfo, PeerCollabGetPresenceInfo function [Peer Networking], p2p.peercollabgetpresenceinfo, p2p/PeerCollabGetPresenceInfo
 ms.prod: windows
 ms.technology: windows-sdk

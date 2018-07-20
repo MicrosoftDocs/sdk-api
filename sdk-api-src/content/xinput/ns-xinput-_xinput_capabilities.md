@@ -51,7 +51,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-Describes the capabilities of a connected controller. The <a href="https://msdn.microsoft.com/library/Ee419264(v=VS.85).aspx">XInputGetCapabilities</a> function returns <b>XINPUT_CAPABILITIES</b>. 
+Describes the capabilities of a connected controller. The <a href="https://msdn.microsoft.com/5F02EFF5-57ED-4FF1-88E2-DB1CB6F33151">XInputGetCapabilities</a> function returns <b>XINPUT_CAPABILITIES</b>. 
 
 
 ## -struct-fields
@@ -124,13 +124,13 @@ Features of the controller.
 ### -field Gamepad
 
 
-<a href="https://msdn.microsoft.com/library/Ee419270(v=VS.85).aspx">XINPUT_GAMEPAD</a> structure that describes available controller features and control resolutions. 
+<a href="https://msdn.microsoft.com/9F3BA764-82E0-4C46-AAA3-F417D2344ECB">XINPUT_GAMEPAD</a> structure that describes available controller features and control resolutions. 
 
 
 ### -field Vibration
 
 
-<a href="https://msdn.microsoft.com/library/Ee419273(v=VS.85).aspx">XINPUT_VIBRATION</a> structure that describes available vibration functionality and resolutions.
+<a href="https://msdn.microsoft.com/134A22DD-95DA-4270-AC42-93C7EF110A3A">XINPUT_VIBRATION</a> structure that describes available vibration functionality and resolutions.
 
 
 ## -remarks
@@ -138,12 +138,12 @@ Features of the controller.
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419264(v=VS.85).aspx">XInputGetCapabilities</a> returns <b>XINPUT_CAPABILITIES</b> to indicate the characteristics and available functionality of a specified controller.
+<a href="https://msdn.microsoft.com/5F02EFF5-57ED-4FF1-88E2-DB1CB6F33151">XInputGetCapabilities</a> returns <b>XINPUT_CAPABILITIES</b> to indicate the characteristics and available functionality of a specified controller.
 
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419264(v=VS.85).aspx">XInputGetCapabilities</a> sets the structure members to indicate which inputs the device supports. For binary state controls, such as digital buttons, the corresponding bit reflects whether or not the control is supported by the device. For proportional controls, such as thumbsticks, the value indicates the resolution for that control. Some number of the least significant bits may not be set, indicating that the control does not provide resolution to that level.
+<a href="https://msdn.microsoft.com/5F02EFF5-57ED-4FF1-88E2-DB1CB6F33151">XInputGetCapabilities</a> sets the structure members to indicate which inputs the device supports. For binary state controls, such as digital buttons, the corresponding bit reflects whether or not the control is supported by the device. For proportional controls, such as thumbsticks, the value indicates the resolution for that control. Some number of the least significant bits may not be set, indicating that the control does not provide resolution to that level.
 
 
 
@@ -163,11 +163,11 @@ Older XUSB Windows drivers report incomplete capabilities information, particula
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419270(v=VS.85).aspx">XINPUT_GAMEPAD</a>
+<a href="https://msdn.microsoft.com/9F3BA764-82E0-4C46-AAA3-F417D2344ECB">XINPUT_GAMEPAD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419273(v=VS.85).aspx">XINPUT_VIBRATION</a>
+<a href="https://msdn.microsoft.com/134A22DD-95DA-4270-AC42-93C7EF110A3A">XINPUT_VIBRATION</a>
 
 
 
@@ -175,7 +175,7 @@ Older XUSB Windows drivers report incomplete capabilities information, particula
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419264(v=VS.85).aspx">XInputGetCapabilities</a>
+<a href="https://msdn.microsoft.com/5F02EFF5-57ED-4FF1-88E2-DB1CB6F33151">XInputGetCapabilities</a>
  
 
  

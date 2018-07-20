@@ -4,10 +4,10 @@ title: SetAclInformation function
 author: windows-sdk-content
 description: Sets information about an access control list (ACL).
 old-location: security\setaclinformation.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: bb4dd7f9-2f15-4a27-89c9-1675f4fb8d92
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: SetAclInformation, SetAclInformation function [Security], _win32_setaclinformation, security.setaclinformation, securitybaseapi/SetAclInformation
 ms.prod: windows
 ms.technology: windows-sdk

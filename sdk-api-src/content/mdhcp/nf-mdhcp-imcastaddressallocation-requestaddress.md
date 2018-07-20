@@ -7,7 +7,7 @@ old-location: tapi3\imcastaddressallocation_requestaddress.htm
 old-project: tapi
 ms.assetid: ca428138-34d2-499d-9560-8dfd51403ba1
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IMcastAddressAllocation interface [TAPI 2.2],RequestAddress method, IMcastAddressAllocation.RequestAddress, IMcastAddressAllocation::RequestAddress, RequestAddress, RequestAddress method [TAPI 2.2], RequestAddress method [TAPI 2.2],IMcastAddressAllocation interface, _tapi3_imcastaddressallocation_requestaddress, mdhcp/IMcastAddressAllocation::RequestAddress, tapi3.imcastaddressallocation_requestaddress
 ms.prod: windows
 ms.technology: windows-sdk

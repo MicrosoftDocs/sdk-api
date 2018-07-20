@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter3.htm
 old-project: direct3ddxgi
 ms.assetid: 547840B4-4AAB-4049-8D79-BD34BA4D32CD
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: IDXGIAdapter3, IDXGIAdapter3 interface [DXGI], IDXGIAdapter3 interface [DXGI],described, direct3ddxgi.idxgiadapter3, dxgi1_4/IDXGIAdapter3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IDXGIAdapter3</b> interface has these methods.
 <a href="https://msdn.microsoft.com/A2F95FE5-CF8D-4F17-8CC8-62AAA40B71FC">QueryVideoMemoryInfo</a>
 </td>
 <td align="left" width="63%">
-
-          This method informs the process of the current budget and process usage.
+This method informs the process of the current budget and process usage.
         
 
 </td>
@@ -103,8 +102,7 @@ This method establishes a correlation between a CPU synchronization object and t
 <a href="https://msdn.microsoft.com/5D17F57F-9FFA-4B5C-98B6-33E5B3982A63">SetVideoMemoryReservation</a>
 </td>
 <td align="left" width="63%">
-
-          This method sends the minimum required physical memory for an application, to the OS.
+This method sends the minimum required physical memory for an application, to the OS.
         
 
 </td>

@@ -4,10 +4,10 @@ title: IAzScope2::OpenRoleAssignment
 author: windows-sdk-content
 description: Opens an IAzRoleAssignment object with the specified name in this scope.
 old-location: security\iazscope2_openroleassignment.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: cb7560d0-da5c-444d-9944-b6db980985bc
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: IAzScope2 interface [Security],OpenRoleAssignment method, IAzScope2.OpenRoleAssignment, IAzScope2::OpenRoleAssignment, OpenRoleAssignment, OpenRoleAssignment method [Security], OpenRoleAssignment method [Security],IAzScope2 interface, azroles/IAzScope2::OpenRoleAssignment, security.iazscope2_openroleassignment
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ A string that contains the name of the <a href="https://msdn.microsoft.com/3f0b9
 
 The address of a pointer to the <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object that this method opens.
 
-When you have finished using the <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object, release it by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
+When you have finished using the <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object, release it by calling the <a href="_com_iunknown_release">IUnknown::Release</a> method.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter3_setvideomemoryreservation.htm
 old-project: direct3ddxgi
 ms.assetid: 5D17F57F-9FFA-4B5C-98B6-33E5B3982A63
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: IDXGIAdapter3 interface [DXGI],SetVideoMemoryReservation method, IDXGIAdapter3.SetVideoMemoryReservation, IDXGIAdapter3::SetVideoMemoryReservation, SetVideoMemoryReservation, SetVideoMemoryReservation method [DXGI], SetVideoMemoryReservation method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_setvideomemoryreservation, dxgi1_4/IDXGIAdapter3::SetVideoMemoryReservation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-          This method sends the minimum required physical memory for an application, to the OS.
+This method sends the minimum required physical memory for an application, to the OS.
         
 
 
@@ -65,8 +64,7 @@ req.product: Windows Media Format 9 Series or later
 
 Type: <b>UINT</b>
 
-
-            Specifies the device's physical adapter for which the video memory information is being set.
+Specifies the device's physical adapter for which the video memory information is being set.
             For single-GPU operation, set this to zero.
             If there are multiple GPU nodes, set this to the index of the node (the device's physical adapter) for which the video memory information is being set.
             See <a href="https://msdn.microsoft.com/CC4C6594-D48F-40C1-93EE-9F98532BC038">Multi-Adapter</a>.
@@ -77,8 +75,7 @@ Type: <b>UINT</b>
 
 Type: <b><a href="https://msdn.microsoft.com/2FE35513-040E-41BF-866E-A13679C4F322">DXGI_MEMORY_SEGMENT_GROUP</a></b>
 
-
-            Specifies a DXGI_MEMORY_SEGMENT_GROUP that identifies the group as local or non-local.
+Specifies a DXGI_MEMORY_SEGMENT_GROUP that identifies the group as local or non-local.
           
 
 
@@ -86,8 +83,7 @@ Type: <b><a href="https://msdn.microsoft.com/2FE35513-040E-41BF-866E-A13679C4F32
 
 Type: <b>UINT64</b>
 
-
-            Specifies a UINT64 that sets the minimum required physical memory, in bytes.
+Specifies a UINT64 that sets the minimum required physical memory, in bytes.
           
 
 
@@ -95,11 +91,10 @@ Type: <b>UINT64</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-
-            Returns S_OK if successful; an error code otherwise.
-            For a list of error codes, see <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+Returns S_OK if successful; an error code otherwise.
+            For a list of error codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
           
 
 
@@ -109,8 +104,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRE
 
 
 
-
-          Applications are encouraged to set a video reservation to denote the amount of physical memory they cannot go without.
+Applications are encouraged to set a video reservation to denote the amount of physical memory they cannot go without.
           This value helps the OS quickly minimize the impact of large memory pressure situations.
         
 

@@ -7,7 +7,7 @@ old-location: mf\imfasfindexer_getindexbytestreamcount.htm
 old-project: medfound
 ms.assetid: a433af8a-9e8a-4234-9694-c3a5420a1710
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetIndexByteStreamCount, GetIndexByteStreamCount method [Media Foundation], GetIndexByteStreamCount method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetIndexByteStreamCount method, IMFASFIndexer.GetIndexByteStreamCount, IMFASFIndexer::GetIndexByteStreamCount, a433af8a-9e8a-4234-9694-c3a5420a1710, mf.imfasfindexer_getindexbytestreamcount, wmcontainer/IMFASFIndexer::GetIndexByteStreamCount
 ms.prod: windows
 ms.technology: windows-sdk

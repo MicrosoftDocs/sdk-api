@@ -7,7 +7,7 @@ old-location: tspi\tspi_providerinstall.htm
 old-project: tapi
 ms.assetid: fb8ec97d-b96c-4533-a83e-cb9a8b4adf51
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_providerInstall, TSPI_providerInstall function [TAPI 2.2], _tspi_tspi_providerinstall, tspi.tspi_providerinstall, tspi/TSPI_providerInstall
 ms.prod: windows
 ms.technology: windows-sdk

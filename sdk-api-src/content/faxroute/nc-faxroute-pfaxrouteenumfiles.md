@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxrouteenumfiles.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_5f77.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxRouteEnumFiles, FaxRouteEnumFiles callback function [Fax Service], PFAXROUTEENUMFILES, PFAXROUTEENUMFILES callback, _mfax_faxrouteenumfiles, fax._mfax_faxrouteenumfiles, faxroute/FaxRouteEnumFiles
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Internet Explorer 5
 A fax routing method calls the <i>FaxRouteEnumFiles</i> callback function to enumerate the files in the fax file list associated with a received fax document.
 
 
-<a href="https://msdn.microsoft.com/library/ms691842(v=VS.85).aspx">FaxRoutingMethod</a> passes a pointer to the <a href="https://msdn.microsoft.com/library/ms692860(v=VS.85).aspx">FaxRouteEnumFile</a> callback function if it calls <i>FaxRouteEnumFiles</i>.
+<a href="https://msdn.microsoft.com/d759d840-80a4-4e59-a8e6-1cc6adc399ce">FaxRoutingMethod</a> passes a pointer to the <a href="https://msdn.microsoft.com/f17881a4-ee16-47a1-897d-28c70871fa36">FaxRouteEnumFile</a> callback function if it calls <i>FaxRouteEnumFiles</i>.
 
 
 ## -parameters
@@ -80,14 +80,14 @@ Pointer to a null-terminated Unicode character string that contains the GUID for
 
 Type: <b>PFAXROUTEENUMFILE</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms692860(v=VS.85).aspx">FaxRouteEnumFile</a> callback function defined by the fax routing extension. <i>FaxRouteEnumFile</i> receives the file names in the fax file list associated with the received fax document.
+Pointer to a <a href="https://msdn.microsoft.com/f17881a4-ee16-47a1-897d-28c70871fa36">FaxRouteEnumFile</a> callback function defined by the fax routing extension. <i>FaxRouteEnumFile</i> receives the file names in the fax file list associated with the received fax document.
 
 
 ### -param Context [in, out]
 
 Type: <b>PVOID</b>
 
-Pointer to an extension-defined value that <i>FaxRouteEnumFiles</i> passes to the <a href="https://msdn.microsoft.com/library/ms692860(v=VS.85).aspx">FaxRouteEnumFile</a> function. The fax routing method can define this value.
+Pointer to an extension-defined value that <i>FaxRouteEnumFiles</i> passes to the <a href="https://msdn.microsoft.com/f17881a4-ee16-47a1-897d-28c70871fa36">FaxRouteEnumFile</a> function. The fax routing method can define this value.
 
 
 ## -returns
@@ -107,13 +107,13 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The fax service passes a pointer to the <i>FaxRouteEnumFiles</i> callback function when the fax service calls the <a href="https://msdn.microsoft.com/library/ms692863(v=VS.85).aspx">FaxRouteInitialize</a> function. The service passes the pointer in a <a href="https://msdn.microsoft.com/library/ms692881(v=VS.85).aspx">FAX_ROUTE_CALLBACKROUTINES</a> structure.
+The fax service passes a pointer to the <i>FaxRouteEnumFiles</i> callback function when the fax service calls the <a href="https://msdn.microsoft.com/6593762b-2a5a-4338-9958-efe0c7687729">FaxRouteInitialize</a> function. The service passes the pointer in a <a href="https://msdn.microsoft.com/fb76a8d3-27e6-4bd7-87a9-2255653fa5e8">FAX_ROUTE_CALLBACKROUTINES</a> structure.
 
 The <b>PFAXROUTEENUMFILES</b> data type defines a pointer to a <i>FaxRouteEnumFiles</i> function.
 
-The fax routing extension DLL must supply the <a href="https://msdn.microsoft.com/library/ms692860(v=VS.85).aspx">FaxRouteEnumFile</a> function specified by the <i>FileEnumerator</i> parameter. The fax service calls <i>FaxRouteEnumFile</i> to enumerate the files in the fax file list for the fax routing method. The fax service calls <i>FaxRouteEnumFile</i> once for each file in the fax file list.
+The fax routing extension DLL must supply the <a href="https://msdn.microsoft.com/f17881a4-ee16-47a1-897d-28c70871fa36">FaxRouteEnumFile</a> function specified by the <i>FileEnumerator</i> parameter. The fax service calls <i>FaxRouteEnumFile</i> to enumerate the files in the fax file list for the fax routing method. The fax service calls <i>FaxRouteEnumFile</i> once for each file in the fax file list.
 
-For more information, see <a href="https://msdn.microsoft.com/library/ms684521(v=VS.85).aspx">Fax File Lists</a>.
+For more information, see <a href="https://msdn.microsoft.com/6aa919ad-3c99-4e27-a462-5ad670cfb4e9">Fax File Lists</a>.
 
 
 
@@ -123,23 +123,23 @@ For more information, see <a href="https://msdn.microsoft.com/library/ms684521(v
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692881(v=VS.85).aspx">FAX_ROUTE_CALLBACKROUTINES</a>
+<a href="https://msdn.microsoft.com/fb76a8d3-27e6-4bd7-87a9-2255653fa5e8">FAX_ROUTE_CALLBACKROUTINES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684519(v=VS.85).aspx">Fax Routing Extension Application Programming Interface Overview</a>
+<a href="https://msdn.microsoft.com/f8bdf0de-9455-45d1-9271-3929e0429d5c">Fax Routing Extension Application Programming Interface Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692865(v=VS.85).aspx">Fax Routing Extension Functions</a>
+<a href="https://msdn.microsoft.com/339f7fb6-64eb-403e-91be-210501042a25">Fax Routing Extension Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692860(v=VS.85).aspx">FaxRouteEnumFile</a>
+<a href="https://msdn.microsoft.com/f17881a4-ee16-47a1-897d-28c70871fa36">FaxRouteEnumFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692863(v=VS.85).aspx">FaxRouteInitialize</a>
+<a href="https://msdn.microsoft.com/6593762b-2a5a-4338-9958-efe0c7687729">FaxRouteInitialize</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mf\imfmediatypehandler_setcurrentmediatype.htm
 old-project: medfound
 ms.assetid: 77ff397e-4fa8-4849-98b8-6bdd035c0e89
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 77ff397e-4fa8-4849-98b8-6bdd035c0e89, IMFMediaTypeHandler interface [Media Foundation],SetCurrentMediaType method, IMFMediaTypeHandler.SetCurrentMediaType, IMFMediaTypeHandler::SetCurrentMediaType, SetCurrentMediaType, SetCurrentMediaType method [Media Foundation], SetCurrentMediaType method [Media Foundation],IMFMediaTypeHandler interface, mf.imfmediatypehandler_setcurrentmediatype, mfidl/IMFMediaTypeHandler::SetCurrentMediaType
 ms.prod: windows
 ms.technology: windows-sdk

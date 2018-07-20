@@ -7,7 +7,7 @@ old-location: mf\imfqualityadviselimits.htm
 old-project: medfound
 ms.assetid: 8ef7088c-2f49-4be9-b719-481616e1737d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFQualityAdviseLimits, IMFQualityAdviseLimits interface [Media Foundation], IMFQualityAdviseLimits interface [Media Foundation],described, mf.imfqualityadviselimits, mfidl/IMFQualityAdviseLimits
 ms.prod: windows
 ms.technology: windows-sdk

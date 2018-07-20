@@ -7,7 +7,7 @@ old-location: tspi\tspi_phonegeticon.htm
 old-project: tapi
 ms.assetid: 765a0f52-9360-4190-abc8-597028f781ac
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_phoneGetIcon, TSPI_phoneGetIcon function [TAPI 2.2], _tspi_tspi_phonegeticon, tspi.tspi_phonegeticon, tspi/TSPI_phoneGetIcon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ PHONEERR_INVALDEVICECLASS, PHONEERR_OPERATIONFAILED, PHONEERR_NOMEM, PHONEERR_OP
 
 
 <b>TSPI_phoneGetIcon</b> causes the provider to return a handle (in the <b>DWORD</b> pointed to by <i>lphIcon</i>) to an icon resource (obtained from the  
-<a href="https://msdn.microsoft.com/library/ms648072(v=VS.85).aspx">LoadIcon</a> function) associated with the specified phone. The icon handle is for a resource associated with the provider.
+<a href="_win32_loadicon_cpp">LoadIcon</a> function) associated with the specified phone. The icon handle is for a resource associated with the provider.
 
 The <i>lpszDeviceClass</i> parameter allows the provider to return different icons based on the type of service being referenced by the caller. The permitted strings are the same as for 
 <a href="https://msdn.microsoft.com/ed34641d-091a-45a3-becc-b5fca36a9367">TSPI_phoneGetID</a>. For example, if the phone supports the Comm API, passing comm/datamodem as <i>lpszDeviceClass</i> causes the provider to return an icon related specifically to the Comm device functions of the service provider. For more information about common device classes, see 

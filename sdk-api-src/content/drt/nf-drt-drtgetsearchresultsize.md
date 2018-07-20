@@ -4,10 +4,10 @@ title: DrtGetSearchResultSize function
 author: windows-sdk-content
 description: DrtGetSearchResultSize function returns the size of the next available search result.
 old-location: p2p\drtgetsearchresultsize.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: ef17c42e-4cf9-4b5c-b6ef-430500fddff2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: DrtGetSearchResultSize, DrtGetSearchResultSize function [Peer Networking], drt/DrtGetSearchResultSize, p2p.drtgetsearchresultsize
 ms.prod: windows
 ms.technology: windows-sdk

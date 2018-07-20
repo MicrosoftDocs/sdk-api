@@ -7,7 +7,7 @@ old-location: tapi2\linesetstatusmessages.htm
 old-project: tapi
 ms.assetid: 08a93874-b0d5-4c00-b541-b51c312cfef6
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_linesetstatusmessages, lineSetStatusMessages, lineSetStatusMessages function [TAPI 2.2], tapi/lineSetStatusMessages, tapi2.linesetstatusmessages"
 ms.prod: windows
 ms.technology: windows-sdk

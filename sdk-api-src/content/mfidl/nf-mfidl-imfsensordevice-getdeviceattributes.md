@@ -7,7 +7,7 @@ old-location: mf\imfsensordevice_getdeviceattributes.htm
 old-project: medfound
 ms.assetid: 4F509D34-23C3-4034-8D89-0A2E0651F235
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetDeviceAttributes, GetDeviceAttributes method [Media Foundation], GetDeviceAttributes method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceAttributes method, IMFSensorDevice.GetDeviceAttributes, IMFSensorDevice::GetDeviceAttributes, mf.imfsensordevice_getdeviceattributes, mfidl/IMFSensorDevice::GetDeviceAttributes
 ms.prod: windows
 ms.technology: windows-sdk

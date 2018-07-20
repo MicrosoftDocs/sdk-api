@@ -4,10 +4,10 @@ title: PeerGroupShutdown function
 author: windows-sdk-content
 description: The PeerGroupShutdown function closes a peer group created with PeerGroupStartup and disposes of any allocated resources.
 old-location: p2p\peergroupshutdown.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 61678a50-71cd-4717-b490-2755c605c2d5
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: PeerGroupShutdown, PeerGroupShutdown function [Peer Networking], p2p.peergroupshutdown, p2p/PeerGroupShutdown
 ms.prod: windows
 ms.technology: windows-sdk

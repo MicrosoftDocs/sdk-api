@@ -7,7 +7,7 @@ old-location: mf\mfcreatepresentationdescriptor.htm
 old-project: medfound
 ms.assetid: 288ab078-5490-41a2-a3b5-87a97aa57739
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 288ab078-5490-41a2-a3b5-87a97aa57739, MFCreatePresentationDescriptor, MFCreatePresentationDescriptor function [Media Foundation], mf.mfcreatepresentationdescriptor, mfidl/MFCreatePresentationDescriptor
 ms.prod: windows
 ms.technology: windows-sdk

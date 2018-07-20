@@ -4,10 +4,10 @@ title: IUpdate::get_IsMandatory
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the installation of the update is mandatory.
 old-location: wua\iupdate_ismandatory.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 5052914f-7b92-4637-b188-dce4a8e15328
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: IUpdate interface [Windows Update Agent],IsMandatory property, IUpdate.IsMandatory, IUpdate.get_IsMandatory, IUpdate::IsMandatory, IUpdate::get_IsMandatory, IsMandatory property [Windows Update Agent], IsMandatory property [Windows Update Agent],IUpdate interface, get_IsMandatory, wua.iupdate_ismandatory, wuapi/IUpdate::IsMandatory, wuapi/IUpdate::get_IsMandatory
 ms.prod: windows
 ms.technology: windows-sdk

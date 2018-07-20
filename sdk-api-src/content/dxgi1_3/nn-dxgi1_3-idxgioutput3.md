@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput3.htm
 old-project: direct3ddxgi
 ms.assetid: A116286A-F948-49AA-9D3B-F104E3312920
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: IDXGIOutput3, IDXGIOutput3 interface [DXGI], IDXGIOutput3 interface [DXGI],described, direct3ddxgi.idxgioutput3, dxgi1_3/IDXGIOutput3
 ms.prod: windows
 ms.technology: windows-sdk

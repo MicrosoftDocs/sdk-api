@@ -4,10 +4,10 @@ title: BuildExplicitAccessWithNameW function
 author: windows-sdk-content
 description: Initializes an EXPLICIT_ACCESS structure with data specified by the caller. The trustee is identified by a name string.
 old-location: security\buildexplicitaccesswithname.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 5f12db19-63cf-4be6-9450-3c36e425967b
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: BuildExplicitAccessWithName, BuildExplicitAccessWithName function [Security], BuildExplicitAccessWithNameA, BuildExplicitAccessWithNameW, CONTAINER_INHERIT_ACE, INHERIT_ONLY_ACE, MultipleTrusteeOperation, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, SUB_CONTAINERS_AND_OBJECTS_INHERIT, SUB_CONTAINERS_ONLY_INHERIT, SUB_OBJECTS_ONLY_INHERIT, TrusteeForm, TrusteeType, _win32_buildexplicitaccesswithname, aclapi/BuildExplicitAccessWithName, aclapi/BuildExplicitAccessWithNameA, aclapi/BuildExplicitAccessWithNameW, pMultipleTrustee, security.buildexplicitaccesswithname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -253,7 +253,7 @@ Noncontainer objects contained by the primary object inherit the ACE. This flag 
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

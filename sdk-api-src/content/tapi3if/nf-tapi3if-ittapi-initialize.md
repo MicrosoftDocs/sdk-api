@@ -7,7 +7,7 @@ old-location: tapi3\ittapi_initialize.htm
 old-project: tapi
 ms.assetid: 822ca3fe-8deb-4fe3-8b83-060eae69840c
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],Initialize method, ITTAPI.Initialize, ITTAPI::Initialize, Initialize, Initialize method [TAPI 2.2], Initialize method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_initialize, tapi3.ittapi_initialize, tapi3if/ITTAPI::Initialize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: multimedia\capvideostreamcallback.htm
 old-project: Multimedia
 ms.assetid: e21d7563-0ca8-4777-9fb0-de7c1c4ae618
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: CAPVIDEOCALLBACK, _win32_capVideoStreamCallback, capVideoStreamCallback, capVideoStreamCallback callback, capVideoStreamCallback callback function [Windows Multimedia], multimedia.capvideostreamcallback, vfw/capVideoStreamCallback
 ms.prod: windows
 ms.technology: windows-sdk

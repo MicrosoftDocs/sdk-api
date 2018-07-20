@@ -4,10 +4,10 @@ title: IHeaderCtrl2::GetColumnFilter
 author: windows-sdk-content
 description: The IHeaderCtrl2::GetColumnFilter method retrieves the filter value set on the specified column.
 old-location: mmc\iheaderctrl2_getcolumnfilter.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 2daf15ac-4de2-422d-9ac0-b592090468ed
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: GetColumnFilter, GetColumnFilter method [MMC], GetColumnFilter method [MMC],IHeaderCtrl2 interface, IHeaderCtrl2 interface [MMC],GetColumnFilter method, IHeaderCtrl2.GetColumnFilter, IHeaderCtrl2::GetColumnFilter, _slate_iheaderctrl2_getcolumnfilter, mmc.iheaderctrl2_getcolumnfilter, mmc/IHeaderCtrl2::GetColumnFilter
 ms.prod: windows
 ms.technology: windows-sdk

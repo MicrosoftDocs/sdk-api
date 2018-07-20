@@ -7,7 +7,7 @@ old-location: intl\immgetdescription.htm
 old-project: Intl
 ms.assetid: 62f4efc8-7b46-4d8e-a6a2-2f346efe8ba6
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 07/18/2018
 ms.keywords: ImmGetDescription, ImmGetDescription function [Internationalization for Windows Applications], ImmGetDescriptionA, ImmGetDescriptionW, _win32_ImmGetDescription, imm/ImmGetDescription, imm/ImmGetDescriptionA, imm/ImmGetDescriptionW, intl.immgetdescription
 ms.prod: windows
 ms.technology: windows-sdk

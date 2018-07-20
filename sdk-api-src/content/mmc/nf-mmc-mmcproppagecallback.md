@@ -4,10 +4,10 @@ title: MMCPropPageCallback function
 author: windows-sdk-content
 description: The MMCPropPageCallback function is only required by Microsoft Foundation Classes (MFC)-based snap-ins. The function sets the correct module state during page creation.
 old-location: mmc\mmcproppagecallback.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: c1f952c5-df0f-4cc5-8d20-66a3a6701060
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: MMCPropPageCallback, MMCPropPageCallback callback, MMCPropPageCallback callback function [MMC], _slate_mmcproppagecallback, mmc.mmcproppagecallback, mmc/MMCPropPageCallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The
 ### -param vpsp
 
 A pointer to the Microsoft Windows 
-<a href="https://msdn.microsoft.com/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structure. Be aware that by default, MFC installs its own callback in the <b>pfnCallback</b> member of the structure.
+<a href="_win32_propsheetpage_str_cpp">PROPSHEETPAGE</a> structure. Be aware that by default, MFC installs its own callback in the <b>pfnCallback</b> member of the structure.
 
 
 ## -returns

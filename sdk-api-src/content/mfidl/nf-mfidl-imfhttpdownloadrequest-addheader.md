@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_addheader.htm
 old-project: medfound
 ms.assetid: 37A2C9D8-EFF6-49D5-B495-EDBEEABD59CE
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: AddHeader, AddHeader method [Media Foundation], AddHeader method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],AddHeader method, IMFHttpDownloadRequest.AddHeader, IMFHttpDownloadRequest::AddHeader, mf.imfhttpdownloadrequest_addheader, mfidl/IMFHttpDownloadRequest::AddHeader
 ms.prod: windows
 ms.technology: windows-sdk

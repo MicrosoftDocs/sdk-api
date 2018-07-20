@@ -7,7 +7,7 @@ old-location: mf\mfdeserializeattributesfromstream.htm
 old-project: medfound
 ms.assetid: cc0bccfd-7e67-4e55-9d3e-ebcd91b94a3a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: MFDeserializeAttributesFromStream, MFDeserializeAttributesFromStream function [Media Foundation], cc0bccfd-7e67-4e55-9d3e-ebcd91b94a3a, mf.mfdeserializeattributesfromstream, mfobjects/MFDeserializeAttributesFromStream
 ms.prod: windows
 ms.technology: windows-sdk

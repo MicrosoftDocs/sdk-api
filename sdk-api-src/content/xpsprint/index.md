@@ -2,7 +2,7 @@
 UID: NA:xpsprint
 ms.assetid: 524a2d16-e008-3c44-abbc-c5e395e9df57
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

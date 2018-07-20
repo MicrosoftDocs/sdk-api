@@ -7,7 +7,7 @@ old-location: tspi\tspi_lineforward.htm
 old-project: tapi
 ms.assetid: fd70bf7f-653c-47db-bf81-6a620f47e5bc
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineForward, TSPI_lineForward function [TAPI 2.2], _tspi_tspi_lineforward, tspi.tspi_lineforward, tspi/TSPI_lineForward
 ms.prod: windows
 ms.technology: windows-sdk

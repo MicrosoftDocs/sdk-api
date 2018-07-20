@@ -4,10 +4,10 @@ title: IUpdate4::get_PerUser
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether this is a per-user update.
 old-location: wua\iupdate4_peruser.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: f6d48e78-114f-4926-a1e7-201ac703f8b8
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: IUpdate4 interface [Windows Update Agent],PerUser property, IUpdate4.PerUser, IUpdate4.get_PerUser, IUpdate4::PerUser, IUpdate4::get_PerUser, PerUser property [Windows Update Agent], PerUser property [Windows Update Agent],IUpdate4 interface, get_PerUser, wua.iupdate4_peruser, wuapi/IUpdate4::PerUser, wuapi/IUpdate4::get_PerUser
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\irpcstubbuffer_invoke.htm
 old-project: com
 ms.assetid: 78d20830-78d7-4395-aaec-8a86b7c41cc7
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IRpcStubBuffer interface [COM],Invoke method, IRpcStubBuffer.Invoke, IRpcStubBuffer::Invoke, Invoke, Invoke method [COM], Invoke method [COM],IRpcStubBuffer interface, _com_irpcstubbuffer_invoke, com.irpcstubbuffer_invoke, objidlbase/IRpcStubBuffer::Invoke
 ms.prod: windows
 ms.technology: windows-sdk

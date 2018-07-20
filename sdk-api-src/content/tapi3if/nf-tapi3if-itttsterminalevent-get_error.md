@@ -7,7 +7,7 @@ old-location: tapi3\itttsterminalevent_get_error.htm
 old-project: tapi
 ms.assetid: 1a120114-a902-4e66-81e5-9f10205714ad
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITTTSTerminalEvent interface [TAPI 2.2],get_Error method, ITTTSTerminalEvent.get_Error, ITTTSTerminalEvent::get_Error, _tapi3_itttsterminalevent_get_error, get_Error, get_Error method [TAPI 2.2], get_Error method [TAPI 2.2],ITTTSTerminalEvent interface, tapi3.itttsterminalevent_get_error, tapi3if/ITTTSTerminalEvent::get_Error
 ms.prod: windows
 ms.technology: windows-sdk

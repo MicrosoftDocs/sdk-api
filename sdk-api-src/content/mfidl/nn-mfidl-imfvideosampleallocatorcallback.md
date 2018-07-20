@@ -7,7 +7,7 @@ old-location: mf\imfvideosampleallocatorcallback.htm
 old-project: medfound
 ms.assetid: 7dbf8b3a-24b3-41d9-bb1e-9c57b88a77ac
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFVideoSampleAllocatorCallback, IMFVideoSampleAllocatorCallback interface [Media Foundation], IMFVideoSampleAllocatorCallback interface [Media Foundation],described, mf.imfvideosampleallocatorcallback, mfidl/IMFVideoSampleAllocatorCallback
 ms.prod: windows
 ms.technology: windows-sdk

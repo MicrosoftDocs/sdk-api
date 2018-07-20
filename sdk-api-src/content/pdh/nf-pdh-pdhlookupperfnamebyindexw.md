@@ -7,7 +7,7 @@ old-location: perf\pdhlookupperfnamebyindex.htm
 old-project: perfctrs
 ms.assetid: 6d5e1465-296b-4d8c-b0cb-aefdffb8539e
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/18/2018
 ms.keywords: PdhLookupPerfNameByIndex, PdhLookupPerfNameByIndex function [Perf], PdhLookupPerfNameByIndexA, PdhLookupPerfNameByIndexW, _win32_pdhlookupperfnamebyindex, base.pdhlookupperfnamebyindex, pdh/PdhLookupPerfNameByIndex, pdh/PdhLookupPerfNameByIndexA, pdh/PdhLookupPerfNameByIndexW, perf.pdhlookupperfnamebyindex
 ms.prod: windows
 ms.technology: windows-sdk

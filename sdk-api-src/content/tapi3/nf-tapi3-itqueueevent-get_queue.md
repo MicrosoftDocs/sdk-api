@@ -7,7 +7,7 @@ old-location: tapi3\itqueueevent_get_queue.htm
 old-project: tapi
 ms.assetid: 59a4be82-0118-4a9c-9f85-0febfe1b3e18
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITQueueEvent interface [TAPI 2.2],get_Queue method, ITQueueEvent.get_Queue, ITQueueEvent::get_Queue, _tapi3_itqueueevent_get_queue, get_Queue, get_Queue method [TAPI 2.2], get_Queue method [TAPI 2.2],ITQueueEvent interface, tapi3.itqueueevent_get_queue, tapi3cc/ITQueueEvent::get_Queue
 ms.prod: windows
 ms.technology: windows-sdk

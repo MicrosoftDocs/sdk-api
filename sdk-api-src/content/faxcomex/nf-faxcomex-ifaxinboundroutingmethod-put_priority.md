@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingmethod_priority.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4kqh.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxInboundRoutingMethod object [Fax Service],Priority property, FaxInboundRoutingMethod.Priority, IFaxInboundRoutingMethod.get_Priority, IFaxInboundRoutingMethod.put_Priority, IFaxInboundRoutingMethod::put_Priority, Priority property [Fax Service], Priority property [Fax Service],FaxInboundRoutingMethod object, _mfax_faxinboundroutingmethod.priority, fax._mfax_faxinboundroutingmethod_priority, put_Priority
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ You should assign a unique priority value to each routing method. After you call
 
 If you want a particular routing method to have the lowest possible priority, specify a very large value, such as 999999, and then call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method.
 
-To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
+To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
 
 
 
@@ -81,15 +81,15 @@ To read or to write to this property, a user must have the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/library/ms687469(v=VS.85).aspx">FaxInboundRoutingMethod</a>
+<a href="https://msdn.microsoft.com/8eb68201-4c87-41ce-a401-a039b5ad454d">FaxInboundRoutingMethod</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms687470(v=VS.85).aspx">IFaxInboundRoutingMethod</a>
+<a href="https://msdn.microsoft.com/ca33c439-24e7-4b85-8e29-a0a0176f0ae2">IFaxInboundRoutingMethod</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/cef24608-cab1-4090-aa94-3a1b76733e98">Visual Basic Example</a>
  
 
  

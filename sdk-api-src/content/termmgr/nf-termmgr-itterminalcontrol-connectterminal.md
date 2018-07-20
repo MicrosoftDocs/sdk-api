@@ -7,7 +7,7 @@ old-location: tapi3\itterminalcontrol_connectterminal.htm
 old-project: tapi
 ms.assetid: 0351e645-b857-44d8-a226-046ebe0f4c81
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ConnectTerminal, ConnectTerminal method [TAPI 2.2], ConnectTerminal method [TAPI 2.2],ITTerminalControl interface, ITTerminalControl interface [TAPI 2.2],ConnectTerminal method, ITTerminalControl.ConnectTerminal, ITTerminalControl::ConnectTerminal, _tapi3_itterminalcontrol_connectterminal, tapi3.itterminalcontrol_connectterminal, termmgr/ITTerminalControl::ConnectTerminal
 ms.prod: windows
 ms.technology: windows-sdk

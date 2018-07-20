@@ -7,7 +7,7 @@ old-location: mf\mfcreatepresentationclock.htm
 old-project: medfound
 ms.assetid: b0ed3482-d127-45d3-a4de-271b1c0a199b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: MFCreatePresentationClock, MFCreatePresentationClock function [Media Foundation], b0ed3482-d127-45d3-a4de-271b1c0a199b, mf.mfcreatepresentationclock, mfidl/MFCreatePresentationClock
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tspi\tuispi_phoneconfigdialog.htm
 old-project: tapi
 ms.assetid: 6bdd4206-0028-43f0-8da8-2fc11779f7d2
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TUISPI_phoneConfigDialog, TUISPI_phoneConfigDialog function [TAPI 2.2], _tspi_tuispi_phoneconfigdialog, tspi.tuispi_phoneconfigdialog, tspi/TUISPI_phoneConfigDialog
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IAzOperation::GetProperty
 author: windows-sdk-content
 description: Returns the IAzOperation object property with the specified property ID.
 old-location: security\iazoperation_getproperty.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 211def10-d696-4b23-b54c-21f1f9b8f7ff
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_OPERATION_ID, AZ_PROP_WRITABLE, AzOperation object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzOperation object, GetProperty method [Security],IAzOperation interface, IAzOperation interface [Security],GetProperty method, IAzOperation.GetProperty, IAzOperation::GetProperty, azroles/IAzOperation::GetProperty, security.iazoperation_getproperty
 ms.prod: windows
 ms.technology: windows-sdk

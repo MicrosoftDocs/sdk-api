@@ -7,7 +7,7 @@ old-location: perf\perfdeleteinstance.htm
 old-project: perfctrs
 ms.assetid: 8266e58c-c0a3-42dd-9f06-0d04dccfcf7c
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/18/2018
 ms.keywords: PerfDeleteInstance, PerfDeleteInstance function [Perf], base.perfdeleteinstance, perf.perfdeleteinstance, perflib/PerfDeleteInstance
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PeerGroupGetProperties function
 author: windows-sdk-content
 description: The PeerGroupGetProperties function retrieves information on the properties of a specified group.
 old-location: p2p\peergroupgetproperties.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 6273817f-9698-4c0b-93a9-9bbee2e5dc78
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: PeerGroupGetProperties, PeerGroupGetProperties function [Peer Networking], p2p.peergroupgetproperties, p2p/PeerGroupGetProperties
 ms.prod: windows
 ms.technology: windows-sdk

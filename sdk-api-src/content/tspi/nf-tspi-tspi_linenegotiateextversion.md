@@ -7,7 +7,7 @@ old-location: tspi\tspi_linenegotiateextversion.htm
 old-project: tapi
 ms.assetid: cd7cc421-3efb-4fe1-858c-4d894f4d9377
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineNegotiateExtVersion, TSPI_lineNegotiateExtVersion function [TAPI 2.2], _tspi_tspi_linenegotiateextversion, tspi.tspi_linenegotiateextversion, tspi/TSPI_lineNegotiateExtVersion
 ms.prod: windows
 ms.technology: windows-sdk

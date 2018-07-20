@@ -7,7 +7,7 @@ old-location: com\coreleaseserverprocess.htm
 old-project: com
 ms.assetid: b28d41e2-4144-413d-9963-14f2d4dc8876
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: CoReleaseServerProcess, CoReleaseServerProcess function [COM], _com_CoReleaseServerProcess, com.coreleaseserverprocess, combaseapi/CoReleaseServerProcess
 ms.prod: windows
 ms.technology: windows-sdk

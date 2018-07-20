@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_Refresh_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\refresh.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxConfiguration object [Fax Service],Refresh method, FaxConfiguration.Refresh, IFaxConfiguration.Refresh, IFaxConfiguration::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_Refresh, fax._mfax_FaxConfiguration_Refresh_vb
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa358913(v=VS.85).aspx">FaxConfiguration</a>
+<a href="https://msdn.microsoft.com/381e098b-d130-4e15-9aba-cb0048cc5b98">FaxConfiguration</a>
  
 
  

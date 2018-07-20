@@ -7,7 +7,7 @@ old-location: mf\imfvideosampleallocator_allocatesample.htm
 old-project: medfound
 ms.assetid: e5347cef-edbd-4f6a-88c9-042e53515a32
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: AllocateSample, AllocateSample method [Media Foundation], AllocateSample method [Media Foundation],IMFVideoSampleAllocator interface, IMFVideoSampleAllocator interface [Media Foundation],AllocateSample method, IMFVideoSampleAllocator.AllocateSample, IMFVideoSampleAllocator::AllocateSample, e5347cef-edbd-4f6a-88c9-042e53515a32, mf.imfvideosampleallocator_allocatesample, mfidl/IMFVideoSampleAllocator::AllocateSample
 ms.prod: windows
 ms.technology: windows-sdk

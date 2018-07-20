@@ -7,7 +7,7 @@ old-location: mf\mfratio.htm
 old-project: medfound
 ms.assetid: 315d31d6-bf68-4495-9bae-1f624f497c1a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 315d31d6-bf68-4495-9bae-1f624f497c1a, MFRatio, MFRatio structure [Media Foundation], _MFRatio, mf.mfratio, mfobjects/MFRatio
 ms.prod: windows
 ms.technology: windows-sdk

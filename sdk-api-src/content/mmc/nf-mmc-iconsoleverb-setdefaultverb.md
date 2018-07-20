@@ -4,10 +4,10 @@ title: IConsoleVerb::SetDefaultVerb
 author: windows-sdk-content
 description: The SetDefaultVerb method sets the default action on an object.
 old-location: mmc\iconsoleverb_setdefaultverb.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 099a5cd7-b1c8-45c0-a109-7e78d1b6ee98
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: IConsoleVerb interface [MMC],SetDefaultVerb method, IConsoleVerb.SetDefaultVerb, IConsoleVerb::SetDefaultVerb, SetDefaultVerb, SetDefaultVerb method [MMC], SetDefaultVerb method [MMC],IConsoleVerb interface, _slate_iconsoleverb_setdefaultverb, mmc.iconsoleverb_setdefaultverb, mmc/IConsoleVerb::SetDefaultVerb
 ms.prod: windows
 ms.technology: windows-sdk

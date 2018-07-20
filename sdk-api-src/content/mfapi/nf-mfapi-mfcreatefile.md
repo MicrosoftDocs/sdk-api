@@ -7,7 +7,7 @@ old-location: mf\mfcreatefile.htm
 old-project: medfound
 ms.assetid: 29269ea4-151f-4819-ae49-9f1c13a901e5
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 29269ea4-151f-4819-ae49-9f1c13a901e5, MFCreateFile, MFCreateFile function [Media Foundation], mf.mfcreatefile, mfapi/MFCreateFile
 ms.prod: windows
 ms.technology: windows-sdk

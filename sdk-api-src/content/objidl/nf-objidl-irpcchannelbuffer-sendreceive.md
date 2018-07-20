@@ -7,7 +7,7 @@ old-location: com\irpcchannelbuffer_sendreceive.htm
 old-project: com
 ms.assetid: 8a42fd06-252f-4c1b-bbdb-abc2e3887c46
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IRpcChannelBuffer interface [COM],SendReceive method, IRpcChannelBuffer.SendReceive, IRpcChannelBuffer::SendReceive, SendReceive, SendReceive method [COM], SendReceive method [COM],IRpcChannelBuffer interface, _com_irpcchannelbuffer_sendreceive, com.irpcchannelbuffer_sendreceive, objidlbase/IRpcChannelBuffer::SendReceive
 ms.prod: windows
 ms.technology: windows-sdk

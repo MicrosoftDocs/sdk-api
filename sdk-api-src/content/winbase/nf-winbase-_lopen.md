@@ -7,7 +7,7 @@ old-location: winprog\_lopen.htm
 old-project: devnotes
 ms.assetid: E920F688-C694-44A6-ABD3-5414C4F01839
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: "_lopen, _lopen function [Windows API], winbase/_lopen, winprog._lopen"
 ms.prod: windows
 ms.technology: windows-sdk

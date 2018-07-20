@@ -4,10 +4,10 @@ title: IStringCollection::Add
 author: windows-sdk-content
 description: Adds an item to the collection.
 old-location: wua\istringcollection_add.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: f5412e0d-a8b7-43a6-b7a5-95d662459f78
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: Add, Add method [Windows Update Agent], Add method [Windows Update Agent],IStringCollection interface, IStringCollection interface [Windows Update Agent],Add method, IStringCollection.Add, IStringCollection::Add, wua.istringcollection_add, wuapi/IStringCollection::Add
 ms.prod: windows
 ms.technology: windows-sdk

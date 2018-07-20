@@ -7,7 +7,7 @@ old-location: mf\imfsample_getbuffercount.htm
 old-project: medfound
 ms.assetid: fe05e870-298b-44bf-90b7-70be40d045ab
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetBufferCount, GetBufferCount method [Media Foundation], GetBufferCount method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetBufferCount method, IMFSample.GetBufferCount, IMFSample::GetBufferCount, fe05e870-298b-44bf-90b7-70be40d045ab, mf.imfsample_getbuffercount, mfobjects/IMFSample::GetBufferCount
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:ddstream
 ms.assetid: 1d23506b-8b4d-39c9-ab8b-ebac7e7112fd
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

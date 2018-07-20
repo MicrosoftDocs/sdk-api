@@ -4,10 +4,10 @@ title: PeerEnumIdentities function
 author: windows-sdk-content
 description: The PeerEnumIdentities function creates and returns a peer enumeration handle used to enumerate all the peer identities that belong to a specific user.
 old-location: p2p\peerenumidentities.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 91f18185-0292-41a3-8aff-8b345cab5e82
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: PeerEnumIdentities, PeerEnumIdentities function [Peer Networking], p2p.peerenumidentities, p2p/PeerEnumIdentities
 ms.prod: windows
 ms.technology: windows-sdk

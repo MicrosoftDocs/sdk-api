@@ -7,7 +7,7 @@ old-location: tspi\tspi_linesetcalldata.htm
 old-project: tapi
 ms.assetid: 0a4b1dba-df2b-4c9e-9a17-4c5f24d152a7
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineSetCallData, TSPI_lineSetCallData function [TAPI 2.2], _tspi_tspi_linesetcalldata, tspi.tspi_linesetcalldata, tspi/TSPI_lineSetCallData
 ms.prod: windows
 ms.technology: windows-sdk

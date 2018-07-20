@@ -4,10 +4,10 @@ title: PeerGraphListen function
 author: windows-sdk-content
 description: The PeerGraphListen function indicates that a peer graph should start listening for incoming connections.
 old-location: p2p\peergraphlisten.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: bac893d4-8f4d-4e1f-953b-1b289c5f18be
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: PEER_GRAPH_SCOPE_GLOBAL, PEER_GRAPH_SCOPE_LINKLOCAL, PEER_GRAPH_SCOPE_SITELOCAL, PeerGraphListen, PeerGraphListen function [Peer Networking], p2p.peergraphlisten, p2p/PeerGraphListen
 ms.prod: windows
 ms.technology: windows-sdk

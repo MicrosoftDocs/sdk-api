@@ -7,7 +7,7 @@ old-location: mf\imfsourcebuffer_gettimestampoffset.htm
 old-project: medfound
 ms.assetid: bb8a237b-2602-40ad-921e-3b76fbac3ea8
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetTimeStampOffset, GetTimeStampOffset method [Media Foundation], GetTimeStampOffset method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetTimeStampOffset method, IMFSourceBuffer.GetTimeStampOffset, IMFSourceBuffer::GetTimeStampOffset, mf.imfsourcebuffer_gettimestampoffset, mfmediaengine/IMFSourceBuffer::GetTimeStampOffset
 ms.prod: windows
 ms.technology: windows-sdk

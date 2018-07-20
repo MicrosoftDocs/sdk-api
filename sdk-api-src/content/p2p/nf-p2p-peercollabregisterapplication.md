@@ -4,10 +4,10 @@ title: PeerCollabRegisterApplication function
 author: windows-sdk-content
 description: Registers an application with the local computer so that it can be launched in a peer collaboration activity.
 old-location: p2p\peercollabregisterapplication.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 962982a6-171f-4c13-ae03-84698482dea4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: PeerCollabRegisterApplication, PeerCollabRegisterApplication function [Peer Networking], p2p.peercollabregisterapplication, p2p/PeerCollabRegisterApplication
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: AuthzInitializeRemoteResourceManager function
 author: windows-sdk-content
 description: Allocates and initializes a remote resource manager. The caller can use the resulting handle to make RPC calls to a remote instance of the resource manager configured on a server.
 old-location: security\authzinitializeremoteresourcemanager.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: C3B6C75B-13A5-49CC-BB01-DA1EEC292C20
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: AuthzInitializeRemoteResourceManager, AuthzInitializeRemoteResourceManager function [Security], authz/AuthzInitializeRemoteResourceManager, security.authzinitializeremoteresourcemanager
 ms.prod: windows
 ms.technology: windows-sdk

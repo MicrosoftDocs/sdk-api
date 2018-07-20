@@ -7,7 +7,7 @@ old-location: tspi\tspi_lineclosemspinstance.htm
 old-project: tapi
 ms.assetid: 700824ed-05a1-4fb5-adf1-491e1dea7bf4
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineCloseMSPInstance, TSPI_lineCloseMSPInstance function [TAPI 2.2], _tspi_tspi_lineclosemspinstance, tspi.tspi_lineclosemspinstance, tspi/TSPI_lineCloseMSPInstance
 ms.prod: windows
 ms.technology: windows-sdk

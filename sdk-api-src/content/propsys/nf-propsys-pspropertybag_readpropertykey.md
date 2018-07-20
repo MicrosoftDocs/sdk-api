@@ -75,7 +75,7 @@ A null-terminated property name string.
 
 ### -param value [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>*</b>
+Type: <b><a href="shell.PROPERTYKEY">PROPERTYKEY</a>*</b>
 
 When this function returns, contains a pointer to a property key value.
 
@@ -105,7 +105,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee845075(v=VS.85).aspx">PSPropertyBag_WritePropertyKey</a>
+<a href="shell.PSPropertyBag_WritePropertyKey">PSPropertyBag_WritePropertyKey</a>
  
 
  

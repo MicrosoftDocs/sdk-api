@@ -7,7 +7,7 @@ old-location: mf\mfinvokecallback.htm
 old-project: medfound
 ms.assetid: 28832d50-9b15-4eb0-96f9-2032d4edcaf4
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 28832d50-9b15-4eb0-96f9-2032d4edcaf4, MFInvokeCallback, MFInvokeCallback function [Media Foundation], mf.mfinvokecallback, mfapi/MFInvokeCallback
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfcaptureengine_getsink.htm
 old-project: medfound
 ms.assetid: 7DAF5EA3-BA65-4CF9-B7BA-B427A48BF3BC
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetSink, GetSink method [Media Foundation], GetSink method [Media Foundation],IMFCaptureEngine interface, IMFCaptureEngine interface [Media Foundation],GetSink method, IMFCaptureEngine.GetSink, IMFCaptureEngine::GetSink, mf.imfcaptureengine_getsink, mfcaptureengine/IMFCaptureEngine::GetSink
 ms.prod: windows
 ms.technology: windows-sdk

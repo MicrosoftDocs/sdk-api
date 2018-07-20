@@ -4,10 +4,10 @@ title: IUpdate::get_DeltaCompressedContentPreferred
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether to prefer delta-compressed content during the download and install or uninstall of the update if delta-compressed content is available.
 old-location: wua\iupdate_deltacompressedcontentpreferred.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 9fdb3918-9fc7-491f-9abb-4c2f13528817
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: DeltaCompressedContentPreferred property [Windows Update Agent], DeltaCompressedContentPreferred property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],DeltaCompressedContentPreferred property, IUpdate.DeltaCompressedContentPreferred, IUpdate.get_DeltaCompressedContentPreferred, IUpdate::DeltaCompressedContentPreferred, IUpdate::get_DeltaCompressedContentPreferred, get_DeltaCompressedContentPreferred, wua.iupdate_deltacompressedcontentpreferred, wuapi/IUpdate::DeltaCompressedContentPreferred, wuapi/IUpdate::get_DeltaCompressedContentPreferred
 ms.prod: windows
 ms.technology: windows-sdk

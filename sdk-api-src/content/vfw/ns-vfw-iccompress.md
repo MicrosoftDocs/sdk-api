@@ -7,7 +7,7 @@ old-location: multimedia\iccompress_struct.htm
 old-project: Multimedia
 ms.assetid: ba6aec9c-b622-484b-88ce-ff5c659bd6d7
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: ICCOMPRESS, ICCOMPRESS structure [Windows Multimedia], ICCOMPRESS_KEYFRAME, multimedia.iccompress_COLLISION455, multimedia.iccompress_struct, vfw/ICCOMPRESS
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\itphone_setdisplay.htm
 old-project: tapi
 ms.assetid: 690756c4-201d-472d-b536-452074226701
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITPhone interface [TAPI 2.2],SetDisplay method, ITPhone.SetDisplay, ITPhone::SetDisplay, SetDisplay, SetDisplay method [TAPI 2.2], SetDisplay method [TAPI 2.2],ITPhone interface, _tapi3_itphone_setdisplay, tapi3.itphone_setdisplay, tapi3if/ITPhone::SetDisplay
 ms.prod: windows
 ms.technology: windows-sdk

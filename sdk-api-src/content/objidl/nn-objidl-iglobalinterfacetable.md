@@ -7,7 +7,7 @@ old-location: com\iglobalinterfacetable.htm
 old-project: com
 ms.assetid: 0c1feee7-e33b-4b5d-8e35-4de6895e3947
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IGlobalInterfaceTable, IGlobalInterfaceTable interface [COM], IGlobalInterfaceTable interface [COM],described, _com_iglobalinterfacetable, com.iglobalinterfacetable, objidl/IGlobalInterfaceTable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Enables any apartment in a process to get access to an interface implemented on 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGlobalInterfaceTable</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IGlobalInterfaceTable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGlobalInterfaceTable</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IGlobalInterfaceTable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

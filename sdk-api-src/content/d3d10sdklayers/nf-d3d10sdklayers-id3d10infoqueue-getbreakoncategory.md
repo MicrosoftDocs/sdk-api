@@ -60,9 +60,9 @@ Get a message category to break on when a message with that category passes thro
 
 ### -param Category [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb205323(v=VS.85).aspx">D3D10_MESSAGE_CATEGORY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/35256b90-4ba4-45ec-ad3e-a19884868740">D3D10_MESSAGE_CATEGORY</a></b>
 
-Message category to break on (see <a href="https://msdn.microsoft.com/library/Bb205323(v=VS.85).aspx">D3D10_MESSAGE_CATEGORY</a>).
+Message category to break on (see <a href="https://msdn.microsoft.com/35256b90-4ba4-45ec-ad3e-a19884868740">D3D10_MESSAGE_CATEGORY</a>).
 
 
 ## -returns
@@ -81,7 +81,7 @@ Whether this breaking condition is turned on or off (true for on, false for off)
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/b1405273-53f4-49da-acf5-832e73a25ac2">ID3D10InfoQueue Interface</a>
  
 
  

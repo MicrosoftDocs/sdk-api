@@ -4,10 +4,10 @@ title: DrtGetSearchResult function
 author: windows-sdk-content
 description: DrtGetSearchResult function.
 old-location: p2p\drtgetsearchresult.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: b89ea470-072e-46b6-9f5d-3e05aa012188
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: DrtGetSearchResult, DrtGetSearchResult function [Peer Networking], drt/DrtGetSearchResult, p2p.drtgetsearchresult
 ms.prod: windows
 ms.technology: windows-sdk

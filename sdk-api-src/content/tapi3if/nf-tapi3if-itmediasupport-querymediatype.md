@@ -7,7 +7,7 @@ old-location: tapi3\itmediasupport_querymediatype.htm
 old-project: tapi
 ms.assetid: 684bfd94-5bef-415b-b548-49f564ce8a83
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITMediaSupport interface [TAPI 2.2],QueryMediaType method, ITMediaSupport.QueryMediaType, ITMediaSupport::QueryMediaType, QueryMediaType, QueryMediaType method [TAPI 2.2], QueryMediaType method [TAPI 2.2],ITMediaSupport interface, _tapi3_itmediasupport_querymediatype, tapi3.itmediasupport_querymediatype, tapi3if/ITMediaSupport::QueryMediaType
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ILocation::GetReport
 author: windows-sdk-content
 description: Retrieves a location report.
 old-location: winlocation_com_ref\ilocation_getreport.htm
-old-project: LocationAPI
+old-project: locationapi
 ms.assetid: 69d0fed5-7f02-4d74-bdbd-3a0fd85e76ed
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: GetReport, GetReport method [WinLocation], GetReport method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetReport method, ILocation.GetReport, ILocation::GetReport, WinLocation_COM_Ref.ilocation_getreport, locationapi/ILocation::GetReport
 ms.prod: windows
 ms.technology: windows-sdk

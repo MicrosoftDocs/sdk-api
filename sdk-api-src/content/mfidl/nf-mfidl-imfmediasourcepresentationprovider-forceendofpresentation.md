@@ -7,7 +7,7 @@ old-location: mf\imfmediasourcepresentationprovider_forceendofpresentation.htm
 old-project: medfound
 ms.assetid: fb2896f9-c397-4a0d-b8fe-b03ff4f08dda
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: ForceEndOfPresentation, ForceEndOfPresentation method [Media Foundation], ForceEndOfPresentation method [Media Foundation],IMFMediaSourcePresentationProvider interface, IMFMediaSourcePresentationProvider interface [Media Foundation],ForceEndOfPresentation method, IMFMediaSourcePresentationProvider.ForceEndOfPresentation, IMFMediaSourcePresentationProvider::ForceEndOfPresentation, fb2896f9-c397-4a0d-b8fe-b03ff4f08dda, mf.imfmediasourcepresentationprovider_forceendofpresentation, mfidl/IMFMediaSourcePresentationProvider::ForceEndOfPresentation
 ms.prod: windows
 ms.technology: windows-sdk

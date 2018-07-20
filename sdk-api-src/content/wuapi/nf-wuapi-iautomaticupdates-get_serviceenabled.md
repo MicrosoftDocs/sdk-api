@@ -4,10 +4,10 @@ title: IAutomaticUpdates::get_ServiceEnabled
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether all the components that Automatic Updates requires are available.
 old-location: wua\iautomaticupdates_serviceenabled.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 6d07ed15-f891-47c4-b4a6-2e57207dbdb3
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],ServiceEnabled property, IAutomaticUpdates.ServiceEnabled, IAutomaticUpdates.get_ServiceEnabled, IAutomaticUpdates::ServiceEnabled, IAutomaticUpdates::get_ServiceEnabled, ServiceEnabled property [Windows Update Agent], ServiceEnabled property [Windows Update Agent],IAutomaticUpdates interface, get_ServiceEnabled, wua.iautomaticupdates_serviceenabled, wuapi/IAutomaticUpdates::ServiceEnabled, wuapi/IAutomaticUpdates::get_ServiceEnabled
 ms.prod: windows
 ms.technology: windows-sdk

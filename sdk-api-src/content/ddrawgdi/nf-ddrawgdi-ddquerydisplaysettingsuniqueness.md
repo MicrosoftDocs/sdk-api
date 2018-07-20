@@ -7,7 +7,7 @@ old-location: winprog\_dxgkernel_ddquerydisplaysettingsuniqueness.htm
 old-project: devnotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddquerydisplaysettingsuniqueness.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: DdQueryDisplaySettingsUniqueness, DdQueryDisplaySettingsUniqueness function [Windows API], GdiEntry13, _dxgkernel_ddquerydisplaysettingsuniqueness, ddrawgdi/DdQueryDisplaySettingsUniqueness, ddrawgdi/GdiEntry13, winprog._dxgkernel_ddquerydisplaysettingsuniqueness, winui._dxgkernel_ddquerydisplaysettingsuniqueness
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ The current value of the mode switch integer is returned.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648408(v=VS.85).aspx">Graphics Low Level Client Support</a>
+<a href="https://msdn.microsoft.com/96d11d10-dd21-4e2b-a30d-fe29d24eeba6">Graphics Low Level Client Support</a>
  
 
  

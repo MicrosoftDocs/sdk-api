@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getcurrentsource.htm
 old-project: medfound
 ms.assetid: 04C4281D-20ED-49B3-B00C-14ECF1E3BDE1
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetCurrentSource, GetCurrentSource method [Media Foundation], GetCurrentSource method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetCurrentSource method, IMFMediaEngine.GetCurrentSource, IMFMediaEngine::GetCurrentSource, mf.imfmediaengine_getcurrentsource, mfmediaengine/IMFMediaEngine::GetCurrentSource
 ms.prod: windows
 ms.technology: windows-sdk

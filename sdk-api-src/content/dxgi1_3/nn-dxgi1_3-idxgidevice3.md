@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevice3.htm
 old-project: direct3ddxgi
 ms.assetid: 3D6A0173-456D-4783-943D-35F335F358BE
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: IDXGIDevice3, IDXGIDevice3 interface [DXGI], IDXGIDevice3 interface [DXGI],described, direct3ddxgi.idxgidevice3, dxgi1_3/IDXGIDevice3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-        The <b>IDXGIDevice3</b> interface implements a derived class for DXGI objects that produce image data. The interface exposes a method to trim graphics memory usage by the DXGI device.
+The <b>IDXGIDevice3</b> interface implements a derived class for DXGI objects that produce image data. The interface exposes a method to trim graphics memory usage by the DXGI device.
       
 
 
@@ -89,13 +88,11 @@ DXGI device on the app's behalf.
 
 
 
-
-          The <b>IDXGIDevice3</b> interface is designed for use by DXGI objects that need access to other DXGI objects. This interface is useful to
+The <b>IDXGIDevice3</b> interface is designed for use by DXGI objects that need access to other DXGI objects. This interface is useful to
           applications that do not use Direct3D to communicate with DXGI.
         
 
-
-          The Direct3D create device functions return a Direct3D device object. This Direct3D device object implements the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. You can query this Direct3D device object for the device's
+The Direct3D create device functions return a Direct3D device object. This Direct3D device object implements the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. You can query this Direct3D device object for the device's
           corresponding <b>IDXGIDevice3</b> interface. To retrieve the <b>IDXGIDevice3</b>  interface of a Direct3D device, use the following code:
         
 

@@ -68,7 +68,7 @@ The index of the effect.
 
 ### -param ppEffect [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/74078eaa-ae95-4b9b-993b-efbfb18a164d">IMILBitmapEffect</a>**</b>
 
 A pointer that receives a pointer to the bitmap effect.
 

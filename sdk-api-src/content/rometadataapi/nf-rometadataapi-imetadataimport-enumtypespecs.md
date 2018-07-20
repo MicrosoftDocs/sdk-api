@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_enumtypespecs.htm
 old-project: WinRT
 ms.assetid: 81b3b750-b9bd-42f1-b49d-134a10493ae5
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: EnumTypeSpecs, EnumTypeSpecs method [Windows Runtime], EnumTypeSpecs method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumTypeSpecs method, IMetaDataImport.EnumTypeSpecs, IMetaDataImport::EnumTypeSpecs, rometadataapi/IMetaDataImport::EnumTypeSpecs, winrt.imetadataimport_enumtypespecs
 ms.prod: windows
 ms.technology: windows-sdk

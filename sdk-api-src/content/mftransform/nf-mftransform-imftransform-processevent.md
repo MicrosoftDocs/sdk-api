@@ -7,7 +7,7 @@ old-location: mf\imftransform_processevent.htm
 old-project: medfound
 ms.assetid: 28366df3-c414-45ff-bb15-c5483f11de85
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 28366df3-c414-45ff-bb15-c5483f11de85, IMFTransform interface [Media Foundation],ProcessEvent method, IMFTransform.ProcessEvent, IMFTransform::ProcessEvent, ProcessEvent, ProcessEvent method [Media Foundation], ProcessEvent method [Media Foundation],IMFTransform interface, mf.imftransform_processevent, mftransform/IMFTransform::ProcessEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -188,7 +188,7 @@ req.product: GDI+ 1.1
         If an MFT does not hold back samples and does not need to examine any events, it can return <b>E_NOTIMPL</b>.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTProcessEvent</b>. See <a href="https://msdn.microsoft.com/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTProcessEvent</b>. See <a href="comparison_of_mfts_and_dmos.htm">Creating Hybrid DMO/MFT Objects</a>.
 
 
 

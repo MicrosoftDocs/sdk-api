@@ -7,7 +7,7 @@ old-location: intl\imeappletui.htm
 old-project: Intl
 ms.assetid: 9C44287B-77A9-48FB-8A17-6CB0FA234EE2
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 07/18/2018
 ms.keywords: "*LPIMEAPPLETUI, IMEAPPLETUI, IMEAPPLETUI structure [Internationalization for Windows Applications], PIMEAPPLETUI, PIMEAPPLETUI structure pointer [Internationalization for Windows Applications], imepad/IMEAPPLETUI, imepad/PIMEAPPLETUI, intl.imeappletui, tagIMEAPPLETUI"
 ms.prod: windows
 ms.technology: windows-sdk

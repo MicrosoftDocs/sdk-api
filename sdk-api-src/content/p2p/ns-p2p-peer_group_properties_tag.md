@@ -4,10 +4,10 @@ title: peer_group_properties_tag
 author: windows-sdk-content
 description: The PEER_GROUP_PROPERTIES structure contains data about the membership policy of a peer group.
 old-location: p2p\peer_group_properties.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: a1501343-bd84-4dbe-91d0-c64c59e34abc
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: "*PPEER_GROUP_PROPERTIES, PEER_GROUP_PROPERTIES, PEER_GROUP_PROPERTIES structure [Peer Networking], PPEER_GROUP_PROPERTIES, PPEER_GROUP_PROPERTIES structure pointer [Peer Networking], p2p.peer_group_properties, p2p/PPEER_GROUP_PROPERTIES, p2p/peer_group_properties_tag, peer_group_properties_tag"
 ms.prod: windows
 ms.technology: windows-sdk

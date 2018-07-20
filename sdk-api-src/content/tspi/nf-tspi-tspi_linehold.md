@@ -7,7 +7,7 @@ old-location: tspi\tspi_linehold.htm
 old-project: tapi
 ms.assetid: 395aa8cc-fdbf-4772-940b-ea5944b26812
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineHold, TSPI_lineHold function [TAPI 2.2], _tspi_tspi_linehold, tspi.tspi_linehold, tspi/TSPI_lineHold
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IAzAuthorizationStore::AddPolicyReader
 author: windows-sdk-content
 description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy readers.
 old-location: security\azauthorizationstore_addpolicyreader.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 52872839-1066-4a43-8549-b7f37a0ebe40
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: AddPolicyReader, AddPolicyReader method [Security], AddPolicyReader method [Security],AzAuthorizationStore object, AddPolicyReader method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddPolicyReader method, IAzAuthorizationStore interface [Security],AddPolicyReader method, IAzAuthorizationStore.AddPolicyReader, IAzAuthorizationStore::AddPolicyReader, azroles/IAzAuthorizationStore::AddPolicyReader, security.azauthorizationstore_addpolicyreader
 ms.prod: windows
 ms.technology: windows-sdk

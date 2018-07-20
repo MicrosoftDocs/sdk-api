@@ -2,7 +2,7 @@
 UID: NA:winml
 ms.assetid: 53ebaf75-681b-37e7-ad63-dd0466c53914
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PeerCollabAddContact function
 author: windows-sdk-content
 description: Adds a contact to the contact list of a peer.
 old-location: p2p\peercollabaddcontact.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 0e4ba039-2016-487d-b4df-e96648db1a05
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: PeerCollabAddContact, PeerCollabAddContact function [Peer Networking], p2p.peercollabaddcontact, p2p/PeerCollabAddContact
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi3\ienumcallingcard_skip.htm
 old-project: tapi
 ms.assetid: c24acc61-9e1a-42a5-bf0f-302f523b0978
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumCallingCard interface [TAPI 2.2],Skip method, IEnumCallingCard.Skip, IEnumCallingCard::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumCallingCard interface, _tapi3_ienumcallingcard_skip, tapi3.ienumcallingcard_skip, tapi3if/IEnumCallingCard::Skip
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IAzRoleAssignment::get_Scope
 author: windows-sdk-content
 description: Retrieves the IAzScope object that represents the scope in which this IAzRoleAssignment object is defined.
 old-location: security\iazroleassignment_scope.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: f8b81fea-b4b8-4391-bc01-5c345f45ad56
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: IAzRoleAssignment interface [Security],Scope property, IAzRoleAssignment.Scope, IAzRoleAssignment.get_Scope, IAzRoleAssignment::Scope, IAzRoleAssignment::get_Scope, Scope property [Security], Scope property [Security],IAzRoleAssignment interface, azroles/IAzRoleAssignment::Scope, azroles/IAzRoleAssignment::get_Scope, get_Scope, security.iazroleassignment_scope
 ms.prod: windows
 ms.technology: windows-sdk

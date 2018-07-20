@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>CompositingQuality</b> enumeration specifies whether gamma correction is applied when colors are blended with background colors. This enumeration is used by the <a href="https://msdn.microsoft.com/library/ms535701(v=VS.85).aspx">Graphics::GetCompositingQuality</a> and <a href="https://msdn.microsoft.com/library/ms535809(v=VS.85).aspx">Graphics::SetCompositingQuality</a> methods of the 
+The <b>CompositingQuality</b> enumeration specifies whether gamma correction is applied when colors are blended with background colors. This enumeration is used by the <a href="https://msdn.microsoft.com/7d37da31-6ab0-4054-8a98-64cfbf9225ec">Graphics::GetCompositingQuality</a> and <a href="https://msdn.microsoft.com/e3544a81-d039-4bd6-89ea-d3883c95f7a9">Graphics::SetCompositingQuality</a> methods of the 
 			<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a> class.
 
 
@@ -104,11 +104,11 @@ When you specify that gamma correction should be applied, the image data to be r
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535701(v=VS.85).aspx">Graphics::GetCompositingQuality</a>
+<a href="https://msdn.microsoft.com/7d37da31-6ab0-4054-8a98-64cfbf9225ec">Graphics::GetCompositingQuality</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535809(v=VS.85).aspx">Graphics::SetCompositingQuality</a>
+<a href="https://msdn.microsoft.com/e3544a81-d039-4bd6-89ea-d3883c95f7a9">Graphics::SetCompositingQuality</a>
  
 
  

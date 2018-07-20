@@ -7,7 +7,7 @@ old-location: tapi3\itphone_enumerateterminals.htm
 old-project: tapi
 ms.assetid: 87c756e3-abd0-4dff-b815-ff7dd60902f7
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: EnumerateTerminals, EnumerateTerminals method [TAPI 2.2], EnumerateTerminals method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],EnumerateTerminals method, ITPhone.EnumerateTerminals, ITPhone::EnumerateTerminals, _tapi3_itphone_enumerateterminals, tapi3.itphone_enumerateterminals, tapi3if/ITPhone::EnumerateTerminals
 ms.prod: windows
 ms.technology: windows-sdk

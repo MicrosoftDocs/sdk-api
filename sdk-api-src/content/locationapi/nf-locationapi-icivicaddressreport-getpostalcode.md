@@ -4,10 +4,10 @@ title: ICivicAddressReport::GetPostalCode
 author: windows-sdk-content
 description: Retrieves the postal code.
 old-location: winlocation_com_ref\icivicaddressreport_getpostalcode.htm
-old-project: LocationAPI
+old-project: locationapi
 ms.assetid: 1580a1b9-1503-43d8-af1c-3b2ba8e9f81a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: GetPostalCode, GetPostalCode method [WinLocation], GetPostalCode method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetPostalCode method, ICivicAddressReport.GetPostalCode, ICivicAddressReport::GetPostalCode, WinLocation_COM_Ref.icivicaddressreport_getpostalcode, locationapi/ICivicAddressReport::GetPostalCode
 ms.prod: windows
 ms.technology: windows-sdk

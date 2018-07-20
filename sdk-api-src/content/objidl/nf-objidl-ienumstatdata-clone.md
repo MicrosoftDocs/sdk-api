@@ -7,7 +7,7 @@ old-location: com\ienumstatdata_clone.htm
 old-project: com
 ms.assetid: 54192d4f-197d-4e1f-bcf8-8c779b179fed
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumSTATDATA interface, IEnumSTATDATA interface [COM],Clone method, IEnumSTATDATA.Clone, IEnumSTATDATA::Clone, _ole_ienumstatdata_clone, com.ienumstatdata_clone, objidl/IEnumSTATDATA::Clone
 ms.prod: windows
 ms.technology: windows-sdk

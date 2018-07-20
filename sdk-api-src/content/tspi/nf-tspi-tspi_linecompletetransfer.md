@@ -7,7 +7,7 @@ old-location: tspi\tspi_linecompletetransfer.htm
 old-project: tapi
 ms.assetid: 486a62df-dcdb-46f5-af02-1cf091215401
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineCompleteTransfer, TSPI_lineCompleteTransfer function [TAPI 2.2], _tspi_tspi_linecompletetransfer, tspi.tspi_linecompletetransfer, tspi/TSPI_lineCompleteTransfer
 ms.prod: windows
 ms.technology: windows-sdk

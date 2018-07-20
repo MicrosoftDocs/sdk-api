@@ -7,7 +7,7 @@ old-location: mf\imfsourcebuffer_getappendwindowend.htm
 old-project: medfound
 ms.assetid: ac9806ca-8529-48be-8b5a-ae0126d8554d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetAppendWindowEnd, GetAppendWindowEnd method [Media Foundation], GetAppendWindowEnd method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetAppendWindowEnd method, IMFSourceBuffer.GetAppendWindowEnd, IMFSourceBuffer::GetAppendWindowEnd, mf.imfsourcebuffer_getappendwindowend, mfmediaengine/IMFSourceBuffer::GetAppendWindowEnd
 ms.prod: windows
 ms.technology: windows-sdk

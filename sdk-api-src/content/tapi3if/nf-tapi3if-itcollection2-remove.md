@@ -7,7 +7,7 @@ old-location: tapi3\itcollection2_remove.htm
 old-project: tapi
 ms.assetid: 27e46c36-8704-4e33-ad2a-5888d701651c
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITCollection2 interface [TAPI 2.2],Remove method, ITCollection2.Remove, ITCollection2::Remove, Remove, Remove method [TAPI 2.2], Remove method [TAPI 2.2],ITCollection2 interface, _tapi3_itcollection2_remove, tapi3.itcollection2_remove, tapi3if/ITCollection2::Remove
 ms.prod: windows
 ms.technology: windows-sdk

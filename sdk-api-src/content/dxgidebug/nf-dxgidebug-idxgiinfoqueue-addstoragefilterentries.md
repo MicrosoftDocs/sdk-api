@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_addstoragefilterentries.htm
 old-project: direct3ddxgi
 ms.assetid: 34FC5AE3-7B72-4480-ACFA-53C7FB5425DA
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: AddStorageFilterEntries, AddStorageFilterEntries method [DXGI], AddStorageFilterEntries method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],AddStorageFilterEntries method, IDXGIInfoQueue.AddStorageFilterEntries, IDXGIInfoQueue::AddStorageFilterEntries, direct3ddxgi.idxgiinfoqueue_addstoragefilterentries, dxgidebug/IDXGIInfoQueue::AddStorageFilterEntries
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ An array of <a href="https://msdn.microsoft.com/95E68ECE-39D2-4D16-9A8F-FE6E527A
 
 
 
-Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
 
 
 

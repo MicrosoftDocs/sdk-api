@@ -4,10 +4,10 @@ title: IConsole::SelectScopeItem
 author: windows-sdk-content
 description: The IConsole2::SelectScopeItem method selects the given scope item.
 old-location: mmc\iconsole2_selectscopeitem.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: e68e8473-a7ec-4e31-aef7-3e68c6a849c1
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: IConsole interface [MMC],SelectScopeItem method, IConsole.SelectScopeItem, IConsole2 interface [MMC],SelectScopeItem method, IConsole2::SelectScopeItem, IConsole3 interface [MMC],SelectScopeItem method, IConsole3::SelectScopeItem, IConsole::SelectScopeItem, SelectScopeItem, SelectScopeItem method [MMC], SelectScopeItem method [MMC],IConsole interface, SelectScopeItem method [MMC],IConsole2 interface, SelectScopeItem method [MMC],IConsole3 interface, _slate_iconsole2_selectscopeitem, mmc.iconsole2_selectscopeitem, mmc/IConsole2::SelectScopeItem, mmc/IConsole3::SelectScopeItem, mmc/IConsole::SelectScopeItem
 ms.prod: windows
 ms.technology: windows-sdk

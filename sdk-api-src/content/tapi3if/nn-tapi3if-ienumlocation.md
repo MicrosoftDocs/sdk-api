@@ -7,7 +7,7 @@ old-location: tapi3\ienumlocation.htm
 old-project: tapi
 ms.assetid: fc8c235c-92ec-448f-bbea-c93192d36beb
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumLocation, IEnumLocation interface [TAPI 2.2], IEnumLocation interface [TAPI 2.2],described, _tapi3_ienumlocation, tapi3.ienumlocation, tapi3if/IEnumLocation
 ms.prod: windows
 ms.technology: windows-sdk

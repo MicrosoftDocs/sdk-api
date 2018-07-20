@@ -4,10 +4,10 @@ title: AddAccessDeniedAce function
 author: windows-sdk-content
 description: Adds an access-denied access control entry (ACE) to an access control list (ACL). The access is denied to a specified security identifier (SID).
 old-location: security\addaccessdeniedace.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 5b4c4164-48f4-4cd5-b60e-554f2498d547
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: AddAccessDeniedAce, AddAccessDeniedAce function [Security], _win32_addaccessdeniedace, security.addaccessdeniedace, securitybaseapi/AddAccessDeniedAce
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi2\phonegetlamp.htm
 old-project: tapi
 ms.assetid: 97bc1dc1-ac7e-479f-8fea-e2fcca88367b
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_phonegetlamp, phoneGetLamp, phoneGetLamp function [TAPI 2.2], tapi/phoneGetLamp, tapi2.phonegetlamp"
 ms.prod: windows
 ms.technology: windows-sdk

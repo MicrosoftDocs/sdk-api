@@ -4,10 +4,10 @@ title: View::ExecuteSelectionMenuItem
 author: windows-sdk-content
 description: The ExecuteSelectionMenuItem method executes a specified menu command for the selected item.
 old-location: mmc\view_executeselectionmenuitem.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 4707c94f-f02d-4aa1-b188-0d4f7d0f3fc3
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: ExecuteSelectionMenuItem, ExecuteSelectionMenuItem method [MMC], ExecuteSelectionMenuItem method [MMC],View interface, ExecuteSelectionMenuItem method [MMC],View object, View interface [MMC],ExecuteSelectionMenuItem method, View object [MMC],ExecuteSelectionMenuItem method, View.ExecuteSelectionMenuItem, View::ExecuteSelectionMenuItem, _slate_view.executeselectionmenuitem_method, mmc.view_executeselectionmenuitem
 ms.prod: windows
 ms.technology: windows-sdk

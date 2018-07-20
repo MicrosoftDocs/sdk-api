@@ -4,10 +4,10 @@ title: drt_search_info_tag
 author: windows-sdk-content
 description: DRT_SEARCH_INFO structure represents a search query issued with DrtStartSearch.
 old-location: p2p\drt_search_info.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: a3f12d8a-95ef-4168-8d2d-c317ae2c57b4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: "*PDRT_SEARCH_INFO, DRT_SEARCH_INFO, DRT_SEARCH_INFO structure [Peer Networking], PDRT_SEARCH_INFO, PDRT_SEARCH_INFO structure pointer [Peer Networking], drt/DRT_SEARCH_INFO, drt/PDRT_SEARCH_INFO, drt_search_info_tag, p2p.drt_search_info"
 ms.prod: windows
 ms.technology: windows-sdk

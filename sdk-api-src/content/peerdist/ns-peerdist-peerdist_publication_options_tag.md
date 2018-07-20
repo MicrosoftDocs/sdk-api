@@ -4,10 +4,10 @@ title: peerdist_publication_options_tag
 author: windows-sdk-content
 description: PEERDIST_PUBLICATION_OPTIONS structure contains publication options, including the API version information and possible option flags.
 old-location: p2p\peerdist_publication_options.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 990b6551-eaf6-47f7-bc35-ea91820f917b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: "*PPEERDIST_PUBLICATION_OPTIONS, PEERDIST_PUBLICATION_OPTIONS, PEERDIST_PUBLICATION_OPTIONS structure [Peer Networking], PPEERDIST_PUBLICATION_OPTIONS, PPEERDIST_PUBLICATION_OPTIONS structure pointer [Peer Networking], p2p.peerdist_publication_options, peerdist/PEERDIST_PUBLICATION_OPTIONS, peerdist/PPEERDIST_PUBLICATION_OPTIONS, peerdist_publication_options_tag"
 ms.prod: windows
 ms.technology: windows-sdk

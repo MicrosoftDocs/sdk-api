@@ -7,7 +7,7 @@ old-location: intl\immconfigureime.htm
 old-project: Intl
 ms.assetid: acefb3a0-82c7-4af6-8ef0-aba561f570c1
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 07/18/2018
 ms.keywords: IME_CONFIG_GENERAL, IME_CONFIG_REGISTERWORD, IME_CONFIG_SELECTDICTIONARY, ImmConfigureIME, ImmConfigureIME function [Internationalization for Windows Applications], ImmConfigureIMEA, ImmConfigureIMEW, _win32_ImmConfigureIME, imm/ImmConfigureIME, imm/ImmConfigureIMEA, imm/ImmConfigureIMEW, intl.immconfigureime
 ms.prod: windows
 ms.technology: windows-sdk

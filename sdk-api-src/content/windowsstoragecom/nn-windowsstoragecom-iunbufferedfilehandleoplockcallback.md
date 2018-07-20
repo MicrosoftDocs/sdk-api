@@ -7,7 +7,7 @@ old-location: winrt\iunbufferedfilehandleoplockcallback.htm
 old-project: WinRT
 ms.assetid: 7418EDE0-D9E1-4D8C-84B0-CAE9BDF053E3
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IUnbufferedFileHandleOplockCallback, IUnbufferedFileHandleOplockCallback interface [Windows Runtime], IUnbufferedFileHandleOplockCallback interface [Windows Runtime],described, windowsstoragecom/IUnbufferedFileHandleOplockCallback, winrt.iunbufferedfilehandleoplockcallback
 ms.prod: windows
 ms.technology: windows-sdk

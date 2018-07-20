@@ -7,7 +7,7 @@ old-location: mf\imfmediatypehandler_ismediatypesupported.htm
 old-project: medfound
 ms.assetid: ea52defa-8b78-4f40-97ae-ed6a5ee4849e
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFMediaTypeHandler interface [Media Foundation],IsMediaTypeSupported method, IMFMediaTypeHandler.IsMediaTypeSupported, IMFMediaTypeHandler::IsMediaTypeSupported, IsMediaTypeSupported, IsMediaTypeSupported method [Media Foundation], IsMediaTypeSupported method [Media Foundation],IMFMediaTypeHandler interface, ea52defa-8b78-4f40-97ae-ed6a5ee4849e, mf.imfmediatypehandler_ismediatypesupported, mfidl/IMFMediaTypeHandler::IsMediaTypeSupported
 ms.prod: windows
 ms.technology: windows-sdk

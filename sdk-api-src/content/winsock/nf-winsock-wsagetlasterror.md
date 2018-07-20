@@ -7,7 +7,7 @@ old-location: winsock\wsagetlasterror_2.htm
 old-project: winsock
 ms.assetid: 39e41b66-44ed-46dc-bfc2-65228b669992
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/18/2018
 ms.keywords: WSAGetLastError, WSAGetLastError function [Winsock], _win32_wsagetlasterror_2, winsock.wsagetlasterror_2, winsock/WSAGetLastError
 ms.prod: windows
 ms.technology: windows-sdk

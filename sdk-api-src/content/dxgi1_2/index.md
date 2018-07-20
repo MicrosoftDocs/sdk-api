@@ -2,7 +2,7 @@
 UID: NA:dxgi1_2
 ms.assetid: f49787c7-67a1-3e64-acac-f764eb21d538
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

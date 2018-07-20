@@ -7,7 +7,7 @@ old-location: com\ioleuilinkcontainer_getlinkupdateoptions.htm
 old-project: com
 ms.assetid: 136894a6-ddf6-4a47-80f5-997625362536
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: GetLinkUpdateOptions, GetLinkUpdateOptions method [COM], GetLinkUpdateOptions method [COM],IOleUILinkContainer interface, GetLinkUpdateOptions method [COM],IOleUILinkContainerA interface, GetLinkUpdateOptions method [COM],IOleUILinkContainerW interface, IOleUILinkContainer interface [COM],GetLinkUpdateOptions method, IOleUILinkContainer::GetLinkUpdateOptions, IOleUILinkContainerA interface [COM],GetLinkUpdateOptions method, IOleUILinkContainerA::GetLinkUpdateOptions, IOleUILinkContainerW interface [COM],GetLinkUpdateOptions method, IOleUILinkContainerW.GetLinkUpdateOptions, IOleUILinkContainerW::GetLinkUpdateOptions, _ole_IOleUILinkContainer_GetLinkUpdateOptions, com.ioleuilinkcontainer_getlinkupdateoptions, oledlg/IOleUILinkContainer::GetLinkUpdateOptions, oledlg/IOleUILinkContainerA::GetLinkUpdateOptions, oledlg/IOleUILinkContainerW::GetLinkUpdateOptions
 ms.prod: windows
 ms.technology: windows-sdk

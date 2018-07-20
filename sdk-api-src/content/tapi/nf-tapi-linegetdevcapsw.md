@@ -7,7 +7,7 @@ old-location: tapi2\linegetdevcaps.htm
 old-project: tapi
 ms.assetid: c0900c5b-8791-4653-8bfc-d32e51d10c50
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_linegetdevcaps, lineGetDevCaps, lineGetDevCaps function [TAPI 2.2], lineGetDevCapsA, lineGetDevCapsW, tapi/lineGetDevCaps, tapi/lineGetDevCapsA, tapi/lineGetDevCapsW, tapi2.linegetdevcaps"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -150,7 +150,7 @@ For a full listing of the information returned by
 
 
 
-<a href="https://msdn.microsoft.com/">wire_marshal</a>
+<a href="https://msdn.microsoft.com/51969f2c-7390-42c4-8aa6-ba12fdb22d23">wire_marshal</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobject_put_name.htm
 old-project: tapi
 ms.assetid: 398ba207-bdd7-4090-ac8b-72badbb401e3
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],put_Name method, ITDirectoryObject.put_Name, ITDirectoryObject::put_Name, _tapi3_itdirectoryobject_put_name, put_Name, put_Name method [TAPI 2.2], put_Name method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::put_Name, tapi3.itdirectoryobject_put_name
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,8 +149,8 @@ Changes made will not take effect on the server until the
 <a href="https://msdn.microsoft.com/be53c186-c23c-4ff6-8060-f06555ab4548">ITDirectory::ModifyDirectoryObject</a> method is called.
 
 The application must use 
-<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pName</i> parameter and use 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> to allocate memory for the <i>pName</i> parameter and use 
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 This function may send data over the wire in unencrypted form; therefore, someone eavesdropping on the network may be able to read the data. The security risk of sending the data in clear text should be considered before using this method.
 

@@ -7,7 +7,7 @@ old-location: com\cocreatefreethreadedmarshaler.htm
 old-project: com
 ms.assetid: f97a2a39-7291-4a1d-b770-0a34f7f5b60f
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: CoCreateFreeThreadedMarshaler, CoCreateFreeThreadedMarshaler function [COM], _com_CoCreateFreeThreadedMarshaler, com.cocreatefreethreadedmarshaler, combaseapi/CoCreateFreeThreadedMarshaler
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\mf_float2.htm
 old-project: medfound
 ms.assetid: 88855E0D-382D-44F5-A4D9-2A65EF4F580C
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: MF_FLOAT2, MF_FLOAT2 structure [Media Foundation], PMF_FLOAT2, PMF_FLOAT2 structure pointer [Media Foundation], _MF_FLOAT2, mf.mf_float2, mfapi/MF_FLOAT2, mfapi/PMF_FLOAT2
 ms.prod: windows
 ms.technology: windows-sdk

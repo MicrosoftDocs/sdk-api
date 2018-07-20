@@ -7,7 +7,7 @@ old-location: com\oleuichangeicon.htm
 old-project: com
 ms.assetid: 899aadbe-d3d7-42e2-b9c0-09efeb378bda
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: OleUIChangeIcon, OleUIChangeIcon function [COM], OleUIChangeIconA, OleUIChangeIconW, _ole_OleUIChangeIcon, com.oleuichangeicon, oledlg/OleUIChangeIcon, oledlg/OleUIChangeIconA, oledlg/OleUIChangeIconW
 ms.prod: windows
 ms.technology: windows-sdk

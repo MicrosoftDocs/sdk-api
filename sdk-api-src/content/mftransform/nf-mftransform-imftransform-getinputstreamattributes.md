@@ -7,7 +7,7 @@ old-location: mf\imftransform_getinputstreamattributes.htm
 old-project: medfound
 ms.assetid: 2698da30-6913-41a9-9d98-f124cf31e591
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 2698da30-6913-41a9-9d98-f124cf31e591, GetInputStreamAttributes, GetInputStreamAttributes method [Media Foundation], GetInputStreamAttributes method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputStreamAttributes method, IMFTransform.GetInputStreamAttributes, IMFTransform::GetInputStreamAttributes, mf.imftransform_getinputstreamattributes, mftransform/IMFTransform::GetInputStreamAttributes
 ms.prod: windows
 ms.technology: windows-sdk

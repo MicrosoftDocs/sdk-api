@@ -7,7 +7,7 @@ old-location: tapi3\itprivateevent_get_callhub.htm
 old-project: tapi
 ms.assetid: c69f0c96-134f-4b78-91dc-44339aa06a98
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITPrivateEvent interface [TAPI 2.2],get_CallHub method, ITPrivateEvent.get_CallHub, ITPrivateEvent::get_CallHub, _tapi3_itprivateevent_get_callhub, get_CallHub, get_CallHub method [TAPI 2.2], get_CallHub method [TAPI 2.2],ITPrivateEvent interface, tapi3.itprivateevent_get_callhub, tapi3if/ITPrivateEvent::get_CallHub
 ms.prod: windows
 ms.technology: windows-sdk

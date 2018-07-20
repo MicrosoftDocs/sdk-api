@@ -4,10 +4,10 @@ title: ViewOptions
 author: windows-sdk-content
 description: The ViewOptions enumeration is used by the Views.Add method and specifies the visibility of the view, scope tree, and toolbars, as well as the persistence state of the view.
 old-location: mmc\viewoptions.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: e3cc2834-873d-4cc1-a917-f3aeabdb2350
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: "*PVIEWOPTIONS, PPVIEWOPTIONS, PPVIEWOPTIONS enumeration pointer [MMC], PVIEWOPTIONS, PVIEWOPTIONS enumeration pointer [MMC], VIEWOPTIONS, ViewOption_Default, ViewOption_NoToolBars, ViewOption_NotPersistable, ViewOption_ScopeTreeHidden, ViewOptions, ViewOptions enumeration [MMC], _ViewOptions, _ViewOptions enumeration [MMC], _slate_viewoptions, mmc.viewoptions, mmcobj/PPVIEWOPTIONS, mmcobj/PVIEWOPTIONS, mmcobj/ViewOption_Default, mmcobj/ViewOption_NoToolBars, mmcobj/ViewOption_NotPersistable, mmcobj/ViewOption_ScopeTreeHidden, mmcobj/ViewOptions"
 ms.prod: windows
 ms.technology: windows-sdk

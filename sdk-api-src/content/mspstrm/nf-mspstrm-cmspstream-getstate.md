@@ -7,7 +7,7 @@ old-location: tapi3\cmspstream_getstate.htm
 old-project: tapi
 ms.assetid: 03fc3801-8bd4-432a-b0ca-f6506bd8c788
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: CMSPStream interface [TAPI 2.2],GetState method, CMSPStream.GetState, CMSPStream::GetState, GetState, GetState method [TAPI 2.2], GetState method [TAPI 2.2],CMSPStream interface, _tapi3_cmspstream_getstate, mspstrm/CMSPStream::GetState, tapi3.cmspstream_getstate
 ms.prod: windows
 ms.technology: windows-sdk

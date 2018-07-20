@@ -93,7 +93,7 @@ Returns nothing.
 
 
 
-A <a href="https://msdn.microsoft.com/library/Bb205117(v=VS.85).aspx">draw API</a> submits work to the rendering pipeline.
+A <a href="https://msdn.microsoft.com/84c0ca29-2356-4b7f-98ee-ff1758edc540">draw API</a> submits work to the rendering pipeline.
 
 If the sum of both indices is negative, the result of the function call is undefined.
 
@@ -105,7 +105,7 @@ If the sum of both indices is negative, the result of the function call is undef
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

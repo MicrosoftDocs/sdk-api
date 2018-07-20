@@ -4,10 +4,10 @@ title: WNetGetProviderNameA function
 author: windows-sdk-content
 description: The WNetGetProviderName function obtains the provider name for a specific type of network.
 old-location: wnet\wnetgetprovidername.htm
-old-project: WNet
+old-project: wnet
 ms.assetid: c1369098-c574-4d5f-8051-ca5aa548e63f
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/18/2018
 ms.keywords: WNetGetProviderName, WNetGetProviderName function [Windows Networking (WNet)], WNetGetProviderNameA, WNetGetProviderNameW, _win32_wnetgetprovidername, winnetwk/WNetGetProviderName, winnetwk/WNetGetProviderNameA, winnetwk/WNetGetProviderNameW, wnet.wnetgetprovidername
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfqualitymanager.htm
 old-project: medfound
 ms.assetid: 66781a1f-7469-4222-9e99-6b1415830f4c
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 66781a1f-7469-4222-9e99-6b1415830f4c, IMFQualityManager, IMFQualityManager interface [Media Foundation], IMFQualityManager interface [Media Foundation],described, mf.imfqualitymanager, mfidl/IMFQualityManager
 ms.prod: windows
 ms.technology: windows-sdk

@@ -224,11 +224,11 @@ By default, the dimensions of tiles are determined automatically. To apply a fix
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775012(v=VS.85).aspx">ListView_GetTileViewInfo</a>
+<a href="https://msdn.microsoft.com/8cd26367-7af8-4838-b2cf-815eba2b29f3">ListView_GetTileViewInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775120(v=VS.85).aspx">ListView_SetTileViewInfo</a>
+<a href="https://msdn.microsoft.com/f4abf330-edce-49e3-a84c-cce2afd8a489">ListView_SetTileViewInfo</a>
 
 
 
@@ -236,7 +236,7 @@ By default, the dimensions of tiles are determined automatically. To apply a fix
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774736(v=VS.85).aspx">Using List-View Controls</a>
+<a href="https://msdn.microsoft.com/6953cdfc-8c59-4c6d-8998-f828cea3a315">Using List-View Controls</a>
  
 
  

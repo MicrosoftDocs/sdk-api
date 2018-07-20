@@ -7,7 +7,7 @@ old-location: tapi2\linedevspecificfeature.htm
 old-project: tapi
 ms.assetid: 8498318f-9615-4242-86e2-c57b50293b83
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_linedevspecificfeature, lineDevSpecificFeature, lineDevSpecificFeature function [TAPI 2.2], tapi/lineDevSpecificFeature, tapi2.linedevspecificfeature"
 ms.prod: windows
 ms.technology: windows-sdk

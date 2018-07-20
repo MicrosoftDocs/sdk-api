@@ -7,7 +7,7 @@ old-location: devinst\setupdiinstallclass.htm
 old-project: devinst
 ms.assetid: 6709936b-cd44-444a-a0c0-14b5ebce5226
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: SetupDiInstallClass, SetupDiInstallClass function [Device and Driver Installation], SetupDiInstallClassA, SetupDiInstallClassW, devinst.setupdiinstallclass, di-rtns_9d55009f-08f3-448c-9c1e-468e995f8cb9.xml, setupapi/SetupDiInstallClass
 ms.prod: windows
 ms.technology: windows-sdk

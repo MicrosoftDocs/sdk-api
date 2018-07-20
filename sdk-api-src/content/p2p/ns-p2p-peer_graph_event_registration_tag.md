@@ -4,10 +4,10 @@ title: peer_graph_event_registration_tag
 author: windows-sdk-content
 description: The PEER_GRAPH_EVENT_REGISTRATION structure is used during registration for peer event notification. During registration it specifies which peer events an application requires notifications for.
 old-location: p2p\peer_graph_event_registration.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 6725eba9-af61-4088-96e0-d0bf943902ea
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: "*PPEER_GRAPH_EVENT_REGISTRATION, PEER_GRAPH_EVENT_REGISTRATION, PEER_GRAPH_EVENT_REGISTRATION structure [Peer Networking], PPEER_GRAPH_EVENT_REGISTRATION, PPEER_GRAPH_EVENT_REGISTRATION structure pointer [Peer Networking], p2p.peer_graph_event_registration, p2p/PPEER_GRAPH_EVENT_REGISTRATION, p2p/peer_graph_event_registration_tag, peer_graph_event_registration_tag"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winprog\_terminatecache.htm
 old-project: devnotes
 ms.assetid: 3c4bdb54-8baa-4302-89ab-c7e6f35582e5
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: TerminateCache, TerminateCache function [Windows API], filehc/TerminateCache, winprog._terminatecache
 ms.prod: windows
 ms.technology: windows-sdk

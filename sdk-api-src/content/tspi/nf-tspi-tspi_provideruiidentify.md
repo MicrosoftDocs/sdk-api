@@ -7,7 +7,7 @@ old-location: tspi\tspi_provideruiidentify.htm
 old-project: tapi
 ms.assetid: 4ff4b695-8947-4ece-998c-6b443025c2d9
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_providerUIIdentify, TSPI_providerUIIdentify function [TAPI 2.2], _tspi_tspi_provideruiidentify, tspi.tspi_provideruiidentify, tspi/TSPI_providerUIIdentify
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi2\phonegethookswitch.htm
 old-project: tapi
 ms.assetid: 246f8b2b-8748-453d-b2b6-16771c0aad36
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_phonegethookswitch, phoneGetHookSwitch, phoneGetHookSwitch function [TAPI 2.2], tapi/phoneGetHookSwitch, tapi2.phonegethookswitch"
 ms.prod: windows
 ms.technology: windows-sdk

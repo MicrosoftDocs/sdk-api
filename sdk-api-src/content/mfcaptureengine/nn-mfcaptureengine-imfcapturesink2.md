@@ -7,7 +7,7 @@ old-location: mf\imfcapturesink2.htm
 old-project: medfound
 ms.assetid: afaf0d2e-3732-4c78-8aba-870c6aaefa28
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFCaptureSink2, IMFCaptureSink2 interface [Media Foundation], IMFCaptureSink2 interface [Media Foundation],described, mf.imfcapturesink2, mfcaptureengine/IMFCaptureSink2
 ms.prod: windows
 ms.technology: windows-sdk

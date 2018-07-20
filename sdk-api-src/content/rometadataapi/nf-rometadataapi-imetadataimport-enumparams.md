@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_enumparams.htm
 old-project: WinRT
 ms.assetid: 0d3cc66e-575d-4451-bab7-e3dd24fd5060
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: EnumParams, EnumParams method [Windows Runtime], EnumParams method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumParams method, IMetaDataImport.EnumParams, IMetaDataImport::EnumParams, rometadataapi/IMetaDataImport::EnumParams, winrt.imetadataimport_enumparams
 ms.prod: windows
 ms.technology: windows-sdk

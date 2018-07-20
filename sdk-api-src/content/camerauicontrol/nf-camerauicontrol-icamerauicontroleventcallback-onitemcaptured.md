@@ -7,7 +7,7 @@ old-location: winprog\icamerauicontroleventcallback_onitemcaptured.htm
 old-project: devnotes
 ms.assetid: 4f202b68-48e2-4ae7-ade6-2180c05eec4a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnItemCaptured method, ICameraUIControlEventCallback.OnItemCaptured, ICameraUIControlEventCallback::OnItemCaptured, OnItemCaptured, OnItemCaptured method [Windows API], OnItemCaptured method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnItemCaptured, winprog.icamerauicontroleventcallback_onitemcaptured
 ms.prod: windows
 ms.technology: windows-sdk

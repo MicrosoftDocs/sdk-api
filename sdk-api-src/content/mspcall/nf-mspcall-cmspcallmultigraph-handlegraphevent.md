@@ -7,7 +7,7 @@ old-location: tapi3\cmspcallmultigraph_handlegraphevent.htm
 old-project: tapi
 ms.assetid: 6c661341-6ae6-4a0a-88e5-b661a09ec9fe
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],HandleGraphEvent method, CMSPCallMultiGraph.HandleGraphEvent, CMSPCallMultiGraph::HandleGraphEvent, HandleGraphEvent, HandleGraphEvent method [TAPI 2.2], HandleGraphEvent method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_handlegraphevent, mspcall/CMSPCallMultiGraph::HandleGraphEvent, tapi3.cmspcallmultigraph_handlegraphevent
 ms.prod: windows
 ms.technology: windows-sdk

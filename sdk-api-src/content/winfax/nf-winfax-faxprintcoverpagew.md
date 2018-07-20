@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxprintcoverpage.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8fmt.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxPrintCoverPage, FaxPrintCoverPage function [Fax Service], FaxPrintCoverPageA, FaxPrintCoverPageW, _mfax_faxprintcoverpage, fax._mfax_faxprintcoverpage, winfax/FaxPrintCoverPage, winfax/FaxPrintCoverPageA, winfax/FaxPrintCoverPageW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,16 +64,16 @@ The <b>FaxPrintCoverPage</b> function prints a fax transmission cover page to th
 
 ### -param FaxContextInfo [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms692352(v=VS.85).aspx">FAX_CONTEXT_INFO</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/6eef1d9e-0107-4882-884b-8ba78c4e73c4">FAX_CONTEXT_INFO</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms692352(v=VS.85).aspx">FAX_CONTEXT_INFO</a> structure that contains a handle to a fax printer device context.
+Pointer to a <a href="https://msdn.microsoft.com/6eef1d9e-0107-4882-884b-8ba78c4e73c4">FAX_CONTEXT_INFO</a> structure that contains a handle to a fax printer device context.
 
 
 ### -param CoverPageInfo [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/ms691508(v=VS.85).aspx">FAX_COVERPAGE_INFO</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/488a4c89-7efc-4aa5-aa8d-b6cc2ccd2535">FAX_COVERPAGE_INFO</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/ms691508(v=VS.85).aspx">FAX_COVERPAGE_INFO</a> structure that contains personal data to display on the cover page of the fax document.
+Pointer to a <a href="https://msdn.microsoft.com/488a4c89-7efc-4aa5-aa8d-b6cc2ccd2535">FAX_COVERPAGE_INFO</a> structure that contains personal data to display on the cover page of the fax document.
 
 
 ## -returns
@@ -109,7 +109,7 @@ One or both of the <i>CoverPageInfo</i> or <i>FaxContextInfo</i> parameters are 
 </dl>
 </td>
 <td width="60%">
-The <b>SizeOfStruct</b> member of the specified <a href="https://msdn.microsoft.com/library/ms691508(v=VS.85).aspx">FAX_COVERPAGE_INFO</a> structure is not equal to <b>sizeof(FAX_COVERPAGE_INFO)</b>; or the <b>SizeOfStruct</b> member of the specified <a href="https://msdn.microsoft.com/library/ms692352(v=VS.85).aspx">FAX_CONTEXT_INFO</a> structure is not equal to <b>sizeof(FAX_CONTEXT_INFO)</b>.
+The <b>SizeOfStruct</b> member of the specified <a href="https://msdn.microsoft.com/488a4c89-7efc-4aa5-aa8d-b6cc2ccd2535">FAX_COVERPAGE_INFO</a> structure is not equal to <b>sizeof(FAX_COVERPAGE_INFO)</b>; or the <b>SizeOfStruct</b> member of the specified <a href="https://msdn.microsoft.com/6eef1d9e-0107-4882-884b-8ba78c4e73c4">FAX_CONTEXT_INFO</a> structure is not equal to <b>sizeof(FAX_CONTEXT_INFO)</b>.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ The <b>SizeOfStruct</b> member of the specified <a href="https://msdn.microsoft.
 </dl>
 </td>
 <td width="60%">
-The fax server cannot locate the file specified by the <b>CoverPageName</b> member of the <a href="https://msdn.microsoft.com/library/ms691508(v=VS.85).aspx">FAX_COVERPAGE_INFO</a> structure.
+The fax server cannot locate the file specified by the <b>CoverPageName</b> member of the <a href="https://msdn.microsoft.com/488a4c89-7efc-4aa5-aa8d-b6cc2ccd2535">FAX_COVERPAGE_INFO</a> structure.
 
 </td>
 </tr>
@@ -134,13 +134,13 @@ The fax server cannot locate the file specified by the <b>CoverPageName</b> memb
 
 
 
-A device context handle is obtained by using the <a href="https://msdn.microsoft.com/library/ms691423(v=VS.85).aspx">FaxStartPrintJob</a> function.
+A device context handle is obtained by using the <a href="https://msdn.microsoft.com/219cc7f7-d5c8-416b-b9ea-0f13584cac57">FaxStartPrintJob</a> function.
 
 The cover page can be a personal cover page stored on the local computer, or it can be a common cover page stored on the fax server.
 
-<div class="alert"><b>Note</b>  The application must also call the <a href="https://msdn.microsoft.com/library/Dd162456(v=VS.85).aspx">AbortDoc</a> function or the <a href="https://msdn.microsoft.com/library/Dd162594(v=VS.85).aspx">EndDoc</a> function to complete the print job, and call the <a href="https://msdn.microsoft.com/library/Dd183533(v=VS.85).aspx">DeleteDC</a> function to deallocate the handle to the printer device context. For more information, see <a href="https://msdn.microsoft.com/library/ms690908(v=VS.85).aspx">Printing a Fax to a Device Context</a>.</div>
+<div class="alert"><b>Note</b>  The application must also call the <a href="_win32_AbortDoc">AbortDoc</a> function or the <a href="_win32_EndDoc">EndDoc</a> function to complete the print job, and call the <a href="_win32_DeleteDC">DeleteDC</a> function to deallocate the handle to the printer device context. For more information, see <a href="https://msdn.microsoft.com/d6e0afbd-6e64-487c-97fc-1e5cd5092d14">Printing a Fax to a Device Context</a>.</div>
 <div> </div>
-A fax client application must call the <a href="https://msdn.microsoft.com/library/ms691423(v=VS.85).aspx">FaxStartPrintJob</a> function before calling the <b>FaxPrintCoverPage</b> function to print a cover page with a fax job. For more information, see <a href="https://msdn.microsoft.com/library/ms691363(v=VS.85).aspx">Cover Pages</a> and <a href="https://msdn.microsoft.com/library/ms690908(v=VS.85).aspx">Printing a Fax to a Device Context</a>.
+A fax client application must call the <a href="https://msdn.microsoft.com/219cc7f7-d5c8-416b-b9ea-0f13584cac57">FaxStartPrintJob</a> function before calling the <b>FaxPrintCoverPage</b> function to print a cover page with a fax job. For more information, see <a href="https://msdn.microsoft.com/37bbff77-08a8-486f-ac26-d7b69a936e05">Cover Pages</a> and <a href="https://msdn.microsoft.com/d6e0afbd-6e64-487c-97fc-1e5cd5092d14">Printing a Fax to a Device Context</a>.
 
 
 
@@ -150,23 +150,23 @@ A fax client application must call the <a href="https://msdn.microsoft.com/libra
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692352(v=VS.85).aspx">FAX_CONTEXT_INFO</a>
+<a href="https://msdn.microsoft.com/6eef1d9e-0107-4882-884b-8ba78c4e73c4">FAX_CONTEXT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691508(v=VS.85).aspx">FAX_COVERPAGE_INFO</a>
+<a href="https://msdn.microsoft.com/488a4c89-7efc-4aa5-aa8d-b6cc2ccd2535">FAX_COVERPAGE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
+<a href="https://msdn.microsoft.com/b076b5ba-09af-4312-90c1-27abd0b859df">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691423(v=VS.85).aspx">FaxStartPrintJob</a>
+<a href="https://msdn.microsoft.com/219cc7f7-d5c8-416b-b9ea-0f13584cac57">FaxStartPrintJob</a>
  
 
  

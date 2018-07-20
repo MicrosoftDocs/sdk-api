@@ -7,7 +7,7 @@ old-location: mf\id3d11cryptosession_getcertificate.htm
 old-project: medfound
 ms.assetid: D6407570-62C0-45D0-9BCB-41EA007D86A6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertificate method [Media Foundation],ID3D11CryptoSession interface, ID3D11CryptoSession interface [Media Foundation],GetCertificate method, ID3D11CryptoSession.GetCertificate, ID3D11CryptoSession::GetCertificate, d3d11/ID3D11CryptoSession::GetCertificate, mf.id3d11cryptosession_getcertificate
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wcs\idevicemodelplugin.htm
 old-project: WCS
 ms.assetid: 90541ec2-c0ab-4f98-906b-3e58f8f5cc03
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/18/2018
 ms.keywords: IDeviceModelPlugIn, IDeviceModelPlugIn interface [Windows Color System], IDeviceModelPlugIn interface [Windows Color System],described, _color_IDeviceModelPlugIn, wcs.idevicemodelplugin, wcsplugin/IDeviceModelPlugIn
 ms.prod: windows
 ms.technology: windows-sdk

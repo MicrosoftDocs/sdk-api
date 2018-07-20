@@ -4,10 +4,10 @@ title: WNetCloseEnum function
 author: windows-sdk-content
 description: The WNetCloseEnum function ends a network resource enumeration started by a call to the WNetOpenEnum function.
 old-location: wnet\wnetcloseenum.htm
-old-project: WNet
+old-project: wnet
 ms.assetid: c68fd9de-9f24-41f0-8b59-2d083fec8abf
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/18/2018
 ms.keywords: WNetCloseEnum, WNetCloseEnum function [Windows Networking (WNet)], _win32_wnetcloseenum, winnetwk/WNetCloseEnum, wnet.wnetcloseenum
 ms.prod: windows
 ms.technology: windows-sdk

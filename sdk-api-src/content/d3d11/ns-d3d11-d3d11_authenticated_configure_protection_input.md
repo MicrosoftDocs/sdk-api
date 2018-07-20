@@ -7,7 +7,7 @@ old-location: mf\d3d11_authenticated_channel_configure_protection_input.htm
 old-project: medfound
 ms.assetid: 35BAED8D-B5AD-4ECA-B3ED-41871A2969FC
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_PROTECTION_INPUT, D3D11_AUTHENTICATED_CONFIGURE_PROTECTION_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_CONFIGURE_PROTECTION_INPUT, mf.d3d11_authenticated_channel_configure_protection_input
 ms.prod: windows
 ms.technology: windows-sdk

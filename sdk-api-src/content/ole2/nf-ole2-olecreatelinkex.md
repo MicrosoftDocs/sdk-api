@@ -7,7 +7,7 @@ old-location: com\olecreatelinkex.htm
 old-project: com
 ms.assetid: b43acd14-3cf8-45da-8c2c-f2f6dc2ada78
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: OleCreateLinkEx, OleCreateLinkEx function [COM], _ole_OleCreateLinkEx, com.olecreatelinkex, ole2/OleCreateLinkEx
 ms.prod: windows
 ms.technology: windows-sdk

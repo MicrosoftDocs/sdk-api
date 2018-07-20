@@ -4,10 +4,10 @@ title: PeerPnrpStartResolve function
 author: windows-sdk-content
 description: Starts an asynchronous peer name resolution operation.
 old-location: p2p\peerpnrpstartresolve.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 140ecca5-85fe-480e-bc69-86e0bc69ad2e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: PeerPnrpStartResolve, PeerPnrpStartResolve function [Peer Networking], p2p.peerpnrpstartresolve, p2p/PeerPnrpStartResolve
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: devinst\setupdiinstalldevice.htm
 old-project: devinst
 ms.assetid: 130a58a8-7964-40cb-87e8-4765178bd1ff
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: SetupDiInstallDevice, SetupDiInstallDevice function [Device and Driver Installation], devinst.setupdiinstalldevice, di-rtns_5b8edbe1-3653-41c6-8a61-12f11544ff08.xml, setupapi/SetupDiInstallDevice
 ms.prod: windows
 ms.technology: windows-sdk

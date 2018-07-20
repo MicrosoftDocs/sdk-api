@@ -7,7 +7,7 @@ old-location: winsock\interface_info_2.htm
 old-project: winsock
 ms.assetid: fe1bf38d-70a7-4f0a-b76a-c0c9443d1782
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/18/2018
 ms.keywords: "*LPINTERFACE_INFO, IFF_BROADCAST, IFF_LOOPBACK, IFF_MULTICAST, IFF_POINTTOPOINT, IFF_UP, INTERFACE_INFO, INTERFACE_INFO structure [Winsock], INTERFACE_INFO,FAR * LPINTERFACE_INFO, INTERFACE_INFO,FAR * LPINTERFACE_INFO structure [Winsock], _INTERFACE_INFO, _win32_interface_info_2, winsock.interface_info_2, ws2ipdef/INTERFACE_INFO, ws2tcpip/INTERFACE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

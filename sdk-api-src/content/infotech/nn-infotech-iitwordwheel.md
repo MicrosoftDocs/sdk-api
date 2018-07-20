@@ -93,7 +93,7 @@ Returns the number of entries in a word wheel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms670060(v=VS.85).aspx">Lookup(,IITResultSet,)</a>
+<a href="https://msdn.microsoft.com/3276511f-c7c2-40ce-9502-8804d3777da2">Lookup(,IITResultSet,)</a>
 </td>
 <td align="left" width="63%">
 Looks up an entry and returns contents as a result set.
@@ -104,7 +104,7 @@ Looks up an entry and returns contents as a result set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms670059(v=VS.85).aspx">Lookup(,LPVOID,DWORD)</a>
+<a href="https://msdn.microsoft.com/d4275bc2-a623-46c0-88e2-b2951fa0232e">Lookup(,LPVOID,DWORD)</a>
 </td>
 <td align="left" width="63%">
 Looks up an entry and returns contents in a buffer.
@@ -115,7 +115,7 @@ Looks up an entry and returns contents in a buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms670058(v=VS.85).aspx">Lookup(LPCVOID,BOOL,)</a>
+<a href="https://msdn.microsoft.com/9242a7dd-83d4-4d30-8285-721778800744">Lookup(LPCVOID,BOOL,)</a>
 </td>
 <td align="left" width="63%">
 Returns the word wheel entry that is closest to the specified prefix.

@@ -7,7 +7,7 @@ old-location: com\ienumcontextprops_next.htm
 old-project: com
 ms.assetid: d1856f5c-dfed-462c-aca3-91b7973d6d8d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: IEnumContextProps interface [COM],Next method, IEnumContextProps.Next, IEnumContextProps::Next, Next, Next method [COM], Next method [COM],IEnumContextProps interface, _com_ienumcontextprops_next, com.ienumcontextprops_next, objidlbase/IEnumContextProps::Next
 ms.prod: windows
 ms.technology: windows-sdk

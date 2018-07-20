@@ -7,7 +7,7 @@ old-location: tapi2\linegetagentgrouplist.htm
 old-project: tapi
 ms.assetid: b3767efd-8f7a-4a03-81f6-97e11994900d
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_linegetagentgrouplist, lineGetAgentGroupList, lineGetAgentGroupList function [TAPI 2.2], lineGetAgentGroupListA, lineGetAgentGroupListW, tapi/lineGetAgentGroupList, tapi/lineGetAgentGroupListA, tapi/lineGetAgentGroupListW, tapi2.linegetagentgrouplist"
 ms.prod: windows
 ms.technology: windows-sdk

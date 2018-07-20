@@ -7,7 +7,7 @@ old-location: mf\mfunwrapmediatype.htm
 old-project: medfound
 ms.assetid: 2cb6a5ae-315f-4de2-8817-da9d41db14b8
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 2cb6a5ae-315f-4de2-8817-da9d41db14b8, MFUnwrapMediaType, MFUnwrapMediaType function [Media Foundation], mf.mfunwrapmediatype, mfapi/MFUnwrapMediaType
 ms.prod: windows
 ms.technology: windows-sdk

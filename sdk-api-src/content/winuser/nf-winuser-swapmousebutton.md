@@ -97,7 +97,7 @@ Button swapping is provided as a convenience to people who use the mouse with th
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
 
 
 
@@ -105,7 +105,7 @@ Button swapping is provided as a convenience to people who use the mouse with th
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646263(v=VS.85).aspx">SetDoubleClickTime</a>
+<a href="https://msdn.microsoft.com/02d5d9ba-99eb-4853-94a1-7c203b5d3620">SetDoubleClickTime</a>
  
 
  

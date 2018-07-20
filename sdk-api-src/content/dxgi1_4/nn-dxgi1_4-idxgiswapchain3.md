@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain3.htm
 old-project: direct3ddxgi
 ms.assetid: 3B91A70D-C635-46DF-871D-F1796D4E50E7
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: IDXGISwapChain3, IDXGISwapChain3 interface [DXGI], IDXGISwapChain3 interface [DXGI],described, direct3ddxgi.idxgiswapchain3, dxgi1_4/IDXGISwapChain3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,8 +93,7 @@ Gets the index of the swap chain's current back buffer.
 <a href="https://msdn.microsoft.com/80983033-A348-4B25-B17E-AE7EE189EA1A">ResizeBuffers1</a>
 </td>
 <td align="left" width="63%">
-
-          Changes the swap chain's back buffer size, format, and number of buffers, where the swap chain was created using a D3D12 command queue as an input device.
+Changes the swap chain's back buffer size, format, and number of buffers, where the swap chain was created using a D3D12 command queue as an input device.
           This should be called when the application window is resized.
         
 

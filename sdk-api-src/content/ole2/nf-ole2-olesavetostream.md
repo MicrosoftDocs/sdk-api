@@ -7,7 +7,7 @@ old-location: com\olesavetostream.htm
 old-project: com
 ms.assetid: 0085c6a8-1a94-4379-9937-c8d792d130da
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: OleSaveToStream, OleSaveToStream function [COM], _ole_OleSaveToStream, com.olesavetostream, ole/OleSaveToStream
 ms.prod: windows
 ms.technology: windows-sdk

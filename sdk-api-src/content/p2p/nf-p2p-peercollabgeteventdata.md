@@ -4,10 +4,10 @@ title: PeerCollabGetEventData function
 author: windows-sdk-content
 description: Obtains the data associated with a peer collaboration event raised on the peer.
 old-location: p2p\peercollabgeteventdata.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: ee410a47-91a6-48ed-8c05-128a141a5c98
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: PeerCollabGetEventData, PeerCollabGetEventData function [Peer Networking], p2p.peercollabgeteventdata, p2p/PeerCollabGetEventData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ The <b>PeerCollabGetEventData</b> function obtains the data associated with a pe
 
 ### -param hPeerEvent [in]
 
-The peer collaboration network event handle obtained by a call to <a href="https://msdn.microsoft.com/library/Aa371077(v=VS.85).aspx">PeerCollabRegisterEvent</a>.
+The peer collaboration network event handle obtained by a call to <a href="p2p.peercollabregisterevent">PeerCollabRegisterEvent</a>.
 
 
 ### -param ppEventData [out]

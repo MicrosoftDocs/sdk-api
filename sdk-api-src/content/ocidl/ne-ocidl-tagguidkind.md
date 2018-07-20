@@ -7,7 +7,7 @@ old-location: com\guidkind.htm
 old-project: com
 ms.assetid: b9ddd96b-0418-4e31-aaf9-ca060c405fa7
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: GUIDKIND, GUIDKIND enumeration [COM], GUIDKIND_DEFAULT_SOURCE_DISP_IID, _ctrl_GUIDKIND, com.guidkind, ocidl/GUIDKIND, ocidl/GUIDKIND_DEFAULT_SOURCE_DISP_IID, tagGUIDKIND
 ms.prod: windows
 ms.technology: windows-sdk

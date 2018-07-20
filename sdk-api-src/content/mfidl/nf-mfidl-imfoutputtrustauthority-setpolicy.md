@@ -7,7 +7,7 @@ old-location: mf\imfoutputtrustauthority_setpolicy.htm
 old-project: medfound
 ms.assetid: f5102ef3-472f-4a38-889c-e1c25dd46765
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFOutputTrustAuthority interface [Media Foundation],SetPolicy method, IMFOutputTrustAuthority.SetPolicy, IMFOutputTrustAuthority::SetPolicy, SetPolicy, SetPolicy method [Media Foundation], SetPolicy method [Media Foundation],IMFOutputTrustAuthority interface, f5102ef3-472f-4a38-889c-e1c25dd46765, mf.imfoutputtrustauthority_setpolicy, mfidl/IMFOutputTrustAuthority::SetPolicy
 ms.prod: windows
 ms.technology: windows-sdk

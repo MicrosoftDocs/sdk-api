@@ -7,7 +7,7 @@ old-location: winprog\fnalloc.htm
 old-project: devnotes
 ms.assetid: 3104267d-3efd-40da-a8b6-af2acf379ff8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: FNALLOC, FNALLOC macro [Windows API], fdi/FNALLOC, winprog.fnalloc
 ms.prod: windows
 ms.technology: windows-sdk

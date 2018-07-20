@@ -7,7 +7,7 @@ old-location: winprog\ndrcomplexstructbuffersize.htm
 old-project: devnotes
 ms.assetid: 8280c0fc-5015-4b7b-a271-64377441694c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: NdrComplexStructBufferSize, NdrComplexStructBufferSize function [Windows API], rpcndr/NdrComplexStructBufferSize, winprog.ndrcomplexstructbuffersize
 ms.prod: windows
 ms.technology: windows-sdk

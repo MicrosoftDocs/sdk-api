@@ -7,7 +7,7 @@ old-location: multimedia\capsetaudioformat.htm
 old-project: Multimedia
 ms.assetid: 9f14b76c-3b12-4dfb-937d-e8a173e077bd
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: "_win32_capSetAudioFormat, capSetAudioFormat, capSetAudioFormat macro [Windows Multimedia], multimedia.capsetaudioformat, vfw/capSetAudioFormat"
 ms.prod: windows
 ms.technology: windows-sdk

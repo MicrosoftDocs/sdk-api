@@ -7,7 +7,7 @@ old-location: tapi3\phone_privilege.htm
 old-project: tapi
 ms.assetid: f1c162c6-058d-4cf2-a493-17b7752ffeeb
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: PHONE_PRIVILEGE, PHONE_PRIVILEGE enumeration [TAPI 2.2], PP_MONITOR, PP_OWNER, _tapi3_phone_privilege, tapi3.phone_privilege, tapi3if/PHONE_PRIVILEGE, tapi3if/PP_MONITOR, tapi3if/PP_OWNER
 ms.prod: windows
 ms.technology: windows-sdk

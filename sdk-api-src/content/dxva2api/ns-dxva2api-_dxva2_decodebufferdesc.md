@@ -7,7 +7,7 @@ old-location: mf\dxva2_decodebufferdesc.htm
 old-project: medfound
 ms.assetid: eb17005a-035d-41cb-8f54-97b5d0f84736
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: DXVA2_BitStreamDateBufferType, DXVA2_DeblockingControlBufferType, DXVA2_DecodeBufferDesc, DXVA2_DecodeBufferDesc structure [Media Foundation], DXVA2_FilmGrainBuffer, DXVA2_InverseQuantizationMatrixBufferType, DXVA2_MacroBlockControlBufferType, DXVA2_MotionVectorBuffer, DXVA2_PictureParametersBufferType, DXVA2_ResidualDifferenceBufferType, DXVA2_SliceControlBufferType, _DXVA2_DecodeBufferDesc, dxva2api/DXVA2_DecodeBufferDesc, eb17005a-035d-41cb-8f54-97b5d0f84736, mf.dxva2_decodebufferdesc
 ms.prod: windows
 ms.technology: windows-sdk

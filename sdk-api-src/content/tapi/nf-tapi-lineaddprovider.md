@@ -7,7 +7,7 @@ old-location: tapi2\lineaddprovider.htm
 old-project: tapi
 ms.assetid: d6c96dba-bbfb-4b4a-a4f5-a55fd4446f3b
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_lineaddprovider, lineAddProvider, lineAddProvider function [TAPI 2.2], lineAddProviderA, lineAddProviderW, tapi/lineAddProvider, tapi/lineAddProviderA, tapi/lineAddProviderW, tapi2.lineaddprovider"
 ms.prod: windows
 ms.technology: windows-sdk

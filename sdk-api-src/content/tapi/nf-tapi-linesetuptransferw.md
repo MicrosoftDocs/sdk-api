@@ -7,7 +7,7 @@ old-location: tapi2\linesetuptransfer.htm
 old-project: tapi
 ms.assetid: 40f0ce8f-9809-43ec-af48-d8e410553048
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_linesetuptransfer, lineSetupTransfer, lineSetupTransfer function [TAPI 2.2], lineSetupTransferA, lineSetupTransferW, tapi/lineSetupTransfer, tapi/lineSetupTransferA, tapi/lineSetupTransferW, tapi2.linesetuptransfer"
 ms.prod: windows
 ms.technology: windows-sdk

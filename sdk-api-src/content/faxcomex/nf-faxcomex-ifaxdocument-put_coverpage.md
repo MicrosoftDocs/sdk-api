@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdocument_coverpage_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9fol.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: CoverPage property [Fax Service], CoverPage property [Fax Service],FaxDocument object, FaxDocument object [Fax Service],CoverPage property, FaxDocument.CoverPage, IFaxDocument.put_CoverPage, IFaxDocument::put_CoverPage, _mfax_faxdocument.coverpage, fax._mfax_faxdocument_coverpage, fax._mfax_faxdocument_coverpage_vb, put_CoverPage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,15 +77,15 @@ To specify a local or personal cover page file, you must set the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/ms685958(v=VS.85).aspx">FaxDocument</a>
+<a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms685960(v=VS.85).aspx">IFaxDocument</a>
+<a href="https://msdn.microsoft.com/926f01ab-66a7-49c8-95cf-7f80925401be">IFaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/347943cc-a417-469e-a936-8da5601e752f">Visual Basic Example</a>
  
 
  

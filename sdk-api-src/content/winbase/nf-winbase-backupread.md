@@ -62,7 +62,7 @@ req.product: Windows Address Book 5.0
 The <b>BackupRead</b> function can be used to back up 
     a file or directory, including the security information. The function reads data associated with a 
     specified file or directory into a buffer, which can then be written to the backup medium using the 
-    <a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a> function.
+    <a href="base.writefile">WriteFile</a> function.
 
 
 ## -parameters

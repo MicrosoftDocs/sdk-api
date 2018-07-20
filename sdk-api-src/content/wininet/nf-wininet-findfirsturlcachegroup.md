@@ -7,7 +7,7 @@ old-location: wininet\findfirsturlcachegroup.htm
 old-project: wininet
 ms.assetid: a333cbc6-a880-4b1c-be0d-abb083909638
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/18/2018
 ms.keywords: FindFirstUrlCacheGroup, FindFirstUrlCacheGroup function [WinINet], _inet_findfirsturlcachegroup_function, wininet.findfirsturlcachegroup, wininet/FindFirstUrlCacheGroup
 ms.prod: windows
 ms.technology: windows-sdk

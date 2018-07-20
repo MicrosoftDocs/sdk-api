@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Simulates the selection of the <b>Apply</b> button, indicating that one or more pages have changed and the changes need to be validated and recorded. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774574(v=VS.85).aspx">PSM_APPLY</a> message explicitly.
+Simulates the selection of the <b>Apply</b> button, indicating that one or more pages have changed and the changes need to be validated and recorded. You can use this macro or send the <a href="https://msdn.microsoft.com/2948fb66-ad77-4552-88b6-455418515e4c">PSM_APPLY</a> message explicitly.
 
 
 ## -parameters
@@ -79,9 +79,9 @@ Handle to the property sheet.
 
 
 
-The property sheet sends the <a href="https://msdn.microsoft.com/library/Bb774559(v=VS.85).aspx">PSN_KILLACTIVE</a> notification code to the current page. If the current page returns <b>FALSE</b>, the property sheet sends the <a href="https://msdn.microsoft.com/library/Bb774552(v=VS.85).aspx">PSN_APPLY</a> notification code to all active pages.
+The property sheet sends the <a href="https://msdn.microsoft.com/470cd6ff-73ad-451a-a861-4d3324a8a8db">PSN_KILLACTIVE</a> notification code to the current page. If the current page returns <b>FALSE</b>, the property sheet sends the <a href="https://msdn.microsoft.com/18da6bdb-9409-49b6-8116-580fedd99a02">PSN_APPLY</a> notification code to all active pages.
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 

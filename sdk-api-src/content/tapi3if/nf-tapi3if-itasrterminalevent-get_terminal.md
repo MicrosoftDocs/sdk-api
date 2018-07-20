@@ -7,7 +7,7 @@ old-location: tapi3\itasrterminalevent_get_terminal.htm
 old-project: tapi
 ms.assetid: 1cde7b16-f825-4591-9947-6ad03cbd14c6
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: ITASRTerminalEvent interface [TAPI 2.2],get_Terminal method, ITASRTerminalEvent.get_Terminal, ITASRTerminalEvent::get_Terminal, _tapi3_itasrterminalevent_get_terminal, get_Terminal, get_Terminal method [TAPI 2.2], get_Terminal method [TAPI 2.2],ITASRTerminalEvent interface, tapi3.itasrterminalevent_get_terminal, tapi3if/ITASRTerminalEvent::get_Terminal
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_addapplicationmessage.htm
 old-project: direct3ddxgi
 ms.assetid: 30245BF0-C0AF-4780-A55F-D55A331427FA
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: AddApplicationMessage, AddApplicationMessage method [DXGI], AddApplicationMessage method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],AddApplicationMessage method, IDXGIInfoQueue.AddApplicationMessage, IDXGIInfoQueue::AddApplicationMessage, direct3ddxgi.idxgiinfoqueue_addapplicationmessage, dxgidebug/IDXGIInfoQueue::AddApplicationMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ The message string.
 
 
 
-Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+Returns S_OK if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
 
 
 

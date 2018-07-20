@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_Save_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\save.htm
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/18/2018
 ms.keywords: FaxConfiguration object [Fax Service],Save method, FaxConfiguration.Save, IFaxConfiguration.Save, IFaxConfiguration::Save, Save, Save method [Fax Service], Save method [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_Save, fax._mfax_FaxConfiguration_Save_vb
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa358913(v=VS.85).aspx">FaxConfiguration</a>
+<a href="https://msdn.microsoft.com/381e098b-d130-4e15-9aba-cb0048cc5b98">FaxConfiguration</a>
  
 
  

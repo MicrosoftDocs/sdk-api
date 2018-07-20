@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     in subsequent versions.]
 
 Returns the maximum component length of a 
-    <a href="https://msdn.microsoft.com/library/ms682866(v=VS.85).aspx">storage class resource</a> 
+    <a href="s_gly.htm">storage class resource</a> 
     partition.
 
 This property is read-only.

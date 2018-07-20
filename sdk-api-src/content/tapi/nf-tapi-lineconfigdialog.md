@@ -7,7 +7,7 @@ old-location: tapi2\lineconfigdialog.htm
 old-project: tapi
 ms.assetid: 52f23647-e9f5-48a3-95f4-1ac52898cb5a
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_lineconfigdialog, lineConfigDialog, lineConfigDialog function [TAPI 2.2], lineConfigDialogA, lineConfigDialogW, tapi/lineConfigDialog, tapi/lineConfigDialogA, tapi/lineConfigDialogW, tapi2.lineconfigdialog"
 ms.prod: windows
 ms.technology: windows-sdk

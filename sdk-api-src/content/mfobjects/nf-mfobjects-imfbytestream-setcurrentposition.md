@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_setcurrentposition.htm
 old-project: medfound
 ms.assetid: 20518fed-4083-413b-b9b1-e54c4c5630d4
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 20518fed-4083-413b-b9b1-e54c4c5630d4, IMFByteStream interface [Media Foundation],SetCurrentPosition method, IMFByteStream.SetCurrentPosition, IMFByteStream::SetCurrentPosition, SetCurrentPosition, SetCurrentPosition method [Media Foundation], SetCurrentPosition method [Media Foundation],IMFByteStream interface, mf.imfbytestream_setcurrentposition, mfobjects/IMFByteStream::SetCurrentPosition
 ms.prod: windows
 ms.technology: windows-sdk

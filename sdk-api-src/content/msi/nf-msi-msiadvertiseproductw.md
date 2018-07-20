@@ -4,10 +4,10 @@ title: MsiAdvertiseProductW function
 author: windows-sdk-content
 description: The MsiAdvertiseProduct function generates an advertise script or advertises a product to the computer.
 old-location: setup\msiadvertiseproduct.htm
-old-project: Msi
+old-project: msi
 ms.assetid: b28736cb-7097-4f6e-a158-a525a32d9b58
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: ADVERTISEFLAGS_MACHINEASSIGN, ADVERTISEFLAGS_USERASSIGN, MsiAdvertiseProduct, MsiAdvertiseProduct function, MsiAdvertiseProductA, MsiAdvertiseProductW, _msi_msiadvertiseproduct, msi/MsiAdvertiseProduct, msi/MsiAdvertiseProductA, msi/MsiAdvertiseProductW, setup.msiadvertiseproduct
 ms.prod: windows
 ms.technology: windows-sdk

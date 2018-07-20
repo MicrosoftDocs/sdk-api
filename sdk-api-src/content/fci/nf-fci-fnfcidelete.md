@@ -7,7 +7,7 @@ old-location: winprog\fnfcidelete.htm
 old-project: devnotes
 ms.assetid: 5c85ad86-2794-4f7c-8c10-18fea3519b11
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: FNFCIDELETE, FNFCIDELETE macro [Windows API], fci/FNFCIDELETE, winprog.fnfcidelete
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tapi2\lineclose.htm
 old-project: tapi
 ms.assetid: ec47a351-c693-4e71-bf23-c31110ca90a1
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_lineclose, lineClose, lineClose function [TAPI 2.2], tapi/lineClose, tapi2.lineclose"
 ms.prod: windows
 ms.technology: windows-sdk

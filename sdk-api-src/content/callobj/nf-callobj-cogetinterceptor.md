@@ -7,7 +7,7 @@ old-location: com\cogetinterceptor.htm
 old-project: com
 ms.assetid: d1ffee1d-f907-4091-b993-cf13d8ce616c
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: CoGetInterceptor, CoGetInterceptor function [COM], _com_CoGetInterceptor, callobj/CoGetInterceptor, com.cogetinterceptor
 ms.prod: windows
 ms.technology: windows-sdk

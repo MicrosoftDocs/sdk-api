@@ -7,7 +7,7 @@ old-location: winrt\imetadataassemblyimport_getfileprops.htm
 old-project: WinRT
 ms.assetid: 28c884de-3b3c-48cd-9f6f-b2d56005de13
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/18/2018
 ms.keywords: GetFileProps, GetFileProps method [Windows Runtime], GetFileProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetFileProps method, IMetaDataAssemblyImport.GetFileProps, IMetaDataAssemblyImport::GetFileProps, rometadataapi/IMetaDataAssemblyImport::GetFileProps, winrt.imetadataassemblyimport_getfileprops
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: multimedia\avimakecompressedstream.htm
 old-project: Multimedia
 ms.assetid: 63279d7e-0e64-4708-a29c-60d5fdf75cb2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: AVIMakeCompressedStream, AVIMakeCompressedStream function [Windows Multimedia], _win32_AVIMakeCompressedStream, multimedia.avimakecompressedstream, vfw/AVIMakeCompressedStream
 ms.prod: windows
 ms.technology: windows-sdk

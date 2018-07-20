@@ -7,7 +7,7 @@ old-location: intl\getstringtypeex.htm
 old-project: Intl
 ms.assetid: e0cd051f-6627-457a-9a83-d71de607f67f
 ms.author: windowssdkdev
-ms.date: 06/28/2018
+ms.date: 07/18/2018
 ms.keywords: GetStringTypeEx, GetStringTypeEx function [Internationalization for Windows Applications], GetStringTypeExA, GetStringTypeExW, _win32_GetStringTypeEx, _win32_GetStringTypeEx_cpp, intl.getstringtypeex, winnls/GetStringTypeEx, winnls/GetStringTypeExA, winnls/GetStringTypeExW, winui._win32_GetStringTypeEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ req.product: Windows Address Book 5.0
 
 
 Retrieves character type information for the characters in the specified source string. For each character in the string, the function sets one or more bits in the corresponding 16-bit element of the output array. Each bit identifies a given character type, for example, letter, digit, or neither.
-<div class="alert"><b>Caution</b>  Using the <b>GetStringTypeEx</b> function incorrectly can compromise the security of your application. To avoid a buffer overflow, the application must set the output buffer size correctly. For more security information, see <a href="https://msdn.microsoft.com/library/ms632584(v=VS.85).aspx">Security Considerations: Windows User Interface</a>.</div><div> </div><div class="alert"><b>Note</b>  Unlike its close relatives <a href="https://msdn.microsoft.com/8fe771ae-80f6-473d-b2d8-8331c58ffb5a">GetStringTypeA</a> and <a href="https://msdn.microsoft.com/092541ea-e568-4aa3-b99e-ce0bac9c120b">GetStringTypeW</a>, this function exhibits appropriate ANSI or Unicode behavior through the use of the #define UNICODE switch. This is the recommended function for character type retrieval.</div><div> </div>
+<div class="alert"><b>Caution</b>  Using the <b>GetStringTypeEx</b> function incorrectly can compromise the security of your application. To avoid a buffer overflow, the application must set the output buffer size correctly. For more security information, see <a href="sec_winui">Security Considerations: Windows User Interface</a>.</div><div> </div><div class="alert"><b>Note</b>  Unlike its close relatives <a href="https://msdn.microsoft.com/8fe771ae-80f6-473d-b2d8-8331c58ffb5a">GetStringTypeA</a> and <a href="https://msdn.microsoft.com/092541ea-e568-4aa3-b99e-ce0bac9c120b">GetStringTypeW</a>, this function exhibits appropriate ANSI or Unicode behavior through the use of the #define UNICODE switch. This is the recommended function for character type retrieval.</div><div> </div>
 
 ## -parameters
 

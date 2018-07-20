@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-The <b>ITextStoreACP::InsertEmbeddedAtSelection</b> method inserts an <a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a> object at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an <b>IDataObject</b> object into the document.
+The <b>ITextStoreACP::InsertEmbeddedAtSelection</b> method inserts an <a href="_ole_idataobject">IDataObject</a> object at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an <b>IDataObject</b> object into the document.
 
 
 ## -parameters
@@ -228,7 +228,7 @@ The values of the <i>pacpStart</i> and <i>pacpEnd</i> parameters depend upon how
 
 
 
-<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

@@ -4,10 +4,10 @@ title: MsiDatabaseApplyTransformA function
 author: windows-sdk-content
 description: The MsiDatabaseApplyTransform function applies a transform to a database.
 old-location: setup\msidatabaseapplytransform.htm
-old-project: Msi
+old-project: msi
 ms.assetid: a0222465-f778-43c1-8007-22df6a01f8bd
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: MSITRANSFORM_ERROR_ADDEXISTINGROW, MSITRANSFORM_ERROR_ADDEXISTINGTABLE, MSITRANSFORM_ERROR_CHANGECODEPAGE, MSITRANSFORM_ERROR_DELMISSINGROW, MSITRANSFORM_ERROR_DELMISSINGTABLE, MSITRANSFORM_ERROR_UPDATEMISSINGROW, MSITRANSFORM_ERROR_VIEWTRANSFORM, MsiDatabaseApplyTransform, MsiDatabaseApplyTransform function, MsiDatabaseApplyTransformA, MsiDatabaseApplyTransformW, _msi_msidatabaseapplytransform, msiquery/MsiDatabaseApplyTransform, msiquery/MsiDatabaseApplyTransformA, msiquery/MsiDatabaseApplyTransformW, setup.msidatabaseapplytransform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -200,7 +200,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa368250(v=VS.85).aspx">Database Management Functions</a>
+<a href="database_functions.htm">Database Management Functions</a>
 
 
 

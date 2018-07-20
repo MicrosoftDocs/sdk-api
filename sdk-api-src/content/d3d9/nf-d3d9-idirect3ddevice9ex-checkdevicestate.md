@@ -77,9 +77,9 @@ The destination window handle to check for occlusion. When this parameter is <b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Possible return values include: D3D_OK, D3DERR_DEVICELOST, D3DERR_DEVICEHUNG, D3DERR_DEVICEREMOVED, or D3DERR_OUTOFVIDEOMEMORY (see <a href="https://msdn.microsoft.com/library/Bb172554(v=VS.85).aspx">D3DERR</a>), or S_PRESENT_MODE_CHANGED, or S_PRESENT_OCCLUDED (see <a href="https://msdn.microsoft.com/library/Bb219624(v=VS.85).aspx">S_PRESENT</a>).
+Possible return values include: D3D_OK, D3DERR_DEVICELOST, D3DERR_DEVICEHUNG, D3DERR_DEVICEREMOVED, or D3DERR_OUTOFVIDEOMEMORY (see <a href="https://msdn.microsoft.com/4a9daa05-74f3-4173-b63d-53767feea7e2">D3DERR</a>), or S_PRESENT_MODE_CHANGED, or S_PRESENT_OCCLUDED (see <a href="https://msdn.microsoft.com/391b56a1-d0aa-4d35-8dba-cf7de66513d8">S_PRESENT</a>).
 
 
 
@@ -88,11 +88,11 @@ Possible return values include: D3D_OK, D3DERR_DEVICELOST, D3DERR_DEVICEHUNG, D3
 
 
 
-This method replaces <a href="https://msdn.microsoft.com/library/Bb174472(v=VS.85).aspx">IDirect3DDevice9::TestCooperativeLevel</a>, which always returns S_OK in Direct3D 9Ex applications.
+This method replaces <a href="https://msdn.microsoft.com/da2ac8dd-0df8-4661-995f-9c3e6ccb62d2">IDirect3DDevice9::TestCooperativeLevel</a>, which always returns S_OK in Direct3D 9Ex applications.
 
-We recommend not to call <b>CheckDeviceState</b> every frame. Instead, call <b>CheckDeviceState</b> only if the <a href="https://msdn.microsoft.com/library/Bb174343(v=VS.85).aspx">IDirect3DDevice9Ex::PresentEx</a> method returns a failure code.
+We recommend not to call <b>CheckDeviceState</b> every frame. Instead, call <b>CheckDeviceState</b> only if the <a href="https://msdn.microsoft.com/845c72ff-669d-44bf-8065-cff456418e8c">IDirect3DDevice9Ex::PresentEx</a> method returns a failure code.
 
-See <a href="https://msdn.microsoft.com/library/Bb219800(v=VS.85).aspx">Lost Device Behavior Changes</a> for more information about lost, hung, and removed devices.
+See <a href="https://msdn.microsoft.com/3cc0b08c-e126-4f1b-b5d1-0d6c1ebeb0c5">Lost Device Behavior Changes</a> for more information about lost, hung, and removed devices.
 
 
 
@@ -102,7 +102,7 @@ See <a href="https://msdn.microsoft.com/library/Bb219800(v=VS.85).aspx">Lost Dev
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174337(v=VS.85).aspx">IDirect3DDevice9Ex</a>
+<a href="https://msdn.microsoft.com/b2132ee3-5888-4cfe-a7c7-1134c0418a37">IDirect3DDevice9Ex</a>
  
 
  

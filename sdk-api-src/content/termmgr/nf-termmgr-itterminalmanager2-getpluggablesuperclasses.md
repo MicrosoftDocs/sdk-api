@@ -7,7 +7,7 @@ old-location: tapi3\itterminalmanager2_getpluggablesuperclasses.htm
 old-project: tapi
 ms.assetid: a3db1979-0ba5-416a-bb14-0ac4b61eb425
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: GetPluggableSuperclasses, GetPluggableSuperclasses method [TAPI 2.2], GetPluggableSuperclasses method [TAPI 2.2],ITTerminalManager2 interface, ITTerminalManager2 interface [TAPI 2.2],GetPluggableSuperclasses method, ITTerminalManager2.GetPluggableSuperclasses, ITTerminalManager2::GetPluggableSuperclasses, _tapi3_itterminalmanager2_getpluggablesuperclasses, tapi3.itterminalmanager2_getpluggablesuperclasses, termmgr/ITTerminalManager2::GetPluggableSuperclasses
 ms.prod: windows
 ms.technology: windows-sdk

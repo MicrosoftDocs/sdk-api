@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves the maximum width of the "today" string in a month calendar control. This includes the label text and the date text. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760962(v=VS.85).aspx">MCM_GETMAXTODAYWIDTH</a> message explicitly. 
+Retrieves the maximum width of the "today" string in a month calendar control. This includes the label text and the date text. You can use this macro or send the <a href="https://msdn.microsoft.com/bb55c24e-ba04-4a57-97b0-ff04d77e1d43">MCM_GETMAXTODAYWIDTH</a> message explicitly. 
 
 
 ## -parameters

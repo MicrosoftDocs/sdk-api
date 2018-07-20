@@ -7,7 +7,7 @@ old-location: mf\imf2dbuffer_unlock2d.htm
 old-project: medfound
 ms.assetid: 535452a3-0b38-467e-b556-80a069e4c0a5
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: 535452a3-0b38-467e-b556-80a069e4c0a5, IMF2DBuffer interface [Media Foundation],Unlock2D method, IMF2DBuffer.Unlock2D, IMF2DBuffer::Unlock2D, Unlock2D, Unlock2D method [Media Foundation], Unlock2D method [Media Foundation],IMF2DBuffer interface, mf.imf2dbuffer_unlock2d, mfobjects/IMF2DBuffer::Unlock2D
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\imfsampleoutputstream.htm
 old-project: medfound
 ms.assetid: BA293BB7-9191-4123-96DB-FF6386ABB3AE
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/18/2018
 ms.keywords: IMFSampleOutputStream, IMFSampleOutputStream interface [Media Foundation], IMFSampleOutputStream interface [Media Foundation],described, mf.imfsampleoutputstream, mfobjects/IMFSampleOutputStream
 ms.prod: windows
 ms.technology: windows-sdk

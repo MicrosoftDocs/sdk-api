@@ -7,7 +7,7 @@ old-location: tapi2\phonenegotiateapiversion.htm
 old-project: tapi
 ms.assetid: 50c2c15c-459f-451b-9b79-9118acc81c8c
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_phonenegotiateapiversion, phoneNegotiateAPIVersion, phoneNegotiateAPIVersion function [TAPI 2.2], tapi/phoneNegotiateAPIVersion, tapi2.phonenegotiateapiversion"
 ms.prod: windows
 ms.technology: windows-sdk

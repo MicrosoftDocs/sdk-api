@@ -7,7 +7,7 @@ old-location: perf\pdhopenqueryh.htm
 old-project: perfctrs
 ms.assetid: 068c55da-d7e0-4111-91c8-a2bbd676f99d
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/18/2018
 ms.keywords: PdhOpenQueryH, PdhOpenQueryH function [Perf], _win32_pdhopenqueryh, base.pdhopenqueryh, pdh/PdhOpenQueryH, perf.pdhopenqueryh
 ms.prod: windows
 ms.technology: windows-sdk

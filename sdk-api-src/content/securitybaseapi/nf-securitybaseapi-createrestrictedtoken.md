@@ -4,10 +4,10 @@ title: CreateRestrictedToken function
 author: windows-sdk-content
 description: Creates a new access token that is a restricted version of an existing access token. The restricted token can have disabled security identifiers (SIDs), deleted privileges, and a list of restricting SIDs.
 old-location: security\createrestrictedtoken.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: e087f360-5d1d-4846-b3d6-214a426e5222
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: CreateRestrictedToken, CreateRestrictedToken function [Security], DISABLE_MAX_PRIVILEGE, LUA_TOKEN, SANDBOX_INERT, WRITE_RESTRICTED, _win32_createrestrictedtoken, security.createrestrictedtoken, securitybaseapi/CreateRestrictedToken
 ms.prod: windows
 ms.technology: windows-sdk

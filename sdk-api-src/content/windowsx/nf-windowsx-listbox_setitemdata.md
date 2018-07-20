@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the application-defined value associated with the specified list box item. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761346(v=VS.85).aspx">LB_SETITEMDATA</a> message explicitly.
+Sets the application-defined value associated with the specified list box item. You can use this macro or send the <a href="https://msdn.microsoft.com/df974fa2-114a-43ef-b0ac-0451c31d95cd">LB_SETITEMDATA</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ The item data to set.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb761346(v=VS.85).aspx">LB_SETITEMDATA</a>.
+For more information, see <a href="https://msdn.microsoft.com/df974fa2-114a-43ef-b0ac-0451c31d95cd">LB_SETITEMDATA</a>.
 	
 
 

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput_getframestatistics.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_getframestatistics.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: 2986a9cc-4b09-8622-8d30-17f06409df3a, GetFrameStatistics, GetFrameStatistics method [DXGI], GetFrameStatistics method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetFrameStatistics method, IDXGIOutput.GetFrameStatistics, IDXGIOutput::GetFrameStatistics, direct3ddxgi.idxgioutput_getframestatistics, dxgi/IDXGIOutput::GetFrameStatistics
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,18 +62,18 @@ Gets statistics about recently rendered frames.
 
 ### -param pStats [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173060(v=VS.85).aspx">DXGI_FRAME_STATISTICS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/183232b9-9a08-4356-afcd-92078450ced8">DXGI_FRAME_STATISTICS</a>*</b>
 
-A pointer to frame statistics (see <a href="https://msdn.microsoft.com/library/Bb173060(v=VS.85).aspx">DXGI_FRAME_STATISTICS</a>).
+A pointer to frame statistics (see <a href="https://msdn.microsoft.com/183232b9-9a08-4356-afcd-92078450ced8">DXGI_FRAME_STATISTICS</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-If this function succeeds, it returns S_OK. Otherwise, it might return <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a>.
+If this function succeeds, it returns S_OK. Otherwise, it might return <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_INVALID_CALL</a>.
 
 
 
@@ -82,7 +82,7 @@ If this function succeeds, it returns S_OK. Otherwise, it might return <a href="
 
 
 
-This API is similar to <a href="https://msdn.microsoft.com/library/Bb174573(v=VS.85).aspx">IDXGISwapChain::GetFrameStatistics</a>.
+This API is similar to <a href="https://msdn.microsoft.com/c02b9e3b-5d59-4ed2-b373-2097c0e46f70">IDXGISwapChain::GetFrameStatistics</a>.
 
 
 <div class="alert"><b>Note</b>  Calling this method is only supported while in full-screen mode.</div>
@@ -97,7 +97,7 @@ This API is similar to <a href="https://msdn.microsoft.com/library/Bb174573(v=VS
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174546(v=VS.85).aspx">IDXGIOutput</a>
+<a href="https://msdn.microsoft.com/c641995e-a4d9-4bfb-bdc0-7ffbe77c3599">IDXGIOutput</a>
  
 
  

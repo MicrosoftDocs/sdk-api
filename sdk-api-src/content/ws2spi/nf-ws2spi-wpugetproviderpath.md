@@ -7,7 +7,7 @@ old-location: winsock\wpugetproviderpath_2.htm
 old-project: winsock
 ms.assetid: fb59e69a-bee4-4807-9ef2-cbcc8c0d367f
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/18/2018
 ms.keywords: WPUGetProviderPath, WPUGetProviderPath function [Winsock], _win32_wpugetproviderpath_2, winsock.wpugetproviderpath_2, ws2spi/WPUGetProviderPath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ Pointer to the error code.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -111,7 +111,7 @@ The <i>lpProviderId</i> parameter does not specify a valid provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">

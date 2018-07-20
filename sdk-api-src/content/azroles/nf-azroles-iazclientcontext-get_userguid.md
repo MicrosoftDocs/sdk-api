@@ -4,10 +4,10 @@ title: IAzClientContext::get_UserGuid
 author: windows-sdk-content
 description: Retrieves the name of the current client in GUID format.
 old-location: security\iazclientcontext_userguid.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: fd60d1d0-67b9-457f-a01e-6ea470d9db6a
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: AzClientContext object [Security],UserGuid property, IAzClientContext interface [Security],UserGuid property, IAzClientContext.UserGuid, IAzClientContext.get_UserGuid, IAzClientContext::UserGuid, IAzClientContext::get_UserGuid, UserGuid property [Security], UserGuid property [Security],AzClientContext object, UserGuid property [Security],IAzClientContext interface, azroles/IAzClientContext::UserGuid, azroles/IAzClientContext::get_UserGuid, get_UserGuid, security.iazclientcontext_userguid
 ms.prod: windows
 ms.technology: windows-sdk

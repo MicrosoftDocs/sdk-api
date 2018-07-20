@@ -7,7 +7,7 @@ old-location: tspi\tspi_linesetcalltreatment.htm
 old-project: tapi
 ms.assetid: 04c93e35-df6b-409e-9bc4-06c36819963a
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: TSPI_lineSetCallTreatment, TSPI_lineSetCallTreatment function [TAPI 2.2], _tspi_tspi_linesetcalltreatment, tspi.tspi_linesetcalltreatment, tspi/TSPI_lineSetCallTreatment
 ms.prod: windows
 ms.technology: windows-sdk

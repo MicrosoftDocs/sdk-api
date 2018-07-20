@@ -68,7 +68,7 @@ A <a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHCO
 
 ### -field vt
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms221127(v=VS.85).aspx">VARTYPE</a></b>
+Type: <b><a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a></b>
 
 The native <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT</a> type of the column's data.
 
@@ -78,7 +78,7 @@ The native <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335
 Type: <b>DWORD</b>
 
 
-<a href="https://msdn.microsoft.com/library/Bb774743(v=VS.85).aspx">List view format</a>. This member is normally set to LVCFMT_LEFT.
+<a href="https://msdn.microsoft.com/6ffa287d-0284-43c9-80ff-b9c90a83e855">List view format</a>. This member is normally set to LVCFMT_LEFT.
 
 
 ### -field cChars

@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information specific to an <a href="https://msdn.microsoft.com/library/Bb760264(v=VS.85).aspx">NM_CUSTOMDRAW</a> notification code sent by a tooltip control. 
+Contains information specific to an <a href="https://msdn.microsoft.com/82939901-baed-452b-85bf-3c0c01e1f5df">NM_CUSTOMDRAW</a> notification code sent by a tooltip control. 
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ Contains information specific to an <a href="https://msdn.microsoft.com/library/
 
 ### -field nmcd
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775483(v=VS.85).aspx">NMCUSTOMDRAW</a></b>
+Type: <b><a href="https://msdn.microsoft.com/c8a990a9-fb39-46e7-a5d2-fc817ff46e1b">NMCUSTOMDRAW</a></b>
 
 
             Contains general custom draw information. 

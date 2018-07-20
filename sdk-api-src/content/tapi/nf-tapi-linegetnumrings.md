@@ -7,7 +7,7 @@ old-location: tapi2\linegetnumrings.htm
 old-project: tapi
 ms.assetid: 7aee6396-6045-4e7b-9df9-3729159ea4b2
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "_tapi2_linegetnumrings, lineGetNumRings, lineGetNumRings function [TAPI 2.2], tapi/lineGetNumRings, tapi2.linegetnumrings"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: peer_address_tag
 author: windows-sdk-content
 description: The PEER_ADDRESS structure specifies the information about the IP address.
 old-location: p2p\peer_address.htm
-old-project: P2PSdk
+old-project: p2psdk
 ms.assetid: 09476d3b-ec65-40a2-90ee-a20be230deca
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: "*PPEER_ADDRESS, PEER_ADDRESS, PEER_ADDRESS structure [Peer Networking], PPEER_ADDRESS, PPEER_ADDRESS structure pointer [Peer Networking], p2p.peer_address, p2p/PPEER_ADDRESS, p2p/peer_address_tag, peer_address_tag"
 ms.prod: windows
 ms.technology: windows-sdk

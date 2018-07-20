@@ -4,10 +4,10 @@ title: IUpdateSearcher::get_ServerSelection
 author: windows-sdk-content
 description: Gets and sets a ServerSelection value that indicates the server to search for updates.
 old-location: wua\iupdatesearcherserverselection.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: b514545a-d983-491b-9a28-540bd5c4c128
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/18/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],ServerSelection property, IUpdateSearcher.ServerSelection, IUpdateSearcher.get_ServerSelection, IUpdateSearcher::ServerSelection, IUpdateSearcher::get_ServerSelection, IUpdateSearcher::put_ServerSelection, ServerSelection property [Windows Update Agent], ServerSelection property [Windows Update Agent],IUpdateSearcher interface, get_ServerSelection, wua.iupdatesearcherserverselection, wuapi/IUpdateSearcher::ServerSelection, wuapi/IUpdateSearcher::get_ServerSelection, wuapi/IUpdateSearcher::put_ServerSelection
 ms.prod: windows
 ms.technology: windows-sdk

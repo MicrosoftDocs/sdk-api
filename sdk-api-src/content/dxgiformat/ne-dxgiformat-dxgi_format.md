@@ -7,7 +7,7 @@ old-location: direct3ddxgi\DXGI_FORMAT.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_format.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: DXGI_FORMAT, DXGI_FORMAT enumeration [DXGI], DXGI_FORMAT_420_OPAQUE, DXGI_FORMAT_A8P8, DXGI_FORMAT_A8_UNORM, DXGI_FORMAT_AI44, DXGI_FORMAT_AYUV, DXGI_FORMAT_B4G4R4A4_UNORM, DXGI_FORMAT_B5G5R5A1_UNORM, DXGI_FORMAT_B5G6R5_UNORM, DXGI_FORMAT_B8G8R8A8_TYPELESS, DXGI_FORMAT_B8G8R8A8_UNORM, DXGI_FORMAT_B8G8R8A8_UNORM_SRGB, DXGI_FORMAT_B8G8R8X8_TYPELESS, DXGI_FORMAT_B8G8R8X8_UNORM, DXGI_FORMAT_B8G8R8X8_UNORM_SRGB, DXGI_FORMAT_BC1_TYPELESS, DXGI_FORMAT_BC1_UNORM, DXGI_FORMAT_BC1_UNORM_SRGB, DXGI_FORMAT_BC2_TYPELESS, DXGI_FORMAT_BC2_UNORM, DXGI_FORMAT_BC2_UNORM_SRGB, DXGI_FORMAT_BC3_TYPELESS, DXGI_FORMAT_BC3_UNORM, DXGI_FORMAT_BC3_UNORM_SRGB, DXGI_FORMAT_BC4_SNORM, DXGI_FORMAT_BC4_TYPELESS, DXGI_FORMAT_BC4_UNORM, DXGI_FORMAT_BC5_SNORM, DXGI_FORMAT_BC5_TYPELESS, DXGI_FORMAT_BC5_UNORM, DXGI_FORMAT_BC6H_SF16, DXGI_FORMAT_BC6H_TYPELESS, DXGI_FORMAT_BC6H_UF16, DXGI_FORMAT_BC7_TYPELESS, DXGI_FORMAT_BC7_UNORM, DXGI_FORMAT_BC7_UNORM_SRGB, DXGI_FORMAT_D16_UNORM, DXGI_FORMAT_D24_UNORM_S8_UINT, DXGI_FORMAT_D32_FLOAT, DXGI_FORMAT_D32_FLOAT_S8X24_UINT, DXGI_FORMAT_FORCE_UINT, DXGI_FORMAT_G8R8_G8B8_UNORM, DXGI_FORMAT_IA44, DXGI_FORMAT_NV11, DXGI_FORMAT_NV12, DXGI_FORMAT_P010, DXGI_FORMAT_P016, DXGI_FORMAT_P208, DXGI_FORMAT_P8, DXGI_FORMAT_R10G10B10A2_TYPELESS, DXGI_FORMAT_R10G10B10A2_UINT, DXGI_FORMAT_R10G10B10A2_UNORM, DXGI_FORMAT_R10G10B10_XR_BIAS_A2_UNORM, DXGI_FORMAT_R11G11B10_FLOAT, DXGI_FORMAT_R16G16B16A16_FLOAT, DXGI_FORMAT_R16G16B16A16_SINT, DXGI_FORMAT_R16G16B16A16_SNORM, DXGI_FORMAT_R16G16B16A16_TYPELESS, DXGI_FORMAT_R16G16B16A16_UINT, DXGI_FORMAT_R16G16B16A16_UNORM, DXGI_FORMAT_R16G16_FLOAT, DXGI_FORMAT_R16G16_SINT, DXGI_FORMAT_R16G16_SNORM, DXGI_FORMAT_R16G16_TYPELESS, DXGI_FORMAT_R16G16_UINT, DXGI_FORMAT_R16G16_UNORM, DXGI_FORMAT_R16_FLOAT, DXGI_FORMAT_R16_SINT, DXGI_FORMAT_R16_SNORM, DXGI_FORMAT_R16_TYPELESS, DXGI_FORMAT_R16_UINT, DXGI_FORMAT_R16_UNORM, DXGI_FORMAT_R1_UNORM, DXGI_FORMAT_R24G8_TYPELESS, DXGI_FORMAT_R24_UNORM_X8_TYPELESS, DXGI_FORMAT_R32G32B32A32_FLOAT, DXGI_FORMAT_R32G32B32A32_SINT, DXGI_FORMAT_R32G32B32A32_TYPELESS, DXGI_FORMAT_R32G32B32A32_UINT, DXGI_FORMAT_R32G32B32_FLOAT, DXGI_FORMAT_R32G32B32_SINT, DXGI_FORMAT_R32G32B32_TYPELESS, DXGI_FORMAT_R32G32B32_UINT, DXGI_FORMAT_R32G32_FLOAT, DXGI_FORMAT_R32G32_SINT, DXGI_FORMAT_R32G32_TYPELESS, DXGI_FORMAT_R32G32_UINT, DXGI_FORMAT_R32G8X24_TYPELESS, DXGI_FORMAT_R32_FLOAT, DXGI_FORMAT_R32_FLOAT_X8X24_TYPELESS, DXGI_FORMAT_R32_SINT, DXGI_FORMAT_R32_TYPELESS, DXGI_FORMAT_R32_UINT, DXGI_FORMAT_R8G8B8A8_SINT, DXGI_FORMAT_R8G8B8A8_SNORM, DXGI_FORMAT_R8G8B8A8_TYPELESS, DXGI_FORMAT_R8G8B8A8_UINT, DXGI_FORMAT_R8G8B8A8_UNORM, DXGI_FORMAT_R8G8B8A8_UNORM_SRGB, DXGI_FORMAT_R8G8_B8G8_UNORM, DXGI_FORMAT_R8G8_SINT, DXGI_FORMAT_R8G8_SNORM, DXGI_FORMAT_R8G8_TYPELESS, DXGI_FORMAT_R8G8_UINT, DXGI_FORMAT_R8G8_UNORM, DXGI_FORMAT_R8_SINT, DXGI_FORMAT_R8_SNORM, DXGI_FORMAT_R8_TYPELESS, DXGI_FORMAT_R8_UINT, DXGI_FORMAT_R8_UNORM, DXGI_FORMAT_R9G9B9E5_SHAREDEXP, DXGI_FORMAT_UNKNOWN, DXGI_FORMAT_V208, DXGI_FORMAT_V408, DXGI_FORMAT_X24_TYPELESS_G8_UINT, DXGI_FORMAT_X32_TYPELESS_G8X24_UINT, DXGI_FORMAT_Y210, DXGI_FORMAT_Y216, DXGI_FORMAT_Y410, DXGI_FORMAT_Y416, DXGI_FORMAT_YUY2, direct3ddxgi.DXGI_FORMAT, dxgiformat/DXGI_FORMAT, dxgiformat/DXGI_FORMAT_420_OPAQUE, dxgiformat/DXGI_FORMAT_A8P8, dxgiformat/DXGI_FORMAT_A8_UNORM, dxgiformat/DXGI_FORMAT_AI44, dxgiformat/DXGI_FORMAT_AYUV, dxgiformat/DXGI_FORMAT_B4G4R4A4_UNORM, dxgiformat/DXGI_FORMAT_B5G5R5A1_UNORM, dxgiformat/DXGI_FORMAT_B5G6R5_UNORM, dxgiformat/DXGI_FORMAT_B8G8R8A8_TYPELESS, dxgiformat/DXGI_FORMAT_B8G8R8A8_UNORM, dxgiformat/DXGI_FORMAT_B8G8R8A8_UNORM_SRGB, dxgiformat/DXGI_FORMAT_B8G8R8X8_TYPELESS, dxgiformat/DXGI_FORMAT_B8G8R8X8_UNORM, dxgiformat/DXGI_FORMAT_B8G8R8X8_UNORM_SRGB, dxgiformat/DXGI_FORMAT_BC1_TYPELESS, dxgiformat/DXGI_FORMAT_BC1_UNORM, dxgiformat/DXGI_FORMAT_BC1_UNORM_SRGB, dxgiformat/DXGI_FORMAT_BC2_TYPELESS, dxgiformat/DXGI_FORMAT_BC2_UNORM, dxgiformat/DXGI_FORMAT_BC2_UNORM_SRGB, dxgiformat/DXGI_FORMAT_BC3_TYPELESS, dxgiformat/DXGI_FORMAT_BC3_UNORM, dxgiformat/DXGI_FORMAT_BC3_UNORM_SRGB, dxgiformat/DXGI_FORMAT_BC4_SNORM, dxgiformat/DXGI_FORMAT_BC4_TYPELESS, dxgiformat/DXGI_FORMAT_BC4_UNORM, dxgiformat/DXGI_FORMAT_BC5_SNORM, dxgiformat/DXGI_FORMAT_BC5_TYPELESS, dxgiformat/DXGI_FORMAT_BC5_UNORM, dxgiformat/DXGI_FORMAT_BC6H_SF16, dxgiformat/DXGI_FORMAT_BC6H_TYPELESS, dxgiformat/DXGI_FORMAT_BC6H_UF16, dxgiformat/DXGI_FORMAT_BC7_TYPELESS, dxgiformat/DXGI_FORMAT_BC7_UNORM, dxgiformat/DXGI_FORMAT_BC7_UNORM_SRGB, dxgiformat/DXGI_FORMAT_D16_UNORM, dxgiformat/DXGI_FORMAT_D24_UNORM_S8_UINT, dxgiformat/DXGI_FORMAT_D32_FLOAT, dxgiformat/DXGI_FORMAT_D32_FLOAT_S8X24_UINT, dxgiformat/DXGI_FORMAT_FORCE_UINT, dxgiformat/DXGI_FORMAT_G8R8_G8B8_UNORM, dxgiformat/DXGI_FORMAT_IA44, dxgiformat/DXGI_FORMAT_NV11, dxgiformat/DXGI_FORMAT_NV12, dxgiformat/DXGI_FORMAT_P010, dxgiformat/DXGI_FORMAT_P016, dxgiformat/DXGI_FORMAT_P208, dxgiformat/DXGI_FORMAT_P8, dxgiformat/DXGI_FORMAT_R10G10B10A2_TYPELESS, dxgiformat/DXGI_FORMAT_R10G10B10A2_UINT, dxgiformat/DXGI_FORMAT_R10G10B10A2_UNORM, dxgiformat/DXGI_FORMAT_R10G10B10_XR_BIAS_A2_UNORM, dxgiformat/DXGI_FORMAT_R11G11B10_FLOAT, dxgiformat/DXGI_FORMAT_R16G16B16A16_FLOAT, dxgiformat/DXGI_FORMAT_R16G16B16A16_SINT, dxgiformat/DXGI_FORMAT_R16G16B16A16_SNORM, dxgiformat/DXGI_FORMAT_R16G16B16A16_TYPELESS, dxgiformat/DXGI_FORMAT_R16G16B16A16_UINT, dxgiformat/DXGI_FORMAT_R16G16B16A16_UNORM, dxgiformat/DXGI_FORMAT_R16G16_FLOAT, dxgiformat/DXGI_FORMAT_R16G16_SINT, dxgiformat/DXGI_FORMAT_R16G16_SNORM, dxgiformat/DXGI_FORMAT_R16G16_TYPELESS, dxgiformat/DXGI_FORMAT_R16G16_UINT, dxgiformat/DXGI_FORMAT_R16G16_UNORM, dxgiformat/DXGI_FORMAT_R16_FLOAT, dxgiformat/DXGI_FORMAT_R16_SINT, dxgiformat/DXGI_FORMAT_R16_SNORM, dxgiformat/DXGI_FORMAT_R16_TYPELESS, dxgiformat/DXGI_FORMAT_R16_UINT, dxgiformat/DXGI_FORMAT_R16_UNORM, dxgiformat/DXGI_FORMAT_R1_UNORM, dxgiformat/DXGI_FORMAT_R24G8_TYPELESS, dxgiformat/DXGI_FORMAT_R24_UNORM_X8_TYPELESS, dxgiformat/DXGI_FORMAT_R32G32B32A32_FLOAT, dxgiformat/DXGI_FORMAT_R32G32B32A32_SINT, dxgiformat/DXGI_FORMAT_R32G32B32A32_TYPELESS, dxgiformat/DXGI_FORMAT_R32G32B32A32_UINT, dxgiformat/DXGI_FORMAT_R32G32B32_FLOAT, dxgiformat/DXGI_FORMAT_R32G32B32_SINT, dxgiformat/DXGI_FORMAT_R32G32B32_TYPELESS, dxgiformat/DXGI_FORMAT_R32G32B32_UINT, dxgiformat/DXGI_FORMAT_R32G32_FLOAT, dxgiformat/DXGI_FORMAT_R32G32_SINT, dxgiformat/DXGI_FORMAT_R32G32_TYPELESS, dxgiformat/DXGI_FORMAT_R32G32_UINT, dxgiformat/DXGI_FORMAT_R32G8X24_TYPELESS, dxgiformat/DXGI_FORMAT_R32_FLOAT, dxgiformat/DXGI_FORMAT_R32_FLOAT_X8X24_TYPELESS, dxgiformat/DXGI_FORMAT_R32_SINT, dxgiformat/DXGI_FORMAT_R32_TYPELESS, dxgiformat/DXGI_FORMAT_R32_UINT, dxgiformat/DXGI_FORMAT_R8G8B8A8_SINT, dxgiformat/DXGI_FORMAT_R8G8B8A8_SNORM, dxgiformat/DXGI_FORMAT_R8G8B8A8_TYPELESS, dxgiformat/DXGI_FORMAT_R8G8B8A8_UINT, dxgiformat/DXGI_FORMAT_R8G8B8A8_UNORM, dxgiformat/DXGI_FORMAT_R8G8B8A8_UNORM_SRGB, dxgiformat/DXGI_FORMAT_R8G8_B8G8_UNORM, dxgiformat/DXGI_FORMAT_R8G8_SINT, dxgiformat/DXGI_FORMAT_R8G8_SNORM, dxgiformat/DXGI_FORMAT_R8G8_TYPELESS, dxgiformat/DXGI_FORMAT_R8G8_UINT, dxgiformat/DXGI_FORMAT_R8G8_UNORM, dxgiformat/DXGI_FORMAT_R8_SINT, dxgiformat/DXGI_FORMAT_R8_SNORM, dxgiformat/DXGI_FORMAT_R8_TYPELESS, dxgiformat/DXGI_FORMAT_R8_UINT, dxgiformat/DXGI_FORMAT_R8_UNORM, dxgiformat/DXGI_FORMAT_R9G9B9E5_SHAREDEXP, dxgiformat/DXGI_FORMAT_UNKNOWN, dxgiformat/DXGI_FORMAT_V208, dxgiformat/DXGI_FORMAT_V408, dxgiformat/DXGI_FORMAT_X24_TYPELESS_G8_UINT, dxgiformat/DXGI_FORMAT_X32_TYPELESS_G8X24_UINT, dxgiformat/DXGI_FORMAT_Y210, dxgiformat/DXGI_FORMAT_Y216, dxgiformat/DXGI_FORMAT_Y410, dxgiformat/DXGI_FORMAT_Y416, dxgiformat/DXGI_FORMAT_YUY2, fcd793d7-e748-1aa0-99ac-c6dfd53fd516
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-      Resource data formats, including fully-typed and typeless formats.
+Resource data formats, including fully-typed and typeless formats.
       A list of modifiers at the bottom of the page more fully describes each format type.
 
 
@@ -196,7 +195,7 @@ A four-component, 32-bit unsigned-integer format that supports 10 bits for each 
 Three partial-precision floating-point numbers encoded into a single 32-bit value (a variant of s10e5, which is sign bit, 10-bit mantissa, and 5-bit biased (15) exponent). 
         There are no sign bits, and there is a 5-bit biased (15) exponent for each channel, 6-bit mantissa  for R and G, and a 5-bit mantissa for B, as shown in the following illustration.<sup>5,7</sup>
 
-<img alt="Illustration of the bits in the three partial-precision floating-point numbers" src="./images/R11G11B10_FLOAT.png"/>
+<img alt="Illustration of the bits in the three partial-precision floating-point numbers" src="images/R11G11B10_FLOAT.png"/>
 
 
 ### -field DXGI_FORMAT_R8G8B8A8_TYPELESS
@@ -404,7 +403,7 @@ A single-component, 1-bit unsigned-normalized integer format that supports 1 bit
 Three partial-precision floating-point numbers encoded into a single 32-bit value all sharing the same 5-bit exponent (variant of s10e5, which is sign bit, 10-bit mantissa, and 5-bit biased (15) exponent). 
         There is no sign bit, and there is a shared 5-bit biased (15) exponent and a 9-bit mantissa for each channel, as shown in the following illustration. <sup>2,6,7</sup>.
 
-<img alt="Illustration of the bits in the three partial-precision floating-point numbers" src="./images/RGBE.png"/>
+<img alt="Illustration of the bits in the three partial-precision floating-point numbers" src="images/RGBE.png"/>
 
 
 ### -field DXGI_FORMAT_R8G8_B8G8_UNORM
@@ -800,14 +799,12 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 <h3><a id="Byte_Order__LSB_MSB_"></a><a id="byte_order__lsb_msb_"></a><a id="BYTE_ORDER__LSB_MSB_"></a>Byte Order (LSB/MSB)</h3>
-
-            Most formats have byte-aligned components, and the components are in C-array order (the least address comes first).
+Most formats have byte-aligned components, and the components are in C-array order (the least address comes first).
             For those formats that don't have power-of-2-aligned components, the first named component is in the least-significant bits.
           
 
 <h3><a id="Portable_Coding_for_Endian-Independence"></a><a id="portable_coding_for_endian-independence"></a><a id="PORTABLE_CODING_FOR_ENDIAN-INDEPENDENCE"></a>Portable Coding for Endian-Independence</h3>
-
-            Rather than adjusting for whether a system uses big-endian or little-endian byte ordering, you should write portable code, as follows.
+Rather than adjusting for whether a system uses big-endian or little-endian byte ordering, you should write portable code, as follows.
           
 
 <div class="code"><span codelanguage=""><table>
@@ -835,29 +832,24 @@ pR10G10B10A2 = (0x3ff) | (0x1 &lt;&lt; 30);  // R=0x3ff, and A=0x1
 A few formats have additional restrictions and implied behavior:
 
 <ol>
-<li>
-              A resource declared with the DXGI_FORMAT_R32G32B32 family of formats cannot be used simultaneously for vertex and texture data.
+<li>A resource declared with the DXGI_FORMAT_R32G32B32 family of formats cannot be used simultaneously for vertex and texture data.
               That is, you may not create a buffer resource with the DXGI_FORMAT_R32G32B32 family of formats that uses any of the following bind flags:
               D3D10_BIND_VERTEX_BUFFER, D3D10_BIND_INDEX_BUFFER, D3D10_BIND_CONSTANT_BUFFER, or D3D10_BIND_STREAM_OUTPUT
-              (see <a href="https://msdn.microsoft.com/library/Bb204891(v=VS.85).aspx">D3D10_BIND_FLAG</a>).
+              (see <a href="https://msdn.microsoft.com/3bbefc3b-ad05-499b-bbec-f370bf08a7f4">D3D10_BIND_FLAG</a>).
             </li>
-<li>
-              DXGI_FORMAT_R1_UNORM is designed specifically for text filtering, and must be used with a format-specific, configurable 8x8 filter mode.
+<li>DXGI_FORMAT_R1_UNORM is designed specifically for text filtering, and must be used with a format-specific, configurable 8x8 filter mode.
               When calling an HLSL sampling function using this format, the address offset parameter must be set to (0,0).
             </li>
-<li>
-              A resource using a sub-sampled format (such as DXGI_FORMAT_R8G8_B8G8) must have a size that is a multiple of 2 in the x dimension.
+<li>A resource using a sub-sampled format (such as DXGI_FORMAT_R8G8_B8G8) must have a size that is a multiple of 2 in the x dimension.
             </li>
-<li>
-              Format is not available in Direct3D 10 and Direct3D 10.1
+<li>Format is not available in Direct3D 10 and Direct3D 10.1
             </li>
 <li>These float formats have an implied 1 added to their mantissa. If the exponent is not 0, 1.0 is added to the mantissa before applying the exponent. </li>
 <li>These float formats do not have an implied 1 added to their mantissa. </li>
 <li>Denorm support: the 9, 10, 11 and 16 bit float formats support denorms.</li>
 <li>No denorm support: the 32 and 64 bit float formats flush denorms to zero. </li>
 </ol>
-
-              The following topics provide lists of the formats that particular hardware <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature levels</a> support:
+The following topics provide lists of the formats that particular hardware <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature levels</a> support:
             
 
 <ul>
@@ -883,8 +875,7 @@ A few formats have additional restrictions and implied behavior:
 <a href="https://msdn.microsoft.com/529ced9a-d4fa-4b41-932b-343638cd5c7c">Hardware Support for Direct3D 10 Formats</a>
 </li>
 </ul>
-
-            For a list of the <b>DirectXMath</b> types that map to <b>DXGI_FORMAT</b> values, see <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">DirectXMath Library Internals</a>.
+For a list of the <b>DirectXMath</b> types that map to <b>DXGI_FORMAT</b> values, see <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">DirectXMath Library Internals</a>.
           
 
 <h3><a id="Format_Modifiers"></a><a id="format_modifiers"></a><a id="FORMAT_MODIFIERS"></a>Format Modifiers</h3>
@@ -897,8 +888,7 @@ Each enumeration value contains a format modifier which describes the data type.
 </tr>
 <tr>
 <td>_FLOAT</td>
-<td>
-                A floating-point value; 32-bit floating-point formats use IEEE 754 single-precision (s23e8 format): sign bit, 8-bit biased (127) exponent,
+<td>A floating-point value; 32-bit floating-point formats use IEEE 754 single-precision (s23e8 format): sign bit, 8-bit biased (127) exponent,
                 and 23-bit mantissa. 16-bit floating-point formats use half-precision (s10e5 format): sign bit, 5-bit biased (15) exponent, and 10-bit mantissa.
               </td>
 </tr>
@@ -912,20 +902,15 @@ Each enumeration value contains a format modifier which describes the data type.
 </tr>
 <tr>
 <td>_SRGB</td>
-<td>
-                Standard RGB data, which roughly displays colors in a linear ramp of luminosity levels such that an average observer, under average viewing conditions, can view them on an average display.
+<td>Standard RGB data, which roughly displays colors in a linear ramp of luminosity levels such that an average observer, under average viewing conditions, can view them on an average display.
 
-                All 0's maps to 0.0f, and all 1's maps to 1.0f. The sequence of unsigned integer encodings between all 0's and all 1's represent a nonlinear progression in the floating-point interpretation of the numbers between 0.0f to 1.0f. For more detail, see the SRGB color standard, IEC 61996-2-1, at IEC (International Electrotechnical Commission).
-
-
-                Conversion to or from sRGB space is automatically done by D3DX10 or D3DX9 texture-load functions. If a format with _SRGB has an A channel, the A channel is stored in Gamma 1.0f data; the R, G, and B channels in the format are stored in Gamma 2.2f data.</td>
+                All 0's maps to 0.0f, and all 1's maps to 1.0f. The sequence of unsigned integer encodings between all 0's and all 1's represent a nonlinear progression in the floating-point interpretation of the numbers between 0.0f to 1.0f. For more detail, see the SRGB color standard, IEC 61996-2-1, at IEC (International Electrotechnical Commission).</p>Conversion to or from sRGB space is automatically done by D3DX10 or D3DX9 texture-load functions. If a format with _SRGB has an A channel, the A channel is stored in Gamma 1.0f data; the R, G, and B channels in the format are stored in Gamma 2.2f data.</td>
 </tr>
 <tr>
 <td>_TYPELESS</td>
 <td>Typeless data, with a defined number of bits. Typeless formats are designed for creating typeless resources; that is, a resource whose size is known, but whose data type is not yet fully defined. When a typeless resource is bound to a shader, the application or shader must resolve the format type (which must match the number of bits per component in the typeless format).
 
-
-  A typeless format contains one or more subformats; each subformat resolves the data type. 
+A typeless format contains one or more subformats; each subformat resolves the data type. 
   For example, in the R32G32B32 group, which defines types for three-component 96-bit data, there is one typeless format and three fully typed subformats.
 
 
@@ -962,8 +947,7 @@ DXGI_FORMAT_R32G32B32_SINT,
  
 
 <h3><a id="New_Resource_Formats"></a><a id="new_resource_formats"></a><a id="NEW_RESOURCE_FORMATS"></a>New Resource Formats</h3>
-
-            Direct3D 10 offers new data compression formats for compressing high-dynamic range (HDR) lighting data, normal maps and heightfields to a fraction of their original size. These compression types include:
+Direct3D 10 offers new data compression formats for compressing high-dynamic range (HDR) lighting data, normal maps and heightfields to a fraction of their original size. These compression types include:
           
 
 <ul>

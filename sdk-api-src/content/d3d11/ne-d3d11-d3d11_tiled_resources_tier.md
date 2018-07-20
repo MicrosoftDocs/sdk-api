@@ -69,11 +69,11 @@ Tiled resources are not supported.
             Tier_1 tiled resources are supported.
 
 
-              The device supports calls to <a href="https://msdn.microsoft.com/69950ce7-9c8e-4f00-860d-e118e2bbc81a">CreateTexture2D</a> and so on with the <a href="https://msdn.microsoft.com/library/Ff476203(v=VS.85).aspx">D3D11_RESOURCE_MISC_TILED</a> flag.
+              The device supports calls to <a href="https://msdn.microsoft.com/69950ce7-9c8e-4f00-860d-e118e2bbc81a">CreateTexture2D</a> and so on with the <a href="d3d11_resource_misc_flag.htm">D3D11_RESOURCE_MISC_TILED</a> flag.
             
 
 
-              The device supports calls to <a href="https://msdn.microsoft.com/5aec93c5-12a1-4b4e-813e-ee1e85adbf14">CreateBuffer</a> with the <a href="https://msdn.microsoft.com/library/Ff476203(v=VS.85).aspx">D3D11_RESOURCE_MISC_TILE_POOL</a> flag.
+              The device supports calls to <a href="https://msdn.microsoft.com/5aec93c5-12a1-4b4e-813e-ee1e85adbf14">CreateBuffer</a> with the <a href="d3d11_resource_misc_flag.htm">D3D11_RESOURCE_MISC_TILE_POOL</a> flag.
             
 
 

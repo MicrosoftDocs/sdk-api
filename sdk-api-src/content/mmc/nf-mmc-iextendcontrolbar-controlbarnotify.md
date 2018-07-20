@@ -4,10 +4,10 @@ title: IExtendControlbar::ControlbarNotify
 author: windows-sdk-content
 description: The IExtendControlbar::ControlbarNotify method specifies the notification sent to the snap-in from the console as a result of user action.
 old-location: mmc\iextendcontrolbar_controlbarnotify.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 124656df-5d12-4de1-9a71-ba080ef36611
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: ControlbarNotify, ControlbarNotify method [MMC], ControlbarNotify method [MMC],IExtendControlbar interface, IExtendControlbar interface [MMC],ControlbarNotify method, IExtendControlbar.ControlbarNotify, IExtendControlbar::ControlbarNotify, MMCN_BTN_CLICK, MMCN_DESELECT_ALL, MMCN_MENU_BTNCLICK, MMCN_SELECT, _slate_iextendcontrolbar_controlbarnotify, mmc.iextendcontrolbar_controlbarnotify, mmc/IExtendControlbar::ControlbarNotify
 ms.prod: windows
 ms.technology: windows-sdk

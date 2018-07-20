@@ -7,7 +7,7 @@ old-location: tapi2\linereqmakecall_str.htm
 old-project: tapi
 ms.assetid: de4e51af-ea1c-41aa-b5a9-9fa628e18d9d
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "*LPLINEREQMAKECALL, LINEREQMAKECALL, LINEREQMAKECALL structure [TAPI 2.2], LPLINEREQMAKECALL, LPLINEREQMAKECALL structure pointer [TAPI 2.2], _tapi2_linereqmakecall_str, linereqmakecall_tag, tapi/LINEREQMAKECALL, tapi/LPLINEREQMAKECALL, tapi2.linereqmakecall_str"
 ms.prod: windows
 ms.technology: windows-sdk

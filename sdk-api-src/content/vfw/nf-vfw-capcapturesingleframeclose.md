@@ -7,7 +7,7 @@ old-location: multimedia\capcapturesingleframeclose.htm
 old-project: Multimedia
 ms.assetid: d0259662-6bcf-4c04-924c-e568db335fd2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: "_win32_capCaptureSingleFrameClose, capCaptureSingleFrameClose, capCaptureSingleFrameClose macro [Windows Multimedia], multimedia.capcapturesingleframeclose, vfw/capCaptureSingleFrameClose"
 ms.prod: windows
 ms.technology: windows-sdk

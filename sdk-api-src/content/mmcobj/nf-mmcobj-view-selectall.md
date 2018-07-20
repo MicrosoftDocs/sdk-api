@@ -4,10 +4,10 @@ title: View::SelectAll
 author: windows-sdk-content
 description: The SelectAll method selects all of the items in the result pane.
 old-location: mmc\view_selectall.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 2770b73f-5271-47e6-9461-32885ee1e6ee
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.keywords: SelectAll, SelectAll method [MMC], SelectAll method [MMC],View interface, SelectAll method [MMC],View object, View interface [MMC],SelectAll method, View object [MMC],SelectAll method, View.SelectAll, View::SelectAll, _slate_view.selectall_method, mmc.view_selectall
 ms.prod: windows
 ms.technology: windows-sdk

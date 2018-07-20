@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput2_supportsoverlays.htm
 old-project: direct3ddxgi
 ms.assetid: BC9CD287-CD89-4D0C-ADE3-EAA60D5FEAAD
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/18/2018
 ms.keywords: IDXGIOutput2 interface [DXGI],SupportsOverlays method, IDXGIOutput2.SupportsOverlays, IDXGIOutput2::SupportsOverlays, SupportsOverlays, SupportsOverlays method [DXGI], SupportsOverlays method [DXGI],IDXGIOutput2 interface, direct3ddxgi.idxgioutput2_supportsoverlays, dxgi1_3/IDXGIOutput2::SupportsOverlays
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-Queries an adapter output for multiplane overlay support. If this API returns ‘TRUE’, multiple swap chain composition takes place in a performant manner using overlay hardware. If this API returns false, apps should avoid using foreground swap chains (that is, avoid using swap chains created with the <a href="https://msdn.microsoft.com/library/Bb173076(v=VS.85).aspx">DXGI_SWAP_CHAIN_FLAG_FOREGROUND_LAYER</a> flag).
+Queries an adapter output for multiplane overlay support. If this API returns ‘TRUE’, multiple swap chain composition takes place in a performant manner using overlay hardware. If this API returns false, apps should avoid using foreground swap chains (that is, avoid using swap chains created with the <a href="https://msdn.microsoft.com/c0030570-89ba-4586-a358-8c3b8c393a90">DXGI_SWAP_CHAIN_FLAG_FOREGROUND_LAYER</a> flag).
 
 
 ## -parameters

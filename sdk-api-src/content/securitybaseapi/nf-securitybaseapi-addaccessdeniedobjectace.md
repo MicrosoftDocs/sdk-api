@@ -4,10 +4,10 @@ title: AddAccessDeniedObjectAce function
 author: windows-sdk-content
 description: Adds an access-denied access control entry (ACE) to the end of a discretionary access control list (DACL). The new ACE can deny access to an object, or to a property set or property on an object.
 old-location: security\addaccessdeniedobjectace.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 1427c908-92b6-46b2-9189-a2fd93c470b1
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/18/2018
 ms.keywords: AddAccessDeniedObjectAce, AddAccessDeniedObjectAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, _win32_addaccessdeniedobjectace, security.addaccessdeniedobjectace, securitybaseapi/AddAccessDeniedObjectAce
 ms.prod: windows
 ms.technology: windows-sdk

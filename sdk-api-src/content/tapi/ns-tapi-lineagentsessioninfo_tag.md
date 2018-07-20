@@ -7,7 +7,7 @@ old-location: tapi2\lineagentsessioninfo_str.htm
 old-project: tapi
 ms.assetid: 567e21b4-c79c-4a54-b9f4-6c8c949bf4ee
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/18/2018
 ms.keywords: "*LPLINEAGENTSESSIONINFO, LINEAGENTSESSIONINFO, LINEAGENTSESSIONINFO structure [TAPI 2.2], LPLINEAGENTSESSIONINFO, LPLINEAGENTSESSIONINFO structure pointer [TAPI 2.2], _tapi2_lineagentsessioninfo_str, lineagentsessioninfo_tag, tapi/LINEAGENTSESSIONINFO, tapi/LPLINEAGENTSESSIONINFO, tapi2.lineagentsessioninfo_str"
 ms.prod: windows
 ms.technology: windows-sdk
