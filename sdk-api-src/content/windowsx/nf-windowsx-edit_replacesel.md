@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Replaces the selected text in an edit control or a rich edit control with the specified text. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761633(v=VS.85).aspx">EM_REPLACESEL</a> message explicitly.
+Replaces the selected text in an edit control or a rich edit control with the specified text. You can use this macro or send the <a href="https://msdn.microsoft.com/525e6f5a-f52f-4bab-bc76-caa484729897">EM_REPLACESEL</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A pointer to a null-terminated string containing the replacement text.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb761633(v=VS.85).aspx">EM_REPLACESEL</a>.
+For more information, see <a href="https://msdn.microsoft.com/525e6f5a-f52f-4bab-bc76-caa484729897">EM_REPLACESEL</a>.
 
 
 

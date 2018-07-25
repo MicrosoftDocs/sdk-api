@@ -61,9 +61,9 @@ The <b>Graphics::SetSmoothingMode</b> method sets the rendering quality of the <
 
 ### -param smoothingMode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms534173(v=VS.85).aspx">SmoothingMode</a></b>
+Type: <b><a href="https://msdn.microsoft.com/42b3fc67-2cdb-4e14-88a0-aac914e8336a">SmoothingMode</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/library/ms534173(v=VS.85).aspx">SmoothingMode</a> enumeration that specifies whether smoothing (antialiasing) is applied to lines and curves. 
+Element of the <a href="https://msdn.microsoft.com/42b3fc67-2cdb-4e14-88a0-aac914e8336a">SmoothingMode</a> enumeration that specifies whether smoothing (antialiasing) is applied to lines and curves. 
 
 
 ## -returns
@@ -84,7 +84,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-To get the rendering quality for text, use the <a href="https://msdn.microsoft.com/library/ms535728(v=VS.85).aspx">Graphics::GetTextRenderingHint</a> method. The higher the level of quality of the smoothing mode, the slower the performance.
+To get the rendering quality for text, use the <a href="https://msdn.microsoft.com/6525ac0e-bfd7-4471-bedb-df970b208222">Graphics::GetTextRenderingHint</a> method. The higher the level of quality of the smoothing mode, the slower the performance.
 
 
 #### Examples
@@ -122,7 +122,7 @@ The following example sets the smoothing mode to two different values and fills 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms536351(v=VS.85).aspx">Antialiasing with Lines and Curves</a>
+<a href="https://msdn.microsoft.com/7c4869c1-76ff-42d1-abf1-387121943b2a">Antialiasing with Lines and Curves</a>
 
 
 
@@ -130,11 +130,11 @@ The following example sets the smoothing mode to two different values and fills 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms535723(v=VS.85).aspx">Graphics::GetSmoothingMode</a>
+<a href="https://msdn.microsoft.com/85aacaa3-3a08-4879-8f49-7d082269cbe4">Graphics::GetSmoothingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms533830(v=VS.85).aspx">Loading and Displaying Bitmaps</a>
+<a href="https://msdn.microsoft.com/8c1a26d9-b640-4f38-8276-10c4464525f2">Loading and Displaying Bitmaps</a>
  
 
  

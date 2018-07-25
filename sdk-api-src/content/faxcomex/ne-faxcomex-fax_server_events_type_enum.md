@@ -118,13 +118,13 @@ The client requests notifications when there is an incoming call.
 
 
 
-The following table lists the <a href="https://msdn.microsoft.com/library/ms690086(v=VS.85).aspx">IFaxServerNotify</a> methods called by each member.
+The following table lists the <a href="https://msdn.microsoft.com/e8192f70-b0aa-4055-b67b-ff95991b66f2">IFaxServerNotify</a> methods called by each member.
 
 <table class="clsStd">
 <tr>
 <th>Name</th>
 <th>
-<a href="https://msdn.microsoft.com/library/ms690086(v=VS.85).aspx">IFaxServerNotify</a> method called</th>
+<a href="https://msdn.microsoft.com/e8192f70-b0aa-4055-b67b-ff95991b66f2">IFaxServerNotify</a> method called</th>
 </tr>
 <tr>
 <td>
@@ -269,13 +269,13 @@ fsetINCOMING_CALL
 </table>
  
 
-The following table lists the <a href="https://msdn.microsoft.com/library/Aa358971(v=VS.85).aspx">IFaxServerNotify2</a> methods called by each member.
+The following table lists the <a href="https://msdn.microsoft.com/ebd959d0-516c-46a0-95cc-78aa49d50cc1">IFaxServerNotify2</a> methods called by each member.
 
 <table class="clsStd">
 <tr>
 <th>Name</th>
 <th>
-<a href="https://msdn.microsoft.com/library/Aa358971(v=VS.85).aspx">IFaxServerNotify2</a> method called</th>
+<a href="https://msdn.microsoft.com/ebd959d0-516c-46a0-95cc-78aa49d50cc1">IFaxServerNotify2</a> method called</th>
 </tr>
 <tr>
 <td>
@@ -434,7 +434,7 @@ fsetINCOMING_CALL
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690086(v=VS.85).aspx">IFaxServerNotify</a>
+<a href="https://msdn.microsoft.com/e8192f70-b0aa-4055-b67b-ff95991b66f2">IFaxServerNotify</a>
  
 
  

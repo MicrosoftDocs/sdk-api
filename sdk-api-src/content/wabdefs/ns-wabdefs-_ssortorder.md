@@ -84,7 +84,7 @@ Table is sorted in ascending order.
 
 Sort operation creates a category that combines the property identified as the sort key column in the <b>ulPropTag</b> member with the sort key column specified in the previous <b>SSortOrder</b> structure.
 
-TABLE_SORT_COMBINE can only be used when the <b>SSortOrder</b> structure is being used as an entry in an <a href="https://msdn.microsoft.com/library/ms629455(v=VS.85).aspx">SSortOrderSet</a> structure to specify multiple sort orders for a categorized sort. TABLE_SORT_COMBINE cannot be used in the first <b>SSortOrder</b> structure in an <b>SSortOrderSet</b> structure.
+TABLE_SORT_COMBINE can only be used when the <b>SSortOrder</b> structure is being used as an entry in an <a href="https://msdn.microsoft.com/1e209a0a-69ac-4705-9c24-0e3f2d8c4896">SSortOrderSet</a> structure to specify multiple sort orders for a categorized sort. TABLE_SORT_COMBINE cannot be used in the first <b>SSortOrder</b> structure in an <b>SSortOrderSet</b> structure.
 
 
 

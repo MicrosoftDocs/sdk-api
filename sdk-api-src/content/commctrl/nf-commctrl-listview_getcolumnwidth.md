@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the width of a column in report or list view. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774915(v=VS.85).aspx">LVM_GETCOLUMNWIDTH</a> message explicitly. 
+Gets the width of a column in report or list view. You can use this macro or send the <a href="https://msdn.microsoft.com/06e8ec36-3bc5-4516-ac29-17c36fb6d962">LVM_GETCOLUMNWIDTH</a> message explicitly. 
 
 
 ## -parameters

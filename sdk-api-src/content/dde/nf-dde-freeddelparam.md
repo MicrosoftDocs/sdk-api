@@ -57,7 +57,7 @@ req.irql:
 
 
 Frees the memory specified by the 
-			<i>lParam</i> parameter of a posted Dynamic Data Exchange (DDE) message. An application receiving a posted DDE message should call this function after it has used the <a href="https://msdn.microsoft.com/library/ms649008(v=VS.85).aspx">UnpackDDElParam</a> function to unpack the 
+			<i>lParam</i> parameter of a posted Dynamic Data Exchange (DDE) message. An application receiving a posted DDE message should call this function after it has used the <a href="https://msdn.microsoft.com/a7da276f-0e29-4abc-86cf-ac1fd23d84b0">UnpackDDElParam</a> function to unpack the 
 			<i>lParam</i> value. 
 
 
@@ -112,7 +112,7 @@ This function frees the memory specified by the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
+<a href="https://msdn.microsoft.com/0bcd8de4-a6f0-4f2a-8b9d-0b1b638925fb">About Dynamic Data Exchange</a>
 
 
 
@@ -120,7 +120,7 @@ This function frees the memory specified by the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649006(v=VS.85).aspx">PackDDElParam</a>
+<a href="https://msdn.microsoft.com/9131229d-2515-40d2-a4a8-4c8f7987ac09">PackDDElParam</a>
 
 
 
@@ -128,11 +128,11 @@ This function frees the memory specified by the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649007(v=VS.85).aspx">ReuseDDElParam</a>
+<a href="https://msdn.microsoft.com/069ac8ee-3d92-4969-8c6b-78a8a0c76721">ReuseDDElParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649008(v=VS.85).aspx">UnpackDDElParam</a>
+<a href="https://msdn.microsoft.com/a7da276f-0e29-4abc-86cf-ac1fd23d84b0">UnpackDDElParam</a>
  
 
  

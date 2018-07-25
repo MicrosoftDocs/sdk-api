@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Contains information used to determine the location of a point relative to a tree-view control. This structure is used with the <a href="https://msdn.microsoft.com/library/Bb773732(v=VS.85).aspx">TVM_HITTEST</a> message. The structure is identical to the 
+Contains information used to determine the location of a point relative to a tree-view control. This structure is used with the <a href="https://msdn.microsoft.com/18ea3737-f429-4c10-9133-3b5729aa36fa">TVM_HITTEST</a> message. The structure is identical to the 
 			<b>TV_HITTESTINFO</b> structure, but it has been renamed to follow current naming conventions. 
 
 

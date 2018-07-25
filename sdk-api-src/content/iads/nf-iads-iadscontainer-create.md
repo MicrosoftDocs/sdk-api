@@ -88,7 +88,7 @@ Relative name of the object as it is known in the underlying directory and ident
 
 #### - ppNewObject [out]
 
-Indirect pointer to the  <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface on the newly created object.
+Indirect pointer to the  <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface on the newly created object.
 
 
 ## -returns
@@ -113,7 +113,7 @@ This method supports the standard return values, including S_OK for a successful
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

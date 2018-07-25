@@ -81,7 +81,7 @@ Velocity vector in user-defined world units per second, used only for doppler ca
 
 ### -field pCone
 
-Pointer to an <a href="https://msdn.microsoft.com/library/Ee419054(v=VS.85).aspx">X3DAUDIO_CONE</a> structure for this listener. Providing a listener cone will specify that additional calculations are performed when determining the volume and filter DSP parameters for individual sound sources. A NULL <b>pCone</b> value specifies an omnidirectional sound and no cone processing is applied. <b>pCone</b> is only used for matrix, LPF (both direct and reverb paths), and reverb calculations.
+Pointer to an <a href="https://msdn.microsoft.com/3613e474-becc-4879-90c9-68d43bad239b">X3DAUDIO_CONE</a> structure for this listener. Providing a listener cone will specify that additional calculations are performed when determining the volume and filter DSP parameters for individual sound sources. A NULL <b>pCone</b> value specifies an omnidirectional sound and no cone processing is applied. <b>pCone</b> is only used for matrix, LPF (both direct and reverb paths), and reverb calculations.
 
 
 ## -remarks

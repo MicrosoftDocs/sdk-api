@@ -78,7 +78,7 @@ Returns S_OK if successful, an error code otherwise.
 
 
 
-Because calling <b>Discontinuity</b> is equivalent to applying the XAUDIO2_END_OF_STREAM flag retroactively to the last buffer submitted, an <a href="https://msdn.microsoft.com/library/Ee418477(v=VS.85).aspx">OnStreamEnd</a> callback will be made when this buffer completes.
+Because calling <b>Discontinuity</b> is equivalent to applying the XAUDIO2_END_OF_STREAM flag retroactively to the last buffer submitted, an <a href="https://msdn.microsoft.com/852FBAA1-F390-441F-96DE-5086FB644B44">OnStreamEnd</a> callback will be made when this buffer completes.
 
 
 <div class="alert"><b>Note</b>  XAudio2 may consume its entire buffer queue and emit a warning before the <b>Discontinuity</b> call takes effect, so <b>Discontinuity</b> is not guaranteed to suppress the warnings.</div>
@@ -94,7 +94,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee415914(v=VS.85).aspx">IXAudio2SourceVoice</a>
+<a href="https://msdn.microsoft.com/116DD0E0-8F0B-4934-A48D-FDBE0D0DF049">IXAudio2SourceVoice</a>
  
 
  

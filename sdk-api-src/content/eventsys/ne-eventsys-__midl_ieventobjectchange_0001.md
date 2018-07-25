@@ -80,7 +80,7 @@ An existing object was deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms679541(v=VS.85).aspx">IEventObjectChange</a>
+<a href="_cos_IEventObjectChange">IEventObjectChange</a>
  
 
  

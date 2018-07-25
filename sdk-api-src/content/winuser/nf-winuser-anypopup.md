@@ -95,7 +95,7 @@ This function does not detect unowned pop-up windows or windows that do not have
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633507(v=VS.85).aspx">GetLastActivePopup</a>
+<a href="https://msdn.microsoft.com/1689c102-8918-4f15-bb40-b8e33db5d6fd">GetLastActivePopup</a>
 
 
 
@@ -103,7 +103,7 @@ This function does not detect unowned pop-up windows or windows that do not have
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633547(v=VS.85).aspx">ShowOwnedPopups</a>
+<a href="https://msdn.microsoft.com/ca4cd67b-6db1-43a9-8918-1400fef2ea1e">ShowOwnedPopups</a>
 
 
 

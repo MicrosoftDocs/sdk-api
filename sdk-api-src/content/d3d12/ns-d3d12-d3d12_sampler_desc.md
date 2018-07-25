@@ -110,7 +110,7 @@ Describes a sampler state.
 ### -field BorderColor
 
 
-            Border color to use if <a href="https://msdn.microsoft.com/library/Dn770441(v=VS.85).aspx">D3D12_TEXTURE_ADDRESS_MODE_BORDER</a> is specified for <b>AddressU</b>, <b>AddressV</b>, or <b>AddressW</b>. Range must be between 0.0 and 1.0 inclusive.
+            Border color to use if <a href="d3d12_texture_address_mode.htm">D3D12_TEXTURE_ADDRESS_MODE_BORDER</a> is specified for <b>AddressU</b>, <b>AddressV</b>, or <b>AddressW</b>. Range must be between 0.0 and 1.0 inclusive.
           
 
 

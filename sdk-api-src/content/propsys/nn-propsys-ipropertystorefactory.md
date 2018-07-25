@@ -80,7 +80,7 @@ Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">I
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb761449(v=VS.85).aspx">GetPropertyStoreForKeys</a>
+<a href="shell.IPropertyStoreFactory_GetPropertyStoreForKeys">GetPropertyStoreForKeys</a>
 </td>
 <td align="left" width="63%">
 Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">IPropertyStore</a> object, given a set of property keys. This provides an alternative, possibly faster, method of getting an <b>IPropertyStore</b> object compared to calling <a href="shell.IPropertyStoreFactory_GetPropertyStore">IPropertyStoreFactory::GetPropertyStore</a>.
@@ -106,7 +106,7 @@ Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536954">I
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb776492(v=VS.85).aspx">PSCreatePropertyStoreFromObject</a>
+<a href="shell.PSCreatePropertyStoreFromObject">PSCreatePropertyStoreFromObject</a>
  
 
  

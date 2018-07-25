@@ -189,7 +189,7 @@ Include only properties from the file's secondary stream.
 
 ### -field GPS_MASK_VALID
 
-Mask for valid <a href="https://msdn.microsoft.com/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a> values.
+Mask for valid <a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a> values.
 
 
 ## -remarks

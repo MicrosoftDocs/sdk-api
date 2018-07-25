@@ -147,7 +147,7 @@ For a list of the existing operator requests to cancel with the
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Operator Request Functions</a>
+<a href="removable_storage_manager_functions.htm">Operator Request Functions</a>
 
 
 

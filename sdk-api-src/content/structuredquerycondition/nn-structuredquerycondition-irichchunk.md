@@ -52,7 +52,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-          Represents a chunk of data as a string and a <a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> value.
+          Represents a chunk of data as a string and a <a href="_stg_propvariant">PROPVARIANT</a> value.
         
 
 
@@ -77,7 +77,7 @@ The <b>IRichChunk</b> interface has these methods.
 </td>
 <td align="left" width="63%">
 
-      Retrieves the <a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> and input string that represents a chunk of data.
+      Retrieves the <a href="_stg_propvariant">PROPVARIANT</a> and input string that represents a chunk of data.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ The <b>IRichChunk</b> interface has these methods.
 </td>
 <td align="left" width="63%">
 
-       Retrieves the <a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> and input string that represents a chunk of data.
+       Retrieves the <a href="_stg_propvariant">PROPVARIANT</a> and input string that represents a chunk of data.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ In Windows 7, this interface is defined in structuredquerycondition.idl and str
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231343(v=VS.85).aspx">GetErrors</a>
+<a href="https://msdn.microsoft.com/50eead1a-5eb9-4bc9-ba54-c6dc77284f4d">GetErrors</a>
 
 
 
@@ -116,7 +116,7 @@ In Windows 7, this interface is defined in structuredquerycondition.idl and str
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965707(v=VS.85).aspx">STRUCTURED_QUERY_PARSE_ERROR</a>
+<a href="https://msdn.microsoft.com/abc76a8c-ee72-469a-85a0-75c12ee4e5d9">STRUCTURED_QUERY_PARSE_ERROR</a>
  
 
  

@@ -51,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-Inserts an item into the <a href="https://msdn.microsoft.com/library/Dd371519(v=VS.85).aspx">IUICollection</a> at the specified index.
+Inserts an item into the <a href="https://msdn.microsoft.com/c239a724-9d7e-4204-933a-8e10581b4ecc">IUICollection</a> at the specified index.
 
 
 ## -parameters
@@ -64,16 +64,16 @@ Inserts an item into the <a href="https://msdn.microsoft.com/library/Dd371519(v=
 Type: <b>UINT32</b>
 
 
-					The zero-based index at which <i>item</i> is inserted into the <a href="https://msdn.microsoft.com/library/Dd371519(v=VS.85).aspx">IUICollection</a>.
+					The zero-based index at which <i>item</i> is inserted into the <a href="https://msdn.microsoft.com/c239a724-9d7e-4204-933a-8e10581b4ecc">IUICollection</a>.
 				
 
 
 ### -param item [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
+Type: <b><a href="_com_iunknown">IUnknown</a>*</b>
 
 
-					Pointer to the item that is added to the <a href="https://msdn.microsoft.com/library/Dd371519(v=VS.85).aspx">IUICollection</a>.
+					Pointer to the item that is added to the <a href="https://msdn.microsoft.com/c239a724-9d7e-4204-933a-8e10581b4ecc">IUICollection</a>.
 				
 
 
@@ -93,11 +93,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd742704(v=VS.85).aspx">Gallery Sample</a>
+<a href="https://msdn.microsoft.com/1a462f4e-e75a-40cf-9c52-0bad0a645d57">Gallery Sample</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371519(v=VS.85).aspx">IUICollection</a>
+<a href="https://msdn.microsoft.com/c239a724-9d7e-4204-933a-8e10581b4ecc">IUICollection</a>
  
 
  

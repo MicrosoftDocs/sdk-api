@@ -63,9 +63,9 @@ This property is read-only.
 
 
 
-If this property is equal to <a href="https://msdn.microsoft.com/library/ms687973(v=VS.85).aspx">frrcANY_CODE</a>, the outbound routing rule applies to all area codes.
+If this property is equal to <a href="https://msdn.microsoft.com/f064751c-d8c3-4a59-bd2d-3fb1f297af90">frrcANY_CODE</a>, the outbound routing rule applies to all area codes.
 
-To read this property, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
+To read this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
 
 
 
@@ -75,15 +75,15 @@ To read this property, a user must have the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a>
+<a href="https://msdn.microsoft.com/e027093a-314c-4292-b591-29c2bc58c031">FaxOutboundRoutingRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690232(v=VS.85).aspx">IFaxOutboundRoutingRule</a>
+<a href="https://msdn.microsoft.com/29b577f6-6aeb-43fd-8a0f-657ef1c16999">IFaxOutboundRoutingRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693486(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/35bb803d-fce4-46a3-825a-ec3a5138ed67">Visual Basic Example</a>
  
 
  

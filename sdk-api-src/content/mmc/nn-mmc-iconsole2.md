@@ -154,7 +154,7 @@ Queries the console-provided result pane's image list.
 <a href="https://msdn.microsoft.com/26d4859c-e79f-4c63-92ad-b66de7d0fa13">QueryResultView</a>
 </td>
 <td align="left" width="63%">
-Queries IConsole for the result view object's <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer.
+Queries IConsole for the result view object's <a href="_com_iunknown">IUnknown</a> interface pointer.
 
 </td>
 </tr>

@@ -294,9 +294,9 @@ Console application or .bat file
 
 You should call this function from a background thread. Failure to do so could cause the UI to stop responding.
 
-If <b>SHGetFileInfo</b> returns an icon handle in the <b>hIcon</b> member of the <a href="https://msdn.microsoft.com/9dbf873a-b447-4579-961e-20f2a64c87fe">SHFILEINFO</a> structure pointed to by <i>psfi</i>, you are responsible for freeing it with <a href="https://msdn.microsoft.com/library/ms648063(v=VS.85).aspx">DestroyIcon</a> when you no longer need it.
+If <b>SHGetFileInfo</b> returns an icon handle in the <b>hIcon</b> member of the <a href="https://msdn.microsoft.com/9dbf873a-b447-4579-961e-20f2a64c87fe">SHFILEINFO</a> structure pointed to by <i>psfi</i>, you are responsible for freeing it with <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> when you no longer need it.
 
-<div class="alert"><b>Note</b>  Once you have a handle to a system image list, you can use the <a href="https://msdn.microsoft.com/library/Bb761389(v=VS.85).aspx">Image List API</a> to manipulate it like any other image list. Because system image lists are created on a per-process basis, you should treat them as read-only objects. Writing to a system image list may overwrite or delete one of the system images, making it unavailable or incorrect for the remainder of the process.</div>
+<div class="alert"><b>Note</b>  Once you have a handle to a system image list, you can use the <a href="https://msdn.microsoft.com/01a96f65-51eb-489f-b6e4-234309f2077b">Image List API</a> to manipulate it like any other image list. Because system image lists are created on a per-process basis, you should treat them as read-only objects. Writing to a system image list may overwrite or delete one of the system images, making it unavailable or incorrect for the remainder of the process.</div>
 <div> </div>
 You must initialize Component Object Model (COM) with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> prior to calling <b>SHGetFileInfo</b>.
 

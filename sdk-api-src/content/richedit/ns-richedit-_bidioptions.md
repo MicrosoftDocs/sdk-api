@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Contains bidirectional information about a rich edit control. This structure is used by the <a href="https://msdn.microsoft.com/library/Bb788024(v=VS.85).aspx">EM_GETBIDIOPTIONS</a> and <a href="https://msdn.microsoft.com/library/Bb774225(v=VS.85).aspx">EM_SETBIDIOPTIONS</a> messages to get and set the bidirectional information for a control.
+Contains bidirectional information about a rich edit control. This structure is used by the <a href="https://msdn.microsoft.com/055581c0-ae59-4601-a3e9-416705af429a">EM_GETBIDIOPTIONS</a> and <a href="https://msdn.microsoft.com/b518e423-317a-4654-9d9f-c501028e2a0a">EM_SETBIDIOPTIONS</a> messages to get and set the bidirectional information for a control.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ Contains bidirectional information about a rich edit control. This structure is 
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Specifies the size, in bytes, of the structure. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <b>BIDIOPTIONS</b> structure. The rich edit control checks the size of <b>cbSize</b> before sending an <a href="https://msdn.microsoft.com/library/Bb788024(v=VS.85).aspx">EM_GETBIDIOPTIONS</a> message.
+Specifies the size, in bytes, of the structure. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <b>BIDIOPTIONS</b> structure. The rich edit control checks the size of <b>cbSize</b> before sending an <a href="https://msdn.microsoft.com/055581c0-ae59-4601-a3e9-416705af429a">EM_GETBIDIOPTIONS</a> message.
 
 
 ### -field wMask
@@ -266,11 +266,11 @@ If this flag is 1, the Unicode Bidi Algorithm (UBA) is used for rich-text contro
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb788024(v=VS.85).aspx">EM_GETBIDIOPTIONS</a>
+<a href="https://msdn.microsoft.com/055581c0-ae59-4601-a3e9-416705af429a">EM_GETBIDIOPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774225(v=VS.85).aspx">EM_SETBIDIOPTIONS</a>
+<a href="https://msdn.microsoft.com/b518e423-317a-4654-9d9f-c501028e2a0a">EM_SETBIDIOPTIONS</a>
  
 
  

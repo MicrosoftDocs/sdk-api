@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the group that has the focus. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774925(v=VS.85).aspx">LVM_GETFOCUSEDGROUP</a> message explicitly. 
+Gets the group that has the focus. Use this macro or send the <a href="https://msdn.microsoft.com/c1902f35-84b7-4f46-89a6-e48148f06172">LVM_GETFOCUSEDGROUP</a> message explicitly. 
 
 
 

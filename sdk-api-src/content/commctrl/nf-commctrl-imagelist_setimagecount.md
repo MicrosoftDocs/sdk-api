@@ -87,7 +87,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 
-If an application expands an image list with this function, it must add new images by using the <a href="https://msdn.microsoft.com/library/Bb775213(v=VS.85).aspx">ImageList_Replace</a> function. If your application does not add valid images at the new indexes, draw operations that use the new indexes will be unpredictable. 
+If an application expands an image list with this function, it must add new images by using the <a href="https://msdn.microsoft.com/ce5c9771-b0be-4450-af7b-f11dd365d102">ImageList_Replace</a> function. If your application does not add valid images at the new indexes, draw operations that use the new indexes will be unpredictable. 
 
 If you decrease the size of an image list by using this function, the truncated images are freed.
 

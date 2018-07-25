@@ -98,7 +98,7 @@ Retrieves the effect at the given index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms735234(v=VS.85).aspx">Parent</a>
+<a href="https://msdn.microsoft.com/4f064739-41d6-48b0-85ab-18ca91f07739">Parent</a>
 </td>
 <td align="left" width="63%">
 Retrieves the parent effect group of enumeration.

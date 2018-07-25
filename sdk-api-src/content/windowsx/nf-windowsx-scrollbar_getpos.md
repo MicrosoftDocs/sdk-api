@@ -53,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 Retrieves the position of the scroll box (thumb) in the specified scroll bar. 
         
-<div class="alert"><b>Note</b>  This macro expands to a call to the <a href="https://msdn.microsoft.com/library/Bb787585(v=VS.85).aspx">GetScrollPos</a> function, which is deprecated. New applications should use the <a href="https://msdn.microsoft.com/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This macro expands to a call to the <a href="https://msdn.microsoft.com/8d8c43df-c444-4c0a-82e5-bdc568161561">GetScrollPos</a> function, which is deprecated. New applications should use the <a href="https://msdn.microsoft.com/c4bd075b-b4fd-44cf-ba51-b9d8a95a5152">GetScrollInfo</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -71,7 +71,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a>.
+For more information, see <a href="https://msdn.microsoft.com/c4bd075b-b4fd-44cf-ba51-b9d8a95a5152">GetScrollInfo</a>.
 
 
 

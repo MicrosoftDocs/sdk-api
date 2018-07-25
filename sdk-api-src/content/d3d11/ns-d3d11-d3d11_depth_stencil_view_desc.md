@@ -60,9 +60,9 @@ Specifies the subresources of a texture that are accessible from a depth-stencil
 
 ### -field Format
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a></b>
 
-Resource data  format (see <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>). See remarks for allowable formats.
+Resource data  format (see <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>). See remarks for allowable formats.
 
 
 ### -field ViewDimension

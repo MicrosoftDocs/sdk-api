@@ -93,7 +93,7 @@ Reserved for future use and is set to zero.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
+<a href="cryptography_functions.htm">Callback Functions</a>
  
 
  

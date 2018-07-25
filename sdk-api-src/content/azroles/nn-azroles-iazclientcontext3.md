@@ -134,7 +134,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the collection of <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interfaces that can be called by the BizRule script associated with this client context.
+Gets the collection of <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interfaces that can be called by the BizRule script associated with this client context.
 
 </td>
 </tr>

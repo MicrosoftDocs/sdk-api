@@ -143,7 +143,7 @@ A pointer to a <b>VARIANT</b> that receives the value of the retrieved property.
 
 
 
-When you have finished using the <b>VARIANT</b>, free it by calling the <a href="https://msdn.microsoft.com/library/ms221165(v=VS.85).aspx">VariantClear</a> function.
+When you have finished using the <b>VARIANT</b>, free it by calling the <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> function.
 
 
 ## -returns

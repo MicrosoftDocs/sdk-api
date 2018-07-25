@@ -53,7 +53,7 @@ req.product: Internet Explorer 5.0
 ## -description
 
 
-<p class="CCE_Message">[<b>DAD_DragMove</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://msdn.microsoft.com/library/Bb761530(v=VS.85).aspx">ImageList_DragMove</a> instead.
+<p class="CCE_Message">[<b>DAD_DragMove</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://msdn.microsoft.com/a7d7fcd4-ba03-43ba-ae37-df8d4173c64d">ImageList_DragMove</a> instead.
       ]
 
 Moves the image that is being dragged during a drag-and-drop operation.

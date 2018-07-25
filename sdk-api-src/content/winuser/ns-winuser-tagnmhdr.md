@@ -77,5 +77,5 @@ An identifier of the control sending the message.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A notification code. This member can be one of the common notification codes (see Notifications under <a href="https://msdn.microsoft.com/library/Bb775497(v=VS.85).aspx">General Control Reference</a>), or it can be a control-specific notification code. 
+A notification code. This member can be one of the common notification codes (see Notifications under <a href="https://msdn.microsoft.com/c8e72ae9-7c71-465d-9a6b-07e7923d4a13">General Control Reference</a>), or it can be a control-specific notification code. 
 

@@ -82,7 +82,7 @@ Reserved, must be 0.
 
 ### -param vt [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms221127(v=VS.85).aspx">VARTYPE</a></b>
+Type: <b><a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a></b>
 
 Specifies the new type for the value. See the tables below for recognized type names.
 
@@ -105,7 +105,7 @@ Returns <b>S_OK</b> if successful, or a standard COM error value otherwise. If t
 Note that the source and destination <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structures must be separate structures. You cannot overwrite the source <b>PROPVARIANT</b> data with the new destination data; attempting to do so will result in an error.
 
 
-<a href="https://msdn.microsoft.com/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a> converts values between the following types as follows. Numbers refer to conditions explained after the tables.
+<a href="shell.PropVariantChangeType">PropVariantChangeType</a> converts values between the following types as follows. Numbers refer to conditions explained after the tables.
 
 
 
@@ -399,12 +399,12 @@ Note that the source and destination <a href="https://msdn.microsoft.com/e86cc27
 <div> </div>
 Converting between vectors (<b>VT_VECTOR</b>) and arrays (<b>VT_ARRAY</b>) is supported in some cases. When it is supported, the count of elements must be the same in each. A single-valued vector can be converted to a non-vector value, but a multi-valued vector cannot be converted to a non-vector type.
 
-Coercion between types is performed without respect to property-specific information. Property-specific coercions should be performed using <a href="https://msdn.microsoft.com/library/Bb776486(v=VS.85).aspx">PSCoerceToCanonicalValue</a>. Additionally, if the string form of a value is needed for UI purposes, <a href="https://msdn.microsoft.com/library/Bb776496(v=VS.85).aspx">PSFormatForDisplay</a> should be used to format the value according to locale- and property-specific information rather than using <a href="https://msdn.microsoft.com/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a> to coerce the value to a string.
+Coercion between types is performed without respect to property-specific information. Property-specific coercions should be performed using <a href="shell.PSCoerceToCanonicalValue">PSCoerceToCanonicalValue</a>. Additionally, if the string form of a value is needed for UI purposes, <a href="shell.PSFormatForDisplay">PSFormatForDisplay</a> should be used to format the value according to locale- and property-specific information rather than using <a href="shell.PropVariantChangeType">PropVariantChangeType</a> to coerce the value to a string.
 
 
 #### Examples
 
-The following code example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a> to initialize a <b>VT_FILETIME</b> value from a string.
+The following code example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantChangeType">PropVariantChangeType</a> to initialize a <b>VT_FILETIME</b> value from a string.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

@@ -56,7 +56,7 @@ req.irql:
 
 <p class="CCE_Message">[This function is subject to change with each operating system revision. Instead, use the Microsoft DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers.]
 
-Wrapper for the <a href="https://msdn.microsoft.com/library/ms648693(v=VS.85).aspx">NtGdiDdQueryDirectDrawObject</a> function and queries a previously created kernel-mode representation for capabilities.
+Wrapper for the <a href="https://msdn.microsoft.com/ec07c7ef-4c57-4ed9-849b-f30692cc3181">NtGdiDdQueryDirectDrawObject</a> function and queries a previously created kernel-mode representation for capabilities.
 
 
 <b>GdiEntry2</b> is defined as an alias for this function.
@@ -69,7 +69,7 @@ Wrapper for the <a href="https://msdn.microsoft.com/library/ms648693(v=VS.85).as
 
 ### -param pDirectDrawGlobal
 
-Pointer to a user-mode DirectDraw object for which a kernel-side object was previously created with <a href="https://msdn.microsoft.com/library/ms648435(v=VS.85).aspx">DdCreateDirectDrawObject</a>.
+Pointer to a user-mode DirectDraw object for which a kernel-side object was previously created with <a href="https://msdn.microsoft.com/ef999226-98f7-4e00-8a3b-5a11fb9592cc">DdCreateDirectDrawObject</a>.
 
 
 ### -param pHalInfo
@@ -152,7 +152,7 @@ DirectDraw and
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648408(v=VS.85).aspx">Graphics Low Level Client Support</a>
+<a href="https://msdn.microsoft.com/96d11d10-dd21-4e2b-a30d-fe29d24eeba6">Graphics Low Level Client Support</a>
  
 
  

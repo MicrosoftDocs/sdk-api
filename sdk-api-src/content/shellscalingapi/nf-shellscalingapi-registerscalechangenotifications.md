@@ -81,7 +81,7 @@ The handle of the window that will receive the notifications.
 
 Type: <b>UINT</b>
 
-An application-defined message that is passed to the window specified by <i>hwndNotify</i> when scaling information changes.  Typically, this should be set to <a href="https://msdn.microsoft.com/library/ms644930(v=VS.85).aspx">WM_APP</a>+<i>x</i>, where <i>x</i> is an integer value.
+An application-defined message that is passed to the window specified by <i>hwndNotify</i> when scaling information changes.  Typically, this should be set to <a href="https://msdn.microsoft.com/fdb549df-426f-4af5-9c17-6e8730e4abc0">WM_APP</a>+<i>x</i>, where <i>x</i> is an integer value.
 
 
 ### -param pdwCookie [out]
@@ -106,7 +106,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 
-This message specified by <i>uMsgNotify</i> is posted to the registered window through <a href="https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx">PostMessage</a>. The <i>wParam</i> of the message can contain a combination of <a href="https://msdn.microsoft.com/18B3E8F1-C9A9-4CE4-8982-C552486EA9B1">SCALE_CHANGE_FLAGS</a> that describe  the change that occurred.
+This message specified by <i>uMsgNotify</i> is posted to the registered window through <a href="https://msdn.microsoft.com/5357de37-1e44-4e4a-bdae-b5a386032dd4">PostMessage</a>. The <i>wParam</i> of the message can contain a combination of <a href="https://msdn.microsoft.com/18B3E8F1-C9A9-4CE4-8982-C552486EA9B1">SCALE_CHANGE_FLAGS</a> that describe  the change that occurred.
 
 
 

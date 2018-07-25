@@ -72,7 +72,7 @@ The <b>FolderItems3</b> object has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Hh707480(v=VS.85).aspx">Filter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn932766">Filter</a>
 </td>
 <td align="left" width="63%">
 Sets a wildcard filter to apply to the items returned.

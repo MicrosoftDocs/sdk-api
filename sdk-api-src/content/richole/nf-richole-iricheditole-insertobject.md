@@ -61,7 +61,7 @@ Inserts an object into a rich edit control.
 
 ### -param lpreobject
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb787946(v=VS.85).aspx">REOBJECT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/d7957c09-11aa-402e-9cff-3e3491059b08">REOBJECT</a>*</b>
 
 The object information and interfaces. The rich edit control automatically increments the reference count for the interfaces if it holds onto them, so the caller can safely release the interfaces if they are not needed. 
 
@@ -81,7 +81,7 @@ Returns S_OK on success, or a failure code otherwise. E_OUTOFMEMORY is returned 
 
 
 
-If the <b>cp</b> member of the <a href="https://msdn.microsoft.com/library/Bb787946(v=VS.85).aspx">REOBJECT</a> structure is REO_CP_SELECTION, the selection is replaced with the specified object.
+If the <b>cp</b> member of the <a href="https://msdn.microsoft.com/d7957c09-11aa-402e-9cff-3e3491059b08">REOBJECT</a> structure is REO_CP_SELECTION, the selection is replaced with the specified object.
 	
 
 
@@ -92,11 +92,11 @@ If the <b>cp</b> member of the <a href="https://msdn.microsoft.com/library/Bb787
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774306(v=VS.85).aspx">IRichEditOle</a>
+<a href="https://msdn.microsoft.com/d6d1794b-f16c-4a8c-84f5-dfe8bd8be08c">IRichEditOle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787946(v=VS.85).aspx">REOBJECT</a>
+<a href="https://msdn.microsoft.com/d7957c09-11aa-402e-9cff-3e3491059b08">REOBJECT</a>
 
 
 

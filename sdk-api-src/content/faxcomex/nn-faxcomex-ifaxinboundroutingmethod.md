@@ -56,7 +56,7 @@ The <b>IFaxInboundRoutingMethod</b> interface defines a configuration object use
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRoutingMethod</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxInboundRoutingMethod</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRoutingMethod</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxInboundRoutingMethod</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -179,7 +179,7 @@ The <a href="https://msdn.microsoft.com/920f4b67-b216-4056-a109-36ed5d8bc556">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms686151(v=VS.85).aspx">Priority</a>
+<a href="https://msdn.microsoft.com/01db2b72-67a9-4f1a-bdde-228310da519d">Priority</a>
 
 
 </td>
@@ -188,7 +188,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms686150(v=VS.85).aspx">Priority</a> property is a value associated with the order in which the fax service calls the routing method when the service receives a fax job.
+The <a href="https://msdn.microsoft.com/23208ac4-68c8-4f62-b588-2d0a5575f87c">Priority</a> property is a value associated with the order in which the fax service calls the routing method when the service receives a fax job.
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ The <a href="https://msdn.microsoft.com/library/ms686150(v=VS.85).aspx">Priority
 
 
 
-A default implementation of <b>IFaxInboundRoutingMethod</b> is provided as the <a href="https://msdn.microsoft.com/library/ms687469(v=VS.85).aspx">FaxInboundRoutingMethod</a> object.
+A default implementation of <b>IFaxInboundRoutingMethod</b> is provided as the <a href="https://msdn.microsoft.com/8eb68201-4c87-41ce-a401-a039b5ad454d">FaxInboundRoutingMethod</a> object.
 
 
 

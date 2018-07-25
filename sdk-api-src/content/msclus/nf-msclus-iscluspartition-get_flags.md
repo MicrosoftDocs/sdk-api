@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Returns the flags 
-    set for a <a href="https://msdn.microsoft.com/library/ms682866(v=VS.85).aspx">storage class resource</a> 
+    set for a <a href="s_gly.htm">storage class resource</a> 
     partition.
 
 This property is read-only.

@@ -76,7 +76,7 @@ The <b>IDXGIFactory4</b> interface has these methods.
 <a href="https://msdn.microsoft.com/AC800F32-2922-45BA-A6D3-D3E45113B9A7">EnumAdapterByLuid</a>
 </td>
 <td align="left" width="63%">
-Outputs the <a href="https://msdn.microsoft.com/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a> for the specified LUID.
+Outputs the <a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a> for the specified LUID.
         
 
 </td>

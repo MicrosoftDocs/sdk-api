@@ -108,7 +108,7 @@ This method does not return a value.
 Adding a node to a group's 
     <a href="https://msdn.microsoft.com/3425825e-890c-4d3d-919e-a66963e1fc55">ClusResGroupPreferredOwnerNodes</a> 
     collection means that the node is listed as a 
-    <a href="https://msdn.microsoft.com/library/ms682858(v=VS.85).aspx">preferred owner</a> node for the group. Use 
+    <a href="p_gly.htm">preferred owner</a> node for the group. Use 
     <i>lPosition</i> to specify an order of preference, with low values corresponding to highly 
     preferred, high-priority nodes.
 

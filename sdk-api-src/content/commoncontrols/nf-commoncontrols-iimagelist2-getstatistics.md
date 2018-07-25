@@ -60,9 +60,9 @@ Gets an image list statistics structure.
 
 ### -param pils [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb761397(v=VS.85).aspx">IMAGELISTSTATS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/EF2D2A36-283E-475E-B635-AE7E5423A674">IMAGELISTSTATS</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/library/Bb761397(v=VS.85).aspx">IMAGELISTSTATS</a> structure.
+A pointer to the <a href="https://msdn.microsoft.com/EF2D2A36-283E-475E-B635-AE7E5423A674">IMAGELISTSTATS</a> structure.
 
 
 ## -returns

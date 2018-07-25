@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets the background image in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774907(v=VS.85).aspx">LVM_GETBKIMAGE</a> message explicitly. 
+Gets the background image in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/db0e8f31-746a-4a16-b689-68da696e3657">LVM_GETBKIMAGE</a> message explicitly. 
 
 
 ## -parameters
@@ -67,7 +67,7 @@ TBD
 
 Type: <b>LPLVBKIMAGE</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/library/Bb774742(v=VS.85).aspx">LVBKIMAGE</a> structure that will receive the background image information. 
+A pointer to a <a href="https://msdn.microsoft.com/d8b35356-d112-43e5-b1ad-7fb945c84e33">LVBKIMAGE</a> structure that will receive the background image information. 
 
 
 #### - hwndLV
@@ -82,7 +82,7 @@ A handle to the list-view control.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775065(v=VS.85).aspx">ListView_SetBkImage</a>
+<a href="https://msdn.microsoft.com/8ee481c7-e114-45bd-9082-16d756152e54">ListView_SetBkImage</a>
  
 
  

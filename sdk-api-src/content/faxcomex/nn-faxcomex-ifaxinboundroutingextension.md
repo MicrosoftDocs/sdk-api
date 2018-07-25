@@ -56,7 +56,7 @@ The <b>IFaxInboundRoutingExtension</b> interface defines a configuration object 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRoutingExtension</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxInboundRoutingExtension</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxInboundRoutingExtension</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxInboundRoutingExtension</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
@@ -253,7 +253,7 @@ The <a href="https://msdn.microsoft.com/b9726d54-adec-466e-b47a-3a3bc0438adf">IF
 
 
 
-A default implementation of <b>IFaxInboundRoutingExtension</b> is provided as the <a href="https://msdn.microsoft.com/library/ms684580(v=VS.85).aspx">FaxInboundRoutingExtension</a> object.
+A default implementation of <b>IFaxInboundRoutingExtension</b> is provided as the <a href="https://msdn.microsoft.com/cb875610-d6c9-473d-b9c2-0035e67a8949">FaxInboundRoutingExtension</a> object.
 
 
 

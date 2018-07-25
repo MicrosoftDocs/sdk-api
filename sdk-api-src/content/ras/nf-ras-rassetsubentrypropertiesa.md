@@ -99,7 +99,7 @@ The structure might be followed by an array of <b>null</b>-terminated alternate 
 #### - lpbDeviceConfig [in]
 
 Pointer to a TAPI device configuration block. This parameter is currently unused. The caller should pass <b>NULL</b> for this parameter. For more information about TAPI device configuration blocks, see the function 
-<a href="https://msdn.microsoft.com/library/ms735739(v=VS.85).aspx">lineGetDevConfig</a>.
+<a href="_tapi2_linegetdevconfig">lineGetDevConfig</a>.
 
 
 #### - lpszEntry [in]

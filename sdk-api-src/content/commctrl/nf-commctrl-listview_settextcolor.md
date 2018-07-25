@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the text color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761208(v=VS.85).aspx">LVM_SETTEXTCOLOR</a> message explicitly. 
+Sets the text color of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/ff90c18b-0cd7-4331-bcd8-61044e891d1f">LVM_SETTEXTCOLOR</a> message explicitly. 
 
 
 ## -parameters

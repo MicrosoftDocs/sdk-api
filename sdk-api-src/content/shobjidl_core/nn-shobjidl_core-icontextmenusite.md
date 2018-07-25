@@ -53,7 +53,7 @@ req.product: Outlook Express 6.0
 
 <p class="CCE_Message">[The only method, <a href="https://msdn.microsoft.com/5601dc9c-e008-4387-b0d3-4cbdf29b7849">DoContextMenuPopup</a>, is no longer available for use as of Windows Server 2003.]
 
-Implemented by the default folder view created using <a href="https://msdn.microsoft.com/f2948a6d-84a5-456b-b328-ba76dba46e9d">SHCreateShellFolderView</a>. An implementation of <b>IContextMenuSite</b> supports <a href="https://msdn.microsoft.com/329fe15b-c1c1-4ffd-812e-9e74451bad6e">IContextMenu::QueryContextMenu</a>,  <a href="https://msdn.microsoft.com/f3aaa84c-3b33-4288-a46a-cd80d3fa89cf">IContextMenu::InvokeCommand</a>, and <a href="https://msdn.microsoft.com/library/ms648002(v=VS.85).aspx">TrackPopupMenu</a> and any message forwarding necessary for that function. <b>IContextMenuSite</b> typically updates the status bar as well.
+Implemented by the default folder view created using <a href="https://msdn.microsoft.com/f2948a6d-84a5-456b-b328-ba76dba46e9d">SHCreateShellFolderView</a>. An implementation of <b>IContextMenuSite</b> supports <a href="https://msdn.microsoft.com/329fe15b-c1c1-4ffd-812e-9e74451bad6e">IContextMenu::QueryContextMenu</a>,  <a href="https://msdn.microsoft.com/f3aaa84c-3b33-4288-a46a-cd80d3fa89cf">IContextMenu::InvokeCommand</a>, and <a href="https://msdn.microsoft.com/2e1e4648-e3fd-4d9a-a558-de7b030e3d75">TrackPopupMenu</a> and any message forwarding necessary for that function. <b>IContextMenuSite</b> typically updates the status bar as well.
 
 
 ## -inheritance

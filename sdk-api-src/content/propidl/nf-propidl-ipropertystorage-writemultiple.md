@@ -90,7 +90,7 @@ The minimum value for the property IDs that the method must assign if the <i>rgp
 						This method supports the standard return value E_UNEXPECTED, in addition to the following:
 
 This function can also return any file system errors or Win32 errors wrapped in an <b>HRESULT</b> data type. For more information, see 
-<a href="https://msdn.microsoft.com/library/ms688560(v=VS.85).aspx">Error Handling Strategies</a>.
+<a href="_com_error_handling_strategies">Error Handling Strategies</a>.
 
 
 

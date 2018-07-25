@@ -106,7 +106,7 @@ The user can manage archived messages belonging to all accounts, including other
 
 ### -field far2MANAGE_RECEIVE_FOLDER
 
-The user can manage all the messages in the server's receive folder. This includes the right to <a href="https://msdn.microsoft.com/library/Aa358860(v=VS.85).aspx">reassign</a> and delete messages.
+The user can manage all the messages in the server's receive folder. This includes the right to <a href="https://msdn.microsoft.com/ede1c31f-e53a-4ddc-ba25-6fcadadd513a">reassign</a> and delete messages.
 
 
 ## -see-also

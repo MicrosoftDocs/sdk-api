@@ -76,7 +76,7 @@ The <b>IUIRibbon</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd742708(v=VS.85).aspx">GetHeight</a>
+<a href="https://msdn.microsoft.com/a029aba6-7386-4c76-813d-e475b30317b3">GetHeight</a>
 </td>
 <td align="left" width="63%">
 
@@ -87,7 +87,7 @@ The <b>IUIRibbon</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371361(v=VS.85).aspx">LoadSettingsFromStream</a>
+<a href="https://msdn.microsoft.com/537f185e-c793-4e4b-81b9-354ede39ab5b">LoadSettingsFromStream</a>
 </td>
 <td align="left" width="63%">
 
@@ -98,7 +98,7 @@ The <b>IUIRibbon</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Dd371362(v=VS.85).aspx">SaveSettingsToStream</a>
+<a href="https://msdn.microsoft.com/b5cd7cfd-95b7-49a1-8931-8befef7d4298">SaveSettingsToStream</a>
 </td>
 <td align="left" width="63%">
 Writes ribbon settings to a binary stream.
@@ -114,8 +114,8 @@ Writes ribbon settings to a binary stream.
 
 
 
-				A Ribbon is composed of several components that can include an <a href="https://msdn.microsoft.com/library/Dd940489(v=VS.85).aspx">Application Menu</a>, the <a href="https://msdn.microsoft.com/library/Dd940502(v=VS.85).aspx">Quick Access Toolbar (QAT)</a>, 
-				<a href="https://msdn.microsoft.com/library/Dd940507(v=VS.85).aspx">Tabs</a> (core and contextual), <a href="https://msdn.microsoft.com/library/Dd940499(v=VS.85).aspx">Groups</a> (containers for controls), and a rich context menu  system (<a href="https://msdn.microsoft.com/library/Dd940493(v=VS.85).aspx">Context Popup</a>).
+				A Ribbon is composed of several components that can include an <a href="https://msdn.microsoft.com/5be93a5b-277b-44c1-be24-a0598a140bfc">Application Menu</a>, the <a href="https://msdn.microsoft.com/b2adf4e9-0de1-4c4d-9293-693d0f7cf6fe">Quick Access Toolbar (QAT)</a>, 
+				<a href="https://msdn.microsoft.com/7315ca96-73c8-4ea1-bce0-172ebc4dd43a">Tabs</a> (core and contextual), <a href="https://msdn.microsoft.com/5d098d3f-a4ee-4f76-8c81-832d0c49cb80">Groups</a> (containers for controls), and a rich context menu  system (<a href="https://msdn.microsoft.com/c41b888a-15aa-4c47-ad73-5dc30b5fa6f9">Context Popup</a>).
 			
 
 
@@ -126,7 +126,7 @@ Writes ribbon settings to a binary stream.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

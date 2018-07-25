@@ -55,7 +55,7 @@ req.product: GDI+ 1.1
 
 The <b>IConsole2::QueryResultView</b> method queries 
 <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a> for the result view object 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer.
+<a href="_com_iunknown">IUnknown</a> interface pointer.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ The <b>IConsole2::QueryResultView</b> method queries
 
 ### -param pUnknown [out]
 
-A pointer to the location of the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer to the result view object.
+A pointer to the location of the <a href="_com_iunknown">IUnknown</a> interface pointer to the result view object.
 
 
 ## -returns

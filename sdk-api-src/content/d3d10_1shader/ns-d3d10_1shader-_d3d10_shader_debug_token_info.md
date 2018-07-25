@@ -98,7 +98,7 @@ Offset to LPCSTR of length <b>TokenLength</b> in string datastore.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://msdn.microsoft.com/b36309e0-1c44-42d9-adcf-33acd753438c">Shader Structures</a>
  
 
  

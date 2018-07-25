@@ -53,7 +53,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>SetColorSpace</b> function defines the input <a href="https://msdn.microsoft.com/library/Aa380689(v=VS.85).aspx">color space</a> for a given device context.
+The <b>SetColorSpace</b> function defines the input <a href="c.htm">color space</a> for a given device context.
 
 
 ## -parameters

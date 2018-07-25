@@ -55,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Translates the specified virtual-key code and keyboard state to the corresponding character or characters. The function translates the code using the input language and physical keyboard layout identified by the keyboard layout handle.
 
-To specify a handle to the keyboard layout to use to translate the specified code, use the <a href="https://msdn.microsoft.com/library/ms646318(v=VS.85).aspx">ToAsciiEx</a> function.
+To specify a handle to the keyboard layout to use to translate the specified code, use the <a href="https://msdn.microsoft.com/6fe5fec1-51e2-4115-9c45-10074d47ec34">ToAsciiEx</a> function.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ To specify a handle to the keyboard layout to use to translate the specified cod
 
 Type: <b>UINT</b>
 
-The virtual-key code to be translated. See <a href="https://msdn.microsoft.com/library/Dd375731(v=VS.85).aspx">Virtual-Key Codes</a>.
+The virtual-key code to be translated. See <a href="https://msdn.microsoft.com/fa8926ad-41b2-4164-9ba3-ae501fd0eef2">Virtual-Key Codes</a>.
 
 
 ### -param uScanCode [in]
@@ -178,11 +178,11 @@ Although NUM LOCK is a toggle key that affects keyboard behavior, <b>ToAscii</b>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646308(v=VS.85).aspx">OemKeyScan</a>
+<a href="https://msdn.microsoft.com/3cea666b-8365-4fa8-a69c-c68e1ffb5439">OemKeyScan</a>
 
 
 
@@ -190,15 +190,15 @@ Although NUM LOCK is a toggle key that affects keyboard behavior, <b>ToAscii</b>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646318(v=VS.85).aspx">ToAsciiEx</a>
+<a href="https://msdn.microsoft.com/6fe5fec1-51e2-4115-9c45-10074d47ec34">ToAsciiEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646320(v=VS.85).aspx">ToUnicode</a>
+<a href="https://msdn.microsoft.com/5fec9aa7-d4ea-4ead-bcff-6beae2e06d5f">ToUnicode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646329(v=VS.85).aspx">VkKeyScan</a>
+<a href="https://msdn.microsoft.com/ad94ff40-131a-4632-97f6-0e80e28a215f">VkKeyScan</a>
  
 
  

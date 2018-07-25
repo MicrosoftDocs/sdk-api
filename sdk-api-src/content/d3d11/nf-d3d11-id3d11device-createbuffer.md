@@ -97,7 +97,7 @@ Type: <b><a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1f
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
               This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the buffer.
@@ -118,7 +118,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRE
         
 
 
-          For a constant buffer (<b>BindFlags</b> of  <a href="https://msdn.microsoft.com/a5e470bb-011b-4a2a-96d6-cbf76fe12638">D3D11_BUFFER_DESC</a> set to <a href="https://msdn.microsoft.com/library/Ff476085(v=VS.85).aspx">D3D11_BIND_CONSTANT_BUFFER</a>), 
+          For a constant buffer (<b>BindFlags</b> of  <a href="https://msdn.microsoft.com/a5e470bb-011b-4a2a-96d6-cbf76fe12638">D3D11_BUFFER_DESC</a> set to <a href="d3d11_bind_flag.htm">D3D11_BIND_CONSTANT_BUFFER</a>), 
           you must set the <b>ByteWidth</b> value of  <b>D3D11_BUFFER_DESC</b> in multiples of 16, and less than or equal to <b>D3D11_REQ_CONSTANT_BUFFER_ELEMENT_COUNT</b>.
         
 
@@ -134,7 +134,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRE
         
 
 
-          The runtime will emulate this feature for <a href="https://msdn.microsoft.com/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1, 9.2, and 9.3; therefore, this feature is supported for feature level 9.1, 9.2, and 9.3.
+          The runtime will emulate this feature for <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.1, 9.2, and 9.3; therefore, this feature is supported for feature level 9.1, 9.2, and 9.3.
           This feature is always available on new drivers for feature level 10 and higher.
           On existing drivers that are implemented to feature level 10 and higher, a call to <b>CreateBuffer</b> to request a constant buffer that is larger than 4096 fails.
         

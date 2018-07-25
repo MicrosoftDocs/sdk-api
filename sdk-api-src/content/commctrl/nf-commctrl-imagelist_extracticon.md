@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Calls the <a href="https://msdn.microsoft.com/library/Bb761548(v=VS.85).aspx">ImageList_GetIcon</a> function to create an icon or cursor based on an image and mask in an image list. 
+Calls the <a href="https://msdn.microsoft.com/53127531-f2ca-4f6e-a439-846db81d362e">ImageList_GetIcon</a> function to create an icon or cursor based on an image and mask in an image list. 
 
 
 ## -parameters
@@ -83,7 +83,7 @@ The index of the image.
 
 
 
-It is the responsibility of the calling application to destroy the icon returned from this function by using the <a href="https://msdn.microsoft.com/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function. 
+It is the responsibility of the calling application to destroy the icon returned from this function by using the <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> function. 
 
 
 

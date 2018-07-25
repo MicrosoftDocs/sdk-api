@@ -80,7 +80,7 @@ Includes <a href="https://msdn.microsoft.com/library/windows/hardware/mt270121">
 
 #### DSOP_FILTER_BUILTIN_GROUPS (4 (0x4))
 
-Includes built-in <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> objects. Built-in groups are group objects with a <a href="https://msdn.microsoft.com/library/JJ151955(v=VS.85).aspx">groupType</a> value that contain the <b>GROUP_TYPE_BUILTIN_LOCAL_GROUP</b> (0x00000001), <b>GROUP_TYPE_RESOURCE_GROUP</b> (0x00000004), and <b>GROUP_TYPE_SECURITY_ENABLED</b> (0x80000000) flags.
+Includes built-in <a href="https://msdn.microsoft.com/library/windows/hardware/dn934674">group</a> objects. Built-in groups are group objects with a <a href="ad.win2k_a_grouptype">groupType</a> value that contain the <b>GROUP_TYPE_BUILTIN_LOCAL_GROUP</b> (0x00000001), <b>GROUP_TYPE_RESOURCE_GROUP</b> (0x00000004), and <b>GROUP_TYPE_SECURITY_ENABLED</b> (0x80000000) flags.
 
 
 
@@ -128,7 +128,7 @@ Includes security <a href="https://msdn.microsoft.com/library/windows/hardware/d
 
 #### DSOP_FILTER_CONTACTS (1024 (0x400))
 
-Includes <a href="https://msdn.microsoft.com/library/Ff800911(v=VS.85).aspx">contact</a> objects.
+Includes <a href="ad.win2k_c_contact">contact</a> objects.
 
 
 

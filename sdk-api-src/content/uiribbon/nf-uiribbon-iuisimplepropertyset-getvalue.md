@@ -66,7 +66,7 @@ req.product: Windows UI
 Type: <b>REFPROPERTYKEY</b>
 
 
-					The <a href="https://msdn.microsoft.com/library/Dd371196(v=VS.85).aspx">Property Key</a> of interest.
+					The <a href="https://msdn.microsoft.com/12bc7fda-ff69-4316-8baf-cc97e19a231c">Property Key</a> of interest.
 				
 
 
@@ -98,9 +98,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 #### Examples
 
-The following example demonstrates a custom implementation of  <a href="https://msdn.microsoft.com/library/Dd371358(v=VS.85).aspx">IUISimplePropertySet</a> for both item and Command galleries.
+The following example demonstrates a custom implementation of  <a href="https://msdn.microsoft.com/599c4cdf-6c91-473c-904f-b264391c94ed">IUISimplePropertySet</a> for both item and Command galleries.
 
-The CItemProperties class in this example is derived from <a href="https://msdn.microsoft.com/library/Dd371358(v=VS.85).aspx">IUISimplePropertySet</a> and, in addition to the required method <b>IUISimplePropertySet::GetValue</b>, implements a set of helper functions for initialization and index tracking.
+The CItemProperties class in this example is derived from <a href="https://msdn.microsoft.com/599c4cdf-6c91-473c-904f-b264391c94ed">IUISimplePropertySet</a> and, in addition to the required method <b>IUISimplePropertySet::GetValue</b>, implements a set of helper functions for initialization and index tracking.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -209,15 +209,15 @@ private:
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371358(v=VS.85).aspx">IUISimplePropertySet</a>
+<a href="https://msdn.microsoft.com/599c4cdf-6c91-473c-904f-b264391c94ed">IUISimplePropertySet</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371196(v=VS.85).aspx">Property Keys</a>
+<a href="https://msdn.microsoft.com/12bc7fda-ff69-4316-8baf-cc97e19a231c">Property Keys</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

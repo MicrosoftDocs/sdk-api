@@ -62,7 +62,7 @@ The <b>IControlbar::Detach</b> method breaks the association between a control a
 ### -param lpUnknown [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface on the control object that represents the control removed.
+<a href="_com_iunknown">IUnknown</a> interface on the control object that represents the control removed.
 
 
 ## -returns

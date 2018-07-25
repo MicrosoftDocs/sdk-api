@@ -69,8 +69,8 @@ Handle returned from a previous call to
 <a href="https://msdn.microsoft.com/caaff8e8-7db9-4d6d-8ba2-d8d19475173a">HttpOpenRequest</a> (using the GET or HEAD HTTP verb and passed to 
 <a href="https://msdn.microsoft.com/f53d9ff7-43b1-452f-a6cb-754d0229ab9a">HttpSendRequest</a> or 
 <a href="https://msdn.microsoft.com/3362fcd2-e8df-4886-9525-bf60589b2c1f">HttpSendRequestEx</a>). This handle must not have been created with the 
-<a href="https://msdn.microsoft.com/library/Aa383661(v=VS.85).aspx">INTERNET_FLAG_DONT_CACHE</a> or 
-<a href="https://msdn.microsoft.com/library/Aa383661(v=VS.85).aspx">INTERNET_FLAG_NO_CACHE_WRITE</a> value set.
+<a href="api_flags.htm">INTERNET_FLAG_DONT_CACHE</a> or 
+<a href="api_flags.htm">INTERNET_FLAG_NO_CACHE_WRITE</a> value set.
 
 
 ### -param lDistanceToMove [in]

@@ -150,7 +150,7 @@ The <b>IMSVidAudioRendererEvent2</b> interface has these methods.
 </td>
 <td align="left" width="63%">
 
-            Indicates a change in the <a href="https://msdn.microsoft.com/library/Dd742710(v=VS.85).aspx">AVDecCommonMeanBitRate</a> property.
+            Indicates a change in the <a href="dshow.avdeccommonmeanbitrate_property">AVDecCommonMeanBitRate</a> property.
           
 
 </td>

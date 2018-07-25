@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>ConnectedSubmit</b> method submits a single fax document to the connected <a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a>. The method returns an array of fax job ID strings, one for each recipient of the fax.
+The <b>ConnectedSubmit</b> method submits a single fax document to the connected <a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>. The method returns an array of fax job ID strings, one for each recipient of the fax.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The <b>ConnectedSubmit</b> method submits a single fax document to the connected
 
 Type: <b>FaxServer*</b>
 
-A <a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a> object that specifies a connected fax server.
+A <a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a> object that specifies a connected fax server.
 
 
 ## -returns
@@ -94,11 +94,11 @@ Type: <b>Variant*</b>
 
 
 
-<div class="alert"><b>Note</b>  To succeed, the <b>ConnectedSubmit</b> method requires that the <a href="https://msdn.microsoft.com/library/ms685958(v=VS.85).aspx">FaxDocument</a> object have at least one recipient, and either a cover page or a fax body. You can only use this method if the server (remote or local) is installed as a network printer on the local computer.</div>
+<div class="alert"><b>Note</b>  To succeed, the <b>ConnectedSubmit</b> method requires that the <a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a> object have at least one recipient, and either a cover page or a fax body. You can only use this method if the server (remote or local) is installed as a network printer on the local computer.</div>
 <div> </div>
-This method is not supported for a remote connection to a fax server running Windows XP Home Edition or Windows XP Professional, and will return the error: <a href="https://msdn.microsoft.com/library/ms693490(v=VS.85).aspx">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>.
+This method is not supported for a remote connection to a fax server running Windows XP Home Edition or Windows XP Professional, and will return the error: <a href="https://msdn.microsoft.com/b5d59fec-2802-40bd-8ce4-748137f30fb2">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>.
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farSUBMIT_LOW</a>, <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farSUBMIT_NORMAL</a>, or <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farSUBMIT_HIGH</a> access right, depending on the <a href="https://msdn.microsoft.com/library/ms687026(v=VS.85).aspx">Priority</a> of the fax document.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_LOW</a>, <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_NORMAL</a>, or <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_HIGH</a> access right, depending on the <a href="https://msdn.microsoft.com/e3dc385d-51e6-4174-b1a5-ff48bde19995">Priority</a> of the fax document.
 
 
 
@@ -108,15 +108,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/ms685958(v=VS.85).aspx">FaxDocument</a>
+<a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms685960(v=VS.85).aspx">IFaxDocument</a>
+<a href="https://msdn.microsoft.com/926f01ab-66a7-49c8-95cf-7f80925401be">IFaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/347943cc-a417-469e-a936-8da5601e752f">Visual Basic Example</a>
  
 
  

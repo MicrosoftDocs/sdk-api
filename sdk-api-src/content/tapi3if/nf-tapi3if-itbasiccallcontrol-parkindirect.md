@@ -166,7 +166,7 @@ The parked call enters the disconnected state after it has been successfully par
 Some switches can remind the user after a call has been parked for some long amount of time. The application sees an offering call with a call reason set to reminder.
 
 The application must use 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppNonDirAddress</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppNonDirAddress</i> parameter.
 			
 
 
