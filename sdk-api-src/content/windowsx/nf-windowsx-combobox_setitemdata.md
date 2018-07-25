@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the application-defined value associated with the specified list item in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/8be9eb57-a635-4c52-9838-556368813c74">CB_SETITEMDATA</a> message explicitly.
+Sets the application-defined value associated with the specified list item in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775909(v=VS.85).aspx">CB_SETITEMDATA</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ The item data to set.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/8be9eb57-a635-4c52-9838-556368813c74">CB_SETITEMDATA</a>.
+For more information, see <a href="https://msdn.microsoft.com/library/Bb775909(v=VS.85).aspx">CB_SETITEMDATA</a>.
 	
 
 

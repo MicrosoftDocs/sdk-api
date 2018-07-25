@@ -120,7 +120,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must free <i>ppName</i> through 
-<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when the variable is no longer needed.
+<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> when the variable is no longer needed.
 
 
 

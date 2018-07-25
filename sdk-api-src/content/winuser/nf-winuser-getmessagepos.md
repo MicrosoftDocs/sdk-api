@@ -59,11 +59,11 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Retrieves the cursor position for the last message retrieved by the <a href="https://msdn.microsoft.com/e92266a7-86ac-43f4-b0eb-762e145a1017">GetMessage</a> function.
+Retrieves the cursor position for the last message retrieved by the <a href="https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx">GetMessage</a> function.
 
 			
 
-To determine the current position of the cursor, use the <a href="https://msdn.microsoft.com/c76370d3-741a-4192-97d4-d63d2885b36b">GetCursorPos</a> function.
+To determine the current position of the cursor, use the <a href="https://msdn.microsoft.com/library/ms648390(v=VS.85).aspx">GetCursorPos</a> function.
 
 
 ## -parameters
@@ -89,9 +89,9 @@ The return value specifies the x- and y-coordinates of the cursor position. The 
 
 
 
-As noted above, the x-coordinate is in the low-order <b>short</b> of the return value; the y-coordinate is in the high-order <b>short</b> (both represent <i>signed</i> values because they can take negative values on systems with multiple monitors). If the return value is assigned to a variable, you can use the <a href="https://msdn.microsoft.com/1f84cfd0-2836-4c20-9408-17e0d57742be">MAKEPOINTS</a> macro to obtain a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a> structure from the return value. You can also use the <a href="https://msdn.microsoft.com/40f7dde6-1486-4050-b9b6-ffc2ed9982a9">GET_X_LPARAM</a> or <a href="https://msdn.microsoft.com/eaf1b26d-14e7-45e9-bdd1-79258c5f9701">GET_Y_LPARAM</a> macro to extract the x- or y-coordinate. 
+As noted above, the x-coordinate is in the low-order <b>short</b> of the return value; the y-coordinate is in the high-order <b>short</b> (both represent <i>signed</i> values because they can take negative values on systems with multiple monitors). If the return value is assigned to a variable, you can use the <a href="https://msdn.microsoft.com/1f84cfd0-2836-4c20-9408-17e0d57742be">MAKEPOINTS</a> macro to obtain a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569167">POINTS</a> structure from the return value. You can also use the <a href="https://msdn.microsoft.com/library/ms632654(v=VS.85).aspx">GET_X_LPARAM</a> or <a href="https://msdn.microsoft.com/library/ms632655(v=VS.85).aspx">GET_Y_LPARAM</a> macro to extract the x- or y-coordinate. 
 
-<div class="alert"><b>Important</b>  Do not use the <a href="https://msdn.microsoft.com/4f169f33-ed13-4efc-bf3f-ea2a4fe1de4e">LOWORD</a> or <a href="https://msdn.microsoft.com/9f79d489-ff3f-437c-821e-fd353d712c7b">HIWORD</a> macros to extract the x- and y- coordinates of the cursor position because these macros return incorrect results on systems with multiple monitors. Systems with multiple monitors can have negative x- and y- coordinates, and <b>LOWORD</b> and <b>HIWORD</b> treat the coordinates as unsigned quantities.</div>
+<div class="alert"><b>Important</b>  Do not use the <a href="https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx">LOWORD</a> or <a href="https://msdn.microsoft.com/library/ms632657(v=VS.85).aspx">HIWORD</a> macros to extract the x- and y- coordinates of the cursor position because these macros return incorrect results on systems with multiple monitors. Systems with multiple monitors can have negative x- and y- coordinates, and <b>LOWORD</b> and <b>HIWORD</b> treat the coordinates as unsigned quantities.</div>
 <div> </div>
 
 
@@ -105,23 +105,23 @@ As noted above, the x-coordinate is in the low-order <b>short</b> of the return 
 
 
 
-<a href="https://msdn.microsoft.com/c76370d3-741a-4192-97d4-d63d2885b36b">GetCursorPos</a>
+<a href="https://msdn.microsoft.com/library/ms648390(v=VS.85).aspx">GetCursorPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/e92266a7-86ac-43f4-b0eb-762e145a1017">GetMessage</a>
+<a href="https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx">GetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/e65edd3d-e64e-41a6-bf38-d79663b673e9">GetMessageTime</a>
+<a href="https://msdn.microsoft.com/library/ms644939(v=VS.85).aspx">GetMessageTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f79d489-ff3f-437c-821e-fd353d712c7b">HIWORD</a>
+<a href="https://msdn.microsoft.com/library/ms632657(v=VS.85).aspx">HIWORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f169f33-ed13-4efc-bf3f-ea2a4fe1de4e">LOWORD</a>
+<a href="https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx">LOWORD</a>
 
 
 
@@ -129,7 +129,7 @@ As noted above, the x-coordinate is in the low-order <b>short</b> of the return 
 
 
 
-<a href="https://msdn.microsoft.com/885bb607-3ec0-4e24-9f55-fbdfb1c538a1">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
 
 
 

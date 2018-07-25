@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-Takes the HPROPSHEETPAGE handle of a property sheet page and returns its zero-based index. You can use this macro or send the <a href="https://msdn.microsoft.com/f893b504-7b46-4bce-9598-79522825d43c">PSM_PAGETOINDEX</a> message explicitly.
+Takes the HPROPSHEETPAGE handle of a property sheet page and returns its zero-based index. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774595(v=VS.85).aspx">PSM_PAGETOINDEX</a> message explicitly.
 
 
 ## -parameters
@@ -92,11 +92,11 @@ Handle to the property sheet.
 
 
 
-<a href="https://msdn.microsoft.com/fb7ca67a-7dff-4e1d-a303-5da87d8bbd2b">CreatePropertySheetPage</a>
+<a href="https://msdn.microsoft.com/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2b8b8c6-5225-486d-ba65-c87f116b974f">PropSheet_IndexToPage</a>
+<a href="https://msdn.microsoft.com/library/Bb774658(v=VS.85).aspx">PropSheet_IndexToPage</a>
 
 
 

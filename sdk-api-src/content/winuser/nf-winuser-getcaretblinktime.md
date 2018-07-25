@@ -87,7 +87,7 @@ A return value is zero indicates that the function has failed.
 
 
 
-<a href="https://msdn.microsoft.com/34ff3420-a1d2-46cc-9378-4b3340bec8c8">Carets</a>
+<a href="https://msdn.microsoft.com/library/ms646968(v=VS.85).aspx">Carets</a>
 
 
 
@@ -99,7 +99,7 @@ A return value is zero indicates that the function has failed.
 
 
 
-<a href="https://msdn.microsoft.com/f3109f0f-f6b8-4ea6-9159-cc31489eaf88">SetCaretBlinkTime</a>
+<a href="https://msdn.microsoft.com/library/ms648404(v=VS.85).aspx">SetCaretBlinkTime</a>
  
 
  

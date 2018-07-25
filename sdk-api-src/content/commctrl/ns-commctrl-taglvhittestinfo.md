@@ -51,7 +51,7 @@ req.irql:
 
 
 
-      Contains information about a hit test. This structure has been extended to accommodate subitem hit-testing. It is used in association with the <a href="https://msdn.microsoft.com/81df4ed1-30bd-4b63-9cb9-5163cb7cf52c">LVM_HITTEST</a> and <a href="https://msdn.microsoft.com/1468febb-af0d-4c04-b0b1-cda5ec77aa2c">LVM_SUBITEMHITTEST</a> messages and their related macros. This structure supersedes the 
+      Contains information about a hit test. This structure has been extended to accommodate subitem hit-testing. It is used in association with the <a href="https://msdn.microsoft.com/library/Bb761099(v=VS.85).aspx">LVM_HITTEST</a> and <a href="https://msdn.microsoft.com/library/Bb761229(v=VS.85).aspx">LVM_SUBITEMHITTEST</a> messages and their related macros. This structure supersedes the 
 			<b>LVHITTESTINFO</b> structure. 
 
 

@@ -125,7 +125,7 @@ if(size.Empty())
 
 
 
-<a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec01f1051f">SizeF</a>
+<a href="https://msdn.microsoft.com/library/ms534506(v=VS.85).aspx">SizeF</a>
  
 
  

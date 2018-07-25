@@ -77,8 +77,8 @@ A pointer to a variable that receives a locally unique identifier (<a href="http
 <b>GetSharedResourceAdapterLuid</b> returns:
         <ul>
 <li>S_OK if it  identified the adapter.</li>
-<li><a href="dxgi_error.htm">DXGI_ERROR_INVALID_CALL</a> if <i>hResource</i> is invalid.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
+<li><a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a> if <i>hResource</i> is invalid.</li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
 </ul>
 
 

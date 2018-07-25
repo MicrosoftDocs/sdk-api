@@ -93,11 +93,11 @@ Copy mode is used to copy the Ink.
 
 You can use the DelayedCopy flag to interact directly with the data object and add additional formats to the clipboard.
 
-<div class="alert"><b>Caution</b>  To avoid potential memory leaks as a result of using the <b>DelayedCopy</b> flag, you must call the <a href="_ole_OleFlushClipboard">OleFlushClipboard</a> or <a href="_ole_OleSetClipboard">OleSetClipboard</a> method. This must be done before the application exits if the last call to the <a href="https://msdn.microsoft.com/ad62c9b3-6df6-445b-9085-7cd5c4b6b31f">ClipboardCopy</a> method used the <b>DelayedCopy</b> flag.</div>
+<div class="alert"><b>Caution</b>  To avoid potential memory leaks as a result of using the <b>DelayedCopy</b> flag, you must call the <a href="https://msdn.microsoft.com/library/ms679707(v=VS.85).aspx">OleFlushClipboard</a> or <a href="https://msdn.microsoft.com/library/ms686623(v=VS.85).aspx">OleSetClipboard</a> method. This must be done before the application exits if the last call to the <a href="https://msdn.microsoft.com/ad62c9b3-6df6-445b-9085-7cd5c4b6b31f">ClipboardCopy</a> method used the <b>DelayedCopy</b> flag.</div>
 <div> </div>
-To remove the pointer from the clipboard, the parameter for the <a href="_ole_OleSetClipboard">OleSetClipboard</a> should be <b>NULL</b>. For the <a href="frlrfSystemWindowsFormsClipboardClassSetDataObjectTopic">SetDataObject</a> method, the <i>data</i> parameter should be <b>NULL</b>, and the <i>copy</i> parameter should be <b>TRUE</b>.
+To remove the pointer from the clipboard, the parameter for the <a href="https://msdn.microsoft.com/library/ms686623(v=VS.85).aspx">OleSetClipboard</a> should be <b>NULL</b>. For the <a href="https://msdn.microsoft.com/library/Hh706940(v=VS.85).aspx">SetDataObject</a> method, the <i>data</i> parameter should be <b>NULL</b>, and the <i>copy</i> parameter should be <b>TRUE</b>.
 
-The <a href="_ole_OleSetClipboard">OleSetClipboard</a> and <a href="frlrfSystemWindowsFormsClipboardClassSetDataObjectTopic">SetDataObject</a> methods replace the contents of the clipboard.
+The <a href="https://msdn.microsoft.com/library/ms686623(v=VS.85).aspx">OleSetClipboard</a> and <a href="https://msdn.microsoft.com/library/Hh706940(v=VS.85).aspx">SetDataObject</a> methods replace the contents of the clipboard.
 
 
 

@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the scroll position for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/b882ea2d-9dab-4d36-9201-29522141f779">PGM_SETPOS</a> message explicitly. 
+Sets the scroll position for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760886(v=VS.85).aspx">PGM_SETPOS</a> message explicitly. 
 
 
 ## -parameters

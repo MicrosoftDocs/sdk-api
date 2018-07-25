@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the state of a specified list-view item. Use this macro or send the <a href="https://msdn.microsoft.com/9fea6420-320a-4d2a-84b5-7923fbb14655">LVM_SETITEMINDEXSTATE</a> message explicitly.
+Sets the state of a specified list-view item. Use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761190(v=VS.85).aspx">LVM_SETITEMINDEXSTATE</a> message explicitly.
 
 
 ## -parameters
@@ -67,21 +67,21 @@ A handle to the list-view control.
 
 ### -param plvii [in]
 
-Type: <b><a href="https://msdn.microsoft.com/62d28e14-fa0d-42c8-9f8e-afc0cfdff3e3">LVITEMINDEX</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb774762(v=VS.85).aspx">LVITEMINDEX</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/62d28e14-fa0d-42c8-9f8e-afc0cfdff3e3">LVITEMINDEX</a> structure for the item. The caller is responsible for allocating this structure and setting the members.
+A pointer to an <a href="https://msdn.microsoft.com/library/Bb774762(v=VS.85).aspx">LVITEMINDEX</a> structure for the item. The caller is responsible for allocating this structure and setting the members.
 
 
 ### -param data [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The state to set on the item as one or more (as a bitwise combination) of the <a href="https://msdn.microsoft.com/21827f4a-f133-489b-bbd2-6979d1928b40">List-View Item States</a> flags.
+The state to set on the item as one or more (as a bitwise combination) of the <a href="https://msdn.microsoft.com/library/Bb774733(v=VS.85).aspx">List-View Item States</a> flags.
 
 
 ### -param mask [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The valid bits of the state specified by parameter <i>data</i>. For more information, see the <i>stateMask</i> member of the <a href="https://msdn.microsoft.com/4141a2ee-9016-4d76-8758-a36fc6eedb44">LVITEM</a>) structure.
+The valid bits of the state specified by parameter <i>data</i>. For more information, see the <i>stateMask</i> member of the <a href="https://msdn.microsoft.com/library/Bb774760(v=VS.85).aspx">LVITEM</a>) structure.
 

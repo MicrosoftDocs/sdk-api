@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Removes an item from a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/54bfa446-580a-4ea7-b5e9-9429f4ee1c2b">TCM_DELETEITEM</a> message explicitly. 
+Removes an item from a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760577(v=VS.85).aspx">TCM_DELETEITEM</a> message explicitly. 
 
 
 ## -parameters

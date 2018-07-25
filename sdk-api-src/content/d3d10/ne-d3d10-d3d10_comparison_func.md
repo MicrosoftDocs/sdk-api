@@ -102,7 +102,7 @@ Always pass the comparison.
 
 
 
-A comparison option determines whether how the runtime compares source (new) data against destination (existing) data before storing the new data. The comparison option is declared in a description before an object is created. The API allows you to set a comparison option for a depth-stencil buffer (see <a href="https://msdn.microsoft.com/5337bb50-95ce-47cd-bda5-2828bf3f85d0">D3D10_DEPTH_STENCIL_DESC</a>), depth-stencil operations (see <a href="https://msdn.microsoft.com/d7fac8af-cd84-4aae-9e62-d5394e79f53c">D3D10_DEPTH_STENCILOP_DESC</a>), or sampler state (see <a href="https://msdn.microsoft.com/b97db311-de57-45f3-a6dd-8af768b2680d">D3D10_SAMPLER_DESC</a>).
+A comparison option determines whether how the runtime compares source (new) data against destination (existing) data before storing the new data. The comparison option is declared in a description before an object is created. The API allows you to set a comparison option for a depth-stencil buffer (see <a href="https://msdn.microsoft.com/library/Bb205036(v=VS.85).aspx">D3D10_DEPTH_STENCIL_DESC</a>), depth-stencil operations (see <a href="https://msdn.microsoft.com/library/Bb205035(v=VS.85).aspx">D3D10_DEPTH_STENCILOP_DESC</a>), or sampler state (see <a href="https://msdn.microsoft.com/library/Bb172415(v=VS.85).aspx">D3D10_SAMPLER_DESC</a>).
 
 
 
@@ -112,7 +112,7 @@ A comparison option determines whether how the runtime compares source (new) dat
 
 
 
-<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
  
 
  

@@ -102,7 +102,7 @@ Indicates that an extension item on a context menu was selected.
 
 
 
-<a href="_ole_idataobject">IDataObject</a>
+<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a>
 
 
 

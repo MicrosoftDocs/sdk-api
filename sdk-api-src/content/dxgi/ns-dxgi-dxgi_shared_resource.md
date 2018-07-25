@@ -70,7 +70,7 @@ A handle to a shared resource.
 
 
 
-To create a shared surface, pass a shared-resource handle into the <a href="https://msdn.microsoft.com/d0effc0a-0ec9-4350-ac44-c64c29984a02">IDXGIDevice::CreateSurface</a> method.
+To create a shared surface, pass a shared-resource handle into the <a href="https://msdn.microsoft.com/library/Bb174530(v=VS.85).aspx">IDXGIDevice::CreateSurface</a> method.
 
 
 

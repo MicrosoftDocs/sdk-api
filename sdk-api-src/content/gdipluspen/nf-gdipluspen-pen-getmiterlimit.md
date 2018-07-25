@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Pen::GetMiterLimit</b> method gets the miter length currently set for this 
-			<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object.
+			<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Type: <strong>Type: <b>REAL</b>
 </strong>
 
 This method returns a real number that indicates the miter limit of this 
-						<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object.
+						<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object.
 
 
 
@@ -87,7 +87,7 @@ The miter length is the distance from the intersection of the line walls on the 
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object and gets the miter limit.
+						<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a> object and gets the miter limit.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -108,19 +108,19 @@ REAL miterLimit = pen.GetMiterLimit(); </pre>
 
 
 
-<a href="https://msdn.microsoft.com/4ec3e76a-2531-4869-a5b0-c595198e8345">Joining Lines</a>
+<a href="https://msdn.microsoft.com/library/ms533853(v=VS.85).aspx">Joining Lines</a>
 
 
 
-<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a>
+<a href="https://msdn.microsoft.com/library/ms534485(v=VS.85).aspx">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/2fd2ac24-40e6-49a6-a514-1233e2075f45">Pen::SetMiterLimit</a>
+<a href="https://msdn.microsoft.com/library/ms535054(v=VS.85).aspx">Pen::SetMiterLimit</a>
 
 
 
-<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
  
 
  

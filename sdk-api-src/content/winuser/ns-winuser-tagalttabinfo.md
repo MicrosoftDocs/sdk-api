@@ -131,7 +131,7 @@ The top-left corner of the first icon.
 
 
 
-<a href="https://msdn.microsoft.com/ff708599-50ad-4c5c-bc6c-532f1e9e730c">GetAltTabInfo</a>
+<a href="https://msdn.microsoft.com/library/ms633501(v=VS.85).aspx">GetAltTabInfo</a>
 
 
 

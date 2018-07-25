@@ -103,7 +103,7 @@ If <b>TRUE</b>, the AutoWordSelect feature is enabled.
 </dl>
 </td>
 <td width="60%">
-If <b>TRUE</b>, the backstyle changed. See <a href="https://msdn.microsoft.com/03decbb6-b272-4ba0-a902-013aa0dde18e">TxGetBackStyle</a>.
+If <b>TRUE</b>, the backstyle changed. See <a href="https://msdn.microsoft.com/library/Bb787648(v=VS.85).aspx">TxGetBackStyle</a>.
 
 </td>
 </tr>
@@ -218,7 +218,7 @@ If <b>TRUE</b>, the maximum length for text in the control changed.
 <td width="60%">
 If <b>TRUE</b>, the text services object should work in multiline mode. Use the <b>TXTBIT_WORDWRAP</b> value to determine whether to wrap the lines to the view rectangle or clip them.
 
-If <b>FALSE</b>, the text services object should not process a carriage return/line feed from the ENTER key and it should truncate incoming text containing hard line breaks just before the first line break. It is also acceptable to truncate text that is set with <a href="https://msdn.microsoft.com/29be3eba-285c-4297-b692-0a5fcb4797c6">ITextServices::TxSetText</a>, because it is the responsibility of the host not to use a single-line control when bound to a multiline field.
+If <b>FALSE</b>, the text services object should not process a carriage return/line feed from the ENTER key and it should truncate incoming text containing hard line breaks just before the first line break. It is also acceptable to truncate text that is set with <a href="https://msdn.microsoft.com/library/Bb787685(v=VS.85).aspx">ITextServices::TxSetText</a>, because it is the responsibility of the host not to use a single-line control when bound to a multiline field.
 
 </td>
 </tr>
@@ -248,7 +248,7 @@ If <b>TRUE</b>, the paragraph format changed.
 </dl>
 </td>
 <td width="60%">
-If <b>TRUE</b>, the text services object should not accept any editing change through the user interface. However, it should still accept programmatic changes through <a href="https://msdn.microsoft.com/1ba9e4c0-7870-4057-8a8b-d0e6577349ac">EM_SETTEXTEX</a>, 	<a href="https://msdn.microsoft.com/525e6f5a-f52f-4bab-bc76-caa484729897">EM_REPLACESEL</a>, and <a href="https://msdn.microsoft.com/29be3eba-285c-4297-b692-0a5fcb4797c6">ITextServices::TxSetText</a>. Also, the user should still be able to move the insertion point, select text, and carry out other operations that don't modify content, such as Copy.
+If <b>TRUE</b>, the text services object should not accept any editing change through the user interface. However, it should still accept programmatic changes through <a href="https://msdn.microsoft.com/library/Bb774284(v=VS.85).aspx">EM_SETTEXTEX</a>, 	<a href="https://msdn.microsoft.com/library/Bb761633(v=VS.85).aspx">EM_REPLACESEL</a>, and <a href="https://msdn.microsoft.com/library/Bb787685(v=VS.85).aspx">ITextServices::TxSetText</a>. Also, the user should still be able to move the insertion point, select text, and carry out other operations that don't modify content, such as Copy.
 
 </td>
 </tr>
@@ -306,7 +306,7 @@ If <b>TRUE</b>, the selection bar width has changed
 <td width="60%">
 If set, the accelerator character should be underlined.
 
-This must be set in order to call <a href="https://msdn.microsoft.com/c0658f73-edab-4540-a560-110e277b8d27">TxGetAcceleratorPos</a>.
+This must be set in order to call <a href="https://msdn.microsoft.com/library/Bb787646(v=VS.85).aspx">TxGetAcceleratorPos</a>.
 
 </td>
 </tr>
@@ -336,7 +336,7 @@ Not supported.
 </dl>
 </td>
 <td width="60%">
-If <b>TRUE</b>, display text using the password character obtained by <a href="https://msdn.microsoft.com/f2208eca-13f7-4ba3-a642-9c66e7e89f59">TxGetPasswordChar</a>.
+If <b>TRUE</b>, display text using the password character obtained by <a href="https://msdn.microsoft.com/library/Bb787691(v=VS.85).aspx">TxGetPasswordChar</a>.
 
 The notification on this property can mean either that the password character changed or that the password character was not used before but is used now (or vice versa).
 
@@ -416,7 +416,7 @@ Not implemented.
 
 The client rectangle is the rectangle that the text services object is responsible for painting and managing. The host relies on the text services object for painting that area. The text services object must not paint or invalidate areas outside of that rectangle. In addition, the host will forward mouse messages to the text services object when the cursor is over this rectangle. This rectangle is expressed in client coordinates of the containing window.
 
-The view inset is the amount of space on each side between the client rectangle and the view rectangle. The view rectangle (also called the Formatting rectangle) is the rectangle in which the text should be formatted. For more information, see <a href="https://msdn.microsoft.com/78f68d49-15b2-443a-a92a-d0c1c8d0e9e8">TxGetViewInset</a>.
+The view inset is the amount of space on each side between the client rectangle and the view rectangle. The view rectangle (also called the Formatting rectangle) is the rectangle in which the text should be formatted. For more information, see <a href="https://msdn.microsoft.com/library/Bb787700(v=VS.85).aspx">TxGetViewInset</a>.
 
 The backstyle is the style of the background of the client rectangle. It can be either TXTBACK_TRANSPARENT or TXTBACK_SOLID. See <b>TXTBACKSTYLE</b>.
 
@@ -434,7 +434,7 @@ The scroll bar property indicates changes to the scroll bar: which scroll bar is
 
 
 
-<a href="https://msdn.microsoft.com/b0bc844f-2d20-4e67-84c5-0a5313bf6dee">ITextServices</a>
+<a href="https://msdn.microsoft.com/library/Bb787617(v=VS.85).aspx">ITextServices</a>
 
 
 
@@ -450,27 +450,27 @@ The scroll bar property indicates changes to the scroll bar: which scroll bar is
 
 
 
-<a href="https://msdn.microsoft.com/c0658f73-edab-4540-a560-110e277b8d27">TxGetAcceleratorPos</a>
+<a href="https://msdn.microsoft.com/library/Bb787646(v=VS.85).aspx">TxGetAcceleratorPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/03decbb6-b272-4ba0-a902-013aa0dde18e">TxGetBackStyle</a>
+<a href="https://msdn.microsoft.com/library/Bb787648(v=VS.85).aspx">TxGetBackStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b1d8dbf-73b7-4a0d-8bb0-14e506de6aaf">TxGetClientRect</a>
+<a href="https://msdn.microsoft.com/library/Bb787656(v=VS.85).aspx">TxGetClientRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2208eca-13f7-4ba3-a642-9c66e7e89f59">TxGetPasswordChar</a>
+<a href="https://msdn.microsoft.com/library/Bb787691(v=VS.85).aspx">TxGetPasswordChar</a>
 
 
 
-<a href="https://msdn.microsoft.com/29be3eba-285c-4297-b692-0a5fcb4797c6">TxSetText</a>
+<a href="https://msdn.microsoft.com/library/Bb787685(v=VS.85).aspx">TxSetText</a>
 
 
 
-<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
  
 
  

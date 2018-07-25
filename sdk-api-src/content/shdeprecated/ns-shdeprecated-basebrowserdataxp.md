@@ -86,9 +86,9 @@ A pointer to the browser's <a href="_inet_IHlinkFrame_Interface_cpp">IHlinkFrame
 
 ### -field _pautoWB2
 
-Type: <b><a href="https://msdn.microsoft.com/49b33ff9-f45c-4883-b31a-39e06b759b77">IWebBrowser2</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Mt725309(v=VS.85).aspx">IWebBrowser2</a>*</b>
 
-A pointer to the browser's <a href="https://msdn.microsoft.com/49b33ff9-f45c-4883-b31a-39e06b759b77">IWebBrowser2</a> object.
+A pointer to the browser's <a href="https://msdn.microsoft.com/library/Mt725309(v=VS.85).aspx">IWebBrowser2</a> object.
 
 
 ### -field _pautoEDS

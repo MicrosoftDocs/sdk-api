@@ -77,5 +77,5 @@ Variable of type <b>ULONG</b> that specifies the count of property values to whi
 
 Type: <b>LPSPropValue</b>
 
-Pointer to an array of variables of type <a href="https://msdn.microsoft.com/cff1b41d-fc53-4987-8823-04cbd51e811b">SPropValue</a> that describe the property values for the columns in the row.
+Pointer to an array of variables of type <a href="https://msdn.microsoft.com/library/ms629450(v=VS.85).aspx">SPropValue</a> that describe the property values for the columns in the row.
 

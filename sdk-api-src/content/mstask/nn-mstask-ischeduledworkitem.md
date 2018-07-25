@@ -53,7 +53,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Provides the methods for managing specific <a href="w.htm">work items</a>.
+Provides the methods for managing specific <a href="https://msdn.microsoft.com/library/Aa381060(v=VS.85).aspx">work items</a>.
 
 
 ## -inheritance
@@ -76,7 +76,7 @@ The <b>IScheduledWorkItem</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ff8c9c3b-697f-42f0-a5b5-6194e4c89096">CreateTrigger</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="t.htm">trigger</a> using a work item object.
+Creates a <a href="https://msdn.microsoft.com/library/Aa381052(v=VS.85).aspx">trigger</a> using a work item object.
 
 </td>
 </tr>
@@ -211,7 +211,7 @@ Retrieves the status of the work item.
 <a href="https://msdn.microsoft.com/f99b342c-9233-43e3-93f1-88586e975608">GetTrigger</a>
 </td>
 <td align="left" width="63%">
-Retrieves a <a href="t.htm">trigger structure</a>.
+Retrieves a <a href="https://msdn.microsoft.com/library/Aa381052(v=VS.85).aspx">trigger structure</a>.
 
 </td>
 </tr>
@@ -229,7 +229,7 @@ Retrieves the number of triggers associated with a work item.
 <a href="https://msdn.microsoft.com/5e342807-4796-449b-b490-815ce57f4d8f">GetTriggerString</a>
 </td>
 <td align="left" width="63%">
-Retrieves a <a href="t.htm">trigger string</a>.
+Retrieves a <a href="https://msdn.microsoft.com/library/Aa381052(v=VS.85).aspx">trigger string</a>.
 
 </td>
 </tr>
@@ -310,7 +310,7 @@ Sets the flags that modify the behavior of the work item.
 <a href="https://msdn.microsoft.com/f7ad639a-4094-4621-9add-b89958c0bda4">SetIdleWait</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="i.htm">idle wait time</a> for the work item.
+Sets the <a href="https://msdn.microsoft.com/library/Aa381016(v=VS.85).aspx">idle wait time</a> for the work item.
 
 </td>
 </tr>

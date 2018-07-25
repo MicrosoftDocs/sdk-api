@@ -105,11 +105,11 @@ The property bag property function API converts between windows types and the <b
 
 
 
-<a href="shell.PSGetPropertySystem">PSGetPropertySystem</a>
+<a href="https://msdn.microsoft.com/library/Bb762082(v=VS.85).aspx">PSGetPropertySystem</a>
 
 
 
-<a href="shell.PSPropertyBag_WriteBOOL">PSPropertyBag_WriteBOOL</a>
+<a href="https://msdn.microsoft.com/library/Ee845067(v=VS.85).aspx">PSPropertyBag_WriteBOOL</a>
  
 
  

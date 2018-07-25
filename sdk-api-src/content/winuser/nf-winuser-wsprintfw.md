@@ -54,7 +54,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 Writes formatted data to the specified buffer. Any arguments are converted and copied to the output buffer according to the corresponding format specification in the format string. The function appends a terminating null character to the characters it writes, but the return value does not include the terminating null character in its character count. 
-<div class="alert"><b>Note</b>  Do not use. Consider using one of the following functions instead: <a href="https://msdn.microsoft.com/224c8840-06c6-4144-8f23-8705ac8ef887">StringCbPrintf</a>, <a href="https://msdn.microsoft.com/525e1fb5-9dfd-4ec2-a4af-9b9e198b6e17">StringCbPrintfEx</a>, <a href="https://msdn.microsoft.com/9eaafe87-04da-4273-babb-b16d26bfdf70">StringCchPrintf</a>, or <a href="https://msdn.microsoft.com/e3904cd0-fcb9-4b54-9895-513a95f4a6f7">StringCchPrintfEx</a>. See Security Considerations.</div><div> </div>
+<div class="alert"><b>Note</b>  Do not use. Consider using one of the following functions instead: <a href="https://msdn.microsoft.com/library/ms647510(v=VS.85).aspx">StringCbPrintf</a>, <a href="https://msdn.microsoft.com/library/ms647513(v=VS.85).aspx">StringCbPrintfEx</a>, <a href="https://msdn.microsoft.com/library/ms647541(v=VS.85).aspx">StringCchPrintf</a>, or <a href="https://msdn.microsoft.com/library/ms647543(v=VS.85).aspx">StringCchPrintfEx</a>. See Security Considerations.</div><div> </div>
 
 ## -parameters
 
@@ -292,35 +292,35 @@ To use buffers larger than 1024 bytes, use <b>_snwprintf</b>. For more informati
 
 
 
-<a href="https://msdn.microsoft.com/224c8840-06c6-4144-8f23-8705ac8ef887">StringCbPrintf</a>
+<a href="https://msdn.microsoft.com/library/ms647510(v=VS.85).aspx">StringCbPrintf</a>
 
 
 
-<a href="https://msdn.microsoft.com/525e1fb5-9dfd-4ec2-a4af-9b9e198b6e17">StringCbPrintfEx</a>
+<a href="https://msdn.microsoft.com/library/ms647513(v=VS.85).aspx">StringCbPrintfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6985910-65be-4b68-b410-026cef66c651">StringCbVPrintf</a>
+<a href="https://msdn.microsoft.com/library/ms647514(v=VS.85).aspx">StringCbVPrintf</a>
 
 
 
-<a href="https://msdn.microsoft.com/36f77c17-6244-4357-9361-a04118fcd820">StringCbVPrintfEx</a>
+<a href="https://msdn.microsoft.com/library/ms647516(v=VS.85).aspx">StringCbVPrintfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/9eaafe87-04da-4273-babb-b16d26bfdf70">StringCchPrintf</a>
+<a href="https://msdn.microsoft.com/library/ms647541(v=VS.85).aspx">StringCchPrintf</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3904cd0-fcb9-4b54-9895-513a95f4a6f7">StringCchPrintfEx</a>
+<a href="https://msdn.microsoft.com/library/ms647543(v=VS.85).aspx">StringCchPrintfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/82cc5a7c-e4c5-4a88-9bb5-d3f02dc3d7f5">StringCchVPrintf</a>
+<a href="https://msdn.microsoft.com/library/ms647546(v=VS.85).aspx">StringCchVPrintf</a>
 
 
 
-<a href="https://msdn.microsoft.com/07b4eb68-2b50-4c66-af1a-13cc57144e3a">StringCchVPrintfEx</a>
+<a href="https://msdn.microsoft.com/library/ms647548(v=VS.85).aspx">StringCchVPrintfEx</a>
 
 
 
@@ -328,7 +328,7 @@ To use buffers larger than 1024 bytes, use <b>_snwprintf</b>. For more informati
 
 
 
-<a href="https://msdn.microsoft.com/42edd47f-4adf-42db-a1e0-c2192f5a0f65">wvsprintf</a>
+<a href="https://msdn.microsoft.com/library/ms647551(v=VS.85).aspx">wvsprintf</a>
  
 
  

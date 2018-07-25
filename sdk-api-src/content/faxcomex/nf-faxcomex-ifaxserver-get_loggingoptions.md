@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>LoggingOptions</b> property creates a <a href="https://msdn.microsoft.com/438e4e89-88c9-431d-b774-98e65cf57064">FaxLoggingOptions</a> configuration object. The object permits configuration of both the activity logging options and the event logging categories that the fax service uses.
+The <b>LoggingOptions</b> property creates a <a href="https://msdn.microsoft.com/library/ms686863(v=VS.85).aspx">FaxLoggingOptions</a> configuration object. The object permits configuration of both the activity logging options and the event logging categories that the fax service uses.
 
 This property is read-only.
 
@@ -65,15 +65,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
+<a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>
+<a href="https://msdn.microsoft.com/library/ms689110(v=VS.85).aspx">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/afee6ea0-f63d-4818-9ff0-1887638d232c">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/library/ms693401(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

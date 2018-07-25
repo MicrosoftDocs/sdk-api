@@ -148,7 +148,7 @@ At least one of the required arguments was a <b>NULL</b> pointer.
 
 
 
-<a href="wpdsdk.iportabledevicecontent">IPortableDeviceContent Interface</a>
+<a href="https://msdn.microsoft.com/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
  
 
  
