@@ -144,7 +144,7 @@ VOID Example_SetThreshold(HDC hdc)
 </table></span></div>
 The following illustration shows the output of the preceding code. Note that the red was converted to maximum intensity, and the green was converted to zero intensity.
 
-<img alt="Illustration showing a rectangle with maroon and green regions, then the same rectangle but rendered in red and black" src="images/imageattributessetthreshold.png"/>
+<img alt="Illustration showing a rectangle with maroon and green regions, then the same rectangle but rendered in red and black" src="./images/imageattributessetthreshold.png"/>
 
 <div class="code"></div>
 

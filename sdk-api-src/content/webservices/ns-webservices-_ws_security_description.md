@@ -106,7 +106,7 @@ The count of elements in the properties array.
 The figure below illustrates the structure of a security description.
             
 
-<img alt="" src="images/SecurityDescription.png"/>
+<img alt="" src="./images/SecurityDescription.png"/>
 
 
 
