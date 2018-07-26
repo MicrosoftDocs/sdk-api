@@ -80,7 +80,7 @@ Underlining is on.
 
 <b>UI_FONTUNDERLINE</b> is associated with the <b>Underline</b> toggle button of the <a href="https://msdn.microsoft.com/library/Dd371673(v=VS.85).aspx">FontControl</a> as shown in the following screen shot.
 
-<img alt="Screen shot of the FontControl element with the RichFont attribute set to true." src="images/Markup/FontControl_Underline.png"/>
+<img alt="Screen shot of the FontControl element with the RichFont attribute set to true." src="./images/Markup/FontControl_Underline.png"/>
 The <b>Underline</b> toggle button is displayed by default in a <a href="https://msdn.microsoft.com/library/Dd371673(v=VS.85).aspx">FontControl</a> but can be hidden, depending on the value of the <i>FontType</i> attribute.
 
 The <b>Underline</b> button is toggled based on the <b>UI_FONTUNDERLINE</b> value in <a href="https://msdn.microsoft.com/library/Dd371236(v=VS.85).aspx">UI_PKEY_FontProperties_Underline</a>.

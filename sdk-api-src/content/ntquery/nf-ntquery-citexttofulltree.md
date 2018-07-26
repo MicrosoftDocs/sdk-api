@@ -243,7 +243,7 @@ if ( SUCCEEDED( hr ) )
 </table></span></div>
 The following diagram shows the <i>pTree</i> parameter, created by the example code, of the <a href="https://msdn.microsoft.com/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure.
 
-<img alt="" src="images/dbcmdtr2.png"/>
+<img alt="" src="./images/dbcmdtr2.png"/>
 <div class="code"></div>
 
 

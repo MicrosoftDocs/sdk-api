@@ -137,8 +137,8 @@ The <b>ITextRange::Move</b> method works similarly to the UI-oriented <a href="h
 
 For example, if you press Ctrl+Right Arrow for the selections shown in both of the following figures, you end up with an insertion point at character position 8, since this command collapses the selections at their end character positions (7 and 8, respectively) and moves to the next <b>tomWord</b> boundary.
 
-<img alt="Character positions for text string" src="images/textpos3.png"/>
-<img alt="Character positions for text string" src="images/textpos3.png"/>
+<img alt="Character positions for text string" src="./images/textpos3.png"/>
+<img alt="Character positions for text string" src="./images/textpos3.png"/>
 The first selection does not include the blank space at character position 7, so Ctrl+Right Arrow moves past the space to the <b>tomWord</b> boundary at character position 8. The end character position is already at a <b>tomWord</b> boundary for the second selection, so Ctrl+Right Arrow just collapses the selection at that boundary. Similarly, Ctrl+Left Arrow, which for this text acts like <code>Move(tomWord, -1)</code>, and <code>MoveLeft(tomWord, 1)</code> collapses the first selection at character position 5, which is already at a <b>tomWord</b> boundary, so no more motion occurs. But Ctrl+Left Arrow collapses the second selection at character position 4 and then moves to zero, since that's the next <b>tomWord</b> boundary in the direction of motion.
 
 The return argument, <i>pDelta</i>, is set equal to the number of <i>Unit</i>s that the insertion point is moved including one <i>Unit</i> for collapsing a nondegenerate range and moving it to a <i>Unit</i> boundary. So, if no motion and no collapse occur, as when the range is an insertion point at the end of the story, <i>pDelta</i> is set equal to zero. This approach is useful for controlling program loops that process a whole story.

@@ -106,7 +106,7 @@ The z position of the back of the box.
 
 The following diagram shows a 3D box, where the origin is the left, front, top corner.
 
-<img alt="Diagram of a 3D box, where the origin is the left, front, top corner" src="images/D3D10_box.png"/>
+<img alt="Diagram of a 3D box, where the origin is the left, front, top corner" src="./images/D3D10_box.png"/>
 
 The values for <b>right</b>, <b>bottom</b>, and <b>back</b> are each one pixel past the end of the pixels that are included in the box region.  That is, the values for <b>left</b>, <b>top</b>, and <b>front</b> are included in the box region while the values for right, bottom, and back are excluded from the box region. For example, for a box that is one pixel wide, (right - left) == 1; the box region includes the left pixel but not the right pixel.
 

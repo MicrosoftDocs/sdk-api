@@ -167,7 +167,7 @@ VOID Example_SetClearBrushRemap(HDC hdc)
 </table></span></div>
 The preceding code, along with a particular file, Testmetafile4.emf, produced the following output. The ellipses in the left column were drawn with a pen, and the ellipses in the right column were filled with a brush. Note that the default remap table applies to the ellipses drawn with a pen. The remap table that applies to the ellipses filled with a brush varies according to the <a href="https://msdn.microsoft.com/library/ms535428(v=VS.85).aspx">ImageAttributes::SetBrushRemapTable</a> and <b>ImageAttributes::ClearBrushRemapTable</b> calls.
 
-<img alt="Illustration showing four empty ellipses; the first is red and the rest blue, then four filled ellipses: red, blue, green, and red" src="images/imageattributesclearbrushremap.png"/>
+<img alt="Illustration showing four empty ellipses; the first is red and the rest blue, then four filled ellipses: red, blue, green, and red" src="./images/imageattributesclearbrushremap.png"/>
 
 <div class="code"></div>
 
