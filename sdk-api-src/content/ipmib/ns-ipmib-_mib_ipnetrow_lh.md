@@ -171,11 +171,11 @@ On the Windows SDK released for Windows Vista and later, the organization of he
 
 
 
-<a href="_iphlp_createipnetentry">CreateIpNetEntry</a>
+<a href="https://msdn.microsoft.com/library/Aa365866(v=VS.85).aspx">CreateIpNetEntry</a>
 
 
 
-<a href="_iphlp_deleteipnetentry">DeleteIpNetEntry</a>
+<a href="https://msdn.microsoft.com/library/Aa365882(v=VS.85).aspx">DeleteIpNetEntry</a>
 
 
 
@@ -183,7 +183,7 @@ On the Windows SDK released for Windows Vista and later, the organization of he
 
 
 
-<a href="_iphlp_setipnetentry">SetIpNetEntry</a>
+<a href="https://msdn.microsoft.com/library/Aa366365(v=VS.85).aspx">SetIpNetEntry</a>
  
 
  

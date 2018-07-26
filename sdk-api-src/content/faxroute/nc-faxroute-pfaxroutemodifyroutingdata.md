@@ -108,11 +108,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The fax service passes a pointer to the <i>FaxRouteModifyRoutingData</i> function when the fax service calls <a href="https://msdn.microsoft.com/6593762b-2a5a-4338-9958-efe0c7687729">FaxRouteInitialize</a>. The service passes the pointer in a <a href="https://msdn.microsoft.com/fb76a8d3-27e6-4bd7-87a9-2255653fa5e8">FAX_ROUTE_CALLBACKROUTINES</a> structure.
+The fax service passes a pointer to the <i>FaxRouteModifyRoutingData</i> function when the fax service calls <a href="https://msdn.microsoft.com/library/ms692863(v=VS.85).aspx">FaxRouteInitialize</a>. The service passes the pointer in a <a href="https://msdn.microsoft.com/library/ms692881(v=VS.85).aspx">FAX_ROUTE_CALLBACKROUTINES</a> structure.
 
 The <b>PFAXROUTEMODIFYROUTINGDATA</b> data type defines a pointer to a <i>FaxRouteModifyRoutingData</i> function.
 
-A fax routing method can call the <i>FaxRouteModifyRoutingData</i> callback function to change the routing information for a subsequent routing method. The function does this by modifying the <b>RoutingInfoData</b> member of the <a href="https://msdn.microsoft.com/9cd01636-3b89-4b75-a3ef-317dd4b43c7a">FAX_ROUTE</a> structure that applies to the subsequent method. This allows a fax routing extension to retrieve user-defined routing data and to provide additional callback information to a different routing method. When the subsequent routing method executes, it processes the received fax transmission using the modified routing data.
+A fax routing method can call the <i>FaxRouteModifyRoutingData</i> callback function to change the routing information for a subsequent routing method. The function does this by modifying the <b>RoutingInfoData</b> member of the <a href="https://msdn.microsoft.com/library/ms692859(v=VS.85).aspx">FAX_ROUTE</a> structure that applies to the subsequent method. This allows a fax routing extension to retrieve user-defined routing data and to provide additional callback information to a different routing method. When the subsequent routing method executes, it processes the received fax transmission using the modified routing data.
 
 The fax routing method specified by the <i>RoutingGuid</i> parameter must have a lower priority and must run after the calling routing method. The priority level determines the relative order in which the fax service calls the fax routing methods when the service receives a fax document.
 
@@ -124,27 +124,27 @@ The fax routing method specified by the <i>RoutingGuid</i> parameter must have a
 
 
 
-<a href="https://msdn.microsoft.com/9cd01636-3b89-4b75-a3ef-317dd4b43c7a">FAX_ROUTE</a>
+<a href="https://msdn.microsoft.com/library/ms692859(v=VS.85).aspx">FAX_ROUTE</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb76a8d3-27e6-4bd7-87a9-2255653fa5e8">FAX_ROUTE_CALLBACKROUTINES</a>
+<a href="https://msdn.microsoft.com/library/ms692881(v=VS.85).aspx">FAX_ROUTE_CALLBACKROUTINES</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8bdf0de-9455-45d1-9271-3929e0429d5c">Fax Routing Extension Application Programming Interface Overview</a>
+<a href="https://msdn.microsoft.com/library/ms684519(v=VS.85).aspx">Fax Routing Extension Application Programming Interface Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/339f7fb6-64eb-403e-91be-210501042a25">Fax Routing Extension Functions</a>
+<a href="https://msdn.microsoft.com/library/ms692865(v=VS.85).aspx">Fax Routing Extension Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6593762b-2a5a-4338-9958-efe0c7687729">FaxRouteInitialize</a>
+<a href="https://msdn.microsoft.com/library/ms692863(v=VS.85).aspx">FaxRouteInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9220335-bb45-48b3-b303-b6ea10260952">FaxRouteMethod</a>
+<a href="https://msdn.microsoft.com/library/ms692857(v=VS.85).aspx">FaxRouteMethod</a>
  
 
  

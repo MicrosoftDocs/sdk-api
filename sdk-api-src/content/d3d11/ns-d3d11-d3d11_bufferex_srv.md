@@ -76,7 +76,7 @@ The number of elements in the resource.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A <a href="https://msdn.microsoft.com/11ded487-af4a-4357-b781-bd6b0f3c5a75">D3D11_BUFFEREX_SRV_FLAG</a>-typed value that identifies view options for the buffer. Currently, the only option is to identify a raw view of the buffer. For more info about raw viewing of buffers, see <a href="overviews_direct3d_11_resources_intro.htm">Raw Views of Buffers</a>.
+A <a href="https://msdn.microsoft.com/11ded487-af4a-4357-b781-bd6b0f3c5a75">D3D11_BUFFEREX_SRV_FLAG</a>-typed value that identifies view options for the buffer. Currently, the only option is to identify a raw view of the buffer. For more info about raw viewing of buffers, see <a href="https://msdn.microsoft.com/library/Ff476900(v=VS.85).aspx">Raw Views of Buffers</a>.
 
 
 ## -remarks

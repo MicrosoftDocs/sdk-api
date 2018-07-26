@@ -63,7 +63,7 @@ Converts the value of a property to the canonical value, according to the proper
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure that identifies the property whose value is to be coerced.
+Reference to a <a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure that identifies the property whose value is to be coerced.
 
 
 ### -param ppropvar [in, out]
@@ -153,9 +153,9 @@ Coercion from the value's type to the property description's type was not possib
 
 This function is a wrapper around the system's implementation of <a href="shell.IPropertyDescription_CoerceToCanonicalValue">IPropertyDescription::CoerceToCanonicalValue</a>.
 
-Most property descriptions specify the type that their values are expected to use. For example, the property description for <a href="shell.props_System_Title">System.Title</a> specifies that System.Title values should be of type VT_LPWSTR. This function coerces values to this type, and then coerces the result into a canonical form.
+Most property descriptions specify the type that their values are expected to use. For example, the property description for <a href="https://msdn.microsoft.com/library/Bb787584(v=VS.85).aspx">System.Title</a> specifies that System.Title values should be of type VT_LPWSTR. This function coerces values to this type, and then coerces the result into a canonical form.
 
-It is important to note that if this function fails, it will have already called <a href="shell.PropVariantClear">PropVariantClear</a> on the input <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure. Only if this function succeeds is the calling application responsible for calling <b>PropVariantClear</b> on <i>ppropvar</i> when the structure is no longer needed.
+It is important to note that if this function fails, it will have already called <a href="https://msdn.microsoft.com/library/ms712573(v=VS.85).aspx">PropVariantClear</a> on the input <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure. Only if this function succeeds is the calling application responsible for calling <b>PropVariantClear</b> on <i>ppropvar</i> when the structure is no longer needed.
 
 The coercion performed by this function is also performed by the property system during calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536962">IPropertyStore::GetValue</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536963">IPropertyStore::SetValue</a>. Applications can either depend on the property system to perform the coercions or can use this function to perform the coercion at a time of the application's choosing.
 
@@ -172,11 +172,11 @@ The coercion is performed in four steps, as follows:
 <li>Values of type VT_FILETIME prior to midnight 1601/01/02.</li>
 </ul>
 </li>
-<li>If the value is not of type VT_EMPTY after Step 1, it is converted to the type specified by the property description. The type of a property description can be obtained by calling <a href="shell.IPropertyDescription_GetPropertyType">IPropertyDescription::GetPropertyType</a>. For information on how the property schema influences the type of a property description, see <a href="shell.propdesc_schema_typeInfo">typeInfo</a>. Conversions are performed as follows:
+<li>If the value is not of type VT_EMPTY after Step 1, it is converted to the type specified by the property description. The type of a property description can be obtained by calling <a href="shell.IPropertyDescription_GetPropertyType">IPropertyDescription::GetPropertyType</a>. For information on how the property schema influences the type of a property description, see <a href="https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx">typeInfo</a>. Conversions are performed as follows:
                         
                         <ul>
-<li>Values of type VT_LPWSTR, VT_BSTR, or VT_LPSTR are converted to VT_VECTOR | VT_LPWSTR using <a href="shell.InitPropVariantFromStringAsVector">InitPropVariantFromStringAsVector</a>.</li>
-<li>All other conversions are performed using <a href="shell.PropVariantChangeType">PropVariantChangeType</a>
+<li>Values of type VT_LPWSTR, VT_BSTR, or VT_LPSTR are converted to VT_VECTOR | VT_LPWSTR using <a href="https://msdn.microsoft.com/library/Bb762306(v=VS.85).aspx">InitPropVariantFromStringAsVector</a>.</li>
+<li>All other conversions are performed using <a href="https://msdn.microsoft.com/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>
 </li>
 </ul>
 </li>
@@ -196,7 +196,7 @@ The coercion is performed in four steps, as follows:
 <td>
 <ul>
 <li>No leading or trailing spaces. The string is non-empty and non-<b>NULL</b>. For example, L"Alice".</li>
-<li>If this is a tree property (that is, if the <a href="shell.propdesc_schema_typeInfo">typeInfo</a> element's <i>isTreeProperty</i> attribute is <b>TRUE</b>), then it must not have leading or trailing forward slashes (/), must not have spaces between the text and the forward slashes, and must not have two consecutive forward slashes(/). For example, L"Friend/Bob".</li>
+<li>If this is a tree property (that is, if the <a href="https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx">typeInfo</a> element's <i>isTreeProperty</i> attribute is <b>TRUE</b>), then it must not have leading or trailing forward slashes (/), must not have spaces between the text and the forward slashes, and must not have two consecutive forward slashes(/). For example, L"Friend/Bob".</li>
 <li>Coercion removes unnecessary characters and results in VT_EMPTY if there was no content.</li>
 </ul>
 </td>
@@ -276,7 +276,7 @@ The coercion is performed in four steps, as follows:
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSCoerceToCanonicalValue">PSCoerceToCanonicalValue</a> to coerce a value to the type required for PKEY_Keywords.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/library/Bb776486(v=VS.85).aspx">PSCoerceToCanonicalValue</a> to coerce a value to the type required for PKEY_Keywords.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -310,7 +310,7 @@ else
 
 
 
-<a href="shell.IPropertyDescription">IPropertyDescription</a>
+<a href="https://msdn.microsoft.com/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
 
 
 
@@ -318,7 +318,7 @@ else
 
 
 
-<a href="shell.PropVariantChangeType">PropVariantChangeType</a>
+<a href="https://msdn.microsoft.com/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>
 
 
 
@@ -326,7 +326,7 @@ else
 
 
 
-<a href="shell.propdesc_schema_typeInfo">typeInfo</a>
+<a href="https://msdn.microsoft.com/library/Bb773889(v=VS.85).aspx">typeInfo</a>
  
 
  

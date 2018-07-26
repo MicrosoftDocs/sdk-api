@@ -55,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>GetWatermarkEntryCount</b> method retrieves the total number of installed watermarking systems of a specified type. Use this method in conjunction with <a href="https://msdn.microsoft.com/7f303233-cd20-40ff-b564-4c44bf17a5f4">IWMWatermarkInfo::GetWatermarkEntry</a> to enumerate the installed watermarking <a href="wmformat_glossary.htm">DMOs</a>.
+The <b>GetWatermarkEntryCount</b> method retrieves the total number of installed watermarking systems of a specified type. Use this method in conjunction with <a href="https://msdn.microsoft.com/7f303233-cd20-40ff-b564-4c44bf17a5f4">IWMWatermarkInfo::GetWatermarkEntry</a> to enumerate the installed watermarking <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">DMOs</a>.
 
 
 

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Invalidate the pointer to the resource retrieved by <a href="https://msdn.microsoft.com/5cd7a5f0-4a74-4760-a709-d7941025699d">ID3D10Texture3D::Map</a>, and re-enable the GPU's access to the resource.
+Invalidate the pointer to the resource retrieved by <a href="https://msdn.microsoft.com/library/Bb173873(v=VS.85).aspx">ID3D10Texture3D::Map</a>, and re-enable the GPU's access to the resource.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Invalidate the pointer to the resource retrieved by <a href="https://msdn.micros
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 
-<a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">Subresource</a> to be unmapped. See <a href="https://msdn.microsoft.com/48079797-b5c8-487b-a343-a5623b780350">D3D10CalcSubresource</a> for more details.
+<a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">Subresource</a> to be unmapped. See <a href="https://msdn.microsoft.com/library/Bb694525(v=VS.85).aspx">D3D10CalcSubresource</a> for more details.
 
 
 ## -returns
@@ -102,7 +102,7 @@ Unmap() in Direct3D 10 is analogous to resource Unlock() in Direct3D 9.
 
 
 
-<a href="https://msdn.microsoft.com/786b9006-e46d-45f5-8820-965ebbb2acc6">ID3D10Texture3D Interface</a>
+<a href="https://msdn.microsoft.com/library/Bb173871(v=VS.85).aspx">ID3D10Texture3D Interface</a>
  
 
  

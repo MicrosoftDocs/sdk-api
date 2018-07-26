@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 Retrieves the input code from 
-			<i>wParam</i> in <a href="https://msdn.microsoft.com/a014d68c-841c-4120-b752-4b3fac60e12d">WM_INPUT</a>.
+			<i>wParam</i> in <a href="https://msdn.microsoft.com/library/ms645590(v=VS.85).aspx">WM_INPUT</a>.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Input code. This parameter can be the following value.
 </dl>
 </td>
 <td width="60%">
-Input occurred while the application was in the foreground. The application must call <a href="https://msdn.microsoft.com/fcc6b242-e152-4364-a977-b0441bec425f">DefWindowProc</a> so the system can perform cleanup.
+Input occurred while the application was in the foreground. The application must call <a href="https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx">DefWindowProc</a> so the system can perform cleanup.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ Input occurred while the application was in the foreground. The application must
 </dl>
 </td>
 <td width="60%">
-Input occurred while the application was not in the foreground.  The application must call <a href="https://msdn.microsoft.com/fcc6b242-e152-4364-a977-b0441bec425f">DefWindowProc</a> so the system can perform the cleanup.
+Input occurred while the application was not in the foreground.  The application must call <a href="https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx">DefWindowProc</a> so the system can perform the cleanup.
 
 </td>
 </tr>
@@ -104,11 +104,11 @@ Input occurred while the application was not in the foreground.  The application
 
 
 
-<a href="https://msdn.microsoft.com/ee238c20-c3a5-4b6b-af13-727ea18fb448">RAWINPUT</a>
+<a href="https://msdn.microsoft.com/library/ms645562(v=VS.85).aspx">RAWINPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2afdb80-d68a-4c33-826f-96739d239cd9">Raw Input</a>
+<a href="https://msdn.microsoft.com/library/ms645536(v=VS.85).aspx">Raw Input</a>
 
 
 
@@ -116,7 +116,7 @@ Input occurred while the application was not in the foreground.  The application
 
 
 
-<a href="https://msdn.microsoft.com/a014d68c-841c-4120-b752-4b3fac60e12d">WM_INPUT</a>
+<a href="https://msdn.microsoft.com/library/ms645590(v=VS.85).aspx">WM_INPUT</a>
  
 
  

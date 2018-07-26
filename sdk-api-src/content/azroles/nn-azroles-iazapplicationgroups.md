@@ -56,7 +56,7 @@ The <b>IAzApplicationGroups</b> interface represents a collection of
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplicationGroups</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IAzApplicationGroups</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplicationGroups</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAzApplicationGroups</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -117,7 +117,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
+Retrieves an <a href="https://msdn.microsoft.com/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 
 </td>
 </tr>

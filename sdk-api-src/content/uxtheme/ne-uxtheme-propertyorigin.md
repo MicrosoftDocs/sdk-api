@@ -51,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-Returned by <a href="https://msdn.microsoft.com/6b7f298c-1b3d-463d-a5ec-fbe72672ef49">GetThemePropertyOrigin</a> to specify where a property was found.
+Returned by <a href="https://msdn.microsoft.com/library/Bb759764(v=VS.85).aspx">GetThemePropertyOrigin</a> to specify where a property was found.
 
 
 ## -enum-fields
@@ -89,7 +89,7 @@ Property was not found.
 
 
 
-<a href="https://msdn.microsoft.com/6b7f298c-1b3d-463d-a5ec-fbe72672ef49">GetThemePropertyOrigin</a>
+<a href="https://msdn.microsoft.com/library/Bb759764(v=VS.85).aspx">GetThemePropertyOrigin</a>
  
 
  

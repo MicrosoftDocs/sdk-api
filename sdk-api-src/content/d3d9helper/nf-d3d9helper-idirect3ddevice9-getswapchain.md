@@ -63,7 +63,7 @@ Gets a pointer to a swap chain.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The swap chain ordinal value.  For more information, see NumberOfAdaptersInGroup in <a href="https://msdn.microsoft.com/44457b7b-a1f7-4019-b971-8ec2334d3313">D3DCAPS9</a>.
+The swap chain ordinal value.  For more information, see NumberOfAdaptersInGroup in <a href="https://msdn.microsoft.com/library/Bb172513(v=VS.85).aspx">D3DCAPS9</a>.
 
 
 ### -param pSwapChain
@@ -75,16 +75,16 @@ The swap chain ordinal value.  For more information, see NumberOfAdaptersInGroup
 
 #### - ppSwapChain [in]
 
-Type: <b><a href="https://msdn.microsoft.com/df3fe9a0-cef9-4416-9287-4a1dd98b264d">IDirect3DSwapChain9</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb205899(v=VS.85).aspx">IDirect3DSwapChain9</a>**</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/df3fe9a0-cef9-4416-9287-4a1dd98b264d">IDirect3DSwapChain9</a> interface that will receive a copy of swap chain. 
+Pointer to an <a href="https://msdn.microsoft.com/library/Bb205899(v=VS.85).aspx">IDirect3DSwapChain9</a> interface that will receive a copy of swap chain. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL.
 
@@ -96,7 +96,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
  
 
  

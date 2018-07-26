@@ -60,11 +60,11 @@ Creates a device that represents the display adapter.
 
 ### -param pAdapter [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a>*</b>
 
-A pointer to the video adapter to use when creating a <a href="https://msdn.microsoft.com/b9b45d18-f7b7-40f9-ae4e-576ca7a6eba7">device</a>. Pass <b>NULL</b> to use the default adapter, which is the first adapter that is enumerated by <a href="https://msdn.microsoft.com/23e876c7-b32a-4bc9-84c1-9e8949680e14">IDXGIFactory1::EnumAdapters</a>. 
+A pointer to the video adapter to use when creating a <a href="https://msdn.microsoft.com/b9b45d18-f7b7-40f9-ae4e-576ca7a6eba7">device</a>. Pass <b>NULL</b> to use the default adapter, which is the first adapter that is enumerated by <a href="https://msdn.microsoft.com/library/Bb174538(v=VS.85).aspx">IDXGIFactory1::EnumAdapters</a>. 
 
-<div class="alert"><b>Note</b>  Do not mix the use of DXGI 1.0 (<a href="https://msdn.microsoft.com/642aac36-ca5a-4c62-b5cb-f9d35965ca2f">IDXGIFactory</a>) and DXGI 1.1 (<a href="https://msdn.microsoft.com/271f1877-25a7-4d32-9ffa-cb174b366b74">IDXGIFactory1</a>) in an application. Use <b>IDXGIFactory</b> or <b>IDXGIFactory1</b>, but not both in an application.
+<div class="alert"><b>Note</b>  Do not mix the use of DXGI 1.0 (<a href="https://msdn.microsoft.com/library/Bb174535(v=VS.85).aspx">IDXGIFactory</a>) and DXGI 1.1 (<a href="https://msdn.microsoft.com/271f1877-25a7-4d32-9ffa-cb174b366b74">IDXGIFactory1</a>) in an application. Use <b>IDXGIFactory</b> or <b>IDXGIFactory1</b>, but not both in an application.
             </div>
 <div> </div>
 
@@ -124,7 +124,7 @@ A pointer to an array of <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-
 </td>
 </tr>
 </table></span></div>
-<div class="alert"><b>Note</b>  If the Direct3D 11.1 runtime is present on the computer and <i>pFeatureLevels</i> is set to <b>NULL</b>, this function won't create a <a href="d3d_feature_level.htm">D3D_FEATURE_LEVEL_11_1</a> device. To create a <b>D3D_FEATURE_LEVEL_11_1</b> device, you must explicitly provide a <b>D3D_FEATURE_LEVEL</b> array that includes <b>D3D_FEATURE_LEVEL_11_1</b>. If you provide a <b>D3D_FEATURE_LEVEL</b> array that contains <b>D3D_FEATURE_LEVEL_11_1</b> on a computer that doesn't have the Direct3D 11.1 runtime installed, this function immediately fails with E_INVALIDARG.
+<div class="alert"><b>Note</b>  If the Direct3D 11.1 runtime is present on the computer and <i>pFeatureLevels</i> is set to <b>NULL</b>, this function won't create a <a href="https://msdn.microsoft.com/library/Ff476329(v=VS.85).aspx">D3D_FEATURE_LEVEL_11_1</a> device. To create a <b>D3D_FEATURE_LEVEL_11_1</b> device, you must explicitly provide a <b>D3D_FEATURE_LEVEL</b> array that includes <b>D3D_FEATURE_LEVEL_11_1</b>. If you provide a <b>D3D_FEATURE_LEVEL</b> array that contains <b>D3D_FEATURE_LEVEL_11_1</b> on a computer that doesn't have the Direct3D 11.1 runtime installed, this function immediately fails with E_INVALIDARG.
             </div>
 <div> </div>
 
@@ -172,7 +172,7 @@ Returns the address of a pointer to an <a href="https://msdn.microsoft.com/afb32
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method can return one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
           
@@ -180,7 +180,7 @@ This method can return one of the <a href="https://msdn.microsoft.com/c0856a58-b
 This method returns E_INVALIDARG if you set the <i>pAdapter</i> parameter to a non-<b>NULL</b> value and the <i>DriverType</i> parameter to the D3D_DRIVER_TYPE_HARDWARE value.
           
 
-This method returns <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_SDK_COMPONENT_MISSING</a> if you specify <a href="d3d11_create_device_flag.htm">D3D11_CREATE_DEVICE_DEBUG</a> in <i>Flags</i> and the incorrect version of the <a href="overviews_direct3d_11_devices_layers.htm">debug layer</a> is installed on your computer. Install the latest Windows SDK to get the correct version.
+This method returns <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_SDK_COMPONENT_MISSING</a> if you specify <a href="https://msdn.microsoft.com/library/Ff476107(v=VS.85).aspx">D3D11_CREATE_DEVICE_DEBUG</a> in <i>Flags</i> and the incorrect version of the <a href="https://msdn.microsoft.com/library/Ff476881(v=VS.85).aspx">debug layer</a> is installed on your computer. Install the latest Windows SDK to get the correct version.
           
 
 
@@ -208,7 +208,7 @@ For an example, see <a href="https://msdn.microsoft.com/02a20ada-b3aa-435e-8d66-
           use <a href="https://msdn.microsoft.com/84d73e8c-f13c-4343-91de-57f9f8a0ad96">D3D11CreateDeviceAndSwapChain</a>.
         
 
-If you set the <i>pAdapter</i> parameter to a non-<b>NULL</b> value, you must also set the <i>DriverType</i> parameter to the D3D_DRIVER_TYPE_UNKNOWN value. If you set the <i>pAdapter</i> parameter to a non-<b>NULL</b> value and the <i>DriverType</i> parameter to the D3D_DRIVER_TYPE_HARDWARE value, <b>D3D11CreateDevice</b> returns an <a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a> of E_INVALIDARG.
+If you set the <i>pAdapter</i> parameter to a non-<b>NULL</b> value, you must also set the <i>DriverType</i> parameter to the D3D_DRIVER_TYPE_UNKNOWN value. If you set the <i>pAdapter</i> parameter to a non-<b>NULL</b> value and the <i>DriverType</i> parameter to the D3D_DRIVER_TYPE_HARDWARE value, <b>D3D11CreateDevice</b> returns an <a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a> of E_INVALIDARG.
         
 
 <table>
@@ -236,7 +236,7 @@ On the other hand, if <i>pAdapter</i> == <b>NULL</b>, the <i>DriverType</i> cann
 <ul>
 <li>If <i>DriverType</i> == D3D_DRIVER_TYPE_SOFTWARE,  <i>Software</i> cannot be <b>NULL</b>.
                 </li>
-<li>If <i>DriverType</i> == D3D_DRIVER_TYPE_HARDWARE, the adapter used will be the default adapter, which is the first adapter that is enumerated by <a href="https://msdn.microsoft.com/23e876c7-b32a-4bc9-84c1-9e8949680e14">IDXGIFactory1::EnumAdapters</a>
+<li>If <i>DriverType</i> == D3D_DRIVER_TYPE_HARDWARE, the adapter used will be the default adapter, which is the first adapter that is enumerated by <a href="https://msdn.microsoft.com/library/Bb174538(v=VS.85).aspx">IDXGIFactory1::EnumAdapters</a>
 </li>
 </ul>
 </td>

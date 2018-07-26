@@ -255,8 +255,8 @@ This function is called by the RAS function,
 
 If 
 <b>RasEapGetIdentity</b> displays a user interface, the user interface must support 
-<a href="_win32_wm_command_cpp">WM_COMMAND</a> messages where 
-<a href="_win32_loword_cpp">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
+<a href="https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> messages where 
+<a href="https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
 
 
 

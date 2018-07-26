@@ -83,7 +83,7 @@ Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error cod
 
 Saving settings with a <a href="https://msdn.microsoft.com/da4fdb8a-8df8-468f-afde-292bbcf6696b">NotificationLevel</a> value other than Disabled  starts the Automatic Updates service.
 
-<div class="alert"><b>Note</b>  On Windows RT, you can no longer use the <b>Save</b> method to configure Windows Update settings programmatically. The configuration operation fails if you use <b>Save</b> to set any value other than 4 (<a href="automaticupdatesnotificationlevel.htm">aunlScheduledInstallation</a>).</div>
+<div class="alert"><b>Note</b>  On Windows RT, you can no longer use the <b>Save</b> method to configure Windows Update settings programmatically. The configuration operation fails if you use <b>Save</b> to set any value other than 4 (<a href="https://msdn.microsoft.com/library/Aa385806(v=VS.85).aspx">aunlScheduledInstallation</a>).</div>
 <div> </div>
 
 

@@ -51,7 +51,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a new <b>GraphicsPathIterator::GraphicsPathIterator</b> object and associates it with a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object.
+Creates a new <b>GraphicsPathIterator::GraphicsPathIterator</b> object and associates it with a <a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Creates a new <b>GraphicsPathIterator::GraphicsPathIterator</b> object and assoc
 
 #### - path [in]
 
-Type: <b><a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object that will be associated with this <b>GraphicsPathIterator::GraphicsPathIterator</b> object. 
+Pointer to a <a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object that will be associated with this <b>GraphicsPathIterator::GraphicsPathIterator</b> object. 
 
 
 ## -see-also
@@ -71,11 +71,11 @@ Pointer to a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2
 
 
 
-<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/f534b1b2-1fe3-4f30-8a7f-30d44f11d297">GraphicsPathIterator</a>
+<a href="https://msdn.microsoft.com/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a>
  
 
  

@@ -121,15 +121,15 @@ A single
 
 
 
-<a href="https://msdn.microsoft.com/92cd216c-b048-4157-906b-3ef4418d2613">EndEditCollection</a>
+<a href="https://msdn.microsoft.com/library/Bb787750(v=VS.85).aspx">EndEditCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/39ddce52-589e-4dc4-a55c-48902c2fa51e">Freeze</a>
+<a href="https://msdn.microsoft.com/library/Bb773925(v=VS.85).aspx">Freeze</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c3f161f-f6d3-44b9-b041-1b682d1915af">ITextDocument</a>
+<a href="https://msdn.microsoft.com/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
 
 
 
@@ -137,7 +137,7 @@ A single
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

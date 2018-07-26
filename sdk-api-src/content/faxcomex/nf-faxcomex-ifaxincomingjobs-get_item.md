@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Item</b> property returns a <a href="https://msdn.microsoft.com/ef93899d-e797-4f07-bede-0860b695b32b">FaxIncomingJob</a> object from the <a href="https://msdn.microsoft.com/05b2ceec-d8e9-4ee8-be0c-e31bb12edfc8">FaxIncomingJobs</a> collection.
+The <b>Item</b> property returns a <a href="https://msdn.microsoft.com/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a> object from the <a href="https://msdn.microsoft.com/library/ms684959(v=VS.85).aspx">FaxIncomingJobs</a> collection.
 
 This property is read-only.
 
@@ -65,15 +65,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/05b2ceec-d8e9-4ee8-be0c-e31bb12edfc8">FaxIncomingJobs</a>
+<a href="https://msdn.microsoft.com/library/ms684959(v=VS.85).aspx">FaxIncomingJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/88cde2d4-09ee-4fbf-8a75-35de58dd45f5">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/library/ms692952(v=VS.85).aspx">Visual Basic Example</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6d1dbb5-7019-4a84-8118-4aff00a87b1b">get_Item</a>
+<a href="https://msdn.microsoft.com/library/ms686185(v=VS.85).aspx">get_Item</a>
  
 
  

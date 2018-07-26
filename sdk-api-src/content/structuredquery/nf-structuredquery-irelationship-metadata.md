@@ -52,7 +52,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-          Retrieves an enumeration of <a href="https://msdn.microsoft.com/2647af6d-af05-4f0d-8613-03248385abec">IMetaData</a> objects for this relationship.
+          Retrieves an enumeration of <a href="https://msdn.microsoft.com/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects for this relationship.
         
 
 
@@ -75,7 +75,7 @@ Type: <b>REFIID</b>
 Type: <b>void**</b>
 
 
-                Receives a pointer to the enumeration of <a href="https://msdn.microsoft.com/2647af6d-af05-4f0d-8613-03248385abec">IMetaData</a> objects. There may be multiple pairs with the same key (or the same value).
+                Receives a pointer to the enumeration of <a href="https://msdn.microsoft.com/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects. There may be multiple pairs with the same key (or the same value).
             
 
 

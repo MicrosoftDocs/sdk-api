@@ -95,7 +95,7 @@ Returns <b>S_OK</b> if successful, otherwise an <b>HRESULT</b> error code.
 
 
 
-<a href="winauto.irawelementprovidersimple3">IRawElementProviderSimple3</a>
+<a href="https://msdn.microsoft.com/library/Mt798231(v=VS.85).aspx">IRawElementProviderSimple3</a>
 
 
 

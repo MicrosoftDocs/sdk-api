@@ -195,7 +195,7 @@ This method must be implemented if any of the following conditions is true:
         By convention, if an MFT has exactly one fixed input stream and one fixed output stream, it should assign the identifier 0 to both streams.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetStreamIDs</b>. See <a href="comparison_of_mfts_and_dmos.htm">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetStreamIDs</b>. See <a href="https://msdn.microsoft.com/library/Bb250374(v=VS.85).aspx">Creating Hybrid DMO/MFT Objects</a>.
 
 
 

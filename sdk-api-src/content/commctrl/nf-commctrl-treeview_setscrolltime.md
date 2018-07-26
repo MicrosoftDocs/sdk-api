@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the maximum scroll time for the tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/b0ad81ba-0621-42b7-8fe1-f3bd5bc16d6a">TVM_SETSCROLLTIME</a> message explicitly. 
+Sets the maximum scroll time for the tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773767(v=VS.85).aspx">TVM_SETSCROLLTIME</a> message explicitly. 
 
 
 ## -parameters
@@ -100,7 +100,7 @@ The maximum scroll time is the longest amount of time that a scroll operation ca
 
 
 
-<a href="https://msdn.microsoft.com/992d1906-cda3-4ac7-ba90-c681c551ac2e">TVM_GETSCROLLTIME</a>
+<a href="https://msdn.microsoft.com/library/Bb773625(v=VS.85).aspx">TVM_GETSCROLLTIME</a>
  
 
  

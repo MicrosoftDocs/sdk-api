@@ -61,9 +61,9 @@ Get the properties of a buffer resource.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/3f98c741-ff4c-4080-bd57-ef35cd6622d6">D3D10_BUFFER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb204896(v=VS.85).aspx">D3D10_BUFFER_DESC</a>*</b>
 
-Pointer to a resource description (see <a href="https://msdn.microsoft.com/3f98c741-ff4c-4080-bd57-ef35cd6622d6">D3D10_BUFFER_DESC</a>) filled in by the method. This pointer cannot be <b>NULL</b>.
+Pointer to a resource description (see <a href="https://msdn.microsoft.com/library/Bb204896(v=VS.85).aspx">D3D10_BUFFER_DESC</a>) filled in by the method. This pointer cannot be <b>NULL</b>.
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/a81e0dfc-9be4-4ba6-a388-9c9bb97a0fa9">ID3D10Buffer Interface</a>
+<a href="https://msdn.microsoft.com/library/Bb173510(v=VS.85).aspx">ID3D10Buffer Interface</a>
  
 
  

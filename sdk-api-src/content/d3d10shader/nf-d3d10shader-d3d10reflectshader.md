@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- has been deprecated. Instead, use <a href="https://msdn.microsoft.com/601cc907-2878-4c9b-bc48-0575fd4479e8">D3DReflect</a>.
+This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- has been deprecated. Instead, use <a href="https://msdn.microsoft.com/library/Dd607334(v=VS.85).aspx">D3DReflect</a>.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ Length of pShaderBytecode.
 
 ### -param ppReflector [out]
 
-Type: <b><a href="https://msdn.microsoft.com/097ed643-4e7a-4214-80a1-9a56d1157044">ID3D10ShaderReflection</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb173835(v=VS.85).aspx">ID3D10ShaderReflection</a>**</b>
 
 Address of a reflection interface.
 
@@ -83,7 +83,7 @@ Address of a reflection interface.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Return value.
 
@@ -95,7 +95,7 @@ Return value.
 
 
 
-<a href="https://msdn.microsoft.com/c8b33c08-7b3f-4b33-9b3c-4aa2b45b8f32">Shader Functions</a>
+<a href="https://msdn.microsoft.com/library/Bb205157(v=VS.85).aspx">Shader Functions</a>
  
 
  

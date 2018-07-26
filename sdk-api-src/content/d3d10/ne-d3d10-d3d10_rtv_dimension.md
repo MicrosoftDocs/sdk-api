@@ -65,12 +65,12 @@ The resource will be accessed according to its type as determined from the actua
 
 ### -field D3D10_RTV_DIMENSION_BUFFER
 
-The resource will be accessed as a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">buffer</a>.
+The resource will be accessed as a <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">buffer</a>.
 
 
 ### -field D3D10_RTV_DIMENSION_TEXTURE1D
 
-The resource will be accessed as a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">1D texture</a>.
+The resource will be accessed as a <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">1D texture</a>.
 
 
 ### -field D3D10_RTV_DIMENSION_TEXTURE1DARRAY
@@ -80,7 +80,7 @@ The resource will be accessed as an array of 1D textures.
 
 ### -field D3D10_RTV_DIMENSION_TEXTURE2D
 
-The resource will be accessed as a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">2D texture</a>.
+The resource will be accessed as a <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">2D texture</a>.
 
 
 ### -field D3D10_RTV_DIMENSION_TEXTURE2DARRAY
@@ -100,14 +100,14 @@ The resource will be accessed as an array of 2D textures with multisampling.
 
 ### -field D3D10_RTV_DIMENSION_TEXTURE3D
 
-The resource will be accessed as a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">3D texture</a>.
+The resource will be accessed as a <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">3D texture</a>.
 
 
 ## -remarks
 
 
 
-This enumeration is used in <a href="https://msdn.microsoft.com/05a8dcf3-c815-47f1-b51f-e382804b030b">D3D10_RENDER_TARGET_VIEW_DESC</a> to create a render-target view.
+This enumeration is used in <a href="https://msdn.microsoft.com/library/Bb172410(v=VS.85).aspx">D3D10_RENDER_TARGET_VIEW_DESC</a> to create a render-target view.
 
 
 
@@ -117,7 +117,7 @@ This enumeration is used in <a href="https://msdn.microsoft.com/05a8dcf3-c815-47
 
 
 
-<a href="https://msdn.microsoft.com/c986b22c-2960-4571-98bc-028c9f41ec65">Resource Enumerations</a>
+<a href="https://msdn.microsoft.com/library/Bb205275(v=VS.85).aspx">Resource Enumerations</a>
  
 
  

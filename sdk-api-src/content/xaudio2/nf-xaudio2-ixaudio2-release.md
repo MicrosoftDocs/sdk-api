@@ -82,7 +82,7 @@ When the final <b>Release</b> is called on a given XAudio2 object, all voice obj
 
 
 
-It is invalid to call <b>Release</b> from within a callback (that is, <a href="https://msdn.microsoft.com/D71C117F-826F-41E9-98F4-C6024B3C5103">IXAudio2EngineCallback</a> or <a href="https://msdn.microsoft.com/FF78727D-16AE-40CB-BDE0-664687914FC0">IXAudio2VoiceCallback</a>). 
+It is invalid to call <b>Release</b> from within a callback (that is, <a href="https://msdn.microsoft.com/library/Ee415910(v=VS.85).aspx">IXAudio2EngineCallback</a> or <a href="https://msdn.microsoft.com/library/Ee415919(v=VS.85).aspx">IXAudio2VoiceCallback</a>). 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); 
@@ -96,7 +96,7 @@ Windows 10 (XAudio2.9);
 
 
 
-<a href="https://msdn.microsoft.com/A49469C6-2C29-407C-8C57-65E3FC9463F1">IXAudio2</a>
+<a href="https://msdn.microsoft.com/library/Ee415908(v=VS.85).aspx">IXAudio2</a>
  
 
  

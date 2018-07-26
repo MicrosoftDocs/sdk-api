@@ -83,11 +83,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The locale identifier has the components necessary to uniquely identify one of the installed system-defined locales. The LCID controls a number of settings including numeric format, date format, currency format, uppercase and lowercase mapping, dictionary sort ordering, tokenization, and others. Although these settings help Windows operating system and Windows Search API provide excellent localized support, unexpected results can occur when documents from one locale are searched by a system set for another locale.
 
-When the <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a> object processes a document's text properties and content, it reports the language of that document to the content indexer. Using this information, the Search API can apply the appropriate word breaker and noise-words list.
+When the <a href="https://msdn.microsoft.com/library/ms691105(v=VS.85).aspx">IFilter</a> object processes a document's text properties and content, it reports the language of that document to the content indexer. Using this information, the Search API can apply the appropriate word breaker and noise-words list.
 
-The locale is used for word breaking, normalizing, and stemming the string values that are extracted from the query string. If this method is not used (so the content locale is not set), <a href="https://msdn.microsoft.com/71ce4dad-7867-4844-abec-f647eef0a7c1">ISearchQueryHelper::get_QueryContentLocale</a> returns the active input locale.
+The locale is used for word breaking, normalizing, and stemming the string values that are extracted from the query string. If this method is not used (so the content locale is not set), <a href="https://msdn.microsoft.com/library/Bb231304(v=VS.85).aspx">ISearchQueryHelper::get_QueryContentLocale</a> returns the active input locale.
 
-The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a>.
+The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://msdn.microsoft.com/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>.
 
 
 
@@ -97,19 +97,19 @@ The DSearch code sample, available on <a href="http://go.microsoft.com/fwlink/p/
 
 
 
-<a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a>
+<a href="https://msdn.microsoft.com/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a>
 
 
 
-<a href="https://msdn.microsoft.com/71ce4dad-7867-4844-abec-f647eef0a7c1">ISearchQueryHelper::get_QueryContentLocale</a>
+<a href="https://msdn.microsoft.com/library/Bb231304(v=VS.85).aspx">ISearchQueryHelper::get_QueryContentLocale</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c161b7f-4e28-4e8a-add6-3c1cda00a622">Querying the Index Programmatically</a>
+<a href="https://msdn.microsoft.com/library/Bb266517(v=VS.85).aspx">Querying the Index Programmatically</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2eb550a-bb55-4dbd-9ca1-60b776eb9339">Querying the Index with Windows Search SQL Syntax</a>
+<a href="https://msdn.microsoft.com/library/Bb231256(v=VS.85).aspx">Querying the Index with Windows Search SQL Syntax</a>
  
 
  

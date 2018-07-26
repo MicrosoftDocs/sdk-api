@@ -87,7 +87,7 @@ A software device implements rendering in software using the CPU with no hardwar
 
 
 
-<a href="https://msdn.microsoft.com/c9865391-a75e-4bbe-907a-740ed5b3b29f">ID3D10SwitchToRef Interface</a>
+<a href="https://msdn.microsoft.com/library/Bb173860(v=VS.85).aspx">ID3D10SwitchToRef Interface</a>
  
 
  

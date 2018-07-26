@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Gets the file name of this document. This is the <a href="https://msdn.microsoft.com/0c3f161f-f6d3-44b9-b041-1b682d1915af">ITextDocument</a> default property.
+Gets the file name of this document. This is the <a href="https://msdn.microsoft.com/library/Bb774052(v=VS.85).aspx">ITextDocument</a> default property.
 
 
 ## -parameters
@@ -127,7 +127,7 @@ Insufficient memory for output string.
 
 
 
-<a href="https://msdn.microsoft.com/0c3f161f-f6d3-44b9-b041-1b682d1915af">ITextDocument</a>
+<a href="https://msdn.microsoft.com/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
 
 
 
@@ -135,7 +135,7 @@ Insufficient memory for output string.
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

@@ -105,7 +105,7 @@ A pointer to the <a href="https://msdn.microsoft.com/cbbb8689-0a7d-43b9-bde3-29d
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
             
@@ -116,7 +116,7 @@ This method also returns <b>DXGI_ERROR_WAS_STILL_DRAWING</b> if <i>MapFlags</i> 
 This method also returns <b>DXGI_ERROR_DEVICE_REMOVED</b> if <i>MapType</i> allows any CPU read access and the video card has been removed.
             
 
-For more information about these error codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
+For more information about these error codes, see <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
             
 
 
@@ -126,10 +126,10 @@ For more information about these error codes, see <a href="https://msdn.microsof
 
 
 
-If you call <b>Map</b> on a deferred context, you can only pass <a href="d3d11_map.htm">D3D11_MAP_WRITE_DISCARD</a>, <a href="d3d11_map.htm">D3D11_MAP_WRITE_NO_OVERWRITE</a>, or both to the <i>MapType</i> parameter. Other <b>D3D11_MAP</b>-typed values are not supported for a deferred context.
+If you call <b>Map</b> on a deferred context, you can only pass <a href="https://msdn.microsoft.com/library/Ff476181(v=VS.85).aspx">D3D11_MAP_WRITE_DISCARD</a>, <a href="https://msdn.microsoft.com/library/Ff476181(v=VS.85).aspx">D3D11_MAP_WRITE_NO_OVERWRITE</a>, or both to the <i>MapType</i> parameter. Other <b>D3D11_MAP</b>-typed values are not supported for a deferred context.
         
 
-<div class="alert"><b>Note</b>  The Direct3D 11.1 runtime, which is available starting with Windows 8, enables  mapping dynamic constant buffers and shader resource views (SRVs) of dynamic buffers with <a href="d3d11_map.htm">D3D11_MAP_WRITE_NO_OVERWRITE</a>.  The Direct3D 11 and earlier runtimes limited mapping to vertex or index buffers. To determine if a Direct3D device supports these features, call <a href="https://msdn.microsoft.com/7edf2ffd-908a-4cf8-9ac6-8fd14d7a0ea1">ID3D11Device::CheckFeatureSupport</a> with <a href="d3d11_feature.htm">D3D11_FEATURE_D3D11_OPTIONS</a>. <b>CheckFeatureSupport</b> fills members of a <a href="https://msdn.microsoft.com/02A3B423-75AB-4F44-BEBE-B8039EF384DC">D3D11_FEATURE_DATA_D3D11_OPTIONS</a> structure with the device's features. The relevant members here are <b>MapNoOverwriteOnDynamicConstantBuffer</b> and <b>MapNoOverwriteOnDynamicBufferSRV</b>.
+<div class="alert"><b>Note</b>  The Direct3D 11.1 runtime, which is available starting with Windows 8, enables  mapping dynamic constant buffers and shader resource views (SRVs) of dynamic buffers with <a href="https://msdn.microsoft.com/library/Ff476181(v=VS.85).aspx">D3D11_MAP_WRITE_NO_OVERWRITE</a>.  The Direct3D 11 and earlier runtimes limited mapping to vertex or index buffers. To determine if a Direct3D device supports these features, call <a href="https://msdn.microsoft.com/7edf2ffd-908a-4cf8-9ac6-8fd14d7a0ea1">ID3D11Device::CheckFeatureSupport</a> with <a href="https://msdn.microsoft.com/library/Ff476124(v=VS.85).aspx">D3D11_FEATURE_D3D11_OPTIONS</a>. <b>CheckFeatureSupport</b> fills members of a <a href="https://msdn.microsoft.com/02A3B423-75AB-4F44-BEBE-B8039EF384DC">D3D11_FEATURE_DATA_D3D11_OPTIONS</a> structure with the device's features. The relevant members here are <b>MapNoOverwriteOnDynamicConstantBuffer</b> and <b>MapNoOverwriteOnDynamicBufferSRV</b>.
         </div>
 <div> </div>
 For info about how to use <b>Map</b>, see <a href="https://msdn.microsoft.com/E73EA4B0-BD14-430C-89CA-4CFCF92C7548">How to: Use dynamic resources</a>.
@@ -147,7 +147,7 @@ The <i>pMappedResource</i> parameter may be NULL when a texture is provided that
           
 
 <h3><a id="No_Read_From_Write_Mapped"></a><a id="no_read_from_write_mapped"></a><a id="NO_READ_FROM_WRITE_MAPPED"></a>Don't read from a subresource mapped for writing</h3>
-When you pass <a href="d3d11_map.htm">D3D11_MAP_WRITE</a>, <a href="d3d11_map.htm">D3D11_MAP_WRITE_DISCARD</a>, or <a href="d3d11_map.htm">D3D11_MAP_WRITE_NO_OVERWRITE</a> to the <i>MapType</i> parameter, you must ensure that your app does not read the subresource data to which the <b>pData</b> member of <a href="https://msdn.microsoft.com/cbbb8689-0a7d-43b9-bde3-29d93cc7f0fe">D3D11_MAPPED_SUBRESOURCE</a> points because doing so can cause a significant performance penalty. The memory region to which <b>pData</b> points can be allocated with <a href="https://msdn.microsoft.com/09839db7-2118-4a7d-a707-a08c92bd600c">PAGE_WRITECOMBINE</a>, and your app must honor all restrictions that are associated with such memory.<div class="alert"><b>Note</b>  <p class="note">Even the following C++ code can read from memory and trigger the performance penalty because the code can expand to the following x86 assembly code.
+When you pass <a href="https://msdn.microsoft.com/library/Ff476181(v=VS.85).aspx">D3D11_MAP_WRITE</a>, <a href="https://msdn.microsoft.com/library/Ff476181(v=VS.85).aspx">D3D11_MAP_WRITE_DISCARD</a>, or <a href="https://msdn.microsoft.com/library/Ff476181(v=VS.85).aspx">D3D11_MAP_WRITE_NO_OVERWRITE</a> to the <i>MapType</i> parameter, you must ensure that your app does not read the subresource data to which the <b>pData</b> member of <a href="https://msdn.microsoft.com/cbbb8689-0a7d-43b9-bde3-29d93cc7f0fe">D3D11_MAPPED_SUBRESOURCE</a> points because doing so can cause a significant performance penalty. The memory region to which <b>pData</b> points can be allocated with <a href="https://msdn.microsoft.com/09839db7-2118-4a7d-a707-a08c92bd600c">PAGE_WRITECOMBINE</a>, and your app must honor all restrictions that are associated with such memory.<div class="alert"><b>Note</b>  <p class="note">Even the following C++ code can read from memory and trigger the performance penalty because the code can expand to the following x86 assembly code.
               
 
 <p class="note">C++ code:

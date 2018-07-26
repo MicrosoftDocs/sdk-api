@@ -84,7 +84,7 @@ Type: <b>UINT</b>
 
 The message to be sent.
 
-For lists of the system-provided messages, see <a href="https://msdn.microsoft.com/21a4d40b-52da-49e4-a374-afc4927e96e8">System-Defined Messages</a>.
+For lists of the system-provided messages, see <a href="https://msdn.microsoft.com/library/ms644927(v=VS.85).aspx">System-Defined Messages</a>.
 
 
 ### -param wParam [in]
@@ -125,7 +125,7 @@ Using <b>SendDlgItemMessage</b> is identical to retrieving a handle to the speci
 
 
 			
-			For an example, see <a href="using_dialog_boxes.htm">Creating a Modeless Dialog Box</a>.
+			For an example, see <a href="https://msdn.microsoft.com/library/ms644996(v=VS.85).aspx">Creating a Modeless Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -140,7 +140,7 @@ Using <b>SendDlgItemMessage</b> is identical to retrieving a handle to the speci
 
 
 
-<a href="https://msdn.microsoft.com/07ebee3c-5aa7-4b0d-b6cb-e642e01e1a88">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
 
 
 

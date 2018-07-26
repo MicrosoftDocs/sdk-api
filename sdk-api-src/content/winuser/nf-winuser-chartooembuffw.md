@@ -98,7 +98,7 @@ The return value is always nonzero except when you pass the same address to <i>l
 
 
 
-Unlike the <a href="https://msdn.microsoft.com/66588b51-1673-4cb0-828f-9e00de4a622e">CharToOem</a> function, the <b>CharToOemBuff</b> function does not stop converting characters when it encounters a null character in the buffer pointed to by <i>lpszSrc</i>. The <b>CharToOemBuff</b> function converts all <i>cchDstLength</i> characters.
+Unlike the <a href="https://msdn.microsoft.com/library/ms647473(v=VS.85).aspx">CharToOem</a> function, the <b>CharToOemBuff</b> function does not stop converting characters when it encounters a null character in the buffer pointed to by <i>lpszSrc</i>. The <b>CharToOemBuff</b> function converts all <i>cchDstLength</i> characters.
 
 
 
@@ -108,7 +108,7 @@ Unlike the <a href="https://msdn.microsoft.com/66588b51-1673-4cb0-828f-9e00de4a6
 
 
 
-<a href="https://msdn.microsoft.com/66588b51-1673-4cb0-828f-9e00de4a622e">CharToOem</a>
+<a href="https://msdn.microsoft.com/library/ms647473(v=VS.85).aspx">CharToOem</a>
 
 
 
@@ -116,11 +116,11 @@ Unlike the <a href="https://msdn.microsoft.com/66588b51-1673-4cb0-828f-9e00de4a6
 
 
 
-<a href="https://msdn.microsoft.com/2336b758-7b57-44d2-b3ce-34054128a26d">OemToChar</a>
+<a href="https://msdn.microsoft.com/library/ms647493(v=VS.85).aspx">OemToChar</a>
 
 
 
-<a href="https://msdn.microsoft.com/17b01f13-6c09-43e2-984c-3b085f6b353f">OemToCharBuff</a>
+<a href="https://msdn.microsoft.com/library/ms647494(v=VS.85).aspx">OemToCharBuff</a>
 
 
 

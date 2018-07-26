@@ -152,7 +152,7 @@ Calling <b>TileWindows</b> causes all maximized windows to be restored to their 
 
 
 
-<a href="https://msdn.microsoft.com/9d17ef48-13ec-4770-89a1-ebcca898be8c">CascadeWindows</a>
+<a href="https://msdn.microsoft.com/library/ms632674(v=VS.85).aspx">CascadeWindows</a>
 
 
 

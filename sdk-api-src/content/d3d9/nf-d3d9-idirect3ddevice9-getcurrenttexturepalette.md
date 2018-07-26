@@ -77,7 +77,7 @@ Pointer to a returned value that identifies the current texture palette.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be: D3DERR_INVALIDCALL.
 
@@ -89,15 +89,15 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d97ccf4-20cd-4773-905a-e12b279e4f0b">IDirect3DDevice9::SetCurrentTexturePalette</a>
+<a href="https://msdn.microsoft.com/library/Bb174428(v=VS.85).aspx">IDirect3DDevice9::SetCurrentTexturePalette</a>
 
 
 
-<a href="https://msdn.microsoft.com/dea4b4bc-7eba-40fa-9c2c-0851fe7e231b">Texture Palettes (Direct3D 9)</a>
+<a href="https://msdn.microsoft.com/library/Bb206252(v=VS.85).aspx">Texture Palettes (Direct3D 9)</a>
  
 
  

@@ -89,7 +89,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/eff56c0a-ef87-41e0-a94a-79f1ac3ab270">MagGetWindowSource</a>
+<a href="https://msdn.microsoft.com/library/ms692390(v=VS.85).aspx">MagGetWindowSource</a>
  
 
  

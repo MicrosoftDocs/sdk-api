@@ -96,7 +96,7 @@ If the character is not uppercase, the return value is zero. To get extended err
 
 
 
-<a href="https://msdn.microsoft.com/5ab10397-c4e0-4d78-a017-1ea8a6f9b9ae">IsCharLower</a>
+<a href="https://msdn.microsoft.com/library/ms647484(v=VS.85).aspx">IsCharLower</a>
 
 
 

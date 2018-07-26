@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Changes the text of a list-view item or subitem. You can use this macro or send the <a href="https://msdn.microsoft.com/1a9c7e4d-78e0-44c7-bf4f-d0fc7a0049f3">LVM_SETITEMTEXT</a> message explicitly. 
+Changes the text of a list-view item or subitem. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761198(v=VS.85).aspx">LVM_SETITEMTEXT</a> message explicitly. 
 
 
 ## -parameters
@@ -82,7 +82,7 @@ The one-based index of the subitem. To set the item label, set
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
 
-A pointer to a null-terminated string that contains the new text. This parameter can be LPSTR_TEXTCALLBACK to indicate a callback item for which the parent window stores the text. In this case, the list-view control sends the parent an <a href="https://msdn.microsoft.com/04310e39-69bc-45d7-958c-00452279d7a9">LVN_GETDISPINFO</a> notification code when it needs the text.
+A pointer to a null-terminated string that contains the new text. This parameter can be LPSTR_TEXTCALLBACK to indicate a callback item for which the parent window stores the text. In this case, the list-view control sends the parent an <a href="https://msdn.microsoft.com/library/Bb774818(v=VS.85).aspx">LVN_GETDISPINFO</a> notification code when it needs the text.
 This parameter can be <b>NULL</b>.
 
 
@@ -105,6 +105,6 @@ The one-based index of the subitem. To set the item label, set
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
 
-A pointer to a null-terminated string that contains the new text. This parameter can be LPSTR_TEXTCALLBACK to indicate a callback item for which the parent window stores the text. In this case, the list-view control sends the parent an <a href="https://msdn.microsoft.com/04310e39-69bc-45d7-958c-00452279d7a9">LVN_GETDISPINFO</a> notification code when it needs the text.
+A pointer to a null-terminated string that contains the new text. This parameter can be LPSTR_TEXTCALLBACK to indicate a callback item for which the parent window stores the text. In this case, the list-view control sends the parent an <a href="https://msdn.microsoft.com/library/Bb774818(v=VS.85).aspx">LVN_GETDISPINFO</a> notification code when it needs the text.
 This parameter can be <b>NULL</b>.
 

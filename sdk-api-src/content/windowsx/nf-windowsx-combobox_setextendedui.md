@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Selects either the default user interface (UI) or the extended UI for a combo box that has the <a href="Combo_Box_Styles.htm">CBS_DROPDOWN</a> or <a href="Combo_Box_Styles.htm">CBS_DROPDOWNLIST</a> style. You can use this macro or send the <a href="https://msdn.microsoft.com/c489e484-777e-4afa-996b-1ec3eb6552ab">CB_SETEXTENDEDUI</a> message explicitly.
+Selects either the default user interface (UI) or the extended UI for a combo box that has the <a href="https://msdn.microsoft.com/library/Bb775796(v=VS.85).aspx">CBS_DROPDOWN</a> or <a href="https://msdn.microsoft.com/library/Bb775796(v=VS.85).aspx">CBS_DROPDOWNLIST</a> style. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775905(v=VS.85).aspx">CB_SETEXTENDEDUI</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Zero to use the default UI, or nonzero to use the extended UI.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/c489e484-777e-4afa-996b-1ec3eb6552ab">CB_SETEXTENDEDUI</a>.
+For more information, see <a href="https://msdn.microsoft.com/library/Bb775905(v=VS.85).aspx">CB_SETEXTENDEDUI</a>.
 	
 
 

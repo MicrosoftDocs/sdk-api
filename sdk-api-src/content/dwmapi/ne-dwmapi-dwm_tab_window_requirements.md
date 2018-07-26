@@ -100,7 +100,7 @@ The window has a region (set using <a href="https://msdn.microsoft.com/06209d0c-
 
 The window is ineligible due to its Dwm configuration.
 
-To resolve this issue, the window must not extended its client area into the title bar using <a href="https://msdn.microsoft.com/4ea409df-3980-4903-b481-6ff718dc01bc">DwmExtendFrameIntoClientArea</a>. In addition, the window must not have <b>DWMWA_NCRENDERING_POLICY</b> set to <b>DWMNCRP_ENABLED</b>. 
+To resolve this issue, the window must not extended its client area into the title bar using <a href="https://msdn.microsoft.com/library/Aa969512(v=VS.85).aspx">DwmExtendFrameIntoClientArea</a>. In addition, the window must not have <b>DWMWA_NCRENDERING_POLICY</b> set to <b>DWMNCRP_ENABLED</b>. 
 
 
 ### -field DWMTWR_WINDOW_MARGINS

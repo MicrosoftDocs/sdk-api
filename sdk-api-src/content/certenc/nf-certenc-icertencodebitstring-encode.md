@@ -78,7 +78,7 @@ The bit string to encode.
 
 #### - pbstrBinary [out]
 
-A pointer to a <b>BSTR</b> that will contain the encoded bit string. When you have finished using this <b>BSTR</b>, call the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function to free <i>pbstrBinary</i>.
+A pointer to a <b>BSTR</b> that will contain the encoded bit string. When you have finished using this <b>BSTR</b>, call the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to free <i>pbstrBinary</i>.
 
 
 ## -returns

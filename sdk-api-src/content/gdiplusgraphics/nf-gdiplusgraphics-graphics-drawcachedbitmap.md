@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::DrawCachedBitmap</b> method draws the image stored in a 
-			<a href="https://msdn.microsoft.com/298880a5-cc6a-4b1a-9459-7cf6c2252328">CachedBitmap</a> object.
+			<a href="https://msdn.microsoft.com/library/ms534425(v=VS.85).aspx">CachedBitmap</a> object.
 
 
 ## -parameters
@@ -62,10 +62,10 @@ The <b>Graphics::DrawCachedBitmap</b> method draws the image stored in a
 
 ### -param cb [in]
 
-Type: <b><a href="https://msdn.microsoft.com/298880a5-cc6a-4b1a-9459-7cf6c2252328">CachedBitmap</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms534425(v=VS.85).aspx">CachedBitmap</a>*</b>
 
 Pointer to a 
-					<a href="https://msdn.microsoft.com/298880a5-cc6a-4b1a-9459-7cf6c2252328">CachedBitmap</a> object that contains the image to be drawn. 
+					<a href="https://msdn.microsoft.com/library/ms534425(v=VS.85).aspx">CachedBitmap</a> object that contains the image to be drawn. 
 
 
 ### -param x [in]
@@ -103,12 +103,12 @@ If the method fails, it returns one of the other elements of the
 
 
 A 
-				<a href="https://msdn.microsoft.com/298880a5-cc6a-4b1a-9459-7cf6c2252328">CachedBitmap</a> object stores an image in a format that is optimized for a particular display screen. You cannot draw a cached bitmap to a printer or to a metafile. 
+				<a href="https://msdn.microsoft.com/library/ms534425(v=VS.85).aspx">CachedBitmap</a> object stores an image in a format that is optimized for a particular display screen. You cannot draw a cached bitmap to a printer or to a metafile. 
 
 Cached bitmaps will not work with any transformations other than translation.
 
 When you construct a 
-				<a href="https://msdn.microsoft.com/298880a5-cc6a-4b1a-9459-7cf6c2252328">CachedBitmap</a> object, you must pass the address of a 
+				<a href="https://msdn.microsoft.com/library/ms534425(v=VS.85).aspx">CachedBitmap</a> object, you must pass the address of a 
 				<a href="https://msdn.microsoft.com/library/windows/hardware/mt131452">Graphics</a>
  object to the constructor. If the screen associated with that 
 				<b>Graphics</b>
@@ -120,7 +120,7 @@ When you construct a
 
 
 The following example calls <b>Graphics::DrawCachedBitmap</b> to draw the image stored in a 
-						<a href="https://msdn.microsoft.com/298880a5-cc6a-4b1a-9459-7cf6c2252328">CachedBitmap</a> object.
+						<a href="https://msdn.microsoft.com/library/ms534425(v=VS.85).aspx">CachedBitmap</a> object.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -156,7 +156,7 @@ The following example calls <b>Graphics::DrawCachedBitmap</b> to draw the image 
 
 
 
-<a href="https://msdn.microsoft.com/0ad2a132-6db6-4099-81a2-10e1cd1b1f61">Drawing, Positioning, and Cloning Images</a>
+<a href="https://msdn.microsoft.com/library/ms536388(v=VS.85).aspx">Drawing, Positioning, and Cloning Images</a>
 
 
 
@@ -164,7 +164,7 @@ The following example calls <b>Graphics::DrawCachedBitmap</b> to draw the image 
 
 
 
-<a href="https://msdn.microsoft.com/42e2b664-197c-4c54-9220-b6231d6439d0">Using a Cached Bitmap to Improve Performance</a>
+<a href="https://msdn.microsoft.com/library/ms533835(v=VS.85).aspx">Using a Cached Bitmap to Improve Performance</a>
  
 
  

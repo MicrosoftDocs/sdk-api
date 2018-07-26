@@ -93,15 +93,15 @@ The low-order word of the new value.
 
 
 
-<a href="https://msdn.microsoft.com/161979a1-296c-47ed-bf41-74a561b5ba05">MAKELONG</a>
+<a href="https://msdn.microsoft.com/library/ms632660(v=VS.85).aspx">MAKELONG</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a86594d-05cd-44e4-aceb-3541e4d3af16">MAKELRESULT</a>
+<a href="https://msdn.microsoft.com/library/ms632662(v=VS.85).aspx">MAKELRESULT</a>
 
 
 
-<a href="https://msdn.microsoft.com/029f334b-53f6-46cf-8fa7-613bf241d0e6">MAKEWPARAM</a>
+<a href="https://msdn.microsoft.com/library/ms632664(v=VS.85).aspx">MAKEWPARAM</a>
 
 
 

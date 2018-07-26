@@ -103,9 +103,9 @@ The return value specifies the result of the message processing and depends on t
 
 
 
-The <b>DefDlgProc</b> function is the window procedure for the predefined class of dialog box. This procedure provides internal processing for the dialog box by forwarding messages to the dialog box procedure and carrying out default processing for any messages that the dialog box procedure returns as <b>FALSE</b>. Applications that create custom window procedures for their custom dialog boxes often use <b>DefDlgProc</b> instead of the <a href="https://msdn.microsoft.com/fcc6b242-e152-4364-a977-b0441bec425f">DefWindowProc</a> function to carry out default message processing. 
+The <b>DefDlgProc</b> function is the window procedure for the predefined class of dialog box. This procedure provides internal processing for the dialog box by forwarding messages to the dialog box procedure and carrying out default processing for any messages that the dialog box procedure returns as <b>FALSE</b>. Applications that create custom window procedures for their custom dialog boxes often use <b>DefDlgProc</b> instead of the <a href="https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx">DefWindowProc</a> function to carry out default message processing. 
 
-Applications create custom dialog box classes by filling a <a href="https://msdn.microsoft.com/7e2a4e89-19b6-4ef7-81dd-f44a3874e546">WNDCLASS</a> structure with appropriate information and registering the class with the <a href="https://msdn.microsoft.com/485115e5-b4ec-4e93-89ce-eee229ccabb7">RegisterClass</a> function. Some applications fill the structure by using the <a href="https://msdn.microsoft.com/f7eb12c9-ff24-465d-8c6d-8ee5777c05bc">GetClassInfo</a> function, specifying the name of the predefined dialog box. In such cases, the applications modify at least the <b>lpszClassName</b> member before registering. In all cases, the <b>cbWndExtra</b> member of <b>WNDCLASS</b> for a custom dialog box class must be set to at least <b>DLGWINDOWEXTRA</b>.
+Applications create custom dialog box classes by filling a <a href="https://msdn.microsoft.com/library/ms633576(v=VS.85).aspx">WNDCLASS</a> structure with appropriate information and registering the class with the <a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a> function. Some applications fill the structure by using the <a href="https://msdn.microsoft.com/library/ms633578(v=VS.85).aspx">GetClassInfo</a> function, specifying the name of the predefined dialog box. In such cases, the applications modify at least the <b>lpszClassName</b> member before registering. In all cases, the <b>cbWndExtra</b> member of <b>WNDCLASS</b> for a custom dialog box class must be set to at least <b>DLGWINDOWEXTRA</b>.
 
 The <b>DefDlgProc</b> function must not be called by a dialog box procedure; doing so results in recursive execution. 
 
@@ -121,15 +121,15 @@ The <b>DefDlgProc</b> function must not be called by a dialog box procedure; doi
 
 
 
-<a href="https://msdn.microsoft.com/fcc6b242-e152-4364-a977-b0441bec425f">DefWindowProc</a>
+<a href="https://msdn.microsoft.com/library/ms633572(v=VS.85).aspx">DefWindowProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/07ebee3c-5aa7-4b0d-b6cb-e642e01e1a88">Dialog Boxes</a>
+<a href="https://msdn.microsoft.com/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
 
 
 
-<a href="https://msdn.microsoft.com/f7eb12c9-ff24-465d-8c6d-8ee5777c05bc">GetClassInfo</a>
+<a href="https://msdn.microsoft.com/library/ms633578(v=VS.85).aspx">GetClassInfo</a>
 
 
 
@@ -137,11 +137,11 @@ The <b>DefDlgProc</b> function must not be called by a dialog box procedure; doi
 
 
 
-<a href="https://msdn.microsoft.com/485115e5-b4ec-4e93-89ce-eee229ccabb7">RegisterClass</a>
+<a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e2a4e89-19b6-4ef7-81dd-f44a3874e546">WNDCLASS</a>
+<a href="https://msdn.microsoft.com/library/ms633576(v=VS.85).aspx">WNDCLASS</a>
  
 
  

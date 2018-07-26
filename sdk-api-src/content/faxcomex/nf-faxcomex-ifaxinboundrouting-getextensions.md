@@ -71,9 +71,9 @@ The <b>GetExtensions</b> method retrieves the collection of inbound routing exte
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/8989c149-bbf4-46c1-b969-949d44efcf90">FaxInboundRoutingExtensions</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms684899(v=VS.85).aspx">FaxInboundRoutingExtensions</a>**</b>
 
-A <a href="https://msdn.microsoft.com/8989c149-bbf4-46c1-b969-949d44efcf90">FaxInboundRoutingExtensions</a> object.
+A <a href="https://msdn.microsoft.com/library/ms684899(v=VS.85).aspx">FaxInboundRoutingExtensions</a> object.
 
 
 
@@ -82,7 +82,7 @@ A <a href="https://msdn.microsoft.com/8989c149-bbf4-46c1-b969-949d44efcf90">FaxI
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -92,11 +92,11 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/70d
 
 
 
-<a href="https://msdn.microsoft.com/4cf71225-fcd8-4d2f-b8b3-acbb32708f3b">FaxInboundRouting</a>
+<a href="https://msdn.microsoft.com/library/ms684595(v=VS.85).aspx">FaxInboundRouting</a>
 
 
 
-<a href="https://msdn.microsoft.com/cef24608-cab1-4090-aa94-3a1b76733e98">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

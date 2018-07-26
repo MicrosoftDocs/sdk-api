@@ -79,12 +79,12 @@ Indicates
 ### -param pOuterUnknown [in]
 
 The pointer to the 
-<a href="_com_iunknown">IUnknown</a> interface on the TAPI 3 call object. Since the MSP Call object is aggregated in the TAPI 3 call object, it needs to know the outer <b>IUnknown</b>.
+<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface on the TAPI 3 call object. Since the MSP Call object is aggregated in the TAPI 3 call object, it needs to know the outer <b>IUnknown</b>.
 
 
 ### -param ppStreamControl [out]
 
-Pointer to <a href="_com_iunknown">IUnknown</a> interface pointer of 
+Pointer to <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer of 
 <a href="https://msdn.microsoft.com/12b9457a-7afb-4348-93a2-28728c673929">ITStreamControl</a> interface for newly created call.
 
 

@@ -167,7 +167,7 @@ The component specified by the index <i>iDependency</i> does not exist.
 
 
 
-The caller is responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release system resources held by the returned 
+The caller is responsible for calling <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release system resources held by the returned 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object.
 
 

@@ -88,7 +88,7 @@ If successful, the function returns the handle to the new icon that was created;
 
 
 
-When it is no longer needed, the caller is responsible for freeing the icon handle returned by <b>DuplicateIcon</b> by calling the <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> function.
+When it is no longer needed, the caller is responsible for freeing the icon handle returned by <b>DuplicateIcon</b> by calling the <a href="https://msdn.microsoft.com/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function.
 
 
 

@@ -68,37 +68,37 @@ Ordinal number denoting the display adapter to query. D3DADAPTER_DEFAULT is alwa
 
 ### -param DeviceType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/2bcdc476-7c42-4152-b107-58366faf2abd">D3DDEVTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb172547(v=VS.85).aspx">D3DDEVTYPE</a></b>
 
-Member of the <a href="https://msdn.microsoft.com/2bcdc476-7c42-4152-b107-58366faf2abd">D3DDEVTYPE</a> enumerated type, identifying the device type.
+Member of the <a href="https://msdn.microsoft.com/library/Bb172547(v=VS.85).aspx">D3DDEVTYPE</a> enumerated type, identifying the device type.
 
 
 ### -param AdapterFormat [in]
 
-Type: <b><a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a></b>
 
-Member of the <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a> enumerated type, identifying the format of the display mode into which the adapter will be placed. 
+Member of the <a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a> enumerated type, identifying the format of the display mode into which the adapter will be placed. 
 
 
 ### -param RenderTargetFormat [in]
 
-Type: <b><a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a></b>
 
-Member of the <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a> enumerated type, identifying the format of the render-target surface to be tested. 
+Member of the <a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a> enumerated type, identifying the format of the render-target surface to be tested. 
 
 
 ### -param DepthStencilFormat [in]
 
-Type: <b><a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a></b>
 
-Member of the <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a> enumerated type, identifying the format of the depth-stencil surface to be tested. 
+Member of the <a href="https://msdn.microsoft.com/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a> enumerated type, identifying the format of the depth-stencil surface to be tested. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the depth-stencil format is compatible with the render-target format in the display mode, this method returns D3D_OK. D3DERR_INVALIDCALL can be returned if one or more of the parameters is invalid. If a depth-stencil format is not compatible with the render target in the display mode, then this method returns D3DERR_NOTAVAILABLE.
 
@@ -113,7 +113,7 @@ This method is provided to enable applications to work with hardware requiring t
 
 The behavior of this method has been changed for DirectX 8.1.  This method now pays attention to the D24x8 and D32 depth-stencil formats. The previous version assumed that these formats would always be usable with 32- or 16-bit render targets. This method will now return D3D_OK for these formats only if the device is capable of mixed-depth operations.
 
-The following code fragment shows how you could use <a href="https://msdn.microsoft.com/39115099-de14-424c-95a8-c5699f5c4c65">CheckDeviceFormat</a> to validate a depth stencil format.
+The following code fragment shows how you could use <a href="https://msdn.microsoft.com/library/Bb174309(v=VS.85).aspx">CheckDeviceFormat</a> to validate a depth stencil format.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -161,7 +161,7 @@ The preceding call will return <b>FALSE</b> if DepthFormat cannot be used in con
 
 
 
-<a href="https://msdn.microsoft.com/af321e4f-aaff-4285-bdac-9aab5c1dc5d8">IDirect3D9</a>
+<a href="https://msdn.microsoft.com/library/Bb174300(v=VS.85).aspx">IDirect3D9</a>
  
 
  

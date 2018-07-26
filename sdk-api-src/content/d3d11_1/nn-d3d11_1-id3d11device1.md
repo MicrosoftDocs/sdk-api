@@ -74,7 +74,7 @@ The <b>ID3D11Device1</b> interface has these methods.
 <a href="https://msdn.microsoft.com/2E891104-3706-46A5-88FB-C621C95B4EFB">CreateBlendState1</a>
 </td>
 <td align="left" width="63%">
-Creates a blend-state object that encapsulates blend state for the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger stage</a> and allows the configuration of logic operations.
+Creates a blend-state object that encapsulates blend state for the <a href="https://msdn.microsoft.com/library/Bb205120(v=VS.85).aspx">output-merger stage</a> and allows the configuration of logic operations.
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ Creates a context state object that holds all Direct3D state and some Direct3D b
 <a href="https://msdn.microsoft.com/EBA793F1-35AA-4586-9D5C-803BD58B1D95">CreateRasterizerState1</a>
 </td>
 <td align="left" width="63%">
-Creates a rasterizer state object that informs the <a href="https://msdn.microsoft.com/efd3f819-7c63-4e1a-9923-8e7198354ec6">rasterizer stage</a> how to behave and forces the sample count while UAV rendering or rasterizing.
+Creates a rasterizer state object that informs the <a href="https://msdn.microsoft.com/library/Bb205125(v=VS.85).aspx">rasterizer stage</a> how to behave and forces the sample count while UAV rendering or rasterizing.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Gets an immediate context, which can play back command lists.
 <a href="https://msdn.microsoft.com/4751B49E-01DB-467B-879C-743C8B43DDA5">OpenSharedResource1</a>
 </td>
 <td align="left" width="63%">
-Gives a device access to a shared resource that is referenced by a handle and that was created on a different device. You must have previously created the resource as shared and specified that it uses NT handles (that is, you set the <a href="d3d11_resource_misc_flag.htm">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag).
+Gives a device access to a shared resource that is referenced by a handle and that was created on a different device. You must have previously created the resource as shared and specified that it uses NT handles (that is, you set the <a href="https://msdn.microsoft.com/library/Ff476203(v=VS.85).aspx">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag).
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ Gives a device access to a shared resource that is referenced by a handle and th
 <a href="https://msdn.microsoft.com/5A7575E4-382E-4A2F-AFE8-2E5850526E75">OpenSharedResourceByName</a>
 </td>
 <td align="left" width="63%">
-Gives a device access to a shared resource that is referenced by name and that was created on a different device. You must have previously created the resource as shared and specified that it uses NT handles (that is, you set the <a href="d3d11_resource_misc_flag.htm">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag).
+Gives a device access to a shared resource that is referenced by name and that was created on a different device. You must have previously created the resource as shared and specified that it uses NT handles (that is, you set the <a href="https://msdn.microsoft.com/library/Ff476203(v=VS.85).aspx">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag).
 
 </td>
 </tr>

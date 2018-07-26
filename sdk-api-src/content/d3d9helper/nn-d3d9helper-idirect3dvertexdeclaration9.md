@@ -71,7 +71,7 @@ The <b>IDirect3DVertexDeclaration9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff80439b-38fb-47f0-ad38-429decd0d573">GetDeclaration</a>
+<a href="https://msdn.microsoft.com/library/Bb205920(v=VS.85).aspx">GetDeclaration</a>
 </td>
 <td align="left" width="63%">
 Gets the vertex shader declaration.
