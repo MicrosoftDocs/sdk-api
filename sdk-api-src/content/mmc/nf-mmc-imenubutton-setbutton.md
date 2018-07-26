@@ -4,10 +4,10 @@ title: IMenuButton::SetButton
 author: windows-sdk-content
 description: The IMenuButton::SetButton method enables a user to set the text attributes of a button in the menu bar that is changed.
 old-location: mmc\imenubutton_setbutton.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: f0297c54-7aa2-497b-9fe7-1be4fc7517f9
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: IMenuButton interface [MMC],SetButton method, IMenuButton.SetButton, IMenuButton::SetButton, SetButton, SetButton method [MMC], SetButton method [MMC],IMenuButton interface, _slate_imenubutton_setbutton, mmc.imenubutton_setbutton, mmc/IMenuButton::SetButton
 ms.prod: windows
 ms.technology: windows-sdk

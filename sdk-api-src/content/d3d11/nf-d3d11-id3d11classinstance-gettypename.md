@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11classinstance_gettypename.htm
 old-project: direct3d11
 ms.assetid: a46699b5-2250-442a-85ab-37eeb419ac72
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 37b4ce30-bd10-e500-268b-fcbfc22464f2, GetTypeName, GetTypeName method [Direct3D 11], GetTypeName method [Direct3D 11],ID3D11ClassInstance interface, ID3D11ClassInstance interface [Direct3D 11],GetTypeName method, ID3D11ClassInstance.GetTypeName, ID3D11ClassInstance::GetTypeName, d3d11/ID3D11ClassInstance::GetTypeName, direct3d11.id3d11classinstance_gettypename
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ Type of the current HLSL class.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a>*</b>
 
-
-            The length of the <i>pTypeName</i> parameter.
+The length of the <i>pTypeName</i> parameter.
           
 
 
@@ -91,8 +90,7 @@ This method does not return a value.
 GetTypeName will return a valid name only for instances acquired using <a href="https://msdn.microsoft.com/055f1670-0643-4a0a-8411-ac8a62e98826">ID3D11ClassLinkage::GetClassInstance</a>.
         
 
-
-          For more information about using the <a href="https://msdn.microsoft.com/70d006d2-5c47-4e8a-9a14-b5475d88ac32">ID3D11ClassInstance</a> interface, see <a href="https://msdn.microsoft.com/2f5f7852-0f0a-4fad-a412-9a0d634c73b6">Dynamic Linking</a>.
+For more information about using the <a href="https://msdn.microsoft.com/70d006d2-5c47-4e8a-9a14-b5475d88ac32">ID3D11ClassInstance</a> interface, see <a href="https://msdn.microsoft.com/2f5f7852-0f0a-4fad-a412-9a0d634c73b6">Dynamic Linking</a>.
         
 
 <b>Windows Phone 8:

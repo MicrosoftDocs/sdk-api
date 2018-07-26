@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_getbreakonseverity.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getbreakonseverity.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 640ea84e-c7af-c3d2-d27b-1edd4a3629f9, GetBreakOnSeverity, GetBreakOnSeverity method [Direct3D 10], GetBreakOnSeverity method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetBreakOnSeverity method, ID3D10InfoQueue.GetBreakOnSeverity, ID3D10InfoQueue::GetBreakOnSeverity, d3d10sdklayers/ID3D10InfoQueue::GetBreakOnSeverity, direct3d10.id3d10infoqueue_getbreakonseverity
 ms.prod: windows
 ms.technology: windows-sdk

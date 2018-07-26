@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device5_opensharedfence.htm
 old-project: direct3d11
 ms.assetid: 3EB1BA51-61CB-4389-84A9-77DAC9815AC7
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11Device5 interface [Direct3D 11],OpenSharedFence method, ID3D11Device5.OpenSharedFence, ID3D11Device5::OpenSharedFence, OpenSharedFence, OpenSharedFence method [Direct3D 11], OpenSharedFence method [Direct3D 11],ID3D11Device5 interface, d3d11_4/ID3D11Device5::OpenSharedFence, direct3d11.id3d11device5_opensharedfence
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ This member function is a limited version of the Direct3D 12 <a href="https://ms
 
 Type: <b>HANDLE</b>
 
-
-            The handle that was returned by a call to <a href="https://msdn.microsoft.com/07447C9A-8F69-4FCA-B75C-D7015292F25D">ID3D11Fence::CreateSharedHandle</a> or <a href="https://msdn.microsoft.com/AFF058FF-358F-4FF3-8C92-57A9D34B27D9">ID3D12Device::CreateSharedHandle</a>.
+The handle that was returned by a call to <a href="https://msdn.microsoft.com/07447C9A-8F69-4FCA-B75C-D7015292F25D">ID3D11Fence::CreateSharedHandle</a> or <a href="https://msdn.microsoft.com/AFF058FF-358F-4FF3-8C92-57A9D34B27D9">ID3D12Device::CreateSharedHandle</a>.
           
 
 
@@ -79,8 +78,7 @@ Type: <b>HANDLE</b>
 
 Type: <b>void**</b>
 
-
-            A pointer to a memory block that receives a pointer to the <a href="https://msdn.microsoft.com/DC07EDEF-DA38-4CAF-8FDE-B3867DC83B8C">ID3D11Fence</a> interface.
+A pointer to a memory block that receives a pointer to the <a href="https://msdn.microsoft.com/DC07EDEF-DA38-4CAF-8FDE-B3867DC83B8C">ID3D11Fence</a> interface.
           
 
 
@@ -88,8 +86,7 @@ Type: <b>void**</b>
 
 Type: <b>REFIID</b>
 
-
-            The globally unique identifier (<b>GUID</b>) for the <a href="https://msdn.microsoft.com/DC07EDEF-DA38-4CAF-8FDE-B3867DC83B8C">ID3D11Fence</a> interface. The <b>REFIID</b>, or <b>GUID</b>, of the interface can be obtained by using the __uuidof() macro. For example, __uuidof(ID3D11Fence) will get the <b>GUID</b> of the interface to the fence.
+The globally unique identifier (<b>GUID</b>) for the <a href="https://msdn.microsoft.com/DC07EDEF-DA38-4CAF-8FDE-B3867DC83B8C">ID3D11Fence</a> interface. The <b>REFIID</b>, or <b>GUID</b>, of the interface can be obtained by using the __uuidof() macro. For example, __uuidof(ID3D11Fence) will get the <b>GUID</b> of the interface to the fence.
           
 
 
@@ -99,8 +96,7 @@ Type: <b>REFIID</b>
 
 Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-
-            This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
           
 
 

@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2createreverb.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CreateReverb(IUnknown@,UINT32)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 07/23/2018
 ms.keywords: XAudio2CreateReverb, XAudio2CreateReverb function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2createreverb, xaudio2fx/XAudio2CreateReverb
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,9 +115,7 @@ The reverb APO supports has the following restrictions:
 <li>Stereo input and 5.1 output</li>
 </ul>
 </li>
-</ul>
-
-The reverb APO maintains internal state information between processing samples. You can only use an instance of the APO with one source of audio data at a time. Multiple voices that require reverb effects would each need to create a separate reverb effect with <b>XAudio2CreateReverb</b>.
+</ul>The reverb APO maintains internal state information between processing samples. You can only use an instance of the APO with one source of audio data at a time. Multiple voices that require reverb effects would each need to create a separate reverb effect with <b>XAudio2CreateReverb</b>.
 
 
 
@@ -166,8 +164,7 @@ XAudio2CreateReverb(&amp;pReverbAPO);
 
 The xaudio2fx.h header defines the <b>AudioReverb</b> class GUID as   a cross-platform audio processing object (XAPO). 
 
-<pre class="syntax" xml:space="preserve"><code>
-class __declspec(uuid("C2633B16-471B-4498-B8C5-4F0959E2EC09")) AudioReverb;
+<pre class="syntax" xml:space="preserve"><code>class __declspec(uuid("C2633B16-471B-4498-B8C5-4F0959E2EC09")) AudioReverb;
 </code></pre>
 <b>XAudio2CreateReverb</b> returns this object as a pointer to a pointer to <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> in the <i>ppApo</i> parameter. Although you can query the <a href="https://msdn.microsoft.com/library/Ee415893(v=VS.85).aspx">IXAPO</a> and <a href="https://msdn.microsoft.com/library/Ee415896(v=VS.85).aspx">IXAPOParameters</a> interfaces from this <b>IUnknown</b>, you typically never use these interfaces directly. Instead, you use them when you create a voice to add them as part of the effects chain. 
 

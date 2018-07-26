@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ILegacyIAccessibleProvider_SetValue.htm
 old-project: WinAuto
 ms.assetid: ca0901af-8d79-4aed-876f-0d719657ef12
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],SetValue method, ILegacyIAccessibleProvider.SetValue, ILegacyIAccessibleProvider::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],ILegacyIAccessibleProvider interface, uiauto.uiauto_ILegacyIAccessibleProvider_SetValue, uiauto_ILegacyIAccessibleProvider_SetValue, uiautomationcore/ILegacyIAccessibleProvider::SetValue, winauto.uiauto_ILegacyIAccessibleProvider_SetValue
 ms.prod: windows
 ms.technology: windows-sdk

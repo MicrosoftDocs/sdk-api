@@ -7,7 +7,7 @@ old-location: direct3d11\d3dx11createsegmentedscan.htm
 old-project: direct3d11
 ms.assetid: f8906357-57d8-4e57-a120-2ac28fad2288
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 6b834305-1925-9f3d-ee71-8dc858a331c0, D3DX11CreateSegmentedScan, D3DX11CreateSegmentedScan function [Direct3D 11], d3dcsx/D3DX11CreateSegmentedScan, direct3d11.d3dx11createsegmentedscan
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Creates a segmented scan context.
 
 Type: <b><a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>*</b>
 
-
-            Pointer to an <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> interface.
+Pointer to an <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> interface.
           
 
 
@@ -79,8 +78,7 @@ Maximum single scan size, in elements (FLOAT, UINT, or INT).
 
 Type: <b><a href="https://msdn.microsoft.com/58d8d3ea-25d6-4767-9693-fbc97ae3e8b8">ID3DX11SegmentedScan</a>**</b>
 
-
-              Pointer to a <a href="https://msdn.microsoft.com/58d8d3ea-25d6-4767-9693-fbc97ae3e8b8">ID3DX11SegmentedScan Interface</a> pointer that will be set to the created interface object.
+Pointer to a <a href="https://msdn.microsoft.com/58d8d3ea-25d6-4767-9693-fbc97ae3e8b8">ID3DX11SegmentedScan Interface</a> pointer that will be set to the created interface object.
             
 
 
@@ -90,8 +88,7 @@ Type: <b><a href="https://msdn.microsoft.com/58d8d3ea-25d6-4767-9693-fbc97ae3e8b
 
 Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-
-            The return value is one of the values listed in <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
+The return value is one of the values listed in <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
           
 
 

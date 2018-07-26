@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_FindAllBuildCache.htm
 old-project: WinAuto
 ms.assetid: acf16f88-2b68-4fd4-b715-b3a61340bdd0
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: FindAllBuildCache, FindAllBuildCache method [Windows Accessibility], FindAllBuildCache method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],FindAllBuildCache method, IUIAutomationElement.FindAllBuildCache, IUIAutomationElement::FindAllBuildCache, uiauto.uiauto_IUIAutomationElement_FindAllBuildCache, uiauto_IUIAutomationElement_FindAllBuildCache, uiautomationclient/IUIAutomationElement::FindAllBuildCache, winauto.uiauto_IUIAutomationElement_FindAllBuildCache
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_opensharedresource.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_opensharedresource.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],OpenSharedResource method, ID3D10Device.OpenSharedResource, ID3D10Device::OpenSharedResource, OpenSharedResource, OpenSharedResource method [Direct3D 10], OpenSharedResource method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OpenSharedResource, direct3d10.id3d10device_opensharedresource, e1b41a59-f80c-625e-e0a5-cc59636f10e1
 ms.prod: windows
 ms.technology: windows-sdk

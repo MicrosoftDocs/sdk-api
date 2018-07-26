@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12object_setname.htm
 old-project: direct3d12
 ms.assetid: A1DEEB16-BF75-4391-ADF0-AC22EECBC71A
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12Object interface,SetName method, ID3D12Object.SetName, ID3D12Object::SetName, SetName, SetName method, SetName method,ID3D12Object interface, d3d12/ID3D12Object::SetName, direct3d12.id3d12object_setname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Associates a name with the device object.
+Associates a name with the device object.
           This name is for use in debug diagnostics and tools.
         
 
@@ -65,8 +64,7 @@ req.irql:
 
 Type: <b>LPCWSTR</b>
 
-
-            A <b>NULL</b>-terminated <b>UNICODE</b> string that contains the name to associate with the device object.
+A <b>NULL</b>-terminated <b>UNICODE</b> string that contains the name to associate with the device object.
           
 
 
@@ -76,8 +74,7 @@ Type: <b>LPCWSTR</b>
 
 Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-
-            This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
 
 
@@ -87,11 +84,9 @@ Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRE
 
 
 
-
-        This method takes UNICODE names.
+This method takes UNICODE names.
         The older Direct3D 11 debug object naming system through
-        <a href="https://msdn.microsoft.com/1B3E8202-7CB3-4D9F-A1AE-70E66652773C">ID3D12Object::SetPrivateData</a>
-        with <b>WKPDID_D3DDebugObjectName</b> used ASCII.
+        <a href="https://msdn.microsoft.com/1B3E8202-7CB3-4D9F-A1AE-70E66652773C">ID3D12Object::SetPrivateData</a>with <b>WKPDID_D3DDebugObjectName</b> used ASCII.
        
 
 

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d11on12device_acquirewrappedresources.htm
 old-project: direct3d12
 ms.assetid: 123FC8D9-6411-4CB7-921B-CEB32F5A9AD9
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: AcquireWrappedResources, AcquireWrappedResources method, AcquireWrappedResources method,ID3D11On12Device interface, ID3D11On12Device interface,AcquireWrappedResources method, ID3D11On12Device.AcquireWrappedResources, ID3D11On12Device::AcquireWrappedResources, d3d11on12/ID3D11On12Device::AcquireWrappedResources, direct3d12.id3d11on12device_acquirewrappedresources
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Acquires D3D11 resources for use with D3D 11on12.
+Acquires D3D11 resources for use with D3D 11on12.
           Indicates that rendering to the wrapped resources can begin again.
         
 
@@ -65,8 +64,7 @@ req.irql:
 
 Type: <b>ID3D11Resource*</b>
 
-
-            Specifies a pointer to a set of D3D11 resources, defined by <a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>.
+Specifies a pointer to a set of D3D11 resources, defined by <a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>.
           
 
 
@@ -74,8 +72,7 @@ Type: <b>ID3D11Resource*</b>
 
 Type: <b>UINT</b>
 
-
-            Count of the number of resources.
+Count of the number of resources.
           
 
 
@@ -83,8 +80,7 @@ Type: <b>UINT</b>
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 
@@ -94,12 +90,10 @@ Type: <b>UINT</b>
 
 
 
-
-          This method marks the resources as "acquired" in hazard tracking.
+This method marks the resources as "acquired" in hazard tracking.
         
 
-
-          Keyed mutex resources cannot be provided to this method; use <a href="https://msdn.microsoft.com/31edab76-7b16-4a02-83ff-998c21e77f2e">IDXGIKeyedMutex::AcquireSync</a> instead.
+Keyed mutex resources cannot be provided to this method; use <a href="https://msdn.microsoft.com/31edab76-7b16-4a02-83ff-998c21e77f2e">IDXGIKeyedMutex::AcquireSync</a> instead.
         
 
 

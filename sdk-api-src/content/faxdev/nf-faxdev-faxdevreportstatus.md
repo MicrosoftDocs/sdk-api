@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevreportstatus.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_65gz.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxDevReportStatus, FaxDevReportStatus function [Fax Service], _mfax_faxdevreportstatus, fax._mfax_faxdevreportstatus, faxdev/FaxDevReportStatus
 ms.prod: windows
 ms.technology: windows-sdk

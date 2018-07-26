@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12descriptorheap.htm
 old-project: direct3d12
 ms.assetid: B6FF011B-3FED-425B-B9D5-A823E6915FD5
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12DescriptorHeap, ID3D12DescriptorHeap interface, ID3D12DescriptorHeap interface,described, d3d12/ID3D12DescriptorHeap, direct3d12.id3d12descriptorheap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,8 +82,7 @@ Gets the CPU descriptor handle that represents the start of the heap.
 <a href="https://msdn.microsoft.com/DDDDA9AB-841A-41A4-806C-82A596AFDB61">GetDesc</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the descriptor heap description.
+Gets the descriptor heap description.
         
 
 </td>

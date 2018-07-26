@@ -7,7 +7,7 @@ old-location: xaudio2\x3daudiocalculate.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.x3daudio.X3DAudioCalculate(const X3DAUDIO_HANDLE,const X3DAUDIO_LISTENER,const X3DAUDIO_EMITTER,UINT32,X3DAUDIO_DSP_SETTINGS@)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 07/23/2018
 ms.keywords: X3DAudioCalculate, X3DAudioCalculate function [XAudio2 Audio Mixing APIs], x3daudio/X3DAudioCalculate, xaudio2.x3daudiocalculate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,8 +119,7 @@ Pointer to an <a href="https://msdn.microsoft.com/library/Ee419058(v=VS.85).aspx
 </tr>
 <tr>
 <td>X3DAUDIO_CALCULATE_REDIRECT_TO_LFE</td>
-<td>
-           Applies an equal mix of all source channels
+<td>Applies an equal mix of all source channels
            to a low frequency effect (LFE) destination channel. It only applies to matrix calculations
            with a source that does not have an LFE channel and a destination that does have an LFE
            channel.  This flag is only valid  if you also set X3DAUDIO_CALCULATE_MATRIX. </td>

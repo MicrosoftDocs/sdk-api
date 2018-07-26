@@ -4,10 +4,10 @@ title: IUpdateSession::CreateUpdateSearcher
 author: windows-sdk-content
 description: Returns an IUpdateSearcher interface for this session.
 old-location: wua\iupdatesession_createupdatesearcher.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 7e7a4aa9-7952-4080-9ac0-9544f959475f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: CreateUpdateSearcher, CreateUpdateSearcher method [Windows Update Agent], CreateUpdateSearcher method [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],CreateUpdateSearcher method, IUpdateSession.CreateUpdateSearcher, IUpdateSession::CreateUpdateSearcher, wua.iupdatesession_createupdatesearcher, wuapi/IUpdateSession::CreateUpdateSearcher
 ms.prod: windows
 ms.technology: windows-sdk

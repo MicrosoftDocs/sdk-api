@@ -4,10 +4,10 @@ title: DSCreateSecurityPage function
 author: windows-sdk-content
 description: Creates a security property page for an Active Directory object.
 old-location: security\dscreatesecuritypage.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 1ebb531f-84a0-4ace-88d1-89e65e18c34a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: DSCreateSecurityPage, DSCreateSecurityPage function [Security], DSSI_IS_ROOT, DSSI_NO_ACCESS_CHECK, DSSI_NO_EDIT_OWNER, DSSI_NO_EDIT_SACL, DSSI_NO_FILTER, DSSI_NO_READONLY_MESSAGE, DSSI_READ_ONLY, dssec/DSCreateSecurityPage, security.dscreatesecuritypage
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist.htm
 old-project: direct3d12
 ms.assetid: 1BF282A7-F6D4-43A9-BDAD-D877564A1C6B
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,described, d3d12/ID3D12GraphicsCommandList, direct3d12.id3d12graphicscommandlist
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,8 +73,7 @@ The <b>ID3D12GraphicsCommandList</b> interface has these methods.
 <a href="https://msdn.microsoft.com/2A5292C0-ED9B-4E3C-87E4-88EA2FF09B28">BeginEvent</a>
 </td>
 <td align="left" width="63%">
-
-          Not intended to be called directly.  Use the
+Not intended to be called directly.  Use the
         <a href="https://blogs.msdn.microsoft.com/pix/winpixeventruntime/">PIX event runtime</a> to insert events into a command list.
 
 </td>
@@ -102,8 +101,7 @@ Clears the depth-stencil resource.
 <a href="https://msdn.microsoft.com/5AB13E36-A189-41B4-AEF8-B5C5831655DB">ClearRenderTargetView</a>
 </td>
 <td align="left" width="63%">
-
-          Sets all the elements in a render target to one value.
+Sets all the elements in a render target to one value.
         
 
 </td>
@@ -131,8 +129,7 @@ Sets all the elements in a unordered access view to the specified float values.
 <a href="https://msdn.microsoft.com/A048BF0C-9141-4DDF-91F9-B53464033A44">ClearUnorderedAccessViewUint</a>
 </td>
 <td align="left" width="63%">
-
-          Sets all the elements in a unordered-access view to the specified integer values.
+Sets all the elements in a unordered-access view to the specified integer values.
         
 
 </td>
@@ -142,8 +139,7 @@ Sets all the elements in a unordered access view to the specified float values.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
 </td>
 <td align="left" width="63%">
-
-          Indicates that recording to the command list has finished.
+Indicates that recording to the command list has finished.
         
 
 </td>
@@ -153,8 +149,7 @@ Sets all the elements in a unordered access view to the specified float values.
 <a href="https://msdn.microsoft.com/46F89B85-EDAA-4095-B6C6-4CC47F972F09">CopyBufferRegion</a>
 </td>
 <td align="left" width="63%">
-
-          Copies a region of a buffer from one resource to another.
+Copies a region of a buffer from one resource to another.
         
 
 </td>
@@ -164,8 +159,7 @@ Sets all the elements in a unordered access view to the specified float values.
 <a href="https://msdn.microsoft.com/EFC305CF-FBA9-4192-999B-6C6BFCDFF51F">CopyResource</a>
 </td>
 <td align="left" width="63%">
-
-        Copies the entire contents of the source resource to the destination resource.
+Copies the entire contents of the source resource to the destination resource.
       
 
 </td>
@@ -175,8 +169,7 @@ Sets all the elements in a unordered access view to the specified float values.
 <a href="https://msdn.microsoft.com/2EAFC6B9-376C-4801-8E53-BF0DB08943AA">CopyTextureRegion</a>
 </td>
 <td align="left" width="63%">
-
-          This method uses the GPU to copy texture data between two locations. Both the source and the destination may reference texture data located within either a buffer resource or a texture resource.
+This method uses the GPU to copy texture data between two locations. Both the source and the destination may reference texture data located within either a buffer resource or a texture resource.
 
 </td>
 </tr>
@@ -185,8 +178,7 @@ Sets all the elements in a unordered access view to the specified float values.
 <a href="https://msdn.microsoft.com/F770CE6B-DD70-4102-BEFD-3E46B9957F5E">CopyTiles</a>
 </td>
 <td align="left" width="63%">
-
-        Copies tiles from buffer to tiled resource or vice versa.
+Copies tiles from buffer to tiled resource or vice versa.
       
 
 </td>
@@ -214,8 +206,7 @@ Executes a command list from a thread group.
 <a href="https://msdn.microsoft.com/16333C88-81B7-44D8-A226-D707C8A9CCF4">DrawIndexedInstanced</a>
 </td>
 <td align="left" width="63%">
-
-     Draws indexed, instanced primitives.
+Draws indexed, instanced primitives.
         
 
 </td>
@@ -225,8 +216,7 @@ Executes a command list from a thread group.
 <a href="https://msdn.microsoft.com/BB10C732-1F42-417D-ADDE-55E870AD5FE9">DrawInstanced</a>
 </td>
 <td align="left" width="63%">
-
-          Draws non-indexed, instanced primitives.
+Draws non-indexed, instanced primitives.
         
 
 </td>
@@ -236,8 +226,7 @@ Executes a command list from a thread group.
 <a href="https://msdn.microsoft.com/24C40BE8-1080-4478-AB7C-D1FFCF6F5E3F">EndEvent</a>
 </td>
 <td align="left" width="63%">
-
-          Not intended to be called directly.  Use the
+Not intended to be called directly.  Use the
         <a href="https://blogs.msdn.microsoft.com/pix/winpixeventruntime/">PIX event runtime</a> to insert events into a command list.
 
 </td>
@@ -247,8 +236,7 @@ Executes a command list from a thread group.
 <a href="https://msdn.microsoft.com/591B277C-44C7-4C21-86B1-239F6A71308D">EndQuery</a>
 </td>
 <td align="left" width="63%">
-
-          Ends a running query.
+Ends a running query.
         
 
 </td>
@@ -258,8 +246,7 @@ Executes a command list from a thread group.
 <a href="https://msdn.microsoft.com/B8AE4448-041D-47F6-9F0F-AE74FFEF6E41">ExecuteBundle</a>
 </td>
 <td align="left" width="63%">
-
-          Executes a bundle.
+Executes a bundle.
         
 
 </td>
@@ -269,8 +256,7 @@ Executes a command list from a thread group.
 <a href="https://msdn.microsoft.com/99FB088D-F3EB-4BAD-A945-51A1ED6F9288">ExecuteIndirect</a>
 </td>
 <td align="left" width="63%">
-
-          Apps perform indirect draws/dispatches using the <a href="https://msdn.microsoft.com/99FB088D-F3EB-4BAD-A945-51A1ED6F9288">ExecuteIndirect</a> method.
+Apps perform indirect draws/dispatches using the <a href="https://msdn.microsoft.com/99FB088D-F3EB-4BAD-A945-51A1ED6F9288">ExecuteIndirect</a> method.
         
 
 </td>
@@ -280,8 +266,7 @@ Executes a command list from a thread group.
 <a href="https://msdn.microsoft.com/EB776EC7-42F2-47D3-A1FA-771EC6C4E3AB">IASetIndexBuffer</a>
 </td>
 <td align="left" width="63%">
-
-          Sets the view for the index buffer.
+Sets the view for the index buffer.
         
 
 </td>
@@ -318,8 +303,7 @@ Sets the blend factor that modulate values for a pixel shader, render target, or
 <a href="https://msdn.microsoft.com/FE565AA2-FA34-4824-870E-9C4C7C19C93C">OMSetRenderTargets</a>
 </td>
 <td align="left" width="63%">
-
-          Sets CPU descriptor handles for the render targets and depth stencil.
+Sets CPU descriptor handles for the render targets and depth stencil.
         
 
 </td>
@@ -338,8 +322,7 @@ Sets the reference value for depth stencil tests.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a>
 </td>
 <td align="left" width="63%">
-
-          Resets a command list back to its initial state as if a new command list was just created.
+Resets a command list back to its initial state as if a new command list was just created.
         
 
 </td>
@@ -350,8 +333,7 @@ Sets the reference value for depth stencil tests.
 </td>
 <td align="left" width="63%">
 
-
-              Extracts data from a query. <a href="https://msdn.microsoft.com/E3154DB7-DDA9-4480-A918-19C3A62944F2">ResolveQueryData</a> works with all heap types (default, upload, and readback). 
+Extracts data from a query. <a href="https://msdn.microsoft.com/E3154DB7-DDA9-4480-A918-19C3A62944F2">ResolveQueryData</a> works with all heap types (default, upload, and readback). 
             
 
 
@@ -371,8 +353,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/AA788F94-122B-4132-BED5-162EAC683676">ResourceBarrier</a>
 </td>
 <td align="left" width="63%">
-
-          Notifies the driver that it needs to synchronize multiple accesses to resources.
+Notifies the driver that it needs to synchronize multiple accesses to resources.
         
 
 </td>
@@ -382,8 +363,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/5A636CCB-34EB-4642-B588-4107D79F46F5">RSSetScissorRects</a>
 </td>
 <td align="left" width="63%">
-
-          Binds an array of scissor rectangles to the rasterizer stage.
+Binds an array of scissor rectangles to the rasterizer stage.
         
 
 </td>
@@ -393,8 +373,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/1ACFD260-1CE5-484C-83DD-021E8D895EBB">RSSetViewports</a>
 </td>
 <td align="left" width="63%">
-
-          Bind an array of viewports to the rasterizer stage of the pipeline.
+Bind an array of viewports to the rasterizer stage of the pipeline.
         
 
 </td>
@@ -404,8 +383,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/A250052F-A24A-4234-8A39-0995A00B6E01">SetComputeRoot32BitConstant</a>
 </td>
 <td align="left" width="63%">
-
-          Sets a constant in the compute root signature.
+Sets a constant in the compute root signature.
         
 
 </td>
@@ -415,8 +393,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/A4623522-4748-4999-80EC-E6AC8934136A">SetComputeRoot32BitConstants</a>
 </td>
 <td align="left" width="63%">
-
-          Sets a group of constants in the compute root signature.
+Sets a group of constants in the compute root signature.
         
 
 </td>
@@ -426,8 +403,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/AEAB392F-365F-4EDB-AC57-FFAC40C800C0">SetComputeRootConstantBufferView</a>
 </td>
 <td align="left" width="63%">
-
-          Sets a CPU descriptor handle for the constant buffer in the compute root signature.
+Sets a CPU descriptor handle for the constant buffer in the compute root signature.
         
 
 </td>
@@ -437,8 +413,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/DC05D64A-39D0-4EF2-A9FE-956B499386F2">SetComputeRootDescriptorTable</a>
 </td>
 <td align="left" width="63%">
-
-          Sets a descriptor table into the compute root signature.
+Sets a descriptor table into the compute root signature.
 
 </td>
 </tr>
@@ -447,8 +422,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/31BA8D5B-FAC3-4A4A-B2F2-76EC6399EFED">SetComputeRootShaderResourceView</a>
 </td>
 <td align="left" width="63%">
-
-          Sets a CPU descriptor handle for the shader resource in the compute root signature.
+Sets a CPU descriptor handle for the shader resource in the compute root signature.
         
 
 </td>
@@ -458,8 +432,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/5DF04D51-DC09-4B02-8A82-ED68E049D392">SetComputeRootSignature</a>
 </td>
 <td align="left" width="63%">
-
-          Sets the layout of the compute root signature.
+Sets the layout of the compute root signature.
         
 
 </td>
@@ -469,8 +442,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/7C91B305-ABB2-4355-AA4B-3E1641ACF9E0">SetComputeRootUnorderedAccessView</a>
 </td>
 <td align="left" width="63%">
-
-          Sets a CPU descriptor handle for the unordered-access-view resource in the compute root signature.
+Sets a CPU descriptor handle for the unordered-access-view resource in the compute root signature.
         
 
 </td>
@@ -480,8 +452,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/EE475B68-1DCA-44D4-994E-717D40F47DFA">SetDescriptorHeaps</a>
 </td>
 <td align="left" width="63%">
-
-          Changes the currently bound descriptor heaps that are associated with a command list.
+Changes the currently bound descriptor heaps that are associated with a command list.
         
 
 </td>
@@ -491,8 +462,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/F53090CC-05E9-4892-B6BF-0A849A5D98EF">SetGraphicsRoot32BitConstant</a>
 </td>
 <td align="left" width="63%">
-
-          Sets a constant in the graphics root signature.
+Sets a constant in the graphics root signature.
         
 
 </td>
@@ -502,8 +472,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/509B8AA0-8128-4216-A9E2-67C027488E4A">SetGraphicsRoot32BitConstants</a>
 </td>
 <td align="left" width="63%">
-
-          Sets a group of constants in the graphics root signature.
+Sets a group of constants in the graphics root signature.
         
 
 </td>
@@ -513,8 +482,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/59F6E33A-9BD8-4ED3-8CA7-235E2A0C2686">SetGraphicsRootConstantBufferView</a>
 </td>
 <td align="left" width="63%">
-
-          Sets a CPU descriptor handle for the constant buffer in the graphics root signature.
+Sets a CPU descriptor handle for the constant buffer in the graphics root signature.
         
 
 </td>
@@ -524,8 +492,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/AF182E9D-6A85-42B2-ADE4-490756AEDCE7">SetGraphicsRootDescriptorTable</a>
 </td>
 <td align="left" width="63%">
-
-          Sets a descriptor table into the graphics root signature.
+Sets a descriptor table into the graphics root signature.
         
 
 </td>
@@ -535,8 +502,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/F16C8511-FF42-4DB3-81F7-9735FB1AADD7">SetGraphicsRootShaderResourceView</a>
 </td>
 <td align="left" width="63%">
-
-          Sets a CPU descriptor handle for the shader resource in the graphics root signature.
+Sets a CPU descriptor handle for the shader resource in the graphics root signature.
         
 
 </td>
@@ -546,8 +512,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/D2ACB026-A9E0-41BC-A3C2-6D0F55506519">SetGraphicsRootSignature</a>
 </td>
 <td align="left" width="63%">
-
-          Sets the layout of the graphics root signature.
+Sets the layout of the graphics root signature.
         
 
 </td>
@@ -557,8 +522,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/7EF90634-0A33-42F5-880D-8E22910FAB47">SetGraphicsRootUnorderedAccessView</a>
 </td>
 <td align="left" width="63%">
-
-          Sets a CPU descriptor handle for the unordered-access-view resource in the graphics root signature.
+Sets a CPU descriptor handle for the unordered-access-view resource in the graphics root signature.
         
 
 </td>
@@ -568,8 +532,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/521844B8-0EF8-4F09-ABCE-E8C96129F548">SetMarker</a>
 </td>
 <td align="left" width="63%">
-
-          Not intended to be called directly.  Use the
+Not intended to be called directly.  Use the
         <a href="https://blogs.msdn.microsoft.com/pix/winpixeventruntime/">PIX event runtime</a> to insert events into a command list.
 
 </td>
@@ -579,8 +542,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/751E09A4-D8FE-4DEA-86D9-1C84265F2F21">SetPipelineState</a>
 </td>
 <td align="left" width="63%">
-
-          Sets all shaders and programs most of the fixed-function state of the GPU pipeline.
+Sets all shaders and programs most of the fixed-function state of the GPU pipeline.
         
 
 </td>
@@ -590,8 +552,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/21526012-A675-40E8-A11C-4CBA5C12B9CF">SetPredication</a>
 </td>
 <td align="left" width="63%">
-
-          Sets a rendering predicate.
+Sets a rendering predicate.
         
 
 </td>
@@ -601,8 +562,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 <a href="https://msdn.microsoft.com/40683FD6-5B9F-411C-AC0A-6641E0A3D688">SOSetTargets</a>
 </td>
 <td align="left" width="63%">
-
-          Sets the stream output buffer views.
+Sets the stream output buffer views.
         
 
 </td>
@@ -614,15 +574,13 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 
 
 
-
-          This interface is new to D3D12, encapsulating much of the functionality of the <a href="https://msdn.microsoft.com/432f1d21-bf13-4569-9c8f-04f5d2845150">ID3D11CommandList</a> interface, and including the new functionality described in <a href="https://msdn.microsoft.com/5BF1440E-E4D8-43C8-BF0E-F02FEFE79C93">Rendering</a>.
+This interface is new to D3D12, encapsulating much of the functionality of the <a href="https://msdn.microsoft.com/432f1d21-bf13-4569-9c8f-04f5d2845150">ID3D11CommandList</a> interface, and including the new functionality described in <a href="https://msdn.microsoft.com/5BF1440E-E4D8-43C8-BF0E-F02FEFE79C93">Rendering</a>.
         
 
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12nBodyGravity</a> sample uses <b>ID3D12GraphicsCommandList</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12nBodyGravity</a> sample uses <b>ID3D12GraphicsCommandList</b> as follows:
 
 Declare the pipeline objects.
 

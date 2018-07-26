@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_root_signature_desc1.htm
 old-project: direct3d12
 ms.assetid: F085D077-1DA8-41A1-9FA3-4423EA003345
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_ROOT_SIGNATURE_DESC1, D3D12_ROOT_SIGNATURE_DESC1 structure, d3d12/D3D12_ROOT_SIGNATURE_DESC1, direct3d12.d3d12_root_signature_desc1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,15 +60,13 @@ Describes the layout of a root signature version 1.1.
 
 ### -field NumParameters
 
-
-            The number of slots in the root signature. This number is also the number of elements in the <i>pParameters</i> array.
+The number of slots in the root signature. This number is also the number of elements in the <i>pParameters</i> array.
           
 
 
 ### -field pParameters
 
-
-            An array of <a href="https://msdn.microsoft.com/615B8ABF-FD80-4254-976B-9E587CE9F12E">D3D12_ROOT_PARAMETER1</a> structures for the slots in the root signature.
+An array of <a href="https://msdn.microsoft.com/615B8ABF-FD80-4254-976B-9E587CE9F12E">D3D12_ROOT_PARAMETER1</a> structures for the slots in the root signature.
           
 
 
@@ -79,8 +77,7 @@ Specifies the number of static samplers.
 
 ### -field pStaticSamplers
 
-
-            Pointer to one or more <a href="https://msdn.microsoft.com/35553C1C-3661-4778-8BC5-F2E6775DF96D">D3D12_STATIC_SAMPLER_DESC</a> structures.
+Pointer to one or more <a href="https://msdn.microsoft.com/35553C1C-3661-4778-8BC5-F2E6775DF96D">D3D12_STATIC_SAMPLER_DESC</a> structures.
           
 
 

@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_effect_variable_desc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_effect_variable_desc.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D10_EFFECT_VARIABLE_DESC, D3D10_EFFECT_VARIABLE_DESC structure [Direct3D 10], _D3D10_EFFECT_VARIABLE_DESC, d3d10effect/D3D10_EFFECT_VARIABLE_DESC, direct3d10.d3d10_effect_variable_desc, e24d998a-d966-5f94-eabb-5d6535c0928a
 ms.prod: windows
 ms.technology: windows-sdk

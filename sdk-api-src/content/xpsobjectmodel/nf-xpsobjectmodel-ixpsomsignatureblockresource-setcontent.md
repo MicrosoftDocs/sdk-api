@@ -7,7 +7,7 @@ old-location: xps\ixpsomsignatureblockresource_setcontent.htm
 old-project: printdocs
 ms.assetid: f9a10907-9241-42af-8858-029c2cf925cf
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IXpsOMSignatureBlockResource interface [XPS Documents and Packaging],SetContent method, IXpsOMSignatureBlockResource.SetContent, IXpsOMSignatureBlockResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMSignatureBlockResource interface, xps.ixpsomsignatureblockresource_setcontent, xpsobjectmodel/IXpsOMSignatureBlockResource::SetContent
 ms.prod: windows
 ms.technology: windows-sdk

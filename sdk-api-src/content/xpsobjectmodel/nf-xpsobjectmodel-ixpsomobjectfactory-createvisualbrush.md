@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createvisualbrush.htm
 old-project: printdocs
 ms.assetid: ad19841a-629f-4127-a6ea-890168e0c53c
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CreateVisualBrush, CreateVisualBrush method [XPS Documents and Packaging], CreateVisualBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateVisualBrush method, IXpsOMObjectFactory.CreateVisualBrush, IXpsOMObjectFactory::CreateVisualBrush, xps.ixpsomobjectfactory_createvisualbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateVisualBrush
 ms.prod: windows
 ms.technology: windows-sdk

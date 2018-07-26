@@ -4,10 +4,10 @@ title: D2D1_DIRECTIONALBLUR_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Directional blur effect.
 old-location: direct2d\d2d1_directionalblur_prop.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: BEC82079-543E-4675-84DD-0DE7D852866E
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_DIRECTIONALBLUR_PROP, D2D1_DIRECTIONALBLUR_PROP enumeration [Direct2D], D2D1_DIRECTIONALBLUR_PROP_ANGLE, D2D1_DIRECTIONALBLUR_PROP_BORDER_MODE, D2D1_DIRECTIONALBLUR_PROP_OPTIMIZATION, D2D1_DIRECTIONALBLUR_PROP_STANDARD_DEVIATION, d2d1effects/D2D1_DIRECTIONALBLUR_PROP, d2d1effects/D2D1_DIRECTIONALBLUR_PROP_ANGLE, d2d1effects/D2D1_DIRECTIONALBLUR_PROP_BORDER_MODE, d2d1effects/D2D1_DIRECTIONALBLUR_PROP_OPTIMIZATION, d2d1effects/D2D1_DIRECTIONALBLUR_PROP_STANDARD_DEVIATION, direct2d.d2d1_directionalblur_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Identifiers for properties of the <a href="https://msdn.microsoft.com/59328FA4-5C27-4A81-AAB2-C5B25B3615C6">Directional blur effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/59328FA4-5C27-4A81-AAB2-C5B25B3615C6">Directional blur effect</a>.
         
 
 

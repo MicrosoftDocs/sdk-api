@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxstatus_get_starttime_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7cmd.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxStatus object [Fax Service],StartTime property, FaxStatus.StartTime, IFaxStatus.get_StartTime, IFaxStatus::get_StartTime, StartTime property [Fax Service], StartTime property [Fax Service],FaxStatus object, _mfax_ifaxstatus_get_starttime, fax._mfax_ifaxstatus_get_starttime, fax._mfax_ifaxstatus_get_starttime_vb, get_StartTime
 ms.prod: windows
 ms.technology: windows-sdk

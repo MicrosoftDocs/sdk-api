@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjobs_item.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_63ot.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxOutgoingJobs object [Fax Service],Item property, FaxOutgoingJobs.Item, IFaxOutgoingJobs.get_Item, IFaxOutgoingJobs::get_Item, Item property [Fax Service], Item property [Fax Service],FaxOutgoingJobs object, _mfax_faxoutgoingjobs.item, fax._mfax_faxoutgoingjobs_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk

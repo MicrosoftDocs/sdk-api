@@ -7,7 +7,7 @@ old-location: direct3d11\id3d10blob_getbufferpointer.htm
 old-project: direct3d11
 ms.assetid: 21ABCED3-388E-41AD-B557-DA8707128B01
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: GetBufferPointer, GetBufferPointer method [Direct3D 11], GetBufferPointer method [Direct3D 11],ID3D10Blob interface, ID3D10Blob interface [Direct3D 11],GetBufferPointer method, ID3D10Blob.GetBufferPointer, ID3D10Blob::GetBufferPointer, d3dcommon/ID3D10Blob::GetBufferPointer, direct3d11.id3d10blob_getbufferpointer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Gets a pointer to the data.
+Gets a pointer to the data.
         
 
 
@@ -68,8 +67,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPVOID</a></b>
 
-
-            Returns a pointer.
+Returns a pointer.
           
 
 

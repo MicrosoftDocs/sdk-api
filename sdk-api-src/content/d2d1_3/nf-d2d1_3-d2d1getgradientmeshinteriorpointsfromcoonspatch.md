@@ -4,10 +4,10 @@ title: D2D1GetGradientMeshInteriorPointsFromCoonsPatch function
 author: windows-sdk-content
 description: Returns the interior points for a gradient mesh patch based on the points defining a Coons patch.
 old-location: direct2d\d2d1getgradientmeshinteriorpointsfromcoonspatch.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 388d5cbf-cb15-f0c9-3f3b-897f68519a4c
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1GetGradientMeshInteriorPointsFromCoonsPatch, D2D1GetGradientMeshInteriorPointsFromCoonsPatch function [Direct2D], d2d1_3/D2D1GetGradientMeshInteriorPointsFromCoonsPatch, direct2d.d2d1getgradientmeshinteriorpointsfromcoonspatch
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,64 +62,88 @@ Returns the interior points for a gradient mesh patch based on the points defini
 
 
 
-### -param pPoint0
+### -param pPoint0 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
 
-
-### -param pPoint1
-
-TBD
+The coordinate-space location of the control point at position 0.
 
 
-### -param pPoint2
+### -param pPoint1 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
 
-
-### -param pPoint3
-
-TBD
+The coordinate-space location of the control point at position 1.
 
 
-### -param pPoint4
+### -param pPoint2 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
 
-
-### -param pPoint5
-
-TBD
+The coordinate-space location of the control point at position 2.
 
 
-### -param pPoint6
+### -param pPoint3 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
 
-
-### -param pPoint7
-
-TBD
+The coordinate-space location of the control point at position 3.
 
 
-### -param pPoint8
+### -param pPoint4 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
 
-
-### -param pPoint9
-
-TBD
+The coordinate-space location of the control point at position 4.
 
 
-### -param pPoint10
+### -param pPoint5 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
+
+The coordinate-space location of the control point at position 5.
 
 
-### -param pPoint11
+### -param pPoint6 [in]
 
-TBD
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
+
+The coordinate-space location of the control point at position 6.
+
+
+### -param pPoint7 [in]
+
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
+
+The coordinate-space location of the control point at position 7.
+
+
+### -param pPoint8 [in]
+
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
+
+The coordinate-space location of the control point at position 8.
+
+
+### -param pPoint9 [in]
+
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
+
+The coordinate-space location of the control point at position 9.
+
+
+### -param pPoint10 [in]
+
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
+
+The coordinate-space location of the control point at position 10.
+
+
+### -param pPoint11 [in]
+
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
+
+The coordinate-space location of the control point at position 11.
 
 
 ### -param pTensorPoint11 [out]
@@ -148,90 +172,6 @@ Returns the interior point for the gradient mesh corresponding to point21 in the
 Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
 
 Returns the interior point for the gradient mesh corresponding to point22 in the <a href="https://msdn.microsoft.com/16d1ef03-f0c9-7414-d54d-9513199272aa">D2D1_GRADIENT_MESH_PATCH</a> structure.
-
-
-#### - point0 [in]
-
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
-
-The coordinate-space location of the control point at position 0.
-
-
-#### - point1 [in]
-
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
-
-The coordinate-space location of the control point at position 1.
-
-
-#### - point10 [in]
-
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
-
-The coordinate-space location of the control point at position 10.
-
-
-#### - point11 [in]
-
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
-
-The coordinate-space location of the control point at position 11.
-
-
-#### - point2 [in]
-
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
-
-The coordinate-space location of the control point at position 2.
-
-
-#### - point3 [in]
-
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
-
-The coordinate-space location of the control point at position 3.
-
-
-#### - point4 [in]
-
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
-
-The coordinate-space location of the control point at position 4.
-
-
-#### - point5 [in]
-
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
-
-The coordinate-space location of the control point at position 5.
-
-
-#### - point6 [in]
-
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
-
-The coordinate-space location of the control point at position 6.
-
-
-#### - point7 [in]
-
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
-
-The coordinate-space location of the control point at position 7.
-
-
-#### - point8 [in]
-
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
-
-The coordinate-space location of the control point at position 8.
-
-
-#### - point9 [in]
-
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a>*</b>
-
-The coordinate-space location of the control point at position 9.
 
 
 ## -returns

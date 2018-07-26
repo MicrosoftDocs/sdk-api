@@ -7,7 +7,7 @@ old-location: xaudio2\ixapoparameters_interface_setparameters.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapoparameters.IXAPOParameters.SetParameters(const void,UINT32)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 07/23/2018
 ms.keywords: IXAPOParameters interface [XAudio2 Audio Mixing APIs],SetParameters method, IXAPOParameters.SetParameters, IXAPOParameters::SetParameters, SetParameters, SetParameters method [XAudio2 Audio Mixing APIs], SetParameters method [XAudio2 Audio Mixing APIs],IXAPOParameters interface, xapo/IXAPOParameters::SetParameters, xaudio2.ixapoparameters_interface_setparameters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,12 +61,10 @@ Sets effect-specific parameters.
 
 ### -param pParameters
 
-
 Effect-specific parameter block.
 
 
 ### -param ParameterByteSize
-
 
 Size of pParameters, in bytes.
 

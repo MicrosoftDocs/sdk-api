@@ -4,10 +4,10 @@ title: IFsrmPropertyDefinition::get_PossibleValues
 author: windows-sdk-content
 description: The possible values to which the property can be set.
 old-location: fsrm\ifsrmpropertydefinition_possiblevalues.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: b48dd022-3c8d-41cb-aab5-18d24cad4521
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: IFsrmPropertyDefinition interface [File Server Resource Manager],PossibleValues property, IFsrmPropertyDefinition.PossibleValues, IFsrmPropertyDefinition.get_PossibleValues, IFsrmPropertyDefinition::PossibleValues, IFsrmPropertyDefinition::get_PossibleValues, IFsrmPropertyDefinition::put_PossibleValues, PossibleValues property [File Server Resource Manager], PossibleValues property [File Server Resource Manager],IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_possiblevalues, fsrm.ifsrmpropertydefinition_possiblevalues, fsrmpipeline/IFsrmPropertyDefinition::PossibleValues, fsrmpipeline/IFsrmPropertyDefinition::get_PossibleValues, fsrmpipeline/IFsrmPropertyDefinition::put_PossibleValues, get_PossibleValues
 ms.prod: windows
 ms.technology: windows-sdk

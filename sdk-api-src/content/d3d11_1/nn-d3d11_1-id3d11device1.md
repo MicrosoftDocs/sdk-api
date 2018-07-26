@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device1.htm
 old-project: direct3d11
 ms.assetid: DB4DAD13-3CD7-4362-950B-6403328CB071
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11Device1, ID3D11Device1 interface [Direct3D 11], ID3D11Device1 interface [Direct3D 11],described, d3d11_1/ID3D11Device1, direct3d11.id3d11device1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,8 +83,7 @@ Creates a blend-state object that encapsulates blend state for the <a href="http
 <a href="https://msdn.microsoft.com/2F7E343F-2A25-44F2-9352-5F378718D6F6">CreateDeferredContext1</a>
 </td>
 <td align="left" width="63%">
-
-      Creates a deferred context, which can record command lists.
+Creates a deferred context, which can record command lists.
 
 </td>
 </tr>
@@ -93,8 +92,7 @@ Creates a blend-state object that encapsulates blend state for the <a href="http
 <a href="https://msdn.microsoft.com/8887C3F1-3EA3-4948-A019-E3CB3F3D46C6">CreateDeviceContextState</a>
 </td>
 <td align="left" width="63%">
-
-        Creates a context state object that holds all Direct3D state and some Direct3D behavior.
+Creates a context state object that holds all Direct3D state and some Direct3D behavior.
       
 
 </td>

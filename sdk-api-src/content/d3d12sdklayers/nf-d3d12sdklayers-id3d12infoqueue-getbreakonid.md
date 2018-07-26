@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getbreakonid.htm
 old-project: direct3d12
 ms.assetid: 04763E09-3076-4865-8026-976ED08B61C3
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetBreakOnID, GetBreakOnID method, GetBreakOnID method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetBreakOnID method, ID3D12InfoQueue.GetBreakOnID, ID3D12InfoQueue::GetBreakOnID, d3d12sdklayers/ID3D12InfoQueue::GetBreakOnID, direct3d12.id3d12infoqueue_getbreakonid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Get a message identifier to break on when a message with that identifier passes through the storage filter.
+Get a message identifier to break on when a message with that identifier passes through the storage filter.
 
 
 
@@ -65,8 +64,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/95681EB0-C00B-42C8-91E1-1D1F657C886B">D3D12_MESSAGE_ID</a></b>
 
-
-            Message identifier to break on.
+Message identifier to break on.
           
 
 
@@ -76,8 +74,7 @@ Type: <b><a href="https://msdn.microsoft.com/95681EB0-C00B-42C8-91E1-1D1F657C886
 
 Type: <b>BOOL</b>
 
-
-            Whether this breaking condition is turned on or off (true for on, false for off).
+Whether this breaking condition is turned on or off (true for on, false for off).
 
 
 

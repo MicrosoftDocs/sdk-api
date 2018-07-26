@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_global_routing_info_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_07aq.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: "*PFAX_GLOBAL_ROUTING_INFOW, FAX_GLOBAL_ROUTING_INFO, FAX_GLOBAL_ROUTING_INFO structure [Fax Service], FAX_GLOBAL_ROUTING_INFOA, FAX_GLOBAL_ROUTING_INFOW, PFAX_GLOBAL_ROUTING_INFO, PFAX_GLOBAL_ROUTING_INFO structure pointer [Fax Service], _FAX_GLOBAL_ROUTING_INFOW, _mfax_fax_global_routing_info_str, fax._mfax_fax_global_routing_info_str, winfax/FAX_GLOBAL_ROUTING_INFO, winfax/FAX_GLOBAL_ROUTING_INFOA, winfax/FAX_GLOBAL_ROUTING_INFOW, winfax/PFAX_GLOBAL_ROUTING_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

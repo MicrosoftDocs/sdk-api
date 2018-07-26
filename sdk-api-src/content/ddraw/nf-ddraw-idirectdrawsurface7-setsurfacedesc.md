@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_setsurfacedesc.htm
 old-project: directdraw
 ms.assetid: 541bd833-20c4-4b47-a3ed-c29f228a0626
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/23/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetSurfaceDesc method, IDirectDrawSurface7.SetSurfaceDesc, IDirectDrawSurface7::SetSurfaceDesc, SetSurfaceDesc, SetSurfaceDesc method [DirectDraw], SetSurfaceDesc method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetSurfaceDesc, directdraw.idirectdrawsurface7_setsurfacedesc
 ms.prod: windows
 ms.technology: windows-sdk

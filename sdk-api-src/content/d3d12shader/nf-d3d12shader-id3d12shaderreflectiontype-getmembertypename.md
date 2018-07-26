@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectiontype_getmembertypename.htm
 old-project: direct3d12
 ms.assetid: 113510A0-6F0D-4B30-8C6A-D0266570160E
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetMemberTypeName, GetMemberTypeName method, GetMemberTypeName method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetMemberTypeName method, ID3D12ShaderReflectionType.GetMemberTypeName, ID3D12ShaderReflectionType::GetMemberTypeName, d3d12shader/ID3D12ShaderReflectionType::GetMemberTypeName, direct3d12.id3d12shaderreflectiontype_getmembertypename
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Gets a shader-reflection-variable type.
+Gets a shader-reflection-variable type.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            Zero-based index.
+Zero-based index.
           
 
 
@@ -75,8 +73,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
 
-
-            The variable type.
+The variable type.
           
 
 
@@ -86,8 +83,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-
-        This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
+This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
       
 
 

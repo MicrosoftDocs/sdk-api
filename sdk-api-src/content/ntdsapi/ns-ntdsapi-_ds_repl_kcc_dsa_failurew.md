@@ -7,7 +7,7 @@ old-location: ad\ds_repl_kcc_dsa_failure.htm
 old-project: ad
 ms.assetid: 7a7131ce-a647-4b3d-a9f3-091b6dcebff7
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES, DS_REPL_INFO_KCC_DSA_LINK_FAILURES, DS_REPL_KCC_DSA_FAILURE, DS_REPL_KCC_DSA_FAILURE structure [Active Directory], DS_REPL_KCC_DSA_FAILUREW, DS_REPL_KCC_DSA_FAILUREW structure [Active Directory], _DS_REPL_KCC_DSA_FAILUREW, _glines_ds_repl_kcc_dsa_failure, ad.ds__repl__kcc__dsa__failure, ad.ds_repl_kcc_dsa_failure, ntdsapi/DS_REPL_KCC_DSA_FAILURE
 ms.prod: windows
 ms.technology: windows-sdk

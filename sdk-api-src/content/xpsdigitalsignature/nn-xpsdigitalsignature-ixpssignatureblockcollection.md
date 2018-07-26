@@ -7,7 +7,7 @@ old-location: xps\ixpssignatureblockcollection.htm
 old-project: printdocs
 ms.assetid: e8f7be84-389e-40cf-a093-83417ba184c7
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IXpsSignatureBlockCollection, IXpsSignatureBlockCollection interface [XPS Documents and Packaging], IXpsSignatureBlockCollection interface [XPS Documents and Packaging],described, xps.ixpssignatureblockcollection, xpsdigitalsignature/IXpsSignatureBlockCollection
 ms.prod: windows
 ms.technology: windows-sdk

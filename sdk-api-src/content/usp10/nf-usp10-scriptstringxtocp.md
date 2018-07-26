@@ -7,7 +7,7 @@ old-location: intl\scriptstringxtocp.htm
 old-project: Intl
 ms.assetid: ae37f58a-cc9c-4414-a8ac-e70691e54c5e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: ScriptStringXtoCP, ScriptStringXtoCP function [Internationalization for Windows Applications], _win32_ScriptStringXtoCP, intl.scriptstringxtocp, usp10/ScriptStringXtoCP
 ms.prod: windows
 ms.technology: windows-sdk

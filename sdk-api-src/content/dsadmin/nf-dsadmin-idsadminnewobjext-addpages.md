@@ -7,7 +7,7 @@ old-location: ad\idsadminnewobjext_addpages.htm
 old-project: ad
 ms.assetid: 4e16385f-b38a-4961-95ec-c81fd538ae2b
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: AddPages, AddPages method [Active Directory], AddPages method [Active Directory],IDsAdminNewObjExt interface, IDsAdminNewObjExt interface [Active Directory],AddPages method, IDsAdminNewObjExt.AddPages, IDsAdminNewObjExt::AddPages, _glines_idsadminnewobjext_addpages, ad.idsadminnewobjext__addpages, ad.idsadminnewobjext_addpages, dsadmin/IDsAdminNewObjExt::AddPages
 ms.prod: windows
 ms.technology: windows-sdk

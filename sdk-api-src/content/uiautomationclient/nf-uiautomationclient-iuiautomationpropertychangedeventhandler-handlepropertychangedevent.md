@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationPropertyChangedEventHandler_HandleProp
 old-project: WinAuto
 ms.assetid: 3b0bb9a0-b2a5-4843-9431-cc00e1836dd1
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: HandlePropertyChangedEvent, HandlePropertyChangedEvent method [Windows Accessibility], HandlePropertyChangedEvent method [Windows Accessibility],IUIAutomationPropertyChangedEventHandler interface, IUIAutomationPropertyChangedEventHandler interface [Windows Accessibility],HandlePropertyChangedEvent method, IUIAutomationPropertyChangedEventHandler.HandlePropertyChangedEvent, IUIAutomationPropertyChangedEventHandler::HandlePropertyChangedEvent, uiauto.uiauto_IUIAutomationPropertyChangedEventHandler_HandlePropertyChangedEvent, uiauto_IUIAutomationPropertyChangedEventHandler_HandlePropertyChangedEvent, uiautomationclient/IUIAutomationPropertyChangedEventHandler::HandlePropertyChangedEvent, winauto.uiauto_IUIAutomationPropertyChangedEventHandler_HandlePropertyChangedEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

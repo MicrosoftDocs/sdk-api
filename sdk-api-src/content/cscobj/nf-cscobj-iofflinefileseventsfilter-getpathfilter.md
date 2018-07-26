@@ -7,7 +7,7 @@ old-location: of\iofflinefileseventsfilter_getpathfilter.htm
 old-project: offlinefiles
 ms.assetid: 0b9d8339-3daa-4f0c-8a52-59e06b663163
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/23/2018
 ms.keywords: GetPathFilter, GetPathFilter method [Offline Files], GetPathFilter method [Offline Files],IOfflineFilesEventsFilter interface, IOfflineFilesEventsFilter interface [Offline Files],GetPathFilter method, IOfflineFilesEventsFilter.GetPathFilter, IOfflineFilesEventsFilter::GetPathFilter, cscobj/IOfflineFilesEventsFilter::GetPathFilter, of.iofflinefileseventsfilter_getpathfilter
 ms.prod: windows
 ms.technology: windows-sdk

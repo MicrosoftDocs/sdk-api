@@ -4,10 +4,10 @@ title: IUpdateSession::get_ClientApplicationID
 author: windows-sdk-content
 description: Gets and sets the current client application.
 old-location: wua\iupdatesession_clientapplicationid.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 9e025c75-5884-4a45-ab11-24a8b66ab838
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],ClientApplicationID property, IUpdateSession.ClientApplicationID, IUpdateSession.get_ClientApplicationID, IUpdateSession::ClientApplicationID, IUpdateSession::get_ClientApplicationID, IUpdateSession::put_ClientApplicationID, get_ClientApplicationID, wua.iupdatesession_clientapplicationid, wuapi/IUpdateSession::ClientApplicationID, wuapi/IUpdateSession::get_ClientApplicationID, wuapi/IUpdateSession::put_ClientApplicationID
 ms.prod: windows
 ms.technology: windows-sdk

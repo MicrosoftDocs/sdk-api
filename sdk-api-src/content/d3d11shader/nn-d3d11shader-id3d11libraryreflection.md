@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11libraryreflection.htm
 old-project: direct3d11
 ms.assetid: 59792EC6-B739-4D86-84F6-DC03AD3016F1
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11LibraryReflection, ID3D11LibraryReflection interface [Direct3D 11], ID3D11LibraryReflection interface [Direct3D 11],described, d3d11shader/ID3D11LibraryReflection, direct3d11.id3d11libraryreflection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,9 +50,7 @@ req.irql:
 ## -description
 
 
-
-          A library-reflection interface accesses library info. <div class="alert"><b>Note</b>  
-            This interface is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
+A library-reflection interface accesses library info. <div class="alert"><b>Note</b>  This interface is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
           </div>
 <div> </div>
 
@@ -98,8 +96,7 @@ Gets the function reflector.
 
 
 
-
-        To get a library-reflection interface, call <a href="https://msdn.microsoft.com/E64FB2C3-8F64-411F-89E1-984DAAE4D7C2">D3DReflectLibrary</a>.
+To get a library-reflection interface, call <a href="https://msdn.microsoft.com/E64FB2C3-8F64-411F-89E1-984DAAE4D7C2">D3DReflectLibrary</a>.
       
 
 <div class="alert"><b>Note</b>  <b>ID3D11LibraryReflection</b> requires the D3dcompiler_47.dll or a later version of the DLL.

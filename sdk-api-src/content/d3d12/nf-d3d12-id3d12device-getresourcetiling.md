@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_getresourcetiling.htm
 old-project: direct3d12
 ms.assetid: 32574750-92D3-4CAF-90C6-BA0DEF1E5464
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetResourceTiling, GetResourceTiling method, GetResourceTiling method,ID3D12Device interface, ID3D12Device interface,GetResourceTiling method, ID3D12Device.GetResourceTiling, ID3D12Device::GetResourceTiling, d3d12/ID3D12Device::GetResourceTiling, direct3d12.id3d12device_getresourcetiling
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Gets info about how a tiled resource is broken into tiles.
+Gets info about how a tiled resource is broken into tiles.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>*</b>
 
-
-            Specifies a tiled <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>  to get info about.
+Specifies a tiled <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>  to get info about.
           
 
 
@@ -73,8 +71,7 @@ Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD
 
 Type: <b>UINT*</b>
 
-
-            A pointer to a variable that receives the number of tiles needed to store the entire tiled resource.
+A pointer to a variable that receives the number of tiles needed to store the entire tiled resource.
           
 
 
@@ -82,8 +79,7 @@ Type: <b>UINT*</b>
 
 Type: <b><a href="https://msdn.microsoft.com/B9231C70-A6FF-4660-90B8-04207D2FF762">D3D12_PACKED_MIP_INFO</a>*</b>
 
-
-            A pointer to a <a href="https://msdn.microsoft.com/B9231C70-A6FF-4660-90B8-04207D2FF762">D3D12_PACKED_MIP_INFO</a> structure that <b>GetResourceTiling</b> fills with info about how the tiled resource's mipmaps are packed.
+A pointer to a <a href="https://msdn.microsoft.com/B9231C70-A6FF-4660-90B8-04207D2FF762">D3D12_PACKED_MIP_INFO</a> structure that <b>GetResourceTiling</b> fills with info about how the tiled resource's mipmaps are packed.
           
 
 
@@ -91,8 +87,7 @@ Type: <b><a href="https://msdn.microsoft.com/B9231C70-A6FF-4660-90B8-04207D2FF76
 
 Type: <b><a href="https://msdn.microsoft.com/9FCF949C-B2B8-404F-9E4C-8CC6B636B687">D3D12_TILE_SHAPE</a>*</b>
 
-
-            Specifies a <a href="https://msdn.microsoft.com/9FCF949C-B2B8-404F-9E4C-8CC6B636B687">D3D12_TILE_SHAPE</a> structure that <b>GetResourceTiling</b> fills with info about the tile shape. This is info about how pixels fit in the tiles, independent of tiled resource's dimensions, not including packed mipmaps. If the entire tiled resource is packed, this parameter is meaningless because the tiled resource has no defined layout for packed mipmaps. In this situation, <b>GetResourceTiling</b> sets the members of D3D12_TILE_SHAPE to zeros.
+Specifies a <a href="https://msdn.microsoft.com/9FCF949C-B2B8-404F-9E4C-8CC6B636B687">D3D12_TILE_SHAPE</a> structure that <b>GetResourceTiling</b> fills with info about the tile shape. This is info about how pixels fit in the tiles, independent of tiled resource's dimensions, not including packed mipmaps. If the entire tiled resource is packed, this parameter is meaningless because the tiled resource has no defined layout for packed mipmaps. In this situation, <b>GetResourceTiling</b> sets the members of D3D12_TILE_SHAPE to zeros.
           
 
 
@@ -100,8 +95,7 @@ Type: <b><a href="https://msdn.microsoft.com/9FCF949C-B2B8-404F-9E4C-8CC6B636B68
 
 Type: <b>UINT*</b>
 
-
-            A pointer to a variable that contains the number of tiles in the subresource. On input, this is the number of subresources to query tilings for; on output, this is the number that was actually retrieved at <i>pSubresourceTilingsForNonPackedMips</i> (clamped to what's available).
+A pointer to a variable that contains the number of tiles in the subresource. On input, this is the number of subresources to query tilings for; on output, this is the number that was actually retrieved at <i>pSubresourceTilingsForNonPackedMips</i> (clamped to what's available).
           
 
 
@@ -109,8 +103,7 @@ Type: <b>UINT*</b>
 
 Type: <b>UINT</b>
 
-
-            The number of the first subresource tile to get. <b>GetResourceTiling</b> ignores this parameter if the number that <i>pNumSubresourceTilings</i> points to is 0.
+The number of the first subresource tile to get. <b>GetResourceTiling</b> ignores this parameter if the number that <i>pNumSubresourceTilings</i> points to is 0.
           
 
 
@@ -118,8 +111,7 @@ Type: <b>UINT</b>
 
 Type: <b><a href="https://msdn.microsoft.com/81C93E0F-AF05-4801-97EB-6C3E0407B5F6">D3D12_SUBRESOURCE_TILING</a>*</b>
 
-
-            Specifies a <a href="https://msdn.microsoft.com/81C93E0F-AF05-4801-97EB-6C3E0407B5F6">D3D12_SUBRESOURCE_TILING</a> structure that <b>GetResourceTiling</b> fills with info about subresource tiles. If subresource tiles are part of packed mipmaps, <b>GetResourceTiling</b> sets the members of D3D12_SUBRESOURCE_TILING to zeros, except the <i>StartTileIndexInOverallResource</i> member, which <b>GetResourceTiling</b> sets to D3D12_PACKED_TILE (0xffffffff). The D3D12_PACKED_TILE constant indicates that the whole <b>D3D12_SUBRESOURCE_TILING</b> structure is meaningless for this situation, and the info that the <i>pPackedMipDesc</i> parameter points to applies.
+Specifies a <a href="https://msdn.microsoft.com/81C93E0F-AF05-4801-97EB-6C3E0407B5F6">D3D12_SUBRESOURCE_TILING</a> structure that <b>GetResourceTiling</b> fills with info about subresource tiles. If subresource tiles are part of packed mipmaps, <b>GetResourceTiling</b> sets the members of D3D12_SUBRESOURCE_TILING to zeros, except the <i>StartTileIndexInOverallResource</i> member, which <b>GetResourceTiling</b> sets to D3D12_PACKED_TILE (0xffffffff). The D3D12_PACKED_TILE constant indicates that the whole <b>D3D12_SUBRESOURCE_TILING</b> structure is meaningless for this situation, and the info that the <i>pPackedMipDesc</i> parameter points to applies.
           
 
 
@@ -127,8 +119,7 @@ Type: <b><a href="https://msdn.microsoft.com/81C93E0F-AF05-4801-97EB-6C3E0407B5F
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 
@@ -138,13 +129,11 @@ Type: <b><a href="https://msdn.microsoft.com/81C93E0F-AF05-4801-97EB-6C3E0407B5F
 
 
 
-
-          To estimate the total resource size of textures needed when calculating heap sizes and calling <a href="https://msdn.microsoft.com/4581A82D-D2B6-4CAE-A336-07B8CF90A0BA">CreatePlacedResource</a>, use <a href="https://msdn.microsoft.com/43467E09-835B-4DB9-B0A4-F75868DE4609">GetResourceAllocationInfo</a> instead of <b>GetResourceTiling</b>.
+To estimate the total resource size of textures needed when calculating heap sizes and calling <a href="https://msdn.microsoft.com/4581A82D-D2B6-4CAE-A336-07B8CF90A0BA">CreatePlacedResource</a>, use <a href="https://msdn.microsoft.com/43467E09-835B-4DB9-B0A4-F75868DE4609">GetResourceAllocationInfo</a> instead of <b>GetResourceTiling</b>.
           <b>GetResourceTiling</b> cannot be used for this.
         
 
-
-          For more information on tiled resources, refer to <a href="https://msdn.microsoft.com/F670D15D-BC0F-4F90-99C1-A35192FE8980">Volume Tiled Resources</a>.
+For more information on tiled resources, refer to <a href="https://msdn.microsoft.com/F670D15D-BC0F-4F90-99C1-A35192FE8980">Volume Tiled Resources</a>.
         
 
 

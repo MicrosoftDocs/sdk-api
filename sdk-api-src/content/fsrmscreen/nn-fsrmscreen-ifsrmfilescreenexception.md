@@ -4,10 +4,10 @@ title: IFsrmFileScreenException
 author: windows-sdk-content
 description: Used to configure an exception that excludes the specified files from the file screening process.
 old-location: fsrm\ifsrmfilescreenexception.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 188e76dd-6df6-412f-8d51-fc727075de80
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: IFsrmFileScreenException, IFsrmFileScreenException interface [File Server Resource Manager], IFsrmFileScreenException interface [File Server Resource Manager],described, fs.ifsrmfilescreenexception, fsrm.ifsrmfilescreenexception, fsrmscreen/IFsrmFileScreenException
 ms.prod: windows
 ms.technology: windows-sdk

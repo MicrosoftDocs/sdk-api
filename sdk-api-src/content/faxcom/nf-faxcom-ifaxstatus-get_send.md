@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxstatus_get_send_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_58f8.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxStatus object [Fax Service],Send property, FaxStatus.Send, IFaxStatus.get_Send, IFaxStatus::get_Send, Send property [Fax Service], Send property [Fax Service],FaxStatus object, _mfax_ifaxstatus_get_send, fax._mfax_ifaxstatus_get_send, fax._mfax_ifaxstatus_get_send_vb, get_Send
 ms.prod: windows
 ms.technology: windows-sdk

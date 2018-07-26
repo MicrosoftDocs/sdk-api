@@ -7,7 +7,7 @@ old-location: intl\ispellcheckerfactory_createspellchecker.htm
 old-project: Intl
 ms.assetid: 9167b675-01ec-4173-a790-5452907b5598
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: CreateSpellChecker, CreateSpellChecker method [Internationalization for Windows Applications], CreateSpellChecker method [Internationalization for Windows Applications],ISpellCheckerFactory interface, ISpellCheckerFactory interface [Internationalization for Windows Applications],CreateSpellChecker method, ISpellCheckerFactory.CreateSpellChecker, ISpellCheckerFactory::CreateSpellChecker, intl.ispellcheckerfactory_createspellchecker, spellcheck/ISpellCheckerFactory::CreateSpellChecker
 ms.prod: windows
 ms.technology: windows-sdk

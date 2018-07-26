@@ -7,7 +7,7 @@ old-location: of\iofflinefilessyncprogress.htm
 old-project: offlinefiles
 ms.assetid: 7fc5ff29-be9d-4fad-96a8-94058bb708fa
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/23/2018
 ms.keywords: IOfflineFilesSyncProgress, IOfflineFilesSyncProgress interface [Offline Files], IOfflineFilesSyncProgress interface [Offline Files],described, cscobj/IOfflineFilesSyncProgress, of.iofflinefilessyncprogress
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_pssetsamplers.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_pssetsamplers.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 5f7069fa-43fc-1459-30dc-3cb118f8bb46, ID3D10Device interface [Direct3D 10],PSSetSamplers method, ID3D10Device.PSSetSamplers, ID3D10Device::PSSetSamplers, PSSetSamplers, PSSetSamplers method [Direct3D 10], PSSetSamplers method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::PSSetSamplers, direct3d10.id3d10device_pssetsamplers
 ms.prod: windows
 ms.technology: windows-sdk

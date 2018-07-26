@@ -7,7 +7,7 @@ old-location: winrt\iactivatableclassregistration.htm
 old-project: WinRT
 ms.assetid: 99834A2D-547B-4B04-8703-46B11E0BB812
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IActivatableClassRegistration, IActivatableClassRegistration interface [Windows Runtime], IActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IActivatableClassRegistration, winrt.iactivatableclassregistration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The <b>IActivatableClassRegistration</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8AE55B74-8AC3-4F13-8FEE-7C3C52DEE96F">ActivatableClassId</a>
+<a href="https://msdn.microsoft.com/8AE55B74-8AC3-4F13-8FEE-7C3C52DEE96F">get_ActivatableClassId</a>
 </td>
 <td align="left" width="63%">
 Gets the class identifier for the current activatable class.
@@ -79,7 +79,7 @@ Gets the class identifier for the current activatable class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/145DF7F2-839A-4B94-B4DC-BA2103A04D2F">ActivationType</a>
+<a href="https://msdn.microsoft.com/145DF7F2-839A-4B94-B4DC-BA2103A04D2F">get_ActivationType</a>
 </td>
 <td align="left" width="63%">
 Gets the kind of activation for the current activatable class.
@@ -88,7 +88,7 @@ Gets the kind of activation for the current activatable class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E058C71F-5F37-4089-89BD-28D8FF7E0711">Attributes</a>
+<a href="https://msdn.microsoft.com/E058C71F-5F37-4089-89BD-28D8FF7E0711">get_Attributes</a>
 </td>
 <td align="left" width="63%">
 Gets the attributes associated with the current activatable class.
@@ -97,7 +97,7 @@ Gets the attributes associated with the current activatable class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3DFE773C-CF63-489A-988B-2FFF4215C8BF">RegisteredTrustLevel</a>
+<a href="https://msdn.microsoft.com/3DFE773C-CF63-489A-988B-2FFF4215C8BF">get_RegisteredTrustLevel</a>
 </td>
 <td align="left" width="63%">
 Gets the trust level of the current activatable class.
@@ -106,7 +106,7 @@ Gets the trust level of the current activatable class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ACA72E3B-E559-4BE8-894F-A4D5F1FF3742">RegistrationScope</a>
+<a href="https://msdn.microsoft.com/ACA72E3B-E559-4BE8-894F-A4D5F1FF3742">get_RegistrationScope</a>
 </td>
 <td align="left" width="63%">
 Gets the deployment scope of the current activatable class.

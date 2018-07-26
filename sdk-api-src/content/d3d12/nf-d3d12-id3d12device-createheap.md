@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createheap.htm
 old-project: direct3d12
 ms.assetid: DB5DF4B2-4673-4B8D-BDED-9F672A41E7F6
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: CreateHeap, CreateHeap method, CreateHeap method,ID3D12Device interface, ID3D12Device interface,CreateHeap method, ID3D12Device.CreateHeap, ID3D12Device::CreateHeap, d3d12/ID3D12Device::CreateHeap, direct3d12.id3d12device_createheap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Creates a heap that can be used with placed resources and reserved resources.
+Creates a heap that can be used with placed resources and reserved resources.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b>const <a href="https://msdn.microsoft.com/3A473476-F37E-4F01-B121-87E998EE9411">D3D12_HEAP_DESC</a>*</b>
 
-
-            A pointer to a <a href="https://msdn.microsoft.com/3A473476-F37E-4F01-B121-87E998EE9411">D3D12_HEAP_DESC</a> structure that describes the heap.
+A pointer to a <a href="https://msdn.microsoft.com/3A473476-F37E-4F01-B121-87E998EE9411">D3D12_HEAP_DESC</a> structure that describes the heap.
           
 
 
@@ -73,8 +71,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/3A473476-F37E-4F01-B121-87E99
 
 Type: <b><b>REFIID</b></b>
 
-
-            The globally unique identifier (<b>GUID</b>) for the heap interface.
+The globally unique identifier (<b>GUID</b>) for the heap interface.
             This is an input parameter.
             The <b>REFIID</b>, or <b>GUID</b>, of the interface to the heap can be obtained by using the __uuidof() macro.
             For example, __uuidof(<a href="https://msdn.microsoft.com/3791C64F-76D7-4580-A444-F2CEA3EB10CE">ID3D12Heap</a>) will get the <b>GUID</b> of the interface to a heap.
@@ -87,8 +84,7 @@ Type: <b><b>REFIID</b></b>
 
 Type: <b><b>void</b>**</b>
 
-
-            A pointer to a memory block that receives a pointer to the heap.
+A pointer to a memory block that receives a pointer to the heap.
             <i>ppvHeap</i> can be NULL, to enable capability testing.
             When <i>ppvHeap</i> is NULL, no object will be created and S_FALSE will be returned when <i>pDesc</i> is valid.
           
@@ -100,8 +96,7 @@ Type: <b><b>void</b>**</b>
 
 Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-
-            This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the heap.
+This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the heap.
             See <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> for other possible return values.
           
 

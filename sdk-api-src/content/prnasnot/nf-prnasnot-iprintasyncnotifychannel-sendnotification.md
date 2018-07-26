@@ -7,7 +7,7 @@ old-location: gdi\iprintasyncnotifychannel_iprintasyncnotifychannel__sendnotific
 old-project: printdocs
 ms.assetid: 729286d4-75ee-441e-b63d-fef72d41533a
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IPrintAsyncNotifyChannel interface [Windows GDI],SendNotification method, IPrintAsyncNotifyChannel.SendNotification, IPrintAsyncNotifyChannel::SendNotification, SendNotification, SendNotification method [Windows GDI], SendNotification method [Windows GDI],IPrintAsyncNotifyChannel interface, _win32_IPrintAsyncNotifyChannel_SendNotification, gdi.iprintasyncnotifychannel_iprintasyncnotifychannel__sendnotification, prnasnot/IPrintAsyncNotifyChannel::SendNotification
 ms.prod: windows
 ms.technology: windows-sdk

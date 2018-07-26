@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10shaderreflection1_getmovinstructioncount.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection1_getmovinstructioncount.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 4e498569-995e-e845-cb5e-8c9a0bd2351f, GetMovInstructionCount, GetMovInstructionCount method [Direct3D 10], GetMovInstructionCount method [Direct3D 10],ID3D10ShaderReflection1 interface, ID3D10ShaderReflection1 interface [Direct3D 10],GetMovInstructionCount method, ID3D10ShaderReflection1.GetMovInstructionCount, ID3D10ShaderReflection1::GetMovInstructionCount, d3d10_1shader/ID3D10ShaderReflection1::GetMovInstructionCount, direct3d10.id3d10shaderreflection1_getmovinstructioncount
 ms.prod: windows
 ms.technology: windows-sdk

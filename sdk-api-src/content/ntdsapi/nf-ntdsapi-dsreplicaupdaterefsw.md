@@ -7,7 +7,7 @@ old-location: ad\dsreplicaupdaterefs.htm
 old-project: ad
 ms.assetid: 158c7e73-0e6c-4b71-a87f-2f60f3db91cb
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: DS_REPUPD_ADD_REFERENCE, DS_REPUPD_ASYNCHRONOUS_OPERATION, DS_REPUPD_DELETE_REFERENCE, DS_REPUPD_WRITEABLE, DsReplicaUpdateRefs, DsReplicaUpdateRefs function [Active Directory], DsReplicaUpdateRefsA, DsReplicaUpdateRefsW, _glines_dsreplicaupdaterefs, ad.dsreplicaupdaterefs, ntdsapi/DsReplicaUpdateRefs, ntdsapi/DsReplicaUpdateRefsA, ntdsapi/DsReplicaUpdateRefsW
 ms.prod: windows
 ms.technology: windows-sdk

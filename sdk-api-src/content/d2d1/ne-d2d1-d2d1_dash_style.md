@@ -4,10 +4,10 @@ title: D2D1_DASH_STYLE
 author: windows-sdk-content
 description: Describes the sequence of dashes and gaps in a stroke.
 old-location: direct2d\D2D1_DASH_STYLE.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 0c1807e3-51e6-440a-bd80-9b43ed7a39f5
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_DASH_STYLE, D2D1_DASH_STYLE enumeration [Direct2D], D2D1_DASH_STYLE_CUSTOM, D2D1_DASH_STYLE_DASH, D2D1_DASH_STYLE_DASH_DOT, D2D1_DASH_STYLE_DASH_DOT_DOT, D2D1_DASH_STYLE_DOT, D2D1_DASH_STYLE_SOLID, d2d1/D2D1_DASH_STYLE, d2d1/D2D1_DASH_STYLE_CUSTOM, d2d1/D2D1_DASH_STYLE_DASH, d2d1/D2D1_DASH_STYLE_DASH_DOT, d2d1/D2D1_DASH_STYLE_DASH_DOT_DOT, d2d1/D2D1_DASH_STYLE_DOT, d2d1/D2D1_DASH_STYLE_SOLID, direct2d.D2D1_DASH_STYLE
 ms.prod: windows
 ms.technology: windows-sdk

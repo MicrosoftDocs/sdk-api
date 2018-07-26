@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createplacedresource.htm
 old-project: direct3d12
 ms.assetid: 4581A82D-D2B6-4CAE-A336-07B8CF90A0BA
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: CreatePlacedResource, CreatePlacedResource method, CreatePlacedResource method,ID3D12Device interface, ID3D12Device interface,CreatePlacedResource method, ID3D12Device.CreatePlacedResource, ID3D12Device::CreatePlacedResource, d3d12/ID3D12Device::CreatePlacedResource, direct3d12.id3d12device_createplacedresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Creates a resource that is placed in a specific heap.
+Creates a resource that is placed in a specific heap.
           Placed resources are the lightest weight resource objects available, and are the fastest to create and destroy.
         
 
@@ -65,8 +64,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/3791C64F-76D7-4580-A444-F2CEA3EB10CE">ID3D12Heap</a>*</b>
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/3791C64F-76D7-4580-A444-F2CEA3EB10CE">ID3D12Heap</a> interface that represents the heap in which the resource is placed.
+A pointer to the <a href="https://msdn.microsoft.com/3791C64F-76D7-4580-A444-F2CEA3EB10CE">ID3D12Heap</a> interface that represents the heap in which the resource is placed.
           
 
 
@@ -74,8 +72,7 @@ Type: <b><a href="https://msdn.microsoft.com/3791C64F-76D7-4580-A444-F2CEA3EB10C
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
 
-
-            The offset, in bytes, to the resource.
+The offset, in bytes, to the resource.
             The <i>HeapOffset</i> must be a multiple of the resource's alignment, and <i>HeapOffset</i> plus the resource size must be smaller than or equal to the heap size.
             <a href="https://msdn.microsoft.com/43467E09-835B-4DB9-B0A4-F75868DE4609">GetResourceAllocationInfo</a> must be used to understand the sizes of texture resources.
           
@@ -85,8 +82,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b>const <a href="https://msdn.microsoft.com/908BCB65-A7C6-473D-81AB-CCCA029AB6F9">D3D12_RESOURCE_DESC</a>*</b>
 
-
-            A pointer to a <a href="https://msdn.microsoft.com/908BCB65-A7C6-473D-81AB-CCCA029AB6F9">D3D12_RESOURCE_DESC</a> structure that describes the resource.
+A pointer to a <a href="https://msdn.microsoft.com/908BCB65-A7C6-473D-81AB-CCCA029AB6F9">D3D12_RESOURCE_DESC</a> structure that describes the resource.
           
 
 
@@ -94,12 +90,10 @@ Type: <b>const <a href="https://msdn.microsoft.com/908BCB65-A7C6-473D-81AB-CCCA0
 
 Type: <b><a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATES</a></b>
 
-
-              The initial state of the resource, as a bitwise-OR'd combination of <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATES</a> enumeration constants.
+The initial state of the resource, as a bitwise-OR'd combination of <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATES</a> enumeration constants.
             
 
-
-              When a resource is created together with a D3D12_HEAP_TYPE_UPLOAD heap, <i>InitialState</i> must be D3D12_RESOURCE_STATE_GENERIC_READ.
+When a resource is created together with a D3D12_HEAP_TYPE_UPLOAD heap, <i>InitialState</i> must be D3D12_RESOURCE_STATE_GENERIC_READ.
               When a resource is created together with a D3D12_HEAP_TYPE_READBACK heap, <i>InitialState</i> must be D3D12_RESOURCE_STATE_COPY_DEST.
             
 
@@ -108,8 +102,7 @@ Type: <b><a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3
 
 Type: <b>const <a href="https://msdn.microsoft.com/03B67F91-C150-4719-8C43-D04F51DC9C06">D3D12_CLEAR_VALUE</a>*</b>
 
-
-              Specifies a <a href="https://msdn.microsoft.com/03B67F91-C150-4719-8C43-D04F51DC9C06">D3D12_CLEAR_VALUE</a> that describes the default value for a clear color.
+Specifies a <a href="https://msdn.microsoft.com/03B67F91-C150-4719-8C43-D04F51DC9C06">D3D12_CLEAR_VALUE</a> that describes the default value for a clear color.
             
 
 <i>pOptimizedClearValue</i> specifies a value for which clear operations are most optimal.
@@ -123,13 +116,11 @@ Type: <b>const <a href="https://msdn.microsoft.com/03B67F91-C150-4719-8C43-D04F5
 
 Type: <b><b>REFIID</b></b>
 
-
-              The globally unique identifier (<b>GUID</b>) for the resource interface.
+The globally unique identifier (<b>GUID</b>) for the resource interface.
               This is an input parameter.
             
 
-
-              The <b>REFIID</b>, or <b>GUID</b>, of the interface to the resource can be obtained by using the __uuidof() macro.
+The <b>REFIID</b>, or <b>GUID</b>, of the interface to the resource can be obtained by using the __uuidof() macro.
               For example, __uuidof(<a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>) will get the <b>GUID</b> of the interface to a resource.
               Although <b>riid</b> is, most commonly, the GUID for <b>ID3D12Resource</b>, it may be any GUID for any interface. 
               If the resource object doesn't support the interface for this GUID, creation will fail with E_NOINTERFACE.
@@ -140,8 +131,7 @@ Type: <b><b>REFIID</b></b>
 
 Type: <b><b>void</b>**</b>
 
-
-            A pointer to a memory block that receives a pointer to the resource.
+A pointer to a memory block that receives a pointer to the resource.
             <i>ppvResource</i> can be NULL, to enable capability testing. 
             When <i>ppvResource</i> is NULL, no object will be created and S_FALSE will be returned when <i>pResourceDesc</i> and other parameters are valid.
           
@@ -153,8 +143,7 @@ Type: <b><b>void</b>**</b>
 
 Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-
-            This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the resource.
+This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the resource.
             See <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> for other possible return values.
           
 
@@ -168,26 +157,22 @@ Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRE
 <b>CreatePlacedResource</b> is similar to fully mapping a reserved resource to an offset within a heap; but the virtual address space associated with a heap may be reused as well.
       
 
-
-        Placed resources are lighter weight than committed resources to create and destroy, because no heap is created or destroyed during this operation. 
+Placed resources are lighter weight than committed resources to create and destroy, because no heap is created or destroyed during this operation. 
         However, placed resources enable an even lighter weight technique to reuse memory than resource creation and destruction: reuse through aliasing and aliasing barriers.
         Multiple placed resources may simultaneously overlap each other on the same heap, but only a single overlapping resource can be used at a time.
       
 
-
-        There are two placed resource usage semantics, a simple model and an advanced model.
+There are two placed resource usage semantics, a simple model and an advanced model.
         The simple model is recommended, and is the most likely model for tool support, until the advanced model is proven to be required by the app.
       
 
 <h3><a id="Simple_Model"></a><a id="simple_model"></a><a id="SIMPLE_MODEL"></a>Simple Model</h3>
-
-            Placed resources should be considered to be in one of two states: active or inactive.
+Placed resources should be considered to be in one of two states: active or inactive.
             It is invalid for the GPU to either read or write from an inactive resource.
             Placed resources are created in the inactive state.
           
 
-
-            Applications must activate a resource with an aliasing barrier on a command list, by passing the resource in <a href="https://msdn.microsoft.com/9855D609-E863-4334-B6BA-B6777FDAB82B">D3D12_RESOURCE_ALIASING_BARRIER</a>::<b>pResourceAfter</b>.
+Applications must activate a resource with an aliasing barrier on a command list, by passing the resource in <a href="https://msdn.microsoft.com/9855D609-E863-4334-B6BA-B6777FDAB82B">D3D12_RESOURCE_ALIASING_BARRIER</a>::<b>pResourceAfter</b>.
             <b>pResourceBefore</b> can be left NULL during an activation.
             All resources that share physical memory with the activated resource now become inactive or somewhat inactive, which includes overlapping placed and reserved resources.
             The amount of inactivation varies based on resource properties.
@@ -198,8 +183,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRE
             Aliasing barriers should be grouped up and submitted together, in order to maximize efficiency.
           
 
-
-            After activation, resources with either the render target or depth stencil flags must be further initialized. See the notes on the required resource initialization below.
+After activation, resources with either the render target or depth stencil flags must be further initialized. See the notes on the required resource initialization below.
 
 <h3><a id="Advanced_Model"></a><a id="advanced_model"></a><a id="ADVANCED_MODEL"></a>Advanced Model</h3>
 The active/ inactive abstraction can be ignored and the following lower-level rules must be honored, instead: 

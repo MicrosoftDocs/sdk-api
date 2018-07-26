@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_dsv_flags.htm
 old-project: direct3d12
 ms.assetid: A968BFFF-8C26-4C8C-9AA4-7E9BB5B0DF1F
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_DSV_FLAGS, D3D12_DSV_FLAGS enumeration, D3D12_DSV_FLAG_NONE, D3D12_DSV_FLAG_READ_ONLY_DEPTH, D3D12_DSV_FLAG_READ_ONLY_STENCIL, d3d12/D3D12_DSV_FLAGS, d3d12/D3D12_DSV_FLAG_NONE, d3d12/D3D12_DSV_FLAG_READ_ONLY_DEPTH, d3d12/D3D12_DSV_FLAG_READ_ONLY_STENCIL, direct3d12.d3d12_dsv_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,8 +60,7 @@ Specifies depth-stencil view options.
 
 ### -field D3D12_DSV_FLAG_NONE
 
-
-            Indicates a default view.
+Indicates a default view.
           
 
 
@@ -79,13 +78,11 @@ Indicates that stencil values are read only.
 
 
 
-
-          Specify a combination of the values in this enumeration in the <b>Flags</b> member of a <a href="https://msdn.microsoft.com/53161933-5B3B-4B38-AC70-46A4164AE072">D3D12_DEPTH_STENCIL_VIEW_DESC</a> structure.
+Specify a combination of the values in this enumeration in the <b>Flags</b> member of a <a href="https://msdn.microsoft.com/53161933-5B3B-4B38-AC70-46A4164AE072">D3D12_DEPTH_STENCIL_VIEW_DESC</a> structure.
           The values are combined by using a bitwise OR operation.
         
 
-
-          Limiting a depth-stencil buffer to read-only access allows more than one depth-stencil view to be bound to the pipeline simultaneously, since it is not possible to have read/write conflicts between separate views.
+Limiting a depth-stencil buffer to read-only access allows more than one depth-stencil view to be bound to the pipeline simultaneously, since it is not possible to have read/write conflicts between separate views.
         
 
 

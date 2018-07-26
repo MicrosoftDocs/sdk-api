@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvolumetexture9__lockbox.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolumetexture9__lockbox.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: 9be8529a-2a7d-01f2-cddd-e44589e88cfe, IDirect3DVolumeTexture9 interface [Direct3D 9],LockBox method, IDirect3DVolumeTexture9.LockBox, IDirect3DVolumeTexture9::LockBox, LockBox, LockBox method [Direct3D 9], LockBox method [Direct3D 9],IDirect3DVolumeTexture9 interface, d3d9helper/IDirect3DVolumeTexture9::LockBox, direct3d9.idirect3dvolumetexture9__lockbox
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,6 @@ Combination of zero or more locking flags that describe the type of lock to perf
 <li>D3DLOCK_NOSYSLOCK</li>
 <li>D3DLOCK_READONLY</li>
 </ul>
-
 For a description of the flags, see <a href="https://msdn.microsoft.com/library/Bb172568(v=VS.85).aspx">D3DLOCK</a>.
 
 

@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxtiff_get_csid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2ask.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: Csid property [Fax Service], Csid property [Fax Service],FaxTiff object, FaxTiff object [Fax Service],Csid property, FaxTiff.Csid, IFaxTiff.get_Csid, IFaxTiff::get_Csid, _mfax_ifaxtiff_get_csid, fax._mfax_ifaxtiff_get_csid, fax._mfax_ifaxtiff_get_csid_vb, get_Csid
 ms.prod: windows
 ms.technology: windows-sdk

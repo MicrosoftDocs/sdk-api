@@ -7,7 +7,7 @@ old-location: direct3d11\d3ddisassemble11trace.htm
 old-project: direct3d11
 ms.assetid: 874A83C2-99DD-47EA-AF93-C3A47B61C4E5
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: D3DDisassemble11Trace, D3DDisassemble11Trace function [Direct3D 11], d3d11shadertracing/D3DDisassemble11Trace, direct3d11.d3ddisassemble11trace
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.irql:
 ## -description
 
 
-
-          Disassembles a section of compiled Microsoft High Level Shader Language (HLSL) code that is specified by shader trace steps.
+Disassembles a section of compiled Microsoft High Level Shader Language (HLSL) code that is specified by shader trace steps.
 
 
 ## -parameters
@@ -65,8 +64,7 @@ req.irql:
 
 Type: <b>LPCVOID</b>
 
-
-            A pointer to compiled shader data.
+A pointer to compiled shader data.
 
 
 
@@ -74,8 +72,7 @@ Type: <b>LPCVOID</b>
 
 Type: <b>SIZE_T</b>
 
-
-            The size, in bytes, of the block of memory that pSrcData points to.
+The size, in bytes, of the block of memory that pSrcData points to.
 
 
 
@@ -92,8 +89,7 @@ A pointer to the ID3D11ShaderTrace interface for the shader trace information ob
 
 Type: <b>UINT</b>
 
-
-            The number of the step in the trace from which D3DDisassemble11Trace starts the disassembly.
+The number of the step in the trace from which D3DDisassemble11Trace starts the disassembly.
 
 
 
@@ -101,8 +97,7 @@ Type: <b>UINT</b>
 
 Type: <b>UINT</b>
 
-
-            The number of trace steps to disassemble.
+The number of trace steps to disassemble.
 
 
 
@@ -110,8 +105,7 @@ Type: <b>UINT</b>
 
 Type: <b>UINT</b>
 
-
-            A combination of zero or more of the following flags that are combined by using a bitwise OR operation. The resulting value specifies how D3DDisassemble11Trace disassembles the compiled shader data.
+A combination of zero or more of the following flags that are combined by using a bitwise OR operation. The resulting value specifies how D3DDisassemble11Trace disassembles the compiled shader data.
 
 
 
@@ -160,8 +154,7 @@ This flag has no effect in the D3DDisassembleRegion function. Cycle information 
 
 Type: <b>ID3D10Blob**</b>
 
-
-            A pointer to a buffer that receives the ID3DBlob interface that accesses the disassembled HLSL code.
+A pointer to a buffer that receives the ID3DBlob interface that accesses the disassembled HLSL code.
 
 
 ## -returns
@@ -170,8 +163,7 @@ Type: <b>ID3D10Blob**</b>
 
 Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-
-            This method returns an HRESULT error code.
+This method returns an HRESULT error code.
 
 
 

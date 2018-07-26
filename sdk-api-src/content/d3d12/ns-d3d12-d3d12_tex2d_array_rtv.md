@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tex2d_array_rtv.htm
 old-project: direct3d12
 ms.assetid: E20A8045-46A4-40CB-98E9-B148AD2B9BDA
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_TEX2D_ARRAY_RTV, D3D12_TEX2D_ARRAY_RTV structure, d3d12/D3D12_TEX2D_ARRAY_RTV, direct3d12.d3d12_tex2d_array_rtv
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,15 +70,13 @@ The index of the first texture to use in an array of textures.
 
 ### -field ArraySize
 
-
-            Number of textures in the array to use in the render target view, starting from <b>FirstArraySlice</b>.
+Number of textures in the array to use in the render target view, starting from <b>FirstArraySlice</b>.
           
 
 
 ### -field PlaneSlice
 
-
-            The index (plane slice number) of the plane to use in an array of textures.
+The index (plane slice number) of the plane to use in an array of textures.
           
 
 
@@ -86,8 +84,7 @@ The index of the first texture to use in an array of textures.
 
 
 
-
-        Use this structure with a <a href="https://msdn.microsoft.com/D8602EB9-70EB-4A4E-8D8D-A2016335AAC6">D3D12_RENDER_TARGET_VIEW_DESC</a> structure to view the resource as an array of 2D textures.
+Use this structure with a <a href="https://msdn.microsoft.com/D8602EB9-70EB-4A4E-8D8D-A2016335AAC6">D3D12_RENDER_TARGET_VIEW_DESC</a> structure to view the resource as an array of 2D textures.
       
 
 

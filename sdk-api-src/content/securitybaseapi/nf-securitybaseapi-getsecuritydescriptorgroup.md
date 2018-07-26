@@ -4,10 +4,10 @@ title: GetSecurityDescriptorGroup function
 author: windows-sdk-content
 description: Retrieves the primary group information from a security descriptor.
 old-location: security\getsecuritydescriptorgroup.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: a920b49e-a4c2-4e49-b529-88c12205d995
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: GetSecurityDescriptorGroup, GetSecurityDescriptorGroup function [Security], _win32_getsecuritydescriptorgroup, security.getsecuritydescriptorgroup, securitybaseapi/GetSecurityDescriptorGroup
 ms.prod: windows
 ms.technology: windows-sdk

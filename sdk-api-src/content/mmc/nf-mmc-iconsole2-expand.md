@@ -4,11 +4,11 @@ title: IConsole2::Expand
 author: windows-sdk-content
 description: The IConsole2::Expand method enables the snap-in to expand or collapse an item in the scope pane.
 old-location: mmc\iconsole2_expand.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 958c9611-fd9c-4895-903b-145eacf76901
 ms.author: windowssdkdev
-ms.date: 07/17/2018
-ms.keywords: Expand, Expand method [MMC], Expand method [MMC],IConsole2 interface, Expand method [MMC],IConsole3 interface, IConsole2 interface [MMC],Expand method, IConsole2.Expand, IConsole2::Expand, IConsole3 interface [MMC],Expand method, IConsole3::Expand, _slate_iconsole2_expand, mmc.iconsole2_expand, mmc/IConsole2::Expand, mmc/IConsole3::Expand
+ms.date: 07/24/2018
+ms.keywords: Expand, Expand method [MMC], Expand method [MMC],IConsole2 interface, IConsole2 interface [MMC],Expand method, IConsole2.Expand, IConsole2::Expand, _slate_iconsole2_expand, mmc.iconsole2_expand, mmc/IConsole2::Expand
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -37,7 +37,6 @@ api_location:
  - Mmcndmgr.dll
 api_name:
  - IConsole2.Expand
- - IConsole3.Expand
 product: Windows
 targetos: Windows
 req.lib: 
@@ -110,10 +109,6 @@ To enumerate the child items of an item in the namespace without visibly expandi
 
 
 <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>
-
-
-
-<a href="https://msdn.microsoft.com/be3d42a4-a18a-40a5-99fc-2cf2a848c564">IConsole3</a>
 
 
 

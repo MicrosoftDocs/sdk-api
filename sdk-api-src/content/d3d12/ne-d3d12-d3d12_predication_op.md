@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_predication_op.htm
 old-project: direct3d12
 ms.assetid: 2A650FE4-7D24-4852-9435-7C3CB73848AB
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_PREDICATION_OP, D3D12_PREDICATION_OP enumeration, D3D12_PREDICATION_OP_EQUAL_ZERO, D3D12_PREDICATION_OP_NOT_EQUAL_ZERO, d3d12/D3D12_PREDICATION_OP, d3d12/D3D12_PREDICATION_OP_EQUAL_ZERO, d3d12/D3D12_PREDICATION_OP_NOT_EQUAL_ZERO, direct3d12.d3d12_predication_op
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Specifies the predication operation to apply.
+Specifies the predication operation to apply.
         
 
 
@@ -62,15 +61,13 @@ req.irql:
 
 ### -field D3D12_PREDICATION_OP_EQUAL_ZERO
 
-
-            Enables predication if all 64-bits are zero.
+Enables predication if all 64-bits are zero.
           
 
 
 ### -field D3D12_PREDICATION_OP_NOT_EQUAL_ZERO
 
-
-            Enables predication if at least one of the 64-bits are not zero.
+Enables predication if at least one of the 64-bits are not zero.
           
 
 
@@ -78,12 +75,10 @@ req.irql:
 
 
 
-
-          This enum is used by <a href="https://msdn.microsoft.com/21526012-A675-40E8-A11C-4CBA5C12B9CF">SetPredication</a>.
+This enum is used by <a href="https://msdn.microsoft.com/21526012-A675-40E8-A11C-4CBA5C12B9CF">SetPredication</a>.
         
 
-
-          Predication is decoupled from queries.
+Predication is decoupled from queries.
           Predication can be set based on the value of 64-bits within a buffer.
         
 

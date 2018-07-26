@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutingrules_add.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_50f8.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],FaxOutboundRoutingRules object, FaxOutboundRoutingRules object [Fax Service],Add method, FaxOutboundRoutingRules.Add, IFaxOutboundRoutingRules.Add, IFaxOutboundRoutingRules::Add, _mfax_faxoutboundroutingrules.add, fax._mfax_faxoutboundroutingrules_add
 ms.prod: windows
 ms.technology: windows-sdk

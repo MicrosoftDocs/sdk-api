@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawcolorcontrol.htm
 old-project: directdraw
 ms.assetid: e9bd0dc6-2d8a-452b-894d-72a3d7a20100
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/23/2018
 ms.keywords: IDirectDrawColorControl, IDirectDrawColorControl interface [DirectDraw], IDirectDrawColorControl interface [DirectDraw],described, ddraw/IDirectDrawColorControl, directdraw.idirectdrawcolorcontrol
 ms.prod: windows
 ms.technology: windows-sdk

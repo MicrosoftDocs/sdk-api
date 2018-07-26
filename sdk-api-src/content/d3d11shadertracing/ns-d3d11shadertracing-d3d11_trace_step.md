@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_trace_step.htm
 old-project: direct3d11
 ms.assetid: E4C4757F-4948-41C9-97FB-446B26BE8E93
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: D3D11_TRACE_STEP, D3D11_TRACE_STEP structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_STEP, direct3d11.d3d11_trace_step
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,12 +130,10 @@ A number that specifies the type of instruction (for example, <a href="https://m
 
 ### -field CurrentGlobalCycle
 
-
-         The global cycle count for this step.  You can use this member to correlate parallel thread execution via multiple simultaneous traces, for example, for the compute shader.
+The global cycle count for this step.  You can use this member to correlate parallel thread execution via multiple simultaneous traces, for example, for the compute shader.
          
 
-<div class="alert"><b>Note</b>  
-           Multiple threads at the same point in execution might log the same <b>CurrentGlobalCycle</b>.
+<div class="alert"><b>Note</b>  Multiple threads at the same point in execution might log the same <b>CurrentGlobalCycle</b>.
          </div>
 <div> </div>
 

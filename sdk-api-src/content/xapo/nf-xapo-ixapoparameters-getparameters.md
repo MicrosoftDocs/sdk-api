@@ -7,7 +7,7 @@ old-location: xaudio2\ixapoparameters_interface_getparameters.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapoparameters.IXAPOParameters.GetParameters(void@,UINT32)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 07/23/2018
 ms.keywords: GetParameters, GetParameters method [XAudio2 Audio Mixing APIs], GetParameters method [XAudio2 Audio Mixing APIs],IXAPOParameters interface, IXAPOParameters interface [XAudio2 Audio Mixing APIs],GetParameters method, IXAPOParameters.GetParameters, IXAPOParameters::GetParameters, xapo/IXAPOParameters::GetParameters, xaudio2.ixapoparameters_interface_getparameters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,6 @@ Receives an effect-specific parameter block.
 
 ### -param ParameterByteSize [in]
 
-
 Size of pParameters, in bytes.
 
 
@@ -112,9 +111,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/75CC5E5D-74B2-4972-9E1D-D6CB4A3034CD">
-
-IXAudio2Voice::GetEffectParameters</a>
+<a href="https://msdn.microsoft.com/library/Ee418586(v=VS.85).aspx">IXAudio2Voice::GetEffectParameters</a>
  
 
  

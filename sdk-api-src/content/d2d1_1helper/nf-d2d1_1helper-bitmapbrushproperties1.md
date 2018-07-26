@@ -4,10 +4,10 @@ title: BitmapBrushProperties1 function
 author: windows-sdk-content
 description: Creates a D2D1_BITMAP_BRUSH_PROPERTIES1 structure.
 old-location: direct2d\bitmapbrushproperties1.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 83F8641B-9BE4-4BBD-99FD-215EA3BD371A
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: BitmapBrushProperties1, BitmapBrushProperties1 function [Direct2D], d2d1_1helper/BitmapBrushProperties1, direct2d.bitmapbrushproperties1
 ms.prod: windows
 ms.technology: windows-sdk

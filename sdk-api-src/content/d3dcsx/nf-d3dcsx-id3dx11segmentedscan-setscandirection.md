@@ -7,7 +7,7 @@ old-location: direct3d11\id3dx11segmentedscan_setscandirection.htm
 old-project: direct3d11
 ms.assetid: 84eca342-33a3-4595-adb2-0a39e6060e49
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3DX11SegmentedScan interface [Direct3D 11],SetScanDirection method, ID3DX11SegmentedScan.SetScanDirection, ID3DX11SegmentedScan::SetScanDirection, SetScanDirection, SetScanDirection method [Direct3D 11], SetScanDirection method [Direct3D 11],ID3DX11SegmentedScan interface, a63add8c-ff04-6737-e439-b59bf93546a1, d3dcsx/ID3DX11SegmentedScan::SetScanDirection, direct3d11.id3dx11segmentedscan_setscandirection
 ms.prod: windows
 ms.technology: windows-sdk

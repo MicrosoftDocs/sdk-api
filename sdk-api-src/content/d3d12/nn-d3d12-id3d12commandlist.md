@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandlist.htm
 old-project: direct3d12
 ms.assetid: 1E0359CC-0F53-4C82-9F1A-092F6F72EE20
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12CommandList, ID3D12CommandList interface, ID3D12CommandList interface,described, d3d12/ID3D12CommandList, direct3d12.id3d12commandlist
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,6 @@ req.irql:
 ## -description
 
 
-
-          
 An interface from which <a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a> inherits from. It represents an ordered set of commands that the GPU executes, while allowing for extension to support other command lists than just those for graphics (such as compute and copy).
 
 
@@ -75,8 +73,7 @@ The <b>ID3D12CommandList</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the type of the command list, such as direct, bundle, compute, or copy.
+Gets the type of the command list, such as direct, bundle, compute, or copy.
         
 
 </td>
@@ -88,34 +85,27 @@ The <b>ID3D12CommandList</b> interface has these methods.
 
 
 
-
-        Use <a href="https://msdn.microsoft.com/4C615D7D-6DBC-4EDA-8D72-271EC53047BF">ID3D12Device::CreateCommandList</a> to create a command list object.
+Use <a href="https://msdn.microsoft.com/4C615D7D-6DBC-4EDA-8D72-271EC53047BF">ID3D12Device::CreateCommandList</a> to create a command list object.
       
 
-
-        See also <a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>, which derives from ID3D12CommandList.
+See also <a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>, which derives from ID3D12CommandList.
       
 
+A command list corresponds to a set of commands that the graphics processing unit (GPU) executes.  Commands set state, draw, clear, copy, and so on.  
 
-        A command list corresponds to a set of commands that the graphics processing unit (GPU) executes.  Commands set state, draw, clear, copy, and so on.  
-
-
-            Direct3D 12 command lists only support these 2 levels of indirection:
+Direct3D 12 command lists only support these 2 levels of indirection:
           
 
 <ul>
-<li>
-            A direct command list corresponds to a command buffer that the GPU can execute.
+<li>A direct command list corresponds to a command buffer that the GPU can execute.
           </li>
-<li>
-            A bundle can be executed only directly via a direct command list.
+<li>A bundle can be executed only directly via a direct command list.
           </li>
 </ul>
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12nBodyGravity</a> sample uses <b>ID3D12CommandList</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12nBodyGravity</a> sample uses <b>ID3D12CommandList</b> as follows:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>

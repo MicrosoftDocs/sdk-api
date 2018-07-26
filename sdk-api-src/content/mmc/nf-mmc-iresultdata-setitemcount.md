@@ -4,10 +4,10 @@ title: IResultData::SetItemCount
 author: windows-sdk-content
 description: Sets the number of items in a virtual list.
 old-location: mmc\iresultdata_setitemcount.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: d2105b19-3c91-4a5f-9dfa-c330d4733c67
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: IResultData interface [MMC],SetItemCount method, IResultData.SetItemCount, IResultData2 interface [MMC],SetItemCount method, IResultData2::SetItemCount, IResultData::SetItemCount, MMCLV_UPDATE_NOINVALIDATEALL, MMCLV_UPDATE_NOSCROLL, SetItemCount, SetItemCount method [MMC], SetItemCount method [MMC],IResultData interface, SetItemCount method [MMC],IResultData2 interface, _slate_iresultdata_setitemcount, mmc.iresultdata_setitemcount, mmc/IResultData2::SetItemCount, mmc/IResultData::SetItemCount
 ms.prod: windows
 ms.technology: windows-sdk

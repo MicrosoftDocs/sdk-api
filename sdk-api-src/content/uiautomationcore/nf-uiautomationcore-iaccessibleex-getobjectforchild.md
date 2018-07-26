@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IAccessibleEx_GetObjectForChild.htm
 old-project: WinAuto
 ms.assetid: fbb279cc-2224-437e-875b-d08df175edf1
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: GetObjectForChild, GetObjectForChild method [Windows Accessibility], GetObjectForChild method [Windows Accessibility],IAccessibleEx interface, IAccessibleEx interface [Windows Accessibility],GetObjectForChild method, IAccessibleEx.GetObjectForChild, IAccessibleEx::GetObjectForChild, uiauto.uiauto_IAccessibleEx_GetObjectForChild, uiauto_IAccessibleEx_GetObjectForChild, uiautomationcore/IAccessibleEx::GetObjectForChild, winauto.uiauto_IAccessibleEx_GetObjectForChild
 ms.prod: windows
 ms.technology: windows-sdk

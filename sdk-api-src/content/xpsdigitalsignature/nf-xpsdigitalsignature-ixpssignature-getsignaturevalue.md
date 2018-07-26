@@ -7,7 +7,7 @@ old-location: xps\ixpssignature_getsignaturevalue.htm
 old-project: printdocs
 ms.assetid: 40a21fa3-cf71-4c0d-8343-83a2c1a216c9
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: GetSignatureValue, GetSignatureValue method [XPS Documents and Packaging], GetSignatureValue method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSignatureValue method, IXpsSignature.GetSignatureValue, IXpsSignature::GetSignatureValue, xps.ixpssignature_getsignaturevalue, xpsdigitalsignature/IXpsSignature::GetSignatureValue
 ms.prod: windows
 ms.technology: windows-sdk

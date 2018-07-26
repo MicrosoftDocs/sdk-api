@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_heap_properties.htm
 old-project: direct3d12
 ms.assetid: 0A197D3D-67F4-46BB-8578-15E05DF46067
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_HEAP_PROPERTIES, D3D12_HEAP_PROPERTIES structure, d3d12/D3D12_HEAP_PROPERTIES, direct3d12.d3d12_heap_properties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,48 +60,41 @@ Describes heap properties.
 
 ### -field Type
 
-
-            A <a href="https://msdn.microsoft.com/5B1EA8A6-BD59-4B92-B6C4-A5C26D0B16D4">D3D12_HEAP_TYPE</a>-typed value that specifies the type of heap.
+A <a href="https://msdn.microsoft.com/5B1EA8A6-BD59-4B92-B6C4-A5C26D0B16D4">D3D12_HEAP_TYPE</a>-typed value that specifies the type of heap.
           
 
 
 ### -field CPUPageProperty
 
-
-            A <a href="https://msdn.microsoft.com/92C1DBB9-213C-4623-B6AA-B790E081F123">D3D12_CPU_PAGE_PROPERTY</a>-typed value that specifies the CPU-page properties for the heap.
+A <a href="https://msdn.microsoft.com/92C1DBB9-213C-4623-B6AA-B790E081F123">D3D12_CPU_PAGE_PROPERTY</a>-typed value that specifies the CPU-page properties for the heap.
           
 
 
 ### -field MemoryPoolPreference
 
-
-            A <a href="https://msdn.microsoft.com/EFA3FF00-F121-4ED8-AF83-1952C73AE06D">D3D12_MEMORY_POOL</a>-typed value that specifies the memory pool for the heap.
+A <a href="https://msdn.microsoft.com/EFA3FF00-F121-4ED8-AF83-1952C73AE06D">D3D12_MEMORY_POOL</a>-typed value that specifies the memory pool for the heap.
           
 
 
 ### -field CreationNodeMask
 
-
-              For multi-adapter operation, this indicates the node where the resource should be created.
+For multi-adapter operation, this indicates the node where the resource should be created.
               Exactly one bit of this UINT must be set.
               See <a href="https://msdn.microsoft.com/CC4C6594-D48F-40C1-93EE-9F98532BC038">Multi-Adapter</a>.
             
 
-
-              Passing zero is equivalent to passing one, in order to simplify the usage of single-GPU adapters.
+Passing zero is equivalent to passing one, in order to simplify the usage of single-GPU adapters.
             
 
 
 ### -field VisibleNodeMask
 
-
-              For multi-adapter operation, this indicates the set of nodes where the resource is visible.
+For multi-adapter operation, this indicates the set of nodes where the resource is visible.
               <i>VisibleNodeMask</i> must have the same bits set as <i>CreationNodeMask</i> has.
               See <a href="https://msdn.microsoft.com/CC4C6594-D48F-40C1-93EE-9F98532BC038">Multi-Adapter</a>.
             
 
-
-              Passing zero is equivalent to passing one, in order to simplify the usage of single-GPU adapters.
+Passing zero is equivalent to passing one, in order to simplify the usage of single-GPU adapters.
             
 
 
@@ -109,8 +102,7 @@ Describes heap properties.
 
 
 
-
-        This structure is used by the following:
+This structure is used by the following:
         
 
 <ul>
@@ -127,21 +119,17 @@ Describes heap properties.
 <a href="https://msdn.microsoft.com/FF9E8F11-F2C5-4A96-8E25-140870D15DA9">ID3D12Device::CreateCommittedResource</a>
 </li>
 </ul>
-
-          Valid combinations of struct member values:
+Valid combinations of struct member values:
         
 
 <ul>
-<li>
-            When <b>Type</b> is <a href="https://msdn.microsoft.com/5B1EA8A6-BD59-4B92-B6C4-A5C26D0B16D4">D3D12_HEAP_TYPE</a>_CUSTOM,
+<li>When <b>Type</b> is <a href="https://msdn.microsoft.com/5B1EA8A6-BD59-4B92-B6C4-A5C26D0B16D4">D3D12_HEAP_TYPE</a>_CUSTOM,
             <b>CPUPageProperty</b> and <b>MemoryPoolPreference</b> must not be ..._UNKNOWN.
           </li>
-<li>
-            When <b>Type</b> is not D3D12_HEAP_TYPE_CUSTOM,
+<li>When <b>Type</b> is not D3D12_HEAP_TYPE_CUSTOM,
             <b>CPUPageProperty</b> and <b>MemoryPoolPreference</b> must be ..._UNKNOWN.
           </li>
-<li>
-            When using D3D12_HEAP_TYPE_CUSTOM and <a href="https://msdn.microsoft.com/EFA3FF00-F121-4ED8-AF83-1952C73AE06D">D3D12_MEMORY_POOL</a>_L1, on NUMA adapters,
+<li>When using D3D12_HEAP_TYPE_CUSTOM and <a href="https://msdn.microsoft.com/EFA3FF00-F121-4ED8-AF83-1952C73AE06D">D3D12_MEMORY_POOL</a>_L1, on NUMA adapters,
             <b>CPUPageProperty</b> must be <a href="https://msdn.microsoft.com/92C1DBB9-213C-4623-B6AA-B790E081F123">D3D12_CPU_PAGE_PROPERTY</a>_NOT_AVAILABLE.
             To differentiate NUMA from UMA adapters, see
             <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>_ARCHITECTURE and

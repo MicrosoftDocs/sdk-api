@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectionconstantbuffer.htm
 old-project: direct3d12
 ms.assetid: 4102AF77-3EC7-42CD-8B9C-6D0CC999529A
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12ShaderReflectionConstantBuffer, ID3D12ShaderReflectionConstantBuffer interface, ID3D12ShaderReflectionConstantBuffer interface,described, d3d12shader/ID3D12ShaderReflectionConstantBuffer, direct3d12.id3d12shaderreflectionconstantbuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          This shader-reflection interface provides access to a constant buffer.
+This shader-reflection interface provides access to a constant buffer.
         
 
 
@@ -75,8 +74,7 @@ The <b>ID3D12ShaderReflectionConstantBuffer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/33D6926F-BF1B-4424-BC28-83F8A4A30589">GetDesc</a>
 </td>
 <td align="left" width="63%">
-
-          Gets a constant-buffer description.
+Gets a constant-buffer description.
         
 
 </td>
@@ -86,8 +84,7 @@ The <b>ID3D12ShaderReflectionConstantBuffer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/F7083A4D-ADD4-4C6F-A031-ABF16A3C351C">GetVariableByIndex</a>
 </td>
 <td align="left" width="63%">
-
-          Gets a shader-reflection variable by index.
+Gets a shader-reflection variable by index.
         
 
 </td>
@@ -97,8 +94,7 @@ The <b>ID3D12ShaderReflectionConstantBuffer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/FD18A64F-9B4A-42FE-8E18-13E9375E19BC">GetVariableByName</a>
 </td>
 <td align="left" width="63%">
-
-          Gets a shader-reflection variable by name.
+Gets a shader-reflection variable by name.
         
 
 </td>
@@ -110,8 +106,7 @@ The <b>ID3D12ShaderReflectionConstantBuffer</b> interface has these methods.
 
 
 
-
-            To create a constant-buffer interface, call <a href="https://msdn.microsoft.com/84E3240C-D21F-4F71-9AC2-C89570571A72">ID3D12ShaderReflection::GetConstantBufferByIndex</a> or <a href="https://msdn.microsoft.com/C8BE8C17-2B5A-45AB-8C39-778FFFA78992">ID3D12ShaderReflection::GetConstantBufferByName</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
+To create a constant-buffer interface, call <a href="https://msdn.microsoft.com/84E3240C-D21F-4F71-9AC2-C89570571A72">ID3D12ShaderReflection::GetConstantBufferByIndex</a> or <a href="https://msdn.microsoft.com/C8BE8C17-2B5A-45AB-8C39-778FFFA78992">ID3D12ShaderReflection::GetConstantBufferByName</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
           
 
 

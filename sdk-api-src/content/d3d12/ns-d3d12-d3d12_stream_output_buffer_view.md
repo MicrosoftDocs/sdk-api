@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_stream_output_buffer_view.htm
 old-project: direct3d12
 ms.assetid: EFA4FBD7-3063-4B6A-B3B1-45418C6682FC
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_STREAM_OUTPUT_BUFFER_VIEW, D3D12_STREAM_OUTPUT_BUFFER_VIEW structure, d3d12/D3D12_STREAM_OUTPUT_BUFFER_VIEW, direct3d12.d3d12_stream_output_buffer_view
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes a stream output buffer.
+Describes a stream output buffer.
         
 
 
@@ -62,23 +61,20 @@ req.irql:
 
 ### -field BufferLocation
 
-
-            A D3D12_GPU_VIRTUAL_ADDRESS (a UINT64) that points to the stream output buffer.
+A D3D12_GPU_VIRTUAL_ADDRESS (a UINT64) that points to the stream output buffer.
             If <b>SizeInBytes</b> is 0, this member isn't used and can be any value.
           
 
 
 ### -field SizeInBytes
 
-
-            The size of the stream output buffer in bytes.
+The size of the stream output buffer in bytes.
           
 
 
 ### -field BufferFilledSizeLocation
 
-
-            The location of the value of how much data has been filled into the buffer, as a D3D12_GPU_VIRTUAL_ADDRESS (a UINT64).
+The location of the value of how much data has been filled into the buffer, as a D3D12_GPU_VIRTUAL_ADDRESS (a UINT64).
             This member can't be NULL; a filled size location must be supplied (which the hardware will increment as data is output).
             If <b>SizeInBytes</b> is 0, this member isn't used and can be any value.
           
@@ -88,8 +84,7 @@ req.irql:
 
 
 
-
-          Use this structure with <a href="https://msdn.microsoft.com/40683FD6-5B9F-411C-AC0A-6641E0A3D688">SOSetTargets</a>.
+Use this structure with <a href="https://msdn.microsoft.com/40683FD6-5B9F-411C-AC0A-6641E0A3D688">SOSetTargets</a>.
         
 
 

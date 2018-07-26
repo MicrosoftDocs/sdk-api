@@ -7,7 +7,7 @@ old-location: xinput\xinputgetdsoundaudiodeviceguids.htm
 old-project: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetDSoundAudioDeviceGuids(DWORD,GUID*@,GUID*@)
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/23/2018
 ms.keywords: XInputGetDSoundAudioDeviceGuids, XInputGetDSoundAudioDeviceGuids function [XInput Game Controller APIs], xinput.xinputgetdsoundaudiodeviceguids, xinput/XInputGetDSoundAudioDeviceGuids
 ms.prod: windows
 ms.technology: windows-sdk

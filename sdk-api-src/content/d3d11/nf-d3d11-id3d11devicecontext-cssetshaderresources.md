@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_cssetshaderresources.htm
 old-project: direct3d11
 ms.assetid: 04babe17-b053-49f4-90bc-8080f521079e
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: CSSetShaderResources, CSSetShaderResources method [Direct3D 11], CSSetShaderResources method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSSetShaderResources method, ID3D11DeviceContext.CSSetShaderResources, ID3D11DeviceContext::CSSetShaderResources, cef14155-2203-ea99-84d2-f1722c5ae802, d3d11/ID3D11DeviceContext::CSSetShaderResources, direct3d11.id3d11devicecontext_cssetshaderresources
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,8 +97,7 @@ If an overlapping resource view is already bound to an output slot, such as a re
 
 For information about creating shader-resource views, see <a href="https://msdn.microsoft.com/a8e3cda3-76f9-48c3-9e0c-e530f95fe8b8">ID3D11Device::CreateShaderResourceView</a>.
 
-
-  The method will hold a reference to the interfaces passed in.
+The method will hold a reference to the interfaces passed in.
   This differs from the device state behavior in Direct3D 10.
 
 

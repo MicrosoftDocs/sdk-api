@@ -7,7 +7,7 @@ old-location: direct3d11\d3dx11createfft1dcomplex.htm
 old-project: direct3d11
 ms.assetid: 3a7879fa-69d0-4c35-b5a8-ffb80665a22f
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 198d836f-e656-5c8d-ac4c-cd5c594a32bd, D3DX11CreateFFT1DComplex, D3DX11CreateFFT1DComplex function [Direct3D 11], d3dcsx/D3DX11CreateFFT1DComplex, direct3d11.d3dx11createfft1dcomplex
 ms.prod: windows
 ms.technology: windows-sdk

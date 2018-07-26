@@ -7,7 +7,7 @@ old-location: intl\mappingserviceinfo.htm
 old-project: Intl
 ms.assetid: 444102a7-0da9-44be-989e-7a5139320034
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: "*PMAPPING_SERVICE_INFO, 0, 1, MAPPING_SERVICE_INFO, MAPPING_SERVICE_INFO structure [Internationalization for Windows Applications], PMAPPING_SERVICE_INFO, PMAPPING_SERVICE_INFO structure pointer [Internationalization for Windows Applications], _MAPPING_SERVICE_INFO, elscore/MAPPING_SERVICE_INFO, elscore/PMAPPING_SERVICE_INFO, intl.mappingserviceinfo"
 ms.prod: windows
 ms.technology: windows-sdk

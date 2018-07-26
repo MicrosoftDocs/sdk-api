@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsenddocument.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7t6c.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxSendDocument, FaxSendDocument function [Fax Service], FaxSendDocumentA, FaxSendDocumentW, _mfax_faxsenddocument, fax._mfax_faxsenddocument, winfax/FaxSendDocument, winfax/FaxSendDocumentA, winfax/FaxSendDocumentW
 ms.prod: windows
 ms.technology: windows-sdk

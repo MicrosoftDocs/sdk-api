@@ -4,10 +4,10 @@ title: IFsrmReportScheduler
 author: windows-sdk-content
 description: Used to manage scheduled tasks for report jobs and file management jobs.
 old-location: fsrm\ifsrmreportscheduler.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: f3e71a39-d880-4035-a719-42ace5eeb9e0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: IFsrmReportScheduler, IFsrmReportScheduler interface [File Server Resource Manager], IFsrmReportScheduler interface [File Server Resource Manager],described, fs.ifsrmreportscheduler, fsrm.ifsrmreportscheduler, fsrmreports/IFsrmReportScheduler
 ms.prod: windows
 ms.technology: windows-sdk

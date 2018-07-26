@@ -7,7 +7,7 @@ old-location: ad\idsobjectpicker_initialize.htm
 old-project: ad
 ms.assetid: bcf4d283-6709-4425-a122-8f0808502b58
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: IDsObjectPicker interface [Active Directory],Initialize method, IDsObjectPicker.Initialize, IDsObjectPicker::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsObjectPicker interface, _glines_idsobjectpicker_initialize, ad.idsobjectpicker__initialize, ad.idsobjectpicker_initialize, objsel/IDsObjectPicker::Initialize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaGetPatternProviderAutoMeth.htm
 old-project: WinAuto
 ms.assetid: f4df6a48-3028-4acb-a924-4c20662a7b86
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: UiaGetPatternProvider, UiaGetPatternProvider function [Windows Accessibility], uiauto.uiauto_UiaGetPatternProviderAutoMeth, uiauto_UiaGetPatternProviderAutoMeth, uiautomationcoreapi/UiaGetPatternProvider, winauto.uiauto_UiaGetPatternProviderAutoMeth
 ms.prod: windows
 ms.technology: windows-sdk

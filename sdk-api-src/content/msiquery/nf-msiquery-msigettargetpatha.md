@@ -4,10 +4,10 @@ title: MsiGetTargetPathA function
 author: windows-sdk-content
 description: The MsiGetTargetPath function returns the full target path for a folder in the Directory table.
 old-location: setup\msigettargetpath.htm
-old-project: msi
+old-project: Msi
 ms.assetid: cad0e1c1-3f3a-4438-8b85-ea146c943579
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: MsiGetTargetPath, MsiGetTargetPath function, MsiGetTargetPathA, MsiGetTargetPathW, _msi_msigettargetpath, msiquery/MsiGetTargetPath, msiquery/MsiGetTargetPathA, msiquery/MsiGetTargetPathW, setup.msigettargetpath
 ms.prod: windows
 ms.technology: windows-sdk

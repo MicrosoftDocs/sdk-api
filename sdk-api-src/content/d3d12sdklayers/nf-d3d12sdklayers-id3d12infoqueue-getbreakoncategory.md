@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getbreakoncategory.htm
 old-project: direct3d12
 ms.assetid: 3B966BB5-4AA6-4475-890F-4477A5C7E55E
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetBreakOnCategory, GetBreakOnCategory method, GetBreakOnCategory method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetBreakOnCategory method, ID3D12InfoQueue.GetBreakOnCategory, ID3D12InfoQueue::GetBreakOnCategory, d3d12sdklayers/ID3D12InfoQueue::GetBreakOnCategory, direct3d12.id3d12infoqueue_getbreakoncategory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Get a message category to break on when a message with that category passes through the storage filter.
+Get a message category to break on when a message with that category passes through the storage filter.
 
 
 
@@ -65,8 +64,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/297923A3-CE6A-46AF-B8B6-E2AE0C1920CC">D3D12_MESSAGE_CATEGORY</a></b>
 
-
-            Message category to break on.
+Message category to break on.
           
 
 
@@ -76,8 +74,7 @@ Type: <b><a href="https://msdn.microsoft.com/297923A3-CE6A-46AF-B8B6-E2AE0C1920C
 
 Type: <b>BOOL</b>
 
-
-            Whether this breaking condition is turned on or off (true for on, false for off).
+Whether this breaking condition is turned on or off (true for on, false for off).
 
 
 

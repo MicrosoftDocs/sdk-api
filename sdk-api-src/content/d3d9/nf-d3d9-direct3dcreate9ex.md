@@ -7,7 +7,7 @@ old-location: direct3d9\direct3dcreate9ex.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\direct3dcreate9.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: Direct3DCreate9Ex, Direct3DCreate9Ex function [Direct3D 9], d3bc9dd0-05d5-c0a2-6b7c-7e11497d0e97, d3d9/Direct3DCreate9Ex, direct3d9.direct3dcreate9ex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,11 +109,9 @@ The <a href="https://msdn.microsoft.com/library/Bb174301(v=VS.85).aspx">IDirect3
 The <a href="https://msdn.microsoft.com/library/Bb174301(v=VS.85).aspx">IDirect3D9Ex</a> interface supports enumeration of active display adapters
         and allows the creation of <b>IDirect3D9Ex</b> objects. If the user dynamically adds
         adapters (either by adding devices to the desktop, or by hot-docking a laptop), these
-        devices are not included in the enumeration. Creating a new <b>IDirect3D9Ex</b>
-        interface will expose the new devices.
+        devices are not included in the enumeration. Creating a new <b>IDirect3D9Ex</b>interface will expose the new devices.
 
-
-        Pass the <b>D3D_SDK_VERSION</b> flag to this function to ensure that header files used in the
+Pass the <b>D3D_SDK_VERSION</b> flag to this function to ensure that header files used in the
         compiled application match the version of the installed runtime DLLs. <b>D3D_SDK_VERSION
         </b>is changed in the runtime only when a header or another code change would require
         rebuilding the application. If this function fails, it indicates that the versions of the
@@ -187,14 +185,12 @@ The following code example demonstrates how to create an <a href="https://msdn.m
 </table></span></div>
 Checking for Direct3D9Ex.
 
-The following code example demonstrates how to check for the existence of <b>Direct3DCreate9Ex</b>
-          and fail on platforms that do not support it. You can use this code in a game launcher to present 
+The following code example demonstrates how to check for the existence of <b>Direct3DCreate9Ex</b>and fail on platforms that do not support it. You can use this code in a game launcher to present 
     an error message to the user or to load a renderer that uses the <a href="https://msdn.microsoft.com/library/Bb174300(v=VS.85).aspx">IDirect3D9</a> interface instead.
 
 To check for <b>Direct3DCreate9Ex</b>, this example explicitly loads the D3D9.dll
           library using the Win32 <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> function.  The example then assigns the
-          address of <b>Direct3DCreate9Ex</b> to a pointer by using the Win32 <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>
-          function.  If <b>Direct3DCreate9Ex</b> is not present, the function pointer is <b>NULL</b>,
+          address of <b>Direct3DCreate9Ex</b> to a pointer by using the Win32 <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>function.  If <b>Direct3DCreate9Ex</b> is not present, the function pointer is <b>NULL</b>,
           and the code example returns an <b>ERROR_NOT_SUPPORTED  </b><b>HRESULT</b> value.
           However, if <b>Direct3DCreate9Ex</b> is present, it returns an <b>S_OK</b> value.
 

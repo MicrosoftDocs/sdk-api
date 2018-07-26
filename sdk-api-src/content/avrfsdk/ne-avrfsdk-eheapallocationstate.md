@@ -7,7 +7,7 @@ old-location: winprog\eheapallocationstate.htm
 old-project: devnotes
 ms.assetid: c91b169d-fee5-46ad-a589-3b52436d779c
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: HeapFullPageHeap, HeapMetadata, HeapStateMask, avrfsdk/HeapFullPageHeap, avrfsdk/HeapMetadata, avrfsdk/HeapStateMask, avrfsdk/eHeapAllocationState, base.eheapallocationstate, eHeapAllocationState, eHeapAllocationState enumeration [Windows API], winprog.eheapallocationstate
 ms.prod: windows
 ms.technology: windows-sdk

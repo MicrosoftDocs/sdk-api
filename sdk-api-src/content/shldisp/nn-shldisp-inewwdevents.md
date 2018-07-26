@@ -7,7 +7,7 @@ old-location: shell\NewWDEvents.htm
 old-project: shell
 ms.assetid: 44f2431c-82a2-4142-bf20-55fdd0c88008
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: INewWDEvents, NewWDEvents, NewWDEvents object [Windows Shell], NewWDEvents object [Windows Shell],described, _shell_NewWDEvents, shell.NewWDEvents, shldisp/NewWDEvents
 ms.prod: windows
 ms.technology: windows-sdk

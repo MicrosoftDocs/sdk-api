@@ -4,10 +4,10 @@ title: MsiGetShortcutTargetW function
 author: windows-sdk-content
 description: The MsiGetShortcutTarget function examines a shortcut and returns its product, feature name, and component if available.
 old-location: setup\msigetshortcuttarget.htm
-old-project: msi
+old-project: Msi
 ms.assetid: 5c040372-d266-4f79-9b80-950ceac9f9b8
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: MsiGetShortcutTarget, MsiGetShortcutTarget function, MsiGetShortcutTargetA, MsiGetShortcutTargetW, _msi_msigetshortcuttarget, msi/MsiGetShortcutTarget, msi/MsiGetShortcutTargetA, msi/MsiGetShortcutTargetW, setup.msigetshortcuttarget
 ms.prod: windows
 ms.technology: windows-sdk

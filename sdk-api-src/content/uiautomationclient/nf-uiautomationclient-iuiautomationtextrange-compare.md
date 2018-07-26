@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTextRange_Compare.htm
 old-project: WinAuto
 ms.assetid: 4ccf78af-19b0-4bc9-a519-92df8276804e
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: Compare, Compare method [Windows Accessibility], Compare method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],Compare method, IUIAutomationTextRange.Compare, IUIAutomationTextRange::Compare, uiauto.uiauto_IUIAutomationTextRange_Compare, uiauto_IUIAutomationTextRange_Compare, uiautomationclient/IUIAutomationTextRange::Compare, winauto.uiauto_IUIAutomationTextRange_Compare
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

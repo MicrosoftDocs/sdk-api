@@ -4,10 +4,10 @@ title: IComponentData::Notify
 author: windows-sdk-content
 description: The IComponentData::Notify method notifies the snap-in of actions performed by the user.
 old-location: mmc\icomponentdata_notify.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 8679396e-23d0-4418-987a-c72b1508e7b9
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: IComponentData interface [MMC],Notify method, IComponentData.Notify, IComponentData::Notify, Notify, Notify method [MMC], Notify method [MMC],IComponentData interface, _slate_icomponentdata_notify, mmc.icomponentdata_notify, mmc/IComponentData::Notify
 ms.prod: windows
 ms.technology: windows-sdk

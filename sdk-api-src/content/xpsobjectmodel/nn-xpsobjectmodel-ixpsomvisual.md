@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisual.htm
 old-project: printdocs
 ms.assetid: f2ec412c-aece-4b20-a721-e6c17615e56b
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], IXpsOMVisual interface [XPS Documents and Packaging],described, xps.ixpsomvisual, xpsobjectmodel/IXpsOMVisual
 ms.prod: windows
 ms.technology: windows-sdk
@@ -39,7 +39,7 @@ api_name:
  - IXpsOMVisual
 product: Windows
 targetos: Windows
-req.lib: 
+req.lib: XpsPrint.lib
 req.dll: XpsRasterService.dll
 req.irql: 
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.

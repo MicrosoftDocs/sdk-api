@@ -7,7 +7,7 @@ old-location: cmpapi\setcompressorinformation.htm
 old-project: cmpapi
 ms.assetid: f8c2c425-9b21-4fe3-8b81-d8bf3cd8ec5b
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: SetCompressorInformation, SetCompressorInformation function [Compression API], cmpapi.setcompressorinformation, compressapi/SetCompressorInformation
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\registerforprintasyncnotifications.htm
 old-project: printdocs
 ms.assetid: f5a01819-75d0-42a0-b66f-5a25a48b091c
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: RegisterForPrintAsyncNotifications, RegisterForPrintAsyncNotifications function [Windows GDI], _win32_RegisterForPrintAsyncNotifications, gdi.registerforprintasyncnotifications, prnasnot/RegisterForPrintAsyncNotifications
 ms.prod: windows
 ms.technology: windows-sdk

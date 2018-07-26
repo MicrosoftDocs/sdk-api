@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSelectionPattern_CachedIsSelectionRequ
 old-project: WinAuto
 ms.assetid: 74846653-bf18-4289-9ad8-aedc20a56f29
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CachedIsSelectionRequired property [Windows Accessibility], CachedIsSelectionRequired property [Windows Accessibility],IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern interface [Windows Accessibility],CachedIsSelectionRequired property, IUIAutomationSelectionPattern.CachedIsSelectionRequired, IUIAutomationSelectionPattern.get_CachedIsSelectionRequired, IUIAutomationSelectionPattern::CachedIsSelectionRequired, IUIAutomationSelectionPattern::get_CachedIsSelectionRequired, get_CachedIsSelectionRequired, uiauto.uiauto_IUIAutomationSelectionPattern_CachedIsSelectionRequired, uiauto_IUIAutomationSelectionPattern_CachedIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::CachedIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::get_CachedIsSelectionRequired, winauto.uiauto_IUIAutomationSelectionPattern_CachedIsSelectionRequired
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

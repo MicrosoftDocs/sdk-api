@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device1_seteventonmultiplefencecompletion.htm
 old-project: direct3d12
 ms.assetid: C187EEB7-DCD0-4535-AF0E-EF2C0E2DC83C
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12Device1 interface,SetEventOnMultipleFenceCompletion method, ID3D12Device1.SetEventOnMultipleFenceCompletion, ID3D12Device1::SetEventOnMultipleFenceCompletion, SetEventOnMultipleFenceCompletion, SetEventOnMultipleFenceCompletion method, SetEventOnMultipleFenceCompletion method,ID3D12Device1 interface, d3d12/ID3D12Device1::SetEventOnMultipleFenceCompletion, direct3d12.id3d12device1_seteventonmultiplefencecompletion
 ms.prod: windows
 ms.technology: windows-sdk

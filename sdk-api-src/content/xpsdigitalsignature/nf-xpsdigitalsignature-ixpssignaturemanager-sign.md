@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturemanager_sign.htm
 old-project: printdocs
 ms.assetid: 82a57ca8-edc7-4248-92d1-8092f6dce4f8
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],Sign method, IXpsSignatureManager.Sign, IXpsSignatureManager::Sign, Sign, Sign method [XPS Documents and Packaging], Sign method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_sign, xpsdigitalsignature/IXpsSignatureManager::Sign
 ms.prod: windows
 ms.technology: windows-sdk

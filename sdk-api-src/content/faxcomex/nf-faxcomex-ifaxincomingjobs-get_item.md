@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingjobs_item.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5ga5.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxIncomingJobs object [Fax Service],Item property, FaxIncomingJobs.Item, IFaxIncomingJobs.get_Item, IFaxIncomingJobs::get_Item, Item property [Fax Service], Item property [Fax Service],FaxIncomingJobs object, _mfax_faxincomingjobs.item, fax._mfax_faxincomingjobs_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaHUiaNodeFromVariantFunction.htm
 old-project: WinAuto
 ms.assetid: 9927a058-a470-4b0e-86ae-494a8ab0ec2c
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: UiaHUiaNodeFromVariant, UiaHUiaNodeFromVariant function [Windows Accessibility], uiauto.uiauto_UiaHUiaNodeFromVariantFunction, uiauto_UiaHUiaNodeFromVariantFunction, uiautomationcoreapi/UiaHUiaNodeFromVariant, winauto.uiauto_UiaHUiaNodeFromVariantFunction
 ms.prod: windows
 ms.technology: windows-sdk

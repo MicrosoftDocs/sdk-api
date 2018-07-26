@@ -7,7 +7,7 @@ old-location: shell\IFileDialog_SetFileTypes.htm
 old-project: shell
 ms.assetid: ca850988-7f2f-4faf-9ded-14db476fc452
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFileTypes method, IFileDialog.SetFileTypes, IFileDialog::SetFileTypes, SetFileTypes, SetFileTypes method [Windows Shell], SetFileTypes method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetFileTypes, shell_IFileDialog_SetFileTypes, shobjidl_core/IFileDialog::SetFileTypes
 ms.prod: windows
 ms.technology: windows-sdk

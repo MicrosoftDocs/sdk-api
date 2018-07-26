@@ -4,10 +4,10 @@ title: EditSecurity function
 author: windows-sdk-content
 description: Displays a property sheet that contains a basic security property page. This property page enables the user to view and edit the access rights allowed or denied by the ACEs in an object's DACL.
 old-location: security\editsecurity.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 756c94b0-946f-47eb-b4b4-db3e6e89fe46
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: EditSecurity, EditSecurity function [Security], _win32_editsecurity, aclui/EditSecurity, security.editsecurity
 ms.prod: windows
 ms.technology: windows-sdk

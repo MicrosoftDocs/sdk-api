@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_server_events_type_enum.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_61t9.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FAX_SERVER_EVENTS_TYPE_ENUM, FAX_SERVER_EVENTS_TYPE_ENUM enumeration [Fax Service], _mfax_fax_server_events_type_enum, fax._mfax_fax_server_events_type_enum, faxcomex/FAX_SERVER_EVENTS_TYPE_ENUM, faxcomex/fsetACTIVITY, faxcomex/fsetCONFIG, faxcomex/fsetDEVICE_STATUS, faxcomex/fsetFXSSVC_ENDED, faxcomex/fsetINCOMING_CALL, faxcomex/fsetIN_ARCHIVE, faxcomex/fsetIN_QUEUE, faxcomex/fsetNONE, faxcomex/fsetOUT_ARCHIVE, faxcomex/fsetOUT_QUEUE, faxcomex/fsetQUEUE_STATE, fsetACTIVITY, fsetCONFIG, fsetDEVICE_STATUS, fsetFXSSVC_ENDED, fsetINCOMING_CALL, fsetIN_ARCHIVE, fsetIN_QUEUE, fsetNONE, fsetOUT_ARCHIVE, fsetOUT_QUEUE, fsetQUEUE_STATE
 ms.prod: windows
 ms.technology: windows-sdk

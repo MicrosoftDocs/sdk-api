@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_static_border_color.htm
 old-project: direct3d12
 ms.assetid: E5D3E447-F1C7-4AAF-B9AB-829C33622E34
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_STATIC_BORDER_COLOR, D3D12_STATIC_BORDER_COLOR enumeration, D3D12_STATIC_BORDER_COLOR_OPAQUE_BLACK, D3D12_STATIC_BORDER_COLOR_OPAQUE_WHITE, D3D12_STATIC_BORDER_COLOR_TRANSPARENT_BLACK, d3d12/D3D12_STATIC_BORDER_COLOR, d3d12/D3D12_STATIC_BORDER_COLOR_OPAQUE_BLACK, d3d12/D3D12_STATIC_BORDER_COLOR_OPAQUE_WHITE, d3d12/D3D12_STATIC_BORDER_COLOR_TRANSPARENT_BLACK, direct3d12.d3d12_static_border_color
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Specifies the border color for a static sampler.
+Specifies the border color for a static sampler.
         
 
 
@@ -62,22 +61,19 @@ req.irql:
 
 ### -field D3D12_STATIC_BORDER_COLOR_TRANSPARENT_BLACK
 
-
-            Indicates black, with the alpha component as fully transparent.
+Indicates black, with the alpha component as fully transparent.
           
 
 
 ### -field D3D12_STATIC_BORDER_COLOR_OPAQUE_BLACK
 
-
-            Indicates black, with the alpha component as fully opaque.
+Indicates black, with the alpha component as fully opaque.
           
 
 
 ### -field D3D12_STATIC_BORDER_COLOR_OPAQUE_WHITE
 
-
-            Indicates white, with the alpha component as fully opaque.
+Indicates white, with the alpha component as fully opaque.
           
 
 
@@ -85,8 +81,7 @@ req.irql:
 
 
 
-
-          This enum is used by the <a href="https://msdn.microsoft.com/35553C1C-3661-4778-8BC5-F2E6775DF96D">D3D12_STATIC_SAMPLER_DESC</a> structure.
+This enum is used by the <a href="https://msdn.microsoft.com/35553C1C-3661-4778-8BC5-F2E6775DF96D">D3D12_STATIC_SAMPLER_DESC</a> structure.
         
 
 

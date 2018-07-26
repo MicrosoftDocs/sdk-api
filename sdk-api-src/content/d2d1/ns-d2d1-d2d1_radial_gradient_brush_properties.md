@@ -4,10 +4,10 @@ title: D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES
 author: windows-sdk-content
 description: Contains the gradient origin offset and the size and position of the gradient ellipse for an ID2D1RadialGradientBrush.
 old-location: direct2d\D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 194f7624-ac3b-4054-8d6f-5b4c99ef6546
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES, D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES structure [Direct2D], d2d1/D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES, direct2d.D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-    Contains the gradient origin offset and the size and position of the gradient ellipse for an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a>. 
+Contains the gradient origin offset and the size and position of the gradient ellipse for an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a>. 
 
 
 ## -struct-fields

@@ -4,10 +4,10 @@ title: "_SMMCObjectTypes"
 author: windows-sdk-content
 description: The SMMCDynamicExtensions structure is introduced in MMC 1.1.
 old-location: mmc\smmcdynamicextensions.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 59acd90c-60de-457a-94d7-418b79247a2e
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: SMMCDynamicExtensions, SMMCDynamicExtensions structure [MMC], SMMCObjectTypes, SMMCObjectTypes structure [MMC], _SMMCObjectTypes, _slate_smmcdynamicextensions, mmc.smmcdynamicextensions, mmc/SMMCDynamicExtensions
 ms.prod: windows
 ms.technology: windows-sdk

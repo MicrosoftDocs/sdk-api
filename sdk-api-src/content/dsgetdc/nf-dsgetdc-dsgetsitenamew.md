@@ -7,7 +7,7 @@ old-location: ad\dsgetsitename.htm
 old-project: ad
 ms.assetid: 2dfffd9a-af4f-4a93-8b3c-966e4f7c455f
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: DsGetSiteName, DsGetSiteName function [Active Directory], DsGetSiteNameA, DsGetSiteNameW, _glines_dsgetsitename, ad.dsgetsitename, dsgetdc/DsGetSiteName, dsgetdc/DsGetSiteNameA, dsgetdc/DsGetSiteNameW
 ms.prod: windows
 ms.technology: windows-sdk

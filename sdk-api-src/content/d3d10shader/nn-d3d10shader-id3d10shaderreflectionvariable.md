@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10shaderreflectionvariable.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflectionvariable.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D10ShaderReflectionVariable, ID3D10ShaderReflectionVariable interface [Direct3D 10], ID3D10ShaderReflectionVariable interface [Direct3D 10],described, d3d10shader/ID3D10ShaderReflectionVariable, direct3d10.id3d10shaderreflectionvariable, e8b67520-bfa7-7e41-f594-a51d5ad0301e
 ms.prod: windows
 ms.technology: windows-sdk

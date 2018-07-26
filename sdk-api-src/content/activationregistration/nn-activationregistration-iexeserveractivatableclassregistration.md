@@ -7,7 +7,7 @@ old-location: winrt\iexeserveractivatableclassregistration.htm
 old-project: WinRT
 ms.assetid: 1D8F7B12-2883-478D-B83D-84AC47D512E4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IExeServerActivatableClassRegistration, IExeServerActivatableClassRegistration interface [Windows Runtime], IExeServerActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IExeServerActivatableClassRegistration, winrt.iexeserveractivatableclassregistration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The <b>IExeServerActivatableClassRegistration</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6116DC84-2DE0-427E-BDC7-425178B08C1A">ServerRegistration</a>
+<a href="https://msdn.microsoft.com/6116DC84-2DE0-427E-BDC7-425178B08C1A">get_ServerRegistration</a>
 </td>
 <td align="left" width="63%">
 Gets the registration details for an out-of-process server.

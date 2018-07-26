@@ -7,7 +7,7 @@ old-location: ad\dslistsites.htm
 old-project: ad
 ms.assetid: d424e750-6700-42b8-9d4f-e430cd0a7e4e
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: DsListSites, DsListSites function [Active Directory], DsListSitesA, DsListSitesW, _glines_dslistsites, ad.dslistsites, ntdsapi/DsListSites, ntdsapi/DsListSitesA, ntdsapi/DsListSitesW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrectangleclip_settop_overloaded.htm
 old-project: directcomp
 ms.assetid: 32C12765-F580-4E32-9C48-3A7AFD95CA38
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/23/2018
 ms.keywords: IDCompositionRectangleClip::SetTop, SetTop, SetTop methods [DirectComposition], dcomp/SetTop, directcomp.idcompositionrectangleclip_settop_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

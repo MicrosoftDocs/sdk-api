@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11module.htm
 old-project: direct3d11
 ms.assetid: 5915DACB-1D3A-496C-96C6-77D85CC6560B
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11Module, ID3D11Module interface [Direct3D 11], ID3D11Module interface [Direct3D 11],described, d3d11shader/ID3D11Module, direct3d11.id3d11module
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,9 +50,7 @@ req.irql:
 ## -description
 
 
-
-          A module interface creates an instance of a module that is used for resource rebinding. <div class="alert"><b>Note</b>  
-            This interface is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
+A module interface creates an instance of a module that is used for resource rebinding. <div class="alert"><b>Note</b>  This interface is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
           </div>
 <div> </div>
 
@@ -89,8 +87,7 @@ Initializes an instance of a shader module that is used for resource rebinding.
 
 
 
-
-        To get a module interface, call <a href="https://msdn.microsoft.com/698AADA6-0A88-44AD-9F15-F085BFE52CA1">D3DLoadModule</a>.
+To get a module interface, call <a href="https://msdn.microsoft.com/698AADA6-0A88-44AD-9F15-F085BFE52CA1">D3DLoadModule</a>.
       
 
 <div class="alert"><b>Note</b>  <b>ID3D11Module</b> requires the D3dcompiler_47.dll or a later version of the DLL.

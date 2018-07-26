@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__get_accchildcount.htm
 old-project: WinAuto
 ms.assetid: d80d59c0-7694-4cc6-9887-2fec7186f32e
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accChildCount method, IAccessible.get_accChildCount, IAccessible::get_accChildCount, _msaa_IAccessible_get_accChildCount, get_accChildCount, get_accChildCount method [Windows Accessibility], get_accChildCount method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accchildcount, oleacc/IAccessible::get_accChildCount, winauto.iaccessible_iaccessible__get_accchildcount
 ms.prod: windows
 ms.technology: windows-sdk

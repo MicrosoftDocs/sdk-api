@@ -7,7 +7,7 @@ old-location: intl\scriptstringanalyse.htm
 old-project: Intl
 ms.assetid: 6d0e7070-159e-436b-85b5-cabb3da83f5e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: SSA_BREAK, SSA_CLIP, SSA_DZWG, SSA_FALLBACK, SSA_FIT, SSA_GCP, SSA_GLYPHS, SSA_HIDEHOTKEY, SSA_HOTKEY, SSA_HOTKEYONLY, SSA_LINK, SSA_METAFILE, SSA_PASSWORD, SSA_RTL, SSA_TAB, ScriptStringAnalyse, ScriptStringAnalyse function [Internationalization for Windows Applications], _win32_ScriptStringAnalyse, intl.scriptstringanalyse, usp10/ScriptStringAnalyse
 ms.prod: windows
 ms.technology: windows-sdk

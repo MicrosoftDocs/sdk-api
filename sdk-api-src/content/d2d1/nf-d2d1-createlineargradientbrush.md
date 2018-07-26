@@ -4,10 +4,10 @@ title: CreateLinearGradientBrush function
 author: windows-sdk-content
 description: Creates an ID2D1LinearGradientBrush object for painting areas with a linear gradient.
 old-location: direct2d\id2d1rendertarget_createlineargradientbrush.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: dc07113f-ff93-4b0f-8328-02dd481dccb0
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: CreateLinearGradientBrush, CreateLinearGradientBrush methods [Direct2D], ID2D1RenderTarget::CreateLinearGradientBrush, d2d1/CreateLinearGradientBrush, direct2d.id2d1rendertarget_createlineargradientbrush
 ms.prod: windows
 ms.technology: windows-sdk

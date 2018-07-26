@@ -7,7 +7,7 @@ old-location: of\iofflinefilesdirtyinfo.htm
 old-project: offlinefiles
 ms.assetid: 10414443-9e7f-4520-80dd-d2ad098c1d44
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/23/2018
 ms.keywords: IOfflineFilesDirtyInfo, IOfflineFilesDirtyInfo interface [Offline Files], IOfflineFilesDirtyInfo interface [Offline Files],described, cscobj/IOfflineFilesDirtyInfo, of.iofflinefilesdirtyinfo
 ms.prod: windows
 ms.technology: windows-sdk

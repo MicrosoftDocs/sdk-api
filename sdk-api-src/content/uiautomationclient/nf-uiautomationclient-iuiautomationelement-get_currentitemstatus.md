@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CurrentItemStatus.htm
 old-project: WinAuto
 ms.assetid: a0bac87a-96ad-4b5a-9179-3149580cb18c
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CurrentItemStatus property [Windows Accessibility], CurrentItemStatus property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentItemStatus property, IUIAutomationElement.CurrentItemStatus, IUIAutomationElement.get_CurrentItemStatus, IUIAutomationElement::CurrentItemStatus, IUIAutomationElement::get_CurrentItemStatus, get_CurrentItemStatus, uiauto.uiauto_IUIAutomationElement_CurrentItemStatus, uiauto_IUIAutomationElement_CurrentItemStatus, uiautomationclient/IUIAutomationElement::CurrentItemStatus, uiautomationclient/IUIAutomationElement::get_CurrentItemStatus, winauto.uiauto_IUIAutomationElement_CurrentItemStatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

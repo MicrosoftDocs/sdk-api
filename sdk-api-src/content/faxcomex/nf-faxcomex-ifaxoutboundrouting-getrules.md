@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundrouting_getrules.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2v1v.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxOutboundRouting object [Fax Service],GetRules method, FaxOutboundRouting.GetRules, GetRules, GetRules method [Fax Service], GetRules method [Fax Service],FaxOutboundRouting object, IFaxOutboundRouting.GetRules, IFaxOutboundRouting::GetRules, _mfax_faxoutboundrouting.getrules, fax._mfax_faxoutboundrouting_getrules
 ms.prod: windows
 ms.technology: windows-sdk

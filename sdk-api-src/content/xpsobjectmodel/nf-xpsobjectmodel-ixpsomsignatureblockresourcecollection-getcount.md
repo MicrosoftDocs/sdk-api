@@ -7,7 +7,7 @@ old-location: xps\ixpsomsignatureblockresourcecollection_getcount.htm
 old-project: printdocs
 ms.assetid: 3ed0890a-9593-4004-b122-264d692913db
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMSignatureBlockResourceCollection.GetCount, IXpsOMSignatureBlockResourceCollection::GetCount, xps.ixpsomsignatureblockresourcecollection_getcount, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::GetCount
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11debug.htm
 old-project: direct3d11
 ms.assetid: 2c640295-7a91-4a7a-92d3-909d288eb0d6
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11Debug, ID3D11Debug interface [Direct3D 11], ID3D11Debug interface [Direct3D 11],described, b037763f-251a-579c-a6cb-8e5097410d05, d3d11sdklayers/ID3D11Debug, direct3d11.id3d11debug
 ms.prod: windows
 ms.technology: windows-sdk
@@ -157,12 +157,10 @@ Verifies whether the dispatch pipeline state is valid.
 
 
 
-
-            This interface is obtained by querying it from the <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a> using <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a>.
+This interface is obtained by querying it from the <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a> using <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a>.
           
 
-
-            For more information about the debug layer, see <a href="https://msdn.microsoft.com/library/Ff476881(v=VS.85).aspx">Debug Layer</a>.
+For more information about the debug layer, see <a href="https://msdn.microsoft.com/library/Ff476881(v=VS.85).aspx">Debug Layer</a>.
           
 
 <b>Windows Phone 8:

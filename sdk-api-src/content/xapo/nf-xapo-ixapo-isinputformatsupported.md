@@ -7,7 +7,7 @@ old-location: xaudio2\ixapo_interface_isinputformatsupported.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.IsInputFormatSupported(const WAVEFORMATEX,const WAVEFORMATEX,WAVEFORMATEX)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 07/23/2018
 ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],IsInputFormatSupported method, IXAPO.IsInputFormatSupported, IXAPO::IsInputFormatSupported, IsInputFormatSupported, IsInputFormatSupported method [XAudio2 Audio Mixing APIs], IsInputFormatSupported method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::IsInputFormatSupported, xaudio2.ixapo_interface_isinputformatsupported
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,19 +61,16 @@ Queries if a specific input format is supported for a given output format.
 
 ### -param pOutputFormat
 
-
 Output format.
 
 
 
 ### -param pRequestedInputFormat
 
-
 Input format to check for being supported.
 
 
 ### -param ppSupportedInputFormat
-
 
 If not NULL, and the input format is not supported for the given output format, <i>ppSupportedInputFormat</i> returns a pointer to the closest input format that is supported. Use <a href="https://msdn.microsoft.com/library/Ee419206(v=VS.85).aspx">XAPOFree</a> to free the returned structure. 
 

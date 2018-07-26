@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevices_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1eib_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IFaxDevices, IFaxDevices interface [Fax Service], IFaxDevices interface [Fax Service],described, _mfax_faxdevices_cpp, fax._mfax_faxdevices_cpp, faxcomex/IFaxDevices
 ms.prod: windows
 ms.technology: windows-sdk

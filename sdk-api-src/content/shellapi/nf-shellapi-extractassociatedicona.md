@@ -7,7 +7,7 @@ old-location: shell\ExtractAssociatedIcon.htm
 old-project: shell
 ms.assetid: 157ce603-9988-4cae-a2cd-51db290268c3
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: ExtractAssociatedIcon, ExtractAssociatedIcon function [Windows Shell], ExtractAssociatedIconA, ExtractAssociatedIconW, _shell_ExtractAssociatedIcon, shell.ExtractAssociatedIcon, shellapi/ExtractAssociatedIcon, shellapi/ExtractAssociatedIconA, shellapi/ExtractAssociatedIconW
 ms.prod: windows
 ms.technology: windows-sdk

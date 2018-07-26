@@ -7,7 +7,7 @@ old-location: xps\ixpsompage_getdictionarylocal.htm
 old-project: printdocs
 ms.assetid: 1eece7d5-2f2d-4fae-a2f4-8e52236f57c4
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: GetDictionaryLocal, GetDictionaryLocal method [XPS Documents and Packaging], GetDictionaryLocal method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetDictionaryLocal method, IXpsOMPage.GetDictionaryLocal, IXpsOMPage::GetDictionaryLocal, xps.ixpsompage_getdictionarylocal, xpsobjectmodel/IXpsOMPage::GetDictionaryLocal
 ms.prod: windows
 ms.technology: windows-sdk

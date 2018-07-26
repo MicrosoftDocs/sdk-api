@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometryfigurecollection_append.htm
 old-project: printdocs
 ms.assetid: 9481cd02-74f8-42f6-a347-454dae2aa579
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],Append method, IXpsOMGeometryFigureCollection.Append, IXpsOMGeometryFigureCollection::Append, xps.ixpsomgeometryfigurecollection_append, xpsobjectmodel/IXpsOMGeometryFigureCollection::Append
 ms.prod: windows
 ms.technology: windows-sdk

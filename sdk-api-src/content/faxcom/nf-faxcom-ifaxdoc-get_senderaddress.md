@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_senderaddress_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_58vn.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxDoc object [Fax Service],SenderAddress property, FaxDoc.SenderAddress, IFaxDoc.get_SenderAddress, IFaxDoc::get_SenderAddress, SenderAddress property [Fax Service], SenderAddress property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_senderaddress, fax._mfax_ifaxdoc_get_senderaddress, fax._mfax_ifaxdoc_get_senderaddress_vb, get_SenderAddress
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: of\iofflinefilessuspendinfo.htm
 old-project: offlinefiles
 ms.assetid: b9f9e30e-df37-467e-ac59-7955e0eae3c0
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/23/2018
 ms.keywords: IOfflineFilesSuspendInfo, IOfflineFilesSuspendInfo interface [Offline Files], IOfflineFilesSuspendInfo interface [Offline Files],described, cscobj/IOfflineFilesSuspendInfo, of.iofflinefilessuspendinfo
 ms.prod: windows
 ms.technology: windows-sdk

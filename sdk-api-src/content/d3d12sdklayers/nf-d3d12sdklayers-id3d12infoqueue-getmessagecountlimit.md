@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getmessagecountlimit.htm
 old-project: direct3d12
 ms.assetid: FAE16E2C-6E18-4345-88A8-DDC5836A75A9
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetMessageCountLimit, GetMessageCountLimit method, GetMessageCountLimit method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetMessageCountLimit method, ID3D12InfoQueue.GetMessageCountLimit, ID3D12InfoQueue::GetMessageCountLimit, d3d12sdklayers/ID3D12InfoQueue::GetMessageCountLimit, direct3d12.id3d12infoqueue_getmessagecountlimit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Get the maximum number of messages that can be added to the message queue.
+Get the maximum number of messages that can be added to the message queue.
 
 
 
@@ -69,8 +68,7 @@ req.irql:
 
 Type: <b>UINT64</b>
 
-
-            Maximum number of messages that can be added to the queue. -1 means no limit.
+Maximum number of messages that can be added to the queue. -1 means no limit.
 
 When the number of messages in the message queue has reached the maximum limit, new messages coming in will push old messages out.
 

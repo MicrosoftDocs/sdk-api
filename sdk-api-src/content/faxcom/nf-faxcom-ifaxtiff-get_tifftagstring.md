@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxtiff_get_tifftagstring_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1pif.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxTiff object [Fax Service],TiffTagString property, FaxTiff.TiffTagString, IFaxTiff.get_TiffTagString, IFaxTiff::get_TiffTagString, TiffTagString property [Fax Service], TiffTagString property [Fax Service],FaxTiff object, _mfax_ifaxtiff_get_tifftagstring, fax._mfax_ifaxtiff_get_tifftagstring, fax._mfax_ifaxtiff_get_tifftagstring_vb, get_TiffTagString
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationExpandCollapsePattern.htm
 old-project: WinAuto
 ms.assetid: 816c28a9-2486-403e-bfbd-94d040d0aac5
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IUIAutomationExpandCollapsePattern, IUIAutomationExpandCollapsePattern interface [Windows Accessibility], IUIAutomationExpandCollapsePattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationExpandCollapsePattern, uiauto_IUIAutomationExpandCollapsePattern, uiautomationclient/IUIAutomationExpandCollapsePattern, winauto.uiauto_IUIAutomationExpandCollapsePattern
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

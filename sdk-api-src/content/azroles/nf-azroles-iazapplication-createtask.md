@@ -4,10 +4,10 @@ title: IAzApplication::CreateTask
 author: windows-sdk-content
 description: Creates an IAzTask object with the specified name.
 old-location: security\iazapplication_createtask.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 9c15f1aa-f0d7-4c6b-8c3c-b6537f7dac90
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: AzApplication object [Security],CreateTask method, CreateTask, CreateTask method [Security], CreateTask method [Security],AzApplication object, CreateTask method [Security],IAzApplication interface, IAzApplication interface [Security],CreateTask method, IAzApplication.CreateTask, IAzApplication::CreateTask, azroles/IAzApplication::CreateTask, security.iazapplication_createtask
 ms.prod: windows
 ms.technology: windows-sdk

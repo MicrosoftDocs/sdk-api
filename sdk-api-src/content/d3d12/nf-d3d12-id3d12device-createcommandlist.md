@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createcommandlist.htm
 old-project: direct3d12
 ms.assetid: 4C615D7D-6DBC-4EDA-8D72-271EC53047BF
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: CreateCommandList, CreateCommandList method, CreateCommandList method,ID3D12Device interface, ID3D12Device interface,CreateCommandList method, ID3D12Device.CreateCommandList, ID3D12Device::CreateCommandList, d3d12/ID3D12Device::CreateCommandList, direct3d12.id3d12device_createcommandlist
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Creates a command list.
+Creates a command list.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            For single GPU operation, set this to zero. If there are multiple GPU nodes, set a bit to identify the node (the  device's physical adapter) for which to create the command list.
+For single GPU operation, set this to zero. If there are multiple GPU nodes, set a bit to identify the node (the  device's physical adapter) for which to create the command list.
             Each bit in the mask corresponds to a single node.
             Only 1 bit must be set.
           Refer to <a href="https://msdn.microsoft.com/CC4C6594-D48F-40C1-93EE-9F98532BC038">Multi-Adapter</a>.
@@ -75,8 +73,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/28BC70FF-6818-4B8D-9DE4-8316AB2FB288">D3D12_COMMAND_LIST_TYPE</a></b>
 
-
-            A <a href="https://msdn.microsoft.com/28BC70FF-6818-4B8D-9DE4-8316AB2FB288">D3D12_COMMAND_LIST_TYPE</a>-typed value that specifies the type of command list to create.
+A <a href="https://msdn.microsoft.com/28BC70FF-6818-4B8D-9DE4-8316AB2FB288">D3D12_COMMAND_LIST_TYPE</a>-typed value that specifies the type of command list to create.
           
 
 
@@ -84,8 +81,7 @@ Type: <b><a href="https://msdn.microsoft.com/28BC70FF-6818-4B8D-9DE4-8316AB2FB28
 
 Type: <b><a href="https://msdn.microsoft.com/ADC494E6-1698-415D-90C5-F99FCD4C5309">ID3D12CommandAllocator</a>*</b>
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/ADC494E6-1698-415D-90C5-F99FCD4C5309">ID3D12CommandAllocator</a> object that the device creates command lists from.
+A pointer to the <a href="https://msdn.microsoft.com/ADC494E6-1698-415D-90C5-F99FCD4C5309">ID3D12CommandAllocator</a> object that the device creates command lists from.
           
 
 
@@ -102,8 +98,7 @@ For bundles on the other hand, it might make more sense to try to set the initia
 
 Type: <b>REFIID</b>
 
-
-            The globally unique identifier (<b>GUID</b>) for the command list interface.
+The globally unique identifier (<b>GUID</b>) for the command list interface.
             The <b>REFIID</b>, or <b>GUID</b>, of the interface to the command list can be obtained by using the __uuidof() macro.
             For example, __uuidof(<a href="https://msdn.microsoft.com/1E0359CC-0F53-4C82-9F1A-092F6F72EE20">ID3D12CommandList</a>) will get the <b>GUID</b> of the interface to a command list.
           
@@ -113,12 +108,9 @@ Type: <b>REFIID</b>
 
 Type: <b>void**</b>
 
-
-            A pointer to a memory block that receives a pointer to the
-            <a href="https://msdn.microsoft.com/1E0359CC-0F53-4C82-9F1A-092F6F72EE20">ID3D12CommandList</a>
-            or
-            <a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
-            interface for the command list.
+A pointer to a memory block that receives a pointer to the
+            <a href="https://msdn.microsoft.com/1E0359CC-0F53-4C82-9F1A-092F6F72EE20">ID3D12CommandList</a>or
+            <a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>interface for the command list.
           
 
 
@@ -128,8 +120,7 @@ Type: <b>void**</b>
 
 Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-
-              This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the command list.
+This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the command list.
               See <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> for other possible return values.
             
 
@@ -140,8 +131,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRE
 
 
 
-
-        The device creates command lists from the command allocator.
+The device creates command lists from the command allocator.
       
 
 

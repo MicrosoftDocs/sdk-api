@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_setmutedebugoutput.htm
 old-project: direct3d12
 ms.assetid: 470155C2-095B-44EF-8ED3-18E1B2DADE4B
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12InfoQueue interface,SetMuteDebugOutput method, ID3D12InfoQueue.SetMuteDebugOutput, ID3D12InfoQueue::SetMuteDebugOutput, SetMuteDebugOutput, SetMuteDebugOutput method, SetMuteDebugOutput method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::SetMuteDebugOutput, direct3d12.id3d12infoqueue_setmutedebugoutput
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Set a boolean that turns the debug output on or off.
+Set a boolean that turns the debug output on or off.
 
 
 
@@ -65,8 +64,7 @@ req.irql:
 
 Type: <b>BOOL</b>
 
-
-            Disable/Enable the debug output (true to disable or mute the output, false to enable the output).
+Disable/Enable the debug output (true to disable or mute the output, false to enable the output).
 
 
           
@@ -76,8 +74,7 @@ Type: <b>BOOL</b>
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 

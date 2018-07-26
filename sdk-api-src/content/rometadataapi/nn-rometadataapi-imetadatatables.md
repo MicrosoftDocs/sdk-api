@@ -7,7 +7,7 @@ old-location: winrt\imetadatatables.htm
 old-project: WinRT
 ms.assetid: 30d06e87-93a2-4a9c-8843-4c42d7d9e3c8
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IMetaDataTables, IMetaDataTables interface [Windows Runtime], IMetaDataTables interface [Windows Runtime],described, rometadataapi/IMetaDataTables, winrt.imetadatatables
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_discard_region.htm
 old-project: direct3d12
 ms.assetid: 8F0916CB-3389-40BC-8028-BA8CF9BC566B
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_DISCARD_REGION, D3D12_DISCARD_REGION structure, d3d12/D3D12_DISCARD_REGION, direct3d12.d3d12_discard_region
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes details for the discard-resource operation.
+Describes details for the discard-resource operation.
         
 
 
@@ -62,30 +61,26 @@ req.irql:
 
 ### -field NumRects
 
-
-            The number of rectangles in the array that the <b>pRects</b> member specifies.
+The number of rectangles in the array that the <b>pRects</b> member specifies.
           
 
 
 ### -field pRects
 
-
-            An array of <b>D3D12_RECT</b> structures for the rectangles in the resource to discard.
+An array of <b>D3D12_RECT</b> structures for the rectangles in the resource to discard.
             If <b>NULL</b>, <a href="https://msdn.microsoft.com/2F4DBA5B-F586-4126-8867-BEE650F6D161">DiscardResource</a> discards the entire resource.
           
 
 
 ### -field FirstSubresource
 
-
-            Index of the first subresource in the resource to discard.
+Index of the first subresource in the resource to discard.
           
 
 
 ### -field NumSubresources
 
-
-            The number of subresources in the resource to discard.
+The number of subresources in the resource to discard.
           
 
 
@@ -93,12 +88,10 @@ req.irql:
 
 
 
-
-        This structure is used by the <a href="https://msdn.microsoft.com/2F4DBA5B-F586-4126-8867-BEE650F6D161">ID3D12GraphicsCommandList::DiscardResource</a> method.
+This structure is used by the <a href="https://msdn.microsoft.com/2F4DBA5B-F586-4126-8867-BEE650F6D161">ID3D12GraphicsCommandList::DiscardResource</a> method.
       
 
-
-        If rectangles are supplied in this structure, the resource must have 2D subresources with all specified subresources the same dimension.
+If rectangles are supplied in this structure, the resource must have 2D subresources with all specified subresources the same dimension.
       
 
 

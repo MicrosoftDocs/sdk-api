@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_mapped_texture3d.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_mapped_texture3d.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D10_MAPPED_TEXTURE3D, D3D10_MAPPED_TEXTURE3D structure [Direct3D 10], d3d10/D3D10_MAPPED_TEXTURE3D, d6a9ab51-df0f-5e41-8e19-a9049f06d5ed, direct3d10.d3d10_mapped_texture3d
 ms.prod: windows
 ms.technology: windows-sdk

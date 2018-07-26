@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_draw_instanced_indirect_args.htm
 old-project: direct3d11
 ms.assetid: B83B9D3C-3C64-4F42-A08A-4276F09DA9EC
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: D3D11_DRAW_INSTANCED_INDIRECT_ARGS, D3D11_DRAW_INSTANCED_INDIRECT_ARGS structure [Direct3D 11], d3d11/D3D11_DRAW_INSTANCED_INDIRECT_ARGS, direct3d11.d3d11_draw_instanced_indirect_args
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Arguments for draw instanced indirect.
+Arguments for draw instanced indirect.
         
 
 
@@ -62,29 +61,25 @@ req.irql:
 
 ### -field VertexCountPerInstance
 
-
-            The number of vertices to draw.
+The number of vertices to draw.
           
 
 
 ### -field InstanceCount
 
-
-            The number of instances to draw.
+The number of instances to draw.
           
 
 
 ### -field StartVertexLocation
 
-
-            The index of the first vertex.
+The index of the first vertex.
           
 
 
 ### -field StartInstanceLocation
 
-
-            A value added to each index before reading per-instance data from a vertex buffer.
+A value added to each index before reading per-instance data from a vertex buffer.
           
 
 
@@ -92,8 +87,7 @@ req.irql:
 
 
 
-
-          The members of this structure serve the same purpose as the parameters of
+The members of this structure serve the same purpose as the parameters of
           <a href="https://msdn.microsoft.com/3cb608e7-d64d-42cc-9b34-5f6c30af2ada">ID3D11DeviceContext::DrawInstanced</a>.
         
 

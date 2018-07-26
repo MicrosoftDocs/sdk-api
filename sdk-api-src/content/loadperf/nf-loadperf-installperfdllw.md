@@ -7,7 +7,7 @@ old-location: winprog\installperfdll.htm
 old-project: devnotes
 ms.assetid: d674f023-27e5-4ca2-926d-4fa02292ffbb
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: InstallPerfDll, InstallPerfDll function [Windows API], InstallPerfDllA, InstallPerfDllW, loadperf/InstallPerfDll, winprog.installperfdll
 ms.prod: windows
 ms.technology: windows-sdk

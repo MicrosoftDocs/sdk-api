@@ -7,7 +7,7 @@ old-location: winprog\fcicreate.htm
 old-project: devnotes
 ms.assetid: bfcea06d-2f09-405c-955c-0f56149148f2
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FCICreate, FCICreate function [Windows API], fci/FCICreate, winprog.fcicreate
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_pssetsamplers.htm
 old-project: direct3d11
 ms.assetid: b344c0fb-056d-452d-9d30-a8f97e7d226a
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],PSSetSamplers method, ID3D11DeviceContext.PSSetSamplers, ID3D11DeviceContext::PSSetSamplers, PSSetSamplers, PSSetSamplers method [Direct3D 11], PSSetSamplers method [Direct3D 11],ID3D11DeviceContext interface, bedb6ab1-e7ea-70b9-097a-00978aae4f00, d3d11/ID3D11DeviceContext::PSSetSamplers, direct3d11.id3d11devicecontext_pssetsamplers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -155,8 +155,7 @@ Any sampler may be set to <b>NULL</b>; this invokes the default state, which is 
 </table>
  
 
-
-      The method will hold a reference to the interfaces passed in.
+The method will hold a reference to the interfaces passed in.
       This differs from the device state behavior in Direct3D 10.
 
 

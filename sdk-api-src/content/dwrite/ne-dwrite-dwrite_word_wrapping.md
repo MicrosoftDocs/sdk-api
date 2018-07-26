@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_word_wrapping.htm
 old-project: DirectWrite
 ms.assetid: 5b0a5e15-1bbf-433e-9c7f-d7b8fa9313c2
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/23/2018
 ms.keywords: DWRITE_WORD_WRAPPING, DWRITE_WORD_WRAPPING enumeration [Direct Write], DWRITE_WORD_WRAPPING_CHARACTER, DWRITE_WORD_WRAPPING_EMERGENCY_BREAK, DWRITE_WORD_WRAPPING_NO_WRAP, DWRITE_WORD_WRAPPING_WHOLE_WORD, DWRITE_WORD_WRAPPING_WRAP, directwrite.dwrite_word_wrapping, dwrite/DWRITE_WORD_WRAPPING, dwrite/DWRITE_WORD_WRAPPING_CHARACTER, dwrite/DWRITE_WORD_WRAPPING_EMERGENCY_BREAK, dwrite/DWRITE_WORD_WRAPPING_NO_WRAP, dwrite/DWRITE_WORD_WRAPPING_WHOLE_WORD, dwrite/DWRITE_WORD_WRAPPING_WRAP
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-    Specifies the word wrapping to be used in a particular multiline paragraph. 
+Specifies the word wrapping to be used in a particular multiline paragraph. 
   
 <div class="alert"><b>Note</b>  <b>DWRITE_WORD_WRAPPING_EMERGENCY_BREAK</b>, <b>DWRITE_WORD_WRAPPING_WHOLE _WORD</b>, and <b>DWRITE_WORD_WRAPPING_CHARACTER</b> are available in Windows 8.1 and later, only.</div><div> </div>
 
@@ -84,7 +83,6 @@ Words are broken across lines to avoid text overflowing the layout box.
 
 <div class="alert"><b>Note</b>  Windows 8.1 and later only.</div>
 <div> </div>
-
 When emergency wrapping, only wrap whole words, never breaking words when the layout width is too small for even a single word.
 
 

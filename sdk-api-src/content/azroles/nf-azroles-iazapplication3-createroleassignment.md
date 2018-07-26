@@ -4,10 +4,10 @@ title: IAzApplication3::CreateRoleAssignment
 author: windows-sdk-content
 description: Creates a new IAzRoleAssignment object with the specified name.
 old-location: security\iazapplication3_createroleassignment.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 0646601d-97e6-437a-abfe-99fdb5bb1354
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: CreateRoleAssignment, CreateRoleAssignment method [Security], CreateRoleAssignment method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],CreateRoleAssignment method, IAzApplication3.CreateRoleAssignment, IAzApplication3::CreateRoleAssignment, azroles/IAzApplication3::CreateRoleAssignment, security.iazapplication3_createroleassignment
 ms.prod: windows
 ms.technology: windows-sdk

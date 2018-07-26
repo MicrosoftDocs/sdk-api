@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debug.htm
 old-project: direct3d12
 ms.assetid: 6CFAE096-EE09-4DD0-ADA3-A700FD9FDCB9
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12Debug, ID3D12Debug interface, ID3D12Debug interface,described, d3d12sdklayers/ID3D12Debug, direct3d12.id3d12debug
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          A debug interface controls debug settings and validates pipeline state. It can only be used if the debug layer is turned on.
+A debug interface controls debug settings and validates pipeline state. It can only be used if the debug layer is turned on.
 
 
 
@@ -76,8 +75,7 @@ The <b>ID3D12Debug</b> interface has these methods.
 <a href="https://msdn.microsoft.com/4C30C7C6-6071-4D69-BAB9-4CF6FED5B7D4">EnableDebugLayer</a>
 </td>
 <td align="left" width="63%">
-
-          Enables the debug layer.
+Enables the debug layer.
         
 
 </td>

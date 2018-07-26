@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_omsetblendfactor.htm
 old-project: direct3d12
 ms.assetid: 344FD8B5-7225-4BEC-9D1F-C9CEDFE8C60F
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12GraphicsCommandList interface,OMSetBlendFactor method, ID3D12GraphicsCommandList.OMSetBlendFactor, ID3D12GraphicsCommandList::OMSetBlendFactor, OMSetBlendFactor, OMSetBlendFactor method, OMSetBlendFactor method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::OMSetBlendFactor, direct3d12.id3d12graphicscommandlist_omsetblendfactor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Sets the blend factor that modulate values for a pixel shader, render target, or
 
 Type: <b>const FLOAT[4]</b>
 
-
-            Array of blend factors, one for each RGBA component.
+Array of blend factors, one for each RGBA component.
           
 
 
@@ -71,8 +70,7 @@ Type: <b>const FLOAT[4]</b>
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 
@@ -82,20 +80,16 @@ Type: <b>const FLOAT[4]</b>
 
 
 
-
-        If you created the blend-state object with D3D11_BLEND_BLEND_FACTOR or D3D11_BLEND_INV_BLEND_FACTOR, the blending stage uses the non-NULL array of blend factors.
+If you created the blend-state object with D3D11_BLEND_BLEND_FACTOR or D3D11_BLEND_INV_BLEND_FACTOR, the blending stage uses the non-NULL array of blend factors.
       
 
-
-        If you didn't create the blend-state object with D3D11_BLEND_BLEND_FACTOR or D3D11_BLEND_INV_BLEND_FACTOR, the blending stage does not use the non-NULL array of blend factors; the runtime stores the blend factors.
+If you didn't create the blend-state object with D3D11_BLEND_BLEND_FACTOR or D3D11_BLEND_INV_BLEND_FACTOR, the blending stage does not use the non-NULL array of blend factors; the runtime stores the blend factors.
       
 
-
-        If you pass NULL, the runtime uses or stores a blend factor equal to { 1, 1, 1, 1 }.
+If you pass NULL, the runtime uses or stores a blend factor equal to { 1, 1, 1, 1 }.
       
 
-
-        D3D11_BLEND_BLEND_FACTOR and D3D11_BLEND_INV_BLEND_FACTOR are <a href="https://msdn.microsoft.com/BA114E1C-0E0B-4260-ACED-0FF3D426C764">D3D12_BLEND</a> enumeration constants.
+D3D11_BLEND_BLEND_FACTOR and D3D11_BLEND_INV_BLEND_FACTOR are <a href="https://msdn.microsoft.com/BA114E1C-0E0B-4260-ACED-0FF3D426C764">D3D12_BLEND</a> enumeration constants.
       
 
 

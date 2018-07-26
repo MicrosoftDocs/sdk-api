@@ -4,10 +4,10 @@ title: D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS
 author: windows-sdk-content
 description: Describes compute shader support, which is an option on D3D10 feature level.
 old-location: direct2d\d2d1__feature_data_d3d10_x_hardware_options.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 30EF82D6-7165-4DB7-B6F0-4EA72AA6987A
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS, D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS structure [Direct2D], d2d1effectauthor/D2D1_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS, direct2d.d2d1__feature_data_d3d10_x_hardware_options
 ms.prod: windows
 ms.technology: windows-sdk

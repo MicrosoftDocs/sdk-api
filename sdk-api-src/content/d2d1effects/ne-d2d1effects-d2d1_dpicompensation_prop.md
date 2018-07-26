@@ -4,10 +4,10 @@ title: D2D1_DPICOMPENSATION_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the DPI compensation effect.
 old-location: direct2d\d2d1_dpicompensation_prop.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: B8956D69-B014-49EA-BCBA-5AE9DC051A5A
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_DPICOMPENSATION_PROP, D2D1_DPICOMPENSATION_PROP enumeration [Direct2D], D2D1_DPICOMPENSATION_PROP_BORDER_MODE, D2D1_DPICOMPENSATION_PROP_INPUT_DPI, D2D1_DPICOMPENSATION_PROP_INTERPOLATION_MODE, d2d1effects/D2D1_DPICOMPENSATION_PROP, d2d1effects/D2D1_DPICOMPENSATION_PROP_BORDER_MODE, d2d1effects/D2D1_DPICOMPENSATION_PROP_INPUT_DPI, d2d1effects/D2D1_DPICOMPENSATION_PROP_INTERPOLATION_MODE, direct2d.d2d1_dpicompensation_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Identifiers for properties of the <a href="https://msdn.microsoft.com/EA8AD89B-A710-468F-A6F3-474DA29586F1">DPI compensation effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/EA8AD89B-A710-468F-A6F3-474DA29586F1">DPI compensation effect</a>.
         
 
 
@@ -62,8 +61,7 @@ req.irql:
 
 ### -field D2D1_DPICOMPENSATION_PROP_INTERPOLATION_MODE
 
-
-            The interpolation mode the effect uses to scale the image.
+The interpolation mode the effect uses to scale the image.
             
 
 The type is <a href="https://msdn.microsoft.com/D47BE47D-09E3-46A5-8D89-884102EDEA9A">D2D1_DPICOMPENSATION_INTERPOLATION_MODE</a>.
@@ -73,8 +71,7 @@ The default value is D2D1_DPICOMPENSATION_INTERPOLATION_MODE_LINEAR.
 
 ### -field D2D1_DPICOMPENSATION_PROP_BORDER_MODE
 
-
-            The mode used to calculate the border of the image, soft or hard. See Border modes for more info.
+The mode used to calculate the border of the image, soft or hard. See Border modes for more info.
             
 
 The type is <a href="https://msdn.microsoft.com/093C7028-9C0E-4BB5-9769-C456B7A23B6F">D2D1_BORDER_MODE</a>.
@@ -84,8 +81,7 @@ The default value is D2D1_BORDER_MODE_SOFT.
 
 ### -field D2D1_DPICOMPENSATION_PROP_INPUT_DPI
 
-
-            The DPI of the input image.
+The DPI of the input image.
             
 
 The type is FLOAT.

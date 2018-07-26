@@ -7,7 +7,7 @@ old-location: directcomp\dcomposition_frame_statistics.htm
 old-project: directcomp
 ms.assetid: 431D8399-9BCC-4B3A-89F4-E698446EF764
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/23/2018
 ms.keywords: DCOMPOSITION_FRAME_STATISTICS, DCOMPOSITION_FRAME_STATISTICS structure [DirectComposition], PDCOMPOSITION_FRAME_STATISTICS, PDCOMPOSITION_FRAME_STATISTICS structure pointer [DirectComposition], dcomptypes/DCOMPOSITION_FRAME_STATISTICS, dcomptypes/PDCOMPOSITION_FRAME_STATISTICS, directcomp.dcomposition_frame_statistics
 ms.prod: windows
 ms.technology: windows-sdk

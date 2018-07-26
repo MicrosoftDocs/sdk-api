@@ -7,7 +7,7 @@ old-location: xps\ixpsomsolidcolorbrush_clone.htm
 old-project: printdocs
 ms.assetid: 7f25d5cf-b53d-4e86-ae61-1d0c9afc6236
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMSolidColorBrush interface, IXpsOMSolidColorBrush interface [XPS Documents and Packaging],Clone method, IXpsOMSolidColorBrush.Clone, IXpsOMSolidColorBrush::Clone, xps.ixpsomsolidcolorbrush_clone, xpsobjectmodel/IXpsOMSolidColorBrush::Clone
 ms.prod: windows
 ms.technology: windows-sdk

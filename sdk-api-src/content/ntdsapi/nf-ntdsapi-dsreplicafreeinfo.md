@@ -7,7 +7,7 @@ old-location: ad\dsreplicafreeinfo.htm
 old-project: ad
 ms.assetid: 32ce378e-a178-4970-b3bd-3887866e97af
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: DsReplicaFreeInfo, DsReplicaFreeInfo function [Active Directory], ad.dsreplicafreeinfo, ntdsapi/DsReplicaFreeInfo
 ms.prod: windows
 ms.technology: windows-sdk

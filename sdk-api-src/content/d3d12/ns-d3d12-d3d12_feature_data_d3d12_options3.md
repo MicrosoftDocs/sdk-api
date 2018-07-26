@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_d3d12_options3.htm
 old-project: direct3d12
 ms.assetid: 4BA37E6A-124D-4808-8005-CC049B8EE165
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_FEATURE_DATA_D3D12_OPTIONS3, D3D12_FEATURE_DATA_D3D12_OPTIONS3 structure, d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS3, direct3d12.d3d12_feature_data_d3d12_options3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,36 +60,31 @@ Used to indicate the level of support that the adapter provides for optional fea
 
 ### -field CopyQueueTimestampQueriesSupported
 
-
-            Indicates whether timestamp queries are supported on copy queues.
+Indicates whether timestamp queries are supported on copy queues.
           
 
 
 ### -field CastingFullyTypedFormatSupported
 
-
-            Indicates whether casting from one fully typed format to another, compatible, format is supported.
+Indicates whether casting from one fully typed format to another, compatible, format is supported.
           
 
 
 ### -field WriteBufferImmediateSupportFlags
 
-
-            Indicates the kinds of command lists that support the ability to write an immediate value directly from the command stream into a specified buffer.
+Indicates the kinds of command lists that support the ability to write an immediate value directly from the command stream into a specified buffer.
           
 
 
 ### -field ViewInstancingTier
 
-
-            Indicates the level of support the adapter has for view instancing.
+Indicates the level of support the adapter has for view instancing.
           
 
 
 ### -field BarycentricsSupported
 
-
-            Indicates whether barycentrics are supported.
+Indicates whether barycentrics are supported.
           
 
 

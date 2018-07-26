@@ -113,7 +113,7 @@ Returns a pointer to a pointer to a <b>null</b>-terminated string representation
 #### - ObjectUuid
 
 Returns a pointer to a pointer to a <b>null</b>-terminated string representation of an object 
-<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a>. 
+<a href="https://msdn.microsoft.com/">UUID</a>. 
 
 
 

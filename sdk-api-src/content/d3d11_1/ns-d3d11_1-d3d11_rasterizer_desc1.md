@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_rasterizer_desc1.htm
 old-project: direct3d11
 ms.assetid: 7A0E526E-9352-408F-8B11-1B7A9FBC2BE1
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: CD3D11_RASTERIZER_DESC1, D3D11_RASTERIZER_DESC1, D3D11_RASTERIZER_DESC1 structure [Direct3D 11], d3d11_1/D3D11_RASTERIZER_DESC1, direct3d11.d3d11_rasterizer_desc1
 ms.prod: windows
 ms.technology: windows-sdk

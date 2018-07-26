@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12resource_getgpuvirtualaddress.htm
 old-project: direct3d12
 ms.assetid: 1B1A345D-D6BD-4DF1-8F10-A209135283AD
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetGPUVirtualAddress, GetGPUVirtualAddress method, GetGPUVirtualAddress method,ID3D12Resource interface, ID3D12Resource interface,GetGPUVirtualAddress method, ID3D12Resource.GetGPUVirtualAddress, ID3D12Resource::GetGPUVirtualAddress, d3d12/ID3D12Resource::GetGPUVirtualAddress, direct3d12.id3d12resource_getgpuvirtualaddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          This method returns the GPU virtual address of a buffer resource.
+This method returns the GPU virtual address of a buffer resource.
         
 
 
@@ -68,8 +67,7 @@ req.irql:
 
 Type: <b>D3D12_GPU_VIRTUAL_ADDRESS</b>
 
-
-            This method returns the GPU virtual address.
+This method returns the GPU virtual address.
             D3D12_GPU_VIRTUAL_ADDRESS is a typedef'd synonym of UINT64.
           
 
@@ -82,15 +80,13 @@ Type: <b>D3D12_GPU_VIRTUAL_ADDRESS</b>
 
 This method is only useful for buffer resources, it will return zero for all texture resources.
 
-
-          For more information on the use of GPU virtual addresses, refer to <a href="https://msdn.microsoft.com/F8D6C88A-101E-4F66-999F-43206F6527B6">Indirect Drawing</a>. 
+For more information on the use of GPU virtual addresses, refer to <a href="https://msdn.microsoft.com/F8D6C88A-101E-4F66-999F-43206F6527B6">Indirect Drawing</a>. 
         
 
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D1211on12</a> sample uses <b>ID3D12Resource::GetGPUVirtualAddress</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D1211on12</a> sample uses <b>ID3D12Resource::GetGPUVirtualAddress</b> as follows:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>

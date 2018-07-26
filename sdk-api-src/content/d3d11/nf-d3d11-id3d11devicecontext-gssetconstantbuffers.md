@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_gssetconstantbuffers.htm
 old-project: direct3d11
 ms.assetid: 2af7ab0c-4a21-474c-9a17-ed90f89285fd
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: GSSetConstantBuffers, GSSetConstantBuffers method [Direct3D 11], GSSetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GSSetConstantBuffers method, ID3D11DeviceContext.GSSetConstantBuffers, ID3D11DeviceContext::GSSetConstantBuffers, ad892eb6-e3c1-f7c2-8552-c1feae8690bc, d3d11/ID3D11DeviceContext::GSSetConstantBuffers, direct3d11.id3d11devicecontext_gssetconstantbuffers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,8 +93,7 @@ This method does not return a value.
 
 
 
-
-      The method will hold a reference to the interfaces passed in.
+The method will hold a reference to the interfaces passed in.
       This differs from the device state behavior in Direct3D 10.
 
 You can't use the <a href="https://msdn.microsoft.com/4b47ed8d-e814-4a7b-bc8e-25a8b71200ce">ID3D11ShaderReflectionConstantBuffer</a> interface to get information about what is currently bound to the pipeline in the device context. But you can use <b>ID3D11ShaderReflectionConstantBuffer</b> to get information from a compiled shader. For example, you can use <b>ID3D11ShaderReflectionConstantBuffer</b> and <a href="https://msdn.microsoft.com/4422a51f-b190-4df0-a1bb-a8ee2cc66da2">ID3D11ShaderReflectionVariable</a> to determine the slot in which a geometry shader expects a constant buffer. You can then pass this slot number to <b>GSSetConstantBuffers</b> to set the constant buffer. You can call the <a href="https://msdn.microsoft.com/855097c7-988b-4ab6-90c5-e5dd0bc9e1e0">D3D11Reflect</a> function to retrieve the address of a pointer to the <a href="https://msdn.microsoft.com/a28cca72-7f2d-416a-bfa9-4d1f71fc98d5">ID3D11ShaderReflection</a> interface and then call <a href="https://msdn.microsoft.com/6b0e16c9-f45a-42d0-bd96-32dfa859b35d">ID3D11ShaderReflection::GetConstantBufferByName</a> to get a pointer to <b>ID3D11ShaderReflectionConstantBuffer</b>.

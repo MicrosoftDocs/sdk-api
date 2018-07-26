@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12pipelinestate.htm
 old-project: direct3d12
 ms.assetid: DD922194-8AD2-4ADF-9AC2-46C903C56AE6
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12PipelineState, ID3D12PipelineState interface, ID3D12PipelineState interface,described, d3d12/ID3D12PipelineState, direct3d12.id3d12pipelinestate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,8 +73,7 @@ The <b>ID3D12PipelineState</b> interface has these methods.
 <a href="https://msdn.microsoft.com/318FCFEE-74A7-4546-989E-9AF674D2B853">GetCachedBlob</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the cached blob representing the pipeline state.
+Gets the cached blob representing the pipeline state.
         
 
 </td>
@@ -93,8 +92,7 @@ A pipeline state object corresponds to a significant portion of the state of the
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12DynamicIndexing</a> sample uses <b>ID3D12PipelineState</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12DynamicIndexing</a> sample uses <b>ID3D12PipelineState</b> as follows:
         
 
 Declare the pipeline objects.
@@ -146,8 +144,7 @@ Initializing a bundle.
 </td>
 </tr>
 </table></span></div>
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Bundles</a> sample uses <b>ID3D12PipelineState</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Bundles</a> sample uses <b>ID3D12PipelineState</b> as follows:
         
 
 Populating the command lists, note the alternating PSO.

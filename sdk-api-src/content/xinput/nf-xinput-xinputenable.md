@@ -7,7 +7,7 @@ old-location: xinput\xinputenable.htm
 old-project: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputEnable(BOOL)
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/23/2018
 ms.keywords: XInputEnable, XInputEnable function [XInput Game Controller APIs], xinput.xinputenable, xinput/XInputEnable
 ms.prod: windows
 ms.technology: windows-sdk

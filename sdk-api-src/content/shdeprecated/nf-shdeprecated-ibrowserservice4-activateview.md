@@ -7,7 +7,7 @@ old-location: shell\IBrowserService4_ActivateView.htm
 old-project: shell
 ms.assetid: 4a20e0b8-8fe5-4d5b-b263-3ad8416ad4da
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: ActivateView, ActivateView method [Windows Shell], ActivateView method [Windows Shell],IBrowserService4 interface, IBrowserService4 interface [Windows Shell],ActivateView method, IBrowserService4.ActivateView, IBrowserService4::ActivateView, _shell_IBrowserService4_ActivateView, shdeprecated/IBrowserService4::ActivateView, shell.IBrowserService4_ActivateView
 ms.prod: windows
 ms.technology: windows-sdk

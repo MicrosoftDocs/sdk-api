@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_rendering_mode.htm
 old-project: DirectWrite
 ms.assetid: c6b2c15a-be22-49ce-affd-1369e23f4d6b
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/23/2018
 ms.keywords: DWRITE_RENDERING_MODE, DWRITE_RENDERING_MODE (Windows 8 and later)
     , DWRITE_RENDERING_MODE enumeration [Direct Write], DWRITE_RENDERING_MODE_ALIASED, DWRITE_RENDERING_MODE_DEFAULT, DWRITE_RENDERING_MODE_GDI_CLASSIC, DWRITE_RENDERING_MODE_GDI_NATURAL, DWRITE_RENDERING_MODE_NATURAL, DWRITE_RENDERING_MODE_NATURAL_SYMMETRIC, DWRITE_RENDERING_MODE_OUTLINE, directwrite.dwrite_rendering_mode, dwrite/DWRITE_RENDERING_MODE, dwrite/DWRITE_RENDERING_MODE_ALIASED, dwrite/DWRITE_RENDERING_MODE_DEFAULT, dwrite/DWRITE_RENDERING_MODE_GDI_CLASSIC, dwrite/DWRITE_RENDERING_MODE_GDI_NATURAL, dwrite/DWRITE_RENDERING_MODE_NATURAL, dwrite/DWRITE_RENDERING_MODE_NATURAL_SYMMETRIC, dwrite/DWRITE_RENDERING_MODE_OUTLINE
 ms.prod: windows
@@ -52,11 +52,9 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-      Represents a method of rendering glyphs.
+Represents a method of rendering glyphs.
       
-<div class="alert"><b>Note</b>  
-        This topic is about <b>DWRITE_RENDERING_MODE</b> in Windows 8 and later.  For info on the previous version see the Remarks section. </div><div> </div>
+<div class="alert"><b>Note</b>  This topic is about <b>DWRITE_RENDERING_MODE</b> in Windows 8 and later.  For info on the previous version see the Remarks section. </div><div> </div>
 
 ## -enum-fields
 
@@ -75,8 +73,7 @@ Specifies that no anti-aliasing is performed. Each pixel is either set to the fo
 
 ### -field DWRITE_RENDERING_MODE_GDI_CLASSIC
 
-
-            Specifies that antialiasing is performed in the horizontal direction and the appearance of glyphs is layout-compatible with GDI using CLEARTYPE_QUALITY.
+Specifies that antialiasing is performed in the horizontal direction and the appearance of glyphs is layout-compatible with GDI using CLEARTYPE_QUALITY.
             Use DWRITE_MEASURING_MODE_GDI_CLASSIC to get glyph advances. The antialiasing may be either ClearType or grayscale depending on the text antialiasing mode.
           
 
@@ -90,8 +87,7 @@ Specifies that antialiasing is performed in the horizontal direction and the app
 
 ### -field DWRITE_RENDERING_MODE_NATURAL
 
-
-            Specifies that antialiasing is performed in the horizontal direction. This rendering mode allows glyphs to be positioned with subpixel precision and 
+Specifies that antialiasing is performed in the horizontal direction. This rendering mode allows glyphs to be positioned with subpixel precision and 
             is therefore suitable
             for natural (i.e., resolution-independent) layout. The antialiasing may be either ClearType or grayscale depending on the text antialiasing mode.
           

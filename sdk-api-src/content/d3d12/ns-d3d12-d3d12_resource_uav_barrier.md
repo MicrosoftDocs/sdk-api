@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_resource_uav_barrier.htm
 old-project: direct3d12
 ms.assetid: 683F645F-9A90-4648-99EF-2F7444254B41
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_RESOURCE_UAV_BARRIER, D3D12_RESOURCE_UAV_BARRIER structure, d3d12/D3D12_RESOURCE_UAV_BARRIER, direct3d12.d3d12_resource_uav_barrier
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Represents a resource in which all UAV accesses must complete before any future UAV accesses can begin.
+Represents a resource in which all UAV accesses must complete before any future UAV accesses can begin.
         
 
 
@@ -62,8 +61,7 @@ req.irql:
 
 ### -field pResource
 
-
-            The resource used in the transition, as a pointer to <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>.
+The resource used in the transition, as a pointer to <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>.
           
 
 
@@ -71,16 +69,13 @@ req.irql:
 
 
 
-
-        This struct represents a resource in which all unordered access view (UAV) accesses (reads or writes) must complete before any future UAV accesses (read or write) can begin.
+This struct represents a resource in which all unordered access view (UAV) accesses (reads or writes) must complete before any future UAV accesses (read or write) can begin.
       
 
-
-        This structure is a member of the <a href="https://msdn.microsoft.com/49F02D65-767E-4BA4-A90D-68AA2D709E09">D3D12_RESOURCE_BARRIER</a> structure.
+This structure is a member of the <a href="https://msdn.microsoft.com/49F02D65-767E-4BA4-A90D-68AA2D709E09">D3D12_RESOURCE_BARRIER</a> structure.
       
 
-
-        You don't need to insert a UAV barrier between 2 draw or dispatch calls that only read a UAV.
+You don't need to insert a UAV barrier between 2 draw or dispatch calls that only read a UAV.
         Additionally, you don't need to insert a UAV barrier between 2 draw or dispatch calls that write to the same UAV if you know that it's safe to execute the UAV accesses in any order.
         The resource can be <b>NULL</b>, which indicates that any UAV access could require the barrier.
       

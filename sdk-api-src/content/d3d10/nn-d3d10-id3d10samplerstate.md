@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10samplerstate.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10samplerstate.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 2116312d-356e-9f01-4cdf-78e47d9a4ae8, ID3D10SamplerState, ID3D10SamplerState interface [Direct3D 10], ID3D10SamplerState interface [Direct3D 10],described, d3d10/ID3D10SamplerState, direct3d10.id3d10samplerstate
 ms.prod: windows
 ms.technology: windows-sdk

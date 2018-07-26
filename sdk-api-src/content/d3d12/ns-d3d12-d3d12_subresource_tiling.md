@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_subresource_tiling.htm
 old-project: direct3d12
 ms.assetid: 81C93E0F-AF05-4801-97EB-6C3E0407B5F6
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_SUBRESOURCE_TILING, D3D12_SUBRESOURCE_TILING structure, d3d12/D3D12_SUBRESOURCE_TILING, direct3d12.d3d12_subresource_tiling
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,8 +82,7 @@ The index of the tile in the overall tiled subresource to start with.
 
 
 
-
-        This structure is used by the <a href="https://msdn.microsoft.com/32574750-92D3-4CAF-90C6-BA0DEF1E5464">GetResourceTiling</a> method.
+This structure is used by the <a href="https://msdn.microsoft.com/32574750-92D3-4CAF-90C6-BA0DEF1E5464">GetResourceTiling</a> method.
       
 
 

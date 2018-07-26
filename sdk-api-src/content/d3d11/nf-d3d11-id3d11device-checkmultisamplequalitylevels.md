@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_checkmultisamplequalitylevels.htm
 old-project: direct3d11
 ms.assetid: 346f5dae-3ce2-4c03-ab17-1c46e18efc64
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: CheckMultisampleQualityLevels, CheckMultisampleQualityLevels method [Direct3D 11], CheckMultisampleQualityLevels method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CheckMultisampleQualityLevels method, ID3D11Device.CheckMultisampleQualityLevels, ID3D11Device::CheckMultisampleQualityLevels, cc99aa72-2da0-c091-e4b1-047fa6f80bfa, d3d11/ID3D11Device::CheckMultisampleQualityLevels, direct3d11.id3d11device_checkmultisamplequalitylevels
 ms.prod: windows
 ms.technology: windows-sdk

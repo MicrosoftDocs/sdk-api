@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__createdepthstencilsurface.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createdepthstencilsurface.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: 16f106bf-8b42-ad75-370e-e0ecffdfcea5, CreateDepthStencilSurface, CreateDepthStencilSurface method [Direct3D 9], CreateDepthStencilSurface method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateDepthStencilSurface method, IDirect3DDevice9.CreateDepthStencilSurface, IDirect3DDevice9::CreateDepthStencilSurface, d3d9helper/IDirect3DDevice9::CreateDepthStencilSurface, direct3d9.idirect3ddevice9__createdepthstencilsurface
 ms.prod: windows
 ms.technology: windows-sdk

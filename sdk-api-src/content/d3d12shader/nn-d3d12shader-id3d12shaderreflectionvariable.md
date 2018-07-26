@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectionvariable.htm
 old-project: direct3d12
 ms.assetid: E4CF0C77-2792-46DC-B38F-22C0ACBFD615
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12ShaderReflectionVariable, ID3D12ShaderReflectionVariable interface, ID3D12ShaderReflectionVariable interface,described, d3d12shader/ID3D12ShaderReflectionVariable, direct3d12.id3d12shaderreflectionvariable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          This shader-reflection interface provides access to a variable.
+This shader-reflection interface provides access to a variable.
         
 
 
@@ -75,8 +74,7 @@ The <b>ID3D12ShaderReflectionVariable</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
 </td>
 <td align="left" width="63%">
-
-          Returns the <a href="https://msdn.microsoft.com/4102AF77-3EC7-42CD-8B9C-6D0CC999529A">ID3D12ShaderReflectionConstantBuffer</a> of the present <b>ID3D12ShaderReflectionVariable</b>.
+Returns the <a href="https://msdn.microsoft.com/4102AF77-3EC7-42CD-8B9C-6D0CC999529A">ID3D12ShaderReflectionConstantBuffer</a> of the present <b>ID3D12ShaderReflectionVariable</b>.
         
 
 </td>
@@ -86,8 +84,7 @@ The <b>ID3D12ShaderReflectionVariable</b> interface has these methods.
 <a href="https://msdn.microsoft.com/21CF98AF-5645-4059-992A-FFF778576C93">GetDesc</a>
 </td>
 <td align="left" width="63%">
-
-          Gets a shader-variable description.
+Gets a shader-variable description.
         
 
 </td>
@@ -97,8 +94,7 @@ The <b>ID3D12ShaderReflectionVariable</b> interface has these methods.
 <a href="https://msdn.microsoft.com/6CD169C7-0C6B-4EC8-BF57-96EE5065CC9D">GetInterfaceSlot</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the corresponding interface slot for a variable that represents an interface pointer.
+Gets the corresponding interface slot for a variable that represents an interface pointer.
         
 
 </td>
@@ -108,8 +104,7 @@ The <b>ID3D12ShaderReflectionVariable</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a>
 </td>
 <td align="left" width="63%">
-
-          Gets a shader-variable type.
+Gets a shader-variable type.
         
 
 </td>
@@ -121,8 +116,7 @@ The <b>ID3D12ShaderReflectionVariable</b> interface has these methods.
 
 
 
-
-            To get a shader-reflection-variable interface, call a method like <a href="https://msdn.microsoft.com/E79DACF1-2C89-42BB-BB04-DFA8280987C7">ID3D12ShaderReflection::GetVariableByName</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
+To get a shader-reflection-variable interface, call a method like <a href="https://msdn.microsoft.com/E79DACF1-2C89-42BB-BB04-DFA8280987C7">ID3D12ShaderReflection::GetVariableByName</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
           
 
 

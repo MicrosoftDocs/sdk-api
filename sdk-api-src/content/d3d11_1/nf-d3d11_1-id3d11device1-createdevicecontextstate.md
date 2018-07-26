@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device1_createdevicecontextstate.htm
 old-project: direct3d11
 ms.assetid: 8887C3F1-3EA3-4948-A019-E3CB3F3D46C6
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: CreateDeviceContextState, CreateDeviceContextState method [Direct3D 11], CreateDeviceContextState method [Direct3D 11],ID3D11Device1 interface, ID3D11Device1 interface [Direct3D 11],CreateDeviceContextState method, ID3D11Device1.CreateDeviceContextState, ID3D11Device1::CreateDeviceContextState, d3d11_1/ID3D11Device1::CreateDeviceContextState, direct3d11.id3d11device1_createdevicecontextstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-        Creates a context state object that holds all Microsoft Direct3D state and some Direct3D behavior.
+Creates a context state object that holds all Microsoft Direct3D state and some Direct3D behavior.
       
 
 
@@ -63,19 +62,16 @@ req.irql:
 
 ### -param Flags
 
-
-              A combination of 
+A combination of 
               <a href="https://msdn.microsoft.com/45F1C268-AA8A-44D5-BE9E-0C185738EB69">D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG</a> 
               values that are combined by using a bitwise <b>OR</b> operation. 
               The resulting value specifies how to create the context state object. 
               The 
-              <a href="https://msdn.microsoft.com/library/Hh404432(v=VS.85).aspx">D3D11_1_CREATE_DEVICE_CONTEXT_STATE_SINGLETHREADED</a>
-              flag is currently the only defined flag. 
+              <a href="https://msdn.microsoft.com/library/Hh404432(v=VS.85).aspx">D3D11_1_CREATE_DEVICE_CONTEXT_STATE_SINGLETHREADED</a>flag is currently the only defined flag. 
               If the original device was created with 
               <a href="https://msdn.microsoft.com/library/Ff476107(v=VS.85).aspx">D3D11_CREATE_DEVICE_SINGLETHREADED</a>, 
               you must create all context state objects from that device with the 
-              <b>D3D11_1_CREATE_DEVICE_CONTEXT_STATE_SINGLETHREADED</b>
-              flag.
+              <b>D3D11_1_CREATE_DEVICE_CONTEXT_STATE_SINGLETHREADED</b>flag.
             
 
 
@@ -86,8 +82,7 @@ If you set the single-threaded flag for both the context state object and the de
 
 ### -param pFeatureLevels [in]
 
-
-              A pointer to an array of <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a> values. The array can contain elements from the following list and determines the order of feature levels for which creation is attempted.
+A pointer to an array of <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a> values. The array can contain elements from the following list and determines the order of feature levels for which creation is attempted.
               Unlike <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a>, you can't set <i>pFeatureLevels</i> to <b>NULL</b> because  there is no default feature level array.
             
 
@@ -113,36 +108,31 @@ If you set the single-threaded flag for both the context state object and the de
 
 ### -param FeatureLevels
 
-
-            The number of elements in <i>pFeatureLevels</i>. Unlike <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a>, you must set <i>FeatureLevels</i> to greater than 0 because you can't set <i>pFeatureLevels</i> to <b>NULL</b>.
+The number of elements in <i>pFeatureLevels</i>. Unlike <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a>, you must set <i>FeatureLevels</i> to greater than 0 because you can't set <i>pFeatureLevels</i> to <b>NULL</b>.
           
 
 
 ### -param SDKVersion
 
-
-            The SDK version. You must set this parameter to <b>D3D11_SDK_VERSION</b>.
+The SDK version. You must set this parameter to <b>D3D11_SDK_VERSION</b>.
           
 
 
 ### -param EmulatedInterface
 
-
-            The globally unique identifier (GUID) for the emulated interface. This value specifies the behavior of the device when the context state object is active. Valid values are  obtained by using the <b>__uuidof</b> operator on the <a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>, <a href="https://msdn.microsoft.com/library/Bb694546(v=VS.85).aspx">ID3D10Device1</a>, <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>, and <a href="https://msdn.microsoft.com/DB4DAD13-3CD7-4362-950B-6403328CB071">ID3D11Device1</a> interfaces. See Remarks.
+The globally unique identifier (GUID) for the emulated interface. This value specifies the behavior of the device when the context state object is active. Valid values are  obtained by using the <b>__uuidof</b> operator on the <a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>, <a href="https://msdn.microsoft.com/library/Bb694546(v=VS.85).aspx">ID3D10Device1</a>, <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>, and <a href="https://msdn.microsoft.com/DB4DAD13-3CD7-4362-950B-6403328CB071">ID3D11Device1</a> interfaces. See Remarks.
           
 
 
 ### -param pChosenFeatureLevel [out, optional]
 
-
-            A pointer to a variable that receives a <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a> value from the <i>pFeatureLevels</i> array. This is the first array value with which <b>CreateDeviceContextState</b> succeeded in creating the context state object. If the call to <b>CreateDeviceContextState</b> fails, the variable pointed to by <i>pChosenFeatureLevel</i> is set to zero.
+A pointer to a variable that receives a <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a> value from the <i>pFeatureLevels</i> array. This is the first array value with which <b>CreateDeviceContextState</b> succeeded in creating the context state object. If the call to <b>CreateDeviceContextState</b> fails, the variable pointed to by <i>pChosenFeatureLevel</i> is set to zero.
           
 
 
 ### -param ppContextState [out, optional]
 
-
-            The address of a pointer to an <a href="https://msdn.microsoft.com/A8B9CADC-A9C7-4691-BB5C-3C12FF638C98">ID3DDeviceContextState</a> object that represents the state of a Direct3D device.
+The address of a pointer to an <a href="https://msdn.microsoft.com/A8B9CADC-A9C7-4691-BB5C-3C12FF638C98">ID3DDeviceContextState</a> object that represents the state of a Direct3D device.
           
 
 
@@ -150,8 +140,7 @@ If you set the single-threaded flag for both the context state object and the de
 
 
 
-
-            This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
           
 
 
@@ -161,26 +150,21 @@ If you set the single-threaded flag for both the context state object and the de
 
 
 
-
-          The  <b>REFIID</b> value of the emulated interface is a GUID obtained by use of the <b>__uuidof</b> operator. For example, <code>__uuidof(ID3D11Device)</code> gets the GUID of the interface to a Microsoft Direct3D 11 device.
+The  <b>REFIID</b> value of the emulated interface is a GUID obtained by use of the <b>__uuidof</b> operator. For example, <code>__uuidof(ID3D11Device)</code> gets the GUID of the interface to a Microsoft Direct3D 11 device.
         
 
-
-          Call the <a href="https://msdn.microsoft.com/4E267E86-602F-459C-A6F9-4660EC8FA752">ID3D11DeviceContext1::SwapDeviceContextState</a> method to activate the context state object. When the context state object is active, the device behaviors that are associated with both the context state object's feature level and its compatible interface are activated on the Direct3D device until the next call to <b>SwapDeviceContextState</b>.
+Call the <a href="https://msdn.microsoft.com/4E267E86-602F-459C-A6F9-4660EC8FA752">ID3D11DeviceContext1::SwapDeviceContextState</a> method to activate the context state object. When the context state object is active, the device behaviors that are associated with both the context state object's feature level and its compatible interface are activated on the Direct3D device until the next call to <b>SwapDeviceContextState</b>.
         
 
-
-          When a context state object is active, the runtime disables certain methods on the device and context interfaces. For example, a context state object that is created with <code>__uuidof(ID3D11Device)</code> will cause the runtime to turn off most of the Microsoft Direct3D 10 device interfaces, and a context state object that is created with <code>__uuidof(ID3D10Device1)</code> or <code>__uuidof(ID3D10Device)</code> will cause the runtime to turn off most of the <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> methods.
+When a context state object is active, the runtime disables certain methods on the device and context interfaces. For example, a context state object that is created with <code>__uuidof(ID3D11Device)</code> will cause the runtime to turn off most of the Microsoft Direct3D 10 device interfaces, and a context state object that is created with <code>__uuidof(ID3D10Device1)</code> or <code>__uuidof(ID3D10Device)</code> will cause the runtime to turn off most of the <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> methods.
           This behavior ensures that a user of either emulated interface cannot set device state that the other emulated interface is unable to express. This restriction helps guarantee that the <a href="https://msdn.microsoft.com/library/Bb694546(v=VS.85).aspx">ID3D10Device1</a> emulated interface accurately reflects the full state of the pipeline and that the emulated interface will not operate contrary to its original interface definition.
         
 
-
-          For example, suppose the tessellation stage is made active through the <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> interface
+For example, suppose the tessellation stage is made active through the <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> interface
           when you create the device through <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a> or <a href="https://msdn.microsoft.com/84d73e8c-f13c-4343-91de-57f9f8a0ad96">D3D11CreateDeviceAndSwapChain</a>,  instead of through the Direct3D 10 equivalents. Because  the Direct3D 11 context is active, a Direct3D 10 interface is inactive when you first retrieve it via <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a>. This means that you cannot  immediately pass a Direct3D 10 interface that you retrieved from a Direct3D 11 device to a function. You must first call <a href="https://msdn.microsoft.com/4E267E86-602F-459C-A6F9-4660EC8FA752">SwapDeviceContextState</a> to activate a Direct3D 10-compatible context state object.
         
 
-
-          The following table shows the methods that are active and inactive for each emulated interface.<table>
+The following table shows the methods that are active and inactive for each emulated interface.<table>
 <tr>
 <th> Emulated interface </th>
 <th>Active device or immediate context  interfaces </th>
@@ -272,14 +256,11 @@ If you set the single-threaded flag for both the context state object and the de
 
 
 
-
-          The following table shows the immediate context methods that the runtime disables when the indicated context state objects are active.<table>
+The following table shows the immediate context methods that the runtime disables when the indicated context state objects are active.<table>
 <tr>
-<th>
-                Methods of <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> when <code>__uuidof(ID3D10Device1)</code> or <code>__uuidof(ID3D10Device)</code> is active
+<th>Methods of <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> when <code>__uuidof(ID3D10Device1)</code> or <code>__uuidof(ID3D10Device)</code> is active
               </th>
-<th>
-                Methods of <a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device</a> when <code>__uuidof(ID3D11Device)</code> is active
+<th>Methods of <a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device</a> when <code>__uuidof(ID3D11Device)</code> is active
               </th>
 </tr>
 <tr>
@@ -1527,14 +1508,11 @@ If you set the single-threaded flag for both the context state object and the de
 
 
 
-
-          The following table shows the immediate context methods that the runtime does not disable when the indicated context state objects are active.<table>
+The following table shows the immediate context methods that the runtime does not disable when the indicated context state objects are active.<table>
 <tr>
-<th>
-                Methods of <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> when <code>__uuidof(ID3D10Device1)</code> or <code>__uuidof(ID3D10Device)</code> is active
+<th>Methods of <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> when <code>__uuidof(ID3D10Device1)</code> or <code>__uuidof(ID3D10Device)</code> is active
               </th>
-<th>
-                Methods of <a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device</a> when <code>__uuidof(ID3D11Device)</code> is active
+<th>Methods of <a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device</a> when <code>__uuidof(ID3D11Device)</code> is active
               </th>
 </tr>
 <tr>
@@ -1614,11 +1592,9 @@ If you set the single-threaded flag for both the context state object and the de
 
 
 
-
-          The following table shows the <a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device</a> interface methods that the runtime does not disable because they are not immediate context methods.<table>
+The following table shows the <a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device</a> interface methods that the runtime does not disable because they are not immediate context methods.<table>
 <tr>
-<th>
-                Methods of <a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>
+<th>Methods of <a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>
 </th>
 </tr>
 <tr>
@@ -1639,8 +1615,7 @@ If you set the single-threaded flag for both the context state object and the de
 </tr>
 <tr>
 <td>
-
-                  Create*, like <a href="https://msdn.microsoft.com/library/Bb173553(v=VS.85).aspx">CreateQuery</a>
+Create*, like <a href="https://msdn.microsoft.com/library/Bb173553(v=VS.85).aspx">CreateQuery</a>
 
 
 </td>

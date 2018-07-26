@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device1_opensharedresourcebyname.htm
 old-project: direct3d11
 ms.assetid: 5A7575E4-382E-4A2F-AFE8-2E5850526E75
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11Device1 interface [Direct3D 11],OpenSharedResourceByName method, ID3D11Device1.OpenSharedResourceByName, ID3D11Device1::OpenSharedResourceByName, OpenSharedResourceByName, OpenSharedResourceByName method [Direct3D 11], OpenSharedResourceByName method [Direct3D 11],ID3D11Device1 interface, d3d11_1/ID3D11Device1::OpenSharedResourceByName, direct3d11.id3d11device1_opensharedresourcebyname
 ms.prod: windows
 ms.technology: windows-sdk

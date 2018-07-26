@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__beginstateblock.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__beginstateblock.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: 01991d00-eca6-e8db-e657-6432fe3184f2, BeginStateBlock, BeginStateBlock method [Direct3D 9], BeginStateBlock method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],BeginStateBlock method, IDirect3DDevice9.BeginStateBlock, IDirect3DDevice9::BeginStateBlock, d3d9helper/IDirect3DDevice9::BeginStateBlock, direct3d9.idirect3ddevice9__beginstateblock
 ms.prod: windows
 ms.technology: windows-sdk

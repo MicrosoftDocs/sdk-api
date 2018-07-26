@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxport_get_tsid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6p0k.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxPort object [Fax Service],Tsid property, FaxPort.Tsid, IFaxPort.put_Tsid, IFaxPort::put_Tsid, Tsid property [Fax Service], Tsid property [Fax Service],FaxPort object, _mfax_ifaxport_get_tsid, fax._mfax_ifaxport_get_tsid, fax._mfax_ifaxport_get_tsid_vb, put_Tsid
 ms.prod: windows
 ms.technology: windows-sdk

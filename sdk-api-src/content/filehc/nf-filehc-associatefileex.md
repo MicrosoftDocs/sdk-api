@@ -7,7 +7,7 @@ old-location: winprog\_associatefileex.htm
 old-project: devnotes
 ms.assetid: b7efaa05-e6ac-4fb8-889f-ff6fa0755476
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: AssociateFileEx, AssociateFileEx function [Windows API], filehc/AssociateFileEx, winprog._associatefileex
 ms.prod: windows
 ms.technology: windows-sdk

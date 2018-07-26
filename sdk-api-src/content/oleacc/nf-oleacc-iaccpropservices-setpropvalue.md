@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__setpropvalue.htm
 old-project: WinAuto
 ms.assetid: c86acb70-fa77-4f95-8a99-e60872cdaa7e
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IAccPropServices interface [Windows Accessibility],SetPropValue method, IAccPropServices.SetPropValue, IAccPropServices::SetPropValue, SetPropValue, SetPropValue method [Windows Accessibility], SetPropValue method [Windows Accessibility],IAccPropServices interface, _msaa_IAccPropServices_SetPropValue, msaa.iaccpropservices_iaccpropservices__setpropvalue, oleacc/IAccPropServices::SetPropValue, winauto.iaccpropservices_iaccpropservices__setpropvalue
 ms.prod: windows
 ms.technology: windows-sdk

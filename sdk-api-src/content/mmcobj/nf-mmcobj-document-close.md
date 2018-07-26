@@ -4,10 +4,10 @@ title: Document::Close
 author: windows-sdk-content
 description: The Close method closes the document.
 old-location: mmc\document_close.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 3ff35bc9-e2dc-403c-b4f3-93d1e45d98a4
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: Close, Close method [MMC], Close method [MMC],Document interface, Close method [MMC],Document object, Document interface [MMC],Close method, Document object [MMC],Close method, Document.Close, Document::Close, _slate_document.close_method, mmc.document_close
 ms.prod: windows
 ms.technology: windows-sdk

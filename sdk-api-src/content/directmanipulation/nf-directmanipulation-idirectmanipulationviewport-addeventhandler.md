@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_addeventhandler.htm
 old-project: directmanipulation
 ms.assetid: 56b47fec-dfa2-4906-9135-5ee331f04c54
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/23/2018
 ms.keywords: AddEventHandler, AddEventHandler method [Direct Manipulation], AddEventHandler method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],AddEventHandler method, IDirectManipulationViewport.AddEventHandler, IDirectManipulationViewport::AddEventHandler, directmanipulation.idirectmanipulationviewport_addeventhandler, directmanipulation/IDirectManipulationViewport::AddEventHandler
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISelectionProvider2_FirstSelectedItem.htm
 old-project: WinAuto
 ms.assetid: EE16206F-2A7F-49D0-9587-F4A3FA918CB4
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: FirstSelectedItem property [Windows Accessibility], FirstSelectedItem property [Windows Accessibility],ISelectionProvider2 interface, ISelectionProvider2 interface [Windows Accessibility],FirstSelectedItem property, ISelectionProvider2.FirstSelectedItem, ISelectionProvider2.get_FirstSelectedItem, ISelectionProvider2::FirstSelectedItem, ISelectionProvider2::get_FirstSelectedItem, get_FirstSelectedItem, uiautomationcore/ISelectionProvider2::FirstSelectedItem, uiautomationcore/ISelectionProvider2::get_FirstSelectedItem, winauto.uiauto_ISelectionProvider2_FirstSelectedItem
 ms.prod: windows
 ms.technology: windows-sdk

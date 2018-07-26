@@ -7,7 +7,7 @@ old-location: winprog\fciflushcabinet.htm
 old-project: devnotes
 ms.assetid: dc586260-180e-4a6b-accf-2ddd62ac1335
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FCIFlushCabinet, FCIFlushCabinet function [Windows API], fci/FCIFlushCabinet, winprog.fciflushcabinet
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\SHUnicodeToAnsi.htm
 old-project: shell
 ms.assetid: f0db3976-9956-418f-8432-7755b140050f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: SHUnicodeToAnsi, SHUnicodeToAnsi function [Windows Shell], _win32_SHUnicodeToAnsi, shell.SHUnicodeToAnsi, shlwapi/SHUnicodeToAnsi
 ms.prod: windows
 ms.technology: windows-sdk

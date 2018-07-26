@@ -7,7 +7,7 @@ old-location: winprog\fnopen.htm
 old-project: devnotes
 ms.assetid: 45bd2d23-1f6d-42a6-8afb-86227da6118f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FNOPEN, FNOPEN macro [Windows API], fdi/FNOPEN, winprog.fnopen
 ms.prod: windows
 ms.technology: windows-sdk

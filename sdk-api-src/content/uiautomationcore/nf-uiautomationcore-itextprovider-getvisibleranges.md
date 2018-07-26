@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextProvider_GetVisibleRanges.htm
 old-project: WinAuto
 ms.assetid: dc706d1d-b32d-4bc3-b65a-c42b38f06a93
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: GetVisibleRanges, GetVisibleRanges method [Windows Accessibility], GetVisibleRanges method [Windows Accessibility],ITextProvider interface, ITextProvider interface [Windows Accessibility],GetVisibleRanges method, ITextProvider.GetVisibleRanges, ITextProvider::GetVisibleRanges, uiauto.uiauto_ITextProvider_GetVisibleRanges, uiauto_ITextProvider_GetVisibleRanges, uiautomationcore/ITextProvider::GetVisibleRanges, winauto.uiauto_ITextProvider_GetVisibleRanges
 ms.prod: windows
 ms.technology: windows-sdk

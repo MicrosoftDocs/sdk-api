@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dswapchain9__present.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dswapchain9__present.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: 0765aea9-8fd8-8d38-bcaf-184610e8d81e, IDirect3DSwapChain9 interface [Direct3D 9],Present method, IDirect3DSwapChain9.Present, IDirect3DSwapChain9::Present, Present, Present method [Direct3D 9], Present method [Direct3D 9],IDirect3DSwapChain9 interface, d3d9helper/IDirect3DSwapChain9::Present, direct3d9.idirect3dswapchain9__present
 ms.prod: windows
 ms.technology: windows-sdk

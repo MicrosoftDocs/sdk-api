@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_feature_data_gpu_virtual_address_support.htm
 old-project: direct3d11
 ms.assetid: 662D9B07-755C-430D-84C6-B1E8876E26B5
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: D3D11_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT, D3D11_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT, direct3d11.d3d11_feature_data_gpu_virtual_address_support
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes feature data GPU virtual address support, including maximum address bits per resource and per process.
+Describes feature data GPU virtual address support, including maximum address bits per resource and per process.
           
 
 
@@ -62,15 +61,13 @@ req.irql:
 
 ### -field MaxGPUVirtualAddressBitsPerResource
 
-
-            The maximum GPU virtual address bits per resource.
+The maximum GPU virtual address bits per resource.
             
 
 
 ### -field MaxGPUVirtualAddressBitsPerProcess
 
-
-            The maximum GPU virtual address bits per process.
+The maximum GPU virtual address bits per process.
             
 
 
@@ -78,8 +75,7 @@ req.irql:
 
 
 
-
-        See <a href="https://msdn.microsoft.com/48c3bf65-f077-45e6-a306-03d5760eeccb">D3D11_FEATURE</a>.
+See <a href="https://msdn.microsoft.com/48c3bf65-f077-45e6-a306-03d5760eeccb">D3D11_FEATURE</a>.
       
 
 

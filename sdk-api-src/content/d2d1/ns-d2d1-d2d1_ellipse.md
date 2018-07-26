@@ -4,10 +4,10 @@ title: D2D1_ELLIPSE
 author: windows-sdk-content
 description: Contains the center point, x-radius, and y-radius of an ellipse.
 old-location: direct2d\D2D1_ELLIPSE.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 6fed6c49-ba83-4c2b-af8a-04156ee317f0
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_ELLIPSE, D2D1_ELLIPSE structure [Direct2D], d2d1/D2D1_ELLIPSE, direct2d.D2D1_ELLIPSE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-    Contains the center point, x-radius, and y-radius of an ellipse.
+Contains the center point, x-radius, and y-radius of an ellipse.
 
 
 ## -struct-fields

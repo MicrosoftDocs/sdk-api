@@ -7,7 +7,7 @@ old-location: shell\ITransferSource_LinkItem.htm
 old-project: shell
 ms.assetid: e373c790-5366-4bff-a08d-817b0c566b1d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: ITransferSource interface [Windows Shell],LinkItem method, ITransferSource.LinkItem, ITransferSource::LinkItem, LinkItem, LinkItem method [Windows Shell], LinkItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_LinkItem, shell.ITransferSource_LinkItem, shobjidl_core/ITransferSource::LinkItem
 ms.prod: windows
 ms.technology: windows-sdk

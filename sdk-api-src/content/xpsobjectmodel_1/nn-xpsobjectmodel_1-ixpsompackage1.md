@@ -7,7 +7,7 @@ old-location: xps\ixpsompackage1.htm
 old-project: printdocs
 ms.assetid: 455b7f0b-ade4-4e00-bd9d-836335a7982e
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IXpsOMPackage1, IXpsOMPackage1 interface [XPS Documents and Packaging], IXpsOMPackage1 interface [XPS Documents and Packaging],described, xps.ixpsompackage1, xpsobjectmodel_1/IXpsOMPackage1
 ms.prod: windows
 ms.technology: windows-sdk

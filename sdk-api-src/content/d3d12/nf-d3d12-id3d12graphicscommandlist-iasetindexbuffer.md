@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_iasetindexbuffer.htm
 old-project: direct3d12
 ms.assetid: EB776EC7-42F2-47D3-A1FA-771EC6C4E3AB
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: IASetIndexBuffer, IASetIndexBuffer method, IASetIndexBuffer method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,IASetIndexBuffer method, ID3D12GraphicsCommandList.IASetIndexBuffer, ID3D12GraphicsCommandList::IASetIndexBuffer, d3d12/ID3D12GraphicsCommandList::IASetIndexBuffer, direct3d12.id3d12graphicscommandlist_iasetindexbuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Sets the view for the index buffer.
+Sets the view for the index buffer.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b>const <a href="https://msdn.microsoft.com/CADD98BF-EDA9-43D6-9ADA-392051541B61">D3D12_INDEX_BUFFER_VIEW</a>*</b>
 
-
-            The view specifies the index buffer's address, size, and <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>, as a pointer to a <a href="https://msdn.microsoft.com/CADD98BF-EDA9-43D6-9ADA-392051541B61">D3D12_INDEX_BUFFER_VIEW</a> structure.
+The view specifies the index buffer's address, size, and <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>, as a pointer to a <a href="https://msdn.microsoft.com/CADD98BF-EDA9-43D6-9ADA-392051541B61">D3D12_INDEX_BUFFER_VIEW</a> structure.
           
 
 
@@ -73,8 +71,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/CADD98BF-EDA9-43D6-9ADA-39205
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 
@@ -89,8 +86,7 @@ Only one index buffer can be bound to the graphics pipeline at any one time.
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Bundles</a> sample uses <b>ID3D12GraphicsCommandList::IASetIndexBuffer</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Bundles</a> sample uses <b>ID3D12GraphicsCommandList::IASetIndexBuffer</b> as follows:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -145,8 +141,7 @@ Only one index buffer can be bound to the graphics pipeline at any one time.
 </td>
 </tr>
 </table></span></div>
-
-          See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_clearunorderedaccessviewfloat
 old-project: direct3d12
 ms.assetid: 6A19F429-D7B2-4A71-8904-31BFA1FD10C6
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ClearUnorderedAccessViewFloat, ClearUnorderedAccessViewFloat method, ClearUnorderedAccessViewFloat method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ClearUnorderedAccessViewFloat method, ID3D12GraphicsCommandList.ClearUnorderedAccessViewFloat, ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat, d3d12/ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat, direct3d12.id3d12graphicscommandlist_clearunorderedaccessviewfloat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Sets all the elements in a unordered access view to the specified float values.
 
 Type: <b><a href="https://msdn.microsoft.com/16D09788-D527-4D9F-A6EF-648F42A426B5">D3D12_GPU_DESCRIPTOR_HANDLE</a></b>
 
-
-            Describes the GPU descriptor handle that represents the start of the heap for the unordered-access view to clear.
+Describes the GPU descriptor handle that represents the start of the heap for the unordered-access view to clear.
           
 
 
@@ -71,8 +70,7 @@ Type: <b><a href="https://msdn.microsoft.com/16D09788-D527-4D9F-A6EF-648F42A426B
 
 Type: <b><a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
-
-            Describes the CPU descriptor handle that represents the start of the heap for the render target to clear.
+Describes the CPU descriptor handle that represents the start of the heap for the render target to clear.
           
 
 
@@ -80,8 +78,7 @@ Type: <b><a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44F
 
 Type: <b>ID3D12Resource*</b>
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> interface that represents the unordered-access-view resource to clear.
+A pointer to the <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> interface that represents the unordered-access-view resource to clear.
           
 
 
@@ -89,8 +86,7 @@ Type: <b>ID3D12Resource*</b>
 
 Type: <b>const FLOAT[4]</b>
 
-
-            A 4-component array that containing the values to fill the unordered-access-view resource with.
+A 4-component array that containing the values to fill the unordered-access-view resource with.
           
 
 
@@ -98,8 +94,7 @@ Type: <b>const FLOAT[4]</b>
 
 Type: <b>UINT</b>
 
-
-            The number of rectangles in the array that the <i>pRects</i> parameter specifies.
+The number of rectangles in the array that the <i>pRects</i> parameter specifies.
           
 
 
@@ -107,8 +102,7 @@ Type: <b>UINT</b>
 
 Type: <b>const D3D12_RECT*</b>
 
-
-            An array of <b>D3D12_RECT</b> structures for the rectangles in the resource view to clear. If <b>NULL</b>, <b>ClearUnorderedAccessViewFloat</b> clears the entire resource view.
+An array of <b>D3D12_RECT</b> structures for the rectangles in the resource view to clear. If <b>NULL</b>, <b>ClearUnorderedAccessViewFloat</b> clears the entire resource view.
           
 
 
@@ -116,8 +110,7 @@ Type: <b>const D3D12_RECT*</b>
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 
@@ -128,21 +121,17 @@ Type: <b>const D3D12_RECT*</b>
 
 
 <h3><a id="Runtime_validation"></a><a id="runtime_validation"></a><a id="RUNTIME_VALIDATION"></a>Runtime validation</h3>
-
-            For floating-point inputs, the runtime will set denormalized values to 0 (while preserving NANs).
+For floating-point inputs, the runtime will set denormalized values to 0 (while preserving NANs).
           
 
-
-            Validation failure will result in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> returning <b>E_INVALIDARG</b>.
+Validation failure will result in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> returning <b>E_INVALIDARG</b>.
           
 
 <h3><a id="Debug_layer"></a><a id="debug_layer"></a><a id="DEBUG_LAYER"></a>Debug layer</h3>
-
-            The debug layer will issue errors if the input values are outside of a normalized range.
+The debug layer will issue errors if the input values are outside of a normalized range.
           
 
-
-            The debug layer will issue an error if the subresources referenced by the view are not in the appropriate state. For <b>ClearUnorderedAccessViewFloat</b>, the state must be <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_UNORDERED_ACCESS</a>.
+The debug layer will issue an error if the subresources referenced by the view are not in the appropriate state. For <b>ClearUnorderedAccessViewFloat</b>, the state must be <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_UNORDERED_ACCESS</a>.
           
 
 

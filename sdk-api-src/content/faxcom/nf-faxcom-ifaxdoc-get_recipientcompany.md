@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_recipientcompany_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0rjt.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxDoc object [Fax Service],RecipientCompany property, FaxDoc.RecipientCompany, IFaxDoc.get_RecipientCompany, IFaxDoc::get_RecipientCompany, RecipientCompany property [Fax Service], RecipientCompany property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientcompany, fax._mfax_ifaxdoc_get_recipientcompany, fax._mfax_ifaxdoc_get_recipientcompany_vb, get_RecipientCompany
 ms.prod: windows
 ms.technology: windows-sdk

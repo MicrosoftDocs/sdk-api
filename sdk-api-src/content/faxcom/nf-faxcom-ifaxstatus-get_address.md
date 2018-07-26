@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxstatus_get_address_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_76er.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: Address property [Fax Service], Address property [Fax Service],FaxStatus object, FaxStatus object [Fax Service],Address property, FaxStatus.Address, IFaxStatus.get_Address, IFaxStatus::get_Address, _mfax_ifaxstatus_get_address, fax._mfax_ifaxstatus_get_address, fax._mfax_ifaxstatus_get_address_vb, get_Address
 ms.prod: windows
 ms.technology: windows-sdk

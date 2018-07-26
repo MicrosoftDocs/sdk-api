@@ -7,7 +7,7 @@ old-location: wininet\internet_cache_timestamps.htm
 old-project: wininet
 ms.assetid: e0fc2d73-95b9-4466-8a80-ca3211fc58e1
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/20/2018
 ms.keywords: "*LPINTERNET_CACHE_TIMESTAMPS, INTERNET_CACHE_TIMESTAMPS, INTERNET_CACHE_TIMESTAMPS structure [WinINet], LPINTERNET_CACHE_TIMESTAMPS, LPINTERNET_CACHE_TIMESTAMPS structure pointer [WinINet], _INTERNET_CACHE_TIMESTAMPS, _inet_internet_cache_timestamps_structure, wininet.internet_cache_timestamps, wininet/INTERNET_CACHE_TIMESTAMPS, wininet/LPINTERNET_CACHE_TIMESTAMPS"
 ms.prod: windows
 ms.technology: windows-sdk

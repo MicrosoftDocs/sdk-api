@@ -63,7 +63,7 @@ The
 ### -field Uuid
 
 Specifies the interface 
-<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a>.
+<a href="https://msdn.microsoft.com/">UUID</a>.
 
 
 ### -field VersMajor

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_omsetstencilref.htm
 old-project: direct3d12
 ms.assetid: 96C5C209-71A2-4096-A86C-D376AC1AB46C
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12GraphicsCommandList interface,OMSetStencilRef method, ID3D12GraphicsCommandList.OMSetStencilRef, ID3D12GraphicsCommandList::OMSetStencilRef, OMSetStencilRef, OMSetStencilRef method, OMSetStencilRef method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::OMSetStencilRef, direct3d12.id3d12graphicscommandlist_omsetstencilref
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Sets the reference value for depth stencil tests.
 
 Type: <b>UINT</b>
 
-
-            Reference value to perform against when doing a depth-stencil test.
+Reference value to perform against when doing a depth-stencil test.
           
 
 
@@ -71,8 +70,7 @@ Type: <b>UINT</b>
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 

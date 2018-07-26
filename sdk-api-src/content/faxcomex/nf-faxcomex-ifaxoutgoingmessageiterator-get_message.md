@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessageiterator_message.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7wkl.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxOutgoingMessageIterator object [Fax Service],Message property, FaxOutgoingMessageIterator.Message, IFaxOutgoingMessageIterator.get_Message, IFaxOutgoingMessageIterator::get_Message, Message property [Fax Service], Message property [Fax Service],FaxOutgoingMessageIterator object, _mfax_faxoutgoingmessageiterator.message, fax._mfax_faxoutgoingmessageiterator_message, get_Message
 ms.prod: windows
 ms.technology: windows-sdk

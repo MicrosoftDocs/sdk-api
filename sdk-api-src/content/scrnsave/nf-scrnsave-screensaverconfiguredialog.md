@@ -7,7 +7,7 @@ old-location: shell\ScreenSaverConfigureDialog.htm
 old-project: shell
 ms.assetid: 84c2966f-8f01-4f8d-9cec-c7fef657bff0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: ScreenSaverConfigureDialog, ScreenSaverConfigureDialog function [Windows Shell], _win32_ScreenSaverConfigureDialog, scrnsave/ScreenSaverConfigureDialog, shell.ScreenSaverConfigureDialog
 ms.prod: windows
 ms.technology: windows-sdk

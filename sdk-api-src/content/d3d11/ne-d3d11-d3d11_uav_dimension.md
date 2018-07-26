@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_uav_dimension.htm
 old-project: direct3d11
 ms.assetid: c9a2bcd1-9cfb-4cac-87eb-4747af745fdd
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 9c59cfb3-b1fd-ce9f-e9c6-64b74c033e21, D3D11_UAV_DIMENSION, D3D11_UAV_DIMENSION enumeration [Direct3D 11], D3D11_UAV_DIMENSION_BUFFER, D3D11_UAV_DIMENSION_TEXTURE1D, D3D11_UAV_DIMENSION_TEXTURE1DARRAY, D3D11_UAV_DIMENSION_TEXTURE2D, D3D11_UAV_DIMENSION_TEXTURE2DARRAY, D3D11_UAV_DIMENSION_TEXTURE3D, D3D11_UAV_DIMENSION_UNKNOWN, d3d11/D3D11_UAV_DIMENSION, d3d11/D3D11_UAV_DIMENSION_BUFFER, d3d11/D3D11_UAV_DIMENSION_TEXTURE1D, d3d11/D3D11_UAV_DIMENSION_TEXTURE1DARRAY, d3d11/D3D11_UAV_DIMENSION_TEXTURE2D, d3d11/D3D11_UAV_DIMENSION_TEXTURE2DARRAY, d3d11/D3D11_UAV_DIMENSION_TEXTURE3D, d3d11/D3D11_UAV_DIMENSION_UNKNOWN, direct3d11.d3d11_uav_dimension
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,8 +97,7 @@ View the resource as a 3D texture array.
 
 
 
-
-          This enumeration is used by a unordered access-view description (see <a href="https://msdn.microsoft.com/884b5498-7f10-4a44-a947-bc7d93fa0cbf">D3D11_UNORDERED_ACCESS_VIEW_DESC</a>).
+This enumeration is used by a unordered access-view description (see <a href="https://msdn.microsoft.com/884b5498-7f10-4a44-a947-bc7d93fa0cbf">D3D11_UNORDERED_ACCESS_VIEW_DESC</a>).
         
 
 

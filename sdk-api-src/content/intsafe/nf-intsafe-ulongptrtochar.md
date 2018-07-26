@@ -7,7 +7,7 @@ old-location: shell\ULongPtrToChar.htm
 old-project: shell
 ms.assetid: 0cc26423-5c14-49d0-984e-f2bb81f68010
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: ULongPtrToChar, ULongPtrToChar function [Windows Shell], intsafe/ULongPtrToChar, shell.ULongPtrToChar
 ms.prod: windows
 ms.technology: windows-sdk

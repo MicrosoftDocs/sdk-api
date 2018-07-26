@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device3_openexistingheapfromaddress.htm
 old-project: direct3d12
 ms.assetid: E2343759-FC36-4638-AE91-F6BF6D0BC3BA
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12Device3.OpenExistingHeapFromAddress, ID3D12Device3::OpenExistingHeapFromAddress, Id3d12device3 interface,OpenExistingHeapFromAddress method, Id3d12device3::OpenExistingHeapFromAddress, OpenExistingHeapFromAddress, OpenExistingHeapFromAddress method, OpenExistingHeapFromAddress method,Id3d12device3 interface, d3d12/Id3d12device3::OpenExistingHeapFromAddress, direct3d12.id3d12device3_openexistingheapfromaddress
 ms.prod: windows
 ms.technology: windows-sdk

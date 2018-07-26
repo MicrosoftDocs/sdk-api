@@ -7,7 +7,7 @@ old-location: winrt\idllserveractivatableclassregistration.htm
 old-project: WinRT
 ms.assetid: 00E9476E-45E0-4D97-9DA4-FD293674BED4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IDllServerActivatableClassRegistration, IDllServerActivatableClassRegistration interface [Windows Runtime], IDllServerActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IDllServerActivatableClassRegistration, winrt.idllserveractivatableclassregistration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The <b>IDllServerActivatableClassRegistration</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B46BB464-C993-49A7-86C8-4945E69AA9CC">DllPath</a>
+<a href="https://msdn.microsoft.com/B46BB464-C993-49A7-86C8-4945E69AA9CC">get_DllPath</a>
 </td>
 <td align="left" width="63%">
 Gets the fully qualified path to the in-process server.
@@ -79,7 +79,7 @@ Gets the fully qualified path to the in-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08F95AD6-B559-4652-A496-84777BF0189D">ThreadingType</a>
+<a href="https://msdn.microsoft.com/08F95AD6-B559-4652-A496-84777BF0189D">get_ThreadingType</a>
 </td>
 <td align="left" width="63%">
 Gets the apartment threading model for activating the in-process server.

@@ -7,7 +7,7 @@ old-location: xps\ixpsompage1_getdocumenttype.htm
 old-project: printdocs
 ms.assetid: b2456ffc-7a9d-41c2-b693-eb71909ccf3d
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: GetDocumentType, GetDocumentType method [XPS Documents and Packaging], GetDocumentType method [XPS Documents and Packaging],IXpsOMPage1 interface, IXpsOMPage1 interface [XPS Documents and Packaging],GetDocumentType method, IXpsOMPage1.GetDocumentType, IXpsOMPage1::GetDocumentType, xps.ixpsompage1_getdocumenttype, xpsobjectmodel_1/IXpsOMPage1::GetDocumentType
 ms.prod: windows
 ms.technology: windows-sdk

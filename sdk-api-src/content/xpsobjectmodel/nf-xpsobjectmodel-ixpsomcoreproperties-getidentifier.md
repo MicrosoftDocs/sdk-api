@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_getidentifier.htm
 old-project: printdocs
 ms.assetid: a397fba0-4e73-4f5b-b292-529a222c2501
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: GetIdentifier, GetIdentifier method [XPS Documents and Packaging], GetIdentifier method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetIdentifier method, IXpsOMCoreProperties.GetIdentifier, IXpsOMCoreProperties::GetIdentifier, xps.ixpsomcoreproperties_getidentifier, xpsobjectmodel/IXpsOMCoreProperties::GetIdentifier
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IWindowsDriverUpdateEntry::get_DeviceProblemNumber
 author: windows-sdk-content
 description: Gets the problem number of the matching device for the Windows driver update.
 old-location: wua\iwindowsdriverupdateentry_deviceproblemnumber.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 8f275525-27fe-4bff-a471-e21d737e6479
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: DeviceProblemNumber property [Windows Update Agent], DeviceProblemNumber property [Windows Update Agent],IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry interface [Windows Update Agent],DeviceProblemNumber property, IWindowsDriverUpdateEntry.DeviceProblemNumber, IWindowsDriverUpdateEntry.get_DeviceProblemNumber, IWindowsDriverUpdateEntry::DeviceProblemNumber, IWindowsDriverUpdateEntry::get_DeviceProblemNumber, get_DeviceProblemNumber, wua.iwindowsdriverupdateentry_deviceproblemnumber, wuapi/IWindowsDriverUpdateEntry::DeviceProblemNumber, wuapi/IWindowsDriverUpdateEntry::get_DeviceProblemNumber
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10createdeviceandswapchain1.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10createdeviceandswapchain1.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D10CreateDeviceAndSwapChain1, D3D10CreateDeviceAndSwapChain1 function [Direct3D 10], b7c9234e-0746-99a6-b30f-ead0bc077ec3, d3d10_1/D3D10CreateDeviceAndSwapChain1, direct3d10.d3d10createdeviceandswapchain1
 ms.prod: windows
 ms.technology: windows-sdk

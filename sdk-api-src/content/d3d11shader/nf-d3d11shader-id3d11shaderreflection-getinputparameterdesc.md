@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflection_getinputparameterdesc.htm
 old-project: direct3d11
 ms.assetid: 6483634d-6050-4218-98ee-a7062efcbe64
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 06783a52-4fd2-1c86-8b0d-40efb3e6ac1e, GetInputParameterDesc, GetInputParameterDesc method [Direct3D 11], GetInputParameterDesc method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetInputParameterDesc method, ID3D11ShaderReflection.GetInputParameterDesc, ID3D11ShaderReflection::GetInputParameterDesc, d3d11shader/ID3D11ShaderReflection::GetInputParameterDesc, direct3d11.id3d11shaderreflection_getinputparameterdesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,8 +69,7 @@ A zero-based parameter index.
 
 Type: <b><a href="https://msdn.microsoft.com/3aed2f5f-1cfa-4224-bfcc-7d015e6a2cc0">D3D11_SIGNATURE_PARAMETER_DESC</a>*</b>
 
-
-            A pointer to a shader-input-signature description. See <a href="https://msdn.microsoft.com/3aed2f5f-1cfa-4224-bfcc-7d015e6a2cc0">D3D11_SIGNATURE_PARAMETER_DESC</a>.
+A pointer to a shader-input-signature description. See <a href="https://msdn.microsoft.com/3aed2f5f-1cfa-4224-bfcc-7d015e6a2cc0">D3D11_SIGNATURE_PARAMETER_DESC</a>.
           
 
 
@@ -80,8 +79,7 @@ Type: <b><a href="https://msdn.microsoft.com/3aed2f5f-1cfa-4224-bfcc-7d015e6a2cc
 
 Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-
-            Returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
           
 
 

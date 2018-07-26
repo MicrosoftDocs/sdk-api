@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandallocator.htm
 old-project: direct3d12
 ms.assetid: ADC494E6-1698-415D-90C5-F99FCD4C5309
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12CommandAllocator, ID3D12CommandAllocator interface, ID3D12CommandAllocator interface,described, d3d12/ID3D12CommandAllocator, direct3d12.id3d12commandallocator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,8 +91,7 @@ The command allocator object corresponds to the underlying allocations in which 
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12nBodyGravity</a> sample uses <b>ID3D12CommandAllocator</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12nBodyGravity</a> sample uses <b>ID3D12CommandAllocator</b> as follows:
         
 
 Header file declarations.

@@ -4,10 +4,10 @@ title: "_AUTHZ_SOURCE_SCHEMA_REGISTRATION"
 author: windows-sdk-content
 description: Specifies information about source schema registration.
 old-location: security\authz_source_schema_registration.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 8b4d6e14-fb9c-428a-bd94-34eba668edc6
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: "*PAUTHZ_SOURCE_SCHEMA_REGISTRATION, AUTHZ_ALLOW_MULTIPLE_SOURCE_INSTANCES, AUTHZ_MIGRATED_LEGACY_PUBLISHER, AUTHZ_SOURCE_SCHEMA_REGISTRATION, AUTHZ_SOURCE_SCHEMA_REGISTRATION structure [Security], PAUTHZ_SOURCE_SCHEMA_REGISTRATION, PAUTHZ_SOURCE_SCHEMA_REGISTRATION structure pointer [Security], _AUTHZ_SOURCE_SCHEMA_REGISTRATION, authz/AUTHZ_SOURCE_SCHEMA_REGISTRATION, authz/PAUTHZ_SOURCE_SCHEMA_REGISTRATION, security.authz_source_schema_registration"
 ms.prod: windows
 ms.technology: windows-sdk

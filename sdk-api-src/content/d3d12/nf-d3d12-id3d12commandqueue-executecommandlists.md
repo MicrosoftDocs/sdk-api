@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandqueue_executecommandlists.htm
 old-project: direct3d12
 ms.assetid: 653C15CD-0996-4B3B-A5F6-3E85CD0516AD
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ExecuteCommandLists, ExecuteCommandLists method, ExecuteCommandLists method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,ExecuteCommandLists method, ID3D12CommandQueue.ExecuteCommandLists, ID3D12CommandQueue::ExecuteCommandLists, d3d12/ID3D12CommandQueue::ExecuteCommandLists, direct3d12.id3d12commandqueue_executecommandlists
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,15 +60,13 @@ Submits an array of command lists for execution.
 
 ### -param NumCommandLists [in]
 
-
-            The number of command lists to be executed.
+The number of command lists to be executed.
           
 
 
 ### -param ppCommandLists [in]
 
-
-            The array of <a href="https://msdn.microsoft.com/1E0359CC-0F53-4C82-9F1A-092F6F72EE20">ID3D12CommandList</a> command lists to be executed.
+The array of <a href="https://msdn.microsoft.com/1E0359CC-0F53-4C82-9F1A-092F6F72EE20">ID3D12CommandList</a> command lists to be executed.
           
 
 
@@ -85,29 +83,23 @@ This method does not return a value.
 
 
 
-
-          The driver is free to patch the submitted command lists. It is the calling application’s responsibility to ensure that the graphics processing unit (GPU) is not currently reading the any of the submitted command lists from a previous execution.
+The driver is free to patch the submitted command lists. It is the calling application’s responsibility to ensure that the graphics processing unit (GPU) is not currently reading the any of the submitted command lists from a previous execution.
         
 
-
-          Applications are encouraged to batch together command list executions to reduce fixed costs associated with submitted commands to the GPU.
+Applications are encouraged to batch together command list executions to reduce fixed costs associated with submitted commands to the GPU.
         
 
 <h3><a id="Runtime_validation"></a><a id="runtime_validation"></a><a id="RUNTIME_VALIDATION"></a>Runtime validation</h3>
-
-            Bundles can't be submitted to a command queue directly. If a bundle is passed to this method, the runtime will drop the call.  The runtime will also drop the call if the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> has not been called on any of the command lists.
+Bundles can't be submitted to a command queue directly. If a bundle is passed to this method, the runtime will drop the call.  The runtime will also drop the call if the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> has not been called on any of the command lists.
           
 
-
-            The runtime will detect if the command allocators associated with the command lists have been reset after <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> was called.  The runtime will drop the call and remove the device in this situation.
+The runtime will detect if the command allocators associated with the command lists have been reset after <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> was called.  The runtime will drop the call and remove the device in this situation.
           
 
-
-            The runtime will drop the call and remove the device if the command queue fence indicates that a previous execution of any of the command lists has not yet completed.
+The runtime will drop the call and remove the device if the command queue fence indicates that a previous execution of any of the command lists has not yet completed.
           
 
-
-            The runtime will validate the "before" and "after" states of resource transition barriers inside of <b>ExecuteCommandLists</b>.  If the “before” state of a transition does not match up with the “after” state of a previous transition, then the runtime will drop the call and remove the device.
+The runtime will validate the "before" and "after" states of resource transition barriers inside of <b>ExecuteCommandLists</b>.  If the “before” state of a transition does not match up with the “after” state of a previous transition, then the runtime will drop the call and remove the device.
           
 
 The runtime will validate the “before” and “after” states of queries used by the command lists.  If an error is detected, then the runtime will drop the call and remove the device.
@@ -115,8 +107,7 @@ The runtime will validate the “before” and “after” states of queries use
 <h3><a id="Debug_layer"></a><a id="debug_layer"></a><a id="DEBUG_LAYER"></a>Debug layer</h3>
 The debug layer will issue errors for all cases where the runtime would drop the call.
 
-
-            The debug layer will issue an error if it detects that any resource referenced by the command lists, including queries, has been destroyed.
+The debug layer will issue an error if it detects that any resource referenced by the command lists, including queries, has been destroyed.
           
 
 

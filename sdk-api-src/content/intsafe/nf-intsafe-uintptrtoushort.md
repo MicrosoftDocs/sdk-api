@@ -7,7 +7,7 @@ old-location: shell\UIntPtrToUShort.htm
 old-project: shell
 ms.assetid: b51c9d90-861b-40c7-b81d-2c308fc98fd1
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: UIntPtrToUShort, UIntPtrToUShort function [Windows Shell], intsafe/UIntPtrToUShort, shell.UIntPtrToUShort
 ms.prod: windows
 ms.technology: windows-sdk

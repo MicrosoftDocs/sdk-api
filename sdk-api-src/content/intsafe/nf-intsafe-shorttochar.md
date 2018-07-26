@@ -7,7 +7,7 @@ old-location: shell\ShortToChar.htm
 old-project: shell
 ms.assetid: 5037b473-d8d3-41f0-80f2-4633ae6a8321
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: ShortToChar, ShortToChar function [Windows Shell], _shell_ShortToChar, intsafe/ShortToChar, shell.ShortToChar
 ms.prod: windows
 ms.technology: windows-sdk

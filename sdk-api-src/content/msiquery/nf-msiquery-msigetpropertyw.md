@@ -4,10 +4,10 @@ title: MsiGetPropertyW function
 author: windows-sdk-content
 description: The MsiGetProperty function gets the value for an installer property.
 old-location: setup\msigetproperty.htm
-old-project: msi
+old-project: Msi
 ms.assetid: f2844673-3440-4b43-a9d0-31b9e8086f6f
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: MsiGetProperty, MsiGetProperty function, MsiGetPropertyA, MsiGetPropertyW, _msi_msigetproperty, msiquery/MsiGetProperty, msiquery/MsiGetPropertyA, msiquery/MsiGetPropertyW, setup.msigetproperty
 ms.prod: windows
 ms.technology: windows-sdk

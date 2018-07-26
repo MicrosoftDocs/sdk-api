@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_feature_data_d3d9_shadow_support.htm
 old-project: direct3d11
 ms.assetid: E30500A0-D77D-4783-A5D5-418770DA1376
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT, D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT, direct3d11.d3d11_feature_data_d3d9_shadow_support
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12resource.htm
 old-project: direct3d12
 ms.assetid: AF453D2F-F0FD-4552-A843-84119A829CD5
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12Resource, ID3D12Resource interface, ID3D12Resource interface,described, d3d12/ID3D12Resource, direct3d12.id3d12resource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,8 +82,7 @@ Gets the resource description.
 <a href="https://msdn.microsoft.com/1B1A345D-D6BD-4DF1-8F10-A209135283AD">GetGPUVirtualAddress</a>
 </td>
 <td align="left" width="63%">
-
-          This method returns the GPU virtual address of a buffer resource.
+This method returns the GPU virtual address of a buffer resource.
         
 
 </td>
@@ -93,8 +92,7 @@ Gets the resource description.
 <a href="https://msdn.microsoft.com/7F76986D-02F1-4E5A-B9A4-CFB021B72026">GetHeapProperties</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the properties of the resource heap, for placed and committed resources.
+Retrieves the properties of the resource heap, for placed and committed resources.
         
 
 </td>
@@ -114,8 +112,7 @@ Gets a CPU pointer to the specified subresource in the resource, but may not dis
 <a href="https://msdn.microsoft.com/A1F61217-A383-49BF-B675-FBC7F6D015DB">ReadFromSubresource</a>
 </td>
 <td align="left" width="63%">
-
-          Uses the CPU to copy data from a subresource, enabling the CPU to read the contents of most textures with undefined layouts.
+Uses the CPU to copy data from a subresource, enabling the CPU to read the contents of most textures with undefined layouts.
         
 
 </td>

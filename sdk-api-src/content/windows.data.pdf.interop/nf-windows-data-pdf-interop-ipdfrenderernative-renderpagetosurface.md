@@ -7,7 +7,7 @@ old-location: winrt\ipdfrenderernative_renderpagetosurface.htm
 old-project: WinRT
 ms.assetid: d4688c23-0122-40a7-908e-793c3f03fb37
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IPdfRendererNative interface [Windows Runtime],RenderPageToSurface method, IPdfRendererNative.RenderPageToSurface, IPdfRendererNative.pdf, IPdfRendererNative::RenderPageToSurface, IPdfRendererNative::pdf, RenderPageToSurface, RenderPageToSurface method [Windows Runtime], RenderPageToSurface method [Windows Runtime],IPdfRendererNative interface, windows/IPdfRendererNative::RenderPageToSurface, winrt.ipdfrenderernative_renderpagetosurface
 ms.prod: windows
 ms.technology: windows-sdk

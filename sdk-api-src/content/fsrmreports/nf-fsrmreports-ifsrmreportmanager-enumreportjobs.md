@@ -4,10 +4,10 @@ title: IFsrmReportManager::EnumReportJobs
 author: windows-sdk-content
 description: Enumerates the report jobs.
 old-location: fsrm\ifsrmreportmanager_enumreportjobs.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: af66beb6-e82c-47e6-8658-da9702041053
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: EnumReportJobs, EnumReportJobs method [File Server Resource Manager], EnumReportJobs method [File Server Resource Manager],FsrmReportManager class, EnumReportJobs method [File Server Resource Manager],IFsrmReportManager interface, FsrmReportManager class [File Server Resource Manager],EnumReportJobs method, IFsrmReportManager interface [File Server Resource Manager],EnumReportJobs method, IFsrmReportManager.EnumReportJobs, IFsrmReportManager::EnumReportJobs, fs.ifsrmreportmanager_enumreportjobs, fsrm.ifsrmreportmanager_enumreportjobs, fsrmreports/IFsrmReportManager::EnumReportJobs
 ms.prod: windows
 ms.technology: windows-sdk

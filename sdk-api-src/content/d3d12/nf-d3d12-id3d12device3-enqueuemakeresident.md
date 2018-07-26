@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device3_enqueuemakeresident.htm
 old-project: direct3d12
 ms.assetid: A9F8D656-C09D-47D5-9D97-3C2A60422E96
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: EnqueueMakeResident, EnqueueMakeResident method, EnqueueMakeResident method,ID3D12Device3 interface, ID3D12Device3 interface,EnqueueMakeResident method, ID3D12Device3.EnqueueMakeResident, ID3D12Device3::EnqueueMakeResident, d3d12/ID3D12Device3::EnqueueMakeResident, direct3d12.id3d12device3_enqueuemakeresident
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Asynchronously makes objects resident for the device.
 
 Type: <b><a href="https://msdn.microsoft.com/87AC193A-4754-4E92-A08C-082C3C1513D6">D3D12_RESIDENCY_FLAGS</a></b>
 
-
-            Controls whether the objects should be made resident if the application is over its memory budget.
+Controls whether the objects should be made resident if the application is over its memory budget.
           
 
 
@@ -71,8 +70,7 @@ Type: <b><a href="https://msdn.microsoft.com/87AC193A-4754-4E92-A08C-082C3C1513D
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            The number of objects  in the <i>ppObjects</i> array to make resident for the device.
+The number of objects  in the <i>ppObjects</i> array to make resident for the device.
           
 
 
@@ -112,8 +110,7 @@ An unsigned 64-bit value signaled to the fence when the work is done.
 
 Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-
-            This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
 
 

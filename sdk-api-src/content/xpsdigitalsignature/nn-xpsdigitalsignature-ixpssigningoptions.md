@@ -7,7 +7,7 @@ old-location: xps\ixpssigningoptions.htm
 old-project: printdocs
 ms.assetid: 71b9b348-1078-4f55-a071-e5e2f273f85c
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IXpsSigningOptions, IXpsSigningOptions interface [XPS Documents and Packaging], IXpsSigningOptions interface [XPS Documents and Packaging],described, xps.ixpssigningoptions, xpsdigitalsignature/IXpsSigningOptions
 ms.prod: windows
 ms.technology: windows-sdk

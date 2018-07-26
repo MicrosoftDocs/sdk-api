@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationCacheRequest_AddProperty.htm
 old-project: WinAuto
 ms.assetid: 61e56133-fb9e-4556-a9be-f7270b1d2bfb
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: AddProperty, AddProperty method [Windows Accessibility], AddProperty method [Windows Accessibility],IUIAutomationCacheRequest interface, IUIAutomationCacheRequest interface [Windows Accessibility],AddProperty method, IUIAutomationCacheRequest.AddProperty, IUIAutomationCacheRequest::AddProperty, uiauto.uiauto_IUIAutomationCacheRequest_AddProperty, uiauto_IUIAutomationCacheRequest_AddProperty, uiautomationclient/IUIAutomationCacheRequest::AddProperty, winauto.uiauto_IUIAutomationCacheRequest_AddProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

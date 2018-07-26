@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_library_desc.htm
 old-project: direct3d12
 ms.assetid: 99CB0B61-8494-4591-A3CB-B6DAD19C79ED
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_LIBRARY_DESC, D3D12_LIBRARY_DESC structure, _D3D12_LIBRARY_DESC, d3d12shader/D3D12_LIBRARY_DESC, direct3d12.d3d12_library_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes a library.
+Describes a library.
         
 
 
@@ -62,22 +61,19 @@ req.irql:
 
 ### -field Creator
 
-
-            The name of the originator of the library.
+The name of the originator of the library.
           
 
 
 ### -field Flags
 
-
-            A combination of <a href="https://msdn.microsoft.com/039627DD-D6A4-4EA3-8E91-D2A20770E6FF">D3DCOMPILE Constants</a> that are combined by using a bitwise OR operation. The resulting value specifies how the compiler compiles.
+A combination of <a href="https://msdn.microsoft.com/039627DD-D6A4-4EA3-8E91-D2A20770E6FF">D3DCOMPILE Constants</a> that are combined by using a bitwise OR operation. The resulting value specifies how the compiler compiles.
           
 
 
 ### -field FunctionCount
 
-
-            The number of functions exported from the library.
+The number of functions exported from the library.
           
 
 
@@ -85,8 +81,7 @@ req.irql:
 
 
 
-
-        This structure is returned by <a href="https://msdn.microsoft.com/BF7CC078-3F68-4645-B49C-1F4DEBCA6A48">ID3D12LibraryReflection::GetDesc</a>.
+This structure is returned by <a href="https://msdn.microsoft.com/BF7CC078-3F68-4645-B49C-1F4DEBCA6A48">ID3D12LibraryReflection::GetDesc</a>.
       
 
 

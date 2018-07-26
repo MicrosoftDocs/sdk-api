@@ -7,7 +7,7 @@ old-location: intl\scriptitemizeopentype.htm
 old-project: Intl
 ms.assetid: da15d6b3-6725-43b8-9a2c-c19269a79d1e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: ScriptItemizeOpenType, ScriptItemizeOpenType function [Internationalization for Windows Applications], _win32_ScriptItemizeOpenType, intl.scriptitemizeopentype, usp10/ScriptItemizeOpenType
 ms.prod: windows
 ms.technology: windows-sdk

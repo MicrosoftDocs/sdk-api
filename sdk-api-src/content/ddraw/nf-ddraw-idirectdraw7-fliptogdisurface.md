@@ -7,7 +7,7 @@ old-location: directdraw\idirectdraw7_fliptogdisurface.htm
 old-project: directdraw
 ms.assetid: 495cace2-a315-4937-b0d9-9f77f5d95f66
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/23/2018
 ms.keywords: FlipToGDISurface, FlipToGDISurface method [DirectDraw], FlipToGDISurface method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],FlipToGDISurface method, IDirectDraw7.FlipToGDISurface, IDirectDraw7::FlipToGDISurface, ddraw/IDirectDraw7::FlipToGDISurface, directdraw.idirectdraw7_fliptogdisurface
 ms.prod: windows
 ms.technology: windows-sdk

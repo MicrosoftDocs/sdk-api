@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_executeindirect.htm
 old-project: direct3d12
 ms.assetid: 99FB088D-F3EB-4BAD-A945-51A1ED6F9288
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ExecuteIndirect, ExecuteIndirect method, ExecuteIndirect method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ExecuteIndirect method, ID3D12GraphicsCommandList.ExecuteIndirect, ID3D12GraphicsCommandList::ExecuteIndirect, d3d12/ID3D12GraphicsCommandList::ExecuteIndirect, direct3d12.id3d12graphicscommandlist_executeindirect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Apps perform indirect draws/dispatches using the <b>ExecuteIndirect</b> method.
+Apps perform indirect draws/dispatches using the <b>ExecuteIndirect</b> method.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/57EC15D0-9056-4AFC-86EF-3658DEA8AF40">ID3D12CommandSignature</a>*</b>
 
-
-            Specifies a <a href="https://msdn.microsoft.com/57EC15D0-9056-4AFC-86EF-3658DEA8AF40">ID3D12CommandSignature</a>. The data referenced by <i>pArgumentBuffer</i> will be interpreted depending on the contents of the command signature. Refer to <a href="https://msdn.microsoft.com/F8D6C88A-101E-4F66-999F-43206F6527B6">Indirect Drawing</a> for the APIs that are used to create a command signature.
+Specifies a <a href="https://msdn.microsoft.com/57EC15D0-9056-4AFC-86EF-3658DEA8AF40">ID3D12CommandSignature</a>. The data referenced by <i>pArgumentBuffer</i> will be interpreted depending on the contents of the command signature. Refer to <a href="https://msdn.microsoft.com/F8D6C88A-101E-4F66-999F-43206F6527B6">Indirect Drawing</a> for the APIs that are used to create a command signature.
           
 
 
@@ -76,11 +74,9 @@ Type: <b>UINT</b>
 There are two ways that command counts can be specified:
 
 <ul>
-<li>
-                If <i>pCountBuffer</i> is not NULL, then <i>MaxCommandCount</i> specifies the maximum number of operations which will be performed.  The actual number of operations to be performed are defined by the minimum of this value, and a 32-bit unsigned integer contained in <i>pCountBuffer</i> (at the byte offset specified by <i>CountBufferOffset</i>).
+<li>If <i>pCountBuffer</i> is not NULL, then <i>MaxCommandCount</i> specifies the maximum number of operations which will be performed.  The actual number of operations to be performed are defined by the minimum of this value, and a 32-bit unsigned integer contained in <i>pCountBuffer</i> (at the byte offset specified by <i>CountBufferOffset</i>).
               </li>
-<li>
-                If <i>pCountBuffer</i> is NULL, the <i>MaxCommandCount</i> specifies the exact number of operations which will be performed.
+<li>If <i>pCountBuffer</i> is NULL, the <i>MaxCommandCount</i> specifies the exact number of operations which will be performed.
               </li>
 </ul>
 
@@ -88,8 +84,7 @@ There are two ways that command counts can be specified:
 
 Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>*</b>
 
-
-            Specifies one or more <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> objects, containing the command arguments.
+Specifies one or more <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> objects, containing the command arguments.
           
 
 
@@ -97,8 +92,7 @@ Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD
 
 Type: <b>UINT64</b>
 
-
-            Specifies an offset into <i>pArgumentBuffer</i> to identify the first command argument.
+Specifies an offset into <i>pArgumentBuffer</i> to identify the first command argument.
           
 
 
@@ -106,8 +100,7 @@ Type: <b>UINT64</b>
 
 Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>*</b>
 
-
-            Specifies a pointer to a <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>.
+Specifies a pointer to a <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>.
           
 
 
@@ -115,8 +108,7 @@ Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD
 
 Type: <b>UINT64</b>
 
-
-            Specifies a UINT64 that is the offset into <i>pCountBuffer</i>, identifying the argument count.
+Specifies a UINT64 that is the offset into <i>pCountBuffer</i>, identifying the argument count.
           
 
 
@@ -124,8 +116,7 @@ Type: <b>UINT64</b>
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 
@@ -177,14 +168,12 @@ The debug layer will issue an error if either the count buffer or the argument b
             </li>
 <li><i>pCountBuffer</i> and <i>pArgumentBuffer</i> are buffer resources (any heap type)
             </li>
-<li>
-              The offset implied by <i>MaxCommandCount</i>, <i>ArgumentBufferOffset</i>, and the drawing program stride do not exceed the bounds of <i>pArgumentBuffer</i> (similarly for count buffer)
+<li>The offset implied by <i>MaxCommandCount</i>, <i>ArgumentBufferOffset</i>, and the drawing program stride do not exceed the bounds of <i>pArgumentBuffer</i> (similarly for count buffer)
             </li>
 <li>The command list is a direct command list or a compute command list (not a copy or JPEG decode command list)</li>
 <li>The root signature of the command list matches the root signature of the command signature</li>
 </ul>
-
-            The functionality of two APIs from earlier versions of Direct3D, <code>DrawInstancedIndirect</code> and <code>DrawIndexedInstancedIndirect</code>, are encompassed by  <b>ExecuteIndirect</b>.
+The functionality of two APIs from earlier versions of Direct3D, <code>DrawInstancedIndirect</code> and <code>DrawIndexedInstancedIndirect</code>, are encompassed by  <b>ExecuteIndirect</b>.
           
 
 <h3><a id="Bundles"></a><a id="bundles"></a><a id="BUNDLES"></a>Bundles</h3>
@@ -196,8 +185,7 @@ The debug layer will issue an error if either the count buffer or the argument b
 <li>The command signature contains exactly one operation.  This implies that the command signature does not contain root arguments changes, nor contain VB/IB binding changes.</li>
 </ul>
 <h3><a id="Obtaining_buffer_virtual_addresses"></a><a id="obtaining_buffer_virtual_addresses"></a><a id="OBTAINING_BUFFER_VIRTUAL_ADDRESSES"></a>Obtaining buffer virtual addresses</h3>
-
-                The <a href="https://msdn.microsoft.com/1B1A345D-D6BD-4DF1-8F10-A209135283AD">ID3D12Resource::GetGPUVirtualAddress</a> method enables an app to retrieve the GPU virtual address of a buffer.
+The <a href="https://msdn.microsoft.com/1B1A345D-D6BD-4DF1-8F10-A209135283AD">ID3D12Resource::GetGPUVirtualAddress</a> method enables an app to retrieve the GPU virtual address of a buffer.
               
 
 Apps are free to apply byte offsets to virtual addresses before placing them in an indirect argument buffer.  Note that all of the D3D12 alignment requirements for VB/IB/CB still apply to the resulting GPU virtual address. 
@@ -205,9 +193,7 @@ Apps are free to apply byte offsets to virtual addresses before placing them in 
 
 #### Examples
 
-
-          
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12ExecuteIndirect</a> sample uses <b>ID3D12GraphicsCommandList::ExecuteIndirect</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12ExecuteIndirect</a> sample uses <b>ID3D12GraphicsCommandList::ExecuteIndirect</b> as follows:
          
         
 
@@ -227,8 +213,7 @@ struct IndirectCommand
 </td>
 </tr>
 </table></span></div>
-
-          The call to <b>ExecuteIndirect</b> is near the end of this listing, below the comment "Draw the triangles that have not been culled."
+The call to <b>ExecuteIndirect</b> is near the end of this listing, below the comment "Draw the triangles that have not been culled."
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -357,8 +342,7 @@ void D3D12ExecuteIndirect::PopulateCommandLists()
 </td>
 </tr>
 </table></span></div>
-
-          See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>

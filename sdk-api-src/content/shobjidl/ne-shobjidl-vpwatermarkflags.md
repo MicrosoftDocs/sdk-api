@@ -7,7 +7,7 @@ old-location: shell\VPWATERMARKFLAGS.htm
 old-project: shell
 ms.assetid: e54db88e-c334-442b-8ab5-6004176aab41
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: VPWATERMARKFLAGS, VPWATERMARKFLAGS enumeration [Windows Shell], VPWF_ALPHABLEND, VPWF_DEFAULT, _shell_VPWATERMARKFLAGS, shell.VPWATERMARKFLAGS, shobjidl/VPWATERMARKFLAGS, shobjidl/VPWF_ALPHABLEND, shobjidl/VPWF_DEFAULT
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_getnamefromtoken.htm
 old-project: WinRT
 ms.assetid: 933d502a-c752-45ae-b51f-8c0a876856bc
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: GetNameFromToken, GetNameFromToken method [Windows Runtime], GetNameFromToken method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetNameFromToken method, IMetaDataImport.GetNameFromToken, IMetaDataImport::GetNameFromToken, rometadataapi/IMetaDataImport::GetNameFromToken, winrt.imetadataimport_getnamefromtoken
 ms.prod: windows
 ms.technology: windows-sdk

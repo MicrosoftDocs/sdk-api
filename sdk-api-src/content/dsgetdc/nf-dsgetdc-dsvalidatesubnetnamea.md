@@ -7,7 +7,7 @@ old-location: ad\dsvalidatesubnetname.htm
 old-project: ad
 ms.assetid: bed49e08-4cb7-439c-bfb7-815263ec7568
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: DsValidateSubnetName, DsValidateSubnetName function [Active Directory], DsValidateSubnetNameA, DsValidateSubnetNameW, _glines_dsvalidatesubnetname, ad.dsvalidatesubnetname, dsgetdc/DsValidateSubnetName, dsgetdc/DsValidateSubnetNameA, dsgetdc/DsValidateSubnetNameW
 ms.prod: windows
 ms.technology: windows-sdk

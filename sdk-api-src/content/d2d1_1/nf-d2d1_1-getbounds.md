@@ -4,10 +4,10 @@ title: GetBounds function
 author: windows-sdk-content
 description: Retrieves the bounds of the geometry.
 old-location: direct2d\id2d1geometry_getbounds.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 3932189a-7c6b-4144-9d4a-32d2aba70835
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: GetBounds, GetBounds methods [Direct2D], ID2D1Geometry::GetBounds, d2d1_1/GetBounds, direct2d.id2d1geometry_getbounds
 ms.prod: windows
 ms.technology: windows-sdk

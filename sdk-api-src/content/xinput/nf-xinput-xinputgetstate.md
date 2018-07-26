@@ -7,7 +7,7 @@ old-location: xinput\xinputgetstate.htm
 old-project: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetState(DWORD,XINPUT_STATE*@)
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/23/2018
 ms.keywords: XInputGetState, XInputGetState function [XInput Game Controller APIs], xinput.xinputgetstate, xinput/XInputGetState
 ms.prod: windows
 ms.technology: windows-sdk

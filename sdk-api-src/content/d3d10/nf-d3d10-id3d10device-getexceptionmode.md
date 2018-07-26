@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_getexceptionmode.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_getexceptionmode.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 54b3d5fb-a9f3-6db2-1a8d-4bbc06e45e39, GetExceptionMode, GetExceptionMode method [Direct3D 10], GetExceptionMode method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GetExceptionMode method, ID3D10Device.GetExceptionMode, ID3D10Device::GetExceptionMode, d3d10/ID3D10Device::GetExceptionMode, direct3d10.id3d10device_getexceptionmode
 ms.prod: windows
 ms.technology: windows-sdk

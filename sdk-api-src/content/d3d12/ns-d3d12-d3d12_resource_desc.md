@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_resource_desc.htm
 old-project: direct3d12
 ms.assetid: 908BCB65-A7C6-473D-81AB-CCCA029AB6F9
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_RESOURCE_DESC, D3D12_RESOURCE_DESC structure, d3d12/D3D12_RESOURCE_DESC, direct3d12.d3d12_resource_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes a resource, such as a texture.
+Describes a resource, such as a texture.
           This structure is used extensively.
         
 
@@ -63,71 +62,61 @@ req.irql:
 
 ### -field Dimension
 
-
-            One member of <a href="https://msdn.microsoft.com/E04F3124-01FB-4EE7-BDF8-4821F2F1FCEB">D3D12_RESOURCE_DIMENSION</a>, specifying the dimensions of the resource (for example, D3D12_RESOURCE_DIMENSION_TEXTURE1D), or whether it is a buffer ((D3D12_RESOURCE_DIMENSION_BUFFER).
+One member of <a href="https://msdn.microsoft.com/E04F3124-01FB-4EE7-BDF8-4821F2F1FCEB">D3D12_RESOURCE_DIMENSION</a>, specifying the dimensions of the resource (for example, D3D12_RESOURCE_DIMENSION_TEXTURE1D), or whether it is a buffer ((D3D12_RESOURCE_DIMENSION_BUFFER).
           
 
 
 ### -field Alignment
 
-
-            Specifies the alignment.
+Specifies the alignment.
           
 
 
 ### -field Width
 
-
-            Specifies the width of the resource.
+Specifies the width of the resource.
           
 
 
 ### -field Height
 
-
-            Specifies the height of the resource.
+Specifies the height of the resource.
           
 
 
 ### -field DepthOrArraySize
 
-
-            Specifies the depth of the resource, if it is 3D, or the array size if it is an array of 1D or 2D resources.
+Specifies the depth of the resource, if it is 3D, or the array size if it is an array of 1D or 2D resources.
           
 
 
 ### -field MipLevels
 
-
-            Specifies the number of MIP levels.
+Specifies the number of MIP levels.
           
 
 
 ### -field Format
 
-
-            Specifies one member of  <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>.
+Specifies one member of  <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>.
           
 
 
 ### -field SampleDesc
 
-
-            Specifies a <a href="https://msdn.microsoft.com/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a> structure.
+Specifies a <a href="https://msdn.microsoft.com/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a> structure.
           
 
 
 ### -field Layout
 
-
-            Specifies one member of <a href="https://msdn.microsoft.com/1C61B658-9CA1-493C-8DBC-86313D0D302F">D3D12_TEXTURE_LAYOUT</a>.
+Specifies one member of <a href="https://msdn.microsoft.com/1C61B658-9CA1-493C-8DBC-86313D0D302F">D3D12_TEXTURE_LAYOUT</a>.
           
 
 
 ### -field Flags
 
-
-            Bitwise-OR'd flags, as <a href="https://msdn.microsoft.com/EC9DA05A-D0C0-4642-8E49-9ED98B4F19B4">D3D12_RESOURCE_FLAGS</a> enumeration constants.
+Bitwise-OR'd flags, as <a href="https://msdn.microsoft.com/EC9DA05A-D0C0-4642-8E49-9ED98B4F19B4">D3D12_RESOURCE_FLAGS</a> enumeration constants.
           
 
 
@@ -135,8 +124,7 @@ req.irql:
 
 
 
-
-          Use this structure with:<ul>
+Use this structure with:<ul>
 <li>
 <a href="https://msdn.microsoft.com/B8D84D69-6B13-4E86-8EF6-A841354B1E5C">ID3D12Resource::GetDesc</a>
 </li>
@@ -155,8 +143,7 @@ req.irql:
 <li>
 <a href="https://msdn.microsoft.com/EB3715A9-5A73-45DA-A46F-7889188409A3">ID3D12Device::GetCopyableFootprints</a>
 </li>
-<li>
-              A number of the helper functions, refer to <a href="https://msdn.microsoft.com/095958A9-345B-45AE-8363-B353534044B2">Helper Structures and Functions for D3D12</a>.</li>
+<li>A number of the helper functions, refer to <a href="https://msdn.microsoft.com/095958A9-345B-45AE-8363-B353534044B2">Helper Structures and Functions for D3D12</a>.</li>
 </ul>
 
 
@@ -231,8 +218,7 @@ Refer to the D3D12_FORMAT_SUPPORT1_MIP field of <a href="https://msdn.microsoft.
 <i>Format</i> must be a valid format supported at the feature level of the device.
 
 <h3><a id="SampleDesc"></a><a id="sampledesc"></a><a id="SAMPLEDESC"></a>SampleDesc</h3>
-
- A <i>SampleDesc.Count</i> greater than 1 and/ or non-zero <i>Quality</i> are only supported for TEXTURE2D and when either D3D12_RESOURCE_FLAG_ALLOW_RENDER_TARGET or D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL are set.
+A <i>SampleDesc.Count</i> greater than 1 and/ or non-zero <i>Quality</i> are only supported for TEXTURE2D and when either D3D12_RESOURCE_FLAG_ALLOW_RENDER_TARGET or D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL are set.
 
  The following are unsupported:
 

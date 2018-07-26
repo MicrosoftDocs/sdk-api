@@ -4,10 +4,10 @@ title: D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES
 author: windows-sdk-content
 description: Contains the starting point and endpoint of the gradient axis for an ID2D1LinearGradientBrush.
 old-location: direct2d\D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 753278f0-d8a1-4dc5-b976-a00f8aab357e
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES, D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES structure [Direct2D], d2d1/D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES, direct2d.D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-    Contains the starting point and endpoint of the gradient axis for an <a href="https://msdn.microsoft.com/bbb5e36a-d13d-448e-8686-d14ee99b1ccb">ID2D1LinearGradientBrush</a>. 
+Contains the starting point and endpoint of the gradient axis for an <a href="https://msdn.microsoft.com/bbb5e36a-d13d-448e-8686-d14ee99b1ccb">ID2D1LinearGradientBrush</a>. 
 
 
 ## -struct-fields
@@ -111,8 +110,7 @@ if (SUCCEEDED(hr))
 </td>
 </tr>
 </table></span></div>
-
-        For more information about creating and using linear gradient brushes, see 
+For more information about creating and using linear gradient brushes, see 
         the <a href="https://msdn.microsoft.com/3cf5acc6-2f17-49d4-aca5-a84a846d1749">How to Create a Linear Gradient Brush</a> topic and 
         the <a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>.
 

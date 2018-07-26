@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdocument_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3md0_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IFaxDocument, IFaxDocument interface [Fax Service], IFaxDocument interface [Fax Service],described, _mfax_faxdocument_cpp, fax._mfax_faxdocument_cpp, faxcomex/IFaxDocument
 ms.prod: windows
 ms.technology: windows-sdk

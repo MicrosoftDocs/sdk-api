@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflection.htm
 old-project: direct3d11
 ms.assetid: a28cca72-7f2d-416a-bfa9-4d1f71fc98d5
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 83fba8f9-987e-26d3-4909-fd45ac6e9df2, ID3D11ShaderReflection, ID3D11ShaderReflection interface [Direct3D 11], ID3D11ShaderReflection interface [Direct3D 11],described, d3d11shader/ID3D11ShaderReflection, direct3d11.id3d11shaderreflection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -246,8 +246,7 @@ Indicates whether a shader is a sample frequency shader.
 
 
 
-
-            An <b>ID3D11ShaderReflection</b> interface can be retrieved for a shader by using  <a href="https://msdn.microsoft.com/library/Dd607334(v=VS.85).aspx">D3DReflect</a>.  The following code illustrates retrieving a <b>ID3D11ShaderReflection</b>  from a shader.
+An <b>ID3D11ShaderReflection</b> interface can be retrieved for a shader by using  <a href="https://msdn.microsoft.com/library/Dd607334(v=VS.85).aspx">D3DReflect</a>.  The following code illustrates retrieving a <b>ID3D11ShaderReflection</b>  from a shader.
           
 
 <div class="code"><span codelanguage=""><table>

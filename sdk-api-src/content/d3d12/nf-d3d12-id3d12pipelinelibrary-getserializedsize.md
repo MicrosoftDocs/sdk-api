@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12pipelinelibrary_getserializedsize.htm
 old-project: direct3d12
 ms.assetid: 45DA092B-AB9B-43BE-8F5C-AE05485EA3C1
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetSerializedSize, GetSerializedSize method, GetSerializedSize method,ID3D12PipelineLibrary interface, ID3D12PipelineLibrary interface,GetSerializedSize method, ID3D12PipelineLibrary.GetSerializedSize, ID3D12PipelineLibrary::GetSerializedSize, d3d12/ID3D12PipelineLibrary::GetSerializedSize, direct3d12.id3d12pipelinelibrary_getserializedsize
 ms.prod: windows
 ms.technology: windows-sdk

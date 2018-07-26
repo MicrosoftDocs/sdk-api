@@ -7,7 +7,7 @@ old-location: xaudio2\ixapo_interface_lockforprocess.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.LockForProcess(UINT32,const XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS,UINT32,const XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 07/23/2018
 ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],LockForProcess method, IXAPO.LockForProcess, IXAPO::LockForProcess, LockForProcess, LockForProcess method [XAudio2 Audio Mixing APIs], LockForProcess method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::LockForProcess, xaudio2.ixapo_interface_lockforprocess
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,25 +61,21 @@ Called by XAudio2 to lock the input and output configurations of an XAPO allowin
 
 ### -param InputLockedParameterCount
 
-
 Number of elements in <i>ppInputLockedParameters</i>. Must be within the <a href="https://msdn.microsoft.com/library/Ee419210(v=VS.85).aspx">XAPO_REGISTRATION_PROPERTIES</a>.MinInputBufferCount and <b>XAPO_REGISTRATION_PROPERTIES</b>.MaxInputBufferCount values passed to <a href="https://msdn.microsoft.com/library/Ee416373(v=VS.85).aspx">CXAPOBase::CXAPOBase</a>. 
 
 
 
 ### -param pInputLockedParameters
 
-
 Array of input <a href="https://msdn.microsoft.com/library/Ee419208(v=VS.85).aspx">XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS</a> structures. <i>pInputLockedParameters</i> may be NULL if <i>InputLockedParameterCount</i> is 0, otherwise it must have <i>InputLockedParameterCount</i> elements.
 
 
 ### -param OutputLockedParameterCount
 
-
 Number of elements in ppOutputLockedParameters. Must be within the <a href="https://msdn.microsoft.com/library/Ee419210(v=VS.85).aspx">XAPO_REGISTRATION_PROPERTIES</a>.MinOutputBufferCount and <b>XAPO_REGISTRATION_PROPERTIES</b>.MaxOutputBufferCount values passed to <a href="https://msdn.microsoft.com/library/Ee416373(v=VS.85).aspx">CXAPOBase::CXAPOBase</a>. If the XAPO_FLAG_BUFFERCOUNT_MUST_MATCH flag was specified in <b>XAPO_REGISTRATION_PROPERTIES</b>.Flags then <i>OutputLockedParameterCount</i> must equal <i>InputLockedParameterCount</i>.
 
 
 ### -param pOutputLockedParameters
-
 
 Array of output <a href="https://msdn.microsoft.com/library/Ee419208(v=VS.85).aspx">XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS</a> structures. <i>pOutputLockedParameters</i> may be NULL if <i>OutputLockedParameterCount</i> is 0, otherwise it must have <i>OutputLockedParameterCount</i> elements.
 

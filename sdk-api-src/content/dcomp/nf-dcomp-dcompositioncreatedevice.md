@@ -7,7 +7,7 @@ old-location: directcomp\dcompositioncreatedevice.htm
 old-project: directcomp
 ms.assetid: 3eb5d698-3cbf-456e-aa5f-395687c68c13
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/23/2018
 ms.keywords: DCompositionCreateDevice, DCompositionCreateDevice function [DirectComposition], dcomp/DCompositionCreateDevice, directcomp.dcompositioncreatedevice
 ms.prod: windows
 ms.technology: windows-sdk

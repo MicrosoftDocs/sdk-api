@@ -7,7 +7,7 @@ old-location: xaudio2\ixapo_interface_process.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.Process(UINT32,const XAPO_PROCESS_BUFFER_PARAMETERS,UINT32,XAPO_PROCESS_BUFFER_PARAMETERS@,BOOL)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 07/23/2018
 ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],Process method, IXAPO.Process, IXAPO::Process, Process, Process method [XAudio2 Audio Mixing APIs], Process method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::Process, xaudio2.ixapo_interface_process
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,12 @@ Runs the XAPO's digital signal processing (DSP) code on the given input and outp
 
 ### -param InputProcessParameterCount [in]
 
-
 Number of elements in pInputProcessParameters. 
 
 <div class="alert"><b>Note</b>  XAudio2 currently supports only one input stream and one output stream.</div>
 <div> </div>
 
 ### -param pInputProcessParameters [in]
-
 
 Input array of <a href="https://msdn.microsoft.com/library/Ee419209(v=VS.85).aspx">XAPO_PROCESS_BUFFER_PARAMETERS</a> structures. 
 
@@ -86,7 +84,6 @@ Output array of <a href="https://msdn.microsoft.com/library/Ee419209(v=VS.85).as
 
 
 ### -param IsEnabled
-
 
 TRUE to process normally; FALSE to process thru. See Remarks for additional information.
 

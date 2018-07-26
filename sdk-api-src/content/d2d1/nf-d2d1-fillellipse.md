@@ -4,10 +4,10 @@ title: FillEllipse function
 author: windows-sdk-content
 description: Paints the interior of the specified ellipse.
 old-location: direct2d\id2d1rendertarget_fillellipse.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 149fb303-d2e8-416c-b28f-8bc5f1482ba6
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: FillEllipse, FillEllipse methods [Direct2D], ID2D1RenderTarget::FillEllipse, d2d1/FillEllipse, direct2d.id2d1rendertarget_fillellipse
 ms.prod: windows
 ms.technology: windows-sdk

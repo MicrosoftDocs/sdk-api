@@ -4,10 +4,10 @@ title: IAzTask::DeleteTask
 author: windows-sdk-content
 description: Removes the IAzTask object with the specified name from the task.
 old-location: security\iaztask_deletetask.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 1e1288ff-d67b-4180-bfd0-63b81df8f99b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: AzTask object [Security],DeleteTask method, DeleteTask, DeleteTask method [Security], DeleteTask method [Security],AzTask object, DeleteTask method [Security],IAzTask interface, IAzTask interface [Security],DeleteTask method, IAzTask.DeleteTask, IAzTask::DeleteTask, azroles/IAzTask::DeleteTask, security.iaztask_deletetask
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessage_recipient.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5vn8.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxOutgoingMessage object [Fax Service],Recipient property, FaxOutgoingMessage.Recipient, IFaxOutgoingMessage.get_Recipient, IFaxOutgoingMessage::get_Recipient, Recipient property [Fax Service], Recipient property [Fax Service],FaxOutgoingMessage object, _mfax_faxoutgoingmessage.recipient, fax._mfax_faxoutgoingmessage_recipient, get_Recipient
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\drawpatrect.htm
 old-project: printdocs
 ms.assetid: 8b374a0e-8ad0-40d4-a082-e90aff6336ba
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: "*PDRAWPATRECT, DRAWPATRECT, DRAWPATRECT structure [Windows GDI], PDRAWPATRECT, PDRAWPATRECT structure pointer [Windows GDI], _DRAWPATRECT, _win32_DRAWPATRECT_str, gdi.drawpatrect, wingdi/DRAWPATRECT, wingdi/PDRAWPATRECT"
 ms.prod: windows
 ms.technology: windows-sdk

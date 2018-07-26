@@ -4,10 +4,10 @@ title: D2D1_GAMMATRANSFER_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Gamma transfer effect.
 old-location: direct2d\d2d1_gammatransfer_prop.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 3A2344BC-8A47-45E7-B26A-8124892F3F27
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_GAMMATRANSFER_PROP, D2D1_GAMMATRANSFER_PROP enumeration [Direct2D], D2D1_GAMMATRANSFER_PROP_ALPHA_AMPLITUDE, D2D1_GAMMATRANSFER_PROP_ALPHA_DISABLE, D2D1_GAMMATRANSFER_PROP_ALPHA_EXPONENT, D2D1_GAMMATRANSFER_PROP_ALPHA_OFFSET, D2D1_GAMMATRANSFER_PROP_BLUE_AMPLITUDE, D2D1_GAMMATRANSFER_PROP_BLUE_DISABLE, D2D1_GAMMATRANSFER_PROP_BLUE_EXPONENT, D2D1_GAMMATRANSFER_PROP_BLUE_OFFSET, D2D1_GAMMATRANSFER_PROP_CLAMP_OUTPUT, D2D1_GAMMATRANSFER_PROP_GREEN_AMPLITUDE, D2D1_GAMMATRANSFER_PROP_GREEN_DISABLE, D2D1_GAMMATRANSFER_PROP_GREEN_EXPONENT, D2D1_GAMMATRANSFER_PROP_GREEN_OFFSET, D2D1_GAMMATRANSFER_PROP_RED_AMPLITUDE, D2D1_GAMMATRANSFER_PROP_RED_DISABLE, D2D1_GAMMATRANSFER_PROP_RED_EXPONENT, D2D1_GAMMATRANSFER_PROP_RED_OFFSET, d2d1effects/D2D1_GAMMATRANSFER_PROP, d2d1effects/D2D1_GAMMATRANSFER_PROP_ALPHA_AMPLITUDE, d2d1effects/D2D1_GAMMATRANSFER_PROP_ALPHA_DISABLE, d2d1effects/D2D1_GAMMATRANSFER_PROP_ALPHA_EXPONENT, d2d1effects/D2D1_GAMMATRANSFER_PROP_ALPHA_OFFSET, d2d1effects/D2D1_GAMMATRANSFER_PROP_BLUE_AMPLITUDE, d2d1effects/D2D1_GAMMATRANSFER_PROP_BLUE_DISABLE, d2d1effects/D2D1_GAMMATRANSFER_PROP_BLUE_EXPONENT, d2d1effects/D2D1_GAMMATRANSFER_PROP_BLUE_OFFSET, d2d1effects/D2D1_GAMMATRANSFER_PROP_CLAMP_OUTPUT, d2d1effects/D2D1_GAMMATRANSFER_PROP_GREEN_AMPLITUDE, d2d1effects/D2D1_GAMMATRANSFER_PROP_GREEN_DISABLE, d2d1effects/D2D1_GAMMATRANSFER_PROP_GREEN_EXPONENT, d2d1effects/D2D1_GAMMATRANSFER_PROP_GREEN_OFFSET, d2d1effects/D2D1_GAMMATRANSFER_PROP_RED_AMPLITUDE, d2d1effects/D2D1_GAMMATRANSFER_PROP_RED_DISABLE, d2d1effects/D2D1_GAMMATRANSFER_PROP_RED_EXPONENT, d2d1effects/D2D1_GAMMATRANSFER_PROP_RED_OFFSET, direct2d.d2d1_gammatransfer_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Identifiers for properties of the <a href="https://msdn.microsoft.com/0E0455CA-CFCA-4C4F-9DFA-1DB6A5205F6A">Gamma transfer effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/0E0455CA-CFCA-4C4F-9DFA-1DB6A5205F6A">Gamma transfer effect</a>.
         
 
 
@@ -62,8 +61,7 @@ req.irql:
 
 ### -field D2D1_GAMMATRANSFER_PROP_RED_AMPLITUDE
 
-
-            The amplitude of the gamma transfer function for the Red channel.
+The amplitude of the gamma transfer function for the Red channel.
             
 
 The type is FLOAT.
@@ -73,8 +71,7 @@ The default value is 1.0f.
 
 ### -field D2D1_GAMMATRANSFER_PROP_RED_EXPONENT
 
-
-            The exponent of the gamma transfer function for the Red channel.
+The exponent of the gamma transfer function for the Red channel.
             
 
 The type is FLOAT.
@@ -84,8 +81,7 @@ The default value is 1.0f.
 
 ### -field D2D1_GAMMATRANSFER_PROP_RED_OFFSET
 
-
-            The offset of the gamma transfer function for the Red channel.
+The offset of the gamma transfer function for the Red channel.
             
 
 The type is FLOAT.
@@ -95,8 +91,7 @@ The default value is 0.0f.
 
 ### -field D2D1_GAMMATRANSFER_PROP_RED_DISABLE
 
-
-            If you set this to TRUE it does not apply the transfer function to the Red channel. An identity transfer function is used.
+If you set this to TRUE it does not apply the transfer function to the Red channel. An identity transfer function is used.
             If you set this to FALSE it applies the gamma transfer function to the Red channel.
             
 
@@ -107,8 +102,7 @@ The default value is FALSE.
 
 ### -field D2D1_GAMMATRANSFER_PROP_GREEN_AMPLITUDE
 
-
-            The amplitude of the gamma transfer function for the Green channel.
+The amplitude of the gamma transfer function for the Green channel.
             
 
 The type is FLOAT.
@@ -118,8 +112,7 @@ The default value is 1.0f.
 
 ### -field D2D1_GAMMATRANSFER_PROP_GREEN_EXPONENT
 
-
-            The exponent of the gamma transfer function for the Green channel.
+The exponent of the gamma transfer function for the Green channel.
             
 
 The type is FLOAT.
@@ -129,8 +122,7 @@ The default value is 1.0f.
 
 ### -field D2D1_GAMMATRANSFER_PROP_GREEN_OFFSET
 
-
-            The offset of the gamma transfer function for the Green channel.
+The offset of the gamma transfer function for the Green channel.
             
 
 The type is FLOAT.
@@ -140,8 +132,7 @@ The default value is 0.0f.
 
 ### -field D2D1_GAMMATRANSFER_PROP_GREEN_DISABLE
 
-
-            If you set this to TRUE it does not apply the transfer function to the Green channel. An identity transfer function is used.
+If you set this to TRUE it does not apply the transfer function to the Green channel. An identity transfer function is used.
             If you set this to FALSE it applies the gamma transfer function to the Green channel.
             
 
@@ -152,8 +143,7 @@ The default value is FALSE.
 
 ### -field D2D1_GAMMATRANSFER_PROP_BLUE_AMPLITUDE
 
-
-            The amplitude of the gamma transfer function for the Blue channel.
+The amplitude of the gamma transfer function for the Blue channel.
             
 
 The type is FLOAT.
@@ -163,8 +153,7 @@ The default value is 1.0f.
 
 ### -field D2D1_GAMMATRANSFER_PROP_BLUE_EXPONENT
 
-
-            The exponent of the gamma transfer function for the Blue channel.
+The exponent of the gamma transfer function for the Blue channel.
             
 
 The type is FLOAT.
@@ -174,8 +163,7 @@ The default value is 1.0f.
 
 ### -field D2D1_GAMMATRANSFER_PROP_BLUE_OFFSET
 
-
-            The offset of the gamma transfer function for the Blue channel.
+The offset of the gamma transfer function for the Blue channel.
             
 
 The type is FLOAT.
@@ -185,8 +173,7 @@ The default value is 0.0f.
 
 ### -field D2D1_GAMMATRANSFER_PROP_BLUE_DISABLE
 
-
-            If you set this to TRUE it does not apply the transfer function to the Blue channel. An identity transfer function is used.
+If you set this to TRUE it does not apply the transfer function to the Blue channel. An identity transfer function is used.
             If you set this to FALSE it applies the gamma transfer function to the Blue channel.
             
 
@@ -197,8 +184,7 @@ The default value is FALSE.
 
 ### -field D2D1_GAMMATRANSFER_PROP_ALPHA_AMPLITUDE
 
-
-            The amplitude of the gamma transfer function for the Alpha channel.
+The amplitude of the gamma transfer function for the Alpha channel.
             
 
 The type is FLOAT.
@@ -208,8 +194,7 @@ The default value is 1.0f.
 
 ### -field D2D1_GAMMATRANSFER_PROP_ALPHA_EXPONENT
 
-
-            The exponent of the gamma transfer function for the Alpha channel.
+The exponent of the gamma transfer function for the Alpha channel.
             
 
 The type is FLOAT.
@@ -219,8 +204,7 @@ The default value is 1.0f.
 
 ### -field D2D1_GAMMATRANSFER_PROP_ALPHA_OFFSET
 
-
-            The offset of the gamma transfer function for the Alpha channel.
+The offset of the gamma transfer function for the Alpha channel.
             
 
 The type is FLOAT.
@@ -230,8 +214,7 @@ The default value is 0.0f.
 
 ### -field D2D1_GAMMATRANSFER_PROP_ALPHA_DISABLE
 
-
-            If you set this to TRUE it does not apply the transfer function to the Alpha channel. An identity transfer function is used.
+If you set this to TRUE it does not apply the transfer function to the Alpha channel. An identity transfer function is used.
             If you set this to FALSE it applies the gamma transfer function to the Alpha channel.
             
 
@@ -242,13 +225,11 @@ The default value is FALSE.
 
 ### -field D2D1_GAMMATRANSFER_PROP_CLAMP_OUTPUT
 
-
-            Whether the effect clamps color values to between 0 and 1 before the effect passes the values to the next effect in the graph.
+Whether the effect clamps color values to between 0 and 1 before the effect passes the values to the next effect in the graph.
             The effect clamps the values before it premultiplies the alpha.
             
 
-
-              If you set this to TRUE the effect will clamp the values. If you set this to FALSE, the effect will not clamp the color values,
+If you set this to TRUE the effect will clamp the values. If you set this to FALSE, the effect will not clamp the color values,
               but other effects and the output surface may clamp the values if they are not of high enough precision.
             
 

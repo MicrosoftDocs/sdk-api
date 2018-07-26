@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_gpu_descriptor_handle.htm
 old-project: direct3d12
 ms.assetid: 16D09788-D527-4D9F-A6EF-648F42A426B5
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_GPU_DESCRIPTOR_HANDLE, D3D12_GPU_DESCRIPTOR_HANDLE structure, d3d12/D3D12_GPU_DESCRIPTOR_HANDLE, direct3d12.d3d12_gpu_descriptor_handle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-        Describes a GPU descriptor handle.
+Describes a GPU descriptor handle.
       
 
 
@@ -62,8 +61,7 @@ req.irql:
 
 ### -field ptr
 
-
-            The address of the descriptor.
+The address of the descriptor.
           
 
 
@@ -71,12 +69,10 @@ req.irql:
 
 
 
-
-        This structure is returned by <a href="https://msdn.microsoft.com/63A031A1-EF53-4308-A8F9-179E21C7CE7B">ID3D12DescriptorHeap::GetGPUDescriptorHandleForHeapStart</a>.
+This structure is returned by <a href="https://msdn.microsoft.com/63A031A1-EF53-4308-A8F9-179E21C7CE7B">ID3D12DescriptorHeap::GetGPUDescriptorHandleForHeapStart</a>.
       
 
-
-        This structure is passed into the following methods:
+This structure is passed into the following methods:
         
 
 <ul>

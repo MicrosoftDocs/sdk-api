@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingjobs_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_28vn_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IFaxIncomingJobs, IFaxIncomingJobs interface [Fax Service], IFaxIncomingJobs interface [Fax Service],described, _mfax_faxincomingjobs_cpp, fax._mfax_faxincomingjobs_cpp, faxcomex/IFaxIncomingJobs
 ms.prod: windows
 ms.technology: windows-sdk

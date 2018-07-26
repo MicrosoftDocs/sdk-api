@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12pipelinelibrary_serialize.htm
 old-project: direct3d12
 ms.assetid: FD81B464-1E93-47CF-9D95-8F8F64C39CD6
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12PipelineLibrary interface,Serialize method, ID3D12PipelineLibrary.Serialize, ID3D12PipelineLibrary::Serialize, Serialize, Serialize method, Serialize method,ID3D12PipelineLibrary interface, d3d12/ID3D12PipelineLibrary::Serialize, direct3d12.id3d12pipelinelibrary_serialize
 ms.prod: windows
 ms.technology: windows-sdk

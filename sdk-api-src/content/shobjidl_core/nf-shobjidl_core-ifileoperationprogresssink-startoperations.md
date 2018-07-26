@@ -7,7 +7,7 @@ old-location: shell\IFileOperationProgressSink_StartOperations.htm
 old-project: shell
 ms.assetid: 8b9e4423-ead7-44be-b960-5ee83025f42a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],StartOperations method, IFileOperationProgressSink.StartOperations, IFileOperationProgressSink::StartOperations, StartOperations, StartOperations method [Windows Shell], StartOperations method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_StartOperations, shell.IFileOperationProgressSink_StartOperations, shobjidl_core/IFileOperationProgressSink::StartOperations
 ms.prod: windows
 ms.technology: windows-sdk

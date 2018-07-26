@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingjob_cancel_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6g4s.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: Cancel, Cancel method [Fax Service], Cancel method [Fax Service],FaxIncomingJob object, FaxIncomingJob object [Fax Service],Cancel method, FaxIncomingJob.Cancel, IFaxIncomingJob.Cancel, IFaxIncomingJob::Cancel, _mfax_faxincomingjob.cancel, fax._mfax_faxincomingjob_cancel, fax._mfax_faxincomingjob_cancel_vb
 ms.prod: windows
 ms.technology: windows-sdk

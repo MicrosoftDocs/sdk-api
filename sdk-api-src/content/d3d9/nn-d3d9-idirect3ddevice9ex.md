@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9ex.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: 6755c62f-1ee8-9783-0c97-7e582de29a4b, IDirect3DDevice9Ex, IDirect3DDevice9Ex interface [Direct3D 9], IDirect3DDevice9Ex interface [Direct3D 9],described, d3d9/IDirect3DDevice9Ex, direct3d9.idirect3ddevice9ex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -203,8 +203,7 @@ Set the number of frames that the system is allowed to queue for rendering.
 <div class="alert"><b>Note</b>  
 <a href="https://msdn.microsoft.com/library/Bb174348(v=VS.85).aspx">TestCooperativeLevel</a> is no longer available for use. Instead, use <a href="https://msdn.microsoft.com/library/Bb174338(v=VS.85).aspx">CheckDeviceState</a>.</div>
 <div> </div>
-
-      Reports the current cooperative-level status of the Direct3D device for a windowed or full-screen application.
+Reports the current cooperative-level status of the Direct3D device for a windowed or full-screen application.
 
 </td>
 </tr>

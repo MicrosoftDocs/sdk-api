@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationStructureChangedEventHandler.htm
 old-project: WinAuto
 ms.assetid: a28ad163-d931-432a-a786-646a10baaf86
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IUIAutomationStructureChangedEventHandler, IUIAutomationStructureChangedEventHandler interface [Windows Accessibility], IUIAutomationStructureChangedEventHandler interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationStructureChangedEventHandler, uiauto_IUIAutomationStructureChangedEventHandler, uiautomationclient/IUIAutomationStructureChangedEventHandler, winauto.uiauto_IUIAutomationStructureChangedEventHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: winprog\_producedotstuffedcontext.htm
 old-project: devnotes
 ms.assetid: 6fbac935-339d-4744-9359-7b3b85bfb7c6
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: ProduceDotStuffedContext, ProduceDotStuffedContext function [Windows API], filehc/ProduceDotStuffedContext, winprog._producedotstuffedcontext
 ms.prod: windows
 ms.technology: windows-sdk

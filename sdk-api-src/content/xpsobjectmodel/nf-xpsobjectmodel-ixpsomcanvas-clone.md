@@ -7,7 +7,7 @@ old-location: xps\ixpsomcanvas_clone.htm
 old-project: printdocs
 ms.assetid: 2411fca6-2d36-4704-83a6-0086c6be0e2a
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],Clone method, IXpsOMCanvas.Clone, IXpsOMCanvas::Clone, xps.ixpsomcanvas_clone, xpsobjectmodel/IXpsOMCanvas::Clone
 ms.prod: windows
 ms.technology: windows-sdk

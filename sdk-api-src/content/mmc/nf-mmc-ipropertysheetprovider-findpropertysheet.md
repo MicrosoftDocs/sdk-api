@@ -4,10 +4,10 @@ title: IPropertySheetProvider::FindPropertySheet
 author: windows-sdk-content
 description: Determines whether a specific property sheet exists.
 old-location: mmc\ipropertysheetprovider_findpropertysheet.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 14f3a2b7-9e14-4068-a85a-20c41d7e4a4d
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: FindPropertySheet, FindPropertySheet method [MMC], FindPropertySheet method [MMC],IPropertySheetProvider interface, IPropertySheetProvider interface [MMC],FindPropertySheet method, IPropertySheetProvider.FindPropertySheet, IPropertySheetProvider::FindPropertySheet, _slate_ipropertysheetprovider_findpropertysheet, mmc.ipropertysheetprovider_findpropertysheet, mmc/IPropertySheetProvider::FindPropertySheet
 ms.prod: windows
 ms.technology: windows-sdk

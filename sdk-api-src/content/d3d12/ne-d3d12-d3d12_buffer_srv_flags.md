@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_buffer_srv_flags.htm
 old-project: direct3d12
 ms.assetid: 153F82A2-077A-4D42-8FC3-C3370999AF6C
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_BUFFER_SRV_FLAGS, D3D12_BUFFER_SRV_FLAGS enumeration, D3D12_BUFFER_SRV_FLAG_NONE, D3D12_BUFFER_SRV_FLAG_RAW, d3d12/D3D12_BUFFER_SRV_FLAGS, d3d12/D3D12_BUFFER_SRV_FLAG_NONE, d3d12/D3D12_BUFFER_SRV_FLAG_RAW, direct3d12.d3d12_buffer_srv_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,15 +60,13 @@ Identifies how to view a buffer resource.
 
 ### -field D3D12_BUFFER_SRV_FLAG_NONE
 
-
-            Indicates a default view.
+Indicates a default view.
           
 
 
 ### -field D3D12_BUFFER_SRV_FLAG_RAW
 
-
-            View the buffer as raw. For more info about raw viewing of buffers, see <a href="https://msdn.microsoft.com/9e991ab0-9648-484a-9a2c-5391ee5abf20">Raw Views of Buffers</a>.
+View the buffer as raw. For more info about raw viewing of buffers, see <a href="https://msdn.microsoft.com/9e991ab0-9648-484a-9a2c-5391ee5abf20">Raw Views of Buffers</a>.
           
 
 
@@ -76,8 +74,7 @@ Identifies how to view a buffer resource.
 
 
 
-
-          This enumeration is used by <a href="https://msdn.microsoft.com/FD5FBA65-4C70-487F-8D93-0EC5668BCE4A">D3D12_BUFFER_SRV</a>.
+This enumeration is used by <a href="https://msdn.microsoft.com/FD5FBA65-4C70-487F-8D93-0EC5668BCE4A">D3D12_BUFFER_SRV</a>.
         
 
 

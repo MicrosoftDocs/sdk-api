@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_tex2d_srv1.htm
 old-project: direct3d11
 ms.assetid: 5C5D8BF8-1B3E-4FEF-ACD7-FCEAEE335DFE
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: D3D11_TEX2D_SRV1, D3D11_TEX2D_SRV1 structure [Direct3D 11], d3d11_3/D3D11_TEX2D_SRV1, direct3d11.d3d11_tex2d_srv1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,21 +60,17 @@ Describes the subresource from a 2D texture to use in a shader-resource view.
 
 ### -field MostDetailedMip
 
-
-            Index of the most detailed mipmap level to use; this number is between 0 and (<b>MipLevels</b> (from the original Texture2D for which 
-            <a href="https://msdn.microsoft.com/50E072F2-EC3E-4BED-A230-5447ECD1E7D6">ID3D11Device3::CreateShaderResourceView1</a>
-            creates a view) - 1 ).
+Index of the most detailed mipmap level to use; this number is between 0 and (<b>MipLevels</b> (from the original Texture2D for which 
+            <a href="https://msdn.microsoft.com/50E072F2-EC3E-4BED-A230-5447ECD1E7D6">ID3D11Device3::CreateShaderResourceView1</a>creates a view) - 1 ).
           
 
 
 ### -field MipLevels
 
-
-              The maximum number of mipmap levels for the view of the texture. See the remarks in <a href="https://msdn.microsoft.com/255e97ac-e978-4a70-a908-f4537337dfeb">D3D11_TEX1D_SRV</a>.
+The maximum number of mipmap levels for the view of the texture. See the remarks in <a href="https://msdn.microsoft.com/255e97ac-e978-4a70-a908-f4537337dfeb">D3D11_TEX1D_SRV</a>.
             
 
-
-              Set to -1 to indicate all the mipmap levels from <b>MostDetailedMip</b> on down to least detailed.
+Set to -1 to indicate all the mipmap levels from <b>MostDetailedMip</b> on down to least detailed.
             
 
 

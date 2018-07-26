@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_pushcopyofstoragefilter.htm
 old-project: direct3d12
 ms.assetid: BA8D2BAC-4947-4ED7-A397-5102F74A65BD
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12InfoQueue interface,PushCopyOfStorageFilter method, ID3D12InfoQueue.PushCopyOfStorageFilter, ID3D12InfoQueue::PushCopyOfStorageFilter, PushCopyOfStorageFilter, PushCopyOfStorageFilter method, PushCopyOfStorageFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PushCopyOfStorageFilter, direct3d12.id3d12infoqueue_pushcopyofstoragefilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Push a copy of storage filter currently on the top of the storage-filter stack onto the storage-filter stack.
+Push a copy of storage filter currently on the top of the storage-filter stack onto the storage-filter stack.
 
 
 
@@ -69,8 +68,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-
-            This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>. 
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>. 
           
 
 

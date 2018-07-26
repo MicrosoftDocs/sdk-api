@@ -7,7 +7,7 @@ old-location: xinput\xinput_gamepad.htm
 old-project: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_GAMEPAD
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/23/2018
 ms.keywords: "*PXINPUT_GAMEPAD, PXINPUT_GAMEPAD, PXINPUT_GAMEPAD structure pointer [XInput Game Controller APIs], XINPUT_GAMEPAD, XINPUT_GAMEPAD structure [XInput Game Controller APIs], _XINPUT_GAMEPAD, xinput.xinput_gamepad, xinput/PXINPUT_GAMEPAD, xinput/XINPUT_GAMEPAD"
 ms.prod: windows
 ms.technology: windows-sdk

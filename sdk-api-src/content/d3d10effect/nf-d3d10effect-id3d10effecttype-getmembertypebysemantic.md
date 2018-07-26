@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effecttype_getmembertypebysemantic.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttype_getmembertypebysemantic.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetMemberTypeBySemantic, GetMemberTypeBySemantic method [Direct3D 10], GetMemberTypeBySemantic method [Direct3D 10],ID3D10EffectType interface, ID3D10EffectType interface [Direct3D 10],GetMemberTypeBySemantic method, ID3D10EffectType.GetMemberTypeBySemantic, ID3D10EffectType::GetMemberTypeBySemantic, a86e8e8d-7edd-b972-482f-a3cf67b96d16, d3d10effect/ID3D10EffectType::GetMemberTypeBySemantic, direct3d10.id3d10effecttype_getmembertypebysemantic
 ms.prod: windows
 ms.technology: windows-sdk

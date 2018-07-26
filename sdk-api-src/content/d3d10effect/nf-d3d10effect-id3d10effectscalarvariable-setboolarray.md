@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectscalarvariable_setboolarray.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_setboolarray.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 596545fb-be65-5d46-6b19-d6fd77f59c4b, ID3D10EffectScalarVariable interface [Direct3D 10],SetBoolArray method, ID3D10EffectScalarVariable.SetBoolArray, ID3D10EffectScalarVariable::SetBoolArray, SetBoolArray, SetBoolArray method [Direct3D 10], SetBoolArray method [Direct3D 10],ID3D10EffectScalarVariable interface, d3d10effect/ID3D10EffectScalarVariable::SetBoolArray, direct3d10.id3d10effectscalarvariable_setboolarray
 ms.prod: windows
 ms.technology: windows-sdk

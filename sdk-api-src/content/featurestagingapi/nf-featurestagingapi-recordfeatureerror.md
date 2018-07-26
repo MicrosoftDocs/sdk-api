@@ -7,7 +7,7 @@ old-location: winprog\recordfeatureerror.htm
 old-project: devnotes
 ms.assetid: 8179277A-9F98-4FF1-8368-9393B12023D0
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: RecordFeatureError, RecordFeatureError function [Windows API], featurestagingapi/RecordFeatureError, winprog.recordfeatureerror
 ms.prod: windows
 ms.technology: windows-sdk

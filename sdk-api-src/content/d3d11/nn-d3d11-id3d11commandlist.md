@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11commandlist.htm
 old-project: direct3d11
 ms.assetid: 432f1d21-bf13-4569-9c8f-04f5d2845150
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 6f498894-85b1-fe5f-e486-d12c2cb7a180, ID3D11CommandList, ID3D11CommandList interface [Direct3D 11], ID3D11CommandList interface [Direct3D 11],described, d3d11/ID3D11CommandList, direct3d11.id3d11commandlist
 ms.prod: windows
 ms.technology: windows-sdk

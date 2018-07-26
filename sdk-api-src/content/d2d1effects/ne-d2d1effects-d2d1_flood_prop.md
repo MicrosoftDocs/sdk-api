@@ -4,10 +4,10 @@ title: D2D1_FLOOD_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Flood effect.
 old-location: direct2d\d2d1_flood_prop.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: C8132218-70A8-4242-9D10-A2FD08099DD3
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_FLOOD_PROP, D2D1_FLOOD_PROP enumeration [Direct2D], D2D1_FLOOD_PROP_COLOR, d2d1effects/D2D1_FLOOD_PROP, d2d1effects/D2D1_FLOOD_PROP_COLOR, direct2d.d2d1_flood_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Identifiers for properties of the <a href="https://msdn.microsoft.com/F80A6DC0-E18C-4324-BE4A-FE40C5722988">Flood effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/F80A6DC0-E18C-4324-BE4A-FE40C5722988">Flood effect</a>.
         
 
 
@@ -62,8 +61,7 @@ req.irql:
 
 ### -field D2D1_FLOOD_PROP_COLOR
 
-
-            The color and opacity of the bitmap. This property is a D2D1_VECTOR_4F. The individual values for each channel are of type FLOAT, unbounded and unitless.
+The color and opacity of the bitmap. This property is a D2D1_VECTOR_4F. The individual values for each channel are of type FLOAT, unbounded and unitless.
             The effect doesn't modify the values for the channels.
             
 

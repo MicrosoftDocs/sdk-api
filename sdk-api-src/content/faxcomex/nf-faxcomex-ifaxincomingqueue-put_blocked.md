@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingqueue_blocked_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2rac.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: Blocked property [Fax Service], Blocked property [Fax Service],FaxIncomingQueue object, FaxIncomingQueue object [Fax Service],Blocked property, FaxIncomingQueue.Blocked, IFaxIncomingQueue.put_Blocked, IFaxIncomingQueue::put_Blocked, _mfax_faxincomingqueue.blocked, fax._mfax_faxincomingqueue_blocked, fax._mfax_faxincomingqueue_blocked_vb, put_Blocked
 ms.prod: windows
 ms.technology: windows-sdk

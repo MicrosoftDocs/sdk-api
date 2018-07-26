@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_iasetprimitivetopology.htm
 old-project: direct3d12
 ms.assetid: 743C48DF-C67E-48A0-B027-B2776E65968F
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: IASetPrimitiveTopology, IASetPrimitiveTopology method, IASetPrimitiveTopology method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,IASetPrimitiveTopology method, ID3D12GraphicsCommandList.IASetPrimitiveTopology, ID3D12GraphicsCommandList::IASetPrimitiveTopology, d3d12/ID3D12GraphicsCommandList::IASetPrimitiveTopology, direct3d12.id3d12graphicscommandlist_iasetprimitivetopology
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Bind information about the primitive type, and data order that describes input d
 
 Type: <b>D3D12_PRIMITIVE_TOPOLOGY</b>
 
-
-            The type of primitive and ordering of the primitive data (see <a href="https://msdn.microsoft.com/b4becdcc-cc19-4d5a-940b-b232ebedce68">D3D_PRIMITIVE_TOPOLOGY</a>).
+The type of primitive and ordering of the primitive data (see <a href="https://msdn.microsoft.com/b4becdcc-cc19-4d5a-940b-b232ebedce68">D3D_PRIMITIVE_TOPOLOGY</a>).
           
 
 
@@ -71,8 +70,7 @@ Type: <b>D3D12_PRIMITIVE_TOPOLOGY</b>
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 

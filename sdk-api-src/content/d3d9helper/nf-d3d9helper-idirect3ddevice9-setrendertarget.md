@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setrendertarget.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setrendertarget.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: 8a35c59a-95b2-ac1b-0fde-a907c6a0b520, IDirect3DDevice9 interface [Direct3D 9],SetRenderTarget method, IDirect3DDevice9.SetRenderTarget, IDirect3DDevice9::SetRenderTarget, SetRenderTarget, SetRenderTarget method [Direct3D 9], SetRenderTarget method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetRenderTarget, direct3d9.idirect3ddevice9__setrendertarget
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,11 +108,7 @@ Restrictions for using this method include the following:
 <li>The formats must be compatible for the render target and the depth stencil surface. See <a href="https://msdn.microsoft.com/library/Bb174308(v=VS.85).aspx">IDirect3D9::CheckDepthStencilMatch</a>.</li>
 <li>The size of the depth stencil surface must be greater than or equal to the size of the render target.</li>
 </ul>
-These restrictions are validated only when using the debug runtime when any of the <a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
-    
-     
-    
-    Draw methods are called.
+These restrictions are validated only when using the debug runtime when any of the <a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>Draw methods are called.
 
 Cube textures differ from other surfaces in that they are collections of surfaces. To call <b>IDirect3DDevice9::SetRenderTarget</b> with a cube texture, you must select an individual face using <a href="https://msdn.microsoft.com/library/Bb174331(v=VS.85).aspx">IDirect3DCubeTexture9::GetCubeMapSurface</a> and pass the resulting surface to <b>IDirect3DDevice9::SetRenderTarget</b>.
     

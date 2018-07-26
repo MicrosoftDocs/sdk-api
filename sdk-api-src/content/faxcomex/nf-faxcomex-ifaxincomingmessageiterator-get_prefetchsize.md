@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessageiterator_prefetchsize.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_64th.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxIncomingMessageIterator object [Fax Service],PrefetchSize property, FaxIncomingMessageIterator.PrefetchSize, IFaxIncomingMessageIterator.get_PrefetchSize, IFaxIncomingMessageIterator.put_PrefetchSize, IFaxIncomingMessageIterator::get_PrefetchSize, PrefetchSize property [Fax Service], PrefetchSize property [Fax Service],FaxIncomingMessageIterator object, _mfax_faxincomingmessageiterator.prefetchsize, fax._mfax_faxincomingmessageiterator_prefetchsize, get_PrefetchSize
 ms.prod: windows
 ms.technology: windows-sdk

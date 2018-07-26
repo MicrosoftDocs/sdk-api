@@ -4,10 +4,10 @@ title: IAzApplication::DeleteApplicationGroup
 author: windows-sdk-content
 description: Removes the IAzApplicationGroup object with the specified name from the IAzApplication object.
 old-location: security\iazapplication_deleteapplicationgroup.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: e2ec7ba1-5998-45bf-aacf-e519bb944d5e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: AzApplication object [Security],DeleteApplicationGroup method, DeleteApplicationGroup, DeleteApplicationGroup method [Security], DeleteApplicationGroup method [Security],AzApplication object, DeleteApplicationGroup method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteApplicationGroup method, IAzApplication.DeleteApplicationGroup, IAzApplication::DeleteApplicationGroup, azroles/IAzApplication::DeleteApplicationGroup, security.iazapplication_deleteapplicationgroup
 ms.prod: windows
 ms.technology: windows-sdk

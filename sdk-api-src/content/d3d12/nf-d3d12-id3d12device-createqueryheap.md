@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createqueryheap.htm
 old-project: direct3d12
 ms.assetid: 98B238D0-8E4D-46C1-AC2C-09473A972E71
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: CreateQueryHeap, CreateQueryHeap method, CreateQueryHeap method,ID3D12Device interface, ID3D12Device interface,CreateQueryHeap method, ID3D12Device.CreateQueryHeap, ID3D12Device::CreateQueryHeap, d3d12/ID3D12Device::CreateQueryHeap, direct3d12.id3d12device_createqueryheap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Creates a query heap.
+Creates a query heap.
           A query heap contains an array of queries.
         
 
@@ -65,8 +64,7 @@ req.irql:
 
 Type: <b>const <a href="https://msdn.microsoft.com/1B1CB0D8-B370-4D38-BDA9-21C58D6A8F15">D3D12_QUERY_HEAP_DESC</a>*</b>
 
-
-            Specifies the query heap in a <a href="https://msdn.microsoft.com/1B1CB0D8-B370-4D38-BDA9-21C58D6A8F15">D3D12_QUERY_HEAP_DESC</a> structure.
+Specifies the query heap in a <a href="https://msdn.microsoft.com/1B1CB0D8-B370-4D38-BDA9-21C58D6A8F15">D3D12_QUERY_HEAP_DESC</a> structure.
           
 
 
@@ -74,8 +72,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/1B1CB0D8-B370-4D38-BDA9-21C58
 
 Type: <b>REFIID</b>
 
-
-            Specifies a REFIID that uniquely identifies the heap.
+Specifies a REFIID that uniquely identifies the heap.
           
 
 
@@ -83,8 +80,7 @@ Type: <b>REFIID</b>
 
 Type: <b>void**</b>
 
-
-            Specifies a pointer to the heap, that will be returned on successful completion of the method.
+Specifies a pointer to the heap, that will be returned on successful completion of the method.
             <i>ppvHeap</i> can be NULL, to enable capability testing.
             When <i>ppvHeap</i> is NULL, no object will be created and S_FALSE will be returned when <i>pDesc</i> is valid.
           
@@ -96,8 +92,7 @@ Type: <b>void**</b>
 
 Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-
-            This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
 
 
@@ -107,8 +102,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRE
 
 
 
-
-          Refer to <a href="https://msdn.microsoft.com/D7403B5D-7E1B-4DD2-AE45-52E1153233C6">Queries</a> for more information.
+Refer to <a href="https://msdn.microsoft.com/D7403B5D-7E1B-4DD2-AE45-52E1153233C6">Queries</a> for more information.
         
 
 
@@ -174,8 +168,7 @@ ThrowIfFailed(m_device-&gt;CreateQueryHeap(&amp;queryHeapDesc, IID_PPV_ARGS(&amp
 </td>
 </tr>
 </table></span></div>
-
-            Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
           
 
 <div class="code"></div>

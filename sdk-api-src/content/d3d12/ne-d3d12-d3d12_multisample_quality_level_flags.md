@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_multisample_quality_level_flags.htm
 old-project: direct3d12
 ms.assetid: 78FBD851-879C-4C84-ACEA-58CF4ADE29A0
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG_NONE, D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG_TILED_RESOURCE, D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS, D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS enumeration, d3d12/D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG_NONE, d3d12/D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG_TILED_RESOURCE, d3d12/D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS, direct3d12.d3d12_multisample_quality_level_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Specifies options for determining quality levels.
+Specifies options for determining quality levels.
         
 
 
@@ -62,15 +61,13 @@ req.irql:
 
 ### -field D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG_NONE
 
-
-            No options are supported.
+No options are supported.
           
 
 
 ### -field D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG_TILED_RESOURCE
 
-
-            The number of quality levels can be determined for tiled resources.
+The number of quality levels can be determined for tiled resources.
           
 
 
@@ -78,8 +75,7 @@ req.irql:
 
 
 
-
-        This enum is used by the <a href="https://msdn.microsoft.com/F3ECEF7C-F4A4-4134-9671-21AE488D8183">D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS</a> structure.
+This enum is used by the <a href="https://msdn.microsoft.com/F3ECEF7C-F4A4-4134-9671-21AE488D8183">D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS</a> structure.
       
 
 

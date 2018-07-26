@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device3_createdeferredcontext3.htm
 old-project: direct3d11
 ms.assetid: 78B52E38-3256-4151-96DA-4C81A2A516CF
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: CreateDeferredContext3, CreateDeferredContext3 method [Direct3D 11], CreateDeferredContext3 method [Direct3D 11],ID3D11Device3 interface, ID3D11Device3 interface [Direct3D 11],CreateDeferredContext3 method, ID3D11Device3.CreateDeferredContext3, ID3D11Device3::CreateDeferredContext3, d3d11_3/ID3D11Device3::CreateDeferredContext3, direct3d11.id3d11device3_createdeferredcontext3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-          Creates a deferred context, which can record <a href="https://msdn.microsoft.com/4f581bc7-6c5e-4e56-b768-7f3cc5dbcb3e">command lists</a>.
+Creates a deferred context, which can record <a href="https://msdn.microsoft.com/4f581bc7-6c5e-4e56-b768-7f3cc5dbcb3e">command lists</a>.
         
 
 
@@ -65,8 +64,7 @@ req.irql:
 
 Type: <b>UINT</b>
 
-
-            Reserved for future use.  Pass 0.
+Reserved for future use.  Pass 0.
           
 
 
@@ -74,8 +72,7 @@ Type: <b>UINT</b>
 
 Type: <b>ID3D11DeviceContext3**</b>
 
-
-            Upon completion of the method, the passed pointer to an <a href="https://msdn.microsoft.com/65F462DB-5546-4B23-B438-60067FD60103">ID3D11DeviceContext3</a> interface pointer is initialized.
+Upon completion of the method, the passed pointer to an <a href="https://msdn.microsoft.com/65F462DB-5546-4B23-B438-60067FD60103">ID3D11DeviceContext3</a> interface pointer is initialized.
           
 
 
@@ -85,26 +82,20 @@ Type: <b>ID3D11DeviceContext3**</b>
 
 Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-
-              Returns S_OK if successful; otherwise, returns one of the following:
+Returns S_OK if successful; otherwise, returns one of the following:
             
 
 <ul>
-<li>
-                Returns <b>DXGI_ERROR_DEVICE_REMOVED</b> if the video card has been physically removed from the system, or a driver upgrade for the video card has occurred.
+<li>Returns <b>DXGI_ERROR_DEVICE_REMOVED</b> if the video card has been physically removed from the system, or a driver upgrade for the video card has occurred.
                 If this error occurs, you should destroy and recreate the device.
               </li>
-<li>
-                Returns <b>DXGI_ERROR_INVALID_CALL</b> if the
-                <b>CreateDeferredContext3</b>
-                method can't be called from the current context.
+<li>Returns <b>DXGI_ERROR_INVALID_CALL</b> if the
+                <b>CreateDeferredContext3</b>method can't be called from the current context.
                 For example, if the device was created with the <a href="https://msdn.microsoft.com/580c784a-17de-495c-9159-833f858ad155">D3D11_CREATE_DEVICE_SINGLETHREADED</a> value,  <b>CreateDeferredContext3</b> returns <b>DXGI_ERROR_INVALID_CALL</b>.
               </li>
-<li>
-                Returns <b>E_INVALIDARG</b> if the <i>ContextFlags</i> parameter is invalid.
+<li>Returns <b>E_INVALIDARG</b> if the <i>ContextFlags</i> parameter is invalid.
               </li>
-<li>
-                Returns <b>E_OUTOFMEMORY</b> if the app has exhausted available memory.
+<li>Returns <b>E_OUTOFMEMORY</b> if the app has exhausted available memory.
               </li>
 </ul>
 

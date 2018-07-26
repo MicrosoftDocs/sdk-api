@@ -7,7 +7,7 @@ old-location: direct3d9\d3d9l_idirect3dswapchain9.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\d3d9l_idirect3dswapchain9.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: 5cc4ce3b-e2da-a3fd-de25-b60e0d8d1030, IDirect3DSwapChain9Ex, IDirect3DSwapChain9Ex interface [Direct3D 9], IDirect3DSwapChain9Ex interface [Direct3D 9],described, d3d9/IDirect3DSwapChain9Ex, direct3d9.d3d9l_idirect3dswapchain9
 ms.prod: windows
 ms.technology: windows-sdk

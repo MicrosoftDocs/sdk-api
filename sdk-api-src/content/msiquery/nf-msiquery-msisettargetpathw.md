@@ -4,10 +4,10 @@ title: MsiSetTargetPathW function
 author: windows-sdk-content
 description: The MsiSetTargetPath function sets the full target path for a folder in the Directory table.
 old-location: setup\msisettargetpath.htm
-old-project: msi
+old-project: Msi
 ms.assetid: bfd39656-4901-442f-940d-424d440caf70
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: MsiSetTargetPath, MsiSetTargetPath function, MsiSetTargetPathA, MsiSetTargetPathW, _msi_msisettargetpath, msiquery/MsiSetTargetPath, msiquery/MsiSetTargetPathA, msiquery/MsiSetTargetPathW, setup.msisettargetpath
 ms.prod: windows
 ms.technology: windows-sdk

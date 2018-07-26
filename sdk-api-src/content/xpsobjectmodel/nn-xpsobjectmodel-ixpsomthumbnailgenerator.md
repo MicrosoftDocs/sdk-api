@@ -7,7 +7,7 @@ old-location: xps\ixpsomthumbnailgenerator.htm
 old-project: printdocs
 ms.assetid: cac794c0-bea2-417e-880f-15838f718ba7
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IXpsOMThumbnailGenerator, IXpsOMThumbnailGenerator interface [XPS Documents and Packaging], IXpsOMThumbnailGenerator interface [XPS Documents and Packaging],described, xps.ixpsomthumbnailgenerator, xpsobjectmodel/IXpsOMThumbnailGenerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -39,7 +39,7 @@ api_name:
  - IXpsOMThumbnailGenerator
 product: Windows
 targetos: Windows
-req.lib: 
+req.lib: XpsPrint.lib
 req.dll: XpsRasterService.dll
 req.irql: 
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.

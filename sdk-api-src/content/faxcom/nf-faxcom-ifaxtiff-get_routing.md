@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxtiff_get_routing_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_39lz.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxTiff object [Fax Service],Routing property, FaxTiff.Routing, IFaxTiff.get_Routing, IFaxTiff::get_Routing, Routing property [Fax Service], Routing property [Fax Service],FaxTiff object, _mfax_ifaxtiff_get_routing, fax._mfax_ifaxtiff_get_routing, fax._mfax_ifaxtiff_get_routing_vb, get_Routing
 ms.prod: windows
 ms.technology: windows-sdk

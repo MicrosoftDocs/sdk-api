@@ -7,7 +7,7 @@ old-location: winauto\accessibleobjectfromevent.htm
 old-project: WinAuto
 ms.assetid: d453c163-3918-4a1c-9636-16816227a295
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: AccessibleObjectFromEvent, AccessibleObjectFromEvent function [Windows Accessibility], _msaa_AccessibleObjectFromEvent, msaa.accessibleobjectfromevent, oleacc/AccessibleObjectFromEvent, winauto.accessibleobjectfromevent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_input_layout_desc.htm
 old-project: direct3d12
 ms.assetid: 44C53830-AE80-402A-808C-2063011711A2
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_INPUT_LAYOUT_DESC, D3D12_INPUT_LAYOUT_DESC structure, d3d12/D3D12_INPUT_LAYOUT_DESC, direct3d12.d3d12_input_layout_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,15 +60,13 @@ Describes the input-buffer data for the input-assembler stage.
 
 ### -field pInputElementDescs
 
-
-            An array of <a href="https://msdn.microsoft.com/FDE49FD5-9F7D-4A57-9AE9-F167AF39B06C">D3D12_INPUT_ELEMENT_DESC</a> structures that describe the data types of the input-assembler stage.
+An array of <a href="https://msdn.microsoft.com/FDE49FD5-9F7D-4A57-9AE9-F167AF39B06C">D3D12_INPUT_ELEMENT_DESC</a> structures that describe the data types of the input-assembler stage.
           
 
 
 ### -field NumElements
 
-
-            The number of input-data types in the array of input elements that the <b>pInputElementDescs</b> member points to.
+The number of input-data types in the array of input elements that the <b>pInputElementDescs</b> member points to.
           
 
 
@@ -76,8 +74,7 @@ Describes the input-buffer data for the input-assembler stage.
 
 
 
-
-        This structure is a member of the <a href="https://msdn.microsoft.com/35D10150-A633-4D38-B684-3E2DF357FFC0">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a> structure.
+This structure is a member of the <a href="https://msdn.microsoft.com/35D10150-A633-4D38-B684-3E2DF357FFC0">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a> structure.
 
 
 

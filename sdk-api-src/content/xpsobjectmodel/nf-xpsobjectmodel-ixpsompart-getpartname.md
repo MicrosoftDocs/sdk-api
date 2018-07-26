@@ -7,7 +7,7 @@ old-location: xps\ixpsompart_getpartname.htm
 old-project: printdocs
 ms.assetid: 43793c60-5fa3-4895-8a6a-7e010e65ac3e
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: GetPartName, GetPartName method [XPS Documents and Packaging], GetPartName method [XPS Documents and Packaging],IXpsOMPart interface, IXpsOMPart interface [XPS Documents and Packaging],GetPartName method, IXpsOMPart.GetPartName, IXpsOMPart::GetPartName, xps.ixpsompart_getpartname, xpsobjectmodel/IXpsOMPart::GetPartName
 ms.prod: windows
 ms.technology: windows-sdk

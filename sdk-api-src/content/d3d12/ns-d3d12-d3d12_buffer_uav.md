@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_buffer_uav.htm
 old-project: direct3d12
 ms.assetid: 13E48B8F-4EF7-45B7-88F2-61D9BA1801D2
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_BUFFER_UAV, D3D12_BUFFER_UAV structure, d3d12/D3D12_BUFFER_UAV, direct3d12.d3d12_buffer_uav
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,15 +75,13 @@ The size of each element in the buffer structure (in bytes) when the buffer repr
 
 ### -field CounterOffsetInBytes
 
-
-            The counter offset, in bytes.
+The counter offset, in bytes.
           
 
 
 ### -field Flags
 
-
-            A <a href="https://msdn.microsoft.com/D5350B5B-4E15-4B9F-B3E0-5A3B1592ED5C">D3D12_BUFFER_UAV_FLAGS</a>-typed value that specifies the view options for the resource.
+A <a href="https://msdn.microsoft.com/D5350B5B-4E15-4B9F-B3E0-5A3B1592ED5C">D3D12_BUFFER_UAV_FLAGS</a>-typed value that specifies the view options for the resource.
           
 
 
@@ -91,8 +89,7 @@ The size of each element in the buffer structure (in bytes) when the buffer repr
 
 
 
-
-        Use this structure with a <a href="https://msdn.microsoft.com/0C3A31FE-625D-4CB3-87FD-D2C33D008DD4">D3D12_UNORDERED_ACCESS_VIEW_DESC</a> structure to view the resource as a buffer.
+Use this structure with a <a href="https://msdn.microsoft.com/0C3A31FE-625D-4CB3-87FD-D2C33D008DD4">D3D12_UNORDERED_ACCESS_VIEW_DESC</a> structure to view the resource as a buffer.
       
 
 

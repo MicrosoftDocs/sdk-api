@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_getcopyablefootprints.htm
 old-project: direct3d12
 ms.assetid: EB3715A9-5A73-45DA-A46F-7889188409A3
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetCopyableFootprints, GetCopyableFootprints method, GetCopyableFootprints method,ID3D12Device interface, ID3D12Device interface,GetCopyableFootprints method, ID3D12Device.GetCopyableFootprints, ID3D12Device::GetCopyableFootprints, d3d12/ID3D12Device::GetCopyableFootprints, direct3d12.id3d12device_getcopyablefootprints
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Gets a resource layout that can be copied.
+Gets a resource layout that can be copied.
           Helps the app fill-in 
           <a href="https://msdn.microsoft.com/74740A52-C2A5-4AF6-92CC-85B5C214423F">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a> and 
           <a href="https://msdn.microsoft.com/C73B6AB0-F9C5-432E-BA26-3B7772411C95">D3D12_SUBRESOURCE_FOOTPRINT</a> when suballocating space in upload heaps.
@@ -67,8 +66,7 @@ req.irql:
 
 Type: <b>const <a href="https://msdn.microsoft.com/908BCB65-A7C6-473D-81AB-CCCA029AB6F9">D3D12_RESOURCE_DESC</a>*</b>
 
-
-            A description of the resource, as a pointer to a <a href="https://msdn.microsoft.com/908BCB65-A7C6-473D-81AB-CCCA029AB6F9">D3D12_RESOURCE_DESC</a> structure.
+A description of the resource, as a pointer to a <a href="https://msdn.microsoft.com/908BCB65-A7C6-473D-81AB-CCCA029AB6F9">D3D12_RESOURCE_DESC</a> structure.
           
 
 
@@ -76,8 +74,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/908BCB65-A7C6-473D-81AB-CCCA0
 
 Type: <b>UINT</b>
 
-
-            Index of the first subresource in the resource.
+Index of the first subresource in the resource.
             The range of valid values is 0 to D3D12_REQ_SUBRESOURCES.
           
 
@@ -86,8 +83,7 @@ Type: <b>UINT</b>
 
 Type: <b>UINT</b>
 
-
-            The number of subresources in the resource.  The range of valid values is 0 to (D3D12_REQ_SUBRESOURCES - <i>FirstSubresource</i>).
+The number of subresources in the resource.  The range of valid values is 0 to (D3D12_REQ_SUBRESOURCES - <i>FirstSubresource</i>).
           
 
 
@@ -95,8 +91,7 @@ Type: <b>UINT</b>
 
 Type: <b>UINT64</b>
 
-
-            The offset, in bytes, to the resource.
+The offset, in bytes, to the resource.
           
 
 
@@ -104,8 +99,7 @@ Type: <b>UINT64</b>
 
 Type: <b><a href="https://msdn.microsoft.com/74740A52-C2A5-4AF6-92CC-85B5C214423F">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a>*</b>
 
-
-            A pointer to an array (of length <i>NumSubresources</i>) of
+A pointer to an array (of length <i>NumSubresources</i>) of
             <a href="https://msdn.microsoft.com/74740A52-C2A5-4AF6-92CC-85B5C214423F">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a> structures, to be filled with the description and placement of each subresource.
           
 
@@ -114,8 +108,7 @@ Type: <b><a href="https://msdn.microsoft.com/74740A52-C2A5-4AF6-92CC-85B5C214423
 
 Type: <b>UINT*</b>
 
-
-            A pointer to an array (of length <i>NumSubresources</i>) of integer  variables, to be filled with the number of rows for each subresource.
+A pointer to an array (of length <i>NumSubresources</i>) of integer  variables, to be filled with the number of rows for each subresource.
           
 
 
@@ -137,8 +130,7 @@ then <i>pRowSizeInBytes</i> returns 128.
 
 Type: <b>UINT64*</b>
 
-
-            A pointer to an integer variable, to be filled with the total size, in bytes.
+A pointer to an integer variable, to be filled with the total size, in bytes.
           
 
 
@@ -146,8 +138,7 @@ Type: <b>UINT64*</b>
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 
@@ -157,8 +148,7 @@ Type: <b>UINT64*</b>
 
 
 
-
-          This routine assists the application in filling out
+This routine assists the application in filling out
           <a href="https://msdn.microsoft.com/74740A52-C2A5-4AF6-92CC-85B5C214423F">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a> and
           <a href="https://msdn.microsoft.com/C73B6AB0-F9C5-432E-BA26-3B7772411C95">D3D12_SUBRESOURCE_FOOTPRINT</a> structures, when suballocating space in upload heaps.
           The resulting structures are GPU adapter-agnostic, meaning that the values will not vary from one GPU adapter to the next.
@@ -169,8 +159,7 @@ Type: <b>UINT64*</b>
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Multithreading</a> sample uses <b>ID3D12Device::GetCopyableFootprints</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Multithreading</a> sample uses <b>ID3D12Device::GetCopyableFootprints</b> as follows:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -199,8 +188,7 @@ inline UINT64 GetRequiredIntermediateSize(
 </td>
 </tr>
 </table></span></div>
-
-            Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
           
 
 <div class="code"></div>

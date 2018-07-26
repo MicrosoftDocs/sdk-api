@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2voicecallback_interface_onbufferstart.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnBufferStart(void)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 07/23/2018
 ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnBufferStart method, IXAudio2VoiceCallback.OnBufferStart, IXAudio2VoiceCallback::OnBufferStart, OnBufferStart, OnBufferStart method [XAudio2 Audio Mixing APIs], OnBufferStart method [XAudio2 Audio Mixing APIs],IXAudio2VoiceCallback interface, xaudio2.ixaudio2voicecallback_interface_onbufferstart, xaudio2/IXAudio2VoiceCallback::OnBufferStart
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,6 @@ Called when the voice is about to start processing a new audio buffer.
 
 ### -param pBufferContext
 
-
 Context pointer that was assigned to the pContext member of the <a href="https://msdn.microsoft.com/library/Ee419228(v=VS.85).aspx">XAUDIO2_BUFFER</a> structure when the buffer was submitted.
 
 
@@ -92,9 +91,7 @@ This method does not return a value.
 
 </li>
 <li>Enabling or disabling an effect in the voice's effect chain</li>
-</ul>
-
-All the actions listed above are synchronous when performed in an XAudio2 callback, so the changes will take effect immediately, affecting the buffer that is about to start.
+</ul>All the actions listed above are synchronous when performed in an XAudio2 callback, so the changes will take effect immediately, affecting the buffer that is about to start.
 
 
 

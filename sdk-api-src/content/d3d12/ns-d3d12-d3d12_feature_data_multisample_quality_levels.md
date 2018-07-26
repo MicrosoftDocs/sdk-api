@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_multisample_quality_levels.htm
 old-project: direct3d12
 ms.assetid: F3ECEF7C-F4A4-4134-9671-21AE488D8183
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS, D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS structure, d3d12/D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS, direct3d12.d3d12_feature_data_multisample_quality_levels
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes the image quality levels for a given format and sample count.
+Describes the image quality levels for a given format and sample count.
         
 
 
@@ -62,30 +61,26 @@ req.irql:
 
 ### -field Format
 
-
-            A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value for the format to return info about.
+A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value for the format to return info about.
           
 
 
 ### -field SampleCount
 
-
-            The number of multi-samples per pixel to return info about.
+The number of multi-samples per pixel to return info about.
           
 
 
 ### -field Flags
 
-
-            Flags to control quality levels, as a bitwise-OR'd combination of <a href="https://msdn.microsoft.com/78FBD851-879C-4C84-ACEA-58CF4ADE29A0">D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS</a> enumeration constants.
+Flags to control quality levels, as a bitwise-OR'd combination of <a href="https://msdn.microsoft.com/78FBD851-879C-4C84-ACEA-58CF4ADE29A0">D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS</a> enumeration constants.
             The resulting value specifies options for determining quality levels.
           
 
 
 ### -field NumQualityLevels
 
-
-            The number of quality levels.
+The number of quality levels.
           
 
 
@@ -93,8 +88,7 @@ req.irql:
 
 
 
-
-        See <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>.
+See <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>.
       
 
 

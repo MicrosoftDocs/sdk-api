@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxconfiguration_archivesizehigh.htm
 old-project: Fax
 ms.assetid: 3386ec80-be4e-4105-ab57-dd634b57f67f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: ArchiveSizeHigh property [Fax Service], ArchiveSizeHigh property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],ArchiveSizeHigh property, IFaxConfiguration.ArchiveSizeHigh, IFaxConfiguration.get_ArchiveSizeHigh, IFaxConfiguration::ArchiveSizeHigh, IFaxConfiguration::get_ArchiveSizeHigh, fax._mfax_ifaxconfiguration_archivesizehigh, faxcomex/IFaxConfiguration::ArchiveSizeHigh, faxcomex/IFaxConfiguration::get_ArchiveSizeHigh, get_ArchiveSizeHigh
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxport_getstatus_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8lo3.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxPort object [Fax Service],GetStatus method, FaxPort.GetStatus, GetStatus, GetStatus method [Fax Service], GetStatus method [Fax Service],FaxPort object, IFaxPort.GetStatus, IFaxPort::GetStatus, _mfax_ifaxport_getstatus, fax._mfax_ifaxport_getstatus, fax._mfax_ifaxport_getstatus_vb
 ms.prod: windows
 ms.technology: windows-sdk

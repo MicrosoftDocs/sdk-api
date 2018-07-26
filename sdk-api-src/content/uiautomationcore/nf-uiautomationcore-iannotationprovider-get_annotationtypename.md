@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IAnnotationProvider_AnnotationTypeName.htm
 old-project: WinAuto
 ms.assetid: A13E694C-FFAE-4A9C-BEB4-5D38C7DCBB42
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: AnnotationTypeName property [Windows Accessibility], AnnotationTypeName property [Windows Accessibility],IAnnotationProvider interface, IAnnotationProvider interface [Windows Accessibility],AnnotationTypeName property, IAnnotationProvider.AnnotationTypeName, IAnnotationProvider.get_AnnotationTypeName, IAnnotationProvider::AnnotationTypeName, IAnnotationProvider::get_AnnotationTypeName, get_AnnotationTypeName, uiautomationcore/IAnnotationProvider::AnnotationTypeName, uiautomationcore/IAnnotationProvider::get_AnnotationTypeName, winauto.uiauto_IAnnotationProvider_AnnotationTypeName
 ms.prod: windows
 ms.technology: windows-sdk

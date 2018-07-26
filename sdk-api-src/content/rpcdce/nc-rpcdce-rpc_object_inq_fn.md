@@ -63,7 +63,7 @@ The
 ### -param *ObjectUuid
 
 Pointer to the variable that specifies the object 
-<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a> that is to be mapped to a type UUID.
+<a href="https://msdn.microsoft.com/">UUID</a> that is to be mapped to a type UUID.
 
 
 ### -param *TypeUuid

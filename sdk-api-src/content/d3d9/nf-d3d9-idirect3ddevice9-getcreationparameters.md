@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__getcreationparameters.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getcreationparameters.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: 54c41207-f279-d889-1545-426a901cafd7, GetCreationParameters, GetCreationParameters method [Direct3D 9], GetCreationParameters method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetCreationParameters method, IDirect3DDevice9.GetCreationParameters, IDirect3DDevice9::GetCreationParameters, d3d9helper/IDirect3DDevice9::GetCreationParameters, direct3d9.idirect3ddevice9__getcreationparameters
 ms.prod: windows
 ms.technology: windows-sdk

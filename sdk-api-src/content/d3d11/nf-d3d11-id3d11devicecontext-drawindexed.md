@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_drawindexed.htm
 old-project: direct3d11
 ms.assetid: 461a64ec-f3e6-4f6a-8bc4-a349d19501a8
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 45129747-420c-37ba-aae0-05275af46932, DrawIndexed, DrawIndexed method [Direct3D 11], DrawIndexed method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DrawIndexed method, ID3D11DeviceContext.DrawIndexed, ID3D11DeviceContext::DrawIndexed, d3d11/ID3D11DeviceContext::DrawIndexed, direct3d11.id3d11devicecontext_drawindexed
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\GetScaleFactorForMonitor.htm
 old-project: shell
 ms.assetid: 2F214512-704D-41A2-86A6-1EF880CD3DB4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: GetScaleFactorForMonitor, GetScaleFactorForMonitor function [Windows Shell], shell.GetScaleFactorForMonitor, shellscalingapi/GetScaleFactorForMonitor
 ms.prod: windows
 ms.technology: windows-sdk

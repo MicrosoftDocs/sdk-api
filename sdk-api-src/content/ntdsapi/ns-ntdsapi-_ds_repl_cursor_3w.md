@@ -7,7 +7,7 @@ old-location: ad\ds_repl_cursor_3.htm
 old-project: ad
 ms.assetid: 0361a3e1-814c-4ef2-b574-2870a9289e52
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: DS_REPL_CURSOR_3, DS_REPL_CURSOR_3 structure [Active Directory], DS_REPL_CURSOR_3W, _DS_REPL_CURSOR_3W, ad.ds_repl_cursor_3, ntdsapi/DS_REPL_CURSOR_3
 ms.prod: windows
 ms.technology: windows-sdk

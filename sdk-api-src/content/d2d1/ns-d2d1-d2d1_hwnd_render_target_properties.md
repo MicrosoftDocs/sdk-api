@@ -4,10 +4,10 @@ title: D2D1_HWND_RENDER_TARGET_PROPERTIES
 author: windows-sdk-content
 description: Contains the HWND, pixel size, and presentation options for an ID2D1HwndRenderTarget.
 old-location: direct2d\D2D1_HWND_RENDER_TARGET_PROPERTIES.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 4300843a-a24f-4f9e-a396-67172f083638
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_HWND_RENDER_TARGET_PROPERTIES, D2D1_HWND_RENDER_TARGET_PROPERTIES structure [Direct2D], d2d1/D2D1_HWND_RENDER_TARGET_PROPERTIES, direct2d.D2D1_HWND_RENDER_TARGET_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-    Contains the HWND, pixel size, and presentation options for an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a>.
+Contains the HWND, pixel size, and presentation options for an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a>.
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedProcessId.htm
 old-project: WinAuto
 ms.assetid: 16a3470d-cbea-4cc2-96d5-668c748abab2
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CachedProcessId property [Windows Accessibility], CachedProcessId property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedProcessId property, IUIAutomationElement.CachedProcessId, IUIAutomationElement.get_CachedProcessId, IUIAutomationElement::CachedProcessId, IUIAutomationElement::get_CachedProcessId, get_CachedProcessId, uiauto.uiauto_IUIAutomationElement_CachedProcessId, uiauto_IUIAutomationElement_CachedProcessId, uiautomationclient/IUIAutomationElement::CachedProcessId, uiautomationclient/IUIAutomationElement::get_CachedProcessId, winauto.uiauto_IUIAutomationElement_CachedProcessId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

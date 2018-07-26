@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvertexbuffer9.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexbuffer9.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: 618275d7-1a22-b2cf-581b-9cf2495dc642, IDirect3DVertexBuffer9, IDirect3DVertexBuffer9 interface [Direct3D 9], IDirect3DVertexBuffer9 interface [Direct3D 9],described, d3d9helper/IDirect3DVertexBuffer9, direct3d9.idirect3dvertexbuffer9
 ms.prod: windows
 ms.technology: windows-sdk

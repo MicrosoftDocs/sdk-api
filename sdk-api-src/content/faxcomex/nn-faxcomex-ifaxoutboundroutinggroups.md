@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutinggroups_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_62r7_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IFaxOutboundRoutingGroups, IFaxOutboundRoutingGroups interface [Fax Service], IFaxOutboundRoutingGroups interface [Fax Service],described, _mfax_faxoutboundroutinggroups_cpp, fax._mfax_faxoutboundroutinggroups_cpp, faxcomex/IFaxOutboundRoutingGroups
 ms.prod: windows
 ms.technology: windows-sdk

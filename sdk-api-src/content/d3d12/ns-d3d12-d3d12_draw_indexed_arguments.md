@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_draw_indexed_arguments.htm
 old-project: direct3d12
 ms.assetid: FD26CA56-B430-4019-B8F6-DC8981126692
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_DRAW_INDEXED_ARGUMENTS, D3D12_DRAW_INDEXED_ARGUMENTS structure, d3d12/D3D12_DRAW_INDEXED_ARGUMENTS, direct3d12.d3d12_draw_indexed_arguments
 ms.prod: windows
 ms.technology: windows-sdk

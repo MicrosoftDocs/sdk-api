@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_getadapterluid.htm
 old-project: direct3d12
 ms.assetid: 006E72E0-AE09-4834-9ACB-D48698050BF2
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetAdapterLuid, GetAdapterLuid method, GetAdapterLuid method,ID3D12Device interface, ID3D12Device interface,GetAdapterLuid method, ID3D12Device.GetAdapterLuid, ID3D12Device::GetAdapterLuid, d3d12/ID3D12Device::GetAdapterLuid, direct3d12.id3d12device_getadapterluid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Gets a locally unique identifier for the current device (adapter).
+Gets a locally unique identifier for the current device (adapter).
         
 
 
@@ -68,8 +67,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a></b>
 
-
-            The locally unique identifier for the adapter.
+The locally unique identifier for the adapter.
           
 
 
@@ -79,13 +77,11 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">
 
 
 
-
-          This method returns a unique identifier for the adapter that is specific to the adapter hardware.
+This method returns a unique identifier for the adapter that is specific to the adapter hardware.
           Applications can use this identifier to define robust mappings across various APIs (Direct3D 12, DXGI).
         
 
-
-          A locally unique identifier (LUID) is a 64-bit value that is guaranteed to be unique only on the system on which it was generated.
+A locally unique identifier (LUID) is a 64-bit value that is guaranteed to be unique only on the system on which it was generated.
           The uniqueness of a locally unique identifier (LUID) is guaranteed only until the system is restarted.
         
 

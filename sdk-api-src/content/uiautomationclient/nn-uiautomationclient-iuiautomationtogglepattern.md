@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTogglePattern.htm
 old-project: WinAuto
 ms.assetid: f2e69387-271f-4f85-85d5-19ba5d231f85
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IUIAutomationTogglePattern, IUIAutomationTogglePattern interface [Windows Accessibility], IUIAutomationTogglePattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTogglePattern, uiauto_IUIAutomationTogglePattern, uiautomationclient/IUIAutomationTogglePattern, winauto.uiauto_IUIAutomationTogglePattern
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

@@ -4,10 +4,10 @@ title: IAzApplications
 author: windows-sdk-content
 description: Represents a collection of IAzApplication objects.
 old-location: security\iazapplications.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 04cee21c-253a-463a-9231-592ddad88188
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: IAzApplications, IAzApplications interface [Security], IAzApplications interface [Security],described, azroles/IAzApplications, security.iazapplications
 ms.prod: windows
 ms.technology: windows-sdk

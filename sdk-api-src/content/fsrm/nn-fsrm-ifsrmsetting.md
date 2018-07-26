@@ -4,10 +4,10 @@ title: IFsrmSetting
 author: windows-sdk-content
 description: Used to configure FSRM.
 old-location: fsrm\ifsrmsetting.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 432fbaaa-7ddb-4d8c-bfbe-40cd26b08f9b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: IFsrmSetting, IFsrmSetting interface [File Server Resource Manager], IFsrmSetting interface [File Server Resource Manager],described, fs.ifsrmsetting, fsrm.ifsrmsetting, fsrm/IFsrmSetting
 ms.prod: windows
 ms.technology: windows-sdk

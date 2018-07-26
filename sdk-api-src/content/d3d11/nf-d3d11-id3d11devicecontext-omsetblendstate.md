@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_omsetblendstate.htm
 old-project: direct3d11
 ms.assetid: fabcae1d-2ad8-4f4d-8eef-18945e369225
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 1f1e71f6-6b9d-3137-ba6e-8c5e5e8079ac, ID3D11DeviceContext interface [Direct3D 11],OMSetBlendState method, ID3D11DeviceContext.OMSetBlendState, ID3D11DeviceContext::OMSetBlendState, OMSetBlendState, OMSetBlendState method [Direct3D 11], OMSetBlendState method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::OMSetBlendState, direct3d11.id3d11devicecontext_omsetblendstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,8 +149,7 @@ Passing in <b>NULL</b> for the blend-state interface indicates to the runtime to
 
 A sample mask determines which samples get updated in all the active render targets. The mapping of bits in a sample mask to samples in a multisample render target is the responsibility of an individual application. A sample mask is always applied; it is independent of whether multisampling is enabled, and does not depend on whether an application uses multisample render targets.
 
-
-      The method will hold a reference to the interfaces passed in.
+The method will hold a reference to the interfaces passed in.
       This differs from the device state behavior in Direct3D 10.
 
 

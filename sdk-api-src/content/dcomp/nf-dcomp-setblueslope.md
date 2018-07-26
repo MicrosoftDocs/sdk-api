@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionlineartransfereffect_setblueslope_overload
 old-project: directcomp
 ms.assetid: 088b6b01-6c0b-c746-85ed-54b822a4615d
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/23/2018
 ms.keywords: SetBlueSlope, SetBlueSlope methods [DirectComposition], dcomp/SetBlueSlope, directcomp.idcompositionlineartransfereffect_setblueslope_overloaded, idcompositionlineartransfereffect::SetBlueSlope
 ms.prod: windows
 ms.technology: windows-sdk

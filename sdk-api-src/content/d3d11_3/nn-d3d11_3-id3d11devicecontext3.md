@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext3.htm
 old-project: direct3d11
 ms.assetid: 65F462DB-5546-4B23-B438-60067FD60103
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11DeviceContext3, ID3D11DeviceContext3 interface [Direct3D 11], ID3D11DeviceContext3 interface [Direct3D 11],described, d3d11_3/ID3D11DeviceContext3, direct3d11.id3d11devicecontext3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-        The device context interface represents a device context; it is used to render commands. 
+The device context interface represents a device context; it is used to render commands. 
         <b>ID3D11DeviceContext3</b> adds new methods to those in <a href="https://msdn.microsoft.com/8B6B6F6E-9236-4DEE-A1BA-5FE45736DFAA">ID3D11DeviceContext2</a>.
       
 
@@ -77,8 +76,7 @@ The <b>ID3D11DeviceContext3</b> interface has these methods.
 <a href="https://msdn.microsoft.com/DBDA19C3-EC4E-4C12-B1ED-A92E5CE28CED">Flush1</a>
 </td>
 <td align="left" width="63%">
-
-          Sends queued-up commands in the command buffer to the graphics processing unit (GPU), with a specified context type and an optional event handle to create an event query.
+Sends queued-up commands in the command buffer to the graphics processing unit (GPU), with a specified context type and an optional event handle to create an event query.
         
 
 </td>
@@ -88,8 +86,7 @@ The <b>ID3D11DeviceContext3</b> interface has these methods.
 <a href="https://msdn.microsoft.com/52D1F2B2-DBC9-4714-A9C5-A0283EA6C5B7">GetHardwareProtectionState</a>
 </td>
 <td align="left" width="63%">
-
-          Gets whether hardware protection is enabled.
+Gets whether hardware protection is enabled.
         
 
 </td>
@@ -99,8 +96,7 @@ The <b>ID3D11DeviceContext3</b> interface has these methods.
 <a href="https://msdn.microsoft.com/C1B927EC-32A2-4526-9F30-739D21C7E4A6">SetHardwareProtectionState</a>
 </td>
 <td align="left" width="63%">
-
-          Sets the hardware protection state.
+Sets the hardware protection state.
         
 
 </td>

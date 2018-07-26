@@ -4,10 +4,10 @@ title: D2D1_DISTANTDIFFUSE_SCALE_MODE
 author: windows-sdk-content
 description: The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
 old-location: direct2d\d2d1_distantdiffuse_scale_mode.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 8DBA8D16-507F-40F7-9C8D-E0D84B548BB0
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_DISTANTDIFFUSE_SCALE_MODE, D2D1_DISTANTDIFFUSE_SCALE_MODE enumeration [Direct2D], D2D1_DISTANTDIFFUSE_SCALE_MODE_ANISOTROPIC, D2D1_DISTANTDIFFUSE_SCALE_MODE_CUBIC, D2D1_DISTANTDIFFUSE_SCALE_MODE_HIGH_QUALITY_CUBIC, D2D1_DISTANTDIFFUSE_SCALE_MODE_LINEAR, D2D1_DISTANTDIFFUSE_SCALE_MODE_MULTI_SAMPLE_LINEAR, D2D1_DISTANTDIFFUSE_SCALE_MODE_NEAREST_NEIGHBOR, d2d1effects/D2D1_DISTANTDIFFUSE_SCALE_MODE, d2d1effects/D2D1_DISTANTDIFFUSE_SCALE_MODE_ANISOTROPIC, d2d1effects/D2D1_DISTANTDIFFUSE_SCALE_MODE_CUBIC, d2d1effects/D2D1_DISTANTDIFFUSE_SCALE_MODE_HIGH_QUALITY_CUBIC, d2d1effects/D2D1_DISTANTDIFFUSE_SCALE_MODE_LINEAR, d2d1effects/D2D1_DISTANTDIFFUSE_SCALE_MODE_MULTI_SAMPLE_LINEAR, d2d1effects/D2D1_DISTANTDIFFUSE_SCALE_MODE_NEAREST_NEIGHBOR, direct2d.d2d1_distantdiffuse_scale_mode
 ms.prod: windows
 ms.technology: windows-sdk

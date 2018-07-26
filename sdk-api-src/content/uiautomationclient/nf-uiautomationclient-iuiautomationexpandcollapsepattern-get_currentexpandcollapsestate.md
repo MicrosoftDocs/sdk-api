@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCol
 old-project: WinAuto
 ms.assetid: abd21a19-c7a0-44db-ad5b-64c476efa400
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CurrentExpandCollapseState property [Windows Accessibility], CurrentExpandCollapseState property [Windows Accessibility],IUIAutomationExpandCollapsePattern interface, IUIAutomationExpandCollapsePattern interface [Windows Accessibility],CurrentExpandCollapseState property, IUIAutomationExpandCollapsePattern.CurrentExpandCollapseState, IUIAutomationExpandCollapsePattern.get_CurrentExpandCollapseState, IUIAutomationExpandCollapsePattern::CurrentExpandCollapseState, IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState, get_CurrentExpandCollapseState, uiauto.uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState, uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState, uiautomationclient/IUIAutomationExpandCollapsePattern::CurrentExpandCollapseState, uiautomationclient/IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState, winauto.uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

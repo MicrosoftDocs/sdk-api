@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedIsControlElement.htm
 old-project: WinAuto
 ms.assetid: 3d8b1b5e-4e68-454a-9cfc-dd742a5fa760
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CachedIsControlElement property [Windows Accessibility], CachedIsControlElement property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsControlElement property, IUIAutomationElement.CachedIsControlElement, IUIAutomationElement.get_CachedIsControlElement, IUIAutomationElement::CachedIsControlElement, IUIAutomationElement::get_CachedIsControlElement, get_CachedIsControlElement, uiauto.uiauto_IUIAutomationElement_CachedIsControlElement, uiauto_IUIAutomationElement_CachedIsControlElement, uiautomationclient/IUIAutomationElement::CachedIsControlElement, uiautomationclient/IUIAutomationElement::get_CachedIsControlElement, winauto.uiauto_IUIAutomationElement_CachedIsControlElement
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

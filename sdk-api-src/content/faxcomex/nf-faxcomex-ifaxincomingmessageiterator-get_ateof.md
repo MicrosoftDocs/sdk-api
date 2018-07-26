@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessageiterator_ateof_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7orq.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: AtEOF property [Fax Service], AtEOF property [Fax Service],FaxIncomingMessageIterator object, FaxIncomingMessageIterator object [Fax Service],AtEOF property, FaxIncomingMessageIterator.AtEOF, IFaxIncomingMessageIterator.get_AtEOF, IFaxIncomingMessageIterator::get_AtEOF, _mfax_faxincomingmessageiterator.ateof, fax._mfax_faxincomingmessageiterator_ateof, fax._mfax_faxincomingmessageiterator_ateof_vb, get_AtEOF
 ms.prod: windows
 ms.technology: windows-sdk

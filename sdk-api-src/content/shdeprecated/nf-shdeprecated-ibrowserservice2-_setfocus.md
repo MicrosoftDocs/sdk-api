@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__SetFocus.htm
 old-project: shell
 ms.assetid: 4a69c3f4-49e0-4a06-8cf2-dc8db640f58f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_SetFocus method, IBrowserService2._SetFocus, IBrowserService2::_SetFocus, _SetFocus, _SetFocus method [Windows Shell], _SetFocus method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_SetFocus, shell.IBrowserService2__SetFocus, zone_IBrowserService2__SetFocus
 ms.prod: windows
 ms.technology: windows-sdk

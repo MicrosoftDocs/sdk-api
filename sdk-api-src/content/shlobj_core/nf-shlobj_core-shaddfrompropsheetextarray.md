@@ -7,7 +7,7 @@ old-location: shell\SHAddFromPropSheetExtArray.htm
 old-project: shell
 ms.assetid: e0570cd6-dda2-43e4-8540-58baef37bf18
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: SHAddFromPropSheetExtArray, SHAddFromPropSheetExtArray function [Windows Shell], _win32_SHAddFromPropSheetExtArray, shell.SHAddFromPropSheetExtArray, shlobj_core/SHAddFromPropSheetExtArray
 ms.prod: windows
 ms.technology: windows-sdk

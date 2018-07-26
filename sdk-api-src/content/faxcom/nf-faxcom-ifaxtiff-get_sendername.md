@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxtiff_get_sendername_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_62at.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxTiff object [Fax Service],SenderName property, FaxTiff.SenderName, IFaxTiff.get_SenderName, IFaxTiff::get_SenderName, SenderName property [Fax Service], SenderName property [Fax Service],FaxTiff object, _mfax_ifaxtiff_get_sendername, fax._mfax_ifaxtiff_get_sendername, fax._mfax_ifaxtiff_get_sendername_vb, get_SenderName
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CurrentHasKeyboardFocus.htm
 old-project: WinAuto
 ms.assetid: 90ef17df-1658-4199-8e8c-0cd21724dcf6
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CurrentHasKeyboardFocus property [Windows Accessibility], CurrentHasKeyboardFocus property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentHasKeyboardFocus property, IUIAutomationElement.CurrentHasKeyboardFocus, IUIAutomationElement.get_CurrentHasKeyboardFocus, IUIAutomationElement::CurrentHasKeyboardFocus, IUIAutomationElement::get_CurrentHasKeyboardFocus, get_CurrentHasKeyboardFocus, uiauto.uiauto_IUIAutomationElement_CurrentHasKeyboardFocus, uiauto_IUIAutomationElement_CurrentHasKeyboardFocus, uiautomationclient/IUIAutomationElement::CurrentHasKeyboardFocus, uiautomationclient/IUIAutomationElement::get_CurrentHasKeyboardFocus, winauto.uiauto_IUIAutomationElement_CurrentHasKeyboardFocus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

@@ -4,10 +4,10 @@ title: IResultData::SetViewMode
 author: windows-sdk-content
 description: Enables the snap-in to set the view mode in which the result view pane displays its items.
 old-location: mmc\iresultdata_setviewmode.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 17cff5e6-9624-4873-baa8-96c05d877764
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: IResultData interface [MMC],SetViewMode method, IResultData.SetViewMode, IResultData2 interface [MMC],SetViewMode method, IResultData2::SetViewMode, IResultData::SetViewMode, MMCLV_VIEWSTYLE_FILTERED, MMCLV_VIEWSTYLE_ICON, MMCLV_VIEWSTYLE_LIST, MMCLV_VIEWSTYLE_REPORT, MMCLV_VIEWSTYLE_SMALLICON, SetViewMode, SetViewMode method [MMC], SetViewMode method [MMC],IResultData interface, SetViewMode method [MMC],IResultData2 interface, _slate_iresultdata_setviewmode, mmc.iresultdata_setviewmode, mmc/IResultData2::SetViewMode, mmc/IResultData::SetViewMode
 ms.prod: windows
 ms.technology: windows-sdk

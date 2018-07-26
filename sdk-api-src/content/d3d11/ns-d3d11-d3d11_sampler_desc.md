@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_sampler_desc.htm
 old-project: direct3d11
 ms.assetid: 97dd6cac-6657-4a1e-b631-4e5d36994b16
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: D3D11_SAMPLER_DESC, D3D11_SAMPLER_DESC structure [Direct3D 11], bb0f20c3-8e57-c2fb-f34c-640d23b254ab, d3d11/D3D11_SAMPLER_DESC, direct3d11.d3d11_sampler_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Describes a sampler state.
 
 Type: <b><a href="https://msdn.microsoft.com/873b7910-4686-4f0c-a674-2aa3585a9b36">D3D11_FILTER</a></b>
 
-
-            Filtering method to use when sampling a texture (see <a href="https://msdn.microsoft.com/873b7910-4686-4f0c-a674-2aa3585a9b36">D3D11_FILTER</a>).
+Filtering method to use when sampling a texture (see <a href="https://msdn.microsoft.com/873b7910-4686-4f0c-a674-2aa3585a9b36">D3D11_FILTER</a>).
           
 
 
@@ -71,8 +70,7 @@ Type: <b><a href="https://msdn.microsoft.com/873b7910-4686-4f0c-a674-2aa3585a9b3
 
 Type: <b><a href="https://msdn.microsoft.com/4877e5db-011a-4a15-a087-5a55f229fa2a">D3D11_TEXTURE_ADDRESS_MODE</a></b>
 
-
-            Method to use for resolving a u texture coordinate that is outside the 0 to 1 range (see <a href="https://msdn.microsoft.com/4877e5db-011a-4a15-a087-5a55f229fa2a">D3D11_TEXTURE_ADDRESS_MODE</a>).
+Method to use for resolving a u texture coordinate that is outside the 0 to 1 range (see <a href="https://msdn.microsoft.com/4877e5db-011a-4a15-a087-5a55f229fa2a">D3D11_TEXTURE_ADDRESS_MODE</a>).
           
 
 
@@ -108,8 +106,7 @@ Clamping value used if D3D11_FILTER_ANISOTROPIC or D3D11_FILTER_COMPARISON_ANISO
 
 Type: <b><a href="https://msdn.microsoft.com/3546c7b8-ae25-4554-85e2-527433a74a94">D3D11_COMPARISON_FUNC</a></b>
 
-
-            A function that compares sampled data against existing sampled data. The function options are listed in <a href="https://msdn.microsoft.com/3546c7b8-ae25-4554-85e2-527433a74a94">D3D11_COMPARISON_FUNC</a>.
+A function that compares sampled data against existing sampled data. The function options are listed in <a href="https://msdn.microsoft.com/3546c7b8-ae25-4554-85e2-527433a74a94">D3D11_COMPARISON_FUNC</a>.
           
 
 

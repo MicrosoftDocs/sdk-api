@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2_interface_createsubmixvoice.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CreateSubmixVoice(IXAudio2SubmixVoice@,UINT32,UINT32,UINT32,UINT32,const XAUDIO2_VOICE_SENDS,const XAUDIO2_EFFECT_CHAIN)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 07/23/2018
 ms.keywords: CreateSubmixVoice, CreateSubmixVoice method [XAudio2 Audio Mixing APIs], CreateSubmixVoice method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],CreateSubmixVoice method, IXAudio2.CreateSubmixVoice, IXAudio2::CreateSubmixVoice, xaudio2.ixaudio2_interface_createsubmixvoice, xaudio2/IXAudio2::CreateSubmixVoice
 ms.prod: windows
 ms.technology: windows-sdk

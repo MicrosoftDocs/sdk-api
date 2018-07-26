@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_resourcebarrier.htm
 old-project: direct3d12
 ms.assetid: AA788F94-122B-4132-BED5-162EAC683676
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12GraphicsCommandList interface,ResourceBarrier method, ID3D12GraphicsCommandList.ResourceBarrier, ID3D12GraphicsCommandList::ResourceBarrier, ResourceBarrier, ResourceBarrier method, ResourceBarrier method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::ResourceBarrier, direct3d12.id3d12graphicscommandlist_resourcebarrier
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Notifies the driver that it needs to synchronize multiple accesses to resources.
+Notifies the driver that it needs to synchronize multiple accesses to resources.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b>UINT</b>
 
-
-            The number of submitted barrier descriptions.
+The number of submitted barrier descriptions.
           
 
 
@@ -73,8 +71,7 @@ Type: <b>UINT</b>
 
 Type: <b>const <a href="https://msdn.microsoft.com/49F02D65-767E-4BA4-A90D-68AA2D709E09">D3D12_RESOURCE_BARRIER</a>*</b>
 
-
-            Pointer to an array of barrier descriptions.
+Pointer to an array of barrier descriptions.
           
 
 
@@ -82,8 +79,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/49F02D65-767E-4BA4-A90D-68AA2
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 
@@ -106,25 +102,20 @@ There are three types of barrier descriptions:
 <a href="https://msdn.microsoft.com/683F645F-9A90-4648-99EF-2F7444254B41">D3D12_RESOURCE_UAV_BARRIER</a> - Unordered access view barriers indicate all UAV accesses (read or writes) to a particular resource must complete before any future UAV accesses (read or write) can begin.  The specified resource may be NULL.  It is not necessary to insert a UAV barrier between two draw or dispatch calls which only read a UAV.  Additionally, it is not necessary to insert a UAV barrier between two draw or dispatch calls which write to the same UAV if the application knows that it is safe to execute the UAV accesses in any order.  The resource can be NULL (indicating that any UAV access could require the barrier).
           </li>
 </ul>
-
-        When <b>ID3D12GraphicsCommandList::ResourceBarrier</b> is passed an array of resource barrier descriptions, the API behaves as if it was called N times (1 for each array element), in the specified order.
+When <b>ID3D12GraphicsCommandList::ResourceBarrier</b> is passed an array of resource barrier descriptions, the API behaves as if it was called N times (1 for each array element), in the specified order.
       Transitions should be batched together into a single API call when possible, as a performance optimization.
 
+For descriptions of the usage states a subresource can be in, see the <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATES</a> enumeration and the <a href="https://msdn.microsoft.com/3AB3BF34-433C-400B-921A-55B23CCDA44F">Using Resource Barriers to Synchronize Resource States in Direct3D 12</a> section. 
 
-          For descriptions of the usage states a subresource can be in, see the <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATES</a> enumeration and the <a href="https://msdn.microsoft.com/3AB3BF34-433C-400B-921A-55B23CCDA44F">Using Resource Barriers to Synchronize Resource States in Direct3D 12</a> section. 
-
-
-          All subresources in a resource must be in the RENDER_TARGET state, or DEPTH_WRITE state, for render targets/depth-stencil resources respectively, when  <a href="https://msdn.microsoft.com/2F4DBA5B-F586-4126-8867-BEE650F6D161">ID3D12GraphicsCommandList::DiscardResource</a> is called.
+All subresources in a resource must be in the RENDER_TARGET state, or DEPTH_WRITE state, for render targets/depth-stencil resources respectively, when  <a href="https://msdn.microsoft.com/2F4DBA5B-F586-4126-8867-BEE650F6D161">ID3D12GraphicsCommandList::DiscardResource</a> is called.
         
 
-
-        When a back buffer is presented, it must be in the D3D12_RESOURCE_STATE_PRESENT state.  If <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> is called on a resource which is not in the PRESENT state, a debug layer warning will be emitted.
+When a back buffer is presented, it must be in the D3D12_RESOURCE_STATE_PRESENT state.  If <a href="https://msdn.microsoft.com/F795A719-71BA-4A25-B41A-9D93F96B6CA4">IDXGISwapChain1::Present1</a> is called on a resource which is not in the PRESENT state, a debug layer warning will be emitted.
       
 
 The resource usage bits are group into two categories, read-only and read/write.
 
-
-          The following usage bits are read-only:
+The following usage bits are read-only:
         
 
 <ul>
@@ -149,25 +140,21 @@ The following usage bits are write-only:
 <li>D3D12_RESOURCE_STATE_RENDER_TARGET</li>
 <li>D3D12_RESOURCE_STATE_STREAM_OUT</li>
 </ul>
-
-          At most one write bit can be set.
+At most one write bit can be set.
           If any write bit is set, then no read bit may be set.
           If no write bit is set, then any number of read bits may be set.  
 
-
-          At any given time, a subresource is in exactly one  state (determined by a set of flags).  The application must ensure that the states are matched when making a sequence of <b>ResourceBarrier</b> calls. In other words, the before and after states in consecutive calls to <b>ResourceBarrier</b> must agree.
+At any given time, a subresource is in exactly one  state (determined by a set of flags).  The application must ensure that the states are matched when making a sequence of <b>ResourceBarrier</b> calls. In other words, the before and after states in consecutive calls to <b>ResourceBarrier</b> must agree.
         
 
 To transition all subresources within a resource, the application can set the subresource index to D3D12_RESOURCE_BARRIER_ALL_SUBRESOURCES, which implies that all subresources are changed.
 
-
-        For improved performance, applications should use split barriers (refer to
+For improved performance, applications should use split barriers (refer to
         <a href="https://msdn.microsoft.com/93903F50-A6CA-41C2-863D-68D645586B4C">Synchronization and Multi-Engine</a>). Applications should also batch multiple transitions into a single call whenever possible.
       
 
 <h3><a id="Runtime_validation"></a><a id="runtime_validation"></a><a id="RUNTIME_VALIDATION"></a>Runtime validation</h3>
-
-            The runtime will validate that the barrier type values are valid members of the <a href="https://msdn.microsoft.com/B3364C92-777F-4207-9685-534B2F07B48F">D3D12_RESOURCE_BARRIER_TYPE</a> enumeration.
+The runtime will validate that the barrier type values are valid members of the <a href="https://msdn.microsoft.com/B3364C92-777F-4207-9685-534B2F07B48F">D3D12_RESOURCE_BARRIER_TYPE</a> enumeration.
           
 
 In addition, the runtime checks the following:
@@ -176,8 +163,7 @@ In addition, the runtime checks the following:
 <ul>
 <li>The resource pointer is non-NULL.</li>
 <li>The subresource index is valid</li>
-<li>
-              The before and after states are supported by the <a href="https://msdn.microsoft.com/D09EB3C3-9FE6-416C-91C5-E04C869C757D">D3D12_RESOURCE_BINDING_TIER</a> and <a href="https://msdn.microsoft.com/EC9DA05A-D0C0-4642-8E49-9ED98B4F19B4">D3D12_RESOURCE_FLAGS</a> flags of the resource.
+<li>The before and after states are supported by the <a href="https://msdn.microsoft.com/D09EB3C3-9FE6-416C-91C5-E04C869C757D">D3D12_RESOURCE_BINDING_TIER</a> and <a href="https://msdn.microsoft.com/EC9DA05A-D0C0-4642-8E49-9ED98B4F19B4">D3D12_RESOURCE_FLAGS</a> flags of the resource.
             </li>
 <li>Reserved bits in the state masks are not set.</li>
 <li>The before and after states are different.</li>
@@ -187,12 +173,10 @@ In addition, the runtime checks the following:
 </ul>
 For aliasing barriers the runtime will validate that, if either resource pointer is non-NULL, it refers to a tiled resource.
 
-
-            For UAV barriers the runtime will validate that, if the resource is non-NULL, the resource has the D3D12_RESOURCE_STATE_UNORDERED_ACCESS bind flag set.
+For UAV barriers the runtime will validate that, if the resource is non-NULL, the resource has the D3D12_RESOURCE_STATE_UNORDERED_ACCESS bind flag set.
           
 
-
-            Validation failure causes <a href="https://msdn.microsoft.com/EA9F00AD-8506-4F3C-871E-A51ED69005BB">ID3D12GraphicsCommandList::Close</a> to return E_INVALIDARG.
+Validation failure causes <a href="https://msdn.microsoft.com/EA9F00AD-8506-4F3C-871E-A51ED69005BB">ID3D12GraphicsCommandList::Close</a> to return E_INVALIDARG.
           
 
 <h3><a id="Debug_layer"></a><a id="debug_layer"></a><a id="DEBUG_LAYER"></a>Debug layer</h3>
@@ -217,8 +201,7 @@ The debug layer will issue warnings in the following cases:
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::ResourceBarrier</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::ResourceBarrier</b> as follows:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -288,8 +271,7 @@ UINT m_rtvDescriptorSize;
 </td>
 </tr>
 </table></span></div>
-
-          See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>

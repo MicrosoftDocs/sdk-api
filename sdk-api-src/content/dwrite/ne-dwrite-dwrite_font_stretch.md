@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_font_stretch.htm
 old-project: DirectWrite
 ms.assetid: 10b3a703-239b-4fb1-9a20-e466b123b060
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/23/2018
 ms.keywords: DWRITE_FONT_STRETCH, DWRITE_FONT_STRETCH enumeration [Direct Write], DWRITE_FONT_STRETCH_CONDENSED, DWRITE_FONT_STRETCH_EXPANDED, DWRITE_FONT_STRETCH_EXTRA_CONDENSED, DWRITE_FONT_STRETCH_EXTRA_EXPANDED, DWRITE_FONT_STRETCH_MEDIUM, DWRITE_FONT_STRETCH_NORMAL, DWRITE_FONT_STRETCH_SEMI_CONDENSED, DWRITE_FONT_STRETCH_SEMI_EXPANDED, DWRITE_FONT_STRETCH_ULTRA_CONDENSED, DWRITE_FONT_STRETCH_ULTRA_EXPANDED, DWRITE_FONT_STRETCH_UNDEFINED, directwrite.dwrite_font_stretch, dwrite/DWRITE_FONT_STRETCH, dwrite/DWRITE_FONT_STRETCH_CONDENSED, dwrite/DWRITE_FONT_STRETCH_EXPANDED, dwrite/DWRITE_FONT_STRETCH_EXTRA_CONDENSED, dwrite/DWRITE_FONT_STRETCH_EXTRA_EXPANDED, dwrite/DWRITE_FONT_STRETCH_MEDIUM, dwrite/DWRITE_FONT_STRETCH_NORMAL, dwrite/DWRITE_FONT_STRETCH_SEMI_CONDENSED, dwrite/DWRITE_FONT_STRETCH_SEMI_EXPANDED, dwrite/DWRITE_FONT_STRETCH_ULTRA_CONDENSED, dwrite/DWRITE_FONT_STRETCH_ULTRA_EXPANDED, dwrite/DWRITE_FONT_STRETCH_UNDEFINED
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-Represents the degree to which a font has been stretched compared to a font's normal aspect ratio.
-  The enumerated values correspond to the <i>usWidthClass</i> definition in the OpenType specification. The usWidthClass represents an integer value between 1 and 9—lower values indicate narrower widths; higher values indicate wider widths.
+Represents the degree to which a font has been stretched compared to a font's normal aspect ratio.The enumerated values correspond to the <i>usWidthClass</i> definition in the OpenType specification. The usWidthClass represents an integer value between 1 and 9—lower values indicate narrower widths; higher values indicate wider widths.
 
 
 ## -enum-fields

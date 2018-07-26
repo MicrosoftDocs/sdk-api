@@ -4,10 +4,10 @@ title: Resize function
 author: windows-sdk-content
 description: Changes the size of the render target to the specified pixel size.
 old-location: direct2d\id2d1hwndrendertarget_resize.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: b8ea2e96-c69b-4018-9572-c9099bf6202d
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: ID2D1HwndRenderTarget::Resize, Resize, Resize methods [Direct2D], d2d1/Resize, direct2d.id2d1hwndrendertarget_resize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ Changes the size of the render target to the specified pixel size.
 <a href="https://msdn.microsoft.com/1a1e7aae-9660-4c35-9d7b-374f3ff28253">Resize(D2D1_SIZE_U*)</a>
 </td>
 <td align="left" width="63%">
-
-    Changes the size of the render target to the specified pixel size.
+Changes the size of the render target to the specified pixel size.
 
 </td>
 </tr>

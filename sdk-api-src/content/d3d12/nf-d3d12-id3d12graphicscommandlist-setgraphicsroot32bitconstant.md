@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_setgraphicsroot32bitconstant.
 old-project: direct3d12
 ms.assetid: F53090CC-05E9-4892-B6BF-0A849A5D98EF
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetGraphicsRoot32BitConstant method, ID3D12GraphicsCommandList.SetGraphicsRoot32BitConstant, ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstant, SetGraphicsRoot32BitConstant, SetGraphicsRoot32BitConstant method, SetGraphicsRoot32BitConstant method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstant, direct3d12.id3d12graphicscommandlist_setgraphicsroot32bitconstant
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Sets a constant in the graphics root signature.
+Sets a constant in the graphics root signature.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            The slot number for binding.
+The slot number for binding.
           
 
 
@@ -73,8 +71,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            The source data for the constant to set.
+The source data for the constant to set.
           
 
 
@@ -82,8 +79,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            The offset, in 32-bit values, to set the constant in the root signature.
+The offset, in 32-bit values, to set the constant in the root signature.
           
 
 
@@ -91,8 +87,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 

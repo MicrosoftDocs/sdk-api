@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_resource_allocation_info.htm
 old-project: direct3d12
 ms.assetid: ADBF5402-C1B5-4A10-92DF-E9F5706F52A1
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_RESOURCE_ALLOCATION_INFO, D3D12_RESOURCE_ALLOCATION_INFO structure, d3d12/D3D12_RESOURCE_ALLOCATION_INFO, direct3d12.d3d12_resource_allocation_info
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,8 +72,7 @@ The alignment value for the resource; one of 4KB (4096), 64KB (65536) and 4MB (4
 
 
 
-
-        This structure is used by the <a href="https://msdn.microsoft.com/43467E09-835B-4DB9-B0A4-F75868DE4609">GetResourceAllocationInfo</a> method.
+This structure is used by the <a href="https://msdn.microsoft.com/43467E09-835B-4DB9-B0A4-F75868DE4609">GetResourceAllocationInfo</a> method.
       
 
 

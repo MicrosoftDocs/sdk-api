@@ -7,7 +7,7 @@ old-location: direct3d11\id3duserdefinedannotation_setmarker.htm
 old-project: direct3d11
 ms.assetid: EACF3660-C6A7-4C46-816C-0D9D292903B5
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3DUserDefinedAnnotation interface [Direct3D 11],SetMarker method, ID3DUserDefinedAnnotation.SetMarker, ID3DUserDefinedAnnotation::SetMarker, SetMarker, SetMarker method [Direct3D 11], SetMarker method [Direct3D 11],ID3DUserDefinedAnnotation interface, d3d11_1/ID3DUserDefinedAnnotation::SetMarker, direct3d11.id3duserdefinedannotation_setmarker
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ A user can visualize the marker when the calling application is running under an
 
 #### Examples
 
-
-          The following code shows how to use <b>SetMarker</b>.
+The following code shows how to use <b>SetMarker</b>.
           It also uses the <a href="22d9ea8d-ed66-4c34-940f-141db11e83bd">CComPtr</a> smart pointer type.
 
 <div class="code"><span codelanguage=""><table>

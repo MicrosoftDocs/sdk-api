@@ -7,7 +7,7 @@ old-location: ad\dsgetdcsitecoverage.htm
 old-project: ad
 ms.assetid: e0f757d9-36b6-40f8-a1db-fb5b9862b46a
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: DsGetDcSiteCoverage, DsGetDcSiteCoverage function [Active Directory], DsGetDcSiteCoverageA, DsGetDcSiteCoverageW, _glines_dsgetdcsitecoverage, ad.dsgetdcsitecoverage, dsgetdc/DsGetDcSiteCoverage, dsgetdc/DsGetDcSiteCoverageA, dsgetdc/DsGetDcSiteCoverageW
 ms.prod: windows
 ms.technology: windows-sdk

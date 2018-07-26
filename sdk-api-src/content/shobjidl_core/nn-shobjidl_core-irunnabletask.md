@@ -7,7 +7,7 @@ old-location: shell\IRunnableTask.htm
 old-project: shell
 ms.assetid: 158a6688-949b-4075-a790-fd6efb88792c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IRunnableTask, IRunnableTask interface [Windows Shell], IRunnableTask interface [Windows Shell],described, _win32_IRunnableTask, shell.IRunnableTask, shobjidl_core/IRunnableTask
 ms.prod: windows
 ms.technology: windows-sdk

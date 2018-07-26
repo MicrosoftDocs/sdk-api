@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_getmemberbyname.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_getmemberbyname.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetMemberByName, GetMemberByName method [Direct3D 10], GetMemberByName method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],GetMemberByName method, ID3D10EffectVariable.GetMemberByName, ID3D10EffectVariable::GetMemberByName, bca41608-f225-d8f7-81c8-fb65153d754a, d3d10effect/ID3D10EffectVariable::GetMemberByName, direct3d10.id3d10effectvariable_getmemberbyname
 ms.prod: windows
 ms.technology: windows-sdk

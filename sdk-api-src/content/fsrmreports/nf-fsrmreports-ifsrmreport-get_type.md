@@ -4,10 +4,10 @@ title: IFsrmReport::get_Type
 author: windows-sdk-content
 description: Retrieves the type of report to generate.
 old-location: fsrm\ifsrmreport_type.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 0f23c03a-5f9b-4a0e-b9cc-399ca931b6f7
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: IFsrmReport interface [File Server Resource Manager],Type property, IFsrmReport.Type, IFsrmReport.get_Type, IFsrmReport::Type, IFsrmReport::get_Type, Type property [File Server Resource Manager], Type property [File Server Resource Manager],IFsrmReport interface, fs.ifsrmreport_type, fsrm.ifsrmreport_type, fsrmreports/IFsrmReport::Type, fsrmreports/IFsrmReport::get_Type, get_Type
 ms.prod: windows
 ms.technology: windows-sdk

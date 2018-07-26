@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_descriptor_heap_flags.htm
 old-project: direct3d12
 ms.assetid: 727178D9-D26C-48AF-86B0-E2E171940A11
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_DESCRIPTOR_HEAP_FLAGS, D3D12_DESCRIPTOR_HEAP_FLAGS enumeration, D3D12_DESCRIPTOR_HEAP_FLAG_NONE, D3D12_DESCRIPTOR_HEAP_FLAG_SHADER_VISIBLE, d3d12/D3D12_DESCRIPTOR_HEAP_FLAGS, d3d12/D3D12_DESCRIPTOR_HEAP_FLAG_NONE, d3d12/D3D12_DESCRIPTOR_HEAP_FLAG_SHADER_VISIBLE, direct3d12.d3d12_descriptor_heap_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ This flag only applies to CBV, SRV, UAV and samplers. It does not apply to other
 
 
 
-
-        This enum is used by the <a href="https://msdn.microsoft.com/060ED49E-12B2-4DAE-A9DC-5BAB96B8E8ED">D3D12_DESCRIPTOR_HEAP_DESC</a> structure.
+This enum is used by the <a href="https://msdn.microsoft.com/060ED49E-12B2-4DAE-A9DC-5BAB96B8E8ED">D3D12_DESCRIPTOR_HEAP_DESC</a> structure.
       
 
 

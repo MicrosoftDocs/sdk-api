@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_sogettargets.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_sogettargets.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 1b186699-d71b-b02e-0591-a512a5b0109d, ID3D10Device interface [Direct3D 10],SOGetTargets method, ID3D10Device.SOGetTargets, ID3D10Device::SOGetTargets, SOGetTargets, SOGetTargets method [Direct3D 10], SOGetTargets method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::SOGetTargets, direct3d10.id3d10device_sogettargets
 ms.prod: windows
 ms.technology: windows-sdk

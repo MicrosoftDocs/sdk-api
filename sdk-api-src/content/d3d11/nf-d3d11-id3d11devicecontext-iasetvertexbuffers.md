@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_iasetvertexbuffers.htm
 old-project: direct3d11
 ms.assetid: e9a9a69c-7df7-4784-98f5-9ad63f6cd407
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: IASetVertexBuffers, IASetVertexBuffers method [Direct3D 11], IASetVertexBuffers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],IASetVertexBuffers method, ID3D11DeviceContext.IASetVertexBuffers, ID3D11DeviceContext::IASetVertexBuffers, d3b78697-f1d6-7517-a7bb-93d9f91ac800, d3d11/ID3D11DeviceContext::IASetVertexBuffers, direct3d11.id3d11devicecontext_iasetvertexbuffers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-      Bind an array of vertex buffers to the <a href="https://msdn.microsoft.com/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>.
+Bind an array of vertex buffers to the <a href="https://msdn.microsoft.com/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>.
 
 
 ## -parameters
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            The first input slot for binding. The first vertex buffer is explicitly bound to the start slot; this causes each additional vertex buffer in the array to be implicitly bound to each subsequent input slot. The maximum of 16 or 32 input slots (ranges from 0 to D3D11_IA_VERTEX_INPUT_RESOURCE_SLOT_COUNT - 1) are available; the <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">maximum number of input slots depends on the feature level</a>.
+The first input slot for binding. The first vertex buffer is explicitly bound to the start slot; this causes each additional vertex buffer in the array to be implicitly bound to each subsequent input slot. The maximum of 16 or 32 input slots (ranges from 0 to D3D11_IA_VERTEX_INPUT_RESOURCE_SLOT_COUNT - 1) are available; the <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">maximum number of input slots depends on the feature level</a>.
           
 
 
@@ -80,8 +78,7 @@ The number of vertex buffers in the array. The number of buffers (plus the start
 
 Type: <b><a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a>*</b>
 
-
-            A pointer to an array of vertex buffers (see <a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a>). The vertex buffers must have been created with the <a href="https://msdn.microsoft.com/4ffa1714-bd85-4d5a-930d-20526f46e4b9">D3D11_BIND_VERTEX_BUFFER</a> flag.
+A pointer to an array of vertex buffers (see <a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a>). The vertex buffers must have been created with the <a href="https://msdn.microsoft.com/4ffa1714-bd85-4d5a-930d-20526f46e4b9">D3D11_BIND_VERTEX_BUFFER</a> flag.
           
 
 
@@ -112,18 +109,15 @@ This method does not return a value.
 
 
 
-
-          For info about creating vertex buffers, see <a href="https://msdn.microsoft.com/584a39d1-7629-429a-b451-64b1432cb48f">How to: Create a Vertex Buffer</a>.
+For info about creating vertex buffers, see <a href="https://msdn.microsoft.com/584a39d1-7629-429a-b451-64b1432cb48f">How to: Create a Vertex Buffer</a>.
         
 
-
-          Calling this method using a buffer that is currently bound for writing (that is, bound to the stream output pipeline stage) will effectively bind <b>NULL</b> instead because a buffer can't be bound as both an input and an output at the same time.
+Calling this method using a buffer that is currently bound for writing (that is, bound to the stream output pipeline stage) will effectively bind <b>NULL</b> instead because a buffer can't be bound as both an input and an output at the same time.
         
 
 The debug layer will generate a warning whenever a resource is prevented from being bound simultaneously as an input and an output, but this will not prevent invalid data from being used by the runtime.
 
-
-          The method will hold a reference to the interfaces passed in.
+The method will hold a reference to the interfaces passed in.
           This differs from the device state behavior in Direct3D 10.
         
 

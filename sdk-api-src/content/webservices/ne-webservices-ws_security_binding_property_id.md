@@ -143,7 +143,7 @@ of a server-side <a href="https://msdn.microsoft.com/c617f6cf-cedb-4d52-954c-fd4
 ### -field WS_SECURITY_BINDING_PROPERTY_ALLOWED_IMPERSONATION_LEVEL
 
 
-A <a href="http://go.microsoft.com/fwlink/p/?linkid=182190">SECURITY_IMPERSONATION_LEVEL</a> value that specifies the impersonation level the client wants to allow when using Windows
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a> value that specifies the impersonation level the client wants to allow when using Windows
 Integrated Authentication to communicate with a service.  The default impersonation level is <b>SecurityIdentification</b>.
                 
 

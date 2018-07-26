@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontsetbuilder_addfontfacereference_overload.ht
 old-project: DirectWrite
 ms.assetid: 2543720f-1b5a-ca1d-9e24-3fcd61a4de37
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/23/2018
 ms.keywords: AddFontFaceReference, AddFontFaceReference methods [Direct Write], IDWriteFontSetBuilder::AddFontFaceReference, directwrite.idwritefontsetbuilder_addfontfacereference_overload, dwrite_3/AddFontFaceReference
 ms.prod: windows
 ms.technology: windows-sdk

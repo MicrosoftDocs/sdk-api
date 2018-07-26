@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevice_receivemode.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_086d.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxDevice object [Fax Service],ReceiveMode property, FaxDevice.ReceiveMode, IFaxDevice.get_ReceiveMode, IFaxDevice.put_ReceiveMode, IFaxDevice::put_ReceiveMode, ReceiveMode property [Fax Service], ReceiveMode property [Fax Service],FaxDevice object, _mfax_faxdevice.receivemode, fax._mfax_faxdevice_receivemode, put_ReceiveMode
 ms.prod: windows
 ms.technology: windows-sdk

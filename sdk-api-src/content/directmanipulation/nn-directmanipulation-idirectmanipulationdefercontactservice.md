@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationdefercontactservice.htm
 old-project: directmanipulation
 ms.assetid: 6063352F-39FF-4E8F-B836-3DA0A02BE523
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/23/2018
 ms.keywords: IDirectManipulationDeferContactService, IDirectManipulationDeferContactService interface [Direct Manipulation], IDirectManipulationDeferContactService interface [Direct Manipulation],described, directmanipulation.idirectmanipulationdefercontactservice, directmanipulation/IDirectManipulationDeferContactService
 ms.prod: windows
 ms.technology: windows-sdk

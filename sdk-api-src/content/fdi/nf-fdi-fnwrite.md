@@ -7,7 +7,7 @@ old-location: winprog\fnwrite.htm
 old-project: devnotes
 ms.assetid: e15d4293-2955-48cd-b8c9-77669a1e6436
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FNWRITE, FNWRITE macro [Windows API], fdi/FNWRITE, winprog.fnwrite
 ms.prod: windows
 ms.technology: windows-sdk

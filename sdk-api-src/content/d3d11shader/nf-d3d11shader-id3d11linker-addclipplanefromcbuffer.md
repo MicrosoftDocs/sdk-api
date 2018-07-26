@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11linker_addclipplanefromcbuffer.htm
 old-project: direct3d11
 ms.assetid: 0E7820F1-8F4E-43B2-A8DD-560BC2B5BC3D
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: AddClipPlaneFromCBuffer, AddClipPlaneFromCBuffer method [Direct3D 11], AddClipPlaneFromCBuffer method [Direct3D 11],ID3D11Linker interface, ID3D11Linker interface [Direct3D 11],AddClipPlaneFromCBuffer method, ID3D11Linker.AddClipPlaneFromCBuffer, ID3D11Linker::AddClipPlaneFromCBuffer, d3d11shader/ID3D11Linker::AddClipPlaneFromCBuffer, direct3d11.id3d11linker_addclipplanefromcbuffer
 ms.prod: windows
 ms.technology: windows-sdk

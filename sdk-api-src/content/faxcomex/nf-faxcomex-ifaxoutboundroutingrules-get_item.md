@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutingrules_item.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_73xp.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxOutboundRoutingRules object [Fax Service],Item property, FaxOutboundRoutingRules.Item, IFaxOutboundRoutingRules.get_Item, IFaxOutboundRoutingRules::get_Item, Item property [Fax Service], Item property [Fax Service],FaxOutboundRoutingRules object, _mfax_faxoutboundroutingrules.item, fax._mfax_faxoutboundroutingrules_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk

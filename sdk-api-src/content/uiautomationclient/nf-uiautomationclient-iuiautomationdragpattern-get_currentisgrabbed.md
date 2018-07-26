@@ -7,7 +7,7 @@ old-location: winauto\uiauto_iuiautomationdragpattern_currentisgrabbed.htm
 old-project: WinAuto
 ms.assetid: 4A528EA2-4E0D-458B-9EC1-ACF5964F0874
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CurrentIsGrabbed property [Windows Accessibility], CurrentIsGrabbed property [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],CurrentIsGrabbed property, IUIAutomationDragPattern.CurrentIsGrabbed, IUIAutomationDragPattern.get_CurrentIsGrabbed, IUIAutomationDragPattern::CurrentIsGrabbed, IUIAutomationDragPattern::get_CurrentIsGrabbed, get_CurrentIsGrabbed, uiautomationclient/IUIAutomationDragPattern::CurrentIsGrabbed, uiautomationclient/IUIAutomationDragPattern::get_CurrentIsGrabbed, winauto.uiauto_iuiautomationdragpattern_currentisgrabbed
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

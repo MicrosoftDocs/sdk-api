@@ -7,7 +7,7 @@ old-location: wininet\deleteurlcachegroup.htm
 old-project: wininet
 ms.assetid: f1ff70db-36b7-4805-8f23-e3920acf0d11
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/20/2018
 ms.keywords: DeleteUrlCacheGroup, DeleteUrlCacheGroup function [WinINet], _inet_deleteurlcachegroup_function, wininet.deleteurlcachegroup, wininet/DeleteUrlCacheGroup
 ms.prod: windows
 ms.technology: windows-sdk

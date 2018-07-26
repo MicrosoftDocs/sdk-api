@@ -4,10 +4,10 @@ title: IResultData::DeleteAllRsltItems
 author: windows-sdk-content
 description: The IResultData::DeleteAllRsltItems method enables the snap-in to remove all user-inserted items and subitems from the result view pane.
 old-location: mmc\iresultdata_deleteallrsltitems.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 07514672-2973-40f1-864a-066e256bd76a
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: DeleteAllRsltItems, DeleteAllRsltItems method [MMC], DeleteAllRsltItems method [MMC],IResultData interface, DeleteAllRsltItems method [MMC],IResultData2 interface, IResultData interface [MMC],DeleteAllRsltItems method, IResultData.DeleteAllRsltItems, IResultData2 interface [MMC],DeleteAllRsltItems method, IResultData2::DeleteAllRsltItems, IResultData::DeleteAllRsltItems, _slate_iresultdata_deleteallrsltitems, mmc.iresultdata_deleteallrsltitems, mmc/IResultData2::DeleteAllRsltItems, mmc/IResultData::DeleteAllRsltItems
 ms.prod: windows
 ms.technology: windows-sdk

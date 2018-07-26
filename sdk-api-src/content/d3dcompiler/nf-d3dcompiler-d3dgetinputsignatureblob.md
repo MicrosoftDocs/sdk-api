@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dgetinputsignatureblob.htm
 old-project: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dgetinputsignatureblob.htm
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/23/2018
 ms.keywords: 4f2b8180-4af5-06c2-bd88-b229e19ce686, D3DGetInputSignatureBlob, D3DGetInputSignatureBlob function [HLSL], d3dcompiler/D3DGetInputSignatureBlob, direct3dhlsl.d3dgetinputsignatureblob
 ms.prod: windows
 ms.technology: windows-sdk

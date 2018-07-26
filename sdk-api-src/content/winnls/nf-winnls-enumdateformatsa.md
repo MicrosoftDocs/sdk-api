@@ -7,7 +7,7 @@ old-location: intl\enumdateformats.htm
 old-project: Intl
 ms.assetid: 77b5e753-aee9-42d8-a0fa-27b065fc3b20
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: EnumDateFormats, EnumDateFormats function [Internationalization for Windows Applications], EnumDateFormatsA, EnumDateFormatsW, _win32_EnumDateFormats, intl.enumdateformats, winnls/EnumDateFormats, winnls/EnumDateFormatsA, winnls/EnumDateFormatsW
 ms.prod: windows
 ms.technology: windows-sdk

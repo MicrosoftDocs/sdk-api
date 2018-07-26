@@ -7,7 +7,7 @@ old-location: shell\GetMenuPosFromID.htm
 old-project: shell
 ms.assetid: 25fb51bc-9b36-4afb-bb07-7bc455c7fbc4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: GetMenuPosFromID, GetMenuPosFromID function [Windows Shell], _shell_GetMenuPosFromID, shell.GetMenuPosFromID, shlwapi/GetMenuPosFromID
 ms.prod: windows
 ms.technology: windows-sdk

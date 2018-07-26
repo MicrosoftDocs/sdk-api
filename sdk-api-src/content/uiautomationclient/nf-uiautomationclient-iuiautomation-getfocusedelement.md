@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_GetFocusedElement.htm
 old-project: WinAuto
 ms.assetid: a75f03bc-f472-40bf-8fa2-8c1d3ddf4fbb
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: GetFocusedElement, GetFocusedElement method [Windows Accessibility], GetFocusedElement method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],GetFocusedElement method, IUIAutomation.GetFocusedElement, IUIAutomation::GetFocusedElement, uiauto.uiauto_IUIAutomation_GetFocusedElement, uiauto_IUIAutomation_GetFocusedElement, uiautomationclient/IUIAutomation::GetFocusedElement, winauto.uiauto_IUIAutomation_GetFocusedElement
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

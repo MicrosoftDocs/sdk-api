@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_getdescriptorhandleincrementsize.htm
 old-project: direct3d12
 ms.assetid: 4593C153-913A-49DF-ADDC-6FB1E19D3D17
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetDescriptorHandleIncrementSize, GetDescriptorHandleIncrementSize method, GetDescriptorHandleIncrementSize method,ID3D12Device interface, ID3D12Device interface,GetDescriptorHandleIncrementSize method, ID3D12Device.GetDescriptorHandleIncrementSize, ID3D12Device::GetDescriptorHandleIncrementSize, d3d12/ID3D12Device::GetDescriptorHandleIncrementSize, direct3d12.id3d12device_getdescriptorhandleincrementsize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Gets the size of the handle increment for the given type of descriptor heap. This value is typically used to increment a handle into a descriptor array by the correct amount.
+Gets the size of the handle increment for the given type of descriptor heap. This value is typically used to increment a handle into a descriptor array by the correct amount.
 
 
 ## -parameters
@@ -61,8 +60,7 @@ req.irql:
 
 ### -param DescriptorHeapType [in]
 
-
-            The <a href="https://msdn.microsoft.com/E74C78BC-B0FC-473A-B4F3-434F50A55E9F">D3D12_DESCRIPTOR_HEAP_TYPE</a>-typed value that specifies the type of descriptor heap to get the size of the handle increment for.
+The <a href="https://msdn.microsoft.com/E74C78BC-B0FC-473A-B4F3-434F50A55E9F">D3D12_DESCRIPTOR_HEAP_TYPE</a>-typed value that specifies the type of descriptor heap to get the size of the handle increment for.
           
 
 
@@ -70,8 +68,7 @@ req.irql:
 
 
 
-
-            Returns the size of the handle increment for the given type of descriptor heap, including any necessary padding.
+Returns the size of the handle increment for the given type of descriptor heap, including any necessary padding.
 
 
 
@@ -85,8 +82,7 @@ The descriptor size returned by this method is used as one input to the helper s
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12PredicationQueries</a> sample uses <b>ID3D12Device::GetDescriptorHandleIncrementSize</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12PredicationQueries</a> sample uses <b>ID3D12Device::GetDescriptorHandleIncrementSize</b> as follows:
         
 
 Create the descriptor heap for the resources. The <code>m_rtvDescriptorSize</code> variable stores the render target view descriptor handle increment size, and is used in the <b>Create frame resources</b> section of the code.

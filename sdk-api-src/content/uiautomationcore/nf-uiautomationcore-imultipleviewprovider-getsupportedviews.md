@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IMultipleViewProvider_GetSupportedViews.htm
 old-project: WinAuto
 ms.assetid: fd4d5616-c126-455e-84e7-e62e24daf8f9
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: GetSupportedViews, GetSupportedViews method [Windows Accessibility], GetSupportedViews method [Windows Accessibility],IMultipleViewProvider interface, IMultipleViewProvider interface [Windows Accessibility],GetSupportedViews method, IMultipleViewProvider.GetSupportedViews, IMultipleViewProvider::GetSupportedViews, uiauto.uiauto_IMultipleViewProvider_GetSupportedViews, uiauto_IMultipleViewProvider_GetSupportedViews, uiautomationcore/IMultipleViewProvider::GetSupportedViews, winauto.uiauto_IMultipleViewProvider_GetSupportedViews
 ms.prod: windows
 ms.technology: windows-sdk

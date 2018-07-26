@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices_iaccpropservices__clearprops.htm
 old-project: WinAuto
 ms.assetid: 6a3bce93-1d5d-48cf-84f4-cbca445b5451
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: ClearProps, ClearProps method [Windows Accessibility], ClearProps method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ClearProps method, IAccPropServices.ClearProps, IAccPropServices::ClearProps, _msaa_IAccPropServices_ClearProps, msaa.iaccpropservices_iaccpropservices__clearprops, oleacc/IAccPropServices::ClearProps, winauto.iaccpropservices_iaccpropservices__clearprops
 ms.prod: windows
 ms.technology: windows-sdk

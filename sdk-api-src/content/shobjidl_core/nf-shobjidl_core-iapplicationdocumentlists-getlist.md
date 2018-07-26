@@ -7,7 +7,7 @@ old-location: shell\IApplicationDocumentLists_GetList.htm
 old-project: shell
 ms.assetid: d86bf039-81d9-4d43-9671-b107d7e925ab
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: ADLT_FREQUENT, ADLT_RECENT, GetList, GetList method [Windows Shell], GetList method [Windows Shell],IApplicationDocumentLists interface, IApplicationDocumentLists interface [Windows Shell],GetList method, IApplicationDocumentLists.GetList, IApplicationDocumentLists::GetList, _shell_IApplicationDocumentLists_GetList, shell.IApplicationDocumentLists_GetList, shobjidl_core/IApplicationDocumentLists::GetList
 ms.prod: windows
 ms.technology: windows-sdk

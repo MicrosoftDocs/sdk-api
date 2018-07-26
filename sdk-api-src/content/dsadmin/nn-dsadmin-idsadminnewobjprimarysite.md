@@ -7,7 +7,7 @@ old-location: ad\idsadminnewobjprimarysite.htm
 old-project: ad
 ms.assetid: cb46cb8f-28ae-44d0-b1de-dc6c090f8fc6
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: IDsAdminNewObjPrimarySite, IDsAdminNewObjPrimarySite interface [Active Directory], IDsAdminNewObjPrimarySite interface [Active Directory],described, _glines_idsadminnewobjprimarysite, ad.idsadminnewobjprimarysite, dsadmin/IDsAdminNewObjPrimarySite
 ms.prod: windows
 ms.technology: windows-sdk

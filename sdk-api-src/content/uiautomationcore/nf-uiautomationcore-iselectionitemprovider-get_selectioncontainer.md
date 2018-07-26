@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISelectionItemProvider_SelectionContainer.htm
 old-project: WinAuto
 ms.assetid: c1bfdb40-f30c-4f33-a947-875077000029
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: ISelectionItemProvider interface [Windows Accessibility],SelectionContainer property, ISelectionItemProvider.SelectionContainer, ISelectionItemProvider.get_SelectionContainer, ISelectionItemProvider::SelectionContainer, ISelectionItemProvider::get_SelectionContainer, SelectionContainer property [Windows Accessibility], SelectionContainer property [Windows Accessibility],ISelectionItemProvider interface, get_SelectionContainer, uiauto.uiauto_ISelectionItemProvider_SelectionContainer, uiauto_ISelectionItemProvider_SelectionContainer, uiautomationcore/ISelectionItemProvider::SelectionContainer, uiautomationcore/ISelectionItemProvider::get_SelectionContainer, winauto.uiauto_ISelectionItemProvider_SelectionContainer
 ms.prod: windows
 ms.technology: windows-sdk

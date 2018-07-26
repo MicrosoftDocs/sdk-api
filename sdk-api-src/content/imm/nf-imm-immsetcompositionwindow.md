@@ -7,7 +7,7 @@ old-location: intl\immsetcompositionwindow.htm
 old-project: Intl
 ms.assetid: 01204f4c-4cf1-4bff-99db-fa0c66c2a8e9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: ImmSetCompositionWindow, ImmSetCompositionWindow function [Internationalization for Windows Applications], _win32_ImmSetCompositionWindow, imm/ImmSetCompositionWindow, intl.immsetcompositionwindow
 ms.prod: windows
 ms.technology: windows-sdk

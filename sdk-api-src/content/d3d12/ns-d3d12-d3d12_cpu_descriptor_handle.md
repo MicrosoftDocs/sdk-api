@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_cpu_descriptor_handle.htm
 old-project: direct3d12
 ms.assetid: 92451E4C-5E70-4015-8760-3F75066A44FD
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_CPU_DESCRIPTOR_HANDLE, D3D12_CPU_DESCRIPTOR_HANDLE structure, d3d12/D3D12_CPU_DESCRIPTOR_HANDLE, direct3d12.d3d12_cpu_descriptor_handle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes a CPU descriptor handle.
+Describes a CPU descriptor handle.
         
 
 
@@ -62,8 +61,7 @@ req.irql:
 
 ### -field ptr
 
-
-            The address of  the descriptor.
+The address of  the descriptor.
           
 
 
@@ -71,8 +69,7 @@ req.irql:
 
 
 
-
-          This structure is returned by the following methods:
+This structure is returned by the following methods:
         
 
 <ul>
@@ -80,8 +77,7 @@ req.irql:
 <a href="https://msdn.microsoft.com/80C41537-1579-4166-A7F9-FB2478ECDE77">ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart</a>
 </li>
 </ul>
-
-          This structure is passed into the following methods:
+This structure is passed into the following methods:
         
 
 <ul>

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__present.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__present.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],Present method, IDirect3DDevice9.Present, IDirect3DDevice9::Present, Present, Present method [Direct3D 9], Present method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::Present, dec6b9d2-0577-093b-3855-599ed58adc87, direct3d9.idirect3ddevice9__present
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingqueue_getjob.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3w6a.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxOutgoingQueue object [Fax Service],GetJob method, FaxOutgoingQueue.GetJob, GetJob, GetJob method [Fax Service], GetJob method [Fax Service],FaxOutgoingQueue object, IFaxOutgoingQueue.GetJob, IFaxOutgoingQueue::GetJob, _mfax_faxoutgoingqueue.getjob, fax._mfax_faxoutgoingqueue_getjob
 ms.prod: windows
 ms.technology: windows-sdk

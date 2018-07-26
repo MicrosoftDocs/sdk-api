@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_ShutdownWindows.htm
 old-project: shell
 ms.assetid: 3C4F6579-6398-4af4-8911-FE22555B0ABC
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IShellDispatch object [Windows Shell],ShutdownWindows method, IShellDispatch.ShutdownWindows, IShellDispatch::ShutdownWindows, ShutdownWindows, ShutdownWindows method [Windows Shell], ShutdownWindows method [Windows Shell],IShellDispatch object, shell.IShellDispatch_ShutdownWindows
 ms.prod: windows
 ms.technology: windows-sdk

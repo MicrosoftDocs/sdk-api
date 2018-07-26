@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_gpu_virtual_address_support.htm
 old-project: direct3d12
 ms.assetid: 2CBED491-A8B6-47AE-8371-2081BAF85B83
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT, D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT structure, d3d12/D3D12_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT, direct3d12.d3d12_feature_data_gpu_virtual_address_support
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Details the adapter's GPU virtual address space limitations, including maximum address bits per resource and per process.
+Details the adapter's GPU virtual address space limitations, including maximum address bits per resource and per process.
         
 
 
@@ -71,8 +70,7 @@ When per resource capabilities are greater than per process, the greater per res
 
 ### -field MaxGPUVirtualAddressBitsPerProcess
 
-
-            The maximum GPU virtual address bits per process.
+The maximum GPU virtual address bits per process.
 
 When this value is nearly equal to the available residency budget, <a href="https://msdn.microsoft.com/37F8ABA7-EDA3-4775-8B86-470FC4F95662">Evict</a> will not be a feasible option to manage residency. See <a href="https://msdn.microsoft.com/2B3B97DC-5AA3-470E-8EED-3956B295BB94">MakeResident</a> for more details.
 
@@ -81,8 +79,7 @@ When this value is nearly equal to the available residency budget, <a href="http
 
 
 
-
-        See the enumeration constant D3D12_FEATURE_GPU_VIRTUAL_ADDRESS_SUPPORT in the <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a> enumeration.
+See the enumeration constant D3D12_FEATURE_GPU_VIRTUAL_ADDRESS_SUPPORT in the <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a> enumeration.
       
 
 

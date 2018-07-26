@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getretrievalfilter.htm
 old-project: direct3d12
 ms.assetid: A5F4A602-C5C1-402E-9208-D183EEDF6F27
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetRetrievalFilter, GetRetrievalFilter method, GetRetrievalFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetRetrievalFilter method, ID3D12InfoQueue.GetRetrievalFilter, ID3D12InfoQueue::GetRetrievalFilter, d3d12sdklayers/ID3D12InfoQueue::GetRetrievalFilter, direct3d12.id3d12infoqueue_getretrievalfilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Get the retrieval filter at the top of the retrieval-filter stack.
+Get the retrieval filter at the top of the retrieval-filter stack.
 
 
 
@@ -65,8 +64,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/5CD64E71-8530-43FB-B441-25C61ED6F317">D3D12_INFO_QUEUE_FILTER</a>*</b>
 
-
-            Retrieval filter at the top of the retrieval-filter stack.
+Retrieval filter at the top of the retrieval-filter stack.
 
 
           
@@ -76,8 +74,7 @@ Type: <b><a href="https://msdn.microsoft.com/5CD64E71-8530-43FB-B441-25C61ED6F31
 
 Type: <b>SIZE_T*</b>
 
-
-            Size of the retrieval filter in bytes. If <i>pFilter</i> is NULL, the size of the retrieval filter will be output to this parameter.
+Size of the retrieval filter in bytes. If <i>pFilter</i> is NULL, the size of the retrieval filter will be output to this parameter.
 
 
           
@@ -89,8 +86,7 @@ Type: <b>SIZE_T*</b>
 
 Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-
-            This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>. 
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>. 
           
 
 

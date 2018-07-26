@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection_getthreadgroupsize.htm
 old-project: direct3d12
 ms.assetid: C34A76B7-2410-4F0D-B2EC-8C62CD70DFE0
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetThreadGroupSize, GetThreadGroupSize method, GetThreadGroupSize method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetThreadGroupSize method, ID3D12ShaderReflection.GetThreadGroupSize, ID3D12ShaderReflection::GetThreadGroupSize, d3d12shader/ID3D12ShaderReflection::GetThreadGroupSize, direct3d12.id3d12shaderreflection_getthreadgroupsize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Retrieves the sizes, in units of threads, of the X, Y, and Z dimensions of the shader's thread-group grid.
+Retrieves the sizes, in units of threads, of the X, Y, and Z dimensions of the shader's thread-group grid.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
-
-            A pointer to the size, in threads, of the x-dimension of the thread-group grid. The maximum size is 1024.
+A pointer to the size, in threads, of the x-dimension of the thread-group grid. The maximum size is 1024.
           
 
 
@@ -73,8 +71,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
-
-            A pointer to the size, in threads, of the y-dimension of the thread-group grid. The maximum size is 1024.
+A pointer to the size, in threads, of the y-dimension of the thread-group grid. The maximum size is 1024.
           
 
 
@@ -82,8 +79,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
-
-            A pointer to the size, in threads, of the z-dimension of the thread-group grid. The maximum size is 64.
+A pointer to the size, in threads, of the z-dimension of the thread-group grid. The maximum size is 64.
           
 
 
@@ -93,8 +89,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            Returns the total size, in threads, of the thread-group grid by calculating the product of the size of each dimension.
+Returns the total size, in threads, of the thread-group grid by calculating the product of the size of each dimension.
             
 
 <pre class="syntax" xml:space="preserve"><code>*pSizeX * *pSizeY * *pSizeZ;</code></pre>
@@ -105,8 +100,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-
-          This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
+This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
         
 
 When a compute shader is written it defines the actions of a single thread group only. If multiple thread groups are required, it is the role of the <a href="https://msdn.microsoft.com/948EE430-6B34-473D-9B5F-1C78CECFBF6F">ID3D12GraphicsCommandList::Dispatch</a> call to issue multiple thread groups. 

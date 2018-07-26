@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_recipient.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7bhw.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxOutgoingJob object [Fax Service],Recipient property, FaxOutgoingJob.Recipient, IFaxOutgoingJob.get_Recipient, IFaxOutgoingJob::get_Recipient, Recipient property [Fax Service], Recipient property [Fax Service],FaxOutgoingJob object, _mfax_faxoutgoingjob.recipient, fax._mfax_faxoutgoingjob_recipient, get_Recipient
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_opensharedhandlebyname.htm
 old-project: direct3d12
 ms.assetid: 4866BD8B-31F8-47E0-9228-5F61D6CA2190
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12Device interface,OpenSharedHandleByName method, ID3D12Device.OpenSharedHandleByName, ID3D12Device::OpenSharedHandleByName, OpenSharedHandleByName, OpenSharedHandleByName method, OpenSharedHandleByName method,ID3D12Device interface, d3d12/ID3D12Device::OpenSharedHandleByName, direct3d12.id3d12device_opensharedhandlebyname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Opens a handle for shared resources, shared heaps, and shared fences, by using Name and Access.
+Opens a handle for shared resources, shared heaps, and shared fences, by using Name and Access.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b>LPCWSTR</b>
 
-
-            The name that was optionally passed as the <i>Name</i> parameter in the call to 
+The name that was optionally passed as the <i>Name</i> parameter in the call to 
             <a href="https://msdn.microsoft.com/AFF058FF-358F-4FF3-8C92-57A9D34B27D9">ID3D12Device::CreateSharedHandle</a>.
           
 
@@ -74,8 +72,7 @@ Type: <b>LPCWSTR</b>
 
 Type: <b>DWORD</b>
 
-
-            The access level that was specified in the <i>Access</i> parameter in the call to 
+The access level that was specified in the <i>Access</i> parameter in the call to 
             <a href="https://msdn.microsoft.com/AFF058FF-358F-4FF3-8C92-57A9D34B27D9">ID3D12Device::CreateSharedHandle</a>.
           
 
@@ -84,8 +81,7 @@ Type: <b>DWORD</b>
 
 Type: <b>HANDLE*</b>
 
-
-            Pointer to the shared handle.
+Pointer to the shared handle.
           
 
 
@@ -95,8 +91,7 @@ Type: <b>HANDLE*</b>
 
 Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-
-            This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
 
 

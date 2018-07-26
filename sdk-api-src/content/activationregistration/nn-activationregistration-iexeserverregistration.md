@@ -7,7 +7,7 @@ old-location: winrt\iexeserverregistration.htm
 old-project: WinRT
 ms.assetid: 9A96968D-B9BD-4C47-B626-69B6EA6AE7EA
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IExeServerRegistration, IExeServerRegistration interface [Windows Runtime], IExeServerRegistration interface [Windows Runtime],described, activationregistration/IExeServerRegistration, winrt.iexeserverregistration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The <b>IExeServerRegistration</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DC0E3542-662F-43B8-968B-9F565D9D9278">AppUserModelId</a>
+<a href="https://msdn.microsoft.com/DC0E3542-662F-43B8-968B-9F565D9D9278">get_AppUserModelId</a>
 </td>
 <td align="left" width="63%">
 Gets the identifier for the app's user model.
@@ -79,7 +79,7 @@ Gets the identifier for the app's user model.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn953814">CommandLine</a>
+<a href="https://msdn.microsoft.com/2A4B80B9-3590-411C-8834-6850A44AF46C">get_CommandLine</a>
 </td>
 <td align="left" width="63%">
 Gets the command line used to launch the out-of-process server.
@@ -88,7 +88,7 @@ Gets the command line used to launch the out-of-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69E8D576-B842-4CD4-8D93-87E4E08D11CA">ExePath</a>
+<a href="https://msdn.microsoft.com/69E8D576-B842-4CD4-8D93-87E4E08D11CA">get_ExePath</a>
 </td>
 <td align="left" width="63%">
 Gets the file path to the out-of-process server.
@@ -97,7 +97,7 @@ Gets the file path to the out-of-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DA667D7C-323B-412D-AF9E-03402223292A">Identity</a>
+<a href="https://msdn.microsoft.com/DA667D7C-323B-412D-AF9E-03402223292A">get_Identity</a>
 </td>
 <td align="left" width="63%">
 Gets the identity of the out-of-process server.
@@ -106,7 +106,7 @@ Gets the identity of the out-of-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj159059">IdentityType</a>
+<a href="https://msdn.microsoft.com/DF0A20D8-5028-4A7B-B8E6-CAF5C3716407">get_IdentityType</a>
 </td>
 <td align="left" width="63%">
 Gets the activation type for the out-of-process server.
@@ -115,7 +115,7 @@ Gets the activation type for the out-of-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23618FBC-2404-4AB7-9842-7FD439F677B1">Instancing</a>
+<a href="https://msdn.microsoft.com/23618FBC-2404-4AB7-9842-7FD439F677B1">get_Instancing</a>
 </td>
 <td align="left" width="63%">
 Gets the instancing behavior for the out-of-process server.
@@ -124,7 +124,7 @@ Gets the instancing behavior for the out-of-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06267C33-11B4-4B55-8D2C-A20926EE89DF">Permissions</a>
+<a href="https://msdn.microsoft.com/06267C33-11B4-4B55-8D2C-A20926EE89DF">get_Permissions</a>
 </td>
 <td align="left" width="63%">
 Gets the permissions for the out-of-process server.
@@ -133,7 +133,7 @@ Gets the permissions for the out-of-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt764014">ServerName</a>
+<a href="https://msdn.microsoft.com/CB7CAA65-4DA9-4948-AEB4-150A45629947">get_ServerName</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the current out-of-process server.

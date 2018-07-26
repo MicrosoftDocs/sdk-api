@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__getbackbuffer.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getbackbuffer.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: GetBackBuffer, GetBackBuffer method [Direct3D 9], GetBackBuffer method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetBackBuffer method, IDirect3DDevice9.GetBackBuffer, IDirect3DDevice9::GetBackBuffer, b04301e3-b180-4cfd-097e-28f74fd7b3a9, d3d9helper/IDirect3DDevice9::GetBackBuffer, direct3d9.idirect3ddevice9__getbackbuffer
 ms.prod: windows
 ms.technology: windows-sdk

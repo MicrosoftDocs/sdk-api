@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedKeyboar
 old-project: WinAuto
 ms.assetid: 3ebe588d-19ab-4df2-be01-4abd0a62a2f8
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CachedKeyboardShortcut property [Windows Accessibility], CachedKeyboardShortcut property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedKeyboardShortcut property, IUIAutomationLegacyIAccessiblePattern.CachedKeyboardShortcut, IUIAutomationLegacyIAccessiblePattern.get_CachedKeyboardShortcut, IUIAutomationLegacyIAccessiblePattern::CachedKeyboardShortcut, IUIAutomationLegacyIAccessiblePattern::get_CachedKeyboardShortcut, get_CachedKeyboardShortcut, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedKeyboardShortcut, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedKeyboardShortcut, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedKeyboardShortcut, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedKeyboardShortcut, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedKeyboardShortcut
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

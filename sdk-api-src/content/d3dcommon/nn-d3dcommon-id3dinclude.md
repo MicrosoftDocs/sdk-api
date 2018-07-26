@@ -7,7 +7,7 @@ old-location: direct3d11\id3dinclude.htm
 old-project: direct3d11
 ms.assetid: 2020ce65-3a6e-4a9f-9e97-b94e3c75f4f5
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3DInclude, ID3DInclude interface [Direct3D 11], ID3DInclude interface [Direct3D 11],described, d3dcommon/ID3DInclude, direct3d11.id3dinclude
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,8 +94,7 @@ A user-implemented method for opening and reading the contents of a shader #incl
 
 
 
-
-          To use this interface, create an interface that inherits from <b>ID3DInclude</b> and implement custom behavior for the methods.
+To use this interface, create an interface that inherits from <b>ID3DInclude</b> and implement custom behavior for the methods.
         
 
 

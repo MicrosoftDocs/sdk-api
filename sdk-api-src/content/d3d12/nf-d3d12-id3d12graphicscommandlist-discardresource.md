@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_discardresource.htm
 old-project: direct3d12
 ms.assetid: 2F4DBA5B-F586-4126-8867-BEE650F6D161
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: DiscardResource, DiscardResource method, DiscardResource method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,DiscardResource method, ID3D12GraphicsCommandList.DiscardResource, ID3D12GraphicsCommandList::DiscardResource, d3d12/ID3D12GraphicsCommandList::DiscardResource, direct3d12.id3d12graphicscommandlist_discardresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Discards a resource.
 
 Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>*</b>
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> interface for the resource to discard.
+A pointer to the <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> interface for the resource to discard.
             
 
 
@@ -71,8 +70,7 @@ Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD
 
 Type: <b>const <a href="https://msdn.microsoft.com/8F0916CB-3389-40BC-8028-BA8CF9BC566B">D3D12_DISCARD_REGION</a>*</b>
 
-
-              A pointer to a <a href="https://msdn.microsoft.com/8F0916CB-3389-40BC-8028-BA8CF9BC566B">D3D12_DISCARD_REGION</a> structure that describes details for the discard-resource operation.
+A pointer to a <a href="https://msdn.microsoft.com/8F0916CB-3389-40BC-8028-BA8CF9BC566B">D3D12_DISCARD_REGION</a> structure that describes details for the discard-resource operation.
             
 
 
@@ -80,8 +78,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/8F0916CB-3389-40BC-8028-BA8CF
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 

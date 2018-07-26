@@ -4,10 +4,10 @@ title: IFsrmPropertyBag::get_OwnerSid
 author: windows-sdk-content
 description: The SID of the owner of the file.
 old-location: fsrm\ifsrmpropertybag_ownersid.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: bb2b0872-9553-40d3-a9b0-7602266c28da
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],OwnerSid property, IFsrmPropertyBag.OwnerSid, IFsrmPropertyBag.get_OwnerSid, IFsrmPropertyBag::OwnerSid, IFsrmPropertyBag::get_OwnerSid, OwnerSid property [File Server Resource Manager], OwnerSid property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_ownersid, fsrm.ifsrmpropertybag_ownersid, fsrmpipeline/IFsrmPropertyBag::OwnerSid, fsrmpipeline/IFsrmPropertyBag::get_OwnerSid, get_OwnerSid
 ms.prod: windows
 ms.technology: windows-sdk

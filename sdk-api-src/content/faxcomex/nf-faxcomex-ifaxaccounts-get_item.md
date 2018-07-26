@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccounts_item.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxaccounts\faxinta_n_item.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxAccounts object [Fax Service],Item property, FaxAccounts.Item, IFaxAccounts.get_Item, IFaxAccounts::get_Item, Item property [Fax Service], Item property [Fax Service],FaxAccounts object, _mfax_faxaccounts.item, fax._mfax_faxaccounts_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsetconfiguration.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8iwe.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxSetConfiguration, FaxSetConfiguration function [Fax Service], FaxSetConfigurationA, FaxSetConfigurationW, _mfax_faxsetconfiguration, fax._mfax_faxsetconfiguration, winfax/FaxSetConfiguration, winfax/FaxSetConfigurationA, winfax/FaxSetConfigurationW
 ms.prod: windows
 ms.technology: windows-sdk

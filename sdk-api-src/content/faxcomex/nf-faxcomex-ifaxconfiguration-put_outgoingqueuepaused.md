@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_PauseOutgoingQueue_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\pauseoutgoingqueue.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxConfiguration object [Fax Service],OutgoingQueuePaused property, FaxConfiguration.OutgoingQueuePaused, IFaxConfiguration.put_OutgoingQueuePaused, IFaxConfiguration::put_OutgoingQueuePaused, OutgoingQueuePaused property [Fax Service], OutgoingQueuePaused property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_PauseOutgoingQueue, fax._mfax_FaxConfiguration_PauseOutgoingQueue_vb, put_OutgoingQueuePaused
 ms.prod: windows
 ms.technology: windows-sdk

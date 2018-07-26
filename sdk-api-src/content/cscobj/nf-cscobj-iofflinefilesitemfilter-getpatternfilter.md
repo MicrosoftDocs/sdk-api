@@ -7,7 +7,7 @@ old-location: of\iofflinefilesitemfilter_getpatternfilter.htm
 old-project: offlinefiles
 ms.assetid: 570cf25c-d4a4-42d6-8f33-bb660a7e99ab
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/23/2018
 ms.keywords: GetPatternFilter, GetPatternFilter method [Offline Files], GetPatternFilter method [Offline Files],IOfflineFilesItemFilter interface, IOfflineFilesItemFilter interface [Offline Files],GetPatternFilter method, IOfflineFilesItemFilter.GetPatternFilter, IOfflineFilesItemFilter::GetPatternFilter, cscobj/IOfflineFilesItemFilter::GetPatternFilter, of.iofflinefilesitemfilter_getpatternfilter
 ms.prod: windows
 ms.technology: windows-sdk

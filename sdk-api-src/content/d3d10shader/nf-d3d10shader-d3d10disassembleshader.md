@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10disassembleshader.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10disassembleshader.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 3e4c4f2f-1754-2bbc-636d-9cea485ffad1, D3D10DisassembleShader, D3D10DisassembleShader function [Direct3D 10], d3d10shader/D3D10DisassembleShader, direct3d10.d3d10disassembleshader
 ms.prod: windows
 ms.technology: windows-sdk

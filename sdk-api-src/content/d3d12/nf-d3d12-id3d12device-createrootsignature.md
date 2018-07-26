@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createrootsignature.htm
 old-project: direct3d12
 ms.assetid: CD3389EC-4086-40F0-B1DB-BCBCF9DDE6BA
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: CreateRootSignature, CreateRootSignature method, CreateRootSignature method,ID3D12Device interface, ID3D12Device interface,CreateRootSignature method, ID3D12Device.CreateRootSignature, ID3D12Device::CreateRootSignature, d3d12/ID3D12Device::CreateRootSignature, direct3d12.id3d12device_createrootsignature
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Creates a root signature layout.
+Creates a root signature layout.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            For single GPU operation, set this to zero. If there are multiple GPU nodes, set bits to identify the nodes (the  device's physical adapters) to which the root signature is to apply.
+For single GPU operation, set this to zero. If there are multiple GPU nodes, set bits to identify the nodes (the  device's physical adapters) to which the root signature is to apply.
             Each bit in the mask corresponds to a single node.
             Refer to <a href="https://msdn.microsoft.com/CC4C6594-D48F-40C1-93EE-9F98532BC038">Multi-Adapter</a>.
 
@@ -74,8 +72,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">void</a>*</b>
 
-
-            A pointer to the source data for the serialized signature.
+A pointer to the source data for the serialized signature.
           
 
 
@@ -83,8 +80,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a></b>
 
-
-            The size, in bytes, of the block of memory that <i>pBlobWithRootSignature</i> points to.
+The size, in bytes, of the block of memory that <i>pBlobWithRootSignature</i> points to.
           
 
 
@@ -92,8 +88,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><b>REFIID</b></b>
 
-
-            The globally unique identifier (<b>GUID</b>) for the root signature interface. See Remarks.
+The globally unique identifier (<b>GUID</b>) for the root signature interface. See Remarks.
             An input parameter.
           
 
@@ -102,8 +97,7 @@ Type: <b><b>REFIID</b></b>
 
 Type: <b><b>void</b>**</b>
 
-
-            A pointer to a memory block that receives a pointer to the root signature.
+A pointer to a memory block that receives a pointer to the root signature.
           
 
 
@@ -113,12 +107,10 @@ Type: <b><b>void</b>**</b>
 
 Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-
-            Returns <b>S_OK</b> if successful; otherwise, returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+Returns <b>S_OK</b> if successful; otherwise, returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
 
-
-            This method returns <b>E_INVALIDARG</b> if the blob that <i>pBlobWithRootSignature</i> points to is invalid.
+This method returns <b>E_INVALIDARG</b> if the blob that <i>pBlobWithRootSignature</i> points to is invalid.
           
 
 
@@ -128,21 +120,18 @@ Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRE
 
 
 
-
-        If an application procedurally generates a <a href="https://msdn.microsoft.com/D74D9D3B-96AB-489A-A91C-4F68AC3D05EE">D3D12_ROOT_SIGNATURE_DESC</a> data structure, it must pass a pointer to this <b>D3D12_ROOT_SIGNATURE_DESC</b> in a call to <a href="https://msdn.microsoft.com/ACC46F5E-1074-41B3-8D13-9FD4352DBF66">D3D12SerializeRootSignature</a> to make the serialized form.
+If an application procedurally generates a <a href="https://msdn.microsoft.com/D74D9D3B-96AB-489A-A91C-4F68AC3D05EE">D3D12_ROOT_SIGNATURE_DESC</a> data structure, it must pass a pointer to this <b>D3D12_ROOT_SIGNATURE_DESC</b> in a call to <a href="https://msdn.microsoft.com/ACC46F5E-1074-41B3-8D13-9FD4352DBF66">D3D12SerializeRootSignature</a> to make the serialized form.
         The application then passes the serialized form to <i>pBlobWithRootSignature</i> in a call to <b>ID3D12Device::CreateRootSignature</b>.
       
 
-
-        The <b>REFIID</b>, or <b>GUID</b>, of the interface to the root signature layout can be obtained by using the __uuidof() macro.
+The <b>REFIID</b>, or <b>GUID</b>, of the interface to the root signature layout can be obtained by using the __uuidof() macro.
         For example, __uuidof(<a href="https://msdn.microsoft.com/BEE01381-12C2-4DD9-9121-22BB5840ECD5">ID3D12RootSignature</a>) will get the <b>GUID</b> of the interface to a root signature.
       
 
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12Device::CreateRootSignature</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12Device::CreateRootSignature</b> as follows:
         
 
 Create an empty root signature.

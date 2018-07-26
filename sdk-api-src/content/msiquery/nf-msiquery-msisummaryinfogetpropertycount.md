@@ -4,10 +4,10 @@ title: MsiSummaryInfoGetPropertyCount function
 author: windows-sdk-content
 description: The MsiSummaryInfoGetPropertyCount function returns the number of existing properties in the summary information stream.
 old-location: setup\msisummaryinfogetpropertycount.htm
-old-project: msi
+old-project: Msi
 ms.assetid: 8a9fe9cc-8289-479a-acda-ce2a2b76705f
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: MsiSummaryInfoGetPropertyCount, MsiSummaryInfoGetPropertyCount function, _msi_msisummaryinfogetpropertycount, msiquery/MsiSummaryInfoGetPropertyCount, setup.msisummaryinfogetpropertycount
 ms.prod: windows
 ms.technology: windows-sdk

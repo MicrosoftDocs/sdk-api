@@ -7,7 +7,7 @@ old-location: wininet\createmd5ssohash.htm
 old-project: wininet
 ms.assetid: 9aba22d7-a1a9-4b90-bfc6-78df8a8d0ce5
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/20/2018
 ms.keywords: CreateMD5SSOHash, CreateMD5SSOHash function [WinINet], wininet.createmd5ssohash, winineti/CreateMD5SSOHash
 ms.prod: windows
 ms.technology: windows-sdk

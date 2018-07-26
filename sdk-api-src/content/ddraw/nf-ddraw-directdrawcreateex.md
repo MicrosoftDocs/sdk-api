@@ -7,7 +7,7 @@ old-location: directdraw\directdrawcreateex.htm
 old-project: directdraw
 ms.assetid: 67fa1cd0-e47f-4dc4-b92c-b3401b4cbb57
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/23/2018
 ms.keywords: DDCREATE_EMULATIONONLY, DDCREATE_HARDWAREONLY, DirectDrawCreateEx, DirectDrawCreateEx function [DirectDraw], ddraw/DirectDrawCreateEx, directdraw.directdrawcreateex
 ms.prod: windows
 ms.technology: windows-sdk

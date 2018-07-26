@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsendcallback.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_8xt7.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxSendCallback, FaxSendCallback callback function [Fax Service], PFAX_SEND_CALLBACK, PFAX_SEND_CALLBACK callback, _mfax_faxsendcallback, fax._mfax_faxsendcallback, faxdev/FaxSendCallback
 ms.prod: windows
 ms.technology: windows-sdk

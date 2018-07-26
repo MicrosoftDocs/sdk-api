@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontset_getpropertyvalues_overload.htm
 old-project: DirectWrite
 ms.assetid: 3c3fd5b7-88dd-d434-0b62-f365b407c379
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/23/2018
 ms.keywords: GetPropertyValues, GetPropertyValues methods [Direct Write], IDWriteFontSet::GetPropertyValues, directwrite.idwritefontset_getpropertyvalues_overload, dwrite_3/GetPropertyValues
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ req.product: Windows Media Format 9 Series or later
 <a href="https://msdn.microsoft.com/b7841266-9850-1ffd-c5f8-ef5c9b623ada">GetPropertyValues(DWRITE_FONT_PROPERTY_ID, IDWriteStringList**)</a>
 </td>
 <td align="left" width="63%">
-
-          Returns all unique property values in the set, which can be used
+Returns all unique property values in the set, which can be used
           for purposes such as displaying a family list or tag cloud. All values
           are returned regardless of language, including all localized names.
         
@@ -75,8 +74,7 @@ req.product: Windows Media Format 9 Series or later
 <a href="https://msdn.microsoft.com/c99c3b76-8513-5700-0641-33284e5e2f21">GetPropertyValues(DWRITE_FONT_PROPERTY_ID, const WCHAR*, IDWriteStringList**)</a>
 </td>
 <td align="left" width="63%">
-
-          Returns all unique property values in the set, which can be used
+Returns all unique property values in the set, which can be used
           for purposes such as displaying a family list or tag cloud. Values are
           returned in priority order according to the language list, such that if
           a font contains more than one localized name, the preferred one will be

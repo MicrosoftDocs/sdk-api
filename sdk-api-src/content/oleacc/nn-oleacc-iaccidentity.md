@@ -7,7 +7,7 @@ old-location: winauto\iaccidentity.htm
 old-project: WinAuto
 ms.assetid: 59fde1a5-42bd-40e0-8143-edd082b2b166
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IAccIdentity, IAccIdentity interface [Windows Accessibility], IAccIdentity interface [Windows Accessibility],described, msaa.iaccidentity, oleacc/IAccIdentity, winauto.iaccidentity
 ms.prod: windows
 ms.technology: windows-sdk

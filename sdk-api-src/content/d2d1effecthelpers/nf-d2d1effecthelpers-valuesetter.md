@@ -4,10 +4,10 @@ title: ValueSetter function
 author: windows-sdk-content
 description: Calls a member-function property setter callback for a value-type property.
 old-location: direct2d\valuesetter.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 5137D54E-1BAC-470C-AF16-0FB19DD36A61
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: ValueSetter, ValueSetter function [Direct2D], d2d1effecthelpers/ValueSetter, direct2d.valuesetter
 ms.prod: windows
 ms.technology: windows-sdk

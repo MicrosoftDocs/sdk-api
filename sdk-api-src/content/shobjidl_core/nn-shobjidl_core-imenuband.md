@@ -7,7 +7,7 @@ old-location: shell\IMenuBand.htm
 old-project: shell
 ms.assetid: 67e12738-9951-4118-b968-7959cd175cf2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IMenuBand, IMenuBand interface [Windows Shell], IMenuBand interface [Windows Shell],described, _shell_IMenuBand, shell.IMenuBand, shobjidl_core/IMenuBand
 ms.prod: windows
 ms.technology: windows-sdk

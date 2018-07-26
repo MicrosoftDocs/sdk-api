@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_rssetstate.htm
 old-project: direct3d11
 ms.assetid: aa76cd3f-5d08-48e7-bd38-ff4d7119eae3
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 6a517464-81db-3af7-335a-c1eefddd9385, ID3D11DeviceContext interface [Direct3D 11],RSSetState method, ID3D11DeviceContext.RSSetState, ID3D11DeviceContext::RSSetState, RSSetState, RSSetState method [Direct3D 11], RSSetState method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::RSSetState, direct3d11.id3d11devicecontext_rssetstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ Returns nothing.
 
 To create a rasterizer state interface, call <a href="https://msdn.microsoft.com/b49a8dbb-2280-4d5d-ae65-58cde2e9ed10">ID3D11Device::CreateRasterizerState</a>.
 
-
-      The method will hold a reference to the interfaces passed in.
+The method will hold a reference to the interfaces passed in.
       This differs from the device state behavior in Direct3D 10.
 
 

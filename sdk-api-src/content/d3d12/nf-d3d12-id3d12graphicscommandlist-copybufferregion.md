@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_copybufferregion.htm
 old-project: direct3d12
 ms.assetid: 46F89B85-EDAA-4095-B6C6-4CC47F972F09
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: CopyBufferRegion, CopyBufferRegion method, CopyBufferRegion method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,CopyBufferRegion method, ID3D12GraphicsCommandList.CopyBufferRegion, ID3D12GraphicsCommandList::CopyBufferRegion, d3d12/ID3D12GraphicsCommandList::CopyBufferRegion, direct3d12.id3d12graphicscommandlist_copybufferregion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Copies a region of a buffer from one resource to another.
+Copies a region of a buffer from one resource to another.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>*</b>
 
-
-            Specifies the destination <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>.
+Specifies the destination <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>.
           
 
 
@@ -73,8 +71,7 @@ Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD
 
 Type: <b>UINT64</b>
 
-
-            Specifies a UINT64 offset (in bytes) into the destination resource.
+Specifies a UINT64 offset (in bytes) into the destination resource.
           
 
 
@@ -82,8 +79,7 @@ Type: <b>UINT64</b>
 
 Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>*</b>
 
-
-            Specifies the source  <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>.
+Specifies the source  <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>.
           
 
 
@@ -91,8 +87,7 @@ Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD
 
 Type: <b>UINT64</b>
 
-
-            Specifies a UINT64 offset (in bytes) into the source resource, to start the copy from.
+Specifies a UINT64 offset (in bytes) into the source resource, to start the copy from.
           
 
 
@@ -100,8 +95,7 @@ Type: <b>UINT64</b>
 
 Type: <b>UINT64</b>
 
-
-            Specifies the number of bytes to copy.
+Specifies the number of bytes to copy.
           
 
 
@@ -109,8 +103,7 @@ Type: <b>UINT64</b>
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 
@@ -120,8 +113,7 @@ Type: <b>UINT64</b>
 
 
 
-
-          Consider using the <a href="https://msdn.microsoft.com/EFC305CF-FBA9-4192-999B-6C6BFCDFF51F">CopyResource</a> method when copying an entire resource, and use this method for copying regions of a resource.
+Consider using the <a href="https://msdn.microsoft.com/EFC305CF-FBA9-4192-999B-6C6BFCDFF51F">CopyResource</a> method when copying an entire resource, and use this method for copying regions of a resource.
         
 
 <b>CopyBufferRegion</b> may be used to initialize resources which alias the same heap memory. See <a href="https://msdn.microsoft.com/4581A82D-D2B6-4CAE-A336-07B8CF90A0BA">CreatePlacedResource</a> for more details.
@@ -129,8 +121,7 @@ Type: <b>UINT64</b>
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::CopyBufferRegion</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::CopyBufferRegion</b> as follows:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -199,8 +190,7 @@ Type: <b>UINT64</b>
 </td>
 </tr>
 </table></span></div>
-
-          See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>

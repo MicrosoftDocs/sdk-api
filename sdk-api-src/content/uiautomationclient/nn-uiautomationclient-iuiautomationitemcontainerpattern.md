@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationItemContainerPattern.htm
 old-project: WinAuto
 ms.assetid: 87655c25-d666-4349-9750-566b60b37c56
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IUIAutomationItemContainerPattern, IUIAutomationItemContainerPattern interface [Windows Accessibility], IUIAutomationItemContainerPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationItemContainerPattern, uiauto_IUIAutomationItemContainerPattern, uiautomationclient/IUIAutomationItemContainerPattern, winauto.uiauto_IUIAutomationItemContainerPattern
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

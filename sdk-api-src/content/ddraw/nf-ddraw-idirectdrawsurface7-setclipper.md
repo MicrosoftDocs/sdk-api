@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_setclipper.htm
 old-project: directdraw
 ms.assetid: 18bc8018-b00c-40ef-a54a-e2eecdb835a9
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/23/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetClipper method, IDirectDrawSurface7.SetClipper, IDirectDrawSurface7::SetClipper, SetClipper, SetClipper method [DirectDraw], SetClipper method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetClipper, directdraw.idirectdrawsurface7_setclipper
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationCacheRequest_TreeScope.htm
 old-project: WinAuto
 ms.assetid: 3e45f35c-8a24-482f-acb6-9af6ce05d7fd
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IUIAutomationCacheRequest interface [Windows Accessibility],TreeScope property, IUIAutomationCacheRequest.TreeScope, IUIAutomationCacheRequest.get_TreeScope, IUIAutomationCacheRequest::TreeScope, IUIAutomationCacheRequest::get_TreeScope, IUIAutomationCacheRequest::put_TreeScope, TreeScope property [Windows Accessibility], TreeScope property [Windows Accessibility],IUIAutomationCacheRequest interface, get_TreeScope, uiauto.uiauto_IUIAutomationCacheRequest_TreeScope, uiauto_IUIAutomationCacheRequest_TreeScope, uiautomationclient/IUIAutomationCacheRequest::TreeScope, uiautomationclient/IUIAutomationCacheRequest::get_TreeScope, uiautomationclient/IUIAutomationCacheRequest::put_TreeScope, winauto.uiauto_IUIAutomationCacheRequest_TreeScope
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

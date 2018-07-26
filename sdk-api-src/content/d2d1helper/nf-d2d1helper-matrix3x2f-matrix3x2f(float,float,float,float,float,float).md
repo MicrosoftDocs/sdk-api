@@ -4,10 +4,10 @@ title: Matrix3x2F::Matrix3x2F(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)
 author: windows-sdk-content
 description: Instantiates a new instance of the Matrix3x2F class that contains the specified values.
 old-location: direct2d\matrix3x2f_matrix3x2f_float__float__float__float__float__float_.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: f4701597-9473-4333-9e6d-60000ccea40e
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1.Matrix3x2F.Matrix3x2F, D2D1::Matrix3x2F::Matrix3x2F, Matrix3x2F, Matrix3x2F constructor [Direct2D], Matrix3x2F constructor [Direct2D],Matrix3x2F interface, Matrix3x2F interface [Direct2D],Matrix3x2F constructor, Matrix3x2F.Matrix3x2F, Matrix3x2F.Matrix3x2F(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT), Matrix3x2F::Matrix3x2F, Matrix3x2F::Matrix3x2F(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT), d2d1helper/Matrix3x2F::Matrix3x2F, direct2d.matrix3x2f_matrix3x2f_float__float__float__float__float__float_
 ms.prod: windows
 ms.technology: windows-sdk

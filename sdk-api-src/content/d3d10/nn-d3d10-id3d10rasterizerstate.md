@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10rasterizerstate.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10rasterizerstate.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D10RasterizerState, ID3D10RasterizerState interface [Direct3D 10], ID3D10RasterizerState interface [Direct3D 10],described, ce1e96e6-707f-1c9e-1985-3b3acefd307f, d3d10/ID3D10RasterizerState, direct3d10.id3d10rasterizerstate
 ms.prod: windows
 ms.technology: windows-sdk

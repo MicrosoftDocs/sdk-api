@@ -4,10 +4,10 @@ title: MsiDatabaseGetPrimaryKeysW function
 author: windows-sdk-content
 description: The MsiDatabaseGetPrimaryKeys function returns a record containing the names of all the primary key columns for a specified table. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msidatabasegetprimarykeys.htm
-old-project: msi
+old-project: Msi
 ms.assetid: 08ceaf05-a64b-41ac-964b-ae4648e42bae
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: MsiDatabaseGetPrimaryKeys, MsiDatabaseGetPrimaryKeys function, MsiDatabaseGetPrimaryKeysA, MsiDatabaseGetPrimaryKeysW, _msi_msidatabasegetprimarykeys, msiquery/MsiDatabaseGetPrimaryKeys, msiquery/MsiDatabaseGetPrimaryKeysA, msiquery/MsiDatabaseGetPrimaryKeysW, setup.msidatabasegetprimarykeys
 ms.prod: windows
 ms.technology: windows-sdk

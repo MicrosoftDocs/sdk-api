@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tex2dms_array_dsv.htm
 old-project: direct3d12
 ms.assetid: 0B0E3891-B11C-4A4A-B20E-DA9C9DA471F1
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_TEX2DMS_ARRAY_DSV, D3D12_TEX2DMS_ARRAY_DSV structure, d3d12/D3D12_TEX2DMS_ARRAY_DSV, direct3d12.d3d12_tex2dms_array_dsv
 ms.prod: windows
 ms.technology: windows-sdk

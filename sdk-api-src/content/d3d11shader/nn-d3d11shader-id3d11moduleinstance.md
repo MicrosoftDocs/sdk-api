@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11moduleinstance.htm
 old-project: direct3d11
 ms.assetid: BBC64078-FCA8-4868-B9CD-3E6F3C86BFC5
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11ModuleInstance, ID3D11ModuleInstance interface [Direct3D 11], ID3D11ModuleInstance interface [Direct3D 11],described, d3d11shader/ID3D11ModuleInstance, direct3d11.id3d11moduleinstance
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,9 +50,7 @@ req.irql:
 ## -description
 
 
-
-          A module-instance interface is used for resource rebinding. <div class="alert"><b>Note</b>  
-            This interface is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
+A module-instance interface is used for resource rebinding. <div class="alert"><b>Note</b>  This interface is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
           </div>
 <div> </div>
 
@@ -170,8 +168,7 @@ Rebinds an unordered access view (UAV) by name to destination slots.
 
 
 
-
-        To get a module-instance interface, call <a href="https://msdn.microsoft.com/737A69EF-F74E-4480-98EA-31D6CCAC0F8A">ID3D11Module::CreateInstance</a> or <a href="https://msdn.microsoft.com/7E854D31-3E34-43A7-ABEB-7FBAC94217F3">ID3D11FunctionLinkingGraph::CreateModuleInstance</a>.
+To get a module-instance interface, call <a href="https://msdn.microsoft.com/737A69EF-F74E-4480-98EA-31D6CCAC0F8A">ID3D11Module::CreateInstance</a> or <a href="https://msdn.microsoft.com/7E854D31-3E34-43A7-ABEB-7FBAC94217F3">ID3D11FunctionLinkingGraph::CreateModuleInstance</a>.
       
 
 <div class="alert"><b>Note</b>  <b>ID3D11ModuleInstance</b> requires the D3dcompiler_47.dll or a later version of the DLL.

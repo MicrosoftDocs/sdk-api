@@ -7,7 +7,7 @@ old-location: shell\StrRetToBuf.htm
 old-project: shell
 ms.assetid: 89dab3ee-e9f8-499a-97ec-6fe732315891
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: StrRetToBuf, StrRetToBuf function [Windows Shell], StrRetToBufA, StrRetToBufW, _win32_StrRetToBuf, shell.StrRetToBuf, shlwapi/StrRetToBuf, shlwapi/StrRetToBufA, shlwapi/StrRetToBufW
 ms.prod: windows
 ms.technology: windows-sdk

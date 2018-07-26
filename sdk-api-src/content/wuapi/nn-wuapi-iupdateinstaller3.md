@@ -4,10 +4,10 @@ title: IUpdateInstaller3
 author: windows-sdk-content
 description: Installs or uninstalls updates on a computer.
 old-location: wua\iupdateinstaller3.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 5A237B5C-A07B-470F-B2F6-ABC936DCE1A5
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IUpdateInstaller3, IUpdateInstaller3 interface [Windows Update Agent], IUpdateInstaller3 interface [Windows Update Agent],described, wua.iupdateinstaller3, wuapi/IUpdateInstaller3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,9 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+<p class="CCE_Message">[This interface is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Installs or uninstalls updates on a computer. 
+Installs or uninstalls updates on a computer. This property is only used when installing Microsoft Store app updates. It has no effect when installing non-Microsoft Store app updates such as operating system, Defender, or driver updates. 
 
 
 ## -inheritance

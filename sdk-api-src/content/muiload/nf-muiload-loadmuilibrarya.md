@@ -7,7 +7,7 @@ old-location: intl\loadmuilibrary.htm
 old-project: Intl
 ms.assetid: 277067d8-c38d-4e79-9c1a-4e4af1987228
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: LoadMUILibrary, LoadMUILibrary function [Internationalization for Windows Applications], LoadMUILibraryA, LoadMUILibraryW, MUI_LANGUAGE_EXACT, MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, _win32_LoadMUILibrary, intl.loadmuilibrary, muiload/LoadMUILibrary, muiload/LoadMUILibraryA, muiload/LoadMUILibraryW
 ms.prod: windows
 ms.technology: windows-sdk

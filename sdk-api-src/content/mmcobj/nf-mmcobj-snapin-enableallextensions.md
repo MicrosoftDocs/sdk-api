@@ -4,10 +4,10 @@ title: SnapIn::EnableAllExtensions
 author: windows-sdk-content
 description: The EnableAllExtensions method determines whether or not all extensions for the snap-in are enabled. This method is the programmatic equivalent of the &#0034;Add all extensions&#0034; check box in the Snap-In Manager.
 old-location: mmc\snapin_enableallextensions.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 9aee0bb9-ad2c-4bd5-97be-e38cc2425d70
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: EnableAllExtensions, EnableAllExtensions method [MMC], EnableAllExtensions method [MMC],SnapIn interface, EnableAllExtensions method [MMC],SnapIn object, SnapIn interface [MMC],EnableAllExtensions method, SnapIn object [MMC],EnableAllExtensions method, SnapIn.EnableAllExtensions, SnapIn::EnableAllExtensions, _slate_snapin.enableallextensions_method, mmc.snapin_enableallextensions
 ms.prod: windows
 ms.technology: windows-sdk

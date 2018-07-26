@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_iasetvertexbuffers.htm
 old-project: direct3d12
 ms.assetid: AADD6CEF-376D-43AB-86E6-37B5D7DD0B25
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: IASetVertexBuffers, IASetVertexBuffers method, IASetVertexBuffers method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,IASetVertexBuffers method, ID3D12GraphicsCommandList.IASetVertexBuffers, ID3D12GraphicsCommandList::IASetVertexBuffers, d3d12/ID3D12GraphicsCommandList::IASetVertexBuffers, direct3d12.id3d12graphicscommandlist_iasetvertexbuffers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Sets a CPU descriptor handle for the vertex buffers.
 
 Type: <b>UINT</b>
 
-
-            Index into the device's zero-based array to begin setting vertex buffers.
+Index into the device's zero-based array to begin setting vertex buffers.
           
 
 
@@ -71,8 +70,7 @@ Type: <b>UINT</b>
 
 Type: <b>UINT</b>
 
-
-            The number of views in the <i>pViews</i> array.
+The number of views in the <i>pViews</i> array.
           
 
 
@@ -80,8 +78,7 @@ Type: <b>UINT</b>
 
 Type: <b>const <a href="https://msdn.microsoft.com/7EFE1929-FCDD-48DD-99E4-135D8B515290">D3D12_VERTEX_BUFFER_VIEW</a>*</b>
 
-
-            Specifies the vertex buffer views in an array of <a href="https://msdn.microsoft.com/7EFE1929-FCDD-48DD-99E4-135D8B515290">D3D12_VERTEX_BUFFER_VIEW</a> structures.
+Specifies the vertex buffer views in an array of <a href="https://msdn.microsoft.com/7EFE1929-FCDD-48DD-99E4-135D8B515290">D3D12_VERTEX_BUFFER_VIEW</a> structures.
           
 
 
@@ -89,8 +86,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/7EFE1929-FCDD-48DD-99E4-135D8
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12functionparameterreflection.htm
 old-project: direct3d12
 ms.assetid: 9AB312BE-E174-46D2-BF24-32309BD88AC4
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12FunctionParameterReflection, ID3D12FunctionParameterReflection interface, ID3D12FunctionParameterReflection interface,described, d3d12shader/ID3D12FunctionParameterReflection, direct3d12.id3d12functionparameterreflection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,10 +50,8 @@ req.irql:
 ## -description
 
 
-
-          A function-parameter-reflection interface accesses function-parameter info. 
-          <div class="alert"><b>Note</b>  
-            This interface is part of the HLSL shader linking technology that you can use on all Direct3D 12 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
+A function-parameter-reflection interface accesses function-parameter info. 
+          <div class="alert"><b>Note</b>  This interface is part of the HLSL shader linking technology that you can use on all Direct3D 12 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
           </div>
 <div> </div>
 
@@ -90,8 +88,7 @@ Fills the parameter descriptor structure for the function's parameter.
 
 
 
-
-        To get a function-parameter-reflection interface, call <a href="https://msdn.microsoft.com/88372A4E-596E-41F9-9FF4-9FD7E7F351DA">ID3D12FunctionReflection::GetFunctionParameter</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
+To get a function-parameter-reflection interface, call <a href="https://msdn.microsoft.com/88372A4E-596E-41F9-9FF4-9FD7E7F351DA">ID3D12FunctionReflection::GetFunctionParameter</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
       
 
 <div class="alert"><b>Note</b>  <b>ID3D12FunctionParameterReflection</b> requires the D3dcompiler_47.dll or a later version of the DLL.

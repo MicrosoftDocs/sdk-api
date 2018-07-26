@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaRaiseStructureChangedEventFunction.htm
 old-project: WinAuto
 ms.assetid: 29137b40-4758-4c73-9596-8cb375b8d362
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: UiaRaiseStructureChangedEvent, UiaRaiseStructureChangedEvent function [Windows Accessibility], uiauto.uiauto_UiaRaiseStructureChangedEventFunction, uiauto_UiaRaiseStructureChangedEventFunction, uiautomationcoreapi/UiaRaiseStructureChangedEvent, winauto.uiauto_UiaRaiseStructureChangedEventFunction
 ms.prod: windows
 ms.technology: windows-sdk

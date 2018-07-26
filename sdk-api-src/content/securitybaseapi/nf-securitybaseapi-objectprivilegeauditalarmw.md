@@ -4,10 +4,10 @@ title: ObjectPrivilegeAuditAlarmW function
 author: windows-sdk-content
 description: Generates an audit message in the security event log.
 old-location: security\objectprivilegeauditalarm.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 76714ffe-be7c-4928-b7c9-e72441ada4c7
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: ObjectPrivilegeAuditAlarm, ObjectPrivilegeAuditAlarm function [Security], ObjectPrivilegeAuditAlarmA, ObjectPrivilegeAuditAlarmW, _win32_objectprivilegeauditalarm, security.objectprivilegeauditalarm, securitybaseapi/ObjectPrivilegeAuditAlarm, securitybaseapi/ObjectPrivilegeAuditAlarmA, securitybaseapi/ObjectPrivilegeAuditAlarmW
 ms.prod: windows
 ms.technology: windows-sdk

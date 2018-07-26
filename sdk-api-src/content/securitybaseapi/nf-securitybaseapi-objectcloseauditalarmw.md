@@ -4,10 +4,10 @@ title: ObjectCloseAuditAlarmW function
 author: windows-sdk-content
 description: Generates an audit message in the security event log when a handle to a private object is deleted.
 old-location: security\objectcloseauditalarm.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 274f3a62-1833-402b-b362-f526b2bee14b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: ObjectCloseAuditAlarm, ObjectCloseAuditAlarm function [Security], ObjectCloseAuditAlarmA, ObjectCloseAuditAlarmW, _win32_objectcloseauditalarm, security.objectcloseauditalarm, securitybaseapi/ObjectCloseAuditAlarm, securitybaseapi/ObjectCloseAuditAlarmA, securitybaseapi/ObjectCloseAuditAlarmW
 ms.prod: windows
 ms.technology: windows-sdk

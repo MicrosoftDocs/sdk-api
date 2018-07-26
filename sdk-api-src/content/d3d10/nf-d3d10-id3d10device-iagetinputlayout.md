@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_iagetinputlayout.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iagetinputlayout.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: IAGetInputLayout, IAGetInputLayout method [Direct3D 10], IAGetInputLayout method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],IAGetInputLayout method, ID3D10Device.IAGetInputLayout, ID3D10Device::IAGetInputLayout, d3d10/ID3D10Device::IAGetInputLayout, direct3d10.id3d10device_iagetinputlayout, fc7e34a5-1fc3-6283-98db-681a4f1138cf
 ms.prod: windows
 ms.technology: windows-sdk

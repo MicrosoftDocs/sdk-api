@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12rootsignaturedeserializer.htm
 old-project: direct3d12
 ms.assetid: FEDA0802-45A6-4ED5-9683-5278BD60B7A4
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12RootSignatureDeserializer, ID3D12RootSignatureDeserializer interface, ID3D12RootSignatureDeserializer interface,described, d3d12/ID3D12RootSignatureDeserializer, direct3d12.id3d12rootsignaturedeserializer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ The <b>ID3D12RootSignatureDeserializer</b> interface has these methods.
 <a href="https://msdn.microsoft.com/A13FB848-A5C1-4B9B-9009-B0166A3A1C8D">GetRootSignatureDesc</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the layout of the root signature.
+Gets the layout of the root signature.
         
 
 </td>

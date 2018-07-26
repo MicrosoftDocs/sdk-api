@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugcommandlist.htm
 old-project: direct3d12
 ms.assetid: EDE527F0-4091-4B03-9030-6F693FE901BE
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12DebugCommandList, ID3D12DebugCommandList interface, ID3D12DebugCommandList interface,described, d3d12sdklayers/ID3D12DebugCommandList, direct3d12.id3d12debugcommandlist
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Provides methods to monitor and debug a command list.
+Provides methods to monitor and debug a command list.
 
 
 ## -inheritance
@@ -74,8 +73,7 @@ The <b>ID3D12DebugCommandList</b> interface has these methods.
 <a href="https://msdn.microsoft.com/9190760D-B624-4E3E-8C33-B5D888895499">AssertResourceState</a>
 </td>
 <td align="left" width="63%">
-
-          Checks whether a resource, or subresource, is in a specified state, or not.
+Checks whether a resource, or subresource, is in a specified state, or not.
 
 </td>
 </tr>
@@ -84,8 +82,7 @@ The <b>ID3D12DebugCommandList</b> interface has these methods.
 <a href="https://msdn.microsoft.com/98FE1D2C-648B-4689-BE52-A53C969D9281">GetFeatureMask</a>
 </td>
 <td align="left" width="63%">
-
-          Returns the debug feature flags that have been set on a command list.
+Returns the debug feature flags that have been set on a command list.
         
 
 </td>
@@ -95,8 +92,7 @@ The <b>ID3D12DebugCommandList</b> interface has these methods.
 <a href="https://msdn.microsoft.com/D2273A6C-7401-44D6-A0E3-F3F2C5DBCB8B">SetFeatureMask</a>
 </td>
 <td align="left" width="63%">
-
-          Turns the debug features for a command list on or off.
+Turns the debug features for a command list on or off.
 
 </td>
 </tr>

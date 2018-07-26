@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_gettype.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_gettype.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 675fd28c-3c3f-013f-f9c3-8c82054eae00, GetType, GetType method [Direct3D 10], GetType method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],GetType method, ID3D10EffectVariable.GetType, ID3D10EffectVariable::GetType, d3d10effect/ID3D10EffectVariable::GetType, direct3d10.id3d10effectvariable_gettype
 ms.prod: windows
 ms.technology: windows-sdk

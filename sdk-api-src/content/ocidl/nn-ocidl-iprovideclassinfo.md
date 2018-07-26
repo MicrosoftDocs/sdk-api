@@ -86,7 +86,7 @@ Retrieves a pointer to the <a href="https://msdn.microsoft.com/library/ms221696(
 
 
 
-<a href="https://msdn.microsoft.com/">coclass</a>
+<a href="https://msdn.microsoft.com/2c636327-ad18-4087-b495-d1aa84a07f48">coclass</a>
  
 
  

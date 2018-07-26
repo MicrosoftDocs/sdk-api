@@ -7,7 +7,7 @@ old-location: ad\dsaddresstositenamesex.htm
 old-project: ad
 ms.assetid: 60ac6195-6e43-46da-a1e6-74ec989cd0c4
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: DsAddressToSiteNamesEx, DsAddressToSiteNamesEx function [Active Directory], DsAddressToSiteNamesExA, DsAddressToSiteNamesExW, ad.dsaddresstositenamesex, dsgetdc/DsAddressToSiteNamesEx, dsgetdc/DsAddressToSiteNamesExA, dsgetdc/DsAddressToSiteNamesExW
 ms.prod: windows
 ms.technology: windows-sdk

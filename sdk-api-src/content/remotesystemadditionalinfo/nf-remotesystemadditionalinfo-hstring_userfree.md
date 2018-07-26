@@ -7,7 +7,7 @@ old-location: winrt\hstring_userfree.htm
 old-project: WinRT
 ms.assetid: E398921B-3759-47A6-A4F4-9A6CCA7ED686
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: HSTRING_UserFree, HSTRING_UserFree function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserFree, winrt.hstring_userfree
 ms.prod: windows
 ms.technology: windows-sdk

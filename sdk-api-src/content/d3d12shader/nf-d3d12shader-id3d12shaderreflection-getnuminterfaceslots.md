@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection_getnuminterfaceslots.htm
 old-project: direct3d12
 ms.assetid: 9D81990B-D5C3-495F-A0AC-E43712481093
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetNumInterfaceSlots, GetNumInterfaceSlots method, GetNumInterfaceSlots method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetNumInterfaceSlots method, ID3D12ShaderReflection.GetNumInterfaceSlots, ID3D12ShaderReflection::GetNumInterfaceSlots, d3d12shader/ID3D12ShaderReflection::GetNumInterfaceSlots, direct3d12.id3d12shaderreflection_getnuminterfaceslots
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Gets the number of interface slots in a shader.
+Gets the number of interface slots in a shader.
         
 
 
@@ -68,8 +67,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            The number of interface slots in the shader.
+The number of interface slots in the shader.
           
 
 
@@ -79,8 +77,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-
-        This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
+This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
       
 
 

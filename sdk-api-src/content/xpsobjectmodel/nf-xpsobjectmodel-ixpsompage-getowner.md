@@ -7,7 +7,7 @@ old-location: xps\ixpsompage_getowner.htm
 old-project: printdocs
 ms.assetid: fd29eaa7-8f9c-4468-ad3b-a159bf5f516c
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetOwner method, IXpsOMPage.GetOwner, IXpsOMPage::GetOwner, xps.ixpsompage_getowner, xpsobjectmodel/IXpsOMPage::GetOwner
 ms.prod: windows
 ms.technology: windows-sdk

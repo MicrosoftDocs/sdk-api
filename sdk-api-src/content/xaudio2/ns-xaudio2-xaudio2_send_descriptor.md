@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2_send_descriptor.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_SEND_DESCRIPTOR
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 07/23/2018
 ms.keywords: XAUDIO2_SEND_DESCRIPTOR, XAUDIO2_SEND_DESCRIPTOR structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_send_descriptor, xaudio2/XAUDIO2_SEND_DESCRIPTOR
 ms.prod: windows
 ms.technology: windows-sdk

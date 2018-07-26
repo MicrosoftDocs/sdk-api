@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedHelp.ht
 old-project: WinAuto
 ms.assetid: 66ce70ed-e76e-4a31-8dae-0ab4abd6c982
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CachedHelp property [Windows Accessibility], CachedHelp property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedHelp property, IUIAutomationLegacyIAccessiblePattern.CachedHelp, IUIAutomationLegacyIAccessiblePattern.get_CachedHelp, IUIAutomationLegacyIAccessiblePattern::CachedHelp, IUIAutomationLegacyIAccessiblePattern::get_CachedHelp, get_CachedHelp, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedHelp, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedHelp, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedHelp, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedHelp, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedHelp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

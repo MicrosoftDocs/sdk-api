@@ -4,10 +4,10 @@ title: IDownloadProgress::get_TotalBytesToDownload
 author: windows-sdk-content
 description: Gets a string that represents the estimate of the total amount of data that will be downloaded, in bytes.
 old-location: wua\idownloadprogress_totalbytestodownload.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 607e1d18-1df3-40c1-9104-de902561ede0
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IDownloadProgress interface [Windows Update Agent],TotalBytesToDownload property, IDownloadProgress.TotalBytesToDownload, IDownloadProgress.get_TotalBytesToDownload, IDownloadProgress::TotalBytesToDownload, IDownloadProgress::get_TotalBytesToDownload, TotalBytesToDownload property [Windows Update Agent], TotalBytesToDownload property [Windows Update Agent],IDownloadProgress interface, get_TotalBytesToDownload, wua.idownloadprogress_totalbytestodownload, wuapi/IDownloadProgress::TotalBytesToDownload, wuapi/IDownloadProgress::get_TotalBytesToDownload
 ms.prod: windows
 ms.technology: windows-sdk

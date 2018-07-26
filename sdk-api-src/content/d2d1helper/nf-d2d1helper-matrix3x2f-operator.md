@@ -4,10 +4,10 @@ title: Matrix3x2F::operator
 author: windows-sdk-content
 description: Multiplies this matrix with the specified matrix and returns the result.
 old-location: direct2d\matrix3x2f_operator_.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: cc7eba3e-f97c-4d03-8a83-0c4fd25ef4ce
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1.Matrix3x2F.operator*, D2D1::Matrix3x2F::operator*, Matrix3x2F interface [Direct2D],operator* method, Matrix3x2F.operator, Matrix3x2F.operator*, Matrix3x2F::operator, Matrix3x2F::operator*, d2d1helper/Matrix3x2F::operator*, direct2d.matrix3x2f_operator_, operator*, operator* method [Direct2D], operator* method [Direct2D],Matrix3x2F interface
 ms.prod: windows
 ms.technology: windows-sdk

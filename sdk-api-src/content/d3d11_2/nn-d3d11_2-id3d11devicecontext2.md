@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext2.htm
 old-project: direct3d11
 ms.assetid: 8B6B6F6E-9236-4DEE-A1BA-5FE45736DFAA
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11DeviceContext2, ID3D11DeviceContext2 interface [Direct3D 11], ID3D11DeviceContext2 interface [Direct3D 11],described, d3d11_2/ID3D11DeviceContext2, direct3d11.id3d11devicecontext2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,8 +119,7 @@ Allows applications to annotate the end of a range of graphics commands.
 <a href="https://msdn.microsoft.com/76096836-ab68-468e-a54a-a93ecb0bdb88">IsAnnotationEnabled</a>
 </td>
 <td align="left" width="63%">
-
-   Allows apps to determine when either a capture or profiling request is enabled.
+Allows apps to determine when either a capture or profiling request is enabled.
 
 </td>
 </tr>

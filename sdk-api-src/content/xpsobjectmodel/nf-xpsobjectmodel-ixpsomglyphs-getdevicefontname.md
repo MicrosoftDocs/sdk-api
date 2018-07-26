@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs_getdevicefontname.htm
 old-project: printdocs
 ms.assetid: cb288d73-da4d-4b46-95e5-c451c9ee2dc7
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: GetDeviceFontName, GetDeviceFontName method [XPS Documents and Packaging], GetDeviceFontName method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetDeviceFontName method, IXpsOMGlyphs.GetDeviceFontName, IXpsOMGlyphs::GetDeviceFontName, xps.ixpsomglyphs_getdevicefontname, xpsobjectmodel/IXpsOMGlyphs::GetDeviceFontName
 ms.prod: windows
 ms.technology: windows-sdk

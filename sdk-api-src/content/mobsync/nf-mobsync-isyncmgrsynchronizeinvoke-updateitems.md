@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronizeinvoke_updateitems.htm
 old-project: shell
 ms.assetid: 7a646d11-a84c-44c1-b52b-ffd364cc2ac3
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: ISyncMgrSynchronizeInvoke interface [Windows Shell],UpdateItems method, ISyncMgrSynchronizeInvoke.UpdateItems, ISyncMgrSynchronizeInvoke::UpdateItems, UpdateItems, UpdateItems method [Windows Shell], UpdateItems method [Windows Shell],ISyncMgrSynchronizeInvoke interface, mobsync/ISyncMgrSynchronizeInvoke::UpdateItems, shell.syncmgr_isyncmgrsynchronizeinvoke_updateitems, syncmgr.isyncmgrsynchronizeinvoke_updateitems
 ms.prod: windows
 ms.technology: windows-sdk

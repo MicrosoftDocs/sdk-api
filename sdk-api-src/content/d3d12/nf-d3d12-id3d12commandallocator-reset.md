@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandallocator_reset.htm
 old-project: direct3d12
 ms.assetid: B7477767-9110-45DE-962F-E56FDB635D17
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12CommandAllocator interface,Reset method, ID3D12CommandAllocator.Reset, ID3D12CommandAllocator::Reset, Reset, Reset method, Reset method,ID3D12CommandAllocator interface, d3d12/ID3D12CommandAllocator::Reset, direct3d12.id3d12commandallocator_reset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,8 +87,7 @@ The debug layer will issue an error if <b>Reset</b> is called concurrently by mu
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12CommandAllocator::Reset</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12CommandAllocator::Reset</b> as follows:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>

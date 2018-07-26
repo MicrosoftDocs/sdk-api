@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tiled_resource_coordinate.htm
 old-project: direct3d12
 ms.assetid: B7C51C7A-8500-4570-99C1-AE51D6A88529
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_TILED_RESOURCE_COORDINATE, D3D12_TILED_RESOURCE_COORDINATE structure, d3d12/D3D12_TILED_RESOURCE_COORDINATE, direct3d12.d3d12_tiled_resource_coordinate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,8 +82,7 @@ The index of the subresource for the tiled resource.
 
 
 
-
-        This structure is used by the <a href="https://msdn.microsoft.com/F770CE6B-DD70-4102-BEFD-3E46B9957F5E">CopyTiles</a>, <a href="https://msdn.microsoft.com/FAFA4B5C-EA3C-4209-AB8E-75F3B90F3745">CopyTileMappings</a> and <a href="https://msdn.microsoft.com/8A8017E5-AB55-4660-855B-D6F93F69CB52">UpdateTileMappings</a> methods.
+This structure is used by the <a href="https://msdn.microsoft.com/F770CE6B-DD70-4102-BEFD-3E46B9957F5E">CopyTiles</a>, <a href="https://msdn.microsoft.com/FAFA4B5C-EA3C-4209-AB8E-75F3B90F3745">CopyTileMappings</a> and <a href="https://msdn.microsoft.com/8A8017E5-AB55-4660-855B-D6F93F69CB52">UpdateTileMappings</a> methods.
       
 
 

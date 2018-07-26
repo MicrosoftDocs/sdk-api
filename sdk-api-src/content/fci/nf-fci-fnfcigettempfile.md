@@ -7,7 +7,7 @@ old-location: winprog\fnfcigettempfile.htm
 old-project: devnotes
 ms.assetid: 8978f688-d8f1-437a-b298-eed1e7dac012
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FNFCIGETTEMPFILE, FNFCIGETTEMPFILE macro [Windows API], fci/FNFCIGETTEMPFILE, winprog.fnfcigettempfile
 ms.prod: windows
 ms.technology: windows-sdk

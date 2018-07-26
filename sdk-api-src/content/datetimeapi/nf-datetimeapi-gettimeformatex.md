@@ -7,7 +7,7 @@ old-location: intl\gettimeformatex.htm
 old-project: Intl
 ms.assetid: 4d63888e-4496-4315-ac87-bf60c54daa37
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: GetTimeFormatEx, GetTimeFormatEx function [Internationalization for Windows Applications], TIME_FORCE24HOURFORMAT, TIME_NOMINUTESORSECONDS, TIME_NOSECONDS, TIME_NOTIMEMARKER, _win32_GetTimeFormatEx, datetimeapi/GetTimeFormatEx, intl.gettimeformatex
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdocument2_bodies_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxdocument2\bodies.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: Bodies property [Fax Service], Bodies property [Fax Service],FaxDocument object, FaxDocument object [Fax Service],Bodies property, FaxDocument.Bodies, IFaxDocument2.put_Bodies, IFaxDocument2::put_Bodies, _mfax_faxdocument2.bodies, fax._mfax_faxdocument2_bodies, fax._mfax_faxdocument2_bodies_vb, put_Bodies
 ms.prod: windows
 ms.technology: windows-sdk

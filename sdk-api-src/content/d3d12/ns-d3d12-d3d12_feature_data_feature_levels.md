@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_feature_levels.htm
 old-project: direct3d12
 ms.assetid: 8C709889-0C7E-4D6D-84BD-1449BB8EA96A
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_FEATURE_DATA_FEATURE_LEVELS, D3D12_FEATURE_DATA_FEATURE_LEVELS structure, d3d12/D3D12_FEATURE_DATA_FEATURE_LEVELS, direct3d12.d3d12_feature_data_feature_levels
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes info about the <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature levels</a> supported by the current graphics driver.
+Describes info about the <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature levels</a> supported by the current graphics driver.
         
 
 
@@ -62,22 +61,19 @@ req.irql:
 
 ### -field NumFeatureLevels
 
-
-            The number of <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature levels</a> in the array at <b>pFeatureLevelsRequested</b>.
+The number of <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature levels</a> in the array at <b>pFeatureLevelsRequested</b>.
           
 
 
 ### -field pFeatureLevelsRequested
 
-
-            A pointer to an array of <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a>s that the application is requesting for the driver and hardware to evaluate.
+A pointer to an array of <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a>s that the application is requesting for the driver and hardware to evaluate.
           
 
 
 ### -field MaxSupportedFeatureLevel
 
-
-            The maximum <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> that the driver and hardware support.
+The maximum <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> that the driver and hardware support.
           
 
 
@@ -85,8 +81,7 @@ req.irql:
 
 
 
-
-        See <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>.
+See <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>.
       
 
 

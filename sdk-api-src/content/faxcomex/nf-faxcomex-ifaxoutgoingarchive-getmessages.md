@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingarchive_getmessages.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_20qb.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxOutgoingArchive object [Fax Service],GetMessages method, FaxOutgoingArchive.GetMessages, GetMessages, GetMessages method [Fax Service], GetMessages method [Fax Service],FaxOutgoingArchive object, IFaxOutgoingArchive.GetMessages, IFaxOutgoingArchive::GetMessages, _mfax_faxoutgoingarchive.getmessages, fax._mfax_faxoutgoingarchive_getmessages
 ms.prod: windows
 ms.technology: windows-sdk

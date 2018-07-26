@@ -7,7 +7,7 @@ old-location: ad\adspropsethwnd.htm
 old-project: ad
 ms.assetid: 9fc6b86b-e075-4969-842c-3ebddd43db8f
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: ADsPropSetHwnd, ADsPropSetHwnd function [Active Directory], _glines_adspropsethwnd, ad.adspropsethwnd, adsprop/ADsPropSetHwnd
 ms.prod: windows
 ms.technology: windows-sdk

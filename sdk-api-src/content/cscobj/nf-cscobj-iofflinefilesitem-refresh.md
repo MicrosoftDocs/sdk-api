@@ -7,7 +7,7 @@ old-location: of\iofflinefilesitem_refresh.htm
 old-project: offlinefiles
 ms.assetid: 7b54d6fa-18b6-4ffb-98ce-4cbc44ed5b77
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/23/2018
 ms.keywords: IOfflineFilesItem interface [Offline Files],Refresh method, IOfflineFilesItem.Refresh, IOfflineFilesItem::Refresh, Refresh, Refresh method [Offline Files], Refresh method [Offline Files],IOfflineFilesItem interface, cscobj/IOfflineFilesItem::Refresh, of.iofflinefilesitem_refresh
 ms.prod: windows
 ms.technology: windows-sdk

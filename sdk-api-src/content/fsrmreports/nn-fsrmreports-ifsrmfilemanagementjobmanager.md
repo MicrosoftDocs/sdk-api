@@ -4,10 +4,10 @@ title: IFsrmFileManagementJobManager
 author: windows-sdk-content
 description: Used to manage file management jobs.
 old-location: fsrm\ifsrmfilemanagementjobmanager.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 2df0e8d0-1da7-422e-8d02-ad5d030fdd8d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: IFsrmFileManagementJobManager, IFsrmFileManagementJobManager interface [File Server Resource Manager], IFsrmFileManagementJobManager interface [File Server Resource Manager],described, fs.ifsrmfilemanagementjobmanager, fsrm.ifsrmfilemanagementjobmanager, fsrm/IFsrmFileManagementJobManager
 ms.prod: windows
 ms.technology: windows-sdk

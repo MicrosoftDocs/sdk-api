@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_omsetdepthstencilstate.htm
 old-project: direct3d11
 ms.assetid: cd5642c4-8bbe-4b5d-9f04-87de82ee9601
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],OMSetDepthStencilState method, ID3D11DeviceContext.OMSetDepthStencilState, ID3D11DeviceContext::OMSetDepthStencilState, OMSetDepthStencilState, OMSetDepthStencilState method [Direct3D 11], OMSetDepthStencilState method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::OMSetDepthStencilState, direct3d11.id3d11devicecontext_omsetdepthstencilstate, faf5401a-abab-bc40-9854-cf64f6ca05eb
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,8 +88,7 @@ Returns nothing.
 
 To create a depth-stencil state interface, call <a href="https://msdn.microsoft.com/7577604c-922c-408c-8eab-2361ebda17df">ID3D11Device::CreateDepthStencilState</a>.
 
-
-      The method will hold a reference to the interfaces passed in.
+The method will hold a reference to the interfaces passed in.
       This differs from the device state behavior in Direct3D 10.
 
 

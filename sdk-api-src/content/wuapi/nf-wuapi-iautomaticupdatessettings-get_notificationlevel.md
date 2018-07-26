@@ -4,10 +4,10 @@ title: IAutomaticUpdatesSettings::get_NotificationLevel
 author: windows-sdk-content
 description: Gets and sets how users are notified about Automatic Update events.
 old-location: wua\iautomaticupdatessettings_notificationlevel.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: da4fdb8a-8df8-468f-afde-292bbcf6696b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],NotificationLevel property, IAutomaticUpdatesSettings.NotificationLevel, IAutomaticUpdatesSettings.get_NotificationLevel, IAutomaticUpdatesSettings::NotificationLevel, IAutomaticUpdatesSettings::get_NotificationLevel, IAutomaticUpdatesSettings::put_NotificationLevel, NotificationLevel property [Windows Update Agent], NotificationLevel property [Windows Update Agent],IAutomaticUpdatesSettings interface, get_NotificationLevel, wua.iautomaticupdatessettings_notificationlevel, wuapi/IAutomaticUpdatesSettings::NotificationLevel, wuapi/IAutomaticUpdatesSettings::get_NotificationLevel, wuapi/IAutomaticUpdatesSettings::put_NotificationLevel
 ms.prod: windows
 ms.technology: windows-sdk

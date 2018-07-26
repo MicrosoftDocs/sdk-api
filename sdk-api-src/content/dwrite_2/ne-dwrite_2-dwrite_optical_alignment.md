@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_optical_alignment.htm
 old-project: DirectWrite
 ms.assetid: 2EB04686-970A-4D79-BFF7-9AE8396A07BB
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/23/2018
 ms.keywords: DWRITE_OPTICAL_ALIGNMENT, DWRITE_OPTICAL_ALIGNMENT enumeration [Direct Write], DWRITE_OPTICAL_ALIGNMENT_NONE, DWRITE_OPTICAL_ALIGNMENT_NO_SIDE_BEARINGS, directwrite.dwrite_optical_alignment, dwrite_2/DWRITE_OPTICAL_ALIGNMENT, dwrite_2/DWRITE_OPTICAL_ALIGNMENT_NONE, dwrite_2/DWRITE_OPTICAL_ALIGNMENT_NO_SIDE_BEARINGS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows Media Format 9 Series or later
 
 The optical margin alignment mode.
 
-
-        By default, glyphs are aligned to the margin by the default origin and side-bearings of the glyph. 
+By default, glyphs are aligned to the margin by the default origin and side-bearings of the glyph. 
         If you specify <b>DWRITE_OPTICAL_ALIGNMENT_NO_SIDE_BEARINGS</b>, then the alignment uses the side bearings to offset the glyph 
         from the aligned edge to ensure the ink of the glyphs are aligned.
       

@@ -4,10 +4,10 @@ title: IAzApplication3::CreateRoleDefinition
 author: windows-sdk-content
 description: Creates a new IAzRoleDefinition object with the specified name.
 old-location: security\iazapplication3_createroledefinition.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 014410be-4b2c-452b-b671-0a9bd9c0a448
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: CreateRoleDefinition, CreateRoleDefinition method [Security], CreateRoleDefinition method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],CreateRoleDefinition method, IAzApplication3.CreateRoleDefinition, IAzApplication3::CreateRoleDefinition, azroles/IAzApplication3::CreateRoleDefinition, security.iazapplication3_createroledefinition
 ms.prod: windows
 ms.technology: windows-sdk

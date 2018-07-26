@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tex2d_rtv.htm
 old-project: direct3d12
 ms.assetid: E85CC5DF-96A9-488E-95A3-60175FA7B63E
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_TEX2D_RTV, D3D12_TEX2D_RTV structure, d3d12/D3D12_TEX2D_RTV, direct3d12.d3d12_tex2d_rtv
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ The index of the mipmap level to use.
 
 ### -field PlaneSlice
 
-
-            The index (plane slice number) of the plane to use in the texture.
+The index (plane slice number) of the plane to use in the texture.
           
 
 
@@ -74,8 +73,7 @@ The index of the mipmap level to use.
 
 
 
-
-        Use this structure with a <a href="https://msdn.microsoft.com/D8602EB9-70EB-4A4E-8D8D-A2016335AAC6">D3D12_RENDER_TARGET_VIEW_DESC</a> structure to view the resource as a 2D texture.
+Use this structure with a <a href="https://msdn.microsoft.com/D8602EB9-70EB-4A4E-8D8D-A2016335AAC6">D3D12_RENDER_TARGET_VIEW_DESC</a> structure to view the resource as a 2D texture.
       
 
 

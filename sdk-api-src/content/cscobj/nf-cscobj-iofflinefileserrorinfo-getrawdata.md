@@ -7,7 +7,7 @@ old-location: of\iofflinefileserrorinfo_getrawdata.htm
 old-project: offlinefiles
 ms.assetid: 70e5e444-7c46-4df9-8f77-da8dc331fcf0
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/23/2018
 ms.keywords: GetRawData, GetRawData method [Offline Files], GetRawData method [Offline Files],IOfflineFilesErrorInfo interface, IOfflineFilesErrorInfo interface [Offline Files],GetRawData method, IOfflineFilesErrorInfo.GetRawData, IOfflineFilesErrorInfo::GetRawData, cscobj/IOfflineFilesErrorInfo::GetRawData, of.iofflinefileserrorinfo_getrawdata
 ms.prod: windows
 ms.technology: windows-sdk

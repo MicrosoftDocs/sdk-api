@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxregisterserviceprovider.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_94xe.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxRegisterServiceProvider, FaxRegisterServiceProvider function [Fax Service], FaxRegisterServiceProviderW, _mfax_faxregisterserviceprovider, fax._mfax_faxregisterserviceprovider, winfax/FaxRegisterServiceProvider
 ms.prod: windows
 ms.technology: windows-sdk

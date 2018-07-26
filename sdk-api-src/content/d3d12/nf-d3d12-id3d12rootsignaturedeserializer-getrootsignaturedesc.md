@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12rootsignaturedeserializer_getrootsignaturedesc.ht
 old-project: direct3d12
 ms.assetid: A13FB848-A5C1-4B9B-9009-B0166A3A1C8D
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetRootSignatureDesc, GetRootSignatureDesc method, GetRootSignatureDesc method,ID3D12RootSignatureDeserializer interface, ID3D12RootSignatureDeserializer interface,GetRootSignatureDesc method, ID3D12RootSignatureDeserializer.GetRootSignatureDesc, ID3D12RootSignatureDeserializer::GetRootSignatureDesc, d3d12/ID3D12RootSignatureDeserializer::GetRootSignatureDesc, direct3d12.id3d12rootsignaturedeserializer_getrootsignaturedesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Gets the layout of the root signature.
+Gets the layout of the root signature.
         
 
 
@@ -68,8 +67,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/D74D9D3B-96AB-489A-A91C-4F68AC3D05EE">D3D12_ROOT_SIGNATURE_DESC</a></b>
 
-
-            This method returns a deserialized root signature in a <a href="https://msdn.microsoft.com/D74D9D3B-96AB-489A-A91C-4F68AC3D05EE">D3D12_ROOT_SIGNATURE_DESC</a> structure that describes the layout of the root signature.
+This method returns a deserialized root signature in a <a href="https://msdn.microsoft.com/D74D9D3B-96AB-489A-A91C-4F68AC3D05EE">D3D12_ROOT_SIGNATURE_DESC</a> structure that describes the layout of the root signature.
           
 
 

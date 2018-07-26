@@ -4,10 +4,10 @@ title: View::RefreshScopeNode
 author: windows-sdk-content
 description: The RefreshScopeNode method refreshes the specified node.
 old-location: mmc\view_refreshscopenode.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 1b6b2ad5-cb0a-4128-8982-d4114ebb949f
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: RefreshScopeNode, RefreshScopeNode method [MMC], RefreshScopeNode method [MMC],View interface, RefreshScopeNode method [MMC],View object, View interface [MMC],RefreshScopeNode method, View object [MMC],RefreshScopeNode method, View.RefreshScopeNode, View::RefreshScopeNode, _slate_view.refreshscopenode_method, mmc.view_refreshscopenode
 ms.prod: windows
 ms.technology: windows-sdk

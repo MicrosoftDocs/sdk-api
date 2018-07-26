@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_tex1d_dsv.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex1d_dsv.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 11f3ace2-fb36-9637-6055-c218eefac753, D3D10_TEX1D_DSV, D3D10_TEX1D_DSV structure [Direct3D 10], d3d10/D3D10_TEX1D_DSV, direct3d10.d3d10_tex1d_dsv
 ms.prod: windows
 ms.technology: windows-sdk

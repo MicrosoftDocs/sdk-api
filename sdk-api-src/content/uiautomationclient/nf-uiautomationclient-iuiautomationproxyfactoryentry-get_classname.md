@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_ClassName.htm
 old-project: WinAuto
 ms.assetid: d27bfdbb-dcdb-49d5-9871-9ac13b3b67f8
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: ClassName property [Windows Accessibility], ClassName property [Windows Accessibility],IUIAutomationProxyFactoryEntry interface, IUIAutomationProxyFactoryEntry interface [Windows Accessibility],ClassName property, IUIAutomationProxyFactoryEntry.ClassName, IUIAutomationProxyFactoryEntry.get_ClassName, IUIAutomationProxyFactoryEntry::ClassName, IUIAutomationProxyFactoryEntry::get_ClassName, IUIAutomationProxyFactoryEntry::put_ClassName, get_ClassName, uiauto.uiauto_IUIAutomationProxyFactoryEntry_ClassName, uiauto_IUIAutomationProxyFactoryEntry_ClassName, uiautomationclient/IUIAutomationProxyFactoryEntry::ClassName, uiautomationclient/IUIAutomationProxyFactoryEntry::get_ClassName, uiautomationclient/IUIAutomationProxyFactoryEntry::put_ClassName, winauto.uiauto_IUIAutomationProxyFactoryEntry_ClassName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

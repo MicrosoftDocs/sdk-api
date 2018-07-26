@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_shader_variable_desc.htm
 old-project: direct3d12
 ms.assetid: 117181AB-16F4-41D7-974D-E2C04FEE4FB1
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_SHADER_VARIABLE_DESC, D3D12_SHADER_VARIABLE_DESC structure, _D3D12_SHADER_VARIABLE_DESC, d3d12shader/D3D12_SHADER_VARIABLE_DESC, direct3d12.d3d12_shader_variable_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes a shader variable.
+Describes a shader variable.
         
 
 
@@ -62,64 +61,55 @@ req.irql:
 
 ### -field Name
 
-
-            The variable name.
+The variable name.
           
 
 
 ### -field StartOffset
 
-
-            Offset from the start of the parent structure to the beginning of the variable.
+Offset from the start of the parent structure to the beginning of the variable.
           
 
 
 ### -field Size
 
-
-            Size of the variable (in bytes).
+Size of the variable (in bytes).
           
 
 
 ### -field uFlags
 
-
-            A combination of <a href="https://msdn.microsoft.com/b89dc001-c335-4994-a644-88bfbeb7d663">D3D_SHADER_VARIABLE_FLAGS</a>-typed values that are combined by using a bitwise-OR operation. 
+A combination of <a href="https://msdn.microsoft.com/b89dc001-c335-4994-a644-88bfbeb7d663">D3D_SHADER_VARIABLE_FLAGS</a>-typed values that are combined by using a bitwise-OR operation. 
             The resulting value identifies shader-variable properties.
           
 
 
 ### -field DefaultValue
 
-
-            The default value for initializing the variable.
+The default value for initializing the variable.
             Emits default values for reflection.
           
 
 
 ### -field StartTexture
 
-
-            Offset from the start of the variable to the beginning of the texture.
+Offset from the start of the variable to the beginning of the texture.
 
 
 ### -field TextureSize
 
-
-            The size of the texture, in bytes.
+The size of the texture, in bytes.
           
 
 
 ### -field StartSampler
 
-
-            Offset from the start of the variable to the beginning of the sampler.
+Offset from the start of the variable to the beginning of the sampler.
 
 
 ### -field SamplerSize
 
-
-            The size of the sampler, in bytes.
+The size of the sampler, in bytes.
           
 
 
@@ -127,8 +117,7 @@ req.irql:
 
 
 
-
-        Get a shader-variable description using reflection by calling <a href="https://msdn.microsoft.com/21CF98AF-5645-4059-992A-FFF778576C93">ID3D12ShaderReflectionVariable::GetDesc</a>.
+Get a shader-variable description using reflection by calling <a href="https://msdn.microsoft.com/21CF98AF-5645-4059-992A-FFF778576C93">ID3D12ShaderReflectionVariable::GetDesc</a>.
       
 
 

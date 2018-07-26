@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectscalarvariable_getbool.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_getbool.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetBool, GetBool method [Direct3D 10], GetBool method [Direct3D 10],ID3D10EffectScalarVariable interface, ID3D10EffectScalarVariable interface [Direct3D 10],GetBool method, ID3D10EffectScalarVariable.GetBool, ID3D10EffectScalarVariable::GetBool, a3b9bd39-4ea0-6593-fb53-b33f8cc097c6, d3d10effect/ID3D10EffectScalarVariable::GetBool, direct3d10.id3d10effectscalarvariable_getbool
 ms.prod: windows
 ms.technology: windows-sdk

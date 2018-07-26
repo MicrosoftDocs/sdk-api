@@ -4,10 +4,10 @@ title: MakeAbsoluteSD function
 author: windows-sdk-content
 description: Creates a security descriptor in absolute format by using a security descriptor in self-relative format as a template.
 old-location: security\makeabsolutesd.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 47c75071-f10d-43cf-a841-2dd49fc39afa
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: MakeAbsoluteSD, MakeAbsoluteSD function [Security], _win32_makeabsolutesd, security.makeabsolutesd, securitybaseapi/MakeAbsoluteSD
 ms.prod: windows
 ms.technology: windows-sdk

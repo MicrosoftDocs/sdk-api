@@ -7,7 +7,7 @@ old-location: ad\dsunbind.htm
 old-project: ad
 ms.assetid: 7106d67f-d421-4a7c-b775-440e5944f25e
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: DsUnBind, DsUnBind function [Active Directory], DsUnBindA, DsUnBindW, _glines_dsunbind, ad.dsunbind, ntdsapi/DsUnBind, ntdsapi/DsUnBindA, ntdsapi/DsUnBindW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CurrentIsReadOnly.ht
 old-project: WinAuto
 ms.assetid: 0c3561b0-3739-463c-8856-84d1ab565506
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CurrentIsReadOnly property [Windows Accessibility], CurrentIsReadOnly property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CurrentIsReadOnly property, IUIAutomationRangeValuePattern.CurrentIsReadOnly, IUIAutomationRangeValuePattern.get_CurrentIsReadOnly, IUIAutomationRangeValuePattern::CurrentIsReadOnly, IUIAutomationRangeValuePattern::get_CurrentIsReadOnly, get_CurrentIsReadOnly, uiauto.uiauto_IUIAutomationRangeValuePattern_CurrentIsReadOnly, uiauto_IUIAutomationRangeValuePattern_CurrentIsReadOnly, uiautomationclient/IUIAutomationRangeValuePattern::CurrentIsReadOnly, uiautomationclient/IUIAutomationRangeValuePattern::get_CurrentIsReadOnly, winauto.uiauto_IUIAutomationRangeValuePattern_CurrentIsReadOnly
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

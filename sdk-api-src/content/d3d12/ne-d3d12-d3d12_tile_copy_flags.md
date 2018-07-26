@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tile_copy_flags.htm
 old-project: direct3d12
 ms.assetid: A540A369-DF23-4961-8213-B4B2B5C365E5
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_TILE_COPY_FLAGS, D3D12_TILE_COPY_FLAGS enumeration, D3D12_TILE_COPY_FLAG_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE, D3D12_TILE_COPY_FLAG_NONE, D3D12_TILE_COPY_FLAG_NO_HAZARD, D3D12_TILE_COPY_FLAG_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER, d3d12/D3D12_TILE_COPY_FLAGS, d3d12/D3D12_TILE_COPY_FLAG_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE, d3d12/D3D12_TILE_COPY_FLAG_NONE, d3d12/D3D12_TILE_COPY_FLAG_NO_HAZARD, d3d12/D3D12_TILE_COPY_FLAG_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER, direct3d12.d3d12_tile_copy_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Specifies how to copy a tile.
+Specifies how to copy a tile.
         
 
 
@@ -62,23 +61,20 @@ req.irql:
 
 ### -field D3D12_TILE_COPY_FLAG_NONE
 
-
-            No tile-copy flags are specified.
+No tile-copy flags are specified.
           
 
 
 ### -field D3D12_TILE_COPY_FLAG_NO_HAZARD
 
-
-            Indicates that the GPU isn't currently referencing any of the
+Indicates that the GPU isn't currently referencing any of the
             portions of destination memory being written.
           
 
 
 ### -field D3D12_TILE_COPY_FLAG_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE
 
-
-            Indicates that the <a href="https://msdn.microsoft.com/F770CE6B-DD70-4102-BEFD-3E46B9957F5E">ID3D12GraphicsCommandList::CopyTiles</a> operation involves copying a linear buffer to a swizzled tiled resource. This means to copy tile data from the
+Indicates that the <a href="https://msdn.microsoft.com/F770CE6B-DD70-4102-BEFD-3E46B9957F5E">ID3D12GraphicsCommandList::CopyTiles</a> operation involves copying a linear buffer to a swizzled tiled resource. This means to copy tile data from the
             specified buffer location, reading tiles sequentially,
             to the specified tile region (in x,y,z order if the region is a box), swizzling to optimal hardware memory layout as needed.
             In this <b>ID3D12GraphicsCommandList::CopyTiles</b> call, you specify the source data with the  <i>pBuffer</i> parameter and the destination with the <i>pTiledResource</i> parameter.
@@ -87,8 +83,7 @@ req.irql:
 
 ### -field D3D12_TILE_COPY_FLAG_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER
 
-
-            Indicates that the <a href="https://msdn.microsoft.com/F770CE6B-DD70-4102-BEFD-3E46B9957F5E">ID3D12GraphicsCommandList::CopyTiles</a> operation involves copying a swizzled tiled resource to a linear buffer. This means to copy tile data from the tile region, reading tiles sequentially (in x,y,z order if the region is a box),
+Indicates that the <a href="https://msdn.microsoft.com/F770CE6B-DD70-4102-BEFD-3E46B9957F5E">ID3D12GraphicsCommandList::CopyTiles</a> operation involves copying a swizzled tiled resource to a linear buffer. This means to copy tile data from the tile region, reading tiles sequentially (in x,y,z order if the region is a box),
             to the specified buffer location, deswizzling to linear memory layout as needed.
             In this <b>ID3D12GraphicsCommandList::CopyTiles</b> call, you specify the source data with the <i>pTiledResource</i> parameter and the destination with the  <i>pBuffer</i> parameter.
           
@@ -98,8 +93,7 @@ req.irql:
 
 
 
-
-        This enum is used by the <a href="https://msdn.microsoft.com/F770CE6B-DD70-4102-BEFD-3E46B9957F5E">CopyTiles</a> method.
+This enum is used by the <a href="https://msdn.microsoft.com/F770CE6B-DD70-4102-BEFD-3E46B9957F5E">CopyTiles</a> method.
       
 
 

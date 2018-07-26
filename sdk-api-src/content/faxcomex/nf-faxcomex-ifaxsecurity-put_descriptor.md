@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsecurity_descriptor.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxsecurity\faxinto_z_6ab6.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: Descriptor property [Fax Service], Descriptor property [Fax Service],FaxSecurity object, FaxSecurity object [Fax Service],Descriptor property, FaxSecurity.Descriptor, IFaxSecurity.get_Descriptor, IFaxSecurity.put_Descriptor, IFaxSecurity::put_Descriptor, _mfax_faxsecurity.descriptor, fax._mfax_faxsecurity_descriptor, put_Descriptor
 ms.prod: windows
 ms.technology: windows-sdk

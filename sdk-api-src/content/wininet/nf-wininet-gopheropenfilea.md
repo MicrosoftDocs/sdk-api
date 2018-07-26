@@ -7,7 +7,7 @@ old-location: wininet\gopheropenfile.htm
 old-project: wininet
 ms.assetid: 2731d573-f981-48ce-a306-bb7e295cefc6
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/20/2018
 ms.keywords: GopherOpenFile, GopherOpenFile function [WinINet], GopherOpenFileA, GopherOpenFileW, _inet_gopheropenfile_function, wininet.gopheropenfile, wininet/GopherOpenFile, wininet/GopherOpenFileA, wininet/GopherOpenFileW
 ms.prod: windows
 ms.technology: windows-sdk

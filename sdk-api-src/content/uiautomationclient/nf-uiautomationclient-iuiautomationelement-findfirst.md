@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_FindFirst.htm
 old-project: WinAuto
 ms.assetid: 84098431-46e8-49bd-a258-337ad1d68f91
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: FindFirst, FindFirst method [Windows Accessibility], FindFirst method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],FindFirst method, IUIAutomationElement.FindFirst, IUIAutomationElement::FindFirst, uiauto.uiauto_IUIAutomationElement_FindFirst, uiauto_IUIAutomationElement_FindFirst, uiautomationclient/IUIAutomationElement::FindFirst, winauto.uiauto_IUIAutomationElement_FindFirst
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

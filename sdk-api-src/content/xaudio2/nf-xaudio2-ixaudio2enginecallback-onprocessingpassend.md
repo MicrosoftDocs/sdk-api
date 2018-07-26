@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2enginecallback_onprocessingpassend.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2enginecallback.IXAudio2EngineCallback.OnProcessingPassEnd
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 07/23/2018
 ms.keywords: IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs],OnProcessingPassEnd method, IXAudio2EngineCallback.OnProcessingPassEnd, IXAudio2EngineCallback::OnProcessingPassEnd, OnProcessingPassEnd, OnProcessingPassEnd method [XAudio2 Audio Mixing APIs], OnProcessingPassEnd method [XAudio2 Audio Mixing APIs],IXAudio2EngineCallback interface, xaudio2.ixaudio2enginecallback_onprocessingpassend, xaudio2/IXAudio2EngineCallback::OnProcessingPassEnd
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevabortoperation.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_3y26.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxDevAbortOperation, FaxDevAbortOperation function [Fax Service], _mfax_faxdevabortoperation, fax._mfax_faxdevabortoperation, faxdev/FaxDevAbortOperation
 ms.prod: windows
 ms.technology: windows-sdk

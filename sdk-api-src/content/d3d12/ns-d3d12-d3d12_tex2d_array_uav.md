@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tex2d_array_uav.htm
 old-project: direct3d12
 ms.assetid: 6E1B9843-F6E8-4A31-8E2B-92E2FADAA03B
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_TEX2D_ARRAY_UAV, D3D12_TEX2D_ARRAY_UAV structure, d3d12/D3D12_TEX2D_ARRAY_UAV, direct3d12.d3d12_tex2d_array_uav
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes an array of unordered-access 2D texture resources.
+Describes an array of unordered-access 2D texture resources.
         
 
 
@@ -77,8 +76,7 @@ The number of slices in the array.
 
 ### -field PlaneSlice
 
-
-            The index (plane slice number) of the plane to use in an array of textures.
+The index (plane slice number) of the plane to use in an array of textures.
           
 
 
@@ -86,8 +84,7 @@ The number of slices in the array.
 
 
 
-
-        Use this structure with a <a href="https://msdn.microsoft.com/0C3A31FE-625D-4CB3-87FD-D2C33D008DD4">D3D12_UNORDERED_ACCESS_VIEW_DESC</a> structure to view the resource as an array of 2D textures.
+Use this structure with a <a href="https://msdn.microsoft.com/0C3A31FE-625D-4CB3-87FD-D2C33D008DD4">D3D12_UNORDERED_ACCESS_VIEW_DESC</a> structure to view the resource as an array of 2D textures.
       
 
 

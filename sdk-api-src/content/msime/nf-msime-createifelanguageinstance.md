@@ -7,7 +7,7 @@ old-location: intl\createifelanguageinstance.htm
 old-project: Intl
 ms.assetid: DF79C260-F43B-4580-B252-6D906C235CD4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: CreateIFELanguageInstance, CreateIFELanguageInstance function [Internationalization for Windows Applications], intl.createifelanguageinstance, msime/CreateIFELanguageInstance
 ms.prod: windows
 ms.technology: windows-sdk

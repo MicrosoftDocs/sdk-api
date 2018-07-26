@@ -7,7 +7,7 @@ old-location: of\offlinefiles_op_response.htm
 old-project: offlinefiles
 ms.assetid: a4b16256-7f6a-4e26-8cf2-3ef7c59ac3af
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/23/2018
 ms.keywords: OFFLINEFILES_OP_ABORT, OFFLINEFILES_OP_CONTINUE, OFFLINEFILES_OP_RESPONSE, OFFLINEFILES_OP_RESPONSE enumeration [Offline Files], OFFLINEFILES_OP_RETRY, cscobj/OFFLINEFILES_OP_ABORT, cscobj/OFFLINEFILES_OP_CONTINUE, cscobj/OFFLINEFILES_OP_RESPONSE, cscobj/OFFLINEFILES_OP_RETRY, of.offlinefiles_op_response, tagOFFLINEFILES_OP_RESPONSE
 ms.prod: windows
 ms.technology: windows-sdk

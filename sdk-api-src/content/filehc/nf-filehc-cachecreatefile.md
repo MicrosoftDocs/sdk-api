@@ -7,7 +7,7 @@ old-location: winprog\_cachecreatefile.htm
 old-project: devnotes
 ms.assetid: 089160c7-eb30-4b39-b982-75356e7cdb24
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: CacheCreateFile, CacheCreateFile function [Windows API], filehc/CacheCreateFile, winprog._cachecreatefile
 ms.prod: windows
 ms.technology: windows-sdk

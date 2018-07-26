@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_AllowPersonalCoverPages_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguration\allowpersonalcoverpages.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: AllowPersonalCoverPages property [Fax Service], AllowPersonalCoverPages property [Fax Service],FaxConfiguration object, FaxConfiguration object [Fax Service],AllowPersonalCoverPages property, FaxConfiguration.AllowPersonalCoverPages, IFaxConfiguration.put_AllowPersonalCoverPages, IFaxConfiguration::put_AllowPersonalCoverPages, _mfax_IFaxConfiguration_AllowPersonalCoverPages, fax._mfax_FaxConfiguration_AllowPersonalCoverPages_vb, put_AllowPersonalCoverPages
 ms.prod: windows
 ms.technology: windows-sdk

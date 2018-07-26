@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_buffer_desc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_buffer_desc.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 149ee7ef-e8fe-d33d-b3e6-f8e1b0c4a83a, D3D10_SHADER_BUFFER_DESC, D3D10_SHADER_BUFFER_DESC structure [Direct3D 10], _D3D10_SHADER_BUFFER_DESC, d3d10shader/D3D10_SHADER_BUFFER_DESC, direct3d10.d3d10_shader_buffer_desc
 ms.prod: windows
 ms.technology: windows-sdk

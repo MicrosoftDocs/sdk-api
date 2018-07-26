@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevices_item.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5j8t.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxDevices object [Fax Service],Item property, FaxDevices.Item, IFaxDevices.get_Item, IFaxDevices::get_Item, Item property [Fax Service], Item property [Fax Service],FaxDevices object, _mfax_faxdevices.item, fax._mfax_faxdevices_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk

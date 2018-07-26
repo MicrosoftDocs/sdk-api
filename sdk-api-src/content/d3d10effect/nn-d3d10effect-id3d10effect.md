@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effect.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 8f18434d-7574-2504-c371-767566771aca, ID3D10Effect, ID3D10Effect interface [Direct3D 10], ID3D10Effect interface [Direct3D 10],described, d3d10effect/ID3D10Effect, direct3d10.id3d10effect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -205,8 +205,7 @@ The effect system groups the information required for rendering into an effect w
 </tr>
 <tr>
 <td>
-<pre>
-    IUnknown* pIUnknown = (IUnknown*)pEffect;
+<pre>IUnknown* pIUnknown = (IUnknown*)pEffect;
     pIUnknown-&gt;AddRef();
 </pre>
 </td>

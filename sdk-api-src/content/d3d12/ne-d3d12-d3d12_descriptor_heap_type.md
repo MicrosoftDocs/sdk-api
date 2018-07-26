@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_descriptor_heap_type.htm
 old-project: direct3d12
 ms.assetid: E74C78BC-B0FC-473A-B4F3-434F50A55E9F
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_DESCRIPTOR_HEAP_TYPE, D3D12_DESCRIPTOR_HEAP_TYPE enumeration, D3D12_DESCRIPTOR_HEAP_TYPE_CBV_SRV_UAV, D3D12_DESCRIPTOR_HEAP_TYPE_DSV, D3D12_DESCRIPTOR_HEAP_TYPE_NUM_TYPES, D3D12_DESCRIPTOR_HEAP_TYPE_RTV, D3D12_DESCRIPTOR_HEAP_TYPE_SAMPLER, d3d12/D3D12_DESCRIPTOR_HEAP_TYPE, d3d12/D3D12_DESCRIPTOR_HEAP_TYPE_CBV_SRV_UAV, d3d12/D3D12_DESCRIPTOR_HEAP_TYPE_DSV, d3d12/D3D12_DESCRIPTOR_HEAP_TYPE_NUM_TYPES, d3d12/D3D12_DESCRIPTOR_HEAP_TYPE_RTV, d3d12/D3D12_DESCRIPTOR_HEAP_TYPE_SAMPLER, direct3d12.d3d12_descriptor_heap_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Specifies a type of descriptor heap.
+Specifies a type of descriptor heap.
         
 
 
@@ -62,36 +61,31 @@ req.irql:
 
 ### -field D3D12_DESCRIPTOR_HEAP_TYPE_CBV_SRV_UAV
 
-
-            The descriptor heap for the combination of constant-buffer, shader-resource, and unordered-access views.
+The descriptor heap for the combination of constant-buffer, shader-resource, and unordered-access views.
           
 
 
 ### -field D3D12_DESCRIPTOR_HEAP_TYPE_SAMPLER
 
-
-            The descriptor heap for the sampler.
+The descriptor heap for the sampler.
           
 
 
 ### -field D3D12_DESCRIPTOR_HEAP_TYPE_RTV
 
-
-            The descriptor heap for the render-target view.
+The descriptor heap for the render-target view.
           
 
 
 ### -field D3D12_DESCRIPTOR_HEAP_TYPE_DSV
 
-
-            The descriptor heap for the depth-stencil view.
+The descriptor heap for the depth-stencil view.
           
 
 
 ### -field D3D12_DESCRIPTOR_HEAP_TYPE_NUM_TYPES
 
-
-            The number of types of descriptor heaps.
+The number of types of descriptor heaps.
           
 
 
@@ -99,8 +93,7 @@ req.irql:
 
 
 
-
-        This enum is used by the <a href="https://msdn.microsoft.com/060ED49E-12B2-4DAE-A9DC-5BAB96B8E8ED">D3D12_DESCRIPTOR_HEAP_DESC</a> structure, and the following methods:
+This enum is used by the <a href="https://msdn.microsoft.com/060ED49E-12B2-4DAE-A9DC-5BAB96B8E8ED">D3D12_DESCRIPTOR_HEAP_DESC</a> structure, and the following methods:
 
 <ul>
 <li>

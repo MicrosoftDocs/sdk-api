@@ -7,7 +7,7 @@ old-location: cmpapi\setdecompressorinformation.htm
 old-project: cmpapi
 ms.assetid: 804B73D3-E68E-43A3-8F23-6A46ABDECB23
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: SetDecompressorInformation, SetDecompressorInformation function [Compression API], cmpapi.setdecompressorinformation, compressapi/SetDecompressorInformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,9 +58,9 @@ Sets information in a decompressor for a particular compression algorithm.
 
 
 
-### -param DecompressorHandle
+### -param DecompressorHandle [in]
 
-TBD
+Handle to the decompressor.
 
 
 ### -param CompressInformationClass [in]
@@ -76,11 +76,6 @@ The information being set read as bytes. The maximum size in bytes is given by <
 ### -param CompressInformationSize [in]
 
 Maximum size  of the information in bytes.
-
-
-#### - DeompressorHandle [in]
-
-Handle to the decompressor.
 
 
 ## -returns

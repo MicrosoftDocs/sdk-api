@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_query_heap_desc.htm
 old-project: direct3d12
 ms.assetid: 1B1CB0D8-B370-4D38-BDA9-21C58D6A8F15
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_QUERY_HEAP_DESC, D3D12_QUERY_HEAP_DESC structure, d3d12/D3D12_QUERY_HEAP_DESC, direct3d12.d3d12_query_heap_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes the purpose of a query heap. 
+Describes the purpose of a query heap. 
           A query heap contains an array of individual queries.
         
 
@@ -63,22 +62,19 @@ req.irql:
 
 ### -field Type
 
-
-            Specifies one member of <a href="https://msdn.microsoft.com/FDD5F81B-F356-49D9-B6FE-FE2847934E61">D3D12_QUERY_HEAP_TYPE</a>.
+Specifies one member of <a href="https://msdn.microsoft.com/FDD5F81B-F356-49D9-B6FE-FE2847934E61">D3D12_QUERY_HEAP_TYPE</a>.
           
 
 
 ### -field Count
 
-
-            Specifies the number of queries the heap should contain.
+Specifies the number of queries the heap should contain.
           
 
 
 ### -field NodeMask
 
-
-            For single GPU operation, set this to zero. If there are multiple GPU nodes, set a bit to identify the node (the  device's physical adapter) to which the query heap applies.
+For single GPU operation, set this to zero. If there are multiple GPU nodes, set a bit to identify the node (the  device's physical adapter) to which the query heap applies.
             Each bit in the mask corresponds to a single node.
             Only 1 bit must be set.
           Refer to <a href="https://msdn.microsoft.com/CC4C6594-D48F-40C1-93EE-9F98532BC038">Multi-Adapter</a>.
@@ -88,8 +84,7 @@ req.irql:
 
 
 
-
-          Use this structure with <a href="https://msdn.microsoft.com/98B238D0-8E4D-46C1-AC2C-09473A972E71">CreateQueryHeap</a>.
+Use this structure with <a href="https://msdn.microsoft.com/98B238D0-8E4D-46C1-AC2C-09473A972E71">CreateQueryHeap</a>.
         
 
 

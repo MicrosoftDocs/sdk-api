@@ -7,7 +7,7 @@ old-location: intl\iimepadapplet_initialize.htm
 old-project: Intl
 ms.assetid: E76FF3FC-717F-42B8-AC5E-45D5527882A7
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: IImePadApplet interface [Internationalization for Windows Applications],Initialize method, IImePadApplet.Initialize, IImePadApplet::Initialize, Initialize, Initialize method [Internationalization for Windows Applications], Initialize method [Internationalization for Windows Applications],IImePadApplet interface, imepad/IImePadApplet::Initialize, intl.iimepadapplet_initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: PlatformId
+req.typenames: IMESTRUCT, *PIMESTRUCT, *NPIMESTRUCT, *LPIMESTRUCT
 topic_type:
  - APIRef
  - kbSyntax

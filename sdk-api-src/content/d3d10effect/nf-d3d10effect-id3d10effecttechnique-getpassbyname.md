@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effecttechnique_getpassbyname.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttechnique_getpassbyname.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 35788dc3-3901-8ccb-116d-9dbd8ac5f484, GetPassByName, GetPassByName method [Direct3D 10], GetPassByName method [Direct3D 10],ID3D10EffectTechnique interface, ID3D10EffectTechnique interface [Direct3D 10],GetPassByName method, ID3D10EffectTechnique.GetPassByName, ID3D10EffectTechnique::GetPassByName, d3d10effect/ID3D10EffectTechnique::GetPassByName, direct3d10.id3d10effecttechnique_getpassbyname
 ms.prod: windows
 ms.technology: windows-sdk

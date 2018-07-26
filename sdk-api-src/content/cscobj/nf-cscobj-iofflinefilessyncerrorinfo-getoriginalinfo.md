@@ -7,7 +7,7 @@ old-location: of\iofflinefilessyncerrorinfo_getoriginalinfo.htm
 old-project: offlinefiles
 ms.assetid: 1cf3a21c-5ae1-475c-9eb7-2d520ee2ce79
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/23/2018
 ms.keywords: GetOriginalInfo, GetOriginalInfo method [Offline Files], GetOriginalInfo method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetOriginalInfo method, IOfflineFilesSyncErrorInfo.GetOriginalInfo, IOfflineFilesSyncErrorInfo::GetOriginalInfo, cscobj/IOfflineFilesSyncErrorInfo::GetOriginalInfo, of.iofflinefilessyncerrorinfo_getoriginalinfo
 ms.prod: windows
 ms.technology: windows-sdk

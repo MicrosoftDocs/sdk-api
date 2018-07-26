@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationTransformPattern_CurrentCanResize.htm
 old-project: WinAuto
 ms.assetid: 2ad057b2-d382-45e0-be98-3897e5f31668
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CurrentCanResize property [Windows Accessibility], CurrentCanResize property [Windows Accessibility],IUIAutomationTransformPattern interface, IUIAutomationTransformPattern interface [Windows Accessibility],CurrentCanResize property, IUIAutomationTransformPattern.CurrentCanResize, IUIAutomationTransformPattern.get_CurrentCanResize, IUIAutomationTransformPattern::CurrentCanResize, IUIAutomationTransformPattern::get_CurrentCanResize, get_CurrentCanResize, uiauto.uiauto_IUIAutomationTransformPattern_CurrentCanResize, uiauto_IUIAutomationTransformPattern_CurrentCanResize, uiautomationclient/IUIAutomationTransformPattern::CurrentCanResize, uiautomationclient/IUIAutomationTransformPattern::get_CurrentCanResize, winauto.uiauto_IUIAutomationTransformPattern_CurrentCanResize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

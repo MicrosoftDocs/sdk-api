@@ -4,10 +4,10 @@ title: D2D1_BEZIER_SEGMENT
 author: windows-sdk-content
 description: Represents a cubic bezier segment drawn between two points.
 old-location: direct2d\D2D1_BEZIER_SEGMENT.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: cf8df7d2-c4fe-4a46-a4b2-7e0eed67df2a
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_BEZIER_SEGMENT, D2D1_BEZIER_SEGMENT structure [Direct2D], d2d1/D2D1_BEZIER_SEGMENT, direct2d.D2D1_BEZIER_SEGMENT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,9 +83,7 @@ The end point for the Bezier segment.
 
 
 
-
 A cubic Bezier curve is defined by four points: a start point, an end point (<i>point3</i>), and two control points (<i>point1</i> and <i>point2</i>). A Bezier segment does not contain a property for the starting point of the curve; it defines only the end point. The beginning point of the curve is the current point of the path to which the Bezier curve is added.
-
 
 The two control points of a cubic Bezier curve behave like magnets, attracting portions of what would otherwise be a straight line toward themselves and producing a curve. The first control point, <i>point1</i>, affects the beginning portion of the curve; the second control point, <i>point2</i>, affects the ending portion of the curve. 
 

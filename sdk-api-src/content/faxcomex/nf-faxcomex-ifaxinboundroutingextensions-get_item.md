@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingextensions_item.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9mwd.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxInboundRoutingExtensions object [Fax Service],Item property, FaxInboundRoutingExtensions.Item, IFaxInboundRoutingExtensions.get_Item, IFaxInboundRoutingExtensions::get_Item, Item property [Fax Service], Item property [Fax Service],FaxInboundRoutingExtensions object, _mfax_faxinboundroutingextensions.item, fax._mfax_faxinboundroutingextensions_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk

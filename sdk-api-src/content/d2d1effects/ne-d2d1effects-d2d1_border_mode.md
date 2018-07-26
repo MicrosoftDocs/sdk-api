@@ -4,10 +4,10 @@ title: D2D1_BORDER_MODE
 author: windows-sdk-content
 description: Specifies how the Crop effect handles the crop rectangle falling on fractional pixel coordinates.
 old-location: direct2d\d2d1_border_mode.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 093C7028-9C0E-4BB5-9769-C456B7A23B6F
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_BORDER_MODE, D2D1_BORDER_MODE enumeration [Direct2D], D2D1_BORDER_MODE_HARD, D2D1_BORDER_MODE_SOFT, d2d1effects/D2D1_BORDER_MODE, d2d1effects/D2D1_BORDER_MODE_HARD, d2d1effects/D2D1_BORDER_MODE_SOFT, direct2d.d2d1_border_mode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Specifies how the <a href="https://msdn.microsoft.com/DFB7DE20-F202-4E7F-AE63-94BF817B6E30">Crop effect</a> handles the crop rectangle falling on fractional pixel coordinates.
+Specifies how the <a href="https://msdn.microsoft.com/DFB7DE20-F202-4E7F-AE63-94BF817B6E30">Crop effect</a> handles the crop rectangle falling on fractional pixel coordinates.
         
 
 

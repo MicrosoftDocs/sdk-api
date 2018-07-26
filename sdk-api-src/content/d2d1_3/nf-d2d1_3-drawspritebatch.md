@@ -4,10 +4,10 @@ title: DrawSpriteBatch function
 author: windows-sdk-content
 description: Renders part or all of the given sprite batch to the device context using the specified drawing options.
 old-location: direct2d\id2d1devicecontext3_drawspritebatch_overloaded.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 66d049ca-5d4b-1570-3fa3-8991f9fc97a0
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: DrawSpriteBatch, DrawSpriteBatch methods [Direct2D], ID2D1DeviceContext3::DrawSpriteBatch, d2d1_3/DrawSpriteBatch, direct2d.id2d1devicecontext3_drawspritebatch_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

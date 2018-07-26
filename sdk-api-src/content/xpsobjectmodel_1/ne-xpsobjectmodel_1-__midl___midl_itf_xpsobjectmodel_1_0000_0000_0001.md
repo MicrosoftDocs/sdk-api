@@ -7,7 +7,7 @@ old-location: xps\xps_document_type.htm
 old-project: printdocs
 ms.assetid: C34629CB-7F8C-4126-BBE3-BF506D7586E9
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: XPS_DOCUMENT_TYPE, XPS_DOCUMENT_TYPE enumeration [XPS Documents and Packaging], XPS_DOCUMENT_TYPE_OPENXPS, XPS_DOCUMENT_TYPE_UNSPECIFIED, XPS_DOCUMENT_TYPE_XPS, __MIDL___MIDL_itf_xpsobjectmodel_1_0000_0000_0001, xps.xps_document_type, xpsobjectmodel_1/XPS_DOCUMENT_TYPE, xpsobjectmodel_1/XPS_DOCUMENT_TYPE_OPENXPS, xpsobjectmodel_1/XPS_DOCUMENT_TYPE_UNSPECIFIED, xpsobjectmodel_1/XPS_DOCUMENT_TYPE_XPS
 ms.prod: windows
 ms.technology: windows-sdk

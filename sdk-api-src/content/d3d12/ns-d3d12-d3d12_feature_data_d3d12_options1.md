@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_d3d12_options1.htm
 old-project: direct3d12
 ms.assetid: 39BF7632-AC73-471B-94F9-3128BD0DAB89
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_FEATURE_DATA_D3D12_OPTIONS1, D3D12_FEATURE_DATA_D3D12_OPTIONS1 structure, d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS1, direct3d12.d3d12_feature_data_d3d12_options1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,8 +101,7 @@ A "lane" is  single thread of execution. The shader models before version 6.0 ex
 A "wave" is  set of lanes (threads) executed simultaneously in the processor. No explicit barriers are required to guarantee that they execute in parallel. Similar concepts include "warp" and "wavefront". 
 
 
-
-        This structure is used with the D3D12_FEATURE_D3D12_OPTIONS1 member of  <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>.
+This structure is used with the D3D12_FEATURE_D3D12_OPTIONS1 member of  <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>.
       
 
 

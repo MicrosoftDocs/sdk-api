@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_rssetscissorrects.htm
 old-project: direct3d12
 ms.assetid: 5A636CCB-34EB-4642-B588-4107D79F46F5
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12GraphicsCommandList interface,RSSetScissorRects method, ID3D12GraphicsCommandList.RSSetScissorRects, ID3D12GraphicsCommandList::RSSetScissorRects, RSSetScissorRects, RSSetScissorRects method, RSSetScissorRects method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::RSSetScissorRects, direct3d12.id3d12graphicscommandlist_rssetscissorrects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Binds an array of scissor rectangles to the rasterizer stage.
+Binds an array of scissor rectangles to the rasterizer stage.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b>UINT</b>
 
-
-            The number of scissor rectangles to bind.
+The number of scissor rectangles to bind.
           
 
 
@@ -73,8 +71,7 @@ Type: <b>UINT</b>
 
 Type: <b>const D3D12_RECT*</b>
 
-
-            An array of scissor rectangles.
+An array of scissor rectangles.
           
 
 
@@ -82,8 +79,7 @@ Type: <b>const D3D12_RECT*</b>
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 
@@ -93,23 +89,19 @@ Type: <b>const D3D12_RECT*</b>
 
 
 
-
-          All scissor rectangles must be set atomically as one operation. Any scissor rectangles not defined by the call are disabled.
+All scissor rectangles must be set atomically as one operation. Any scissor rectangles not defined by the call are disabled.
         
 
-
-          Which scissor rectangle to use is determined by the <code>SV_ViewportArrayIndex</code> semantic output by a geometry shader (see shader semantic syntax). If a geometry shader does not make use of the <code>SV_ViewportArrayIndex</code> semantic then Direct3D will use the first scissor rectangle in the array.
+Which scissor rectangle to use is determined by the <code>SV_ViewportArrayIndex</code> semantic output by a geometry shader (see shader semantic syntax). If a geometry shader does not make use of the <code>SV_ViewportArrayIndex</code> semantic then Direct3D will use the first scissor rectangle in the array.
         
 
-
-          Each scissor rectangle in the array corresponds to a viewport in an array of viewports (see <a href="https://msdn.microsoft.com/1ACFD260-1CE5-484C-83DD-021E8D895EBB">RSSetViewports</a>).
+Each scissor rectangle in the array corresponds to a viewport in an array of viewports (see <a href="https://msdn.microsoft.com/1ACFD260-1CE5-484C-83DD-021E8D895EBB">RSSetViewports</a>).
         
 
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::RSSetScissorRects</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::RSSetScissorRects</b> as follows:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -176,8 +168,7 @@ ThrowIfFailed(m_commandList-&gt;Close());
 </td>
 </tr>
 </table></span></div>
-
-          See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>

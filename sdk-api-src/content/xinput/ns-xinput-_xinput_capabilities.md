@@ -7,7 +7,7 @@ old-location: xinput\xinput_capabilities.htm
 old-project: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_CAPABILITIES
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/23/2018
 ms.keywords: "*PXINPUT_CAPABILITIES, PXINPUT_CAPABILITIES, PXINPUT_CAPABILITIES structure pointer [XInput Game Controller APIs], XINPUT_CAPABILITIES, XINPUT_CAPABILITIES structure [XInput Game Controller APIs], _XINPUT_CAPABILITIES, xinput.xinput_capabilities, xinput/PXINPUT_CAPABILITIES, xinput/XINPUT_CAPABILITIES"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,8 +109,7 @@ Features of the controller.
 </tr>
 <tr>
 <td>XINPUT_CAPS_PMD_SUPPORTED</td>
-<td>
-           Device supports plug-in modules. Note that plug-in modules like the text input device (TID)
+<td>Device supports plug-in modules. Note that plug-in modules like the text input device (TID)
            are not supported currently through XINPUT on Windows.</td>
 </tr>
 <tr>

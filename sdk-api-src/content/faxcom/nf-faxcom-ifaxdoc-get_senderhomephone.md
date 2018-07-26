@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_senderhomephone_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_93l1.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxDoc object [Fax Service],SenderHomePhone property, FaxDoc.SenderHomePhone, IFaxDoc.get_SenderHomePhone, IFaxDoc::get_SenderHomePhone, SenderHomePhone property [Fax Service], SenderHomePhone property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_senderhomephone, fax._mfax_ifaxdoc_get_senderhomephone, fax._mfax_ifaxdoc_get_senderhomephone_vb, get_SenderHomePhone
 ms.prod: windows
 ms.technology: windows-sdk

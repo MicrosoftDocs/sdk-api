@@ -7,7 +7,7 @@ old-location: ad\dsismangleddn.htm
 old-project: ad
 ms.assetid: e4aaa83c-3bd6-48db-9d34-367b76ba629c
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: DsIsMangledDn, DsIsMangledDn function [Active Directory], DsIsMangledDnA, DsIsMangledDnW, _glines_dsismangleddn, ad.dsismangleddn, dsparse/DsIsMangledDn, dsparse/DsIsMangledDnA, dsparse/DsIsMangledDnW
 ms.prod: windows
 ms.technology: windows-sdk

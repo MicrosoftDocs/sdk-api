@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_receiptoptions.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9gxf.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxServer object [Fax Service],ReceiptOptions property, FaxServer.ReceiptOptions, IFaxServer.get_ReceiptOptions, IFaxServer::get_ReceiptOptions, ReceiptOptions property [Fax Service], ReceiptOptions property [Fax Service],FaxServer object, _mfax_faxserver.receiptoptions, fax._mfax_faxserver_receiptoptions, get_ReceiptOptions
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,13 +2,13 @@
 UID: NF:mmc.IConsole.QueryResultView
 title: IConsole::QueryResultView
 author: windows-sdk-content
-description: The IConsole2::QueryResultView method queries IConsole2 for the result view object IUnknown interface pointer.
-old-location: mmc\iconsole2_queryresultview.htm
-old-project: mmc
-ms.assetid: 26d4859c-e79f-4c63-92ad-b66de7d0fa13
+description: Queries IConsole for the result view object IUnknown interface pointer.
+old-location: mmc\iconsole_queryresultview.htm
+old-project: MMC
+ms.assetid: A13410D1-38F3-489A-8AAC-BD2909341ACB
 ms.author: windowssdkdev
-ms.date: 07/17/2018
-ms.keywords: IConsole interface [MMC],QueryResultView method, IConsole.QueryResultView, IConsole2 interface [MMC],QueryResultView method, IConsole2::QueryResultView, IConsole3 interface [MMC],QueryResultView method, IConsole3::QueryResultView, IConsole::QueryResultView, QueryResultView, QueryResultView method [MMC], QueryResultView method [MMC],IConsole interface, QueryResultView method [MMC],IConsole2 interface, QueryResultView method [MMC],IConsole3 interface, _slate_iconsole2_queryresultview, mmc.iconsole2_queryresultview, mmc/IConsole2::QueryResultView, mmc/IConsole3::QueryResultView, mmc/IConsole::QueryResultView
+ms.date: 07/24/2018
+ms.keywords: IConsole interface [MMC],QueryResultView method, IConsole.QueryResultView, IConsole::QueryResultView, QueryResultView, QueryResultView method [MMC], QueryResultView method [MMC],IConsole interface, mmc.iconsole_queryresultview, mmc/IConsole::QueryResultView
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -21,7 +21,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: Mmc.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -36,9 +36,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsole2.QueryResultView
  - IConsole.QueryResultView
- - IConsole3.QueryResultView
 product: Windows
 targetos: Windows
 req.lib: 
@@ -53,8 +51,8 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>IConsole2::QueryResultView</b> method queries 
-<a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a> for the result view object 
+Queries 
+<a href="https://msdn.microsoft.com/edd98f5e-e251-40ff-8136-02bf1b9ea670">IConsole</a> for the result view object 
 <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer.
 
 
@@ -93,11 +91,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>
-
-
-
-<a href="https://msdn.microsoft.com/be3d42a4-a18a-40a5-99fc-2cf2a848c564">IConsole3</a>
+<a href="https://msdn.microsoft.com/edd98f5e-e251-40ff-8136-02bf1b9ea670">IConsole</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: shell\IOperationsProgressDialog_SetOperation.htm
 old-project: shell
 ms.assetid: b6fae1df-1c27-4ce9-a7f6-c5488f080ef3
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],SetOperation method, IOperationsProgressDialog.SetOperation, IOperationsProgressDialog::SetOperation, SetOperation, SetOperation method [Windows Shell], SetOperation method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_SetOperation, shell.IOperationsProgressDialog_SetOperation, shobjidl_core/IOperationsProgressDialog::SetOperation
 ms.prod: windows
 ms.technology: windows-sdk

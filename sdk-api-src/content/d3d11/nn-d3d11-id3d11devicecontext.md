@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext.htm
 old-project: direct3d11
 ms.assetid: afb32c09-77f2-4c33-bd93-8dce92a2e45e
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 12a95af1-0ccb-3aa6-2a85-b8822bf74961, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], ID3D11DeviceContext interface [Direct3D 11],described, d3d11/ID3D11DeviceContext, direct3d11.id3d11devicecontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -695,8 +695,7 @@ Bind information about the primitive type, and data order that describes input d
 <a href="https://msdn.microsoft.com/e9a9a69c-7df7-4784-98f5-9ad63f6cd407">IASetVertexBuffers</a>
 </td>
 <td align="left" width="63%">
-
-      Bind an array of vertex buffers to the <a href="https://msdn.microsoft.com/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>.
+Bind an array of vertex buffers to the <a href="https://msdn.microsoft.com/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>.
 
 </td>
 </tr>
@@ -705,8 +704,7 @@ Bind information about the primitive type, and data order that describes input d
 <a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">Map</a>
 </td>
 <td align="left" width="63%">
-
-      Gets a pointer to the data contained in a <a href="https://msdn.microsoft.com/57444cb5-6c8b-4dac-8d6b-ca2b45eafac9">subresource</a>, and denies the GPU access to that subresource.
+Gets a pointer to the data contained in a <a href="https://msdn.microsoft.com/57444cb5-6c8b-4dac-8d6b-ca2b45eafac9">subresource</a>, and denies the GPU access to that subresource.
 
 </td>
 </tr>
@@ -805,8 +803,7 @@ Get an array of sampler states from the pixel shader pipeline stage.
 <a href="https://msdn.microsoft.com/6ebeb763-b517-468c-bd46-022a426e0b6e">PSGetShader</a>
 </td>
 <td align="left" width="63%">
-
-      Get the pixel shader currently set on the device.
+Get the pixel shader currently set on the device.
 
 </td>
 </tr>
@@ -824,8 +821,7 @@ Get the pixel shader resources.
 <a href="https://msdn.microsoft.com/03e5f255-3a5d-4c77-ad3b-5a188c9eb35b">PSSetConstantBuffers</a>
 </td>
 <td align="left" width="63%">
-
-      Sets the constant buffers used by the pixel shader pipeline stage.
+Sets the constant buffers used by the pixel shader pipeline stage.
 
 </td>
 </tr>

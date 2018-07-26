@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_text_metrics1.htm
 old-project: DirectWrite
 ms.assetid: 1C374FD8-8BDC-4719-921F-2E14A919E7EF
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/23/2018
 ms.keywords: DWRITE_TEXT_METRICS1, DWRITE_TEXT_METRICS1 structure [Direct Write], PDWRITE_TEXT_METRICS1, PDWRITE_TEXT_METRICS1 structure pointer [Direct Write], directwrite.dwrite_text_metrics1, dwrite_2/DWRITE_TEXT_METRICS1, dwrite_2/PDWRITE_TEXT_METRICS1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-Contains the metrics associated with text after layout.
-        All coordinates are in device independent pixels (DIPs).
+Contains the metrics associated with text after layout.All coordinates are in device independent pixels (DIPs).
       
 
 <b>DWRITE_TEXT_METRICS1</b> extends <a href="https://msdn.microsoft.com/4524ace3-fca6-4daf-9ecb-516771e53fc9">DWRITE_TEXT_METRICS</a> 

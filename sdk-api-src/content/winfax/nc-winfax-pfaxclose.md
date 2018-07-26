@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxclose.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5h2d.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxCloseA, FaxCloseW, PFAXCLOSE, PFAXCLOSE callback, PFAXCLOSE callback function [Fax Service], _mfax_faxclose, fax._mfax_faxclose, winfax/FaxCloseA, winfax/FaxCloseW, winfax/PFAXCLOSE
 ms.prod: windows
 ms.technology: windows-sdk

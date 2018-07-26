@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_SizeQuotaWarning_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\sizequotawarning.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxConfiguration object [Fax Service],SizeQuotaWarning property, FaxConfiguration.SizeQuotaWarning, IFaxConfiguration.put_SizeQuotaWarning, IFaxConfiguration::put_SizeQuotaWarning, SizeQuotaWarning property [Fax Service], SizeQuotaWarning property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_SizeQuotaWarning, fax._mfax_FaxConfiguration_SizeQuotaWarning_vb, put_SizeQuotaWarning
 ms.prod: windows
 ms.technology: windows-sdk

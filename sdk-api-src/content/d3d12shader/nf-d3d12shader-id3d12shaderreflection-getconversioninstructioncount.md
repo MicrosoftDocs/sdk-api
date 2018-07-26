@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection_getconversioninstructioncount.ht
 old-project: direct3d12
 ms.assetid: 4425F608-4AFD-4065-AC8C-2EE4618D334B
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetConversionInstructionCount, GetConversionInstructionCount method, GetConversionInstructionCount method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetConversionInstructionCount method, ID3D12ShaderReflection.GetConversionInstructionCount, ID3D12ShaderReflection::GetConversionInstructionCount, d3d12shader/ID3D12ShaderReflection::GetConversionInstructionCount, direct3d12.id3d12shaderreflection_getconversioninstructioncount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Gets the number of conversion instructions.
+Gets the number of conversion instructions.
         
 
 
@@ -68,8 +67,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            Returns the number of conversion instructions.
+Returns the number of conversion instructions.
           
 
 
@@ -79,8 +77,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-
-        This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
+This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
       
 
 

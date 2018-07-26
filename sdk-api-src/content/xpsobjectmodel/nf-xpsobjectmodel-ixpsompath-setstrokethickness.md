@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_setstrokethickness.htm
 old-project: printdocs
 ms.assetid: e16774e2-9c70-46b6-a894-e289cdee47b3
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeThickness method, IXpsOMPath.SetStrokeThickness, IXpsOMPath::SetStrokeThickness, SetStrokeThickness, SetStrokeThickness method [XPS Documents and Packaging], SetStrokeThickness method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokethickness, xpsobjectmodel/IXpsOMPath::SetStrokeThickness
 ms.prod: windows
 ms.technology: windows-sdk

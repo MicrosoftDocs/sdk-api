@@ -7,7 +7,7 @@ old-location: of\ienumofflinefilesitems.htm
 old-project: offlinefiles
 ms.assetid: 9bb1fa14-74d2-4c6f-b8ba-47c6e78d7a4f
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/23/2018
 ms.keywords: IEnumOfflineFilesItems, IEnumOfflineFilesItems interface [Offline Files], IEnumOfflineFilesItems interface [Offline Files],described, cscobj/IEnumOfflineFilesItems, of.ienumofflinefilesitems
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_shader_desc.htm
 old-project: direct3d12
 ms.assetid: FE989434-B1B6-48F3-8F95-64B1E7C988F5
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_SHADER_DESC, D3D12_SHADER_DESC structure, _D3D12_SHADER_DESC, d3d12shader/D3D12_SHADER_DESC, direct3d12.d3d12_shader_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes a shader.
+Describes a shader.
         
 
 
@@ -62,8 +61,7 @@ req.irql:
 
 ### -field Version
 
-
-            The Shader version, as an encoded UINT that corresponds to a shader model, such as "ps_5_0".
+The Shader version, as an encoded UINT that corresponds to a shader model, such as "ps_5_0".
             <b>Version</b> describes the program type, a major version number, and a minor version number.
             The program type is a <a href="https://msdn.microsoft.com/4691452D-3A7B-4890-AE41-B6AF5C541A3B">D3D12_SHADER_VERSION_TYPE</a> enumeration constant.
             <b>Version</b> is decoded in the following way:
@@ -77,260 +75,223 @@ req.irql:
 
 ### -field Creator
 
-
-            The name of the originator of the shader.
+The name of the originator of the shader.
           
 
 
 ### -field Flags
 
-
-            Shader compilation/parse flags.
+Shader compilation/parse flags.
           
 
 
 ### -field ConstantBuffers
 
-
-            The number of shader-constant buffers.
+The number of shader-constant buffers.
           
 
 
 ### -field BoundResources
 
-
-            The number of resource (textures and buffers) bound to a shader.
+The number of resource (textures and buffers) bound to a shader.
           
 
 
 ### -field InputParameters
 
-
-            The number of parameters in the input signature.
+The number of parameters in the input signature.
           
 
 
 ### -field OutputParameters
 
-
-            The number of parameters in the output signature.
+The number of parameters in the output signature.
           
 
 
 ### -field InstructionCount
 
-
-            The number of intermediate-language instructions in the compiled shader.
+The number of intermediate-language instructions in the compiled shader.
           
 
 
 ### -field TempRegisterCount
 
-
-            The number of temporary registers in the compiled shader.
+The number of temporary registers in the compiled shader.
           
 
 
 ### -field TempArrayCount
 
-
-            Number of temporary arrays used.
+Number of temporary arrays used.
           
 
 
 ### -field DefCount
 
-
-            Number of constant defines.
+Number of constant defines.
           
 
 
 ### -field DclCount
 
-
-            Number of declarations (input + output).
+Number of declarations (input + output).
           
 
 
 ### -field TextureNormalInstructions
 
-
-            Number of non-categorized texture instructions.
+Number of non-categorized texture instructions.
           
 
 
 ### -field TextureLoadInstructions
 
-
-            Number of texture load instructions
+Number of texture load instructions
           
 
 
 ### -field TextureCompInstructions
 
-
-            Number of texture comparison instructions
+Number of texture comparison instructions
           
 
 
 ### -field TextureBiasInstructions
 
-
-            Number of texture bias instructions
+Number of texture bias instructions
           
 
 
 ### -field TextureGradientInstructions
 
-
-            Number of texture gradient instructions.
+Number of texture gradient instructions.
           
 
 
 ### -field FloatInstructionCount
 
-
-            Number of floating point arithmetic instructions used.
+Number of floating point arithmetic instructions used.
           
 
 
 ### -field IntInstructionCount
 
-
-            Number of signed integer arithmetic instructions used.
+Number of signed integer arithmetic instructions used.
           
 
 
 ### -field UintInstructionCount
 
-
-            Number of unsigned integer arithmetic instructions used.
+Number of unsigned integer arithmetic instructions used.
           
 
 
 ### -field StaticFlowControlCount
 
-
-            Number of static flow control instructions used.
+Number of static flow control instructions used.
           
 
 
 ### -field DynamicFlowControlCount
 
-
-            Number of dynamic flow control instructions used.
+Number of dynamic flow control instructions used.
           
 
 
 ### -field MacroInstructionCount
 
-
-            Number of macro instructions used.
+Number of macro instructions used.
           
 
 
 ### -field ArrayInstructionCount
 
-
-            Number of array instructions used.
+Number of array instructions used.
           
 
 
 ### -field CutInstructionCount
 
-
-            Number of cut instructions used.
+Number of cut instructions used.
           
 
 
 ### -field EmitInstructionCount
 
-
-            Number of emit instructions used.
+Number of emit instructions used.
           
 
 
 ### -field GSOutputTopology
 
-
-            The <a href="https://msdn.microsoft.com/b4becdcc-cc19-4d5a-940b-b232ebedce68">D3D_PRIMITIVE_TOPOLOGY</a>-typed value that represents the geometry shader output topology.
+The <a href="https://msdn.microsoft.com/b4becdcc-cc19-4d5a-940b-b232ebedce68">D3D_PRIMITIVE_TOPOLOGY</a>-typed value that represents the geometry shader output topology.
           
 
 
 ### -field GSMaxOutputVertexCount
 
-
-            Geometry shader maximum output vertex count.
+Geometry shader maximum output vertex count.
           
 
 
 ### -field InputPrimitive
 
-
-            The <a href="https://msdn.microsoft.com/d7a83edb-48ab-4e9f-bf2b-790ebb4a14c4">D3D_PRIMITIVE</a>-typed value that represents the input primitive for a  geometry shader or hull shader.
+The <a href="https://msdn.microsoft.com/d7a83edb-48ab-4e9f-bf2b-790ebb4a14c4">D3D_PRIMITIVE</a>-typed value that represents the input primitive for a  geometry shader or hull shader.
           
 
 
 ### -field PatchConstantParameters
 
-
-            Number of parameters in the patch-constant signature.
+Number of parameters in the patch-constant signature.
           
 
 
 ### -field cGSInstanceCount
 
-
-            Number of geometry shader instances.
+Number of geometry shader instances.
           
 
 
 ### -field cControlPoints
 
-
-            Number of control points in the hull shader and domain shader.
+Number of control points in the hull shader and domain shader.
           
 
 
 ### -field HSOutputPrimitive
 
-
-            The <a href="https://msdn.microsoft.com/5fdaa41f-0612-4d2e-bb3e-60222f92bc96">D3D_TESSELLATOR_OUTPUT_PRIMITIVE</a>-typed value that represents the tessellator output-primitive type.
+The <a href="https://msdn.microsoft.com/5fdaa41f-0612-4d2e-bb3e-60222f92bc96">D3D_TESSELLATOR_OUTPUT_PRIMITIVE</a>-typed value that represents the tessellator output-primitive type.
           
 
 
 ### -field HSPartitioning
 
-
-            The <a href="https://msdn.microsoft.com/2a33c1c2-cdd6-48d0-8bd1-a3108c4b9449">D3D_TESSELLATOR_PARTITIONING</a>-typed value that represents the tessellator partitioning mode.
+The <a href="https://msdn.microsoft.com/2a33c1c2-cdd6-48d0-8bd1-a3108c4b9449">D3D_TESSELLATOR_PARTITIONING</a>-typed value that represents the tessellator partitioning mode.
           
 
 
 ### -field TessellatorDomain
 
-
-            The <a href="https://msdn.microsoft.com/9a62f3f4-b9d9-4aed-952e-00f3ad6aafd1">D3D_TESSELLATOR_DOMAIN</a>-typed value that represents the tessellator domain.
+The <a href="https://msdn.microsoft.com/9a62f3f4-b9d9-4aed-952e-00f3ad6aafd1">D3D_TESSELLATOR_DOMAIN</a>-typed value that represents the tessellator domain.
           
 
 
 ### -field cBarrierInstructions
 
-
-            Number of barrier instructions in a compute shader.
+Number of barrier instructions in a compute shader.
           
 
 
 ### -field cInterlockedInstructions
 
-
-            Number of interlocked instructions in a compute shader.
+Number of interlocked instructions in a compute shader.
           
 
 
 ### -field cTextureStoreInstructions
 
-
-            Number of texture writes in a compute shader.
+Number of texture writes in a compute shader.
           
 
 
@@ -338,8 +299,7 @@ req.irql:
 
 
 
-
-        A shader is written in HLSL and compiled into an intermediate language by the HLSL compiler.
+A shader is written in HLSL and compiled into an intermediate language by the HLSL compiler.
         The shader description returns information about the compiled shader.
         To get a shader description, call <a href="https://msdn.microsoft.com/D84DC99E-4E0C-4CFC-B061-FCD3C42D7937">ID3D12ShaderReflection::GetDesc</a>.
       

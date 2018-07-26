@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxaccounts_count_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccounts\count.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxAccounts object, FaxAccounts object [Fax Service],Count property, FaxAccounts.Count, IFaxAccounts.get_Count, IFaxAccounts::get_Count, _mfax_faxaccounts.count, fax._mfax_faxaccounts_count, fax._mfax_faxaccounts_count_vb, get_Count
 ms.prod: windows
 ms.technology: windows-sdk

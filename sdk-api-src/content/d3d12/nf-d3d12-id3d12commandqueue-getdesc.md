@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandqueue_getdesc.htm
 old-project: direct3d12
 ms.assetid: AEEE6B15-AEB0-47C5-A3F8-9957516BFBEE
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,GetDesc method, ID3D12CommandQueue.GetDesc, ID3D12CommandQueue::GetDesc, d3d12/ID3D12CommandQueue::GetDesc, direct3d12.id3d12commandqueue_getdesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Gets the description of the command queue.
+Gets the description of the command queue.
         
 
 
@@ -68,8 +67,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/8C43C45B-0A7B-4336-B546-1E6F13D153F3">D3D12_COMMAND_QUEUE_DESC</a></b>
 
-
-            The description of the command queue, as a <a href="https://msdn.microsoft.com/8C43C45B-0A7B-4336-B546-1E6F13D153F3">D3D12_COMMAND_QUEUE_DESC</a> structure.
+The description of the command queue, as a <a href="https://msdn.microsoft.com/8C43C45B-0A7B-4336-B546-1E6F13D153F3">D3D12_COMMAND_QUEUE_DESC</a> structure.
           
 
 

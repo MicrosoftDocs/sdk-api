@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxroutingmethod.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4skk.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IFaxRoutingMethod, IFaxRoutingMethod interface [Fax Service], IFaxRoutingMethod interface [Fax Service],described, _mfax_ifaxroutingmethod, fax._mfax_ifaxroutingmethod, faxcom/IFaxRoutingMethod
 ms.prod: windows
 ms.technology: windows-sdk

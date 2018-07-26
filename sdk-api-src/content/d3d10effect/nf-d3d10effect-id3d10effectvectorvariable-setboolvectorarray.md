@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvectorvariable_setboolvectorarray.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_setboolvectorarray.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D10EffectVectorVariable interface [Direct3D 10],SetBoolVectorArray method, ID3D10EffectVectorVariable.SetBoolVectorArray, ID3D10EffectVectorVariable::SetBoolVectorArray, SetBoolVectorArray, SetBoolVectorArray method [Direct3D 10], SetBoolVectorArray method [Direct3D 10],ID3D10EffectVectorVariable interface, d3d10effect/ID3D10EffectVectorVariable::SetBoolVectorArray, d898b40d-7046-3bfa-967a-dd167091c829, direct3d10.id3d10effectvectorvariable_setboolvectorarray
 ms.prod: windows
 ms.technology: windows-sdk

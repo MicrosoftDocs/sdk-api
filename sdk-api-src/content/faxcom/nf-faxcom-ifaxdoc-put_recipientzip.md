@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_recipientzip_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2pww.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxDoc object [Fax Service],RecipientZip property, FaxDoc.RecipientZip, IFaxDoc.put_RecipientZip, IFaxDoc::put_RecipientZip, RecipientZip property [Fax Service], RecipientZip property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientzip, fax._mfax_ifaxdoc_get_recipientzip, fax._mfax_ifaxdoc_get_recipientzip_vb, put_RecipientZip
 ms.prod: windows
 ms.technology: windows-sdk

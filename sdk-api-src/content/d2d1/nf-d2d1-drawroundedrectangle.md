@@ -4,10 +4,10 @@ title: DrawRoundedRectangle function
 author: windows-sdk-content
 description: Draws the outline of the specified rounded rectangle using the specified stroke style.
 old-location: direct2d\id2d1rendertarget_drawroundedrectangle.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: d718c355-ffd8-4a7f-90f3-9a10d37a19c8
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: DrawRoundedRectangle, DrawRoundedRectangle methods [Direct2D], ID2D1RenderTarget::DrawRoundedRectangle, d2d1/DrawRoundedRectangle, direct2d.id2d1rendertarget_drawroundedrectangle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ req.irql:
 <a href="https://msdn.microsoft.com/599638af-ebbb-4a45-96cf-ba3852e87237">DrawRoundedRectangle(D2D1_ROUNDED_RECT&,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
 </td>
 <td align="left" width="63%">
-
-    Draws the outline of the specified rounded rectangle using the specified stroke style.
+Draws the outline of the specified rounded rectangle using the specified stroke style.
 
 </td>
 </tr>
@@ -71,8 +70,7 @@ req.irql:
 <a href="https://msdn.microsoft.com/e4f21552-286f-4330-9cc4-c92694c6d6ce">DrawRoundedRectangle(D2D1_ROUNDED_RECT*,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
 </td>
 <td align="left" width="63%">
-
-    Draws the outline of the specified rounded rectangle using the specified stroke style.
+Draws the outline of the specified rounded rectangle using the specified stroke style.
 
 </td>
 </tr>

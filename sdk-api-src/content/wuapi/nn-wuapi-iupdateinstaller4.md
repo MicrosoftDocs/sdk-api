@@ -4,10 +4,10 @@ title: IUpdateInstaller4
 author: windows-sdk-content
 description: Provides methods to finalize updates that were previously staged or installed.
 old-location: wua\iupdateinstaller4.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 75A90895-BAD0-41F7-BFB1-16B8BF145441
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IUpdateInstaller4, IUpdateInstaller4 interface [Windows Update Agent], IUpdateInstaller4 interface [Windows Update Agent],described, wua.iupdateinstaller4, wuapi/IUpdateInstaller4
 ms.prod: windows
 ms.technology: windows-sdk

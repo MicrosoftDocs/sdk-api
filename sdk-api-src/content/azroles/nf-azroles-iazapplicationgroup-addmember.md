@@ -4,10 +4,10 @@ title: IAzApplicationGroup::AddMember
 author: windows-sdk-content
 description: Adds the specified security identifier (SID) in text form to the list of accounts that belong to the application group.
 old-location: security\iazapplicationgroup_addmember.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 934ca397-2067-451a-bccd-103ab4db3b1f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: AddMember, AddMember method [Security], AddMember method [Security],AzApplicationGroup object, AddMember method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddMember method, IAzApplicationGroup interface [Security],AddMember method, IAzApplicationGroup.AddMember, IAzApplicationGroup::AddMember, azroles/IAzApplicationGroup::AddMember, security.iazapplicationgroup_addmember
 ms.prod: windows
 ms.technology: windows-sdk

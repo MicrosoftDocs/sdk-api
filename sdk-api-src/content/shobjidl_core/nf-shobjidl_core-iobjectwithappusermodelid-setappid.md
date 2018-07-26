@@ -7,7 +7,7 @@ old-location: shell\IObjectWithAppUserModelID_SetAppID.htm
 old-project: shell
 ms.assetid: 6f6850fc-2aa5-46fa-b237-82aafa844092
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IObjectWithAppUserModelID interface [Windows Shell],SetAppID method, IObjectWithAppUserModelID.SetAppID, IObjectWithAppUserModelID::SetAppID, SetAppID, SetAppID method [Windows Shell], SetAppID method [Windows Shell],IObjectWithAppUserModelID interface, _shell_IObjectWithAppUserModelID_SetAppID, shell.IObjectWithAppUserModelID_SetAppID, shobjidl_core/IObjectWithAppUserModelID::SetAppID
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_Retries_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\retries.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxConfiguration object [Fax Service],Retries property, FaxConfiguration.Retries, IFaxConfiguration.get_Retries, IFaxConfiguration::get_Retries, Retries property [Fax Service], Retries property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_Retries, fax._mfax_FaxConfiguration_Retries_vb, get_Retries
 ms.prod: windows
 ms.technology: windows-sdk

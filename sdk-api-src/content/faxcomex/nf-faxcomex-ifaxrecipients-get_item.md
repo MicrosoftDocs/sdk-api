@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxrecipients_item.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0q7h.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxRecipients object [Fax Service],Item property, FaxRecipients.Item, IFaxRecipients.get_Item, IFaxRecipients::get_Item, Item property [Fax Service], Item property [Fax Service],FaxRecipients object, _mfax_faxrecipients.item, fax._mfax_faxrecipients_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk

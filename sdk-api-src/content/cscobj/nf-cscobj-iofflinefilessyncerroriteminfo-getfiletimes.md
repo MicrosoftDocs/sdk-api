@@ -7,7 +7,7 @@ old-location: of\iofflinefilessyncerroriteminfo_getfiletimes.htm
 old-project: offlinefiles
 ms.assetid: dec0ce0c-ef24-482f-9890-19864d9ff652
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/23/2018
 ms.keywords: GetFileTimes, GetFileTimes method [Offline Files], GetFileTimes method [Offline Files],IOfflineFilesSyncErrorItemInfo interface, IOfflineFilesSyncErrorItemInfo interface [Offline Files],GetFileTimes method, IOfflineFilesSyncErrorItemInfo.GetFileTimes, IOfflineFilesSyncErrorItemInfo::GetFileTimes, cscobj/IOfflineFilesSyncErrorItemInfo::GetFileTimes, of.iofflinefilessyncerroriteminfo_getfiletimes
 ms.prod: windows
 ms.technology: windows-sdk

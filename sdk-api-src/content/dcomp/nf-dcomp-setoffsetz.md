@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiontranslatetransform3d_setoffsetz_overloaded
 old-project: directcomp
 ms.assetid: 1467F8A8-15CF-4B3E-8816-76F2F5BFB68B
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/23/2018
 ms.keywords: IDCompositionTranslateTransform3D::SetOffsetZ, SetOffsetZ, SetOffsetZ methods [DirectComposition], dcomp/SetOffsetZ, directcomp.idcompositiontranslatetransform3d_setoffsetz_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createshaderresourceview.htm
 old-project: direct3d12
 ms.assetid: 4FD7082D-2DA9-469E-BA74-6735D407D5FE
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: CreateShaderResourceView, CreateShaderResourceView method, CreateShaderResourceView method,ID3D12Device interface, ID3D12Device interface,CreateShaderResourceView method, ID3D12Device.CreateShaderResourceView, ID3D12Device::CreateShaderResourceView, d3d12/ID3D12Device::CreateShaderResourceView, direct3d12.id3d12device_createshaderresourceview
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,8 +106,7 @@ YUV 4:2:0 formats are listed in <a href="https://msdn.microsoft.com/library/Bb17
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12nBodyGravity</a> sample uses <b>ID3D12Device::CreateShaderResourceView</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12nBodyGravity</a> sample uses <b>ID3D12Device::CreateShaderResourceView</b> as follows:
         
 
 Describe and create two shader resource views based on one description.

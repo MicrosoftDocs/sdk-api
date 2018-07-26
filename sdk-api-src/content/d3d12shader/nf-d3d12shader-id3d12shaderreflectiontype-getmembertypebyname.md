@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectiontype_getmembertypebyname.htm
 old-project: direct3d12
 ms.assetid: 1A05A112-3975-4424-AED7-55F9CFBF8771
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetMemberTypeByName, GetMemberTypeByName method, GetMemberTypeByName method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetMemberTypeByName method, ID3D12ShaderReflectionType.GetMemberTypeByName, ID3D12ShaderReflectionType::GetMemberTypeByName, d3d12shader/ID3D12ShaderReflectionType::GetMemberTypeByName, direct3d12.id3d12shaderreflectiontype_getmembertypebyname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Gets a shader-reflection-variable type by name.
+Gets a shader-reflection-variable type by name.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
 
-
-            Member name.
+Member name.
           
 
 
@@ -75,8 +73,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/78FF30C5-7F23-489D-9E9D-916F6CE09C0E">ID3D12ShaderReflectionType</a>*</b>
 
-
-            A pointer to a <a href="https://msdn.microsoft.com/78FF30C5-7F23-489D-9E9D-916F6CE09C0E">ID3D12ShaderReflectionType Interface</a>.
+A pointer to a <a href="https://msdn.microsoft.com/78FF30C5-7F23-489D-9E9D-916F6CE09C0E">ID3D12ShaderReflectionType Interface</a>.
           
 
 
@@ -86,8 +83,7 @@ Type: <b><a href="https://msdn.microsoft.com/78FF30C5-7F23-489D-9E9D-916F6CE09C0
 
 
 
-
-        This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
+This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
       
 
 

@@ -4,10 +4,10 @@ title: ISystemInformation
 author: windows-sdk-content
 description: Contains information about the specified computer. This information is relevant to the Windows Update Agent (WUA).
 old-location: wua\isysteminformation.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: b0aebfd6-1d62-43b3-8c40-2eeb67fab27d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: ISystemInformation, ISystemInformation interface [Windows Update Agent], ISystemInformation interface [Windows Update Agent],described, wua.isysteminformation, wuapi/ISystemInformation
 ms.prod: windows
 ms.technology: windows-sdk

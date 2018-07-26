@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugdevice.htm
 old-project: direct3d12
 ms.assetid: 6FD77F14-E260-4DBB-8434-664DE1F6DE39
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12DebugDevice, ID3D12DebugDevice interface, ID3D12DebugDevice interface,described, d3d12sdklayers/ID3D12DebugDevice, direct3d12.id3d12debugdevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          This interface represents a graphics device for debugging.
+This interface represents a graphics device for debugging.
         
 
 
@@ -75,8 +74,7 @@ The <b>ID3D12DebugDevice</b> interface has these methods.
 <a href="https://msdn.microsoft.com/E4ECE63F-6738-4856-9912-93C3AAEE7E3B">GetFeatureMask</a>
 </td>
 <td align="left" width="63%">
-
-          Gets a bit field of flags that indicates which debug features are on or off.
+Gets a bit field of flags that indicates which debug features are on or off.
         
 
 </td>
@@ -86,8 +84,7 @@ The <b>ID3D12DebugDevice</b> interface has these methods.
 <a href="https://msdn.microsoft.com/37771598-DC2E-42FA-B17D-A187164A3314">ReportLiveDeviceObjects</a>
 </td>
 <td align="left" width="63%">
-
-          Reports information about a device object's lifetime.
+Reports information about a device object's lifetime.
         
 
 </td>
@@ -97,8 +94,7 @@ The <b>ID3D12DebugDevice</b> interface has these methods.
 <a href="https://msdn.microsoft.com/12232AB8-BBEA-4663-BEB2-7E296851FE5E">SetFeatureMask</a>
 </td>
 <td align="left" width="63%">
-
-          Set a bit field of flags that will turn debug features on and off.
+Set a bit field of flags that will turn debug features on and off.
         
 
 </td>

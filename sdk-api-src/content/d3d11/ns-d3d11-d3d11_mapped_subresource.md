@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_mapped_subresource.htm
 old-project: direct3d11
 ms.assetid: cbbb8689-0a7d-43b9-bde3-29d93cc7f0fe
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 6581ca11-abcb-9ae4-0972-0f8f36933283, D3D11_MAPPED_SUBRESOURCE, D3D11_MAPPED_SUBRESOURCE structure [Direct3D 11], d3d11/D3D11_MAPPED_SUBRESOURCE, direct3d11.d3d11_mapped_subresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,8 +102,7 @@ When <b>RowPitch</b> and <b>DepthPitch</b> are not appropriate for the resource 
 <li>For <a href="https://msdn.microsoft.com/7f552b9b-c5fb-4bc2-a7ae-61983379db38">Buffer</a> and <a href="https://msdn.microsoft.com/5f6fd0e4-a73e-4d13-b3a0-c884b7912581">Texture1D</a>, the runtime assigns values  that aren't 0 to <b>RowPitch</b> and <b>DepthPitch</b>. For example, if a <b>Buffer</b> contains 8 bytes, the runtime assigns values to <b>RowPitch</b> and <b>DepthPitch</b> that are greater than or equal to 8.</li>
 <li>For <a href="https://msdn.microsoft.com/e4f9cfd8-65e6-4375-8f87-736bca32cad4">Texture2D</a>, the runtime still assigns a value that isn't 0 to <b>DepthPitch</b>, assuming that the field isn't used.</li>
 </ul>
-<div class="alert"><b>Note</b>  
-	The runtime might assign values to <b>RowPitch</b> and <b>DepthPitch</b> that are larger than anticipated because there might be padding between rows and depth.</div>
+<div class="alert"><b>Note</b>  The runtime might assign values to <b>RowPitch</b> and <b>DepthPitch</b> that are larger than anticipated because there might be padding between rows and depth.</div>
 <div> </div>
 
 

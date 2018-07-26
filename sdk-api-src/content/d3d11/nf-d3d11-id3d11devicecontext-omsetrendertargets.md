@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_omsetrendertargets.htm
 old-project: direct3d11
 ms.assetid: 65514812-7433-4c13-a6cb-53980dacdf65
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 57e16a81-6543-5ac7-d96c-aac3ca8504f8, ID3D11DeviceContext interface [Direct3D 11],OMSetRenderTargets method, ID3D11DeviceContext.OMSetRenderTargets, ID3D11DeviceContext::OMSetRenderTargets, OMSetRenderTargets, OMSetRenderTargets method [Direct3D 11], OMSetRenderTargets method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::OMSetRenderTargets, direct3d11.id3d11devicecontext_omsetrendertargets
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,8 +102,7 @@ The maximum number of active render targets a device can have active at any give
 If any subresources are also currently bound for reading in a different stage or writing (perhaps in a different part of the pipeline), 
       those bind points will be set to <b>NULL</b>, in order to prevent the same subresource from being read and written simultaneously in a single rendering operation.
 
-
-        The method will hold a reference to the interfaces passed in.
+The method will hold a reference to the interfaces passed in.
         This differs from the device state behavior in Direct3D 10.
       
 

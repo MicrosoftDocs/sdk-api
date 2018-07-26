@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device.htm
 old-project: direct3d11
 ms.assetid: 2f2559d9-1cd6-44f6-90e2-ee0f86e39f78
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11Device, ID3D11Device interface [Direct3D 11], ID3D11Device interface [Direct3D 11],described, b37b606f-bf79-e387-57c4-bebf1cf88722, d3d11/ID3D11Device, direct3d11.id3d11device
 ms.prod: windows
 ms.technology: windows-sdk
@@ -164,8 +164,7 @@ Create a counter object for measuring GPU performance.
 <a href="https://msdn.microsoft.com/fbf01844-eaf1-4360-833e-c95ba686fff5">CreateDeferredContext</a>
 </td>
 <td align="left" width="63%">
-
-      Creates a deferred context, which can record command lists.
+Creates a deferred context, which can record command lists.
 
 </td>
 </tr>
@@ -192,8 +191,7 @@ Create a depth-stencil view for accessing resource data.
 <a href="https://msdn.microsoft.com/414525a8-55ad-4d37-a302-5c30909588f1">CreateDomainShader</a>
 </td>
 <td align="left" width="63%">
-Create a <a href="https://msdn.microsoft.com/4ad2fd3e-6e1a-4326-8469-3198acf931dc">domain shader</a>
-.
+Create a <a href="https://msdn.microsoft.com/4ad2fd3e-6e1a-4326-8469-3198acf931dc">domain shader</a>.
 
 </td>
 </tr>
@@ -438,8 +436,7 @@ Associate an IUnknown-derived interface with this device child and associate tha
 
 
 
-
-            A device is created using <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a>.
+A device is created using <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a>.
           
 
 <b>Windows Phone 8:

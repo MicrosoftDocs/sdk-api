@@ -4,10 +4,10 @@ title: EqualSid function
 author: windows-sdk-content
 description: Tests two security identifier (SID) values for equality. Two SIDs must match exactly to be considered equal.
 old-location: security\equalsid.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 08420df3-f6e6-462e-a2e6-d2a7a90be8ed
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: EqualSid, EqualSid function [Security], _win32_equalsid, security.equalsid, securitybaseapi/EqualSid
 ms.prod: windows
 ms.technology: windows-sdk

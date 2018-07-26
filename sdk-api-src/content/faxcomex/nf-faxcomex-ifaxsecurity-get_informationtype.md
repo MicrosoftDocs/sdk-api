@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsecurity_informationtype.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4up1.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxSecurity object [Fax Service],InformationType property, FaxSecurity.InformationType, IFaxSecurity.get_InformationType, IFaxSecurity.put_InformationType, IFaxSecurity::get_InformationType, InformationType property [Fax Service], InformationType property [Fax Service],FaxSecurity object, _mfax_faxsecurity.informationtype, fax._mfax_faxsecurity_informationtype, get_InformationType
 ms.prod: windows
 ms.technology: windows-sdk

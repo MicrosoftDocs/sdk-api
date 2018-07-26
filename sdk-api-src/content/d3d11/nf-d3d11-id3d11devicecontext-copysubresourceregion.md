@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_copysubresourceregion.htm
 old-project: direct3d11
 ms.assetid: aed89483-9870-445d-96e3-a9cee764f0ad
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 4fcc18c3-ca99-b51e-9162-bb8b4121db03, CopySubresourceRegion, CopySubresourceRegion method [Direct3D 11], CopySubresourceRegion method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CopySubresourceRegion method, ID3D11DeviceContext.CopySubresourceRegion, ID3D11DeviceContext::CopySubresourceRegion, d3d11/ID3D11DeviceContext::CopySubresourceRegion, direct3d11.id3d11devicecontext_copysubresourceregion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -144,8 +144,7 @@ If the resources are buffers, all coordinates are in bytes; if the resources are
 </ul>
 <b>CopySubresourceRegion</b> only supports copy; it does not support any stretch, color key, or blend. <b>CopySubresourceRegion</b> can reinterpret the resource data between a few format types. For more info, see <a href="https://msdn.microsoft.com/library/Bb694531(v=VS.85).aspx">Format Conversion using Direct3D 10.1</a>.
 
-
-          If your app needs to copy an entire resource, we recommend to use <a href="https://msdn.microsoft.com/54c1c08a-792c-463d-8237-9f7947d15396">ID3D11DeviceContext::CopyResource</a> instead.
+If your app needs to copy an entire resource, we recommend to use <a href="https://msdn.microsoft.com/54c1c08a-792c-463d-8237-9f7947d15396">ID3D11DeviceContext::CopyResource</a> instead.
         
 
 <b>CopySubresourceRegion</b> is an asynchronous call, which may be added to the command-buffer queue, this attempts to remove pipeline stalls that may occur when copying data. For more information about pipeline stalls, see <a href="https://msdn.microsoft.com/library/Bb205132(v=VS.85).aspx">performance considerations</a>.
@@ -159,8 +158,7 @@ If the resources are buffers, all coordinates are in bytes; if the resources are
 <div class="alert"><b>Note</b>  If you use <b>CopySubresourceRegion</b> with a depth-stencil buffer or a multisampled resource, you must copy the whole subresource. In this situation, you must pass 0 to the <i>DstX</i>, <i>DstY</i>, and <i>DstZ</i> parameters and <b>NULL</b> to the <i>pSrcBox</i> parameter. In addition, source and destination resources, which are represented by the <i>pSrcResource</i> and <i>pDstResource</i> parameters, should have identical sample count values.</div>
 <div> </div>
 <h3><a id="Example"></a><a id="example"></a><a id="EXAMPLE"></a>Example</h3>
-
-            The following code snippet copies a box (located at (120,100),(200,220)) from a source texture into a reqion (10,20),(90,140) in a destination texture.
+The following code snippet copies a box (located at (120,100),(200,220)) from a source texture into a reqion (10,20),(90,140) in a destination texture.
           
 
 <div class="code"><span codelanguage=""><table>
@@ -182,8 +180,7 @@ pd3dDeviceContext-&gt;CopySubresourceRegion( pDestTexture, 0, 10, 20, 0, pSource
 </td>
 </tr>
 </table></span></div>
-
-            Notice, that for a 2D texture, front and back are set to 0 and 1 respectively.
+Notice, that for a 2D texture, front and back are set to 0 and 1 respectively.
           
 
 

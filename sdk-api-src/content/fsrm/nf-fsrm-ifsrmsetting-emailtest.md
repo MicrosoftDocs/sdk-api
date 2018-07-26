@@ -4,10 +4,10 @@ title: IFsrmSetting::EmailTest
 author: windows-sdk-content
 description: Send an email message to the specified email address.
 old-location: fsrm\ifsrmsetting_emailtest.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: dda57309-8e77-4934-bb3e-d208d4607ea5
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: EmailTest, EmailTest method [File Server Resource Manager], EmailTest method [File Server Resource Manager],FsrmSetting class, EmailTest method [File Server Resource Manager],IFsrmSetting interface, FsrmSetting class [File Server Resource Manager],EmailTest method, IFsrmSetting interface [File Server Resource Manager],EmailTest method, IFsrmSetting.EmailTest, IFsrmSetting::EmailTest, fs.ifsrmsetting_emailtest, fsrm.ifsrmsetting_emailtest, fsrm/IFsrmSetting::EmailTest
 ms.prod: windows
 ms.technology: windows-sdk

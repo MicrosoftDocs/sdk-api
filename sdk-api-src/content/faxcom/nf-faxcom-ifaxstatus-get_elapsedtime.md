@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxstatus_get_elapsedtime_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2en9.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: ElapsedTime property [Fax Service], ElapsedTime property [Fax Service],FaxStatus object, FaxStatus object [Fax Service],ElapsedTime property, FaxStatus.ElapsedTime, IFaxStatus.get_ElapsedTime, IFaxStatus::get_ElapsedTime, _mfax_ifaxstatus_get_elapsedtime, fax._mfax_ifaxstatus_get_elapsedtime, fax._mfax_ifaxstatus_get_elapsedtime_vb, get_ElapsedTime
 ms.prod: windows
 ms.technology: windows-sdk

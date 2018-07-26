@@ -4,10 +4,10 @@ title: D2D1_LAYER_PARAMETERS
 author: windows-sdk-content
 description: Contains the content bounds, mask information, opacity settings, and other options for a layer resource.
 old-location: direct2d\D2D1_LAYER_PARAMETERS.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: ce575df6-9464-4672-9a0e-ff7e016d9354
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_LAYER_PARAMETERS, D2D1_LAYER_PARAMETERS structure [Direct2D], d2d1/D2D1_LAYER_PARAMETERS, direct2d.D2D1_LAYER_PARAMETERS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-    Contains the content bounds, mask information, opacity settings, and other options for a layer resource. 
+Contains the content bounds, mask information, opacity settings, and other options for a layer resource. 
 
 
 ## -struct-fields
@@ -84,9 +83,7 @@ A value that specifies the antialiasing mode for the geometricMask.
 
 Type: <b><a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
 
-
-            
-            A value that specifies the transform that is applied to the geometric mask when composing the layer.
+A value that specifies the transform that is applied to the geometric mask when composing the layer.
 
 
 ### -field opacity
@@ -108,8 +105,7 @@ is mapped to the layer, and the alpha channel of each mapped brush pixel is mult
 
 Type: <b><a href="https://msdn.microsoft.com/d278211a-e99c-429d-9752-45c305f52ed8">D2D1_LAYER_OPTIONS</a></b>
 
-
-            A value that specifies whether the layer intends to render text with ClearType antialiasing.
+A value that specifies whether the layer intends to render text with ClearType antialiasing.
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_cancel_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_827g.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: Cancel, Cancel method [Fax Service], Cancel method [Fax Service],FaxOutgoingJob object, FaxOutgoingJob object [Fax Service],Cancel method, FaxOutgoingJob.Cancel, IFaxOutgoingJob.Cancel, IFaxOutgoingJob::Cancel, _mfax_faxoutgoingjob.cancel, fax._mfax_faxoutgoingjob_cancel, fax._mfax_faxoutgoingjob_cancel_vb
 ms.prod: windows
 ms.technology: windows-sdk

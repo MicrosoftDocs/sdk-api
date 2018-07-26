@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_subresource_footprint.htm
 old-project: direct3d12
 ms.assetid: C73B6AB0-F9C5-432E-BA26-3B7772411C95
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_SUBRESOURCE_FOOTPRINT, D3D12_SUBRESOURCE_FOOTPRINT structure, d3d12/D3D12_SUBRESOURCE_FOOTPRINT, direct3d12.d3d12_subresource_footprint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes the format, width, height, depth, and row-pitch of the subresource into the parent resource.
+Describes the format, width, height, depth, and row-pitch of the subresource into the parent resource.
         
 
 
@@ -62,36 +61,31 @@ req.irql:
 
 ### -field Format
 
-
-            A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that  specifies the viewing format.
+A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that  specifies the viewing format.
           
 
 
 ### -field Width
 
-
-            The width of the subresource.
+The width of the subresource.
           
 
 
 ### -field Height
 
-
-            The height of the subresource.
+The height of the subresource.
           
 
 
 ### -field Depth
 
-
-            The depth of the subresource.
+The depth of the subresource.
           
 
 
 ### -field RowPitch
 
-
-            The row pitch, or width, or physical size, in bytes, of the subresource data.
+The row pitch, or width, or physical size, in bytes, of the subresource data.
             This must be a multiple of D3D12_TEXTURE_DATA_PITCH_ALIGNMENT (256), and must be greater than or equal to the size of the data within a row.
           
 
@@ -100,12 +94,10 @@ req.irql:
 
 
 
-
-        Use this structure in the <a href="https://msdn.microsoft.com/74740A52-C2A5-4AF6-92CC-85B5C214423F">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a> structure.
+Use this structure in the <a href="https://msdn.microsoft.com/74740A52-C2A5-4AF6-92CC-85B5C214423F">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a> structure.
       
 
-
-        The helper structure is <a href="https://msdn.microsoft.com/17266FB0-41B5-4A70-A896-206B54F5E76F">CD3DX12_SUBRESOURCE_FOOTPRINT</a>.
+The helper structure is <a href="https://msdn.microsoft.com/17266FB0-41B5-4A70-A896-206B54F5E76F">CD3DX12_SUBRESOURCE_FOOTPRINT</a>.
       
 
 

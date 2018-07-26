@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutinggroup_deviceids.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4var.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: DeviceIds property [Fax Service], DeviceIds property [Fax Service],FaxOutboundRoutingGroup object, FaxOutboundRoutingGroup object [Fax Service],DeviceIds property, FaxOutboundRoutingGroup.DeviceIds, IFaxOutboundRoutingGroup.get_DeviceIds, IFaxOutboundRoutingGroup::get_DeviceIds, _mfax_faxoutboundroutinggroup.deviceids, fax._mfax_faxoutboundroutinggroup_deviceids, get_DeviceIds
 ms.prod: windows
 ms.technology: windows-sdk

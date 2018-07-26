@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_opensharedhandle.htm
 old-project: direct3d12
 ms.assetid: 4F428B06-2906-4ED6-BB75-5DACF2155FA9
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12Device interface,OpenSharedHandle method, ID3D12Device.OpenSharedHandle, ID3D12Device::OpenSharedHandle, OpenSharedHandle, OpenSharedHandle method, OpenSharedHandle method,ID3D12Device interface, d3d12/ID3D12Device::OpenSharedHandle, direct3d12.id3d12device_opensharedhandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Opens a handle for shared resources, shared heaps, and shared fences, by using HANDLE and REFIID.
+Opens a handle for shared resources, shared heaps, and shared fences, by using HANDLE and REFIID.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b>HANDLE</b>
 
-
-            The handle that was output by the call to 
+The handle that was output by the call to 
             <a href="https://msdn.microsoft.com/AFF058FF-358F-4FF3-8C92-57A9D34B27D9">ID3D12Device::CreateSharedHandle</a>.
           
 
@@ -74,8 +72,7 @@ Type: <b>HANDLE</b>
 
 Type: <b>REFIID</b>
 
-
-            The globally unique identifier (<b>GUID</b>) for one of the following interfaces:
+The globally unique identifier (<b>GUID</b>) for one of the following interfaces:
             
 
 <ul>
@@ -89,8 +86,7 @@ Type: <b>REFIID</b>
 <a href="https://msdn.microsoft.com/2B388352-EF43-4D1E-851C-A670B4681F0F">ID3D12Fence</a>
 </li>
 </ul>
-
-            The <b>REFIID</b>, or <b>GUID</b>, of the interface can be obtained by using the __uuidof() macro.
+The <b>REFIID</b>, or <b>GUID</b>, of the interface can be obtained by using the __uuidof() macro.
             For example, __uuidof(ID3D12Heap) will get the <b>GUID</b> of the interface to a resource.
           
 
@@ -99,8 +95,7 @@ Type: <b>REFIID</b>
 
 Type: <b>void**</b>
 
-
-            A pointer to a memory block that receives a pointer to one of the following interfaces:
+A pointer to a memory block that receives a pointer to one of the following interfaces:
             
 
 <ul>
@@ -121,8 +116,7 @@ Type: <b>void**</b>
 
 Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-
-            This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
 
 

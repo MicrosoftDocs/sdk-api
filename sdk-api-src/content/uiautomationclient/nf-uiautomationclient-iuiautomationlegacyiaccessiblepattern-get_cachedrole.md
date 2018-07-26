@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedRole.ht
 old-project: WinAuto
 ms.assetid: efa5ff74-1322-49ab-a7b9-f4394b3c6e64
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CachedRole property [Windows Accessibility], CachedRole property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedRole property, IUIAutomationLegacyIAccessiblePattern.CachedRole, IUIAutomationLegacyIAccessiblePattern.get_CachedRole, IUIAutomationLegacyIAccessiblePattern::CachedRole, IUIAutomationLegacyIAccessiblePattern::get_CachedRole, get_CachedRole, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedRole, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedRole, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedRole
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

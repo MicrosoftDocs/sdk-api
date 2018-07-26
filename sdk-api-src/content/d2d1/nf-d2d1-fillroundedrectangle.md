@@ -4,10 +4,10 @@ title: FillRoundedRectangle function
 author: windows-sdk-content
 description: Paints the interior of the specified rounded rectangle.
 old-location: direct2d\id2d1rendertarget_fillroundedrectangle.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 9c4765b0-858f-4a20-b044-0acf87a1f131
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: FillRoundedRectangle, FillRoundedRectangle methods [Direct2D], ID2D1RenderTarget::FillRoundedRectangle, d2d1/FillRoundedRectangle, direct2d.id2d1rendertarget_fillroundedrectangle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ Paints the interior of the specified rounded rectangle.
 <a href="https://msdn.microsoft.com/421ddc6a-faf6-494b-8c22-6df83e6541ae">FillRoundedRectangle(D2D1_ROUNDED_RECT*,ID2D1Brush*)</a>
 </td>
 <td align="left" width="63%">
-
-    Paints the interior of the specified rounded rectangle.
+Paints the interior of the specified rounded rectangle.
 
 </td>
 </tr>

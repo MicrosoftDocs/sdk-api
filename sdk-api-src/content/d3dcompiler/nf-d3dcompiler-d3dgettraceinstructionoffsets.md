@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dgettraceinstructionoffsets.htm
 old-project: direct3dhlsl
 ms.assetid: 9E27C70C-C266-48A6-81C7-E9A5E430B48B
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/23/2018
 ms.keywords: D3DGetTraceInstructionOffsets, D3DGetTraceInstructionOffsets function [HLSL], d3dcompiler/D3DGetTraceInstructionOffsets, direct3dhlsl.d3dgettraceinstructionoffsets
 ms.prod: windows
 ms.technology: windows-sdk

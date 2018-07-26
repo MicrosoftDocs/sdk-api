@@ -7,7 +7,7 @@ old-location: shell\NSTCCUSTOMDRAW.htm
 old-project: shell
 ms.assetid: 95747075-4882-4c29-8653-941ac04db54b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: NSTCCUSTOMDRAW, NSTCCUSTOMDRAW structure [Windows Shell], _shell_NSTCCUSTOMDRAW, shell.NSTCCUSTOMDRAW, shobjidl/NSTCCUSTOMDRAW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getretrievalfilterstacksize.htm
 old-project: direct3d12
 ms.assetid: 50F15152-865F-4B56-AFB8-E994C13CEF69
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetRetrievalFilterStackSize, GetRetrievalFilterStackSize method, GetRetrievalFilterStackSize method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetRetrievalFilterStackSize method, ID3D12InfoQueue.GetRetrievalFilterStackSize, ID3D12InfoQueue::GetRetrievalFilterStackSize, d3d12sdklayers/ID3D12InfoQueue::GetRetrievalFilterStackSize, direct3d12.id3d12infoqueue_getretrievalfilterstacksize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Get the size of the retrieval-filter stack in bytes.
+Get the size of the retrieval-filter stack in bytes.
 
 
 
@@ -69,8 +68,7 @@ req.irql:
 
 Type: <b>UINT</b>
 
-
-            Size of the retrieval-filter stack in bytes.
+Size of the retrieval-filter stack in bytes.
 
 
 

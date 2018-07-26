@@ -7,7 +7,7 @@ old-location: shell\ULongLongToInt.htm
 old-project: shell
 ms.assetid: ed9eaef2-6781-4de5-8158-be914dcfd647
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: ULongLongToInt, ULongLongToInt function [Windows Shell], _shell_ULongLongToInt, intsafe/ULongLongToInt, shell.ULongLongToInt
 ms.prod: windows
 ms.technology: windows-sdk

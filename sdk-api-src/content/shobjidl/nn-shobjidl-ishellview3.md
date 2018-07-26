@@ -7,7 +7,7 @@ old-location: shell\IShellView3.htm
 old-project: shell
 ms.assetid: 96b61e84-0d31-494d-a922-cd3dcd5735b9
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IShellView3, IShellView3 interface [Windows Shell], IShellView3 interface [Windows Shell],described, _shell_IShellView3, shell.IShellView3, shobjidl/IShellView3
 ms.prod: windows
 ms.technology: windows-sdk

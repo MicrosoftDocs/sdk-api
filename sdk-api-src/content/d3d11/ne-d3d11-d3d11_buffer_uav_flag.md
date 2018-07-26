@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_buffer_uav_flag.htm
 old-project: direct3d11
 ms.assetid: 13cf0083-c61a-478d-94bd-00dec4cf27b7
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 5103c5e7-101e-9c1a-35cc-e3c97e30a9d5, D3D11_BUFFER_UAV_FLAG, D3D11_BUFFER_UAV_FLAG enumeration [Direct3D 11], D3D11_BUFFER_UAV_FLAG_APPEND, D3D11_BUFFER_UAV_FLAG_COUNTER, D3D11_BUFFER_UAV_FLAG_RAW, d3d11/D3D11_BUFFER_UAV_FLAG, d3d11/D3D11_BUFFER_UAV_FLAG_APPEND, d3d11/D3D11_BUFFER_UAV_FLAG_COUNTER, d3d11/D3D11_BUFFER_UAV_FLAG_RAW, direct3d11.d3d11_buffer_uav_flag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ Allow data to be appended to the end of the buffer.  <b>D3D11_BUFFER_UAV_FLAG_AP
 ### -field D3D11_BUFFER_UAV_FLAG_COUNTER
 
 Adds a counter to the unordered-access-view buffer.  <b>D3D11_BUFFER_UAV_FLAG_COUNTER</b> can only be used on a UAV that is a 
-        <a href="https://msdn.microsoft.com/8dd93b81-135d-4f28-898f-38510dc39af1">RWStructuredBuffer</a> and it enables the functionality needed for the <a href="https://msdn.microsoft.com/66385d4f-6db8-49ae-a73a-49089695f5ee">IncrementCounter</a>
-        and <a href="https://msdn.microsoft.com/24bc0b63-a482-4fa5-9898-2d43bca20cf4">DecrementCounter</a> methods in HLSL.  Requires the UAV format to be DXGI_FORMAT_UNKNOWN.
+        <a href="https://msdn.microsoft.com/8dd93b81-135d-4f28-898f-38510dc39af1">RWStructuredBuffer</a> and it enables the functionality needed for the <a href="https://msdn.microsoft.com/66385d4f-6db8-49ae-a73a-49089695f5ee">IncrementCounter</a>and <a href="https://msdn.microsoft.com/24bc0b63-a482-4fa5-9898-2d43bca20cf4">DecrementCounter</a> methods in HLSL.  Requires the UAV format to be DXGI_FORMAT_UNKNOWN.
 
 
 ## -see-also

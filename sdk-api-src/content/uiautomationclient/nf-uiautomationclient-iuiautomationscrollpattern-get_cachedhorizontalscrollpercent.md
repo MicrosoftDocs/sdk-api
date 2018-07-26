@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationScrollPattern_CachedHorizontalScrollPe
 old-project: WinAuto
 ms.assetid: 8cdc76fc-dfac-462e-977f-e216fce43607
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CachedHorizontalScrollPercent property [Windows Accessibility], CachedHorizontalScrollPercent property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CachedHorizontalScrollPercent property, IUIAutomationScrollPattern.CachedHorizontalScrollPercent, IUIAutomationScrollPattern.get_CachedHorizontalScrollPercent, IUIAutomationScrollPattern::CachedHorizontalScrollPercent, IUIAutomationScrollPattern::get_CachedHorizontalScrollPercent, get_CachedHorizontalScrollPercent, uiauto.uiauto_IUIAutomationScrollPattern_CachedHorizontalScrollPercent, uiauto_IUIAutomationScrollPattern_CachedHorizontalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::CachedHorizontalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::get_CachedHorizontalScrollPercent, winauto.uiauto_IUIAutomationScrollPattern_CachedHorizontalScrollPercent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

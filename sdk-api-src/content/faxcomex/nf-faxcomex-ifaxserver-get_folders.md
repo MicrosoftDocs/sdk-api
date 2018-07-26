@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_folders.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5ss3.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxServer object [Fax Service],Folders property, FaxServer.Folders, Folders property [Fax Service], Folders property [Fax Service],FaxServer object, IFaxServer.get_Folders, IFaxServer::get_Folders, _mfax_faxserver.folders, fax._mfax_faxserver_folders, get_Folders
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xps\ixpsomsolidcolorbrush.htm
 old-project: printdocs
 ms.assetid: 26580a25-09d1-4a9b-85c3-aa8ddcc97867
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IXpsOMSolidColorBrush, IXpsOMSolidColorBrush interface [XPS Documents and Packaging], IXpsOMSolidColorBrush interface [XPS Documents and Packaging],described, xps.ixpsomsolidcolorbrush, xpsobjectmodel/IXpsOMSolidColorBrush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -39,7 +39,7 @@ api_name:
  - IXpsOMSolidColorBrush
 product: Windows
 targetos: Windows
-req.lib: 
+req.lib: XpsPrint.lib
 req.dll: 
 req.irql: 
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.

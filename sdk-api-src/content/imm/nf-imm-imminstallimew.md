@@ -7,7 +7,7 @@ old-location: intl\imminstallime.htm
 old-project: Intl
 ms.assetid: 8743908b-c9b4-41ff-952e-039253fb1246
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: ImmInstallIME, ImmInstallIME function [Internationalization for Windows Applications], ImmInstallIMEA, ImmInstallIMEW, _win32_ImmInstallIME, imm/ImmInstallIME, imm/ImmInstallIMEA, imm/ImmInstallIMEW, intl.imminstallime
 ms.prod: windows
 ms.technology: windows-sdk

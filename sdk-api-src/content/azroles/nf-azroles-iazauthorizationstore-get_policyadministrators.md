@@ -4,10 +4,10 @@ title: IAzAuthorizationStore::get_PolicyAdministrators
 author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs) of principals that act as policy administrators in text form.
 old-location: security\azauthorizationstore_policyadministrators.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 388d4970-5de4-4216-8c26-b9b24cc82ca3
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: AzAuthorizationStore object [Security],PolicyAdministrators property, IAzAuthorizationStore interface [Security],PolicyAdministrators property, IAzAuthorizationStore.PolicyAdministrators, IAzAuthorizationStore.get_PolicyAdministrators, IAzAuthorizationStore::PolicyAdministrators, IAzAuthorizationStore::get_PolicyAdministrators, PolicyAdministrators property [Security], PolicyAdministrators property [Security],AzAuthorizationStore object, PolicyAdministrators property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::PolicyAdministrators, azroles/IAzAuthorizationStore::get_PolicyAdministrators, get_PolicyAdministrators, security.azauthorizationstore_policyadministrators
 ms.prod: windows
 ms.technology: windows-sdk

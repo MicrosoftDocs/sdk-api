@@ -7,7 +7,7 @@ old-location: winprog\ndrcomplexarrayunmarshall.htm
 old-project: devnotes
 ms.assetid: 2b702bec-e5f4-4bf3-a2d4-d4b901929e53
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: NdrComplexArrayUnmarshall, NdrComplexArrayUnmarshall function [Windows API], rpcndr/NdrComplexArrayUnmarshall, winprog.ndrcomplexarrayunmarshall
 ms.prod: windows
 ms.technology: windows-sdk

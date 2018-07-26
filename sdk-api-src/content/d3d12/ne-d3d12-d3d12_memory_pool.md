@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_memory_pool.htm
 old-project: direct3d12
 ms.assetid: EFA3FF00-F121-4ED8-AF83-1952C73AE06D
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_MEMORY_POOL, D3D12_MEMORY_POOL enumeration, D3D12_MEMORY_POOL_L0, D3D12_MEMORY_POOL_L1, D3D12_MEMORY_POOL_UNKNOWN, d3d12/D3D12_MEMORY_POOL, d3d12/D3D12_MEMORY_POOL_L0, d3d12/D3D12_MEMORY_POOL_L1, d3d12/D3D12_MEMORY_POOL_UNKNOWN, direct3d12.d3d12_memory_pool
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,15 +60,13 @@ Specifies the memory pool for the heap.
 
 ### -field D3D12_MEMORY_POOL_UNKNOWN
 
-
-            The memory pool is unknown.
+The memory pool is unknown.
           
 
 
 ### -field D3D12_MEMORY_POOL_L0
 
-
-            The memory pool is L0.
+The memory pool is L0.
             L0 is the physical system memory pool.
             When the adapter is discrete/NUMA, this pool has greater bandwidth for the CPU and less bandwidth for the GPU.
             When the adapter is UMA, this pool is the only one which is valid.
@@ -77,8 +75,7 @@ Specifies the memory pool for the heap.
 
 ### -field D3D12_MEMORY_POOL_L1
 
-
-            The memory pool is L1.
+The memory pool is L1.
             L1 is typically known as the physical video memory pool.
             L1 is only available when the adapter is discrete/NUMA, and has greater bandwidth for the GPU and cannot even be accessed by the CPU.
             When the adapter is UMA, this pool is not available.
@@ -89,8 +86,7 @@ Specifies the memory pool for the heap.
 
 
 
-
-        This enum is used by the <a href="https://msdn.microsoft.com/0A197D3D-67F4-46BB-8578-15E05DF46067">D3D12_HEAP_PROPERTIES</a> structure.
+This enum is used by the <a href="https://msdn.microsoft.com/0A197D3D-67F4-46BB-8578-15E05DF46067">D3D12_HEAP_PROPERTIES</a> structure.
       
 
 When the adapter is UMA, D3D12_MEMORY_POOL_L0 and DXGI_MEMORY_SEGMENT_GROUP_LOCAL refer to the same memory.

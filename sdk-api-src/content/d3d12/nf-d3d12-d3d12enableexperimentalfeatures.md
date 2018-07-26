@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12enableexperimentalfeatures.htm
 old-project: direct3d12
 ms.assetid: 290E147E-8545-4572-BB36-58481065C541
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12EnableExperimentalFeatures, D3D12EnableExperimentalFeatures function, d3d12/D3D12EnableExperimentalFeatures, direct3d12.d3d12enableexperimentalfeatures
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,8 +130,7 @@ This example shows what an experimental feature definition looks like.
 </tr>
 <tr>
 <td>
-<pre>
-// --------------------------------------------------------------------------------------------------------------------------------
+<pre>// --------------------------------------------------------------------------------------------------------------------------------
 // Experimental Feature: D3D12ExperimentalShaderModels
 //
 // Use with D3D12EnableExperimentalFeatures to enable experimental shader model support,

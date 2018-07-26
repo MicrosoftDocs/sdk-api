@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11fence.htm
 old-project: direct3d11
 ms.assetid: DC07EDEF-DA38-4CAF-8FDE-B3867DC83B8C
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11Fence, ID3D11Fence interface [Direct3D 11], ID3D11Fence interface [Direct3D 11],described, d3d11_3/ID3D11Fence, direct3d11.id3d11fence
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ The <b>ID3D11Fence</b> interface has these methods.
 <a href="https://msdn.microsoft.com/07447C9A-8F69-4FCA-B75C-D7015292F25D">CreateSharedHandle</a>
 </td>
 <td align="left" width="63%">
-
-          Creates a shared handle to a fence object.
+Creates a shared handle to a fence object.
         
 
 </td>

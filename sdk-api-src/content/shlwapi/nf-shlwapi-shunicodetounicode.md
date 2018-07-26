@@ -7,7 +7,7 @@ old-location: shell\SHUnicodeToUnicode.htm
 old-project: shell
 ms.assetid: 1a208c2d-e627-4aac-9a28-b579c734a2a8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: SHUnicodeToUnicode, SHUnicodeToUnicode function [Windows Shell], _win32_SHUnicodeToUnicode, shell.SHUnicodeToUnicode, shlwapi/SHUnicodeToUnicode
 ms.prod: windows
 ms.technology: windows-sdk

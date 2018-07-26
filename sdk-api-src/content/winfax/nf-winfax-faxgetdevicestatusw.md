@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxgetdevicestatus.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1u0j.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxGetDeviceStatus, FaxGetDeviceStatus function [Fax Service], FaxGetDeviceStatusA, FaxGetDeviceStatusW, _mfax_faxgetdevicestatus, fax._mfax_faxgetdevicestatus, winfax/FaxGetDeviceStatus, winfax/FaxGetDeviceStatusA, winfax/FaxGetDeviceStatusW
 ms.prod: windows
 ms.technology: windows-sdk

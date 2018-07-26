@@ -4,10 +4,10 @@ title: IAutomaticUpdatesSettings3
 author: windows-sdk-content
 description: Contains the settings that are available in Automatic Updates.
 old-location: wua\iautomaticupdatessettings3.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 2cc4d15f-eb8c-4db1-a81b-6eb3ee128121
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IAutomaticUpdatesSettings3, IAutomaticUpdatesSettings3 interface [Windows Update Agent], IAutomaticUpdatesSettings3 interface [Windows Update Agent],described, wua.iautomaticupdatessettings3, wuapi/IAutomaticUpdatesSettings3
 ms.prod: windows
 ms.technology: windows-sdk

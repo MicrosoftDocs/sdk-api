@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_unmap.htm
 old-project: direct3d11
 ms.assetid: 67797b77-c0a5-47b4-ba54-4282b6aa5b13
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 83629121-3205-9ee6-6495-a815e1ef2ab5, ID3D11DeviceContext interface [Direct3D 11],Unmap method, ID3D11DeviceContext.Unmap, ID3D11DeviceContext::Unmap, Unmap, Unmap method [Direct3D 11], Unmap method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::Unmap, direct3d11.id3d11devicecontext_unmap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Invalidate the pointer to a resource and reenable the GPU's access to that resou
 
 Type: <b><a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>*</b>
 
-
-            A pointer to a <a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a> interface.
+A pointer to a <a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a> interface.
           
 
 
@@ -88,8 +87,7 @@ Returns nothing.
 
 
 
-
-        For info about how to use <b>Unmap</b>, see <a href="https://msdn.microsoft.com/E73EA4B0-BD14-430C-89CA-4CFCF92C7548">How to: Use dynamic resources</a>.
+For info about how to use <b>Unmap</b>, see <a href="https://msdn.microsoft.com/E73EA4B0-BD14-430C-89CA-4CFCF92C7548">How to: Use dynamic resources</a>.
       
 
 <b>Windows Phone 8:

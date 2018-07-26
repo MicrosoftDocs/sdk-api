@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device.htm
 old-project: direct3d12
 ms.assetid: D32B3397-A1E0-48AF-9251-2EDA96261A9F
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12Device, ID3D12Device interface, ID3D12Device interface,described, d3d12/ID3D12Device, direct3d12.id3d12device
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,8 +73,7 @@ The <b>ID3D12Device</b> interface has these methods.
 <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">CheckFeatureSupport</a>
 </td>
 <td align="left" width="63%">
-
-          Gets information about the features that are supported by the current graphics driver.
+Gets information about the features that are supported by the current graphics driver.
 
 </td>
 </tr>
@@ -83,8 +82,7 @@ The <b>ID3D12Device</b> interface has these methods.
 <a href="https://msdn.microsoft.com/F995EF34-74FF-4FCA-A018-E2F48DF92450">CopyDescriptors</a>
 </td>
 <td align="left" width="63%">
-
-          Copies descriptors from a source to a destination.
+Copies descriptors from a source to a destination.
         
 
 </td>
@@ -94,8 +92,7 @@ The <b>ID3D12Device</b> interface has these methods.
 <a href="https://msdn.microsoft.com/6DA1FCDA-042C-4727-9814-B8F57E14CD51">CopyDescriptorsSimple</a>
 </td>
 <td align="left" width="63%">
-
-          Copies descriptors from a source to a destination.
+Copies descriptors from a source to a destination.
         
 
 </td>
@@ -114,8 +111,7 @@ Creates a command allocator object.
 <a href="https://msdn.microsoft.com/4C615D7D-6DBC-4EDA-8D72-271EC53047BF">CreateCommandList</a>
 </td>
 <td align="left" width="63%">
-
-          Creates a command list.
+Creates a command list.
         
 
 </td>
@@ -134,8 +130,7 @@ Creates a command queue.
 <a href="https://msdn.microsoft.com/5A44F907-C6E0-4548-A227-84F0CF2EE837">CreateCommandSignature</a>
 </td>
 <td align="left" width="63%">
-
-          This method creates a command signature.
+This method creates a command signature.
         
 
 </td>
@@ -145,8 +140,7 @@ Creates a command queue.
 <a href="https://msdn.microsoft.com/FF9E8F11-F2C5-4A96-8E25-140870D15DA9">CreateCommittedResource</a>
 </td>
 <td align="left" width="63%">
-
-          Creates both a resource and an implicit heap, such that the heap is big enough to contain the entire resource and the resource is mapped to the heap.
+Creates both a resource and an implicit heap, such that the heap is big enough to contain the entire resource and the resource is mapped to the heap.
         
 
 </td>
@@ -192,8 +186,7 @@ Creates a descriptor heap object.
 <a href="https://msdn.microsoft.com/731A60CA-644A-4FC2-8461-DDD686363BED">CreateFence</a>
 </td>
 <td align="left" width="63%">
-
-          Creates a fence object.
+Creates a fence object.
         
 
 </td>
@@ -212,8 +205,7 @@ Creates a graphics pipeline state object.
 <a href="https://msdn.microsoft.com/DB5DF4B2-4673-4B8D-BDED-9F672A41E7F6">CreateHeap</a>
 </td>
 <td align="left" width="63%">
-
-          Creates a heap that can be used with placed resources and reserved resources.
+Creates a heap that can be used with placed resources and reserved resources.
         
 
 </td>
@@ -223,8 +215,7 @@ Creates a graphics pipeline state object.
 <a href="https://msdn.microsoft.com/4581A82D-D2B6-4CAE-A336-07B8CF90A0BA">CreatePlacedResource</a>
 </td>
 <td align="left" width="63%">
-
-          Creates a resource that is placed in a specific heap.
+Creates a resource that is placed in a specific heap.
           Placed resources are the lightest weight resource objects available, and are the fastest to create and destroy.
         
 
@@ -235,8 +226,7 @@ Creates a graphics pipeline state object.
 <a href="https://msdn.microsoft.com/98B238D0-8E4D-46C1-AC2C-09473A972E71">CreateQueryHeap</a>
 </td>
 <td align="left" width="63%">
-
-          Creates a query heap.
+Creates a query heap.
           A query heap contains an array of queries.
         
 
@@ -256,8 +246,7 @@ Creates a render-target view for accessing resource data.
 <a href="https://msdn.microsoft.com/37E74129-1B5C-4997-A584-D7E9F92342EA">CreateReservedResource</a>
 </td>
 <td align="left" width="63%">
-
-          Creates a resource that is reserved, which is not yet mapped to any pages in a heap.
+Creates a resource that is reserved, which is not yet mapped to any pages in a heap.
         
 
 </td>
@@ -267,8 +256,7 @@ Creates a render-target view for accessing resource data.
 <a href="https://msdn.microsoft.com/CD3389EC-4086-40F0-B1DB-BCBCF9DDE6BA">CreateRootSignature</a>
 </td>
 <td align="left" width="63%">
-
-          Creates a root signature layout.
+Creates a root signature layout.
         
 
 </td>
@@ -296,8 +284,7 @@ Creates a shader-resource view for accessing data in a resource.
 <a href="https://msdn.microsoft.com/AFF058FF-358F-4FF3-8C92-57A9D34B27D9">CreateSharedHandle</a>
 </td>
 <td align="left" width="63%">
-
-          Creates a shared handle to an heap, resource, or fence object.
+Creates a shared handle to an heap, resource, or fence object.
         
 
 </td>
@@ -307,8 +294,7 @@ Creates a shader-resource view for accessing data in a resource.
 <a href="https://msdn.microsoft.com/E834E469-2958-44A9-978F-F42D6BB6B1DC">CreateUnorderedAccessView</a>
 </td>
 <td align="left" width="63%">
-
-          Creates a view for unordered accessing.
+Creates a view for unordered accessing.
         
 
 </td>
@@ -327,8 +313,7 @@ Enables the page-out of data, which precludes GPU access of that data.
 <a href="https://msdn.microsoft.com/006E72E0-AE09-4834-9ACB-D48698050BF2">GetAdapterLuid</a>
 </td>
 <td align="left" width="63%">
-
-          Gets a locally unique identifier for the current device (adapter).
+Gets a locally unique identifier for the current device (adapter).
         
 
 </td>
@@ -338,8 +323,7 @@ Enables the page-out of data, which precludes GPU access of that data.
 <a href="https://msdn.microsoft.com/EB3715A9-5A73-45DA-A46F-7889188409A3">GetCopyableFootprints</a>
 </td>
 <td align="left" width="63%">
-
-          Gets a resource layout that can be copied.
+Gets a resource layout that can be copied.
           Helps the app fill-in 
           <a href="https://msdn.microsoft.com/74740A52-C2A5-4AF6-92CC-85B5C214423F">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a> and 
           <a href="https://msdn.microsoft.com/C73B6AB0-F9C5-432E-BA26-3B7772411C95">D3D12_SUBRESOURCE_FOOTPRINT</a> when suballocating space in upload heaps.
@@ -352,8 +336,7 @@ Enables the page-out of data, which precludes GPU access of that data.
 <a href="https://msdn.microsoft.com/FD1A7C77-24C3-49D5-8F20-01D5FF7FC895">GetCustomHeapProperties</a>
 </td>
 <td align="left" width="63%">
-
-        Divulges the equivalent custom heap properties that are used for non-custom heap types, based on the adapter's architectural properties.
+Divulges the equivalent custom heap properties that are used for non-custom heap types, based on the adapter's architectural properties.
       
 
 </td>
@@ -363,8 +346,7 @@ Enables the page-out of data, which precludes GPU access of that data.
 <a href="https://msdn.microsoft.com/4593C153-913A-49DF-ADDC-6FB1E19D3D17">GetDescriptorHandleIncrementSize</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the size of the handle increment for the given type of descriptor heap. This value is typically used to increment a handle into a descriptor array by the correct amount.
+Gets the size of the handle increment for the given type of descriptor heap. This value is typically used to increment a handle into a descriptor array by the correct amount.
 
 </td>
 </tr>
@@ -382,8 +364,7 @@ Gets the reason that the device was removed.
 <a href="https://msdn.microsoft.com/5C5BA618-1B53-45EA-A2E6-19FCAF4FB67C">GetNodeCount</a>
 </td>
 <td align="left" width="63%">
-
-          Reports the number of physical adapters (nodes) that are associated with this device.
+Reports the number of physical adapters (nodes) that are associated with this device.
         
 
 </td>
@@ -393,8 +374,7 @@ Gets the reason that the device was removed.
 <a href="https://msdn.microsoft.com/43467E09-835B-4DB9-B0A4-F75868DE4609">GetResourceAllocationInfo</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the size and alignment of memory required for a collection of resources on this adapter.
+Gets the size and alignment of memory required for a collection of resources on this adapter.
         
 
 </td>
@@ -404,8 +384,7 @@ Gets the reason that the device was removed.
 <a href="https://msdn.microsoft.com/32574750-92D3-4CAF-90C6-BA0DEF1E5464">GetResourceTiling</a>
 </td>
 <td align="left" width="63%">
-
-          Gets info about how a tiled resource is broken into tiles.
+Gets info about how a tiled resource is broken into tiles.
         
 
 </td>
@@ -424,8 +403,7 @@ Makes objects resident for the device.
 <a href="https://msdn.microsoft.com/4F428B06-2906-4ED6-BB75-5DACF2155FA9">OpenSharedHandle</a>
 </td>
 <td align="left" width="63%">
-
-          Opens a handle for shared resources, shared heaps, and shared fences, by using HANDLE and REFIID.
+Opens a handle for shared resources, shared heaps, and shared fences, by using HANDLE and REFIID.
         
 
 </td>
@@ -435,8 +413,7 @@ Makes objects resident for the device.
 <a href="https://msdn.microsoft.com/4866BD8B-31F8-47E0-9228-5F61D6CA2190">OpenSharedHandleByName</a>
 </td>
 <td align="left" width="63%">
-
-          Opens a handle for shared resources, shared heaps, and shared fences, by using Name and Access.
+Opens a handle for shared resources, shared heaps, and shared fences, by using Name and Access.
         
 
 </td>
@@ -464,8 +441,7 @@ For Windows 10 Anniversary some additional functionality is available through <a
 
 #### Examples
 
-
-    The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D1211on12</a> sample uses <b>ID3D12Device</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D1211on12</a> sample uses <b>ID3D12Device</b> as follows:
 
 Header file declarations.
 

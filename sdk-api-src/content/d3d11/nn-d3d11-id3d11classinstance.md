@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11classinstance.htm
 old-project: direct3d11
 ms.assetid: 70d006d2-5c47-4e8a-9a14-b5475d88ac32
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11ClassInstance, ID3D11ClassInstance interface [Direct3D 11], ID3D11ClassInstance interface [Direct3D 11],described, d3d11/ID3D11ClassInstance, direct3d11.id3d11classinstance, fb695194-ccb6-d8bd-59c0-5dbd185a1a4c
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>ID3D11ClassInstance</b> interface has these methods.
 <a href="https://msdn.microsoft.com/06e5b132-5f20-41e1-827a-26df989cd4f0">GetClassLinkage</a>
 </td>
 <td align="left" width="63%">
-
-      Gets the <a href="https://msdn.microsoft.com/eac03911-d881-4304-9598-912321ac0b0c">ID3D11ClassLinkage</a> object associated with the current HLSL class.
+Gets the <a href="https://msdn.microsoft.com/eac03911-d881-4304-9598-912321ac0b0c">ID3D11ClassLinkage</a> object associated with the current HLSL class.
 
 </td>
 </tr>

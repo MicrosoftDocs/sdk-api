@@ -4,10 +4,10 @@ title: AuthzModifySids function
 author: windows-sdk-content
 description: Adds, deletes, or modifies user and device groups in the Authz client context.
 old-location: security\authzmodifysids.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 740569A5-6159-409B-B8CB-B3A8BAE4F398
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: AuthzModifySids, AuthzModifySids function [Security], authz/AuthzModifySids, security.authzmodifysids
 ms.prod: windows
 ms.technology: windows-sdk

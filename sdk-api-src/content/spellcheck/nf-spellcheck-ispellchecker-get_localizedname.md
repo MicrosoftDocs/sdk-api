@@ -7,7 +7,7 @@ old-location: intl\ispellchecker_localizedname.htm
 old-project: Intl
 ms.assetid: 93bd9224-11fc-42cd-8b2a-93eec972a943
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],LocalizedName property, ISpellChecker.LocalizedName, ISpellChecker.get_LocalizedName, ISpellChecker::LocalizedName, ISpellChecker::get_LocalizedName, LocalizedName property [Internationalization for Windows Applications], LocalizedName property [Internationalization for Windows Applications],ISpellChecker interface, get_LocalizedName, intl.ispellchecker_localizedname, spellcheck/ISpellChecker::LocalizedName, spellcheck/ISpellChecker::get_LocalizedName
 ms.prod: windows
 ms.technology: windows-sdk

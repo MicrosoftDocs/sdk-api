@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10debug_validate.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug_validate.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D10Debug interface [Direct3D 10],Validate method, ID3D10Debug.Validate, ID3D10Debug::Validate, Validate, Validate method [Direct3D 10], Validate method [Direct3D 10],ID3D10Debug interface, c86b1899-e23f-c78e-1175-217019325010, d3d10sdklayers/ID3D10Debug::Validate, direct3d10.id3d10debug_validate
 ms.prod: windows
 ms.technology: windows-sdk

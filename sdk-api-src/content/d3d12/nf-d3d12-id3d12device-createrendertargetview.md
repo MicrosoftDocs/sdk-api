@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createrendertargetview.htm
 old-project: direct3d12
 ms.assetid: B5BFAE54-4FAC-47E5-A7F1-3F9E78FED3B4
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: CreateRenderTargetView, CreateRenderTargetView method, CreateRenderTargetView method,ID3D12Device interface, ID3D12Device interface,CreateRenderTargetView method, ID3D12Device.CreateRenderTargetView, ID3D12Device::CreateRenderTargetView, d3d12/ID3D12Device::CreateRenderTargetView, direct3d12.id3d12device_createrendertargetview
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,8 +83,7 @@ A null <i>pDesc</i> is used to initialize a default descriptor, if possible. Thi
 
 Type: <b><a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
-
-            Describes the CPU descriptor handle that represents the start of the heap that holds the render-target view.
+Describes the CPU descriptor handle that represents the start of the heap that holds the render-target view.
           
 
 

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__lightenable.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__lightenable.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: 93cddc72-1451-3e41-6d33-7b1036dfc225, IDirect3DDevice9 interface [Direct3D 9],LightEnable method, IDirect3DDevice9.LightEnable, IDirect3DDevice9::LightEnable, LightEnable, LightEnable method [Direct3D 9], LightEnable method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::LightEnable, direct3d9.idirect3ddevice9__lightenable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,105 +108,79 @@ If a value for LightIndex is outside the range of the light property sets assign
 <th>Default</th>
 </tr>
 <tr>
-<td>
-    
-    Type
+<td>Type
     
     </td>
 <td>D3DLIGHT_DIRECTIONAL</td>
 </tr>
 <tr>
-<td>
-    
-    Diffuse
+<td>Diffuse
     
     </td>
 <td>(R:1, G:1, B:1, A:0)</td>
 </tr>
 <tr>
-<td>
-    
-    Specular
+<td>Specular
     
     </td>
 <td>(R:0, G:0, B:0, A:0)</td>
 </tr>
 <tr>
-<td>
-    
-    Ambient
+<td>Ambient
     
     </td>
 <td>(R:0, G:0, B:0, A:0)</td>
 </tr>
 <tr>
-<td>
-    
-    Position
+<td>Position
     
     </td>
 <td>(0, 0, 0)</td>
 </tr>
 <tr>
-<td>
-    
-    Direction
+<td>Direction
     
     </td>
 <td>(0, 0, 1)</td>
 </tr>
 <tr>
-<td>
-    
-    Range
+<td>Range
     
     </td>
 <td>0</td>
 </tr>
 <tr>
-<td>
-    
-    Falloff
+<td>Falloff
     
     </td>
 <td>0</td>
 </tr>
 <tr>
-<td>
-    
-    Attenuation0
+<td>Attenuation0
     
     </td>
 <td>0</td>
 </tr>
 <tr>
-<td>
-    
-    Attenuation1
+<td>Attenuation1
     
     </td>
 <td>0</td>
 </tr>
 <tr>
-<td>
-    
-    Attenuation2
+<td>Attenuation2
     
     </td>
 <td>0</td>
 </tr>
 <tr>
-<td>
-    
-    Theta
+<td>Theta
     
     </td>
 <td>0</td>
 </tr>
 <tr>
-<td>
-    
-    Phi
+<td>Phi
     
     </td>
 <td>0</td>

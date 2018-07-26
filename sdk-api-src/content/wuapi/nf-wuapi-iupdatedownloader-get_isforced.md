@@ -4,10 +4,10 @@ title: IUpdateDownloader::get_IsForced
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether the Windows Update Agent (WUA) forces the download of updates that are already installed or that cannot be installed.
 old-location: wua\iupdatedownloader_isforced.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: e1ac3da4-341c-4a4e-920f-b84af03e324e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IUpdateDownloader interface [Windows Update Agent],IsForced property, IUpdateDownloader.IsForced, IUpdateDownloader.get_IsForced, IUpdateDownloader::IsForced, IUpdateDownloader::get_IsForced, IUpdateDownloader::put_IsForced, IsForced property [Windows Update Agent], IsForced property [Windows Update Agent],IUpdateDownloader interface, get_IsForced, wua.iupdatedownloader_isforced, wuapi/IUpdateDownloader::IsForced, wuapi/IUpdateDownloader::get_IsForced, wuapi/IUpdateDownloader::put_IsForced
 ms.prod: windows
 ms.technology: windows-sdk

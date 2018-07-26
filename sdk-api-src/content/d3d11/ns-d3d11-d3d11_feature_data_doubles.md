@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_feature_data_doubles.htm
 old-project: direct3d11
 ms.assetid: 3cd4006b-25bd-46b8-9fa7-6b7d7eb82a75
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: D3D11_FEATURE_DATA_DOUBLES, D3D11_FEATURE_DATA_DOUBLES structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_DOUBLES, dde276ab-cd61-a449-9965-674c9221da9c, direct3d11.d3d11_feature_data_doubles
 ms.prod: windows
 ms.technology: windows-sdk

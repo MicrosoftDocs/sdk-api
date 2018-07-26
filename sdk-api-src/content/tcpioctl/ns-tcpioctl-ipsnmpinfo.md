@@ -7,7 +7,7 @@ old-location: winprog\ipsnmpinfo.htm
 old-project: devnotes
 ms.assetid: eb25fae9-1a89-4474-bcb6-28c09bc3e0c9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IPSNMPInfo, IPSNMPInfo structure [Windows API], tcpioctl/IPSNMPInfo, winprog.ipsnmpinfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: TreeSetNamedSecurityInfoW function
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor of a specified tree of objects.
 old-location: security\treesetnamedsecurityinfo.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: caa711c3-301b-4ed7-b1f4-dc6a48563905
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: TREE_SEC_INFO_RESET, TREE_SEC_INFO_RESET_KEEP_EXPLICIT, TREE_SEC_INFO_SET, TreeSetNamedSecurityInfo, TreeSetNamedSecurityInfo function [Security], TreeSetNamedSecurityInfoA, TreeSetNamedSecurityInfoW, aclapi/TreeSetNamedSecurityInfo, aclapi/TreeSetNamedSecurityInfoA, aclapi/TreeSetNamedSecurityInfoW, security.treesetnamedsecurityinfo
 ms.prod: windows
 ms.technology: windows-sdk

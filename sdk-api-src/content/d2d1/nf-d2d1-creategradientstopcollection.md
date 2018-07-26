@@ -4,10 +4,10 @@ title: CreateGradientStopCollection function
 author: windows-sdk-content
 description: Creates an ID2D1GradientStopCollection from the specified array of D2D1_GRADIENT_STOP structures.
 old-location: direct2d\id2d1rendertarget_creategradientstopcollection.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 674ffba5-18c5-46bf-8813-d8d13e5ba903
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: CreateGradientStopCollection, CreateGradientStopCollection methods [Direct2D], ID2D1RenderTarget::CreateGradientStopCollection, d2d1_1/CreateGradientStopCollection, direct2d.id2d1rendertarget_creategradientstopcollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ Creates an <a href="https://msdn.microsoft.com/982abf9c-4778-4871-a494-5843f0c0a
 <a href="https://msdn.microsoft.com/0351e843-18cc-402b-8e4d-3f834de9501a">CreateGradientStopCollection(D2D1_GRADIENT_STOP*,ID2D1GradientStopCollection**)</a>
 </td>
 <td align="left" width="63%">
-
-     Creates an <a href="https://msdn.microsoft.com/982abf9c-4778-4871-a494-5843f0c0addc">ID2D1GradientStopCollection</a> from the specified gradient stops that uses the <a href="https://msdn.microsoft.com/c84c66c6-5f4a-41de-938c-76a409145971">D2D1_GAMMA_2_2</a> color interpolation gamma and the clamp extend mode.
+Creates an <a href="https://msdn.microsoft.com/982abf9c-4778-4871-a494-5843f0c0addc">ID2D1GradientStopCollection</a> from the specified gradient stops that uses the <a href="https://msdn.microsoft.com/c84c66c6-5f4a-41de-938c-76a409145971">D2D1_GAMMA_2_2</a> color interpolation gamma and the clamp extend mode.
 
 </td>
 </tr>

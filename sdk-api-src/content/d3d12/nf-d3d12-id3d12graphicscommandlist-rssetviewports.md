@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_rssetviewports.htm
 old-project: direct3d12
 ms.assetid: 1ACFD260-1CE5-484C-83DD-021E8D895EBB
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12GraphicsCommandList interface,RSSetViewports method, ID3D12GraphicsCommandList.RSSetViewports, ID3D12GraphicsCommandList::RSSetViewports, RSSetViewports, RSSetViewports method, RSSetViewports method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::RSSetViewports, direct3d12.id3d12graphicscommandlist_rssetviewports
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Bind an array of viewports to the rasterizer stage of the pipeline.
+Bind an array of viewports to the rasterizer stage of the pipeline.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b>UINT</b>
 
-
-            Number of viewports to bind.
+Number of viewports to bind.
             The range of valid values is (0, D3D12_VIEWPORT_AND_SCISSORRECT_OBJECT_COUNT_PER_PIPELINE).
           
 
@@ -74,8 +72,7 @@ Type: <b>UINT</b>
 
 Type: <b>const <a href="https://msdn.microsoft.com/BD23FEF6-8231-45C6-8A6B-F0E42FE88A9F">D3D12_VIEWPORT</a>*</b>
 
-
-            An array of <a href="https://msdn.microsoft.com/BD23FEF6-8231-45C6-8A6B-F0E42FE88A9F">D3D12_VIEWPORT</a> structures to bind to the device.
+An array of <a href="https://msdn.microsoft.com/BD23FEF6-8231-45C6-8A6B-F0E42FE88A9F">D3D12_VIEWPORT</a> structures to bind to the device.
           
 
 
@@ -83,8 +80,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/BD23FEF6-8231-45C6-8A6B-F0E42
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 
@@ -94,23 +90,19 @@ Type: <b>const <a href="https://msdn.microsoft.com/BD23FEF6-8231-45C6-8A6B-F0E42
 
 
 
-
-          All viewports must be set atomically as one operation. Any viewports not defined by the call are disabled.
+All viewports must be set atomically as one operation. Any viewports not defined by the call are disabled.
         
 
-
-          Which viewport to use is determined by the <a href="https://msdn.microsoft.com/library/Bb509647(v=VS.85).aspx">SV_ViewportArrayIndex</a> semantic output by a geometry shader; if a geometry shader does not specify the semantic, Direct3D will use the first viewport in the array.
+Which viewport to use is determined by the <a href="https://msdn.microsoft.com/library/Bb509647(v=VS.85).aspx">SV_ViewportArrayIndex</a> semantic output by a geometry shader; if a geometry shader does not specify the semantic, Direct3D will use the first viewport in the array.
         
 
-<div class="alert"><b>Note</b>  
-        Even though you specify float values to the members of the <a href="https://msdn.microsoft.com/BD23FEF6-8231-45C6-8A6B-F0E42FE88A9F">D3D12_VIEWPORT</a> structure for the <i>pViewports</i> array in a call to  <b>RSSetViewports</b> for <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature levels</a> 9_x, <b>RSSetViewports</b> uses DWORDs internally. Because of this behavior, when you use a negative top left corner for the viewport, the call to  <b>RSSetViewports</b> for feature levels 9_x fails. This failure occurs because <b>RSSetViewports</b> for 9_x casts the floating point values into unsigned integers without validation, which results in integer overflow.
+<div class="alert"><b>Note</b>  Even though you specify float values to the members of the <a href="https://msdn.microsoft.com/BD23FEF6-8231-45C6-8A6B-F0E42FE88A9F">D3D12_VIEWPORT</a> structure for the <i>pViewports</i> array in a call to  <b>RSSetViewports</b> for <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature levels</a> 9_x, <b>RSSetViewports</b> uses DWORDs internally. Because of this behavior, when you use a negative top left corner for the viewport, the call to  <b>RSSetViewports</b> for feature levels 9_x fails. This failure occurs because <b>RSSetViewports</b> for 9_x casts the floating point values into unsigned integers without validation, which results in integer overflow.
       </div>
 <div> </div>
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::RSSetViewports</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::RSSetViewports</b> as follows:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -180,8 +172,7 @@ UINT m_rtvDescriptorSize;
 </td>
 </tr>
 </table></span></div>
-
-          See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>

@@ -7,7 +7,7 @@ old-location: winprog\_lclose.htm
 old-project: devnotes
 ms.assetid: FBFBD963-0461-4357-9362-D32A83C1F969
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: "_lclose, _lclose function [Windows API], winbase/_lclose, winprog._lclose"
 ms.prod: windows
 ms.technology: windows-sdk

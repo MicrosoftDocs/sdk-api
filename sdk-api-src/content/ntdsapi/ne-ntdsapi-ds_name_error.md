@@ -7,7 +7,7 @@ old-location: ad\ds_name_error.htm
 old-project: ad
 ms.assetid: 8475133c-4bc8-4545-bd54-15d4e7b07869
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: DS_NAME_ERROR, DS_NAME_ERROR enumeration [Active Directory], DS_NAME_ERROR_DOMAIN_ONLY, DS_NAME_ERROR_NOT_FOUND, DS_NAME_ERROR_NOT_UNIQUE, DS_NAME_ERROR_NO_MAPPING, DS_NAME_ERROR_NO_SYNTACTICAL_MAPPING, DS_NAME_ERROR_RESOLVING, DS_NAME_ERROR_TRUST_REFERRAL, DS_NAME_NO_ERROR, _glines_ds_name_error, ad.ds__name__error, ad.ds_name_error, ntdsapi/DS_NAME_ERROR, ntdsapi/DS_NAME_ERROR_DOMAIN_ONLY, ntdsapi/DS_NAME_ERROR_NOT_FOUND, ntdsapi/DS_NAME_ERROR_NOT_UNIQUE, ntdsapi/DS_NAME_ERROR_NO_MAPPING, ntdsapi/DS_NAME_ERROR_NO_SYNTACTICAL_MAPPING, ntdsapi/DS_NAME_ERROR_RESOLVING, ntdsapi/DS_NAME_ERROR_TRUST_REFERRAL, ntdsapi/DS_NAME_NO_ERROR
 ms.prod: windows
 ms.technology: windows-sdk

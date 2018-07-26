@@ -7,7 +7,7 @@ old-location: winrt\imetadatadispenserex_setoption.htm
 old-project: WinRT
 ms.assetid: bb84abf1-0bba-4f9d-98fb-3ed67819a9dc
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IMetaDataDispenserEx interface [Windows Runtime],SetOption method, IMetaDataDispenserEx.SetOption, IMetaDataDispenserEx::SetOption, SetOption, SetOption method [Windows Runtime], SetOption method [Windows Runtime],IMetaDataDispenserEx interface, rometadataapi/IMetaDataDispenserEx::SetOption, winrt.imetadatadispenserex_setoption
 ms.prod: windows
 ms.technology: windows-sdk

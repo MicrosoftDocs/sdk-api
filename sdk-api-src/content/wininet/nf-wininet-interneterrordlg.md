@@ -7,7 +7,7 @@ old-location: wininet\interneterrordlg.htm
 old-project: wininet
 ms.assetid: 09384ba9-e5cc-48fd-a52c-15df223f87dc
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/20/2018
 ms.keywords: InternetErrorDlg, InternetErrorDlg function [WinINet], _inet_interneterrordlg_function, wininet.interneterrordlg, wininet/InternetErrorDlg
 ms.prod: windows
 ms.technology: windows-sdk

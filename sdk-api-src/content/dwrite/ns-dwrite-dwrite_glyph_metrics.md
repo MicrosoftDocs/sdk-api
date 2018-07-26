@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_glyph_metrics.htm
 old-project: DirectWrite
 ms.assetid: d2a4ac9f-f510-4235-93bb-e7bdecc65873
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/23/2018
 ms.keywords: DWRITE_GLYPH_METRICS, DWRITE_GLYPH_METRICS structure [Direct Write], directwrite.dwrite_glyph_metrics, dwrite/DWRITE_GLYPH_METRICS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-Specifies the metrics of an individual glyph.
-	  The units depend on how the metrics are obtained.
+Specifies the metrics of an individual glyph.The units depend on how the metrics are obtained.
 
 
 ## -struct-fields

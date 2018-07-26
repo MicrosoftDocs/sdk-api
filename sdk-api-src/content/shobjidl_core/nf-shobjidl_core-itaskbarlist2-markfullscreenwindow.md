@@ -7,7 +7,7 @@ old-location: shell\ITaskbarList2_MarkFullscreenWindow.htm
 old-project: shell
 ms.assetid: 17b4a9ff-f5a2-4178-971b-f80d65d72fb5
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: ITaskbarList2 interface [Windows Shell],MarkFullscreenWindow method, ITaskbarList2.MarkFullscreenWindow, ITaskbarList2::MarkFullscreenWindow, MarkFullscreenWindow, MarkFullscreenWindow method [Windows Shell], MarkFullscreenWindow method [Windows Shell],ITaskbarList2 interface, shell.ITaskbarList2_MarkFullscreenWindow, shell_ITaskbarList2_MarkFullscreenWindow, shobjidl_core/ITaskbarList2::MarkFullscreenWindow
 ms.prod: windows
 ms.technology: windows-sdk

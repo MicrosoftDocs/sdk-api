@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_setmessagecountlimit.htm
 old-project: direct3d12
 ms.assetid: A3C21C98-2B31-4901-8ED6-55E68507D200
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12InfoQueue interface,SetMessageCountLimit method, ID3D12InfoQueue.SetMessageCountLimit, ID3D12InfoQueue::SetMessageCountLimit, SetMessageCountLimit, SetMessageCountLimit method, SetMessageCountLimit method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::SetMessageCountLimit, direct3d12.id3d12infoqueue_setmessagecountlimit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Set the maximum number of messages that can be added to the message queue.
+Set the maximum number of messages that can be added to the message queue.
 
 
         
@@ -66,8 +65,7 @@ req.irql:
 
 Type: <b>UINT64</b>
 
-
-            Maximum number of messages that can be added to the message queue. -1 means no limit.
+Maximum number of messages that can be added to the message queue. -1 means no limit.
 
 When the number of messages in the message queue has reached the maximum limit, new messages coming in will push old messages out.
 
@@ -80,8 +78,7 @@ When the number of messages in the message queue has reached the maximum limit, 
 
 Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-
-            This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>. 
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>. 
           
 
 

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_descriptor_heap_desc.htm
 old-project: direct3d12
 ms.assetid: 060ED49E-12B2-4DAE-A9DC-5BAB96B8E8ED
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_DESCRIPTOR_HEAP_DESC, D3D12_DESCRIPTOR_HEAP_DESC structure, d3d12/D3D12_DESCRIPTOR_HEAP_DESC, direct3d12.d3d12_descriptor_heap_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,29 +60,25 @@ Describes the descriptor heap.
 
 ### -field Type
 
-
-            A <a href="https://msdn.microsoft.com/E74C78BC-B0FC-473A-B4F3-434F50A55E9F">D3D12_DESCRIPTOR_HEAP_TYPE</a>-typed value that specifies the types of descriptors in the heap.
+A <a href="https://msdn.microsoft.com/E74C78BC-B0FC-473A-B4F3-434F50A55E9F">D3D12_DESCRIPTOR_HEAP_TYPE</a>-typed value that specifies the types of descriptors in the heap.
           
 
 
 ### -field NumDescriptors
 
-
-            The number of descriptors in the heap.
+The number of descriptors in the heap.
           
 
 
 ### -field Flags
 
-
-            A combination of <a href="https://msdn.microsoft.com/727178D9-D26C-48AF-86B0-E2E171940A11">D3D12_DESCRIPTOR_HEAP_FLAGS</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies options for the heap.
+A combination of <a href="https://msdn.microsoft.com/727178D9-D26C-48AF-86B0-E2E171940A11">D3D12_DESCRIPTOR_HEAP_FLAGS</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies options for the heap.
           
 
 
 ### -field NodeMask
 
-
-            For single-adapter operation, set this to zero.
+For single-adapter operation, set this to zero.
             If there are multiple adapter nodes, set a bit to identify the node (one of the device's physical adapters) to which the descriptor heap applies.
             Each bit in the mask corresponds to a single node.
             Only one bit must be set.
@@ -94,8 +90,7 @@ Describes the descriptor heap.
 
 
 
-
-        This structure is used by the following:
+This structure is used by the following:
         
 
 <ul>

@@ -4,10 +4,10 @@ title: EqualDomainSid function
 author: windows-sdk-content
 description: Determines whether two SIDs are from the same domain.
 old-location: security\equaldomainsid.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: a7eea3bd-33e0-427c-b023-07851c192eb2
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: EqualDomainSid, EqualDomainSid function [Security], _win32_equaldomainsid, security.equaldomainsid, securitybaseapi/EqualDomainSid
 ms.prod: windows
 ms.technology: windows-sdk

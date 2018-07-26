@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual2_get_CurrentViewMode.htm
 old-project: shell
 ms.assetid: aa4bcb25-98f9-49c3-be25-abc6a5ecdcca
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IShellFolderViewDual2 interface [Windows Shell],get_CurrentViewMode method, IShellFolderViewDual2.get_CurrentViewMode, IShellFolderViewDual2::get_CurrentViewMode, _shell_IShellFolderViewDual2_get_CurrentViewMode, get_CurrentViewMode, get_CurrentViewMode method [Windows Shell], get_CurrentViewMode method [Windows Shell],IShellFolderViewDual2 interface, shell.IShellFolderViewDual2_get_CurrentViewMode, shldisp/IShellFolderViewDual2::get_CurrentViewMode
 ms.prod: windows
 ms.technology: windows-sdk

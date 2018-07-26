@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_omsetrendertargets.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omsetrendertargets.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 1a066759-273f-afca-4fed-6d836735ff9f, ID3D10Device interface [Direct3D 10],OMSetRenderTargets method, ID3D10Device.OMSetRenderTargets, ID3D10Device::OMSetRenderTargets, OMSetRenderTargets, OMSetRenderTargets method [Direct3D 10], OMSetRenderTargets method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OMSetRenderTargets, direct3d10.id3d10device_omsetrendertargets
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\iaccdictionary.htm
 old-project: WinAuto
 ms.assetid: 0d18d219-b584-43ff-bded-6ed8f00a252f
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IAccDictionary, IAccDictionary interface [Windows Accessibility], IAccDictionary interface [Windows Accessibility],described, msaa.iaccdictionary, msaatext/IAccDictionary, winauto.iaccdictionary
 ms.prod: windows
 ms.technology: windows-sdk

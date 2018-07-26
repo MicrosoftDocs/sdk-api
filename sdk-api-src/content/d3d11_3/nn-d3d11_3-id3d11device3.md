@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device3.htm
 old-project: direct3d11
 ms.assetid: 0AA10851-0077-4075-BD41-72FCD7BC0556
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11Device3, ID3D11Device3 interface [Direct3D 11], ID3D11Device3 interface [Direct3D 11],described, d3d11_3/ID3D11Device3, direct3d11.id3d11device3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>ID3D11Device3</b> interface has these methods.
 <a href="https://msdn.microsoft.com/78B52E38-3256-4151-96DA-4C81A2A516CF">CreateDeferredContext3</a>
 </td>
 <td align="left" width="63%">
-
-          Creates a deferred context, which can record <a href="https://msdn.microsoft.com/4f581bc7-6c5e-4e56-b768-7f3cc5dbcb3e">command lists</a>.
+Creates a deferred context, which can record <a href="https://msdn.microsoft.com/4f581bc7-6c5e-4e56-b768-7f3cc5dbcb3e">command lists</a>.
         
 
 </td>
@@ -139,8 +138,7 @@ Creates a <a href="https://msdn.microsoft.com/d745093e-2d51-4d45-a88a-caa0ca58b2
 <a href="https://msdn.microsoft.com/AB64DDED-4C2D-4952-BAA5-3139F973C962">CreateUnorderedAccessView1</a>
 </td>
 <td align="left" width="63%">
-
-          Creates a view for accessing an <a href="https://msdn.microsoft.com/597cc12f-dd0e-4603-b670-3f584f25e192">unordered access</a> resource.
+Creates a view for accessing an <a href="https://msdn.microsoft.com/597cc12f-dd0e-4603-b670-3f584f25e192">unordered access</a> resource.
         
 
 </td>
@@ -150,8 +148,7 @@ Creates a <a href="https://msdn.microsoft.com/d745093e-2d51-4d45-a88a-caa0ca58b2
 <a href="https://msdn.microsoft.com/E9E247C3-6326-46AC-A742-F5A4BE701B5B">GetImmediateContext3</a>
 </td>
 <td align="left" width="63%">
-
-          Gets an immediate context, which can play back <a href="https://msdn.microsoft.com/4f581bc7-6c5e-4e56-b768-7f3cc5dbcb3e">command lists</a>.
+Gets an immediate context, which can play back <a href="https://msdn.microsoft.com/4f581bc7-6c5e-4e56-b768-7f3cc5dbcb3e">command lists</a>.
         
 
 </td>
@@ -161,14 +158,10 @@ Creates a <a href="https://msdn.microsoft.com/d745093e-2d51-4d45-a88a-caa0ca58b2
 <a href="https://msdn.microsoft.com/060B9627-3A95-4DBD-B3E6-3989D8D9C79E">ReadFromSubresource</a>
 </td>
 <td align="left" width="63%">
-
-          Copies data from a
-          <a href="https://msdn.microsoft.com/251d462e-964e-42db-8554-dba8f5a9b1ef">D3D11_USAGE_DEFAULT</a>
-          texture which was mapped using
-          ID3D11DeviceContext3::<a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">Map</a>
-          while providing a NULL
-          <a href="https://msdn.microsoft.com/cbbb8689-0a7d-43b9-bde3-29d93cc7f0fe">D3D11_MAPPED_SUBRESOURCE</a>
-          parameter.
+Copies data from a
+          <a href="https://msdn.microsoft.com/251d462e-964e-42db-8554-dba8f5a9b1ef">D3D11_USAGE_DEFAULT</a>texture which was mapped using
+          ID3D11DeviceContext3::<a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">Map</a>while providing a NULL
+          <a href="https://msdn.microsoft.com/cbbb8689-0a7d-43b9-bde3-29d93cc7f0fe">D3D11_MAPPED_SUBRESOURCE</a>parameter.
         
 
 </td>
@@ -178,14 +171,10 @@ Creates a <a href="https://msdn.microsoft.com/d745093e-2d51-4d45-a88a-caa0ca58b2
 <a href="https://msdn.microsoft.com/DCA4A88D-3DCA-41D5-AE52-061A605A9CBF">WriteToSubresource</a>
 </td>
 <td align="left" width="63%">
-
-          Copies data into a
-          <a href="https://msdn.microsoft.com/251d462e-964e-42db-8554-dba8f5a9b1ef">D3D11_USAGE_DEFAULT</a>
-          texture which was mapped using
-          ID3D11DeviceContext3::<a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">Map</a>
-          while providing a NULL
-          <a href="https://msdn.microsoft.com/cbbb8689-0a7d-43b9-bde3-29d93cc7f0fe">D3D11_MAPPED_SUBRESOURCE</a>
-          parameter.
+Copies data into a
+          <a href="https://msdn.microsoft.com/251d462e-964e-42db-8554-dba8f5a9b1ef">D3D11_USAGE_DEFAULT</a>texture which was mapped using
+          ID3D11DeviceContext3::<a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">Map</a>while providing a NULL
+          <a href="https://msdn.microsoft.com/cbbb8689-0a7d-43b9-bde3-29d93cc7f0fe">D3D11_MAPPED_SUBRESOURCE</a>parameter.
         
 
 </td>

@@ -4,10 +4,10 @@ title: SetTransform function
 author: windows-sdk-content
 description: Sets the transformation applied to the brush.
 old-location: direct2d\id2d1brush_settransform.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 57afadc1-88c9-4a5b-a83f-63c4c69182a7
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: ID2D1Brush::SetTransform, SetTransform, SetTransform methods [Direct2D], d2d1_1/SetTransform, direct2d.id2d1brush_settransform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ req.irql:
 <a href="https://msdn.microsoft.com/8feb644a-26ea-4718-abd4-6990ffd97a50">SetTransform(D2D1_MATRIX_3X2_F&)</a>
 </td>
 <td align="left" width="63%">
-
-    Sets the transformation applied to the brush.
+Sets the transformation applied to the brush.
 
 </td>
 </tr>

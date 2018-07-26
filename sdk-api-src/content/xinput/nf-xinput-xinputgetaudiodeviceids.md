@@ -7,7 +7,7 @@ old-location: xinput\xinputgetaudiodeviceids.htm
 old-project: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetAudioDeviceIds(DWORD,LPWSTR@,UINT@,LPWSTR@,UINT@)
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/23/2018
 ms.keywords: XInputGetAudioDeviceIds, XInputGetAudioDeviceIds function [XInput Game Controller APIs], xinput.xinputgetaudiodeviceids, xinput/XInputGetAudioDeviceIds
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,18 +63,15 @@ Retrieves the sound rendering and sound capture audio device IDs that are associ
 
 ### -param dwUserIndex [in]
 
-
 Index of the gamer associated with the device.
 
 
 ### -param pRenderDeviceId [out, optional]
 
-
 Windows Core Audio device ID string for render (speakers).
 
 
 ### -param pRenderCount [in, out, optional]
-
 
 Size, in wide-chars, of the render device ID string buffer.
 

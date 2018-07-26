@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2sourcevoice_interface_submitsourcebuffer.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.SubmitSourceBuffer(const XAUDIO2_BUFFER,const XAUDIO2_BUFFER_WMA)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 07/23/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],SubmitSourceBuffer method, IXAudio2SourceVoice.SubmitSourceBuffer, IXAudio2SourceVoice::SubmitSourceBuffer, SubmitSourceBuffer, SubmitSourceBuffer method [XAudio2 Audio Mixing APIs], SubmitSourceBuffer method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_submitsourcebuffer, xaudio2/IXAudio2SourceVoice::SubmitSourceBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,6 @@ Adds a new audio buffer to the voice queue.
 
 
 ### -param pBuffer [in]
-
 
 Pointer to an <a href="https://msdn.microsoft.com/library/Ee419228(v=VS.85).aspx">XAUDIO2_BUFFER</a> structure to queue. 
 

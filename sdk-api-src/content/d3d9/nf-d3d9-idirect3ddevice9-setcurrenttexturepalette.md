@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setcurrenttexturepalette.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setcurrenttexturepalette.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: 94925c3c-1326-79c0-a0f6-53b8d6877539, IDirect3DDevice9 interface [Direct3D 9],SetCurrentTexturePalette method, IDirect3DDevice9.SetCurrentTexturePalette, IDirect3DDevice9::SetCurrentTexturePalette, SetCurrentTexturePalette, SetCurrentTexturePalette method [Direct3D 9], SetCurrentTexturePalette method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetCurrentTexturePalette, direct3d9.idirect3ddevice9__setcurrenttexturepalette
 ms.prod: windows
 ms.technology: windows-sdk

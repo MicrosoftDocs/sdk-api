@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_cached_pipeline_state.htm
 old-project: direct3d12
 ms.assetid: 82A0CF70-7A16-45D5-A717-0BBB35DCC5A6
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_CACHED_PIPELINE_STATE, D3D12_CACHED_PIPELINE_STATE structure, d3d12/D3D12_CACHED_PIPELINE_STATE, direct3d12.d3d12_cached_pipeline_state
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,15 +60,13 @@ Stores a pipeline state.
 
 ### -field pCachedBlob
 
-
-            Specifies pointer that references the memory location of the cache.
+Specifies pointer that references the memory location of the cache.
           
 
 
 ### -field CachedBlobSizeInBytes
 
-
-            Specifies the size of the cache in bytes.
+Specifies the size of the cache in bytes.
           
 
 
@@ -76,9 +74,7 @@ Stores a pipeline state.
 
 
 
-
-          This structure is used by the <a href="https://msdn.microsoft.com/35D10150-A633-4D38-B684-3E2DF357FFC0">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a>
-        structure, and the <a href="https://msdn.microsoft.com/46C785C6-8294-410F-A8D5-7E5F85FA5C75">D3D12_COMPUTE_PIPELINE_STATE_DESC</a> structure.
+This structure is used by the <a href="https://msdn.microsoft.com/35D10150-A633-4D38-B684-3E2DF357FFC0">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a>structure, and the <a href="https://msdn.microsoft.com/46C785C6-8294-410F-A8D5-7E5F85FA5C75">D3D12_COMPUTE_PIPELINE_STATE_DESC</a> structure.
 
 This structure is intended to be filled with the data retrieved from <a href="https://msdn.microsoft.com/318FCFEE-74A7-4546-989E-9AF674D2B853">ID3D12PipelineState::GetCachedBlob</a>. This cached PSO contains data specific to the hardware, driver, and machine that it was retrieved from. Compilation using this data should be faster than compilation without. The rest of the data in the PSO needs to still be valid, and needs to match the cached PSO, otherwise E_INVALIDARG might be returned.
 

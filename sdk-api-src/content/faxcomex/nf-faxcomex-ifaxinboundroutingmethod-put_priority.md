@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingmethod_priority.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4kqh.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxInboundRoutingMethod object [Fax Service],Priority property, FaxInboundRoutingMethod.Priority, IFaxInboundRoutingMethod.get_Priority, IFaxInboundRoutingMethod.put_Priority, IFaxInboundRoutingMethod::put_Priority, Priority property [Fax Service], Priority property [Fax Service],FaxInboundRoutingMethod object, _mfax_faxinboundroutingmethod.priority, fax._mfax_faxinboundroutingmethod_priority, put_Priority
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_shader_component_mapping.htm
 old-project: direct3d12
 ms.assetid: 654E43DA-03C3-4BFB-8575-0BB48CB4FB81
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_SHADER_COMPONENT_MAPPING, D3D12_SHADER_COMPONENT_MAPPING enumeration, D3D12_SHADER_COMPONENT_MAPPING_FORCE_VALUE_0, D3D12_SHADER_COMPONENT_MAPPING_FORCE_VALUE_1, D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_0, D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_1, D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_2, D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_3, d3d12/D3D12_SHADER_COMPONENT_MAPPING, d3d12/D3D12_SHADER_COMPONENT_MAPPING_FORCE_VALUE_0, d3d12/D3D12_SHADER_COMPONENT_MAPPING_FORCE_VALUE_1, d3d12/D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_0, d3d12/D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_1, d3d12/D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_2, d3d12/D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_3, direct3d12.d3d12_shader_component_mapping
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Specifies how memory gets routed by a shader resource view (SRV).
+Specifies how memory gets routed by a shader resource view (SRV).
         
 
 
@@ -62,43 +61,37 @@ req.irql:
 
 ### -field D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_0
 
-
-            Indicates return component 0 (red).
+Indicates return component 0 (red).
           
 
 
 ### -field D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_1
 
-
-            Indicates return component 1 (green).
+Indicates return component 1 (green).
           
 
 
 ### -field D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_2
 
-
-            Indicates return component 2 (blue).
+Indicates return component 2 (blue).
           
 
 
 ### -field D3D12_SHADER_COMPONENT_MAPPING_FROM_MEMORY_COMPONENT_3
 
-
-            Indicates return component 3 (alpha).
+Indicates return component 3 (alpha).
           
 
 
 ### -field D3D12_SHADER_COMPONENT_MAPPING_FORCE_VALUE_0
 
-
-            Indicates forcing the resulting value to 0.
+Indicates forcing the resulting value to 0.
           
 
 
 ### -field D3D12_SHADER_COMPONENT_MAPPING_FORCE_VALUE_1
 
-
-            Indicates forcing the resulting value 1.
+Indicates forcing the resulting value 1.
             The value of forcing 1 is either 0x1 or 1.0f depending on the format type for that component in the source format.
           
 
@@ -107,13 +100,11 @@ req.irql:
 
 
 
-
-          This enum allows the SRV to select how memory gets routed to the four return components in a shader after a memory fetch.  
+This enum allows the SRV to select how memory gets routed to the four return components in a shader after a memory fetch.  
           The options for each shader component [0..3] (corresponding to RGBA) are: component 0..3 from the SRV fetch result or force 0 or force 1.
         
 
-
-          The default 1:1 mapping can be indicated by specifying D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING, 
+The default 1:1 mapping can be indicated by specifying D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING, 
           otherwise an arbitrary mapping can be specified using the macro D3D12_ENCODE_SHADER_4_COMPONENT_MAPPING.  
           See below.
         

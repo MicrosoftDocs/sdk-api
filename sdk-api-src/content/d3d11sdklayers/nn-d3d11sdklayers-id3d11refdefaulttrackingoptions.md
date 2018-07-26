@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11refdefaulttrackingoptions.htm
 old-project: direct3d11
 ms.assetid: B6DD9810-275E-466B-8FE8-64EED0933B45
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11RefDefaultTrackingOptions, ID3D11RefDefaultTrackingOptions interface [Direct3D 11], ID3D11RefDefaultTrackingOptions interface [Direct3D 11],described, d3d11sdklayers/ID3D11RefDefaultTrackingOptions, direct3d11.id3d11refdefaulttrackingoptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>ID3D11RefDefaultTrackingOptions</b> interface has these methods.
 <a href="https://msdn.microsoft.com/A54AAC4C-CD38-4326-AF99-9FB74CC0A1A0">SetTrackingOptions</a>
 </td>
 <td align="left" width="63%">
-
-        Sets GPU debug reference default tracking options for specific resource types.
+Sets GPU debug reference default tracking options for specific resource types.
       
 
 </td>

@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_blend_desc1.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_blend_desc1.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 4a90d15b-26ee-a91b-b9c6-dc1b5ff0e612, D3D10_BLEND_DESC1, D3D10_BLEND_DESC1 structure [Direct3D 10], d3d10_1/D3D10_BLEND_DESC1, direct3d10.d3d10_blend_desc1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Describes the blend state for a Direct3D 10.1 device.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
-Determines whether or not to use the <a href="https://msdn.microsoft.com/library/Bb205072(v=VS.85).aspx">alpha-to-coverage</a>
-        multisampling technique when setting a render-target pixel.
+Determines whether or not to use the <a href="https://msdn.microsoft.com/library/Bb205072(v=VS.85).aspx">alpha-to-coverage</a>multisampling technique when setting a render-target pixel.
 
 
 ### -field IndependentBlendEnable

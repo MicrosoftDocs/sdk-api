@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawpalette_setentries.htm
 old-project: directdraw
 ms.assetid: c12247b9-ecb3-4fdf-b25f-373da06df791
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/23/2018
 ms.keywords: IDirectDrawPalette interface [DirectDraw],SetEntries method, IDirectDrawPalette.SetEntries, IDirectDrawPalette::SetEntries, SetEntries, SetEntries method [DirectDraw], SetEntries method [DirectDraw],IDirectDrawPalette interface, ddraw/IDirectDrawPalette::SetEntries, directdraw.idirectdrawpalette_setentries
 ms.prod: windows
 ms.technology: windows-sdk

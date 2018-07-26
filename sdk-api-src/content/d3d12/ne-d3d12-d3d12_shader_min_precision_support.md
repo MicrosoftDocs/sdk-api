@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_shader_min_precision_support.htm
 old-project: direct3d12
 ms.assetid: 04172EA4-B663-49B4-A329-E4B0A8EE4617
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_SHADER_MIN_PRECISION_SUPPORT, D3D12_SHADER_MIN_PRECISION_SUPPORT enumeration, D3D12_SHADER_MIN_PRECISION_SUPPORT_10_BIT, D3D12_SHADER_MIN_PRECISION_SUPPORT_16_BIT, D3D12_SHADER_MIN_PRECISION_SUPPORT_NONE, d3d12/D3D12_SHADER_MIN_PRECISION_SUPPORT, d3d12/D3D12_SHADER_MIN_PRECISION_SUPPORT_10_BIT, d3d12/D3D12_SHADER_MIN_PRECISION_SUPPORT_16_BIT, d3d12/D3D12_SHADER_MIN_PRECISION_SUPPORT_NONE, direct3d12.d3d12_shader_min_precision_support
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes minimum precision support options for shaders in the current graphics driver.
+Describes minimum precision support options for shaders in the current graphics driver.
 
         
 
@@ -80,12 +79,10 @@ The driver supports 16-bit precision.
 
 
 
-
-        This enum is used by the <a href="https://msdn.microsoft.com/3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
+This enum is used by the <a href="https://msdn.microsoft.com/3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
       
 
-
-        The returned info just indicates that the graphics hardware can perform HLSL operations at a lower precision than the standard 32-bit float precision, but doesn’t guarantee that the graphics hardware will actually run at a lower precision.
+The returned info just indicates that the graphics hardware can perform HLSL operations at a lower precision than the standard 32-bit float precision, but doesn’t guarantee that the graphics hardware will actually run at a lower precision.
       
 
 

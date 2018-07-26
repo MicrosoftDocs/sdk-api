@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_clearrendertargetview.htm
 old-project: direct3d12
 ms.assetid: 5AB13E36-A189-41B4-AEF8-B5C5831655DB
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ClearRenderTargetView, ClearRenderTargetView method, ClearRenderTargetView method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ClearRenderTargetView method, ID3D12GraphicsCommandList.ClearRenderTargetView, ID3D12GraphicsCommandList::ClearRenderTargetView, d3d12/ID3D12GraphicsCommandList::ClearRenderTargetView, direct3d12.id3d12graphicscommandlist_clearrendertargetview
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Sets all the elements in a render target to one value.
+Sets all the elements in a render target to one value.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
-
-            Specifies a D3D12_CPU_DESCRIPTOR_HANDLE structure that describes the CPU descriptor handle that represents the start of the heap for the render target to be cleared.
+Specifies a D3D12_CPU_DESCRIPTOR_HANDLE structure that describes the CPU descriptor handle that represents the start of the heap for the render target to be cleared.
           
 
 
@@ -73,8 +71,7 @@ Type: <b><a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44F
 
 Type: <b>const FLOAT[4]</b>
 
-
-            A 4-component array that represents the color to fill the render target with.
+A 4-component array that represents the color to fill the render target with.
           
 
 
@@ -82,8 +79,7 @@ Type: <b>const FLOAT[4]</b>
 
 Type: <b>UINT</b>
 
-
-            The number of rectangles in the array that the <i>pRects</i> parameter specifies.
+The number of rectangles in the array that the <i>pRects</i> parameter specifies.
           
 
 
@@ -91,8 +87,7 @@ Type: <b>UINT</b>
 
 Type: <b>const D3D12_RECT*</b>
 
-
-            An array of <b>D3D12_RECT</b> structures for the rectangles in the resource view to clear. If <b>NULL</b>, <b>ClearRenderTargetView</b> clears the entire resource view.
+An array of <b>D3D12_RECT</b> structures for the rectangles in the resource view to clear. If <b>NULL</b>, <b>ClearRenderTargetView</b> clears the entire resource view.
           
 
 
@@ -100,8 +95,7 @@ Type: <b>const D3D12_RECT*</b>
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 
@@ -116,23 +110,20 @@ Type: <b>const D3D12_RECT*</b>
 <h3><a id="Runtime_validation"></a><a id="runtime_validation"></a><a id="RUNTIME_VALIDATION"></a>Runtime validation</h3>
 For floating-point inputs, the runtime will set denormalized values to 0 (while preserving NANs).  
 
-
-            Validation failure will result in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> returning <b>E_INVALIDARG</b>.
+Validation failure will result in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> returning <b>E_INVALIDARG</b>.
           
 
 <h3><a id="Debug_layer"></a><a id="debug_layer"></a><a id="DEBUG_LAYER"></a>Debug layer</h3>
 The debug layer will issue errors if the input colors are denormalized.
 
-
-            The debug layer will issue an error if the subresources referenced by the view are not in the appropriate state.
+The debug layer will issue an error if the subresources referenced by the view are not in the appropriate state.
             For <b>ClearRenderTargetView</b>, the state must be <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_RENDER_TARGET</a>.
           
 
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::ClearRenderTargetView</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::ClearRenderTargetView</b> as follows:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -202,8 +193,7 @@ UINT m_rtvDescriptorSize;
 </td>
 </tr>
 </table></span></div>
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Multithreading</a> sample uses <b>ID3D12GraphicsCommandList::ClearRenderTargetView</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Multithreading</a> sample uses <b>ID3D12GraphicsCommandList::ClearRenderTargetView</b> as follows:
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -254,8 +244,7 @@ void D3D12Multithreading::MidFrame()
 </td>
 </tr>
 </table></span></div>
-
-          See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>

@@ -7,7 +7,7 @@ old-location: wininet\createurlcachegroup.htm
 old-project: wininet
 ms.assetid: bea0bc3b-75fb-4147-a4bd-f4290dfbf290
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/20/2018
 ms.keywords: CreateUrlCacheGroup, CreateUrlCacheGroup function [WinINet], _inet_createurlcachegroup_function, wininet.createurlcachegroup, wininet/CreateUrlCacheGroup
 ms.prod: windows
 ms.technology: windows-sdk

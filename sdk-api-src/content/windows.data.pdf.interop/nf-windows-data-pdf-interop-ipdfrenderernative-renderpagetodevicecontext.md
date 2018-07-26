@@ -7,7 +7,7 @@ old-location: winrt\ipdfrenderernative_renderpagetodevicecontext.htm
 old-project: WinRT
 ms.assetid: 5ec97d21-3160-48e7-9486-a8ea9ca9df92
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IPdfRendererNative interface [Windows Runtime],RenderPageToDeviceContext method, IPdfRendererNative.RenderPageToDeviceContext, IPdfRendererNative.pdf, IPdfRendererNative::RenderPageToDeviceContext, IPdfRendererNative::pdf, RenderPageToDeviceContext, RenderPageToDeviceContext method [Windows Runtime], RenderPageToDeviceContext method [Windows Runtime],IPdfRendererNative interface, windows/IPdfRendererNative::RenderPageToDeviceContext, winrt.ipdfrenderernative_renderpagetodevicecontext
 ms.prod: windows
 ms.technology: windows-sdk

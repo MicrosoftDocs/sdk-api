@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_createclasslinkage.htm
 old-project: direct3d11
 ms.assetid: 1d68e977-bcdc-4aab-9434-29200553a69e
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 411c8228-de78-2b45-6754-17ebcd3ef8de, CreateClassLinkage, CreateClassLinkage method [Direct3D 11], CreateClassLinkage method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateClassLinkage method, ID3D11Device.CreateClassLinkage, ID3D11Device::CreateClassLinkage, d3d11/ID3D11Device::CreateClassLinkage, direct3d11.id3d11device_createclasslinkage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,8 +86,7 @@ The <a href="https://msdn.microsoft.com/eac03911-d881-4304-9598-912321ac0b0c">ID
 
 #### Examples
 
-
-          Using CreateClassLinkage
+Using CreateClassLinkage
           
 
 <div class="code"><span codelanguage=""><table>

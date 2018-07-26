@@ -7,7 +7,7 @@ old-location: wininet\internetcombineurl.htm
 old-project: wininet
 ms.assetid: 2efcf28a-e82b-47f2-8e8c-95fee70a87e4
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/20/2018
 ms.keywords: InternetCombineUrl, InternetCombineUrl function [WinINet], InternetCombineUrlA, InternetCombineUrlW, _inet_internetcombineurl_function, wininet.internetcombineurl, wininet/InternetCombineUrl, wininet/InternetCombineUrlA, wininet/InternetCombineUrlW
 ms.prod: windows
 ms.technology: windows-sdk

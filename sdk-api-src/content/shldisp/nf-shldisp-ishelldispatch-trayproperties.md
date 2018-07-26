@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_TrayProperties.htm
 old-project: shell
 ms.assetid: 8E0AC08E-1132-4312-9B75-E7686B91AB02
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IShellDispatch object [Windows Shell],TrayProperties method, IShellDispatch.TrayProperties, IShellDispatch::TrayProperties, TrayProperties, TrayProperties method [Windows Shell], TrayProperties method [Windows Shell],IShellDispatch object, shell.IShellDispatch_TrayProperties
 ms.prod: windows
 ms.technology: windows-sdk

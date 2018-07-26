@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevendjob.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_9yua.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxDevEndJob, FaxDevEndJob function [Fax Service], _mfax_faxdevendjob, fax._mfax_faxdevendjob, faxdev/FaxDevEndJob
 ms.prod: windows
 ms.technology: windows-sdk

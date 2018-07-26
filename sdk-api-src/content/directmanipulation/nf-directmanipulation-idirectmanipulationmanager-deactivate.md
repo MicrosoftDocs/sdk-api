@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationmanager_deactivate.htm
 old-project: directmanipulation
 ms.assetid: 7f80fe8a-e088-41fa-b72e-2b248307ac4a
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/23/2018
 ms.keywords: Deactivate, Deactivate method [Direct Manipulation], Deactivate method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],Deactivate method, IDirectManipulationManager.Deactivate, IDirectManipulationManager::Deactivate, directmanipulation.idirectmanipulationmanager_deactivate, directmanipulation/IDirectManipulationManager::Deactivate
 ms.prod: windows
 ms.technology: windows-sdk

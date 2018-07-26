@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectionvariable_gettype.htm
 old-project: direct3d12
 ms.assetid: DE2BBC9F-3519-4896-96E1-40C2E726D8A1
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetType, GetType method, GetType method,ID3D12ShaderReflectionVariable interface, ID3D12ShaderReflectionVariable interface,GetType method, ID3D12ShaderReflectionVariable.GetType, ID3D12ShaderReflectionVariable::GetType, d3d12shader/ID3D12ShaderReflectionVariable::GetType, direct3d12.id3d12shaderreflectionvariable_gettype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Gets a shader-variable type.
+Gets a shader-variable type.
         
 
 
@@ -68,8 +67,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/78FF30C5-7F23-489D-9E9D-916F6CE09C0E">ID3D12ShaderReflectionType</a>*</b>
 
-
-            A pointer to a <a href="https://msdn.microsoft.com/78FF30C5-7F23-489D-9E9D-916F6CE09C0E">ID3D12ShaderReflectionType Interface</a>.
+A pointer to a <a href="https://msdn.microsoft.com/78FF30C5-7F23-489D-9E9D-916F6CE09C0E">ID3D12ShaderReflectionType Interface</a>.
           
 
 
@@ -79,8 +77,7 @@ Type: <b><a href="https://msdn.microsoft.com/78FF30C5-7F23-489D-9E9D-916F6CE09C0
 
 
 
-
-        This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
+This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
       
 
 

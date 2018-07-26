@@ -7,7 +7,7 @@ old-location: shell\SetWindowSubclass.htm
 old-project: shell
 ms.assetid: 0b11144d-eb4e-462c-96d3-38c4bac48f2a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: SetWindowSubclass, SetWindowSubclass function [Windows Shell], commctrl/SetWindowSubclass, inet_SetWindowSubclass, shell.SetWindowSubclass
 ms.prod: windows
 ms.technology: windows-sdk

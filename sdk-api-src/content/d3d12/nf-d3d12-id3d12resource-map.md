@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12resource_map.htm
 old-project: direct3d12
 ms.assetid: 71E43B63-9C84-4E4B-A43D-92B958C8AAF5
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12Resource interface,Map method, ID3D12Resource.Map, ID3D12Resource::Map, Map, Map method, Map method,ID3D12Resource interface, d3d12/ID3D12Resource::Map, direct3d12.id3d12resource_map
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,8 +80,7 @@ This indicates the region the CPU might read, and the coordinates are subresourc
 
 Type: <b><b>void</b>**</b>
 
-
-            A pointer to a memory block that receives a pointer to the resource data.
+A pointer to a memory block that receives a pointer to the resource data.
 
 A null pointer is valid and is useful to cache a CPU virtual address range for methods like <a href="https://msdn.microsoft.com/8781E2FE-8D82-41F5-B541-A96DA11CA290">WriteToSubresource</a>. When <i>ppData</i> is not NULL, the pointer returned is never offset by any values in <i>pReadRange</i>.
 
@@ -92,8 +91,7 @@ A null pointer is valid and is useful to cache a CPU virtual address range for m
 
 Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-
-            This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
 
 
@@ -127,12 +125,10 @@ The memory region to which <b>pData</b> points can be allocated with <a href="ht
 
 </li>
 <li>
-
-                Even the following C++ code can read from memory and trigger the performance penalty because the code can expand to the following x86 assembly code.
+Even the following C++ code can read from memory and trigger the performance penalty because the code can expand to the following x86 assembly code.
               
 
-
-                C++ code:
+C++ code:
               
 
 <div class="code"><span codelanguage=""><table>
@@ -145,8 +141,7 @@ The memory region to which <b>pData</b> points can be allocated with <a href="ht
 </td>
 </tr>
 </table></span></div>
-
-                x86 assembly code:
+x86 assembly code:
               
 
 <div class="code"><span codelanguage=""><table>
@@ -179,8 +174,7 @@ Applications may understand the adapter architectural details and use custom hea
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Bundles</a> sample uses <b>ID3D12Resource::Map</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Bundles</a> sample uses <b>ID3D12Resource::Map</b> as follows:
         
 
 Copy triangle data to the vertex buffer.
