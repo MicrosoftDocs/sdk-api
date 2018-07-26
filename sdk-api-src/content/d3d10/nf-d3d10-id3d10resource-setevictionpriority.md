@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10resource_setevictionpriority.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10resource_setevictionpriority.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 8ad141ef-5f50-f2f6-d2db-3f0b076d0dda, ID3D10Resource interface [Direct3D 10],SetEvictionPriority method, ID3D10Resource.SetEvictionPriority, ID3D10Resource::SetEvictionPriority, SetEvictionPriority, SetEvictionPriority method [Direct3D 10], SetEvictionPriority method [Direct3D 10],ID3D10Resource interface, d3d10/ID3D10Resource::SetEvictionPriority, direct3d10.id3d10resource_setevictionpriority
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,9 +90,9 @@ Resource priorities determine which resource to evict from video memory when the
 
 A resource that is set to the maximum priority, DXGI_RESOURCE_PRIORITY_MAXIMUM, is only evicted if there is no other way of resolving the incoming memory request. The Windows Display Driver Model (WDDM) tries to split an incoming memory request to its minimum size and evict lower-priority resources before evicting a resource with maximum priority.
 
-Changing the priorities of resources should be done carefully. The wrong eviction priorities could be a detriment to performance rather than an improvement. See <a href="https://msdn.microsoft.com/library/Bb174533(v=VS.85).aspx">QueryResourceResidency</a> for additional information.
+Changing the priorities of resources should be done carefully. The wrong eviction priorities could be a detriment to performance rather than an improvement. See <a href="https://msdn.microsoft.com/a03af142-657b-459d-abba-fdee72e77db9">QueryResourceResidency</a> for additional information.
 
-This method is a wrapper for <a href="https://msdn.microsoft.com/library/Bb174564(v=VS.85).aspx">SetEvictionPriority</a> and is provided in the <a href="https://msdn.microsoft.com/library/Bb173829(v=VS.85).aspx">ID3D10Resource Interface</a> interface for convenience.
+This method is a wrapper for <a href="https://msdn.microsoft.com/ed9417ee-8074-4022-bce9-230fec1c7093">SetEvictionPriority</a> and is provided in the <a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource Interface</a> interface for convenience.
 
 
 
@@ -102,7 +102,7 @@ This method is a wrapper for <a href="https://msdn.microsoft.com/library/Bb17456
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173829(v=VS.85).aspx">ID3D10Resource Interface</a>
+<a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource Interface</a>
  
 
  

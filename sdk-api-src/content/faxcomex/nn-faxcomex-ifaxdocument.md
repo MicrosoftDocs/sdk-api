@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdocument_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3md0_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IFaxDocument, IFaxDocument interface [Fax Service], IFaxDocument interface [Fax Service],described, _mfax_faxdocument_cpp, fax._mfax_faxdocument_cpp, faxcomex/IFaxDocument
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The <b>IFaxDocument</b> interface defines a messaging object used by a fax clien
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxDocument</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxDocument</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxDocument</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxDocument</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,10 +72,10 @@ The <b>IFaxDocument</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms686179(v=VS.85).aspx">ConnectedSubmit</a>
+<a href="https://msdn.microsoft.com/4a4d7305-fc92-45ad-a2ff-ae3a6402f76d">ConnectedSubmit</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms686179(v=VS.85).aspx">IFaxDocument::ConnectedSubmit</a> method submits a single fax document to the connected <a href="https://msdn.microsoft.com/library/ms689110(v=VS.85).aspx">IFaxServer</a>. The method returns an array of fax job ID strings, one for each recipient of the fax.
+The <a href="https://msdn.microsoft.com/4a4d7305-fc92-45ad-a2ff-ae3a6402f76d">IFaxDocument::ConnectedSubmit</a> method submits a single fax document to the connected <a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>. The method returns an array of fax job ID strings, one for each recipient of the fax.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ The <a href="https://msdn.microsoft.com/46dab8a7-157a-4869-b64e-2eebca19bdae">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms686176(v=VS.85).aspx">AttachFaxToReceipt</a>
+<a href="https://msdn.microsoft.com/72801d0e-49a3-4d0f-92d9-eca2a63f8a3e">AttachFaxToReceipt</a>
 
 
 </td>
@@ -108,7 +108,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms686176(v=VS.85).aspx">IFaxDocument::get_AttachFaxToReceipt</a> property indicates whether to attach a fax to the receipt.
+The <a href="https://msdn.microsoft.com/72801d0e-49a3-4d0f-92d9-eca2a63f8a3e">IFaxDocument::get_AttachFaxToReceipt</a> property indicates whether to attach a fax to the receipt.
 
 </td>
 </tr>
@@ -124,14 +124,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms684817(v=VS.85).aspx">IFaxDocument::get_Body</a> property provides the path to the file that comprises the body of a fax. The body of a fax consists of the fax pages other than the cover page.
+The <a href="https://msdn.microsoft.com/02338d62-234d-4fd9-a136-24dbcab16f88">IFaxDocument::get_Body</a> property provides the path to the file that comprises the body of a fax. The body of a fax consists of the fax pages other than the cover page.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms687493(v=VS.85).aspx">CoverPage</a>
+<a href="https://msdn.microsoft.com/27d1dd9e-6e50-4beb-96f0-b5c536f6a285">CoverPage</a>
 
 
 </td>
@@ -140,14 +140,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms687493(v=VS.85).aspx">IFaxDocument::get_CoverPage</a> property is a null-terminated string that contains the name of the cover page template file (.cov) to associate with the fax document.
+The <a href="https://msdn.microsoft.com/27d1dd9e-6e50-4beb-96f0-b5c536f6a285">IFaxDocument::get_CoverPage</a> property is a null-terminated string that contains the name of the cover page template file (.cov) to associate with the fax document.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms686003(v=VS.85).aspx">CoverPageType</a>
+<a href="https://msdn.microsoft.com/ca6b43c6-7b06-448c-b715-3c92a5c4a853">CoverPageType</a>
 
 
 </td>
@@ -156,7 +156,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms686003(v=VS.85).aspx">IFaxDocument::get_CoverPageType</a> property is a value from an enumeration that indicates whether a specified cover page template file (.cov) is a server-based cover page file or a local-computer-based cover page file. You can also specify that no file is used.
+The <a href="https://msdn.microsoft.com/ca6b43c6-7b06-448c-b715-3c92a5c4a853">IFaxDocument::get_CoverPageType</a> property is a value from an enumeration that indicates whether a specified cover page template file (.cov) is a server-based cover page file or a local-computer-based cover page file. You can also specify that no file is used.
 
 </td>
 </tr>
@@ -343,7 +343,7 @@ The <a href="https://msdn.microsoft.com/6e1caac1-eead-4061-b7a0-4be92c098d4e">IF
 
 
 
-A default implementation of <b>IFaxDocument</b> and <a href="https://msdn.microsoft.com/library/Aa359010(v=VS.85).aspx">IFaxDocument2</a> is provided as the <a href="https://msdn.microsoft.com/library/ms685958(v=VS.85).aspx">FaxDocument</a> object.
+A default implementation of <b>IFaxDocument</b> and <a href="https://msdn.microsoft.com/20b98e3e-3126-4be1-b9af-228164d0bda6">IFaxDocument2</a> is provided as the <a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a> object.
 
 
 
@@ -353,11 +353,11 @@ A default implementation of <b>IFaxDocument</b> and <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/library/ms685958(v=VS.85).aspx">FaxDocument</a>
+<a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

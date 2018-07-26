@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationAnnotationPattern.htm
 old-project: WinAuto
 ms.assetid: 596FC65A-32C8-47F6-A23F-7B02939E26E3
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IUIAutomationAnnotationPattern, IUIAutomationAnnotationPattern interface [Windows Accessibility], IUIAutomationAnnotationPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationAnnotationPattern, winauto.uiauto_IUIAutomationAnnotationPattern
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tile_range_flags.htm
 old-project: direct3d12
 ms.assetid: D6C35804-4F83-4F33-A4A3-06C5D73174FB
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_TILE_RANGE_FLAGS, D3D12_TILE_RANGE_FLAGS enumeration, D3D12_TILE_RANGE_FLAG_NONE, D3D12_TILE_RANGE_FLAG_NULL, D3D12_TILE_RANGE_FLAG_REUSE_SINGLE_TILE, D3D12_TILE_RANGE_FLAG_SKIP, d3d12/D3D12_TILE_RANGE_FLAGS, d3d12/D3D12_TILE_RANGE_FLAG_NONE, d3d12/D3D12_TILE_RANGE_FLAG_NULL, d3d12/D3D12_TILE_RANGE_FLAG_REUSE_SINGLE_TILE, d3d12/D3D12_TILE_RANGE_FLAG_SKIP, direct3d12.d3d12_tile_range_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Specifies a range of tile mappings.
+Specifies a range of tile mappings.
         
 
 
@@ -62,29 +61,25 @@ req.irql:
 
 ### -field D3D12_TILE_RANGE_FLAG_NONE
 
-
-            No tile-mapping flags are specified.
+No tile-mapping flags are specified.
           
 
 
 ### -field D3D12_TILE_RANGE_FLAG_NULL
 
-
-            The tile range is <b>NULL</b>.
+The tile range is <b>NULL</b>.
           
 
 
 ### -field D3D12_TILE_RANGE_FLAG_SKIP
 
-
-            Skip the tile range.
+Skip the tile range.
           
 
 
 ### -field D3D12_TILE_RANGE_FLAG_REUSE_SINGLE_TILE
 
-
-            Reuse a single tile in the tile range.
+Reuse a single tile in the tile range.
           
 
 
@@ -92,8 +87,7 @@ req.irql:
 
 
 
-
-        Use these flags with <a href="https://msdn.microsoft.com/8A8017E5-AB55-4660-855B-D6F93F69CB52">ID3D12CommandQueue::UpdateTileMappings</a>.
+Use these flags with <a href="https://msdn.microsoft.com/8A8017E5-AB55-4660-855B-D6F93F69CB52">ID3D12CommandQueue::UpdateTileMappings</a>.
       
 
 

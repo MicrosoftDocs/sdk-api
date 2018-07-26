@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_indirect_argument_desc.htm
 old-project: direct3d12
 ms.assetid: 2B51E4B1-F48A-4937-A92D-6AE9449018B4
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_INDIRECT_ARGUMENT_DESC, D3D12_INDIRECT_ARGUMENT_DESC structure, d3d12/D3D12_INDIRECT_ARGUMENT_DESC, direct3d12.d3d12_indirect_argument_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes an indirect argument (an indirect parameter), for use with a command signature.
+Describes an indirect argument (an indirect parameter), for use with a command signature.
         
 
 
@@ -62,8 +61,7 @@ req.irql:
 
 ### -field Type
 
-
-            A single <a href="https://msdn.microsoft.com/03324A50-BE16-4FC0-BFE7-9EE97C738165">D3D12_INDIRECT_ARGUMENT_TYPE</a> enumeration constant.
+A single <a href="https://msdn.microsoft.com/03324A50-BE16-4FC0-BFE7-9EE97C738165">D3D12_INDIRECT_ARGUMENT_TYPE</a> enumeration constant.
           
 
 
@@ -72,8 +70,7 @@ req.irql:
 
 ### -field VertexBuffer.Slot
 
-
-                Specifies the slot containing the vertex buffer address.
+Specifies the slot containing the vertex buffer address.
               
 
 
@@ -82,15 +79,13 @@ req.irql:
 
 ### -field Constant.RootParameterIndex
 
-
-                Specifies the root index of the constant.
+Specifies the root index of the constant.
               
 
 
 ### -field Constant.DestOffsetIn32BitValues
 
-
-                The offset, in 32-bit values, to set the first constant of the group.
+The offset, in 32-bit values, to set the first constant of the group.
                 Supports multi-value constants at a given root index.
                 Root constant entries must be sorted from smallest to largest DestOffsetIn32BitValues.
               
@@ -98,8 +93,7 @@ req.irql:
 
 ### -field Constant.Num32BitValuesToSet
 
-
-                The number of 32-bit constants that are set at the given root index.
+The number of 32-bit constants that are set at the given root index.
                 Supports multi-value constants at a given root index.
               
 
@@ -109,8 +103,7 @@ req.irql:
 
 ### -field ConstantBufferView.RootParameterIndex
 
-
-                Specifies the root index of the CBV.
+Specifies the root index of the CBV.
               
 
 
@@ -119,8 +112,7 @@ req.irql:
 
 ### -field ShaderResourceView.RootParameterIndex
 
-
-                Specifies the root index of the SRV.
+Specifies the root index of the SRV.
               
 
 
@@ -129,8 +121,7 @@ req.irql:
 
 ### -field UnorderedAccessView.RootParameterIndex
 
-
-                Specifies the root index of the UAV.
+Specifies the root index of the UAV.
               
 
 
@@ -138,8 +129,7 @@ req.irql:
 
 
 
-
-          Use this structure with the <a href="https://msdn.microsoft.com/3ACB1582-7A93-4D8D-A463-A828EF0C7F92">D3D12_COMMAND_SIGNATURE_DESC</a> structure.
+Use this structure with the <a href="https://msdn.microsoft.com/3ACB1582-7A93-4D8D-A463-A828EF0C7F92">D3D12_COMMAND_SIGNATURE_DESC</a> structure.
         
 
 

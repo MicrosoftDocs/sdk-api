@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Sets the selection mark in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761204(v=VS.85).aspx">LVM_SETSELECTIONMARK</a> message explicitly. 
+Sets the selection mark in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/3218f1b3-b934-4083-aaaa-e10ef1dbb6bd">LVM_SETSELECTIONMARK</a> message explicitly. 
 
 
 ## -parameters
@@ -100,7 +100,7 @@ The selection mark is the item index from which a multiple selection starts. Thi
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774998(v=VS.85).aspx">ListView_GetSelectionMark</a>
+<a href="https://msdn.microsoft.com/dba2484c-c938-4123-be28-35a504dd9e5a">ListView_GetSelectionMark</a>
  
 
  

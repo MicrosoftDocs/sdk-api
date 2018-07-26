@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9ex_getmaximumframelatency.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_getmaximumframelatency.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: 16bada79-bbf9-2bb3-c2f1-cae31cf742be, GetMaximumFrameLatency, GetMaximumFrameLatency method [Direct3D 9], GetMaximumFrameLatency method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],GetMaximumFrameLatency method, IDirect3DDevice9Ex.GetMaximumFrameLatency, IDirect3DDevice9Ex::GetMaximumFrameLatency, d3d9/IDirect3DDevice9Ex::GetMaximumFrameLatency, direct3d9.idirect3ddevice9ex_getmaximumframelatency
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,9 +70,9 @@ Returns the number of frames that can be queued for render. The value is typical
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Possible return values include: D3D_OK, D3DERR_DEVICELOST, D3DERR_DEVICEREMOVED, D3DERR_DRIVERINTERNALERROR, D3DERR_INVALIDCALL, or D3DERR_OUTOFVIDEOMEMORY (see <a href="https://msdn.microsoft.com/library/Bb172554(v=VS.85).aspx">D3DERR</a>).
+Possible return values include: D3D_OK, D3DERR_DEVICELOST, D3DERR_DEVICEREMOVED, D3DERR_DRIVERINTERNALERROR, D3DERR_INVALIDCALL, or D3DERR_OUTOFVIDEOMEMORY (see <a href="https://msdn.microsoft.com/4a9daa05-74f3-4173-b63d-53767feea7e2">D3DERR</a>).
 
 
 
@@ -93,7 +93,7 @@ It is often beneficial for applications that have no user input (for example, vi
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174337(v=VS.85).aspx">IDirect3DDevice9Ex</a>
+<a href="https://msdn.microsoft.com/b2132ee3-5888-4cfe-a7c7-1134c0418a37">IDirect3DDevice9Ex</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport.htm
 old-project: directmanipulation
 ms.assetid: 4c14143b-3b5f-401d-9df7-f17374abcd99
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/23/2018
 ms.keywords: IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], IDirectManipulationViewport interface [Direct Manipulation],described, directmanipulation.idirectmanipulationviewport, directmanipulation/IDirectManipulationViewport
 ms.prod: windows
 ms.technology: windows-sdk

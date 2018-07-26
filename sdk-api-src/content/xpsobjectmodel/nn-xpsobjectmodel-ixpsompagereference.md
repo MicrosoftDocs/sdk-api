@@ -7,7 +7,7 @@ old-location: xps\ixpsompagereference.htm
 old-project: printdocs
 ms.assetid: cdebab24-f918-4235-b4d5-5ee1007ade87
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents and Packaging], IXpsOMPageReference interface [XPS Documents and Packaging],described, xps.ixpsompagereference, xpsobjectmodel/IXpsOMPageReference
 ms.prod: windows
 ms.technology: windows-sdk
@@ -39,7 +39,7 @@ api_name:
  - IXpsOMPageReference
 product: Windows
 targetos: Windows
-req.lib: 
+req.lib: XpsPrint.lib
 req.dll: 
 req.irql: 
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.

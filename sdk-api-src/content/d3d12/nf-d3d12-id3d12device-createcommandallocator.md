@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createcommandallocator.htm
 old-project: direct3d12
 ms.assetid: 28DA0D59-3DB7-4652-B1EA-3360EA85A659
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: CreateCommandAllocator, CreateCommandAllocator method, CreateCommandAllocator method,ID3D12Device interface, ID3D12Device interface,CreateCommandAllocator method, ID3D12Device.CreateCommandAllocator, ID3D12Device::CreateCommandAllocator, d3d12/ID3D12Device::CreateCommandAllocator, direct3d12.id3d12device_createcommandallocator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Creates a command allocator object.
 
 Type: <b><a href="https://msdn.microsoft.com/28BC70FF-6818-4B8D-9DE4-8316AB2FB288">D3D12_COMMAND_LIST_TYPE</a></b>
 
-
-            A <a href="https://msdn.microsoft.com/28BC70FF-6818-4B8D-9DE4-8316AB2FB288">D3D12_COMMAND_LIST_TYPE</a>-typed value that specifies the type of command allocator to create.
+A <a href="https://msdn.microsoft.com/28BC70FF-6818-4B8D-9DE4-8316AB2FB288">D3D12_COMMAND_LIST_TYPE</a>-typed value that specifies the type of command allocator to create.
             The type of command allocator can be the type that records either direct command lists or bundles.
           
 
@@ -72,8 +71,7 @@ Type: <b><a href="https://msdn.microsoft.com/28BC70FF-6818-4B8D-9DE4-8316AB2FB28
 
 Type: <b>REFIID</b>
 
-
-            The globally unique identifier (<b>GUID</b>) for the command allocator interface (<a href="https://msdn.microsoft.com/ADC494E6-1698-415D-90C5-F99FCD4C5309">ID3D12CommandAllocator</a>).
+The globally unique identifier (<b>GUID</b>) for the command allocator interface (<a href="https://msdn.microsoft.com/ADC494E6-1698-415D-90C5-F99FCD4C5309">ID3D12CommandAllocator</a>).
             The <b>REFIID</b>, or <b>GUID</b>, of the interface to the command allocator can be obtained by using the __uuidof() macro.
             For example, __uuidof(ID3D12CommandAllocator) will get the <b>GUID</b> of the interface to a command allocator.
           
@@ -83,8 +81,7 @@ Type: <b>REFIID</b>
 
 Type: <b>void**</b>
 
-
-            A pointer to a memory block that receives a pointer to the <a href="https://msdn.microsoft.com/ADC494E6-1698-415D-90C5-F99FCD4C5309">ID3D12CommandAllocator</a> interface for the command allocator.
+A pointer to a memory block that receives a pointer to the <a href="https://msdn.microsoft.com/ADC494E6-1698-415D-90C5-F99FCD4C5309">ID3D12CommandAllocator</a> interface for the command allocator.
           
 
 
@@ -92,10 +89,9 @@ Type: <b>void**</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-
-              This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the command allocator.
+This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the command allocator.
               See <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> for other possible return values.
             
 
@@ -106,15 +102,13 @@ Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRE
 
 
 
-
-        The device creates command lists from the command allocator.
+The device creates command lists from the command allocator.
       
 
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Bundles</a> sample uses <b>ID3D12Device::CreateCommandAllocator</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Bundles</a> sample uses <b>ID3D12Device::CreateCommandAllocator</b> as follows:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>

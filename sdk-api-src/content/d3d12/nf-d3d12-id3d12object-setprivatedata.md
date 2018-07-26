@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12object_setprivatedata.htm
 old-project: direct3d12
 ms.assetid: 1B3E8202-7CB3-4D9F-A1AE-70E66652773C
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12Object interface,SetPrivateData method, ID3D12Object.SetPrivateData, ID3D12Object::SetPrivateData, SetPrivateData, SetPrivateData method, SetPrivateData method,ID3D12Object interface, d3d12/ID3D12Object::SetPrivateData, direct3d12.id3d12object_setprivatedata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Sets application-defined data to a device object and associates that data with an application-defined <b>GUID</b>.
+Sets application-defined data to a device object and associates that data with an application-defined <b>GUID</b>.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="http://msdn.microsoft.com/en-us/library/cc237815(PROT.13).aspx">REFGUID</a></b>
 
-
-            The <b>GUID</b> to associate with the data.
+The <b>GUID</b> to associate with the data.
           
 
 
@@ -73,8 +71,7 @@ Type: <b><a href="http://msdn.microsoft.com/en-us/library/cc237815(PROT.13).aspx
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            The size in bytes of the data.
+The size in bytes of the data.
           
 
 
@@ -82,8 +79,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b>const void*</b>
 
-
-            A pointer to a memory block that contains the data to be stored with this device object. If <i>pData</i> is <b>NULL</b>, <i>DataSize</i> must also be 0, and any data that was previously associated with the <b>GUID</b> specified in <i>guid</i> will be destroyed.
+A pointer to a memory block that contains the data to be stored with this device object. If <i>pData</i> is <b>NULL</b>, <i>DataSize</i> must also be 0, and any data that was previously associated with the <b>GUID</b> specified in <i>guid</i> will be destroyed.
           
 
 
@@ -91,10 +87,9 @@ Type: <b>const void*</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-
-            This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
 
 
@@ -104,8 +99,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRE
 
 
 
-
-        Rather than using the Direct3D 11 debug object naming scheme of calling <b>ID3D12Object::SetPrivateData</b> using <b>WKPDID_D3DDebugObjectName</b> with an ASCII name,
+Rather than using the Direct3D 11 debug object naming scheme of calling <b>ID3D12Object::SetPrivateData</b> using <b>WKPDID_D3DDebugObjectName</b> with an ASCII name,
         call <a href="https://msdn.microsoft.com/A1DEEB16-BF75-4391-ADF0-AC22EECBC71A">ID3D12Object::SetName</a> with a UNICODE name.
       
 

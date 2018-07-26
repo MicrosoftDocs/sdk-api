@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents3_prefetchfilebegin.htm
 old-project: offlinefiles
 ms.assetid: b65354ed-dc4b-491c-9672-2f5fa91093bd
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/23/2018
 ms.keywords: IOfflineFilesEvents3 interface [Offline Files],PrefetchFileBegin method, IOfflineFilesEvents3.PrefetchFileBegin, IOfflineFilesEvents3::PrefetchFileBegin, PrefetchFileBegin, PrefetchFileBegin method [Offline Files], PrefetchFileBegin method [Offline Files],IOfflineFilesEvents3 interface, cscobj/IOfflineFilesEvents3::PrefetchFileBegin, of.iofflinefilesevents3_prefetchfilebegin
 ms.prod: windows
 ms.technology: windows-sdk

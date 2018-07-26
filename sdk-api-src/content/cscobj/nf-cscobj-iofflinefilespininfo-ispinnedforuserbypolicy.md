@@ -7,7 +7,7 @@ old-location: of\iofflinefilespininfo_ispinnedforuserbypolicy.htm
 old-project: offlinefiles
 ms.assetid: fa5548e9-0a4e-4e66-a5ea-45d092c239b2
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/23/2018
 ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinnedForUserByPolicy method, IOfflineFilesPinInfo.IsPinnedForUserByPolicy, IOfflineFilesPinInfo::IsPinnedForUserByPolicy, IsPinnedForUserByPolicy, IsPinnedForUserByPolicy method [Offline Files], IsPinnedForUserByPolicy method [Offline Files],IOfflineFilesPinInfo interface, cscobj/IOfflineFilesPinInfo::IsPinnedForUserByPolicy, of.iofflinefilespininfo_ispinnedforuserbypolicy
 ms.prod: windows
 ms.technology: windows-sdk

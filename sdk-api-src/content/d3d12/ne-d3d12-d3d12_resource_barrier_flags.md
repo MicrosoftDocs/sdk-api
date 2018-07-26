@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_resource_barrier_flags.htm
 old-project: direct3d12
 ms.assetid: 352DF566-2E30-49C6-9D1B-35F0AEEA3338
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_RESOURCE_BARRIER_FLAGS, D3D12_RESOURCE_BARRIER_FLAGS enumeration, D3D12_RESOURCE_BARRIER_FLAG_BEGIN_ONLY, D3D12_RESOURCE_BARRIER_FLAG_END_ONLY, D3D12_RESOURCE_BARRIER_FLAG_NONE, d3d12/D3D12_RESOURCE_BARRIER_FLAGS, d3d12/D3D12_RESOURCE_BARRIER_FLAG_BEGIN_ONLY, d3d12/D3D12_RESOURCE_BARRIER_FLAG_END_ONLY, d3d12/D3D12_RESOURCE_BARRIER_FLAG_NONE, direct3d12.d3d12_resource_barrier_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Flags for setting split resource barriers.
+Flags for setting split resource barriers.
         
 
 
@@ -62,22 +61,19 @@ req.irql:
 
 ### -field D3D12_RESOURCE_BARRIER_FLAG_NONE
 
-
-            No flags.
+No flags.
           
 
 
 ### -field D3D12_RESOURCE_BARRIER_FLAG_BEGIN_ONLY
 
-
-            This starts a barrier transition in a new state, putting a resource in a temporary no-access condition.
+This starts a barrier transition in a new state, putting a resource in a temporary no-access condition.
           
 
 
 ### -field D3D12_RESOURCE_BARRIER_FLAG_END_ONLY
 
-
-            This barrier completes a transition, setting a new state and restoring active access to a resource.
+This barrier completes a transition, setting a new state and restoring active access to a resource.
 
 
 ## -remarks
@@ -86,10 +82,8 @@ req.irql:
 
 Split barriers allow a single transition to be split into begin and end halves (refer to <a href="https://msdn.microsoft.com/93903F50-A6CA-41C2-863D-68D645586B4C">Synchronization and Multi-Engine</a>).
 
-
-          This enum is used by the <i>Flags</i> member of the
-          <a href="https://msdn.microsoft.com/49F02D65-767E-4BA4-A90D-68AA2D709E09">D3D12_RESOURCE_BARRIER</a>
-          structure.
+This enum is used by the <i>Flags</i> member of the
+          <a href="https://msdn.microsoft.com/49F02D65-767E-4BA4-A90D-68AA2D709E09">D3D12_RESOURCE_BARRIER</a>structure.
          
 
 

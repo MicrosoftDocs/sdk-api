@@ -7,7 +7,7 @@ old-location: ad\ds_name_result.htm
 old-project: ad
 ms.assetid: 8c3cedae-f998-482c-95db-33bca94e119b
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: "*PDS_NAME_RESULTA, DS_NAME_RESULT, DS_NAME_RESULT structure [Active Directory], DS_NAME_RESULTA, DS_NAME_RESULTW, PDS_NAME_RESULT, PDS_NAME_RESULT structure pointer [Active Directory], _glines_ds_name_result, ad.ds__name__result, ad.ds_name_result, ntdsapi/DS_NAME_RESULT, ntdsapi/DS_NAME_RESULTA, ntdsapi/DS_NAME_RESULTW, ntdsapi/PDS_NAME_RESULT"
 ms.prod: windows
 ms.technology: windows-sdk

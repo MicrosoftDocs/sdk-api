@@ -95,7 +95,7 @@ Pointer to a variable that receives the number of privileges in the <i>UserRight
 If at least one account right is found, the function succeeds and returns STATUS_SUCCESS.
 
 If no account rights are found or if the function fails for any other reason, the function returns an NTSTATUS code such as FILE_NOT_FOUND. For more information, see 
-<a href="https://msdn.microsoft.com/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>. Use the 
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>. Use the 
 <a href="https://msdn.microsoft.com/fa91794c-c502-4b36-84cc-a8d77c8e9d9f">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
 
 

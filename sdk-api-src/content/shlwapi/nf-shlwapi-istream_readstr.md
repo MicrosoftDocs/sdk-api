@@ -7,7 +7,7 @@ old-location: shell\IStream_ReadStr.htm
 old-project: shell
 ms.assetid: e3f140c4-4033-4c82-af2c-4a7744461920
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IStream_ReadStr, IStream_ReadStr function [Windows Shell], _shell_IStream_ReadStr, shell.IStream_ReadStr, shlwapi/IStream_ReadStr
 ms.prod: windows
 ms.technology: windows-sdk

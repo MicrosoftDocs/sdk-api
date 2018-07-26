@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11infoqueue.htm
 old-project: direct3d11
 ms.assetid: 240820c7-1c1f-4e2d-8b3e-497fd931d7d2
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11InfoQueue, ID3D11InfoQueue interface [Direct3D 11], ID3D11InfoQueue interface [Direct3D 11],described, c949addb-3970-af5d-6963-d7a298716036, d3d11sdklayers/ID3D11InfoQueue, direct3d11.id3d11infoqueue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -391,8 +391,7 @@ Set a boolean that turns the debug output on or off.
 
 
 
-
-            To get this interface, turn on debug layer and use <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> from the <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>.
+To get this interface, turn on debug layer and use <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> from the <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>.
           
 
 <b>Windows Phone 8:

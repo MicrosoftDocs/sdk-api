@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometryfigurecollection_removeat.htm
 old-project: printdocs
 ms.assetid: f3030eea-e87f-4bb8-9835-e6bc052ff0ef
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMGeometryFigureCollection.RemoveAt, IXpsOMGeometryFigureCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, xps.ixpsomgeometryfigurecollection_removeat, xpsobjectmodel/IXpsOMGeometryFigureCollection::RemoveAt
 ms.prod: windows
 ms.technology: windows-sdk

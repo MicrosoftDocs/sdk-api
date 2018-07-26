@@ -4,10 +4,10 @@ title: D2D1_BITMAPSOURCE_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Bitmap source effect.
 old-location: direct2d\d2d1_bitmapsource_prop.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 02E1108D-FD73-4031-B709-5993D42D102F
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_BITMAPSOURCE_PROP, D2D1_BITMAPSOURCE_PROP enumeration [Direct2D], D2D1_BITMAPSOURCE_PROP_ALPHA_MODE, D2D1_BITMAPSOURCE_PROP_ENABLE_DPI_CORRECTION, D2D1_BITMAPSOURCE_PROP_INTERPOLATION_MODE, D2D1_BITMAPSOURCE_PROP_ORIENTATION, D2D1_BITMAPSOURCE_PROP_SCALE, D2D1_BITMAPSOURCE_PROP_WIC_BITMAP_SOURCE, d2d1effects/D2D1_BITMAPSOURCE_PROP, d2d1effects/D2D1_BITMAPSOURCE_PROP_ALPHA_MODE, d2d1effects/D2D1_BITMAPSOURCE_PROP_ENABLE_DPI_CORRECTION, d2d1effects/D2D1_BITMAPSOURCE_PROP_INTERPOLATION_MODE, d2d1effects/D2D1_BITMAPSOURCE_PROP_ORIENTATION, d2d1effects/D2D1_BITMAPSOURCE_PROP_SCALE, d2d1effects/D2D1_BITMAPSOURCE_PROP_WIC_BITMAP_SOURCE, direct2d.d2d1_bitmapsource_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Identifiers for properties of the <a href="https://msdn.microsoft.com/86646111-208A-4E6D-A28C-7B23A1742D24">Bitmap source effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/86646111-208A-4E6D-A28C-7B23A1742D24">Bitmap source effect</a>.
         
 
 
@@ -62,8 +61,7 @@ req.irql:
 
 ### -field D2D1_BITMAPSOURCE_PROP_WIC_BITMAP_SOURCE
 
-
-            The IWICBitmapSource containing the image data to be loaded.
+The IWICBitmapSource containing the image data to be loaded.
             
 
 The type is IWICBitmapSource.

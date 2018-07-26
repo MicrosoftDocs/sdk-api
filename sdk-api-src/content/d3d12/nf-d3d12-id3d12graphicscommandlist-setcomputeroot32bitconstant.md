@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_setcomputeroot32bitconstant.h
 old-project: direct3d12
 ms.assetid: A250052F-A24A-4234-8A39-0995A00B6E01
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetComputeRoot32BitConstant method, ID3D12GraphicsCommandList.SetComputeRoot32BitConstant, ID3D12GraphicsCommandList::SetComputeRoot32BitConstant, SetComputeRoot32BitConstant, SetComputeRoot32BitConstant method, SetComputeRoot32BitConstant method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetComputeRoot32BitConstant, direct3d12.id3d12graphicscommandlist_setcomputeroot32bitconstant
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Sets a constant in the compute root signature.
+Sets a constant in the compute root signature.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b>UINT</b>
 
-
-            The slot number for binding.
+The slot number for binding.
           
 
 
@@ -73,8 +71,7 @@ Type: <b>UINT</b>
 
 Type: <b>UINT</b>
 
-
-            The source data for the constant to set.
+The source data for the constant to set.
           
 
 
@@ -82,8 +79,7 @@ Type: <b>UINT</b>
 
 Type: <b>UINT</b>
 
-
-            The offset, in 32-bit values, to set the constant in the root signature.
+The offset, in 32-bit values, to set the constant in the root signature.
           
 
 

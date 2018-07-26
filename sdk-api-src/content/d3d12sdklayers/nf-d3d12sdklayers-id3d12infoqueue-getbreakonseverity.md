@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getbreakonseverity.htm
 old-project: direct3d12
 ms.assetid: 255CB074-9C05-4402-9EDE-43AD8C6707E6
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetBreakOnSeverity, GetBreakOnSeverity method, GetBreakOnSeverity method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetBreakOnSeverity method, ID3D12InfoQueue.GetBreakOnSeverity, ID3D12InfoQueue::GetBreakOnSeverity, d3d12sdklayers/ID3D12InfoQueue::GetBreakOnSeverity, direct3d12.id3d12infoqueue_getbreakonseverity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ Get a message severity level to break on when a message with that severity level
 
 Type: <b><a href="https://msdn.microsoft.com/44D94C37-4BA8-49FC-BEEF-6666AD59B627">D3D12_MESSAGE_SEVERITY</a></b>
 
-
-            Message severity level to break on.
+Message severity level to break on.
 
 
 ## -returns
@@ -74,8 +73,7 @@ Type: <b><a href="https://msdn.microsoft.com/44D94C37-4BA8-49FC-BEEF-6666AD59B62
 
 Type: <b>BOOL</b>
 
-
-            Whether this breaking condition is turned on or off (true for on, false for off).
+Whether this breaking condition is turned on or off (true for on, false for off).
 
 
 

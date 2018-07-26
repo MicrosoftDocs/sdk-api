@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext2_updatetilemappings.htm
 old-project: direct3d11
 ms.assetid: 542735C4-BFDE-4EA9-9595-BA30BD06422B
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11DeviceContext2 interface [Direct3D 11],UpdateTileMappings method, ID3D11DeviceContext2.UpdateTileMappings, ID3D11DeviceContext2::UpdateTileMappings, UpdateTileMappings, UpdateTileMappings method [Direct3D 11], UpdateTileMappings method [Direct3D 11],ID3D11DeviceContext2 interface, d3d11_2/ID3D11DeviceContext2::UpdateTileMappings, direct3d11.id3d11devicecontext2_updatetilemappings
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ The number of tiled resource regions.
 
 Type: <b>const <a href="https://msdn.microsoft.com/4639E5FA-44D7-4F6E-8843-17EE862BD9C4">D3D11_TILED_RESOURCE_COORDINATE</a>*</b>
 
-
-          An array of <a href="https://msdn.microsoft.com/4639E5FA-44D7-4F6E-8843-17EE862BD9C4">D3D11_TILED_RESOURCE_COORDINATE</a> structures that describe the starting coordinates of the tiled resource regions. The <i>NumTiledResourceRegions</i> parameter specifies the number of <b>D3D11_TILED_RESOURCE_COORDINATE</b> structures in the array.
+An array of <a href="https://msdn.microsoft.com/4639E5FA-44D7-4F6E-8843-17EE862BD9C4">D3D11_TILED_RESOURCE_COORDINATE</a> structures that describe the starting coordinates of the tiled resource regions. The <i>NumTiledResourceRegions</i> parameter specifies the number of <b>D3D11_TILED_RESOURCE_COORDINATE</b> structures in the array.
         
 
 
@@ -86,8 +85,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/4639E5FA-44D7-4F6E-8843-17EE8
 
 Type: <b>const <a href="https://msdn.microsoft.com/D4A93462-9A2F-416A-9CC1-AC24DFF35890">D3D11_TILE_REGION_SIZE</a>*</b>
 
-
-          An array of <a href="https://msdn.microsoft.com/D4A93462-9A2F-416A-9CC1-AC24DFF35890">D3D11_TILE_REGION_SIZE</a> structures that describe the sizes of the tiled resource regions. The <i>NumTiledResourceRegions</i> parameter specifies the number of <b>D3D11_TILE_REGION_SIZE</b> structures in the array.
+An array of <a href="https://msdn.microsoft.com/D4A93462-9A2F-416A-9CC1-AC24DFF35890">D3D11_TILE_REGION_SIZE</a> structures that describe the sizes of the tiled resource regions. The <i>NumTiledResourceRegions</i> parameter specifies the number of <b>D3D11_TILE_REGION_SIZE</b> structures in the array.
         
 
 
@@ -109,8 +107,7 @@ The number of tile-pool ranges.
 
 Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
-
-          An array of <a href="https://msdn.microsoft.com/3bab77f9-f18b-4b30-a1d8-09409253bfca">D3D11_TILE_RANGE_FLAG</a> values that describe each tile-pool range. The <i>NumRanges</i> parameter specifies the number of values in the array. 
+An array of <a href="https://msdn.microsoft.com/3bab77f9-f18b-4b30-a1d8-09409253bfca">D3D11_TILE_RANGE_FLAG</a> values that describe each tile-pool range. The <i>NumRanges</i> parameter specifies the number of values in the array. 
 
 
 ### -param pTilePoolStartOffsets [in, optional]
@@ -126,8 +123,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2
 
 An array of tiles. 
 
-
-          An array of values that specify the number of tiles in each tile-pool range. The <i>NumRanges</i> parameter specifies the number of values in the array.
+An array of values that specify the number of tiles in each tile-pool range. The <i>NumRanges</i> parameter specifies the number of values in the array.
         
 
 
@@ -135,8 +131,7 @@ An array of tiles.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-          A combination of <a href="https://msdn.microsoft.com/13B4665C-F8A2-45A7-BBE9-FEB45FB08963">D3D11_TILE_MAPPING_FLAGS</a> values that are combined by using a bitwise OR operation.
+A combination of <a href="https://msdn.microsoft.com/13B4665C-F8A2-45A7-BBE9-FEB45FB08963">D3D11_TILE_MAPPING_FLAGS</a> values that are combined by using a bitwise OR operation.
         
 
 
@@ -144,21 +139,18 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, returns one of the following:
 
 <ul>
-<li>
-              Returns <b>E_INVALIDARG</b> if various conditions such as invalid flags result in the call being dropped.The debug layer will emit an error.
+<li>Returns <b>E_INVALIDARG</b> if various conditions such as invalid flags result in the call being dropped.The debug layer will emit an error.
 
 </li>
-<li>
-              Returns <b>E_OUTOFMEMORY</b> if the call results in the driver having to allocate space for new page table mappings but running out of memory.If out of memory occurs when this is called in a commandlist and the commandlist is being executed, the device will be removed. Apps can avoid this situation by only doing update calls that change existing mappings from tiled resources within commandlists (so drivers will not have to allocate page table memory, only change the mapping).
+<li>Returns <b>E_OUTOFMEMORY</b> if the call results in the driver having to allocate space for new page table mappings but running out of memory.If out of memory occurs when this is called in a commandlist and the commandlist is being executed, the device will be removed. Apps can avoid this situation by only doing update calls that change existing mappings from tiled resources within commandlists (so drivers will not have to allocate page table memory, only change the mapping).
 
 </li>
-<li>
-              Returns <b>DXGI_ERROR_DEVICE_REMOVED</b> if the video card has been physically removed from the system, or a driver upgrade for the video card has occurred.
+<li>Returns <b>DXGI_ERROR_DEVICE_REMOVED</b> if the video card has been physically removed from the system, or a driver upgrade for the video card has occurred.
             </li>
 </ul>
 

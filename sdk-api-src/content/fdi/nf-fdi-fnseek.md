@@ -7,7 +7,7 @@ old-location: winprog\fnseek.htm
 old-project: devnotes
 ms.assetid: e49b5086-6b89-40ce-b6fa-905d21593dec
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FNSEEK, FNSEEK macro [Windows API], fdi/FNSEEK, winprog.fnseek
 ms.prod: windows
 ms.technology: windows-sdk

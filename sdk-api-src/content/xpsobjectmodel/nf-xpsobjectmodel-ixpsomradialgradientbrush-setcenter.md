@@ -7,7 +7,7 @@ old-location: xps\ixpsomradialgradientbrush_setcenter.htm
 old-project: printdocs
 ms.assetid: 7f1fd304-8495-40b3-b11f-7af9924150eb
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],SetCenter method, IXpsOMRadialGradientBrush.SetCenter, IXpsOMRadialGradientBrush::SetCenter, SetCenter, SetCenter method [XPS Documents and Packaging], SetCenter method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, xps.ixpsomradialgradientbrush_setcenter, xpsobjectmodel/IXpsOMRadialGradientBrush::SetCenter
 ms.prod: windows
 ms.technology: windows-sdk

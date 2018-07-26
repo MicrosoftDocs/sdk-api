@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionscaletransform3d_setscalex_overloaded.htm
 old-project: directcomp
 ms.assetid: 96A7B9EC-7CD9-489F-AB97-A297321BDACD
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/23/2018
 ms.keywords: IDCompositionScaleTransform3D::SetScaleX, SetScaleX, SetScaleX methods [DirectComposition], dcomp/SetScaleX, directcomp.idcompositionscaletransform3d_setscalex_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

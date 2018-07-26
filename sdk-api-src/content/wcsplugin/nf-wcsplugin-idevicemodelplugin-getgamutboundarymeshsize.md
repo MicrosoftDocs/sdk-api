@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Returns the required data structure sizes for the <a href="https://msdn.microsoft.com/library/Dd372127(v=VS.85).aspx">GetGamutBoundaryMesh</a> function.
+Returns the required data structure sizes for the <a href="access.IDeviceModelPlugIn::GetGamutBoundaryMesh">GetGamutBoundaryMesh</a> function.
 
 
 ## -parameters

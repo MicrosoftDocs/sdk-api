@@ -7,7 +7,7 @@ old-location: intl\immassociatecontext.htm
 old-project: Intl
 ms.assetid: 978ea304-c44d-4f00-b86f-932bbd5f603c
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: ImmAssociateContext, ImmAssociateContext function [Internationalization for Windows Applications], _win32_ImmAssociateContext, imm/ImmAssociateContext, intl.immassociatecontext
 ms.prod: windows
 ms.technology: windows-sdk

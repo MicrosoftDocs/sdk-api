@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_setpredication.htm
 old-project: direct3d12
 ms.assetid: 21526012-A675-40E8-A11C-4CBA5C12B9CF
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetPredication method, ID3D12GraphicsCommandList.SetPredication, ID3D12GraphicsCommandList::SetPredication, SetPredication, SetPredication method, SetPredication method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetPredication, direct3d12.id3d12graphicscommandlist_setpredication
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Sets a rendering predicate.
+Sets a rendering predicate.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>*</b>
 
-
-            The buffer, as an <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>.
+The buffer, as an <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>.
           
 
 
@@ -73,8 +71,7 @@ Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD
 
 Type: <b>UINT64</b>
 
-
-            The aligned buffer offset, as a UINT64.
+The aligned buffer offset, as a UINT64.
           
 
 
@@ -82,8 +79,7 @@ Type: <b>UINT64</b>
 
 Type: <b><a href="https://msdn.microsoft.com/2A650FE4-7D24-4852-9435-7C3CB73848AB">D3D12_PREDICATION_OP</a></b>
 
-
-            Specifies a <a href="https://msdn.microsoft.com/2A650FE4-7D24-4852-9435-7C3CB73848AB">D3D12_PREDICATION_OP</a>, such as D3D12_PREDICATION_OP_EQUAL_ZERO or D3D12_PREDICATION_OP_NOT_EQUAL_ZERO.
+Specifies a <a href="https://msdn.microsoft.com/2A650FE4-7D24-4852-9435-7C3CB73848AB">D3D12_PREDICATION_OP</a>, such as D3D12_PREDICATION_OP_EQUAL_ZERO or D3D12_PREDICATION_OP_NOT_EQUAL_ZERO.
           
 
 
@@ -91,8 +87,7 @@ Type: <b><a href="https://msdn.microsoft.com/2A650FE4-7D24-4852-9435-7C3CB73848A
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 
@@ -102,36 +97,30 @@ Type: <b><a href="https://msdn.microsoft.com/2A650FE4-7D24-4852-9435-7C3CB73848A
 
 
 
-
-          Use this method to denote that subsequent rendering and resource manipulation commands are not actually performed if the resulting predicate data of the predicate is equal to the operation specified.
+Use this method to denote that subsequent rendering and resource manipulation commands are not actually performed if the resulting predicate data of the predicate is equal to the operation specified.
           However, some predicates are only hints, so they may not actually prevent operations from being performed.
         
 
-
-        Unlike Direct3D 11, in Direct3D 12 predication state is not inherited by direct command lists.
+Unlike Direct3D 11, in Direct3D 12 predication state is not inherited by direct command lists.
         All direct command lists begin with predication disabled.
           Bundles do inherit predication state.
         It is legal for the same predicate to be bound multiple times.
       
 
-
-            Illegal API calls will result in <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> returning an error,
+Illegal API calls will result in <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a> returning an error,
             or <a href="https://msdn.microsoft.com/653C15CD-0996-4B3B-A5F6-3E85CD0516AD">ID3D12CommandQueue::ExecuteCommandLists</a> dropping the command list and removing the device.
           
 
-
-            The debug layer will issue errors whenever the runtime validation fails.
+The debug layer will issue errors whenever the runtime validation fails.
           
 
-
-          Refer to <a href="https://msdn.microsoft.com/5C5138C7-F6E8-4646-961A-0E2312B5356B">Predication</a> for more information.
+Refer to <a href="https://msdn.microsoft.com/5C5138C7-F6E8-4646-961A-0E2312B5356B">Predication</a> for more information.
         
 
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12PredicationQueries</a> sample uses <b>ID3D12GraphicsCommandList::SetPredication</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12PredicationQueries</a> sample uses <b>ID3D12GraphicsCommandList::SetPredication</b> as follows:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -216,8 +205,7 @@ void D3D12PredicationQueries::PopulateCommandList()
 </td>
 </tr>
 </table></span></div>
-
-          See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>

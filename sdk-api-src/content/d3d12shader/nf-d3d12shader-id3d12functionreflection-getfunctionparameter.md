@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12functionreflection_getfunctionparameter.htm
 old-project: direct3d12
 ms.assetid: 88372A4E-596E-41F9-9FF4-9FD7E7F351DA
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetFunctionParameter, GetFunctionParameter method, GetFunctionParameter method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetFunctionParameter method, ID3D12FunctionReflection.GetFunctionParameter, ID3D12FunctionReflection::GetFunctionParameter, d3d12shader/ID3D12FunctionReflection::GetFunctionParameter, direct3d12.id3d12functionreflection_getfunctionparameter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Gets the function parameter reflector.
+Gets the function parameter reflector.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b>INT</b>
 
-
-            The zero-based index of the function parameter reflector to retrieve.
+The zero-based index of the function parameter reflector to retrieve.
           
 
 
@@ -75,8 +73,7 @@ Type: <b>INT</b>
 
 Type: <b><a href="https://msdn.microsoft.com/9AB312BE-E174-46D2-BF24-32309BD88AC4">ID3D12FunctionParameterReflection</a>*</b>
 
-
-            A pointer to a <a href="https://msdn.microsoft.com/9AB312BE-E174-46D2-BF24-32309BD88AC4">ID3D12FunctionParameterReflection</a> interface that represents the function parameter reflector.
+A pointer to a <a href="https://msdn.microsoft.com/9AB312BE-E174-46D2-BF24-32309BD88AC4">ID3D12FunctionParameterReflection</a> interface that represents the function parameter reflector.
           
 
 

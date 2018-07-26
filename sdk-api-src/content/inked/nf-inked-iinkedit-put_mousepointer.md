@@ -80,7 +80,7 @@ You can use this property when you want to indicate changes in functionality as 
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="tablet.iinkedit_">IInkEdit</a>
 
 
 

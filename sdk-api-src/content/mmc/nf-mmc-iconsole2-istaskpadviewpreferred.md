@@ -4,11 +4,11 @@ title: IConsole2::IsTaskpadViewPreferred
 author: windows-sdk-content
 description: The IConsole2::IsTaskpadViewPreferred method is obsolete. It always returns S_OK.
 old-location: mmc\iconsole2_istaskpadviewpreferred.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 9c9221db-54d5-4dd2-8577-27915b313046
 ms.author: windowssdkdev
-ms.date: 07/17/2018
-ms.keywords: IConsole2 interface [MMC],IsTaskpadViewPreferred method, IConsole2.IsTaskpadViewPreferred, IConsole2::IsTaskpadViewPreferred, IConsole3 interface [MMC],IsTaskpadViewPreferred method, IConsole3::IsTaskpadViewPreferred, IsTaskpadViewPreferred, IsTaskpadViewPreferred method [MMC], IsTaskpadViewPreferred method [MMC],IConsole2 interface, IsTaskpadViewPreferred method [MMC],IConsole3 interface, _slate_iconsole2_istaskpadviewpreferred, mmc.iconsole2_istaskpadviewpreferred, mmc/IConsole2::IsTaskpadViewPreferred, mmc/IConsole3::IsTaskpadViewPreferred
+ms.date: 07/24/2018
+ms.keywords: IConsole2 interface [MMC],IsTaskpadViewPreferred method, IConsole2.IsTaskpadViewPreferred, IConsole2::IsTaskpadViewPreferred, IsTaskpadViewPreferred, IsTaskpadViewPreferred method [MMC], IsTaskpadViewPreferred method [MMC],IConsole2 interface, _slate_iconsole2_istaskpadviewpreferred, mmc.iconsole2_istaskpadviewpreferred, mmc/IConsole2::IsTaskpadViewPreferred
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -37,7 +37,6 @@ api_location:
  - Mmcndmgr.dll
 api_name:
  - IConsole2.IsTaskpadViewPreferred
- - IConsole3.IsTaskpadViewPreferred
 product: Windows
 targetos: Windows
 req.lib: 
@@ -77,10 +76,6 @@ This method can return one of these values.
 
 
 <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>
-
-
-
-<a href="https://msdn.microsoft.com/be3d42a4-a18a-40a5-99fc-2cf2a848c564">IConsole3</a>
 
 
 

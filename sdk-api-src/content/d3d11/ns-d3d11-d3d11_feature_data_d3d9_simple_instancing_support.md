@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_feature_data_d3d9_simple_instancing_support.htm
 old-project: direct3d11
 ms.assetid: 940381BB-E8F6-416D-8F36-CC3591E70703
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D9_SIMPLE_INSTANCING_SUPPORT, D3D11_FEATURE_DATA_D3D9_SIMPLE_INSTANCING_SUPPORT structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_D3D9_SIMPLE_INSTANCING_SUPPORT, direct3d11.d3d11_feature_data_d3d9_simple_instancing_support
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-<div class="alert"><b>Note</b>  
-        This structure is supported by the Direct3D 11.2 runtime, which is available on Windows 8.1 and later operating systems.
+<div class="alert"><b>Note</b>  This structure is supported by the Direct3D 11.2 runtime, which is available on Windows 8.1 and later operating systems.
       </div><div> </div>Describes whether simple instancing is supported.
 
 
@@ -62,8 +61,7 @@ req.irql:
 
 ### -field SimpleInstancingSupported
 
-
-            Specifies whether the hardware and driver support simple instancing. The runtime sets this member to <b>TRUE</b> if  the hardware and driver support simple instancing.
+Specifies whether the hardware and driver support simple instancing. The runtime sets this member to <b>TRUE</b> if  the hardware and driver support simple instancing.
           
 
 
@@ -71,12 +69,10 @@ req.irql:
 
 
 
-
-        If the Direct3D API is the Direct3D 11.2 runtime and can support 11.2 features, <a href="https://msdn.microsoft.com/7edf2ffd-908a-4cf8-9ac6-8fd14d7a0ea1">ID3D11Device::CheckFeatureSupport</a> for <b>D3D11_FEATURE_D3D9_SIMPLE_INSTANCING_SUPPORT</b> will return a SUCCESS code when valid parameters are passed. The <b>SimpleInstancingSupported</b> member of <b>D3D11_FEATURE_DATA_D3D9_SIMPLE_INSTANCING_SUPPORT</b> will be set to <b>TRUE</b> or <b>FALSE</b>.
+If the Direct3D API is the Direct3D 11.2 runtime and can support 11.2 features, <a href="https://msdn.microsoft.com/7edf2ffd-908a-4cf8-9ac6-8fd14d7a0ea1">ID3D11Device::CheckFeatureSupport</a> for <b>D3D11_FEATURE_D3D9_SIMPLE_INSTANCING_SUPPORT</b> will return a SUCCESS code when valid parameters are passed. The <b>SimpleInstancingSupported</b> member of <b>D3D11_FEATURE_DATA_D3D9_SIMPLE_INSTANCING_SUPPORT</b> will be set to <b>TRUE</b> or <b>FALSE</b>.
       
 
-
-        Simple instancing means that instancing is supported with the caveat that the <b>InstanceDataStepRate</b> member of the <a href="https://msdn.microsoft.com/45545d24-1513-4efd-9344-20673c5b98d5">D3D11_INPUT_ELEMENT_DESC</a> structure must be equal to 1. This does not change the full instancing support provided by hardware at feature level 9.3 and above, and is meant to expose the instancing support that may be available on feature level 9.2 and 9.1 hardware.
+Simple instancing means that instancing is supported with the caveat that the <b>InstanceDataStepRate</b> member of the <a href="https://msdn.microsoft.com/45545d24-1513-4efd-9344-20673c5b98d5">D3D11_INPUT_ELEMENT_DESC</a> structure must be equal to 1. This does not change the full instancing support provided by hardware at feature level 9.3 and above, and is meant to expose the instancing support that may be available on feature level 9.2 and 9.1 hardware.
       
 
 

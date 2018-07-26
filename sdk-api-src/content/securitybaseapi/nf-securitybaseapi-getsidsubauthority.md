@@ -4,10 +4,10 @@ title: GetSidSubAuthority function
 author: windows-sdk-content
 description: Returns a pointer to a specified subauthority in a security identifier (SID). The subauthority value is a relative identifier (RID).
 old-location: security\getsidsubauthority.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 3a2d07f3-f1da-477d-b93f-525e3459dc61
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: GetSidSubAuthority, GetSidSubAuthority function [Security], _win32_getsidsubauthority, security.getsidsubauthority, securitybaseapi/GetSidSubAuthority
 ms.prod: windows
 ms.technology: windows-sdk

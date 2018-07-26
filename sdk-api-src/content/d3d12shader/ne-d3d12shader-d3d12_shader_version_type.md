@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_shader_version_type.htm
 old-project: direct3d12
 ms.assetid: 4691452D-3A7B-4890-AE41-B6AF5C541A3B
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_SHADER_VERSION_TYPE, D3D12_SHADER_VERSION_TYPE enumeration, D3D12_SHVER_COMPUTE_SHADER, D3D12_SHVER_DOMAIN_SHADER, D3D12_SHVER_GEOMETRY_SHADER, D3D12_SHVER_HULL_SHADER, D3D12_SHVER_PIXEL_SHADER, D3D12_SHVER_RESERVED0, D3D12_SHVER_VERTEX_SHADER, d3d12shader/D3D12_SHADER_VERSION_TYPE, d3d12shader/D3D12_SHVER_COMPUTE_SHADER, d3d12shader/D3D12_SHVER_DOMAIN_SHADER, d3d12shader/D3D12_SHVER_GEOMETRY_SHADER, d3d12shader/D3D12_SHVER_HULL_SHADER, d3d12shader/D3D12_SHVER_PIXEL_SHADER, d3d12shader/D3D12_SHVER_RESERVED0, d3d12shader/D3D12_SHVER_VERTEX_SHADER, direct3d12.d3d12_shader_version_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Enumerates the types of shaders that Direct3D recognizes.  
+Enumerates the types of shaders that Direct3D recognizes.  
           Used to encode the <b>Version</b> member of the <a href="https://msdn.microsoft.com/FE989434-B1B6-48F3-8F95-64B1E7C988F5">D3D12_SHADER_DESC</a> structure.
         
 
@@ -63,50 +62,43 @@ req.irql:
 
 ### -field D3D12_SHVER_PIXEL_SHADER
 
-
-            Pixel shader.
+Pixel shader.
           
 
 
 ### -field D3D12_SHVER_VERTEX_SHADER
 
-
-            Vertex shader.
+Vertex shader.
           
 
 
 ### -field D3D12_SHVER_GEOMETRY_SHADER
 
-
-            Geometry shader.
+Geometry shader.
           
 
 
 ### -field D3D12_SHVER_HULL_SHADER
 
-
-            Hull shader.
+Hull shader.
           
 
 
 ### -field D3D12_SHVER_DOMAIN_SHADER
 
-
-            Domain shader.
+Domain shader.
           
 
 
 ### -field D3D12_SHVER_COMPUTE_SHADER
 
-
-            Compute shader.
+Compute shader.
           
 
 
 ### -field D3D12_SHVER_RESERVED0
 
-
-            Indicates the end of the enumeration.
+Indicates the end of the enumeration.
           
 
 

@@ -7,7 +7,7 @@ old-location: winauto\iaccpropservices.htm
 old-project: WinAuto
 ms.assetid: 0474dacf-7aa1-4d12-bac2-1091676a1ced
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IAccPropServices, IAccPropServices interface [Windows Accessibility], IAccPropServices interface [Windows Accessibility],described, msaa.iaccpropservices, oleacc/IAccPropServices, winauto.iaccpropservices
 ms.prod: windows
 ms.technology: windows-sdk

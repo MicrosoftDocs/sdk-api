@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tile_shape.htm
 old-project: direct3d12
 ms.assetid: 9FCF949C-B2B8-404F-9E4C-8CC6B636B687
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_TILE_SHAPE, D3D12_TILE_SHAPE structure, d3d12/D3D12_TILE_SHAPE, direct3d12.d3d12_tile_shape
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ The depth in texels of the tile.
 
 
 
-
-        This structure is used by the <a href="https://msdn.microsoft.com/32574750-92D3-4CAF-90C6-BA0DEF1E5464">GetResourceTiling</a>     method.
+This structure is used by the <a href="https://msdn.microsoft.com/32574750-92D3-4CAF-90C6-BA0DEF1E5464">GetResourceTiling</a>     method.
       
 
 

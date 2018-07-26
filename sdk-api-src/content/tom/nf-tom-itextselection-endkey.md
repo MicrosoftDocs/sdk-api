@@ -185,7 +185,7 @@ Failure for some other reason.
 			Setting <i>Extend</i> to <b>tomExtend</b> (or nonzero) corresponds to the Shift key being pressed. Setting <i>Unit</i> to <b>tomLine</b> corresponds to the Ctrl key not being pressed.  Setting <i>Unit</i> to <b>tomStory</b> to Ctrl being pressed. The <i>pDelta</i> parameters receives the number of characters that the insertion point or active end is moved.
 			
 
-The <a href="https://msdn.microsoft.com/library/Bb774044(v=VS.85).aspx">ITextSelection::HomeKey</a> and <b>ITextSelection::EndKey</b> methods are used to mimic the standard Home/End key behavior.
+The <a href="https://msdn.microsoft.com/19c5de79-59b2-4ae6-bcdc-d525ef479d63">ITextSelection::HomeKey</a> and <b>ITextSelection::EndKey</b> methods are used to mimic the standard Home/End key behavior.
 
 The <b>tomLine</b> value mimics the Home or End key behavior 
 				<i>without</i> the Ctrl key pressed, while <b>tomStory</b> mimics the behavior 
@@ -196,11 +196,11 @@ The <b>tomLine</b> value mimics the Home or End key behavior
 				<code>EndKey(tomStory)</code> converts the selection into an insertion point at the end of the associated story, while <code>EndKey(tomStory, tomExtend)</code> moves the active end of the selection to the end of the story and leaves the other end where it was.
 
 The 
-				<a href="https://msdn.microsoft.com/library/Bb774044(v=VS.85).aspx">HomeKey</a> and <b>EndKey</b> methods are logical methods like the <b>Move*</b> methods, rather than directional methods. Thus, they depend on the language that is involved. For example, in Arabic text, 
+				<a href="https://msdn.microsoft.com/19c5de79-59b2-4ae6-bcdc-d525ef479d63">HomeKey</a> and <b>EndKey</b> methods are logical methods like the <b>Move*</b> methods, rather than directional methods. Thus, they depend on the language that is involved. For example, in Arabic text, 
 				<b>HomeKey</b> moves to the right end of a line, whereas in English text, it moves to the left. Thus, 
-				<b>HomeKey</b> and <b>EndKey</b> are different than the <a href="https://msdn.microsoft.com/library/Bb774074(v=VS.85).aspx">MoveLeft</a> and <a href="https://msdn.microsoft.com/library/Bb774076(v=VS.85).aspx">MoveRight</a> methods. Also, note that the <b>EndKey</b> method is quite different from the 
+				<b>HomeKey</b> and <b>EndKey</b> are different than the <a href="https://msdn.microsoft.com/d15ee442-708d-4210-925c-f4320d57330a">MoveLeft</a> and <a href="https://msdn.microsoft.com/7bf0dfad-5397-4898-a794-2789bc5f0291">MoveRight</a> methods. Also, note that the <b>EndKey</b> method is quite different from the 
 				<b>End</b> property, which is the <code>cp</code> at the end of the selection. 
-				<b>HomeKey</b> and <b>EndKey</b> also differ from the <a href="https://msdn.microsoft.com/library/Bb787835(v=VS.85).aspx">StartOf</a> and <a href="https://msdn.microsoft.com/library/Bb787769(v=VS.85).aspx">EndOf</a> methods in that they extend from the active end, whereas 
+				<b>HomeKey</b> and <b>EndKey</b> also differ from the <a href="https://msdn.microsoft.com/29e72fbb-525a-478c-a671-74f5940bb973">StartOf</a> and <a href="https://msdn.microsoft.com/8bee17fc-bbc1-4443-a135-87e76b06467c">EndOf</a> methods in that they extend from the active end, whereas 
 				<b>StartOf</b> extends from Start and 
 				<b>EndOf</b> extends from End.
 
@@ -216,27 +216,27 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787769(v=VS.85).aspx">EndOf</a>
+<a href="https://msdn.microsoft.com/8bee17fc-bbc1-4443-a135-87e76b06467c">EndOf</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774044(v=VS.85).aspx">HomeKey</a>
+<a href="https://msdn.microsoft.com/19c5de79-59b2-4ae6-bcdc-d525ef479d63">HomeKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774060(v=VS.85).aspx">ITextSelection</a>
+<a href="https://msdn.microsoft.com/e6afce18-4f02-4f1c-a2ee-735465d2e168">ITextSelection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774064(v=VS.85).aspx">Move</a>
+<a href="https://msdn.microsoft.com/e1f22fc3-f8b8-465e-9684-94ddd2875be2">Move</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774074(v=VS.85).aspx">MoveLeft</a>
+<a href="https://msdn.microsoft.com/d15ee442-708d-4210-925c-f4320d57330a">MoveLeft</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774076(v=VS.85).aspx">MoveRight</a>
+<a href="https://msdn.microsoft.com/7bf0dfad-5397-4898-a794-2789bc5f0291">MoveRight</a>
 
 
 
@@ -244,11 +244,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787835(v=VS.85).aspx">StartOf</a>
+<a href="https://msdn.microsoft.com/29e72fbb-525a-478c-a671-74f5940bb973">StartOf</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

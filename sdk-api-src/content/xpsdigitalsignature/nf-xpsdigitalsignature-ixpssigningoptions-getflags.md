@@ -7,7 +7,7 @@ old-location: xps\ixpssigningoptions_getflags.htm
 old-project: printdocs
 ms.assetid: 02d07300-e8f2-44fa-a562-5cec03af9a8c
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: GetFlags, GetFlags method [XPS Documents and Packaging], GetFlags method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetFlags method, IXpsSigningOptions.GetFlags, IXpsSigningOptions::GetFlags, xps.ixpssigningoptions_getflags, xpsdigitalsignature/IXpsSigningOptions::GetFlags
 ms.prod: windows
 ms.technology: windows-sdk

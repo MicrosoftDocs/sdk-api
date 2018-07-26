@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_vssetshaderresources.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_vssetshaderresources.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 28e716fb-c3fd-21d0-6820-b83de5a64caa, ID3D10Device interface [Direct3D 10],VSSetShaderResources method, ID3D10Device.VSSetShaderResources, ID3D10Device::VSSetShaderResources, VSSetShaderResources, VSSetShaderResources method [Direct3D 10], VSSetShaderResources method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::VSSetShaderResources, direct3d10.id3d10device_vssetshaderresources
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,9 +75,9 @@ Number of shader resources to set. Up to a maximum of 128 slots are available fo
 
 ### -param ppShaderResourceViews [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173854(v=VS.85).aspx">ID3D10ShaderResourceView</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/303076f3-6057-4f7c-9aa8-a6dd72235ecc">ID3D10ShaderResourceView</a>*</b>
 
-Array of <a href="https://msdn.microsoft.com/library/Bb173854(v=VS.85).aspx">shader resource view</a> interfaces to set to the device.
+Array of <a href="https://msdn.microsoft.com/303076f3-6057-4f7c-9aa8-a6dd72235ecc">shader resource view</a> interfaces to set to the device.
 
 
 ## -returns
@@ -95,7 +95,7 @@ Returns nothing.
 
 If you bind a subresource as an input and an output, this API will fill the destination shader resource slot with <b>NULL</b>. The debug layer (when active) will alert you if this is true.
 
-For information about creating shader-resource views, see <a href="https://msdn.microsoft.com/library/Bb173558(v=VS.85).aspx">ID3D10Device::CreateShaderResourceView</a>.
+For information about creating shader-resource views, see <a href="https://msdn.microsoft.com/32e5d4d0-6686-4bcc-8ddb-fe519544051b">ID3D10Device::CreateShaderResourceView</a>.
 
 The method will not hold a reference to the interfaces passed in. For that reason, applications should be careful not to release an interface currently in use by the device.
 
@@ -107,7 +107,7 @@ The method will not hold a reference to the interfaces passed in. For that reaso
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

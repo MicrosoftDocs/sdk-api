@@ -7,7 +7,7 @@ old-location: intl\iimepadapplet_terminate.htm
 old-project: Intl
 ms.assetid: 864E5CBB-8056-46B5-BF78-9A66EC861F8A
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: IImePadApplet interface [Internationalization for Windows Applications],Terminate method, IImePadApplet.Terminate, IImePadApplet::Terminate, Terminate, Terminate method [Internationalization for Windows Applications], Terminate method [Internationalization for Windows Applications],IImePadApplet interface, imepad/IImePadApplet::Terminate, intl.iimepadapplet_terminate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: PlatformId
+req.typenames: IMESTRUCT, *PIMESTRUCT, *NPIMESTRUCT, *LPIMESTRUCT
 topic_type:
  - APIRef
  - kbSyntax

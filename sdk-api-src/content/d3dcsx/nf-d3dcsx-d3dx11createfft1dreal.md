@@ -7,7 +7,7 @@ old-location: direct3d11\d3dx11createfft1dreal.htm
 old-project: direct3d11
 ms.assetid: 49186642-2591-4943-b686-83bf24f470dd
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 542c01f8-d563-c1ab-aa89-495a7e96e411, D3DX11CreateFFT1DReal, D3DX11CreateFFT1DReal function [Direct3D 11], d3dcsx/D3DX11CreateFFT1DReal, direct3d11.d3dx11createfft1dreal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ A pointer to a variable that receives a pointer to the <a href="https://msdn.mic
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 The return value is one of the values listed in <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

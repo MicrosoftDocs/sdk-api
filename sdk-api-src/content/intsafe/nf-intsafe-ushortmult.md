@@ -7,7 +7,7 @@ old-location: shell\UShortMult.htm
 old-project: shell
 ms.assetid: ecade442-3272-4886-87e1-057f82f465cf
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: UShortMult, UShortMult function [Windows Shell], WordMult, _shell_UShortMult, intsafe/UShortMult, shell.UShortMult
 ms.prod: windows
 ms.technology: windows-sdk

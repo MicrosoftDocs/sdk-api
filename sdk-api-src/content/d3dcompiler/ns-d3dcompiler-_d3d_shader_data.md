@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3d_shader_data.htm
 old-project: direct3dhlsl
 ms.assetid: 34cde0c9-e8ee-428d-86f5-87c91b95f5d8
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/23/2018
 ms.keywords: D3D_SHADER_DATA, D3D_SHADER_DATA structure [HLSL], _D3D_SHADER_DATA, d3dcompiler/D3D_SHADER_DATA, direct3dhlsl.d3d_shader_data
 ms.prod: windows
 ms.technology: windows-sdk

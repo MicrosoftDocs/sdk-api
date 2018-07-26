@@ -4,10 +4,10 @@ title: tagUpdateType
 author: windows-sdk-content
 description: Defines the types of update, such as a driver or software update.
 old-location: wua\updatetype.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 2845075f-f27a-44f5-8dc3-bdf67ce15c79
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: UpdateType, UpdateType enumeration [Windows Update Agent], tagUpdateType, utDriver, utSoftware, wua.updatetype, wuapi/UpdateType, wuapi/utDriver, wuapi/utSoftware
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentKeyboa
 old-project: WinAuto
 ms.assetid: c0b205d3-b36a-4ad5-9d4a-f9d8a1ab7701
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CurrentKeyboardShortcut property [Windows Accessibility], CurrentKeyboardShortcut property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentKeyboardShortcut property, IUIAutomationLegacyIAccessiblePattern.CurrentKeyboardShortcut, IUIAutomationLegacyIAccessiblePattern.get_CurrentKeyboardShortcut, IUIAutomationLegacyIAccessiblePattern::CurrentKeyboardShortcut, IUIAutomationLegacyIAccessiblePattern::get_CurrentKeyboardShortcut, get_CurrentKeyboardShortcut, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentKeyboardShortcut, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentKeyboardShortcut, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentKeyboardShortcut, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentKeyboardShortcut, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentKeyboardShortcut
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

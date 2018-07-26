@@ -4,11 +4,11 @@ title: IConsole2::SetStatusText
 author: windows-sdk-content
 description: The IConsole2::SetStatusText method enables the snap-in to change the text in the status bar. Be aware that this is used only by instances of IComponent.
 old-location: mmc\iconsole2_setstatustext.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 31c95dcc-8bb8-4a11-9977-d4fa2ca30992
 ms.author: windowssdkdev
-ms.date: 07/17/2018
-ms.keywords: IConsole2 interface [MMC],SetStatusText method, IConsole2.SetStatusText, IConsole2::SetStatusText, IConsole3 interface [MMC],SetStatusText method, IConsole3::SetStatusText, SetStatusText, SetStatusText method [MMC], SetStatusText method [MMC],IConsole2 interface, SetStatusText method [MMC],IConsole3 interface, _slate_iconsole2_setstatustext, mmc.iconsole2_setstatustext, mmc/IConsole2::SetStatusText, mmc/IConsole3::SetStatusText
+ms.date: 07/24/2018
+ms.keywords: IConsole2 interface [MMC],SetStatusText method, IConsole2.SetStatusText, IConsole2::SetStatusText, SetStatusText, SetStatusText method [MMC], SetStatusText method [MMC],IConsole2 interface, _slate_iconsole2_setstatustext, mmc.iconsole2_setstatustext, mmc/IConsole2::SetStatusText
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -37,7 +37,6 @@ api_location:
  - Mmcndmgr.dll
 api_name:
  - IConsole2.SetStatusText
- - IConsole3.SetStatusText
 product: Windows
 targetos: Windows
 req.lib: 
@@ -104,10 +103,6 @@ In MMC version 1.1 and later, each multiple-document interface (MDI) child windo
 
 
 <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>
-
-
-
-<a href="https://msdn.microsoft.com/be3d42a4-a18a-40a5-99fc-2cf2a848c564">IConsole3</a>
  
 
  

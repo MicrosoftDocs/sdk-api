@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_enumunresolvedmethods.htm
 old-project: WinRT
 ms.assetid: 8c10a1af-93a5-44d0-818f-f307f5f81075
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: EnumUnresolvedMethods, EnumUnresolvedMethods method [Windows Runtime], EnumUnresolvedMethods method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumUnresolvedMethods method, IMetaDataImport.EnumUnresolvedMethods, IMetaDataImport::EnumUnresolvedMethods, rometadataapi/IMetaDataImport::EnumUnresolvedMethods, winrt.imetadataimport_enumunresolvedmethods
 ms.prod: windows
 ms.technology: windows-sdk

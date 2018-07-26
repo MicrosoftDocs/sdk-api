@@ -57,7 +57,7 @@ Manages a server object's count of marshaled, or external, connections. A server
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExternalConnection</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IExternalConnection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExternalConnection</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IExternalConnection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

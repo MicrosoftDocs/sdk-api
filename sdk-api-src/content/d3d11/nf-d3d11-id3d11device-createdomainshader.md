@@ -2,12 +2,12 @@
 UID: NF:d3d11.ID3D11Device.CreateDomainShader
 title: ID3D11Device::CreateDomainShader
 author: windows-sdk-content
-description: Create a domain shader .
+description: Create a domain shader.
 old-location: direct3d11\id3d11device_createdomainshader.htm
 old-project: direct3d11
 ms.assetid: 414525a8-55ad-4d37-a302-5c30909588f1
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 8c230b52-7c67-4576-98d9-238d464c9620, CreateDomainShader, CreateDomainShader method [Direct3D 11], CreateDomainShader method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateDomainShader method, ID3D11Device.CreateDomainShader, ID3D11Device::CreateDomainShader, d3d11/ID3D11Device::CreateDomainShader, direct3d11.id3d11device_createdomainshader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-Create a <a href="https://msdn.microsoft.com/4ad2fd3e-6e1a-4326-8469-3198acf931dc">domain shader</a>
-.
+Create a <a href="https://msdn.microsoft.com/4ad2fd3e-6e1a-4326-8469-3198acf931dc">domain shader</a>.
 
 
 ## -parameters
@@ -92,7 +91,7 @@ Address of a pointer to a <a href="https://msdn.microsoft.com/cd01c872-4df5-4741
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

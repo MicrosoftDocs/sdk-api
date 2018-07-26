@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_copydescriptorssimple.htm
 old-project: direct3d12
 ms.assetid: 6DA1FCDA-042C-4727-9814-B8F57E14CD51
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: CopyDescriptorsSimple, CopyDescriptorsSimple method, CopyDescriptorsSimple method,ID3D12Device interface, ID3D12Device interface,CopyDescriptorsSimple method, ID3D12Device.CopyDescriptorsSimple, ID3D12Device::CopyDescriptorsSimple, d3d12/ID3D12Device::CopyDescriptorsSimple, direct3d12.id3d12device_copydescriptorssimple
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Copies descriptors from a source to a destination.
+Copies descriptors from a source to a destination.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            The number of descriptors to copy.
+The number of descriptors to copy.
           
 
 
@@ -73,8 +71,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
-
-            A CPU_descriptor_handle that describes the destination descriptors to start to copy to.
+A CPU_descriptor_handle that describes the destination descriptors to start to copy to.
           
 
 
@@ -82,8 +79,7 @@ Type: <b><a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44F
 
 Type: <b><a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
-
-            A CPU_descriptor_handle that describes the source descriptors to start to copy from.
+A CPU_descriptor_handle that describes the source descriptors to start to copy from.
           
 
 
@@ -91,8 +87,7 @@ Type: <b><a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44F
 
 Type: <b><a href="https://msdn.microsoft.com/E74C78BC-B0FC-473A-B4F3-434F50A55E9F">D3D12_DESCRIPTOR_HEAP_TYPE</a></b>
 
-
-            The <a href="https://msdn.microsoft.com/E74C78BC-B0FC-473A-B4F3-434F50A55E9F">D3D12_DESCRIPTOR_HEAP_TYPE</a>-typed value that specifies the type of descriptor heap to copy with.
+The <a href="https://msdn.microsoft.com/E74C78BC-B0FC-473A-B4F3-434F50A55E9F">D3D12_DESCRIPTOR_HEAP_TYPE</a>-typed value that specifies the type of descriptor heap to copy with.
           
 
 
@@ -100,8 +95,7 @@ Type: <b><a href="https://msdn.microsoft.com/E74C78BC-B0FC-473A-B4F3-434F50A55E9
 
 
 
-
-            Returns nothing.
+Returns nothing.
           
 
 

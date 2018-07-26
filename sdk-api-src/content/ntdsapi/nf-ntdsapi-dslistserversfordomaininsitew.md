@@ -7,7 +7,7 @@ old-location: ad\dslistserversfordomaininsite.htm
 old-project: ad
 ms.assetid: 1e346532-bbbe-4b3b-a1cb-6a72319cb3e2
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: DsListServersForDomainInSite, DsListServersForDomainInSite function [Active Directory], DsListServersForDomainInSiteA, DsListServersForDomainInSiteW, _glines_dslistserversfordomaininsite, ad.dslistserversfordomaininsite, ntdsapi/DsListServersForDomainInSite, ntdsapi/DsListServersForDomainInSiteA, ntdsapi/DsListServersForDomainInSiteW
 ms.prod: windows
 ms.technology: windows-sdk

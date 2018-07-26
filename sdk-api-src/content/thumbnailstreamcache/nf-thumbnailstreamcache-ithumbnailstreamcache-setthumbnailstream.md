@@ -7,7 +7,7 @@ old-location: shell\ithumbnailstreamcache_setthumbnailstream.htm
 old-project: shell
 ms.assetid: F2A105BB-9523-49F1-89B6-57CAF35C1AC4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IThumbnailStreamCache interface [Windows Shell],SetThumbnailStream method, IThumbnailStreamCache.SetThumbnailStream, IThumbnailStreamCache::SetThumbnailStream, SetThumbnailStream, SetThumbnailStream method [Windows Shell], SetThumbnailStream method [Windows Shell],IThumbnailStreamCache interface, shell.ithumbnailstreamcache_setthumbnailstream, thumbnailstreamcache/IThumbnailStreamCache::SetThumbnailStream
 ms.prod: windows
 ms.technology: windows-sdk

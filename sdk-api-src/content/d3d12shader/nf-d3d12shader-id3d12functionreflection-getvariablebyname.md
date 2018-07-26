@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12functionreflection_getvariablebyname.htm
 old-project: direct3d12
 ms.assetid: 1E33C1B9-19DA-4ACD-8304-D5315AC63E2B
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetVariableByName, GetVariableByName method, GetVariableByName method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetVariableByName method, ID3D12FunctionReflection.GetVariableByName, ID3D12FunctionReflection::GetVariableByName, d3d12shader/ID3D12FunctionReflection::GetVariableByName, direct3d12.id3d12functionreflection_getvariablebyname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Gets a variable by name.
+Gets a variable by name.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
 
-
-            A pointer to a string containing the variable name.
+A pointer to a string containing the variable name.
           
 
 
@@ -75,8 +73,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/E4CF0C77-2792-46DC-B38F-22C0ACBFD615">ID3D12ShaderReflectionVariable</a>*</b>
 
-
-            Returns a <a href="https://msdn.microsoft.com/E4CF0C77-2792-46DC-B38F-22C0ACBFD615">ID3D12ShaderReflectionVariable Interface</a> interface.
+Returns a <a href="https://msdn.microsoft.com/E4CF0C77-2792-46DC-B38F-22C0ACBFD615">ID3D12ShaderReflectionVariable Interface</a> interface.
           
 
 

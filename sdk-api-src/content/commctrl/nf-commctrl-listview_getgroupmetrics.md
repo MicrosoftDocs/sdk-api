@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Gets information about the display of groups. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb774934(v=VS.85).aspx">LVM_GETGROUPMETRICS</a> message explicitly. 
+Gets information about the display of groups. You can use this macro or send the <a href="https://msdn.microsoft.com/75e7da66-50c6-4834-ae66-e43b8f9b0b34">LVM_GETGROUPMETRICS</a> message explicitly. 
 
 
 ## -parameters
@@ -69,13 +69,13 @@ A handle to the list-view control.
 
 Type: <b>PLVGROUPMETRICS</b>
 
-<a href="https://msdn.microsoft.com/library/Bb774752(v=VS.85).aspx">LVGROUPMETRICS</a>
+<a href="https://msdn.microsoft.com/8cbe72d0-7d99-48fb-b10b-bc862ba93f6e">LVGROUPMETRICS</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_GetGroupMetrics</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_GetGroupMetrics</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

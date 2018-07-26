@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_sender.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0qsy.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxOutgoingJob object [Fax Service],Sender property, FaxOutgoingJob.Sender, IFaxOutgoingJob.get_Sender, IFaxOutgoingJob::get_Sender, Sender property [Fax Service], Sender property [Fax Service],FaxOutgoingJob object, _mfax_faxoutgoingjob.sender, fax._mfax_faxoutgoingjob_sender, get_Sender
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,15 +65,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a>
+<a href="https://msdn.microsoft.com/f9686d11-fd32-4eaf-ae93-399dacf028ac">FaxOutgoingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a>
+<a href="https://msdn.microsoft.com/3b7c9ecb-0528-4cda-9c9a-cb31e4589c71">IFaxOutgoingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693393(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/5fab26c3-99f6-4740-9899-3dccbd26a3ba">Visual Basic Example</a>
  
 
  

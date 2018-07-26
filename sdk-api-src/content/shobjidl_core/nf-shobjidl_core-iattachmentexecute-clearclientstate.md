@@ -7,7 +7,7 @@ old-location: shell\IAttachmentExecute_ClearClientState.htm
 old-project: shell
 ms.assetid: 238e78be-3306-4ac5-95a9-c7fa48c1c4fe
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: ClearClientState, ClearClientState method [Windows Shell], ClearClientState method [Windows Shell],IAttachmentExecute interface, IAttachmentExecute interface [Windows Shell],ClearClientState method, IAttachmentExecute.ClearClientState, IAttachmentExecute::ClearClientState, shell.IAttachmentExecute_ClearClientState, shell_IAttachmentExecute_clearclientstate, shobjidl_core/IAttachmentExecute::ClearClientState
 ms.prod: windows
 ms.technology: windows-sdk

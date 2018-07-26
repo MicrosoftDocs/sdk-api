@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_paragraph_alignment.htm
 old-project: DirectWrite
 ms.assetid: fcd11308-741a-47cb-aa7a-0ae2c7a9e769
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/23/2018
 ms.keywords: DWRITE_PARAGRAPH_ALIGNMENT, DWRITE_PARAGRAPH_ALIGNMENT enumeration [Direct Write], DWRITE_PARAGRAPH_ALIGNMENT_CENTER, DWRITE_PARAGRAPH_ALIGNMENT_FAR, DWRITE_PARAGRAPH_ALIGNMENT_NEAR, directwrite.dwrite_paragraph_alignment, dwrite/DWRITE_PARAGRAPH_ALIGNMENT, dwrite/DWRITE_PARAGRAPH_ALIGNMENT_CENTER, dwrite/DWRITE_PARAGRAPH_ALIGNMENT_FAR, dwrite/DWRITE_PARAGRAPH_ALIGNMENT_NEAR
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-
-    Specifies the alignment of paragraph text along the flow direction axis, relative to the top and bottom of the flow's layout box.
+Specifies the alignment of paragraph text along the flow direction axis, relative to the top and bottom of the flow's layout box.
   
 
 

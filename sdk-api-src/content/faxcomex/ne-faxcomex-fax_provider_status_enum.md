@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_provider_status_enum.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8ejx.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FAX_PROVIDER_STATUS_ENUM, FAX_PROVIDER_STATUS_ENUM enumeration [Fax Service], _mfax_fax_provider_status_enum, fax._mfax_fax_provider_status_enum, faxcomex/FAX_PROVIDER_STATUS_ENUM, faxcomex/fpsBAD_GUID, faxcomex/fpsBAD_VERSION, faxcomex/fpsCANT_INIT, faxcomex/fpsCANT_LINK, faxcomex/fpsCANT_LOAD, faxcomex/fpsSERVER_ERROR, faxcomex/fpsSUCCESS, fpsBAD_GUID, fpsBAD_VERSION, fpsCANT_INIT, fpsCANT_LINK, fpsCANT_LOAD, fpsSERVER_ERROR, fpsSUCCESS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ An error occurred when the fax service called the extension's initialization fun
 
 
 
-<a href="https://msdn.microsoft.com/library/ms687445(v=VS.85).aspx">IFaxDeviceProvider::get_Status</a>
+<a href="https://msdn.microsoft.com/9378fc8c-6667-405e-adaf-bb2b1aca96ee">IFaxDeviceProvider::get_Status</a>
 
 
 

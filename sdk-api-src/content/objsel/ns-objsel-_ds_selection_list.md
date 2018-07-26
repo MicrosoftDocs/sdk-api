@@ -7,7 +7,7 @@ old-location: ad\ds_selection_list.htm
 old-project: ad
 ms.assetid: 15493b8c-014e-4e69-9e67-40b24d44606d
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: "*PDS_SELECTION_LIST, DS_SELECTION_LIST, DS_SELECTION_LIST structure [Active Directory], PDS_SELECTION_LIST, PDS_SELECTION_LIST structure pointer [Active Directory], _DS_SELECTION_LIST, _glines_ds_selection_list, ad.ds__selection__list, ad.ds_selection_list, objsel/DS_SELECTION_LIST, objsel/PDS_SELECTION_LIST"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>DS_SELECTION_LIST</b> structure contains data about the objects the user selected from an object picker dialog box. This structure is supplied by the <a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a> interface supplied by the <a href="https://msdn.microsoft.com/76192a35-10e1-46e3-8724-7637d47d8eca">IDsObjectPicker::InvokeDialog</a> method in the <a href="https://msdn.microsoft.com/cd634e3b-0eb7-4144-b9e1-1d27a322f72c">CFSTR_DSOP_DS_SELECTION_LIST</a> data format.
+The <b>DS_SELECTION_LIST</b> structure contains data about the objects the user selected from an object picker dialog box. This structure is supplied by the <a href="_ole_idataobject">IDataObject</a> interface supplied by the <a href="https://msdn.microsoft.com/76192a35-10e1-46e3-8724-7637d47d8eca">IDsObjectPicker::InvokeDialog</a> method in the <a href="https://msdn.microsoft.com/cd634e3b-0eb7-4144-b9e1-1d27a322f72c">CFSTR_DSOP_DS_SELECTION_LIST</a> data format.
 
 
 
@@ -94,7 +94,7 @@ Contains an array of <a href="https://msdn.microsoft.com/7a587997-0423-450f-a845
 
 
 
-<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2sourcevoice_interface_setfrequencyratio.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.SetFrequencyRatio(float,UINT32)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 07/23/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],SetFrequencyRatio method, IXAudio2SourceVoice.SetFrequencyRatio, IXAudio2SourceVoice::SetFrequencyRatio, SetFrequencyRatio, SetFrequencyRatio method [XAudio2 Audio Mixing APIs], SetFrequencyRatio method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_setfrequencyratio, xaudio2/IXAudio2SourceVoice::SetFrequencyRatio
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Sets the frequency adjustment ratio of the voice.
 
 ### -param Ratio [in]
 
-Frequency adjustment ratio. This value must be between XAUDIO2_MIN_FREQ_RATIO and the <i>MaxFrequencyRatio</i> parameter specified when the voice was created (see <a href="https://msdn.microsoft.com/library/Ee418607(v=VS.85).aspx">IXAudio2::CreateSourceVoice</a>). XAUDIO2_MIN_FREQ_RATIO currently is 0.0005, which allows pitch to be lowered by up to 11 octaves.
+Frequency adjustment ratio. This value must be between XAUDIO2_MIN_FREQ_RATIO and the <i>MaxFrequencyRatio</i> parameter specified when the voice was created (see <a href="https://msdn.microsoft.com/5F37327B-A749-4D2D-A664-7DC45A13FF9A">IXAudio2::CreateSourceVoice</a>). XAUDIO2_MIN_FREQ_RATIO currently is 0.0005, which allows pitch to be lowered by up to 11 octaves.
 
 
 ### -param X2DEFAULT
@@ -98,7 +98,7 @@ If <b>SetFrequencyRatio</b> is called specifying a Ratio value outside the valid
 
 
 
-<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/library/Ee418467(v=VS.85).aspx">IXAudio2SourceVoice::GetFrequencyRatio</a> always returns the voice's actual current frequency ratio. However, this may not match the ratio set by the most recent <b>IXAudio2SourceVoice::SetFrequencyRatio</b> call: the actual ratio is only changed the next time the audio engine runs after the <b>IXAudio2SourceVoice::SetFrequencyRatio</b> call (or after the corresponding <a href="https://msdn.microsoft.com/library/Ee418603(v=VS.85).aspx">IXAudio2::CommitChanges</a> call, if <b>IXAudio2SourceVoice::SetFrequencyRatio</b> was called with a deferred operation ID).</div>
+<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/5A87D428-9C2D-4B89-B817-360C13F60145">IXAudio2SourceVoice::GetFrequencyRatio</a> always returns the voice's actual current frequency ratio. However, this may not match the ratio set by the most recent <b>IXAudio2SourceVoice::SetFrequencyRatio</b> call: the actual ratio is only changed the next time the audio engine runs after the <b>IXAudio2SourceVoice::SetFrequencyRatio</b> call (or after the corresponding <a href="https://msdn.microsoft.com/2E798B7B-AD3E-4DCD-BB88-BAD3EC64EFE1">IXAudio2::CommitChanges</a> call, if <b>IXAudio2SourceVoice::SetFrequencyRatio</b> was called with a deferred operation ID).</div>
 <div> </div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -115,7 +115,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee415914(v=VS.85).aspx">IXAudio2SourceVoice</a>
+<a href="https://msdn.microsoft.com/116DD0E0-8F0B-4934-A48D-FDBE0D0DF049">IXAudio2SourceVoice</a>
  
 
  

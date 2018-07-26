@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection_getbitwiseinstructioncount.htm
 old-project: direct3d12
 ms.assetid: 6862DC01-E75B-4913-882C-27C1CC659086
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetBitwiseInstructionCount, GetBitwiseInstructionCount method, GetBitwiseInstructionCount method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetBitwiseInstructionCount method, ID3D12ShaderReflection.GetBitwiseInstructionCount, ID3D12ShaderReflection::GetBitwiseInstructionCount, d3d12shader/ID3D12ShaderReflection::GetBitwiseInstructionCount, direct3d12.id3d12shaderreflection_getbitwiseinstructioncount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      Gets the number of bitwise instructions.
+Gets the number of bitwise instructions.
         
 
 
@@ -68,8 +67,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            The number of bitwise instructions.
+The number of bitwise instructions.
           
 
 
@@ -79,8 +77,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-
-        This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
+This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
       
 
 

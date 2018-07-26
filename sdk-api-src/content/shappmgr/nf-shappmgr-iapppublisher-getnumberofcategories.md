@@ -7,7 +7,7 @@ old-location: shell\IAppPublisher_GetNumberOfCategories.htm
 old-project: shell
 ms.assetid: 5f03b2e6-7202-477f-84ef-2dfaaa484880
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: GetNumberOfCategories, GetNumberOfCategories method [Windows Shell], GetNumberOfCategories method [Windows Shell],IAppPublisher interface, IAppPublisher interface [Windows Shell],GetNumberOfCategories method, IAppPublisher.GetNumberOfCategories, IAppPublisher::GetNumberOfCategories, inet_IAppPublisher_GetNumberOfCategories, shappmgr/IAppPublisher::GetNumberOfCategories, shell.IAppPublisher_GetNumberOfCategories
 ms.prod: windows
 ms.technology: windows-sdk

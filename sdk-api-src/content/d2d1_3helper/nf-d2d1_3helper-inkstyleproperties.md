@@ -4,10 +4,10 @@ title: InkStyleProperties function
 author: windows-sdk-content
 description: Creates a D2D1_INK_STYLE_PROPERTIES structure.
 old-location: direct2d\inkstyleproperties.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: a923ce8e-71a0-6332-13e1-a4d58750d1ff
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: InkStyleProperties, InkStyleProperties function [Direct2D], d2d1_3helper/InkStyleProperties, direct2d.inkstyleproperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Creates a <a href="https://msdn.microsoft.com/81B9E108-D0A6-4F7E-8BE9-76A570B1D050">D2D1_INK_STYLE_PROPERTIES</a> structure.
+Creates a <a href="https://msdn.microsoft.com/81B9E108-D0A6-4F7E-8BE9-76A570B1D050">D2D1_INK_STYLE_PROPERTIES</a> structure.
         
 
 
@@ -80,8 +79,7 @@ The transform applied to the nib. Note that the translation components of the tr
 
 Type: <b><a href="https://msdn.microsoft.com/81B9E108-D0A6-4F7E-8BE9-76A570B1D050">D2D1_INK_STYLE_PROPERTIES</a></b>
 
-
-            Returns the created <a href="https://msdn.microsoft.com/81B9E108-D0A6-4F7E-8BE9-76A570B1D050">D2D1_INK_STYLE_PROPERTIES</a> structure.
+Returns the created <a href="https://msdn.microsoft.com/81B9E108-D0A6-4F7E-8BE9-76A570B1D050">D2D1_INK_STYLE_PROPERTIES</a> structure.
           
 
 

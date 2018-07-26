@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITableProvider_RowOrColumnMajor.htm
 old-project: WinAuto
 ms.assetid: 9123bc22-2e48-4e4b-acc9-f11098970197
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: ITableProvider interface [Windows Accessibility],RowOrColumnMajor property, ITableProvider.RowOrColumnMajor, ITableProvider.get_RowOrColumnMajor, ITableProvider::RowOrColumnMajor, ITableProvider::get_RowOrColumnMajor, RowOrColumnMajor property [Windows Accessibility], RowOrColumnMajor property [Windows Accessibility],ITableProvider interface, get_RowOrColumnMajor, uiauto.uiauto_ITableProvider_RowOrColumnMajor, uiauto_ITableProvider_RowOrColumnMajor, uiautomationcore/ITableProvider::RowOrColumnMajor, uiautomationcore/ITableProvider::get_RowOrColumnMajor, winauto.uiauto_ITableProvider_RowOrColumnMajor
 ms.prod: windows
 ms.technology: windows-sdk

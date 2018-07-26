@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_beginevent.htm
 old-project: direct3d12
 ms.assetid: 2A5292C0-ED9B-4E3C-87E4-88EA2FF09B28
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: BeginEvent, BeginEvent method, BeginEvent method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,BeginEvent method, ID3D12GraphicsCommandList.BeginEvent, ID3D12GraphicsCommandList::BeginEvent, d3d12/ID3D12GraphicsCommandList::BeginEvent, direct3d12.id3d12graphicscommandlist_beginevent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Not intended to be called directly.  Use the
+Not intended to be called directly.  Use the
         <a href="https://blogs.msdn.microsoft.com/pix/winpixeventruntime/">PIX event runtime</a> to insert events into a command list.
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            Internal.
+Internal.
           
 
 
@@ -73,8 +71,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">void</a>*</b>
 
-
-            Internal.
+Internal.
           
 
 
@@ -82,8 +79,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            Internal.
+Internal.
 
           
 
@@ -92,8 +88,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 

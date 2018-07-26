@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getmessage.htm
 old-project: direct3d12
 ms.assetid: B7B6D1C4-18FD-492A-8346-CA02FCD3EC4B
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetMessage, GetMessage method, GetMessage method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetMessage method, ID3D12InfoQueue.GetMessage, ID3D12InfoQueue::GetMessage, d3d12sdklayers/ID3D12InfoQueue::GetMessage, direct3d12.id3d12infoqueue_getmessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Get a message from the message queue.
+Get a message from the message queue.
 
 
 
@@ -75,8 +74,7 @@ Index into message queue after an optional retrieval filter has been applied. Th
 
 Type: <b><a href="https://msdn.microsoft.com/DED84AC1-0126-450E-8A0A-1336BB4084D4">D3D12_MESSAGE</a>*</b>
 
-
-            Returned message.
+Returned message.
 
 
 ### -param pMessageByteLength [in, out]
@@ -92,10 +90,9 @@ Size of <i>pMessage</i> in bytes.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-
-            This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>. 
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>. 
           
 
 

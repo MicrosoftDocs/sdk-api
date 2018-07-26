@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_CurrentSelectionC
 old-project: WinAuto
 ms.assetid: e4e9ac5f-15d2-491f-9f23-3da7a5bf8fe2
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CurrentSelectionContainer property [Windows Accessibility], CurrentSelectionContainer property [Windows Accessibility],IUIAutomationSelectionItemPattern interface, IUIAutomationSelectionItemPattern interface [Windows Accessibility],CurrentSelectionContainer property, IUIAutomationSelectionItemPattern.CurrentSelectionContainer, IUIAutomationSelectionItemPattern.get_CurrentSelectionContainer, IUIAutomationSelectionItemPattern::CurrentSelectionContainer, IUIAutomationSelectionItemPattern::get_CurrentSelectionContainer, get_CurrentSelectionContainer, uiauto.uiauto_IUIAutomationSelectionItemPattern_CurrentSelectionContainer, uiauto_IUIAutomationSelectionItemPattern_CurrentSelectionContainer, uiautomationclient/IUIAutomationSelectionItemPattern::CurrentSelectionContainer, uiautomationclient/IUIAutomationSelectionItemPattern::get_CurrentSelectionContainer, winauto.uiauto_IUIAutomationSelectionItemPattern_CurrentSelectionContainer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

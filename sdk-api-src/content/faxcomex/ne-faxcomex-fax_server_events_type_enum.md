@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_server_events_type_enum.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_61t9.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FAX_SERVER_EVENTS_TYPE_ENUM, FAX_SERVER_EVENTS_TYPE_ENUM enumeration [Fax Service], _mfax_fax_server_events_type_enum, fax._mfax_fax_server_events_type_enum, faxcomex/FAX_SERVER_EVENTS_TYPE_ENUM, faxcomex/fsetACTIVITY, faxcomex/fsetCONFIG, faxcomex/fsetDEVICE_STATUS, faxcomex/fsetFXSSVC_ENDED, faxcomex/fsetINCOMING_CALL, faxcomex/fsetIN_ARCHIVE, faxcomex/fsetIN_QUEUE, faxcomex/fsetNONE, faxcomex/fsetOUT_ARCHIVE, faxcomex/fsetOUT_QUEUE, faxcomex/fsetQUEUE_STATE, fsetACTIVITY, fsetCONFIG, fsetDEVICE_STATUS, fsetFXSSVC_ENDED, fsetINCOMING_CALL, fsetIN_ARCHIVE, fsetIN_QUEUE, fsetNONE, fsetOUT_ARCHIVE, fsetOUT_QUEUE, fsetQUEUE_STATE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,13 +118,13 @@ The client requests notifications when there is an incoming call.
 
 
 
-The following table lists the <a href="https://msdn.microsoft.com/library/ms690086(v=VS.85).aspx">IFaxServerNotify</a> methods called by each member.
+The following table lists the <a href="https://msdn.microsoft.com/e8192f70-b0aa-4055-b67b-ff95991b66f2">IFaxServerNotify</a> methods called by each member.
 
 <table class="clsStd">
 <tr>
 <th>Name</th>
 <th>
-<a href="https://msdn.microsoft.com/library/ms690086(v=VS.85).aspx">IFaxServerNotify</a> method called</th>
+<a href="https://msdn.microsoft.com/e8192f70-b0aa-4055-b67b-ff95991b66f2">IFaxServerNotify</a> method called</th>
 </tr>
 <tr>
 <td>
@@ -269,13 +269,13 @@ fsetINCOMING_CALL
 </table>
  
 
-The following table lists the <a href="https://msdn.microsoft.com/library/Aa358971(v=VS.85).aspx">IFaxServerNotify2</a> methods called by each member.
+The following table lists the <a href="https://msdn.microsoft.com/ebd959d0-516c-46a0-95cc-78aa49d50cc1">IFaxServerNotify2</a> methods called by each member.
 
 <table class="clsStd">
 <tr>
 <th>Name</th>
 <th>
-<a href="https://msdn.microsoft.com/library/Aa358971(v=VS.85).aspx">IFaxServerNotify2</a> method called</th>
+<a href="https://msdn.microsoft.com/ebd959d0-516c-46a0-95cc-78aa49d50cc1">IFaxServerNotify2</a> method called</th>
 </tr>
 <tr>
 <td>
@@ -434,7 +434,7 @@ fsetINCOMING_CALL
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690086(v=VS.85).aspx">IFaxServerNotify</a>
+<a href="https://msdn.microsoft.com/e8192f70-b0aa-4055-b67b-ff95991b66f2">IFaxServerNotify</a>
  
 
  

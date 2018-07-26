@@ -231,7 +231,7 @@ Dismount requests to stand alone drives place the drive in the dismountable stat
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb540727(v=VS.85).aspx">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
  
 
  

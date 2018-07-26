@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawclipper_gethwnd.htm
 old-project: directdraw
 ms.assetid: 025e898f-e160-4485-87cf-f5fbc014e9f1
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/23/2018
 ms.keywords: GetHWnd, GetHWnd method [DirectDraw], GetHWnd method [DirectDraw],IDirectDrawClipper interface, IDirectDrawClipper interface [DirectDraw],GetHWnd method, IDirectDrawClipper.GetHWnd, IDirectDrawClipper::GetHWnd, ddraw/IDirectDrawClipper::GetHWnd, directdraw.idirectdrawclipper_gethwnd
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: InitializeSecurityDescriptor function
 author: windows-sdk-content
 description: Initializes a new security descriptor.
 old-location: security\initializesecuritydescriptor.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 234fcda4-7d30-4c3f-a036-7ace58ca8a3c
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: InitializeSecurityDescriptor, InitializeSecurityDescriptor function [Security], _win32_initializesecuritydescriptor, security.initializesecuritydescriptor, securitybaseapi/InitializeSecurityDescriptor
 ms.prod: windows
 ms.technology: windows-sdk

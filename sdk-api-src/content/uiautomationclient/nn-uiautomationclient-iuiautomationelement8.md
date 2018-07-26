@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement8.htm
 old-project: WinAuto
 ms.assetid: EEADC0FE-279C-4CA1-A812-5D7C37A48AEE
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IUIAutomationElement8, IUIAutomationElement8 interface [Windows Accessibility], IUIAutomationElement8 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationElement8, winauto.uiauto_IUIAutomationElement8
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

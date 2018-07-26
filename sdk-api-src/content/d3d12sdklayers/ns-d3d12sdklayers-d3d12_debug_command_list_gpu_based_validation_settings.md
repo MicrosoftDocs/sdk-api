@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_debug_command_list_gpu_based_validation_settings.
 old-project: direct3d12
 ms.assetid: CAFEFC8D-9A7A-4DB2-AFEC-69B1ABE87C82
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_DEBUG_COMMAND_LIST_GPU_BASED_VALIDATION_SETTINGS, D3D12_DEBUG_COMMAND_LIST_GPU_BASED_VALIDATION_SETTINGS structure, d3d12sdklayers/D3D12_DEBUG_COMMAND_LIST_GPU_BASED_VALIDATION_SETTINGS, direct3d12.d3d12_debug_command_list_gpu_based_validation_settings
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,8 +66,6 @@ Specifies a <a href="https://msdn.microsoft.com/A7E7D1E5-8547-4898-B139-EF909D8B
 
 
 ## -remarks
-
-
 
 
 

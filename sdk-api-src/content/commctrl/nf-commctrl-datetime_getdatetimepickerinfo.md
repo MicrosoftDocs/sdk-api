@@ -67,7 +67,7 @@ A handle to the DTP control.
 
 ### -param pdtpi [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb761729(v=VS.85).aspx">DATETIMEPICKERINFO</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/59180380-c6f6-46f4-8770-39cd42574b62">DATETIMEPICKERINFO</a>*</b>
 
-<a href="https://msdn.microsoft.com/library/Bb761729(v=VS.85).aspx">DATETIMEPICKERINFO</a>
+<a href="https://msdn.microsoft.com/59180380-c6f6-46f4-8770-39cd42574b62">DATETIMEPICKERINFO</a>
 <b>cbSize</b>

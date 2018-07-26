@@ -7,7 +7,7 @@ old-location: xps\ixpsomremotedictionaryresource1.htm
 old-project: printdocs
 ms.assetid: 4B8DEDC7-4D7A-408F-9B2B-67B6FC87372F
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IXpsOMRemoteDictionaryResource1, IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging], IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging],described, xps.ixpsomremotedictionaryresource1, xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1
 ms.prod: windows
 ms.technology: windows-sdk

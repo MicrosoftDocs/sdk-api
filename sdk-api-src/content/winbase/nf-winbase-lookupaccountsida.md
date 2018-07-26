@@ -4,10 +4,10 @@ title: LookupAccountSidA function
 author: windows-sdk-content
 description: Accepts a security identifier (SID) as input. It retrieves the name of the account for this SID and the name of the first domain on which this SID is found.
 old-location: security\lookupaccountsid.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: b8a44ffc-86e1-4f79-ad51-8340da9eaefd
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: LookupAccountSid, LookupAccountSid function [Security], LookupAccountSidA, LookupAccountSidW, _win32_lookupaccountsid, security.lookupaccountsid, winbase/LookupAccountSid, winbase/LookupAccountSidA, winbase/LookupAccountSidW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -167,7 +167,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

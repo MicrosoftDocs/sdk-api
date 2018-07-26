@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ILegacyIAccessibleProvider.htm
 old-project: WinAuto
 ms.assetid: 9d911238-05d9-4bba-920f-40ca23ab9549
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: ILegacyIAccessibleProvider, ILegacyIAccessibleProvider interface [Windows Accessibility], ILegacyIAccessibleProvider interface [Windows Accessibility],described, uiauto.uiauto_ILegacyIAccessibleProvider, uiauto_ILegacyIAccessibleProvider, uiautomationcore/ILegacyIAccessibleProvider, winauto.uiauto_ILegacyIAccessibleProvider
 ms.prod: windows
 ms.technology: windows-sdk

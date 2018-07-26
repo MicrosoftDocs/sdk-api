@@ -4,10 +4,10 @@ title: View::Deselect
 author: windows-sdk-content
 description: The Deselect method removes the specified node from the current selection.
 old-location: mmc\view_deselect.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: c15795f3-6c9c-43df-8fd4-534d22c4763a
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: Deselect, Deselect method [MMC], Deselect method [MMC],View interface, Deselect method [MMC],View object, View interface [MMC],Deselect method, View object [MMC],Deselect method, View.Deselect, View::Deselect, _slate_view.deselect_method, mmc.view_deselect
 ms.prod: windows
 ms.technology: windows-sdk

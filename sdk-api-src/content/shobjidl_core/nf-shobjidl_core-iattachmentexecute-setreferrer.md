@@ -7,7 +7,7 @@ old-location: shell\IAttachmentExecute_SetReferrer.htm
 old-project: shell
 ms.assetid: d7ee869a-2afe-4d98-a0bb-d80e57425079
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetReferrer method, IAttachmentExecute.SetReferrer, IAttachmentExecute::SetReferrer, SetReferrer, SetReferrer method [Windows Shell], SetReferrer method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetReferrer, shell.IAttachmentExecute_SetReferrer, shobjidl_core/IAttachmentExecute::SetReferrer
 ms.prod: windows
 ms.technology: windows-sdk

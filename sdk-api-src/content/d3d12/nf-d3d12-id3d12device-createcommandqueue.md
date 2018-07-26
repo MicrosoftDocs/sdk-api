@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createcommandqueue.htm
 old-project: direct3d12
 ms.assetid: 556D068C-9939-4B42-AFC2-4EBB2D7B553B
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: CreateCommandQueue, CreateCommandQueue method, CreateCommandQueue method,ID3D12Device interface, ID3D12Device interface,CreateCommandQueue method, ID3D12Device.CreateCommandQueue, ID3D12Device::CreateCommandQueue, d3d12/ID3D12Device::CreateCommandQueue, direct3d12.id3d12device_createcommandqueue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Creates a command queue.
 
 Type: <b>const <a href="https://msdn.microsoft.com/8C43C45B-0A7B-4336-B546-1E6F13D153F3">D3D12_COMMAND_QUEUE_DESC</a>*</b>
 
-
-            Specifies a D3D12_COMMAND_QUEUE_DESC that describes the command queue.
+Specifies a D3D12_COMMAND_QUEUE_DESC that describes the command queue.
           
 
 
@@ -71,8 +70,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/8C43C45B-0A7B-4336-B546-1E6F1
 
 Type: <b><b>REFIID</b></b>
 
-
-            The globally unique identifier (GUID) for the command queue interface. See remarks.  An input parameter.
+The globally unique identifier (GUID) for the command queue interface. See remarks.  An input parameter.
           
 
 
@@ -80,8 +78,7 @@ Type: <b><b>REFIID</b></b>
 
 Type: <b><b>void</b>**</b>
 
-
-            A pointer to a memory block that receives a pointer to the <a href="https://msdn.microsoft.com/88A4E8BA-02B9-48A1-8E46-2D2560544539">ID3D12CommandQueue</a> interface for the command queue.
+A pointer to a memory block that receives a pointer to the <a href="https://msdn.microsoft.com/88A4E8BA-02B9-48A1-8E46-2D2560544539">ID3D12CommandQueue</a> interface for the command queue.
           
 
 
@@ -89,10 +86,9 @@ Type: <b><b>void</b>**</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-
-            This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the command queue.
+This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the command queue.
             See <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> for other possible return values.
           
 
@@ -103,15 +99,13 @@ Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRE
 
 
 
-
-        The <b>REFIID</b>, or <b>GUID</b>, of the interface to the command queue can be obtained by using the __uuidof() macro. For example, __uuidof(ID3D12CommandQueue) will get the <b>GUID</b> of the interface to a command queue.
+The <b>REFIID</b>, or <b>GUID</b>, of the interface to the command queue can be obtained by using the __uuidof() macro. For example, __uuidof(ID3D12CommandQueue) will get the <b>GUID</b> of the interface to a command queue.
       
 
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12Device::CreateCommandQueue</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12Device::CreateCommandQueue</b> as follows:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>

@@ -4,10 +4,10 @@ title: IFsrmFileGroupImported
 author: windows-sdk-content
 description: Used to configure imported file group objects.
 old-location: fsrm\ifsrmfilegroupimported.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: fb4f6b03-01cc-4855-8bc7-de5191068040
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: IFsrmFileGroupImported, IFsrmFileGroupImported interface [File Server Resource Manager], IFsrmFileGroupImported interface [File Server Resource Manager],described, fs.ifsrmfilegroupimported, fsrm.ifsrmfilegroupimported, fsrm/IFsrmFileGroupImported
 ms.prod: windows
 ms.technology: windows-sdk

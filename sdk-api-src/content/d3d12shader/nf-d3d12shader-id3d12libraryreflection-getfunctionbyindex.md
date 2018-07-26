@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12libraryreflection_getfunctionbyindex.htm
 old-project: direct3d12
 ms.assetid: 1600824A-6C9E-4C87-8D6B-07F299D47A53
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetFunctionByIndex, GetFunctionByIndex method, GetFunctionByIndex method,ID3D12LibraryReflection interface, ID3D12LibraryReflection interface,GetFunctionByIndex method, ID3D12LibraryReflection.GetFunctionByIndex, ID3D12LibraryReflection::GetFunctionByIndex, d3d12shader/ID3D12LibraryReflection::GetFunctionByIndex, direct3d12.id3d12libraryreflection_getfunctionbyindex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Gets the function reflector.
+Gets the function reflector.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b>INT</b>
 
-
-            The zero-based index of the function reflector to retrieve.
+The zero-based index of the function reflector to retrieve.
           
 
 
@@ -75,8 +73,7 @@ Type: <b>INT</b>
 
 Type: <b><a href="https://msdn.microsoft.com/F0BF4AA9-66D7-4A33-A51C-B03C1D61F537">ID3D12FunctionReflection</a>*</b>
 
-
-            The function reflector, as a pointer to <a href="https://msdn.microsoft.com/F0BF4AA9-66D7-4A33-A51C-B03C1D61F537">ID3D12FunctionReflection</a>.
+The function reflector, as a pointer to <a href="https://msdn.microsoft.com/F0BF4AA9-66D7-4A33-A51C-B03C1D61F537">ID3D12FunctionReflection</a>.
           
 
 

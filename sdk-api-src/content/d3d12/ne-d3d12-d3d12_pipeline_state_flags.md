@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_pipeline_state_flags.htm
 old-project: direct3d12
 ms.assetid: DAE5C06B-ED1F-4B35-812E-31E26B51704C
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_PIPELINE_STATE_FLAGS, D3D12_PIPELINE_STATE_FLAGS enumeration, D3D12_PIPELINE_STATE_FLAG_NONE, D3D12_PIPELINE_STATE_FLAG_TOOL_DEBUG, d3d12/D3D12_PIPELINE_STATE_FLAGS, d3d12/D3D12_PIPELINE_STATE_FLAG_NONE, d3d12/D3D12_PIPELINE_STATE_FLAG_TOOL_DEBUG, direct3d12.d3d12_pipeline_state_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Flags to control pipeline state.
+Flags to control pipeline state.
         
 
 
@@ -62,15 +61,13 @@ req.irql:
 
 ### -field D3D12_PIPELINE_STATE_FLAG_NONE
 
-
-            Indicates no flags.
+Indicates no flags.
           
 
 
 ### -field D3D12_PIPELINE_STATE_FLAG_TOOL_DEBUG
 
-
-            Indicates that the pipeline state should be compiled with additional information to assist debugging.
+Indicates that the pipeline state should be compiled with additional information to assist debugging.
           This can only be set on WARP devices.
 
 
@@ -79,12 +76,9 @@ req.irql:
 
 
 
-
-          This enum is used by the <b>Flags</b> member of the
-          <a href="https://msdn.microsoft.com/35D10150-A633-4D38-B684-3E2DF357FFC0">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a>
-          and 
-          <a href="https://msdn.microsoft.com/46C785C6-8294-410F-A8D5-7E5F85FA5C75">D3D12_COMPUTE_PIPELINE_STATE_DESC</a>
-          structures.
+This enum is used by the <b>Flags</b> member of the
+          <a href="https://msdn.microsoft.com/35D10150-A633-4D38-B684-3E2DF357FFC0">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a>and 
+          <a href="https://msdn.microsoft.com/46C785C6-8294-410F-A8D5-7E5F85FA5C75">D3D12_COMPUTE_PIPELINE_STATE_DESC</a>structures.
         
 
 

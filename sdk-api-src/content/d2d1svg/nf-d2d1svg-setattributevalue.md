@@ -4,10 +4,10 @@ title: SetAttributeValue function
 author: windows-sdk-content
 description: Sets an attribute of this element.
 old-location: direct2d\id2d1svgelement_setattributevalue_overload.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 33403a07-28d1-4138-ea7f-04f3ac42a8f7
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: ID2D1SvgElement::SetAttributeValue, SetAttributeValue, SetAttributeValue methods [Direct2D], d2d1svg/SetAttributeValue, direct2d.id2d1svgelement_setattributevalue_overload
 ms.prod: windows
 ms.technology: windows-sdk

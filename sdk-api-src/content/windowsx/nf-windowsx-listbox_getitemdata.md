@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the application-defined value associated with the specified list box item. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775202(v=VS.85).aspx">LB_GETITEMDATA</a> message explicitly.
+Gets the application-defined value associated with the specified list box item. You can use this macro or send the <a href="https://msdn.microsoft.com/3a3f7fa5-ce04-4e95-86e1-5c7de796d1b6">LB_GETITEMDATA</a> message explicitly.
 
 
 ## -parameters

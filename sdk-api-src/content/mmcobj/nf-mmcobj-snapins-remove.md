@@ -4,10 +4,10 @@ title: SnapIns::Remove
 author: windows-sdk-content
 description: The Remove method removes a SnapIn object from the collection. Removing the snap-in from the collection removes it from the console as well.
 old-location: mmc\snapins_remove.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: a75fda6c-701f-4d68-8f91-8781fc412a0d
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: Remove, Remove method [MMC], Remove method [MMC],SnapIns interface, Remove method [MMC],SnapIns object, SnapIns interface [MMC],Remove method, SnapIns object [MMC],Remove method, SnapIns.Remove, SnapIns::Remove, _slate_snapins.remove_method, mmc.snapins_remove
 ms.prod: windows
 ms.technology: windows-sdk

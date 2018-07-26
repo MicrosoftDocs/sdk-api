@@ -4,10 +4,10 @@ title: CreateBitmapFromDxgiSurface function
 author: windows-sdk-content
 description: Creates a bitmap from a DXGI surface that can be set as a target surface or have additional color context information specified.
 old-location: direct2d\id2d1devicecontext_createbitmapfromdxgisurface_overload.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: E8C62877-DE26-4819-B9AA-980E473617AD
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: CreateBitmapFromDxgiSurface, CreateBitmapFromDxgiSurface methods [Direct2D], ID2D1DeviceContext::CreateBitmapFromDxgiSurface, d2d1_1/CreateBitmapFromDxgiSurface, direct2d.id2d1devicecontext_createbitmapfromdxgisurface_overload
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winprog\euserallocationstate.htm
 old-project: devnotes
 ms.assetid: 8aa46c8a-1261-47da-8145-e7ff9826d2ab
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: AllocationStateBusy, AllocationStateFree, AllocationStateUnknown, avrfsdk/AllocationStateBusy, avrfsdk/AllocationStateFree, avrfsdk/AllocationStateUnknown, avrfsdk/eUserAllocationState, base.euserallocationstate, eUserAllocationState, eUserAllocationState enumeration [Windows API], winprog.euserallocationstate
 ms.prod: windows
 ms.technology: windows-sdk

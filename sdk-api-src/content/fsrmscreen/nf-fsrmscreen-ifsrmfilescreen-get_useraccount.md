@@ -2,13 +2,13 @@
 UID: NF:fsrmscreen.IFsrmFileScreen.get_UserAccount
 title: IFsrmFileScreen::get_UserAccount
 author: windows-sdk-content
-description: The account name of the user whose files will be screened.
-old-location: fsrm\ifsrmfilescreen_useraccount.htm
-old-project: fsrm
-ms.assetid: c47a61b8-3e9b-404f-9100-8e8ccb08ecd1
+description: Retrieves the string form of the user account that is associated with the file screen.
+old-location: fsrm\ifsrmfilescreenbase_useraccount.htm
+old-project: Fsrm
+ms.assetid: 5ed4a98d-eb92-41bc-a193-cdc257ead5c0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
-ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],UserAccount property, IFsrmFileScreen.UserAccount, IFsrmFileScreen.get_UserAccount, IFsrmFileScreen::UserAccount, IFsrmFileScreen::get_UserAccount, UserAccount property [File Server Resource Manager], UserAccount property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_useraccount, fsrm.ifsrmfilescreen_useraccount, fsrmscreen/IFsrmFileScreen::UserAccount, fsrmscreen/IFsrmFileScreen::get_UserAccount, get_UserAccount
+ms.date: 07/23/2018
+ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],UserAccount property, IFsrmFileScreen.UserAccount, IFsrmFileScreen.get_UserAccount, IFsrmFileScreen::UserAccount, IFsrmFileScreen::get_UserAccount, UserAccount property [File Server Resource Manager], UserAccount property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreenbase_useraccount, fsrm.ifsrmfilescreenbase_useraccount, fsrmscreen/IFsrmFileScreen::UserAccount, fsrmscreen/IFsrmFileScreen::get_UserAccount, get_UserAccount
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -52,16 +52,21 @@ req.product: Internet Explorer 5
 ## -description
 
 
-<p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/86ee74e0-64d5-478a-8150-0f4b37e56694">MSFT_FSRMFileScreen</a> class.]
-
-The account name of the user whose files will be screened.
+Retrieves the string form of the user account that is associated with the file screen.
 
 This property is read-only.
 
 
 ## -parameters
+
+
+## -remarks
+
+
+
+This method always returns the string form of the account that corresponds to the well-known SID, <a href="https://msdn.microsoft.com/6f1fa59e-17c0-412b-937b-ddf746ed68bd">WinNULLSid</a>.
+
+
 
 
 ## -see-also
@@ -73,7 +78,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/86ee74e0-64d5-478a-8150-0f4b37e56694">MSFT_FSRMFileScreen</a>
+<a href="https://msdn.microsoft.com/9e52af8c-e03b-4b44-83bd-541fe1419d6c">IFsrmFileScreenBase</a>
  
 
  

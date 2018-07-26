@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dgetdebuginfo.htm
 old-project: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dgetdebuginfo.htm
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/23/2018
 ms.keywords: D3DGetDebugInfo, D3DGetDebugInfo function [HLSL], d3dcompiler/D3DGetDebugInfo, direct3dhlsl.d3dgetdebuginfo, f21b6ffa-9910-4ce4-b2dc-07e7ad540fac
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-1
 
 
 
-Debug information is embedded in the body of the shader after calling <a href="https://msdn.microsoft.com/library/Dd607324(v=VS.85).aspx">D3DCompile</a>.
+Debug information is embedded in the body of the shader after calling <a href="https://msdn.microsoft.com/feb3d4d1-06ce-4141-9267-c6c771659aa7">D3DCompile</a>.
 
 
 

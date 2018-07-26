@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shadertrace.htm
 old-project: direct3d11
 ms.assetid: 27FF1E53-262A-4642-A4A8-7E21163C6DF9
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11ShaderTrace, ID3D11ShaderTrace interface [Direct3D 11], ID3D11ShaderTrace interface [Direct3D 11],described, d3d11shadertracing/ID3D11ShaderTrace, direct3d11.id3d11shadertrace
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,7 +149,7 @@ Specifies that the shader trace recorded and is ready to use.
 
 
 
-To retrieve an instance of <b>ID3D11ShaderTrace</b>, call the <a href="https://msdn.microsoft.com/8F63E8B3-0E36-49D5-AB3B-1B1C7A9B841A">ID3D11ShaderTraceFactory::CreateShaderTrace</a> method. To retrieve an instance of <a href="https://msdn.microsoft.com/0B90EA4B-0176-49DC-8A57-4D847552EFA3">ID3D11ShaderTraceFactory</a>, call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> on a <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a> that you created with <a href="https://msdn.microsoft.com/library/Ff476107(v=VS.85).aspx">D3D11_CREATE_DEVICE_DEBUGGABLE</a>. Although shader tracing operates without setting <b>D3D11_CREATE_DEVICE_DEBUGGABLE</b>, we recommend that you create a shader debugging device because some devices (for example, <a href="https://msdn.microsoft.com/6daf661e-bc24-4b90-83a7-031acb57cf87">WARP</a> devices) might make behind-the-scenes shader optimizations that will lead to slightly incorrect shader traces when <b>D3D11_CREATE_DEVICE_DEBUGGABLE</b> isn't set.
+To retrieve an instance of <b>ID3D11ShaderTrace</b>, call the <a href="https://msdn.microsoft.com/8F63E8B3-0E36-49D5-AB3B-1B1C7A9B841A">ID3D11ShaderTraceFactory::CreateShaderTrace</a> method. To retrieve an instance of <a href="https://msdn.microsoft.com/0B90EA4B-0176-49DC-8A57-4D847552EFA3">ID3D11ShaderTraceFactory</a>, call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> on a <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a> that you created with <a href="d3d11_create_device_flag.htm">D3D11_CREATE_DEVICE_DEBUGGABLE</a>. Although shader tracing operates without setting <b>D3D11_CREATE_DEVICE_DEBUGGABLE</b>, we recommend that you create a shader debugging device because some devices (for example, <a href="https://msdn.microsoft.com/6daf661e-bc24-4b90-83a7-031acb57cf87">WARP</a> devices) might make behind-the-scenes shader optimizations that will lead to slightly incorrect shader traces when <b>D3D11_CREATE_DEVICE_DEBUGGABLE</b> isn't set.
 
 
 All <b>ID3D11ShaderTrace</b> methods are thread safe.

@@ -7,7 +7,7 @@ old-location: shell\IFileOperationProgressSink_PreDeleteItem.htm
 old-project: shell
 ms.assetid: bf54f2da-4861-4546-9b1e-35b5983e836c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PreDeleteItem method, IFileOperationProgressSink.PreDeleteItem, IFileOperationProgressSink::PreDeleteItem, PreDeleteItem, PreDeleteItem method [Windows Shell], PreDeleteItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PreDeleteItem, shell.IFileOperationProgressSink_PreDeleteItem, shobjidl_core/IFileOperationProgressSink::PreDeleteItem
 ms.prod: windows
 ms.technology: windows-sdk

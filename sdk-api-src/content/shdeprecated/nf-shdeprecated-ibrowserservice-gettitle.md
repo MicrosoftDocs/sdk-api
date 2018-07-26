@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_GetTitle.htm
 old-project: shell
 ms.assetid: e5b514e3-8729-4902-961f-177dc1e77aee
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: GetTitle, GetTitle method [Windows Shell], GetTitle method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetTitle method, IBrowserService.GetTitle, IBrowserService::GetTitle, shdeprecated/IBrowserService::GetTitle, shell.IBrowserService_GetTitle, zone_IBrowserService_GetTitle
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11infoqueue_getstoragefilter.htm
 old-project: direct3d11
 ms.assetid: 87c9d6f0-8a3d-47d4-bfcb-369ec9cbf01a
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 825c16d1-ee7b-8b61-1f92-96e2717bbbee, GetStorageFilter, GetStorageFilter method [Direct3D 11], GetStorageFilter method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetStorageFilter method, ID3D11InfoQueue.GetStorageFilter, ID3D11InfoQueue::GetStorageFilter, d3d11sdklayers/ID3D11InfoQueue::GetStorageFilter, direct3d11.id3d11infoqueue_getstoragefilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ Size of the storage filter in bytes. If pFilter is <b>NULL</b>, the size of the 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

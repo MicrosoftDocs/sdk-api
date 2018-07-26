@@ -148,7 +148,7 @@ The <b>DVDSPExt</b> enumeration type holds a value indicating the default DVD su
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd376377(v=VS.85).aspx">SelectDefaultSubpictureLanguage</a>
+<a href="mstv.msvidwebdvd_selectdefaultsubpicturelanguage_method">SelectDefaultSubpictureLanguage</a>
 
 
 

@@ -4,10 +4,10 @@ title: D2D1MakeRotateMatrix function
 author: windows-sdk-content
 description: Creates a rotation transformation that rotates by the specified angle about the specified point.
 old-location: direct2d\d2d1makerotatematrix.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 5e066328-5b0f-4e7a-9bf4-df55521fcc2b
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1MakeRotateMatrix, D2D1MakeRotateMatrix function [Direct2D], d2d1/D2D1MakeRotateMatrix, direct2d.d2d1makerotatematrix
 ms.prod: windows
 ms.technology: windows-sdk

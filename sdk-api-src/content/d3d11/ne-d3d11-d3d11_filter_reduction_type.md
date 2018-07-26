@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_filter_reduction_type.htm
 old-project: direct3d11
 ms.assetid: 9124D1DE-8045-49DA-83A6-634083C79C84
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: D3D11_FILTER_REDUCTION_TYPE, D3D11_FILTER_REDUCTION_TYPE enumeration [Direct3D 11], D3D11_FILTER_REDUCTION_TYPE_COMPARISON, D3D11_FILTER_REDUCTION_TYPE_MAXIMUM, D3D11_FILTER_REDUCTION_TYPE_MINIMUM, D3D11_FILTER_REDUCTION_TYPE_STANDARD, d3d11/D3D11_FILTER_REDUCTION_TYPE, d3d11/D3D11_FILTER_REDUCTION_TYPE_COMPARISON, d3d11/D3D11_FILTER_REDUCTION_TYPE_MAXIMUM, d3d11/D3D11_FILTER_REDUCTION_TYPE_MINIMUM, d3d11/D3D11_FILTER_REDUCTION_TYPE_STANDARD, direct3d11.d3d11_filter_reduction_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Specifies the type of sampler filter reduction.
+Specifies the type of sampler filter reduction.
         
 
 
@@ -62,29 +61,25 @@ req.irql:
 
 ### -field D3D11_FILTER_REDUCTION_TYPE_STANDARD
 
-
-            Indicates standard (default) filter reduction.
+Indicates standard (default) filter reduction.
           
 
 
 ### -field D3D11_FILTER_REDUCTION_TYPE_COMPARISON
 
-
-            Indicates a comparison filter reduction.
+Indicates a comparison filter reduction.
           
 
 
 ### -field D3D11_FILTER_REDUCTION_TYPE_MINIMUM
 
-
-            Indicates minimum filter reduction.
+Indicates minimum filter reduction.
           
 
 
 ### -field D3D11_FILTER_REDUCTION_TYPE_MAXIMUM
 
-
-            Indicates maximum filter reduction.
+Indicates maximum filter reduction.
           
 
 
@@ -92,8 +87,7 @@ req.irql:
 
 
 
-
-          This enum is used by the <a href="https://msdn.microsoft.com/97dd6cac-6657-4a1e-b631-4e5d36994b16">D3D11_SAMPLER_DESC</a> structure.
+This enum is used by the <a href="https://msdn.microsoft.com/97dd6cac-6657-4a1e-b631-4e5d36994b16">D3D11_SAMPLER_DESC</a> structure.
         
 
 

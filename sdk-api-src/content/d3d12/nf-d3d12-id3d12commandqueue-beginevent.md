@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandqueue_beginevent.htm
 old-project: direct3d12
 ms.assetid: 09586D24-6D52-49BA-B6C0-793219FAE80C
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: BeginEvent, BeginEvent method, BeginEvent method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,BeginEvent method, ID3D12CommandQueue.BeginEvent, ID3D12CommandQueue::BeginEvent, d3d12/ID3D12CommandQueue::BeginEvent, direct3d12.id3d12commandqueue_beginevent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Not intended to be called directly.  Use the
+Not intended to be called directly.  Use the
         <a href="https://blogs.msdn.microsoft.com/pix/winpixeventruntime/">PIX event runtime</a> to insert events into a command queue.
 
 
@@ -64,33 +63,28 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            Internal.
+Internal.
 
 
 ### -param pData [in, optional]
 
 Type: <b>const void*</b>
 
-
-            
-            Internal.
+Internal.
 
 
 ### -param Size
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            Internal.
+Internal.
 
 
 ## -returns
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 

@@ -4,10 +4,10 @@ title: DrawRectangle function
 author: windows-sdk-content
 description: Draws the outline of a rectangle that has the specified dimensions and stroke style.
 old-location: direct2d\id2d1rendertarget_drawrectangle.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 3f8c0754-fa68-4b5b-812f-24d8b544ba6e
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: DrawRectangle, DrawRectangle methods [Direct2D], ID2D1RenderTarget::DrawRectangle, d2d1_1/DrawRectangle, direct2d.id2d1rendertarget_drawrectangle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ When this method fails, it does not return an error code. To determine whether a
 
 The following example uses an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a> to draw and fill several rectangles. This example produces the output shown in the following illustration.
 
-<img alt="Illustration of two rectangles on a grid background" src="./images/drawrectangleexample_small.png"/>
+<img alt="Illustration of two rectangles on a grid background" src="images/drawrectangleexample_small.png"/>
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

@@ -61,7 +61,7 @@ Notification method signaling a device service state change event from the Mobil
 
 ### -param deviceService [in]
 
-The <a href="https://msdn.microsoft.com/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object for which the event notification was received.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> object for which the event notification was received.
 
 
 ### -param eventID [in]

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_setmarker.htm
 old-project: direct3d12
 ms.assetid: 521844B8-0EF8-4F09-ABCE-E8C96129F548
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetMarker method, ID3D12GraphicsCommandList.SetMarker, ID3D12GraphicsCommandList::SetMarker, SetMarker, SetMarker method, SetMarker method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetMarker, direct3d12.id3d12graphicscommandlist_setmarker
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Not intended to be called directly.  Use the
+Not intended to be called directly.  Use the
         <a href="https://blogs.msdn.microsoft.com/pix/winpixeventruntime/">PIX event runtime</a> to insert events into a command list.
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b>UINT</b>
 
-
-            Internal.
+Internal.
           
 
 
@@ -80,16 +78,14 @@ Internal.
 
 Type: <b>UINT</b>
 
-
-            Internal.
+Internal.
 
 
 ## -returns
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 

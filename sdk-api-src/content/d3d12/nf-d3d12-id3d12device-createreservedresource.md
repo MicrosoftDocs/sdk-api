@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createreservedresource.htm
 old-project: direct3d12
 ms.assetid: 37E74129-1B5C-4997-A584-D7E9F92342EA
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: CreateReservedResource, CreateReservedResource method, CreateReservedResource method,ID3D12Device interface, ID3D12Device interface,CreateReservedResource method, ID3D12Device.CreateReservedResource, ID3D12Device::CreateReservedResource, d3d12/ID3D12Device::CreateReservedResource, direct3d12.id3d12device_createreservedresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Creates a resource that is reserved, which is not yet mapped to any pages in a heap.
+Creates a resource that is reserved, which is not yet mapped to any pages in a heap.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b>const <a href="https://msdn.microsoft.com/908BCB65-A7C6-473D-81AB-CCCA029AB6F9">D3D12_RESOURCE_DESC</a>*</b>
 
-
-            A pointer to a <a href="https://msdn.microsoft.com/908BCB65-A7C6-473D-81AB-CCCA029AB6F9">D3D12_RESOURCE_DESC</a> structure that describes the resource.
+A pointer to a <a href="https://msdn.microsoft.com/908BCB65-A7C6-473D-81AB-CCCA029AB6F9">D3D12_RESOURCE_DESC</a> structure that describes the resource.
           
 
 
@@ -73,8 +71,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/908BCB65-A7C6-473D-81AB-CCCA0
 
 Type: <b><a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATES</a></b>
 
-
-              The initial state of the resource, as a bitwise-OR'd combination of <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATES</a> enumeration constants.
+The initial state of the resource, as a bitwise-OR'd combination of <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATES</a> enumeration constants.
             
 
 
@@ -82,8 +79,7 @@ Type: <b><a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3
 
 Type: <b>const <a href="https://msdn.microsoft.com/03B67F91-C150-4719-8C43-D04F51DC9C06">D3D12_CLEAR_VALUE</a>*</b>
 
-
-              Specifies a <a href="https://msdn.microsoft.com/03B67F91-C150-4719-8C43-D04F51DC9C06">D3D12_CLEAR_VALUE</a> that describes the default value for a clear color.
+Specifies a <a href="https://msdn.microsoft.com/03B67F91-C150-4719-8C43-D04F51DC9C06">D3D12_CLEAR_VALUE</a> that describes the default value for a clear color.
             
 
 <i>pOptimizedClearValue</i> specifies a value for which clear operations are most optimal.
@@ -97,14 +93,12 @@ Type: <b>const <a href="https://msdn.microsoft.com/03B67F91-C150-4719-8C43-D04F5
 
 Type: <b><b>REFIID</b></b>
 
-
-              The globally unique identifier (<b>GUID</b>) for the resource interface.
+The globally unique identifier (<b>GUID</b>) for the resource interface.
               See Remarks.
               This is an input parameter.
             
 
-
-              The <b>REFIID</b>, or <b>GUID</b>, of the interface to the resource can be obtained by using the __uuidof() macro.
+The <b>REFIID</b>, or <b>GUID</b>, of the interface to the resource can be obtained by using the __uuidof() macro.
               For example, __uuidof(<a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>) will get the <b>GUID</b> of the interface to a resource.
               Although <i>riid</i> is, most commonly, the GUID for <b>ID3D12Resource</b>, it may be any GUID for any interface.
               If the resource object doesn't support the interface for this GUID, creation will fail with E_NOINTERFACE.
@@ -115,8 +109,7 @@ Type: <b><b>REFIID</b></b>
 
 Type: <b><b>void</b>**</b>
 
-
-            A pointer to a memory block that receives a pointer to the resource.
+A pointer to a memory block that receives a pointer to the resource.
             <i>ppvResource</i> can be NULL, to enable capability testing.
             When <i>ppvResource</i> is NULL, no object will be created and S_FALSE will be returned when <i>pDesc</i> is valid.
           
@@ -126,10 +119,9 @@ Type: <b><b>void</b>**</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-
-            This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the resource.
+This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the resource.
             See <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> for other possible return values.
           
 
@@ -145,8 +137,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRE
         The resource must be mapped to physical memory (that is, heaps) using <a href="https://msdn.microsoft.com/FAFA4B5C-EA3C-4209-AB8E-75F3B90F3745">CopyTileMappings</a> and <a href="https://msdn.microsoft.com/8A8017E5-AB55-4660-855B-D6F93F69CB52">UpdateTileMappings</a>.
       
 
-
-        These resource types can only be created when the adapter supports tiled resource tier 1 or greater.
+These resource types can only be created when the adapter supports tiled resource tier 1 or greater.
         The tiled resource tier defines the behavior of accessing a resource that is not mapped to a heap.
       
 

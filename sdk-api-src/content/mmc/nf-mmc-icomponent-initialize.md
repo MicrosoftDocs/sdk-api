@@ -4,10 +4,10 @@ title: IComponent::Initialize
 author: windows-sdk-content
 description: The IComponent::Initialize method provides an entry point to the console.
 old-location: mmc\icomponent_initialize.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 2a8b8f79-05c0-49e8-8210-7c1002ee5978
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: IComponent interface [MMC],Initialize method, IComponent.Initialize, IComponent::Initialize, Initialize, Initialize method [MMC], Initialize method [MMC],IComponent interface, _slate_icomponent_initialize, mmc.icomponent_initialize, mmc/IComponent::Initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,7 +102,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="_ole_idataobject">IDataObject</a>
  
 
  

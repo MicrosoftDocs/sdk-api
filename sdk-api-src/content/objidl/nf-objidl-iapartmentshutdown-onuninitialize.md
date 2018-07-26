@@ -7,7 +7,7 @@ old-location: winrt\iapartmentshutdown_onuninitialize.htm
 old-project: WinRT
 ms.assetid: FAEBC952-EDCB-4855-AB2B-193B87E3ECF7
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IApartmentShutdown interface [Windows Runtime],OnUninitialize method, IApartmentShutdown.OnUninitialize, IApartmentShutdown::OnUninitialize, OnUninitialize, OnUninitialize method [Windows Runtime], OnUninitialize method [Windows Runtime],IApartmentShutdown interface, objidl/IApartmentShutdown::OnUninitialize, winrt.iapartmentshutdown_onuninitialize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3d9ex_getadapterdisplaymodeex.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9ex_getadapterdisplaymodeex.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: GetAdapterDisplayModeEx, GetAdapterDisplayModeEx method [Direct3D 9], GetAdapterDisplayModeEx method [Direct3D 9],IDirect3D9Ex interface, IDirect3D9Ex interface [Direct3D 9],GetAdapterDisplayModeEx method, IDirect3D9Ex.GetAdapterDisplayModeEx, IDirect3D9Ex::GetAdapterDisplayModeEx, a9a9a87a-36fb-8647-d001-d83d9020a82e, d3d9/IDirect3D9Ex::GetAdapterDisplayModeEx, direct3d9.idirect3d9ex_getadapterdisplaymodeex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,23 +68,23 @@ Ordinal number that denotes the display adapter to query. D3DADAPTER_DEFAULT is 
 
 ### -param pMode [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172549(v=VS.85).aspx">D3DDISPLAYMODEEX</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/df9d12b9-7acb-435b-9d54-0b095c871f0e">D3DDISPLAYMODEEX</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb172549(v=VS.85).aspx">D3DDISPLAYMODEEX</a> structure containing data about the display mode of the adapter. As opposed to the display mode of the device, which may not be active if the device does not own full-screen mode. Can be set to <b>NULL</b>.
+Pointer to a <a href="https://msdn.microsoft.com/df9d12b9-7acb-435b-9d54-0b095c871f0e">D3DDISPLAYMODEEX</a> structure containing data about the display mode of the adapter. As opposed to the display mode of the device, which may not be active if the device does not own full-screen mode. Can be set to <b>NULL</b>.
 
 
 ### -param pRotation [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172551(v=VS.85).aspx">D3DDISPLAYROTATION</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/190aa10e-4bf0-45ec-9c07-2582c5536074">D3DDISPLAYROTATION</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb172551(v=VS.85).aspx">D3DDISPLAYROTATION</a> structure indicating the type of screen rotation the application will do. The value returned through this pointer is important when the <a href="https://msdn.microsoft.com/library/Bb172586(v=VS.85).aspx">D3DPRESENTFLAG_NOAUTOROTATE</a> flag is used; otherwise, it can be set to <b>NULL</b>.
+Pointer to a <a href="https://msdn.microsoft.com/190aa10e-4bf0-45ec-9c07-2582c5536074">D3DDISPLAYROTATION</a> structure indicating the type of screen rotation the application will do. The value returned through this pointer is important when the <a href="https://msdn.microsoft.com/1294171e-b3f6-4264-8411-b69427cefe7b">D3DPRESENTFLAG_NOAUTOROTATE</a> flag is used; otherwise, it can be set to <b>NULL</b>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. 
 
@@ -101,7 +101,7 @@ If <i>Adapter</i> is out of range or <i>pMode</i> is invalid, this method return
 
 <b>GetAdapterDisplayModeEx</b> does not return the correct format when the display is in an extended format, such as 2:10:10:10. Instead, it returns the format X8R8G8B8.
 
-To windowed applications, a value of S_PRESENT_MODE_CHANGED returned from <a href="https://msdn.microsoft.com/library/Bb174343(v=VS.85).aspx">PresentEx</a> or <a href="https://msdn.microsoft.com/library/Bb174338(v=VS.85).aspx">CheckDeviceState</a> indicates that the display mode changed and that the current display mode might have a different format. To avoid a color-converting Present blt, windowed applications can optionally get new display mode information by using this method and adjusting its swap chain format accordingly. This method returns D3DERR_NOTAVAILABLE if this head is no longer part of the desktop or if the monitor is disconnected.
+To windowed applications, a value of S_PRESENT_MODE_CHANGED returned from <a href="https://msdn.microsoft.com/845c72ff-669d-44bf-8065-cff456418e8c">PresentEx</a> or <a href="https://msdn.microsoft.com/89a9b112-5f0a-4e57-9b8e-48b3a76a09ce">CheckDeviceState</a> indicates that the display mode changed and that the current display mode might have a different format. To avoid a color-converting Present blt, windowed applications can optionally get new display mode information by using this method and adjusting its swap chain format accordingly. This method returns D3DERR_NOTAVAILABLE if this head is no longer part of the desktop or if the monitor is disconnected.
 
 
 
@@ -111,7 +111,7 @@ To windowed applications, a value of S_PRESENT_MODE_CHANGED returned from <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174301(v=VS.85).aspx">IDirect3D9Ex</a>
+<a href="https://msdn.microsoft.com/68dbd2d4-0a38-47fc-ad3d-4ac209ed98a8">IDirect3D9Ex</a>
  
 
  

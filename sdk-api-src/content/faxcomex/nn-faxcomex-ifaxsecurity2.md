@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsecurity2_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxsecurity2\faxinto_z_ifaxsecurity2.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IFaxSecurity2, IFaxSecurity2 interface [Fax Service], IFaxSecurity2 interface [Fax Service],described, _mfax_faxsecurity2_cpp, fax._mfax_faxsecurity2_cpp, faxcomex/IFaxSecurity2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Used by a fax client application to configure the security on a fax server; also
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxSecurity2</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxSecurity2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxSecurity2</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxSecurity2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -75,7 +75,7 @@ The <b>IFaxSecurity2</b> interface has these methods.
 <a href="https://msdn.microsoft.com/9dc0fccd-e588-4f21-b195-fb4a4cb80bb9">Refresh</a>
 </td>
 <td align="left" width="63%">
-Refreshes <a href="https://msdn.microsoft.com/library/Aa358873(v=VS.85).aspx">FaxSecurity2</a> object information from the fax server.
+Refreshes <a href="https://msdn.microsoft.com/213e555a-1509-4081-a21b-f33fc4653f32">FaxSecurity2</a> object information from the fax server.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Refreshes <a href="https://msdn.microsoft.com/library/Aa358873(v=VS.85).aspx">Fa
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
 </td>
 <td align="left" width="63%">
-Saves the <a href="https://msdn.microsoft.com/library/ms689509(v=VS.85).aspx">FaxSecurity</a> object data.
+Saves the <a href="https://msdn.microsoft.com/0c1fe69c-f10b-4c7d-abe5-1a3e93d56c04">FaxSecurity</a> object data.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ Saves the <a href="https://msdn.microsoft.com/library/ms689509(v=VS.85).aspx">Fa
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/Aa358978(v=VS.85).aspx">Descriptor</a>
+<a href="https://msdn.microsoft.com/cc2eb7bb-1b29-4cad-8061-c7d88901857b">Descriptor</a>
 
 
 </td>
@@ -108,7 +108,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Represents the security descriptor for a <a href="https://msdn.microsoft.com/library/Aa358976(v=VS.85).aspx">IFaxServer2</a> object.
+Represents the security descriptor for a <a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a> object.
 
 </td>
 </tr>
@@ -151,11 +151,11 @@ Retrieves the security information type.
 
 
 
-This interface is supported only on Windows Vista or later. For earlier versions of Windows use <a href="https://msdn.microsoft.com/library/ms689510(v=VS.85).aspx">IFaxSecurity</a>.
+This interface is supported only on Windows Vista or later. For earlier versions of Windows use <a href="https://msdn.microsoft.com/e8dabda0-29aa-4ef2-a797-14aae1d8b539">IFaxSecurity</a>.
 
-Only an administrator with permissions can configure the security of the fax server. For more information, see <a href="https://msdn.microsoft.com/library/Bb442405(v=VS.85).aspx">Access Control</a>.
+Only an administrator with permissions can configure the security of the fax server. For more information, see <a href="http://msdn.microsoft.com/library/en-us/secauthz/security/access_control.asp">Access Control</a>.
 
-A default implementation is provided as <a href="https://msdn.microsoft.com/library/Aa358873(v=VS.85).aspx">FaxSecurity2</a>. 
+A default implementation is provided as <a href="https://msdn.microsoft.com/213e555a-1509-4081-a21b-f33fc4653f32">FaxSecurity2</a>. 
 
 
 

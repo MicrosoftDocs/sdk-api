@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_resolvequerydata.htm
 old-project: direct3d12
 ms.assetid: E3154DB7-DDA9-4480-A918-19C3A62944F2
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12GraphicsCommandList interface,ResolveQueryData method, ID3D12GraphicsCommandList.ResolveQueryData, ID3D12GraphicsCommandList::ResolveQueryData, ResolveQueryData, ResolveQueryData method, ResolveQueryData method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::ResolveQueryData, direct3d12.id3d12graphicscommandlist_resolvequerydata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 
 
 
-
-              Extracts data from a query. <b>ResolveQueryData</b> works with all heap types (default, upload, and readback). 
+Extracts data from a query. <b>ResolveQueryData</b> works with all heap types (default, upload, and readback). 
             
 
 
@@ -67,8 +66,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/330DE59A-8098-4255-85DD-0C439DD48250">ID3D12QueryHeap</a>*</b>
 
-
-            Specifies the  <a href="https://msdn.microsoft.com/330DE59A-8098-4255-85DD-0C439DD48250">ID3D12QueryHeap</a> containing the queries to resolve.
+Specifies the  <a href="https://msdn.microsoft.com/330DE59A-8098-4255-85DD-0C439DD48250">ID3D12QueryHeap</a> containing the queries to resolve.
           
 
 
@@ -76,8 +74,7 @@ Type: <b><a href="https://msdn.microsoft.com/330DE59A-8098-4255-85DD-0C439DD4825
 
 Type: <b><a href="https://msdn.microsoft.com/F6FA9ACE-0089-4C7B-99D7-FD286CF4B18D">D3D12_QUERY_TYPE</a></b>
 
-
-            Specifies the type of query, one member of <a href="https://msdn.microsoft.com/F6FA9ACE-0089-4C7B-99D7-FD286CF4B18D">D3D12_QUERY_TYPE</a>.
+Specifies the type of query, one member of <a href="https://msdn.microsoft.com/F6FA9ACE-0089-4C7B-99D7-FD286CF4B18D">D3D12_QUERY_TYPE</a>.
           
 
 
@@ -85,8 +82,7 @@ Type: <b><a href="https://msdn.microsoft.com/F6FA9ACE-0089-4C7B-99D7-FD286CF4B18
 
 Type: <b>UINT</b>
 
-
-            Specifies an index of the first query to resolve.
+Specifies an index of the first query to resolve.
           
 
 
@@ -94,8 +90,7 @@ Type: <b>UINT</b>
 
 Type: <b>UINT</b>
 
-
-            Specifies the number of queries to resolve.
+Specifies the number of queries to resolve.
           
 
 
@@ -103,8 +98,7 @@ Type: <b>UINT</b>
 
 Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>*</b>
 
-
-            Specifies an <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> destination buffer, which must be in the state
+Specifies an <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> destination buffer, which must be in the state
             <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_COPY_DEST</a>.
           
 
@@ -113,8 +107,7 @@ Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD
 
 Type: <b>UINT64</b>
 
-
-            Specifies an alignment offset into the destination buffer.
+Specifies an alignment offset into the destination buffer.
             Must be a multiple of 8 bytes.
           
 
@@ -123,8 +116,7 @@ Type: <b>UINT64</b>
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 
@@ -137,8 +129,7 @@ Type: <b>UINT64</b>
 <b>ResolveQueryData</b> performs a batched operation which writes query data into a destination buffer.  Query data is written contiguously to the destination buffer, and the parameter.
         
 
-
-          Binary occlusion queries write 64-bits per query.  The least significant bit is either 0 or 1.  The rest of the bits are 0.
+Binary occlusion queries write 64-bits per query.  The least significant bit is either 0 or 1.  The rest of the bits are 0.
         
 
 The core runtime will validate the following:
@@ -150,25 +141,20 @@ The core runtime will validate the following:
           </li>
 <li><i>DestinationBuffer</i> is a buffer.
           </li>
-<li>
-            The written data will not overflow the output buffer.
+<li>The written data will not overflow the output buffer.
           </li>
-<li>
-            The query type must be supported by the command list type.
+<li>The query type must be supported by the command list type.
           </li>
-<li>
-            The query type must be supported by the query heap.
+<li>The query type must be supported by the query heap.
           </li>
 </ul>
-
-          The debug layer will issue a warning if the destination buffer is not in the D3D12_RESOURCE_STATE_COPY_DEST state.
+The debug layer will issue a warning if the destination buffer is not in the D3D12_RESOURCE_STATE_COPY_DEST state.
         
 
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12PredicationQueries</a> sample uses <b>ID3D12GraphicsCommandList::ResolveQueryData</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12PredicationQueries</a> sample uses <b>ID3D12GraphicsCommandList::ResolveQueryData</b> as follows:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -253,8 +239,7 @@ void D3D12PredicationQueries::PopulateCommandList()
 </td>
 </tr>
 </table></span></div>
-
-          See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>

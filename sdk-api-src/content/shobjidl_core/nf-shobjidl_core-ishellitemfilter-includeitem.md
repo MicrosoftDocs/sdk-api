@@ -7,7 +7,7 @@ old-location: shell\IShellItemFilter_IncludeItem.htm
 old-project: shell
 ms.assetid: 39ec171e-24a0-40ff-b199-36b5a2809164
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IShellItemFilter interface [Windows Shell],IncludeItem method, IShellItemFilter.IncludeItem, IShellItemFilter::IncludeItem, IncludeItem, IncludeItem method [Windows Shell], IncludeItem method [Windows Shell],IShellItemFilter interface, _shell_IShellItemFilter_IncludeItem, shell.IShellItemFilter_IncludeItem, shobjidl_core/IShellItemFilter::IncludeItem
 ms.prod: windows
 ms.technology: windows-sdk

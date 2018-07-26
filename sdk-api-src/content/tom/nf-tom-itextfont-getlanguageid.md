@@ -125,7 +125,7 @@ To get the BCP-47 language tag, such as "en-US", call <code>ITextRange2::GetText
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -133,11 +133,11 @@ To get the BCP-47 language tag, such as "en-US", call <code>ITextRange2::GetText
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774167(v=VS.85).aspx">SetLanguageID</a>
+<a href="https://msdn.microsoft.com/5c45a2f7-d2c3-4a7a-b5bb-b06ba59d5adf">SetLanguageID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_setgraphicsrootconstantbuffer
 old-project: direct3d12
 ms.assetid: 59F6E33A-9BD8-4ED3-8CA7-235E2A0C2686
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetGraphicsRootConstantBufferView method, ID3D12GraphicsCommandList.SetGraphicsRootConstantBufferView, ID3D12GraphicsCommandList::SetGraphicsRootConstantBufferView, SetGraphicsRootConstantBufferView, SetGraphicsRootConstantBufferView method, SetGraphicsRootConstantBufferView method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetGraphicsRootConstantBufferView, direct3d12.id3d12graphicscommandlist_setgraphicsrootconstantbufferview
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Sets a CPU descriptor handle for the constant buffer in the graphics root signature.
+Sets a CPU descriptor handle for the constant buffer in the graphics root signature.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            The slot number for binding.
+The slot number for binding.
           
 
 
@@ -73,8 +71,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b>D3D12_GPU_VIRTUAL_ADDRESS</b>
 
-
-            The GPU virtual address of the constant buffer.
+The GPU virtual address of the constant buffer.
             D3D12_GPU_VIRTUAL_ADDRESS is a typedef'd alias of UINT64.
           
 
@@ -83,8 +80,7 @@ Type: <b>D3D12_GPU_VIRTUAL_ADDRESS</b>
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 

@@ -7,7 +7,7 @@ old-location: ad\idsadmincreateobj_initialize.htm
 old-project: ad
 ms.assetid: 811863e7-25d2-48d0-bf97-61b49a224c98
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: IDsAdminCreateObj interface [Active Directory],Initialize method, IDsAdminCreateObj.Initialize, IDsAdminCreateObj::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsAdminCreateObj interface, _glines_idsadmincreateobj_initialize, ad.idsadmincreateobj__initialize, ad.idsadmincreateobj_initialize, dsadmin/IDsAdminCreateObj::Initialize
 ms.prod: windows
 ms.technology: windows-sdk

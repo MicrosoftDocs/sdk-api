@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundroutingextensions_item.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9mwd.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxInboundRoutingExtensions object [Fax Service],Item property, FaxInboundRoutingExtensions.Item, IFaxInboundRoutingExtensions.get_Item, IFaxInboundRoutingExtensions::get_Item, Item property [Fax Service], Item property [Fax Service],FaxInboundRoutingExtensions object, _mfax_faxinboundroutingextensions.item, fax._mfax_faxinboundroutingextensions_item, get_Item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Item</b> property returns a <a href="https://msdn.microsoft.com/library/ms684580(v=VS.85).aspx">FaxInboundRoutingExtension</a> object from the <a href="https://msdn.microsoft.com/library/ms684899(v=VS.85).aspx">FaxInboundRoutingExtensions</a> collection.
+The <b>Item</b> property returns a <a href="https://msdn.microsoft.com/cb875610-d6c9-473d-b9c2-0035e67a8949">FaxInboundRoutingExtension</a> object from the <a href="https://msdn.microsoft.com/8989c149-bbf4-46c1-b969-949d44efcf90">FaxInboundRoutingExtensions</a> collection.
 
 This property is read-only.
 
@@ -65,11 +65,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684899(v=VS.85).aspx">FaxInboundRoutingExtensions</a>
+<a href="https://msdn.microsoft.com/8989c149-bbf4-46c1-b969-949d44efcf90">FaxInboundRoutingExtensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/cef24608-cab1-4090-aa94-3a1b76733e98">Visual Basic Example</a>
  
 
  

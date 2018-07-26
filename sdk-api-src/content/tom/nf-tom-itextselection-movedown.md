@@ -167,7 +167,7 @@ Failure for some other reason.
 
 
 
-The <a href="https://msdn.microsoft.com/library/Bb774087(v=VS.85).aspx">ITextSelection::MoveUp</a> and <b>ITextSelection::MoveDown</b> methods are similar to the <a href="https://msdn.microsoft.com/library/Bb774074(v=VS.85).aspx">ITextSelection::MoveLeft</a> and <a href="https://msdn.microsoft.com/library/Bb774076(v=VS.85).aspx">ITextSelection::MoveRight</a> methods, except that they reflect the behavior of the Up Arrow, Down Arrow, Page Up, and Page Down keys on the cursor-keypad. 
+The <a href="https://msdn.microsoft.com/f37dceba-cd26-4756-ad4f-ae2e8d979e75">ITextSelection::MoveUp</a> and <b>ITextSelection::MoveDown</b> methods are similar to the <a href="https://msdn.microsoft.com/d15ee442-708d-4210-925c-f4320d57330a">ITextSelection::MoveLeft</a> and <a href="https://msdn.microsoft.com/7bf0dfad-5397-4898-a794-2789bc5f0291">ITextSelection::MoveRight</a> methods, except that they reflect the behavior of the Up Arrow, Down Arrow, Page Up, and Page Down keys on the cursor-keypad. 
 
 
 
@@ -181,19 +181,19 @@ The <a href="https://msdn.microsoft.com/library/Bb774087(v=VS.85).aspx">ITextSel
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774060(v=VS.85).aspx">ITextSelection</a>
+<a href="https://msdn.microsoft.com/e6afce18-4f02-4f1c-a2ee-735465d2e168">ITextSelection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774074(v=VS.85).aspx">MoveLeft</a>
+<a href="https://msdn.microsoft.com/d15ee442-708d-4210-925c-f4320d57330a">MoveLeft</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774076(v=VS.85).aspx">MoveRight</a>
+<a href="https://msdn.microsoft.com/7bf0dfad-5397-4898-a794-2789bc5f0291">MoveRight</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774087(v=VS.85).aspx">MoveUp</a>
+<a href="https://msdn.microsoft.com/f37dceba-cd26-4756-ad4f-ae2e8d979e75">MoveUp</a>
 
 
 
@@ -201,7 +201,7 @@ The <a href="https://msdn.microsoft.com/library/Bb774087(v=VS.85).aspx">ITextSel
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

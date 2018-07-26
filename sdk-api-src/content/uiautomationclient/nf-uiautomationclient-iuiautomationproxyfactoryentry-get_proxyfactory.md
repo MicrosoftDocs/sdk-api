@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_ProxyFactory.htm
 old-project: WinAuto
 ms.assetid: da6f0c23-b16d-4fd5-8d91-cc5a830a03c6
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IUIAutomationProxyFactoryEntry interface [Windows Accessibility],ProxyFactory property, IUIAutomationProxyFactoryEntry.ProxyFactory, IUIAutomationProxyFactoryEntry.get_ProxyFactory, IUIAutomationProxyFactoryEntry::ProxyFactory, IUIAutomationProxyFactoryEntry::get_ProxyFactory, ProxyFactory property [Windows Accessibility], ProxyFactory property [Windows Accessibility],IUIAutomationProxyFactoryEntry interface, get_ProxyFactory, uiauto.uiauto_IUIAutomationProxyFactoryEntry_ProxyFactory, uiauto_IUIAutomationProxyFactoryEntry_ProxyFactory, uiautomationclient/IUIAutomationProxyFactoryEntry::ProxyFactory, uiautomationclient/IUIAutomationProxyFactoryEntry::get_ProxyFactory, winauto.uiauto_IUIAutomationProxyFactoryEntry_ProxyFactory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

@@ -4,10 +4,10 @@ title: EditSecurityAdvanced function
 author: windows-sdk-content
 description: Extends the EditSecurity function to include the security page type when displaying the property sheet that contains a basic security property page.
 old-location: security\editsecurityadvanced.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: E451BBB9-4E01-4A8F-9ACD-750351F16453
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: EditSecurityAdvanced, EditSecurityAdvanced function [Security], aclui/EditSecurityAdvanced, security.editsecurityadvanced
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ If the function fails, any other <b>HRESULT</b> value indicates an error. For a 
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Access Control Editor Functions</a>
+<a href="authorization_functions.htm">Access Control Editor Functions</a>
 
 
 

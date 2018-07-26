@@ -4,10 +4,10 @@ title: CreateCompatibleRenderTarget function
 author: windows-sdk-content
 description: Creates a new bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target .
 old-location: direct2d\id2d1rendertarget_createcompatiblerendertarget.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 4a799a7c-0d2f-460f-99f9-24c6cf7c4537
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: CreateCompatibleRenderTarget, CreateCompatibleRenderTarget methods [Direct2D], ID2D1RenderTarget::CreateCompatibleRenderTarget, d2d1/CreateCompatibleRenderTarget, direct2d.id2d1rendertarget_createcompatiblerendertarget
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ req.irql:
 <a href="https://msdn.microsoft.com/043d18f4-0cf6-47eb-9a1e-aa676a947bd6">CreateCompatibleRenderTarget(D2D1_SIZE_F,D2D1_SIZE_U,D2D1_PIXEL_FORMAT,D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS,ID2D1BitmapRenderTarget**)</a>
 </td>
 <td align="left" width="63%">
-
-    Creates a bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target.
+Creates a bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target.
 
 </td>
 </tr>
@@ -80,8 +79,7 @@ Creates a bitmap render target for use during intermediate offscreen drawing tha
 <a href="https://msdn.microsoft.com/e36fbf45-9827-4ea0-ac52-676ba826a7d3">CreateCompatibleRenderTarget(ID2D1BitmapRenderTarget**)</a>
 </td>
 <td align="left" width="63%">
-
-    Creates a new  bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target and has the same size, DPI, and pixel format (but not alpha mode) as the current render target.  
+Creates a new  bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target and has the same size, DPI, and pixel format (but not alpha mode) as the current render target.  
 
 </td>
 </tr>

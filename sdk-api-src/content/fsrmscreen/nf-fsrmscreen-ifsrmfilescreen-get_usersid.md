@@ -2,13 +2,13 @@
 UID: NF:fsrmscreen.IFsrmFileScreen.get_UserSid
 title: IFsrmFileScreen::get_UserSid
 author: windows-sdk-content
-description: The SID of the user whose files will be screened.
-old-location: fsrm\ifsrmfilescreen_usersid.htm
-old-project: fsrm
-ms.assetid: 7f5c549d-52a3-4013-9f86-844d823636f6
+description: Retrieves the string form of the user's security identifier (SID) that is associated with the file screen.
+old-location: fsrm\ifsrmfilescreenbase_usersid.htm
+old-project: Fsrm
+ms.assetid: 22c20124-1ea7-4e49-845a-da7709e657dd
 ms.author: windowssdkdev
-ms.date: 07/16/2018
-ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],UserSid property, IFsrmFileScreen.UserSid, IFsrmFileScreen.get_UserSid, IFsrmFileScreen::UserSid, IFsrmFileScreen::get_UserSid, UserSid property [File Server Resource Manager], UserSid property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_usersid, fsrm.ifsrmfilescreen_usersid, fsrmscreen/IFsrmFileScreen::UserSid, fsrmscreen/IFsrmFileScreen::get_UserSid, get_UserSid
+ms.date: 07/23/2018
+ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],UserSid property, IFsrmFileScreen.UserSid, IFsrmFileScreen.get_UserSid, IFsrmFileScreen::UserSid, IFsrmFileScreen::get_UserSid, UserSid property [File Server Resource Manager], UserSid property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreenbase_usersid, fsrm.ifsrmfilescreenbase_usersid, fsrmscreen/IFsrmFileScreen::UserSid, fsrmscreen/IFsrmFileScreen::get_UserSid, get_UserSid
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -52,16 +52,21 @@ req.product: Internet Explorer 5
 ## -description
 
 
-<p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/86ee74e0-64d5-478a-8150-0f4b37e56694">MSFT_FSRMFileScreen</a> class.]
-
-The SID of the user whose files will be screened.
+Retrieves the string form of the user's security identifier (SID) that is associated with the file screen.
 
 This property is read-only.
 
 
 ## -parameters
+
+
+## -remarks
+
+
+
+This method always returns the well-known SID, <a href="https://msdn.microsoft.com/6f1fa59e-17c0-412b-937b-ddf746ed68bd">WinNULLSid</a>.
+
+
 
 
 ## -see-also
@@ -73,7 +78,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/86ee74e0-64d5-478a-8150-0f4b37e56694">MSFT_FSRMFileScreen</a>
+<a href="https://msdn.microsoft.com/9e52af8c-e03b-4b44-83bd-541fe1419d6c">IFsrmFileScreenBase</a>
  
 
  

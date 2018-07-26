@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_parameter_desc.htm
 old-project: direct3d12
 ms.assetid: CE32EC5C-2B12-44CA-A2B0-C9ED3E64849F
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_PARAMETER_DESC, D3D12_PARAMETER_DESC structure, _D3D12_PARAMETER_DESC, d3d12shader/D3D12_PARAMETER_DESC, direct3d12.d3d12_parameter_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes a function parameter.
+Describes a function parameter.
         
 
 
@@ -62,85 +61,73 @@ req.irql:
 
 ### -field Name
 
-
-            The name of the function parameter.
+The name of the function parameter.
           
 
 
 ### -field SemanticName
 
-
-            The HLSL <a href="https://msdn.microsoft.com/library/Bb509647(v=VS.85).aspx">semantic</a> that is associated with this function parameter. This name includes the index, for example, SV_Target[n].
+The HLSL <a href="https://msdn.microsoft.com/6f5c504c-1940-4d1c-b594-a2132599376b">semantic</a> that is associated with this function parameter. This name includes the index, for example, SV_Target[n].
           
 
 
 ### -field Type
 
-
-            A <a href="https://msdn.microsoft.com/ef07a68c-d944-4dbb-8cb1-c50403c6c8e8">D3D_SHADER_VARIABLE_TYPE</a>-typed value that identifies the variable type for the parameter.
+A <a href="https://msdn.microsoft.com/ef07a68c-d944-4dbb-8cb1-c50403c6c8e8">D3D_SHADER_VARIABLE_TYPE</a>-typed value that identifies the variable type for the parameter.
           
 
 
 ### -field Class
 
-
-            A <a href="https://msdn.microsoft.com/d367ba01-e357-468d-9417-7d5a282d5565">D3D_SHADER_VARIABLE_CLASS</a>-typed value that identifies the variable class for the parameter as one of scalar, vector, matrix, object, and so on.
+A <a href="https://msdn.microsoft.com/d367ba01-e357-468d-9417-7d5a282d5565">D3D_SHADER_VARIABLE_CLASS</a>-typed value that identifies the variable class for the parameter as one of scalar, vector, matrix, object, and so on.
           
 
 
 ### -field Rows
 
-
-            The number of rows for a matrix parameter.
+The number of rows for a matrix parameter.
           
 
 
 ### -field Columns
 
-
-            The number of columns for a matrix parameter.
+The number of columns for a matrix parameter.
           
 
 
 ### -field InterpolationMode
 
-
-            A <a href="https://msdn.microsoft.com/E4D5F0C3-535F-4CE0-B42F-00D961C83EF1">D3D_INTERPOLATION_MODE</a>-typed value that identifies the interpolation mode for the parameter.
+A <a href="https://msdn.microsoft.com/E4D5F0C3-535F-4CE0-B42F-00D961C83EF1">D3D_INTERPOLATION_MODE</a>-typed value that identifies the interpolation mode for the parameter.
           
 
 
 ### -field Flags
 
-
-            A combination of <a href="https://msdn.microsoft.com/36D757E7-2960-43E3-8C5E-8B11F0109ACD">D3D_PARAMETER_FLAGS</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies semantic flags for the parameter.
+A combination of <a href="https://msdn.microsoft.com/36D757E7-2960-43E3-8C5E-8B11F0109ACD">D3D_PARAMETER_FLAGS</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies semantic flags for the parameter.
           
 
 
 ### -field FirstInRegister
 
-
-            The first input register for this parameter.
+The first input register for this parameter.
           
 
 
 ### -field FirstInComponent
 
-
-            The first input register component for this parameter.
+The first input register component for this parameter.
           
 
 
 ### -field FirstOutRegister
 
-
-            The first output register for this parameter.
+The first output register for this parameter.
           
 
 
 ### -field FirstOutComponent
 
-
-            The first output register component for this parameter.
+The first output register component for this parameter.
           
 
 
@@ -148,8 +135,7 @@ req.irql:
 
 
 
-
-        Get a function-parameter description by calling <a href="https://msdn.microsoft.com/E10ACB2E-EF77-4C71-A5C7-CEFA31218091">ID3D12FunctionParameterReflection::GetDesc</a>.
+Get a function-parameter description by calling <a href="https://msdn.microsoft.com/E10ACB2E-EF77-4C71-A5C7-CEFA31218091">ID3D12FunctionParameterReflection::GetDesc</a>.
       
 
 

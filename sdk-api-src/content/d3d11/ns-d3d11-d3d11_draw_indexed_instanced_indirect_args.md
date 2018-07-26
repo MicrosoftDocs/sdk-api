@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_draw_indexed_instanced_indirect_args.htm
 old-project: direct3d11
 ms.assetid: 26530AAB-2E41-4165-AE19-5B8F95AE5A20
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS, D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS structure [Direct3D 11], d3d11/D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS, direct3d11.d3d11_draw_indexed_instanced_indirect_args
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Arguments for draw indexed instanced indirect.
+Arguments for draw indexed instanced indirect.
         
 
 
@@ -62,36 +61,31 @@ req.irql:
 
 ### -field IndexCountPerInstance
 
-
-            The number of indices read from the index buffer for each instance.
+The number of indices read from the index buffer for each instance.
           
 
 
 ### -field InstanceCount
 
-
-            The number of instances to draw.
+The number of instances to draw.
           
 
 
 ### -field StartIndexLocation
 
-
-            The location of the first index read by the GPU from the index buffer.
+The location of the first index read by the GPU from the index buffer.
           
 
 
 ### -field BaseVertexLocation
 
-
-            A value added to each index before reading a vertex from the vertex buffer.
+A value added to each index before reading a vertex from the vertex buffer.
           
 
 
 ### -field StartInstanceLocation
 
-
-            A value added to each index before reading per-instance data from a vertex buffer.
+A value added to each index before reading per-instance data from a vertex buffer.
           
 
 
@@ -99,8 +93,7 @@ req.irql:
 
 
 
-
-          The members of this structure serve the same purpose as the parameters of
+The members of this structure serve the same purpose as the parameters of
           <a href="https://msdn.microsoft.com/c7a4821a-324c-47e4-b89f-603d2afcfb51">ID3D11DeviceContext::DrawIndexedInstanced</a>.
         
 

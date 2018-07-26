@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11linker.htm
 old-project: direct3d11
 ms.assetid: 08967A5F-AAAE-4352-A8A9-C7B1ED16EF25
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11Linker, ID3D11Linker interface [Direct3D 11], ID3D11Linker interface [Direct3D 11],described, d3d11shader/ID3D11Linker, direct3d11.id3d11linker
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,9 +50,7 @@ req.irql:
 ## -description
 
 
-
-          A linker interface is used to link a shader module. <div class="alert"><b>Note</b>  
-            This interface is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
+A linker interface is used to link a shader module. <div class="alert"><b>Note</b>  This interface is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
           </div>
 <div> </div>
 
@@ -78,7 +76,7 @@ The <b>ID3D11Linker</b> interface has these methods.
 <a href="https://msdn.microsoft.com/0E7820F1-8F4E-43B2-A8DD-560BC2B5BC3D">AddClipPlaneFromCBuffer</a>
 </td>
 <td align="left" width="63%">
-Adds a <a href="https://msdn.microsoft.com/C51FB0E5-94C3-4E7F-AC33-E5F0F26EDC11">clip plane</a> with the plane coefficients taken from a <a href="https://msdn.microsoft.com/library/Bb509581(v=VS.85).aspx">cbuffer</a> entry for 10Level9 shaders.
+Adds a <a href="https://msdn.microsoft.com/C51FB0E5-94C3-4E7F-AC33-E5F0F26EDC11">clip plane</a> with the plane coefficients taken from a <a href="https://msdn.microsoft.com/89fe874a-8009-4901-bebe-2d9e45f894bb">cbuffer</a> entry for 10Level9 shaders.
 
 </td>
 </tr>
@@ -87,8 +85,7 @@ Adds a <a href="https://msdn.microsoft.com/C51FB0E5-94C3-4E7F-AC33-E5F0F26EDC11"
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn915454">Link</a>
 </td>
 <td align="left" width="63%">
-
-          Links the shader and produces a shader blob that the Direct3D runtime can use.
+Links the shader and produces a shader blob that the Direct3D runtime can use.
         
 
 </td>
@@ -109,8 +106,7 @@ Adds an instance of a library module to be used for linking.
 
 
 
-
-        To get a linker interface, call <a href="https://msdn.microsoft.com/15BEFF31-9E08-462F-9F27-1CADB8367E4F">D3DCreateLinker</a>.
+To get a linker interface, call <a href="https://msdn.microsoft.com/15BEFF31-9E08-462F-9F27-1CADB8367E4F">D3DCreateLinker</a>.
       
 
 <div class="alert"><b>Note</b>  <b>ID3D11Linker</b> requires the D3dcompiler_47.dll or a later version of the DLL.

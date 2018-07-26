@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tex2d_uav.htm
 old-project: direct3d12
 ms.assetid: 4AC4B783-DF03-4BBF-A1F3-F21E1D9820D2
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_TEX2D_UAV, D3D12_TEX2D_UAV structure, d3d12/D3D12_TEX2D_UAV, direct3d12.d3d12_tex2d_uav
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ The mipmap slice index.
 
 ### -field PlaneSlice
 
-
-            The index (plane slice number) of the plane to use in the texture.
+The index (plane slice number) of the plane to use in the texture.
           
 
 
@@ -74,8 +73,7 @@ The mipmap slice index.
 
 
 
-
-        Use this structure with a <a href="https://msdn.microsoft.com/0C3A31FE-625D-4CB3-87FD-D2C33D008DD4">D3D12_UNORDERED_ACCESS_VIEW_DESC</a> structure to view the resource as a 2D texture.
+Use this structure with a <a href="https://msdn.microsoft.com/0C3A31FE-625D-4CB3-87FD-D2C33D008DD4">D3D12_UNORDERED_ACCESS_VIEW_DESC</a> structure to view the resource as a 2D texture.
       
 
 

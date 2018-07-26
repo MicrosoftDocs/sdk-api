@@ -56,8 +56,8 @@ A <b>ColorBalanceParams</b> structure contains members that specify the nature o
 You can change the color balance of a bitmap by following these steps.
 <ol>
 <li>Create and initialize a <b>ColorBalanceParams</b> structure.</li>
-<li>Pass the address of the <b>ColorBalanceParams</b> structure to the <a href="https://msdn.microsoft.com/library/ms536264(v=VS.85).aspx">ColorBalance::SetParameters</a> method of a <a href="https://msdn.microsoft.com/library/ms534428(v=VS.85).aspx">ColorBalance</a> object.</li>
-<li>Pass the address of the <a href="https://msdn.microsoft.com/library/ms534428(v=VS.85).aspx">ColorBalance</a> object to the <a href="https://msdn.microsoft.com/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method.</li>
+<li>Pass the address of the <b>ColorBalanceParams</b> structure to the <a href="https://msdn.microsoft.com/5e2cc043-c3da-428e-b7a0-f2ad8a1eefbe">ColorBalance::SetParameters</a> method of a <a href="https://msdn.microsoft.com/87366bae-a67a-46bd-b06c-2c80b80ab800">ColorBalance</a> object.</li>
+<li>Pass the address of the <a href="https://msdn.microsoft.com/87366bae-a67a-46bd-b06c-2c80b80ab800">ColorBalance</a> object to the <a href="https://msdn.microsoft.com/cb85a7ac-5af0-45c7-8035-d7bc2827af6a">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/6b3d0a2f-acff-47a7-bc9f-6e9d659f683c">Bitmap::ApplyEffect</a> method.</li>
 </ol>
 
 ## -struct-fields

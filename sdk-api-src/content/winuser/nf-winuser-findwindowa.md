@@ -65,7 +65,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Retrieves a handle to the top-level window whose class name and window name match the specified strings. This function does not search child windows. This function does not perform a case-sensitive search.
 
-To search child windows, beginning with a specified child window, use the <a href="https://msdn.microsoft.com/library/ms633500(v=VS.85).aspx">FindWindowEx</a> function.
+To search child windows, beginning with a specified child window, use the <a href="https://msdn.microsoft.com/f8d81dd7-1acc-405b-8970-8e708acccbf7">FindWindowEx</a> function.
 
 
 ## -parameters
@@ -77,9 +77,9 @@ To search child windows, beginning with a specified child window, use the <a hre
 
 Type: <b>LPCTSTR</b>
 
-The class name or a class atom created by a previous call to the <a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a> or <a href="https://msdn.microsoft.com/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function. The atom must be in the low-order word of <i>lpClassName</i>; the high-order word must be zero. 
+The class name or a class atom created by a previous call to the <a href="https://msdn.microsoft.com/485115e5-b4ec-4e93-89ce-eee229ccabb7">RegisterClass</a> or <a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a> function. The atom must be in the low-order word of <i>lpClassName</i>; the high-order word must be zero. 
 
-If <i>lpClassName</i> points to a string, it specifies the window class name. The class name can be any name registered with <a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a> or <a href="https://msdn.microsoft.com/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>, or any of the predefined control-class names. 
+If <i>lpClassName</i> points to a string, it specifies the window class name. The class name can be any name registered with <a href="https://msdn.microsoft.com/485115e5-b4ec-4e93-89ce-eee229ccabb7">RegisterClass</a> or <a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a>, or any of the predefined control-class names. 
 
 If <i>lpClassName</i> is <b>NULL</b>, it finds any window whose title matches the <i>lpWindowName</i> parameter. 
 
@@ -109,12 +109,12 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-If the <i>lpWindowName</i> parameter is not <b>NULL</b>, <b>FindWindow</b> calls the <a href="https://msdn.microsoft.com/library/ms633520(v=VS.85).aspx">GetWindowText</a> function to retrieve the window name for comparison. For a description of a potential problem that can arise, see the Remarks for <b>GetWindowText</b>. 
+If the <i>lpWindowName</i> parameter is not <b>NULL</b>, <b>FindWindow</b> calls the <a href="https://msdn.microsoft.com/461d2200-2e3a-4361-bb2e-9a29ed9f333f">GetWindowText</a> function to retrieve the window name for comparison. For a description of a potential problem that can arise, see the Remarks for <b>GetWindowText</b>. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms645602(v=VS.85).aspx">Retrieving the Number of Mouse Wheel Scroll Lines</a>.
+For an example, see <a href="https://msdn.microsoft.com/b96d0046-a507-4733-bcf3-fcf757beec7f">Retrieving the Number of Mouse Wheel Scroll Lines</a>.
 
 <div class="code"></div>
 
@@ -129,19 +129,19 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms645602(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633497(v=VS.85).aspx">EnumWindows</a>
+<a href="https://msdn.microsoft.com/c4a063ea-a12f-49fe-8654-987e175452a8">EnumWindows</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633500(v=VS.85).aspx">FindWindowEx</a>
+<a href="https://msdn.microsoft.com/f8d81dd7-1acc-405b-8970-8e708acccbf7">FindWindowEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633582(v=VS.85).aspx">GetClassName</a>
+<a href="https://msdn.microsoft.com/039dd7cd-07cf-4c8a-9287-365d54da2f43">GetClassName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633520(v=VS.85).aspx">GetWindowText</a>
+<a href="https://msdn.microsoft.com/461d2200-2e3a-4361-bb2e-9a29ed9f333f">GetWindowText</a>
 
 
 
@@ -149,11 +149,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms645602(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633586(v=VS.85).aspx">RegisterClass</a>
+<a href="https://msdn.microsoft.com/485115e5-b4ec-4e93-89ce-eee229ccabb7">RegisterClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>
+<a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a>
 
 
 

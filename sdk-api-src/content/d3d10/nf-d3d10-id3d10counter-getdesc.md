@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10counter_getdesc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10counter_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 4104c0fc-f402-406e-fc83-bc193e61234b, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10Counter interface, ID3D10Counter interface [Direct3D 10],GetDesc method, ID3D10Counter.GetDesc, ID3D10Counter::GetDesc, d3d10/ID3D10Counter::GetDesc, direct3d10.id3d10counter_getdesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Get a counter description.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb204905(v=VS.85).aspx">D3D10_COUNTER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/0ce53cf0-8b09-4b6a-b065-ff08b830b616">D3D10_COUNTER_DESC</a>*</b>
 
-Pointer to a counter description (see <a href="https://msdn.microsoft.com/library/Bb204905(v=VS.85).aspx">D3D10_COUNTER_DESC</a>).
+Pointer to a counter description (see <a href="https://msdn.microsoft.com/0ce53cf0-8b09-4b6a-b065-ff08b830b616">D3D10_COUNTER_DESC</a>).
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173514(v=VS.85).aspx">ID3D10Counter Interface</a>
+<a href="https://msdn.microsoft.com/1844b30a-27fb-415a-9ac8-93d159e9774e">ID3D10Counter Interface</a>
  
 
  

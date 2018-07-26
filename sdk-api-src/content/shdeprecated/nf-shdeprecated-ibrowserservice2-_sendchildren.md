@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__SendChildren.htm
 old-project: shell
 ms.assetid: 159516ce-1731-478a-8d84-85d0001f9c63
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_SendChildren method, IBrowserService2._SendChildren, IBrowserService2::_SendChildren, _SendChildren, _SendChildren method [Windows Shell], _SendChildren method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_SendChildren, shell.IBrowserService2__SendChildren, zone_IBrowserService2__SendChildren
 ms.prod: windows
 ms.technology: windows-sdk

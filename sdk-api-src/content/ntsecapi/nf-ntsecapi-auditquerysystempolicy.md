@@ -4,10 +4,10 @@ title: AuditQuerySystemPolicy function
 author: windows-sdk-content
 description: Retrieves system audit policy for one or more audit-policy subcategories.
 old-location: security\auditquerysystempolicy_func.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 5c268033-65fd-4a74-90a1-4b9e1e18daf1
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: AuditQuerySystemPolicy, AuditQuerySystemPolicy function [Security], ntsecapi/AuditQuerySystemPolicy, security.auditquerysystempolicy_func
 ms.prod: windows
 ms.technology: windows-sdk

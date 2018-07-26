@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_cbuffer_flags.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_cbuffer_flags.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 440464c2-f4d0-b8bc-8a22-baf84dd2acd0, D3D10_CBF_FORCE_DWORD, D3D10_CBF_USERPACKED, D3D10_SHADER_CBUFFER_FLAGS, D3D10_SHADER_CBUFFER_FLAGS enumeration [Direct3D 10], D3D_SHADER_CBUFFER_FLAGS, LPD3D10_SHADER_CBUFFER_FLAGS, LPD3D10_SHADER_CBUFFER_FLAGS enumeration pointer [Direct3D 10], _D3D_SHADER_CBUFFER_FLAGS, d3d10shader/D3D10_CBF_FORCE_DWORD, d3d10shader/D3D10_CBF_USERPACKED, d3d10shader/D3D10_SHADER_CBUFFER_FLAGS, d3d10shader/LPD3D10_SHADER_CBUFFER_FLAGS, d3dcommon/D3D10_CBF_FORCE_DWORD, d3dcommon/D3D10_CBF_USERPACKED, d3dcommon/D3D10_SHADER_CBUFFER_FLAGS, d3dcommon/LPD3D10_SHADER_CBUFFER_FLAGS, direct3d10.d3d10_shader_cbuffer_flags
 ms.prod: windows
 ms.technology: windows-sdk

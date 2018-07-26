@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentWindowVisualState
 old-project: WinAuto
 ms.assetid: 307b995c-c656-4c91-8de2-94186ab9f5b3
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CurrentWindowVisualState property [Windows Accessibility], CurrentWindowVisualState property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CurrentWindowVisualState property, IUIAutomationWindowPattern.CurrentWindowVisualState, IUIAutomationWindowPattern.get_CurrentWindowVisualState, IUIAutomationWindowPattern::CurrentWindowVisualState, IUIAutomationWindowPattern::get_CurrentWindowVisualState, get_CurrentWindowVisualState, uiauto.uiauto_IUIAutomationWindowPattern_CurrentWindowVisualState, uiauto_IUIAutomationWindowPattern_CurrentWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::CurrentWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::get_CurrentWindowVisualState, winauto.uiauto_IUIAutomationWindowPattern_CurrentWindowVisualState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

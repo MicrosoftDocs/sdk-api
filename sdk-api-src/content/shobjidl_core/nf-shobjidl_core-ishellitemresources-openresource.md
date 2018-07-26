@@ -7,7 +7,7 @@ old-location: shell\IShellItemResources_OpenResource.htm
 old-project: shell
 ms.assetid: abef9009-7e0d-4a09-aba8-2b391e4ab487
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IShellItemResources interface [Windows Shell],OpenResource method, IShellItemResources.OpenResource, IShellItemResources::OpenResource, OpenResource, OpenResource method [Windows Shell], OpenResource method [Windows Shell],IShellItemResources interface, _shell_IShellItemResources_OpenResource, shell.IShellItemResources_OpenResource, shobjidl_core/IShellItemResources::OpenResource
 ms.prod: windows
 ms.technology: windows-sdk

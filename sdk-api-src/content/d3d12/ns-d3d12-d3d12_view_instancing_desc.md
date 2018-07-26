@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_view_instancing_desc.htm
 old-project: direct3d12
 ms.assetid: AFB7AB23-9A59-49D7-8C3E-222C3AED2314
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_VIEW_INSTANCING_DESC, D3D12_VIEW_INSTANCING_DESC structure, d3d12/D3D12_VIEW_INSTANCING_DESC, direct3d12.d3d12_view_instancing_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,22 +60,19 @@ Specifies parameters used during view instancing configuration.
 
 ### -field ViewInstanceCount
 
-
-            Specifies the number of views to be used, up to D3D12_MAX_VIEW_INSTANCE_COUNT.
+Specifies the number of views to be used, up to D3D12_MAX_VIEW_INSTANCE_COUNT.
           
 
 
 ### -field pViewInstanceLocations
 
-
-            The address of a memory location that contains <b>ViewInstanceCount</b> view instance location structures that specify the location of viewport/scissor and render target details of each view instance. 
+The address of a memory location that contains <b>ViewInstanceCount</b> view instance location structures that specify the location of viewport/scissor and render target details of each view instance. 
           
 
 
 ### -field Flags
 
-
-            Configures view instancing with additional options.
+Configures view instancing with additional options.
           
 
 

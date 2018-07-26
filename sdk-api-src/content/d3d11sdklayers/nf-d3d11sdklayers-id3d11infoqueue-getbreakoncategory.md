@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11infoqueue_getbreakoncategory.htm
 old-project: direct3d11
 ms.assetid: 747755ec-3260-4ded-9c36-efdf1a90adcb
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 08043309-7517-83fc-be14-01f7cb816e88, GetBreakOnCategory, GetBreakOnCategory method [Direct3D 11], GetBreakOnCategory method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetBreakOnCategory method, ID3D11InfoQueue.GetBreakOnCategory, ID3D11InfoQueue::GetBreakOnCategory, d3d11sdklayers/ID3D11InfoQueue::GetBreakOnCategory, direct3d11.id3d11infoqueue_getbreakoncategory
 ms.prod: windows
 ms.technology: windows-sdk

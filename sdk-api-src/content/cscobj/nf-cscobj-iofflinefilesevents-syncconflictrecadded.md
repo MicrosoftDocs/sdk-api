@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_syncconflictrecadded.htm
 old-project: offlinefiles
 ms.assetid: 693306de-d968-4857-8221-965b2f271aae
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/23/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncConflictRecAdded method, IOfflineFilesEvents.SyncConflictRecAdded, IOfflineFilesEvents::SyncConflictRecAdded, SyncConflictRecAdded, SyncConflictRecAdded method [Offline Files], SyncConflictRecAdded method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncConflictRecAdded, of.iofflinefilesevents_syncconflictrecadded
 ms.prod: windows
 ms.technology: windows-sdk

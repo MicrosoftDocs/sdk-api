@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxrecipient_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9c6s_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IFaxRecipient, IFaxRecipient interface [Fax Service], IFaxRecipient interface [Fax Service],described, _mfax_faxrecipient_cpp, fax._mfax_faxrecipient_cpp, faxcomex/IFaxRecipient
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxRecipient</b> interface defines a <a href="https://msdn.microsoft.com/library/ms690204(v=VS.85).aspx">FaxRecipient</a> messaging object is used by a fax client application to retrieve and set the personal information for fax recipients. The object also includes methods to store recipient data in and retrieve recipient data from the local registry.
+The <b>IFaxRecipient</b> interface defines a <a href="https://msdn.microsoft.com/e418dbaf-9b07-40a9-bab8-7b4561b63325">FaxRecipient</a> messaging object is used by a fax client application to retrieve and set the personal information for fax recipients. The object also includes methods to store recipient data in and retrieve recipient data from the local registry.
 		
 
 
@@ -59,7 +59,7 @@ The <b>IFaxRecipient</b> interface defines a <a href="https://msdn.microsoft.com
 
 
 
-A default implementation of <b>IFaxRecipient</b> is provided as the <a href="https://msdn.microsoft.com/library/ms690204(v=VS.85).aspx">FaxRecipient</a> object. 
+A default implementation of <b>IFaxRecipient</b> is provided as the <a href="https://msdn.microsoft.com/e418dbaf-9b07-40a9-bab8-7b4561b63325">FaxRecipient</a> object. 
 
 
 

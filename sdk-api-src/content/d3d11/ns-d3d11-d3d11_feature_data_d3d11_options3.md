@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_feature_data_d3d11_options3.htm
 old-project: direct3d11
 ms.assetid: A8F9AAF5-F1C6-476D-AF14-5BCDEEDAF810
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D11_OPTIONS3, D3D11_FEATURE_DATA_D3D11_OPTIONS3 structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS3, direct3d11.d3d11_feature_data_d3d11_options3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,8 +60,7 @@ Describes Direct3D 11.3 feature options in the current graphics driver.
 
 ### -field VPAndRTArrayIndexFromAnyShaderFeedingRasterizer
 
-
-            Whether to use the VP and RT array index from any shader feeding the rasterizer.
+Whether to use the VP and RT array index from any shader feeding the rasterizer.
             
 
 

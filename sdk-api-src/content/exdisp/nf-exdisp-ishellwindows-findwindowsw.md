@@ -7,7 +7,7 @@ old-location: shell\IShellWindows_FindWindowSW.htm
 old-project: shell
 ms.assetid: 10eed153-cb0b-4ce0-8cc5-2e7ebf683fda
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: FindWindowSW, FindWindowSW method [Windows Shell], FindWindowSW method [Windows Shell],IShellWindows interface, IShellWindows interface [Windows Shell],FindWindowSW method, IShellWindows.FindWindowSW, IShellWindows::FindWindowSW, _win32_IShellWindows_FindWindowSW, exdisp/IShellWindows::FindWindowSW, shell.IShellWindows_FindWindowSW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-Finds a window in the Shell windows collection and returns the window's handle and <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface.
+Finds a window in the Shell windows collection and returns the window's handle and <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface.
 
 
 ## -parameters
@@ -96,9 +96,9 @@ One or more <a href="https://msdn.microsoft.com/2459ab16-56c0-4812-bc61-4a17978b
 
 ### -param ppdispOut [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>**</b>
+Type: <b><a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>**</b>
 
-A reference to the window's <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface, or <b>NULL</b> if no such window was found.
+A reference to the window's <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface, or <b>NULL</b> if no such window was found.
 
 
 ## -returns
@@ -143,7 +143,7 @@ A window matching the specified search criteria was not found.
 </dl>
 </td>
 <td width="60%">
-A window was found, but a reference to the window's <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface could not be obtained. Only occurs if the <a href="https://msdn.microsoft.com/2459ab16-56c0-4812-bc61-4a17978b04f3">SWFO_NEEDDISPATCH</a> flag is set.
+A window was found, but a reference to the window's <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface could not be obtained. Only occurs if the <a href="https://msdn.microsoft.com/2459ab16-56c0-4812-bc61-4a17978b04f3">SWFO_NEEDDISPATCH</a> flag is set.
 
 </td>
 </tr>

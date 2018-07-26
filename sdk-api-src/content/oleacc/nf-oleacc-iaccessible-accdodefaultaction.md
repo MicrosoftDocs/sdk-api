@@ -7,7 +7,7 @@ old-location: winauto\iaccessible_iaccessible__accdodefaultaction.htm
 old-project: WinAuto
 ms.assetid: 5b731f52-d0b0-4b69-91a0-fdd84e91533d
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accDoDefaultAction method, IAccessible.accDoDefaultAction, IAccessible::accDoDefaultAction, _msaa_IAccessible_accDoDefaultAction, accDoDefaultAction, accDoDefaultAction method [Windows Accessibility], accDoDefaultAction method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__accdodefaultaction, oleacc/IAccessible::accDoDefaultAction, winauto.iaccessible_iaccessible__accdodefaultaction
 ms.prod: windows
 ms.technology: windows-sdk

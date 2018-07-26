@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_resolvesubresource.htm
 old-project: direct3d12
 ms.assetid: F1D4BAD1-B08E-47D0-9D2B-41873D6B4456
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12GraphicsCommandList interface,ResolveSubresource method, ID3D12GraphicsCommandList.ResolveSubresource, ID3D12GraphicsCommandList::ResolveSubresource, ResolveSubresource, ResolveSubresource method, ResolveSubresource method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::ResolveSubresource, direct3d12.id3d12graphicscommandlist_resolvesubresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 
 Type: <b>ID3D12Resource*</b>
 
-
-            Destination resource. Must be a created with the <a href="https://msdn.microsoft.com/251d462e-964e-42db-8554-dba8f5a9b1ef">D3D11_USAGE_DEFAULT</a> flag and be single-sampled. See
+Destination resource. Must be a created with the <a href="https://msdn.microsoft.com/251d462e-964e-42db-8554-dba8f5a9b1ef">D3D11_USAGE_DEFAULT</a> flag and be single-sampled. See
             <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>.
           
 
@@ -72,8 +71,7 @@ Type: <b>ID3D12Resource*</b>
 
 Type: <b>UINT</b>
 
-
-            A zero-based index, that identifies the destination subresource. Use <a href="https://msdn.microsoft.com/5C63A315-E21E-498B-A832-6BA2D17FF9A7">D3D12CalcSubresource</a> to calculate the subresource index if the parent resource is complex.
+A zero-based index, that identifies the destination subresource. Use <a href="https://msdn.microsoft.com/5C63A315-E21E-498B-A832-6BA2D17FF9A7">D3D12CalcSubresource</a> to calculate the subresource index if the parent resource is complex.
           
 
 
@@ -81,8 +79,7 @@ Type: <b>UINT</b>
 
 Type: <b>ID3D12Resource*</b>
 
-
-            Source resource. Must be multisampled.
+Source resource. Must be multisampled.
           
 
 
@@ -90,8 +87,7 @@ Type: <b>ID3D12Resource*</b>
 
 Type: <b>UINT</b>
 
-
-            The source subresource of the source resource.
+The source subresource of the source resource.
           
 
 
@@ -99,8 +95,7 @@ Type: <b>UINT</b>
 
 Type: <b>DXGI_FORMAT</b>
 
-
-            A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> that indicates how the multisampled resource will be resolved to a single-sampled resource.
+A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> that indicates how the multisampled resource will be resolved to a single-sampled resource.
             See remarks.
           
 
@@ -109,8 +104,7 @@ Type: <b>DXGI_FORMAT</b>
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 
@@ -121,12 +115,10 @@ Type: <b>DXGI_FORMAT</b>
 
 
 <h3><a id="Debug_layer"></a><a id="debug_layer"></a><a id="DEBUG_LAYER"></a>Debug layer</h3>
-
-            The debug layer will issue an error if the subresources referenced by the source view is not in the  <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_RESOLVE_SOURCE</a> state.
+The debug layer will issue an error if the subresources referenced by the source view is not in the  <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_RESOLVE_SOURCE</a> state.
           
 
-
-            The debug layer will issue an error if the destination buffer is not in the  <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_RESOLVE_DEST</a>state.
+The debug layer will issue an error if the destination buffer is not in the  <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_RESOLVE_DEST</a>state.
           
 
 This API is most useful when re-using the resulting rendertarget of one render pass as an input to a second render pass.
@@ -148,10 +140,8 @@ The source and destination resources must be the same resource type and have the
 </tr>
 <tr>
 <td>Source and destination are prestructured and typeless</td>
-<td>
-              Both the source and desintation must have the same typeless format (i.e. both must have DXGI_FORMAT_R32_TYPELESS), and the Format parameter must specify a format that is compatible with the source and destination (i.e. if both are DXGI_FORMAT_R32_TYPELESS then DXGI_FORMAT_R32_FLOAT could be specified in the Format parameter).
-              
-                For example, given the DXGI_FORMAT_R16G16B16A16_TYPELESS format:
+<td>Both the source and desintation must have the same typeless format (i.e. both must have DXGI_FORMAT_R32_TYPELESS), and the Format parameter must specify a format that is compatible with the source and destination (i.e. if both are DXGI_FORMAT_R32_TYPELESS then DXGI_FORMAT_R32_FLOAT could be specified in the Format parameter).
+              For example, given the DXGI_FORMAT_R16G16B16A16_TYPELESS format:
               
 
 <ul>

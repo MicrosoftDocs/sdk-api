@@ -4,10 +4,10 @@ title: IUpdateHistoryEntry2
 author: windows-sdk-content
 description: Represents the recorded history of an update.
 old-location: wua\iupdatehistoryentry2.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 99965928-17c7-4aaa-ba8c-6f3e07c7c5b7
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IUpdateHistoryEntry2, IUpdateHistoryEntry2 interface [Windows Update Agent], IUpdateHistoryEntry2 interface [Windows Update Agent],described, wua.iupdatehistoryentry2, wuapi/IUpdateHistoryEntry2
 ms.prod: windows
 ms.technology: windows-sdk

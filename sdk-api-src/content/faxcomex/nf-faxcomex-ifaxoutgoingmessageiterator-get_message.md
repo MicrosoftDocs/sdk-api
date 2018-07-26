@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingmessageiterator_message.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7wkl.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FaxOutgoingMessageIterator object [Fax Service],Message property, FaxOutgoingMessageIterator.Message, IFaxOutgoingMessageIterator.get_Message, IFaxOutgoingMessageIterator::get_Message, Message property [Fax Service], Message property [Fax Service],FaxOutgoingMessageIterator object, _mfax_faxoutgoingmessageiterator.message, fax._mfax_faxoutgoingmessageiterator_message, get_Message
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farSUBMIT_LOW</a> and <b>farQUERY_OUT_ARCHIVE</b> access rights.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_LOW</a> and <b>farQUERY_OUT_ARCHIVE</b> access rights.
 
 
 
@@ -74,15 +74,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690094(v=VS.85).aspx">FaxOutgoingMessageIterator</a>
+<a href="https://msdn.microsoft.com/4eab8319-23ff-4f25-9402-bcb53a440879">FaxOutgoingMessageIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690096(v=VS.85).aspx">IFaxOutgoingMessageIterator</a>
+<a href="https://msdn.microsoft.com/5a34e012-33ae-4950-9f10-a3ad94142ef1">IFaxOutgoingMessageIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693402(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/072eb2cc-7fd9-4f8e-8583-44384357e708">Visual Basic Example</a>
  
 
  

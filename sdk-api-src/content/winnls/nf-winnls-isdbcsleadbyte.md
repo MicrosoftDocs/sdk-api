@@ -7,7 +7,7 @@ old-location: intl\isdbcsleadbyte.htm
 old-project: Intl
 ms.assetid: 13767af5-9313-4c11-8386-fe41c7720d49
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: IsDBCSLeadByte, IsDBCSLeadByte function [Internationalization for Windows Applications], _win32_IsDBCSLeadByte, intl.isdbcsleadbyte, winnls/IsDBCSLeadByte
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,7 +106,7 @@ Lead byte values are specific to each distinct DBCS. Some byte values can appear
 To make sense of a DBCS string, an application normally starts at the beginning of a string and scans forward, 
     keeping track when it encounters a lead byte, and treating the next byte as the trailing part of the same 
     character. If the application must back up, it should use 
-    <a href="https://msdn.microsoft.com/library/ms647471(v=VS.85).aspx">CharPrev</a> instead of attempting to develop its own 
+    <a href="_win32_CharPrev_cpp">CharPrev</a> instead of attempting to develop its own 
     algorithm.
 
 

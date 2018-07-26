@@ -7,7 +7,7 @@ old-location: wininet\findcloseurlcache.htm
 old-project: wininet
 ms.assetid: 54fc7bea-4cc1-4034-93c3-49ec88817648
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/20/2018
 ms.keywords: FindCloseUrlCache, FindCloseUrlCache function [WinINet], _inet_findcloseurlcache_function, wininet.findcloseurlcache, wininet/FindCloseUrlCache
 ms.prod: windows
 ms.technology: windows-sdk

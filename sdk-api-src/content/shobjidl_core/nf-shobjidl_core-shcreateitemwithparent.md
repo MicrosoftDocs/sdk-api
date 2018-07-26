@@ -7,7 +7,7 @@ old-location: shell\SHCreateItemWithParent.htm
 old-project: shell
 ms.assetid: 8fb84a20-d8f2-4c7c-bfb1-a22791b8636a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: SHCreateItemWithParent, SHCreateItemWithParent function [Windows Shell], _shell_SHCreateItemWithParent, shell.SHCreateItemWithParent, shobjidl_core/SHCreateItemWithParent
 ms.prod: windows
 ms.technology: windows-sdk

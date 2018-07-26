@@ -7,7 +7,7 @@ old-location: shell\SHLoadOLE.htm
 old-project: shell
 ms.assetid: 1c1306bc-443c-4486-b2bc-9bd869b833c3
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: SHLoadOLE, SHLoadOLE function [Windows Shell], _win32_SHLoadOLE, shell.SHLoadOLE, shlobj/SHLoadOLE
 ms.prod: windows
 ms.technology: windows-sdk

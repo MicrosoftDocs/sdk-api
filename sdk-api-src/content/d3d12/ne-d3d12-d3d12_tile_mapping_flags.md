@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tile_mapping_flags.htm
 old-project: direct3d12
 ms.assetid: 588BCCA8-3F14-4837-86AE-EE4E4F0BC5ED
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_TILE_MAPPING_FLAGS, D3D12_TILE_MAPPING_FLAGS enumeration, D3D12_TILE_MAPPING_FLAG_NONE, D3D12_TILE_MAPPING_FLAG_NO_HAZARD, d3d12/D3D12_TILE_MAPPING_FLAGS, d3d12/D3D12_TILE_MAPPING_FLAG_NONE, d3d12/D3D12_TILE_MAPPING_FLAG_NO_HAZARD, direct3d12.d3d12_tile_mapping_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Specifies how to perform a tile-mapping operation.
+Specifies how to perform a tile-mapping operation.
         
 
 
@@ -62,8 +61,7 @@ req.irql:
 
 ### -field D3D12_TILE_MAPPING_FLAG_NONE
 
-
-            No tile-mapping flags are specified.
+No tile-mapping flags are specified.
           
 
 
@@ -77,8 +75,7 @@ Unsupported, do not use.
 
 
 
-
-        This enum is used by the following methods:
+This enum is used by the following methods:
 
 <ul>
 <li>

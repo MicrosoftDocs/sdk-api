@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_message.htm
 old-project: direct3d12
 ms.assetid: DED84AC1-0126-450E-8A0A-1336BB4084D4
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_MESSAGE, D3D12_MESSAGE structure, d3d12sdklayers/D3D12_MESSAGE, direct3d12.d3d12_message
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          A debug message in the Information Queue.
+A debug message in the Information Queue.
 
 
 ## -struct-fields
@@ -61,36 +60,31 @@ req.irql:
 
 ### -field Category
 
-
-            The category of the message. See <a href="https://msdn.microsoft.com/297923A3-CE6A-46AF-B8B6-E2AE0C1920CC">D3D12_MESSAGE_CATEGORY</a>.
+The category of the message. See <a href="https://msdn.microsoft.com/297923A3-CE6A-46AF-B8B6-E2AE0C1920CC">D3D12_MESSAGE_CATEGORY</a>.
           
 
 
 ### -field Severity
 
-
-            The severity of the message. See  <a href="https://msdn.microsoft.com/44D94C37-4BA8-49FC-BEEF-6666AD59B627">D3D12_MESSAGE_SEVERITY</a>.
+The severity of the message. See  <a href="https://msdn.microsoft.com/44D94C37-4BA8-49FC-BEEF-6666AD59B627">D3D12_MESSAGE_SEVERITY</a>.
           
 
 
 ### -field ID
 
-
-            The ID of the message. See <a href="https://msdn.microsoft.com/95681EB0-C00B-42C8-91E1-1D1F657C886B">D3D12_MESSAGE_ID</a>.
+The ID of the message. See <a href="https://msdn.microsoft.com/95681EB0-C00B-42C8-91E1-1D1F657C886B">D3D12_MESSAGE_ID</a>.
           
 
 
 ### -field pDescription
 
-
-            The message string.
+The message string.
           
 
 
 ### -field DescriptionByteLength
 
-
-            The length of <i>pDescription</i>, in bytes.
+The length of <i>pDescription</i>, in bytes.
           
 
 
@@ -98,8 +92,7 @@ req.irql:
 
 
 
-
-          This structure is returned from <a href="https://msdn.microsoft.com/B7B6D1C4-18FD-492A-8346-CA02FCD3EC4B">ID3D12InfoQueue::GetMessage</a> as part of the Information Queue feature (see <a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a>).
+This structure is returned from <a href="https://msdn.microsoft.com/B7B6D1C4-18FD-492A-8346-CA02FCD3EC4B">ID3D12InfoQueue::GetMessage</a> as part of the Information Queue feature (see <a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a>).
 
 
 

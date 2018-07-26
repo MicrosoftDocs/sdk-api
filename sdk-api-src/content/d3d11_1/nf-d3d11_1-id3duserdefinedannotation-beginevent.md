@@ -7,7 +7,7 @@ old-location: direct3d11\id3duserdefinedannotation_beginevent.htm
 old-project: direct3d11
 ms.assetid: 38FC7BFA-A01E-4537-88F1-836AE03C9A07
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: BeginEvent, BeginEvent method [Direct3D 11], BeginEvent method [Direct3D 11],ID3DUserDefinedAnnotation interface, ID3DUserDefinedAnnotation interface [Direct3D 11],BeginEvent method, ID3DUserDefinedAnnotation.BeginEvent, ID3DUserDefinedAnnotation::BeginEvent, d3d11_1/ID3DUserDefinedAnnotation::BeginEvent, direct3d11.id3duserdefinedannotation_beginevent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,8 +89,7 @@ A user can visualize the event when the calling application is running under an 
 
 #### Examples
 
-
-          The following code shows how to use a pair of calls to the <b>BeginEvent</b> and <a href="https://msdn.microsoft.com/5C478278-EC05-4214-80F9-808EADA76E41">EndEvent</a> methods.
+The following code shows how to use a pair of calls to the <b>BeginEvent</b> and <a href="https://msdn.microsoft.com/5C478278-EC05-4214-80F9-808EADA76E41">EndEvent</a> methods.
           It also uses the <a href="22d9ea8d-ed66-4c34-940f-141db11e83bd">CComPtr</a> smart pointer type.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>

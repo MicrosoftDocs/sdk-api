@@ -7,7 +7,7 @@ old-location: wininet\readurlcacheentrystream.htm
 old-project: wininet
 ms.assetid: 8cfd0c64-25ca-4f08-b9b3-2743ded18030
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/20/2018
 ms.keywords: ReadUrlCacheEntryStream, ReadUrlCacheEntryStream function [WinINet], _inet_readurlcacheentrystream_function, wininet.readurlcacheentrystream, wininet/ReadUrlCacheEntryStream
 ms.prod: windows
 ms.technology: windows-sdk

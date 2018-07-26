@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11rasterizerstate2_getdesc2.htm
 old-project: direct3d11
 ms.assetid: 23A3BCDF-9D3D-4984-BFA9-E598773DBC44
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: GetDesc2, GetDesc2 method [Direct3D 11], GetDesc2 method [Direct3D 11],ID3D11RasterizerState2 interface, ID3D11RasterizerState2 interface [Direct3D 11],GetDesc2 method, ID3D11RasterizerState2.GetDesc2, ID3D11RasterizerState2::GetDesc2, d3d11_3/ID3D11RasterizerState2::GetDesc2, direct3d11.id3d11rasterizerstate2_getdesc2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Gets the description for rasterizer state that you used to create the rasterizer
 
 ### -param pDesc [out]
 
-
-            A pointer to a <a href="https://msdn.microsoft.com/54B5744A-1F50-4203-A43B-7E830D769534">D3D11_RASTERIZER_DESC2</a> structure that receives a description of the rasterizer state. This rasterizer state can specify forced sample count and conservative rasterization mode.
+A pointer to a <a href="https://msdn.microsoft.com/54B5744A-1F50-4203-A43B-7E830D769534">D3D11_RASTERIZER_DESC2</a> structure that receives a description of the rasterizer state. This rasterizer state can specify forced sample count and conservative rasterization mode.
           
 
 

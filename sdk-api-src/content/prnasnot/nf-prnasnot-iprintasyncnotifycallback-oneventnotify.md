@@ -7,7 +7,7 @@ old-location: gdi\iprintasyncnotifycallback_iprintasyncnotifycallback__oneventno
 old-project: printdocs
 ms.assetid: 2f398173-3cd6-46da-931d-057d1dccbe9b
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IPrintAsyncNotifyCallback interface [Windows GDI],OnEventNotify method, IPrintAsyncNotifyCallback.OnEventNotify, IPrintAsyncNotifyCallback::OnEventNotify, OnEventNotify, OnEventNotify method [Windows GDI], OnEventNotify method [Windows GDI],IPrintAsyncNotifyCallback interface, _win32_IPrintAsyncNotifyCallback_OnEventNotify, gdi.iprintasyncnotifycallback_iprintasyncnotifycallback__oneventnotify, prnasnot/IPrintAsyncNotifyCallback::OnEventNotify
 ms.prod: windows
 ms.technology: windows-sdk

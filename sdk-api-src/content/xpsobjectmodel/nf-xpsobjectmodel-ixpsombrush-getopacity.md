@@ -7,7 +7,7 @@ old-location: xps\ixpsombrush_getopacity.htm
 old-project: printdocs
 ms.assetid: 53819ce0-4b81-4720-8c1d-6e9031b228c9
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: GetOpacity, GetOpacity method [XPS Documents and Packaging], GetOpacity method [XPS Documents and Packaging],IXpsOMBrush interface, IXpsOMBrush interface [XPS Documents and Packaging],GetOpacity method, IXpsOMBrush.GetOpacity, IXpsOMBrush::GetOpacity, xps.ixpsombrush_getopacity, xpsobjectmodel/IXpsOMBrush::GetOpacity
 ms.prod: windows
 ms.technology: windows-sdk

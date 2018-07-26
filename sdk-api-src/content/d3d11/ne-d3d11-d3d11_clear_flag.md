@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_clear_flag.htm
 old-project: direct3d11
 ms.assetid: 6da515f3-d71d-4b59-b2ea-cacdf78fcb42
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 88ebcd50-b0dd-e04e-4b30-028ca4147553, D3D11_CLEAR_DEPTH, D3D11_CLEAR_FLAG, D3D11_CLEAR_FLAG enumeration [Direct3D 11], D3D11_CLEAR_STENCIL, d3d11/D3D11_CLEAR_DEPTH, d3d11/D3D11_CLEAR_FLAG, d3d11/D3D11_CLEAR_STENCIL, direct3d11.d3d11_clear_flag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      Specifies the parts of the depth stencil to clear.
+Specifies the parts of the depth stencil to clear.
 
 
 ## -enum-fields
@@ -73,8 +72,7 @@ Clear the stencil buffer, using fast clear if possible, then place the resource 
 
 
 
-
-          These flags are used when calling <a href="https://msdn.microsoft.com/1e2269cf-edef-466e-be59-95dc644c7a0c">ID3D11DeviceContext::ClearDepthStencilView</a>; the flags can be combined with a bitwise OR.
+These flags are used when calling <a href="https://msdn.microsoft.com/1e2269cf-edef-466e-be59-95dc644c7a0c">ID3D11DeviceContext::ClearDepthStencilView</a>; the flags can be combined with a bitwise OR.
         
 
 

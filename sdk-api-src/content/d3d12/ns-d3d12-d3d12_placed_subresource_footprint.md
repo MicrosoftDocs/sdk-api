@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_placed_subresource_footprint.htm
 old-project: direct3d12
 ms.assetid: 74740A52-C2A5-4AF6-92CC-85B5C214423F
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_PLACED_SUBRESOURCE_FOOTPRINT, D3D12_PLACED_SUBRESOURCE_FOOTPRINT structure, d3d12/D3D12_PLACED_SUBRESOURCE_FOOTPRINT, direct3d12.d3d12_placed_subresource_footprint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes the footprint of a placed subresource, including the offset and the D3D12_SUBRESOURCE_FOOTPRINT.
+Describes the footprint of a placed subresource, including the offset and the D3D12_SUBRESOURCE_FOOTPRINT.
         
 
 
@@ -62,16 +61,14 @@ req.irql:
 
 ### -field Offset
 
-
-            The offset of the subresource within the parent resource, in bytes.
+The offset of the subresource within the parent resource, in bytes.
             The offset between the start of the parent resource and this subresource.
           
 
 
 ### -field Footprint
 
-
-            The format, width, height, depth, and row-pitch of the subresource,
+The format, width, height, depth, and row-pitch of the subresource,
             as a <a href="https://msdn.microsoft.com/C73B6AB0-F9C5-432E-BA26-3B7772411C95">D3D12_SUBRESOURCE_FOOTPRINT</a> structure.
           
 
@@ -80,19 +77,15 @@ req.irql:
 
 
 
-
-          This structure is used in the <a href="https://msdn.microsoft.com/D63EC731-EE75-44CD-9CCD-7FB4A761D1A3">D3D12_TEXTURE_COPY_LOCATION</a> structure,
+This structure is used in the <a href="https://msdn.microsoft.com/D63EC731-EE75-44CD-9CCD-7FB4A761D1A3">D3D12_TEXTURE_COPY_LOCATION</a> structure,
           and by <a href="https://msdn.microsoft.com/EB3715A9-5A73-45DA-A46F-7889188409A3">ID3D12Device::GetCopyableFootprints</a>.
         
 
+All the data referenced by the footprint structure must fit within the bounds of the parent resource. If you use <a href="https://msdn.microsoft.com/EB3715A9-5A73-45DA-A46F-7889188409A3">GetCopyableFootprints</a> to fill out the structure, the <i>pTotalBytes</i> output field indicates the required size of the resource.
 
-        All the data referenced by the footprint structure must fit within the bounds of the parent resource. If you use <a href="https://msdn.microsoft.com/EB3715A9-5A73-45DA-A46F-7889188409A3">GetCopyableFootprints</a> to fill out the structure, the <i>pTotalBytes</i> output field indicates the required size of the resource.
+This structure is also used a number of helper functions (refer to <a href="https://msdn.microsoft.com/095958A9-345B-45AE-8363-B353534044B2">Helper Structures and Functions for D3D12</a>).
 
-
-        This structure is also used a number of helper functions (refer to <a href="https://msdn.microsoft.com/095958A9-345B-45AE-8363-B353534044B2">Helper Structures and Functions for D3D12</a>).
-
-
-        When copying textures, use this structure along with <a href="https://msdn.microsoft.com/D63EC731-EE75-44CD-9CCD-7FB4A761D1A3">D3D12_TEXTURE_COPY_LOCATION</a>.
+When copying textures, use this structure along with <a href="https://msdn.microsoft.com/D63EC731-EE75-44CD-9CCD-7FB4A761D1A3">D3D12_TEXTURE_COPY_LOCATION</a>.
       
 
 

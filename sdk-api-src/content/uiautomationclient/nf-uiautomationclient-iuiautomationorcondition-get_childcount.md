@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationOrCondition_ChildCount.htm
 old-project: WinAuto
 ms.assetid: 2dce4d7d-73c4-4882-953e-c7bbf1c1c0e7
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: ChildCount property [Windows Accessibility], ChildCount property [Windows Accessibility],IUIAutomationOrCondition interface, IUIAutomationOrCondition interface [Windows Accessibility],ChildCount property, IUIAutomationOrCondition.ChildCount, IUIAutomationOrCondition.get_ChildCount, IUIAutomationOrCondition::ChildCount, IUIAutomationOrCondition::get_ChildCount, get_ChildCount, uiauto.uiauto_IUIAutomationOrCondition_ChildCount, uiauto_IUIAutomationOrCondition_ChildCount, uiautomationclient/IUIAutomationOrCondition::ChildCount, uiautomationclient/IUIAutomationOrCondition::get_ChildCount, winauto.uiauto_IUIAutomationOrCondition_ChildCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

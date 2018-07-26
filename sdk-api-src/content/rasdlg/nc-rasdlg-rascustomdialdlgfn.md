@@ -150,8 +150,8 @@ If this entry point calls
 <a href="https://msdn.microsoft.com/533c9ab4-69d0-492d-81c6-2c07ca219fc7">RASDIALEXTENSIONS</a> structure must have the <b>RDEOPT_CustomDial</b> flag set.
 
 The custom-dial dialog must support 
-<a href="https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> messages where 
-<a href="https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
+<a href="_win32_wm_command">WM_COMMAND</a> messages where 
+<a href="_win32_loword">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
 
 If the custom-dial DLL does not support this entry point, RAS returns <b>ERROR_CANNOT_DO_CUSTOMDIAL</b> to the caller of 
 <a href="https://msdn.microsoft.com/698a18a1-b302-4b0d-8399-0bbdbe775f08">RasDialDlg</a>.

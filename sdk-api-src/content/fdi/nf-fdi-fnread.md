@@ -7,7 +7,7 @@ old-location: winprog\fnread.htm
 old-project: devnotes
 ms.assetid: 0a8c6c9f-051c-43a0-b43b-1fd8b4fef10c
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: FNREAD, FNREAD macro [Windows API], fdi/FNREAD, winprog.fnread
 ms.prod: windows
 ms.technology: windows-sdk

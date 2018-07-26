@@ -4,10 +4,10 @@ title: D2D1_SHADOW_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Shadow effect.
 old-location: direct2d\d2d1_shadow_prop.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 332B5743-D702-4DBC-8482-FEAD43641C3A
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_SHADOW_PROP, D2D1_SHADOW_PROP enumeration [Direct2D], D2D1_SHADOW_PROP_BLUR_STANDARD_DEVIATION, D2D1_SHADOW_PROP_COLOR, D2D1_SHADOW_PROP_OPTIMIZATION, d2d1effects/D2D1_SHADOW_PROP, d2d1effects/D2D1_SHADOW_PROP_BLUR_STANDARD_DEVIATION, d2d1effects/D2D1_SHADOW_PROP_COLOR, d2d1effects/D2D1_SHADOW_PROP_OPTIMIZATION, direct2d.d2d1_shadow_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Identifiers for properties of the <a href="https://msdn.microsoft.com/53525584-10CF-46C2-9400-C4FB225D4693">Shadow effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/53525584-10CF-46C2-9400-C4FB225D4693">Shadow effect</a>.
         
 
 
@@ -62,8 +61,7 @@ req.irql:
 
 ### -field D2D1_SHADOW_PROP_BLUR_STANDARD_DEVIATION
 
-
-            The amount of blur to be applied to the alpha channel of the image. You can compute the blur radius of the kernel by multiplying the standard deviation by 3.
+The amount of blur to be applied to the alpha channel of the image. You can compute the blur radius of the kernel by multiplying the standard deviation by 3.
             The units of both the standard deviation and blur radius are DIPs.
             
 
@@ -76,8 +74,7 @@ The default value is 3.0f.
 
 ### -field D2D1_SHADOW_PROP_COLOR
 
-
-            The color of the drop shadow. This property is a D2D1_VECTOR_4F defined as: (R, G, B, A). You must specify this color in straight alpha.
+The color of the drop shadow. This property is a D2D1_VECTOR_4F defined as: (R, G, B, A). You must specify this color in straight alpha.
             
 
 The type is <a href="https://msdn.microsoft.com/6D931285-0F2B-44BE-8A1A-2348AC49A8DF">D2D1_VECTOR_4F</a>.
@@ -87,8 +84,7 @@ The default value is {0.0f, 0.0f, 0.0f, 1.0f}.
 
 ### -field D2D1_SHADOW_PROP_OPTIMIZATION
 
-
-            The level of performance optimization.
+The level of performance optimization.
             
 
 The type is <a href="https://msdn.microsoft.com/1C509608-BEBA-4E4C-8EC5-88B587D81B34">D2D1_SHADOW_OPTIMIZATION</a>.

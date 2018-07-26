@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_format_info.htm
 old-project: direct3d12
 ms.assetid: 8695994A-CC83-451C-AD1B-65359656F3CC
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_FEATURE_DATA_FORMAT_INFO, D3D12_FEATURE_DATA_FORMAT_INFO structure, d3d12/D3D12_FEATURE_DATA_FORMAT_INFO, direct3d12.d3d12_feature_data_format_info
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes the DXGI data format.
+Describes the DXGI data format.
         
 
 
@@ -62,15 +61,13 @@ req.irql:
 
 ### -field Format
 
-
-            A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value for the format to return info about.
+A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed value for the format to return info about.
           
 
 
 ### -field PlaneCount
 
-
-            The number of planes to provide information about.
+The number of planes to provide information about.
           
 
 
@@ -78,8 +75,7 @@ req.irql:
 
 
 
-
-        See <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>.
+See <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>.
       
 
 

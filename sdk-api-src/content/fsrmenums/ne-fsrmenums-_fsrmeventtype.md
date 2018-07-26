@@ -4,10 +4,10 @@ title: "_FsrmEventType"
 author: windows-sdk-content
 description: Defines the event types that an event logging action (see FsrmActionType) can log.
 old-location: fsrm\fsrmeventtype.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 517992e2-ecbe-40bf-b93c-81f509f26162
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: FsrmEventType, FsrmEventType enumeration [File Server Resource Manager], FsrmEventType_Error, FsrmEventType_Information, FsrmEventType_Unknown, FsrmEventType_Warning, _FsrmEventType, fs.fsrmeventtype, fsrm.fsrmeventtype, fsrmenums/FsrmEventType, fsrmenums/FsrmEventType_Error, fsrmenums/FsrmEventType_Information, fsrmenums/FsrmEventType_Unknown, fsrmenums/FsrmEventType_Warning
 ms.prod: windows
 ms.technology: windows-sdk

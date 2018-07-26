@@ -7,7 +7,7 @@ old-location: direct3d12\id3d11on12device_createwrappedresource.htm
 old-project: direct3d12
 ms.assetid: 83B37B0A-9965-40F6-A5B1-8B4DC21BC455
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: CreateWrappedResource, CreateWrappedResource method, CreateWrappedResource method,ID3D11On12Device interface, ID3D11On12Device interface,CreateWrappedResource method, ID3D11On12Device.CreateWrappedResource, ID3D11On12Device::CreateWrappedResource, d3d11on12/ID3D11On12Device::CreateWrappedResource, direct3d12.id3d11on12device_createwrappedresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          This method creates D3D11 resources for use with D3D 11on12.
+This method creates D3D11 resources for use with D3D 11on12.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b>IUnknown*</b>
 
-
-            A pointer to an already-created D3D12 resource or heap.
+A pointer to an already-created D3D12 resource or heap.
           
 
 
@@ -73,8 +71,7 @@ Type: <b>IUnknown*</b>
 
 Type: <b>const <a href="https://msdn.microsoft.com/50C1ACA1-714C-467A-A548-B5EE50DA3E3D">D3D11_RESOURCE_FLAGS</a>*</b>
 
-
-              A <a href="https://msdn.microsoft.com/50C1ACA1-714C-467A-A548-B5EE50DA3E3D">D3D11_RESOURCE_FLAGS</a> structure that enables an application to override flags that would be inferred by the resource/heap properties.
+A <a href="https://msdn.microsoft.com/50C1ACA1-714C-467A-A548-B5EE50DA3E3D">D3D11_RESOURCE_FLAGS</a> structure that enables an application to override flags that would be inferred by the resource/heap properties.
               The D3D11_RESOURCE_FLAGS structure contains bind flags, misc flags, and CPU access flags.
             
 
@@ -83,8 +80,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/50C1ACA1-714C-467A-A548-B5EE5
 
 Type: <b><a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATES</a></b>
 
-
-            The use of the resource on input, as a bitwise-OR'd combination of <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATES</a> enumeration constants.
+The use of the resource on input, as a bitwise-OR'd combination of <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATES</a> enumeration constants.
           
 
 
@@ -92,8 +88,7 @@ Type: <b><a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3
 
 Type: <b><a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATES</a></b>
 
-
-            The use of the resource on output, as a bitwise-OR'd combination of <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATES</a> enumeration constants.
+The use of the resource on output, as a bitwise-OR'd combination of <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATES</a> enumeration constants.
           
 
 
@@ -101,8 +96,7 @@ Type: <b><a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3
 
 Type: <b>REFIID</b>
 
-
-            The globally unique identifier (<b>GUID</b>) for the wrapped resource interface.
+The globally unique identifier (<b>GUID</b>) for the wrapped resource interface.
             The <b>REFIID</b>, or <b>GUID</b>, of the interface to the wrapped resource can be obtained by using the __uuidof() macro.
             For example, __uuidof(<a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>) will get the <b>GUID</b> of the interface to a wrapped resource.
           
@@ -112,8 +106,7 @@ Type: <b>REFIID</b>
 
 Type: <b>void**</b>
 
-
-            After the method returns, points to the newly created wrapped D3D11 resource or heap.
+After the method returns, points to the newly created wrapped D3D11 resource or heap.
           
 
 
@@ -121,10 +114,9 @@ Type: <b>void**</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-
-            This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
 
 

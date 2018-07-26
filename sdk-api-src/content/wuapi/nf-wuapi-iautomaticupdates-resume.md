@@ -4,10 +4,10 @@ title: IAutomaticUpdates::Resume
 author: windows-sdk-content
 description: Restarts automatic updating if automatic updating is paused.
 old-location: wua\iautomaticupdates_resume.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 8aabfb89-89e2-450e-bfe6-62a48f93746f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],Resume method, IAutomaticUpdates.Resume, IAutomaticUpdates::Resume, Resume, Resume method [Windows Update Agent], Resume method [Windows Update Agent],IAutomaticUpdates interface, wua.iautomaticupdates_resume, wuapi/IAutomaticUpdates::Resume
 ms.prod: windows
 ms.technology: windows-sdk

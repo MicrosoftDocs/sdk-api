@@ -4,10 +4,10 @@ title: DrawRoundedRectangle function
 author: windows-sdk-content
 description: Draws the outline of the specified rounded rectangle using the specified stroke style.
 old-location: direct2d\id2d1rendertarget_drawroundedrectangle.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: d718c355-ffd8-4a7f-90f3-9a10d37a19c8
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: DrawRoundedRectangle, DrawRoundedRectangle methods [Direct2D], ID2D1RenderTarget::DrawRoundedRectangle, d2d1/DrawRoundedRectangle, direct2d.id2d1rendertarget_drawroundedrectangle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ req.irql:
 <a href="https://msdn.microsoft.com/599638af-ebbb-4a45-96cf-ba3852e87237">DrawRoundedRectangle(D2D1_ROUNDED_RECT&,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
 </td>
 <td align="left" width="63%">
-
-    Draws the outline of the specified rounded rectangle using the specified stroke style.
+Draws the outline of the specified rounded rectangle using the specified stroke style.
 
 </td>
 </tr>
@@ -71,8 +70,7 @@ req.irql:
 <a href="https://msdn.microsoft.com/e4f21552-286f-4330-9cc4-c92694c6d6ce">DrawRoundedRectangle(D2D1_ROUNDED_RECT*,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
 </td>
 <td align="left" width="63%">
-
-    Draws the outline of the specified rounded rectangle using the specified stroke style.
+Draws the outline of the specified rounded rectangle using the specified stroke style.
 
 </td>
 </tr>
@@ -92,7 +90,7 @@ This method doesn't return an error code if it fails. To determine whether a dra
 
 The following example uses the <b>DrawRoundedRectangle</b> and <a href="https://msdn.microsoft.com/9c4765b0-858f-4a20-b044-0acf87a1f131">FillRoundedRectangle</a> methods to outline and fill a rounded rectangle.  This example produces the output shown in the following illustration. 
 
-<img alt="Illustration of four rounded rectangles with different stroke styles and fills" src="./images/drawroundedrectangle_scr.png"/>
+<img alt="Illustration of four rounded rectangles with different stroke styles and fills" src="images/drawroundedrectangle_scr.png"/>
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

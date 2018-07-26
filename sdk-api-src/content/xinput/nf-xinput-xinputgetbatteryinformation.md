@@ -7,7 +7,7 @@ old-location: xinput\xinputgetbatteryinformation.htm
 old-project: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetBatteryInformation(DWORD,BYTE,XINPUT_BATTERY_INFORMATION@)
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/23/2018
 ms.keywords: XInputGetBatteryInformation, XInputGetBatteryInformation function [XInput Game Controller APIs], xinput.xinputgetbatteryinformation, xinput/XInputGetBatteryInformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ Specifies which device associated with this user index should be queried. Must b
 
 ### -param pBatteryInformation [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/Ff729734(v=VS.85).aspx">XINPUT_BATTERY_INFORMATION</a> structure that receives the battery information.
+Pointer to an <a href="https://msdn.microsoft.com/2834E5D9-3B7B-46CE-AC40-0C7AB493CAAB">XINPUT_BATTERY_INFORMATION</a> structure that receives the battery information.
 
 
 ## -returns

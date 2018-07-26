@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_subresource_range_uint64.htm
 old-project: direct3d12
 ms.assetid: D8DACE22-9AFD-4DCD-A254-A34AD532ACD7
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_SUBRESOURCE_RANGE_UINT64, D3D12_SUBRESOURCE_RANGE_UINT64 structure, d3d12/D3D12_SUBRESOURCE_RANGE_UINT64, direct3d12.d3d12_subresource_range_uint64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,8 +72,7 @@ A memory range within the subresource.
 
 
 
-
-        This structure is used by the <a href="https://msdn.microsoft.com/745B641F-B136-46A2-A0EE-F5FDC13656E5">AtomicCopyBufferUINT</a> and <a href="https://msdn.microsoft.com/F83870E9-5256-4A3E-BAF7-05C4CCB28442">AtomicCopyBufferUINT64</a> methods.
+This structure is used by the <a href="https://msdn.microsoft.com/745B641F-B136-46A2-A0EE-F5FDC13656E5">AtomicCopyBufferUINT</a> and <a href="https://msdn.microsoft.com/F83870E9-5256-4A3E-BAF7-05C4CCB28442">AtomicCopyBufferUINT64</a> methods.
       
 
 

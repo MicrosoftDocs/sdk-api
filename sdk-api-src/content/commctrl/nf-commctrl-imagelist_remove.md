@@ -97,7 +97,7 @@ When an image is removed, the indexes of the remaining images are adjusted so th
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761405(v=VS.85).aspx">ImageList_RemoveAll</a>
+<a href="https://msdn.microsoft.com/ed52381a-d5a4-42b6-8782-dcfe41fef99f">ImageList_RemoveAll</a>
  
 
  

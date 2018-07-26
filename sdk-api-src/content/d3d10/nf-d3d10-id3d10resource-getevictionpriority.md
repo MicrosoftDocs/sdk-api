@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10resource_getevictionpriority.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10resource_getevictionpriority.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 83f59a92-75b3-4efe-03ec-ca8afea155dc, GetEvictionPriority, GetEvictionPriority method [Direct3D 10], GetEvictionPriority method [Direct3D 10],ID3D10Resource interface, ID3D10Resource interface [Direct3D 10],GetEvictionPriority method, ID3D10Resource.GetEvictionPriority, ID3D10Resource::GetEvictionPriority, d3d10/ID3D10Resource::GetEvictionPriority, direct3d10.id3d10resource_getevictionpriority
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ One of the following values, which specifies the eviction priority for the resou
 
 
 
-This method is a wrapper for <a href="https://msdn.microsoft.com/library/Bb174561(v=VS.85).aspx">GetEvictionPriority</a> and is provided in the <a href="https://msdn.microsoft.com/library/Bb173829(v=VS.85).aspx">ID3D10Resource Interface</a> interface for convenience.
+This method is a wrapper for <a href="https://msdn.microsoft.com/5e2ac0ca-12f2-4d93-b0cc-21f8923727ed">GetEvictionPriority</a> and is provided in the <a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource Interface</a> interface for convenience.
 
 
 
@@ -93,7 +93,7 @@ This method is a wrapper for <a href="https://msdn.microsoft.com/library/Bb17456
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173829(v=VS.85).aspx">ID3D10Resource Interface</a>
+<a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource Interface</a>
  
 
  

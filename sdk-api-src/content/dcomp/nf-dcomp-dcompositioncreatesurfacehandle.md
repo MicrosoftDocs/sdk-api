@@ -7,7 +7,7 @@ old-location: directcomp\dcompositioncreatesurfacehandle.htm
 old-project: directcomp
 ms.assetid: 550BA10B-D582-4A57-A69D-3EFFC7313D8F
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/23/2018
 ms.keywords: COMPOSITIONSURFACE_ALL_ACCESS, COMPOSITIONSURFACE_READ, COMPOSITIONSURFACE_WRITE, DCompositionCreateSurfaceHandle, DCompositionCreateSurfaceHandle function [DirectComposition], dcomp/DCompositionCreateSurfaceHandle, directcomp.dcompositioncreatesurfacehandle
 ms.prod: windows
 ms.technology: windows-sdk

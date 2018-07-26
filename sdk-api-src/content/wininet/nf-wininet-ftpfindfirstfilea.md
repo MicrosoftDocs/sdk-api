@@ -7,7 +7,7 @@ old-location: wininet\ftpfindfirstfile.htm
 old-project: wininet
 ms.assetid: 4f331f99-c52c-4744-a9a7-eeb09803862d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/20/2018
 ms.keywords: FtpFindFirstFile, FtpFindFirstFile function [WinINet], FtpFindFirstFileA, FtpFindFirstFileW, _inet_ftpfindfirstfile_function, wininet.ftpfindfirstfile, wininet/FtpFindFirstFile, wininet/FtpFindFirstFileA, wininet/FtpFindFirstFileW
 ms.prod: windows
 ms.technology: windows-sdk

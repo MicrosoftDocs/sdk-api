@@ -7,7 +7,7 @@ old-location: intl\stylebuf.htm
 old-project: Intl
 ms.assetid: 72681071-58c4-490a-83d5-5013871ca875
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: "*LPSTYLEBUFW, *NPSTYLEBUFW, *PSTYLEBUFW, PSTYLEBUF, PSTYLEBUF structure pointer [Internationalization for Windows Applications], STYLEBUF, STYLEBUF structure [Internationalization for Windows Applications], STYLEBUFA, STYLEBUFW, _win32_STYLEBUF_str, imm/PSTYLEBUF, imm/STYLEBUF, imm/STYLEBUFA, imm/STYLEBUFW, intl.stylebuf, tagSTYLEBUFA, tagSTYLEBUFW"
 ms.prod: windows
 ms.technology: windows-sdk

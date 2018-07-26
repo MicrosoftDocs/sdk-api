@@ -4,10 +4,10 @@ title: GetAuditedPermissionsFromAclW function
 author: windows-sdk-content
 description: Retrieves the audited access rights for a specified trustee.
 old-location: security\getauditedpermissionsfromacl.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 4381fe12-5fb3-4f9c-8daa-261cb1a466ec
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: GetAuditedPermissionsFromAcl, GetAuditedPermissionsFromAcl function [Security], GetAuditedPermissionsFromAclA, GetAuditedPermissionsFromAclW, _win32_getauditedpermissionsfromacl, aclapi/GetAuditedPermissionsFromAcl, aclapi/GetAuditedPermissionsFromAclA, aclapi/GetAuditedPermissionsFromAclW, security.getauditedpermissionsfromacl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,7 +127,7 @@ The <b>GetAuditedPermissionsFromAcl</b> function checks all system-audit ACEs in
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

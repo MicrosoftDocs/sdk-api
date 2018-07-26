@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_resource_barrier.htm
 old-project: direct3d12
 ms.assetid: 49F02D65-767E-4BA4-A90D-68AA2D709E09
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_RESOURCE_BARRIER, D3D12_RESOURCE_BARRIER structure, d3d12/D3D12_RESOURCE_BARRIER, direct3d12.d3d12_resource_barrier
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes a resource barrier (transition in resource use).
+Describes a resource barrier (transition in resource use).
         
 
 
@@ -62,42 +61,35 @@ req.irql:
 
 ### -field Type
 
-
-            A <a href="https://msdn.microsoft.com/B3364C92-777F-4207-9685-534B2F07B48F">D3D12_RESOURCE_BARRIER_TYPE</a>-typed value that specifies the type of resource barrier. 
+A <a href="https://msdn.microsoft.com/B3364C92-777F-4207-9685-534B2F07B48F">D3D12_RESOURCE_BARRIER_TYPE</a>-typed value that specifies the type of resource barrier. 
             This member determines which type to use in the union below.
           
 
 
 ### -field Flags
 
-
-            Specifies a <a href="https://msdn.microsoft.com/352DF566-2E30-49C6-9D1B-35F0AEEA3338">D3D12_RESOURCE_BARRIER_FLAGS</a> enumeration constant such as for "begin only" or "end only".
+Specifies a <a href="https://msdn.microsoft.com/352DF566-2E30-49C6-9D1B-35F0AEEA3338">D3D12_RESOURCE_BARRIER_FLAGS</a> enumeration constant such as for "begin only" or "end only".
           
 
 
 ### -field Transition
 
-
-              A <a href="https://msdn.microsoft.com/52C21198-827A-4E75-ADB8-DCA0204A4469">D3D12_RESOURCE_TRANSITION_BARRIER</a> structure that describes the transition of subresources between different usages.  
+A <a href="https://msdn.microsoft.com/52C21198-827A-4E75-ADB8-DCA0204A4469">D3D12_RESOURCE_TRANSITION_BARRIER</a> structure that describes the transition of subresources between different usages.  
               Members specify the before and after usages of the subresources.
             
 
 
 ### -field Aliasing
 
-
-              A 
-              <a href="https://msdn.microsoft.com/9855D609-E863-4334-B6BA-B6777FDAB82B">D3D12_RESOURCE_ALIASING_BARRIER</a>
-              structure that describes the transition between usages of two different resources that have mappings into the same heap.
+A 
+              <a href="https://msdn.microsoft.com/9855D609-E863-4334-B6BA-B6777FDAB82B">D3D12_RESOURCE_ALIASING_BARRIER</a>structure that describes the transition between usages of two different resources that have mappings into the same heap.
             
 
 
 ### -field UAV
 
-
-              A 
-              <a href="https://msdn.microsoft.com/683F645F-9A90-4648-99EF-2F7444254B41">D3D12_RESOURCE_UAV_BARRIER</a>
-              structure that describes a resource in which all UAV accesses (reads or writes) must complete before any future UAV accesses (read or write) can begin.
+A 
+              <a href="https://msdn.microsoft.com/683F645F-9A90-4648-99EF-2F7444254B41">D3D12_RESOURCE_UAV_BARRIER</a>structure that describes a resource in which all UAV accesses (reads or writes) must complete before any future UAV accesses (read or write) can begin.
             
 
 
@@ -105,8 +97,7 @@ req.irql:
 
 
 
-
-        This structure is used by the <a href="https://msdn.microsoft.com/AA788F94-122B-4132-BED5-162EAC683676">ID3D12GraphicsCommandList::ResourceBarrier</a> method.
+This structure is used by the <a href="https://msdn.microsoft.com/AA788F94-122B-4132-BED5-162EAC683676">ID3D12GraphicsCommandList::ResourceBarrier</a> method.
       
 
 

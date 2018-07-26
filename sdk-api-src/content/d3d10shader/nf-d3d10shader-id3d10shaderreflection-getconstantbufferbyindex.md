@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10shaderreflection_getconstantbufferbyindex.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection_getconstantbufferbyindex.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetConstantBufferByIndex, GetConstantBufferByIndex method [Direct3D 10], GetConstantBufferByIndex method [Direct3D 10],ID3D10ShaderReflection interface, ID3D10ShaderReflection interface [Direct3D 10],GetConstantBufferByIndex method, ID3D10ShaderReflection.GetConstantBufferByIndex, ID3D10ShaderReflection::GetConstantBufferByIndex, d3d10shader/ID3D10ShaderReflection::GetConstantBufferByIndex, df0b7d8a-d6eb-ab55-7076-d5723df0ee5d, direct3d10.id3d10shaderreflection_getconstantbufferbyindex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,9 +69,9 @@ Zero-based index.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173836(v=VS.85).aspx">ID3D10ShaderReflectionConstantBuffer</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/5418147a-6d9f-44fc-a9ce-f619fc389ee4">ID3D10ShaderReflectionConstantBuffer</a>*</b>
 
-A pointer to a constant buffer (see <a href="https://msdn.microsoft.com/library/Bb173836(v=VS.85).aspx">ID3D10ShaderReflectionConstantBuffer Interface</a>).
+A pointer to a constant buffer (see <a href="https://msdn.microsoft.com/5418147a-6d9f-44fc-a9ce-f619fc389ee4">ID3D10ShaderReflectionConstantBuffer Interface</a>).
 
 
 
@@ -90,7 +90,7 @@ A constant buffer supplies either scalar constants or texture constants to a sha
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173835(v=VS.85).aspx">ID3D10ShaderReflection Interface</a>
+<a href="https://msdn.microsoft.com/097ed643-4e7a-4214-80a1-9a56d1157044">ID3D10ShaderReflection Interface</a>
  
 
  

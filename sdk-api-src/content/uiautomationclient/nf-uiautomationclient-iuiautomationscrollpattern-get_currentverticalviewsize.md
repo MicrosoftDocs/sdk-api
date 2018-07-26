@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationScrollPattern_CurrentVerticalViewSize.
 old-project: WinAuto
 ms.assetid: 7a87f617-fd98-497b-b7fd-8b2c901fe1eb
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CurrentVerticalViewSize property [Windows Accessibility], CurrentVerticalViewSize property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CurrentVerticalViewSize property, IUIAutomationScrollPattern.CurrentVerticalViewSize, IUIAutomationScrollPattern.get_CurrentVerticalViewSize, IUIAutomationScrollPattern::CurrentVerticalViewSize, IUIAutomationScrollPattern::get_CurrentVerticalViewSize, get_CurrentVerticalViewSize, uiauto.uiauto_IUIAutomationScrollPattern_CurrentVerticalViewSize, uiauto_IUIAutomationScrollPattern_CurrentVerticalViewSize, uiautomationclient/IUIAutomationScrollPattern::CurrentVerticalViewSize, uiautomationclient/IUIAutomationScrollPattern::get_CurrentVerticalViewSize, winauto.uiauto_IUIAutomationScrollPattern_CurrentVerticalViewSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

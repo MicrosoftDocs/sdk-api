@@ -7,7 +7,7 @@ old-location: cmpapi\querycompressorinformation.htm
 old-project: cmpapi
 ms.assetid: 90b2ef29-c488-4d32-a315-312b25a0e585
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: QueryCompressorInformation, QueryCompressorInformation function [Compression API], cmpapi.querycompressorinformation, compressapi/QueryCompressorInformation
 ms.prod: windows
 ms.technology: windows-sdk

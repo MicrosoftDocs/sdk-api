@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2fx_reverb_i3dl2_parameters.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2FX_REVERB_I3DL2_PARAMETERS
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 07/23/2018
 ms.keywords: XAUDIO2FX_REVERB_I3DL2_PARAMETERS, XAUDIO2FX_REVERB_I3DL2_PARAMETERS structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2fx_reverb_i3dl2_parameters, xaudio2fx/XAUDIO2FX_REVERB_I3DL2_PARAMETERS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-Describes I3DL2 (Interactive 3D Audio Rendering Guidelines Level 2.0) parameters for use in the <a href="https://msdn.microsoft.com/library/Ee418785(v=VS.85).aspx">ReverbConvertI3DL2ToNative</a> function.
+Describes I3DL2 (Interactive 3D Audio Rendering Guidelines Level 2.0) parameters for use in the <a href="https://msdn.microsoft.com/0df56c6a-642c-4bfd-a5ad-ae8bbd627dc8">ReverbConvertI3DL2ToNative</a> function.
 
 
 ## -struct-fields
@@ -145,7 +145,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee418785(v=VS.85).aspx">ReverbConvertI3DL2ToNative</a>
+<a href="https://msdn.microsoft.com/0df56c6a-642c-4bfd-a5ad-ae8bbd627dc8">ReverbConvertI3DL2ToNative</a>
 
 
 

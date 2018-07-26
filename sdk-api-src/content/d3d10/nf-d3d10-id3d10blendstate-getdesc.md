@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10blendstate_getdesc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10blendstate_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10BlendState interface, ID3D10BlendState interface [Direct3D 10],GetDesc method, ID3D10BlendState.GetDesc, ID3D10BlendState::GetDesc, d3d10/ID3D10BlendState::GetDesc, dcec8d23-1749-9910-da00-02d186653aad, direct3d10.id3d10blendstate_getdesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Get the blend state.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb204893(v=VS.85).aspx">D3D10_BLEND_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/c256dd1e-2b25-4dc5-8e49-5bf2b419b3c5">D3D10_BLEND_DESC</a>*</b>
 
-A pointer to the blend state (see <a href="https://msdn.microsoft.com/library/Bb204893(v=VS.85).aspx">D3D10_BLEND_DESC</a>).
+A pointer to the blend state (see <a href="https://msdn.microsoft.com/c256dd1e-2b25-4dc5-8e49-5bf2b419b3c5">D3D10_BLEND_DESC</a>).
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173505(v=VS.85).aspx">ID3D10BlendState Interface</a>
+<a href="https://msdn.microsoft.com/fe0186f5-cd8f-478d-9009-a0f82830cd1f">ID3D10BlendState Interface</a>
  
 
  

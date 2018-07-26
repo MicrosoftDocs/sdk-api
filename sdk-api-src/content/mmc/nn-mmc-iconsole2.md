@@ -4,10 +4,10 @@ title: IConsole2
 author: windows-sdk-content
 description: The IConsole2 interface is introduced in MMC 1.1.
 old-location: mmc\iconsole2.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 9a20d09d-219c-4bcb-95b3-67a44e41629e
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: IConsole2, IConsole2 interface [MMC], IConsole2 interface [MMC],described, _slate_iconsole2, mmc.iconsole2, mmc/IConsole2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -154,7 +154,7 @@ Queries the console-provided result pane's image list.
 <a href="https://msdn.microsoft.com/26d4859c-e79f-4c63-92ad-b66de7d0fa13">QueryResultView</a>
 </td>
 <td align="left" width="63%">
-Queries IConsole for the result view object's <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer.
+Queries IConsole for the result view object's <a href="_com_iunknown">IUnknown</a> interface pointer.
 
 </td>
 </tr>

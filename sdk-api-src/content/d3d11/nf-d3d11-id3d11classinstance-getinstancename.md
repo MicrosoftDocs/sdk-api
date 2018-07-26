@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11classinstance_getinstancename.htm
 old-project: direct3d11
 ms.assetid: 9e9c3410-6421-4300-b3a6-de4840a81117
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 52fdee2c-7566-954c-edad-a7d91948caac, GetInstanceName, GetInstanceName method [Direct3D 11], GetInstanceName method [Direct3D 11],ID3D11ClassInstance interface, ID3D11ClassInstance interface [Direct3D 11],GetInstanceName method, ID3D11ClassInstance.GetInstanceName, ID3D11ClassInstance::GetInstanceName, d3d11/ID3D11ClassInstance::GetInstanceName, direct3d11.id3d11classinstance_getinstancename
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ The instance name of the current HLSL class.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a>*</b>
 
-
-            The length of the <i>pInstanceName</i> parameter.
+The length of the <i>pInstanceName</i> parameter.
           
 
 
@@ -92,8 +91,7 @@ GetInstanceName will return a valid name only for instances acquired using
           <a href="https://msdn.microsoft.com/055f1670-0643-4a0a-8411-ac8a62e98826">ID3D11ClassLinkage::GetClassInstance</a>.
         
 
-
-          For more information about using the <a href="https://msdn.microsoft.com/70d006d2-5c47-4e8a-9a14-b5475d88ac32">ID3D11ClassInstance</a> interface, see 
+For more information about using the <a href="https://msdn.microsoft.com/70d006d2-5c47-4e8a-9a14-b5475d88ac32">ID3D11ClassInstance</a> interface, see 
           <a href="https://msdn.microsoft.com/2f5f7852-0f0a-4fad-a412-9a0d634c73b6">Dynamic Linking</a>.
         
 

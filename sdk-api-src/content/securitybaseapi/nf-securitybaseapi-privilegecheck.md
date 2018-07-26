@@ -4,10 +4,10 @@ title: PrivilegeCheck function
 author: windows-sdk-content
 description: Determines whether a specified set of privileges are enabled in an access token.
 old-location: security\privilegecheck.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: a73d934a-1abf-4e60-bf0a-6c4629f28f7a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: PrivilegeCheck, PrivilegeCheck function [Security], _win32_privilegecheck, security.privilegecheck, securitybaseapi/PrivilegeCheck
 ms.prod: windows
 ms.technology: windows-sdk

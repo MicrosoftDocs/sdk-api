@@ -4,10 +4,10 @@ title: IFsrmFileManagementJob::get_ReportEnabled
 author: windows-sdk-content
 description: Indicates whether the job will generate a report when it runs.
 old-location: fsrm\ifsrmfilemanagementjob_reportenabled.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 687367c7-5bed-4f42-ade1-f841da484b38
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],ReportEnabled property, IFsrmFileManagementJob.ReportEnabled, IFsrmFileManagementJob.get_ReportEnabled, IFsrmFileManagementJob::ReportEnabled, IFsrmFileManagementJob::get_ReportEnabled, IFsrmFileManagementJob::put_ReportEnabled, ReportEnabled property [File Server Resource Manager], ReportEnabled property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_reportenabled, fsrm.ifsrmfilemanagementjob_reportenabled, fsrmreports/IFsrmFileManagementJob::ReportEnabled, fsrmreports/IFsrmFileManagementJob::get_ReportEnabled, fsrmreports/IFsrmFileManagementJob::put_ReportEnabled, get_ReportEnabled
 ms.prod: windows
 ms.technology: windows-sdk

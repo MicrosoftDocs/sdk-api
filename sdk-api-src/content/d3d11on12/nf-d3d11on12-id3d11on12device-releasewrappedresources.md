@@ -7,7 +7,7 @@ old-location: direct3d12\id3d11on12device_releasewrappedresources.htm
 old-project: direct3d12
 ms.assetid: 6591D7D4-9B8D-4837-9DCF-0502CC26E725
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11On12Device interface,ReleaseWrappedResources method, ID3D11On12Device.ReleaseWrappedResources, ID3D11On12Device::ReleaseWrappedResources, ReleaseWrappedResources, ReleaseWrappedResources method, ReleaseWrappedResources method,ID3D11On12Device interface, d3d11on12/ID3D11On12Device::ReleaseWrappedResources, direct3d12.id3d11on12device_releasewrappedresources
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Releases D3D11 resources that were wrapped for D3D 11on12.
+Releases D3D11 resources that were wrapped for D3D 11on12.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b>ID3D11Resource*</b>
 
-
-            Specifies a pointer to a set of D3D11 resources, defined by <a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>.
+Specifies a pointer to a set of D3D11 resources, defined by <a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>.
           
 
 
@@ -73,8 +71,7 @@ Type: <b>ID3D11Resource*</b>
 
 Type: <b>UINT</b>
 
-
-            Count of the number of resources.
+Count of the number of resources.
           
 
 
@@ -82,8 +79,7 @@ Type: <b>UINT</b>
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 
@@ -93,14 +89,12 @@ Type: <b>UINT</b>
 
 
 
-
-          Call this method prior to calling Flush, to insert resource barriers to the appropriate "out" state, and to mark that they should then be expected to be in the "in" state.
+Call this method prior to calling Flush, to insert resource barriers to the appropriate "out" state, and to mark that they should then be expected to be in the "in" state.
           If no resource list is provided, all wrapped resources are transitioned.
           These resources will be marked as “not acquired” in hazard tracking until <a href="https://msdn.microsoft.com/123FC8D9-6411-4CB7-921B-CEB32F5A9AD9">ID3D11On12Device::AcquireWrappedResources</a> is called.
         
 
-
-          Keyed mutex resources cannot be provided to this method; use <a href="https://msdn.microsoft.com/324741c9-33f2-4420-8c3f-4984e2ca0962">IDXGIKeyedMutex::ReleaseSync</a> instead.
+Keyed mutex resources cannot be provided to this method; use <a href="https://msdn.microsoft.com/324741c9-33f2-4420-8c3f-4984e2ca0962">IDXGIKeyedMutex::ReleaseSync</a> instead.
         
 
 

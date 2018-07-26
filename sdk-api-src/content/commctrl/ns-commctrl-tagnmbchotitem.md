@@ -60,9 +60,9 @@ Contains information about the movement of the mouse over a button control.
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure. 
+An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure. 
 
 
 ### -field dwFlags
@@ -105,7 +105,7 @@ The mouse is leaving the button.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775984(v=VS.85).aspx">BCN_HOTITEMCHANGE</a>
+<a href="https://msdn.microsoft.com/92882e21-b69d-4326-94e9-ae69a0d00a83">BCN_HOTITEMCHANGE</a>
 
 
 
@@ -117,7 +117,7 @@ The mouse is leaving the button.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb775514(v=VS.85).aspx">NMHDR</a>
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a>
 
 
 

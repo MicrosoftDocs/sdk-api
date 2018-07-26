@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflectionvariable.htm
 old-project: direct3d11
 ms.assetid: 4422a51f-b190-4df0-a1bb-a8ee2cc66da2
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11ShaderReflectionVariable, ID3D11ShaderReflectionVariable interface [Direct3D 11], ID3D11ShaderReflectionVariable interface [Direct3D 11],described, d3d11shader/ID3D11ShaderReflectionVariable, direct3d11.id3d11shaderreflectionvariable, f2ebf92b-2932-5cc0-239f-7e9b48dec05f
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,8 +111,7 @@ Get a shader-variable type.
 
 
 
-
-            To get a shader-reflection-variable interface, call a method like <a href="https://msdn.microsoft.com/8c21756f-40f0-4459-852b-445053aa03e8">ID3D11ShaderReflection::GetVariableByName</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
+To get a shader-reflection-variable interface, call a method like <a href="https://msdn.microsoft.com/8c21756f-40f0-4459-852b-445053aa03e8">ID3D11ShaderReflection::GetVariableByName</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
           
 
 

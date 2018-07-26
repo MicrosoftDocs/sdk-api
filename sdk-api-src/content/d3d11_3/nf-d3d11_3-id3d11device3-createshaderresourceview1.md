@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device3_createshaderresourceview1.htm
 old-project: direct3d11
 ms.assetid: 50E072F2-EC3E-4BED-A230-5447ECD1E7D6
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: CreateShaderResourceView1, CreateShaderResourceView1 method [Direct3D 11], CreateShaderResourceView1 method [Direct3D 11],ID3D11Device3 interface, ID3D11Device3 interface [Direct3D 11],CreateShaderResourceView1 method, ID3D11Device3.CreateShaderResourceView1, ID3D11Device3::CreateShaderResourceView1, d3d11_3/ID3D11Device3::CreateShaderResourceView1, direct3d11.id3d11device3_createshaderresourceview1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Creates a shader-resource view for accessing data in a resource.
 
 Type: <b><a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>*</b>
 
-Pointer to the resource that will serve as input to a shader. This resource must have been created with the <a href="https://msdn.microsoft.com/4ffa1714-bd85-4d5a-930d-20526f46e4b9">
-          D3D11_BIND_SHADER_RESOURCE</a> flag.
+Pointer to the resource that will serve as input to a shader. This resource must have been created with the <a href="https://msdn.microsoft.com/4ffa1714-bd85-4d5a-930d-20526f46e4b9">D3D11_BIND_SHADER_RESOURCE</a> flag.
 
 
 ### -param pDesc1 [in, optional]
@@ -86,7 +85,7 @@ A pointer to a memory block that receives a pointer to a <a href="https://msdn.m
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns E_OUTOFMEMORY if there is insufficient memory to create the shader-resource view.  See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> for other possible return values.
 

@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControl_HitTest.htm
 old-project: shell
 ms.assetid: 2287772d-2c06-4d4b-a11e-727dd5de5326
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: HitTest, HitTest method [Windows Shell], HitTest method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],HitTest method, INameSpaceTreeControl.HitTest, INameSpaceTreeControl::HitTest, _shell_INameSpaceTreeControl_HitTest, shell.INameSpaceTreeControl_HitTest, shobjidl_core/INameSpaceTreeControl::HitTest
 ms.prod: windows
 ms.technology: windows-sdk

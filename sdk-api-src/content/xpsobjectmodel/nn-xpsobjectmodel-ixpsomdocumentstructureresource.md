@@ -7,7 +7,7 @@ old-location: xps\ixpsomdocumentstructureresource.htm
 old-project: printdocs
 ms.assetid: a0cc8748-08b2-4471-9961-603786e983a4
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IXpsOMDocumentStructureResource, IXpsOMDocumentStructureResource interface [XPS Documents and Packaging], IXpsOMDocumentStructureResource interface [XPS Documents and Packaging],described, xps.ixpsomdocumentstructureresource, xpsobjectmodel/IXpsOMDocumentStructureResource
 ms.prod: windows
 ms.technology: windows-sdk

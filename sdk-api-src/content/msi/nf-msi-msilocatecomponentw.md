@@ -4,10 +4,10 @@ title: MsiLocateComponentW function
 author: windows-sdk-content
 description: The MsiLocateComponent function returns the full path to an installed component without a product code.
 old-location: setup\msilocatecomponent.htm
-old-project: msi
+old-project: Msi
 ms.assetid: 5b6235c5-9a64-4b4e-9f2c-42ed73400cbe
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: MsiLocateComponent, MsiLocateComponent function, MsiLocateComponentA, MsiLocateComponentW, _msi_msilocatecomponent, msi/MsiLocateComponent, msi/MsiLocateComponentA, msi/MsiLocateComponentW, setup.msilocatecomponent
 ms.prod: windows
 ms.technology: windows-sdk

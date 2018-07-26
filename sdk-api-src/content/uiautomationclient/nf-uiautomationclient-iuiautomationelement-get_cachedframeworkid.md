@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CachedFrameworkId.htm
 old-project: WinAuto
 ms.assetid: da793d93-276b-47ea-a78f-bbdd83f1bc07
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CachedFrameworkId property [Windows Accessibility], CachedFrameworkId property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedFrameworkId property, IUIAutomationElement.CachedFrameworkId, IUIAutomationElement.get_CachedFrameworkId, IUIAutomationElement::CachedFrameworkId, IUIAutomationElement::get_CachedFrameworkId, get_CachedFrameworkId, uiauto.uiauto_IUIAutomationElement_CachedFrameworkId, uiauto_IUIAutomationElement_CachedFrameworkId, uiautomationclient/IUIAutomationElement::CachedFrameworkId, uiautomationclient/IUIAutomationElement::get_CachedFrameworkId, winauto.uiauto_IUIAutomationElement_CachedFrameworkId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

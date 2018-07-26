@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_shader_bytecode.htm
 old-project: direct3d12
 ms.assetid: E2195755-A0C2-4824-A2EB-553F7909847F
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_SHADER_BYTECODE, D3D12_SHADER_BYTECODE structure, d3d12/D3D12_SHADER_BYTECODE, direct3d12.d3d12_shader_bytecode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,15 +60,13 @@ Describes shader data.
 
 ### -field pShaderBytecode
 
-
-            A pointer to a memory block that contains the shader data.
+A pointer to a memory block that contains the shader data.
           
 
 
 ### -field BytecodeLength
 
-
-            The size, in bytes, of the shader data that the <b>pShaderBytecode</b> member points to.
+The size, in bytes, of the shader data that the <b>pShaderBytecode</b> member points to.
           
 
 
@@ -76,8 +74,7 @@ Describes shader data.
 
 
 
-
-        The <a href="https://msdn.microsoft.com/35D10150-A633-4D38-B684-3E2DF357FFC0">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a> and <a href="https://msdn.microsoft.com/46C785C6-8294-410F-A8D5-7E5F85FA5C75">D3D12_COMPUTE_PIPELINE_STATE_DESC</a> objects contain <b>D3D12_SHADER_BYTECODE</b> structures that describe various shader types.
+The <a href="https://msdn.microsoft.com/35D10150-A633-4D38-B684-3E2DF357FFC0">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a> and <a href="https://msdn.microsoft.com/46C785C6-8294-410F-A8D5-7E5F85FA5C75">D3D12_COMPUTE_PIPELINE_STATE_DESC</a> objects contain <b>D3D12_SHADER_BYTECODE</b> structures that describe various shader types.
       
 
 

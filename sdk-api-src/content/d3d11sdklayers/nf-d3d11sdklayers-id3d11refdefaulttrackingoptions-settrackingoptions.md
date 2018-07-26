@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11refdefaulttrackingoptions_settrackingoptions.htm
 old-project: direct3d11
 ms.assetid: A54AAC4C-CD38-4326-AF99-9FB74CC0A1A0
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11RefDefaultTrackingOptions interface [Direct3D 11],SetTrackingOptions method, ID3D11RefDefaultTrackingOptions.SetTrackingOptions, ID3D11RefDefaultTrackingOptions::SetTrackingOptions, SetTrackingOptions, SetTrackingOptions method [Direct3D 11], SetTrackingOptions method [Direct3D 11],ID3D11RefDefaultTrackingOptions interface, d3d11sdklayers/ID3D11RefDefaultTrackingOptions::SetTrackingOptions, direct3d11.id3d11refdefaulttrackingoptions_settrackingoptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-        Sets graphics processing unit (GPU) debug reference default tracking options for specific resource types.
+Sets graphics processing unit (GPU) debug reference default tracking options for specific resource types.
       
 
 
@@ -63,8 +62,7 @@ req.irql:
 
 ### -param ResourceTypeFlags
 
-
-            A <a href="https://msdn.microsoft.com/148303AC-E373-4D41-BDF5-0E17B2A3D366">D3D11_SHADER_TRACKING_RESOURCE_TYPE</a>-typed value that specifies the type of resource to track.
+A <a href="https://msdn.microsoft.com/148303AC-E373-4D41-BDF5-0E17B2A3D366">D3D11_SHADER_TRACKING_RESOURCE_TYPE</a>-typed value that specifies the type of resource to track.
           
 
 
@@ -77,8 +75,7 @@ A combination of <a href="https://msdn.microsoft.com/20C152CD-B155-4B46-8F41-EDD
 
 
 
-
-            This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 return codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 return codes</a>.
           
 
 
@@ -88,8 +85,7 @@ A combination of <a href="https://msdn.microsoft.com/20C152CD-B155-4B46-8F41-EDD
 
 
 
-
-        This API requires the Windows Software Development Kit (SDK) for Windows 8.
+This API requires the Windows Software Development Kit (SDK) for Windows 8.
       
 
 

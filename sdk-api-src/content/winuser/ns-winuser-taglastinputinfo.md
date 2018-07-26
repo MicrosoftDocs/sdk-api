@@ -91,7 +91,7 @@ This function is useful for input idle detection. For more information on tick c
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646302(v=VS.85).aspx">GetLastInputInfo</a>
+<a href="https://msdn.microsoft.com/b314ab8d-243f-4cd7-bb69-143076103a14">GetLastInputInfo</a>
 
 
 
@@ -99,7 +99,7 @@ This function is useful for input idle detection. For more information on tick c
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
 
 
 

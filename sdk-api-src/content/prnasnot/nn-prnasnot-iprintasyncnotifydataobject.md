@@ -7,7 +7,7 @@ old-location: gdi\iprintasyncnotifydataobject.htm
 old-project: printdocs
 ms.assetid: fd0e1f30-c54e-418c-8081-664edebaad61
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IPrintAsyncNotifyDataObject, IPrintAsyncNotifyDataObject interface [Windows GDI], IPrintAsyncNotifyDataObject interface [Windows GDI],described, _win32_IPrintAsyncNotifyDataObject, gdi.iprintasyncnotifydataobject, prnasnot/IPrintAsyncNotifyDataObject
 ms.prod: windows
 ms.technology: windows-sdk

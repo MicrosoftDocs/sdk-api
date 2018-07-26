@@ -4,10 +4,10 @@ title: D2D1_MORPHOLOGY_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Morphology effect.
 old-location: direct2d\d2d1_morphology_prop.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: D5916AD4-F19A-42F0-BA24-B61BA9786013
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_MORPHOLOGY_PROP, D2D1_MORPHOLOGY_PROP enumeration [Direct2D], D2D1_MORPHOLOGY_PROP_HEIGHT, D2D1_MORPHOLOGY_PROP_MODE, D2D1_MORPHOLOGY_PROP_WIDTH, d2d1effects/D2D1_MORPHOLOGY_PROP, d2d1effects/D2D1_MORPHOLOGY_PROP_HEIGHT, d2d1effects/D2D1_MORPHOLOGY_PROP_MODE, d2d1effects/D2D1_MORPHOLOGY_PROP_WIDTH, direct2d.d2d1_morphology_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Identifiers for properties of the <a href="https://msdn.microsoft.com/4B3CFC51-D556-4729-B433-7307C80291F4">Morphology effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/4B3CFC51-D556-4729-B433-7307C80291F4">Morphology effect</a>.
         
 
 
@@ -62,8 +61,7 @@ req.irql:
 
 ### -field D2D1_MORPHOLOGY_PROP_MODE
 
-
-            The morphology mode.
+The morphology mode.
             
 
 The type is D2D1_MORPHOLOGY_MODE.
@@ -73,8 +71,7 @@ The default value is D2D1_MORPHOLOGY_MODE_ERODE.
 
 ### -field D2D1_MORPHOLOGY_PROP_WIDTH
 
-
-            Size of the kernel in the X direction. The units are in DIPs. Values must be between 1 and 100 inclusive.
+Size of the kernel in the X direction. The units are in DIPs. Values must be between 1 and 100 inclusive.
             
 
 The type is UINT.
@@ -84,8 +81,7 @@ The default value is 1.
 
 ### -field D2D1_MORPHOLOGY_PROP_HEIGHT
 
-
-            Size of the kernel in the Y direction. The units are in DIPs. Values must be between 1 and 100 inclusive.
+Size of the kernel in the Y direction. The units are in DIPs. Values must be between 1 and 100 inclusive.
             
 
 The type is UINT.

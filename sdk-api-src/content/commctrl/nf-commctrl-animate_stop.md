@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Stops playing an AVI clip in an animation control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761900(v=VS.85).aspx">ACM_STOP</a> message explicitly. 
+Stops playing an AVI clip in an animation control. You can use this macro or send the <a href="https://msdn.microsoft.com/ba39a579-665e-4d45-8f1f-f190acd76db7">ACM_STOP</a> message explicitly. 
 
 
 ## -parameters

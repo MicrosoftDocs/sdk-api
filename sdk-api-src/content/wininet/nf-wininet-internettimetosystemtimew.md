@@ -7,7 +7,7 @@ old-location: wininet\internettimetosystemtime.htm
 old-project: wininet
 ms.assetid: fcfe99de-13b2-4e93-a978-f013ddae89f0
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/20/2018
 ms.keywords: InternetTimeToSystemTime, InternetTimeToSystemTime function [WinINet], InternetTimeToSystemTimeA, InternetTimeToSystemTimeW, _inet_internettimetosystemtime_function, wininet.internettimetosystemtime, wininet/InternetTimeToSystemTime, wininet/InternetTimeToSystemTimeA, wininet/InternetTimeToSystemTimeW
 ms.prod: windows
 ms.technology: windows-sdk

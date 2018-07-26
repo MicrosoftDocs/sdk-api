@@ -7,7 +7,7 @@ old-location: winprog\_lwrite.htm
 old-project: devnotes
 ms.assetid: 34b875a4-ca45-4f9d-a5be-e6e4d41c68bf
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: "_lwrite, _lwrite function [Windows API], winbase/_lwrite, winprog._lwrite"
 ms.prod: windows
 ms.technology: windows-sdk

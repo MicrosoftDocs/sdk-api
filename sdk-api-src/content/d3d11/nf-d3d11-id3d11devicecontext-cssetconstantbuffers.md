@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_cssetconstantbuffers.htm
 old-project: direct3d11
 ms.assetid: 40970d1d-bad3-48e0-8f0e-6d45fe602594
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 75636b6c-7b80-b606-530c-50b7b27df917, CSSetConstantBuffers, CSSetConstantBuffers method [Direct3D 11], CSSetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSSetConstantBuffers method, ID3D11DeviceContext.CSSetConstantBuffers, ID3D11DeviceContext::CSSetConstantBuffers, d3d11/ID3D11DeviceContext::CSSetConstantBuffers, direct3d11.id3d11devicecontext_cssetconstantbuffers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,8 +93,7 @@ This method does not return a value.
 
 
 
-
-      The method will hold a reference to the interfaces passed in.
+The method will hold a reference to the interfaces passed in.
       This differs from the device state behavior in Direct3D 10.
 
 The Direct3D 11.1 runtime, which is available starting with Windows 8, can bind a larger number of <a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a> resources to the shader than the maximum constant buffer size that is supported by shaders (4096 constants – 4*32-bit components each).  When you bind such a large buffer, the shader can access only the first 4096 4*32-bit component constants in the buffer, as if 4096 constants is the full size of the buffer.  

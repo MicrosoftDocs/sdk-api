@@ -7,7 +7,7 @@ old-location: shell\IShellView_GetCurrentInfo.htm
 old-project: shell
 ms.assetid: 69d18b4f-3a68-420c-a184-05c2f69a5ec6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: GetCurrentInfo, GetCurrentInfo method [Windows Shell], GetCurrentInfo method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],GetCurrentInfo method, IShellView.GetCurrentInfo, IShellView::GetCurrentInfo, _win32_IShellView_GetCurrentInfo, shell.IShellView_GetCurrentInfo, shobjidl_core/IShellView::GetCurrentInfo
 ms.prod: windows
 ms.technology: windows-sdk

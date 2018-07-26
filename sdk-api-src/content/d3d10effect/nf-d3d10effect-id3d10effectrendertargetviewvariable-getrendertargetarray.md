@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectrendertargetviewvariable_getrendertargetarr
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectrendertargetviewvariable_getrendertargetarray.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 55cfc9f6-d447-4ae4-5a22-e5d490eec17f, GetRenderTargetArray, GetRenderTargetArray method [Direct3D 10], GetRenderTargetArray method [Direct3D 10],ID3D10EffectRenderTargetViewVariable interface, ID3D10EffectRenderTargetViewVariable interface [Direct3D 10],GetRenderTargetArray method, ID3D10EffectRenderTargetViewVariable.GetRenderTargetArray, ID3D10EffectRenderTargetViewVariable::GetRenderTargetArray, d3d10effect/ID3D10EffectRenderTargetViewVariable::GetRenderTargetArray, direct3d10.id3d10effectrendertargetviewvariable_getrendertargetarray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,9 +60,9 @@ Get an array of render-targets.
 
 ### -param ppResources [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173827(v=VS.85).aspx">ID3D10RenderTargetView</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/0a545476-19d2-41f7-9012-82fbf633f23b">ID3D10RenderTargetView</a>**</b>
 
-A pointer to an array of render-target-view interfaces. See <a href="https://msdn.microsoft.com/library/Bb173827(v=VS.85).aspx">ID3D10RenderTargetView Interface</a>.
+A pointer to an array of render-target-view interfaces. See <a href="https://msdn.microsoft.com/0a545476-19d2-41f7-9012-82fbf633f23b">ID3D10RenderTargetView Interface</a>.
 
 
 ### -param Offset [in]
@@ -83,9 +83,9 @@ The number of elements in the array.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -95,7 +95,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/library/Bb20527
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173672(v=VS.85).aspx">ID3D10EffectRenderTargetViewVariable Interface</a>
+<a href="https://msdn.microsoft.com/71f158ed-9e0f-464c-b30f-4f8958d3f1a1">ID3D10EffectRenderTargetViewVariable Interface</a>
  
 
  

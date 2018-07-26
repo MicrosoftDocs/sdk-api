@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandqueue_endevent.htm
 old-project: direct3d12
 ms.assetid: CA45061A-3DD6-4FFB-9723-ED33343052F3
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: EndEvent, EndEvent method, EndEvent method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,EndEvent method, ID3D12CommandQueue.EndEvent, ID3D12CommandQueue::EndEvent, d3d12/ID3D12CommandQueue::EndEvent, direct3d12.id3d12commandqueue_endevent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Not intended to be called directly.  Use the
+Not intended to be called directly.  Use the
         <a href="https://blogs.msdn.microsoft.com/pix/winpixeventruntime/">PIX event runtime</a> to insert events into a command queue.
 
 
@@ -66,8 +65,7 @@ req.irql:
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 

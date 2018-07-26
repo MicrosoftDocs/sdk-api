@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dquery9__gettype.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dquery9__gettype.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: 581f12d8-a07f-3bef-8285-25360f8d6b4c, GetType, GetType method [Direct3D 9], GetType method [Direct3D 9],IDirect3DQuery9 interface, IDirect3DQuery9 interface [Direct3D 9],GetType method, IDirect3DQuery9.GetType, IDirect3DQuery9::GetType, d3d9helper/IDirect3DQuery9::GetType, direct3d9.idirect3dquery9__gettype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,9 @@ Gets the query type.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172594(v=VS.85).aspx">D3DQUERYTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/575c4e71-3cab-4123-a2a5-d23b53e87111">D3DQUERYTYPE</a></b>
 
-Returns the query type. See <a href="https://msdn.microsoft.com/library/Bb172594(v=VS.85).aspx">D3DQUERYTYPE</a>.
+Returns the query type. See <a href="https://msdn.microsoft.com/575c4e71-3cab-4123-a2a5-d23b53e87111">D3DQUERYTYPE</a>.
 
 
 
@@ -77,7 +77,7 @@ Returns the query type. See <a href="https://msdn.microsoft.com/library/Bb172594
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205872(v=VS.85).aspx">IDirect3DQuery9</a>
+<a href="https://msdn.microsoft.com/7f25d64e-ece6-4544-ada0-5cc3d34b88e6">IDirect3DQuery9</a>
  
 
  

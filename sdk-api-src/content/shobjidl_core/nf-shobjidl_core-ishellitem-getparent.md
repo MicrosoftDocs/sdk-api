@@ -7,7 +7,7 @@ old-location: shell\IShellItem_GetParent.htm
 old-project: shell
 ms.assetid: d62123af-2ae2-40f2-8581-c95b18491f20
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: GetParent, GetParent method [Windows Shell], GetParent method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],GetParent method, IShellItem.GetParent, IShellItem::GetParent, _win32_IShellItem_GetParent, shell.IShellItem_GetParent, shobjidl_core/IShellItem::GetParent
 ms.prod: windows
 ms.technology: windows-sdk

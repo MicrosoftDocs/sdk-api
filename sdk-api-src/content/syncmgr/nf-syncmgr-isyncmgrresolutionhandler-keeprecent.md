@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrResolutionHandler_KeepRecent.htm
 old-project: shell
 ms.assetid: a2327234-4a8d-42b4-aa62-f5c286e3c24b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],KeepRecent method, ISyncMgrResolutionHandler.KeepRecent, ISyncMgrResolutionHandler::KeepRecent, KeepRecent, KeepRecent method [Windows Shell], KeepRecent method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_KeepRecent, shell.ISyncMgrResolutionHandler_KeepRecent, syncmgr/ISyncMgrResolutionHandler::KeepRecent
 ms.prod: windows
 ms.technology: windows-sdk

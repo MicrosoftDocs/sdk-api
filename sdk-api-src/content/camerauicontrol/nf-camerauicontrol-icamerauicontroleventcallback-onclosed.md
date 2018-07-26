@@ -7,7 +7,7 @@ old-location: winprog\icamerauicontroleventcallback_onclosed.htm
 old-project: devnotes
 ms.assetid: 5d9237bc-38bb-4c14-8485-edec7c739150
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnClosed method, ICameraUIControlEventCallback.OnClosed, ICameraUIControlEventCallback::OnClosed, OnClosed, OnClosed method [Windows API], OnClosed method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnClosed, winprog.icamerauicontroleventcallback_onclosed
 ms.prod: windows
 ms.technology: windows-sdk

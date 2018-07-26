@@ -7,7 +7,7 @@ old-location: wininet\internetautodial.htm
 old-project: wininet
 ms.assetid: 843875a8-6c83-4259-8e46-a04f786eb230
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/20/2018
 ms.keywords: INTERNET_AUTODIAL_FAILIFSECURITYCHECK, INTERNET_AUTODIAL_FORCE_ONLINE, INTERNET_AUTODIAL_FORCE_UNATTENDED, INTERNET_AUTODIAL_OVERRIDE_NET_PRESENT, InternetAutodial, InternetAutodial function [WinINet], _inet_internetautodial_function, wininet.internetautodial, winineti/InternetAutodial
 ms.prod: windows
 ms.technology: windows-sdk

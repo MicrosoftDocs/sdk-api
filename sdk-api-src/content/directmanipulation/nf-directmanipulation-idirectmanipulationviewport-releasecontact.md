@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_releasecontact.htm
 old-project: directmanipulation
 ms.assetid: fbb5cfba-4722-4470-aad5-2d192825244b
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/23/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],ReleaseContact method, IDirectManipulationViewport.ReleaseContact, IDirectManipulationViewport::ReleaseContact, ReleaseContact, ReleaseContact method [Direct Manipulation], ReleaseContact method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_releasecontact, directmanipulation/IDirectManipulationViewport::ReleaseContact
 ms.prod: windows
 ms.technology: windows-sdk

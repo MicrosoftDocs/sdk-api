@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_fence_flag.htm
 old-project: direct3d11
 ms.assetid: 745B72A2-628C-477E-8534-336E73B5268A
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: D3D11_FENCE_FLAG, D3D11_FENCE_FLAG enumeration [Direct3D 11], D3D11_FENCE_FLAG_NONE, D3D11_FENCE_FLAG_SHARED, D3D11_FENCE_FLAG_SHARED_CROSS_ADAPTER, d3d11_3/D3D11_FENCE_FLAG, d3d11_3/D3D11_FENCE_FLAG_NONE, d3d11_3/D3D11_FENCE_FLAG_SHARED, d3d11_3/D3D11_FENCE_FLAG_SHARED_CROSS_ADAPTER, direct3d11.d3d11_fence_flag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Specifies fence options.
+Specifies fence options.
         
 
 
@@ -62,22 +61,19 @@ req.irql:
 
 ### -field D3D11_FENCE_FLAG_NONE
 
-
-            No options are specified.
+No options are specified.
           
 
 
 ### -field D3D11_FENCE_FLAG_SHARED
 
-
-            The fence is shared.
+The fence is shared.
           
 
 
 ### -field D3D11_FENCE_FLAG_SHARED_CROSS_ADAPTER
 
-
-            The fence is shared with another GPU adapter.
+The fence is shared with another GPU adapter.
           
 
 
@@ -90,8 +86,7 @@ req.irql:
 
 
 
-
-        This enum is used by the <a href="https://msdn.microsoft.com/B4AA9E0D-AAF4-4632-A98F-A3212764D5E1">ID3D11Device::CreateFence</a> method.
+This enum is used by the <a href="https://msdn.microsoft.com/B4AA9E0D-AAF4-4632-A98F-A3212764D5E1">ID3D11Device::CreateFence</a> method.
       
 
 

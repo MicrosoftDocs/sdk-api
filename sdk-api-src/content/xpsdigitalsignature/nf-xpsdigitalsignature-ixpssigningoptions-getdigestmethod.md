@@ -7,7 +7,7 @@ old-location: xps\ixpssigningoptions_getdigestmethod.htm
 old-project: printdocs
 ms.assetid: b8976719-970b-4598-8f1c-0ef2446ae12b
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: GetDigestMethod, GetDigestMethod method [XPS Documents and Packaging], GetDigestMethod method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetDigestMethod method, IXpsSigningOptions.GetDigestMethod, IXpsSigningOptions::GetDigestMethod, xps.ixpssigningoptions_getdigestmethod, xpsdigitalsignature/IXpsSigningOptions::GetDigestMethod
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ The digest method must be set before signing.
 
 When a new instance of this interface is returned by <a href="https://msdn.microsoft.com/0f64f46a-905a-48cf-9e7a-f6cc1b2d6450">IXpsSignatureManager::CreateSigningOptions</a>, the SignatureMethod and  DigestMethod properties are not valid; they must be initialized before the new interface can be used as a parameter of the <a href="https://msdn.microsoft.com/82a57ca8-edc7-4248-92d1-8092f6dce4f8">Sign</a> method.
 
-This method allocates the memory used by the string that is returned in <i>digestMethod</i>.  If <i>digestMethod</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free the memory.
+This method allocates the memory used by the string that is returned in <i>digestMethod</i>.  If <i>digestMethod</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function to free the memory.
 
 
 

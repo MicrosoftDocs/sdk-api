@@ -7,7 +7,7 @@ old-location: shell\IDropTargetHelper.htm
 old-project: shell
 ms.assetid: b1ddbf7e-edf3-48fb-8983-ae39cb7bb4b0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IDropTargetHelper, IDropTargetHelper interface [Windows Shell], IDropTargetHelper interface [Windows Shell],described, _win32_IDropTargetHelper, shell.IDropTargetHelper, shobjidl_core/IDropTargetHelper
 ms.prod: windows
 ms.technology: windows-sdk

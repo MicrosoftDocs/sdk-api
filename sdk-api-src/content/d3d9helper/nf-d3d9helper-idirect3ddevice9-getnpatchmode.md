@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__getnpatchmode.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getnpatchmode.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: GetNPatchMode, GetNPatchMode method [Direct3D 9], GetNPatchMode method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetNPatchMode method, IDirect3DDevice9.GetNPatchMode, IDirect3DDevice9::GetNPatchMode, a14b100f-853a-c4a3-4c40-bb1bf093d57c, d3d9helper/IDirect3DDevice9::GetNPatchMode, direct3d9.idirect3ddevice9__getnpatchmode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,11 +77,11 @@ Specifies the number of subdivision segments. If the number of segments is less 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174438(v=VS.85).aspx">IDirect3DDevice9::SetNPatchMode</a>
+<a href="https://msdn.microsoft.com/ab5a1cfd-0c37-471c-af27-4ae078b8f7cd">IDirect3DDevice9::SetNPatchMode</a>
  
 
  

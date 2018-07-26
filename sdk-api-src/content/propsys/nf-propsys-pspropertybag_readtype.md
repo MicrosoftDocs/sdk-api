@@ -113,7 +113,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee845049(v=VS.85).aspx">PSPropertyBag_Delete</a>
+<a href="shell.PSPropertyBag_Delete">PSPropertyBag_Delete</a>
  
 
  

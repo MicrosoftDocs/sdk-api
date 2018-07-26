@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection_getgsinputprimitive.htm
 old-project: direct3d12
 ms.assetid: 7A0E34F5-D2CF-41C2-B2CB-C3D0CDA511B3
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetGSInputPrimitive, GetGSInputPrimitive method, GetGSInputPrimitive method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetGSInputPrimitive method, ID3D12ShaderReflection.GetGSInputPrimitive, ID3D12ShaderReflection::GetGSInputPrimitive, d3d12shader/ID3D12ShaderReflection::GetGSInputPrimitive, direct3d12.id3d12shaderreflection_getgsinputprimitive
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Gets the geometry-shader input-primitive description.
+Gets the geometry-shader input-primitive description.
         
 
 
@@ -68,8 +67,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/d7a83edb-48ab-4e9f-bf2b-790ebb4a14c4">D3D_PRIMITIVE</a></b>
 
-
-            The input-primitive description.  See
+The input-primitive description.  See
             <a href="https://msdn.microsoft.com/b4becdcc-cc19-4d5a-940b-b232ebedce68">D3D_PRIMITIVE_TOPOLOGY</a>.
           
 
@@ -80,8 +78,7 @@ Type: <b><a href="https://msdn.microsoft.com/d7a83edb-48ab-4e9f-bf2b-790ebb4a14c
 
 
 
-
-        This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
+This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
       
 
 

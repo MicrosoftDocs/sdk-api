@@ -7,7 +7,7 @@ old-location: directmanipulation\directmanipulation_motion_types.htm
 old-project: directmanipulation
 ms.assetid: a0b4da55-3ebb-4281-a372-4bc6b91e6789
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/23/2018
 ms.keywords: DIRECTMANIPULATION_MOTION_ALL, DIRECTMANIPULATION_MOTION_CENTERX, DIRECTMANIPULATION_MOTION_CENTERY, DIRECTMANIPULATION_MOTION_NONE, DIRECTMANIPULATION_MOTION_TRANSLATEX, DIRECTMANIPULATION_MOTION_TRANSLATEY, DIRECTMANIPULATION_MOTION_TYPES, DIRECTMANIPULATION_MOTION_TYPES enumeration [Direct Manipulation], DIRECTMANIPULATION_MOTION_ZOOM, directmanipulation.directmanipulation_motion_types, directmanipulation/DIRECTMANIPULATION_MOTION_ALL, directmanipulation/DIRECTMANIPULATION_MOTION_CENTERX, directmanipulation/DIRECTMANIPULATION_MOTION_CENTERY, directmanipulation/DIRECTMANIPULATION_MOTION_NONE, directmanipulation/DIRECTMANIPULATION_MOTION_TRANSLATEX, directmanipulation/DIRECTMANIPULATION_MOTION_TRANSLATEY, directmanipulation/DIRECTMANIPULATION_MOTION_TYPES, directmanipulation/DIRECTMANIPULATION_MOTION_ZOOM
 ms.prod: windows
 ms.technology: windows-sdk
@@ -48,7 +48,6 @@ req.irql:
 
 
 ## -description
-
 
 
 Defines the <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a> motion type.

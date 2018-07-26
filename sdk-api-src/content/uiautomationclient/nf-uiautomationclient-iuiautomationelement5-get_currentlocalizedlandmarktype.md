@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement5_CurrentLocalizedLandmarkType.
 old-project: WinAuto
 ms.assetid: ECC73B82-D723-4020-B4AC-BFDB9A5C0F37
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CurrentLocalizedLandmarkType property [Windows Accessibility], CurrentLocalizedLandmarkType property [Windows Accessibility],IUIAutomationElement5 interface, IUIAutomationElement5 interface [Windows Accessibility],CurrentLocalizedLandmarkType property, IUIAutomationElement5.CurrentLocalizedLandmarkType, IUIAutomationElement5.get_CurrentLocalizedLandmarkType, IUIAutomationElement5::CurrentLocalizedLandmarkType, IUIAutomationElement5::get_CurrentLocalizedLandmarkType, get_CurrentLocalizedLandmarkType, uiautomationclient/IUIAutomationElement5::CurrentLocalizedLandmarkType, uiautomationclient/IUIAutomationElement5::get_CurrentLocalizedLandmarkType, winauto.uiauto_IUIAutomationElement5_CurrentLocalizedLandmarkType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt798233(v=VS.85).aspx">IUIAutomationElement5</a>
+<a href="winauto.iuiautomationelement5">IUIAutomationElement5</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_getdata.htm
 old-project: direct3d11
 ms.assetid: 338d02ad-2227-49e5-9b4f-fb86a3898f73
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 234bd2fb-b886-b634-e4ec-4301f8dd951d, GetData, GetData method [Direct3D 11], GetData method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GetData method, ID3D11DeviceContext.GetData, ID3D11DeviceContext::GetData, d3d11/ID3D11DeviceContext::GetData, direct3d11.id3d11devicecontext_getdata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ Optional flags. Can be 0 or any combination of the flags enumerated by <a href="
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>. A return value of S_OK indicates that the data at <i>pData</i> is available for the calling application to access. A return value of S_FALSE indicates that the data is not yet available. If the data is not yet available, the application must call <b>GetData</b> until the data is available.
 

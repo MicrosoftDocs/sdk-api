@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device2.htm
 old-project: direct3d11
 ms.assetid: C476AA0E-4A49-4E1E-8308-FB72EAD3E30C
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11Device2, ID3D11Device2 interface [Direct3D 11], ID3D11Device2 interface [Direct3D 11],described, d3d11_2/ID3D11Device2, direct3d11.id3d11device2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,8 +83,7 @@ Get the number of quality levels available during multisampling.
 <a href="https://msdn.microsoft.com/57901FAC-428C-437B-9C9B-2DB2D16049F8">CreateDeferredContext2</a>
 </td>
 <td align="left" width="63%">
-
-          Creates a deferred context, which can record <a href="https://msdn.microsoft.com/4f581bc7-6c5e-4e56-b768-7f3cc5dbcb3e">command lists</a>.
+Creates a deferred context, which can record <a href="https://msdn.microsoft.com/4f581bc7-6c5e-4e56-b768-7f3cc5dbcb3e">command lists</a>.
         
 
 </td>

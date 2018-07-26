@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ActiveEnd.htm
 old-project: WinAuto
 ms.assetid: 20A6813A-FA1B-43BD-A2D2-AF9AB5A7CC99
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: ActiveEnd, ActiveEnd enumeration [Windows Accessibility], ActiveEnd_End, ActiveEnd_None, ActiveEnd_Start, uiautomationcore/ActiveEnd, uiautomationcore/ActiveEnd_End, uiautomationcore/ActiveEnd_None, uiautomationcore/ActiveEnd_Start, winauto.uiauto_ActiveEnd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Contains possible values for the <a href="https://msdn.microsoft.com/library/Ee671662(v=VS.85).aspx">SelectionActiveEnd</a> text attribute, which indicates the location of the caret relative to a text range that represents the currently selected text.
+Contains possible values for the <a href="uiauto_textattribute_ids.htm">SelectionActiveEnd</a> text attribute, which indicates the location of the caret relative to a text range that represents the currently selected text.
 
 
 ## -enum-fields

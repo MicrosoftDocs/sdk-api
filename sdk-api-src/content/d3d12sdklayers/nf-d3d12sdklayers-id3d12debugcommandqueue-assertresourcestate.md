@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugcommandqueue_assertresourcestate.htm
 old-project: direct3d12
 ms.assetid: D96DE885-D3B3-4EE5-A119-54F4261D7056
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: AssertResourceState, AssertResourceState method, AssertResourceState method,ID3D12DebugCommandQueue interface, ID3D12DebugCommandQueue interface,AssertResourceState method, ID3D12DebugCommandQueue.AssertResourceState, ID3D12DebugCommandQueue::AssertResourceState, d3d12sdklayers/ID3D12DebugCommandQueue::AssertResourceState, direct3d12.id3d12debugcommandqueue_assertresourcestate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Checks whether a resource, or subresource, is in a specified state, or not.
+Checks whether a resource, or subresource, is in a specified state, or not.
 
 
 ## -parameters
@@ -63,16 +62,14 @@ req.irql:
 
 Type: <b>ID3D12Resource*</b>
 
-
-            Specifies the  <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> to check.
+Specifies the  <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> to check.
 
 
 ### -param Subresource
 
 Type: <b>UINT</b>
 
-
-            The index of the subresource to check.
+The index of the subresource to check.
           This can be set to an index, or D3D12_RESOURCE_BARRIER_ALL_SUBRESOURCES.
 
 
@@ -80,8 +77,7 @@ Type: <b>UINT</b>
 
 Type: <b>UINT</b>
 
-
-            Specifies the state to check for. This can be one or more D3D12_RESOURCE_STATES flags Or'ed together.
+Specifies the state to check for. This can be one or more D3D12_RESOURCE_STATES flags Or'ed together.
 
 
 ## -returns
@@ -90,8 +86,7 @@ Type: <b>UINT</b>
 
 Type: <b>BOOL</b>
 
-
-            This method returns true if the resource or subresource is in the specified state, false otherwise.
+This method returns true if the resource or subresource is in the specified state, false otherwise.
           
 
 

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getnummessagesdiscardedbymessagecountli
 old-project: direct3d12
 ms.assetid: EB6C6D7F-7B28-4E5B-9E35-332A9D957102
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetNumMessagesDiscardedByMessageCountLimit, GetNumMessagesDiscardedByMessageCountLimit method, GetNumMessagesDiscardedByMessageCountLimit method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumMessagesDiscardedByMessageCountLimit method, ID3D12InfoQueue.GetNumMessagesDiscardedByMessageCountLimit, ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit, d3d12sdklayers/ID3D12InfoQueue::GetNumMessagesDiscardedByMessageCountLimit, direct3d12.id3d12infoqueue_getnummessagesdiscardedbymessagecountlimit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Get the number of messages that were discarded due to the message count limit.
+Get the number of messages that were discarded due to the message count limit.
 
 
         
@@ -70,8 +69,7 @@ req.irql:
 
 Type: <b>UINT64</b>
 
-
-            Number of messages discarded.
+Number of messages discarded.
 
 
 

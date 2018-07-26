@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_getnodecount.htm
 old-project: direct3d12
 ms.assetid: 5C5BA618-1B53-45EA-A2E6-19FCAF4FB67C
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetNodeCount, GetNodeCount method, GetNodeCount method,ID3D12Device interface, ID3D12Device interface,GetNodeCount method, ID3D12Device.GetNodeCount, ID3D12Device::GetNodeCount, d3d12/ID3D12Device::GetNodeCount, direct3d12.id3d12device_getnodecount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Reports the number of physical adapters (nodes) that are associated with this device.
+Reports the number of physical adapters (nodes) that are associated with this device.
         
 
 
@@ -68,8 +67,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            The number of physical adapters (nodes) that this device has.
+The number of physical adapters (nodes) that this device has.
           
 
 

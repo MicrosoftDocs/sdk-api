@@ -4,10 +4,10 @@ title: D2D1_COMPOSITE_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Composite effect.
 old-location: direct2d\d2d1_composite_prop.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: E3A521E9-20BC-4F82-A673-1BC854D2E297
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_COMPOSITE_PROP, D2D1_COMPOSITE_PROP enumeration [Direct2D], D2D1_COMPOSITE_PROP_MODE, d2d1effects/D2D1_COMPOSITE_PROP, d2d1effects/D2D1_COMPOSITE_PROP_MODE, direct2d.d2d1_composite_prop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Identifiers for properties of the <a href="https://msdn.microsoft.com/60B878E9-1BC6-40D4-ADE3-4BBD5C822C55">Composite effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/60B878E9-1BC6-40D4-ADE3-4BBD5C822C55">Composite effect</a>.
         
 
 
@@ -62,8 +61,7 @@ req.irql:
 
 ### -field D2D1_COMPOSITE_PROP_MODE
 
-
-            The mode used for the effect.
+The mode used for the effect.
             
 
 Type is D2D1_COMPOSITE_MODE.

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugcommandlist_getfeaturemask.htm
 old-project: direct3d12
 ms.assetid: 98FE1D2C-648B-4689-BE52-A53C969D9281
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetFeatureMask, GetFeatureMask method, GetFeatureMask method,ID3D12DebugCommandList interface, ID3D12DebugCommandList interface,GetFeatureMask method, ID3D12DebugCommandList.GetFeatureMask, ID3D12DebugCommandList::GetFeatureMask, d3d12sdklayers/ID3D12DebugCommandList::GetFeatureMask, direct3d12.id3d12debugcommandlist_getfeaturemask
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Returns the debug feature flags that have been set on a command list.
+Returns the debug feature flags that have been set on a command list.
         
 
 
@@ -68,8 +67,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/36E0A5DC-8313-4D9D-988C-21E6FFCC8730">D3D12_DEBUG_FEATURE</a></b>
 
-
-            A bit mask containing the set debug features.
+A bit mask containing the set debug features.
           
 
 

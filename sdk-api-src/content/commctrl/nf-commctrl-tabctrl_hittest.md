@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Determines which tab, if any, is at a specified screen position. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb760604(v=VS.85).aspx">TCM_HITTEST</a> message explicitly. 
+Determines which tab, if any, is at a specified screen position. You can use this macro or send the <a href="https://msdn.microsoft.com/0334f616-8d39-4460-a7f8-692a9ffab012">TCM_HITTEST</a> message explicitly. 
 
 
 ## -parameters
@@ -67,7 +67,7 @@ TBD
 
 Type: <b>LPTCHITTESTINFO</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb760553(v=VS.85).aspx">TCHITTESTINFO</a> structure that specifies the screen position to test. 
+Pointer to a <a href="https://msdn.microsoft.com/7d3de7be-bf10-474e-a596-8de7a4c2a179">TCHITTESTINFO</a> structure that specifies the screen position to test. 
 
 
 #### - hwnd

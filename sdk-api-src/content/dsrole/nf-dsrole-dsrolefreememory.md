@@ -7,7 +7,7 @@ old-location: ad\dsrolefreememory.htm
 old-project: ad
 ms.assetid: 5560dfec-2134-4e02-9c87-26d246cd5841
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: DsRoleFreeMemory, DsRoleFreeMemory function [Active Directory], _glines_dsrolefreememory, ad.dsrolefreememory, dsrole/DsRoleFreeMemory
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandqueue_updatetilemappings.htm
 old-project: direct3d12
 ms.assetid: 8A8017E5-AB55-4660-855B-D6F93F69CB52
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12CommandQueue interface,UpdateTileMappings method, ID3D12CommandQueue.UpdateTileMappings, ID3D12CommandQueue::UpdateTileMappings, UpdateTileMappings, UpdateTileMappings method, UpdateTileMappings method,ID3D12CommandQueue interface, d3d12/ID3D12CommandQueue::UpdateTileMappings, direct3d12.id3d12commandqueue_updatetilemappings
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Updates mappings of tile locations in reserved resources to memory locations in a resource heap.
+Updates mappings of tile locations in reserved resources to memory locations in a resource heap.
         
 
 
@@ -62,72 +61,62 @@ req.irql:
 
 ### -param pResource [in]
 
-
-            A pointer to the reserved resource.
+A pointer to the reserved resource.
           
 
 
 ### -param NumResourceRegions
 
-
-            The number of reserved resource regions.
+The number of reserved resource regions.
           
 
 
 ### -param pResourceRegionStartCoordinates [in, optional]
 
-
-            An array of <a href="https://msdn.microsoft.com/B7C51C7A-8500-4570-99C1-AE51D6A88529">D3D12_TILED_RESOURCE_COORDINATE</a> structures that describe the starting coordinates of the reserved resource regions. The <i>NumResourceRegions</i> parameter specifies the number of <b>D3D12_TILED_RESOURCE_COORDINATE</b> structures in the array.
+An array of <a href="https://msdn.microsoft.com/B7C51C7A-8500-4570-99C1-AE51D6A88529">D3D12_TILED_RESOURCE_COORDINATE</a> structures that describe the starting coordinates of the reserved resource regions. The <i>NumResourceRegions</i> parameter specifies the number of <b>D3D12_TILED_RESOURCE_COORDINATE</b> structures in the array.
           
 
 
 ### -param pResourceRegionSizes [in, optional]
 
-
-            An array of <a href="https://msdn.microsoft.com/6F71BD17-09B5-4638-9CD4-E2D3BBA97044">D3D12_TILE_REGION_SIZE</a> structures that describe the sizes of the reserved resource regions. The <i>NumResourceRegions</i> parameter specifies the number of <b>D3D12_TILE_REGION_SIZE</b> structures in the array.
+An array of <a href="https://msdn.microsoft.com/6F71BD17-09B5-4638-9CD4-E2D3BBA97044">D3D12_TILE_REGION_SIZE</a> structures that describe the sizes of the reserved resource regions. The <i>NumResourceRegions</i> parameter specifies the number of <b>D3D12_TILE_REGION_SIZE</b> structures in the array.
           
 
 
 ### -param pHeap [in, optional]
 
-
-            A pointer to the resource heap.
+A pointer to the resource heap.
           
 
 
 ### -param NumRanges
 
-
-            The number of tile  ranges.
+The number of tile  ranges.
           
 
 
 ### -param pRangeFlags [in, optional]
 
-
-            A pointer to an  array of <a href="https://msdn.microsoft.com/D6C35804-4F83-4F33-A4A3-06C5D73174FB">D3D12_TILE_RANGE_FLAGS</a> values that describes each tile range. The <i>NumRanges</i> parameter specifies the number of values in the array.
+A pointer to an  array of <a href="https://msdn.microsoft.com/D6C35804-4F83-4F33-A4A3-06C5D73174FB">D3D12_TILE_RANGE_FLAGS</a> values that describes each tile range. The <i>NumRanges</i> parameter specifies the number of values in the array.
             
 
 
 ### -param pHeapRangeStartOffsets [in, optional]
 
-
-            An array of offsets into the resource heap. These are 0-based tile offsets, counting in tiles (not bytes).
+An array of offsets into the resource heap. These are 0-based tile offsets, counting in tiles (not bytes).
           
 
 
 ### -param pRangeTileCounts [in, optional]
 
-
-            An array of tiles.
+An array of tiles.
             An array of values that specify the number of tiles in each tile range. The <i>NumRanges</i> parameter specifies the number of values in the array.
           
 
 
 ### -param Flags
 
-
-            A combination of <a href="https://msdn.microsoft.com/588BCCA8-3F14-4837-86AE-EE4E4F0BC5ED">D3D12_TILE_MAPPING_FLAGS</a> values that are combined by using a bitwise OR operation.
+A combination of <a href="https://msdn.microsoft.com/588BCCA8-3F14-4837-86AE-EE4E4F0BC5ED">D3D12_TILE_MAPPING_FLAGS</a> values that are combined by using a bitwise OR operation.
           
 
 
@@ -146,12 +135,10 @@ This method does not return a value.
 
 Use <b>UpdateTileMappings</b> to map the virtual pages of a reserved resource to the physical pages of a heap. The mapping does not have to be in order. The operation is similar to  <a href="https://msdn.microsoft.com/542735C4-BFDE-4EA9-9595-BA30BD06422B">ID3D11DeviceContext2::UpdateTileMappings</a> with the one key difference that D3D12 allows a reserved resource to have tiles from multiple heaps.
 
-
-        In a single call to <b>UpdateTileMappings</b>, you can map one or more ranges of resource tiles to one or more ranges of heap tiles. 
+In a single call to <b>UpdateTileMappings</b>, you can map one or more ranges of resource tiles to one or more ranges of heap tiles. 
       
 
-
-            You can organize the parameters of  <b>UpdateTileMappings</b> in these ways to perform an update:
+You can organize the parameters of  <b>UpdateTileMappings</b> in these ways to perform an update:
           
 
 <ul>
@@ -161,8 +148,7 @@ Use <b>UpdateTileMappings</b> to map the virtual pages of a reserved resource to
 <li><i>NumResourceRegions</i> specifies how many regions there are.</li>
 <li><i>pResourceRegionStartCoordinates</i> and <i>pResourceRegionSizes</i> are each arrays that identify the start location and extend of each region. If <i>NumResourceRegions</i> is 1, for convenience either or both of the arrays that describe the regions can be NULL.  NULL for <i>pResourceRegionStartCoordinates</i> means the start coordinate is all 0s, and NULL for <i>pResourceRegionSizes</i> identifies a default region that is the full set of tiles for the entire reserved resource, including all mipmaps, array slices, or both.  </li>
 <li>
-
-              If <i>pResourceRegionStartCoordinates</i> isn't NULL and <i>pResourceRegionSizes</i> is NULL, the region size defaults to 1 tile for all regions.  This makes it easy to define mappings for a set of individual tiles each at disparate locations by providing an array of locations in <i>pResourceRegionStartCoordinates</i> without having to send an array of <i>pResourceRegionSizes</i> all set to 1.
+If <i>pResourceRegionStartCoordinates</i> isn't NULL and <i>pResourceRegionSizes</i> is NULL, the region size defaults to 1 tile for all regions.  This makes it easy to define mappings for a set of individual tiles each at disparate locations by providing an array of locations in <i>pResourceRegionStartCoordinates</i> without having to send an array of <i>pResourceRegionSizes</i> all set to 1.
             
 
 </li>
@@ -178,27 +164,20 @@ The updates are applied from first region to last; so, if regions overlap in a s
               
 
 <ul>
-<li>
-                If <i>pRangeFlags[i]</i> is <b>D3D12_TILE_RANGE_FLAG_NONE</b>, that range defines sequential tiles in the heap, with the number of tiles being <i>pRangeTileCounts[i]</i> and the starting location <i>pHeapRangeStartOffsets[i]</i>.  If <i>NumRanges</i> is 1, <i>pRangeTileCounts</i> can be NULL and defaults to the total number of tiles specified by all the tile regions.
+<li>If <i>pRangeFlags[i]</i> is <b>D3D12_TILE_RANGE_FLAG_NONE</b>, that range defines sequential tiles in the heap, with the number of tiles being <i>pRangeTileCounts[i]</i> and the starting location <i>pHeapRangeStartOffsets[i]</i>.  If <i>NumRanges</i> is 1, <i>pRangeTileCounts</i> can be NULL and defaults to the total number of tiles specified by all the tile regions.
               </li>
-<li>
-                If <i>pRangeFlags[i]</i> is <b>D3D12_TILE_RANGE_FLAG_REUSE_SINGLE_TILE</b>, <i>pHeapRangeStartOffsets[i]</i> identifies the single tile in the heap to map to, and <i>pRangeTileCounts[i]</i> specifies how many tiles from the tile regions to map to that heap location.  If <i>NumRanges</i> is 1, <i>pRangeTileCounts</i> can be NULL and defaults to the total number of tiles specified by all the tile regions.
+<li>If <i>pRangeFlags[i]</i> is <b>D3D12_TILE_RANGE_FLAG_REUSE_SINGLE_TILE</b>, <i>pHeapRangeStartOffsets[i]</i> identifies the single tile in the heap to map to, and <i>pRangeTileCounts[i]</i> specifies how many tiles from the tile regions to map to that heap location.  If <i>NumRanges</i> is 1, <i>pRangeTileCounts</i> can be NULL and defaults to the total number of tiles specified by all the tile regions.
               </li>
-<li>
-                If <i>pRangeFlags[i]</i> is <b>D3D12_TILE_RANGE_FLAG_NULL</b>, <i>pRangeTileCounts[i]</i> specifies how many tiles from the tile regions to map to NULL.  If <i>NumRanges</i> is 1, <i>pRangeTileCounts</i> can be NULL and defaults to the total number of tiles specified by all the tile regions. <i>pHeapRangeStartOffsets[i]</i> is ignored for NULL mappings.
+<li>If <i>pRangeFlags[i]</i> is <b>D3D12_TILE_RANGE_FLAG_NULL</b>, <i>pRangeTileCounts[i]</i> specifies how many tiles from the tile regions to map to NULL.  If <i>NumRanges</i> is 1, <i>pRangeTileCounts</i> can be NULL and defaults to the total number of tiles specified by all the tile regions. <i>pHeapRangeStartOffsets[i]</i> is ignored for NULL mappings.
               </li>
-<li>
-                If <i>pRangeFlags[i]</i> is <b>D3D12_TILE_RANGE_FLAG_SKIP</b>, <i>pRangeTileCounts[i]</i> specifies how many tiles from the tile regions to skip over and leave existing mappings unchanged for.  This can be useful if a tile region conveniently bounds an area of tile mappings to update except with some exceptions that need to be left the same as whatever they were mapped to before. <i>pHeapRangeStartOffsets[i]</i> is ignored for SKIP mappings.
+<li>If <i>pRangeFlags[i]</i> is <b>D3D12_TILE_RANGE_FLAG_SKIP</b>, <i>pRangeTileCounts[i]</i> specifies how many tiles from the tile regions to skip over and leave existing mappings unchanged for.  This can be useful if a tile region conveniently bounds an area of tile mappings to update except with some exceptions that need to be left the same as whatever they were mapped to before. <i>pHeapRangeStartOffsets[i]</i> is ignored for SKIP mappings.
               </li>
 </ul>
 </li>
 </ul>
+Reserved resources must follow the same rules for tile aliasing, initialization, and data inheritance as placed resources. See <a href="https://msdn.microsoft.com/4581A82D-D2B6-4CAE-A336-07B8CF90A0BA">CreatePlacedResource</a> for more details.
 
-        
-      Reserved resources must follow the same rules for tile aliasing, initialization, and data inheritance as placed resources. See <a href="https://msdn.microsoft.com/4581A82D-D2B6-4CAE-A336-07B8CF90A0BA">CreatePlacedResource</a> for more details.
-
-
-        Here are some examples of common <b>UpdateTileMappings</b> cases:
+Here are some examples of common <b>UpdateTileMappings</b> cases:
       
 
 
@@ -236,8 +215,7 @@ pCommandQueue-&gt;UpdateTileMappings(pResource, 1, NULL, NULL, NULL, 1, &amp;Ran
 </td>
 </tr>
 </table></span></div>
-
-          Mapping a region of tiles to a single tile:
+Mapping a region of tiles to a single tile:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -269,8 +247,7 @@ pCommandQueue-&gt;UpdateTileMappings(pResource,1,&amp;TRC,&amp;TRS,pHeap,1,&amp;
 </td>
 </tr>
 </table></span></div>
-
-          Defining mappings for a set of disjoint individual tiles:
+Defining mappings for a set of disjoint individual tiles:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>

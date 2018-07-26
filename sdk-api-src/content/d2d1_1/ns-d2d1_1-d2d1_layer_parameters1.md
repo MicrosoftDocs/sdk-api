@@ -4,10 +4,10 @@ title: D2D1_LAYER_PARAMETERS1
 author: windows-sdk-content
 description: Contains the content bounds, mask information, opacity settings, and other options for a layer resource.
 old-location: direct2d\d2d1_layer_parameters1.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: D7CC93F8-D871-4DFC-84A3-CA60EB52FF0A
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_LAYER_PARAMETERS1, D2D1_LAYER_PARAMETERS1 structure [Direct2D], d2d1_1/D2D1_LAYER_PARAMETERS1, direct2d.d2d1_layer_parameters1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,9 +83,7 @@ A value that specifies the antialiasing mode for the geometricMask.
 
 Type: <b><a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
 
-
-            
-            A value that specifies the transform that is applied to the geometric mask when composing the layer.
+A value that specifies the transform that is applied to the geometric mask when composing the layer.
 
 
 ### -field opacity

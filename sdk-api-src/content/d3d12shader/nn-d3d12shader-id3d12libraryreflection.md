@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12libraryreflection.htm
 old-project: direct3d12
 ms.assetid: CE6AEA77-A6A0-46A5-BDBC-AE4907AAC820
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12LibraryReflection, ID3D12LibraryReflection interface, ID3D12LibraryReflection interface,described, d3d12shader/ID3D12LibraryReflection, direct3d12.id3d12libraryreflection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,10 +50,8 @@ req.irql:
 ## -description
 
 
-
-          A library-reflection interface accesses library info.
-          <div class="alert"><b>Note</b>  
-            This interface is part of the HLSL shader linking technology that you can use on all Direct3D 12 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
+A library-reflection interface accesses library info.
+          <div class="alert"><b>Note</b>  This interface is part of the HLSL shader linking technology that you can use on all Direct3D 12 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
           </div>
 <div> </div>
 
@@ -79,8 +77,7 @@ The <b>ID3D12LibraryReflection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/BF7CC078-3F68-4645-B49C-1F4DEBCA6A48">GetDesc</a>
 </td>
 <td align="left" width="63%">
-
-          Fills the library descriptor structure for the library reflection.
+Fills the library descriptor structure for the library reflection.
         
 
 </td>
@@ -90,8 +87,7 @@ The <b>ID3D12LibraryReflection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/1600824A-6C9E-4C87-8D6B-07F299D47A53">GetFunctionByIndex</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the function reflector.
+Gets the function reflector.
         
 
 </td>
@@ -103,8 +99,7 @@ The <b>ID3D12LibraryReflection</b> interface has these methods.
 
 
 
-
-        To get a library-reflection interface, call <a href="https://msdn.microsoft.com/E64FB2C3-8F64-411F-89E1-984DAAE4D7C2">D3DReflectLibrary</a>.
+To get a library-reflection interface, call <a href="https://msdn.microsoft.com/E64FB2C3-8F64-411F-89E1-984DAAE4D7C2">D3DReflectLibrary</a>.
       
 
 <div class="alert"><b>Note</b>  <b>ID3D12LibraryReflection</b> requires the D3dcompiler_47.dll or a later version of the DLL.

@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_raise_flag.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_raise_flag.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 4f0a160b-254f-303d-968b-d35d73102d48, D3D10_RAISE_FLAG, D3D10_RAISE_FLAG enumeration [Direct3D 10], D3D10_RAISE_FLAG_DRIVER_INTERNAL_ERROR, d3d10/D3D10_RAISE_FLAG, d3d10/D3D10_RAISE_FLAG_DRIVER_INTERNAL_ERROR, direct3d10.d3d10_raise_flag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ Raise an internal driver error to a non-continuable exception.
 
 
 
-These flags are used by <a href="https://msdn.microsoft.com/library/Bb173572(v=VS.85).aspx">ID3D10Device::GetExceptionMode</a> and <a href="https://msdn.microsoft.com/library/Bb173614(v=VS.85).aspx">ID3D10Device::SetExceptionMode</a>. Use 0 to indicate no flags; multiple flags can be logically OR'ed together.
+These flags are used by <a href="https://msdn.microsoft.com/c343ba41-4fec-4598-8eac-30674ab77a49">ID3D10Device::GetExceptionMode</a> and <a href="https://msdn.microsoft.com/bd15256d-4dc8-43d5-87de-2d35956dc0bd">ID3D10Device::SetExceptionMode</a>. Use 0 to indicate no flags; multiple flags can be logically OR'ed together.
 
 
 
@@ -77,7 +77,7 @@ These flags are used by <a href="https://msdn.microsoft.com/library/Bb173572(v=V
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
  
 
  

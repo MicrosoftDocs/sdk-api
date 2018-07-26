@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_sosettargets.htm
 old-project: direct3d12
 ms.assetid: 40683FD6-5B9F-411C-AC0A-6641E0A3D688
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SOSetTargets method, ID3D12GraphicsCommandList.SOSetTargets, ID3D12GraphicsCommandList::SOSetTargets, SOSetTargets, SOSetTargets method, SOSetTargets method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SOSetTargets, direct3d12.id3d12graphicscommandlist_sosettargets
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Sets the stream output buffer views.
+Sets the stream output buffer views.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b>UINT</b>
 
-
-            Index into the device's zero-based array to begin setting stream output buffers.
+Index into the device's zero-based array to begin setting stream output buffers.
 
           
 
@@ -74,8 +72,7 @@ Type: <b>UINT</b>
 
 Type: <b>UINT</b>
 
-
-            The number of entries in the <i>pViews</i> array.
+The number of entries in the <i>pViews</i> array.
           
 
 
@@ -83,8 +80,7 @@ Type: <b>UINT</b>
 
 Type: <b>const <a href="https://msdn.microsoft.com/EFA4FBD7-3063-4B6A-B3B1-45418C6682FC">D3D12_STREAM_OUTPUT_BUFFER_VIEW</a>*</b>
 
-
-            Specifies an array of  <a href="https://msdn.microsoft.com/EFA4FBD7-3063-4B6A-B3B1-45418C6682FC">D3D12_STREAM_OUTPUT_BUFFER_VIEW</a> structures.
+Specifies an array of  <a href="https://msdn.microsoft.com/EFA4FBD7-3063-4B6A-B3B1-45418C6682FC">D3D12_STREAM_OUTPUT_BUFFER_VIEW</a> structures.
           
 
 
@@ -92,8 +88,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/EFA4FBD7-3063-4B6A-B3B1-45418
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 

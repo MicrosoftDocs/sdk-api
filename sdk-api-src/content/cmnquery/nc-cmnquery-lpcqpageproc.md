@@ -7,7 +7,7 @@ old-location: ad\cqpageproc.htm
 old-project: ad
 ms.assetid: 11d40439-0877-4870-80f8-88026c448a32
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: CQPageProc, CQPageProc callback, CQPageProc callback function [Active Directory], LPCQPAGEPROC, LPCQPAGEPROC callback function pointer [Active Directory], ad.cqpageproc, cmnquery/CQPageProc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Contains the window handle of the query page.
 
 ### -param uMsg
 
-Contains a value that identifies the event that this function is called for. This can be one of the <a href="https://msdn.microsoft.com/library/ms677289(v=VS.85).aspx">Common Query Page Messages</a>.
+Contains a value that identifies the event that this function is called for. This can be one of the <a href="messages_communicated_through_user_interfaces.htm">Common Query Page Messages</a>.
 
 
 ### -param wParam
@@ -105,7 +105,7 @@ The return value is the result of the message  and depends on the value of the <
 
 
 
-<a href="https://msdn.microsoft.com/library/ms677289(v=VS.85).aspx">Common Query Page Messages</a>
+<a href="messages_communicated_through_user_interfaces.htm">Common Query Page Messages</a>
 
 
 

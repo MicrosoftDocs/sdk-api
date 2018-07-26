@@ -7,7 +7,7 @@ old-location: xps\ixpsompagereference_setadvisorypagedimensions.htm
 old-project: printdocs
 ms.assetid: 8286fd78-a7d8-4bf4-9b08-b93e19abccf9
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetAdvisoryPageDimensions method, IXpsOMPageReference.SetAdvisoryPageDimensions, IXpsOMPageReference::SetAdvisoryPageDimensions, SetAdvisoryPageDimensions, SetAdvisoryPageDimensions method [XPS Documents and Packaging], SetAdvisoryPageDimensions method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setadvisorypagedimensions, xpsobjectmodel/IXpsOMPageReference::SetAdvisoryPageDimensions
 ms.prod: windows
 ms.technology: windows-sdk

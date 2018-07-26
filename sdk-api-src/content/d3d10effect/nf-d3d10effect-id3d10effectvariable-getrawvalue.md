@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_getrawvalue.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_getrawvalue.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 18ba7994-4337-bf43-0492-e591b629b77d, GetRawValue, GetRawValue method [Direct3D 10], GetRawValue method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],GetRawValue method, ID3D10EffectVariable.GetRawValue, ID3D10EffectVariable::GetRawValue, d3d10effect/ID3D10EffectVariable::GetRawValue, direct3d10.id3d10effectvariable_getrawvalue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,9 +90,9 @@ The number of bytes to get.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -111,7 +111,7 @@ This method does no conversion or type checking; it is therefore a very quick wa
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>
+<a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable Interface</a>
  
 
  

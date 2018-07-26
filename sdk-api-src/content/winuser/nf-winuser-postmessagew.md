@@ -64,7 +64,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Places (posts) a message in the message queue associated with the thread that created the specified window and returns without waiting for the thread to process the message.
 
-To post a message in the message queue associated with a thread, use the <a href="https://msdn.microsoft.com/library/ms644946(v=VS.85).aspx">PostThreadMessage</a> function.
+To post a message in the message queue associated with a thread, use the <a href="https://msdn.microsoft.com/c418cb0e-1b9f-4ca8-8b02-e6901f7744a6">PostThreadMessage</a> function.
 
 
 ## -parameters
@@ -101,7 +101,7 @@ The message is posted to all top-level windows in the system, including disabled
 </dl>
 </td>
 <td width="60%">
-The function behaves like a call to <a href="https://msdn.microsoft.com/library/ms644946(v=VS.85).aspx">PostThreadMessage</a> with the <i>dwThreadId</i> parameter set to the identifier of the current thread.
+The function behaves like a call to <a href="https://msdn.microsoft.com/c418cb0e-1b9f-4ca8-8b02-e6901f7744a6">PostThreadMessage</a> with the <i>dwThreadId</i> parameter set to the identifier of the current thread.
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ Type: <b>UINT</b>
 
 The message to be posted.
 
-For lists of the system-provided messages, see <a href="https://msdn.microsoft.com/library/ms644927(v=VS.85).aspx">System-Defined Messages</a>.
+For lists of the system-provided messages, see <a href="about_messages_and_message_queues.htm">System-Defined Messages</a>.
 
 
 ### -param wParam [in]
@@ -154,17 +154,17 @@ If the function fails, the return value is zero. To get extended error informati
 
  When a message is blocked by UIPI the last error, retrieved with <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, is set to 5 (access denied).
 
-Messages in a message queue are retrieved by calls to the <a href="https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx">GetMessage</a> or <a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a> function.
+Messages in a message queue are retrieved by calls to the <a href="https://msdn.microsoft.com/e92266a7-86ac-43f4-b0eb-762e145a1017">GetMessage</a> or <a href="https://msdn.microsoft.com/b9f5baa4-8166-4d6e-b416-df023aed9bad">PeekMessage</a> function.
 
-Applications that need to communicate using <b>HWND_BROADCAST</b> should use the <a href="https://msdn.microsoft.com/library/ms644947(v=VS.85).aspx">RegisterWindowMessage</a> function to obtain a unique message for inter-application communication.
+Applications that need to communicate using <b>HWND_BROADCAST</b> should use the <a href="https://msdn.microsoft.com/51ddc767-ffce-42bf-885a-24b9ee1b25f0">RegisterWindowMessage</a> function to obtain a unique message for inter-application communication.
 
-The system only does marshalling for system messages (those in the range 0 to (<a href="https://msdn.microsoft.com/library/ms644931(v=VS.85).aspx">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
+The system only does marshalling for system messages (those in the range 0 to (<a href="https://msdn.microsoft.com/4115c587-fcb4-4170-9948-fe33bcb8742a">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
 
-If you send a message in the range below <a href="https://msdn.microsoft.com/library/ms644931(v=VS.85).aspx">WM_USER</a> to the asynchronous message functions (<b>PostMessage</b>, <a href="https://msdn.microsoft.com/library/ms644953(v=VS.85).aspx">SendNotifyMessage</a>, and <a href="https://msdn.microsoft.com/library/ms644951(v=VS.85).aspx">SendMessageCallback</a>), its message parameters cannot include pointers. Otherwise, the operation will fail. The functions will return before the receiving thread has had a chance to process the message and the sender will free the memory before it is used.
+If you send a message in the range below <a href="https://msdn.microsoft.com/4115c587-fcb4-4170-9948-fe33bcb8742a">WM_USER</a> to the asynchronous message functions (<b>PostMessage</b>, <a href="https://msdn.microsoft.com/08767153-34f5-4d31-9705-5a1862b9dd10">SendNotifyMessage</a>, and <a href="https://msdn.microsoft.com/6246e7ae-da06-4b86-b0d5-1743522b1bda">SendMessageCallback</a>), its message parameters cannot include pointers. Otherwise, the operation will fail. The functions will return before the receiving thread has had a chance to process the message and the sender will free the memory before it is used.
 
-Do not post the <a href="https://msdn.microsoft.com/library/ms632641(v=VS.85).aspx">WM_QUIT</a> message using <b>PostMessage</b>; use the <a href="https://msdn.microsoft.com/library/ms644945(v=VS.85).aspx">PostQuitMessage</a> function.
+Do not post the <a href="https://msdn.microsoft.com/a9bff5dc-cab8-4e08-838e-d92c87c265d6">WM_QUIT</a> message using <b>PostMessage</b>; use the <a href="https://msdn.microsoft.com/8abc09a0-d53a-44ff-a91b-ee602260763c">PostQuitMessage</a> function.
 
- An accessibility application can use <b>PostMessage</b> to post <a href="https://msdn.microsoft.com/library/ms646275(v=VS.85).aspx">WM_APPCOMMAND</a> messages  to the shell to launch applications. This  functionality is not guaranteed to work for other types of applications.
+ An accessibility application can use <b>PostMessage</b> to post <a href="https://msdn.microsoft.com/ffcdfc44-dbfa-42d4-8749-b33bf0e4de0c">WM_APPCOMMAND</a> messages  to the shell to launch applications. This  functionality is not guaranteed to work for other types of applications.
 
 There is a limit of 10,000 posted messages per message queue. This limit should be sufficiently large.  If your application exceeds the limit, it should be redesigned to avoid consuming so many system resources. To adjust this limit, modify the following registry key.
 				
@@ -215,7 +215,7 @@ You can post a message to the message queue associated with the thread that crea
 </td>
 </tr>
 </table></span></div>
-For more examples, see <a href="https://msdn.microsoft.com/library/ms648775(v=VS.85).aspx">Initiating a Data Link</a>.
+For more examples, see <a href="https://msdn.microsoft.com/6d94403b-64b4-4763-868a-3b94431dab79">Initiating a Data Link</a>.
 
 <div class="code"></div>
 
@@ -230,23 +230,23 @@ For more examples, see <a href="https://msdn.microsoft.com/library/ms648775(v=VS
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx">GetMessage</a>
+<a href="https://msdn.microsoft.com/e92266a7-86ac-43f4-b0eb-762e145a1017">GetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/885bb607-3ec0-4e24-9f55-fbdfb1c538a1">Messages and Message Queues</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a>
+<a href="https://msdn.microsoft.com/b9f5baa4-8166-4d6e-b416-df023aed9bad">PeekMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644945(v=VS.85).aspx">PostQuitMessage</a>
+<a href="https://msdn.microsoft.com/8abc09a0-d53a-44ff-a91b-ee602260763c">PostQuitMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644946(v=VS.85).aspx">PostThreadMessage</a>
+<a href="https://msdn.microsoft.com/c418cb0e-1b9f-4ca8-8b02-e6901f7744a6">PostThreadMessage</a>
 
 
 
@@ -254,15 +254,15 @@ For more examples, see <a href="https://msdn.microsoft.com/library/ms648775(v=VS
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644947(v=VS.85).aspx">RegisterWindowMessage</a>
+<a href="https://msdn.microsoft.com/51ddc767-ffce-42bf-885a-24b9ee1b25f0">RegisterWindowMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644951(v=VS.85).aspx">SendMessageCallback</a>
+<a href="https://msdn.microsoft.com/6246e7ae-da06-4b86-b0d5-1743522b1bda">SendMessageCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644953(v=VS.85).aspx">SendNotifyMessage</a>
+<a href="https://msdn.microsoft.com/08767153-34f5-4d31-9705-5a1862b9dd10">SendNotifyMessage</a>
  
 
  

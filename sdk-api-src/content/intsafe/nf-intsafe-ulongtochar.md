@@ -7,7 +7,7 @@ old-location: shell\ULongToChar.htm
 old-project: shell
 ms.assetid: 732521f0-4a8d-4308-9cb9-a52719e89e11
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: DWordToChar, ULongToChar, ULongToChar function [Windows Shell], _shell_ULongToChar, intsafe/ULongToChar, shell.ULongToChar
 ms.prod: windows
 ms.technology: windows-sdk

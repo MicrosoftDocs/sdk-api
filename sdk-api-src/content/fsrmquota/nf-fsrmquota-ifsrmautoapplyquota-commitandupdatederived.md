@@ -4,10 +4,10 @@ title: IFsrmAutoApplyQuota::CommitAndUpdateDerived
 author: windows-sdk-content
 description: Saves the quota and then applies any changes to the derived quotas.
 old-location: fsrm\ifsrmautoapplyquota_commitandupdatederived.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: f988b78d-214a-4f4f-81d4-d7f59fecb02a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: CommitAndUpdateDerived, CommitAndUpdateDerived method [File Server Resource Manager], CommitAndUpdateDerived method [File Server Resource Manager],IFsrmAutoApplyQuota interface, IFsrmAutoApplyQuota interface [File Server Resource Manager],CommitAndUpdateDerived method, IFsrmAutoApplyQuota.CommitAndUpdateDerived, IFsrmAutoApplyQuota::CommitAndUpdateDerived, fs.ifsrmautoapplyquota_commitandupdatederived, fsrm.ifsrmautoapplyquota_commitandupdatederived, fsrmquota/IFsrmAutoApplyQuota::CommitAndUpdateDerived
 ms.prod: windows
 ms.technology: windows-sdk

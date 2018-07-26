@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12versionedrootsignaturedeserializer.htm
 old-project: direct3d12
 ms.assetid: 3B1E9837-72CA-4C44-B06C-C77E32480958
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12VersionedRootSignatureDeserializer, ID3D12VersionedRootSignatureDeserializer interface, ID3D12VersionedRootSignatureDeserializer interface,described, d3d12/ID3D12VersionedRootSignatureDeserializer, direct3d12.id3d12versionedrootsignaturedeserializer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ Converts root signature description structures to a requested version.
 <a href="https://msdn.microsoft.com/7E21B598-C13B-4418-B5B1-4ADDAA18F9B9">GetUnconvertedRootSignatureDesc</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the layout of the root signature, without converting between root signature versions.
+Gets the layout of the root signature, without converting between root signature versions.
         
 
 </td>

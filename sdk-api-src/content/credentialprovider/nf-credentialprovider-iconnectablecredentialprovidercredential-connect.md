@@ -7,7 +7,7 @@ old-location: shell\IConnectableCredentialProviderCredential_Connect.htm
 old-project: shell
 ms.assetid: 0fe91d1a-811a-4956-bb2f-47712ae2a155
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: Connect, Connect method [Windows Shell], Connect method [Windows Shell],IConnectableCredentialProviderCredential interface, IConnectableCredentialProviderCredential interface [Windows Shell],Connect method, IConnectableCredentialProviderCredential.Connect, IConnectableCredentialProviderCredential::Connect, _shell_IConnectableCredentialProviderCredential_Connect, credentialprovider/IConnectableCredentialProviderCredential::Connect, shell.IConnectableCredentialProviderCredential_Connect
 ms.prod: windows
 ms.technology: windows-sdk

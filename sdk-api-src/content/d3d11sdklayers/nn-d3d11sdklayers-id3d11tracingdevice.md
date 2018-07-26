@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11tracingdevice.htm
 old-project: direct3d11
 ms.assetid: AE42E2A8-9FEE-4991-B1A0-4C6C04958DE4
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11TracingDevice, ID3D11TracingDevice interface [Direct3D 11], ID3D11TracingDevice interface [Direct3D 11],described, d3d11sdklayers/ID3D11TracingDevice, direct3d11.id3d11tracingdevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ Sets the reference rasterizer's default race-condition tracking options for the 
 
 
 
-To get this interface, turn on the <a href="https://msdn.microsoft.com/library/Ff476881(v=VS.85).aspx">debug layer</a> and use <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> from the <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>.
+To get this interface, turn on the <a href="overviews_direct3d_11_devices_layers.htm">debug layer</a> and use <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> from the <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>.
 
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>

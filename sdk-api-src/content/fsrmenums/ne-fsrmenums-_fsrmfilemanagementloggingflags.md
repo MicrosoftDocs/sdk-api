@@ -4,10 +4,10 @@ title: "_FsrmFileManagementLoggingFlags"
 author: windows-sdk-content
 description: Defines the options for logging when running a file management job.
 old-location: fsrm\fsrmfilemanagementloggingflags.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 8e6e40cb-a513-492b-bf2c-97238eb1d1db
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: FsrmFileManagementLoggingFlags, FsrmFileManagementLoggingFlags enumeration [File Server Resource Manager], FsrmFileManagementLoggingFlags_Audit, FsrmFileManagementLoggingFlags_Error, FsrmFileManagementLoggingFlags_Information, FsrmFileManagementLoggingFlags_None, _FsrmFileManagementLoggingFlags, fs.fsrmfilemanagementloggingflags, fsrm.fsrmfilemanagementloggingflags, fsrmenums/FsrmFileManagementLoggingFlags, fsrmenums/FsrmFileManagementLoggingFlags_Audit, fsrmenums/FsrmFileManagementLoggingFlags_Error, fsrmenums/FsrmFileManagementLoggingFlags_Information, fsrmenums/FsrmFileManagementLoggingFlags_None
 ms.prod: windows
 ms.technology: windows-sdk

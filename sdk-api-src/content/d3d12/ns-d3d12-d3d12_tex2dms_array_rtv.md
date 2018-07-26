@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tex2dms_array_rtv.htm
 old-project: direct3d12
 ms.assetid: 9EA35677-1680-4F57-BDE1-5649C1D48661
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_TEX2DMS_ARRAY_RTV, D3D12_TEX2DMS_ARRAY_RTV structure, d3d12/D3D12_TEX2DMS_ARRAY_RTV, direct3d12.d3d12_tex2dms_array_rtv
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes the subresources from an array of multi sampled 2D textures to use in a render-target view.
+Describes the subresources from an array of multi sampled 2D textures to use in a render-target view.
         
 
 
@@ -62,15 +61,13 @@ req.irql:
 
 ### -field FirstArraySlice
 
-
-            The index of the first texture to use in an array of textures.
+The index of the first texture to use in an array of textures.
           
 
 
 ### -field ArraySize
 
-
-            The number of textures to use.
+The number of textures to use.
           
 
 
@@ -78,8 +75,7 @@ req.irql:
 
 
 
-
-        Use this structure with a <a href="https://msdn.microsoft.com/D8602EB9-70EB-4A4E-8D8D-A2016335AAC6">D3D12_RENDER_TARGET_VIEW_DESC</a> structure to view the resource as an array of multi sampled 2D textures.
+Use this structure with a <a href="https://msdn.microsoft.com/D8602EB9-70EB-4A4E-8D8D-A2016335AAC6">D3D12_RENDER_TARGET_VIEW_DESC</a> structure to view the resource as an array of multi sampled 2D textures.
       
 
 

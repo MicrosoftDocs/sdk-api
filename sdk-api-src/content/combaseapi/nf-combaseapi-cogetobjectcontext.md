@@ -137,7 +137,7 @@ Before this function can be called, the <a href="https://msdn.microsoft.com/ffb7
 
 For components running within COM applications, the following interfaces are supported for accessing context properties: <a href="https://msdn.microsoft.com/fa4c7d82-ec5d-43d6-914e-bba60ad19aa2">IComThreadingInfo</a>, <a href="https://msdn.microsoft.com/89c41d9c-186c-4927-990d-92aa501f7d35">IContext</a>, and <a href="https://msdn.microsoft.com/47af7b80-3419-4a40-8932-a5a27f297dc9">IContextCallback</a>.
 
-For components running within COM+ applications, the following interfaces are supported for accessing context properties: <a href="https://msdn.microsoft.com/library/ms684253(v=VS.85).aspx">IObjectContext</a>, <a href="https://msdn.microsoft.com/library/ms686022(v=VS.85).aspx">IObjectContextActivity</a>, <a href="https://msdn.microsoft.com/library/ms682798(v=VS.85).aspx">IObjectContextInfo</a>, and <a href="https://msdn.microsoft.com/library/ms686473(v=VS.85).aspx">IContextState</a>.
+For components running within COM+ applications, the following interfaces are supported for accessing context properties: <a href="_cos_IObjectContext">IObjectContext</a>, <a href="_cos_IObjectContextActivity">IObjectContextActivity</a>, <a href="_cos_IObjectContextInfo">IObjectContextInfo</a>, and <a href="_cos_IContextState">IContextState</a>.
 
 
 

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection_getmovcinstructioncount.htm
 old-project: direct3d12
 ms.assetid: 9F002B65-F101-4498-A9C0-C545BCDB8CC1
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetMovcInstructionCount, GetMovcInstructionCount method, GetMovcInstructionCount method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetMovcInstructionCount method, ID3D12ShaderReflection.GetMovcInstructionCount, ID3D12ShaderReflection::GetMovcInstructionCount, d3d12shader/ID3D12ShaderReflection::GetMovcInstructionCount, direct3d12.id3d12shaderreflection_getmovcinstructioncount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Gets the number of Movc instructions.
+Gets the number of Movc instructions.
         
 
 
@@ -68,8 +67,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            Returns the number of Movc instructions.
+Returns the number of Movc instructions.
           
 
 
@@ -79,8 +77,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-
-        This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
+This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
       
 
 

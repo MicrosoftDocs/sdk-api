@@ -80,7 +80,7 @@ A handle to the module whose executable file contains the accelerator table to b
 
 Type: <b>LPCTSTR</b>
 
-The name of the accelerator table to be loaded. Alternatively, this parameter can specify the resource identifier of an accelerator-table resource in the low-order word and zero in the high-order word. To create this value, use the <a href="https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro.
+The name of the accelerator table to be loaded. Alternatively, this parameter can specify the resource identifier of an accelerator-table resource in the low-order word and zero in the high-order word. To create this value, use the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro.
 
 
 ## -returns
@@ -107,7 +107,7 @@ Accelerator tables loaded from resources are freed automatically when the applic
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms646337(v=VS.85).aspx">Creating Accelerators for Font Attributes</a>.
+For an example, see <a href="using_keyboard_accelerators.htm">Creating Accelerators for Font Attributes</a>.
 
 <div class="code"></div>
 
@@ -122,23 +122,23 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms646337(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646364(v=VS.85).aspx">CopyAcceleratorTable</a>
+<a href="https://msdn.microsoft.com/9dd87782-aa38-44eb-a35d-3d990cece223">CopyAcceleratorTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646365(v=VS.85).aspx">CreateAcceleratorTable</a>
+<a href="https://msdn.microsoft.com/ea8ba5dd-0fa8-4cab-9f48-69fb5cd38a51">CreateAcceleratorTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646368(v=VS.85).aspx">DestroyAcceleratorTable</a>
+<a href="https://msdn.microsoft.com/17fd308f-c1ad-41aa-ae65-72e22a7500f3">DestroyAcceleratorTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645526(v=VS.85).aspx">Keyboard Accelerators</a>
+<a href="https://msdn.microsoft.com/cb5e268d-8e38-4682-a736-ecf9bcc34acd">Keyboard Accelerators</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>
+<a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>
 
 
 

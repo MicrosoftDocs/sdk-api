@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch4_WindowsSecurity.htm
 old-project: shell
 ms.assetid: 665c4644-7749-446e-8212-3ecc9901a035
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IShellDispatch4 object [Windows Shell],WindowsSecurity method, IShellDispatch4.WindowsSecurity, IShellDispatch4::WindowsSecurity, WindowsSecurity, WindowsSecurity method [Windows Shell], WindowsSecurity method [Windows Shell],IShellDispatch4 object, _shell_IShellDispatch4_WindowsSecurity, shell.IShellDispatch4_WindowsSecurity
 ms.prod: windows
 ms.technology: windows-sdk

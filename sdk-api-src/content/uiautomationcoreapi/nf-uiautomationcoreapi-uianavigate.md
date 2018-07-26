@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaNavigateAutoMeth.htm
 old-project: WinAuto
 ms.assetid: 11f0d52a-11be-4038-bf9e-94e44b118a22
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: UiaNavigate, UiaNavigate function [Windows Accessibility], uiauto.uiauto_UiaNavigateAutoMeth, uiauto_UiaNavigateAutoMeth, uiautomationcoreapi/UiaNavigate, winauto.uiauto_UiaNavigateAutoMeth
 ms.prod: windows
 ms.technology: windows-sdk

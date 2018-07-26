@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_settag.htm
 old-project: directmanipulation
 ms.assetid: f695845b-8980-45cd-8231-e3ce29ce322f
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/23/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetTag method, IDirectManipulationViewport.SetTag, IDirectManipulationViewport::SetTag, SetTag, SetTag method [Direct Manipulation], SetTag method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_settag, directmanipulation/IDirectManipulationViewport::SetTag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,6 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 
 A tag is a pairing of an integer ID with a Component Object Model (COM) object. It can be used by an app to identify the viewport.
-
 
 The object parameter is optional, so that the method can set just an ID.
 

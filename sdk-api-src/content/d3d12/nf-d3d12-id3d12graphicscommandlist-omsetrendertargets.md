@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_omsetrendertargets.htm
 old-project: direct3d12
 ms.assetid: FE565AA2-FA34-4824-870E-9C4C7C19C93C
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12GraphicsCommandList interface,OMSetRenderTargets method, ID3D12GraphicsCommandList.OMSetRenderTargets, ID3D12GraphicsCommandList::OMSetRenderTargets, OMSetRenderTargets, OMSetRenderTargets method, OMSetRenderTargets method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::OMSetRenderTargets, direct3d12.id3d12graphicscommandlist_omsetrendertargets
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Sets CPU descriptor handles for the render targets and depth stencil.
+Sets CPU descriptor handles for the render targets and depth stencil.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b>UINT</b>
 
-
-            The number of entries in the <i>pRenderTargetDescriptors</i> array.
+The number of entries in the <i>pRenderTargetDescriptors</i> array.
           
 
 
@@ -73,8 +71,7 @@ Type: <b>UINT</b>
 
 Type: <b>const <a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a>*</b>
 
-
-            Specifies an array of <a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a> structures that describe the CPU descriptor handles that represents the start of the heap of render target descriptors.
+Specifies an array of <a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a> structures that describe the CPU descriptor handles that represents the start of the heap of render target descriptors.
           
 
 
@@ -84,12 +81,12 @@ Type: <b>BOOL</b>
 
 <b>True</b> means the handle passed in is the pointer to a contiguous range of <i>NumRenderTargetDescriptors</i>  descriptors.  This case is useful if the set of descriptors to bind already happens to be contiguous in memory (so all that’s needed is a handle to the first one).  For example, if  <i>NumRenderTargetDescriptors</i> is 3 then the memory layout is taken as follows:
 
-<img alt="Memory layout with parameter set to true" src="./images/oms_true.png"/>
+<img alt="Memory layout with parameter set to true" src="images/oms_true.png"/>
 In this case the driver dereferences the handle and then increments the memory being pointed to.
 
 <b>False</b> means that the handle is the first of an array of <i>NumRenderTargetDescriptors</i> handles.  The false case allows an application to bind a set of descriptors from different locations at once. Again assuming that <i>NumRenderTargetDescriptors</i> is 3, the memory layout is taken as follows:
 
-<img alt="Memory layout with parameter set to false" src="./images/oms_false.png"/>
+<img alt="Memory layout with parameter set to false" src="images/oms_false.png"/>
 In this case the driver dereferences three handles that are expected to be adjacent to each other in memory.
 
 
@@ -97,8 +94,7 @@ In this case the driver dereferences three handles that are expected to be adjac
 
 Type: <b>const <a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a>*</b>
 
-
-            A pointer to a <a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a> structure that describes the CPU descriptor handle that represents the start of the heap that holds the depth stencil descriptor.
+A pointer to a <a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a> structure that describes the CPU descriptor handle that represents the start of the heap that holds the depth stencil descriptor.
           
 
 
@@ -106,8 +102,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F750
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 

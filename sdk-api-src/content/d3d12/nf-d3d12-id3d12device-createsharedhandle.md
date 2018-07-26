@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createsharedhandle.htm
 old-project: direct3d12
 ms.assetid: AFF058FF-358F-4FF3-8C92-57A9D34B27D9
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: CreateSharedHandle, CreateSharedHandle method, CreateSharedHandle method,ID3D12Device interface, ID3D12Device interface,CreateSharedHandle method, ID3D12Device.CreateSharedHandle, ID3D12Device::CreateSharedHandle, d3d12/ID3D12Device::CreateSharedHandle, direct3d12.id3d12device_createsharedhandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Creates a shared handle to an heap, resource, or fence object.
+Creates a shared handle to an heap, resource, or fence object.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/AED60281-A6E4-4AAD-A106-6CA6E9BAEB9A">ID3D12DeviceChild</a>*</b>
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/AED60281-A6E4-4AAD-A106-6CA6E9BAEB9A">ID3D12DeviceChild</a> interface that represents the heap, resource, or fence object to create for sharing.
+A pointer to the <a href="https://msdn.microsoft.com/AED60281-A6E4-4AAD-A106-6CA6E9BAEB9A">ID3D12DeviceChild</a> interface that represents the heap, resource, or fence object to create for sharing.
             The following interfaces (derived from <b>ID3D12DeviceChild</b>) are supported:
             
 
@@ -85,21 +83,16 @@ Type: <b><a href="https://msdn.microsoft.com/AED60281-A6E4-4AAD-A106-6CA6E9BAEB9
 
 Type: <b>const <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a>*</b>
 
-
-              A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a>
-              structure that contains two separate but related data members: an optional security descriptor, and a <b>Boolean</b>
-              value that determines whether child processes can inherit the returned handle.
+A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a>structure that contains two separate but related data members: an optional security descriptor, and a <b>Boolean</b>value that determines whether child processes can inherit the returned handle.
             
 
-
-              Set this parameter to <b>NULL</b> if you want child processes that the
+Set this parameter to <b>NULL</b> if you want child processes that the
               application might create to not  inherit  the handle returned by
               <b>CreateSharedHandle</b>, and if you want the resource that is associated with the returned handle to get a default security
               descriptor.
             
 
-
-              The <b>lpSecurityDescriptor</b> member of the structure specifies a
+The <b>lpSecurityDescriptor</b> member of the structure specifies a
               <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> for the resource.
               Set this member to <b>NULL</b> if you want the runtime to assign a default security descriptor to the resource that is associated with the returned handle.
               The ACLs in the default security descriptor for the resource come from the primary or impersonation token of the creator.
@@ -118,19 +111,16 @@ Currently the only value this parameter accepts is GENERIC_ALL.
 
 Type: <b>LPCWSTR</b>
 
-
-              A <b>NULL</b>-terminated <b>UNICODE</b> string that contains the name to associate with the shared heap.
+A <b>NULL</b>-terminated <b>UNICODE</b> string that contains the name to associate with the shared heap.
               The name is limited to MAX_PATH characters.
               Name comparison is case-sensitive.
             
 
-
-              If <i>Name</i> matches the name of an existing resource, <b>CreateSharedHandle</b> fails with <a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NAME_ALREADY_EXISTS</a>.
+If <i>Name</i> matches the name of an existing resource, <b>CreateSharedHandle</b> fails with <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_NAME_ALREADY_EXISTS</a>.
               This occurs because these objects share the same namespace.
             
 
-
-              The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace.
+The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session namespace.
               The remainder of the name can contain any character except the backslash character (\).
               For more information, see
               <a href="https://msdn.microsoft.com/771e0bbf-bd73-4e87-aa1e-945c1287b517">Kernel Object Namespaces</a>.
@@ -138,8 +128,7 @@ Type: <b>LPCWSTR</b>
               Kernel object names must follow the guidelines outlined for Terminal Services so that applications can support multiple users.
             
 
-
-              The object can be created in a private namespace.
+The object can be created in a private namespace.
               For more information, see <a href="https://msdn.microsoft.com/6a84ec16-fa65-4cdd-861a-eccf5d0eee2b">Object Namespaces</a>.
             
 
@@ -148,8 +137,7 @@ Type: <b>LPCWSTR</b>
 
 Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/hh973215">HANDLE</a>*</b>
 
-
-            A pointer to a variable that receives the NT HANDLE value to the resource to share.
+A pointer to a variable that receives the NT HANDLE value to the resource to share.
             You can use this handle in calls to access the resource.
           
 
@@ -158,21 +146,19 @@ Type: <b><a href="https://msdn.microsoft.com/library/windows/hardware/hh973215">
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-
-                Returns S_OK if successful; otherwise, returns one of the following values:
+Returns S_OK if successful; otherwise, returns one of the following values:
               
 
 <ul>
-<li><a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a> if one of the parameters is invalid.
+<li><a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_INVALID_CALL</a> if one of the parameters is invalid.
               </li>
-<li><a href="https://msdn.microsoft.com/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NAME_ALREADY_EXISTS</a> if the supplied name of the resource to share is already associated with another resource.
+<li><a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_NAME_ALREADY_EXISTS</a> if the supplied name of the resource to share is already associated with another resource.
               </li>
 <li>E_ACCESSDENIED if the object is being created in a protected namespace.</li>
 <li>E_OUTOFMEMORY if sufficient memory is not available to create the handle.</li>
-<li>
-                Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> topic.
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a> topic.
               </li>
 </ul>
 
@@ -182,8 +168,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRE
 
 
 
-
-        Both heaps and committed resources can be shared.
+Both heaps and committed resources can be shared.
         Sharing a committed resource shares the implicit heap along with the committed resource description, such that a compatible resource description can be mapped to the heap from another device. 
       
 

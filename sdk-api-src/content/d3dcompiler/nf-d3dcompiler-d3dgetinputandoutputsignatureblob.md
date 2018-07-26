@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dgetinputandoutputsignatureblob.htm
 old-project: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dgetinputandoutputsignatureblob.htm
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/23/2018
 ms.keywords: 12cc3e6c-b766-e3b2-191f-39df167573bd, D3DGetInputAndOutputSignatureBlob, D3DGetInputAndOutputSignatureBlob function [HLSL], d3dcompiler/D3DGetInputAndOutputSignatureBlob, direct3dhlsl.d3dgetinputandoutputsignatureblob
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-<div class="alert"><b>Note</b>  <b>D3DGetInputAndOutputSignatureBlob</b> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="https://msdn.microsoft.com/cf9cea53-e7a3-4473-bfdf-0cdeb8370974">D3DGetBlobPart</a> with the <a href="https://msdn.microsoft.com/library/Ff728720(v=VS.85).aspx">D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB</a> value. </div><div> </div>Gets the input and output signatures from a compilation result.
+<div class="alert"><b>Note</b>  <b>D3DGetInputAndOutputSignatureBlob</b> may be altered or unavailable for releases after Windows 8.1. Instead use <a href="https://msdn.microsoft.com/cf9cea53-e7a3-4473-bfdf-0cdeb8370974">D3DGetBlobPart</a> with the <a href="d3d_blob_part.htm">D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB</a> value. </div><div> </div>Gets the input and output signatures from a compilation result.
 
 
 ## -parameters

@@ -4,10 +4,10 @@ title: IFsrmClassificationManager::EnumPropertyDefinitions
 author: windows-sdk-content
 description: Enumerates the property definitions.
 old-location: fsrm\ifsrmclassificationmanager_enumpropertydefinitions.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: c97cb2f1-6e03-444e-a15e-faa85f7a7915
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: EnumPropertyDefinitions, EnumPropertyDefinitions method [File Server Resource Manager], EnumPropertyDefinitions method [File Server Resource Manager],FsrmClassificationManager class, EnumPropertyDefinitions method [File Server Resource Manager],IFsrmClassificationManager interface, EnumPropertyDefinitions method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],EnumPropertyDefinitions method, IFsrmClassificationManager interface [File Server Resource Manager],EnumPropertyDefinitions method, IFsrmClassificationManager.EnumPropertyDefinitions, IFsrmClassificationManager2 interface [File Server Resource Manager],EnumPropertyDefinitions method, IFsrmClassificationManager2::EnumPropertyDefinitions, IFsrmClassificationManager::EnumPropertyDefinitions, fs.ifsrmclassificationmanager_enumpropertydefinitions, fsrm.ifsrmclassificationmanager_enumpropertydefinitions, fsrmpipeline/IFsrmClassificationManager2::EnumPropertyDefinitions, fsrmpipeline/IFsrmClassificationManager::EnumPropertyDefinitions
 ms.prod: windows
 ms.technology: windows-sdk

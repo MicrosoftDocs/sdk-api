@@ -7,7 +7,7 @@ old-location: shell\IShellLibrary_GetOptions.htm
 old-project: shell
 ms.assetid: 1a144505-e977-4db6-8266-c39c1de8a8f9
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: GetOptions, GetOptions method [Windows Shell], GetOptions method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],GetOptions method, IShellLibrary.GetOptions, IShellLibrary::GetOptions, _shell_IShellLibrary_GetOptions, shell.IShellLibrary_GetOptions, shobjidl_core/IShellLibrary::GetOptions
 ms.prod: windows
 ms.technology: windows-sdk

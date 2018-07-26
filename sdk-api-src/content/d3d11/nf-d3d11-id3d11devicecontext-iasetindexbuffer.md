@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_iasetindexbuffer.htm
 old-project: direct3d11
 ms.assetid: c556dda2-0808-4701-90cb-16c67a24add1
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 73896724-c6e5-3a60-25c3-af31308264c5, IASetIndexBuffer, IASetIndexBuffer method [Direct3D 11], IASetIndexBuffer method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],IASetIndexBuffer method, ID3D11DeviceContext.IASetIndexBuffer, ID3D11DeviceContext::IASetIndexBuffer, d3d11/ID3D11DeviceContext::IASetIndexBuffer, direct3d11.id3d11devicecontext_iasetindexbuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,18 +63,16 @@ Bind an index buffer to the input-assembler stage.
 
 Type: <b><a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a>*</b>
 
-
-            A pointer to an <a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a> object, that contains indices. The index buffer must have been created with
+A pointer to an <a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a> object, that contains indices. The index buffer must have been created with
             the <a href="https://msdn.microsoft.com/4ffa1714-bd85-4d5a-930d-20526f46e4b9">D3D11_BIND_INDEX_BUFFER</a> flag.
           
 
 
 ### -param Format [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a></b>
 
-
-            A <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> that specifies the format of the data in the index buffer. The only formats allowed for index
+A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> that specifies the format of the data in the index buffer. The only formats allowed for index
             buffer data are 16-bit (DXGI_FORMAT_R16_UINT) and 32-bit (DXGI_FORMAT_R32_UINT) integers.
           
 
@@ -99,22 +97,18 @@ Returns nothing.
 
 
 
-
-          For information about creating index buffers, see <a href="https://msdn.microsoft.com/4b33d32a-27fd-4652-87ac-3b7268881f89">How to: Create an Index Buffer</a>.
+For information about creating index buffers, see <a href="https://msdn.microsoft.com/4b33d32a-27fd-4652-87ac-3b7268881f89">How to: Create an Index Buffer</a>.
         
 
-
-          Calling this method using a buffer that is currently bound for writing (i.e. bound to the stream output pipeline stage) will effectively bind
+Calling this method using a buffer that is currently bound for writing (i.e. bound to the stream output pipeline stage) will effectively bind
           <b>NULL</b> instead because a buffer cannot be bound as both an input and an output at the same time.
         
 
-
-          The debug layer will generate a warning whenever a resource is prevented from being bound simultaneously as an input and an output, but this will
+The debug layer will generate a warning whenever a resource is prevented from being bound simultaneously as an input and an output, but this will
           not prevent invalid data from being used by the runtime.
         
 
-
-          The method will hold a reference to the interfaces passed in.
+The method will hold a reference to the interfaces passed in.
           This differs from the device state behavior in Direct3D 10.
         
 

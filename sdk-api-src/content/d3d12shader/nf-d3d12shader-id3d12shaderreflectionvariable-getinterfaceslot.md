@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflectionvariable_getinterfaceslot.htm
 old-project: direct3d12
 ms.assetid: 6CD169C7-0C6B-4EC8-BF57-96EE5065CC9D
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetInterfaceSlot, GetInterfaceSlot method, GetInterfaceSlot method,ID3D12ShaderReflectionVariable interface, ID3D12ShaderReflectionVariable interface,GetInterfaceSlot method, ID3D12ShaderReflectionVariable.GetInterfaceSlot, ID3D12ShaderReflectionVariable::GetInterfaceSlot, d3d12shader/ID3D12ShaderReflectionVariable::GetInterfaceSlot, direct3d12.id3d12shaderreflectionvariable_getinterfaceslot
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Gets the corresponding interface slot for a variable that represents an interface pointer.
+Gets the corresponding interface slot for a variable that represents an interface pointer.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            The index of the array element to get the slot number for.
+The index of the array element to get the slot number for.
             For a non-array variable this value will be zero.
           
 
@@ -76,8 +74,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            Returns the index of the interface in the interface array.
+Returns the index of the interface in the interface array.
           
 
 
@@ -92,8 +89,7 @@ GetInterfaceSlot gets the corresponding slot in an dynamic linkage array for an 
           See the HLSL <a href="https://msdn.microsoft.com/124a358d-30ab-4efe-88ed-1ff277d17b25">Interfaces and Classes</a> overview for additional information.
         
 
-
-        This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
+This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
       
 
 

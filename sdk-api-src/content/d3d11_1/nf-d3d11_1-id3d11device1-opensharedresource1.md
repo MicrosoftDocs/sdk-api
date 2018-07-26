@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device1_opensharedresource1.htm
 old-project: direct3d11
 ms.assetid: 4751B49E-01DB-467B-879C-743C8B43DDA5
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11Device1 interface [Direct3D 11],OpenSharedResource1 method, ID3D11Device1.OpenSharedResource1, ID3D11Device1::OpenSharedResource1, OpenSharedResource1, OpenSharedResource1 method [Direct3D 11], OpenSharedResource1 method [Direct3D 11],ID3D11Device1 interface, d3d11_1/ID3D11Device1::OpenSharedResource1, direct3d11.id3d11device1_opensharedresource1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gives a device access to a shared resource that is referenced by a handle and that was created on a different device. You must have previously created the resource as shared and specified that it uses NT handles (that is, you set the <a href="https://msdn.microsoft.com/library/Ff476203(v=VS.85).aspx">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag).
+Gives a device access to a shared resource that is referenced by a handle and that was created on a different device. You must have previously created the resource as shared and specified that it uses NT handles (that is, you set the <a href="d3d11_resource_misc_flag.htm">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag).
 
 
 ## -parameters
@@ -94,7 +94,7 @@ The behavior of <b>OpenSharedResource1</b> is similar to the behavior of the <a 
 <p class="proch"><img alt="" src="../common/wedge.gif"/><b>To share a resource between two devices</b>
 
 <ol>
-<li>Create the resource as shared and specify that it uses NT handles, by setting the <a href="https://msdn.microsoft.com/library/Ff476203(v=VS.85).aspx">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag.</li>
+<li>Create the resource as shared and specify that it uses NT handles, by setting the <a href="d3d11_resource_misc_flag.htm">D3D11_RESOURCE_MISC_SHARED_NTHANDLE</a> flag.</li>
 <li>Obtain the REFIID, or GUID, of the interface to the resource by using the __uuidof() macro. For example, __uuidof(<a href="https://msdn.microsoft.com/49cd6e21-6cb1-45ea-b83a-3c93f0560915">ID3D11Texture2D</a>) retrieves the GUID of the interface to a 2D texture.</li>
 <li>Query the resource for the <a href="https://msdn.microsoft.com/0ABA9B8D-BEA4-4455-A312-7CFEDEBBF19A">IDXGIResource1</a> interface.</li>
 <li>Call the <a href="https://msdn.microsoft.com/7A53616A-E7AB-4EB7-9B8F-ED43A70B691C">IDXGIResource1::CreateSharedHandle</a> method to obtain the unique handle to the resource.</li>

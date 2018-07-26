@@ -7,7 +7,7 @@ old-location: direct3d11\id3dinclude_close.htm
 old-project: direct3d11
 ms.assetid: d4513e15-dfe7-4919-a278-d386f25e65e5
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: Close, Close method [Direct3D 11], Close method [Direct3D 11],ID3DInclude interface, ID3DInclude interface [Direct3D 11],Close method, ID3DInclude.Close, ID3DInclude::Close, d3dcommon/ID3DInclude::Close, direct3d11.id3dinclude_close
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ A user-implemented method for closing a shader #include file.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCVOID</a></b>
 
-
-            Pointer to the buffer that contains the include directives. This is the pointer that was returned by the corresponding <a href="https://msdn.microsoft.com/4d10c986-1cba-427c-ae90-f81b83be1b8b">ID3DInclude::Open</a> call.
+Pointer to the buffer that contains the include directives. This is the pointer that was returned by the corresponding <a href="https://msdn.microsoft.com/4d10c986-1cba-427c-ae90-f81b83be1b8b">ID3DInclude::Open</a> call.
           
 
 
@@ -71,18 +70,15 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-
-                The user-implemented <b>Close</b> method should return S_OK. If <b>Close</b> fails when it closes the #include file, the application programming interface (API) that caused <b>Close</b> to be called fails. This failure can occur in one of the following situations:
+The user-implemented <b>Close</b> method should return S_OK. If <b>Close</b> fails when it closes the #include file, the application programming interface (API) that caused <b>Close</b> to be called fails. This failure can occur in one of the following situations:
               
 
 <ul>
-<li>
-                The high-level shader language (HLSL) shader fails one of the <b>D3D10CompileShader***</b> functions.
+<li>The high-level shader language (HLSL) shader fails one of the <b>D3D10CompileShader***</b> functions.
               </li>
-<li>
-                The effect fails one of the <b>D3D10CreateEffect***</b> functions.
+<li>The effect fails one of the <b>D3D10CreateEffect***</b> functions.
               </li>
 </ul>
 
@@ -92,8 +88,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRE
 
 
 
-
-          If <a href="https://msdn.microsoft.com/4d10c986-1cba-427c-ae90-f81b83be1b8b">ID3DInclude::Open</a> was successful, <b>Close</b> is guaranteed to be called before the API using the <a href="https://msdn.microsoft.com/2020ce65-3a6e-4a9f-9e97-b94e3c75f4f5">ID3DInclude</a> interface returns.
+If <a href="https://msdn.microsoft.com/4d10c986-1cba-427c-ae90-f81b83be1b8b">ID3DInclude::Open</a> was successful, <b>Close</b> is guaranteed to be called before the API using the <a href="https://msdn.microsoft.com/2020ce65-3a6e-4a9f-9e97-b94e3c75f4f5">ID3DInclude</a> interface returns.
         
 
 

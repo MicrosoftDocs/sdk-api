@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandqueue_copytilemappings.htm
 old-project: direct3d12
 ms.assetid: FAFA4B5C-EA3C-4209-AB8E-75F3B90F3745
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: CopyTileMappings, CopyTileMappings method, CopyTileMappings method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,CopyTileMappings method, ID3D12CommandQueue.CopyTileMappings, ID3D12CommandQueue::CopyTileMappings, d3d12/ID3D12CommandQueue::CopyTileMappings, direct3d12.id3d12commandqueue_copytilemappings
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ A pointer to the destination reserved resource.
 
 ### -param pDstRegionStartCoordinate [in]
 
-
-            A pointer to a
+A pointer to a
             <a href="https://msdn.microsoft.com/B7C51C7A-8500-4570-99C1-AE51D6A88529">D3D12_TILED_RESOURCE_COORDINATE</a> structure that describes the starting coordinates of the destination reserved resource.
           
 
@@ -78,22 +77,19 @@ A pointer to the source reserved resource.
 
 ### -param pSrcRegionStartCoordinate [in]
 
-
-            A pointer to a <a href="https://msdn.microsoft.com/B7C51C7A-8500-4570-99C1-AE51D6A88529">D3D12_TILED_RESOURCE_COORDINATE</a> structure that describes the starting coordinates of the source reserved resource.
+A pointer to a <a href="https://msdn.microsoft.com/B7C51C7A-8500-4570-99C1-AE51D6A88529">D3D12_TILED_RESOURCE_COORDINATE</a> structure that describes the starting coordinates of the source reserved resource.
           
 
 
 ### -param pRegionSize [in]
 
-
-            A pointer to a <a href="https://msdn.microsoft.com/6F71BD17-09B5-4638-9CD4-E2D3BBA97044">D3D12_TILE_REGION_SIZE</a> structure that describes the size of the reserved region.
+A pointer to a <a href="https://msdn.microsoft.com/6F71BD17-09B5-4638-9CD4-E2D3BBA97044">D3D12_TILE_REGION_SIZE</a> structure that describes the size of the reserved region.
           
 
 
 ### -param Flags
 
-
-            One member of <a href="https://msdn.microsoft.com/588BCCA8-3F14-4837-86AE-EE4E4F0BC5ED">D3D12_TILE_MAPPING_FLAGS</a>. 
+One member of <a href="https://msdn.microsoft.com/588BCCA8-3F14-4837-86AE-EE4E4F0BC5ED">D3D12_TILE_MAPPING_FLAGS</a>. 
 
 
 ## -returns
@@ -118,8 +114,7 @@ Use <b>CopyTileMappings</b> to copy the tile mappings from one reserved resource
 
 The destination and the source regions must each entirely fit in their resource or behavior is undefined and the debug layer will emit an error.
 
-
-        For more info on tiled resources, refer to the  "DirectX tiled resources" section within <a href="http://msdn.microsoft.com/en-us/library/windows/apps/bg182880.aspx">DirectX programming</a>.
+For more info on tiled resources, refer to the  "DirectX tiled resources" section within <a href="http://msdn.microsoft.com/en-us/library/windows/apps/bg182880.aspx">DirectX programming</a>.
       
 
 

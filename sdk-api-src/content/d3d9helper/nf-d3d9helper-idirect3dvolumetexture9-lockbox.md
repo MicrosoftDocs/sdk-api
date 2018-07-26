@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvolumetexture9__lockbox.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolumetexture9__lockbox.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: 9be8529a-2a7d-01f2-cddd-e44589e88cfe, IDirect3DVolumeTexture9 interface [Direct3D 9],LockBox method, IDirect3DVolumeTexture9.LockBox, IDirect3DVolumeTexture9::LockBox, LockBox, LockBox method [Direct3D 9], LockBox method [Direct3D 9],IDirect3DVolumeTexture9 interface, d3d9helper/IDirect3DVolumeTexture9::LockBox, direct3d9.idirect3dvolumetexture9__lockbox
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,16 +68,16 @@ Specifies the level of the volume texture resource to lock.
 
 ### -param pLockedVolume [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172569(v=VS.85).aspx">D3DLOCKED_BOX</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/b371fb5e-2d65-453c-acd7-214de8aaa78a">D3DLOCKED_BOX</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb172569(v=VS.85).aspx">D3DLOCKED_BOX</a> structure, describing the locked region. 
+Pointer to a <a href="https://msdn.microsoft.com/b371fb5e-2d65-453c-acd7-214de8aaa78a">D3DLOCKED_BOX</a> structure, describing the locked region. 
 
 
 ### -param pBox [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb172510(v=VS.85).aspx">D3DBOX</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/415a96bc-1621-4691-b87a-98ca22f0bf07">D3DBOX</a>*</b>
 
-Pointer to the volume to lock. This parameter is specified by a pointer to a <a href="https://msdn.microsoft.com/library/Bb172510(v=VS.85).aspx">D3DBOX</a> structure. Specifying <b>NULL</b> for this parameter locks the entire volume level. 
+Pointer to the volume to lock. This parameter is specified by a pointer to a <a href="https://msdn.microsoft.com/415a96bc-1621-4691-b87a-98ca22f0bf07">D3DBOX</a> structure. Specifying <b>NULL</b> for this parameter locks the entire volume level. 
 
 
 ### -param Flags [in]
@@ -94,15 +94,14 @@ Combination of zero or more locking flags that describe the type of lock to perf
 <li>D3DLOCK_NOSYSLOCK</li>
 <li>D3DLOCK_READONLY</li>
 </ul>
-
-For a description of the flags, see <a href="https://msdn.microsoft.com/library/Bb172568(v=VS.85).aspx">D3DLOCK</a>.
+For a description of the flags, see <a href="https://msdn.microsoft.com/46a611bd-a1ec-4967-b68d-72661d1b5cad">D3DLOCK</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -113,7 +112,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-For performance reasons, dirty regions are only recorded for level zero of a texture. Dirty regions are automatically recorded when <b>LockBox</b> is called without D3DLOCK_NO_DIRTY_UPDATE or D3DLOCK_READONLY. For more information, see <a href="https://msdn.microsoft.com/library/Bb205858(v=VS.85).aspx">UpdateTexture</a>.
+For performance reasons, dirty regions are only recorded for level zero of a texture. Dirty regions are automatically recorded when <b>LockBox</b> is called without D3DLOCK_NO_DIRTY_UPDATE or D3DLOCK_READONLY. For more information, see <a href="https://msdn.microsoft.com/79be31d9-0dd2-416c-b58c-9b3b7777c65c">UpdateTexture</a>.
 
 
 
@@ -123,11 +122,11 @@ For performance reasons, dirty regions are only recorded for level zero of a tex
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205941(v=VS.85).aspx">IDirect3DVolumeTexture9</a>
+<a href="https://msdn.microsoft.com/c92cabb8-61d1-4dcf-acf1-fddd3e007d47">IDirect3DVolumeTexture9</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205946(v=VS.85).aspx">UnlockBox</a>
+<a href="https://msdn.microsoft.com/41949c6f-47e7-4f11-9b9c-7b7e56fcc98b">UnlockBox</a>
  
 
  

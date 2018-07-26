@@ -4,10 +4,10 @@ title: IFsrmPropertyDefinitionValue
 author: windows-sdk-content
 description: Contains properties that describe a classification property definition value.
 old-location: fsrm\ifsrmpropertydefinitionvalue.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 886f0f02-fe0e-4001-b6c2-e3d1d15d8e49
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: IFsrmPropertyDefinitionValue, IFsrmPropertyDefinitionValue interface [File Server Resource Manager], IFsrmPropertyDefinitionValue interface [File Server Resource Manager],described, fs.ifsrmpropertydefinitionvalue, fsrm.ifsrmpropertydefinitionvalue, fsrmpipeline/IFsrmPropertyDefinitionValue
 ms.prod: windows
 ms.technology: windows-sdk

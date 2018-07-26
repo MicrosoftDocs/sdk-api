@@ -7,7 +7,7 @@ old-location: shell\PathCchCombine.htm
 old-project: shell
 ms.assetid: 506a4165-f572-4521-958f-56a0296f9c05
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: PathCchCombine, PathCchCombine function [Windows Shell], pathcch/PathCchCombine, shell.PathCchCombine
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_root_signature_desc.htm
 old-project: direct3d12
 ms.assetid: D74D9D3B-96AB-489A-A91C-4F68AC3D05EE
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_ROOT_SIGNATURE_DESC, D3D12_ROOT_SIGNATURE_DESC structure, d3d12/D3D12_ROOT_SIGNATURE_DESC, direct3d12.d3d12_root_signature_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes the layout of a root signature version 1.0.
+Describes the layout of a root signature version 1.0.
         
 
 
@@ -62,15 +61,13 @@ req.irql:
 
 ### -field NumParameters
 
-
-            The number of slots in the root signature. This number is also the number of elements in the <i>pParameters</i> array.
+The number of slots in the root signature. This number is also the number of elements in the <i>pParameters</i> array.
           
 
 
 ### -field pParameters
 
-
-            An array of <a href="https://msdn.microsoft.com/CC1DFE85-7F83-4551-86C6-1AFDF746FC92">D3D12_ROOT_PARAMETER</a> structures for the slots in the root signature.
+An array of <a href="https://msdn.microsoft.com/CC1DFE85-7F83-4551-86C6-1AFDF746FC92">D3D12_ROOT_PARAMETER</a> structures for the slots in the root signature.
           
 
 
@@ -81,15 +78,13 @@ Specifies the number of static samplers.
 
 ### -field pStaticSamplers
 
-
-            Pointer to one or more <a href="https://msdn.microsoft.com/35553C1C-3661-4778-8BC5-F2E6775DF96D">D3D12_STATIC_SAMPLER_DESC</a> structures.
+Pointer to one or more <a href="https://msdn.microsoft.com/35553C1C-3661-4778-8BC5-F2E6775DF96D">D3D12_STATIC_SAMPLER_DESC</a> structures.
           
 
 
 ### -field Flags
 
-
-            A combination of <a href="https://msdn.microsoft.com/C3118E58-2006-459F-B2D6-4EC84F2BC058">D3D12_ROOT_SIGNATURE_FLAGS</a>-typed values that are combined by using a bitwise OR operation.
+A combination of <a href="https://msdn.microsoft.com/C3118E58-2006-459F-B2D6-4EC84F2BC058">D3D12_ROOT_SIGNATURE_FLAGS</a>-typed values that are combined by using a bitwise OR operation.
             The resulting value specifies options for the root signature layout.
           
 
@@ -98,13 +93,11 @@ Specifies the number of static samplers.
 
 
 
-
-        This structure is used by the <a href="https://msdn.microsoft.com/ACC46F5E-1074-41B3-8D13-9FD4352DBF66">D3D12SerializeRootSignature</a> function
+This structure is used by the <a href="https://msdn.microsoft.com/ACC46F5E-1074-41B3-8D13-9FD4352DBF66">D3D12SerializeRootSignature</a> function
         and is returned by the <a href="https://msdn.microsoft.com/A13FB848-A5C1-4B9B-9009-B0166A3A1C8D">ID3D12RootSignatureDeserializer::GetRootSignatureDesc</a> method.
       
 
-
-        There is one graphics root signature, and one compute root signature.
+There is one graphics root signature, and one compute root signature.
       
 
 

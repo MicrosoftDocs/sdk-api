@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingjob_copytiff_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_136u.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: CopyTiff, CopyTiff method [Fax Service], CopyTiff method [Fax Service],FaxIncomingJob object, FaxIncomingJob object [Fax Service],CopyTiff method, FaxIncomingJob.CopyTiff, IFaxIncomingJob.CopyTiff, IFaxIncomingJob::CopyTiff, _mfax_faxincomingjob.copytiff, fax._mfax_faxincomingjob_copytiff, fax._mfax_faxincomingjob_copytiff_vb
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Null-terminated string that specifies a fully qualified path and file name on th
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/library/ms689205(v=VS.85).aspx">farQUERY_JOBS</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_JOBS</a> access right.
 
 
 
@@ -80,15 +80,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a>
+<a href="https://msdn.microsoft.com/ef93899d-e797-4f07-bede-0860b695b32b">FaxIncomingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684878(v=VS.85).aspx">IFaxIncomingJob</a>
+<a href="https://msdn.microsoft.com/e3707441-6cdf-4a1c-b408-023a1a597492">IFaxIncomingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692952(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/88cde2d4-09ee-4fbf-8a75-35de58dd45f5">Visual Basic Example</a>
  
 
  

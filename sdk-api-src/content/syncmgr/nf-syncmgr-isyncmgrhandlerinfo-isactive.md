@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandlerInfo_IsActive.htm
 old-project: shell
 ms.assetid: 0bcb06ba-a94a-4a18-a284-48be19ec4b44
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: ISyncMgrHandlerInfo interface [Windows Shell],IsActive method, ISyncMgrHandlerInfo.IsActive, ISyncMgrHandlerInfo::IsActive, IsActive, IsActive method [Windows Shell], IsActive method [Windows Shell],ISyncMgrHandlerInfo interface, _shell_ISyncMgrHandlerInfo_IsActive, shell.ISyncMgrHandlerInfo_IsActive, syncmgr/ISyncMgrHandlerInfo::IsActive
 ms.prod: windows
 ms.technology: windows-sdk

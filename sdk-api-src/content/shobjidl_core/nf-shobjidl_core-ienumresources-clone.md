@@ -7,7 +7,7 @@ old-location: shell\IEnumResources_Clone.htm
 old-project: shell
 ms.assetid: 660243ba-263d-4f4a-b26f-ab831f60d76b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumResources interface, IEnumResources interface [Windows Shell],Clone method, IEnumResources.Clone, IEnumResources::Clone, _shell_IEnumResources_Clone, shell.IEnumResources_Clone, shobjidl_core/IEnumResources::Clone
 ms.prod: windows
 ms.technology: windows-sdk

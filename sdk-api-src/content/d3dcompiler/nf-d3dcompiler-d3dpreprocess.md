@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dpreprocess.htm
 old-project: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dpreprocess.htm
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/23/2018
 ms.keywords: 91482c2f-2730-5aba-e73a-43653c75ff49, D3DPreprocess, D3DPreprocess function [HLSL], d3dcompiler/D3DPreprocess, direct3dhlsl.d3dpreprocess
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,7 +133,7 @@ Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-1
 
 
 
-<b>D3DPreprocess</b> outputs <a href="https://msdn.microsoft.com/library/Dd607350(v=VS.85).aspx">#line</a> directives and preserves line numbering of source input so that output line numbering can be properly related to the input source.
+<b>D3DPreprocess</b> outputs <a href="https://msdn.microsoft.com/307410af-bd78-4b3d-b515-adf58298f35f">#line</a> directives and preserves line numbering of source input so that output line numbering can be properly related to the input source.
 
 
 

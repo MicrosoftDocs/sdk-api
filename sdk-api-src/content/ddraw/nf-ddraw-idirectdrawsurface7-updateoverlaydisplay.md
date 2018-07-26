@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_updateoverlaydisplay.htm
 old-project: directdraw
 ms.assetid: 50edf36f-ddf2-44a4-bcab-4b4dd5c5b65c
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/23/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],UpdateOverlayDisplay method, IDirectDrawSurface7.UpdateOverlayDisplay, IDirectDrawSurface7::UpdateOverlayDisplay, UpdateOverlayDisplay, UpdateOverlayDisplay method [DirectDraw], UpdateOverlayDisplay method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::UpdateOverlayDisplay, directdraw.idirectdrawsurface7_updateoverlaydisplay
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ The <b>IDirectDrawSurface7::UpdateOverlayDisplay</b> method is not currently imp
 
 #### - dwFlags [in]
 
-
-            The method is not currently implemented.
+The method is not currently implemented.
           
 
 
@@ -71,8 +70,7 @@ The <b>IDirectDrawSurface7::UpdateOverlayDisplay</b> method is not currently imp
 
 
 
-
-            The method is not currently implemented.
+The method is not currently implemented.
           
 
 

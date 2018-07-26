@@ -7,7 +7,7 @@ old-location: ad\dspropertypageinfo.htm
 old-project: ad
 ms.assetid: 1f8313cd-5cbe-440b-bcf9-de835f2b4f4a
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: "*LPDSPROPERTYPAGEINFO, DSPROPERTYPAGEINFO, DSPROPERTYPAGEINFO structure [Active Directory], LPDSPROPERTYPAGEINFO, LPDSPROPERTYPAGEINFO structure pointer [Active Directory], _glines_dspropertypageinfo, ad.dspropertypageinfo, dsclient/DSPROPERTYPAGEINFO, dsclient/LPDSPROPERTYPAGEINFO"
 ms.prod: windows
 ms.technology: windows-sdk

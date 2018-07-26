@@ -7,7 +7,7 @@ old-location: winauto\uiauto_itransformprovider2_zoombyunit.htm
 old-project: WinAuto
 ms.assetid: FB75D568-A1E4-4B39-A0FE-FE42E79C93B2
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: ITransformProvider2 interface [Windows Accessibility],ZoomByUnit method, ITransformProvider2.ZoomByUnit, ITransformProvider2::ZoomByUnit, ZoomByUnit, ZoomByUnit method [Windows Accessibility], ZoomByUnit method [Windows Accessibility],ITransformProvider2 interface, uiautomationcore/ITransformProvider2::ZoomByUnit, winauto.uiauto_itransformprovider2_zoombyunit
 ms.prod: windows
 ms.technology: windows-sdk

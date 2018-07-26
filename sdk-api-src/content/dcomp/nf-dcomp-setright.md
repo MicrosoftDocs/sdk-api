@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrectangleclip_setright_overloaded.htm
 old-project: directcomp
 ms.assetid: DBF1C6CE-5256-4175-9530-30D0B24FAB6D
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/23/2018
 ms.keywords: IDCompositionRectangleClip::SetRight, SetRight, SetRight methods [DirectComposition], dcomp/SetRight, directcomp.idcompositionrectangleclip_setright_overloaded
 ms.prod: windows
 ms.technology: windows-sdk

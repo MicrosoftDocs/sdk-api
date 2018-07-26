@@ -4,10 +4,10 @@ title: IPropertySheetProvider::AddExtensionPages
 author: windows-sdk-content
 description: The IPropertySheetProvider::AddExtensionPages method collects the pages from the extension snap-ins.
 old-location: mmc\ipropertysheetprovider_addextensionpages.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 3a2ce7a6-65d6-4e39-b8b8-8d9b59b32d11
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: AddExtensionPages, AddExtensionPages method [MMC], AddExtensionPages method [MMC],IPropertySheetProvider interface, IPropertySheetProvider interface [MMC],AddExtensionPages method, IPropertySheetProvider.AddExtensionPages, IPropertySheetProvider::AddExtensionPages, _slate_ipropertysheetprovider_addextensionpages, mmc.ipropertysheetprovider_addextensionpages, mmc/IPropertySheetProvider::AddExtensionPages
 ms.prod: windows
 ms.technology: windows-sdk

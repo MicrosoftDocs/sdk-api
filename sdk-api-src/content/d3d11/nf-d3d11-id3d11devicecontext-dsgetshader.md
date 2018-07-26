@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_dsgetshader.htm
 old-project: direct3d11
 ms.assetid: b04a9640-e28e-419e-9a8c-02685e7a0883
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 23ad23d5-5ea9-e2f1-ce64-770b35bc0586, DSGetShader, DSGetShader method [Direct3D 11], DSGetShader method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DSGetShader method, ID3D11DeviceContext.DSGetShader, ID3D11DeviceContext::DSGetShader, d3d11/ID3D11DeviceContext::DSGetShader, direct3d11.id3d11devicecontext_dsgetshader
 ms.prod: windows
 ms.technology: windows-sdk

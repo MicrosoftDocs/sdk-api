@@ -4,10 +4,10 @@ title: Column::Name
 author: windows-sdk-content
 description: The Name method returns the name of the column.
 old-location: mmc\column_name.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: cdd3cdc0-f84a-4c0c-8e76-bebdbc7b2e8d
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: Column interface [MMC],Name method, Column object [MMC],Name method, Column.Name, Column::Name, Name, Name method [MMC], Name method [MMC],Column interface, Name method [MMC],Column object, _slate_column.name_method, mmc.column_name
 ms.prod: windows
 ms.technology: windows-sdk

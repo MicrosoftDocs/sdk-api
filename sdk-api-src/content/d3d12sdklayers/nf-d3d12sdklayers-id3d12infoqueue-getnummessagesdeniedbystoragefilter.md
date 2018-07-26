@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_getnummessagesdeniedbystoragefilter.htm
 old-project: direct3d12
 ms.assetid: A1702C92-516C-4ECF-AD75-3D2CCFE360D2
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetNumMessagesDeniedByStorageFilter, GetNumMessagesDeniedByStorageFilter method, GetNumMessagesDeniedByStorageFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumMessagesDeniedByStorageFilter method, ID3D12InfoQueue.GetNumMessagesDeniedByStorageFilter, ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter, d3d12sdklayers/ID3D12InfoQueue::GetNumMessagesDeniedByStorageFilter, direct3d12.id3d12infoqueue_getnummessagesdeniedbystoragefilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,8 +68,7 @@ Get the number of messages that were denied passage through a storage filter.
 
 Type: <b>UINT64</b>
 
-
-            Number of messages denied by a storage filter.
+Number of messages denied by a storage filter.
 
 
 

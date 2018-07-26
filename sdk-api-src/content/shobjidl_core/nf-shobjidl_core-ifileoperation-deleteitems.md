@@ -7,7 +7,7 @@ old-location: shell\IFileOperation_DeleteItems.htm
 old-project: shell
 ms.assetid: 708072c4-c0c7-4d7d-a54f-234c57ff08e6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: DeleteItems, DeleteItems method [Windows Shell], DeleteItems method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],DeleteItems method, IFileOperation.DeleteItems, IFileOperation::DeleteItems, _shell_IFileOperation_DeleteItems, shell.IFileOperation_DeleteItems, shobjidl_core/IFileOperation::DeleteItems
 ms.prod: windows
 ms.technology: windows-sdk

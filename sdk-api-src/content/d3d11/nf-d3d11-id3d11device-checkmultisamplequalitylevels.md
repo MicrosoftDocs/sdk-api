@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_checkmultisamplequalitylevels.htm
 old-project: direct3d11
 ms.assetid: 346f5dae-3ce2-4c03-ab17-1c46e18efc64
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: CheckMultisampleQualityLevels, CheckMultisampleQualityLevels method [Direct3D 11], CheckMultisampleQualityLevels method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CheckMultisampleQualityLevels method, ID3D11Device.CheckMultisampleQualityLevels, ID3D11Device::CheckMultisampleQualityLevels, cc99aa72-2da0-c091-e4b1-047fa6f80bfa, d3d11/ID3D11Device::CheckMultisampleQualityLevels, direct3d11.id3d11device_checkmultisamplequalitylevels
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Get the number of quality levels available during multisampling.
 
 ### -param Format [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a></b>
 
-The texture format. See <a href="https://msdn.microsoft.com/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>.
+The texture format. See <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>.
 
 
 ### -param SampleCount [in]
@@ -84,7 +84,7 @@ Number of quality levels supported by the adapter. See remarks.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 

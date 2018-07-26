@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createcommandsignature.htm
 old-project: direct3d12
 ms.assetid: 5A44F907-C6E0-4548-A227-84F0CF2EE837
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: CreateCommandSignature, CreateCommandSignature method, CreateCommandSignature method,ID3D12Device interface, ID3D12Device interface,CreateCommandSignature method, ID3D12Device.CreateCommandSignature, ID3D12Device::CreateCommandSignature, d3d12/ID3D12Device::CreateCommandSignature, direct3d12.id3d12device_createcommandsignature
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          This method creates a command signature.
+This method creates a command signature.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b>const <a href="https://msdn.microsoft.com/3ACB1582-7A93-4D8D-A463-A828EF0C7F92">D3D12_COMMAND_SIGNATURE_DESC</a>*</b>
 
-
-            Describes the command signature to be created with the <a href="https://msdn.microsoft.com/3ACB1582-7A93-4D8D-A463-A828EF0C7F92">D3D12_COMMAND_SIGNATURE_DESC</a> structure.
+Describes the command signature to be created with the <a href="https://msdn.microsoft.com/3ACB1582-7A93-4D8D-A463-A828EF0C7F92">D3D12_COMMAND_SIGNATURE_DESC</a> structure.
           
 
 
@@ -83,8 +81,7 @@ The root signature is required if any of the commands in the signature will upda
 
 Type: <b>REFIID</b>
 
-
-            The globally unique identifier (<b>GUID</b>) for the command signature interface (<a href="https://msdn.microsoft.com/57EC15D0-9056-4AFC-86EF-3658DEA8AF40">ID3D12CommandSignature</a>).
+The globally unique identifier (<b>GUID</b>) for the command signature interface (<a href="https://msdn.microsoft.com/57EC15D0-9056-4AFC-86EF-3658DEA8AF40">ID3D12CommandSignature</a>).
             The <b>REFIID</b>, or <b>GUID</b>, of the interface to the command signature can be obtained by using the __uuidof() macro.
             For example, __uuidof(<b>ID3D12CommandSignature</b>) will get the <b>GUID</b> of the interface to a command signature.
           
@@ -94,8 +91,7 @@ Type: <b>REFIID</b>
 
 Type: <b>void**</b>
 
-
-            Specifies a pointer, that on successful completion of the method will point to the created command signature (<a href="https://msdn.microsoft.com/57EC15D0-9056-4AFC-86EF-3658DEA8AF40">ID3D12CommandSignature</a>).
+Specifies a pointer, that on successful completion of the method will point to the created command signature (<a href="https://msdn.microsoft.com/57EC15D0-9056-4AFC-86EF-3658DEA8AF40">ID3D12CommandSignature</a>).
           
 
 
@@ -103,10 +99,9 @@ Type: <b>void**</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-
-            This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
 
 

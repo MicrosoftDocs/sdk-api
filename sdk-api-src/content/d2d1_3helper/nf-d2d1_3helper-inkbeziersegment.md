@@ -4,10 +4,10 @@ title: InkBezierSegment function
 author: windows-sdk-content
 description: Creates a D2D1_INK_BEZIER_SEGMENT structure.
 old-location: direct2d\inkbeziersegment.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 61f6a6fb-3304-e979-549a-3c4c528ed12d
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: InkBezierSegment, InkBezierSegment function [Direct2D], d2d1_3helper/InkBezierSegment, direct2d.inkbeziersegment
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Creates a <a href="https://msdn.microsoft.com/27F1F78B-2478-4F5D-BF56-9931E767C358">D2D1_INK_BEZIER_SEGMENT</a> structure.
+Creates a <a href="https://msdn.microsoft.com/27F1F78B-2478-4F5D-BF56-9931E767C358">D2D1_INK_BEZIER_SEGMENT</a> structure.
         
 
 
@@ -87,8 +86,7 @@ The end point for the Bezier segment.
 
 Type: <b><a href="https://msdn.microsoft.com/27F1F78B-2478-4F5D-BF56-9931E767C358">D2D1_INK_BEZIER_SEGMENT</a></b>
 
-
-            Returns the created <a href="https://msdn.microsoft.com/27F1F78B-2478-4F5D-BF56-9931E767C358">D2D1_INK_BEZIER_SEGMENT</a> structure.
+Returns the created <a href="https://msdn.microsoft.com/27F1F78B-2478-4F5D-BF56-9931E767C358">D2D1_INK_BEZIER_SEGMENT</a> structure.
           
 
 

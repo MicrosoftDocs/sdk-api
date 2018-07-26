@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_rendering_mode1.htm
 old-project: DirectWrite
 ms.assetid: CAA88479-FE39-48D0-89D8-CEA0C922428A
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/23/2018
 ms.keywords: DWRITE_RENDERING_MODE1, DWRITE_RENDERING_MODE1 enumeration [Direct Write], DWRITE_RENDERING_MODE1_ALIASED, DWRITE_RENDERING_MODE1_DEFAULT, DWRITE_RENDERING_MODE1_GDI_CLASSIC, DWRITE_RENDERING_MODE1_GDI_NATURAL, DWRITE_RENDERING_MODE1_NATURAL, DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC, DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC_DOWNSAMPLED, DWRITE_RENDERING_MODE1_OUTLINE, directwrite.dwrite_rendering_mode1, dwrite_3/DWRITE_RENDERING_MODE1, dwrite_3/DWRITE_RENDERING_MODE1_ALIASED, dwrite_3/DWRITE_RENDERING_MODE1_DEFAULT, dwrite_3/DWRITE_RENDERING_MODE1_GDI_CLASSIC, dwrite_3/DWRITE_RENDERING_MODE1_GDI_NATURAL, dwrite_3/DWRITE_RENDERING_MODE1_NATURAL, dwrite_3/DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC, dwrite_3/DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC_DOWNSAMPLED, dwrite_3/DWRITE_RENDERING_MODE1_OUTLINE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ Specifies that no anti-aliasing is performed. Each pixel is either set to the fo
 
 ### -field DWRITE_RENDERING_MODE1_GDI_CLASSIC
 
-
-            Specifies that antialiasing is performed in the horizontal direction and the appearance of glyphs is layout-compatible with GDI using CLEARTYPE_QUALITY. 
+Specifies that antialiasing is performed in the horizontal direction and the appearance of glyphs is layout-compatible with GDI using CLEARTYPE_QUALITY. 
             Use DWRITE_MEASURING_MODE_GDI_CLASSIC to get glyph advances. The antialiasing may be either ClearType or grayscale depending on the text antialiasing mode.
           
 
@@ -86,8 +85,7 @@ Specifies that antialiasing is performed in the horizontal direction and the app
 
 ### -field DWRITE_RENDERING_MODE1_NATURAL
 
-
-            Specifies that antialiasing is performed in the horizontal direction. This rendering mode allows glyphs to be positioned with subpixel precision and 
+Specifies that antialiasing is performed in the horizontal direction. This rendering mode allows glyphs to be positioned with subpixel precision and 
             is therefore suitable for natural (i.e., resolution-independent) layout. 
             The antialiasing may be either ClearType or grayscale depending on the text antialiasing mode.
           

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_pssetconstantbuffers.htm
 old-project: direct3d11
 ms.assetid: 03e5f255-3a5d-4c77-ad3b-5a188c9eb35b
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 1d5ebba7-ca6f-9bb1-f5b2-4f1482759e6a, ID3D11DeviceContext interface [Direct3D 11],PSSetConstantBuffers method, ID3D11DeviceContext.PSSetConstantBuffers, ID3D11DeviceContext::PSSetConstantBuffers, PSSetConstantBuffers, PSSetConstantBuffers method [Direct3D 11], PSSetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::PSSetConstantBuffers, direct3d11.id3d11devicecontext_pssetconstantbuffers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.irql:
 ## -description
 
 
-
-      Sets the constant buffers used by the pixel shader pipeline stage.
+Sets the constant buffers used by the pixel shader pipeline stage.
 
 
 ## -parameters
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            Index into the device's zero-based array to begin setting constant buffers to (ranges from 0 to <b>D3D11_COMMONSHADER_CONSTANT_BUFFER_API_SLOT_COUNT</b> - 1).
+Index into the device's zero-based array to begin setting constant buffers to (ranges from 0 to <b>D3D11_COMMONSHADER_CONSTANT_BUFFER_API_SLOT_COUNT</b> - 1).
           
 
 
@@ -73,8 +71,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            Number of buffers to set (ranges from 0 to <b>D3D11_COMMONSHADER_CONSTANT_BUFFER_API_SLOT_COUNT</b> - <i>StartSlot</i>).
+Number of buffers to set (ranges from 0 to <b>D3D11_COMMONSHADER_CONSTANT_BUFFER_API_SLOT_COUNT</b> - <i>StartSlot</i>).
           
 
 
@@ -82,8 +79,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a>*</b>
 
-
-            Array of constant buffers (see <a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a>) being given to the device.
+Array of constant buffers (see <a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a>) being given to the device.
           
 
 
@@ -91,8 +87,7 @@ Type: <b><a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1f
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 
@@ -102,19 +97,16 @@ Type: <b><a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1f
 
 
 
-
-          The method will hold a reference to the interfaces passed in.
+The method will hold a reference to the interfaces passed in.
           This differs from the device state behavior in Direct3D 10.
         
 
-
-          The Direct3D 11.1 runtime, which is available on Windows 8 and later operating systems, can bind a larger number of <a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a> resources to the shader
+The Direct3D 11.1 runtime, which is available on Windows 8 and later operating systems, can bind a larger number of <a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a> resources to the shader
           than the maximum constant buffer size that is supported by shaders (4096 constants – 4*32-bit components each).
           When you bind such a large buffer, the shader can access only the first 4096 4*32-bit component constants in the buffer, as if 4096 constants is the full size of the buffer.
         
 
-
-          To enable the shader to access other parts of the buffer, call
+To enable the shader to access other parts of the buffer, call
           <a href="https://msdn.microsoft.com/4B05144B-7766-4AE6-9B9F-C439B4BF0220">PSSetConstantBuffers1</a> instead of <b>PSSetConstantBuffers</b>.
           <b>PSSetConstantBuffers1</b> has additional parameters <i>pFirstConstant</i> and <i>pNumConstants</i>.
         

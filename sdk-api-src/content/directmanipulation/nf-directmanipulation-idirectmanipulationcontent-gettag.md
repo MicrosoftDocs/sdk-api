@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationcontent_gettag.htm
 old-project: directmanipulation
 ms.assetid: 11acda14-3932-43e4-b45e-e129886c354f
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/23/2018
 ms.keywords: GetTag, GetTag method [Direct Manipulation], GetTag method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetTag method, IDirectManipulationContent.GetTag, IDirectManipulationContent::GetTag, directmanipulation.idirectmanipulationcontent_gettag, directmanipulation/IDirectManipulationContent::GetTag
 ms.prod: windows
 ms.technology: windows-sdk

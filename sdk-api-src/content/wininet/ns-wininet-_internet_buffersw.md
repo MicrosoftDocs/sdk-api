@@ -7,7 +7,7 @@ old-location: wininet\internet_buffers.htm
 old-project: wininet
 ms.assetid: 9381184d-17f4-46ad-bd09-15c7e653d1b9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/20/2018
 ms.keywords: "*LPINTERNET_BUFFERSW, INTERNET_BUFFERS, INTERNET_BUFFERS structure [WinINet], INTERNET_BUFFERSA, INTERNET_BUFFERSW, LPINTERNET_BUFFERS, LPINTERNET_BUFFERS structure pointer [WinINet], _INTERNET_BUFFERSW, _win32_internet_buffers, wininet.internet_buffers, wininet/ LPINTERNET_BUFFERS, wininet/INTERNET_BUFFERS, wininet/INTERNET_BUFFERSA, wininet/INTERNET_BUFFERSW"
 ms.prod: windows
 ms.technology: windows-sdk

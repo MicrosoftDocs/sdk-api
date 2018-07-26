@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext1.htm
 old-project: direct3d11
 ms.assetid: DD2A556D-AEF0-407E-A497-CF17ACDEB1A7
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11DeviceContext1, ID3D11DeviceContext1 interface [Direct3D 11], ID3D11DeviceContext1 interface [Direct3D 11],described, d3d11_1/ID3D11DeviceContext1, direct3d11.id3d11devicecontext1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -200,8 +200,7 @@ Gets the constant buffers that the pixel shader pipeline stage uses.
 <a href="https://msdn.microsoft.com/4B05144B-7766-4AE6-9B9F-C439B4BF0220">PSSetConstantBuffers1</a>
 </td>
 <td align="left" width="63%">
-
-        Sets the constant buffers that the pixel shader pipeline stage uses, and enables the shader to access other parts of the buffer.
+Sets the constant buffers that the pixel shader pipeline stage uses, and enables the shader to access other parts of the buffer.
       
 
 </td>

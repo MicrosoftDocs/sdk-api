@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CachedAuthor.htm
 old-project: WinAuto
 ms.assetid: 9B1B2150-38DA-4B47-B539-BD1175F39A2D
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CachedAuthor property [Windows Accessibility], CachedAuthor property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CachedAuthor property, IUIAutomationAnnotationPattern.CachedAuthor, IUIAutomationAnnotationPattern.get_CachedAuthor, IUIAutomationAnnotationPattern::CachedAuthor, IUIAutomationAnnotationPattern::get_CachedAuthor, get_CachedAuthor, uiautomationclient/IUIAutomationAnnotationPattern::CachedAuthor, uiautomationclient/IUIAutomationAnnotationPattern::get_CachedAuthor, winauto.uiauto_IUIAutomationAnnotationPattern_CachedAuthor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

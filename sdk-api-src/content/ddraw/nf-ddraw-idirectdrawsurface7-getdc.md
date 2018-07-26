@@ -7,7 +7,7 @@ old-location: directdraw\idirectdrawsurface7_getdc.htm
 old-project: directdraw
 ms.assetid: 683be1bc-8232-42de-907f-1136ffdd524d
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/23/2018
 ms.keywords: GetDC, GetDC method [DirectDraw], GetDC method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetDC method, IDirectDrawSurface7.GetDC, IDirectDrawSurface7::GetDC, ddraw/IDirectDrawSurface7::GetDC, directdraw.idirectdrawsurface7_getdc
 ms.prod: windows
 ms.technology: windows-sdk

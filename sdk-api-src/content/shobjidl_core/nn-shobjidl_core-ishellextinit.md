@@ -2,62 +2,94 @@
 UID: NN:shobjidl_core.IShellExtInit
 title: IShellExtInit
 author: windows-sdk-content
-description: TBD
-tech.root:
-ms.assetid: addba5b7-1d3f-462e-aa4a-1a51b6f7334a
+description: Exposes a method that initializes Shell extensions for property sheets, shortcut menus, and drag-and-drop handlers (extensions that add items to shortcut menus during nondefault drag-and-drop operations).
+old-location: shell\IShellExtInit.htm
+old-project: shell
+ms.assetid: 5f7e7f71-4cd6-4ce4-946c-9a1f7ec72fbe
 ms.author: windowssdkdev
-ms.date: 06/06/2018
-ms.topic: interface
+ms.date: 07/20/2018
+ms.keywords: IShellExtInit, IShellExtInit interface [Windows Shell], IShellExtInit interface [Windows Shell],described, _win32_IShellExtInit, _win32_ishellextinit_cpp, shell.IShellExtInit, shobjidl_core/IShellExtInit
 ms.prod: windows
 ms.technology: windows-sdk
+ms.topic: interface
 req.header: shobjidl_core.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shobjidl_core.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
  - COM
-api_location: 
- - shobjidl_core.h
-api_name: 
+api_location:
+ - Shell32.dll
+api_name:
  - IShellExtInit
 product: Windows
 targetos: Windows
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
+req.product: Outlook Express 6.0
 ---
 
 # IShellExtInit interface
 
+
 ## -description
 
-TBD
+
+Exposes a method that initializes Shell extensions for property sheets, shortcut menus, and drag-and-drop handlers (extensions that add items to shortcut menus during nondefault drag-and-drop operations).
 
 
 ## -inheritance
-IShellExtInit interits from IUnknown. 
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellExtInit</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IShellExtInit</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
-<p>IShellExtInit has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>Initialize</td>
-		<td>TBD</td>
-	</tr>
-</table>
+The <b>IShellExtInit</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+</td>
+<td align="left" width="63%">
+Initializes a property sheet extension, shortcut menu extension, or drag-and-drop handler.
+
+</td>
+</tr>
+</table> 
+
 
 ## -remarks
 
-## -see-also
+
+
+Implement <b>IShellExtInit</b> when you are writing a handler based on the <a href="https://msdn.microsoft.com/6ea0b8f9-4a05-4a4b-adc5-d540eb3287ee">IContextMenu</a> or <a href="https://msdn.microsoft.com/1671ad3e-c131-4de0-a213-b22c9966bae2">IShellPropSheetExt</a> interface.
+
+Note that Shell extensions based on other interfaces do not use this method of initialization.
+
+You do not use this interface directly. The Shell calls it to initialize the handler.
+
+
+

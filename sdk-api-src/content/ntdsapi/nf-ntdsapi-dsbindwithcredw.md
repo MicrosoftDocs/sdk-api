@@ -7,7 +7,7 @@ old-location: ad\dsbindwithcred.htm
 old-project: ad
 ms.assetid: 708e3874-852c-4a57-bf4b-edaf98818fe5
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: DsBindWithCred, DsBindWithCred function [Active Directory], DsBindWithCredA, DsBindWithCredW, _glines_dsbindwithcred, ad.dsbindwithcred, ntdsapi/DsBindWithCred, ntdsapi/DsBindWithCredA, ntdsapi/DsBindWithCredW
 ms.prod: windows
 ms.technology: windows-sdk

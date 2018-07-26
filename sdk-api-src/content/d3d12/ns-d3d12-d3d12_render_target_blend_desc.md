@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_render_target_blend_desc.htm
 old-project: direct3d12
 ms.assetid: 911158CF-5F4F-4211-8CC6-F73BDB697BC5
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_RENDER_TARGET_BLEND_DESC, D3D12_RENDER_TARGET_BLEND_DESC structure, d3d12/D3D12_RENDER_TARGET_BLEND_DESC, direct3d12.d3d12_render_target_blend_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,9 +112,9 @@ A combination of <a href="https://msdn.microsoft.com/BC07C5E7-CFEC-4902-9FB1-74A
 
 
 
-You specify an array of <b>D3D12_RENDER_TARGET_BLEND_DESC</b> structures in the <b>RenderTarget</b> member of the <a href="https://msdn.microsoft.com/FFCA10AF-1081-4D4B-900D-C3692D0B5A91">D3D12_BLEND_DESC</a> structure to describe the blend states for render targets; you can bind up to eight render targets to the <a href="https://msdn.microsoft.com/library/Bb205120(v=VS.85).aspx">output-merger stage</a> at one time.
+You specify an array of <b>D3D12_RENDER_TARGET_BLEND_DESC</b> structures in the <b>RenderTarget</b> member of the <a href="https://msdn.microsoft.com/FFCA10AF-1081-4D4B-900D-C3692D0B5A91">D3D12_BLEND_DESC</a> structure to describe the blend states for render targets; you can bind up to eight render targets to the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger stage</a> at one time.
 
-For info about how blending is done, see the <a href="https://msdn.microsoft.com/library/Bb205120(v=VS.85).aspx">output-merger stage</a>.
+For info about how blending is done, see the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger stage</a>.
 
 Here are the default values for blend state.
 

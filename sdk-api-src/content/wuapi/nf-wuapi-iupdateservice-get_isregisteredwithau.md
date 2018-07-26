@@ -4,10 +4,10 @@ title: IUpdateService::get_IsRegisteredWithAU
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether a service is registered with Automatic Updates.
 old-location: wua\iupdateservice_isregisteredwithau.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 17b51a04-69f6-4a96-880b-ef57f75253ae
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],IsRegisteredWithAU property, IUpdateService.IsRegisteredWithAU, IUpdateService.get_IsRegisteredWithAU, IUpdateService::IsRegisteredWithAU, IUpdateService::get_IsRegisteredWithAU, IsRegisteredWithAU property [Windows Update Agent], IsRegisteredWithAU property [Windows Update Agent],IUpdateService interface, get_IsRegisteredWithAU, wua.iupdateservice_isregisteredwithau, wuapi/IUpdateService::IsRegisteredWithAU, wuapi/IUpdateService::get_IsRegisteredWithAU
 ms.prod: windows
 ms.technology: windows-sdk

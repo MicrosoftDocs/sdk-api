@@ -7,7 +7,7 @@ old-location: direct3d11\d3dx11_fft_desc.htm
 old-project: direct3d11
 ms.assetid: b410e7c4-3b16-4510-9555-fc8b22fd3e2c
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 68cda090-9f5e-c349-40c7-a6e3b2bd2960, D3DX11_FFT_DESC, D3DX11_FFT_DESC structure [Direct3D 11], d3dcsx/D3DX11_FFT_DESC, direct3d11.d3dx11_fft_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      Describes an FFT.
+Describes an FFT.
 
 
 ## -struct-fields
@@ -63,8 +62,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            Number of dimension in the FFT.
+Number of dimension in the FFT.
           
 
 
@@ -72,8 +70,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>[D3DX11_FFT_MAX_DIMENSIONS]</b>
 
-
-            Length of each dimension in the FFT.
+Length of each dimension in the FFT.
           
 
 
@@ -81,8 +78,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            Combination of <a href="https://msdn.microsoft.com/5623b0e6-73f0-4d89-bf3e-a116409b369e">D3DX11_FFT_DIM_MASK</a> flags indicating the  dimensions to transform.
+Combination of <a href="https://msdn.microsoft.com/5623b0e6-73f0-4d89-bf3e-a116409b369e">D3DX11_FFT_DIM_MASK</a> flags indicating the  dimensions to transform.
           
 
 

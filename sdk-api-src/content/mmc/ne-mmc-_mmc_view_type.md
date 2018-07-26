@@ -4,10 +4,10 @@ title: "_MMC_VIEW_TYPE"
 author: windows-sdk-content
 description: The MMC_VIEW_TYPE enumeration specifies a result view type and is used in the RESULT_VIEW_TYPE_INFO structure.
 old-location: mmc\mmc_view_type.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: fffb7376-bf1d-44ce-ad52-d4c45d013af7
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: MMC_VIEW_TYPE, MMC_VIEW_TYPE enumeration [MMC], MMC_VIEW_TYPE_HTML, MMC_VIEW_TYPE_LIST, MMC_VIEW_TYPE_OCX, _MMC_VIEW_TYPE, _slate_mmc_view_type, mmc.mmc_view_type, mmc/MMC_VIEW_TYPE, mmc/MMC_VIEW_TYPE_HTML, mmc/MMC_VIEW_TYPE_LIST, mmc/MMC_VIEW_TYPE_OCX
 ms.prod: windows
 ms.technology: windows-sdk

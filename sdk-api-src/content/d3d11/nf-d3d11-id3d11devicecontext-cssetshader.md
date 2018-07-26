@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_cssetshader.htm
 old-project: direct3d11
 ms.assetid: 97be7622-609f-4576-911a-93aa7f1b6b8c
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: CSSetShader, CSSetShader method [Direct3D 11], CSSetShader method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSSetShader method, ID3D11DeviceContext.CSSetShader, ID3D11DeviceContext::CSSetShader, cd24a33e-1a95-4033-49fc-875e68702c5b, d3d11/ID3D11DeviceContext::CSSetShader, direct3d11.id3d11devicecontext_cssetshader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,8 +93,7 @@ This method does not return a value.
 
 
 
-
-      The method will hold a reference to the interfaces passed in.
+The method will hold a reference to the interfaces passed in.
       This differs from the device state behavior in Direct3D 10.
 
 The maximum number of instances a shader can have is 256.

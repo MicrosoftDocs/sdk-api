@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationmanager2_createbehavior.htm
 old-project: directmanipulation
 ms.assetid: 8890E44F-595A-4116-B4A4-F10FAEE598B7
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/23/2018
 ms.keywords: CreateBehavior, CreateBehavior method [Direct Manipulation], CreateBehavior method [Direct Manipulation],IDirectManipulationManager2 interface, IDirectManipulationManager2 interface [Direct Manipulation],CreateBehavior method, IDirectManipulationManager2.CreateBehavior, IDirectManipulationManager2::CreateBehavior, directmanipulation.idirectmanipulationmanager2_createbehavior, directmanipulation/IDirectManipulationManager2::CreateBehavior
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12infoqueue_clearstoredmessages.htm
 old-project: direct3d12
 ms.assetid: 045180AA-BA7F-4DFF-AC92-77076556A9CA
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ClearStoredMessages, ClearStoredMessages method, ClearStoredMessages method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,ClearStoredMessages method, ID3D12InfoQueue.ClearStoredMessages, ID3D12InfoQueue::ClearStoredMessages, d3d12sdklayers/ID3D12InfoQueue::ClearStoredMessages, direct3d12.id3d12infoqueue_clearstoredmessages
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Clear all messages from the message queue.
+Clear all messages from the message queue.
 
 
 
@@ -67,8 +66,7 @@ req.irql:
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 

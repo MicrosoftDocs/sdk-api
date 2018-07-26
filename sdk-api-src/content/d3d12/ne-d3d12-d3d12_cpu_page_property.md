@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_cpu_page_property.htm
 old-project: direct3d12
 ms.assetid: 92C1DBB9-213C-4623-B6AA-B790E081F123
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_CPU_PAGE_PROPERTY, D3D12_CPU_PAGE_PROPERTY enumeration, D3D12_CPU_PAGE_PROPERTY_NOT_AVAILABLE, D3D12_CPU_PAGE_PROPERTY_UNKNOWN, D3D12_CPU_PAGE_PROPERTY_WRITE_BACK, D3D12_CPU_PAGE_PROPERTY_WRITE_COMBINE, d3d12/D3D12_CPU_PAGE_PROPERTY, d3d12/D3D12_CPU_PAGE_PROPERTY_NOT_AVAILABLE, d3d12/D3D12_CPU_PAGE_PROPERTY_UNKNOWN, d3d12/D3D12_CPU_PAGE_PROPERTY_WRITE_BACK, d3d12/D3D12_CPU_PAGE_PROPERTY_WRITE_COMBINE, direct3d12.d3d12_cpu_page_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ The CPU-page property is unknown.
 
 ### -field D3D12_CPU_PAGE_PROPERTY_NOT_AVAILABLE
 
-
-            The CPU cannot access the heap, therefore no page properties are available.
+The CPU cannot access the heap, therefore no page properties are available.
           
 
 
@@ -84,8 +83,7 @@ The CPU-page property is write-back.
 
 
 
-
-        This enum is used by the <a href="https://msdn.microsoft.com/0A197D3D-67F4-46BB-8578-15E05DF46067">D3D12_HEAP_PROPERTIES</a> structure.
+This enum is used by the <a href="https://msdn.microsoft.com/0A197D3D-67F4-46BB-8578-15E05DF46067">D3D12_HEAP_PROPERTIES</a> structure.
       
 
 

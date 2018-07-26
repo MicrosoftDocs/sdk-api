@@ -7,7 +7,7 @@ old-location: shell\IApplicationDesignModeSettings_SetScaleFactor.htm
 old-project: shell
 ms.assetid: 55b80010-a71e-44c2-8105-e9f5b9a833f5
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IApplicationDesignModeSettings interface [Windows Shell],SetScaleFactor method, IApplicationDesignModeSettings.SetScaleFactor, IApplicationDesignModeSettings::SetScaleFactor, SetScaleFactor, SetScaleFactor method [Windows Shell], SetScaleFactor method [Windows Shell],IApplicationDesignModeSettings interface, shell.IApplicationDesignModeSettings_SetScaleFactor, shobjidl_core/IApplicationDesignModeSettings::SetScaleFactor
 ms.prod: windows
 ms.technology: windows-sdk

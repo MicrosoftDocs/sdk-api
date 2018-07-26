@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_drawinstanced.htm
 old-project: direct3d12
 ms.assetid: BB10C732-1F42-417D-ADDE-55E870AD5FE9
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: DrawInstanced, DrawInstanced method, DrawInstanced method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,DrawInstanced method, ID3D12GraphicsCommandList.DrawInstanced, ID3D12GraphicsCommandList::DrawInstanced, d3d12/ID3D12GraphicsCommandList::DrawInstanced, direct3d12.id3d12graphicscommandlist_drawinstanced
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Draws non-indexed, instanced primitives.
+Draws non-indexed, instanced primitives.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            Number of vertices to draw.
+Number of vertices to draw.
           
 
 
@@ -73,8 +71,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            Number of instances to draw.
+Number of instances to draw.
           
 
 
@@ -82,8 +79,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            Index of the first vertex.
+Index of the first vertex.
           
 
 
@@ -91,8 +87,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            A value added to each index before reading per-instance data from a vertex buffer.
+A value added to each index before reading per-instance data from a vertex buffer.
           
 
 
@@ -109,25 +104,21 @@ Returns nothing
 
 
 
-
-          A draw API submits work to the rendering pipeline.
+A draw API submits work to the rendering pipeline.
         
 
-
-          Instancing might extend performance by reusing the same geometry to draw multiple objects in a scene. One example of instancing could be
+Instancing might extend performance by reusing the same geometry to draw multiple objects in a scene. One example of instancing could be
           to draw the same object with different positions and colors.
         
 
-
-          The vertex data for an instanced draw call typically comes from a vertex buffer that is bound to the pipeline.
+The vertex data for an instanced draw call typically comes from a vertex buffer that is bound to the pipeline.
           But, you could also provide the vertex data from a shader that has instanced data identified with a system-value semantic (SV_InstanceID).
         
 
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::DrawInstanced</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::DrawInstanced</b> as follows:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -197,8 +188,7 @@ UINT m_rtvDescriptorSize;
 </td>
 </tr>
 </table></span></div>
-
-          See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>

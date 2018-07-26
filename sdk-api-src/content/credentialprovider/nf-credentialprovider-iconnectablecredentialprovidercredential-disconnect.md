@@ -7,7 +7,7 @@ old-location: shell\IConnectableCredentialProviderCredential_Disconnect.htm
 old-project: shell
 ms.assetid: 749147ce-9c05-4303-9ed2-62af047e6608
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: Disconnect, Disconnect method [Windows Shell], Disconnect method [Windows Shell],IConnectableCredentialProviderCredential interface, IConnectableCredentialProviderCredential interface [Windows Shell],Disconnect method, IConnectableCredentialProviderCredential.Disconnect, IConnectableCredentialProviderCredential::Disconnect, _shell_IConnectableCredentialProviderCredential_Disconnect, credentialprovider/IConnectableCredentialProviderCredential::Disconnect, shell.IConnectableCredentialProviderCredential_Disconnect
 ms.prod: windows
 ms.technology: windows-sdk

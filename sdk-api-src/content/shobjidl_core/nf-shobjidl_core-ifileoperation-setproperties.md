@@ -7,7 +7,7 @@ old-location: shell\IFileOperation_SetProperties.htm
 old-project: shell
 ms.assetid: b54efc12-42e9-4a90-a4d9-0e75bcdba0d6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IFileOperation interface [Windows Shell],SetProperties method, IFileOperation.SetProperties, IFileOperation::SetProperties, SetProperties, SetProperties method [Windows Shell], SetProperties method [Windows Shell],IFileOperation interface, _shell_IFileOperation_SetProperties, shell.IFileOperation_SetProperties, shobjidl_core/IFileOperation::SetProperties
 ms.prod: windows
 ms.technology: windows-sdk

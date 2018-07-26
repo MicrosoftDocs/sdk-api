@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_omgetdepthstencilstate.htm
 old-project: direct3d11
 ms.assetid: d5ea53a8-62c9-46c9-96ed-8c9977d916b2
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 46d0ab14-fdda-10ce-1e1a-4e551e1deeb3, ID3D11DeviceContext interface [Direct3D 11],OMGetDepthStencilState method, ID3D11DeviceContext.OMGetDepthStencilState, ID3D11DeviceContext::OMGetDepthStencilState, OMGetDepthStencilState, OMGetDepthStencilState method [Direct3D 11], OMGetDepthStencilState method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::OMGetDepthStencilState, direct3d11.id3d11devicecontext_omgetdepthstencilstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Gets the depth-stencil state of the output-merger stage.
 
 Type: <b><a href="https://msdn.microsoft.com/cac22076-2ba6-4ab1-918e-8c9a7773acf6">ID3D11DepthStencilState</a>**</b>
 
-
-            Address of a pointer to a depth-stencil state interface (see <a href="https://msdn.microsoft.com/cac22076-2ba6-4ab1-918e-8c9a7773acf6">ID3D11DepthStencilState</a>) to be filled with information from the device.
+Address of a pointer to a depth-stencil state interface (see <a href="https://msdn.microsoft.com/cac22076-2ba6-4ab1-918e-8c9a7773acf6">ID3D11DepthStencilState</a>) to be filled with information from the device.
           
 
 

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjob_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4mjm_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IFaxOutgoingJob, IFaxOutgoingJob interface [Fax Service], IFaxOutgoingJob interface [Fax Service],described, _mfax_faxoutgoingjob_cpp, fax._mfax_faxoutgoingjob_cpp, faxcomex/IFaxOutgoingJob
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The <b>IFaxOutgoingJob</b> interface describes an object that is used by a fax c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutgoingJob</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxOutgoingJob</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutgoingJob</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxOutgoingJob</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -75,16 +75,16 @@ The <b>IFaxOutgoingJob</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms690052(v=VS.85).aspx">IFaxOutgoingJob::Cancel</a> method cancels the outbound fax job.
+The <a href="https://msdn.microsoft.com/42f53e47-32bb-4888-bdcf-d05e12fc9859">IFaxOutgoingJob::Cancel</a> method cancels the outbound fax job.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms690130(v=VS.85).aspx">CopyTiff</a>
+<a href="https://msdn.microsoft.com/f40c487e-d7af-49c7-b0f5-7e1c8297fd86">CopyTiff</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms690130(v=VS.85).aspx">IFaxOutgoingJob::CopyTiff</a> method copies the TIFF Class F file associated with the outbound fax job, to a file on the local computer.
+The <a href="https://msdn.microsoft.com/f40c487e-d7af-49c7-b0f5-7e1c8297fd86">IFaxOutgoingJob::CopyTiff</a> method copies the TIFF Class F file associated with the outbound fax job, to a file on the local computer.
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ The <a href="https://msdn.microsoft.com/d709fd69-d34b-4dca-aea0-7726698a7dca">IF
 <a href="https://msdn.microsoft.com/53b02fd1-302b-476d-a467-de94cc14a0c0">Refresh</a>
 </td>
 <td align="left" width="63%">
-The Refresh method refreshes <a href="https://msdn.microsoft.com/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a> object information from the fax server.
+The Refresh method refreshes <a href="https://msdn.microsoft.com/f9686d11-fd32-4eaf-ae93-399dacf028ac">FaxOutgoingJob</a> object information from the fax server.
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ The <a href="https://msdn.microsoft.com/2893d8fc-0d11-4a78-9b67-a37c43b58955">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms690257(v=VS.85).aspx">AvailableOperations</a>
+<a href="https://msdn.microsoft.com/4d97ef95-77d0-4616-afcd-7adbc26ff3c5">AvailableOperations</a>
 
 
 </td>
@@ -144,7 +144,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms690257(v=VS.85).aspx">IFaxOutgoingJob::get_AvailableOperations</a> property indicates the combination of valid operations that you can perform on the fax job, given its current status.
+The <a href="https://msdn.microsoft.com/4d97ef95-77d0-4616-afcd-7adbc26ff3c5">IFaxOutgoingJob::get_AvailableOperations</a> property indicates the combination of valid operations that you can perform on the fax job, given its current status.
 
 </td>
 </tr>
@@ -343,7 +343,7 @@ The <a href="https://msdn.microsoft.com/675fa0b8-758d-43b4-b493-ee8204f4b9c6">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms689580(v=VS.85).aspx">Recipient</a>
+<a href="https://msdn.microsoft.com/cfc1d055-1bd1-4fbc-9b05-ca0a2807c5e5">Recipient</a>
 
 
 </td>
@@ -352,7 +352,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms689580(v=VS.85).aspx">IFaxOutgoingJob::get_Recipient</a> property retrieves an interface to an object containing information about the recipient of the fax job.
+The <a href="https://msdn.microsoft.com/cfc1d055-1bd1-4fbc-9b05-ca0a2807c5e5">IFaxOutgoingJob::get_Recipient</a> property retrieves an interface to an object containing information about the recipient of the fax job.
 
 </td>
 </tr>
@@ -391,7 +391,7 @@ The <a href="https://msdn.microsoft.com/8c8d5681-ae27-4412-8182-d5ab702e6811">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms687547(v=VS.85).aspx">Sender</a>
+<a href="https://msdn.microsoft.com/fbec5c4f-fb92-40d1-af9c-1faf7531cc2e">Sender</a>
 
 
 </td>
@@ -400,7 +400,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms687547(v=VS.85).aspx">IFaxOutgoingJob::get_Sender</a> property retrieves an object containing information about the sender of the fax.
+The <a href="https://msdn.microsoft.com/fbec5c4f-fb92-40d1-af9c-1faf7531cc2e">IFaxOutgoingJob::get_Sender</a> property retrieves an object containing information about the sender of the fax.
 
 </td>
 </tr>
@@ -539,7 +539,7 @@ The <a href="https://msdn.microsoft.com/fa4f6947-5261-475e-9ec0-c31c2a3b644f">IF
 
 
 
-A default implementation of <b>IFaxOutgoingJob</b> is provided as the <a href="https://msdn.microsoft.com/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a> object.
+A default implementation of <b>IFaxOutgoingJob</b> is provided as the <a href="https://msdn.microsoft.com/f9686d11-fd32-4eaf-ae93-399dacf028ac">FaxOutgoingJob</a> object.
 
 
 

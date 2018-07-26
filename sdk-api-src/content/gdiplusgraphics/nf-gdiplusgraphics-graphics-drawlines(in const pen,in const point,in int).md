@@ -65,19 +65,19 @@ DrawLines methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536017(v=VS.85).aspx">DrawLines(Pen*,Point*,INT)</a>
+<a href="https://msdn.microsoft.com/b6f16c76-f92f-4948-8bfa-73c528de26ae">DrawLines(Pen*,Point*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536017(v=VS.85).aspx">Graphics::DrawLines</a> method draws a sequence of connected lines.
+The <a href="https://msdn.microsoft.com/b6f16c76-f92f-4948-8bfa-73c528de26ae">Graphics::DrawLines</a> method draws a sequence of connected lines.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms536019(v=VS.85).aspx">DrawLines(Pen*,PointF*,INT)</a>
+<a href="https://msdn.microsoft.com/ea0d1b7b-f278-4a44-a99f-77801031d51e">DrawLines(Pen*,PointF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms536019(v=VS.85).aspx">Graphics::DrawLines</a> method draws a sequence of connected lines.
+The <a href="https://msdn.microsoft.com/ea0d1b7b-f278-4a44-a99f-77801031d51e">Graphics::DrawLines</a> method draws a sequence of connected lines.
 
 </td>
 </tr>

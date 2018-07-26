@@ -7,7 +7,7 @@ old-location: winrt\activationtype.htm
 old-project: WinRT
 ms.assetid: 200257CC-FE26-407F-8AE4-4DB7030AB4E7
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: ActivationType, ActivationType enumeration [Windows Runtime], InProcess, OutOfProcess, activationregistration/ActivationType, activationregistration/InProcess, activationregistration/OutOfProcess, winrt.activationtype
 ms.prod: windows
 ms.technology: windows-sdk

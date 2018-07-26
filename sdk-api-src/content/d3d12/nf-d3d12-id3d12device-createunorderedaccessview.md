@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_createunorderedaccessview.htm
 old-project: direct3d12
 ms.assetid: E834E469-2958-44A9-978F-F42D6BB6B1DC
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: CreateUnorderedAccessView, CreateUnorderedAccessView method, CreateUnorderedAccessView method,ID3D12Device interface, ID3D12Device interface,CreateUnorderedAccessView method, ID3D12Device.CreateUnorderedAccessView, ID3D12Device::CreateUnorderedAccessView, d3d12/ID3D12Device::CreateUnorderedAccessView, direct3d12.id3d12device_createunorderedaccessview
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Creates a view for unordered accessing.
+Creates a view for unordered accessing.
         
 
 
@@ -76,33 +75,25 @@ A null <i>pResource</i> is used to initialize a null descriptor, which guarantee
 
 Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>*</b>
 
-
-              The <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> for the counter (if any) associated with the UAV.
+The <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> for the counter (if any) associated with the UAV.
             
 
-
-              If <i>pCounterResource</i> is not specified, the <b>CounterOffsetInBytes</b> member of the <a href="https://msdn.microsoft.com/13E48B8F-4EF7-45B7-88F2-61D9BA1801D2">D3D12_BUFFER_UAV</a> structure must be 0.
+If <i>pCounterResource</i> is not specified, the <b>CounterOffsetInBytes</b> member of the <a href="https://msdn.microsoft.com/13E48B8F-4EF7-45B7-88F2-61D9BA1801D2">D3D12_BUFFER_UAV</a> structure must be 0.
             
 
-
-              If <i>pCounterResource</i> is specified, then there is a counter associated with the UAV, and the runtime performs validation of the following requirements:
+If <i>pCounterResource</i> is specified, then there is a counter associated with the UAV, and the runtime performs validation of the following requirements:
             
 
 <ul>
-<li>
-               The <b>StructureByteStride</b> member of the <a href="https://msdn.microsoft.com/13E48B8F-4EF7-45B7-88F2-61D9BA1801D2">D3D12_BUFFER_UAV</a> structure must be greater than 0.
+<li>The <b>StructureByteStride</b> member of the <a href="https://msdn.microsoft.com/13E48B8F-4EF7-45B7-88F2-61D9BA1801D2">D3D12_BUFFER_UAV</a> structure must be greater than 0.
               </li>
-<li>
-                The format must be DXGI_FORMAT_UNKNOWN.
+<li>The format must be DXGI_FORMAT_UNKNOWN.
               </li>
-<li>
-                The D3D12_BUFFER_UAV_FLAG_RAW flag (a <a href="https://msdn.microsoft.com/D5350B5B-4E15-4B9F-B3E0-5A3B1592ED5C">D3D12_BUFFER_UAV_FLAGS</a> enumeration constant) must not be set.
+<li>The D3D12_BUFFER_UAV_FLAG_RAW flag (a <a href="https://msdn.microsoft.com/D5350B5B-4E15-4B9F-B3E0-5A3B1592ED5C">D3D12_BUFFER_UAV_FLAGS</a> enumeration constant) must not be set.
               </li>
-<li>
-                Both of the resources (<i>pResource</i> and <i>pCounterResource</i>) must be buffers.
+<li>Both of the resources (<i>pResource</i> and <i>pCounterResource</i>) must be buffers.
               </li>
-<li>
-                The <b>CounterOffsetInBytes</b> member of the <a href="https://msdn.microsoft.com/13E48B8F-4EF7-45B7-88F2-61D9BA1801D2">D3D12_BUFFER_UAV</a> structure must be a multiple of 4 bytes, and must be within the range of the counter resource.
+<li>The <b>CounterOffsetInBytes</b> member of the <a href="https://msdn.microsoft.com/13E48B8F-4EF7-45B7-88F2-61D9BA1801D2">D3D12_BUFFER_UAV</a> structure must be a multiple of 4 bytes, and must be within the range of the counter resource.
               </li>
 <li><i>pResource</i> cannot be NULL
               </li>
@@ -132,8 +123,7 @@ Describes the CPU descriptor handle that represents the start of the heap that h
 
 
 
-
-            Returns nothing.
+Returns nothing.
           
 
 

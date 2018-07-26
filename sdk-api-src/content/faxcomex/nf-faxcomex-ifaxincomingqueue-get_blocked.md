@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingqueue_blocked_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2rac.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: Blocked property [Fax Service], Blocked property [Fax Service],FaxIncomingQueue object, FaxIncomingQueue object [Fax Service],Blocked property, FaxIncomingQueue.Blocked, IFaxIncomingQueue.get_Blocked, IFaxIncomingQueue::get_Blocked, _mfax_faxincomingqueue.blocked, fax._mfax_faxincomingqueue_blocked, fax._mfax_faxincomingqueue_blocked_vb, get_Blocked
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,11 +73,11 @@ If this property is equal to <b>True</b>, the inbound job queue is blocked and t
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686164(v=VS.85).aspx">FaxIncomingQueue</a>
+<a href="https://msdn.microsoft.com/769e4fc5-5607-4fd6-8f78-59b190c94787">FaxIncomingQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686165(v=VS.85).aspx">IFaxIncomingQueue</a>
+<a href="https://msdn.microsoft.com/291f8709-c10f-4041-864f-82431edd7fab">IFaxIncomingQueue</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: xaudio2\reverbconverti3dl2tonative.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.ReverbConvertI3DL2ToNative(const XAUDIO2FX_REVERB_I3DL2_PARAMETERS,XAUDIO2FX_REVERB_PARAMETERS@)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 07/23/2018
 ms.keywords: ReverbConvertI3DL2ToNative, ReverbConvertI3DL2ToNative function [XAudio2 Audio Mixing APIs], xaudio2.reverbconverti3dl2tonative, xaudio2fx/ReverbConvertI3DL2ToNative
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,12 +61,12 @@ Inline function that converts I3DL2 (Interactive 3D Audio Rendering Guidelines L
 
 ### -param pI3DL2 [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Ee419220(v=VS.85).aspx">XAUDIO2FX_REVERB_I3DL2_PARAMETERS</a> structure containing the I3DL2 parameters to convert. There are many preset values defined for the <b>XAUDIO2FX_REVERB_I3DL2_PARAMETERS</b> structure; for more information, see <a href="https://msdn.microsoft.com/6dcf4fe8-1189-8b79-b94b-29af835e4bcd">XAUDIO2FX_I3DL2_PRESET</a>.
+Pointer to a <a href="https://msdn.microsoft.com/17ec91d0-ee68-4b44-875f-1dcaec0f5381">XAUDIO2FX_REVERB_I3DL2_PARAMETERS</a> structure containing the I3DL2 parameters to convert. There are many preset values defined for the <b>XAUDIO2FX_REVERB_I3DL2_PARAMETERS</b> structure; for more information, see <a href="https://msdn.microsoft.com/6dcf4fe8-1189-8b79-b94b-29af835e4bcd">XAUDIO2FX_I3DL2_PRESET</a>.
 
 
 ### -param pNative [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Ee419224(v=VS.85).aspx">XAUDIO2FX_REVERB_PARAMETERS</a> structure that will receive the native parameters that are equivalent to the I3DL2 parameters. 
+Pointer to a <a href="https://msdn.microsoft.com/ddcb16ce-5d77-4417-a267-b33208065e5c">XAUDIO2FX_REVERB_PARAMETERS</a> structure that will receive the native parameters that are equivalent to the I3DL2 parameters. 
 
 
 ### -param sevenDotOneReverb
@@ -104,7 +104,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419220(v=VS.85).aspx">XAUDIO2FX_REVERB_I3DL2_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/17ec91d0-ee68-4b44-875f-1dcaec0f5381">XAUDIO2FX_REVERB_I3DL2_PARAMETERS</a>
 
 
 

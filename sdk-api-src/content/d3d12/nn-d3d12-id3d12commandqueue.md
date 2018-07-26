@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandqueue.htm
 old-project: direct3d12
 ms.assetid: 88A4E8BA-02B9-48A1-8E46-2D2560544539
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12CommandQueue, ID3D12CommandQueue interface, ID3D12CommandQueue interface,described, d3d12/ID3D12CommandQueue, direct3d12.id3d12commandqueue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,8 +73,7 @@ The <b>ID3D12CommandQueue</b> interface has these methods.
 <a href="https://msdn.microsoft.com/09586D24-6D52-49BA-B6C0-793219FAE80C">BeginEvent</a>
 </td>
 <td align="left" width="63%">
-
-          Not intended to be called directly.  Use the
+Not intended to be called directly.  Use the
         <a href="https://blogs.msdn.microsoft.com/pix/winpixeventruntime/">PIX event runtime</a> to insert events into a command queue.
 
 </td>
@@ -93,8 +92,7 @@ Copies mappings from a source reserved resource to a destination reserved resour
 <a href="https://msdn.microsoft.com/CA45061A-3DD6-4FFB-9723-ED33343052F3">EndEvent</a>
 </td>
 <td align="left" width="63%">
-
-          Not intended to be called directly.  Use the
+Not intended to be called directly.  Use the
         <a href="https://blogs.msdn.microsoft.com/pix/winpixeventruntime/">PIX event runtime</a> to insert events into a command queue.
 
 </td>
@@ -122,8 +120,7 @@ This method samples the CPU and GPU timestamp counters at the same moment in tim
 <a href="https://msdn.microsoft.com/AEEE6B15-AEB0-47C5-A3F8-9957516BFBEE">GetDesc</a>
 </td>
 <td align="left" width="63%">
-
-          Gets the description of the command queue.
+Gets the description of the command queue.
         
 
 </td>
@@ -142,8 +139,7 @@ This method is used to determine the rate at which the GPU timestamp counter inc
 <a href="https://msdn.microsoft.com/993996E9-40B8-4FC6-B1CF-883829F8D1F5">SetMarker</a>
 </td>
 <td align="left" width="63%">
-
-          Not intended to be called directly.  Use the
+Not intended to be called directly.  Use the
         <a href="https://blogs.msdn.microsoft.com/pix/winpixeventruntime/">PIX event runtime</a> to insert events into a command queue.
 
 </td>
@@ -162,8 +158,7 @@ Updates a fence to a specified value.
 <a href="https://msdn.microsoft.com/8A8017E5-AB55-4660-855B-D6F93F69CB52">UpdateTileMappings</a>
 </td>
 <td align="left" width="63%">
-
-          Updates mappings of tile locations in reserved resources to memory locations in a resource heap.
+Updates mappings of tile locations in reserved resources to memory locations in a resource heap.
         
 
 </td>
@@ -189,8 +184,7 @@ Use <a href="https://msdn.microsoft.com/556D068C-9939-4B42-AFC2-4EBB2D7B553B">ID
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12nBodyGravity</a> sample uses <b>ID3D12CommandQueue</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12nBodyGravity</a> sample uses <b>ID3D12CommandQueue</b> as follows:
         
 
 Header file declarations.

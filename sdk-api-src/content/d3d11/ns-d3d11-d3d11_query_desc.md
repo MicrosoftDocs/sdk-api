@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_query_desc.htm
 old-project: direct3d11
 ms.assetid: 2ed8e380-744b-41e1-87c8-9c7e8100ea2f
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 4fde9a23-6b0d-4b54-8ad1-f6003b4e0887, D3D11_QUERY_DESC, D3D11_QUERY_DESC structure [Direct3D 11], d3d11/D3D11_QUERY_DESC, direct3d11.d3d11_query_desc
 ms.prod: windows
 ms.technology: windows-sdk

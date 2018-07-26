@@ -7,7 +7,7 @@ old-location: of\iofflinefilesfileitem_isencrypted.htm
 old-project: offlinefiles
 ms.assetid: f4ef4836-378c-4a9b-a805-e576d4637a2a
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/23/2018
 ms.keywords: IOfflineFilesFileItem interface [Offline Files],IsEncrypted method, IOfflineFilesFileItem.IsEncrypted, IOfflineFilesFileItem::IsEncrypted, IsEncrypted, IsEncrypted method [Offline Files], IsEncrypted method [Offline Files],IOfflineFilesFileItem interface, cscobj/IOfflineFilesFileItem::IsEncrypted, of.iofflinefilesfileitem_isencrypted
 ms.prod: windows
 ms.technology: windows-sdk

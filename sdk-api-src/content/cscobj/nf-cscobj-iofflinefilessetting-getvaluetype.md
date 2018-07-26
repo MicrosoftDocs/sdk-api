@@ -7,7 +7,7 @@ old-location: of\iofflinefilessetting_getvaluetype.htm
 old-project: offlinefiles
 ms.assetid: 2b5567bf-a7c6-40b3-ac16-9da805ddb3b3
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/23/2018
 ms.keywords: GetValueType, GetValueType method [Offline Files], GetValueType method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetValueType method, IOfflineFilesSetting.GetValueType, IOfflineFilesSetting::GetValueType, cscobj/IOfflineFilesSetting::GetValueType, of.iofflinefilessetting_getvaluetype
 ms.prod: windows
 ms.technology: windows-sdk

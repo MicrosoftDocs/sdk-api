@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12enableexperimentalfeatures.htm
 old-project: direct3d12
 ms.assetid: 290E147E-8545-4572-BB36-58481065C541
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12EnableExperimentalFeatures, D3D12EnableExperimentalFeatures function, d3d12/D3D12EnableExperimentalFeatures, direct3d12.d3d12enableexperimentalfeatures
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ The sizes of any configuration structs passed in pConfigurationStructs parameter
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns an HRESULT success or error code that can include E_NOINTERFACE if an unrecognized feature is specified or Developer Mode is not enabled, or E_INVALIDARG if the configuration of a feature is in correct, the experimental features specified are not compatible, or other errors.
 
@@ -130,8 +130,7 @@ This example shows what an experimental feature definition looks like.
 </tr>
 <tr>
 <td>
-<pre>
-// --------------------------------------------------------------------------------------------------------------------------------
+<pre>// --------------------------------------------------------------------------------------------------------------------------------
 // Experimental Feature: D3D12ExperimentalShaderModels
 //
 // Use with D3D12EnableExperimentalFeatures to enable experimental shader model support,

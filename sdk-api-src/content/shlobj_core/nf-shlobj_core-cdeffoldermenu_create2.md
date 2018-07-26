@@ -7,7 +7,7 @@ old-location: shell\CDefFolderMenu_Create2.htm
 old-project: shell
 ms.assetid: 7b5e012d-1c8b-42c5-8181-9923fd389fc5
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: CDefFolderMenu_Create2, CDefFolderMenu_Create2 function [Windows Shell], _win32_CDefFolderMenu_Create2, shell.CDefFolderMenu_Create2, shlobj_core/CDefFolderMenu_Create2
 ms.prod: windows
 ms.technology: windows-sdk

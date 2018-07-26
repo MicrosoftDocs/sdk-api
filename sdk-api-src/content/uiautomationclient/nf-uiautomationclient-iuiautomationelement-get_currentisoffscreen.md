@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CurrentIsOffscreen.htm
 old-project: WinAuto
 ms.assetid: 51bec7bd-a547-4c75-ab8a-ebdd9bbd6c01
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CurrentIsOffscreen property [Windows Accessibility], CurrentIsOffscreen property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentIsOffscreen property, IUIAutomationElement.CurrentIsOffscreen, IUIAutomationElement.get_CurrentIsOffscreen, IUIAutomationElement::CurrentIsOffscreen, IUIAutomationElement::get_CurrentIsOffscreen, get_CurrentIsOffscreen, uiauto.uiauto_IUIAutomationElement_CurrentIsOffscreen, uiauto_IUIAutomationElement_CurrentIsOffscreen, uiautomationclient/IUIAutomationElement::CurrentIsOffscreen, uiautomationclient/IUIAutomationElement::get_CurrentIsOffscreen, winauto.uiauto_IUIAutomationElement_CurrentIsOffscreen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

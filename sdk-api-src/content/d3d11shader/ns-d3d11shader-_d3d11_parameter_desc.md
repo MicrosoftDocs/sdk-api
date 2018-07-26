@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_parameter_desc.htm
 old-project: direct3d11
 ms.assetid: C6F1079C-A686-44EA-933B-9DE2D70CFA33
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: D3D11_PARAMETER_DESC, D3D11_PARAMETER_DESC structure [Direct3D 11], _D3D11_PARAMETER_DESC, d3d11shader/D3D11_PARAMETER_DESC, direct3d11.d3d11_parameter_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ The name of the function parameter.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
 
-The HLSL <a href="https://msdn.microsoft.com/library/Bb509647(v=VS.85).aspx">semantic</a> that is associated with this function parameter. This name includes the index, for example, SV_Target[n].
+The HLSL <a href="https://msdn.microsoft.com/6f5c504c-1940-4d1c-b594-a2132599376b">semantic</a> that is associated with this function parameter. This name includes the index, for example, SV_Target[n].
 
 
 ### -field Type

@@ -4,10 +4,10 @@ title: IFsrmCommittableCollection
 author: windows-sdk-content
 description: Defines a collection of FSRM objects that can have the same type of objects added to or removed from the collection. All objects in the collection can also be committed in a single batch operation.
 old-location: fsrm\ifsrmcommittablecollection.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: ef4678b4-e6b0-4044-ba11-7a3ae01ad2c7
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: IFsrmCommittableCollection, IFsrmCommittableCollection interface [File Server Resource Manager], IFsrmCommittableCollection interface [File Server Resource Manager],described, fs.ifsrmcommitablecollection, fs.ifsrmcommittablecollection, fsrm.ifsrmcommittablecollection, fsrm/IFsrmCommittableCollection
 ms.prod: windows
 ms.technology: windows-sdk

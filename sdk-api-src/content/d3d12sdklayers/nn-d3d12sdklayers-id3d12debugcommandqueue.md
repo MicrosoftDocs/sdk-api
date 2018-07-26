@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugcommandqueue.htm
 old-project: direct3d12
 ms.assetid: 383F3B25-10C6-464C-AB79-D35F6FD3E879
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12DebugCommandQueue, ID3D12DebugCommandQueue interface, ID3D12DebugCommandQueue interface,described, d3d12sdklayers/ID3D12DebugCommandQueue, direct3d12.id3d12debugcommandqueue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Provides methods to monitor and debug a command queue.
+Provides methods to monitor and debug a command queue.
         
 
 
@@ -75,8 +74,7 @@ The <b>ID3D12DebugCommandQueue</b> interface has these methods.
 <a href="https://msdn.microsoft.com/D96DE885-D3B3-4EE5-A119-54F4261D7056">AssertResourceState</a>
 </td>
 <td align="left" width="63%">
-
-          Checks whether a resource, or subresource, is in a specified state, or not.
+Checks whether a resource, or subresource, is in a specified state, or not.
 
 </td>
 </tr>

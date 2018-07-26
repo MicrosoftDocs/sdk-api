@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext1_updatesubresource1.htm
 old-project: direct3d11
 ms.assetid: 7D89591C-F3F7-4A4F-A91A-AC67D9A573AF
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11DeviceContext1 interface [Direct3D 11],UpdateSubresource1 method, ID3D11DeviceContext1.UpdateSubresource1, ID3D11DeviceContext1::UpdateSubresource1, UpdateSubresource1, UpdateSubresource1 method [Direct3D 11], UpdateSubresource1 method [Direct3D 11],ID3D11DeviceContext1 interface, d3d11_1/ID3D11DeviceContext1::UpdateSubresource1, direct3d11.id3d11devicecontext1_updatesubresource1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,7 +123,7 @@ Returns nothing.
 
 
 
-If you call <b>UpdateSubresource1</b> to update a constant buffer, pass any region, and the driver has not been implemented to Windows 8, the runtime drops the call (except <a href="https://msdn.microsoft.com/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1, 9.2, and 9.3 where the runtime emulates support).  The runtime also drops the call if you update a constant buffer with a partial region whose extent is not aligned to 16-byte granularity (16 bytes being a full constant). When the runtime drops the call, the runtime doesn't call the corresponding device driver interface (DDI).
+If you call <b>UpdateSubresource1</b> to update a constant buffer, pass any region, and the driver has not been implemented to Windows 8, the runtime drops the call (except <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.1, 9.2, and 9.3 where the runtime emulates support).  The runtime also drops the call if you update a constant buffer with a partial region whose extent is not aligned to 16-byte granularity (16 bytes being a full constant). When the runtime drops the call, the runtime doesn't call the corresponding device driver interface (DDI).
 
 When you record a call to <a href="https://msdn.microsoft.com/2d8ef5a2-204a-434d-918a-104419050233">UpdateSubresource</a> with an offset <i>pDstBox</i> in a software command list, the offset in <i>pDstBox</i> is incorrectly applied to <i>pSrcData</i> when you play back the command list.  The new-for-Windows 8<b>UpdateSubresource1</b> fixes this issue. In a call to <b>UpdateSubresource1</b>, <i>pDstBox</i> does not affect <i>pSrcData</i>.
 

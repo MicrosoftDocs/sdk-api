@@ -99,7 +99,7 @@ To view an example that retrieves the <b>MIB_IPADDRTABLE</b> structure and then 
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365949(v=VS.85).aspx">GetIpAddrTable</a>
+<a href="_iphlp_getipaddrtable">GetIpAddrTable</a>
 
 
 

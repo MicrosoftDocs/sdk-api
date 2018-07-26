@@ -4,10 +4,10 @@ title: GradientMeshPatchFromCoonsPatch function
 author: windows-sdk-content
 description: Creates a D2D1_GRADIENT_MESH_PATCH from a given Coons patch description.
 old-location: direct2d\gradientmeshpatchfromcoonspatch.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 12469ab9-890c-e4a9-57b2-41a804712052
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: GradientMeshPatchFromCoonsPatch, GradientMeshPatchFromCoonsPatch function [Direct2D], d2d1_3helper/GradientMeshPatchFromCoonsPatch, direct2d.gradientmeshpatchfromcoonspatch
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Creates a <a href="https://msdn.microsoft.com/16d1ef03-f0c9-7414-d54d-9513199272aa">D2D1_GRADIENT_MESH_PATCH</a> from a given Coons patch description.
+Creates a <a href="https://msdn.microsoft.com/16d1ef03-f0c9-7414-d54d-9513199272aa">D2D1_GRADIENT_MESH_PATCH</a> from a given Coons patch description.
         
 
 
@@ -206,8 +205,7 @@ Specifies how to render the right edge of the mesh.
 
 Type: <b><a href="https://msdn.microsoft.com/16d1ef03-f0c9-7414-d54d-9513199272aa">D2D1_GRADIENT_MESH_PATCH</a></b>
 
-
-            Returns the created <a href="https://msdn.microsoft.com/16d1ef03-f0c9-7414-d54d-9513199272aa">D2D1_GRADIENT_MESH_PATCH</a> structure.
+Returns the created <a href="https://msdn.microsoft.com/16d1ef03-f0c9-7414-d54d-9513199272aa">D2D1_GRADIENT_MESH_PATCH</a> structure.
           
 
 
@@ -219,7 +217,7 @@ Type: <b><a href="https://msdn.microsoft.com/16d1ef03-f0c9-7414-d54d-9513199272a
 
 The following image shows the numbering of control points in a Coons patch.
 
-<img alt="Numbering of control points in a Coons patch" src="./images/coonspatch.png"/>
+<img alt="Numbering of control points in a Coons patch" src="images/coonspatch.png"/>
 
 
 

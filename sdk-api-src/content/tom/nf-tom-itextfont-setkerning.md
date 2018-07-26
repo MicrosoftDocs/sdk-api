@@ -147,11 +147,11 @@ If this value is zero, kerning is turned off. Positive values turn on pair kerni
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773973(v=VS.85).aspx">GetKerning</a>
+<a href="https://msdn.microsoft.com/c7af7356-ada6-424c-bd8f-32c40a8c095c">GetKerning</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -159,7 +159,7 @@ If this value is zero, kerning is turned off. Positive values turn on pair kerni
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

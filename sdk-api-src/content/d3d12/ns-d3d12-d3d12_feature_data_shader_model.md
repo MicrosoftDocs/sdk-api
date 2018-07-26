@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_shader_model.htm
 old-project: direct3d12
 ms.assetid: 17978B9A-D21B-4A8A-B367-12F4ABC43A94
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_FEATURE_DATA_SHADER_MODEL, D3D12_FEATURE_DATA_SHADER_MODEL structure, d3d12/D3D12_FEATURE_DATA_SHADER_MODEL, direct3d12.d3d12_feature_data_shader_model
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,12 +67,10 @@ Specifies one member of  <a href="https://msdn.microsoft.com/8C0674AF-CFDD-4511-
 
 
 
-
-        Refer to  the enumeration constant D3D12_FEATURE_SHADER_MODEL in the <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a> enumeration.
+Refer to  the enumeration constant D3D12_FEATURE_SHADER_MODEL in the <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a> enumeration.
       
 
-
-	When used with the <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">ID3D12Device::CheckFeatureSupport</a> function, the <b>HighestShaderModel</b> field should be initialized before invocation to the highest shader model that the application understands. After a successful invocation, the <b>HighestShaderModel</b> field will contain the highest shader model supported by the device that is no higher than the initial value.
+When used with the <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">ID3D12Device::CheckFeatureSupport</a> function, the <b>HighestShaderModel</b> field should be initialized before invocation to the highest shader model that the application understands. After a successful invocation, the <b>HighestShaderModel</b> field will contain the highest shader model supported by the device that is no higher than the initial value.
       
 
 

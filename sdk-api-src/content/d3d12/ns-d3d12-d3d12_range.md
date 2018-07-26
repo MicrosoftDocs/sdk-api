@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_range.htm
 old-project: direct3d12
 ms.assetid: E8A66EC7-DB20-475D-BCD1-6C164FF39D24
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_RANGE, D3D12_RANGE structure, d3d12/D3D12_RANGE, direct3d12.d3d12_range
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,15 +60,13 @@ Describes a memory range.
 
 ### -field Begin
 
-
-            The offset, in bytes, denoting the beginning of a memory range.
+The offset, in bytes, denoting the beginning of a memory range.
           
 
 
 ### -field End
 
-
-            The offset, in bytes, denoting the end of a memory range.
+The offset, in bytes, denoting the end of a memory range.
             <b>End</b> is one-past-the-end.
           
 
@@ -82,8 +80,7 @@ Describes a memory range.
         The size of the range is (<b>End</b> - <b>Begin</b>).
       
 
-
-        This structure is used by the <a href="https://msdn.microsoft.com/71E43B63-9C84-4E4B-A43D-92B958C8AAF5">Map</a> and <a href="https://msdn.microsoft.com/EB0E3936-47CC-4FDC-BF17-A506AC8E4C15">Unmap</a> methods.
+This structure is used by the <a href="https://msdn.microsoft.com/71E43B63-9C84-4E4B-A43D-92B958C8AAF5">Map</a> and <a href="https://msdn.microsoft.com/EB0E3936-47CC-4FDC-BF17-A506AC8E4C15">Unmap</a> methods.
       
 
 

@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_font_style.htm
 old-project: DirectWrite
 ms.assetid: e48a3b82-4a60-472d-8cb8-a6f63d7eeefc
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/23/2018
 ms.keywords: DWRITE_FONT_STYLE, DWRITE_FONT_STYLE enumeration [Direct Write], DWRITE_FONT_STYLE_ITALIC, DWRITE_FONT_STYLE_NORMAL, DWRITE_FONT_STYLE_OBLIQUE, directwrite.dwrite_font_style, dwrite/DWRITE_FONT_STYLE, dwrite/DWRITE_FONT_STYLE_ITALIC, dwrite/DWRITE_FONT_STYLE_NORMAL, dwrite/DWRITE_FONT_STYLE_OBLIQUE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,7 +108,7 @@ For Oblique, the slant is achieved by performing a shear transformation on the c
 
 The following illustration shows the normal, italic, and oblique font styles for the Palatino Linotype font. Notice how the italic font style has a more flowing and visually appealing appearance than the oblique font style, which is simply created by skewing the normal font style version of the text.
 
-<img alt="Illustration of normal, italic, and oblique font styles" src="./images/FontStyle_for_Palatino.png"/>
+<img alt="Illustration of normal, italic, and oblique font styles" src="images/FontStyle_for_Palatino.png"/>
 
 <div class="alert"><b>Note</b>   Values other than the ones defined in the enumeration are considered to be invalid, and they are rejected by font API functions.</div>
 <div> </div>

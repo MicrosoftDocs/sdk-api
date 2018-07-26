@@ -7,7 +7,7 @@ old-location: xaudio2\createhrtfapo.htm
 old-project: xaudio2
 ms.assetid: 24E3CD0D-FC0D-4B1B-961F-BE48935F7B71
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 07/23/2018
 ms.keywords: CreateHrtfApo, CreateHrtfApo function [XAudio2 Audio Mixing APIs], hrtfapoapi/CreateHrtfApo, xaudio2.createhrtfapo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates an instance of the <a href="https://msdn.microsoft.com/library/Ee415893(v=VS.85).aspx">IXAPO</a> interface for head-related transfer function (HRTF) processing.
+Creates an instance of the <a href="https://msdn.microsoft.com/21DA61D2-8EDE-496B-8513-D67121697FBA">IXAPO</a> interface for head-related transfer function (HRTF) processing.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Pointer to an <a href="https://msdn.microsoft.com/686A2203-A991-427F-9D41-F3C679
 
 ### -param xApo [out]
 
-The new instance of the <a href="https://msdn.microsoft.com/library/Ee415893(v=VS.85).aspx">IXAPO</a> interface.
+The new instance of the <a href="https://msdn.microsoft.com/21DA61D2-8EDE-496B-8513-D67121697FBA">IXAPO</a> interface.
 
 
 ## -returns
@@ -137,7 +137,7 @@ Windows 10 (XAudio2.9);
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee415893(v=VS.85).aspx">IXAPO</a>
+<a href="https://msdn.microsoft.com/21DA61D2-8EDE-496B-8513-D67121697FBA">IXAPO</a>
  
 
  

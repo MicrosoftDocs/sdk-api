@@ -4,10 +4,10 @@ title: IComponent2::GetResultViewType2
 author: windows-sdk-content
 description: The GetResultViewType2 method retrieves the result view type. This method supersedes the IComponent::GetResultViewType method.
 old-location: mmc\icomponent2_getresultviewtype2.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 687ddb0a-6e10-4553-9885-fd85bf8dd6ff
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: GetResultViewType2, GetResultViewType2 method [MMC], GetResultViewType2 method [MMC],IComponent2 interface, IComponent2 interface [MMC],GetResultViewType2 method, IComponent2.GetResultViewType2, IComponent2::GetResultViewType2, _slate_icomponent2_getresultviewtype2, mmc.icomponent2_getresultviewtype2, mmc/IComponent2::GetResultViewType2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ A value that specifies the snapin-provided unique identifier for the scope item.
 A pointer to the 
 <a href="https://msdn.microsoft.com/50357902-6999-4d65-8e12-81277b66d5ee">RESULT_VIEW_TYPE_INFO</a> structure for the result view. If your snap-in implements 
 <a href="https://msdn.microsoft.com/b9e67a37-c09d-46f3-896f-e75122256812">IComponent2</a>, the <b>pstrPersistableViewDescription</b> member of the <b>RESULT_VIEW_TYPE_INFO</b> structure must contain a valid view description string; otherwise, MMC will not initialize your snap-in. The <b>pstrPersistableViewDescription</b> member must be allocated by 
-<a href="https://msdn.microsoft.com/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>. The snap-in must not free <b>pstrPersistableViewDescription</b>, as it will be freed by MMC.
+<a href="_com_cotaskmemalloc">CoTaskMemAlloc</a>. The snap-in must not free <b>pstrPersistableViewDescription</b>, as it will be freed by MMC.
 
 
 ## -returns
@@ -92,7 +92,7 @@ During result view creation, MMC calls the snap-in's <b>IComponent2::GetResultVi
 <a href="https://msdn.microsoft.com/dee09c50-76f1-4186-846c-1cde3d05fd03">Restoring Result Views</a>.
 
 If the snap-in is implementing an OCX (ActiveX control) view, then the snap-in creates the OCX and provides MMC with the OCX 
-<a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer in the <a href="https://msdn.microsoft.com/50357902-6999-4d65-8e12-81277b66d5ee">RESULT_VIEW_TYPE_INFO</a> structure (specifically, the structure's <b>pUnkControl</b> member). The snap-in has control over the OCX creation, so the snap-in can address licensing or security issues as required. During the call to 
+<a href="_com_iunknown">IUnknown</a> pointer in the <a href="https://msdn.microsoft.com/50357902-6999-4d65-8e12-81277b66d5ee">RESULT_VIEW_TYPE_INFO</a> structure (specifically, the structure's <b>pUnkControl</b> member). The snap-in has control over the OCX creation, so the snap-in can address licensing or security issues as required. During the call to 
 <b>GetResultViewType2</b>, the snap-in can also initialize the OCX (the snap-in will not receive a <a href="https://msdn.microsoft.com/79256d4a-a936-419e-a953-80d743d05290">MMCN_INITOCX</a> notification).
 
 

@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_updatesubresource.htm
 old-project: direct3d11
 ms.assetid: 2d8ef5a2-204a-434d-918a-104419050233
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],UpdateSubresource method, ID3D11DeviceContext.UpdateSubresource, ID3D11DeviceContext::UpdateSubresource, UpdateSubresource, UpdateSubresource method [Direct3D 11], UpdateSubresource method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::UpdateSubresource, direct3d11.id3d11devicecontext_updatesubresource, f9813ce8-3ca5-fd5e-fac2-bd93631ecbc8
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,9 +121,9 @@ For a shader-constant buffer; set <i>pDstBox</i> to <b>NULL</b>. It is not possi
 A resource cannot be used as a destination if:
 
 <ul>
-<li>the resource is created with <a href="https://msdn.microsoft.com/library/Ff476259(v=VS.85).aspx">immutable</a> or <a href="https://msdn.microsoft.com/library/Ff476259(v=VS.85).aspx">dynamic</a> usage.</li>
+<li>the resource is created with <a href="d3d11_usage.htm">immutable</a> or <a href="d3d11_usage.htm">dynamic</a> usage.</li>
 <li>the resource is created as a depth-stencil resource.</li>
-<li>the resource is created with multisampling capability (see <a href="https://msdn.microsoft.com/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a>).</li>
+<li>the resource is created with multisampling capability (see <a href="https://msdn.microsoft.com/a8071d3c-dc78-43fe-84f6-421418e16b02">DXGI_SAMPLE_DESC</a>).</li>
 </ul>
 When <b>UpdateSubresource</b> returns, the application is free to change or even free the data pointed to by <i>pSrcData</i> because the method has already copied/snapped away the original contents.
 
@@ -137,7 +137,7 @@ The performance of <b>UpdateSubresource</b> depends on whether or not there is c
 <div> </div>
 To better understand the source row pitch and source depth pitch parameters, the following illustration shows a 3D volume texture.
 
-<img alt="Illustration of a 3D volume texture" src="./images/D3D10_pitches_conceptual.png"/>
+<img alt="Illustration of a 3D volume texture" src="images/D3D10_pitches_conceptual.png"/>
 
 Each block in this visual represents an element of data, and the size of each element is dependent on the resource's format. For example, if the resource format is DXGI_FORMAT_R32G32B32A32_FLOAT, the size of each element would be 128 bits, or 16 bytes. This 3D volume texture has a width of two, a height of three, and a depth of four.
 
@@ -155,7 +155,7 @@ In the case of this example 3D volume texture where the size of each element is 
 </ul>
 The following illustration shows the resource as it is laid out in memory.
 
-<img alt="Illustration of a 3D volume texture laid out in memory" src="./images/D3D10_pitches.png"/>
+<img alt="Illustration of a 3D volume texture laid out in memory" src="images/D3D10_pitches.png"/>
 
 For example, the following code snippet shows how to specify a destination region in a 2D texture. Assume the destination texture is 512x512 and the operation will copy the data pointed to by <i>pData</i> to  [(120,100)..(200,220)] in the destination texture. Also assume that <i>rowPitch</i> has been initialized with the proper value (as explained above). <b>front</b> and <b>back</b> are set to 0 and 1 respectively, because by having <b>front</b> equal to <b>back</b>, the box is technically empty.
 

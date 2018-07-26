@@ -7,7 +7,7 @@ old-location: wininet\privacygetzonepreferencew.htm
 old-project: wininet
 ms.assetid: 530a86a0-bb67-406a-be83-5f2b463a1aa1
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/20/2018
 ms.keywords: PrivacyGetZonePreferenceW, PrivacyGetZonePreferenceW function [WinINet], wininet.privacygetzonepreferencew, winineti/PrivacyGetZonePreferenceW
 ms.prod: windows
 ms.technology: windows-sdk

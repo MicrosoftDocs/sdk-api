@@ -85,11 +85,11 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365920(v=VS.85).aspx">GetBestInterface</a>
+<a href="_iphlp_getbestinterface">GetBestInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365924(v=VS.85).aspx">GetBestRoute</a>
+<a href="_iphlp_getbestroute">GetBestRoute</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_texture_layout.htm
 old-project: direct3d11
 ms.assetid: E7786550-99FC-4F8E-B93F-C2877C052EC2
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: D3D11_TEXTURE_LAYOUT, D3D11_TEXTURE_LAYOUT enumeration [Direct3D 11], D3D11_TEXTURE_LAYOUT_64K_STANDARD_SWIZZLE, D3D11_TEXTURE_LAYOUT_ROW_MAJOR, D3D11_TEXTURE_LAYOUT_UNDEFINED, d3d11_3/D3D11_TEXTURE_LAYOUT, d3d11_3/D3D11_TEXTURE_LAYOUT_64K_STANDARD_SWIZZLE, d3d11_3/D3D11_TEXTURE_LAYOUT_ROW_MAJOR, d3d11_3/D3D11_TEXTURE_LAYOUT_UNDEFINED, direct3d11.d3d11_texture_layout
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ This enumeration controls the swizzle pattern of default textures and enable map
 
 The standard swizzle formats applies within each page-sized chunk, and pages are laid out in linear order with respect to one another.  A 16-bit interleave pattern defines the conversion from pre-swizzled intra-page location to the post-swizzled location.  
 
-<img alt="Standard swizzle patterns" src="./images/d3d11_standardswizzle.png"/>
+<img alt="Standard swizzle patterns" src="images/d3d11_standardswizzle.png"/>
 To demonstrate, consider the 32bpp swizzle format above.  This is represented by the following interleave masks, where bits on the left are most-significant.
 
 <pre class="syntax" xml:space="preserve"><code>UINT xBytesMask = 1010 1010 1000 1111

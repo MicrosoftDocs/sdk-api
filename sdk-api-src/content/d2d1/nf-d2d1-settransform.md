@@ -4,10 +4,10 @@ title: SetTransform function
 author: windows-sdk-content
 description: Sets the transformation applied to the brush.
 old-location: direct2d\id2d1brush_settransform.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 57afadc1-88c9-4a5b-a83f-63c4c69182a7
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: ID2D1Brush::SetTransform, SetTransform, SetTransform methods [Direct2D], d2d1_1/SetTransform, direct2d.id2d1brush_settransform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ req.irql:
 <a href="https://msdn.microsoft.com/8feb644a-26ea-4718-abd4-6990ffd97a50">SetTransform(D2D1_MATRIX_3X2_F&)</a>
 </td>
 <td align="left" width="63%">
-
-    Sets the transformation applied to the brush.
+Sets the transformation applied to the brush.
 
 </td>
 </tr>
@@ -94,7 +93,7 @@ The following illustrations show the effect of using an <a href="https://msdn.mi
 
 The illustration on the right shows the result of transforming the <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a> so that its content is shifted 50 pixels to the right and 50 pixels down. The bitmap now fills the rectangle.
 
-<img alt="Illustration of two squares, one painted with a bitmap without a transformed brush and one painted with a transformed brush" src="./images/brushes_ovw_transform.png"/>
+<img alt="Illustration of two squares, one painted with a bitmap without a transformed brush and one painted with a transformed brush" src="images/brushes_ovw_transform.png"/>
 
 
 #### Examples

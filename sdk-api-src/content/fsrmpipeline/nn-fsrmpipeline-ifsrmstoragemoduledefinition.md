@@ -4,10 +4,10 @@ title: IFsrmStorageModuleDefinition
 author: windows-sdk-content
 description: Defines a local storage module that is used to read and write property values.
 old-location: fsrm\ifsrmstoragemoduledefinition.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 68ecb5e6-61b0-488f-b6bb-181f253de70e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: IFsrmStorageModuleDefinition, IFsrmStorageModuleDefinition interface [File Server Resource Manager], IFsrmStorageModuleDefinition interface [File Server Resource Manager],described, fs.ifsrmstoragemoduledefinition, fsrm.ifsrmstoragemoduledefinition, fsrm/IFsrmStorageModuleDefinition
 ms.prod: windows
 ms.technology: windows-sdk

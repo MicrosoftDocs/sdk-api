@@ -4,10 +4,10 @@ title: GetCurrentThreadToken function
 author: windows-sdk-content
 description: Retrieves a pseudo-handle that you can use as a shorthand way to refer to the impersonation token that was assigned to the current thread.
 old-location: security\getcurrentthreadtoken.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: D56FE64F-CFE0-4BE4-BBDA-DF0B79E3E86F
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: GetCurrentThreadToken, GetCurrentThreadToken function [Security], processthreadsapi/GetCurrentThreadToken, security.getcurrentthreadtoken
 ms.prod: windows
 ms.technology: windows-sdk

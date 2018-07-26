@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_setcategory.htm
 old-project: printdocs
 ms.assetid: 0c194731-0992-47c3-b069-fa9e1d16944b
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetCategory method, IXpsOMCoreProperties.SetCategory, IXpsOMCoreProperties::SetCategory, SetCategory, SetCategory method [XPS Documents and Packaging], SetCategory method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcategory, xpsobjectmodel/IXpsOMCoreProperties::SetCategory
 ms.prod: windows
 ms.technology: windows-sdk

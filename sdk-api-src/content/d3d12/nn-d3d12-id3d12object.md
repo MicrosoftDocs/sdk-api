@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12object.htm
 old-project: direct3d12
 ms.assetid: D2B2BC74-E89D-4D3A-8808-6E4A94992769
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12Object, ID3D12Object interface, ID3D12Object interface,described, d3d12/ID3D12Object, direct3d12.id3d12object
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,8 +82,7 @@ Gets application-defined data from a device object.
 <a href="https://msdn.microsoft.com/A1DEEB16-BF75-4391-ADF0-AC22EECBC71A">SetName</a>
 </td>
 <td align="left" width="63%">
-
-          Associates a name with the device object.
+Associates a name with the device object.
           This name is for use in debug diagnostics and tools.
         
 
@@ -94,8 +93,7 @@ Gets application-defined data from a device object.
 <a href="https://msdn.microsoft.com/1B3E8202-7CB3-4D9F-A1AE-70E66652773C">SetPrivateData</a>
 </td>
 <td align="left" width="63%">
-
-          Sets application-defined data to a device object and associates that data with an application-defined <b>GUID</b>.
+Sets application-defined data to a device object and associates that data with an application-defined <b>GUID</b>.
         
 
 </td>
@@ -105,8 +103,7 @@ Gets application-defined data from a device object.
 <a href="https://msdn.microsoft.com/B03B9420-7E85-4C1A-858C-37B20E4D9B52">SetPrivateDataInterface</a>
 </td>
 <td align="left" width="63%">
-
-          Associates an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>-derived interface with the device object and associates that interface with an application-defined <b>GUID</b>.
+Associates an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>-derived interface with the device object and associates that interface with an application-defined <b>GUID</b>.
         
 
 </td>

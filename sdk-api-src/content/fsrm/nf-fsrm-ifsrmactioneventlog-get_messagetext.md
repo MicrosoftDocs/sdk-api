@@ -4,10 +4,10 @@ title: IFsrmActionEventLog::get_MessageText
 author: windows-sdk-content
 description: Retrieves or sets the event text that is logged when the action runs.
 old-location: fsrm\ifsrmactioneventlog_messagetext.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 3a883032-808a-47f9-845e-50bad5424304
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: IFsrmActionEventLog interface [File Server Resource Manager],MessageText property, IFsrmActionEventLog.MessageText, IFsrmActionEventLog.get_MessageText, IFsrmActionEventLog::MessageText, IFsrmActionEventLog::get_MessageText, IFsrmActionEventLog::put_MessageText, MessageText property [File Server Resource Manager], MessageText property [File Server Resource Manager],IFsrmActionEventLog interface, fs.ifsrmactioneventlog_messagetext, fsrm.ifsrmactioneventlog_messagetext, fsrm/IFsrmActionEventLog::MessageText, fsrm/IFsrmActionEventLog::get_MessageText, fsrm/IFsrmActionEventLog::put_MessageText, get_MessageText
 ms.prod: windows
 ms.technology: windows-sdk

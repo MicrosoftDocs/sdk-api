@@ -7,7 +7,7 @@ old-location: shell\NRESARRAY.htm
 old-project: shell
 ms.assetid: 261338c2-8fb4-4d10-8392-f9f6254a30ed
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: "*LPNRESARRAY, LPNRESARRAY, LPNRESARRAY structure pointer [Windows Shell], NRESARRAY, NRESARRAY structure [Windows Shell], _NRESARRAY, _win32_NRESARRAY, shell.NRESARRAY, shlobj_core/LPNRESARRAY, shlobj_core/NRESARRAY"
 ms.prod: windows
 ms.technology: windows-sdk

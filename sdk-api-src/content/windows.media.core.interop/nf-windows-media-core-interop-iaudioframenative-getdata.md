@@ -7,7 +7,7 @@ old-location: winrt\iaudioframenative_getdata.htm
 old-project: WinRT
 ms.assetid: 4FA7CC9D-D379-4C08-8D4F-5301ECCDF372
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: GetData, GetData method [Windows Runtime], GetData method [Windows Runtime],IAudioFrameNative interface, IAudioFrameNative interface [Windows Runtime],GetData method, IAudioFrameNative.GetData, IAudioFrameNative.core, IAudioFrameNative::GetData, IAudioFrameNative::core, windows/IAudioFrameNative::GetData, winrt.iaudioframenative_getdata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ When this method returns successfully, contains the interface pointer requested 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK on successful completion. Returns E_NOINTERFACE if the requested interface can't be found.
 

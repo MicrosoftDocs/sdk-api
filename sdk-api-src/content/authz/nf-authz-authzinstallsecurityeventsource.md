@@ -4,10 +4,10 @@ title: AuthzInstallSecurityEventSource function
 author: windows-sdk-content
 description: Installs the specified source as a security event source.
 old-location: security\authzinstallsecurityeventsource.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 77cb5c6c-1634-4449-8d05-ce6357ad4e4b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: AuthzInstallSecurityEventSource, AuthzInstallSecurityEventSource function [Security], authz/AuthzInstallSecurityEventSource, security.authzinstallsecurityeventsource
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoot
 old-project: WinAuto
 ms.assetid: 3e64956d-5ab3-46b6-87db-4b0770c8f89a
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: GetEmbeddedFragmentRoots, GetEmbeddedFragmentRoots method [Windows Accessibility], GetEmbeddedFragmentRoots method [Windows Accessibility],IRawElementProviderFragment interface, IRawElementProviderFragment interface [Windows Accessibility],GetEmbeddedFragmentRoots method, IRawElementProviderFragment.GetEmbeddedFragmentRoots, IRawElementProviderFragment::GetEmbeddedFragmentRoots, uiauto.uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots, uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots, uiautomationcore/IRawElementProviderFragment::GetEmbeddedFragmentRoots, winauto.uiauto_IRawElementProviderFragment_GetEmbeddedFragmentRoots
 ms.prod: windows
 ms.technology: windows-sdk

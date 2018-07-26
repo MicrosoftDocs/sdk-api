@@ -7,7 +7,7 @@ old-location: xinput\xinputsetstate.htm
 old-project: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputSetState(DWORD,XINPUT_VIBRATION*@)
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/23/2018
 ms.keywords: XInputSetState, XInputSetState function [XInput Game Controller APIs], xinput.xinputsetstate, xinput/XInputSetState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,12 +64,12 @@ Sends data to a connected controller. This function is used to activate the vibr
 
 ### -param dwUserIndex [in]
 
-Index of the user's controller. Can be a value from 0 to 3. For information about how this value is determined and how the value maps to indicators on the controller, see <a href="https://msdn.microsoft.com/library/Ee417001(v=VS.85).aspx">Multiple Controllers</a>.
+Index of the user's controller. Can be a value from 0 to 3. For information about how this value is determined and how the value maps to indicators on the controller, see <a href="getting_started_with_xinput.htm">Multiple Controllers</a>.
 
 
 ### -param pVibration [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/Ee419273(v=VS.85).aspx">XINPUT_VIBRATION</a> structure containing the vibration information to send to the controller.
+Pointer to an <a href="https://msdn.microsoft.com/134A22DD-95DA-4270-AC42-93C7EF110A3A">XINPUT_VIBRATION</a> structure containing the vibration information to send to the controller.
 
 
 ## -returns
@@ -90,7 +90,7 @@ If the function fails, the return value is an error code defined in WinError.h. 
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419273(v=VS.85).aspx">XINPUT_VIBRATION</a>
+<a href="https://msdn.microsoft.com/134A22DD-95DA-4270-AC42-93C7EF110A3A">XINPUT_VIBRATION</a>
 
 
 
@@ -98,7 +98,7 @@ If the function fails, the return value is an error code defined in WinError.h. 
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419267(v=VS.85).aspx">XInputGetState</a>
+<a href="https://msdn.microsoft.com/D261219D-0175-4690-8F1F-BDAACE2E7424">XInputGetState</a>
  
 
  

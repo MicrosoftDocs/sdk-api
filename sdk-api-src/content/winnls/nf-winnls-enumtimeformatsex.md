@@ -7,7 +7,7 @@ old-location: intl\enumtimeformatsex.htm
 old-project: Intl
 ms.assetid: db2e297e-98db-4e34-b44c-c0ddcddf2a6e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: EnumTimeFormatsEx, EnumTimeFormatsEx function [Internationalization for Windows Applications], _win32_EnumTimeFormatsEx, intl.enumtimeformatsex, winnls/EnumTimeFormatsEx
 ms.prod: windows
 ms.technology: windows-sdk

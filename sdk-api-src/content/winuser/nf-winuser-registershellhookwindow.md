@@ -61,7 +61,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Registers a specified Shell window to receive certain messages for events or notifications that are useful to Shell applications.
 
-The event messages received are only those sent to the Shell window associated with the specified window's desktop. Many of the messages	are the same as those that can be received after calling the <a href="https://msdn.microsoft.com/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a> function and specifying <b>WH_SHELL</b> for the hook type. The difference with <b>RegisterShellHookWindow</b> is that the messages are received through the specified window's <a href="https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx">WindowProc</a> and not through a call back procedure.
+The event messages received are only those sent to the Shell window associated with the specified window's desktop. Many of the messages	are the same as those that can be received after calling the <a href="https://msdn.microsoft.com/66c96282-528c-4f57-acab-ae03178e4fe9">SetWindowsHookEx</a> function and specifying <b>WH_SHELL</b> for the hook type. The difference with <b>RegisterShellHookWindow</b> is that the messages are received through the specified window's <a href="https://msdn.microsoft.com/4bb1cc3d-78db-4546-8ae9-d29fc6ee8f7c">WindowProc</a> and not through a call back procedure.
 
 
 ## -parameters
@@ -99,14 +99,14 @@ Type: <strong>Type: <b>BOOL</b>
 
 
 
-As with normal window messages, the second parameter of the window procedure identifies the message as a <b>WM_SHELLHOOKMESSAGE</b>. However, for these Shell hook messages, the message value is not a pre-defined constant like other message IDs such as <a href="https://msdn.microsoft.com/library/ms647591(v=VS.85).aspx">WM_COMMAND</a>. The value must be obtained dynamically using a call to <a href="https://msdn.microsoft.com/library/ms644947(v=VS.85).aspx">RegisterWindowMessage</a> as shown here:
+As with normal window messages, the second parameter of the window procedure identifies the message as a <b>WM_SHELLHOOKMESSAGE</b>. However, for these Shell hook messages, the message value is not a pre-defined constant like other message IDs such as <a href="https://msdn.microsoft.com/5516098e-fd90-49c8-afb0-78164b028376">WM_COMMAND</a>. The value must be obtained dynamically using a call to <a href="https://msdn.microsoft.com/51ddc767-ffce-42bf-885a-24b9ee1b25f0">RegisterWindowMessage</a> as shown here:
 
                 
 
 <code>RegisterWindowMessage(TEXT("SHELLHOOK"));</code>
 
 This precludes handling these messages using a traditional switch statement which requires  ID values that are known at compile time.  For handling Shell hook messages, the normal practice is to code an If statement in the default section of your switch statement and then handle the message if the value of the message ID is the same as the value
-obtained from the <a href="https://msdn.microsoft.com/library/ms644947(v=VS.85).aspx">RegisterWindowMessage</a> call.
+obtained from the <a href="https://msdn.microsoft.com/51ddc767-ffce-42bf-885a-24b9ee1b25f0">RegisterWindowMessage</a> call.
 
 The following table describes the <i>wParam</i> and <i>lParam</i> parameter values passed to the window procedure for the Shell hook messages.
 
@@ -165,7 +165,7 @@ The following table describes the <i>wParam</i> and <i>lParam</i> parameter valu
 </tr>
 <tr>
 <td><b>HSHELL_APPCOMMAND</b></td>
-<td>The APPCOMMAND which has been unhandled by the application or other hooks. See <a href="https://msdn.microsoft.com/library/ms646275(v=VS.85).aspx">WM_APPCOMMAND</a> and use the <a href="https://msdn.microsoft.com/library/ms646247(v=VS.85).aspx">GET_APPCOMMAND_LPARAM</a> macro to retrieve this parameter.</td>
+<td>The APPCOMMAND which has been unhandled by the application or other hooks. See <a href="https://msdn.microsoft.com/ffcdfc44-dbfa-42d4-8749-b33bf0e4de0c">WM_APPCOMMAND</a> and use the <a href="https://msdn.microsoft.com/246eded0-fb43-4eb1-99d8-12079e4fe526">GET_APPCOMMAND_LPARAM</a> macro to retrieve this parameter.</td>
 </tr>
 <tr>
 <td><b>HSHELL_MONITORCHANGED                     </b></td>
@@ -188,7 +188,7 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644979(v=VS.85).aspx">DeregisterShellHookWindow</a>
+<a href="https://msdn.microsoft.com/e50cb960-9d47-4f92-ab46-f46b2ef7647a">DeregisterShellHookWindow</a>
 
 
 
@@ -200,15 +200,15 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
+<a href="https://msdn.microsoft.com/66c96282-528c-4f57-acab-ae03178e4fe9">SetWindowsHookEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644991(v=VS.85).aspx">ShellProc</a>
+<a href="https://msdn.microsoft.com/4c21e0d8-2529-4b04-ad45-762ca7f1e5ef">ShellProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644928(v=VS.85).aspx">Using Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/62b4616c-37bf-4d9f-8891-7010c7035d18">Using Messages and Message Queues</a>
 
 
 
@@ -216,7 +216,7 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633573(v=VS.85).aspx">WindowProc</a>
+<a href="https://msdn.microsoft.com/4bb1cc3d-78db-4546-8ae9-d29fc6ee8f7c">WindowProc</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessage_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_44h1_cpp.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IFaxIncomingMessage, IFaxIncomingMessage interface [Fax Service], IFaxIncomingMessage interface [Fax Service],described, _mfax_faxincomingmessage_cpp, fax._mfax_faxincomingmessage_cpp, faxcomex/IFaxIncomingMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,12 +53,12 @@ req.product: Internet Explorer 5
 
 Used by a fax client application to retrieve information about a received fax message in the archive of inbound faxes. The archive contains faxes received successfully by the fax service. The interface also includes methods to delete a message from the archive and to copy the Tagged Image File Format Class F (TIFF Class F) file associated with the fax message to a file on the local computer.
 
-The <b>IFaxIncomingMessage</b> interface is accessed through the <a href="https://msdn.microsoft.com/library/ms687474(v=VS.85).aspx">IFaxIncomingArchive</a> interface or <a href="https://msdn.microsoft.com/library/ms687519(v=VS.85).aspx">IFaxIncomingMessageIterator</a> interface.
+The <b>IFaxIncomingMessage</b> interface is accessed through the <a href="https://msdn.microsoft.com/0442fc06-20b8-4608-8532-c8901832f39b">IFaxIncomingArchive</a> interface or <a href="https://msdn.microsoft.com/f0b3071b-6936-4b19-873b-0ab28cfaea93">IFaxIncomingMessageIterator</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxIncomingMessage</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxIncomingMessage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxIncomingMessage</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxIncomingMessage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,10 +74,10 @@ The <b>IFaxIncomingMessage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms684905(v=VS.85).aspx">CopyTiff</a>
+<a href="https://msdn.microsoft.com/b48762b8-d556-497d-be91-bad3a4908a8d">CopyTiff</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms684905(v=VS.85).aspx">CopyTiff</a> method copies the TIFF Class F file associated with the inbound fax message to a file on the local computer.
+The <a href="https://msdn.microsoft.com/b48762b8-d556-497d-be91-bad3a4908a8d">CopyTiff</a> method copies the TIFF Class F file associated with the inbound fax message to a file on the local computer.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ The <a href="https://msdn.microsoft.com/86e1f59e-5abe-4734-a736-0ef71d8d3ce1">De
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/ms684807(v=VS.85).aspx">CallerId</a>
+<a href="https://msdn.microsoft.com/17904bd7-e63a-4ed3-94ee-eae2e2d96fb4">CallerId</a>
 
 
 </td>
@@ -110,7 +110,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/ms684807(v=VS.85).aspx">CallerId</a> property is a null-terminated string that identifies the calling device associated with the inbound fax message.
+The <a href="https://msdn.microsoft.com/17904bd7-e63a-4ed3-94ee-eae2e2d96fb4">CallerId</a> property is a null-terminated string that identifies the calling device associated with the inbound fax message.
 
 </td>
 </tr>
@@ -291,19 +291,19 @@ To create a <b>FaxIncomingMessage</b> object in C++, call the <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a>
+<a href="https://msdn.microsoft.com/ee546d4c-e580-4738-a5d2-0b10c5d8a1ab">FaxIncomingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms687474(v=VS.85).aspx">IFaxIncomingArchive</a>
+<a href="https://msdn.microsoft.com/0442fc06-20b8-4608-8532-c8901832f39b">IFaxIncomingArchive</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms687519(v=VS.85).aspx">IFaxIncomingMessageIterator</a>
+<a href="https://msdn.microsoft.com/f0b3071b-6936-4b19-873b-0ab28cfaea93">IFaxIncomingMessageIterator</a>
  
 
  

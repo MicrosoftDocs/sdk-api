@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ScrollPattern_ScrollConPat.htm
 old-project: WinAuto
 ms.assetid: fffed882-89db-47f1-8e3a-a2c8e11ac865
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: ScrollPattern_Scroll, ScrollPattern_Scroll function [Windows Accessibility], uiauto.uiauto_ScrollPattern_ScrollConPat, uiauto_ScrollPattern_ScrollConPat, uiautomationcoreapi/ScrollPattern_Scroll, winauto.uiauto_ScrollPattern_ScrollConPat
 ms.prod: windows
 ms.technology: windows-sdk

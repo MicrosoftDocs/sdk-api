@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationOrCondition.htm
 old-project: WinAuto
 ms.assetid: 323dedd5-2799-4fcc-bc8c-56b39ab7f882
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IUIAutomationOrCondition, IUIAutomationOrCondition interface [Windows Accessibility], IUIAutomationOrCondition interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationOrCondition, uiauto_IUIAutomationOrCondition, uiautomationclient/IUIAutomationOrCondition, winauto.uiauto_IUIAutomationOrCondition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setviewport.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setviewport.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: 69ed7b86-4dee-fd8c-4647-7e95842d559a, IDirect3DDevice9 interface [Direct3D 9],SetViewport method, IDirect3DDevice9.SetViewport, IDirect3DDevice9::SetViewport, SetViewport, SetViewport method [Direct3D 9], SetViewport method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetViewport, direct3d9.idirect3ddevice9__setviewport
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,16 +61,16 @@ Sets the viewport parameters for the device.
 
 ### -param pViewport [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Bb172632(v=VS.85).aspx">D3DVIEWPORT9</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/fb2c6048-f837-497d-8e4f-e18942d37899">D3DVIEWPORT9</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb172632(v=VS.85).aspx">D3DVIEWPORT9</a> structure, specifying the viewport parameters to set. 
+Pointer to a <a href="https://msdn.microsoft.com/fb2c6048-f837-497d-8e4f-e18942d37899">D3DVIEWPORT9</a> structure, specifying the viewport parameters to set. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, it will return D3DERR_INVALIDCALL. This will happen if pViewport is invalid, or if pViewport describes a region that cannot exist within the render target surface.
 
@@ -115,11 +115,11 @@ To draw multiple views within a scene, repeat the <b>IDirect3DDevice9::SetViewpo
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174420(v=VS.85).aspx">IDirect3DDevice9::GetViewport</a>
+<a href="https://msdn.microsoft.com/026da206-b2e7-421c-92f8-344fef7ad245">IDirect3DDevice9::GetViewport</a>
  
 
  

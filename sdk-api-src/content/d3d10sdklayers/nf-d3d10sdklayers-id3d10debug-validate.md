@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10debug_validate.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug_validate.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D10Debug interface [Direct3D 10],Validate method, ID3D10Debug.Validate, ID3D10Debug::Validate, Validate, Validate method [Direct3D 10], Validate method [Direct3D 10],ID3D10Debug interface, c86b1899-e23f-c78e-1175-217019325010, d3d10sdklayers/ID3D10Debug::Validate, direct3d10.id3d10debug_validate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ Check the validity of pipeline state.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -75,7 +75,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/lib
 
 
 
-When the <a href="https://msdn.microsoft.com/library/Bb205068(v=VS.85).aspx">debug layer</a> is turned on all draw functions will do this operation.
+When the <a href="https://msdn.microsoft.com/19c81383-6ac7-49ea-98a3-bf761a32ab40">debug layer</a> is turned on all draw functions will do this operation.
 
 
 
@@ -85,7 +85,7 @@ When the <a href="https://msdn.microsoft.com/library/Bb205068(v=VS.85).aspx">deb
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173516(v=VS.85).aspx">ID3D10Debug Interface</a>
+<a href="https://msdn.microsoft.com/2971189b-5df2-4d0a-ad7b-28dbfd6d0af3">ID3D10Debug Interface</a>
  
 
  

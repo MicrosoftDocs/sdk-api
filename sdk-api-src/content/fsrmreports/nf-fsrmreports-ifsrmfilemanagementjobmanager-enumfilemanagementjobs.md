@@ -4,10 +4,10 @@ title: IFsrmFileManagementJobManager::EnumFileManagementJobs
 author: windows-sdk-content
 description: Enumerates the list of existing file management jobs.
 old-location: fsrm\ifsrmfilemanagementjobmanager_enumfilemanagementjobs.htm
-old-project: fsrm
+old-project: Fsrm
 ms.assetid: 4af6f794-d9d4-4e03-9cd5-a4d8769888ca
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 ms.keywords: EnumFileManagementJobs, EnumFileManagementJobs method [File Server Resource Manager], EnumFileManagementJobs method [File Server Resource Manager],FsrmFileManagementJobManager class, EnumFileManagementJobs method [File Server Resource Manager],IFsrmFileManagementJobManager interface, FsrmFileManagementJobManager class [File Server Resource Manager],EnumFileManagementJobs method, IFsrmFileManagementJobManager interface [File Server Resource Manager],EnumFileManagementJobs method, IFsrmFileManagementJobManager.EnumFileManagementJobs, IFsrmFileManagementJobManager::EnumFileManagementJobs, fs.ifsrmfilemanagementjobmanager_enumfilemanagementjobs, fsrm.ifsrmfilemanagementjobmanager_enumfilemanagementjobs, fsrmreports/IFsrmFileManagementJobManager::EnumFileManagementJobs
 ms.prod: windows
 ms.technology: windows-sdk

@@ -149,7 +149,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/">context_handle</a>
+<a href="https://msdn.microsoft.com/ab1aee44-4add-4816-a7ef-38bbf7b38918">context_handle</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_resource_transition_barrier.htm
 old-project: direct3d12
 ms.assetid: 52C21198-827A-4E75-ADB8-DCA0204A4469
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_RESOURCE_TRANSITION_BARRIER, D3D12_RESOURCE_TRANSITION_BARRIER structure, d3d12/D3D12_RESOURCE_TRANSITION_BARRIER, direct3d12.d3d12_resource_transition_barrier
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Describes the transition of subresources between different usages.
+Describes the transition of subresources between different usages.
         
 
 
@@ -62,30 +61,26 @@ req.irql:
 
 ### -field pResource
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> object that represents the resource used in the transition.
+A pointer to the <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> object that represents the resource used in the transition.
           
 
 
 ### -field Subresource
 
-
-            The index of the subresource for the transition.
+The index of the subresource for the transition.
             Use the <b>D3D12_RESOURCE_BARRIER_ALL_SUBRESOURCES</b> flag ( 0xffffffff ) to transition all subresources in a resource at the same time.
           
 
 
 ### -field StateBefore
 
-
-            The "before" usages of the subresources, as a bitwise-OR'd combination of <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATES</a> enumeration constants.
+The "before" usages of the subresources, as a bitwise-OR'd combination of <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATES</a> enumeration constants.
           
 
 
 ### -field StateAfter
 
-
-            The "after" usages of the subresources, as a bitwise-OR'd combination of <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATES</a> enumeration constants.
+The "after" usages of the subresources, as a bitwise-OR'd combination of <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATES</a> enumeration constants.
           
 
 
@@ -93,8 +88,7 @@ req.irql:
 
 
 
-
-        This struct is used by the <b>Transition</b> member of the
+This struct is used by the <b>Transition</b> member of the
         <a href="https://msdn.microsoft.com/49F02D65-767E-4BA4-A90D-68AA2D709E09">D3D12_RESOURCE_BARRIER</a> struct.
       
 

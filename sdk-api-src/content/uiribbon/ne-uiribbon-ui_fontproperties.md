@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Specifies values that identify the font property state of a <a href="https://msdn.microsoft.com/library/Dd371673(v=VS.85).aspx">FontControl</a>, such as <b>Strikethrough</b>.
+Specifies values that identify the font property state of a <a href="https://msdn.microsoft.com/98eddab5-28cb-4b9d-a788-ee28dd6055b1">FontControl</a>, such as <b>Strikethrough</b>.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ The property is set.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/8499a096-aac3-4af3-a4c9-eebf53698744">Constants and Enumerations</a>
  
 
  

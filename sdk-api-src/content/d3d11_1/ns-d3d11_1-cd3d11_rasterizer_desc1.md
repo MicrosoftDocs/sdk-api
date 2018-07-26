@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_rasterizer_desc1.htm
 old-project: direct3d11
 ms.assetid: 7A0E526E-9352-408F-8B11-1B7A9FBC2BE1
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: CD3D11_RASTERIZER_DESC1, D3D11_RASTERIZER_DESC1, D3D11_RASTERIZER_DESC1 structure [Direct3D 11], d3d11_1/D3D11_RASTERIZER_DESC1, direct3d11.d3d11_rasterizer_desc1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,9 +131,9 @@ The sample count that is forced while UAV rendering or rasterizing. Valid values
 <li>Don't bind depth-stencil views.</li>
 <li>Disable depth testing.</li>
 <li>Ensure the shader doesn't output depth.</li>
-<li>If you have any render-target views bound (<a href="https://msdn.microsoft.com/library/Ff476085(v=VS.85).aspx">D3D11_BIND_RENDER_TARGET</a>) and <b>ForcedSampleCount</b> is greater than 1, ensure that every render target has only a single sample.</li>
+<li>If you have any render-target views bound (<a href="d3d11_bind_flag.htm">D3D11_BIND_RENDER_TARGET</a>) and <b>ForcedSampleCount</b> is greater than 1, ensure that every render target has only a single sample.</li>
 <li>Don't operate the shader at sample frequency. Therefore, <a href="https://msdn.microsoft.com/e57cdb67-90b6-4d5d-967b-5de3a9bbaf78">ID3D11ShaderReflection::IsSampleFrequencyShader</a> returns <b>FALSE</b>.</li>
-</ul>Otherwise, rendering behavior is undefined. For info about how to configure depth-stencil, see <a href="https://msdn.microsoft.com/library/Bb205074(v=VS.85).aspx">Configuring Depth-Stencil Functionality</a>.</div>
+</ul>Otherwise, rendering behavior is undefined. For info about how to configure depth-stencil, see <a href="https://msdn.microsoft.com/e8f52d5f-266f-4e2c-b38d-d7fd9e27fe1f">Configuring Depth-Stencil Functionality</a>.</div>
 <div> </div>
 
 #### - FrontCounterClockwise
@@ -224,7 +224,7 @@ If you do not specify some rasterizer state,  the Direct3D runtime uses the foll
 </table>
  
 
-<div class="alert"><b>Note</b>  For <a href="https://msdn.microsoft.com/library/Ff476876(v=VS.85).aspx">feature levels</a> 9.1, 9.2, 9.3, and 10.0, if you set <b>MultisampleEnable</b> to <b>FALSE</b>, the runtime renders all points, lines, and triangles without anti-aliasing even for render targets with a sample count greater than 1. For feature levels 10.1 and higher, the setting of <b>MultisampleEnable</b> has no effect on points and triangles with regard to MSAA and impacts only the selection of the line-rendering algorithm as shown in this table:</div>
+<div class="alert"><b>Note</b>  For <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature levels</a> 9.1, 9.2, 9.3, and 10.0, if you set <b>MultisampleEnable</b> to <b>FALSE</b>, the runtime renders all points, lines, and triangles without anti-aliasing even for render targets with a sample count greater than 1. For feature levels 10.1 and higher, the setting of <b>MultisampleEnable</b> has no effect on points and triangles with regard to MSAA and impacts only the selection of the line-rendering algorithm as shown in this table:</div>
 <div> </div>
 
 <table>
@@ -258,7 +258,7 @@ If you do not specify some rasterizer state,  the Direct3D runtime uses the foll
 
 
 
-The settings of the <b>MultisampleEnable</b> and <b>AntialiasedLineEnable</b> members apply only to multisample antialiasing (MSAA) render targets (that is, render targets with sample counts greater than 1). Because of the differences in <a href="https://msdn.microsoft.com/library/Ff476876(v=VS.85).aspx">feature-level</a> behavior and as long as you aren’t performing any line drawing or don’t mind that lines render as quadrilaterals, we recommend that you always set <b>MultisampleEnable</b> to <b>TRUE</b> whenever you render on MSAA render targets.
+The settings of the <b>MultisampleEnable</b> and <b>AntialiasedLineEnable</b> members apply only to multisample antialiasing (MSAA) render targets (that is, render targets with sample counts greater than 1). Because of the differences in <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature-level</a> behavior and as long as you aren’t performing any line drawing or don’t mind that lines render as quadrilaterals, we recommend that you always set <b>MultisampleEnable</b> to <b>TRUE</b> whenever you render on MSAA render targets.
 
 
 

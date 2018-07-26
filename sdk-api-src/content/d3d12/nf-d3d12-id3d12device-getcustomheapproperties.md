@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_getcustomheapproperties.htm
 old-project: direct3d12
 ms.assetid: FD1A7C77-24C3-49D5-8F20-01D5FF7FC895
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetCustomHeapProperties, GetCustomHeapProperties method, GetCustomHeapProperties method,ID3D12Device interface, ID3D12Device interface,GetCustomHeapProperties method, ID3D12Device.GetCustomHeapProperties, ID3D12Device::GetCustomHeapProperties, d3d12/ID3D12Device::GetCustomHeapProperties, direct3d12.id3d12device_getcustomheapproperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-        Divulges the equivalent custom heap properties that are used for non-custom heap types, based on the adapter's architectural properties.
+Divulges the equivalent custom heap properties that are used for non-custom heap types, based on the adapter's architectural properties.
       
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b>UINT</b>
 
-
-          For single-GPU operation, set this to zero.
+For single-GPU operation, set this to zero.
           If there are multiple GPU nodes, set a bit to identify the node (the  device's physical adapter).
           Each bit in the mask corresponds to a single node.
           Only 1 bit must be set.
@@ -77,8 +75,7 @@ Type: <b>UINT</b>
 
 Type: <b><a href="https://msdn.microsoft.com/5B1EA8A6-BD59-4B92-B6C4-A5C26D0B16D4">D3D12_HEAP_TYPE</a></b>
 
-
-          A <a href="https://msdn.microsoft.com/5B1EA8A6-BD59-4B92-B6C4-A5C26D0B16D4">D3D12_HEAP_TYPE</a>-typed value that specifies the heap to get properties for.
+A <a href="https://msdn.microsoft.com/5B1EA8A6-BD59-4B92-B6C4-A5C26D0B16D4">D3D12_HEAP_TYPE</a>-typed value that specifies the heap to get properties for.
           D3D12_HEAP_TYPE_CUSTOM is not supported as a parameter value.
         
 
@@ -89,13 +86,11 @@ Type: <b><a href="https://msdn.microsoft.com/5B1EA8A6-BD59-4B92-B6C4-A5C26D0B16D
 
 Type: <b><a href="https://msdn.microsoft.com/0A197D3D-67F4-46BB-8578-15E05DF46067">D3D12_HEAP_PROPERTIES</a></b>
 
-
-            Returns a <a href="https://msdn.microsoft.com/0A197D3D-67F4-46BB-8578-15E05DF46067">D3D12_HEAP_PROPERTIES</a> structure that provides properties for the specified heap.
+Returns a <a href="https://msdn.microsoft.com/0A197D3D-67F4-46BB-8578-15E05DF46067">D3D12_HEAP_PROPERTIES</a> structure that provides properties for the specified heap.
             The <b>Type</b> member of the returned D3D12_HEAP_PROPERTIES is always D3D12_HEAP_TYPE_CUSTOM.
           
 
-
-            When <a href="https://msdn.microsoft.com/FA16A260-3CC9-4F32-A97B-8A561A01C138">D3D12_FEATURE_DATA_ARCHITECTURE</a>::UMA is FALSE, the returned D3D12_HEAP_PROPERTIES members convert as follows:
+When <a href="https://msdn.microsoft.com/FA16A260-3CC9-4F32-A97B-8A561A01C138">D3D12_FEATURE_DATA_ARCHITECTURE</a>::UMA is FALSE, the returned D3D12_HEAP_PROPERTIES members convert as follows:
           
 
 <table>
@@ -121,8 +116,7 @@ Type: <b><a href="https://msdn.microsoft.com/0A197D3D-67F4-46BB-8578-15E05DF4606
 </table>
  
 
-
-            When D3D12_FEATURE_DATA_ARCHITECTURE::UMA is TRUE and D3D12_FEATURE_DATA_ARCHITECTURE::CacheCoherentUMA is FALSE, the returned D3D12_HEAP_PROPERTIES members convert as follows:
+When D3D12_FEATURE_DATA_ARCHITECTURE::UMA is TRUE and D3D12_FEATURE_DATA_ARCHITECTURE::CacheCoherentUMA is FALSE, the returned D3D12_HEAP_PROPERTIES members convert as follows:
           
 
 <table>
@@ -148,8 +142,7 @@ Type: <b><a href="https://msdn.microsoft.com/0A197D3D-67F4-46BB-8578-15E05DF4606
 </table>
  
 
-
-            When D3D12_FEATURE_DATA_ARCHITECTURE::UMA is TRUE and D3D12_FEATURE_DATA_ARCHITECTURE::CacheCoherentUMA is TRUE, the returned D3D12_HEAP_PROPERTIES members convert as follows:
+When D3D12_FEATURE_DATA_ARCHITECTURE::UMA is TRUE and D3D12_FEATURE_DATA_ARCHITECTURE::CacheCoherentUMA is TRUE, the returned D3D12_HEAP_PROPERTIES members convert as follows:
           
 
 <table>

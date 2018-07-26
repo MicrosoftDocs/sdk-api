@@ -7,7 +7,7 @@ old-location: shell\INamespaceWalkCB_InitializeProgressDialog.htm
 old-project: shell
 ms.assetid: db105026-5639-4e4e-8146-a14cdb84c48e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: INamespaceWalkCB interface [Windows Shell],InitializeProgressDialog method, INamespaceWalkCB.InitializeProgressDialog, INamespaceWalkCB::InitializeProgressDialog, InitializeProgressDialog, InitializeProgressDialog method [Windows Shell], InitializeProgressDialog method [Windows Shell],INamespaceWalkCB interface, _win32_INamespaceWalkCB_InitializeProgressDialog, shell.INamespaceWalkCB_InitializeProgressDialog, shobjidl_core/INamespaceWalkCB::InitializeProgressDialog
 ms.prod: windows
 ms.technology: windows-sdk

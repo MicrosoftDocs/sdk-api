@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__GetViewBorderRect.htm
 old-project: shell
 ms.assetid: 62ede825-a4f3-47bc-a9dd-9b651bde1ec5
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_GetViewBorderRect method, IBrowserService2._GetViewBorderRect, IBrowserService2::_GetViewBorderRect, _GetViewBorderRect, _GetViewBorderRect method [Windows Shell], _GetViewBorderRect method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_GetViewBorderRect, shell.IBrowserService2__GetViewBorderRect, zone_IBrowserService2__GetViewBorderRect
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10shaderreflectiontype_getdesc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflectiontype_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10ShaderReflectionType interface, ID3D10ShaderReflectionType interface [Direct3D 10],GetDesc method, ID3D10ShaderReflectionType.GetDesc, ID3D10ShaderReflectionType::GetDesc, d3d10shader/ID3D10ShaderReflectionType::GetDesc, direct3d10.id3d10shaderreflectiontype_getdesc, e11b1daf-b201-1efd-a110-5cde3866d456
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,18 +60,18 @@ Get the description of a shader-reflection-variable type.
 
 ### -param pDesc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172439(v=VS.85).aspx">D3D10_SHADER_TYPE_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/bb52dbcd-d735-4ddf-a99b-670d21e17acf">D3D10_SHADER_TYPE_DESC</a>*</b>
 
-A pointer to a shader-type description (see <a href="https://msdn.microsoft.com/library/Bb172439(v=VS.85).aspx">D3D10_SHADER_TYPE_DESC</a>).
+A pointer to a shader-type description (see <a href="https://msdn.microsoft.com/bb52dbcd-d735-4ddf-a99b-670d21e17acf">D3D10_SHADER_TYPE_DESC</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -81,7 +81,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/library/Bb20527
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb173840(v=VS.85).aspx">ID3D10ShaderReflectionType Interface</a>
+<a href="https://msdn.microsoft.com/3a2d087d-0a66-459b-aace-f750fe3c96ba">ID3D10ShaderReflectionType Interface</a>
  
 
  

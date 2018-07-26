@@ -4,10 +4,10 @@ title: IStringTable
 author: windows-sdk-content
 description: The IStringTable interface is introduced in MMC 1.1.
 old-location: mmc\istringtable.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 3b4cfc92-4f50-4b62-bb2c-77c8e0e003da
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: IStringTable, IStringTable interface [MMC], IStringTable interface [MMC],described, _slate_istringtable, mmc.istringtable, mmc/IStringTable
 ms.prod: windows
 ms.technology: windows-sdk

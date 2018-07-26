@@ -4,10 +4,10 @@ title: D2D1_RENDER_TARGET_PROPERTIES
 author: windows-sdk-content
 description: Contains rendering options (hardware or software), pixel format, DPI information, remoting options, and Direct3D support requirements for a render target.
 old-location: direct2d\D2D1_RENDER_TARGET_PROPERTIES.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: 360900bd-1353-4a92-865c-ad34d5e98123
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: D2D1_RENDER_TARGET_PROPERTIES, D2D1_RENDER_TARGET_PROPERTIES structure [Direct2D], d2d1/D2D1_RENDER_TARGET_PROPERTIES, direct2d.D2D1_RENDER_TARGET_PROPERTIES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-    Contains rendering options (hardware or software), pixel format, DPI information, remoting options, and Direct3D support requirements for a render target. 
+Contains rendering options (hardware or software), pixel format, DPI information, remoting options, and Direct3D support requirements for a render target. 
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturerequest_getsigninglocale.htm
 old-project: printdocs
 ms.assetid: 76b2d0a5-2d62-455d-8822-88ca14a497ae
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: GetSigningLocale, GetSigningLocale method [XPS Documents and Packaging], GetSigningLocale method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetSigningLocale method, IXpsSignatureRequest.GetSigningLocale, IXpsSignatureRequest::GetSigningLocale, xps.ixpssignaturerequest_getsigninglocale, xpsdigitalsignature/IXpsSignatureRequest::GetSigningLocale
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,7 +118,7 @@ The method succeeded.
 
 
 
-This method allocates the memory used by the string that is returned in <i>place</i>.  If <i>place</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>place</i>.  If <i>place</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

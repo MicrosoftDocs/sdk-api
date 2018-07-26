@@ -7,7 +7,7 @@ old-location: wininet\internetgetpersitecookiedecision.htm
 old-project: wininet
 ms.assetid: 04fa4c33-077c-4b16-8170-c3770783c98a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/20/2018
 ms.keywords: InternetGetPerSiteCookieDecision, InternetGetPerSiteCookieDecision function [WinINet], InternetGetPerSiteCookieDecisionA, InternetGetPerSiteCookieDecisionW, wininet.internetgetpersitecookiedecision, wininet/InternetGetPerSiteCookieDecision, wininet/InternetGetPerSiteCookieDecisionA, wininet/InternetGetPerSiteCookieDecisionW
 ms.prod: windows
 ms.technology: windows-sdk

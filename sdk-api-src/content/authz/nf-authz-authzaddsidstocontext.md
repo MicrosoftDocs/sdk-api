@@ -4,10 +4,10 @@ title: AuthzAddSidsToContext function
 author: windows-sdk-content
 description: Creates a copy of an existing context and appends a given set of security identifiers (SIDs) and restricted SIDs.
 old-location: security\authzaddsidstocontext.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 4744013b-7f2e-4ebb-8944-10ffcc6006d0
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: AuthzAddSidsToContext, AuthzAddSidsToContext function [Security], _win32_authzaddsidstocontext, authz/AuthzAddSidsToContext, security.authzaddsidstocontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,7 +118,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa373557(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

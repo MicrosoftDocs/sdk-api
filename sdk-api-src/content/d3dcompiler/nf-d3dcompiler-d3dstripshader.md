@@ -7,7 +7,7 @@ old-location: direct3dhlsl\d3dstripshader.htm
 old-project: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dstripshader.htm
 ms.author: windowssdkdev
-ms.date: 06/18/2018
+ms.date: 07/23/2018
 ms.keywords: 3320d273-7542-f3d8-0828-2c357608a8c8, D3DStripShader, D3DStripShader function [HLSL], d3dcompiler/D3DStripShader, direct3dhlsl.d3dstripshader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ Length of <i>pSrcData</i>.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Strip flag options, represented by <a href="https://msdn.microsoft.com/library/Dd607325(v=VS.85).aspx">D3DCOMPILER_STRIP_FLAGS</a>.
+Strip flag options, represented by <a href="https://msdn.microsoft.com/44e2af42-f5db-4206-aa00-37d070b2ca3b">D3DCOMPILER_STRIP_FLAGS</a>.
 
 
 ### -param ppStrippedBlob [out]

@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2voicecallback_interface_onvoiceerror.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnVoiceError(void,HRESULT)
 ms.author: windowssdkdev
-ms.date: 04/23/2018
+ms.date: 07/23/2018
 ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnVoiceError method, IXAudio2VoiceCallback.OnVoiceError, IXAudio2VoiceCallback::OnVoiceError, OnVoiceError, OnVoiceError method [XAudio2 Audio Mixing APIs], OnVoiceError method [XAudio2 Audio Mixing APIs],IXAudio2VoiceCallback interface, xaudio2.ixaudio2voicecallback_interface_onvoiceerror, xaudio2/IXAudio2VoiceCallback::OnVoiceError
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,12 +61,10 @@ Called when a critical error occurs during voice processing.
 
 ### -param pBufferContext
 
-
-Context pointer that was assigned to the <b>pContext</b> member of the <a href="https://msdn.microsoft.com/library/Ee419228(v=VS.85).aspx">XAUDIO2_BUFFER</a> structure when the buffer was submitted.
+Context pointer that was assigned to the <b>pContext</b> member of the <a href="https://msdn.microsoft.com/b6c2a08b-6abb-4e6a-8acb-6f8983aef95f">XAUDIO2_BUFFER</a> structure when the buffer was submitted.
 
 
 ### -param Error
-
 
 The HRESULT code of the error encountered.
 
@@ -84,7 +82,7 @@ This method does not return a value.
 
 
 
-<b>OnVoiceError</b> is called in the event of an error during voice processing, such as a hardware XMA decoder error on the Xbox 360. The arguments report which buffer was being processed at the time of the error, and its HRESULT code. If the error is not recoverable by destroying and re-creating the voice, the <a href="https://msdn.microsoft.com/library/Ee418461(v=VS.85).aspx">OnCriticalError</a> engine callback will be called as well. 
+<b>OnVoiceError</b> is called in the event of an error during voice processing, such as a hardware XMA decoder error on the Xbox 360. The arguments report which buffer was being processed at the time of the error, and its HRESULT code. If the error is not recoverable by destroying and re-creating the voice, the <a href="https://msdn.microsoft.com/AA899287-E1E3-473A-8A09-4A700D1A0457">OnCriticalError</a> engine callback will be called as well. 
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
@@ -102,7 +100,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee415919(v=VS.85).aspx">IXAudio2VoiceCallback</a>
+<a href="https://msdn.microsoft.com/FF78727D-16AE-40CB-BDE0-664687914FC0">IXAudio2VoiceCallback</a>
 
 
 

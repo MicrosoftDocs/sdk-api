@@ -7,7 +7,7 @@ old-location: intl\scriptpositionsingleglyph.htm
 old-project: Intl
 ms.assetid: 8dc776a9-fdde-4982-a2ca-e4384615bc47
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: ScriptPositionSingleGlyph, ScriptPositionSingleGlyph function [Internationalization for Windows Applications], _win32_ScriptPositionSingleGlyph, intl.scriptpositionsingleglyph, usp10/ScriptPositionSingleGlyph
 ms.prod: windows
 ms.technology: windows-sdk
@@ -148,7 +148,7 @@ A typical use of this function is the slight adjustment of the margin to account
 
 The following examples demonstrate this effect. The first example shows strict alignment; the next two examples show an adjustment of the initial "T" to the left. The adjustments are by one pixel and two pixels, respectively. The magnified images to the right show how the "T" pushes slightly farther into the left margin in each successive case.
 
-<img alt="Illustration showing the same block of text three times, with enlargements of each showing slightly different alignment" border="" src="./images/HAlign.gif"/>
+<img alt="Illustration showing the same block of text three times, with enlargements of each showing slightly different alignment" border="" src="images/HAlign.gif"/>
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 

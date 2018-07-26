@@ -7,7 +7,7 @@ old-location: of\iofflinefilesitem.htm
 old-project: offlinefiles
 ms.assetid: 870cf4c4-e757-429d-b6cc-c136ed5aa10e
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/23/2018
 ms.keywords: IOfflineFilesItem, IOfflineFilesItem interface [Offline Files], IOfflineFilesItem interface [Offline Files],described, cscobj/IOfflineFilesItem, of.iofflinefilesitem
 ms.prod: windows
 ms.technology: windows-sdk

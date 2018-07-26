@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11_trace_value.htm
 old-project: direct3d11
 ms.assetid: 15AFA648-DCAC-42A1-9606-6E292E92C217
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: D3D11_TRACE_VALUE, D3D11_TRACE_VALUE structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_VALUE, direct3d11.d3d11_trace_value
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,12 +60,10 @@ Describes a trace value.
 
 ### -field Bits
 
-
-              An array of bits that make up the trace value. The [0] element is X.
+An array of bits that make up the trace value. The [0] element is X.
             
 
-<div class="alert"><b>Note</b>  
-              This member can hold <b>float</b>, <b>UINT</b>, or <b>INT</b> data.
+<div class="alert"><b>Note</b>  This member can hold <b>float</b>, <b>UINT</b>, or <b>INT</b> data.
               The elements are specified as <b>UINT</b> rather than using a union to minimize the risk of x86 SNaN-&gt;QNaN quashing during float assignment.
               If the bits are displayed, they can be interpreted as <b>float</b> at the last moment.
             </div>
@@ -73,8 +71,7 @@ Describes a trace value.
 
 ### -field ValidMask
 
-
-            A combination of the following component values that are combined by using a bitwise <b>OR</b> operation.
+A combination of the following component values that are combined by using a bitwise <b>OR</b> operation.
             The resulting value specifies the component trace mask.
             
 
@@ -110,8 +107,7 @@ Ignore unmasked values, particularly if deltas are accumulated.
 
 
 
-
-        This API requires the Windows Software Development Kit (SDK) for Windows 8.
+This API requires the Windows Software Development Kit (SDK) for Windows 8.
       
 
 

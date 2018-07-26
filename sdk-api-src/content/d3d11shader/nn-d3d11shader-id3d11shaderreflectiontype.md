@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11shaderreflectiontype.htm
 old-project: direct3d11
 ms.assetid: 04520be2-2491-4f10-988a-e203659efddf
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 369c707d-0441-c514-603f-48f54b69b778, ID3D11ShaderReflectionType, ID3D11ShaderReflectionType interface [Direct3D 11], ID3D11ShaderReflectionType interface [Direct3D 11],described, d3d11shader/ID3D11ShaderReflectionType, direct3d11.id3d11shaderreflectiontype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -174,8 +174,7 @@ Indicates whether a variable is of the specified type.
 
 
 
-
-            The get a shader-reflection-type interface, call <a href="https://msdn.microsoft.com/cfabd55c-0707-4221-b99e-64ef226c917e">ID3D11ShaderReflectionVariable::GetType</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
+The get a shader-reflection-type interface, call <a href="https://msdn.microsoft.com/cfabd55c-0707-4221-b99e-64ef226c917e">ID3D11ShaderReflectionVariable::GetType</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
           
 
 

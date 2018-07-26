@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_info_queue_filter.htm
 old-project: direct3d12
 ms.assetid: 5CD64E71-8530-43FB-B441-25C61ED6F317
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_INFO_QUEUE_FILTER, D3D12_INFO_QUEUE_FILTER structure, d3d12sdklayers/D3D12_INFO_QUEUE_FILTER, direct3d12.d3d12_info_queue_filter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Debug message filter; contains a lists of message types to allow or deny.
+Debug message filter; contains a lists of message types to allow or deny.
 
 
 ## -struct-fields
@@ -61,8 +60,7 @@ req.irql:
 
 ### -field AllowList
 
-
-            Specifies types of messages that you want to allow. See <a href="https://msdn.microsoft.com/079494EC-3FC3-490D-B2BC-0FBD976ECC97">D3D12_INFO_QUEUE_FILTER_DESC</a>.
+Specifies types of messages that you want to allow. See <a href="https://msdn.microsoft.com/079494EC-3FC3-490D-B2BC-0FBD976ECC97">D3D12_INFO_QUEUE_FILTER_DESC</a>.
 
 
           
@@ -70,8 +68,7 @@ req.irql:
 
 ### -field DenyList
 
-
-            Specifies types of messages that you want to deny.
+Specifies types of messages that you want to deny.
 
 
           
@@ -81,8 +78,7 @@ req.irql:
 
 
 
-
-          For use with an <a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a> Interface.
+For use with an <a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a> Interface.
 
 
 

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12functionreflection_getconstantbufferbyindex.htm
 old-project: direct3d12
 ms.assetid: 4B953072-DEF0-4A30-93A1-247B0C2CAFA3
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: GetConstantBufferByIndex, GetConstantBufferByIndex method, GetConstantBufferByIndex method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetConstantBufferByIndex method, ID3D12FunctionReflection.GetConstantBufferByIndex, ID3D12FunctionReflection::GetConstantBufferByIndex, d3d12shader/ID3D12FunctionReflection::GetConstantBufferByIndex, direct3d12.id3d12functionreflection_getconstantbufferbyindex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ Zero-based index.
 
 Type: <b><a href="https://msdn.microsoft.com/4102AF77-3EC7-42CD-8B9C-6D0CC999529A">ID3D12ShaderReflectionConstantBuffer</a>*</b>
 
-
-            A pointer to a <a href="https://msdn.microsoft.com/4102AF77-3EC7-42CD-8B9C-6D0CC999529A">ID3D12ShaderReflectionConstantBuffer</a> interface that represents the constant buffer.
+A pointer to a <a href="https://msdn.microsoft.com/4102AF77-3EC7-42CD-8B9C-6D0CC999529A">ID3D12ShaderReflectionConstantBuffer</a> interface that represents the constant buffer.
           
 
 
@@ -82,8 +81,7 @@ Type: <b><a href="https://msdn.microsoft.com/4102AF77-3EC7-42CD-8B9C-6D0CC999529
 
 
 
-
-        A constant buffer supplies either scalar constants or texture constants to a shader.
+A constant buffer supplies either scalar constants or texture constants to a shader.
         A shader can use one or more constant buffers.
         For best performance, separate constants into buffers based on the frequency they are updated.
       

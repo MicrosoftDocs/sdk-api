@@ -7,7 +7,7 @@ old-location: shell\FolderItems3_Object.htm
 old-project: shell
 ms.assetid: e8ffe325-e6ae-4fa0-9824-22721c2d97c8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: FolderItems3, FolderItems3 object [Windows Shell], FolderItems3 object [Windows Shell],described, _win32_FolderItems3_Object, shell.FolderItems3_Object, shldisp/FolderItems3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ The <b>FolderItems3</b> object has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Hh707480(v=VS.85).aspx">Filter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn932766">Filter</a>
 </td>
 <td align="left" width="63%">
 Sets a wildcard filter to apply to the items returned.

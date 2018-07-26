@@ -7,7 +7,7 @@ old-location: winprog\_invalidatename.htm
 old-project: devnotes
 ms.assetid: 86c6eccf-5c4a-421b-b8e2-762ea5b77bf3
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: InvalidateName, InvalidateName function [Windows API], filehc/InvalidateName, winprog._invalidatename
 ms.prod: windows
 ms.technology: windows-sdk

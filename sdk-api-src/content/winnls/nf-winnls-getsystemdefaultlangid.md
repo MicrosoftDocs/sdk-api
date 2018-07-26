@@ -7,7 +7,7 @@ old-location: intl\getsystemdefaultlangid.htm
 old-project: Intl
 ms.assetid: cf9d2f64-a8ad-46f8-9e91-a927b6b3ce08
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: GetSystemDefaultLangID, GetSystemDefaultLangID function [Internationalization for Windows Applications], _win32_GetSystemDefaultLangID, intl.getsystemdefaultlangid, winnls/GetSystemDefaultLangID
 ms.prod: windows
 ms.technology: windows-sdk

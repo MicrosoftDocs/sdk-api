@@ -4,10 +4,10 @@ title: IMsmConfigurableItem::get_DisplayName
 author: windows-sdk-content
 description: The DisplayName property of the ConfigurableItem object returns the value from the DisplayName column of the ModuleConfiguration table.
 old-location: setup\configurableitem_displayname.htm
-old-project: msi
+old-project: Msi
 ms.assetid: f2025bab-73b0-46d2-a276-0ad17fdd9783
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: ConfigurableItem object,DisplayName property, ConfigurableItem.DisplayName, DisplayName property, DisplayName property,ConfigurableItem object, IMsmConfigurableItem.get_DisplayName, IMsmConfigurableItem::get_DisplayName, _msi_displayname_property, get_DisplayName, setup.configurableitem_displayname
 ms.prod: windows
 ms.technology: windows-sdk

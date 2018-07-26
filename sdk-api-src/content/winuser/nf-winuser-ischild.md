@@ -106,7 +106,7 @@ If the window is not a child or descendant window of the specified parent window
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633528(v=VS.85).aspx">IsWindow</a>
+<a href="https://msdn.microsoft.com/bd70f81a-e576-4937-bd9b-eac2939b2817">IsWindow</a>
 
 
 
@@ -114,7 +114,7 @@ If the window is not a child or descendant window of the specified parent window
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633541(v=VS.85).aspx">SetParent</a>
+<a href="https://msdn.microsoft.com/a13f1cfc-dedc-4190-826f-b29b731e76df">SetParent</a>
 
 
 

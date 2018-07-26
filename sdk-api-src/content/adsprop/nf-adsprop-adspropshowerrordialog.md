@@ -7,7 +7,7 @@ old-location: ad\adspropshowerrordialog.htm
 old-project: ad
 ms.assetid: c7ed3d36-474e-4cb1-82aa-1e2c1ebd4b83
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/20/2018
 ms.keywords: ADsPropShowErrorDialog, ADsPropShowErrorDialog function [Active Directory], ad.adspropshowerrordialog, adsprop/ADsPropShowErrorDialog
 ms.prod: windows
 ms.technology: windows-sdk

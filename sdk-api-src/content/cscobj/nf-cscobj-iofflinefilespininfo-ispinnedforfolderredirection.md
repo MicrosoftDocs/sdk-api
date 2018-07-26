@@ -7,7 +7,7 @@ old-location: of\iofflinefilespininfo_ispinnedforfolderredirection.htm
 old-project: offlinefiles
 ms.assetid: b832f75a-3cd4-4421-a0a5-22c5682cb4c3
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/23/2018
 ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinnedForFolderRedirection method, IOfflineFilesPinInfo.IsPinnedForFolderRedirection, IOfflineFilesPinInfo::IsPinnedForFolderRedirection, IsPinnedForFolderRedirection, IsPinnedForFolderRedirection method [Offline Files], IsPinnedForFolderRedirection method [Offline Files],IOfflineFilesPinInfo interface, cscobj/IOfflineFilesPinInfo::IsPinnedForFolderRedirection, of.iofflinefilespininfo_ispinnedforfolderredirection
 ms.prod: windows
 ms.technology: windows-sdk

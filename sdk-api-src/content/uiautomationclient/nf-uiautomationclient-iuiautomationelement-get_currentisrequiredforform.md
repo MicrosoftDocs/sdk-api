@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement_CurrentIsRequiredForForm.htm
 old-project: WinAuto
 ms.assetid: 30482395-1d26-4f86-868c-4c46d5375c00
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CurrentIsRequiredForForm property [Windows Accessibility], CurrentIsRequiredForForm property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentIsRequiredForForm property, IUIAutomationElement.CurrentIsRequiredForForm, IUIAutomationElement.get_CurrentIsRequiredForForm, IUIAutomationElement::CurrentIsRequiredForForm, IUIAutomationElement::get_CurrentIsRequiredForForm, get_CurrentIsRequiredForForm, uiauto.uiauto_IUIAutomationElement_CurrentIsRequiredForForm, uiauto_IUIAutomationElement_CurrentIsRequiredForForm, uiautomationclient/IUIAutomationElement::CurrentIsRequiredForForm, uiautomationclient/IUIAutomationElement::get_CurrentIsRequiredForForm, winauto.uiauto_IUIAutomationElement_CurrentIsRequiredForForm
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

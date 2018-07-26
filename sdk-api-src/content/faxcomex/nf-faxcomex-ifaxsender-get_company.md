@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsender_company_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2c8p.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: Company property [Fax Service], Company property [Fax Service],FaxSender object, FaxSender object [Fax Service],Company property, FaxSender.Company, IFaxSender.get_Company, IFaxSender::get_Company, _mfax_faxsender.company, fax._mfax_faxsender_company, fax._mfax_faxsender_company_vb, get_Company
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,15 +64,15 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms687532(v=VS.85).aspx">FaxSender</a>
+<a href="https://msdn.microsoft.com/f265cfd0-cf62-4d86-9ba5-d1842ac94baa">FaxSender</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms687533(v=VS.85).aspx">IFaxSender</a>
+<a href="https://msdn.microsoft.com/c22bd4df-6ce2-4491-91c9-7bb8c8f7eafd">IFaxSender</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/347943cc-a417-469e-a936-8da5601e752f">Visual Basic Example</a>
  
 
  

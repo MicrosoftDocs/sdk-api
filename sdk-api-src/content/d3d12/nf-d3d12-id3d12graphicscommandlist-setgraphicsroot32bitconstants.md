@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_setgraphicsroot32bitconstants
 old-project: direct3d12
 ms.assetid: 509B8AA0-8128-4216-A9E2-67C027488E4A
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetGraphicsRoot32BitConstants method, ID3D12GraphicsCommandList.SetGraphicsRoot32BitConstants, ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstants, SetGraphicsRoot32BitConstants, SetGraphicsRoot32BitConstants method, SetGraphicsRoot32BitConstants method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstants, direct3d12.id3d12graphicscommandlist_setgraphicsroot32bitconstants
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Sets a group of constants in the graphics root signature.
+Sets a group of constants in the graphics root signature.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            The slot number for binding.
+The slot number for binding.
           
 
 
@@ -73,8 +71,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            The number of constants to set in the root signature.
+The number of constants to set in the root signature.
           
 
 
@@ -82,8 +79,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b>const void*</b>
 
-
-            The source data for the group of constants to set.
+The source data for the group of constants to set.
           
 
 
@@ -91,8 +87,7 @@ Type: <b>const void*</b>
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            The offset, in 32-bit values, to set the first constant of the group in the root signature.
+The offset, in 32-bit values, to set the first constant of the group in the root signature.
           
 
 
@@ -100,8 +95,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 

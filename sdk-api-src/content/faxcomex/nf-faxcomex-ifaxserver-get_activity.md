@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_activity.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2i9l.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: Activity property [Fax Service], Activity property [Fax Service],FaxServer object, FaxServer object [Fax Service],Activity property, FaxServer.Activity, IFaxServer.get_Activity, IFaxServer::get_Activity, _mfax_faxserver.activity, fax._mfax_faxserver_activity, get_Activity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>Activity</b> property creates a <a href="https://msdn.microsoft.com/library/ms686148(v=VS.85).aspx">FaxActivity</a> configuration object. The object permits a fax client application to access information about the activity on a connected fax server, and the fax server status.
+The <b>Activity</b> property creates a <a href="https://msdn.microsoft.com/5d3a10cb-64ef-4b20-a882-7f5e2738a8a0">FaxActivity</a> configuration object. The object permits a fax client application to access information about the activity on a connected fax server, and the fax server status.
 
 This property is read-only.
 
@@ -65,15 +65,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689109(v=VS.85).aspx">FaxServer</a>
+<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms689110(v=VS.85).aspx">IFaxServer</a>
+<a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms693455(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/cf85750a-56ac-41d5-b6c0-5444934afce7">Visual Basic Example</a>
  
 
  

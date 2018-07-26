@@ -7,7 +7,7 @@ old-location: shell\ShellExecute.htm
 old-project: shell
 ms.assetid: 8b1f3978-a0ee-4684-8a37-98e270b63897
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: NULL, SW_HIDE, SW_MAXIMIZE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWDEFAULT, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, ShellExecute, ShellExecute function [Windows Shell], ShellExecuteA, ShellExecuteW, _win32_ShellExecute, _win32_ShellExecute_cpp, edit, explore, find, open, print, shell.ShellExecute, shellapi/ShellExecute, shellapi/ShellExecuteA, shellapi/ShellExecuteW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -176,7 +176,7 @@ Activates the window and displays it in its current size and position.
 
 #### SW_SHOWDEFAULT (10)
 
-Sets the show state based on the SW_ flag specified in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function by the program that started the application. An application should call <a href="https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx">ShowWindow</a> with this flag to set the initial show state of its main window.
+Sets the show state based on the SW_ flag specified in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function by the program that started the application. An application should call <a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a> with this flag to set the initial show state of its main window.
 
 
 
@@ -272,7 +272,7 @@ Activates the window and displays it in its current size and position.
 
 ##### - nShowCmd.SW_SHOWDEFAULT (10)
 
-Sets the show state based on the SW_ flag specified in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function by the program that started the application. An application should call <a href="https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx">ShowWindow</a> with this flag to set the initial show state of its main window.
+Sets the show state based on the SW_ flag specified in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function by the program that started the application. An application should call <a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a> with this flag to set the initial show state of its main window.
 
 
 ##### - nShowCmd.SW_SHOWMAXIMIZED (3)

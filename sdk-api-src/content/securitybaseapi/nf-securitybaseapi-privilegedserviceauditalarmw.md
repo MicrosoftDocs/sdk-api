@@ -4,10 +4,10 @@ title: PrivilegedServiceAuditAlarmW function
 author: windows-sdk-content
 description: Generates an audit message in the security event log.
 old-location: security\privilegedserviceauditalarm.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: a424c583-bb71-4bda-a27f-2389b89104d8
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: PrivilegedServiceAuditAlarm, PrivilegedServiceAuditAlarm function [Security], PrivilegedServiceAuditAlarmA, PrivilegedServiceAuditAlarmW, _win32_privilegedserviceauditalarm, security.privilegedserviceauditalarm, securitybaseapi/PrivilegedServiceAuditAlarm, securitybaseapi/PrivilegedServiceAuditAlarmA, securitybaseapi/PrivilegedServiceAuditAlarmW
 ms.prod: windows
 ms.technology: windows-sdk

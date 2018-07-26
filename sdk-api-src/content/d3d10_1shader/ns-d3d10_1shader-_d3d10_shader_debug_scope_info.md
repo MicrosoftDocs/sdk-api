@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_debug_scope_info.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_scope_info.htm
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: 98b3a0e8-be0d-c4db-defc-df94817adf46, D3D10_SHADER_DEBUG_SCOPE_INFO, D3D10_SHADER_DEBUG_SCOPE_INFO structure [Direct3D 10], _D3D10_SHADER_DEBUG_SCOPE_INFO, d3d10_1shader/D3D10_SHADER_DEBUG_SCOPE_INFO, direct3d10.d3d10_shader_debug_scope_info
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ Contains scope data that maps variable names to debug variables.
 
 ### -field ScopeType
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172426(v=VS.85).aspx">D3D10_SHADER_DEBUG_SCOPETYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/406f1b5c-448f-427b-a7fc-52fb20393bd6">D3D10_SHADER_DEBUG_SCOPETYPE</a></b>
 
 Specifies the scope type.
 
@@ -97,7 +97,7 @@ Offset an array of UINT values with <b>uVariables</b> members contianing the sco
 
 
 
-The <b>D3D10_SHADER_DEBUG_SCOPE_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/library/Bb172420(v=VS.85).aspx">D3D10_SHADER_DEBUG_INFO</a> structure.
+The <b>D3D10_SHADER_DEBUG_SCOPE_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/b1b4201a-5bfb-4fce-ba51-64f7da9531bc">D3D10_SHADER_DEBUG_INFO</a> structure.
 
 
 
@@ -107,7 +107,7 @@ The <b>D3D10_SHADER_DEBUG_SCOPE_INFO</b> structure is used with the <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://msdn.microsoft.com/b36309e0-1c44-42d9-adcf-33acd753438c">Shader Structures</a>
  
 
  

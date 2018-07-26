@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_texture_copy_location.htm
 old-project: direct3d12
 ms.assetid: D63EC731-EE75-44CD-9CCD-7FB4A761D1A3
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_TEXTURE_COPY_LOCATION, D3D12_TEXTURE_COPY_LOCATION structure, d3d12/D3D12_TEXTURE_COPY_LOCATION, direct3d12.d3d12_texture_copy_location
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,25 +60,20 @@ Describes a portion of a texture for the purpose of texture copies.
 
 ### -field pResource
 
-
-            Specifies the resource which will be used for the copy operation.<div> </div>
-            When <b>Type</b> is D3D12_TEXTURE_COPY_TYPE_PLACED_FOOTPRINT, <b>pResource</b> must point to a buffer resource.<div> </div>
-            When <b>Type</b> is D3D12_TEXTURE_COPY_TYPE_SUBRESOURCE_INDEX, <b>pResource</b> must point to a texture resource.
+Specifies the resource which will be used for the copy operation.<div> </div>When <b>Type</b> is D3D12_TEXTURE_COPY_TYPE_PLACED_FOOTPRINT, <b>pResource</b> must point to a buffer resource.<div> </div>When <b>Type</b> is D3D12_TEXTURE_COPY_TYPE_SUBRESOURCE_INDEX, <b>pResource</b> must point to a texture resource.
           
 
 
 ### -field Type
 
-
-            Specifies which type of resource location this is: a subresource of a texture, or a description of a texture layout which can be applied to a buffer.
+Specifies which type of resource location this is: a subresource of a texture, or a description of a texture layout which can be applied to a buffer.
             This <a href="https://msdn.microsoft.com/CF296200-55A7-46B2-BF2C-58806A6A3BBC">D3D12_TEXTURE_COPY_TYPE</a> enum indicates which union member to use.
           
 
 
 ### -field PlacedFootprint
 
-
-              Specifies a texture layout, with offset, dimensions, and pitches, for the hardware to understand how to treat a section of a buffer resource as a multi-dimensional texture.
+Specifies a texture layout, with offset, dimensions, and pitches, for the hardware to understand how to treat a section of a buffer resource as a multi-dimensional texture.
               To fill-in the correct data for a <a href="https://msdn.microsoft.com/2EAFC6B9-376C-4801-8E53-BF0DB08943AA">CopyTextureRegion</a> call, 
               see <a href="https://msdn.microsoft.com/74740A52-C2A5-4AF6-92CC-85B5C214423F">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a>.
             
@@ -86,8 +81,7 @@ Describes a portion of a texture for the purpose of texture copies.
 
 ### -field SubresourceIndex
 
-
-              Specifies the index of the subresource of an arrayed, mip-mapped, or planar texture should be used for the copy operation.
+Specifies the index of the subresource of an arrayed, mip-mapped, or planar texture should be used for the copy operation.
             
 
 
@@ -95,8 +89,7 @@ Describes a portion of a texture for the purpose of texture copies.
 
 
 
-
-          Use this structure with <a href="https://msdn.microsoft.com/2EAFC6B9-376C-4801-8E53-BF0DB08943AA">CopyTextureRegion</a>.
+Use this structure with <a href="https://msdn.microsoft.com/2EAFC6B9-376C-4801-8E53-BF0DB08943AA">CopyTextureRegion</a>.
         
 
 

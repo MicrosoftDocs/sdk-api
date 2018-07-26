@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_range_uint64.htm
 old-project: direct3d12
 ms.assetid: 9A907848-285C-4489-8F53-DA02FBC0AC0C
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_RANGE_UINT64, D3D12_RANGE_UINT64 structure, d3d12/D3D12_RANGE_UINT64, direct3d12.d3d12_range_uint64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,8 +78,7 @@ The offset, in bytes, denoting the end of a memory range.
         The size of the range is (<b>End</b> - <b>Begin</b>).
       
 
-
-        This structure is used by the <a href="https://msdn.microsoft.com/D8DACE22-9AFD-4DCD-A254-A34AD532ACD7">D3D12_SUBRESOURCE_RANGE_UINT64</a> structure.
+This structure is used by the <a href="https://msdn.microsoft.com/D8DACE22-9AFD-4DCD-A254-A34AD532ACD7">D3D12_SUBRESOURCE_RANGE_UINT64</a> structure.
       
 
 

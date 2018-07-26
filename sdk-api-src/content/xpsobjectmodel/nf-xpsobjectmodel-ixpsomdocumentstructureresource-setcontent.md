@@ -7,7 +7,7 @@ old-location: xps\ixpsomdocumentstructureresource_setcontent.htm
 old-project: printdocs
 ms.assetid: 0b58e0ca-03e7-43ea-aab2-5ac6cdb15807
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IXpsOMDocumentStructureResource interface [XPS Documents and Packaging],SetContent method, IXpsOMDocumentStructureResource.SetContent, IXpsOMDocumentStructureResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMDocumentStructureResource interface, xps.ixpsomdocumentstructureresource_setcontent, xpsobjectmodel/IXpsOMDocumentStructureResource::SetContent
 ms.prod: windows
 ms.technology: windows-sdk

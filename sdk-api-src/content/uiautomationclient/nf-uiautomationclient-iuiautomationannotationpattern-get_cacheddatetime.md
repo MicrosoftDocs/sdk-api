@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CachedDateTime.htm
 old-project: WinAuto
 ms.assetid: 506019F7-0EC3-4FEA-9B22-C84548ACD8A6
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: CachedDateTime property [Windows Accessibility], CachedDateTime property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CachedDateTime property, IUIAutomationAnnotationPattern.CachedDateTime, IUIAutomationAnnotationPattern.get_CachedDateTime, IUIAutomationAnnotationPattern::CachedDateTime, IUIAutomationAnnotationPattern::get_CachedDateTime, get_CachedDateTime, uiautomationclient/IUIAutomationAnnotationPattern::CachedDateTime, uiautomationclient/IUIAutomationAnnotationPattern::get_CachedDateTime, winauto.uiauto_IUIAutomationAnnotationPattern_CachedDateTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

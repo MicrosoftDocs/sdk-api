@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__getviewport.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getviewport.htm
 ms.author: windowssdkdev
-ms.date: 04/11/2018
+ms.date: 07/23/2018
 ms.keywords: 5804c163-148c-f385-7d81-0260f741a050, GetViewport, GetViewport method [Direct3D 9], GetViewport method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetViewport method, IDirect3DDevice9.GetViewport, IDirect3DDevice9::GetViewport, d3d9helper/IDirect3DDevice9::GetViewport, direct3d9.idirect3ddevice9__getviewport
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,16 +61,16 @@ Retrieves the viewport parameters currently set for the device.
 
 ### -param pViewport [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb172632(v=VS.85).aspx">D3DVIEWPORT9</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/fb2c6048-f837-497d-8e4f-e18942d37899">D3DVIEWPORT9</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/library/Bb172632(v=VS.85).aspx">D3DVIEWPORT9</a> structure, representing the returned viewport parameters. 
+Pointer to a <a href="https://msdn.microsoft.com/fb2c6048-f837-497d-8e4f-e18942d37899">D3DVIEWPORT9</a> structure, representing the returned viewport parameters. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is returned if the pViewport parameter is invalid.
 
@@ -91,11 +91,11 @@ Typically, methods that return state will not work on a device that is created u
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb174469(v=VS.85).aspx">IDirect3DDevice9::SetViewport</a>
+<a href="https://msdn.microsoft.com/57fd3a83-4bb4-4f6c-9233-d65208d4bb39">IDirect3DDevice9::SetViewport</a>
  
 
  

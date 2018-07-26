@@ -4,10 +4,10 @@ title: AllocateLocallyUniqueId function
 author: windows-sdk-content
 description: Allocates a locally unique identifier (LUID).
 old-location: security\allocatelocallyuniqueid.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 5d730034-802b-4d37-bd28-68992779b93e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: AllocateLocallyUniqueId, AllocateLocallyUniqueId function [Security], _win32_allocatelocallyuniqueid, security.allocatelocallyuniqueid, securitybaseapi/AllocateLocallyUniqueId
 ms.prod: windows
 ms.technology: windows-sdk

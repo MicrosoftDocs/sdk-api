@@ -4,10 +4,10 @@ title: INodeProperties
 author: windows-sdk-content
 description: The INodeProperties interface retrieves text-only properties for a node.
 old-location: mmc\inodeproperties.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 5ef78fb9-704e-4c1d-ada8-c257a0944c94
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: INodeProperties, INodeProperties interface [MMC], INodeProperties interface [MMC],described, _slate_inodeproperties, mmc.inodeproperties, mmc/INodeProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ The
 
 The 
 <b>INodeProperties</b> interface is queried (using 
-<a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a>) from the 
+<a href="_com_iunknown_queryinterface">IUnknown::QueryInterface</a>) from the 
 <a href="https://msdn.microsoft.com/60900b8d-59cc-4c1d-86b7-b902ba89216d">IComponentData</a> interface for scope nodes, and from the 
 <a href="https://msdn.microsoft.com/65eaa5ef-182b-4fec-bb3d-a308ac9dc660">IComponent</a> interface for result items.
 

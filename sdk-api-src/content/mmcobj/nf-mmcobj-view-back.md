@@ -4,10 +4,10 @@ title: View::Back
 author: windows-sdk-content
 description: The Back method navigates to the previous view. This method is equivalent to the user pressing the Back button on the toolbar.
 old-location: mmc\view_back.htm
-old-project: mmc
+old-project: MMC
 ms.assetid: 4b7f5dd6-71cc-4387-852e-0839493a6999
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: Back, Back method [MMC], Back method [MMC],View interface, Back method [MMC],View object, View interface [MMC],Back method, View object [MMC],Back method, View.Back, View::Back, _slate_view.back_method, mmc.view_back
 ms.prod: windows
 ms.technology: windows-sdk

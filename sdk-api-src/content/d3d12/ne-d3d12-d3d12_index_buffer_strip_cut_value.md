@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_index_buffer_strip_cut_value.htm
 old-project: direct3d12
 ms.assetid: 22448EAE-05F3-4E14-90A6-A427E83361B8
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: D3D12_INDEX_BUFFER_STRIP_CUT_VALUE, D3D12_INDEX_BUFFER_STRIP_CUT_VALUE enumeration, D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFF, D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFFFFFF, D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_DISABLED, d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE, d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFF, d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFFFFFF, d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_DISABLED, direct3d12.d3d12_index_buffer_strip_cut_value
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-                  When using triangle strip primitive topology, vertex positions are interpreted as vertices of a continuous triangle “strip”.  There is a special index value that represents the desire to have a discontinuity in the strip, the cut index value. This enum lists the supported cut values.
+When using triangle strip primitive topology, vertex positions are interpreted as vertices of a continuous triangle “strip”.  There is a special index value that represents the desire to have a discontinuity in the strip, the cut index value. This enum lists the supported cut values.
 
 
 
@@ -62,22 +61,19 @@ req.irql:
 
 ### -field D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_DISABLED
 
-
-            Indicates that there is no cut value.
+Indicates that there is no cut value.
           
 
 
 ### -field D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFF
 
-
-            Indicates that 0xFFFF should be used as the cut value.
+Indicates that 0xFFFF should be used as the cut value.
           
 
 
 ### -field D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFFFFFF
 
-
-            Indicates that 0xFFFFFFFF should be used as the cut value.
+Indicates that 0xFFFFFFFF should be used as the cut value.
           
 
 
@@ -85,8 +81,7 @@ req.irql:
 
 
 
-
-          This enum is used by the <a href="https://msdn.microsoft.com/35D10150-A633-4D38-B684-3E2DF357FFC0">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a> structure.
+This enum is used by the <a href="https://msdn.microsoft.com/35D10150-A633-4D38-B684-3E2DF357FFC0">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a> structure.
         
 
 

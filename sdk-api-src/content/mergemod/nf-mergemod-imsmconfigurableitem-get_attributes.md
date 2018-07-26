@@ -4,10 +4,10 @@ title: IMsmConfigurableItem::get_Attributes
 author: windows-sdk-content
 description: The Attributes property returns the value from the Attributes column of the ModuleConfiguration table.
 old-location: setup\configurableitem_attributes.htm
-old-project: msi
+old-project: Msi
 ms.assetid: fb7336b7-28af-48c8-80b2-80c03948660a
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: Attributes property, Attributes property,ConfigurableItem object, ConfigurableItem object,Attributes property, ConfigurableItem.Attributes, IMsmConfigurableItem.get_Attributes, IMsmConfigurableItem::get_Attributes, _msi_attributes_property_configurableitem_object_, get_Attributes, setup.configurableitem_attributes
 ms.prod: windows
 ms.technology: windows-sdk

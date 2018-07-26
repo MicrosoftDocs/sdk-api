@@ -66,12 +66,12 @@ No match was found.
 
 ### -field DESCKIND_FUNCDESC
 
-A <a href="https://msdn.microsoft.com/library/ms221425(v=VS.85).aspx">FUNCDESC</a> was returned.
+A <a href="9998E0CB-5AA3-4CD8-86EB-34760EB1164E">FUNCDESC</a> was returned.
 
 
 ### -field DESCKIND_VARDESC
 
-A <a href="https://msdn.microsoft.com/library/ms221391(v=VS.85).aspx">VARDESC</a> was returned.
+A <a href="9584977D-41C4-4F73-8844-2135750DDB80">VARDESC</a> was returned.
 
 
 ### -field DESCKIND_TYPECOMP

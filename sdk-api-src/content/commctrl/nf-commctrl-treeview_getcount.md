@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Retrieves a count of the items in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb773572(v=VS.85).aspx">TVM_GETCOUNT</a> message explicitly. 
+Retrieves a count of the items in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/cb8477be-51c9-4e96-8fa6-f978e0c1595f">TVM_GETCOUNT</a> message explicitly. 
 
 
 ## -parameters

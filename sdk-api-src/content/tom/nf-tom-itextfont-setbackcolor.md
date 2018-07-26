@@ -170,11 +170,11 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773933(v=VS.85).aspx">GetBackColor</a>
+<a href="https://msdn.microsoft.com/b5925136-b883-4036-acee-29f640e8ee56">GetBackColor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -194,7 +194,7 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

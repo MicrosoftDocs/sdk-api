@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 The <b>DBCOMMANDOPENUM</b> enumerated type contains a list of the possible command operators for nodes in a command tree.
 
@@ -803,7 +803,7 @@ The <b>DBCOMMANDOPENUM</b> enumerated type contains a list of the possible comma
 
 The OLE DB Provider for Indexing Service does not support all the operators in this enumerated type. Indexing Service supports only elements in the list designated by the comment "// Indexing Service".
 
-For information about individual operators, see <a href="https://msdn.microsoft.com/library/ms690326(v=VS.85).aspx">Data Manipulation Operators</a>.
+For information about individual operators, see <a href="https://msdn.microsoft.com/b3591a60-2078-4473-9ee6-89f4cc637c74">Data Manipulation Operators</a>.
 
 
 

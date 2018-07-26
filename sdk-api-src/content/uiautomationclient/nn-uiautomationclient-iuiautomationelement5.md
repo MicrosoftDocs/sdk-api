@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationElement5.htm
 old-project: WinAuto
 ms.assetid: 9E3DE7EE-E569-4AE6-8A55-C9CDB28C51E5
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: IUIAutomationElement5, IUIAutomationElement5 interface [Windows Accessibility], IUIAutomationElement5 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationElement5, winauto.uiauto_IUIAutomationElement5
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

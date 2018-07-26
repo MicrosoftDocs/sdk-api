@@ -7,7 +7,7 @@ old-location: intl\ifedictionary_existword.htm
 old-project: Intl
 ms.assetid: 70BBC94A-97D6-4237-A0C9-F6861ED6C95D
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: ExistWord, ExistWord method [Internationalization for Windows Applications], ExistWord method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],ExistWord method, IFEDictionary.ExistWord, IFEDictionary::ExistWord, intl.ifedictionary_existword, msime/IFEDictionary::ExistWord
 ms.prod: windows
 ms.technology: windows-sdk

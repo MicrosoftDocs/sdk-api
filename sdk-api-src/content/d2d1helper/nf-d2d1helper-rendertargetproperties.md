@@ -4,10 +4,10 @@ title: RenderTargetProperties function
 author: windows-sdk-content
 description: Creates a D2D1_RENDER_TARGET_PROPERTIES structure.
 old-location: direct2d\rendertargetproperties.htm
-old-project: direct2d
+old-project: Direct2D
 ms.assetid: d384ff93-220f-4714-a76a-b8b495496d79
 ms.author: windowssdkdev
-ms.date: 07/02/2018
+ms.date: 07/23/2018
 ms.keywords: RenderTargetProperties, RenderTargetProperties function [Direct2D], d2d1helper/RenderTargetProperties, direct2d.rendertargetproperties
 ms.prod: windows
 ms.technology: windows-sdk

@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Uses an application-defined comparison function to sort groups by ID within a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761225(v=VS.85).aspx">LVM_SORTGROUPS</a> message explicitly. 
+Uses an application-defined comparison function to sort groups by ID within a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/553e96d6-a982-4482-8fba-ef11a74fb82e">LVM_SORTGROUPS</a> message explicitly. 
 
 
 ## -parameters
@@ -84,7 +84,7 @@ Type: <b>PFNLVGROUPCOMPARE</b>
 
 
 
-To use <b>ListView_SortGroups</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_SortGroups</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

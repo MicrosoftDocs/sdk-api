@@ -7,7 +7,7 @@ old-location: shell\IShellItem2_GetFileTime.htm
 old-project: shell
 ms.assetid: bdd1834d-ce00-45e2-8fe7-825e18e12b96
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: GetFileTime, GetFileTime method [Windows Shell], GetFileTime method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetFileTime method, IShellItem2.GetFileTime, IShellItem2::GetFileTime, _shell_IShellItem2_GetFileTime, shell.IShellItem2_GetFileTime, shobjidl_core/IShellItem2::GetFileTime
 ms.prod: windows
 ms.technology: windows-sdk

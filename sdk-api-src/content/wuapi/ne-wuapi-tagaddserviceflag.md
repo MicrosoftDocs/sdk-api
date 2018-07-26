@@ -4,10 +4,10 @@ title: tagAddServiceFlag
 author: windows-sdk-content
 description: Defines the possible ways in which the IUpdateServiceManager2 interface can process service registration requests.
 old-location: wua\addserviceflag.htm
-old-project: Wua_Sdk
+old-project: wua_sdk
 ms.assetid: 1372a062-9f62-4b4d-8476-b6c7059a801a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: AddServiceFlag, AddServiceFlag enumeration [Windows Update Agent], asfAllowOnlineRegistration, asfAllowPendingRegistration, asfRegisterServiceWithAU, tagAddServiceFlag, wua.addserviceflag, wuapi/AddServiceFlag, wuapi/asfAllowOnlineRegistration, wuapi/asfAllowPendingRegistration, wuapi/asfRegisterServiceWithAU
 ms.prod: windows
 ms.technology: windows-sdk

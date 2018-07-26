@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevices_itembyid.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4gmc.htm
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/23/2018
 ms.keywords: IFaxDevices interface [Fax Service],get_ItemById method, IFaxDevices.get_ItemById, IFaxDevices::get_ItemById, _mfax_faxdevices.itembyid, fax._mfax_faxdevices_itembyid, faxcomex/IFaxDevices::get_ItemById, get_ItemById, get_ItemById method [Fax Service], get_ItemById method [Fax Service],IFaxDevices interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxDevices::get_ItemById</b> method returns a <a href="https://msdn.microsoft.com/library/ms686192(v=VS.85).aspx">FaxDevice</a> object from the <a href="https://msdn.microsoft.com/library/ms684819(v=VS.85).aspx">FaxDevices</a> collection, using its device ID.
+The <b>IFaxDevices::get_ItemById</b> method returns a <a href="https://msdn.microsoft.com/bb54b793-98e1-4862-b887-48c25099ac6d">FaxDevice</a> object from the <a href="https://msdn.microsoft.com/f04644e4-5e20-490d-847c-001ae2aa7fe5">FaxDevices</a> collection, using its device ID.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ The unique ID of the device to retrieve.
 
 Type: <b>ppFaxDevice**</b>
 
-A <a href="https://msdn.microsoft.com/library/ms686192(v=VS.85).aspx">FaxDevice</a> object.
+A <a href="https://msdn.microsoft.com/bb54b793-98e1-4862-b887-48c25099ac6d">FaxDevice</a> object.
 
 
 ## -returns
@@ -95,7 +95,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To retrieve an item from the <a href="https://msdn.microsoft.com/library/ms684819(v=VS.85).aspx">FaxDevices</a> collection using the device's index, call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a> property.
+To retrieve an item from the <a href="https://msdn.microsoft.com/f04644e4-5e20-490d-847c-001ae2aa7fe5">FaxDevices</a> collection using the device's index, call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a> property.
 
 
 
@@ -105,15 +105,15 @@ To retrieve an item from the <a href="https://msdn.microsoft.com/library/ms68481
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684819(v=VS.85).aspx">FaxDevices</a>
+<a href="https://msdn.microsoft.com/f04644e4-5e20-490d-847c-001ae2aa7fe5">FaxDevices</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms684821(v=VS.85).aspx">IFaxDevices</a>
+<a href="https://msdn.microsoft.com/025b7393-b693-4d75-973a-4a058059eb22">IFaxDevices</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692985(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/8e0d5b13-2126-49a2-80b7-ae3a817496bd">Visual Basic Example</a>
  
 
  

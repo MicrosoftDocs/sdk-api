@@ -7,7 +7,7 @@ old-location: xps\ixpsomshareable_gettype.htm
 old-project: printdocs
 ms.assetid: 1d30e11e-1306-4721-b5fc-0419715ba2c8
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: GetType, GetType method [XPS Documents and Packaging], GetType method [XPS Documents and Packaging],IXpsOMShareable interface, IXpsOMShareable interface [XPS Documents and Packaging],GetType method, IXpsOMShareable.GetType, IXpsOMShareable::GetType, xps.ixpsomshareable_gettype, xpsobjectmodel/IXpsOMShareable::GetType
 ms.prod: windows
 ms.technology: windows-sdk

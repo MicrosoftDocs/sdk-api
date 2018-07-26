@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugcommandlist_assertresourcestate.htm
 old-project: direct3d12
 ms.assetid: 9190760D-B624-4E3E-8C33-B5D888895499
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: AssertResourceState, AssertResourceState method, AssertResourceState method,ID3D12DebugCommandList interface, ID3D12DebugCommandList interface,AssertResourceState method, ID3D12DebugCommandList.AssertResourceState, ID3D12DebugCommandList::AssertResourceState, d3d12sdklayers/ID3D12DebugCommandList::AssertResourceState, direct3d12.id3d12debugcommandlist_assertresourcestate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Checks whether a resource, or subresource, is in a specified state, or not.
+Checks whether a resource, or subresource, is in a specified state, or not.
 
 
 ## -parameters

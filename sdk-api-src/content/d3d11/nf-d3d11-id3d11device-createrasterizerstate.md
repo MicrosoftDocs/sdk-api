@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11device_createrasterizerstate.htm
 old-project: direct3d11
 ms.assetid: b49a8dbb-2280-4d5d-ae65-58cde2e9ed10
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 89e8a772-b143-38e2-89a4-4b72b0a4b1c5, CreateRasterizerState, CreateRasterizerState method [Direct3D 11], CreateRasterizerState method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateRasterizerState method, ID3D11Device.CreateRasterizerState, ID3D11Device::CreateRasterizerState, d3d11/ID3D11Device::CreateRasterizerState, direct3d11.id3d11device_createrasterizerstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ Address of a pointer to the rasterizer state object created (see <a href="https:
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns E_OUTOFMEMORY if there is insufficient memory to create the compute shader.  See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> for other possible return values.
 

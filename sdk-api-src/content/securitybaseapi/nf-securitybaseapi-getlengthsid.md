@@ -4,10 +4,10 @@ title: GetLengthSid function
 author: windows-sdk-content
 description: Returns the length, in bytes, of a valid security identifier (SID).
 old-location: security\getlengthsid.htm
-old-project: SecAuthZ
+old-project: secauthz
 ms.assetid: 0acaa804-494c-4d69-b1f7-8d167b494761
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/19/2018
 ms.keywords: GetLengthSid, GetLengthSid function [Security], _win32_getlengthsid, security.getlengthsid, securitybaseapi/GetLengthSid
 ms.prod: windows
 ms.technology: windows-sdk

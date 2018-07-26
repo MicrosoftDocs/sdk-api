@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomation_AddPropertyChangedEventHandler.htm
 old-project: WinAuto
 ms.assetid: 2623a48e-8818-486c-9bde-b218cde49189
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.keywords: AddPropertyChangedEventHandler, AddPropertyChangedEventHandler method [Windows Accessibility], AddPropertyChangedEventHandler method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],AddPropertyChangedEventHandler method, IUIAutomation.AddPropertyChangedEventHandler, IUIAutomation::AddPropertyChangedEventHandler, uiauto.uiauto_IUIAutomation_AddPropertyChangedEventHandler, uiauto_IUIAutomation_AddPropertyChangedEventHandler, uiautomationclient/IUIAutomation::AddPropertyChangedEventHandler, winauto.uiauto_IUIAutomation_AddPropertyChangedEventHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: "*UI_ANIMATION_KEYFRAME"
 topic_type:
  - APIRef
  - kbSyntax

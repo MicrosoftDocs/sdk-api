@@ -7,7 +7,7 @@ old-location: direct3d11\id3d11devicecontext_gssetshader.htm
 old-project: direct3d11
 ms.assetid: 6c42d028-b832-470c-ab15-1cf46a3f8414
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: 52389497-00e9-1a7b-1543-a60e2a6b6479, GSSetShader, GSSetShader method [Direct3D 11], GSSetShader method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GSSetShader method, ID3D11DeviceContext.GSSetShader, ID3D11DeviceContext::GSSetShader, d3d11/ID3D11DeviceContext::GSSetShader, direct3d11.id3d11devicecontext_gssetshader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,8 +93,7 @@ This method does not return a value.
 
 
 
-
-      The method will hold a reference to the interfaces passed in.
+The method will hold a reference to the interfaces passed in.
       This differs from the device state behavior in Direct3D 10.
 
 The maximum number of instances a shader can have is 256.

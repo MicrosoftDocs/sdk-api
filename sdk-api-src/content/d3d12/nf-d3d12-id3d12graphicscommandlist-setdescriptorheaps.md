@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_setdescriptorheaps.htm
 old-project: direct3d12
 ms.assetid: EE475B68-1DCA-44D4-994E-717D40F47DFA
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetDescriptorHeaps method, ID3D12GraphicsCommandList.SetDescriptorHeaps, ID3D12GraphicsCommandList::SetDescriptorHeaps, SetDescriptorHeaps, SetDescriptorHeaps method, SetDescriptorHeaps method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetDescriptorHeaps, direct3d12.id3d12graphicscommandlist_setdescriptorheaps
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Changes the currently bound descriptor heaps that are associated with a command list.
+Changes the currently bound descriptor heaps that are associated with a command list.
         
 
 
@@ -64,8 +63,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            Number of descriptor heaps to bind.
+Number of descriptor heaps to bind.
           
 
 
@@ -73,8 +71,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/B6FF011B-3FED-425B-B9D5-A823E6915FD5">ID3D12DescriptorHeap</a>*</b>
 
-
-            A pointer to an array of <a href="https://msdn.microsoft.com/B6FF011B-3FED-425B-B9D5-A823E6915FD5">ID3D12DescriptorHeap</a> objects for the heaps to set on the command list.
+A pointer to an array of <a href="https://msdn.microsoft.com/B6FF011B-3FED-425B-B9D5-A823E6915FD5">ID3D12DescriptorHeap</a> objects for the heaps to set on the command list.
             
 
 
@@ -82,8 +79,7 @@ Type: <b><a href="https://msdn.microsoft.com/B6FF011B-3FED-425B-B9D5-A823E6915FD
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 
@@ -93,13 +89,12 @@ Type: <b><a href="https://msdn.microsoft.com/B6FF011B-3FED-425B-B9D5-A823E6915FD
 
 
 
-<b>SetDescriptorHeaps</b> can be called on a bundle, but the bundle descriptor heaps must match the calling command list descriptor heap. For more information on bundle restrictions, refer to <a href="https://msdn.microsoft.com/library/Dn899205(v=VS.85).aspx">Creating and Recording Command Lists and Bundles</a>.
+<b>SetDescriptorHeaps</b> can be called on a bundle, but the bundle descriptor heaps must match the calling command list descriptor heap. For more information on bundle restrictions, refer to <a href="recording_command_lists_and_bundles.htm">Creating and Recording Command Lists and Bundles</a>.
 
 
 #### Examples
 
-
-          The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Bundles</a> sample uses <b>ID3D12GraphicsCommandList::SetDescriptorHeaps</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Bundles</a> sample uses <b>ID3D12GraphicsCommandList::SetDescriptorHeaps</b> as follows:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -162,8 +157,7 @@ Type: <b><a href="https://msdn.microsoft.com/B6FF011B-3FED-425B-B9D5-A823E6915FD
 </td>
 </tr>
 </table></span></div>
-
-          See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>

@@ -4,10 +4,10 @@ title: LPEVALCOMCALLBACK
 author: windows-sdk-content
 description: The LPEVALCOMCALLBACK specification defines a callback function prototype. The IValidate::SetStatus method enables an authoring tool to receive information about the progress of validation through the registered callback function.
 old-location: setup\lpevalcomcallback.htm
-old-project: msi
+old-project: Msi
 ms.assetid: 76504031-b63a-40fc-aa5b-728f3551057b
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.keywords: LPEVALCOMCALLBACK, LPEVALCOMCALLBACK callback, LPEVALCOMCALLBACK callback function, evalcom2/LPEVALCOMCALLBACK, ieStatusCancel, ieStatusCreateEngine, ieStatusFail, ieStatusICECount, ieStatusMerge, ieStatusRunICE, ieStatusShutdown, ieStatusStarting, ieStatusSuccess, ieStatusSummaryInfo, setup.lpevalcomcallback
 ms.prod: windows
 ms.technology: windows-sdk

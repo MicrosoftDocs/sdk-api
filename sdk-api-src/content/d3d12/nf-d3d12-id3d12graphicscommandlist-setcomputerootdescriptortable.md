@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_setcomputerootdescriptortable
 old-project: direct3d12
 ms.assetid: DC05D64A-39D0-4EF2-A9FE-956B499386F2
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetComputeRootDescriptorTable method, ID3D12GraphicsCommandList.SetComputeRootDescriptorTable, ID3D12GraphicsCommandList::SetComputeRootDescriptorTable, SetComputeRootDescriptorTable, SetComputeRootDescriptorTable method, SetComputeRootDescriptorTable method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetComputeRootDescriptorTable, direct3d12.id3d12graphicscommandlist_setcomputerootdescriptortable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-          Sets a descriptor table into the compute root signature.
+Sets a descriptor table into the compute root signature.
 
 
 ## -parameters
@@ -63,8 +62,7 @@ req.irql:
 
 Type: <b>UINT</b>
 
-
-            The slot number for binding.
+The slot number for binding.
           
 
 
@@ -72,8 +70,7 @@ Type: <b>UINT</b>
 
 Type: <b><a href="https://msdn.microsoft.com/16D09788-D527-4D9F-A6EF-648F42A426B5">D3D12_GPU_DESCRIPTOR_HANDLE</a></b>
 
-
-            A GPU_descriptor_handle object for the base descriptor to set.
+A GPU_descriptor_handle object for the base descriptor to set.
           
 
 
@@ -81,8 +78,7 @@ Type: <b><a href="https://msdn.microsoft.com/16D09788-D527-4D9F-A6EF-648F42A426B
 
 
 
-
-            This method does not return a value.
+This method does not return a value.
           
 
 

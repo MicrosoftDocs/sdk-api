@@ -96,13 +96,13 @@ The return value specifies the status of the specified virtual key, as follows:
 
 
 
-The key status returned from this function changes as a thread reads key messages from its message queue. The status does not reflect the interrupt-level state associated with the hardware. Use the <a href="https://msdn.microsoft.com/library/ms646293(v=VS.85).aspx">GetAsyncKeyState</a> function to retrieve that information.
+The key status returned from this function changes as a thread reads key messages from its message queue. The status does not reflect the interrupt-level state associated with the hardware. Use the <a href="https://msdn.microsoft.com/edc449e4-f37d-4f2c-8add-45b905bd3326">GetAsyncKeyState</a> function to retrieve that information.
 
 An application calls <b>GetKeyState</b> in response to a keyboard-input message. This function retrieves the state of the key when the input message was generated.
 
-To retrieve state information for all the virtual keys, use the <a href="https://msdn.microsoft.com/library/ms646299(v=VS.85).aspx">GetKeyboardState</a> function.
+To retrieve state information for all the virtual keys, use the <a href="https://msdn.microsoft.com/d6b31d2c-43b3-4502-a7ed-af564895f27e">GetKeyboardState</a> function.
 
-An application can use the <a href="https://msdn.microsoft.com/library/Dd375731(v=VS.85).aspx">virtual key code</a> constants <b>VK_SHIFT</b>, <b>VK_CONTROL</b>, and <b>VK_MENU</b> as values for the 
+An application can use the <a href="https://msdn.microsoft.com/fa8926ad-41b2-4164-9ba3-ae501fd0eef2">virtual key code</a> constants <b>VK_SHIFT</b>, <b>VK_CONTROL</b>, and <b>VK_MENU</b> as values for the 
     <i>nVirtKey</i> parameter. This gives the status of the SHIFT, CTRL, or ALT keys without distinguishing between left and right. An application can also use the following virtual-key code constants as values for 
     <i>nVirtKey</i> to distinguish between the left and right instances of those keys:
 
@@ -112,12 +112,12 @@ An application can use the <a href="https://msdn.microsoft.com/library/Dd375731(
 <b>VK_RCONTROL</b>
 <b>VK_LMENU</b>
 <b>VK_RMENU</b>
-These left- and right-distinguishing constants are available to an application only through the <a href="https://msdn.microsoft.com/library/ms646299(v=VS.85).aspx">GetKeyboardState</a>, <a href="https://msdn.microsoft.com/library/ms646314(v=VS.85).aspx">SetKeyboardState</a>, <a href="https://msdn.microsoft.com/library/ms646293(v=VS.85).aspx">GetAsyncKeyState</a>, <b>GetKeyState</b>, and <a href="https://msdn.microsoft.com/library/ms646306(v=VS.85).aspx">MapVirtualKey</a> functions.
+These left- and right-distinguishing constants are available to an application only through the <a href="https://msdn.microsoft.com/d6b31d2c-43b3-4502-a7ed-af564895f27e">GetKeyboardState</a>, <a href="https://msdn.microsoft.com/9c34dd1f-b423-4dcd-b29e-8bf64be57472">SetKeyboardState</a>, <a href="https://msdn.microsoft.com/edc449e4-f37d-4f2c-8add-45b905bd3326">GetAsyncKeyState</a>, <b>GetKeyState</b>, and <a href="https://msdn.microsoft.com/d287c66d-def1-4794-a95b-fa7c93e7bd35">MapVirtualKey</a> functions.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms646268(v=VS.85).aspx">Displaying Keyboard Input</a>.
+For an example, see <a href="using_keyboard_input.htm">Displaying Keyboard Input</a>.
 
 <div class="code"></div>
 
@@ -132,19 +132,19 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms646268(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646293(v=VS.85).aspx">GetAsyncKeyState</a>
+<a href="https://msdn.microsoft.com/edc449e4-f37d-4f2c-8add-45b905bd3326">GetAsyncKeyState</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646299(v=VS.85).aspx">GetKeyboardState</a>
+<a href="https://msdn.microsoft.com/d6b31d2c-43b3-4502-a7ed-af564895f27e">GetKeyboardState</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646306(v=VS.85).aspx">MapVirtualKey</a>
+<a href="https://msdn.microsoft.com/d287c66d-def1-4794-a95b-fa7c93e7bd35">MapVirtualKey</a>
 
 
 
@@ -152,7 +152,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms646268(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646314(v=VS.85).aspx">SetKeyboardState</a>
+<a href="https://msdn.microsoft.com/9c34dd1f-b423-4dcd-b29e-8bf64be57472">SetKeyboardState</a>
  
 
  

@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the currently selected item in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775899(v=VS.85).aspx">CB_SETCURSEL</a> message explicitly.
+Sets the currently selected item in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/d4ce3811-6e0a-4952-97cf-ba6efde0de0d">CB_SETCURSEL</a> message explicitly.
 
 
 

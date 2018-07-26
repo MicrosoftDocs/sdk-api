@@ -7,7 +7,7 @@ old-location: shell\ICustomDestinationList_AbortList.htm
 old-project: shell
 ms.assetid: 922eb957-8031-4b4c-9b13-78a86f199bfa
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/20/2018
 ms.keywords: AbortList, AbortList method [Windows Shell], AbortList method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],AbortList method, ICustomDestinationList.AbortList, ICustomDestinationList::AbortList, _shell_ICustomDestinationList_AbortList, shell.ICustomDestinationList_AbortList, shobjidl_core/ICustomDestinationList::AbortList
 ms.prod: windows
 ms.technology: windows-sdk

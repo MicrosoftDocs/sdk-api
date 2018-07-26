@@ -7,7 +7,7 @@ old-location: direct3d11\d3d11calcsubresource.htm
 old-project: direct3d11
 ms.assetid: 643a21f7-3c2e-4d62-9236-051f51d31241
 ms.author: windowssdkdev
-ms.date: 06/26/2018
+ms.date: 07/23/2018
 ms.keywords: D3D11CalcSubresource, D3D11CalcSubresource function [Direct3D 11], d3d11/D3D11CalcSubresource, direct3d11.d3d11calcsubresource, ea6ecdec-c3d4-b87d-c8d6-c356afacd091
 ms.prod: windows
 ms.technology: windows-sdk
@@ -50,8 +50,7 @@ req.irql:
 ## -description
 
 
-
-      Calculates a subresource index for a texture.
+Calculates a subresource index for a texture.
 
 
 ## -parameters
@@ -63,8 +62,7 @@ req.irql:
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            A zero-based index for the mipmap level to address; 0 indicates the first, most detailed mipmap level.
+A zero-based index for the mipmap level to address; 0 indicates the first, most detailed mipmap level.
           
 
 
@@ -72,8 +70,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-
-            The zero-based index for the array level to address; always use 0 for volume (3D) textures.
+The zero-based index for the array level to address; always use 0 for volume (3D) textures.
           
 
 
@@ -99,8 +96,7 @@ The index which equals MipSlice + (ArraySlice * MipLevels).
 
 
 
-
-          A buffer is an unstructured resource and is therefore defined as containing a single subresource. APIs that take buffers do not need a subresource index.
+A buffer is an unstructured resource and is therefore defined as containing a single subresource. APIs that take buffers do not need a subresource index.
           A texture on the other hand is highly structured. Each texture object may contain one or more subresources depending on the size of the array and the
           number of mipmap levels.
         
