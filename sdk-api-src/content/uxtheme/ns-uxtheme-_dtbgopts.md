@@ -51,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-Defines the options for the <a href="https://msdn.microsoft.com/2a961479-9fdf-4f9f-923e-2a6601a99442">DrawThemeBackgroundEx</a> function.
+Defines the options for the <a href="https://msdn.microsoft.com/en-us/library/Bb773294(v=VS.85).aspx">DrawThemeBackgroundEx</a> function.
 
 
 ## -struct-fields
@@ -173,7 +173,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a
 
 
 
-<a href="https://msdn.microsoft.com/2a961479-9fdf-4f9f-923e-2a6601a99442">DrawThemeBackgroundEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773294(v=VS.85).aspx">DrawThemeBackgroundEx</a>
  
 
  

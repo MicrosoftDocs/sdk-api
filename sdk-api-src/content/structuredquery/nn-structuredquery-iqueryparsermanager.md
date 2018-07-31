@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Provides methods to create, initialize, and change options for an <a href="https://msdn.microsoft.com/f022464d-9db6-42c8-a3fb-12c31ec48756">IQueryParser</a> object.
+Provides methods to create, initialize, and change options for an <a href="https://msdn.microsoft.com/en-us/library/Bb231353(v=VS.85).aspx">IQueryParser</a> object.
 
 
 ## -inheritance
@@ -71,16 +71,16 @@ The <b>IQueryParserManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/22ae21a0-927e-4e76-856e-7285e4abfea3">CreateLoadedParser</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231347(v=VS.85).aspx">CreateLoadedParser</a>
 </td>
 <td align="left" width="63%">
-Creates a new instance of a <a href="https://msdn.microsoft.com/f022464d-9db6-42c8-a3fb-12c31ec48756">IQueryParser</a> interface implementation. This instance of the query parser is loaded with the schema for the specified catalog and is localized to a specified language. All other settings are initialized to default settings.
+Creates a new instance of a <a href="https://msdn.microsoft.com/en-us/library/Bb231353(v=VS.85).aspx">IQueryParser</a> interface implementation. This instance of the query parser is loaded with the schema for the specified catalog and is localized to a specified language. All other settings are initialized to default settings.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7bfee98b-726a-4d5c-944a-d3ce2f90da7e">InitializeOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231348(v=VS.85).aspx">InitializeOptions</a>
 </td>
 <td align="left" width="63%">
 Sets the flags for Natural Query Syntax (NQS) and automatic wildcard characters for the specified query parser. If the query parser was created for the <code>SystemIndex</code> catalog, this method also sets up standard condition generators to be used later by the query parser object for recognizing named entities.
@@ -90,7 +90,7 @@ Sets the flags for Natural Query Syntax (NQS) and automatic wildcard characters 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/54cb5501-bb53-4be5-8b0b-a2ea754c778a">SetOption</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231350(v=VS.85).aspx">SetOption</a>
 </td>
 <td align="left" width="63%">
 Changes a single option in this <b>IQueryParserManager</b> object. For example, this method could change the name of the schema binary to load or the location of localized schema binaries.
@@ -114,7 +114,7 @@ The StructuredQuerySample code sample, available on <a href="http://go.microsoft
 
 
 
-<a href="search._search_2x_WDS_AqsReference">Advanced Query Syntax</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965711(v=VS.85).aspx">Advanced Query Syntax</a>
  
 
  

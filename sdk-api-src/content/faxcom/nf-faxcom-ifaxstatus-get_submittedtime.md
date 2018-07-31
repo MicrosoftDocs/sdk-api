@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-You can use the <b>SubmittedTime</b> property of a <a href="https://msdn.microsoft.com/library/ms691355(v=VS.85).aspx">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/c9611619-b7b4-486d-b8fa-a8de8a50fae4">StartTime</a> property of the object to provide users with information about a fax job.
+You can use the <b>SubmittedTime</b> property of a <a href="https://msdn.microsoft.com/library/ms691355(v=VS.85).aspx">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/ms692322(v=VS.85).aspx">StartTime</a> property of the object to provide users with information about a fax job.
 
 
 
@@ -97,11 +97,11 @@ You can use the <b>SubmittedTime</b> property of a <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/e7759c8a-a6f3-4e42-9d56-bf93d11d7ad1">Send</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691890(v=VS.85).aspx">Send</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9611619-b7b4-486d-b8fa-a8de8a50fae4">StartTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692322(v=VS.85).aspx">StartTime</a>
  
 
  

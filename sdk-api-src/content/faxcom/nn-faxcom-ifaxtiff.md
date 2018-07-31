@@ -71,7 +71,7 @@ It is not necessary to be familiar with the structure of a TIFF file to use the 
 
             Use the <b>IFaxTiff</b> interface to retrieve the properties of a <a href="https://msdn.microsoft.com/library/ms691832(v=VS.85).aspx">FaxTiff</a> object.
 
-Call the <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function to retrieve a pointer to an <b>IFaxTiff</b> interface and create an instance of a <a href="https://msdn.microsoft.com/library/ms691832(v=VS.85).aspx">FaxTiff</a> object. It is not necessary to call the <a href="https://msdn.microsoft.com/12e71c4c-c4b5-4e6d-a1fa-b833d6a00ff8">IFaxServer::Connect</a> method to initiate a connection with an active fax server. A fax server connection is not required to access the <b>IFaxTiff</b> interface.
+Call the <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function to retrieve a pointer to an <b>IFaxTiff</b> interface and create an instance of a <a href="https://msdn.microsoft.com/library/ms691832(v=VS.85).aspx">FaxTiff</a> object. It is not necessary to call the <a href="https://msdn.microsoft.com/en-us/library/ms692315(v=VS.85).aspx">IFaxServer::Connect</a> method to initiate a connection with an active fax server. A fax server connection is not required to access the <b>IFaxTiff</b> interface.
 
 The property methods of the <b>IFaxTiff</b> interface get or set the properties described following. If the property supports read access, the <b>IFaxTiff</b> interface includes a <i>get_PropertyName</i> method. If the property supports write access, the interface includes a <i>put_PropertyName</i> method.
 

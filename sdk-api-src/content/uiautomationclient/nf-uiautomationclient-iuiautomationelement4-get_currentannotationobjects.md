@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="winauto.uiauto_IUIAutomationElement4_CachedAnnotationObjects">CachedAnnotationObjects</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt845691(v=VS.85).aspx">CachedAnnotationObjects</a>
 
 
 

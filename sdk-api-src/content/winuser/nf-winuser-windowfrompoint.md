@@ -91,7 +91,7 @@ The return value is a handle to the window that contains the point. If no window
 
 
 
-The <b>WindowFromPoint</b> function does not retrieve a handle to a hidden or disabled window, even if the point is within the window. An application should use the <a href="https://msdn.microsoft.com/30f8ec3d-7b8c-45b6-b659-d417302e16c5">ChildWindowFromPoint</a> function for a nonrestrictive search. 
+The <b>WindowFromPoint</b> function does not retrieve a handle to a hidden or disabled window, even if the point is within the window. An application should use the <a href="https://msdn.microsoft.com/en-us/library/ms632676(v=VS.85).aspx">ChildWindowFromPoint</a> function for a nonrestrictive search. 
 
 
 #### Examples
@@ -107,7 +107,7 @@ For an example, see "Interface from Running Object Table" in <a href="_win32_Abo
 
 
 
-<a href="https://msdn.microsoft.com/30f8ec3d-7b8c-45b6-b659-d417302e16c5">ChildWindowFromPoint</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632676(v=VS.85).aspx">ChildWindowFromPoint</a>
 
 
 

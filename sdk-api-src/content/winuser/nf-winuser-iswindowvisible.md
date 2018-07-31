@@ -113,7 +113,7 @@ Any drawing to a window with the <b>WS_VISIBLE</b> style will not be displayed i
 
 
 
-<a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a>
 
 
 

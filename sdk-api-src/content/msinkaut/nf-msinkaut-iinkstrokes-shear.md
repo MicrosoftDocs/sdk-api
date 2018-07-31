@@ -130,7 +130,7 @@ This method throws an exception if the shear is non-invertible. The shear is non
 
 
 
-<a href="tablet.iinkstrokes">IInkStrokes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
 
 
 

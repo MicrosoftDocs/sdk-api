@@ -72,10 +72,10 @@ The <b>IFaxReceiptOptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f14c67ec-a16f-414d-ac2b-62a9f09acf8b">Refresh</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689562(v=VS.85).aspx">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/f14c67ec-a16f-414d-ac2b-62a9f09acf8b">IFaxReceiptOptions::Refresh</a> method refreshes <a href="https://msdn.microsoft.com/library/ms690118(v=VS.85).aspx">FaxReceiptOptions</a> object information from the fax server. When the <b>IFaxReceiptOptions::Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/dc884156-1427-4b4f-bf2b-2705d2622635">IFaxReceiptOptions::Save</a> method call are lost.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689562(v=VS.85).aspx">IFaxReceiptOptions::Refresh</a> method refreshes <a href="https://msdn.microsoft.com/library/ms690118(v=VS.85).aspx">FaxReceiptOptions</a> object information from the fax server. When the <b>IFaxReceiptOptions::Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/en-us/library/ms688388(v=VS.85).aspx">IFaxReceiptOptions::Save</a> method call are lost.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ The <a href="https://msdn.microsoft.com/f14c67ec-a16f-414d-ac2b-62a9f09acf8b">IF
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/dc884156-1427-4b4f-bf2b-2705d2622635">IFaxReceiptOptions::Save</a> method saves the <a href="https://msdn.microsoft.com/library/ms690118(v=VS.85).aspx">FaxReceiptOptions</a> object data.
+The <a href="https://msdn.microsoft.com/en-us/library/ms688388(v=VS.85).aspx">IFaxReceiptOptions::Save</a> method saves the <a href="https://msdn.microsoft.com/library/ms690118(v=VS.85).aspx">FaxReceiptOptions</a> object data.
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ The <a href="https://msdn.microsoft.com/library/ms689591(v=VS.85).aspx">IFaxRece
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c290a5de-e2ce-4349-82ba-a61929cf0db2">SMTPPassword</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687995(v=VS.85).aspx">SMTPPassword</a>
 
 
 </td>
@@ -140,14 +140,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/c290a5de-e2ce-4349-82ba-a61929cf0db2">IFaxReceiptOptions::get_SMTPPassword</a> property is a null-terminated string that contains the SMTP password used for authenticated connections.
+The <a href="https://msdn.microsoft.com/en-us/library/ms687995(v=VS.85).aspx">IFaxReceiptOptions::get_SMTPPassword</a> property is a null-terminated string that contains the SMTP password used for authenticated connections.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/cb2e1464-2e1e-48c3-a62a-7c42ab38f549">SMTPPort</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689608(v=VS.85).aspx">SMTPPort</a>
 
 
 </td>
@@ -156,14 +156,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/cb2e1464-2e1e-48c3-a62a-7c42ab38f549">IFaxReceiptOptions::get_SMTPPort</a> property is a value that specifies the SMTP port number.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689608(v=VS.85).aspx">IFaxReceiptOptions::get_SMTPPort</a> property is a value that specifies the SMTP port number.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d6f4a3f3-e847-4b62-96bb-763daad9245b">SMTPSender</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689076(v=VS.85).aspx">SMTPSender</a>
 
 
 </td>
@@ -172,14 +172,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/d6f4a3f3-e847-4b62-96bb-763daad9245b">IFaxReceiptOptions::get_SMTPSender</a> property is a null-terminated string that contains the SMTP email address for the sender of the mail message receipt.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689076(v=VS.85).aspx">IFaxReceiptOptions::get_SMTPSender</a> property is a null-terminated string that contains the SMTP email address for the sender of the mail message receipt.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7170cfc4-c201-4544-9e4d-ff0394789810">SMTPServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690055(v=VS.85).aspx">SMTPServer</a>
 
 
 </td>
@@ -188,14 +188,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/7170cfc4-c201-4544-9e4d-ff0394789810">IFaxReceiptOptions::get_SMTPServer</a> property is a null-terminated string that contains the name of the SMTP server.
+The <a href="https://msdn.microsoft.com/en-us/library/ms690055(v=VS.85).aspx">IFaxReceiptOptions::get_SMTPServer</a> property is a null-terminated string that contains the name of the SMTP server.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3f61747e-a54a-4137-b7fe-c170e940a118">SMTPUser</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689521(v=VS.85).aspx">SMTPUser</a>
 
 
 </td>
@@ -204,14 +204,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/3f61747e-a54a-4137-b7fe-c170e940a118">IFaxReceiptOptions::get_SMTPUser</a> property is a null-terminated string that contains the SMTP user name used for authenticated connections. 
+The <a href="https://msdn.microsoft.com/en-us/library/ms689521(v=VS.85).aspx">IFaxReceiptOptions::get_SMTPUser</a> property is a null-terminated string that contains the SMTP user name used for authenticated connections. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ac1a3bde-d729-4669-b7e1-40bd6a00f921">UseForInboundRouting </a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689610(v=VS.85).aspx">UseForInboundRouting </a>
 
 
 </td>
@@ -220,7 +220,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/ac1a3bde-d729-4669-b7e1-40bd6a00f921">IFaxReceiptOptions::get_UseForInboundRouting </a> property sets or retrieves whether to use the <a href="https://msdn.microsoft.com/library/ms690118(v=VS.85).aspx">FaxReceiptOptions</a> settings for the Microsoft Routing Extension, which allows incoming faxes to be routed to email addresses. 
+The <a href="https://msdn.microsoft.com/en-us/library/ms689610(v=VS.85).aspx">IFaxReceiptOptions::get_UseForInboundRouting </a> property sets or retrieves whether to use the <a href="https://msdn.microsoft.com/library/ms690118(v=VS.85).aspx">FaxReceiptOptions</a> settings for the Microsoft Routing Extension, which allows incoming faxes to be routed to email addresses. 
 
 </td>
 </tr>

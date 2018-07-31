@@ -68,7 +68,7 @@ Retrieves the default layout that is used when windows are created with no paren
 
 Type: <b>DWORD*</b>
 
-The current default process layout. For a list of values, see <a href="https://msdn.microsoft.com/e1a72e19-ae5e-40bf-90f2-b32078d9ac71">SetProcessDefaultLayout</a>.
+The current default process layout. For a list of values, see <a href="https://msdn.microsoft.com/en-us/library/ms633542(v=VS.85).aspx">SetProcessDefaultLayout</a>.
 
 
 ## -returns
@@ -89,7 +89,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The layout specifies how text and graphics are laid out in a window; the default is left to right. The <b>GetProcessDefaultLayout</b> function lets you know if the default layout has changed, from using <a href="https://msdn.microsoft.com/e1a72e19-ae5e-40bf-90f2-b32078d9ac71">SetProcessDefaultLayout</a>.
+The layout specifies how text and graphics are laid out in a window; the default is left to right. The <b>GetProcessDefaultLayout</b> function lets you know if the default layout has changed, from using <a href="https://msdn.microsoft.com/en-us/library/ms633542(v=VS.85).aspx">SetProcessDefaultLayout</a>.
 
 
 
@@ -107,7 +107,7 @@ The layout specifies how text and graphics are laid out in a window; the default
 
 
 
-<a href="https://msdn.microsoft.com/e1a72e19-ae5e-40bf-90f2-b32078d9ac71">SetProcessDefaultLayout</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633542(v=VS.85).aspx">SetProcessDefaultLayout</a>
 
 
 

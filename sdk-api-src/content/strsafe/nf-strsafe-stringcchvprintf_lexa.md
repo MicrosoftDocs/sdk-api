@@ -55,7 +55,7 @@ req.product: Windows XP with SP1 and later
 
 Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCchVPrintf_lEx</b> is similar to <a href="https://msdn.microsoft.com/07b4eb68-2b50-4c66-af1a-13cc57144e3a">StringCchVPrintfEx</a> but includes a parameter for locale information.
+<b>StringCchVPrintf_lEx</b> is similar to <a href="https://msdn.microsoft.com/en-us/library/ms647548(v=VS.85).aspx">StringCchVPrintfEx</a> but includes a parameter for locale information.
 
 
 ## -parameters

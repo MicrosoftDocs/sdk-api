@@ -76,10 +76,10 @@ The <b>IFaxOutgoingMessage2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/73e8f6c9-1c75-45d2-8733-bce045c80800">Refresh</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358989(v=VS.85).aspx">Refresh</a>
 </td>
 <td align="left" width="63%">
-Refreshes <a href="https://msdn.microsoft.com/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a> object information from the fax server. When the <a href="https://msdn.microsoft.com/73e8f6c9-1c75-45d2-8733-bce045c80800">Refresh</a> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method call are lost.
+Refreshes <a href="https://msdn.microsoft.com/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a> object information from the fax server. When the <a href="https://msdn.microsoft.com/en-us/library/Aa358989(v=VS.85).aspx">Refresh</a> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a> method call are lost.
 
 
 
@@ -111,7 +111,7 @@ Saves the <a href="https://msdn.microsoft.com/library/ms690149(v=VS.85).aspx">Fa
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ad7dd9a0-8c08-42b4-beae-483113ac63e8">HasCoverPage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358985(v=VS.85).aspx">HasCoverPage</a>
 
 
 </td>
@@ -151,7 +151,7 @@ Indicates if the fax has been read.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/50b02839-83c9-4418-bcd9-5a3711fcbf9d">ReceiptAddress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358987(v=VS.85).aspx">ReceiptAddress</a>
 
 
 </td>
@@ -171,7 +171,7 @@ Specifies the address to which the delivery report is sent.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/507c6944-a399-42a3-9118-6f05f204e358">ReceiptType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358988(v=VS.85).aspx">ReceiptType</a>
 
 
 </td>
@@ -195,7 +195,7 @@ Specifies the type of delivery report that is sent following an attempted transm
 
 
 
-To create a <b>FaxIncomingMessage2</b> object in C++, call the <a href="https://msdn.microsoft.com/d2d42bb2-72ab-4b9a-bd6f-07f3a5b2ee66">IFaxAccountOutgoingArchive::GetMessage</a> method or the <a href="https://msdn.microsoft.com/library/ms689615(v=VS.85).aspx">Message</a> method.
+To create a <b>FaxIncomingMessage2</b> object in C++, call the <a href="https://msdn.microsoft.com/en-us/library/Aa359026(v=VS.85).aspx">IFaxAccountOutgoingArchive::GetMessage</a> method or the <a href="https://msdn.microsoft.com/library/ms689615(v=VS.85).aspx">Message</a> method.
 
 A default implementation of this interface is provided by the <a href="https://msdn.microsoft.com/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a> object in Windows Vista or later. The <b>FaxOutgoingMessage</b> object implements the <a href="https://msdn.microsoft.com/library/Aa359025(v=VS.85).aspx">IFaxAccountOutgoingArchive</a> interface on Windows XP or earlier.
 

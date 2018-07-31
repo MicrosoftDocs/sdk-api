@@ -61,7 +61,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Retrieves a handle to a window that has the specified relationship (<a href="window_features.htm">Z-Order</a> or owner) to the specified window. 
+Retrieves a handle to a window that has the specified relationship (<a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">Z-Order</a> or owner) to the specified window. 
 
 
 ## -parameters
@@ -168,7 +168,7 @@ If the specified window is a topmost window, the handle identifies a topmost win
 </dl>
 </td>
 <td width="60%">
-The retrieved handle identifies the specified window's owner window, if any. For more information, see <a href="window_features.htm">Owned Windows</a>. 
+The retrieved handle identifies the specified window's owner window, if any. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">Owned Windows</a>. 
 
 </td>
 </tr>
@@ -192,7 +192,7 @@ If the function succeeds, the return value is a window handle. If no window exis
 
 
 
-The <a href="https://msdn.microsoft.com/19c4ae31-991c-4b8f-9dfa-eb6cdf4328d8">EnumChildWindows</a> function is more reliable than calling <b>GetWindow</b> in a loop. An application that calls <b>GetWindow</b> to perform this task risks being caught in an infinite loop or referencing a handle to a window that has been destroyed. 
+The <a href="https://msdn.microsoft.com/en-us/library/ms633494(v=VS.85).aspx">EnumChildWindows</a> function is more reliable than calling <b>GetWindow</b> in a loop. An application that calls <b>GetWindow</b> to perform this task risks being caught in an infinite loop or referencing a handle to a window that has been destroyed. 
 
 
 
@@ -206,7 +206,7 @@ The <a href="https://msdn.microsoft.com/19c4ae31-991c-4b8f-9dfa-eb6cdf4328d8">En
 
 
 
-<a href="https://msdn.microsoft.com/19c4ae31-991c-4b8f-9dfa-eb6cdf4328d8">EnumChildWindows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633494(v=VS.85).aspx">EnumChildWindows</a>
 
 
 

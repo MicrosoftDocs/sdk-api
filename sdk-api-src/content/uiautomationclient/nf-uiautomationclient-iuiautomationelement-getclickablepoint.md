@@ -92,7 +92,7 @@ A client application can use this method to simulate clicking the left or right 
 
 <ul>
 <li>Call the <b>GetClickablePoint</b> method to find a clickable point on the control.</li>
-<li>Call the <a href="https://msdn.microsoft.com/7f87edd0-b846-4a85-93c8-9a2eeda7b6ac">SendInput</a> function to send a right-mouse-down, right-mouse-up sequence.</li>
+<li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx">SendInput</a> function to send a right-mouse-down, right-mouse-up sequence.</li>
 </ul>
 
 

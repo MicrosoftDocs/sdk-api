@@ -136,7 +136,7 @@ If the function fails, the return value is -1. To get extended error information
 
 
 
-<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
 
 
 
@@ -144,7 +144,7 @@ If the function fails, the return value is -1. To get extended error information
 
 
 
-<a href="https://msdn.microsoft.com/e679f714-6298-4425-8a64-2029ae7b1326">SetMenuDefaultItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647996(v=VS.85).aspx">SetMenuDefaultItem</a>
  
 
  

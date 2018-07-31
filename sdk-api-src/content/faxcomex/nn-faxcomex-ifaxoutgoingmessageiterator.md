@@ -73,19 +73,19 @@ The <b>IFaxOutgoingMessageIterator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e1bc35d2-5c0c-48fe-9e89-ffeb7cacc2db">MoveFirst</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689125(v=VS.85).aspx">MoveFirst</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/e1bc35d2-5c0c-48fe-9e89-ffeb7cacc2db">IFaxOutgoingMessageIterator::MoveFirst</a> method moves the archive cursor to the first fax message in the outbound archive.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689125(v=VS.85).aspx">IFaxOutgoingMessageIterator::MoveFirst</a> method moves the archive cursor to the first fax message in the outbound archive.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/46a2021f-170f-41db-ba4a-b7bd4b4c9951">MoveNext</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689156(v=VS.85).aspx">MoveNext</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/46a2021f-170f-41db-ba4a-b7bd4b4c9951">IFaxOutgoingMessageIterator::MoveNext</a> method moves the archive cursor to the next fax message in the outbound archive.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689156(v=VS.85).aspx">IFaxOutgoingMessageIterator::MoveNext</a> method moves the archive cursor to the next fax message in the outbound archive.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ The <a href="https://msdn.microsoft.com/library/ms689616(v=VS.85).aspx">IFaxOutg
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/101f2c77-50e1-4ed4-ae01-d52a21abaaf2">PrefetchSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687978(v=VS.85).aspx">PrefetchSize</a>
 
 
 </td>
@@ -141,7 +141,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/101f2c77-50e1-4ed4-ae01-d52a21abaaf2">IFaxOutgoingMessageIterator::get_PrefetchSize</a> property indicates the size of the prefetch (read-ahead) buffer. This determines how many fax messages the iterator object retrieves from the fax server when the object needs to refresh its contents.
+The <a href="https://msdn.microsoft.com/en-us/library/ms687978(v=VS.85).aspx">IFaxOutgoingMessageIterator::get_PrefetchSize</a> property indicates the size of the prefetch (read-ahead) buffer. This determines how many fax messages the iterator object retrieves from the fax server when the object needs to refresh its contents.
 
 </td>
 </tr>

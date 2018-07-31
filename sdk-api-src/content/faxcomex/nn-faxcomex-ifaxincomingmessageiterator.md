@@ -74,19 +74,19 @@ The <b>IFaxIncomingMessageIterator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b266318b-d989-47bd-b905-739830153abe">MoveFirst</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686770(v=VS.85).aspx">MoveFirst</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/b266318b-d989-47bd-b905-739830153abe">MoveFirst</a> method moves the archive cursor to the first fax message in the archive of inbound faxes.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686770(v=VS.85).aspx">MoveFirst</a> method moves the archive cursor to the first fax message in the archive of inbound faxes.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1afa36b2-ef4f-4391-8dc6-5e33980fd492">MoveNext</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684951(v=VS.85).aspx">MoveNext</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/1afa36b2-ef4f-4391-8dc6-5e33980fd492">MoveNext</a> method moves the archive cursor to the next message in the archive of inbound faxes.
+The <a href="https://msdn.microsoft.com/en-us/library/ms684951(v=VS.85).aspx">MoveNext</a> method moves the archive cursor to the next message in the archive of inbound faxes.
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ The <a href="https://msdn.microsoft.com/library/ms687005(v=VS.85).aspx">AtEOF</a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/52846cf4-4e6b-43cc-a9ba-3e4820fc2aa8">Message</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687461(v=VS.85).aspx">Message</a>
 
 
 </td>
@@ -126,7 +126,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/52846cf4-4e6b-43cc-a9ba-3e4820fc2aa8">Message</a> property retrieves the inbound fax message under the archive cursor.
+The <a href="https://msdn.microsoft.com/en-us/library/ms687461(v=VS.85).aspx">Message</a> property retrieves the inbound fax message under the archive cursor.
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ The <a href="https://msdn.microsoft.com/library/ms686518(v=VS.85).aspx">Prefetch
 
 
 
-To create a <b>FaxIncomingMessageIterator</b> object in C++, call the <a href="https://msdn.microsoft.com/7b314907-97c9-49f8-abaf-d716706c6b79">IFaxIncomingArchive::GetMessages</a> method.
+To create a <b>FaxIncomingMessageIterator</b> object in C++, call the <a href="https://msdn.microsoft.com/en-us/library/ms684869(v=VS.85).aspx">IFaxIncomingArchive::GetMessages</a> method.
 
 
 

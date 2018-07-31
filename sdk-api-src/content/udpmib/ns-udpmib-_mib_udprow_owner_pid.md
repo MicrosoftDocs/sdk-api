@@ -109,7 +109,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="_iphlp_getudptable">GetUdpTable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366033(v=VS.85).aspx">GetUdpTable</a>
 
 
 

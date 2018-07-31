@@ -126,7 +126,7 @@ Anchors are always positioned between characters or regions. When two anchors ar
 
 
 
-<a href="ranges.htm">Anchors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Anchors</a>
 
 
 

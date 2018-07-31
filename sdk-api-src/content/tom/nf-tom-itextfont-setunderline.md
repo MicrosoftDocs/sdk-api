@@ -275,11 +275,11 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/a5eb1920-278f-4b23-8d27-25090ebb18a2">GetUnderline</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774038(v=VS.85).aspx">GetUnderline</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
 
 
 
@@ -287,7 +287,7 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

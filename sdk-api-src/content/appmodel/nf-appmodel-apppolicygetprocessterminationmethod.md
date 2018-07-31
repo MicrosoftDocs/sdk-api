@@ -65,7 +65,7 @@ A handle that identifies the access token for a process.
 
 ### -param policy [out]
 
-A pointer to a variable of the <a href="appxpkg.apppolicyprocessterminationmethod_enumeration">AppPolicyProcessTerminationMethod</a> enumerated type. When the function returns successfully, the variable contains a value indicating the method used to end the process.
+A pointer to a variable of the <a href="https://msdn.microsoft.com/en-us/library/Mt829659(v=VS.85).aspx">AppPolicyProcessTerminationMethod</a> enumerated type. When the function returns successfully, the variable contains a value indicating the method used to end the process.
 
 
 ## -returns

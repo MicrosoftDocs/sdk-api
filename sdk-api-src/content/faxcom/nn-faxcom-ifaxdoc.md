@@ -72,10 +72,10 @@ The <b>IFaxDoc</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a4c70429-4d1d-4708-acd6-e077bddfbd6c">IFaxDoc::Send</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692792(v=VS.85).aspx">IFaxDoc::Send</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/a4c70429-4d1d-4708-acd6-e077bddfbd6c">Send</a> method transmits the document specified by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922788">FileName</a> property of a <a href="https://msdn.microsoft.com/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The method can send the fax to the fax number specified by the <a href="https://msdn.microsoft.com/library/ms692360(v=VS.85).aspx">FaxNumber</a> property.
+The <a href="https://msdn.microsoft.com/en-us/library/ms692792(v=VS.85).aspx">Send</a> method transmits the document specified by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922788">FileName</a> property of a <a href="https://msdn.microsoft.com/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The method can send the fax to the fax number specified by the <a href="https://msdn.microsoft.com/library/ms692360(v=VS.85).aspx">FaxNumber</a> property.
 
 </td>
 </tr>
@@ -655,15 +655,15 @@ A client application should not call the <a href="https://msdn.microsoft.com/lib
 
 <ol>
 <li>Call the <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function to retrieve a pointer to an <a href="https://msdn.microsoft.com/library/ms692375(v=VS.85).aspx">IFaxServer</a> interface.</li>
-<li>Call the <a href="https://msdn.microsoft.com/12e71c4c-c4b5-4e6d-a1fa-b833d6a00ff8">IFaxServer::Connect</a> method to connect to an active fax server. </li>
-<li>Call the <a href="https://msdn.microsoft.com/5132538b-8250-4279-8091-19f112176594">IFaxServer::CreateDocument</a> method to create and initialize a <a href="https://msdn.microsoft.com/library/ms692317(v=VS.85).aspx">FaxDoc</a> object for the connected fax server. (After calling the <b>IFaxServer::CreateDocument</b> method, you can also call the <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method to retrieve an <b>IFaxDoc</b> interface pointer.)</li>
+<li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms692315(v=VS.85).aspx">IFaxServer::Connect</a> method to connect to an active fax server. </li>
+<li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms690786(v=VS.85).aspx">IFaxServer::CreateDocument</a> method to create and initialize a <a href="https://msdn.microsoft.com/library/ms692317(v=VS.85).aspx">FaxDoc</a> object for the connected fax server. (After calling the <b>IFaxServer::CreateDocument</b> method, you can also call the <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method to retrieve an <b>IFaxDoc</b> interface pointer.)</li>
 <li>Use the <b>IDispatch</b> interface pointer to call <b>IFaxDoc</b> interface methods.</li>
-<li>Call the <a href="https://msdn.microsoft.com/dccbb6b1-b889-4b73-a3d0-9c5ce6268f4a">IFaxServer::Disconnect</a> method to disconnect from the fax server.</li>
+<li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms691936(v=VS.85).aspx">IFaxServer::Disconnect</a> method to disconnect from the fax server.</li>
 <li>Call the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method to destroy the <b>IFaxDoc</b> interface pointer, and the parent <a href="https://msdn.microsoft.com/library/ms692375(v=VS.85).aspx">IFaxServer</a> interface pointer.</li>
 </ol>
 The property methods of the <b>IFaxDoc</b> interface get or set the properties described following. If the property supports read access, the <b>IFaxDoc</b> interface includes a <i>get_PropertyName</i> method. If the property supports write access, the interface includes a <i>put_PropertyName</i> method.
 
-Values are not required for optional properties that appear only on the cover page. The <a href="https://msdn.microsoft.com/library/windows/hardware/dn922788">FileName</a> property is required to send a fax transmission using a call to the <a href="https://msdn.microsoft.com/a4c70429-4d1d-4708-acd6-e077bddfbd6c">IFaxDoc::Send</a> method. The <a href="https://msdn.microsoft.com/library/ms692360(v=VS.85).aspx">FaxNumber</a> property is also required.
+Values are not required for optional properties that appear only on the cover page. The <a href="https://msdn.microsoft.com/library/windows/hardware/dn922788">FileName</a> property is required to send a fax transmission using a call to the <a href="https://msdn.microsoft.com/en-us/library/ms692792(v=VS.85).aspx">IFaxDoc::Send</a> method. The <a href="https://msdn.microsoft.com/library/ms692360(v=VS.85).aspx">FaxNumber</a> property is also required.
 
 The fax server can supply data from the registry for many properties that begin with <b>Sender</b>. The fax server supplies values if they have been entered under the <b>User Information</b> tab accessed through the Fax icon in Control Panel.
 

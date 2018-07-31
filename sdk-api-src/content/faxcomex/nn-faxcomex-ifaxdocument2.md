@@ -85,7 +85,7 @@ Submits one or more fax documents to the connected <a href="https://msdn.microso
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/63deca4c-a248-4f77-9cd6-6b1d845b6236">Submit2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359012(v=VS.85).aspx">Submit2</a>
 </td>
 <td align="left" width="63%">
 Submits one or more documents to the fax service for processing.
@@ -127,7 +127,7 @@ Provides a collection of one or more documents to the fax document.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ee3815dc-d1cb-471a-b42b-459b0085a1ad">SubmissionId</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359011(v=VS.85).aspx">SubmissionId</a>
 
 
 </td>

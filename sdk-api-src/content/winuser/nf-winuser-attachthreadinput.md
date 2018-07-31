@@ -104,15 +104,15 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 Windows created in different threads typically process input independently of each other. That is, they have their own input states (focus, active, capture windows, key state, queue status, and so on), and their input processing is not synchronized with the input processing of other threads. By using the 
-<b>AttachThreadInput</b> function, a thread can attach its input processing mechanism to another thread. Keyboard and mouse events received by both threads are processed by the  thread specified by the <i>idAttachTo</i> parameter until the threads are detached by calling <b>AttachThreadInput</b> a second time and specifying <b>FALSE</b> for the <i>fAttach</i> parameter. This also allows threads to share their input states, so they can call the <a href="_win32_setfocus_cpp">SetFocus</a> function to set the keyboard focus to a window of a different thread. This also allows threads to get key-state information. 
+<b>AttachThreadInput</b> function, a thread can attach its input processing mechanism to another thread. Keyboard and mouse events received by both threads are processed by the  thread specified by the <i>idAttachTo</i> parameter until the threads are detached by calling <b>AttachThreadInput</b> a second time and specifying <b>FALSE</b> for the <i>fAttach</i> parameter. This also allows threads to share their input states, so they can call the <a href="https://msdn.microsoft.com/en-us/library/Dd376983(v=VS.85).aspx">SetFocus</a> function to set the keyboard focus to a window of a different thread. This also allows threads to get key-state information. 
 
 The 
 <b>AttachThreadInput</b> function fails if either of the specified threads does not have a message queue. The system creates a thread's message queue when the thread makes its first call to one of the USER or GDI functions. The 
 <b>AttachThreadInput</b> function also fails if a journal record hook is installed. Journal record hooks attach all input queues together.
 
 Note that key state, which can be ascertained by calls to the 
-<a href="_win32_getkeystate_cpp">GetKeyState</a> or 
-<a href="_win32_getkeyboardstate_cpp">GetKeyboardState</a> function, is reset after a call to 
+<a href="https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx">GetKeyState</a> or 
+<a href="https://msdn.microsoft.com/en-us/library/ms646299(v=VS.85).aspx">GetKeyboardState</a> function, is reset after a call to 
 <b>AttachThreadInput</b>. You cannot attach a thread to a thread in another <a href="https://msdn.microsoft.com/library/windows/hardware/mt483735">desktop</a>.
 
 
@@ -127,15 +127,15 @@ Note that key state, which can be ascertained by calls to the
 
 
 
-<a href="_win32_getkeystate_cpp">GetKeyState</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646301(v=VS.85).aspx">GetKeyState</a>
 
 
 
-<a href="_win32_getkeyboardstate_cpp">GetKeyboardState</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646299(v=VS.85).aspx">GetKeyboardState</a>
 
 
 
-<a href="_win32_getwindowthreadprocessid_cpp">GetWindowThreadProcessId</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633522(v=VS.85).aspx">GetWindowThreadProcessId</a>
 
 
 
@@ -143,7 +143,7 @@ Note that key state, which can be ascertained by calls to the
 
 
 
-<a href="_win32_setfocus_cpp">SetFocus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376983(v=VS.85).aspx">SetFocus</a>
 
 
 

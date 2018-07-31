@@ -88,12 +88,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-Before calling <b>EmptyClipboard</b>, an application must open the clipboard by using the <a href="https://msdn.microsoft.com/494e4e6f-6d82-45cc-8c0b-f8c54056bc5f">OpenClipboard</a> function. If the application specifies a <b>NULL</b> window handle when opening the clipboard, <b>EmptyClipboard</b> succeeds but sets the clipboard owner to <b>NULL</b>. Note that this causes <a href="https://msdn.microsoft.com/45ca0c04-cf1a-4206-a05f-9957e50be89c">SetClipboardData</a> to fail. 
+Before calling <b>EmptyClipboard</b>, an application must open the clipboard by using the <a href="https://msdn.microsoft.com/en-us/library/ms649048(v=VS.85).aspx">OpenClipboard</a> function. If the application specifies a <b>NULL</b> window handle when opening the clipboard, <b>EmptyClipboard</b> succeeds but sets the clipboard owner to <b>NULL</b>. Note that this causes <a href="https://msdn.microsoft.com/en-us/library/ms649051(v=VS.85).aspx">SetClipboardData</a> to fail. 
 
 
 #### Examples
 
-For an example, see <a href="using_the_clipboard.htm">Copying Information to the Clipboard</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v=VS.85).aspx">Copying Information to the Clipboard</a>.
 
 <div class="code"></div>
 
@@ -104,7 +104,7 @@ For an example, see <a href="using_the_clipboard.htm">Copying Information to the
 
 
 
-<a href="https://msdn.microsoft.com/61a9bff7-3c46-4e42-81f7-e020ff0b667f">Clipboard</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
 
 
 
@@ -112,7 +112,7 @@ For an example, see <a href="using_the_clipboard.htm">Copying Information to the
 
 
 
-<a href="https://msdn.microsoft.com/494e4e6f-6d82-45cc-8c0b-f8c54056bc5f">OpenClipboard</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649048(v=VS.85).aspx">OpenClipboard</a>
 
 
 
@@ -120,11 +120,11 @@ For an example, see <a href="using_the_clipboard.htm">Copying Information to the
 
 
 
-<a href="https://msdn.microsoft.com/45ca0c04-cf1a-4206-a05f-9957e50be89c">SetClipboardData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649051(v=VS.85).aspx">SetClipboardData</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f75b7fb-e9ae-4876-ba99-7db931b9c2ff">WM_DESTROYCLIPBOARD</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms649024(v=VS.85).aspx">WM_DESTROYCLIPBOARD</a>
  
 
  

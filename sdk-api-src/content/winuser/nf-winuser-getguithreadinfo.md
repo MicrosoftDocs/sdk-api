@@ -69,7 +69,7 @@ Retrieves information about the active window or a specified GUI thread.
 
 Type: <b>DWORD</b>
 
-The identifier for the thread for which information is to be retrieved. To retrieve this value, use the <a href="https://msdn.microsoft.com/ee257a43-e348-44a5-945b-d04412266b39">GetWindowThreadProcessId</a> function. If this parameter is <b>NULL</b>, the function returns information for the foreground thread. 
+The identifier for the thread for which information is to be retrieved. To retrieve this value, use the <a href="https://msdn.microsoft.com/en-us/library/ms633522(v=VS.85).aspx">GetWindowThreadProcessId</a> function. If this parameter is <b>NULL</b>, the function returns information for the foreground thread. 
 
 
 ### -param pgui
@@ -83,7 +83,7 @@ TBD
 
 Type: <b>LPGUITHREADINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/e6c76931-355e-4920-9526-5a97a0fb26b4">GUITHREADINFO</a> structure that receives information describing the thread. Note that you must set the <b>cbSize</b> member to <code>sizeof(GUITHREADINFO)</code> before calling this function. 
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms632604(v=VS.85).aspx">GUITHREADINFO</a> structure that receives information describing the thread. Note that you must set the <b>cbSize</b> member to <code>sizeof(GUITHREADINFO)</code> before calling this function. 
 
 
 ## -returns
@@ -137,7 +137,7 @@ For an edit control, the returned <b>rcCaret</b> rectangle contains the caret pl
 
  To get the actual insertion point in the <b>rcCaret</b> rectangle, perform the following steps.
 				<ol>
-<li>Call <a href="https://msdn.microsoft.com/121e5253-bce3-4f64-8b99-3f89006aa355">GetKeyboardLayout</a> to retrieve the current input language. </li>
+<li>Call <a href="https://msdn.microsoft.com/en-us/library/ms646296(v=VS.85).aspx">GetKeyboardLayout</a> to retrieve the current input language. </li>
 <li>Determine the character used for the cursor, based on the current input language.</li>
 <li>Call <a href="https://msdn.microsoft.com/373bac6e-5d4d-4909-8096-2f0e909d2f1d">CreateFont</a> using Sans Serif for the font, the height given by <b>rcCaret</b>, and a width of <code>zero</code>. For <i>fnWeight</i>, call <code>SystemParametersInfo(SPI_GETCARETWIDTH, 0, pvParam, 0)</code>. If <i>pvParam</i> is greater than 1, set <i>fnWeight</i> to 700, otherwise set <i>fnWeight</i> to 400.</li>
 <li>Select the font into a device context (DC) and use <a href="https://msdn.microsoft.com/b48ab66d-ff0a-48d9-b7dd-28610bf69d51">GetCharABCWidths</a> to get the <code>B</code> width of the appropriate cursor character.</li>
@@ -145,14 +145,14 @@ For an edit control, the returned <b>rcCaret</b> rectangle contains the caret pl
 </ol>
 
 
-The function may not return valid window handles in the <a href="https://msdn.microsoft.com/e6c76931-355e-4920-9526-5a97a0fb26b4">GUITHREADINFO</a> structure when called to retrieve information for the foreground thread, such as when a window is losing activation.
+The function may not return valid window handles in the <a href="https://msdn.microsoft.com/en-us/library/ms632604(v=VS.85).aspx">GUITHREADINFO</a> structure when called to retrieve information for the foreground thread, such as when a window is losing activation.
 
 
 
 
 
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
-The coordinates returned in the <b>rcCaret</b> rect of the <a href="https://msdn.microsoft.com/e6c76931-355e-4920-9526-5a97a0fb26b4">GUITHREADINFO</a> struct are logical coordinates in terms of the window associated with the caret. They are not virtualized into the mode of the calling thread.
+The coordinates returned in the <b>rcCaret</b> rect of the <a href="https://msdn.microsoft.com/en-us/library/ms632604(v=VS.85).aspx">GUITHREADINFO</a> struct are logical coordinates in terms of the window associated with the caret. They are not virtualized into the mode of the calling thread.
 
 
 
@@ -166,15 +166,15 @@ The coordinates returned in the <b>rcCaret</b> rect of the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/e6c76931-355e-4920-9526-5a97a0fb26b4">GUITHREADINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632604(v=VS.85).aspx">GUITHREADINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/4dea42e7-f78f-4e34-9e1d-e76123a209fc">GetCursorInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648389(v=VS.85).aspx">GetCursorInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee257a43-e348-44a5-945b-d04412266b39">GetWindowThreadProcessId</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633522(v=VS.85).aspx">GetWindowThreadProcessId</a>
 
 
 

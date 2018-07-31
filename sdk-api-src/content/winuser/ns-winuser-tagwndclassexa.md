@@ -53,10 +53,10 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Contains window class information. It is used with the <a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a> and <a href="https://msdn.microsoft.com/a353eaa2-7a79-4008-84fe-a72847350745">GetClassInfoEx</a> 
+Contains window class information. It is used with the <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> and <a href="https://msdn.microsoft.com/en-us/library/ms633579(v=VS.85).aspx">GetClassInfoEx</a> 
 			functions. 
 
-The <b>WNDCLASSEX</b> structure is similar to the <a href="https://msdn.microsoft.com/7e2a4e89-19b6-4ef7-81dd-f44a3874e546">WNDCLASS</a> structure. There are two differences. <b>WNDCLASSEX</b> includes the <b>cbSize</b> member, which specifies the size of the structure, and the <b>hIconSm</b> member, which contains a handle to a small icon associated with the window class.
+The <b>WNDCLASSEX</b> structure is similar to the <a href="https://msdn.microsoft.com/en-us/library/ms633576(v=VS.85).aspx">WNDCLASS</a> structure. There are two differences. <b>WNDCLASSEX</b> includes the <b>cbSize</b> member, which specifies the size of the structure, and the <b>hIconSm</b> member, which contains a handle to a small icon associated with the window class.
 
 
 ## -struct-fields
@@ -68,21 +68,21 @@ The <b>WNDCLASSEX</b> structure is similar to the <a href="https://msdn.microsof
 
 Type: <b>UINT</b>
 
-The size, in bytes, of this structure. Set this member to <code>sizeof(WNDCLASSEX)</code>. Be sure to set this member before calling the <a href="https://msdn.microsoft.com/a353eaa2-7a79-4008-84fe-a72847350745">GetClassInfoEx</a> function. 
+The size, in bytes, of this structure. Set this member to <code>sizeof(WNDCLASSEX)</code>. Be sure to set this member before calling the <a href="https://msdn.microsoft.com/en-us/library/ms633579(v=VS.85).aspx">GetClassInfoEx</a> function. 
 
 
 ### -field style
 
 Type: <b>UINT</b>
 
-The class style(s). This member can be any combination of the <a href="about_window_classes.htm">Class Styles</a>. 
+The class style(s). This member can be any combination of the <a href="https://msdn.microsoft.com/en-us/library/ms633574(v=VS.85).aspx">Class Styles</a>. 
 
 
 ### -field lpfnWndProc
 
 Type: <b>WNDPROC</b>
 
-A pointer to the window procedure. You must use the <a href="https://msdn.microsoft.com/667449cd-1eea-43de-8268-3da73022d7ac">CallWindowProc</a> function to call the window procedure. For more information, see <a href="https://msdn.microsoft.com/4bb1cc3d-78db-4546-8ae9-d29fc6ee8f7c">WindowProc</a>. 
+A pointer to the window procedure. You must use the <a href="https://msdn.microsoft.com/en-us/library/ms633571(v=VS.85).aspx">CallWindowProc</a> function to call the window procedure. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx">WindowProc</a>. 
 
 
 ### -field cbClsExtra
@@ -149,10 +149,10 @@ A handle to the class background brush. This member can be a handle to the brush
 <li>COLOR_WINDOWFRAME</li>
 <li>COLOR_WINDOWTEXT </li>
 </ul>
-The system automatically deletes class background brushes when the class is unregistered by using <a href="https://msdn.microsoft.com/ce0277a9-082e-49ef-b8fd-779284303ffa">UnregisterClass</a>. An application should not delete these brushes. 
+The system automatically deletes class background brushes when the class is unregistered by using <a href="https://msdn.microsoft.com/en-us/library/ms644899(v=VS.85).aspx">UnregisterClass</a>. An application should not delete these brushes. 
 
 When this member is <b>NULL</b>, an application must paint its own background whenever it is requested to paint in its client area. To determine whether the background must be painted, an application can either process the 
-						<a href="https://msdn.microsoft.com/3bdc37da-227c-4be1-bf0b-99704b8acbe1">WM_ERASEBKGND</a> message or test the 
+						<a href="https://msdn.microsoft.com/en-us/library/ms648055(v=VS.85).aspx">WM_ERASEBKGND</a> message or test the 
 						<b>fErase</b> member of the <a href="https://msdn.microsoft.com/1f8c6dd2-e511-48f2-8ab0-d2fadb1ce433">PAINTSTRUCT</a> structure filled by the <a href="https://msdn.microsoft.com/513341d7-bed8-469c-a067-ee71dc8860f9">BeginPaint</a> function. 
 
 
@@ -160,20 +160,20 @@ When this member is <b>NULL</b>, an application must paint its own background wh
 
 Type: <b>LPCTSTR</b>
 
-Pointer to a null-terminated character string that specifies the resource name of the class menu, as the name appears in the resource file. If you use an integer to identify the menu, use the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro. If this member is <b>NULL</b>, windows belonging to this class have no default menu. 
+Pointer to a null-terminated character string that specifies the resource name of the class menu, as the name appears in the resource file. If you use an integer to identify the menu, use the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. If this member is <b>NULL</b>, windows belonging to this class have no default menu. 
 
 
 ### -field lpszClassName
 
 Type: <b>LPCTSTR</b>
 
-A pointer to a null-terminated string or is an atom. If this parameter is an atom, it must be a class atom created by a previous call to the <a href="https://msdn.microsoft.com/485115e5-b4ec-4e93-89ce-eee229ccabb7">RegisterClass</a> or <a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a> function. The atom must be in the low-order word of 
+A pointer to a null-terminated string or is an atom. If this parameter is an atom, it must be a class atom created by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a> or <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function. The atom must be in the low-order word of 
 					<b>lpszClassName</b>; the high-order word must be zero. 
 					
 
-If <b>lpszClassName</b> is a string, it specifies the window class name. The class name can be any name registered with <a href="https://msdn.microsoft.com/485115e5-b4ec-4e93-89ce-eee229ccabb7">RegisterClass</a> or <a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a>, or any of the predefined control-class names. 
+If <b>lpszClassName</b> is a string, it specifies the window class name. The class name can be any name registered with <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a> or <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>, or any of the predefined control-class names. 
 
-The maximum length for <b>lpszClassName</b> is 256. If <b>lpszClassName</b> is greater than the maximum length, the <a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a> function will fail.
+The maximum length for <b>lpszClassName</b> is 256. If <b>lpszClassName</b> is greater than the maximum length, the <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function will fail.
 
 
 ### -field hIconSm
@@ -193,7 +193,7 @@ A handle to a small icon that is associated with the window class. If this membe
 
 
 
-<a href="https://msdn.microsoft.com/a353eaa2-7a79-4008-84fe-a72847350745">GetClassInfoEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633579(v=VS.85).aspx">GetClassInfoEx</a>
 
 
 
@@ -201,15 +201,15 @@ A handle to a small icon that is associated with the window class. If this membe
 
 
 
-<a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce0277a9-082e-49ef-b8fd-779284303ffa">UnregisterClass</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644899(v=VS.85).aspx">UnregisterClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ef633db-af76-42d6-b211-96846578eaac">Window Classes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632596(v=VS.85).aspx">Window Classes</a>
  
 
  

@@ -183,7 +183,7 @@ A pointer to a string variable that contains the name of the proxy server to use
 
 #### - pwszUserAgent [in, optional]
 
-A pointer to a string variable that contains the name of the application or entity calling the WinHTTP functions. This name is used as the <a href="glossary.htm">user agent</a> in the HTTP protocol.
+A pointer to a string variable that contains the name of the application or entity calling the WinHTTP functions. This name is used as the <a href="https://msdn.microsoft.com/en-us/library/Aa383870(v=VS.85).aspx">user agent</a> in the HTTP protocol.
 
 
 ## -returns

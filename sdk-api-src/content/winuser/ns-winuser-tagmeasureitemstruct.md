@@ -146,22 +146,22 @@ The height, in pixels, of an individual item in a list box or a menu. Before ret
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">ULONG_PTR</a></b>
 
-The application-defined value associated with the menu item. For a control, this member specifies the value last assigned to the list box or combo box by the <a href="https://msdn.microsoft.com/df974fa2-114a-43ef-b0ac-0451c31d95cd">LB_SETITEMDATA</a> or <a href="https://msdn.microsoft.com/8be9eb57-a635-4c52-9838-556368813c74">CB_SETITEMDATA</a> message. If the list box or combo box has the LB_HASSTRINGS or CB_HASSTRINGS style, this value is initially zero. Otherwise, this value is initially the value passed to the list box or combo box in the 
+The application-defined value associated with the menu item. For a control, this member specifies the value last assigned to the list box or combo box by the <a href="https://msdn.microsoft.com/en-us/library/Bb761346(v=VS.85).aspx">LB_SETITEMDATA</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb775909(v=VS.85).aspx">CB_SETITEMDATA</a> message. If the list box or combo box has the LB_HASSTRINGS or CB_HASSTRINGS style, this value is initially zero. Otherwise, this value is initially the value passed to the list box or combo box in the 
 					<i>lParam</i> parameter of one of the following messages: 
 					
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/201bcb7b-e7d1-41e6-8eb7-a5864b659a52">CB_ADDSTRING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775828(v=VS.85).aspx">CB_ADDSTRING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b9067b4e-afca-4c78-9ca2-c717b99c7459">CB_INSERTSTRING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775875(v=VS.85).aspx">CB_INSERTSTRING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/924d9232-6e38-49c3-aa3e-19efd46b01ba">LB_ADDSTRING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775181(v=VS.85).aspx">LB_ADDSTRING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/dfaa742d-2f42-4485-aed5-cda8ca9ba66c">LB_INSERTSTRING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761321(v=VS.85).aspx">LB_INSERTSTRING</a>
 </li>
 </ul>
 
@@ -169,7 +169,7 @@ The application-defined value associated with the menu item. For a control, this
 
 
 
-The owner window of an owner-drawn control receives a pointer to the <b>MEASUREITEMSTRUCT</b> structure as the <i>lParam</i> parameter of a <a href="https://msdn.microsoft.com/6947bcd1-fd40-4238-b8f2-d4e06b90c0dc">WM_MEASUREITEM</a> message. The owner-drawn control sends this message to its owner window when the control is created. The owner then fills in the appropriate members in the structure for the control and returns. This structure is common to all owner-drawn controls except the owner-drawn button control whose size is predetermined by its window. 
+The owner window of an owner-drawn control receives a pointer to the <b>MEASUREITEMSTRUCT</b> structure as the <i>lParam</i> parameter of a <a href="https://msdn.microsoft.com/en-us/library/Bb775925(v=VS.85).aspx">WM_MEASUREITEM</a> message. The owner-drawn control sends this message to its owner window when the control is created. The owner then fills in the appropriate members in the structure for the control and returns. This structure is common to all owner-drawn controls except the owner-drawn button control whose size is predetermined by its window. 
 
 If an application does not fill the appropriate members of <b>MEASUREITEMSTRUCT</b>, the control or menu item may not be drawn properly. 
 
@@ -181,27 +181,27 @@ If an application does not fill the appropriate members of <b>MEASUREITEMSTRUCT<
 
 
 
-<a href="https://msdn.microsoft.com/201bcb7b-e7d1-41e6-8eb7-a5864b659a52">CB_ADDSTRING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775828(v=VS.85).aspx">CB_ADDSTRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/b9067b4e-afca-4c78-9ca2-c717b99c7459">CB_INSERTSTRING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775875(v=VS.85).aspx">CB_INSERTSTRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/8be9eb57-a635-4c52-9838-556368813c74">CB_SETITEMDATA</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775909(v=VS.85).aspx">CB_SETITEMDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/924d9232-6e38-49c3-aa3e-19efd46b01ba">LB_ADDSTRING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775181(v=VS.85).aspx">LB_ADDSTRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfaa742d-2f42-4485-aed5-cda8ca9ba66c">LB_INSERTSTRING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761321(v=VS.85).aspx">LB_INSERTSTRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/df974fa2-114a-43ef-b0ac-0451c31d95cd">LB_SETITEMDATA</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761346(v=VS.85).aspx">LB_SETITEMDATA</a>
 
 
 
@@ -209,7 +209,7 @@ If an application does not fill the appropriate members of <b>MEASUREITEMSTRUCT<
 
 
 
-<a href="https://msdn.microsoft.com/6947bcd1-fd40-4238-b8f2-d4e06b90c0dc">WM_MEASUREITEM</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775925(v=VS.85).aspx">WM_MEASUREITEM</a>
  
 
  

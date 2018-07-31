@@ -65,7 +65,7 @@ This property is read-only.
 
 If the current page is not available, the <b>IFaxStatus::get_CurrentPage</b> method returns zero.
 
-You can use the <b>CurrentPage</b> property of a <a href="https://msdn.microsoft.com/library/ms691355(v=VS.85).aspx">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/ae44f8d7-9447-425f-b7c4-fe0208205798">PageCount</a> property of the object to provide users with a running page count for an outbound fax job. For example, you could inform a user that the fax server is currently transmitting the second page of a four page transmission.
+You can use the <b>CurrentPage</b> property of a <a href="https://msdn.microsoft.com/library/ms691355(v=VS.85).aspx">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/ms692296(v=VS.85).aspx">PageCount</a> property of the object to provide users with a running page count for an outbound fax job. For example, you could inform a user that the fax server is currently transmitting the second page of a four page transmission.
 
 
 
@@ -99,7 +99,7 @@ You can use the <b>CurrentPage</b> property of a <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/ae44f8d7-9447-425f-b7c4-fe0208205798">PageCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692296(v=VS.85).aspx">PageCount</a>
  
 
  

@@ -82,12 +82,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-An application calls this function after calling the <a href="https://msdn.microsoft.com/f97cf81d-1f4c-4677-8e39-ca23f07aa95d">SetCapture</a> function. 
+An application calls this function after calling the <a href="https://msdn.microsoft.com/en-us/library/ms646262(v=VS.85).aspx">SetCapture</a> function. 
 
 
 #### Examples
 
-For an example, see <a href="using_mouse_input.htm">Drawing Lines with the Mouse</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms645602(v=VS.85).aspx">Drawing Lines with the Mouse</a>.
 
 <div class="code"></div>
 
@@ -102,11 +102,11 @@ For an example, see <a href="using_mouse_input.htm">Drawing Lines with the Mouse
 
 
 
-<a href="https://msdn.microsoft.com/cb35a155-f66c-4dc2-9358-d1065ec9c894">GetCapture</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646257(v=VS.85).aspx">GetCapture</a>
 
 
 
-<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
 
 
 
@@ -114,11 +114,11 @@ For an example, see <a href="using_mouse_input.htm">Drawing Lines with the Mouse
 
 
 
-<a href="https://msdn.microsoft.com/f97cf81d-1f4c-4677-8e39-ca23f07aa95d">SetCapture</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646262(v=VS.85).aspx">SetCapture</a>
 
 
 
-<a href="https://msdn.microsoft.com/79c8f65e-31fa-4bdb-9e88-0160a52b5b7d">WM_CAPTURECHANGED</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645605(v=VS.85).aspx">WM_CAPTURECHANGED</a>
  
 
  

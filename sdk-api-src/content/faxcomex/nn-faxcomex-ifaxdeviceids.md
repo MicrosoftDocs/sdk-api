@@ -102,16 +102,16 @@ The <a href="https://msdn.microsoft.com/library/ms684590(v=VS.85).aspx">IFaxDevi
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/97d01996-9777-4ec4-ab47-cd0340b7ef32">IFaxDeviceIds::Remove</a> method removes an item from the <a href="https://msdn.microsoft.com/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686154(v=VS.85).aspx">IFaxDeviceIds::Remove</a> method removes an item from the <a href="https://msdn.microsoft.com/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/317331a5-77a1-4990-ba40-dea99b0f40cb">SetOrder</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686156(v=VS.85).aspx">SetOrder</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/317331a5-77a1-4990-ba40-dea99b0f40cb">IFaxDeviceIds::SetOrder</a> method changes the order of a device in the ordered <a href="https://msdn.microsoft.com/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686156(v=VS.85).aspx">IFaxDeviceIds::SetOrder</a> method changes the order of a device in the ordered <a href="https://msdn.microsoft.com/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection.
 
 </td>
 </tr>

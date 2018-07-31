@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Finds the first list box string that exactly matches the specified string, except that the search is not case sensitive. You can use this macro or send the <a href="https://msdn.microsoft.com/9bfe21af-626d-4416-aa20-65c425bd99af">LB_FINDSTRINGEXACT</a> message explicitly.
+Finds the first list box string that exactly matches the specified string, except that the search is not case sensitive. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775189(v=VS.85).aspx">LB_FINDSTRINGEXACT</a> message explicitly.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ The string to find.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/9bfe21af-626d-4416-aa20-65c425bd99af">LB_FINDSTRINGEXACT</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775189(v=VS.85).aspx">LB_FINDSTRINGEXACT</a>.
 	
 
 
@@ -95,7 +95,7 @@ For more information, see <a href="https://msdn.microsoft.com/9bfe21af-626d-4416
 
 
 
-<a href="https://msdn.microsoft.com/09597c05-4d30-422c-a60d-3da3c1712cbb">ListBox_FindString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb856431(v=VS.85).aspx">ListBox_FindString</a>
  
 
  

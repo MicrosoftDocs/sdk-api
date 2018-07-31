@@ -280,7 +280,7 @@ Returned when an incoming response exceeds an internal WinHTTP size limit.
 </td>
 <td width="60%">
 One or more errors were found in the Secure Sockets Layer (SSL) certificate sent by the server.  To determine what type of error was encountered, check for a 
-<a href="internet_status_callback_prototype.htm">WINHTTP_CALLBACK_STATUS_SECURE_FAILURE</a> notification in a status callback function.  For more information, see 
+<a href="https://msdn.microsoft.com/en-us/library/Aa383917(v=VS.85).aspx">WINHTTP_CALLBACK_STATUS_SECURE_FAILURE</a> notification in a status callback function.  For more information, see 
 <a href="https://msdn.microsoft.com/4d828e41-9073-407a-aab5-531f1d6d6d02">WINHTTP_STATUS_CALLBACK</a>.
 
 </td>

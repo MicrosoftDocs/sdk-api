@@ -114,7 +114,7 @@ The user can manage all the messages in the server's receive folder. This includ
 
 
 
-<a href="https://msdn.microsoft.com/c7a839d9-d7d5-4942-8886-b1ca494c5842">IFaxSecurity2::GrantedRights</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358980(v=VS.85).aspx">IFaxSecurity2::GrantedRights</a>
  
 
  

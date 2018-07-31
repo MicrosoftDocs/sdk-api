@@ -65,7 +65,7 @@ This property is read/write.
 
 The sender's fax number can appear on the cover page.
 
-The <a href="https://msdn.microsoft.com/e2d9bbbe-6878-4546-a2b9-be776dc18897">get_SenderFax</a> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
+The <a href="https://msdn.microsoft.com/en-us/library/ms690712(v=VS.85).aspx">get_SenderFax</a> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
 
 

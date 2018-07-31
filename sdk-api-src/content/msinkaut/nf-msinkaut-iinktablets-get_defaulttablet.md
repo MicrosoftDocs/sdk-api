@@ -92,7 +92,7 @@ The platform determines the default <a href="https://msdn.microsoft.com/9a945740
 
 
 
-<a href="tablet.iinktablets">IInkTablets</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846807(v=VS.85).aspx">IInkTablets</a>
 
 
 

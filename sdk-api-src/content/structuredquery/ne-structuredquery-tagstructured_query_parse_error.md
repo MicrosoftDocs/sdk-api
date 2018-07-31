@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-A set of flags to be used with <a href="https://msdn.microsoft.com/50eead1a-5eb9-4bc9-ba54-c6dc77284f4d">IQuerySolution::GetErrors</a> to indentify parsing error(s). Each parsing error indicates that one or more tokens were ignored when parsing a query string.
+A set of flags to be used with <a href="https://msdn.microsoft.com/en-us/library/Bb231343(v=VS.85).aspx">IQuerySolution::GetErrors</a> to indentify parsing error(s). Each parsing error indicates that one or more tokens were ignored when parsing a query string.
 
 
 ## -enum-fields
@@ -99,7 +99,7 @@ Any other parse error.
 
 
 
-<a href="https://msdn.microsoft.com/5fcc5c82-8d56-4495-8248-cf2fd19dd85a">IRichChunk</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231336(v=VS.85).aspx">IRichChunk</a>
  
 
  

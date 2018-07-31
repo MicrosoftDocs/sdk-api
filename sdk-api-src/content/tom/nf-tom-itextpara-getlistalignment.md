@@ -143,7 +143,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-For a description of the different types of lists, see the <a href="https://msdn.microsoft.com/df2b0821-9216-465a-b066-60807a0b3e0f">ITextPara::GetListType</a> method.
+For a description of the different types of lists, see the <a href="https://msdn.microsoft.com/en-us/library/Bb773991(v=VS.85).aspx">ITextPara::GetListType</a> method.
 
 
 
@@ -157,11 +157,11 @@ For a description of the different types of lists, see the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/df2b0821-9216-465a-b066-60807a0b3e0f">GetListType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773991(v=VS.85).aspx">GetListType</a>
 
 
 
-<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
 
 
 
@@ -169,11 +169,11 @@ For a description of the different types of lists, see the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/5fabc8f6-da0f-470c-96a2-9cd0638d3269">SetListAlignment</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774171(v=VS.85).aspx">SetListAlignment</a>
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

@@ -85,7 +85,7 @@ You can use the <a href="https://msdn.microsoft.com/9c7f879a-1b6c-4bd0-8dc1-82f2
 
 
 
-<a href="tablet.iinkoverlay">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
 
 
 

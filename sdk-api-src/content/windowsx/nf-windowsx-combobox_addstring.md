@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Adds a string to a list in a combo box. If the combo box does not have the <a href="Combo_Box_Styles.htm">CBS_SORT</a> style, the string is added to the end of the list. Otherwise, the string is inserted into the list and the list is sorted. You can use this macro or send the <a href="https://msdn.microsoft.com/201bcb7b-e7d1-41e6-8eb7-a5864b659a52">CB_ADDSTRING</a> message explicitly.
+Adds a string to a list in a combo box. If the combo box does not have the <a href="Combo_Box_Styles.htm">CBS_SORT</a> style, the string is added to the end of the list. Otherwise, the string is inserted into the list and the list is sorted. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775828(v=VS.85).aspx">CB_ADDSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ The string to add.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/201bcb7b-e7d1-41e6-8eb7-a5864b659a52">CB_ADDSTRING</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775828(v=VS.85).aspx">CB_ADDSTRING</a>.
 	
 
 

@@ -90,10 +90,10 @@ The <a href="https://msdn.microsoft.com/library/ms688294(v=VS.85).aspx">IFaxOutg
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d6492ecc-c75d-4051-bd86-62fa338c9f2d">Refresh</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689545(v=VS.85).aspx">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/d6492ecc-c75d-4051-bd86-62fa338c9f2d">IFaxOutgoingArchive::Refresh</a> method refreshes <a href="https://msdn.microsoft.com/library/ms688634(v=VS.85).aspx">FaxOutgoingArchive</a> object information from the fax server. When the <b>IFaxOutgoingArchive::Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/fb4941f9-4170-4336-a26e-32ae009b1176">IFaxOutgoingArchive::Save</a> method call are lost.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689545(v=VS.85).aspx">IFaxOutgoingArchive::Refresh</a> method refreshes <a href="https://msdn.microsoft.com/library/ms688634(v=VS.85).aspx">FaxOutgoingArchive</a> object information from the fax server. When the <b>IFaxOutgoingArchive::Refresh</b> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/en-us/library/ms689213(v=VS.85).aspx">IFaxOutgoingArchive::Save</a> method call are lost.
 
 <div class="alert"><b>Note</b>  In Windows Vista, Windows Server 2008, and later versions of Windows, this method is not supported and returns an error.</div>
 <div> </div>
@@ -104,7 +104,7 @@ The <a href="https://msdn.microsoft.com/d6492ecc-c75d-4051-bd86-62fa338c9f2d">IF
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn926944">Save</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/fb4941f9-4170-4336-a26e-32ae009b1176">IFaxOutgoingArchive::Save</a> method saves the <a href="https://msdn.microsoft.com/library/ms688634(v=VS.85).aspx">FaxOutgoingArchive</a> object data.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689213(v=VS.85).aspx">IFaxOutgoingArchive::Save</a> method saves the <a href="https://msdn.microsoft.com/library/ms688634(v=VS.85).aspx">FaxOutgoingArchive</a> object data.
 
 <div class="alert"><b>Note</b>  In Windows Vista, Windows Server 2008, and later versions of Windows, this method is not supported and returns an error.</div>
 <div> </div>
@@ -157,7 +157,7 @@ The <a href="https://msdn.microsoft.com/library/ms689082(v=VS.85).aspx">IFaxOutg
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d89daf43-810a-4539-9ad6-5f6476660755">HighQuotaWaterMark</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689518(v=VS.85).aspx">HighQuotaWaterMark</a>
 
 
 </td>
@@ -166,7 +166,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/d89daf43-810a-4539-9ad6-5f6476660755">IFaxOutgoingArchive::get_HighQuotaWaterMark</a> property is a value that specifies the upper threshold for the size of the archive of inbound fax messages, in megabytes. If the archived fax messages in the archive exceed this value, and the <a href="https://msdn.microsoft.com/28c5eb64-7382-4968-82e7-fd2f79798e41">IFaxOutgoingArchive::get_SizeQuotaWarning</a> property is equal to <b>TRUE</b>, the fax service issues a warning in the event log.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689518(v=VS.85).aspx">IFaxOutgoingArchive::get_HighQuotaWaterMark</a> property is a value that specifies the upper threshold for the size of the archive of inbound fax messages, in megabytes. If the archived fax messages in the archive exceed this value, and the <a href="https://msdn.microsoft.com/en-us/library/ms689560(v=VS.85).aspx">IFaxOutgoingArchive::get_SizeQuotaWarning</a> property is equal to <b>TRUE</b>, the fax service issues a warning in the event log.
 
 <div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows. To access this property in Windows Vista, Windows Server 2008, and later versions of Windows,  get the <a href="https://msdn.microsoft.com/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a> interface from the <a href="https://msdn.microsoft.com/library/Aa358976(v=VS.85).aspx">IFaxServer2</a> interface, and then call the  <a href="https://msdn.microsoft.com/library/Aa358922(v=VS.85).aspx">IFaxConfiguration::put_HighQuotaWaterMark</a>   or <a href="https://msdn.microsoft.com/library/Aa358922(v=VS.85).aspx">IFaxConfiguration::get_HighQuotaWaterMark</a> method.</div>
 <div> </div>
@@ -175,7 +175,7 @@ The <a href="https://msdn.microsoft.com/d89daf43-810a-4539-9ad6-5f6476660755">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/31ed891a-ce0d-4482-bc05-79eb633f102e">LowQuotaWaterMark</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690239(v=VS.85).aspx">LowQuotaWaterMark</a>
 
 
 </td>
@@ -184,7 +184,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/31ed891a-ce0d-4482-bc05-79eb633f102e">IFaxOutgoingArchive::get_LowQuotaWaterMark</a> property is a value that specifies the lower threshold for the archive of outbound fax messages, in megabytes. If the fax service has issued a warning in the event log, the service does not issue additional warnings until the size of the outbound archive drops below this value.
+The <a href="https://msdn.microsoft.com/en-us/library/ms690239(v=VS.85).aspx">IFaxOutgoingArchive::get_LowQuotaWaterMark</a> property is a value that specifies the lower threshold for the archive of outbound fax messages, in megabytes. If the fax service has issued a warning in the event log, the service does not issue additional warnings until the size of the outbound archive drops below this value.
 
 <div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows. To access this property in Windows Vista, Windows Server 2008, and later versions of Windows,  get the <a href="https://msdn.microsoft.com/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a> interface from the <a href="https://msdn.microsoft.com/library/Aa358976(v=VS.85).aspx">IFaxServer2</a> interface, and then call the  <a href="https://msdn.microsoft.com/library/Aa358924(v=VS.85).aspx">IFaxConfiguration::put_LowQuotaWaterMark</a>   or <a href="https://msdn.microsoft.com/library/Aa358924(v=VS.85).aspx">IFaxConfiguration::get_LowQuotaWaterMark</a> method.</div>
 <div> </div>
@@ -193,7 +193,7 @@ The <a href="https://msdn.microsoft.com/31ed891a-ce0d-4482-bc05-79eb633f102e">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/b88b4d90-ed22-4d1a-bbac-08846b70db6d">SizeHigh</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689112(v=VS.85).aspx">SizeHigh</a>
 
 
 </td>
@@ -202,7 +202,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/b88b4d90-ed22-4d1a-bbac-08846b70db6d">IFaxOutgoingArchive::get_SizeHigh</a> property is a value that specifies the high 32-bit value (in bytes) for the size of the archive of outgoing fax messages.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689112(v=VS.85).aspx">IFaxOutgoingArchive::get_SizeHigh</a> property is a value that specifies the high 32-bit value (in bytes) for the size of the archive of outgoing fax messages.
 
 <div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows. To access this property in Windows Vista, Windows Server 2008, and later versions of Windows,  get the <a href="https://msdn.microsoft.com/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a> interface from the <a href="https://msdn.microsoft.com/library/Aa358976(v=VS.85).aspx">IFaxServer2</a> interface, and then call the  <a href="https://msdn.microsoft.com/3386ec80-be4e-4105-ab57-dd634b57f67f">IFaxConfiguration::get_ArchiveSizeHigh</a> method.</div>
 <div> </div>
@@ -211,7 +211,7 @@ The <a href="https://msdn.microsoft.com/b88b4d90-ed22-4d1a-bbac-08846b70db6d">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/045cfc9f-7385-48fb-834b-1ccad331bd37">SizeLow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690155(v=VS.85).aspx">SizeLow</a>
 
 
 </td>
@@ -220,7 +220,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/045cfc9f-7385-48fb-834b-1ccad331bd37">IFaxOutgoingArchive::get_SizeLow</a> property is a value that specifies the low 32-bit value (in bytes) for the size of the archive of outgoing fax messages.
+The <a href="https://msdn.microsoft.com/en-us/library/ms690155(v=VS.85).aspx">IFaxOutgoingArchive::get_SizeLow</a> property is a value that specifies the low 32-bit value (in bytes) for the size of the archive of outgoing fax messages.
 
 <div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows. To access this property in Windows Vista, Windows Server 2008, and later versions of Windows,  get the <a href="https://msdn.microsoft.com/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a> interface from the <a href="https://msdn.microsoft.com/library/Aa358976(v=VS.85).aspx">IFaxServer2</a> interface, and then call the  <a href="https://msdn.microsoft.com/e10cde26-deec-47b8-bc69-0b785087ab74">IFaxConfiguration::get_ArchiveSizeLow</a> method.</div>
 <div> </div>
@@ -229,7 +229,7 @@ The <a href="https://msdn.microsoft.com/045cfc9f-7385-48fb-834b-1ccad331bd37">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/28c5eb64-7382-4968-82e7-fd2f79798e41">SizeQuotaWarning</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689560(v=VS.85).aspx">SizeQuotaWarning</a>
 
 
 </td>
@@ -238,16 +238,16 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/28c5eb64-7382-4968-82e7-fd2f79798e41">IFaxOutgoingArchive::get_SizeQuotaWarning</a> property is a Boolean value that indicates whether the fax service issues a warning in the event log when the size of the outbound archive exceeds the limit defined by the <a href="https://msdn.microsoft.com/d89daf43-810a-4539-9ad6-5f6476660755">IFaxOutgoingArchive::get_HighQuotaWaterMark</a> property.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689560(v=VS.85).aspx">IFaxOutgoingArchive::get_SizeQuotaWarning</a> property is a Boolean value that indicates whether the fax service issues a warning in the event log when the size of the outbound archive exceeds the limit defined by the <a href="https://msdn.microsoft.com/en-us/library/ms689518(v=VS.85).aspx">IFaxOutgoingArchive::get_HighQuotaWaterMark</a> property.
 
-<div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows. To access this property in Windows Vista, Windows Server 2008, and later versions of Windows,  get the <a href="https://msdn.microsoft.com/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a> interface from the <a href="https://msdn.microsoft.com/library/Aa358976(v=VS.85).aspx">IFaxServer2</a> interface, and then call the  <a href="https://msdn.microsoft.com/541abd86-8edb-4d52-a323-5bdafab24653">IFaxConfiguration::put_SizeQuotaWarning</a>   or <a href="https://msdn.microsoft.com/541abd86-8edb-4d52-a323-5bdafab24653">IFaxConfiguration::get_SizeQuotaWarning</a> method.</div>
+<div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows. To access this property in Windows Vista, Windows Server 2008, and later versions of Windows,  get the <a href="https://msdn.microsoft.com/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a> interface from the <a href="https://msdn.microsoft.com/library/Aa358976(v=VS.85).aspx">IFaxServer2</a> interface, and then call the  <a href="https://msdn.microsoft.com/en-us/library/Aa358931(v=VS.85).aspx">IFaxConfiguration::put_SizeQuotaWarning</a>   or <a href="https://msdn.microsoft.com/en-us/library/Aa358931(v=VS.85).aspx">IFaxConfiguration::get_SizeQuotaWarning</a> method.</div>
 <div> </div>
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/dffffbb0-d570-4540-8338-2da0d47680c2">UseArchive</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689119(v=VS.85).aspx">UseArchive</a>
 
 
 </td>
@@ -256,7 +256,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/dffffbb0-d570-4540-8338-2da0d47680c2">IFaxOutgoingArchive::get_UseArchive</a> property is a Boolean value that indicates whether the fax service archives outbound fax messages. If this parameter is equal to <b>TRUE</b>, the fax service archives outbound fax messages. If this parameter is equal to <b>FALSE</b>, the fax service does not archive outbound faxes.
+The <a href="https://msdn.microsoft.com/en-us/library/ms689119(v=VS.85).aspx">IFaxOutgoingArchive::get_UseArchive</a> property is a Boolean value that indicates whether the fax service archives outbound fax messages. If this parameter is equal to <b>TRUE</b>, the fax service archives outbound fax messages. If this parameter is equal to <b>FALSE</b>, the fax service does not archive outbound faxes.
 
 <div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows. To access this property in Windows Vista, Windows Server 2008, and later versions of Windows,  get the <a href="https://msdn.microsoft.com/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a> interface from the <a href="https://msdn.microsoft.com/library/Aa358976(v=VS.85).aspx">IFaxServer2</a> interface, and then call the  <a href="https://msdn.microsoft.com/library/Aa358932(v=VS.85).aspx">IFaxConfiguration::put_UseArchive</a>   or <a href="https://msdn.microsoft.com/library/Aa358932(v=VS.85).aspx">IFaxConfiguration::get_UseArchive</a> method.</div>
 <div> </div>

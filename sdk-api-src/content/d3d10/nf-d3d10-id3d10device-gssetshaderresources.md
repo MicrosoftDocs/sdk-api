@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Bind an array of shader resources to the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">geometry shader stage</a>.
+Bind an array of shader resources to the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">geometry shader stage</a>.
 
 
 ## -parameters

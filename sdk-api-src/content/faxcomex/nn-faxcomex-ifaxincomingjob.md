@@ -128,10 +128,10 @@ Retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ac2c2265-5a47-4fcb-89bb-ab80decdcce2">Refresh</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687497(v=VS.85).aspx">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/ac2c2265-5a47-4fcb-89bb-ab80decdcce2">Refresh</a> method refreshes <a href="https://msdn.microsoft.com/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a> object information from the fax server.
+The <a href="https://msdn.microsoft.com/en-us/library/ms687497(v=VS.85).aspx">Refresh</a> method refreshes <a href="https://msdn.microsoft.com/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a> object information from the fax server.
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn922691">CSID<
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a6fa5376-15cb-4ac7-a7e4-ced0ff0a70e8">CurrentPage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686166(v=VS.85).aspx">CurrentPage</a>
 
 
 </td>
@@ -187,14 +187,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/a6fa5376-15cb-4ac7-a7e4-ced0ff0a70e8">CurrentPage</a> property is a number that identifies the page that the fax service is actively receiving on an inbound fax job.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686166(v=VS.85).aspx">CurrentPage</a> property is a number that identifies the page that the fax service is actively receiving on an inbound fax job.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/65f47403-97fa-411d-b6f3-fbbc7c55cabf">DeviceId</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686938(v=VS.85).aspx">DeviceId</a>
 
 
 </td>
@@ -203,14 +203,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/65f47403-97fa-411d-b6f3-fbbc7c55cabf">DeviceId</a> property indicates the device ID of the device receiving the inbound fax job.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686938(v=VS.85).aspx">DeviceId</a> property indicates the device ID of the device receiving the inbound fax job.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4280eb52-c5fa-4e06-8395-b7039d27eccc">ExtendedStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687052(v=VS.85).aspx">ExtendedStatus</a>
 
 
 </td>
@@ -219,7 +219,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/4280eb52-c5fa-4e06-8395-b7039d27eccc">ExtendedStatus</a> property is a null-terminated string that describes the job's extended status.
+The <a href="https://msdn.microsoft.com/en-us/library/ms687052(v=VS.85).aspx">ExtendedStatus</a> property is a null-terminated string that describes the job's extended status.
 
 </td>
 </tr>
@@ -242,7 +242,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">Id</a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c45950c5-2910-4367-bee7-e813851a6f9a">Retries</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686049(v=VS.85).aspx">Retries</a>
 
 
 </td>
@@ -251,14 +251,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/c45950c5-2910-4367-bee7-e813851a6f9a">Retries</a> property is a value that indicates the number of times the fax service attempted to route an incoming fax when the initial routing attempt failed.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686049(v=VS.85).aspx">Retries</a> property is a value that indicates the number of times the fax service attempted to route an incoming fax when the initial routing attempt failed.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/b9b7c8fc-cb72-42c6-8ab9-e07f3332a40c">RoutingInformation</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687436(v=VS.85).aspx">RoutingInformation</a>
 
 
 </td>
@@ -267,7 +267,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/b9b7c8fc-cb72-42c6-8ab9-e07f3332a40c">RoutingInformation</a> property is a null-terminated string that specifies routing information for the inbound fax job.
+The <a href="https://msdn.microsoft.com/en-us/library/ms687436(v=VS.85).aspx">RoutingInformation</a> property is a null-terminated string that specifies routing information for the inbound fax job.
 
 </td>
 </tr>
@@ -290,7 +290,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn915850">Size<
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/313225b4-f515-4f1b-bb20-cd2b2ebf1996">TransmissionEnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686162(v=VS.85).aspx">TransmissionEnd</a>
 
 
 </td>
@@ -299,14 +299,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/313225b4-f515-4f1b-bb20-cd2b2ebf1996">TransmissionEnd</a> property indicates the time at which the inbound fax job completed transmission.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686162(v=VS.85).aspx">TransmissionEnd</a> property indicates the time at which the inbound fax job completed transmission.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/49425bf3-28ac-4976-ad8e-b704e9d8dcb7">TransmissionStart</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686505(v=VS.85).aspx">TransmissionStart</a>
 
 
 </td>
@@ -315,7 +315,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/49425bf3-28ac-4976-ad8e-b704e9d8dcb7">TransmissionStart</a> property indicates the time that the fax inbound job began transmitting.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686505(v=VS.85).aspx">TransmissionStart</a> property indicates the time that the fax inbound job began transmitting.
 
 </td>
 </tr>

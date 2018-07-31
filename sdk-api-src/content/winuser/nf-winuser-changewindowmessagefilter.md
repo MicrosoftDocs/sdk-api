@@ -53,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 <p class="CCE_Message">[Using the 
 		<b>ChangeWindowMessageFilter</b> function is not recommended, as it has process-wide scope. 
-		Instead, use the <a href="https://msdn.microsoft.com/0167c716-8c54-4ec6-b4aa-bec4e8efd515">ChangeWindowMessageFilterEx</a> function to 
+		Instead, use the <a href="https://msdn.microsoft.com/en-us/library/Dd388202(v=VS.85).aspx">ChangeWindowMessageFilterEx</a> function to 
 		control access to specific windows as needed.
 		<b>ChangeWindowMessageFilter</b> may not be supported in future versions of Windows.]
 

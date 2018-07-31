@@ -91,7 +91,7 @@ A fax client application can use the <a href="https://msdn.microsoft.com/library
 
 
 
-<a href="https://msdn.microsoft.com/144023b3-bf12-4e81-856c-6745695d9c30">FunctionName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690894(v=VS.85).aspx">FunctionName</a>
 
 
 

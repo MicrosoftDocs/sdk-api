@@ -361,7 +361,7 @@ Sets or retrieves a value that indicates the number of redial attempts for a giv
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e6bb8e86-41bb-46a3-9a8a-a4b218439467">RetryDelay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358929(v=VS.85).aspx">RetryDelay</a>
 
 
 </td>
@@ -377,7 +377,7 @@ Sets or retrieves a value that indicates the length of time the fax service shou
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/541abd86-8edb-4d52-a323-5bdafab24653">SizeQuotaWarning</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358931(v=VS.85).aspx">SizeQuotaWarning</a>
 
 
 </td>

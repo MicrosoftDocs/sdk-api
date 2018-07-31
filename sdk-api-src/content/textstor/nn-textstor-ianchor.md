@@ -51,7 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-The <b>IAnchor</b> interface is implemented by the TSF manager. Clients of <a href="_msaa_microsoft_active_accessibility_start_page">Microsoft Active Accessibility</a> use <b>IAnchor</b> anchor objects to delimit a range of text within a text stream.
+The <b>IAnchor</b> interface is implemented by the TSF manager. Clients of <a href="https://msdn.microsoft.com/en-us/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a> use <b>IAnchor</b> anchor objects to delimit a range of text within a text stream.
 
 The interface ID is IID_IAnchor.
 
@@ -178,11 +178,11 @@ Shifts the current anchor to the same position as another anchor.
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
 
 
 
-<a href="_msaa_microsoft_active_accessibility_start_page">Microsoft Active Accessibility</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a>
  
 
  

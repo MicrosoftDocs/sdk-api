@@ -81,7 +81,7 @@ Handle of the window.
 
 Type: <b>HTHEME</b>
 
-The most recent theme handle from <a href="https://msdn.microsoft.com/3c496a3f-e4d0-4938-af66-85df93829cd8">OpenThemeData</a>.
+The most recent theme handle from <a href="https://msdn.microsoft.com/en-us/library/Bb759821(v=VS.85).aspx">OpenThemeData</a>.
 
 
 
@@ -90,7 +90,7 @@ The most recent theme handle from <a href="https://msdn.microsoft.com/3c496a3f-e
 
 
 
-If a window has a visual style applied, the <b>GetWindowTheme</b> function returns the most recent theme handle from <a href="https://msdn.microsoft.com/3c496a3f-e4d0-4938-af66-85df93829cd8">OpenThemeData</a>. If no visual style is applied, <b>GetWindowTheme</b> returns <b>NULL</b>.
+If a window has a visual style applied, the <b>GetWindowTheme</b> function returns the most recent theme handle from <a href="https://msdn.microsoft.com/en-us/library/Bb759821(v=VS.85).aspx">OpenThemeData</a>. If no visual style is applied, <b>GetWindowTheme</b> returns <b>NULL</b>.
 
 
 

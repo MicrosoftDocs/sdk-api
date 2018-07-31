@@ -72,7 +72,7 @@ The <b>IFaxSecurity2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9dc0fccd-e588-4f21-b195-fb4a4cb80bb9">Refresh</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358982(v=VS.85).aspx">Refresh</a>
 </td>
 <td align="left" width="63%">
 Refreshes <a href="https://msdn.microsoft.com/library/Aa358873(v=VS.85).aspx">FaxSecurity2</a> object information from the fax server.
@@ -115,7 +115,7 @@ Represents the security descriptor for a <a href="https://msdn.microsoft.com/lib
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c7a839d9-d7d5-4942-8886-b1ca494c5842">GrantedRights</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358980(v=VS.85).aspx">GrantedRights</a>
 
 
 </td>
@@ -131,7 +131,7 @@ Retrieves a combination of the fax server access rights granted to the user refe
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a9f1995e-00d1-4d20-8d3a-bf6dc80d6533">InformationType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358981(v=VS.85).aspx">InformationType</a>
 
 
 </td>

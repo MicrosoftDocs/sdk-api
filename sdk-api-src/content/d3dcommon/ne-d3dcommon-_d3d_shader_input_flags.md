@@ -116,7 +116,7 @@ This value is not used by a programmer; it exists to force the enumeration to co
 
 
 
-These flags are used in a shader-input-signature description (see <a href="https://msdn.microsoft.com/8929f7d4-6fd0-4b48-b1d8-0b089d4c730d">D3D10_SHADER_INPUT_BIND_DESC</a>).
+These flags are used in a shader-input-signature description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172433(v=VS.85).aspx">D3D10_SHADER_INPUT_BIND_DESC</a>).
 
 The <b>D3D10_SHADER_INPUT_FLAGS</b>     enumeration is type defined in the  D3D10shader.h header file as a <a href="https://msdn.microsoft.com/3c79331e-73c0-42d7-9948-6ac2671a4ab5">D3D_SHADER_INPUT_FLAGS</a> enumeration, which is fully defined in the  D3DCommon.h header file.
 
@@ -139,7 +139,7 @@ typedef D3D_SHADER_INPUT_FLAGS D3D10_SHADER_INPUT_FLAGS;</pre>
 
 
 
-<a href="https://msdn.microsoft.com/8d2b758b-cc2a-43ad-bf26-51674d4b5129">Shader Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205156(v=VS.85).aspx">Shader Enumerations</a>
  
 
  

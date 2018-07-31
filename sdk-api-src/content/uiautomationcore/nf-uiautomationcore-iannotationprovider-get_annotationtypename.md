@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-The name of the annotation type can correspond to one of the annotation type identifiers (for example, “Comment” for  <a href="uiauto_annotation_type_identifiers.htm">AnnotationType_Comment</a>), but it is not required to.
+The name of the annotation type can correspond to one of the annotation type identifiers (for example, “Comment” for  <a href="https://msdn.microsoft.com/en-us/library/Hh448743(v=VS.85).aspx">AnnotationType_Comment</a>), but it is not required to.
 
 
 

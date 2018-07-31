@@ -99,7 +99,7 @@ The <b>IFaxStatus::get_RoutingString</b> method allocates the memory required fo
 
 
 
-<a href="https://msdn.microsoft.com/0293b40b-b1ea-45bb-aa0e-6f22d535e7cc">Receive</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691932(v=VS.85).aspx">Receive</a>
 
 
 

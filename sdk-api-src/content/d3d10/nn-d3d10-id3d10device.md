@@ -443,7 +443,7 @@ This method is not implemented.
 <a href="https://msdn.microsoft.com/library/Bb173576(v=VS.85).aspx">GSGetConstantBuffers</a>
 </td>
 <td align="left" width="63%">
-Get the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">geometry shader</a> pipeline stage.
+Get the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">geometry shader</a> pipeline stage.
 
 </td>
 </tr>
@@ -452,7 +452,7 @@ Get the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">cons
 <a href="https://msdn.microsoft.com/library/Bb173577(v=VS.85).aspx">GSGetSamplers</a>
 </td>
 <td align="left" width="63%">
-Get an array of sampler states from the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">geometry shader</a> pipeline stage.
+Get an array of sampler states from the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">geometry shader</a> pipeline stage.
 
 </td>
 </tr>
@@ -479,7 +479,7 @@ Get the geometry shader resources.
 <a href="https://msdn.microsoft.com/library/Bb173580(v=VS.85).aspx">GSSetConstantBuffers</a>
 </td>
 <td align="left" width="63%">
-Set the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">geometry shader</a> pipeline stage.
+Set the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">geometry shader</a> pipeline stage.
 
 </td>
 </tr>
@@ -488,7 +488,7 @@ Set the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">cons
 <a href="https://msdn.microsoft.com/library/Bb173581(v=VS.85).aspx">GSSetSamplers</a>
 </td>
 <td align="left" width="63%">
-Set an array of sampler states to the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">geometry shader</a> pipeline stage.
+Set an array of sampler states to the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">geometry shader</a> pipeline stage.
 
 </td>
 </tr>
@@ -506,7 +506,7 @@ Set a geometry shader to the device.
 <a href="https://msdn.microsoft.com/library/Bb173583(v=VS.85).aspx">GSSetShaderResources</a>
 </td>
 <td align="left" width="63%">
-Bind an array of shader resources to the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">geometry shader stage</a>.
+Bind an array of shader resources to the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">geometry shader stage</a>.
 
 </td>
 </tr>
@@ -651,7 +651,7 @@ Give a device access to a shared resource created on a different Direct3d device
 <a href="https://msdn.microsoft.com/library/Bb173599(v=VS.85).aspx">PSGetConstantBuffers</a>
 </td>
 <td align="left" width="63%">
-Get the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">pixel shader</a> pipeline stage.
+Get the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">pixel shader</a> pipeline stage.
 
 </td>
 </tr>
@@ -660,7 +660,7 @@ Get the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">cons
 <a href="https://msdn.microsoft.com/library/Bb173600(v=VS.85).aspx">PSGetSamplers</a>
 </td>
 <td align="left" width="63%">
-Get an array of sampler states from the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">pixel shader</a> pipeline stage.
+Get an array of sampler states from the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">pixel shader</a> pipeline stage.
 
 </td>
 </tr>
@@ -687,7 +687,7 @@ Get the pixel shader resources.
 <a href="https://msdn.microsoft.com/library/Bb173603(v=VS.85).aspx">PSSetConstantBuffers</a>
 </td>
 <td align="left" width="63%">
-Set the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">pixel shader</a> pipeline stage.
+Set the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">pixel shader</a> pipeline stage.
 
 </td>
 </tr>
@@ -696,7 +696,7 @@ Set the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">cons
 <a href="https://msdn.microsoft.com/library/Bb173604(v=VS.85).aspx">PSSetSamplers</a>
 </td>
 <td align="left" width="63%">
-Set an array of sampler states to the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">pixel shader</a> pipeline stage.
+Set an array of sampler states to the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">pixel shader</a> pipeline stage.
 
 </td>
 </tr>
@@ -714,7 +714,7 @@ Sets a pixel shader to the device.
 <a href="https://msdn.microsoft.com/library/Bb173606(v=VS.85).aspx">PSSetShaderResources</a>
 </td>
 <td align="left" width="63%">
-Bind an array of shader resources to the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">pixel shader stage</a>.
+Bind an array of shader resources to the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">pixel shader stage</a>.
 
 </td>
 </tr>
@@ -860,7 +860,7 @@ The CPU copies data from memory to a <a href="https://msdn.microsoft.com/library
 <a href="https://msdn.microsoft.com/library/Bb173622(v=VS.85).aspx">VSGetConstantBuffers</a>
 </td>
 <td align="left" width="63%">
-Get the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">vertex shader</a> pipeline stage.
+Get the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">vertex shader</a> pipeline stage.
 
 </td>
 </tr>
@@ -869,7 +869,7 @@ Get the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">cons
 <a href="https://msdn.microsoft.com/library/Bb173623(v=VS.85).aspx">VSGetSamplers</a>
 </td>
 <td align="left" width="63%">
-Get an array of sampler states from the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">vertex shader</a> pipeline stage.
+Get an array of sampler states from the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">vertex shader</a> pipeline stage.
 
 </td>
 </tr>
@@ -896,7 +896,7 @@ Get the vertex shader resources.
 <a href="https://msdn.microsoft.com/library/Bb173626(v=VS.85).aspx">VSSetConstantBuffers</a>
 </td>
 <td align="left" width="63%">
-Set the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">vertex shader</a> pipeline stage.
+Set the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">vertex shader</a> pipeline stage.
 
 </td>
 </tr>
@@ -905,7 +905,7 @@ Set the <a href="https://msdn.microsoft.com/library/Bb205133(v=VS.85).aspx">cons
 <a href="https://msdn.microsoft.com/library/Bb173627(v=VS.85).aspx">VSSetSamplers</a>
 </td>
 <td align="left" width="63%">
-Set an array of sampler states to the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">vertex shader</a> pipeline stage.
+Set an array of sampler states to the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">vertex shader</a> pipeline stage.
 
 </td>
 </tr>
@@ -923,7 +923,7 @@ Set a vertex shader to the device.
 <a href="https://msdn.microsoft.com/library/Bb173629(v=VS.85).aspx">VSSetShaderResources</a>
 </td>
 <td align="left" width="63%">
-Bind an array of shader resources to the <a href="direct3d10.d3d10_graphics_programming_guide_shader_stages">vertex shader stage</a>.
+Bind an array of shader resources to the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">vertex shader stage</a>.
 
 </td>
 </tr>

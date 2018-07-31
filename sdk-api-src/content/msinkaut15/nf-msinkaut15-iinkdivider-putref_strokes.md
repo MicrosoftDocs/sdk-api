@@ -85,7 +85,7 @@ To keep the <b>Strokes</b> property of the <a href="https://msdn.microsoft.com/2
 
 
 
-<a href="tablet.iinkdivider">IInkDivider</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847144(v=VS.85).aspx">IInkDivider</a>
 
 
 

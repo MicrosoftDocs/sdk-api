@@ -172,7 +172,7 @@ The following is a typical scenario for using <b>DuplicateTokenEx</b> to create 
 
 
 
-<a href="authorization_functions.htm">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
 
 
 
@@ -184,7 +184,7 @@ The following is a typical scenario for using <b>DuplicateTokenEx</b> to create 
 
 
 
-<a href="_win32_ddeimpersonateclient_cpp">DdeImpersonateClient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648756(v=VS.85).aspx">DdeImpersonateClient</a>
 
 
 

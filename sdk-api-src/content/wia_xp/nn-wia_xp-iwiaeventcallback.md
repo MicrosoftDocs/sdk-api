@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>IWiaEventCallback</b> interface is used by applications to receive notification of Windows Image Acquisition (WIA) hardware device events. An application registers itself to receive event notifications by passing a pointer to the <b>IWiaEventCallback</b> interface to the <a href="https://msdn.microsoft.com/81a5bb61-5ec6-4c0b-8627-faccaf54d05a">IWiaDevMgr::RegisterEventCallbackInterface</a> method.
+The <b>IWiaEventCallback</b> interface is used by applications to receive notification of Windows Image Acquisition (WIA) hardware device events. An application registers itself to receive event notifications by passing a pointer to the <b>IWiaEventCallback</b> interface to the <a href="https://msdn.microsoft.com/en-us/library/ms630146(v=VS.85).aspx">IWiaDevMgr::RegisterEventCallbackInterface</a> method.
 
 
 ## -inheritance
@@ -72,10 +72,10 @@ The <b>IWiaEventCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0aab6a63-07af-4833-b021-309300ea7343">ImageEventCallback</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms630119(v=VS.85).aspx">ImageEventCallback</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/0aab6a63-07af-4833-b021-309300ea7343">IWiaEventCallback::ImageEventCallback</a> method is invoked by the WIA run-time system when a hardware device event occurs.
+The <a href="https://msdn.microsoft.com/en-us/library/ms630119(v=VS.85).aspx">IWiaEventCallback::ImageEventCallback</a> method is invoked by the WIA run-time system when a hardware device event occurs.
 
 </td>
 </tr>

@@ -88,11 +88,11 @@ A fax client application can use the <b>Guid</b> property to uniquely identify a
 
 
 
-<a href="https://msdn.microsoft.com/9fdcc223-f919-4e55-af89-4734888fdbf7">FriendlyName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692373(v=VS.85).aspx">FriendlyName</a>
 
 
 
-<a href="https://msdn.microsoft.com/144023b3-bf12-4e81-856c-6745695d9c30">FunctionName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690894(v=VS.85).aspx">FunctionName</a>
 
 
 

@@ -56,7 +56,7 @@ The <b>IFaxServer</b> dual interface is used by a fax client application to mana
 <li>Methods to initiate and terminate connections with a fax server.</li>
 <li>Property methods to retrieve and set individual property values of <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> objects. </li>
 <li>Methods to create <a href="https://msdn.microsoft.com/library/ms692796(v=VS.85).aspx">FaxJobs</a>, <a href="https://msdn.microsoft.com/library/ms692319(v=VS.85).aspx">FaxPorts</a> and <a href="https://msdn.microsoft.com/library/ms692317(v=VS.85).aspx">FaxDoc</a> objects. </li>
-</ul><div class="alert"><b>Note</b>  A fax client application must call the <a href="https://msdn.microsoft.com/12e71c4c-c4b5-4e6d-a1fa-b833d6a00ff8">IFaxServer::Connect</a> method to initiate a connection with an active fax server before accessing most interfaces that begin with <b>IFax</b>. (A fax server connection is not required to access an <a href="https://msdn.microsoft.com/library/ms691802(v=VS.85).aspx">IFaxTiff</a> interface.)</div><div> </div>
+</ul><div class="alert"><b>Note</b>  A fax client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms692315(v=VS.85).aspx">IFaxServer::Connect</a> method to initiate a connection with an active fax server before accessing most interfaces that begin with <b>IFax</b>. (A fax server connection is not required to access an <a href="https://msdn.microsoft.com/library/ms691802(v=VS.85).aspx">IFaxTiff</a> interface.)</div><div> </div>
 
 ## -inheritance
 
@@ -76,46 +76,46 @@ The <b>IFaxServer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/12e71c4c-c4b5-4e6d-a1fa-b833d6a00ff8">Connect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692315(v=VS.85).aspx">Connect</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/12e71c4c-c4b5-4e6d-a1fa-b833d6a00ff8">Connect</a> method connects a fax client application to the specified fax server. Before accessing most interfaces that begin with <b>IFax</b>, the application must call this method to initiate a connection with an active fax server. A fax server connection is not required to access an <a href="https://msdn.microsoft.com/library/ms691802(v=VS.85).aspx">IFaxTiff</a> interface.
+The <a href="https://msdn.microsoft.com/en-us/library/ms692315(v=VS.85).aspx">Connect</a> method connects a fax client application to the specified fax server. Before accessing most interfaces that begin with <b>IFax</b>, the application must call this method to initiate a connection with an active fax server. A fax server connection is not required to access an <a href="https://msdn.microsoft.com/library/ms691802(v=VS.85).aspx">IFaxTiff</a> interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5132538b-8250-4279-8091-19f112176594">CreateDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690786(v=VS.85).aspx">CreateDocument</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/5132538b-8250-4279-8091-19f112176594">IFaxServer::CreateDocument</a> method creates a <a href="https://msdn.microsoft.com/library/ms692317(v=VS.85).aspx">FaxDoc</a> object for a specified <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The FaxDoc object allows a user to create and transmit a document to one or more fax recipients.
+The <a href="https://msdn.microsoft.com/en-us/library/ms690786(v=VS.85).aspx">IFaxServer::CreateDocument</a> method creates a <a href="https://msdn.microsoft.com/library/ms692317(v=VS.85).aspx">FaxDoc</a> object for a specified <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The FaxDoc object allows a user to create and transmit a document to one or more fax recipients.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dccbb6b1-b889-4b73-a3d0-9c5ce6268f4a">Disconnect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691936(v=VS.85).aspx">Disconnect</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/dccbb6b1-b889-4b73-a3d0-9c5ce6268f4a">IFaxServer::Disconnect</a> method terminates a fax client application's connection to a fax server.
+The <a href="https://msdn.microsoft.com/en-us/library/ms691936(v=VS.85).aspx">IFaxServer::Disconnect</a> method terminates a fax client application's connection to a fax server.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/45b195f9-0ac9-4150-84cf-64049cc4053f">GetJobs</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692836(v=VS.85).aspx">GetJobs</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/45b195f9-0ac9-4150-84cf-64049cc4053f">GetJobs</a> method creates and initializes a <a href="https://msdn.microsoft.com/library/ms690701(v=VS.85).aspx">FaxJobs</a> object for a specified <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <a href="https://msdn.microsoft.com/library/ms692796(v=VS.85).aspx">FaxJobs</a> object allows enumeration of the current queued jobs for the connected fax server.
+The <a href="https://msdn.microsoft.com/en-us/library/ms692836(v=VS.85).aspx">GetJobs</a> method creates and initializes a <a href="https://msdn.microsoft.com/library/ms690701(v=VS.85).aspx">FaxJobs</a> object for a specified <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <a href="https://msdn.microsoft.com/library/ms692796(v=VS.85).aspx">FaxJobs</a> object allows enumeration of the current queued jobs for the connected fax server.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e10c4f3e-c8bd-4134-a325-fe7da93b1caa">GetPorts</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692815(v=VS.85).aspx">GetPorts</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/e10c4f3e-c8bd-4134-a325-fe7da93b1caa">GetPorts</a> method creates and initializes a <a href="https://msdn.microsoft.com/library/ms692319(v=VS.85).aspx">FaxPorts</a> object for a specified <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The FaxPorts object allows enumeration of fax port configuration information for the connected fax server.
+The <a href="https://msdn.microsoft.com/en-us/library/ms692815(v=VS.85).aspx">GetPorts</a> method creates and initializes a <a href="https://msdn.microsoft.com/library/ms692319(v=VS.85).aspx">FaxPorts</a> object for a specified <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The FaxPorts object allows enumeration of fax port configuration information for the connected fax server.
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ The <a href="https://msdn.microsoft.com/e10c4f3e-c8bd-4134-a325-fe7da93b1caa">Ge
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/1c266ddb-62dc-4faf-9761-1c8c08c0b125">ArchiveDirectory</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691828(v=VS.85).aspx">ArchiveDirectory</a>
 
 
 </td>
@@ -139,14 +139,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/1c266ddb-62dc-4faf-9761-1c8c08c0b125">IFaxServer::get_ArchiveDirectory</a> method retrieves the <b>ArchiveDirectory</b> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>ArchiveDirectory</b> property is a null-terminated string that contains the location in which the fax server stores archived outbound faxes.
+The <a href="https://msdn.microsoft.com/en-us/library/ms691828(v=VS.85).aspx">IFaxServer::get_ArchiveDirectory</a> method retrieves the <b>ArchiveDirectory</b> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>ArchiveDirectory</b> property is a null-terminated string that contains the location in which the fax server stores archived outbound faxes.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8cf29336-f41d-4357-a6ea-c0b8ca3344ba">ArchiveOutboundFaxes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692347(v=VS.85).aspx">ArchiveOutboundFaxes</a>
 
 
 </td>
@@ -155,14 +155,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the <a href="https://msdn.microsoft.com/8cf29336-f41d-4357-a6ea-c0b8ca3344ba">ArchiveOutboundFaxes</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>ArchiveOutboundFaxes</b> property is a Boolean value that indicates whether the fax server archives outgoing fax transmissions. 
+Sets or retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms692347(v=VS.85).aspx">ArchiveOutboundFaxes</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>ArchiveOutboundFaxes</b> property is a Boolean value that indicates whether the fax server archives outgoing fax transmissions. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9e5f913a-b526-4ea9-9929-92062d2339bc">Branding</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690912(v=VS.85).aspx">Branding</a>
 
 
 </td>
@@ -171,14 +171,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the <a href="https://msdn.microsoft.com/9e5f913a-b526-4ea9-9929-92062d2339bc">Branding</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>Branding</b> property is a Boolean value that indicates whether the fax server generates branding information at the top of fax transmissions.
+Sets or retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms690912(v=VS.85).aspx">Branding</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>Branding</b> property is a Boolean value that indicates whether the fax server generates branding information at the top of fax transmissions.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8a13c189-0a35-4bb1-bae1-8c24784d9bbb">DirtyDays</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691836(v=VS.85).aspx">DirtyDays</a>
 
 
 </td>
@@ -187,14 +187,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the <a href="https://msdn.microsoft.com/8a13c189-0a35-4bb1-bae1-8c24784d9bbb">DirtyDays</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>DirtyDays</b> property is the number of days the fax server retains an unsent job in the fax job queue.
+Sets or retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms691836(v=VS.85).aspx">DirtyDays</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>DirtyDays</b> property is the number of days the fax server retains an unsent job in the fax job queue.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/959f2960-2e42-485e-9791-53849166bf88">DiscountRateEndHour</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691317(v=VS.85).aspx">DiscountRateEndHour</a>
 
 
 </td>
@@ -203,14 +203,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the <a href="https://msdn.microsoft.com/959f2960-2e42-485e-9791-53849166bf88">DiscountRateEndHour</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>DiscountRateEndHour</b> property is a number that represents the hour the discount period ends. The discount period applies only to outgoing fax transmissions.
+Sets or retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms691317(v=VS.85).aspx">DiscountRateEndHour</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>DiscountRateEndHour</b> property is a number that represents the hour the discount period ends. The discount period applies only to outgoing fax transmissions.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a8e1bf04-7fc4-48b3-8682-b06c550122a7">DiscountRateEndMinute</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690899(v=VS.85).aspx">DiscountRateEndMinute</a>
 
 
 </td>
@@ -220,14 +220,14 @@ Read/write
 </td>
 <td align="left" width="63%">
 
-		Sets or retrieves the <a href="https://msdn.microsoft.com/a8e1bf04-7fc4-48b3-8682-b06c550122a7">DiscountRateEndMinute</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>DiscountRateEndMinute</b> property is a number that represents the minute the discount period ends. The discount period applies only to outgoing fax transmissions.
+		Sets or retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms690899(v=VS.85).aspx">DiscountRateEndMinute</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>DiscountRateEndMinute</b> property is a number that represents the minute the discount period ends. The discount period applies only to outgoing fax transmissions.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/b144d4db-bd0e-4198-8653-6b22013c3d2e">DiscountRateStartHour</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690858(v=VS.85).aspx">DiscountRateStartHour</a>
 
 
 </td>
@@ -237,14 +237,14 @@ Read/write
 </td>
 <td align="left" width="63%">
 
-		Sets or retrieves the <a href="https://msdn.microsoft.com/b144d4db-bd0e-4198-8653-6b22013c3d2e">DiscountRateStartHour</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>DiscountRateStartHour</b> property is a number that represents the hour the discount period begins. The discount period applies only to outgoing fax transmissions. 
+		Sets or retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms690858(v=VS.85).aspx">DiscountRateStartHour</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>DiscountRateStartHour</b> property is a number that represents the hour the discount period begins. The discount period applies only to outgoing fax transmissions. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/98355801-ad54-4b1e-a2f2-dcd22ede26e2">DiscountRateStartMinute</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691308(v=VS.85).aspx">DiscountRateStartMinute</a>
 
 
 </td>
@@ -253,14 +253,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the <a href="https://msdn.microsoft.com/98355801-ad54-4b1e-a2f2-dcd22ede26e2">DiscountRateStartMinute</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>DiscountRateStartMinute</b> property is a number that represents the minute the discount period begins. The discount period applies only to outgoing fax transmissions.
+Sets or retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms691308(v=VS.85).aspx">DiscountRateStartMinute</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>DiscountRateStartMinute</b> property is a number that represents the minute the discount period begins. The discount period applies only to outgoing fax transmissions.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/36b39388-38c5-46f4-a5d4-888240f50ef3">PauseServerQueue</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692825(v=VS.85).aspx">PauseServerQueue</a>
 
 
 </td>
@@ -269,14 +269,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the <a href="https://msdn.microsoft.com/36b39388-38c5-46f4-a5d4-888240f50ef3">PauseServerQueue</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>PauseServerQueue</b> property is a Boolean value that indicates whether the fax server has paused the fax job queue.
+Sets or retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms692825(v=VS.85).aspx">PauseServerQueue</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>PauseServerQueue</b> property is a Boolean value that indicates whether the fax server has paused the fax job queue.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7766f135-24b3-4995-ad07-f69dcf4e396a">Retries</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691491(v=VS.85).aspx">Retries</a>
 
 
 </td>
@@ -285,14 +285,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the <a href="https://msdn.microsoft.com/7766f135-24b3-4995-ad07-f69dcf4e396a">Retries</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>Retries</b> property is a value that represents the number of times the fax server attempts to retransmit an outgoing fax when the initial transmission fails.
+Sets or retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms691491(v=VS.85).aspx">Retries</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>Retries</b> property is a value that represents the number of times the fax server attempts to retransmit an outgoing fax when the initial transmission fails.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/03806cfe-99e4-4559-a651-1195094e4f8b">RetryDelay</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691953(v=VS.85).aspx">RetryDelay</a>
 
 
 </td>
@@ -301,14 +301,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the <a href="https://msdn.microsoft.com/03806cfe-99e4-4559-a651-1195094e4f8b">RetryDelay</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>RetryDelay</b> property is a value that represents the time interval, in minutes, the fax server waits before attempting to retransmit an outbound fax job.
+Sets or retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms691953(v=VS.85).aspx">RetryDelay</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>RetryDelay</b> property is a value that represents the time interval, in minutes, the fax server waits before attempting to retransmit an outbound fax job.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/889e7233-fe5b-41f9-8436-0c7b28d78653">ServerCoverpage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691428(v=VS.85).aspx">ServerCoverpage</a>
 
 
 </td>
@@ -317,14 +317,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the <a href="https://msdn.microsoft.com/889e7233-fe5b-41f9-8436-0c7b28d78653">ServerCoverpage</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>ServerCoverpage</b> property is a Boolean value that indicates whether the fax server permits the use of common cover pages only. 
+Sets or retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms691428(v=VS.85).aspx">ServerCoverpage</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>ServerCoverpage</b> property is a Boolean value that indicates whether the fax server permits the use of common cover pages only. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7787fa4c-32fc-4f30-abda-31f9b30092c3">ServerMapiProfile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692833(v=VS.85).aspx">ServerMapiProfile</a>
 
 
 </td>
@@ -333,14 +333,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the <a href="https://msdn.microsoft.com/7787fa4c-32fc-4f30-abda-31f9b30092c3">ServerMapiProfile</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>ServerMapiProfile</b> property is a null-terminated string that contains the MAPI user profile that the fax server uses for routing incoming fax transmissions.
+Sets or retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms692833(v=VS.85).aspx">ServerMapiProfile</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>ServerMapiProfile</b> property is a null-terminated string that contains the MAPI user profile that the fax server uses for routing incoming fax transmissions.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a27d55e8-68c0-4700-becb-d56ecddbef44">UseDeviceTsid</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690868(v=VS.85).aspx">UseDeviceTsid</a>
 
 
 </td>
@@ -350,7 +350,7 @@ Read/write
 </td>
 <td align="left" width="63%">
 
-		Sets or retrieves the <a href="https://msdn.microsoft.com/a27d55e8-68c0-4700-becb-d56ecddbef44">UseDeviceTsid</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>UseDeviceTsid</b> property is a Boolean value that indicates whether the fax server uses the device's TSID instead of a user-specified TSID.
+		Sets or retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms690868(v=VS.85).aspx">UseDeviceTsid</a> property for a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>UseDeviceTsid</b> property is a Boolean value that indicates whether the fax server uses the device's TSID instead of a user-specified TSID.
 
 </td>
 </tr>
@@ -375,15 +375,15 @@ To connect to a fax server, and create other fax client objects, perform the fol
 
 <ol>
 <li>Call the <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function to retrieve a pointer to an <b>IFaxServer</b> interface and create an instance of a <a href="https://msdn.microsoft.com/library/ms692367(v=VS.85).aspx">FaxServer</a> object. </li>
-<li>Call the <a href="https://msdn.microsoft.com/12e71c4c-c4b5-4e6d-a1fa-b833d6a00ff8">IFaxServer::Connect</a> method to initiate a connection with an active fax server. </li>
+<li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms692315(v=VS.85).aspx">IFaxServer::Connect</a> method to initiate a connection with an active fax server. </li>
 <li>After you obtain a connection, call the following methods to create the objects you need: 
 <ul>
-<li>The <a href="https://msdn.microsoft.com/45b195f9-0ac9-4150-84cf-64049cc4053f">IFaxServer::GetJobs</a> method to create a <a href="https://msdn.microsoft.com/library/ms692796(v=VS.85).aspx">FaxJobs</a> object. Use this object to create <a href="https://msdn.microsoft.com/library/ms692342(v=VS.85).aspx">FaxJob</a> objects and enumerate the fax jobs associated with a connected fax server. </li>
-<li>The <a href="https://msdn.microsoft.com/e10c4f3e-c8bd-4134-a325-fe7da93b1caa">IFaxServer::GetPorts</a> method to create a <a href="https://msdn.microsoft.com/library/ms692319(v=VS.85).aspx">FaxPorts</a> object. Use this object to create <a href="https://msdn.microsoft.com/library/ms691338(v=VS.85).aspx">FaxPort</a> objects and enumerate fax port configuration information for a connection to a fax server. </li>
-<li>The <a href="https://msdn.microsoft.com/5132538b-8250-4279-8091-19f112176594">IFaxServer::CreateDocument</a> method to create a <a href="https://msdn.microsoft.com/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. Use this object to transmit a fax and to retrieve and set the properties of FaxDoc objects. </li>
+<li>The <a href="https://msdn.microsoft.com/en-us/library/ms692836(v=VS.85).aspx">IFaxServer::GetJobs</a> method to create a <a href="https://msdn.microsoft.com/library/ms692796(v=VS.85).aspx">FaxJobs</a> object. Use this object to create <a href="https://msdn.microsoft.com/library/ms692342(v=VS.85).aspx">FaxJob</a> objects and enumerate the fax jobs associated with a connected fax server. </li>
+<li>The <a href="https://msdn.microsoft.com/en-us/library/ms692815(v=VS.85).aspx">IFaxServer::GetPorts</a> method to create a <a href="https://msdn.microsoft.com/library/ms692319(v=VS.85).aspx">FaxPorts</a> object. Use this object to create <a href="https://msdn.microsoft.com/library/ms691338(v=VS.85).aspx">FaxPort</a> objects and enumerate fax port configuration information for a connection to a fax server. </li>
+<li>The <a href="https://msdn.microsoft.com/en-us/library/ms690786(v=VS.85).aspx">IFaxServer::CreateDocument</a> method to create a <a href="https://msdn.microsoft.com/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. Use this object to transmit a fax and to retrieve and set the properties of FaxDoc objects. </li>
 </ul>
 </li>
-<li>Call the <a href="https://msdn.microsoft.com/dccbb6b1-b889-4b73-a3d0-9c5ce6268f4a">IFaxServer::Disconnect</a> method to disconnect from the fax server.</li>
+<li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms691936(v=VS.85).aspx">IFaxServer::Disconnect</a> method to disconnect from the fax server.</li>
 <li>Call the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method for each object to allow the object to deallocate itself. Call the method again, if necessary, to destroy the <a href="https://msdn.microsoft.com/library/ms690893(v=VS.85).aspx">IFaxPorts</a> or the <a href="https://msdn.microsoft.com/library/ms692372(v=VS.85).aspx">IFaxJobs</a> interface pointers. </li>
 </ol>
 Note that a client application should not call the <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function to create <a href="https://msdn.microsoft.com/library/ms692796(v=VS.85).aspx">FaxJobs</a>, <a href="https://msdn.microsoft.com/library/ms692319(v=VS.85).aspx">FaxPorts</a> or <a href="https://msdn.microsoft.com/library/ms692317(v=VS.85).aspx">FaxDoc</a> objects, or objects derived from these objects. For more information about creating and deallocating fax client objects, see the steps that are listed with each individual interface topic and the hierarchical diagram included in <a href="https://msdn.microsoft.com/library/ms691502(v=VS.85).aspx">The Fax Client Object Model</a>.

@@ -51,7 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Contains information about a hardware message sent to the system message queue. This structure is used to store message information for the <a href="https://msdn.microsoft.com/ee7cfc0e-c04e-4f1c-bf03-e6ad770d4659">JournalPlaybackProc</a> callback function. 
+Contains information about a hardware message sent to the system message queue. This structure is used to store message information for the <a href="https://msdn.microsoft.com/en-us/library/ms644982(v=VS.85).aspx">JournalPlaybackProc</a> callback function. 
 
 
 ## -struct-fields
@@ -105,11 +105,11 @@ A handle to the window to which the message was posted.
 
 
 
-<a href="https://msdn.microsoft.com/987095d7-059f-4eae-925d-6723ab6d524c">Hooks</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee7cfc0e-c04e-4f1c-bf03-e6ad770d4659">JournalPlaybackProc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644982(v=VS.85).aspx">JournalPlaybackProc</a>
 
 
 
@@ -117,7 +117,7 @@ A handle to the window to which the message was posted.
 
 
 
-<a href="https://msdn.microsoft.com/66c96282-528c-4f57-acab-ae03178e4fe9">SetWindowsHookEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
  
 
  

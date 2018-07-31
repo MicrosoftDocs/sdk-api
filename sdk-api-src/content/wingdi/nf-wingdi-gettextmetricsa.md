@@ -97,7 +97,7 @@ To determine whether a font is a TrueType font, first select it into a DC, then 
 
 #### Examples
 
-For an example, see "Displaying Keyboard Input" in <a href="_win32_Using_Keyboard_Input_cpp">Using Keyboard Input</a> or <a href="https://msdn.microsoft.com/d21613ef-1ba4-40bb-b922-afe287556441">Drawing Text from Different Fonts on the Same Line</a>.
+For an example, see "Displaying Keyboard Input" in <a href="https://msdn.microsoft.com/en-us/library/ms646268(v=VS.85).aspx">Using Keyboard Input</a> or <a href="https://msdn.microsoft.com/d21613ef-1ba4-40bb-b922-afe287556441">Drawing Text from Different Fonts on the Same Line</a>.
 
 <div class="code"></div>
 

@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the focus rectangle to the item at the specified index in a multiple-selection list box. If the item is not visible, it is scrolled into view. You can use this macro or send the <a href="https://msdn.microsoft.com/077c2b9b-6c52-49e2-b5be-ab91c067d5b2">LB_SETCARETINDEX</a> message explicitly.
+Sets the focus rectangle to the item at the specified index in a multiple-selection list box. If the item is not visible, it is scrolled into view. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761336(v=VS.85).aspx">LB_SETCARETINDEX</a> message explicitly.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Type: <b>int</b>
 
 The contents of the list box are scrolled till the item is fully visible.
 
-For more information, see <a href="https://msdn.microsoft.com/077c2b9b-6c52-49e2-b5be-ab91c067d5b2">LB_SETCARETINDEX</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761336(v=VS.85).aspx">LB_SETCARETINDEX</a>.
 
 
 

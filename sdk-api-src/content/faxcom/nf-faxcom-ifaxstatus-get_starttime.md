@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-You can use the <b>StartTime</b> property of a <a href="https://msdn.microsoft.com/library/ms691355(v=VS.85).aspx">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/c0358eec-dcd2-442f-8627-ac235484d23e">ElapsedTime</a> property of the object to inform users about the transmission length of a fax job.
+You can use the <b>StartTime</b> property of a <a href="https://msdn.microsoft.com/library/ms691355(v=VS.85).aspx">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/ms691311(v=VS.85).aspx">ElapsedTime</a> property of the object to inform users about the transmission length of a fax job.
 
 
 
@@ -73,7 +73,7 @@ You can use the <b>StartTime</b> property of a <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/c0358eec-dcd2-442f-8627-ac235484d23e">ElapsedTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691311(v=VS.85).aspx">ElapsedTime</a>
 
 
 

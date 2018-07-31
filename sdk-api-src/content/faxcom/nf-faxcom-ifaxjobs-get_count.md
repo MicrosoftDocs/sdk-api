@@ -99,7 +99,7 @@ After calling the <b>IFaxJobs::get_Count</b> method, a fax client application ca
 
 
 
-<a href="https://msdn.microsoft.com/45b195f9-0ac9-4150-84cf-64049cc4053f">GetJobs</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692836(v=VS.85).aspx">GetJobs</a>
 
 
 

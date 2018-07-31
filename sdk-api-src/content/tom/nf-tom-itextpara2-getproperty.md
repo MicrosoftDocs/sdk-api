@@ -88,12 +88,12 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-The <a href="tomconstants.htm">tomParaPropMathAlign</a> property sets the math alignment for math paragraphs in a text paragraph. It can have one of the following values.<dl>
-<dd><a href="tomconstants.htm">tomMathParaAlignDefault</a></dd>
-<dd><a href="tomconstants.htm">tomMathParaAlignCenterGroup</a></dd>
-<dd><a href="tomconstants.htm">tomMathParaAlignCenter</a></dd>
-<dd><a href="tomconstants.htm">tomMathParaAlignLeft</a></dd>
-<dd><a href="tomconstants.htm">tomMathParaAlignRight</a></dd>
+The <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomParaPropMathAlign</a> property sets the math alignment for math paragraphs in a text paragraph. It can have one of the following values.<dl>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathParaAlignDefault</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathParaAlignCenterGroup</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathParaAlignCenter</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathParaAlignLeft</a></dd>
+<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathParaAlignRight</a></dd>
 </dl>
 
 

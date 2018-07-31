@@ -80,19 +80,19 @@ The <b>IFaxJob</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee1d91d5-cd99-4148-b665-8840ff0e069a">Refresh</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692320(v=VS.85).aspx">Refresh</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/ee1d91d5-cd99-4148-b665-8840ff0e069a">IFaxJob::Refresh</a> method updates <a href="https://msdn.microsoft.com/library/ms692342(v=VS.85).aspx">FaxJob</a> object information for the associated fax job.
+The <a href="https://msdn.microsoft.com/en-us/library/ms692320(v=VS.85).aspx">IFaxJob::Refresh</a> method updates <a href="https://msdn.microsoft.com/library/ms692342(v=VS.85).aspx">FaxJob</a> object information for the associated fax job.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/91bec42d-c7ba-4c7c-941e-f08d6c4eefa0">SetStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691414(v=VS.85).aspx">SetStatus</a>
 </td>
 <td align="left" width="63%">
-Call the <a href="https://msdn.microsoft.com/91bec42d-c7ba-4c7c-941e-f08d6c4eefa0">IFaxJob::SetStatus</a> method to pause, resume, cancel, or restart a specified fax job.
+Call the <a href="https://msdn.microsoft.com/en-us/library/ms691414(v=VS.85).aspx">IFaxJob::SetStatus</a> method to pause, resume, cancel, or restart a specified fax job.
 
 </td>
 </tr>
@@ -364,11 +364,11 @@ Use the <b>IFaxJob</b> interface to access the job status for incoming and outgo
 A client application should not call the <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function to retrieve an <b>IFaxJob</b> interface pointer. Instead, the application must perform the following steps to create an instance of a <a href="https://msdn.microsoft.com/library/ms692342(v=VS.85).aspx">FaxJob</a> object. 
 				<ol>
 <li>Call the <a href="https://msdn.microsoft.com/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function to retrieve a pointer to an <a href="https://msdn.microsoft.com/library/ms692375(v=VS.85).aspx">IFaxServer</a> interface.</li>
-<li>Call the <a href="https://msdn.microsoft.com/12e71c4c-c4b5-4e6d-a1fa-b833d6a00ff8">IFaxServer::Connect</a> method to connect to an active fax server. </li>
-<li>Call the <a href="https://msdn.microsoft.com/45b195f9-0ac9-4150-84cf-64049cc4053f">IFaxServer::GetJobs</a> method to create and initialize a <a href="https://msdn.microsoft.com/library/ms692796(v=VS.85).aspx">FaxJobs</a> object for the connected fax server.</li>
+<li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms692315(v=VS.85).aspx">IFaxServer::Connect</a> method to connect to an active fax server. </li>
+<li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms692836(v=VS.85).aspx">IFaxServer::GetJobs</a> method to create and initialize a <a href="https://msdn.microsoft.com/library/ms692796(v=VS.85).aspx">FaxJobs</a> object for the connected fax server.</li>
 <li>Call the <a href="https://msdn.microsoft.com/library/ms691382(v=VS.85).aspx">IFaxJobs::get_Count</a> method and then the <a href="https://msdn.microsoft.com/library/ms691271(v=VS.85).aspx">IFaxJobs::get_Item</a> method to retrieve <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointers for each child <a href="https://msdn.microsoft.com/library/ms692342(v=VS.85).aspx">FaxJob</a> object. (You can also call the <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method to retrieve an <b>IFaxJob</b> interface pointer.)</li>
 <li>Use the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer to call <b>IFaxJob</b> interface methods.</li>
-<li>Call the <a href="https://msdn.microsoft.com/dccbb6b1-b889-4b73-a3d0-9c5ce6268f4a">IFaxServer::Disconnect</a> method to disconnect from the fax server.</li>
+<li>Call the <a href="https://msdn.microsoft.com/en-us/library/ms691936(v=VS.85).aspx">IFaxServer::Disconnect</a> method to disconnect from the fax server.</li>
 <li>Call the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method for each <a href="https://msdn.microsoft.com/library/ms692342(v=VS.85).aspx">FaxJob</a> object to allow the object to deallocate itself, and again to destroy the <a href="https://msdn.microsoft.com/library/ms692372(v=VS.85).aspx">IFaxJobs</a> interface pointer.</li>
 </ol>
 

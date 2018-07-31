@@ -80,7 +80,7 @@ TBD
 Type: <b>HWND</b>
 
 A handle to the window to be unregistered. The window was registered with a call to the
-		<a href="https://msdn.microsoft.com/122f2ddf-9156-4f75-a919-e8ab65a2745f">RegisterShellHookWindow</a> function.
+		<a href="https://msdn.microsoft.com/en-us/library/ms644989(v=VS.85).aspx">RegisterShellHookWindow</a> function.
 
 
 ## -returns
@@ -118,7 +118,7 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/122f2ddf-9156-4f75-a919-e8ab65a2745f">RegisterShellHookWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644989(v=VS.85).aspx">RegisterShellHookWindow</a>
 
 
 

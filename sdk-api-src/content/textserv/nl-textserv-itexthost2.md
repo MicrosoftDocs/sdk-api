@@ -51,12 +51,12 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-The <b>ITextHost2</b> interface extends the <a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a> interface. The purpose of these interfaces, along with <a href="https://msdn.microsoft.com/b0bc844f-2d20-4e67-84c5-0a5313bf6dee">ITextServices</a> and <a href="https://msdn.microsoft.com/B5DC90BA-F9A5-45DC-8C8A-784380C38769">ITextServices2</a>, is to enable rich edit controls to run without a dedicated window. The rich edit client typically has a window (<b>HWND</b>) that it shares with a number of windowless controls. 
+The <b>ITextHost2</b> interface extends the <a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a> interface. The purpose of these interfaces, along with <a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a> and <a href="https://msdn.microsoft.com/B5DC90BA-F9A5-45DC-8C8A-784380C38769">ITextServices2</a>, is to enable rich edit controls to run without a dedicated window. The rich edit client typically has a window (<b>HWND</b>) that it shares with a number of windowless controls. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextHost2</b> interface inherits from <a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>. <b>ITextHost2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextHost2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>. <b>ITextHost2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -146,7 +146,7 @@ Retrieves the window styles and extended windows styles of the text host window.
 <a href="https://msdn.microsoft.com/24051A4F-70CD-4147-B623-BC818F3F9AF2">TxIsDoubleClickPending</a>
 </td>
 <td align="left" width="63%">
-Discovers whether the message queue contains a <a href="https://msdn.microsoft.com/370aa19e-4939-4ac3-9c0b-137a9792e52a">WM_LBUTTONDBLCLK</a>  message that is pending for the text host window.
+Discovers whether the message queue contains a <a href="https://msdn.microsoft.com/en-us/library/ms645606(v=VS.85).aspx">WM_LBUTTONDBLCLK</a>  message that is pending for the text host window.
 
 </td>
 </tr>
@@ -185,7 +185,7 @@ Shows or hides the  caret during the drop portion of a drag-and-drop operation (
 
 
 
-<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
  
 
  

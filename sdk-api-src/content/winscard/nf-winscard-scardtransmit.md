@@ -196,7 +196,7 @@ For T=0, the receive buffer must be at least two bytes long to receive the SW1 a
 If the function successfully sends a service request to the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a>, the return value is SCARD_S_SUCCESS.
 
 If the function fails, it returns an error code. For more information, see 
-<a href="authentication_return_values.htm">Smart Card Return Values</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
 
 
 

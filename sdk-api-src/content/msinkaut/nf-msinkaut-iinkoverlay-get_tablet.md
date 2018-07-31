@@ -81,7 +81,7 @@ Accessing this property within certain message handlers can result in the underl
 
 
 
-<a href="tablet.iinkoverlay">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
 
 
 

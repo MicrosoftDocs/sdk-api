@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>IEnumWIA_DEV_CAPS::Clone</b> method creates an additional instance of the <a href="https://msdn.microsoft.com/736a8aba-58e0-4b52-a997-ef1fb80473ba">IEnumWIA_DEV_CAPS</a> interface and sends back a pointer to it.
+The <b>IEnumWIA_DEV_CAPS::Clone</b> method creates an additional instance of the <a href="https://msdn.microsoft.com/en-us/library/ms630166(v=VS.85).aspx">IEnumWIA_DEV_CAPS</a> interface and sends back a pointer to it.
 
 
 ## -parameters
@@ -62,9 +62,9 @@ The <b>IEnumWIA_DEV_CAPS::Clone</b> method creates an additional instance of the
 
 ### -param ppIEnum [out]
 
-Type: <b><a href="https://msdn.microsoft.com/736a8aba-58e0-4b52-a997-ef1fb80473ba">IEnumWIA_DEV_CAPS</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms630166(v=VS.85).aspx">IEnumWIA_DEV_CAPS</a>**</b>
 
-Contains the address of a pointer to the instance of <a href="https://msdn.microsoft.com/736a8aba-58e0-4b52-a997-ef1fb80473ba">IEnumWIA_DEV_CAPS</a> that <b>IEnumWIA_DEV_CAPS::Clone</b> creates.
+Contains the address of a pointer to the instance of <a href="https://msdn.microsoft.com/en-us/library/ms630166(v=VS.85).aspx">IEnumWIA_DEV_CAPS</a> that <b>IEnumWIA_DEV_CAPS::Clone</b> creates.
 
 
 ## -returns

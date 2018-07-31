@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Send an <a href="uiauto_event_ids.htm">UIA_SelectionItem_ElementRemovedFromSelectionEventId</a> event as appropriate. 
+Send an <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_SelectionItem_ElementRemovedFromSelectionEventId</a> event as appropriate. 
 
 <div class="alert"><b>Note</b>  This rule does not depend on whether the container allows single or multiple selection, 
 			or on what method was used to change the selection. Only the result matters.</div>

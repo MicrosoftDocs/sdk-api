@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-You can use the <b>DocumentName</b> property of a <a href="https://msdn.microsoft.com/library/ms691355(v=VS.85).aspx">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/6de5b4f4-fa72-4fda-9e01-98343155c89e">DocumentSize</a> property of the object to inform users about the size of outbound jobs. 
+You can use the <b>DocumentName</b> property of a <a href="https://msdn.microsoft.com/library/ms691355(v=VS.85).aspx">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/ms691902(v=VS.85).aspx">DocumentSize</a> property of the object to inform users about the size of outbound jobs. 
 
 The <b>IFaxStatus::get_DocumentName</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
@@ -75,7 +75,7 @@ The <b>IFaxStatus::get_DocumentName</b> method allocates the memory required for
 
 
 
-<a href="https://msdn.microsoft.com/6de5b4f4-fa72-4fda-9e01-98343155c89e">DocumentSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691902(v=VS.85).aspx">DocumentSize</a>
 
 
 

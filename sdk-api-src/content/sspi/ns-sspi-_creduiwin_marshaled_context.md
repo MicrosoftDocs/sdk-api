@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Specifies credential information that has been serialized by using the <a href="_shell_icredentialprovider_setserialization">ICredentialProvider::SetSerialization</a> method.
+Specifies credential information that has been serialized by using the <a href="https://msdn.microsoft.com/en-us/library/Bb776043(v=VS.85).aspx">ICredentialProvider::SetSerialization</a> method.
 
 
 ## -struct-fields

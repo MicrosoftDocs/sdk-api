@@ -83,7 +83,7 @@ Precision is limited to 1/1000 (three digits to the right of the decimal point).
 
 
 
-<a href="tablet.iinkdrawingattributes">IInkDrawingAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
 
 
 

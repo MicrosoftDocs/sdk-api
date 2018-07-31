@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-A fax client application must  set the <a href="https://msdn.microsoft.com/9e41ae1f-070d-4365-9d6a-a37f1979dae7">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/library/ms691832(v=VS.85).aspx">FaxTiff</a> object.
+A fax client application must  set the <a href="https://msdn.microsoft.com/en-us/library/ms690773(v=VS.85).aspx">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/library/ms691832(v=VS.85).aspx">FaxTiff</a> object.
 
 The <b>RecipientNumber</b> property has meaning only for outbound fax transmissions. This is because the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922691">Csid</a> property and the <b>RecipientNumber</b> property are identical for inbound faxes.
 
@@ -101,7 +101,7 @@ The <b>get_RecipientNumber</b> method allocates the memory required for the buff
 
 
 
-<a href="https://msdn.microsoft.com/9e41ae1f-070d-4365-9d6a-a37f1979dae7">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690773(v=VS.85).aspx">Image</a>
 
 
 

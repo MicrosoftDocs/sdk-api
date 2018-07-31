@@ -113,7 +113,7 @@ The <b>ObjectCloseAuditAlarm</b> function requires the calling application to ha
 
 
 
-<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
 
 
 

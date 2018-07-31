@@ -120,12 +120,12 @@ With a nonblocking socket, successful initiation of a join operation is indicate
 
 Also, until the multipoint session join attempt completes all subsequent calls to 
 <b>WSPJoinLeaf</b> on the same socket will fail with the error code 
-<a href="windows_sockets_error_codes_2.htm">WSAEALREADY</a>. After the 
+<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEALREADY</a>. After the 
 <b>WSPJoinLeaf</b> completes successfully a subsequent attempt will usually fail with the error code 
-<a href="windows_sockets_error_codes_2.htm">WSAEISCONN</a>. An exception to the WSAEISCONN rule occurs for a c_root socket that allows root-initiated joins. In such a case another join may be initiated after a prior 
+<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEISCONN</a>. An exception to the WSAEISCONN rule occurs for a c_root socket that allows root-initiated joins. In such a case another join may be initiated after a prior 
 <b>WSPJoinLeaf</b> completes.
 
-If the return error code indicates the multipoint session join attempt failed (that is, <a href="windows_sockets_error_codes_2.htm">WSAECONNREFUSED</a>, <a href="windows_sockets_error_codes_2.htm">WSAENETUNREACH</a>, <a href="windows_sockets_error_codes_2.htm">WSAETIMEDOUT</a>) the Windows Sockets SPI client can call 
+If the return error code indicates the multipoint session join attempt failed (that is, <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNREFUSED</a>, <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETUNREACH</a>, <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAETIMEDOUT</a>) the Windows Sockets SPI client can call 
 <b>WSPJoinLeaf</b> again for the same socket.
 
 <table>
@@ -136,7 +136,7 @@ If the return error code indicates the multipoint session join attempt failed (t
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -147,7 +147,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEADDRINUSE</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEADDRINUSE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -160,7 +160,7 @@ Socket's local address is already in use and the socket was not marked to allow 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINTR</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINTR</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -172,7 +172,7 @@ Socket's local address is already in use and the socket was not marked to allow 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -183,7 +183,7 @@ Blocking Windows Sockets call is in progress, or the service provider is still p
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEALREADY</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEALREADY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -195,7 +195,7 @@ Nonblocking
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEADDRNOTAVAIL</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEADDRNOTAVAIL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -206,7 +206,7 @@ Remote address is not a valid address (for example, ADDR_ANY).
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -217,7 +217,7 @@ Addresses in the specified family cannot be used with this socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAECONNREFUSED</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNREFUSED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -228,7 +228,7 @@ The attempt to join was forcefully rejected.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -239,7 +239,7 @@ The <i>name</i> or the <i>namelen</i> parameter is not a valid part of the user 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEISCONN</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEISCONN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -250,7 +250,7 @@ Socket is already member of the multipoint session.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETUNREACH</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETUNREACH</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -261,7 +261,7 @@ The network cannot be reached from this host at this time.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -272,7 +272,7 @@ No buffer space is available. The socket cannot be joined.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -283,7 +283,7 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -294,7 +294,7 @@ Flow specifications specified in <i>lpSQOS</i> cannot be satisfied.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEPROTONOSUPPORT</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEPROTONOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -305,7 +305,7 @@ The <i>lpCallerData</i> augment is not supported by the service provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAETIMEDOUT</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAETIMEDOUT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -337,7 +337,7 @@ This function is used to join a leaf node to a multipoint session, and to perfor
 <b>WSPJoinLeaf</b> one or more times in order to add a number of leaf nodes, however at most one multipoint connection request can be outstanding at a time. Refer to 
 <a href="https://msdn.microsoft.com/861f457c-fe7e-4128-a3f3-786424a96ea5">Protocol-Independent Multicast and Multipoint in the SPI</a> for additional information.
 
-For nonblocking sockets it is often not possible to complete the connection immediately. In such a case, this function returns an as-yet unusable socket descriptor and the operation proceeds. There is no error code such as <a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a> in this case, since the function has effectively returned a "successful start" indication. When the final outcome success or failure becomes known, it may be reported through 
+For nonblocking sockets it is often not possible to complete the connection immediately. In such a case, this function returns an as-yet unusable socket descriptor and the operation proceeds. There is no error code such as <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a> in this case, since the function has effectively returned a "successful start" indication. When the final outcome success or failure becomes known, it may be reported through 
 <a href="https://msdn.microsoft.com/a96e0c2f-8bd0-4fcf-b7bd-67b3f7f53005">WSPAsyncSelect</a> or 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566287">WSPEventSelect</a> depending on how the client registers for notification on the original socket <i>s</i>. In either case, the notification is announced with FD_CONNECT and the error code associated with the FD_CONNECT indicates either success or a specific reason for failure. Note that 
 <a href="https://msdn.microsoft.com/a8f2922d-2474-406d-b1c7-631f05ccdd9c">WSPSelect</a> cannot be used to detect completion notification for 

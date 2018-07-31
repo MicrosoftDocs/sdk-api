@@ -70,7 +70,7 @@ To send a cover page with a fax document, the following are required:
 <li>The <b>SendCoverpage</b> property must be equal to <b>True</b>.</li>
 <li>The <b>CoverpageName</b> property must specify a valid cover page file.</li>
 </ul>
-In addition, the <a href="https://msdn.microsoft.com/86895798-9451-40a8-95e0-35bab5871ede">ServerCoverpage</a> property must be equal to <b>True</b> if the cover page file is a common cover page file. For more information, see <a href="https://msdn.microsoft.com/6d2fbcb1-fb94-4fe1-8481-f64f55878906">CoverpageName</a>.
+In addition, the <a href="https://msdn.microsoft.com/en-us/library/ms690883(v=VS.85).aspx">ServerCoverpage</a> property must be equal to <b>True</b> if the cover page file is a common cover page file. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691453(v=VS.85).aspx">CoverpageName</a>.
 
 You can call the <a href="https://msdn.microsoft.com/library/ms691428(v=VS.85).aspx">ServerCoverpage</a> method to determine whether the fax server is configured to permit personal cover pages.
 
@@ -106,7 +106,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/ms691363(v
 
 
 
-<a href="https://msdn.microsoft.com/86895798-9451-40a8-95e0-35bab5871ede">ServerCoverpage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690883(v=VS.85).aspx">ServerCoverpage</a>
 
 
 
