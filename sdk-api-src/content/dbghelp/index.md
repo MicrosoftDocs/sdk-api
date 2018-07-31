@@ -2,7 +2,7 @@
 UID: NA:dbghelp
 ms.assetid: 63d2ebef-ed2d-346d-9d25-eeb8f171c5c3
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

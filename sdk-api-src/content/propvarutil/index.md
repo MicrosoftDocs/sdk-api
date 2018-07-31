@@ -2,7 +2,7 @@
 UID: NA:propvarutil
 ms.assetid: 173e7dc2-fa66-3252-bba8-8ce0fd0d5b18
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

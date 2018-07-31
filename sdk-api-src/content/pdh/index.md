@@ -2,7 +2,7 @@
 UID: NA:pdh
 ms.assetid: f9f7a796-b69f-3cfc-b821-db1e7ad8bd53
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

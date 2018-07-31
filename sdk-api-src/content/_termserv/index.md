@@ -2,7 +2,7 @@
 UID: TP:termserv
 ms.assetid: b47fd481-db98-36bc-9504-61dba2bfa2a1
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:drt
 ms.assetid: af6f6216-18bf-3538-9ecf-bf26de392110
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/31/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
