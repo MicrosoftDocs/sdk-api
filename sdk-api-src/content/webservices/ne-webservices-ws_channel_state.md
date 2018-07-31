@@ -87,7 +87,7 @@ The different states that a channel can be in.
 The following are the state transitions for a channel.
             
 
-<img alt="" src="images/ChannelStates.png"/>
+<img alt="" src="./images/ChannelStates.png"/>
 
 A channel may move to the <b>WS_CHANNEL_STATE_FAULTED</b> 
                 state even if <a href="https://msdn.microsoft.com/67af85d7-db75-4e26-a7cc-8115ac3f2d59">WsAbortChannel</a> was never called.
