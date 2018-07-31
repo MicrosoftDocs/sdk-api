@@ -4,10 +4,10 @@ title: "_DISK_GROW_PARTITION"
 author: windows-sdk-content
 description: Contains information used to increase the size of a partition.
 old-location: fs\disk_grow_partition_str.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 17ff8bbb-45a6-4ddd-a871-8519500c03a9
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "*PDISK_GROW_PARTITION, DISK_GROW_PARTITION, DISK_GROW_PARTITION structure [Files], PDISK_GROW_PARTITION, PDISK_GROW_PARTITION structure pointer [Files], _DISK_GROW_PARTITION, base.disk_grow_partition_str, fs.disk_grow_partition_str, winioctl/DISK_GROW_PARTITION, winioctl/PDISK_GROW_PARTITION"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Contains information used to increase the size of a partition.
-			This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560376">IOCTL_DISK_GROW_PARTITION</a> control code.
+Contains information used to increase the size of a partition.This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560376">IOCTL_DISK_GROW_PARTITION</a> control code.
 
 
 ## -struct-fields

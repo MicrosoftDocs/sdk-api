@@ -4,10 +4,10 @@ title: "_WSMAN_OPERATION_INFO"
 author: windows-sdk-content
 description: Represents a specific resource endpoint for which the plug-in must perform the request.
 old-location: winrm\wsman_operation_info.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: a73029c6-d4e7-4cb3-ad0a-b71baffdbeb6
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: WSMAN_OPERATION_INFO, WSMAN_OPERATION_INFO structure [Windows Remote Management], _WSMAN_OPERATION_INFO, winrm.wsman_operation_info, wsman/WSMAN_OPERATION_INFO
 ms.prod: windows
 ms.technology: windows-sdk

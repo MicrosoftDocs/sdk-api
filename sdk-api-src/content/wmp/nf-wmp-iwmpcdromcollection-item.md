@@ -7,7 +7,7 @@ old-location: wmp\iwmpcdromcollection_item.htm
 old-project: WMP
 ms.assetid: 4604e53d-914f-4888-99c7-64d0683ac2e0
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPCdromCollection interface [Windows Media Player],item method, IWMPCdromCollection.item, IWMPCdromCollection::item, IWMPCdromCollectionitem, item, item method [Windows Media Player], item method [Windows Media Player],IWMPCdromCollection interface, wmp.iwmpcdromcollection_item, wmp/IWMPCdromCollection::item
 ms.prod: windows
 ms.technology: windows-sdk

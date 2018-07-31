@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary2_creatediscretetransitio
 old-project: UIAnimation
 ms.assetid: 1BDF8ED9-C39D-4FEF-A335-B3BE4EAAD297
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateDiscreteTransition, CreateDiscreteTransition method [Windows Animation], CreateDiscreteTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateDiscreteTransition method, IUIAnimationTransitionLibrary2.CreateDiscreteTransition, IUIAnimationTransitionLibrary2::CreateDiscreteTransition, uianimation.iuianimationtransitionlibrary2_creatediscretetransition, uianimation/IUIAnimationTransitionLibrary2::CreateDiscreteTransition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates a discrete scalar transition.
+Creates a discrete scalar transition.
 
 
 ## -parameters
@@ -67,9 +66,7 @@ The amount of time by which to delay the instantaneous switch to the final value
 
 ### -param finalValue [in]
 
-
-                
-             The value of the animation variable at the end of the transition.
+The value of the animation variable at the end of the transition.
 
 
 ### -param hold [in]
@@ -79,8 +76,7 @@ The amount of time by which to hold the variable at its final value.
 
 ### -param transition [out]
 
-
-               The new discrete transition.
+The new discrete transition.
 
 
 ## -returns

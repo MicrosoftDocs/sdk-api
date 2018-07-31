@@ -7,7 +7,7 @@ old-location: smi\isettingsresult_geterrorcode.htm
 old-project: SMI
 ms.assetid: c0044133-480e-4b40-ad3f-b3d65e259029
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetErrorCode, GetErrorCode method [SMI], GetErrorCode method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetErrorCode method, ISettingsResult.GetErrorCode, ISettingsResult::GetErrorCode, smi.isettingsresult_geterrorcode, wcmconfig/ISettingsResult::GetErrorCode
 ms.prod: windows
 ms.technology: windows-sdk

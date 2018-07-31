@@ -7,7 +7,7 @@ old-location: mstv\iscanningtunerex_setscansignaltypefilter.htm
 old-project: mstv
 ms.assetid: 223a904a-1f15-4010-b25f-8551c1e9fc25
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],SetScanSignalTypeFilter method, IScanningTunerEx.SetScanSignalTypeFilter, IScanningTunerEx::SetScanSignalTypeFilter, IScanningTunerExSetScanSignalTypeFilter, SetScanSignalTypeFilter, SetScanSignalTypeFilter method [Microsoft TV Technologies], SetScanSignalTypeFilter method [Microsoft TV Technologies],IScanningTunerEx interface, mstv.iscanningtunerex_setscansignaltypefilter, tuner/IScanningTunerEx::SetScanSignalTypeFilter
 ms.prod: windows
 ms.technology: windows-sdk

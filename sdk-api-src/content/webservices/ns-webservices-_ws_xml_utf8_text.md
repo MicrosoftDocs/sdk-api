@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_utf8_text.htm
 old-project: wsw
 ms.assetid: 5b3c44bc-a06e-4990-90f4-344def852ca9
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_UTF8_TEXT, WS_XML_UTF8_TEXT structure [Web Services for Windows], _WS_XML_UTF8_TEXT, webservices/WS_XML_UTF8_TEXT, wsw.ws_xml_utf8_text
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Represents text encoded as UTF-8 bytes.
+Represents text encoded as UTF-8 bytes.
       
 
 
@@ -63,14 +62,12 @@ req.product: Windows Address Book 5.0
 
 ### -field text
 
-
-          The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
+The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
         
 
 
 ### -field value
 
-
-          The text value.
+The text value.
         
 

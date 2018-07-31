@@ -4,10 +4,10 @@ title: IVssCreateExpressWriterMetadata::SetRestoreMethod
 author: windows-sdk-content
 description: Specifies how an express writer's data is to be restored.
 old-location: base\ivsscreateexpresswritermetadata_setrestoremethod.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 220e399b-aafd-4b72-bef4-abc3f39f202f
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: IVssCreateExpressWriterMetadata interface,SetRestoreMethod method, IVssCreateExpressWriterMetadata.SetRestoreMethod, IVssCreateExpressWriterMetadata::SetRestoreMethod, SetRestoreMethod, SetRestoreMethod method, SetRestoreMethod method,IVssCreateExpressWriterMetadata interface, base.ivsscreateexpresswritermetadata_setrestoremethod, vswriter/IVssCreateExpressWriterMetadata::SetRestoreMethod
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Specifies how an express writer's data is to be restored.
 
 ### -param method [in]
 
-
-      A <a href="https://msdn.microsoft.com/4c6be981-4271-4040-8f6e-725616355062">VSS_RESTOREMETHOD_ENUM</a> enumeration value specifying the restore method to be used in the restore operation. This parameter is required and cannot be <b>VSS_RME_UNDEFINED</b>, <b>VSS_RME_RESTORE_TO_ALTERNATE_LOCATION</b>, or <b>VSS_RME_CUSTOM</b>.
+A <a href="https://msdn.microsoft.com/4c6be981-4271-4040-8f6e-725616355062">VSS_RESTOREMETHOD_ENUM</a> enumeration value specifying the restore method to be used in the restore operation. This parameter is required and cannot be <b>VSS_RME_UNDEFINED</b>, <b>VSS_RME_RESTORE_TO_ALTERNATE_LOCATION</b>, or <b>VSS_RME_CUSTOM</b>.
 
 
 ### -param wszService [in]
@@ -93,8 +92,7 @@ A Boolean value indicating whether a reboot will be required after the restore o
 
 #### - wreWriterRestore [in]
 
-
-      A <a href="https://msdn.microsoft.com/a3e45d52-4d9a-4bdf-a8e5-622939be6f2c">VSS_WRITERRESTORE_ENUM</a> enumeration value specifying whether the writer will be involved in restoring its data. This parameter must be set to <b>VSS_WRE_NEVER</b>.
+A <a href="https://msdn.microsoft.com/a3e45d52-4d9a-4bdf-a8e5-622939be6f2c">VSS_WRITERRESTORE_ENUM</a> enumeration value specifying whether the writer will be involved in restoring its data. This parameter must be set to <b>VSS_WRE_NEVER</b>.
 
 
 ## -returns
@@ -160,8 +158,7 @@ The XML document is not valid. Check the event log for details. For more informa
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

@@ -4,10 +4,10 @@ title: ldap_explode_dnW function
 author: windows-sdk-content
 description: The ldap_explode_dn function breaks up an entry name into its component parts.
 old-location: ldap\ldap_explode_dn.htm
-old-project: ldap
+old-project: LDAP
 ms.assetid: 9d151adf-f8b2-4ed1-8e25-86c95a89a948
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "_ldap_ldap_explode_dn, ldap.ldap__explode__dn, ldap.ldap_explode_dn, ldap_explode_dn, ldap_explode_dn function [LDAP], ldap_explode_dnA, ldap_explode_dnW, winldap/ldap_explode_dn, winldap/ldap_explode_dnA, winldap/ldap_explode_dnW"
 ms.prod: windows
 ms.technology: windows-sdk

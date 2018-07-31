@@ -7,7 +7,7 @@ old-location: dshow\iselector_get_sourcenodeid.htm
 old-project: DirectShow
 ms.assetid: ae2b0e1a-1527-4634-b2f9-47c9519b55a6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ISelector interface [DirectShow],get_SourceNodeId method, ISelector.get_SourceNodeId, ISelector::get_SourceNodeId, ISelectorget_SourceNodeId, dshow.iselector_get_sourcenodeid, get_SourceNodeId, get_SourceNodeId method [DirectShow], get_SourceNodeId method [DirectShow],ISelector interface, vidcap/ISelector::get_SourceNodeId
 ms.prod: windows
 ms.technology: windows-sdk

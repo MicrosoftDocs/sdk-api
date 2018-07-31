@@ -7,7 +7,7 @@ old-location: intl\getfilemuipath.htm
 old-project: Intl
 ms.assetid: a95ef85a-4a3a-49c6-b700-03763950c64f
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: GetFileMUIPath, GetFileMUIPath function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_LANG_NEUTRAL_PE_FILE, MUI_NON_LANG_NEUTRAL_FILE, MUI_USER_PREFERRED_UI_LANGUAGES, MUI_USE_INSTALLED_LANGUAGES, MUI_USE_SEARCH_ALL_LANGUAGES, _win32_GetFileMUIPath, intl.getfilemuipath, winnls/GetFileMUIPath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -274,8 +274,7 @@ If the file indicated by <i>pcwszFilePath</i> does not have resource configurati
 For example, the application passes the string "C:\mydir\Example2.txt" in <i>pcwszFilePath</i> as the root file path, with <i>dwFlags</i> set to MUI_LANGUAGE_NAME | MUI_USER_PREFERRED_UI_LANGUAGES. Let's consider the case in which the user preferred UI languages (in order) are Catalan, "ca-ES", and Spanish (Spain), "es-ES", and where the following files exist:
 
 <ul>
-<li>
-            (no corresponding file in C:\mydir)
+<li>(no corresponding file in C:\mydir)
             <ul>
 <li>C:\mydir\en-US\Example2.txt</li>
 <li>C:\mydir\en\Example2.txt</li>

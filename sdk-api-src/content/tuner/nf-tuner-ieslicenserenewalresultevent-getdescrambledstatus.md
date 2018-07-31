@@ -7,7 +7,7 @@ old-location: mstv\ieslicenserenewalresultevent_getdescrambledstatus.htm
 old-project: mstv
 ms.assetid: ed09aea2-e000-40ce-bd94-a174e75a5001
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetDescrambledStatus, GetDescrambledStatus method [DirectShow], GetDescrambledStatus method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetDescrambledStatus method, IESLicenseRenewalResultEvent.GetDescrambledStatus, IESLicenseRenewalResultEvent::GetDescrambledStatus, mstv.ieslicenserenewalresultevent_getdescrambledstatus, tuner/IESLicenseRenewalResultEvent::GetDescrambledStatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Gets a code  from a  <a href="https://msdn.microsoft.com/6f9cbec4-7934-41fc-b387
 
 ### -param pDescrambledStatus [out, retval]
 
-
-            Receives a status code that indicates the descrambling status. For more information, see <i>Protected Broadcast Driver Architecture, Part 1: Core Services</i>, section 5.5. This document is part of the PBDA specification, which you can download from <a href="http://go.microsoft.com/fwlink/p/?linkid=132926">http://go.microsoft.com/fwlink/p/?linkid=132926</a>.
+Receives a status code that indicates the descrambling status. For more information, see <i>Protected Broadcast Driver Architecture, Part 1: Core Services</i>, section 5.5. This document is part of the PBDA specification, which you can download from <a href="http://go.microsoft.com/fwlink/p/?linkid=132926">http://go.microsoft.com/fwlink/p/?linkid=132926</a>.
           (This resource may not be available in some languages 
 
 and countries.)

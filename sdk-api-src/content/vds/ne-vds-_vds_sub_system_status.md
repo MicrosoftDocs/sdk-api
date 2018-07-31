@@ -4,10 +4,10 @@ title: "_VDS_SUB_SYSTEM_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a subsystem.
 old-location: base\vds_sub_system_status.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 3393ff1f-df0f-4053-9127-d99196660f4b
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: "*PVDS_SUB_SYSTEM_STATUS, VDS_SSS_FAILED, VDS_SSS_NOT_READY, VDS_SSS_OFFLINE, VDS_SSS_ONLINE, VDS_SSS_PARTIALLY_MANAGED, VDS_SSS_UNKNOWN, VDS_SUB_SYSTEM_STATUS, VDS_SUB_SYSTEM_STATUS enumeration [VDS], _VDS_SUB_SYSTEM_STATUS, base.vds_sub_system_status, vds/VDS_SSS_FAILED, vds/VDS_SSS_NOT_READY, vds/VDS_SSS_OFFLINE, vds/VDS_SSS_ONLINE, vds/VDS_SSS_PARTIALLY_MANAGED, vds/VDS_SSS_UNKNOWN, vds/VDS_SUB_SYSTEM_STATUS, vdshwprv/VDS_SSS_FAILED, vdshwprv/VDS_SSS_NOT_READY, vdshwprv/VDS_SSS_OFFLINE, vdshwprv/VDS_SSS_ONLINE, vdshwprv/VDS_SSS_PARTIALLY_MANAGED, vdshwprv/VDS_SSS_UNKNOWN, vdshwprv/VDS_SUB_SYSTEM_STATUS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,15 +80,13 @@ The subsystem is initializing and not yet ready to work.
 
 ### -field VDS_SSS_OFFLINE
 
-
-      The subsystem is unavailable. This value indicates either that the subsystem is disconnected or that it has 
+The subsystem is unavailable. This value indicates either that the subsystem is disconnected or that it has 
       failed so severely that it appears to be disconnected.
 
 
 ### -field VDS_SSS_FAILED
 
-
-      The subsystem has failed. This value indicates that the subsystem is not merely 
+The subsystem has failed. This value indicates that the subsystem is not merely 
       disconnected but rather that it has failed.
 
 
@@ -103,8 +101,7 @@ The subsystem is operating in a degraded state. This means that one or more of t
 
 
 
-
-    The <a href="https://msdn.microsoft.com/07104aac-acdc-447c-9a30-ff3318f6df09">IVdsSubSystem::SetStatus</a> method passes a <b>VDS_SUB_SYSTEM_STATUS</b> 
+The <a href="https://msdn.microsoft.com/07104aac-acdc-447c-9a30-ff3318f6df09">IVdsSubSystem::SetStatus</a> method passes a <b>VDS_SUB_SYSTEM_STATUS</b> 
     value as an argument to set the status of a subsystem, and the 
     <a href="https://msdn.microsoft.com/8fecb874-5c59-4f55-b528-040ff9209612">VDS_SUB_SYSTEM_PROP</a> structure includes a <b>VDS_SUB_SYSTEM_STATUS</b> value 
     as a member to indicate the current status.

@@ -4,10 +4,10 @@ title: IsDlgButtonChecked function
 author: windows-sdk-content
 description: The IsDlgButtonChecked function determines whether a button control is checked or whether a three-state button control is checked, unchecked, or indeterminate.
 old-location: controls\IsDlgButtonChecked.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonfunctions\isdlgbuttonchecked.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IsDlgButtonChecked, IsDlgButtonChecked function [Windows Controls], _win32_IsDlgButtonChecked, _win32_IsDlgButtonChecked_cpp, controls.IsDlgButtonChecked, controls._win32_IsDlgButtonChecked, winuser/IsDlgButtonChecked
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ The identifier of the button control.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The return value from a button created with the <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">BS_AUTOCHECKBOX</a>, <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">BS_AUTORADIOBUTTON</a>, <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">BS_AUTO3STATE</a>, <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">BS_CHECKBOX</a>, <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">BS_RADIOBUTTON</a>, or <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">BS_3STATE</a> styles can be one of the values in the following table. If the button has any other style, the return value is zero. 
+The return value from a button created with the <a href="Button_Styles.htm">BS_AUTOCHECKBOX</a>, <a href="Button_Styles.htm">BS_AUTORADIOBUTTON</a>, <a href="Button_Styles.htm">BS_AUTO3STATE</a>, <a href="Button_Styles.htm">BS_CHECKBOX</a>, <a href="Button_Styles.htm">BS_RADIOBUTTON</a>, or <a href="Button_Styles.htm">BS_3STATE</a> styles can be one of the values in the following table. If the button has any other style, the return value is zero. 
 				
 
 <table>
@@ -108,7 +108,7 @@ The button is checked.
 </dl>
 </td>
 <td width="60%">
-The button is in an indeterminate state (applies only if the button has the <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">BS_3STATE</a> or <a href="https://msdn.microsoft.com/library/Bb775951(v=VS.85).aspx">BS_AUTO3STATE</a> style).
+The button is in an indeterminate state (applies only if the button has the <a href="Button_Styles.htm">BS_3STATE</a> or <a href="Button_Styles.htm">BS_AUTO3STATE</a> style).
 
 </td>
 </tr>
@@ -133,12 +133,12 @@ The button is not checked.
 
 
 
-The <b>IsDlgButtonChecked</b> function sends a <a href="https://msdn.microsoft.com/library/Bb775986(v=VS.85).aspx">BM_GETCHECK</a> message to the specified button control. 
+The <b>IsDlgButtonChecked</b> function sends a <a href="https://msdn.microsoft.com/a25b2c8d-0b32-4807-bfb4-e277675924f1">BM_GETCHECK</a> message to the specified button control. 
 
 
 #### Examples
 
-For an example, see the section titled "Creating a Modeless Dialog Box" in <a href="https://msdn.microsoft.com/library/ms644996(v=VS.85).aspx">Using Dialog Boxes</a>.
+For an example, see the section titled "Creating a Modeless Dialog Box" in <a href="https://msdn.microsoft.com/8a5b6bdd-4429-4f48-b846-6bd617a87abf">Using Dialog Boxes</a>.
 
 <div class="code"></div>
 
@@ -149,7 +149,7 @@ For an example, see the section titled "Creating a Modeless Dialog Box" in <a hr
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb761875(v=VS.85).aspx">CheckDlgButton</a>
+<a href="https://msdn.microsoft.com/bda42841-cc26-44c7-9295-3b3bc818d269">CheckDlgButton</a>
  
 
  

@@ -4,10 +4,10 @@ title: IWSManEx::EnumerationFlagNonXmlText
 author: windows-sdk-content
 description: Returns the value of the enumeration constant WSManFlagNonXmlText for use in the flags parameter of the IWSManSession::Enumerate method.
 old-location: winrm\iwsmanex_enumerationflagnonxmltext.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: f94dc9cc-a4c5-44b8-9ace-63b80b1087d2
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: EnumerationFlagNonXmlText, EnumerationFlagNonXmlText method [Windows Remote Management], EnumerationFlagNonXmlText method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagNonXmlText method, IWSManEx.EnumerationFlagNonXmlText, IWSManEx::EnumerationFlagNonXmlText, winrm.iwsmanex_enumerationflagnonxmltext, wsmandisp/IWSManEx::EnumerationFlagNonXmlText
 ms.prod: windows
 ms.technology: windows-sdk

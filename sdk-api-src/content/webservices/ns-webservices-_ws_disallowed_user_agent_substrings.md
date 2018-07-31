@@ -7,7 +7,7 @@ old-location: wsw\ws_disallowed_user_agent_substrings.htm
 old-project: wsw
 ms.assetid: 3a37275b-11e6-484a-adc2-1e9503d1b309
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_DISALLOWED_USER_AGENT_SUBSTRINGS, WS_DISALLOWED_USER_AGENT_SUBSTRINGS structure [Web Services for Windows], _WS_DISALLOWED_USER_AGENT_SUBSTRINGS, webservices/WS_DISALLOWED_USER_AGENT_SUBSTRINGS, wsw.ws_disallowed_user_agent_substrings
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies the list of blocked UserAgent sub-string's. This is
+Specifies the list of blocked UserAgent sub-string's. This is
                 used with the <a href="https://msdn.microsoft.com/4998d538-628f-4939-9db9-612e882e68b1">WS_LISTENER_PROPERTY_DISALLOWED_USER_AGENT</a> 
                 listener property.
             
@@ -65,14 +64,12 @@ req.product: Windows Address Book 5.0
 
 ### -field subStringCount
 
-
-                    The number of items in 'prefixes'.
+The number of items in 'prefixes'.
                 
 
 
 ### -field subStrings
 
-
-                An array of WS_STRING*. Each WS_STRING* would be searched as a sub-string in the UserAgent HTTP header value.
+An array of WS_STRING*. Each WS_STRING* would be searched as a sub-string in the UserAgent HTTP header value.
             
 

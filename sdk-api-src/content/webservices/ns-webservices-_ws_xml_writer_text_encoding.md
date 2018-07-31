@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_writer_text_encoding.htm
 old-project: wsw
 ms.assetid: 916e693b-9804-4c93-869d-0c3b576e5b61
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_WRITER_TEXT_ENCODING, WS_XML_WRITER_TEXT_ENCODING structure [Web Services for Windows], _WS_XML_WRITER_TEXT_ENCODING, webservices/WS_XML_WRITER_TEXT_ENCODING, wsw.ws_xml_writer_text_encoding
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Indicates that the reader should emit bytes as textual xml.
+Indicates that the reader should emit bytes as textual xml.
       
 
 
@@ -63,14 +62,12 @@ req.product: Windows Address Book 5.0
 
 ### -field encoding
 
-
-          The base type for all types that derive from <a href="https://msdn.microsoft.com/5ca43d39-e714-4070-b343-6c8ab9484817">WS_XML_WRITER_ENCODING</a>.
+The base type for all types that derive from <a href="https://msdn.microsoft.com/5ca43d39-e714-4070-b343-6c8ab9484817">WS_XML_WRITER_ENCODING</a>.
         
 
 
 ### -field charSet
 
-
-          Indicates the text encoding of the bytes.  This may not be <a href="https://msdn.microsoft.com/47dadf5d-1bc7-4f93-936c-21c936bc3fc3">WS_CHARSET_AUTO</a>.
+Indicates the text encoding of the bytes.  This may not be <a href="https://msdn.microsoft.com/47dadf5d-1bc7-4f93-936c-21c936bc3fc3">WS_CHARSET_AUTO</a>.
         
 

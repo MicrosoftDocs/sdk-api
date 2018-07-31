@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisual_setopacity.htm
 old-project: printdocs
 ms.assetid: 2a29aee3-f11b-41e7-a871-3be3d5994409
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetOpacity method, IXpsOMVisual.SetOpacity, IXpsOMVisual::SetOpacity, SetOpacity, SetOpacity method [XPS Documents and Packaging], SetOpacity method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setopacity, xpsobjectmodel/IXpsOMVisual::SetOpacity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,8 +70,7 @@ The range of allowed values for this parameter is 0.0  to 1.0; with 0.0 the visu
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
           
 
 <table>

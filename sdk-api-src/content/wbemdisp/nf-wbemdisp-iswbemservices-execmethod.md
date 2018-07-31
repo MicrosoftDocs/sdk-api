@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_execmethod.htm
 old-project: WmiSdk
 ms.assetid: 2637efdc-fde5-4a44-a41f-67e0fb0df19d
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ExecMethod, ExecMethod method [Windows Management Instrumentation], ExecMethod method [Windows Management Instrumentation],ISWbemServices interface, ExecMethod method [Windows Management Instrumentation],SWbemServices object, ISWbemServices interface [Windows Management Instrumentation],ExecMethod method, ISWbemServices.ExecMethod, ISWbemServices::ExecMethod, SWbemServices object [Windows Management Instrumentation],ExecMethod method, SWbemServices.ExecMethod, _hmm_swbemservices.execmethod, wmi.swbemservices_execmethod
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,7 +122,7 @@ If the method is successful, an
 
 
 
-Use <b>SWbemServices.ExecMethod</b> as an alternative to direct access for executing a <a href="https://msdn.microsoft.com/library/JJ819822(v=VS.85).aspx">provider method</a> in cases where it is not possible to execute a method directly. The 
+Use <b>SWbemServices.ExecMethod</b> as an alternative to direct access for executing a <a href="gloss_p.htm">provider method</a> in cases where it is not possible to execute a method directly. The 
 <b>ExecMethod</b> method allows you to obtain output parameters, if the provider supplies them, with a scripting language that does not support output parameters. Otherwise, the recommended means of invoking a method is to use direct access. For more information, see 
 <a href="https://msdn.microsoft.com/682cbe12-1487-4681-8d2f-4caf21cb068a">Manipulating Class and Instance Information</a>.
 

@@ -7,7 +7,7 @@ old-location: lwef\defender_wdenable.htm
 old-project: lwef
 ms.assetid: a12d3b2a-6873-4ef4-90d6-08dbd5feb959
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: WDEnable, WDEnable function [Legacy Windows Environment Features], lwef.defender_wdenable, shell.defender_wdenable, shell_defender_WDEnable, windowsdefender/WDEnable
 ms.prod: windows
 ms.technology: windows-sdk

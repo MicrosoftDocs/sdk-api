@@ -4,10 +4,10 @@ title: CryptImportPublicKeyInfoEx function
 author: windows-sdk-content
 description: Important  This API is deprecated.
 old-location: security\cryptimportpublickeyinfoex.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: d3a59f83-c761-46bb-ac4f-f42f689ea5f1
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptImportPublicKeyInfoEx, CryptImportPublicKeyInfoEx function [Security], _crypto2_cryptimportpublickeyinfoex, security.cryptimportpublickeyinfoex, wincrypt/CryptImportPublicKeyInfoEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>
-			The <b>CryptImportPublicKeyInfoEx</b> function imports public key information into the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) and returns a handle of the public key. Additional parameters to override defaults are provided to supplement those in 
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptImportPublicKeyInfoEx</b> function imports public key information into the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) and returns a handle of the public key. Additional parameters to override defaults are provided to supplement those in 
 <a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a>.
 
 
@@ -90,8 +89,7 @@ the address of a
 
 ### -param aiKeyAlg [in]
 
-
-						An <a href="https://msdn.microsoft.com/557436b4-f7f1-4708-acc7-c6b47e6322ad">ALG_ID</a> structure that contains a CSP-specific algorithm to override the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CALG_RSA_KEYX</a> default algorithm.
+An <a href="https://msdn.microsoft.com/557436b4-f7f1-4708-acc7-c6b47e6322ad">ALG_ID</a> structure that contains a CSP-specific algorithm to override the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CALG_RSA_KEYX</a> default algorithm.
 
 
 ### -param dwFlags [in]
@@ -113,8 +111,7 @@ The address of an <b>HCRYPTKEY</b> variable that receives the handle of the impo
 
 
 
-
-						If the function succeeds, the function returns nonzero (<b>TRUE</b>).
+If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
@@ -183,7 +180,7 @@ if(pCertContext)
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

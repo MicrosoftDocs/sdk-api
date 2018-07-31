@@ -7,7 +7,7 @@ old-location: mf\imfasfprofile.htm
 old-project: medfound
 ms.assetid: fe441c61-1be7-4fda-a2a3-bd79ecf4e54c
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: IMFASFProfile, IMFASFProfile interface [Media Foundation], IMFASFProfile interface [Media Foundation],described, fe441c61-1be7-4fda-a2a3-bd79ecf4e54c, mf.imfasfprofile, wmcontainer/IMFASFProfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ The <b>IMFASFProfile</b> interface has these methods.
 <a href="https://msdn.microsoft.com/d9069feb-7d39-4b40-b95e-0112d959bbae">AddMutualExclusion</a>
 </td>
 <td align="left" width="63%">
-
-          Adds a configured ASF mutual exclusion object to the profile.
+Adds a configured ASF mutual exclusion object to the profile.
         
 
 </td>
@@ -97,8 +96,7 @@ Not supported.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
 </td>
 <td align="left" width="63%">
-
-          Creates a copy of the ASF profile object.
+Creates a copy of the ASF profile object.
         
 
 </td>
@@ -108,8 +106,7 @@ Not supported.
 <a href="https://msdn.microsoft.com/457b7b73-34c0-48fe-882a-9cdc3516e20d">CreateMutualExclusion</a>
 </td>
 <td align="left" width="63%">
-
-          Creates a new ASF mutual exclusion object.
+Creates a new ASF mutual exclusion object.
         
 
 </td>
@@ -119,8 +116,7 @@ Not supported.
 <a href="https://msdn.microsoft.com/3da52c1a-24c0-456b-a9e8-57b5467eda2a">CreateStream</a>
 </td>
 <td align="left" width="63%">
-
-          Creates an ASF stream configuration object.
+Creates an ASF stream configuration object.
         
 
 </td>
@@ -139,8 +135,7 @@ Not implemented.
 <a href="https://msdn.microsoft.com/9b9e37fc-0bd8-4502-9e90-76330a08f68b">GetMutualExclusion</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves an ASF mutual exclusion object from the profile.
+Retrieves an ASF mutual exclusion object from the profile.
         
 
 </td>
@@ -150,8 +145,7 @@ Not implemented.
 <a href="https://msdn.microsoft.com/5e275b83-9e59-4730-b8e2-e45f78077891">GetMutualExclusionCount</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the number of ASF mutual exclusion objects that are associated with the profile.
+Retrieves the number of ASF mutual exclusion objects that are associated with the profile.
         
 
 </td>
@@ -161,8 +155,7 @@ Not implemented.
 <a href="https://msdn.microsoft.com/918f6534-811e-42f6-9836-1c77816007fa">GetStream</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves a stream from the profile by stream index, and/or retrieves the stream number for a stream index.
+Retrieves a stream from the profile by stream index, and/or retrieves the stream number for a stream index.
         
 
 </td>
@@ -172,8 +165,7 @@ Not implemented.
 <a href="https://msdn.microsoft.com/1e3fadf0-1549-4d51-b263-727b15c55023">GetStreamByNumber</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves an ASF stream configuration object for a stream in the profile. This method references the stream by stream number instead of stream index.
+Retrieves an ASF stream configuration object for a stream in the profile. This method references the stream by stream number instead of stream index.
         
 
 </td>
@@ -183,8 +175,7 @@ Not implemented.
 <a href="https://msdn.microsoft.com/bf8c6157-3420-4097-8ab6-f307a69d418a">GetStreamCount</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the number of streams in the profile.
+Retrieves the number of streams in the profile.
         
 
 </td>
@@ -194,8 +185,7 @@ Not implemented.
 <a href="https://msdn.microsoft.com/28c542b9-a121-4002-83ae-d6dcfa6f0b6a">GetStreamPrioritization</a>
 </td>
 <td align="left" width="63%">
-
-          Not supported.
+Not supported.
 
 </td>
 </tr>
@@ -204,8 +194,7 @@ Not implemented.
 <a href="https://msdn.microsoft.com/dbcf192f-1ab4-44c4-8444-5d2aba941fe1">RemoveMutualExclusion</a>
 </td>
 <td align="left" width="63%">
-
-          Removes an ASF mutual exclusion object from the profile.
+Removes an ASF mutual exclusion object from the profile.
         
 
 </td>
@@ -215,8 +204,7 @@ Not implemented.
 <a href="https://msdn.microsoft.com/dfe404d3-66ea-407b-a2e0-caa065f41afe">RemoveStream</a>
 </td>
 <td align="left" width="63%">
-
-          Removes a stream from the ASF profile object.
+Removes a stream from the ASF profile object.
         
 
 </td>
@@ -226,8 +214,7 @@ Not implemented.
 <a href="https://msdn.microsoft.com/a6076091-ab38-4722-bb95-fac253e26c8a">RemoveStreamPrioritization</a>
 </td>
 <td align="left" width="63%">
-
-          Not supported.
+Not supported.
 
 </td>
 </tr>
@@ -236,8 +223,7 @@ Not implemented.
 <a href="https://msdn.microsoft.com/c2272260-74ab-42ff-bff3-d6c6d5b322f3">SetStream</a>
 </td>
 <td align="left" width="63%">
-
-          Adds a stream to the profile or reconfigures an existing stream.
+Adds a stream to the profile or reconfigures an existing stream.
         
 
 </td>

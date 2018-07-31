@@ -4,10 +4,10 @@ title: ITextRange2::GetTable
 author: windows-sdk-content
 description: Gets the table properties in the currently selected table.
 old-location: controls\itextrange2_gettable.htm
-old-project: controls
+old-project: Controls
 ms.assetid: ade77edf-6a9e-4c8d-a522-3158c802b6dd
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetTable, GetTable method [Windows Controls], GetTable method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetTable method, ITextRange2.GetTable, ITextRange2::GetTable, controls.itextrange2_gettable, tom/ITextRange2::GetTable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-To select the table when the insertion point is inside a table, call <a href="https://msdn.microsoft.com/library/Bb787781(v=VS.85).aspx">ITextRange::Expand</a>(tomTable). 
+To select the table when the insertion point is inside a table, call <a href="https://msdn.microsoft.com/67319d45-4ed3-4413-a725-8acb8666b7f3">ITextRange::Expand</a>(tomTable). 
 
 Note: this method isn't implemented in RichEdit (see <a href="https://msdn.microsoft.com/49f5ffc1-d615-4d07-9f41-1c5f0dd9045b">ITextRow</a> for table functionality).
 

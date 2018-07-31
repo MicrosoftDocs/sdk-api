@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrConflictItems_GetCount.htm
 old-project: shell
 ms.assetid: 948223a2-289f-4372-bd5d-5a075b659804
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],ISyncMgrConflictItems interface, ISyncMgrConflictItems interface [Windows Shell],GetCount method, ISyncMgrConflictItems.GetCount, ISyncMgrConflictItems::GetCount, _shell_ISyncMgrConflictItems_GetCount, shell.ISyncMgrConflictItems_GetCount, syncmgr/ISyncMgrConflictItems::GetCount
 ms.prod: windows
 ms.technology: windows-sdk

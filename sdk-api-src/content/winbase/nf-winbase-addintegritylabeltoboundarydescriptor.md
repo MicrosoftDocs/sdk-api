@@ -4,10 +4,10 @@ title: AddIntegrityLabelToBoundaryDescriptor function
 author: windows-sdk-content
 description: Adds a new required security identifier (SID) to the specified boundary descriptor.
 old-location: base\addintegritylabeltoboundarydescriptor.htm
-old-project: sync
+old-project: Sync
 ms.assetid: 6b56e664-7795-4e30-8bca-1e4df2764606
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/29/2018
 ms.keywords: AddIntegrityLabelToBoundaryDescriptor, AddIntegrityLabelToBoundaryDescriptor function, base.addintegritylabeltoboundarydescriptor, winbase/AddIntegrityLabelToBoundaryDescriptor
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsync\isyncproviderconfigui_createandregisternewsyncprovider.htm
 old-project: winsync
 ms.assetid: 4b256431-ed9a-414d-88c2-89f02000410d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: CreateAndRegisterNewSyncProvider, CreateAndRegisterNewSyncProvider method [Windows Sync], CreateAndRegisterNewSyncProvider method [Windows Sync],ISyncProviderConfigUI interface, ISyncProviderConfigUI interface [Windows Sync],CreateAndRegisterNewSyncProvider method, ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider, ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider, syncregistration/ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider, winsync.isyncproviderconfigui_createandregisternewsyncprovider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-    Creates and registers a new  synchronization provider.
+Creates and registers a new  synchronization provider.
 
     
   

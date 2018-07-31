@@ -4,10 +4,10 @@ title: ITextRange::Collapse
 author: windows-sdk-content
 description: Collapses the specified text range into a degenerate point at either the beginning or end of the range.
 old-location: controls\ITextRange_Collapse.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\collapse.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: Collapse, Collapse method [Windows Controls], Collapse method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],Collapse method, ITextRange.Collapse, ITextRange::Collapse, _win32_ITextRange_Collapse, _win32_ITextRange_Collapse_cpp, controls.ITextRange_Collapse, controls._win32_ITextRange_Collapse, tom/ITextRange::Collapse, tomEnd or tomFalse, tomStart or tomTrue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ Flag specifying the end to collapse at. It can be one of the following.
 </dl>
 </td>
 <td width="60%">
-
-						Range is collapsed to the start of the range. This is the default.
+Range is collapsed to the start of the range. This is the default.
 					
 
 </td>
@@ -88,8 +87,7 @@ Flag specifying the end to collapse at. It can be one of the following.
 </dl>
 </td>
 <td width="60%">
-
-						Range is collapsed to the end of the range.
+Range is collapsed to the end of the range.
 					
 
 </td>
@@ -119,7 +117,7 @@ This method returns an
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -127,7 +125,7 @@ This method returns an
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

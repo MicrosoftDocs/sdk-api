@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayerservices_settaskpaneurl.htm
 old-project: WMP
 ms.assetid: 4ceacaeb-09af-4cdf-84b7-04574a83ec48
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPPlayerServices interface [Windows Media Player],setTaskPaneURL method, IWMPPlayerServices.setTaskPaneURL, IWMPPlayerServices::setTaskPaneURL, IWMPPlayerServicessetTaskPaneURLdeprecated, setTaskPaneURL, setTaskPaneURL method [Windows Media Player], setTaskPaneURL method [Windows Media Player],IWMPPlayerServices interface, wmp.iwmpplayerservices_settaskpaneurl, wmp/IWMPPlayerServices::setTaskPaneURL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-
-          This page documents a feature of the Windows Media Player 9 Series SDK and the Windows Media Player 10 SDK. It may be unavailable in subsequent versions.
+This page documents a feature of the Windows Media Player 9 Series SDK and the Windows Media Player 10 SDK. It may be unavailable in subsequent versions.
         
 
 
@@ -72,11 +71,9 @@ The <b>setTaskPaneURL</b> method displays the specified URL in the specified tas
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -113,11 +110,9 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

@@ -4,10 +4,10 @@ title: WlxShutdown function
 author: windows-sdk-content
 description: Winlogon calls this function just before shutting down, allowing the GINA to perform any shutdown tasks, such as ejecting a smart card from a reader.
 old-location: security\wlxshutdown.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: dab8a93d-a0fe-4a29-9a29-ad64627050b7
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: WLX_SAS_ACTION_SHUTDOWN, WLX_SAS_ACTION_SHUTDOWN_POWER_OFF, WLX_SAS_ACTION_SHUTDOWN_REBOOT, WlxShutdown, WlxShutdown function [Security], _gina_wlxshutdown, security.wlxshutdown, winwlx/WlxShutdown
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 <p class="CCE_Message">[The WlxShutdown function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-
-			The <b>WlxShutdown</b> function must be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a> calls this function just before shutting down, allowing the GINA to perform any shutdown tasks, such as ejecting a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a> from a <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reader</a>.
+The <b>WlxShutdown</b> function must be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a> calls this function just before shutting down, allowing the GINA to perform any shutdown tasks, such as ejecting a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a> from a <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reader</a>.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: wsw\wsgetfaulterrorproperty.htm
 old-project: wsw
 ms.assetid: b59e6ac6-a3f1-4a72-a941-f588950ba85a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetFaultErrorProperty, WsGetFaultErrorProperty function [Web Services for Windows], webservices/WsGetFaultErrorProperty, wsw.wsgetfaulterrorproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,8 +68,7 @@ A pointer to the  <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a5
 
 ### -param id [in]
 
-
-                    Represents an identifier of the fault error property to retrieve.
+Represents an identifier of the fault error property to retrieve.
                 
 
 

@@ -7,7 +7,7 @@ old-location: winsync\isyncsessionstate_loadinfofromchangeapplication.htm
 old-project: winsync
 ms.assetid: 72c7947b-0eee-4b75-aff6-f208bebac3f2
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: ISyncSessionState interface [Windows Sync],LoadInfoFromChangeApplication method, ISyncSessionState.LoadInfoFromChangeApplication, ISyncSessionState::LoadInfoFromChangeApplication, LoadInfoFromChangeApplication, LoadInfoFromChangeApplication method [Windows Sync], LoadInfoFromChangeApplication method [Windows Sync],ISyncSessionState interface, winsync.isyncsessionstate_loadinfofromchangeapplication, winsync/ISyncSessionState::LoadInfoFromChangeApplication
 ms.prod: windows
 ms.technology: windows-sdk

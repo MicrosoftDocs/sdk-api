@@ -4,10 +4,10 @@ title: IWSManConnectionOptions::put_Password
 author: windows-sdk-content
 description: Sets the password of a local or a domain account on the remote computer. This property determines the password for authentication.
 old-location: winrm\connectionoptions_password.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 61ba54b6-7da0-423e-b5b2-c4dd8aacd042
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: ConnectionOptions object [Windows Remote Management],Password property, ConnectionOptions.Password, IWSManConnectionOptions.get_Password, IWSManConnectionOptions.put_Password, IWSManConnectionOptions::put_Password, Password property [Windows Remote Management], Password property [Windows Remote Management],ConnectionOptions object, put_Password, winrm.connectionoptions_password, wsman.connectionoptions_password
 ms.prod: windows
 ms.technology: windows-sdk

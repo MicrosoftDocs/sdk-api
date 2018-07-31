@@ -7,7 +7,7 @@ old-location: wsw\wsreadnode.htm
 old-project: wsw
 ms.assetid: 60dacf3e-ebde-4247-be58-835565874ab6
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsReadNode, WsReadNode function [Web Services for Windows], webservices/WsReadNode, wsw.wsreadnode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        This operation advances the Reader to the next <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">node</a> in the input stream.
+This operation advances the Reader to the next <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">node</a> in the input stream.
       If there is an error parsing the input the function will return <b>WS_E_INVALID_FORMAT</b>.
       (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
 
@@ -64,10 +63,7 @@ req.product: Windows Address Book 5.0
 
 ### -param reader [in]
 
-
-          
-                    
-                    A pointer to the <b>XML Reader</b> object to advance.
+A pointer to the <b>XML Reader</b> object to advance.
           The pointer must reference a valid <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acbbc13cfcfd">WS_XML_READER</a> and it may not be <b>NULL</b>.
                 
 
@@ -96,7 +92,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format, or did not have the expected value, or multiple top-level elements were found and <b>WS_XML_READER_PROPERTY_ALLOW_FRAGMENT</b> is <b>FALSE</b>.
 
 </td>
@@ -108,7 +103,6 @@ The input data was not in the expected format, or did not have the expected valu
 </dl>
 </td>
 <td width="60%">
-
 An element was read that exceeded some limit such as <b>WS_XML_READER_PROPERTY_MAX_DEPTH</b> or <b>WS_XML_READER_PROPERTY_MAX_ATTRIBUTES</b>.
 
 </td>
@@ -123,8 +117,7 @@ An element was read that exceeded some limit such as <b>WS_XML_READER_PROPERTY_M
 
 
 
-
-        Other exception conditions include: <ul>
+Other exception conditions include: <ul>
 <li>If an XML declaration is found and <b>WS_XML_READER_PROPERTY_READ_DECLARATION</b> is <b>FALSE</b>,
         <b>WS_E_INVALID_FORMAT</b> is returned.
       </li>

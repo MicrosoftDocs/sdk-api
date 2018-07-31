@@ -4,10 +4,10 @@ title: FindNextVolumeMountPointA function
 author: windows-sdk-content
 description: Continues a mounted folder search started by a call to the FindFirstVolumeMountPoint function.
 old-location: fs\findnextvolumemountpoint.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 299e2fed-74d8-4008-b593-981c52016532
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: FindNextVolumeMountPoint, FindNextVolumeMountPoint function [Files], FindNextVolumeMountPointA, FindNextVolumeMountPointW, _win32_findnextvolumemountpoint, base.findnextvolumemountpoint, fs.findnextvolumemountpoint, winbase/FindNextVolumeMountPoint, winbase/FindNextVolumeMountPointA, winbase/FindNextVolumeMountPointW
 ms.prod: windows
 ms.technology: windows-sdk

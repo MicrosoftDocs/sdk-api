@@ -4,10 +4,10 @@ title: NtQueryInformationProcess function
 author: windows-sdk-content
 description: Retrieves information about the specified process.
 old-location: base\ntqueryinformationprocess.htm
-old-project: procthread
+old-project: ProcThread
 ms.assetid: 0eae7899-c40b-4a5f-9e9c-adae021885e7
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: NtQueryInformationProcess, NtQueryInformationProcess function, PROCESS_BASIC_INFORMATION, PROCESS_BASIC_INFORMATION structure, ProcessBasicInformation, ProcessBreakOnTermination, ProcessDebugPort, ProcessImageFileName, ProcessSubsystemInformation, ProcessWow64Information, base.ntqueryinformationprocess, winternl/NtQueryInformationProcess
 ms.prod: windows
 ms.technology: windows-sdk

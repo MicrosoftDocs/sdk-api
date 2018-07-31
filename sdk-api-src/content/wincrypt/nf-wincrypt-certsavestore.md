@@ -4,10 +4,10 @@ title: CertSaveStore function
 author: windows-sdk-content
 description: Saves the certificate store to a file or to a memory BLOB.
 old-location: security\certsavestore.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 5cc818d7-b079-4962-aabc-fc512d4e92ac
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CERT_STORE_SAVE_AS_PKCS7, CERT_STORE_SAVE_AS_STORE, CERT_STORE_SAVE_TO_FILE, CERT_STORE_SAVE_TO_FILENAME, CERT_STORE_SAVE_TO_FILENAME_A, CERT_STORE_SAVE_TO_FILENAME_W, CERT_STORE_SAVE_TO_MEMORY, CertSaveStore, CertSaveStore function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_certsavestore, security.certsavestore, wincrypt/CertSaveStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertSaveStore</b> function saves the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> to a file or to a memory <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a>.
+The <b>CertSaveStore</b> function saves the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> to a file or to a memory <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a>.
 
 
 ## -parameters
@@ -72,8 +71,7 @@ TBD
 
 ### -param dwSaveAs [in]
 
-
-						Specifies how to save the certificate store.
+Specifies how to save the certificate store.
 
 
 This parameter can be one of the following values.
@@ -245,7 +243,7 @@ If the function succeeds, the function returns nonzero.
 If the function fails, it returns zero. For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
-Note that <a href="base.createfile">CreateFile</a> or <a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a> errors can be propagated to this function. One possible error code is <b>CRYPT_E_FILE_ERROR</b> which indicates that an error occurred while writing to the file.
+Note that <a href="base.createfile">CreateFile</a> or <a href="base.writefile">WriteFile</a> errors can be propagated to this function. One possible error code is <b>CRYPT_E_FILE_ERROR</b> which indicates that an error occurred while writing to the file.
 
 
 
@@ -263,7 +261,7 @@ Note that <a href="base.createfile">CreateFile</a> or <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
 
 
 
@@ -271,7 +269,7 @@ Note that <a href="base.createfile">CreateFile</a> or <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>
+<a href="base.writefile">WriteFile</a>
  
 
  

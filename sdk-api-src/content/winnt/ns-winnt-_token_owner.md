@@ -4,10 +4,10 @@ title: "_TOKEN_OWNER"
 author: windows-sdk-content
 description: Contains the default owner security identifier (SID) that will be applied to newly created objects.
 old-location: security\token_owner.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 85617d56-ad46-40a3-a335-121f3c8edcc3
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: "*PTOKEN_OWNER, PTOKEN_OWNER, PTOKEN_OWNER structure pointer [Security], TOKEN_OWNER, TOKEN_OWNER structure [Security], _TOKEN_OWNER, _win32_token_owner_str, security.token_owner, winnt/PTOKEN_OWNER, winnt/TOKEN_OWNER"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The <b>TOKEN_OWNER</b> structure contains the default owner <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) that will be applied to newly created objects.
+The <b>TOKEN_OWNER</b> structure contains the default owner <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) that will be applied to newly created objects.
 
 
 ## -struct-fields

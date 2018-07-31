@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationprioritycomparison_haspriority.htm
 old-project: UIAnimation
 ms.assetid: 82a90bd1-7bcf-4849-bad1-bae425169a2f
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: HasPriority, HasPriority method [Windows Animation], HasPriority method [Windows Animation],IUIAnimationPriorityComparison interface, IUIAnimationPriorityComparison interface [Windows Animation],HasPriority method, IUIAnimationPriorityComparison.HasPriority, IUIAnimationPriorityComparison::HasPriority, uianimation.iuianimationprioritycomparison_haspriority, uianimation/IUIAnimationPriorityComparison::HasPriority
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Determines whether a new storyboard has priority over a scheduled storyboard.
+Determines whether a new storyboard has priority over a scheduled storyboard.
 
 
 ## -parameters
@@ -62,14 +61,12 @@ req.product: Windows XP with SP1 and later
 
 ### -param scheduledStoryboard [in]
 
-
-                The currently scheduled storyboard.
+The currently scheduled storyboard.
 
 
 ### -param newStoryboard [in]
 
-
-               The new storyboard that is interrupting the scheduled storyboard specified in <i>scheduledStoryboard</i>.
+The new storyboard that is interrupting the scheduled storyboard specified in <i>scheduledStoryboard</i>.
 
 
 ### -param priorityEffect [in]
@@ -121,9 +118,7 @@ This method can return one of these values.
 
 
 
-
-        
-         A single animation variable can be included in multiple storyboards, 
+A single animation variable can be included in multiple storyboards, 
          but multiple storyboards cannot animate the same variable at the same time.
          
          If a new storyboard attempts to animate one or more variables that are currently scheduled for animation by a different storyboard, a scheduling conflict occurs.
@@ -178,23 +173,19 @@ When <a href="https://msdn.microsoft.com/2da8fa3b-0947-46cb-bdb1-725da08b9aaa">U
 
 
 
-<a href="https://msdn.microsoft.com/cea146d1-4a9c-4089-8015-ac16602f5afd">
-      IUIAnimationManager::SetCancelPriorityComparison</a>
+<a href="https://msdn.microsoft.com/cea146d1-4a9c-4089-8015-ac16602f5afd">IUIAnimationManager::SetCancelPriorityComparison</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf2a7782-3541-483e-8d5e-3e82693f103c">
-      IUIAnimationManager::SetCompressPriorityComparison</a>
+<a href="https://msdn.microsoft.com/bf2a7782-3541-483e-8d5e-3e82693f103c">IUIAnimationManager::SetCompressPriorityComparison</a>
 
 
 
-<a href="https://msdn.microsoft.com/00a3d7e4-7ad2-46a8-a9c2-0e725005c00b">
-      IUIAnimationManager::SetConcludePriorityComparison</a>
+<a href="https://msdn.microsoft.com/00a3d7e4-7ad2-46a8-a9c2-0e725005c00b">IUIAnimationManager::SetConcludePriorityComparison</a>
 
 
 
-<a href="https://msdn.microsoft.com/f4c81cc4-4c00-4f78-819d-55f79972fe46">
-      IUIAnimationManager::SetTrimPriorityComparison</a>
+<a href="https://msdn.microsoft.com/f4c81cc4-4c00-4f78-819d-55f79972fe46">IUIAnimationManager::SetTrimPriorityComparison</a>
 
 
 
@@ -202,8 +193,7 @@ When <a href="https://msdn.microsoft.com/2da8fa3b-0947-46cb-bdb1-725da08b9aaa">U
 
 
 
-<a href="https://msdn.microsoft.com/2da8fa3b-0947-46cb-bdb1-725da08b9aaa">
-      UI_ANIMATION_PRIORITY_EFFECT</a>
+<a href="https://msdn.microsoft.com/2da8fa3b-0947-46cb-bdb1-725da08b9aaa">UI_ANIMATION_PRIORITY_EFFECT</a>
  
 
  

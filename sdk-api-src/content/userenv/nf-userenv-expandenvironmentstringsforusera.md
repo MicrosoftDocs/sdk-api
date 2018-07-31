@@ -7,7 +7,7 @@ old-location: shell\ExpandEnvironmentStringsForUser.htm
 old-project: shell
 ms.assetid: d32fa6c8-035a-4c84-b210-5366f21b6c17
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: ExpandEnvironmentStringsForUser, ExpandEnvironmentStringsForUser function [Windows Shell], ExpandEnvironmentStringsForUserA, ExpandEnvironmentStringsForUserW, _shell_ExpandEnvironmentStringsForUser, shell.ExpandEnvironmentStringsForUser, userenv/ExpandEnvironmentStringsForUser, userenv/ExpandEnvironmentStringsForUserA, userenv/ExpandEnvironmentStringsForUserW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CryptEnumOIDInfo function
 author: windows-sdk-content
 description: Enumerates predefined and registered object identifier (OID) CRYPT_OID_INFO structures. This function enumerates either all of the predefined and registered structures or only structures identified by a selected OID group.
 old-location: security\cryptenumoidinfo.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 6af23bb4-3a27-425a-90bb-9a69ea081b25
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptEnumOIDInfo, CryptEnumOIDInfo function [Security], _crypto2_cryptenumoidinfo, security.cryptenumoidinfo, wincrypt/CryptEnumOIDInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CryptEnumOIDInfo</b> function enumerates predefined and registered <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) 
+The <b>CryptEnumOIDInfo</b> function enumerates predefined and registered <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) 
 <a href="https://msdn.microsoft.com/06ba0f60-778d-450b-8f71-23471b8c4e2c">CRYPT_OID_INFO</a> structures. This function enumerates either all of the predefined and registered structures or only structures identified by a selected OID group. For each OID information structure enumerated, an application provided callback function, <i>pfnEnumOIDInfo</i>, is called.
 		
 
@@ -108,8 +107,7 @@ A pointer to the callback function that is executed for each OID information ent
 
 
 
-
-						If the callback function  completes the enumeration, this function returns <b>TRUE</b>. 
+If the callback function  completes the enumeration, this function returns <b>TRUE</b>. 
 
 If the callback function has stopped the enumeration, this function returns <b>FALSE</b>.
 
@@ -121,7 +119,7 @@ If the callback function has stopped the enumeration, this function returns <b>F
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

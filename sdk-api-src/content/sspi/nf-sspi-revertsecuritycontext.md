@@ -4,10 +4,10 @@ title: RevertSecurityContext function
 author: windows-sdk-content
 description: Allows a security package to discontinue the impersonation of the caller and restore its own security context.
 old-location: security\revertsecuritycontext.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: d4ed1fe9-2e0a-4648-a010-1eae49ba03ee
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: RevertSecurityContext, RevertSecurityContext function [Security], _ssp_revertsecuritycontext, security.revertsecuritycontext, sspi/RevertSecurityContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # RevertSecurityContext function
@@ -70,8 +69,7 @@ Handle of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afc
 
 
 
-
-						If the function succeeds, the return value is SEC_E_OK.
+If the function succeeds, the return value is SEC_E_OK.
 
 If the function fails, the return value can be one of the following error codes.
 
@@ -120,7 +118,7 @@ The handle passed to the function is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wsw\wsreadmessageend.htm
 old-project: wsw
 ms.assetid: 3112be44-f610-421f-a4ea-0f87fc383540
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsReadMessageEnd, WsReadMessageEnd function [Web Services for Windows], webservices/WsReadMessageEnd, wsw.wsreadmessageend
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Read the closing elements of a message from a channel.
+Read the closing elements of a message from a channel.
             
 
 
@@ -63,15 +62,13 @@ req.product: Windows Address Book 5.0
 
 ### -param channel [in]
 
-
-                    The channel to receive for.
+The channel to receive for.
                 
 
 
 ### -param message [in]
 
-
-                    The message to read the end of.
+The message to read the end of.
                 
 
 
@@ -82,8 +79,7 @@ Information on how to invoke the function asynchronously, or <b>NULL</b> if invo
 
 ### -param error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -105,8 +101,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    The asynchronous operation is still pending.
+The asynchronous operation is still pending.
                 
 
 </td>
@@ -118,7 +113,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The operation was aborted.
 
 </td>
@@ -130,7 +124,6 @@ The operation was aborted.
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>
@@ -142,7 +135,6 @@ The operation is not allowed due to the current state of the object.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint does not exist or could not be located.
 
 </td>
@@ -154,7 +146,6 @@ The remote endpoint does not exist or could not be located.
 </dl>
 </td>
 <td width="60%">
-
 Access was denied by the remote endpoint.
 
 </td>
@@ -166,7 +157,6 @@ Access was denied by the remote endpoint.
 </dl>
 </td>
 <td width="60%">
-
 The connection with the remote endpoint was terminated.
 
 </td>
@@ -178,7 +168,6 @@ The connection with the remote endpoint was terminated.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint could not process the request.
 
 </td>
@@ -190,7 +179,6 @@ The remote endpoint could not process the request.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint is not currently in service at this location.
 
 </td>
@@ -202,7 +190,6 @@ The remote endpoint is not currently in service at this location.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint is unable to process the request due to being overloaded.
 
 </td>
@@ -214,7 +201,6 @@ The remote endpoint is unable to process the request due to being overloaded.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint was not reachable.
 
 </td>
@@ -226,7 +212,6 @@ The remote endpoint was not reachable.
 </dl>
 </td>
 <td width="60%">
-
 The endpoint address URL is invalid.
 
 </td>
@@ -238,7 +223,6 @@ The endpoint address URL is invalid.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -250,7 +234,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 The operation did not complete within the time allotted.
 
 </td>
@@ -262,7 +245,6 @@ The operation did not complete within the time allotted.
 </dl>
 </td>
 <td width="60%">
-
 Access was denied by the HTTP proxy server.
 
 </td>
@@ -274,7 +256,6 @@ Access was denied by the HTTP proxy server.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server could not process the request.
 
 </td>
@@ -286,7 +267,6 @@ The HTTP proxy server could not process the request.
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -298,7 +278,6 @@ A quota was exceeded.
 </dl>
 </td>
 <td width="60%">
-
 Security verification was not successful for the received data.
 
 </td>
@@ -310,7 +289,6 @@ Security verification was not successful for the received data.
 </dl>
 </td>
 <td width="60%">
-
 A security operation failed in the Windows Web Services framework.
 
 </td>
@@ -322,7 +300,6 @@ A security operation failed in the Windows Web Services framework.
 </dl>
 </td>
 <td width="60%">
-
 A security token was rejected by the server because it has expired.
 
 </td>
@@ -334,7 +311,6 @@ A security token was rejected by the server because it has expired.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'basic'.
 
 </td>
@@ -346,7 +322,6 @@ The HTTP proxy server requires HTTP authentication scheme 'basic'.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'digest'.
 
 </td>
@@ -358,7 +333,6 @@ The HTTP proxy server requires HTTP authentication scheme 'digest'.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'negotiate'.
 
 </td>
@@ -370,7 +344,6 @@ The HTTP proxy server requires HTTP authentication scheme 'negotiate'.
 </dl>
 </td>
 <td width="60%">
-
 The HTTP proxy server requires HTTP authentication scheme 'NTLM'.
 
 </td>
@@ -382,7 +355,6 @@ The HTTP proxy server requires HTTP authentication scheme 'NTLM'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'basic'.
 
 </td>
@@ -394,7 +366,6 @@ The remote endpoint requires HTTP authentication scheme 'basic'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'digest'.
 
 </td>
@@ -406,7 +377,6 @@ The remote endpoint requires HTTP authentication scheme 'digest'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'negotiate'.
 
 </td>
@@ -418,7 +388,6 @@ The remote endpoint requires HTTP authentication scheme 'negotiate'.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint requires HTTP authentication scheme 'NTLM'.
 
 </td>
@@ -430,7 +399,6 @@ The remote endpoint requires HTTP authentication scheme 'NTLM'.
 </dl>
 </td>
 <td width="60%">
-
 A required certificate is not within its validity period when verifying against the current system clock or the timestamp in the signed file.
 
 </td>
@@ -442,7 +410,6 @@ A required certificate is not within its validity period when verifying against 
 </dl>
 </td>
 <td width="60%">
-
 The certificates CN name does not match the passed value.
 
 </td>
@@ -454,7 +421,6 @@ The certificates CN name does not match the passed value.
 </dl>
 </td>
 <td width="60%">
-
 A certificate chain processed, but terminated in a root certificate which is not trusted by the trust provider.
 
 </td>
@@ -466,7 +432,6 @@ A certificate chain processed, but terminated in a root certificate which is not
 </dl>
 </td>
 <td width="60%">
-
 The certificate is not valid for the requested usage.
 
 </td>
@@ -478,7 +443,6 @@ The certificate is not valid for the requested usage.
 </dl>
 </td>
 <td width="60%">
-
 The revocation function was unable to check revocation because the revocation server was offline.
 
 </td>
@@ -490,7 +454,6 @@ The revocation function was unable to check revocation because the revocation se
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -502,7 +465,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -528,13 +490,11 @@ This function may return other errors not listed above.
 
 
 
-
-                The message must be in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_READING</a> state.  Upon success, it will
+The message must be in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_READING</a> state.  Upon success, it will
                 transition to <b>WS_MESSAGE_STATE_DONE</b> state.
             
 
-
-                When streaming input is used (<a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_STREAMED_INPUT_TRANSFER_MODE</a>), 
+When streaming input is used (<a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_STREAMED_INPUT_TRANSFER_MODE</a>), 
                 the channel will automatically make sure that there are bytes available before reading the 
                 end of the message (the closing body and envelope tags).
             

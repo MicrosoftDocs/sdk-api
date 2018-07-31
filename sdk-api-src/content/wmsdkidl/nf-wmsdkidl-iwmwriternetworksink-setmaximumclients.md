@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriternetworksink_setmaximumclients.htm
 old-project: wmformat
 ms.assetid: 619f0684-28bb-4412-acbf-27434672083a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMWriterNetworkSink interface [windows Media Format],SetMaximumClients method, IWMWriterNetworkSink.SetMaximumClients, IWMWriterNetworkSink::SetMaximumClients, IWMWriterNetworkSinkSetMaximumClients, SetMaximumClients, SetMaximumClients method [windows Media Format], SetMaximumClients method [windows Media Format],IWMWriterNetworkSink interface, wmformat.iwmwriternetworksink_setmaximumclients, wmsdkidl/IWMWriterNetworkSink::SetMaximumClients
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_TCI_CLIENT_FUNC_LIST"
 author: windows-sdk-content
 description: The TCI_CLIENT_FUNC_LIST structure is used by the traffic control interface to register and then access client-callback functions. Each member of TCI_CLIENT_FUNC_LIST is a pointer to the client provided&#8211;callback function.
 old-location: qos\tci_client_func_list.htm
-old-project: qos
+old-project: QOS
 ms.assetid: 45eccc44-d170-49cc-b51d-bb502c2fc1c7
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 07/29/2018
 ms.keywords: "*PTCI_CLIENT_FUNC_LIST, PTCI_CLIENT_FUNC_LIST, PTCI_CLIENT_FUNC_LIST structure pointer [QOS], TCI_CLIENT_FUNC_LIST, TCI_CLIENT_FUNC_LIST structure [QOS], _TCI_CLIENT_FUNC_LIST, _gqos_tci_client_func_list, qos.tci_client_func_list, traffic/PTCI_CLIENT_FUNC_LIST, traffic/TCI_CLIENT_FUNC_LIST"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ The
 ### -field ClNotifyHandler
 
 Pointer to the client-callback function 
-<a href="https://msdn.microsoft.com/cacf4c21-d831-462c-b9e8-fd51fcf8e4e4">ClNotifyHandler</a>
-			.
+<a href="https://msdn.microsoft.com/cacf4c21-d831-462c-b9e8-fd51fcf8e4e4">ClNotifyHandler</a>.
 
 
 ### -field ClAddFlowCompleteHandler
@@ -75,8 +74,7 @@ Pointer to the client-callback function <a href="https://msdn.microsoft.com/0aa6
 
 ### -field ClModifyFlowCompleteHandler
 
-Pointer to the client-callback function <a href="https://msdn.microsoft.com/61afc465-d942-4db7-96ee-56f3f1c3cafa">ClModifyFlowComplete</a>
-			.
+Pointer to the client-callback function <a href="https://msdn.microsoft.com/61afc465-d942-4db7-96ee-56f3f1c3cafa">ClModifyFlowComplete</a>.
 
 
 ### -field ClDeleteFlowCompleteHandler

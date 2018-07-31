@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_get.htm
 old-project: WmiSdk
 ms.assetid: e4f6c28b-42d7-4109-803e-d3aac4d8509e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: Get, Get method [Windows Management Instrumentation], Get method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],Get method, IWbemClassObject.Get, IWbemClassObject::Get, WBEM_FLAVOR_ORIGIN_LOCAL, WBEM_FLAVOR_ORIGIN_PROPAGATED, WBEM_FLAVOR_ORIGIN_SYSTEM, _hmm_iwbemclassobject_get, wbemcli/IWbemClassObject::Get, wmi.iwbemclassobject_get
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ Reserved. This parameter must be 0 (zero).
 
 ### -param pVal [out]
 
-When successful, this parameter is assigned the correct type and value for the qualifier, and the <a href="https://msdn.microsoft.com/library/ms221402(v=VS.85).aspx">VariantInit</a> function is called on <i>pVal</i>. It is the responsibility of the caller to call <a href="https://msdn.microsoft.com/library/ms221165(v=VS.85).aspx">VariantClear</a> on <i>pVal</i> when the value is not needed. If there is an error, the value that <i>pVal</i> points to is not modified. If an uninitialized <i>pVal</i> value is passed to the method, then the caller must check the return value of the method, and call <b>VariantClear</b> only when the method succeeds.
+When successful, this parameter is assigned the correct type and value for the qualifier, and the <a href="96aeb671-5528-4d3c-8e70-313716550b42">VariantInit</a> function is called on <i>pVal</i>. It is the responsibility of the caller to call <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> on <i>pVal</i> when the value is not needed. If there is an error, the value that <i>pVal</i> points to is not modified. If an uninitialized <i>pVal</i> value is passed to the method, then the caller must check the return value of the method, and call <b>VariantClear</b> only when the method succeeds.
 
 
 ### -param pType

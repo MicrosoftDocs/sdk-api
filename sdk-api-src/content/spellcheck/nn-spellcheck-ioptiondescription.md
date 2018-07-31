@@ -7,7 +7,7 @@ old-location: intl\ioptiondescription.htm
 old-project: Intl
 ms.assetid: 809d1a71-bb14-4516-9624-2f10fe19a5d9
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: IOptionDescription, IOptionDescription interface [Internationalization for Windows Applications], IOptionDescription interface [Internationalization for Windows Applications],described, intl.ioptiondescription, spellcheck/IOptionDescription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # IOptionDescription interface

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createencoder.htm
 old-project: wic
 ms.assetid: 7aae3ea6-2d8b-4764-9c78-a6cce49012a5
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: CreateEncoder, CreateEncoder method [Windows Imaging Component], CreateEncoder method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateEncoder method, IWICImagingFactory.CreateEncoder, IWICImagingFactory::CreateEncoder, _wic_codec_iwicimagingfactory_createencoder, wic._wic_codec_iwicimagingfactory_createencoder, wincodec/IWICImagingFactory::CreateEncoder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -221,8 +221,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-            Other values may be available for both <i>guidContainerFormat</i> and <i>pguidVendor</i> depending on the installed WIC-enabled encoders.
+Other values may be available for both <i>guidContainerFormat</i> and <i>pguidVendor</i> depending on the installed WIC-enabled encoders.
             The values listed are those that are natively supported by the operating system.
          
 

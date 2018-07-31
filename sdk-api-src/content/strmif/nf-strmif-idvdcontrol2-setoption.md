@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_setoption.htm
 old-project: DirectShow
 ms.assetid: b3b28da8-b0cb-4d76-8184-93572e4b6d06
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetOption method, IDvdControl2.SetOption, IDvdControl2::SetOption, IDvdControl2SetOption, SetOption, SetOption method [DirectShow], SetOption method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setoption, strmif/IDvdControl2::SetOption
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ The <b>SetOption</b> method enables or disables an internal behavior flag on the
 
 ### -param flag [in]
 
-
-            Specifies which behavior to modify, as a member of the <a href="https://msdn.microsoft.com/29e75f58-58f3-4b3f-a3ba-e3451d3a0cae">DVD_OPTION_FLAG</a> enumeration type. 
+Specifies which behavior to modify, as a member of the <a href="https://msdn.microsoft.com/29e75f58-58f3-4b3f-a3ba-e3451d3a0cae">DVD_OPTION_FLAG</a> enumeration type. 
 
 
 ### -param fState
@@ -127,21 +126,17 @@ Invalid flag.
 
 
 
-
-        Call <b>SetOption</b> with the desired flags immediately after creating an instance of the DVD Navigator and whenever you want to change any behaviors.
+Call <b>SetOption</b> with the desired flags immediately after creating an instance of the DVD Navigator and whenever you want to change any behaviors.
       
 
-
-        The following table shows the Annex J command name to which this method name corresponds, and the domains in which this method is valid.
+The following table shows the Annex J command name to which this method name corresponds, and the domains in which this method is valid.
       
 
 <table>
 <tr>
-<th>
-              Annex J Command Name
+<th>Annex J Command Name
             </th>
-<th>
-              Valid Domains
+<th>Valid Domains
             </th>
 </tr>
 <tr>

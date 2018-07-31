@@ -7,7 +7,7 @@ old-location: xps\ixpsomgradientstop.htm
 old-project: printdocs
 ms.assetid: e115d806-70c1-4c6a-810e-e6a058628b44
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMGradientStop, IXpsOMGradientStop interface [XPS Documents and Packaging], IXpsOMGradientStop interface [XPS Documents and Packaging],described, xps.ixpsomgradientstop, xpsobjectmodel/IXpsOMGradientStop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IXpsOMGradientStop</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
 </td>
 <td align="left" width="63%">
-
-              Makes a deep copy of the <b>IXpsOMGradientStop</b> interface.
+Makes a deep copy of the <b>IXpsOMGradientStop</b> interface.
             
 
 </td>
@@ -103,8 +102,7 @@ Gets the offset value of the gradient stop.
 <a href="https://msdn.microsoft.com/a590e461-bf86-4379-b29a-ecdba57bd3f8">GetOwner</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/d381b813-5368-4ffe-a9a1-0f5027ae9d80">IXpsOMGradientBrush</a> interface that contains the gradient stop.
+Gets a pointer to the <a href="https://msdn.microsoft.com/d381b813-5368-4ffe-a9a1-0f5027ae9d80">IXpsOMGradientBrush</a> interface that contains the gradient stop.
             
 
 </td>

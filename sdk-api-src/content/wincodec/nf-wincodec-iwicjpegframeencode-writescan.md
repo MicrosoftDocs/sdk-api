@@ -7,7 +7,7 @@ old-location: wic\iwicjpegframeencode_writescan.htm
 old-project: wic
 ms.assetid: FED02403-E696-4988-BFB6-F1E37D9FA5F1
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWICJpegFrameEncode interface [Windows Imaging Component],WriteScan method, IWICJpegFrameEncode.WriteScan, IWICJpegFrameEncode::WriteScan, WriteScan, WriteScan method [Windows Imaging Component], WriteScan method [Windows Imaging Component],IWICJpegFrameEncode interface, wic.iwicjpegframeencode_writescan, wincodec/IWICJpegFrameEncode::WriteScan
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ The scan data to write.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK on successful completion.
 

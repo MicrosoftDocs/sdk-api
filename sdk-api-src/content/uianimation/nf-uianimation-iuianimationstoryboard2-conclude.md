@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard2_conclude.htm
 old-project: UIAnimation
 ms.assetid: C7687E52-433F-4E73-910D-86298E528F7B
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: Conclude, Conclude method [Windows Animation], Conclude method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],Conclude method, IUIAnimationStoryboard2.Conclude, IUIAnimationStoryboard2::Conclude, uianimation.iuianimationstoryboard2_conclude, uianimation/IUIAnimationStoryboard2::Conclude
 ms.prod: windows
 ms.technology: windows-sdk

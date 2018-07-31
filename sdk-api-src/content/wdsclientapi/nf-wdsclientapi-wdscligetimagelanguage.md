@@ -4,10 +4,10 @@ title: WdsCliGetImageLanguage function
 author: windows-sdk-content
 description: Returns the default language of the current image.
 old-location: wds\wdscligetimagelanguage.htm
-old-project: wds
+old-project: Wds
 ms.assetid: ac4d1f05-ab1c-4511-a3f1-205ab3280522
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: WdsCliGetImageLanguage, WdsCliGetImageLanguage function [Windows Deployment Services], wds.wdscligetimagelanguage, wdsclientapi/WdsCliGetImageLanguage
 ms.prod: windows
 ms.technology: windows-sdk

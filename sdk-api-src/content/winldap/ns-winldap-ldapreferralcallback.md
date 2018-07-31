@@ -4,10 +4,10 @@ title: LdapReferralCallback
 author: windows-sdk-content
 description: Used to implement external caching of connections.
 old-location: ldap\ldap_referral_callback.htm
-old-project: ldap
+old-project: LDAP
 ms.assetid: e5fe6a4b-00e7-4837-b1c1-8b2a724bb75e
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "*PLDAP_REFERRAL_CALLBACK, LDAP_REFERRAL_CALLBACK, LDAP_REFERRAL_CALLBACK structure [LDAP], LdapReferralCallback, PLDAP_REFERRAL_CALLBACK, PLDAP_REFERRAL_CALLBACK structure pointer [LDAP], _ldap_ldap_referral_callback, ldap.ldap__referral__callback, ldap.ldap_referral_callback, winldap/LDAP_REFERRAL_CALLBACK, winldap/PLDAP_REFERRAL_CALLBACK"
 ms.prod: windows
 ms.technology: windows-sdk

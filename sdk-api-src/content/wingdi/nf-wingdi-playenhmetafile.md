@@ -7,7 +7,7 @@ old-location: gdi\playenhmetafile.htm
 old-project: gdi
 ms.assetid: 51e8937b-0c42-49fe-8930-7af303fce788
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: PlayEnhMetaFile, PlayEnhMetaFile function [Windows GDI], _win32_PlayEnhMetaFile, gdi.playenhmetafile, wingdi/PlayEnhMetaFile
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsat\iprovidewinsatassessmentinfo_score.htm
 old-project: WinSAT
 ms.assetid: a1fbeb60-10dd-4082-8d2e-76c4baf35152
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IProvideWinSATAssessmentInfo interface [WinSAT],Score property, IProvideWinSATAssessmentInfo.Score, IProvideWinSATAssessmentInfo.get_Score, IProvideWinSATAssessmentInfo::Score, IProvideWinSATAssessmentInfo::get_Score, Score property [WinSAT], Score property [WinSAT],IProvideWinSATAssessmentInfo interface, get_Score, winsat.iprovidewinsatassessmentinfo_score, winsatcominterfacei/IProvideWinSATAssessmentInfo::Score, winsatcominterfacei/IProvideWinSATAssessmentInfo::get_Score
 ms.prod: windows
 ms.technology: windows-sdk

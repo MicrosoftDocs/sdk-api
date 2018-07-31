@@ -7,7 +7,7 @@ old-location: websock\web_socket_action_queue.htm
 old-project: WebSock
 ms.assetid: 59550c5a-a378-4162-a1cc-ed2d05662637
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: WEB_SOCKET_ACTION_QUEUE, WEB_SOCKET_ACTION_QUEUE enumeration [Websocket Protocol Component API], WEB_SOCKET_ALL_ACTION_QUEUE, WEB_SOCKET_RECEIVE_ACTION_QUEUE, WEB_SOCKET_SEND_ACTION_QUEUE, _WEB_SOCKET_ACTION_QUEUE, websock.web_socket_action_queue, websocket/WEB_SOCKET_ACTION_QUEUE, websocket/WEB_SOCKET_ALL_ACTION_QUEUE, websocket/WEB_SOCKET_RECEIVE_ACTION_QUEUE, websocket/WEB_SOCKET_SEND_ACTION_QUEUE
 ms.prod: windows
 ms.technology: windows-sdk

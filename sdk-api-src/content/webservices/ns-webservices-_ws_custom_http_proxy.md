@@ -7,7 +7,7 @@ old-location: wsw\ws_custom_http_proxy.htm
 old-project: wsw
 ms.assetid: cb666185-6a33-4e4c-a0b2-290f2f0bce4b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_CUSTOM_HTTP_PROXY, WS_CUSTOM_HTTP_PROXY structure [Web Services for Windows], _WS_CUSTOM_HTTP_PROXY, webservices/WS_CUSTOM_HTTP_PROXY, wsw.ws_custom_http_proxy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                A structure that is used to specify the custom proxy for the channel, using 
+A structure that is used to specify the custom proxy for the channel, using 
                 the <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY</a>.
             
 
@@ -82,8 +81,7 @@ A semicolon-separated list of the proxy servers to be used by the channel. Each
 
 ### -field bypass
 
-
-                                        A semicolon separated list of servers which must be bypassed by the proxy. 
+A semicolon separated list of servers which must be bypassed by the proxy. 
                     The bypass list can contain the string &lt;local&gt; to indicate that 
                     all local machine servers are bypassed.
 

@@ -4,10 +4,10 @@ title: "_VSS_COMPONENTINFO"
 author: windows-sdk-content
 description: Contains information about a given component.
 old-location: base\vss_componentinfo.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 9723e90e-cd5e-4815-843b-8ed8632ebe45
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: PVSSCOMPONENTINFO, PVSSCOMPONENTINFO structure pointer [VSS], VSS_COMPONENTINFO, VSS_COMPONENTINFO structure [VSS], _VSS_COMPONENTINFO, _win32_vss_componentinfo, base.vss_componentinfo, vsbackup/PVSSCOMPONENTINFO, vsbackup/VSS_COMPONENTINFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -201,7 +201,7 @@ See <a href="https://msdn.microsoft.com/e8920cca-d944-437f-bf6a-7ce8d518746a">Wo
 Boolean that indicates (for component-mode operations) whether the component is selectable for restore. 
       <b>bSelectableForRestore</b> allows the requester to determine whether this component can be 
       individually selected for restore if it had earlier been 
-      <a href="https://msdn.microsoft.com/library/Aa384659(v=VS.85).aspx">implicitly included</a> in the 
+      <a href="vssgloss_i.htm">implicitly included</a> in the 
       backup. The Boolean is <b>true</b> if the component is selectable for restore and 
       <b>false</b> if it is not.
       

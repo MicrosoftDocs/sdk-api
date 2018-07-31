@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometryfigure.htm
 old-project: printdocs
 ms.assetid: e76a14ce-cfc3-4a50-855e-f5779b9fc261
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMGeometryFigure, IXpsOMGeometryFigure interface [XPS Documents and Packaging], IXpsOMGeometryFigure interface [XPS Documents and Packaging],described, xps.ixpsomgeometryfigure, xpsobjectmodel/IXpsOMGeometryFigure
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,8 +101,7 @@ Gets a value that indicates whether the figure is filled.
 <a href="https://msdn.microsoft.com/520e52ff-fb65-430f-972c-40ca2ab959b2">GetOwner</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/d3f74c1e-49ef-40ee-a2f4-b6d198b57624">IXpsOMGeometry</a> interface that contains the geometry figure.
+Gets a pointer to the <a href="https://msdn.microsoft.com/d3f74c1e-49ef-40ee-a2f4-b6d198b57624">IXpsOMGeometry</a> interface that contains the geometry figure.
             
 
 </td>
@@ -139,8 +138,7 @@ Gets the number of segment data points in the figure.
 <a href="https://msdn.microsoft.com/497701aa-8738-43d1-830f-7a6c00cfa2cc">GetSegmentStrokePattern</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <a href="https://msdn.microsoft.com/e824884e-ffad-4c44-9df8-e9c21e1f3758">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
+Gets the <a href="https://msdn.microsoft.com/e824884e-ffad-4c44-9df8-e9c21e1f3758">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
             
 
 </td>

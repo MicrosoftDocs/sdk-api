@@ -4,10 +4,10 @@ title: DeleteService function
 author: windows-sdk-content
 description: Marks the specified service for deletion from the service control manager database.
 old-location: base\deleteservice.htm
-old-project: services
+old-project: Services
 ms.assetid: 5b0fc714-60e0-4ae3-8fa8-ace36dab2fb0
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: DeleteService, DeleteService function, _win32_deleteservice, base.deleteservice, winsvc/DeleteService
 ms.prod: windows
 ms.technology: windows-sdk

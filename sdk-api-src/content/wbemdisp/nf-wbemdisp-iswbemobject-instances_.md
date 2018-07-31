@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_instances_.htm
 old-project: WmiSdk
 ms.assetid: 30402d7d-f7cb-43b5-96b5-a8a76144e32d
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemObject interface [Windows Management Instrumentation],Instances_ method, ISWbemObject.Instances_, ISWbemObject::Instances_, Instances_, Instances_ method [Windows Management Instrumentation], Instances_ method [Windows Management Instrumentation],ISWbemObject interface, Instances_ method [Windows Management Instrumentation],SWbemObject object, SWbemObject object [Windows Management Instrumentation],Instances_ method, SWbemObject.Instances_, _hmm_swbemobject.instances_, wbemFlagBidirectional, wbemFlagForwardOnly, wbemFlagReturnImmediately, wbemFlagReturnWhenComplete, wbemFlagUseAmendedQualifiers, wbemQueryFlagDeep, wbemQueryFlagShallow, wmi.swbemobject_instances_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,8 +92,7 @@ Default value for this parameter. This flag causes the call to return immediatel
 
 
 
-#### wbemFlagReturnWhenComplete (
-0 (0x0))
+#### wbemFlagReturnWhenComplete (0 (0x0))
 
 Causes this call to block until the query has completed.
 
@@ -149,7 +148,7 @@ If the method is successful, an
 
 
 The 
-<b>Instances_</b> method only works for class objects. It is not an error for the returned collection to have zero elements. The default behavior for this method is <a href="https://msdn.microsoft.com/library/JJ819825(v=VS.85).aspx">semisynchronous</a> because of the default <i>IFlags</i> value <b>wbemFlagReturnImmediately</b>.
+<b>Instances_</b> method only works for class objects. It is not an error for the returned collection to have zero elements. The default behavior for this method is <a href="gloss_s.htm">semisynchronous</a> because of the default <i>IFlags</i> value <b>wbemFlagReturnImmediately</b>.
 
 
 

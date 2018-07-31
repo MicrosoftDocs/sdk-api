@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimerclienteventhandler_ontimerclientstatu
 old-project: UIAnimation
 ms.assetid: a2c161ce-937e-449a-884f-89a8a847d8aa
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationTimerClientEventHandler interface [Windows Animation],OnTimerClientStatusChanged method, IUIAnimationTimerClientEventHandler.OnTimerClientStatusChanged, IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged, OnTimerClientStatusChanged, OnTimerClientStatusChanged method [Windows Animation], OnTimerClientStatusChanged method [Windows Animation],IUIAnimationTimerClientEventHandler interface, uianimation.iuianimationtimerclienteventhandler_ontimerclientstatuschanged, uianimation/IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Handles events that occur when the status of the timer's  client changes.
+Handles events that occur when the status of the timer's  client changes.
 
 
 ## -parameters
@@ -67,8 +66,7 @@ The new status of the timer's client.
 
 ### -param previousStatus [in]
 
-
-               The previous status of the timer's client.
+The previous status of the timer's client.
 
 
 ## -returns
@@ -89,13 +87,11 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://msdn.microsoft.com/c7383df5-dbd4-4cae-a682-47f84c2e8106">
-      IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler</a>
+<a href="https://msdn.microsoft.com/c7383df5-dbd4-4cae-a682-47f84c2e8106">IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce213fc5-1329-413f-abf1-a4ab7c78818e">
-      IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler</a>
+<a href="https://msdn.microsoft.com/ce213fc5-1329-413f-abf1-a4ab7c78818e">IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler</a>
 
 
 

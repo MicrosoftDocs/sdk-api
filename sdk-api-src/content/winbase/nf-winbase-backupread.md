@@ -4,10 +4,10 @@ title: BackupRead function
 author: windows-sdk-content
 description: Back up a file or directory, including the security information.
 old-location: backup\backupread.htm
-old-project: backup
+old-project: Backup
 ms.assetid: 47d13662-af70-4c76-9fb6-3835e329ae5f
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: BackupRead, BackupRead function [Backup], _win32_backupread, backup.backupread, base.backupread, winbase/BackupRead
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ req.product: Windows Address Book 5.0
 The <b>BackupRead</b> function can be used to back up 
     a file or directory, including the security information. The function reads data associated with a 
     specified file or directory into a buffer, which can then be written to the backup medium using the 
-    <a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a> function.
+    <a href="base.writefile">WriteFile</a> function.
 
 
 ## -parameters

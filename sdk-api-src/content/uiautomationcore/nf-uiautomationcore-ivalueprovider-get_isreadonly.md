@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IValueProvider_IsReadOnly.htm
 old-project: WinAuto
 ms.assetid: 2dadeb17-aef8-4dcd-a2c5-251cc2e7de3f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IValueProvider interface [Windows Accessibility],IsReadOnly property, IValueProvider.IsReadOnly, IValueProvider.get_IsReadOnly, IValueProvider::IsReadOnly, IValueProvider::get_IsReadOnly, IsReadOnly property [Windows Accessibility], IsReadOnly property [Windows Accessibility],IValueProvider interface, get_IsReadOnly, uiauto.uiauto_IValueProvider_IsReadOnly, uiauto_IValueProvider_IsReadOnly, uiautomationcore/IValueProvider::IsReadOnly, uiautomationcore/IValueProvider::get_IsReadOnly, winauto.uiauto_IValueProvider_IsReadOnly
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ This property is read-only.
 
 
 
-
-            A control should have its IsEnabled property (<a href="https://msdn.microsoft.com/library/Ee684017(v=VS.85).aspx">UIA_IsEnabledPropertyId</a>) set to <b>TRUE</b> and its <b>IValueProvider::IsReadOnly</b> 
+A control should have its IsEnabled property (<a href="uiauto_automation_element_propids.htm">UIA_IsEnabledPropertyId</a>) set to <b>TRUE</b> and its <b>IValueProvider::IsReadOnly</b> 
             property set to <b>FALSE</b> before allowing a call to <a href="https://msdn.microsoft.com/af555ac6-5abd-4019-804b-68f9ed3be801">IValueProvider::SetValue</a>.
         
 

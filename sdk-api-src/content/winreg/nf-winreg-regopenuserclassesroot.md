@@ -4,10 +4,10 @@ title: RegOpenUserClassesRoot function
 author: windows-sdk-content
 description: Retrieves a handle to the HKEY_CLASSES_ROOT key for a specified user. The user is identified by an access token.
 old-location: base\regopenuserclassesroot.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: bd068826-cf88-4fc7-a7d6-96cc03e923c7
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: RegOpenUserClassesRoot, RegOpenUserClassesRoot function, _win32_regopenuserclassesroot, base.regopenuserclassesroot, winreg/RegOpenUserClassesRoot
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,7 +122,7 @@ The
 <b>RegOpenUserClassesRoot</b> to retrieve the merged information for a client.
 
 <b>RegOpenUserClassesRoot</b> fails if the user profile for the specified user is not loaded. When a user logs on interactively, the system automatically loads the user's profile. For other users, you can call the 
-<a href="https://msdn.microsoft.com/library/Bb762281(v=VS.85).aspx">LoadUserProfile</a> function to load the user's profile. However, <b>LoadUserProfile</b> can be very time-consuming, so do not call it for this purpose unless it is absolutely necessary to have the user's merged <b>HKEY_CLASSES_ROOT</b> information.
+<a href="_shell_loaduserprofile">LoadUserProfile</a> function to load the user's profile. However, <b>LoadUserProfile</b> can be very time-consuming, so do not call it for this purpose unless it is absolutely necessary to have the user's merged <b>HKEY_CLASSES_ROOT</b> information.
 
 Applications running in the security context of the interactively logged-on user do not need to use 
 <b>RegOpenUserClassesRoot</b>. These applications can call the 
@@ -136,7 +136,7 @@ Applications running in the security context of the interactively logged-on user
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb762281(v=VS.85).aspx">LoadUserProfile</a>
+<a href="_shell_loaduserprofile">LoadUserProfile</a>
 
 
 

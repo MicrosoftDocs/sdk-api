@@ -7,7 +7,7 @@ old-location: wsw\wscreatemessageforchannel.htm
 old-project: wsw
 ms.assetid: 0a4f076b-6725-45a9-8817-5dec3b647c4f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCreateMessageForChannel, WsCreateMessageForChannel function [Web Services for Windows], webservices/WsCreateMessageForChannel, wsw.wscreatemessageforchannel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                Creates a <a href="https://msdn.microsoft.com/edc810d9-7d78-4b79-8cbb-e87401f6ae41">message</a> for use with a specified <a href="https://msdn.microsoft.com/5a04580d-c89f-4505-a4b7-0724ffb788fd">channel</a>.
+Creates a <a href="https://msdn.microsoft.com/edc810d9-7d78-4b79-8cbb-e87401f6ae41">message</a> for use with a specified <a href="https://msdn.microsoft.com/5a04580d-c89f-4505-a4b7-0724ffb788fd">channel</a>.
             
 
 
@@ -85,9 +84,7 @@ The number of properties in the <i>properties</i> array.
 
 ### -param message
 
-
-                    
-                    On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> structure representing the new message.
+On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> structure representing the new message.
                 
 
 When you no longer need this structure, you must free it by calling <a href="https://msdn.microsoft.com/50e08300-9445-4741-9298-bd80fc777041">WsFreeMessage</a>.
@@ -129,7 +126,6 @@ Insufficient memory to complete the operation.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -155,8 +151,7 @@ This function may return other errors not listed above.
 
 
 
-
-                In contrast to the more general  <a href="https://msdn.microsoft.com/1c48647e-9e77-4b7a-add3-e035c7f9f27e">WsCreateMessage</a> function,  <b>WsCreateMessageForChannel</b> ensures that
+In contrast to the more general  <a href="https://msdn.microsoft.com/1c48647e-9e77-4b7a-add3-e035c7f9f27e">WsCreateMessage</a> function,  <b>WsCreateMessageForChannel</b> ensures that
                 the message version used is appropriate for the channel.
             
 

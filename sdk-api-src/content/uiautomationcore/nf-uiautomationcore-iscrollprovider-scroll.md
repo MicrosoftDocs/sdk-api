@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IScrollProvider_Scroll.htm
 old-project: WinAuto
 ms.assetid: d1bd15d2-beaf-4838-970a-00cfa2a7cfd9
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IScrollProvider interface [Windows Accessibility],Scroll method, IScrollProvider.Scroll, IScrollProvider::Scroll, Scroll, Scroll method [Windows Accessibility], Scroll method [Windows Accessibility],IScrollProvider interface, uiauto.uiauto_IScrollProvider_Scroll, uiauto_IScrollProvider_Scroll, uiautomationcore/IScrollProvider::Scroll, winauto.uiauto_IScrollProvider_Scroll
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        Scrolls the visible region of the content area horizontally and vertically.
+Scrolls the visible region of the content area horizontally and vertically.
         
 
 

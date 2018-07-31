@@ -4,10 +4,10 @@ title: IOCTL_DISK_GET_DRIVE_LAYOUT
 author: windows-sdk-content
 description: Retrieves information for each entry in the partition tables for a disk.
 old-location: fs\ioctl_disk_get_drive_layout.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 6c1bc445-3cd1-4f86-a36b-f74ad8f4d2e5
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_LAYOUT, IOCTL_DISK_GET_DRIVE_LAYOUT control, IOCTL_DISK_GET_DRIVE_LAYOUT control code [Files], _win32_ioctl_disk_get_drive_layout, base.ioctl_disk_get_drive_layout, fs.ioctl_disk_get_drive_layout, winioctl/IOCTL_DISK_GET_DRIVE_LAYOUT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,13 +61,9 @@ Retrieves information for each entry in the  partition tables for a disk.
 </tr>
 <tr>
 <td>
-<pre>
-BOOL DeviceIoControl(
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,            // handle to device
-  IOCTL_DISK_GET_DRIVE_LAYOUT, // dwIoControlCode
-  NULL,                        // lpInBuffer
-  0,                           // nInBufferSize
-  (LPVOID) lpOutBuffer,        // output buffer
+  IOCTL_DISK_GET_DRIVE_LAYOUT, // dwIoControlCodeNULL,                        // lpInBuffer0,                           // nInBufferSize(LPVOID) lpOutBuffer,        // output buffer
   (DWORD) nOutBufferSize,      // size of output buffer
   (LPDWORD) lpBytesReturned,   // number of bytes returned
   (LPOVERLAPPED) lpOverlapped  // OVERLAPPED structure

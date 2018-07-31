@@ -7,7 +7,7 @@ old-location: wsw\wsencodeurl.htm
 old-project: wsw
 ms.assetid: 8253b062-072b-4d37-8b82-407df1bea6b4
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsEncodeUrl, WsEncodeUrl function [Web Services for Windows], webservices/WsEncodeUrl, wsw.wsencodeurl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,15 +62,13 @@ Encodes the specified <a href="https://msdn.microsoft.com/efc67b64-cedf-4cd9-83b
 
 ### -param url [in]
 
-
-                    A reference to the  <a href="https://msdn.microsoft.com/efc67b64-cedf-4cd9-83b3-047f6c38c6ea">WS_URL</a> to encode.
+A reference to the  <a href="https://msdn.microsoft.com/efc67b64-cedf-4cd9-83b3-047f6c38c6ea">WS_URL</a> to encode.
                 
 
 
 ### -param flags [in]
 
-
-                    The value of this parameter determines the URL scheme evaluation method.  See <a href="https://msdn.microsoft.com/b74c22fd-35b1-4d7b-974d-8ff7fff07813">WS_URL_FLAGS</a>.
+The value of this parameter determines the URL scheme evaluation method.  See <a href="https://msdn.microsoft.com/b74c22fd-35b1-4d7b-974d-8ff7fff07813">WS_URL_FLAGS</a>.
                 
 
 
@@ -109,7 +107,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -121,7 +118,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -133,8 +129,7 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
-                    The URL data being encoded was not valid according to the URL syntax.                    
+The URL data being encoded was not valid according to the URL syntax.                    
                 
 
 </td>
@@ -160,8 +155,7 @@ This function may return other errors not listed above.
 
 
 
-
-                If a scheme is not recognized in the <i>url</i> parameter the function returns WS_E_INVALID_FORMAT.  
+If a scheme is not recognized in the <i>url</i> parameter the function returns WS_E_INVALID_FORMAT.  
                 Only scheme types identified in  <a href="https://msdn.microsoft.com/e8763719-6ba0-4e5e-bb71-625d36a45eaf">WS_URL_SCHEME_TYPE</a> are supported.
             
 

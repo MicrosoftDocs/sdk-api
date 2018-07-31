@@ -7,7 +7,7 @@ old-location: winauto\uiauto_PropertyConditionFlagsEnum.htm
 old-project: WinAuto
 ms.assetid: debe8141-2a91-4774-b533-d6f3ccfc7744
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: PropertyConditionFlags, PropertyConditionFlags enumeration [Windows Accessibility], PropertyConditionFlags_IgnoreCase, PropertyConditionFlags_None, uiauto.uiauto_PropertyConditionFlagsEnum, uiauto_PropertyConditionFlagsEnum, uiautomationcoreapi/PropertyConditionFlags, uiautomationcoreapi/PropertyConditionFlags_IgnoreCase, uiautomationcoreapi/PropertyConditionFlags_None, winauto.uiauto_PropertyConditionFlagsEnum
 ms.prod: windows
 ms.technology: windows-sdk

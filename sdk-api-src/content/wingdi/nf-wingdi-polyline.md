@@ -7,7 +7,7 @@ old-location: gdi\polyline.htm
 old-project: gdi
 ms.assetid: 55481dd0-3db7-4131-b383-4d0036943e60
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: Polyline, Polyline function [Windows GDI], _win32_Polyline, gdi.polyline, wingdi/Polyline
 ms.prod: windows
 ms.technology: windows-sdk

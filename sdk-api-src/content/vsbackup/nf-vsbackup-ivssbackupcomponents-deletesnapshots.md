@@ -4,10 +4,10 @@ title: IVssBackupComponents::DeleteSnapshots
 author: windows-sdk-content
 description: The DeleteSnapshots method deletes one or more shadow copies or a shadow copy set.
 old-location: base\ivssbackupcomponents_deletesnapshots.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 2e06f69e-8210-4773-8080-5c58e6f59792
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: DeleteSnapshots, DeleteSnapshots method [VSS], DeleteSnapshots method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DeleteSnapshots method, IVssBackupComponents.DeleteSnapshots, IVssBackupComponents::DeleteSnapshots, _win32_ivssbackupcomponents_deletesnapshots, base.ivssbackupcomponents_deletesnapshots, vsbackup/IVssBackupComponents::DeleteSnapshots
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-
-    The <b>DeleteSnapshots</b> method deletes 
+The <b>DeleteSnapshots</b> method deletes 
     one or more shadow copies or a shadow copy set.
    
 
@@ -70,16 +69,14 @@ Identifier of the shadow copy or a shadow copy set to be deleted.
 
 ### -param eSourceObjectType [in]
 
-
-      Type of the object on which all shadow copies will be deleted. The value of this parameter is
+Type of the object on which all shadow copies will be deleted. The value of this parameter is
       <b>VSS_OBJECT_SNAPSHOT</b> or <b>VSS_OBJECT_SNAPSHOT_SET</b>.
      
 
 
 ### -param bForceDelete [in]
 
-
-      If the value of this parameter is <b>TRUE</b>, the provider will do everything possible to delete the shadow copy or 
+If the value of this parameter is <b>TRUE</b>, the provider will do everything possible to delete the shadow copy or 
       shadow copies in a shadow copy set. If it is <b>FALSE</b>, no additional effort will be made.
      
 
@@ -91,8 +88,7 @@ Number of deleted shadow copies.
 
 ### -param pNondeletedSnapshotID [out]
 
-
-      If an error occurs, the value of this parameter is the identifier of the first shadow copy that could not be 
+If an error occurs, the value of this parameter is the identifier of the first shadow copy that could not be 
       deleted. Otherwise, it is <b>GUID_NULL</b>.
      
 
@@ -159,8 +155,7 @@ The caller is out of memory or other system resources.
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
@@ -185,8 +180,7 @@ The specified shadow copy does not exist.
 </dl>
 </td>
 <td width="60%">
-
-        Expected provider error. The provider logged the error in the event log. For more information, see 
+Expected provider error. The provider logged the error in the event log. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
        
 
@@ -199,8 +193,7 @@ The specified shadow copy does not exist.
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected provider error. The error code is logged in the error log. For more information, see 
+Unexpected provider error. The error code is logged in the error log. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
        
 
@@ -216,8 +209,7 @@ The specified shadow copy does not exist.
 
 
 
-
-    Multiple shadow copies in a shadow copy set are deleted sequentially. If an error occurs during one of these 
+Multiple shadow copies in a shadow copy set are deleted sequentially. If an error occurs during one of these 
     individual deletions, 
     <b>DeleteSnapshots</b> will return
     immediately; no attempt will be made to delete any remaining shadow copies. The 
@@ -227,8 +219,7 @@ The specified shadow copy does not exist.
 
 The requester is responsible for serializing the delete shadow copy operation.
 
-
-    During a backup, shadow copies are automatically released as soon as the 
+During a backup, shadow copies are automatically released as soon as the 
     <a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a> instance is released. In this 
     case, it is not necessary to explicitly delete shadow copies.
    

@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_writer_property.htm
 old-project: wsw
 ms.assetid: 2979d038-f0a8-407d-bf8e-dca4027f6410
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_WRITER_PROPERTY, WS_XML_WRITER_PROPERTY structure [Web Services for Windows], _WS_XML_WRITER_PROPERTY, webservices/WS_XML_WRITER_PROPERTY, wsw.ws_xml_writer_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Specifies a writer specific setting.
+Specifies a writer specific setting.
       
 
 
@@ -63,15 +62,13 @@ req.product: Windows Address Book 5.0
 
 ### -field id
 
-
-          Identifies the <a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML_WRITER_PROPERTY_ID</a>.
+Identifies the <a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML_WRITER_PROPERTY_ID</a>.
         
 
 
 ### -field value
 
-
-            A pointer to the value to set.
+A pointer to the value to set.
             The pointer must have an alignment compatible with the type
             of the property.
         
@@ -79,7 +76,6 @@ req.product: Windows Address Book 5.0
 
 ### -field valueSize
 
-
-          The size in bytes of the memory pointed to by value.
+The size in bytes of the memory pointed to by value.
         
 

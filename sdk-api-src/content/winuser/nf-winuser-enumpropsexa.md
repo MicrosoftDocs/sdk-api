@@ -7,7 +7,7 @@ old-location: winmsg\enumpropsex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\enumpropsex.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: EnumPropsEx, EnumPropsEx function [Windows and Messages], EnumPropsExA, EnumPropsExW, _win32_EnumPropsEx, _win32_enumpropsex_cpp, winmsg.enumpropsex, winui._win32_enumpropsex, winuser/EnumPropsEx, winuser/EnumPropsExA, winuser/EnumPropsExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ A handle to the window whose property list is to be enumerated.
 
 Type: <b>PROPENUMPROCEX</b>
 
-A pointer to the callback function. For more information about the callback function, see the <a href="https://msdn.microsoft.com/library/ms633566(v=VS.85).aspx">PropEnumProcEx</a> function. 
+A pointer to the callback function. For more information about the callback function, see the <a href="https://msdn.microsoft.com/b19ab9c1-5907-44a2-b087-cbb4a41d0bf2">PropEnumProcEx</a> function. 
 
 
 ### -param lParam [in]
@@ -106,7 +106,7 @@ An application can remove only those properties it has added. It must not remove
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms633561(v=VS.85).aspx">Listing Window Properties for a Given Window</a>.
+For an example, see <a href="using_window_properties.htm">Listing Window Properties for a Given Window</a>.
 
 <div class="code"></div>
 
@@ -121,7 +121,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms633561(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633566(v=VS.85).aspx">PropEnumProcEx</a>
+<a href="https://msdn.microsoft.com/b19ab9c1-5907-44a2-b087-cbb4a41d0bf2">PropEnumProcEx</a>
 
 
 
@@ -129,7 +129,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms633561(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632594(v=VS.85).aspx">Window Properties</a>
+<a href="https://msdn.microsoft.com/c39902d3-5907-4aa9-b839-d2d67d273990">Window Properties</a>
  
 
  

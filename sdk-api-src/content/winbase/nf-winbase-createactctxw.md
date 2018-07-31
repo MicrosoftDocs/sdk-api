@@ -4,10 +4,10 @@ title: CreateActCtxW function
 author: windows-sdk-content
 description: The CreateActCtx function creates an activation context.
 old-location: setup\createactctx.htm
-old-project: sbscs
+old-project: SbsCs
 ms.assetid: 11508215-8d8b-4040-a725-88804103fac4
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/29/2018
 ms.keywords: CreateActCtx, CreateActCtx function [Side-by-side Assemblies], CreateActCtxA, CreateActCtxW, _win32_createactctx, setup.createactctx, winbase/CreateActCtx, winbase/CreateActCtxA, winbase/CreateActCtxW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,8 +57,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The 
+The 
 <b>CreateActCtx</b> function creates an activation context. 
 		
 

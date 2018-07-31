@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccolortransform_initialize.htm
 old-project: wic
 ms.assetid: 572a014b-10f9-4b76-9090-04ac13edfc3d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWICColorTransform interface [Windows Imaging Component],Initialize method, IWICColorTransform.Initialize, IWICColorTransform::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICColorTransform interface, _wic_codec_iwiccolortransform_initialize, wic._wic_codec_iwiccolortransform_initialize, wincodec/IWICColorTransform::Initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,12 +123,9 @@ The currently supported formats for the <i>pIContextSource</i>  and <i>pixelFmtD
 <li>GUID_WICPixelFormat32bppCMYK</li>
 <li>GUID_WICPixelFormat48bppBGR</li>
 <li>GUID_WICPixelFormat64bppBGRA 		(Windows 8 and later)</li>
-<li>
-GUID_WICPixelFormat64bppPBGRA (Windows 8 and later)</li>
-<li>
-GUID_WICPixelFormat64bppPRGBA (Windows 8 and later)</li>
-<li>
-GUID_WICPixelFormat64bppRGBA 		 (Windows 8 and later)</li>
+<li>GUID_WICPixelFormat64bppPBGRA (Windows 8 and later)</li>
+<li>GUID_WICPixelFormat64bppPRGBA (Windows 8 and later)</li>
+<li>GUID_WICPixelFormat64bppRGBA 		 (Windows 8 and later)</li>
 </ul>
 In order to get correct behavior from a color transform, the input and output pixel formats must be compatible with the source and destination color profiles. For example, an sRGB destination color profile will produce incorrect results when used with a CMYK destination pixel format.
 

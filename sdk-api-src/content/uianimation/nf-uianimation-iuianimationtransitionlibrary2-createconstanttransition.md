@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary2_createconstanttransitio
 old-project: UIAnimation
 ms.assetid: CC7315BB-B3EC-4B40-85B9-1AF70ABB5F77
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateConstantTransition, CreateConstantTransition method [Windows Animation], CreateConstantTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateConstantTransition method, IUIAnimationTransitionLibrary2.CreateConstantTransition, IUIAnimationTransitionLibrary2::CreateConstantTransition, uianimation.iuianimationtransitionlibrary2_createconstanttransition, uianimation/IUIAnimationTransitionLibrary2::CreateConstantTransition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates a constant scalar transition.
+Creates a constant scalar transition.
 
 
 ## -parameters
@@ -62,14 +61,12 @@ req.product: Windows XP with SP1 and later
 
 ### -param duration [in]
 
-
-                The duration of the transition.
+The duration of the transition.
 
 
 ### -param transition [out]
 
-
-                The new constant transition.
+The new constant transition.
 
 
 ## -returns

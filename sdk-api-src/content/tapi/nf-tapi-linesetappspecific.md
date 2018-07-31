@@ -4,10 +4,10 @@ title: lineSetAppSpecific function
 author: windows-sdk-content
 description: The lineSetAppSpecific function enables an application to set the application-specific field of the specified call's call-information record.
 old-location: tapi2\linesetappspecific.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: b7d51f62-3b19-4961-8d4c-a44dc8498f14
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "_tapi2_linesetappspecific, lineSetAppSpecific, lineSetAppSpecific function [TAPI 2.2], tapi/lineSetAppSpecific, tapi2.linesetappspecific"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CertAddEnhancedKeyUsageIdentifier function
 author: windows-sdk-content
 description: The CertAddEnhancedKeyUsageIdentifier function adds a usage identifier object identifier (OID) to the enhanced key usage (EKU) extended property of the certificate.
 old-location: security\certaddenhancedkeyusageidentifier.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 1bec8d2f-aa43-4a8b-9414-c3a4e5fcb470
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertAddEnhancedKeyUsageIdentifier, CertAddEnhancedKeyUsageIdentifier function [Security], _crypto2_certaddenhancedkeyusageidentifier, security.certaddenhancedkeyusageidentifier, wincrypt/CertAddEnhancedKeyUsageIdentifier
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Enhanced Key Usage Functions</a>
+<a href="cryptography_functions.htm">Enhanced Key Usage Functions</a>
 
 
 

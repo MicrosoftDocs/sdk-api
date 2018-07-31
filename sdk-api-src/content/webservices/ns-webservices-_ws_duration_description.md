@@ -7,7 +7,7 @@ old-location: wsw\ws_duration_description.htm
 old-project: wsw
 ms.assetid: 51084a56-f666-4ca0-b98c-9f41e28b99c0
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_DURATION_DESCRIPTION, WS_DURATION_DESCRIPTION structure [Web Services for Windows], _WS_DURATION_DESCRIPTION, webservices/WS_DURATION_DESCRIPTION, wsw.ws_duration_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                An optional type description  used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_DURATION_TYPE</a>.
+An optional type description  used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_DURATION_TYPE</a>.
                 It is used to specify constraints on the set of values
                 which can be deserialized.
             
@@ -71,20 +70,17 @@ The minimum value.
 
 ### -field maxValue
 
-
-                    The maximum value.
+The maximum value.
                 
 
 
 ### -field comparer
 
-
-                    Specifies a function which can be used to compare <a href="https://msdn.microsoft.com/ccb08c23-8c6f-4ea7-a43b-c30a0df75805">WS_DURATION</a>. If <b>NULL</b>, a default
+Specifies a function which can be used to compare <a href="https://msdn.microsoft.com/ccb08c23-8c6f-4ea7-a43b-c30a0df75805">WS_DURATION</a>. If <b>NULL</b>, a default
                     comparer is used.
                 
 
-
-                    Because <a href="https://msdn.microsoft.com/ccb08c23-8c6f-4ea7-a43b-c30a0df75805">WS_DURATION</a> has a partial ordering, not all durations can be unambiguously compared
+Because <a href="https://msdn.microsoft.com/ccb08c23-8c6f-4ea7-a43b-c30a0df75805">WS_DURATION</a> has a partial ordering, not all durations can be unambiguously compared
                     (for example, 1 month and 30 days).  The default comparer function can compare durations that specify
                     years and months (but no other components), or durations that specify no years or months (but any other
                     component).

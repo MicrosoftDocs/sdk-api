@@ -4,10 +4,10 @@ title: "_SecPkgContext_Lifespan"
 author: windows-sdk-content
 description: The SecPkgContext_Lifespan structure indicates the life span of a security context. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_lifespan.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 7ef45795-f6af-4dac-a498-c6f8c915a168
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PSecPkgContext_Lifespan, PSecPkgContext_Lifespan, PSecPkgContext_Lifespan structure pointer [Security], SecPkgContext_Lifespan, SecPkgContext_Lifespan structure [Security], _SecPkgContext_Lifespan, _ssp_secpkgcontext_lifespan, security.secpkgcontext_lifespan, sspi/PSecPkgContext_Lifespan, sspi/SecPkgContext_Lifespan"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_Lifespan structure
@@ -51,8 +50,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-			The <b>SecPkgContext_Lifespan</b> structure indicates the life span of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. The 
+The <b>SecPkgContext_Lifespan</b> structure indicates the life span of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. The 
 <a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a> function uses this structure.
 
 

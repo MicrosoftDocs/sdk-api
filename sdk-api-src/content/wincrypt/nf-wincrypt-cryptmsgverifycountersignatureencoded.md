@@ -4,10 +4,10 @@ title: CryptMsgVerifyCountersignatureEncoded function
 author: windows-sdk-content
 description: Verifies a countersignature in terms of the SignerInfo structure (as defined by PKCS #7).
 old-location: security\cryptmsgverifycountersignatureencoded.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: b0332360-a737-4b48-b592-0c55d493a02d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptMsgVerifyCountersignatureEncoded, CryptMsgVerifyCountersignatureEncoded function [Security], _crypto2_cryptmsgverifycountersignatureencoded, security.cryptmsgverifycountersignatureencoded, wincrypt/CryptMsgVerifyCountersignatureEncoded
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CryptMsgVerifyCountersignatureEncoded</b> function verifies a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">countersignature</a> in terms of the SignerInfo structure (as defined by PKCS #7).
+The <b>CryptMsgVerifyCountersignatureEncoded</b> function verifies a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">countersignature</a> in terms of the SignerInfo structure (as defined by PKCS #7).
 
 
 ## -parameters
@@ -109,8 +108,7 @@ A pointer to a
 
 
 
-
-						If the function succeeds, the return value is nonzero (<b>TRUE</b>).
+If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
@@ -247,11 +245,11 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Low-level Message Functions</a>
+<a href="cryptography_functions.htm">Low-level Message Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

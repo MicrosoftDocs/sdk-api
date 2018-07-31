@@ -7,7 +7,7 @@ old-location: wmformat\iwmlicenserevocationagent.htm
 old-project: wmformat
 ms.assetid: 4cb5beb9-72b8-46cb-8460-56455785a7a0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMLicenseRevocationAgent, IWMLicenseRevocationAgent interface [windows Media Format], IWMLicenseRevocationAgent interface [windows Media Format],described, IWMLicenseRevocationAgentInterface, wmformat.iwmlicenserevocationagent, wmsdkidl/IWMLicenseRevocationAgent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmformat\iwmistreamprops_getproperty.htm
 old-project: wmformat
 ms.assetid: 1873e20f-376a-45fe-ad02-0c28c894af18
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetProperty, GetProperty method [windows Media Format], GetProperty method [windows Media Format],IWMIStreamProps interface, IWMIStreamProps interface [windows Media Format],GetProperty method, IWMIStreamProps.GetProperty, IWMIStreamProps::GetProperty, IWMIStreamPropsGetProperty, wmformat.iwmistreamprops_getproperty, wmsdkidl/IWMIStreamProps::GetProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,11 +71,9 @@ Pointer to a <b>null</b>-terminated string containing the name of the property t
 
 <table>
 <tr>
-<th>
-                  Property name
+<th>Property name
                 </th>
-<th>
-                  Global identifier
+<th>Global identifier
                 </th>
 </tr>
 <tr>

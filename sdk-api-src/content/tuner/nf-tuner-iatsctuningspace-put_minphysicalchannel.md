@@ -7,7 +7,7 @@ old-location: mstv\iatsctuningspace_put_minphysicalchannel.htm
 old-project: mstv
 ms.assetid: 57192470-8013-4812-af95-cb6ce92bea83
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],put_MinPhysicalChannel method, IATSCTuningSpace.put_MinPhysicalChannel, IATSCTuningSpace::put_MinPhysicalChannel, IATSCTuningSpaceput_MinPhysicalChannel, mstv.iatsctuningspace_put_minphysicalchannel, put_MinPhysicalChannel, put_MinPhysicalChannel method [Microsoft TV Technologies], put_MinPhysicalChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, tuner/IATSCTuningSpace::put_MinPhysicalChannel
 ms.prod: windows
 ms.technology: windows-sdk

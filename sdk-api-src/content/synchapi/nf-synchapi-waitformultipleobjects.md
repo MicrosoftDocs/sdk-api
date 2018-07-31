@@ -4,10 +4,10 @@ title: WaitForMultipleObjects function
 author: windows-sdk-content
 description: Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses.
 old-location: base\waitformultipleobjects.htm
-old-project: sync
+old-project: Sync
 ms.assetid: 51afb13c-ea7a-407a-9f21-345d84f3b96b
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/29/2018
 ms.keywords: WaitForMultipleObjects, WaitForMultipleObjects function, _win32_waitformultipleobjects, base.waitformultipleobjects, synchapi/WaitForMultipleObjects
 ms.prod: windows
 ms.technology: windows-sdk

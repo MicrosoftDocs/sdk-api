@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard_getstatus.htm
 old-project: UIAnimation
 ms.assetid: 8ee9a17f-c57c-49df-950d-491e05ba8768
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetStatus, GetStatus method [Windows Animation], GetStatus method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],GetStatus method, IUIAnimationStoryboard.GetStatus, IUIAnimationStoryboard::GetStatus, uianimation.iuianimationstoryboard_getstatus, uianimation/IUIAnimationStoryboard::GetStatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Gets the status of the storyboard.
+Gets the status of the storyboard.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param status [out]
 
-
-            The storyboard status.
+The storyboard status.
 
 
 ## -returns
@@ -98,8 +96,7 @@ Unless this method is called from a handler for <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/02830092-0070-44dc-8db2-239941134473">
-      UI_ANIMATION_STORYBOARD_STATUS</a>
+<a href="https://msdn.microsoft.com/02830092-0070-44dc-8db2-239941134473">UI_ANIMATION_STORYBOARD_STATUS</a>
  
 
  

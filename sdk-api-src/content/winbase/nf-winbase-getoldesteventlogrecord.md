@@ -4,10 +4,10 @@ title: GetOldestEventLogRecord function
 author: windows-sdk-content
 description: Retrieves the absolute record number of the oldest record in the specified event log.
 old-location: base\getoldesteventlogrecord.htm
-old-project: eventlog
+old-project: EventLog
 ms.assetid: 2f64f82b-a5f5-4701-844b-5979a0124414
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetOldestEventLogRecord, GetOldestEventLogRecord function, _win32_getoldesteventlogrecord, base.getoldesteventlogrecord, winbase/GetOldestEventLogRecord
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ A pointer to a variable that receives the absolute record number of the oldest r
 
 
 
-
-						If the function succeeds, the return value is nonzero.
+If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 

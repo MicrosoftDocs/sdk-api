@@ -7,7 +7,7 @@ old-location: menurc\stringcbcatnex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcatnex.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbCatNEx, StringCbCatNEx function [Menus and Other Resources], StringCbCatNExA, StringCbCatNExW, _shell_StringCbCatNEx, _shell_stringcbcatnex_cpp, menurc.stringcbcatnex, strsafe/StringCbCatNEx, strsafe/StringCbCatNExA, strsafe/StringCbCatNExW, winui._shell_stringcbcatnex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Concatenates the specified number of bytes from one  string to another string. T
 <li>
 <a href="https://msdn.microsoft.com/28099350-5759-4595-8353-3452c5cf6ca8">StrNCat</a>
 </li>
-</ul><b>StringCbCatNEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/library/ms647497(v=VS.85).aspx">StringCbCatN</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags may also be passed to the function for additional control.
+</ul><b>StringCbCatNEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/56ef4ada-52df-48dd-a5e1-f62311be7592">StringCbCatN</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags may also be passed to the function for additional control.
 
 
 ## -parameters
@@ -244,8 +244,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 
 
-Compared to  the functions it replaces, <b>StringCbCatNEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbCatNEx</b>
-				always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
+Compared to  the functions it replaces, <b>StringCbCatNEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbCatNEx</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 
@@ -289,15 +288,15 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>STR
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647496(v=VS.85).aspx">StringCbCatEx</a>
+<a href="https://msdn.microsoft.com/db9f0731-0f7b-4018-ad07-1abe0bfe71e8">StringCbCatEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647497(v=VS.85).aspx">StringCbCatN</a>
+<a href="https://msdn.microsoft.com/56ef4ada-52df-48dd-a5e1-f62311be7592">StringCbCatN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647524(v=VS.85).aspx">StringCchCatNEx</a>
+<a href="https://msdn.microsoft.com/63c9f437-b769-4c5a-9168-d0c458947abc">StringCchCatNEx</a>
  
 
  

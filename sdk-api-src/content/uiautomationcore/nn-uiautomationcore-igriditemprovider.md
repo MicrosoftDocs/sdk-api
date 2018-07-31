@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IGridItemProvider.htm
 old-project: WinAuto
 ms.assetid: 334a10f1-8bfc-4935-9eee-6176a3e8a4f1
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IGridItemProvider, IGridItemProvider interface [Windows Accessibility], IGridItemProvider interface [Windows Accessibility],described, uiauto.uiauto_IGridItemProvider, uiauto_IGridItemProvider, uiautomationcore/IGridItemProvider, winauto.uiauto_IGridItemProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,12 +59,10 @@ Provides access
 
 
 
-
-            Implemented on a UI Automation provider that must support the <a href="https://msdn.microsoft.com/ae4b9021-1800-485b-99a2-54ddf9c21f93">GridItem</a> <i>control pattern</i>.
+Implemented on a UI Automation provider that must support the <a href="https://msdn.microsoft.com/ae4b9021-1800-485b-99a2-54ddf9c21f93">GridItem</a> <i>control pattern</i>.
    			
 
-
-            Controls that implement <b>IGridItemProvider</b> can typically be traversed 
+Controls that implement <b>IGridItemProvider</b> can typically be traversed 
             (that is, a UI Automation client can move to adjacent controls) by using the keyboard.
             
 

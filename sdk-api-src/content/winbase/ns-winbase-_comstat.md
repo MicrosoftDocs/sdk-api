@@ -4,10 +4,10 @@ title: "_COMSTAT"
 author: windows-sdk-content
 description: Contains information about a communications device.
 old-location: base\comstat_str.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: dd54d040-1244-425f-a43e-9071d679c4ec
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPCOMSTAT, COMSTAT, COMSTAT structure, LPCOMSTAT, LPCOMSTAT structure pointer, _COMSTAT, _win32_comstat_str, base.comstat_str, winbase/COMSTAT, winbase/LPCOMSTAT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,7 +104,7 @@ Reserved; do not use.
 ### -field cbInQue
 
 The number of bytes received by the serial provider but not yet read by a 
-<a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a> operation.
+<a href="base.readfile">ReadFile</a> operation.
 
 
 ### -field cbOutQue
@@ -121,7 +121,7 @@ The number of bytes of user data remaining to be transmitted for all write opera
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365467(v=VS.85).aspx">ReadFile</a>
+<a href="base.readfile">ReadFile</a>
 
 
 

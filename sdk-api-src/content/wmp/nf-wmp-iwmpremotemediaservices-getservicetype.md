@@ -7,7 +7,7 @@ old-location: wmp\iwmpremotemediaservices_getservicetype.htm
 old-project: WMP
 ms.assetid: 866e7ee7-5df1-4e6b-8b41-85c6ff8b64d5
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: GetServiceType, GetServiceType method [Windows Media Player], GetServiceType method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetServiceType method, IWMPRemoteMediaServices.GetServiceType, IWMPRemoteMediaServices::GetServiceType, IWMPRemoteMediaServicesGetServiceType, wmp.iwmpremotemediaservices_getservicetype, wmp/IWMPRemoteMediaServices::GetServiceType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,11 +68,9 @@ Pointer to a <b></b>BSTR containing one or more of the following values.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -113,11 +111,9 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

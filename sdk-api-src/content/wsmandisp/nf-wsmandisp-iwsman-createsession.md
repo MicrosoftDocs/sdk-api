@@ -4,10 +4,10 @@ title: IWSMan::CreateSession
 author: windows-sdk-content
 description: Creates a Session object that can then be used for subsequent network operations.
 old-location: winrm\iwsman_createsession.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 0ccab9bf-f8b4-432e-92d1-b5a5d3a2dfe5
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: CreateSession, CreateSession method [Windows Remote Management], CreateSession method [Windows Remote Management],IWSMan interface, IWSMan interface [Windows Remote Management],CreateSession method, IWSMan.CreateSession, IWSMan::CreateSession, winrm.iwsman_createsession, wsmandisp/IWSMan::CreateSession
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,9 +67,9 @@ The protocol and service to connect to, including either IPv4 or IPv6. The forma
 ### -param flags [in]
 
 The session flags that specify the authentication method, such as 
-     <a href="https://msdn.microsoft.com/library/Aa384465(v=VS.85).aspx">Negotiate authentication</a> 
+     <a href="windows_remote_management_glossary.htm">Negotiate authentication</a> 
      or 
-     <a href="https://msdn.microsoft.com/library/Aa384465(v=VS.85).aspx">Digest authentication</a>, 
+     <a href="windows_remote_management_glossary.htm">Digest authentication</a>, 
      for connecting to a remote computer. These flags also specify other session connection information, such as 
      encoding or encryption. This parameter must contain one or more of the flags in 
      <b>__WSManSessionFlags</b> for a remote connection. For more information, see 

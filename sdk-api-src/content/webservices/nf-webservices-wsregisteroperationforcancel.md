@@ -2,12 +2,12 @@
 UID: NF:webservices.WsRegisterOperationForCancel
 title: WsRegisterOperationForCancel function
 author: windows-sdk-content
-description: A service operation can use this function to register for a cancel notification.
+description: A service operation can use this function to register for a cancel notification. It is only valid to call this API when the service operation is executing. The behavior for calling it after the completion of Service Operation is not supported.
 old-location: wsw\wsregisteroperationforcancel.htm
 old-project: wsw
 ms.assetid: 3e456814-f70f-47ab-b866-f0b73d5cd35e
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsRegisterOperationForCancel, WsRegisterOperationForCancel function [Web Services for Windows], webservices/WsRegisterOperationForCancel, wsw.wsregisteroperationforcancel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,19 +51,16 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                A service operation can use this function to register for a cancel notification. 
+A service operation can use this function to register for a cancel notification. 
                 It is only valid to call this API when the service operation is executing. The behavior 
                 for calling it after the completion of Service Operation is not supported.
             
 
-
-                While this API is being called and the runtime has determined that the cancellation of the 
+While this API is being called and the runtime has determined that the cancellation of the 
                 service operation is necessary, it can call the callback during the call to this API by the application. 
             
 
-
-                The caller should therefore assume that the runtime may call on the callback 
+The caller should therefore assume that the runtime may call on the callback 
                 <a href="https://msdn.microsoft.com/177f9abb-861d-42a9-8044-25076b026f1d">WS_OPERATION_CANCEL_CALLBACK</a> as soon as the WsRegisterOperationForCancel is called.
             
 
@@ -80,29 +77,25 @@ The context that the property value is being obtained for.
 
 ### -param cancelCallback [in]
 
-
-                    Function pointer for cancel notification function.
+Function pointer for cancel notification function.
                 
 
 
 ### -param freestateCallback [in, optional]
 
-
-                    A optional parameter specifying the function pointer to the free state call. 
+A optional parameter specifying the function pointer to the free state call. 
                 
 
 
 ### -param userState [in, optional]
 
-
-                    A optional parameter specifying the application specific state which can be used to identify call data. 
+A optional parameter specifying the application specific state which can be used to identify call data. 
                 
 
 
 ### -param error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 

@@ -4,10 +4,10 @@ title: ItsPubPlugin::GetCacheLastUpdateTime
 author: windows-sdk-content
 description: Returns the time that the cache was last updated.
 old-location: termserv\itspubplugin_getcachelastupdatetime.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 66b18c7f-2623-44ed-8cb9-3cceaa9bab34
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetCacheLastUpdateTime, GetCacheLastUpdateTime method [Remote Desktop Services], GetCacheLastUpdateTime method [Remote Desktop Services],ItsPubPlugin interface, ItsPubPlugin interface [Remote Desktop Services],GetCacheLastUpdateTime method, ItsPubPlugin.GetCacheLastUpdateTime, ItsPubPlugin::GetCacheLastUpdateTime, termserv.itspubplugin_getcachelastupdatetime, tspubplugincom/ItsPubPlugin::GetCacheLastUpdateTime
 ms.prod: windows
 ms.technology: windows-sdk

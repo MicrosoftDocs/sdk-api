@@ -4,10 +4,10 @@ title: CryptExportPKCS8Ex function
 author: windows-sdk-content
 description: Exports the private key in PKCS #8 format.
 old-location: security\cryptexportpkcs8ex.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 82fee86a-8704-4f22-8f11-f89509c5a0aa
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptExportPKCS8Ex, CryptExportPKCS8Ex function [Security], security.cryptexportpkcs8ex, wincrypt/CryptExportPKCS8Ex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows Address Book 5.0
 
 <p class="CCE_Message">[The <b>CryptExportPKCS8Ex</b> function is no longer available for use as of Windows Server 2008 and Windows Vista. Instead, use the <a href="https://msdn.microsoft.com/e8bd54b1-946f-4c65-8a86-96f0dbec07ff">PFXExportCertStoreEx</a> function.]
 
-The <b>CryptExportPKCS8Ex</b> function exports the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> in PKCS #8 format.
-		This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to Crypt32.dll.
+The <b>CryptExportPKCS8Ex</b> function exports the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> in PKCS #8 format.This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to Crypt32.dll.
 
 
 ## -parameters
@@ -100,8 +99,7 @@ A pointer to a <b>DWORD</b> that may contain, on input, the size, in  bytes,  of
 
 
 
-
-						If the function succeeds, the function returns nonzero (<b>TRUE</b>).
+If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.

@@ -4,10 +4,10 @@ title: "_MIB_TCPROW2"
 author: windows-sdk-content
 description: Contains information that describes an IPv4 TCP connection.
 old-location: mib\mib_tcprow2.htm
-old-project: mib
+old-project: MIB
 ms.assetid: cff343cd-fe85-4e60-87bd-c1e9833cea38
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/29/2018
 ms.keywords: "*PMIB_TCPROW2, MIB_TCPROW2, MIB_TCPROW2 structure [MIB], MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCPROW2, PMIB_TCPROW2 structure pointer [MIB], _MIB_TCPROW2, mib.mib_tcprow2, tcpmib/MIB_TCPROW2, tcpmib/PMIB_TCPROW2"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,8 +67,7 @@ Type: <b>DWORD</b>
 The state of the TCP connection. This member can be one of the values defined in the <i>Iprtrmib.h</i> header file.
 					
 
-On the Windows SDK released for Windows Vista
-   and later, the organization of header files has changed. This member can be one of the values from the <b>MIB_TCP_STATE</b> enumeration defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
+On the Windows SDK released for Windows Vistaand later, the organization of header files has changed. This member can be one of the values from the <b>MIB_TCP_STATE</b> enumeration defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
 <table>
 <tr>
@@ -277,8 +276,7 @@ The offload state for this TCP connection. This parameter can be one of the enum
 
 
 
-The <a href="https://msdn.microsoft.com/942e8cb6-545f-45ab-919a-246e3b2d4c6a">GetTcpTable2</a>
-			function retrieves the IPv4 TCP connection table on the local computer and returns this information in a <a href="https://msdn.microsoft.com/e07de994-0bd5-4d18-9012-8ff191dd6939">MIB_TCPTABLE2</a> structure. 
+The <a href="https://msdn.microsoft.com/942e8cb6-545f-45ab-919a-246e3b2d4c6a">GetTcpTable2</a>function retrieves the IPv4 TCP connection table on the local computer and returns this information in a <a href="https://msdn.microsoft.com/e07de994-0bd5-4d18-9012-8ff191dd6939">MIB_TCPTABLE2</a> structure. 
 
 An array of <b>MIB_TCPROW2</b> structures are contained in the <b>MIB_TCPTABLE2</b> structure. 
 
@@ -290,8 +288,7 @@ An array of <b>MIB_TCPROW2</b> structures are contained in the <b>MIB_TCPTABLE2<
   no connection.  The TCP protocol is described in RFC 793. For more information, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84069">http://www.ietf.org/rfc/rfc793.txt</a>. 
 
-The <b>dwLocalPort</b>, and <b>dwRemotePort</b> members are in network byte order. In order to use the <b>dwLocalPort</b> or <b>dwRemotePort</b> members, the <a href="https://msdn.microsoft.com/9946df13-3b40-4bcb-91ca-10684b3fc9a5">ntohs</a> or <a href="https://msdn.microsoft.com/01cd32e7-a01d-40e8-afb5-69223d643a0e">inet_ntoa</a> functions in Windows Sockets or similar functions may be needed. The <b>dwLocalAddr</b> and <b>dwRemoteAddr</b> members are stored as a <b>DWORD</b> in the same format as the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">in_addr</a> structure. In order to use the <b>dwLocalAddr</b> or <b>dwRemoteAddr</b> members, the <a href="https://msdn.microsoft.com/04673bef-22c6-424f-a5ae-689fb648b54e">ntohl</a> or <b>inet_ntoa</b> functions in Windows Sockets or similar functions may be needed. On Windows Vista
-   and later, the <a href="https://msdn.microsoft.com/f198b770-9429-4b51-9fb4-06cf9917bc21">RtlIpv4AddressToString</a> or <a href="https://msdn.microsoft.com/4244eaaf-8522-4edb-abb8-dc2b063c9076">RtlIpv4AddressToStringEx</a> functions may be used to convert the IPv4 address in the <b>dwLocalAddr</b> or <b>dwRemoteAddr</b> members to a string without loading the Windows Sockets DLL. 
+The <b>dwLocalPort</b>, and <b>dwRemotePort</b> members are in network byte order. In order to use the <b>dwLocalPort</b> or <b>dwRemotePort</b> members, the <a href="https://msdn.microsoft.com/9946df13-3b40-4bcb-91ca-10684b3fc9a5">ntohs</a> or <a href="https://msdn.microsoft.com/01cd32e7-a01d-40e8-afb5-69223d643a0e">inet_ntoa</a> functions in Windows Sockets or similar functions may be needed. The <b>dwLocalAddr</b> and <b>dwRemoteAddr</b> members are stored as a <b>DWORD</b> in the same format as the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff556972">in_addr</a> structure. In order to use the <b>dwLocalAddr</b> or <b>dwRemoteAddr</b> members, the <a href="https://msdn.microsoft.com/04673bef-22c6-424f-a5ae-689fb648b54e">ntohl</a> or <b>inet_ntoa</b> functions in Windows Sockets or similar functions may be needed. On Windows Vistaand later, the <a href="https://msdn.microsoft.com/f198b770-9429-4b51-9fb4-06cf9917bc21">RtlIpv4AddressToString</a> or <a href="https://msdn.microsoft.com/4244eaaf-8522-4edb-abb8-dc2b063c9076">RtlIpv4AddressToStringEx</a> functions may be used to convert the IPv4 address in the <b>dwLocalAddr</b> or <b>dwRemoteAddr</b> members to a string without loading the Windows Sockets DLL. 
 
 
 #### Examples
@@ -509,7 +506,7 @@ int main()
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa366378(v=VS.85).aspx">SetTcpEntry</a>
+<a href="_iphlp_settcpentry">SetTcpEntry</a>
 
 
 

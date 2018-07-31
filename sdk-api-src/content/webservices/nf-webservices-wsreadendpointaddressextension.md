@@ -7,7 +7,7 @@ old-location: wsw\wsreadendpointaddressextension.htm
 old-project: wsw
 ms.assetid: 6133be54-8d47-4869-bf84-892324175942
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsReadEndpointAddressExtension, WsReadEndpointAddressExtension function [Web Services for Windows], webservices/WsReadEndpointAddressExtension, wsw.wsreadendpointaddressextension
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Reads an extension of the <a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-3cd6ae16275f">WS_ENDPOINT_ADDRESS</a>.
+Reads an extension of the <a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-3cd6ae16275f">WS_ENDPOINT_ADDRESS</a>.
             
 
 
@@ -63,39 +62,33 @@ req.product: Windows Address Book 5.0
 
 ### -param reader [in]
 
-
-                    The XML reader to use to read the extension.
+The XML reader to use to read the extension.
                 
 
-
-                    The function will automatically set the input of
+The function will automatically set the input of
                     the reader as necessary to read the extensions.
                 
 
 
 ### -param endpointAddress [in]
 
-
-                    The endpoint address containing the extensions.
+The endpoint address containing the extensions.
                 
 
 
 ### -param extensionType [in]
 
-
-                    The type of extension to read.
+The type of extension to read.
                 
 
 
 ### -param readOption [in]
 
-
-                    Whether the value is required, and how to allocate the value.
+Whether the value is required, and how to allocate the value.
                     See <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a> for more information.
                 
 
-
-                    This parameter must have one of the following values:
+This parameter must have one of the following values:
                 
 
 <ul>
@@ -112,45 +105,38 @@ req.product: Windows Address Book 5.0
 
 ### -param heap [in]
 
-
-                    The heap to use to store the value that is read.
+The heap to use to store the value that is read.
                 
 
 
 ### -param value
 
-
-                    The address of a buffer to place the value read.
+The address of a buffer to place the value read.
                 
 
-
-                    If using <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_VALUE</a> for the readOption
+If using <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_VALUE</a> for the readOption
                     parameter, the buffer must be the size of the type of extension
                     being read (which varies by <a href="https://msdn.microsoft.com/c35c39ff-497e-46d4-9dd7-2187a78f710e">WS_ENDPOINT_ADDRESS_EXTENSION_TYPE</a>).
                 
 
-
-                    If using <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_POINTER</a> or <b>WS_READ_OPTIONAL_POINTER</b>,
+If using <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_POINTER</a> or <b>WS_READ_OPTIONAL_POINTER</b>,
                     the buffer should be the size of a pointer.
                 
 
 
 ### -param valueSize [in]
 
-
-                    The size of the buffer that the caller has allocated for the value read.
+The size of the buffer that the caller has allocated for the value read.
                 
 
-
-                    This size should correspond to the size of the buffer passed
+This size should correspond to the size of the buffer passed
                     using the value parameter.
                 
 
 
 ### -param error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -187,7 +173,6 @@ A required parameter was <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -199,7 +184,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -225,12 +209,10 @@ This function may return other errors not listed above.
 
 
 
-
-                The returned value is valid until the heap is freed or reset.
+The returned value is valid until the heap is freed or reset.
             
 
-
-                If the requested extension type appears more than once in the
+If the requested extension type appears more than once in the
                 extensions buffer, then the first instance is returned.
             
 

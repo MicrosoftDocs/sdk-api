@@ -7,7 +7,7 @@ old-location: wsw\ws_raw_symmetric_security_key_handle.htm
 old-project: wsw
 ms.assetid: 8c2c664b-2ee4-4647-a219-119eb5c5a0f6
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE, WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE structure [Web Services for Windows], _WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE, webservices/WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE, wsw.ws_raw_symmetric_security_key_handle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,6 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 The type for specifying a symmetric cryptographic key as raw bytes.
             
 
@@ -63,13 +62,11 @@ The type for specifying a symmetric cryptographic key as raw bytes.
 
 ### -field keyHandle
 
-
 The base type from which this type and all other key handle types derive.
                 
 
 
 ### -field rawKeyBytes
-
 
 The cryptographic key as raw bytes.  It is strongly recommended that
 after the key is supplied in this form to any API, it is immediately

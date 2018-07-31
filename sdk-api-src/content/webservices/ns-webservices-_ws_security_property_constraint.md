@@ -7,7 +7,7 @@ old-location: wsw\ws_security_property_constraint.htm
 old-project: wsw
 ms.assetid: 382d75be-2c56-44f5-8069-740ad9b9d1c4
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SECURITY_PROPERTY_CONSTRAINT, WS_SECURITY_PROPERTY_CONSTRAINT structure [Web Services for Windows], _WS_SECURITY_PROPERTY_CONSTRAINT, webservices/WS_SECURITY_PROPERTY_CONSTRAINT, wsw.ws_security_property_constraint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                This structure is used to specify a set of constraints
+This structure is used to specify a set of constraints
                 for a particular security property.
                 Any property constraints that are not specified will use
                 the default constraints.
@@ -66,16 +65,14 @@ req.product: Windows Address Book 5.0
 
 ### -field id
 
-
-                    The id of the security property.  The following security
+The id of the security property.  The following security
                     property constraints may be specified:
                 
 
 <ul>
 <li>
 <a href="https://msdn.microsoft.com/98a824c9-11dd-4433-ae8f-2e6b6f6a520f">WS_SECURITY_PROPERTY_TIMESTAMP_USAGE</a>
-
-                        This property constraint may be specified when any 
+This property constraint may be specified when any 
                         of the following security bindings are specified:
                     
 
@@ -93,16 +90,14 @@ req.product: Windows Address Book 5.0
 <a href="https://msdn.microsoft.com/7abc37d8-cb00-459d-aa08-609a06b65a5c">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
-
-                        If this property is not specified, then the default constraint value
+If this property is not specified, then the default constraint value
                         of <a href="https://msdn.microsoft.com/72e2a404-7988-40b8-b9ec-f9b9b3d767c1">WS_SECURITY_TIMESTAMP_USAGE_ALWAYS</a> will be used.
                     
 
 </li>
 <li>
 <a href="https://msdn.microsoft.com/98a824c9-11dd-4433-ae8f-2e6b6f6a520f">WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL</a>
-
-                        This property constraint may be specified when any
+This property constraint may be specified when any
                         of the following security bindings are specified:
                     
 
@@ -117,12 +112,10 @@ req.product: Windows Address Book 5.0
 <a href="https://msdn.microsoft.com/1f6341b2-1f98-40a0-8f3a-cc9cf4538209">WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
-
-                        If this property is not specified, then the default constraint value
+If this property is not specified, then the default constraint value
                         of <a href="https://msdn.microsoft.com/2b673728-1050-4005-bbb6-64b81ec19174">WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT</a> will be used.
                     
-<b>WS_SECURITY_PROPERTY_SECURITY_HEADER_LAYOUT</b>
-                        This property constraint may be specified when any
+<b>WS_SECURITY_PROPERTY_SECURITY_HEADER_LAYOUT</b>This property constraint may be specified when any
                         of the following security bindings are specified:
                     
 
@@ -140,12 +133,10 @@ req.product: Windows Address Book 5.0
 <a href="https://msdn.microsoft.com/7abc37d8-cb00-459d-aa08-609a06b65a5c">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
-
-                        If this property is not specified, then the default constraint value
+If this property is not specified, then the default constraint value
                         of <a href="https://msdn.microsoft.com/a3090e6f-1f80-4d67-b7d7-1165486dcc66">WS_SECURITY_HEADER_LAYOUT_STRICT</a> will be used.
                     
-<b>WS_SECURITY_PROPERTY_SECURITY_HEADER_VERSION</b>
-                        This property constraint may be specified when any
+<b>WS_SECURITY_PROPERTY_SECURITY_HEADER_VERSION</b>This property constraint may be specified when any
                         of the following security bindings are specified:
                     
 
@@ -163,12 +154,10 @@ req.product: Windows Address Book 5.0
 <a href="https://msdn.microsoft.com/7abc37d8-cb00-459d-aa08-609a06b65a5c">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
-
-                        If this property is not specified, then the default constraint value
+If this property is not specified, then the default constraint value
                         of <a href="https://msdn.microsoft.com/27093dc0-f4aa-4602-a51c-76633358792a">WS_SECURITY_HEADER_VERSION_1_1</a> will be used.
                     
-<b>WS_SECURITY_PROPERTY_ALGORITHM_SUITE_NAME</b>
-                    This property constraint may be specified when any
+<b>WS_SECURITY_PROPERTY_ALGORITHM_SUITE_NAME</b>This property constraint may be specified when any
                     of the following security bindings are specified:
                   
 
@@ -186,8 +175,7 @@ req.product: Windows Address Book 5.0
 <a href="https://msdn.microsoft.com/7abc37d8-cb00-459d-aa08-609a06b65a5c">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
-
-                    If this property is not specified, then the default constraint value
+If this property is not specified, then the default constraint value
                     of <a href="https://msdn.microsoft.com/cd7116d2-86f6-475e-a55d-050c7e02172d">WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256</a> will be used.
                   
 
@@ -196,8 +184,7 @@ req.product: Windows Address Book 5.0
 
 ### -field allowedValues
 
-
-                    An array of values which are acceptable.  The type of
+An array of values which are acceptable.  The type of
                     the values in the array correspond to the type of the values
                     of the security property.  See the documentation for
                     a particular security property to determine the type of the
@@ -207,8 +194,7 @@ req.product: Windows Address Book 5.0
 
 ### -field allowedValuesSize
 
-
-                    The total size of the allowedValues array, in bytes.  This
+The total size of the allowedValues array, in bytes.  This
                     size must be a multiple of the size of the type of the value
                     of the property.
                 
@@ -216,8 +202,7 @@ req.product: Windows Address Book 5.0
 
 ### -field out
 
-
-                    When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a> returns NOERROR, the
+When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a> returns NOERROR, the
                     entire contents of this structure will be filled out.
                 
 

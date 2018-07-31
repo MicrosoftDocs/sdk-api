@@ -4,10 +4,10 @@ title: WPUCloseThread function
 author: windows-sdk-content
 description: The WPUCloseThread function closes a thread opened with a call to WPUOpenCurrentThread.
 old-location: winsock\wpuclosethread_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 1a5e7a99-484f-4862-bd28-edf85debc8e5
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: WPUCloseThread, WPUCloseThread function [Winsock], _win32_wpuclosethread_2, winsock.wpuclosethread_2, ws2spi/WPUCloseThread
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>WPUCloseThread</b> function closes a thread opened with a call to 
 <a href="https://msdn.microsoft.com/92d21f29-240f-407e-89a7-bbbb8f9bf0eb">WPUOpenCurrentThread</a>.
 
@@ -78,8 +77,7 @@ Pointer to the error code.
 
 
 
-
-						If no error occurs, 
+If no error occurs, 
 <a href="https://msdn.microsoft.com/92d21f29-240f-407e-89a7-bbbb8f9bf0eb">WPUOpenCurrentThread</a> returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
 
 
@@ -92,7 +90,7 @@ Pointer to the error code.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">

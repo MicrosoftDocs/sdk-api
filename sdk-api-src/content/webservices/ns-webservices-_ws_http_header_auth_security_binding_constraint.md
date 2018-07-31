@@ -7,7 +7,7 @@ old-location: wsw\ws_http_header_auth_security_binding_constraint.htm
 old-project: wsw
 ms.assetid: 1f6341b2-1f98-40a0-8f3a-cc9cf4538209
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT, WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], _WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT, webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT, wsw.ws_http_header_auth_security_binding_constraint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                A security binding constraint that corresponds to the
+A security binding constraint that corresponds to the
                 <a href="https://msdn.microsoft.com/c6ca6760-a927-470f-9785-7500d1711902">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>.
             
 
@@ -64,7 +63,6 @@ req.product: Windows Address Book 5.0
 
 ### -field bindingConstraint
 
-
-                    The base binding constraint that this binding constraint derives from.
+The base binding constraint that this binding constraint derives from.
                 
 

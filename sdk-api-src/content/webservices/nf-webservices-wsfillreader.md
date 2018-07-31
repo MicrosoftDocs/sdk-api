@@ -7,7 +7,7 @@ old-location: wsw\wsfillreader.htm
 old-project: wsw
 ms.assetid: 1f4138a2-acc5-4f1d-8e35-544859d2fa49
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsFillReader, WsFillReader function [Web Services for Windows], webservices/WsFillReader, wsw.wsfillreader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Ensures that the reader has buffered the minimum byte count of XML data for use by subsequent reader functions.  It will invoke the callback specified by <a href="https://msdn.microsoft.com/53537eb2-6b8d-443e-9453-4b39dfef1dd7">WS_XML_READER_STREAM_INPUT</a>
-        as many times as necessary to obtain the number of bytes specified by the value of the <i>minSize</i> parameter.  On completion the buffered data is available to other reader functions.  If a subsequent reader function requires more data than what has been obtained the function
+Ensures that the reader has buffered the minimum byte count of XML data for use by subsequent reader functions.  It will invoke the callback specified by <a href="https://msdn.microsoft.com/53537eb2-6b8d-443e-9453-4b39dfef1dd7">WS_XML_READER_STREAM_INPUT</a>as many times as necessary to obtain the number of bytes specified by the value of the <i>minSize</i> parameter.  On completion the buffered data is available to other reader functions.  If a subsequent reader function requires more data than what has been obtained the function
         will return a <b>WS_E_QUOTA_EXCEEDED</b> exception.
       (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
 
@@ -104,8 +103,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-          The asynchronous operation is still pending.
+The asynchronous operation is still pending.
         
 
 </td>
@@ -120,17 +118,14 @@ This function can return one of these values.
 
 
 
-
-        The number of bytes required to read a particular segment of XML data depends upon the encoding
+The number of bytes required to read a particular segment of XML data depends upon the encoding
         and its formatting.
       
 
-
-        This function is a "no-op" when used with a reader using <a href="https://msdn.microsoft.com/86277c29-d42f-4b6a-ba33-b836bef284e7">WS_XML_READER_BUFFER_INPUT</a>.
+This function is a "no-op" when used with a reader using <a href="https://msdn.microsoft.com/86277c29-d42f-4b6a-ba33-b836bef284e7">WS_XML_READER_BUFFER_INPUT</a>.
       
 
-
-        By specifying a <a href="https://msdn.microsoft.com/3c9ffbef-2f5b-42b0-96b1-f17f0ab98ca4">WS_ASYNC_CONTEXT</a> the data is read asynchronously.
+By specifying a <a href="https://msdn.microsoft.com/3c9ffbef-2f5b-42b0-96b1-f17f0ab98ca4">WS_ASYNC_CONTEXT</a> the data is read asynchronously.
       
 
 

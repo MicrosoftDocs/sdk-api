@@ -7,7 +7,7 @@ old-location: xps\ixpsomfontresourcecollection.htm
 old-project: printdocs
 ms.assetid: 71153c4c-631b-4f7a-9dd5-8537dcaca150
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMFontResourceCollection, IXpsOMFontResourceCollection interface [XPS Documents and Packaging], IXpsOMFontResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomfontresourcecollection, xpsobjectmodel/IXpsOMFontResourceCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IXpsOMFontResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ddee8ecc-6426-47b2-940d-045c21ce588c">Append</a>
 </td>
 <td align="left" width="63%">
-
-              Appends an <a href="https://msdn.microsoft.com/dd0ce1c0-1c04-46a8-9075-93de9b3e3062">IXpsOMFontResource</a> interface to the end of the collection.
+Appends an <a href="https://msdn.microsoft.com/dd0ce1c0-1c04-46a8-9075-93de9b3e3062">IXpsOMFontResource</a> interface to the end of the collection.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IXpsOMFontResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an <a href="https://msdn.microsoft.com/dd0ce1c0-1c04-46a8-9075-93de9b3e3062">IXpsOMFontResource</a> interface pointer from a specified location in the collection.
+Gets an <a href="https://msdn.microsoft.com/dd0ce1c0-1c04-46a8-9075-93de9b3e3062">IXpsOMFontResource</a> interface pointer from a specified location in the collection.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IXpsOMFontResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/f40830ec-e77b-4c47-9041-b0df5becf9fa">GetByPartName</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an <a href="https://msdn.microsoft.com/dd0ce1c0-1c04-46a8-9075-93de9b3e3062">IXpsOMFontResource</a> interface pointer from the collection by matching the interface's part name.
+Gets an <a href="https://msdn.microsoft.com/dd0ce1c0-1c04-46a8-9075-93de9b3e3062">IXpsOMFontResource</a> interface pointer from the collection by matching the interface's part name.
             
 
 </td>
@@ -107,8 +104,7 @@ The <b>IXpsOMFontResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the number of <a href="https://msdn.microsoft.com/dd0ce1c0-1c04-46a8-9075-93de9b3e3062">IXpsOMFontResource</a> interface pointers in the collection.
+Gets the number of <a href="https://msdn.microsoft.com/dd0ce1c0-1c04-46a8-9075-93de9b3e3062">IXpsOMFontResource</a> interface pointers in the collection.
             
 
 </td>
@@ -118,8 +114,7 @@ The <b>IXpsOMFontResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/39400f6a-10b1-48f8-ae53-cd27bf7c2e1a">InsertAt</a>
 </td>
 <td align="left" width="63%">
-
-              Inserts an <a href="https://msdn.microsoft.com/dd0ce1c0-1c04-46a8-9075-93de9b3e3062">IXpsOMFontResource</a> interface pointer at a specified location in the collection.
+Inserts an <a href="https://msdn.microsoft.com/dd0ce1c0-1c04-46a8-9075-93de9b3e3062">IXpsOMFontResource</a> interface pointer at a specified location in the collection.
             
 
 </td>
@@ -129,8 +124,7 @@ The <b>IXpsOMFontResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a>
 </td>
 <td align="left" width="63%">
-
-              Removes and releases an <a href="https://msdn.microsoft.com/dd0ce1c0-1c04-46a8-9075-93de9b3e3062">IXpsOMFontResource</a> interface pointer from a specified location in the collection.
+Removes and releases an <a href="https://msdn.microsoft.com/dd0ce1c0-1c04-46a8-9075-93de9b3e3062">IXpsOMFontResource</a> interface pointer from a specified location in the collection.
             
 
 </td>
@@ -140,8 +134,7 @@ The <b>IXpsOMFontResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/3eead538-544f-4c74-aba8-1ad496e44156">SetAt</a>
 </td>
 <td align="left" width="63%">
-
-              Replaces an <a href="https://msdn.microsoft.com/dd0ce1c0-1c04-46a8-9075-93de9b3e3062">IXpsOMFontResource</a> interface pointer at a specified location in the collection.
+Replaces an <a href="https://msdn.microsoft.com/dd0ce1c0-1c04-46a8-9075-93de9b3e3062">IXpsOMFontResource</a> interface pointer at a specified location in the collection.
             
 
 </td>

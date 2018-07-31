@@ -7,7 +7,7 @@ old-location: wintouch\closetouchinputhandle.htm
 old-project: wintouch
 ms.assetid: bdc8bb94-3126-4183-9dfd-ba4844d98f29
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: CloseTouchInputHandle, CloseTouchInputHandle function [Windows Touch], wintouch.closetouchinputhandle, winuser/CloseTouchInputHandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,8 +82,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-
-      Calling <b>CloseTouchInputHandle</b> will not free memory associated with values retrieved in a call to <a href="https://msdn.microsoft.com/18caab11-9c22-46ac-b89f-dd3e662bea1e">GetTouchInputInfo</a>. Values in structures passed to <b>GetTouchInputInfo</b>  will be valid until you delete them.
+Calling <b>CloseTouchInputHandle</b> will not free memory associated with values retrieved in a call to <a href="https://msdn.microsoft.com/18caab11-9c22-46ac-b89f-dd3e662bea1e">GetTouchInputInfo</a>. Values in structures passed to <b>GetTouchInputInfo</b>  will be valid until you delete them.
 
 
 

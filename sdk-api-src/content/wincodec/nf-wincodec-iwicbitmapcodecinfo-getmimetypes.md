@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapcodecinfo_getmimetypes.htm
 old-project: wic
 ms.assetid: fbca8068-a57d-402b-85e1-0dd284824efa
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetMimeTypes, GetMimeTypes method [Windows Imaging Component], GetMimeTypes method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetMimeTypes method, IWICBitmapCodecInfo.GetMimeTypes, IWICBitmapCodecInfo::GetMimeTypes, _wic_codec_iwicbitmapcodecinfo_getmimetypes, wic._wic_codec_iwicbitmapcodecinfo_getmimetypes, wincodec/IWICBitmapCodecInfo::GetMimeTypes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,8 +95,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-            The usage pattern for this method is a two call process.
+The usage pattern for this method is a two call process.
             The first call retrieves the buffer size needed to retrieve the full color management version number by calling it with <i>cchMimeTypes</i> set to <code>0</code> and <i>wzMimeTypes</i> set to <code>NULL</code>.
             This call sets <i>pcchActual</i> to the buffer size needed.
             Once the needed buffer size is determined, a second <b>GetMimeTypes</b> call with <i>cchMimeTypes</i> set to the buffer size and <i>wzMimeTypes</i> set to a buffer of the appropriate size will retrieve the pixel formats.

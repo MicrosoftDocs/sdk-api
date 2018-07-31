@@ -7,7 +7,7 @@ old-location: wmp\iwmpservices.htm
 old-project: WMP
 ms.assetid: 26d68b4b-4eeb-42e2-a1d1-0d0e73725059
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPServices, IWMPServices interface [Windows Media Player], IWMPServices interface [Windows Media Player],described, IWMPServicesInterfaceDSP, wmp.iwmpservices, wmpservices/IWMPServices
 ms.prod: windows
 ms.technology: windows-sdk

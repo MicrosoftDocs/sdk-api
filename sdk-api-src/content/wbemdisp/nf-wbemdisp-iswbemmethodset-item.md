@@ -7,7 +7,7 @@ old-location: wmi\swbemmethodset_item.htm
 old-project: WmiSdk
 ms.assetid: 4c1bbecc-b38b-4869-9c8c-b9321536b23e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemMethodSet interface [Windows Management Instrumentation],Item method, ISWbemMethodSet.Item, ISWbemMethodSet::Item, Item, Item method [Windows Management Instrumentation], Item method [Windows Management Instrumentation],ISWbemMethodSet interface, Item method [Windows Management Instrumentation],SWbemMethodSet object, SWbemMethodSet object [Windows Management Instrumentation],Item method, SWbemMethodSet.Item, _hmm_swbemmethodset.item, wmi.swbemmethodset_item
 ms.prod: windows
 ms.technology: windows-sdk

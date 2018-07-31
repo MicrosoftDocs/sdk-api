@@ -7,7 +7,7 @@ old-location: wsw\ws_http_redirect_callback.htm
 old-project: wsw
 ms.assetid: 14bd68f9-1b0d-4667-823a-afb159d7dc80
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_HTTP_REDIRECT_CALLBACK, WS_HTTP_REDIRECT_CALLBACK callback, WS_HTTP_REDIRECT_CALLBACK callback function [Web Services for Windows], webservices/WS_HTTP_REDIRECT_CALLBACK, wsw.ws_http_redirect_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,22 +66,19 @@ Invoked when a message is about to be automatically
 
 ### -param *state [in]
 
-
-                    The 'state' as specified as part of <a href="https://msdn.microsoft.com/2348fcdb-2f76-4a30-91c4-ed7d63012da1">WS_HTTP_REDIRECT_CALLBACK_CONTEXT</a> 'state' field.
+The 'state' as specified as part of <a href="https://msdn.microsoft.com/2348fcdb-2f76-4a30-91c4-ed7d63012da1">WS_HTTP_REDIRECT_CALLBACK_CONTEXT</a> 'state' field.
                 
 
 
 ### -param *originalUrl [in]
 
-
-                    The original endpoint URL that the message was sent to.
+The original endpoint URL that the message was sent to.
                 
 
 
 ### -param *newUrl [in]
 
-
-                    The endpoint URL that the message is about to be forwarded to.
+The endpoint URL that the message is about to be forwarded to.
                 
 
 
@@ -98,13 +95,11 @@ This callback function does not return a value.
 
 
 
-
-                The parameters supplied during this callback are valid only for the 
+The parameters supplied during this callback are valid only for the 
                 duration of the callback.
             
 
-
-                The callback implementation should avoid lengthy computation or 
+The callback implementation should avoid lengthy computation or 
                 lengthy blocking calls so that it can return to the caller quickly.
             
 

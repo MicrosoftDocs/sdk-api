@@ -4,10 +4,10 @@ title: MakeSignature function
 author: windows-sdk-content
 description: Generates a cryptographic checksum of the message, and also includes sequencing information to prevent message loss or insertion.
 old-location: security\makesignature.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: d17824b0-6121-48a3-b19b-d4fae3e1348e
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: 0, 1, 2, 3, 4, MakeSignature, MakeSignature function [Security], _ssp_makesignature, security.makesignature, sspi/MakeSignature
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # MakeSignature function
@@ -51,8 +50,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-			The <b>MakeSignature</b> function generates a cryptographic checksum of the message, and also includes sequencing information to prevent message loss or insertion. <b>MakeSignature</b> allows the application to choose between several cryptographic algorithms, if supported by the chosen mechanism. The <b>MakeSignature</b> function uses the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> referenced by the context handle.
+The <b>MakeSignature</b> function generates a cryptographic checksum of the message, and also includes sequencing information to prevent message loss or insertion. <b>MakeSignature</b> allows the application to choose between several cryptographic algorithms, if supported by the chosen mechanism. The <b>MakeSignature</b> function uses the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> referenced by the context handle.
 
 This function is not supported by the Schannel <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security support provider</a> (SSP).
 
@@ -205,8 +203,7 @@ When using the Digest SSP, this parameter must be set to zero. The Digest SSP ma
 
 
 
-
-						If the function succeeds, the function returns SEC_E_OK.
+If the function succeeds, the function returns SEC_E_OK.
 
 If the function fails, it returns one of the following error codes.
 
@@ -318,7 +315,7 @@ If the transport application created the security context to support sequence de
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

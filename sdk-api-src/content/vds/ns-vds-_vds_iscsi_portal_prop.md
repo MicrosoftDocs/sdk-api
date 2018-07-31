@@ -4,10 +4,10 @@ title: "_VDS_ISCSI_PORTAL_PROP"
 author: windows-sdk-content
 description: Defines the properties of an iSCSI portal.
 old-location: base\vds_iscsi_portal_prop.htm
-old-project: vds
+old-project: VDS
 ms.assetid: da2d19ca-88a8-4a6a-bbe7-98a9d8af5b1b
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: "*PVDS_ISCSI_PORTAL_PROP, VDS_ISCSI_PORTAL_PROP, VDS_ISCSI_PORTAL_PROP structure [VDS], _VDS_ISCSI_PORTAL_PROP, base.vds_iscsi_portal_prop, vds/VDS_ISCSI_PORTAL_PROP, vdshwprv/VDS_ISCSI_PORTAL_PROP"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The IP address and port of the portal.
 
 ### -field status
 
-
-     The status of the portal, enumerated by 
+The status of the portal, enumerated by 
      <a href="https://msdn.microsoft.com/ae39dfb8-6519-4307-8038-3af670553f51">VDS_ISCSI_PORTAL_STATUS</a>.
 
 

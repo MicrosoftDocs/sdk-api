@@ -7,7 +7,7 @@ old-location: mstv\ievalrat_get_blockedratingattributes.htm
 old-project: mstv
 ms.assetid: d07b6462-958c-4e97-9be1-41941aa6b747
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IEvalRat interface [Microsoft TV Technologies],get_BlockedRatingAttributes method, IEvalRat.get_BlockedRatingAttributes, IEvalRat::get_BlockedRatingAttributes, IEvalRatget_BlockedRatingAttributes, get_BlockedRatingAttributes, get_BlockedRatingAttributes method [Microsoft TV Technologies], get_BlockedRatingAttributes method [Microsoft TV Technologies],IEvalRat interface, mstv.ievalrat_get_blockedratingattributes, tvratings/IEvalRat::get_BlockedRatingAttributes
 ms.prod: windows
 ms.technology: windows-sdk

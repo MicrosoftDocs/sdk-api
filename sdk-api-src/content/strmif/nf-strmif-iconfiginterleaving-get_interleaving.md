@@ -7,7 +7,7 @@ old-location: dshow\iconfiginterleaving_get_interleaving.htm
 old-project: DirectShow
 ms.assetid: 659aa136-c7fd-4955-913b-26f7c05325a8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IConfigInterleaving interface [DirectShow],get_Interleaving method, IConfigInterleaving.get_Interleaving, IConfigInterleaving::get_Interleaving, IConfigInterleavingget_Interleaving, dshow.iconfiginterleaving_get_interleaving, get_Interleaving, get_Interleaving method [DirectShow], get_Interleaving method [DirectShow],IConfigInterleaving interface, strmif/IConfigInterleaving::get_Interleaving
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,15 +65,12 @@ The <b>get_Interleaving</b> method gets the audio preroll time and the frequency
 
 ### -param prtInterleave [out]
 
-
-            Receives the approximate duration of each interleaved group of audio or video chunks.
+Receives the approximate duration of each interleaved group of audio or video chunks.
 
 
 ### -param prtPreroll [out]
 
-
-            
-            Receives the amount of audio data, in 100-nanosecond units, that is written to the file before the first video frame.
+Receives the amount of audio data, in 100-nanosecond units, that is written to the file before the first video frame.
           
           
 

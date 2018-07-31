@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_timespan_text.htm
 old-project: wsw
 ms.assetid: 6b502748-bfe1-4a8c-97e9-f8ae97c96b01
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_TIMESPAN_TEXT, WS_XML_TIMESPAN_TEXT structure [Web Services for Windows], _WS_XML_TIMESPAN_TEXT, webservices/WS_XML_TIMESPAN_TEXT, wsw.ws_xml_timespan_text
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Represents a time span formatted as the text "[+|-][d?.]HH:mm:ss[.fffffff]"
+Represents a time span formatted as the text "[+|-][d?.]HH:mm:ss[.fffffff]"
         <ul>
 <li>d is a series of digits representing the day.
           </li>
@@ -75,8 +74,7 @@ req.product: Windows Address Book 5.0
 
 ### -field text
 
-
-          The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
+The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
         
 
 

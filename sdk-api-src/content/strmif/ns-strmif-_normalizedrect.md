@@ -7,7 +7,7 @@ old-location: dshow\normalizedrect.htm
 old-project: DirectShow
 ms.assetid: c40a0feb-f33e-40e3-9c58-0a22d2aa1858
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PNORMALIZEDRECT, NORMALIZEDRECT, NORMALIZEDRECT structure [DirectShow], NORMALIZEDRECT2, PNORMALIZEDRECT, PNORMALIZEDRECT structure pointer [DirectShow], _NORMALIZEDRECT, dshow.normalizedrect, strmif/NORMALIZEDRECT, strmif/PNORMALIZEDRECT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP
 ## -description
 
 
-
-          The <code>NORMALIZEDRECT</code> structure is used with the VMR filter in mixing operations to specify the location of a video rectangle in composition space.
+The <code>NORMALIZEDRECT</code> structure is used with the VMR filter in mixing operations to specify the location of a video rectangle in composition space.
         
 
 

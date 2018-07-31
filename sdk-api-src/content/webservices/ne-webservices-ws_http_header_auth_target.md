@@ -7,7 +7,7 @@ old-location: wsw\ws_http_header_auth_target.htm
 old-project: wsw
 ms.assetid: d8e9b1b9-70b7-41b3-bbf0-7cd04ebabf55
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_TARGET, WS_HTTP_HEADER_AUTH_TARGET enumeration [Web Services for Windows], WS_HTTP_HEADER_AUTH_TARGET_PROXY, WS_HTTP_HEADER_AUTH_TARGET_SERVICE, webservices/WS_HTTP_HEADER_AUTH_TARGET, webservices/WS_HTTP_HEADER_AUTH_TARGET_PROXY, webservices/WS_HTTP_HEADER_AUTH_TARGET_SERVICE, wsw.ws_http_header_auth_target
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,6 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 Defines the target for the HTTP header authentication security binding.
             
 
@@ -63,14 +62,12 @@ Defines the target for the HTTP header authentication security binding.
 
 ### -field WS_HTTP_HEADER_AUTH_TARGET_SERVICE
 
-
 Indicates that the <a href="https://msdn.microsoft.com/c6ca6760-a927-470f-9785-7500d1711902">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> containing
 this setting authenticates to the server.
                 
 
 
 ### -field WS_HTTP_HEADER_AUTH_TARGET_PROXY
-
 
 Indicates that the <a href="https://msdn.microsoft.com/c6ca6760-a927-470f-9785-7500d1711902">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> containing
 this setting authenticates to the proxy.

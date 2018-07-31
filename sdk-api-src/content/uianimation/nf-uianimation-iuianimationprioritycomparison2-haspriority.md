@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationprioritycomparison2_haspriority.htm
 old-project: UIAnimation
 ms.assetid: A448144F-37B2-46E5-AA0D-604CE3FDEAA4
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: HasPriority, HasPriority method [Windows Animation], HasPriority method [Windows Animation],IUIAnimationPriorityComparison2 interface, IUIAnimationPriorityComparison2 interface [Windows Animation],HasPriority method, IUIAnimationPriorityComparison2.HasPriority, IUIAnimationPriorityComparison2::HasPriority, uianimation.iuianimationprioritycomparison2_haspriority, uianimation/IUIAnimationPriorityComparison2::HasPriority
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,12 @@ Determines the relative priority between a scheduled storyboard and a new storyb
 
 ### -param scheduledStoryboard [in]
 
-
-                The currently scheduled storyboard.
+The currently scheduled storyboard.
 
 
 ### -param newStoryboard [in]
 
-
-               The new storyboard that is interrupting the scheduled storyboard specified by <i>scheduledStoryboard</i>.
+The new storyboard that is interrupting the scheduled storyboard specified by <i>scheduledStoryboard</i>.
 
 
 ### -param priorityEffect [in]
@@ -120,9 +118,7 @@ Returns the following if successful; otherwise an <b>HRESULT</b> error code. See
 
 
 
-
-        
-         A single animation variable can be included in multiple storyboards, 
+A single animation variable can be included in multiple storyboards, 
          but multiple storyboards cannot animate the same variable at the same time.
          
          If a new storyboard attempts to animate one or more variables that are currently scheduled for animation by a different storyboard, a scheduling conflict occurs.
@@ -177,23 +173,19 @@ When <a href="https://msdn.microsoft.com/2da8fa3b-0947-46cb-bdb1-725da08b9aaa">U
 
 
 
-<a href="https://msdn.microsoft.com/55DEC4C2-A6F3-459D-BDCD-3D3819EBF0D2">
-      IUIAnimationManager2::SetCancelPriorityComparison</a>
+<a href="https://msdn.microsoft.com/55DEC4C2-A6F3-459D-BDCD-3D3819EBF0D2">IUIAnimationManager2::SetCancelPriorityComparison</a>
 
 
 
-<a href="https://msdn.microsoft.com/A754A307-AFFB-4E43-862D-C2FBC85E6C74">
-      IUIAnimationManager2::SetCompressPriorityComparison</a>
+<a href="https://msdn.microsoft.com/A754A307-AFFB-4E43-862D-C2FBC85E6C74">IUIAnimationManager2::SetCompressPriorityComparison</a>
 
 
 
-<a href="https://msdn.microsoft.com/1BDC9094-6020-4640-B959-59CD6CF48751">
-      IUIAnimationManager2::SetConcludePriorityComparison</a>
+<a href="https://msdn.microsoft.com/1BDC9094-6020-4640-B959-59CD6CF48751">IUIAnimationManager2::SetConcludePriorityComparison</a>
 
 
 
-<a href="https://msdn.microsoft.com/742BCD19-FC1D-46DE-9CBC-716793259947">
-      IUIAnimationManager2::SetTrimPriorityComparison</a>
+<a href="https://msdn.microsoft.com/742BCD19-FC1D-46DE-9CBC-716793259947">IUIAnimationManager2::SetTrimPriorityComparison</a>
 
 
 
@@ -201,8 +193,7 @@ When <a href="https://msdn.microsoft.com/2da8fa3b-0947-46cb-bdb1-725da08b9aaa">U
 
 
 
-<a href="https://msdn.microsoft.com/2da8fa3b-0947-46cb-bdb1-725da08b9aaa">
-      UI_ANIMATION_PRIORITY_EFFECT</a>
+<a href="https://msdn.microsoft.com/2da8fa3b-0947-46cb-bdb1-725da08b9aaa">UI_ANIMATION_PRIORITY_EFFECT</a>
  
 
  

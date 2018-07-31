@@ -7,7 +7,7 @@ old-location: display\gammaramp.htm
 old-project: display
 ms.assetid: cc082911-5089-4335-93d2-1405ca390741
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: "*PGAMMARAMP, GAMMARAMP, GAMMARAMP structure [Display Devices], PGAMMARAMP, PGAMMARAMP structure pointer [Display Devices], _GAMMARAMP, display.gammaramp, grstrcts_fdf8b6b9-dfc1-4679-b461-58488eb5d9b4.xml, winddi/GAMMARAMP, winddi/PGAMMARAMP"
 ms.prod: windows
 ms.technology: windows-sdk

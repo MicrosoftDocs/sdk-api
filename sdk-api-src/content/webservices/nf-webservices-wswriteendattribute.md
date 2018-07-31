@@ -7,7 +7,7 @@ old-location: wsw\wswriteendattribute.htm
 old-project: wsw
 ms.assetid: 8747c484-19b3-46b2-beee-80b220011def
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsWriteEndAttribute, WsWriteEndAttribute function [Web Services for Windows], webservices/WsWriteEndAttribute, wsw.wswriteendattribute
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        This operation finishes writing an attribute to the current element.
+This operation finishes writing an attribute to the current element.
       If <a href="https://msdn.microsoft.com/9fd1eed9-6d8b-4b2e-a7ad-54a7f584734f">WsWriteStartAttribute</a> is called the Writer does not permit another element
         or attribute to be written until <b>WsWriteEndAttribute</b> is called.
       
@@ -93,7 +92,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -105,7 +103,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>

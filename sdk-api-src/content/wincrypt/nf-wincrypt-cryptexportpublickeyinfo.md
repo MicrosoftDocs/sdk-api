@@ -4,10 +4,10 @@ title: CryptExportPublicKeyInfo function
 author: windows-sdk-content
 description: The CryptExportPublicKeyInfo function exports the public key information associated with the corresponding private key of the provider. For an updated version of this function, see CryptExportPublicKeyInfoEx.
 old-location: security\cryptexportpublickeyinfo.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: ad43a991-aaf5-4272-abab-0a981112e5e4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptExportPublicKeyInfo, CryptExportPublicKeyInfo function [Security], _crypto2_cryptexportpublickeyinfo, security.cryptexportpublickeyinfo, wincrypt/CryptExportPublicKeyInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CryptExportPublicKeyInfo</b> function exports the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> information associated with the corresponding <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> of the provider. For an updated version of this function, see 
+The <b>CryptExportPublicKeyInfo</b> function exports the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> information associated with the corresponding <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> of the provider. For an updated version of this function, see 
 <a href="https://msdn.microsoft.com/38274222-90b3-4038-86d3-6b2813100ce2">CryptExportPublicKeyInfoEx</a>.
 
 
@@ -105,8 +104,7 @@ A pointer to a <b>DWORD</b> that contains the size, in bytes, of the buffer poin
 
 
 
-
-						If the function succeeds, the function returns nonzero (<b>TRUE</b>).
+If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
@@ -162,7 +160,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

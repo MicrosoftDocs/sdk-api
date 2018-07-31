@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectformetadatacommands.htm
 old-project: CoreAudio
 ms.assetid: B142D5CC-7321-4F3C-804D-50E728C37D10
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/29/2018
 ms.keywords: ISpatialAudioObjectForMetadataCommands, ISpatialAudioObjectForMetadataCommands interface [Core Audio], ISpatialAudioObjectForMetadataCommands interface [Core Audio],described, coreaudio.ispatialaudioobjectformetadatacommands, spatialaudiometadata/ISpatialAudioObjectForMetadataCommands
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioObjectForMetadataCommands interface

@@ -7,7 +7,7 @@ old-location: mstv\iesevents_oneseventreceived.htm
 old-project: mstv
 ms.assetid: d715f598-0dd5-4c8c-9f5b-3aaa65768600
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IESEvents interface [Microsoft TV Technologies],OnESEventReceived method, IESEvents.OnESEventReceived, IESEvents::OnESEventReceived, OnESEventReceived, OnESEventReceived method [Microsoft TV Technologies], OnESEventReceived method [Microsoft TV Technologies],IESEvents interface, mstv.iesevents_oneseventreceived, tuner/IESEvents::OnESEventReceived
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,15 +66,13 @@ This method is called from an event service thread that is initialized with mult
 
 ### -param guidEventType [in]
 
-
-            GUID for the type of event being handled.
+GUID for the type of event being handled.
           
 
 
 ### -param pESEvent [in]
 
-
-            Pointer to an <a href="https://msdn.microsoft.com/3c375480-c6df-4bb0-b417-5765b0bed9bf">IESEvent</a> object that contains data from the event being handled.
+Pointer to an <a href="https://msdn.microsoft.com/3c375480-c6df-4bb0-b417-5765b0bed9bf">IESEvent</a> object that contains data from the event being handled.
           
 
 

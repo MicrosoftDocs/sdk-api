@@ -4,10 +4,10 @@ title: IMonthlyDOWTrigger
 author: windows-sdk-content
 description: Represents a trigger that starts a task on a monthly day-of-week schedule.
 old-location: taskschd\imonthlydowtrigger.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: a950e4a0-1fcc-4213-bdb7-d1e1cf28fe91
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IMonthlyDOWTrigger, IMonthlyDOWTrigger interface [Task Scheduler], IMonthlyDOWTrigger interface [Task Scheduler],described, monthly DOW trigger [Task Scheduler], taskschd.imonthlydowtrigger, taskschd/IMonthlyDOWTrigger, triggers [Task Scheduler],types,monthly DOW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ When reading or writing  XML for a task, a monthly day-of-week trigger is specif
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

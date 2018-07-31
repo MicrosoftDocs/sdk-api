@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariablecurvechangehandler2.htm
 old-project: UIAnimation
 ms.assetid: C3F992CE-6C12-40AF-BA22-10C82E597314
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariableCurveChangeHandler2, IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation], IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation],described, uianimation.iuianimationvariablecurvechangehandler2, uianimation/IUIAnimationVariableCurveChangeHandler2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IUIAnimationVariableCurveChangeHandler2</b> interface has these methods.
 <a href="https://msdn.microsoft.com/CD0F59F7-9383-4602-8A97-356AEAB0FD82">OnCurveChanged</a>
 </td>
 <td align="left" width="63%">
-
-         Handles events that occur when the animation curve of an animation variable changes.
+Handles events that occur when the animation curve of an animation variable changes.
 
 </td>
 </tr>
@@ -87,13 +86,11 @@ The <b>IUIAnimationVariableCurveChangeHandler2</b> interface has these methods.
 
 
 
-<a href="https://msdn.microsoft.com/59E7C7A1-2461-487C-A263-A9DFC851B720">
-         IUIAnimationVariable2::GetCurve</a>
+<a href="https://msdn.microsoft.com/59E7C7A1-2461-487C-A263-A9DFC851B720">IUIAnimationVariable2::GetCurve</a>
 
 
 
-<a href="https://msdn.microsoft.com/CAC7D415-5B0F-4587-8F1C-65399D2A5A58">
-         IUIAnimationVariable2::GetVectorCurve</a>
+<a href="https://msdn.microsoft.com/CAC7D415-5B0F-4587-8F1C-65399D2A5A58">IUIAnimationVariable2::GetVectorCurve</a>
 
 
 

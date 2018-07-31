@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandlerInfo_GetType.htm
 old-project: shell
 ms.assetid: 466c5bd5-0166-4c0d-801d-a155f20140ce
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: GetType, GetType method [Windows Shell], GetType method [Windows Shell],ISyncMgrHandlerInfo interface, ISyncMgrHandlerInfo interface [Windows Shell],GetType method, ISyncMgrHandlerInfo.GetType, ISyncMgrHandlerInfo::GetType, _shell_ISyncMgrHandlerInfo_GetType, shell.ISyncMgrHandlerInfo_GetType, syncmgr/ISyncMgrHandlerInfo::GetType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,8 +88,7 @@ Typically, this value does not change. However, Sync Center calls this method wh
 
 
 
-
-        	The following example shows an implementation of this method.
+The following example shows an implementation of this method.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

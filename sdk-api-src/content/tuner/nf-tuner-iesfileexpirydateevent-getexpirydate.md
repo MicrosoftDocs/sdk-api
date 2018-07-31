@@ -7,7 +7,7 @@ old-location: mstv\iesfileexpirydateevent_getexpirydate.htm
 old-project: mstv
 ms.assetid: 1d89c613-002b-4c90-832f-32bc268752a4
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetExpiryDate, GetExpiryDate method [Microsoft TV Technologies], GetExpiryDate method [Microsoft TV Technologies],IESFileExpiryDateEvent interface, IESFileExpiryDateEvent interface [Microsoft TV Technologies],GetExpiryDate method, IESFileExpiryDateEvent.GetExpiryDate, IESFileExpiryDateEvent::GetExpiryDate, mstv.iesfileexpirydateevent_getexpirydate, tuner/IESFileExpiryDateEvent::GetExpiryDate
 ms.prod: windows
 ms.technology: windows-sdk

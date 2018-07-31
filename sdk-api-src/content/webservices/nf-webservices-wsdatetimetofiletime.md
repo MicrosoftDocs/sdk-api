@@ -7,7 +7,7 @@ old-location: wsw\wsdatetimetofiletime.htm
 old-project: wsw
 ms.assetid: 19e987d8-fe20-4bc6-a887-77bc1cfa65cf
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsDateTimeToFileTime, WsDateTimeToFileTime function [Web Services for Windows], webservices/WsDateTimeToFileTime, wsw.wsdatetimetofiletime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Converts a <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6
 
 ### -param dateTime [in]
 
-
-          A pointer to the <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a> structure to convert.
+A pointer to the <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a> structure to convert.
         
 
 
@@ -97,7 +96,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -109,7 +107,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -124,9 +121,7 @@ The input data was not in the expected format or did not have the expected value
 
 
 
-
-          A FILETIME cannot represent dates between January 1, 0001 and January 1, 1601.  A <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a>
-          within this range causes the function to return <b>WS_E_INVALID_FORMAT</b>.
+A FILETIME cannot represent dates between January 1, 0001 and January 1, 1601.  A <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a>within this range causes the function to return <b>WS_E_INVALID_FORMAT</b>.
       (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
 
 

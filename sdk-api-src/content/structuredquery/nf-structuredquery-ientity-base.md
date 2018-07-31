@@ -7,7 +7,7 @@ old-location: search\_search_IEntity_Base.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\base.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: Base, Base method [search], Base method [search],IEntity interface, IEntity interface [search],Base method, IEntity.Base, IEntity::Base, _search_IEntity_Base, search._search_IEntity_Base, structuredquery/IEntity::Base
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-            Retrieves the parent entity of this entity.
+Retrieves the parent entity of this entity.
         
 
 
@@ -63,10 +62,9 @@ req.product: Windows XP with SP1 and later
 
 ### -param pBaseEntity [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb231373(v=VS.85).aspx">IEntity</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a>**</b>
 
-
-          Receives a pointer to the parent <a href="https://msdn.microsoft.com/library/Bb231373(v=VS.85).aspx">IEntity</a> object, or <b>NULL</b> if there is no parent entity.
+Receives a pointer to the parent <a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a> object, or <b>NULL</b> if there is no parent entity.
         
 
 
@@ -76,8 +74,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Bb231373(v=VS.85).aspx">IEn
 
 Type: <b>HRESULT</b>
 
-
-            Returns one of the following, or an error value otherwise.
+Returns one of the following, or an error value otherwise.
         
 
 <table>

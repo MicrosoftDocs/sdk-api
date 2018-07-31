@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IScrollProvider_SetScrollPercent.htm
 old-project: WinAuto
 ms.assetid: 4949fd00-6678-4278-b11b-cc8503e67de2
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IScrollProvider interface [Windows Accessibility],SetScrollPercent method, IScrollProvider.SetScrollPercent, IScrollProvider::SetScrollPercent, SetScrollPercent, SetScrollPercent method [Windows Accessibility], SetScrollPercent method [Windows Accessibility],IScrollProvider interface, uiauto.uiauto_IScrollProvider_SetScrollPercent, uiauto_IScrollProvider_SetScrollPercent, uiautomationcore/IScrollProvider::SetScrollPercent, winauto.uiauto_IScrollProvider_SetScrollPercent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        Sets the horizontal and vertical scroll position as a percentage of the total content area within the control.
+Sets the horizontal and vertical scroll position as a percentage of the total content area within the control.
         
 
 
@@ -91,8 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-            This method is only useful when the content area of the control is 
+This method is only useful when the content area of the control is 
             larger than the visible region. 
             
 

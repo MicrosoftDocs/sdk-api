@@ -4,10 +4,10 @@ title: ITextRange::ChangeCase
 author: windows-sdk-content
 description: Changes the case of letters in this range according to the Type parameter.
 old-location: controls\ITextRange_ChangeCase.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\changecase.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ChangeCase, ChangeCase method [Windows Controls], ChangeCase method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],ChangeCase method, ITextRange.ChangeCase, ITextRange::ChangeCase, _win32_ITextRange_ChangeCase, _win32_ITextRange_ChangeCase_cpp, controls.ITextRange_ChangeCase, controls._win32_ITextRange_ChangeCase, tom/ITextRange::ChangeCase, tomLowerCase, tomSentenceCase, tomTitleCase, tomToggleCase, tomUpperCase
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,8 +78,7 @@ Type of case change. The default value is <i>tomLower</i>.
 </dl>
 </td>
 <td width="60%">
-
-							Sets all text to lowercase.
+Sets all text to lowercase.
 						
 
 </td>
@@ -91,8 +90,7 @@ Type of case change. The default value is <i>tomLower</i>.
 </dl>
 </td>
 <td width="60%">
-
-							Sets all text to lowercase.
+Sets all text to lowercase.
 						
 
 </td>
@@ -104,8 +102,7 @@ Type of case change. The default value is <i>tomLower</i>.
 </dl>
 </td>
 <td width="60%">
-
-							Capitalizes the first letter of each word.
+Capitalizes the first letter of each word.
 						
 
 </td>
@@ -117,8 +114,7 @@ Type of case change. The default value is <i>tomLower</i>.
 </dl>
 </td>
 <td width="60%">
-
-							Capitalizes the first letter of each sentence.
+Capitalizes the first letter of each sentence.
 						
 
 </td>
@@ -130,8 +126,7 @@ Type of case change. The default value is <i>tomLower</i>.
 </dl>
 </td>
 <td width="60%">
-
-							Toggles the case of each letter.
+Toggles the case of each letter.
 						
 
 </td>
@@ -161,7 +156,7 @@ This method returns an
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -169,7 +164,7 @@ This method returns an
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

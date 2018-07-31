@@ -7,7 +7,7 @@ old-location: wes\evtgeteventmetadataproperty.htm
 old-project: WES
 ms.assetid: 2a5c53e3-bbb4-4245-a640-86b58d1a3c52
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtGetEventMetadataProperty, EvtGetEventMetadataProperty function [EventLog], wes.evtgeteventmetadataproperty, winevt/EvtGetEventMetadataProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,6 @@ The size of the <i>EventMetadataPropertyBuffer</i> buffer, in bytes.
 
 
 ### -param EventMetadataPropertyBuffer [in]
-
 
 A caller-allocated buffer that will receive the metadata property. The buffer contains an <a href="https://msdn.microsoft.com/4b0f338b-0b66-4ba5-9e29-b15afe15a2d3">EVT_VARIANT</a> object. You can set this parameter to <b>NULL</b> to determine the required buffer size.
 

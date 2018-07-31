@@ -7,7 +7,7 @@ old-location: menurc\verfindfile.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verfindfile.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: VFFF_ISSHAREDFILE, VerFindFile, VerFindFile function [Menus and Other Resources], VerFindFileA, VerFindFileW, _win32_VerFindFile, _win32_verfindfile_cpp, menurc.verfindfile, winui._win32_verfindfile, winver/VerFindFile, winver/VerFindFileA, winver/VerFindFileW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Determines where to install a file based on whether it locates another version of the file in the system. The values <b>VerFindFile</b> returns in the specified buffers are used in a subsequent call to the <a href="https://msdn.microsoft.com/library/ms647462(v=VS.85).aspx">VerInstallFile</a> function. 
+Determines where to install a file based on whether it locates another version of the file in the system. The values <b>VerFindFile</b> returns in the specified buffers are used in a subsequent call to the <a href="https://msdn.microsoft.com/bd16c1ac-b817-4fb9-bf72-279a8e164f71">VerInstallFile</a> function. 
 
 
 ## -parameters
@@ -230,8 +230,7 @@ At least one of the buffers was too small to contain the corresponding string. A
 
 
 
-
-				 This function works on 16-, 32-, and 64-bit file images.
+This function works on 16-, 32-, and 64-bit file images.
 
 <b>VerFindFile</b> searches for a copy of the specified file by using the <a href="https://msdn.microsoft.com/800f4d40-252a-44fe-b10d-348c22d69355">OpenFile</a>   function. However, it determines the system directory from the specified Windows directory, or searches the path. 
 
@@ -266,11 +265,11 @@ If the
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647462(v=VS.85).aspx">VerInstallFile</a>
+<a href="https://msdn.microsoft.com/bd16c1ac-b817-4fb9-bf72-279a8e164f71">VerInstallFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646981(v=VS.85).aspx">Version Information</a>
+<a href="https://msdn.microsoft.com/60de7900-56b9-4481-bef9-b4079eedf926">Version Information</a>
  
 
  

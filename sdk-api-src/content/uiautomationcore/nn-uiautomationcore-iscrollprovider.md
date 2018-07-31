@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IScrollProvider.htm
 old-project: WinAuto
 ms.assetid: 55e1b899-aa9f-45eb-9cfa-d645ea659988
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IScrollProvider, IScrollProvider interface [Windows Accessibility], IScrollProvider interface [Windows Accessibility],described, uiauto.uiauto_IScrollProvider, uiauto_IScrollProvider, uiautomationcore/IScrollProvider, winauto.uiauto_IScrollProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,8 +78,7 @@ The <b>IScrollProvider</b> interface has these methods.
 <a href="https://msdn.microsoft.com/d1bd15d2-beaf-4838-970a-00cfa2a7cfd9">Scroll</a>
 </td>
 <td align="left" width="63%">
-
-        Scrolls the visible region of the content area horizontally and vertically.
+Scrolls the visible region of the content area horizontally and vertically.
         
 
 </td>
@@ -89,8 +88,7 @@ The <b>IScrollProvider</b> interface has these methods.
 <a href="https://msdn.microsoft.com/4949fd00-6678-4278-b11b-cc8503e67de2">SetScrollPercent</a>
 </td>
 <td align="left" width="63%">
-
-        Sets the horizontal and vertical scroll position as a percentage of the total content area within the control.
+Sets the horizontal and vertical scroll position as a percentage of the total content area within the control.
         
 
 </td>
@@ -165,8 +163,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-
-        Indicates whether the control can scroll vertically.
+Indicates whether the control can scroll vertically.
         
 
 </td>
@@ -211,8 +208,7 @@ Specifies the vertical
 
 
 
-
-            Implemented on a Microsoft UI Automation provider that must 
+Implemented on a Microsoft UI Automation provider that must 
             support the <a href="https://msdn.microsoft.com/baf8012a-52d5-4465-b26d-aa3d7f550b54">Scroll</a> control pattern.
             
 

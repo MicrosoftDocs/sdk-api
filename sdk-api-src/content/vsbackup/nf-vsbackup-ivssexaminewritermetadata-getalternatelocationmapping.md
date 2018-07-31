@@ -4,10 +4,10 @@ title: IVssExamineWriterMetadata::GetAlternateLocationMapping
 author: windows-sdk-content
 description: The GetAlternateLocationMapping method obtains a specific alternate location mapping of a file set.
 old-location: base\ivssexaminewritermetadata_getalternatelocationmapping.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 1264d4bc-dd45-41e7-9f95-c6e9aebd4d22
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetAlternateLocationMapping, GetAlternateLocationMapping method [VSS], GetAlternateLocationMapping method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetAlternateLocationMapping method, IVssExamineWriterMetadata.GetAlternateLocationMapping, IVssExamineWriterMetadata::GetAlternateLocationMapping, _win32_ivssexaminewritermetadata_getalternatelocationmapping, base.ivssexaminewritermetadata_getalternatelocationmapping, vsbackup/IVssExamineWriterMetadata::GetAlternateLocationMapping
 ms.prod: windows
 ms.technology: windows-sdk
@@ -156,8 +156,7 @@ The specified alternate location mapping does not exist.
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
@@ -200,7 +199,7 @@ Again, if no valid alternate location mapping is defined, this constitutes a wri
 
 An alternate location mapping is used only during a restore operation and should not be confused with an alternate path, which is used only during a backup operation.
 
-The caller is responsible for calling <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the resources of the returned 
+The caller is responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release the resources of the returned 
 <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object.
 
 

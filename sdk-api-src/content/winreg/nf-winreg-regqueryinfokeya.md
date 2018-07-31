@@ -4,10 +4,10 @@ title: RegQueryInfoKeyA function
 author: windows-sdk-content
 description: Retrieves information about the specified registry key.
 old-location: base\regqueryinfokey.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 25eb2cd2-9fdd-4d6f-8071-daab56f9aae1
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: RegQueryInfoKey, RegQueryInfoKey function, RegQueryInfoKeyA, RegQueryInfoKeyW, _win32_regqueryinfokey, base.regqueryinfokey, winreg/RegQueryInfoKey, winreg/RegQueryInfoKeyA, winreg/RegQueryInfoKeyW
 ms.prod: windows
 ms.technology: windows-sdk

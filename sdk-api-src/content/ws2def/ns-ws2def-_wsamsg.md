@@ -4,10 +4,10 @@ title: "_WSAMSG"
 author: windows-sdk-content
 description: Used with the WSARecvMsg and WSASendMsg functions to store address and optional control information about connected and unconnected sockets as well as an array of buffers used to store message data.
 old-location: winsock\wsamsg_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 105a6e2c-1edf-4ec0-a1c2-ac0bcafeda30
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPWSAMSG, *PWSAMSG, LPWSAMSG, LPWSAMSG structure pointer [Winsock], MSG_BCAST, MSG_CTRUNC, MSG_MCAST, MSG_PEEK, MSG_TRUNC, PWSAMSG, PWSAMSG structure pointer [Winsock], WSAMSG, WSAMSG structure [Winsock], _WSAMSG, _win32_wsamsg_2, mswsock/LPWSAMSG, mswsock/PWSAMSG, mswsock/WSAMSG, winsock.wsamsg_2, ws2def/LPWSAMSG, ws2def/PWSAMSG, ws2def/WSAMSG"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>WSAMSG</b> structure is used with the 
 <a href="https://msdn.microsoft.com/a46449f7-3206-45e9-9df0-f272b8cdcc4b">WSARecvMsg</a>  and <a href="https://msdn.microsoft.com/3b2ba645-6a70-4ba2-b4a2-5bde0c7f8d08">WSASendMsg</a> functions to store address and optional control information about connected and unconnected sockets as well as an array of buffers used  to store message data.
 
@@ -179,8 +178,7 @@ The control (ancillary) data was truncated. More control data was present than t
 
 
 
-In the Microsoft Windows Software Development Kit (SDK), the version of this structure for use on Windows Vista
-  is defined with the data type for the <b>dwBufferCount</b> and <b>dwFlags</b> members as a <b>ULONG</b>.  When compiling an application if the target platform is Windows Vista and later (<b>NTDDI_VERSION &gt;= NTDDI_LONGHORN, _WIN32_WINNT &gt;= 0x0600</b>, or <b>WINVER &gt;= 0x0600</b>), the data type for the <b>dwBufferCount</b> and <b>dwFlags</b> members is a <b>ULONG</b>.
+In the Microsoft Windows Software Development Kit (SDK), the version of this structure for use on Windows Vistais defined with the data type for the <b>dwBufferCount</b> and <b>dwFlags</b> members as a <b>ULONG</b>.  When compiling an application if the target platform is Windows Vista and later (<b>NTDDI_VERSION &gt;= NTDDI_LONGHORN, _WIN32_WINNT &gt;= 0x0600</b>, or <b>WINVER &gt;= 0x0600</b>), the data type for the <b>dwBufferCount</b> and <b>dwFlags</b> members is a <b>ULONG</b>.
 
 <b>Windows Server 2003 and Windows XP:  </b> When compiling an application, the data type for the <b>dwBufferCount</b> and <b>dwFlags</b> members is a <b>DWORD</b>.
 

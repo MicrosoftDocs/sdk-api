@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary_createcubictransition.ht
 old-project: UIAnimation
 ms.assetid: 5003685d-d4d7-4871-b700-4d7f38050ada
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateCubicTransition, CreateCubicTransition method [Windows Animation], CreateCubicTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateCubicTransition method, IUIAnimationTransitionLibrary.CreateCubicTransition, IUIAnimationTransitionLibrary::CreateCubicTransition, uianimation.iuianimationtransitionlibrary_createcubictransition, uianimation/IUIAnimationTransitionLibrary::CreateCubicTransition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates a cubic transition.
+Creates a cubic transition.
 
 
 ## -parameters
@@ -62,26 +61,22 @@ req.product: Windows XP with SP1 and later
 
 ### -param duration [in]
 
-
-               The duration of the transition.
+The duration of the transition.
 
 
 ### -param finalValue [in]
 
-
-               The value of the animation variable at the end of the transition.
+The value of the animation variable at the end of the transition.
 
 
 ### -param finalVelocity [in]
 
-
-                The velocity of the variable at the end of the transition.
+The velocity of the variable at the end of the transition.
 
 
 ### -param transition [out]
 
-
-                The new cubic transition.
+The new cubic transition.
 
 
 ## -returns

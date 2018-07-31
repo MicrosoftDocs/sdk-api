@@ -4,10 +4,10 @@ title: AddSecurityPackageA function
 author: windows-sdk-content
 description: Adds a security support provider to the list of providers supported by Microsoft Negotiate.
 old-location: security\addsecuritypackage.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 35b993d2-87a0-46d0-991f-88358b0cc5e6
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: AddSecurityPackage, AddSecurityPackage function [Security], AddSecurityPackageA, AddSecurityPackageW, security.addsecuritypackage, sspi/AddSecurityPackage, sspi/AddSecurityPackageA, sspi/AddSecurityPackageW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # AddSecurityPackageA function
@@ -75,8 +74,7 @@ A pointer to a <a href="https://msdn.microsoft.com/2e9f65ec-72a5-4d6f-aa63-f8336
 
 
 
-
-						If the function succeeds, it returns <b>SEC_E_OK</b>.
+If the function succeeds, it returns <b>SEC_E_OK</b>.
 
 If the function fails, it returns a nonzero error code.
 

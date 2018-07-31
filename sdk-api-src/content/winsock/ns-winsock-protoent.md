@@ -4,10 +4,10 @@ title: protoent
 author: windows-sdk-content
 description: The protoent structure contains the name and protocol numbers that correspond to a given protocol name.
 old-location: winsock\protoent_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 8fc729dd-5a73-42a1-9c3f-adc68d83d863
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPPROTOENT, *PPROTOENT, PROTOENT, _win32_protoent_2, protoent, protoent structure [Winsock], winsock.protoent_2, winsock/protoent"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The <b>protoent</b> structure contains the name and protocol numbers that correspond to a given protocol name. Applications must never attempt to modify this structure or to free any of its components. Furthermore, only one copy of this structure is allocated per thread, and therefore, the application should copy any information it needs before issuing any other Windows Sockets function calls.
+The <b>protoent</b> structure contains the name and protocol numbers that correspond to a given protocol name. Applications must never attempt to modify this structure or to free any of its components. Furthermore, only one copy of this structure is allocated per thread, and therefore, the application should copy any information it needs before issuing any other Windows Sockets function calls.
 
 
 ## -struct-fields

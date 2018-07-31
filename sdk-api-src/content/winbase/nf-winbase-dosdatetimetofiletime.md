@@ -4,10 +4,10 @@ title: DosDateTimeToFileTime function
 author: windows-sdk-content
 description: Converts MS-DOS date and time values to a file time.
 old-location: base\dosdatetimetofiletime.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 33459ef5-e310-4fe0-bdda-e1db2ffd4888
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: DosDateTimeToFileTime, DosDateTimeToFileTime function, _win32_dosdatetimetofiletime, base.dosdatetimetofiletime, winbase/DosDateTimeToFileTime
 ms.prod: windows
 ms.technology: windows-sdk

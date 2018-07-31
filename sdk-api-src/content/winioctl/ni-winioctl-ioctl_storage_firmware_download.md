@@ -4,10 +4,10 @@ title: IOCTL_STORAGE_FIRMWARE_DOWNLOAD
 author: windows-sdk-content
 description: Windows applications can use this control code to download a firmware image to the target device, but not activate it.
 old-location: fs\ioctl_storage_firmware_download.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 77E50787-1E71-4D90-A1D3-E6665CE0EFDC
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_STORAGE_FIRMWARE_DOWNLOAD, IOCTL_STORAGE_FIRMWARE_DOWNLOAD control, IOCTL_STORAGE_FIRMWARE_DOWNLOAD control code [Files], fs.ioctl_storage_firmware_download, winioctl/IOCTL_STORAGE_FIRMWARE_DOWNLOAD
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087
 <pre>BOOL 
    WINAPI 
    DeviceIoControl( (HANDLE)       hDevice,         // handle to device
-                    (DWORD)        IOCTL_STORAGE_FIRMWARE_DOWNLOAD, // dwIoControlCode
-                    (LPDWORD)      lpInBuffer,      // input buffer
+                    (DWORD)        IOCTL_STORAGE_FIRMWARE_DOWNLOAD, // dwIoControlCode(LPDWORD)      lpInBuffer,      // input buffer
                     (DWORD)        nInBufferSize,   // size of input buffer
                     (LPDWORD)      lpOutBuffer,     // output buffer
                     (DWORD)        nOutBufferSize,  // size of output buffer

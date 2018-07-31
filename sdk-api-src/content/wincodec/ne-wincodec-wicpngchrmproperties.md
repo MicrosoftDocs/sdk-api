@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicpngchrmproperties.htm
 old-project: wic
 ms.assetid: e4dede53-4c34-4e37-addf-28f51164717f
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: WICPngChrmBlueX, WICPngChrmBlueY, WICPngChrmGreenX, WICPngChrmGreenY, WICPngChrmProperties, WICPngChrmProperties enumeration [Windows Imaging Component], WICPngChrmRedX, WICPngChrmRedY, WICPngChrmWhitePointX, WICPngChrmWhitePointY, _wic_codec_wicpngchrmproperties, wic._wic_codec_wicpngchrmproperties, wincodec/WICPngChrmBlueX, wincodec/WICPngChrmBlueY, wincodec/WICPngChrmGreenX, wincodec/WICPngChrmGreenY, wincodec/WICPngChrmProperties, wincodec/WICPngChrmRedX, wincodec/WICPngChrmRedY, wincodec/WICPngChrmWhitePointX, wincodec/WICPngChrmWhitePointY
 ms.prod: windows
 ms.technology: windows-sdk

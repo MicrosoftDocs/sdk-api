@@ -7,7 +7,7 @@ old-location: search\_search_ICondition2_GetLeafConditionInfo.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\icondition2\getleafconditioninfo.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: GetLeafConditionInfo, GetLeafConditionInfo method [search], GetLeafConditionInfo method [search],ICondition2 interface, ICondition2 interface [search],GetLeafConditionInfo method, ICondition2.GetLeafConditionInfo, ICondition2::GetLeafConditionInfo, _search_ICondition2_GetLeafConditionInfo, search._search_ICondition2_GetLeafConditionInfo, structuredquerycondition/ICondition2::GetLeafConditionInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-          Retrieves the property name, operation, and value from a leaf search condition node.
+Retrieves the property name, operation, and value from a leaf search condition node.
         
 
 
@@ -63,19 +62,17 @@ req.product: Windows XP with SP1 and later
 
 ### -param ppropkey [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>*</b>
+Type: <b><a href="_shell_PROPERTYKEY">PROPERTYKEY</a>*</b>
 
-
-                    Receives the name of the property of the leaf condition as a PROPERTYKEY.
+Receives the name of the property of the leaf condition as a PROPERTYKEY.
                 
 
 
 ### -param pcop [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/d1ec553d-f9fb-4039-9121-0f57bac15345">CONDITION_OPERATION</a>*</b>
 
-
-                    Receives the operation of the leaf condition as a <a href="https://msdn.microsoft.com/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a> enumeration.
+Receives the operation of the leaf condition as a <a href="https://msdn.microsoft.com/d1ec553d-f9fb-4039-9121-0f57bac15345">CONDITION_OPERATION</a> enumeration.
                 
 
 
@@ -88,10 +85,9 @@ Type: <b><a href="https://msdn.microsoft.com/library/Aa965691(v=VS.85).aspx">CON
 
 #### - pPropVar [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
-
-                    Receives the property value of the leaf condition as a <a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>. 
+Receives the property value of the leaf condition as a <a href="_stg_propvariant">PROPVARIANT</a>. 
                 
 
 
@@ -101,8 +97,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PRO
 
 Type: <b>HRESULT</b>
 
-
-                    Returns S_OK if successful, E_FAIL if this is not a leaf node, or an error value otherwise.
+Returns S_OK if successful, E_FAIL if this is not a leaf node, or an error value otherwise.
 
 
 
@@ -124,19 +119,19 @@ condition trees.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>
+<a href="https://msdn.microsoft.com/d1ec553d-f9fb-4039-9121-0f57bac15345">CONDITION_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa965692(v=VS.85).aspx">CONDITION_TYPE</a>
+<a href="https://msdn.microsoft.com/921cdcb0-2915-4bbe-af4b-3f62c3867ea4">CONDITION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb231395(v=VS.85).aspx">ICondition</a>
+<a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd742811(v=VS.85).aspx">ICondition2</a>
+<a href="https://msdn.microsoft.com/32c68ff7-f0f3-40eb-801a-c5c21ec496fa">ICondition2</a>
 
 
 

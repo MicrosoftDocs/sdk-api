@@ -4,10 +4,10 @@ title: IWSManSession::Enumerate
 author: windows-sdk-content
 description: Enumerates a table, data collection, or log resource.
 old-location: winrm\iwsmansession_enumerate.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: b1a4815e-93aa-4a30-a67e-c52fd06c1ee1
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: Enumerate, Enumerate method [Windows Remote Management], Enumerate method [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Enumerate method, IWSManSession.Enumerate, IWSManSession::Enumerate, winrm.iwsmansession_enumerate, wsmandisp/IWSManSession::Enumerate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,9 @@ The identifier of the resource to be retrieved.
 The following list contains identifiers that this parameter can contain:
 
 <ul>
-<li>URI with one or more  <a href="https://msdn.microsoft.com/library/Aa384465(v=VS.85).aspx">selectors</a>. When calling the <b>Enumerate</b> method to obtain a WMI resource, use the key property or properties of the object.</li>
-<li>You can use <a href="https://msdn.microsoft.com/library/Aa384465(v=VS.85).aspx">selectors</a>,  <a href="https://msdn.microsoft.com/library/Aa384465(v=VS.85).aspx">fragments</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/dn965779">options</a>. For  more information, see <a href="https://msdn.microsoft.com/7b3dcb53-d02c-4ba6-973d-1493ba442387">IWSManResourceLocator</a>.</li>
-<li><a href="https://msdn.microsoft.com/library/Aa384465(v=VS.85).aspx">WS-Addressing</a> endpoint reference as described in the WS-Management protocol  standard.  For more information about the public specification for the WS-Management protocol, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=84316">Management Specifications Index Page</a>.</li>
+<li>URI with one or more  <a href="windows_remote_management_glossary.htm">selectors</a>. When calling the <b>Enumerate</b> method to obtain a WMI resource, use the key property or properties of the object.</li>
+<li>You can use <a href="windows_remote_management_glossary.htm">selectors</a>,  <a href="windows_remote_management_glossary.htm">fragments</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/dn965779">options</a>. For  more information, see <a href="https://msdn.microsoft.com/7b3dcb53-d02c-4ba6-973d-1493ba442387">IWSManResourceLocator</a>.</li>
+<li><a href="windows_remote_management_glossary.htm">WS-Addressing</a> endpoint reference as described in the WS-Management protocol  standard.  For more information about the public specification for the WS-Management protocol, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=84316">Management Specifications Index Page</a>.</li>
 </ul>
 
 ### -param filter [in, optional]

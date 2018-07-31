@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixerbitmap_getalphabitmapparameters.htm
 old-project: DirectShow
 ms.assetid: d03cc6ad-e09b-4af7-93b7-51880465c0b6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetAlphaBitmapParameters, GetAlphaBitmapParameters method [DirectShow], GetAlphaBitmapParameters method [DirectShow],IVMRMixerBitmap interface, IVMRMixerBitmap interface [DirectShow],GetAlphaBitmapParameters method, IVMRMixerBitmap.GetAlphaBitmapParameters, IVMRMixerBitmap::GetAlphaBitmapParameters, IVMRMixerBitmapGetAlphaBitmapParameters, dshow.ivmrmixerbitmap_getalphabitmapparameters, strmif/IVMRMixerBitmap::GetAlphaBitmapParameters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ The <b>GetAlphaBitmapParameters</b> method retrieves a copy of the current image
 
 ### -param pBmpParms [out]
 
-
-            A pointer to a <a href="https://msdn.microsoft.com/03b3e619-4804-42de-88d5-5422089e875a">VMRALPHABITMAP</a> structure that receives the bitmap, information about the blending values, and the location to blend it.
+A pointer to a <a href="https://msdn.microsoft.com/03b3e619-4804-42de-88d5-5422089e875a">VMRALPHABITMAP</a> structure that receives the bitmap, information about the blending values, and the location to blend it.
           
 
 

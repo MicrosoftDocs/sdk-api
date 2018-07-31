@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_base64_text.htm
 old-project: wsw
 ms.assetid: 6b4d555b-4e1f-4cc1-8204-6584a5d1dc77
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_BASE64_TEXT, WS_XML_BASE64_TEXT structure [Web Services for Windows], _WS_XML_BASE64_TEXT, webservices/WS_XML_BASE64_TEXT, wsw.ws_xml_base64_text
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Represents base64 encoded data. (for example, the three bytes { 0, 0, 0 } represent the text "AAAA".)
+Represents base64 encoded data. (for example, the three bytes { 0, 0, 0 } represent the text "AAAA".)
       
 
 
@@ -63,21 +62,18 @@ req.product: Windows Address Book 5.0
 
 ### -field text
 
-
-          The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
+The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
         
 
 
 ### -field bytes
 
-
-          The bytes of data.
+The bytes of data.
         
 
 
 ### -field length
 
-
-          The length of the bytes of data.
+The length of the bytes of data.
         
 

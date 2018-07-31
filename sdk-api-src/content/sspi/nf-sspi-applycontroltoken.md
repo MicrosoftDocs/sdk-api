@@ -4,10 +4,10 @@ title: ApplyControlToken function
 author: windows-sdk-content
 description: Provides a way to apply a control token to a security context.
 old-location: security\applycontroltoken.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 5ce13a05-874c-4e1a-9be8-aed98609791e
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: ApplyControlToken, ApplyControlToken function [Security], _ssp_applycontroltoken, security.applycontroltoken, sspi/ApplyControlToken
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # ApplyControlToken function
@@ -51,8 +50,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-			The <b>ApplyControlToken</b> function provides a way to apply a control token to a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. A token can be received when the security context is being established by a call to 
+The <b>ApplyControlToken</b> function provides a way to apply a control token to a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. A token can be received when the security context is being established by a call to 
 the <a href="https://msdn.microsoft.com/c451089a-d10d-469c-99dd-43d75a6b0b2a">InitializeSecurityContext (Schannel)</a> function or with a per-message security service, such as verify or unseal.
 
 This function is supported only by the Schannel <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security support provider</a> (SSP).
@@ -86,8 +84,7 @@ A pointer to a
 
 
 
-
-						If the function succeeds, the function returns SEC_E_OK.
+If the function succeeds, the function returns SEC_E_OK.
 
 If the function fails, it returns a nonzero error code. The following error code is one of the possible error codes that can be returned.
 
@@ -145,7 +142,7 @@ This function can be used to shut down the <a href="https://msdn.microsoft.com/3
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

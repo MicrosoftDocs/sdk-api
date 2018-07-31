@@ -4,10 +4,10 @@ title: IEnroll::enumProvidersWStr
 author: windows-sdk-content
 description: The IEnroll4::enumProvidersWStr method retrieves the names of the available cryptographic service providers (CSPs) specified by the ProviderType property.
 old-location: security\ienroll4_enumproviderswstr.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: f3b40f56-3332-44e8-9753-4107948d0801
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IEnroll interface [Security],enumProvidersWStr method, IEnroll.enumProvidersWStr, IEnroll::enumProvidersWStr, enumProvidersWStr, enumProvidersWStr method [Security], enumProvidersWStr method [Security],IEnroll interface, security.ienroll4_enumproviderswstr, xenroll/IEnroll::enumProvidersWStr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ A pointer to a <b>LPWSTR</b> variable that receives the name of a CSP with the s
 
 
 
-
-						 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. The value ERROR_NO_MORE_ITEMS is returned when there are no more CSPs with the property type indicated by the 
+The return value is an <b>HRESULT</b>. A value of S_OK indicates success. The value ERROR_NO_MORE_ITEMS is returned when there are no more CSPs with the property type indicated by the 
 <a href="https://msdn.microsoft.com/d4ab2b0e-127f-4ec0-9e4a-4314561912e3">ProviderType</a> property.
 
 

@@ -4,10 +4,10 @@ title: QuerySecurityContextToken function
 author: windows-sdk-content
 description: Obtains the access token for a client security context and uses it directly.
 old-location: security\querysecuritycontexttoken.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 5dc23608-9ce3-4fee-8161-2e409cef4063
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: QuerySecurityContextToken, QuerySecurityContextToken function [Security], _ssp_querysecuritycontexttoken, security.querysecuritycontexttoken, sspi/QuerySecurityContextToken
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # QuerySecurityContextToken function
@@ -80,8 +79,7 @@ Returned handle to the access token.
 
 
 
-
-						If the function succeeds, the function returns SEC_E_OK.
+If the function succeeds, the function returns SEC_E_OK.
 
 If the function fails, it returns a nonzero error code. One possible error code return is SEC_E_INVALID_HANDLE.
 
@@ -106,7 +104,7 @@ This function is called by a server application to control impersonation outside
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
  
 
  

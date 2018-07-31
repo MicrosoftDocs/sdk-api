@@ -7,7 +7,7 @@ old-location: multimedia\icdecompressexend.htm
 old-project: Multimedia
 ms.assetid: db0ab881-2e26-4f60-a22c-cb4bd2016028
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: ICDecompressExEnd, ICDecompressExEnd macro [Windows Multimedia], _win32_ICDecompressExEnd, multimedia.icdecompressexend, vfw/ICDecompressExEnd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ Handle to a decompressor.
 The driver frees any resources allocated for the <a href="https://msdn.microsoft.com/35298274-91b5-4df0-b4b0-4a71d6a49990">ICM_DECOMPRESSEX_BEGIN</a> message.
 
 
-<a href="https://msdn.microsoft.com/35277938-6fae-4207-8b91-439af2b481e8">
-          ICM_DECOMPRESSEX_BEGIN</a> and <a href="https://msdn.microsoft.com/7ed63a4e-bb17-43a3-b593-25c4a51be942">ICM_DECOMPRESSEX_END</a> do not nest. If your driver receives <a href="https://msdn.microsoft.com/35298274-91b5-4df0-b4b0-4a71d6a49990">ICM_DECOMPRESSEX_BEGIN</a> before decompression is stopped with <b>ICM_DECOMPRESSEX_END</b>, it should restart decompression with new parameters.
+<a href="https://msdn.microsoft.com/35277938-6fae-4207-8b91-439af2b481e8">ICM_DECOMPRESSEX_BEGIN</a> and <a href="https://msdn.microsoft.com/7ed63a4e-bb17-43a3-b593-25c4a51be942">ICM_DECOMPRESSEX_END</a> do not nest. If your driver receives <a href="https://msdn.microsoft.com/35298274-91b5-4df0-b4b0-4a71d6a49990">ICM_DECOMPRESSEX_BEGIN</a> before decompression is stopped with <b>ICM_DECOMPRESSEX_END</b>, it should restart decompression with new parameters.
 
 
 

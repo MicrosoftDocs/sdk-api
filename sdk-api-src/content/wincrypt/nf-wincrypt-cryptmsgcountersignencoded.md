@@ -4,10 +4,10 @@ title: CryptMsgCountersignEncoded function
 author: windows-sdk-content
 description: Countersigns an existing PKCS #7 message signature.
 old-location: security\cryptmsgcountersignencoded.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: d9fd734b-e14d-4392-ac88-5565aefbedb4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptMsgCountersignEncoded, CryptMsgCountersignEncoded function [Security], _crypto2_cryptmsgcountersignencoded, security.cryptmsgcountersignencoded, wincrypt/CryptMsgCountersignEncoded
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CryptMsgCountersignEncoded</b> function countersigns an existing PKCS #7 message signature. The <i>pbCountersignature</i> <b>BYTE</b> buffer it creates is a PKCS #7 encoded SignerInfo that can be used as an unauthenticated <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Countersignature</a> attribute of a PKCS #9 signed-data or signed-and-enveloped-data message.
+The <b>CryptMsgCountersignEncoded</b> function countersigns an existing PKCS #7 message signature. The <i>pbCountersignature</i> <b>BYTE</b> buffer it creates is a PKCS #7 encoded SignerInfo that can be used as an unauthenticated <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Countersignature</a> attribute of a PKCS #9 signed-data or signed-and-enveloped-data message.
 
 
 ## -parameters
@@ -106,8 +105,7 @@ A pointer to a variable that specifies the size, in bytes, of the buffer pointed
 
 
 
-
-						If the function succeeds, the return value is nonzero (<b>TRUE</b>).
+If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
@@ -199,11 +197,11 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Low-level Message Functions</a>
+<a href="cryptography_functions.htm">Low-level Message Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

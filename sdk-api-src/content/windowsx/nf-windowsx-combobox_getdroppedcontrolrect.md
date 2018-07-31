@@ -4,10 +4,10 @@ title: ComboBox_GetDroppedControlRect macro
 author: windows-sdk-content
 description: Retrieves the screen coordinates of a combo box in its dropped-down state. You can use this macro or send the CB_GETDROPPEDCONTROLRECT message explicitly.
 old-location: controls\ComboBox_GetDroppedControlRect.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getdroppedcontrolrect.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ComboBox_GetDroppedControlRect, ComboBox_GetDroppedControlRect macro [Windows Controls], _win32_ComboBox_GetDroppedControlRect, _win32_ComboBox_GetDroppedControlRect_cpp, controls.ComboBox_GetDroppedControlRect, controls._win32_ComboBox_GetDroppedControlRect, windowsx/ComboBox_GetDroppedControlRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Retrieves the screen coordinates of a combo box in its dropped-down state. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb775847(v=VS.85).aspx">CB_GETDROPPEDCONTROLRECT</a> message explicitly.
+Retrieves the screen coordinates of a combo box in its dropped-down state. You can use this macro or send the <a href="https://msdn.microsoft.com/fd8d78c0-e1a8-49c8-9e35-a105d00b863c">CB_GETDROPPEDCONTROLRECT</a> message explicitly.
 
 
 ## -parameters

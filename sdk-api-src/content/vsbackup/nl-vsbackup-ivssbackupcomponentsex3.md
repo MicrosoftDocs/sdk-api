@@ -4,10 +4,10 @@ title: IVssBackupComponentsEx3
 author: windows-sdk-content
 description: Defines additional methods that requesters can use to perform LUN resynchronization and return extended writer status information.
 old-location: base\ivssbackupcomponentsex3.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 56c8e7c2-2d94-4674-bd20-bf036991474f
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: IVssBackupComponentsEx3, IVssBackupComponentsEx3 interface, IVssBackupComponentsEx3 interface,described, base.ivssbackupcomponentsex3, vsbackup/IVssBackupComponentsEx3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ Defines additional methods that
     requesters can use to perform LUN resynchronization and return extended writer status information.
 
 To obtain an instance of the <b>IVssBackupComponentsEx3</b> 
-   interface, call the <a href="https://msdn.microsoft.com/library/ms682521(v=VS.85).aspx">QueryInterface</a> method of the 
+   interface, call the <a href="_com_iunknown_queryinterface">QueryInterface</a> method of the 
    <a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a> interface, and pass 
    the <b>IID_IVssBackupComponentsEx3</b> constant as the interface identifier (IID) parameter.
 

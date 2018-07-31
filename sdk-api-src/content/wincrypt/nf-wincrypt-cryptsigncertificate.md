@@ -4,10 +4,10 @@ title: CryptSignCertificate function
 author: windows-sdk-content
 description: The CryptSignCertificate function signs the &#0034;to be signed&#0034; information in the encoded signed content.
 old-location: security\cryptsigncertificate.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 27578149-e5c0-47e5-8309-0d0ed7075d13
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptSignCertificate, CryptSignCertificate function [Security], _crypto2_cryptsigncertificate, security.cryptsigncertificate, wincrypt/CryptSignCertificate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CryptSignCertificate</b> function signs the "to be signed" information in the encoded signed content.
+The <b>CryptSignCertificate</b> function signs the "to be signed" information in the encoded signed content.
 
 
 ## -parameters
@@ -138,8 +137,7 @@ Handle of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e9
 
 
 
-
-						If the function succeeds, the return value is nonzero (<b>TRUE</b>).
+If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
@@ -193,7 +191,7 @@ The signature algorithm's <a href="https://msdn.microsoft.com/e6be8932-015e-4058
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

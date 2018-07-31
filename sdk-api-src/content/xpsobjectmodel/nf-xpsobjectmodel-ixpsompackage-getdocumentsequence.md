@@ -7,7 +7,7 @@ old-location: xps\ixpsompackage_getdocumentsequence.htm
 old-project: printdocs
 ms.assetid: 30789376-1ac8-41ae-9c4d-e3d2d0715016
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetDocumentSequence, GetDocumentSequence method [XPS Documents and Packaging], GetDocumentSequence method [XPS Documents and Packaging],IXpsOMPackage interface, IXpsOMPackage interface [XPS Documents and Packaging],GetDocumentSequence method, IXpsOMPackage.GetDocumentSequence, IXpsOMPackage::GetDocumentSequence, xps.ixpsompackage_getdocumentsequence, xpsobjectmodel/IXpsOMPackage::GetDocumentSequence
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Gets a pointer to the  <a href="https://msdn.microsoft.com/472095a4-ecd8-406a-97
 
 ### -param documentSequence [out, retval]
 
-
-            A pointer to the <a href="https://msdn.microsoft.com/472095a4-ecd8-406a-97c2-1a34b4e5184a">IXpsOMDocumentSequence</a> interface that contains the document sequence of the  XPS package. If an <b>IXpsOMDocumentSequence</b> interface has not been set, a <b>NULL</b> pointer is returned.
+A pointer to the <a href="https://msdn.microsoft.com/472095a4-ecd8-406a-97c2-1a34b4e5184a">IXpsOMDocumentSequence</a> interface that contains the document sequence of the  XPS package. If an <b>IXpsOMDocumentSequence</b> interface has not been set, a <b>NULL</b> pointer is returned.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_device_status_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6vle.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: "*PFAX_DEVICE_STATUSW, FAX_DEVICE_STATUS, FAX_DEVICE_STATUS structure [Fax Service], FAX_DEVICE_STATUSA, FAX_DEVICE_STATUSW, FPS_ABORTING, FPS_ANSWERED, FPS_AVAILABLE, FPS_BAD_ADDRESS, FPS_BUSY, FPS_CALL_BLACKLISTED, FPS_CALL_DELAYED, FPS_COMPLETED, FPS_DIALING, FPS_DISCONNECTED, FPS_FATAL_ERROR, FPS_HANDLED, FPS_INITIALIZING, FPS_NOT_FAX_CALL, FPS_NO_ANSWER, FPS_NO_DIAL_TONE, FPS_OFFLINE, FPS_RECEIVING, FPS_RINGING, FPS_ROUTING, FPS_SENDING, FPS_UNAVAILABLE, JT_RECEIVE, JT_SEND, JT_UNKNOWN, PFAX_DEVICE_STATUS, PFAX_DEVICE_STATUS structure pointer [Fax Service], _FAX_DEVICE_STATUSW, _mfax_fax_device_status_str, fax._mfax_fax_device_status_str, winfax/FAX_DEVICE_STATUS, winfax/FAX_DEVICE_STATUSA, winfax/FAX_DEVICE_STATUSW, winfax/PFAX_DEVICE_STATUS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -486,9 +486,9 @@ The device is not available because it is in use by another application.
 
 
 
-The fax client application can call the <a href="https://msdn.microsoft.com/library/ms690909(v=VS.85).aspx">FaxGetDeviceStatus</a> function to retrieve status information for the fax device of interest. The function returns the information in a <b>FAX_DEVICE_STATUS</b> structure.
+The fax client application can call the <a href="https://msdn.microsoft.com/ddfba445-fdad-4fd8-b305-76d18b04583f">FaxGetDeviceStatus</a> function to retrieve status information for the fax device of interest. The function returns the information in a <b>FAX_DEVICE_STATUS</b> structure.
 
-For more information, see <a href="https://msdn.microsoft.com/library/ms691489(v=VS.85).aspx">Fax Device Management</a>. For information about the status information a fax service provider supplies for an active fax operation, see the <a href="https://msdn.microsoft.com/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a> topic.
+For more information, see <a href="https://msdn.microsoft.com/784fdc0e-c664-4ea9-8a4f-0a0cd89c0d81">Fax Device Management</a>. For information about the status information a fax service provider supplies for an active fax operation, see the <a href="https://msdn.microsoft.com/b5d024c2-36f9-4f70-abab-3824f3612089">FAX_DEV_STATUS</a> topic.
 
 
 
@@ -502,15 +502,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/ms691489(v
 
 
 
-<a href="https://msdn.microsoft.com/library/ms691952(v=VS.85).aspx">Fax Service Client API Structures</a>
+<a href="https://msdn.microsoft.com/be81e221-4aba-4c63-9640-337bee49fdb4">Fax Service Client API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690909(v=VS.85).aspx">FaxGetDeviceStatus</a>
+<a href="https://msdn.microsoft.com/ddfba445-fdad-4fd8-b305-76d18b04583f">FaxGetDeviceStatus</a>
  
 
  

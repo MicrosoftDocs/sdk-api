@@ -7,7 +7,7 @@ old-location: gdi\createpolypolygonrgn.htm
 old-project: gdi
 ms.assetid: 1113d3dc-8e3f-436c-a5a8-191785bc7fcc
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: ALTERNATE, CreatePolyPolygonRgn, CreatePolyPolygonRgn function [Windows GDI], WINDING, _win32_CreatePolyPolygonRgn, gdi.createpolypolygonrgn, wingdi/CreatePolyPolygonRgn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -172,13 +172,11 @@ Region coordinates are represented as 27-bit signed integers.
 
 
 
-<a href="https://msdn.microsoft.com/16f387e1-b00c-4755-8b21-1ee0f25bc46b">
-CreateRoundRectRgn</a>
+<a href="https://msdn.microsoft.com/16f387e1-b00c-4755-8b21-1ee0f25bc46b">CreateRoundRectRgn</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">
-DeleteObject</a>
+<a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a>
 
 
 
@@ -194,18 +192,15 @@ DeleteObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a42fc7a-4c07-4540-99a7-520f99532f33">
-Region Functions</a>
+<a href="https://msdn.microsoft.com/3a42fc7a-4c07-4540-99a7-520f99532f33">Region Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d2e8624-4d1a-44f7-821e-a54f6f538214">
-Regions Overview</a>
+<a href="https://msdn.microsoft.com/5d2e8624-4d1a-44f7-821e-a54f6f538214">Regions Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a89b875e-923d-4048-bc61-8dea132cc56d">
-SelectObject</a>
+<a href="https://msdn.microsoft.com/a89b875e-923d-4048-bc61-8dea132cc56d">SelectObject</a>
 
 
 

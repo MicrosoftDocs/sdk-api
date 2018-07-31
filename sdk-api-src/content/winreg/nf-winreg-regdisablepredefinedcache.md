@@ -4,10 +4,10 @@ title: RegDisablePredefinedCache function
 author: windows-sdk-content
 description: Disables handle caching of the predefined registry handle for HKEY_CURRENT_USER for the current process.
 old-location: base\regdisablepredefinedcache.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 837584b3-5f61-4535-9e66-56f50ab3fa46
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: RegDisablePredefinedCache, RegDisablePredefinedCache function, _win32_regdisablepredefinedcache, base.regdisablepredefinedcache, winreg/RegDisablePredefinedCache
 ms.prod: windows
 ms.technology: windows-sdk

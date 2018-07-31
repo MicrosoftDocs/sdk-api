@@ -7,7 +7,7 @@ old-location: coreaudio\spatialaudiohrtfactivationparams.htm
 old-project: CoreAudio
 ms.assetid: 6A549BFB-993A-4A20-AFAB-B38D03EAE35C
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/29/2018
 ms.keywords: PSpatialAudioHrtfActivationParams, PSpatialAudioHrtfActivationParams structure pointer [Core Audio], SpatialAudioHrtfActivationParams, SpatialAudioHrtfActivationParams structure [Core Audio], coreaudio.spatialaudiohrtfactivationparams, spatialaudiohrtf/PSpatialAudioHrtfActivationParams, spatialaudiohrtf/SpatialAudioHrtfActivationParams
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # SpatialAudioHrtfActivationParams structure

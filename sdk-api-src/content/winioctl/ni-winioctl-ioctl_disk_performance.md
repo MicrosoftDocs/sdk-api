@@ -4,10 +4,10 @@ title: IOCTL_DISK_PERFORMANCE
 author: windows-sdk-content
 description: Enables performance counters that provide disk performance information.
 old-location: fs\ioctl_disk_performance.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: e182282c-17e9-442a-8742-437052cfed03
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_DISK_PERFORMANCE, IOCTL_DISK_PERFORMANCE control, IOCTL_DISK_PERFORMANCE control code [Files], _win32_ioctl_disk_performance, base.ioctl_disk_performance, fs.ioctl_disk_performance, winioctl/IOCTL_DISK_PERFORMANCE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,13 +61,9 @@ To perform this operation, call the
 </tr>
 <tr>
 <td>
-<pre>
-BOOL DeviceIoControl(
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,            // handle to device
-  IOCTL_DISK_PERFORMANCE,      // dwIoControlCode
-  NULL,                        // lpInBuffer
-  0,                           // nInBufferSize
-  (LPVOID) lpOutBuffer,        // output buffer
+  IOCTL_DISK_PERFORMANCE,      // dwIoControlCodeNULL,                        // lpInBuffer0,                           // nInBufferSize(LPVOID) lpOutBuffer,        // output buffer
   (DWORD) nOutBufferSize,      // size of output buffer
   (LPDWORD) lpBytesReturned,   // number of bytes returned
   (LPOVERLAPPED) lpOverlapped  // OVERLAPPED structure

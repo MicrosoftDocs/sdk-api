@@ -7,7 +7,7 @@ old-location: display\englockdriverobj.htm
 old-project: display
 ms.assetid: 9ed3142d-2b20-4453-9057-80e6f8f92ff2
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: EngLockDriverObj, EngLockDriverObj function [Display Devices], display.englockdriverobj, gdifncs_154bc925-ce22-45c9-8d24-724f186cd3b5.xml, winddi/EngLockDriverObj
 ms.prod: windows
 ms.technology: windows-sdk

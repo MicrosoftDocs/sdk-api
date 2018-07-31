@@ -4,10 +4,10 @@ title: CryptDecryptAndVerifyMessageSignature function
 author: windows-sdk-content
 description: The CryptDecryptAndVerifyMessageSignature function decrypts a message and verifies its signature.
 old-location: security\cryptdecryptandverifymessagesignature.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 0864a187-617f-4a21-9809-d2dbbc54ab9c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptDecryptAndVerifyMessageSignature, CryptDecryptAndVerifyMessageSignature function [Security], _crypto2_cryptdecryptandverifymessagesignature, security.cryptdecryptandverifymessagesignature, wincrypt/CryptDecryptAndVerifyMessageSignature
 ms.prod: windows
 ms.technology: windows-sdk
@@ -187,7 +187,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

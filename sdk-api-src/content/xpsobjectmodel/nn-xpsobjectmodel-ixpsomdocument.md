@@ -7,7 +7,7 @@ old-location: xps\ixpsomdocument.htm
 old-project: printdocs
 ms.assetid: 22d3c0a1-3ad5-4f48-9e1e-eaf3bd95b39f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMDocument, IXpsOMDocument interface [XPS Documents and Packaging], IXpsOMDocument interface [XPS Documents and Packaging],described, xps.ixpsomdocument, xpsobjectmodel/IXpsOMDocument
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,8 +83,7 @@ Makes a deep copy of the interface.
 <a href="https://msdn.microsoft.com/372aa8fd-efbb-4196-9137-4a9581c69f6c">GetDocumentStructureResource</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/a0cc8748-08b2-4471-9961-603786e983a4">IXpsOMDocumentStructureResource</a> interface of the resource that contains structural information about the document.
+Gets a pointer to the <a href="https://msdn.microsoft.com/a0cc8748-08b2-4471-9961-603786e983a4">IXpsOMDocumentStructureResource</a> interface of the resource that contains structural information about the document.
             
 
 </td>
@@ -94,8 +93,7 @@ Makes a deep copy of the interface.
 <a href="https://msdn.microsoft.com/ae465c16-9756-4c5d-9601-3087ced9c1f0">GetOwner</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/472095a4-ecd8-406a-97c2-1a34b4e5184a">IXpsOMDocumentSequence</a> interface that contains the document.
+Gets a pointer to the <a href="https://msdn.microsoft.com/472095a4-ecd8-406a-97c2-1a34b4e5184a">IXpsOMDocumentSequence</a> interface that contains the document.
             
 
 </td>
@@ -105,8 +103,7 @@ Makes a deep copy of the interface.
 <a href="https://msdn.microsoft.com/65e8b20b-6a6b-4d24-86a1-b9d1833caa3c">GetPageReferences</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <a href="https://msdn.microsoft.com/4b51bc29-c653-41fa-bbd3-9ff529f84e4e">IXpsOMPageReferenceCollection</a> interface of the document, which allows virtualized access to its pages.
+Gets the <a href="https://msdn.microsoft.com/4b51bc29-c653-41fa-bbd3-9ff529f84e4e">IXpsOMPageReferenceCollection</a> interface of the document, which allows virtualized access to its pages.
             
 
 </td>
@@ -116,8 +113,7 @@ Makes a deep copy of the interface.
 <a href="https://msdn.microsoft.com/381bfbb3-1dfd-4761-acdc-cfe64a3aeeb5">GetPrintTicketResource</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <a href="https://msdn.microsoft.com/2f37dbd2-3078-4aa8-97e7-556a0ff2dd74">IXpsOMPrintTicketResource</a> interface of the document-level print ticket.
+Gets the <a href="https://msdn.microsoft.com/2f37dbd2-3078-4aa8-97e7-556a0ff2dd74">IXpsOMPrintTicketResource</a> interface of the document-level print ticket.
             
 
 </td>
@@ -127,8 +123,7 @@ Makes a deep copy of the interface.
 <a href="https://msdn.microsoft.com/87be3040-6113-4876-a847-93620207647f">GetSignatureBlockResources</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/681bdb9c-69dd-4bf6-a4b3-c490f7a0363e">IXpsOMSignatureBlockResourceCollection</a> interface, which refers to a collection of the document's digital signature block resources.
+Gets a pointer to the <a href="https://msdn.microsoft.com/681bdb9c-69dd-4bf6-a4b3-c490f7a0363e">IXpsOMSignatureBlockResourceCollection</a> interface, which refers to a collection of the document's digital signature block resources.
             
 
 </td>
@@ -138,8 +133,7 @@ Makes a deep copy of the interface.
 <a href="https://msdn.microsoft.com/86d62b73-b7a7-4470-9e55-f4eab50531d0">SetDocumentStructureResource</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <a href="https://msdn.microsoft.com/a0cc8748-08b2-4471-9961-603786e983a4">IXpsOMDocumentStructureResource</a> interface for the document.
+Sets the <a href="https://msdn.microsoft.com/a0cc8748-08b2-4471-9961-603786e983a4">IXpsOMDocumentStructureResource</a> interface for the document.
             
 
 </td>
@@ -149,8 +143,7 @@ Makes a deep copy of the interface.
 <a href="https://msdn.microsoft.com/009c2124-c855-4043-9a23-c0313b504853">SetPrintTicketResource</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <a href="https://msdn.microsoft.com/2f37dbd2-3078-4aa8-97e7-556a0ff2dd74">IXpsOMPrintTicketResource</a> interface for the  document-level print ticket.
+Sets the <a href="https://msdn.microsoft.com/2f37dbd2-3078-4aa8-97e7-556a0ff2dd74">IXpsOMPrintTicketResource</a> interface for the  document-level print ticket.
             
 
 </td>

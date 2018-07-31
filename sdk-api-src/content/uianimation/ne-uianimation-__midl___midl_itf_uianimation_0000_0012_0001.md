@@ -7,7 +7,7 @@ old-location: uianimation\ui_animation_idle_behavior.htm
 old-project: UIAnimation
 ms.assetid: 70016fbd-060c-4f2a-89d3-d474850f9d01
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: UI_ANIMATION_IDLE_BEHAVIOR, UI_ANIMATION_IDLE_BEHAVIOR enumeration [Windows Animation], UI_ANIMATION_IDLE_BEHAVIOR_CONTINUE, UI_ANIMATION_IDLE_BEHAVIOR_DISABLE, __MIDL___MIDL_itf_UIAnimation_0000_0012_0001, uianimation.ui_animation_idle_behavior, uianimation/UI_ANIMATION_IDLE_BEHAVIOR, uianimation/UI_ANIMATION_IDLE_BEHAVIOR_CONTINUE, uianimation/UI_ANIMATION_IDLE_BEHAVIOR_DISABLE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-         Defines the behavior of a timer when the animation manager is idle.
+Defines the behavior of a timer when the animation manager is idle.
 
 
 ## -enum-fields
@@ -62,14 +61,12 @@ req.product: Windows XP with SP1 and later
 
 ### -field UI_ANIMATION_IDLE_BEHAVIOR_CONTINUE
 
-
-            The timer continues to generate timer events (is enabled) when the animation manager is idle.
+The timer continues to generate timer events (is enabled) when the animation manager is idle.
 
 
 ### -field UI_ANIMATION_IDLE_BEHAVIOR_DISABLE
 
-
-            The timer is suspended (disabled) when the animation manager is idle.
+The timer is suspended (disabled) when the animation manager is idle.
          
 
 

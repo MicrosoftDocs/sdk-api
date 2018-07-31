@@ -7,7 +7,7 @@ old-location: wsw\wsreadstartattribute.htm
 old-project: wsw
 ms.assetid: 6fd0c8c2-2eac-4d98-898d-1c5849220c36
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsReadStartAttribute, WsReadStartAttribute function [Web Services for Windows], webservices/WsReadStartAttribute, wsw.wsreadstartattribute
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,10 +68,7 @@ Moves the Reader to the specified attribute so that the content may be read usin
 
 ### -param reader [in]
 
-
-          
-                    
-                    A pointer to the <b>XML Reader</b> object used to read the Start attribute.
+A pointer to the <b>XML Reader</b> object used to read the Start attribute.
           
 
 
@@ -105,7 +102,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -120,8 +116,7 @@ The input data was not in the expected format or did not have the expected value
 
 
 
-
-        The <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a> function returns EOF when advanced within an attribute.  The <a href="https://msdn.microsoft.com/1181ca68-f67b-47e1-b9de-1bc57ecf36f6">WsReadEndAttribute</a> function can be used
+The <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a> function returns EOF when advanced within an attribute.  The <a href="https://msdn.microsoft.com/1181ca68-f67b-47e1-b9de-1bc57ecf36f6">WsReadEndAttribute</a> function can be used
         to return the reader to the containing element.
       
 

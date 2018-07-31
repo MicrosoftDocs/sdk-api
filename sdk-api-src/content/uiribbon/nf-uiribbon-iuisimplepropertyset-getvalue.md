@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuisimplepropertyset_getvalue.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuisimplepropertyset\getvalue.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: GetValue, GetValue method [Windows Ribbon], GetValue method [Windows Ribbon],IUISimplePropertySet interface, IUISimplePropertySet interface [Windows Ribbon],GetValue method, IUISimplePropertySet.GetValue, IUISimplePropertySet::GetValue, scenicintent_IUISimplePropertySet_GetValue, uiribbon/IUISimplePropertySet::GetValue, windowsribbon.windowsribbon_iuisimplepropertyset_getvalue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-
-			Retrieves the value identified by a property key.
+Retrieves the value identified by a property key.
 		
 
 
@@ -65,8 +64,7 @@ req.product: Windows UI
 
 Type: <b>REFPROPERTYKEY</b>
 
-
-					The <a href="https://msdn.microsoft.com/library/Dd371196(v=VS.85).aspx">Property Key</a> of interest.
+The <a href="https://msdn.microsoft.com/12bc7fda-ff69-4316-8baf-cc97e19a231c">Property Key</a> of interest.
 				
 
 
@@ -74,8 +72,7 @@ Type: <b>REFPROPERTYKEY</b>
 
 Type: <b>PROPVARIANT*</b>
 
-
-					When this method returns, contains a pointer to the value for 
+When this method returns, contains a pointer to the value for 
 					<i>key</i>.
 				
 
@@ -98,9 +95,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 #### Examples
 
-The following example demonstrates a custom implementation of  <a href="https://msdn.microsoft.com/library/Dd371358(v=VS.85).aspx">IUISimplePropertySet</a> for both item and Command galleries.
+The following example demonstrates a custom implementation of  <a href="https://msdn.microsoft.com/599c4cdf-6c91-473c-904f-b264391c94ed">IUISimplePropertySet</a> for both item and Command galleries.
 
-The CItemProperties class in this example is derived from <a href="https://msdn.microsoft.com/library/Dd371358(v=VS.85).aspx">IUISimplePropertySet</a> and, in addition to the required method <b>IUISimplePropertySet::GetValue</b>, implements a set of helper functions for initialization and index tracking.
+The CItemProperties class in this example is derived from <a href="https://msdn.microsoft.com/599c4cdf-6c91-473c-904f-b264391c94ed">IUISimplePropertySet</a> and, in addition to the required method <b>IUISimplePropertySet::GetValue</b>, implements a set of helper functions for initialization and index tracking.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -209,15 +206,15 @@ private:
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371358(v=VS.85).aspx">IUISimplePropertySet</a>
+<a href="https://msdn.microsoft.com/599c4cdf-6c91-473c-904f-b264391c94ed">IUISimplePropertySet</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371196(v=VS.85).aspx">Property Keys</a>
+<a href="https://msdn.microsoft.com/12bc7fda-ff69-4316-8baf-cc97e19a231c">Property Keys</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

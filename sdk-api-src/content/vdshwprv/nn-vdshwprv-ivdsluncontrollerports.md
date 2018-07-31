@@ -4,10 +4,10 @@ title: IVdsLunControllerPorts
 author: windows-sdk-content
 description: Provides methods for performing controller port configuration operations on a LUN.
 old-location: base\ivdsluncontrollerports.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 81e48874-8bc2-4b82-bcf8-ce87f99ca3ad
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: IVdsLunControllerPorts, IVdsLunControllerPorts interface [VDS], IVdsLunControllerPorts interface [VDS],described, base.ivdsluncontrollerports, vds/IVdsLunControllerPorts, vdshwprv/IVdsLunControllerPorts
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,8 +79,7 @@ The <b>IVdsLunControllerPorts</b> interface has these methods.
 <a href="https://msdn.microsoft.com/3b889cb7-92e4-4c18-b9b9-768865895595">AssociateControllerPorts</a>
 </td>
 <td align="left" width="63%">
-
-     Sets the subsystem controller ports to active or inactive with respect to the LUN. This method replaces 
+Sets the subsystem controller ports to active or inactive with respect to the LUN. This method replaces 
      <a href="https://msdn.microsoft.com/2c3dc668-1745-49f4-9cd1-3bf0b322d0b2">IVdsLun::AssociateControllers</a>.
  (Inherited from <b>IVdsLunControllerPorts</b>)</td>
 </tr>

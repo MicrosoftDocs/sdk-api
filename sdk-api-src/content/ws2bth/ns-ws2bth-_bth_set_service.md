@@ -4,10 +4,10 @@ title: "_BTH_SET_SERVICE"
 author: windows-sdk-content
 description: Provides service information for the specified Bluetooth service.
 old-location: bluetooth\bth_set_service.htm
-old-project: bluetooth
+old-project: Bluetooth
 ms.assetid: 66b5474d-ea21-4ae4-9297-9740f1bc9ecb
 ms.author: windowssdkdev
-ms.date: 05/11/2018
+ms.date: 07/29/2018
 ms.keywords: "*PBTHNS_SETBLOB, *PBTH_SET_SERVICE, BTHNS_SETBLOB, BTH_SET_SERVICE, BTH_SET_SERVICE structure [Bluetooth], PBTH_SET_SERVICE, PBTH_SET_SERVICE structure pointer [Bluetooth], _BTH_SET_SERVICE, _bth_bth_set_service, bluetooth.bth_set_service, ws2bth/BTH_SET_SERVICE, ws2bth/PBTH_SET_SERVICE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>BTH_SET_SERVICE</b> structure provides service information for the specified Bluetooth service.
 
 

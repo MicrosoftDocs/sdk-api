@@ -7,7 +7,7 @@ old-location: wmp\iwmpservices_getstreamstate.htm
 old-project: WMP
 ms.assetid: 1a73ea54-45ce-47ff-b551-10aab2798420
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: GetStreamState, GetStreamState method [Windows Media Player], GetStreamState method [Windows Media Player],IWMPServices interface, IWMPServices interface [Windows Media Player],GetStreamState method, IWMPServices.GetStreamState, IWMPServices::GetStreamState, IWMPServicesGetStreamStateDSP, wmp.iwmpservices_getstreamstate, wmpservices/IWMPServices::GetStreamState
 ms.prod: windows
 ms.technology: windows-sdk

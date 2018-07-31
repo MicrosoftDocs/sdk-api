@@ -4,10 +4,10 @@ title: WSManGetErrorMessage function
 author: windows-sdk-content
 description: Retrieves the error messages associated with a particular error and language codes.
 old-location: winrm\wsmangeterrormessage.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 95fbded5-859d-4111-914c-871a05530726
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: WSManGetErrorMessage, WSManGetErrorMessage function [Windows Remote Management], winrm.wsmangeterrormessage, wsman/WSManGetErrorMessage
 ms.prod: windows
 ms.technology: windows-sdk

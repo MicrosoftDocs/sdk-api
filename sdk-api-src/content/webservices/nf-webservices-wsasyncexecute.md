@@ -7,7 +7,7 @@ old-location: wsw\wsasyncexecute.htm
 old-project: wsw
 ms.assetid: 8705ac1a-62ba-4239-aeb6-b35ac5f0dd18
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsAsyncExecute, WsAsyncExecute function [Web Services for Windows], webservices/WsAsyncExecute, wsw.wsasyncexecute
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ Helper function for implementing an <a href="https://msdn.microsoft.com/d0b3f154
 
 ### -param asyncState [in]
 
-
-                    A pointer to the <a href="https://msdn.microsoft.com/ca7f14a9-bee8-46ed-a082-7e64a41f7493">WS_ASYNC_STATE</a> structure used during the asynchronous operation.  This is a state maintenance parameter not intended
+A pointer to the <a href="https://msdn.microsoft.com/ca7f14a9-bee8-46ed-a082-7e64a41f7493">WS_ASYNC_STATE</a> structure used during the asynchronous operation.  This is a state maintenance parameter not intended
                 for direct use.  The application must allocate  the <b>WS_ASYNC_STATE</b> structure and ensure that it 
                 is kept alive during the entire asynchronous operation.  The <b>WS_ASYNC_STATE</b> structure can be reused after an 
                 asynchronous operation has completed.
@@ -80,16 +79,14 @@ Represents the initial asynchronous operation to be performed.
 
 ### -param callbackModel [in]
 
-
-                    Indicates whether the callback is being invoked long or short.
+Indicates whether the callback is being invoked long or short.
                 For more information, see <a href="https://msdn.microsoft.com/6a8e4c0b-3c0a-4bd3-bbac-40e6f499a055">WS_CALLBACK_MODEL</a>
 
 
 
 ### -param callbackState [in]
 
-
-                    A void pointer to a user-defined value that is passed to each <a href="https://msdn.microsoft.com/5645424b-4ca4-4f5d-b58d-16f3a7cceb6b">WS_ASYNC_FUNCTION</a>.
+A void pointer to a user-defined value that is passed to each <a href="https://msdn.microsoft.com/5645424b-4ca4-4f5d-b58d-16f3a7cceb6b">WS_ASYNC_FUNCTION</a>.
                 
 
 
@@ -127,8 +124,7 @@ In many cases, an asynchronous operation is composed of other asynchronous opera
 
 The <a href="https://msdn.microsoft.com/ca7f14a9-bee8-46ed-a082-7e64a41f7493">WS_ASYNC_STATE</a> parameter is used by <b>WsAsyncExecute</b> to maintain its state, and is not intended to be initialized, inspected, or used by the caller. The caller however, must allocate the <b>WS_ASYNC_STATE</b> and ensure that it is kept alive during the entire asynchronous operation. The <b>WS_ASYNC_STATE</b> may be reused once the asynchronous operation is complete.
 
-
-                The examples <a href="https://msdn.microsoft.com/e60a4005-4849-4603-ae25-b88da8628f80">AsyncAdd3ExplicitExample</a> and <a href="https://msdn.microsoft.com/f84de03f-ecfb-494e-9a1d-a96d399a41c0">AsyncAdd3ImplicitExample</a> demonstrate implementing
+The examples <a href="https://msdn.microsoft.com/e60a4005-4849-4603-ae25-b88da8628f80">AsyncAdd3ExplicitExample</a> and <a href="https://msdn.microsoft.com/f84de03f-ecfb-494e-9a1d-a96d399a41c0">AsyncAdd3ImplicitExample</a> demonstrate implementing
                 the same asynchronous function manually using <b>WsAsyncExecute</b>.
             
 

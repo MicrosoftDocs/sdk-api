@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_string_description.htm
 old-project: wsw
 ms.assetid: 5b3c28ed-ed2c-4d65-a641-a653eddd021e
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_STRING_DESCRIPTION, WS_XML_STRING_DESCRIPTION structure [Web Services for Windows], _WS_XML_STRING_DESCRIPTION, webservices/WS_XML_STRING_DESCRIPTION, wsw.ws_xml_string_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                This type description is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_XML_STRING_TYPE</a> and is optional.
+This type description is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_XML_STRING_TYPE</a> and is optional.
                 It is used to specify constraints on the set of values
                 which can be deserialized.
             
@@ -65,14 +64,12 @@ req.product: Windows Address Book 5.0
 
 ### -field minByteCount
 
-
-                    The minimum number of bytes of UTF8 character data.
+The minimum number of bytes of UTF8 character data.
                 
 
 
 ### -field maxByteCount
 
-
-                    The maximum number of bytes of UTF8 character data.
+The maximum number of bytes of UTF8 character data.
                 
 

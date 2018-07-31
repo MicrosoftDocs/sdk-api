@@ -7,7 +7,7 @@ old-location: xps\ixpsomgradientstopcollection_removeat.htm
 old-project: printdocs
 ms.assetid: dbca41b1-5510-484d-80a1-c8d260cb5c39
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMGradientStopCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMGradientStopCollection.RemoveAt, IXpsOMGradientStopCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, xps.ixpsomgradientstopcollection_removeat, xpsobjectmodel/IXpsOMGradientStopCollection::RemoveAt
 ms.prod: windows
 ms.technology: windows-sdk

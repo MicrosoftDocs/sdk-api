@@ -4,10 +4,10 @@ title: IVdsIscsiInitiatorPortal::SetIpsecSecurity
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsiscsiinitiatorportal_setipsecsecurity.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 67dba1b5-268a-4598-8d48-a8f42e80eb9d
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: IVdsIscsiInitiatorPortal interface [VDS],SetIpsecSecurity method, IVdsIscsiInitiatorPortal.SetIpsecSecurity, IVdsIscsiInitiatorPortal::SetIpsecSecurity, SetIpsecSecurity, SetIpsecSecurity method [VDS], SetIpsecSecurity method [VDS],IVdsIscsiInitiatorPortal interface, base.ivdsiscsiinitiatorportal_setipsecsecurity, vds/IVdsIscsiInitiatorPortal::SetIpsecSecurity
 ms.prod: windows
 ms.technology: windows-sdk

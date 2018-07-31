@@ -4,10 +4,10 @@ title: IEnumAgentSession::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumagentsession_next.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 5ac647a0-7f1a-4f6a-ad01-dba019f9bf56
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: IEnumAgentSession interface [TAPI 2.2],Next method, IEnumAgentSession.Next, IEnumAgentSession::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumAgentSession interface, _tapi3_ienumagentsession_next, tapi3.ienumagentsession_next, tapi3cc/IEnumAgentSession::Next
 ms.prod: windows
 ms.technology: windows-sdk

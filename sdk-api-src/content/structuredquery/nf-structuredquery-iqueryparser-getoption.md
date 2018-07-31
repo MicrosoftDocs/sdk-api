@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParser_GetOption.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\getoption.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: GetOption, GetOption method [search], GetOption method [search],IQueryParser interface, IQueryParser interface [search],GetOption method, IQueryParser.GetOption, IQueryParser::GetOption, _search_IQueryParser_GetOption, search._search_IQueryParser_GetOption, structuredquery/IQueryParser::GetOption
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Retrieves a specified simple option value for this query parser.
+Retrieves a specified simple option value for this query parser.
 
 
 ## -parameters
@@ -62,19 +61,17 @@ req.product: Windows XP with SP1 and later
 
 ### -param option [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa965708(v=VS.85).aspx">STRUCTURED_QUERY_SINGLE_OPTION</a></b>
+Type: <b><a href="https://msdn.microsoft.com/2753f0ad-2648-4ec2-b53f-089caad8ec15">STRUCTURED_QUERY_SINGLE_OPTION</a></b>
 
-
-          The <a href="https://msdn.microsoft.com/library/Aa965708(v=VS.85).aspx">STRUCTURED_QUERY_SINGLE_OPTION</a> enumerated type that specifies the option to be retrieved.
+The <a href="https://msdn.microsoft.com/2753f0ad-2648-4ec2-b53f-089caad8ec15">STRUCTURED_QUERY_SINGLE_OPTION</a> enumerated type that specifies the option to be retrieved.
         
 
 
 ### -param pOptionValue [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
-
-          Receives a pointer to the specified option value. For more information, see <a href="https://msdn.microsoft.com/library/Aa965708(v=VS.85).aspx">STRUCTURED_QUERY_SINGLE_OPTION</a>.
+Receives a pointer to the specified option value. For more information, see <a href="https://msdn.microsoft.com/2753f0ad-2648-4ec2-b53f-089caad8ec15">STRUCTURED_QUERY_SINGLE_OPTION</a>.
 
 
 ## -returns

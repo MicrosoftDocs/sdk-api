@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IMultipleViewProvider_GetViewName.htm
 old-project: WinAuto
 ms.assetid: 72e9bca3-22cd-4f5b-9481-289bdfaf58e8
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetViewName, GetViewName method [Windows Accessibility], GetViewName method [Windows Accessibility],IMultipleViewProvider interface, IMultipleViewProvider interface [Windows Accessibility],GetViewName method, IMultipleViewProvider.GetViewName, IMultipleViewProvider::GetViewName, uiauto.uiauto_IMultipleViewProvider_GetViewName, uiauto_IMultipleViewProvider_GetViewName, uiautomationcore/IMultipleViewProvider::GetViewName, winauto.uiauto_IMultipleViewProvider_GetViewName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,16 +89,13 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-            View identifiers can be retrieved by using <a href="https://msdn.microsoft.com/fd4d5616-c126-455e-84e7-e62e24daf8f9">IMultipleViewProvider::GetSupportedViews</a>.
+View identifiers can be retrieved by using <a href="https://msdn.microsoft.com/fd4d5616-c126-455e-84e7-e62e24daf8f9">IMultipleViewProvider::GetSupportedViews</a>.
             
 
-
-            The collection of view identifiers must be identical for all instances of a control.
+The collection of view identifiers must be identical for all instances of a control.
             
 
-
-            View names must be suitable for use in text-to-speech, Braille, and other accessible applications.
+View names must be suitable for use in text-to-speech, Braille, and other accessible applications.
             
 
 

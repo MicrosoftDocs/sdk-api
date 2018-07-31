@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_getgeometrylookup.htm
 old-project: printdocs
 ms.assetid: f40b6ed0-6e75-4f0a-abcc-f13d961df678
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetGeometryLookup, GetGeometryLookup method [XPS Documents and Packaging], GetGeometryLookup method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetGeometryLookup method, IXpsOMPath.GetGeometryLookup, IXpsOMPath::GetGeometryLookup, xps.ixpsompath_getgeometrylookup, xpsobjectmodel/IXpsOMPath::GetGeometryLookup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,7 +149,7 @@ The method succeeded.
 
 
 
-This method allocates the memory used by the string that is returned in <i>lookup</i>.  If <i>lookup</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>lookup</i>.  If <i>lookup</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

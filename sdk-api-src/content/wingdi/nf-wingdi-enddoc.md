@@ -7,7 +7,7 @@ old-location: gdi\enddoc.htm
 old-project: printdocs
 ms.assetid: bf63ea0f-cc73-4943-9c84-52b3b77e141c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: EndDoc, EndDoc function [Windows GDI], _win32_EndDoc, gdi.enddoc, wingdi/EndDoc
 ms.prod: windows
 ms.technology: windows-sdk

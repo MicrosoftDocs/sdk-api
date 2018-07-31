@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaLog.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialog\iwialog.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: IWiaLog, IWiaLog interface [WIA], IWiaLog interface [WIA],described, _wia_IWiaLog, wia._wia_IWiaLog, wia_xp/IWiaLog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IWiaLog</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629964(v=VS.85).aspx">hResult</a>
+<a href="https://msdn.microsoft.com/97005c6e-302e-49d1-844b-4a01879b2339">hResult</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -80,7 +80,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/ms629966(v=VS.85).aspx">InitializeLog</a>
+<a href="https://msdn.microsoft.com/d6ff18de-ff69-47c2-8331-2ec4dc347c13">InitializeLog</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.

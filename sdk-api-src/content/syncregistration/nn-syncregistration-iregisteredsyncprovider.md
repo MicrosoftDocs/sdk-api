@@ -7,7 +7,7 @@ old-location: winsync\iregisteredsyncprovider.htm
 old-project: winsync
 ms.assetid: 53970f17-2857-4624-8594-069cceb93b1e
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IRegisteredSyncProvider, IRegisteredSyncProvider interface [Windows Sync], IRegisteredSyncProvider interface [Windows Sync],described, syncregistration/IRegisteredSyncProvider, winsync.iregisteredsyncprovider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,9 +104,7 @@ Resets a synchronization provider so that it looks like a new replica
 
 
 
-If the registered synchronization provider is a <a href="http://go.microsoft.com/fwlink/p/?linkid=134798">Microsoft Sync Framework</a> provider, then the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a>
-
-method will be called by the Sync Framework synchronization session. For more information about the different types of synchronization providers you can write for Windows, see <a href="https://msdn.microsoft.com/acf9a557-da4f-4688-9fea-9456947c17b4">Options for Building a Synchronization Provider</a>.
+If the registered synchronization provider is a <a href="http://go.microsoft.com/fwlink/p/?linkid=134798">Microsoft Sync Framework</a> provider, then the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a>method will be called by the Sync Framework synchronization session. For more information about the different types of synchronization providers you can write for Windows, see <a href="https://msdn.microsoft.com/acf9a557-da4f-4688-9fea-9456947c17b4">Options for Building a Synchronization Provider</a>.
 
 
 

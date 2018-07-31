@@ -7,7 +7,7 @@ old-location: wsl\wslisdistributionregistered.htm
 old-project: wsl
 ms.assetid: 51751073-922D-43B9-A253-2017CEEC262A
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: WslIsDistributionRegistered, WslIsDistributionRegistered function, wsl.wslisdistributionregistered, wslapi/WslIsDistributionRegistered
 ms.prod: windows
 ms.technology: windows-sdk

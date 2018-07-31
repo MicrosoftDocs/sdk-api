@@ -4,10 +4,10 @@ title: WTSSendMessageA function
 author: windows-sdk-content
 description: Displays a message box on the client desktop of a specified Remote Desktop Services session.
 old-location: termserv\wtssendmessage.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 4c70bc93-00b1-46ed-947d-b3cf61a5aca4
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: IDABORT, IDASYNC, IDCANCEL, IDCONTINUE, IDIGNORE, IDNO, IDOK, IDRETRY, IDTIMEOUT, IDTRYAGAIN, IDYES, WTSSendMessage, WTSSendMessage function [Remote Desktop Services], WTSSendMessageA, WTSSendMessageW, _win32_wtssendmessage, termserv.wtssendmessage, wtsapi32/WTSSendMessage, wtsapi32/WTSSendMessageA, wtsapi32/WTSSendMessageW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,7 +107,7 @@ The length, in bytes, of the message string.
 
 The contents and behavior of the message box. This value is typically 
       <b>MB_OK</b>. For a complete list of values, see the <i>uType</i> 
-      parameter of the <a href="https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx">MessageBox</a> function.
+      parameter of the <a href="winui._win32_messagebox">MessageBox</a> function.
 
 
 ### -param Timeout [in]
@@ -221,7 +221,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645505(v=VS.85).aspx">MessageBox</a>
+<a href="winui._win32_messagebox">MessageBox</a>
  
 
  

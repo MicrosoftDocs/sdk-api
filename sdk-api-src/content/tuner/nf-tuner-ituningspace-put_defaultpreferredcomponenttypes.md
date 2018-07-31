@@ -7,7 +7,7 @@ old-location: mstv\ituningspace_put_defaultpreferredcomponenttypes.htm
 old-project: mstv
 ms.assetid: 11ab6f15-1f16-42f9-9d7f-f0e51c83cba3
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_DefaultPreferredComponentTypes method, ITuningSpace.put_DefaultPreferredComponentTypes, ITuningSpace::put_DefaultPreferredComponentTypes, ITuningSpaceput_DefaultPreferredComponentTypes, mstv.ituningspace_put_defaultpreferredcomponenttypes, put_DefaultPreferredComponentTypes, put_DefaultPreferredComponentTypes method [Microsoft TV Technologies], put_DefaultPreferredComponentTypes method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_DefaultPreferredComponentTypes
 ms.prod: windows
 ms.technology: windows-sdk

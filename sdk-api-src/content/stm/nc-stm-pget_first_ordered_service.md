@@ -4,10 +4,10 @@ title: PGET_FIRST_ORDERED_SERVICE
 author: windows-sdk-content
 description: The GetFirstOrderedService function returns the first service in the specified order from the designated subset of services in the table.
 old-location: rras\getfirstorderedservice.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 193ca671-3b1a-493f-a655-a27f6348f5d2
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/29/2018
 ms.keywords: GetFirstOrderedService, GetFirstOrderedService callback function [RAS], PGET_FIRST_ORDERED_SERVICE, PGET_FIRST_ORDERED_SERVICE callback, STM_ORDER_BY_INTERFACE_TYPE_NAME, STM_ORDER_BY_TYPE_AND_NAME, _mpr_getfirstorderedservice, rras.getfirstorderedservice, stm/GetFirstOrderedService
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # PGET_FIRST_ORDERED_SERVICE callback function

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager2_abandonallstoryboards.htm
 old-project: UIAnimation
 ms.assetid: E8DC71C0-CA68-4FD8-81CE-68450BF4EBA7
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: AbandonAllStoryboards, AbandonAllStoryboards method [Windows Animation], AbandonAllStoryboards method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],AbandonAllStoryboards method, IUIAnimationManager2.AbandonAllStoryboards, IUIAnimationManager2::AbandonAllStoryboards, uianimation.iuianimationmanager2_abandonallstoryboards, uianimation/IUIAnimationManager2::AbandonAllStoryboards
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Abandons all active storyboards.
+Abandons all active storyboards.
 
 
 ## -parameters
@@ -75,8 +74,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b
 
 
 
-Calling this method is equivalent to calling the <a href="https://msdn.microsoft.com/2350dbd0-3a67-4832-94dd-56adce80a387">IUIAnimationStoryboard::Abandon</a>
-         method for each active storyboard.
+Calling this method is equivalent to calling the <a href="https://msdn.microsoft.com/2350dbd0-3a67-4832-94dd-56adce80a387">IUIAnimationStoryboard::Abandon</a>method for each active storyboard.
          
          
 
@@ -95,18 +93,15 @@ A storyboard is considered active if a call to the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/2350dbd0-3a67-4832-94dd-56adce80a387">
-      IUIAnimationStoryboard::Abandon</a>
+<a href="https://msdn.microsoft.com/2350dbd0-3a67-4832-94dd-56adce80a387">IUIAnimationStoryboard::Abandon</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ee9a17f-c57c-49df-950d-491e05ba8768">
-      IUIAnimationStoryboard::GetStatus</a>
+<a href="https://msdn.microsoft.com/8ee9a17f-c57c-49df-950d-491e05ba8768">IUIAnimationStoryboard::GetStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/02830092-0070-44dc-8db2-239941134473">
-      UI_ANIMATION_STORYBOARD_STATUS</a>
+<a href="https://msdn.microsoft.com/02830092-0070-44dc-8db2-239941134473">UI_ANIMATION_STORYBOARD_STATUS</a>
  
 
  

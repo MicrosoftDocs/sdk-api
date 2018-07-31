@@ -7,7 +7,7 @@ old-location: gdi\getregiondata.htm
 old-project: gdi
 ms.assetid: e0d4862d-a405-4c00-b7b0-af4dd60407c0
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetRegionData, GetRegionData function [Windows GDI], _win32_GetRegionData, gdi.getregiondata, wingdi/GetRegionData
 ms.prod: windows
 ms.technology: windows-sdk

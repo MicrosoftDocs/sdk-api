@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IGridProvider.htm
 old-project: WinAuto
 ms.assetid: 37e2cc95-d765-4c2c-ae8a-5a072a43ad5a
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IGridProvider, IGridProvider interface [Windows Accessibility], IGridProvider interface [Windows Accessibility],described, uiauto.uiauto_IGridProvider, uiauto_IGridProvider, uiautomationcore/IGridProvider, winauto.uiauto_IGridProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,10 +130,8 @@ Specifies the total number of rows in the grid.
 
 
 
-
-		The <b>IGridProvider</b> interface exposes methods and properties to support UI Automation client access to controls 
-		that act as containers for a collection of child elements. The children of this element must implement <a href="https://msdn.microsoft.com/334a10f1-8bfc-4935-9eee-6176a3e8a4f1">IGridItemProvider</a>
-		and be organized in a two-dimensional logical coordinate system that can be traversed (that is, a UI Automation client can move to adjacent controls) by using the keyboard.
+The <b>IGridProvider</b> interface exposes methods and properties to support UI Automation client access to controls 
+		that act as containers for a collection of child elements. The children of this element must implement <a href="https://msdn.microsoft.com/334a10f1-8bfc-4935-9eee-6176a3e8a4f1">IGridItemProvider</a>and be organized in a two-dimensional logical coordinate system that can be traversed (that is, a UI Automation client can move to adjacent controls) by using the keyboard.
 		
 
 Implemented on a UI Automation provider that must support 

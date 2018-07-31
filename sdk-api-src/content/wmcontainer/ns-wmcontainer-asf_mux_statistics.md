@@ -7,7 +7,7 @@ old-location: mf\asf_mux_statistics.htm
 old-project: medfound
 ms.assetid: 353ee03d-b706-4a70-9eaf-c14b47b5159a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: 353ee03d-b706-4a70-9eaf-c14b47b5159a, ASF_MUX_STATISTICS, ASF_MUX_STATISTICS structure [Media Foundation], mf.asf_mux_statistics, wmcontainer/ASF_MUX_STATISTICS
 ms.prod: windows
 ms.technology: windows-sdk

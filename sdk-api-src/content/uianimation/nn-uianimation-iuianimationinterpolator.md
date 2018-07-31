@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationinterpolator.htm
 old-project: UIAnimation
 ms.assetid: 8e1f2a9a-ab93-485a-83b2-baebb9ee4bcc
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationInterpolator, IUIAnimationInterpolator interface [Windows Animation], IUIAnimationInterpolator interface [Windows Animation],described, uianimation.iuianimationinterpolator, uianimation/IUIAnimationInterpolator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Defines methods for creating a custom interpolator.
+Defines methods for creating a custom interpolator.
 
 
 ## -inheritance
@@ -72,87 +71,64 @@ The <b>IUIAnimationInterpolator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a897caa9-8a03-465e-8b74-b4614efce00c">
-         GetDependencies</a>
+<a href="https://msdn.microsoft.com/a897caa9-8a03-465e-8b74-b4614efce00c">GetDependencies</a>
 </td>
 <td align="left" width="63%">
-
-         
-         Gets the aspects of the interpolator that depend on the initial value or velocity passed to <b>SetInitialValueAndVelocity</b>, or that depend on the duration passed to <b>SetDuration</b>.
+Gets the aspects of the interpolator that depend on the initial value or velocity passed to <b>SetInitialValueAndVelocity</b>, or that depend on the duration passed to <b>SetDuration</b>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c39acf72-7c03-4d8b-b4f2-776e4b32f781">
-         GetDuration</a>
+<a href="https://msdn.microsoft.com/c39acf72-7c03-4d8b-b4f2-776e4b32f781">GetDuration</a>
 </td>
 <td align="left" width="63%">
-
-         
-         Gets the duration of the transition.
+Gets the duration of the transition.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f99fc36-1f56-4275-9b6f-c22bde929d22">
-         GetFinalValue</a>
+<a href="https://msdn.microsoft.com/5f99fc36-1f56-4275-9b6f-c22bde929d22">GetFinalValue</a>
 </td>
 <td align="left" width="63%">
-
-         
-         Gets the final value at the end of the transition.
+Gets the final value at the end of the transition.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f1cccd7-8b22-47a3-9704-0f22a1431c99">
-         InterpolateValue</a>
+<a href="https://msdn.microsoft.com/5f1cccd7-8b22-47a3-9704-0f22a1431c99">InterpolateValue</a>
 </td>
 <td align="left" width="63%">
-
-         
-         
-   
-   Interpolates the value of an animation variable at the specified offset.
+Interpolates the value of an animation variable at the specified offset.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae0b6674-307b-454e-b8be-db564c234607">
-         InterpolateVelocity</a>
+<a href="https://msdn.microsoft.com/ae0b6674-307b-454e-b8be-db564c234607">InterpolateVelocity</a>
 </td>
 <td align="left" width="63%">
-
-   
-   Interpolates the velocity, or rate of change, at the specified offset.
+Interpolates the velocity, or rate of change, at the specified offset.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/79038ada-ebc2-4259-862a-d81403c2f6b8">
-         SetDuration</a>
+<a href="https://msdn.microsoft.com/79038ada-ebc2-4259-862a-d81403c2f6b8">SetDuration</a>
 </td>
 <td align="left" width="63%">
-
-         
-         Sets the duration of the transition.
+Sets the duration of the transition.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a1c5451a-b8d0-4eb7-883c-6bd1d585cb11">
-         SetInitialValueAndVelocity</a>
+<a href="https://msdn.microsoft.com/a1c5451a-b8d0-4eb7-883c-6bd1d585cb11">SetInitialValueAndVelocity</a>
 </td>
 <td align="left" width="63%">
-
-         
-         Sets the initial value and velocity at the start of the transition.
+Sets the initial value and velocity at the start of the transition.
 
 </td>
 </tr>
@@ -172,7 +148,7 @@ Custom interpolators can be reused across applications, but it is recommended th
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/Dd940513(v=VS.85).aspx">Custom Interpolator Sample</a>.
+For an example, see <a href="uianimation.how_to__create_custom_interpolators">Custom Interpolator Sample</a>.
 
 <div class="code"></div>
 

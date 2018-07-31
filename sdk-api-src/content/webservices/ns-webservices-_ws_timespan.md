@@ -7,7 +7,7 @@ old-location: wsw\ws_timespan.htm
 old-project: wsw
 ms.assetid: f8a42739-e395-4b20-bf3a-3d7c5e3a5495
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_TIMESPAN, WS_TIMESPAN structure [Web Services for Windows], _WS_TIMESPAN, webservices/WS_TIMESPAN, wsw.ws_timespan
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Represents a signed 64-bit time interval in 100 nanosecond units.
+Represents a signed 64-bit time interval in 100 nanosecond units.
             
 
 

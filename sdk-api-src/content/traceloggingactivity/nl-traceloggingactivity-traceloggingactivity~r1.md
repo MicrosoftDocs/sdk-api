@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingactivity.htm
 old-project: tracelogging
 ms.assetid: 75930876-4DF2-4559-BA06-133FC676B1AD
 ms.author: windowssdkdev
-ms.date: 04/27/2018
+ms.date: 07/29/2018
 ms.keywords: TraceLoggingActivity, TraceLoggingActivity class, TraceLoggingActivity class,described, tracelogging.traceloggingactivity, traceloggingactivity/TraceLoggingActivity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -291,12 +291,10 @@ Contains the value of the level that will be used in the activity’s start and 
 
 
 
-
-           In order to use TraceLogging activities, you need to define an instance of either <b>TraceLoggingActivity</b> or <a href="https://msdn.microsoft.com/7666A28B-42B2-473F-852F-BD3F6CAA6AC7">TraceLoggingThreadActivity</a>. After you have created an instance of one of these classes, you manipulate activity logging using <a href="https://msdn.microsoft.com/70382367-E0A0-4E5B-A14F-863BEC0615C5">TraceLoggingFunction</a>, <a href="https://msdn.microsoft.com/E5B9347E-50A7-49BE-BDD5-DCED39371234">TraceLoggingWriteStart</a>, <a href="https://msdn.microsoft.com/638F08E3-5970-40B3-8025-E3D81ECA1D2A">TraceLoggingWriteStop</a>, and <a href="https://msdn.microsoft.com/BBDFC2B1-33C6-4D5F-AA7B-91BB2A757B1E">TraceLoggingWriteTagged</a>. This class automatically creates a unique identifier when it is started and tracing is turned on.
+In order to use TraceLogging activities, you need to define an instance of either <b>TraceLoggingActivity</b> or <a href="https://msdn.microsoft.com/7666A28B-42B2-473F-852F-BD3F6CAA6AC7">TraceLoggingThreadActivity</a>. After you have created an instance of one of these classes, you manipulate activity logging using <a href="https://msdn.microsoft.com/70382367-E0A0-4E5B-A14F-863BEC0615C5">TraceLoggingFunction</a>, <a href="https://msdn.microsoft.com/E5B9347E-50A7-49BE-BDD5-DCED39371234">TraceLoggingWriteStart</a>, <a href="https://msdn.microsoft.com/638F08E3-5970-40B3-8025-E3D81ECA1D2A">TraceLoggingWriteStop</a>, and <a href="https://msdn.microsoft.com/BBDFC2B1-33C6-4D5F-AA7B-91BB2A757B1E">TraceLoggingWriteTagged</a>. This class automatically creates a unique identifier when it is started and tracing is turned on.
          
 
-
-           You can nest activities manually by providing unique identifiers to the <a href="https://msdn.microsoft.com/E5B9347E-50A7-49BE-BDD5-DCED39371234">TraceLoggingWriteStart</a> and <a href="https://msdn.microsoft.com/638F08E3-5970-40B3-8025-E3D81ECA1D2A">TraceLoggingWriteStop</a> macros.
+You can nest activities manually by providing unique identifiers to the <a href="https://msdn.microsoft.com/E5B9347E-50A7-49BE-BDD5-DCED39371234">TraceLoggingWriteStart</a> and <a href="https://msdn.microsoft.com/638F08E3-5970-40B3-8025-E3D81ECA1D2A">TraceLoggingWriteStop</a> macros.
          
 
 

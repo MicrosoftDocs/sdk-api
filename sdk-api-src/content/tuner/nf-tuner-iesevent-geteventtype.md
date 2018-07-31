@@ -7,7 +7,7 @@ old-location: mstv\iesevent_geteventtype.htm
 old-project: mstv
 ms.assetid: 8418116a-2393-4a1b-8c5b-2356d373e426
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetEventType, GetEventType method [Microsoft TV Technologies], GetEventType method [Microsoft TV Technologies],IESEvent interface, IESEvent interface [Microsoft TV Technologies],GetEventType method, IESEvent.GetEventType, IESEvent::GetEventType, mstv.iesevent_geteventtype, tuner/IESEvent::GetEventType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Gets the GUID that identifies an event that is derived from the <a href="https://msdn.microsoft.com/3c375480-c6df-4bb0-b417-5765b0bed9bf">IESEvent</a> interface. The GUID is contained in an <b>IESEvent</b> object, which ispassed in a call to <a href="https://msdn.microsoft.com/3781e50c-ab19-4bfa-86d6-af12223019ca">IESEventService::FireESEvent</a>.
+Gets the GUID that identifies an event that is derived from the <a href="https://msdn.microsoft.com/3c375480-c6df-4bb0-b417-5765b0bed9bf">IESEvent</a> interface. The GUID is contained in an <b>IESEvent</b> object, which ispassed in a call to <a href="https://msdn.microsoft.com/3781e50c-ab19-4bfa-86d6-af12223019ca">IESEventService::FireESEvent</a>.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param pguidEventType [out, retval]
 
-
-            Pointer to the GUID that uniquely identifies the event type.
+Pointer to the GUID that uniquely identifies the event type.
 
 
 ## -returns

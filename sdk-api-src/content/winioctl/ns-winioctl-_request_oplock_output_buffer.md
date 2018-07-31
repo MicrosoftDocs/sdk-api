@@ -4,10 +4,10 @@ title: "_REQUEST_OPLOCK_OUTPUT_BUFFER"
 author: windows-sdk-content
 description: Contains the opportunistic lock (oplock) information returned by the FSCTL_REQUEST_OPLOCK control code.
 old-location: fs\request_oplock_output_buffer.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 5912e0db-a102-4e1c-a1c0-c6a900fe0bbe
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "*PREQUEST_OPLOCK_OUTPUT_BUFFER, PREQUEST_OPLOCK_OUTPUT_BUFFER, PREQUEST_OPLOCK_OUTPUT_BUFFER structure pointer [Files], REQUEST_OPLOCK_OUTPUT_BUFFER, REQUEST_OPLOCK_OUTPUT_BUFFER structure [Files], REQUEST_OPLOCK_OUTPUT_FLAG_ACK_REQUIRED, REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED, _REQUEST_OPLOCK_OUTPUT_BUFFER, fs.request_oplock_output_buffer, winioctl/PREQUEST_OPLOCK_OUTPUT_BUFFER, winioctl/REQUEST_OPLOCK_OUTPUT_BUFFER"
 ms.prod: windows
 ms.technology: windows-sdk

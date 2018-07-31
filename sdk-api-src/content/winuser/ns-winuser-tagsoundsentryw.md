@@ -7,7 +7,7 @@ old-location: winauto\soundsentry.htm
 old-project: WinAuto
 ms.assetid: a6000966-886b-4b9e-8df2-fee79d494f2e
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPSOUNDSENTRYW, LPSOUNDSENTRY, LPSOUNDSENTRY structure pointer [Windows Accessibility], SOUNDSENTRY, SOUNDSENTRY structure [Windows Accessibility], SOUNDSENTRYW, SSF_AVAILABLE, SSF_INDICATOR, SSF_SOUNDSENTRYON, SSGF_DISPLAY, SSGF_NONE, SSTF_BORDER, SSTF_CHARS, SSTF_DISPLAY, SSTF_NONE, SSWF_CUSTOM, SSWF_DISPLAY, SSWF_NONE, SSWF_TITLE, SSWF_WINDOW, _win32_SOUNDSENTRY_str, msaa.soundsentry, tagSOUNDSENTRYA, tagSOUNDSENTRYW, winauto.soundsentry, winuser/LPSOUNDSENTRY, winuser/SOUNDSENTRY"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-        Contains information about the SoundSentry accessibility feature. When the SoundSentry feature is on, the computer displays a visual indication only when a sound is generated.
+Contains information about the SoundSentry accessibility feature. When the SoundSentry feature is on, the computer displays a visual indication only when a sound is generated.
 
 <b>Windows 95/98:</b>  The visual indication is displayed
         when a sound is generated through the computer's internal

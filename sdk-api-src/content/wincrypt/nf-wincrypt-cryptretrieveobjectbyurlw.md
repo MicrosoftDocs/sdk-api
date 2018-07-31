@@ -4,10 +4,10 @@ title: CryptRetrieveObjectByUrlW function
 author: windows-sdk-content
 description: Retrieves the public key infrastructure (PKI) object from a location specified by a URL.
 old-location: security\cryptretrieveobjectbyurl.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 2e205f97-be9b-4358-ba22-d475b6a250b7
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CONTEXT_OID_CAPI2_ANY, CONTEXT_OID_CERTIFICATE, CONTEXT_OID_CRL, CONTEXT_OID_CTL, CONTEXT_OID_OCSP_RESP, CONTEXT_OID_PKCS7, CRYPT_AIA_RETRIEVAL, CRYPT_ASYNC_RETRIEVAL, CRYPT_CACHE_ONLY_RETRIEVAL, CRYPT_DONT_CACHE_RESULT, CRYPT_HTTP_POST_RETRIEVAL, CRYPT_LDAP_AREC_EXCLUSIVE_RETRIEVAL, CRYPT_LDAP_INSERT_ENTRY_ATTRIBUTE, CRYPT_LDAP_SCOPE_BASE_ONLY_RETRIEVAL, CRYPT_LDAP_SIGN_RETRIEVAL, CRYPT_NOT_MODIFIED_RETRIEVAL, CRYPT_NO_AUTH_RETRIEVAL, CRYPT_OFFLINE_CHECK_RETRIEVAL, CRYPT_PROXY_CACHE_RETRIEVAL, CRYPT_RETRIEVE_MULTIPLE_OBJECTS, CRYPT_STICKY_CACHE_RETRIEVAL, CRYPT_VERIFY_CONTEXT_SIGNATURE, CRYPT_VERIFY_DATA_HASH, CRYPT_WIRE_ONLY_RETRIEVAL, CryptRetrieveObjectByUrl, CryptRetrieveObjectByUrl function [Security], CryptRetrieveObjectByUrlA, CryptRetrieveObjectByUrlW, NULL, _crypto2_cryptretrieveobjectbyurl, security.cryptretrieveobjectbyurl, wincrypt/CryptRetrieveObjectByUrl, wincrypt/CryptRetrieveObjectByUrlA, wincrypt/CryptRetrieveObjectByUrlW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CryptRetrieveObjectByUrl</b> function retrieves the public key infrastructure (PKI) object from a location specified by a URL.
+The <b>CryptRetrieveObjectByUrl</b> function retrieves the public key infrastructure (PKI) object from a location specified by a URL.
 
 These remote objects are in encoded format and are retrieved in a "context" form.
 
@@ -421,8 +420,7 @@ An optional pointer to a
 
 
 
-
-						If the function succeeds, the return value is nonzero (<b>TRUE</b>).
+If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>).
 

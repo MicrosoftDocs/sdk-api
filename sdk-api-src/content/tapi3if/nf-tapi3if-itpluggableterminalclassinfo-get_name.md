@@ -4,10 +4,10 @@ title: ITPluggableTerminalClassInfo::get_Name
 author: windows-sdk-content
 description: The get_Name method gets the terminal's friendly name.
 old-location: tapi3\itpluggableterminalclassinfo_get_name.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 97bd38f3-27d8-4618-9138-bd972db9abb9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITPluggableTerminalClassInfo interface [TAPI 2.2],get_Name method, ITPluggableTerminalClassInfo.get_Name, ITPluggableTerminalClassInfo::get_Name, _tapi3_itpluggableterminalclassinfo_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITPluggableTerminalClassInfo interface, tapi3.itpluggableterminalclassinfo_get_name, tapi3if/ITPluggableTerminalClassInfo::get_Name
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The
 ### -param pName [out]
 
 The <b>BSTR</b> representation of the terminal's friendly name. The <b>BSTR</b> is allocated using 
-<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
 
 
 ## -returns

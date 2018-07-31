@@ -7,7 +7,7 @@ old-location: smi\isettingsitem.htm
 old-project: SMI
 ms.assetid: a743d942-69f9-426b-be88-adf88b9bb1e0
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: ISettingsItem, ISettingsItem interface [SMI], ISettingsItem interface [SMI],described, smi.isettingsitem, wcmconfig/ISettingsItem
 ms.prod: windows
 ms.technology: windows-sdk

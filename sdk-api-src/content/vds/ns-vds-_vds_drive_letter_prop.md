@@ -4,10 +4,10 @@ title: "_VDS_DRIVE_LETTER_PROP"
 author: windows-sdk-content
 description: Defines the properties of a drive letter.
 old-location: base\vds_drive_letter_prop.htm
-old-project: vds
+old-project: VDS
 ms.assetid: b944e29a-85b0-4cab-b804-1a09a19caddb
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: "*PVDS_DRIVE_LETTER_PROP, PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE, PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE structure pointer [VDS], VDS_DRIVE_LETTER_PROP, VDS_DRIVE_LETTER_PROP structure [VDS], _VDS_DRIVE_LETTER_PROP, base.vds_drive_letter_prop, vds/PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE, vds/_VDS_DRIVE_LETTER_PROP"
 ms.prod: windows
 ms.technology: windows-sdk

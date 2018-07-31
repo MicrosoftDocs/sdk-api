@@ -7,7 +7,7 @@ old-location: gdi\roundrect.htm
 old-project: gdi
 ms.assetid: 17808a6a-7bd0-4fd6-81ab-00d5db764b93
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: RoundRect, RoundRect function [Windows GDI], _win32_RoundRect, gdi.roundrect, wingdi/RoundRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -167,8 +167,7 @@ For an example, see <a href="https://msdn.microsoft.com/c5fc3346-e5d7-49c0-979b-
 
 
 
-<a href="https://msdn.microsoft.com/ed6b9824-1edc-4510-b9da-a4287845aa83">
-        Rectangle
+<a href="https://msdn.microsoft.com/ed6b9824-1edc-4510-b9da-a4287845aa83">Rectangle
       </a>
  
 

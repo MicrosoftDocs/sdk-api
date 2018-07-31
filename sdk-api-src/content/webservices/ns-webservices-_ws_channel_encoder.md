@@ -7,7 +7,7 @@ old-location: wsw\ws_channel_encoder.htm
 old-project: wsw
 ms.assetid: 94ff7082-5cc7-46f3-8eec-d38565bbdb23
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_CHANNEL_ENCODER, WS_CHANNEL_ENCODER structure [Web Services for Windows], _WS_CHANNEL_ENCODER, webservices/WS_CHANNEL_ENCODER, wsw.ws_channel_encoder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                A structure that is used to specify a set of callbacks
+A structure that is used to specify a set of callbacks
                 that can transform the content type and encoded bytes of a sent message.
             
 
@@ -64,8 +63,7 @@ req.product: Windows Address Book 5.0
 
 ### -field createContext
 
-
-                    A context that will be passed to the <a href="https://msdn.microsoft.com/47a68722-0c99-478a-b1ce-2982287e6a74">WS_CREATE_ENCODER_CALLBACK</a>.
+A context that will be passed to the <a href="https://msdn.microsoft.com/47a68722-0c99-478a-b1ce-2982287e6a74">WS_CREATE_ENCODER_CALLBACK</a>.
                 
 
 
@@ -83,8 +81,7 @@ A <a href="https://msdn.microsoft.com/9e17481e-91ed-4215-983e-218936a1aa4f">WS_E
 
 ### -field encoderStartCallback
 
-
-                    A <a href="https://msdn.microsoft.com/308e3d24-e3df-4dc8-a727-d3d8ebe8d5d4">WS_ENCODER_START_CALLBACK</a> callback that is invoked to start encoding a message.
+A <a href="https://msdn.microsoft.com/308e3d24-e3df-4dc8-a727-d3d8ebe8d5d4">WS_ENCODER_START_CALLBACK</a> callback that is invoked to start encoding a message.
                 
 
 
@@ -111,19 +108,16 @@ A <a href="https://msdn.microsoft.com/4ef8fc85-fe98-4c1c-9f8f-77fd4ad3283f">WS_F
 
 
 
-
-                A <a href="https://msdn.microsoft.com/741636a4-5e0f-495a-bb1d-1a00cfd6f65a">WS_CHANNEL</a> may wish to compress, modify, or otherwise transform
+A <a href="https://msdn.microsoft.com/741636a4-5e0f-495a-bb1d-1a00cfd6f65a">WS_CHANNEL</a> may wish to compress, modify, or otherwise transform
                 the encoded bytes of a message before they are sent. A <b>WS_CHANNEL_ENCODER</b> 
                 provides the necessary hooks to intercept and perform these modifications.
             
 
-
-                When creating the channel, the <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_ENCODER</a> should be
+When creating the channel, the <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_ENCODER</a> should be
                 set with the appropriate functions.
             
 
-
-              The grammar for the encoder callbacks is:
+The grammar for the encoder callbacks is:
 
 <pre class="syntax" xml:space="preserve"><code>
 encodercalls := create encoderloop* free
@@ -132,21 +126,17 @@ encoderloop  := getcontenttype
              |  getcontenttype encodestart (encode*)
              |  getcontenttype encodestart (encode*) encodeend
 </code></pre>
-
-
-              The encoder may not see the full encode sequence for a message if the channel or the 
+The encoder may not see the full encode sequence for a message if the channel or the 
               encoder encounters an error while writing the message.  An encoder must be prepared to 
               handle transitioning to the appropriate state based upon the callbacks invoked.
 
 
-
-              When using <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_TCP_CHANNEL_BINDING</a> with <a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">WS_CHANNEL_TYPE_SESSION</a>, the content type
+When using <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_TCP_CHANNEL_BINDING</a> with <a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">WS_CHANNEL_TYPE_SESSION</a>, the content type
               is fixed for the channel.  In this case, the <a href="https://msdn.microsoft.com/9e17481e-91ed-4215-983e-218936a1aa4f">WS_ENCODER_GET_CONTENT_TYPE_CALLBACK</a> must return
               exactly the same value for the content type of every message.
             
 
-
-                When the channel is finished using the encoder instance it will free it via the
+When the channel is finished using the encoder instance it will free it via the
                 <a href="https://msdn.microsoft.com/4ef8fc85-fe98-4c1c-9f8f-77fd4ad3283f">WS_FREE_ENCODER_CALLBACK</a>.
             
 

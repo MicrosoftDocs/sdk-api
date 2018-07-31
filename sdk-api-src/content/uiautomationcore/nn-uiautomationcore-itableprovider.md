@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITableProvider.htm
 old-project: WinAuto
 ms.assetid: ae6be8be-78ea-4843-924f-2dc5d5286da2
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: ITableProvider, ITableProvider interface [Windows Accessibility], ITableProvider interface [Windows Accessibility],described, uiauto.uiauto_ITableProvider, uiauto_ITableProvider, uiautomationcore/ITableProvider, winauto.uiauto_ITableProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,8 +79,7 @@ The <b>ITableProvider</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ee7a4e40-58eb-4400-96c2-0d2196837a24">GetColumnHeaders</a>
 </td>
 <td align="left" width="63%">
-
-        Gets a collection of UI Automation providers 
+Gets a collection of UI Automation providers 
         that represents all the column headers in a table.        
         
 
@@ -91,8 +90,7 @@ The <b>ITableProvider</b> interface has these methods.
 <a href="https://msdn.microsoft.com/586870cc-509f-4d5b-a3f6-0f85c86895cb">GetRowHeaders</a>
 </td>
 <td align="left" width="63%">
-
-        Gets a collection of UI Automation providers 
+Gets a collection of UI Automation providers 
         that represents all the row headers in a table.        
         
 
@@ -129,14 +127,12 @@ Specifies the primary direction of traversal for the table.
 
 
 
-
-            This control pattern is analogous to <a href="https://msdn.microsoft.com/37e2cc95-d765-4c2c-ae8a-5a072a43ad5a">IGridProvider</a> with 
+This control pattern is analogous to <a href="https://msdn.microsoft.com/37e2cc95-d765-4c2c-ae8a-5a072a43ad5a">IGridProvider</a> with 
             the distinction that any control that implements <b>ITableProvider</b> must 
             also expose a column and/or row header relationship for each child element.
             
 
-
-            Controls that implement <b>ITableProvider</b> are also required to 
+Controls that implement <b>ITableProvider</b> are also required to 
             implement <a href="https://msdn.microsoft.com/37e2cc95-d765-4c2c-ae8a-5a072a43ad5a">IGridProvider</a> so as to expose the inherent grid functionality 
             of a table control.
             

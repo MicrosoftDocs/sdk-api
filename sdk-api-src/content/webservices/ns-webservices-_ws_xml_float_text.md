@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_float_text.htm
 old-project: wsw
 ms.assetid: f6d0401a-fc5f-4be8-96ce-211f6a29c560
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_FLOAT_TEXT, WS_XML_FLOAT_TEXT structure [Web Services for Windows], _WS_XML_FLOAT_TEXT, webservices/WS_XML_FLOAT_TEXT, wsw.ws_xml_float_text
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Represents a 4 byte floating point value.  (e.g. The value 0.0 represents the text "0")
+Represents a 4 byte floating point value.  (e.g. The value 0.0 represents the text "0")
       
 
 
@@ -63,8 +62,7 @@ req.product: Windows Address Book 5.0
 
 ### -field text
 
-
-          The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
+The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
         
 
 
@@ -77,28 +75,22 @@ The value.
 
 
 
-
-        The textual representation of the value has enough digits to preserve the floating point value.
+The textual representation of the value has enough digits to preserve the floating point value.
       
 
-
-        Negative zero is represented by the text "-0".
+Negative zero is represented by the text "-0".
       
 
-
-        Positive infinity is represented by the text "INF";
+Positive infinity is represented by the text "INF";
       
 
-
-        Negative infinity is represented by the text "-INF";
+Negative infinity is represented by the text "-INF";
       
 
-
-        Unrepresentable values are represented by the text "NaN".
+Unrepresentable values are represented by the text "NaN".
       
 
-
-        For more information on this representation, refer to IEEE Standard for Binary Floating-Point Arithmetic, available on the Web site http://www.ieee.org/.
+For more information on this representation, refer to IEEE Standard for Binary Floating-Point Arithmetic, available on the Web site http://www.ieee.org/.
       
 
 

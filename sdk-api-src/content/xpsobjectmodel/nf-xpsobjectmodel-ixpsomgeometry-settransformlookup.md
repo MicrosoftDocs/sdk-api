@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometry_settransformlookup.htm
 old-project: printdocs
 ms.assetid: 98623f23-eb34-4140-8179-46786ab18fb0
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMGeometry interface [XPS Documents and Packaging],SetTransformLookup method, IXpsOMGeometry.SetTransformLookup, IXpsOMGeometry::SetTransformLookup, SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging],IXpsOMGeometry interface, xps.ixpsomgeometry_settransformlookup, xpsobjectmodel/IXpsOMGeometry::SetTransformLookup
 ms.prod: windows
 ms.technology: windows-sdk

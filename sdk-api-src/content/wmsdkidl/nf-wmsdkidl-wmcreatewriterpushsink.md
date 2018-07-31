@@ -7,7 +7,7 @@ old-location: wmformat\wmcreatewriterpushsink.htm
 old-project: wmformat
 ms.assetid: 544aa6d4-a8fe-4ce5-b329-01b031aa3e6f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: WMCreateWriterPushSink, WMCreateWriterPushSink function [windows Media Format], wmformat.wmcreatewriterpushsink, wmsdkidl/WMCreateWriterPushSink
 ms.prod: windows
 ms.technology: windows-sdk

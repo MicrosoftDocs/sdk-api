@@ -4,10 +4,10 @@ title: sockaddr_gen
 author: windows-sdk-content
 description: Provides generic socket address information, and is used with the INTERFACE_INFO structure.
 old-location: winsock\sockaddr_gen.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 60b11476-07ca-476e-a2f0-669631835128
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: sockaddr_gen, sockaddr_gen union [Winsock], winsock.sockaddr_gen, ws2ipdef/sockaddr_gen, ws2tcpip/sockaddr_gen
 ms.prod: windows
 ms.technology: windows-sdk

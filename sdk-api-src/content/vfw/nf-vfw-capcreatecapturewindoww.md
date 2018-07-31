@@ -7,7 +7,7 @@ old-location: multimedia\capcreatecapturewindow.htm
 old-project: Multimedia
 ms.assetid: b08785f8-9850-4d3b-acbf-b065f45910e1
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: "_win32_capCreateCaptureWindow, capCreateCaptureWindow, capCreateCaptureWindow function [Windows Multimedia], capCreateCaptureWindowA, capCreateCaptureWindowW, multimedia.capcreatecapturewindow, vfw/capCreateCaptureWindow, vfw/capCreateCaptureWindowA, vfw/capCreateCaptureWindowW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,43 +66,37 @@ The <b>capCreateCaptureWindow</b> function creates a capture window.
 
 ### -param lpszWindowName
 
-
-            Null-terminated string containing the name used for the capture window.
+Null-terminated string containing the name used for the capture window.
           
 
 
 ### -param dwStyle
 
-
-            Window styles used for the capture window. Window styles are described with the <a href="https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function.
+Window styles used for the capture window. Window styles are described with the <a href="winui._win32_CreateWindowEx">CreateWindowEx</a> function.
           
 
 
 ### -param x
 
-
-            The x-coordinate of the upper left corner of the capture window.
+The x-coordinate of the upper left corner of the capture window.
           
 
 
 ### -param y
 
-
-            The y-coordinate of the upper left corner of the capture window.
+The y-coordinate of the upper left corner of the capture window.
           
 
 
 ### -param nWidth
 
-
-            Width of the capture window.
+Width of the capture window.
           
 
 
 ### -param nHeight
 
-
-            Height of the capture window.
+Height of the capture window.
           
 
 
@@ -113,15 +107,13 @@ TBD
 
 ### -param nID
 
-
-            Window identifier.
+Window identifier.
           
 
 
 #### - hWnd
 
-
-            Handle to the parent window.
+Handle to the parent window.
           
 
 
@@ -129,8 +121,7 @@ TBD
 
 
 
-
-            Returns a handle of the capture window if successful or <b>NULL</b> otherwise.
+Returns a handle of the capture window if successful or <b>NULL</b> otherwise.
           
 
 

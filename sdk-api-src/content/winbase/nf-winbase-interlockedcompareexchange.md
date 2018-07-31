@@ -4,10 +4,10 @@ title: InterlockedCompareExchange function
 author: windows-sdk-content
 description: Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified 32-bit values and exchanges with another 32-bit value based on the outcome of the comparison.
 old-location: base\interlockedcompareexchange.htm
-old-project: sync
+old-project: Sync
 ms.assetid: c0da780c-5fd0-4c88-a283-8d057db812ac
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/29/2018
 ms.keywords: InterlockedCompareExchange, InterlockedCompareExchange function, _win32_interlockedcompareexchange, base.interlockedcompareexchange, winbase/InterlockedCompareExchange
 ms.prod: windows
 ms.technology: windows-sdk

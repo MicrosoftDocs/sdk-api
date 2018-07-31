@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRangeValueProvider_LargeChange.htm
 old-project: WinAuto
 ms.assetid: 5f6d5a05-f91d-48ee-8782-f39661051584
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],LargeChange property, IRangeValueProvider.LargeChange, IRangeValueProvider.get_LargeChange, IRangeValueProvider::LargeChange, IRangeValueProvider::get_LargeChange, LargeChange property [Windows Accessibility], LargeChange property [Windows Accessibility],IRangeValueProvider interface, get_LargeChange, uiauto.uiauto_IRangeValueProvider_LargeChange, uiauto_IRangeValueProvider_LargeChange, uiautomationcore/IRangeValueProvider::LargeChange, uiautomationcore/IRangeValueProvider::get_LargeChange, winauto.uiauto_IRangeValueProvider_LargeChange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        Specifies the value that is added to or subtracted from the <a href="https://msdn.microsoft.com/b17ca8c8-948b-4d92-a6c7-79e610aa8e4a">IRangeValueProvider::Value</a> 
+Specifies the value that is added to or subtracted from the <a href="https://msdn.microsoft.com/b17ca8c8-948b-4d92-a6c7-79e610aa8e4a">IRangeValueProvider::Value</a> 
         property when a large change is made, such as when the PAGE DOWN key is pressed.
         
 

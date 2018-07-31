@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard_abandon.htm
 old-project: UIAnimation
 ms.assetid: 2350dbd0-3a67-4832-94dd-56adce80a387
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: Abandon, Abandon method [Windows Animation], Abandon method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],Abandon method, IUIAnimationStoryboard.Abandon, IUIAnimationStoryboard::Abandon, uianimation.iuianimationstoryboard_abandon, uianimation/IUIAnimationStoryboard::Abandon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 
-
-         This method can be called before or after the storyboard starts playing.
+This method can be called before or after the storyboard starts playing.
 
 This method does not trigger any storyboard events.
 
@@ -87,8 +86,7 @@ This method does not trigger any storyboard events.
 
 
 
-<a href="https://msdn.microsoft.com/cecb0026-ed6f-48b8-9381-d020a36e7e87">
-      IUIAnimationManager::AbandonAllStoryboards</a>
+<a href="https://msdn.microsoft.com/cecb0026-ed6f-48b8-9381-d020a36e7e87">IUIAnimationManager::AbandonAllStoryboards</a>
 
 
 
@@ -96,8 +94,7 @@ This method does not trigger any storyboard events.
 
 
 
-<a href="https://msdn.microsoft.com/82f915df-c031-41e9-8347-044b37793182">
-      IUIAnimationStoryboard::Conclude</a>
+<a href="https://msdn.microsoft.com/82f915df-c031-41e9-8347-044b37793182">IUIAnimationStoryboard::Conclude</a>
 
 
 
@@ -105,8 +102,7 @@ This method does not trigger any storyboard events.
 
 
 
-<a href="https://msdn.microsoft.com/b47d4ffd-ae51-40e7-8f91-9d7b7b2901c8">
-      IUIAnimationStoryboard::Schedule</a>
+<a href="https://msdn.microsoft.com/b47d4ffd-ae51-40e7-8f91-9d7b7b2901c8">IUIAnimationStoryboard::Schedule</a>
  
 
  

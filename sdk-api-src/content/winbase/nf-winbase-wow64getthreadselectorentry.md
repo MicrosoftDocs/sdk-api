@@ -4,10 +4,10 @@ title: Wow64GetThreadSelectorEntry function
 author: windows-sdk-content
 description: Retrieves a descriptor table entry for the specified selector and WOW64 thread.
 old-location: base\wow64getthreadselectorentry.htm
-old-project: debug
+old-project: Debug
 ms.assetid: 68393913-6725-4cc6-90b9-57da2a96c91e
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/29/2018
 ms.keywords: Wow64GetThreadSelectorEntry, Wow64GetThreadSelectorEntry function, base.wow64getthreadselectorentry, winbase/Wow64GetThreadSelectorEntry
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,8 +94,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-
-				The <b>Wow64GetThreadSelectorEntry</b> function is functional only on 64-bit systems and can be called only by 64-bit processes. If this function is called by a 32-bit process, the function fails with ERROR_NOT_SUPPORTED. A 32-bit process should use the <a href="https://msdn.microsoft.com/9bf6f7b1-7a30-4398-a12a-b1de986f860d">GetThreadSelectorEntry</a> function instead. 
+The <b>Wow64GetThreadSelectorEntry</b> function is functional only on 64-bit systems and can be called only by 64-bit processes. If this function is called by a 32-bit process, the function fails with ERROR_NOT_SUPPORTED. A 32-bit process should use the <a href="https://msdn.microsoft.com/9bf6f7b1-7a30-4398-a12a-b1de986f860d">GetThreadSelectorEntry</a> function instead. 
 
 Debuggers use this function to convert segment-relative addresses to linear virtual addresses. The 
 <a href="https://msdn.microsoft.com/8774e145-ee7f-44de-85db-0445b905f986">ReadProcessMemory</a> and 

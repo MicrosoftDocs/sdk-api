@@ -7,7 +7,7 @@ old-location: dataxchg\closeclipboard.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\closeclipboard.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/29/2018
 ms.keywords: CloseClipboard, CloseClipboard function [Data Exchange], _win32_CloseClipboard, _win32_closeclipboard_cpp, dataxchg.closeclipboard, winui._win32_closeclipboard, winuser/CloseClipboard
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ Do not place an object on the clipboard after calling <b>CloseClipboard</b>.
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms649016(v=VS.85).aspx">Example of a Clipboard Viewer</a>.
+For an example, see <a href="using_the_clipboard.htm">Example of a Clipboard Viewer</a>.
 
 <div class="code"></div>
 
@@ -106,7 +106,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms649016(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://msdn.microsoft.com/61a9bff7-3c46-4e42-81f7-e020ff0b667f">Clipboard</a>
 
 
 
@@ -114,11 +114,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms649016(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649044(v=VS.85).aspx">GetOpenClipboardWindow</a>
+<a href="https://msdn.microsoft.com/d90f8734-a23e-4092-a387-ac2f31443395">GetOpenClipboardWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649048(v=VS.85).aspx">OpenClipboard</a>
+<a href="https://msdn.microsoft.com/494e4e6f-6d82-45cc-8c0b-f8c54056bc5f">OpenClipboard</a>
 
 
 

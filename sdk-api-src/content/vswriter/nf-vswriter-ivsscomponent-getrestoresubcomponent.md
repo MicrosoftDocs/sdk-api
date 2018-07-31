@@ -4,10 +4,10 @@ title: IVssComponent::GetRestoreSubcomponent
 author: windows-sdk-content
 description: The GetRestoreSubcomponent method returns the specified subcomponent associated with a given component.
 old-location: base\ivsscomponent_getrestoresubcomponent.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 23c37342-fcbd-4401-83d5-a52d4a69b908
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetRestoreSubcomponent, GetRestoreSubcomponent method [VSS], GetRestoreSubcomponent method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetRestoreSubcomponent method, IVssComponent.GetRestoreSubcomponent, IVssComponent::GetRestoreSubcomponent, _win32_ivsscomponent_getrestoresubcomponent, base.ivsscomponent_getrestoresubcomponent, vswriter/IVssComponent::GetRestoreSubcomponent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -162,7 +162,7 @@ The specified item was not found.
 
 
 
-The caller should free the memory held by the <i>pbstrLogicalPath</i> and <i>pbstrComponentName</i> parameters by calling <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller should free the memory held by the <i>pbstrLogicalPath</i> and <i>pbstrComponentName</i> parameters by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 
 

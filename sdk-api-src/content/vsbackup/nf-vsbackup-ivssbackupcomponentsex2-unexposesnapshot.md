@@ -4,10 +4,10 @@ title: IVssBackupComponentsEx2::UnexposeSnapshot
 author: windows-sdk-content
 description: Unexposes a shadow copy either by deleting the file share or by removing the drive letter or mounted folder.
 old-location: base\ivssbackupcomponentsex2_unexposesnapshot.htm
-old-project: vss
+old-project: VSS
 ms.assetid: b6946b65-b142-41b9-88c0-a1b11caba08e
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: IVssBackupComponentsEx2 interface,UnexposeSnapshot method, IVssBackupComponentsEx2.UnexposeSnapshot, IVssBackupComponentsEx2::UnexposeSnapshot, UnexposeSnapshot, UnexposeSnapshot method, UnexposeSnapshot method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_unexposesnapshot, vsbackup/IVssBackupComponentsEx2::UnexposeSnapshot
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,8 +127,7 @@ The caller is out of memory or other system resources.
 </dl>
 </td>
 <td width="60%">
-
-        The backup components object is not initialized, this method has been called during a restore operation, or 
+The backup components object is not initialized, this method has been called during a restore operation, or 
         this method has not been called within the correct sequence.
        
 
@@ -165,8 +164,7 @@ An
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
@@ -180,8 +178,7 @@ An
 </dl>
 </td>
 <td width="60%">
-
-        An unexpected provider error has occurred. The error code is logged in the error log. For more information, see 
+An unexpected provider error has occurred. The error code is logged in the error log. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 </td>

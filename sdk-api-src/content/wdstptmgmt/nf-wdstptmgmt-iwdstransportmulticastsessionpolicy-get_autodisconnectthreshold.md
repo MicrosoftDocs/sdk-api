@@ -4,10 +4,10 @@ title: IWdsTransportMulticastSessionPolicy::get_AutoDisconnectThreshold
 author: windows-sdk-content
 description: Sets or retrieves the threshold transmission rate, in kilobytes per second, used by the server.
 old-location: wds\iwdstransportmulticastsessionpolicy_autodisconnectthreshold.htm
-old-project: wds
+old-project: Wds
 ms.assetid: 90f27b8a-97e3-4453-8348-67754c6ab1b9
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: AutoDisconnectThreshold property [Windows Deployment Services], AutoDisconnectThreshold property [Windows Deployment Services],IWdsTransportMulticastSessionPolicy interface, IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services],AutoDisconnectThreshold property, IWdsTransportMulticastSessionPolicy.AutoDisconnectThreshold, IWdsTransportMulticastSessionPolicy.get_AutoDisconnectThreshold, IWdsTransportMulticastSessionPolicy::AutoDisconnectThreshold, IWdsTransportMulticastSessionPolicy::get_AutoDisconnectThreshold, IWdsTransportMulticastSessionPolicy::put_AutoDisconnectThreshold, get_AutoDisconnectThreshold, wds.iwdstransportmulticastsessionpolicy_autodisconnectthreshold, wdstptmgmt/IWdsTransportMulticastSessionPolicy::AutoDisconnectThreshold, wdstptmgmt/IWdsTransportMulticastSessionPolicy::get_AutoDisconnectThreshold, wdstptmgmt/IWdsTransportMulticastSessionPolicy::put_AutoDisconnectThreshold
 ms.prod: windows
 ms.technology: windows-sdk

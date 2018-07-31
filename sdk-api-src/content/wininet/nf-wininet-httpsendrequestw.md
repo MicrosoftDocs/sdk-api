@@ -4,10 +4,10 @@ title: HttpSendRequestW function
 author: windows-sdk-content
 description: Sends the specified request to the HTTP server, allowing callers to send extra data beyond what is normally passed to HttpSendRequestEx.
 old-location: wininet\httpsendrequest.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: f53d9ff7-43b1-452f-a6cb-754d0229ab9a
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: HttpSendRequest, HttpSendRequest function [WinINet], HttpSendRequestA, HttpSendRequestW, _inet_httpsendrequest_function, wininet.httpsendrequest, wininet/HttpSendRequest, wininet/HttpSendRequestA, wininet/HttpSendRequestW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,7 @@ Sends the specified request to the HTTP server, allowing callers to send extra d
 
 ### -param hRequest [in]
 
-
-						A handle returned by 
+A handle returned by 
 a call to the <a href="https://msdn.microsoft.com/caaff8e8-7db9-4d6d-8ba2-d8d19475173a">HttpOpenRequest</a> function.
 
 
@@ -118,8 +117,7 @@ In offline mode,
 <b>HttpSendRequest</b> returns <b>ERROR_FILE_NOT_FOUND</b> if the resource is not found in the Internet cache.
 
 There two versions of 
-<b>HttpSendRequest</b>
-				 —<b>HttpSendRequestA</b> (used with ANSI builds) and <b>HttpSendRequestW</b> (used with Unicode builds).  If 
+<b>HttpSendRequest</b>—<b>HttpSendRequestA</b> (used with ANSI builds) and <b>HttpSendRequestW</b> (used with Unicode builds).  If 
 <b>dwHeadersLength</b> is -1L and 
 <i>lpszHeaders</i> is not <b>NULL</b>, the following will happen:  If <b>HttpSendRequestA</b> is called, the function assumes that 
 <i>lpszHeaders</i> is zero-terminated (ASCIIZ), and the length is calculated.  If <b>HttpSendRequestW</b> is called, the function fails with <b>ERROR_INVALID_PARAMETER</b>.

@@ -7,7 +7,7 @@ old-location: shell\IEnumSyncMgrConflict_Next.htm
 old-project: shell
 ms.assetid: 486fba93-cdd1-49fd-96a8-cf56d1775a7c
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: IEnumSyncMgrConflict interface [Windows Shell],Next method, IEnumSyncMgrConflict.Next, IEnumSyncMgrConflict::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumSyncMgrConflict interface, _shell_IEnumSyncMgrConflict_Next, shell.IEnumSyncMgrConflict_Next, syncmgr/IEnumSyncMgrConflict::Next
 ms.prod: windows
 ms.technology: windows-sdk

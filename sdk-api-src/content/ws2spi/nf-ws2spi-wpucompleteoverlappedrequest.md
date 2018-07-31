@@ -4,10 +4,10 @@ title: WPUCompleteOverlappedRequest function
 author: windows-sdk-content
 description: The WPUCompleteOverlappedRequest function performs overlapped I/O completion notification for overlapped I/O operations.
 old-location: winsock\wpucompleteoverlappedrequest_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: b0e5015f-d23f-46da-91b1-f646111f70f9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: WPUCompleteOverlappedRequest, WPUCompleteOverlappedRequest function [Winsock], _win32_wpucompleteoverlappedrequest_2, winsock.wpucompleteoverlappedrequest_2, ws2spi/WPUCompleteOverlappedRequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>WPUCompleteOverlappedRequest</b> function performs overlapped I/O completion notification for overlapped I/O operations.
 		
 
@@ -93,8 +92,7 @@ A pointer to the error code resulting from execution of this function.
 
 
 
-
-						If no error occurs, 
+If no error occurs, 
 <b>WPUCompleteOverlappedRequest</b> returns zero and notifies completion of the overlapped I/O operation according to the mechanism selected by the client (signals an event found in the 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565952">WSAOVERLAPPED</a> structure referenced by <i>lpOverlapped</i> and/or queues a completion status report to the completion port associated with the socket if a completion port is associated). Otherwise, 
 <b>WPUCompleteOverlappedRequest</b> returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
@@ -109,7 +107,7 @@ A pointer to the error code resulting from execution of this function.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">

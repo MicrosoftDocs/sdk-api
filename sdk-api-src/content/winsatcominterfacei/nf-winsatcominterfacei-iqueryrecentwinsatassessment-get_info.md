@@ -7,7 +7,7 @@ old-location: winsat\iqueryrecentwinsatassessment_info.htm
 old-project: WinSAT
 ms.assetid: 11697416-aa4d-4724-bd63-8d123e2b32cb
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: IQueryRecentWinSATAssessment interface [WinSAT],Info property, IQueryRecentWinSATAssessment.Info, IQueryRecentWinSATAssessment.get_Info, IQueryRecentWinSATAssessment::Info, IQueryRecentWinSATAssessment::get_Info, Info property [WinSAT], Info property [WinSAT],IQueryRecentWinSATAssessment interface, get_Info, winsat.iqueryrecentwinsatassessment_info, winsatcominterfacei/IQueryRecentWinSATAssessment::Info, winsatcominterfacei/IQueryRecentWinSATAssessment::get_Info
 ms.prod: windows
 ms.technology: windows-sdk

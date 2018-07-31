@@ -4,10 +4,10 @@ title: WSManPluginReceiveResult function
 author: windows-sdk-content
 description: Reports results for the WSMAN_PLUGIN_RECEIVE plug-in call and is used by most shell plug-ins that return results.
 old-location: winrm\wsmanpluginreceiveresult.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 717c1e37-83e1-4caf-8b52-175999597fc0
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: WSMAN_RECEIVE_STATE_ABNORMAL_TERMINATION, WSMAN_RECEIVE_STATE_INPUT_REQUIRED, WSMAN_RECEIVE_STATE_NONE, WSMAN_RECEIVE_STATE_NORMAL_TERMINATION, WSMAN_RECEIVE_STATE_WAITING, WSManPluginReceiveResult, WSManPluginReceiveResult function [Windows Remote Management], winrm.wsmanpluginreceiveresult, wsman/WSManPluginReceiveResult
 ms.prod: windows
 ms.technology: windows-sdk

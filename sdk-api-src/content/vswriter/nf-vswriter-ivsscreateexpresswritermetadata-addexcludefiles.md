@@ -4,10 +4,10 @@ title: IVssCreateExpressWriterMetadata::AddExcludeFiles
 author: windows-sdk-content
 description: Excludes a file set (a specified file or files) that might otherwise be implicitly included when a component of an express writer is backed up.
 old-location: base\ivsscreateexpresswritermetadata_addexcludefiles.htm
-old-project: vss
+old-project: VSS
 ms.assetid: a8d0d6bc-456a-405e-abd9-5ab4b2a59e63
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: AddExcludeFiles, AddExcludeFiles method, AddExcludeFiles method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddExcludeFiles method, IVssCreateExpressWriterMetadata.AddExcludeFiles, IVssCreateExpressWriterMetadata::AddExcludeFiles, base.ivsscreateexpresswritermetadata_addexcludefiles, vswriter/IVssCreateExpressWriterMetadata::AddExcludeFiles
 ms.prod: windows
 ms.technology: windows-sdk
@@ -156,8 +156,7 @@ The XML document is not valid. Check the event log for details. For more informa
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
@@ -179,7 +178,7 @@ Express writers support only local resources—sets of files whose absolute path
 <b>AddExcludeFiles</b> to explicitly remove some files (for instance, temporary files) from a backup.
 
 For more information on excluding files, see 
-<a href="https://msdn.microsoft.com/library/Aa384996(v=VS.85).aspx">Exclude File List Specification</a>.
+<a href="writer_metadata_document_contents.htm">Exclude File List Specification</a>.
 
 
 

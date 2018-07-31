@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_playtitle.htm
 old-project: DirectShow
 ms.assetid: 5cdea69e-7d32-470e-846b-1b2be5ca87b1
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayTitle method, IDvdControl2.PlayTitle, IDvdControl2::PlayTitle, IDvdControl2PlayTitle, PlayTitle, PlayTitle method [DirectShow], PlayTitle method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playtitle, strmif/IDvdControl2::PlayTitle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -141,11 +141,9 @@ The following table shows the Annex J command name to which this method name cor
 
 <table>
 <tr>
-<td>
-              Annex J Command Name
+<td>Annex J Command Name
             </td>
-<td>
-              Valid Domains
+<td>Valid Domains
             </td>
 </tr>
 <tr>

@@ -4,10 +4,10 @@ title: IVssFileShareSnapshotProvider::GetSnapshotProperties
 author: windows-sdk-content
 description: Gets the VSS_SNAPSHOT_PROP structure for a file share snapshot.
 old-location: base\ivssfilesharesnapshotprovider_getsnapshotproperties.htm
-old-project: vss
+old-project: VSS
 ms.assetid: db133f55-ed26-4e10-8de1-305bb52de84c
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetSnapshotProperties, GetSnapshotProperties method [VSS], GetSnapshotProperties method [VSS],IVssFileShareSnapshotProvider interface, IVssFileShareSnapshotProvider interface [VSS],GetSnapshotProperties method, IVssFileShareSnapshotProvider.GetSnapshotProperties, IVssFileShareSnapshotProvider::GetSnapshotProperties, base.ivssfilesharesnapshotprovider_getsnapshotproperties, vsprov/IVssFileShareSnapshotProvider::GetSnapshotProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -146,8 +146,7 @@ The specified volume was not found.
 </dl>
 </td>
 <td width="60%">
-
-        Provider error. The provider logged the error in the event log. For more information, see 
+Provider error. The provider logged the error in the event log. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 </td>
@@ -159,8 +158,7 @@ The specified volume was not found.
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 </td>

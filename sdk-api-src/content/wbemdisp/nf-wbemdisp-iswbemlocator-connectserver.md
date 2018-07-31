@@ -7,7 +7,7 @@ old-location: wmi\swbemlocator_connectserver.htm
 old-project: WmiSdk
 ms.assetid: 31364c68-b031-4cf0-851f-b4e302f077e0
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ConnectServer, ConnectServer method [Windows Management Instrumentation], ConnectServer method [Windows Management Instrumentation],ISWbemLocator interface, ConnectServer method [Windows Management Instrumentation],SWbemLocator object, ISWbemLocator interface [Windows Management Instrumentation],ConnectServer method, ISWbemLocator.ConnectServer, ISWbemLocator::ConnectServer, SWbemLocator object [Windows Management Instrumentation],ConnectServer method, SWbemLocator.ConnectServer, _hmm_swbemlocator.connectserver, wbemConnectFlagUseMaxWait, wmi.swbemlocator_connectserver
 ms.prod: windows
 ms.technology: windows-sdk

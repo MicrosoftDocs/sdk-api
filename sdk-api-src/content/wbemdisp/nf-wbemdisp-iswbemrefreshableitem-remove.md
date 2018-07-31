@@ -7,7 +7,7 @@ old-location: wmi\swbemrefreshableitem_remove.htm
 old-project: WmiSdk
 ms.assetid: 8d3f5e22-c343-4191-a20a-6bca2ec9b01a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemRefreshableItem interface [Windows Management Instrumentation],Remove method, ISWbemRefreshableItem.Remove, ISWbemRefreshableItem::Remove, Remove, Remove method [Windows Management Instrumentation], Remove method [Windows Management Instrumentation],ISWbemRefreshableItem interface, Remove method [Windows Management Instrumentation],SWbemRefreshableItem object, SWbemRefreshableItem object [Windows Management Instrumentation],Remove method, SWbemRefreshableItem.Remove, _hmm_swbemrefreshableitem.remove, wmi.swbemrefreshableitem_remove
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_SECURITY_FUNCTION_TABLE_A"
 author: windows-sdk-content
 description: The SecurityFunctionTable structure is a dispatch table that contains pointers to the functions defined in SSPI.
 old-location: security\securityfunctiontable.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 6315e8d6-b40a-4dd6-b6a6-598a965f93dc
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PSecurityFunctionTableA, PSecurityFunctionTable, PSecurityFunctionTable structure pointer [Security], SECURITY_SUPPORT_PROVIDER_INTERFACE_VERSION, SECURITY_SUPPORT_PROVIDER_INTERFACE_VERSION structure [Security], SecurityFunctionTable, SecurityFunctionTable structure [Security], SecurityFunctionTableA, SecurityFunctionTableW, _SECURITY_FUNCTION_TABLE_A, _ssp_securityfunctiontable, security.securityfunctiontable, sspi/PSecurityFunctionTable, sspi/SECURITY_SUPPORT_PROVIDER_INTERFACE_VERSION, sspi/SecurityFunctionTable, sspi/SecurityFunctionTableA, sspi/SecurityFunctionTableW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # _SECURITY_FUNCTION_TABLE_A structure
@@ -53,8 +52,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-			The <b>SecurityFunctionTable</b> structure is a dispatch table that contains pointers to the functions defined in SSPI.
+The <b>SecurityFunctionTable</b> structure is a dispatch table that contains pointers to the functions defined in SSPI.
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: wmi\swbemdatetime_minutes.htm
 old-project: WmiSdk
 ms.assetid: a52a66c2-f7ab-48d0-bdee-a07984ed3bc2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemDateTime interface [Windows Management Instrumentation],Minutes property, ISWbemDateTime.get_Minutes, ISWbemDateTime.put_Minutes, ISWbemDateTime::get_Minutes, Minutes property [Windows Management Instrumentation], Minutes property [Windows Management Instrumentation],ISWbemDateTime interface, Minutes property [Windows Management Instrumentation],SWbemDateTime object, SWbemDateTime object [Windows Management Instrumentation],Minutes property, SWbemDateTime.Minutes, _hmm_swbemdatetime.minutes, get_Minutes, wmi.swbemdatetime_minutes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,8 +79,7 @@ If the <b>SWbemDateTime.Minutes</b> property is set to 1, then the
 
 #### Examples
 
-For examples of using the <a href="https://msdn.microsoft.com/3dd34c73-3c2b-4d59-827b-169cf8020213">SWbemDateTime</a>
-  object to  convert CIM <a href="https://msdn.microsoft.com/2c18ef4d-4eb6-4c73-ad2e-31995b79e99d">DATETIME</a> values to and from either the <b>FILETIME</b> format or the <b>VT_DATE</b> format, see <a href="https://msdn.microsoft.com/dd01a732-5c88-4c24-a551-4d5452e712cc">WMI Tasks: Dates and Times</a>. For a description of the CIM <b>DATETIME</b> format, see <a href="https://msdn.microsoft.com/be239bf8-88a3-47bc-ae4f-49a5195e7a7d">Date and Time Format</a>.
+For examples of using the <a href="https://msdn.microsoft.com/3dd34c73-3c2b-4d59-827b-169cf8020213">SWbemDateTime</a>object to  convert CIM <a href="https://msdn.microsoft.com/2c18ef4d-4eb6-4c73-ad2e-31995b79e99d">DATETIME</a> values to and from either the <b>FILETIME</b> format or the <b>VT_DATE</b> format, see <a href="https://msdn.microsoft.com/dd01a732-5c88-4c24-a551-4d5452e712cc">WMI Tasks: Dates and Times</a>. For a description of the CIM <b>DATETIME</b> format, see <a href="https://msdn.microsoft.com/be239bf8-88a3-47bc-ae4f-49a5195e7a7d">Date and Time Format</a>.
 
 <div class="code"></div>
 

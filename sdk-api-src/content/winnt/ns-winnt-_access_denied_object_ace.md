@@ -4,10 +4,10 @@ title: "_ACCESS_DENIED_OBJECT_ACE"
 author: windows-sdk-content
 description: Defines an access control entry (ACE) that controls denied access to an object, a property set, or property.
 old-location: security\access_denied_object_ace.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 80e00c2b-7c31-428d-96c1-c4e3d22619f3
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: "*PACCESS_DENIED_OBJECT_ACE, 0, ACCESS_DENIED_OBJECT_ACE, ACCESS_DENIED_OBJECT_ACE structure [Security], ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP, ADS_RIGHT_DS_SELF, ADS_RIGHT_DS_WRITE_PROP, PACCESS_DENIED_OBJECT_ACE, PACCESS_DENIED_OBJECT_ACE structure pointer [Security], _ACCESS_DENIED_OBJECT_ACE, _win32_access_denied_object_ace_str, security.access_denied_object_ace, winnt/ACCESS_DENIED_OBJECT_ACE, winnt/PACCESS_DENIED_OBJECT_ACE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The <b>ACCESS_DENIED_OBJECT_ACE</b> structure defines an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE) that controls denied access to an object, a property set, or property. The ACE contains a set of access rights, a <b>GUID</b> that identifies the type of object, and a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) that identifies the <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">trustee</a> to whom the system will deny access. The ACE also contains a <b>GUID</b> and a set of flags that control inheritance of the ACE by child objects.
+The <b>ACCESS_DENIED_OBJECT_ACE</b> structure defines an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE) that controls denied access to an object, a property set, or property. The ACE contains a set of access rights, a <b>GUID</b> that identifies the type of object, and a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) that identifies the <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">trustee</a> to whom the system will deny access. The ACE also contains a <b>GUID</b> and a set of flags that control inheritance of the ACE by child objects.
 
 
 ## -struct-fields

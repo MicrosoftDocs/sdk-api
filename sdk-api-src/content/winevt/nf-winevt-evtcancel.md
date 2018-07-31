@@ -7,7 +7,7 @@ old-location: wes\evtcancel.htm
 old-project: WES
 ms.assetid: c8770139-93de-4da2-b797-f82775f4c553
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtCancel, EvtCancel function [EventLog], wes.evtcancel, winevt/EvtCancel
 ms.prod: windows
 ms.technology: windows-sdk

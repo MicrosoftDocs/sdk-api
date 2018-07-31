@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_getparameterrange.htm
 old-project: DirectShow
 ms.assetid: 35bf758f-0ce3-4b3a-aae5-9d4326089743
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetParameterRange, GetParameterRange method [DirectShow], GetParameterRange method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetParameterRange method, ICodecAPI.GetParameterRange, ICodecAPI::GetParameterRange, ICodecAPIGetParameterRange, dshow.icodecapi_getparameterrange, strmif/ICodecAPI::GetParameterRange
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,12 +52,10 @@ req.product: Windows XP with SP1
 ## -description
 
 
-
-        The <b>GetParameterRange</b> method gets the range of values for a codec property. 
+The <b>GetParameterRange</b> method gets the range of values for a codec property. 
       
 
-
-    This method applies only to properties whose values form a linear range.
+This method applies only to properties whose values form a linear range.
 
 
 ## -parameters
@@ -67,29 +65,25 @@ req.product: Windows XP with SP1
 
 ### -param Api [in]
 
-
-            Pointer to a GUID that specifies the property to query. For a list of standard codec properties, see <a href="https://msdn.microsoft.com/5d527af7-07cf-42e2-99bb-d56c856cc1bc">Codec API Properties</a>.
+Pointer to a GUID that specifies the property to query. For a list of standard codec properties, see <a href="https://msdn.microsoft.com/5d527af7-07cf-42e2-99bb-d56c856cc1bc">Codec API Properties</a>.
           
 
 
 ### -param ValueMin [out]
 
-
-            Pointer to a <b>VARIANT</b>  that receives the minimum value of the property. The caller must free the <b>VARIANT</b> by calling <b>VariantClear</b>.
+Pointer to a <b>VARIANT</b>  that receives the minimum value of the property. The caller must free the <b>VARIANT</b> by calling <b>VariantClear</b>.
           
 
 
 ### -param ValueMax [out]
 
-
-            Pointer to a <b>VARIANT</b>  that receives the maximum value of the property. The caller must free the <b>VARIANT</b> by calling <b>VariantClear</b>.
+Pointer to a <b>VARIANT</b>  that receives the maximum value of the property. The caller must free the <b>VARIANT</b> by calling <b>VariantClear</b>.
           
 
 
 ### -param SteppingDelta [out]
 
-
-            Pointer to a <b>VARIANT</b>  that receives the stepping delta, which defines the valid increments from <i>ValueMin</i> to <i>ValueMax</i>. The caller must free the <b>VARIANT</b> by calling <b>VariantClear</b>.
+Pointer to a <b>VARIANT</b>  that receives the stepping delta, which defines the valid increments from <i>ValueMin</i> to <i>ValueMax</i>. The caller must free the <b>VARIANT</b> by calling <b>VariantClear</b>.
 
 If the <b>VARIANT</b> type is VT_EMPTY, any increment is valid.
 
@@ -155,8 +149,7 @@ The valid range for the property is [<i>ValueMin</i>... <i>ValueMax</i>], with i
 <li>Signed types: <b>VT_I8</b>, <b>VT_I4</b>, <b>VT_I2</b></li>
 <li>Floating-point types: <b>VT_R8</b>, <b>VT_R4</b></li>
 </ul>
-
-        If the property supports a list of values, instead of a range, the method returns  <b>VFW_E_CODECAPI_ENUMERATED</b>. In that case, call <a href="https://msdn.microsoft.com/7f6c7db8-f71f-4ea7-8584-0df6e28c0fc9">ICodecAPI::GetParameterValues</a> to get the list of values.
+If the property supports a list of values, instead of a range, the method returns  <b>VFW_E_CODECAPI_ENUMERATED</b>. In that case, call <a href="https://msdn.microsoft.com/7f6c7db8-f71f-4ea7-8584-0df6e28c0fc9">ICodecAPI::GetParameterValues</a> to get the list of values.
       
 
 

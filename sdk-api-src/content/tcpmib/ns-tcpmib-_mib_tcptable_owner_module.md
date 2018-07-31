@@ -4,10 +4,10 @@ title: "_MIB_TCPTABLE_OWNER_MODULE"
 author: windows-sdk-content
 description: Contains a table of process IDs (PIDs) and the IPv4 TCP links context bound to the PIDs, and any available ownership data.
 old-location: mib\mib_tcptable_owner_module.htm
-old-project: mib
+old-project: MIB
 ms.assetid: d44c9d82-906b-43ea-8edd-cf973864668d
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/29/2018
 ms.keywords: "*PMIB_TCPTABLE_OWNER_MODULE, MIB_TCPTABLE_OWNER_MODULE, MIB_TCPTABLE_OWNER_MODULE structure [MIB], PMIB_TCPTABLE_OWNER_MODULE, PMIB_TCPTABLE_OWNER_MODULE structure pointer [MIB], _MIB_TCPTABLE_OWNER_MODULE, iprtrmib/MIB_TCPTABLE_OWNER_MODULE, iprtrmib/PMIB_TCPTABLE_OWNER_MODULE, mib.mib_tcptable_owner_module, tcpmib/MIB_TCPTABLE_OWNER_MODULE, tcpmib/PMIB_TCPTABLE_OWNER_MODULE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,8 +80,7 @@ The <b>MIB_TCPTABLE_OWNER_MODULE</b> structure may contain padding for alignment
 
 
 
-On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista
-   and later, the organization of header files has changed. This  structure is defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
+On the Microsoft Windows Software Development Kit (SDK) released for Windows Vistaand later, the organization of header files has changed. This  structure is defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
 
 

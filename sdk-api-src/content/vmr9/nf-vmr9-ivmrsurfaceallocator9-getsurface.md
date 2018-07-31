@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocator9_getsurface.htm
 old-project: DirectShow
 ms.assetid: b14c7744-b5e5-484e-b5f3-99c4185a4e7c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetSurface, GetSurface method [DirectShow], GetSurface method [DirectShow],IVMRSurfaceAllocator9 interface, IVMRSurfaceAllocator9 interface [DirectShow],GetSurface method, IVMRSurfaceAllocator9.GetSurface, IVMRSurfaceAllocator9::GetSurface, IVMRSurfaceAllocator9GetSurface, dshow.ivmrsurfaceallocator9_getsurface, vmr9/IVMRSurfaceAllocator9::GetSurface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,15 +70,13 @@ Application-defined identifier. This value is the same value that the applicatio
 
 ### -param SurfaceIndex [in]
 
-
-            Specifies the index of the surface to retrieve.
+Specifies the index of the surface to retrieve.
           
 
 
 ### -param SurfaceFlags [in]
 
-
-            Reserved.
+Reserved.
           
 
 
@@ -119,8 +117,7 @@ The method succeeded.
 
 
 
-
-        Include DShow.h and D3d9.h before Vmr9.h.
+Include DShow.h and D3d9.h before Vmr9.h.
       
 
 

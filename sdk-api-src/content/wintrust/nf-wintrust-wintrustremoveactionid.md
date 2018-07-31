@@ -4,10 +4,10 @@ title: WintrustRemoveActionID function
 author: windows-sdk-content
 description: Removes an action added by the WintrustAddActionID function. This function has no associated import library.
 old-location: security\wintrustremoveactionid.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: d1c84b69-4886-4cb4-99c5-294bd9d8228b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: HTTPSPROV_ACTION, WINTRUST_ACTION_GENERIC_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WintrustRemoveActionID, WintrustRemoveActionID function [Security], security.wintrustremoveactionid, wintrust/WintrustRemoveActionID
 ms.prod: windows
 ms.technology: windows-sdk

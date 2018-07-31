@@ -7,7 +7,7 @@ old-location: dshow\ivpconfig.htm
 old-project: DirectShow
 ms.assetid: 2c0eb294-7e57-4d8d-98b1-57c3834279a0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IVPConfig, IVPConfig interface [DirectShow], IVPConfig interface [DirectShow],described, IVPConfigInterface, dshow.ivpconfig, vpconfig/IVPConfig
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows UI
 
 
 
-
-          The <b>IVPConfig</b> interface must be implemented by any filter that wraps a hardware decoder with a video port. This enables the <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a>, through its <a href="https://msdn.microsoft.com/6b40ba9e-8562-4d31-beaf-e4d4858bf145">IVPNotify</a> interface, to set and retrieve configuration information on the video port regarding the video memory on the display adapter. This interface derives from <a href="https://msdn.microsoft.com/d9a4f395-3d2f-429a-884d-90131927a929">IVPBaseConfig</a>.
+The <b>IVPConfig</b> interface must be implemented by any filter that wraps a hardware decoder with a video port. This enables the <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a>, through its <a href="https://msdn.microsoft.com/6b40ba9e-8562-4d31-beaf-e4d4858bf145">IVPNotify</a> interface, to set and retrieve configuration information on the video port regarding the video memory on the display adapter. This interface derives from <a href="https://msdn.microsoft.com/d9a4f395-3d2f-429a-884d-90131927a929">IVPBaseConfig</a>.
 
 Applications never use this interface.
 
@@ -101,8 +100,7 @@ Sets the factors by which the decoder should scale the video stream.
 
 
 
-
-        Include Dvp.h and Vptype.h before Vpconfig.h.
+Include Dvp.h and Vptype.h before Vpconfig.h.
       
 
 

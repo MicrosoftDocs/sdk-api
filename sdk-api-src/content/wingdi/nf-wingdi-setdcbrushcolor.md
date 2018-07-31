@@ -7,7 +7,7 @@ old-location: gdi\setdcbrushcolor.htm
 old-project: gdi
 ms.assetid: 4feed536-2f1d-4a25-8311-7cae303167ca
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: SetDCBrushColor, SetDCBrushColor function [Windows GDI], _win32_SetDCBrushColor, gdi.setdcbrushcolor, wingdi/SetDCBrushColor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -129,8 +129,7 @@ For an example of setting colors, see <a href="https://msdn.microsoft.com/d1be1d
 
 
 
-<a href="https://msdn.microsoft.com/98844fb1-7ad8-4fbd-be59-9a19065253da">
-        GetDCBrushColor
+<a href="https://msdn.microsoft.com/98844fb1-7ad8-4fbd-be59-9a19065253da">GetDCBrushColor
       </a>
  
 

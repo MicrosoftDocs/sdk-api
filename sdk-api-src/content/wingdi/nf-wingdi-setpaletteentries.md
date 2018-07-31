@@ -7,7 +7,7 @@ old-location: gdi\setpaletteentries.htm
 old-project: gdi
 ms.assetid: df38f482-75ba-4800-8b26-92204c63255e
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: SetPaletteEntries, SetPaletteEntries function [Windows GDI], _win32_SetPaletteEntries, gdi.setpaletteentries, wingdi/SetPaletteEntries
 ms.prod: windows
 ms.technology: windows-sdk

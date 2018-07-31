@@ -7,7 +7,7 @@ old-location: wsw\wsmarkheaderasunderstood.htm
 old-project: wsw
 ms.assetid: f119f85a-f6a7-4472-8177-a2e23b6d12f9
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsMarkHeaderAsUnderstood, WsMarkHeaderAsUnderstood function [Web Services for Windows], webservices/WsMarkHeaderAsUnderstood, wsw.wsmarkheaderasunderstood
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,14 +51,12 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                This function 
+This function 
                 marks a header as "understood" by the application.
             
                 The set of headers is extensible and Message assimilation by the receiver is not accessible by the sender.  This function is the receiving applications method for making it known to the sender that the received header has been read and understood.
 <div class="alert"><b>Note</b>  This function should be used only if the application receives a message indicating that the  header
-                must be understood and it did not acquire the header using <a href="https://msdn.microsoft.com/ff6e639f-715d-4a4f-b0ef-35202aa54dc5">WsGetHeader</a>
-                or <a href="https://msdn.microsoft.com/bdfb441b-afc4-4be8-b437-f299a31ce84b">WsGetCustomHeader</a>.
+                must be understood and it did not acquire the header using <a href="https://msdn.microsoft.com/ff6e639f-715d-4a4f-b0ef-35202aa54dc5">WsGetHeader</a>or <a href="https://msdn.microsoft.com/bdfb441b-afc4-4be8-b437-f299a31ce84b">WsGetCustomHeader</a>.
             The <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE</a> must be in the set to  <b>WS_MESSAGE_STATE_READING</b>.
             See .<a href="https://msdn.microsoft.com/28ca98e5-911b-436d-a592-781b832ca6cc">WsCheckMustUnderstandHeaders</a> for more information.</div><div> </div>
 
@@ -103,8 +101,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    The message is not in the correct state.
+The message is not in the correct state.
                 
 
 </td>
@@ -116,7 +113,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -128,7 +124,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -156,8 +151,7 @@ This function may return other errors not listed above.
 
 
 
-
-                When the application reads the header using an XML Reader,
+When the application reads the header using an XML Reader,
                 it should obtain a <a href="https://msdn.microsoft.com/40ca058c-04e1-4358-b330-360a094a8791">WS_XML_NODE_POSITION</a> of the header element
                 and pass it to this function.  See <a href="https://msdn.microsoft.com/91e543f3-7325-4a90-9b99-c98918478853">WsGetReaderPosition</a> for
                 how to obtain a <b>WS_XML_NODE_POSITION</b>.

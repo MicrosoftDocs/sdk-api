@@ -4,10 +4,10 @@ title: "_CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO"
 author: windows-sdk-content
 description: The CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO structure is used with previously distributed symmetric keys for decrypting the content key encryption key (KEK).
 old-location: security\cmsg_mail_list_recipient_encode_info.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 4303a7e7-cb93-4ed1-85e6-42359c2c687c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO structure [Security], PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO structure pointer [Security], _CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, _crypto2_cmsg_mail_list_recipient_encode_info, security.cmsg_mail_list_recipient_encode_info, wincrypt/CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO, wincrypt/PCMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,8 +104,7 @@ A pointer to a void. Reserved for a future potential pointer choice.
 
 ### -field KeyId
 
-
-						A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> key identifier of the key-encryption key that was previously distributed to the message sender and one or more recipients.
+A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> key identifier of the key-encryption key that was previously distributed to the message sender and one or more recipients.
 
 
 ### -field Date

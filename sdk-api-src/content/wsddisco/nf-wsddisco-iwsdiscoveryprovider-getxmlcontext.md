@@ -4,10 +4,10 @@ title: IWSDiscoveryProvider::GetXMLContext
 author: windows-sdk-content
 description: Gets the XML context associated with this provider.
 old-location: ncd\iwsdiscoveryprovider_getxmlcontext.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: ee2a862a-9d1d-4099-982e-259b6ab815f6
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: GetXMLContext, GetXMLContext method, GetXMLContext method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,GetXMLContext method, IWSDiscoveryProvider.GetXMLContext, IWSDiscoveryProvider::GetXMLContext, ncd.iwsdiscoveryprovider_getxmlcontext, wsddisco/IWSDiscoveryProvider::GetXMLContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,8 +120,7 @@ The discovery provider has not been created. Call <a href="https://msdn.microsof
 
 Returns an optional context for the XML state of the transaction. If the service layer is used then this should be the context the XML namespaces and types were registered with.
 
-<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/3bb2aead-b082-4a2b-b4bf-97a1feb1e11e">Attach</a> must be called before any other <a href="https://msdn.microsoft.com/e3d3acc2-914b-40bd-9e1e-a3a612821ab7">IWSDiscoveryProvider</a>
-		 method is used.</div>
+<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/3bb2aead-b082-4a2b-b4bf-97a1feb1e11e">Attach</a> must be called before any other <a href="https://msdn.microsoft.com/e3d3acc2-914b-40bd-9e1e-a3a612821ab7">IWSDiscoveryProvider</a>method is used.</div>
 <div> </div>
 
 

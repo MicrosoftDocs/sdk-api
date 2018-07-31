@@ -4,10 +4,10 @@ title: IVdsAdviseSink
 author: windows-sdk-content
 description: Receives VDS notifications.
 old-location: base\ivdsadvisesink.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 8e9b7c95-0b59-4268-a274-5d16812075a6
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: IVdsAdviseSink, IVdsAdviseSink interface [VDS], IVdsAdviseSink interface [VDS],described, base.ivdsadvisesink, vds/IVdsAdviseSink, vdshwprv/IVdsAdviseSink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,8 +96,7 @@ VDS registers an <b>IVdsAdviseSink</b> interface with
 
 After implementing the <b>IVdsAdviseSink</b> 
       interface, an application must register the interface with VDS to receive notifications. To register, call the 
-      <a href="https://msdn.microsoft.com/be1d5385-6c72-4847-9ed7-4d2309a3e9ac">IVdsService::Advise</a>
-      method and pass a pointer to the <b>IVdsAdviseSink</b> 
+      <a href="https://msdn.microsoft.com/be1d5385-6c72-4847-9ed7-4d2309a3e9ac">IVdsService::Advise</a>method and pass a pointer to the <b>IVdsAdviseSink</b> 
       interface. To unregister the <b>IVdsAdviseSink</b> interface and stop receiving notifications, use the <a href="https://msdn.microsoft.com/085d380c-2e09-470a-a23d-704c31535975">IVdsService::Unadvise</a> method.<div class="alert"><b>Note</b>  An application that calls <a href="https://msdn.microsoft.com/be1d5385-6c72-4847-9ed7-4d2309a3e9ac">Advise</a> must eventually call <a href="https://msdn.microsoft.com/085d380c-2e09-470a-a23d-704c31535975">Unadvise</a>. Ideally, it should call <b>Unadvise</b> as soon as it no longer needs to receive notifications.</div>
 <div> </div>
 

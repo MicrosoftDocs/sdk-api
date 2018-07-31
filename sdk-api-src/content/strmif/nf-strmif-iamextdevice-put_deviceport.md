@@ -7,7 +7,7 @@ old-location: dshow\iamextdevice_put_deviceport.htm
 old-project: DirectShow
 ms.assetid: bb83ae40-875b-47c4-8e8e-944392ad0782
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMExtDevice interface [DirectShow],put_DevicePort method, IAMExtDevice.put_DevicePort, IAMExtDevice::put_DevicePort, IAMExtDeviceput_DevicePort, dshow.iamextdevice_put_deviceport, put_DevicePort, put_DevicePort method [DirectShow], put_DevicePort method [DirectShow],IAMExtDevice interface, strmif/IAMExtDevice::put_DevicePort
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,11 +71,9 @@ Specifies the port to which the device will connect. Use one of the following va
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

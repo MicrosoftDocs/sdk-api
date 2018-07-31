@@ -7,7 +7,7 @@ old-location: wsw\ws_listener_property.htm
 old-project: wsw
 ms.assetid: 52e4a5d3-e584-40d1-b71f-b4ef61104883
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_LISTENER_PROPERTY, WS_LISTENER_PROPERTY structure [Web Services for Windows], _WS_LISTENER_PROPERTY, webservices/WS_LISTENER_PROPERTY, wsw.ws_listener_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies a listener specific setting.
+Specifies a listener specific setting.
             
 
 
@@ -63,15 +62,13 @@ req.product: Windows Address Book 5.0
 
 ### -field id
 
-
-                Identifies the <a href="https://msdn.microsoft.com/4998d538-628f-4939-9db9-612e882e68b1">WS_LISTENER_PROPERTY_ID</a>.
+Identifies the <a href="https://msdn.microsoft.com/4998d538-628f-4939-9db9-612e882e68b1">WS_LISTENER_PROPERTY_ID</a>.
             
 
 
 ### -field value
 
-
-                A pointer to the value to set.
+A pointer to the value to set.
                 The pointer must have an alignment compatible with the type
                 of the property.
             
@@ -79,7 +76,6 @@ req.product: Windows Address Book 5.0
 
 ### -field valueSize
 
-
-                The size, in bytes, of the memory pointed to by value.
+The size, in bytes, of the memory pointed to by value.
             
 

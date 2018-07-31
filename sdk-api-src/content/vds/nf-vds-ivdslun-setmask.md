@@ -4,10 +4,10 @@ title: IVdsLun::SetMask
 author: windows-sdk-content
 description: Specifies the unmasking list, which is the list of computers to be granted access to the LUN.
 old-location: base\ivdslun_setmask.htm
-old-project: vds
+old-project: VDS
 ms.assetid: b7e841cc-95b4-452f-ac14-d7063fe6a694
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: IVdsLun interface [VDS],SetMask method, IVdsLun.SetMask, IVdsLun::SetMask, SetMask, SetMask method [VDS], SetMask method [VDS],IVdsLun interface, base.ivdslun_setmask, vds/IVdsLun::SetMask, vdshwprv/IVdsLun::SetMask
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ This method can return standard <b>HRESULT</b> values, such as
       <b>E_INVALIDARG</b> or <b>E_OUTOFMEMORY</b>, and 
       <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It 
       can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a> using 
-      the <a href="https://msdn.microsoft.com/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate 
+      the <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate 
       from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is 
       being used. Possible return values include the following.
 

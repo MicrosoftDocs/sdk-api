@@ -4,10 +4,10 @@ title: TSPI_phoneGetDisplay function
 author: windows-sdk-content
 description: The TSPI_phoneGetDisplay function returns the current contents of the specified phone display.
 old-location: tspi\tspi_phonegetdisplay.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: dff5fdc5-a627-4282-85d3-2a7ceaf063ed
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: TSPI_phoneGetDisplay, TSPI_phoneGetDisplay function [TAPI 2.2], _tspi_tspi_phonegetdisplay, tspi.tspi_phonegetdisplay, tspi/TSPI_phoneGetDisplay
 ms.prod: windows
 ms.technology: windows-sdk

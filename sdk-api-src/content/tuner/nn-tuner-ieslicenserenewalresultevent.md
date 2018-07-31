@@ -7,7 +7,7 @@ old-location: mstv\ieslicenserenewalresultevent.htm
 old-project: mstv
 ms.assetid: 6f9cbec4-7934-41fc-b387-3f45aa273a72
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interface [DirectShow], IESLicenseRenewalResultEvent interface [DirectShow],described, mstv.ieslicenserenewalresultevent, tuner/IESLicenseRenewalResultEvent
 ms.prod: windows
 ms.technology: windows-sdk

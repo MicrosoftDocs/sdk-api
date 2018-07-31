@@ -7,7 +7,7 @@ old-location: gdi\getbrushorgex.htm
 old-project: gdi
 ms.assetid: 0b938237-cb06-4776-86f8-14478abcee00
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetBrushOrgEx, GetBrushOrgEx function [Windows GDI], _win32_GetBrushOrgEx, gdi.getbrushorgex, wingdi/GetBrushOrgEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,8 +93,7 @@ The brush origin is a set of coordinates with values between 0 and 7, specifying
 
 If an application uses a brush to fill the backgrounds of both a parent and a child window with matching colors, it may be necessary to set the brush origin after painting the parent window but before painting the child window.
 
-
-         The system automatically tracks the origin of all window-managed device contexts and adjusts their brushes as necessary to maintain an alignment of patterns on the surface.
+The system automatically tracks the origin of all window-managed device contexts and adjusts their brushes as necessary to maintain an alignment of patterns on the surface.
 
 
 

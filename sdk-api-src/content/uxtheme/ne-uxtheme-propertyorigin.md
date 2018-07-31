@@ -4,10 +4,10 @@ title: PROPERTYORIGIN
 author: windows-sdk-content
 description: Returned by GetThemePropertyOrigin to specify where a property was found.
 old-location: controls\PROPERTYORIGIN.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\propertyorigin.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: PO_CLASS, PO_GLOBAL, PO_NOTFOUND, PO_PART, PO_STATE, PROPERTYORIGIN, PROPERTYORIGIN enumeration [Windows Controls], controls.PROPERTYORIGIN, controls.inet_PROPERTYORIGIN, inet_PROPERTYORIGIN, inet_PROPERTYORIGIN_cpp, uxtheme/PO_CLASS, uxtheme/PO_GLOBAL, uxtheme/PO_NOTFOUND, uxtheme/PO_PART, uxtheme/PO_STATE, uxtheme/PROPERTYORIGIN
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-Returned by <a href="https://msdn.microsoft.com/library/Bb759764(v=VS.85).aspx">GetThemePropertyOrigin</a> to specify where a property was found.
+Returned by <a href="https://msdn.microsoft.com/6b7f298c-1b3d-463d-a5ec-fbe72672ef49">GetThemePropertyOrigin</a> to specify where a property was found.
 
 
 ## -enum-fields
@@ -89,7 +89,7 @@ Property was not found.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb759764(v=VS.85).aspx">GetThemePropertyOrigin</a>
+<a href="https://msdn.microsoft.com/6b7f298c-1b3d-463d-a5ec-fbe72672ef49">GetThemePropertyOrigin</a>
  
 
  

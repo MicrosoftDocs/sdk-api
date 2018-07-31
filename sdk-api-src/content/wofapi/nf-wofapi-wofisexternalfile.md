@@ -4,10 +4,10 @@ title: WofIsExternalFile function
 author: windows-sdk-content
 description: Used to determine if a file is being backed by a physical file or is backed by a system data provider, and optionally indicates which provider or additional data about the file.
 old-location: fs\wofisexternalfile.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 9E06B486-B9F9-4B9B-B164-E3954FB87B8D
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: WofIsExternalFile, WofIsExternalFile function [Files], fs.wofisexternalfile, wofapi/WofIsExternalFile
 ms.prod: windows
 ms.technology: windows-sdk

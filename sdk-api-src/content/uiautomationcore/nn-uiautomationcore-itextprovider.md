@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextProvider.htm
 old-project: WinAuto
 ms.assetid: 8bd53f1e-731f-420b-a529-ca3f6c3fd97c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: ITextProvider, ITextProvider interface [Windows Accessibility], ITextProvider interface [Windows Accessibility],described, uiauto.uiauto_ITextProvider, uiauto_ITextProvider, uiautomationcore/ITextProvider, winauto.uiauto_ITextProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        Provides access to controls that contain text.
+Provides access to controls that contain text.
         
 
 
@@ -77,8 +76,7 @@ The <b>ITextProvider</b> interface has these methods.
 <a href="https://msdn.microsoft.com/f5c0b2ed-e891-4856-8829-617a69d4708a">GetSelection</a>
 </td>
 <td align="left" width="63%">
-
-        Retrieves a collection of text ranges that represents the currently selected text in a text-based control.  
+Retrieves a collection of text ranges that represents the currently selected text in a text-based control.  
         
 
 </td>
@@ -88,8 +86,7 @@ The <b>ITextProvider</b> interface has these methods.
 <a href="https://msdn.microsoft.com/dc706d1d-b32d-4bc3-b65a-c42b38f06a93">GetVisibleRanges</a>
 </td>
 <td align="left" width="63%">
-
-        Retrieves an array of disjoint text ranges from a text-based control where each text range represents a contiguous span of visible text.  
+Retrieves an array of disjoint text ranges from a text-based control where each text range represents a contiguous span of visible text.  
 
 </td>
 </tr>
@@ -98,8 +95,7 @@ The <b>ITextProvider</b> interface has these methods.
 <a href="https://msdn.microsoft.com/b55ae687-44e1-499f-8341-0bbf960529fd">RangeFromChild</a>
 </td>
 <td align="left" width="63%">
-
-        Retrieves a text range enclosing a child element such as an image, hyperlink, or other embedded object. 
+Retrieves a text range enclosing a child element such as an image, hyperlink, or other embedded object. 
         
 
 </td>
@@ -109,8 +105,7 @@ The <b>ITextProvider</b> interface has these methods.
 <a href="https://msdn.microsoft.com/c19c6a4a-b783-47c2-8dfd-1ffe947278f0">RangeFromPoint</a>
 </td>
 <td align="left" width="63%">
-
-        Returns the degenerate (empty) text range nearest to the specified screen coordinates. 
+Returns the degenerate (empty) text range nearest to the specified screen coordinates. 
 
 </td>
 </tr>
@@ -150,8 +145,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-
-        Retrieves a value that specifies the type of text selection that is supported by the control.
+Retrieves a value that specifies the type of text selection that is supported by the control.
         
 
 </td>
@@ -160,7 +154,6 @@ Read-only
 
 
 ## -remarks
-
 
 
 

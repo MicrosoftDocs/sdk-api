@@ -7,8 +7,8 @@ old-location: mf\iwmcodecstringsgetdescription.htm
 old-project: medfound
 ms.assetid: 79068e6c-bd16-45e4-a8af-6a03e0c5b528
 ms.author: windowssdkdev
-ms.date: 07/18/2018
-ms.keywords: GetDescription, GetDescription method [Media Foundation], GetDescription method [Media Foundation],IWMCodecStrings interface, IWMCodecStrings interface [Media Foundation],GetDescription method, IWMCodecStrings.GetDescription, IWMCodecStrings::GetDescription, codecapi.iwmcodecstringsgetdescription, mf.iwmcodecstringsgetdescription, wmcodecdsp/ IWMCodecStrings::GetDescription
+ms.date: 07/29/2018
+ms.keywords: GetDescription, GetDescription method [Media Foundation], GetDescription method [Media Foundation],IWMCodecStrings interface, IWMCodecStrings interface [Media Foundation],GetDescription method, IWMCodecStrings.GetDescription, IWMCodecStrings::GetDescription, codecapi.iwmcodecstringsgetdescription, mf.iwmcodecstringsgetdescription, wmcodecdsp/IWMCodecStrings::GetDescription
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -49,7 +49,6 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 ## -description
-
 
 
 Retrieves the description of an output format.

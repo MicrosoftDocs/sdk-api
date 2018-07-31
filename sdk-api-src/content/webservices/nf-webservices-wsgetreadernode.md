@@ -7,7 +7,7 @@ old-location: wsw\wsgetreadernode.htm
 old-project: wsw
 ms.assetid: c8e5b5ea-f7b7-41ad-9669-7c88ec4ad28c
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetReaderNode, WsGetReaderNode function [Web Services for Windows], webservices/WsGetReaderNode, wsw.wsgetreadernode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        The function returns the XML <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">node</a> at the current position of the XML <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acbbc13cfcfd">reader</a>.
+The function returns the XML <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">node</a> at the current position of the XML <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acbbc13cfcfd">reader</a>.
       
 
 
@@ -63,8 +62,7 @@ req.product: Windows Address Book 5.0
 
 ### -param xmlReader [in]
 
-
-          A pointer to the reader for which the current node will be obtained.  This must be valid WS_XML_READER object.
+A pointer to the reader for which the current node will be obtained.  This must be valid WS_XML_READER object.
 
 
 ### -param node
@@ -95,7 +93,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -110,8 +107,7 @@ One or more arguments are invalid.
 
 
 
-
-        The <a href="https://msdn.microsoft.com/eddef5db-432d-4615-9f0f-a712dffe42ab">nodeType</a> field of the node <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">node</a> should be inspected
+The <a href="https://msdn.microsoft.com/eddef5db-432d-4615-9f0f-a712dffe42ab">nodeType</a> field of the node <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">node</a> should be inspected
         to determine the kind of node returned.  The <b>node</b> may then be cast to the appropriate
         data structure to get the data.
       
@@ -125,8 +121,7 @@ if (SUCCEEDED(WsGetReaderNode(reader, &amp;node, error)))
         // Refer to elementNode-&gt;localName, elementNode-&gt;ns
     }
 }</code></pre>
-
-        The <a href="https://msdn.microsoft.com/eddef5db-432d-4615-9f0f-a712dffe42ab">nodeTypes</a> with extended structures include:
+The <a href="https://msdn.microsoft.com/eddef5db-432d-4615-9f0f-a712dffe42ab">nodeTypes</a> with extended structures include:
         <ul>
 <li><b>WS_XML_NODE_TYPE_ELEMENT</b> =&gt; <a href="https://msdn.microsoft.com/32157ddf-ace2-49dc-85d7-b04e25e85693">WS_XML_ELEMENT_NODE</a>
 </li>
@@ -137,8 +132,7 @@ if (SUCCEEDED(WsGetReaderNode(reader, &amp;node, error)))
 </ul>
 
 
-
-        The node returned should not be modified and is only valid until the reader advances.
+The node returned should not be modified and is only valid until the reader advances.
       For the attributes in a <a href="https://msdn.microsoft.com/32157ddf-ace2-49dc-85d7-b04e25e85693">WS_XML_ELEMENT_NODE</a> callers should not expect the
         attributes to appear in any particular order.
       

@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriteradvanced_writestreamsample.htm
 old-project: wmformat
 ms.assetid: 498bfb73-bfa5-429d-ae8a-3a691fc25fc2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],WriteStreamSample method, IWMWriterAdvanced.WriteStreamSample, IWMWriterAdvanced::WriteStreamSample, IWMWriterAdvancedWriteStreamSample, WriteStreamSample, WriteStreamSample method [windows Media Format], WriteStreamSample method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_writestreamsample, wmsdkidl/IWMWriterAdvanced::WriteStreamSample
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,16 +91,14 @@ The <b>WriteStreamSample</b> method writes a stream sample directly into an ASF 
 
 <table>
 <tr>
-<th>
-                  Flag
+<th>Flag
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
 <td>No flag set</td>
-<td>None of the conditions for the other flags applies. For example, a <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">delta frame</a> in most cases would not have any flags set for it.</td>
+<td>None of the conditions for the other flags applies. For example, a <a href="wmformat_glossary.htm">delta frame</a> in most cases would not have any flags set for it.</td>
 </tr>
 <tr>
 <td>WM_SF_CLEANPOINT</td>

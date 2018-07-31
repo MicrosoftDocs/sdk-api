@@ -7,7 +7,7 @@ old-location: multimedia\iclocate.htm
 old-project: Multimedia
 ms.assetid: df7b14fe-9a6a-41d3-ba61-46b2e1df0b00
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: ICLocate, ICLocate function [Windows Multimedia], ICMODE_COMPRESS, ICMODE_DECOMPRESS, ICMODE_DRAW, ICMODE_FASTCOMPRESS, ICMODE_FASTDECOMPRESS, _win32_ICLocate, multimedia.iclocate, vfw/ICLocate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,22 +64,19 @@ The <b>ICLocate</b> function finds a compressor or decompressor that can handle 
 
 ### -param fccType
 
-
-            Four-character code indicating the type of compressor or decompressor to open. For video streams, the value of this parameter is 'VIDC'.
+Four-character code indicating the type of compressor or decompressor to open. For video streams, the value of this parameter is 'VIDC'.
           
 
 
 ### -param fccHandler
 
-
-            Preferred handler of the specified type. Typically, the handler type is stored in the stream header in an AVI file. Specify <b>NULL</b> if your application can use any handler type or it does not know the handler type to use.
+Preferred handler of the specified type. Typically, the handler type is stored in the stream header in an AVI file. Specify <b>NULL</b> if your application can use any handler type or it does not know the handler type to use.
           
 
 
 ### -param lpbiIn
 
-
-            Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure defining the input format. A compressor handle is not returned unless it supports this format.
+Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure defining the input format. A compressor handle is not returned unless it supports this format.
           
 
 
@@ -92,8 +89,7 @@ If this parameter is nonzero, a compressor handle is not returned unless it can 
 
 ### -param wFlags
 
-
-            Flags that describe the search criteria for a compressor or decompressor. The following values are defined:
+Flags that describe the search criteria for a compressor or decompressor. The following values are defined:
           
 
 <table>
@@ -117,8 +113,7 @@ Finds a compressor that can compress an image with a format defined by <i>lpbiIn
 </dl>
 </td>
 <td width="60%">
-
-            Finds a decompressor that can decompress an image with a format defined by <i>lpbiIn</i> to the format defined by <i>lpbiOut</i>.
+Finds a decompressor that can decompress an image with a format defined by <i>lpbiIn</i> to the format defined by <i>lpbiOut</i>.
           
 
 </td>
@@ -129,8 +124,7 @@ Finds a compressor that can compress an image with a format defined by <i>lpbiIn
 </dl>
 </td>
 <td width="60%">
-
-            Finds a decompressor that can decompress an image with a format defined by <i>lpbiIn</i> and draw it directly to hardware.
+Finds a decompressor that can decompress an image with a format defined by <i>lpbiIn</i> and draw it directly to hardware.
           
 
 </td>
@@ -141,8 +135,7 @@ Finds a compressor that can compress an image with a format defined by <i>lpbiIn
 </dl>
 </td>
 <td width="60%">
-
-            Has the same meaning as <b>ICMODE_COMPRESS</b> except the compressor is used for a real-time operation and emphasizes speed over quality.
+Has the same meaning as <b>ICMODE_COMPRESS</b> except the compressor is used for a real-time operation and emphasizes speed over quality.
           
 
 </td>
@@ -153,8 +146,7 @@ Finds a compressor that can compress an image with a format defined by <i>lpbiIn
 </dl>
 </td>
 <td width="60%">
-
-            Has the same meaning as <b>ICMODE_DECOMPRESS</b> except the decompressor is used for a real-time operation and emphasizes speed over quality.
+Has the same meaning as <b>ICMODE_DECOMPRESS</b> except the decompressor is used for a real-time operation and emphasizes speed over quality.
           
 
 </td>

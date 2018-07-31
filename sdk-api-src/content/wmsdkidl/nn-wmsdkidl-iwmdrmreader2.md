@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmreader2.htm
 old-project: wmformat
 ms.assetid: 9fb7bbeb-d35f-41f7-b39a-2e5a102b5c05
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMDRMReader2, IWMDRMReader2 interface [windows Media Format], IWMDRMReader2 interface [windows Media Format],described, IWMDRMReader2Interface, wmformat.iwmdrmreader2, wmsdkidl/IWMDRMReader2
 ms.prod: windows
 ms.technology: windows-sdk

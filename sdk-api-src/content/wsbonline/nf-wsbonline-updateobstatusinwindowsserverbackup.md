@@ -7,7 +7,7 @@ old-location: wsb\updateobstatusinwindowsserverbackup.htm
 old-project: wsb
 ms.assetid: 13C745FB-D0B9-432E-BDBA-E4194BF54924
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: UpdateOBStatusInWindowsServerBackup, UpdateOBStatusInWindowsServerBackup function [Windows Server Backup], wsb.updateobstatusinwindowsserverbackup, wsbonline/UpdateOBStatusInWindowsServerBackup
 ms.prod: windows
 ms.technology: windows-sdk

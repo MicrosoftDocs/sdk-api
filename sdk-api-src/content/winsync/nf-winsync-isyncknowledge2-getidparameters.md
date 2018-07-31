@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge2_getidparameters.htm
 old-project: winsync
 ms.assetid: dbb049b8-cd2c-49f3-a9f9-0d76da0b3824
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetIdParameters, GetIdParameters method [Windows Sync], GetIdParameters method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetIdParameters method, ISyncKnowledge2.GetIdParameters, ISyncKnowledge2::GetIdParameters, winsync.isyncknowledge2_getidparameters, winsync/ISyncKnowledge2::GetIdParameters
 ms.prod: windows
 ms.technology: windows-sdk

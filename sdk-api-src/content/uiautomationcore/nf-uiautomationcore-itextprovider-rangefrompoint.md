@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextProvider_RangeFromPoint.htm
 old-project: WinAuto
 ms.assetid: c19c6a4a-b783-47c2-8dfd-1ffe947278f0
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: ITextProvider interface [Windows Accessibility],RangeFromPoint method, ITextProvider.RangeFromPoint, ITextProvider::RangeFromPoint, RangeFromPoint, RangeFromPoint method [Windows Accessibility], RangeFromPoint method [Windows Accessibility],ITextProvider interface, uiauto.uiauto_ITextProvider_RangeFromPoint, uiauto_ITextProvider_RangeFromPoint, uiautomationcore/ITextProvider::RangeFromPoint, winauto.uiauto_ITextProvider_RangeFromPoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        Returns the degenerate (empty) text range nearest to the specified screen coordinates. 
+Returns the degenerate (empty) text range nearest to the specified screen coordinates. 
 
 
 ## -parameters
@@ -90,8 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-            A text range that encloses a child object is returned if the screen coordinates are 
+A text range that encloses a child object is returned if the screen coordinates are 
             within the coordinates of an image, hyperlink, or other embedded object. 
             
 

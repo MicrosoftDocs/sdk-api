@@ -7,7 +7,7 @@ old-location: wsw\ws_item_range.htm
 old-project: wsw
 ms.assetid: 29e04edd-fa39-47d0-a24c-ef3f539ce171
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ITEM_RANGE, WS_ITEM_RANGE structure [Web Services for Windows], _WS_ITEM_RANGE, webservices/WS_ITEM_RANGE, wsw.ws_item_range
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Defines the minimum and maximum number of items that may appear
+Defines the minimum and maximum number of items that may appear
                 when using <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>, 
                 <b>WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING</b>,
                 or <b>WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING</b> within
@@ -74,7 +73,6 @@ The minimum number of elements that must appear.
 
 ### -field maxItemCount
 
-
-                    The maximum number of items that may appear.
+The maximum number of items that may appear.
                 
 

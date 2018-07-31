@@ -7,7 +7,7 @@ old-location: gdi\getfontdata.htm
 old-project: gdi
 ms.assetid: ec716ad8-bdc2-4f61-968e-f86288123cec
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetFontData, GetFontData function [Windows GDI], _win32_GetFontData, gdi.getfontdata, wingdi/GetFontData
 ms.prod: windows
 ms.technology: windows-sdk

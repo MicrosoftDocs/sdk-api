@@ -4,10 +4,10 @@ title: IVdsDiskPartitionMF::GetPartitionFileSystemProperties
 author: windows-sdk-content
 description: Returns property details about the file system on a partition on the disk at a specified byte offset.
 old-location: base\ivdsdiskpartitionmf_getpartitionfilesystemproperties.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 1b49ffba-00df-4d8f-a90f-5e26a5c898dd
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: GetPartitionFileSystemProperties, GetPartitionFileSystemProperties method, GetPartitionFileSystemProperties method,IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,GetPartitionFileSystemProperties method, IVdsDiskPartitionMF.GetPartitionFileSystemProperties, IVdsDiskPartitionMF::GetPartitionFileSystemProperties, base.ivdsdiskpartitionmf_getpartitionfilesystemproperties, vds/IVdsDiskPartitionMF::GetPartitionFileSystemProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ Pointer to a <a href="https://msdn.microsoft.com/1068eb6d-0f7f-4d04-b7ec-f40e54f
 
 
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>

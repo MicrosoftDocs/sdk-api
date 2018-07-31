@@ -4,10 +4,10 @@ title: IWSDHttpMessageParameters::GetContext
 author: windows-sdk-content
 description: Retrieves the private transmission context for the current transaction.
 old-location: ncd\iwsdhttpmessageparameters_getcontext.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: af93f97f-a3de-4b5c-92c5-2d4ab91e7985
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: GetContext, GetContext method, GetContext method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetContext method, IWSDHttpMessageParameters.GetContext, IWSDHttpMessageParameters::GetContext, ncd.iwsdhttpmessageparameters_getcontext, wsdbase/IWSDHttpMessageParameters::GetContext
 ms.prod: windows
 ms.technology: windows-sdk

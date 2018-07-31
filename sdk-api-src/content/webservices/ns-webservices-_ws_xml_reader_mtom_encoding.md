@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_reader_mtom_encoding.htm
 old-project: wsw
 ms.assetid: dec4d9ad-71d3-48f9-b6c3-49cf6bcb85fb
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_READER_MTOM_ENCODING, WS_XML_READER_MTOM_ENCODING structure [Web Services for Windows], _WS_XML_READER_MTOM_ENCODING, webservices/WS_XML_READER_MTOM_ENCODING, wsw.ws_xml_reader_mtom_encoding
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Used to indicate that the reader should interpret the bytes it reads as in MTOM format.
+Used to indicate that the reader should interpret the bytes it reads as in MTOM format.
       
 
 
@@ -63,8 +62,7 @@ req.product: Windows Address Book 5.0
 
 ### -field encoding
 
-
-          The base type for all types that derive from <a href="https://msdn.microsoft.com/54d9683e-c2d1-4e18-92a2-a68558999e28">WS_XML_READER_ENCODING</a>.
+The base type for all types that derive from <a href="https://msdn.microsoft.com/54d9683e-c2d1-4e18-92a2-a68558999e28">WS_XML_READER_ENCODING</a>.
         
 
 
@@ -76,31 +74,27 @@ The encoding of the xml document carried by MTOM.
 
 ### -field readMimeHeader
 
-
-          Specifies whether or not the reader should read the MIME header.
+Specifies whether or not the reader should read the MIME header.
         
 
 
 ### -field startInfo
 
-
-          The type used by the mime part that contains the xml.  This corresponds to the "start-info" parameter in the of the MIME Content-Type.
+The type used by the mime part that contains the xml.  This corresponds to the "start-info" parameter in the of the MIME Content-Type.
           If readMimeHeader is specified as <b>TRUE</b>, then this must be empty as the startInfo will be read from the mime header.
         
 
 
 ### -field boundary
 
-
-          The character sequence that should be used to delimit the mime parts.  This corresponds to the "boundary" parameter of the MIME Content-Type.
+The character sequence that should be used to delimit the mime parts.  This corresponds to the "boundary" parameter of the MIME Content-Type.
           If readMimeHeader is specified as <b>TRUE</b>, then this must be empty as the boundary will be read from the mime header.
         
 
 
 ### -field startUri
 
-
-          The mime part that contains the xml.  This corresponds to the "start" parameter of the MIME Content-Type.
+The mime part that contains the xml.  This corresponds to the "start" parameter of the MIME Content-Type.
           If readMimeHeader is specified as <b>TRUE</b>, then this must be empty as the startUri will be read from the mime header.
         
 
@@ -109,17 +103,14 @@ The encoding of the xml document carried by MTOM.
 
 
 
-
-        When used with <a href="https://msdn.microsoft.com/86277c29-d42f-4b6a-ba33-b836bef284e7">WS_XML_READER_BUFFER_INPUT</a> the MIME parts may appear in any order.
+When used with <a href="https://msdn.microsoft.com/86277c29-d42f-4b6a-ba33-b836bef284e7">WS_XML_READER_BUFFER_INPUT</a> the MIME parts may appear in any order.
       
 
-
-        When used with <a href="https://msdn.microsoft.com/53537eb2-6b8d-443e-9453-4b39dfef1dd7">WS_XML_READER_STREAM_INPUT</a> the root MIME part must be first, and
+When used with <a href="https://msdn.microsoft.com/53537eb2-6b8d-443e-9453-4b39dfef1dd7">WS_XML_READER_STREAM_INPUT</a> the root MIME part must be first, and
         subsequent MIME parts must appear in the order that they are referenced from xop:Include elements.
       
 
-
-        See http://www.w3.org/TR/2005/REC-xop10-20050125/ for the MTOM specification.
+See http://www.w3.org/TR/2005/REC-xop10-20050125/ for the MTOM specification.
       
 
 

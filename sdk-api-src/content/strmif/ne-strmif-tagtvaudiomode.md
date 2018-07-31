@@ -7,7 +7,7 @@ old-location: dshow\tvaudiomode.htm
 old-project: DirectShow
 ms.assetid: 70e26550-0a8f-484e-b919-cfefdcf95f6b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: AMTVAUDIO_MODE_LANG_A, AMTVAUDIO_MODE_LANG_B, AMTVAUDIO_MODE_LANG_C, AMTVAUDIO_MODE_MONO, AMTVAUDIO_MODE_STEREO, AMTVAUDIO_PRESET_LANG_A, AMTVAUDIO_PRESET_LANG_B, AMTVAUDIO_PRESET_LANG_C, AMTVAUDIO_PRESET_STEREO, TVAudioMode, TVAudioMode enumeration [DirectShow], TVAudioModeEnumeration, dshow.tvaudiomode, strmif/AMTVAUDIO_MODE_LANG_A, strmif/AMTVAUDIO_MODE_LANG_B, strmif/AMTVAUDIO_MODE_LANG_C, strmif/AMTVAUDIO_MODE_MONO, strmif/AMTVAUDIO_MODE_STEREO, strmif/AMTVAUDIO_PRESET_LANG_A, strmif/AMTVAUDIO_PRESET_LANG_B, strmif/AMTVAUDIO_PRESET_LANG_C, strmif/AMTVAUDIO_PRESET_STEREO, strmif/TVAudioMode, tagTVAudioMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # tagTVAudioMode enumeration
@@ -69,29 +68,25 @@ Mono.
 
 ### -field AMTVAUDIO_MODE_STEREO
 
-
-            Stereo.
+Stereo.
           
 
 
 ### -field AMTVAUDIO_MODE_LANG_A
 
-
-            Language A: Main audio channel.
+Language A: Main audio channel.
           
 
 
 ### -field AMTVAUDIO_MODE_LANG_B
 
-
-            Languag B: Secondary audio program (SAP).
+Languag B: Secondary audio program (SAP).
           
 
 
 ### -field AMTVAUDIO_MODE_LANG_C
 
-
-            Language C: Either a third language, or the main audio program plus the SAP (for example, English from one speaker and Japanese from the other speaker).
+Language C: Either a third language, or the main audio program plus the SAP (for example, English from one speaker and Japanese from the other speaker).
           
 
 
@@ -102,22 +97,19 @@ Stereo preset.
 
 ### -field AMTVAUDIO_PRESET_LANG_A
 
-
-            Languag A preset.
+Languag A preset.
           
 
 
 ### -field AMTVAUDIO_PRESET_LANG_B
 
-
-            Language B preset.
+Language B preset.
           
 
 
 ### -field AMTVAUDIO_PRESET_LANG_C
 
-
-            Language C preset.
+Language C preset.
           
 
 
@@ -161,8 +153,7 @@ If the method fails for any reason, the state of the tuner — that is, the curr
 
 Except for language C, the tuner always streams the same language over both audio channels.
 
-
-          Example: The caller sets <b>AMTVAUDIO_PRESET_STEREO</b> | <b>AMTVAUDIO_PRESET_LANG_B</b>. Suppose the current program is available in language A with stereo or language B with mono. The driver selects language B (mono), because that flag takes precedence. Later, the program switches to a commercial that is only available in language A. The driver switches to language A, because language B is not available. When the program resumes, the driver switches back to language B.
+Example: The caller sets <b>AMTVAUDIO_PRESET_STEREO</b> | <b>AMTVAUDIO_PRESET_LANG_B</b>. Suppose the current program is available in language A with stereo or language B with mono. The driver selects language B (mono), because that flag takes precedence. Later, the program switches to a commercial that is only available in language A. The driver switches to language A, because language B is not available. When the program resumes, the driver switches back to language B.
 
 
 <a href="https://msdn.microsoft.com/c64dc038-7ebf-4aa4-a7ae-b3eb0e8eaf1a">IAMTVAudio::GetAvailableTVAudioModes</a>: This method returns the modes that are currently available in the signal. This method never returns preset flags.
@@ -174,14 +165,12 @@ Except for language C, the tuner always streams the same language over both audi
 <a href="https://msdn.microsoft.com/fa2e71f3-3aa0-4260-925d-579006459a09">IAMTVAudio::get_TVAudioMode</a>: This method returns the current mode. This method never returns preset flags.
 
 <h3><a id="Mask_Constants"></a><a id="mask_constants"></a><a id="MASK_CONSTANTS"></a>Mask Constants</h3>
-
-          The following constants are defined in Strmif.h:
+The following constants are defined in Strmif.h:
           
 
 <pre class="syntax" xml:space="preserve"><code>#define TVAUDIO_MODE_MASK 0x000000ff
 #define TVAUDIO_PRESET_MASK 0x0000ff00</code></pre>
-
-          You can use <b>TVAUDIO_MODE_MASK</b> to select mode flags and <b>TVAUDIO_PRESET_MASK</b> to select preset flags:
+You can use <b>TVAUDIO_MODE_MASK</b> to select mode flags and <b>TVAUDIO_PRESET_MASK</b> to select preset flags:
           
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>

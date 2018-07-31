@@ -7,7 +7,7 @@ old-location: wmformat\inssbuffer.htm
 old-project: wmformat
 ms.assetid: c47c016a-e7eb-4a2c-b365-5537749db5bc
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: INSSBuffer, INSSBuffer interface [windows Media Format], INSSBuffer interface [windows Media Format],described, INSSBufferInterface, wmformat.inssbuffer, wmsbuffer/INSSBuffer
 ms.prod: windows
 ms.technology: windows-sdk

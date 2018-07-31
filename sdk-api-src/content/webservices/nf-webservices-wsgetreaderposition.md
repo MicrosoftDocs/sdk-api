@@ -7,7 +7,7 @@ old-location: wsw\wsgetreaderposition.htm
 old-project: wsw
 ms.assetid: 91e543f3-7325-4a90-9b99-c98918478853
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetReaderPosition, WsGetReaderPosition function [Web Services for Windows], webservices/WsGetReaderPosition, wsw.wsgetreaderposition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Returns the current position of the reader.  This can only be used on a reader 
+Returns the current position of the reader.  This can only be used on a reader 
         that is set to an XmlBuffer.
       
 
@@ -64,22 +63,19 @@ req.product: Windows Address Book 5.0
 
 ### -param reader [in]
 
-
-          The reader for which the current position will be obtained.
+The reader for which the current position will be obtained.
         
 
 
 ### -param nodePosition [out]
 
-
-          The current position of the reader.
+The current position of the reader.
         
 
 
 ### -param error [in, optional]
 
-
-          Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
         
 
 
@@ -101,7 +97,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -116,8 +111,7 @@ One or more arguments are invalid.
 
 
 
-
-        See <a href="https://msdn.microsoft.com/40ca058c-04e1-4358-b330-360a094a8791">WS_XML_NODE_POSITION</a> for more information on using positions.
+See <a href="https://msdn.microsoft.com/40ca058c-04e1-4358-b330-360a094a8791">WS_XML_NODE_POSITION</a> for more information on using positions.
       
 
 

@@ -7,7 +7,7 @@ old-location: wsw\wsresetheap.htm
 old-project: wsw
 ms.assetid: c927ccb9-66c8-4acf-bbb5-12313ea80ee0
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsResetHeap, WsResetHeap function [Web Services for Windows], webservices/WsResetHeap, wsw.wsresetheap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,8 +68,7 @@ A pointer to a Heap instance to reset.
                     parameter can be <b>NULL</b>.
                 
 
-
-                    The heap object.
+The heap object.
                 
 
 
@@ -92,8 +91,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-
-                The heap object can retain allocated memory even though it has been reset.  The amount of memory retained
+The heap object can retain allocated memory even though it has been reset.  The amount of memory retained
                 can be specified using the <a href="https://msdn.microsoft.com/c047a3b9-27a1-464c-b9f9-0b0c6cf8eb97">WS_HEAP_PROPERTY_TRIM_SIZE</a> 
                 property when creating the heap.
             

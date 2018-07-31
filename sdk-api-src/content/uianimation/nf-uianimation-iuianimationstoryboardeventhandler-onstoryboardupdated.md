@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboardeventhandler_onstoryboardupdated
 old-project: UIAnimation
 ms.assetid: e1a6349e-9c3f-49e5-8e50-b51bf260e9be
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationStoryboardEventHandler interface [Windows Animation],OnStoryboardUpdated method, IUIAnimationStoryboardEventHandler.OnStoryboardUpdated, IUIAnimationStoryboardEventHandler::OnStoryboardUpdated, OnStoryboardUpdated, OnStoryboardUpdated method [Windows Animation], OnStoryboardUpdated method [Windows Animation],IUIAnimationStoryboardEventHandler interface, uianimation.iuianimationstoryboardeventhandler_onstoryboardupdated, uianimation/IUIAnimationStoryboardEventHandler::OnStoryboardUpdated
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Handles events that occur when a storyboard is updated.
+Handles events that occur when a storyboard is updated.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param storyboard [in]
 
-
-            The storyboard that has been updated.
+The storyboard that has been updated.
 
 
 ## -returns
@@ -134,8 +132,7 @@ By default, a call made in a callback method to any other animation method resul
 
 
 
-<a href="https://msdn.microsoft.com/901afd34-03cc-4421-a467-9d096e1458fe">
-      IUIAnimationStoryboard::GetElapsedTime
+<a href="https://msdn.microsoft.com/901afd34-03cc-4421-a467-9d096e1458fe">IUIAnimationStoryboard::GetElapsedTime
       </a>
 
 

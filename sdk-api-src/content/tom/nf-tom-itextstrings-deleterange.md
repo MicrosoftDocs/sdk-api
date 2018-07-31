@@ -4,10 +4,10 @@ title: ITextStrings::DeleteRange
 author: windows-sdk-content
 description: Deletes the contents of a given range.
 old-location: controls\itextstrings_deleterange.htm
-old-project: controls
+old-project: Controls
 ms.assetid: 2dd6312a-77ab-4538-a51b-7de49a5457ff
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: DeleteRange, DeleteRange method [Windows Controls], DeleteRange method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],DeleteRange method, ITextStrings.DeleteRange, ITextStrings::DeleteRange, controls.itextstrings_deleterange, tom/ITextStrings::DeleteRange
 ms.prod: windows
 ms.technology: windows-sdk

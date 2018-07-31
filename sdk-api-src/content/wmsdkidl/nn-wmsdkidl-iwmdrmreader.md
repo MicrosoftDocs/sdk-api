@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmreader.htm
 old-project: wmformat
 ms.assetid: bf4ff0f3-1f78-43c4-be4d-c74209176e58
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMDRMReader, IWMDRMReader interface [windows Media Format], IWMDRMReader interface [windows Media Format],described, IWMDRMReaderInterface, wmformat.iwmdrmreader, wmsdkidl/IWMDRMReader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ]
 
 
-The <b>IWMDRMReader</b> interface provides methods to configure the DRM component and to manage <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">DRM</a> license acquisition and individualization of client applications. It is used only for content protected using DRM version 7, not the earlier DRM version 1.
+The <b>IWMDRMReader</b> interface provides methods to configure the DRM component and to manage <a href="wmformat_glossary.htm">DRM</a> license acquisition and individualization of client applications. It is used only for content protected using DRM version 7, not the earlier DRM version 1.
 
 This interface can be obtained from a reader object.
 
@@ -91,8 +91,7 @@ Begins the license acquisition process for a DRM version 7 license.
 <a href="https://msdn.microsoft.com/837d6fee-d5ba-49d8-ac69-e8ff010a787d">CancelIndividualization</a>
 </td>
 <td align="left" width="63%">
-
-          Cancels a current call to the <b>Individualize</b> method.
+Cancels a current call to the <b>Individualize</b> method.
 
 </td>
 </tr>
@@ -101,8 +100,7 @@ Begins the license acquisition process for a DRM version 7 license.
 <a href="https://msdn.microsoft.com/b6a416d1-0bad-49e0-91ad-19e9ff544a8a">CancelLicenseAcquisition</a>
 </td>
 <td align="left" width="63%">
-
-          Cancels a current call to the <b>AcquireLicense</b> method.
+Cancels a current call to the <b>AcquireLicense</b> method.
 
 </td>
 </tr>
@@ -120,7 +118,7 @@ Cancels a current call to the <b>MonitorLicenseAcquisition</b> method.
 <a href="https://msdn.microsoft.com/86ee18be-38a9-4f76-810c-e33281df8c23">GetDRMProperty</a>
 </td>
 <td align="left" width="63%">
-Retrieves <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">DRM</a>-specific file attributes or run-time properties.
+Retrieves <a href="wmformat_glossary.htm">DRM</a>-specific file attributes or run-time properties.
 
 </td>
 </tr>
@@ -129,8 +127,7 @@ Retrieves <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">DR
 <a href="https://msdn.microsoft.com/51bf9aa0-4c96-4c0b-8e5e-b63fd20dcc4d">Individualize</a>
 </td>
 <td align="left" width="63%">
-
-          Individualizes the client.
+Individualizes the client.
 
 </td>
 </tr>

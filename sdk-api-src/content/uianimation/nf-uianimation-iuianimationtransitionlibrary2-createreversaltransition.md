@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary2_createreversaltransitio
 old-project: UIAnimation
 ms.assetid: 49ECB93E-C253-4A7D-8181-8ED018520391
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateReversalTransition, CreateReversalTransition method [Windows Animation], CreateReversalTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateReversalTransition method, IUIAnimationTransitionLibrary2.CreateReversalTransition, IUIAnimationTransitionLibrary2::CreateReversalTransition, uianimation.iuianimationtransitionlibrary2_createreversaltransition, uianimation/IUIAnimationTransitionLibrary2::CreateReversalTransition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates a reversal scalar transition.
+Creates a reversal scalar transition.
 
 
 ## -parameters
@@ -67,8 +66,7 @@ The duration of the transition.
 
 ### -param transition [out]
 
-
-               The new reversal transition.
+The new reversal transition.
 
 
 ## -returns
@@ -84,8 +82,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 
 
 
-
-         A reversal transition smoothly changes direction over the specified duration. The final value will be the same as the initial value and the final velocity will be the negative of the initial velocity. The folllowing figure shows such a reversal transition.
+A reversal transition smoothly changes direction over the specified duration. The final value will be the same as the initial value and the final velocity will be the negative of the initial velocity. The folllowing figure shows such a reversal transition.
 
 <img alt="Diagram showing a reversal transition" src="Images/ReversalTransition.png"/>
 

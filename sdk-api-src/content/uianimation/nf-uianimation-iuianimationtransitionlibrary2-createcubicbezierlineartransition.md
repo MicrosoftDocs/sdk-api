@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary2_createcubicbezierlinear
 old-project: UIAnimation
 ms.assetid: 1943D3B6-0DA6-4F1B-B52D-F121BAC6BE68
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateCubicBezierLinearTransition, CreateCubicBezierLinearTransition method [Windows Animation], CreateCubicBezierLinearTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateCubicBezierLinearTransition method, IUIAnimationTransitionLibrary2.CreateCubicBezierLinearTransition, IUIAnimationTransitionLibrary2::CreateCubicBezierLinearTransition, uianimation.iuianimationtransitionlibrary2_createcubicbezierlineartransition, uianimation/IUIAnimationTransitionLibrary2::CreateCubicBezierLinearTransition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates a cubic Bézier linear scalar transition.
+Creates a cubic Bézier linear scalar transition.
 
 
 ## -parameters
@@ -62,14 +61,12 @@ req.product: Windows XP with SP1 and later
 
 ### -param duration [in]
 
-
-                The duration of the transition.
+The duration of the transition.
 
 
 ### -param finalValue [in]
 
-
-                The value of the animation variable at the end of the transition.
+The value of the animation variable at the end of the transition.
 
 
 ### -param x1 [in]

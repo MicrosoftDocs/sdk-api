@@ -4,10 +4,10 @@ title: IWSManEx::EnumerationFlagReturnObjectAndEPR
 author: windows-sdk-content
 description: Returns the value of the enumeration constant EnumerationFlagReturnObjectAndEPR for use in the flags parameter of the IWSManSession::Enumerate method.
 old-location: winrm\iwsmanex_enumerationflagreturnobjectandepr.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 3ded5083-5f4a-4e07-96d6-7856c0a2f340
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: EnumerationFlagReturnObjectAndEPR, EnumerationFlagReturnObjectAndEPR method [Windows Remote Management], EnumerationFlagReturnObjectAndEPR method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagReturnObjectAndEPR method, IWSManEx.EnumerationFlagReturnObjectAndEPR, IWSManEx::EnumerationFlagReturnObjectAndEPR, winrm.iwsmanex_enumerationflagreturnobjectandepr, wsmandisp/IWSManEx::EnumerationFlagReturnObjectAndEPR
 ms.prod: windows
 ms.technology: windows-sdk

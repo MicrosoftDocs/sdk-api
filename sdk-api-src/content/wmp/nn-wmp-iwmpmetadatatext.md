@@ -7,7 +7,7 @@ old-location: wmp\iwmpmetadatatext.htm
 old-project: WMP
 ms.assetid: 15d040fa-6c14-41ff-bd21-a8991c17681d
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPMetadataText, IWMPMetadataText interface [Windows Media Player], IWMPMetadataText interface [Windows Media Player],described, IWMPMetadataTextInterface, wmp.iwmpmetadatatext, wmp/IWMPMetadataText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ The <b>IWMPMetadataText</b> interface provides methods for retrieving informatio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMetadataText</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWMPMetadataText</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMetadataText</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWMPMetadataText</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

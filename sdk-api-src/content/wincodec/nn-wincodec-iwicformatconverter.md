@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicformatconverter.htm
 old-project: wic
 ms.assetid: d558aaa7-5962-424c-9e83-363fba09ad50
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWICFormatConverter, IWICFormatConverter interface [Windows Imaging Component], IWICFormatConverter interface [Windows Imaging Component],described, _wic_codec_iwicformatconverter, wic._wic_codec_iwicformatconverter, wincodec/IWICFormatConverter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-            Represents an <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a> that converts the image data from one pixel format to another, handling dithering and halftoning to indexed formats, palette translation and alpha thresholding.
+Represents an <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a> that converts the image data from one pixel format to another, handling dithering and halftoning to indexed formats, palette translation and alpha thresholding.
          
 
 

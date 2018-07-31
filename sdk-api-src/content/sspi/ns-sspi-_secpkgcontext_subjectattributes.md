@@ -4,10 +4,10 @@ title: "_SecPkgContext_SubjectAttributes"
 author: windows-sdk-content
 description: Returns the security attribute information.
 old-location: security\secpkgcontext_subjectattributes.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 548E972F-EB94-4BBD-94F2-FA38184D179A
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PSecPkgContext_SubjectAttributes, PSecPkgContext_SubjectAttributes, PSecPkgContext_SubjectAttributes structure pointer [Security], SecPkgContext_SubjectAttributes, SecPkgContext_SubjectAttributes structure [Security], _SecPkgContext_SubjectAttributes, security.secpkgcontext_subjectattributes, sspi/PSecPkgContext_SubjectAttributes, sspi/SecPkgContext_SubjectAttributes"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_SubjectAttributes structure

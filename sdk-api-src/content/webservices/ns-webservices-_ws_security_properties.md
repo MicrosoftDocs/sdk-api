@@ -7,7 +7,7 @@ old-location: wsw\ws_security_properties.htm
 old-project: wsw
 ms.assetid: 36a2dca5-d49f-4af7-ac1a-0ff7e9331e9a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SECURITY_PROPERTIES, WS_SECURITY_PROPERTIES structure [Web Services for Windows], _WS_SECURITY_PROPERTIES, webservices/WS_SECURITY_PROPERTIES, wsw.ws_security_properties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Specifies an array of channel-wide security settings.
+Specifies an array of channel-wide security settings.
       
 
 
@@ -63,8 +62,7 @@ req.product: Windows Address Book 5.0
 
 ### -field properties
 
-
-          An array of properties.  The number of elements in the array is specified
+An array of properties.  The number of elements in the array is specified
           using the propertyCount parameter.  This field may be <b>NULL</b> if the propertyCount
           is 0.
         
@@ -72,7 +70,6 @@ req.product: Windows Address Book 5.0
 
 ### -field propertyCount
 
-
-          The number of elements in the properties array.
+The number of elements in the properties array.
         
 

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariableintegerchangehandler2_onintegerval
 old-project: UIAnimation
 ms.assetid: 76889784-BF1B-475B-8D84-201BEE6F0594
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation],OnIntegerValueChanged method, IUIAnimationVariableIntegerChangeHandler2.OnIntegerValueChanged, IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged, OnIntegerValueChanged, OnIntegerValueChanged method [Windows Animation], OnIntegerValueChanged method [Windows Animation],IUIAnimationVariableIntegerChangeHandler2 interface, uianimation.iuianimationvariableintegerchangehandler2_onintegervaluechanged, uianimation/IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-         Handles events that occur when the integer value of an animation variable changes in the specified dimension.
+Handles events that occur when the integer value of an animation variable changes in the specified dimension.
 
 
 ## -parameters

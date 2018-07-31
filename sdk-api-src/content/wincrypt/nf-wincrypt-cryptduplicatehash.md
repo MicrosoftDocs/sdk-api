@@ -4,10 +4,10 @@ title: CryptDuplicateHash function
 author: windows-sdk-content
 description: Makes an exact copy of a hash to the point when the duplication is done.
 old-location: security\cryptduplicatehash.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 527fce4d-8d42-437b-9692-42583092efbb
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptDuplicateHash, CryptDuplicateHash function [Security], _crypto2_cryptduplicatehash, security.cryptduplicatehash, wincrypt/CryptDuplicateHash
 ms.prod: windows
 ms.technology: windows-sdk
@@ -144,8 +144,7 @@ A handle to the original hash is not valid.
 
 <b>CryptDuplicateHash</b> makes a copy of a <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> and the exact <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">state</a> of the hash. This function might be used if a calling application needed to generate two hashes but both hashes had to start with some common data hashed. For example, a hash might be created, the common data hashed, a duplicate made with the <b>CryptDuplicateHash</b> function, and then the data unique to each hash would be added.
 
-
-				The <a href="https://msdn.microsoft.com/0a4d6086-5c4c-4e1e-9ab9-b35ee49ffcae">CryptDestroyHash</a> function must be called to destroy any hashes that are created with <b>CryptDuplicateHash</b>. Destroying the original hash does not cause the duplicate hash to be destroyed. After a duplicate hash is made, it is separate from the original hash. There is no shared <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">state</a> between the two hashes.
+The <a href="https://msdn.microsoft.com/0a4d6086-5c4c-4e1e-9ab9-b35ee49ffcae">CryptDestroyHash</a> function must be called to destroy any hashes that are created with <b>CryptDuplicateHash</b>. Destroying the original hash does not cause the duplicate hash to be destroyed. After a duplicate hash is made, it is separate from the original hash. There is no shared <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">state</a> between the two hashes.
 
 
 #### Examples
@@ -284,7 +283,7 @@ if(hCryptProv)
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

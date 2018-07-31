@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_dictionary.htm
 old-project: wsw
 ms.assetid: 2cba47fd-a049-4e50-99dd-20ccf91c9e0f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_DICTIONARY, WS_XML_DICTIONARY structure [Web Services for Windows], _WS_XML_DICTIONARY, webservices/WS_XML_DICTIONARY, wsw.ws_xml_dictionary
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Represents a set of unique strings.  This information is used by the binary
+Represents a set of unique strings.  This information is used by the binary
         encoding to write a more compact xml document.
       
 
@@ -64,35 +63,30 @@ req.product: Windows Address Book 5.0
 
 ### -field guid
 
-
-          A guid that uniquely identifies the set of strings represented by the dictionary.
+A guid that uniquely identifies the set of strings represented by the dictionary.
           The guid is never transmitted or persisted, and needs to only be unique for the lifetime of the process.
         
 
 
 ### -field strings
 
-
-              The set of unique strings that comprise the dictionary.
+The set of unique strings that comprise the dictionary.
           
 
 
 ### -field stringCount
 
-
-              Specifies the number of strings in the dictionary.
+Specifies the number of strings in the dictionary.
           
 
 
 ### -field isConst
 
-
-          Indicates if the dictionary and its contents are declared const and that they will be kept valid for the
+Indicates if the dictionary and its contents are declared const and that they will be kept valid for the
           entire lifetime of any object with which strings in the dictionary are used.
         
 
-
-          If this is <b>TRUE</b>, then the strings can be manipulated more efficiently.
+If this is <b>TRUE</b>, then the strings can be manipulated more efficiently.
         
 
 
@@ -100,14 +94,12 @@ req.product: Windows Address Book 5.0
 
 
 
-
-        All strings and values within a dictionary must be unique.  Dictionaries are
+All strings and values within a dictionary must be unique.  Dictionaries are
         always assumed to be well-formed, so it is up to the creator of the dictionary
         to ensure that this is the case.
       
 
-
-        A dictionary might be declared as:
+A dictionary might be declared as:
       
 
 <pre class="syntax" xml:space="preserve"><code>struct PurchaseOrderDictionary
@@ -133,8 +125,7 @@ static PurchaseOrderDictionary purchaseOrderDictionary =
     WS_XML_STRING_DICTIONARY_VALUE("http://example.com", &amp;purchaseOrderDictionary.dictionary, 3),
 };
 </code></pre>
-
-        Strings from the dictionary might be used as:
+Strings from the dictionary might be used as:
       
 
 <pre class="syntax" xml:space="preserve"><code>WsWriteStartElement(xmlWriter, NULL, &amp;purchaseOrderDictionary.purchaseOrder, &amp;purchaseOrderDictionary.purchaseOrderNamespace, error);</code></pre>

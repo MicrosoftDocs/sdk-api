@@ -7,7 +7,7 @@ old-location: inputmsg\skippointerframemessages.htm
 old-project: InputMsg
 ms.assetid: d67f8d44-3e19-4523-a0f3-38f09f5df91f
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: SkipPointerFrameMessages, SkipPointerFrameMessages function [Input Messages and Notifications], inputmsg.skippointerframemessages, winuser/SkipPointerFrameMessages
 ms.prod: windows
 ms.technology: windows-sdk

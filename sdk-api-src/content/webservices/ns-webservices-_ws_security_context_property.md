@@ -7,7 +7,7 @@ old-location: wsw\ws_security_context_property.htm
 old-project: wsw
 ms.assetid: 426b9847-8217-41ce-8962-138176e0555b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SECURITY_CONTEXT_PROPERTY, WS_SECURITY_CONTEXT_PROPERTY structure [Web Services for Windows], _WS_SECURITY_CONTEXT_PROPERTY, webservices/WS_SECURITY_CONTEXT_PROPERTY, wsw.ws_security_context_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Defines a property of a <a href="https://msdn.microsoft.com/8d23357b-bff8-45fe-80ef-df3f3b0edde1">WS_SECURITY_CONTEXT</a>
+Defines a property of a <a href="https://msdn.microsoft.com/8d23357b-bff8-45fe-80ef-df3f3b0edde1">WS_SECURITY_CONTEXT</a>
 
 
 
@@ -63,21 +62,18 @@ req.product: Windows Address Book 5.0
 
 ### -field id
 
-
-          The identifier of the property.
+The identifier of the property.
         
 
 
 ### -field value
 
-
-          The property value.
+The property value.
         
 
 
 ### -field valueSize
 
-
-          The size of the property value
+The size of the property value
         
 

@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced4_getlanguage.htm
 old-project: wmformat
 ms.assetid: 2af443f5-941a-466a-8eef-d4742f8e1ae1
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetLanguage, GetLanguage method [windows Media Format], GetLanguage method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],GetLanguage method, IWMReaderAdvanced4.GetLanguage, IWMReaderAdvanced4::GetLanguage, IWMReaderAdvanced4GetLanguage, wmformat.iwmreaderadvanced4_getlanguage, wmsdkidl/IWMReaderAdvanced4::GetLanguage
 ms.prod: windows
 ms.technology: windows-sdk

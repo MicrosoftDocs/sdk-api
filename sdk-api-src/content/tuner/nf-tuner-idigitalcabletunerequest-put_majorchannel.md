@@ -7,7 +7,7 @@ old-location: mstv\idigitalcabletunerequest_put_majorchannel.htm
 old-project: mstv
 ms.assetid: 1d3bc106-0ce0-4184-89fe-ebc30e95124e
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IDigitalCableTuneRequest interface [Microsoft TV Technologies],put_MajorChannel method, IDigitalCableTuneRequest.put_MajorChannel, IDigitalCableTuneRequest::put_MajorChannel, IDigitalCableTuneRequestput_MajorChannel, mstv.idigitalcabletunerequest_put_majorchannel, put_MajorChannel, put_MajorChannel method [Microsoft TV Technologies], put_MajorChannel method [Microsoft TV Technologies],IDigitalCableTuneRequest interface, tuner/IDigitalCableTuneRequest::put_MajorChannel
 ms.prod: windows
 ms.technology: windows-sdk

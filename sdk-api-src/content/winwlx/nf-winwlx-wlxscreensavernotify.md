@@ -4,10 +4,10 @@ title: WlxScreenSaverNotify function
 author: windows-sdk-content
 description: Winlogon calls this function immediately before a screen saver is activated, allowing the GINA to interact with the screen saver program.
 old-location: security\wlxscreensavernotify.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 72ed356d-bae3-42ac-87c2-99305951e24b
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: WlxScreenSaverNotify, WlxScreenSaverNotify function [Security], _gina_wlxscreensavernotify, security.wlxscreensavernotify, winwlx/WlxScreenSaverNotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 <p class="CCE_Message">[The WlxScreenSaverNotify function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-
-			The <b>WlxScreenSaverNotify</b> function may be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a> calls this function immediately before a screen saver is activated, allowing the GINA to interact with the screen saver program.
+The <b>WlxScreenSaverNotify</b> function may be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a> calls this function immediately before a screen saver is activated, allowing the GINA to interact with the screen saver program.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -80,8 +79,7 @@ on output, indicates whether the workstation should be locked.
 
 
 
-
-					If the screen saver should be activated, the function returns <b>TRUE</b>.
+If the screen saver should be activated, the function returns <b>TRUE</b>.
 
 If the screen saver should not be activated, the function returns <b>FALSE</b>.
 

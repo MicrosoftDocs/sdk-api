@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_exposurerelative.htm
 old-project: DirectShow
 ms.assetid: d63cf869-ccb6-45cb-85ba-a1e41faa8086
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ICameraControl interface [DirectShow],get_ExposureRelative method, ICameraControl.get_ExposureRelative, ICameraControl::get_ExposureRelative, ICameraControlget_ExposureRelative, dshow.icameracontrol_get_exposurerelative, get_ExposureRelative, get_ExposureRelative method [DirectShow], get_ExposureRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_ExposureRelative
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,11 +66,9 @@ Receives the relative exposure. To get the range of possible values, call <a hre
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingstruct.htm
 old-project: tracelogging
 ms.assetid: 9F681D04-98DF-4B27-9A40-740B2F0B287D
 ms.author: windowssdkdev
-ms.date: 04/27/2018
+ms.date: 07/29/2018
 ms.keywords: TraceLoggingStruct, TraceLoggingStruct macro, tracelogging.traceloggingstruct, traceloggingprovider/TraceLoggingStruct
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,6 @@ The name of the structure. The name parameter must be a string literal (not a va
 
 #### - tags [in, optional]
 
-
-         An integer value. The low 28 bits of the value will be included in the field's metadata and can be used by the event consumer for any purpose.
+An integer value. The low 28 bits of the value will be included in the field's metadata and can be used by the event consumer for any purpose.
        
 

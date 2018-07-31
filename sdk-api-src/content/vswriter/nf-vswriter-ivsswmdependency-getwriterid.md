@@ -4,10 +4,10 @@ title: IVssWMDependency::GetWriterId
 author: windows-sdk-content
 description: The GetWriterId method retrieves the class ID of a writer containing a component that the current component depends on in an explicit writer-component dependency.
 old-location: base\ivsswmdependency_getwriterid.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 275843c5-3a8c-4add-b453-53ff5d2bb868
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetWriterId, GetWriterId method [VSS], GetWriterId method [VSS],IVssWMDependency interface, IVssWMDependency interface [VSS],GetWriterId method, IVssWMDependency.GetWriterId, IVssWMDependency::GetWriterId, _win32_ivsswmdependency_getwriterid, base.ivsswmdependency_getwriterid, vswriter/IVssWMDependency::GetWriterId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -139,8 +139,7 @@ The XML document is not valid. Check the event log for details. For more informa
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

@@ -7,7 +7,7 @@ old-location: xps\ixpsomdictionary_getcount.htm
 old-project: printdocs
 ms.assetid: 66737d94-aa63-4f01-a446-1dffc18e8b82
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],GetCount method, IXpsOMDictionary.GetCount, IXpsOMDictionary::GetCount, xps.ixpsomdictionary_getcount, xpsobjectmodel/IXpsOMDictionary::GetCount
 ms.prod: windows
 ms.technology: windows-sdk

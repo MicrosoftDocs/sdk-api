@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createglyphs.htm
 old-project: printdocs
 ms.assetid: b97005dc-a79b-4234-b1a9-8fe705aea518
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CreateGlyphs, CreateGlyphs method [XPS Documents and Packaging], CreateGlyphs method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateGlyphs method, IXpsOMObjectFactory.CreateGlyphs, IXpsOMObjectFactory::CreateGlyphs, xps.ixpsomobjectfactory_createglyphs, xpsobjectmodel/IXpsOMObjectFactory::CreateGlyphs
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,8 +66,7 @@ A pointer to the <a href="https://msdn.microsoft.com/dd0ce1c0-1c04-46a8-9075-93d
 
 ### -param glyphs [out, retval]
 
-
-            The new <a href="https://msdn.microsoft.com/6d2cda65-c719-46f2-97c9-8aee7b5f84b9">IXpsOMGlyphs</a> interface pointer.
+The new <a href="https://msdn.microsoft.com/6d2cda65-c719-46f2-97c9-8aee7b5f84b9">IXpsOMGlyphs</a> interface pointer.
           
 
 

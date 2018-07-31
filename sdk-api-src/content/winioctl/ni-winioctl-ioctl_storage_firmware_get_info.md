@@ -4,10 +4,10 @@ title: IOCTL_STORAGE_FIRMWARE_GET_INFO
 author: windows-sdk-content
 description: Windows applications can use this control code to query the storage device for detailed firmware information.
 old-location: fs\ioctl_storage_firmware_get_info.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: DBF40C42-2282-4F0E-B83A-D3154D7EF332
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_STORAGE_FIRMWARE_GET_INFO, IOCTL_STORAGE_FIRMWARE_GET_INFO control, IOCTL_STORAGE_FIRMWARE_GET_INFO control code [Files], fs.ioctl_storage_firmware_get_info, winioctl/IOCTL_STORAGE_FIRMWARE_GET_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087
 <pre>BOOL 
    WINAPI 
    DeviceIoControl( (HANDLE)       hDevice,         // handle to device
-                    (DWORD)        IOCTL_STORAGE_FIRMWARE_GET_INFO, // dwIoControlCode
-                    (LPDWORD)      lpInBuffer,      // input buffer
+                    (DWORD)        IOCTL_STORAGE_FIRMWARE_GET_INFO, // dwIoControlCode(LPDWORD)      lpInBuffer,      // input buffer
                     (DWORD)        nInBufferSize,   // size of input buffer
                     (LPDWORD)      lpOutBuffer,     // output buffer
                     (DWORD)        nOutBufferSize,  // size of output buffer

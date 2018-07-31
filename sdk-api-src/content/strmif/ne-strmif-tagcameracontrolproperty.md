@@ -7,7 +7,7 @@ old-location: dshow\cameracontrolproperty.htm
 old-project: DirectShow
 ms.assetid: eebf2246-960f-48ea-86b7-7542e69f2e3e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CameraControlProperty, CameraControlProperty enumeration [DirectShow], CameraControlPropertyEnumeration, CameraControl_Exposure, CameraControl_Focus, CameraControl_Iris, CameraControl_Pan, CameraControl_Roll, CameraControl_Tilt, CameraControl_Zoom, dshow.cameracontrolproperty, strmif/CameraControlProperty, strmif/CameraControl_Exposure, strmif/CameraControl_Focus, strmif/CameraControl_Iris, strmif/CameraControl_Pan, strmif/CameraControl_Roll, strmif/CameraControl_Tilt, strmif/CameraControl_Zoom, tagCameraControlProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # tagCameraControlProperty enumeration
@@ -88,11 +87,9 @@ Specifies the exposure setting, in log base 2 seconds. In other words, for value
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Seconds
+<th>Seconds
                 </th>
 </tr>
 <tr>

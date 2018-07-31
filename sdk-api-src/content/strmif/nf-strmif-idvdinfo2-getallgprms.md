@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getallgprms.htm
 old-project: DirectShow
 ms.assetid: 994f57b5-8514-4768-a679-21133ec92e32
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetAllGPRMs, GetAllGPRMs method [DirectShow], GetAllGPRMs method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAllGPRMs method, IDvdInfo2.GetAllGPRMs, IDvdInfo2::GetAllGPRMs, IDvdInfo2GetAllGPRMs, dshow.idvdinfo2_getallgprms, strmif/IDvdInfo2::GetAllGPRMs
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ The <b>GetAllGPRMs</b> method retrieves the current contents of all general para
 
 ### -param pRegisterArray [out]
 
-
-            Pointer to an array of type <a href="https://msdn.microsoft.com/f0ab0a9d-00fa-4c61-9f5a-727cf69ffa1c">GPRMARRAY</a> that receives all 16 current GPRM values.
+Pointer to an array of type <a href="https://msdn.microsoft.com/f0ab0a9d-00fa-4c61-9f5a-727cf69ffa1c">GPRMARRAY</a> that receives all 16 current GPRM values.
           
 
 

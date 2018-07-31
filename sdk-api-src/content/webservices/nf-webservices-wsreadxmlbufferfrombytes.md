@@ -7,7 +7,7 @@ old-location: wsw\wsreadxmlbufferfrombytes.htm
 old-project: wsw
 ms.assetid: 7ab68738-add0-4e2a-a036-5c6ecdd1f236
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsReadXmlBufferFromBytes, WsReadXmlBufferFromBytes function [Web Services for Windows], webservices/WsReadXmlBufferFromBytes, wsw.wsreadxmlbufferfrombytes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Uses a reader to convert a set of encoded bytes to a <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a>.
+Uses a reader to convert a set of encoded bytes to a <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a>.
       
 
 
@@ -63,23 +62,20 @@ req.product: Windows Address Book 5.0
 
 ### -param reader [in]
 
-
-          The reader to use to parse the encoded bytes.
+The reader to use to parse the encoded bytes.
         
 
 
 ### -param encoding [in, optional]
 
-
-          The encoding to use when parsing the bytes.  If <b>NULL</b>, a <a href="https://msdn.microsoft.com/ffb351d7-36dc-44ce-8a5e-ee452ca8b4e6">WS_XML_READER_TEXT_ENCODING</a> 
+The encoding to use when parsing the bytes.  If <b>NULL</b>, a <a href="https://msdn.microsoft.com/ffb351d7-36dc-44ce-8a5e-ee452ca8b4e6">WS_XML_READER_TEXT_ENCODING</a> 
           with a charset of <a href="https://msdn.microsoft.com/47dadf5d-1bc7-4f93-936c-21c936bc3fc3">WS_CHARSET_AUTO</a> will be used.
         
 
 
 ### -param properties
 
-
-          An array of optional properties of the reader.  See <a href="https://msdn.microsoft.com/8864d679-c321-45bb-b774-f05696d6098e">WS_XML_READER_PROPERTY</a>.
+An array of optional properties of the reader.  See <a href="https://msdn.microsoft.com/8864d679-c321-45bb-b774-f05696d6098e">WS_XML_READER_PROPERTY</a>.
         
 
 
@@ -90,36 +86,31 @@ The number of properties.
 
 ### -param bytes
 
-
-          The bytes to parse.
+The bytes to parse.
         
 
 
 ### -param byteCount [in]
 
-
-          The number of bytes to parse.
+The number of bytes to parse.
         
 
 
 ### -param heap [in]
 
-
-          The heap from which to allocate the XML buffer.
+The heap from which to allocate the XML buffer.
         
 
 
 ### -param xmlBuffer
 
-
-          The XML buffer into which the bytes were read is returned here.
+The XML buffer into which the bytes were read is returned here.
         
 
 
 ### -param error [in, optional]
 
-
-          Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
         
 
 
@@ -141,7 +132,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -153,7 +143,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>
@@ -165,7 +154,6 @@ The operation is not allowed due to the current state of the object.
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -180,13 +168,10 @@ A quota was exceeded.
 
 
 
-
-        The function will parse the entire contents according to the specified encoding and store it into a <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a>.
+The function will parse the entire contents according to the specified encoding and store it into a <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a>.
       
 
-
-        The reader will be left in an undefined state after calling this function.  However, <b>WsReadXmlBufferFromBytes</b>
-        may be used again with such a reader.  Otherwise, <a href="https://msdn.microsoft.com/d7ac5233-266e-4ca1-aa58-e50b385b48bb">WsSetInput</a> or <a href="https://msdn.microsoft.com/0b3ac6ab-8c16-4189-950d-84bdcdabcde0">WsSetInputToBuffer</a> should be
+The reader will be left in an undefined state after calling this function.  However, <b>WsReadXmlBufferFromBytes</b>may be used again with such a reader.  Otherwise, <a href="https://msdn.microsoft.com/d7ac5233-266e-4ca1-aa58-e50b385b48bb">WsSetInput</a> or <a href="https://msdn.microsoft.com/0b3ac6ab-8c16-4189-950d-84bdcdabcde0">WsSetInputToBuffer</a> should be
         used to bring the reader back to a known state, or the reader should be freed using <a href="https://msdn.microsoft.com/31163bea-266f-43a3-bdf5-61386ebc197c">WsFreeReader</a>.
       
 

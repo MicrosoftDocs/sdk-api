@@ -7,7 +7,7 @@ old-location: parcon\iwpcprovidersupport.htm
 old-project: parcon
 ms.assetid: 5c2a793b-d136-4d03-9e46-b24009af2c7d
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 07/29/2018
 ms.keywords: IWPCProviderSupport, IWPCProviderSupport interface, IWPCProviderSupport interface,described, parcon.iwpcprovidersupport, wpcapi/IWPCProviderSupport
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CryptMsgOpenToEncode function
 author: windows-sdk-content
 description: Opens a cryptographic message for encoding and returns a handle of the opened message.
 old-location: security\cryptmsgopentoencode.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: b0d2610b-05ba-4fb6-8f38-10f970a52091
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CMSG_AUTHENTICATED_ATTRIBUTES_FLAG, CMSG_BARE_CONTENT_FLAG, CMSG_CMS_ENCAPSULATED_CONTENT_FLAG, CMSG_CONTENTS_OCTETS_FLAG, CMSG_CRYPT_RELEASE_CONTEXT_FLAG, CMSG_DATA, CMSG_DETACHED_FLAG, CMSG_ENVELOPED, CMSG_HASHED, CMSG_SIGNED, CMSG_SIGNED_AND_ENVELOPED, CryptMsgOpenToEncode, CryptMsgOpenToEncode function [Security], _crypto2_cryptmsgopentoencode, security.cryptmsgopentoencode, wincrypt/CryptMsgOpenToEncode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CryptMsgOpenToEncode</b> function opens a cryptographic message for encoding and returns a handle of the opened message. The message remains open until 
+The <b>CryptMsgOpenToEncode</b> function opens a cryptographic message for encoding and returns a handle of the opened message. The message remains open until 
 <a href="https://msdn.microsoft.com/2478dd60-233a-4ef3-86e9-62d2a59ab28a">CryptMsgClose</a> is called.
 
 
@@ -176,8 +175,7 @@ This value is not used.
 </dl>
 </td>
 <td width="60%">
-
-								The <i>pvMsgEncodeInfo</i> parameter is the address of a <a href="https://msdn.microsoft.com/93138744-8316-461b-908a-1eab47e83f63">CMSG_SIGNED_ENCODE_INFO</a> structure that contains the encoding information.
+The <i>pvMsgEncodeInfo</i> parameter is the address of a <a href="https://msdn.microsoft.com/93138744-8316-461b-908a-1eab47e83f63">CMSG_SIGNED_ENCODE_INFO</a> structure that contains the encoding information.
 
 </td>
 </tr>
@@ -207,8 +205,7 @@ This value is not currently implemented.
 </dl>
 </td>
 <td width="60%">
-
-								The <i>pvMsgEncodeInfo</i> parameter is the address of a <a href="https://msdn.microsoft.com/05dfeda0-a8a1-4203-a68a-af92903ab215">CMSG_HASHED_ENCODE_INFO</a> structure that contains the encoding information.
+The <i>pvMsgEncodeInfo</i> parameter is the address of a <a href="https://msdn.microsoft.com/05dfeda0-a8a1-4203-a68a-af92903ab215">CMSG_HASHED_ENCODE_INFO</a> structure that contains the encoding information.
 
 </td>
 </tr>
@@ -233,13 +230,11 @@ The following algorithm OIDs are commonly used. A user can define new inner cont
 <ul>
 <li>szOID_RSA_data</li>
 <li>szOID_RSA_signedData</li>
-<li>
-szOID_RSA_envelopedData</li>
+<li>szOID_RSA_envelopedData</li>
 <li>szOID_RSA_signEnvData</li>
 <li>szOID_RSA_digestedData</li>
 <li>szOID_RSA_encryptedData</li>
-<li>
-SPC_INDIRECT_DATA_OBJID</li>
+<li>SPC_INDIRECT_DATA_OBJID</li>
 </ul>
 
 ### -param pStreamInfo [in]
@@ -262,8 +257,7 @@ Consider the case of a signed message being enclosed in an enveloped message. Th
 
 
 
-
-						If the function succeeds, it returns a handle to the opened message. This handle must be closed when it is no longer needed by passing it to the <a href="https://msdn.microsoft.com/2478dd60-233a-4ef3-86e9-62d2a59ab28a">CryptMsgClose</a> function.
+If the function succeeds, it returns a handle to the opened message. This handle must be closed when it is no longer needed by passing it to the <a href="https://msdn.microsoft.com/2478dd60-233a-4ef3-86e9-62d2a59ab28a">CryptMsgClose</a> function.
 
 If this function fails, <b>NULL</b> is returned.
 
@@ -409,11 +403,11 @@ For examples that use this function, see
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Low-level Message Functions</a>
+<a href="cryptography_functions.htm">Low-level Message Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

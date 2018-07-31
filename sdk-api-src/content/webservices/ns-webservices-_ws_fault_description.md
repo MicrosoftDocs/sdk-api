@@ -7,7 +7,7 @@ old-location: wsw\ws_fault_description.htm
 old-project: wsw
 ms.assetid: 6634faec-5491-4332-b815-be2effa263f8
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_FAULT_DESCRIPTION, WS_FAULT_DESCRIPTION structure [Web Services for Windows], _WS_FAULT_DESCRIPTION, webservices/WS_FAULT_DESCRIPTION, wsw.ws_fault_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Information about a mapping between an <a href="https://msdn.microsoft.com/7fe0b142-04a1-4a92-99ca-523412f7c94e">WS_FAULT</a> and an XML element.
+Information about a mapping between an <a href="https://msdn.microsoft.com/7fe0b142-04a1-4a92-99ca-523412f7c94e">WS_FAULT</a> and an XML element.
             
 
 
@@ -63,7 +62,6 @@ req.product: Windows Address Book 5.0
 
 ### -field envelopeVersion
 
-
-                    The SOAP version to use when serializing the fault.
+The SOAP version to use when serializing the fault.
                 
 

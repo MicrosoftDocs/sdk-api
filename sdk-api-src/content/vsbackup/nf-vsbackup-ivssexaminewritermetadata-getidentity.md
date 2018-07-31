@@ -4,10 +4,10 @@ title: IVssExamineWriterMetadata::GetIdentity
 author: windows-sdk-content
 description: The GetIdentity method obtains basic information about a specific writer instance.
 old-location: base\ivssexaminewritermetadata_getidentity.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 55240ef2-f480-4917-98f9-e88a2e23edea
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetIdentity, GetIdentity method [VSS], GetIdentity method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetIdentity method, IVssExamineWriterMetadata.GetIdentity, IVssExamineWriterMetadata::GetIdentity, _win32_ivssexaminewritermetadata_getidentity, base.ivssexaminewritermetadata_getidentity, vsbackup/IVssExamineWriterMetadata::GetIdentity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -151,8 +151,7 @@ The XML document is not valid. Check the event log for details. For more informa
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
@@ -169,7 +168,7 @@ The XML document is not valid. Check the event log for details. For more informa
 
 
 
-The caller must free the memory held by the <i>pbstrWriterName</i> parameter by calling <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller must free the memory held by the <i>pbstrWriterName</i> parameter by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 An 
 <a href="https://msdn.microsoft.com/b3aa04d9-7299-4e3a-b092-d07f2de6eefe">IVssExamineWriterMetadata</a> interface might be from stored writer state information (created by a call to 

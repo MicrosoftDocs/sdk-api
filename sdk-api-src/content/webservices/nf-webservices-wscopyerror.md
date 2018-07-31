@@ -7,7 +7,7 @@ old-location: wsw\wscopyerror.htm
 old-project: wsw
 ms.assetid: 02b44bd4-b7ce-4be5-bd59-340c006a1e43
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCopyError, WsCopyError function [Web Services for Windows], webservices/WsCopyError, wsw.wscopyerror
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,8 +93,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
-                    One of the error objects is <b>NULL</b>.
+One of the error objects is <b>NULL</b>.
                 
 
 </td>
@@ -106,7 +105,6 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>

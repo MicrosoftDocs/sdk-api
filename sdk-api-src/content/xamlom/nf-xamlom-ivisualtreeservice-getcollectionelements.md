@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservice_getcollectionelements.htm
 old-project: xaml_diagnostics
 ms.assetid: 01A2694F-E9CF-4DD2-95EA-6CD5C72C65A8
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: GetCollectionElements, GetCollectionElements method, GetCollectionElements method,IVisualTreeService interface, IVisualTreeService interface,GetCollectionElements method, IVisualTreeService.GetCollectionElements, IVisualTreeService::GetCollectionElements, xaml_diagnostics.ivisualtreeservice_getcollectionelements, xamlom/IVisualTreeService::GetCollectionElements
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,8 +93,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 For any collection method, the caller should query the properties of a known element
-    and should only call this method if the property has <a href="https://msdn.microsoft.com/951A4C1F-B176-4D18-821A-CEAD1116B8BE">MetadataBit::IsValueCollection</a>
-    set.
+    and should only call this method if the property has <a href="https://msdn.microsoft.com/951A4C1F-B176-4D18-821A-CEAD1116B8BE">MetadataBit::IsValueCollection</a>set.
 
 
 

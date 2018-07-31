@@ -7,7 +7,7 @@ old-location: wsw\ws_encoder_encode_callback.htm
 old-project: wsw
 ms.assetid: f3b191b2-a92f-491d-bd77-500e2d3b37e8
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ENCODER_ENCODE_CALLBACK, WS_ENCODER_ENCODE_CALLBACK callback, WS_ENCODER_ENCODE_CALLBACK callback function [Web Services for Windows], webservices/WS_ENCODER_ENCODE_CALLBACK, wsw.ws_encoder_encode_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,36 +61,31 @@ Encodes a message.
 
 ### -param *encoderContext [in]
 
-
-                    The encoder instance returned by the <a href="https://msdn.microsoft.com/47a68722-0c99-478a-b1ce-2982287e6a74">WS_CREATE_ENCODER_CALLBACK</a>.
+The encoder instance returned by the <a href="https://msdn.microsoft.com/47a68722-0c99-478a-b1ce-2982287e6a74">WS_CREATE_ENCODER_CALLBACK</a>.
                 
 
 
 ### -param *buffers
 
-
-              The buffers of data to write.
+The buffers of data to write.
             
 
 
 ### -param count [in]
 
-
-              The number of buffers to write.
+The number of buffers to write.
             
 
 
 ### -param *asyncContext [in, optional]
 
-
-                    Information on how to invoke the function asynchronously, or NULL if invoking synchronously.
+Information on how to invoke the function asynchronously, or NULL if invoking synchronously.
                 
 
 
 ### -param *error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -110,7 +105,6 @@ Encodes a message.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -122,7 +116,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -148,8 +141,7 @@ This function may return other errors not listed above.
 
 
 
-
-              The encoder can use the callback passed to <a href="https://msdn.microsoft.com/47a68722-0c99-478a-b1ce-2982287e6a74">WS_CREATE_ENCODER_CALLBACK</a> to
+The encoder can use the callback passed to <a href="https://msdn.microsoft.com/47a68722-0c99-478a-b1ce-2982287e6a74">WS_CREATE_ENCODER_CALLBACK</a> to
               write the encoded data of the message.
             
 

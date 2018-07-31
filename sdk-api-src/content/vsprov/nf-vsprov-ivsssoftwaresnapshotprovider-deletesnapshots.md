@@ -4,10 +4,10 @@ title: IVssSoftwareSnapshotProvider::DeleteSnapshots
 author: windows-sdk-content
 description: Deletes one or more shadow copies or a shadow copy set.
 old-location: base\ivsssoftwaresnapshotprovider_deletesnapshots.htm
-old-project: vss
+old-project: VSS
 ms.assetid: aca6cdc1-186d-41e8-ac1b-0c6d7d9cbddd
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: DeleteSnapshots, DeleteSnapshots method, DeleteSnapshots method,IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,DeleteSnapshots method, IVssSoftwareSnapshotProvider.DeleteSnapshots, IVssSoftwareSnapshotProvider::DeleteSnapshots, base.ivsssoftwaresnapshotprovider_deletesnapshots, vsprov/IVssSoftwareSnapshotProvider::DeleteSnapshots
 ms.prod: windows
 ms.technology: windows-sdk
@@ -158,8 +158,7 @@ The specified shadow copies were not found.
 </dl>
 </td>
 <td width="60%">
-
-        Provider error. The provider logged the error in the event log. For more information, see 
+Provider error. The provider logged the error in the event log. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
        
 

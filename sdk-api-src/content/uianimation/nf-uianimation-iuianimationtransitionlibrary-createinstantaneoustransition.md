@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary_createinstantaneoustrans
 old-project: UIAnimation
 ms.assetid: 70db1315-df4a-472e-8d79-61bf93980337
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateInstantaneousTransition, CreateInstantaneousTransition method [Windows Animation], CreateInstantaneousTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateInstantaneousTransition method, IUIAnimationTransitionLibrary.CreateInstantaneousTransition, IUIAnimationTransitionLibrary::CreateInstantaneousTransition, uianimation.iuianimationtransitionlibrary_createinstantaneoustransition, uianimation/IUIAnimationTransitionLibrary::CreateInstantaneousTransition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates an instantaneous transition.
+Creates an instantaneous transition.
 
 
 ## -parameters
@@ -62,14 +61,12 @@ req.product: Windows XP with SP1 and later
 
 ### -param finalValue [in]
 
-
-               The value of the animation variable at the end of the transition.
+The value of the animation variable at the end of the transition.
 
 
 ### -param transition [out]
 
-
-               The new instantaneous transition.
+The new instantaneous transition.
 
 
 ## -returns

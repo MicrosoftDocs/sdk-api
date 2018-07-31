@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccomponentfactory_createmetadatareaderfromcontai
 old-project: wic
 ms.assetid: 876d2d5a-8247-4e4a-b402-0ee02d9b0158
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: CreateMetadataReaderFromContainer, CreateMetadataReaderFromContainer method [Windows Imaging Component], CreateMetadataReaderFromContainer method [Windows Imaging Component],IWICComponentFactory interface, IWICComponentFactory interface [Windows Imaging Component],CreateMetadataReaderFromContainer method, IWICComponentFactory.CreateMetadataReaderFromContainer, IWICComponentFactory::CreateMetadataReaderFromContainer, _wic_codec_iwiccomponentfactory_createmetadatareaderfromcontainer, wic._wic_codec_iwiccomponentfactory_createmetadatareaderfromcontainer, wincodecsdk/IWICComponentFactory::CreateMetadataReaderFromContainer
 ms.prod: windows
 ms.technology: windows-sdk

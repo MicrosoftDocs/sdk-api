@@ -4,10 +4,10 @@ title: CredMarshalCredentialA function
 author: windows-sdk-content
 description: The CredMarshalCredential function transforms a credential into a text string.
 old-location: security\credmarshalcredential.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 20a1d54b-04a7-4b0a-88e4-1970d1f71502
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: CredMarshalCredential, CredMarshalCredential function [Security], CredMarshalCredentialA, CredMarshalCredentialW, _cred_credmarshalcredential, security.credmarshalcredential, wincred/CredMarshalCredential, wincred/CredMarshalCredentialA, wincred/CredMarshalCredentialW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,8 +56,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CredMarshalCredential</b> function transforms a credential into a text string. Historically, many functions, such as <a href="https://msdn.microsoft.com/22550c17-003a-4f59-80f0-58fa3e286844">NetUseAdd</a>, take a domain name, user name, and password as credentials. These functions do not accept certificates as credentials. The <b>CredMarshalCredential</b> function converts such credentials into a form that can be passed into these APIs.
+The <b>CredMarshalCredential</b> function transforms a credential into a text string. Historically, many functions, such as <a href="https://msdn.microsoft.com/22550c17-003a-4f59-80f0-58fa3e286844">NetUseAdd</a>, take a domain name, user name, and password as credentials. These functions do not accept certificates as credentials. The <b>CredMarshalCredential</b> function converts such credentials into a form that can be passed into these APIs.
 
 The marshaled credential should be passed as the user name string to any API that is currently passed credentials. The domain name, if applicable, passed to that API should be passed as <b>NULL</b> or empty. For certificate credentials, the PIN of the certificate should be passed to that API as the password.
 
@@ -96,8 +95,7 @@ Pointer to a <b>null</b>-terminated
 
 
 
-
-						This function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function can be called to get a more specific status code. The following status code can be returned:
+This function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function can be called to get a more specific status code. The following status code can be returned:
 
 ERROR_INVALID_PARAMETER
 

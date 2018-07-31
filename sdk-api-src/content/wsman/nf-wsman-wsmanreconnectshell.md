@@ -4,10 +4,10 @@ title: WSManReconnectShell function
 author: windows-sdk-content
 description: Reconnects a previously disconnected shell session. To reconnect the shell session's associated commands, use WSManReconnectShellCommand.
 old-location: winrm\wsmanreconnectshell.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 92D9D3FE-73A1-45FA-AD8A-344AB909C6F7
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: WSManReconnectShell, WSManReconnectShell function [Windows Remote Management], winrm.wsmanreconnectshell, wsman/WSManReconnectShell
 ms.prod: windows
 ms.technology: windows-sdk

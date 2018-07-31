@@ -7,7 +7,7 @@ old-location: wsw\wswritechars.htm
 old-project: wsw
 ms.assetid: e435058f-62b5-4ae9-800e-e022033a9664
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsWriteChars, WsWriteChars function [Web Services for Windows], webservices/WsWriteChars, wsw.wswritechars
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,8 +78,7 @@ A pointer to the characters to write.
 
 ### -param charCount [in]
 
-
-          The number of characters to write.
+The number of characters to write.
         
 
 
@@ -107,7 +106,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -119,7 +117,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>
@@ -134,8 +131,7 @@ The operation is not allowed due to the current state of the object.
 
 
 
-<b>WsWriteChars</b> can be called more than once between <a href="https://msdn.microsoft.com/9fd1eed9-6d8b-4b2e-a7ad-54a7f584734f">WsWriteStartAttribute</a> and <a href="https://msdn.microsoft.com/8747c484-19b3-46b2-beee-80b220011def">WsWriteEndAttribute</a>.  It cannot be combined with <a href="https://msdn.microsoft.com/53cdaf22-21ed-4e5a-8034-d5a4725b9da3">WsWriteCharsUtf8</a>, <a href="https://msdn.microsoft.com/1fa9ecfc-c791-459f-ae11-ffcdc82b7145">WsWriteBytes</a>, <a href="https://msdn.microsoft.com/c7b9d014-89b5-4959-b49e-ee2cdeb41f7c">WsWriteValue</a> or <a href="https://msdn.microsoft.com/a4ffc05e-d04a-4cc3-bdb6-71b2090bc32f">WsWriteText</a>
-        when writing an attribute.
+<b>WsWriteChars</b> can be called more than once between <a href="https://msdn.microsoft.com/9fd1eed9-6d8b-4b2e-a7ad-54a7f584734f">WsWriteStartAttribute</a> and <a href="https://msdn.microsoft.com/8747c484-19b3-46b2-beee-80b220011def">WsWriteEndAttribute</a>.  It cannot be combined with <a href="https://msdn.microsoft.com/53cdaf22-21ed-4e5a-8034-d5a4725b9da3">WsWriteCharsUtf8</a>, <a href="https://msdn.microsoft.com/1fa9ecfc-c791-459f-ae11-ffcdc82b7145">WsWriteBytes</a>, <a href="https://msdn.microsoft.com/c7b9d014-89b5-4959-b49e-ee2cdeb41f7c">WsWriteValue</a> or <a href="https://msdn.microsoft.com/a4ffc05e-d04a-4cc3-bdb6-71b2090bc32f">WsWriteText</a>when writing an attribute.
       
 
 

@@ -7,7 +7,7 @@ old-location: uianimation\ui_animation_rounding_mode.htm
 old-project: UIAnimation
 ms.assetid: 0221207b-4583-44b8-85aa-dc6cd4cd9d25
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: UI_ANIMATION_ROUNDING_CEILING, UI_ANIMATION_ROUNDING_FLOOR, UI_ANIMATION_ROUNDING_MODE, UI_ANIMATION_ROUNDING_MODE enumeration [Windows Animation], UI_ANIMATION_ROUNDING_NEAREST, __MIDL___MIDL_itf_UIAnimation_0000_0001_0001, uianimation.ui_animation_rounding_mode, uianimation/UI_ANIMATION_ROUNDING_CEILING, uianimation/UI_ANIMATION_ROUNDING_FLOOR, uianimation/UI_ANIMATION_ROUNDING_MODE, uianimation/UI_ANIMATION_ROUNDING_NEAREST
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-         Defines the rounding modes to be used when the value of an animation variable is converted from a floating-point type to an integer type.
+Defines the rounding modes to be used when the value of an animation variable is converted from a floating-point type to an integer type.
 
 
 ## -enum-fields
@@ -62,20 +61,17 @@ req.product: Windows XP with SP1 and later
 
 ### -field UI_ANIMATION_ROUNDING_NEAREST
 
-
-               Round to the nearest integer.
+Round to the nearest integer.
 
 
 ### -field UI_ANIMATION_ROUNDING_FLOOR
 
-
-                Round down.
+Round down.
 
 
 ### -field UI_ANIMATION_ROUNDING_CEILING
 
-
-                Round up.
+Round up.
 
 
 ## -see-also

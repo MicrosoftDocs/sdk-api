@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimer_isenabled.htm
 old-project: UIAnimation
 ms.assetid: 42a7e690-40bb-4795-9076-5e4bed62562d
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationTimer interface [Windows Animation],IsEnabled method, IUIAnimationTimer.IsEnabled, IUIAnimationTimer::IsEnabled, IsEnabled, IsEnabled method [Windows Animation], IsEnabled method [Windows Animation],IUIAnimationTimer interface, uianimation.iuianimationtimer_isenabled, uianimation/IUIAnimationTimer::IsEnabled
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Determines whether the timer is currently enabled.
+Determines whether the timer is currently enabled.
 
 
 ## -parameters
@@ -66,8 +65,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-
-               Returns S_OK if the animation timer is enabled, S_FALSE if the animation timer is disabled, or an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
+Returns S_OK if the animation timer is enabled, S_FALSE if the animation timer is disabled, or an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
 
 
 
@@ -81,13 +79,11 @@ req.product: Windows XP with SP1 and later
 
 
 
-<a href="https://msdn.microsoft.com/981f2086-3588-4150-aa0a-c427b93ef8bb">
-      IUIAnimationTimer::Disable</a>
+<a href="https://msdn.microsoft.com/981f2086-3588-4150-aa0a-c427b93ef8bb">IUIAnimationTimer::Disable</a>
 
 
 
-<a href="https://msdn.microsoft.com/b2efd694-67ff-4e6e-9a47-d0ce70dbd85a">
-      IUIAnimationTimer::Enable</a>
+<a href="https://msdn.microsoft.com/b2efd694-67ff-4e6e-9a47-d0ce70dbd85a">IUIAnimationTimer::Enable</a>
  
 
  

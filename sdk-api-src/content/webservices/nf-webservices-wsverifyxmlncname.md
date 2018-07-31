@@ -7,7 +7,7 @@ old-location: wsw\wsverifyxmlncname.htm
 old-project: wsw
 ms.assetid: af9953c0-481d-4aa8-b938-e10d5d733a59
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsVerifyXmlNCName, WsVerifyXmlNCName function [Web Services for Windows], webservices/WsVerifyXmlNCName, wsw.wsverifyxmlncname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Verifies whether the input string is a valid XML NCName.
+Verifies whether the input string is a valid XML NCName.
       
 
 
@@ -63,22 +62,19 @@ req.product: Windows Address Book 5.0
 
 ### -param ncNameChars
 
-
-          The string to be verified.
+The string to be verified.
         
 
 
 ### -param ncNameCharCount [in]
 
-
-          The length of the <i>ncNameChars</i> string.
+The length of the <i>ncNameChars</i> string.
         
 
 
 ### -param error [in, optional]
 
-
-          Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
         
 
 

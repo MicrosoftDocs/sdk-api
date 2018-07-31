@@ -4,10 +4,10 @@ title: IVdsService::Advise
 author: windows-sdk-content
 description: Registers the caller's IVdsAdviseSink interface with VDS so that the caller receives notifications from the VDS service.
 old-location: base\ivdsservice_advise.htm
-old-project: vds
+old-project: VDS
 ms.assetid: be1d5385-6c72-4847-9ed7-4d2309a3e9ac
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: Advise, Advise method [VDS], Advise method [VDS],IVdsService interface, IVdsService interface [VDS],Advise method, IVdsService.Advise, IVdsService::Advise, base.ivdsservice_advise, vds/IVdsService::Advise
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ A pointer to a cookie that can later be used to unregister the interface.
 
 
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -103,8 +103,7 @@ The registration completed successfully.
 </dl>
 </td>
 <td width="60%">
-
-        VDS failed to initialize. If an application calls this method before the service finishes initializing, the 
+VDS failed to initialize. If an application calls this method before the service finishes initializing, the 
         method is blocked until the initialization completes. If the initialization fails, this error is returned.
 
 </td>
@@ -119,16 +118,14 @@ The registration completed successfully.
 
 
 
-
-    To receive notifications from the VDS service, your application must implement the <a href="https://msdn.microsoft.com/8e9b7c95-0b59-4268-a274-5d16812075a6">IVdsAdviseSink</a> 
+To receive notifications from the VDS service, your application must implement the <a href="https://msdn.microsoft.com/8e9b7c95-0b59-4268-a274-5d16812075a6">IVdsAdviseSink</a> 
     interface and use the <b>Advise</b> method to register the interface.
 
 To stop receiving notifications from the VDS service, use the <a href="https://msdn.microsoft.com/085d380c-2e09-470a-a23d-704c31535975">IVdsService::Unadvise</a> method to unregister the <a href="https://msdn.microsoft.com/8e9b7c95-0b59-4268-a274-5d16812075a6">IVdsAdviseSink</a> interface.
 
 <div class="alert"><b>Note</b>  An application that calls <b>Advise</b> must eventually call <a href="https://msdn.microsoft.com/085d380c-2e09-470a-a23d-704c31535975">Unadvise</a>. Ideally, it should call <b>Unadvise</b> as soon as it no longer needs to receive notifications.</div>
 <div> </div>
-
-    To receive notifications from underlying software and hardware providers, VDS passes a notification callback 
+To receive notifications from underlying software and hardware providers, VDS passes a notification callback 
     function to each provider as a parameter of the 
     <a href="https://msdn.microsoft.com/c5b2ac78-6a23-470c-a762-26ce6358e0b6">IVdsProviderPrivate::OnLoad</a> method.
 

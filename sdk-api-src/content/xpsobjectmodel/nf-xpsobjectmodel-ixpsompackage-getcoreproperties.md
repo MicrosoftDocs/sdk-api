@@ -7,7 +7,7 @@ old-location: xps\ixpsompackage_getcoreproperties.htm
 old-project: printdocs
 ms.assetid: ebe5c8a2-2d6a-4a86-8bf3-1fec1dec68d0
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetCoreProperties, GetCoreProperties method [XPS Documents and Packaging], GetCoreProperties method [XPS Documents and Packaging],IXpsOMPackage interface, IXpsOMPackage interface [XPS Documents and Packaging],GetCoreProperties method, IXpsOMPackage.GetCoreProperties, IXpsOMPackage::GetCoreProperties, xps.ixpsompackage_getcoreproperties, xpsobjectmodel/IXpsOMPackage::GetCoreProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Gets a pointer to the  <a href="https://msdn.microsoft.com/705ec9c7-5aa9-4fc5-ad
 
 ### -param coreProperties [out, retval]
 
-
-            A pointer to the  <a href="https://msdn.microsoft.com/705ec9c7-5aa9-4fc5-ad2c-441cb545d056">IXpsOMCoreProperties</a> interface of the XPS package. If an <b>IXpsOMCoreProperties</b> interface has not been set, a <b>NULL</b> pointer is returned.
+A pointer to the  <a href="https://msdn.microsoft.com/705ec9c7-5aa9-4fc5-ad2c-441cb545d056">IXpsOMCoreProperties</a> interface of the XPS package. If an <b>IXpsOMCoreProperties</b> interface has not been set, a <b>NULL</b> pointer is returned.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: wsw\ws_url_scheme_type.htm
 old-project: wsw
 ms.assetid: e8763719-6ba0-4e5e-bb71-625d36a45eaf
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_URL_HTTPS_SCHEME_TYPE, WS_URL_HTTP_SCHEME_TYPE, WS_URL_NETPIPE_SCHEME_TYPE, WS_URL_NETTCP_SCHEME_TYPE, WS_URL_SCHEME_TYPE, WS_URL_SCHEME_TYPE enumeration [Web Services for Windows], WS_URL_SOAPUDP_SCHEME_TYPE, webservices/WS_URL_HTTPS_SCHEME_TYPE, webservices/WS_URL_HTTP_SCHEME_TYPE, webservices/WS_URL_NETPIPE_SCHEME_TYPE, webservices/WS_URL_NETTCP_SCHEME_TYPE, webservices/WS_URL_SCHEME_TYPE, webservices/WS_URL_SOAPUDP_SCHEME_TYPE, wsw.ws_url_scheme_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                The set of schemes used with <a href="https://msdn.microsoft.com/67147b71-ca3a-4a17-a4f1-6ba608eca742">WsDecodeUrl</a>, <a href="https://msdn.microsoft.com/8253b062-072b-4d37-8b82-407df1bea6b4">WsEncodeUrl</a>, 
+The set of schemes used with <a href="https://msdn.microsoft.com/67147b71-ca3a-4a17-a4f1-6ba608eca742">WsDecodeUrl</a>, <a href="https://msdn.microsoft.com/8253b062-072b-4d37-8b82-407df1bea6b4">WsEncodeUrl</a>, 
                 and <a href="https://msdn.microsoft.com/6cff906a-adb7-4453-8d44-6a5bf44a681b">WsCombineUrl</a>.
             
 
@@ -64,29 +63,25 @@ req.product: Windows Address Book 5.0
 
 ### -field WS_URL_HTTP_SCHEME_TYPE
 
-
-                    Denotes the "http" scheme: <a href="https://msdn.microsoft.com/36f4dda6-d46a-44cd-b4cd-597fa3298870">WS_HTTP_URL</a>
+Denotes the "http" scheme: <a href="https://msdn.microsoft.com/36f4dda6-d46a-44cd-b4cd-597fa3298870">WS_HTTP_URL</a>
 
 
 
 ### -field WS_URL_HTTPS_SCHEME_TYPE
 
-
-                    Denotes the "https" scheme: <a href="https://msdn.microsoft.com/4a7cf425-40c6-4951-880e-b3a99076bb2b">WS_HTTPS_URL</a>
+Denotes the "https" scheme: <a href="https://msdn.microsoft.com/4a7cf425-40c6-4951-880e-b3a99076bb2b">WS_HTTPS_URL</a>
 
 
 
 ### -field WS_URL_NETTCP_SCHEME_TYPE
 
-
-                    Denotes the "net.tcp" scheme: <a href="https://msdn.microsoft.com/62079e59-01c8-48fb-932a-ca01cc7b86ec">WS_NETTCP_URL</a>
+Denotes the "net.tcp" scheme: <a href="https://msdn.microsoft.com/62079e59-01c8-48fb-932a-ca01cc7b86ec">WS_NETTCP_URL</a>
 
 
 
 ### -field WS_URL_SOAPUDP_SCHEME_TYPE
 
-
-                    Denotes the "soap.udp" scheme: <a href="https://msdn.microsoft.com/f39c551f-891b-48c2-8143-84845506cde9">WS_SOAPUDP_URL</a>
+Denotes the "soap.udp" scheme: <a href="https://msdn.microsoft.com/f39c551f-891b-48c2-8143-84845506cde9">WS_SOAPUDP_URL</a>
 
 
 

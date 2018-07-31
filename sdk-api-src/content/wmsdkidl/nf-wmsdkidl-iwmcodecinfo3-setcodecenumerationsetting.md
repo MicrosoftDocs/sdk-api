@@ -7,7 +7,7 @@ old-location: wmformat\iwmcodecinfo3_setcodecenumerationsetting.htm
 old-project: wmformat
 ms.assetid: 5b4883b8-63c0-40ff-b13f-303d30ebfe15
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMCodecInfo3 interface [windows Media Format],SetCodecEnumerationSetting method, IWMCodecInfo3.SetCodecEnumerationSetting, IWMCodecInfo3::SetCodecEnumerationSetting, IWMCodecInfo3SetCodecEnumerationSetting, SetCodecEnumerationSetting, SetCodecEnumerationSetting method [windows Media Format], SetCodecEnumerationSetting method [windows Media Format],IWMCodecInfo3 interface, wmformat.iwmcodecinfo3_setcodecenumerationsetting, wmsdkidl/IWMCodecInfo3::SetCodecEnumerationSetting
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,11 +71,9 @@ GUID identifying the major type of digital media. This must be one of the follow
 
 <table>
 <tr>
-<th>
-                  Constant
+<th>Constant
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -101,11 +99,9 @@ Pointer to a wide-character null-terminated string containing the name of the en
 
 <table>
 <tr>
-<th>
-                  Constant
+<th>Constant
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -135,7 +131,6 @@ A pointer to a <b>BYTE</b> array containing the setting value.
 
 
 ### -param dwSize [in]
-
 
 <b>DWORD</b> containing the size of the <i>pValue</i> <b>BYTE</b> array.
 
@@ -188,17 +183,13 @@ The Windows Media Audio and Video 9 Series codecs can potentially enumerate four
 <table>
 <tr>
 <th></th>
-<th>
-              Constant bit rate (CBR) stream
+<th>Constant bit rate (CBR) stream
             </th>
-<th>
-              Two-pass CBR stream
+<th>Two-pass CBR stream
             </th>
-<th>
-              Quality-based variable bit rate (VBR) stream
+<th>Quality-based variable bit rate (VBR) stream
             </th>
-<th>
-              Bit-rate-based VBR stream (constrained or unconstrained)
+<th>Bit-rate-based VBR stream (constrained or unconstrained)
             </th>
 </tr>
 <tr>

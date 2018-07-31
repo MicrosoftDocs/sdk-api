@@ -4,10 +4,10 @@ title: CredGetTargetInfoW function
 author: windows-sdk-content
 description: The CredGetTargetInfo function retrieves all known target name information for the named target computer.
 old-location: security\credgettargetinfo.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 14dca0af-72d7-4ca8-84bb-c7040c5b5fb9
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: CredGetTargetInfo, CredGetTargetInfo function [Security], CredGetTargetInfoA, CredGetTargetInfoW, _cred_credgettargetinfo, security.credgettargetinfo, wincred/CredGetTargetInfo, wincred/CredGetTargetInfoA, wincred/CredGetTargetInfoW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,8 +56,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CredGetTargetInfo</b> function retrieves all known target name information for the named target computer. This executed locally and does not need any particular privilege. The information returned is expected to be passed to the 
+The <b>CredGetTargetInfo</b> function retrieves all known target name information for the named target computer. This executed locally and does not need any particular privilege. The information returned is expected to be passed to the 
 <a href="https://msdn.microsoft.com/b62cb9c9-2a64-4ef4-97f0-e1ea85976d3e">CredReadDomainCredentials</a> and 
 <a href="https://msdn.microsoft.com/6b54c14f-a736-4fb0-b4e4-97765a792a5e">CredWriteDomainCredentials</a> functions. The information should not be used for any other purpose.
 

@@ -7,7 +7,7 @@ old-location: wmp\iwmptranscodepolicy_allowtranscode.htm
 old-project: WMP
 ms.assetid: 6b43e247-cbb5-4ef1-8906-5ce7e1e58484
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPTranscodePolicy interface [Windows Media Player],allowTranscode method, IWMPTranscodePolicy.allowTranscode, IWMPTranscodePolicy::allowTranscode, IWMPTranscodePolicyallowTranscode, allowTranscode, allowTranscode method [Windows Media Player], allowTranscode method [Windows Media Player],IWMPTranscodePolicy interface, wmp.iwmptranscodepolicy_allowtranscode, wmpservices/IWMPTranscodePolicy::allowTranscode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,11 +82,9 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

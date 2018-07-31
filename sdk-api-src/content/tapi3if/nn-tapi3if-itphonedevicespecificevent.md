@@ -4,10 +4,10 @@ title: ITPhoneDeviceSpecificEvent
 author: windows-sdk-content
 description: The ITPhoneDeviceSpecificEvent exposes methods that allow an application to retrieve information about a phone device-specific event.
 old-location: tapi3\itphonedevicespecificevent.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: a4b2fb49-6128-41b6-8eb3-13a8bbba66ac
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITPhoneDeviceSpecificEvent, ITPhoneDeviceSpecificEvent interface [TAPI 2.2], ITPhoneDeviceSpecificEvent interface [TAPI 2.2],described, _tapi3_itphonedevicespecificevent, tapi3.itphonedevicespecificevent, tapi3if/ITPhoneDeviceSpecificEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ For a code example that illustrates how to create this interface, see the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPhoneDeviceSpecificEvent</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITPhoneDeviceSpecificEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPhoneDeviceSpecificEvent</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITPhoneDeviceSpecificEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

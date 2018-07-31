@@ -4,10 +4,10 @@ title: "_SR_SECURITY_DESCRIPTOR"
 author: windows-sdk-content
 description: The SR_SECURITY_DESCRIPTOR structure contains information about the security privileges of the user.
 old-location: security\sr_security_descriptor.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 000ffbbe-5750-449b-8237-27c8d3c45454
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PSR_SECURITY_DESCRIPTOR, PSR_SECURITY_DESCRIPTOR, PSR_SECURITY_DESCRIPTOR structure pointer [Security], SR_SECURITY_DESCRIPTOR, SR_SECURITY_DESCRIPTOR structure [Security], _SR_SECURITY_DESCRIPTOR, _lsa_sr_security_descriptor, security.sr_security_descriptor, subauth/PSR_SECURITY_DESCRIPTOR, subauth/SR_SECURITY_DESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-			The <b>SR_SECURITY_DESCRIPTOR</b> structure contains information about the security <a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">privileges</a> of the user.
+The <b>SR_SECURITY_DESCRIPTOR</b> structure contains information about the security <a href="https://msdn.microsoft.com/library/windows/hardware/ff559863">privileges</a> of the user.
 
 
 ## -struct-fields

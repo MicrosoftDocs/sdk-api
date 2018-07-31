@@ -4,10 +4,10 @@ title: QueryContextAttributesW function
 author: windows-sdk-content
 description: Lets a transport application query the Credential Security Support Provider (CredSSP) security package for certain attributes of a security context.
 old-location: security\querycontextattributes__credssp_.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 4956c4ab-b71e-4960-b750-f3a79b87baac
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: QueryContextAttributes, QueryContextAttributes (CredSSP), QueryContextAttributes function [Security], QueryContextAttributesA, QueryContextAttributesW, SECPKG_ATTR_CERT_TRUST_STATUS, SECPKG_ATTR_CREDS, SECPKG_ATTR_CREDS_2, SECPKG_ATTR_C_ACCESS_TOKEN, SECPKG_ATTR_C_FULL_ACCESS_TOKEN, SECPKG_ATTR_NEGOTIATION_PACKAGE, SECPKG_ATTR_PACKAGE_INFO, SECPKG_ATTR_SERVER_AUTH_FLAGS, SECPKG_ATTR_SIZES, SECPKG_ATTR_SUBJECT_SECURITY_ATTRIBUTES, security.querycontextattributes__credssp_, sspi/QueryContextAttributes, sspi/QueryContextAttributesA, sspi/QueryContextAttributesW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # QueryContextAttributesW function
@@ -168,8 +167,7 @@ The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.micro
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/94c21f22-d974-4ae5-beef-d4567e6ea7e1">SecPkgContext_PackageInfo</a>
-							structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/94c21f22-d974-4ae5-beef-d4567e6ea7e1">SecPkgContext_PackageInfo</a>structure.
 
 Returns information on the SSP in use.
 
@@ -231,8 +229,7 @@ A pointer to a structure that receives the attributes. The structure type depend
 
 
 
-
-                        If the function succeeds, it returns SEC_E_OK.
+If the function succeeds, it returns SEC_E_OK.
 
 If the function fails, it can return the following error codes.
 
@@ -295,7 +292,7 @@ While  the caller must allocate the <i>pBuffer</i> structure itself, the SSP all
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParser_ParsePropertyValue.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\parsepropertyvalue.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: IQueryParser interface [search],ParsePropertyValue method, IQueryParser.ParsePropertyValue, IQueryParser::ParsePropertyValue, ParsePropertyValue, ParsePropertyValue method [search], ParsePropertyValue method [search],IQueryParser interface, _search_IQueryParser_ParsePropertyValue, search._search_IQueryParser_ParsePropertyValue, structuredquery/IQueryParser::ParsePropertyValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,9 +75,9 @@ Query string to be parsed, relative to that property.
 
 ### -param ppSolution [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb231346(v=VS.85).aspx">IQuerySolution</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/a4987e80-7ad9-400d-8c6d-ec3b9a6bf3f1">IQuerySolution</a>**</b>
 
-Receives an <a href="https://msdn.microsoft.com/library/Bb231346(v=VS.85).aspx">IQuerySolution</a> object. The calling application must release it by calling its <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
+Receives an <a href="https://msdn.microsoft.com/a4987e80-7ad9-400d-8c6d-ec3b9a6bf3f1">IQuerySolution</a> object. The calling application must release it by calling its <a href="_com_IUnknown_Release">IUnknown::Release</a> method.
 
 
 ## -returns
@@ -95,8 +95,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-            The input string can be anything that could have been written immediately after a property in a structured query. For example, "from:(bill OR alex)" would be a valid structured query, so passing System.StructuredQuery.Virtual.From (for which From is a keyword) in the <i>pszPropertyName</i> parameter and "(bill OR alex)" or "bill OR alex" in the <i>pszInputString</i> parameter would be valid. This would result in an <b>OR</b> of leaf nodes that relate the System.StructuredQuery.Virtual.From property with the strings "bill" and "alex".
+The input string can be anything that could have been written immediately after a property in a structured query. For example, "from:(bill OR alex)" would be a valid structured query, so passing System.StructuredQuery.Virtual.From (for which From is a keyword) in the <i>pszPropertyName</i> parameter and "(bill OR alex)" or "bill OR alex" in the <i>pszInputString</i> parameter would be valid. This would result in an <b>OR</b> of leaf nodes that relate the System.StructuredQuery.Virtual.From property with the strings "bill" and "alex".
             
 
 

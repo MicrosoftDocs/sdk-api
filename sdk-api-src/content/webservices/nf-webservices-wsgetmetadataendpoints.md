@@ -7,7 +7,7 @@ old-location: wsw\wsgetmetadataendpoints.htm
 old-project: wsw
 ms.assetid: 1cf9f2ba-c303-4668-a959-8fad69746438
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetMetadataEndpoints, WsGetMetadataEndpoints function [Web Services for Windows], webservices/WsGetMetadataEndpoints, wsw.wsgetmetadataendpoints
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 Returns the "Endpoints" defined within the metadata object documents.
-            Calling this function with <a href="https://msdn.microsoft.com/4d2b8c31-d5ff-4b96-9aaf-57e59d075431">WS_METADATA_STATE</a>
-                 set to <b>WS_METADATA_STATE_CREATED</b> will cause the metadata object to resolve
+            Calling this function with <a href="https://msdn.microsoft.com/4d2b8c31-d5ff-4b96-9aaf-57e59d075431">WS_METADATA_STATE</a>set to <b>WS_METADATA_STATE_CREATED</b> will cause the metadata object to resolve
                 all references in the metadata documents. Any
                 additional document validation will also be done.  If this process is
                 successful  the metadata object will be set to <b>WS_METADATA_STATE_RESOLVED</b> and  subsequent document additions to the metadata object are not permitted.   If there is an error the metadata object 
@@ -117,7 +116,6 @@ The property id was not supported for this object or the specified buffer was no
 </dl>
 </td>
 <td width="60%">
-
 Insufficient memory resources.
 
 </td>
@@ -143,13 +141,10 @@ This function may return other errors not listed above.
 
 
 
-
-                This property may be used in <b>WS_METADATA_STATE_CREATED</b>
-                or <b>WS_METADATA_STATE_RESOLVED</b> state.
+This property may be used in <b>WS_METADATA_STATE_CREATED</b>or <b>WS_METADATA_STATE_RESOLVED</b> state.
             
 
-
-                This function will fail if there are missing metadata documents.
+This function will fail if there are missing metadata documents.
                 Use <a href="https://msdn.microsoft.com/7854fb44-c397-4fd0-8a0e-ea293eba4f01">WsGetMissingMetadataDocumentAddress</a> to determine
                 the address of any missing documents.
             

@@ -4,10 +4,10 @@ title: HttpOpenRequestA function
 author: windows-sdk-content
 description: Creates an HTTP request handle.
 old-location: wininet\httpopenrequest.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: caaff8e8-7db9-4d6d-8ba2-d8d19475173a
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: HTTP/1.0, HTTP/1.1, HttpOpenRequest, HttpOpenRequest function [WinINet], HttpOpenRequestA, HttpOpenRequestW, _inet_httpopenrequest_function, wininet.httpopenrequest, wininet/HttpOpenRequest, wininet/HttpOpenRequestA, wininet/HttpOpenRequestW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -357,8 +357,7 @@ Returns an HTTP request handle if successful, or <b>NULL</b> otherwise. To retri
 
 
 
-
-				The <b>HttpOpenRequest</b> function creates a new HTTP request handle and stores the specified parameters in that handle. An HTTP request handle holds a request to be sent to an HTTP server and contains all RFC822/MIME/HTTP headers to be sent as part of the request.
+The <b>HttpOpenRequest</b> function creates a new HTTP request handle and stores the specified parameters in that handle. An HTTP request handle holds a request to be sent to an HTTP server and contains all RFC822/MIME/HTTP headers to be sent as part of the request.
 
 If a verb other than "GET" or "POST" is specified, <b>HttpOpenRequest</b> automatically sets INTERNET_FLAG_NO_CACHE_WRITE and INTERNET_FLAG_RELOAD for the request.
 

@@ -7,7 +7,7 @@ old-location: wsw\ws_int8_description.htm
 old-project: wsw
 ms.assetid: 8085c256-fb1a-4537-bbad-9a1b3e8149ee
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_INT8_DESCRIPTION, WS_INT8_DESCRIPTION structure [Web Services for Windows], _WS_INT8_DESCRIPTION, webservices/WS_INT8_DESCRIPTION, wsw.ws_int8_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                
-                An optional type description used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_INT8_TYPE</a>  to specify constraints on the set of values
+An optional type description used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_INT8_TYPE</a>  to specify constraints on the set of values
                 which can be deserialized.
             
 
@@ -65,14 +63,12 @@ req.product: Windows Address Book 5.0
 
 ### -field minValue
 
-
-                    The minimum value.
+The minimum value.
                 
 
 
 ### -field maxValue
 
-
-                    The maximum value.
+The maximum value.
                 
 

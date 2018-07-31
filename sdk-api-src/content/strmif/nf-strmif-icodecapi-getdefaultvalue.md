@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_getdefaultvalue.htm
 old-project: DirectShow
 ms.assetid: 749f5235-2f62-4609-84b8-a880a38cd9cb
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetDefaultValue, GetDefaultValue method [DirectShow], GetDefaultValue method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetDefaultValue method, ICodecAPI.GetDefaultValue, ICodecAPI::GetDefaultValue, ICodecAPIGetDefaultValue, dshow.icodecapi_getdefaultvalue, strmif/ICodecAPI::GetDefaultValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows XP with SP1
 ## -description
 
 
-
-        The <b>GetDefaultValue</b> method gets the default value of a codec property.
+The <b>GetDefaultValue</b> method gets the default value of a codec property.
       
 
 
@@ -64,15 +63,13 @@ req.product: Windows XP with SP1
 
 ### -param Api [in]
 
-
-            Pointer to a GUID that specifies the property. For a list of standard codec properties, see <a href="https://msdn.microsoft.com/5d527af7-07cf-42e2-99bb-d56c856cc1bc">Codec API Properties</a>.
+Pointer to a GUID that specifies the property. For a list of standard codec properties, see <a href="https://msdn.microsoft.com/5d527af7-07cf-42e2-99bb-d56c856cc1bc">Codec API Properties</a>.
           
 
 
 ### -param Value [out]
 
-
-            Pointer to a <b>VARIANT</b> that receives the default value. The caller must free the <b>VARIANT</b> by calling <b>VariantClear</b>.
+Pointer to a <b>VARIANT</b> that receives the default value. The caller must free the <b>VARIANT</b> by calling <b>VariantClear</b>.
           
 
 

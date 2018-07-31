@@ -7,7 +7,7 @@ old-location: wsw\ws_reset_listener_callback.htm
 old-project: wsw
 ms.assetid: 98a48403-5ac6-44c2-8a43-c81746390a0d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_RESET_LISTENER_CALLBACK, WS_RESET_LISTENER_CALLBACK callback, WS_RESET_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_RESET_LISTENER_CALLBACK, wsw.ws_reset_listener_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,16 +63,14 @@ Handles the <a href="https://msdn.microsoft.com/c23c8ad4-a193-42f2-9e4a-3e814b7b
 
 ### -param *listenerInstance [in]
 
-
-                    The pointer to the state specific to this listener instance,
+The pointer to the state specific to this listener instance,
                     as created by the <a href="https://msdn.microsoft.com/2d8e476d-dc68-44b4-b53b-be440a32efda">WS_CREATE_LISTENER_CALLBACK</a>.
                 
 
 
 ### -param *error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -92,8 +90,7 @@ Handles the <a href="https://msdn.microsoft.com/c23c8ad4-a193-42f2-9e4a-3e814b7b
 </dl>
 </td>
 <td width="60%">
-
-                    The listener was in an inappropriate state.
+The listener was in an inappropriate state.
                 
 
 </td>
@@ -108,8 +105,7 @@ Handles the <a href="https://msdn.microsoft.com/c23c8ad4-a193-42f2-9e4a-3e814b7b
 
 
 
-
-                See <a href="https://msdn.microsoft.com/c23c8ad4-a193-42f2-9e4a-3e814b7bbdb2">WsResetListener</a> for information about the contract
+See <a href="https://msdn.microsoft.com/c23c8ad4-a193-42f2-9e4a-3e814b7bbdb2">WsResetListener</a> for information about the contract
                 of this API.
             
 

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationinterpolator2_getdependencies.htm
 old-project: UIAnimation
 ms.assetid: DC6F046E-1A35-4FB9-9016-853AF2B598DE
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetDependencies, GetDependencies method [Windows Animation], GetDependencies method [Windows Animation],IUIAnimationInterpolator2 interface, IUIAnimationInterpolator2 interface [Windows Animation],GetDependencies method, IUIAnimationInterpolator2.GetDependencies, IUIAnimationInterpolator2::GetDependencies, uianimation.iuianimationinterpolator2_getdependencies, uianimation/IUIAnimationInterpolator2::GetDependencies
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,7 @@ Aspects of the interpolator that depend on the  initial value passed to <a href=
 
 ### -param initialVelocityDependencies [out]
 
-
-                
-                Aspects of the interpolator that depend on the initial velocity passed to <a href="https://msdn.microsoft.com/F1C0C54D-86C3-4B65-96A4-66D89F2B2084">SetInitialValueAndVelocity</a>.
+Aspects of the interpolator that depend on the initial velocity passed to <a href="https://msdn.microsoft.com/F1C0C54D-86C3-4B65-96A4-66D89F2B2084">SetInitialValueAndVelocity</a>.
 
 
 ### -param durationDependencies [out]

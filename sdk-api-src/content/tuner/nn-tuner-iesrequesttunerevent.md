@@ -7,7 +7,7 @@ old-location: mstv\iesrequesttunerevent.htm
 old-project: mstv
 ms.assetid: da1183a3-6f31-402a-b103-448cf13705a9
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IESRequestTunerEvent, IESRequestTunerEvent interface [Microsoft TV Technologies], IESRequestTunerEvent interface [Microsoft TV Technologies],described, mstv.iesrequesttunerevent, tuner/IESRequestTunerEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Contains methods that enable a Protected Broadcast Driver Architecture (PBDA)-supported device  to get exclusive access to a tuner and its Conditional Access Services (CAS).
+Contains methods that enable a Protected Broadcast Driver Architecture (PBDA)-supported device  to get exclusive access to a tuner and its Conditional Access Services (CAS).
 
 For more information about PBDA, download the specification from <a href="http://go.microsoft.com/fwlink/p/?linkid=132926">http://go.microsoft.com/fwlink/p/?linkid=132926</a>.
 
@@ -77,8 +76,7 @@ The <b>IESRequestTunerEvent</b> interface has these methods.
 <a href="https://msdn.microsoft.com/39588da7-90e7-4544-b53c-0f0ddb6cd951">GetConsequences</a>
 </td>
 <td align="left" width="63%">
-
-            Gets a code that indicates consquences of a device request for exclusive access to a tuner and its CAS.
+Gets a code that indicates consquences of a device request for exclusive access to a tuner and its CAS.
 
 </td>
 </tr>
@@ -87,8 +85,7 @@ The <b>IESRequestTunerEvent</b> interface has these methods.
 <a href="https://msdn.microsoft.com/9968c1b1-5a4d-45a1-a083-afdbcc616f6d">GetEstimatedTime</a>
 </td>
 <td align="left" width="63%">
-
-            Gets the amount of time a device estimates it  needs exclusive access to a tuner and its CAS.
+Gets the amount of time a device estimates it  needs exclusive access to a tuner and its CAS.
           
 
 </td>
@@ -98,8 +95,7 @@ The <b>IESRequestTunerEvent</b> interface has these methods.
 <a href="https://msdn.microsoft.com/a0edc656-0628-4020-bf8e-a5cd0bedd7c3">GetPriority</a>
 </td>
 <td align="left" width="63%">
-
-            Gets a code that indicates the the priority of a device request for exclusive access to a tuner and its Conditional Access Services (CAS).
+Gets a code that indicates the the priority of a device request for exclusive access to a tuner and its Conditional Access Services (CAS).
           
 
 </td>
@@ -109,8 +105,7 @@ The <b>IESRequestTunerEvent</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ff8b9080-0299-4ba9-a49d-9ef142e91eb8">GetReason</a>
 </td>
 <td align="left" width="63%">
-
-            Gets a code that indicates the reason a device is requesting exclusive access to a tuner and its CAS.
+Gets a code that indicates the reason a device is requesting exclusive access to a tuner and its CAS.
           
 
 </td>

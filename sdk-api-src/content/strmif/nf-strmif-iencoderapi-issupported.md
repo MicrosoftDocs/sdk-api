@@ -7,7 +7,7 @@ old-location: mstv\iencoderapi_issupported.htm
 old-project: mstv
 ms.assetid: bbcbde18-2b2d-48b0-9f52-185648f502ce
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IEncoderAPI interface [Microsoft TV Technologies],IsSupported method, IEncoderAPI.IsSupported, IEncoderAPI::IsSupported, IEncoderAPIIsSupported, IsSupported, IsSupported method [Microsoft TV Technologies], IsSupported method [Microsoft TV Technologies],IEncoderAPI interface, mstv.iencoderapi_issupported, strmif/IEncoderAPI::IsSupported
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ The <b>IsSupported</b> method queries whether a given parameter is supported.
 
 ### -param Api [in]
 
-
-            Pointer to a GUID that specifies the parameter.
+Pointer to a GUID that specifies the parameter.
           
 
 
@@ -112,12 +111,10 @@ The encoder does not support the parameter.
 
 
 
-
-        The method returns S_OK if the encoder recognizes the GUID. To check whether the parameter can be read or modified, call the <a href="https://msdn.microsoft.com/ad94b70f-fd35-44b4-8322-9891cd7f17cc">IEncoderAPI::IsAvailable</a> method.
+The method returns S_OK if the encoder recognizes the GUID. To check whether the parameter can be read or modified, call the <a href="https://msdn.microsoft.com/ad94b70f-fd35-44b4-8322-9891cd7f17cc">IEncoderAPI::IsAvailable</a> method.
       
 
-
-        Any errors besides those in the table above indicate an inability to process the call.
+Any errors besides those in the table above indicate an inability to process the call.
       
 
 

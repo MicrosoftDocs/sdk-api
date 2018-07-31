@@ -4,10 +4,10 @@ title: IVssBackupComponents::DoSnapshotSet
 author: windows-sdk-content
 description: Commits all shadow copies in this set simultaneously.
 old-location: base\ivssbackupcomponents_dosnapshotset.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 3cc6c375-8a24-4af3-b4ad-5a695cc2645c
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: DoSnapshotSet, DoSnapshotSet method [VSS], DoSnapshotSet method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DoSnapshotSet method, IVssBackupComponents.DoSnapshotSet, IVssBackupComponents::DoSnapshotSet, _win32_ivssbackupcomponents_dosnapshotset, base.ivssbackupcomponents_dosnapshotset, vsbackup/IVssBackupComponents::DoSnapshotSet
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-
-    Commits all 
+Commits all 
     shadow copies in this set simultaneously.
    
 
@@ -74,8 +73,7 @@ A
 
 
 
-
-      The following are the valid return codes for this method. These error codes may be returned from this method, or 
+The following are the valid return codes for this method. These error codes may be returned from this method, or 
       from the <a href="https://msdn.microsoft.com/85fb3ae8-dc09-4f6f-a96b-e4dc046ff48a">QueryStatus</a> method on the 
       <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface returned in the 
       <i>ppAsync</i> parameter.
@@ -92,8 +90,7 @@ A
 </dl>
 </td>
 <td width="60%">
-
-        Successfully returned a pointer to an instance of the 
+Successfully returned a pointer to an instance of the 
         <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface. See 
         <a href="https://msdn.microsoft.com/85fb3ae8-dc09-4f6f-a96b-e4dc046ff48a">IVssAsync::QueryStatus</a> for the valid values
         returned by the <i>pHrResult</i> parameter.
@@ -141,8 +138,7 @@ The caller is out of memory or other system resources.
 </dl>
 </td>
 <td width="60%">
-
-        The backup components object has not been initialized or the prerequisite calls for a given shadow copy
+The backup components object has not been initialized or the prerequisite calls for a given shadow copy
         context have not been made prior to calling 
         <a href="https://msdn.microsoft.com/3cc6c375-8a24-4af3-b4ad-5a695cc2645c">DoSnapshotSet</a>.
        
@@ -156,8 +152,7 @@ The caller is out of memory or other system resources.
 </dl>
 </td>
 <td width="60%">
-
-        The system or provider has insufficient storage space. If possible delete any old or unnecessary persistent 
+The system or provider has insufficient storage space. If possible delete any old or unnecessary persistent 
         shadow copies and try again. This error code is only returned via the 
         <a href="https://msdn.microsoft.com/85fb3ae8-dc09-4f6f-a96b-e4dc046ff48a">QueryStatus</a> method on the 
         <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface returned in the 
@@ -173,8 +168,7 @@ The caller is out of memory or other system resources.
 </dl>
 </td>
 <td width="60%">
-
-        The system was unable to flush I/O writes. This can be a transient problem. It is recommended to wait ten 
+The system was unable to flush I/O writes. This can be a transient problem. It is recommended to wait ten 
         minutes and try again, up to three times.
        
 
@@ -187,8 +181,7 @@ The caller is out of memory or other system resources.
 </dl>
 </td>
 <td width="60%">
-
-        The system was unable to hold I/O writes. This can be a transient problem. It is recommended to wait ten 
+The system was unable to hold I/O writes. This can be a transient problem. It is recommended to wait ten 
         minutes and try again, up to three times.
        
 
@@ -214,8 +207,7 @@ The specified volume is nested too deeply to participate in the VSS operation.
 </dl>
 </td>
 <td width="60%">
-
-        The provider was unable to perform the request at this time. This can be a transient problem. It is 
+The provider was unable to perform the request at this time. This can be a transient problem. It is 
         recommended to wait ten minutes and try again, up to three times. This error code is only returned via the 
         <a href="https://msdn.microsoft.com/85fb3ae8-dc09-4f6f-a96b-e4dc046ff48a">QueryStatus</a> method on the 
         <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface returned in the 
@@ -270,8 +262,7 @@ The system was unable to thaw the Distributed Transaction Coordinator (DTC) or t
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
@@ -285,8 +276,7 @@ The system was unable to thaw the Distributed Transaction Coordinator (DTC) or t
 </dl>
 </td>
 <td width="60%">
-
-        The provider returned an unexpected error code. This can be a transient problem. It is recommended to wait 
+The provider returned an unexpected error code. This can be a transient problem. It is recommended to wait 
         ten minutes and try again, up to three times. This error code is only returned via the 
         <a href="https://msdn.microsoft.com/85fb3ae8-dc09-4f6f-a96b-e4dc046ff48a">QueryStatus</a> method on the 
         <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface returned in the 
@@ -305,8 +295,7 @@ The system was unable to thaw the Distributed Transaction Coordinator (DTC) or t
 
 
 
-
-    The caller is responsible for releasing the 
+The caller is responsible for releasing the 
     <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface.
    
 
@@ -314,8 +303,7 @@ This method cannot be called for a virtual hard disk (VHD) that is nested inside
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>VHDs are not supported.
 
-
-    For information on how to use 
+For information on how to use 
     <b>IVssBackupComponents::DoSnapshotSet</b> to
     create a standard backup shadow copy, see 
     <a href="https://msdn.microsoft.com/e6b082af-719b-4426-8217-0fc940f5884d">Overview of Pre-Backup Tasks</a> and 

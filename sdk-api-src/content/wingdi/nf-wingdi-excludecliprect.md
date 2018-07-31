@@ -7,7 +7,7 @@ old-location: gdi\excludecliprect.htm
 old-project: gdi
 ms.assetid: 5b29c44a-3959-498e-8327-c42ef16a8609
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: ExcludeClipRect, ExcludeClipRect function [Windows GDI], _win32_ExcludeClipRect, gdi.excludecliprect, wingdi/ExcludeClipRect
 ms.prod: windows
 ms.technology: windows-sdk

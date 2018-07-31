@@ -4,10 +4,10 @@ title: "_FILE_STREAM_INFO"
 author: windows-sdk-content
 description: Receives file stream information for the specified file.
 old-location: fs\file_stream_info.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 36d1b0b3-bd6b-41e7-937a-4e8deef6f9da
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "*PFILE_STREAM_INFO, FILE_STREAM_INFO, FILE_STREAM_INFO structure [Files], PFILE_STREAM_INFO, PFILE_STREAM_INFO structure pointer [Files], _FILE_STREAM_INFO, fileextd/FILE_STREAM_INFO, fileextd/PFILE_STREAM_INFO, fs.file_stream_info, winbase/FILE_STREAM_INFO, winbase/PFILE_STREAM_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

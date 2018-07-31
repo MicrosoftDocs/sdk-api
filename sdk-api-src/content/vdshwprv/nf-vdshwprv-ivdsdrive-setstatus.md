@@ -4,10 +4,10 @@ title: IVdsDrive::SetStatus
 author: windows-sdk-content
 description: Sets the status of the drive to the specified value.
 old-location: base\ivdsdrive_setstatus.htm
-old-project: vds
+old-project: VDS
 ms.assetid: d74f045f-7b6f-4ede-827d-f7f7486495e8
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: IVdsDrive interface [VDS],SetStatus method, IVdsDrive.SetStatus, IVdsDrive::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsDrive interface, base.ivdsdrive_setstatus, vds/IVdsDrive::SetStatus, vdshwprv/IVdsDrive::SetStatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,7 @@ req.product: Windows UI
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
 
-
-   Sets the status of the drive 
+Sets the status of the drive 
    to the specified value.
   
 
@@ -67,8 +66,7 @@ req.product: Windows UI
 
 ### -param status [in]
 
-
-      Values enumerated by <a href="https://msdn.microsoft.com/fff84c91-d207-44fc-bcd6-03e34eaed9e3">VDS_DRIVE_STATUS</a>. Callers can 
+Values enumerated by <a href="https://msdn.microsoft.com/fff84c91-d207-44fc-bcd6-03e34eaed9e3">VDS_DRIVE_STATUS</a>. Callers can 
       pass in a subset of the possible enumeration values. Passing in <b>VDS_DRS_UNKNOWN</b> 
       returns <b>E_INVALIDARG</b>.
 
@@ -77,7 +75,7 @@ req.product: Windows UI
 
 
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -92,8 +90,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 </dl>
 </td>
 <td width="60%">
-
-        This return value signals a software or communication problem inside a provider that caches information about 
+This return value signals a software or communication problem inside a provider that caches information about 
         the array. Use the <a href="https://msdn.microsoft.com/aeb06a98-8896-446f-abd5-ea40be0bea40">IVdsHwProvider::Reenumerate</a> 
         method followed by the <a href="https://msdn.microsoft.com/25ddc73c-5d1b-4bec-bbc2-9f22a5f82ffe">IVdsHwProvider::Refresh</a> 
         method to restore the cache.
@@ -133,8 +130,7 @@ The drive is in a failed state, and is unable to perform the requested operation
 </dl>
 </td>
 <td width="60%">
-
-        Another operation is in progress; this operation cannot proceed until the previous operation or operations 
+Another operation is in progress; this operation cannot proceed until the previous operation or operations 
         are complete.
        
 
@@ -162,8 +158,7 @@ This operation or combination of parameters is not supported by this provider.
 
 
 
-
-    Implementers are responsible for performing any necessary operations to get the status to the specified state. 
+Implementers are responsible for performing any necessary operations to get the status to the specified state. 
     For example, if the caller passes in <b>VDS_DRS_OFFLINE</b> as the drive status, you might 
     need to first clear the cache.
 

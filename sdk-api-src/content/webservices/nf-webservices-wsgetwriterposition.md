@@ -7,7 +7,7 @@ old-location: wsw\wsgetwriterposition.htm
 old-project: wsw
 ms.assetid: 0c0fbd78-ed4f-40da-a63d-a2f38136ecb3
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetWriterPosition, WsGetWriterPosition function [Web Services for Windows], webservices/WsGetWriterPosition, wsw.wsgetwriterposition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Returns the current position of the writer.  This can only be used on a 
+Returns the current position of the writer.  This can only be used on a 
         writer that is set to an XmlBuffer. When writing to a buffer, the position
         represents the xml node before which new data will be placed.
       
@@ -65,22 +64,19 @@ req.product: Windows Address Book 5.0
 
 ### -param writer [in]
 
-
-          The writer for which the current position will be obtained.
+The writer for which the current position will be obtained.
         
 
 
 ### -param nodePosition [out]
 
-
-          The current position of the writer is returned here.
+The current position of the writer is returned here.
         
 
 
 ### -param error [in, optional]
 
-
-          Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
         
 
 
@@ -102,7 +98,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -117,12 +112,10 @@ One or more arguments are invalid.
 
 
 
-
-        See <a href="https://msdn.microsoft.com/40ca058c-04e1-4358-b330-360a094a8791">WS_XML_NODE_POSITION</a> for more information on using positions.
+See <a href="https://msdn.microsoft.com/40ca058c-04e1-4358-b330-360a094a8791">WS_XML_NODE_POSITION</a> for more information on using positions.
       
 
-
-        It may be useful to call <a href="https://msdn.microsoft.com/56bf55f8-978c-4f03-9ace-f992530927c2">WsWriteEndStartElement</a> to force an element to be committed before
+It may be useful to call <a href="https://msdn.microsoft.com/56bf55f8-978c-4f03-9ace-f992530927c2">WsWriteEndStartElement</a> to force an element to be committed before
         obtaining the position.
       
 

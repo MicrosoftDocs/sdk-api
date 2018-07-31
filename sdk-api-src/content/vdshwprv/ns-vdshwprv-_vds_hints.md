@@ -4,10 +4,10 @@ title: "_VDS_HINTS"
 author: windows-sdk-content
 description: Defines the automagic hints for a LUN or LUN plex.
 old-location: base\vds_hints.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 2c9f04bb-a014-401e-9656-affbac11f810
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: "*PVDS_HINTS, PVDS_HINTS, PVDS_HINTS structure pointer [VDS], VDS_HINTS, VDS_HINTS structure [VDS], VDS_HINT_FASTCRASHRECOVERYREQUIRED, VDS_HINT_HARDWARECHECKSUMENABLED, VDS_HINT_ISYANKABLE, VDS_HINT_MOSTLYREADS, VDS_HINT_OPTIMIZEFORSEQUENTIALREADS, VDS_HINT_OPTIMIZEFORSEQUENTIALWRITES, VDS_HINT_READBACKVERIFYENABLED, VDS_HINT_REMAPENABLED, VDS_HINT_WRITETHROUGHCACHINGENABLED, _VDS_HINTS, base.vds_hints, vds/PVDS_HINTS, vds/_VDS_HINTS, vdshwprv/PVDS_HINTS, vdshwprv/_VDS_HINTS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,7 @@ req.product: Windows UI
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
 
-
-   Defines the automagic hints for a 
+Defines the automagic hints for a 
    LUN or LUN plex.
 
 
@@ -183,8 +182,7 @@ The provider configures LUN so that the drives that contribute to it can be phys
 
 ### -field ullExpectedMaximumSize
 
-
-      The maximum size to which the LUN is expected to grow, in bytes. The value can be equal to, greater than, or 
+The maximum size to which the LUN is expected to grow, in bytes. The value can be equal to, greater than, or 
       less than the value specified in <i>ullSizeInBytes</i> when the 
       <a href="https://msdn.microsoft.com/e8097364-1f23-4cda-8f12-a750bbb4eb4c">IVdsSubSystem::CreateLun</a> method is called.
       Some providers use this value to reserve space for the LUN. Providers that are unable to reserve space 
@@ -198,8 +196,7 @@ The optimal read size for the LUN, in bytes. Zero indicates no optimal read size
 
 ### -field ulOptimalReadAlignment
 
-
-      The optimal read alignment with respect to the first logical block of the LUN. Zero indicates no optimal read 
+The optimal read alignment with respect to the first logical block of the LUN. Zero indicates no optimal read 
       alignment.
 
 
@@ -210,15 +207,13 @@ The optimal write size for the LUN, in bytes. Zero indicates no optimal write si
 
 ### -field ulOptimalWriteAlignment
 
-
-      The optimal write alignment with respect to the first logical block of the LUN. Zero indicates no optimal 
+The optimal write alignment with respect to the first logical block of the LUN. Zero indicates no optimal 
       write alignment.
 
 
 ### -field ulMaximumDriveCount
 
-
-      The maximum number of drives to contribute to the LUN. Zero indicates no maximum drive count. This value can be 
+The maximum number of drives to contribute to the LUN. Zero indicates no maximum drive count. This value can be 
       used to limit the number of stripe interleaves in a stripe set.
 
 
@@ -229,23 +224,20 @@ The mirror or parity stripe interleave size, in bytes. Zero leaves the stripe si
 
 ### -field bFastCrashRecoveryRequired
 
-
-      If this member is TRUE, the recovery time is limited. Set the <b>VDS_HINT_FASTCRASHRECOVERYREQUIRED</b> 
+If this member is TRUE, the recovery time is limited. Set the <b>VDS_HINT_FASTCRASHRECOVERYREQUIRED</b> 
       flag in the <b>ullHintMask</b> member to indicate interest in this member.
 
 
 ### -field bMostlyReads
 
-
-      To optimize for a mostly-reads usage pattern (for example, through mirroring rather than parity striping), set 
+To optimize for a mostly-reads usage pattern (for example, through mirroring rather than parity striping), set 
       this member to TRUE. Otherwise, set it to <b>FALSE</b>. Set the <b>VDS_HINT_MOSTLYREADS</b> flag in 
       the <b>ullHintMask</b> member to indicate interest in this member.
 
 
 ### -field bOptimizeForSequentialReads
 
-
-      To optimize for a sequential-reads usage pattern, set this member to <b>TRUE</b>. Otherwise, set it to <b>FALSE</b>. Setting the 
+To optimize for a sequential-reads usage pattern, set this member to <b>TRUE</b>. Otherwise, set it to <b>FALSE</b>. Setting the 
       <b>bOptimizeForSequentialReads</b> and 
       <b>bOptimizeForSequentialWrites</b> members both to <b>FALSE</b> optimizes for random I/O. Set the 
       <b>VDS_HINT_OPTIMIZEFORSEQUENTIALREADS</b> flag in 
@@ -254,8 +246,7 @@ The mirror or parity stripe interleave size, in bytes. Zero leaves the stripe si
 
 ### -field bOptimizeForSequentialWrites
 
-
-      To optimize for a sequential-writes usage pattern, set to this member to <b>TRUE</b>. Otherwise, set it to <b>FALSE</b>. Setting the 
+To optimize for a sequential-writes usage pattern, set to this member to <b>TRUE</b>. Otherwise, set it to <b>FALSE</b>. Setting the 
       <b>bOptimizeForSequentialReads</b> and 
       <b>bOptimizeForSequentialWrites</b> members both to <b>FALSE</b> optimizes for random I/O. Set the 
       <b>VDS_HINT_OPTIMIZEFORSEQUENTIALWRITES</b> flag in 
@@ -264,8 +255,7 @@ The mirror or parity stripe interleave size, in bytes. Zero leaves the stripe si
 
 ### -field bRemapEnabled
 
-
-      If this member is <b>TRUE</b>, the provider remaps LUN extents to drive extents automatically. If it is <b>FALSE</b>, the mapping of LUN extents 
+If this member is <b>TRUE</b>, the provider remaps LUN extents to drive extents automatically. If it is <b>FALSE</b>, the mapping of LUN extents 
       to drive extents remains fixed after LUN configuration unless extents are explicitly remapped to avoid 
       corrupted blocks. Set the <b>VDS_HINT_REMAPENABLED</b> flag in 
       the <b>ullHintMask</b> member to indicate interest in this member.
@@ -273,32 +263,28 @@ The mirror or parity stripe interleave size, in bytes. Zero leaves the stripe si
 
 ### -field bReadBackVerifyEnabled
 
-
-      If this member is set to <b>TRUE</b>, the provider verifies the writes to the LUN by readback. If it is set to <b>FALSE</b>, the provider does not verify writes. 
+If this member is set to <b>TRUE</b>, the provider verifies the writes to the LUN by readback. If it is set to <b>FALSE</b>, the provider does not verify writes. 
       Set the <b>VDS_HINT_READBACKVERIFYENABLED</b> flag in 
       the <b>ullHintMask</b> member to indicate interest in this member.
 
 
 ### -field bWriteThroughCachingEnabled
 
-
-      If this member is <b>TRUE</b>, the provider enables write-through caching on the LUN. If it is <b>FALSE</b>, the provider does not enable
+If this member is <b>TRUE</b>, the provider enables write-through caching on the LUN. If it is <b>FALSE</b>, the provider does not enable
       write-through caching. Set the <b>VDS_HINT_WRITETHROUGHCACHINGENABLED</b> flag in 
       the <b>ullHintMask</b> member to indicate interest in this member.
 
 
 ### -field bHardwareChecksumEnabled
 
-
-      If this member is <b>TRUE</b>, the provider enables a checksum on the LUN. Set the 
+If this member is <b>TRUE</b>, the provider enables a checksum on the LUN. Set the 
       <b>VDS_HINT_HARDWARECHECKSUMENABLED</b> flag in 
       the <b>ullHintMask</b> member to indicate interest in this member.
 
 
 ### -field bIsYankable
 
-
-      If this member is <b>TRUE</b>, the drives that contribute to the LUN can be physically removed without significant disruption to the 
+If this member is <b>TRUE</b>, the drives that contribute to the LUN can be physically removed without significant disruption to the 
       system (this is typically true when the LUN is composed of extents from only a few drives). If it is <b>FALSE</b>, the LUN
       cannot be removed without significant disruption to the system. Set the 
       <b>VDS_HINT_ISYANKABLE</b> flag in the <b>ullHintMask</b> member to indicate 
@@ -314,8 +300,7 @@ The rebuild priority for the LUN. The value can range from 0 (lowest priority) t
 
 
 
-
-    The <a href="https://msdn.microsoft.com/e8097364-1f23-4cda-8f12-a750bbb4eb4c">IVdsSubSystem::CreateLun</a> method passes 
+The <a href="https://msdn.microsoft.com/e8097364-1f23-4cda-8f12-a750bbb4eb4c">IVdsSubSystem::CreateLun</a> method passes 
     this structure as a parameter to provide hints for creating a LUN. It is passed as a parameter in the 
     <b>ApplyHints</b> method on both the 
     <a href="https://msdn.microsoft.com/e2fbebc0-593e-437c-a401-80e35a43da94">IVdsLun</a> and 
@@ -326,8 +311,7 @@ The rebuild priority for the LUN. The value can range from 0 (lowest priority) t
     to a LUN or LUN plex, respectively.
     
 
-
-     Hints are not directives to implementers. While implementers are in general expected to do their best to take hints into consideration, 
+Hints are not directives to implementers. While implementers are in general expected to do their best to take hints into consideration, 
      they are not obligated to follow them. Implementers can opt for alternatives when unable to follow specified hints for
      technical reasons or when following them can result in a poor configuration.
 

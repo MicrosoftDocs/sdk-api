@@ -4,10 +4,10 @@ title: CredEnumerateA function
 author: windows-sdk-content
 description: Enumerates the credentials from the user's credential set.
 old-location: security\credenumerate.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: ef0b7620-7b00-45f1-af16-141d2e940783
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: CRED_ENUMERATE_ALL_CREDENTIALS, CredEnumerate, CredEnumerate function [Security], CredEnumerateA, CredEnumerateW, _cred_credenumerate, security.credenumerate, wincred/CredEnumerate, wincred/CredEnumerateA, wincred/CredEnumerateW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,8 +57,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CredEnumerate</b> function enumerates the credentials from the user's credential set. The credential set used is the one associated with the logon session of the current token. The token must not have the user's SID disabled.
+The <b>CredEnumerate</b> function enumerates the credentials from the user's credential set. The credential set used is the one associated with the logon session of the current token. The token must not have the user's SID disabled.
 
 
 ## -parameters
@@ -122,8 +121,7 @@ The returned credential is a single allocated block. Any pointers contained with
 
 
 
-
-						The function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function can be called to get a more specific status code. The following status codes can be returned.
+The function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function can be called to get a more specific status code. The following status codes can be returned.
 
 <table>
 <tr>

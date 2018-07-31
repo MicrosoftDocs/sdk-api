@@ -4,10 +4,10 @@ title: ITextPara::GetListStart
 author: windows-sdk-content
 description: Retrieves the starting value or code of a list numbering sequence.
 old-location: controls\ITextPara_GetListStart.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getliststart.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetListStart, GetListStart method [Windows Controls], GetListStart method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetListStart method, ITextPara.GetListStart, ITextPara::GetListStart, _win32_ITextPara_GetListStart, _win32_ITextPara_GetListStart_cpp, controls.ITextPara_GetListStart, controls._win32_ITextPara_GetListStart, tom/ITextPara::GetListStart
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Retrieves the starting value or code of a list numbering sequence.
 
 Type: <b>long*</b>
 
-The starting value or code of a list numbering sequence. For the possible values, see the <a href="https://msdn.microsoft.com/library/Bb773991(v=VS.85).aspx">ITextPara::GetListType</a> method. 
+The starting value or code of a list numbering sequence. For the possible values, see the <a href="https://msdn.microsoft.com/df2b0821-9216-465a-b066-60807a0b3e0f">ITextPara::GetListType</a> method. 
 
 
 ## -returns
@@ -122,7 +122,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-For a discussion on which sequence to use, see the <a href="https://msdn.microsoft.com/library/Bb773991(v=VS.85).aspx">ITextPara::GetListType</a> method.
+For a discussion on which sequence to use, see the <a href="https://msdn.microsoft.com/df2b0821-9216-465a-b066-60807a0b3e0f">ITextPara::GetListType</a> method.
 
 
 
@@ -136,11 +136,11 @@ For a discussion on which sequence to use, see the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773991(v=VS.85).aspx">GetListType</a>
+<a href="https://msdn.microsoft.com/df2b0821-9216-465a-b066-60807a0b3e0f">GetListType</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -148,15 +148,15 @@ For a discussion on which sequence to use, see the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774175(v=VS.85).aspx">SetListStart</a>
+<a href="https://msdn.microsoft.com/1ba2346a-b56a-4eda-a6f9-0563e71c9cbd">SetListStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787786(v=VS.85).aspx">SetListType</a>
+<a href="https://msdn.microsoft.com/5f9adb67-e4d6-41c9-b360-efbcead7befc">SetListType</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

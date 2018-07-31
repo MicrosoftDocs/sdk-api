@@ -7,7 +7,7 @@ old-location: xps\ixpsomsignatureblockresourcecollection.htm
 old-project: printdocs
 ms.assetid: 681bdb9c-69dd-4bf6-a4b3-c490f7a0363e
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMSignatureBlockResourceCollection, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging], IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomsignatureblockresourcecollection, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IXpsOMSignatureBlockResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/4643df46-aa6f-4ffb-90f1-8834e16b4321">Append</a>
 </td>
 <td align="left" width="63%">
-
-              Appends an <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a45a8">IXpsOMSignatureBlockResource</a> interface to the end of the collection.
+Appends an <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a45a8">IXpsOMSignatureBlockResource</a> interface to the end of the collection.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IXpsOMSignatureBlockResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a45a8">IXpsOMSignatureBlockResource</a> interface pointer from a specified location in the collection.
+Gets an <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a45a8">IXpsOMSignatureBlockResource</a> interface pointer from a specified location in the collection.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IXpsOMSignatureBlockResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/38e6d6d9-0f31-45e9-8a19-1aae02dfafd3">GetByPartName</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a45a8">IXpsOMSignatureBlockResource</a> interface pointer from the collection by matching the interface's part name.
+Gets an <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a45a8">IXpsOMSignatureBlockResource</a> interface pointer from the collection by matching the interface's part name.
             
 
 </td>
@@ -107,8 +104,7 @@ The <b>IXpsOMSignatureBlockResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the number of <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a45a8">IXpsOMSignatureBlockResource</a> interface pointers in the collection.
+Gets the number of <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a45a8">IXpsOMSignatureBlockResource</a> interface pointers in the collection.
             
 
 </td>
@@ -118,8 +114,7 @@ The <b>IXpsOMSignatureBlockResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/bcb9d712-35b6-4dfc-91dc-dd376950e1e8">InsertAt</a>
 </td>
 <td align="left" width="63%">
-
-              Inserts an <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a45a8">IXpsOMSignatureBlockResource</a> interface pointer at a specified location in the collection.
+Inserts an <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a45a8">IXpsOMSignatureBlockResource</a> interface pointer at a specified location in the collection.
             
 
 </td>
@@ -129,8 +124,7 @@ The <b>IXpsOMSignatureBlockResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a>
 </td>
 <td align="left" width="63%">
-
-              Removes and releases an <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a45a8">IXpsOMSignatureBlockResource</a> interface pointer from a specified location in the collection.
+Removes and releases an <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a45a8">IXpsOMSignatureBlockResource</a> interface pointer from a specified location in the collection.
             
 
 </td>
@@ -140,8 +134,7 @@ The <b>IXpsOMSignatureBlockResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/c1f88493-0f81-4aac-b6d6-049d10934254">SetAt</a>
 </td>
 <td align="left" width="63%">
-
-              Replaces an <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a45a8">IXpsOMSignatureBlockResource</a> interface pointer at a specified location in the collection.
+Replaces an <a href="https://msdn.microsoft.com/f5052470-487d-4f47-8d42-70538a4a45a8">IXpsOMSignatureBlockResource</a> interface pointer at a specified location in the collection.
             
 
 </td>

@@ -7,7 +7,7 @@ old-location: menurc\ischaralphanumeric.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\ischaralphanumeric.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: IsCharAlphaNumeric, IsCharAlphaNumeric function [Menus and Other Resources], IsCharAlphaNumericA, IsCharAlphaNumericW, _win32_IsCharAlphaNumeric, _win32_ischaralphanumeric_cpp, menurc.ischaralphanumeric, winui._win32_ischaralphanumeric, winuser/IsCharAlphaNumeric, winuser/IsCharAlphaNumericA, winuser/IsCharAlphaNumericW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ If the character is not alphanumeric, the return value is zero. To get extended 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647482(v=VS.85).aspx">IsCharAlpha</a>
+<a href="https://msdn.microsoft.com/747dd0e0-2d7c-427b-807f-9d0c2de20589">IsCharAlpha</a>
 
 
 

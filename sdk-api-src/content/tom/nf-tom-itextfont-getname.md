@@ -4,10 +4,10 @@ title: ITextFont::GetName
 author: windows-sdk-content
 description: Gets the font name.
 old-location: controls\ITextFont_GetName.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontgetname.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetName, GetName method [Windows Controls], GetName method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetName method, ITextFont.GetName, ITextFont::GetName, _win32_ITextFont_GetName, _win32_ITextFont_GetName_cpp, controls.ITextFont_GetName, controls._win32_ITextFont_GetName, tom/ITextFont::GetName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,7 +127,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -135,11 +135,11 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787788(v=VS.85).aspx">SetName</a>
+<a href="https://msdn.microsoft.com/8190e20b-2371-46fb-b113-0e9baedf294c">SetName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

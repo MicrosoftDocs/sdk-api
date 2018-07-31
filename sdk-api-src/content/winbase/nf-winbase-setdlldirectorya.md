@@ -7,7 +7,7 @@ old-location: base\setdlldirectory.htm
 old-project: Dlls
 ms.assetid: c0c57554-3d98-487c-8bae-c594620d5a00
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: SetDllDirectory, SetDllDirectory function, SetDllDirectoryA, SetDllDirectoryW, base.setdlldirectory, winbase/SetDllDirectory, winbase/SetDllDirectoryA, winbase/SetDllDirectoryW
 ms.prod: windows
 ms.technology: windows-sdk

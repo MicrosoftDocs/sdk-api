@@ -4,10 +4,10 @@ title: IVssBackupComponents::SetRestoreOptions
 author: windows-sdk-content
 description: The SetRestoreOptions method sets a string of private, or writer-dependent, restore parameters for a writer component.
 old-location: base\ivssbackupcomponents_setrestoreoptions.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 4a872594-dcd8-463d-9f6b-6bc40c17df38
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetRestoreOptions method, IVssBackupComponents.SetRestoreOptions, IVssBackupComponents::SetRestoreOptions, SetRestoreOptions, SetRestoreOptions method [VSS], SetRestoreOptions method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setrestoreoptions, base.ivssbackupcomponents_setrestoreoptions, vsbackup/IVssBackupComponents::SetRestoreOptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -195,8 +195,7 @@ The XML document is not valid. Check the event log for details. For more
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

@@ -7,7 +7,7 @@ old-location: wmi\swbemrefresher_remove.htm
 old-project: WmiSdk
 ms.assetid: db5ac740-e2b3-4667-b511-d750cb092e0f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemRefresher interface [Windows Management Instrumentation],Remove method, ISWbemRefresher.Remove, ISWbemRefresher::Remove, Remove, Remove method [Windows Management Instrumentation], Remove method [Windows Management Instrumentation],ISWbemRefresher interface, Remove method [Windows Management Instrumentation],SWbemRefresher object, SWbemRefresher object [Windows Management Instrumentation],Remove method, SWbemRefresher.Remove, _hmm_swbemrefresher.remove, wmi.swbemrefresher_remove
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IWdsTransportClient
 author: windows-sdk-content
 description: Represents a WDS client that is joined to a transport session on a WDS transport server.
 old-location: wds\iwdstransportclient.htm
-old-project: wds
+old-project: Wds
 ms.assetid: 39534411-3d69-408d-b495-10851fe40bdf
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IWdsTransportClient, IWdsTransportClient interface [Windows Deployment Services], IWdsTransportClient interface [Windows Deployment Services],described, wds.iwdstransportclient, wdstptmgmt/IWdsTransportClient
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Represents a WDS client that is joined to a transport session on a  WDS transpor
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportClient</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWdsTransportClient</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportClient</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWdsTransportClient</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicimagingfactory_createbitmapscaler.htm
 old-project: wic
 ms.assetid: 4da6b185-4a94-4032-a1d6-e64b96a5da97
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: CreateBitmapScaler, CreateBitmapScaler method [Windows Imaging Component], CreateBitmapScaler method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapScaler method, IWICImagingFactory.CreateBitmapScaler, IWICImagingFactory::CreateBitmapScaler, _wic_codec_iwicimagingfactory_createbitmapscaler, wic._wic_codec_iwicimagingfactory_createbitmapscaler, wincodec/IWICImagingFactory::CreateBitmapScaler
 ms.prod: windows
 ms.technology: windows-sdk

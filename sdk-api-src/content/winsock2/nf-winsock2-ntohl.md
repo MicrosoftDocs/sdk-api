@@ -4,10 +4,10 @@ title: ntohl function
 author: windows-sdk-content
 description: The ntohl function converts a u_long from TCP/IP network order to host byte order (which is little-endian on Intel processors).
 old-location: winsock\ntohl_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 04673bef-22c6-424f-a5ae-689fb648b54e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "_win32_ntohl_2, ntohl, ntohl function [Winsock], winsock.ntohl_2, winsock/ntohl"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ The
 The 
 <b>ntohl</b> function can be used to convert an IPv4 address in network byte order to the IPv4 address in host byte order. This function does not do any checking to determine if the <i>netlong</i> parameter is a valid IPv4 address.
 
-The <b>ntohl</b>
-			function does not require that the Winsock DLL has previously been loaded with a successful 
+The <b>ntohl</b>function does not require that the Winsock DLL has previously been loaded with a successful 
 call to the <a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> function.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

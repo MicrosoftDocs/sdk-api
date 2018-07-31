@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiframework_initialize.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\initialize.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],Initialize method, IUIFramework.Initialize, IUIFramework::Initialize, Initialize, Initialize method [Windows Ribbon], Initialize method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_Initialize, uiribbon/IUIFramework::Initialize, windowsribbon.windowsribbon_iuiframework_initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,16 +64,14 @@ Connects the host application to the Windows Ribbon framework.
 
 Type: <b>HWND</b>
 
-
-					Handle to the top-level window that will contain the Ribbon. 
+Handle to the top-level window that will contain the Ribbon. 
 
 
 ### -param application [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Dd371528(v=VS.85).aspx">IUIApplication</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/0df1d890-cc78-4375-a17e-6fe7c0249107">IUIApplication</a>*</b>
 
-
-					Pointer to the IUIApplication implementation of the host application.
+Pointer to the IUIApplication implementation of the host application.
 				
 
 
@@ -83,8 +81,7 @@ Type: <b><a href="https://msdn.microsoft.com/library/Dd371528(v=VS.85).aspx">IUI
 
 Type: <b>HRESULT</b>
 
-
-					Returns S_OK if successful; otherwise, an error value from the following list.
+Returns S_OK if successful; otherwise, an error value from the following list.
 					
 
 <table class="clsStd">
@@ -117,13 +114,12 @@ Type: <b>HRESULT</b>
 
 
 
-
-			This method must be called by the host application for each top-level window that requires a ribbon.
+This method must be called by the host application for each top-level window that requires a ribbon.
 			
 
 This method is used to set up the hooks that enable the Ribbon framework to invoke callbacks in the host application.
 
-To initialize the Ribbon successfully, a compiled Ribbon markup file must be available as a resource and specified in a subsequent call to <a href="https://msdn.microsoft.com/library/Dd371471(v=VS.85).aspx">IUIFramework::LoadUI</a>. This markup file is an integral component of the framework; it specifies the controls to be used and their layout.
+To initialize the Ribbon successfully, a compiled Ribbon markup file must be available as a resource and specified in a subsequent call to <a href="https://msdn.microsoft.com/d8860459-ad4d-4783-9fef-25d313bc15c7">IUIFramework::LoadUI</a>. This markup file is an integral component of the framework; it specifies the controls to be used and their layout.
 
 If <b>IUIFramework::Initialize</b> returns successfully: 
 
@@ -220,19 +216,19 @@ bool InitializeFramework(HWND hWnd)
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371467(v=VS.85).aspx">IUIFramework</a>
+<a href="https://msdn.microsoft.com/a9b8a30d-dd00-4088-a588-304fde97b84e">IUIFramework</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371471(v=VS.85).aspx">IUIFramework::LoadUI</a>
+<a href="https://msdn.microsoft.com/d8860459-ad4d-4783-9fef-25d313bc15c7">IUIFramework::LoadUI</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371591(v=VS.85).aspx">Markup Elements</a>
+<a href="https://msdn.microsoft.com/70d7c357-8614-4883-97ae-6fce4fe7dcc4">Markup Elements</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

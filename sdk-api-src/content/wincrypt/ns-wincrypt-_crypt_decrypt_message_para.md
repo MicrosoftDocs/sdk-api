@@ -4,10 +4,10 @@ title: "_CRYPT_DECRYPT_MESSAGE_PARA"
 author: windows-sdk-content
 description: The CRYPT_DECRYPT_MESSAGE_PARA structure contains information for decrypting messages.
 old-location: security\crypt_decrypt_message_para.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 67e136cd-12e3-4a31-9d8b-b53e1129e940
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCRYPT_DECRYPT_MESSAGE_PARA, CRYPT_DECRYPT_MESSAGE_PARA, CRYPT_DECRYPT_MESSAGE_PARA structure [Security], PCRYPT_DECRYPT_MESSAGE_PARA, PCRYPT_DECRYPT_MESSAGE_PARA structure pointer [Security], _CRYPT_DECRYPT_MESSAGE_PARA, _crypto2_crypt_decrypt_message_para, security.crypt_decrypt_message_para, wincrypt/CRYPT_DECRYPT_MESSAGE_PARA, wincrypt/PCRYPT_DECRYPT_MESSAGE_PARA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CRYPT_DECRYPT_MESSAGE_PARA</b> structure contains information for decrypting messages.
+The <b>CRYPT_DECRYPT_MESSAGE_PARA</b> structure contains information for decrypting messages.
 
 
 ## -struct-fields

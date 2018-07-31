@@ -7,7 +7,7 @@ old-location: wintouch\gesturenotifystruct.htm
 old-project: wintouch
 ms.assetid: e887c026-9300-4d20-8925-9939a664cd53
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: "*PGESTURENOTIFYSTRUCT, GESTURENOTIFYSTRUCT, GESTURENOTIFYSTRUCT structure [Windows Touch], PGESTURENOTIFYSTRUCT, PGESTURENOTIFYSTRUCT structure pointer [Windows Touch], tagGESTURENOTIFYSTRUCT, wintouch.gesturenotifystruct, winuser/GESTURENOTIFYSTRUCT, winuser/PGESTURENOTIFYSTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-      When transmitted with <a href="https://msdn.microsoft.com/83c23928-86ce-421d-bb84-5c41a770bf60">WM_GESTURENOTIFY</a> messages, 
+When transmitted with <a href="https://msdn.microsoft.com/83c23928-86ce-421d-bb84-5c41a770bf60">WM_GESTURENOTIFY</a> messages, 
       passes information about a gesture.
   
 

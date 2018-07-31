@@ -4,10 +4,10 @@ title: IPrincipal2::get_RequiredPrivilege
 author: windows-sdk-content
 description: Gets the required privilege of the task by index.
 old-location: taskschd\iprincipal2_requiredprivilege.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 701ff07e-2dd1-4985-8fc4-f570749c5834
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IPrincipal2 interface [Task Scheduler],RequiredPrivilege property, IPrincipal2.RequiredPrivilege, IPrincipal2.get_RequiredPrivilege, IPrincipal2::RequiredPrivilege, IPrincipal2::get_RequiredPrivilege, RequiredPrivilege property [Task Scheduler], RequiredPrivilege property [Task Scheduler],IPrincipal2 interface, get_RequiredPrivilege, taskschd.iprincipal2_requiredprivilege, taskschd/IPrincipal2::RequiredPrivilege, taskschd/IPrincipal2::get_RequiredPrivilege
 ms.prod: windows
 ms.technology: windows-sdk

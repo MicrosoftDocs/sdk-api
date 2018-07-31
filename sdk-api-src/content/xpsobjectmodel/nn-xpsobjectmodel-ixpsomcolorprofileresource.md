@@ -7,7 +7,7 @@ old-location: xps\ixpsomcolorprofileresource.htm
 old-project: printdocs
 ms.assetid: 8a344300-c3fc-4225-bfa5-d5d33798a094
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMColorProfileResource, IXpsOMColorProfileResource interface [XPS Documents and Packaging], IXpsOMColorProfileResource interface [XPS Documents and Packaging],described, xps.ixpsomcolorprofileresource, xpsobjectmodel/IXpsOMColorProfileResource
 ms.prod: windows
 ms.technology: windows-sdk

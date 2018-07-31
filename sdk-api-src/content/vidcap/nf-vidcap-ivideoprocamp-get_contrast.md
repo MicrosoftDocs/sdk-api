@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_contrast.htm
 old-project: DirectShow
 ms.assetid: 04c63013-33f1-42c0-9239-ec012c9a0528
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_Contrast method, IVideoProcAmp.get_Contrast, IVideoProcAmp::get_Contrast, IVideoProcAmpget_Contrast, dshow.ivideoprocamp_get_contrast, get_Contrast, get_Contrast method [DirectShow], get_Contrast method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Contrast
 ms.prod: windows
 ms.technology: windows-sdk

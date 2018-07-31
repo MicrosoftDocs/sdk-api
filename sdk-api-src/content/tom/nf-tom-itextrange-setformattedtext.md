@@ -4,10 +4,10 @@ title: ITextRange::SetFormattedText
 author: windows-sdk-content
 description: Sets the formatted text of this range text to the formatted text of the specified range.
 old-location: controls\ITextRange_SetFormattedText.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setformattedtext.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextRange interface [Windows Controls],SetFormattedText method, ITextRange.SetFormattedText, ITextRange::SetFormattedText, SetFormattedText, SetFormattedText method [Windows Controls], SetFormattedText method [Windows Controls],ITextRange interface, _win32_ITextRange_SetFormattedText, _win32_ITextRange_SetFormattedText_cpp, controls.ITextRange_SetFormattedText, controls._win32_ITextRange_SetFormattedText, tom/ITextRange::SetFormattedText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Sets the formatted text of this range text to the formatted text of the specifie
 
 ### -param pRange [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>*</b>
 
 The formatted text to replace this range's text. 
 
@@ -122,7 +122,7 @@ Out of memory.
 
 
 
-If the <a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a> does not belong to the same Text Object Model (TOM) engine, call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> for an <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> interface.
+If the <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a> does not belong to the same Text Object Model (TOM) engine, call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> for an <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> interface.
 
 Among the formats typically supported by the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> are CF_TEXT and CF_RTF. In addition, private formats can be used to reference a text solution's own internal rich-text formats. The following Microsoft Visual Basic example uses the <b>FormattedText</b> property to replace the text in range2 with the formatted text in range1.
 
@@ -140,15 +140,15 @@ Among the formats typically supported by the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787840(v=VS.85).aspx">GetDuplicate</a>
+<a href="https://msdn.microsoft.com/437c1571-7593-4996-8b6a-d213d7896b12">GetDuplicate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773958(v=VS.85).aspx">GetFormattedText</a>
+<a href="https://msdn.microsoft.com/d5985e53-8f17-4a01-b12a-b08c734975fb">GetFormattedText</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -156,7 +156,7 @@ Among the formats typically supported by the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

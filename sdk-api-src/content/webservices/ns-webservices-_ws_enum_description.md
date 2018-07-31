@@ -7,7 +7,7 @@ old-location: wsw\ws_enum_description.htm
 old-project: wsw
 ms.assetid: cf7c9254-c806-4ada-8852-beb6be5e81d9
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ENUM_DESCRIPTION, WS_ENUM_DESCRIPTION structure [Web Services for Windows], _WS_ENUM_DESCRIPTION, webservices/WS_ENUM_DESCRIPTION, wsw.ws_enum_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                A type description that is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_ENUM_TYPE</a> and is required. 
+A type description that is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_ENUM_TYPE</a> and is required. 
                 It provides information used in serializing and deserializing
                 values of an enumeration.
             
@@ -65,28 +64,24 @@ req.product: Windows Address Book 5.0
 
 ### -field values
 
-
-                    Points to an array of enumeration values and their
+Points to an array of enumeration values and their
                     corresponding names.
                 
 
-
-                    There must not be duplicate values or names in
+There must not be duplicate values or names in
                     the array.
                 
 
 
 ### -field valueCount
 
-
-                    The number of items in the values array.
+The number of items in the values array.
                 
 
 
 ### -field maxByteCount
 
-
-                    The length, in UTF8 bytes, of the longest name
+The length, in UTF8 bytes, of the longest name
                     in the values array.
                 
 
@@ -99,8 +94,7 @@ An optional array that provides information which can improve
                     which may be sufficient for small numbers of enumerated values.
                 
 
-
-                    If non-<b>NULL</b>, the following must be true:
+If non-<b>NULL</b>, the following must be true:
                 
 
 <ul>
@@ -118,8 +112,7 @@ An optional array that provides information which can improve
 
 
 
-
-                The following examples illustrates initializing an enum description.  This 
+The following examples illustrates initializing an enum description.  This 
                 example illustrates the use of the nameIndices field, but this field could
                 be <b>NULL</b> instead.
             

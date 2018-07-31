@@ -4,10 +4,10 @@ title: BackupSeek function
 author: windows-sdk-content
 description: Seeks forward in a data stream initially accessed by using the BackupRead or BackupWrite function.
 old-location: backup\backupseek.htm
-old-project: backup
+old-project: Backup
 ms.assetid: d5ffba3d-f744-49b4-83e0-e32bd45ecc4c
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: BackupSeek, BackupSeek function [Backup], _win32_backupseek, backup.backupseek, base.backupseek, winbase/BackupSeek
 ms.prod: windows
 ms.technology: windows-sdk

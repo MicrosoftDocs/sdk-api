@@ -7,7 +7,7 @@ old-location: menurc\enablemenuitem.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\enablemenuitem.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: EnableMenuItem, EnableMenuItem function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, MF_DISABLED, MF_ENABLED, MF_GRAYED, _win32_EnableMenuItem, _win32_enablemenuitem_cpp, menurc.enablemenuitem, winui._win32_enablemenuitem, winuser/EnableMenuItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -166,9 +166,9 @@ An application must use the <b>MF_BYPOSITION</b> flag to specify the correct men
 
 When an application specifies the <b>MF_BYCOMMAND</b> flag, the system checks all items that open submenus in the menu identified by the specified menu handle. Therefore, unless duplicate menu items are present, specifying the menu handle to the menu bar is sufficient. 
 
-The <a href="https://msdn.microsoft.com/library/ms647987(v=VS.85).aspx">InsertMenu</a>, <a href="https://msdn.microsoft.com/library/ms647988(v=VS.85).aspx">InsertMenuItem</a>, <a href="https://msdn.microsoft.com/library/ms647991(v=VS.85).aspx">LoadMenuIndirect</a>, <a href="https://msdn.microsoft.com/library/ms647993(v=VS.85).aspx">ModifyMenu</a>, and <a href="https://msdn.microsoft.com/library/ms648001(v=VS.85).aspx">SetMenuItemInfo</a> functions can also set the state (enabled, disabled, or grayed) of a menu item.
+The <a href="https://msdn.microsoft.com/8ca7510a-e035-4ba2-98dd-57d777cae814">InsertMenu</a>, <a href="https://msdn.microsoft.com/be3819c2-8bdc-4a90-a188-ff8b4060eb8f">InsertMenuItem</a>, <a href="https://msdn.microsoft.com/01736486-6dee-43fe-80a7-06c4cf13a23e">LoadMenuIndirect</a>, <a href="https://msdn.microsoft.com/2e6abd30-9ace-4a17-9cf6-8a45a71eecaf">ModifyMenu</a>, and <a href="https://msdn.microsoft.com/e1c669c7-7b56-428a-8433-d926330e42e1">SetMenuItemInfo</a> functions can also set the state (enabled, disabled, or grayed) of a menu item.
 
-When you change a window menu, the menu bar is not immediately updated. To force the update, call <a href="https://msdn.microsoft.com/library/ms647633(v=VS.85).aspx">DrawMenuBar</a>.
+When you change a window menu, the menu bar is not immediately updated. To force the update, call <a href="https://msdn.microsoft.com/3b17db02-5059-4182-bd5b-2fb67eecd1d7">DrawMenuBar</a>.
 
 
 
@@ -182,31 +182,31 @@ When you change a window menu, the menu bar is not immediately updated. To force
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647633(v=VS.85).aspx">DrawMenuBar</a>
+<a href="https://msdn.microsoft.com/3b17db02-5059-4182-bd5b-2fb67eecd1d7">DrawMenuBar</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647979(v=VS.85).aspx">GetMenuItemID</a>
+<a href="https://msdn.microsoft.com/69ecdcba-177c-4465-95ae-897ed4e96c2d">GetMenuItemID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647987(v=VS.85).aspx">InsertMenu</a>
+<a href="https://msdn.microsoft.com/8ca7510a-e035-4ba2-98dd-57d777cae814">InsertMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647988(v=VS.85).aspx">InsertMenuItem</a>
+<a href="https://msdn.microsoft.com/be3819c2-8bdc-4a90-a188-ff8b4060eb8f">InsertMenuItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647991(v=VS.85).aspx">LoadMenuIndirect</a>
+<a href="https://msdn.microsoft.com/01736486-6dee-43fe-80a7-06c4cf13a23e">LoadMenuIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647993(v=VS.85).aspx">ModifyMenu</a>
+<a href="https://msdn.microsoft.com/2e6abd30-9ace-4a17-9cf6-8a45a71eecaf">ModifyMenu</a>
 
 
 
@@ -214,11 +214,11 @@ When you change a window menu, the menu bar is not immediately updated. To force
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648001(v=VS.85).aspx">SetMenuItemInfo</a>
+<a href="https://msdn.microsoft.com/e1c669c7-7b56-428a-8433-d926330e42e1">SetMenuItemInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646360(v=VS.85).aspx">WM_SYSCOMMAND</a>
+<a href="https://msdn.microsoft.com/82c7cc95-82d5-4f0f-8c78-ab325561b04e">WM_SYSCOMMAND</a>
  
 
  

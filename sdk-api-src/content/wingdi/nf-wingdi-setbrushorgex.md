@@ -7,7 +7,7 @@ old-location: gdi\setbrushorgex.htm
 old-project: gdi
 ms.assetid: dcc7575a-49fd-4306-8baa-57e9e0d5ed1f
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: SetBrushOrgEx, SetBrushOrgEx function [Windows GDI], _win32_SetBrushOrgEx, gdi.setbrushorgex, wingdi/SetBrushOrgEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,8 +118,7 @@ The system automatically tracks the origin of all window-managed device contexts
 
 An application should call <b>SetBrushOrgEx</b> after setting the bitmap stretching mode to HALFTONE by using <a href="https://msdn.microsoft.com/3e5a48dc-ccd5-41ea-a24b-5c40213abf38">SetStretchBltMode</a>. This must be done to avoid brush misalignment.
 
-
-         The system automatically tracks the origin of all window-managed device contexts and adjusts their brushes as necessary to maintain an alignment of patterns on the surface.
+The system automatically tracks the origin of all window-managed device contexts and adjusts their brushes as necessary to maintain an alignment of patterns on the surface.
 
 
 

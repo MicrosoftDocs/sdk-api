@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager_createanimationvariable.htm
 old-project: UIAnimation
 ms.assetid: e4c38e78-1b9e-4918-ba15-6a4c5c390c07
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateAnimationVariable, CreateAnimationVariable method [Windows Animation], CreateAnimationVariable method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],CreateAnimationVariable method, IUIAnimationManager.CreateAnimationVariable, IUIAnimationManager::CreateAnimationVariable, uianimation.iuianimationmanager_createanimationvariable, uianimation/IUIAnimationManager::CreateAnimationVariable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates a new animation variable.
+Creates a new animation variable.
 
 
 ## -parameters
@@ -62,14 +61,12 @@ req.product: Windows XP with SP1 and later
 
 ### -param initialValue [in]
 
-
-               The initial value for the new animation variable.
+The initial value for the new animation variable.
 
 
 ### -param variable [out]
 
-
-               The new animation variable.
+The new animation variable.
 
 
 ## -returns
@@ -107,8 +104,7 @@ For an example, see <a href="https://msdn.microsoft.com/360aa157-cb50-400a-b373-
 
 
 
-<a href="https://msdn.microsoft.com/1632e62d-6e82-4841-8823-f6b60efc4298">
-         IUIAnimationVariable</a>
+<a href="https://msdn.microsoft.com/1632e62d-6e82-4841-8823-f6b60efc4298">IUIAnimationVariable</a>
  
 
  

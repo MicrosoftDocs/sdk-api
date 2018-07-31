@@ -7,7 +7,7 @@ old-location: xinput\xinputgetaudiodeviceids.htm
 old-project: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetAudioDeviceIds(DWORD,LPWSTR@,UINT@,LPWSTR@,UINT@)
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: XInputGetAudioDeviceIds, XInputGetAudioDeviceIds function [XInput Game Controller APIs], xinput.xinputgetaudiodeviceids, xinput/XInputGetAudioDeviceIds
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,7 +130,7 @@ Windows 8 (XInput 1.4)
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419265(v=VS.85).aspx">XInputGetDSoundAudioDeviceGuids</a>
+<a href="https://msdn.microsoft.com/31E399C8-9001-4726-BDBA-422EF2D48E3B">XInputGetDSoundAudioDeviceGuids</a>
  
 
  

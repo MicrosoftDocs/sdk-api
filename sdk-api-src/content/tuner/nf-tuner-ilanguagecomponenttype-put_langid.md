@@ -7,7 +7,7 @@ old-location: mstv\ilanguagecomponenttype_put_langid.htm
 old-project: mstv
 ms.assetid: c0dc0141-a839-4fdc-9313-24ddd3eaf63d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: ILanguageComponentType interface [Microsoft TV Technologies],put_LangID method, ILanguageComponentType.put_LangID, ILanguageComponentType::put_LangID, ILanguageComponentTypeput_LangID, mstv.ilanguagecomponenttype_put_langid, put_LangID, put_LangID method [Microsoft TV Technologies], put_LangID method [Microsoft TV Technologies],ILanguageComponentType interface, tuner/ILanguageComponentType::put_LangID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,8 +80,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-
-          The <i>LangID</i> parameter is a Win32 LCID. Use this method to set the language of an audio stream, for example when creating a new entry for the Guide Store database. Use the <a href="https://msdn.microsoft.com/0f914835-e097-4a02-80fe-371154c9d95a">IComponent::put_DescLangID</a> method to specify the language of the text description of the stream.
+The <i>LangID</i> parameter is a Win32 LCID. Use this method to set the language of an audio stream, for example when creating a new entry for the Guide Store database. Use the <a href="https://msdn.microsoft.com/0f914835-e097-4a02-80fe-371154c9d95a">IComponent::put_DescLangID</a> method to specify the language of the text description of the stream.
 
 
 

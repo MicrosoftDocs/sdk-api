@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IMultipleViewProvider_GetSupportedViews.htm
 old-project: WinAuto
 ms.assetid: fd4d5616-c126-455e-84e7-e62e24daf8f9
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetSupportedViews, GetSupportedViews method [Windows Accessibility], GetSupportedViews method [Windows Accessibility],IMultipleViewProvider interface, IMultipleViewProvider interface [Windows Accessibility],GetSupportedViews method, IMultipleViewProvider.GetSupportedViews, IMultipleViewProvider::GetSupportedViews, uiauto.uiauto_IMultipleViewProvider_GetSupportedViews, uiauto_IMultipleViewProvider_GetSupportedViews, uiautomationcore/IMultipleViewProvider::GetSupportedViews, winauto.uiauto_IMultipleViewProvider_GetSupportedViews
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,16 +82,13 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        An empty array is returned by UIAutoCore.dll if the provider does not supply any view identifiers.
+An empty array is returned by UIAutoCore.dll if the provider does not supply any view identifiers.
         
 
-
-            The collection of view identifiers must be identical for all instances of a control.
+The collection of view identifiers must be identical for all instances of a control.
             
 
-
-        View identifier values can be passed to <a href="https://msdn.microsoft.com/72e9bca3-22cd-4f5b-9481-289bdfaf58e8">IMultipleViewProvider::GetViewName</a>.
+View identifier values can be passed to <a href="https://msdn.microsoft.com/72e9bca3-22cd-4f5b-9481-289bdfaf58e8">IMultipleViewProvider::GetViewName</a>.
         
 
 

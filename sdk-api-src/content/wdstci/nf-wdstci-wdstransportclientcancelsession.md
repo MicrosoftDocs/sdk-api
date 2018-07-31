@@ -4,10 +4,10 @@ title: WdsTransportClientCancelSession function
 author: windows-sdk-content
 description: Releases the resources associated with a session in the client.
 old-location: wds\wdstransportclientcancelsession.htm
-old-project: wds
+old-project: Wds
 ms.assetid: 96348bbf-e1b6-4889-a2a6-59d265c1a031
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: WdsTransportClientCancelSession, WdsTransportClientCancelSession function [Windows Deployment Services], wds.wdstransportclientcancelsession, wdstci/WdsTransportClientCancelSession
 ms.prod: windows
 ms.technology: windows-sdk

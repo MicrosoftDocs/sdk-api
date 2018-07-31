@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_settransportvideoparameters.htm
 old-project: DirectShow
 ms.assetid: 8a63f921-0abb-417b-89c0-9dfb30ebbe57
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetTransportVideoParameters method, IAMExtTransport.SetTransportVideoParameters, IAMExtTransport::SetTransportVideoParameters, IAMExtTransportSetTransportVideoParameters, SetTransportVideoParameters, SetTransportVideoParameters method [DirectShow], SetTransportVideoParameters method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_settransportvideoparameters, strmif/IAMExtTransport::SetTransportVideoParameters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,11 +71,9 @@ Specifies the video parameter to set. Must be one of the following values.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -112,11 +110,9 @@ If <i>Param</i> equals ED_TRANSVIDEO_SET_OUTPUT, <i>Value</i> must be one of the
 
 <table>
 <tr>
-<th>
-              Constant
+<th>Constant
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>

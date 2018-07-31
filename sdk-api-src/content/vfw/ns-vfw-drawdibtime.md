@@ -7,7 +7,7 @@ old-location: multimedia\drawdibtime_struct.htm
 old-project: Multimedia
 ms.assetid: ec8a4e04-9e38-4db3-bb2b-838c63284f3a
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPDRAWDIBTIME, DRAWDIBTIME, DRAWDIBTIME structure [Windows Multimedia], LPDRAWDIBTIME, LPDRAWDIBTIME structure pointer [Windows Multimedia], multimedia.drawdibtime_COLLISION618, multimedia.drawdibtime_struct, vfw/DRAWDIBTIME, vfw/LPDRAWDIBTIME"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,43 +77,37 @@ Number of times the following operations have been performed since <a href="http
 
 ### -field timeDraw
 
-
-            Time to draw bitmaps.
+Time to draw bitmaps.
           
 
 
 ### -field timeDecompress
 
-
-            Time to decompress bitmaps.
+Time to decompress bitmaps.
           
 
 
 ### -field timeDither
 
-
-            Time to dither bitmaps.
+Time to dither bitmaps.
           
 
 
 ### -field timeStretch
 
-
-            Time to stretch bitmaps.
+Time to stretch bitmaps.
           
 
 
 ### -field timeBlt
 
-
-            Time to transfer bitmaps by using the <a href="https://msdn.microsoft.com/d6a181e4-b6cf-44b7-bf47-4900272d6d72">BitBlt</a> function.
+Time to transfer bitmaps by using the <a href="https://msdn.microsoft.com/d6a181e4-b6cf-44b7-bf47-4900272d6d72">BitBlt</a> function.
           
 
 
 ### -field timeSetDIBits
 
-
-            Time to transfer bitmaps by using the <a href="http://go.microsoft.com/fwlink/p/?linkid=17003">SetDIBits</a> function.
+Time to transfer bitmaps by using the <a href="http://go.microsoft.com/fwlink/p/?linkid=17003">SetDIBits</a> function.
           
 
 

@@ -7,7 +7,7 @@ old-location: wsw\wsfreeserviceproxy.htm
 old-project: wsw
 ms.assetid: fb200cf8-c1d4-4a97-afef-f7c4ed5efb10
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsFreeServiceProxy, WsFreeServiceProxy function [Web Services for Windows], webservices/WsFreeServiceProxy, wsw.wsfreeserviceproxy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,8 +80,7 @@ This function does not return a value.
 
 
 
-
-               For details of when it is allowed to call this function, see <a href="https://msdn.microsoft.com/e1a5bf5e-dbc1-43e3-981b-7db4caa08bdc">Service Proxy</a> .
+For details of when it is allowed to call this function, see <a href="https://msdn.microsoft.com/e1a5bf5e-dbc1-43e3-981b-7db4caa08bdc">Service Proxy</a> .
             
 
 

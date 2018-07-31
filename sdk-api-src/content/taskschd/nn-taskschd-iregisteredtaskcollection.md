@@ -4,10 +4,10 @@ title: IRegisteredTaskCollection
 author: windows-sdk-content
 description: Contains all the tasks that are registered.
 old-location: taskschd\iregisteredtaskcollection.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 97403825-5762-477c-9695-3775bb5bc9e4
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IRegisteredTaskCollection, IRegisteredTaskCollection interface [Task Scheduler], IRegisteredTaskCollection interface [Task Scheduler],described, taskschd.iregisteredtaskcollection, taskschd/IRegisteredTaskCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ Contains all the tasks that are registered.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

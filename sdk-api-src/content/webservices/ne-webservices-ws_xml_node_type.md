@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_node_type.htm
 old-project: wsw
 ms.assetid: eddef5db-432d-4615-9f0f-a712dffe42ab
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_NODE_TYPE, WS_XML_NODE_TYPE enumeration [Web Services for Windows], WS_XML_NODE_TYPE_BOF, WS_XML_NODE_TYPE_CDATA, WS_XML_NODE_TYPE_COMMENT, WS_XML_NODE_TYPE_ELEMENT, WS_XML_NODE_TYPE_END_CDATA, WS_XML_NODE_TYPE_END_ELEMENT, WS_XML_NODE_TYPE_EOF, WS_XML_NODE_TYPE_TEXT, webservices/WS_XML_NODE_TYPE, webservices/WS_XML_NODE_TYPE_BOF, webservices/WS_XML_NODE_TYPE_CDATA, webservices/WS_XML_NODE_TYPE_COMMENT, webservices/WS_XML_NODE_TYPE_ELEMENT, webservices/WS_XML_NODE_TYPE_END_CDATA, webservices/WS_XML_NODE_TYPE_END_ELEMENT, webservices/WS_XML_NODE_TYPE_EOF, webservices/WS_XML_NODE_TYPE_TEXT, wsw.ws_xml_node_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ Element, attribute, or CDATA content.
 
 ### -field WS_XML_NODE_TYPE_END_ELEMENT
 
-
-          An end element. (e.g. &lt;/purchaseOrder&gt;)
+An end element. (e.g. &lt;/purchaseOrder&gt;)
         
 
 
@@ -87,29 +86,25 @@ A comment. (For example, &lt;!--The message follows--&gt;)
 
 ### -field WS_XML_NODE_TYPE_CDATA
 
-
-          The start of a CDATA section (i.e. &lt;![CDATA[)
+The start of a CDATA section (i.e. &lt;![CDATA[)
         
 
 
 ### -field WS_XML_NODE_TYPE_END_CDATA
 
-
-          The end of a CDATA section (i.e. ]]&gt;)
+The end of a CDATA section (i.e. ]]&gt;)
         
 
 
 ### -field WS_XML_NODE_TYPE_EOF
 
-
-          The final node of an xml stream.
+The final node of an xml stream.
         
 
 
 ### -field WS_XML_NODE_TYPE_BOF
 
-
-          The first node of an xml stream.
+The first node of an xml stream.
         
 
 
@@ -117,8 +112,7 @@ A comment. (For example, &lt;!--The message follows--&gt;)
 
 
 
-
-        The BNF for node types within a document is:
+The BNF for node types within a document is:
       
 
 <pre class="syntax" xml:space="preserve"><code>

@@ -4,10 +4,10 @@ title: "_WLAN_AVAILABLE_NETWORK_LIST"
 author: windows-sdk-content
 description: Contains an array of information about available networks.
 old-location: nwifi\wlan_available_network_list.htm
-old-project: nativewifi
+old-project: NativeWiFi
 ms.assetid: 0ac508b2-9117-423d-89d3-982f070c70e2
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PWLAN_AVAILABLE_NETWORK_LIST, PWLAN_AVAILABLE_NETWORK_LIST, PWLAN_AVAILABLE_NETWORK_LIST structure pointer [NativeWIFI], WLAN_AVAILABLE_NETWORK_LIST, WLAN_AVAILABLE_NETWORK_LIST structure [NativeWIFI], _WLAN_AVAILABLE_NETWORK_LIST, nwifi.wlan_available_network_list, nwifi.wlan_visible_network_list, wlanapi/PWLAN_AVAILABLE_NETWORK_LIST, wlanapi/WLAN_AVAILABLE_NETWORK_LIST"
 ms.prod: windows
 ms.technology: windows-sdk

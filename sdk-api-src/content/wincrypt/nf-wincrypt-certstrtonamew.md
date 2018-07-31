@@ -4,10 +4,10 @@ title: CertStrToNameW function
 author: windows-sdk-content
 description: Converts a null-terminated X.500 string to an encoded certificate name.
 old-location: security\certstrtoname.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 8bdfafa6-9833-4689-a155-dff09647ec8d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CERT_NAME_STR_COMMA_FLAG, CERT_NAME_STR_CRLF_FLAG, CERT_NAME_STR_DISABLE_UTF8_DIR_STR_FLAG, CERT_NAME_STR_ENABLE_PUNYCODE_FLAG, CERT_NAME_STR_ENABLE_T61_UNICODE_FLAG, CERT_NAME_STR_ENABLE_UTF8_UNICODE_FLAG, CERT_NAME_STR_FORCE_UTF8_DIR_STR_FLAG, CERT_NAME_STR_NO_PLUS_FLAG, CERT_NAME_STR_NO_QUOTING_FLAG, CERT_NAME_STR_REVERSE_FLAG, CERT_NAME_STR_SEMICOLON_FLAG, CERT_OID_NAME_STR, CERT_SIMPLE_NAME_STR, CERT_X500_NAME_STR, CRYPT_E_INVALID_IA5_STRING, CRYPT_E_INVALID_NUMERIC_STRING, CRYPT_E_INVALID_PRINTABLE_STRING, CRYPT_E_INVALID_X500_STRING, CertStrToName, CertStrToName function [Security], CertStrToNameA, CertStrToNameW, X509_ASN_ENCODING, _crypto2_certstrtoname, security.certstrtoname, wincrypt/CertStrToName, wincrypt/CertStrToNameA, wincrypt/CertStrToNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertStrToName</b> function converts a null-terminated <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.500</a> string to an encoded certificate name.
+The <b>CertStrToName</b> function converts a null-terminated <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.500</a> string to an encoded certificate name.
 
 
 ## -parameters
@@ -381,8 +380,7 @@ This parameter is updated for the following error codes returned from <a href="h
 
 
 
-
-						Returns nonzero if successful or zero otherwise.
+Returns nonzero if successful or zero otherwise.
 						
 
 For extended error information, call 
@@ -705,7 +703,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Data Conversion Functions</a>
+<a href="cryptography_functions.htm">Data Conversion Functions</a>
 
 
 

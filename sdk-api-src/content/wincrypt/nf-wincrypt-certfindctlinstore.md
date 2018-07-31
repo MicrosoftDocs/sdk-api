@@ -4,10 +4,10 @@ title: CertFindCTLInStore function
 author: windows-sdk-content
 description: Finds the first or next certificate trust list (CTL) context that matches search criteria established by the dwFindType and its associated pvFindPara.
 old-location: security\certfindctlinstore.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: e5ed3b22-e96f-4e7d-a20e-eebed0a84d3c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CTL_FIND_ANY, CTL_FIND_EXISTING, CTL_FIND_MD5_HASH, CTL_FIND_SAME_USAGE_FLAG, CTL_FIND_SHA1_HASH, CTL_FIND_SUBJECT, CTL_FIND_USAGE, CertFindCTLInStore, CertFindCTLInStore function [Security], _crypto2_certfindctlinstore, security.certfindctlinstore, wincrypt/CertFindCTLInStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertFindCTLInStore</b> function finds the first or next <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL) <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> that matches search criteria established by the <i>dwFindType</i> and its associated <i>pvFindPara</i>. This function can be used in a loop to find all of the CTL contexts in a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> that match the specified find criteria.
+The <b>CertFindCTLInStore</b> function finds the first or next <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL) <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> that matches search criteria established by the <i>dwFindType</i> and its associated <i>pvFindPara</i>. This function can be used in a loop to find all of the CTL contexts in a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> that match the specified find criteria.
 
 
 ## -parameters
@@ -211,8 +210,7 @@ A pointer to the last
 
 
 
-
-						If the function succeeds, the return value is a pointer to a read-only <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CTL</a><a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a>.
+If the function succeeds, the return value is a pointer to a read-only <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CTL</a><a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a>.
 
 For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Some possible error codes follow.
@@ -306,7 +304,7 @@ A returned pointer is freed when passed as the <i>pPrevCtlContext</i> on a subse
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Trust List Functions</a>
+<a href="cryptography_functions.htm">Certificate Trust List Functions</a>
  
 
  

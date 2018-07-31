@@ -4,10 +4,10 @@ title: TdhGetWppMessage function
 author: windows-sdk-content
 description: Retrieves the formatted WPP message embedded into an EVENT_RECORD structure.
 old-location: etw\tdhgetwppmessage.htm
-old-project: etw
+old-project: ETW
 ms.assetid: e4daf7fb-4512-41bd-b7b9-3f9f1cd15037
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/29/2018
 ms.keywords: TdhGetWppMessage, TdhGetWppMessage function [ETW], etw.tdhgetwppmessage, tdh/TdhGetWppMessage
 ms.prod: windows
 ms.technology: windows-sdk

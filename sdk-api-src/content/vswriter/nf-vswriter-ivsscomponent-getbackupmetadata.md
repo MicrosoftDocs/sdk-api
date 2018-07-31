@@ -4,10 +4,10 @@ title: IVssComponent::GetBackupMetadata
 author: windows-sdk-content
 description: The GetBackupMetadata method retrieves private, writer-specific backup metadata that might have been set during a PrepareForBackup event by CVssWriter::OnPrepareBackup using IVssComponent::SetBackupMetadata.
 old-location: base\ivsscomponent_getbackupmetadata.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 638b8909-0aef-4066-ade7-4ee6d96b309e
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetBackupMetadata, GetBackupMetadata method [VSS], GetBackupMetadata method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupMetadata method, IVssComponent.GetBackupMetadata, IVssComponent::GetBackupMetadata, _win32_ivsscomponent_getbackupmetadata, base.ivsscomponent_getbackupmetadata, vswriter/IVssComponent::GetBackupMetadata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-
-    The <b>GetBackupMetadata</b> method retrieves 
+The <b>GetBackupMetadata</b> method retrieves 
     private, writer-specific backup metadata that might have been set during a 
     <a href="https://msdn.microsoft.com/46ce8282-a434-4b0b-b66e-40810052b34b">PrepareForBackup</a> event by 
     <a href="https://msdn.microsoft.com/4e88d92b-48f3-42f9-bf66-61337a745902">CVssWriter::OnPrepareBackup</a> using 
@@ -77,8 +76,7 @@ Only a writer can call this method.
 
 #### - pbstrMetadata [out]
 
-
-      The address of a caller-allocated variable that receives a string containing the backup metadata that was added during an 
+The address of a caller-allocated variable that receives a string containing the backup metadata that was added during an 
       <a href="https://msdn.microsoft.com/4e88d92b-48f3-42f9-bf66-61337a745902">OnPrepareBackup</a> event.
      
 
@@ -145,8 +143,7 @@ The caller is out of memory or other system resources.
 </dl>
 </td>
 <td width="60%">
-
-        The XML document is not valid. Check the event log for details. For more
+The XML document is not valid. Check the event log for details. For more
         information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
        
@@ -165,12 +162,11 @@ The caller is out of memory or other system resources.
 
 This method can be called at any time depending on the logic of a given writer.
 
-
-    If no backup metadata has been set, 
+If no backup metadata has been set, 
     <b>GetBackupMetadata</b> returns S_FALSE.
    
 
-If the call to <b>GetBackupMetadata</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrMetadata</i> parameter by calling the <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+If the call to <b>GetBackupMetadata</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrMetadata</i> parameter by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 

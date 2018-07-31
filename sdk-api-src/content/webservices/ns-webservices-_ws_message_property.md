@@ -7,7 +7,7 @@ old-location: wsw\ws_message_property.htm
 old-project: wsw
 ms.assetid: 40751692-a8e6-4aa6-8dc9-55308b129a94
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_MESSAGE_PROPERTY, WS_MESSAGE_PROPERTY structure [Web Services for Windows], _WS_MESSAGE_PROPERTY, webservices/WS_MESSAGE_PROPERTY, wsw.ws_message_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies a message specific setting.
+Specifies a message specific setting.
             
 
 
@@ -63,15 +62,13 @@ req.product: Windows Address Book 5.0
 
 ### -field id
 
-
-                Identifies the <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_ID</a>.
+Identifies the <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_ID</a>.
             
 
 
 ### -field value
 
-
-                A pointer to the value to set.
+A pointer to the value to set.
                 The pointer must have an alignment compatible with the type
                 of the property.
             
@@ -79,7 +76,6 @@ req.product: Windows Address Book 5.0
 
 ### -field valueSize
 
-
-                The size in bytes of the memory pointed to by value.
+The size in bytes of the memory pointed to by value.
             
 

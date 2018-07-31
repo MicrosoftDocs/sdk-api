@@ -4,10 +4,10 @@ title: IADsTSUserEx::put_TerminalServicesProfilePath
 author: windows-sdk-content
 description: The roaming or mandatory profile path to be used when the user logs on to the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\iadstsuserex_terminalservicesprofilepath.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 282c20ab-378d-4205-90d3-6d28b0770adc
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],TerminalServicesProfilePath property, IADsTSUserEx.TerminalServicesProfilePath, IADsTSUserEx.put_TerminalServicesProfilePath, IADsTSUserEx::TerminalServicesProfilePath, IADsTSUserEx::get_TerminalServicesProfilePath, IADsTSUserEx::put_TerminalServicesProfilePath, TerminalServicesProfilePath property [Remote Desktop Services], TerminalServicesProfilePath property [Remote Desktop Services],IADsTSUserEx interface, put_TerminalServicesProfilePath, termserv.iadstsuserex_terminalservicesprofilepath, tsuserex/IADsTSUserEx::TerminalServicesProfilePath, tsuserex/IADsTSUserEx::get_TerminalServicesProfilePath, tsuserex/IADsTSUserEx::put_TerminalServicesProfilePath
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: multimedia\iccompress.htm
 old-project: Multimedia
 ms.assetid: 99e7d87a-cbf5-42d3-897c-5f5c8860a13a
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: AVIIF_KEYFRAME, ICCOMPRESS_KEYFRAME, ICCompress, ICCompress function [Windows Multimedia], _win32_ICCompress, multimedia.iccompress, vfw/ICCompress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,15 +64,13 @@ The <b>ICCompress</b> function compresses a single video image.
 
 ### -param hic
 
-
-            Handle to the compressor to use.
+Handle to the compressor to use.
           
 
 
 ### -param dwFlags
 
-
-            Compression flag. The following value is defined:
+Compression flag. The following value is defined:
           
 
 
@@ -84,43 +82,37 @@ Compressor should make this frame a key frame.
 
 ### -param lpbiOutput
 
-
-            Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the output format.
+Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the output format.
           
 
 
 ### -param lpData
 
-
-            Pointer to an output buffer large enough to contain a compressed frame.
+Pointer to an output buffer large enough to contain a compressed frame.
           
 
 
 ### -param lpbiInput
 
-
-            Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the input format.
+Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the input format.
           
 
 
 ### -param lpBits
 
-
-            Pointer to the input buffer.
+Pointer to the input buffer.
           
 
 
 ### -param lpckid
 
-
-            Reserved; do not use.
+Reserved; do not use.
           
 
 
 ### -param lpdwFlags
 
-
-            Pointer to the return flags used in the AVI index. The following value is defined:
+Pointer to the return flags used in the AVI index. The following value is defined:
           
 
 
@@ -144,22 +136,19 @@ A compressor might have to sacrifice image quality or make some other trade-off 
 
 ### -param dwQuality
 
-
-            Requested quality value for the frame. Specify a nonzero value if the compressor supports a suggested quality value, as indicated by the presence of the <b>VIDCF_QUALITY</b> flag returned by <a href="https://msdn.microsoft.com/763dc5ef-7578-44c8-ab14-0e49644213ef">ICGetInfo</a>. Otherwise, specify zero for this parameter.
+Requested quality value for the frame. Specify a nonzero value if the compressor supports a suggested quality value, as indicated by the presence of the <b>VIDCF_QUALITY</b> flag returned by <a href="https://msdn.microsoft.com/763dc5ef-7578-44c8-ab14-0e49644213ef">ICGetInfo</a>. Otherwise, specify zero for this parameter.
           
 
 
 ### -param lpbiPrev
 
-
-            Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the format of the previous frame.
+Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the format of the previous frame.
           
 
 
 ### -param lpPrev
 
-
-            Pointer to the uncompressed image of the previous frame. This parameter is not used for fast temporal compression. Specify <b>NULL</b> for this parameter when compressing a key frame, if the compressor does not support temporal compression, or if the compressor does not require an external buffer to store the format and data of the previous image.
+Pointer to the uncompressed image of the previous frame. This parameter is not used for fast temporal compression. Specify <b>NULL</b> for this parameter when compressing a key frame, if the compressor does not support temporal compression, or if the compressor does not require an external buffer to store the format and data of the previous image.
           
 
 
@@ -167,8 +156,7 @@ A compressor might have to sacrifice image quality or make some other trade-off 
 
 
 
-
-            Returns <b>ICERR_OK</b> if successful or an error otherwise.
+Returns <b>ICERR_OK</b> if successful or an error otherwise.
           
 
 

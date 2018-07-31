@@ -7,7 +7,7 @@ old-location: windowsribbon\iuieventingmanager.htm
 old-project: windowsribbon
 ms.assetid: 11E53D75-B8C0-40A3-8E4D-ACAA10BEAC84
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: IUIEventingManager, IUIEventingManager interface [Windows Ribbon], IUIEventingManager interface [Windows Ribbon],described, uiribbon/IUIEventingManager, windowsribbon.iuieventingmanager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows UI
 
 
 
-
-				The <b>IUIEventingManager</b> interface is implemented by the 
+The <b>IUIEventingManager</b> interface is implemented by the 
 				Ribbon framework and provides the notification functionality for  applications that register for ribbon events.
 
 

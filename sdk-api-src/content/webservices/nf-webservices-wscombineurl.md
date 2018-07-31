@@ -7,7 +7,7 @@ old-location: wsw\wscombineurl.htm
 old-project: wsw
 ms.assetid: 6cff906a-adb7-4453-8d44-6a5bf44a681b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCombineUrl, WsCombineUrl function [Web Services for Windows], webservices/WsCombineUrl, wsw.wscombineurl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                Produces an absolute URL from a specified URL reference (absolute or relative URL) and a specified absolute base URL.
+Produces an absolute URL from a specified URL reference (absolute or relative URL) and a specified absolute base URL.
 
 
 
@@ -71,8 +70,7 @@ Pointer to a <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74
 
 ### -param referenceUrl [in]
 
-
-                    Pointer to a <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_STRING</a> structure  containing an absolute or relative URL in encoded format.
+Pointer to a <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_STRING</a> structure  containing an absolute or relative URL in encoded format.
                 
 
 
@@ -118,7 +116,6 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are not valid.
 
 </td>
@@ -130,7 +127,6 @@ One or more arguments are not valid.
 </dl>
 </td>
 <td width="60%">
-
 Insufficient memory to complete the operation.
 
 </td>
@@ -142,8 +138,7 @@ Insufficient memory to complete the operation.
 </dl>
 </td>
 <td width="60%">
-
-                    The base URL or reference URL was not in the correct format, or 
+The base URL or reference URL was not in the correct format, or 
                     had a scheme that was not recognized.
                 
 
@@ -170,13 +165,11 @@ This function may return other errors not listed above.
 
 
 
-
-                If the reference URL is absolute, it is returned unchanged, if the specified flags permit.
+If the reference URL is absolute, it is returned unchanged, if the specified flags permit.
             If the reference URL is relative, it is combined with the base URL before being returned.
             
 
-
-                Only the schemes listed in <a href="https://msdn.microsoft.com/e8763719-6ba0-4e5e-bb71-625d36a45eaf">WS_URL_SCHEME_TYPE</a> are supported.
+Only the schemes listed in <a href="https://msdn.microsoft.com/e8763719-6ba0-4e5e-bb71-625d36a45eaf">WS_URL_SCHEME_TYPE</a> are supported.
             
 
 

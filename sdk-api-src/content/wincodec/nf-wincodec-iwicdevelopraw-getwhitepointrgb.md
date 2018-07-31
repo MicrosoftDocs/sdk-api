@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_getwhitepointrgb.htm
 old-project: wic
 ms.assetid: e163ba80-6ed2-4f03-b74f-07c96b478ac0
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetWhitePointRGB, GetWhitePointRGB method [Windows Imaging Component], GetWhitePointRGB method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetWhitePointRGB method, IWICDevelopRaw.GetWhitePointRGB, IWICDevelopRaw::GetWhitePointRGB, _wic_codec_iwicdevelopraw_getwhitepointrgb, wic._wic_codec_iwicdevelopraw_getwhitepointrgb, wincodec/IWICDevelopRaw::GetWhitePointRGB
 ms.prod: windows
 ms.technology: windows-sdk

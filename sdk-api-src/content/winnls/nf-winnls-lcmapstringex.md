@@ -7,7 +7,7 @@ old-location: intl\lcmapstringex.htm
 old-project: Intl
 ms.assetid: 725e4e75-c328-40bc-a594-20a295a487c6
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: LCMAP_BYTEREV, LCMAP_FULLWIDTH, LCMAP_HALFWIDTH, LCMAP_HIRAGANA, LCMAP_KATAKANA, LCMAP_LINGUISTIC_CASING, LCMAP_LOWERCASE, LCMAP_SIMPLIFIED_CHINESE, LCMAP_SORTKEY, LCMAP_TITLECASE, LCMAP_TRADITIONAL_CHINESE, LCMAP_UPPERCASE, LCMapStringEx, LCMapStringEx function [Internationalization for Windows Applications], LINGUISTIC_IGNORECASE, LINGUISTIC_IGNOREDIACRITIC, NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, NORM_LINGUISTIC_CASING, SORT_DIGITSASNUMBERS, SORT_STRINGSORT, _win32_LCMapStringEx, intl.lcmapstringex, winnls/LCMapStringEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,8 +99,7 @@ Flag specifying the type of transformation to use during string mapping or the t
 </dl>
 </td>
 <td width="60%">
-
-                Use byte reversal. For example, if the application passes in 0x3450 0x4822, the result is 0x5034 0x2248.
+Use byte reversal. For example, if the application passes in 0x3450 0x4822, the result is 0x5034 0x2248.
 
 </td>
 </tr>
@@ -150,8 +149,7 @@ Map all hiragana characters to katakana. This flag and LCMAP_HIRAGANA are mutual
 </dl>
 </td>
 <td width="60%">
-
-                Use linguistic rules for casing, instead of file system rules (default). This flag is valid with LCMAP_LOWERCASE or LCMAP_UPPERCASE only.
+Use linguistic rules for casing, instead of file system rules (default). This flag is valid with LCMAP_LOWERCASE or LCMAP_UPPERCASE only.
 
 </td>
 </tr>

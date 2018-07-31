@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IWindowProvider.htm
 old-project: WinAuto
 ms.assetid: cf09ad4e-fd5b-4304-b5fb-165205bff1f3
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IWindowProvider, IWindowProvider interface [Windows Accessibility], IWindowProvider interface [Windows Accessibility],described, uiauto.uiauto_IWindowProvider, uiauto_IWindowProvider, uiautomationcore/IWindowProvider, winauto.uiauto_IWindowProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,8 +94,7 @@ Changes the visual state of the window. For example, minimizes or maximizes it.
 <a href="https://msdn.microsoft.com/787f8309-09aa-4e6a-bfbc-fc03b917ead4">WaitForInputIdle</a>
 </td>
 <td align="left" width="63%">
-
-        Causes the calling code to block for the specified time or until the associated process enters an idle state, whichever completes first. 
+Causes the calling code to block for the specified time or until the associated process enters an idle state, whichever completes first. 
         
 
 </td>
@@ -212,8 +211,7 @@ Specifies the visual state of the window; that is, whether the window is normal 
 
 
 
-
-            Implemented on a Microsoft UI Automation provider that must support the <a href="https://msdn.microsoft.com/bfd37d27-fcec-4d25-841c-63e14e48c6c8">Window</a> control pattern.
+Implemented on a Microsoft UI Automation provider that must support the <a href="https://msdn.microsoft.com/bfd37d27-fcec-4d25-841c-63e14e48c6c8">Window</a> control pattern.
 
 
 

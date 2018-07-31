@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaPropertyChangedEventArgsStruct.htm
 old-project: WinAuto
 ms.assetid: d401b971-441e-4a09-9b9a-6725a00154cb
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: UiaPropertyChangedEventArgs, UiaPropertyChangedEventArgs structure [Windows Accessibility], uiauto.uiauto_UiaPropertyChangedEventArgsStruct, uiauto_UiaPropertyChangedEventArgsStruct, uiautomationcoreapi/UiaPropertyChangedEventArgs, winauto.uiauto_UiaPropertyChangedEventArgsStruct
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,8 +98,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/mt138335">VARIANT
 
 
 
-
-    The old value might not be set if the UI Automation provider cannot do so efficiently.
+The old value might not be set if the UI Automation provider cannot do so efficiently.
 	
 
 

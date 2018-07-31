@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiapplication_oncreateuicommand.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\oncreateuicommand.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: IUIApplication interface [Windows Ribbon],OnCreateUICommand method, IUIApplication.OnCreateUICommand, IUIApplication::OnCreateUICommand, OnCreateUICommand, OnCreateUICommand method [Windows Ribbon], OnCreateUICommand method [Windows Ribbon],IUIApplication interface, scenicintent_IUIApplication_OnCreateUICommand, uiribbon/IUIApplication::OnCreateUICommand, windowsribbon.windowsribbon_iuiapplication_oncreateuicommand
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-
-			Called for each Command specified in the Windows Ribbon framework markup to bind the Command to an <a href="https://msdn.microsoft.com/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a>.
+Called for each Command specified in the Windows Ribbon framework markup to bind the Command to an <a href="https://msdn.microsoft.com/cd739f99-b3f2-4ddb-a844-eb888d9c7f67">IUICommandHandler</a>.
 		
 
 
@@ -65,27 +64,24 @@ req.product: Windows UI
 
 Type: <b>UINT32</b>
 
-
-					The ID for the Command, which is specified in the markup resource file.
+The ID for the Command, which is specified in the markup resource file.
 				
 
 
 ### -param typeID [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Dd371556(v=VS.85).aspx">UI_COMMANDTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/afc2cf3e-c04d-45e1-93b3-23e5966b980c">UI_COMMANDTYPE</a></b>
 
-
-					The <a href="https://msdn.microsoft.com/library/Dd371556(v=VS.85).aspx">Command type</a> that is associated with a specific control.
+The <a href="https://msdn.microsoft.com/afc2cf3e-c04d-45e1-93b3-23e5966b980c">Command type</a> that is associated with a specific control.
 				
 
 
 ### -param commandHandler [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/cd739f99-b3f2-4ddb-a844-eb888d9c7f67">IUICommandHandler</a>**</b>
 
-
-					When this method returns, contains the address of a pointer to an 
-					<a href="https://msdn.microsoft.com/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a> object. This object is a host application 
+When this method returns, contains the address of a pointer to an 
+					<a href="https://msdn.microsoft.com/cd739f99-b3f2-4ddb-a844-eb888d9c7f67">IUICommandHandler</a> object. This object is a host application 
 					Command handler that is bound to one or more Commands.
 				
 
@@ -105,12 +101,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-				This callback notification is sent by the Ribbon framework to the host application for each Command declaration encountered 
+This callback notification is sent by the Ribbon framework to the host application for each Command declaration encountered 
 				while processing the markup resource file.
 
-
-				For each Command specified in the Ribbon markup, the Ribbon framework requires a  Command handler in the host application. 
+For each Command specified in the Ribbon markup, the Ribbon framework requires a  Command handler in the host application. 
 				A new or existing handler must be assigned to each Command. 
 			
 
@@ -180,11 +174,11 @@ STDMETHODIMP CApplication::OnCreateUICommand(
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371528(v=VS.85).aspx">IUIApplication</a>
+<a href="https://msdn.microsoft.com/0df1d890-cc78-4375-a17e-6fe7c0249107">IUIApplication</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

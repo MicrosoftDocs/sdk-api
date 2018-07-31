@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphseditor.htm
 old-project: printdocs
 ms.assetid: 5bdf2892-ce6f-4560-b638-e441166fc309
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMGlyphsEditor, IXpsOMGlyphsEditor interface [XPS Documents and Packaging], IXpsOMGlyphsEditor interface [XPS Documents and Packaging],described, xps.ixpsomglyphseditor, xpsobjectmodel/IXpsOMGlyphsEditor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IXpsOMGlyphsEditor</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ddbd8dc4-5d4f-4b30-8943-f4a5bc8e64c2">ApplyEdits</a>
 </td>
 <td align="left" width="63%">
-
-              Performs cross-property validation and then copies the changes to the parent <a href="https://msdn.microsoft.com/6d2cda65-c719-46f2-97c9-8aee7b5f84b9">IXpsOMGlyphs</a> interface.
+Performs cross-property validation and then copies the changes to the parent <a href="https://msdn.microsoft.com/6d2cda65-c719-46f2-97c9-8aee7b5f84b9">IXpsOMGlyphs</a> interface.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IXpsOMGlyphsEditor</b> interface has these methods.
 <a href="https://msdn.microsoft.com/86021e6e-5a91-44f5-814d-602705b97fb2">GetBidiLevel</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the bidirectional text level  of the parent  <a href="https://msdn.microsoft.com/6d2cda65-c719-46f2-97c9-8aee7b5f84b9">IXpsOMGlyphs</a> interface.
+Gets the bidirectional text level  of the parent  <a href="https://msdn.microsoft.com/6d2cda65-c719-46f2-97c9-8aee7b5f84b9">IXpsOMGlyphs</a> interface.
             
 
 </td>
@@ -114,8 +112,7 @@ Gets the number of glyph indices.
 <a href="https://msdn.microsoft.com/c174a123-245e-4b6d-8fef-a70e57948a48">GetGlyphIndices</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an array of <a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a> structures that describe the specific glyph indices in the font.
+Gets an array of <a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a> structures that describe the specific glyph indices in the font.
             
 
 </td>
@@ -134,8 +131,7 @@ Gets the number of glyph mappings.
 <a href="https://msdn.microsoft.com/59a09a1f-547c-48e1-8aad-f408dd416656">GetGlyphMappings</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an array of <a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-969b-a99ec7bb22f3">XPS_GLYPH_MAPPING</a> structures that describe how to map UTF-16 scalar values to entries in the array of <a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a> structures, which is returned by <a href="https://msdn.microsoft.com/6698ae0b-3525-4612-8234-8ba4dd2870a0">GetGlyphIndices</a>.
+Gets an array of <a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-969b-a99ec7bb22f3">XPS_GLYPH_MAPPING</a> structures that describe how to map UTF-16 scalar values to entries in the array of <a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a> structures, which is returned by <a href="https://msdn.microsoft.com/6698ae0b-3525-4612-8234-8ba4dd2870a0">GetGlyphIndices</a>.
             
 
 </td>
@@ -199,8 +195,7 @@ Sets the name of the device font.
 <a href="https://msdn.microsoft.com/a95aaf48-9a55-4a62-b8e1-7b8d077f1b2e">SetGlyphIndices</a>
 </td>
 <td align="left" width="63%">
-
-              Sets an <a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a> structure array that describes which glyph indices are  to be used in the font.
+Sets an <a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a> structure array that describes which glyph indices are  to be used in the font.
             
 
 </td>
@@ -210,8 +205,7 @@ Sets the name of the device font.
 <a href="https://msdn.microsoft.com/c09db1ca-b244-46bd-b01a-a40d260562eb">SetGlyphMappings</a>
 </td>
 <td align="left" width="63%">
-
-              Sets an array of <a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-969b-a99ec7bb22f3">XPS_GLYPH_MAPPING</a> structures that describe how to map the UTF-16 scalar values in the <b>UnicodeString</b> property to entries in the array of <a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a> structures.
+Sets an array of <a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-969b-a99ec7bb22f3">XPS_GLYPH_MAPPING</a> structures that describe how to map the UTF-16 scalar values in the <b>UnicodeString</b> property to entries in the array of <a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a> structures.
 
             
 
@@ -222,8 +216,7 @@ Sets the name of the device font.
 <a href="https://msdn.microsoft.com/67866971-fe2b-4354-a7e9-a43678443790">SetIsSideways</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the value that indicates whether the text is to be rendered with the glyphs rotated sideways.
+Sets the value that indicates whether the text is to be rendered with the glyphs rotated sideways.
 
             
 
@@ -234,8 +227,7 @@ Sets the name of the device font.
 <a href="https://msdn.microsoft.com/5f2e1014-d50b-4755-a533-239b6ba9009e">SetProhibitedCaretStops</a>
 </td>
 <td align="left" width="63%">
-
-              Sets an array of prohibited caret stop locations.
+Sets an array of prohibited caret stop locations.
 
             
 
@@ -246,8 +238,7 @@ Sets the name of the device font.
 <a href="https://msdn.microsoft.com/68d5ab7d-63e4-403d-a689-6fc0a10e007c">SetUnicodeString</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the text in unescaped UTF-16 scalar values.
+Sets the text in unescaped UTF-16 scalar values.
 
             
 

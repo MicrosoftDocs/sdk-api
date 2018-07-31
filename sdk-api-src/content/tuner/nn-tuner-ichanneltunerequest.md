@@ -7,7 +7,7 @@ old-location: mstv\ichanneltunerequest.htm
 old-project: mstv
 ms.assetid: cdb65c1a-bd86-4dc8-a72f-c08e36999880
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IChannelTuneRequest, IChannelTuneRequest interface [Microsoft TV Technologies], IChannelTuneRequest interface [Microsoft TV Technologies],described, IChannelTuneRequestInterface, mstv.ichanneltunerequest, tuner/IChannelTuneRequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        The <b>IChannelTuneRequest</b> interface is implemented on tuning request objects that support channel numbers, including analog TV and ATSC.
+The <b>IChannelTuneRequest</b> interface is implemented on tuning request objects that support channel numbers, including analog TV and ATSC.
 
 This interface enables a guide store loader running on Windows XP to create tuning requests for analog TV networks that an application can pass to the Video Control. The Video Control examines all tuning requests that it receives. If it is an analog tuning request, the Video Control creates a filter graph that can play the specified channel. Applications running on earlier versions of Windows are responsible for creating their own analog graphs if the user selects a program on an analog channel. Downlevel applications should not pass an analog tune request to a BDA tuning device because the device cannot interpret it.
 

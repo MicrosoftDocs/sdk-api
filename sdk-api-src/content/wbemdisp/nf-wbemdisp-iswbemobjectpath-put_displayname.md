@@ -7,7 +7,7 @@ old-location: wmi\swbemobjectpath_displayname.htm
 old-project: WmiSdk
 ms.assetid: ebcd2570-f6f5-43fb-819d-0fc54b8072b1
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: DisplayName property [Windows Management Instrumentation], DisplayName property [Windows Management Instrumentation],ISWbemObjectPath interface, DisplayName property [Windows Management Instrumentation],SWbemObjectPath object, ISWbemObjectPath interface [Windows Management Instrumentation],DisplayName property, ISWbemObjectPath.get_DisplayName, ISWbemObjectPath.put_DisplayName, ISWbemObjectPath::put_DisplayName, SWbemObjectPath object [Windows Management Instrumentation],DisplayName property, SWbemObjectPath.DisplayName, _hmm_swbemobjectpath.displayname, put_DisplayName, wmi.swbemobjectpath_displayname
 ms.prod: windows
 ms.technology: windows-sdk

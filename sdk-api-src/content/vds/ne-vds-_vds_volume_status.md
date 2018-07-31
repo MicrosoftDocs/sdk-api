@@ -4,10 +4,10 @@ title: "_VDS_VOLUME_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a volume.
 old-location: base\vds_volume_status.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 16159d33-08e0-47a4-a4b6-06e5f2916ea8
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: VDS_VOLUME_STATUS, VDS_VOLUME_STATUS enumeration [VDS], VDS_VS_FAILED, VDS_VS_NO_MEDIA, VDS_VS_OFFLINE, VDS_VS_ONLINE, VDS_VS_UNKNOWN, _VDS_VOLUME_STATUS, base.vds_volume_status, vds/VDS_VOLUME_STATUS, vds/VDS_VS_FAILED, vds/VDS_VS_NO_MEDIA, vds/VDS_VS_OFFLINE, vds/VDS_VS_ONLINE, vds/VDS_VS_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,8 +99,7 @@ When the <a href="https://msdn.microsoft.com/0793642c-1905-470c-a69f-8bf5f8bbe90
 <li>For mirrored volumes—when any disk, except the last disk, is missing or has write errors that  the plex transitions to a detached condition. Likewise, if it is the last (non-stale) plex and the disk is missing.</li>
 <li>For stripe with parity (RAID-5)—when the second disk is missing, or if one column becomes detached (because the disk is missing or the column has write errors), and a second disk is missing.</li>
 </ul>
-The <a href="https://msdn.microsoft.com/3628b312-f830-4a1c-beb7-ad002a94313c">VDS_VOLUME_PROP</a>
-      structure includes a <b>VDS_VOLUME_STATUS</b> value as a member to indicate the status of a volume.
+The <a href="https://msdn.microsoft.com/3628b312-f830-4a1c-beb7-ad002a94313c">VDS_VOLUME_PROP</a>structure includes a <b>VDS_VOLUME_STATUS</b> value as a member to indicate the status of a volume.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_VOLUME_STATUS</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_VOLUME_STATUS</b> enumeration constant.</div>
 <div> </div>
@@ -124,8 +123,7 @@ The <a href="https://msdn.microsoft.com/3628b312-f830-4a1c-beb7-ad002a94313c">VD
 
 
 
-<a href="https://msdn.microsoft.com/3628b312-f830-4a1c-beb7-ad002a94313c">
-        VDS_VOLUME_PROP</a>
+<a href="https://msdn.microsoft.com/3628b312-f830-4a1c-beb7-ad002a94313c">VDS_VOLUME_PROP</a>
  
 
  

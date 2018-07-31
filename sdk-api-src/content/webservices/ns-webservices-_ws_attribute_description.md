@@ -7,7 +7,7 @@ old-location: wsw\ws_attribute_description.htm
 old-project: wsw
 ms.assetid: 23a97842-2d9f-438a-89a7-2dd0e381a019
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ATTRIBUTE_DESCRIPTION, WS_ATTRIBUTE_DESCRIPTION structure [Web Services for Windows], _WS_ATTRIBUTE_DESCRIPTION, webservices/WS_ATTRIBUTE_DESCRIPTION, wsw.ws_attribute_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,12 +71,10 @@ The namespace of the XML attribute.
 
 ### -field type
 
-
-                    The type that corresponds to the XML attribute.
+The type that corresponds to the XML attribute.
                 
 
-
-                    Not all types support being read and written as attributes.  If the
+Not all types support being read and written as attributes.  If the
                     documentation for the <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a> indicates it supports
                     <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_ATTRIBUTE_TYPE_MAPPING</a>, then it can be used with this structure.
                 
@@ -84,8 +82,7 @@ The namespace of the XML attribute.
 
 ### -field typeDescription
 
-
-                    Additional information about the type.  Each type has a different description
+Additional information about the type.  Each type has a different description
                     structure.  This may be <b>NULL</b>, depending on the <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a>.
                 
 

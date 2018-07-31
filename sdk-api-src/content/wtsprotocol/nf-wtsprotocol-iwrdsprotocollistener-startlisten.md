@@ -4,10 +4,10 @@ title: IWRdsProtocolListener::StartListen
 author: windows-sdk-content
 description: Notifies the protocol to start listening for client connection requests.
 old-location: termserv\iwrdsprotocollistener_startlisten.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: d3797411-2ac6-4d3c-8c90-5c566e6d8fa8
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWRdsProtocolListener interface [Remote Desktop Services],StartListen method, IWRdsProtocolListener.StartListen, IWRdsProtocolListener::StartListen, StartListen, StartListen method [Remote Desktop Services], StartListen method [Remote Desktop Services],IWRdsProtocolListener interface, termserv.iwrdsprotocollistener_startlisten, wtsprotocol/IWRdsProtocolListener::StartListen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Notifies the protocol to start listening for client connection requests.
 ### -param pCallback [in]
 
 A pointer to an <a href="https://msdn.microsoft.com/33f583a4-8311-4db1-9646-bed1cd06e479">IWRdsProtocolListenerCallback</a> object 
-implemented by the Remote Desktop Services
- service. The protocol uses the 
+implemented by the Remote Desktop Servicesservice. The protocol uses the 
 <b>IWRdsProtocolListenerCallback</b> object to notify 
 the 
 

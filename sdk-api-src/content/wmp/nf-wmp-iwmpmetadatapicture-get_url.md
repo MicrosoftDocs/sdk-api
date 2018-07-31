@@ -7,7 +7,7 @@ old-location: wmp\iwmpmetadatapicture_get_url.htm
 old-project: WMP
 ms.assetid: e61c9c1a-4ffc-4a71-83b7-ad3f9937e303
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPMetadataPicture interface [Windows Media Player],get_URL method, IWMPMetadataPicture.get_URL, IWMPMetadataPicture::get_URL, IWMPMetadataPictureget_URL, get_URL, get_URL method [Windows Media Player], get_URL method [Windows Media Player],IWMPMetadataPicture interface, wmp.iwmpmetadatapicture_get_url, wmp/IWMPMetadataPicture::get_URL
 ms.prod: windows
 ms.technology: windows-sdk

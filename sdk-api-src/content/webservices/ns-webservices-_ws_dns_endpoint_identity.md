@@ -7,7 +7,7 @@ old-location: wsw\ws_dns_endpoint_identity.htm
 old-project: wsw
 ms.assetid: 09dea451-68ae-4052-8563-30f15c1335d6
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_DNS_ENDPOINT_IDENTITY, WS_DNS_ENDPOINT_IDENTITY structure [Web Services for Windows], _WS_DNS_ENDPOINT_IDENTITY, webservices/WS_DNS_ENDPOINT_IDENTITY, wsw.ws_dns_endpoint_identity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                    Type for specifying an endpoint identity represented by a DNS name.
+Type for specifying an endpoint identity represented by a DNS name.
             
 
 
@@ -63,15 +62,13 @@ req.product: Windows Address Book 5.0
 
 ### -field identity
 
-
-                    The base type from which this type and all other endpoint identity types derive.
+The base type from which this type and all other endpoint identity types derive.
                 
 
 
 ### -field dns
 
-
-                    The DNS name of the endpoint that is represented by this endpoint identity.
+The DNS name of the endpoint that is represented by this endpoint identity.
                     The acceptable forms of the name are as defined by <a href="http://go.microsoft.com/fwlink/p/?linkid=139702">RFC 1035</a>.
                     In particular, they include both a simple machine name as well as a fully qualified domain name (FQDN).
                 

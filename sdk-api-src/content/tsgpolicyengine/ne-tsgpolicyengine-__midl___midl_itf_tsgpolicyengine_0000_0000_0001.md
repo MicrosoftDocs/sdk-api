@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0001"
 author: windows-sdk-content
 description: Specifies the type of authentication used to connect to Remote Desktop Gateway (RD Gateway).
 old-location: termserv\aaauthschemes.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: ff80f8ac-8378-4087-aa95-a081d2dd710a
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: AAAuthSchemes, AAAuthSchemes enumeration [Remote Desktop Services], AA_AUTH_ANY, AA_AUTH_BASIC, AA_AUTH_CONID, AA_AUTH_COOKIE, AA_AUTH_DIGEST, AA_AUTH_LOGGEDONCREDENTIALS, AA_AUTH_MAX, AA_AUTH_MIN, AA_AUTH_NEGOTIATE, AA_AUTH_NTLM, AA_AUTH_ORGID, AA_AUTH_SC, __MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0001, termserv.aaauthschemes, tsgpolicyengine/AAAuthSchemes, tsgpolicyengine/AA_AUTH_ANY, tsgpolicyengine/AA_AUTH_BASIC, tsgpolicyengine/AA_AUTH_CONID, tsgpolicyengine/AA_AUTH_COOKIE, tsgpolicyengine/AA_AUTH_DIGEST, tsgpolicyengine/AA_AUTH_LOGGEDONCREDENTIALS, tsgpolicyengine/AA_AUTH_MAX, tsgpolicyengine/AA_AUTH_MIN, tsgpolicyengine/AA_AUTH_NEGOTIATE, tsgpolicyengine/AA_AUTH_NTLM, tsgpolicyengine/AA_AUTH_ORGID, tsgpolicyengine/AA_AUTH_SC
 ms.prod: windows
 ms.technology: windows-sdk

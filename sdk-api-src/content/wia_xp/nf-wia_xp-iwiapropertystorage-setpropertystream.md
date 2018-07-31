@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaPropertyStorage_SetPropertyStream.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\setpropertystream.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: IWiaPropertyStorage interface [WIA],SetPropertyStream method, IWiaPropertyStorage.SetPropertyStream, IWiaPropertyStorage::SetPropertyStream, SetPropertyStream, SetPropertyStream method [WIA], SetPropertyStream method [WIA],IWiaPropertyStorage interface, _wia_IWiaPropertyStorage_SetPropertyStream, wia._wia_IWiaPropertyStorage_SetPropertyStream, wia_xp/IWiaPropertyStorage::SetPropertyStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>IWiaPropertyStorage::SetPropertyStream</b> sets the property stream of an item in the tree of <a href="https://msdn.microsoft.com/library/ms630113(v=VS.85).aspx">IWiaItem</a> objects of a Windows Image Acquisition (WIA) hardware device.
+The <b>IWiaPropertyStorage::SetPropertyStream</b> sets the property stream of an item in the tree of <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> objects of a Windows Image Acquisition (WIA) hardware device.
 
 
 ## -parameters
@@ -97,7 +97,7 @@ Applications use the <i>pCompatibilityID</i> parameter to check whether a device
 
 Set <i>pIStream</i> to <b>NULL</b> to check whether the device driver accepts the CompatibilityID specified by <i>pCompatibilityID</i>.
 
-If the application obtained the property stream of the item using the <a href="https://msdn.microsoft.com/library/ms629936(v=VS.85).aspx">IWiaPropertyStorage::GetPropertyStream</a> method, the application must release it. For more information, see <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>.
+If the application obtained the property stream of the item using the <a href="https://msdn.microsoft.com/ee55a613-2358-4e04-a730-64cca7b6dea2">IWiaPropertyStorage::GetPropertyStream</a> method, the application must release it. For more information, see <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>.
 
 
 
@@ -111,7 +111,7 @@ If the application obtained the property stream of the item using the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/ms629938(v=VS.85).aspx">IWiaPropertyStorage</a>
+<a href="https://msdn.microsoft.com/b80d22d4-8e36-484a-9dd1-f228e2236eaf">IWiaPropertyStorage</a>
  
 
  

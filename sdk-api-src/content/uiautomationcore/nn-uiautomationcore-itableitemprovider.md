@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITableItemProvider.htm
 old-project: WinAuto
 ms.assetid: 73cba491-1aa6-4bd7-bcd6-95b5d85c9457
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: ITableItemProvider, ITableItemProvider interface [Windows Accessibility], ITableItemProvider interface [Windows Accessibility],described, uiauto.uiauto_ITableItemProvider, uiauto_ITableItemProvider, uiautomationcore/ITableItemProvider, winauto.uiauto_ITableItemProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ The <b>ITableItemProvider</b> interface has these methods.
 <a href="https://msdn.microsoft.com/b08e20e8-142c-4f83-8422-c0e6ae2b7ebf">GetColumnHeaderItems</a>
 </td>
 <td align="left" width="63%">
-
-        Retrieves a collection of UI Automation provider 
+Retrieves a collection of UI Automation provider 
         representing all the column headers associated with a table item or cell.
         
 
@@ -88,8 +87,7 @@ The <b>ITableItemProvider</b> interface has these methods.
 <a href="https://msdn.microsoft.com/02717f9a-93dd-4963-bbc7-a1eb257bf5e5">GetRowHeaderItems</a>
 </td>
 <td align="left" width="63%">
-
-        Retrieves a collection of UI Automation provider 
+Retrieves a collection of UI Automation provider 
         representing all the row headers associated with a table item or cell.
         
 
@@ -102,19 +100,16 @@ The <b>ITableItemProvider</b> interface has these methods.
 
 
 
-
-            This control pattern is analogous to <a href="https://msdn.microsoft.com/334a10f1-8bfc-4935-9eee-6176a3e8a4f1">IGridItemProvider</a> with 
+This control pattern is analogous to <a href="https://msdn.microsoft.com/334a10f1-8bfc-4935-9eee-6176a3e8a4f1">IGridItemProvider</a> with 
             the distinction that any control implementing <b>ITableItemProvider</b> 
             must expose the relationship between the individual cell and its row and column information.
             
 
-
-            Access to individual cell functionality is provided by the concurrent implementation 
+Access to individual cell functionality is provided by the concurrent implementation 
             of <a href="https://msdn.microsoft.com/334a10f1-8bfc-4935-9eee-6176a3e8a4f1">IGridItemProvider</a>. 
             
 
-
-            Implemented on a UI Automation provider that must 
+Implemented on a UI Automation provider that must 
             support the <a href="https://msdn.microsoft.com/e00c7a58-410c-4818-8f61-57ee98527d6e">TableItem</a> control pattern.
             
 

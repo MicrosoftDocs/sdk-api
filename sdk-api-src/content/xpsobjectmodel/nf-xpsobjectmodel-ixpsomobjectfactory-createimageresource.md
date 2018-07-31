@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createimageresource.htm
 old-project: printdocs
 ms.assetid: 267f6e3e-ed1d-4ce7-a554-a943ac3f469d
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CreateImageResource, CreateImageResource method [XPS Documents and Packaging], CreateImageResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateImageResource method, IXpsOMObjectFactory.CreateImageResource, IXpsOMObjectFactory::CreateImageResource, xps.ixpsomobjectfactory_createimageresource, xpsobjectmodel/IXpsOMObjectFactory::CreateImageResource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Creates an <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09
 
 ### -param acquiredStream [in]
 
-
-            The read-only stream to be associated with this resource. This parameter must 	not be <b>NULL</b>.
+The read-only stream to be associated with this resource. This parameter must 	not be <b>NULL</b>.
 
 <div class="alert"><b>Important</b>  Treat this stream as a Single-Threaded Apartment (STA) object; do not re-enter it.</div>
 <div> </div>

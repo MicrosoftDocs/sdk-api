@@ -7,7 +7,7 @@ old-location: wsw\ws_security_property.htm
 old-project: wsw
 ms.assetid: 676079cd-6ca8-486b-9604-172423210ad5
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SECURITY_PROPERTY, WS_SECURITY_PROPERTY structure [Web Services for Windows], _WS_SECURITY_PROPERTY, webservices/WS_SECURITY_PROPERTY, wsw.ws_security_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies a channel-wide security setting.
+Specifies a channel-wide security setting.
             
 
 
@@ -63,15 +62,13 @@ req.product: Windows Address Book 5.0
 
 ### -field id
 
-
-                Identifies the <a href="https://msdn.microsoft.com/98a824c9-11dd-4433-ae8f-2e6b6f6a520f">WS_SECURITY_PROPERTY_ID</a>.
+Identifies the <a href="https://msdn.microsoft.com/98a824c9-11dd-4433-ae8f-2e6b6f6a520f">WS_SECURITY_PROPERTY_ID</a>.
             
 
 
 ### -field value
 
-
-                A pointer to the value to set.
+A pointer to the value to set.
                 The pointer must have an alignment compatible with the type
                 of the property.
             
@@ -79,7 +76,6 @@ req.product: Windows Address Book 5.0
 
 ### -field valueSize
 
-
-                The size in bytes of the memory pointed to by value.
+The size in bytes of the memory pointed to by value.
             
 

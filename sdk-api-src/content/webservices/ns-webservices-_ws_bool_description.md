@@ -7,7 +7,7 @@ old-location: wsw\ws_bool_description.htm
 old-project: wsw
 ms.assetid: 2f013802-c564-4544-946f-534afd402474
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_BOOL_DESCRIPTION, WS_BOOL_DESCRIPTION structure [Web Services for Windows], _WS_BOOL_DESCRIPTION, webservices/WS_BOOL_DESCRIPTION, wsw.ws_bool_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 Specifies constraints on the set of values
-                which can be deserialized.
-                This type description is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_BOOL_TYPE</a> and is optional.
+                which can be deserialized.This type description is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_BOOL_TYPE</a> and is optional.
                 
 
 
@@ -64,7 +63,6 @@ Specifies constraints on the set of values
 
 ### -field value
 
-
-                    Specifies the required value.
+Specifies the required value.
                 
 

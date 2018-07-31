@@ -4,10 +4,10 @@ title: TransmitCommChar function
 author: windows-sdk-content
 description: Transmits a specified character ahead of any pending data in the output buffer of the specified communications device.
 old-location: base\transmitcommchar.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 599c3d04-6cd3-41ac-88a8-752f4b83d46b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: TransmitCommChar, TransmitCommChar function, _win32_transmitcommchar, base.transmitcommchar, winbase/TransmitCommChar
 ms.prod: windows
 ms.technology: windows-sdk

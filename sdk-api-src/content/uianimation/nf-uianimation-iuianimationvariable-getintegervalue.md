@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable_getintegervalue.htm
 old-project: UIAnimation
 ms.assetid: 044fd6a3-6e40-4f4f-8777-1a1a66c91989
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetIntegerValue, GetIntegerValue method [Windows Animation], GetIntegerValue method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetIntegerValue method, IUIAnimationVariable.GetIntegerValue, IUIAnimationVariable::GetIntegerValue, uianimation.iuianimationvariable_getintegervalue, uianimation/IUIAnimationVariable::GetIntegerValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Gets the current value of the animation variable as an integer.
+Gets the current value of the animation variable as an integer.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param value [out]
 
-
-            The current value of the animation variable, converted to an <b>INT32</b> value.
+The current value of the animation variable, converted to an <b>INT32</b> value.
 
 
 ## -returns
@@ -109,8 +107,7 @@ For an example, see <a href="https://msdn.microsoft.com/7abf084a-31f5-4e32-bfd1-
 
 
 
-<a href="https://msdn.microsoft.com/51ae200a-a630-44fd-afd4-33d1b1dbf6d7">
-      IUIAnimationVariable::GetValue</a>
+<a href="https://msdn.microsoft.com/51ae200a-a630-44fd-afd4-33d1b1dbf6d7">IUIAnimationVariable::GetValue</a>
 
 
 
@@ -118,8 +115,7 @@ For an example, see <a href="https://msdn.microsoft.com/7abf084a-31f5-4e32-bfd1-
 
 
 
-<a href="https://msdn.microsoft.com/e8c86195-14a1-4535-9fc2-4992c8090e79">
-      IUIAnimationVariable::SetRoundingMode</a>
+<a href="https://msdn.microsoft.com/e8c86195-14a1-4535-9fc2-4992c8090e79">IUIAnimationVariable::SetRoundingMode</a>
 
 
 

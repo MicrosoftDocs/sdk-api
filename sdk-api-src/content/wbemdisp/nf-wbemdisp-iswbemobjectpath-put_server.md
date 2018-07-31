@@ -7,7 +7,7 @@ old-location: wmi\swbemobjectpath_server.htm
 old-project: WmiSdk
 ms.assetid: 8d711bc5-dd5e-426f-8398-38f90655ff75
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemObjectPath interface [Windows Management Instrumentation],Server property, ISWbemObjectPath.get_Server, ISWbemObjectPath.put_Server, ISWbemObjectPath::put_Server, SWbemObjectPath object [Windows Management Instrumentation],Server property, SWbemObjectPath.Server, Server property [Windows Management Instrumentation], Server property [Windows Management Instrumentation],ISWbemObjectPath interface, Server property [Windows Management Instrumentation],SWbemObjectPath object, _hmm_swbemobjectpath.server, put_Server, wmi.swbemobjectpath_server
 ms.prod: windows
 ms.technology: windows-sdk

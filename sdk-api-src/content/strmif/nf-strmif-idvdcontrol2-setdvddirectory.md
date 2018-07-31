@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_setdvddirectory.htm
 old-project: DirectShow
 ms.assetid: fa64a614-14cb-4ea9-a005-0e738490b6d6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetDVDDirectory method, IDvdControl2.SetDVDDirectory, IDvdControl2::SetDVDDirectory, IDvdControl2SetDVDDirectory, SetDVDDirectory, SetDVDDirectory method [DirectShow], SetDVDDirectory method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setdvddirectory, strmif/IDvdControl2::SetDVDDirectory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -169,11 +169,9 @@ The following table shows the Annex J command name to which this method name cor
 
 <table>
 <tr>
-<td>
-              Annex J Command Name
+<td>Annex J Command Name
             </td>
-<td>
-              Valid Domains
+<td>Valid Domains
             </td>
 </tr>
 <tr>

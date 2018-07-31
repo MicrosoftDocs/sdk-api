@@ -4,10 +4,10 @@ title: IWindowsMediaLibrarySharingServices::get_computerHomeMediaSharingAllowedS
 author: windows-sdk-content
 description: The get_computerHomeMediaSharingAllowedState method retrieves a value that indicates whether media libraries on the computer are allowed to be shared on the home network.
 old-location: wmlss\IWMLSSget_computerHomeMediaSharingAllowedState.htm
-old-project: wmlss
+old-project: WMLSS
 ms.assetid: 9c1ced28-7ed0-4f65-af4d-34774f911621
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_computerHomeMediaSharingAllowedState method, IWindowsMediaLibrarySharingServices.get_computerHomeMediaSharingAllowedState, IWindowsMediaLibrarySharingServices::get_computerHomeMediaSharingAllowedState, get_computerHomeMediaSharingAllowedState, get_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services], get_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_computerHomeMediaSharingAllowedState, wmlss/IWindowsMediaLibrarySharingServices::get_computerHomeMediaSharingAllowedState
 ms.prod: windows
 ms.technology: windows-sdk

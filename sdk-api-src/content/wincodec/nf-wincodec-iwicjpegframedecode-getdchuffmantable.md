@@ -7,7 +7,7 @@ old-location: wic\iwicjpegframedecode_getdchuffmantable.htm
 old-project: wic
 ms.assetid: 3C4FAF86-87CD-4844-94BC-CEE861681760
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetDcHuffmanTable, GetDcHuffmanTable method [Windows Imaging Component], GetDcHuffmanTable method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],GetDcHuffmanTable method, IWICJpegFrameDecode.GetDcHuffmanTable, IWICJpegFrameDecode::GetDcHuffmanTable, wic.iwicjpegframedecode_getdchuffmantable, wincodec/IWICJpegFrameDecode::GetDcHuffmanTable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ A pointer that receives the table data. This parameter must not be NULL.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method can return one of these values.
 

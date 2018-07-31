@@ -7,7 +7,7 @@ old-location: multimedia\icdecompressex.htm
 old-project: Multimedia
 ms.assetid: a7ae0409-e89d-400a-a601-edc8e6e3fbcc
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: ICDecompressEx, ICDecompressEx function [Windows Multimedia], _win32_ICDecompressEx, multimedia.icdecompressex, vfw/ICDecompressEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,11 +73,9 @@ Decompression flags. The following values are defined.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Meaning
+<th>Meaning
                 </th>
 </tr>
 <tr>
@@ -106,85 +104,73 @@ Decompression flags. The following values are defined.
 
 ### -param lpbiSrc
 
-
-            Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the format of the compressed data.
+Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the format of the compressed data.
           
 
 
 ### -param lpSrc
 
-
-            Pointer to the input data.
+Pointer to the input data.
           
 
 
 ### -param xSrc
 
-
-            The x-coordinate of the source rectangle for the DIB specified by <i>lpbiSrc</i>.
+The x-coordinate of the source rectangle for the DIB specified by <i>lpbiSrc</i>.
           
 
 
 ### -param ySrc
 
-
-            The y-coordinate of the source rectangle for the DIB specified by <i>lpbiSrc</i>.
+The y-coordinate of the source rectangle for the DIB specified by <i>lpbiSrc</i>.
           
 
 
 ### -param dxSrc
 
-
-            Width of the source rectangle.
+Width of the source rectangle.
           
 
 
 ### -param dySrc
 
-
-            Height of the source rectangle.
+Height of the source rectangle.
           
 
 
 ### -param lpbiDst
 
-
-            Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the output format.
+Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the output format.
           
 
 
 ### -param lpDst
 
-
-            Pointer to a buffer that is large enough to contain the decompressed data.
+Pointer to a buffer that is large enough to contain the decompressed data.
           
 
 
 ### -param xDst
 
-
-            The x-coordinate of the destination rectangle for the DIB specified by <i>lpbiDst</i>.
+The x-coordinate of the destination rectangle for the DIB specified by <i>lpbiDst</i>.
           
 
 
 ### -param yDst
 
-
-            The y-coordinate of the destination rectangle for the DIB specified by <i>lpbiDst</i>.
+The y-coordinate of the destination rectangle for the DIB specified by <i>lpbiDst</i>.
           
 
 
 ### -param dxDst
 
-
-            Width of the destination rectangle.
+Width of the destination rectangle.
           
 
 
 ### -param dyDst
 
-
-            Height of the destination rectangle.
+Height of the destination rectangle.
           
 
 
@@ -192,8 +178,7 @@ Decompression flags. The following values are defined.
 
 
 
-
-            Returns <b>ICERR_OK</b> if successful or an error otherwise.
+Returns <b>ICERR_OK</b> if successful or an error otherwise.
           
 
 

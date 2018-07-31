@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IValueProvider_Value.htm
 old-project: WinAuto
 ms.assetid: 83cd0b99-32e4-4a25-aebb-b769745df78f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IValueProvider interface [Windows Accessibility],Value property, IValueProvider.Value, IValueProvider.get_Value, IValueProvider::Value, IValueProvider::get_Value, Value property [Windows Accessibility], Value property [Windows Accessibility],IValueProvider interface, get_Value, uiauto.uiauto_IValueProvider_Value, uiauto_IValueProvider_Value, uiautomationcore/IValueProvider::Value, uiautomationcore/IValueProvider::get_Value, winauto.uiauto_IValueProvider_Value
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,7 @@ This property is read-only.
 
 
 
-
 Single-line edit controls support programmatic access to their contents by implementing <a href="https://msdn.microsoft.com/e6adbc23-dbfe-4dd2-82d9-66ce16de3338">IValueProvider</a> (in addition to <a href="https://msdn.microsoft.com/8bd53f1e-731f-420b-a529-ca3f6c3fd97c">ITextProvider</a>). However, multi-line edit controls do not implement <b>IValueProvider</b>.
-
 
 
 To retrieve the textual contents of multi-line edit controls, the controls must implement <a href="https://msdn.microsoft.com/8bd53f1e-731f-420b-a529-ca3f6c3fd97c">ITextProvider</a>. However, <b>ITextProvider</b> does not support setting the value of a control.

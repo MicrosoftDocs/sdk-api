@@ -7,7 +7,7 @@ old-location: mstv\ipersisttunexmlutility.htm
 old-project: mstv
 ms.assetid: aa03015f-094f-499f-99fb-2e15ead74f15
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IPersistTuneXmlUtility, IPersistTuneXmlUtility interface [Microsoft TV Technologies], IPersistTuneXmlUtility interface [Microsoft TV Technologies],described, mstv.ipersisttunexmlutility, tuner/IPersistTuneXmlUtility
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Defines utility methods for deserializing XML tuning requests to objects that expose their <b>IUnknown</b> interfaces.
+Defines utility methods for deserializing XML tuning requests to objects that expose their <b>IUnknown</b> interfaces.
 
 
 ## -inheritance

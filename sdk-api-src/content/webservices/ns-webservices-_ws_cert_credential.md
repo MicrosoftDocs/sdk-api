@@ -7,7 +7,7 @@ old-location: wsw\ws_cert_credential.htm
 old-project: wsw
 ms.assetid: 729e27f4-354c-4ae9-a527-52c444206ef0
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_CERT_CREDENTIAL, WS_CERT_CREDENTIAL structure [Web Services for Windows], _WS_CERT_CREDENTIAL, webservices/WS_CERT_CREDENTIAL, wsw.ws_cert_credential
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 The abstract base type for all certificate credential types.
-            
 
 
 ## -struct-fields
@@ -62,7 +60,6 @@ The abstract base type for all certificate credential types.
 
 
 ### -field credentialType
-
 
 The type ID that indicates which of the certificate credential
 subtypes this certificate credential is.

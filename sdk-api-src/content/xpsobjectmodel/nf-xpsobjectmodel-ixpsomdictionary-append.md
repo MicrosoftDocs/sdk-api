@@ -7,7 +7,7 @@ old-location: xps\ixpsomdictionary_append.htm
 old-project: printdocs
 ms.assetid: 69df1cdc-a965-4ea8-b1af-75176caa39ee
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],Append method, IXpsOMDictionary.Append, IXpsOMDictionary::Append, xps.ixpsomdictionary_append, xpsobjectmodel/IXpsOMDictionary::Append
 ms.prod: windows
 ms.technology: windows-sdk

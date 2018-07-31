@@ -4,10 +4,10 @@ title: "_VDS_VOLUME_PROP"
 author: windows-sdk-content
 description: Defines the properties of a volume object.
 old-location: base\vds_volume_prop.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 3628b312-f830-4a1c-beb7-ad002a94313c
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: "*PVDS_VOLUME_PROP, PVDS_VOLUME_PROP, PVDS_VOLUME_PROP structure pointer [VDS], VDS_VOLUME_PROP, VDS_VOLUME_PROP structure [VDS], _VDS_VOLUME_PROP, base.vds_volume_prop, vds/PVDS_VOLUME_PROP, vds/_VDS_VOLUME_PROP"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,8 +110,7 @@ The name used to open a handle for the volume with the <a href="base.createfile"
 
 
 
-The <a href="https://msdn.microsoft.com/ba4a92c9-35f1-463a-8fa3-1a0d78720555">IVdsVolume::GetProperties</a>
-        method returns this structure to report the properties of a <a href="https://msdn.microsoft.com/92013015-b0f5-4b92-937b-c2637f65810c">volume object</a>.
+The <a href="https://msdn.microsoft.com/ba4a92c9-35f1-463a-8fa3-1a0d78720555">IVdsVolume::GetProperties</a>method returns this structure to report the properties of a <a href="https://msdn.microsoft.com/92013015-b0f5-4b92-937b-c2637f65810c">volume object</a>.
 
 When a volume is offline, the <b>VDS_VF_PERMANENTLY_DISMOUNTED</b> flag is set in the <b>ulFlags</b> member of the <b>VDS_VOLUME_PROP</b> structure, and the <b>VDS_VS_OFFLINE</b> volume status value is also set in the <b>status</b> member of this structure.
 

@@ -4,10 +4,10 @@ title: IVssWMFiledesc::GetFilespec
 author: windows-sdk-content
 description: The GetFilespec method returns the file specification used to obtain the list of files that the current IVssWMFiledesc object is a member of.
 old-location: base\ivsswmfiledesc_getfilespec.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 9661d22b-5c82-412d-966d-83605c568e22
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetFilespec, GetFilespec method [VSS], GetFilespec method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetFilespec method, IVssWMFiledesc.GetFilespec, IVssWMFiledesc::GetFilespec, _win32_ivsswmfiledesc_getfilespec, base.ivsswmfiledesc_getfilespec, vswriter/IVssWMFiledesc::GetFilespec
 ms.prod: windows
 ms.technology: windows-sdk
@@ -138,8 +138,7 @@ The XML document is not valid. Check the event log for details. For more informa
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
@@ -156,7 +155,7 @@ The XML document is not valid. Check the event log for details. For more informa
 
 
 
-The caller must call <a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory held by the <i>pbstrFilespec</i> parameter.
+The caller must call <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory held by the <i>pbstrFilespec</i> parameter.
 
 
 

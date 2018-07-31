@@ -4,10 +4,10 @@ title: TSPI_lineMSPIdentify function
 author: windows-sdk-content
 description: The TSPI_lineMSPIdentify function determines the associated MSP CLSID for every line. This function requires TAPI 3.0 version negotiation.
 old-location: tspi\tspi_linemspidentify.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: a4fe8d2e-7257-49de-b5d1-e343cadad59a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: TSPI_lineMSPIdentify, TSPI_lineMSPIdentify function [TAPI 2.2], _tspi_tspi_linemspidentify, tspi.tspi_linemspidentify, tspi/TSPI_lineMSPIdentify
 ms.prod: windows
 ms.technology: windows-sdk

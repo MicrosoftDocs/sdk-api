@@ -4,10 +4,10 @@ title: InterlockedXor function
 author: windows-sdk-content
 description: Performs an atomic XOR operation on the specified LONG values.
 old-location: base\interlockedxor.htm
-old-project: sync
+old-project: Sync
 ms.assetid: c4815bf2-e06d-4dcf-a460-a88c4c9a3c27
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/29/2018
 ms.keywords: InterlockedXor, InterlockedXor function, base.interlockedxor, winbase/InterlockedXor
 ms.prod: windows
 ms.technology: windows-sdk

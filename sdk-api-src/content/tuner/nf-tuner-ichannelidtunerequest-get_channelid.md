@@ -7,7 +7,7 @@ old-location: mstv\ichannelidtunerequest_channelid.htm
 old-project: mstv
 ms.assetid: 95f4a109-c368-41aa-aeb1-4e8aebb54f94
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: ChannelID property [Microsoft TV Technologies], ChannelID property [Microsoft TV Technologies],IChannelIDTuneRequest interface, IChannelIDTuneRequest interface [Microsoft TV Technologies],ChannelID property, IChannelIDTuneRequest.ChannelID, IChannelIDTuneRequest.get_ChannelID, IChannelIDTuneRequest::ChannelID, IChannelIDTuneRequest::get_ChannelID, IChannelIDTuneRequest::put_ChannelID, get_ChannelID, mstv.ichannelidtunerequest_channelid, tuner/IChannelIDTuneRequest::ChannelID, tuner/IChannelIDTuneRequest::get_ChannelID, tuner/IChannelIDTuneRequest::put_ChannelID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Provider-defined channel identifier in string format.
+Provider-defined channel identifier in string format.
     
 
 This property is read/write.

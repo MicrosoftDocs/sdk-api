@@ -4,10 +4,10 @@ title: "_PERF_COUNTER_BLOCK"
 author: windows-sdk-content
 description: Describes the block of memory that contains the raw performance counter data for an object's counters.
 old-location: perf\perf_counter_block_str.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 5cff6142-6d71-46a5-a943-3ec91ebac62b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "*PPERF_COUNTER_BLOCK, PERF_COUNTER_BLOCK, PERF_COUNTER_BLOCK structure [Perf], _PERF_COUNTER_BLOCK, _win32_perf_counter_block_str, base.perf_counter_block_str, perf.perf_counter_block_str, winperf/PERF_COUNTER_BLOCK"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			Describes the block of memory that contains the raw performance counter data for an 
+Describes the block of memory that contains the raw performance counter data for an 
 object's counters.
 		
 

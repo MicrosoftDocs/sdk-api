@@ -7,7 +7,7 @@ old-location: menurc\stringcbcopyn.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopyn.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: StringCbCopyN, StringCbCopyN function [Menus and Other Resources], StringCbCopyNA, StringCbCopyNW, _shell_StringCbCopyN, _shell_stringcbcopyn_cpp, menurc.stringcbcopyn, strsafe/StringCbCopyN, strsafe/StringCbCopyNA, strsafe/StringCbCopyNW, winui._shell_stringcbcopyn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -164,7 +164,7 @@ While this routine is meant as a replacement for <a href="ac4345a1-a129-4f2f-bb8
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 
-Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://msdn.microsoft.com/library/ms647503(v=VS.85).aspx">StringCbCopyNEx</a> if you require the handling of null string pointer values.
+Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://msdn.microsoft.com/0ef55f41-000c-475a-8227-66df352366fb">StringCbCopyNEx</a> if you require the handling of null string pointer values.
 
 <b>StringCbCopyN</b> can be used in its generic form, or in its more specific forms. The data type of the string determines the form of this function that you should use, as shown in the following table.
 
@@ -204,15 +204,15 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647499(v=VS.85).aspx">StringCbCopy</a>
+<a href="https://msdn.microsoft.com/00c99f3e-106b-46a2-afae-517b32b7a960">StringCbCopy</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647503(v=VS.85).aspx">StringCbCopyNEx</a>
+<a href="https://msdn.microsoft.com/0ef55f41-000c-475a-8227-66df352366fb">StringCbCopyNEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647530(v=VS.85).aspx">StringCchCopyN</a>
+<a href="https://msdn.microsoft.com/5803c6fa-d1ae-4c3b-8627-162039e8c31f">StringCchCopyN</a>
  
 
  

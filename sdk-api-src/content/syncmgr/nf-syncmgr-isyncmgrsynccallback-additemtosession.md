@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncCallback_AddItemToSession.htm
 old-project: shell
 ms.assetid: 1de3d6c0-cdf8-48fa-b7ff-2dc75f6757fc
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: AddItemToSession, AddItemToSession method [Windows Shell], AddItemToSession method [Windows Shell],ISyncMgrSyncCallback interface, ISyncMgrSyncCallback interface [Windows Shell],AddItemToSession method, ISyncMgrSyncCallback.AddItemToSession, ISyncMgrSyncCallback::AddItemToSession, _shell_ISyncMgrSyncCallback_AddItemToSession, shell.ISyncMgrSyncCallback_AddItemToSession, syncmgr/ISyncMgrSyncCallback::AddItemToSession
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,8 +88,7 @@ Returns S_OK if successful, or an error value otherwise. Returns E_INVALIDARG if
 
 
 
-
-        	The following example shows the usage of <b>ISyncMgrSyncCallback::AddItemToSession</b> by the <a href="https://msdn.microsoft.com/6742f6a8-eda8-4ef0-8a11-dc70baefcc83">Synchronize</a> method.
+The following example shows the usage of <b>ISyncMgrSyncCallback::AddItemToSession</b> by the <a href="https://msdn.microsoft.com/6742f6a8-eda8-4ef0-8a11-dc70baefcc83">Synchronize</a> method.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

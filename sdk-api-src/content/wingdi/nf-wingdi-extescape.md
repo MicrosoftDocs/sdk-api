@@ -7,7 +7,7 @@ old-location: gdi\extescape.htm
 old-project: printdocs
 ms.assetid: 5ca74f61-75dd-4a8c-9f0f-9c1b4719c75f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CHECKJPEGFORMAT, CHECKPNGFORMAT, DRAWPATTERNRECT, ExtEscape, ExtEscape function [Windows GDI], GETTECHNOLOGY, GET_PS_FEATURESETTING, PASSTHROUGH, POSTSCRIPT_DATA, POSTSCRIPT_IDENTIFY, POSTSCRIPT_INJECTION, POSTSCRIPT_PASSTHROUGH, QUERYESCSUPPORT, SPCLPASSTHROUGH2, _win32_ExtEscape, gdi.extescape, wingdi/ExtEscape
 ms.prod: windows
 ms.technology: windows-sdk
@@ -304,8 +304,7 @@ The <a href="https://msdn.microsoft.com/44054d92-151e-4713-9287-748261a43afd">GE
 
 For non-XPSDrv printers, this escape reports whether the driver is a Postscript driver.
 
-
-        For XPSDrv printers, this escape reports whether the driver is the <a href="https://msdn.microsoft.com/e947e4c4-eda1-407c-9ba8-048beef1974b">Microsoft XPS Document Converter (MXDC)</a>. If it is, the escape returns the zero-terminated string "http://schemas.microsoft.com/xps/2005/06"
+For XPSDrv printers, this escape reports whether the driver is the <a href="https://msdn.microsoft.com/e947e4c4-eda1-407c-9ba8-048beef1974b">Microsoft XPS Document Converter (MXDC)</a>. If it is, the escape returns the zero-terminated string "http://schemas.microsoft.com/xps/2005/06"
 
 The <a href="https://msdn.microsoft.com/d62fe4b3-b6ff-4431-ad75-20b252e456b3">PASSTHROUGH</a> printer escape function sends data directly to a printer driver. To perform this operation, call the <b>ExtEscape</b> function with the following parameters.
 

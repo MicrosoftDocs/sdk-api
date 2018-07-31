@@ -7,7 +7,7 @@ old-location: wmi\swbemrefresher_addenum.htm
 old-project: WmiSdk
 ms.assetid: 0fa22a47-4050-43ae-aad3-3a8ebbf5e9b2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: AddEnum, AddEnum method [Windows Management Instrumentation], AddEnum method [Windows Management Instrumentation],ISWbemRefresher interface, AddEnum method [Windows Management Instrumentation],SWbemRefresher object, ISWbemRefresher interface [Windows Management Instrumentation],AddEnum method, ISWbemRefresher.AddEnum, ISWbemRefresher::AddEnum, SWbemRefresher object [Windows Management Instrumentation],AddEnum method, SWbemRefresher.AddEnum, _hmm_swbemrefresher.addenum, wmi.swbemrefresher_addenum
 ms.prod: windows
 ms.technology: windows-sdk

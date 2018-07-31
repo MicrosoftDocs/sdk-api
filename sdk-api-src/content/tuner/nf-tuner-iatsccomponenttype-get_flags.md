@@ -7,7 +7,7 @@ old-location: mstv\iatsccomponenttype_get_flags.htm
 old-project: mstv
 ms.assetid: f89f59fd-31bf-48d6-9cb3-92504ba095a9
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IATSCComponentType interface [Microsoft TV Technologies],get_Flags method, IATSCComponentType.get_Flags, IATSCComponentType::get_Flags, IATSCComponentTypeget_Flags, get_Flags, get_Flags method [Microsoft TV Technologies], get_Flags method [Microsoft TV Technologies],IATSCComponentType interface, mstv.iatsccomponenttype_get_flags, tuner/IATSCComponentType::get_Flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,11 +75,9 @@ Receives one of the following values.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

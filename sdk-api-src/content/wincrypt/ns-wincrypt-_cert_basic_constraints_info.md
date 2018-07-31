@@ -4,10 +4,10 @@ title: "_CERT_BASIC_CONSTRAINTS_INFO"
 author: windows-sdk-content
 description: The CERT_BASIC_CONSTRAINTS_INFO structure contains information that indicates whether the certified subject can act as a certification authority (CA), an end entity, or both.
 old-location: security\cert_basic_constraints_info.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 6603b627-5e5d-48bc-b200-c8dcdd646994
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCERT_BASIC_CONSTRAINTS_INFO, CERT_BASIC_CONSTRAINTS_INFO, CERT_BASIC_CONSTRAINTS_INFO structure [Security], PCERT_BASIC_CONSTRAINTS_INFO, PCERT_BASIC_CONSTRAINTS_INFO structure pointer [Security], _CERT_BASIC_CONSTRAINTS_INFO, _crypto2_cert_basic_constraints_info, security.cert_basic_constraints_info, wincrypt/CERT_BASIC_CONSTRAINTS_INFO, wincrypt/PCERT_BASIC_CONSTRAINTS_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows Address Book 5.0
 
 The <b>CERT_BASIC_CONSTRAINTS_INFO</b> structure contains information that indicates whether the certified subject can act as a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA), an end entity, or both. If the subject can act as a CA, a certification path-length constraint can also be specified, as can a set of subtrees that must contain all subject names of subsequent certificates in a certification chain. This extension is used in validating certificates used to sign other certificates.
 
-
-				The <a href="https://msdn.microsoft.com/7d5ed4f4-9d76-4a16-9059-27b0edd83459">CryptDecodeObject</a> function creates an instance of this structure when performed on a 
+The <a href="https://msdn.microsoft.com/7d5ed4f4-9d76-4a16-9059-27b0edd83459">CryptDecodeObject</a> function creates an instance of this structure when performed on a 
 <a href="https://msdn.microsoft.com/787a4df0-c0e3-46b9-a7e6-eb3bee3ed717">CERT_EXTENSION</a> structure's <b>Value</b> member with its structure's <b>pszObjId</b> member set to szOID_BASIC_CONSTRAINTS.
 
 

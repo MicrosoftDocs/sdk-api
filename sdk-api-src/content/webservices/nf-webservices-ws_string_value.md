@@ -7,7 +7,7 @@ old-location: wsw\ws_string_value.htm
 old-project: wsw
 ms.assetid: 692aa04e-f061-465c-b2ae-27d424d708bc
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_STRING_VALUE, WS_STRING_VALUE macro [Web Services for Windows], webservices/WS_STRING_VALUE, wsw.ws_string_value
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,15 +73,13 @@ TBD
 
 
 
-
-                The initializer string is assumed to be zero terminated.
+The initializer string is assumed to be zero terminated.
             
 
 
 #### Examples
 
-
-                The following is an example of how to use the macro.
+The following is an example of how to use the macro.
             
 
 <code>WS_STRING myString = WS_STRING_VALUE(L"MyString");</code>

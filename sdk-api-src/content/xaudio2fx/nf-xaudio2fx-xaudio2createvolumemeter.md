@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2createvolumemeter.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CreateVolumeMeter(IUnknown@,UINT32)
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: XAudio2CreateVolumeMeter, XAudio2CreateVolumeMeter function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2createvolumemeter, xaudio2fx/XAudio2CreateVolumeMeter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ For information on creating new effects for use with XAudio2, see the <a href="h
 </tr>
 <tr>
 <td>
-Because <b>XAudio2CreateVolumeMeter</b> calls <b>CoCreateInstance</b> on Windows, the application must have called the <b>CoInitializeEx</b> method before calling <b>XAudio2CreateVolumeMeter</b>. <a href="https://msdn.microsoft.com/library/Ee419212(v=VS.85).aspx">XAudio2Create</a> has the same requirement, which means <b>CoInitializeEx</b> typically will be called long before <b>XAudio2CreateVolumeMeter</b> is called.
+Because <b>XAudio2CreateVolumeMeter</b> calls <b>CoCreateInstance</b> on Windows, the application must have called the <b>CoInitializeEx</b> method before calling <b>XAudio2CreateVolumeMeter</b>. <a href="https://msdn.microsoft.com/4be9b89b-9a1f-45b9-a21b-4a1beacdb9cf">XAudio2Create</a> has the same requirement, which means <b>CoInitializeEx</b> typically will be called long before <b>XAudio2CreateVolumeMeter</b> is called.
 
 
 
@@ -135,9 +135,9 @@ The xaudio2fx.h header defines the <b>AudioVolumeMeter</b> class GUID as   a cro
 
 <pre class="syntax" xml:space="preserve"><code>class __declspec(uuid("4FC3B166-972A-40CF-BC37-7DB03DB2FBA3")) AudioVolumeMeter;
 </code></pre>
-<b>XAudio2CreateVolumeMeter</b> returns this object as a pointer to a pointer to <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> in the <i>ppApo</i> parameter. Although you can query the <a href="https://msdn.microsoft.com/library/Ee415893(v=VS.85).aspx">IXAPO</a> and <a href="https://msdn.microsoft.com/library/Ee415896(v=VS.85).aspx">IXAPOParameters</a> interfaces from this <b>IUnknown</b>, you typically never use these interfaces directly. Instead, you use them when you create a voice to add them as part of the effects chain. 
+<b>XAudio2CreateVolumeMeter</b> returns this object as a pointer to a pointer to <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> in the <i>ppApo</i> parameter. Although you can query the <a href="https://msdn.microsoft.com/21DA61D2-8EDE-496B-8513-D67121697FBA">IXAPO</a> and <a href="https://msdn.microsoft.com/0CB2BA7E-5115-449C-A538-44EDCAFFE96F">IXAPOParameters</a> interfaces from this <b>IUnknown</b>, you typically never use these interfaces directly. Instead, you use them when you create a voice to add them as part of the effects chain. 
 
-The volume meter uses the <a href="https://msdn.microsoft.com/library/Ee419225(v=VS.85).aspx">XAUDIO2FX_VOLUMEMETER_LEVELS</a> parameter structure that you access via the <a href="https://msdn.microsoft.com/library/Ee418586(v=VS.85).aspx">IXAudio2Voice::GetEffectParameters</a> method when the XAPO is bound to the audio graph.
+The volume meter uses the <a href="https://msdn.microsoft.com/ede537a3-b8da-4b7b-9d45-ac3ac8b5c698">XAUDIO2FX_VOLUMEMETER_LEVELS</a> parameter structure that you access via the <a href="https://msdn.microsoft.com/75CC5E5D-74B2-4972-9E1D-D6CB4A3034CD">IXAudio2Voice::GetEffectParameters</a> method when the XAPO is bound to the audio graph.
 
 <div class="alert"><b>Note</b>  <b>XAudio2CreateVolumeMeter</b> is an inline function in xaudio2fx.h that calls <b>CreateAudioVolumeMeter</b>: <pre class="syntax" xml:space="preserve"><code>
 XAUDIO2FX_STDAPI CreateAudioVolumeMeter(_Outptr_ IUnknown** ppApo);
@@ -163,11 +163,11 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee418595(v=VS.85).aspx">IXAudio2Voice::SetEffectParameters</a>
+<a href="https://msdn.microsoft.com/7A5217AE-D7D6-4D92-A14E-DA36854F4D3E">IXAudio2Voice::SetEffectParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419225(v=VS.85).aspx">XAUDIO2FX_VOLUMEMETER_LEVELS</a>
+<a href="https://msdn.microsoft.com/ede537a3-b8da-4b7b-9d45-ac3ac8b5c698">XAUDIO2FX_VOLUMEMETER_LEVELS</a>
 
 
 

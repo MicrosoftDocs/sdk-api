@@ -7,7 +7,7 @@ old-location: wsw\ws_http_ssl_kerberos_apreq_policy_description.htm
 old-project: wsw
 ms.assetid: ed6448d6-17b3-448b-a376-bd882e229ae1
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION, WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION, webservices/WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION, wsw.ws_http_ssl_kerberos_apreq_policy_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Describes the policy specifying http channel binding with SSL transport security 
+Describes the policy specifying http channel binding with SSL transport security 
         and KERBEROS AP_REQ message security.
       
 
@@ -64,28 +63,24 @@ req.product: Windows Address Book 5.0
 
 ### -field channelProperties
 
-
-          Template description for the channel properties specified in policy.
+Template description for the channel properties specified in policy.
         
 
 
 ### -field securityProperties
 
-
-          Template description for the security properties specified in policy.
+Template description for the security properties specified in policy.
         
 
 
 ### -field sslTransportSecurityBinding
 
-
-          SSL security binding description.
+SSL security binding description.
         
 
 
 ### -field kerberosApreqMessageSecurityBinding
 
-
-          kerberos message security binding description.
+kerberos message security binding description.
         
 

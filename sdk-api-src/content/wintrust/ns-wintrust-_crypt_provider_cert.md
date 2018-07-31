@@ -4,10 +4,10 @@ title: "_CRYPT_PROVIDER_CERT"
 author: windows-sdk-content
 description: Provides information about a provider certificate.
 old-location: security\crypt_provider_cert.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 622e7a72-445a-4820-b236-1c90dad08351
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCRYPT_PROVIDER_CERT, CERT_CONFIDENCE_AUTHIDEXT, CERT_CONFIDENCE_HIGHEST, CERT_CONFIDENCE_HYGIENE, CERT_CONFIDENCE_SIG, CERT_CONFIDENCE_TIME, CERT_CONFIDENCE_TIMENEST, CRYPT_PROVIDER_CERT, CRYPT_PROVIDER_CERT structure [Security], PCRYPT_PROVIDER_CERT, PCRYPT_PROVIDER_CERT structure pointer [Security], _CRYPT_PROVIDER_CERT, security.crypt_provider_cert, wintrust/CRYPT_PROVIDER_CERT, wintrust/PCRYPT_PROVIDER_CERT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,9 +131,8 @@ The time of the certificate issuer is valid.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_CERT_CONFIDENCE_TIMENEST"></a><a id="_cert_confidence_timenest"></a><dl>
-<dt><b>
-CERT_CONFIDENCE_TIMENEST</b></dt>
+<td width="40%"><a id="CERT_CONFIDENCE_TIMENEST"></a><a id="cert_confidence_timenest"></a><dl>
+<dt><b>CERT_CONFIDENCE_TIMENEST</b></dt>
 <dt>0x00100000</dt>
 </dl>
 </td>
@@ -143,9 +142,8 @@ The time of the certificate is valid.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_CERT_CONFIDENCE_AUTHIDEXT"></a><a id="_cert_confidence_authidext"></a><dl>
-<dt><b>
-CERT_CONFIDENCE_AUTHIDEXT</b></dt>
+<td width="40%"><a id="CERT_CONFIDENCE_AUTHIDEXT"></a><a id="cert_confidence_authidext"></a><dl>
+<dt><b>CERT_CONFIDENCE_AUTHIDEXT</b></dt>
 <dt>0x00010000</dt>
 </dl>
 </td>
@@ -155,9 +153,8 @@ The authority ID extension is valid.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_CERT_CONFIDENCE_HYGIENE"></a><a id="_cert_confidence_hygiene"></a><dl>
-<dt><b>
-CERT_CONFIDENCE_HYGIENE</b></dt>
+<td width="40%"><a id="CERT_CONFIDENCE_HYGIENE"></a><a id="cert_confidence_hygiene"></a><dl>
+<dt><b>CERT_CONFIDENCE_HYGIENE</b></dt>
 <dt>0x00001000</dt>
 </dl>
 </td>
@@ -167,9 +164,8 @@ At a minimum, the signature of the certificate and authority ID extension are va
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_CERT_CONFIDENCE_HIGHEST"></a><a id="_cert_confidence_highest"></a><dl>
-<dt><b>
-CERT_CONFIDENCE_HIGHEST</b></dt>
+<td width="40%"><a id="CERT_CONFIDENCE_HIGHEST"></a><a id="cert_confidence_highest"></a><dl>
+<dt><b>CERT_CONFIDENCE_HIGHEST</b></dt>
 <dt>0x11111000</dt>
 </dl>
 </td>

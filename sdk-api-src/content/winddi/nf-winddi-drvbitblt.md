@@ -7,7 +7,7 @@ old-location: display\drvbitblt.htm
 old-project: display
 ms.assetid: d7b4e25c-b9a1-4200-b449-b7c7ed059db4
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: DrvBitBlt, DrvBitBlt function [Display Devices], ddifncs_1314a0f2-0f0d-4b76-b060-207e332dafde.xml, display.drvbitblt, winddi/DrvBitBlt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,8 +132,7 @@ This is a quaternary raster operation, which is an extension of the ternary Rop3
 
 
 
-
-      DrvBitBlt returns <b>TRUE</b> if the bit-block transfer operation is successful. Otherwise, the function returns <b>FALSE</b>, and an error code is logged.
+DrvBitBlt returns <b>TRUE</b> if the bit-block transfer operation is successful. Otherwise, the function returns <b>FALSE</b>, and an error code is logged.
 
 
 
@@ -146,8 +145,7 @@ If the driver hooks <b>DrvBitBlt</b>, GDI will call this function when it needs 
 
 GDI's <a href="https://msdn.microsoft.com/library/windows/hardware/ff539417">CLIPOBJ</a><i>Xxx</i> services allow the clipping to be reduced to a series of clipping rectangles. A translation vector assists in color index translation for palettes.
 
-<div class="alert"><b>Note</b>  
-     Do not dereference parameter pointers unless the <a href="https://msdn.microsoft.com/004698f5-cb0e-4995-a19c-7075aa226000">ROP</a> indicates they are needed. For example, never unnecessarily dereference <i>pbo</i>--&gt;<b>iSolidColor</b> because doing so for a ROP such as BLACKNESS can cause an access violation. (This rule also applies to any function that includes a MIX parameter.)<p class="note">If the driver receives a call to this function in which the <i>rop4</i> parameter is set to 0XCCAA, the driver should punt the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564185">EngBitBlt</a>, exposing the device surface(s) as appropriate for the call.
+<div class="alert"><b>Note</b>  Do not dereference parameter pointers unless the <a href="https://msdn.microsoft.com/004698f5-cb0e-4995-a19c-7075aa226000">ROP</a> indicates they are needed. For example, never unnecessarily dereference <i>pbo</i>--&gt;<b>iSolidColor</b> because doing so for a ROP such as BLACKNESS can cause an access violation. (This rule also applies to any function that includes a MIX parameter.)<p class="note">If the driver receives a call to this function in which the <i>rop4</i> parameter is set to 0XCCAA, the driver should punt the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564185">EngBitBlt</a>, exposing the device surface(s) as appropriate for the call.
 
 </div>
 <div> </div>

@@ -7,7 +7,7 @@ old-location: wsw\ws_endpoint_identity.htm
 old-project: wsw
 ms.assetid: 59c851b4-6e1a-4144-9742-48d5c094d592
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ENDPOINT_IDENTITY, WS_ENDPOINT_IDENTITY structure [Web Services for Windows], _WS_ENDPOINT_IDENTITY, webservices/WS_ENDPOINT_IDENTITY, wsw.ws_endpoint_identity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                    The base type for all endpoint identities.
+The base type for all endpoint identities.
             
 
 
@@ -63,7 +62,6 @@ req.product: Windows Address Book 5.0
 
 ### -field identityType
 
-
-                    The selector for the type of the endpoint identity.
+The selector for the type of the endpoint identity.
                 
 

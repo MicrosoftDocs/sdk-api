@@ -4,10 +4,10 @@ title: "_DnsRecordFlags"
 author: windows-sdk-content
 description: The DNS_RECORD_FLAGS structure is used to set flags for use in the DNS_RECORD structure.
 old-location: dns\dns_record_flags.htm
-old-project: dns
+old-project: DNS
 ms.assetid: 53c1c8bc-20b0-4b15-b2b6-9c9854f73ee3
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/29/2018
 ms.keywords: DNS_RECORD_FLAGS, DNS_RECORD_FLAGS structure [DNS], _DnsRecordFlags, _dns_dns_record_flags, dns.dns_record_flags, windns/DNS_RECORD_FLAGS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The 
+The 
 <b>DNS_RECORD_FLAGS</b> structure is used to set flags for use in the 
 <a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure.
 

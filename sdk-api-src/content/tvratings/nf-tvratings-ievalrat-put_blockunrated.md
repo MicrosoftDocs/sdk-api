@@ -7,7 +7,7 @@ old-location: mstv\ievalrat_put_blockunrated.htm
 old-project: mstv
 ms.assetid: 22f6bc32-3f41-45d4-83e5-f501cbeb772e
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IEvalRat interface [Microsoft TV Technologies],put_BlockUnRated method, IEvalRat.put_BlockUnRated, IEvalRat::put_BlockUnRated, IEvalRatput_BlockUnRated, mstv.ievalrat_put_blockunrated, put_BlockUnRated, put_BlockUnRated method [Microsoft TV Technologies], put_BlockUnRated method [Microsoft TV Technologies],IEvalRat interface, tvratings/IEvalRat::put_BlockUnRated
 ms.prod: windows
 ms.technology: windows-sdk

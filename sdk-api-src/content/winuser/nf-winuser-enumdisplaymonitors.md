@@ -7,7 +7,7 @@ old-location: gdi\enumdisplaymonitors.htm
 old-project: gdi
 ms.assetid: a7668c28-77c9-4373-ae1a-eab3cb98f866
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: EnumDisplayMonitors, EnumDisplayMonitors function [Windows GDI], _win32_EnumDisplayMonitors, gdi.enumdisplaymonitors, winuser/EnumDisplayMonitors
 ms.prod: windows
 ms.technology: windows-sdk

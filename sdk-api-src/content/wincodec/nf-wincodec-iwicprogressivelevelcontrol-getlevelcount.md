@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicprogressivelevelcontrol_getlevelcount.htm
 old-project: wic
 ms.assetid: f7949d31-c679-43ea-aa07-5f9f8579b4f7
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetLevelCount, GetLevelCount method [Windows Imaging Component], GetLevelCount method [Windows Imaging Component],IWICProgressiveLevelControl interface, IWICProgressiveLevelControl interface [Windows Imaging Component],GetLevelCount method, IWICProgressiveLevelControl.GetLevelCount, IWICProgressiveLevelControl::GetLevelCount, _wic_codec_iwicprogressivelevelcontrol_getlevelcount, wic._wic_codec_iwicprogressivelevelcontrol_getlevelcount, wincodec/IWICProgressiveLevelControl::GetLevelCount
 ms.prod: windows
 ms.technology: windows-sdk

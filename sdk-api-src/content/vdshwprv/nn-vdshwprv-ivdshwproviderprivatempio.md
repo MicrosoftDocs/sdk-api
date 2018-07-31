@@ -4,10 +4,10 @@ title: IVdsHwProviderPrivateMpio
 author: windows-sdk-content
 description: Provides a method that sets the status of paths originating from a particular HBA port to the provider.
 old-location: base\ivdshwproviderprivatempio.htm
-old-project: vds
+old-project: VDS
 ms.assetid: fa60e832-1148-4ffb-bf70-bd7b27180cdd
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: IVdsHwProviderPrivateMpio, IVdsHwProviderPrivateMpio interface [VDS], IVdsHwProviderPrivateMpio interface [VDS],described, base.ivdshwproviderprivatempio, vdshwprv/IVdsHwProviderPrivateMpio
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,8 +78,7 @@ The <b>IVdsHwProviderPrivateMpio</b> interface has these methods.
 <a href="https://msdn.microsoft.com/1fc25ca9-7cb4-438c-b9da-4bf93bd18a0c">SetAllPathStatusesFromHbaPort</a>
 </td>
 <td align="left" width="63%">
-
-     Sets the statuses of paths originating from a particular HBA port to a specified status.</p> (Inherited from <b>IVdsHwProviderPrivateMpio</b>)</td>
+Sets the statuses of paths originating from a particular HBA port to a specified status.</p> (Inherited from <b>IVdsHwProviderPrivateMpio</b>)</td>
 </tr>
 </table> 
 

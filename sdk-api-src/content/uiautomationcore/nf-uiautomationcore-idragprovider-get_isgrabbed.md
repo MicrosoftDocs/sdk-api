@@ -7,7 +7,7 @@ old-location: winauto\uiauto_idragprovider_isgrabbed.htm
 old-project: WinAuto
 ms.assetid: E2A472A0-F9CE-4778-96DD-60B00D53EEA6
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IDragProvider interface [Windows Accessibility],IsGrabbed property, IDragProvider.IsGrabbed, IDragProvider.get_IsGrabbed, IDragProvider::IsGrabbed, IDragProvider::get_IsGrabbed, IsGrabbed property [Windows Accessibility], IsGrabbed property [Windows Accessibility],IDragProvider interface, get_IsGrabbed, uiautomationcore/IDragProvider::IsGrabbed, uiautomationcore/IDragProvider::get_IsGrabbed, winauto.uiauto_idragprovider_isgrabbed
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-If this property changes, the provider must notify clients by calling <a href="https://msdn.microsoft.com/ec9da198-eb1d-4883-9b5c-539c92bd530b">UiaRaiseAutomationPropertyChangedEvent</a> and specifying a property identifier of <a href="https://msdn.microsoft.com/library/Ee671200(v=VS.85).aspx">UIA_DragIsGrabbedPropertyId</a> or <a href="https://msdn.microsoft.com/library/Ee671200(v=VS.85).aspx">UIA_DragDropEffectPropertyId</a>.
+If this property changes, the provider must notify clients by calling <a href="https://msdn.microsoft.com/ec9da198-eb1d-4883-9b5c-539c92bd530b">UiaRaiseAutomationPropertyChangedEvent</a> and specifying a property identifier of <a href="uiauto_control_pattern_propids.htm">UIA_DragIsGrabbedPropertyId</a> or <a href="uiauto_control_pattern_propids.htm">UIA_DragDropEffectPropertyId</a>.
 
 
 

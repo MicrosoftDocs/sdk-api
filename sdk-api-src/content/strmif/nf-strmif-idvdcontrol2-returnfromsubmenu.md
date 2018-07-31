@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_returnfromsubmenu.htm
 old-project: DirectShow
 ms.assetid: ef213ab6-3993-46e4-803d-3ce195256e7e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IDvdControl2 interface [DirectShow],ReturnFromSubmenu method, IDvdControl2.ReturnFromSubmenu, IDvdControl2::ReturnFromSubmenu, IDvdControl2ReturnFromSubmenu, ReturnFromSubmenu, ReturnFromSubmenu method [DirectShow], ReturnFromSubmenu method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_returnfromsubmenu, strmif/IDvdControl2::ReturnFromSubmenu
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,11 +133,9 @@ The following table shows the Annex J command name to which this method name cor
 
 <table>
 <tr>
-<td>
-              Annex J Command Name
+<td>Annex J Command Name
             </td>
-<td>
-              Valid Domains
+<td>Valid Domains
             </td>
 </tr>
 <tr>

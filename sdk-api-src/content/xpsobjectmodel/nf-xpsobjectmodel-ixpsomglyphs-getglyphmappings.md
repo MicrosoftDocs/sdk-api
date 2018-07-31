@@ -7,7 +7,7 @@ old-location: xps\ixpsomglyphs_getglyphmappings.htm
 old-project: printdocs
 ms.assetid: c7cf4352-f08a-43cb-a063-5d369017a887
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetGlyphMappings, GetGlyphMappings method [XPS Documents and Packaging], GetGlyphMappings method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphMappings method, IXpsOMGlyphs.GetGlyphMappings, IXpsOMGlyphs::GetGlyphMappings, xps.ixpsomglyphs_getglyphmappings, xpsobjectmodel/IXpsOMGlyphs::GetGlyphMappings
 ms.prod: windows
 ms.technology: windows-sdk

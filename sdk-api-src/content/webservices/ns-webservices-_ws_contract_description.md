@@ -7,7 +7,7 @@ old-location: wsw\ws_contract_description.htm
 old-project: wsw
 ms.assetid: 0b2a5516-6faf-43d5-9370-a25dbc7e2843
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_CONTRACT_DESCRIPTION, WS_CONTRACT_DESCRIPTION structure [Web Services for Windows], _WS_CONTRACT_DESCRIPTION, webservices/WS_CONTRACT_DESCRIPTION, wsw.ws_contract_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                The metadata for a service contract for service model. 
+The metadata for a service contract for service model. 
             
 
 
@@ -63,16 +62,14 @@ req.product: Windows Address Book 5.0
 
 ### -field operationCount
 
-
-                    The total number of service operations that are part of the contract.
+The total number of service operations that are part of the contract.
                     
                 
 
 
 ### -field operations
 
-
-                    An array of individual operation description, each representing 
+An array of individual operation description, each representing 
                     a service operations. 
                 
 

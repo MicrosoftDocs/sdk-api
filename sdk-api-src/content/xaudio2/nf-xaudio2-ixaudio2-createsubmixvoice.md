@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2_interface_createsubmixvoice.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CreateSubmixVoice(IXAudio2SubmixVoice@,UINT32,UINT32,UINT32,UINT32,const XAUDIO2_VOICE_SENDS,const XAUDIO2_EFFECT_CHAIN)
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: CreateSubmixVoice, CreateSubmixVoice method [XAudio2 Audio Mixing APIs], CreateSubmixVoice method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],CreateSubmixVoice method, IXAudio2.CreateSubmixVoice, IXAudio2::CreateSubmixVoice, xaudio2.ixaudio2_interface_createsubmixvoice, xaudio2/IXAudio2::CreateSubmixVoice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Creates and configures a submix voice.
 
 ### -param ppSubmixVoice [out]
 
-On success, returns a pointer to the new <a href="https://msdn.microsoft.com/library/Ee415915(v=VS.85).aspx">IXAudio2SubmixVoice</a> object.
+On success, returns a pointer to the new <a href="https://msdn.microsoft.com/EBEF26DE-BEAB-4E1F-9C54-2EC01449F413">IXAudio2SubmixVoice</a> object.
 
 
 ### -param InputChannels [in]
@@ -108,12 +108,12 @@ An arbitrary number that specifies when this voice is processed with respect to 
 
 #### - pEffectChain [in, optional]
 
-Pointer to a list of <a href="https://msdn.microsoft.com/library/Ee419235(v=VS.85).aspx">XAUDIO2_EFFECT_CHAIN</a> structures that describe an effect chain to use in the submix voice. 
+Pointer to a list of <a href="https://msdn.microsoft.com/7519f0e0-e063-4849-ba58-675f42e91241">XAUDIO2_EFFECT_CHAIN</a> structures that describe an effect chain to use in the submix voice. 
 
 
 #### - pSendList [in, optional]
 
-Pointer to a list of <a href="https://msdn.microsoft.com/library/Ee419246(v=VS.85).aspx">XAUDIO2_VOICE_SENDS</a> structures that describe the set of destination voices for the submix voice. If <i>pSendList</i> is NULL, the send list will default to a single output to the first mastering voice created.
+Pointer to a list of <a href="https://msdn.microsoft.com/d8618f93-aa35-4a40-80e4-b7486ba89341">XAUDIO2_VOICE_SENDS</a> structures that describe the set of destination voices for the submix voice. If <i>pSendList</i> is NULL, the send list will default to a single output to the first mastering voice created.
 
 
 ## -returns
@@ -155,11 +155,11 @@ XAudio2 uses an internal memory pooler for voices with the same format. This mea
 
 
 
-It is invalid to call <b>CreateSubmixVoice</b> from within a callback (that is, <a href="https://msdn.microsoft.com/library/Ee415910(v=VS.85).aspx">IXAudio2EngineCallback</a> or <a href="https://msdn.microsoft.com/library/Ee415919(v=VS.85).aspx">IXAudio2VoiceCallback</a>). If you call <b>CreateSubmixVoice</b> within a callback, it returns XAUDIO2_E_INVALID_CALL.
+It is invalid to call <b>CreateSubmixVoice</b> from within a callback (that is, <a href="https://msdn.microsoft.com/D71C117F-826F-41E9-98F4-C6024B3C5103">IXAudio2EngineCallback</a> or <a href="https://msdn.microsoft.com/FF78727D-16AE-40CB-BDE0-664687914FC0">IXAudio2VoiceCallback</a>). If you call <b>CreateSubmixVoice</b> within a callback, it returns XAUDIO2_E_INVALID_CALL.
 
 
 
-The <a href="https://msdn.microsoft.com/library/Ee419235(v=VS.85).aspx">XAUDIO2_EFFECT_CHAIN</a> that is passed in as the <i>pEffectChain</i> argument and any <a href="https://msdn.microsoft.com/library/Ee419236(v=VS.85).aspx">XAUDIO2_EFFECT_DESCRIPTOR</a> information contained within it are no longer needed after <b>CreateSubmixVoice</b> successfully completes, and may be deleted immediately after <b>CreateSubmixVoice</b> is called.
+The <a href="https://msdn.microsoft.com/7519f0e0-e063-4849-ba58-675f42e91241">XAUDIO2_EFFECT_CHAIN</a> that is passed in as the <i>pEffectChain</i> argument and any <a href="https://msdn.microsoft.com/d2c7c640-9f6a-4fc0-bc87-35570281cec5">XAUDIO2_EFFECT_DESCRIPTOR</a> information contained within it are no longer needed after <b>CreateSubmixVoice</b> successfully completes, and may be deleted immediately after <b>CreateSubmixVoice</b> is called.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -172,7 +172,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee415908(v=VS.85).aspx">IXAudio2</a>
+<a href="https://msdn.microsoft.com/A49469C6-2C29-407C-8C57-65E3FC9463F1">IXAudio2</a>
 
 
 

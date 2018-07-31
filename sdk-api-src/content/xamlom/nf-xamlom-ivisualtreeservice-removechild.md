@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservice_removechild.htm
 old-project: xaml_diagnostics
 ms.assetid: 6D53C961-7E85-4275-8D65-454684606290
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: IVisualTreeService interface,RemoveChild method, IVisualTreeService.RemoveChild, IVisualTreeService::RemoveChild, RemoveChild, RemoveChild method, RemoveChild method,IVisualTreeService interface, xaml_diagnostics.ivisualtreeservice_removechild, xamlom/IVisualTreeService::RemoveChild
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,8 +84,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 For any collection method, the caller should query the properties of a known element
-    and should only call this method if the property has <a href="https://msdn.microsoft.com/951A4C1F-B176-4D18-821A-CEAD1116B8BE">MetadataBit::IsValueCollection</a>
-    set.
+    and should only call this method if the property has <a href="https://msdn.microsoft.com/951A4C1F-B176-4D18-821A-CEAD1116B8BE">MetadataBit::IsValueCollection</a>set.
 
 
 

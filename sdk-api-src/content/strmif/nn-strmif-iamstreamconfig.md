@@ -7,7 +7,7 @@ old-location: dshow\iamstreamconfig.htm
 old-project: DirectShow
 ms.assetid: c171763e-9108-49a0-a4b7-855c6db0a71d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMStreamConfig, IAMStreamConfig interface [DirectShow], IAMStreamConfig interface [DirectShow],described, IAMStreamConfigInterface, dshow.iamstreamconfig, strmif/IAMStreamConfig
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,8 +116,7 @@ Sets the output format on the pin.
 Filters expose this interface on their output pins. To use the interface, enumerate the filter's pins and query for <b>IAMStreamConfig</b>. Or, if you are using the <a href="https://msdn.microsoft.com/df59afcf-6e11-463f-80ac-8b1fcc496d5b">Capture Graph Builder</a> object to build the filter graph, you can call the <a href="https://msdn.microsoft.com/931b42bf-25d6-4f0a-8c45-baf8ed65e302">ICaptureGraphBuilder2::FindInterface</a> method. Note that a capture filter might have separate pins for capture and preview.
 
 <h3><a id="Filter_Developers"></a><a id="filter_developers"></a><a id="FILTER_DEVELOPERS"></a>Filter Developers</h3>
-
-          If you are writing a capture filter or compression filter, implement this interface on the video or audio output pin. For more information, see <a href="https://msdn.microsoft.com/f7466cfe-b13e-4ee9-82f9-0528ed97bf99">Exposing Capture and Compression Formats</a>.
+If you are writing a capture filter or compression filter, implement this interface on the video or audio output pin. For more information, see <a href="https://msdn.microsoft.com/f7466cfe-b13e-4ee9-82f9-0528ed97bf99">Exposing Capture and Compression Formats</a>.
 
 
 

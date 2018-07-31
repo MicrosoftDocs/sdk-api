@@ -4,10 +4,10 @@ title: "_WRDS_SETTING_LEVEL"
 author: windows-sdk-content
 description: Specifies the type of structure contained in the WRdsSetting member of the WRDS_SETTINGS structure.
 old-location: termserv\wrds_setting_level.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 9E0D754D-4FB4-4878-AA59-33ACFE295651
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PWRDS_SETTING_LEVEL, PWRDS_SETTING_LEVEL, PWRDS_SETTING_LEVEL enumeration pointer [Remote Desktop Services], WRDS_SETTING_LEVEL, WRDS_SETTING_LEVEL enumeration [Remote Desktop Services], WRDS_SETTING_LEVEL_1, WRDS_SETTING_LEVEL_INVALID, _WRDS_SETTING_LEVEL, termserv.wrds_setting_level, wtsdefs/PWRDS_SETTING_LEVEL, wtsdefs/WRDS_SETTING_LEVEL, wtsdefs/WRDS_SETTING_LEVEL_1, wtsdefs/WRDS_SETTING_LEVEL_INVALID"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: multimedia\compvars.htm
 old-project: Multimedia
 ms.assetid: b34378cb-ccf0-4d97-a952-1966999e3f65
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCOMPVARS, COMPVARS, COMPVARS structure [Windows Multimedia], ICMF_COMPVARS_VALID, _win32_COMPVARS_str, multimedia.compvars, vfw/COMPVARS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,22 +117,19 @@ Pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff8
 
 ### -field lpBitsOut
 
-
-            Reserved; do not use.
+Reserved; do not use.
           
 
 
 ### -field lpBitsPrev
 
-
-            Reserved; do not use.
+Reserved; do not use.
           
 
 
 ### -field lFrame
 
-
-            Reserved; do not use.
+Reserved; do not use.
           
 
 
@@ -153,22 +150,19 @@ Quality setting. Specify a quality setting of 1 to 10,000 or specify<b> ICQUALIT
 
 ### -field lKeyCount
 
-
-            Reserved; do not use.
+Reserved; do not use.
           
 
 
 ### -field lpState
 
-
-            Reserved; do not use.
+Reserved; do not use.
           
 
 
 ### -field cbState
 
-
-            Reserved; do not use.
+Reserved; do not use.
           
 
 

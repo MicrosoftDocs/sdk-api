@@ -4,10 +4,10 @@ title: WdsTransportClientInitialize function
 author: windows-sdk-content
 description: Initializes the Multicast Client.
 old-location: wds\wdstransportclientinitialize.htm
-old-project: wds
+old-project: Wds
 ms.assetid: 6494a155-61de-40bd-a29a-79134da96bbe
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: WdsTransportClientInitialize, WdsTransportClientInitialize function [Windows Deployment Services], wds.wdstransportclientinitialize, wdstci/WdsTransportClientInitialize
 ms.prod: windows
 ms.technology: windows-sdk

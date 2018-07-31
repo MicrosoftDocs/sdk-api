@@ -4,10 +4,10 @@ title: SnmpUtilOctetsNCmp function
 author: windows-sdk-content
 description: The SnmpUtilOctetsNCmp function compares two octet strings. The function compares the subidentifiers in the strings until it reaches the number of subidentifiers specified by the nChars parameter. SnmpUtilOctetsNCmp is an element of the SNMP Utility API.
 old-location: snmp\snmputiloctetsncmp.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: bba13c41-1c0f-4a54-9a93-8115ef77c086
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: SnmpUtilOctetsNCmp, SnmpUtilOctetsNCmp function [SNMP], _snmp_snmputiloctetsncmp, snmp.snmputiloctetsncmp, snmp/SnmpUtilOctetsNCmp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # SnmpUtilOctetsNCmp function

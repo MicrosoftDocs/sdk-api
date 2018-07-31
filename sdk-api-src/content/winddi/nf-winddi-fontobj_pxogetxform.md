@@ -7,7 +7,7 @@ old-location: display\fontobj_pxogetxform.htm
 old-project: display
 ms.assetid: 94d8ddf6-221f-47f0-8772-4364ad2ac1a2
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: FONTOBJ_pxoGetXform, FONTOBJ_pxoGetXform function [Display Devices], display.fontobj_pxogetxform, gdifncs_22900939-4aa1-4f8b-9345-1d74af8a7f71.xml, winddi/FONTOBJ_pxoGetXform
 ms.prod: windows
 ms.technology: windows-sdk

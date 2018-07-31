@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_int32_text.htm
 old-project: wsw
 ms.assetid: 23ca9a0c-dbfb-449a-b1ef-44c6eae6c82f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_INT32_TEXT, WS_XML_INT32_TEXT structure [Web Services for Windows], _WS_XML_INT32_TEXT, webservices/WS_XML_INT32_TEXT, wsw.ws_xml_int32_text
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Represents a signed 32 bit integer.  (e.g. The value 255 represents the text "255")
+Represents a signed 32 bit integer.  (e.g. The value 255 represents the text "255")
       
 
 
@@ -63,8 +62,7 @@ req.product: Windows Address Book 5.0
 
 ### -field text
 
-
-          The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
+The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
         
 
 

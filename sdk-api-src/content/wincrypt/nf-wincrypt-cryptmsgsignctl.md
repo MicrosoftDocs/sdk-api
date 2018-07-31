@@ -4,10 +4,10 @@ title: CryptMsgSignCTL function
 author: windows-sdk-content
 description: The CryptMsgSignCTL function creates a signed message containing an encoded CTL.
 old-location: security\cryptmsgsignctl.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 85ae8ce3-d0a7-4fcb-beaa-ede09d30930e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptMsgSignCTL, CryptMsgSignCTL function [Security], _crypto2_cryptmsgsignctl, security.cryptmsgsignctl, wincrypt/CryptMsgSignCTL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CryptMsgSignCTL</b> function creates a signed message containing an encoded CTL.
+The <b>CryptMsgSignCTL</b> function creates a signed message containing an encoded CTL.
 
 
 ## -parameters
@@ -117,8 +116,7 @@ A pointer to a <b>DWORD</b> specifying the size, in bytes, of the <i>pbEncoded</
 
 
 
-
-						If the function succeeds, the return value is nonzero (<b>TRUE</b>).
+If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. This function can return errors propagated from calls to 
@@ -145,7 +143,7 @@ If the function fails, the return value is zero (<b>FALSE</b>). For extended err
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Verification Functions Using CTLs</a>
+<a href="cryptography_functions.htm">Verification Functions Using CTLs</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: gdi\getrop2.htm
 old-project: gdi
 ms.assetid: ca1930e0-f6f4-44c8-979c-f50881f3c225
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetROP2, GetROP2 function [Windows GDI], _win32_GetROP2, gdi.getrop2, wingdi/GetROP2
 ms.prod: windows
 ms.technology: windows-sdk

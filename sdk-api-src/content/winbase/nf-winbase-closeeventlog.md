@@ -4,10 +4,10 @@ title: CloseEventLog function
 author: windows-sdk-content
 description: Closes the specified event log.
 old-location: base\closeeventlog.htm
-old-project: eventlog
+old-project: EventLog
 ms.assetid: cb98a0cf-8ee9-4d78-8508-efae1d43a91d
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: CloseEventLog, CloseEventLog function, _win32_closeeventlog, base.closeeventlog, winbase/CloseEventLog
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,8 +72,7 @@ A handle to the event log to be closed. The
 
 
 
-
-						If the function succeeds, the return value is nonzero.
+If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 

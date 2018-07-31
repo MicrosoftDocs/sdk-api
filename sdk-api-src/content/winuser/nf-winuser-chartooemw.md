@@ -7,7 +7,7 @@ old-location: menurc\chartooem.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\chartooem.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: CharToOem, CharToOem function [Menus and Other Resources], CharToOemA, CharToOemW, _win32_CharToOem, _win32_chartooem_cpp, menurc.chartooem, winui._win32_chartooem, winuser/CharToOem, winuser/CharToOemA, winuser/CharToOemW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,7 @@ The return value is always nonzero except when you pass the same address to
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd319646(v=VS.85).aspx">CharToOemBuff</a>
+<a href="https://msdn.microsoft.com/5b9a968f-c325-48a1-bcc8-79aa5f286bdf">CharToOemBuff</a>
 
 
 
@@ -117,11 +117,11 @@ The return value is always nonzero except when you pass the same address to
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647493(v=VS.85).aspx">OemToChar</a>
+<a href="https://msdn.microsoft.com/2336b758-7b57-44d2-b3ce-34054128a26d">OemToChar</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647494(v=VS.85).aspx">OemToCharBuff</a>
+<a href="https://msdn.microsoft.com/17b01f13-6c09-43e2-984c-3b085f6b353f">OemToCharBuff</a>
 
 
 

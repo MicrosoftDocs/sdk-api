@@ -4,10 +4,10 @@ title: "_PROVIDER_FIELD_INFOARRAY"
 author: windows-sdk-content
 description: Defines metadata information about the requested field.
 old-location: etw\provider_field_infoarray_struct.htm
-old-project: etw
+old-project: ETW
 ms.assetid: c3755ca2-7b17-4f86-9ae8-34621f8b8c1b
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/29/2018
 ms.keywords: "*PPROVIDER_FIELD_INFOARRAY, PROVIDER_FIELD_INFOARRAY, PROVIDER_FIELD_INFOARRAY structure [ETW], _PROVIDER_FIELD_INFOARRAY, etw.provider_field_infoarray_struct, tdh.provider_field_infoarray_struct, tdh/PROVIDER_FIELD_INFOARRAY"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-		Defines metadata information about the requested field.
+Defines metadata information about the requested field.
 		
 		
 	

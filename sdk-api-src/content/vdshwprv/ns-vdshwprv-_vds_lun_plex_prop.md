@@ -4,10 +4,10 @@ title: "_VDS_LUN_PLEX_PROP"
 author: windows-sdk-content
 description: Defines the properties of a LUN plex object.
 old-location: base\vds_lun_plex_prop.htm
-old-project: vds
+old-project: VDS
 ms.assetid: d79ce5a9-af5a-4691-b853-c18d4a4d04c7
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: "*PVDS_LUN_PLEX_PROP, VDS_H_FAILED, VDS_H_FAILED_REDUNDANCY, VDS_H_FAILED_REDUNDANCY_FAILING, VDS_H_FAILING, VDS_H_FAILING_REDUNDANCY, VDS_H_HEALTHY, VDS_H_REBUILDING, VDS_H_UNKNOWN, VDS_LUN_PLEX_PROP, VDS_LUN_PLEX_PROP structure [VDS], _VDS_LUN_PLEX_PROP, base.vds_lun_plex_prop, vds/_VDS_LUN_PLEX_PROP, vdshwprv/_VDS_LUN_PLEX_PROP"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -166,8 +166,7 @@ The rebuild priority of the plex. This value must be greater than or equal to 0 
 
 
 
-The <a href="https://msdn.microsoft.com/ded24edd-fa6a-48f3-a448-690078f034bb">IVdsLunPlex::GetProperties</a>
-      method returns this structure to report the properties of a <a href="https://msdn.microsoft.com/db6eabaa-1b84-4613-ab2a-8d5904305e08">LUN plex object</a>.
+The <a href="https://msdn.microsoft.com/ded24edd-fa6a-48f3-a448-690078f034bb">IVdsLunPlex::GetProperties</a>method returns this structure to report the properties of a <a href="https://msdn.microsoft.com/db6eabaa-1b84-4613-ab2a-8d5904305e08">LUN plex object</a>.
 
 
 

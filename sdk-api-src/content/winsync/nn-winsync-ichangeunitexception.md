@@ -7,7 +7,7 @@ old-location: winsync\ichangeunitexception.htm
 old-project: winsync
 ms.assetid: 3b47abab-0a33-405f-a765-307ab800bad6
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IChangeUnitException, IChangeUnitException interface [Windows Sync], IChangeUnitException interface [Windows Sync],described, winsync.ichangeunitexception, winsync/IChangeUnitException
 ms.prod: windows
 ms.technology: windows-sdk

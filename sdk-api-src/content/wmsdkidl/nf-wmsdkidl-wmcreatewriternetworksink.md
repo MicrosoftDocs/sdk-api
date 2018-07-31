@@ -7,7 +7,7 @@ old-location: wmformat\wmcreatewriternetworksink.htm
 old-project: wmformat
 ms.assetid: 5d391867-dece-4d40-80e2-99071d332984
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: WMCreateWriterNetworkSink, WMCreateWriterNetworkSink function [windows Media Format], wmformat.wmcreatewriternetworksink, wmsdkidl/WMCreateWriterNetworkSink
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\ws_listener_properties.htm
 old-project: wsw
 ms.assetid: 19619c20-d287-42d8-9326-15c810619f22
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_LISTENER_PROPERTIES, WS_LISTENER_PROPERTIES structure [Web Services for Windows], _WS_LISTENER_PROPERTIES, webservices/WS_LISTENER_PROPERTIES, wsw.ws_listener_properties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies a set of <a href="https://msdn.microsoft.com/52e4a5d3-e584-40d1-b71f-b4ef61104883">WS_LISTENER_PROPERTY</a> structures.
+Specifies a set of <a href="https://msdn.microsoft.com/52e4a5d3-e584-40d1-b71f-b4ef61104883">WS_LISTENER_PROPERTY</a> structures.
             
 
 
@@ -63,8 +62,7 @@ req.product: Windows Address Book 5.0
 
 ### -field properties
 
-
-                    An array of properties.  The number of elements in the array is specified
+An array of properties.  The number of elements in the array is specified
                     using the <b>propertyCount</b> member.  This field may be <b>NULL</b> if the propertyCount
                     is 0.
                 
@@ -72,7 +70,6 @@ req.product: Windows Address Book 5.0
 
 ### -field propertyCount
 
-
-                    The number of elements in the properties array.
+The number of elements in the properties array.
                 
 

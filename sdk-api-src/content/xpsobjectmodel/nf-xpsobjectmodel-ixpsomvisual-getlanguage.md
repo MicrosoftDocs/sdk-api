@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisual_getlanguage.htm
 old-project: printdocs
 ms.assetid: 22cddce5-f881-4585-9ab8-d8cdce06511f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetLanguage, GetLanguage method [XPS Documents and Packaging], GetLanguage method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetLanguage method, IXpsOMVisual.GetLanguage, IXpsOMVisual::GetLanguage, xps.ixpsomvisual_getlanguage, xpsobjectmodel/IXpsOMVisual::GetLanguage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,7 @@ The method succeeded.
 
 The <b>Language</b> property that is set by this method specifies the language of the resource content.
 
-This method allocates the memory that is used by the string returned in <i>language</i>.  If <i>language</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory that is used by the string returned in <i>language</i>.  If <i>language</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 Internet Engineering Task Force (IETF) RFC 3066 specifies the recommended encoding for the <b>Language</b> property.
 

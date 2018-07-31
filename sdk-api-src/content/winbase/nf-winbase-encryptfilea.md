@@ -4,10 +4,10 @@ title: EncryptFileA function
 author: windows-sdk-content
 description: Encrypts a file or directory.
 old-location: fs\encryptfile.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 7620e9fa-74d6-4b41-93db-4a562be63202
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: EncryptFile, EncryptFile function [Files], EncryptFileA, EncryptFileW, _win32_encryptfile, base.encryptfile, fs.encryptfile, winbase/EncryptFile, winbase/EncryptFileA, winbase/EncryptFileW
 ms.prod: windows
 ms.technology: windows-sdk

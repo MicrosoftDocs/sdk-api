@@ -4,10 +4,10 @@ title: "_PERF_INSTANCE_DEFINITION"
 author: windows-sdk-content
 description: Describes an instance of a performance object.
 old-location: perf\perf_instance_definition_str.htm
-old-project: perfctrs
+old-project: PerfCtrs
 ms.assetid: 5ea617d3-857d-4e0a-ad10-4d63044fc927
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "*PPERF_INSTANCE_DEFINITION, PERF_INSTANCE_DEFINITION, PERF_INSTANCE_DEFINITION structure [Perf], _PERF_INSTANCE_DEFINITION, _win32_perf_instance_definition_str, base.perf_instance_definition_str, perf.perf_instance_definition_str, winperf/PERF_INSTANCE_DEFINITION"
 ms.prod: windows
 ms.technology: windows-sdk

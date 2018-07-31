@@ -7,7 +7,7 @@ old-location: wsw\ws_proxy_property.htm
 old-project: wsw
 ms.assetid: eb8ce473-bf9e-4eae-8c40-8e2972a26d41
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_PROXY_PROPERTY, WS_PROXY_PROPERTY structure [Web Services for Windows], _WS_PROXY_PROPERTY, webservices/WS_PROXY_PROPERTY, wsw.ws_proxy_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies a proxy property.
+Specifies a proxy property.
             
 
 
@@ -63,21 +62,18 @@ req.product: Windows Address Book 5.0
 
 ### -field id
 
-
-                Identifies the <a href="https://msdn.microsoft.com/d81944ae-74b9-4eee-b02f-5b1d5c99c358">WS_PROXY_PROPERTY_ID</a>.
+Identifies the <a href="https://msdn.microsoft.com/d81944ae-74b9-4eee-b02f-5b1d5c99c358">WS_PROXY_PROPERTY_ID</a>.
             
 
 
 ### -field value
 
-
-                The buffer for the property value.
+The buffer for the property value.
             
 
 
 ### -field valueSize
 
-
-                The size of buffer, in bytes.
+The size of buffer, in bytes.
             
 

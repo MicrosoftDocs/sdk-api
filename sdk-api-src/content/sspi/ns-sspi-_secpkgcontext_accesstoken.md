@@ -4,10 +4,10 @@ title: "_SecPkgContext_AccessToken"
 author: windows-sdk-content
 description: Returns a handle to the access token for the current security context.
 old-location: security\secpkgcontext_accesstoken.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 4dc11cbd-7f28-4cb9-aaea-6e5a89ac91f0
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PSecPkgContext_AccessToken, PSecPkgContext_AccessToken, PSecPkgContext_AccessToken structure pointer [Security], SecPkgContext_AccessToken, SecPkgContext_AccessToken structure [Security], _SecPkgContext_AccessToken, security.secpkgcontext_accesstoken, sspi/PSecPkgContext_AccessToken, sspi/SecPkgContext_AccessToken"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_AccessToken structure

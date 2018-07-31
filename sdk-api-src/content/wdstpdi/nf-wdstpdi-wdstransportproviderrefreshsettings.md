@@ -4,10 +4,10 @@ title: WdsTransportProviderRefreshSettings function
 author: windows-sdk-content
 description: Instructs the transport provider to reread any relevant settings.
 old-location: wds\wdstransportproviderrefreshsettings.htm
-old-project: wds
+old-project: Wds
 ms.assetid: b5fc2340-6820-4b11-b96b-dcf3186f0786
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: WdsTransportProviderRefreshSettings, WdsTransportProviderRefreshSettings callback, WdsTransportProviderRefreshSettings callback function [Windows Deployment Services], wds.wdstransportproviderrefreshsettings, wdstpdi/WdsTransportProviderRefreshSettings
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_SecPkgContext_PackageInfoA"
 author: windows-sdk-content
 description: The SecPkgContext_PackageInfo structure contains the name of a security support provider (SSP).
 old-location: security\secpkgcontext_packageinfo.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 94c21f22-d974-4ae5-beef-d4567e6ea7e1
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PSecPkgContext_PackageInfoA, PSecPkgContext_PackageInfo, PSecPkgContext_PackageInfo structure pointer [Security], SecPkgContext_PackageInfo, SecPkgContext_PackageInfo structure [Security], SecPkgContext_PackageInfoA, _SecPkgContext_PackageInfoA, _SecPkgContext_PackageInfoW, _ssp_secpkgcontext_packageinfo, security.secpkgcontext_packageinfo, sspi/PSecPkgContext_PackageInfo, sspi/SecPkgContext_PackageInfo"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_PackageInfoA structure
@@ -51,8 +50,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-			The <b>SecPkgContext_PackageInfo</b> structure contains the name of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security support provider</a> (SSP). This structure is returned by the 
+The <b>SecPkgContext_PackageInfo</b> structure contains the name of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security support provider</a> (SSP). This structure is returned by the 
 <a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a> function. It would most often be used when the SSP in use was established using the <a href="https://msdn.microsoft.com/28d229ef-53ce-4d17-aba0-3bbf51e3ff0c">Negotiate</a> <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>.
 
 

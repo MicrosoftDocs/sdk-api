@@ -7,7 +7,7 @@ old-location: wes\evt_query_flags.htm
 old-project: WES
 ms.assetid: e4499356-f749-4cf9-9f5d-f6a701611f42
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EVT_QUERY_FLAGS, EVT_QUERY_FLAGS enumeration [EventLog], EvtQueryChannelPath, EvtQueryFilePath, EvtQueryForwardDirection, EvtQueryReverseDirection, EvtQueryTolerateQueryErrors, _EVT_QUERY_FLAGS, wes.evt_query_flags, winevt/EVT_QUERY_FLAGS, winevt/EvtQueryChannelPath, winevt/EvtQueryFilePath, winevt/EvtQueryForwardDirection, winevt/EvtQueryReverseDirection, winevt/EvtQueryTolerateQueryErrors
 ms.prod: windows
 ms.technology: windows-sdk

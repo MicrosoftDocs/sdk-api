@@ -4,10 +4,10 @@ title: DnsValidateServerStatus function
 author: windows-sdk-content
 description: The DnsValidateServerStatus function validates an IP address as a suitable DNS server.
 old-location: dns\dnsvalidateserverstatus.htm
-old-project: dns
+old-project: DNS
 ms.assetid: 5b362d05-87b2-44dd-8198-bcb5ab5a64f6
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/29/2018
 ms.keywords: DNS_VALSVR_ERROR_INVALID_ADDR, DNS_VALSVR_ERROR_INVALID_NAME, DNS_VALSVR_ERROR_NO_AUTH, DNS_VALSVR_ERROR_NO_RESPONSE, DNS_VALSVR_ERROR_NO_TCP, DNS_VALSVR_ERROR_REFUSED, DNS_VALSVR_ERROR_UNKNOWN, DNS_VALSVR_ERROR_UNREACHABLE, DnsValidateServerStatus, DnsValidateServerStatus function [DNS], ERROR_SUCCESS, dns.dnsvalidateserverstatus, windns/DnsValidateServerStatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,9 +100,8 @@ No errors. The call was successful.
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_DNS_VALSVR_ERROR_INVALID_NAME"></a><a id="_dns_valsvr_error_invalid_name"></a><dl>
-<dt><b>
-DNS_VALSVR_ERROR_INVALID_NAME</b></dt>
+<td width="40%"><a id="DNS_VALSVR_ERROR_INVALID_NAME"></a><a id="dns_valsvr_error_invalid_name"></a><dl>
+<dt><b>DNS_VALSVR_ERROR_INVALID_NAME</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -111,9 +110,8 @@ DNS_VALSVR_ERROR_INVALID_NAME</b></dt>
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="_DNS_VALSVR_ERROR_UNREACHABLE"></a><a id="_dns_valsvr_error_unreachable"></a><dl>
-<dt><b>
-DNS_VALSVR_ERROR_UNREACHABLE</b></dt>
+<td width="40%"><a id="DNS_VALSVR_ERROR_UNREACHABLE"></a><a id="dns_valsvr_error_unreachable"></a><dl>
+<dt><b>DNS_VALSVR_ERROR_UNREACHABLE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -179,8 +177,7 @@ An unknown error occurred.
 
 
 
-
-						The 
+The 
 <b>DnsValidateServerStatus</b> function has the following possible return values:
 
 

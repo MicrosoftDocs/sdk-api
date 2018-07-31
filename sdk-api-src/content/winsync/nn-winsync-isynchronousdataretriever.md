@@ -7,7 +7,7 @@ old-location: winsync\isynchronousdataretriever.htm
 old-project: winsync
 ms.assetid: d59a5198-5878-4a48-b6c4-042afc36054d
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: ISynchronousDataRetriever, ISynchronousDataRetriever interface [Windows Sync], ISynchronousDataRetriever interface [Windows Sync],described, winsync.isynchronousdataretriever, winsync/ISynchronousDataRetriever
 ms.prod: windows
 ms.technology: windows-sdk

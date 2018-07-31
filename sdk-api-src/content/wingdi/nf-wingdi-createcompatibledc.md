@@ -7,7 +7,7 @@ old-location: gdi\createcompatibledc.htm
 old-project: gdi
 ms.assetid: 6ddc3705-2995-41af-af94-258aed597e17
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateCompatibleDC, CreateCompatibleDC function [Windows GDI], _win32_CreateCompatibleDC, gdi.createcompatibledc, wingdi/CreateCompatibleDC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,11 +89,9 @@ When a memory DC is created, all attributes are set to normal default values. Th
 
 The <b>CreateCompatibleDC</b> function can only be used with devices that support raster operations. An application can determine whether a device supports these operations by calling the <a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a> function.
 
-When you no longer need the memory DC, call the <a href="https://msdn.microsoft.com/1aa549a0-c95f-4385-a30e-8906f67e39cd">DeleteDC</a> function. We recommend that you call <b>DeleteDC</b> to delete the DC.  However, you can also call <a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">
-                DeleteObject</a> with the HDC to delete the DC.
+When you no longer need the memory DC, call the <a href="https://msdn.microsoft.com/1aa549a0-c95f-4385-a30e-8906f67e39cd">DeleteDC</a> function. We recommend that you call <b>DeleteDC</b> to delete the DC.  However, you can also call <a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a> with the HDC to delete the DC.
 
-
-         If <i>hdc</i> is <b>NULL</b>, the thread that calls <b>CreateCompatibleDC</b> owns the HDC that is created. When this thread is destroyed, the HDC is no longer valid. Thus, if you create the HDC and pass it to another thread, then exit the first thread, the second thread will not be able to use the HDC.
+If <i>hdc</i> is <b>NULL</b>, the thread that calls <b>CreateCompatibleDC</b> owns the HDC that is created. When this thread is destroyed, the HDC is no longer valid. Thus, if you create the HDC and pass it to another thread, then exit the first thread, the second thread will not be able to use the HDC.
 
 <b>ICM:</b> If the DC that is passed to this function is enabled for Image Color Management (ICM), the DC created by the function is ICM-enabled. The source and destination color spaces are specified in the DC.
 
@@ -111,13 +109,11 @@ For an example, see <a href="https://msdn.microsoft.com/672fc2e4-c35c-4d5d-98fa-
 
 
 
-<a href="https://msdn.microsoft.com/d2866beb-ff7a-4390-8651-e7bf458ddf88">
-        CreateCompatibleBitmap</a>
+<a href="https://msdn.microsoft.com/d2866beb-ff7a-4390-8651-e7bf458ddf88">CreateCompatibleBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/1aa549a0-c95f-4385-a30e-8906f67e39cd">
-        DeleteDC</a>
+<a href="https://msdn.microsoft.com/1aa549a0-c95f-4385-a30e-8906f67e39cd">DeleteDC</a>
 
 
 
@@ -129,8 +125,7 @@ For an example, see <a href="https://msdn.microsoft.com/672fc2e4-c35c-4d5d-98fa-
 
 
 
-<a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">
-        GetDeviceCaps</a>
+<a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a>
  
 
  

@@ -4,10 +4,10 @@ title: WINTRUST_BLOB_INFO_
 author: windows-sdk-content
 description: Used when calling WinVerifyTrust to verify a memory BLOB.
 old-location: security\wintrust_blob_info.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 8b13d355-4d24-4d8e-aae3-db16467999be
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PWINTRUST_BLOB_INFO, PWINTRUST_BLOB_INFO, PWINTRUST_BLOB_INFO structure pointer [Security], WINTRUST_BLOB_INFO, WINTRUST_BLOB_INFO structure [Security], WINTRUST_BLOB_INFO_, _win32_wintrust_blob_info, security.wintrust_blob_info, wintrust/PWINTRUST_BLOB_INFO, wintrust/WINTRUST_BLOB_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,8 +58,7 @@ The <b>WINTRUST_BLOB_INFO</b> structure is used when calling
 <li>Portable executable (such as .exe, .dll, .ocx)</li>
 <li>Cab files (.cab)</li>
 <li>Catalog files (.cat)</li>
-</ul>
-This structure is only supported by files formats with <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">subject interface package</a> (SIP) providers that support this structure.</div>
+</ul>This structure is only supported by files formats with <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">subject interface package</a> (SIP) providers that support this structure.</div>
 <div> </div>
 
 

@@ -7,7 +7,7 @@ old-location: multimedia\mciwndcanplay.htm
 old-project: Multimedia
 ms.assetid: 6ba9a080-f74a-4c3d-b264-8fbd768f3e6e
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: MCIWndCanPlay, MCIWndCanPlay macro [Windows Multimedia], _win32_MCIWndCanPlay, multimedia.mciwndcanplay, vfw/MCIWndCanPlay
 ms.prod: windows
 ms.technology: windows-sdk

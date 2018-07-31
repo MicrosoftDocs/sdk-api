@@ -7,7 +7,7 @@ old-location: wmi\swbemobjectpath_keys.htm
 old-project: WmiSdk
 ms.assetid: 1919403d-6dea-4d41-9bc7-a622a9c9c2c8
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemObjectPath interface [Windows Management Instrumentation],Keys property, ISWbemObjectPath.get_Keys, ISWbemObjectPath::get_Keys, Keys property [Windows Management Instrumentation], Keys property [Windows Management Instrumentation],ISWbemObjectPath interface, Keys property [Windows Management Instrumentation],SWbemObjectPath object, SWbemObjectPath object [Windows Management Instrumentation],Keys property, SWbemObjectPath.Keys, _hmm_swbemobjectpath.keys, get_Keys, wmi.swbemobjectpath_keys
 ms.prod: windows
 ms.technology: windows-sdk

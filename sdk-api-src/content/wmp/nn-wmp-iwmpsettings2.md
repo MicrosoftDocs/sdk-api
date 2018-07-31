@@ -7,7 +7,7 @@ old-location: wmp\iwmpsettings2.htm
 old-project: WMP
 ms.assetid: 0fb0c7be-015e-4081-8467-c382e0858195
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPSettings2, IWMPSettings2 interface [Windows Media Player], IWMPSettings2 interface [Windows Media Player],described, IWMPSettings2Interface, wmp.iwmpsettings2, wmp/IWMPSettings2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,6 @@ Requests a specified level of access to the library.
 </td>
 </tr>
 </table> 
-
 
 Retrieve a pointer to an <b>IWMPSettings2</b> interface by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings</a> interface.
 

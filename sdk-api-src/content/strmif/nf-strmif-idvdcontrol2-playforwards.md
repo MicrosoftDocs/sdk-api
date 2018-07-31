@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_playforwards.htm
 old-project: DirectShow
 ms.assetid: bf57e2fd-c85f-430d-a1fa-5b59f7bfb8af
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayForwards method, IDvdControl2.PlayForwards, IDvdControl2::PlayForwards, IDvdControl2PlayForwards, PlayForwards, PlayForwards method [DirectShow], PlayForwards method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playforwards, strmif/IDvdControl2::PlayForwards
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,11 +132,9 @@ The following table shows the Annex J command name to which this method name cor
 
 <table>
 <tr>
-<td>
-              Annex J Command Name
+<td>Annex J Command Name
             </td>
-<td>
-              Valid Domains
+<td>Valid Domains
             </td>
 </tr>
 <tr>

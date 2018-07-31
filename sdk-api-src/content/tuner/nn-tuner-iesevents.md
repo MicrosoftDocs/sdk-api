@@ -7,7 +7,7 @@ old-location: mstv\iesevents.htm
 old-project: mstv
 ms.assetid: 1921f632-bb3b-4833-aa25-9caa3d65363f
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IESEvents, IESEvents interface [Microsoft TV Technologies], IESEvents interface [Microsoft TV Technologies],described, mstv.iesevents, tuner/IESEvents
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Implements event handling for devices that have registered to receive specific events derived from the <a href="https://msdn.microsoft.com/3c375480-c6df-4bb0-b417-5765b0bed9bf">IESEvent</a> interface. In a Protected Broadcast Driver Architecture graph, Media Sink Devices implement this interface to register for events.
+Implements event handling for devices that have registered to receive specific events derived from the <a href="https://msdn.microsoft.com/3c375480-c6df-4bb0-b417-5765b0bed9bf">IESEvent</a> interface. In a Protected Broadcast Driver Architecture graph, Media Sink Devices implement this interface to register for events.
       
 
 For more information about PBDA, download the specification from <a href="http://go.microsoft.com/fwlink/p/?linkid=132926">http://go.microsoft.com/fwlink/p/?linkid=132926</a>.
@@ -78,8 +77,7 @@ The <b>IESEvents</b> interface has these methods.
 <a href="https://msdn.microsoft.com/d715f598-0dd5-4c8c-9f5b-3aaa65768600">OnESEventReceived</a>
 </td>
 <td align="left" width="63%">
-
-            Defines a handler for events derived from <a href="https://msdn.microsoft.com/3c375480-c6df-4bb0-b417-5765b0bed9bf">IESEvent</a>.
+Defines a handler for events derived from <a href="https://msdn.microsoft.com/3c375480-c6df-4bb0-b417-5765b0bed9bf">IESEvent</a>.
           
 
 </td>

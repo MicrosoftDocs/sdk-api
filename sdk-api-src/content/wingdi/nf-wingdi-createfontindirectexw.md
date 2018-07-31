@@ -7,7 +7,7 @@ old-location: gdi\createfontindirectex.htm
 old-project: gdi
 ms.assetid: 1161b79e-f9c8-4073-97c4-1ccc1a78279b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateFontIndirectEx, CreateFontIndirectEx function [Windows GDI], CreateFontIndirectExA, CreateFontIndirectExW, _win32_CreateFontIndirectEx, gdi.createfontindirectex, wingdi/CreateFontIndirectEx, wingdi/CreateFontIndirectExA, wingdi/CreateFontIndirectExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,38 +106,32 @@ The font mapper for <a href="https://msdn.microsoft.com/373bac6e-5d4d-4909-8096-
 
 
 
-<a href="https://msdn.microsoft.com/373bac6e-5d4d-4909-8096-2f0e909d2f1d">
-        CreateFont
+<a href="https://msdn.microsoft.com/373bac6e-5d4d-4909-8096-2f0e909d2f1d">CreateFont
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b7919fb6-8515-4f1b-af9c-dc7eac381b90">
-        CreateFontIndirect
+<a href="https://msdn.microsoft.com/b7919fb6-8515-4f1b-af9c-dc7eac381b90">CreateFontIndirect
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/8d483f52-250e-4c4f-83cf-ff952bb84fd3">
-        ENUMLOGFONTEXDV
+<a href="https://msdn.microsoft.com/8d483f52-250e-4c4f-83cf-ff952bb84fd3">ENUMLOGFONTEXDV
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/4960afbb-eeba-4030-ac89-d1ff077bb2f3">
-        EnumFontFamilies
+<a href="https://msdn.microsoft.com/4960afbb-eeba-4030-ac89-d1ff077bb2f3">EnumFontFamilies
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/4d70906d-8005-4c4a-869e-16dd3e6fa3f2">
-        EnumFontFamiliesEx
+<a href="https://msdn.microsoft.com/4d70906d-8005-4c4a-869e-16dd3e6fa3f2">EnumFontFamiliesEx
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b5dfc38d-c400-4900-a15b-f251815ee346">
-        EnumFonts
+<a href="https://msdn.microsoft.com/b5dfc38d-c400-4900-a15b-f251815ee346">EnumFonts
       </a>
 
 

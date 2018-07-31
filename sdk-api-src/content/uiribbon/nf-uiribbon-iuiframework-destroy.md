@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiframework_destroy.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\destroy.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: Destroy, Destroy method [Windows Ribbon], Destroy method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],Destroy method, IUIFramework.Destroy, IUIFramework::Destroy, scenicintent_IUIFramework_Destroy, uiribbon/IUIFramework::Destroy, windowsribbon.windowsribbon_iuiframework_destroy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,11 +77,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-				This method must be called once for each instance of <a href="https://msdn.microsoft.com/library/Dd371467(v=VS.85).aspx">IUIFramework</a>.
+This method must be called once for each instance of <a href="https://msdn.microsoft.com/a9b8a30d-dd00-4088-a588-304fde97b84e">IUIFramework</a>.
 			
 
-If  <a href="https://msdn.microsoft.com/library/Dd371373(v=VS.85).aspx">IUIFramework::Initialize</a> was called, then <b>IUIFramework::Destroy</b> must be called to free resources and ensure proper dismantling of the framework. Failure to call <b>IUIFramework::Destroy</b> may cause a memory leak.
+If  <a href="https://msdn.microsoft.com/bb6525dd-7e05-40e0-bdcc-c66f31a99f46">IUIFramework::Initialize</a> was called, then <b>IUIFramework::Destroy</b> must be called to free resources and ensure proper dismantling of the framework. Failure to call <b>IUIFramework::Destroy</b> may cause a memory leak.
 
 
 
@@ -91,11 +90,11 @@ If  <a href="https://msdn.microsoft.com/library/Dd371373(v=VS.85).aspx">IUIFrame
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371467(v=VS.85).aspx">IUIFramework</a>
+<a href="https://msdn.microsoft.com/a9b8a30d-dd00-4088-a588-304fde97b84e">IUIFramework</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wsw\wscloseservicehost.htm
 old-project: wsw
 ms.assetid: 46abbcba-72ba-4328-858d-367218f45df3
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCloseServiceHost, WsCloseServiceHost function [Web Services for Windows], webservices/WsCloseServiceHost, wsw.wscloseservicehost
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                Closes down communication with the specified <a href="https://msdn.microsoft.com/42e4d24d-5611-4561-b874-6dc3f3f88c73">service host</a>. 
+Closes down communication with the specified <a href="https://msdn.microsoft.com/42e4d24d-5611-4561-b874-6dc3f3f88c73">service host</a>. 
             
 
 
@@ -66,8 +65,7 @@ req.product: Windows Address Book 5.0
 
 ### -param serviceHost [in]
 
-
-                    Pointer to a <a href="https://msdn.microsoft.com/1186e3ae-87d0-4d0b-a7cc-cce63dc091e2">WS_SERVICE_HOST</a> structure that represents the service host to be closed.
+Pointer to a <a href="https://msdn.microsoft.com/1186e3ae-87d0-4d0b-a7cc-cce63dc091e2">WS_SERVICE_HOST</a> structure that represents the service host to be closed.
                 
 
 
@@ -78,8 +76,7 @@ Pointer to a <a href="https://msdn.microsoft.com/3c9ffbef-2f5b-42b0-96b1-f17f0ab
 
 ### -param error [in, optional]
 
-
-                    Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
                 
 
 
@@ -101,8 +98,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
-                    The asynchronous operation is still pending.
+The asynchronous operation is still pending.
                 
 
 </td>
@@ -125,7 +121,6 @@ The current state of the service host is not valid for this operation.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -137,7 +132,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 The operation did not complete within the time allotted.
 
 </td>
@@ -149,7 +143,6 @@ The operation did not complete within the time allotted.
 </dl>
 </td>
 <td width="60%">
-
 The operation was aborted.
 
 </td>

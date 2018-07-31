@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariablechangehandler.htm
 old-project: UIAnimation
 ms.assetid: 2288b256-aaf4-44fe-9ad1-f05ef7b0e30b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariableChangeHandler, IUIAnimationVariableChangeHandler interface [Windows Animation], IUIAnimationVariableChangeHandler interface [Windows Animation],described, uianimation.iuianimationvariablechangehandler, uianimation/IUIAnimationVariableChangeHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Defines a method for handling events related to animation variable updates.
+Defines a method for handling events related to animation variable updates.
 
 
 ## -inheritance
@@ -72,12 +71,10 @@ The <b>IUIAnimationVariableChangeHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1e865f55-d703-4d91-8690-b816b5fe1a89">
-         OnValueChanged</a>
+<a href="https://msdn.microsoft.com/1e865f55-d703-4d91-8690-b816b5fe1a89">OnValueChanged</a>
 </td>
 <td align="left" width="63%">
-
-         Handles events that occur when the value of an animation variable changes.
+Handles events that occur when the value of an animation variable changes.
 
 </td>
 </tr>
@@ -89,8 +86,7 @@ The <b>IUIAnimationVariableChangeHandler</b> interface has these methods.
 
 
 
-<a href="https://msdn.microsoft.com/1e865f55-d703-4d91-8690-b816b5fe1a89">
-         OnValueChanged</a> receives animation variable value updates as 
+<a href="https://msdn.microsoft.com/1e865f55-d703-4d91-8690-b816b5fe1a89">OnValueChanged</a> receives animation variable value updates as 
          <b>DOUBLE</b> values.
       
          To receive value updates as <b>INT32</b> values, use
@@ -104,8 +100,7 @@ The <b>IUIAnimationVariableChangeHandler</b> interface has these methods.
 
 
 
-<a href="https://msdn.microsoft.com/51ae200a-a630-44fd-afd4-33d1b1dbf6d7">
-         IUIAnimationVariable::GetValue</a>
+<a href="https://msdn.microsoft.com/51ae200a-a630-44fd-afd4-33d1b1dbf6d7">IUIAnimationVariable::GetValue</a>
 
 
 

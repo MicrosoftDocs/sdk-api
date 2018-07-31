@@ -7,7 +7,7 @@ old-location: intl\getstringscripts.htm
 old-project: Intl
 ms.assetid: 82885feb-5d9b-49ea-bcbe-c71597584c59
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: GSS_ALLOW_INHERITED_COMMON, GetStringScripts, GetStringScripts function [Internationalization for Windows Applications], _win32_GetStringScripts, intl.getstringscripts, winnls/GetStringScripts
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\ws_heap_properties.htm
 old-project: wsw
 ms.assetid: d367bb85-514d-4acc-b67f-f7381a9a6404
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_HEAP_PROPERTIES, WS_HEAP_PROPERTIES structure [Web Services for Windows], _WS_HEAP_PROPERTIES, webservices/WS_HEAP_PROPERTIES, wsw.ws_heap_properties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                A structure that is used to specify a set of <a href="https://msdn.microsoft.com/e55122e4-fc18-4e1a-b34e-c661b555a062">WS_HEAP_PROPERTY</a>s.
+A structure that is used to specify a set of <a href="https://msdn.microsoft.com/e55122e4-fc18-4e1a-b34e-c661b555a062">WS_HEAP_PROPERTY</a>s.
             
 
 
@@ -63,8 +62,7 @@ req.product: Windows Address Book 5.0
 
 ### -field properties
 
-
-                    An array of properties.  The number of elements in the array is specified
+An array of properties.  The number of elements in the array is specified
                     using the propertyCount parameter.  This field may be <b>NULL</b> if the propertyCount
                     is 0.
                 
@@ -72,7 +70,6 @@ req.product: Windows Address Book 5.0
 
 ### -field propertyCount
 
-
-                    The number of elements in the properties array.
+The number of elements in the properties array.
                 
 

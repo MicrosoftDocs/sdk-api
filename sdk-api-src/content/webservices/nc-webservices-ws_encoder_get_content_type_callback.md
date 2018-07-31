@@ -7,7 +7,7 @@ old-location: wsw\ws_encoder_get_content_type_callback.htm
 old-project: wsw
 ms.assetid: 9e17481e-91ed-4215-983e-218936a1aa4f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ENCODER_GET_CONTENT_TYPE_CALLBACK, WS_ENCODER_GET_CONTENT_TYPE_CALLBACK callback, WS_ENCODER_GET_CONTENT_TYPE_CALLBACK callback function [Web Services for Windows], webservices/WS_ENCODER_GET_CONTENT_TYPE_CALLBACK, wsw.ws_encoder_get_content_type_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,36 +62,31 @@ Gets the content type of the message.
 
 ### -param *encoderContext [in]
 
-
-                    The encoder instance returned by the <a href="https://msdn.microsoft.com/47a68722-0c99-478a-b1ce-2982287e6a74">WS_CREATE_ENCODER_CALLBACK</a>.
+The encoder instance returned by the <a href="https://msdn.microsoft.com/47a68722-0c99-478a-b1ce-2982287e6a74">WS_CREATE_ENCODER_CALLBACK</a>.
                 
 
 
 ### -param *contentType [in]
 
-
-                    The content type of the encoded message.
+The content type of the encoded message.
                 
 
 
 ### -param *newContentType [out]
 
-
-                    The callback should return the content type for the newly encoded message here.
+The callback should return the content type for the newly encoded message here.
                 
 
 
 ### -param *contentEncoding [out]
 
-
-                    The callback should return the content encoding for the encoded message here.
+The callback should return the content encoding for the encoded message here.
                 
 
 
 ### -param *error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -111,7 +106,6 @@ Gets the content type of the message.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -123,7 +117,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -149,24 +142,20 @@ This function may return other errors not listed above.
 
 
 
-
-              The callback may inspect the content type provided, and then should return the 
+The callback may inspect the content type provided, and then should return the 
               content type to use for the encoded message.
             
 
-
-              The content type and content encoding returned must remain valid until the 
+The content type and content encoding returned must remain valid until the 
               callback is invoked again, or the encoder is freed.
             
 
-
-              For <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>, if a non-zero length content encoding
+For <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>, if a non-zero length content encoding
               is returned, the HTTP header "Content-Encoding" will be added to the message
               with this value.
             
 
-
-              For other channel bindings, it is an error to return a non-zero length 
+For other channel bindings, it is an error to return a non-zero length 
               content encoding.
             
 

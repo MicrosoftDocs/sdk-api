@@ -4,10 +4,10 @@ title: WinHttpTimeFromSystemTime function
 author: windows-sdk-content
 description: Formats a date and time according to the HTTP version 1.0 specification.
 old-location: http\winhttptimefromsystemtime.htm
-old-project: winhttp
+old-project: WinHttp
 ms.assetid: 8d55e3bb-0b86-41d9-ba39-62feb2acc707
 ms.author: windowssdkdev
-ms.date: 03/09/2018
+ms.date: 07/29/2018
 ms.keywords: WinHttpTimeFromSystemTime, WinHttpTimeFromSystemTime function [WinHTTP], http.winhttptimefromsystemtime, winhttp.winhttptimefromsystemtime_function, winhttp/WinHttpTimeFromSystemTime
 ms.prod: windows
 ms.technology: windows-sdk

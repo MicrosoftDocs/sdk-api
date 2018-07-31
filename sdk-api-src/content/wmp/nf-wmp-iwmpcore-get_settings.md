@@ -7,7 +7,7 @@ old-location: wmp\iwmpcore_get_settings.htm
 old-project: WMP
 ms.assetid: 4bbffaff-99e4-4aae-9b8f-cdb86648fdd9
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_settings method, IWMPCore.get_settings, IWMPCore::get_settings, IWMPCoreget_settings, get_settings, get_settings method [Windows Media Player], get_settings method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_settings, wmp/IWMPCore::get_settings
 ms.prod: windows
 ms.technology: windows-sdk

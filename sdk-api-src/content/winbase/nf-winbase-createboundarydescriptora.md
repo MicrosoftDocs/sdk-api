@@ -4,10 +4,10 @@ title: CreateBoundaryDescriptorA function
 author: windows-sdk-content
 description: Creates a boundary descriptor.
 old-location: base\createboundarydescriptor.htm
-old-project: sync
+old-project: Sync
 ms.assetid: c7789e90-8dfb-47ee-a0b2-906520982d84
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/29/2018
 ms.keywords: CreateBoundaryDescriptor, CreateBoundaryDescriptor function, CreateBoundaryDescriptorA, CreateBoundaryDescriptorW, base.createboundarydescriptor, winbase/CreateBoundaryDescriptor, winbase/CreateBoundaryDescriptorA, winbase/CreateBoundaryDescriptorW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,8 +82,7 @@ This parameter is reserved for future use.
 
 If the function succeeds, the return value is a handle to the boundary descriptor.
 
-
-       If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
      
 

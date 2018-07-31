@@ -7,7 +7,7 @@ old-location: dshow\iconfiginterleaving_put_interleaving.htm
 old-project: DirectShow
 ms.assetid: 4b1363c4-9cdd-4b28-a5ea-e5e554597be2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IConfigInterleaving interface [DirectShow],put_Interleaving method, IConfigInterleaving.put_Interleaving, IConfigInterleaving::put_Interleaving, IConfigInterleavingput_Interleaving, dshow.iconfiginterleaving_put_interleaving, put_Interleaving, put_Interleaving method [DirectShow], put_Interleaving method [DirectShow],IConfigInterleaving interface, strmif/IConfigInterleaving::put_Interleaving
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,15 +65,13 @@ The <b>put_Interleaving</b> method sets the audio preroll time and the frequency
 
 ### -param prtInterleave [in]
 
-
-            The approximate duration of each interleaved group of audio or video chunks, in 100-nanosecond units.
+The approximate duration of each interleaved group of audio or video chunks, in 100-nanosecond units.
           The exact amount of interleaving is also affected by the interleave mode, which is specified by calling <a href="https://msdn.microsoft.com/62b06dc2-2e71-4a14-82e5-63e921a3c11f">IConfigInterleaving::put_Mode</a>.
 
 
 ### -param prtPreroll [in]
 
-
-            The amount of audio data, in 100-nanosecond units, that is written to the file before the first video frame.
+The amount of audio data, in 100-nanosecond units, that is written to the file before the first video frame.
           
 
 
@@ -90,8 +88,7 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 
-
-        An audio preroll of 750 milliseconds is recommended when authoring a file for distribution.
+An audio preroll of 750 milliseconds is recommended when authoring a file for distribution.
       
 
 If you do not call this method, the default value for <i>prtInterleave</i> is 1000 milliseconds. The smaller the number, the larger the resulting file.

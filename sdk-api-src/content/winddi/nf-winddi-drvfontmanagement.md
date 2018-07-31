@@ -7,7 +7,7 @@ old-location: display\drvfontmanagement.htm
 old-project: display
 ms.assetid: cd52e32a-6d95-4aaf-96d3-45da2e5359e4
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: DrvFontManagement, DrvFontManagement function [Display Devices], ddifncs_d63b3833-8097-4fe0-b124-567aa07e917c.xml, display.drvfontmanagement, winddi/DrvFontManagement
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\ws_cert_issuer_list_notification_callback.htm
 old-project: wsw
 ms.assetid: a8417d3f-5932-4993-b206-b43b6a93ef8f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK, WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK callback, WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK callback function [Web Services for Windows], webservices/WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK, wsw.ws_cert_issuer_list_notification_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,6 @@ the server may optionally send such an issuer list to help the client
 choose a certificate.
             
 
-
 This callback is an optional part of the <a href="https://msdn.microsoft.com/822dd067-803c-4e72-bfd0-fd9f9f36d390">WS_CUSTOM_CERT_CREDENTIAL</a>.  
 If the (possibly <b>NULL</b>) certificate returned by the <a href="https://msdn.microsoft.com/36e787ff-f6bc-4814-be3f-a64f3edc2326">WS_GET_CERT_CALLBACK</a> is
 accepted by the server, then this callback is never invoked.  If the
@@ -66,7 +65,6 @@ will be invoked.  The client may then choose a certificate based on
 the issuer list and supply that certificate when the channel is opened
 next and <i>WS_GET_CERT_CALLBACK</i> is invoked again.
             
-
 
 The parameters supplied during this callback are valid only for the
 duration of the callback.
@@ -80,20 +78,17 @@ duration of the callback.
 
 ### -param *certIssuerListNotificationCallbackState [in]
 
-
 State that was specified along with this callback in the <a href="https://msdn.microsoft.com/822dd067-803c-4e72-bfd0-fd9f9f36d390">WS_CUSTOM_CERT_CREDENTIAL</a>.
                 
 
 
 ### -param *issuerList [in]
 
-
 The list of certificate issuers acceptable to the server.
                 
 
 
 ### -param *error [in, optional]
-
 
 Specifies where additional error information should be stored if the function fails.
                 

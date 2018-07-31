@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_methods_.htm
 old-project: WmiSdk
 ms.assetid: ef9abced-5126-4698-b01e-f3e9c871162f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemObject interface [Windows Management Instrumentation],Methods_ property, ISWbemObject.get_Methods_, ISWbemObject::get_Methods_, Methods_ property [Windows Management Instrumentation], Methods_ property [Windows Management Instrumentation],ISWbemObject interface, Methods_ property [Windows Management Instrumentation],SWbemObject object, SWbemObject object [Windows Management Instrumentation],Methods_ property, SWbemObject.Methods_, _hmm_swbemobject.methods_, get_Methods_, wmi.swbemobject_methods_
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard_holdvariable.htm
 old-project: UIAnimation
 ms.assetid: ac5ee9c0-cecb-41f1-b8d3-6f779dfafef7
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: HoldVariable, HoldVariable method [Windows Animation], HoldVariable method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],HoldVariable method, IUIAnimationStoryboard.HoldVariable, IUIAnimationStoryboard::HoldVariable, uianimation.iuianimationstoryboard_holdvariable, uianimation/IUIAnimationStoryboard::HoldVariable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Directs the storyboard to hold the specified animation variable at its final value until the storyboard ends.
+Directs the storyboard to hold the specified animation variable at its final value until the storyboard ends.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param variable [in]
 
-
-            The animation variable.
+The animation variable.
 
 
 ## -returns
@@ -79,8 +77,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 
-
-         When a storyboard is playing, it has exclusive access to any variables it animates unless the storyboard is trimmed by a higher priority storyboard. Typically, this exclusive access is released  when the last transition in the storyboard for that variable finishes playing. Applications can call this method to maintain exclusive access to the animation variable and hold the variable, at the final value of the last transition, until the end of the storyboard.
+When a storyboard is playing, it has exclusive access to any variables it animates unless the storyboard is trimmed by a higher priority storyboard. Typically, this exclusive access is released  when the last transition in the storyboard for that variable finishes playing. Applications can call this method to maintain exclusive access to the animation variable and hold the variable, at the final value of the last transition, until the end of the storyboard.
 
 
 

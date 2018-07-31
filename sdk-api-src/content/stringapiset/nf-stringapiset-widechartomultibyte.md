@@ -7,7 +7,7 @@ old-location: intl\widechartomultibyte.htm
 old-project: Intl
 ms.assetid: b8c13444-86ab-479c-ac04-9b184d9eebf6
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_SYMBOL, CP_THREAD_ACP, CP_UTF7, CP_UTF8, WC_COMPOSITECHECK, WC_ERR_INVALID_CHARS, WC_NO_BEST_FIT_CHARS, WideCharToMultiByte, WideCharToMultiByte function [Internationalization for Windows Applications], _win32_WideCharToMultiByte, intl.widechartomultibyte, stringapiset/WideCharToMultiByte
 ms.prod: windows
 ms.technology: windows-sdk
@@ -46,7 +46,6 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # WideCharToMultiByte function
@@ -62,8 +61,7 @@ Maps a UTF-16 (wide character) string to a new character string. The new charact
 
 </div>
 <div> </div>
-<div class="alert"><b>Note</b>  
-         The ANSI code pages can be different on different computers, or can be changed for a single computer, leading to data corruption. For the most consistent results, applications should use Unicode, such as UTF-8 or UTF-16, instead of a specific code page, unless legacy standards or data formats prevent the use of Unicode. If using Unicode is not possible, applications should tag the data stream with the appropriate encoding name when protocols allow it. HTML and XML files allow tagging, but text files do not.</div>
+<div class="alert"><b>Note</b>  The ANSI code pages can be different on different computers, or can be changed for a single computer, leading to data corruption. For the most consistent results, applications should use Unicode, such as UTF-8 or UTF-16, instead of a specific code page, unless legacy standards or data formats prevent the use of Unicode. If using Unicode is not possible, applications should tag the data stream with the appropriate encoding name when protocols allow it. HTML and XML files allow tagging, but text files do not.</div>
 <div> </div>
 
 
@@ -148,8 +146,7 @@ The current system OEM code page.
 </dl>
 </td>
 <td width="60%">
-
-                UTF-7. Use this value only when forced by a 7-bit transport mechanism. Use of UTF-8 is preferred. With this value set, <i>lpDefaultChar</i> and <i>lpUsedDefaultChar</i> must be set to <b>NULL</b>.
+UTF-7. Use this value only when forced by a 7-bit transport mechanism. Use of UTF-8 is preferred. With this value set, <i>lpDefaultChar</i> and <i>lpUsedDefaultChar</i> must be set to <b>NULL</b>.
 
 </td>
 </tr>
@@ -244,8 +241,7 @@ For the code pages listed below, <i>dwFlags</i> must be 0. Otherwise, the functi
 <li>65000 (UTF-7)</li>
 <li>42 (Symbol)</li>
 </ul>
-<div class="alert"><b>Note</b>  
-             For the code page 65001 (UTF-8) or the code page 54936 (GB18030, Windows Vista and later), <i>dwFlags</i> must be set to either 0 or WC_ERR_INVALID_CHARS. Otherwise, the function fails with ERROR_INVALID_FLAGS.</div>
+<div class="alert"><b>Note</b>  For the code page 65001 (UTF-8) or the code page 54936 (GB18030, Windows Vista and later), <i>dwFlags</i> must be set to either 0 or WC_ERR_INVALID_CHARS. Otherwise, the function fails with ERROR_INVALID_FLAGS.</div>
 <div> </div>
 
 ### -param lpWideCharStr [in]
@@ -352,8 +348,7 @@ The <b>WideCharToMultiByte</b> function operates most efficiently when both <i>l
 </table>
  
 
-
-        Starting with Windows Vista, this function fully conforms with the Unicode 4.1 specification for UTF-8 and UTF-16. The function used on earlier operating systems encodes or decodes lone <a href="https://msdn.microsoft.com/0dea39e2-a2b4-47fc-b44a-56af8ba1e346">surrogate</a> halves or mismatched surrogate pairs. Code written in earlier versions of Windows that rely on this behavior to encode random non-text binary data might run into problems. However, code that uses this function to produce valid UTF-8 strings will behave the same way as on earlier Windows operating systems.
+Starting with Windows Vista, this function fully conforms with the Unicode 4.1 specification for UTF-8 and UTF-16. The function used on earlier operating systems encodes or decodes lone <a href="https://msdn.microsoft.com/0dea39e2-a2b4-47fc-b44a-56af8ba1e346">surrogate</a> halves or mismatched surrogate pairs. Code written in earlier versions of Windows that rely on this behavior to encode random non-text binary data might run into problems. However, code that uses this function to produce valid UTF-8 strings will behave the same way as on earlier Windows operating systems.
 
 <b>Starting with Windows 8: </b><b>WideCharToMultiByte</b>  is declared in Stringapiset.h. Before Windows 8, it was declared in Winnls.h.
 

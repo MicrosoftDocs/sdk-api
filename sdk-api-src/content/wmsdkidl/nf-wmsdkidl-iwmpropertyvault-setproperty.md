@@ -7,7 +7,7 @@ old-location: wmformat\iwmpropertyvault_setproperty.htm
 old-project: wmformat
 ms.assetid: 0fae0ecf-efa9-46d0-8324-4065f351291e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPropertyVault interface [windows Media Format],SetProperty method, IWMPropertyVault.SetProperty, IWMPropertyVault::SetProperty, IWMPropertyVaultSetProperty, SetProperty, SetProperty method [windows Media Format], SetProperty method [windows Media Format],IWMPropertyVault interface, wmformat.iwmpropertyvault_setproperty, wmsdkidl/IWMPropertyVault::SetProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,14 +73,11 @@ The following table lists the property names supported by the <b>IWMPropertyVaul
 
 <table>
 <tr>
-<th>
-                  Global constant
+<th>Global constant
                 </th>
-<th>
-                  Data type
+<th>Data type
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

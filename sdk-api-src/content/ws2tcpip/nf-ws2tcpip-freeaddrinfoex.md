@@ -4,10 +4,10 @@ title: FreeAddrInfoEx function
 author: windows-sdk-content
 description: Frees address information that the GetAddrInfoEx function dynamically allocates in addrinfoex structures.
 old-location: winsock\freeaddrinfoex.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: bc3d7ba7-ec00-4ee0-ad7d-d46641043a7b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: FreeAddrInfoEx, FreeAddrInfoEx function [Winsock], FreeAddrInfoExW, winsock.freeaddrinfoex, ws2tcpip/FreeAddrInfoEx, ws2tcpip/FreeAddrInfoExW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\ws_endpoint_address.htm
 old-project: wsw
 ms.assetid: 4e9b5f3e-849f-46aa-a94a-3cd6ae16275f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ENDPOINT_ADDRESS, WS_ENDPOINT_ADDRESS structure [Web Services for Windows], _WS_ENDPOINT_ADDRESS, webservices/WS_ENDPOINT_ADDRESS, wsw.ws_endpoint_address
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Represents the network address of an endpoint.
+Represents the network address of an endpoint.
             
 
 
@@ -63,69 +62,57 @@ req.product: Windows Address Book 5.0
 
 ### -field url
 
-
-                    The URL portion of the address.  
+The URL portion of the address.  
                 
 
+The URL is always in escaped form.  
 
-                    The URL is always in escaped form.  
-
-
-                    If this string is zero-length, then
+If this string is zero-length, then
                     the URL is assumed to be the anonymous address.  The anonymous
                     address string is automatically mapped to/from the zero-length string
                     when the endpoint address is serialized or deserialized
                     using <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_ENDPOINT_ADDRESS_TYPE</a>.
                 
 
-
-                    The value of this field corresponds to the Address element of the 
+The value of this field corresponds to the Address element of the 
                     WS-Addressing specifications.
                 
 
 
 ### -field headers
 
-
-                    A <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> handle to a set of header elements
+A <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> handle to a set of header elements
                     that represent the reference parameters for the endpoint address.
                 
 
-
-                    The headers are required to properly interact with the endpoint.
+The headers are required to properly interact with the endpoint.
                     They are used to further qualify the address (URL).
                 
 
-
-                    The headers should be treated as opaque values to the user of
+The headers should be treated as opaque values to the user of
                     the endpoint address.
                 
 
-
-                    See <a href="https://msdn.microsoft.com/30b2dbd1-7232-4ff1-b30a-920df8bfe423">WsAddressMessage</a> for information on how to 
+See <a href="https://msdn.microsoft.com/30b2dbd1-7232-4ff1-b30a-920df8bfe423">WsAddressMessage</a> for information on how to 
                     add the headers to a message being sent.
                 
 
-
-                    This field may be <b>NULL</b> if there are no headers.
+This field may be <b>NULL</b> if there are no headers.
                 
 
-
-                    This value of this field corresponds to the content of the 
+This value of this field corresponds to the content of the 
                     ReferenceParameters element of the WS-Addressing specifications.
                 
 
 
 ### -field extensions
 
-
-                    A <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> handle to a set of extension elements.
+A <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> handle to a set of extension elements.
                     Extension elements are used to include additional information within an
                     endpoint address.  This field may be <b>NULL</b> if there are no extension elements.
                 
 
-
-                    This value of this field corresponds to the other elements
+This value of this field corresponds to the other elements
                     defined by WS-Addressing and any extension elements.  The elements must 
                     appear in the correct order according to the specification, followed
                     by extension elements.  This field should not contain elements for Address 
@@ -133,8 +120,7 @@ req.product: Windows Address Book 5.0
                     other fields of this structure.
                 
 
-
-                    If the ReferenceProperties element is present (as defined by
+If the ReferenceProperties element is present (as defined by
                     <a href="https://msdn.microsoft.com/87f60067-109c-456c-b060-33ab840872e0">WS_ADDRESSING_VERSION_0_9</a>), it must be the first element 
                     within the <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a>.
                 
@@ -142,12 +128,10 @@ req.product: Windows Address Book 5.0
 
 ### -field identity
 
-
-                    The security identity of the endpoint represented by this endpoint address.
+The security identity of the endpoint represented by this endpoint address.
                 
 
-
-                    This field corresponds to the Identity element, which is an extension
+This field corresponds to the Identity element, which is an extension
                     of the base WS-Addressing specifications.
                 
 

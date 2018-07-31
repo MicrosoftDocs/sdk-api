@@ -7,7 +7,7 @@ old-location: wmformat\iwmbandwidthsharing_gettype.htm
 old-project: wmformat
 ms.assetid: acef383f-83cb-45be-80fa-1339b391f32b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetType, GetType method [windows Media Format], GetType method [windows Media Format],IWMBandwidthSharing interface, IWMBandwidthSharing interface [windows Media Format],GetType method, IWMBandwidthSharing.GetType, IWMBandwidthSharing::GetType, IWMBandwidthSharingGetType, wmformat.iwmbandwidthsharing_gettype, wmsdkidl/IWMBandwidthSharing::GetType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,11 +71,9 @@ Pointer to a globally unique identifier specifying the type of combined stream t
 
 <table>
 <tr>
-<th>
-                  Bandwidth sharing type
+<th>Bandwidth sharing type
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

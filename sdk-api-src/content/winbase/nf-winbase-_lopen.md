@@ -4,10 +4,10 @@ title: "_lopen function"
 author: windows-sdk-content
 description: The _lopen function opens an existing file and sets the file pointer to the beginning of the file. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the CreateFile function.
 old-location: winprog\_lopen.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: E920F688-C694-44A6-ABD3-5414C4F01839
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: "_lopen, _lopen function [Windows API], winbase/_lopen, winprog._lopen"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: OpenEventLogW function
 author: windows-sdk-content
 description: Opens a handle to the specified event log.
 old-location: base\openeventlog.htm
-old-project: eventlog
+old-project: EventLog
 ms.assetid: 6cd8797a-aeaf-4603-b43c-b1ff45b6200a
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: OpenEventLog, OpenEventLog function, OpenEventLogA, OpenEventLogW, _win32_openeventlog, base.openeventlog, winbase/OpenEventLog, winbase/OpenEventLogA, winbase/OpenEventLogW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,8 +80,7 @@ If you specify a custom log and it cannot be found, the event logging service op
 
 
 
-
-						If the function succeeds, the return value is the handle to an event log.
+If the function succeeds, the return value is the handle to an event log.
 						
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 

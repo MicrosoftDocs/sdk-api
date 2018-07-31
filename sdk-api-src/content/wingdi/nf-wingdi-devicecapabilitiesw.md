@@ -7,7 +7,7 @@ old-location: gdi\devicecapabilities.htm
 old-project: printdocs
 ms.assetid: d7f63ef7-0a2e-47c3-9e81-6e8a6dffe9af
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: DC_BINNAMES, DC_BINS, DC_COLLATE, DC_COLORDEVICE, DC_COPIES, DC_DRIVER, DC_DUPLEX, DC_ENUMRESOLUTIONS, DC_EXTRA, DC_FIELDS, DC_FILEDEPENDENCIES, DC_MAXEXTENT, DC_MEDIAREADY, DC_MEDIATYPENAMES, DC_MEDIATYPES, DC_MINEXTENT, DC_NUP, DC_ORIENTATION, DC_PAPERNAMES, DC_PAPERS, DC_PAPERSIZE, DC_PERSONALITY, DC_PRINTERMEM, DC_PRINTRATE, DC_PRINTRATEPPM, DC_PRINTRATEUNIT, DC_SIZE, DC_STAPLE, DC_TRUETYPE, DC_VERSION, DeviceCapabilities, DeviceCapabilities function [Windows GDI], DeviceCapabilitiesA, DeviceCapabilitiesW, _win32_DeviceCapabilities, gdi.devicecapabilities, wingdi/DeviceCapabilities, wingdi/DeviceCapabilitiesA, wingdi/DeviceCapabilitiesW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: htonll function
 author: windows-sdk-content
 description: Converts an unsigned __int64 from host to TCP/IP network byte order (which is big-endian).
 old-location: winsock\htonll.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 3155C55D-681E-4D6D-9DFF-219465F04E4A
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: htonll, htonll function [Winsock], winsock.htonll, winsock2/htonll
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ A 64-bit unsigned number in host byte order.
 
 
 
-
-						The 
+The 
 <b>htonll</b> function returns the value in TCP/IP's network byte order.
 
 
@@ -93,8 +92,7 @@ The
 The 
 <b>htonll</b> inline function can be used to convert an IPv4 address in host byte order to the IPv4 address in network byte order. This function does not do any checking to determine if the <i>value</i> parameter is a valid IPv4 address.
 
-The <b>htonll</b>
-			inline function does not require that the Winsock DLL has previously been loaded with a successful 
+The <b>htonll</b>inline function does not require that the Winsock DLL has previously been loaded with a successful 
 call to the <a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> function.
 
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.

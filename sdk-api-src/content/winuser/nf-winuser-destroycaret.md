@@ -7,7 +7,7 @@ old-location: menurc\destroycaret.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\destroycaret.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: DestroyCaret, DestroyCaret function [Menus and Other Resources], _win32_DestroyCaret, _win32_destroycaret_cpp, menurc.destroycaret, winui._win32_destroycaret, winuser/DestroyCaret
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 The system provides one caret per queue. A window should create a caret only when it has the keyboard focus or is active. The window should destroy the caret before losing the keyboard focus or becoming inactive. 
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms648398(v=VS.85).aspx">Destroying a Caret</a>
+For an example, see <a href="using_carets.htm">Destroying a Caret</a>
 
 
 
@@ -95,7 +95,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648398(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646968(v=VS.85).aspx">Carets</a>
+<a href="https://msdn.microsoft.com/34ff3420-a1d2-46cc-9378-4b3340bec8c8">Carets</a>
 
 
 
@@ -103,11 +103,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648398(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648399(v=VS.85).aspx">CreateCaret</a>
+<a href="https://msdn.microsoft.com/f936c2cd-57a2-47ad-8be1-a2d99dcbe709">CreateCaret</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648403(v=VS.85).aspx">HideCaret</a>
+<a href="https://msdn.microsoft.com/2fab919f-11aa-429e-aaa6-89854caa7b1c">HideCaret</a>
 
 
 
@@ -115,7 +115,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms648398(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648406(v=VS.85).aspx">ShowCaret</a>
+<a href="https://msdn.microsoft.com/1a3a141e-9b5a-495a-8138-b9522933499f">ShowCaret</a>
  
 
  

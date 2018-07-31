@@ -4,10 +4,10 @@ title: IVssProviderNotifications
 author: windows-sdk-content
 description: The IVssProviderNotifications interface manages providers registered with VSS.
 old-location: base\ivssprovidernotifications.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 09324f54-8902-43d1-a4f9-967adccbf8be
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: IVssProviderNotifications, IVssProviderNotifications interface [VSS], IVssProviderNotifications interface [VSS],described, base.ivssprovidernotifications, vsprov/IVssProviderNotifications
 ms.prod: windows
 ms.technology: windows-sdk

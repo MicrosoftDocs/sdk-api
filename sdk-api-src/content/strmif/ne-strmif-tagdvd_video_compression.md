@@ -7,7 +7,7 @@ old-location: dshow\dvd_video_compression.htm
 old-project: DirectShow
 ms.assetid: e147a860-4c69-4da0-96d1-dfc4957880d9
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: DVD_VIDEO_COMPRESSION, DVD_VIDEO_COMPRESSION , DVD_VIDEO_COMPRESSION enumeration [DirectShow], DVD_VIDEO_COMPRESSIONEnumeration, DVD_VideoCompression_MPEG1, DVD_VideoCompression_MPEG2, DVD_VideoCompression_Other, dshow.dvd_video_compression, strmif/DVD_VIDEO_COMPRESSION, strmif/DVD_VideoCompression_MPEG1, strmif/DVD_VideoCompression_MPEG2, strmif/DVD_VideoCompression_Other, tagDVD_VIDEO_COMPRESSION
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # tagDVD_VIDEO_COMPRESSION enumeration
@@ -64,22 +63,19 @@ Defines the possible DVD video compression types.
 
 ### -field DVD_VideoCompression_Other
 
-
-            Unrecognized compression type.
+Unrecognized compression type.
           
 
 
 ### -field DVD_VideoCompression_MPEG1
 
-
-            MPEG-1 compression type.
+MPEG-1 compression type.
           
 
 
 ### -field DVD_VideoCompression_MPEG2
 
-
-            MPEG-2 compression type.
+MPEG-2 compression type.
           
 
 

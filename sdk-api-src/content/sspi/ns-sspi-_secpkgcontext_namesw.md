@@ -4,10 +4,10 @@ title: "_SecPkgContext_NamesW"
 author: windows-sdk-content
 description: The SecPkgContext_Names structure indicates the name of the user associated with a security context. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_names.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 9df0bf7c-ad5f-4cb8-8934-76062789735f
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PSecPkgContext_NamesW, SecPkgContext_Names, SecPkgContext_Names structure [Security], SecPkgContext_NamesA, SecPkgContext_NamesW, _SecPkgContext_NamesW, _ssp_secpkgcontext_names, pSecPkgContext_Names, pSecPkgContext_Names structure pointer [Security], security.secpkgcontext_names, sspi/SecPkgContext_Names, sspi/SecPkgContext_NamesA, sspi/SecPkgContext_NamesW, sspi/pSecPkgContext_Names"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_NamesW structure
@@ -53,8 +52,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-			The <b>SecPkgContext_Names</b> structure indicates the name of the user associated with a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. The 
+The <b>SecPkgContext_Names</b> structure indicates the name of the user associated with a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. The 
 <a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a> function uses this structure.
 
 

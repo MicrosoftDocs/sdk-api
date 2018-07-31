@@ -7,7 +7,7 @@ old-location: wmi\swbemnamedvalueset_deleteall.htm
 old-project: WmiSdk
 ms.assetid: db5d2e68-028e-4902-ad42-0b46e1a96bcb
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: DeleteAll, DeleteAll method [Windows Management Instrumentation], DeleteAll method [Windows Management Instrumentation],ISWbemNamedValueSet interface, DeleteAll method [Windows Management Instrumentation],SWbemNamedValueSet object, ISWbemNamedValueSet interface [Windows Management Instrumentation],DeleteAll method, ISWbemNamedValueSet.DeleteAll, ISWbemNamedValueSet::DeleteAll, SWbemNamedValueSet object [Windows Management Instrumentation],DeleteAll method, SWbemNamedValueSet.DeleteAll, _hmm_swbemnamedvalueset.deleteall, wmi.swbemnamedvalueset_deleteall
 ms.prod: windows
 ms.technology: windows-sdk

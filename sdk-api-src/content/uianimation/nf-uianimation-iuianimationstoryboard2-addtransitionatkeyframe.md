@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard2_addtransitionatkeyframe.htm
 old-project: UIAnimation
 ms.assetid: F4DAB833-E857-4FD8-87E2-8F32AF460F90
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: AddTransitionAtKeyframe, AddTransitionAtKeyframe method [Windows Animation], AddTransitionAtKeyframe method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],AddTransitionAtKeyframe method, IUIAnimationStoryboard2.AddTransitionAtKeyframe, IUIAnimationStoryboard2::AddTransitionAtKeyframe, uianimation.iuianimationstoryboard2_addtransitionatkeyframe, uianimation/IUIAnimationStoryboard2::AddTransitionAtKeyframe
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Adds a transition that starts at the specified keyframe.
+Adds a transition that starts at the specified keyframe.
 
 
 ## -parameters
@@ -62,20 +61,17 @@ req.product: Windows XP with SP1 and later
 
 ### -param variable [in]
 
-
-                The animation variable for which a transition is to be added.
+The animation variable for which a transition is to be added.
 
 
 ### -param transition [in]
 
-
-               The transition to be added.
+The transition to be added.
 
 
 ### -param startKeyframe [in]
 
-
-                The keyframe that specifies the beginning of the new transition.
+The keyframe that specifies the beginning of the new transition.
 
 
 ## -returns
@@ -147,23 +143,19 @@ A keyframe represents a moment in time within a storyboard and can be used to sp
 
 
 
-<a href="https://msdn.microsoft.com/BFC05D67-EE1C-489E-9A8C-10F0AAB24A0A">
-      IUIAnimationStoryboard2::AddTransition</a>
+<a href="https://msdn.microsoft.com/BFC05D67-EE1C-489E-9A8C-10F0AAB24A0A">IUIAnimationStoryboard2::AddTransition</a>
 
 
 
-<a href="https://msdn.microsoft.com/55AEA5EA-7D9E-4669-8315-7A6F4428EDF9">
-      IUIAnimationStoryboard2::AddTransitionBetweenKeyframes</a>
+<a href="https://msdn.microsoft.com/55AEA5EA-7D9E-4669-8315-7A6F4428EDF9">IUIAnimationStoryboard2::AddTransitionBetweenKeyframes</a>
 
 
 
-<a href="https://msdn.microsoft.com/CACB8053-7716-42E4-9C3B-9CCBBC30808A">
-      IUIAnimationTransition2</a>
+<a href="https://msdn.microsoft.com/CACB8053-7716-42E4-9C3B-9CCBBC30808A">IUIAnimationTransition2</a>
 
 
 
-<a href="https://msdn.microsoft.com/92C10ED5-DCE6-4B1D-8608-E2C3C6AD97BA">
-      IUIAnimationTransitionLibrary2</a>
+<a href="https://msdn.microsoft.com/92C10ED5-DCE6-4B1D-8608-E2C3C6AD97BA">IUIAnimationTransitionLibrary2</a>
  
 
  

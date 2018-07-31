@@ -4,10 +4,10 @@ title: CreateEventExA function
 author: windows-sdk-content
 description: Creates or opens a named or unnamed event object and returns a handle to the object.
 old-location: base\createeventex.htm
-old-project: sync
+old-project: Sync
 ms.assetid: 402a721d-8338-4df1-ba0b-074f868a1731
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/29/2018
 ms.keywords: CREATE_EVENT_INITIAL_SET, CREATE_EVENT_MANUAL_RESET, CreateEventEx, CreateEventEx function, CreateEventExA, CreateEventExW, base.createeventex, synchapi/CreateEventEx, synchapi/CreateEventExA, synchapi/CreateEventExW, winbase/CreateEventEx, winbase/CreateEventExA, winbase/CreateEventExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,12 +69,10 @@ Creates or opens a named or unnamed event object and returns a handle to the obj
 
 ### -param lpEventAttributes [in, optional]
 
-
-      A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure. If 
+A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure. If 
       <i>lpEventAttributes</i> is <b>NULL</b>, the event handle cannot be inherited by child processes.
 
-
-       The <b>lpSecurityDescriptor</b> member of the structure specifies a 
+The <b>lpSecurityDescriptor</b> member of the structure specifies a 
        <a href="https://msdn.microsoft.com/4ab0e7b1-1b44-4368-b2bd-106c9d2c652c">security descriptor</a> for the new 
        event. If <i>lpEventAttributes</i> is <b>NULL</b>, the event gets a default security descriptor. 
        The ACLs in the default security descriptor for an event come from the primary or impersonation token of the creator.
@@ -88,8 +86,7 @@ The name of the event object. The name is limited to
 
 If <i>lpName</i> is <b>NULL</b>, the event object is created without a name.
 
-
-       If <i>lpName</i> matches the name of another kind of object in the same namespace (such as an existing semaphore, mutex, waitable timer, job, or 
+If <i>lpName</i> matches the name of another kind of object in the same namespace (such as an existing semaphore, mutex, waitable timer, job, or 
        file-mapping object), the function fails and the 
        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function returns 
        <b>ERROR_INVALID_HANDLE</b>. This occurs because these objects share the same namespace.
@@ -151,15 +148,13 @@ The access mask for the event object. For a list of access rights, see
 
 
 
-
-       If the function succeeds, the return value is a handle to the event object. If the named event object existed 
+If the function succeeds, the return value is a handle to the event object. If the named event object existed 
        before the function call, the function returns a handle to the existing object and 
        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns 
        <b>ERROR_ALREADY_EXISTS</b>.
      
 
-
-       If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
      
 
@@ -170,51 +165,43 @@ The access mask for the event object. For a list of access rights, see
 
 
 
-
-    Any thread of the calling process can specify the event-object handle in a call to one of the 
+Any thread of the calling process can specify the event-object handle in a call to one of the 
     <a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">wait functions</a>. The single-object wait functions return 
     when the state of the specified object is signaled. The multiple-object wait functions can be instructed to 
     return either when any one or when all of the specified objects are signaled. When a wait function returns, the 
     waiting thread is released to continue its execution.
    
 
-
-    The initial state of the event object is specified by the <i>dwFlags</i> parameter. Use 
+The initial state of the event object is specified by the <i>dwFlags</i> parameter. Use 
     the <a href="https://msdn.microsoft.com/b474eef1-5df9-4729-b940-0c5f201c5f31">SetEvent</a> function to set the state of an event object to 
     signaled. Use the <a href="https://msdn.microsoft.com/bba7caab-d1ed-4261-aeca-49f847458f4c">ResetEvent</a> function to reset 
     the state of an event object to nonsignaled.
    
 
-
-    When the state of a manual-reset event object is signaled, it remains signaled until it is explicitly reset to 
+When the state of a manual-reset event object is signaled, it remains signaled until it is explicitly reset to 
     nonsignaled by the <a href="https://msdn.microsoft.com/bba7caab-d1ed-4261-aeca-49f847458f4c">ResetEvent</a> function. Any number of 
     waiting threads, or threads that subsequently begin wait operations for the specified event object, can be 
     released while the object's state is signaled.
    
 
-
-    Multiple processes can have handles of the same event object, enabling use of the object for interprocess 
+Multiple processes can have handles of the same event object, enabling use of the object for interprocess 
     synchronization. The following object-sharing mechanisms are available:
    
 
 <ul>
-<li>
-      A child process created by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function 
+<li>A child process created by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a> function 
       can inherit a handle to an event object if the <i>lpEventAttributes</i> parameter of 
       <b>CreateEvent</b> enabled inheritance.
      </li>
-<li>
-      A process can specify the event-object handle in a call to the 
+<li>A process can specify the event-object handle in a call to the 
       <a href="https://msdn.microsoft.com/9c8da574-5bda-49f1-a6b6-c026639d6504">DuplicateHandle</a> function to create a duplicate 
       handle that can be used by another process.
      </li>
-<li>
-      A process can specify the name of an event object in a call to the 
+<li>A process can specify the name of an event object in a call to the 
       <a href="https://msdn.microsoft.com/46741024-ace3-44d6-b8a6-5621ad121a1a">OpenEvent</a> or <b>CreateEvent</b> function.
      </li>
 </ul>
-
-    Use the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function to close the handle. The 
+Use the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function to close the handle. The 
     system closes the handle automatically when the process terminates. The event object is destroyed when its last 
     handle has been closed.
    

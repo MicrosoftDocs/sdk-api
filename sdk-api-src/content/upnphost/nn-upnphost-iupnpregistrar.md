@@ -4,10 +4,10 @@ title: IUPnPRegistrar
 author: windows-sdk-content
 description: The IUPnPRegistrar interface registers the devices that run in the context of the device host.
 old-location: upnp\iupnpregistrar.htm
-old-project: upnp
+old-project: UPnP
 ms.assetid: c851e102-4f03-4a21-9e62-9b5c60a728f3
 ms.author: windowssdkdev
-ms.date: 04/26/2018
+ms.date: 07/29/2018
 ms.keywords: IUPnPRegistrar, IUPnPRegistrar interface [UPnP APIs], IUPnPRegistrar interface [UPnP APIs],described, _upnp_iupnpregistrar, upnp.iupnpregistrar, upnphost/IUPnPRegistrar
 ms.prod: windows
 ms.technology: windows-sdk

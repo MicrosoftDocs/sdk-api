@@ -7,7 +7,7 @@ old-location: search\_search_INamedEntityCollector_Add.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentitycollector\add.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: Add, Add method [search], Add method [search],INamedEntityCollector interface, INamedEntityCollector interface [search],Add method, INamedEntityCollector.Add, INamedEntityCollector::Add, _search_INamedEntityCollector_Add, search._search_INamedEntityCollector_Add, structuredquery/INamedEntityCollector::Add
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-          Adds a single (potential) named entity to this <a href="https://msdn.microsoft.com/library/Bb231361(v=VS.85).aspx">INamedEntityCollector</a> collection, as identified in a tokenized span of the input string being parsed.
+Adds a single (potential) named entity to this <a href="https://msdn.microsoft.com/0ed17267-38e0-4a01-ab72-fbf1cb860300">INamedEntityCollector</a> collection, as identified in a tokenized span of the input string being parsed.
         
 
 
@@ -65,8 +64,7 @@ req.product: Windows XP with SP1 and later
 
 Type: <b>ULONG</b>
 
-
-              The beginning of the overall token span, including any leading quotation marks.
+The beginning of the overall token span, including any leading quotation marks.
             
 
 
@@ -74,8 +72,7 @@ Type: <b>ULONG</b>
 
 Type: <b>ULONG</b>
 
-
-              The end of the overall token span including any trailing quotation marks.
+The end of the overall token span including any trailing quotation marks.
             
 
 
@@ -83,8 +80,7 @@ Type: <b>ULONG</b>
 
 Type: <b>ULONG</b>
 
-
-              The beginning of the part of the token span that identifies the potential named entity.
+The beginning of the part of the token span that identifies the potential named entity.
             
 
 
@@ -92,17 +88,15 @@ Type: <b>ULONG</b>
 
 Type: <b>ULONG</b>
 
-
-              The end of the part of the token span that identifies the potential named entity.
+The end of the part of the token span that identifies the potential named entity.
             
 
 
 ### -param pType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb231373(v=VS.85).aspx">IEntity</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a>*</b>
 
-
-              The semantic type of the named entity.
+The semantic type of the named entity.
             
 
 
@@ -110,17 +104,15 @@ Type: <b><a href="https://msdn.microsoft.com/library/Bb231373(v=VS.85).aspx">IEn
 
 Type: <b>LPCWSTR</b>
 
-
-              The name of the entity as a string.
+The name of the entity as a string.
             
 
 
 ### -param certainty [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa965698(v=VS.85).aspx">NAMED_ENTITY_CERTAINTY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/32760c7b-7bfd-4bb0-b4bb-7f7fb6fcae8f">NAMED_ENTITY_CERTAINTY</a></b>
 
-
-              One of the following values:
+One of the following values:
               
 
 <table class="clsStd">
@@ -159,8 +151,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-          When a query parser parses an input string into condition nodes, the parser invokes an <a href="https://msdn.microsoft.com/library/Bb231380(v=VS.85).aspx">IConditionGenerator</a> object that, in turn, invokes <b>INamedEntityCollector::Add</b> to collect possible named entities in the input string. The <a href="https://msdn.microsoft.com/library/Bb231380(v=VS.85).aspx">IConditionGenerator</a> object must call this method for each potential named entity it recognizes in the input string. For each entity, the condition generator must provide the following information: 
+When a query parser parses an input string into condition nodes, the parser invokes an <a href="https://msdn.microsoft.com/30fa2fb6-7dfd-41e1-ab4f-5fd80c8a81ec">IConditionGenerator</a> object that, in turn, invokes <b>INamedEntityCollector::Add</b> to collect possible named entities in the input string. The <a href="https://msdn.microsoft.com/30fa2fb6-7dfd-41e1-ab4f-5fd80c8a81ec">IConditionGenerator</a> object must call this method for each potential named entity it recognizes in the input string. For each entity, the condition generator must provide the following information: 
 
         
 
@@ -171,11 +162,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 <li>the level of certainty that the input really is that named entity</li>
 </ul>
  
-        If the named entity was used in the interpretation of the input string, the <a href="https://msdn.microsoft.com/library/Bb231379(v=VS.85).aspx">GenerateForLeaf</a> method of the condition generator will be invoked with the value string as one of the arguments.
+        If the named entity was used in the interpretation of the input string, the <a href="https://msdn.microsoft.com/940107e4-4f80-4eb8-8199-cfdfe989b8eb">GenerateForLeaf</a> method of the condition generator will be invoked with the value string as one of the arguments.
           
 
-
-            The following relationship must be maintained between the four first arguments: <i>beginSpan</i>  = <i>beginActual</i> &lt; <i>endActual</i> = <i>endSpan</i>.
+The following relationship must be maintained between the four first arguments: <i>beginSpan</i>  = <i>beginActual</i> &lt; <i>endActual</i> = <i>endSpan</i>.
           
 
 

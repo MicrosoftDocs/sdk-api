@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice_get_connected.htm
 old-project: WMP
 ms.assetid: c22f4247-8df9-4ac6-ad27-a0e34780b832
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_connected method, IWMPSyncDevice.get_connected, IWMPSyncDevice::get_connected, IWMPSyncDeviceget_connected, get_connected, get_connected method [Windows Media Player], get_connected method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_connected, wmp/IWMPSyncDevice::get_connected
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,11 +68,9 @@ The <b>get_connected</b> method retrieves a value indicating whether the device 
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

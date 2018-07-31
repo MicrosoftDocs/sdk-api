@@ -4,10 +4,10 @@ title: GetAppliedGPOListW function
 author: windows-sdk-content
 description: The GetAppliedGPOList function retrieves the list of GPOs applied for the specified user or computer.
 old-location: policy\getappliedgpolist.htm
-old-project: policy
+old-project: Policy
 ms.assetid: 11e80a4e-acc4-4229-aa34-8f7d083c1041
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 07/29/2018
 ms.keywords: GPO_LIST_FLAG_MACHINE, GetAppliedGPOList, GetAppliedGPOList function [Group Policy], GetAppliedGPOListA, GetAppliedGPOListW, _win32_getappliedgpolist, policy.getappliedgpolist, userenv/GetAppliedGPOList, userenv/GetAppliedGPOListA, userenv/GetAppliedGPOListW
 ms.prod: windows
 ms.technology: windows-sdk

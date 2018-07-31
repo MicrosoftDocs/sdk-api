@@ -4,10 +4,10 @@ title: ITextRange::CanEdit
 author: windows-sdk-content
 description: Determines whether the specified range can be edited.
 old-location: controls\ITextRange_CanEdit.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\canedit.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CanEdit, CanEdit method [Windows Controls], CanEdit method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],CanEdit method, ITextRange.CanEdit, ITextRange::CanEdit, _win32_ITextRange_CanEdit, _win32_ITextRange_CanEdit_cpp, controls.ITextRange_CanEdit, controls._win32_ITextRange_CanEdit, tom/ITextRange::CanEdit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Determines whether the specified range can be edited.
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/library/Bb787724(v=VS.85).aspx">tomBool</a> value indicating whether the range can be edited. It is <b>tomTrue</b> only if the specified range can be edited. The pointer can be null.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value indicating whether the range can be edited. It is <b>tomTrue</b> only if the specified range can be edited. The pointer can be null.
 
 
 ## -returns
@@ -102,7 +102,7 @@ The range cannot be edited if any part of it is protected or if the document is 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -110,7 +110,7 @@ The range cannot be edited if any part of it is protected or if the document is 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_execute.htm
 old-project: DirectShow
 ms.assetid: 12794739-9120-4dc1-b95d-6d390d25726b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: Execute, Execute method [DirectShow], Execute method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],Execute method, IAMVideoAccelerator.Execute, IAMVideoAccelerator::Execute, IAMVideoAcceleratorExecute, dshow.iamvideoaccelerator_execute, videoacc/IAMVideoAccelerator::Execute
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-
-        The <b>Execute</b> method performs a DirectX Video Acceleration (DXVA) decoding operation.
+The <b>Execute</b> method performs a DirectX Video Acceleration (DXVA) decoding operation.
       
 
 
@@ -71,14 +70,12 @@ Contains one or more
 
 ### -param lpPrivateInputData [in]
 
-
-            Pointer to input data for the decoding operation. The meaning of this data depends on the surface type and function number. For details, refer to the DXVA 1.0 specification.
+Pointer to input data for the decoding operation. The meaning of this data depends on the surface type and function number. For details, refer to the DXVA 1.0 specification.
 
 
 ### -param cbPrivateInputData [in]
 
-
-            Size of the input data, in bytes.
+Size of the input data, in bytes.
 
 
 ### -param lpPrivateOutputDat
@@ -94,22 +91,19 @@ Size of the <i>lpPrivateOutputData</i> buffer, in bytes.
 
 ### -param dwNumBuffers [in]
 
-
-            Number of elements in the <i>pamvaBufferInfo</i> array.
+Number of elements in the <i>pamvaBufferInfo</i> array.
           
 
 
 ### -param pamvaBufferInfo [in]
 
-
-            Pointer to an array of <a href="https://msdn.microsoft.com/8b018c40-44ae-4033-97b3-efa4b4c1bfb2">AMVABUFFERINFO</a> structures.
+Pointer to an array of <a href="https://msdn.microsoft.com/8b018c40-44ae-4033-97b3-efa4b4c1bfb2">AMVABUFFERINFO</a> structures.
           
 
 
 #### - lpPrivateOutputData [in]
 
-
-            Pointer to a buffer where the video accelerator will write output data.
+Pointer to a buffer where the video accelerator will write output data.
 
 
 ## -returns
@@ -210,15 +204,12 @@ The pins on the decoder and video renderer filters are not connected.
 
 
 
+If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTED</b>.
 
-        If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTED</b>.
-
-
-        The associated buffer list is passed along with a function number (defaulting to zero) and any necessary private data describing the decompression operation. For example, decompressed reference frame information is passed in the buffer list. The buffer list order is important and is defined by the particular decompression operation being performed.
+The associated buffer list is passed along with a function number (defaulting to zero) and any necessary private data describing the decompression operation. For example, decompressed reference frame information is passed in the buffer list. The buffer list order is important and is defined by the particular decompression operation being performed.
       
 
-
-        Private data can be passed to and from a driver.
+Private data can be passed to and from a driver.
       
 
 

@@ -4,10 +4,10 @@ title: IWTSProtocolConnectionCallback::StopScreenUpdates
 author: windows-sdk-content
 description: IWTSProtocolConnectionCallback::StopScreenUpdates is no longer available. Instead, use IWRdsProtocolConnectionCallback::StopScreenUpdates.
 old-location: termserv\iwtsprotocolconnectioncallback_stopscreenupdates.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 69fab470-8763-405e-96f1-d3b1c5a26422
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWTSProtocolConnectionCallback interface [Remote Desktop Services],StopScreenUpdates method, IWTSProtocolConnectionCallback.StopScreenUpdates, IWTSProtocolConnectionCallback::StopScreenUpdates, StopScreenUpdates, StopScreenUpdates method [Remote Desktop Services], StopScreenUpdates method [Remote Desktop Services],IWTSProtocolConnectionCallback interface, termserv.iwtsprotocolconnectioncallback_stopscreenupdates, wtsprotocol/IWTSProtocolConnectionCallback::StopScreenUpdates
 ms.prod: windows
 ms.technology: windows-sdk

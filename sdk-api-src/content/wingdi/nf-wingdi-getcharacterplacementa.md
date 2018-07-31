@@ -7,7 +7,7 @@ old-location: gdi\getcharacterplacement.htm
 old-project: gdi
 ms.assetid: 80d3f4b3-503b-4abb-826c-e5c09972ba2f
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GCP_CLASSIN, GCP_DIACRITIC, GCP_DISPLAYZWG, GCP_GLYPHSHAPE, GCP_JUSTIFY, GCP_KASHIDA, GCP_LIGATE, GCP_MAXEXTENT, GCP_NEUTRALOVERRIDE, GCP_NUMERICOVERRIDE, GCP_NUMERICSLATIN, GCP_NUMERICSLOCAL, GCP_REORDER, GCP_SYMSWAPOFF, GCP_USEKERNING, GetCharacterPlacement, GetCharacterPlacement function [Windows GDI], GetCharacterPlacementA, GetCharacterPlacementW, _win32_GetCharacterPlacement, gdi.getcharacterplacement, wingdi/GetCharacterPlacement, wingdi/GetCharacterPlacementA, wingdi/GetCharacterPlacementW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -221,7 +221,7 @@ Certain languages only. Override the normal handling of numerics and treat them 
 </dl>
 </td>
 <td width="60%">
-Arabic/Thai only. Use standard Latin glyphs for numbers and override the system default. To determine if this option is available in the language of the font, use <a href="https://msdn.microsoft.com/library/Dd318118(v=VS.85).aspx">GetStringTypeEx</a> to see if the language supports more than one number format.
+Arabic/Thai only. Use standard Latin glyphs for numbers and override the system default. To determine if this option is available in the language of the font, use <a href="_win32_getstringtypeex_cpp">GetStringTypeEx</a> to see if the language supports more than one number format.
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ Arabic/Thai only. Use standard Latin glyphs for numbers and override the system 
 </dl>
 </td>
 <td width="60%">
-Arabic/Thai only. Use local glyphs for numeric characters and override the system default. To determine if this option is available in the language of the font, use <a href="https://msdn.microsoft.com/library/Dd318118(v=VS.85).aspx">GetStringTypeEx</a> to see if the language supports more than one number format.
+Arabic/Thai only. Use local glyphs for numeric characters and override the system default. To determine if this option is available in the language of the font, use <a href="_win32_getstringtypeex_cpp">GetStringTypeEx</a> to see if the language supports more than one number format.
 
 </td>
 </tr>
@@ -314,8 +314,7 @@ When computing justification, if the trailing characters in the string are space
 
 <a href="https://msdn.microsoft.com/74f8fcb8-8ad4-47f2-a330-fa56713bdb37">ExtTextOut</a> expects an <b>lpDX</b> entry for each byte of a DBCS string, whereas <b>GetCharacterPlacement</b> assigns an <b>lpDX</b> entry for each glyph. To correct this mismatch when using this combination of functions, either use <a href="https://msdn.microsoft.com/7abfee7a-dd5d-4f33-96f1-b38364ba5afd">GetGlyphIndices</a> or expand the <b>lpDX</b> array with zero-width entries for the corresponding second byte of a DBCS byte pair.
 
-
-         If the logical width is less than the width of the leading character in the input string, GCP_RESULTS.nMaxFit returns a bad value. For this case, call <b>GetCharacterPlacement</b> for glyph indexes and the <b>lpDX</b> array. Then use the <b>lpDX</b> array to do the extent calculation using the advance width of each character, where <b>nMaxFit</b> is the number of characters whose glyph indexes advance width is less than the width of the leading character.
+If the logical width is less than the width of the leading character in the input string, GCP_RESULTS.nMaxFit returns a bad value. For this case, call <b>GetCharacterPlacement</b> for glyph indexes and the <b>lpDX</b> array. Then use the <b>lpDX</b> array to do the extent calculation using the advance width of each character, where <b>nMaxFit</b> is the number of characters whose glyph indexes advance width is less than the width of the leading character.
 
 
 
@@ -353,7 +352,7 @@ When computing justification, if the trailing characters in the string are space
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd318118(v=VS.85).aspx">GetStringTypeEx</a>
+<a href="_win32_getstringtypeex_cpp">GetStringTypeEx</a>
 
 
 

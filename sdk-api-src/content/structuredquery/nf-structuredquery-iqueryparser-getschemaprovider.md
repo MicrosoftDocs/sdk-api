@@ -7,7 +7,7 @@ old-location: search\_search_IQueryParser_GetSchemaProvider.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\getschemaprovider.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: GetSchemaProvider, GetSchemaProvider method [search], GetSchemaProvider method [search],IQueryParser interface, IQueryParser interface [search],GetSchemaProvider method, IQueryParser.GetSchemaProvider, IQueryParser::GetSchemaProvider, _search_IQueryParser_GetSchemaProvider, search._search_IQueryParser_GetSchemaProvider, structuredquery/IQueryParser::GetSchemaProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-          Retrieves a schema provider for browsing the currently loaded schema.
+Retrieves a schema provider for browsing the currently loaded schema.
         
 
 
@@ -63,10 +62,9 @@ req.product: Windows XP with SP1 and later
 
 ### -param ppSchemaProvider [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb231326(v=VS.85).aspx">ISchemaProvider</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/c6cb1da0-5072-41b2-aa64-e39c8c97b2f8">ISchemaProvider</a>**</b>
 
-
-              Receives the address of a pointer to an <a href="https://msdn.microsoft.com/library/Bb231326(v=VS.85).aspx">ISchemaProvider</a> object. The calling application must release it by invoking its <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
+Receives the address of a pointer to an <a href="https://msdn.microsoft.com/c6cb1da0-5072-41b2-aa64-e39c8c97b2f8">ISchemaProvider</a> object. The calling application must release it by invoking its <a href="_com_IUnknown_Release">IUnknown::Release</a> method.
 
 
 ## -returns

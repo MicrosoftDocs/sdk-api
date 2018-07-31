@@ -4,10 +4,10 @@ title: IVdsVolumeMF2
 author: windows-sdk-content
 description: Provides methods to perform additional file system management operations on the volume object.
 old-location: base\ivdsvolumemf2.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 3219233e-7141-472a-8cb9-207222a4e775
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: IVdsVolumeMF2, IVdsVolumeMF2 interface, IVdsVolumeMF2 interface,described, base.ivdsvolumemf2, vds/IVdsVolumeMF2
 ms.prod: windows
 ms.technology: windows-sdk

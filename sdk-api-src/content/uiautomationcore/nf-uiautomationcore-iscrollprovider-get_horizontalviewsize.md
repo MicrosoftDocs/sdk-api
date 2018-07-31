@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IScrollProvider_HorizontalViewSize.htm
 old-project: WinAuto
 ms.assetid: b23c2e67-6bab-44c8-b52d-60329851d689
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: HorizontalViewSize property [Windows Accessibility], HorizontalViewSize property [Windows Accessibility],IScrollProvider interface, IScrollProvider interface [Windows Accessibility],HorizontalViewSize property, IScrollProvider.HorizontalViewSize, IScrollProvider.get_HorizontalViewSize, IScrollProvider::HorizontalViewSize, IScrollProvider::get_HorizontalViewSize, get_HorizontalViewSize, uiauto.uiauto_IScrollProvider_HorizontalViewSize, uiauto_IScrollProvider_HorizontalViewSize, uiautomationcore/IScrollProvider::HorizontalViewSize, uiautomationcore/IScrollProvider::get_HorizontalViewSize, winauto.uiauto_IScrollProvider_HorizontalViewSize
 ms.prod: windows
 ms.technology: windows-sdk

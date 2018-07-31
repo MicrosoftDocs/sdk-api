@@ -4,10 +4,10 @@ title: IWSDSignatureProperty::GetSignature
 author: windows-sdk-content
 description: Gets the signature of a message.
 old-location: ncd\iwsdsignatureproperty_getsignature.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: e13df6a4-f51f-4453-8482-563ff7c398c3
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: GetSignature, GetSignature method, GetSignature method,IWSDSignatureProperty interface, IWSDSignatureProperty interface,GetSignature method, IWSDSignatureProperty.GetSignature, IWSDSignatureProperty::GetSignature, ncd.iwsdsignatureproperty_getsignature, wsdbase/IWSDSignatureProperty::GetSignature
 ms.prod: windows
 ms.technology: windows-sdk

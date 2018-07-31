@@ -4,10 +4,10 @@ title: WlxStartApplication function
 author: windows-sdk-content
 description: Winlogon calls this function when the system needs an application to be started in the context of the user.
 old-location: security\wlxstartapplication.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: ad6b520a-56b7-4d22-b4d4-4b45e9e42a9f
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: WlxStartApplication, WlxStartApplication function [Security], _gina_wlxstartapplication, security.wlxstartapplication, winwlx/WlxStartApplication
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 <p class="CCE_Message">[The WlxStartApplication function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-
-			The <b>WlxStartApplication</b> function can be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a> calls this function when the system needs an application to be started in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> of the user.
+The <b>WlxStartApplication</b> function can be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a> calls this function when the system needs an application to be started in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> of the user.
 
 There are two reasons that the  system might need an application to start in the context of the user:
 <ul>
@@ -96,8 +95,7 @@ The program to execute.
 
 
 
-
-						If the function successfully starts the application, the function returns <b>TRUE</b>.
+If the function successfully starts the application, the function returns <b>TRUE</b>.
 
 If the function fails or the application did not start, the function returns <b>FALSE</b>.
 

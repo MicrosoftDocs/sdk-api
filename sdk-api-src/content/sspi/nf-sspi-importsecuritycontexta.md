@@ -4,10 +4,10 @@ title: ImportSecurityContextA function
 author: windows-sdk-content
 description: Imports a security context. The security context must have been exported to the process calling ImportSecurityContext by a previous call to ExportSecurityContext.
 old-location: security\importsecuritycontext.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 0f8e65d0-69cf-42ba-a903-1922d731e5ec
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: ImportSecurityContext, ImportSecurityContext function [Security], ImportSecurityContextA, ImportSecurityContextW, _ssp_importsecuritycontext, security.importsecuritycontext, sspi/ImportSecurityContext, sspi/ImportSecurityContextA, sspi/ImportSecurityContextW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -45,7 +45,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # ImportSecurityContextA function
@@ -54,8 +53,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-			The <b>ImportSecurityContext</b> function imports a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. The security context must have been exported to the process calling <b>ImportSecurityContext</b> by a previous call to <a href="https://msdn.microsoft.com/4ebc7f37-b948-4c78-973f-0a74e55c7ee2">ExportSecurityContext</a>.
+The <b>ImportSecurityContext</b> function imports a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. The security context must have been exported to the process calling <b>ImportSecurityContext</b> by a previous call to <a href="https://msdn.microsoft.com/4ebc7f37-b948-4c78-973f-0a74e55c7ee2">ExportSecurityContext</a>.
 
 
 ## -parameters
@@ -92,8 +90,7 @@ A handle to the context's token.
 
 
 
-
-						If the function succeeds, the function returns SEC_E_OK.
+If the function succeeds, the function returns SEC_E_OK.
 
 If the function fails, it returns one of the following error codes.
 
@@ -176,7 +173,7 @@ An error occurred that did not map to an SSPI error code.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
  
 
  

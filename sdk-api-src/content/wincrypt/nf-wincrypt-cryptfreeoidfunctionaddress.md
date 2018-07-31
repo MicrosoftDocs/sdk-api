@@ -4,10 +4,10 @@ title: CryptFreeOIDFunctionAddress function
 author: windows-sdk-content
 description: The CryptFreeOIDFunctionAddress function releases a handle returned by CryptGetOIDFunctionAddress or CryptGetDefaultOIDFunctionAddress by decrementing the reference count on the function handle.
 old-location: security\cryptfreeoidfunctionaddress.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: cacacff3-25b7-4ed4-885b-b4b0b326628f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptFreeOIDFunctionAddress, CryptFreeOIDFunctionAddress function [Security], _crypto2_cryptfreeoidfunctionaddress, security.cryptfreeoidfunctionaddress, wincrypt/CryptFreeOIDFunctionAddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ If the function fails, it returns zero (<b>FALSE</b>).
 
 
 
-If the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reference count</a> becomes zero and a DLL is loaded for the function being freed, the DLL might be unloaded. If the DLL exports the <a href="https://msdn.microsoft.com/library/ms690368(v=VS.85).aspx">DLLCanUnloadNow</a> function, that function is called and its return is checked. An S_FALSE return from this function cancels the unloading of the DLL at this time. If the function returns S_TRUE or if the DLL does not export the <b>DLLCanUnloadNow</b> function, an unloading process is started. In this case, actual unloading is deferred for 15 seconds. If another <b>CryptFreeOIDFunctionAddress</b> or <a href="https://msdn.microsoft.com/3977368c-ad13-43f9-859b-10c7f170f482">CryptGetDefaultOIDFunctionAddress</a> that requires the DLL occurs before the 15 seconds elapse, the deferred unload process is canceled.
+If the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reference count</a> becomes zero and a DLL is loaded for the function being freed, the DLL might be unloaded. If the DLL exports the <a href="_com_dllcanunloadnow">DLLCanUnloadNow</a> function, that function is called and its return is checked. An S_FALSE return from this function cancels the unloading of the DLL at this time. If the function returns S_TRUE or if the DLL does not export the <b>DLLCanUnloadNow</b> function, an unloading process is started. In this case, actual unloading is deferred for 15 seconds. If another <b>CryptFreeOIDFunctionAddress</b> or <a href="https://msdn.microsoft.com/3977368c-ad13-43f9-859b-10c7f170f482">CryptGetDefaultOIDFunctionAddress</a> that requires the DLL occurs before the 15 seconds elapse, the deferred unload process is canceled.
 
 
 
@@ -106,11 +106,11 @@ If the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd"
 
 
 
-<a href="https://msdn.microsoft.com/library/ms690368(v=VS.85).aspx">DLLCanUnloadNow</a>
+<a href="_com_dllcanunloadnow">DLLCanUnloadNow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

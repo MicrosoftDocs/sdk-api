@@ -7,7 +7,7 @@ old-location: wsw\ws_parameter_type.htm
 old-project: wsw
 ms.assetid: c847940a-f97e-4605-a940-1d72de6a3695
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_PARAMETER_TYPE, WS_PARAMETER_TYPE enumeration [Web Services for Windows], WS_PARAMETER_TYPE_ARRAY, WS_PARAMETER_TYPE_ARRAY_COUNT, WS_PARAMETER_TYPE_MESSAGES, WS_PARAMETER_TYPE_NORMAL, webservices/WS_PARAMETER_TYPE, webservices/WS_PARAMETER_TYPE_ARRAY, webservices/WS_PARAMETER_TYPE_ARRAY_COUNT, webservices/WS_PARAMETER_TYPE_MESSAGES, webservices/WS_PARAMETER_TYPE_NORMAL, wsw.ws_parameter_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                The different parameter types.
+The different parameter types.
             
 
 
@@ -63,27 +62,23 @@ req.product: Windows Address Book 5.0
 
 ### -field WS_PARAMETER_TYPE_NORMAL
 
-
-                    Not an array type.
+Not an array type.
                 
 
 
 ### -field WS_PARAMETER_TYPE_ARRAY
 
-
-                    An array type.
+An array type.
                 
 
 
 ### -field WS_PARAMETER_TYPE_ARRAY_COUNT
 
-
-                    The array count.
+The array count.
                 
 
 
 ### -field WS_PARAMETER_TYPE_MESSAGES
 
-
-                    Parameter is a WSDL message element.
+Parameter is a WSDL message element.
 

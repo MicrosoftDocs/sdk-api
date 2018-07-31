@@ -7,7 +7,7 @@ old-location: xps\ixpsomimageresourcecollection.htm
 old-project: printdocs
 ms.assetid: aed8b23e-71fd-49e6-aae9-006a59e0111b
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMImageResourceCollection, IXpsOMImageResourceCollection interface [XPS Documents and Packaging], IXpsOMImageResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomimageresourcecollection, xpsobjectmodel/IXpsOMImageResourceCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IXpsOMImageResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/0932d81d-7577-4063-8207-d818164175eb">Append</a>
 </td>
 <td align="left" width="63%">
-
-              Appends an <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface to the end of the collection.
+Appends an <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface to the end of the collection.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IXpsOMImageResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface pointer from a specified location in the collection.
+Gets an <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface pointer from a specified location in the collection.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IXpsOMImageResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/559461b4-49c1-4dd9-a370-05bfc71b4f36">GetByPartName</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface pointer from the collection by matching the interface's part name.
+Gets an <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface pointer from the collection by matching the interface's part name.
             
 
 </td>
@@ -107,8 +104,7 @@ The <b>IXpsOMImageResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the number of <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface pointers in the collection.
+Gets the number of <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface pointers in the collection.
             
 
 </td>
@@ -118,8 +114,7 @@ The <b>IXpsOMImageResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/46bb3a49-f875-4b52-98f4-cec475f46019">InsertAt</a>
 </td>
 <td align="left" width="63%">
-
-              Inserts an <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface pointer at a specified location in the collection.
+Inserts an <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface pointer at a specified location in the collection.
             
 
 </td>
@@ -138,8 +133,7 @@ Removes and releases an <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a
 <a href="https://msdn.microsoft.com/f51b487e-10b0-4539-885b-f3b9af29dc28">SetAt</a>
 </td>
 <td align="left" width="63%">
-
-              Replaces an <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface pointer at a specified location in the collection.
+Replaces an <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1da-c8656ec09ba3">IXpsOMImageResource</a> interface pointer at a specified location in the collection.
             
 
 </td>

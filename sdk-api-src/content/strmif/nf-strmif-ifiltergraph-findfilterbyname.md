@@ -7,7 +7,7 @@ old-location: dshow\ifiltergraph_findfilterbyname.htm
 old-project: DirectShow
 ms.assetid: 59d90274-ac00-4e19-bcee-2282e26994b5
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: FindFilterByName, FindFilterByName method [DirectShow], FindFilterByName method [DirectShow],IFilterGraph interface, IFilterGraph interface [DirectShow],FindFilterByName method, IFilterGraph.FindFilterByName, IFilterGraph::FindFilterByName, IFilterGraphFindFilterByName, dshow.ifiltergraph_findfilterbyname, strmif/IFilterGraph::FindFilterByName
 ms.prod: windows
 ms.technology: windows-sdk

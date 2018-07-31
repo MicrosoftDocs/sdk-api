@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createdocumentstructureresource.htm
 old-project: printdocs
 ms.assetid: ce41c5fb-033d-4140-b7aa-4f28676f0ae6
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CreateDocumentStructureResource, CreateDocumentStructureResource method [XPS Documents and Packaging], CreateDocumentStructureResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateDocumentStructureResource method, IXpsOMObjectFactory.CreateDocumentStructureResource, IXpsOMObjectFactory::CreateDocumentStructureResource, xps.ixpsomobjectfactory_createdocumentstructureresource, xpsobjectmodel/IXpsOMObjectFactory::CreateDocumentStructureResource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Creates an <a href="https://msdn.microsoft.com/a0cc8748-08b2-4471-9961-603786e98
 
 ### -param acquiredStream [in]
 
-
-            The read-only <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>   interface to be associated with this resource. This parameter must not be <b>NULL</b>.
+The read-only <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>   interface to be associated with this resource. This parameter must not be <b>NULL</b>.
 
 <div class="alert"><b>Important</b>  Treat this stream as a Single-Threaded Apartment (STA) object; do not re-enter it.</div>
 <div> </div>
@@ -74,8 +73,7 @@ The <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IO
 
 ### -param documentStructureResource [out, retval]
 
-
-            A pointer to the new <a href="https://msdn.microsoft.com/a0cc8748-08b2-4471-9961-603786e983a4">IXpsOMDocumentStructureResource</a> interface.
+A pointer to the new <a href="https://msdn.microsoft.com/a0cc8748-08b2-4471-9961-603786e983a4">IXpsOMDocumentStructureResource</a> interface.
 
 
 ## -returns

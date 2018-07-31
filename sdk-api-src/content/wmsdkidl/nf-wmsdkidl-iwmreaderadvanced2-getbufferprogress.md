@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced2_getbufferprogress.htm
 old-project: wmformat
 ms.assetid: e0419f53-9962-4d81-9153-0538c60861eb
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetBufferProgress, GetBufferProgress method [windows Media Format], GetBufferProgress method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetBufferProgress method, IWMReaderAdvanced2.GetBufferProgress, IWMReaderAdvanced2::GetBufferProgress, IWMReaderAdvanced2GetBufferProgress, wmformat.iwmreaderadvanced2_getbufferprogress, wmsdkidl/IWMReaderAdvanced2::GetBufferProgress
 ms.prod: windows
 ms.technology: windows-sdk

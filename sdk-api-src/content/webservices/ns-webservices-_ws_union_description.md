@@ -7,7 +7,7 @@ old-location: wsw\ws_union_description.htm
 old-project: wsw
 ms.assetid: 04eddc88-f0ba-4a0b-8078-12c0d955d055
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_UNION_DESCRIPTION, WS_UNION_DESCRIPTION structure [Web Services for Windows], _WS_UNION_DESCRIPTION, webservices/WS_UNION_DESCRIPTION, wsw.ws_union_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Information about the choices within a union type.
+Information about the choices within a union type.
                 This is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_UNION_TYPE</a>.
             
 
@@ -64,35 +63,30 @@ req.product: Windows Address Book 5.0
 
 ### -field size
 
-
-                    The size in bytes of the structure.
+The size in bytes of the structure.
                 
 
 
 ### -field alignment
 
-
-                    The alignment requirement of the structure.  This must be a power
+The alignment requirement of the structure.  This must be a power
                     of two between 1 and 8.
                 
 
 
 ### -field fields
 
-
-                    An array of pointers to the descriptions of the fields of the union.
+An array of pointers to the descriptions of the fields of the union.
                 
 
-
-                    See the Remarks section for information about ordering of the fields
+See the Remarks section for information about ordering of the fields
                     in this array.
                 
 
 
 ### -field fieldCount
 
-
-                    The number of fields in the fields array.  Any part of the structure
+The number of fields in the fields array.  Any part of the structure
                     that is not represented by a field will be left uninitialized.
                     Fields descriptions may reference the same offset of the structure
                     (for example if they are all part of a single union).
@@ -101,8 +95,7 @@ req.product: Windows Address Book 5.0
 
 ### -field enumOffset
 
-
-                    The offset of the enumeration field which controls which choice is
+The offset of the enumeration field which controls which choice is
                     selected within the union.  The size of the field is assumed to be
                     the size of an enumeration (32-bit signed integer).
                 
@@ -110,8 +103,7 @@ req.product: Windows Address Book 5.0
 
 ### -field noneEnumValue
 
-
-                    This value corresponds to the enum value used when none of the
+This value corresponds to the enum value used when none of the
                     choices are currently set.  This field is only used when the
                     field is optional (<a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONAL</a> was specified).
                 
@@ -119,16 +111,14 @@ req.product: Windows Address Book 5.0
 
 ### -field valueIndices
 
-
-                    This optional array provides information which can improve
+This optional array provides information which can improve
                     the performance of looking up fields of the union either by
                     element or by enum value.  This array may <b>NULL</b>, in which case 
                     an O(n) lookup is used, which may be sufficient for small 
                     numbers of fields.
                 
 
-
-                    If non-<b>NULL</b>, the following must be true:
+If non-<b>NULL</b>, the following must be true:
                 
 
 <ul>
@@ -148,8 +138,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                This description assumes a structure which contains both the 
+This description assumes a structure which contains both the 
                 selector value (an integer enumerated value) and a union which
                 contains a field which corresponds to each of the possible
                 choices, for example:
@@ -173,8 +162,7 @@ struct StructType
         WS_STRING b;
     } value;
 };</code></pre>
-
-                The following examples illustrates initializing a union description
+The following examples illustrates initializing a union description
                 for the previous example.  This example fills out the nameIndices 
                 field, but this field could be <b>NULL</b> instead.
             
@@ -222,8 +210,7 @@ unionDescription.enumOffset = WsOffsetOf(StructType, choice);
 unionDescription.noneEnumValue = None;
 unionDescription.valueIndices = valueIndices;
 </code></pre>
-
-                The above would allow either of the following elements to
+The above would allow either of the following elements to
                 appear:
             
 
@@ -231,8 +218,7 @@ unionDescription.valueIndices = valueIndices;
 &lt;choiceA xmlns="http://example.com/a"&gt;123&lt;/choiceA&gt;
 &lt;choiceB xmlns="http://example.com/b"&gt;hello&lt;/choiceB&gt;
 </code></pre>
-
-                The following is an example of setting values:
+The following is an example of setting values:
             
 
 <pre class="syntax" xml:space="preserve"><code>StructType structType;
@@ -249,9 +235,7 @@ structType.value.b = helloString;
 // Set "none" choice
 structType.choice = None;
 </code></pre>
-
-                The following is the grammar describing the order of the <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a>
-                that make up a <b>WS_UNION_DESCRIPTION</b>.  The order is defined based on the
+The following is the grammar describing the order of the <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a>that make up a <b>WS_UNION_DESCRIPTION</b>.  The order is defined based on the
                 mapping field of the <b>WS_FIELD_DESCRIPTION</b>.
             
 
@@ -261,18 +245,14 @@ ElementContentFields := (ElementField | RepeatingElementField)*
 ElementField := WS_ELEMENT_FIELD_MAPPING
 RepeatingElementField := WS_REPEATING_ELEMENT_FIELD_MAPPING
 AnyElementField := WS_ANY_ELEMENT_FIELD_MAPPING</code></pre>
-
-                The <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a> and <b>WS_REPEATING_ELEMENT_FIELD_MAPPING</b>
-                represent the element choices and their corresponding fields in the union.
+The <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ELEMENT_FIELD_MAPPING</a> and <b>WS_REPEATING_ELEMENT_FIELD_MAPPING</b>represent the element choices and their corresponding fields in the union.
             
 
-
-                The <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ANY_ELEMENT_FIELD_MAPPING</a> is the field used when none of the
+The <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ANY_ELEMENT_FIELD_MAPPING</a> is the field used when none of the
                 other elements matched.
             
 
-
-               The following restrictions apply to the field descriptions:
+The following restrictions apply to the field descriptions:
             
 
 <ul>

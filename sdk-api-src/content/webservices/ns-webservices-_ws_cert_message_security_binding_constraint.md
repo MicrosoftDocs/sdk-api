@@ -7,7 +7,7 @@ old-location: wsw\ws_cert_message_security_binding_constraint.htm
 old-project: wsw
 ms.assetid: 81f42654-8f94-4231-a798-67fbbe46e812
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT, WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], _WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT, webservices/WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT, wsw.ws_cert_message_security_binding_constraint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                A security binding constraint that can be used with 
+A security binding constraint that can be used with 
                 <a href="https://msdn.microsoft.com/5ca1e67a-11f5-44bb-afe8-c934837d711b">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a>.
             
 
@@ -64,19 +63,16 @@ req.product: Windows Address Book 5.0
 
 ### -field bindingConstraint
 
-
-                    The base binding constraint that this binding constraint derives from.
+The base binding constraint that this binding constraint derives from.
                 
 
-
-                    There are currently no binding-specific properties defined for this binding constraint.
+There are currently no binding-specific properties defined for this binding constraint.
                 
 
 
 ### -field bindingUsage
 
-
-                    This specifies how the security token corresponding to this security 
+This specifies how the security token corresponding to this security 
                     binding should be attached to a message.
                 
 

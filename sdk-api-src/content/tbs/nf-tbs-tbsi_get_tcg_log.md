@@ -4,10 +4,10 @@ title: Tbsi_Get_TCG_Log function
 author: windows-sdk-content
 description: Retrieves the most recent Windows Boot Configuration Log (WBCL), also referred to as a TCG log.
 old-location: tbs\tbsi_get_tcg_log.htm
-old-project: tbs
+old-project: TBS
 ms.assetid: f52c71fd-383b-4c32-9b49-8904ffb692c1
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: Tbsi_Get_TCG_Log, Tbsi_Get_TCG_Log function [TBS], tbs.tbsi_get_tcg_log, tbs/Tbsi_Get_TCG_Log
 ms.prod: windows
 ms.technology: windows-sdk

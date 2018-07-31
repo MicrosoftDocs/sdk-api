@@ -7,7 +7,7 @@ old-location: xps\ixpsomtilebrush.htm
 old-project: printdocs
 ms.assetid: fc9e1925-0dbc-447b-9acc-e7f719df62d1
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMTileBrush, IXpsOMTileBrush interface [XPS Documents and Packaging], IXpsOMTileBrush interface [XPS Documents and Packaging],described, xps.ixpsomtilebrush, xpsobjectmodel/IXpsOMTileBrush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ The <b>IXpsOMTileBrush</b> interface has these methods.
 <a href="https://msdn.microsoft.com/4f39a728-9f27-4137-96eb-8f10e6e002cd">GetTileMode</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <a href="https://msdn.microsoft.com/59434771-6402-4b0f-b8b6-58a4dda0f836">XPS_TILE_MODE</a> value that describes the tile mode of the brush.
+Gets the <a href="https://msdn.microsoft.com/59434771-6402-4b0f-b8b6-58a4dda0f836">XPS_TILE_MODE</a> value that describes the tile mode of the brush.
             
 
 </td>
@@ -87,8 +86,7 @@ The <b>IXpsOMTileBrush</b> interface has these methods.
 <a href="https://msdn.microsoft.com/db4c4ef8-d5f4-4cff-b38d-d211e14a98c1">GetTransform</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface that contains the resolved matrix transform for the brush.
+Gets a pointer to the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface that contains the resolved matrix transform for the brush.
             
 
 </td>
@@ -98,8 +96,7 @@ The <b>IXpsOMTileBrush</b> interface has these methods.
 <a href="https://msdn.microsoft.com/e06661dd-387c-46c4-8c37-f4e101d3c536">GetTransformLocal</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface that contains the local, unshared resolved matrix transform for the brush.
+Gets a pointer to the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface that contains the local, unshared resolved matrix transform for the brush.
             
 
 </td>
@@ -109,8 +106,7 @@ The <b>IXpsOMTileBrush</b> interface has these methods.
 <a href="https://msdn.microsoft.com/bebed09b-7af7-4da1-aaa3-e8e2a45f2717">GetTransformLookup</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the lookup key that identifies the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface in a resource dictionary that contains the resolved matrix transform for the brush.
+Gets the lookup key that identifies the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface in a resource dictionary that contains the resolved matrix transform for the brush.
             
 
 </td>
@@ -138,8 +134,7 @@ Gets the portion of  the destination geometry that is covered by a single tile.
 <a href="https://msdn.microsoft.com/5901e5ec-1907-404b-b1a8-a00e13d3eab8">SetTileMode</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <a href="https://msdn.microsoft.com/59434771-6402-4b0f-b8b6-58a4dda0f836">XPS_TILE_MODE</a> value that describes the tiling mode of the brush.
+Sets the <a href="https://msdn.microsoft.com/59434771-6402-4b0f-b8b6-58a4dda0f836">XPS_TILE_MODE</a> value that describes the tiling mode of the brush.
             
 
 </td>
@@ -149,8 +144,7 @@ Gets the portion of  the destination geometry that is covered by a single tile.
 <a href="https://msdn.microsoft.com/a0a0f0e9-d8b5-4b42-804b-66780f56b09a">SetTransformLocal</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface pointer to a local, unshared matrix transform.
+Sets the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface pointer to a local, unshared matrix transform.
             
 
 </td>

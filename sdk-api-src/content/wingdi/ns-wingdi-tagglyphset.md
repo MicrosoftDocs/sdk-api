@@ -7,7 +7,7 @@ old-location: gdi\glyphset.htm
 old-project: gdi
 ms.assetid: b8ac8d3f-b062-491c-966f-02f3d4c11419
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPGLYPHSET, *PGLYPHSET, GLYPHSET, GLYPHSET structure [Windows GDI], PGLYPHSET, PGLYPHSET structure pointer [Windows GDI], _win32_GLYPHSET_str, gdi.glyphset, tagGLYPHSET, wingdi/GLYPHSET, wingdi/PGLYPHSET"
 ms.prod: windows
 ms.technology: windows-sdk

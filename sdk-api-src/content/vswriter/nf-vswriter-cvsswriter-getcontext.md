@@ -4,10 +4,10 @@ title: CVssWriter::GetContext
 author: windows-sdk-content
 description: The GetContext information returns the current context for any ongoing or possible shadow copies.
 old-location: base\cvsswriter_getcontext.htm
-old-project: vss
+old-project: VSS
 ms.assetid: efe2f43b-fbcf-4b30-a6d4-31d563d321c5
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: CVssWriter interface [VSS],GetContext method, CVssWriter.GetContext, CVssWriter::GetContext, GetContext, GetContext method [VSS], GetContext method [VSS],CVssWriter interface, _win32_cvsswriter_getcontext, base.cvsswriter_getcontext, vswriter/CVssWriter::GetContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ A requester can set the context for a shadow copy by calling
 <a href="https://msdn.microsoft.com/3cc6c375-8a24-4af3-b4ad-5a695cc2645c">IVssBackupComponents::DoSnapshotSet</a>.
 
 
-<a href="https://msdn.microsoft.com/3cc6c375-8a24-4af3-b4ad-5a695cc2645c">IVssBackupComponents::DoSnapshotSet</a> generates a number of events (<a href="https://msdn.microsoft.com/library/Aa384664(v=VS.85).aspx">PrepareForSnapshot</a>, <a href="https://msdn.microsoft.com/library/Aa384656(v=VS.85).aspx">Freeze</a>, <a href="https://msdn.microsoft.com/library/Aa384668(v=VS.85).aspx">Thaw</a>, <a href="https://msdn.microsoft.com/library/Aa384664(v=VS.85).aspx">PostSnapshot</a>), the first of which is <i>PrepareForSnapshot</i>.
+<a href="https://msdn.microsoft.com/3cc6c375-8a24-4af3-b4ad-5a695cc2645c">IVssBackupComponents::DoSnapshotSet</a> generates a number of events (<a href="vssgloss_p.htm">PrepareForSnapshot</a>, <a href="vssgloss_f.htm">Freeze</a>, <a href="vssgloss_t.htm">Thaw</a>, <a href="vssgloss_p.htm">PostSnapshot</a>), the first of which is <i>PrepareForSnapshot</i>.
 
 Therefore, if a writer is participating in a shadow copy operation, a definitive value of that shadow copy's context cannot be found when 
 <b>GetContext</b> is called prior to 

@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamlist.htm
 old-project: wmformat
 ms.assetid: 076bb0bf-3cf8-48b4-bfca-abbd9c1bf211
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMStreamList, IWMStreamList interface [windows Media Format], IWMStreamList interface [windows Media Format],described, IWMStreamListInterface, wmformat.iwmstreamlist, wmsdkidl/IWMStreamList
 ms.prod: windows
 ms.technology: windows-sdk

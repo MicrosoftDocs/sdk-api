@@ -7,7 +7,7 @@ old-location: wsw\wsendwritercanonicalization.htm
 old-project: wsw
 ms.assetid: 169f971e-0cd2-44e7-81fc-059cc3cd357d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsEndWriterCanonicalization, WsEndWriterCanonicalization function [Web Services for Windows], webservices/WsEndWriterCanonicalization, wsw.wsendwritercanonicalization
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        This function stops XML canonicalization started by the preceding <a href="https://msdn.microsoft.com/e9ea26d6-a136-4103-ac67-42e943ea67b5">WsStartWriterCanonicalization</a> call.
+This function stops XML canonicalization started by the preceding <a href="https://msdn.microsoft.com/e9ea26d6-a136-4103-ac67-42e943ea67b5">WsStartWriterCanonicalization</a> call.
       Remaining canonical bytes buffered by the writer are written to the callback function.
 
 
@@ -63,8 +62,7 @@ req.product: Windows Address Book 5.0
 
 ### -param writer [in]
 
-
-          A pointer to a  <a href="https://msdn.microsoft.com/8f413e60-8a30-492c-8f2d-80be511fee11">WS_XML_WRITER</a> object on which canonicalization should be stopped.
+A pointer to a  <a href="https://msdn.microsoft.com/8f413e60-8a30-492c-8f2d-80be511fee11">WS_XML_WRITER</a> object on which canonicalization should be stopped.
 
 
 ### -param error [in, optional]
@@ -91,7 +89,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -103,7 +100,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>
@@ -122,9 +118,7 @@ The operation is not allowed due to the current state of the object.
         which <a href="https://msdn.microsoft.com/e9ea26d6-a136-4103-ac67-42e943ea67b5">WsStartWriterCanonicalization</a> was called.
       
 
-
-        It is not necessary to call <b>WsEndWriterCanonicalization</b>
-        in order to call <a href="https://msdn.microsoft.com/eb1eb835-838a-41e4-9e7d-c5c805237f65">WsFreeWriter</a>.
+It is not necessary to call <b>WsEndWriterCanonicalization</b>in order to call <a href="https://msdn.microsoft.com/eb1eb835-838a-41e4-9e7d-c5c805237f65">WsFreeWriter</a>.
       
 
 

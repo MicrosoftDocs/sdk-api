@@ -4,10 +4,10 @@ title: "_PROCESSOR_POWER_POLICY"
 author: windows-sdk-content
 description: Contains information about processor performance control and C-states.
 old-location: base\processor_power_policy_str.htm
-old-project: power
+old-project: Power
 ms.assetid: ea1eae62-26b4-4f5d-a9ca-0a7bb463b90a
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: "*PPROCESSOR_POWER_POLICY, PPROCESSOR_POWER_POLICY, PPROCESSOR_POWER_POLICY structure pointer, PROCESSOR_POWER_POLICY, PROCESSOR_POWER_POLICY structure, _PROCESSOR_POWER_POLICY, _win32_processor_power_policy_str, base.processor_power_policy_str, winnt/PPROCESSOR_POWER_POLICY, winnt/PROCESSOR_POWER_POLICY"
 ms.prod: windows
 ms.technology: windows-sdk

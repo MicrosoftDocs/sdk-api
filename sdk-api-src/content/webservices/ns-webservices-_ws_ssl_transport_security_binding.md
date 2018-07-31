@@ -7,7 +7,7 @@ old-location: wsw\ws_ssl_transport_security_binding.htm
 old-project: wsw
 ms.assetid: 078efc1d-a1bc-4035-919c-f927a8ceb8e6
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SSL_TRANSPORT_SECURITY_BINDING, WS_SSL_TRANSPORT_SECURITY_BINDING structure [Web Services for Windows], _WS_SSL_TRANSPORT_SECURITY_BINDING, webservices/WS_SSL_TRANSPORT_SECURITY_BINDING, wsw.ws_ssl_transport_security_binding
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,16 +51,13 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 The security binding subtype for specifying the use of SSL/TLS
 protocol based transport security.
             
 
-
-                This security binding is supported only with the
+This security binding is supported only with the
                 <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>.
             
-
 
 With this security binding, the following security binding properties may be specified:
 <ul>
@@ -85,24 +82,20 @@ With this security binding, the following security binding properties may be spe
 
 ### -field binding
 
-
 The base type from which this security binding subtype and all other security binding subtypes derive.
                 
 
 
 ### -field localCertCredential
 
-
 The local certificate credential to be used with this security binding.
                 
-
 
 Server side: When SSL is used for transport security with <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>, the server certificate must be
 registered by the application using the httpcfg
 tool and this field must be set to <b>NULL</b>.  In all other cases, the
 server SSL certificate must be specified using this field.
                 
-
 
 Client side: If a client certificate is to be used with SSL, it must
 be specified using this field.  If no client certificate is to be

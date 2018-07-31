@@ -7,7 +7,7 @@ old-location: mstv\idigitalcabletuningspace.htm
 old-project: mstv
 ms.assetid: a0788405-5502-4d6a-8f94-9957859ac1af
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IDigitalCableTuningSpace, IDigitalCableTuningSpace interface [Microsoft TV Technologies], IDigitalCableTuningSpace interface [Microsoft TV Technologies],described, IDigitalCableTuningSpaceInterface, mstv.idigitalcabletuningspace, tuner/IDigitalCableTuningSpace
 ms.prod: windows
 ms.technology: windows-sdk
@@ -151,12 +151,10 @@ Sets the lowest source identifier for this tuning space.
 
 
 
-
-        To set minimum and maximum values for the virtual channel number, use the <a href="https://msdn.microsoft.com/e0e348a6-a536-4c1b-82ba-c2502c5d92c0">IAnalogTVTuningSpace::put_MinChannel</a> and <a href="https://msdn.microsoft.com/2a559069-0d8a-4904-b0de-0573b4c0d273">IAnalogTVTuningSpace::put_MaxChannel</a> methods. (This interface inherits <a href="https://msdn.microsoft.com/2b531f09-bf2e-4eb2-abcf-60f64cbee17b">IAnalogTVTuningSpace</a> through <a href="https://msdn.microsoft.com/313508e5-a9b2-42b8-bb2f-d191944d0939">IATSCTuningSpace</a>.)
+To set minimum and maximum values for the virtual channel number, use the <a href="https://msdn.microsoft.com/e0e348a6-a536-4c1b-82ba-c2502c5d92c0">IAnalogTVTuningSpace::put_MinChannel</a> and <a href="https://msdn.microsoft.com/2a559069-0d8a-4904-b0de-0573b4c0d273">IAnalogTVTuningSpace::put_MaxChannel</a> methods. (This interface inherits <a href="https://msdn.microsoft.com/2b531f09-bf2e-4eb2-abcf-60f64cbee17b">IAnalogTVTuningSpace</a> through <a href="https://msdn.microsoft.com/313508e5-a9b2-42b8-bb2f-d191944d0939">IATSCTuningSpace</a>.)
       
 
-
-        To set minimum and maximum values for the minor channel number, use the <a href="https://msdn.microsoft.com/71ae8be2-8e80-49ff-9d1b-be42a620c20c">IATSCTuningSpace::put_MinMinorChannel</a> and <a href="https://msdn.microsoft.com/e90b78da-abd5-40bc-8d88-8a257acabe23">IATSCTuningSpace::put_MaxMinorChannel</a> methods.
+To set minimum and maximum values for the minor channel number, use the <a href="https://msdn.microsoft.com/71ae8be2-8e80-49ff-9d1b-be42a620c20c">IATSCTuningSpace::put_MinMinorChannel</a> and <a href="https://msdn.microsoft.com/e90b78da-abd5-40bc-8d88-8a257acabe23">IATSCTuningSpace::put_MaxMinorChannel</a> methods.
       
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IDigitalCableTuningSpace)</code>.

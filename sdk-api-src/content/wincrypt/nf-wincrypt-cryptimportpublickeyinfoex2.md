@@ -4,10 +4,10 @@ title: CryptImportPublicKeyInfoEx2 function
 author: windows-sdk-content
 description: Imports a public key into the CNG asymmetric provider that corresponds to the public key object identifier (OID) and returns a CNG handle to the key.
 old-location: security\cryptimportpublickeyinfoex2.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: c73f2499-75e9-4146-ae4c-0e949206ea37
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG, CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG, CryptImportPublicKeyInfoEx2, CryptImportPublicKeyInfoEx2 function [Security], X509_ASN_ENCODING, security.cryptimportpublickeyinfoex2, wincrypt/CryptImportPublicKeyInfoEx2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -144,8 +144,7 @@ When this handle is no longer needed, you must release it by calling the <a href
 
 
 
-
-						If the function succeeds, the function returns nonzero (<b>TRUE</b>).
+If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Possible error codes include, but are not limited to, the following.

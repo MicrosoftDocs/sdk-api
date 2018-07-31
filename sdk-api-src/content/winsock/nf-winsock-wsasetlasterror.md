@@ -4,10 +4,10 @@ title: WSASetLastError function
 author: windows-sdk-content
 description: The WSASetLastError function sets the error code that can be retrieved through the WSAGetLastError function.
 old-location: winsock\wsasetlasterror_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 596155ee-3dcc-4ae3-97ab-0653e019cbee
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: WSASetLastError, WSASetLastError function [Winsock], _win32_wsasetlasterror_2, winsock.wsasetlasterror_2, winsock/WSASetLastError
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>WSASetLastError</b> function sets the error code that can be retrieved through the 
 <a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a> function.
 
@@ -72,8 +71,7 @@ Integer that specifies the error code to be returned by a subsequent
 
 
 
-
-						This function generates no return values.
+This function generates no return values.
 
 <table>
 <tr>
@@ -83,7 +81,7 @@ Integer that specifies the error code to be returned by a subsequent
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">

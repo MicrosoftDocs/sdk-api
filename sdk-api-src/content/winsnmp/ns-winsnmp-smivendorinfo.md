@@ -4,10 +4,10 @@ title: smiVENDORINFO
 author: windows-sdk-content
 description: The smiVENDORINFO structure contains information about the Microsoft WinSNMP implementation.
 old-location: snmp\smivendorinfo_str.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: 78b7b736-f68a-456a-9178-9a5b40e3bc8d
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: "*smiLPVENDORINFO, _snmp_smivendorinfo_str, smiLPVENDORINFO, smiLPVENDORINFO structure pointer [SNMP], smiVENDORINFO, smiVENDORINFO structure [SNMP], snmp.smivendorinfo_str, winsnmp/smiLPVENDORINFO, winsnmp/smiVENDORINFO"
 ms.prod: windows
 ms.technology: windows-sdk

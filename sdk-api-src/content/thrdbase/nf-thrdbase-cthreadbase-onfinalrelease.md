@@ -7,7 +7,7 @@ old-location: wmi\cthreadbase_onfinalrelease.htm
 old-project: WmiSdk
 ms.assetid: a17a379d-60ba-4a76-8900-58fabadad5ea
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: "?OnFinalRelease@CThreadBase@@MAEXXZ, ?OnFinalRelease@CThreadBase@@MEAAXXZ, CThreadBase interface [Windows Management Instrumentation],OnFinalRelease method, CThreadBase.OnFinalRelease, CThreadBase::OnFinalRelease, OnFinalRelease, OnFinalRelease method [Windows Management Instrumentation], OnFinalRelease method [Windows Management Instrumentation],CThreadBase interface, thrdbase/CThreadBase::OnFinalRelease, wmi.cthreadbase_onfinalrelease"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: Windows XP with SP1 and later
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
 
-The <b>OnFinalRelease</b>  method  is a virtual function called by <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">Release</a> when the reference count reaches zero. <a href="https://msdn.microsoft.com/0511cd5b-f791-4821-8d75-23b0635e2266">CThreadBase</a> is called internally.
+The <b>OnFinalRelease</b>  method  is a virtual function called by <a href="_com_iunknown_release">Release</a> when the reference count reaches zero. <a href="https://msdn.microsoft.com/0511cd5b-f791-4821-8d75-23b0635e2266">CThreadBase</a> is called internally.
 
 
 ## -parameters

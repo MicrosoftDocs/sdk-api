@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_token_message_security_binding.htm
 old-project: wsw
 ms.assetid: 5ca1e67a-11f5-44bb-afe8-c934837d711b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_TOKEN_MESSAGE_SECURITY_BINDING, WS_XML_TOKEN_MESSAGE_SECURITY_BINDING structure [Web Services for Windows], _WS_XML_TOKEN_MESSAGE_SECURITY_BINDING, webservices/WS_XML_TOKEN_MESSAGE_SECURITY_BINDING, wsw.ws_xml_token_message_security_binding
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,6 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 The security binding subtype for specifying the use of a security
 token that is already available to the application in XML form.  The
 security token that is supplied by the application in this binding is
@@ -61,10 +60,7 @@ bindingUsage specified.  This security binding may be included in a
 client side.
             
 
-
-            
-          This security binding is not supported with the <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_NAMEDPIPE_CHANNEL_BINDING</a>.
-
+This security binding is not supported with the <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_NAMEDPIPE_CHANNEL_BINDING</a>.
 
 Although this binding can be used with any token available in XML
 form, this is commonly used in <a href="https://msdn.microsoft.com/574496df-95dc-45f7-8c42-e646aec12e69">federation
@@ -73,7 +69,6 @@ CardSpace may be used to get a token from a security token service,
 and that token may then be presented to a Web Service using this
 security binding.
             
-
 
 Security note: As with other security tokens and credentials, the
 application is in charge of the risk assessment decision to disclose a
@@ -97,7 +92,6 @@ the 'To' header, limiting their applicability to the intended 'To' for
 a narrow time duration.
             
 
-
 With this security binding, no security binding properties may be specified:
             
 
@@ -109,13 +103,11 @@ With this security binding, no security binding properties may be specified:
 
 ### -field binding
 
-
 The base type from which this security binding subtype and all other security binding subtypes derive.
                 
 
 
 ### -field bindingUsage
-
 
 How the security token corresponding to this security binding should be bound to a message.
                 
@@ -130,7 +122,6 @@ channel.
 
 
 ### -field xmlToken
-
 
 The XML security token to be used.  This token may be created using <a href="https://msdn.microsoft.com/1d82c6c3-2bcf-4883-aed7-1a163bbb2228">WsCreateXmlSecurityToken</a> or obtained from a security token
 service using <a href="https://msdn.microsoft.com/ee754a7d-73a9-49ae-afc7-b443fbbe0cce">WsRequestSecurityToken</a>.  When this binding is

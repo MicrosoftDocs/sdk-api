@@ -7,7 +7,7 @@ old-location: gdi\getkerningpairs.htm
 old-project: gdi
 ms.assetid: 9aba629f-afab-4ef3-8e1d-d0b90e122e94
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetKerningPairs, GetKerningPairs function [Windows GDI], GetKerningPairsA, GetKerningPairsW, _win32_GetKerningPairs, gdi.getkerningpairs, wingdi/GetKerningPairs, wingdi/GetKerningPairsA, wingdi/GetKerningPairsW
 ms.prod: windows
 ms.technology: windows-sdk

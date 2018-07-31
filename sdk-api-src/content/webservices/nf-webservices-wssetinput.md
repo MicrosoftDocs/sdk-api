@@ -7,7 +7,7 @@ old-location: wsw\wssetinput.htm
 old-project: wsw
 ms.assetid: d7ac5233-266e-4ca1-aa58-e50b385b48bb
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsSetInput, WsSetInput function [Web Services for Windows], webservices/WsSetInput, wsw.wssetinput
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,15 +65,13 @@ Sets the encoding and input sources for an XML  Reader.
 
 ### -param reader [in]
 
-
-          A pointer to the <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acbbc13cfcfd">WS_XML_READER</a> object for which the input will be set.
+A pointer to the <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acbbc13cfcfd">WS_XML_READER</a> object for which the input will be set.
         
 
 
 ### -param encoding [in, optional]
 
-
-          A to an encoding value that describes the format of the input bytes.  This value should be one of:<ul>
+A to an encoding value that describes the format of the input bytes.  This value should be one of:<ul>
 <li>
 <a href="https://msdn.microsoft.com/ffb351d7-36dc-44ce-8a5e-ee452ca8b4e6">WS_XML_READER_TEXT_ENCODING</a>
 </li>
@@ -94,8 +92,7 @@ A pointer to a <a href="https://msdn.microsoft.com/1e7a708d-5dcf-44ec-b781-a3494
 
 ### -param properties
 
-
-          An array reference of optional Reader properties.  
+An array reference of optional Reader properties.  
 
 
 ### -param propertyCount [in]
@@ -122,8 +119,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-
-        When <b>WsSetInput</b> is used on the XML Reader, the reader will function in a forward only manner and
+When <b>WsSetInput</b> is used on the XML Reader, the reader will function in a forward only manner and
         the functions <a href="https://msdn.microsoft.com/91e543f3-7325-4a90-9b99-c98918478853">WsGetReaderPosition</a>, <a href="https://msdn.microsoft.com/cc879cc0-c8ca-457e-9ff1-ae220e31cb04">WsSetReaderPosition</a> and <a href="https://msdn.microsoft.com/63d18407-f82b-4884-a162-2c8163e883e1">WsMoveReader</a> cannot be used.
       
 

@@ -7,7 +7,7 @@ old-location: wsw\ws_windows_integrated_auth_credential.htm
 old-project: wsw
 ms.assetid: 78df2636-439b-4e55-8ca5-dc0f4f4ad745
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL structure [Web Services for Windows], _WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, webservices/WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, wsw.ws_windows_integrated_auth_credential
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,6 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 The abstract base type for all credential types used with Windows
 Integrated Authentication.
             
@@ -63,7 +62,6 @@ Integrated Authentication.
 
 
 ### -field credentialType
-
 
 The selector for the type of the Windows credential.
                 

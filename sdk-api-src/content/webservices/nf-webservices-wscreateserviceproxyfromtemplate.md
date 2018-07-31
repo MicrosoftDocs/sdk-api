@@ -7,7 +7,7 @@ old-location: wsw\wscreateserviceproxyfromtemplate.htm
 old-project: wsw
 ms.assetid: 09a6ee60-ffed-4bab-8747-61c9fee69695
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCreateServiceProxyFromTemplate, WsCreateServiceProxyFromTemplate function [Web Services for Windows], webservices/WsCreateServiceProxyFromTemplate, wsw.wscreateserviceproxyfromtemplate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-        Helper routine for creating a <a href="https://msdn.microsoft.com/e1a5bf5e-dbc1-43e3-981b-7db4caa08bdc">service proxy</a> from policy templates.
+Helper routine for creating a <a href="https://msdn.microsoft.com/e1a5bf5e-dbc1-43e3-981b-7db4caa08bdc">service proxy</a> from policy templates.
       
 
 
@@ -66,8 +65,7 @@ req.product: Windows Address Book 5.0
 
 ### -param channelType [in]
 
-
-          A <a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">WS_CHANNEL_TYPE</a> enumeration value representing the channel type for the service proxy. 
+A <a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">WS_CHANNEL_TYPE</a> enumeration value representing the channel type for the service proxy. 
         
 
 
@@ -87,15 +85,13 @@ The number of properties in the <i>properties</i> array.
 
 ### -param templateType [in]
 
-
-          A <a href="https://msdn.microsoft.com/831001f4-619d-4128-a645-85077701c28c">WS_BINDING_TEMPLATE_TYPE</a> enumeration value representing the type of templates  used to create the service proxy.
+A <a href="https://msdn.microsoft.com/831001f4-619d-4128-a645-85077701c28c">WS_BINDING_TEMPLATE_TYPE</a> enumeration value representing the type of templates  used to create the service proxy.
         Please see the <b>Remarks</b> for more information.
 
 
 ### -param templateValue
 
-
-          The optional template structure to be created and filled in by an application.
+The optional template structure to be created and filled in by an application.
           This template structure must be consistent with the input template type (in the <i>templateType</i>). When <i>templateValue</i> parameter is <b>NULL</b>, 
           it is equivalent to the corresponding template structure initialized to zero.
         Please see the <b>Remarks</b> for more information.
@@ -109,25 +105,19 @@ The size, in bytes, of the template structure (in the  <i>templateValue</i> para
 
 ### -param templateDescription [in]
 
-
-          The description of <i>templateValue</i>. This must match <i>templateType</i>.
+The description of <i>templateValue</i>. This must match <i>templateType</i>.
         Please see the <b>Remarks</b> for more information.
 
 
 ### -param templateDescriptionSize [in]
 
-
-          The size of the template description.
+The size of the template description.
         
 
 
 ### -param serviceProxy
 
-
-
-        
-
-                On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/623766ae-fe82-40f9-93c8-e78fe48bc6d1">WS_SERVICE_PROXY</a> structure representing the new service proxy.
+On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/623766ae-fe82-40f9-93c8-e78fe48bc6d1">WS_SERVICE_PROXY</a> structure representing the new service proxy.
                 
                 When you no longer need this structure, you must free it by calling <a href="https://msdn.microsoft.com/fb200cf8-c1d4-4a97-afef-f7c4ed5efb10">WsFreeServiceProxy</a>.
       
@@ -135,8 +125,7 @@ The size, in bytes, of the template structure (in the  <i>templateValue</i> para
 
 ### -param error [in, optional]
 
-
-          Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
                 
                 
 

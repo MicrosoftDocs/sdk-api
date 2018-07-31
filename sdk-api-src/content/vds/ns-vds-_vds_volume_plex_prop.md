@@ -4,10 +4,10 @@ title: "_VDS_VOLUME_PLEX_PROP"
 author: windows-sdk-content
 description: Defines the properties of a volume plex object.
 old-location: base\vds_volume_plex_prop.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 225cdc5e-045b-407f-b383-8f92025fbbd6
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: "*PVDS_VOLUME_PLEX_PROP, PVDS_VOLUME_PLEX_PROP, PVDS_VOLUME_PLEX_PROP structure pointer [VDS], VDS_VOLUME_PLEX_PROP, VDS_VOLUME_PLEX_PROP structure [VDS], _VDS_VOLUME_PLEX_PROP, base.vds_volume_plex_prop, vds/PVDS_VOLUME_PLEX_PROP, vds/_VDS_VOLUME_PLEX_PROP"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,8 +105,7 @@ The number of members in the volume plex. A plex member is a collection of conca
 
 
 
-The <a href="https://msdn.microsoft.com/b5b6c141-3e9d-4e1a-9d3c-3c5063b3ab73">IVdsVolumePlex::GetProperties</a>
-        method returns this structure to report the properties of a <a href="https://msdn.microsoft.com/9e770bfc-2bcb-45f0-a7fc-ba526349839e">volume plex object</a>.
+The <a href="https://msdn.microsoft.com/b5b6c141-3e9d-4e1a-9d3c-3c5063b3ab73">IVdsVolumePlex::GetProperties</a>method returns this structure to report the properties of a <a href="https://msdn.microsoft.com/9e770bfc-2bcb-45f0-a7fc-ba526349839e">volume plex object</a>.
 
 
 

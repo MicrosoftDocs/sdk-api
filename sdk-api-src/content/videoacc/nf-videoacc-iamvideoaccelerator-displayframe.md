@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_displayframe.htm
 old-project: DirectShow
 ms.assetid: 7913401f-881a-4364-8504-b02e85a5e343
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: DisplayFrame, DisplayFrame method [DirectShow], DisplayFrame method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],DisplayFrame method, IAMVideoAccelerator.DisplayFrame, IAMVideoAccelerator::DisplayFrame, IAMVideoAcceleratorDisplayFrame, dshow.iamvideoaccelerator_displayframe, videoacc/IAMVideoAccelerator::DisplayFrame
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,15 +65,13 @@ The <b>DisplayFrame</b> method causes the video renderer to display a decoded fr
 
 ### -param dwFlipToIndex [in]
 
-
-            The surface index of the decoded frame to display.
+The surface index of the decoded frame to display.
           
 
 
 ### -param pMediaSample [in]
 
-
-            Pointer to the <a href="https://msdn.microsoft.com/883e5e3b-db91-4806-96cc-c6f8cddfcca6">IMediaSample</a> interface of a media sample. This sample does not contain a video frame, but is used to specify the time stamp and any sample flags. (For more information about sample flags, see <a href="https://msdn.microsoft.com/4fda7f64-130c-42c8-a671-2e24bdd0b09b">AM_SAMPLE2_PROPERTIES</a>.
+Pointer to the <a href="https://msdn.microsoft.com/883e5e3b-db91-4806-96cc-c6f8cddfcca6">IMediaSample</a> interface of a media sample. This sample does not contain a video frame, but is used to specify the time stamp and any sample flags. (For more information about sample flags, see <a href="https://msdn.microsoft.com/4fda7f64-130c-42c8-a671-2e24bdd0b09b">AM_SAMPLE2_PROPERTIES</a>.
 
 
 ## -returns
@@ -174,11 +172,9 @@ The pins on the decoder and video renderer filters are not connected.
 
 
 
+If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTED</b>.
 
-        If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTED</b>.
-
-
-        The method blocks until the video renderer finishes displaying the video frame.
+The method blocks until the video renderer finishes displaying the video frame.
       
 
 The video decoder calls this method after calling <a href="https://msdn.microsoft.com/38944989-2ce2-4275-bae9-faca0d51cca8">IAMVideoAccelerator::EndFrame</a> for the surface whose index is given in <i>dwFlipToIndex</i>. The index value must match the value of <b>AMVABeginFrameInfo.dwDestSurfaceIndex</b> in a previous call to <a href="https://msdn.microsoft.com/00077ffe-4acb-4648-9e95-652184e4449b">IAMVideoAccelerator::BeginFrame</a>.

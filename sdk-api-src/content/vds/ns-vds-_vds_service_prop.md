@@ -4,10 +4,10 @@ title: "_VDS_SERVICE_PROP"
 author: windows-sdk-content
 description: Defines the properties of the service object.
 old-location: base\vds_service_prop.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 9029ebbd-f05d-4317-913d-58c8a0a62886
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: VDS_SERVICE_PROP, VDS_SERVICE_PROP structure [VDS], _VDS_SERVICE_PROP, base.vds_service_prop, vds/_VDS_SERVICE_PROP
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,8 +75,7 @@ A bitmask of <a href="https://msdn.microsoft.com/d14718bd-43a3-4775-a218-27c59f6
 
 
 
- The <a href="https://msdn.microsoft.com/fb5fe743-4833-400a-a8aa-8de886203190">IVdsService::GetProperties</a>
-      method returns this structure to report the properties of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff597669">service object</a>.
+ The <a href="https://msdn.microsoft.com/fb5fe743-4833-400a-a8aa-8de886203190">IVdsService::GetProperties</a>method returns this structure to report the properties of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff597669">service object</a>.
 
 
 

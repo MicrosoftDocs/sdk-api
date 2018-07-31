@@ -4,10 +4,10 @@ title: ldap_result2error function
 author: windows-sdk-content
 description: The ldap_result2error function parses a message and returns the error code.
 old-location: ldap\ldap_result2error.htm
-old-project: ldap
+old-project: LDAP
 ms.assetid: 67198ed0-c210-4eb1-b0f9-13cdb128c57d
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "_ldap_ldap_result2error, ldap.ldap__result2error, ldap.ldap_result2error, ldap_result2error, ldap_result2error function [LDAP], winldap/ldap_result2error"
 ms.prod: windows
 ms.technology: windows-sdk

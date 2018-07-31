@@ -7,7 +7,7 @@ old-location: xps\ixpsompackage_setdocumentsequence.htm
 old-project: printdocs
 ms.assetid: cc159b7e-7cce-4f3b-ad0d-ce7b625b61d3
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetDocumentSequence method, IXpsOMPackage.SetDocumentSequence, IXpsOMPackage::SetDocumentSequence, SetDocumentSequence, SetDocumentSequence method [XPS Documents and Packaging], SetDocumentSequence method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_setdocumentsequence, xpsobjectmodel/IXpsOMPackage::SetDocumentSequence
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-
-          Sets the <a href="https://msdn.microsoft.com/472095a4-ecd8-406a-97c2-1a34b4e5184a">IXpsOMDocumentSequence</a> interface of the XPS package.
+Sets the <a href="https://msdn.microsoft.com/472095a4-ecd8-406a-97c2-1a34b4e5184a">IXpsOMDocumentSequence</a> interface of the XPS package.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 
 ### -param documentSequence [in]
 
-
-            The <a href="https://msdn.microsoft.com/472095a4-ecd8-406a-97c2-1a34b4e5184a">IXpsOMDocumentSequence</a> interface pointer to be assigned to the package. This parameter must not be <b>NULL</b>.
+The <a href="https://msdn.microsoft.com/472095a4-ecd8-406a-97c2-1a34b4e5184a">IXpsOMDocumentSequence</a> interface pointer to be assigned to the package. This parameter must not be <b>NULL</b>.
 
 
 ## -returns

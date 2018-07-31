@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_list_text.htm
 old-project: wsw
 ms.assetid: a9428114-6f39-46cb-b77f-9da096ed7f11
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_LIST_TEXT, WS_XML_LIST_TEXT structure [Web Services for Windows], _WS_XML_LIST_TEXT, webservices/WS_XML_LIST_TEXT, wsw.ws_xml_list_text
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,12 +51,10 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Represents a list of text values separated by a single whitespace character.
+Represents a list of text values separated by a single whitespace character.
       
 
-
-        (e.g. The list { { WS_XML_TEXT_TYPE_INT32 }, 123}, 
+(e.g. The list { { WS_XML_TEXT_TYPE_INT32 }, 123}, 
         { { WS_XML_TEXT_TYPE_BOOL }, 1 } represents the text "123 true")
       
 
@@ -68,21 +66,18 @@ req.product: Windows Address Book 5.0
 
 ### -field text
 
-
-          The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
+The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
         
 
 
 ### -field itemCount
 
-
-          The number of items in the list.
+The number of items in the list.
         
 
 
 ### -field items
 
-
-          The list of items.
+The list of items.
         
 

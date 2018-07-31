@@ -7,7 +7,7 @@ old-location: mstv\iscanningtuner.htm
 old-project: mstv
 ms.assetid: faa99b87-ddbb-4e38-8681-bd5c8c4f81f3
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IScanningTuner, IScanningTuner interface [Microsoft TV Technologies], IScanningTuner interface [Microsoft TV Technologies],described, IScanningTunerInterface, mstv.iscanningtuner, tuner/IScanningTuner
 ms.prod: windows
 ms.technology: windows-sdk

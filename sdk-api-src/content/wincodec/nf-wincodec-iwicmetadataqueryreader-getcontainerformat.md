@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadataqueryreader_getcontainerformat.htm
 old-project: wic
 ms.assetid: f27c576a-3ff8-42bd-bad9-f7df18351a7f
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetContainerFormat, GetContainerFormat method [Windows Imaging Component], GetContainerFormat method [Windows Imaging Component],IWICMetadataQueryReader interface, IWICMetadataQueryReader interface [Windows Imaging Component],GetContainerFormat method, IWICMetadataQueryReader.GetContainerFormat, IWICMetadataQueryReader::GetContainerFormat, _wic_codec_iwicmetadataqueryreader_getcontainerformat, wic._wic_codec_iwicmetadataqueryreader_getcontainerformat, wincodec/IWICMetadataQueryReader::GetContainerFormat
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\asf_index_identifier.htm
 old-project: medfound
 ms.assetid: 8103a62e-6d1a-4dcd-af91-cedb30523004
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: 8103a62e-6d1a-4dcd-af91-cedb30523004, ASF_INDEX_IDENTIFIER, ASF_INDEX_IDENTIFIER structure [Media Foundation], _ASF_INDEX_IDENTIFIER, mf.asf_index_identifier, wmcontainer/ASF_INDEX_IDENTIFIER
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-          Specifies an index for the ASF indexer object.
+Specifies an index for the ASF indexer object.
         
 
 
@@ -63,15 +62,13 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 ### -field guidIndexType
 
-
-            The type of index. Currently this value must be GUID_NULL, which specifies time-based indexing.
+The type of index. Currently this value must be GUID_NULL, which specifies time-based indexing.
           
 
 
 ### -field wStreamNumber
 
-
-            The stream number to which this structure applies.
+The stream number to which this structure applies.
           
 
 
@@ -79,8 +76,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-
-        The index object of an ASF file can contain a number of distinct indexes. Each index is identified by the type of index and the stream number. No ASF index object can contain more than one index for a particular combination of stream number and index type.
+The index object of an ASF file can contain a number of distinct indexes. Each index is identified by the type of index and the stream number. No ASF index object can contain more than one index for a particular combination of stream number and index type.
 
 
 

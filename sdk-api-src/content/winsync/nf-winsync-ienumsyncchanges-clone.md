@@ -7,7 +7,7 @@ old-location: winsync\ienumsyncchanges_clone.htm
 old-project: winsync
 ms.assetid: d81282ed-ff18-4ca2-a240-e9e79aea275a
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSyncChanges interface, IEnumSyncChanges interface [Windows Sync],Clone method, IEnumSyncChanges.Clone, IEnumSyncChanges::Clone, winsync.ienumsyncchanges_clone, winsync/IEnumSyncChanges::Clone
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard2_finish.htm
 old-project: UIAnimation
 ms.assetid: 632BC77D-F2C5-4D08-8E9C-0598617A1DA7
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: Finish, Finish method [Windows Animation], Finish method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],Finish method, IUIAnimationStoryboard2.Finish, IUIAnimationStoryboard2::Finish, uianimation.iuianimationstoryboard2_finish, uianimation/IUIAnimationStoryboard2::Finish
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Finishes the storyboard within the specified time, compressing the storyboard if
 
 ### -param completionDeadline
 
-
-                The maximum amount of time that the storyboard can use to finish playing.
+The maximum amount of time that the storyboard can use to finish playing.
 
 
 ## -returns
@@ -88,8 +87,7 @@ This method has no effect on storyboard events. Events continue to be raised as 
 
 
 
-<a href="https://msdn.microsoft.com/830A5D30-68FF-4226-AC7C-7B1C5F7BA367">
-      IUIAnimationManager2::FinishAllStoryboards</a>
+<a href="https://msdn.microsoft.com/830A5D30-68FF-4226-AC7C-7B1C5F7BA367">IUIAnimationManager2::FinishAllStoryboards</a>
 
 
 
@@ -97,18 +95,15 @@ This method has no effect on storyboard events. Events continue to be raised as 
 
 
 
-<a href="https://msdn.microsoft.com/ABB7184F-A703-45E3-96D8-E3062EEB9565">
-      IUIAnimationStoryboard2::Abandon</a>
+<a href="https://msdn.microsoft.com/ABB7184F-A703-45E3-96D8-E3062EEB9565">IUIAnimationStoryboard2::Abandon</a>
 
 
 
-<a href="https://msdn.microsoft.com/C7687E52-433F-4E73-910D-86298E528F7B">
-      IUIAnimationStoryboard2::Conclude</a>
+<a href="https://msdn.microsoft.com/C7687E52-433F-4E73-910D-86298E528F7B">IUIAnimationStoryboard2::Conclude</a>
 
 
 
-<a href="https://msdn.microsoft.com/9F20AE4A-F693-4DDA-90F4-FCCA5291208B">
-      IUIAnimationStoryboard2::Schedule</a>
+<a href="https://msdn.microsoft.com/9F20AE4A-F693-4DDA-90F4-FCCA5291208B">IUIAnimationStoryboard2::Schedule</a>
  
 
  

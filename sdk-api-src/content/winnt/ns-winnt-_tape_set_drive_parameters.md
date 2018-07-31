@@ -2,12 +2,12 @@
 UID: NS:winnt._TAPE_SET_DRIVE_PARAMETERS
 title: "_TAPE_SET_DRIVE_PARAMETERS"
 author: windows-sdk-content
-description: Describes the tape drive. It is used by the SetTapeParameters function.
+description: Describes the tape drive. It is used by the SetTapeParametersfunction.
 old-location: backup\tape_set_drive_parameters_str.htm
-old-project: backup
+old-project: Backup
 ms.assetid: 5615e83a-99c0-4214-8621-7e0561512816
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: "*PTAPE_SET_DRIVE_PARAMETERS, PTAPE_SET_DRIVE_PARAMETERS, PTAPE_SET_DRIVE_PARAMETERS structure pointer [Backup], TAPE_SET_DRIVE_PARAMETERS, TAPE_SET_DRIVE_PARAMETERS structure [Backup], _TAPE_SET_DRIVE_PARAMETERS, _win32_tape_set_drive_parameters_str, backup.tape_set_drive_parameters_str, base.tape_set_drive_parameters_str, winnt/PTAPE_SET_DRIVE_PARAMETERS, winnt/TAPE_SET_DRIVE_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 The 
-<b>TAPE_SET_DRIVE_PARAMETERS</b> structure describes the tape drive. It is used by the <a href="https://msdn.microsoft.com/2043249b-b4ff-4bdd-9e6e-13c432a183cb">SetTapeParameters</a>
-		function.
+<b>TAPE_SET_DRIVE_PARAMETERS</b> structure describes the tape drive. It is used by the <a href="https://msdn.microsoft.com/2043249b-b4ff-4bdd-9e6e-13c432a183cb">SetTapeParameters</a>function.
 
 
 ## -struct-fields

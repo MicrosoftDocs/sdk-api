@@ -7,7 +7,7 @@ old-location: mf\mfcreatepresentationdescriptorfromasfprofile.htm
 old-project: medfound
 ms.assetid: e36ac685-4ebe-4fc6-a17a-f36b9d667add
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: MFCreatePresentationDescriptorFromASFProfile, MFCreatePresentationDescriptorFromASFProfile function [Media Foundation], e36ac685-4ebe-4fc6-a17a-f36b9d667add, mf.mfcreatepresentationdescriptorfromasfprofile, wmcontainer/MFCreatePresentationDescriptorFromASFProfile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,8 +90,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The function succeeded.
+The function succeeded.
               
 
 </td>

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimer_setframeratethreshold.htm
 old-project: UIAnimation
 ms.assetid: 6e9b5278-a959-40a7-a4dc-88400a80b0e3
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationTimer interface [Windows Animation],SetFrameRateThreshold method, IUIAnimationTimer.SetFrameRateThreshold, IUIAnimationTimer::SetFrameRateThreshold, SetFrameRateThreshold, SetFrameRateThreshold method [Windows Animation], SetFrameRateThreshold method [Windows Animation],IUIAnimationTimer interface, uianimation.iuianimationtimer_setframeratethreshold, uianimation/IUIAnimationTimer::SetFrameRateThreshold
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Sets the frame rate below which the timer notifies the application that rendering is too slow.
+Sets the frame rate below which the timer notifies the application that rendering is too slow.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param framesPerSecond [in]
 
-
-               The minimum desirable frame rate, in frames per second.
+The minimum desirable frame rate, in frames per second.
 
 
 ## -returns
@@ -79,10 +77,8 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 
-
-         If the rendering frame rate for an animation falls below the specified frame rate, an 
-         <a href="https://msdn.microsoft.com/79986646-2d82-41a3-bff7-b2f0492c7a1b">IUIAnimationTimerEventHandler::OnRenderingTooSlow</a>
-         event is raised.
+If the rendering frame rate for an animation falls below the specified frame rate, an 
+         <a href="https://msdn.microsoft.com/79986646-2d82-41a3-bff7-b2f0492c7a1b">IUIAnimationTimerEventHandler::OnRenderingTooSlow</a>event is raised.
 
 
 
@@ -96,8 +92,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://msdn.microsoft.com/7d5c459e-e1f2-470b-8568-e6847acba63a">
-      IUIAnimationTimerEventHandler</a>
+<a href="https://msdn.microsoft.com/7d5c459e-e1f2-470b-8568-e6847acba63a">IUIAnimationTimerEventHandler</a>
  
 
  

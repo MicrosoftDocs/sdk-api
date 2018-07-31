@@ -4,10 +4,10 @@ title: ITPhone::get_Terminals
 author: windows-sdk-content
 description: The get_Terminals method retrieves a collection of terminals that are associated with the phone. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_get_terminals.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 09e5921c-c7da-40fc-902a-1e22ebe19b0a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_Terminals method, ITPhone.get_Terminals, ITPhone::get_Terminals, _tapi3_itphone_get_terminals, get_Terminals, get_Terminals method [TAPI 2.2], get_Terminals method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_terminals, tapi3if/ITPhone::get_Terminals
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,10 +95,8 @@ The application does not have to call the
 <a href="https://msdn.microsoft.com/6a9c90ca-7a9e-43de-8075-240185658538">phoneGetID</a> during TAPI initialization or when a new phone object appears.
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a>
-			interface returned by <b>ITPhone::get_Terminals</b>. The application must call <b>Release</b> on the 
-<b>ITAddress</b>
-			interface to free resources associated with it.
+<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a>interface returned by <b>ITPhone::get_Terminals</b>. The application must call <b>Release</b> on the 
+<b>ITAddress</b>interface to free resources associated with it.
 
 
 

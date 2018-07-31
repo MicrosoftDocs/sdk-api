@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard_addkeyframeatoffset.htm
 old-project: UIAnimation
 ms.assetid: f598c8a4-4325-49ed-bc18-5d672e089592
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: AddKeyframeAtOffset, AddKeyframeAtOffset method [Windows Animation], AddKeyframeAtOffset method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],AddKeyframeAtOffset method, IUIAnimationStoryboard.AddKeyframeAtOffset, IUIAnimationStoryboard::AddKeyframeAtOffset, uianimation.iuianimationstoryboard_addkeyframeatoffset, uianimation/IUIAnimationStoryboard::AddKeyframeAtOffset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Adds a keyframe at the specified offset from an existing keyframe.
+Adds a keyframe at the specified offset from an existing keyframe.
 
 
 ## -parameters
@@ -62,20 +61,17 @@ req.product: Windows XP with SP1 and later
 
 ### -param existingKeyframe [in]
 
-
-            The existing keyframe. To add a keyframe at an offset from the start of the storyboard, use the special keyframe <a href="https://msdn.microsoft.com/a77a460c-cf19-48a6-838f-c174950308d8">UI_ANIMATION_KEYFRAME_STORYBOARD_START</a>.
+The existing keyframe. To add a keyframe at an offset from the start of the storyboard, use the special keyframe <a href="https://msdn.microsoft.com/a77a460c-cf19-48a6-838f-c174950308d8">UI_ANIMATION_KEYFRAME_STORYBOARD_START</a>.
 
 
 ### -param offset [in]
 
-
-            The offset from the existing keyframe at which a new keyframe is to be added.
+The offset from the existing keyframe at which a new keyframe is to be added.
 
 
 ### -param keyframe [out]
 
-
-            The keyframe to be added.
+The keyframe to be added.
 
 
 ## -returns
@@ -127,18 +123,15 @@ hr = pStoryboard-&gt;AddKeyframeAtOffset(
 
 
 
-<a href="https://msdn.microsoft.com/055206d8-ea9e-4013-89ee-2929bfeb2731">
-      IUIAnimationStoryboard::AddKeyframeAfterTransition</a>
+<a href="https://msdn.microsoft.com/055206d8-ea9e-4013-89ee-2929bfeb2731">IUIAnimationStoryboard::AddKeyframeAfterTransition</a>
 
 
 
-<a href="https://msdn.microsoft.com/94a9aafc-fe5a-49a8-8e14-9e7c4624869a">
-      IUIAnimationStoryboard::AddTransitionAtKeyframe</a>
+<a href="https://msdn.microsoft.com/94a9aafc-fe5a-49a8-8e14-9e7c4624869a">IUIAnimationStoryboard::AddTransitionAtKeyframe</a>
 
 
 
-<a href="https://msdn.microsoft.com/75db41ef-526b-40aa-a62d-a4262cc8d80e">
-      IUIAnimationStoryboard::AddTransitionBetweenKeyframes</a>
+<a href="https://msdn.microsoft.com/75db41ef-526b-40aa-a62d-a4262cc8d80e">IUIAnimationStoryboard::AddTransitionBetweenKeyframes</a>
 
 
 

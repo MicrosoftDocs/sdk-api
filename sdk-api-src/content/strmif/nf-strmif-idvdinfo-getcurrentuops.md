@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getcurrentuops.htm
 old-project: DirectShow
 ms.assetid: a6f48a32-c2bb-4924-9a05-469c7b79fc3e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetCurrentUOPS, GetCurrentUOPS method [DirectShow], GetCurrentUOPS method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentUOPS method, IDvdInfo.GetCurrentUOPS, IDvdInfo::GetCurrentUOPS, IDvdInfoGetCurrentUOPS, dshow.idvdinfo_getcurrentuops, strmif/IDvdInfo::GetCurrentUOPS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -140,14 +140,11 @@ The value of <i>pUOP</i> is a bit field defined as follows.
 
 <table>
 <tr>
-<th>
-              Bit
+<th>Bit
             </th>
-<th>
-              Flag
+<th>Flag
             </th>
-<th>
-              User function
+<th>User function
             </th>
 </tr>
 <tr>

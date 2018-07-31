@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_gettransportbasicparameters.htm
 old-project: DirectShow
 ms.assetid: 7f670efe-4433-496d-b789-925c02b69f58
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetTransportBasicParameters, GetTransportBasicParameters method [DirectShow], GetTransportBasicParameters method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetTransportBasicParameters method, IAMExtTransport.GetTransportBasicParameters, IAMExtTransport::GetTransportBasicParameters, IAMExtTransportGetTransportBasicParameters, dshow.iamexttransport_gettransportbasicparameters, strmif/IAMExtTransport::GetTransportBasicParameters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -140,8 +140,7 @@ ED_TRANSBASIC_INPUT_SIGNAL: Retrieves the signal format that the DV camcorder is
  
 
 </li>
-<li>
-ED_TRANSBASIC_OUTPUT_SIGNAL: Retrieves the signal format that the DV camcorder is designed to transmit. Returns one of the constants listed for the ED_TRANSBASIC_INPUT_SIGNAL flag. 
+<li>ED_TRANSBASIC_OUTPUT_SIGNAL: Retrieves the signal format that the DV camcorder is designed to transmit. Returns one of the constants listed for the ED_TRANSBASIC_INPUT_SIGNAL flag. 
 </li>
 </ul>
 

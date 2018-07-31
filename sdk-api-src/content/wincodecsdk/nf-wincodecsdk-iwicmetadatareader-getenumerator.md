@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatareader_getenumerator.htm
 old-project: wic
 ms.assetid: 8dfb2b8d-2825-470e-8adc-85437d8fe863
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Windows Imaging Component], GetEnumerator method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetEnumerator method, IWICMetadataReader.GetEnumerator, IWICMetadataReader::GetEnumerator, _wic_codec_iwicmetadatareader_getenumerator, wic._wic_codec_iwicmetadatareader_getenumerator, wincodecsdk/IWICMetadataReader::GetEnumerator
 ms.prod: windows
 ms.technology: windows-sdk

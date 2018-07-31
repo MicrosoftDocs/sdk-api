@@ -4,10 +4,10 @@ title: "_VDS_VOLUME_PROP2"
 author: windows-sdk-content
 description: Defines the properties of a volume object. This structure is identical to the VDS_VOLUME_PROP structure, except that it also includes the volume GUIDs.
 old-location: base\vds_volume_prop2.htm
-old-project: vds
+old-project: VDS
 ms.assetid: e99aaead-f5ad-4181-9208-9158e9fac38f
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: "*PVDS_VOLUME_PROP2, PVDS_VOLUME_PROP2, PVDS_VOLUME_PROP2 structure pointer, VDS_VOLUME_PROP2, VDS_VOLUME_PROP2 structure, _VDS_VOLUME_PROP2, base.vds_volume_prop2, vds/PVDS_VOLUME_PROP2, vds/VDS_VOLUME_PROP2"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,8 +120,7 @@ A byte array that contains the unique identifier for the volume.
 
 
 
-The <a href="https://msdn.microsoft.com/9580ceb2-6b2f-4313-a140-f6fa6a366960">IVdsVolume2::GetProperties2</a>
-        method returns this structure to report the properties of a <a href="https://msdn.microsoft.com/92013015-b0f5-4b92-937b-c2637f65810c">volume object</a>.
+The <a href="https://msdn.microsoft.com/9580ceb2-6b2f-4313-a140-f6fa6a366960">IVdsVolume2::GetProperties2</a>method returns this structure to report the properties of a <a href="https://msdn.microsoft.com/92013015-b0f5-4b92-937b-c2637f65810c">volume object</a>.
 
 When a volume is offline, the <b>VDS_VF_PERMANENTLY_DISMOUNTED</b> flag is set in the <b>ulFlags</b> member of the <b>VDS_VOLUME_PROP2</b> structure, and the <b>VDS_VS_OFFLINE</b> volume status value is also set in the <b>status</b> member of this structure.
 

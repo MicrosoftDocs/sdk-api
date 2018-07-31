@@ -4,10 +4,10 @@ title: ITaskHandler::Stop
 author: windows-sdk-content
 description: Called to stop the COM handler.
 old-location: taskschd\itaskhandler_stop.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 93a112e7-5e44-42a9-a5f5-d61e1ad1eabc
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: ITaskHandler interface [Task Scheduler],Stop method, ITaskHandler.Stop, ITaskHandler::Stop, Stop, Stop method [Task Scheduler], Stop method [Task Scheduler],ITaskHandler interface, taskschd.itaskhandler_stop, taskschd/ITaskHandler::Stop
 ms.prod: windows
 ms.technology: windows-sdk

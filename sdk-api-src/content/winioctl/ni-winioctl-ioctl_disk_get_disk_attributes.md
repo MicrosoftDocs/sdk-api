@@ -4,10 +4,10 @@ title: IOCTL_DISK_GET_DISK_ATTRIBUTES
 author: windows-sdk-content
 description: Retrieves the attributes of the specified disk device.
 old-location: fs\ioctl_disk_get_disk_attributes.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 3fa9fabb-91ef-4306-90b6-c3dd17f3e298
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_DISK_GET_DISK_ATTRIBUTES, IOCTL_DISK_GET_DISK_ATTRIBUTES control, IOCTL_DISK_GET_DISK_ATTRIBUTES control code [Files], fs.ioctl_disk_get_disk_attributes, winioctl/IOCTL_DISK_GET_DISK_ATTRIBUTES
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ To perform this operation, call the
 <pre>BOOL 
 WINAPI 
 DeviceIoControl( (HANDLE)       hDevice,         // handle to device 
-                 IOCTL_DISK_GET_DISK_ATTRIBUTES, // dwIoControlCode
-                 (LPVOID)       NULL,            // lpInBuffer 
+                 IOCTL_DISK_GET_DISK_ATTRIBUTES, // dwIoControlCode(LPVOID)       NULL,            // lpInBuffer 
                  (DWORD)        0,               // nInBufferSize 
                  (LPVOID)       lpOutBuffer,     // output buffer:GET_DISK_ATTRIBUTES
                  (DWORD)        nOutBufferSize,  // size of output buffer

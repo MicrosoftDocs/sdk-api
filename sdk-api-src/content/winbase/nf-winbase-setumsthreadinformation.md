@@ -4,10 +4,10 @@ title: SetUmsThreadInformation function
 author: windows-sdk-content
 description: Sets application-specific context information for the specified user-mode scheduling (UMS) worker thread.
 old-location: base\setumsthreadinformation.htm
-old-project: procthread
+old-project: ProcThread
 ms.assetid: 19f190fd-1f78-4bb6-93eb-73a5c522b44d
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: SetUmsThreadInformation, SetUmsThreadInformation function, base.setumsthreadinformation, winbase/SetUmsThreadInformation
 ms.prod: windows
 ms.technology: windows-sdk

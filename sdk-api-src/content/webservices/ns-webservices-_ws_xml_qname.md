@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_qname.htm
 old-project: wsw
 ms.assetid: 54095ad5-e9ba-4fa8-92e2-87b3a8950d5c
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_QNAME, WS_XML_QNAME structure [Web Services for Windows], _WS_XML_QNAME, webservices/WS_XML_QNAME, wsw.ws_xml_qname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        A structure used to specify an XML name (of an element or an attribute) as
+A structure used to specify an XML name (of an element or an attribute) as
         a local name, namespace pair.
       
 

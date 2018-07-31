@@ -4,10 +4,10 @@ title: TSPI_phoneGetButtonInfo function
 author: windows-sdk-content
 description: The TSPI_phoneGetButtonInfo function returns information about a specified button.
 old-location: tspi\tspi_phonegetbuttoninfo.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: b4db8075-1e45-4662-805c-6e3004517374
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: TSPI_phoneGetButtonInfo, TSPI_phoneGetButtonInfo function [TAPI 2.2], _tspi_tspi_phonegetbuttoninfo, tspi.tspi_phonegetbuttoninfo, tspi/TSPI_phoneGetButtonInfo
 ms.prod: windows
 ms.technology: windows-sdk

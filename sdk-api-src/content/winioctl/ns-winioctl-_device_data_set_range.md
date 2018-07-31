@@ -4,10 +4,10 @@ title: "_DEVICE_DATA_SET_RANGE"
 author: windows-sdk-content
 description: Provides data set range information for use with the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\device_data_set_range.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 5eea412e-ea16-4f47-ac69-46b543069eae
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PDEVICE_DATA_SET_RANGE, *PDEVICE_DSM_RANGE, DEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE structure, DEVICE_DSM_RANGE, PDEVICE_DATA_SET_RANGE, PDEVICE_DATA_SET_RANGE structure pointer, _DEVICE_DATA_SET_RANGE, base.device_data_set_range, winioctl/DEVICE_DATA_SET_RANGE, winioctl/PDEVICE_DATA_SET_RANGE"
 ms.prod: windows
 ms.technology: windows-sdk

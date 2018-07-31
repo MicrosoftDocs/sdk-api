@@ -7,7 +7,7 @@ old-location: wic\iwicddsdecoder_getframe.htm
 old-project: wic
 ms.assetid: 8842FD14-575B-4A81-9598-83A5A67415B7
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetFrame, GetFrame method [Windows Imaging Component], GetFrame method [Windows Imaging Component],IWICDdsDecoder interface, IWICDdsDecoder interface [Windows Imaging Component],GetFrame method, IWICDdsDecoder.GetFrame, IWICDdsDecoder::GetFrame, wic.iwicddsdecoder_getframe, wincodec/IWICDdsDecoder::GetFrame
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,14 +63,12 @@ Retrieves the specified frame of the DDS image.
 
 Type: <b>UINT</b>
 
-
 The requested index within the texture array.
 
 
 ### -param mipLevel [in]
 
 Type: <b>UINT</b>
-
 
 The requested mip level.
 
@@ -106,7 +104,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-A DDS file can contain multiple images that are organized into a three level hierarchy. First, DDS file may contain multiple textures in a texture array. Second, each texture can have multiple mip levels. Finally, the texture may be a 3D (volume) texture and have multiple slices, each of which is a 2D texture. See the <a href="https://msdn.microsoft.com/library/Bb943990(v=VS.85).aspx">DDS documentation</a> for more information.
+A DDS file can contain multiple images that are organized into a three level hierarchy. First, DDS file may contain multiple textures in a texture array. Second, each texture can have multiple mip levels. Finally, the texture may be a 3D (volume) texture and have multiple slices, each of which is a 2D texture. See the <a href="https://msdn.microsoft.com/b0f3a1af-e816-4d64-93d9-51e510423869">DDS documentation</a> for more information.
 
 WIC maps this three level hierarchy into a linear array of <a href="https://msdn.microsoft.com/1498b800-6449-440f-bed7-85891637e559">IWICBitmapFrameDecode</a>, accessible via <a href="https://msdn.microsoft.com/5e8c1cfd-50f3-431c-aedb-6e57d1368695">IWICBitmapDecoder::GetFrame</a>. However, determining which frame corresponds to a triad of <i>arrayIndex</i>, <i>mipLevel</i>, and <i>sliceIndex</i> value is not trivial because each mip level of a 3D texture has a different depth (number of slices). This method provides additional convenience over <b>IWICBitmapDecoder::GetFrame</b> for DDS images by calculating the correct frame given the three indices.
 

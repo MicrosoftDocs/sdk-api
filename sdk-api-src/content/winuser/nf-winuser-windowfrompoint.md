@@ -7,7 +7,7 @@ old-location: winmsg\windowfrompoint.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\windowfrompoint.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: WindowFromPoint, WindowFromPoint function [Windows and Messages], _win32_WindowFromPoint, _win32_windowfrompoint_cpp, winmsg.windowfrompoint, winui._win32_windowfrompoint, winuser/WindowFromPoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,12 +91,12 @@ The return value is a handle to the window that contains the point. If no window
 
 
 
-The <b>WindowFromPoint</b> function does not retrieve a handle to a hidden or disabled window, even if the point is within the window. An application should use the <a href="https://msdn.microsoft.com/library/ms632676(v=VS.85).aspx">ChildWindowFromPoint</a> function for a nonrestrictive search. 
+The <b>WindowFromPoint</b> function does not retrieve a handle to a hidden or disabled window, even if the point is within the window. An application should use the <a href="https://msdn.microsoft.com/30f8ec3d-7b8c-45b6-b659-d417302e16c5">ChildWindowFromPoint</a> function for a nonrestrictive search. 
 
 
 #### Examples
 
-For an example, see "Interface from Running Object Table" in <a href="https://msdn.microsoft.com/library/Bb787724(v=VS.85).aspx">About Text Object Model</a>.
+For an example, see "Interface from Running Object Table" in <a href="_win32_About_Text_Object_Model">About Text Object Model</a>.
 
 <div class="code"></div>
 
@@ -107,7 +107,7 @@ For an example, see "Interface from Running Object Table" in <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632676(v=VS.85).aspx">ChildWindowFromPoint</a>
+<a href="https://msdn.microsoft.com/30f8ec3d-7b8c-45b6-b659-d417302e16c5">ChildWindowFromPoint</a>
 
 
 

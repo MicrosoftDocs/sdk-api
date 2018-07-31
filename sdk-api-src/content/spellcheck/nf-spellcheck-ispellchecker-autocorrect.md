@@ -7,7 +7,7 @@ old-location: intl\ispellchecker_autocorrect.htm
 old-project: Intl
 ms.assetid: 7c0d24dc-cec2-4304-bfbc-096fa4d0e8d0
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: AutoCorrect, AutoCorrect method [Internationalization for Windows Applications], AutoCorrect method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],AutoCorrect method, ISpellChecker.AutoCorrect, ISpellChecker::AutoCorrect, intl.ispellchecker_autocorrect, spellcheck/ISpellChecker::AutoCorrect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # ISpellChecker::AutoCorrect

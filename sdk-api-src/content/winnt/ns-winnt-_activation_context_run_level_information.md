@@ -4,10 +4,10 @@ title: "_ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION"
 author: windows-sdk-content
 description: The ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION structure is used by the QueryActCtxW function.
 old-location: setup\activation_context_run_level_information.htm
-old-project: sbscs
+old-project: SbsCs
 ms.assetid: 1c4e7333-6982-4d58-ab2a-d1993c59d0ef
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/29/2018
 ms.keywords: "*PACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION, ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION, ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION structure [Side-by-side Assemblies], PACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION, PACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION structure pointer [Side-by-side Assemblies], _ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION, setup.activation_context_run_level_information, winnt/ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION, winnt/PACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

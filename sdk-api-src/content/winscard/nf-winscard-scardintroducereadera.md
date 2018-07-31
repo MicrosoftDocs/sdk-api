@@ -4,10 +4,10 @@ title: SCardIntroduceReaderA function
 author: windows-sdk-content
 description: Introduces a new name for an existing smart card reader.
 old-location: security\scardintroducereader.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 1f8b9d75-5bba-40c3-99a0-6910855fcd4d
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: SCardIntroduceReader, SCardIntroduceReader function [Security], SCardIntroduceReaderA, SCardIntroduceReaderW, _smart_scardintroducereader, security.scardintroducereader, winscard/SCardIntroduceReader, winscard/SCardIntroduceReaderA, winscard/SCardIntroduceReaderW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,7 +107,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>

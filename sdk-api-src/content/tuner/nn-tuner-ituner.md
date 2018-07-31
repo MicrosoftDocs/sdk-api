@@ -7,7 +7,7 @@ old-location: mstv\ituner.htm
 old-project: mstv
 ms.assetid: 1bc965a5-6bc9-488a-a2f9-f35d0cfbcccd
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: ITuner, ITuner interface [Microsoft TV Technologies], ITuner interface [Microsoft TV Technologies],described, ITunerInterface, mstv.ituner, tuner/ITuner
 ms.prod: windows
 ms.technology: windows-sdk

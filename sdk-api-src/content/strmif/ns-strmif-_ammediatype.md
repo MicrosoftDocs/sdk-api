@@ -7,7 +7,7 @@ old-location: dshow\am_media_type.htm
 old-project: DirectShow
 ms.assetid: 973697d0-2897-48b5-88ca-a88a9650eb02
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: AM_MEDIA_TYPE, AM_MEDIA_TYPE structure [DirectShow], AM_MEDIA_TYPEStructure, FORMAT_DvInfo, FORMAT_MPEG2Video, FORMAT_MPEGStreams, FORMAT_MPEGVideo, FORMAT_None, FORMAT_VideoInfo, FORMAT_VideoInfo2, FORMAT_WaveFormatEx, GUID_NULL, _AMMediaType, dshow.am_media_type, strmif/AM_MEDIA_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP
 ## -description
 
 
-
-          The <b>AM_MEDIA_TYPE</b> structure describes the format of a media sample.
+The <b>AM_MEDIA_TYPE</b> structure describes the format of a media sample.
         
 
 
@@ -205,22 +204,19 @@ None
 
 ### -field pUnk
 
-
-            Not used. Set to <b>NULL</b>.
+Not used. Set to <b>NULL</b>.
           
 
 
 ### -field cbFormat
 
-
-            Size of the format block, in bytes.
+Size of the format block, in bytes.
           
 
 
 ### -field pbFormat
 
-
-            Pointer to the format block. The structure type is specified by the <b>formattype</b> member. The format structure must be present, unless <b>formattype</b> is GUID_NULL or FORMAT_None.
+Pointer to the format block. The structure type is specified by the <b>formattype</b> member. The format structure must be present, unless <b>formattype</b> is GUID_NULL or FORMAT_None.
           
 
 The <b>pbFormat</b> buffer must be allocated by calling <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>. To release the format block, call <a href="https://msdn.microsoft.com/b7ec335e-518d-4aa6-8cde-8cb92184d0b0">FreeMediaType</a>.

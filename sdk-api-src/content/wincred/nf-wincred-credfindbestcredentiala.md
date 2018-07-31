@@ -4,10 +4,10 @@ title: CredFindBestCredentialA function
 author: windows-sdk-content
 description: Searches the Credentials Management (CredMan) database for the set of generic credentials that are associated with the current logon session and that best match the specified target resource.
 old-location: security\credfindbestcredential.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: b39e3167-dd63-4b81-b850-f3117be348a5
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: CredFindBestCredential, CredFindBestCredential function [Security], CredFindBestCredentialA, CredFindBestCredentialW, security.credfindbestcredential, wincred/CredFindBestCredential, wincred/CredFindBestCredentialA, wincred/CredFindBestCredentialW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,8 +90,7 @@ When you have finished using this structure, free it by calling the <a href="htt
 
 
 
-
-						If the function succeeds, it returns <b>TRUE</b>.
+If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.

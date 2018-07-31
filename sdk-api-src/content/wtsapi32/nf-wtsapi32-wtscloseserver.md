@@ -4,10 +4,10 @@ title: WTSCloseServer function
 author: windows-sdk-content
 description: Closes an open handle to a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtscloseserver.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 092a6107-21bf-40a7-9fe7-f069eb0c89ca
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: WTSCloseServer, WTSCloseServer function [Remote Desktop Services], _win32_wtscloseserver, termserv.wtscloseserver, wtsapi32/WTSCloseServer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Closes an open handle to a Remote Desktop Session Host (RD Session Host) server
 
 ### -param hServer [in]
 
-
-      A handle to an RD Session Host server opened by a call to the 
+A handle to an RD Session Host server opened by a call to the 
       <a href="https://msdn.microsoft.com/f0b7dce7-59eb-41b8-9a61-65a69d1cc1f3">WTSOpenServer</a> or <a href="https://msdn.microsoft.com/8122de66-c096-4bd8-95ff-ed64b88afcae">WTSOpenServerEx</a> function.
 
 Do not pass <b>WTS_CURRENT_SERVER_HANDLE</b> for this parameter.

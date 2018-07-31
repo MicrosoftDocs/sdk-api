@@ -7,7 +7,7 @@ old-location: wsw\wswritetype.htm
 old-project: wsw
 ms.assetid: cab1b4d6-c18b-4740-b4a4-61e70ea181d9
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsWriteType, WsWriteType function [Web Services for Windows], webservices/WsWriteType, wsw.wswritetype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Write a value of a given <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a> to XML according to the <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a>.
+Write a value of a given <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a> to XML according to the <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a>.
             
 
 
@@ -63,42 +62,36 @@ req.product: Windows Address Book 5.0
 
 ### -param writer [in]
 
-
-                    The writer to write the value to.
+The writer to write the value to.
                 
 
 
 ### -param typeMapping [in]
 
-
-                    Describes how the type maps to the XML that is being written.
+Describes how the type maps to the XML that is being written.
                 
 
 
 ### -param type [in]
 
-
-                    The type of the value to serialize.
+The type of the value to serialize.
                 
 
 
 ### -param typeDescription [in, optional]
 
-
-                    Additional information about the type.  Each type has a different description
+Additional information about the type.  Each type has a different description
                     structure.  This may be <b>NULL</b>, depending on the <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a>.
                 
 
 
 ### -param writeOption [in]
 
-
-                    Whether the value is required, and how the value is allocated.
+Whether the value is required, and how the value is allocated.
                     See <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> for more information.
                 
 
-
-                    This parameter must have one of the following values:
+This parameter must have one of the following values:
                 
 
 <ul>
@@ -112,22 +105,19 @@ req.product: Windows Address Book 5.0
 
 ### -param value
 
-
-                    A pointer to the value to serialize.
+A pointer to the value to serialize.
                 
 
 
 ### -param valueSize [in]
 
-
-                    The size of the value being serialized.
+The size of the value being serialized.
                 
 
 
 ### -param error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -149,7 +139,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -161,7 +150,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -173,7 +161,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -199,12 +186,10 @@ This function may return other errors not listed above.
 
 
 
-
-                See <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> for how to use this function to write values in elements and attributes.                
+See <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> for how to use this function to write values in elements and attributes.                
             
 
-
-            If the API fails, the state of input writer becomes undefined. The only APIs that may be used on the writer
+If the API fails, the state of input writer becomes undefined. The only APIs that may be used on the writer
         if this occurs are <a href="https://msdn.microsoft.com/f0b47817-0ad1-408c-a6da-9a7b0fb2e34b">WsSetOutput</a> and <a href="https://msdn.microsoft.com/b969700d-7145-45eb-ad4b-c6e643975709">WsSetOutputToBuffer</a> to return the writer to a usable state,
         or <a href="https://msdn.microsoft.com/eb1eb835-838a-41e4-9e7d-c5c805237f65">WsFreeWriter</a> to free the writer.
             

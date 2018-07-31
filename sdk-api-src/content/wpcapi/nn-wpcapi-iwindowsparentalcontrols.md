@@ -7,7 +7,7 @@ old-location: parcon\iwindowsparentalcontrols.htm
 old-project: parcon
 ms.assetid: f825388f-c4de-4bf2-8076-6efd81b6e030
 ms.author: windowssdkdev
-ms.date: 06/13/2018
+ms.date: 07/29/2018
 ms.keywords: IWindowsParentalControls, IWindowsParentalControls interface, IWindowsParentalControls interface,described, parcon.iwindowsparentalcontrols, wpcapi/IWindowsParentalControls
 ms.prod: windows
 ms.technology: windows-sdk

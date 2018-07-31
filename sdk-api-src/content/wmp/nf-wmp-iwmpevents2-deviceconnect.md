@@ -7,7 +7,7 @@ old-location: wmp\iwmpevents2_iwmpevents2__deviceconnect.htm
 old-project: WMP
 ms.assetid: ed726579-e0cb-4007-98eb-b6df4b636b12
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: DeviceConnect, DeviceConnect method [Windows Media Player], DeviceConnect method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],DeviceConnect method, IWMPEvents2.DeviceConnect, IWMPEvents2::DeviceConnect, IWMPEvents2DeviceConnect, wmp.iwmpevents2_iwmpevents2__deviceconnect, wmp/IWMPEvents2::DeviceConnect
 ms.prod: windows
 ms.technology: windows-sdk

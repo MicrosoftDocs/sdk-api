@@ -7,7 +7,7 @@ old-location: wsw\ws_enum_value.htm
 old-project: wsw
 ms.assetid: 4d1ec30a-d8fe-41b2-b689-4011dbb55d34
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ENUM_VALUE, WS_ENUM_VALUE structure [Web Services for Windows], _WS_ENUM_VALUE, webservices/WS_ENUM_VALUE, wsw.ws_enum_value
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Provides serialization information about a single value that
+Provides serialization information about a single value that
                 is part of an enumeration (<a href="https://msdn.microsoft.com/cf7c9254-c806-4ada-8852-beb6be5e81d9">WS_ENUM_DESCRIPTION</a>).
             
 
@@ -64,8 +63,7 @@ req.product: Windows Address Book 5.0
 
 ### -field value
 
-
-                    The numeric enum value.
+The numeric enum value.
                 
 
 

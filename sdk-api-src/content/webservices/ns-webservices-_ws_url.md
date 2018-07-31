@@ -7,7 +7,7 @@ old-location: wsw\ws_url.htm
 old-project: wsw
 ms.assetid: efc67b64-cedf-4cd9-83b3-047f6c38c6ea
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_URL, WS_URL structure [Web Services for Windows], _WS_URL, webservices/WS_URL, wsw.ws_url
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,6 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 The abstract base type for all URL schemes used with <a href="https://msdn.microsoft.com/67147b71-ca3a-4a17-a4f1-6ba608eca742">WsDecodeUrl</a> and <a href="https://msdn.microsoft.com/8253b062-072b-4d37-8b82-407df1bea6b4">WsEncodeUrl</a> APIs.
             
 
@@ -62,7 +61,6 @@ The abstract base type for all URL schemes used with <a href="https://msdn.micro
 
 
 ### -field scheme
-
 
 A <a href="https://msdn.microsoft.com/e8763719-6ba0-4e5e-bb71-625d36a45eaf">WS_URL_SCHEME_TYPE</a> structure that describes the type of URL scheme.
 

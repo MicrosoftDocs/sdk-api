@@ -4,10 +4,10 @@ title: IVssBackupComponents::StartSnapshotSet
 author: windows-sdk-content
 description: The StartSnapshotSet method creates a new, empty shadow copy set.
 old-location: base\ivssbackupcomponents_startsnapshotset.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 6a0a6228-2131-48a6-8d18-9491969d265b
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: IVssBackupComponents interface [VSS],StartSnapshotSet method, IVssBackupComponents.StartSnapshotSet, IVssBackupComponents::StartSnapshotSet, StartSnapshotSet, StartSnapshotSet method [VSS], StartSnapshotSet method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_startsnapshotset, base.ivssbackupcomponents_startsnapshotset, vsbackup/IVssBackupComponents::StartSnapshotSet
 ms.prod: windows
 ms.technology: windows-sdk
@@ -139,8 +139,7 @@ The creation of a shadow copy is in progress, and only one shadow copy creation 
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

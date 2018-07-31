@@ -4,10 +4,10 @@ title: IWSDSSLClientCertificate::GetClientCertificate
 author: windows-sdk-content
 description: Gets the client certificate.
 old-location: ncd\iwsdsslclientcertificate_getclientcertificate.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 82f3f4ae-80fe-4382-9a22-00c70e99524f
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: GetClientCertificate, GetClientCertificate method, GetClientCertificate method,IWSDSSLClientCertificate interface, IWSDSSLClientCertificate interface,GetClientCertificate method, IWSDSSLClientCertificate.GetClientCertificate, IWSDSSLClientCertificate::GetClientCertificate, ncd.iwsdsslclientcertificate_getclientcertificate, wsdbase/IWSDSSLClientCertificate::GetClientCertificate
 ms.prod: windows
 ms.technology: windows-sdk

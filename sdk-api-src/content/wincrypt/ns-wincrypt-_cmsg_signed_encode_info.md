@@ -4,10 +4,10 @@ title: "_CMSG_SIGNED_ENCODE_INFO"
 author: windows-sdk-content
 description: Contains information to be passed to CryptMsgOpenToEncode if dwMsgType is CMSG_SIGNED.
 old-location: security\cmsg_signed_encode_info.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 93138744-8316-461b-908a-1eab47e83f63
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCMSG_SIGNED_ENCODE_INFO, CMSG_SIGNED_ENCODE_INFO, CMSG_SIGNED_ENCODE_INFO structure [Security], _CMSG_SIGNED_ENCODE_INFO, _crypto2_cmsg_signed_encode_info, security.cmsg_signed_encode_info, wincrypt/CMSG_SIGNED_ENCODE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,8 +73,7 @@ Number of elements in the <b>rgSigners</b> array.
 ### -field rgSigners
 
 Array of pointers to 
-			   <a href="https://msdn.microsoft.com/f599226d-ddd7-455f-b650-74b91674d8f9">CMSG_SIGNER_ENCODE_INFO</a>
-				structures each holding signer information.
+			   <a href="https://msdn.microsoft.com/f599226d-ddd7-455f-b650-74b91674d8f9">CMSG_SIGNER_ENCODE_INFO</a>structures each holding signer information.
 
 
 ### -field cCertEncoded

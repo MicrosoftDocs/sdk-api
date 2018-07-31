@@ -7,7 +7,7 @@ old-location: menurc\destroyacceleratortable.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\destroyacceleratortable.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: DestroyAcceleratorTable, DestroyAcceleratorTable function [Menus and Other Resources], _win32_DestroyAcceleratorTable, _win32_destroyacceleratortable_cpp, menurc.destroyacceleratortable, winui._win32_destroyacceleratortable, winuser/DestroyAcceleratorTable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ Destroys an accelerator table.
 
 Type: <b>HACCEL</b>
 
-A handle to the accelerator table to be destroyed. This handle must have been created by a call to the <a href="https://msdn.microsoft.com/library/ms646365(v=VS.85).aspx">CreateAcceleratorTable</a> or <a href="https://msdn.microsoft.com/library/ms646370(v=VS.85).aspx">LoadAccelerators</a> function.
+A handle to the accelerator table to be destroyed. This handle must have been created by a call to the <a href="https://msdn.microsoft.com/ea8ba5dd-0fa8-4cab-9f48-69fb5cd38a51">CreateAcceleratorTable</a> or <a href="https://msdn.microsoft.com/52ead129-a4fe-413a-a86a-349d4bd816db">LoadAccelerators</a> function.
 
 
 ## -returns
@@ -76,7 +76,7 @@ A handle to the accelerator table to be destroyed. This handle must have been cr
 
 Type: <b>BOOL</b>
 
-If the function succeeds, the return value is nonzero. However, if the table has been loaded more than one call to <a href="https://msdn.microsoft.com/library/ms646370(v=VS.85).aspx">LoadAccelerators</a>, the function will return a nonzero value only when <b>DestroyAcceleratorTable</b> has been called an equal number of times.
+If the function succeeds, the return value is nonzero. However, if the table has been loaded more than one call to <a href="https://msdn.microsoft.com/52ead129-a4fe-413a-a86a-349d4bd816db">LoadAccelerators</a>, the function will return a nonzero value only when <b>DestroyAcceleratorTable</b> has been called an equal number of times.
 
 If the function fails, the return value is zero.
 
@@ -92,19 +92,19 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646364(v=VS.85).aspx">CopyAcceleratorTable</a>
+<a href="https://msdn.microsoft.com/9dd87782-aa38-44eb-a35d-3d990cece223">CopyAcceleratorTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646365(v=VS.85).aspx">CreateAcceleratorTable</a>
+<a href="https://msdn.microsoft.com/ea8ba5dd-0fa8-4cab-9f48-69fb5cd38a51">CreateAcceleratorTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645526(v=VS.85).aspx">Keyboard Accelerators</a>
+<a href="https://msdn.microsoft.com/cb5e268d-8e38-4682-a736-ecf9bcc34acd">Keyboard Accelerators</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646370(v=VS.85).aspx">LoadAccelerators</a>
+<a href="https://msdn.microsoft.com/52ead129-a4fe-413a-a86a-349d4bd816db">LoadAccelerators</a>
 
 
 
@@ -112,7 +112,7 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646373(v=VS.85).aspx">TranslateAccelerator</a>
+<a href="https://msdn.microsoft.com/0d8a970c-68b2-45e6-8702-2490029c1e1d">TranslateAccelerator</a>
  
 
  

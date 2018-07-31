@@ -8,7 +8,7 @@ old-location: wmformat\iwmwriteradvanced_addsink.htm
 old-project: wmformat
 ms.assetid: 65763ac3-fba0-4de6-9c2e-4e241bbe5f13
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: AddSink, AddSink method [windows Media Format], AddSink method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],AddSink method, IWMWriterAdvanced.AddSink, IWMWriterAdvanced::AddSink, IWMWriterAdvancedAddSink, wmformat.iwmwriteradvanced_addsink, wmsdkidl/IWMWriterAdvanced::AddSink
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,11 +61,9 @@ The <b>AddSink</b> method adds a writer sink to receive writer output. The Windo
 
 <table>
 <tr>
-<th>
-            Sink
+<th>Sink
           </th>
-<th>
-            Function
+<th>Function
           </th>
 </tr>
 <tr>

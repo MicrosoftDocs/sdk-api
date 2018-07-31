@@ -7,7 +7,7 @@ old-location: vhd\attachvirtualdisk.htm
 old-project: VStor
 ms.assetid: 528370bc-77d4-4983-8910-d941165a037c
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/29/2018
 ms.keywords: AttachVirtualDisk, AttachVirtualDisk function [VHD], vdssys/AttachVirtualDisk, vhd.attachvirtualdisk, vhd.surfacevirtualdisk, virtdisk/AttachVirtualDisk
 ms.prod: windows
 ms.technology: windows-sdk

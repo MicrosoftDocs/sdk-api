@@ -7,7 +7,7 @@ old-location: display\wndobj_cenumstart.htm
 old-project: display
 ms.assetid: 7d3951de-807f-4d54-a022-e2610987d965
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: WNDOBJ_cEnumStart, WNDOBJ_cEnumStart function [Display Devices], display.wndobj_cenumstart, gdifncs_25b715da-7083-4602-b503-0f3a36a2dc1f.xml, winddi/WNDOBJ_cEnumStart
 ms.prod: windows
 ms.technology: windows-sdk

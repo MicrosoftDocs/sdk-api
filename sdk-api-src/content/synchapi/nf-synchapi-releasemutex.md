@@ -4,10 +4,10 @@ title: ReleaseMutex function
 author: windows-sdk-content
 description: Releases ownership of the specified mutex object.
 old-location: base\releasemutex.htm
-old-project: sync
+old-project: Sync
 ms.assetid: c3e4daa8-92de-455c-847c-ea59225b3aa2
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/29/2018
 ms.keywords: ReleaseMutex, ReleaseMutex function, _win32_releasemutex, base.releasemutex, synchapi/ReleaseMutex, winbase/ReleaseMutex
 ms.prod: windows
 ms.technology: windows-sdk

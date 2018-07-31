@@ -4,10 +4,10 @@ title: MFT_ENUM_DATA_V0
 author: windows-sdk-content
 description: Contains information defining the boundaries for and starting place of an enumeration of update sequence number (USN) change journal records.
 old-location: fs\mft_enum_data_str.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: bd098d10-b30f-44b0-a379-2d57e33fe1c9
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "*PMFT_ENUM_DATA, *PMFT_ENUM_DATA_V0, MFT_ENUM_DATA, MFT_ENUM_DATA_V0, MFT_ENUM_DATA_V0 structure [Files], PMFT_ENUM_DATA_V0, PMFT_ENUM_DATA_V0 structure pointer [Files], _win32_mft_enum_data_str, base.mft_enum_data_str, fs.mft_enum_data_str, winioctl/MFT_ENUM_DATA_V0, winioctl/PMFT_ENUM_DATA_V0"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_UpdateItem.htm
 old-project: shell
 ms.assetid: deb87d2f-74da-450a-a424-505240eadacb
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateItem method, ISyncMgrControl.UpdateItem, ISyncMgrControl::UpdateItem, UpdateItem, UpdateItem method [Windows Shell], UpdateItem method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateItem, shell.ISyncMgrControl_UpdateItem, syncmgr/ISyncMgrControl::UpdateItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,8 +102,7 @@ If SYNCMGR_CF_WAIT is set in the <i>nControlFlags</i> parameter, <b>UpdateItem</
 
 
 
-
-        	The following example shows the usage of <b>ISyncMgrControl::UpdateItem</b> by a handler's procedure.
+The following example shows the usage of <b>ISyncMgrControl::UpdateItem</b> by a handler's procedure.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

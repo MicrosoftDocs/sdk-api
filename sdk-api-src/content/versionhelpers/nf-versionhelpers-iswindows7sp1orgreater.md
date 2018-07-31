@@ -4,10 +4,10 @@ title: IsWindows7SP1OrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows 7 with Service Pack 1 (SP1) version.
 old-location: base\iswindows7sp1orgreater.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: E8AD3423-91EF-4ECE-9EF2-808C68CEA861
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: IsWindows7SP1OrGreater, IsWindows7SP1OrGreater function, base.iswindows7sp1orgreater, versionhelpers/IsWindows7SP1OrGreater
 ms.prod: windows
 ms.technology: windows-sdk

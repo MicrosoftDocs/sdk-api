@@ -4,10 +4,10 @@ title: URL_COMPONENTS
 author: windows-sdk-content
 description: The URL_COMPONENTS structure contains the constituent parts of a URL. This structure is used with the WinHttpCrackUrl and WinHttpCreateUrl functions.
 old-location: http\url_components.htm
-old-project: winhttp
+old-project: WinHttp
 ms.assetid: 4d2c6f82-6b61-4a7b-a5d7-560152e25302
 ms.author: windowssdkdev
-ms.date: 03/09/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPURL_COMPONENTS, INTERNET_SCHEME_HTTP, INTERNET_SCHEME_HTTPS, URL_COMPONENTS, URL_COMPONENTS structure [HTTP], URL_COMPONENTSW, http.url_components, winhttp/URL_COMPONENTS, winhttp_url_components_structure"
 ms.prod: windows
 ms.technology: windows-sdk

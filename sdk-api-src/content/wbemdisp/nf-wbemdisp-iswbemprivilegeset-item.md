@@ -7,7 +7,7 @@ old-location: wmi\swbemprivilegeset_item.htm
 old-project: WmiSdk
 ms.assetid: 93a35e65-99ee-40da-9415-4151ac635091
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemPrivilegeSet interface [Windows Management Instrumentation],Item method, ISWbemPrivilegeSet.Item, ISWbemPrivilegeSet::Item, Item, Item method [Windows Management Instrumentation], Item method [Windows Management Instrumentation],ISWbemPrivilegeSet interface, Item method [Windows Management Instrumentation],SWbemPrivilegeSet object, SWbemPrivilegeSet object [Windows Management Instrumentation],Item method, SWbemPrivilegeSet.Item, _hmm_swbemprivilegeset.item, wmi.swbemprivilegeset_item
 ms.prod: windows
 ms.technology: windows-sdk

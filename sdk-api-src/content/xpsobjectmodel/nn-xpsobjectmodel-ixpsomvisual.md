@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisual.htm
 old-project: printdocs
 ms.assetid: f2ec412c-aece-4b20-a721-e6c17615e56b
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], IXpsOMVisual interface [XPS Documents and Packaging],described, xps.ixpsomvisual, xpsobjectmodel/IXpsOMVisual
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IXpsOMVisual</b> interface has these methods.
 <a href="https://msdn.microsoft.com/f56fa077-749c-422b-b82d-161f9e5d4766">GetClipGeometry</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/d3f74c1e-49ef-40ee-a2f4-b6d198b57624">IXpsOMGeometry</a> interface that contains the resolved geometry of the visual's clipping region.
+Gets a pointer to the <a href="https://msdn.microsoft.com/d3f74c1e-49ef-40ee-a2f4-b6d198b57624">IXpsOMGeometry</a> interface that contains the resolved geometry of the visual's clipping region.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IXpsOMVisual</b> interface has these methods.
 <a href="https://msdn.microsoft.com/19efe0d7-6b11-41bc-80e7-e43e64d977b4">GetClipGeometryLocal</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/d3f74c1e-49ef-40ee-a2f4-b6d198b57624">IXpsOMGeometry</a> interface that contains the local, unshared geometry of the visual's clipping region.
+Gets a pointer to the <a href="https://msdn.microsoft.com/d3f74c1e-49ef-40ee-a2f4-b6d198b57624">IXpsOMGeometry</a> interface that contains the local, unshared geometry of the visual's clipping region.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IXpsOMVisual</b> interface has these methods.
 <a href="https://msdn.microsoft.com/aa101ac6-65e8-4f6b-a6fa-59f3a003ffc5">GetClipGeometryLookup</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the lookup key for the <a href="https://msdn.microsoft.com/d3f74c1e-49ef-40ee-a2f4-b6d198b57624">IXpsOMGeometry</a> interface in a resource dictionary that contains the visual's clipping region.
+Gets the lookup key for the <a href="https://msdn.microsoft.com/d3f74c1e-49ef-40ee-a2f4-b6d198b57624">IXpsOMGeometry</a> interface in a resource dictionary that contains the visual's clipping region.
             
 
 </td>
@@ -107,8 +104,7 @@ The <b>IXpsOMVisual</b> interface has these methods.
 <a href="https://msdn.microsoft.com/297ddac1-8383-423a-8e47-7b4466e7e5d1">GetHyperlinkNavigateUri</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface  to which this visual object links.
+Gets a pointer to the <a href="http://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface  to which this visual object links.
             
 
 </td>
@@ -127,8 +123,7 @@ Gets a value that indicates whether the visual is the target of a hyperlink.
 <a href="https://msdn.microsoft.com/22cddce5-f881-4585-9ab8-d8cdce06511f">GetLanguage</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <b>Language</b> property of the visual and of its contents.
+Gets the <b>Language</b> property of the visual and of its contents.
             
 
 </td>
@@ -138,8 +133,7 @@ Gets a value that indicates whether the visual is the target of a hyperlink.
 <a href="https://msdn.microsoft.com/0a8b592e-c80e-4a0f-b9a4-8c362da43ced">GetName</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <b>Name</b> property of the visual.
+Gets the <b>Name</b> property of the visual.
             
 
 </td>
@@ -158,8 +152,7 @@ Gets the opacity value of this visual.
 <a href="https://msdn.microsoft.com/df5b770e-cc66-45ee-b865-2959255920bf">GetOpacityMaskBrush</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface of the visual's opacity mask brush.
+Gets a pointer to the <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface of the visual's opacity mask brush.
             
 
 </td>
@@ -187,8 +180,7 @@ Gets the name of the lookup key of the  shared opacity mask brush in a resource 
 <a href="https://msdn.microsoft.com/966916c9-8b63-468b-80fb-0c4863ff893a">GetTransform</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface that contains the visual's resolved matrix transform.
+Gets a pointer to the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface that contains the visual's resolved matrix transform.
             
 
 </td>
@@ -198,8 +190,7 @@ Gets the name of the lookup key of the  shared opacity mask brush in a resource 
 <a href="https://msdn.microsoft.com/a7152ba0-2b65-4c66-b99b-7450a8cdb6fd">GetTransformLocal</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface that contains the local, unshared, resolved matrix transform for the visual.
+Gets a pointer to the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface that contains the local, unshared, resolved matrix transform for the visual.
             
 
 </td>
@@ -209,8 +200,7 @@ Gets the name of the lookup key of the  shared opacity mask brush in a resource 
 <a href="https://msdn.microsoft.com/83d30b9c-4d3d-4fca-8dea-121074642b39">GetTransformLookup</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the lookup key name of the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface in a resource dictionary that contains the resolved matrix transform for the visual.
+Gets the lookup key name of the <a href="https://msdn.microsoft.com/d21457bc-9445-4ca2-ab9f-1e3f55e2e635">IXpsOMMatrixTransform</a> interface in a resource dictionary that contains the resolved matrix transform for the visual.
             
 
 </td>
@@ -256,8 +246,7 @@ Specifies whether the visual is the target of a hyperlink.
 <a href="https://msdn.microsoft.com/19a7c10d-ceea-4303-a655-a3cb8b910377">SetLanguage</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <b>Language</b> property of the visual.
+Sets the <b>Language</b> property of the visual.
             
 
 </td>
@@ -267,8 +256,7 @@ Specifies whether the visual is the target of a hyperlink.
 <a href="https://msdn.microsoft.com/8bf30b4c-bddf-4ca8-91c6-af739125829c">SetName</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <b>Name</b>  property of the visual.
+Sets the <b>Name</b>  property of the visual.
             
 
 </td>
@@ -287,8 +275,7 @@ Sets the opacity value of the visual.
 <a href="https://msdn.microsoft.com/d1b84156-b7ad-4dac-97d9-60aaedcee210">SetOpacityMaskBrushLocal</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface pointer as the local, unshared opacity mask brush.
+Sets the <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface pointer as the local, unshared opacity mask brush.
             
 
 </td>

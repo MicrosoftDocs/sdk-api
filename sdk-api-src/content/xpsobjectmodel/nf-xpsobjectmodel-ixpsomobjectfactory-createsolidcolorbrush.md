@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createsolidcolorbrush.htm
 old-project: printdocs
 ms.assetid: 58690d93-9e3f-487c-956e-bb21122ecc96
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CreateSolidColorBrush, CreateSolidColorBrush method [XPS Documents and Packaging], CreateSolidColorBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateSolidColorBrush method, IXpsOMObjectFactory.CreateSolidColorBrush, IXpsOMObjectFactory::CreateSolidColorBrush, xps.ixpsomobjectfactory_createsolidcolorbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateSolidColorBrush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-
-          Creates an <a href="https://msdn.microsoft.com/26580a25-09d1-4a9b-85c3-aa8ddcc97867">IXpsOMSolidColorBrush</a> interface, which specifies a brush of a single, solid color.
+Creates an <a href="https://msdn.microsoft.com/26580a25-09d1-4a9b-85c3-aa8ddcc97867">IXpsOMSolidColorBrush</a> interface, which specifies a brush of a single, solid color.
 
 
 ## -parameters
@@ -74,8 +73,7 @@ The <a href="https://msdn.microsoft.com/8a344300-c3fc-4225-bfa5-d5d33798a094">IX
 
 ### -param solidColorBrush [out, retval]
 
-
-            A pointer to the new <a href="https://msdn.microsoft.com/26580a25-09d1-4a9b-85c3-aa8ddcc97867">IXpsOMSolidColorBrush</a> interface.
+A pointer to the new <a href="https://msdn.microsoft.com/26580a25-09d1-4a9b-85c3-aa8ddcc97867">IXpsOMSolidColorBrush</a> interface.
 
 
 ## -returns

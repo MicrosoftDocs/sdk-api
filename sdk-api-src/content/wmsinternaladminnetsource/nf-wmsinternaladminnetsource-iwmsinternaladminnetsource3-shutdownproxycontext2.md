@@ -7,7 +7,7 @@ old-location: wmformat\iwmsinternaladminnetsource3_shutdownproxycontext2.htm
 old-project: wmformat
 ms.assetid: 83f4f504-6447-4792-9fc2-1bf479f1e6a2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMSInternalAdminNetSource3 interface [windows Media Format],ShutdownProxyContext2 method, IWMSInternalAdminNetSource3.ShutdownProxyContext2, IWMSInternalAdminNetSource3::ShutdownProxyContext2, IWMSInternalAdminNetSource3ShutdownProxyContext2, ShutdownProxyContext2, ShutdownProxyContext2 method [windows Media Format], ShutdownProxyContext2 method [windows Media Format],IWMSInternalAdminNetSource3 interface, wmformat.iwmsinternaladminnetsource3_shutdownproxycontext2, wmsinternaladminnetsource/IWMSInternalAdminNetSource3::ShutdownProxyContext2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,12 +2,12 @@
 UID: NS:webservices._WS_THUMBPRINT_CERT_CREDENTIAL
 title: "_WS_THUMBPRINT_CERT_CREDENTIAL"
 author: windows-sdk-content
-description: The type for specifying a certificate credential using the certificate's thumbprint, store location and store name.
+description: The type for specifying a certificate credential using the certificate's thumbprint, store location and store name. The specified credential is loaded when the containing channel or listener is opened.
 old-location: wsw\ws_thumbprint_cert_credential.htm
 old-project: wsw
 ms.assetid: b1e7b6a6-1f71-4bcd-9c0e-9a46b963b19b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_THUMBPRINT_CERT_CREDENTIAL, WS_THUMBPRINT_CERT_CREDENTIAL structure [Web Services for Windows], _WS_THUMBPRINT_CERT_CREDENTIAL, webservices/WS_THUMBPRINT_CERT_CREDENTIAL, wsw.ws_thumbprint_cert_credential
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,13 +51,11 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 The type for specifying a certificate credential using the
 certificate's thumbprint, store location and store name.  The
 specified credential is loaded when the containing channel or listener
 is opened.
             
-
 
 The thumbprint is the best option for specifying a certificate when
 subject name based specification is expected to be ambiguous due to
@@ -73,13 +71,11 @@ the cert store being specified.
 
 ### -field credential
 
-
 The base type from which this type and all other certificate credential types derive.
                 
 
 
 ### -field storeLocation
-
 
 The certificate store location (such as CERT_SYSTEM_STORE_CURRENT_USER
 or CERT_SYSTEM_STORE_LOCAL_MACHINE) that contains the specified
@@ -89,14 +85,12 @@ certificate.
 
 ### -field storeName
 
-
 The certificate store name (such as "My") that contains the specified
 certificate.
                 
 
 
 ### -field thumbprint
-
 
 The SHA-1 thumbprint (such as
 "c0f89c8d4e4e80f250b58c3fae944a0edee02804") of the specified

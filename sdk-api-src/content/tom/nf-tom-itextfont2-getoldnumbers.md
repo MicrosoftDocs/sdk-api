@@ -4,10 +4,10 @@ title: ITextFont2::GetOldNumbers
 author: windows-sdk-content
 description: Gets whether old-style numbers are active.
 old-location: controls\itextfont2_getoldnumbers.htm
-old-project: controls
+old-project: Controls
 ms.assetid: 8e800840-5ca2-4fbf-94c2-d51aa73bf188
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetOldNumbers, GetOldNumbers method [Windows Controls], GetOldNumbers method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetOldNumbers method, ITextFont2.GetOldNumbers, ITextFont2::GetOldNumbers, controls.itextfont2_getoldnumbers, tom/ITextFont2::GetOldNumbers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Gets whether old-style numbers are active.
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>

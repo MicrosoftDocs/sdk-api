@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatawriter_removevalue.htm
 old-project: wic
 ms.assetid: cc47b0d1-5772-4609-9696-816d39d04b34
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWICMetadataWriter interface [Windows Imaging Component],RemoveValue method, IWICMetadataWriter.RemoveValue, IWICMetadataWriter::RemoveValue, RemoveValue, RemoveValue method [Windows Imaging Component], RemoveValue method [Windows Imaging Component],IWICMetadataWriter interface, _wic_codec_iwicmetadatawriter_removevalue, wic._wic_codec_iwicmetadatawriter_removevalue, wincodecsdk/IWICMetadataWriter::RemoveValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,14 @@ Removes the metadata item that matches the given parameters.
 
 ### -param pvarSchema [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b>const <a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 Pointer to the metadata schema property.
 
 
 ### -param pvarId [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b>const <a href="_stg_propvariant">PROPVARIANT</a>*</b>
 
 Pointer to the metadata id property.
 

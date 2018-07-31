@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextProvider_GetSelection.htm
 old-project: WinAuto
 ms.assetid: f5c0b2ed-e891-4856-8829-617a69d4708a
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetSelection, GetSelection method [Windows Accessibility], GetSelection method [Windows Accessibility],ITextProvider interface, ITextProvider interface [Windows Accessibility],GetSelection method, ITextProvider.GetSelection, ITextProvider::GetSelection, uiauto.uiauto_ITextProvider_GetSelection, uiauto_ITextProvider_GetSelection, uiautomationcore/ITextProvider::GetSelection, winauto.uiauto_ITextProvider_GetSelection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        Retrieves a collection of text ranges that represents the currently selected text in a text-based control.  
+Retrieves a collection of text ranges that represents the currently selected text in a text-based control.  
         
 
 
@@ -84,8 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        For UI Automation providers that support text selection, 
+For UI Automation providers that support text selection, 
         the provider should implement this method and also return a <a href="https://msdn.microsoft.com/a1f91515-2bc8-4560-850d-34c880c78c43">ITextProvider::SupportedTextSelection</a> value.
         
 

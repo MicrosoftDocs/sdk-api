@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimerupdatehandler_settimerclienteventhand
 old-project: UIAnimation
 ms.assetid: ce213fc5-1329-413f-abf1-a4ab7c78818e
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationTimerUpdateHandler interface [Windows Animation],SetTimerClientEventHandler method, IUIAnimationTimerUpdateHandler.SetTimerClientEventHandler, IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler, SetTimerClientEventHandler, SetTimerClientEventHandler method [Windows Animation], SetTimerClientEventHandler method [Windows Animation],IUIAnimationTimerUpdateHandler interface, uianimation.iuianimationtimerupdatehandler_settimerclienteventhandler, uianimation/IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Specifies a handler for timer client status change events.
+Specifies a handler for timer client status change events.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param handler [in]
 
-
-               A handler for timer client events.  The specified object must implement
+A handler for timer client events.  The specified object must implement
                <a href="https://msdn.microsoft.com/8ca8f7d8-e698-4c55-8241-5c8f7b47f0e8">IUIAnimationTimerUpdateHandler</a>.
             
 
@@ -95,8 +93,7 @@ If the update handler is already connected to the timer, this method returns <b>
 
 
 
-<a href="https://msdn.microsoft.com/c7383df5-dbd4-4cae-a682-47f84c2e8106">
-      IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler</a>
+<a href="https://msdn.microsoft.com/c7383df5-dbd4-4cae-a682-47f84c2e8106">IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mstv\iencoderapi_getparametervalues.htm
 old-project: mstv
 ms.assetid: 406316b5-1de0-4a89-b1bc-2f3b63ab0739
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetParameterValues, GetParameterValues method [Microsoft TV Technologies], GetParameterValues method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetParameterValues method, IEncoderAPI.GetParameterValues, IEncoderAPI::GetParameterValues, IEncoderAPIGetParameterValues, mstv.iencoderapi_getparametervalues, strmif/IEncoderAPI::GetParameterValues
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,22 +64,19 @@ The <b>GetParameterValues</b> method retrieves the list of values supported by t
 
 ### -param Api [in]
 
-
-            Pointer to a GUID that specifies the parameter.
+Pointer to a GUID that specifies the parameter.
           
 
 
 ### -param Values [out]
 
-
-            Address of a pointer to an array that receives the values.
+Address of a pointer to an array that receives the values.
           
 
 
 ### -param ValuesCount [out]
 
-
-            Indicates the number of entries placed into the array.
+Indicates the number of entries placed into the array.
             
 
 

@@ -4,10 +4,10 @@ title: WSAEnumNameSpaceProvidersW function
 author: windows-sdk-content
 description: The WSAEnumNameSpaceProviders function retrieves information on available namespace providers.
 old-location: winsock\wsaenumnamespaceproviders_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: f5b6cd42-c5cb-43b6-bb96-fd260217e252
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: WSAEnumNameSpaceProviders, WSAEnumNameSpaceProviders function [Winsock], WSAEnumNameSpaceProvidersA, WSAEnumNameSpaceProvidersW, _win32_wsaenumnamespaceproviders_2, winsock.wsaenumnamespaceproviders_2, winsock2/WSAEnumNameSpaceProviders, winsock2/WSAEnumNameSpaceProvidersA, winsock2/WSAEnumNameSpaceProvidersW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>WSAEnumNameSpaceProviders</b> function retrieves information on available namespace providers.
 
 
@@ -66,7 +65,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ### -param lpdwBufferLength [in, out]
 
 On input, the number of bytes contained in the buffer pointed to by <i>lpnspBuffer</i>. On output (if the function fails, and the error is 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a>), the minimum number of bytes to pass for the <i>lpnspBuffer</i> to retrieve all the requested information. The buffer passed to <b>WSAEnumNameSpaceProviders</b> must be sufficient to hold all of the namespace information.
+<a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a>), the minimum number of bytes to pass for the <i>lpnspBuffer</i> to retrieve all the requested information. The buffer passed to <b>WSAEnumNameSpaceProviders</b> must be sufficient to hold all of the namespace information.
 
 
 ### -param lpnspBuffer [out]
@@ -93,7 +92,7 @@ The
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -105,7 +104,7 @@ The <i>lpnspBuffer</i> parameter was a <b>NULL</b> pointer or the buffer length,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -117,7 +116,7 @@ The WS2_32.DLL has not been initialized. The application must first call
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -135,8 +134,7 @@ There was insufficient memory to perform the operation.
 
 
 
-The <b>WSAEnumNameSpaceProviders</b>
-		function returns information on available namespace providers in the buffer pointed to by the <i>lpnspBuffer</i> parameter. The returned buffer contains an array of <a href="https://msdn.microsoft.com/a5c76657-df62-471a-95e9-8017cad47b00">WSANAMESPACE_INFO</a> structures located consecutively at the head of the buffer. Variable sized information referenced by pointers in the <b>WSANAMESPACE_INFO</b> structures point to locations within the buffer located between the end of the fixed <b>WSANAMESPACE_INFO</b> structures and the end of the buffer. The number of <b>WSANAMESPACE_INFO</b> structures filled in is returned by the  
+The <b>WSAEnumNameSpaceProviders</b>function returns information on available namespace providers in the buffer pointed to by the <i>lpnspBuffer</i> parameter. The returned buffer contains an array of <a href="https://msdn.microsoft.com/a5c76657-df62-471a-95e9-8017cad47b00">WSANAMESPACE_INFO</a> structures located consecutively at the head of the buffer. Variable sized information referenced by pointers in the <b>WSANAMESPACE_INFO</b> structures point to locations within the buffer located between the end of the fixed <b>WSANAMESPACE_INFO</b> structures and the end of the buffer. The number of <b>WSANAMESPACE_INFO</b> structures filled in is returned by the  
 <b>WSAEnumNameSpaceProviders</b> function.
 
 Each <a href="https://msdn.microsoft.com/a5c76657-df62-471a-95e9-8017cad47b00">WSANAMESPACE_INFO</a>  structure entry contains the provider-specific information on the namespace entry

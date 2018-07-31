@@ -4,10 +4,10 @@ title: IOCTL_DISK_SET_PARTITION_INFO_EX
 author: windows-sdk-content
 description: Sets partition information for the specified disk partition, including layout information for AT and EFI (Extensible Firmware Interface) partitions.
 old-location: fs\ioctl_disk_set_partition_info_ex.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 6feec7a9-5b57-406b-bbea-04cf9cdaf56b
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_DISK_SET_PARTITION_INFO_EX, IOCTL_DISK_SET_PARTITION_INFO_EX control, IOCTL_DISK_SET_PARTITION_INFO_EX control code [Files], _win32_ioctl_disk_set_partition_info_ex, base.ioctl_disk_set_partition_info_ex, fs.ioctl_disk_set_partition_info_ex, winioctl/IOCTL_DISK_SET_PARTITION_INFO_EX
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,15 +61,11 @@ To perform this operation, call the
 </tr>
 <tr>
 <td>
-<pre>
-BOOL DeviceIoControl(
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,                 // handle to device
-  IOCTL_DISK_SET_PARTITION_INFO_EX, // dwIoControlCode
-  (LPVOID) lpInBuffer,              // input buffer
+  IOCTL_DISK_SET_PARTITION_INFO_EX, // dwIoControlCode(LPVOID) lpInBuffer,              // input buffer
   (DWORD) nInBufferSize,            // size of input buffer
-  NULL,                             // lpOutBuffer
-  0,                                // nOutBufferSize
-  (LPDWORD) lpBytesReturned,        // number of bytes returned
+  NULL,                             // lpOutBuffer0,                                // nOutBufferSize(LPDWORD) lpBytesReturned,        // number of bytes returned
   (LPOVERLAPPED) lpOverlapped       // OVERLAPPED structure
 );</pre>
 </td>

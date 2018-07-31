@@ -7,7 +7,7 @@ old-location: intl\isdbcsleadbyteex.htm
 old-project: Intl
 ms.assetid: 1ca67e7e-a2a7-433f-b2b6-8fa5ecc50354
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_THREAD_ACP, IsDBCSLeadByteEx, IsDBCSLeadByteEx function [Internationalization for Windows Applications], _win32_IsDBCSLeadByteEx, intl.isdbcsleadbyteex, winnls/IsDBCSLeadByteEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,8 +90,7 @@ Use system default Windows ANSI code page.
 </dl>
 </td>
 <td width="60%">
-
-                Use the system default Macintosh code page.
+Use the system default Macintosh code page.
 
 </td>
 </tr>
@@ -111,8 +110,7 @@ Use system default OEM code page.
 </dl>
 </td>
 <td width="60%">
-
-                Use the Windows ANSI code page for the current thread.
+Use the Windows ANSI code page for the current thread.
 
 </td>
 </tr>
@@ -144,7 +142,7 @@ In general, instead of attempting low-level manipulation of code page data, appl
 
 Lead byte values are specific to each distinct DBCS. Some byte values can appear in a single code page as both the lead and trail byte of a DBCS character. Thus, <b>IsDBCSLeadByteEx</b> can only indicate a potential lead byte value.
 
-To make sense of a DBCS string, an application normally starts at the beginning of the string and scans forward, keeping track when it encounters a lead byte, and treating the next byte as the trailing part of the same character. To back up, the application should use <a href="https://msdn.microsoft.com/library/ms647472(v=VS.85).aspx">CharPrevExA</a> instead of attempting to develop its own algorithm.
+To make sense of a DBCS string, an application normally starts at the beginning of the string and scans forward, keeping track when it encounters a lead byte, and treating the next byte as the trailing part of the same character. To back up, the application should use <a href="_win32_CharPrevExA_cpp">CharPrevExA</a> instead of attempting to develop its own algorithm.
 
 
 

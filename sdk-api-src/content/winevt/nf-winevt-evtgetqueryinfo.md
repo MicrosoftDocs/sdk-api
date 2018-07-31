@@ -7,7 +7,7 @@ old-location: wes\evtgetqueryinfo.htm
 old-project: WES
 ms.assetid: 311a2060-90d9-41ec-b489-c07d3e813187
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtGetQueryInfo, EvtGetQueryInfo function [EventLog], wes.evtgetqueryinfo, winevt/EvtGetQueryInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,6 @@ The size of the <i>PropertyValueBuffer</i> buffer, in bytes.
 
 
 ### -param PropertyValueBuffer [in]
-
 
 A caller-allocated buffer that will receive the query information. The buffer contains an <a href="https://msdn.microsoft.com/4b0f338b-0b66-4ba5-9e29-b15afe15a2d3">EVT_VARIANT</a> object. You can set this parameter to <b>NULL</b> to determine the required buffer size.
 

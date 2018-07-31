@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextPattern_get_SupportedTextSelectionConPat.htm
 old-project: WinAuto
 ms.assetid: d938197b-9500-4744-a0d7-0d0ac5dd58b9
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: TextPattern_get_SupportedTextSelection, TextPattern_get_SupportedTextSelection function [Windows Accessibility], uiauto.uiauto_TextPattern_get_SupportedTextSelectionConPat, uiauto_TextPattern_get_SupportedTextSelectionConPat, uiautomationcoreapi/TextPattern_get_SupportedTextSelection, winauto.uiauto_TextPattern_get_SupportedTextSelectionConPat
 ms.prod: windows
 ms.technology: windows-sdk

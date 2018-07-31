@@ -7,7 +7,7 @@ old-location: dshow\iamtimecodedisplay_settcdisplay.htm
 old-project: DirectShow
 ms.assetid: 34d55c5a-d213-4fb2-b81c-b117d025f3ec
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMTimecodeDisplay interface [DirectShow],SetTCDisplay method, IAMTimecodeDisplay.SetTCDisplay, IAMTimecodeDisplay::SetTCDisplay, IAMTimecodeDisplaySetTCDisplay, SetTCDisplay, SetTCDisplay method [DirectShow], SetTCDisplay method [DirectShow],IAMTimecodeDisplay interface, dshow.iamtimecodedisplay_settcdisplay, strmif/IAMTimecodeDisplay::SetTCDisplay
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Timecode display characteristic. Specify one of the following properties you wan
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -116,11 +114,9 @@ If ED_TCD_SOURCE specified in <i>Param</i>, set one of the following.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -138,11 +134,9 @@ If ED_TCD_SIZE is specified in <i>Param</i>, set one of the following.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -164,11 +158,9 @@ If ED_TCD_POSITION specified in <i>Param</i>, set one of the following.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -190,11 +182,9 @@ in combination with one of the following.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -216,11 +206,9 @@ If ED_TCD_INTENSITY is specified in <i>Param</i>, set one of the following.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -240,11 +228,9 @@ If ED_TCD_INVERT is specified in <i>Param</i>, set one of the following.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -262,11 +248,9 @@ If ED_TCD_BORDER is specified in <i>Param</i>, set one of the following.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

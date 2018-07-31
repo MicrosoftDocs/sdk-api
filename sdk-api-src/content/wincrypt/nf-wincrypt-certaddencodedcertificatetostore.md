@@ -4,10 +4,10 @@ title: CertAddEncodedCertificateToStore function
 author: windows-sdk-content
 description: Creates a certificate context from an encoded certificate and adds it to the certificate store.
 old-location: security\certaddencodedcertificatetostore.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 7c092bf5-f8b2-47d0-94ee-c8e0f4bca62d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddEncodedCertificateToStore, CertAddEncodedCertificateToStore function [Security], _crypto2_certaddencodedcertificatetostore, security.certaddencodedcertificatetostore, wincrypt/CertAddEncodedCertificateToStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertAddEncodedCertificateToStore</b> function creates a certificate <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> from an encoded certificate and adds it to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a>. The context created does not include any extended properties.
+The <b>CertAddEncodedCertificateToStore</b> function creates a certificate <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> from an encoded certificate and adds it to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a>. The context created does not include any extended properties.
 
 The <b>CertAddEncodedCertificateToStore</b> function also makes a copy of the encoded certificate before adding the certificate to the store.
 
@@ -166,8 +165,7 @@ A pointer to a pointer to the decoded <a href="https://msdn.microsoft.com/db46de
 
 
 
-
-						If the function succeeds, the return value is <b>TRUE</b>.
+If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Some possible error codes follow.
@@ -221,7 +219,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Functions</a>
+<a href="cryptography_functions.htm">Certificate Functions</a>
  
 
  

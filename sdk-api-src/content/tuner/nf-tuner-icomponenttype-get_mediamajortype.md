@@ -7,7 +7,7 @@ old-location: mstv\icomponenttype_get_mediamajortype.htm
 old-project: mstv
 ms.assetid: 4c1fc49d-acca-40fe-85cf-909092ceb5ef
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get_MediaMajorType method, IComponentType.get_MediaMajorType, IComponentType::get_MediaMajorType, IComponentTypeget_MediaMajorType, get_MediaMajorType, get_MediaMajorType method [Microsoft TV Technologies], get_MediaMajorType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get_mediamajortype, tuner/IComponentType::get_MediaMajorType
 ms.prod: windows
 ms.technology: windows-sdk

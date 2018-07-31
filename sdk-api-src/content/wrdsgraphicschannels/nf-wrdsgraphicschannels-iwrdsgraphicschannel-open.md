@@ -4,10 +4,10 @@ title: IWRdsGraphicsChannel::Open
 author: windows-sdk-content
 description: Called to open a channel.
 old-location: termserv\iwrdsgraphicschannel_open.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 3b32b37f-6b1f-4682-9e2e-4a64e5c36e04
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWRdsGraphicsChannel interface [Remote Desktop Services],Open method, IWRdsGraphicsChannel.Open, IWRdsGraphicsChannel::Open, Open, Open method [Remote Desktop Services], Open method [Remote Desktop Services],IWRdsGraphicsChannel interface, termserv.iwrdsgraphicschannel_open, wrdsgraphicschannels/IWRdsGraphicsChannel::Open
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-    Called to open a channel. When the channel is completely open and ready for use, you must call the <a href="https://msdn.microsoft.com/dafff806-8b63-40cd-8b04-efb0497cb043">IWRdsGraphicsChannelEvents::OnChannelOpened</a> method.
+Called to open a channel. When the channel is completely open and ready for use, you must call the <a href="https://msdn.microsoft.com/dafff806-8b63-40cd-8b04-efb0497cb043">IWRdsGraphicsChannelEvents::OnChannelOpened</a> method.
 
 
 ## -parameters

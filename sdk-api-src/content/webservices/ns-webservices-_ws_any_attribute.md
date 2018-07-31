@@ -7,7 +7,7 @@ old-location: wsw\ws_any_attribute.htm
 old-project: wsw
 ms.assetid: 31900554-24d9-44f5-a774-7d3245f5e646
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ANY_ATTRIBUTE, WS_ANY_ATTRIBUTE structure [Web Services for Windows], _WS_ANY_ATTRIBUTE, webservices/WS_ANY_ATTRIBUTE, wsw.ws_any_attribute
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                This type is used to store an attribute
+This type is used to store an attribute
                 that has not been directly mapped to a field.
             
 
@@ -64,22 +63,19 @@ req.product: Windows Address Book 5.0
 
 ### -field localName
 
-
-                    Specifies the localName of the attribute.
+Specifies the localName of the attribute.
                 
 
 
 ### -field ns
 
-
-                    Specifies the namespace of the attribute.
+Specifies the namespace of the attribute.
                 
 
 
 ### -field value
 
-
-                    Specifies the value of the attribute.  This
+Specifies the value of the attribute.  This
                     field may not be <b>NULL</b>.
                 
 
@@ -88,8 +84,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                This structure is used with <a href="https://msdn.microsoft.com/6c428c99-755f-40ab-bc9e-e1a7a3d70c1d">WS_ANY_ATTRIBUTES</a>.
+This structure is used with <a href="https://msdn.microsoft.com/6c428c99-755f-40ab-bc9e-e1a7a3d70c1d">WS_ANY_ATTRIBUTES</a>.
             
 
 

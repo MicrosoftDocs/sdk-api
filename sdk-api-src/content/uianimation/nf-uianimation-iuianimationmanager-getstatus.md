@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager_getstatus.htm
 old-project: UIAnimation
 ms.assetid: 838140c3-12ca-4909-a0f8-713b5472e5a9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetStatus, GetStatus method [Windows Animation], GetStatus method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],GetStatus method, IUIAnimationManager.GetStatus, IUIAnimationManager::GetStatus, uianimation.iuianimationmanager_getstatus, uianimation/IUIAnimationManager::GetStatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Gets the status of the animation manager.
+Gets the status of the animation manager.
 
 
 ## -parameters
@@ -62,17 +61,14 @@ req.product: Windows XP with SP1 and later
 
 ### -param status [out]
 
-
-                The status.
+The status.
 
 
 ## -returns
 
 
 
-
-                
-            If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
+If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
 
 
 
@@ -90,8 +86,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-<a href="https://msdn.microsoft.com/499c74c0-d1e7-4ab4-9c3a-19c2e1abeda8">
-      UI_ANIMATION_MANAGER_STATUS</a>
+<a href="https://msdn.microsoft.com/499c74c0-d1e7-4ab4-9c3a-19c2e1abeda8">UI_ANIMATION_MANAGER_STATUS</a>
  
 
  

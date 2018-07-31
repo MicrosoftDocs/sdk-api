@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_ui_commandtype.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_commandtype.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: UI_COMMANDTYPE, UI_COMMANDTYPE enumeration [Windows Ribbon], UI_COMMANDTYPE_ACTION, UI_COMMANDTYPE_ANCHOR, UI_COMMANDTYPE_BOOLEAN, UI_COMMANDTYPE_COLLECTION, UI_COMMANDTYPE_COLORANCHOR, UI_COMMANDTYPE_COLORCOLLECTION, UI_COMMANDTYPE_COMMANDCOLLECTION, UI_COMMANDTYPE_CONTEXT, UI_COMMANDTYPE_DECIMAL, UI_COMMANDTYPE_FONT, UI_COMMANDTYPE_GROUP, UI_COMMANDTYPE_RECENTITEMS, UI_COMMANDTYPE_UNKNOWN, scenicintent_UI_COMMANDTYPE, uiribbon/UI_COMMANDTYPE, uiribbon/UI_COMMANDTYPE_ACTION, uiribbon/UI_COMMANDTYPE_ANCHOR, uiribbon/UI_COMMANDTYPE_BOOLEAN, uiribbon/UI_COMMANDTYPE_COLLECTION, uiribbon/UI_COMMANDTYPE_COLORANCHOR, uiribbon/UI_COMMANDTYPE_COLORCOLLECTION, uiribbon/UI_COMMANDTYPE_COMMANDCOLLECTION, uiribbon/UI_COMMANDTYPE_CONTEXT, uiribbon/UI_COMMANDTYPE_DECIMAL, uiribbon/UI_COMMANDTYPE_FONT, uiribbon/UI_COMMANDTYPE_GROUP, uiribbon/UI_COMMANDTYPE_RECENTITEMS, uiribbon/UI_COMMANDTYPE_UNKNOWN, windowsribbon.windowsribbon_ui_commandtype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,110 +78,110 @@ The type of command is not known.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd940500(v=VS.85).aspx">Help Button</a>
+<a href="https://msdn.microsoft.com/5f08a8b2-bc83-4256-bcc4-aecfbd07ea51">Help Button</a>
 
 
 
 ### -field UI_COMMANDTYPE_ANCHOR
 
 
-<a href="https://msdn.microsoft.com/library/Dd940489(v=VS.85).aspx">Application Menu</a>
+<a href="https://msdn.microsoft.com/5be93a5b-277b-44c1-be24-a0598a140bfc">Application Menu</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd940494(v=VS.85).aspx">Drop-Down Button</a>
+<a href="https://msdn.microsoft.com/41c5da07-43f7-4544-83be-248941cb8633">Drop-Down Button</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd940505(v=VS.85).aspx">Split Button</a>
+<a href="https://msdn.microsoft.com/0939b3be-fa88-4864-8096-a664ab2e97b5">Split Button</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd940507(v=VS.85).aspx">Tab</a>
+<a href="https://msdn.microsoft.com/7315ca96-73c8-4ea1-bce0-172ebc4dd43a">Tab</a>
 
 
 
 ### -field UI_COMMANDTYPE_CONTEXT
 
 
-<a href="https://msdn.microsoft.com/library/Dd940508(v=VS.85).aspx">Tab Group</a>
+<a href="https://msdn.microsoft.com/5b74ff46-2543-43f3-ab42-dab1bc67a75e">Tab Group</a>
 
 
 
 ### -field UI_COMMANDTYPE_COLLECTION
 
 
-<a href="https://msdn.microsoft.com/library/Dd940492(v=VS.85).aspx">Combo Box</a>
+<a href="https://msdn.microsoft.com/6b7de2ec-dcb7-44cb-b01f-db1ba0643499">Combo Box</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd940496(v=VS.85).aspx">Drop-Down Gallery</a>
+<a href="https://msdn.microsoft.com/10644e10-f903-49f6-aecd-1a63d97fe447">Drop-Down Gallery</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd940501(v=VS.85).aspx">In-Ribbon Gallery</a>
+<a href="https://msdn.microsoft.com/d608dd0d-a0af-49a6-a129-7115195c0df2">In-Ribbon Gallery</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd940506(v=VS.85).aspx">Split Button Gallery</a>
+<a href="https://msdn.microsoft.com/c0fcfe72-d2e9-465d-941a-b3832b36b8c2">Split Button Gallery</a>
 
 
 
 ### -field UI_COMMANDTYPE_COMMANDCOLLECTION
 
 
-<a href="https://msdn.microsoft.com/library/Dd940496(v=VS.85).aspx">Drop-Down Gallery</a>
+<a href="https://msdn.microsoft.com/10644e10-f903-49f6-aecd-1a63d97fe447">Drop-Down Gallery</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd940501(v=VS.85).aspx">In-Ribbon Gallery</a>
+<a href="https://msdn.microsoft.com/d608dd0d-a0af-49a6-a129-7115195c0df2">In-Ribbon Gallery</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd940502(v=VS.85).aspx">Quick Access Toolbar</a>
+<a href="https://msdn.microsoft.com/b2adf4e9-0de1-4c4d-9293-693d0f7cf6fe">Quick Access Toolbar</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd940506(v=VS.85).aspx">Split Button Gallery</a>
+<a href="https://msdn.microsoft.com/c0fcfe72-d2e9-465d-941a-b3832b36b8c2">Split Button Gallery</a>
 
 
 
 ### -field UI_COMMANDTYPE_DECIMAL
 
 
-<a href="https://msdn.microsoft.com/library/Dd940504(v=VS.85).aspx">Spinner</a>
+<a href="https://msdn.microsoft.com/63689ed3-7326-4f7a-b700-d89e9b501ef1">Spinner</a>
 
 
 
 ### -field UI_COMMANDTYPE_BOOLEAN
 
 
-<a href="https://msdn.microsoft.com/library/Dd940509(v=VS.85).aspx">Toggle Button</a>
+<a href="https://msdn.microsoft.com/290052b7-0528-41c5-b6f4-958cc42d502b">Toggle Button</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd940491(v=VS.85).aspx">Check Box</a>
+<a href="https://msdn.microsoft.com/fe07aa5c-1818-41e2-b48d-5fefe50d733f">Check Box</a>
 
 
 
 ### -field UI_COMMANDTYPE_FONT
 
 
-<a href="https://msdn.microsoft.com/library/Dd940498(v=VS.85).aspx">Font Control</a>
+<a href="https://msdn.microsoft.com/6052f2e3-2c9e-432e-9ed6-c1e3a50843d9">Font Control</a>
 
 
 
 ### -field UI_COMMANDTYPE_RECENTITEMS
 
 
-<a href="https://msdn.microsoft.com/library/Dd940503(v=VS.85).aspx">Recent Items</a>
+<a href="https://msdn.microsoft.com/fdead358-d303-46de-9f8e-6fc2832d8e94">Recent Items</a>
 
 
 
 ### -field UI_COMMANDTYPE_COLORANCHOR
 
 
-<a href="https://msdn.microsoft.com/library/Dd940495(v=VS.85).aspx">Drop-Down Color Picker</a>
+<a href="https://msdn.microsoft.com/65e1fc23-7ac0-4bb3-9359-28ce88acf356">Drop-Down Color Picker</a>
 
 
 
@@ -195,7 +195,7 @@ This Command type is not supported by any framework controls.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/8499a096-aac3-4af3-a4c9-eebf53698744">Constants and Enumerations</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: xps\ixpssignature.htm
 old-project: printdocs
 ms.assetid: 23e2f9bd-7b0b-46ef-8ce3-a0c63be554e5
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsSignature, IXpsSignature interface [XPS Documents and Packaging], IXpsSignature interface [XPS Documents and Packaging],described, xps.ixpssignature, xpsdigitalsignature/IXpsSignature
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IXpsSignature</b> interface has these methods.
 <a href="https://msdn.microsoft.com/e4af0aa3-8420-4297-993c-dda4d4f7cf61">GetCertificateEnumerator</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to an <a href="https://msdn.microsoft.com/a66ad728-9d20-44d9-a363-1d2a7927d810">IOpcCertificateEnumerator</a> interface, which enumerates the package certificates that are attached to the signature.
+Gets a pointer to an <a href="https://msdn.microsoft.com/a66ad728-9d20-44d9-a363-1d2a7927d810">IOpcCertificateEnumerator</a> interface, which enumerates the package certificates that are attached to the signature.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IXpsSignature</b> interface has these methods.
 <a href="https://msdn.microsoft.com/98a656c7-714b-4b59-9289-e78dee795eaa">GetCustomObjectEnumerator</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to an <a href="https://msdn.microsoft.com/e82caa1e-4cf8-457f-86d9-24f707544199">IOpcSignatureCustomObjectEnumerator</a> interface, which enumerates the custom objects of the signature.
+Gets a pointer to an <a href="https://msdn.microsoft.com/e82caa1e-4cf8-457f-86d9-24f707544199">IOpcSignatureCustomObjectEnumerator</a> interface, which enumerates the custom objects of the signature.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IXpsSignature</b> interface has these methods.
 <a href="https://msdn.microsoft.com/bcdbd3e0-a19a-448c-92b7-71720eff3386">GetCustomReferenceEnumerator</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to an <a href="https://msdn.microsoft.com/1d0a14c6-826c-419f-9e94-d5929fdbae82">IOpcSignatureReferenceEnumerator</a> interface, which enumerates the custom references of the signature.
+Gets a pointer to an <a href="https://msdn.microsoft.com/1d0a14c6-826c-419f-9e94-d5929fdbae82">IOpcSignatureReferenceEnumerator</a> interface, which enumerates the custom references of the signature.
             
 
 </td>
@@ -107,8 +104,7 @@ The <b>IXpsSignature</b> interface has these methods.
 <a href="https://msdn.microsoft.com/632e5e53-1677-4b55-9085-0def97531a5d">GetPolicy</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b10">XPS_SIGN_POLICY</a> value that represents the signing policy used when the signature is created.
+Gets the <a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b10">XPS_SIGN_POLICY</a> value that represents the signing policy used when the signature is created.
             
 
 </td>
@@ -118,8 +114,7 @@ The <b>IXpsSignature</b> interface has these methods.
 <a href="https://msdn.microsoft.com/9debed66-6588-40b5-ab52-a3dba0ddef92">GetSignatureId</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the value of the <b>Id</b> attribute of the <b>Signature</b> element.
+Gets the value of the <b>Id</b> attribute of the <b>Signature</b> element.
             
 
 </td>

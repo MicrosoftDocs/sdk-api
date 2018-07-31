@@ -4,10 +4,10 @@ title: IVssBackupComponents::DisableWriterInstances
 author: windows-sdk-content
 description: The DisableWriterInstances method disables a specified writer instance or instances.
 old-location: base\ivssbackupcomponents_disablewriterinstances.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 746fb12d-83d7-463d-848d-36e095832d1a
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: DisableWriterInstances, DisableWriterInstances method [VSS], DisableWriterInstances method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DisableWriterInstances method, IVssBackupComponents.DisableWriterInstances, IVssBackupComponents::DisableWriterInstances, _win32_ivssbackupcomponents_disablewriterinstances, base.ivssbackupcomponents_disablewriterinstances, vsbackup/IVssBackupComponents::DisableWriterInstances
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,8 +133,7 @@ The backup components object is not initialized, this method has been called dur
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

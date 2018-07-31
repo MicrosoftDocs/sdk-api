@@ -4,10 +4,10 @@ title: IVdsLunMpio::GetPathInfo
 author: windows-sdk-content
 description: Returns an array of VDS_PATH_INFO structures, one for each path to the LUN.
 old-location: base\ivdslunmpio_getpathinfo.htm
-old-project: vds
+old-project: VDS
 ms.assetid: c7cc1abf-c7f2-4260-b9d2-f70128276e1e
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: GetPathInfo, GetPathInfo method [VDS], GetPathInfo method [VDS],IVdsLunMpio interface, IVdsLunMpio interface [VDS],GetPathInfo method, IVdsLunMpio.GetPathInfo, IVdsLunMpio::GetPathInfo, base.ivdslunmpio_getpathinfo, vds/IVdsLunMpio::GetPathInfo, vdshwprv/IVdsLunMpio::GetPathInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ The number of paths returned by this method will match the number of paths retur
 
 
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>

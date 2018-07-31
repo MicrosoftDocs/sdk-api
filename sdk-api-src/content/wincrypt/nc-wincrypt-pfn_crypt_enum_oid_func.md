@@ -4,10 +4,10 @@ title: PFN_CRYPT_ENUM_OID_FUNC
 author: windows-sdk-content
 description: The CRYPT_ENUM_OID_FUNCTION callback function is used with the CryptEnumOIDFunction function.
 old-location: security\crypt_enum_oid_function.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: f29a3454-fa64-4305-ba4e-027d45014024
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CRYPT_ENUM_OID_FUNC, CRYPT_ENUM_OID_FUNCTION, CRYPT_ENUM_OID_FUNCTION callback function [Security], PFN_CRYPT_ENUM_OID_FUNC, PFN_CRYPT_ENUM_OID_FUNC callback, security.crypt_enum_oid_function, wincrypt/CRYPT_ENUM_OID_FUNCTION
 ms.prod: windows
 ms.technology: windows-sdk
@@ -138,8 +138,7 @@ Array of null-terminated strings containing the names of the values.
 
 
 
-
-						Returns <b>TRUE</b> if the function succeeds, <b>FALSE</b> if it fails.
+Returns <b>TRUE</b> if the function succeeds, <b>FALSE</b> if it fails.
 
 
 

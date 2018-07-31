@@ -4,10 +4,10 @@ title: SspiPrepareForCredWrite function
 author: windows-sdk-content
 description: Generates values from an identity structure that can be passed as the values of parameters in a call to the CredWrite function.
 old-location: security\sspiprepareforcredwrite.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 4db92042-38f2-42c2-9c94-b24e0eaafdf9
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: SspiPrepareForCredWrite, SspiPrepareForCredWrite function [Security], security.sspiprepareforcredwrite, sspi/SspiPrepareForCredWrite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # SspiPrepareForCredWrite function
@@ -100,8 +99,7 @@ The size, in bytes, of the <i>ppCredentialBlob</i> buffer.
 
 
 
-
-						If the function succeeds, it returns <b>SEC_E_OK</b>.
+If the function succeeds, it returns <b>SEC_E_OK</b>.
 
 If the function fails, it returns a nonzero error code.
 

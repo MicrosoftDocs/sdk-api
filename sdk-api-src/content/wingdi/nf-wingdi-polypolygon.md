@@ -7,7 +7,7 @@ old-location: gdi\polypolygon.htm
 old-project: gdi
 ms.assetid: ac0a2802-c8b0-4cd7-9521-5b179f2c70b9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: PolyPolygon, PolyPolygon function [Windows GDI], _win32_PolyPolygon, gdi.polypolygon, wingdi/PolyPolygon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,37 +133,31 @@ Any extra points are ignored. To draw the polygons with more points, divide your
 
 
 
-<a href="https://msdn.microsoft.com/febf96fb-bf2e-4eb2-ab5f-89741a1decad">
-        GetPolyFillMode
+<a href="https://msdn.microsoft.com/febf96fb-bf2e-4eb2-ab5f-89741a1decad">GetPolyFillMode
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">
-        POINT
+<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/2f958b91-039a-4e02-b727-be142bb18b06">
-        Polygon</a>
+<a href="https://msdn.microsoft.com/2f958b91-039a-4e02-b727-be142bb18b06">Polygon</a>
 
 
 
-<a href="https://msdn.microsoft.com/55481dd0-3db7-4131-b383-4d0036943e60">
-        Polyline
+<a href="https://msdn.microsoft.com/55481dd0-3db7-4131-b383-4d0036943e60">Polyline
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/76020742-b651-4244-82c3-13034573c306">
-        PolylineTo
+<a href="https://msdn.microsoft.com/76020742-b651-4244-82c3-13034573c306">PolylineTo
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/233926c4-2658-405d-89b6-05ece844623d">
-        SetPolyFillMode
+<a href="https://msdn.microsoft.com/233926c4-2658-405d-89b6-05ece844623d">SetPolyFillMode
       </a>
  
 

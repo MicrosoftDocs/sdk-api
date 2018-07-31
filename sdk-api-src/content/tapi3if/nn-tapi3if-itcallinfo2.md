@@ -4,10 +4,10 @@ title: ITCallInfo2
 author: windows-sdk-content
 description: The ITCallInfo2 interface is an extension of the ITCallInfo interface. ITCallInfo2 provides additional methods that allow an application to set event filtering on a per-call basis.
 old-location: tapi3\itcallinfo2.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 20f7b20e-37f8-49f7-ae9d-83a9b9f574b6
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITCallInfo2, ITCallInfo2 interface [TAPI 2.2], ITCallInfo2 interface [TAPI 2.2],described, _tapi3_itcallinfo2, tapi3.itcallinfo2, tapi3if/ITCallInfo2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCallInfo2</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITCallInfo2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCallInfo2</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITCallInfo2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -98,7 +98,7 @@ Sets filtering for a given event.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

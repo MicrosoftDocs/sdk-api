@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectforhrtf.htm
 old-project: CoreAudio
 ms.assetid: E69F1D09-B937-4BCC-A040-18EF8A838289
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/29/2018
 ms.keywords: ISpatialAudioObjectForHrtf, ISpatialAudioObjectForHrtf interface [Core Audio], ISpatialAudioObjectForHrtf interface [Core Audio],described, coreaudio.ispatialaudioobjectforhrtf, spatialaudiohrtf/ISpatialAudioObjectForHrtf
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioObjectForHrtf interface

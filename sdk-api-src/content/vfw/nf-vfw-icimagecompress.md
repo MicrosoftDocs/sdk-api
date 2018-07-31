@@ -7,7 +7,7 @@ old-location: multimedia\icimagecompress.htm
 old-project: Multimedia
 ms.assetid: 111d3b97-527b-4cca-ba4e-3d8310a5c72b
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: ICImageCompress, ICImageCompress function [Windows Multimedia], _win32_ICImageCompress, multimedia.icimagecompress, vfw/ICImageCompress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,50 +64,43 @@ The <b>ICImageCompress</b> function compresses an image to a given size. This fu
 
 ### -param hic
 
-
-            Handle to a compressor opened with the <a href="https://msdn.microsoft.com/2637b6ef-2324-40db-99e4-773fcb6fdbf6">ICOpen</a> function. Specify <b>NULL</b> to have VCM select an appropriate compressor for the compression format. An application can have the user select the compressor by using the <a href="https://msdn.microsoft.com/4a58df6a-9ac4-44bb-8c49-338bb60193fc">ICCompressorChoose</a> function, which opens the selected compressor and returns a handle of the compressor in this parameter.
+Handle to a compressor opened with the <a href="https://msdn.microsoft.com/2637b6ef-2324-40db-99e4-773fcb6fdbf6">ICOpen</a> function. Specify <b>NULL</b> to have VCM select an appropriate compressor for the compression format. An application can have the user select the compressor by using the <a href="https://msdn.microsoft.com/4a58df6a-9ac4-44bb-8c49-338bb60193fc">ICCompressorChoose</a> function, which opens the selected compressor and returns a handle of the compressor in this parameter.
           
 
 
 ### -param uiFlags
 
-
-            Reserved; must be zero.
+Reserved; must be zero.
           
 
 
 ### -param lpbiIn
 
-
-            Pointer to the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure containing the input data format.
+Pointer to the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure containing the input data format.
           
 
 
 ### -param lpBits
 
-
-            Pointer to input data bits to compress. The data bits exclude header and format information.
+Pointer to input data bits to compress. The data bits exclude header and format information.
           
 
 
 ### -param lpbiOut
 
-
-            Pointer to the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure containing the compressed output format. Specify <b>NULL</b> to have the compressor use an appropriate format.
+Pointer to the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure containing the compressed output format. Specify <b>NULL</b> to have the compressor use an appropriate format.
           
 
 
 ### -param lQuality
 
-
-            Quality value used by the compressor. Values range from 0 to 10,000.
+Quality value used by the compressor. Values range from 0 to 10,000.
           
 
 
 ### -param plSize
 
-
-            Maximum size desired for the compressed image. The compressor might not be able to compress the data to fit within this size. When the function returns, this parameter points to the size of the compressed image. Image sizes are specified in bytes.
+Maximum size desired for the compressed image. The compressor might not be able to compress the data to fit within this size. When the function returns, this parameter points to the size of the compressed image. Image sizes are specified in bytes.
           
 
 
@@ -115,8 +108,7 @@ The <b>ICImageCompress</b> function compresses an image to a given size. This fu
 
 
 
-
-            Returns a handle to a compressed DIB. The image data follows the format header.
+Returns a handle to a compressed DIB. The image data follows the format header.
           
 
 

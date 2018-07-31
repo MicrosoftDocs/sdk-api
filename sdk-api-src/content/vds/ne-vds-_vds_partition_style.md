@@ -4,10 +4,10 @@ title: "_VDS_PARTITION_STYLE"
 author: windows-sdk-content
 description: Defines the set of partition style values.
 old-location: base\vds_partition_style.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 31b7f0b3-cc3c-48e7-a4f0-628f0185f3cb
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: VDS_PARTITION_STYLE, VDS_PARTITION_STYLE enumeration [VDS], VDS_PST_GPT, VDS_PST_MBR, VDS_PST_UNKNOWN, _VDS_PARTITION_STYLE, base.vds_partition_style, vds/VDS_PARTITION_STYLE, vds/VDS_PST_GPT, vds/VDS_PST_MBR, vds/VDS_PST_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,11 +81,7 @@ The style is GUID partition table (GPT). If the value is <b>VDS_PST_GPT</b>, the
 
 
 The <a href="https://msdn.microsoft.com/c7c09f95-9489-46fd-8b03-cabdee4521cf">VDS_DISK_PROP</a> and
-        <a href="https://msdn.microsoft.com/f1b465ad-f03b-4ce8-ae83-f8e93b7fa4c4">VDS_PARTITION_PROP</a>
-        
-        structures include a <b>VDS_PARTITION_STYLE</b> value as a member. Additionally, the  <a href="https://msdn.microsoft.com/38c129cd-8e60-4e4a-b22b-26c69c68fe89">IVdsDisk::ConvertStyle</a>
-        and <a href="https://msdn.microsoft.com/e64e3891-74c6-4014-9909-24f75f69e06d">IVdsPack::AddDisk</a>
-      methods pass a <b>VDS_PARTITION_STYLE</b> value  as an argument to indicate the partition style on a disk.
+        <a href="https://msdn.microsoft.com/f1b465ad-f03b-4ce8-ae83-f8e93b7fa4c4">VDS_PARTITION_PROP</a>structures include a <b>VDS_PARTITION_STYLE</b> value as a member. Additionally, the  <a href="https://msdn.microsoft.com/38c129cd-8e60-4e4a-b22b-26c69c68fe89">IVdsDisk::ConvertStyle</a>and <a href="https://msdn.microsoft.com/e64e3891-74c6-4014-9909-24f75f69e06d">IVdsPack::AddDisk</a>methods pass a <b>VDS_PARTITION_STYLE</b> value  as an argument to indicate the partition style on a disk.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_PARTITION_STYLE</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_PARTITION_STYLE</b> enumeration constant.</div>
 <div> </div>
@@ -97,13 +93,11 @@ The <a href="https://msdn.microsoft.com/c7c09f95-9489-46fd-8b03-cabdee4521cf">VD
 
 
 
-<a href="https://msdn.microsoft.com/38c129cd-8e60-4e4a-b22b-26c69c68fe89">
-        IVdsDisk::ConvertStyle</a>
+<a href="https://msdn.microsoft.com/38c129cd-8e60-4e4a-b22b-26c69c68fe89">IVdsDisk::ConvertStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/e64e3891-74c6-4014-9909-24f75f69e06d">
-        IVdsPack::AddDisk</a>
+<a href="https://msdn.microsoft.com/e64e3891-74c6-4014-9909-24f75f69e06d">IVdsPack::AddDisk</a>
 
 
 
@@ -111,13 +105,11 @@ The <a href="https://msdn.microsoft.com/c7c09f95-9489-46fd-8b03-cabdee4521cf">VD
 
 
 
-<a href="https://msdn.microsoft.com/c7c09f95-9489-46fd-8b03-cabdee4521cf">
-        VDS_DISK_PROP</a>
+<a href="https://msdn.microsoft.com/c7c09f95-9489-46fd-8b03-cabdee4521cf">VDS_DISK_PROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1b465ad-f03b-4ce8-ae83-f8e93b7fa4c4">
-        VDS_PARTITION_PROP</a>
+<a href="https://msdn.microsoft.com/f1b465ad-f03b-4ce8-ae83-f8e93b7fa4c4">VDS_PARTITION_PROP</a>
  
 
  

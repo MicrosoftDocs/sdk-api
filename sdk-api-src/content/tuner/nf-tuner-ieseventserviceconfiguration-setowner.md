@@ -7,7 +7,7 @@ old-location: mstv\ieseventserviceconfiguration_setowner.htm
 old-project: mstv
 ms.assetid: 7d8e1be1-b363-41ac-b60b-98415f0f44b6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],SetOwner method, IESEventServiceConfiguration.SetOwner, IESEventServiceConfiguration::SetOwner, SetOwner, SetOwner method [Microsoft TV Technologies], SetOwner method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_setowner, tuner/IESEventServiceConfiguration::SetOwner
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,8 +68,7 @@ Adds an owner to an event service, where <i>event service</i> refers to a generi
 
 #### - pEvents [in]
 
-
-            Pointer to the <a href="https://msdn.microsoft.com/1921f632-bb3b-4833-aa25-9caa3d65363f">IESEvents</a> interface that the  parent event service uses to advise its child.
+Pointer to the <a href="https://msdn.microsoft.com/1921f632-bb3b-4833-aa25-9caa3d65363f">IESEvents</a> interface that the  parent event service uses to advise its child.
           
 
 

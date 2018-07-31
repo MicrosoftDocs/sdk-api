@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_getparametervalues.htm
 old-project: DirectShow
 ms.assetid: 7f6c7db8-f71f-4ea7-8584-0df6e28c0fc9
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetParameterValues, GetParameterValues method [DirectShow], GetParameterValues method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetParameterValues method, ICodecAPI.GetParameterValues, ICodecAPI::GetParameterValues, ICodecAPIGetParameterValues, dshow.icodecapi_getparametervalues, strmif/ICodecAPI::GetParameterValues
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows XP with SP1
 ## -description
 
 
-
-        The <b>GetParameterValues</b> method gets the list of possible values for a codec property.
+The <b>GetParameterValues</b> method gets the list of possible values for a codec property.
 
 This method applies only to properties that support a list of possible values, as opposed to a linear range.
 
@@ -65,22 +64,19 @@ This method applies only to properties that support a list of possible values, a
 
 ### -param Api [in]
 
-
-            Pointer to a GUID that specifies the property to query. For a list of standard codec properties, see <a href="https://msdn.microsoft.com/5d527af7-07cf-42e2-99bb-d56c856cc1bc">Codec API Properties</a>.
+Pointer to a GUID that specifies the property to query. For a list of standard codec properties, see <a href="https://msdn.microsoft.com/5d527af7-07cf-42e2-99bb-d56c856cc1bc">Codec API Properties</a>.
           
 
 
 ### -param Values [out]
 
-
-            Receives a pointer to an array of <b>VARIANT</b> types. The array contains the list of values that the encoder supports for this property. The caller must free each <b>VARIANT</b> by calling <b>VariantClear</b>. The caller must also free the array by calling  <b>CoTaskMemFree</b>.
+Receives a pointer to an array of <b>VARIANT</b> types. The array contains the list of values that the encoder supports for this property. The caller must free each <b>VARIANT</b> by calling <b>VariantClear</b>. The caller must also free the array by calling  <b>CoTaskMemFree</b>.
           
 
 
 ### -param ValuesCount [out]
 
-
-            Receives the number of elements in the <i>Values</i> array.
+Receives the number of elements in the <i>Values</i> array.
           
 
 
@@ -138,8 +134,7 @@ The property supports a range of values, not a list.
 
 
 
-
-        If the property supports a range of values, instead of a list, the method returns  <b>VFW_E_CODECAPI_LINEAR_RANGE</b>. In that case, call <a href="https://msdn.microsoft.com/35bf758f-0ce3-4b3a-aae5-9d4326089743">ICodecAPI::GetParameterRange</a> to get the range of values.
+If the property supports a range of values, instead of a list, the method returns  <b>VFW_E_CODECAPI_LINEAR_RANGE</b>. In that case, call <a href="https://msdn.microsoft.com/35bf758f-0ce3-4b3a-aae5-9d4326089743">ICodecAPI::GetParameterRange</a> to get the range of values.
       
 
 

@@ -7,7 +7,7 @@ old-location: wsw\ws_trust_version.htm
 old-project: wsw
 ms.assetid: 02a080f5-3d0d-4483-8215-bcb5b9f27b9c
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_TRUST_VERSION, WS_TRUST_VERSION enumeration [Web Services for Windows], WS_TRUST_VERSION_1_3, WS_TRUST_VERSION_FEBRUARY_2005, webservices/WS_TRUST_VERSION, webservices/WS_TRUST_VERSION_1_3, webservices/WS_TRUST_VERSION_FEBRUARY_2005, wsw.ws_trust_version
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Defines the WS-Trust specification version to be used with message
+Defines the WS-Trust specification version to be used with message
                 security and mixed-mode security.
             
 
@@ -64,15 +63,13 @@ req.product: Windows Address Book 5.0
 
 ### -field WS_TRUST_VERSION_FEBRUARY_2005
 
-
-                  WS-Trust with the specification URI of http://schemas.xmlsoap.org/ws/2005/02/trust
+WS-Trust with the specification URI of http://schemas.xmlsoap.org/ws/2005/02/trust
                 
 
 
 ### -field WS_TRUST_VERSION_1_3
 
-
-                    WS-Trust 1.3 with the specification URI of http://docs.oasis-open.org/ws-sx/ws-trust/200512
+WS-Trust 1.3 with the specification URI of http://docs.oasis-open.org/ws-sx/ws-trust/200512
                 
 
 

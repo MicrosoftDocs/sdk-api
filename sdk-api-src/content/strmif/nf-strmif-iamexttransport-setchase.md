@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_setchase.htm
 old-project: DirectShow
 ms.assetid: f8c94e74-e243-4fa9-85e6-8c027b514e4f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetChase method, IAMExtTransport.SetChase, IAMExtTransport::SetChase, IAMExtTransportSetChase, SetChase, SetChase method [DirectShow], SetChase method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_setchase, strmif/IAMExtTransport::SetChase
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,11 +71,9 @@ Specifies whether chase is enabled as a <b>long</b> integer.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

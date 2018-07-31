@@ -7,7 +7,7 @@ old-location: winauto\uiauto_UiaRaiseNotificationEvent.htm
 old-project: WinAuto
 ms.assetid: E9555BC0-A53B-416F-95C3-53696716F61F
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: UiaRaiseNotificationEvent, UiaRaiseNotificationEvent function [Windows Accessibility], uiautomationcoreapi/UiaRaiseNotificationEvent, winauto.uiauto_UiaRaiseNotificationEvent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IAssemblyName::SetProperty
 author: windows-sdk-content
 description: The SetProperty method adds a name-value pair to the side-by-side assembly name. This method can change or delete the value of an existing name-value pair.
 old-location: setup\iassemblyname_setproperty.htm
-old-project: sbscs
+old-project: SbsCs
 ms.assetid: 057bc5b3-008b-495b-b96c-2c0dcc43f1a4
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/29/2018
 ms.keywords: IAssemblyName interface [Side-by-side Assemblies],SetProperty method, IAssemblyName.SetProperty, IAssemblyName::SetProperty, SetProperty, SetProperty method [Side-by-side Assemblies], SetProperty method [Side-by-side Assemblies],IAssemblyName interface, setup.iassemblyname_setproperty, winsxs/IAssemblyName::SetProperty
 ms.prod: windows
 ms.technology: windows-sdk

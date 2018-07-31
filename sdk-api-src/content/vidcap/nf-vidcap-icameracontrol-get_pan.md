@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_pan.htm
 old-project: DirectShow
 ms.assetid: 4cbf7582-63ad-4572-be62-be1fe5bc60b3
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ICameraControl interface [DirectShow],get_Pan method, ICameraControl.get_Pan, ICameraControl::get_Pan, ICameraControlget_Pan, dshow.icameracontrol_get_pan, get_Pan, get_Pan method [DirectShow], get_Pan method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_Pan
 ms.prod: windows
 ms.technology: windows-sdk

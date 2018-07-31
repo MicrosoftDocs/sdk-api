@@ -7,7 +7,7 @@ old-location: wsw\ws_pull_bytes_callback.htm
 old-project: wsw
 ms.assetid: 84634ecc-056f-4fcc-838e-93f0dfc06e8d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_PULL_BYTES_CALLBACK, WS_PULL_BYTES_CALLBACK callback, WS_PULL_BYTES_CALLBACK callback function [Web Services for Windows], webservices/WS_PULL_BYTES_CALLBACK, wsw.ws_pull_bytes_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,29 +63,25 @@ Used by the <a href="https://msdn.microsoft.com/39e25db6-e51f-45cb-9739-260e7c24
 
 ### -param *callbackState [in]
 
-
-          The user-defined state that was passed to <a href="https://msdn.microsoft.com/39e25db6-e51f-45cb-9739-260e7c246fcc">WsPullBytes</a>.
+The user-defined state that was passed to <a href="https://msdn.microsoft.com/39e25db6-e51f-45cb-9739-260e7c246fcc">WsPullBytes</a>.
         
 
 
 ### -param *bytes
 
-
-          Where the data that is read should be placed.
+Where the data that is read should be placed.
         
 
 
 ### -param maxSize [in]
 
-
-          The maximum number of bytes that may be read.
+The maximum number of bytes that may be read.
         
 
 
 ### -param *actualSize [out]
 
-
-          The actual number of bytes that were read.  This may be less than maxSize.  Returning 0
+The actual number of bytes that were read.  This may be less than maxSize.  Returning 0
           indicates that there is no more data.
         
 
@@ -97,8 +93,7 @@ Information on how to invoke the function asynchronously, or <b>NULL</b> if invo
 
 ### -param *error [in, optional]
 
-
-          Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
         
 
 
@@ -118,8 +113,7 @@ Information on how to invoke the function asynchronously, or <b>NULL</b> if invo
 </dl>
 </td>
 <td width="60%">
-
-          The asynchronous operation is still pending.
+The asynchronous operation is still pending.
         
 
 </td>
@@ -134,8 +128,7 @@ Information on how to invoke the function asynchronously, or <b>NULL</b> if invo
 
 
 
-
-        Returning size of 0 indicates EOF.
+Returning size of 0 indicates EOF.
       
 
 

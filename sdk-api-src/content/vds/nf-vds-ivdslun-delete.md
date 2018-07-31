@@ -4,10 +4,10 @@ title: IVdsLun::Delete
 author: windows-sdk-content
 description: Deletes the LUN and all of its plexes. Any data on the LUN is lost. VDS frees the extents allocated to the LUN.
 old-location: base\ivdslun_delete.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 21522c62-0b60-4c70-b2bd-7a33aa94d280
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsLun interface, IVdsLun interface [VDS],Delete method, IVdsLun.Delete, IVdsLun::Delete, base.ivdslun_delete, vds/IVdsLun::Delete, vdshwprv/IVdsLun::Delete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ Deletes the LUN and all of its
 
 
 
-This method can return standard HRESULT values, such as E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -84,8 +84,7 @@ This method can return standard HRESULT values, such as E_OUTOFMEMORY, and <a hr
 </dl>
 </td>
 <td width="60%">
-
-        This return value signals a software or communication problem inside a provider that caches information about 
+This return value signals a software or communication problem inside a provider that caches information about 
         the array. Use the <a href="https://msdn.microsoft.com/aeb06a98-8896-446f-abd5-ea40be0bea40">IVdsHwProvider::Reenumerate</a> 
         method followed by the <a href="https://msdn.microsoft.com/25ddc73c-5d1b-4bec-bbc2-9f22a5f82ffe">IVdsHwProvider::Refresh</a> 
         method to restore the cache.
@@ -125,8 +124,7 @@ The LUN is in a failed state and is unable to perform the requested operation.
 </dl>
 </td>
 <td width="60%">
-
-        Another operation is in progress; this operation cannot proceed until the previous operation or operations are complete.
+Another operation is in progress; this operation cannot proceed until the previous operation or operations are complete.
        
 
 </td>
@@ -141,8 +139,7 @@ The LUN is in a failed state and is unable to perform the requested operation.
 
 
 
-
-    If an application holds a reference to the <a href="https://msdn.microsoft.com/e2fbebc0-593e-437c-a401-80e35a43da94">IVdsLun</a> interface 
+If an application holds a reference to the <a href="https://msdn.microsoft.com/e2fbebc0-593e-437c-a401-80e35a43da94">IVdsLun</a> interface 
     and calls <b>IVdsLun::Delete</b>, implementers should return 
     <b>VDS_E_OBJECT_DELETED</b> on subsequent calls to methods such as 
     <a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a> on that interface. In this case, 

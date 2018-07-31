@@ -7,7 +7,7 @@ old-location: wmi\iwbemqualifierset_put.htm
 old-project: WmiSdk
 ms.assetid: ad602440-dc19-45cf-bf10-a30f514e00bb
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWbemQualifierSet interface [Windows Management Instrumentation],Put method, IWbemQualifierSet.Put, IWbemQualifierSet::Put, Put, Put method [Windows Management Instrumentation], Put method [Windows Management Instrumentation],IWbemQualifierSet interface, WBEM_FLAVOR_AMENDED, WBEM_FLAVOR_FLAG_PROPAGATE_TO_DERIVED_CLASS, WBEM_FLAVOR_FLAG_PROPAGATE_TO_INSTANCE, WBEM_FLAVOR_NOT_OVERRIDABLE, WBEM_FLAVOR_OVERRIDABLE, _hmm_iwbemqualifierset_put, wbemcli/IWbemQualifierSet::Put, wmi.iwbemqualifierset_put
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ Name of the qualifier that is being written. The pointer is treated as read-only
 
 ### -param pVal [in]
 
-Cannot be <b>NULL</b>. This must point to a valid <b>VARIANT</b> that contains the qualifier value to be written. The pointer is treated as read-only. It is the caller's responsibility to call <a href="https://msdn.microsoft.com/library/ms221165(v=VS.85).aspx">VariantClear</a> on this pointer after the value is not required.
+Cannot be <b>NULL</b>. This must point to a valid <b>VARIANT</b> that contains the qualifier value to be written. The pointer is treated as read-only. It is the caller's responsibility to call <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> on this pointer after the value is not required.
 
 Only variants and arrays of type <b>VT_I4</b>, <b>VT_R8</b>, <b>VT_BSTR</b>, <b>VT_BOOL</b> are supported.
 

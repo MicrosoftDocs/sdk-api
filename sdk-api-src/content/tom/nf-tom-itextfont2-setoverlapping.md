@@ -4,10 +4,10 @@ title: ITextFont2::SetOverlapping
 author: windows-sdk-content
 description: Sets whether overlapping text is active.
 old-location: controls\itextfont2_setoverlapping.htm
-old-project: controls
+old-project: Controls
 ms.assetid: 40addd31-5c0e-45bd-a649-c65973ae8340
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetOverlapping method, ITextFont2.SetOverlapping, ITextFont2::SetOverlapping, SetOverlapping, SetOverlapping method [Windows Controls], SetOverlapping method [Windows Controls],ITextFont2 interface, controls.itextfont2_setoverlapping, tom/ITextFont2::SetOverlapping
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Sets whether overlapping text is active.
 
 Type: <b>long</b>
 
-A <a href="https://msdn.microsoft.com/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="About_Text_Object_Model.htm">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>

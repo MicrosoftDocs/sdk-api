@@ -7,7 +7,7 @@ old-location: wmp\iwmptranscodepolicy.htm
 old-project: WMP
 ms.assetid: b7dbd25f-6865-44fa-9d46-e77de393ce13
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPTranscodePolicy, IWMPTranscodePolicy interface [Windows Media Player], IWMPTranscodePolicy interface [Windows Media Player],described, IWMPTranscodePolicyInterface, wmp.iwmptranscodepolicy, wmpservices/IWMPTranscodePolicy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,6 @@ Retrieves a value specifying whether Windows Media Player is permitted to change
 </td>
 </tr>
 </table> 
-
 
 To retrieve a pointer to the <b>IWMPTranscodePolicy</b> interface, Windows Media Player calls the <b>QueryInterface</b> method of the DirectShow source filter.
 	

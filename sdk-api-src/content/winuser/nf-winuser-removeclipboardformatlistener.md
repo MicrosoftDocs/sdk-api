@@ -7,7 +7,7 @@ old-location: dataxchg\removeclipboardformatlistener.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\removeclipboardformatlistener.htm
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/29/2018
 ms.keywords: RemoveClipboardFormatListener, RemoveClipboardFormatListener function [Data Exchange], _win32_RemoveClipboardFormatListener, _win32_removeclipboardformatlistener_cpp, dataxchg.removeclipboardformatlistener, winui._win32_removeclipboardformatlistener, winuser/RemoveClipboardFormatListener
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ Returns <b>TRUE</b> if successful, <b>FALSE</b> otherwise. Call <a href="https:/
 
 
 
-When a window has been removed from the clipboard format listener list, it will no longer receive <a href="https://msdn.microsoft.com/library/ms649021(v=VS.85).aspx">WM_CLIPBOARDUPDATE</a> messages.
+When a window has been removed from the clipboard format listener list, it will no longer receive <a href="https://msdn.microsoft.com/1508aa22-9cf0-40a2-8cb0-ce7c8671df2c">WM_CLIPBOARDUPDATE</a> messages.
 
 
 
@@ -92,15 +92,15 @@ When a window has been removed from the clipboard format listener list, it will 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649033(v=VS.85).aspx">AddClipboardFormatListener</a>
+<a href="https://msdn.microsoft.com/0df088fd-59f4-437e-ab9a-00f0a2af332d">AddClipboardFormatListener</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649042(v=VS.85).aspx">GetClipboardSequenceNumber</a>
+<a href="https://msdn.microsoft.com/5790fb14-473a-49fc-943b-9cc5f1170181">GetClipboardSequenceNumber</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms649021(v=VS.85).aspx">WM_CLIPBOARDUPDATE</a>
+<a href="https://msdn.microsoft.com/1508aa22-9cf0-40a2-8cb0-ce7c8671df2c">WM_CLIPBOARDUPDATE</a>
  
 
  

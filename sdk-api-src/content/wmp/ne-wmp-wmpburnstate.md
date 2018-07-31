@@ -7,7 +7,7 @@ old-location: wmp\wmpburnstate.htm
 old-project: WMP
 ms.assetid: fd286f68-4d36-48ae-800e-ad2be4c613c1
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: WMPBurnState, WMPBurnState enumeration [Windows Media Player], wmp.wmpburnstate, wmp/WMPBurnState, wmp/wmpbsBurning, wmp/wmpbsBusy, wmp/wmpbsErasing, wmp/wmpbsPreparingToBurn, wmp/wmpbsReady, wmp/wmpbsRefreshStatusPending, wmp/wmpbsStopped, wmp/wmpbsUnknown, wmp/wmpbsWaitingForDisc, wmpbsBurning, wmpbsBusy, wmpbsErasing, wmpbsPreparingToBurn, wmpbsReady, wmpbsRefreshStatusPending, wmpbsStopped, wmpbsUnknown, wmpbsWaitingForDisc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,8 +116,7 @@ Windows Media Player is erasing the CD.
 
 
 
-
-          Windows Media Player 10 Mobile: This enumeration is not supported.
+Windows Media Player 10 Mobile: This enumeration is not supported.
 
 
 

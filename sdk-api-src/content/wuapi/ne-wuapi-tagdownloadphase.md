@@ -4,10 +4,10 @@ title: tagDownloadPhase
 author: windows-sdk-content
 description: Defines the progress of the download of the current update that is returned by the CurrentUpdateDownloadPhase property of the IDownloadProgress interface.
 old-location: wua\downloadphase.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: a7e930dd-1dfa-42cc-9761-d4252c9a92ae
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: DownloadPhase, DownloadPhase enumeration [Windows Update Agent], dphDownloading, dphInitializing, dphVerifying, tagDownloadPhase, wua.downloadphase, wuapi/DownloadPhase, wuapi/dphDownloading, wuapi/dphInitializing, wuapi/dphVerifying
 ms.prod: windows
 ms.technology: windows-sdk

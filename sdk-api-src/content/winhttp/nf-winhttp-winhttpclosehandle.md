@@ -4,10 +4,10 @@ title: WinHttpCloseHandle function
 author: windows-sdk-content
 description: The WinHttpCloseHandle function closes a single HINTERNET handle.
 old-location: http\winhttpclosehandle.htm
-old-project: winhttp
+old-project: WinHttp
 ms.assetid: 78215141-dfe8-4f0a-ba1a-a63fa257db6f
 ms.author: windowssdkdev
-ms.date: 03/09/2018
+ms.date: 07/29/2018
 ms.keywords: WinHttpCloseHandle, WinHttpCloseHandle function [WinHTTP], http.winhttpclosehandle, winhttp.winhttpclosehandle, winhttp/WinHttpCloseHandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -152,7 +152,7 @@ It might seem that the context data structure could then be freed immediately ra
 
 </li>
 </ul>
-An application should never <b>WinHttpCloseHandle</b> call  on a synchronous request. This can create a race condition. See <a href="https://msdn.microsoft.com/library/Aa383880(v=VS.85).aspx">HINTERNET Handles in WinHTTP</a> for more information.
+An application should never <b>WinHttpCloseHandle</b> call  on a synchronous request. This can create a race condition. See <a href="hinternet_handles_in_winhttp.htm">HINTERNET Handles in WinHTTP</a> for more information.
 
 <div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Run-Time Requirements</a> section of the WinHttp start page.</div>
 <div> </div>

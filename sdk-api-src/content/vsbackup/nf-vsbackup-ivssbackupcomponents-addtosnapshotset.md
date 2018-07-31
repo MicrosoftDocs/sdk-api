@@ -4,10 +4,10 @@ title: IVssBackupComponents::AddToSnapshotSet
 author: windows-sdk-content
 description: The AddToSnapshotSet method adds an original volume or original remote file share to the shadow copy set.
 old-location: base\ivssbackupcomponents_addtosnapshotset.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 6c20e386-7cd8-45d9-92d6-96d0a458db50
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: AddToSnapshotSet, AddToSnapshotSet method [VSS], AddToSnapshotSet method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddToSnapshotSet method, IVssBackupComponents.AddToSnapshotSet, IVssBackupComponents::AddToSnapshotSet, _win32_ivssbackupcomponents_addtosnapshotset, base.ivssbackupcomponents_addtosnapshotset, vsbackup/IVssBackupComponents::AddToSnapshotSet
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-
-    The <b>AddToSnapshotSet</b> method adds 
+The <b>AddToSnapshotSet</b> method adds 
     an original volume or original remote file share to the shadow copy set.
    
 
@@ -65,15 +64,13 @@ req.product: Windows UI
 
 ### -param pwszVolumeName [in]
 
-
-      Null-terminated wide character string containing the name of the volume or the UNC path of the remote file share to be shadow copied. The name or UNC path must be in one of the following formats and must include a trailing backslash (\): 
+Null-terminated wide character string containing the name of the volume or the UNC path of the remote file share to be shadow copied. The name or UNC path must be in one of the following formats and must include a trailing backslash (\): 
       
 
 <ul>
 <li>The path of a mounted folder, for example, Y:\MountX\</li>
 <li>A drive letter, for example, D:\</li>
-<li>
-        A volume GUID path of the form \\?\<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
+<li>A volume GUID path of the form \\?\<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
 <li>A UNC path that specifies a remote file share, for example, \\Clusterx\Share1\</li>
 </ul>
 
@@ -154,8 +151,7 @@ The caller is out of memory or other system resources.
 </dl>
 </td>
 <td width="60%">
-
-        The backup components object is not initialized, this method has been called during a restore operation, or 
+The backup components object is not initialized, this method has been called during a restore operation, or 
         this method has not been called within the correct sequence.
        
 
@@ -169,8 +165,7 @@ The caller is out of memory or other system resources.
 </dl>
 </td>
 <td width="60%">
-
-        The maximum number of volumes or remote file shares have been added to the shadow copy set. The specified volume or remote file share was not added to 
+The maximum number of volumes or remote file shares have been added to the shadow copy set. The specified volume or remote file share was not added to 
         the shadow copy set.
        
 
@@ -184,8 +179,7 @@ The caller is out of memory or other system resources.
 </dl>
 </td>
 <td width="60%">
-
-        The volume or remote file share has been added to the maximum number of shadow copy sets. The specified volume or remote file share was not added to 
+The volume or remote file share has been added to the maximum number of shadow copy sets. The specified volume or remote file share was not added to 
         the shadow copy set.
        
 
@@ -241,8 +235,7 @@ The specified volume is nested too deeply to participate in the VSS operation. P
 </dl>
 </td>
 <td width="60%">
-
-        Expected provider error. The provider logged the error in the event log. For more information, see 
+Expected provider error. The provider logged the error in the event log. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
        
 
@@ -269,8 +262,7 @@ Another shadow copy creation is already in progress.  Occurs when adding a CSV v
 </dl>
 </td>
 <td width="60%">
-
-        The value of the <i>ProviderId</i> parameter is GUID_NULL and no VSS provider indicates 
+The value of the <i>ProviderId</i> parameter is GUID_NULL and no VSS provider indicates 
         that it supports the specified volume or remote file share.
        
 
@@ -295,8 +287,7 @@ The volume or remote file share is not supported by the specified provider.
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
@@ -311,8 +302,7 @@ The volume or remote file share is not supported by the specified provider.
 </dl>
 </td>
 <td width="60%">
-
-        The provider returned an unexpected error code. This error code is only returned via the 
+The provider returned an unexpected error code. This error code is only returned via the 
         <a href="https://msdn.microsoft.com/85fb3ae8-dc09-4f6f-a96b-e4dc046ff48a">QueryStatus</a> method on the 
         <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface returned in the 
         <i>ppAsync</i> parameter.
@@ -336,19 +326,16 @@ If <i>pwszVolumeName</i> is a UNC share path, the server name portion must be in
 
 The maximum number of shadow copied volumes in a single shadow copy set is 64.
 
-
-    If <i>ProviderId</i> is GUID_NULL, the default provider is selected according to the 
+If <i>ProviderId</i> is GUID_NULL, the default provider is selected according to the 
     following algorithm:
    
 
 <ol>
 <li>If any hardware provider supports the given volume or remote file share, that provider is selected.</li>
-<li>
-      If there is no hardware provider available, if any software provider supports the given volume, it 
+<li>If there is no hardware provider available, if any software provider supports the given volume, it 
       is selected.
      </li>
-<li>
-      If there is no hardware provider or software provider available, the system provider is selected. 
+<li>If there is no hardware provider or software provider available, the system provider is selected. 
       (There is only one preinstalled system provider, which must support all nonremovable local volumes.)
      </li>
 </ol>

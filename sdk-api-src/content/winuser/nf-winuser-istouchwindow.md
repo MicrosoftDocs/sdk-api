@@ -7,7 +7,7 @@ old-location: wintouch\istouchwindow.htm
 old-project: wintouch
 ms.assetid: 080b9d18-5975-4d38-ae3b-151f74120bb3
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: IsTouchWindow, IsTouchWindow function [Windows Touch], wintouch.istouchwindow, winuser/IsTouchWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,8 +93,7 @@ Returns <b>TRUE</b> if the window supports Windows Touch; returns <b>FALSE</b> i
 
 
 
-
-		The following table lists the values for the <i>pulFlags</i> output parameter.
+The following table lists the values for the <i>pulFlags</i> output parameter.
 		
 
 <table>
@@ -109,8 +108,7 @@ Returns <b>TRUE</b> if the window supports Windows Touch; returns <b>FALSE</b> i
 <tr>
 <td><b>TWF_WANTPALM</b></td>
 <td>
-
-                       Clearing this flag disables palm rejection which reduces delays for getting <a href="https://msdn.microsoft.com/5dee8bab-34fa-4dd9-a65b-35883757ec80">WM_TOUCH</a> messages. 
+Clearing this flag disables palm rejection which reduces delays for getting <a href="https://msdn.microsoft.com/5dee8bab-34fa-4dd9-a65b-35883757ec80">WM_TOUCH</a> messages. 
 						     This is useful if you want as quick of a response as possible when a user touches your application.
 						  
 

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapsourcetransform_copypixels.htm
 old-project: wic
 ms.assetid: c4c36750-bf30-4e58-aca6-bbb49c7cde4b
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: CopyPixels, CopyPixels method [Windows Imaging Component], CopyPixels method [Windows Imaging Component],IWICBitmapSourceTransform interface, IWICBitmapSourceTransform interface [Windows Imaging Component],CopyPixels method, IWICBitmapSourceTransform.CopyPixels, IWICBitmapSourceTransform::CopyPixels, _wic_codec_iwicbitmapsourcetransform_copypixels, wic._wic_codec_iwicbitmapsourcetransform_copypixels, wincodec/IWICBitmapSourceTransform::CopyPixels
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ The height to scale the source bitmap. This parameter must equal the value obtai
 
 Type: <b>WICPixelFormatGUID*</b>
 
-
-               The GUID of desired pixel format in which the pixels should be returned. 
+The GUID of desired pixel format in which the pixels should be returned. 
                
 
 This GUID must be a format obtained through an <a href="https://msdn.microsoft.com/153c5e2a-c42f-4949-9313-48d5e186ecf3">GetClosestPixelFormat</a> call.
@@ -96,8 +95,7 @@ This GUID must be a format obtained through an <a href="https://msdn.microsoft.c
 
 Type: <b><a href="https://msdn.microsoft.com/e123bb4d-bc75-4f3f-98f1-bea9b008498b">WICBitmapTransformOptions</a></b>
 
-
-               The desired rotation or flip to perform prior to the pixel copy.
+The desired rotation or flip to perform prior to the pixel copy.
                
 
 The transform must be an operation supported by an <a href="https://msdn.microsoft.com/73f27e20-3245-42b3-8b83-29c3c969624f">DoesSupportTransform</a> call.
@@ -146,8 +144,7 @@ If NULL is passed in for <i>prc</i>, the entire image is copied.
 
 For codec developer implementation details for this method, see <a href="https://msdn.microsoft.com/6a3e682c-55c6-4728-9d14-5eb0290f3dcc">Implementing IWICBitmapSourceTransform</a>.
 
-
-               When multiple transform operations are requested, the result is dependent on the order in which the operations are performed.
+When multiple transform operations are requested, the result is dependent on the order in which the operations are performed.
                To ensure predictability and consistency across CODECs, it's important that all CODECs perform these operations in the same order.
                The recommended order of these operations is:
                <ol>
@@ -157,17 +154,14 @@ For codec developer implementation details for this method, see <a href="https:/
 </ol>
 
 
-
-               Pixel format conversion can be performed at any time, since it has no effect on the other transforms.
+Pixel format conversion can be performed at any time, since it has no effect on the other transforms.
             
 
-
-               The first parameter, <i>prc</i> is used to specify the region of interest for clipping the image.
+The first parameter, <i>prc</i> is used to specify the region of interest for clipping the image.
                By convention, scaling is performed before clipping so, if the image is to be scaled as well as clipped, the region of interest should be determined after the image has been scaled.
             
 
-
-               If a <i>dstTransform</i> is specified, the stride is the transformed stride, and is based on the pixelFormat specified in the <b>CopyPixels</b> call, not the original frame's pixel format.            
+If a <i>dstTransform</i> is specified, the stride is the transformed stride, and is based on the pixelFormat specified in the <b>CopyPixels</b> call, not the original frame's pixel format.            
             
 
 

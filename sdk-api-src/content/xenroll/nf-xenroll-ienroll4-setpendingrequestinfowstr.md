@@ -4,10 +4,10 @@ title: IEnroll4::setPendingRequestInfoWStr
 author: windows-sdk-content
 description: Sets properties for a pending request.
 old-location: security\ienroll4_setpendingrequestinfowstr.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 02b49033-3354-4e30-a816-a9c078c6164a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IEnroll4 interface [Security],setPendingRequestInfoWStr method, IEnroll4.setPendingRequestInfoWStr, IEnroll4::setPendingRequestInfoWStr, security.ienroll4_setpendingrequestinfowstr, setPendingRequestInfoWStr, setPendingRequestInfoWStr method [Security], setPendingRequestInfoWStr method [Security],IEnroll4 interface, xenroll/IEnroll4::setPendingRequestInfoWStr
 ms.prod: windows
 ms.technology: windows-sdk

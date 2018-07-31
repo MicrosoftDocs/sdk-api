@@ -7,7 +7,7 @@ old-location: wintouch\touchinput.htm
 old-project: wintouch
 ms.assetid: fc382759-3a1e-401e-a6a7-1bf209a5434b
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: "*PTOUCHINPUT, PTOUCHINPUT, PTOUCHINPUT structure pointer [Windows Touch], TOUCHINPUT, TOUCHINPUT structure [Windows Touch], tagTOUCHINPUT, wintouch.touchinput, winuser/PTOUCHINPUT, winuser/TOUCHINPUT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -202,8 +202,7 @@ Note that a solitary touch point or, in a set of simultaneous touch points, the 
 
 Note that the touch point identifier may be dynamic and is associated with a given touch point only as long as the touch point persists. If contact is broken and then resumed (for example, if a finger is removed from the surface and then pressed down again), the same touch point (the same finger, pen, or other such device) may receive a different touch point identifier.
 
-
-	The following type is defined to represent a constant pointer to a <b>TOUCHINPUT</b> structure.
+The following type is defined to represent a constant pointer to a <b>TOUCHINPUT</b> structure.
 	
 
 <pre class="syntax" xml:space="preserve"><code>

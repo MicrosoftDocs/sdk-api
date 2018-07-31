@@ -4,10 +4,10 @@ title: RtlCharToInteger function
 author: windows-sdk-content
 description: Converts a character string to an integer.
 old-location: winprog\rtlchartointeger.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlchartointeger.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: RtlCharToInteger, RtlCharToInteger function [Windows API], winprog.rtlchartointeger, winternl/RtlCharToInteger, winui.rtlchartointeger
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: WSManPluginAuthzQueryQuotaComplete function
 author: windows-sdk-content
 description: Called from the WSManPluginAuthzQueryQuota plug-in entry point and must be called whether or not the plug-in can carry out the request.
 old-location: winrm\wsmanpluginauthzqueryquotacomplete.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 611e9be3-75b8-4718-ae10-6ebe38010c7f
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: WSManPluginAuthzQueryQuotaComplete, WSManPluginAuthzQueryQuotaComplete function [Windows Remote Management], winrm.wsmanpluginauthzqueryquotacomplete, wsman/WSManPluginAuthzQueryQuotaComplete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -49,7 +49,6 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 ## -description
-
 
 
 Called from the <a href="https://msdn.microsoft.com/426a848c-f549-4a41-b92a-c9451738a014">WSManPluginAuthzQueryQuota</a> plug-in entry point and  must be called whether or not the plug-in can carry out the request.

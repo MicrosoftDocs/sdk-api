@@ -4,10 +4,10 @@ title: "_PARTITION_INFORMATION_MBR"
 author: windows-sdk-content
 description: Contains partition information specific to master boot record (MBR) disks.
 old-location: fs\partition_information_mbr_str.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 5b74b06f-ef4c-44ab-95c6-49c050faf1f4
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "*PPARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR structure [Files], PPARTITION_INFORMATION_MBR, PPARTITION_INFORMATION_MBR structure pointer [Files], _PARTITION_INFORMATION_MBR, _win32_partition_information_mbr_str, base.partition_information_mbr_str, fs.partition_information_mbr_str, winioctl/PARTITION_INFORMATION_MBR, winioctl/PPARTITION_INFORMATION_MBR"
 ms.prod: windows
 ms.technology: windows-sdk

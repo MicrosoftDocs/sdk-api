@@ -7,7 +7,7 @@ old-location: gdi\createpolygonrgn.htm
 old-project: gdi
 ms.assetid: dd7ad6de-c5f2-46e4-8d28-24caaa48ba3a
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: ALTERNATE, CreatePolygonRgn, CreatePolygonRgn function [Windows GDI], WINDING, _win32_CreatePolygonRgn, gdi.createpolygonrgn, wingdi/CreatePolygonRgn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -164,13 +164,11 @@ Regions created by the Create&lt;shape&gt;Rgn methods (such as <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/16f387e1-b00c-4755-8b21-1ee0f25bc46b">
-CreateRoundRectRgn</a>
+<a href="https://msdn.microsoft.com/16f387e1-b00c-4755-8b21-1ee0f25bc46b">CreateRoundRectRgn</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">
-DeleteObject</a>
+<a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a>
 
 
 
@@ -186,18 +184,15 @@ DeleteObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a42fc7a-4c07-4540-99a7-520f99532f33">
-Region Functions</a>
+<a href="https://msdn.microsoft.com/3a42fc7a-4c07-4540-99a7-520f99532f33">Region Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d2e8624-4d1a-44f7-821e-a54f6f538214">
-Regions Overview</a>
+<a href="https://msdn.microsoft.com/5d2e8624-4d1a-44f7-821e-a54f6f538214">Regions Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a89b875e-923d-4048-bc61-8dea132cc56d">
-SelectObject</a>
+<a href="https://msdn.microsoft.com/a89b875e-923d-4048-bc61-8dea132cc56d">SelectObject</a>
 
 
 

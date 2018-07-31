@@ -7,7 +7,7 @@ old-location: inputdev\rid_device_info.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rid_device_info.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPRID_DEVICE_INFO, *PRID_DEVICE_INFO, LPRID_DEVICE_INFO, LPRID_DEVICE_INFO structure pointer [Keyboard and Mouse Input], PRID_DEVICE_INFO, PRID_DEVICE_INFO structure pointer [Keyboard and Mouse Input], RID_DEVICE_INFO, RID_DEVICE_INFO structure [Keyboard and Mouse Input], RIM_TYPEHID, RIM_TYPEKEYBOARD, RIM_TYPEMOUSE, _win32_RID_DEVICE_INFO_str, _win32_rid_device_info_str_cpp, inputdev.rid_device_info, tagRID_DEVICE_INFO, winui._win32_rid_device_info_str, winuser/LPRID_DEVICE_INFO, winuser/PRID_DEVICE_INFO, winuser/RID_DEVICE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,23 +121,23 @@ Data comes from a mouse.
 
 ### -field DUMMYUNIONNAME.mouse
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms645589(v=VS.85).aspx">RID_DEVICE_INFO_MOUSE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/ada5510d-0e3a-4663-a98a-80ea0517f28d">RID_DEVICE_INFO_MOUSE</a></b>
 
-If <b>dwType</b> is <b>RIM_TYPEMOUSE</b>, this is the <a href="https://msdn.microsoft.com/library/ms645589(v=VS.85).aspx">RID_DEVICE_INFO_MOUSE</a> structure that defines the mouse. 
+If <b>dwType</b> is <b>RIM_TYPEMOUSE</b>, this is the <a href="https://msdn.microsoft.com/ada5510d-0e3a-4663-a98a-80ea0517f28d">RID_DEVICE_INFO_MOUSE</a> structure that defines the mouse. 
 
 
 ### -field DUMMYUNIONNAME.keyboard
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms645587(v=VS.85).aspx">RID_DEVICE_INFO_KEYBOARD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/1f93ea56-66d0-46db-9da9-af0042ffb5b9">RID_DEVICE_INFO_KEYBOARD</a></b>
 
-If <b>dwType</b> is <b>RIM_TYPEKEYBOARD</b>, this is the <a href="https://msdn.microsoft.com/library/ms645587(v=VS.85).aspx">RID_DEVICE_INFO_KEYBOARD</a> structure that defines the keyboard. 
+If <b>dwType</b> is <b>RIM_TYPEKEYBOARD</b>, this is the <a href="https://msdn.microsoft.com/1f93ea56-66d0-46db-9da9-af0042ffb5b9">RID_DEVICE_INFO_KEYBOARD</a> structure that defines the keyboard. 
 
 
 ### -field DUMMYUNIONNAME.hid
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms645584(v=VS.85).aspx">RID_DEVICE_INFO_HID</a></b>
+Type: <b><a href="https://msdn.microsoft.com/77769507-7e23-4c4d-954e-cd1770b49426">RID_DEVICE_INFO_HID</a></b>
 
-If <b>dwType</b> is <b>RIM_TYPEHID</b>, this is the <a href="https://msdn.microsoft.com/library/ms645584(v=VS.85).aspx">RID_DEVICE_INFO_HID</a> structure that defines the HID device. 
+If <b>dwType</b> is <b>RIM_TYPEHID</b>, this is the <a href="https://msdn.microsoft.com/77769507-7e23-4c4d-954e-cd1770b49426">RID_DEVICE_INFO_HID</a> structure that defines the HID device. 
 
 
 ## -see-also
@@ -149,23 +149,23 @@ If <b>dwType</b> is <b>RIM_TYPEHID</b>, this is the <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645597(v=VS.85).aspx">GetRawInputDeviceInfo</a>
+<a href="https://msdn.microsoft.com/1d8316d3-83ed-4f8b-bed4-09533d6f3591">GetRawInputDeviceInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645584(v=VS.85).aspx">RID_DEVICE_INFO_HID</a>
+<a href="https://msdn.microsoft.com/77769507-7e23-4c4d-954e-cd1770b49426">RID_DEVICE_INFO_HID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645587(v=VS.85).aspx">RID_DEVICE_INFO_KEYBOARD</a>
+<a href="https://msdn.microsoft.com/1f93ea56-66d0-46db-9da9-af0042ffb5b9">RID_DEVICE_INFO_KEYBOARD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645589(v=VS.85).aspx">RID_DEVICE_INFO_MOUSE</a>
+<a href="https://msdn.microsoft.com/ada5510d-0e3a-4663-a98a-80ea0517f28d">RID_DEVICE_INFO_MOUSE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645536(v=VS.85).aspx">Raw Input</a>
+<a href="https://msdn.microsoft.com/a2afdb80-d68a-4c33-826f-96739d239cd9">Raw Input</a>
 
 
 

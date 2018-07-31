@@ -7,7 +7,7 @@ old-location: devlic\checkdeveloperlicense.htm
 old-project: devlic
 ms.assetid: 957CBEDC-CF3A-4A65-B0D9-4CEACCAAC344
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: CheckDeveloperLicense, CheckDeveloperLicense function, devlic.checkdeveloperlicense, wsdevlicensing/CheckDeveloperLicense
 ms.prod: windows
 ms.technology: windows-sdk

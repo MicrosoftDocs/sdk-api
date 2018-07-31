@@ -7,7 +7,7 @@ old-location: wes\evtnextpublisherid.htm
 old-project: WES
 ms.assetid: e6cea6de-79f3-416b-9501-8d86f2579aa8
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtNextPublisherId, EvtNextPublisherId function [EventLog], wes.evtnextpublisherid, winevt/EvtNextPublisherId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,6 @@ The size of the <i>PublisherIdBuffer</i> buffer, in characters.
 
 
 ### -param PublisherIdBuffer [in]
-
 
 A caller-allocated buffer that will receive the name of the registered provider. You can set this parameter to <b>NULL</b> to determine the required buffer size.
 

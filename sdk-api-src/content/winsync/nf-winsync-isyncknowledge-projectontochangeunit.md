@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge_projectontochangeunit.htm
 old-project: winsync
 ms.assetid: 3c09284f-9866-49a4-adeb-561af3351ada
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],ProjectOntoChangeUnit method, ISyncKnowledge.ProjectOntoChangeUnit, ISyncKnowledge::ProjectOntoChangeUnit, ProjectOntoChangeUnit, ProjectOntoChangeUnit method [Windows Sync], ProjectOntoChangeUnit method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_projectontochangeunit, winsync/ISyncKnowledge::ProjectOntoChangeUnit
 ms.prod: windows
 ms.technology: windows-sdk

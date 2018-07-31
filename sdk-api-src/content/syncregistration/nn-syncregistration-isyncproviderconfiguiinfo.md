@@ -7,7 +7,7 @@ old-location: winsync\isyncproviderconfiguiinfo.htm
 old-project: winsync
 ms.assetid: b7c49533-d289-44b0-9a9e-cfa47af3a087
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: ISyncProviderConfigUIInfo, ISyncProviderConfigUIInfo interface [Windows Sync], ISyncProviderConfigUIInfo interface [Windows Sync],described, syncregistration/ISyncProviderConfigUIInfo, winsync.isyncproviderconfiguiinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ Creates an instance of a synchronization provider configuration UI.
 
 
 
-You can get and set the properties of a  synchronization provider configuration UI by calling the <a href="https://msdn.microsoft.com/eb9a2f2f-4c9f-405c-90f6-b251ab1a652d">GetSyncProviderConfigUI</a>
-method and manipulating the configuration UI's <b>IPropertyStore</b>.
+You can get and set the properties of a  synchronization provider configuration UI by calling the <a href="https://msdn.microsoft.com/eb9a2f2f-4c9f-405c-90f6-b251ab1a652d">GetSyncProviderConfigUI</a>method and manipulating the configuration UI's <b>IPropertyStore</b>.
 
 
 

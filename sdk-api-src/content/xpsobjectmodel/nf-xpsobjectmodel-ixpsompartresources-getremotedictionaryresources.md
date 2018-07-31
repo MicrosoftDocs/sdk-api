@@ -7,7 +7,7 @@ old-location: xps\ixpsompartresources_getremotedictionaryresources.htm
 old-project: printdocs
 ms.assetid: cb12fe80-9e94-4797-adf5-a1986512bf57
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetRemoteDictionaryResources, GetRemoteDictionaryResources method [XPS Documents and Packaging], GetRemoteDictionaryResources method [XPS Documents and Packaging],IXpsOMPartResources interface, IXpsOMPartResources interface [XPS Documents and Packaging],GetRemoteDictionaryResources method, IXpsOMPartResources.GetRemoteDictionaryResources, IXpsOMPartResources::GetRemoteDictionaryResources, xps.ixpsompartresources_getremotedictionaryresources, xpsobjectmodel/IXpsOMPartResources::GetRemoteDictionaryResources
 ms.prod: windows
 ms.technology: windows-sdk

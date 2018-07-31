@@ -7,7 +7,7 @@ old-location: wes\evtrender.htm
 old-project: WES
 ms.assetid: 521322b6-3424-4321-bcba-fa8dcdc05a76
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtRender, EvtRender function [EventLog], wes.evtrender, winevt/EvtRender
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,6 @@ The size of the <i>Buffer</i> buffer, in bytes.
 
 
 ### -param Buffer [in]
-
 
 A caller-allocated buffer that will receive the rendered output. The contents is a <b>null</b>-terminated Unicode string if the <i>Flags</i> parameter is set to EvtRenderEventXml or EvtRenderBookmark. Otherwise, if <i>Flags</i> is set to EvtRenderEventValues, the buffer contains an array of <a href="https://msdn.microsoft.com/4b0f338b-0b66-4ba5-9e29-b15afe15a2d3">EVT_VARIANT</a> structures; one for each property specified by the rendering context. The <i>PropertyCount</i> parameter contains the number of elements in the array.
 

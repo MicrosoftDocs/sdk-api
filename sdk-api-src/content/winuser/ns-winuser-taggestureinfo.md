@@ -7,7 +7,7 @@ old-location: wintouch\gestureinfo.htm
 old-project: wintouch
 ms.assetid: f5b8b530-ff1e-4d78-a12f-86990fe9ac88
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: "*PGESTUREINFO, GESTUREINFO, GESTUREINFO structure [Windows Touch], PGESTUREINFO, PGESTUREINFO structure pointer [Windows Touch], tagGESTUREINFO, wintouch.gestureinfo, winuser/GESTUREINFO, winuser/PGESTUREINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,8 +114,7 @@ The <b>HIDWORD</b> of the <b>ullArguments</b> member is always 0, with the follo
 <li>For <b>GID_PAN</b>, it is 0 except when there is inertia. When <b>GF_INERTIA</b> is set,  the <b>HIDWORD</b> is an inertia vector (two 16-bit values).</li>
 <li>For <b>GID_PRESSANDTAP</b>, it is the distance between the two points.</li>
 </ul>
-
-  The <b>GESTUREINFO</b> structure is retrieved by passing the handle to the gesture information structure
+The <b>GESTUREINFO</b> structure is retrieved by passing the handle to the gesture information structure
   to the <a href="https://msdn.microsoft.com/407ed585-09aa-4174-8907-8bb9590f1795">GetGestureInfo</a> function.
 
 The following flags indicate the various states of the gestures and are stored in <b>dwFlags</b>.
@@ -145,8 +144,7 @@ The following flags indicate the various states of the gestures and are stored i
 </table>
  
 
-<div class="alert"><b>Note</b>  
-  Most applications should ignore the <b>GID_BEGIN</b> and <b>GID_END</b> messages and pass them to <b>DefWindowProc</b>.  
+<div class="alert"><b>Note</b>  Most applications should ignore the <b>GID_BEGIN</b> and <b>GID_END</b> messages and pass them to <b>DefWindowProc</b>.  
   These messages are used by the default gesture handler. Application behavior is undefined when
   the <b>GID_BEGIN</b> and <b>GID_END</b> messages are consumed by a third-party application.</div>
 <div> </div>
@@ -197,12 +195,10 @@ The following table indicates the various identifiers for gestures.
 </table>
  
 
-<div class="alert"><b>Note</b>  
-    The <b>GID_PAN</b> gesture has built-in inertia.  At the end of a pan gesture, additional pan
+<div class="alert"><b>Note</b>  The <b>GID_PAN</b> gesture has built-in inertia.  At the end of a pan gesture, additional pan
     gesture messages are created by the operating system.
     </div>
 <div> </div>
-
 The following type is defined to represent a constant pointer to a <b>GESTUREINFO</b> structure.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>

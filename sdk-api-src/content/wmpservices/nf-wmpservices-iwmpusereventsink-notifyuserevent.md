@@ -7,7 +7,7 @@ old-location: wmp\iwmpusereventsink_notifyuserevent.htm
 old-project: WMP
 ms.assetid: f3a84ff8-2f96-43ab-a8a7-7c07d07927dc
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPUserEventSink interface [Windows Media Player],NotifyUserEvent method, IWMPUserEventSink.NotifyUserEvent, IWMPUserEventSink::NotifyUserEvent, IWMPUserEventSinkNotifyUserEvent, NotifyUserEvent, NotifyUserEvent method [Windows Media Player], NotifyUserEvent method [Windows Media Player],IWMPUserEventSink interface, wmp.iwmpusereventsink_notifyuserevent, wmpservices/IWMPUserEventSink::NotifyUserEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,11 +75,9 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

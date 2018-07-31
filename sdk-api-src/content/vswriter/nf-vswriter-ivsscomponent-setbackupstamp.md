@@ -4,10 +4,10 @@ title: IVssComponent::SetBackupStamp
 author: windows-sdk-content
 description: The SetBackupStamp method sets a string containing information indicating when a backup took place.
 old-location: base\ivsscomponent_setbackupstamp.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 54995cc9-8988-4f26-9c60-5d809a93e4e1
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: IVssComponent interface [VSS],SetBackupStamp method, IVssComponent.SetBackupStamp, IVssComponent::SetBackupStamp, SetBackupStamp, SetBackupStamp method [VSS], SetBackupStamp method [VSS],IVssComponent interface, _win32_ivsscomponent_setbackupstamp, base.ivsscomponent_setbackupstamp, vswriter/IVssComponent::SetBackupStamp
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ The
 A writer can call this method only during a backup operation.
 
 This method cannot be called while handling a 
-<a href="https://msdn.microsoft.com/library/Aa384652(v=VS.85).aspx">BackupComplete</a> (<a href="https://msdn.microsoft.com/77d0621d-81bd-4d53-8e5d-f5d3bfd86013">CVssWriter::OnBackupComplete</a>) or <a href="https://msdn.microsoft.com/library/Aa384652(v=VS.85).aspx">BackupShutdown</a> (<a href="https://msdn.microsoft.com/4b6d5efe-703b-4245-81d8-e2fc7f650d4b">CVssWriter::OnBackupShutdown</a>) event.
+<a href="vssgloss_b.htm">BackupComplete</a> (<a href="https://msdn.microsoft.com/77d0621d-81bd-4d53-8e5d-f5d3bfd86013">CVssWriter::OnBackupComplete</a>) or <a href="vssgloss_b.htm">BackupShutdown</a> (<a href="https://msdn.microsoft.com/4b6d5efe-703b-4245-81d8-e2fc7f650d4b">CVssWriter::OnBackupShutdown</a>) event.
 
 
 ## -parameters
@@ -142,7 +142,7 @@ The backup stamp set by
 <b>SetBackupStamp</b> applies to all files in the component and any nonselectable subcomponents it has.
 
 Writers typically call 
-<b>SetBackupStamp</b> while handling a <a href="https://msdn.microsoft.com/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> event in 
+<b>SetBackupStamp</b> while handling a <a href="vssgloss_p.htm">PostSnapshot</a> event in 
 <a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a>.
 
 Requesters merely store the backup stamp in the Backup Components Document. They do not make direct use of the backup stamp or have to know how to interpret it.

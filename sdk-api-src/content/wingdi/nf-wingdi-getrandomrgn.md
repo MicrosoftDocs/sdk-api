@@ -7,7 +7,7 @@ old-location: gdi\getrandomrgn.htm
 old-project: gdi
 ms.assetid: a7527d7a-7b5e-4dd5-9270-94bc92b5a4a0
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetRandomRgn, GetRandomRgn function [Windows GDI], _win32_GetRandomRgn, gdi.getrandomrgn, wingdi/GetRandomRgn
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,8 +100,7 @@ If the function succeeds, the return value is 1. If the function fails, the retu
 
 When using the SYSRGN flag, note that the system clipping region might not be current because of window movements. Nonetheless, it is safe to retrieve and use the system clipping region within the <a href="https://msdn.microsoft.com/513341d7-bed8-469c-a067-ee71dc8860f9">BeginPaint</a>-<a href="https://msdn.microsoft.com/b07cfed9-21c4-4459-855a-eaf4d1d34ab8">EndPaint</a> block during <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> processing. In this case, the system region is the intersection of the update region and the current visible area of the window. Any window movement following the return of <b>GetRandomRgn</b> and before <b>EndPaint</b> will result in a new <b>WM_PAINT</b> message. Any other use of the SYSRGN flag may result in painting errors in your application.
 
-
-         The region returned is in screen coordinates.
+The region returned is in screen coordinates.
 
 
 

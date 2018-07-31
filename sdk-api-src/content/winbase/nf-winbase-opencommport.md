@@ -4,10 +4,10 @@ title: OpenCommPort function
 author: windows-sdk-content
 description: Attempts to open a communication device.
 old-location: base\opencommport.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: D96D3F6D-2158-4E6A-84A8-DC3BAE9624FA
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: FILE_FLAG_OVERLAPPED, OpenCommPort, OpenCommPort function, base.opencommport, winbase/OpenCommPort
 ms.prod: windows
 ms.technology: windows-sdk

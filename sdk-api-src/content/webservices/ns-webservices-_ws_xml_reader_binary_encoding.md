@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_reader_binary_encoding.htm
 old-project: wsw
 ms.assetid: 51a0802b-6624-430e-96c1-a8470fac4937
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_READER_BINARY_ENCODING, WS_XML_READER_BINARY_ENCODING structure [Web Services for Windows], _WS_XML_READER_BINARY_ENCODING, webservices/WS_XML_READER_BINARY_ENCODING, wsw.ws_xml_reader_binary_encoding
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Used to indicate that the reader should interpret the bytes it reads as binary xml.
+Used to indicate that the reader should interpret the bytes it reads as binary xml.
       
 
 
@@ -63,15 +62,13 @@ req.product: Windows Address Book 5.0
 
 ### -field encoding
 
-
-          The base type for all types that derive from <a href="https://msdn.microsoft.com/54d9683e-c2d1-4e18-92a2-a68558999e28">WS_XML_READER_ENCODING</a>.
+The base type for all types that derive from <a href="https://msdn.microsoft.com/54d9683e-c2d1-4e18-92a2-a68558999e28">WS_XML_READER_ENCODING</a>.
         
 
 
 ### -field staticDictionary
 
-
-          Indicates the dictionary that the reader should use for static strings.  The binary representation of the xml
+Indicates the dictionary that the reader should use for static strings.  The binary representation of the xml
           document references these strings by id (as opposed to embedding the actual string), and therefore they must contain 
           the same set of strings used when the document was written.
         
@@ -79,8 +76,7 @@ req.product: Windows Address Book 5.0
 
 ### -field dynamicDictionary
 
-
-          Indicates the dictionary that the reader should use for dynamic strings. These are strings that were not in the 
+Indicates the dictionary that the reader should use for dynamic strings. These are strings that were not in the 
           staticDictionary when the document was written but that were found by the <a href="https://msdn.microsoft.com/c1520c9a-4360-4ac0-89b8-e80385668051">WS_DYNAMIC_STRING_CALLBACK</a>.
           The binary representation of the xml document references these strings by id (as opposed to embedding the actual string), 
           and therefore they must contain the same set of strings used when the document was written.

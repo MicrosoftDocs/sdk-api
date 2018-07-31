@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard2_addtransition.htm
 old-project: UIAnimation
 ms.assetid: BFC05D67-EE1C-489E-9A8C-10F0AAB24A0A
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: AddTransition, AddTransition method [Windows Animation], AddTransition method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],AddTransition method, IUIAnimationStoryboard2.AddTransition, IUIAnimationStoryboard2::AddTransition, uianimation.iuianimationstoryboard2_addtransition, uianimation/IUIAnimationStoryboard2::AddTransition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Adds a transition to the storyboard.
+Adds a transition to the storyboard.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param variable [in]
 
-
-               The animation variable for which the transition is to be added.
+The animation variable for which the transition is to be added.
 
 
 ### -param transition [in]
@@ -120,23 +118,19 @@ The <b>AddTransition</b> method applies the specified transition to the specifie
 
 
 
-<a href="https://msdn.microsoft.com/F5D13D36-1AEE-4D47-9683-A428E9ADF1D6">
-      IUIAnimationStoryboard2::AddKeyframeAfterTransition</a>
+<a href="https://msdn.microsoft.com/F5D13D36-1AEE-4D47-9683-A428E9ADF1D6">IUIAnimationStoryboard2::AddKeyframeAfterTransition</a>
 
 
 
-<a href="https://msdn.microsoft.com/55AEA5EA-7D9E-4669-8315-7A6F4428EDF9">
-      IUIAnimationStoryboard2::AddTransitionBetweenKeyframes</a>
+<a href="https://msdn.microsoft.com/55AEA5EA-7D9E-4669-8315-7A6F4428EDF9">IUIAnimationStoryboard2::AddTransitionBetweenKeyframes</a>
 
 
 
-<a href="https://msdn.microsoft.com/CACB8053-7716-42E4-9C3B-9CCBBC30808A">
-      IUIAnimationTransition2</a>
+<a href="https://msdn.microsoft.com/CACB8053-7716-42E4-9C3B-9CCBBC30808A">IUIAnimationTransition2</a>
 
 
 
-<a href="https://msdn.microsoft.com/92C10ED5-DCE6-4B1D-8608-E2C3C6AD97BA">
-      IUIAnimationTransitionLibrary2</a>
+<a href="https://msdn.microsoft.com/92C10ED5-DCE6-4B1D-8608-E2C3C6AD97BA">IUIAnimationTransitionLibrary2</a>
  
 
  

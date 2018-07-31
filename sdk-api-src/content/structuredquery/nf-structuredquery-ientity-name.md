@@ -7,7 +7,7 @@ old-location: search\_search_IEntity_Name.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\name.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: IEntity interface [search],Name method, IEntity.Name, IEntity::Name, Name, Name method [search], Name method [search],IEntity interface, _search_IEntity_Name, search._search_IEntity_Name, structuredquery/IEntity::Name
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-          Retrieves the name of this entity.
+Retrieves the name of this entity.
         
 
 
@@ -65,8 +64,7 @@ req.product: Windows XP with SP1 and later
 
 Type: <b>LPWSTR*</b>
 
-
-                Receives a pointer to the name of this entity as a Unicode string. The calling application must free the returned string by calling <a href="https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>. 
+Receives a pointer to the name of this entity as a Unicode string. The calling application must free the returned string by calling <a href="_com_CoTaskMemFree">CoTaskMemFree</a>. 
             
 
 

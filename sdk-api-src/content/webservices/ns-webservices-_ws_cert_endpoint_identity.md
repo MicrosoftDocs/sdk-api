@@ -7,7 +7,7 @@ old-location: wsw\ws_cert_endpoint_identity.htm
 old-project: wsw
 ms.assetid: c4d0f409-49c8-4b8c-82fd-302e96cb6a84
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_CERT_ENDPOINT_IDENTITY, WS_CERT_ENDPOINT_IDENTITY structure [Web Services for Windows], _WS_CERT_ENDPOINT_IDENTITY, webservices/WS_CERT_ENDPOINT_IDENTITY, wsw.ws_cert_endpoint_identity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                    Type for certificate endpoint identity
+Type for certificate endpoint identity
             
 
 
@@ -63,14 +62,12 @@ req.product: Windows Address Book 5.0
 
 ### -field identity
 
-
-                    The base type from which this type and all other endpoint identity types derive.
+The base type from which this type and all other endpoint identity types derive.
                 
 
 
 ### -field rawCertificateData
 
-
-                    The raw certificate data of the endpoint that is represented by this endpoint identity.
+The raw certificate data of the endpoint that is represented by this endpoint identity.
                 
 

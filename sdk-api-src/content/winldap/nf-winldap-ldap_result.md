@@ -4,10 +4,10 @@ title: ldap_result function
 author: windows-sdk-content
 description: Obtains the result of an asynchronous operation.
 old-location: ldap\ldap_result.htm
-old-project: ldap
+old-project: LDAP
 ms.assetid: e047fccc-a875-4360-be1b-3ac3dea15dd6
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "_ldap_ldap_result, ldap.ldap__result, ldap.ldap_result, ldap_result, ldap_result function [LDAP], winldap/ldap_result"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ A timeout that specifies how long, in seconds, to wait for results to be returne
 
 ### -param res [out]
 
-Contains the result(s) of the operation. Any results returned should be freed with a call to <a href="https://msdn.microsoft.com/a4292638-0686-4c2d-8c51-1d5d079d5782">ldap_msgfree</a>
-    once they are no longer required by the application.
+Contains the result(s) of the operation. Any results returned should be freed with a call to <a href="https://msdn.microsoft.com/a4292638-0686-4c2d-8c51-1d5d079d5782">ldap_msgfree</a>once they are no longer required by the application.
 
 
 ## -returns

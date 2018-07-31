@@ -4,10 +4,10 @@ title: WSDCreateOutboundAttachment function
 author: windows-sdk-content
 description: Creates an IWSDOutboundAttachment object.
 old-location: ncd\wsdcreateoutboundattachment.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 92e4ed8a-4a17-49dd-9ed8-bc867ec8bba9
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: WSDCreateOutboundAttachment, WSDCreateOutboundAttachment function, ncd.wsdcreateoutboundattachment, wsdattachment/WSDCreateOutboundAttachment
 ms.prod: windows
 ms.technology: windows-sdk

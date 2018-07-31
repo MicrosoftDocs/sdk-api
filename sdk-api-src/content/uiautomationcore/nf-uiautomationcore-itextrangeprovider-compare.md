@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_Compare.htm
 old-project: WinAuto
 ms.assetid: 6ccdeeee-4c9b-439b-abb8-1fc71f3d209c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: Compare, Compare method [Windows Accessibility], Compare method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],Compare method, ITextRangeProvider.Compare, ITextRangeProvider::Compare, uiauto.uiauto_ITextRangeProvider_Compare, uiauto_ITextRangeProvider_Compare, uiautomationcore/ITextRangeProvider::Compare, winauto.uiauto_ITextRangeProvider_Compare
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        Retrieves a value that specifies whether this text range has the same endpoints as another text range.
+Retrieves a value that specifies whether this text range has the same endpoints as another text range.
 
 
 ## -parameters

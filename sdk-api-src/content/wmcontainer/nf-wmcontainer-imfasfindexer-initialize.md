@@ -7,7 +7,7 @@ old-location: mf\imfasfindexer_initialize.htm
 old-project: medfound
 ms.assetid: c02931d3-7b43-43a9-9e4e-00945ba3c8d8
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: IMFASFIndexer interface [Media Foundation],Initialize method, IMFASFIndexer.Initialize, IMFASFIndexer::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFASFIndexer interface, c02931d3-7b43-43a9-9e4e-00945ba3c8d8, mf.imfasfindexer_initialize, wmcontainer/IMFASFIndexer::Initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,8 +86,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>

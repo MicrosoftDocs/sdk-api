@@ -7,7 +7,7 @@ old-location: wsw\wssetoutputtobuffer.htm
 old-project: wsw
 ms.assetid: b969700d-7145-45eb-ad4b-c6e643975709
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsSetOutputToBuffer, WsSetOutputToBuffer function [Web Services for Windows], webservices/WsSetOutputToBuffer, wsw.wssetoutputtobuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,15 +51,12 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        
-        This operation positions the Writer at the end of the specified buffer.
+This operation positions the Writer at the end of the specified buffer.
       
         When an XML Writer has an XML Buffer set as output the Writer can be used in a "random access" fashion and
         the functions <a href="https://msdn.microsoft.com/0c0fbd78-ed4f-40da-a63d-a2f38136ecb3">WsGetWriterPosition</a>, <a href="https://msdn.microsoft.com/1d23bda1-d1da-44d4-9a9d-258bba200b29">WsSetWriterPosition</a> and <a href="https://msdn.microsoft.com/f8eace53-9fa5-466a-8894-3c8b8fe049e3">WsMoveWriter</a> can be used.
       Properties
-        specified for this function override those specified with the <code>WsCreateWriter</code> function. <div class="alert"><b>Note</b>  
-        See <a href="https://msdn.microsoft.com/5b4bb009-764e-4892-903a-5939f5570016">WsCreateWriter</a> for the default values of the properties of the writer.
+        specified for this function override those specified with the <code>WsCreateWriter</code> function. <div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/5b4bb009-764e-4892-903a-5939f5570016">WsCreateWriter</a> for the default values of the properties of the writer.
       </div>
 <div> </div>
 
@@ -116,7 +113,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -131,8 +127,7 @@ One or more arguments are invalid.
 
 
 
-
-        See <a href="https://msdn.microsoft.com/5b4bb009-764e-4892-903a-5939f5570016">WsCreateWriter</a> for the default values of the properties of the writer.
+See <a href="https://msdn.microsoft.com/5b4bb009-764e-4892-903a-5939f5570016">WsCreateWriter</a> for the default values of the properties of the writer.
       
 
 

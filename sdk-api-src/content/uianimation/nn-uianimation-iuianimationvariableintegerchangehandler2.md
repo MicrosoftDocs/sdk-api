@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariableintegerchangehandler2.htm
 old-project: UIAnimation
 ms.assetid: 778BE01B-360C-431C-9515-DE43B4F2B77D
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariableIntegerChangeHandler2, IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation], IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation],described, uianimation.iuianimationvariableintegerchangehandler2, uianimation/IUIAnimationVariableIntegerChangeHandler2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IUIAnimationVariableIntegerChangeHandler2</b> interface has these methods
 <a href="https://msdn.microsoft.com/76889784-BF1B-475B-8D84-201BEE6F0594">OnIntegerValueChanged</a>
 </td>
 <td align="left" width="63%">
-
-         Handles events that occur when the integer value of an animation variable changes in the specified dimension.
+Handles events that occur when the integer value of an animation variable changes in the specified dimension.
 
 </td>
 </tr>
@@ -87,8 +86,7 @@ The <b>IUIAnimationVariableIntegerChangeHandler2</b> interface has these methods
 
 
 
-<a href="https://msdn.microsoft.com/C878B86A-87AD-457A-802A-9A329B401B08">
-         IUIAnimationVariable2::GetIntegerValue</a>
+<a href="https://msdn.microsoft.com/C878B86A-87AD-457A-802A-9A329B401B08">IUIAnimationVariable2::GetIntegerValue</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: wia\_wia_IEnumWIA_DEV_CAPS_Reset.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_caps\reset.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: IEnumWIA_DEV_CAPS interface [WIA],Reset method, IEnumWIA_DEV_CAPS.Reset, IEnumWIA_DEV_CAPS::Reset, Reset, Reset method [WIA], Reset method [WIA],IEnumWIA_DEV_CAPS interface, _wia_IEnumWIA_DEV_CAPS_Reset, wia._wia_IEnumWIA_DEV_CAPS_Reset, wia_xp/IEnumWIA_DEV_CAPS::Reset
 ms.prod: windows
 ms.technology: windows-sdk

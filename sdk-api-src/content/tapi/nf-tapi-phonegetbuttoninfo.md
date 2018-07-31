@@ -4,10 +4,10 @@ title: phoneGetButtonInfo function
 author: windows-sdk-content
 description: The phoneGetButtonInfo function returns information about the specified button.
 old-location: tapi2\phonegetbuttoninfo.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: a4df5ba0-7fce-4d29-80a6-4f8f58ae1a83
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "_tapi2_phonegetbuttoninfo, phoneGetButtonInfo, phoneGetButtonInfo function [TAPI 2.2], phoneGetButtonInfoA, phoneGetButtonInfoW, tapi/phoneGetButtonInfo, tapi/phoneGetButtonInfoA, tapi/phoneGetButtonInfoW, tapi2.phonegetbuttoninfo"
 ms.prod: windows
 ms.technology: windows-sdk

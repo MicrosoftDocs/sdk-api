@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard2_schedule.htm
 old-project: UIAnimation
 ms.assetid: 9F20AE4A-F693-4DDA-90F4-FCCA5291208B
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],Schedule method, IUIAnimationStoryboard2.Schedule, IUIAnimationStoryboard2::Schedule, Schedule, Schedule method [Windows Animation], Schedule method [Windows Animation],IUIAnimationStoryboard2 interface, uianimation.iuianimationstoryboard2_schedule, uianimation/IUIAnimationStoryboard2::Schedule
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Directs the storyboard to schedule itself for play.
+Directs the storyboard to schedule itself for play.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param timeNow [in]
 
-
-                The current time.
+The current time.
 
 
 ### -param schedulingResult [out, optional]
@@ -117,38 +115,31 @@ It is possible to reuse a storyboard by calling <b>Schedule</b> again after its 
 
 
 
-<a href="https://msdn.microsoft.com/ABB7184F-A703-45E3-96D8-E3062EEB9565">
-      IUIAnimationStoryboard2::Abandon</a>
+<a href="https://msdn.microsoft.com/ABB7184F-A703-45E3-96D8-E3062EEB9565">IUIAnimationStoryboard2::Abandon</a>
 
 
 
-<a href="https://msdn.microsoft.com/C7687E52-433F-4E73-910D-86298E528F7B">
-      IUIAnimationStoryboard2::Conclude</a>
+<a href="https://msdn.microsoft.com/C7687E52-433F-4E73-910D-86298E528F7B">IUIAnimationStoryboard2::Conclude</a>
 
 
 
-<a href="https://msdn.microsoft.com/632BC77D-F2C5-4D08-8E9C-0598617A1DA7">
-      IUIAnimationStoryboard2::Finish</a>
+<a href="https://msdn.microsoft.com/632BC77D-F2C5-4D08-8E9C-0598617A1DA7">IUIAnimationStoryboard2::Finish</a>
 
 
 
-<a href="https://msdn.microsoft.com/1694B720-891A-4214-A009-6AA722E5B83D">
-      IUIAnimationStoryboard2::GetStatus</a>
+<a href="https://msdn.microsoft.com/1694B720-891A-4214-A009-6AA722E5B83D">IUIAnimationStoryboard2::GetStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/32654e4b-158b-4d1a-afc7-98f90212b33b">
-      IUIAnimationTimer::GetTime</a>
+<a href="https://msdn.microsoft.com/32654e4b-158b-4d1a-afc7-98f90212b33b">IUIAnimationTimer::GetTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d62589a-9121-4af6-b704-566a28dcc21e">
-      UI_ANIMATION_SCHEDULING_RESULT</a>
+<a href="https://msdn.microsoft.com/2d62589a-9121-4af6-b704-566a28dcc21e">UI_ANIMATION_SCHEDULING_RESULT</a>
 
 
 
-<a href="https://msdn.microsoft.com/02830092-0070-44dc-8db2-239941134473">
-      UI_ANIMATION_STORYBOARD_STATUS</a>
+<a href="https://msdn.microsoft.com/02830092-0070-44dc-8db2-239941134473">UI_ANIMATION_STORYBOARD_STATUS</a>
  
 
  

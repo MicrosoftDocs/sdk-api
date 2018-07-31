@@ -7,7 +7,7 @@ old-location: xps\ixpsomdocumentsequence.htm
 old-project: printdocs
 ms.assetid: 472095a4-ecd8-406a-97c2-1a34b4e5184a
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMDocumentSequence, IXpsOMDocumentSequence interface [XPS Documents and Packaging], IXpsOMDocumentSequence interface [XPS Documents and Packaging],described, xps.ixpsomdocumentsequence, xpsobjectmodel/IXpsOMDocumentSequence
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IXpsOMDocumentSequence</b> interface has these methods.
 <a href="https://msdn.microsoft.com/d924e610-1142-4623-b64b-219558fb07d6">GetDocuments</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/4f3acae9-10a0-47ff-9170-a40abe230580">IXpsOMDocumentCollection</a> interface, which contains the documents specified in the document sequence.
+Gets a pointer to the <a href="https://msdn.microsoft.com/4f3acae9-10a0-47ff-9170-a40abe230580">IXpsOMDocumentCollection</a> interface, which contains the documents specified in the document sequence.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IXpsOMDocumentSequence</b> interface has these methods.
 <a href="https://msdn.microsoft.com/c5c59e70-d7b5-42cf-a979-6da4899203ba">GetOwner</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/7b0a36d6-1af1-4c2c-af14-d6139e9115c3">IXpsOMPackage</a> interface that contains the document sequence.
+Gets a pointer to the <a href="https://msdn.microsoft.com/7b0a36d6-1af1-4c2c-af14-d6139e9115c3">IXpsOMPackage</a> interface that contains the document sequence.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IXpsOMDocumentSequence</b> interface has these methods.
 <a href="https://msdn.microsoft.com/0d53d537-8db1-4e39-98e6-8987dbf5fc27">GetPrintTicketResource</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <a href="https://msdn.microsoft.com/2f37dbd2-3078-4aa8-97e7-556a0ff2dd74">IXpsOMPrintTicketResource</a> interface to the job-level print ticket that is  assigned to the document sequence.
+Gets the <a href="https://msdn.microsoft.com/2f37dbd2-3078-4aa8-97e7-556a0ff2dd74">IXpsOMPrintTicketResource</a> interface to the job-level print ticket that is  assigned to the document sequence.
             
 
 </td>

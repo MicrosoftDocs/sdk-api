@@ -4,10 +4,10 @@ title: tagSCROLLBARINFO
 author: windows-sdk-content
 description: The SCROLLBARINFO structure contains scroll bar information.
 old-location: controls\SCROLLBARINFO.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarstructures\scrollbarinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPSCROLLBARINFO, *PSCROLLBARINFO, LPSCROLLBARINFO, LPSCROLLBARINFO structure pointer [Windows Controls], PSCROLLBARINFO, PSCROLLBARINFO structure pointer [Windows Controls], SCROLLBARINFO, SCROLLBARINFO structure [Windows Controls], STATE_SYSTEM_INVISIBLE, STATE_SYSTEM_OFFSCREEN, STATE_SYSTEM_PRESSED, STATE_SYSTEM_UNAVAILABLE, _win32_SCROLLBARINFO_str, _win32_SCROLLBARINFO_str_cpp, controls.SCROLLBARINFO, controls._win32_SCROLLBARINFO_str, tagSCROLLBARINFO, winuser/LPSCROLLBARINFO, winuser/PSCROLLBARINFO, winuser/SCROLLBARINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The <b>SCROLLBARINFO</b> structure contains scroll bar information.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Specifies the size, in bytes, of the structure. Before calling the <a href="https://msdn.microsoft.com/library/Bb787581(v=VS.85).aspx">GetScrollBarInfo</a> function, set <b>cbSize</b> to <b>sizeof</b>(<b>SCROLLBARINFO</b>). 
+Specifies the size, in bytes, of the structure. Before calling the <a href="https://msdn.microsoft.com/949e9d33-35d6-4f27-a1c7-7b034ac52e6d">GetScrollBarInfo</a> function, set <b>cbSize</b> to <b>sizeof</b>(<b>SCROLLBARINFO</b>). 
 
 
 ### -field rcScrollBar
@@ -200,7 +200,7 @@ The component is disabled.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787581(v=VS.85).aspx">GetScrollBarInfo</a>
+<a href="https://msdn.microsoft.com/949e9d33-35d6-4f27-a1c7-7b034ac52e6d">GetScrollBarInfo</a>
 
 
 
@@ -216,7 +216,7 @@ The component is disabled.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787529(v=VS.85).aspx">Scroll Bars</a>
+<a href="https://msdn.microsoft.com/23a21f01-b22c-4f4c-a6c0-43c9b2d80ebb">Scroll Bars</a>
  
 
  

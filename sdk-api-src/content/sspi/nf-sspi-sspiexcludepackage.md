@@ -4,10 +4,10 @@ title: SspiExcludePackage function
 author: windows-sdk-content
 description: Creates a new identity structure that is a copy of the specified identity structure modified to exclude the specified security support provider (SSP).
 old-location: security\sspiexcludepackage.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 2f85bb13-b72a-4c26-a328-9424a33a63b8
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: SspiExcludePackage, SspiExcludePackage function [Security], security.sspiexcludepackage, sspi/SspiExcludePackage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # SspiExcludePackage function
@@ -78,8 +77,7 @@ The modified identity structure.
 
 
 
-
-						If the function succeeds, it returns <b>SEC_E_OK</b>.
+If the function succeeds, it returns <b>SEC_E_OK</b>.
 
 If the function fails, it returns a nonzero error code.
 

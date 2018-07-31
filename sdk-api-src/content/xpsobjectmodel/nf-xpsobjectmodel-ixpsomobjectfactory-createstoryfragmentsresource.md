@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createstoryfragmentsresource.htm
 old-project: printdocs
 ms.assetid: b0e3f538-4af9-4d86-8899-6ea4e601eaad
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CreateStoryFragmentsResource, CreateStoryFragmentsResource method [XPS Documents and Packaging], CreateStoryFragmentsResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateStoryFragmentsResource method, IXpsOMObjectFactory.CreateStoryFragmentsResource, IXpsOMObjectFactory::CreateStoryFragmentsResource, xps.ixpsomobjectfactory_createstoryfragmentsresource, xpsobjectmodel/IXpsOMObjectFactory::CreateStoryFragmentsResource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-
-          Creates an <a href="https://msdn.microsoft.com/83bc8017-c679-40a8-96a8-bff9aa2273af">IXpsOMStoryFragmentsResource</a> interface that provides access to the content of the resource stream of a page's StoryFragments part.
+Creates an <a href="https://msdn.microsoft.com/83bc8017-c679-40a8-96a8-bff9aa2273af">IXpsOMStoryFragmentsResource</a> interface that provides access to the content of the resource stream of a page's StoryFragments part.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 
 ### -param acquiredStream [in]
 
-
-            The read-only <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface to be associated with this StoryFragments  resource.
+The read-only <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface to be associated with this StoryFragments  resource.
 
 <div class="alert"><b>Important</b>  Treat this stream as a Single-Threaded Apartment (STA) object; do not re-enter it.</div>
 <div> </div>
@@ -75,8 +73,7 @@ The <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IO
 
 ### -param storyFragmentsResource [out, retval]
 
-
-            A pointer to the new  <a href="https://msdn.microsoft.com/83bc8017-c679-40a8-96a8-bff9aa2273af">IXpsOMStoryFragmentsResource</a> interface.
+A pointer to the new  <a href="https://msdn.microsoft.com/83bc8017-c679-40a8-96a8-bff9aa2273af">IXpsOMStoryFragmentsResource</a> interface.
           
 
 

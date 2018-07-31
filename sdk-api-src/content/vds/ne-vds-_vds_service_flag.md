@@ -4,10 +4,10 @@ title: "_VDS_SERVICE_FLAG"
 author: windows-sdk-content
 description: Defines the set of valid flags for the service object.
 old-location: base\vds_service_flag.htm
-old-project: vds
+old-project: VDS
 ms.assetid: d14718bd-43a3-4775-a218-27c59f6995eb
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: VDS_SERVICE_FLAG, VDS_SERVICE_FLAG enumeration [VDS], VDS_SVF_AUTO_MOUNT_OFF, VDS_SVF_CLUSTER_SERVICE_CONFIGURED, VDS_SVF_EFI, VDS_SVF_OS_UNINSTALL_VALID, VDS_SVF_SUPPORT_DYNAMIC, VDS_SVF_SUPPORT_DYNAMIC_1394, VDS_SVF_SUPPORT_FAULT_TOLERANT, VDS_SVF_SUPPORT_GPT, VDS_SVF_SUPPORT_MIRROR, VDS_SVF_SUPPORT_RAID5, _VDS_SERVICE_FLAG, base.vds_service_flag, vds/VDS_SERVICE_FLAG, vds/VDS_SVF_AUTO_MOUNT_OFF, vds/VDS_SVF_CLUSTER_SERVICE_CONFIGURED, vds/VDS_SVF_EFI, vds/VDS_SVF_OS_UNINSTALL_VALID, vds/VDS_SVF_SUPPORT_DYNAMIC, vds/VDS_SVF_SUPPORT_DYNAMIC_1394, vds/VDS_SVF_SUPPORT_FAULT_TOLERANT, vds/VDS_SVF_SUPPORT_GPT, vds/VDS_SVF_SUPPORT_MIRROR, vds/VDS_SVF_SUPPORT_RAID5
 ms.prod: windows
 ms.technology: windows-sdk

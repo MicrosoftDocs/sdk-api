@@ -7,7 +7,7 @@ old-location: wmi\swbemqualifier_isamended.htm
 old-project: WmiSdk
 ms.assetid: 7619bbf0-e4ed-4afb-a6e5-159eaed6c5df
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemQualifier interface [Windows Management Instrumentation],IsAmended property, ISWbemQualifier.get_IsAmended, ISWbemQualifier::get_IsAmended, IsAmended property [Windows Management Instrumentation], IsAmended property [Windows Management Instrumentation],ISWbemQualifier interface, IsAmended property [Windows Management Instrumentation],SWbemQualifier object, SWbemQualifier object [Windows Management Instrumentation],IsAmended property, SWbemQualifier.IsAmended, _hmm_swbemqualifier.isamended, get_IsAmended, wmi.swbemqualifier_isamended
 ms.prod: windows
 ms.technology: windows-sdk

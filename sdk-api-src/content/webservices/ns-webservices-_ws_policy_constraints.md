@@ -7,7 +7,7 @@ old-location: wsw\ws_policy_constraints.htm
 old-project: wsw
 ms.assetid: 2cf65426-336f-4148-ab3b-063a229db99f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_POLICY_CONSTRAINTS, WS_POLICY_CONSTRAINTS structure [Web Services for Windows], _WS_POLICY_CONSTRAINTS, webservices/WS_POLICY_CONSTRAINTS, wsw.ws_policy_constraints
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies policy constraints for a channel.
+Specifies policy constraints for a channel.
             
 
 
@@ -63,8 +62,7 @@ req.product: Windows Address Book 5.0
 
 ### -field channelBinding
 
-
-                    Which channel binding is required.  The
+Which channel binding is required.  The
                     following values are supported:
                 
 
@@ -79,15 +77,13 @@ req.product: Windows Address Book 5.0
 
 ### -field channelPropertyConstraints
 
-
-                    An array of channel property constraints which override the default
+An array of channel property constraints which override the default
                     set of constraints.  The constraints specified here, combined
                     with the default set of constraints limits the set of policies
                     that will be matched.
                 
 
-
-                    If a channel property constraint is not specified for a given property,
+If a channel property constraint is not specified for a given property,
                     then a default constraint value will be used.
                     See <a href="https://msdn.microsoft.com/548dcba5-dc78-402e-a930-a58fb462c08a">WS_CHANNEL_PROPERTY_CONSTRAINT</a> for the
                     supported set of properties and their default values.
@@ -96,24 +92,19 @@ req.product: Windows Address Book 5.0
 
 ### -field channelPropertyConstraintCount
 
-
-                    The number of elements specified in the <b>channelPropertyConstraints</b>
-                    array.  
+The number of elements specified in the <b>channelPropertyConstraints</b>array.  
                 
 
-
-                    If this value is 0, then the channelPropertyConstraints array may be <b>NULL</b>.
+If this value is 0, then the channelPropertyConstraints array may be <b>NULL</b>.
                 
 
 
 ### -field securityConstraints
 
-
-                    Constraints on the type of security that may be used.
+Constraints on the type of security that may be used.
                 
 
-
-                    Setting this field to <b>NULL</b> indicates a constraint of no security.
+Setting this field to <b>NULL</b> indicates a constraint of no security.
                 
 
 

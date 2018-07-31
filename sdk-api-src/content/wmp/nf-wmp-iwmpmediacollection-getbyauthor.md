@@ -7,7 +7,7 @@ old-location: wmp\iwmpmediacollection_getbyauthor.htm
 old-project: WMP
 ms.assetid: 415dfbe5-c709-4674-bcdd-38742150d11f
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getByAuthor method, IWMPMediaCollection.getByAuthor, IWMPMediaCollection::getByAuthor, IWMPMediaCollectiongetByAuthor, getByAuthor, getByAuthor method [Windows Media Player], getByAuthor method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getbyauthor, wmp/IWMPMediaCollection::getByAuthor
 ms.prod: windows
 ms.technology: windows-sdk

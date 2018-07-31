@@ -7,7 +7,7 @@ old-location: dshow\am_seeking_seeking_capabilities.htm
 old-project: DirectShow
 ms.assetid: 1c7ad11b-2d10-409e-a292-b777566c637d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: AM_SEEKING_CanDoSegments, AM_SEEKING_CanGetCurrentPos, AM_SEEKING_CanGetDuration, AM_SEEKING_CanGetStopPos, AM_SEEKING_CanPlayBackwards, AM_SEEKING_CanSeekAbsolute, AM_SEEKING_CanSeekBackwards, AM_SEEKING_CanSeekForwards, AM_SEEKING_SEEKING_CAPABILITIES, AM_SEEKING_SEEKING_CAPABILITIES , AM_SEEKING_SEEKING_CAPABILITIES enumeration [DirectShow], AM_SEEKING_SEEKING_CAPABILITIESEnumeration, AM_SEEKING_SeekingCapabilities, AM_SEEKING_Source, dshow.am_seeking_seeking_capabilities, strmif/AM_SEEKING_CanDoSegments, strmif/AM_SEEKING_CanGetCurrentPos, strmif/AM_SEEKING_CanGetDuration, strmif/AM_SEEKING_CanGetStopPos, strmif/AM_SEEKING_CanPlayBackwards, strmif/AM_SEEKING_CanSeekAbsolute, strmif/AM_SEEKING_CanSeekBackwards, strmif/AM_SEEKING_CanSeekForwards, strmif/AM_SEEKING_SEEKING_CAPABILITIES, strmif/AM_SEEKING_Source
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # AM_SEEKING_SeekingCapabilities enumeration
@@ -64,64 +63,55 @@ Specifies the seeking capabilities of a media stream.
 
 ### -field AM_SEEKING_CanSeekAbsolute
 
-
-            The stream can seek to an absolute position.
+The stream can seek to an absolute position.
           
 
 
 ### -field AM_SEEKING_CanSeekForwards
 
-
-            The stream can seek forward.
+The stream can seek forward.
           
 
 
 ### -field AM_SEEKING_CanSeekBackwards
 
-
-            The stream can seek backward.
+The stream can seek backward.
           
 
 
 ### -field AM_SEEKING_CanGetCurrentPos
 
-
-            The stream can report its current position. See Remarks.
+The stream can report its current position. See Remarks.
           
 
 
 ### -field AM_SEEKING_CanGetStopPos
 
-
-            The stream can report its stop position.
+The stream can report its stop position.
           
 
 
 ### -field AM_SEEKING_CanGetDuration
 
-
-            The stream can report its duration.
+The stream can report its duration.
           
 
 
 ### -field AM_SEEKING_CanPlayBackwards
 
-
-            The stream can play backward.
+The stream can play backward.
           
 
 
 ### -field AM_SEEKING_CanDoSegments
 
-
-            The stream can do seamless looping (see <a href="https://msdn.microsoft.com/aa1369fd-a57a-4246-bb23-969f6ce3cad8">IMediaSeeking::SetPositions</a>).
+The stream can do seamless looping (see <a href="https://msdn.microsoft.com/aa1369fd-a57a-4246-bb23-969f6ce3cad8">IMediaSeeking::SetPositions</a>).
           
 
 
 ### -field AM_SEEKING_Source
 
-
-            Reserved.
+Reserved.
           
 
 

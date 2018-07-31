@@ -4,10 +4,10 @@ title: ITextHost::TxCreateCaret
 author: windows-sdk-content
 description: Creates a new shape for windowless rich edit control's caret.
 old-location: controls\ITextHost_TxCreateCaret.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txcreatecaret.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CARET_CUSTOM, CARET_ITALIC, CARET_NONE, CARET_NULL, CARET_ROTATE90, CARET_RTL, ITextHost interface [Windows Controls],TxCreateCaret method, ITextHost.TxCreateCaret, ITextHost::TxCreateCaret, TxCreateCaret, TxCreateCaret method [Windows Controls], TxCreateCaret method [Windows Controls],ITextHost interface, _win32_ITextHost_TxCreateCaret, _win32_ITextHost_TxCreateCaret_cpp, controls.ITextHost_TxCreateCaret, controls._win32_ITextHost_TxCreateCaret, textserv/ITextHost::TxCreateCaret
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Handle to the bitmap for the new caret shape. 
 
 
-If the windowless rich edit control has the <a href="https://msdn.microsoft.com/library/Bb774236(v=VS.85).aspx">SES_LOGICALCARET</a> style, <i>hbmp</i> is a combination of the following values:
+If the windowless rich edit control has the <a href="https://msdn.microsoft.com/e48de6b3-0fd2-4791-9863-a6dcdafa3642">SES_LOGICALCARET</a> style, <i>hbmp</i> is a combination of the following values:
 
 
 
@@ -184,11 +184,11 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/library/ms648399(v=VS.85).aspx">CreateCaret</a>
+<a href="https://msdn.microsoft.com/f936c2cd-57a2-47ad-8be1-a2d99dcbe709">CreateCaret</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
 
 
 
@@ -196,7 +196,7 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
  
 
  

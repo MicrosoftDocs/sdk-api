@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisualbrush.htm
 old-project: printdocs
 ms.assetid: 56c11e64-64a8-4c42-9547-4f1fcdc13a4b
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMVisualBrush, IXpsOMVisualBrush interface [XPS Documents and Packaging], IXpsOMVisualBrush interface [XPS Documents and Packaging],described, xps.ixpsomvisualbrush, xpsobjectmodel/IXpsOMVisualBrush
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_SecBufferDesc"
 author: windows-sdk-content
 description: The SecBufferDesc structure describes an array of SecBuffer structures to pass from a transport application to a security package.
 old-location: security\secbufferdesc.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: fc6ef09c-3ba9-4bcb-a3c2-07422af8eaa9
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PSecBufferDesc, PSecBufferDesc, PSecBufferDesc structure pointer [Security], SecBufferDesc, SecBufferDesc structure [Security], _SecBufferDesc, _ssp_secbufferdesc, security.secbufferdesc, sspi/PSecBufferDesc, sspi/SecBufferDesc"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # _SecBufferDesc structure
@@ -51,8 +50,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-			The <b>SecBufferDesc</b> structure describes an array of <a href="https://msdn.microsoft.com/75f49d9c-7d3c-4f45-a94e-44cd05773a07">SecBuffer</a> structures to pass from a transport application to a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>.
+The <b>SecBufferDesc</b> structure describes an array of <a href="https://msdn.microsoft.com/75f49d9c-7d3c-4f45-a94e-44cd05773a07">SecBuffer</a> structures to pass from a transport application to a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>.
 		
 
 

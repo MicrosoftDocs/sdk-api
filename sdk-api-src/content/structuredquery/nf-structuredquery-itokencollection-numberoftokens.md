@@ -7,7 +7,7 @@ old-location: search\_search_ITokenCollection_NumberOfTokens.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\itokencollection\numberoftokens.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: ITokenCollection interface [search],NumberOfTokens method, ITokenCollection.NumberOfTokens, ITokenCollection::NumberOfTokens, NumberOfTokens, NumberOfTokens method [search], NumberOfTokens method [search],ITokenCollection interface, _search_ITokenCollection_NumberOfTokens, search._search_ITokenCollection_NumberOfTokens, structuredquery/ITokenCollection::NumberOfTokens
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Retrieves the number of tokens in the collection.
+Retrieves the number of tokens in the collection.
 
 
 ## -parameters
@@ -64,8 +63,7 @@ req.product: Windows XP with SP1 and later
 
 Type: <b>ULONG*</b>
 
-
-          Receives the number of tokens within the collection.
+Receives the number of tokens within the collection.
         
 
 

@@ -7,7 +7,7 @@ old-location: dshow\vmr9videodesc.htm
 old-project: DirectShow
 ms.assetid: af4bf46a-fae7-4485-b5fb-3fd1857f383f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: VMR9VideoDesc, VMR9VideoDesc structure [DirectShow], VMR9VideoDescStructure, _VMR9VideoDesc, dshow.vmr9videodesc, vmr9/VMR9VideoDesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,8 +89,7 @@ Specifies the FOURCC code. Valid values include NV12, YV12, YUY2, UYVY, IMC1, IM
 
 ### -field InputSampleFreq
 
-
-              A <a href="https://msdn.microsoft.com/a2d19dcf-521e-4df0-8e28-5561f2617411">VMR9Frequency</a> structure that specifies the input frequency. For NTSC TV, the frequency would be expressed as 30,000:1001.
+A <a href="https://msdn.microsoft.com/a2d19dcf-521e-4df0-8e28-5561f2617411">VMR9Frequency</a> structure that specifies the input frequency. For NTSC TV, the frequency would be expressed as 30,000:1001.
 
 
 ### -field OutputFrameFreq

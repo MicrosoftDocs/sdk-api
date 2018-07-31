@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced2_setlogclientid.htm
 old-project: wmformat
 ms.assetid: 818b7a0e-bbf4-42b2-a5a4-75078834c9f6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],SetLogClientID method, IWMReaderAdvanced2.SetLogClientID, IWMReaderAdvanced2::SetLogClientID, IWMReaderAdvanced2SetLogClientID, SetLogClientID, SetLogClientID method [windows Media Format], SetLogClientID method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_setlogclientid, wmsdkidl/IWMReaderAdvanced2::SetLogClientID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,11 +71,9 @@ Specify one of the following values:
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

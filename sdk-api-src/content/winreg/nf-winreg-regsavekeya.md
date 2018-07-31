@@ -4,10 +4,10 @@ title: RegSaveKeyA function
 author: windows-sdk-content
 description: Saves the specified key and all of its subkeys and values to a new file, in the standard format.
 old-location: base\regsavekey.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: da80f40d-0099-4748-94ca-5d3b001e633e
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: RegSaveKey, RegSaveKey function, RegSaveKeyA, RegSaveKeyW, _win32_regsavekey, base.regsavekey, winreg/RegSaveKey, winreg/RegSaveKeyA, winreg/RegSaveKeyW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -135,8 +135,7 @@ You can use the file created by
 <b>RegReplaceKey</b>, or 
 <b>RegRestoreKey</b> for the file will fail.
 
-
-				Using <b>RegSaveKey</b> together with 
+Using <b>RegSaveKey</b> together with 
 <a href="https://msdn.microsoft.com/6267383d-427a-4ae8-b9cc-9c1861d3b7bb">RegRestoreKey</a> to copy subtrees in the registry is not recommended. This method does not trigger notifications and can invalidate handles used by other applications. Instead, use the 
 <a href="https://msdn.microsoft.com/52521ef4-fe59-4766-8828-acb557b0e968">SHCopyKey</a> function or the <a href="https://msdn.microsoft.com/d16f2b47-e537-42b0-90b3-9f9a00e61e76">RegCopyTree</a> function.
 

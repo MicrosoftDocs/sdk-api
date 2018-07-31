@@ -7,7 +7,7 @@ old-location: mf\mfcreateasfstreamselector.htm
 old-project: medfound
 ms.assetid: 71b1af5b-f127-463f-9720-72e789bb2cd1
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: 71b1af5b-f127-463f-9720-72e789bb2cd1, MFCreateASFStreamSelector, MFCreateASFStreamSelector function [Media Foundation], mf.mfcreateasfstreamselector, wmcontainer/MFCreateASFStreamSelector
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,8 +90,7 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 </dl>
 </td>
 <td width="60%">
-
-                The function succeeded.
+The function succeeded.
               
 
 </td>

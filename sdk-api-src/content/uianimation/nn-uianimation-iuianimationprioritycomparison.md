@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationprioritycomparison.htm
 old-project: UIAnimation
 ms.assetid: 65311cf0-f8d4-4d2c-bd4d-585ae5d921df
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationPriorityComparison, IUIAnimationPriorityComparison interface [Windows Animation], IUIAnimationPriorityComparison interface [Windows Animation],described, uianimation.iuianimationprioritycomparison, uianimation/IUIAnimationPriorityComparison
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Defines a method for priority comparison that the animation manager uses to resolve scheduling conflicts.
+Defines a method for priority comparison that the animation manager uses to resolve scheduling conflicts.
 
 
 ## -inheritance
@@ -72,12 +71,10 @@ The <b>IUIAnimationPriorityComparison</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/82a90bd1-7bcf-4849-bad1-bae425169a2f">
-         HasPriority</a>
+<a href="https://msdn.microsoft.com/82a90bd1-7bcf-4849-bad1-bae425169a2f">HasPriority</a>
 </td>
 <td align="left" width="63%">
-
-         Determines the relative priority between a scheduled storyboard and a new storyboard.
+Determines the relative priority between a scheduled storyboard and a new storyboard.
 
 </td>
 </tr>

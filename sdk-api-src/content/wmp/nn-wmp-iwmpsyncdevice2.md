@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice2.htm
 old-project: WMP
 ms.assetid: b47fc5ea-741d-4e47-baad-afeb659f1079
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPSyncDevice2, IWMPSyncDevice2 interface [Windows Media Player], IWMPSyncDevice2 interface [Windows Media Player],described, IWMPSyncDevice2Interface, wmp.iwmpsyncdevice2, wmp/IWMPSyncDevice2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,6 @@ Specifies an attribute value for a device.
 </td>
 </tr>
 </table> 
-
 
 Retrieve a pointer to <b>IWMPSyncDevice2</b> by calling <b>QueryInterface</b> through a pointer to <a href="https://msdn.microsoft.com/981648e4-0cb1-4d7a-bd3b-50e1b9a7282c">IWMPSyncDevice</a>.
 	

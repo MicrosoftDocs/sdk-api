@@ -7,7 +7,7 @@ old-location: wsw\wsabortserviceproxy.htm
 old-project: wsw
 ms.assetid: 45dc9df4-3a98-446f-b749-809607137fb1
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsAbortServiceProxy, WsAbortServiceProxy function [Web Services for Windows], webservices/WsAbortServiceProxy, wsw.wsabortserviceproxy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                Aborts the <a href="https://msdn.microsoft.com/e1a5bf5e-dbc1-43e3-981b-7db4caa08bdc">service proxy</a>, and cancels any pending I/O on the service proxy.
+Aborts the <a href="https://msdn.microsoft.com/e1a5bf5e-dbc1-43e3-981b-7db4caa08bdc">service proxy</a>, and cancels any pending I/O on the service proxy.
             
 
 
@@ -66,14 +65,12 @@ req.product: Windows Address Book 5.0
 
 ### -param serviceProxy [in]
 
-
-                    Pointer to a <a href="https://msdn.microsoft.com/623766ae-fe82-40f9-93c8-e78fe48bc6d1">WS_SERVICE_PROXY</a> structure representing the service proxy to abort.
+Pointer to a <a href="https://msdn.microsoft.com/623766ae-fe82-40f9-93c8-e78fe48bc6d1">WS_SERVICE_PROXY</a> structure representing the service proxy to abort.
 
 
 ### -param error [in, optional]
 
-
-                    Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure that receives additional error information if the function fails.
+Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure that receives additional error information if the function fails.
                 
 
 
@@ -95,7 +92,6 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -120,8 +116,7 @@ One or more arguments are invalid.
 </ul>
 
 
-
-                For an example of using this function, see <a href="https://msdn.microsoft.com/c9e727c8-5fa7-47b9-8624-18fe4de79026">ServiceCancellationExample</a>.
+For an example of using this function, see <a href="https://msdn.microsoft.com/c9e727c8-5fa7-47b9-8624-18fe4de79026">ServiceCancellationExample</a>.
            
 
 

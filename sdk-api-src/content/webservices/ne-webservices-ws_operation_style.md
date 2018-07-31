@@ -7,7 +7,7 @@ old-location: wsw\ws_operation_style.htm
 old-project: wsw
 ms.assetid: c0cc2c3c-5050-444a-95e9-2cfb0e755253
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_NON_RPC_LITERAL_OPERATION, WS_OPERATION_STYLE, WS_OPERATION_STYLE enumeration [Web Services for Windows], WS_RPC_LITERAL_OPERATION, webservices/WS_NON_RPC_LITERAL_OPERATION, webservices/WS_OPERATION_STYLE, webservices/WS_RPC_LITERAL_OPERATION, wsw.ws_operation_style
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        An enumeration of the different operation styles.
+An enumeration of the different operation styles.
       
 
 
@@ -63,14 +62,12 @@ req.product: Windows Address Book 5.0
 
 ### -field WS_NON_RPC_LITERAL_OPERATION
 
-
-          document/literal style operation or encoding operations. 
+document/literal style operation or encoding operations. 
         
 
 
 ### -field WS_RPC_LITERAL_OPERATION
 
-
-          rpc/literal style operation. 
+rpc/literal style operation. 
         
 

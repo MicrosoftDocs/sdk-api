@@ -7,7 +7,7 @@ old-location: winmsg\isiconic.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\isiconic.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: IsIconic, IsIconic function [Windows and Messages], _win32_IsIconic, _win32_isiconic_cpp, winmsg.isiconic, winui._win32_isiconic, winuser/IsIconic
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ If the window is not iconic, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633531(v=VS.85).aspx">IsZoomed</a>
+<a href="https://msdn.microsoft.com/7eece45d-5d18-4b1a-947e-1ed76a228bd9">IsZoomed</a>
 
 
 

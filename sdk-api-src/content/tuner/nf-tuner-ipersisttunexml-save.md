@@ -7,7 +7,7 @@ old-location: mstv\ipersisttunexml_save.htm
 old-project: mstv
 ms.assetid: 5813966a-6053-43ce-9b92-e9552d9acdec
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IPersistTuneXml interface [Microsoft TV Technologies],Save method, IPersistTuneXml.Save, IPersistTuneXml::Save, Save, Save method [Microsoft TV Technologies], Save method [Microsoft TV Technologies],IPersistTuneXml interface, mstv.ipersisttunexml_save, tuner/IPersistTuneXml::Save
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Serializes a tuning model object to an XML node.
 
 ### -param pvarFragment [out]
 
-
-            Pointer to an <b>IXMLDOMNode</b> object that gets the data for the tuning model object.
+Pointer to an <b>IXMLDOMNode</b> object that gets the data for the tuning model object.
           
 
 

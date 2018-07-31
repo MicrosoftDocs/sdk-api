@@ -7,7 +7,7 @@ old-location: menurc\getmenustate.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenustate.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: GetMenuState, GetMenuState function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, _win32_GetMenuState, _win32_getmenustate_cpp, menurc.getmenustate, winui._win32_getmenustate, winuser/GetMenuState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 Retrieves the menu flags associated with the specified menu item. If the menu item opens a submenu, this function also returns the number of items in the submenu. 
-<div class="alert"><b>Note</b>  The <b>GetMenuState</b> function has been superseded by the <a href="https://msdn.microsoft.com/library/ms647980(v=VS.85).aspx">GetMenuItemInfo</a>. You can still use <b>GetMenuState</b>, however, if you do not need any of the extended features of <b>GetMenuItemInfo</b>.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>GetMenuState</b> function has been superseded by the <a href="https://msdn.microsoft.com/4a2c9135-510b-4ccf-bdba-35ffabc49d5c">GetMenuItemInfo</a>. You can still use <b>GetMenuState</b>, however, if you do not need any of the extended features of <b>GetMenuItemInfo</b>.</div><div> </div>
 
 ## -parameters
 
@@ -278,9 +278,7 @@ It is possible to test an item for a flag value of <b>MF_ENABLED</b>, <b>MF_STRI
 
 #### Examples
 
-
-			
-			For an example, see <a href="https://msdn.microsoft.com/library/ms647558(v=VS.85).aspx">Simulating Check Boxes in a Menu</a>.
+For an example, see <a href="using_menus.htm">Simulating Check Boxes in a Menu</a>.
 
 <div class="code"></div>
 
@@ -295,23 +293,23 @@ It is possible to test an item for a flag value of <b>MF_ENABLED</b>, <b>MF_STRI
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647640(v=VS.85).aspx">GetMenu</a>
+<a href="https://msdn.microsoft.com/e86b20c6-9a4b-40b7-95d1-ffa57795f5e0">GetMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647978(v=VS.85).aspx">GetMenuItemCount</a>
+<a href="https://msdn.microsoft.com/6a1d542e-b955-48aa-a3b8-e348fefd6f14">GetMenuItemCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647979(v=VS.85).aspx">GetMenuItemID</a>
+<a href="https://msdn.microsoft.com/69ecdcba-177c-4465-95ae-897ed4e96c2d">GetMenuItemID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647980(v=VS.85).aspx">GetMenuItemInfo</a>
+<a href="https://msdn.microsoft.com/4a2c9135-510b-4ccf-bdba-35ffabc49d5c">GetMenuItemInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 

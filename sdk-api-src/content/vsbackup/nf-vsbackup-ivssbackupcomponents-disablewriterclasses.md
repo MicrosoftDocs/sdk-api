@@ -4,10 +4,10 @@ title: IVssBackupComponents::DisableWriterClasses
 author: windows-sdk-content
 description: The DisableWriterClasses method prevents a specific class of writers from receiving any events.
 old-location: base\ivssbackupcomponents_disablewriterclasses.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 7567bf23-4f4c-4210-87f7-4f90262fda7a
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: DisableWriterClasses, DisableWriterClasses method [VSS], DisableWriterClasses method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DisableWriterClasses method, IVssBackupComponents.DisableWriterClasses, IVssBackupComponents::DisableWriterClasses, _win32_ivssbackupcomponents_disablewriterclasses, base.ivssbackupcomponents_disablewriterclasses, vsbackup/IVssBackupComponents::DisableWriterClasses
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,8 +133,7 @@ The backup components object is not initialized, this method has been called dur
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
@@ -161,8 +160,7 @@ If you call <b>DisableWriterClasses</b> more than once, each call adds the write
 
 If you call <b>DisableWriterClasses</b> one or more times and then call <a href="https://msdn.microsoft.com/27dae374-f3c4-44a5-a0d7-3edb647f0593">EnableWriterClasses</a>, the first call to <b>EnableWriterClasses</b> cancels the effect of the calls to <b>DisableWriterClasses</b> and enables only the writers in the <i>rgWriterClassId</i> array.
 
-
-    If you call <b>DisableWriterClasses</b>, you must do so before calling the <a href="https://msdn.microsoft.com/44f19c10-c966-4ab6-98dd-865d535955db">IVssBackupComponents::GatherWriterMetadata</a> method. If you call <b>GatherWriterMetadata</b> first and then call <b>DisableWriterClasses</b>, the call to <b>DisableWriterClasses</b> has no effect. If you need to call <b>GatherWriterMetadata</b> first, to determine which writer classes to disable, you must call it from a different instance of the <a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a> interface.
+If you call <b>DisableWriterClasses</b>, you must do so before calling the <a href="https://msdn.microsoft.com/44f19c10-c966-4ab6-98dd-865d535955db">IVssBackupComponents::GatherWriterMetadata</a> method. If you call <b>GatherWriterMetadata</b> first and then call <b>DisableWriterClasses</b>, the call to <b>DisableWriterClasses</b> has no effect. If you need to call <b>GatherWriterMetadata</b> first, to determine which writer classes to disable, you must call it from a different instance of the <a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a> interface.
 
 
 

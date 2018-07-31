@@ -7,7 +7,7 @@ old-location: winmsg\ishungappwindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\ishungappwindow.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: IsHungAppWindow, IsHungAppWindow function [Windows and Messages], _win32_IsHungAppWindow, _win32_ishungappwindow_cpp, winmsg.ishungappwindow, winui._win32_ishungappwindow, winuser/IsHungAppWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Determines whether the system considers that a specified application is not responding.
 		An application is considered to be not responding if it is not waiting for input, is not in
-		startup processing, and has not called <a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a> within
+		startup processing, and has not called <a href="https://msdn.microsoft.com/b9f5baa4-8166-4d6e-b416-df023aed9bad">PeekMessage</a> within
 		the internal timeout period of 5 seconds. 
 
 
@@ -115,7 +115,7 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633528(v=VS.85).aspx">IsWindow</a>
+<a href="https://msdn.microsoft.com/bd70f81a-e576-4937-bd9b-eac2939b2817">IsWindow</a>
 
 
 

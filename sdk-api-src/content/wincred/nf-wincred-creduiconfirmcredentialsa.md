@@ -4,10 +4,10 @@ title: CredUIConfirmCredentialsA function
 author: windows-sdk-content
 description: Is called after CredUIPromptForCredentials or CredUICmdLinePromptForCredentials, to confirm the validity of the credential harvested.
 old-location: security\creduiconfirmcredentials.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 67262844-75f0-4f68-90f6-63f9a6d2b0a1
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: CredUIConfirmCredentials, CredUIConfirmCredentials function [Security], CredUIConfirmCredentialsA, CredUIConfirmCredentialsW, _cred_creduiconfirmcredentials, security.creduiconfirmcredentials, wincred/CredUIConfirmCredentials, wincred/CredUIConfirmCredentialsA, wincred/CredUIConfirmCredentialsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,8 +56,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CredUIConfirmCredentials</b> function is called after 
+The <b>CredUIConfirmCredentials</b> function is called after 
 <a href="https://msdn.microsoft.com/97a8e750-3e63-4e6f-a875-1e5c49c30dd4">CredUIPromptForCredentials</a> or 
 <a href="https://msdn.microsoft.com/5b5bfe87-8f31-4228-931e-50cfc399b66b">CredUICmdLinePromptForCredentials</a>, to confirm the validity of the credential harvested. <b>CredUIConfirmCredentials</b> must be called if the CREDUI_FLAGS_EXPECT_CONFIRMATION flag was passed to the "prompt" function, either <a href="https://msdn.microsoft.com/97a8e750-3e63-4e6f-a875-1e5c49c30dd4">CredUIPromptForCredentials</a> or <a href="https://msdn.microsoft.com/5b5bfe87-8f31-4228-931e-50cfc399b66b">CredUICmdLinePromptForCredentials</a>, and the "prompt" function returned NO_ERROR.
 

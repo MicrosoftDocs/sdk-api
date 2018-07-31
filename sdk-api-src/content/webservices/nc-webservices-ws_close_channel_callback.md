@@ -7,7 +7,7 @@ old-location: wsw\ws_close_channel_callback.htm
 old-project: wsw
 ms.assetid: 363ac4e0-5cfe-4c12-ad06-027ec2b735e6
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_CLOSE_CHANNEL_CALLBACK, WS_CLOSE_CHANNEL_CALLBACK callback, WS_CLOSE_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_CLOSE_CHANNEL_CALLBACK, wsw.ws_close_channel_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,23 +63,20 @@ Handles the <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae2ee2
 
 ### -param *channelInstance [in]
 
-
-                    The pointer to the state specific to this channel instance,
+The pointer to the state specific to this channel instance,
                     as created by the <a href="https://msdn.microsoft.com/440114f9-2258-4c33-93cd-7185ccf36f76">WS_CREATE_CHANNEL_CALLBACK</a>.
                 
 
 
 ### -param *asyncContext [in, optional]
 
-
-                    Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
+Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
                 
 
 
 ### -param *error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -99,8 +96,7 @@ Handles the <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae2ee2
 </dl>
 </td>
 <td width="60%">
-
-                    The asynchronous operation is still pending.
+The asynchronous operation is still pending.
                 
 
 </td>
@@ -112,8 +108,7 @@ Handles the <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae2ee2
 </dl>
 </td>
 <td width="60%">
-
-                    The close was aborted by a call to <a href="https://msdn.microsoft.com/67af85d7-db75-4e26-a7cc-8115ac3f2d59">WsAbortChannel</a> as it was closing.
+The close was aborted by a call to <a href="https://msdn.microsoft.com/67af85d7-db75-4e26-a7cc-8115ac3f2d59">WsAbortChannel</a> as it was closing.
                 
 
 </td>
@@ -125,8 +120,7 @@ Handles the <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae2ee2
 </dl>
 </td>
 <td width="60%">
-
-                    The channel was in an inappropriate state.
+The channel was in an inappropriate state.
                 
 
 </td>
@@ -138,7 +132,6 @@ Handles the <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae2ee2
 </dl>
 </td>
 <td width="60%">
-
 The operation was aborted.
 
 </td>
@@ -150,7 +143,6 @@ The operation was aborted.
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>
@@ -162,7 +154,6 @@ The operation is not allowed due to the current state of the object.
 </dl>
 </td>
 <td width="60%">
-
 The connection with the remote endpoint was terminated.
 
 </td>
@@ -174,7 +165,6 @@ The connection with the remote endpoint was terminated.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint could not process the request.
 
 </td>
@@ -186,7 +176,6 @@ The remote endpoint could not process the request.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -198,7 +187,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 The operation did not complete within the time allotted.
 
 </td>
@@ -210,7 +198,6 @@ The operation did not complete within the time allotted.
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -222,7 +209,6 @@ A quota was exceeded.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -234,7 +220,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -260,8 +245,7 @@ This function may return other errors not listed above.
 
 
 
-
-                See <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae2ee2e0c6">WsCloseChannel</a> for information about the contract
+See <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae2ee2e0c6">WsCloseChannel</a> for information about the contract
                 of this API.
             
 

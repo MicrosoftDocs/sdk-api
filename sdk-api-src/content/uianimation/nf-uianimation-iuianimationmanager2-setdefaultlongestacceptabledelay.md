@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager2_setdefaultlongestacceptabledelay.
 old-project: UIAnimation
 ms.assetid: CB00C22B-9837-43AD-9E04-30182B7386E9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],SetDefaultLongestAcceptableDelay method, IUIAnimationManager2.SetDefaultLongestAcceptableDelay, IUIAnimationManager2::SetDefaultLongestAcceptableDelay, SetDefaultLongestAcceptableDelay, SetDefaultLongestAcceptableDelay method [Windows Animation], SetDefaultLongestAcceptableDelay method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_setdefaultlongestacceptabledelay, uianimation/IUIAnimationManager2::SetDefaultLongestAcceptableDelay
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Sets the default acceptable animation delay. This is the length of time that may pass before storyboards begin.
+Sets the default acceptable animation delay. This is the length of time that may pass before storyboards begin.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param delay [in]
 
-
-                The default delay. This parameter can be a positive value, or <a href="https://msdn.microsoft.com/9971A612-69D7-49AB-8865-B8F29C4CD4C8">UI_ANIMATION_SECONDS_EVENTUALLY</a> (-1) to indicate that any finite delay is acceptable.
+The default delay. This parameter can be a positive value, or <a href="https://msdn.microsoft.com/9971A612-69D7-49AB-8865-B8F29C4CD4C8">UI_ANIMATION_SECONDS_EVENTUALLY</a> (-1) to indicate that any finite delay is acceptable.
 
 
 ## -returns
@@ -93,8 +91,7 @@ For Windows Animation to schedule a storyboard successfully, the storyboard must
 
 
 
-<a href="https://msdn.microsoft.com/5f87a4b1-8db9-42ba-963f-664db588c520">
-      IUIAnimationStoryboard::SetLongestAcceptableDelay</a>
+<a href="https://msdn.microsoft.com/5f87a4b1-8db9-42ba-963f-664db588c520">IUIAnimationStoryboard::SetLongestAcceptableDelay</a>
  
 
  

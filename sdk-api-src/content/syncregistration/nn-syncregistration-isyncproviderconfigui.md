@@ -7,7 +7,7 @@ old-location: winsync\isyncproviderconfigui.htm
 old-project: winsync
 ms.assetid: 27757aa1-a42d-4f66-99a8-bf66385fbec1
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: ISyncProviderConfigUI, ISyncProviderConfigUI interface [Windows Sync], ISyncProviderConfigUI interface [Windows Sync],described, syncregistration/ISyncProviderConfigUI, winsync.isyncproviderconfigui
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,9 +114,7 @@ Updates the <a href="https://msdn.microsoft.com/fe50e34c-6499-4c1e-b891-7b4f7975
 
 The writer of a synchronization provider should implement an <b>ISyncProviderConfigUI</b> (a builder) for a synchronization provider if it requires additional information and properties to be set before it can be created. For example, a synchronization provider may require a user to enter credentials before their data can be synchronized.
 
-If the registered synchronization provider is a <a href="http://go.microsoft.com/fwlink/p/?linkid=134798">Microsoft Sync Framework</a> provider, then the <b>Init</b>
-
-method will be called by the Sync Framework synchronization session. For more information about the different types of synchronization providers you can write for Windows, see <a href="https://msdn.microsoft.com/acf9a557-da4f-4688-9fea-9456947c17b4">Options for Building a Synchronization Provider</a>.
+If the registered synchronization provider is a <a href="http://go.microsoft.com/fwlink/p/?linkid=134798">Microsoft Sync Framework</a> provider, then the <b>Init</b>method will be called by the Sync Framework synchronization session. For more information about the different types of synchronization providers you can write for Windows, see <a href="https://msdn.microsoft.com/acf9a557-da4f-4688-9fea-9456947c17b4">Options for Building a Synchronization Provider</a>.
 
 
 

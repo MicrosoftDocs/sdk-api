@@ -4,10 +4,10 @@ title: IVssBackupComponents::ImportSnapshots
 author: windows-sdk-content
 description: Imports shadow copies transported from a different machine.
 old-location: base\ivssbackupcomponents_importsnapshots.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 7f28c841-5448-4ed7-b76e-0aa5376fd8bf
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: IVssBackupComponents interface [VSS],ImportSnapshots method, IVssBackupComponents.ImportSnapshots, IVssBackupComponents::ImportSnapshots, ImportSnapshots, ImportSnapshots method [VSS], ImportSnapshots method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_importsnapshots, base.ivssbackupcomponents_importsnapshots, vsbackup/IVssBackupComponents::ImportSnapshots
 ms.prod: windows
 ms.technology: windows-sdk
@@ -147,8 +147,7 @@ The backup components object is not initialized, this method has been called dur
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

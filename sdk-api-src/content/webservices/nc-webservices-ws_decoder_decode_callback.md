@@ -7,7 +7,7 @@ old-location: wsw\ws_decoder_decode_callback.htm
 old-project: wsw
 ms.assetid: 04ba9b13-8145-4956-85b2-2330c792665a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_DECODER_DECODE_CALLBACK, WS_DECODER_DECODE_CALLBACK callback, WS_DECODER_DECODE_CALLBACK callback function [Web Services for Windows], webservices/WS_DECODER_DECODE_CALLBACK, wsw.ws_decoder_decode_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,33 +62,28 @@ Decodes a message.
 
 ### -param *encoderContext [in]
 
-
-                    The decoder instance returned by the <a href="https://msdn.microsoft.com/85311349-5c82-4545-8a2b-d8b9e629f04d">WS_CREATE_DECODER_CALLBACK</a>.
+The decoder instance returned by the <a href="https://msdn.microsoft.com/85311349-5c82-4545-8a2b-d8b9e629f04d">WS_CREATE_DECODER_CALLBACK</a>.
                 
 
 
 ### -param *buffer
 
-
-              The buffer to read into.
+The buffer to read into.
             
 
 
 ### -param maxLength [in]
 
-
-              The maximum number of bytes to read.
+The maximum number of bytes to read.
             
 
 
 ### -param *length [out]
 
-
-                  The number of bytes read should be returned here.
+The number of bytes read should be returned here.
               
 
-
-                 The number of bytes should be set to 0 when there are no more bytes left.  This indicates
+The number of bytes should be set to 0 when there are no more bytes left.  This indicates
                  the end of the decoded message data, and will cause <a href="https://msdn.microsoft.com/7cf93467-84f6-4ffb-8329-bc1df119087a">WS_DECODER_END_CALLBACK</a> to
                  be invoked.
               
@@ -96,15 +91,13 @@ Decodes a message.
 
 ### -param *asyncContext [in, optional]
 
-
-                    Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
+Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
                 
 
 
 ### -param *error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -124,7 +117,6 @@ Decodes a message.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -136,7 +128,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>

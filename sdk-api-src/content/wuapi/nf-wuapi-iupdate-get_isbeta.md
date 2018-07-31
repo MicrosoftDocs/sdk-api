@@ -4,10 +4,10 @@ title: IUpdate::get_IsBeta
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the update is a beta release.
 old-location: wua\iupdate_isbeta.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: 5e832ea1-1cfc-4421-aa3e-89d9ec83082f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IUpdate interface [Windows Update Agent],IsBeta property, IUpdate.IsBeta, IUpdate.get_IsBeta, IUpdate::IsBeta, IUpdate::get_IsBeta, IsBeta property [Windows Update Agent], IsBeta property [Windows Update Agent],IUpdate interface, get_IsBeta, wua.iupdate_isbeta, wuapi/IUpdate::IsBeta, wuapi/IUpdate::get_IsBeta
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IOCTL_CHANGER_GET_PRODUCT_DATA
 author: windows-sdk-content
 description: Retrieves the product data for the specified device.
 old-location: base\ioctl_changer_get_product_data.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 60744666-fb37-4263-8f4a-e7e043e6b71e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_CHANGER_GET_PRODUCT_DATA, IOCTL_CHANGER_GET_PRODUCT_DATA control, IOCTL_CHANGER_GET_PRODUCT_DATA control code, _win32_ioctl_changer_get_product_data, base.ioctl_changer_get_product_data, winioctl/IOCTL_CHANGER_GET_PRODUCT_DATA
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,13 +61,9 @@ To perform this operation, call the
 </tr>
 <tr>
 <td>
-<pre>
-BOOL DeviceIoControl(
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,               // handle to device
-  IOCTL_CHANGER_GET_PRODUCT_DATA, // dwIoControlCode
-  NULL,                           // lpInBuffer
-  0,                              // nInBufferSize
-  (LPVOID) lpOutBuffer,           // output buffer
+  IOCTL_CHANGER_GET_PRODUCT_DATA, // dwIoControlCodeNULL,                           // lpInBuffer0,                              // nInBufferSize(LPVOID) lpOutBuffer,           // output buffer
   (DWORD) nOutBufferSize,         // size of output buffer
   (LPDWORD) lpBytesReturned,      // number of bytes returned
   (LPOVERLAPPED) lpOverlapped     // OVERLAPPED structure

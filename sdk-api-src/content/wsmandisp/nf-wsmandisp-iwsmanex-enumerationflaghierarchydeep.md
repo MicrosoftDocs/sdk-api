@@ -4,10 +4,10 @@ title: IWSManEx::EnumerationFlagHierarchyDeep
 author: windows-sdk-content
 description: Returns the value of the enumeration constant EnumerationFlagHierarchyDeep for use in the flags parameter of the IWSManSession::Enumerate method.
 old-location: winrm\iwsmanex_enumerationflaghierarchydeep.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 1995b4bd-dc2f-4f43-8e08-52ea1899c2c5
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: EnumerationFlagHierarchyDeep, EnumerationFlagHierarchyDeep method [Windows Remote Management], EnumerationFlagHierarchyDeep method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagHierarchyDeep method, IWSManEx.EnumerationFlagHierarchyDeep, IWSManEx::EnumerationFlagHierarchyDeep, winrm.iwsmanex_enumerationflaghierarchydeep, wsmandisp/IWSManEx::EnumerationFlagHierarchyDeep
 ms.prod: windows
 ms.technology: windows-sdk

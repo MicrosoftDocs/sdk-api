@@ -7,7 +7,7 @@ old-location: xinput\xinput_battery_information.htm
 old-project: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_BATTERY_INFORMATION
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/24/2018
 ms.keywords: "*PXINPUT_BATTERY_INFORMATION, PXINPUT_BATTERY_INFORMATION, PXINPUT_BATTERY_INFORMATION structure pointer [XInput Game Controller APIs], XINPUT_BATTERY_INFORMATION, XINPUT_BATTERY_INFORMATION structure [XInput Game Controller APIs], _XINPUT_BATTERY_INFORMATION, xinput.xinput_battery_information, xinput/PXINPUT_BATTERY_INFORMATION, xinput/XINPUT_BATTERY_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,7 +123,7 @@ The charge state of the battery. This value is only valid for wireless devices w
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419270(v=VS.85).aspx">XINPUT_GAMEPAD</a>
+<a href="https://msdn.microsoft.com/9F3BA764-82E0-4C46-AAA3-F417D2344ECB">XINPUT_GAMEPAD</a>
 
 
 
@@ -131,11 +131,11 @@ The charge state of the battery. This value is only valid for wireless devices w
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419264(v=VS.85).aspx">XInputGetCapabilities</a>
+<a href="https://msdn.microsoft.com/5F02EFF5-57ED-4FF1-88E2-DB1CB6F33151">XInputGetCapabilities</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ee419268(v=VS.85).aspx">XInputSetState</a>
+<a href="https://msdn.microsoft.com/FA494AEB-9FB9-4AF4-95AB-01048A60D924">XInputSetState</a>
  
 
  

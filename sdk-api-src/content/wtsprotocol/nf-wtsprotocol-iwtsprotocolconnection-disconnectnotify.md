@@ -4,10 +4,10 @@ title: IWTSProtocolConnection::DisconnectNotify
 author: windows-sdk-content
 description: IWTSProtocolConnection::DisconnectNotify is no longer available. Instead, use IWRdsProtocolConnection::DisconnectNotify.
 old-location: termserv\iwtsprotocolconnection_disconnectnotify.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: d2712d53-2e52-49d9-874e-e6425235d3f0
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: DisconnectNotify, DisconnectNotify method [Remote Desktop Services], DisconnectNotify method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],DisconnectNotify method, IWTSProtocolConnection.DisconnectNotify, IWTSProtocolConnection::DisconnectNotify, termserv.iwtsprotocolconnection_disconnectnotify, wtsprotocol/IWTSProtocolConnection::DisconnectNotify
 ms.prod: windows
 ms.technology: windows-sdk

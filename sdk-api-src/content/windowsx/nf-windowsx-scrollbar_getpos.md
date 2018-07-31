@@ -4,10 +4,10 @@ title: ScrollBar_GetPos macro
 author: windows-sdk-content
 description: Retrieves the position of the scroll box (thumb) in the specified scroll bar.
 old-location: controls\ScrollBar_GetPos.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_getpos.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ScrollBar_GetPos, ScrollBar_GetPos macro [Windows Controls], _win32_ScrollBar_GetPos, _win32_ScrollBar_GetPos_cpp, controls.ScrollBar_GetPos, controls._win32_ScrollBar_GetPos, windowsx/ScrollBar_GetPos
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows Address Book 5.0
 
 Retrieves the position of the scroll box (thumb) in the specified scroll bar. 
         
-<div class="alert"><b>Note</b>  This macro expands to a call to the <a href="https://msdn.microsoft.com/library/Bb787585(v=VS.85).aspx">GetScrollPos</a> function, which is deprecated. New applications should use the <a href="https://msdn.microsoft.com/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This macro expands to a call to the <a href="https://msdn.microsoft.com/8d8c43df-c444-4c0a-82e5-bdc568161561">GetScrollPos</a> function, which is deprecated. New applications should use the <a href="https://msdn.microsoft.com/c4bd075b-b4fd-44cf-ba51-b9d8a95a5152">GetScrollInfo</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -71,7 +71,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a>.
+For more information, see <a href="https://msdn.microsoft.com/c4bd075b-b4fd-44cf-ba51-b9d8a95a5152">GetScrollInfo</a>.
 
 
 

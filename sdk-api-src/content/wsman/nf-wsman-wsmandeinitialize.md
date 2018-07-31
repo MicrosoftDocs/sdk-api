@@ -4,10 +4,10 @@ title: WSManDeinitialize function
 author: windows-sdk-content
 description: Deinitializes the Windows Remote Management client stack.
 old-location: winrm\wsmandeinitialize.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 1b20ead1-cda0-4449-a454-1e695fe71de6
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: WSManDeinitialize, WSManDeinitialize function [Windows Remote Management], winrm.wsmandeinitialize, wsman/WSManDeinitialize
 ms.prod: windows
 ms.technology: windows-sdk

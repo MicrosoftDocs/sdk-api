@@ -4,10 +4,10 @@ title: EncryptMessage function
 author: windows-sdk-content
 description: Encrypts a message to provide privacy by using Digest.
 old-location: security\encryptmessage__digest_.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 0045e931-929b-40c4-a524-5664d2fc5170
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: EncryptMessage, EncryptMessage (Digest), EncryptMessage function [Security], SealMessage [Security], security.encryptmessage__digest_, sspi/EncryptMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # EncryptMessage function
@@ -52,8 +51,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-            The <b>EncryptMessage (Digest)</b> function encrypts a message to provide <a href="https://msdn.microsoft.com/library/windows/hardware/mt627976">privacy</a>. <b>EncryptMessage (Digest)</b> allows the application to choose among <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic algorithms</a> supported by the chosen mechanism. The <b>EncryptMessage (Digest)</b> function uses the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> referenced by the context handle. Some packages do not have messages to be encrypted or decrypted but rather provide an integrity <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> that can be checked.
+The <b>EncryptMessage (Digest)</b> function encrypts a message to provide <a href="https://msdn.microsoft.com/library/windows/hardware/mt627976">privacy</a>. <b>EncryptMessage (Digest)</b> allows the application to choose among <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic algorithms</a> supported by the chosen mechanism. The <b>EncryptMessage (Digest)</b> function uses the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> referenced by the context handle. Some packages do not have messages to be encrypted or decrypted but rather provide an integrity <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> that can be checked.
 
 This function is available as a SASL mechanism only.
 <div class="alert"><b>Note</b>  <b>EncryptMessage (Digest)</b> and <a href="https://msdn.microsoft.com/46d45f59-33fa-434a-b329-20b6257c9a19">DecryptMessage (Digest)</a> can be called at the same time from two different threads in a single <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Security Support Provider Interface</a> (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.</div><div> </div>
@@ -105,8 +103,7 @@ When using the Digest SSP, this parameter must be set to zero. The Digest SSP ma
 
 
 
-
-                        If the function succeeds, the function returns SEC_E_OK.
+If the function succeeds, the function returns SEC_E_OK.
 
 If the function fails, it returns one of the following error codes.
 
@@ -286,7 +283,7 @@ For optimal performance, the <i>pMessage</i> structures should be allocated from
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

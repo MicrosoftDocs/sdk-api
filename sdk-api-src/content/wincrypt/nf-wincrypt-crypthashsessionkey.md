@@ -4,10 +4,10 @@ title: CryptHashSessionKey function
 author: windows-sdk-content
 description: Computes the cryptographic hash of a session key object.
 old-location: security\crypthashsessionkey.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 75781993-7faf-4149-80cc-ae50dbd4de2a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CRYPT_LITTLE_ENDIAN, CryptHashSessionKey, CryptHashSessionKey function [Security], _crypto2_crypthashsessionkey, security.crypthashsessionkey, wincrypt/CryptHashSessionKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>
-			The <b>CryptHashSessionKey</b> function computes the cryptographic <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">session key</a> object. This function can be called multiple times with the same hash handle to compute the <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> of multiple keys. Calls to <b>CryptHashSessionKey</b> can be interspersed with calls to 
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptHashSessionKey</b> function computes the cryptographic <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">session key</a> object. This function can be called multiple times with the same hash handle to compute the <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> of multiple keys. Calls to <b>CryptHashSessionKey</b> can be interspersed with calls to 
 <a href="https://msdn.microsoft.com/ec1482a2-c2cb-4c5f-af9c-d493134413d6">CryptHashData</a>.
 
 Before calling this function, 
@@ -109,8 +108,7 @@ When this flag is set, the bytes of the key are hashed in <a href="https://msdn.
 
 
 
-
-						If the function succeeds, the return value is <b>TRUE</b>.
+If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
@@ -244,7 +242,7 @@ The function failed in some unexpected way.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

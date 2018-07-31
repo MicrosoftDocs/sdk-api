@@ -7,7 +7,7 @@ old-location: wsw\ws_security_binding_constraint.htm
 old-project: wsw
 ms.assetid: d79795ea-6780-4d13-9d40-bd1ea7cd5113
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SECURITY_BINDING_CONSTRAINT, WS_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], _WS_SECURITY_BINDING_CONSTRAINT, webservices/WS_SECURITY_BINDING_CONSTRAINT, wsw.ws_security_binding_constraint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                The base class for all security binding constraint structures.
+The base class for all security binding constraint structures.
             
 
 
@@ -63,29 +62,24 @@ req.product: Windows Address Book 5.0
 
 ### -field type
 
-
-                    This value depends on which type of security binding constraint that is used.
+This value depends on which type of security binding constraint that is used.
                 
 
 
 ### -field propertyConstraints
 
-
-                    A set of binding-specific security property constraints.
+A set of binding-specific security property constraints.
                 
 
-
-                    See <a href="https://msdn.microsoft.com/97334ced-315d-49db-9c7b-b05ef387f6c8">WS_SECURITY_BINDING_PROPERTY_CONSTRAINT</a> for more information.
+See <a href="https://msdn.microsoft.com/97334ced-315d-49db-9c7b-b05ef387f6c8">WS_SECURITY_BINDING_PROPERTY_CONSTRAINT</a> for more information.
                 
 
 
 ### -field propertyConstraintCount
 
-
-                    The number of elements in the propertyConstraints array.
+The number of elements in the propertyConstraints array.
                 
 
-
-                    If the array has zero elements, the propertyConstraints field may be <b>NULL</b>.
+If the array has zero elements, the propertyConstraints field may be <b>NULL</b>.
                 
 

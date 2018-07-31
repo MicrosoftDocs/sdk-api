@@ -4,10 +4,10 @@ title: WSCUnInstallNameSpace function
 author: windows-sdk-content
 description: Uninstalls the indicated name-space provider.
 old-location: winsock\wscuninstallnamespace_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 5267f986-99fc-4e53-9fbb-3850bb9d24cf
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: WSCUnInstallNameSpace, WSCUnInstallNameSpace function [Winsock], _win32_wscuninstallnamespace_2, winsock.wscuninstallnamespace_2, ws2spi/WSCUnInstallNameSpace
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>WSCUnInstallNameSpace</b> function uninstalls the indicated name-space provider.
 
 
@@ -70,8 +69,7 @@ A pointer to a globally unique identifier (GUID)  for the name-space provider to
 
 
 
-
-						If no error occurs, 
+If no error occurs, 
 <b>WSCUnInstallNameSpace</b> returns <b>NO_ERROR</b> (zero). Otherwise, it returns <b>SOCKET_ERROR</b> if the function fails, and you must retrieve the appropriate error code using the 
 <a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a> function.
 
@@ -83,7 +81,7 @@ A pointer to a globally unique identifier (GUID)  for the name-space provider to
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -94,7 +92,7 @@ The <i>lpProviderId</i> parameter points to memory that is not in a valid part o
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -105,7 +103,7 @@ The specified namespace–provider identifier is invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSASYSCALLFAILURE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSASYSCALLFAILURE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -116,7 +114,7 @@ The specified namespace–provider identifier is invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">

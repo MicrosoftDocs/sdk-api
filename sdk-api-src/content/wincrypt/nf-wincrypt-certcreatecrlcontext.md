@@ -4,10 +4,10 @@ title: CertCreateCRLContext function
 author: windows-sdk-content
 description: The CertCreateCRLContext function creates a certificate revocation list (CRL) context from an encoded CRL. The created context is not persisted to a certificate store. It makes a copy of the encoded CRL within the created context.
 old-location: security\certcreatecrlcontext.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 23d9dfb0-926d-443e-b960-a03338f1cc1b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertCreateCRLContext, CertCreateCRLContext function [Security], _crypto2_certcreatecrlcontext, security.certcreatecrlcontext, wincrypt/CertCreateCRLContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertCreateCRLContext</b> function creates a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> from an encoded CRL. The created context is not persisted to a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a>. It makes a copy of the encoded CRL within the created context.
+The <b>CertCreateCRLContext</b> function creates a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> from an encoded CRL. The created context is not persisted to a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a>. It makes a copy of the encoded CRL within the created context.
 
 
 ## -parameters
@@ -165,7 +164,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
  
 
  

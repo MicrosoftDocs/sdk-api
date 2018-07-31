@@ -7,7 +7,7 @@ old-location: wmp\iwmpsettings_getmode.htm
 old-project: WMP
 ms.assetid: 5275cb99-8007-4af2-9137-694de18c5434
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],getMode method, IWMPSettings.getMode, IWMPSettings::getMode, IWMPSettingsgetMode, getMode, getMode method [Windows Media Player], getMode method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_getmode, wmp/IWMPSettings::getMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,11 +68,9 @@ The <b>getMode</b> method determines whether the loop mode or shuffle mode is ac
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

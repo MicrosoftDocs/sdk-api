@@ -7,7 +7,7 @@ old-location: mstv\iesisdbcasresponseevent_getrequestid.htm
 old-project: mstv
 ms.assetid: b3ab39b4-567f-49a5-b3d2-460ec648ab26
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: GetRequestId, GetRequestId method [DirectShow], GetRequestId method [DirectShow],IESIsdbCasResponseEvent interface, IESIsdbCasResponseEvent interface [DirectShow],GetRequestId method, IESIsdbCasResponseEvent.GetRequestId, IESIsdbCasResponseEvent::GetRequestId, mstv.iesisdbcasresponseevent_getrequestid, tuner/IESIsdbCasResponseEvent::GetRequestId
 ms.prod: windows
 ms.technology: windows-sdk

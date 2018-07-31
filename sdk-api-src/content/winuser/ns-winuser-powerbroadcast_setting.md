@@ -4,10 +4,10 @@ title: POWERBROADCAST_SETTING
 author: windows-sdk-content
 description: Sent with a power setting event and contains data about the specific change.
 old-location: base\powerbroadcast_setting.htm
-old-project: power
+old-project: Power
 ms.assetid: 13fa8220-bad2-4bb6-b652-38fc11a31215
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: "*PPOWERBROADCAST_SETTING, POWERBROADCAST_SETTING, POWERBROADCAST_SETTING structure, PPOWERBROADCAST_SETTING, PPOWERBROADCAST_SETTING structure pointer, base.powerbroadcast_setting, winuser/POWERBROADCAST_SETTING, winuser/PPOWERBROADCAST_SETTING"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\selectfont.htm
 old-project: gdi
 ms.assetid: e7c145aa-566d-4754-a4dd-a5e71e188258
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: SelectFont, SelectFont macro [Windows GDI], _win32_SelectFont, gdi.selectfont, windowsx/SelectFont
 ms.prod: windows
 ms.technology: windows-sdk

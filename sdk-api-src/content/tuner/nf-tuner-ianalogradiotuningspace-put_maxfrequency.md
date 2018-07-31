@@ -7,7 +7,7 @@ old-location: mstv\ianalogradiotuningspace_put_maxfrequency.htm
 old-project: mstv
 ms.assetid: 2c5c3d7b-820a-4741-8a3a-4c1ffd67870a
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],put_MaxFrequency method, IAnalogRadioTuningSpace.put_MaxFrequency, IAnalogRadioTuningSpace::put_MaxFrequency, IAnalogRadioTuningSpaceput_MaxFrequency, mstv.ianalogradiotuningspace_put_maxfrequency, put_MaxFrequency, put_MaxFrequency method [Microsoft TV Technologies], put_MaxFrequency method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, tuner/IAnalogRadioTuningSpace::put_MaxFrequency
 ms.prod: windows
 ms.technology: windows-sdk

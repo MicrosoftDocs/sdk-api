@@ -7,7 +7,7 @@ old-location: wsw\ws_get_cert_callback.htm
 old-project: wsw
 ms.assetid: 36e787ff-f6bc-4814-be3f-a64f3edc2326
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_GET_CERT_CALLBACK, WS_GET_CERT_CALLBACK callback, WS_GET_CERT_CALLBACK callback function [Web Services for Windows], webservices/WS_GET_CERT_CALLBACK, wsw.ws_get_cert_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,6 @@ certificate credential. The runtime will invoke this callback when the channel
 (client-side) or the listener (server-side) is opened.
             
 
-
 Cert ownership: If this callback returns a success HRESULT, the caller
 (namely, the security runtime) will take ownership of the returned
 certificate, and will free it when the containing channel no longer
@@ -75,13 +74,11 @@ parameter 'cert'.
 
 ### -param *getCertCallbackState [in]
 
-
 State that was specified along with this callback in the certificate credential.
                 
 
 
 ### -param *targetAddress [in, optional]
-
 
 The target address to whom this certificate is to be presented, in
 case this certificate credential is specified for a client.
@@ -90,13 +87,11 @@ case this certificate credential is specified for a client.
 
 ### -param *viaUri [in, optional]
 
-
 The via address to whom this certificate is to be presented.
                 
 
 
 #### - **cert
-
 
 The location to return the certificate.
                 
@@ -104,13 +99,11 @@ The location to return the certificate.
 
 ### -param *error [in, optional]
 
-
 Specifies where additional error information should be stored if the function fails.
                 
 
 
 #### - cert
-
 
 The location to return the certificate.
                 

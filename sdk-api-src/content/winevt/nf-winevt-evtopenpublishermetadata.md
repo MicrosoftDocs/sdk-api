@@ -7,7 +7,7 @@ old-location: wes\evtopenpublishermetadata.htm
 old-project: WES
 ms.assetid: 0839fb15-12a9-4e30-9afa-6f6437956df0
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtOpenPublisherMetadata, EvtOpenPublisherMetadata function [EventLog], wes.evtopenpublishermetadata, winevt/EvtOpenPublisherMetadata
 ms.prod: windows
 ms.technology: windows-sdk

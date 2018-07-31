@@ -7,7 +7,7 @@ old-location: edp\srpdoespolicyallowappexecution_.htm
 old-project: EDP
 ms.assetid: 2649E719-2BF8-4AE6-B563-0230487A7BD2
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: EDP.srpdoespolicyallowappexecution_, SrpDoesPolicyAllowAppExecution, SrpDoesPolicyAllowAppExecution , SrpDoesPolicyAllowAppExecution function, srpapi/SrpDoesPolicyAllowAppExecution
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,6 @@ targetos: Windows
 req.lib: Srpapi.lib
 req.dll: Srpapi.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # SrpDoesPolicyAllowAppExecution function

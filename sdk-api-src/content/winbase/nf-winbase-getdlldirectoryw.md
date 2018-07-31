@@ -7,7 +7,7 @@ old-location: base\getdlldirectory.htm
 old-project: Dlls
 ms.assetid: f892546a-6c48-48f2-8d9a-46e448fffb89
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetDllDirectory, GetDllDirectory function, GetDllDirectoryA, GetDllDirectoryW, base.getdlldirectory, winbase/GetDllDirectory, winbase/GetDllDirectoryA, winbase/GetDllDirectoryW
 ms.prod: windows
 ms.technology: windows-sdk

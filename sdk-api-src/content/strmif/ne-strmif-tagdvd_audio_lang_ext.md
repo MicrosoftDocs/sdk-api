@@ -7,7 +7,7 @@ old-location: dshow\dvd_audio_lang_ext.htm
 old-project: DirectShow
 ms.assetid: 01d82199-18e1-4d84-add1-f4f6790155c8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: DVD_AUDIO_LANG_EXT, DVD_AUDIO_LANG_EXT , DVD_AUDIO_LANG_EXT enumeration [DirectShow], DVD_AUDIO_LANG_EXTEnumeration, DVD_AUD_EXT_Captions, DVD_AUD_EXT_DirectorComments1, DVD_AUD_EXT_DirectorComments2, DVD_AUD_EXT_NotSpecified, DVD_AUD_EXT_VisuallyImpaired, dshow.dvd_audio_lang_ext, strmif/DVD_AUDIO_LANG_EXT, strmif/DVD_AUD_EXT_Captions, strmif/DVD_AUD_EXT_DirectorComments1, strmif/DVD_AUD_EXT_DirectorComments2, strmif/DVD_AUD_EXT_NotSpecified, strmif/DVD_AUD_EXT_VisuallyImpaired, tagDVD_AUDIO_LANG_EXT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # tagDVD_AUDIO_LANG_EXT enumeration
@@ -64,36 +63,31 @@ Defines flags that indicate whether an audio stream contains audio language exte
 
 ### -field DVD_AUD_EXT_NotSpecified
 
-
-            The DVD doesn't specify an audio language extension for this audio stream.
+The DVD doesn't specify an audio language extension for this audio stream.
           
 
 
 ### -field DVD_AUD_EXT_Captions
 
-
-            The audio stream contains captions.
+The audio stream contains captions.
           
 
 
 ### -field DVD_AUD_EXT_VisuallyImpaired
 
-
-            The audio stream contains content for people with low vision.
+The audio stream contains content for people with low vision.
           
 
 
 ### -field DVD_AUD_EXT_DirectorComments1
 
-
-            The audio stream contains "director comments 1."
+The audio stream contains "director comments 1."
           
 
 
 ### -field DVD_AUD_EXT_DirectorComments2
 
-
-            The audio stream contains "director comments 2."
+The audio stream contains "director comments 2."
           
 
 

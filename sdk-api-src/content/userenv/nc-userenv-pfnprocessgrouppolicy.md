@@ -4,10 +4,10 @@ title: PFNPROCESSGROUPPOLICY
 author: windows-sdk-content
 description: The ProcessGroupPolicy function is an application-defined callback function used when applying policy.
 old-location: policy\processgrouppolicy.htm
-old-project: policy
+old-project: Policy
 ms.assetid: f639c11c-ee65-45b6-ba0d-f39c825b3d80
 ms.author: windowssdkdev
-ms.date: 05/31/2018
+ms.date: 07/29/2018
 ms.keywords: GPO_INFO_FLAG_ASYNC_FOREGROUND, GPO_INFO_FLAG_BACKGROUND, GPO_INFO_FLAG_FORCED_REFRESH, GPO_INFO_FLAG_LINKTRANSITION, GPO_INFO_FLAG_LOGRSOP_TRANSITION, GPO_INFO_FLAG_MACHINE, GPO_INFO_FLAG_NOCHANGES, GPO_INFO_FLAG_SAFEMODE_BOOT, GPO_INFO_FLAG_SLOWLINK, GPO_INFO_FLAG_VERBOSE, PFNPROCESSGROUPPOLICY, PFNPROCESSGROUPPOLICY callback, PFNPROCESSGROUPPOLICY callback function [Group Policy], ProcessGroupPolicy, _win32_processgrouppolicy, policy.processgrouppolicy, userenv/PFNPROCESSGROUPPOLICY
 ms.prod: windows
 ms.technology: windows-sdk

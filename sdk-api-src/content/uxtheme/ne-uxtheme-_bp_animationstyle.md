@@ -4,10 +4,10 @@ title: "_BP_ANIMATIONSTYLE"
 author: windows-sdk-content
 description: Used in the BP_ANIMATIONPARAMS structure to declare animation options.
 old-location: controls\BP_ANIMATIONSTYLE.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\bp_animationstyle.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: BPAS_CUBIC, BPAS_LINEAR, BPAS_NONE, BPAS_SINE, BP_ANIMATIONSTYLE, BP_ANIMATIONSTYLE enumeration [Windows Controls], _BP_ANIMATIONSTYLE, _shell_BP_ANIMATIONSTYLE, _shell_BP_ANIMATIONSTYLE_cpp, controls.BP_ANIMATIONSTYLE, controls._shell_BP_ANIMATIONSTYLE, uxtheme/BPAS_CUBIC, uxtheme/BPAS_LINEAR, uxtheme/BPAS_NONE, uxtheme/BPAS_SINE, uxtheme/BP_ANIMATIONSTYLE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-Used in the <a href="https://msdn.microsoft.com/library/Bb773224(v=VS.85).aspx">BP_ANIMATIONPARAMS</a> structure to declare animation options.
+Used in the <a href="https://msdn.microsoft.com/9693b45e-c58c-404d-bcbf-6ea02092b0bb">BP_ANIMATIONPARAMS</a> structure to declare animation options.
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_setgprm.htm
 old-project: DirectShow
 ms.assetid: 192bbf1d-a5de-4acf-b8d6-8a5f733da3a6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetGPRM method, IDvdControl2.SetGPRM, IDvdControl2::SetGPRM, IDvdControl2SetGPRM, SetGPRM, SetGPRM method [DirectShow], SetGPRM method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setgprm, strmif/IDvdControl2::SetGPRM
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,11 +132,9 @@ The following table shows the Annex J command name to which this method name cor
 
 <table>
 <tr>
-<td>
-              Annex J Command Name
+<td>Annex J Command Name
             </td>
-<td>
-              Valid Domains
+<td>Valid Domains
             </td>
 </tr>
 <tr>

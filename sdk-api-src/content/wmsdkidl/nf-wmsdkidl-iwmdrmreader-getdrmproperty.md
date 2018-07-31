@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmreader_getdrmproperty.htm
 old-project: wmformat
 ms.assetid: 86ee18be-38a9-4f76-810c-e33281df8c23
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetDRMProperty, GetDRMProperty method [windows Media Format], GetDRMProperty method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],GetDRMProperty method, IWMDRMReader.GetDRMProperty, IWMDRMReader::GetDRMProperty, IWMDRMReaderGetDRMProperty, wmformat.iwmdrmreader_getdrmproperty, wmsdkidl/IWMDRMReader::GetDRMProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,14 +105,11 @@ If you specify a "license state" constant, the returned data is a pointer to a <
 
 <table>
 <tr>
-<th>
-              Constant
+<th>Constant
             </th>
-<th>
-              Literal string value
+<th>Literal string value
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>
@@ -142,7 +139,7 @@ If you specify a "license state" constant, the returned data is a pointer to a <
 <tr>
 <td>g_wszWMDRM_LicenseState_CopyToSDMIDevice</td>
 <td>"LicenseStateData.Transfer.SDMI"</td>
-<td>License restrictions on copying the file to an <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">SDMI</a> device.For DRM version 10 licenses, use g_wszWMDRM_LicenseState_Copy for all copy actions.
+<td>License restrictions on copying the file to an <a href="wmformat_glossary.htm">SDMI</a> device.For DRM version 10 licenses, use g_wszWMDRM_LicenseState_Copy for all copy actions.
 
 </td>
 </tr>
@@ -163,14 +160,11 @@ If you specify an "action allowed" constant, the returned data is a Boolean that
 
 <table>
 <tr>
-<th>
-              Constant
+<th>Constant
             </th>
-<th>
-              Literal string value
+<th>Literal string value
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>
@@ -226,14 +220,11 @@ If you specify a "DRM Header" constant, the returned value is the string literal
 
 <table>
 <tr>
-<th>
-              Constant
+<th>Constant
             </th>
-<th>
-              Literal string value
+<th>Literal string value
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>

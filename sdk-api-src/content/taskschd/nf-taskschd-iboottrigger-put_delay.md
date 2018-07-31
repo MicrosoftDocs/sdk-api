@@ -4,10 +4,10 @@ title: IBootTrigger::put_Delay
 author: windows-sdk-content
 description: Gets or sets a value that indicates the amount of time between when the system is booted and when the task is started.
 old-location: taskschd\iboottrigger_delay.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 32173439-1f9e-4780-8fd9-64237bb71075
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: Delay property [Task Scheduler], Delay property [Task Scheduler],IBootTrigger interface, IBootTrigger interface [Task Scheduler],Delay property, IBootTrigger.Delay, IBootTrigger.put_Delay, IBootTrigger::Delay, IBootTrigger::get_Delay, IBootTrigger::put_Delay, put_Delay, taskschd.iboottrigger_delay, taskschd/IBootTrigger::Delay, taskschd/IBootTrigger::get_Delay, taskschd/IBootTrigger::put_Delay
 ms.prod: windows
 ms.technology: windows-sdk

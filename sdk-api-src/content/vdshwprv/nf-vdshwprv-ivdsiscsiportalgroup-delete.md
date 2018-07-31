@@ -4,10 +4,10 @@ title: IVdsIscsiPortalGroup::Delete
 author: windows-sdk-content
 description: Deletes the portal group.
 old-location: base\ivdsiscsiportalgroup_delete.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 903f89b8-4712-4832-ba70-41a5362cbf28
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],Delete method, IVdsIscsiPortalGroup.Delete, IVdsIscsiPortalGroup::Delete, base.ivdsiscsiportalgroup_delete, vds/IVdsIscsiPortalGroup::Delete, vdshwprv/IVdsIscsiPortalGroup::Delete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,20 +65,19 @@ Deletes the
 
 ### -param ppAsync [out]
 
-
-      The address of an <a href="https://msdn.microsoft.com/7814b8ef-84b4-453e-b480-c32b67e5af93">IVdsAsync</a> interface pointer. VDS 
+The address of an <a href="https://msdn.microsoft.com/7814b8ef-84b4-453e-b480-c32b67e5af93">IVdsAsync</a> interface pointer. VDS 
       initializes the interface on return. Callers must release the interface. Use this interface to cancel, wait for, 
       or query the status of the operation. If 
       <a href="https://msdn.microsoft.com/1bb30247-efb8-488f-b142-8912c351f5f2">IVdsAsync::Wait</a> is called and a success HRESULT value is returned, the interfaces returned in 
-      the <a href="https://msdn.microsoft.com/21771c6a-eca9-47f3-b6fc-383bca1e11bf">VDS_ASYNC_OUTPUT</a> structure must be released by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method on each interface pointer.
-     However, if <b>Wait</b> returns a failure HRESULT value, or if the <i>pHrResult</i> parameter of <b>Wait</b> receives a failure HRESULT value, the interface pointers in the <b>VDS_ASYNC_OUTPUT</b> structure are <b>NULL</b> and do not need to be released. You can test for success or failure HRESULT values by using the <a href="https://msdn.microsoft.com/library/ms687197(v=VS.85).aspx">SUCCEEDED</a> and <a href="https://msdn.microsoft.com/library/ms693474(v=VS.85).aspx">FAILED</a> macros defined in Winerror.h.
+      the <a href="https://msdn.microsoft.com/21771c6a-eca9-47f3-b6fc-383bca1e11bf">VDS_ASYNC_OUTPUT</a> structure must be released by calling the <a href="_com_iunknown_release">IUnknown::Release</a> method on each interface pointer.
+     However, if <b>Wait</b> returns a failure HRESULT value, or if the <i>pHrResult</i> parameter of <b>Wait</b> receives a failure HRESULT value, the interface pointers in the <b>VDS_ASYNC_OUTPUT</b> structure are <b>NULL</b> and do not need to be released. You can test for success or failure HRESULT values by using the <a href="_com_succeeded">SUCCEEDED</a> and <a href="_com_failed">FAILED</a> macros defined in Winerror.h.
 
 
 ## -returns
 
 
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -92,8 +91,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 </dl>
 </td>
 <td width="60%">
-
-        The portal group was successfully deleted.
+The portal group was successfully deleted.
 
 </td>
 </tr>
@@ -105,8 +103,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 </dl>
 </td>
 <td width="60%">
-
-        The cache of the provider is corrupted. This indicates a software or communication problem inside a provider 
+The cache of the provider is corrupted. This indicates a software or communication problem inside a provider 
         that caches information about the attached devices. The caller can use the 
         <a href="https://msdn.microsoft.com/aeb06a98-8896-446f-abd5-ea40be0bea40">IVdsHwProvider::Reenumerate</a> method 
         followed by the  <a href="https://msdn.microsoft.com/25ddc73c-5d1b-4bec-bbc2-9f22a5f82ffe">IVdsHwProvider::Refresh</a> 
@@ -135,8 +132,7 @@ The portal object is no longer present.
 </dl>
 </td>
 <td width="60%">
-
-        Another operation is in progress. This operation cannot proceed until the previous operations are complete.
+Another operation is in progress. This operation cannot proceed until the previous operations are complete.
 
 </td>
 </tr>
@@ -148,8 +144,7 @@ The portal object is no longer present.
 </dl>
 </td>
 <td width="60%">
-
-        Portals are associated with this portal group. All portals must be disassociated from this portal group before 
+Portals are associated with this portal group. All portals must be disassociated from this portal group before 
         this portal group can be deleted.
 
 </td>

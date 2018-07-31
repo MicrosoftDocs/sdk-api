@@ -4,10 +4,10 @@ title: CertCreateContext function
 author: windows-sdk-content
 description: Creates the specified context from the encoded bytes. The context created does not include any extended properties.
 old-location: security\certcreatecontext.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 0911054b-a47a-4046-b121-a236fc4b018b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CERT_CREATE_CONTEXT_NOCOPY_FLAG, CERT_CREATE_CONTEXT_NO_ENTRY_FLAG, CERT_CREATE_CONTEXT_NO_HCRYPTMSG_FLAG, CERT_CREATE_CONTEXT_SORTED_FLAG, CERT_STORE_CERTIFICATE_CONTEXT, CERT_STORE_CRL_CONTEXT, CERT_STORE_CTL_CONTEXT, CertCreateContext, CertCreateContext function [Security], _crypto2_certcreatecontext, security.certcreatecontext, wincrypt/CertCreateContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertCreateContext</b> function creates the specified context from the encoded bytes. The context created does not include any extended properties.
+The <b>CertCreateContext</b> function creates the specified context from the encoded bytes. The context created does not include any extended properties.
 
 
 ## -parameters
@@ -198,8 +197,7 @@ If <i>pCreatePara</i> or its <b>pfnFree</b> member is <b>NULL</b>, no attempt is
 
 
 
-
-						If the function succeeds, the return value is a pointer to the newly created context. The <b>pvFree</b> member of <i>pCreatePara</i> must be called to free the created context.
+If the function succeeds, the return value is a pointer to the newly created context. The <b>pvFree</b> member of <i>pCreatePara</i> must be called to free the created context.
 						
 
 If the function fails, the return value is <b>NULL</b>. For extended error information, call 
@@ -227,7 +225,7 @@ If <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">Get
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate and Certificate Store Maintenance Functions</a>
+<a href="cryptography_functions.htm">Certificate and Certificate Store Maintenance Functions</a>
  
 
  

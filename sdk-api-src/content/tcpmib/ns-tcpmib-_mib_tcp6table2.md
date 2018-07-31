@@ -4,10 +4,10 @@ title: "_MIB_TCP6TABLE2"
 author: windows-sdk-content
 description: Contains a table of IPv6 TCP connections on the local computer.
 old-location: mib\mib_tcp6table2.htm
-old-project: mib
+old-project: MIB
 ms.assetid: 3cb8568e-ce31-4ed1-aa9e-abcb826c0cea
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/29/2018
 ms.keywords: "*PMIB_TCP6TABLE2, MIB_TCP6TABLE2, MIB_TCP6TABLE2 structure [MIB], PMIB_TCP6TABLE2, PMIB_TCP6TABLE2 structure pointer [MIB], _MIB_TCP6TABLE2, mib.mib_tcp6table2, tcpmib/MIB_TCP6TABLE2, tcpmib/PMIB_TCP6TABLE2"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ An array of
 
 The <b>MIB_TCP6TABLE2</b> structure is defined on Windows Vista and later. 
 
-The <a href="https://msdn.microsoft.com/435b9198-b921-407c-9441-31cfe77c03f1">GetTcp6Table2</a>
-			function retrieves the IPv6 TCP connection table on the local computer and returns this information in a <b>MIB_TCP6TABLE2</b> structure. 
+The <a href="https://msdn.microsoft.com/435b9198-b921-407c-9441-31cfe77c03f1">GetTcp6Table2</a>function retrieves the IPv6 TCP connection table on the local computer and returns this information in a <b>MIB_TCP6TABLE2</b> structure. 
 
 An array of <a href="https://msdn.microsoft.com/bbec3397-0317-40f7-926f-2ec48cf5386d">MIB_TCP6ROW2</a> structures are contained in the <b>MIB_TCP6TABLE2</b> structure. 
 

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapsource_getpixelformat.htm
 old-project: wic
 ms.assetid: 6fd30a38-a447-4e4e-93ea-e31c5ba1271e
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetPixelFormat, GetPixelFormat method [Windows Imaging Component], GetPixelFormat method [Windows Imaging Component],IWICBitmapSource interface, IWICBitmapSource interface [Windows Imaging Component],GetPixelFormat method, IWICBitmapSource.GetPixelFormat, IWICBitmapSource::GetPixelFormat, _wic_codec_iwicbitmapsource_getpixelformat, wic._wic_codec_iwicbitmapsource_getpixelformat, wincodec/IWICBitmapSource::GetPixelFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-            The pixel format returned by this method is not necessarily the pixel format the image is stored as.
+The pixel format returned by this method is not necessarily the pixel format the image is stored as.
             The codec may perform a format conversion from the storage pixel format to an output pixel format.
          
 

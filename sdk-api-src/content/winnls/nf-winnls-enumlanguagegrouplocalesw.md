@@ -7,7 +7,7 @@ old-location: intl\enumlanguagegrouplocales.htm
 old-project: Intl
 ms.assetid: 5a85c6bd-0362-46ff-80be-a198b1259482
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: EnumLanguageGroupLocales, EnumLanguageGroupLocales function [Internationalization for Windows Applications], EnumLanguageGroupLocalesA, EnumLanguageGroupLocalesW, _win32_EnumLanguageGroupLocales, intl.enumlanguagegrouplocales, winnls/EnumLanguageGroupLocales, winnls/EnumLanguageGroupLocalesA, winnls/EnumLanguageGroupLocalesW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,8 +84,7 @@ Identifier of the language group for which to enumerate locales. This parameter 
 <li>LGRPID_ARABIC
 </li>
 <li>LGRPID_ARMENIAN</li>
-<li>
-LGRPID_BALTIC
+<li>LGRPID_BALTIC
 </li>
 <li>LGRPID_CENTRAL_EUROPE
 </li>
@@ -106,12 +105,10 @@ LGRPID_BALTIC
 <li>LGRPID_SIMPLIFIED_CHINESE
 </li>
 <li>LGRPID_TRADITIONAL_CHINESE</li>
-<li>
-LGRPID_THAI
+<li>LGRPID_THAI
 </li>
 <li>LGRPID_TURKIC</li>
-<li>
-LGRPID_TURKISH
+<li>LGRPID_TURKISH
 </li>
 <li>LGRPID_VIETNAMESE
 </li>

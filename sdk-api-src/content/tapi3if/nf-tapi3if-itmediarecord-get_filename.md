@@ -4,10 +4,10 @@ title: ITMediaRecord::get_FileName
 author: windows-sdk-content
 description: The get_FileName method retrieves the name of the file that was used for recording by this terminal.
 old-location: tapi3\itmediarecord_get_filename.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: fd97665c-ff9e-4621-baf9-7c0b603400c5
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITMediaRecord interface [TAPI 2.2],get_FileName method, ITMediaRecord.get_FileName, ITMediaRecord::get_FileName, _tapi3_itmediarecord_get_filename, get_FileName, get_FileName method [TAPI 2.2], get_FileName method [TAPI 2.2],ITMediaRecord interface, tapi3.itmediarecord_get_filename, tapi3if/ITMediaRecord::get_FileName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The
 ### -param pbstrFileName [out]
 
 The <b>BSTR</b> representation of the file name. The <b>BSTR</b> is allocated using 
-<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
 
 
 ## -returns

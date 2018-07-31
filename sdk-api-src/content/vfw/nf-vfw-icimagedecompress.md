@@ -7,7 +7,7 @@ old-location: multimedia\icimagedecompress.htm
 old-project: Multimedia
 ms.assetid: 8d27f0bd-9db5-482d-9000-75ad04762a67
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: ICImageDecompress, ICImageDecompress function [Windows Multimedia], _win32_ICImageDecompress, multimedia.icimagedecompress, vfw/ICImageDecompress
 ms.prod: windows
 ms.technology: windows-sdk

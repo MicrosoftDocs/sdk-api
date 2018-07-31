@@ -4,10 +4,10 @@ title: IEnroll4::addExtensionToRequestWStr
 author: windows-sdk-content
 description: Adds an extension to the request.
 old-location: security\ienroll4_addextensiontorequestwstr.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 4ecca64b-a8f4-4816-8bf1-7b8e74262ac0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IEnroll4 interface [Security],addExtensionToRequestWStr method, IEnroll4.addExtensionToRequestWStr, IEnroll4::addExtensionToRequestWStr, addExtensionToRequestWStr, addExtensionToRequestWStr method [Security], addExtensionToRequestWStr method [Security],IEnroll4 interface, security.ienroll4_addextensiontorequestwstr, xenroll/IEnroll4::addExtensionToRequestWStr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ A pointer to a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf071
 
 
 
-
-						The return value is an <b>HRESULT</b>, with S_OK returned if the call is successful.
+The return value is an <b>HRESULT</b>, with S_OK returned if the call is successful.
 
 
 

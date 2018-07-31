@@ -7,7 +7,7 @@ old-location: wes\evtnextchannelpath.htm
 old-project: WES
 ms.assetid: 51fd2449-8a89-4a18-99c3-b974c2c998ca
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtNextChannelPath, EvtNextChannelPath function [EventLog], wes.evtnextchannelpath, winevt/EvtNextChannelPath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,6 @@ The size of the <i>ChannelPathBuffer</i> buffer, in characters.
 
 
 ### -param ChannelPathBuffer [in]
-
 
 A caller-allocated buffer that will receive the name of the channel. You can set this parameter to <b>NULL</b> to determine the required buffer size.
 

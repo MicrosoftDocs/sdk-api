@@ -4,10 +4,10 @@ title: IWRdsProtocolConnection::GetProtocolStatus
 author: windows-sdk-content
 description: Retrieves information about the protocol status.
 old-location: termserv\iwrdsprotocolconnection_getprotocolstatus.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: A89C2E3F-AC75-4CFB-9DA7-00DCEDCA1C1A
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetProtocolStatus, GetProtocolStatus method [Remote Desktop Services], GetProtocolStatus method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetProtocolStatus method, IWRdsProtocolConnection.GetProtocolStatus, IWRdsProtocolConnection::GetProtocolStatus, termserv.iwrdsprotocolconnection_getprotocolstatus, wtsprotocol/IWRdsProtocolConnection::GetProtocolStatus
 ms.prod: windows
 ms.technology: windows-sdk

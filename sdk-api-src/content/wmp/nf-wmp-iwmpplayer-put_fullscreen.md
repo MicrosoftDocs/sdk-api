@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayer_put_fullscreen.htm
 old-project: WMP
 ms.assetid: 50ce0115-9e49-4431-b818-35bdc34da9a0
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],put_fullScreen method, IWMPPlayer.put_fullScreen, IWMPPlayer::put_fullScreen, IWMPPlayerput_fullScreen, put_fullScreen, put_fullScreen method [Windows Media Player], put_fullScreen method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_fullscreen, wmp/IWMPPlayer::put_fullScreen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,8 +107,7 @@ During full-screen playback, Windows Media Player hides the mouse cursor when th
 
 If the <b>BSTR</b> specified in <b>IWMPPlayer::put_uiMode</b> is set to "full" or "mini", Windows Media Player displays transport controls in full-screen mode when the mouse cursor moves. After a brief interval of no mouse movement, the transport controls are hidden. If the <b>BSTR</b> specified in <b>IWMPPlayer::put_uiMode</b> is set to "none", no controls are displayed in full-screen mode.
 
-
-        Note
+Note
         
 
 Displaying transport controls in full-screen mode requires the Windows XP operating system.

@@ -7,7 +7,7 @@ old-location: mstv\ibroadcastevent_fire.htm
 old-project: mstv
 ms.assetid: 974b42d7-bf68-426b-a146-4e520cac3274
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: Fire, Fire method [Microsoft TV Technologies], Fire method [Microsoft TV Technologies],IBroadcastEvent interface, IBroadcastEvent interface [Microsoft TV Technologies],Fire method, IBroadcastEvent.Fire, IBroadcastEvent::Fire, IBroadcastEventFire, mstv.ibroadcastevent_fire, tuner/IBroadcastEvent::Fire
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,11 +84,9 @@ For television tuning, the following event is defined.
 
 <table>
 <tr>
-<th>
-              Tuner Event
+<th>Tuner Event
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>

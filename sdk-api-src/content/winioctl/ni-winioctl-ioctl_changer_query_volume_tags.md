@@ -4,10 +4,10 @@ title: IOCTL_CHANGER_QUERY_VOLUME_TAGS
 author: windows-sdk-content
 description: Retrieves the volume tag information for the specified elements.
 old-location: base\ioctl_changer_query_volume_tags.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 67c440e1-cef8-459d-b811-0b483ff51e7e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_CHANGER_QUERY_VOLUME_TAGS, IOCTL_CHANGER_QUERY_VOLUME_TAGS control, IOCTL_CHANGER_QUERY_VOLUME_TAGS control code, _win32_ioctl_changer_query_volume_tags, base.ioctl_changer_query_volume_tags, winioctl/IOCTL_CHANGER_QUERY_VOLUME_TAGS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,11 +61,9 @@ To perform this operation, call the
 </tr>
 <tr>
 <td>
-<pre>
-BOOL DeviceIoControl(
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,                // handle to device
-  IOCTL_CHANGER_QUERY_VOLUME_TAGS, // dwIoControlCode
-  (LPVOID) lpInBuffer,             // input buffer
+  IOCTL_CHANGER_QUERY_VOLUME_TAGS, // dwIoControlCode(LPVOID) lpInBuffer,             // input buffer
   (DWORD) nInBufferSize,           // size of input buffer
   (LPVOID) lpOutBuffer,            // output buffer
   (DWORD) nOutBufferSize,          // size of output buffer

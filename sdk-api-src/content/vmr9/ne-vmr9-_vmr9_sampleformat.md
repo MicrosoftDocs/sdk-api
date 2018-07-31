@@ -7,7 +7,7 @@ old-location: dshow\vmr9_sampleformat.htm
 old-project: DirectShow
 ms.assetid: 0e501c05-91ac-4594-bdfe-e8b4bfeb5bcb
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: VMR9_SampleFieldInterleavedEvenFirst, VMR9_SampleFieldInterleavedOddFirst, VMR9_SampleFieldSingleEven, VMR9_SampleFieldSingleOdd, VMR9_SampleFormat, VMR9_SampleFormat , VMR9_SampleFormat enumeration [DirectShow], VMR9_SampleProgressiveFrame, VMR9_SampleReserved, _VMR9_SampleFormat, dshow.vmr9_sampleformat, vmr9/VMR9_SampleFieldInterleavedEvenFirst, vmr9/VMR9_SampleFieldInterleavedOddFirst, vmr9/VMR9_SampleFieldSingleEven, vmr9/VMR9_SampleFieldSingleOdd, vmr9/VMR9_SampleFormat, vmr9/VMR9_SampleProgressiveFrame, vmr9/VMR9_SampleReserved
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,43 +64,37 @@ The <b>VMR9_SampleFormat</b> enumeration type describes the interlacing of a vid
 
 ### -field VMR9_SampleReserved
 
-
-            Reserved; do not use.
+Reserved; do not use.
           
 
 
 ### -field VMR9_SampleProgressiveFrame
 
-
-            Progressive frame; no interleaving
+Progressive frame; no interleaving
           
 
 
 ### -field VMR9_SampleFieldInterleavedEvenFirst
 
-
-            Each sample contains two interleaved fields, with the even field first.
+Each sample contains two interleaved fields, with the even field first.
           
 
 
 ### -field VMR9_SampleFieldInterleavedOddFirst
 
-
-            Each sample contains two interleaved fields, with the odd field first.
+Each sample contains two interleaved fields, with the odd field first.
           
 
 
 ### -field VMR9_SampleFieldSingleEven
 
-
-            The sample contains a single field, and each line in the sample corresponds to the even lines in a deinterlaced frame. That is, lines 0, 1, 2,... in the sample correspond to lines 0, 2, 4,... in the deinterlaced frame. The missing lines must be constructed when the frame is deinterlaced.
+The sample contains a single field, and each line in the sample corresponds to the even lines in a deinterlaced frame. That is, lines 0, 1, 2,... in the sample correspond to lines 0, 2, 4,... in the deinterlaced frame. The missing lines must be constructed when the frame is deinterlaced.
           
 
 
 ### -field VMR9_SampleFieldSingleOdd
 
-
-            The sample contains a single field, and each line in the sample corresponds to the odd lines in a de-interlaced frame.
+The sample contains a single field, and each line in the sample corresponds to the odd lines in a de-interlaced frame.
           
 
 

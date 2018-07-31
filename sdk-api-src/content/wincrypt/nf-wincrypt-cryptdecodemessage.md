@@ -4,10 +4,10 @@ title: CryptDecodeMessage function
 author: windows-sdk-content
 description: Decodes, decrypts, and verifies a cryptographic message.
 old-location: security\cryptdecodemessage.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 25ffd058-8f75-4ba5-b075-e3efc09f5d9d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptDecodeMessage, CryptDecodeMessage function [Security], _crypto2_cryptdecodemessage, security.cryptdecodemessage, wincrypt/CryptDecodeMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ The <b>CryptDecodeMessage</b> function decodes, decrypts, and verifies a cryptog
 This function can be used when the type of cryptographic message is unknown. The <i>dwMsgTypeFlags</i> constants can be combined with a bitwise-<b>OR</b> operation so that the function will try to find one of the types. When one of the types is found, the function reports the type found and returns the data appropriate to that type.
 
 In each pass, the function cracks only a single level of encryption or encoding. For additional cracking, this function, or one of the other 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>, must be called again.
+<a href="cryptography_functions.htm">Simplified Message Functions</a>, must be called again.
 
 
 ## -parameters
@@ -180,8 +180,7 @@ If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
-
-							The <a href="https://msdn.microsoft.com/e540b816-64e1-4c78-9020-2b221e813acc">CryptDecryptMessage</a>, 
+The <a href="https://msdn.microsoft.com/e540b816-64e1-4c78-9020-2b221e813acc">CryptDecryptMessage</a>, 
 <a href="https://msdn.microsoft.com/03411e7a-b097-4059-a198-3d412ae40e38">CryptVerifyMessageSignature</a>, or 
 <a href="https://msdn.microsoft.com/3b5185b9-e24b-4302-a60c-74ccbd19077c">CryptVerifyMessageHash</a> functions can be propagated to this function.
 
@@ -241,7 +240,7 @@ The <i>ppXchgCert</i> or <i>ppSignerCert</i> parameters can be set to <b>NULL</b
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

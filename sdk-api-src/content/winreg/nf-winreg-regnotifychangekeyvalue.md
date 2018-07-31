@@ -4,10 +4,10 @@ title: RegNotifyChangeKeyValue function
 author: windows-sdk-content
 description: Notifies the caller about changes to the attributes or contents of a specified registry key.
 old-location: base\regnotifychangekeyvalue.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: aad72ed5-1123-4a8b-9fc4-b54a713b635e
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: REG_NOTIFY_CHANGE_ATTRIBUTES, REG_NOTIFY_CHANGE_LAST_SET, REG_NOTIFY_CHANGE_NAME, REG_NOTIFY_CHANGE_SECURITY, REG_NOTIFY_THREAD_AGNOSTIC, RegNotifyChangeKeyValue, RegNotifyChangeKeyValue function, _win32_regnotifychangekeyvalue, base.regnotifychangekeyvalue, winreg/RegNotifyChangeKeyValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -209,7 +209,7 @@ If the thread that called
 <b>RegNotifyChangeKeyValue</b> again from another thread.
 				
 
-With the exception of <b>RegNotifyChangeKeyValue</b> calls with <b>REG_NOTIFY_THREAD_AGNOSTIC</b> set, this function must be called on persistent threads. If the calling thread is from a thread pool and it is not persistent, the event is signaled every time the thread terminates, not just when there is a registry change. To ensure accurate results, run the thread pool work in a persistent thread by using the <a href="https://msdn.microsoft.com/library/Dd405518(v=VS.85).aspx">SetThreadpoolCallbackPersistent</a> function, or create your own thread using the <a href="https://msdn.microsoft.com/202a4b42-513a-45de-894a-72e56c706a58">CreateThread</a>  function. (For the original thread pool API, specify WT_EXECUTEINPERSISTENTTHREAD using the <a href="https://msdn.microsoft.com/96f34b51-3784-4bb7-ae40-067f8113ff39">QueueUserWorkItem</a> function.) 
+With the exception of <b>RegNotifyChangeKeyValue</b> calls with <b>REG_NOTIFY_THREAD_AGNOSTIC</b> set, this function must be called on persistent threads. If the calling thread is from a thread pool and it is not persistent, the event is signaled every time the thread terminates, not just when there is a registry change. To ensure accurate results, run the thread pool work in a persistent thread by using the <a href="base.sethreadpoolcallbackpersistent">SetThreadpoolCallbackPersistent</a> function, or create your own thread using the <a href="https://msdn.microsoft.com/202a4b42-513a-45de-894a-72e56c706a58">CreateThread</a>  function. (For the original thread pool API, specify WT_EXECUTEINPERSISTENTTHREAD using the <a href="https://msdn.microsoft.com/96f34b51-3784-4bb7-ae40-067f8113ff39">QueueUserWorkItem</a> function.) 
 
 This function should not be called multiple times with the same  value for the <i>hKey</i> but different values for the <i>bWatchSubtree</i> and <i>dwNotifyFilter</i> parameters. The function will succeed but the changes will be ignored. To change the  
 watch parameters, you must first close the key handle by calling 

@@ -7,7 +7,7 @@ old-location: mstv\impeg2component.htm
 old-project: mstv
 ms.assetid: 63d1ae17-8e38-457e-98d7-e81e7576f1c1
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IMPEG2Component, IMPEG2Component interface [Microsoft TV Technologies], IMPEG2Component interface [Microsoft TV Technologies],described, IMPEG2ComponentInterface, mstv.impeg2component, tuner/IMPEG2Component
 ms.prod: windows
 ms.technology: windows-sdk

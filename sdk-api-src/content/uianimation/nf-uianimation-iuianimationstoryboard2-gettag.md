@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard2_gettag.htm
 old-project: UIAnimation
 ms.assetid: A73D5003-FC28-4A79-B157-3D0D2E0DEB3D
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetTag, GetTag method [Windows Animation], GetTag method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],GetTag method, IUIAnimationStoryboard2.GetTag, IUIAnimationStoryboard2::GetTag, uianimation.iuianimationstoryboard2_gettag, uianimation/IUIAnimationStoryboard2::GetTag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Gets the tag for a storyboard.
+Gets the tag for a storyboard.
 
 
 ## -parameters
@@ -62,14 +61,12 @@ req.product: Windows XP with SP1 and later
 
 ### -param object [out, optional]
 
-
-            The object portion of the tag.
+The object portion of the tag.
 
 
 ### -param id [out, optional]
 
-
-            The identifier portion of the tag.
+The identifier portion of the tag.
 
 
 ## -returns
@@ -116,8 +113,7 @@ This method can return the identifier, the object, or both portions of the tag.
 
 
 
-<a href="https://msdn.microsoft.com/C7B11A34-E5FB-40D7-A655-29D28ECF4068">
-      IUIAnimationManager2::GetStoryboardFromTag</a>
+<a href="https://msdn.microsoft.com/C7B11A34-E5FB-40D7-A655-29D28ECF4068">IUIAnimationManager2::GetStoryboardFromTag</a>
 
 
 

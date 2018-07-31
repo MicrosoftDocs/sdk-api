@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_spawnderivedclass_.htm
 old-project: WmiSdk
 ms.assetid: 1b5aaea7-50f4-40bd-ab2a-f4ff55cc22fc
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemObject interface [Windows Management Instrumentation],SpawnDerivedClass_ method, ISWbemObject.SpawnDerivedClass_, ISWbemObject::SpawnDerivedClass_, SWbemObject object [Windows Management Instrumentation],SpawnDerivedClass_ method, SWbemObject.SpawnDerivedClass_, SpawnDerivedClass_, SpawnDerivedClass_ method [Windows Management Instrumentation], SpawnDerivedClass_ method [Windows Management Instrumentation],ISWbemObject interface, SpawnDerivedClass_ method [Windows Management Instrumentation],SWbemObject object, _hmm_swbemobject.spawnderivedclass_, wmi.swbemobject_spawnderivedclass_
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_FILE_NOTIFY_EXTENDED_INFORMATION"
 author: windows-sdk-content
 description: Describes the changes found by the ReadDirectoryChangesExW function.
 old-location: fs\file_notify_extended_information.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 4558F2E8-F515-4202-9CAA-FDAF20160F61
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "*PFILE_NOTIFY_EXTENDED_INFORMATION, FILE_ACTION_ADDED, FILE_ACTION_MODIFIED, FILE_ACTION_REMOVED, FILE_ACTION_RENAMED_NEW_NAME, FILE_ACTION_RENAMED_OLD_NAME, FILE_NOTIFY_EXTENDED_INFORMATION, FILE_NOTIFY_EXTENDED_INFORMATION structure [Files], PFILE_NOTIFY_EXTENDED_INFORMATION, PFILE_NOTIFY_EXTENDED_INFORMATION structure pointer [Files], _FILE_NOTIFY_EXTENDED_INFORMATION, fs.file_notify_extended_information, winnt/FILE_NOTIFY_EXTENDED_INFORMATION, winnt/PFILE_NOTIFY_EXTENDED_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

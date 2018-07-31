@@ -7,7 +7,7 @@ old-location: dshow\ivideoframestep.htm
 old-project: DirectShow
 ms.assetid: 7bf45473-144c-49f8-8178-aff5b60112b6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IVideoFrameStep, IVideoFrameStep interface [DirectShow], IVideoFrameStep interface [DirectShow],described, IVideoFrameStepInterface, dshow.ivideoframestep, strmif/IVideoFrameStep
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,8 +55,7 @@ req.product: Windows XP with SP1
 
 The <code>IVideoFrameStep</code> interface steps through a video stream. This interface enables Microsoft® DirectShow® applications, including DVD players, to step through a video stream as slowly as one frame at a time. Obtain the interface through the filter graph manager, which controls the frame stepping process in conjunction with the <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer Filter</a> or the Video Renderer Filter. Backward frame stepping is not supported.
 
-<div class="alert"><b>Note</b>  
-           For frame stepping to work with a hardware decoder, the decoder must support the <a href="https://msdn.microsoft.com/01abe1fe-fc2f-44cb-9546-45a8d682a179">Frame Stepping Property Set</a>.</div>
+<div class="alert"><b>Note</b>  For frame stepping to work with a hardware decoder, the decoder must support the <a href="https://msdn.microsoft.com/01abe1fe-fc2f-44cb-9546-45a8d682a179">Frame Stepping Property Set</a>.</div>
 <div> </div>
 
 

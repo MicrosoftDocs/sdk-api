@@ -4,10 +4,10 @@ title: IWorkspaceRegistration2::RemoveResourceEx
 author: windows-sdk-content
 description: Notifies the RemoteApp and Desktop Connection runtime that the client is disconnecting the connection.
 old-location: termserv\iworkspaceregistration2_removeresourceex.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: dc8b7374-4a64-43a8-947e-0088aa26444e
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWorkspaceRegistration2 interface [Remote Desktop Services],RemoveResourceEx method, IWorkspaceRegistration2.RemoveResourceEx, IWorkspaceRegistration2::RemoveResourceEx, RemoveResourceEx, RemoveResourceEx method [Remote Desktop Services], RemoveResourceEx method [Remote Desktop Services],IWorkspaceRegistration2 interface, RemoveResourceEx method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],RemoveResourceEx method, termserv.iworkspaceregistration2_removeresourceex, workspaceruntime/IWorkspaceRegistration2::RemoveResourceEx
 ms.prod: windows
 ms.technology: windows-sdk

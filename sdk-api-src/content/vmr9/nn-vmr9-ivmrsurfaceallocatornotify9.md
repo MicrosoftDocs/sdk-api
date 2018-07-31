@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocatornotify9.htm
 old-project: DirectShow
 ms.assetid: f275b835-e5b3-46f4-8b26-a4b0e2554c7c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IVMRSurfaceAllocatorNotify9, IVMRSurfaceAllocatorNotify9 interface [DirectShow], IVMRSurfaceAllocatorNotify9 interface [DirectShow],described, IVMRSurfaceAllocatorNotify9Interface, dshow.ivmrsurfaceallocatornotify9, vmr9/IVMRSurfaceAllocatorNotify9
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,8 +127,7 @@ Sets the initial Direct3D device and monitor to be used for video playback.
 
 The VMR-9 supports this interface in renderless mode only. Otherwise, <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> returns <b>E_NOINTERFACE</b>. For more information, see <a href="https://msdn.microsoft.com/98244af1-5934-4d1c-b9c3-7a414b065fe7">VMR Modes of Operation</a>.
 
-
-        Include DShow.h and D3d9.h before Vmr9.h.
+Include DShow.h and D3d9.h before Vmr9.h.
       
 
 

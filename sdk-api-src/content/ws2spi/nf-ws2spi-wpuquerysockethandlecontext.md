@@ -4,10 +4,10 @@ title: WPUQuerySocketHandleContext function
 author: windows-sdk-content
 description: The WPUQuerySocketHandleContext function queries the context value associated with the specified socket handle.
 old-location: winsock\wpuquerysockethandlecontext_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 661ddff0-b80c-4e24-84b3-b444ef1c2ad6
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: WPUQuerySocketHandleContext, WPUQuerySocketHandleContext function [Winsock], _win32_wpuquerysockethandlecontext_2, winsock.wpuquerysockethandlecontext_2, ws2spi/WPUQuerySocketHandleContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>WPUQuerySocketHandleContext</b> function queries the context value associated with the specified socket handle.
 
 
@@ -80,8 +79,7 @@ Pointer to the error code.
 
 
 
-
-						If no error occurs, 
+If no error occurs, 
 <b>WPUQuerySocketHandleContext</b> returns zero and stores the current context value in <i>lpContext</i>. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
 
 
@@ -94,7 +92,7 @@ Pointer to the error code.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">

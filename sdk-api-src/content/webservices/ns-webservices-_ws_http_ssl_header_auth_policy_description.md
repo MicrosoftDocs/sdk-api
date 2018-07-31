@@ -7,7 +7,7 @@ old-location: wsw\ws_http_ssl_header_auth_policy_description.htm
 old-project: wsw
 ms.assetid: 4363424c-73a2-4ed0-888b-32f687b44a03
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_HTTP_SSL_HEADER_AUTH_POLICY_DESCRIPTION, WS_HTTP_SSL_HEADER_AUTH_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_HTTP_SSL_HEADER_AUTH_POLICY_DESCRIPTION, webservices/WS_HTTP_SSL_HEADER_AUTH_POLICY_DESCRIPTION, wsw.ws_http_ssl_header_auth_policy_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Describes the policy specifying http channel binding with SSL transport security and
+Describes the policy specifying http channel binding with SSL transport security and
         header authentication.
       
 
@@ -64,28 +63,24 @@ req.product: Windows Address Book 5.0
 
 ### -field channelProperties
 
-
-          Template description for the channel properties specified in policy.
+Template description for the channel properties specified in policy.
         
 
 
 ### -field securityProperties
 
-
-          Template description for the security properties specified in policy.
+Template description for the security properties specified in policy.
         
 
 
 ### -field sslTransportSecurityBinding
 
-
-          SSL security binding description.
+SSL security binding description.
         
 
 
 ### -field httpHeaderAuthSecurityBinding
 
-
-          HTTP header authentication binding description.
+HTTP header authentication binding description.
         
 

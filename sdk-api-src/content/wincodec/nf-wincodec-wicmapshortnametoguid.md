@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicmapshortnametoguid.htm
 old-project: wic
 ms.assetid: ceefa802-7930-4b01-b1a2-6db530032e88
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: WICMapShortNameToGuid, WICMapShortNameToGuid function [Windows Imaging Component], _wic_codec_wicmapshortnametoguid, wic._wic_codec_wicmapshortnametoguid, wincodec/WICMapShortNameToGuid
 ms.prod: windows
 ms.technology: windows-sdk

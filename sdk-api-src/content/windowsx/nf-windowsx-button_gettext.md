@@ -4,10 +4,10 @@ title: Button_GetText macro
 author: windows-sdk-content
 description: Gets the text of a button.
 old-location: controls\Button_GetText.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_gettext.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: Button_GetText, Button_GetText macro [Windows Controls], _win32_Button_GetText, _win32_Button_GetText_cpp, controls.Button_GetText, controls._win32_Button_GetText, windowsx/Button_GetText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ The maximum number of characters to copy to the buffer, including the NULL termi
 
 
 
-The macro expands to a call to <a href="https://msdn.microsoft.com/library/ms633520(v=VS.85).aspx">GetWindowText</a>.
+The macro expands to a call to <a href="https://msdn.microsoft.com/461d2200-2e3a-4361-bb2e-9a29ed9f333f">GetWindowText</a>.
 	
 
 

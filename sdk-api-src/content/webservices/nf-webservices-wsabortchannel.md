@@ -7,7 +7,7 @@ old-location: wsw\wsabortchannel.htm
 old-project: wsw
 ms.assetid: 67af85d7-db75-4e26-a7cc-8115ac3f2d59
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsAbortChannel, WsAbortChannel function [Web Services for Windows], webservices/WsAbortChannel, wsw.wsabortchannel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,8 +93,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
-                    See the Remarks section for platform limitations.
+See the Remarks section for platform limitations.
                 
 
 </td>

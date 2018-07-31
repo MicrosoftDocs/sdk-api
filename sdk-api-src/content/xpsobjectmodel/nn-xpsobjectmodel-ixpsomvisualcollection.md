@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisualcollection.htm
 old-project: printdocs
 ms.assetid: f373b437-3973-40aa-9cac-a6b196a3e5d1
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMVisualCollection, IXpsOMVisualCollection interface [XPS Documents and Packaging], IXpsOMVisualCollection interface [XPS Documents and Packaging],described, xps.ixpsomvisualcollection, xpsobjectmodel/IXpsOMVisualCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IXpsOMVisualCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/e0e5134b-9f8a-45ff-9892-fd010d7df787">Append</a>
 </td>
 <td align="left" width="63%">
-
-              Appends an <a href="https://msdn.microsoft.com/f2ec412c-aece-4b20-a721-e6c17615e56b">IXpsOMVisual</a> interface to the end of the collection.
+Appends an <a href="https://msdn.microsoft.com/f2ec412c-aece-4b20-a721-e6c17615e56b">IXpsOMVisual</a> interface to the end of the collection.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IXpsOMVisualCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an <a href="https://msdn.microsoft.com/f2ec412c-aece-4b20-a721-e6c17615e56b">IXpsOMVisual</a> interface pointer from a specified location in the collection.
+Gets an <a href="https://msdn.microsoft.com/f2ec412c-aece-4b20-a721-e6c17615e56b">IXpsOMVisual</a> interface pointer from a specified location in the collection.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IXpsOMVisualCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the number of <a href="https://msdn.microsoft.com/f2ec412c-aece-4b20-a721-e6c17615e56b">IXpsOMVisual</a> interface pointers in the collection.
+Gets the number of <a href="https://msdn.microsoft.com/f2ec412c-aece-4b20-a721-e6c17615e56b">IXpsOMVisual</a> interface pointers in the collection.
             
 
 </td>
@@ -107,8 +104,7 @@ The <b>IXpsOMVisualCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/b4becd2b-c5f4-4d4d-a142-9f4fe11fafd3">InsertAt</a>
 </td>
 <td align="left" width="63%">
-
-              Inserts an <a href="https://msdn.microsoft.com/f2ec412c-aece-4b20-a721-e6c17615e56b">IXpsOMVisual</a> interface pointer at a specified location in the collection.
+Inserts an <a href="https://msdn.microsoft.com/f2ec412c-aece-4b20-a721-e6c17615e56b">IXpsOMVisual</a> interface pointer at a specified location in the collection.
             
 
 </td>
@@ -118,8 +114,7 @@ The <b>IXpsOMVisualCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a>
 </td>
 <td align="left" width="63%">
-
-              Removes and releases an <a href="https://msdn.microsoft.com/f2ec412c-aece-4b20-a721-e6c17615e56b">IXpsOMVisual</a> interface pointer from a specified location in the collection.
+Removes and releases an <a href="https://msdn.microsoft.com/f2ec412c-aece-4b20-a721-e6c17615e56b">IXpsOMVisual</a> interface pointer from a specified location in the collection.
             
 
 </td>
@@ -129,8 +124,7 @@ The <b>IXpsOMVisualCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/f06c2e27-213e-483e-9c56-1c06384b6ed8">SetAt</a>
 </td>
 <td align="left" width="63%">
-
-              Replaces an <a href="https://msdn.microsoft.com/f2ec412c-aece-4b20-a721-e6c17615e56b">IXpsOMVisual</a> interface pointer at a specified location in the collection.
+Replaces an <a href="https://msdn.microsoft.com/f2ec412c-aece-4b20-a721-e6c17615e56b">IXpsOMVisual</a> interface pointer at a specified location in the collection.
             
 
 </td>

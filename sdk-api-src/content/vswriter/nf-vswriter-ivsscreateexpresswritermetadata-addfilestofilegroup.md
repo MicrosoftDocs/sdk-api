@@ -4,10 +4,10 @@ title: IVssCreateExpressWriterMetadata::AddFilesToFileGroup
 author: windows-sdk-content
 description: Adds a file set (a specified file or files) to a specified file group component for an express writer.
 old-location: base\ivsscreateexpresswritermetadata_addfilestofilegroup.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 9a3f409e-f58a-4c06-ad5e-b0a8bc03da2c
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: AddFilesToFileGroup, AddFilesToFileGroup method, AddFilesToFileGroup method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddFilesToFileGroup method, IVssCreateExpressWriterMetadata.AddFilesToFileGroup, IVssCreateExpressWriterMetadata::AddFilesToFileGroup, base.ivsscreateexpresswritermetadata_addfilestofilegroup, vswriter/IVssCreateExpressWriterMetadata::AddFilesToFileGroup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -193,8 +193,7 @@ The specified component does not exist.
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

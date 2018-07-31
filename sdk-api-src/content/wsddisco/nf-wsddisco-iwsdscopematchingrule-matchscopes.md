@@ -4,10 +4,10 @@ title: IWSDScopeMatchingRule::MatchScopes
 author: windows-sdk-content
 description: Is called to compare two scopes to determine if they match.
 old-location: ncd\iwsdscopematchingrule_matchscopes_method.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 0790d3ef-c84a-4882-96f6-dbca87b2ec53
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: IWSDScopeMatchingRule interface,MatchScopes method, IWSDScopeMatchingRule.MatchScopes, IWSDScopeMatchingRule::MatchScopes, MatchScopes, MatchScopes method, MatchScopes method,IWSDScopeMatchingRule interface, ncd.iwsdscopematchingrule_matchscopes_method, wsddisco/IWSDScopeMatchingRule::MatchScopes
 ms.prod: windows
 ms.technology: windows-sdk

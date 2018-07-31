@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IInvokeProvider_Invoke.htm
 old-project: WinAuto
 ms.assetid: 9bd2aba1-0751-412c-a6fe-0c10b9baa01e
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IInvokeProvider interface [Windows Accessibility],Invoke method, IInvokeProvider.Invoke, IInvokeProvider::Invoke, Invoke, Invoke method [Windows Accessibility], Invoke method [Windows Accessibility],IInvokeProvider interface, uiauto.uiauto_IInvokeProvider_Invoke, uiauto_IInvokeProvider_Invoke, uiautomationcore/IInvokeProvider::Invoke, winauto.uiauto_IInvokeProvider_Invoke
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,8 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 <b>IInvokeProvider::Invoke</b> is an asynchronous call and must return immediately without blocking. 
         
 
-<div class="alert"><b>Note</b>  
-        This is particularly critical for controls that, directly or indirectly, launch a modal dialog when invoked. 
+<div class="alert"><b>Note</b>  This is particularly critical for controls that, directly or indirectly, launch a modal dialog when invoked. 
         Any Microsoft UI Automation client that instigated the event will remain blocked until the modal dialog is closed.
         </div>
 <div> </div>
@@ -88,8 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 			has completed its associated action, if possible. 
             
 
-
-            The event should be raised before servicing the Invoke request 
+The event should be raised before servicing the Invoke request 
 			in the following scenarios:
 	
 

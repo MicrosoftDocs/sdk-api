@@ -7,7 +7,7 @@ old-location: wmp\iwmpmedia.htm
 old-project: WMP
 ms.assetid: 2311067c-b731-47d2-880d-73870fee7694
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPMedia, IWMPMedia interface [Windows Media Player], IWMPMedia interface [Windows Media Player],described, IWMPMediaInterface, wmp.iwmpmedia, wmp/IWMPMedia
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ Use the <b>IWMPMedia</b> interface to set and retrieve the properties of a media
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMedia</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWMPMedia</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMedia</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWMPMedia</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

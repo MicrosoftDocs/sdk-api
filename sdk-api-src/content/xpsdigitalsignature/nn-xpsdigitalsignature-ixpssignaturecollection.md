@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturecollection.htm
 old-project: printdocs
 ms.assetid: b8c46cc0-e071-4016-b658-1a5cd554a4c9
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsSignatureCollection, IXpsSignatureCollection interface [XPS Documents and Packaging], IXpsSignatureCollection interface [XPS Documents and Packaging],described, xps.ixpssignaturecollection, xpsdigitalsignature/IXpsSignatureCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IXpsSignatureCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an <a href="https://msdn.microsoft.com/23e2f9bd-7b0b-46ef-8ce3-a0c63be554e5">IXpsSignature</a> interface pointer from a specified location in the collection.
+Gets an <a href="https://msdn.microsoft.com/23e2f9bd-7b0b-46ef-8ce3-a0c63be554e5">IXpsSignature</a> interface pointer from a specified location in the collection.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IXpsSignatureCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the number of <a href="https://msdn.microsoft.com/23e2f9bd-7b0b-46ef-8ce3-a0c63be554e5">IXpsSignature</a> interface pointers in the collection.
+Gets the number of <a href="https://msdn.microsoft.com/23e2f9bd-7b0b-46ef-8ce3-a0c63be554e5">IXpsSignature</a> interface pointers in the collection.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IXpsSignatureCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a>
 </td>
 <td align="left" width="63%">
-
-              Removes and releases an <a href="https://msdn.microsoft.com/23e2f9bd-7b0b-46ef-8ce3-a0c63be554e5">IXpsSignature</a> interface pointer from a specified location in the collection.
+Removes and releases an <a href="https://msdn.microsoft.com/23e2f9bd-7b0b-46ef-8ce3-a0c63be554e5">IXpsSignature</a> interface pointer from a specified location in the collection.
             
 
 </td>

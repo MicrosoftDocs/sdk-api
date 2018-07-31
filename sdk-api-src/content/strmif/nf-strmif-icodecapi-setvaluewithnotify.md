@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_setvaluewithnotify.htm
 old-project: DirectShow
 ms.assetid: b2899e30-4dfb-47e7-88dd-adba49368a4f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetValueWithNotify method, ICodecAPI.SetValueWithNotify, ICodecAPI::SetValueWithNotify, ICodecAPISetValueWithNotify, SetValueWithNotify, SetValueWithNotify method [DirectShow], SetValueWithNotify method [DirectShow],ICodecAPI interface, dshow.icodecapi_setvaluewithnotify, strmif/ICodecAPI::SetValueWithNotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,29 +65,25 @@ The <b>SetValueWithNotify</b> method sets a property on a codec and returns a li
 
 ### -param Api [in]
 
-
-            Pointer to a GUID that specifies the property to set.
+Pointer to a GUID that specifies the property to set.
           For a list of standard codec properties, see <a href="https://msdn.microsoft.com/5d527af7-07cf-42e2-99bb-d56c856cc1bc">Codec API Properties</a>.
 
 
 ### -param Value [in]
 
-
-            Pointer to a <b>VARIANT</b>  that contains the new value for the property.
+Pointer to a <b>VARIANT</b>  that contains the new value for the property.
           
 
 
 ### -param ChangedParam [out]
 
-
-            Receives a pointer to an array of GUIDs. The array contains the GUIDs of any properties that changed as a result of this method call. The caller must free the array by calling <b>CoTaskMemFree</b>.
+Receives a pointer to an array of GUIDs. The array contains the GUIDs of any properties that changed as a result of this method call. The caller must free the array by calling <b>CoTaskMemFree</b>.
           
 
 
 ### -param ChangedParamCount [out]
 
-
-            Receives the number of elements in the <i>ChangedParam</i> array.
+Receives the number of elements in the <i>ChangedParam</i> array.
           
 
 

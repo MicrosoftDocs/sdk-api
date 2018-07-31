@@ -7,7 +7,7 @@ old-location: multimedia\drawdibgetbuffer.htm
 old-project: Multimedia
 ms.assetid: 6b3e1d3a-2227-4a27-91aa-8767a3d76bc4
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: DrawDibGetBuffer, DrawDibGetBuffer function [Windows Multimedia], _win32_DrawDibGetBuffer, multimedia.drawdibgetbuffer, vfw/DrawDibGetBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,15 +64,13 @@ The <b>DrawDibGetBuffer</b> function retrieves the location of the buffer used b
 
 ### -param hdd
 
-
-            Handle to a DrawDib DC.
+Handle to a DrawDib DC.
           
 
 
 ### -param lpbi
 
-
-            Pointer to a <a href="http://go.microsoft.com/fwlink/p/?linkid=16913">BITMAPINFO</a> structure. This structure is made up of a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure and a 256-entry table defining the colors used by the bitmap.
+Pointer to a <a href="http://go.microsoft.com/fwlink/p/?linkid=16913">BITMAPINFO</a> structure. This structure is made up of a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure and a 256-entry table defining the colors used by the bitmap.
           
 
 
@@ -83,8 +81,7 @@ Size, in bytes, of the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc
 
 ### -param dwFlags
 
-
-            Reserved; must be zero.
+Reserved; must be zero.
           
 
 

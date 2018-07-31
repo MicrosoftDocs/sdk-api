@@ -4,10 +4,10 @@ title: CryptContextAddRef function
 author: windows-sdk-content
 description: Adds one to the reference count of an HCRYPTPROV cryptographic service provider (CSP) handle.
 old-location: security\cryptcontextaddref.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 074666a7-369c-43bc-97d9-3bcc9703976b
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptContextAddRef, CryptContextAddRef function [Security], _crypto2_cryptcontextaddref, security.cryptcontextaddref, wincrypt/CryptContextAddRef
 ms.prod: windows
 ms.technology: windows-sdk
@@ -173,7 +173,7 @@ For another example that uses this function, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Service Provider Functions</a>
+<a href="cryptography_functions.htm">Service Provider Functions</a>
  
 
  

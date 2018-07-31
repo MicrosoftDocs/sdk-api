@@ -4,10 +4,10 @@ title: IVssSoftwareSnapshotProvider::QueryRevertStatus
 author: windows-sdk-content
 description: Returns an IVssAsync interface pointer that can be used to determine the status of the revert operation.
 old-location: base\ivsssoftwaresnapshotprovider_queryrevertstatus.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 05c70761-d839-4333-a5d6-6bd8b95851bb
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,QueryRevertStatus method, IVssSoftwareSnapshotProvider.QueryRevertStatus, IVssSoftwareSnapshotProvider::QueryRevertStatus, QueryRevertStatus, QueryRevertStatus method, QueryRevertStatus method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_queryrevertstatus, vsprov/IVssSoftwareSnapshotProvider::QueryRevertStatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ Null-terminated wide character string containing the volume name. The name must 
 
 ### -param ppAsync [out]
 
-Pointer to a location that will receive an <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface pointer that can be used to retrieve the status of the revert operation. When the operation is complete, the caller must release the interface pointer by calling the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
+Pointer to a location that will receive an <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface pointer that can be used to retrieve the status of the revert operation. When the operation is complete, the caller must release the interface pointer by calling the <a href="_com_iunknown_release">IUnknown::Release</a> method.
 
 
 ## -returns

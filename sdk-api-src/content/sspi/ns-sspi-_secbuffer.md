@@ -4,10 +4,10 @@ title: "_SecBuffer"
 author: windows-sdk-content
 description: Describes a buffer allocated by a transport application to pass to a security package.
 old-location: security\secbuffer.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 75f49d9c-7d3c-4f45-a94e-44cd05773a07
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PSecBuffer, PSecBuffer, PSecBuffer structure pointer [Security], SECBUFFER_ALERT, SECBUFFER_APPLICATION_PROTOCOLS, SECBUFFER_ATTRMASK, SECBUFFER_CHANGE_PASS_RESPONSE, SECBUFFER_CHANNEL_BINDINGS, SECBUFFER_DATA, SECBUFFER_DTLS_MTU, SECBUFFER_EMPTY, SECBUFFER_EXTRA, SECBUFFER_MECHLIST, SECBUFFER_MECHLIST_SIGNATURE, SECBUFFER_MISSING, SECBUFFER_PKG_PARAMS, SECBUFFER_PRESHARED_KEY, SECBUFFER_PRESHARED_KEY_IDENTITY, SECBUFFER_READONLY, SECBUFFER_READONLY_WITH_CHECKSUM, SECBUFFER_SRTP_MASTER_KEY_IDENTIFIER, SECBUFFER_SRTP_PROTECTION_PROFILES, SECBUFFER_STREAM_HEADER, SECBUFFER_STREAM_TRAILER, SECBUFFER_TARGET, SECBUFFER_TARGET_HOST, SECBUFFER_TOKEN, SECBUFFER_TOKEN_BINDING, SecBuffer, SecBuffer structure [Security], _SecBuffer, _ssp_secbuffer, security.secbuffer, sspi/PSecBuffer, sspi/SecBuffer"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # _SecBuffer structure
@@ -51,8 +50,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-			The <b>SecBuffer</b> structure describes a buffer allocated by a transport application to pass to a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>.
+The <b>SecBuffer</b> structure describes a buffer allocated by a transport application to pass to a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>.
 
 
 ## -struct-fields

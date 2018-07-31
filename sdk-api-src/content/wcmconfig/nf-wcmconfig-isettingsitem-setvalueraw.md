@@ -7,7 +7,7 @@ old-location: smi\isettingsitem_setvalueraw.htm
 old-project: SMI
 ms.assetid: 65925c16-7a12-440f-ba2d-9156e41049ba
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: ISettingsItem interface [SMI],SetValueRaw method, ISettingsItem.SetValueRaw, ISettingsItem::SetValueRaw, SetValueRaw, SetValueRaw method [SMI], SetValueRaw method [SMI],ISettingsItem interface, smi.isettingsitem_setvalueraw, wcmconfig/ISettingsItem::SetValueRaw
 ms.prod: windows
 ms.technology: windows-sdk

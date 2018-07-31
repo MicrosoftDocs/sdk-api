@@ -7,7 +7,7 @@ old-location: gdi\drawanimatedrects.htm
 old-project: gdi
 ms.assetid: 54a9234a-0056-4cfe-9158-86635dc31bc6
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: DrawAnimatedRects, DrawAnimatedRects function [Windows GDI], _win32_DrawAnimatedRects, gdi.drawanimatedrects, winuser/DrawAnimatedRects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,8 +103,7 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">
-        RECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
  
 
  

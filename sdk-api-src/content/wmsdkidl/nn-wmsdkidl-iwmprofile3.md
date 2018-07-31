@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofile3.htm
 old-project: wmformat
 ms.assetid: 7942aa81-ada7-4e9c-a261-f257f8f890b7
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMProfile3, IWMProfile3 interface [windows Media Format], IWMProfile3 interface [windows Media Format],described, IWMProfile3Interface, wmformat.iwmprofile3, wmsdkidl/IWMProfile3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -124,7 +124,7 @@ Retrieves the number of bandwidth sharing objects that exist in the profile.
 <a href="https://msdn.microsoft.com/ddab3735-06a1-4e03-9abc-0fca635ef759">GetExpectedPacketCount</a>
 </td>
 <td align="left" width="63%">
-Retrieves the expected number of <a href="https://msdn.microsoft.com/library/Dd757828(v=VS.85).aspx">packets</a> for a specified duration.
+Retrieves the expected number of <a href="wmformat_glossary.htm">packets</a> for a specified duration.
 
 </td>
 </tr>
@@ -133,8 +133,7 @@ Retrieves the expected number of <a href="https://msdn.microsoft.com/library/Dd7
 <a href="https://msdn.microsoft.com/42aea1df-63cd-4eda-86c8-3cebe92d5c82">GetStorageFormat</a>
 </td>
 <td align="left" width="63%">
-
-          Not implemented in this release.
+Not implemented in this release.
         
 
 </td>
@@ -171,8 +170,7 @@ Removes a stream prioritization object from the profile.
 <a href="https://msdn.microsoft.com/43cbb36f-ec00-48e5-9182-b69e8c196ab0">SetStorageFormat</a>
 </td>
 <td align="left" width="63%">
-
-          Not implemented in this release.
+Not implemented in this release.
         
 
 </td>

@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IMultipleViewProvider_SetCurrentView.htm
 old-project: WinAuto
 ms.assetid: dfa652be-b6b6-44e3-b06a-8ead56f17d2d
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IMultipleViewProvider interface [Windows Accessibility],SetCurrentView method, IMultipleViewProvider.SetCurrentView, IMultipleViewProvider::SetCurrentView, SetCurrentView, SetCurrentView method [Windows Accessibility], SetCurrentView method [Windows Accessibility],IMultipleViewProvider interface, uiauto.uiauto_IMultipleViewProvider_SetCurrentView, uiauto_IMultipleViewProvider_SetCurrentView, uiautomationcore/IMultipleViewProvider::SetCurrentView, winauto.uiauto_IMultipleViewProvider_SetCurrentView
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,12 +82,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        View identifiers can be retrieved by using <a href="https://msdn.microsoft.com/fd4d5616-c126-455e-84e7-e62e24daf8f9">IMultipleViewProvider::GetSupportedViews</a>.
+View identifiers can be retrieved by using <a href="https://msdn.microsoft.com/fd4d5616-c126-455e-84e7-e62e24daf8f9">IMultipleViewProvider::GetSupportedViews</a>.
         
 
-
-            The collection of view identifiers must be identical for all instances of a control.
+The collection of view identifiers must be identical for all instances of a control.
             
 
 

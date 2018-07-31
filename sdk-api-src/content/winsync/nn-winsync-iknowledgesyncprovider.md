@@ -7,7 +7,7 @@ old-location: winsync\iknowledgesyncprovider.htm
 old-project: winsync
 ms.assetid: 396bbf7e-7fd0-4a2e-8304-f87097cd5e50
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IKnowledgeSyncProvider, IKnowledgeSyncProvider interface [Windows Sync], IKnowledgeSyncProvider interface [Windows Sync],described, winsync.iknowledgesyncprovider, winsync/IKnowledgeSyncProvider
 ms.prod: windows
 ms.technology: windows-sdk

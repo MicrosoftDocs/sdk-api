@@ -4,10 +4,10 @@ title: "_VDS_INTERCONNECT"
 author: windows-sdk-content
 description: Defines the address data of a physical interconnect.
 old-location: base\vds_interconnect.htm
-old-project: vds
+old-project: VDS
 ms.assetid: fc9f532b-a37f-4338-95db-6ec988131211
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: VDS_INTERCONNECT, VDS_INTERCONNECT structure [VDS], _VDS_INTERCONNECT, base.vds_interconnect, vdslun/_VDS_INTERCONNECT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ Defines the address
 
 ### -field m_addressType
 
-
-      The interconnect address type enumerated by 
+The interconnect address type enumerated by 
       <a href="https://msdn.microsoft.com/20d75585-a80c-49bc-9f9c-5aae8e5f2c21">VDS_INTERCONNECT_ADDRESS_TYPE</a>.
 
 
@@ -81,8 +80,7 @@ Pointer to the interconnect address data for the LUN port.
 
 ### -field m_cbAddress
 
-
-      The size of the interconnect address data for the LUN (<b>m_pbAddress</b>), in bytes.
+The size of the interconnect address data for the LUN (<b>m_pbAddress</b>), in bytes.
 
 
 ### -field m_pbAddress
@@ -94,8 +92,7 @@ Pointer to the interconnect address data for the LUN.
 
 
 
-
-    The <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a> structure includes this 
+The <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a> structure includes this 
     structure as a member to specify an interconnect by which a LUN can be accessed.
 
 

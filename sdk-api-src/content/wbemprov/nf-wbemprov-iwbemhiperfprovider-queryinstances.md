@@ -7,7 +7,7 @@ old-location: wmi\iwbemhiperfprovider_queryinstances.htm
 old-project: WmiSdk
 ms.assetid: 8962fe9d-4b3e-469b-83e7-9c3f62a24308
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWbemHiPerfProvider interface [Windows Management Instrumentation],QueryInstances method, IWbemHiPerfProvider.QueryInstances, IWbemHiPerfProvider::QueryInstances, QueryInstances, QueryInstances method [Windows Management Instrumentation], QueryInstances method [Windows Management Instrumentation],IWbemHiPerfProvider interface, _hmm_iwbemhiperfprovider_queryinstances, wbemprov/IWbemHiPerfProvider::QueryInstances, wmi.iwbemhiperfprovider_queryinstances
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ The
 ### -param pNamespace [in]
 
 An 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back to WMI that can service any request from the provider. The provider should call <a href="https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx">AddRef</a> on this pointer if it  needs to call back to WMI during  execution.
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back to WMI that can service any request from the provider. The provider should call <a href="_com_iunknown_addref">AddRef</a> on this pointer if it  needs to call back to WMI during  execution.
 
 
 ### -param wszClass [in]

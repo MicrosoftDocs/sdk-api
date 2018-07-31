@@ -4,10 +4,10 @@ title: ITLocationInfo::get_TollPrefixList
 author: windows-sdk-content
 description: The get_TollPrefixList method gets the toll prefix list.
 old-location: tapi3\itlocationinfo_get_tollprefixlist.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 45297e46-b1c8-45b0-bb16-8c5d5666bbd0
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_TollPrefixList method, ITLocationInfo.get_TollPrefixList, ITLocationInfo::get_TollPrefixList, _tapi3_itlocationinfo_get_tollprefixlist, get_TollPrefixList, get_TollPrefixList method [TAPI 2.2], get_TollPrefixList method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_tollprefixlist, tapi3if/ITLocationInfo::get_TollPrefixList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppTollList</i> parameter.
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory allocated for the <i>ppTollList</i> parameter.
 			
 
 The value that this method returns corresponds to the <b>dwTollPrefixListSize</b> and <b>dwTollPrefixListOffset</b> members of TAPI 2's 

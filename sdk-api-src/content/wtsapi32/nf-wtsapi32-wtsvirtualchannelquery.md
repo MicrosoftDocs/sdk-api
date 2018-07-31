@@ -4,10 +4,10 @@ title: WTSVirtualChannelQuery function
 author: windows-sdk-content
 description: Returns information about a specified virtual channel.
 old-location: termserv\wtsvirtualchannelquery.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 68ae8174-d72b-4b1c-b8e9-ae5fed51d385
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: WTSVirtualChannelQuery, WTSVirtualChannelQuery function [Remote Desktop Services], _win32_wtsvirtualchannelquery, termserv.wtsvirtualchannelquery, wtsapi32/WTSVirtualChannelQuery
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,15 +94,13 @@ Specifies the type of information returned in the <i>ppBuffer</i> parameter. Thi
 
 
 
-
-       If the function succeeds, the return value is a nonzero value. Call the 
+If the function succeeds, the return value is a nonzero value. Call the 
        <a href="https://msdn.microsoft.com/1c325174-ec08-4bbb-8e91-1a3cc9256110">WTSFreeMemory</a> function with the value returned in 
        the <i>ppBuffer</i> parameter to free the temporary memory allocated by 
        <b>WTSVirtualChannelQuery</b>.
       
 
-
-       If the function fails, the return value is zero. To get extended error information, call 
+If the function fails, the return value is zero. To get extended error information, call 
        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
       
 

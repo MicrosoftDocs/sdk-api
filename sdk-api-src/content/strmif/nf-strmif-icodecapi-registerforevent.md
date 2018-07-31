@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_registerforevent.htm
 old-project: DirectShow
 ms.assetid: 87423ddb-7011-40ab-a449-eb43688efb26
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: A proprietary event GUID defined by the codec., CODECAPI_CHANGELISTS, ICodecAPI interface [DirectShow],RegisterForEvent method, ICodecAPI.RegisterForEvent, ICodecAPI::RegisterForEvent, ICodecAPIRegisterForEvent, One of the property GUIDs defined in codecapi.h. (See Codec API Properties.), RegisterForEvent, RegisterForEvent method [DirectShow], RegisterForEvent method [DirectShow],ICodecAPI interface, dshow.icodecapi_registerforevent, strmif/ICodecAPI::RegisterForEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ The <b>RegisterForEvent</b> method registers the application to receive events f
 
 ### -param Api [in]
 
-
-            Pointer to a GUID that specifies the event.
+Pointer to a GUID that specifies the event.
           There are three categories of events:
 
 <table>
@@ -110,8 +109,7 @@ Implementation dependent.
 
 ### -param userData [out]
 
-
-            Pointer to caller-defined data. The application receives this pointer in the <i>lParam1</i> event parameter.
+Pointer to caller-defined data. The application receives this pointer in the <i>lParam1</i> event parameter.
           
 
 

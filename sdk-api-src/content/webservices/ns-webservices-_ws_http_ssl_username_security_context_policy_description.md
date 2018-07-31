@@ -7,7 +7,7 @@ old-location: wsw\ws_http_ssl_username_security_context_policy_description.htm
 old-project: wsw
 ms.assetid: 8bc6fb34-f4ac-4764-a270-9e97292c6c4c
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION, WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION, webservices/WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION, wsw.ws_http_ssl_username_security_context_policy_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Describes the policy specifying security context message binding over http channel binding, with SSL
+Describes the policy specifying security context message binding over http channel binding, with SSL
         transport security. The bootstrap channel uses http channel binding with SSL transport security
         and username/password message security.
       
@@ -65,35 +64,30 @@ req.product: Windows Address Book 5.0
 
 ### -field channelProperties
 
-
-          Template description for the channel properties specified in policy.
+Template description for the channel properties specified in policy.
         
 
 
 ### -field securityProperties
 
-
-          Template description for the security properties specified in policy.
+Template description for the security properties specified in policy.
         
 
 
 ### -field sslTransportSecurityBinding
 
-
-          SSL security binding description.
+SSL security binding description.
         
 
 
 ### -field usernameMessageSecurityBinding
 
-
-          Username/password message security binding description.
+Username/password message security binding description.
         
 
 
 ### -field securityContextSecurityBinding
 
-
-          Security context  security binding description.
+Security context  security binding description.
         
 

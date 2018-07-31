@@ -4,10 +4,10 @@ title: WlanSetProfileEapUserData function
 author: windows-sdk-content
 description: Sets the Extensible Authentication Protocol (EAP) user credentials as specified by raw EAP data.
 old-location: nwifi\wlansetprofileeapuserdata.htm
-old-project: nativewifi
+old-project: NativeWiFi
 ms.assetid: 2bef0f2f-165d-446a-afa8-735658048152
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: WLAN_SET_EAPHOST_DATA_ALL_USERS, WlanSetProfileEapUserData, WlanSetProfileEapUserData function [NativeWIFI], nwifi.wlansetprofileeapuserdata, wlanapi/WlanSetProfileEapUserData
 ms.prod: windows
 ms.technology: windows-sdk

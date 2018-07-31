@@ -7,7 +7,7 @@ old-location: wsw\ws_username_message_security_binding_template.htm
 old-project: wsw
 ms.assetid: c538c670-9a61-4891-9f63-e0eea12ee224
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE, WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], _WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE, webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE, wsw.ws_username_message_security_binding_template
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        The security binding template for specifying the use of an application
+The security binding template for specifying the use of an application
         supplied username / password pair as a direct (i.e., one-shot)
         security token.  This security binding may be used only with message
         security.  It provides client authentication, but not traffic signing
@@ -71,15 +70,13 @@ See also <a href="https://msdn.microsoft.com/be6d4787-fa50-4260-8236-39dd992adca
 
 ### -field securityBindingProperties
 
-
-          Application provided security binding properties that cannot be represented in policy.
+Application provided security binding properties that cannot be represented in policy.
         
 
 
 ### -field clientCredential
 
-
-          The username credential to be used with this security binding.  This
+The username credential to be used with this security binding.  This
           needs to be specified when this security binding is used on the
           client.
         
@@ -87,8 +84,7 @@ See also <a href="https://msdn.microsoft.com/be6d4787-fa50-4260-8236-39dd992adca
 
 ### -field passwordValidator
 
-
-          The validator to be used to check received username/password pairs.
+The validator to be used to check received username/password pairs.
           This needs to be specified when this security binding is used on the
           service.
         
@@ -96,7 +92,6 @@ See also <a href="https://msdn.microsoft.com/be6d4787-fa50-4260-8236-39dd992adca
 
 ### -field passwordValidatorCallbackState
 
-
-          The optional state to be passed in as an argument when the username validator is invoked.
+The optional state to be passed in as an argument when the username validator is invoked.
         
 

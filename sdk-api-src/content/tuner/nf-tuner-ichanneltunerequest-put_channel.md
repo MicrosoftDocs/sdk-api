@@ -7,7 +7,7 @@ old-location: mstv\ichanneltunerequest_put_channel.htm
 old-project: mstv
 ms.assetid: 67a08647-a2b5-43b2-b5d2-3917beb6dd27
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IChannelTuneRequest interface [Microsoft TV Technologies],put_Channel method, IChannelTuneRequest.put_Channel, IChannelTuneRequest::put_Channel, IChannelTuneRequestput_Channel, mstv.ichanneltunerequest_put_channel, put_Channel, put_Channel method [Microsoft TV Technologies], put_Channel method [Microsoft TV Technologies],IChannelTuneRequest interface, tuner/IChannelTuneRequest::put_Channel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        The <b>put_Channel</b> method sets the channel to be tuned.
+The <b>put_Channel</b> method sets the channel to be tuned.
       
 
 
@@ -63,8 +62,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param Channel [in]
 
-
-            Variable of type <b>long</b> that specifies the channel.
+Variable of type <b>long</b> that specifies the channel.
           
 
 
@@ -72,8 +70,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-
-            Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM IErrorInfo interface.
+Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM IErrorInfo interface.
           
 
 
@@ -83,8 +80,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-
-        If the value specified for <i>Channel</i> is less than the minimum channel set for the tuning space, it will "wrap around" to the maximum channel value. Likewise, if the value specified for <i>Channel</i> is greater than the maximum channel set for the tuning space, it will "wrap around" to the minimum channel value.
+If the value specified for <i>Channel</i> is less than the minimum channel set for the tuning space, it will "wrap around" to the maximum channel value. Likewise, if the value specified for <i>Channel</i> is greater than the maximum channel set for the tuning space, it will "wrap around" to the minimum channel value.
       
 
 

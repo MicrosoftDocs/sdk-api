@@ -7,7 +7,7 @@ old-location: wmp\iwmpsettings_get_isavailable.htm
 old-project: WMP
 ms.assetid: 0773792f-4046-4d58-9673-cbfef0ec5bf5
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_isAvailable method, IWMPSettings.get_isAvailable, IWMPSettings::get_isAvailable, IWMPSettingsget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_isavailable, wmp/IWMPSettings::get_isAvailable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,11 +68,9 @@ The <b>get_isAvailable</b> method indicates whether a specified action can be pe
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

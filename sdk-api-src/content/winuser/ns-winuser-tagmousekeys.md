@@ -7,7 +7,7 @@ old-location: winauto\mousekeys.htm
 old-project: WinAuto
 ms.assetid: 437e448f-9eb3-4dfb-b1e8-61fceb904954
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPMOUSEKEYS, LPMOUSEKEYS, LPMOUSEKEYS structure pointer [Windows Accessibility], MKF_AVAILABLE, MKF_CONFIRMHOTKEY, MKF_HOTKEYACTIVE, MKF_HOTKEYSOUND, MKF_INDICATOR, MKF_LEFTBUTTONDOWN, MKF_LEFTBUTTONSEL, MKF_MODIFIERS, MKF_MOUSEKEYSON, MKF_MOUSEMODE, MKF_REPLACENUMBERS, MKF_RIGHTBUTTONDOWN, MKF_RIGHTBUTTONSEL, MOUSEKEYS, MOUSEKEYS structure [Windows Accessibility], _win32_MOUSEKEYS_str, msaa.mousekeys, tagMOUSEKEYS, winauto.mousekeys, winuser/LPMOUSEKEYS, winuser/MOUSEKEYS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-        Contains information about the MouseKeys accessibility feature. When the MouseKeys feature is active, the user can use the numeric keypad to control the mouse pointer, and to click, double-click, drag, and drop. By pressing NUMLOCK, the user can toggle the numeric keypad between mouse control mode and normal operation.
+Contains information about the MouseKeys accessibility feature. When the MouseKeys feature is active, the user can use the numeric keypad to control the mouse pointer, and to click, double-click, drag, and drop. By pressing NUMLOCK, the user can toggle the numeric keypad between mouse control mode and normal operation.
       
 
 

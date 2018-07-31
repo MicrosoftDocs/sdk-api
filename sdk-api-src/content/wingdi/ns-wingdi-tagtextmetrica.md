@@ -7,7 +7,7 @@ old-location: gdi\textmetric.htm
 old-project: gdi
 ms.assetid: 0a46da58-5d0f-4db4-bba6-9e1b6c1f892c
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPTEXTMETRICA, *NPTEXTMETRICA, *PTEXTMETRICA, PTEXTMETRIC, PTEXTMETRIC structure pointer [Windows GDI], TEXTMETRIC, TEXTMETRIC structure [Windows GDI], TEXTMETRICA, TEXTMETRICW, _win32_TEXTMETRIC_str, gdi.textmetric, tagTEXTMETRICA, wingdi/PTEXTMETRIC, wingdi/TEXTMETRIC, wingdi/TEXTMETRICA, wingdi/TEXTMETRICW"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: SetCommBreak function
 author: windows-sdk-content
 description: Suspends character transmission for a specified communications device and places the transmission line in a break state until the ClearCommBreak function is called.
 old-location: base\setcommbreak.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 997fa1e0-c585-4517-abe7-77b9b08440ee
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: SetCommBreak, SetCommBreak function, _win32_setcommbreak, base.setcommbreak, winbase/SetCommBreak
 ms.prod: windows
 ms.technology: windows-sdk

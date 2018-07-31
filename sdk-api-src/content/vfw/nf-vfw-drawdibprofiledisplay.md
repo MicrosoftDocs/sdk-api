@@ -7,7 +7,7 @@ old-location: multimedia\drawdibprofiledisplay.htm
 old-project: Multimedia
 ms.assetid: 51f8b1a2-26e2-40d3-bbc0-5c6c1b482014
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: DrawDibProfileDisplay, DrawDibProfileDisplay function [Windows Multimedia], _win32_DrawDibProfileDisplay, multimedia.drawdibprofiledisplay, vfw/DrawDibProfileDisplay
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb1
 
 
 
-
-            Returns a value that indicates the fastest drawing and stretching capabilities of the display system. This value can be zero if the bitmap format is not supported or one or more of the following values.
+Returns a value that indicates the fastest drawing and stretching capabilities of the display system. This value can be zero if the bitmap format is not supported or one or more of the following values.
           
 
 <table>

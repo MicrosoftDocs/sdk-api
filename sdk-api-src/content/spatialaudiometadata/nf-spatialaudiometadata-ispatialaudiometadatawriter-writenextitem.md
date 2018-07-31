@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadatawriter_writenextitem.htm
 old-project: CoreAudio
 ms.assetid: 9D61BFC0-BAD7-46D3-B0E9-4848E37785E9
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/29/2018
 ms.keywords: ISpatialAudioMetadataWriter interface [Core Audio],WriteNextItem method, ISpatialAudioMetadataWriter.WriteNextItem, ISpatialAudioMetadataWriter::WriteNextItem, WriteNextItem, WriteNextItem method [Core Audio], WriteNextItem method [Core Audio],ISpatialAudioMetadataWriter interface, coreaudio.ispatialaudiometadatawriter_writenextitem, spatialaudiometadata/ISpatialAudioMetadataWriter::WriteNextItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioMetadataWriter::WriteNextItem

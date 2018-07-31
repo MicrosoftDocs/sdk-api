@@ -7,7 +7,7 @@ old-location: xps\ixpsomgradientstopcollection_append.htm
 old-project: printdocs
 ms.assetid: 475794d5-e921-4bbd-aa71-cdbed7cb1dff
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, IXpsOMGradientStopCollection interface [XPS Documents and Packaging],Append method, IXpsOMGradientStopCollection.Append, IXpsOMGradientStopCollection::Append, xps.ixpsomgradientstopcollection_append, xpsobjectmodel/IXpsOMGradientStopCollection::Append
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: intl\setcalendarinfo.htm
 old-project: Intl
 ms.assetid: 3599f68f-5b7c-4bf9-9c42-452047c0731f
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: SetCalendarInfo, SetCalendarInfo function [Internationalization for Windows Applications], SetCalendarInfoA, SetCalendarInfoW, _win32_SetCalendarInfo, intl.setcalendarinfo, winnls/SetCalendarInfo, winnls/SetCalendarInfoA, winnls/SetCalendarInfoW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -146,8 +146,7 @@ Calendar information is always passed as a null-terminated Unicode string in the
 
 When the ANSI version of this function is used with a Unicode-only locale identifier, the function can succeed because the operating system uses the system code page. However, characters that are undefined in the system code page appear in the string as a question mark (?). 
 
-
-        CAL_ITWODIGITYEARMAX can be used with any calendar, even if the calendar is not supported for the specified locale. To avoid complications, the application should call <a href="https://msdn.microsoft.com/b38abdc9-6c03-4077-9d42-c7cb6d5c66ee">EnumCalendarInfo</a> to ensure that the calendar is supported for the locale of interest.
+CAL_ITWODIGITYEARMAX can be used with any calendar, even if the calendar is not supported for the specified locale. To avoid complications, the application should call <a href="https://msdn.microsoft.com/b38abdc9-6c03-4077-9d42-c7cb6d5c66ee">EnumCalendarInfo</a> to ensure that the calendar is supported for the locale of interest.
 
 
 

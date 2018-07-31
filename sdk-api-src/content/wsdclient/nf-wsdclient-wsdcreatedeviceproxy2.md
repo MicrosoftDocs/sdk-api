@@ -4,10 +4,10 @@ title: WSDCreateDeviceProxy2 function
 author: windows-sdk-content
 description: Creates a device proxy that can support signed messages and returns a pointer to the IWSDDeviceProxy interface.
 old-location: ncd\wsdcreatedeviceproxy2.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 7b40a35d-f548-48fa-8ecd-3a0886a4c72a
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: WSDCreateDeviceProxy2, WSDCreateDeviceProxy2 function, ncd.wsdcreatedeviceproxy2, wsdclient/WSDCreateDeviceProxy2
 ms.prod: windows
 ms.technology: windows-sdk

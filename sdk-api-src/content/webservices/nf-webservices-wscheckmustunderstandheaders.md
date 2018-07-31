@@ -7,7 +7,7 @@ old-location: wsw\wscheckmustunderstandheaders.htm
 old-project: wsw
 ms.assetid: 28ca98e5-911b-436d-a592-781b832ca6cc
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCheckMustUnderstandHeaders, WsCheckMustUnderstandHeaders function [Web Services for Windows], webservices/WsCheckMustUnderstandHeaders, wsw.wscheckmustunderstandheaders
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                Verifies that the specified headers were understood by the receiver. 
+Verifies that the specified headers were understood by the receiver. 
             <div class="alert"><b>Note</b>  This function should be called after all headers have been read for a received
                 message.  </div>
 <div> </div>
@@ -97,10 +96,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
-
-                
-                    The message is not in the correct state.
+The message is not in the correct state.
              For more information, see the Remarks section.
 
 </td>
@@ -112,10 +108,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
-
-                
-                    The  validation failed, or the message was not correctly formed.
+The  validation failed, or the message was not correctly formed.
             
 
 </td>
@@ -127,7 +120,6 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -139,7 +131,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 Insufficient memory to complete the operation.
 
 </td>

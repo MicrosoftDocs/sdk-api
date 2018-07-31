@@ -4,10 +4,10 @@ title: IsThemeDialogTextureEnabled function
 author: windows-sdk-content
 description: Reports whether a specified dialog window supports background texturing.
 old-location: controls\IsThemeDialogTextureEnabled.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemedialogtextureenabled.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IsThemeDialogTextureEnabled, IsThemeDialogTextureEnabled function [Windows Controls], controls.IsThemeDialogTextureEnabled, controls.inet_IsThemeDialogTextureEnabled, inet_IsThemeDialogTextureEnabled, inet_IsThemeDialogTextureEnabled_cpp, uxtheme/IsThemeDialogTextureEnabled
 ms.prod: windows
 ms.technology: windows-sdk

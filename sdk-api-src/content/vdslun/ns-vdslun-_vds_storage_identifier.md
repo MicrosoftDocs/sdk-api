@@ -4,10 +4,10 @@ title: "_VDS_STORAGE_IDENTIFIER"
 author: windows-sdk-content
 description: Defines a storage device using a particular code set and type.
 old-location: base\vds_storage_identifier.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 8cc8b6d9-e189-44af-9f2b-2222b2eb0749
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: VDS_STORAGE_IDENTIFIER, VDS_STORAGE_IDENTIFIER structure [VDS], _VDS_STORAGE_IDENTIFIER, base.vds_storage_identifier, vdslun/_VDS_STORAGE_IDENTIFIER
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,15 +64,13 @@ Defines a
 
 ### -field m_CodeSet
 
-
-      The encoding type of <b>m_rgbIdentifier</b> enumerated by 
+The encoding type of <b>m_rgbIdentifier</b> enumerated by 
       <a href="https://msdn.microsoft.com/6b4a3282-dc0c-4974-8c4c-777a28fb9005">VDS_STORAGE_IDENTIFIER_CODE_SET</a>.
 
 
 ### -field m_Type
 
-
-      The type of <b>m_rgbIdentifier</b> enumerated by 
+The type of <b>m_rgbIdentifier</b> enumerated by 
       <a href="https://msdn.microsoft.com/396ca6c1-fae3-4584-97c9-2c4dfbc170d5">VDS_STORAGE_IDENTIFIER_TYPE</a>.
 
 
@@ -90,8 +88,7 @@ Pointer to the identifier data.
 
 
 
-
-    The <a href="https://msdn.microsoft.com/88fe83cb-6d3c-40bd-a5ce-71771d2e7511">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a> 
+The <a href="https://msdn.microsoft.com/88fe83cb-6d3c-40bd-a5ce-71771d2e7511">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a> 
     structure includes this structure as a member to specify a particular storage device identifier for a LUN.
 
 

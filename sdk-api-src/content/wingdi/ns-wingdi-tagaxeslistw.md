@@ -7,7 +7,7 @@ old-location: gdi\axeslist.htm
 old-project: gdi
 ms.assetid: f95f012e-f02b-46c1-94ba-69f426ee7ad9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPAXESLISTW, *PAXESLISTW, AXESLIST, AXESLIST structure [Windows GDI], AXESLISTA, AXESLISTW, PAXESLIST, PAXESLIST structure pointer [Windows GDI], _win32_AXESLIST_str, gdi.axeslist, tagAXESLISTW, wingdi/AXESLIST, wingdi/AXESLISTA, wingdi/AXESLISTW, wingdi/PAXESLIST"
 ms.prod: windows
 ms.technology: windows-sdk

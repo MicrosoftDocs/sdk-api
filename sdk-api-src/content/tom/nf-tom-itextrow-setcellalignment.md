@@ -4,10 +4,10 @@ title: ITextRow::SetCellAlignment
 author: windows-sdk-content
 description: Sets the vertical alignment of the active cell.
 old-location: controls\itextrow_setcellalignment.htm
-old-project: controls
+old-project: Controls
 ms.assetid: dd47cb2f-ddcf-4131-99fd-0981d3c4ec6f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellAlignment method, ITextRow.SetCellAlignment, ITextRow::SetCellAlignment, SetCellAlignment, SetCellAlignment method [Windows Controls], SetCellAlignment method [Windows Controls],ITextRow interface, controls.itextrow_setcellalignment, tom/ITextRow::SetCellAlignment
 ms.prod: windows
 ms.technology: windows-sdk

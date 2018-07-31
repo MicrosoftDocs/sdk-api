@@ -7,7 +7,7 @@ old-location: gdi\fillpath.htm
 old-project: gdi
 ms.assetid: a80b299a-c3f9-411b-9936-33d32fc71853
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: FillPath, FillPath function [Windows GDI], _win32_FillPath, gdi.fillpath, wingdi/FillPath
 ms.prod: windows
 ms.technology: windows-sdk

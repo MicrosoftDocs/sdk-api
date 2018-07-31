@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ToggleState.htm
 old-project: WinAuto
 ms.assetid: 242031d6-2d55-478d-b029-5a3b0a251601
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: ToggleState, ToggleState enumeration [Windows Accessibility], ToggleState_Indeterminate, ToggleState_Off, ToggleState_On, uiauto.uiauto_ToggleState, uiauto_ToggleState, uiautomationcore/ToggleState, uiautomationcore/ToggleState_Indeterminate, uiautomationcore/ToggleState_Off, uiautomationcore/ToggleState_On, winauto.uiauto_ToggleState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,17 +72,14 @@ The UI Automation element is selected, checked, marked or otherwise activated.
 
 ### -field ToggleState_Indeterminate
 
-
-            The UI Automation element is in an indeterminate state. 
+The UI Automation element is in an indeterminate state. 
             
 
-
-            The Indeterminate property can be used to indicate whether the user has acted 
+The Indeterminate property can be used to indicate whether the user has acted 
             on a control. For example, a check box can appear checked and dimmed, indicating an indeterminate state.
             
 
-
-            Creating an indeterminate state is different from disabling the control. 
+Creating an indeterminate state is different from disabling the control. 
             Consequently, a check box in the indeterminate state can still receive the focus. 
             When the user clicks an indeterminate control the ToggleState cycles to its next value. 
             

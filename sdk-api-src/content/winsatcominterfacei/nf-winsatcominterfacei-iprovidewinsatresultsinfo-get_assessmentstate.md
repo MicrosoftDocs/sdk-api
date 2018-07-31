@@ -7,7 +7,7 @@ old-location: winsat\iprovidewinsatresultsinfo_assessmentstate.htm
 old-project: WinSAT
 ms.assetid: 57a373f9-47b0-48cc-8517-cba87367c64e
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: AssessmentState property [WinSAT], AssessmentState property [WinSAT],IProvideWinSATResultsInfo interface, IProvideWinSATResultsInfo interface [WinSAT],AssessmentState property, IProvideWinSATResultsInfo.AssessmentState, IProvideWinSATResultsInfo.get_AssessmentState, IProvideWinSATResultsInfo::AssessmentState, IProvideWinSATResultsInfo::get_AssessmentState, get_AssessmentState, winsat.iprovidewinsatresultsinfo_assessmentstate, winsatcominterfacei/IProvideWinSATResultsInfo::AssessmentState, winsatcominterfacei/IProvideWinSATResultsInfo::get_AssessmentState
 ms.prod: windows
 ms.technology: windows-sdk

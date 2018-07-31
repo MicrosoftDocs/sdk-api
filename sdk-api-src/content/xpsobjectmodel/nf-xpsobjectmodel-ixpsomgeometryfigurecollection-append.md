@@ -7,7 +7,7 @@ old-location: xps\ixpsomgeometryfigurecollection_append.htm
 old-project: printdocs
 ms.assetid: 9481cd02-74f8-42f6-a347-454dae2aa579
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],Append method, IXpsOMGeometryFigureCollection.Append, IXpsOMGeometryFigureCollection::Append, xps.ixpsomgeometryfigurecollection_append, xpsobjectmodel/IXpsOMGeometryFigureCollection::Append
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-
-        For more information about the collection methods, see  <a href="https://msdn.microsoft.com/6ea311c0-a155-47de-ad40-62b0cbeb6e8f">Working with XPS OM Collection Interfaces</a>.
+For more information about the collection methods, see  <a href="https://msdn.microsoft.com/6ea311c0-a155-47de-ad40-62b0cbeb6e8f">Working with XPS OM Collection Interfaces</a>.
       
 
 

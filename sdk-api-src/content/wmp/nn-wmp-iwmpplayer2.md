@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayer2.htm
 old-project: WMP
 ms.assetid: bf51d54d-d0aa-42ad-8180-d1f6487baac8
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPPlayer2, IWMPPlayer2 interface [Windows Media Player], IWMPPlayer2 interface [Windows Media Player],described, IWMPPlayer2Interface, wmp.iwmpplayer2, wmp/IWMPPlayer2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,7 +111,6 @@ Specifies whether the Windows Media Player control renders video in windowless m
 </td>
 </tr>
 </table> 
-
 
 Retrieve a pointer to an <b>IWMPPlayer2</b> interface either by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer</a> interface or by calling the COM <b>CoCreateInstance</b> method.
 

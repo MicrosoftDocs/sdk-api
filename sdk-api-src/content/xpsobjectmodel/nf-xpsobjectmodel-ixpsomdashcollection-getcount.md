@@ -7,7 +7,7 @@ old-location: xps\ixpsomdashcollection_getcount.htm
 old-project: printdocs
 ms.assetid: 51393b2f-6658-4268-bcfc-5647ef2c8406
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMDashCollection interface, IXpsOMDashCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMDashCollection.GetCount, IXpsOMDashCollection::GetCount, xps.ixpsomdashcollection_getcount, xpsobjectmodel/IXpsOMDashCollection::GetCount
 ms.prod: windows
 ms.technology: windows-sdk

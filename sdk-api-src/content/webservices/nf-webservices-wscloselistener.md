@@ -7,7 +7,7 @@ old-location: wsw\wscloselistener.htm
 old-project: wsw
 ms.assetid: 6023595a-ac52-4619-a824-df49da887fc5
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCloseListener, WsCloseListener function [Web Services for Windows], webservices/WsCloseListener, wsw.wscloselistener
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,8 +98,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
-                    The asynchronous operation is still pending.
+The asynchronous operation is still pending.
                 
 
 </td>
@@ -111,8 +110,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
-                    The close was aborted by a call to <a href="https://msdn.microsoft.com/894a325b-53ac-4f45-ac24-87ed3a40b03d">WsAbortListener</a> as the listener was closing.
+The close was aborted by a call to <a href="https://msdn.microsoft.com/894a325b-53ac-4f45-ac24-87ed3a40b03d">WsAbortListener</a> as the listener was closing.
                 
 
 </td>
@@ -124,8 +122,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
-                    The listener was in an inappropriate state.
+The listener was in an inappropriate state.
                 
 
 </td>
@@ -137,7 +134,6 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
 The operation did not complete within the time allotted.
 
 </td>
@@ -149,7 +145,6 @@ The operation did not complete within the time allotted.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -175,13 +170,10 @@ This function may return other errors not listed above.
 
 
 
-
-                After the listener is closed, the listener can safely be released.  
+After the listener is closed, the listener can safely be released.  
             
 
-
-
-            This operation is allowed for listener in the   <b>WS_LISTENER_STATE_OPEN</b> or
+This operation is allowed for listener in the   <b>WS_LISTENER_STATE_OPEN</b> or
                 <b>WS_LISTENER_STATE_FAULTED</b> state.
             (For listener states, see the <a href="https://msdn.microsoft.com/275d0d36-f9a1-49a7-af74-e8967dff574a">WS_LISTENER_STATE</a> enumeration.) 
 

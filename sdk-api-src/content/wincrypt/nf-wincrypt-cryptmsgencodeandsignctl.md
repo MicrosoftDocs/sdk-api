@@ -4,10 +4,10 @@ title: CryptMsgEncodeAndSignCTL function
 author: windows-sdk-content
 description: The CryptMsgEncodeAndSignCTL function encodes a CTL and creates a signed message containing the encoded CTL.This function first encodes the CTL pointed to by pCtlInfo and then calls CryptMsgSignCTL to sign the encoded message.
 old-location: security\cryptmsgencodeandsignctl.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 5c0e9e2e-a50d-45d0-b51d-065784d1d912
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptMsgEncodeAndSignCTL, CryptMsgEncodeAndSignCTL function [Security], _crypto2_cryptmsgencodeandsignctl, security.cryptmsgencodeandsignctl, wincrypt/CryptMsgEncodeAndSignCTL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CryptMsgEncodeAndSignCTL</b> function encodes a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CTL</a> and creates a signed message containing the encoded CTL.
+The <b>CryptMsgEncodeAndSignCTL</b> function encodes a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CTL</a> and creates a signed message containing the encoded CTL.
 
 This function first encodes the CTL pointed to by <i>pCtlInfo</i> and then calls 
 <a href="https://msdn.microsoft.com/85ae8ce3-d0a7-4fcb-beaa-ede09d30930e">CryptMsgSignCTL</a> to sign the encoded message.
@@ -118,8 +117,7 @@ A pointer to a <b>DWORD</b> that specifies the size, in bytes, of the <i>pbEncod
 
 
 
-
-						If the function succeeds, the return value is nonzero (<b>TRUE</b>).
+If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). To get extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Errors can be propagated from calls to 
@@ -158,7 +156,7 @@ If the function fails, the return value is zero (<b>FALSE</b>). To get extended 
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Verification Functions Using CTLs</a>
+<a href="cryptography_functions.htm">Verification Functions Using CTLs</a>
  
 
  

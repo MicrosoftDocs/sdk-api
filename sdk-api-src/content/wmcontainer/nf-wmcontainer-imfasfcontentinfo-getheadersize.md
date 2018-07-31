@@ -7,7 +7,7 @@ old-location: mf\imfasfcontentinfo_getheadersize.htm
 old-project: medfound
 ms.assetid: c13ee7e6-df59-448f-80c4-04ac7c8c98ed
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: GetHeaderSize, GetHeaderSize method [Media Foundation], GetHeaderSize method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GetHeaderSize method, IMFASFContentInfo.GetHeaderSize, IMFASFContentInfo::GetHeaderSize, c13ee7e6-df59-448f-80c4-04ac7c8c98ed, mf.imfasfcontentinfo_getheadersize, wmcontainer/IMFASFContentInfo::GetHeaderSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-          Retrieves the size of the header section of an Advanced Systems Format (ASF) file.
+Retrieves the size of the header section of an Advanced Systems Format (ASF) file.
         
 
 
@@ -90,8 +89,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -103,8 +101,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The buffer does not contain valid ASF data.
+The buffer does not contain valid ASF data.
               
 
 </td>
@@ -116,8 +113,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-
-                The buffer does not contain enough valid data.
+The buffer does not contain enough valid data.
               
 
 </td>

@@ -7,7 +7,7 @@ old-location: inputdev\get_appcommand_lparam.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_appcommand_lparam.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: GET_APPCOMMAND_LPARAM, GET_APPCOMMAND_LPARAM macro [Keyboard and Mouse Input], _win32_GET_APPCOMMAND_LPARAM, _win32_get_appcommand_lparam_cpp, inputdev.get_appcommand_lparam, winui._win32_get_appcommand_lparam, winuser/GET_APPCOMMAND_LPARAM
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ The value to be converted.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645533(v=VS.85).aspx">Mouse Input Overview</a>
+<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input Overview</a>
  
 
  

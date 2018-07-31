@@ -7,7 +7,7 @@ old-location: wsw\ws_uint16_description.htm
 old-project: wsw
 ms.assetid: 62bc0e6c-a8f0-4b57-89bc-a2832d785703
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_UINT16_DESCRIPTION, WS_UINT16_DESCRIPTION structure [Web Services for Windows], _WS_UINT16_DESCRIPTION, webservices/WS_UINT16_DESCRIPTION, wsw.ws_uint16_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                An optional type description used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_UINT16_TYPE</a> to specify constraints on the set of values
+An optional type description used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_UINT16_TYPE</a> to specify constraints on the set of values
                 which can be deserialized.
             
 
@@ -64,14 +63,12 @@ req.product: Windows Address Book 5.0
 
 ### -field minValue
 
-
-                    The minimum value.
+The minimum value.
                 
 
 
 ### -field maxValue
 
-
-                    The maximum value.
+The maximum value.
                 
 

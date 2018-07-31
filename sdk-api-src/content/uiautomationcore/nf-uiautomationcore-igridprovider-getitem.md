@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IGridProvider_GetItem.htm
 old-project: WinAuto
 ms.assetid: 5d62e872-c4a7-43c5-b5cf-5069ad46483a
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetItem, GetItem method [Windows Accessibility], GetItem method [Windows Accessibility],IGridProvider interface, IGridProvider interface [Windows Accessibility],GetItem method, IGridProvider.GetItem, IGridProvider::GetItem, uiauto.uiauto_IGridProvider_GetItem, uiauto_IGridProvider_GetItem, uiautomationcore/IGridProvider::GetItem, winauto.uiauto_IGridProvider_GetItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,18 +96,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-            Grid coordinates are zero-based with the upper left (or upper right cell depending on locale) having coordinates (0,0).
+Grid coordinates are zero-based with the upper left (or upper right cell depending on locale) having coordinates (0,0).
             
 
-
-            If a cell is empty a UI Automation provider must still be 
+If a cell is empty a UI Automation provider must still be 
             returned in order to support the <a href="https://msdn.microsoft.com/760abeea-e432-49e3-a2df-0f6f30b029f0">ContainingGrid</a> property 
             for that cell. This is possible when the layout of child elements in the grid is similar to a ragged array.
             
 
-
-            Hidden rows and columns, depending on the provider implementation, may be loaded in the 
+Hidden rows and columns, depending on the provider implementation, may be loaded in the 
             UI Automation tree and will therefore be reflected in the <a href="https://msdn.microsoft.com/036a05fd-53b7-4e6d-b96b-503832933b56">IGridProvider::RowCount</a> 
             and <a href="https://msdn.microsoft.com/8d180781-d797-4db4-82bd-92f3646da495">IGridProvider::ColumnCount</a> properties. 
             If the hidden rows and columns have not yet been loaded they should not be counted.

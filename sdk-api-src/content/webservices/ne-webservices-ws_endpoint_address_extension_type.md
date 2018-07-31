@@ -7,7 +7,7 @@ old-location: wsw\ws_endpoint_address_extension_type.htm
 old-project: wsw
 ms.assetid: c35c39ff-497e-46d4-9dd7-2187a78f710e
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS, WS_ENDPOINT_ADDRESS_EXTENSION_TYPE, WS_ENDPOINT_ADDRESS_EXTENSION_TYPE enumeration [Web Services for Windows], webservices/WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS, webservices/WS_ENDPOINT_ADDRESS_EXTENSION_TYPE, wsw.ws_endpoint_address_extension_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                This identifies a type of extension within the extensions field of the 
+This identifies a type of extension within the extensions field of the 
                 <a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-3cd6ae16275f">WS_ENDPOINT_ADDRESS</a>.
             
 
@@ -64,11 +63,9 @@ req.product: Windows Address Book 5.0
 
 ### -field WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS
 
-
-                    The address that metadata can be downloaded from the endpoint.
+The address that metadata can be downloaded from the endpoint.
                 
 
-
-                    The type of the extension value is <a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-3cd6ae16275f">WS_ENDPOINT_ADDRESS</a>.
+The type of the extension value is <a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-3cd6ae16275f">WS_ENDPOINT_ADDRESS</a>.
                 
 

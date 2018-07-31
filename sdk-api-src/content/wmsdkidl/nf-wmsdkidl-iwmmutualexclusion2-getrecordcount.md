@@ -7,7 +7,7 @@ old-location: wmformat\iwmmutualexclusion2_getrecordcount.htm
 old-project: wmformat
 ms.assetid: 6e113601-1ac7-42a3-8e46-f1ba67ebb071
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetRecordCount, GetRecordCount method [windows Media Format], GetRecordCount method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],GetRecordCount method, IWMMutualExclusion2.GetRecordCount, IWMMutualExclusion2::GetRecordCount, IWMMutualExclusion2GetRecordCount, wmformat.iwmmutualexclusion2_getrecordcount, wmsdkidl/IWMMutualExclusion2::GetRecordCount
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IVssBackupComponents::SaveAsXML
 author: windows-sdk-content
 description: The SaveAsXML method saves the Backup Components Document containing a requester's state information to a specified string. This XML document, which contains the Backup Components Document, should always be securely saved as part of a backup operation.
 old-location: base\ivssbackupcomponents_saveasxml.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 8184d15a-7d1f-49ed-afe3-fa9d81a4d32d
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: IVssBackupComponents interface [VSS],SaveAsXML method, IVssBackupComponents.SaveAsXML, IVssBackupComponents::SaveAsXML, SaveAsXML, SaveAsXML method [VSS], SaveAsXML method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_saveasxml, base.ivssbackupcomponents_saveasxml, vsbackup/IVssBackupComponents::SaveAsXML
 ms.prod: windows
 ms.technology: windows-sdk
@@ -128,8 +128,7 @@ The backup components object is not initialized, this method has been called dur
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

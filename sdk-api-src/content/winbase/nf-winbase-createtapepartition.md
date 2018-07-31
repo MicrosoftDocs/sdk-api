@@ -4,10 +4,10 @@ title: CreateTapePartition function
 author: windows-sdk-content
 description: Reformats a tape.
 old-location: backup\createtapepartition.htm
-old-project: backup
+old-project: Backup
 ms.assetid: 9add07a2-1f70-4c9a-b278-4bc8b6c9d043
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: CreateTapePartition, CreateTapePartition function [Backup], TAPE_FIXED_PARTITIONS, TAPE_INITIATOR_PARTITIONS, TAPE_SELECT_PARTITIONS, _win32_createtapepartition, backup.createtapepartition, base.createtapepartition, winbase/CreateTapePartition
 ms.prod: windows
 ms.technology: windows-sdk

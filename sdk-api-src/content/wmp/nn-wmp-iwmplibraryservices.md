@@ -7,7 +7,7 @@ old-location: wmp\iwmplibraryservices.htm
 old-project: WMP
 ms.assetid: 9ed6d02e-15ca-425f-8642-e32a5adfaa55
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPLibraryServices, IWMPLibraryServices interface [Windows Media Player], IWMPLibraryServices interface [Windows Media Player],described, IWMPLibraryServicesInterface, wmp.iwmplibraryservices, wmp/IWMPLibraryServices
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,6 @@ Retrieves a pointer to an <b>IWMPLibrary</b> interface that represents the libra
 </td>
 </tr>
 </table> 
-
 
 Retrieve a pointer to <b>IWMPLibraryServices</b> by calling <b>QueryInterface</b> through <a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer</a> from a local or remoted Windows Media Player ActiveX control.
 	

@@ -4,10 +4,10 @@ title: IWTSProtocolConnection::LogonNotify
 author: windows-sdk-content
 description: IWTSProtocolConnection::LogonNotify is no longer available. Instead, use IWRdsProtocolConnection::LogonNotify.
 old-location: termserv\iwtsprotocolconnection_logonnotify.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: 6065e827-23a5-4150-bda5-999b7acede65
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],LogonNotify method, IWTSProtocolConnection.LogonNotify, IWTSProtocolConnection::LogonNotify, LogonNotify, LogonNotify method [Remote Desktop Services], LogonNotify method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_logonnotify, wtsprotocol/IWTSProtocolConnection::LogonNotify
 ms.prod: windows
 ms.technology: windows-sdk

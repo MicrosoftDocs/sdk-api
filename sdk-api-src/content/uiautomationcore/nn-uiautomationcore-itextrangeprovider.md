@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider.htm
 old-project: WinAuto
 ms.assetid: dd14e608-1d21-4527-8b82-dba64ed04fda
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], ITextRangeProvider interface [Windows Accessibility],described, uiauto.uiauto_ITextRangeProvider, uiauto_ITextRangeProvider, uiautomationcore/ITextRangeProvider, winauto.uiauto_ITextRangeProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,8 +84,7 @@ Adds the text range to the collection of selected text ranges in a control that 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
 </td>
 <td align="left" width="63%">
-
-        Returns a new <b>ITextRangeProvider</b> identical to the original 
+Returns a new <b>ITextRangeProvider</b> identical to the original 
         <b>ITextRangeProvider</b> and inheriting all properties of the original.
         
 
@@ -96,8 +95,7 @@ Adds the text range to the collection of selected text ranges in a control that 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406436">Compare</a>
 </td>
 <td align="left" width="63%">
-
-        Retrieves a value that specifies whether this text range has the same endpoints as another text range.
+Retrieves a value that specifies whether this text range has the same endpoints as another text range.
 
 </td>
 </tr>
@@ -106,8 +104,7 @@ Adds the text range to the collection of selected text ranges in a control that 
 <a href="https://msdn.microsoft.com/88a59d93-f31b-40d5-a8d9-ef114224019b">CompareEndpoints</a>
 </td>
 <td align="left" width="63%">
-
-        Returns a value that specifies whether two text ranges have identical endpoints.    
+Returns a value that specifies whether two text ranges have identical endpoints.    
         
 
 </td>
@@ -117,8 +114,7 @@ Adds the text range to the collection of selected text ranges in a control that 
 <a href="https://msdn.microsoft.com/6128b0ef-e78d-4f87-bc70-ab5ac0d055cf">ExpandToEnclosingUnit</a>
 </td>
 <td align="left" width="63%">
-
-        Normalizes the text range by the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is 
+Normalizes the text range by the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is 
 		  longer than the specified unit. 
         
 
@@ -129,8 +125,7 @@ Adds the text range to the collection of selected text ranges in a control that 
 <a href="https://msdn.microsoft.com/623a9b66-7d8c-44d7-b0c1-5ed8a8b8f0c6">FindAttribute</a>
 </td>
 <td align="left" width="63%">
-
-        Returns a text range subset that has the specified text attribute value. 
+Returns a text range subset that has the specified text attribute value. 
         
 
 </td>
@@ -140,8 +135,7 @@ Adds the text range to the collection of selected text ranges in a control that 
 <a href="https://msdn.microsoft.com/6012bc1e-5c1c-4874-ba2b-5e16eaf21f1d">FindText</a>
 </td>
 <td align="left" width="63%">
-
-        Returns a text range subset that contains the specified text.
+Returns a text range subset that contains the specified text.
         
 
 </td>
@@ -160,8 +154,7 @@ Retrieves the value of the specified text attribute across the text range.
 <a href="https://msdn.microsoft.com/2ca1d170-538b-4dc2-83f3-850e1873c0d1">GetBoundingRectangles</a>
 </td>
 <td align="left" width="63%">
-
-        Retrieves a collection of bounding rectangles for each fully or partially visible line of text in a text range.
+Retrieves a collection of bounding rectangles for each fully or partially visible line of text in a text range.
         
 
 </td>
@@ -207,8 +200,7 @@ Moves the text range forward or backward by the specified number of text units.
 <a href="https://msdn.microsoft.com/86411603-c37f-4192-95d1-8ac9b6ab6c44">MoveEndpointByRange</a>
 </td>
 <td align="left" width="63%">
-
-        Moves one endpoint of the current text range to the specified endpoint of a second text range.  
+Moves one endpoint of the current text range to the specified endpoint of a second text range.  
 		
 
 </td>

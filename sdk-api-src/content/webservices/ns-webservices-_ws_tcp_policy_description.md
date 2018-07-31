@@ -7,7 +7,7 @@ old-location: wsw\ws_tcp_policy_description.htm
 old-project: wsw
 ms.assetid: 7114ea0f-b7c7-4fe8-b46c-065f4dd88824
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_TCP_POLICY_DESCRIPTION, WS_TCP_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_TCP_POLICY_DESCRIPTION, webservices/WS_TCP_POLICY_DESCRIPTION, wsw.ws_tcp_policy_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Describes the policy specifying http channel binding.
+Describes the policy specifying http channel binding.
       
 
 
@@ -63,7 +62,6 @@ req.product: Windows Address Book 5.0
 
 ### -field channelProperties
 
-
-          Template description for the channel properties specified in policy.
+Template description for the channel properties specified in policy.
         
 

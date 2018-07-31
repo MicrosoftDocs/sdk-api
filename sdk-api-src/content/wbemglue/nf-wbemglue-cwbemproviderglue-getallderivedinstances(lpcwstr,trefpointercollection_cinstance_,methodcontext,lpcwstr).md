@@ -7,7 +7,7 @@ old-location: wmi\cwbemproviderglue_getallderivedinstances.htm
 old-project: WmiSdk
 ms.assetid: ecdca316-12a0-46c3-97df-85a087533837
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetAllDerivedInstances method, CWbemProviderGlue.GetAllDerivedInstances, CWbemProviderGlue.GetAllDerivedInstances(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR), CWbemProviderGlue::GetAllDerivedInstances, CWbemProviderGlue::GetAllDerivedInstances(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR), GetAllDerivedInstances, GetAllDerivedInstances method [Windows Management Instrumentation], GetAllDerivedInstances method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getallderivedinstances, wbemglue/CWbemProviderGlue::GetAllDerivedInstances, wmi.cwbemproviderglue_getallderivedinstances
 ms.prod: windows
 ms.technology: windows-sdk

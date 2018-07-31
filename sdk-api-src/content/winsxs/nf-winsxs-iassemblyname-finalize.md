@@ -4,10 +4,10 @@ title: IAssemblyName::Finalize
 author: windows-sdk-content
 description: The Finalize method prevents a side-by-side assembly name from being changed. After Finalize is called, additional calls to the SetProperty returns E_UNEXPECTED.
 old-location: setup\iassemblyname_finalize.htm
-old-project: sbscs
+old-project: SbsCs
 ms.assetid: 9930826e-3082-4ad3-991e-13cf426983a4
 ms.author: windowssdkdev
-ms.date: 05/17/2018
+ms.date: 07/29/2018
 ms.keywords: Finalize, Finalize method [Side-by-side Assemblies], Finalize method [Side-by-side Assemblies],IAssemblyName interface, IAssemblyName interface [Side-by-side Assemblies],Finalize method, IAssemblyName.Finalize, IAssemblyName::Finalize, setup.iassemblyname_finalize, winsxs/IAssemblyName::Finalize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: InitializeSecurityContextA function
 author: windows-sdk-content
 description: Initiates the client side, outbound security context from a credential handle.
 old-location: security\initializesecuritycontext__credssp_.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: f3d8c07b-db28-4f26-ba29-8733fc95bdb5
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: ISC_REQ_ALLOCATE_MEMORY, ISC_REQ_CONNECTION, ISC_REQ_DELEGATE, ISC_REQ_EXTENDED_ERROR, ISC_REQ_MANUAL_CRED_VALIDATION, ISC_REQ_MUTUAL_AUTH, ISC_REQ_SEQUENCE_DETECT, ISC_REQ_STREAM, ISC_REQ_USE_SUPPLIED_CREDS, InitializeSecurityContext, InitializeSecurityContext (CredSSP), InitializeSecurityContext function [Security], InitializeSecurityContextA, InitializeSecurityContextW, security.initializesecuritycontext__credssp_, sspi/InitializeSecurityContext, sspi/InitializeSecurityContextA, sspi/InitializeSecurityContextW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # InitializeSecurityContextA function
@@ -53,8 +52,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-			The <b>InitializeSecurityContext (CredSSP)</b> function initiates the client side, outbound  <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> from a credential handle. The function builds a security context between the client application and a remote peer. <b>InitializeSecurityContext (CredSSP)</b> returns a token that the client must pass to the remote peer; the peer in turn submits that token to the local security implementation through the 
+The <b>InitializeSecurityContext (CredSSP)</b> function initiates the client side, outbound  <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> from a credential handle. The function builds a security context between the client application and a remote peer. <b>InitializeSecurityContext (CredSSP)</b> returns a token that the client must pass to the remote peer; the peer in turn submits that token to the local security implementation through the 
 <a href="https://msdn.microsoft.com/a53f733e-b646-4431-b021-a2c446308849">AcceptSecurityContext (CredSSP)</a> call. The token generated should be considered opaque by all callers.
 
 Typically, the <b>InitializeSecurityContext (CredSSP)</b> function is called in a loop until a sufficient security context is established.
@@ -593,7 +591,7 @@ After  receiving an authentication certificate from a certification authority th
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

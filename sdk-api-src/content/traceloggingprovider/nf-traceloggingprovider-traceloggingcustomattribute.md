@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingcustomattribute.htm
 old-project: tracelogging
 ms.assetid: D58950A3-105D-43C7-8B8B-61CC1F0D4DA0
 ms.author: windowssdkdev
-ms.date: 04/27/2018
+ms.date: 07/29/2018
 ms.keywords: TraceLoggingCustomAttribute, TraceLoggingCustomAttribute macro, tracelogging.traceloggingcustomattribute, traceloggingprovider/TraceLoggingCustomAttribute
 ms.prod: windows
 ms.technology: windows-sdk

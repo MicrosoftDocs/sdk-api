@@ -4,10 +4,10 @@ title: TdhGetPropertySize function
 author: windows-sdk-content
 description: Retrieves the size of one or more property values in the event data.
 old-location: etw\tdhgetpropertysize_func.htm
-old-project: etw
+old-project: ETW
 ms.assetid: 52b034db-b08b-4c79-973f-33800ca866f5
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/29/2018
 ms.keywords: TdhGetPropertySize, TdhGetPropertySize function [ETW], etw.tdhgetpropertysize_func, tdh.tdhgetpropertysize_func, tdh/TdhGetPropertySize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-		Retrieves the size of one or more property values in the event data.
+Retrieves the size of one or more property values in the event data.
 		
 		
 	

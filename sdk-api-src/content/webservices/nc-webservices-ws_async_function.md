@@ -7,7 +7,7 @@ old-location: wsw\ws_async_function.htm
 old-project: wsw
 ms.assetid: 5645424b-4ca4-4f5d-b58d-16f3a7cceb6b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ASYNC_FUNCTION, WS_ASYNC_FUNCTION callback, WS_ASYNC_FUNCTION callback function [Web Services for Windows], webservices/WS_ASYNC_FUNCTION, wsw.ws_async_function
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Used with the <a href="https://msdn.microsoft.com/8705ac1a-62ba-4239-aeb6-b35ac5f0dd18">WsAsyncExecute</a> to specify the next 
+Used with the <a href="https://msdn.microsoft.com/8705ac1a-62ba-4239-aeb6-b35ac5f0dd18">WsAsyncExecute</a> to specify the next 
                 function to invoke in a series of async operations.
             
 
@@ -64,34 +63,29 @@ req.product: Windows Address Book 5.0
 
 ### -param hr [in]
 
-
-                The result of the previous async operation.
+The result of the previous async operation.
                 
 
 
 ### -param callbackModel [in]
 
-
-                    Whether the callback is being invoked long or short.
+Whether the callback is being invoked long or short.
                     For more information, see <a href="https://msdn.microsoft.com/6a8e4c0b-3c0a-4bd3-bbac-40e6f499a055">WS_CALLBACK_MODEL</a>.
                 
 
 
 ### -param *callbackState [in]
 
-
-                    This user supplied value that was passed to <a href="https://msdn.microsoft.com/8705ac1a-62ba-4239-aeb6-b35ac5f0dd18">WsAsyncExecute</a>/
+This user supplied value that was passed to <a href="https://msdn.microsoft.com/8705ac1a-62ba-4239-aeb6-b35ac5f0dd18">WsAsyncExecute</a>/
                 
 
 
 ### -param *next
 
-
-                    Set the function field to the next function to call.  It will be called regardless of whether or not the current function succeeds or fails.
+Set the function field to the next function to call.  It will be called regardless of whether or not the current function succeeds or fails.
                 
 
-
-                    Set the function field to <b>NULL</b> to indicate that there are no more functions to call.  
+Set the function field to <b>NULL</b> to indicate that there are no more functions to call.  
                 
 
 
@@ -106,8 +100,7 @@ Information on how to invoke the function asynchronously, or <b>NULL</b> if invo
 
 ### -param *error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 

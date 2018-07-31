@@ -7,7 +7,7 @@ old-location: xps\ixpsomgradientstopcollection.htm
 old-project: printdocs
 ms.assetid: 1f51f818-e9bb-4d88-9795-4e6890d24b8c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMGradientStopCollection, IXpsOMGradientStopCollection interface [XPS Documents and Packaging], IXpsOMGradientStopCollection interface [XPS Documents and Packaging],described, xps.ixpsomgradientstopcollection, xpsobjectmodel/IXpsOMGradientStopCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IXpsOMGradientStopCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/475794d5-e921-4bbd-aa71-cdbed7cb1dff">Append</a>
 </td>
 <td align="left" width="63%">
-
-              Appends an <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interface to the end of the collection.
+Appends an <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interface to the end of the collection.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IXpsOMGradientStopCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interface pointer from a specified location in the collection.
+Gets an <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interface pointer from a specified location in the collection.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IXpsOMGradientStopCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the number of <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interface pointers in the collection.
+Gets the number of <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interface pointers in the collection.
             
 
 </td>
@@ -107,8 +104,7 @@ The <b>IXpsOMGradientStopCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/b5ab5db8-ad94-4949-9d74-bddef3f29895">InsertAt</a>
 </td>
 <td align="left" width="63%">
-
-              Inserts an <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interface pointer at a specified location in the collection.
+Inserts an <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interface pointer at a specified location in the collection.
             
 
 </td>
@@ -118,8 +114,7 @@ The <b>IXpsOMGradientStopCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a>
 </td>
 <td align="left" width="63%">
-
-              Removes and releases an <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interface pointer from a specified location in the collection.
+Removes and releases an <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interface pointer from a specified location in the collection.
             
 
 </td>
@@ -129,8 +124,7 @@ The <b>IXpsOMGradientStopCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/5fa71afe-1f0a-4a25-8118-e85cc0569173">SetAt</a>
 </td>
 <td align="left" width="63%">
-
-              Replaces an <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interface pointer at a specified location in the collection.
+Replaces an <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interface pointer at a specified location in the collection.
             
 
 </td>

@@ -7,7 +7,7 @@ old-location: multimedia\avifilerelease.htm
 old-project: Multimedia
 ms.assetid: c2f94ca2-b46c-48b0-9c31-92cf2cf75be3
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: AVIFileRelease, AVIFileRelease function [Windows Multimedia], _win32_AVIFileRelease, multimedia.avifilerelease, vfw/AVIFileRelease
 ms.prod: windows
 ms.technology: windows-sdk

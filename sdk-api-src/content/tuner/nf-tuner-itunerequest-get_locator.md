@@ -7,7 +7,7 @@ old-location: mstv\itunerequest_get_locator.htm
 old-project: mstv
 ms.assetid: 9f2a000a-0133-44f4-8e9c-7d37435596d7
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: ITuneRequest interface [Microsoft TV Technologies],get_Locator method, ITuneRequest.get_Locator, ITuneRequest::get_Locator, ITuneRequestget_Locator, get_Locator, get_Locator method [Microsoft TV Technologies], get_Locator method [Microsoft TV Technologies],ITuneRequest interface, mstv.itunerequest_get_locator, tuner/ITuneRequest::get_Locator
 ms.prod: windows
 ms.technology: windows-sdk

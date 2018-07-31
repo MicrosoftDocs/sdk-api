@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisualbrush_getvisual.htm
 old-project: printdocs
 ms.assetid: b8fb6698-8ce7-42a1-bad6-bde3d5dbbbf8
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetVisual, GetVisual method [XPS Documents and Packaging], GetVisual method [XPS Documents and Packaging],IXpsOMVisualBrush interface, IXpsOMVisualBrush interface [XPS Documents and Packaging],GetVisual method, IXpsOMVisualBrush.GetVisual, IXpsOMVisualBrush::GetVisual, xps.ixpsomvisualbrush_getvisual, xpsobjectmodel/IXpsOMVisualBrush::GetVisual
 ms.prod: windows
 ms.technology: windows-sdk

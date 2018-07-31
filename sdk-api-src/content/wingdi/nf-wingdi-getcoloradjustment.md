@@ -7,7 +7,7 @@ old-location: gdi\getcoloradjustment.htm
 old-project: gdi
 ms.assetid: 405c0d0d-9433-4f4a-9957-5c42a0fb3a07
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetColorAdjustment, GetColorAdjustment function [Windows GDI], _win32_GetColorAdjustment, gdi.getcoloradjustment, wingdi/GetColorAdjustment
 ms.prod: windows
 ms.technology: windows-sdk

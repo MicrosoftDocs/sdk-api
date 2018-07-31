@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_creategeometry.htm
 old-project: printdocs
 ms.assetid: e6933542-eb88-4936-a1d7-8380afc61557
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CreateGeometry, CreateGeometry method [XPS Documents and Packaging], CreateGeometry method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateGeometry method, IXpsOMObjectFactory.CreateGeometry, IXpsOMObjectFactory::CreateGeometry, xps.ixpsomobjectfactory_creategeometry, xpsobjectmodel/IXpsOMObjectFactory::CreateGeometry
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Creates an <a href="https://msdn.microsoft.com/d3f74c1e-49ef-40ee-a2f4-b6d198b57
 
 ### -param geometry [out, retval]
 
-
-            A pointer to the new <a href="https://msdn.microsoft.com/d3f74c1e-49ef-40ee-a2f4-b6d198b57624">IXpsOMGeometry</a> interface.
+A pointer to the new <a href="https://msdn.microsoft.com/d3f74c1e-49ef-40ee-a2f4-b6d198b57624">IXpsOMGeometry</a> interface.
 
 
 ## -returns

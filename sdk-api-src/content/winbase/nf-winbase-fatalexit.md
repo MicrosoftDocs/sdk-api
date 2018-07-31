@@ -4,10 +4,10 @@ title: FatalExit function
 author: windows-sdk-content
 description: Transfers execution control to the debugger. The behavior of the debugger thereafter is specific to the type of debugger used.
 old-location: base\fatalexit.htm
-old-project: debug
+old-project: Debug
 ms.assetid: 6015e025-872f-455a-89f9-0ff96e59ef15
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/29/2018
 ms.keywords: FatalExit, FatalExit function, _win32_fatalexit, base.fatalexit, winbase/FatalExit
 ms.prod: windows
 ms.technology: windows-sdk

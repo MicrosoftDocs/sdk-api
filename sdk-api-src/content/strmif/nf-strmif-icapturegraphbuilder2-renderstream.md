@@ -7,7 +7,7 @@ old-location: dshow\icapturegraphbuilder2_renderstream.htm
 old-project: DirectShow
 ms.assetid: 2fb5f13c-2bf5-463b-a209-77129a159bd6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ICaptureGraphBuilder2 interface [DirectShow],RenderStream method, ICaptureGraphBuilder2.RenderStream, ICaptureGraphBuilder2::RenderStream, ICaptureGraphBuilder2RenderStream, RenderStream, RenderStream method [DirectShow], RenderStream method [DirectShow],ICaptureGraphBuilder2 interface, dshow.icapturegraphbuilder2_renderstream, strmif/ICaptureGraphBuilder2::RenderStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -257,8 +257,7 @@ pBuilder-&gt;RenderStream(&amp;PIN_CATEGORY_CAPTURE, &amp;MEDIATYPE_Video,
 </tr>
 </table></span></div>
 <h3><a id="File_Sources"></a><a id="file_sources"></a><a id="FILE_SOURCES"></a>File Sources</h3>
-
-           You can use this method to transcode or recompress a file. The following discussion assumes that the file has at most one video stream and one audio stream, or else a single interleaved stream. Otherwise, the method will not work correctly.
+You can use this method to transcode or recompress a file. The following discussion assumes that the file has at most one video stream and one audio stream, or else a single interleaved stream. Otherwise, the method will not work correctly.
 
 A file source has one output pin, so set <i>pCategory</i> and <i>pType</i> to <b>NULL</b>. Call the method twice—once to render the video stream, and once to render the audio stream. The first call connects the source filter to a parser filter and renders one of the parser filter's output pins. The second call renders the parser's remaining output pin. If you are compressing one stream but not the other, make sure to specify the compressor filter in the first call. The method will automatically pick the correct stream based on the compression type.
 

@@ -7,7 +7,7 @@ old-location: mstv\ilocator_get_outerfec.htm
 old-project: mstv
 ms.assetid: d32937e1-0b8c-485e-8bd0-df15ab2ed373
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IDigitalLocatorget_OuterFEC, ILocator interface [Microsoft TV Technologies],get_OuterFEC method, ILocator.get_OuterFEC, ILocator::get_OuterFEC, get_OuterFEC, get_OuterFEC method [Microsoft TV Technologies], get_OuterFEC method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_outerfec, tuner/ILocator::get_OuterFEC
 ms.prod: windows
 ms.technology: windows-sdk

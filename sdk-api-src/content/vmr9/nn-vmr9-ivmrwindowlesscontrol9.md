@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol9.htm
 old-project: DirectShow
 ms.assetid: 9db99c31-65b5-4ff1-9c0d-22140a3687e8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IVMRWindowlessControl9, IVMRWindowlessControl9 interface [DirectShow], IVMRWindowlessControl9 interface [DirectShow],described, IVMRWindowlessControl9Interface, dshow.ivmrwindowlesscontrol9, vmr9/IVMRWindowlessControl9
 ms.prod: windows
 ms.technology: windows-sdk
@@ -199,8 +199,7 @@ Sets the source and destination rectangles for the video.
 
 The VMR-9 supports this interface in windowless and renderless modes only. In windowed mode, <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> returns <b>E_NOINTERFACE</b>. For more information, see <a href="https://msdn.microsoft.com/98244af1-5934-4d1c-b9c3-7a414b065fe7">VMR Modes of Operation</a>.
 
-
-        Include DShow.h and D3d9.h before Vmr9.h.
+Include DShow.h and D3d9.h before Vmr9.h.
       
 
 

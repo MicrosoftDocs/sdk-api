@@ -4,10 +4,10 @@ title: CertDuplicateStore function
 author: windows-sdk-content
 description: Duplicates a store handle by incrementing the store's reference count.
 old-location: security\certduplicatestore.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 628efd30-6e07-4748-82ac-5cdc723be451
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertDuplicateStore, CertDuplicateStore function [Security], _crypto2_certduplicatestore, security.certduplicatestore, wincrypt/CertDuplicateStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ Currently, a copy is not made of the handle, and the returned handle is the same
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

@@ -4,10 +4,10 @@ title: ITextHost::TxGetExtent
 author: windows-sdk-content
 description: Requests the native size of the control in HIMETRIC.
 old-location: controls\ITextHost_TxGetExtent.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetextent.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetExtent method, ITextHost.TxGetExtent, ITextHost::TxGetExtent, TxGetExtent, TxGetExtent method [Windows Controls], TxGetExtent method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetExtent, _win32_ITextHost_TxGetExtent_cpp, controls.ITextHost_TxGetExtent, controls._win32_ITextHost_TxGetExtent, textserv/ITextHost::TxGetExtent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ If the vertical and horizontal zoom factors are not the same, the text services 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
 
 
 
@@ -132,7 +132,7 @@ If the vertical and horizontal zoom factors are not the same, the text services 
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
  
 
  

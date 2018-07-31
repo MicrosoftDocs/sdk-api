@@ -4,10 +4,10 @@ title: "_MIB_TCP6ROW_OWNER_PID"
 author: windows-sdk-content
 description: Contains information that describes an IPv6 TCP connection associated with a specific process ID (PID).
 old-location: mib\mib_tcp6row_owner_pid.htm
-old-project: mib
+old-project: MIB
 ms.assetid: d0c9c783-c095-487e-a007-8a10700f9fea
 ms.author: windowssdkdev
-ms.date: 05/15/2018
+ms.date: 07/29/2018
 ms.keywords: "*PMIB_TCP6ROW_OWNER_PID, MIB_TCP6ROW_OWNER_PID, MIB_TCP6ROW_OWNER_PID structure [MIB], MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCP6ROW_OWNER_PID, PMIB_TCP6ROW_OWNER_PID structure pointer [MIB], _MIB_TCP6ROW_OWNER_PID, iprtrmib/MIB_TCP6ROW_OWNER_PID, iprtrmib/PMIB_TCP6ROW_OWNER_PID, mib.mib_tcp6row_owner_pid, tcpmib/MIB_TCP6ROW_OWNER_PID, tcpmib/PMIB_TCP6ROW_OWNER_PID"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -293,8 +293,7 @@ The <b>dwLocalScopeId</b>, and <b>dwRemoteScopeId</b> members are in network byt
 
 The <b>ucLocalAddr</b> and <b>ucRemoteAddr</b> members are stored in  a character array in network byte order. The <a href="https://msdn.microsoft.com/a891adb0-6c2d-4b69-a0de-4a615be938e3">RtlIpv6AddressToString</a> or <a href="https://msdn.microsoft.com/a7de2da3-21ea-42fa-9474-f33252838632">RtlIpv6AddressToStringEx</a> functions may be used to convert the IPv6 address in the <b>ucLocalAddr</b> or <b>ucRemoteAddr</b> members to a string without loading the Windows Sockets DLL. 
 
-On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista
-   and later, the organization of header files has changed. This  structure is defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
+On the Microsoft Windows Software Development Kit (SDK) released for Windows Vistaand later, the organization of header files has changed. This  structure is defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
 
 

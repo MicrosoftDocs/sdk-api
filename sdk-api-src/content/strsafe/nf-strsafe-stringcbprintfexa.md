@@ -7,7 +7,7 @@ old-location: menurc\stringcbprintfex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbprintfex.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbPrintfEx, StringCbPrintfEx function [Menus and Other Resources], StringCbPrintfExA, StringCbPrintfExW, _shell_StringCbPrintfEx, _shell_stringcbprintfex_cpp, menurc.stringcbprintfex, strsafe/StringCbPrintfEx, strsafe/StringCbPrintfExA, strsafe/StringCbPrintfExW, winui._shell_stringcbprintfex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,13 +55,13 @@ req.product: Windows XP with SP1 and later
 
 Writes formatted data to the specified string. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCbPrintfEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/library/ms647510(v=VS.85).aspx">StringCbPrintf</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags may also be passed to the function for additional control.
+<b>StringCbPrintfEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/224c8840-06c6-4144-8f23-8705ac8ef887">StringCbPrintf</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags may also be passed to the function for additional control.
 
 <b>StringCbPrintfEx</b> is a replacement for the following functions:
 <ul>
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=192497">sprintf, swprintf, _stprintf</a></li>
 <li>
-<a href="https://msdn.microsoft.com/library/ms647550(v=VS.85).aspx">wsprintf</a>
+<a href="https://msdn.microsoft.com/5f373cb3-8cb9-4516-8a18-8971bb430d42">wsprintf</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/1d2b472b-6b34-4867-897c-eca60921d414">wnsprintf</a>
@@ -249,8 +249,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 
 
-Compared to  the functions it replaces, <b>StringCbPrintfEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbPrintfEx</b>
-				always null-terminates a nonzero-length destination buffer.
+Compared to  the functions it replaces, <b>StringCbPrintfEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbPrintfEx</b>always null-terminates a nonzero-length destination buffer.
 
 Behavior is undefined if the strings pointed to by <i>pszDest</i>, <i>pszFormat</i>, or any argument strings overlap.
 
@@ -294,15 +293,15 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647516(v=VS.85).aspx">StringCbVPrintfEx</a>
+<a href="https://msdn.microsoft.com/36f77c17-6244-4357-9361-a04118fcd820">StringCbVPrintfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647541(v=VS.85).aspx">StringCchPrintf</a>
+<a href="https://msdn.microsoft.com/9eaafe87-04da-4273-babb-b16d26bfdf70">StringCchPrintf</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647543(v=VS.85).aspx">StringCchPrintfEx</a>
+<a href="https://msdn.microsoft.com/e3904cd0-fcb9-4b54-9895-513a95f4a6f7">StringCchPrintfEx</a>
  
 
  

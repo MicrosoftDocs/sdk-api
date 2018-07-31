@@ -7,7 +7,7 @@ old-location: wsw\wswritexmlnsattribute.htm
 old-project: wsw
 ms.assetid: 17d73228-ea3b-4212-b9f7-7dcfdd6043a3
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsWriteXmlnsAttribute, WsWriteXmlnsAttribute function [Web Services for Windows], webservices/WsWriteXmlnsAttribute, wsw.wswritexmlnsattribute
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,8 +72,7 @@ A pointer to the <a href="https://msdn.microsoft.com/8f413e60-8a30-492c-8f2d-80b
 A WS_XML_STRING pointer to the prefix to use for the start element.  If the value referenced by this parameter is <b>NULL</b> the Writer will choose a attribute.
         
 
-
-          Specifies the prefix to use for the xmlns attribute.
+Specifies the prefix to use for the xmlns attribute.
         
 
 
@@ -117,7 +116,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -129,7 +127,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>
@@ -141,7 +138,6 @@ The operation is not allowed due to the current state of the object.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -153,7 +149,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -173,11 +168,9 @@ The following conditions apply:<ul>
       </li>
 <li>If a <b>NULL</b> prefix is specified then the Writer chooses the appropriate prefix for the namespace.
       </li>
-<li>
-        If the Xmlns attribute is redundant it cannot be written.
+<li>If the Xmlns attribute is redundant it cannot be written.
       </li>
-<li>
-        If a non-empty prefix is specified with an empty namespace <b>WS_E_INVALID_FORMAT</b> is returned.
+<li>If a non-empty prefix is specified with an empty namespace <b>WS_E_INVALID_FORMAT</b> is returned.
       </li>
 </ul>
 

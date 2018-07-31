@@ -4,10 +4,10 @@ title: ICEnroll::createFilePKCS10
 author: windows-sdk-content
 description: Creates a base64-encoded PKCS #10 certificate request and saves it in a file. This method was first defined in the ICEnroll interface.
 old-location: security\icenroll4_createfilepkcs10.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 074c7321-6117-4261-836a-a2055c9e029d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CEnroll object [Security],createFilePKCS10 method, ICEnroll interface [Security],createFilePKCS10 method, ICEnroll.createFilePKCS10, ICEnroll2 interface [Security],createFilePKCS10 method, ICEnroll2::createFilePKCS10, ICEnroll3 interface [Security],createFilePKCS10 method, ICEnroll3::createFilePKCS10, ICEnroll4 interface [Security],createFilePKCS10 method, ICEnroll4::createFilePKCS10, ICEnroll::createFilePKCS10, createFilePKCS10, createFilePKCS10 method [Security], createFilePKCS10 method [Security],CEnroll object, createFilePKCS10 method [Security],ICEnroll interface, createFilePKCS10 method [Security],ICEnroll2 interface, createFilePKCS10 method [Security],ICEnroll3 interface, createFilePKCS10 method [Security],ICEnroll4 interface, security.icenroll4_createfilepkcs10, xenroll/ICEnroll2::createFilePKCS10, xenroll/ICEnroll3::createFilePKCS10, xenroll/ICEnroll4::createFilePKCS10, xenroll/ICEnroll::createFilePKCS10
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,8 +90,7 @@ The name of the file in which the base64-encoded PKCS #10 (in <b>BSTR</b> form) 
 
 
 <h3>VB</h3>
-
-						 The return value is an <b>HRESULT</b>. A value of <b>S_OK</b> indicates success.
+The return value is an <b>HRESULT</b>. A value of <b>S_OK</b> indicates success.
 
 If the method fails, the return value is an <b>HRESULT</b> indicating the error. For a list of common error codes, see 
 <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.

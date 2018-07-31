@@ -7,7 +7,7 @@ old-location: wmi\swbemobjectset_itemindex.htm
 old-project: WmiSdk
 ms.assetid: 75830f78-0489-4fae-bf9c-2eee8526232e
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ISWbemObjectSet interface [Windows Management Instrumentation],ItemIndex method, ISWbemObjectSet.ItemIndex, ISWbemObjectSet::ItemIndex, ItemIndex, ItemIndex method [Windows Management Instrumentation], ItemIndex method [Windows Management Instrumentation],ISWbemObjectSet interface, ItemIndex method [Windows Management Instrumentation],SWbemObjectSet object, SWbemObjectSet object [Windows Management Instrumentation],ItemIndex method, SWbemObjectSet.ItemIndex, collections [Windows Management Instrumentation],indexing, wmi.swbemobjectset_itemindex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,7 +114,7 @@ Wscript.Echo  colProcesses.ItemIndex(2).Name</pre>
 </td>
 </tr>
 </table></span></div>
-Only one instance of <a href="https://msdn.microsoft.com/eb6a8cff-20a0-4211-b46a-3084e9c39246">Win32_OperatingSystem</a> exists for each operating system installation.  Creating the  <a href="https://msdn.microsoft.com/library/Bb774345(v=VS.85).aspx">GetObject</a> path to obtain the single instance is awkward so scripts normally enumerate  <b>Win32_OperatingSystem</b>  even though only one instance is available. The following VBScript code example shows how to use the <b>ItemIndex</b> method to get to the one <b>Win32_OperatingSystem</b> without  using a <b>For Each</b> loop.
+Only one instance of <a href="https://msdn.microsoft.com/eb6a8cff-20a0-4211-b46a-3084e9c39246">Win32_OperatingSystem</a> exists for each operating system installation.  Creating the  <a href="47dd01cb-9468-481e-be7e-55f69a744635">GetObject</a> path to obtain the single instance is awkward so scripts normally enumerate  <b>Win32_OperatingSystem</b>  even though only one instance is available. The following VBScript code example shows how to use the <b>ItemIndex</b> method to get to the one <b>Win32_OperatingSystem</b> without  using a <b>For Each</b> loop.
 
 <div class="code"><span codelanguage="VisualBasic"><table>
 <tr>

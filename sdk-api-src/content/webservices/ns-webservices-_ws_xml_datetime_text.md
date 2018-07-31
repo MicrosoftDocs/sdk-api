@@ -2,12 +2,12 @@
 UID: NS:webservices._WS_XML_DATETIME_TEXT
 title: "_WS_XML_DATETIME_TEXT"
 author: windows-sdk-content
-description: Represents a datetime formatted as an xsd:dateTime. Negative datetime values are not supported.
+description: Represents a datetime formatted as an xsd:dateTime.
 old-location: wsw\ws_xml_datetime_text.htm
 old-project: wsw
 ms.assetid: 788ad281-8e1f-45d6-bd36-0ad3aae6fd15
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_DATETIME_TEXT, WS_XML_DATETIME_TEXT structure [Web Services for Windows], _WS_XML_DATETIME_TEXT, webservices/WS_XML_DATETIME_TEXT, wsw.ws_xml_datetime_text
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,13 +51,11 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Represents a datetime formatted as an 
+Represents a datetime formatted as an 
         xsd:dateTime.
       
 
-
-        Negative datetime values are not supported. 
+Negative datetime values are not supported. 
       
 
 
@@ -68,8 +66,7 @@ req.product: Windows Address Book 5.0
 
 ### -field text
 
-
-          The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
+The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
         
 
 

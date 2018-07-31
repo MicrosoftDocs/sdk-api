@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_derivation_.htm
 old-project: WmiSdk
 ms.assetid: 8a4daab0-7d10-4a37-aacd-1f3f499b859a
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: Derivation_ property [Windows Management Instrumentation], Derivation_ property [Windows Management Instrumentation],ISWbemObject interface, Derivation_ property [Windows Management Instrumentation],SWbemObject object, ISWbemObject interface [Windows Management Instrumentation],Derivation_ property, ISWbemObject.get_Derivation_, ISWbemObject::get_Derivation_, SWbemObject object [Windows Management Instrumentation],Derivation_ property, SWbemObject.Derivation_, _hmm_swbemobject.derivation_, get_Derivation_, wmi.swbemobject_derivation_
 ms.prod: windows
 ms.technology: windows-sdk

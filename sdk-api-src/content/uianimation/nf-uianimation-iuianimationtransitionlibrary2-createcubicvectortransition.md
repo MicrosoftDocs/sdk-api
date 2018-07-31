@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary2_createcubicvectortransi
 old-project: UIAnimation
 ms.assetid: 27671A90-611C-457A-8D2B-657256896CF4
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateCubicVectorTransition, CreateCubicVectorTransition method [Windows Animation], CreateCubicVectorTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateCubicVectorTransition method, IUIAnimationTransitionLibrary2.CreateCubicVectorTransition, IUIAnimationTransitionLibrary2::CreateCubicVectorTransition, uianimation.iuianimationtransitionlibrary2_createcubicvectortransition, uianimation/IUIAnimationTransitionLibrary2::CreateCubicVectorTransition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates a cubic vector transition for each specified dimension.
+Creates a cubic vector transition for each specified dimension.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param duration [in]
 
-
-               The duration of the transition.
+The duration of the transition.
 
 
 ### -param finalValue [in]
@@ -83,8 +81,7 @@ The number of dimensions to apply the transition. This parameter specifies the n
 
 ### -param transition [out]
 
-
-                The new cubic transition.
+The new cubic transition.
 
 
 ## -returns

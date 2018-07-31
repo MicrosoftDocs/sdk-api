@@ -7,7 +7,7 @@ old-location: buses\winusb_getdescriptor.htm
 old-project: usbref
 ms.assetid: 59393a8f-4da9-44fd-8380-bb97e50cdb51
 ms.author: windowssdkdev
-ms.date: 05/08/2018
+ms.date: 07/29/2018
 ms.keywords: WinUsb_GetDescriptor, WinUsb_GetDescriptor function [Buses], buses.winusb_getdescriptor, winusb/WinUsb_GetDescriptor, winusbfunc_abc6ce9f-1e6f-470f-8770-6376cc9ffebf.xml
 ms.prod: windows
 ms.technology: windows-sdk

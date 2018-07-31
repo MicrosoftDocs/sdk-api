@@ -4,10 +4,10 @@ title: IVdsDrive::ClearFlags
 author: windows-sdk-content
 description: Clears the flags of a drive object.
 old-location: base\ivdsdrive_clearflags.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 195f0c13-40d7-4fad-b589-063ec4ff4efe
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: ClearFlags, ClearFlags method [VDS], ClearFlags method [VDS],IVdsDrive interface, IVdsDrive interface [VDS],ClearFlags method, IVdsDrive.ClearFlags, IVdsDrive::ClearFlags, base.ivdsdrive_clearflags, vds/IVdsDrive::ClearFlags, vdshwprv/IVdsDrive::ClearFlags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The flags enumerated by <a href="https://msdn.microsoft.com/50ddb9d1-32c9-4fee-b
 
 
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -122,7 +122,6 @@ The drive is in a failed state, and is unable to perform the requested operation
 </dl>
 </td>
 <td width="60%">
-
 Another operation is in progress; this operation cannot proceed until the previous operation or operations are complete.
 
 </td>
@@ -149,9 +148,7 @@ This operation or combination of parameters is not supported by this provider.
 
 
 
-Use <a href="https://msdn.microsoft.com/73f20f2b-44ec-44f0-b4e9-2aa40e85cc7c">IVdsDrive::SetFlags</a>
-        to set drive flags and <a href="https://msdn.microsoft.com/31556be6-ff03-492f-a7a6-dec37a63e88d">IVdsDrive::GetProperties</a>
-        to get currently set flags.
+Use <a href="https://msdn.microsoft.com/73f20f2b-44ec-44f0-b4e9-2aa40e85cc7c">IVdsDrive::SetFlags</a>to set drive flags and <a href="https://msdn.microsoft.com/31556be6-ff03-492f-a7a6-dec37a63e88d">IVdsDrive::GetProperties</a>to get currently set flags.
 
 
 

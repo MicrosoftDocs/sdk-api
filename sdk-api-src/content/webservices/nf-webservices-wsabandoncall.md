@@ -7,7 +7,7 @@ old-location: wsw\wsabandoncall.htm
 old-project: wsw
 ms.assetid: 709af94d-44ad-46af-8771-99d0aba5d77d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsAbandonCall, WsAbandonCall function [Web Services for Windows], webservices/WsAbandonCall, wsw.wsabandoncall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                Abandons a specified call  on the specified <a href="https://msdn.microsoft.com/e1a5bf5e-dbc1-43e3-981b-7db4caa08bdc">service proxy</a>. 
+Abandons a specified call  on the specified <a href="https://msdn.microsoft.com/e1a5bf5e-dbc1-43e3-981b-7db4caa08bdc">service proxy</a>. 
             
 
 
@@ -66,8 +65,7 @@ req.product: Windows Address Book 5.0
 
 ### -param serviceProxy [in]
 
-
-                   Pointer to a <a href="https://msdn.microsoft.com/623766ae-fe82-40f9-93c8-e78fe48bc6d1">WS_SERVICE_PROXY</a> structure representing the service proxy on which to abandon the call.
+Pointer to a <a href="https://msdn.microsoft.com/623766ae-fe82-40f9-93c8-e78fe48bc6d1">WS_SERVICE_PROXY</a> structure representing the service proxy on which to abandon the call.
                 
 
 
@@ -79,8 +77,7 @@ ID of the call to abandon.
 
 ### -param error [in, optional]
 
-
-                    Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure that receives additional error information if the function fails.
+Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure that receives additional error information if the function fails.
                 
 
 
@@ -127,12 +124,10 @@ A <b>NULL</b> service proxy was passed to the function.
 
 
 
-
-                    Calls are identified by a call ID. This call ID is associated with the call by the WS_CALL_PROPERTY_CALL_ID  value of the <a href="https://msdn.microsoft.com/d61b6763-9770-4f1d-b16f-c63fc09e8af5">WS_CALL_PROPERTY_ID</a> enumeration. 
+Calls are identified by a call ID. This call ID is associated with the call by the WS_CALL_PROPERTY_CALL_ID  value of the <a href="https://msdn.microsoft.com/d61b6763-9770-4f1d-b16f-c63fc09e8af5">WS_CALL_PROPERTY_ID</a> enumeration. 
               
 
-
-                    If the call ID is 0,  all pending calls on the service proxy are abandoned.
+If the call ID is 0,  all pending calls on the service proxy are abandoned.
               For more information,
                     see the following topics:
                     <ul>
@@ -148,8 +143,7 @@ A <b>NULL</b> service proxy was passed to the function.
 Be aware that the actual I/O associated with the call is not canceled. The service proxy keeps the resources to complete the call even though the call was abandoned. 
             
 
-
-                This results in a consumption of resources that is aggravated if an application continues to abandon calls, as can happen when the server is slow to respond  to the 
+This results in a consumption of resources that is aggravated if an application continues to abandon calls, as can happen when the server is slow to respond  to the 
                 client, and the client application abandons one call only to make the same call again.
 
 

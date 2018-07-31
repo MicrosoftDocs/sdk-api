@@ -7,7 +7,7 @@ old-location: wsw\ws_channel_properties.htm
 old-project: wsw
 ms.assetid: a28eddde-2b95-4655-962b-1d04b7a2c5fe
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_CHANNEL_PROPERTIES, WS_CHANNEL_PROPERTIES structure [Web Services for Windows], _WS_CHANNEL_PROPERTIES, webservices/WS_CHANNEL_PROPERTIES, wsw.ws_channel_properties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ Specifies a set of <a href="https://msdn.microsoft.com/0298e8ae-67ad-4881-885f-2
 
 ### -field properties
 
-
-                    An array of properties.  The number of elements in the array is specified
+An array of properties.  The number of elements in the array is specified
                     using the propertyCount parameter.  This field may be <b>NULL</b> if the propertyCount
                     is 0.
                 
@@ -71,7 +70,6 @@ Specifies a set of <a href="https://msdn.microsoft.com/0298e8ae-67ad-4881-885f-2
 
 ### -field propertyCount
 
-
-                    The number of elements in the properties array.
+The number of elements in the properties array.
                 
 

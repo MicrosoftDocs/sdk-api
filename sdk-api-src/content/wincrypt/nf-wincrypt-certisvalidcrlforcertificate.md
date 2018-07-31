@@ -4,10 +4,10 @@ title: CertIsValidCRLForCertificate function
 author: windows-sdk-content
 description: The CertIsValidCRLForCertificate function checks a CRL to find out if it is a CRL that would include a specific certificate if that certificate were revoked.
 old-location: security\certisvalidcrlforcertificate.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 06047b7a-4bdd-42f9-bb85-49b6ec6f35a0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertIsValidCRLForCertificate, CertIsValidCRLForCertificate function [Security], _crypto2_certisvalidcrlforcertificate, security.certisvalidcrlforcertificate, wincrypt/CertIsValidCRLForCertificate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertIsValidCRLForCertificate</b> function checks a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CRL</a> to find out if it is a CRL that would include a specific certificate if that certificate were revoked. If the CRL has an issuing distribution point (IDP) extension, the function checks whether that IDP is valid for the certificate being checked.
+The <b>CertIsValidCRLForCertificate</b> function checks a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CRL</a> to find out if it is a CRL that would include a specific certificate if that certificate were revoked. If the CRL has an issuing distribution point (IDP) extension, the function checks whether that IDP is valid for the certificate being checked.
 
 
 ## -parameters
@@ -89,8 +88,7 @@ A pointer to a CRL. The function checks this CRL to determine whether it could c
 
 
 
-
-						The function returns <b>TRUE</b> if the CRL is a valid CRL to be searched for the specific certificate. It returns <b>FALSE</b> if the CRL is not a valid CRL for searching for the certificate.
+The function returns <b>TRUE</b> if the CRL is a valid CRL to be searched for the specific certificate. It returns <b>FALSE</b> if the CRL is not a valid CRL for searching for the certificate.
 
 
 

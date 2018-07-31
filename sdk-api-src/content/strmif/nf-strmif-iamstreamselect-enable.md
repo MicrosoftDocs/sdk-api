@@ -7,7 +7,7 @@ old-location: dshow\iamstreamselect_enable.htm
 old-project: DirectShow
 ms.assetid: ac17a218-34a4-49aa-9b4d-cb34f3c2a5d3
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: Enable, Enable method [DirectShow], Enable method [DirectShow],IAMStreamSelect interface, IAMStreamSelect interface [DirectShow],Enable method, IAMStreamSelect.Enable, IAMStreamSelect::Enable, IAMStreamSelectEnable, dshow.iamstreamselect_enable, strmif/IAMStreamSelect::Enable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,11 +74,9 @@ Flag indicating whether to enable or disable the stream. Use one of the followin
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

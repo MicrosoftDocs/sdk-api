@@ -7,7 +7,7 @@ old-location: coreaudio\spatialaudiometadatawriteroverflowmode.htm
 old-project: CoreAudio
 ms.assetid: B61C8D75-FCC3-42A6-84DE-01DBA7492962
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/29/2018
 ms.keywords: SpatialAudioMetadataWriterOverflowMode, SpatialAudioMetadataWriterOverflowMode enumeration [Core Audio], SpatialAudioMetadataWriterOverflow_Fail, SpatialAudioMetadataWriterOverflow_MergeWithLast, SpatialAudioMetadataWriterOverflow_MergeWithNew, coreaudio.spatialaudiometadatawriteroverflowmode, spatialaudiometadata/SpatialAudioMetadataWriterOverflowMode, spatialaudiometadata/SpatialAudioMetadataWriterOverflow_Fail, spatialaudiometadata/SpatialAudioMetadataWriterOverflow_MergeWithLast, spatialaudiometadata/SpatialAudioMetadataWriterOverflow_MergeWithNew
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # SpatialAudioMetadataWriterOverflowMode enumeration

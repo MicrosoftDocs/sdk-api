@@ -4,10 +4,10 @@ title: "_VDS_ISCSI_IPSEC_KEY"
 author: windows-sdk-content
 description: Not supported.This structure is reserved for future use.
 old-location: base\vds_iscsi_ipsec_key.htm
-old-project: vds
+old-project: VDS
 ms.assetid: a2428142-4dd0-467d-bb7c-3d7fca31111e
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: VDS_ISCSI_IPSEC_KEY, VDS_ISCSI_IPSEC_KEY structure [VDS], _VDS_ISCSI_IPSEC_KEY, base.vds_iscsi_ipsec_key, vds/VDS_ISCSI_IPSEC_KEY, vdshwprv/VDS_ISCSI_IPSEC_KEY
 ms.prod: windows
 ms.technology: windows-sdk

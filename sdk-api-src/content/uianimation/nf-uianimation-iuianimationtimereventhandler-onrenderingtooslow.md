@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimereventhandler_onrenderingtooslow.htm
 old-project: UIAnimation
 ms.assetid: 79986646-2d82-41a3-bff7-b2f0492c7a1b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationTimerEventHandler interface [Windows Animation],OnRenderingTooSlow method, IUIAnimationTimerEventHandler.OnRenderingTooSlow, IUIAnimationTimerEventHandler::OnRenderingTooSlow, OnRenderingTooSlow, OnRenderingTooSlow method [Windows Animation], OnRenderingTooSlow method [Windows Animation],IUIAnimationTimerEventHandler interface, uianimation.iuianimationtimereventhandler_onrenderingtooslow, uianimation/IUIAnimationTimerEventHandler::OnRenderingTooSlow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Handles events that occur when the rendering frame rate 
+Handles events that occur when the rendering frame rate 
       for an animation falls below a minimum desirable frame rate.
    
 
@@ -64,8 +63,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param framesPerSecond [in]
 
-
-               The current frame rate, in frames per second.
+The current frame rate, in frames per second.
 
 
 ## -returns
@@ -81,8 +79,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 
-
-          The minimum desirable frame rate is specified using the <a href="https://msdn.microsoft.com/6e9b5278-a959-40a7-a4dc-88400a80b0e3">IUIAnimationTimer::SetFrameRateThreshold</a> method.
+The minimum desirable frame rate is specified using the <a href="https://msdn.microsoft.com/6e9b5278-a959-40a7-a4dc-88400a80b0e3">IUIAnimationTimer::SetFrameRateThreshold</a> method.
 
 
 
@@ -96,8 +93,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://msdn.microsoft.com/ff1bae45-2199-4340-a27b-19865d2877f9">
-      IUIAnimationTimer::SetTimerEventHandler</a>
+<a href="https://msdn.microsoft.com/ff1bae45-2199-4340-a27b-19865d2877f9">IUIAnimationTimer::SetTimerEventHandler</a>
 
 
 

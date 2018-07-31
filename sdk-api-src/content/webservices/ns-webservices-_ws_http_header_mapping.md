@@ -7,7 +7,7 @@ old-location: wsw\ws_http_header_mapping.htm
 old-project: wsw
 ms.assetid: bca1f244-4692-42bb-bbd7-c96647038a06
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_HTTP_HEADER_MAPPING, WS_HTTP_HEADER_MAPPING structure [Web Services for Windows], _WS_HTTP_HEADER_MAPPING, webservices/WS_HTTP_HEADER_MAPPING, wsw.ws_http_header_mapping
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies an individual header that is mapped as part of <a href="https://msdn.microsoft.com/dff8217e-769d-4f0b-acf2-02d6e43589cf">WS_HTTP_MESSAGE_MAPPING</a>.
+Specifies an individual header that is mapped as part of <a href="https://msdn.microsoft.com/dff8217e-769d-4f0b-acf2-02d6e43589cf">WS_HTTP_MESSAGE_MAPPING</a>.
             
 
 
@@ -63,15 +62,13 @@ req.product: Windows Address Book 5.0
 
 ### -field headerName
 
-
-                    The name of the HTTP header.
+The name of the HTTP header.
                 
 
 
 ### -field headerMappingOptions
 
-
-                    A set of flags that control how headers are mapped.  
+A set of flags that control how headers are mapped.  
                     See <a href="https://msdn.microsoft.com/cd11cae2-36af-4086-80f3-e99493bf9eb1">WS_HTTP_HEADER_MAPPING_OPTIONS</a> for more information.
                 
 

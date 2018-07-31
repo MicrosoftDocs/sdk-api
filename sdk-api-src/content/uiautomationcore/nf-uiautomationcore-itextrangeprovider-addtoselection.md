@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITextRangeProvider_AddToSelection.htm
 old-project: WinAuto
 ms.assetid: e058ca62-6bb4-403e-a355-cc422a329109
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: AddToSelection, AddToSelection method [Windows Accessibility], AddToSelection method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],AddToSelection method, ITextRangeProvider.AddToSelection, ITextRangeProvider::AddToSelection, uiauto.uiauto_ITextRangeProvider_AddToSelection, uiauto_ITextRangeProvider_AddToSelection, uiautomationcore/ITextRangeProvider::AddToSelection, winauto.uiauto_ITextRangeProvider_AddToSelection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-            The text insertion point moves to the area of the new selection.
+The text insertion point moves to the area of the new selection.
             
 
 If this method is called on a degenerate text range, the text insertion point moves to the location of the text range but no text is selected. 

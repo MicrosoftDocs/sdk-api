@@ -7,7 +7,7 @@ old-location: wic\iwicjpegframeencode.htm
 old-project: wic
 ms.assetid: 631571A2-AA15-4A4B-B705-6CCC81392A6A
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWICJpegFrameEncode, IWICJpegFrameEncode interface [Windows Imaging Component], IWICJpegFrameEncode interface [Windows Imaging Component],described, wic.iwicjpegframeencode, wincodec/IWICJpegFrameEncode
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: DecryptMessage function
 author: windows-sdk-content
 description: Decrypts a message by using Digest.
 old-location: security\decryptmessage__digest_.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 46d45f59-33fa-434a-b329-20b6257c9a19
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: DecryptMessage, DecryptMessage (Digest), DecryptMessage function [Security], SECQOP_WRAP_NO_ENCRYPT, SIGN_ONLY, UnsealMessage [Security], security.decryptmessage__digest_, sspi/DecryptMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # DecryptMessage function
@@ -52,8 +51,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-			The <b>DecryptMessage (Digest)</b> function decrypts a message. Some packages do not encrypt and decrypt messages but rather perform and check an integrity <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a>.
+The <b>DecryptMessage (Digest)</b> function decrypts a message. Some packages do not encrypt and decrypt messages but rather perform and check an integrity <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a>.
 
 The Digest <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security support provider</a> (SSP) provides encryption and decryption confidentiality for messages exchanged between client and server as a SASL mechanism only.
 <div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/0045e931-929b-40c4-a524-5664d2fc5170">EncryptMessage (Digest)</a> and <b>DecryptMessage (Digest)</b> can be called at the same time from two different threads in a single <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Security Support Provider Interface</a> (SSPI) context if one thread is encrypting and the other is decrypting. If more than one thread is encrypting, or more than one thread is decrypting, each thread should obtain a unique context.</div><div> </div>
@@ -128,8 +126,7 @@ When using the Digest SSP, use this flag when the security context is set to ver
 
 
 
-
-						If the function verifies that the message was received in the correct sequence, the function returns SEC_E_OK.
+If the function verifies that the message was received in the correct sequence, the function returns SEC_E_OK.
 
 If the function fails to decrypt the message, it returns one of the following error codes.
 
@@ -241,7 +238,7 @@ Sometimes an application will read data from the remote party, attempt to decryp
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createcoreproperties.htm
 old-project: printdocs
 ms.assetid: b7146f0c-e397-45cb-9eb0-e03b3ac0e905
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CreateCoreProperties, CreateCoreProperties method [XPS Documents and Packaging], CreateCoreProperties method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateCoreProperties method, IXpsOMObjectFactory.CreateCoreProperties, IXpsOMObjectFactory::CreateCoreProperties, xps.ixpsomobjectfactory_createcoreproperties, xpsobjectmodel/IXpsOMObjectFactory::CreateCoreProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,8 +66,7 @@ The <a href="https://msdn.microsoft.com/81123212-7a32-4833-b81f-8454a544327d">IO
 
 ### -param coreProperties [out, retval]
 
-
-            A pointer to the new <a href="https://msdn.microsoft.com/705ec9c7-5aa9-4fc5-ad2c-441cb545d056">IXpsOMCoreProperties</a> interface.
+A pointer to the new <a href="https://msdn.microsoft.com/705ec9c7-5aa9-4fc5-ad2c-441cb545d056">IXpsOMCoreProperties</a> interface.
 
 
 ## -returns

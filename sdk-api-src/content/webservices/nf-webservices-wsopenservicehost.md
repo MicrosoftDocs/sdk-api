@@ -7,7 +7,7 @@ old-location: wsw\wsopenservicehost.htm
 old-project: wsw
 ms.assetid: 4e6ef553-7f0e-4ed7-bbdd-e85d4e0a095c
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsOpenServiceHost, WsOpenServiceHost function [Web Services for Windows], webservices/WsOpenServiceHost, wsw.wsopenservicehost
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,8 +97,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    The asynchronous operation is still pending.
+The asynchronous operation is still pending.
                 
 
 </td>
@@ -132,7 +131,6 @@ The current state of the service proxy is not valid for this operation.
 </dl>
 </td>
 <td width="60%">
-
 The address is already being used.
 
 </td>
@@ -144,7 +142,6 @@ The address is already being used.
 </dl>
 </td>
 <td width="60%">
-
 The address is not valid for this context.
 
 </td>
@@ -156,7 +153,6 @@ The address is not valid for this context.
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -168,7 +164,6 @@ A quota was exceeded.
 </dl>
 </td>
 <td width="60%">
-
 The operation was aborted.
 
 </td>
@@ -180,7 +175,6 @@ The operation was aborted.
 </dl>
 </td>
 <td width="60%">
-
 The operation did not complete within the time allotted.
 
 </td>
@@ -192,7 +186,6 @@ The operation did not complete within the time allotted.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -204,7 +197,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -230,8 +222,7 @@ This function may return other errors not listed above.
 
 
 
-
-                Note that all the endpoints listeners have to successfully open before any channel is accepted by service host for communicating 
+Note that all the endpoints listeners have to successfully open before any channel is accepted by service host for communicating 
                 with the client. 
             
 

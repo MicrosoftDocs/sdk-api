@@ -7,7 +7,7 @@ old-location: xps\ixpsompath_setstrokebrushlocal.htm
 old-project: printdocs
 ms.assetid: 551bc4e2-2bf3-455b-a7f1-35b3b66697c0
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeBrushLocal method, IXpsOMPath.SetStrokeBrushLocal, IXpsOMPath::SetStrokeBrushLocal, SetStrokeBrushLocal, SetStrokeBrushLocal method [XPS Documents and Packaging], SetStrokeBrushLocal method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokebrushlocal, xpsobjectmodel/IXpsOMPath::SetStrokeBrushLocal
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: intl\ispellcheckprovider.htm
 old-project: Intl
 ms.assetid: D7C8831E-6FCE-45E0-B2EB-4EB2B1F7911F
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: ISpellCheckProvider, ISpellCheckProvider interface [Internationalization for Windows Applications], ISpellCheckProvider interface [Internationalization for Windows Applications],described, intl.ispellcheckprovider, spellcheckprovider/ISpellCheckProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # ISpellCheckProvider interface

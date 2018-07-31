@@ -4,10 +4,10 @@ title: RegOverridePredefKey function
 author: windows-sdk-content
 description: Maps a predefined registry key to the specified registry key.
 old-location: base\regoverridepredefkey.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: ad58b7ff-cd61-4719-9028-b470ae7e9bb0
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: RegOverridePredefKey, RegOverridePredefKey function, _win32_regoverridepredefkey, base.regoverridepredefkey, winreg/RegOverridePredefKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,7 +108,7 @@ The
 <b>RegOverridePredefKey</b> function is intended for software installation programs. It allows them to remap a predefined key, load a DLL component that will be installed on the system, call an entry point in the DLL, and examine the changes to the registry that the component attempted to make. The installation program can then write those changes to the locations intended by the DLL, or make changes to the data before writing it.
 
 For example, consider an installation program that installs an ActiveX control as part of an application installation. The installation program needs to call the control's 
-<a href="https://msdn.microsoft.com/library/ms682162(v=VS.85).aspx">DllRegisterServer</a> entry point to enable the control to register itself. Before this call, the installation program can call 
+<a href="_com_dllregisterserver">DllRegisterServer</a> entry point to enable the control to register itself. Before this call, the installation program can call 
 <b>RegOverridePredefKey</b> to remap <b>HKEY_CLASSES_ROOT</b> to a temporary key such as <b>HKEY_CURRENT_USER</b>\<b><i>TemporaryInstall</i></b>\<b><i>DllRegistration</i></b>. It then calls <b>DllRegisterServer</b>, which causes the ActiveX control to write its registry entries to the temporary key. The installation program then calls 
 <b>RegOverridePredefKey</b> again to restore the original mapping of <b>HKEY_CLASSES_ROOT</b>. The installation program can modify the keys written to the temporary key, if necessary, before copying them to the original <b>HKEY_CLASSES_ROOT</b>.
 
@@ -124,7 +124,7 @@ After the call to
 
 
 
-<a href="https://msdn.microsoft.com/library/ms682162(v=VS.85).aspx">DllRegisterServer</a>
+<a href="_com_dllregisterserver">DllRegisterServer</a>
 
 
 

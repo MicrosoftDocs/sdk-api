@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationScrollPattern_SetScrollPercent.htm
 old-project: WinAuto
 ms.assetid: 2f31445d-6198-430a-8f31-3ff25b72581c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAutomationScrollPattern interface [Windows Accessibility],SetScrollPercent method, IUIAutomationScrollPattern.SetScrollPercent, IUIAutomationScrollPattern::SetScrollPercent, SetScrollPercent, SetScrollPercent method [Windows Accessibility], SetScrollPercent method [Windows Accessibility],IUIAutomationScrollPattern interface, uiauto.uiauto_IUIAutomationScrollPattern_SetScrollPercent, uiauto_IUIAutomationScrollPattern_SetScrollPercent, uiautomationclient/IUIAutomationScrollPattern::SetScrollPercent, winauto.uiauto_IUIAutomationScrollPattern_SetScrollPercent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: gdi\emrrestoredc.htm
 old-project: gdi
 ms.assetid: c56767bf-a13e-4215-9005-6e543f3e5a0d
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: "*PEMRRESTOREDC, EMRRESTOREDC, EMRRESTOREDC structure [Windows GDI], PEMRRESTOREDC, PEMRRESTOREDC structure pointer [Windows GDI], _win32_EMRRESTOREDC_str, gdi.emrrestoredc, tagEMRRESTOREDC, wingdi/EMRRESTOREDC, wingdi/PEMRRESTOREDC"
 ms.prod: windows
 ms.technology: windows-sdk

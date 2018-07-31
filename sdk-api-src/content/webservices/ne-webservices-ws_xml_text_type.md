@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_text_type.htm
 old-project: wsw
 ms.assetid: 8c7695b9-7593-4d00-85d1-fbb7778d959a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_TEXT_TYPE, WS_XML_TEXT_TYPE enumeration [Web Services for Windows], WS_XML_TEXT_TYPE_BASE64, WS_XML_TEXT_TYPE_BOOL, WS_XML_TEXT_TYPE_DATETIME, WS_XML_TEXT_TYPE_DECIMAL, WS_XML_TEXT_TYPE_DOUBLE, WS_XML_TEXT_TYPE_FLOAT, WS_XML_TEXT_TYPE_GUID, WS_XML_TEXT_TYPE_INT32, WS_XML_TEXT_TYPE_INT64, WS_XML_TEXT_TYPE_LIST, WS_XML_TEXT_TYPE_QNAME, WS_XML_TEXT_TYPE_TIMESPAN, WS_XML_TEXT_TYPE_UINT64, WS_XML_TEXT_TYPE_UNIQUE_ID, WS_XML_TEXT_TYPE_UTF16, WS_XML_TEXT_TYPE_UTF8, webservices/WS_XML_TEXT_TYPE, webservices/WS_XML_TEXT_TYPE_BASE64, webservices/WS_XML_TEXT_TYPE_BOOL, webservices/WS_XML_TEXT_TYPE_DATETIME, webservices/WS_XML_TEXT_TYPE_DECIMAL, webservices/WS_XML_TEXT_TYPE_DOUBLE, webservices/WS_XML_TEXT_TYPE_FLOAT, webservices/WS_XML_TEXT_TYPE_GUID, webservices/WS_XML_TEXT_TYPE_INT32, webservices/WS_XML_TEXT_TYPE_INT64, webservices/WS_XML_TEXT_TYPE_LIST, webservices/WS_XML_TEXT_TYPE_QNAME, webservices/WS_XML_TEXT_TYPE_TIMESPAN, webservices/WS_XML_TEXT_TYPE_UINT64, webservices/WS_XML_TEXT_TYPE_UNIQUE_ID, webservices/WS_XML_TEXT_TYPE_UTF16, webservices/WS_XML_TEXT_TYPE_UTF8, wsw.ws_xml_text_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        The type of <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a> structure.
+The type of <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a> structure.
       
 
 
@@ -69,8 +68,7 @@ Characters encoded as UTF-8 bytes.
 
 ### -field WS_XML_TEXT_TYPE_UTF16
 
-
-          Characters encoded as UTF-16 bytes.
+Characters encoded as UTF-16 bytes.
         
 
 
@@ -106,63 +104,54 @@ An unsigned 64 bit integer value that represents the text of the value as base 1
 
 ### -field WS_XML_TEXT_TYPE_FLOAT
 
-
-          An 4 byte floating point value that represents the text of the value as base 10 characters.
+An 4 byte floating point value that represents the text of the value as base 10 characters.
         
 
 
 ### -field WS_XML_TEXT_TYPE_DOUBLE
 
-
-          An 8 byte floating point value that represents the text of the value as base 10 characters.
+An 8 byte floating point value that represents the text of the value as base 10 characters.
         
 
 
 ### -field WS_XML_TEXT_TYPE_DECIMAL
 
-
-          A 12 byte fixed point value that represents the text of the value as base 10 characters.
+A 12 byte fixed point value that represents the text of the value as base 10 characters.
         
 
 
 ### -field WS_XML_TEXT_TYPE_GUID
 
-
-          A GUID that represents the text "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx".
+A GUID that represents the text "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx".
         
 
 
 ### -field WS_XML_TEXT_TYPE_UNIQUE_ID
 
-
-          A GUID that represents the text "urn:uuid:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx".
+A GUID that represents the text "urn:uuid:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx".
         
 
 
 ### -field WS_XML_TEXT_TYPE_DATETIME
 
-
-          A datetime.
+A datetime.
         
 
 
 ### -field WS_XML_TEXT_TYPE_TIMESPAN
 
-
-          A timespan.
+A timespan.
         
 
 
 ### -field WS_XML_TEXT_TYPE_QNAME
 
-
-          A qualified name.
+A qualified name.
         
 
 
 ### -field WS_XML_TEXT_TYPE_LIST
 
-
-          A list of values that represent their text forms separated by a single whitespace character.
+A list of values that represent their text forms separated by a single whitespace character.
         
 

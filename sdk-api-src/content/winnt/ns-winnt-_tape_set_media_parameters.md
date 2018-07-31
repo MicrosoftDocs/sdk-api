@@ -2,12 +2,12 @@
 UID: NS:winnt._TAPE_SET_MEDIA_PARAMETERS
 title: "_TAPE_SET_MEDIA_PARAMETERS"
 author: windows-sdk-content
-description: Describes the tape in the tape drive. It is used by the SetTapeParameters function.
+description: Describes the tape in the tape drive. It is used by the SetTapeParametersfunction.
 old-location: backup\tape_set_media_parameters_str.htm
-old-project: backup
+old-project: Backup
 ms.assetid: 20243a64-2644-4519-b746-ba33f0893e49
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: "*PTAPE_SET_MEDIA_PARAMETERS, PTAPE_SET_MEDIA_PARAMETERS, PTAPE_SET_MEDIA_PARAMETERS structure pointer [Backup], TAPE_SET_MEDIA_PARAMETERS, TAPE_SET_MEDIA_PARAMETERS structure [Backup], _TAPE_SET_MEDIA_PARAMETERS, _win32_tape_set_media_parameters_str, backup.tape_set_media_parameters_str, base.tape_set_media_parameters_str, winnt/PTAPE_SET_MEDIA_PARAMETERS, winnt/TAPE_SET_MEDIA_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 The 
-<b>TAPE_SET_MEDIA_PARAMETERS</b> structure describes the tape in the tape drive. It is used by the <a href="https://msdn.microsoft.com/2043249b-b4ff-4bdd-9e6e-13c432a183cb">SetTapeParameters</a>
-		function.
+<b>TAPE_SET_MEDIA_PARAMETERS</b> structure describes the tape in the tape drive. It is used by the <a href="https://msdn.microsoft.com/2043249b-b4ff-4bdd-9e6e-13c432a183cb">SetTapeParameters</a>function.
 
 
 ## -struct-fields

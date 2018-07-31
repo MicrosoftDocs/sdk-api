@@ -7,7 +7,7 @@ old-location: multimedia\timegetdevcaps.htm
 old-project: Multimedia
 ms.assetid: 7b5a9675-1152-4c9e-bc79-fe9afa5c563c
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: "_win32_timeGetDevCaps, mmsystem/timeGetDevCaps, multimedia.timegetdevcaps, timeGetDevCaps, timeGetDevCaps function [Windows Multimedia], timeapi/timeGetDevCaps"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,8 +54,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        The <b>timeGetDevCaps</b> function queries the timer device to determine its resolution.
+The <b>timeGetDevCaps</b> function queries the timer device to determine its resolution.
       
 
 
@@ -66,8 +65,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param ptc
 
-
-            A pointer to a <a href="https://msdn.microsoft.com/64a5c4ba-d340-4abc-8da3-766f3a2d7ec8">TIMECAPS</a> structure. This structure is filled with information about the resolution of the timer device.
+A pointer to a <a href="https://msdn.microsoft.com/64a5c4ba-d340-4abc-8da3-766f3a2d7ec8">TIMECAPS</a> structure. This structure is filled with information about the resolution of the timer device.
           
 
 

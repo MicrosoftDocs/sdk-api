@@ -7,7 +7,7 @@ old-location: xps\ixpsomremotedictionaryresourcecollection.htm
 old-project: printdocs
 ms.assetid: 50c9bd7a-226f-4785-96b4-d0b5e861ae37
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMRemoteDictionaryResourceCollection, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging], IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomremotedictionaryresourcecollection, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IXpsOMRemoteDictionaryResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/85f56651-2066-4a18-a364-c27c6bc4edb3">Append</a>
 </td>
 <td align="left" width="63%">
-
-              Appends an <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface to the end of the collection.
+Appends an <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface to the end of the collection.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IXpsOMRemoteDictionaryResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface pointer from a specified location in the collection.
+Gets an <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface pointer from a specified location in the collection.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IXpsOMRemoteDictionaryResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/e90f23d9-c161-4b3c-a6bc-0059d2dfe5b5">GetByPartName</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface pointer from the collection by matching the interface's part name.
+Gets an <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface pointer from the collection by matching the interface's part name.
             
 
 </td>
@@ -107,8 +104,7 @@ The <b>IXpsOMRemoteDictionaryResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the number of <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface pointers in the collection.
+Gets the number of <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface pointers in the collection.
             
 
 </td>
@@ -118,8 +114,7 @@ The <b>IXpsOMRemoteDictionaryResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/22abb514-6574-4d7e-8ea5-2b0956b4e8a4">InsertAt</a>
 </td>
 <td align="left" width="63%">
-
-              Inserts an <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface pointer at a specified location in the collection.
+Inserts an <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface pointer at a specified location in the collection.
             
 
 </td>
@@ -129,8 +124,7 @@ The <b>IXpsOMRemoteDictionaryResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a>
 </td>
 <td align="left" width="63%">
-
-              Removes and releases an <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface pointer from a specified location in the collection.
+Removes and releases an <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface pointer from a specified location in the collection.
             
 
 </td>
@@ -140,8 +134,7 @@ The <b>IXpsOMRemoteDictionaryResourceCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/45e33503-dff9-4c59-8d9a-883ff56a30f3">SetAt</a>
 </td>
 <td align="left" width="63%">
-
-              Replaces an <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface pointer at a specified location in the collection.
+Replaces an <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface pointer at a specified location in the collection.
             
 
 </td>

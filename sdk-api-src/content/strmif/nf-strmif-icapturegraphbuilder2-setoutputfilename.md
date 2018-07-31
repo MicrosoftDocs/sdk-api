@@ -7,7 +7,7 @@ old-location: dshow\icapturegraphbuilder2_setoutputfilename.htm
 old-project: DirectShow
 ms.assetid: b81a79c1-a6f2-4c80-ae86-095fb9f78673
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ICaptureGraphBuilder2 interface [DirectShow],SetOutputFileName method, ICaptureGraphBuilder2.SetOutputFileName, ICaptureGraphBuilder2::SetOutputFileName, ICaptureGraphBuilder2SetOutputFileName, SetOutputFileName, SetOutputFileName method [DirectShow], SetOutputFileName method [DirectShow],ICaptureGraphBuilder2 interface, dshow.icapturegraphbuilder2_setoutputfilename, strmif/ICaptureGraphBuilder2::SetOutputFileName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Pointer to a <b>GUID</b> that represents either the media subtype of the output 
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

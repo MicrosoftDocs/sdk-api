@@ -7,7 +7,7 @@ old-location: wmformat\iwmimageinfo.htm
 old-project: wmformat
 ms.assetid: 1b3b4224-f86d-437c-969e-fe30e6d002a8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMImageInfo, IWMImageInfo interface [windows Media Format], IWMImageInfo interface [windows Media Format],described, IWMImageInfoInterface, wmformat.iwmimageinfo, wmsdkidl/IWMImageInfo
 ms.prod: windows
 ms.technology: windows-sdk

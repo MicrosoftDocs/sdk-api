@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Slcext.lib
 req.dll: Slcext.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # SLAcquireGenuineTicket function

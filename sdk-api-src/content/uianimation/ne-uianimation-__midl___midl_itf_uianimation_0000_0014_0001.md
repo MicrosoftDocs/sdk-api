@@ -7,7 +7,7 @@ old-location: uianimation\ui_animation_timer_client_status.htm
 old-project: UIAnimation
 ms.assetid: 45a445d1-cbe2-4588-a184-7d7bab6bc1ee
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: UI_ANIMATION_TIMER_CLIENT_BUSY, UI_ANIMATION_TIMER_CLIENT_IDLE, UI_ANIMATION_TIMER_CLIENT_STATUS, UI_ANIMATION_TIMER_CLIENT_STATUS enumeration [Windows Animation], __MIDL___MIDL_itf_UIAnimation_0000_0014_0001, uianimation.ui_animation_timer_client_status, uianimation/UI_ANIMATION_TIMER_CLIENT_BUSY, uianimation/UI_ANIMATION_TIMER_CLIENT_IDLE, uianimation/UI_ANIMATION_TIMER_CLIENT_STATUS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-         Defines activity status for a timer's client.
+Defines activity status for a timer's client.
 
 
 ## -enum-fields
@@ -62,14 +61,12 @@ req.product: Windows XP with SP1 and later
 
 ### -field UI_ANIMATION_TIMER_CLIENT_IDLE
 
-
-               The client is idle.
+The client is idle.
 
 
 ### -field UI_ANIMATION_TIMER_CLIENT_BUSY
 
-
-               The client is busy.
+The client is busy.
 
 
 ## -see-also
@@ -77,8 +74,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-<a href="https://msdn.microsoft.com/a2c161ce-937e-449a-884f-89a8a847d8aa">
-               IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged</a>
+<a href="https://msdn.microsoft.com/a2c161ce-937e-449a-884f-89a8a847d8aa">IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged</a>
  
 
  

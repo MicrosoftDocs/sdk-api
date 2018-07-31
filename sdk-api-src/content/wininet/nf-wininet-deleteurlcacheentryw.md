@@ -4,10 +4,10 @@ title: DeleteUrlCacheEntryW function
 author: windows-sdk-content
 description: Removes the file associated with the source name from the cache, if the file exists.
 old-location: wininet\deleteurlcacheentry.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: bb765cba-6662-4dca-8f9f-3f35e37da28a
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: DeleteUrlCacheEntry, DeleteUrlCacheEntry function [WinINet], DeleteUrlCacheEntryA, DeleteUrlCacheEntryW, _inet_deleteurlcacheentry_function, wininet.deleteurlcacheentry, wininet/DeleteUrlCacheEntry, wininet/DeleteUrlCacheEntryA, wininet/DeleteUrlCacheEntryW
 ms.prod: windows
 ms.technology: windows-sdk

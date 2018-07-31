@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader_close.htm
 old-project: wmformat
 ms.assetid: 98f5a44f-dc34-4732-b497-5528de6af1c3
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],Close method, IWMSyncReader.Close, IWMSyncReader::Close, IWMSyncReaderClose, wmformat.iwmsyncreader_close, wmsdkidl/IWMSyncReader::Close
 ms.prod: windows
 ms.technology: windows-sdk

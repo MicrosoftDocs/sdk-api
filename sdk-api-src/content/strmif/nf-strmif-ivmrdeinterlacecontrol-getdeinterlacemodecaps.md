@@ -7,7 +7,7 @@ old-location: dshow\ivmrdeinterlacecontrol_getdeinterlacemodecaps.htm
 old-project: DirectShow
 ms.assetid: e672f3d4-1009-4c4c-bb1a-08f78c128423
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetDeinterlaceModeCaps, GetDeinterlaceModeCaps method [DirectShow], GetDeinterlaceModeCaps method [DirectShow],IVMRDeinterlaceControl interface, IVMRDeinterlaceControl interface [DirectShow],GetDeinterlaceModeCaps method, IVMRDeinterlaceControl.GetDeinterlaceModeCaps, IVMRDeinterlaceControl::GetDeinterlaceModeCaps, IVMRDeinterlaceControlGetDeinterlaceModeCaps, dshow.ivmrdeinterlacecontrol_getdeinterlacemodecaps, strmif/IVMRDeinterlaceControl::GetDeinterlaceModeCaps
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,15 +62,13 @@ The <b>GetDeinterlaceModeCaps</b> method retrieves the capabilities of a specifi
 
 ### -param lpDeinterlaceMode [in]
 
-
-            Pointer to a GUID that identifies the deinterlacing mode. Call the <a href="https://msdn.microsoft.com/0e6abb00-95fb-453d-9427-178058b217b8">GetNumberOfDeinterlaceModes</a> method to obtain a list of GUIDs supported by the driver.
+Pointer to a GUID that identifies the deinterlacing mode. Call the <a href="https://msdn.microsoft.com/0e6abb00-95fb-453d-9427-178058b217b8">GetNumberOfDeinterlaceModes</a> method to obtain a list of GUIDs supported by the driver.
           
 
 
 ### -param lpVideoDescription [in]
 
-
-            Pointer to a <a href="https://msdn.microsoft.com/b02683ec-9bf9-4a69-87fb-d37a98f02e61">VMRVideoDesc</a> structure describing the video to deinterlace. Set the <b>dwSize</b> member of the structure before calling the method. 
+Pointer to a <a href="https://msdn.microsoft.com/b02683ec-9bf9-4a69-87fb-d37a98f02e61">VMRVideoDesc</a> structure describing the video to deinterlace. Set the <b>dwSize</b> member of the structure before calling the method. 
 
 
 ### -param lpDeinterlaceCaps [out]

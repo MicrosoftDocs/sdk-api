@@ -7,7 +7,7 @@ old-location: wsw\ws_spn_endpoint_identity.htm
 old-project: wsw
 ms.assetid: 99a484f0-4d04-4998-90d9-c39194ecf3f8
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SPN_ENDPOINT_IDENTITY, WS_SPN_ENDPOINT_IDENTITY structure [Web Services for Windows], _WS_SPN_ENDPOINT_IDENTITY, webservices/WS_SPN_ENDPOINT_IDENTITY, wsw.ws_spn_endpoint_identity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                    Type for specifying an endpoint identity represented by an SPN (service principal name).
+Type for specifying an endpoint identity represented by an SPN (service principal name).
             
 
 
@@ -63,14 +62,12 @@ req.product: Windows Address Book 5.0
 
 ### -field identity
 
-
-                    The base type from which this type and all other endpoint identity types derive.
+The base type from which this type and all other endpoint identity types derive.
                 
 
 
 ### -field spn
 
-
-                    The SPN (service principal name) of the endpoint that is represented by this endpoint identity.
+The SPN (service principal name) of the endpoint that is represented by this endpoint identity.
                 
 

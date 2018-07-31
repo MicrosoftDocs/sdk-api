@@ -7,7 +7,7 @@ old-location: winmsg\allowsetforegroundwindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\allowsetforegroundwindow.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: AllowSetForegroundWindow, AllowSetForegroundWindow function [Windows and Messages], _win32_AllowSetForegroundWindow, _win32_allowsetforegroundwindow_cpp, winmsg.allowsetforegroundwindow, winui._win32_allowsetforegroundwindow, winuser/AllowSetForegroundWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Enables the specified process to set the foreground window using the <a href="https://msdn.microsoft.com/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a> function. The calling process must already be able to set the foreground window. For more information, see Remarks later in this topic.
+Enables the specified process to set the foreground window using the <a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a> function. The calling process must already be able to set the foreground window. For more information, see Remarks later in this topic.
 
 
 ## -parameters
@@ -102,10 +102,9 @@ The system restricts which processes can set the foreground window. A process ca
 <li>The process received the last input event. </li>
 <li>There is no foreground process. </li>
 <li>The foreground process is being debugged. </li>
-<li>The foreground is not locked (see <a href="https://msdn.microsoft.com/library/ms633532(v=VS.85).aspx">LockSetForegroundWindow</a>). </li>
+<li>The foreground is not locked (see <a href="https://msdn.microsoft.com/86628916-34ba-4988-bdec-4111f0d29810">LockSetForegroundWindow</a>). </li>
 <li>The foreground lock time-out has expired (see <b>SPI_GETFOREGROUNDLOCKTIMEOUT</b> in <a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>). </li>
-<li>
-						 No menus are active. </li>
+<li>No menus are active. </li>
 </ul>
 A process that can set the foreground window can enable another process to set the foreground window by calling <b>AllowSetForegroundWindow</b>. The process specified by <i>dwProcessId</i> loses the ability to set the foreground window the next time the user generates input, unless the input is directed at that process, or the next time a process calls <b>AllowSetForegroundWindow</b>, unless that process is specified. 
 
@@ -121,7 +120,7 @@ A process that can set the foreground window can enable another process to set t
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633532(v=VS.85).aspx">LockSetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/86628916-34ba-4988-bdec-4111f0d29810">LockSetForegroundWindow</a>
 
 
 
@@ -129,7 +128,7 @@ A process that can set the foreground window can enable another process to set t
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/c728ff42-1a5e-45c9-b2ab-5e28ad430a2d">SetForegroundWindow</a>
 
 
 

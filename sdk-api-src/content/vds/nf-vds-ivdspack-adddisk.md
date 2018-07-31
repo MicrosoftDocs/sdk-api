@@ -4,10 +4,10 @@ title: IVdsPack::AddDisk
 author: windows-sdk-content
 description: Adds a disk to an online pack.
 old-location: base\ivdspack_adddisk.htm
-old-project: vds
+old-project: VDS
 ms.assetid: e64e3891-74c6-4014-9909-24f75f69e06d
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: AddDisk, AddDisk method [VDS], AddDisk method [VDS],IVdsPack interface, IVdsPack interface [VDS],AddDisk method, IVdsPack.AddDisk, IVdsPack::AddDisk, base.ivdspack_adddisk, vds/IVdsPack::AddDisk
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,8 +69,7 @@ The GUID of the disk.
 
 ### -param PartitionStyle [in]
 
-The style can be MBR or GPT. See the <a href="https://msdn.microsoft.com/31b7f0b3-cc3c-48e7-a4f0-628f0185f3cb">VDS_PARTITION_STYLE</a>
-        enumeration.
+The style can be MBR or GPT. See the <a href="https://msdn.microsoft.com/31b7f0b3-cc3c-48e7-a4f0-628f0185f3cb">VDS_PARTITION_STYLE</a>enumeration.
 
 
 ### -param bAsHotSpare [in]
@@ -82,7 +81,7 @@ If true,  VDS can use the disk as a hot spare; otherwise, the disk cannot be use
 
 
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>

@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriter_setprofilebyid.htm
 old-project: wmformat
 ms.assetid: 743212fd-a1e7-47c5-a220-c203cc2788e6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMWriter interface [windows Media Format],SetProfileByID method, IWMWriter.SetProfileByID, IWMWriter::SetProfileByID, IWMWriterSetProfileByID, SetProfileByID, SetProfileByID method [windows Media Format], SetProfileByID method [windows Media Format],IWMWriter interface, wmformat.iwmwriter_setprofilebyid, wmsdkidl/IWMWriter::SetProfileByID
 ms.prod: windows
 ms.technology: windows-sdk

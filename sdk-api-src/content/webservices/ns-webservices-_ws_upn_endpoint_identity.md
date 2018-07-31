@@ -7,7 +7,7 @@ old-location: wsw\ws_upn_endpoint_identity.htm
 old-project: wsw
 ms.assetid: dc822551-6853-456f-a115-a96f64b0e056
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_UPN_ENDPOINT_IDENTITY, WS_UPN_ENDPOINT_IDENTITY structure [Web Services for Windows], _WS_UPN_ENDPOINT_IDENTITY, webservices/WS_UPN_ENDPOINT_IDENTITY, wsw.ws_upn_endpoint_identity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-
-                    Type for specifying an endpoint identity represented by a UPN (user principal name).
+Type for specifying an endpoint identity represented by a UPN (user principal name).
 
             
 
@@ -65,14 +63,12 @@ req.product: Windows Address Book 5.0
 
 ### -field identity
 
-
-                    The base type from which this type and all other endpoint identity types derive.
+The base type from which this type and all other endpoint identity types derive.
                 
 
 
 ### -field upn
 
-
-                    The UPN (user principal name) of the endpoint that is represented by this endpoint identity.
+The UPN (user principal name) of the endpoint that is represented by this endpoint identity.
                 
 

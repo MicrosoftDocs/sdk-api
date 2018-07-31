@@ -7,7 +7,7 @@ old-location: wmp\iwmpplayerapplication.htm
 old-project: WMP
 ms.assetid: bcdd7ea9-66b2-40e9-89a1-0fec073ccd92
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPPlayerApplication, IWMPPlayerApplication interface [Windows Media Player], IWMPPlayerApplication interface [Windows Media Player],described, IWMPPlayerApplicationInterface, wmp.iwmpplayerapplication, wmp/IWMPPlayerApplication
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ The <b>IWMPPlayerApplication</b> interface provides methods for switching betwee
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlayerApplication</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWMPPlayerApplication</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlayerApplication</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWMPPlayerApplication</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -109,7 +109,6 @@ Switches a remoted Windows Media Player control to the full mode of the Player..
 </td>
 </tr>
 </table> 
-
 
 Retrieve a pointer to an <b>IWMPPlayerApplication</b> interface with the following method.
 

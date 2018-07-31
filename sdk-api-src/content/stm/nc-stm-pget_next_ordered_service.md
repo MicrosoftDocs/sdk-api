@@ -4,10 +4,10 @@ title: PGET_NEXT_ORDERED_SERVICE
 author: windows-sdk-content
 description: The GetNextOrderedService function returns the next service from a subset of services in the table. The service returned is the next service after a given input service using the ordering method specified.
 old-location: rras\getnextorderedservice.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: e25d7086-cfb7-41ea-8f4e-7e4f065830d9
 ms.author: windowssdkdev
-ms.date: 05/24/2018
+ms.date: 07/29/2018
 ms.keywords: GetNextOrderedService, GetNextOrderedService callback function [RAS], PGET_NEXT_ORDERED_SERVICE, PGET_NEXT_ORDERED_SERVICE callback, _mpr_getnextorderedservice, rras.getnextorderedservice, stm/GetNextOrderedService
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # PGET_NEXT_ORDERED_SERVICE callback function

@@ -7,7 +7,7 @@ old-location: wab\_wab_ADRENTRY.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\adrentry.htm
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPADRENTRY, ADRENTRY, ADRENTRY structure [Windows Address Book], Gender, Gender structure [Windows Address Book], _ADRENTRY, _wab_ADRENTRY, wab._wab_ADRENTRY, wabdefs/ADRENTRY"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,5 +75,5 @@ Variable of type <b>ULONG</b> that specifies the count of properties in the prop
 
 Type: <b>LPSPropValue</b>
 
-Pointer to a variable of type <a href="https://msdn.microsoft.com/library/ms629450(v=VS.85).aspx">SPropValue</a> that specifies the property value array describing the properties for the recipient. The <b>rgPropVals</b> member can be <b>NULL</b>.
+Pointer to a variable of type <a href="https://msdn.microsoft.com/cff1b41d-fc53-4987-8823-04cbd51e811b">SPropValue</a> that specifies the property value array describing the properties for the recipient. The <b>rgPropVals</b> member can be <b>NULL</b>.
 

@@ -7,7 +7,7 @@ old-location: wsw\ws_service_stub_callback.htm
 old-project: wsw
 ms.assetid: 3f561dfa-e83f-44f0-91b9-626b5b6036bd
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SERVICE_STUB_CALLBACK, WS_SERVICE_STUB_CALLBACK callback, WS_SERVICE_STUB_CALLBACK callback function [Web Services for Windows], webservices/WS_SERVICE_STUB_CALLBACK, wsw.ws_service_stub_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,36 +65,31 @@ Invoked by service model to delegate to the service
 
 ### -param *context [in]
 
-
-                    The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> within which this callback is being invoked. 
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">context</a> within which this callback is being invoked. 
                 
 
 
 ### -param *frame [in]
 
-
-                    Pointer to the method frame. 
+Pointer to the method frame. 
                 
 
 
 ### -param *callback [in]
 
-
-                    Pointer to the callback function to which the stub function corresponds to.  
+Pointer to the callback function to which the stub function corresponds to.  
                 
 
 
 ### -param *asyncContext [in, optional]
 
-
-                    Specifies whether the callback can run asynchronously. 
+Specifies whether the callback can run asynchronously. 
                 
 
 
 ### -param *error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -111,8 +106,7 @@ This callback function does not return a value.
 
 
 
-
-                A generated callback, it is recommended that the application do not implement this callback on their own. 
+A generated callback, it is recommended that the application do not implement this callback on their own. 
             
 
 

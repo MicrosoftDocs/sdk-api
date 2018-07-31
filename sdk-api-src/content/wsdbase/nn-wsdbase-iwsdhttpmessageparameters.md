@@ -4,10 +4,10 @@ title: IWSDHttpMessageParameters
 author: windows-sdk-content
 description: Provides access to the HTTP headers used when transmitting messages via SOAP-over-HTTP.
 old-location: ncd\iwsdhttpmessageparameters.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: fae10e9e-0c2b-4817-bd28-a4a85ca180cc
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: IWSDHttpMessageParameters, IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,described, ncd.iwsdhttpmessageparameters, wsdbase/IWSDHttpMessageParameters
 ms.prod: windows
 ms.technology: windows-sdk

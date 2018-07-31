@@ -7,7 +7,7 @@ old-location: winmsg\enumprops.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\enumprops.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: EnumProps, EnumProps function [Windows and Messages], EnumPropsA, EnumPropsW, _win32_EnumProps, _win32_enumprops_cpp, winmsg.enumprops, winui._win32_enumprops, winuser/EnumProps, winuser/EnumPropsA, winuser/EnumPropsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Enumerates all entries in the property list of a window by passing them, one by one, to the specified callback function. <b>EnumProps</b> continues until the last entry is enumerated or the callback function returns <b>FALSE</b>.
 
-To pass application-defined data to the callback function, use <a href="https://msdn.microsoft.com/library/ms633563(v=VS.85).aspx">EnumPropsEx</a> function.
+To pass application-defined data to the callback function, use <a href="https://msdn.microsoft.com/a23e75be-f403-481e-ad5a-c8c59b632416">EnumPropsEx</a> function.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A handle to the window whose property list is to be enumerated.
 
 Type: <b>PROPENUMPROC</b>
 
-A pointer to the callback function. For more information about the callback function, see the <a href="https://msdn.microsoft.com/library/ms633565(v=VS.85).aspx">PropEnumProc</a> function. 
+A pointer to the callback function. For more information about the callback function, see the <a href="https://msdn.microsoft.com/538cef31-d2e6-4cd1-9539-0e604a007e26">PropEnumProc</a> function. 
 
 
 ## -returns
@@ -110,11 +110,11 @@ An application can remove only those properties it has added. It must not remove
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633563(v=VS.85).aspx">EnumPropsEx</a>
+<a href="https://msdn.microsoft.com/a23e75be-f403-481e-ad5a-c8c59b632416">EnumPropsEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms633565(v=VS.85).aspx">PropEnumProc</a>
+<a href="https://msdn.microsoft.com/538cef31-d2e6-4cd1-9539-0e604a007e26">PropEnumProc</a>
 
 
 
@@ -122,7 +122,7 @@ An application can remove only those properties it has added. It must not remove
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632594(v=VS.85).aspx">Window Properties</a>
+<a href="https://msdn.microsoft.com/c39902d3-5907-4aa9-b839-d2d67d273990">Window Properties</a>
  
 
  

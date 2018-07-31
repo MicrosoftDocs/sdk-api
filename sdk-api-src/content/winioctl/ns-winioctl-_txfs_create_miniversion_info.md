@@ -4,10 +4,10 @@ title: "_TXFS_CREATE_MINIVERSION_INFO"
 author: windows-sdk-content
 description: Contains the version information about the miniversion created by FSCTL_TXFS_CREATE_MINIVERSION.
 old-location: fs\txfs_create_miniversion_info.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 247d1471-08f4-4717-bcd8-be9d01e23d79
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "*PTXFS_CREATE_MINIVERSION_INFO, PTXFS_CREATE_MINIVERSION_INFO, PTXFS_CREATE_MINIVERSION_INFO structure pointer [Files], TXFS_CREATE_MINIVERSION_INFO, TXFS_CREATE_MINIVERSION_INFO structure [Files], _TXFS_CREATE_MINIVERSION_INFO, fs.txfs_create_miniversion_info, winioctl/PTXFS_CREATE_MINIVERSION_INFO, winioctl/TXFS_CREATE_MINIVERSION_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

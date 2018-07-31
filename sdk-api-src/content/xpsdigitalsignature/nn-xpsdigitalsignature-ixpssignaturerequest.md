@@ -7,7 +7,7 @@ old-location: xps\ixpssignaturerequest.htm
 old-project: printdocs
 ms.assetid: 5ece2402-ab0e-4695-b9d7-478a65199ec8
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsSignatureRequest, IXpsSignatureRequest interface [XPS Documents and Packaging], IXpsSignatureRequest interface [XPS Documents and Packaging],described, xps.ixpssignaturerequest, xpsdigitalsignature/IXpsSignatureRequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,8 +110,7 @@ Gets the date and time before which the requested signer must sign the specified
 <a href="https://msdn.microsoft.com/649ab92f-9195-47a9-8a02-546825245e2b">GetSignature</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to an <a href="https://msdn.microsoft.com/23e2f9bd-7b0b-46ef-8ce3-a0c63be554e5">IXpsSignature</a> interface that contains the XPS digital signature with the same unique identifier as the signature request.
+Gets a pointer to an <a href="https://msdn.microsoft.com/23e2f9bd-7b0b-46ef-8ce3-a0c63be554e5">IXpsSignature</a> interface that contains the XPS digital signature with the same unique identifier as the signature request.
             
 
 </td>

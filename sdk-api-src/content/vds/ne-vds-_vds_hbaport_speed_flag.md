@@ -4,10 +4,10 @@ title: "_VDS_HBAPORT_SPEED_FLAG"
 author: windows-sdk-content
 description: Defines the set of valid flags for determining the speeds supported by an HBA port.
 old-location: base\vds_hbaport_speed_flag.htm
-old-project: vds
+old-project: VDS
 ms.assetid: b44a51b5-7aca-4e95-88ec-60ff026c411f
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: VDS_HBAPORT_SPEED_FLAG, VDS_HBAPORT_SPEED_FLAG enumeration [VDS], VDS_HSF_10GBIT, VDS_HSF_1GBIT, VDS_HSF_2GBIT, VDS_HSF_4GBIT, VDS_HSF_NOT_NEGOTIATED, VDS_HSF_UNKNOWN, _VDS_HBAPORT_SPEED_FLAG, base.vds_hbaport_speed_flag, vds/VDS_HBAPORT_SPEED_FLAG, vds/VDS_HSF_10GBIT, vds/VDS_HSF_1GBIT, vds/VDS_HSF_2GBIT, vds/VDS_HSF_4GBIT, vds/VDS_HSF_NOT_NEGOTIATED, vds/VDS_HSF_UNKNOWN, vdshwprv/VDS_HBAPORT_SPEED_FLAG, vdshwprv/VDS_HSF_10GBIT, vdshwprv/VDS_HSF_1GBIT, vdshwprv/VDS_HSF_2GBIT, vdshwprv/VDS_HSF_4GBIT, vdshwprv/VDS_HSF_NOT_NEGOTIATED, vdshwprv/VDS_HSF_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,8 +67,7 @@ Defines the set of valid flags for determining the speeds supported by an HBA po
 
 ### -field VDS_HSF_UNKNOWN
 
-
-      The HBA port speed is unknown. The transceiver is incapable of reporting.
+The HBA port speed is unknown. The transceiver is incapable of reporting.
       
 
 HBA_PORTSPEED_UNKNOWN
@@ -76,8 +75,7 @@ HBA_PORTSPEED_UNKNOWN
 
 ### -field VDS_HSF_1GBIT
 
-
-      The HBA port supports a transfer rate of 1 gigabit per second.
+The HBA port supports a transfer rate of 1 gigabit per second.
       
 
 HBA_PORTSPEED_1GBIT
@@ -85,8 +83,7 @@ HBA_PORTSPEED_1GBIT
 
 ### -field VDS_HSF_2GBIT
 
-
-      The HBA port supports a transfer rate of 2 gigabits per second.
+The HBA port supports a transfer rate of 2 gigabits per second.
       
 
 HBA_PORTSPEED_2GBIT
@@ -94,8 +91,7 @@ HBA_PORTSPEED_2GBIT
 
 ### -field VDS_HSF_10GBIT
 
-
-      The HBA port supports a transfer rate of 10 gigabits per second.
+The HBA port supports a transfer rate of 10 gigabits per second.
       
 
 HBA_PORTSPEED_10GBIT
@@ -103,8 +99,7 @@ HBA_PORTSPEED_10GBIT
 
 ### -field VDS_HSF_4GBIT
 
-
-      The HBA port supports a transfer rate of 4 gigabits per second.
+The HBA port supports a transfer rate of 4 gigabits per second.
       
 
 HBA_PORTSPEED_4GBIT
@@ -112,8 +107,7 @@ HBA_PORTSPEED_4GBIT
 
 ### -field VDS_HSF_NOT_NEGOTIATED
 
-
-      The HBA port speed has not been established.
+The HBA port speed has not been established.
       
 
 HBA_PORTSPEED_NOT_NEGOTIATED

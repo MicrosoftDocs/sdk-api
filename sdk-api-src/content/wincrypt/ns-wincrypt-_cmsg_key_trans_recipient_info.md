@@ -4,10 +4,10 @@ title: "_CMSG_KEY_TRANS_RECIPIENT_INFO"
 author: windows-sdk-content
 description: The CMSG_KEY_TRANS_RECIPIENT_INFO structure contains information used in key transport algorithms.
 old-location: security\cmsg_key_trans_recipient_info.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 956b0646-50a5-46d1-aa9a-91194c35d2b2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCMSG_KEY_TRANS_RECIPIENT_INFO, CMSG_KEY_TRANS_RECIPIENT_INFO, CMSG_KEY_TRANS_RECIPIENT_INFO structure [Security], PCMSG_KEY_TRANS_RECIPIENT_INFO, PCMSG_KEY_TRANS_RECIPIENT_INFO structure pointer [Security], _CMSG_KEY_TRANS_RECIPIENT_INFO, _crypto2_cmsg_key_trans_recipient_info, security.cmsg_key_trans_recipient_info, wincrypt/CMSG_KEY_TRANS_RECIPIENT_INFO, wincrypt/PCMSG_KEY_TRANS_RECIPIENT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,8 +66,7 @@ Indicates the version of the structure. If <b>RecipientId</b> uses the ISSUER_SE
 
 ### -field RecipientId
 
-
-						A <a href="https://msdn.microsoft.com/9e33f661-c365-4725-8c3f-27b6cdd9a84e">CERT_ID</a> that identifies the recipient. Currently, only ISSUER_SERIAL_NUMBER or KEYID choices in the <b>CERT_ID</b> are valid.
+A <a href="https://msdn.microsoft.com/9e33f661-c365-4725-8c3f-27b6cdd9a84e">CERT_ID</a> that identifies the recipient. Currently, only ISSUER_SERIAL_NUMBER or KEYID choices in the <b>CERT_ID</b> are valid.
 
 
 ### -field KeyEncryptionAlgorithm

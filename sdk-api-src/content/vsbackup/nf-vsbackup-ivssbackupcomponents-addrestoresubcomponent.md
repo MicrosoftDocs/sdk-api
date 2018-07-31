@@ -4,10 +4,10 @@ title: IVssBackupComponents::AddRestoreSubcomponent
 author: windows-sdk-content
 description: Indicates that a subcomponent member of a component set, which had been marked as nonselectable for backup but is marked selectable for restore, is to be restored.
 old-location: base\ivssbackupcomponents_addrestoresubcomponent.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 8eea27d7-6780-49cf-97ea-8876a9a2c8f8
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: AddRestoreSubcomponent, AddRestoreSubcomponent method [VSS], AddRestoreSubcomponent method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddRestoreSubcomponent method, IVssBackupComponents.AddRestoreSubcomponent, IVssBackupComponents::AddRestoreSubcomponent, _win32_ivssbackupcomponents_addrestoresubcomponent, base.ivssbackupcomponents_addrestoresubcomponent, vsbackup/IVssBackupComponents::AddRestoreSubcomponent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -211,8 +211,7 @@ The component does not exist.
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

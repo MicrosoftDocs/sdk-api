@@ -4,10 +4,10 @@ title: "_WLAN_AUTH_CIPHER_PAIR_LIST"
 author: windows-sdk-content
 description: Contains a list of authentication and cipher algorithm pairs.
 old-location: nwifi\wlan_auth_cipher_pair_list.htm
-old-project: nativewifi
+old-project: NativeWiFi
 ms.assetid: 747ee8e6-aafa-42ec-9183-a5a4a2603fc0
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PWLAN_AUTH_CIPHER_PAIR_LIST, PWLAN_AUTH_CIPHER_PAIR_LIST, PWLAN_AUTH_CIPHER_PAIR_LIST structure pointer [NativeWIFI], WLAN_AUTH_CIPHER_PAIR_LIST, WLAN_AUTH_CIPHER_PAIR_LIST structure [NativeWIFI], _WLAN_AUTH_CIPHER_PAIR_LIST, nwifi.wlan_auth_cipher_pair_list, wlanapi/PWLAN_AUTH_CIPHER_PAIR_LIST, wlanapi/WLAN_AUTH_CIPHER_PAIR_LIST"
 ms.prod: windows
 ms.technology: windows-sdk

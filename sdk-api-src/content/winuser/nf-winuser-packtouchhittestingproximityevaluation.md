@@ -7,7 +7,7 @@ old-location: input_touchhittest\packtouchhittestingproximityevaluation.htm
 old-project: Input_TouchHitTest
 ms.assetid: c4061285-2d0f-4404-9b63-bda2ec61b764
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 07/29/2018
 ms.keywords: PackTouchHitTestingProximityEvaluation, PackTouchHitTestingProximityEvaluation function, input_touchhittest.packtouchhittestingproximityevaluation, touch_hittest.packtouchhittestingproximityevaluation, winuser/PackTouchHitTestingProximityEvaluation
 ms.prod: windows
 ms.technology: windows-sdk

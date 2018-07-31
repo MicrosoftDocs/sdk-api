@@ -7,7 +7,7 @@ old-location: gdi\selectobject.htm
 old-project: gdi
 ms.assetid: a89b875e-923d-4048-bc61-8dea132cc56d
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: Bitmap, Brush, Font, Pen, Region, SelectObject, SelectObject function [Windows GDI], _win32_SelectObject, gdi.selectobject, wingdi/SelectObject
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\iamdecodercaps_getdecodercaps.htm
 old-project: DirectShow
 ms.assetid: 727db98f-96a1-4fe1-8315-0280541817c2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetDecoderCaps, GetDecoderCaps method [DirectShow], GetDecoderCaps method [DirectShow],IAMDecoderCaps interface, IAMDecoderCaps interface [DirectShow],GetDecoderCaps method, IAMDecoderCaps.GetDecoderCaps, IAMDecoderCaps::GetDecoderCaps, IAMDecoderCapsGetDecoderCaps, dshow.iamdecodercaps_getdecodercaps, strmif/IAMDecoderCaps::GetDecoderCaps
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,11 @@ Specifies the capability being queried for.
 
 <table>
 <tr>
-<th>
-                  Constant
+<th>Constant
                 </th>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -124,11 +121,9 @@ Receives one of the following values.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

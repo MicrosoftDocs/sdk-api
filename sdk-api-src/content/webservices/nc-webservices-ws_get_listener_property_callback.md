@@ -7,7 +7,7 @@ old-location: wsw\ws_get_listener_property_callback.htm
 old-project: wsw
 ms.assetid: c2f79c5c-4a4f-4a45-ac70-432f818e7b46
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_GET_LISTENER_PROPERTY_CALLBACK, WS_GET_LISTENER_PROPERTY_CALLBACK callback, WS_GET_LISTENER_PROPERTY_CALLBACK callback function [Web Services for Windows], webservices/WS_GET_LISTENER_PROPERTY_CALLBACK, wsw.ws_get_listener_property_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,27 +63,23 @@ Handles the <a href="https://msdn.microsoft.com/cc4fb48a-8282-471a-aed0-1ca3134f
 
 ### -param *listenerInstance [in]
 
-
-                    The pointer to the state specific to this listener instance,
+The pointer to the state specific to this listener instance,
                     as created by the <a href="https://msdn.microsoft.com/2d8e476d-dc68-44b4-b53b-be440a32efda">WS_CREATE_LISTENER_CALLBACK</a>.
                 
 
 
 ### -param id [in]
 
-
-                    The id of the property to retrieve.
+The id of the property to retrieve.
                 
 
-
-                    A custom listener can decide which properties to support.
+A custom listener can decide which properties to support.
                 
 
 
 ### -param *value
 
-
-                    The location to store the retrieved property.
+The location to store the retrieved property.
                     The pointer must have an alignment compatible with the type
                     of the property.
                 
@@ -91,16 +87,14 @@ Handles the <a href="https://msdn.microsoft.com/cc4fb48a-8282-471a-aed0-1ca3134f
 
 ### -param valueSize [in]
 
-
-                    The number of bytes allocated by the caller to
+The number of bytes allocated by the caller to
                     store the retrieved property.
                 
 
 
 ### -param *error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -145,8 +139,7 @@ This function may return other errors not listed above.
 
 
 
-
-                See <a href="https://msdn.microsoft.com/cc4fb48a-8282-471a-aed0-1ca3134f9bd0">WsGetListenerProperty</a> for information about the contract
+See <a href="https://msdn.microsoft.com/cc4fb48a-8282-471a-aed0-1ca3134f9bd0">WsGetListenerProperty</a> for information about the contract
                 of this API.
             
 

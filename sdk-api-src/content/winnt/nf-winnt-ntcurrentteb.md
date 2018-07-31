@@ -7,7 +7,7 @@ old-location: kernel\ntcurrentteb.htm
 old-project: kernel
 ms.assetid: EB68E76F-F838-40B7-AD23-5897321F354F
 ms.author: windowssdkdev
-ms.date: 05/01/2018
+ms.date: 07/29/2018
 ms.keywords: NtCurrentTeb, NtCurrentTeb routine [Kernel-Mode Driver Architecture], kernel.ntcurrentteb, winnt/NtCurrentTeb
 ms.prod: windows
 ms.technology: windows-sdk

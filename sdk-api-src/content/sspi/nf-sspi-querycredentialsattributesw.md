@@ -4,10 +4,10 @@ title: QueryCredentialsAttributesW function
 author: windows-sdk-content
 description: Retrieves the attributes of a credential, such as the name associated with the credential.
 old-location: security\querycredentialsattributes.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: a8ba6f73-8469-431b-b185-183b45b2c533
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: QueryCredentialsAttributes, QueryCredentialsAttributes function [Security], QueryCredentialsAttributesA, QueryCredentialsAttributesW, _ssp_querycredentialsattributes, security.querycredentialsattributes, sspi/QueryCredentialsAttributes, sspi/QueryCredentialsAttributesA, sspi/QueryCredentialsAttributesW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # QueryCredentialsAttributesW function
@@ -250,7 +249,7 @@ The caller must allocate the structure pointed to by the <i>pBuffer</i> paramete
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

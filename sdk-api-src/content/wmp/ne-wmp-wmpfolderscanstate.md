@@ -7,7 +7,7 @@ old-location: wmp\wmpfolderscanstate.htm
 old-project: WMP
 ms.assetid: 20909420-5f90-4334-b21a-82d6cdc6d019
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: WMPFolderScanState, WMPFolderScanState enumeration [Windows Media Player], wmp.wmpfolderscanstate, wmp/WMPFolderScanState, wmp/wmpfssScanning, wmp/wmpfssStopped, wmp/wmpfssUnknown, wmp/wmpfssUpdating, wmpfssScanning, wmpfssStopped, wmpfssUnknown, wmpfssUpdating
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,8 +88,7 @@ Folder monitoring is stopped.
 
 A scanning operation consists of two phases: scanning and updating. During the first phase, Windows Media Player determines which digital media files to add to the library. During the second phase, the Player adds the files. You can determine the current scan state by calling <b>IWMPFolderMonitorServices::get_scanState</b> or by handling the <b>FolderScanStateChange</b> event.
 
-
-          Windows Media Player 10 Mobile: This enumeration is not supported.
+Windows Media Player 10 Mobile: This enumeration is not supported.
 
 
 

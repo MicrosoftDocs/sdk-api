@@ -4,10 +4,10 @@ title: htonl function
 author: windows-sdk-content
 description: The htonl function converts a u_long from host to TCP/IP network byte order (which is big-endian).
 old-location: winsock\htonl_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: e3a18c5e-7efb-43d9-9abc-9d573bbb1923
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "_win32_htonl_2, htonl, htonl function [Winsock], winsock.htonl_2, winsock/htonl"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,8 +69,7 @@ A 32-bit number in host byte order.
 
 
 
-
-						The 
+The 
 <b>htonl</b> function returns the value in TCP/IP's network byte order.
 
 
@@ -86,8 +85,7 @@ The
 The 
 <b>htonl</b> function can be used to convert an IPv4 address in host byte order to the IPv4 address in network byte order. This function does not do any checking to determine if the <i>hostlong</i> parameter is a valid IPv4 address.
 
-The <b>htonl</b>
-			function does not require that the Winsock DLL has previously been loaded with a successful 
+The <b>htonl</b>function does not require that the Winsock DLL has previously been loaded with a successful 
 call to the <a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> function.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

@@ -7,7 +7,7 @@ old-location: wsw\ws_tcp_sspi_transport_security_binding.htm
 old-project: wsw
 ms.assetid: c617f6cf-cedb-4d52-954c-fd4577260ca3
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING, WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING structure [Web Services for Windows], _WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING, webservices/WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING, wsw.ws_tcp_sspi_transport_security_binding
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,6 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 The security binding subtype for specifying the use of the Windows
 Integrated Authentication protocol (such as Kerberos, NTLM or SPNEGO)
 with the TCP transport.  A specific SSP package may be chosen using
@@ -64,14 +63,11 @@ allowed, the security binding property <b>WS_SECURITY_BINDING_PROPERTY_REQUIRE_S
 must be set to <b>FALSE</b>.
             
 
-
 This security binding operates at the transport security level and is
 supported only with the <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_TCP_CHANNEL_BINDING</a>.  The
 TCP/Windows SSPI combination uses the wire form defined by the 
-NegotiateStream
-protocol and the .Net Message Framing specification.
+NegotiateStreamprotocol and the .Net Message Framing specification.
             
-
 
 On the client side, the security identity of the target server is
 specified using the identity field of the <a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-3cd6ae16275f">WS_ENDPOINT_ADDRESS</a> 
@@ -86,7 +82,6 @@ is 'd1', then the form 'host/d1' is used as the server SPN.
 Specifying any other <a href="https://msdn.microsoft.com/59c851b4-6e1a-4144-9742-48d5c094d592">WS_ENDPOINT_IDENTITY</a> subtype in 
 <b>WS_ENDPOINT_ADDRESS</b> will cause <b>WsOpenChannel</b> to fail.
             
-
 
 With this security binding, the following security binding properties may be specified:
 <ul>
@@ -113,13 +108,11 @@ With this security binding, the following security binding properties may be spe
 
 ### -field binding
 
-
 The base type from which this security binding subtype and all other security binding subtypes derive.
                 
 
 
 ### -field clientCredential
-
 
 The Windows Integrated Authentication credential to be used to
 authenticate the client.  This is required on the client and must not

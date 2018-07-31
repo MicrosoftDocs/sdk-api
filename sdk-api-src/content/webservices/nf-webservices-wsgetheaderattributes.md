@@ -7,7 +7,7 @@ old-location: wsw\wsgetheaderattributes.htm
 old-project: wsw
 ms.assetid: 323178d4-6bc9-4b5e-bd3d-b36972720cd7
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetHeaderAttributes, WsGetHeaderAttributes function [Web Services for Windows], webservices/WsGetHeaderAttributes, wsw.wsgetheaderattributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                This function populates a ULONG parameter with  the <a href="https://msdn.microsoft.com/2796253d-3b8d-490d-987d-5bf7cd48c8ea">WS_HEADER_ATTRIBUTES</a> from the header element on which the reader is positioned.  The
+This function populates a ULONG parameter with  the <a href="https://msdn.microsoft.com/2796253d-3b8d-490d-987d-5bf7cd48c8ea">WS_HEADER_ATTRIBUTES</a> from the header element on which the reader is positioned.  The
                 envelope version of the message is used to determine which attributes to return.
             
 
@@ -70,8 +69,7 @@ A  pointer to a <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0cca
 
 ### -param reader [in]
 
-
-          A pointer to the reader to query.  This must be valid WS_XML_READER object returned from <a href="https://msdn.microsoft.com/0d4449aa-ffcc-41d9-99b1-7352edaf3700">WsCreateReader</a>   and cannot be <b>NULL</b>.
+A pointer to the reader to query.  This must be valid WS_XML_READER object returned from <a href="https://msdn.microsoft.com/0d4449aa-ffcc-41d9-99b1-7352edaf3700">WsCreateReader</a>   and cannot be <b>NULL</b>.
         
 
 
@@ -105,7 +103,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -117,7 +114,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -129,7 +125,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -155,8 +150,7 @@ This function may return other errors not listed above.
 
 
 
-
-                The reader is assumed to point to a header element.  Use the XML reader API's to position the reader appropriately.
+The reader is assumed to point to a header element.  Use the XML reader API's to position the reader appropriately.
             
 
 

@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_get_editstart.htm
 old-project: DirectShow
 ms.assetid: 83eb6f22-646c-400a-8adb-5545914656c9
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMExtTransport interface [DirectShow],get_EditStart method, IAMExtTransport.get_EditStart, IAMExtTransport::get_EditStart, IAMExtTransportget_EditStart, dshow.iamexttransport_get_editstart, get_EditStart, get_EditStart method [DirectShow], get_EditStart method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_EditStart
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,11 +71,9 @@ Specifies a pointer to a <b>long</b> integer to receive a value indicating wheth
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

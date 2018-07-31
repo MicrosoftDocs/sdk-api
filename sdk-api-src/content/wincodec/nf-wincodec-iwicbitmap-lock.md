@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmap_lock.htm
 old-project: wic
 ms.assetid: 2ab25a00-c89c-4a2c-8e12-8ce81cc21bca
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWICBitmap interface [Windows Imaging Component],Lock method, IWICBitmap.Lock, IWICBitmap::Lock, Lock, Lock method [Windows Imaging Component], Lock method [Windows Imaging Component],IWICBitmap interface, WICBitmapLockRead, WICBitmapLockWrite, _wic_codec_iwicbitmap_lock, wic._wic_codec_iwicbitmap_lock, wincodec/IWICBitmap::Lock
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,8 +130,7 @@ Locks are exclusive for writing but can be shared for reading. You cannot call <
 
 
 
-
-         	In the following example, an <a href="https://msdn.microsoft.com/15dcc80d-ef58-453d-a57a-348ffc7ddc6b">IWICBitmap</a> is created and the image data is cleared using an <a href="https://msdn.microsoft.com/c0ddbc25-6abe-484b-a545-3b9376c514df">IWICBitmapLock</a>.
+In the following example, an <a href="https://msdn.microsoft.com/15dcc80d-ef58-453d-a57a-348ffc7ddc6b">IWICBitmap</a> is created and the image data is cleared using an <a href="https://msdn.microsoft.com/c0ddbc25-6abe-484b-a545-3b9376c514df">IWICBitmapLock</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

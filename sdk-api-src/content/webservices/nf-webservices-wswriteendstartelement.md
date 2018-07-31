@@ -7,7 +7,7 @@ old-location: wsw\wswriteendstartelement.htm
 old-project: wsw
 ms.assetid: 56bf55f8-978c-4f03-9ace-f992530927c2
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsWriteEndStartElement, WsWriteEndStartElement function [Web Services for Windows], webservices/WsWriteEndStartElement, wsw.wswriteendstartelement
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Forces the writer to commit the current element and prevent further attributes 
+Forces the writer to commit the current element and prevent further attributes 
         from being written to the element.
       
 
@@ -64,15 +63,13 @@ req.product: Windows Address Book 5.0
 
 ### -param writer [in]
 
-
-          The writer for which the current element should be committed.
+The writer for which the current element should be committed.
         
 
 
 ### -param error [in, optional]
 
-
-          Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
         
 
 
@@ -94,7 +91,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -106,7 +102,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>
@@ -118,7 +113,6 @@ The operation is not allowed due to the current state of the object.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -130,7 +124,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -145,13 +138,11 @@ A quota was exceeded.
 
 
 
-
-        Occasionally, it is useful to explicitly force the completion of an element.  This can be used to force the writer
+Occasionally, it is useful to explicitly force the completion of an element.  This can be used to force the writer
         to write a full element and pair.  It also may be useful when obtaining positions when writing to a <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a>.
       
 
-
-        Calling this API when there is no element to commit will cause it to return <b>WS_E_INVALID_OPERATION</b>.
+Calling this API when there is no element to commit will cause it to return <b>WS_E_INVALID_OPERATION</b>.
       (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
 
 

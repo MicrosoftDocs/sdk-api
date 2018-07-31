@@ -7,7 +7,7 @@ old-location: wsw\wscreateheap.htm
 old-project: wsw
 ms.assetid: 459b7146-3b32-4df8-87e1-4ac7ad33ed0e
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCreateHeap, WsCreateHeap function [Web Services for Windows], webservices/WsCreateHeap, wsw.wscreateheap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,15 +88,13 @@ The maximum number of bytes of memory that the heap
 
 ### -param propertyCount [in]
 
-
-                    Reserved for future use; set to 0 (zero). 
+Reserved for future use; set to 0 (zero). 
                 
 
 
 ### -param heap
 
-
-                    On   success, pointer that receives the address of the  <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a> structure representing the new heap object.
+On   success, pointer that receives the address of the  <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a> structure representing the new heap object.
                 
 
 
@@ -121,8 +119,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 
 A heap in Windows Web Services API  is a memory allocation used for <a href="https://msdn.microsoft.com/edc810d9-7d78-4b79-8cbb-e87401f6ae41">messages</a>.  Heaps can also be used to store message data separately from the lifetime of a message. Some API functions allow for  explicit heap control over the lifetime of any data read.
 
-
-                Creating new heap does not allocate any memory (except the memory necessary for  <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a> structure itself). 
+Creating new heap does not allocate any memory (except the memory necessary for  <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a> structure itself). 
                 The parameters <i>maxSize</i> and <i>trimSize</i> are used  as quotas onlyduring <a href="https://msdn.microsoft.com/633b6a11-09ba-48a7-a1ad-940846c65d79">WsAlloc</a> and <a href="https://msdn.microsoft.com/c927ccb9-66c8-4acf-bbb5-12313ea80ee0">WsResetHeap</a> operations.
             
 

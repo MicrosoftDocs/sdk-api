@@ -7,7 +7,7 @@ old-location: winmsg\logicaltophysicalpoint.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\logicaltophysicalpoint.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: LogicalToPhysicalPoint, LogicalToPhysicalPoint function [Windows and Messages], _win32_LogicalToPhysicalPoint, _win32_logicaltophysicalpoint_cpp, winmsg.logicaltophysicalpoint, winui._win32_logicaltophysicalpoint, winuser/LogicalToPhysicalPoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ Windows Vista introduces the concept of physical coordinates. Desktop Window Ma
 
 The <b>LogicalToPhysicalPoint</b> function replaces the logical coordinates in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure with the physical coordinates. The physical coordinates are relative to the upper-left corner of the screen. The coordinates have to be inside the client area of <i>hWnd</i>.
 
-On all platforms, <b>LogicalToPhysicalPoint</b> will fail on a window that has either 0 width or height; an application must first establish a non-0 width and height by calling, for example, <a href="https://msdn.microsoft.com/library/ms633534(v=VS.85).aspx">MoveWindow</a>.  On some versions of Windows (including Windows 7), <b>LogicalToPhysicalPoint</b> will still fail if <b>MoveWindow</b> has been called after a call to <a href="https://msdn.microsoft.com/library/ms633548(v=VS.85).aspx">ShowWindow</a> with <b>SH_HIDE</b> has hidden the window.
+On all platforms, <b>LogicalToPhysicalPoint</b> will fail on a window that has either 0 width or height; an application must first establish a non-0 width and height by calling, for example, <a href="https://msdn.microsoft.com/b844d1a8-a417-43d5-87da-9869990deea4">MoveWindow</a>.  On some versions of Windows (including Windows 7), <b>LogicalToPhysicalPoint</b> will still fail if <b>MoveWindow</b> has been called after a call to <a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a> with <b>SH_HIDE</b> has hidden the window.
 
 In Windows 8, system–DPI aware applications translate between physical and logical space using PhysicalToLogicalPoint and LogicalToPhysicalPoint. In Windows 8.1, the additional virtualization of the system and inter-process communications means that for the majority of applications, you do not need these APIs. As a result, in Windows 8.1, PhysicalToLogicalPoint and LogicalToPhysicalPoint no longer transform points. The system returns all points to an application in its own coordinate space. 
 This behavior preserves functionality for the majority of applications, but there are some exceptions in which you must make changes to ensure that the application works as expected.

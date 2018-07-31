@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice2_setiteminfo.htm
 old-project: WMP
 ms.assetid: 664e3e12-125b-4e11-bab5-44f51650983e
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPSyncDevice2 interface [Windows Media Player],setItemInfo method, IWMPSyncDevice2.setItemInfo, IWMPSyncDevice2::setItemInfo, IWMPSyncDevice2setItemInfo, setItemInfo, setItemInfo method [Windows Media Player], setItemInfo method [Windows Media Player],IWMPSyncDevice2 interface, wmp.iwmpsyncdevice2_setiteminfo, wmp/IWMPSyncDevice2::setItemInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,14 +64,12 @@ The <b>setItemInfo</b> method specifies an attribute value for a device.
 
 ### -param bstrItemName [in]
 
-<b>BSTR</b>
-               specifying the name of the attribute on which to set the new value. For supported attribute names, see Remarks.
+<b>BSTR</b>specifying the name of the attribute on which to set the new value. For supported attribute names, see Remarks.
 
 
 ### -param bstrVal [in]
 
-<b>BSTR</b>
-               specifying the new value. For information about supported values, see Remarks.
+<b>BSTR</b>specifying the new value. For information about supported values, see Remarks.
 
 
 ## -returns
@@ -110,11 +108,9 @@ The following table lists the supported attributes.
 
 <table>
 <tr>
-<th>
-              Attribute
+<th>Attribute
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>

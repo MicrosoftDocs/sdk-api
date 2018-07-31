@@ -4,10 +4,10 @@ title: IRegisteredTask::get_Xml
 author: windows-sdk-content
 description: Gets the XML-formatted registration information for the registered task.
 old-location: taskschd\iregisteredtask_xml.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: cfa85a88-99f5-4c4f-afe8-44b3f27833e5
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],Xml property, IRegisteredTask.Xml, IRegisteredTask.get_Xml, IRegisteredTask::Xml, IRegisteredTask::get_Xml, Xml property [Task Scheduler], Xml property [Task Scheduler],IRegisteredTask interface, get_Xml, taskschd.iregisteredtask_xml, taskschd/IRegisteredTask::Xml, taskschd/IRegisteredTask::get_Xml
 ms.prod: windows
 ms.technology: windows-sdk

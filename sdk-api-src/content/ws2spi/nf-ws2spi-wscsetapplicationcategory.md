@@ -4,10 +4,10 @@ title: WSCSetApplicationCategory function
 author: windows-sdk-content
 description: Sets the permitted layered service provider (LSP) categories associated with an application.
 old-location: winsock\wscsetapplicationcategory.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 266c9424-f6ab-4630-843d-bc0833d74e4f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: WSCSetApplicationCategory, WSCSetApplicationCategory function [Winsock], winsock.wscsetapplicationcategory, ws2spi/WSCSetApplicationCategory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,7 @@ If no error occurs, <b>WSCSetApplicationCategory</b> returns <b>ERROR_SUCCESS</b
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -120,7 +120,7 @@ One or more of the arguments is not in a valid part of the user address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -131,7 +131,7 @@ One or more of the arguments are invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANO_RECOVERY</a></b></dt>
 </dl>
 </td>
 <td width="60%">

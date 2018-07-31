@@ -4,10 +4,10 @@ title: WPUPostMessage function
 author: windows-sdk-content
 description: The WPUPostMessage function performs the standard Windows PostMessage function in a way that maintains backward compatibility with older versions of WSOCK32.dll.
 old-location: winsock\wpupostmessage_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: f4241941-c39f-441e-aad4-b84f2f8ed828
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: WPUPostMessage, WPUPostMessage function [Winsock], _win32_wpupostmessage_2, winsock.wpupostmessage_2, ws2spi/WPUPostMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,8 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
-<b>WPUPostMessage</b> function performs the standard Windows <a href="https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx">PostMessage</a> function in a way that maintains backward compatibility with older versions of WSOCK32.dll.
+The 
+<b>WPUPostMessage</b> function performs the standard Windows <a href="_win32_postmessage_cpp">PostMessage</a> function in a way that maintains backward compatibility with older versions of WSOCK32.dll.
 
 
 ## -parameters
@@ -85,8 +84,7 @@ Second parameter containing additional message-specific information.
 
 
 
-
-						If no error occurs, 
+If no error occurs, 
 <b>WPUPostMessage</b> returns the <b>TRUE</b> value. Otherwise, the <b>FALSE</b> value is returned.
 
 

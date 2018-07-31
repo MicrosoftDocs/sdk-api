@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisualbrush_setvisuallookup.htm
 old-project: printdocs
 ms.assetid: ab98d93c-76fe-477b-9032-c54c0e22a176
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMVisualBrush interface [XPS Documents and Packaging],SetVisualLookup method, IXpsOMVisualBrush.SetVisualLookup, IXpsOMVisualBrush::SetVisualLookup, SetVisualLookup, SetVisualLookup method [XPS Documents and Packaging], SetVisualLookup method [XPS Documents and Packaging],IXpsOMVisualBrush interface, xps.ixpsomvisualbrush_setvisuallookup, xpsobjectmodel/IXpsOMVisualBrush::SetVisualLookup
 ms.prod: windows
 ms.technology: windows-sdk

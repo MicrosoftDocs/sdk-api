@@ -4,10 +4,10 @@ title: "_VDS_VOLUME_PLEX_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a volume plex.
 old-location: base\vds_volume_plex_status.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 2e382a68-876a-4287-a7df-d7eadd8ce037
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: VDS_VOLUME_PLEX_STATUS, VDS_VOLUME_PLEX_STATUS enumeration [VDS], VDS_VPS_FAILED, VDS_VPS_NO_MEDIA, VDS_VPS_ONLINE, VDS_VPS_UNKNOWN, _VDS_VOLUME_PLEX_STATUS, base.vds_volume_plex_status, vds/VDS_VOLUME_PLEX_STATUS, vds/VDS_VPS_FAILED, vds/VDS_VPS_NO_MEDIA, vds/VDS_VPS_ONLINE, vds/VDS_VPS_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ The volume plex is unavailable.
 
 
 
-The  <a href="https://msdn.microsoft.com/225cdc5e-045b-407f-b383-8f92025fbbd6">VDS_VOLUME_PLEX_PROP</a>
-      structure includes a <b>VDS_VOLUME_PLEX_STATUS</b> value as a member to indicate the status of a volume plex.
+The  <a href="https://msdn.microsoft.com/225cdc5e-045b-407f-b383-8f92025fbbd6">VDS_VOLUME_PLEX_PROP</a>structure includes a <b>VDS_VOLUME_PLEX_STATUS</b> value as a member to indicate the status of a volume plex.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_VOLUME_PLEX_STATUS</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_VOLUME_PLEX_STATUS</b> enumeration constant.</div>
 <div> </div>
@@ -102,8 +101,7 @@ The  <a href="https://msdn.microsoft.com/225cdc5e-045b-407f-b383-8f92025fbbd6">V
 
 
 
-<a href="https://msdn.microsoft.com/225cdc5e-045b-407f-b383-8f92025fbbd6">
-        VDS_VOLUME_PLEX_PROP</a>
+<a href="https://msdn.microsoft.com/225cdc5e-045b-407f-b383-8f92025fbbd6">VDS_VOLUME_PLEX_PROP</a>
  
 
  

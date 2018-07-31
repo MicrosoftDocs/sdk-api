@@ -7,7 +7,7 @@ old-location: dshow\vmrmonitorinfo.htm
 old-project: DirectShow
 ms.assetid: 87567836-c01e-4615-a8e7-9ca590b6f7c9
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: VMRMONITORINFO, VMRMONITORINFO structure [DirectShow], VMRMONITORINFOStructure, dshow.vmrmonitorinfo, strmif/VMRMONITORINFO, tagVMRMONITORINFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ The <code>VMRMONITORINFO</code> structure is used in the <a href="https://msdn.m
 
 ### -field guid
 
-
-              A <a href="https://msdn.microsoft.com/e05d986a-c044-47c9-8430-7190ad29c7ec">VMRGUID</a> structure that specifies the monitor.
+A <a href="https://msdn.microsoft.com/e05d986a-c044-47c9-8430-7190ad29c7ec">VMRGUID</a> structure that specifies the monitor.
 
 
 ### -field rcMonitor
@@ -81,22 +80,19 @@ A handle to the monitor.
 
 ### -field dwFlags
 
-
-            Flags as defined for the <a href="https://msdn.microsoft.com/f296ce29-3fc8-41c9-a201-56e222aa2219">MONITORINFOEX</a> structure. Currently the only valid flag is <b>MONITORINFOF_PRIMARY</b>, which indicates the primary display monitor.
+Flags as defined for the <a href="https://msdn.microsoft.com/f296ce29-3fc8-41c9-a201-56e222aa2219">MONITORINFOEX</a> structure. Currently the only valid flag is <b>MONITORINFOF_PRIMARY</b>, which indicates the primary display monitor.
           
 
 
 ### -field szDevice
 
-
-            Null-terminated string containing the device name.
+Null-terminated string containing the device name.
           
 
 
 ### -field szDescription
 
-
-            Null-terminated string containing the device description.
+Null-terminated string containing the device description.
           
 
 

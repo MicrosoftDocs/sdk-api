@@ -7,7 +7,7 @@ old-location: uianimation\ui_animation_slope.htm
 old-project: UIAnimation
 ms.assetid: 17076489-4b66-44ae-87ac-39b02da0b542
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: UI_ANIMATION_SLOPE, UI_ANIMATION_SLOPE enumeration [Windows Animation], UI_ANIMATION_SLOPE_DECREASING, UI_ANIMATION_SLOPE_INCREASING, __MIDL___MIDL_itf_UIAnimation_0000_0009_0001, uianimation.ui_animation_slope, uianimation/UI_ANIMATION_SLOPE, uianimation/UI_ANIMATION_SLOPE_DECREASING, uianimation/UI_ANIMATION_SLOPE_INCREASING
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-         Defines animation slope characteristics.
+Defines animation slope characteristics.
 
 
 ## -enum-fields
@@ -62,14 +61,12 @@ req.product: Windows XP with SP1 and later
 
 ### -field UI_ANIMATION_SLOPE_INCREASING
 
-
-               An increasing slope.
+An increasing slope.
 
 
 ### -field UI_ANIMATION_SLOPE_DECREASING
 
-
-               A decreasing slope.
+A decreasing slope.
 
 
 ## -see-also
@@ -77,8 +74,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-<a href="https://msdn.microsoft.com/7164bcac-3de3-4b52-8eb3-d38156573feb">
-         IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange</a>
+<a href="https://msdn.microsoft.com/7164bcac-3de3-4b52-8eb3-d38156573feb">IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange</a>
  
 
  

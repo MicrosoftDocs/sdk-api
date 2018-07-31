@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_releasebuffer.htm
 old-project: DirectShow
 ms.assetid: 2170cf7e-85c8-4658-84fd-96ebc0d2704f
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMVideoAccelerator interface [DirectShow],ReleaseBuffer method, IAMVideoAccelerator.ReleaseBuffer, IAMVideoAccelerator::ReleaseBuffer, IAMVideoAcceleratorReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [DirectShow], ReleaseBuffer method [DirectShow],IAMVideoAccelerator interface, dshow.iamvideoaccelerator_releasebuffer, videoacc/IAMVideoAccelerator::ReleaseBuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ The <b>ReleaseBuffer</b> method releases a buffer that was locked by a previous 
 
 ### -param dwTypeIndex [in]
 
-
-            The surface type of the buffer. Use the same value that was passed to the <i>dwTypeIndex</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a> method.
+The surface type of the buffer. Use the same value that was passed to the <i>dwTypeIndex</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a> method.
 
 
 ### -param dwBufferIndex [in]
@@ -173,8 +172,7 @@ The pins on the decoder and video renderer filters are not connected.
 
 
 
-
-        If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTED</b>.
+If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTED</b>.
 
 This method unlocks a single buffer. The video decoder calls this method when the buffer is no longer required, after any calls to <a href="https://msdn.microsoft.com/12794739-9120-4dc1-b95d-6d390d25726b">IAMVideoAccelerator::Execute</a> have been made using that buffer.
 

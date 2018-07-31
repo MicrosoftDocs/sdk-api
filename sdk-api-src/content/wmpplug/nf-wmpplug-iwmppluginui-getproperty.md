@@ -7,7 +7,7 @@ old-location: wmp\iwmppluginui_getproperty.htm
 old-project: WMP
 ms.assetid: f01d0700-2399-4e33-8a0c-59bb1f0f2495
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: GetProperty, GetProperty method [Windows Media Player], GetProperty method [Windows Media Player],IWMPPluginUI interface, IWMPPluginUI interface [Windows Media Player],GetProperty method, IWMPPluginUI.GetProperty, IWMPPluginUI::GetProperty, IWMPPluginUIGetProperty, wmp.iwmppluginui_getproperty, wmpplug/IWMPPluginUI::GetProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,66 +78,53 @@ Pointer to a <b>WCHAR</b><b>NULL</b>-terminated string constant containing the n
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
-<td>
-                  PLUGIN_MISC_CURRENTPRESET = L"CurrentPreset"</td>
+<td>PLUGIN_MISC_CURRENTPRESET = L"CurrentPreset"</td>
 <td>The out parameter is set to a <b>Long</b> (<b>VT_I4</b>) value containing the index of the current preset. This property is requested only for plug-ins that have presets.</td>
 </tr>
 <tr>
-<td>
-                  PLUGIN_MISC_PRESETCOUNT = L"PresetCount"</td>
+<td>PLUGIN_MISC_PRESETCOUNT = L"PresetCount"</td>
 <td>The out parameter is set to a <b>Long</b> (<b>VT_I4</b>) value indicating the number of presets available in the plug-in. This property is requested only for plug-ins that have presets.</td>
 </tr>
 <tr>
-<td>
-                  PLUGIN_MISC_PRESETNAMES = L"PresetNames"</td>
+<td>PLUGIN_MISC_PRESETNAMES = L"PresetNames"</td>
 <td>The out parameter is set to an array of <b>BSTR</b> (<b>VT_ARRAY</b> | <b>BSTR</b>) values containing the names of the presets. This property is requested only for plug-ins that have presets.</td>
 </tr>
 <tr>
-<td>
-                  PLUGIN_MISC_QUERYDESTROY = L"QueryDestroy"</td>
+<td>PLUGIN_MISC_QUERYDESTROY = L"QueryDestroy"</td>
 <td>The out parameter is set to a <b>BSTR</b> (<b>VT_BSTR</b>) value that is displayed to the user when Windows Media Player attempts to close a separate window or background plug-in that is engaged in operations that cannot be interrupted.</td>
 </tr>
 <tr>
-<td>
-                  PLUGIN_SEPARATEWINDOW_DEFAULTHEIGHT = L"DefaultHeight"</td>
+<td>PLUGIN_SEPARATEWINDOW_DEFAULTHEIGHT = L"DefaultHeight"</td>
 <td>The out parameter is set to a <b>Long</b> (<b>VT_I4</b>) value indicating the desired default opening height of the plug-in window. This property is requested only for plug-ins in separate windows.</td>
 </tr>
 <tr>
-<td>
-                  PLUGIN_SEPARATEWINDOW_DEFAULTWIDTH = L"DefaultWidth"</td>
+<td>PLUGIN_SEPARATEWINDOW_DEFAULTWIDTH = L"DefaultWidth"</td>
 <td>The out parameter is set to a <b>Long</b> (<b>VT_I4</b>) value indicating the desired default opening width of the plug-in window. This property is requested only for plug-ins in separate windows.</td>
 </tr>
 <tr>
-<td>
-                  PLUGIN_SEPARATEWINDOW_MAXHEIGHT = L"MaxHeight"</td>
+<td>PLUGIN_SEPARATEWINDOW_MAXHEIGHT = L"MaxHeight"</td>
 <td>The out parameter is set to a <b>Long</b> (<b>VT_I4</b>) value indicating the desired maximum height of the plug-in window. This property is requested only for plug-ins in separate, resizable windows.</td>
 </tr>
 <tr>
-<td>
-                  PLUGIN_SEPARATEWINDOW_MAXWIDTH = L"MaxWidth"</td>
+<td>PLUGIN_SEPARATEWINDOW_MAXWIDTH = L"MaxWidth"</td>
 <td>The out parameter is set to a <b>Long</b> (<b>VT_I4</b>) value indicating the desired maximum width of the plug-in window. This property is requested only for plug-ins in separate, resizable windows.</td>
 </tr>
 <tr>
-<td>
-                  PLUGIN_SEPARATEWINDOW_MINHEIGHT = L"MinHeight"</td>
+<td>PLUGIN_SEPARATEWINDOW_MINHEIGHT = L"MinHeight"</td>
 <td>The out parameter is set to a <b>Long</b> (<b>VT_I4</b>) value indicating the desired minimum height of the plug-in window. This property is requested only for plug-ins in separate, resizable windows.</td>
 </tr>
 <tr>
-<td>
-                  PLUGIN_SEPARATEWINDOW_MINWIDTH = L"MinWidth"</td>
+<td>PLUGIN_SEPARATEWINDOW_MINWIDTH = L"MinWidth"</td>
 <td>The out parameter is set to a <b>Long</b> (<b>VT_I4</b>) value indicating the desired minimum width of the plug-in window. This property is requested only for plug-ins in separate, resizable windows.</td>
 </tr>
 <tr>
-<td>
-                  PLUGIN_SEPARATEWINDOW_RESIZABLE = L"Resizable"</td>
+<td>PLUGIN_SEPARATEWINDOW_RESIZABLE = L"Resizable"</td>
 <td>The out parameter is set to a <b>Boolean</b> (<b>VT_BOOL</b>) value that indicates whether the plug-in window is resizable. This property is requested only for plug-ins in separate windows.</td>
 </tr>
 </table>

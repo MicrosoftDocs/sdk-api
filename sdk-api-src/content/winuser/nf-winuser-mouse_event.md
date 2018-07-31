@@ -7,7 +7,7 @@ old-location: inputdev\mouse_event.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\mouse_event.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: MOUSEEVENTF_ABSOLUTE, MOUSEEVENTF_HWHEEL, MOUSEEVENTF_LEFTDOWN, MOUSEEVENTF_LEFTUP, MOUSEEVENTF_MIDDLEDOWN, MOUSEEVENTF_MIDDLEUP, MOUSEEVENTF_MOVE, MOUSEEVENTF_RIGHTDOWN, MOUSEEVENTF_RIGHTUP, MOUSEEVENTF_WHEEL, MOUSEEVENTF_XDOWN, MOUSEEVENTF_XUP, XBUTTON1, XBUTTON2, _win32_mouse_event, _win32_mouse_event_cpp, inputdev.mouse_event, mouse_event, mouse_event function [Keyboard and Mouse Input], winui._win32_mouse_event, winuser/mouse_event
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 The <b>mouse_event</b> function synthesizes mouse motion and button clicks.
-<div class="alert"><b>Note</b>  This function has been superseded. Use <a href="https://msdn.microsoft.com/library/ms646310(v=VS.85).aspx">SendInput</a> instead.</div><div> </div>
+<div class="alert"><b>Note</b>  This function has been superseded. Use <a href="https://msdn.microsoft.com/7f87edd0-b846-4a85-93c8-9a2eeda7b6ac">SendInput</a> instead.</div><div> </div>
 
 ## -parameters
 
@@ -167,8 +167,7 @@ The right button is up.
 </dl>
 </td>
 <td width="60%">
-
-						 The wheel has been moved, if the mouse has a wheel. The amount of movement is specified in 
+The wheel has been moved, if the mouse has a wheel. The amount of movement is specified in 
 						<i>dwData</i>
 
 </td>
@@ -191,8 +190,7 @@ An X button was pressed.
 </dl>
 </td>
 <td width="60%">
-
-						 An X button was released.
+An X button was released.
 
 </td>
 </tr>
@@ -251,13 +249,10 @@ If
 					<i>dwFlags</i> contains <b>MOUSEEVENTF_WHEEL</b>, then 
 					<i>dwData</i> specifies the amount of wheel movement. A positive value indicates that the wheel was rotated forward, away from the user; a negative value indicates that the wheel was rotated backward, toward the user. One wheel click is defined as <b>WHEEL_DELTA</b>, which is 120. 
 
-
-          
-          If <i>dwFlags</i> contains <b>MOUSEEVENTF_HWHEEL</b>, then 
+If <i>dwFlags</i> contains <b>MOUSEEVENTF_HWHEEL</b>, then 
 					<i>dwData</i> specifies the amount of wheel movement. A positive value indicates that the wheel was tilted to the right; a negative value indicates that the wheel was tilted to the left.
 
-
-						 If 
+If 
 						<i>dwFlags</i> contains <b>MOUSEEVENTF_XDOWN</b> or <b>MOUSEEVENTF_XUP</b>, then 
 						<i>dwData</i> specifies which X buttons were pressed or released. This value may be any combination of the following flags. 
 
@@ -300,7 +295,7 @@ Set if the second X button was pressed or released.
 
 Type: <b>ULONG_PTR</b>
 
-An additional value associated with the mouse event. An application calls <a href="https://msdn.microsoft.com/library/ms644937(v=VS.85).aspx">GetMessageExtraInfo</a> to obtain this extra information. 
+An additional value associated with the mouse event. An application calls <a href="https://msdn.microsoft.com/c2b978b4-165b-44a0-8091-580e82f7e310">GetMessageExtraInfo</a> to obtain this extra information. 
 
 
 ## -returns
@@ -349,11 +344,11 @@ The <b>mouse_event</b> function is used to synthesize mouse events by applicatio
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644937(v=VS.85).aspx">GetMessageExtraInfo</a>
+<a href="https://msdn.microsoft.com/c2b978b4-165b-44a0-8091-580e82f7e310">GetMessageExtraInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
 
 
 

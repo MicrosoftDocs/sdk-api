@@ -4,10 +4,10 @@ title: CryptEncodeObjectEx function
 author: windows-sdk-content
 description: Encodes a structure of the type indicated by the value of the lpszStructType parameter.
 old-location: security\cryptencodeobjectex.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 45134db8-059b-43d3-90c2-9b6cc970fca0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CRYPT_ENCODE_ALLOC_FLAG, CRYPT_ENCODE_ENABLE_PUNYCODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_DISABLE_CHECK_TYPE_FLAG, CRYPT_UNICODE_NAME_ENCODE_ENABLE_T61_UNICODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_ENABLE_UTF8_UNICODE_FLAG, CRYPT_UNICODE_NAME_ENCODE_FORCE_UTF8_UNICODE_FLAG, CryptEncodeObjectEx, CryptEncodeObjectEx function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_cryptencodeobjectex, security.cryptencodeobjectex, wincrypt/CryptEncodeObjectEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CryptEncodeObjectEx</b> function encodes a structure of the type indicated by the value of the <i>lpszStructType</i> parameter. This function offers a significant performance improvement over 
+The <b>CryptEncodeObjectEx</b> function encodes a structure of the type indicated by the value of the <i>lpszStructType</i> parameter. This function offers a significant performance improvement over 
 <a href="https://msdn.microsoft.com/9576a2a7-4379-4c1b-8ad5-284720cf7ccc">CryptEncodeObject</a> by supporting memory allocation with the <b>CRYPT_ENCODE_ALLOC_FLAG</b> value.
 
 
@@ -514,7 +513,7 @@ if(pbEncoded)
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Object Encoding and Decoding Functions</a>
+<a href="cryptography_functions.htm">Object Encoding and Decoding Functions</a>
  
 
  

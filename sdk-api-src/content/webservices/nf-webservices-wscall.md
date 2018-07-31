@@ -7,7 +7,7 @@ old-location: wsw\wscall.htm
 old-project: wsw
 ms.assetid: 300d25b7-6742-4bed-9786-6c599981ec22
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCall, WsCall function [Web Services for Windows], webservices/WsCall, wsw.wscall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                Used internally by the <a href="https://msdn.microsoft.com/e1a5bf5e-dbc1-43e3-981b-7db4caa08bdc">service proxy</a>  to format the specified arguments according to the specified metadata and send them in a message. The application should 
+Used internally by the <a href="https://msdn.microsoft.com/e1a5bf5e-dbc1-43e3-981b-7db4caa08bdc">service proxy</a>  to format the specified arguments according to the specified metadata and send them in a message. The application should 
                 never call this function directly.
 
 
@@ -66,40 +65,34 @@ req.product: Windows Address Book 5.0
 
 ### -param serviceProxy [in]
 
-
-               Pointer to a WS_SERVICE_PROXY structure representing the service proxy.
+Pointer to a WS_SERVICE_PROXY structure representing the service proxy.
             
 
 
 ### -param operation [in]
 
-
-                   Pointer to a <a href="https://msdn.microsoft.com/d05b55aa-4159-4e48-ae75-2af36c0a7101">WS_OPERATION_DESCRIPTION</a> structure containing the metadata for the call. 
+Pointer to a <a href="https://msdn.microsoft.com/d05b55aa-4159-4e48-ae75-2af36c0a7101">WS_OPERATION_DESCRIPTION</a> structure containing the metadata for the call. 
                 
 
 
 ### -param arguments [in, optional]
 
+An array of pointers to the individual arguments for the service operation being represented by the <i>operation</i> parameter.
 
-                   An array of pointers to the individual arguments for the service operation being represented by the <i>operation</i> parameter.
-
-
-                   The number of elements must correspond to the number of parameters specified as part of WS_OPERATION_DESCRIPTION in
+The number of elements must correspond to the number of parameters specified as part of WS_OPERATION_DESCRIPTION in
                    the operation parameter.
                 
 
 
 ### -param heap [in]
 
-
-                    Pointer to a <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a> structure representing the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926854">heap</a> from which memory is allocated for the call.
+Pointer to a <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a> structure representing the <a href="https://msdn.microsoft.com/library/windows/hardware/dn926854">heap</a> from which memory is allocated for the call.
                 
 
 
 ### -param callProperties
 
-
-                   An array of <a href="https://msdn.microsoft.com/2ab778b2-c6d0-41ea-aa3a-a6c16c87a9e9">WS_CALL_PROPERTY</a> structures containing the call properties.
+An array of <a href="https://msdn.microsoft.com/2ab778b2-c6d0-41ea-aa3a-a6c16c87a9e9">WS_CALL_PROPERTY</a> structures containing the call properties.
                 
 
 
@@ -116,8 +109,7 @@ Pointer to information for invoking the function asynchronously. Pass <b>NULL</b
 
 ### -param error [in, optional]
 
-
-                    Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
                 
 
 
@@ -139,7 +131,6 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>
@@ -151,7 +142,6 @@ The operation is not allowed due to the current state of the object.
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -163,7 +153,6 @@ A quota was exceeded.
 </dl>
 </td>
 <td width="60%">
-
 The operation was abandoned.
 
 </td>
@@ -175,7 +164,6 @@ The operation was abandoned.
 </dl>
 </td>
 <td width="60%">
-
 The operation did not complete within the time allotted.
 
 </td>
@@ -187,7 +175,6 @@ The operation did not complete within the time allotted.
 </dl>
 </td>
 <td width="60%">
-
 Insufficient memory to complete the operation.
 
 </td>
@@ -199,7 +186,6 @@ Insufficient memory to complete the operation.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -211,8 +197,7 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
-                    The asynchronous operation is still pending.
+The asynchronous operation is still pending.
                 
 
 </td>

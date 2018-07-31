@@ -7,7 +7,7 @@ old-location: wsw\wsmovewriter.htm
 old-project: wsw
 ms.assetid: f8eace53-9fa5-466a-8894-3c8b8fe049e3
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsMoveWriter, WsMoveWriter function [Web Services for Windows], webservices/WsMoveWriter, wsw.wsmovewriter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Moves the current position of the writer as specified by the moveTo parameter.
+Moves the current position of the writer as specified by the moveTo parameter.
       
 
 
@@ -63,33 +62,28 @@ req.product: Windows Address Book 5.0
 
 ### -param writer [in]
 
-
-          The writer to move.
+The writer to move.
         
 
 
 ### -param moveTo [in]
 
-
-          The relative position to move the writer.
+The relative position to move the writer.
         
 
 
 ### -param found
 
-
-          If this is non-<b>NULL</b>, then whether or not the new position could be moved to is returned here.
+If this is non-<b>NULL</b>, then whether or not the new position could be moved to is returned here.
         
 
-
-          If this is <b>NULL</b>, and the position could not be moved to, then the function will return <b>WS_E_INVALID_FORMAT</b>.
+If this is <b>NULL</b>, and the position could not be moved to, then the function will return <b>WS_E_INVALID_FORMAT</b>.
         (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.) 
 
 
 ### -param error [in, optional]
 
-
-          Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
         
 
 
@@ -111,7 +105,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -123,7 +116,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 The operation is not allowed due to the current state of the object.
 
 </td>
@@ -135,7 +127,6 @@ The operation is not allowed due to the current state of the object.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -150,21 +141,17 @@ The input data was not in the expected format or did not have the expected value
 
 
 
-
-        This can only be used on a writer that is set to an <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a>.
+This can only be used on a writer that is set to an <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a>.
       
 
-
-        If the found parameter is not <b>NULL</b>, then it will indicate there whether or not it could
+If the found parameter is not <b>NULL</b>, then it will indicate there whether or not it could
         move to the requested node and return NOERROR.
       
 
-
-        If the found parameter is <b>NULL</b>, and the requested node is not found, it will return <b>WS_E_INVALID_FORMAT</b>.
+If the found parameter is <b>NULL</b>, and the requested node is not found, it will return <b>WS_E_INVALID_FORMAT</b>.
       
 
-
-        Once positioned, the writer will then insert new data before the position specified.
+Once positioned, the writer will then insert new data before the position specified.
       
 
 

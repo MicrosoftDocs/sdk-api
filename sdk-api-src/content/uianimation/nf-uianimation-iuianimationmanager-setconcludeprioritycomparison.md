@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager_setconcludeprioritycomparison.htm
 old-project: UIAnimation
 ms.assetid: 00a3d7e4-7ad2-46a8-a9c2-0e725005c00b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],SetConcludePriorityComparison method, IUIAnimationManager.SetConcludePriorityComparison, IUIAnimationManager::SetConcludePriorityComparison, SetConcludePriorityComparison, SetConcludePriorityComparison method [Windows Animation], SetConcludePriorityComparison method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_setconcludeprioritycomparison, uianimation/IUIAnimationManager::SetConcludePriorityComparison
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Sets the priority comparison handler to be called to determine whether a scheduled storyboard can be concluded.
+Sets the priority comparison handler to be called to determine whether a scheduled storyboard can be concluded.
 
 
 ## -parameters
@@ -62,9 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param comparison [in, optional]
 
-
-             
-               The priority comparison handler for conclusion. The specified object must implement the <a href="https://msdn.microsoft.com/65311cf0-f8d4-4d2c-bd4d-585ae5d921df">IUIAnimationPriorityComparison</a> interface or be <b>NULL</b>.
+The priority comparison handler for conclusion. The specified object must implement the <a href="https://msdn.microsoft.com/65311cf0-f8d4-4d2c-bd4d-585ae5d921df">IUIAnimationPriorityComparison</a> interface or be <b>NULL</b>.
             See Remarks.
 
 
@@ -72,8 +69,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-
-            If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
+If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
 
 
 
@@ -100,18 +96,15 @@ Passing <b>NULL</b> for the <i>comparison</i> parameter causes Windows Animation
 
 
 
-<a href="https://msdn.microsoft.com/cea146d1-4a9c-4089-8015-ac16602f5afd">
-      IUIAnimationManager::SetCancelPriorityComparison</a>
+<a href="https://msdn.microsoft.com/cea146d1-4a9c-4089-8015-ac16602f5afd">IUIAnimationManager::SetCancelPriorityComparison</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf2a7782-3541-483e-8d5e-3e82693f103c">
-      IUIAnimationManager::SetCompressPriorityComparison</a>
+<a href="https://msdn.microsoft.com/bf2a7782-3541-483e-8d5e-3e82693f103c">IUIAnimationManager::SetCompressPriorityComparison</a>
 
 
 
-<a href="https://msdn.microsoft.com/f4c81cc4-4c00-4f78-819d-55f79972fe46">
-      IUIAnimationManager::SetTrimPriorityComparison</a>
+<a href="https://msdn.microsoft.com/f4c81cc4-4c00-4f78-819d-55f79972fe46">IUIAnimationManager::SetTrimPriorityComparison</a>
 
 
 

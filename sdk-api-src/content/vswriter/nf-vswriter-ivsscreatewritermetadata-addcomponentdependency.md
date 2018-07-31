@@ -4,10 +4,10 @@ title: IVssCreateWriterMetadata::AddComponentDependency
 author: windows-sdk-content
 description: The AddComponentDependency method allows a writer to indicate that a component it manages has an explicit writer-component dependency; that is, another component in another writer must be backed up and restored with it.
 old-location: base\ivsscreatewritermetadata_addcomponentdependency.htm
-old-project: vss
+old-project: VSS
 ms.assetid: cc6c8ab6-3706-4c75-ba31-cc8c1dc4dd06
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: AddComponentDependency, AddComponentDependency method [VSS], AddComponentDependency method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddComponentDependency method, IVssCreateWriterMetadata.AddComponentDependency, IVssCreateWriterMetadata::AddComponentDependency, _win32_ivsscreatewritermetadata_addcomponentdependency, base.ivsscreatewritermetadata_addcomponentdependency, vswriter/IVssCreateWriterMetadata::AddComponentDependency
 ms.prod: windows
 ms.technology: windows-sdk
@@ -161,8 +161,7 @@ The component specified by <i>wszForLogicalPath</i> and <i>wszForComponentName</
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

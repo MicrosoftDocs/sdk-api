@@ -4,10 +4,10 @@ title: RtlFreeUnicodeString function
 author: windows-sdk-content
 description: Frees the string buffer allocated by RtlAnsiStringToUnicodeString or by RtlUpcaseUnicodeString.
 old-location: winprog\rtlfreeunicodestring.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlfreeunicodestring.htm
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: RtlFreeUnicodeString, RtlFreeUnicodeString function [Windows API], winprog.rtlfreeunicodestring, winternl/RtlFreeUnicodeString, winui.rtlfreeunicodestring
 ms.prod: windows
 ms.technology: windows-sdk

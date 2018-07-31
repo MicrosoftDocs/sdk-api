@@ -7,7 +7,7 @@ old-location: gdi\getwindowrgn.htm
 old-project: gdi
 ms.assetid: c8a8fa46-354b-489e-b016-fd2e728958ce
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetWindowRgn, GetWindowRgn function [Windows GDI], _win32_GetWindowRgn, gdi.getwindowrgn, winuser/GetWindowRgn
 ms.prod: windows
 ms.technology: windows-sdk

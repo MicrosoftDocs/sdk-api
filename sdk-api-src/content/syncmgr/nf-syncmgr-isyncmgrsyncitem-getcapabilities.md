@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItem_GetCapabilities.htm
 old-project: shell
 ms.assetid: 6cb98b83-cf17-451c-ba29-700408f474c7
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: GetCapabilities, GetCapabilities method [Windows Shell], GetCapabilities method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetCapabilities method, ISyncMgrSyncItem.GetCapabilities, ISyncMgrSyncItem::GetCapabilities, _shell_ISyncMgrSyncItem_GetCapabilities, shell.ISyncMgrSyncItem_GetCapabilities, syncmgr/ISyncMgrSyncItem::GetCapabilities
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,8 +88,7 @@ This method is called by Sync Center in response to a call to <a href="https://m
 
 
 
-
-        	The following example shows an implementation of this method.
+The following example shows an implementation of this method.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

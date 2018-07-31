@@ -7,7 +7,7 @@ old-location: gdi\rgb.htm
 old-project: gdi
 ms.assetid: e1dcb5f8-c026-4a4e-8541-928a057bf0ae
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: RGB, RGB macro [Windows GDI], _win32_RGB, gdi.rgb, wingdi/RGB
 ms.prod: windows
 ms.technology: windows-sdk

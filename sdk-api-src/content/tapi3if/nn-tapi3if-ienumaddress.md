@@ -4,10 +4,10 @@ title: IEnumAddress
 author: windows-sdk-content
 description: The IEnumAddress interface provides COM-standard enumeration methods for the ITAddress interface. The ITTAPI::EnumerateAddresses and ITAgentHandler::EnumerateUsableAddresses methods return a pointer to IEnumAddress.
 old-location: tapi3\ienumaddress.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: bfe9f12e-ceb7-4120-8193-70feb2bc7c85
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: IEnumAddress, IEnumAddress interface [TAPI 2.2], IEnumAddress interface [TAPI 2.2],described, _tapi3_ienumaddress, tapi3.ienumaddress, tapi3if/IEnumAddress
 ms.prod: windows
 ms.technology: windows-sdk

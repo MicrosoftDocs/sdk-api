@@ -4,10 +4,10 @@ title: IOCTL_CHANGER_REINITIALIZE_TRANSPORT
 author: windows-sdk-content
 description: Physically recalibrates a transport element. Recalibration may involve returning the transport to its home position.
 old-location: base\ioctl_changer_reinitialize_transport.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 0745ee19-34f3-44c8-a52d-fb47448f0084
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_CHANGER_REINITIALIZE_TRANSPORT, IOCTL_CHANGER_REINITIALIZE_TRANSPORT control, IOCTL_CHANGER_REINITIALIZE_TRANSPORT control code, _win32_ioctl_changer_reinitialize_transport, base.ioctl_changer_reinitialize_transport, winioctl/IOCTL_CHANGER_REINITIALIZE_TRANSPORT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,15 +61,11 @@ To perform this operation, call the
 </tr>
 <tr>
 <td>
-<pre>
-BOOL DeviceIoControl(
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,                     // handle to device
-  IOCTL_CHANGER_REINITIALIZE_TRANSPORT, // dwIoControlCode
-  (LPVOID) lpInBuffer,                  // input buffer
+  IOCTL_CHANGER_REINITIALIZE_TRANSPORT, // dwIoControlCode(LPVOID) lpInBuffer,                  // input buffer
   (DWORD) nInBufferSize,                // size of input buffer
-  NULL,                                 // lpOutBuffer
-  0,                                    // nOutBufferSize
-  (LPDWORD) lpBytesReturned,            // number of bytes returned
+  NULL,                                 // lpOutBuffer0,                                    // nOutBufferSize(LPDWORD) lpBytesReturned,            // number of bytes returned
   (LPOVERLAPPED) lpOverlapped           // OVERLAPPED structure
 );</pre>
 </td>

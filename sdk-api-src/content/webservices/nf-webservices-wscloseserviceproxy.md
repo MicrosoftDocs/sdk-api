@@ -7,7 +7,7 @@ old-location: wsw\wscloseserviceproxy.htm
 old-project: wsw
 ms.assetid: 034f9c60-5616-4ec7-9773-b34bde2e26c6
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsCloseServiceProxy, WsCloseServiceProxy function [Web Services for Windows], webservices/WsCloseServiceProxy, wsw.wscloseserviceproxy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                Closes down communication with the specified <a href="https://msdn.microsoft.com/e1a5bf5e-dbc1-43e3-981b-7db4caa08bdc">service proxy</a>.
+Closes down communication with the specified <a href="https://msdn.microsoft.com/e1a5bf5e-dbc1-43e3-981b-7db4caa08bdc">service proxy</a>.
             
 
 
@@ -99,8 +98,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
-                    The asynchronous operation is still pending.
+The asynchronous operation is still pending.
                 
 
 </td>
@@ -112,8 +110,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
-                   The current state of the service proxy is not valid for this operation. This is only  
+The current state of the service proxy is not valid for this operation. This is only  
                    error for which close will fail. 
 
 </td>
@@ -125,8 +122,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-
-                    The underlying <a href="https://msdn.microsoft.com/741636a4-5e0f-495a-bb1d-1a00cfd6f65a">WS_CHANNEL</a> was disconnected during the close operation. This error occurs only in cases where the underlying channel is session based.
+The underlying <a href="https://msdn.microsoft.com/741636a4-5e0f-495a-bb1d-1a00cfd6f65a">WS_CHANNEL</a> was disconnected during the close operation. This error occurs only in cases where the underlying channel is session based.
                 
 
 </td>
@@ -150,7 +146,6 @@ The operation was aborted.
 </dl>
 </td>
 <td width="60%">
-
 The remote endpoint could not process the request.
 
 </td>
@@ -162,7 +157,6 @@ The remote endpoint could not process the request.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -174,7 +168,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 The operation did not complete within the time allotted.
 
 </td>
@@ -186,7 +179,6 @@ The operation did not complete within the time allotted.
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -198,7 +190,6 @@ A quota was exceeded.
 </dl>
 </td>
 <td width="60%">
-
 Insufficient memory to complete the operation.
 
 </td>
@@ -210,7 +201,6 @@ Insufficient memory to complete the operation.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>

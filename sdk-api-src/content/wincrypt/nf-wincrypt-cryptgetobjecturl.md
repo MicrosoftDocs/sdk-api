@@ -4,10 +4,10 @@ title: CryptGetObjectUrl function
 author: windows-sdk-content
 description: Acquires the URL of the remote object from a certificate, certificate trust list (CTL), or certificate revocation list (CRL).
 old-location: security\cryptgetobjecturl.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: a92117b8-9144-4480-b88a-b9ffe1026d63
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CRYPT_GET_URL_FROM_AUTH_ATTRIBUTE, CRYPT_GET_URL_FROM_EXTENSION, CRYPT_GET_URL_FROM_PROPERTY, CRYPT_GET_URL_FROM_UNAUTH_ATTRIBUTE, CryptGetObjectUrl, CryptGetObjectUrl function [Security], URL_OID_CERTIFICATE_CRL_DIST_POINT, URL_OID_CERTIFICATE_CRL_DIST_POINT_AND_OCSP, URL_OID_CERTIFICATE_FRESHEST_CRL, URL_OID_CERTIFICATE_ISSUER, URL_OID_CERTIFICATE_OCSP, URL_OID_CERTIFICATE_OCSP_AND_CRL_DIST_POINT, URL_OID_CERTIFICATE_ONLY_OCSP, URL_OID_CRL_FRESHEST_CRL, URL_OID_CRL_ISSUER, URL_OID_CROSS_CERT_DIST_POINT, URL_OID_CROSS_CERT_SUBJECT_INFO_ACCESS, URL_OID_CTL_ISSUER, URL_OID_CTL_NEXT_UPDATE, _crypto2_cryptgetobjecturl, security.cryptgetobjecturl, wincrypt/CryptGetObjectUrl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The function takes the object, decodes it, and provides a pointer to an array of
 
 ### -param pszUrlOid [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) that identifies the URL being requested. If the <a href="https://msdn.microsoft.com/library/ms632657(v=VS.85).aspx">HIWORD</a> of the <i>pszUrlOid</i> parameter is zero, the <a href="https://msdn.microsoft.com/library/ms632659(v=VS.85).aspx">LOWORD</a> specifies the integer identifier for the type of the specified structure. 
+A pointer to an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) that identifies the URL being requested. If the <a href="_win32_hiword_cpp">HIWORD</a> of the <i>pszUrlOid</i> parameter is zero, the <a href="_win32_loword_cpp">LOWORD</a> specifies the integer identifier for the type of the specified structure. 
 
 
 
@@ -356,7 +356,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Remote Object Retrieval Functions</a>
+<a href="cryptography_functions.htm">Remote Object Retrieval Functions</a>
  
 
  

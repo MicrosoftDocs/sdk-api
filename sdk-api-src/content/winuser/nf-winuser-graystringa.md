@@ -7,7 +7,7 @@ old-location: gdi\graystring.htm
 old-project: gdi
 ms.assetid: b14b8c40-f97f-4e41-8d8d-687692acfda9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GrayString, GrayString function [Windows GDI], GrayStringA, GrayStringW, _win32_GrayString, gdi.graystring, winuser/GrayString, winuser/GrayStringA, winuser/GrayStringW
 ms.prod: windows
 ms.technology: windows-sdk

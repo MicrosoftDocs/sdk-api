@@ -4,10 +4,10 @@ title: "_JOBOBJECT_END_OF_JOB_TIME_INFORMATION"
 author: windows-sdk-content
 description: Specifies the action the system will perform when an end-of-job time limit is exceeded.
 old-location: base\jobobject_end_of_job_time_information_str.htm
-old-project: procthread
+old-project: ProcThread
 ms.assetid: 0054d018-c358-4cb0-a4db-fc6464b4b08c
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: "*PJOBOBJECT_END_OF_JOB_TIME_INFORMATION, JOBOBJECT_END_OF_JOB_TIME_INFORMATION, JOBOBJECT_END_OF_JOB_TIME_INFORMATION structure, JOB_OBJECT_POST_AT_END_OF_JOB, JOB_OBJECT_TERMINATE_AT_END_OF_JOB, PJOBOBJECT_END_OF_JOB_TIME_INFORMATION, PJOBOBJECT_END_OF_JOB_TIME_INFORMATION structure, _JOBOBJECT_END_OF_JOB_TIME_INFORMATION, _win32_jobobject_end_of_job_time_information_str, base.jobobject_end_of_job_time_information_str, winnt/JOBOBJECT_END_OF_JOB_TIME_INFORMATION, winnt/PJOBOBJECT_END_OF_JOB_TIME_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ This is the default termination action.
 </td>
 <td width="60%">
 Posts a completion packet to the completion port using the 
-<a href="https://msdn.microsoft.com/library/Aa365458(v=VS.85).aspx">PostQueuedCompletionStatus</a> function. After the completion packet is posted, the system clears the end-of-job time limit, and processes in the job can continue their execution. 
+<a href="base.postqueuedcompletionstatus">PostQueuedCompletionStatus</a> function. After the completion packet is posted, the system clears the end-of-job time limit, and processes in the job can continue their execution. 
 
 
 
@@ -133,7 +133,7 @@ To associate a completion port with a job, use the
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365458(v=VS.85).aspx">PostQueuedCompletionStatus</a>
+<a href="base.postqueuedcompletionstatus">PostQueuedCompletionStatus</a>
 
 
 

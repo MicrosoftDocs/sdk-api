@@ -7,7 +7,7 @@ old-location: wsw\ws_get_channel_property_callback.htm
 old-project: wsw
 ms.assetid: 8fd503a9-6f8d-46c3-9338-c900b9b1d747
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_GET_CHANNEL_PROPERTY_CALLBACK, WS_GET_CHANNEL_PROPERTY_CALLBACK callback, WS_GET_CHANNEL_PROPERTY_CALLBACK callback function [Web Services for Windows], webservices/WS_GET_CHANNEL_PROPERTY_CALLBACK, wsw.ws_get_channel_property_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Handles the <a href="https://msdn.microsoft.com/6f3440d2-90cc-4312-bb08-51f08b864cc7">WsGetChannelProperty</a> call
+Handles the <a href="https://msdn.microsoft.com/6f3440d2-90cc-4312-bb08-51f08b864cc7">WsGetChannelProperty</a> call
                 for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
             
 
@@ -64,23 +63,20 @@ req.product: Windows Address Book 5.0
 
 ### -param *channelInstance [in]
 
-
-                    The pointer to the state specific to this channel instance,
+The pointer to the state specific to this channel instance,
                     as created by the <a href="https://msdn.microsoft.com/440114f9-2258-4c33-93cd-7185ccf36f76">WS_CREATE_CHANNEL_CALLBACK</a>.
                 
 
 
 ### -param id [in]
 
-
-                    The id of the property to retrieve.
+The id of the property to retrieve.
                 
 
 
 ### -param *value
 
-
-                    The location to store the retrieved property.
+The location to store the retrieved property.
                     The pointer must have an alignment compatible with the type
                     of the property.
                 
@@ -88,16 +84,14 @@ req.product: Windows Address Book 5.0
 
 ### -param valueSize [in]
 
-
-                    The number of bytes allocated by the caller to
+The number of bytes allocated by the caller to
                     store the retrieved property.
                 
 
 
 ### -param *error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -128,7 +122,6 @@ The property id was not supported for this object or the specified buffer was no
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -154,13 +147,11 @@ This function may return other errors not listed above.
 
 
 
-
-                See <a href="https://msdn.microsoft.com/6f3440d2-90cc-4312-bb08-51f08b864cc7">WsGetChannelProperty</a> for information about the contract
+See <a href="https://msdn.microsoft.com/6f3440d2-90cc-4312-bb08-51f08b864cc7">WsGetChannelProperty</a> for information about the contract
                 of this API.
             
 
-
-                Every custom channel implementation must support returning
+Every custom channel implementation must support returning
                 a value for at least the following properties:
             
 
@@ -178,8 +169,7 @@ This function may return other errors not listed above.
 <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_PROTECTION_LEVEL</a>
 </li>
 </ul>
-
-                Service Model layer provides its own logic of call timeouts as such it requires 
+Service Model layer provides its own logic of call timeouts as such it requires 
                 disabling timeouts in the underlying channel. In order for a custom channel to be 
                 used from Service Model layer, it should support disabling all of its timeouts and 
                 implement this callback for <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_ENABLE_TIMEOUTS</a>. A custom 
@@ -187,13 +177,11 @@ This function may return other errors not listed above.
                 <b>WS_CHANNEL_PROPERTY_ENABLE_TIMEOUTS</b> returns <b>FALSE</b>.
             
 
-
-                It is up to the custom channel implementation to determine any
+It is up to the custom channel implementation to determine any
                 additional properties it wishes to support.
             
 
-
-                If a property is not supported, the <b>E_INVALIDARG</b> should be returned.
+If a property is not supported, the <b>E_INVALIDARG</b> should be returned.
              (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
 
 

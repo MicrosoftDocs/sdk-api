@@ -7,7 +7,7 @@ old-location: wmp\iwmpcontrols_get_isavailable.htm
 old-project: WMP
 ms.assetid: 702e09f2-e086-45e3-9ae1-b62ec3e9561f
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_isAvailable method, IWMPControls.get_isAvailable, IWMPControls::get_isAvailable, IWMPControlsget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_isavailable, wmp/IWMPControls::get_isAvailable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,11 +68,9 @@ The <b>get_isAvailable</b> method indicates whether a specified type of informat
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

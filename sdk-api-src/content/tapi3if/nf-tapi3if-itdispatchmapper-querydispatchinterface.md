@@ -4,10 +4,10 @@ title: ITDispatchMapper::QueryDispatchInterface
 author: windows-sdk-content
 description: The QueryDispatchInterface method returns a dispatch pointer to a different interface on an object given its GUID and the dispatch pointer of another interface on the object.
 old-location: tapi3\itdispatchmapper_querydispatchinterface.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 7ee7c6f4-5710-4300-a2b8-de9aecf0528b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITDispatchMapper interface [TAPI 2.2],QueryDispatchInterface method, ITDispatchMapper.QueryDispatchInterface, ITDispatchMapper::QueryDispatchInterface, QueryDispatchInterface, QueryDispatchInterface method [TAPI 2.2], QueryDispatchInterface method [TAPI 2.2],ITDispatchMapper interface, _tapi3_itdispatchmapper_querydispatchinterface, tapi3.itdispatchmapper_querydispatchinterface, tapi3if/ITDispatchMapper::QueryDispatchInterface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -141,8 +141,8 @@ The interface requested is not exposed or the object does not implement the <b>I
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pIID</i> parameter and use 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> to allocate memory for the <i>pIID</i> parameter and use 
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 The Dispatch Mapper will use the object's <b>IObjectSafety</b> interface to make sure the object is safe for scripting on the requested interface. If the object does not implement <b>IObjectSafety</b>, or if the object is not safe on this particular interface, the call will fail.
 

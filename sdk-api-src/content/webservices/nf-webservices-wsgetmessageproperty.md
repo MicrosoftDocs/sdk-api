@@ -7,7 +7,7 @@ old-location: wsw\wsgetmessageproperty.htm
 old-project: wsw
 ms.assetid: 369f7690-6d70-401a-84aa-e5761dc874b5
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetMessageProperty, WsGetMessageProperty function [Web Services for Windows], webservices/WsGetMessageProperty, wsw.wsgetmessageproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,6 @@ The property id was not supported for this object or the specified buffer was no
 </dl>
 </td>
 <td width="60%">
-
 The application has run out of memory.
 
 </td>

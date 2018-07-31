@@ -7,7 +7,7 @@ old-location: multimedia\timegetsystemtime.htm
 old-project: Multimedia
 ms.assetid: 57871ada-d2b7-48a9-bed0-3780b836c77a
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: "_win32_timeGetSystemTime, mmsystem/timeGetSystemTime, multimedia.timegetsystemtime, timeGetSystemTime, timeGetSystemTime function [Windows Multimedia], timeapi/timeGetSystemTime"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,15 +67,13 @@ The <b>timeGetSystemTime</b> function retrieves the system time, in milliseconds
 
 ### -param pmmt
 
-
-            Pointer to an <a href="https://msdn.microsoft.com/94bb7235-2477-4923-add8-f0c8ac8195c2">MMTIME</a> structure.
+Pointer to an <a href="https://msdn.microsoft.com/94bb7235-2477-4923-add8-f0c8ac8195c2">MMTIME</a> structure.
           
 
 
 ### -param cbmmt
 
-
-            Size, in bytes, of the <a href="https://msdn.microsoft.com/94bb7235-2477-4923-add8-f0c8ac8195c2">MMTIME</a> structure.
+Size, in bytes, of the <a href="https://msdn.microsoft.com/94bb7235-2477-4923-add8-f0c8ac8195c2">MMTIME</a> structure.
           
 
 

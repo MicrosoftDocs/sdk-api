@@ -7,7 +7,7 @@ old-location: wsw\wsfiletimetodatetime.htm
 old-project: wsw
 ms.assetid: 75a547f8-c8dc-47c3-97c9-2a39b046263f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsFileTimeToDateTime, WsFileTimeToDateTime function [Web Services for Windows], webservices/WsFileTimeToDateTime, wsw.wsfiletimetodatetime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,15 +62,13 @@ Takes a reference to a FILETIME object and converts it into a <a href="https://m
 
 ### -param fileTime [in]
 
-
-          A pointer to the FILETIME structure to convert.
+A pointer to the FILETIME structure to convert.
         
 
 
 ### -param dateTime [out]
 
-
-          A pointer to the new WS_DATETIME object that has the newly converted time.
+A pointer to the new WS_DATETIME object that has the newly converted time.
         
 
 
@@ -98,7 +96,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -110,7 +107,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -125,13 +121,11 @@ The input data was not in the expected format or did not have the expected value
 
 
 
-
-        A <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a> cannot represent dates from the year 10000 and beyond.  A FILETIME representing a date
+A <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a> cannot represent dates from the year 10000 and beyond.  A FILETIME representing a date
         later than this will cause the function return <b>WS_E_INVALID_FORMAT</b>.
       (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
 
-
-        The format field of the <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a> will be set to <a href="https://msdn.microsoft.com/e5859797-90dd-4509-ae41-f8d8c83cfd9c">WS_DATETIME_FORMAT_UTC</a>.
+The format field of the <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a> will be set to <a href="https://msdn.microsoft.com/e5859797-90dd-4509-ae41-f8d8c83cfd9c">WS_DATETIME_FORMAT_UTC</a>.
       
 
 

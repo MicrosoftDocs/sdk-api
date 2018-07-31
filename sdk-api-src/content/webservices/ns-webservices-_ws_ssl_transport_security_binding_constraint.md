@@ -7,7 +7,7 @@ old-location: wsw\ws_ssl_transport_security_binding_constraint.htm
 old-project: wsw
 ms.assetid: 1f547d95-0a9a-44c5-81db-b92880238b1d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT, WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], _WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT, webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT, wsw.ws_ssl_transport_security_binding_constraint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                A security binding constraint that corresponds to the 
+A security binding constraint that corresponds to the 
                 <a href="https://msdn.microsoft.com/078efc1d-a1bc-4035-919c-f927a8ceb8e6">WS_SSL_TRANSPORT_SECURITY_BINDING</a>.
             
 
@@ -64,20 +63,17 @@ req.product: Windows Address Book 5.0
 
 ### -field bindingConstraint
 
-
-                    The base binding constraint that this binding constraint derives from.
+The base binding constraint that this binding constraint derives from.
                 
 
-
-                    There are no binding-specific properties are defined for this binding constraint
+There are no binding-specific properties are defined for this binding constraint
                     at this time.
                 
 
 
 ### -field out
 
-
-                    When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a> returns NOERROR, the
+When <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a> returns NOERROR, the
                     entire contents of this structure will be filled out.
                 
 

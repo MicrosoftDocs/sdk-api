@@ -7,7 +7,7 @@ old-location: wes\evtsetchannelconfigproperty.htm
 old-project: WES
 ms.assetid: f5f11bd9-5eb0-4afe-8c8b-57fa3850ad56
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtSetChannelConfigProperty, EvtSetChannelConfigProperty function [EventLog], wes.evtsetchannelconfigproperty, winevt/EvtSetChannelConfigProperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,6 @@ Reserved. Must be zero.
 ### -param PropertyValue [in]
 
 The property value to set.
-
 
 A caller-allocated buffer that contains the new configuration property value. The buffer contains an <a href="https://msdn.microsoft.com/4b0f338b-0b66-4ba5-9e29-b15afe15a2d3">EVT_VARIANT</a> object. Be sure to set the configuration value and variant type.
 

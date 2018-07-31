@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager_getvariablefromtag.htm
 old-project: UIAnimation
 ms.assetid: 611c5341-f225-461d-9718-a2432d796764
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetVariableFromTag, GetVariableFromTag method [Windows Animation], GetVariableFromTag method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],GetVariableFromTag method, IUIAnimationManager.GetVariableFromTag, IUIAnimationManager::GetVariableFromTag, uianimation.iuianimationmanager_getvariablefromtag, uianimation/IUIAnimationManager::GetVariableFromTag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Gets the animation variable with the specified tag.
+Gets the animation variable with the specified tag.
 
 
 ## -parameters
@@ -62,21 +61,18 @@ req.product: Windows XP with SP1 and later
 
 ### -param object [in, optional]
 
-
-               The object portion of the tag.
+The object portion of the tag.
             This parameter can be <b>NULL</b>.
 
 
 ### -param id [in]
 
-
-                The identifier portion of the tag.
+The identifier portion of the tag.
 
 
 ### -param variable [out]
 
-
-               The animation variable that matches the specified tag, or <b>NULL</b> if no match is found.
+The animation variable that matches the specified tag, or <b>NULL</b> if no match is found.
 
 
 ## -returns
@@ -92,8 +88,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 
-
-         A tag is a pairing of an integer identifier (<i>id</i>) with a COM object (<i>object</i>). An application can use tags to identify animation variables and storyboards. <b>NULL</b> is a valid object component of a tag; therefore, the <i>object</i> parameter can be <b>NULL</b>.
+A tag is a pairing of an integer identifier (<i>id</i>) with a COM object (<i>object</i>). An application can use tags to identify animation variables and storyboards. <b>NULL</b> is a valid object component of a tag; therefore, the <i>object</i> parameter can be <b>NULL</b>.
 
 Tags are not necessarily unique; this method returns <b>UI_E_AMBIGUOUS_MATCH</b> if more than one animation variable exists with the specified tag.
 
@@ -113,13 +108,11 @@ Tags are not necessarily unique; this method returns <b>UI_E_AMBIGUOUS_MATCH</b>
 
 
 
-<a href="https://msdn.microsoft.com/2731d302-dc52-4a10-8012-a246856d132b">
-      IUIAnimationVariable::GetTag</a>
+<a href="https://msdn.microsoft.com/2731d302-dc52-4a10-8012-a246856d132b">IUIAnimationVariable::GetTag</a>
 
 
 
-<a href="https://msdn.microsoft.com/176b0047-cac8-474b-9126-fdab4bc41537">
-      IUIAnimationVariable::SetTag</a>
+<a href="https://msdn.microsoft.com/176b0047-cac8-474b-9126-fdab4bc41537">IUIAnimationVariable::SetTag</a>
  
 
  

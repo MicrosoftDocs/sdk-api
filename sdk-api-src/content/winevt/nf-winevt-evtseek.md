@@ -7,7 +7,7 @@ old-location: wes\evtseek.htm
 old-project: WES
 ms.assetid: 62cf5039-f7c5-4f16-b7e3-dcc8907e6b7c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtSeek, EvtSeek function [EventLog], wes.evtseek, winevt/EvtSeek
 ms.prod: windows
 ms.technology: windows-sdk

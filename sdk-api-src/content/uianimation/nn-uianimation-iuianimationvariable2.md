@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2.htm
 old-project: UIAnimation
 ms.assetid: A676EF27-B59D-4D2D-AD5B-8F46EE337E69
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariable2, IUIAnimationVariable2 interface [Windows Animation], IUIAnimationVariable2 interface [Windows Animation],described, uianimation.iuianimationvariable2, uianimation/IUIAnimationVariable2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -191,8 +191,7 @@ Gets the previous value of the animation variable for the specified dimension. T
 <a href="https://msdn.microsoft.com/29E6CA4D-527D-4C9D-9E28-2E2C67516126">GetTag</a>
 </td>
 <td align="left" width="63%">
-
-      Gets the tag of the animation variable.
+Gets the tag of the animation variable.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: tablet\system_event_data.htm
 old-project: tablet
 ms.assetid: 3a2c33b7-91ca-48eb-a5b9-a1ccb5106f90
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: 3a2c33b7-91ca-48eb-a5b9-a1ccb5106f90, SYSTEM_EVENT_DATA, SYSTEM_EVENT_DATA structure [Tablet PC], tablet.system_event_data, tagSYSTEM_EVENT_DATA, tpcshrd/SYSTEM_EVENT_DATA
 ms.prod: windows
 ms.technology: windows-sdk

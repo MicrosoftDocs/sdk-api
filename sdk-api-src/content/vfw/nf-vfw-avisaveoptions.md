@@ -7,7 +7,7 @@ old-location: multimedia\avisaveoptions.htm
 old-project: Multimedia
 ms.assetid: 6141272f-a815-4ba8-bc6b-41751d6e0104
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: AVISaveOptions, AVISaveOptions function [Windows Multimedia], _win32_AVISaveOptions, multimedia.avisaveoptions, vfw/AVISaveOptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,11 +73,9 @@ Flags for displaying the Compression Options dialog box. The following flags are
 
 <table>
 <tr>
-<th>
-Value
+<th>Value
 </th>
-<th>
-Meaning
+<th>Meaning
 </th>
 </tr>
 <tr>
@@ -98,15 +96,13 @@ Meaning
 
 ### -param nStreams
 
-
-            Number of streams that have their options set by the dialog box.
+Number of streams that have their options set by the dialog box.
           
 
 
 ### -param ppavi
 
-
-            Pointer to an array of stream interface pointers. The <i>nStreams</i> parameter indicates the number of pointers in the array.
+Pointer to an array of stream interface pointers. The <i>nStreams</i> parameter indicates the number of pointers in the array.
           
 
 

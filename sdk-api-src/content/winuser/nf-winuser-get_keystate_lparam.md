@@ -7,7 +7,7 @@ old-location: inputdev\get_keystate_lparam.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_keystate_lparam.htm
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: GET_KEYSTATE_LPARAM, GET_KEYSTATE_LPARAM macro [Keyboard and Mouse Input], _win32_GET_KEYSTATE_LPARAM, _win32_get_keystate_lparam_cpp, inputdev.get_keystate_lparam, winui._win32_get_keystate_lparam, winuser/GET_KEYSTATE_LPARAM
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ The value to be converted.
 
 
 
-This macro is identical to the <a href="https://msdn.microsoft.com/library/ms646249(v=VS.85).aspx">GET_FLAGS_LPARAM</a> macro.
+This macro is identical to the <a href="https://msdn.microsoft.com/5b8a3da1-219d-470b-9033-0bad56d166e3">GET_FLAGS_LPARAM</a> macro.
 
 
 
@@ -82,11 +82,11 @@ This macro is identical to the <a href="https://msdn.microsoft.com/library/ms646
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646249(v=VS.85).aspx">GET_FLAGS_LPARAM</a>
+<a href="https://msdn.microsoft.com/5b8a3da1-219d-470b-9033-0bad56d166e3">GET_FLAGS_LPARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
 
 
 

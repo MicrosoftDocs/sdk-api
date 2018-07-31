@@ -4,10 +4,10 @@ title: WinHttpCrackUrl function
 author: windows-sdk-content
 description: The WinHttpCrackUrl function separates a URL into its component parts such as host name and path.
 old-location: http\winhttpcrackurl.htm
-old-project: winhttp
+old-project: WinHttp
 ms.assetid: 656dfe11-2242-4587-aa53-87a280f5df81
 ms.author: windowssdkdev
-ms.date: 03/09/2018
+ms.date: 07/29/2018
 ms.keywords: ICU_DECODE, ICU_ESCAPE, ICU_REJECT_USERPWD, WinHttpCrackUrl, WinHttpCrackUrl function [WinHTTP], http.winhttpcrackurl, winhttp.winhttpcrackurl_function, winhttp/WinHttpCrackUrl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -207,13 +207,13 @@ If the pointer contains the address of the user-supplied buffer, the length memb
 For 
 <b>WinHttpCrackUrl</b> to work properly, the size of the 
 <a href="https://msdn.microsoft.com/4d2c6f82-6b61-4a7b-a5d7-560152e25302">URL_COMPONENTS</a> structure must be stored in the 
-<a href="https://msdn.microsoft.com/library/Aa384078(v=VS.85).aspx">dwStructSize</a> member of that structure.
+<a href="url_components.htm">dwStructSize</a> member of that structure.
 
 If the Internet protocol of the URL passed in for 
 <i>pwszUrl</i> is not HTTP or HTTPS, then 
 <b>WinHttpCrackUrl</b>  returns  <b>FALSE</b> and 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>  indicates  
-<a href="https://msdn.microsoft.com/library/ms689904(v=VS.85).aspx">ERROR_WINHTTP_UNRECOGNIZED_SCHEME</a>.
+<a href="error_messages.htm">ERROR_WINHTTP_UNRECOGNIZED_SCHEME</a>.
 
 <b>WinHttpCrackUrl</b> does not check the validity or format of a URL before attempting to crack it. As a result, if a string such as ""http://server?Bad=URL"" is passed in, the function returns incorrect results.
 

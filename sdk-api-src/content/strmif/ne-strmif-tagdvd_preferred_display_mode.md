@@ -7,7 +7,7 @@ old-location: dshow\dvd_preferred_display_mode.htm
 old-project: DirectShow
 ms.assetid: afb235ae-ba60-491f-8b88-7fe824f00f77
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: DISPLAY_16x9, DISPLAY_4x3_LETTERBOX_PREFERRED, DISPLAY_4x3_PANSCAN_PREFERRED, DISPLAY_CONTENT_DEFAULT, DVD_PREFERRED_DISPLAY_MODE, DVD_PREFERRED_DISPLAY_MODE , DVD_PREFERRED_DISPLAY_MODE enumeration [DirectShow], DVD_PREFERRED_DISPLAY_MODEEnumeration, dshow.dvd_preferred_display_mode, strmif/DISPLAY_16x9, strmif/DISPLAY_4x3_LETTERBOX_PREFERRED, strmif/DISPLAY_4x3_PANSCAN_PREFERRED, strmif/DISPLAY_CONTENT_DEFAULT, strmif/DVD_PREFERRED_DISPLAY_MODE, tagDVD_PREFERRED_DISPLAY_MODE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # tagDVD_PREFERRED_DISPLAY_MODE enumeration
@@ -64,29 +63,25 @@ Indicates the user's preferred window aspect ratio and conversion method.
 
 ### -field DISPLAY_CONTENT_DEFAULT
 
-
-            Use the default window size and content type.
+Use the default window size and content type.
           
 
 
 ### -field DISPLAY_16x9
 
-
-            Use a 16 x 9 window.
+Use a 16 x 9 window.
           
 
 
 ### -field DISPLAY_4x3_PANSCAN_PREFERRED
 
-
-            Use a 4 x 3 window and convert to pan-scan, if possible.
+Use a 4 x 3 window and convert to pan-scan, if possible.
           
 
 
 ### -field DISPLAY_4x3_LETTERBOX_PREFERRED
 
-
-            Use a 4 x 3 window and convert to letterbox, if possible.
+Use a 4 x 3 window and convert to letterbox, if possible.
           
 
 
@@ -94,8 +89,7 @@ Indicates the user's preferred window aspect ratio and conversion method.
 
 
 
-
-          The <b>DVD_PREFERRED_DISPLAY_MODE</b> emumeration indicates the user's preferred window aspect ratio and preferred method of conversion of 16 x 9 content to a 4 x 3 window aspect ratio. Pan-scan and letterboxing are the two conversion methods. Displaying a video at the largest possible size inside the display window without any cropping or stretching is called displaying in letterbox format. <i>Pan-scan</i> is specifically cropping a 16 x 9 video for display in a 4 x 3 window using parameters defined by the video author.
+The <b>DVD_PREFERRED_DISPLAY_MODE</b> emumeration indicates the user's preferred window aspect ratio and preferred method of conversion of 16 x 9 content to a 4 x 3 window aspect ratio. Pan-scan and letterboxing are the two conversion methods. Displaying a video at the largest possible size inside the display window without any cropping or stretching is called displaying in letterbox format. <i>Pan-scan</i> is specifically cropping a 16 x 9 video for display in a 4 x 3 window using parameters defined by the video author.
 
 This enumerated type indicates a preference of conversion mechanisms because some content can only be displayed using one of these methods. Content that is 4 x 3 is always converted to a 16 x 9 window by using sideboxing, where black bars are added to the right and left sides of the display instead of the top and bottom of the display as in the 16 x 9 to 4 x 3 conversion using letterboxing.
 
@@ -103,17 +97,13 @@ The following table shows the conversion method used between the actual content 
 
 <table>
 <tr>
-<th>
-              Actual content type
+<th>Actual content type
             </th>
-<th>
-              16 x 9
+<th>16 x 9
             </th>
-<th>
-              4 x 3 pan-scan
+<th>4 x 3 pan-scan
             </th>
-<th>
-              4 x 3 letterbox
+<th>4 x 3 letterbox
             </th>
 </tr>
 <tr>

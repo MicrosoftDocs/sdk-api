@@ -7,7 +7,7 @@ old-location: hidpi\getsystemdpiforprocess.htm
 old-project: hidpi
 ms.assetid: 94236ECF-E69A-4D77-AABA-D43FE8DF8203
 ms.author: windowssdkdev
-ms.date: 03/30/2018
+ms.date: 07/29/2018
 ms.keywords: GetSystemDpiForProcess, GetSystemDpiForProcess function [High DPI], hidpi.getsystemdpiforprocess, winuser/GetSystemDpiForProcess
 ms.prod: windows
 ms.technology: windows-sdk

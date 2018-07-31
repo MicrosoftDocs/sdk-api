@@ -7,7 +7,7 @@ old-location: smi\itargetinfo_settargetid.htm
 old-project: SMI
 ms.assetid: 183b1ccd-9244-42d5-a787-617e43a55f64
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: ITargetInfo interface [SMI],SetTargetID method, ITargetInfo.SetTargetID, ITargetInfo::SetTargetID, SetTargetID, SetTargetID method [SMI], SetTargetID method [SMI],ITargetInfo interface, smi.itargetinfo_settargetid, wcmconfig/ITargetInfo::SetTargetID
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mstv\ituningspace_get_clsid.htm
 old-project: mstv
 ms.assetid: def4aac2-3d0b-4ce6-9f6b-d13e7c3cc86d
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_CLSID method, ITuningSpace.get_CLSID, ITuningSpace::get_CLSID, ITuningSpaceget_CLSID, get_CLSID, get_CLSID method [Microsoft TV Technologies], get_CLSID method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_clsid, tuner/ITuningSpace::get_CLSID
 ms.prod: windows
 ms.technology: windows-sdk

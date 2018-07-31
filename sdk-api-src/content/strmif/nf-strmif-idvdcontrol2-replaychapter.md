@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_replaychapter.htm
 old-project: DirectShow
 ms.assetid: ea1567fc-708f-4dcd-abc2-b5bdc9f6a62c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IDvdControl2 interface [DirectShow],ReplayChapter method, IDvdControl2.ReplayChapter, IDvdControl2::ReplayChapter, IDvdControl2ReplayChapter, ReplayChapter, ReplayChapter method [DirectShow], ReplayChapter method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_replaychapter, strmif/IDvdControl2::ReplayChapter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,11 +120,9 @@ The following table shows the Annex J command name to which this method name cor
 
 <table>
 <tr>
-<td>
-              Annex J Command Name
+<td>Annex J Command Name
             </td>
-<td>
-              Valid Domains
+<td>Valid Domains
             </td>
 </tr>
 <tr>

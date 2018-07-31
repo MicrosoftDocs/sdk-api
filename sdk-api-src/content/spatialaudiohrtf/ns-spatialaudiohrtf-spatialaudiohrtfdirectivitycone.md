@@ -7,7 +7,7 @@ old-location: coreaudio\spatialaudiohrtfdirectivitycone.htm
 old-project: CoreAudio
 ms.assetid: C34F26C2-4979-4C06-8EAC-64547745238F
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/29/2018
 ms.keywords: PSpatialAudioHrtfDirectivityCone, PSpatialAudioHrtfDirectivityCone structure pointer [Core Audio], SpatialAudioHrtfDirectivityCone, SpatialAudioHrtfDirectivityCone structure [Core Audio], coreaudio.spatialaudiohrtfdirectivitycone, spatialaudiohrtf/PSpatialAudioHrtfDirectivityCone, spatialaudiohrtf/SpatialAudioHrtfDirectivityCone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # SpatialAudioHrtfDirectivityCone structure

@@ -4,10 +4,10 @@ title: ldap_search_stW function
 author: windows-sdk-content
 description: The ldap_search_st function synchronously searches the LDAP directory and returns a requested set of attributes for each entry matched. An additional parameter specifies a local time-out for the search.
 old-location: ldap\ldap_search_st.htm
-old-project: ldap
+old-project: LDAP
 ms.assetid: af2ab469-fa72-4a57-912c-42d9a6721806
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: LDAP_SCOPE_BASE, LDAP_SCOPE_ONELEVEL, LDAP_SCOPE_SUBTREE, _ldap_ldap_search_st, ldap.ldap__search__st, ldap.ldap_search_st, ldap_search_st, ldap_search_st function [LDAP], ldap_search_stA, ldap_search_stW, winldap/ldap_search_st, winldap/ldap_search_stA, winldap/ldap_search_stW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,8 +118,7 @@ The local search time-out value, in seconds.
 
 ### -param res [out]
 
-Contains the results of the search upon completion of the call. Can also contain partial results or extended data when the function call fails with an error code. Any results returned must be freed with a call to <a href="https://msdn.microsoft.com/a4292638-0686-4c2d-8c51-1d5d079d5782">ldap_msgfree</a>
-    when  no longer required by the application.
+Contains the results of the search upon completion of the call. Can also contain partial results or extended data when the function call fails with an error code. Any results returned must be freed with a call to <a href="https://msdn.microsoft.com/a4292638-0686-4c2d-8c51-1d5d079d5782">ldap_msgfree</a>when  no longer required by the application.
 
 
 ##### - scope.LDAP_SCOPE_BASE

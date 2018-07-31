@@ -4,10 +4,10 @@ title: "_VDS_PACK_PROP"
 author: windows-sdk-content
 description: Defines the properties of a pack object.
 old-location: base\vds_pack_prop.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 5d04bf6c-fda2-4b95-a8bb-907e64267f30
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: "*PVDS_PACK_PROP, PVDS_PACK_PROP, PVDS_PACK_PROP structure pointer [VDS], VDS_PACK_PROP, VDS_PACK_PROP structure [VDS], _VDS_PACK_PROP, base.vds_pack_prop, vds/PVDS_PACK_PROP, vds/_VDS_PACK_PROP"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,8 +85,7 @@ The pack flags enumerated by <a href="https://msdn.microsoft.com/65b7e65d-5d20-4
 
 
 
-The <a href="https://msdn.microsoft.com/0793642c-1905-470c-a69f-8bf5f8bbe90d">IVdsPack::GetProperties</a>
-        method returns this structure to report the property details of a pack object.
+The <a href="https://msdn.microsoft.com/0793642c-1905-470c-a69f-8bf5f8bbe90d">IVdsPack::GetProperties</a>method returns this structure to report the property details of a pack object.
 
 
 

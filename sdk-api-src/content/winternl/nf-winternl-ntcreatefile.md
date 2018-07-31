@@ -4,10 +4,10 @@ title: NtCreateFile function
 author: windows-sdk-content
 description: Creates a new file or directory, or opens an existing file, device, directory, or volume.
 old-location: winprog\ntcreatefile.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: 82965665-8531-4cca-bf37-6044e154d43b
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: DELETE, FILE_APPEND_DATA, FILE_COMPLETE_IF_OPLOCKED, FILE_CREATE, FILE_CREATE_TREE_CONNECTION, FILE_DELETE_ON_CLOSE, FILE_DIRECTORY_FILE, FILE_EXECUTE, FILE_GENERIC_EXECUTE, FILE_GENERIC_READ, FILE_GENERIC_WRITE, FILE_LIST_DIRECTORY, FILE_NON_DIRECTORY_FILE, FILE_NO_EA_KNOWLEDGE, FILE_NO_INTERMEDIATE_BUFFERING, FILE_OPEN, FILE_OPEN_BY_FILE_ID, FILE_OPEN_FOR_BACKUP_INTENT, FILE_OPEN_IF, FILE_OPEN_REPARSE_POINT, FILE_OPEN_REQUIRING_OPLOCK, FILE_OVERWRITE, FILE_OVERWRITE_IF, FILE_RANDOM_ACCESS, FILE_READ_ATTRIBUTES, FILE_READ_DATA, FILE_READ_EA, FILE_RESERVE_OPFILTER, FILE_SEQUENTIAL_ONLY, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, FILE_SUPERSEDE, FILE_SYNCHRONOUS_IO_ALERT, FILE_SYNCHRONOUS_IO_NONALERT, FILE_TRAVERSE, FILE_WRITE_ATTRIBUTES, FILE_WRITE_DATA, FILE_WRITE_EA, FILE_WRITE_THROUGH, HANDLE RootDirectory, NtCreateFile, NtCreateFile function [Windows API], PSECURITY_DESCRIPTOR SecurityDescriptor, PSECURITY_QUALITY_OF_SERVICE SecurityQualityOfService, PUNICODE_STRING ObjectName, READ_CONTROL, SYNCHRONIZE, ULONG Attributes, ULONG Length, WRITE_DAC, WRITE_OWNER, winprog.ntcreatefile, winternl/NtCreateFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -824,8 +824,7 @@ Certain <i>DesiredAccess</i> flags and combinations of flags have the following 
       <i>FileHandle</i>, that is, all operations on the file occur through the system pager in 
       response to instruction and data accesses. </li>
 </ul>
-
-    The <i>ShareAccess</i> parameter determines whether separate threads can access the same file, 
+The <i>ShareAccess</i> parameter determines whether separate threads can access the same file, 
     possibly simultaneously. Provided that both file openers have the privilege to access a file in the specified 
     manner, the file can be successfully opened and shared. If the original caller of 
     <b>NtCreateFile</b> does not specify 

@@ -7,7 +7,7 @@ old-location: winsync\isyncchange_getmadewithknowledge.htm
 old-project: winsync
 ms.assetid: 536e7575-e3c7-4f40-83f4-6fb7a7c2d2ba
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetMadeWithKnowledge, GetMadeWithKnowledge method [Windows Sync], GetMadeWithKnowledge method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetMadeWithKnowledge method, ISyncChange.GetMadeWithKnowledge, ISyncChange::GetMadeWithKnowledge, winsync.isyncchange_getmadewithknowledge, winsync/ISyncChange::GetMadeWithKnowledge
 ms.prod: windows
 ms.technology: windows-sdk

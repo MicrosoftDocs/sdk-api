@@ -4,10 +4,10 @@ title: SCardReconnect function
 author: windows-sdk-content
 description: Reestablishes an existing connection between the calling application and a smart card.
 old-location: security\scardreconnect.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: c79e5810-c2be-4184-8ac7-c058ccb9308e
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: SCARD_LEAVE_CARD, SCARD_PROTOCOL_T0, SCARD_PROTOCOL_T1, SCARD_RESET_CARD, SCARD_SHARE_EXCLUSIVE, SCARD_SHARE_SHARED, SCARD_UNPOWER_CARD, SCardReconnect, SCardReconnect function [Security], _smart_scardreconnect, security.scardreconnect, winscard/SCardReconnect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The <b>SCardReconnect</b> function reestablishes an existing connection between the calling application and a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a>. This function moves a card handle from direct access to general access, or acknowledges and clears an error condition that is preventing further access to the card.
+The <b>SCardReconnect</b> function reestablishes an existing connection between the calling application and a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a>. This function moves a card handle from direct access to general access, or acknowledges and clears an error condition that is preventing further access to the card.
 
 
 ## -parameters
@@ -217,8 +216,7 @@ Flag that indicates the established active protocol.
 
 
 
-
-						This function returns different values depending on whether it succeeds or fails.
+This function returns different values depending on whether it succeeds or fails.
 
 <table>
 <tr>
@@ -244,7 +242,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>

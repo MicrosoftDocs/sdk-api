@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionfactory_createtransition.htm
 old-project: UIAnimation
 ms.assetid: 02d28669-0cbd-41e2-b9ca-4ad893f09fc9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateTransition, CreateTransition method [Windows Animation], CreateTransition method [Windows Animation],IUIAnimationTransitionFactory interface, IUIAnimationTransitionFactory interface [Windows Animation],CreateTransition method, IUIAnimationTransitionFactory.CreateTransition, IUIAnimationTransitionFactory::CreateTransition, uianimation.iuianimationtransitionfactory_createtransition, uianimation/IUIAnimationTransitionFactory::CreateTransition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates a transition from a custom interpolator.
+Creates a transition from a custom interpolator.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param interpolator [in]
 
-
-               The interpolator from which a transition is to be created.  
+The interpolator from which a transition is to be created.  
                
                The specified object must implement the
                <a href="https://msdn.microsoft.com/8e1f2a9a-ab93-485a-83b2-baebb9ee4bcc">IUIAnimationInterpolator</a> interface.
@@ -71,8 +69,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param transition [out]
 
-
-               The new transition.
+The new transition.
 
 
 ## -returns

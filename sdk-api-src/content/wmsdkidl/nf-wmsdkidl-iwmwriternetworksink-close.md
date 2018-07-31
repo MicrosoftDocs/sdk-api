@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriternetworksink_close.htm
 old-project: wmformat
 ms.assetid: 7e36b94b-e6d3-46a0-8874-edd545e0e5b1
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],Close method, IWMWriterNetworkSink.Close, IWMWriterNetworkSink::Close, IWMWriterNetworkSinkClose, wmformat.iwmwriternetworksink_close, wmsdkidl/IWMWriterNetworkSink::Close
 ms.prod: windows
 ms.technology: windows-sdk

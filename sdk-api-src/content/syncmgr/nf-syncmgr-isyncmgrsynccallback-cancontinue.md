@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncCallback_CanContinue.htm
 old-project: shell
 ms.assetid: 02106b6f-4c1c-4bd6-b120-2948b1e6d25c
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: CanContinue, CanContinue method [Windows Shell], CanContinue method [Windows Shell],ISyncMgrSyncCallback interface, ISyncMgrSyncCallback interface [Windows Shell],CanContinue method, ISyncMgrSyncCallback.CanContinue, ISyncMgrSyncCallback::CanContinue, _shell_ISyncMgrSyncCallback_CanContinue, shell.ISyncMgrSyncCallback_CanContinue, syncmgr/ISyncMgrSyncCallback::CanContinue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,8 +110,7 @@ By implementing this functionality as a separate method, the handler can check f
 
 
 
-
-        	The following example shows the usage of <b>ISyncMgrSyncCallback::CanContinue</b> by the <a href="https://msdn.microsoft.com/6742f6a8-eda8-4ef0-8a11-dc70baefcc83">Synchronize</a> method.
+The following example shows the usage of <b>ISyncMgrSyncCallback::CanContinue</b> by the <a href="https://msdn.microsoft.com/6742f6a8-eda8-4ef0-8a11-dc70baefcc83">Synchronize</a> method.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

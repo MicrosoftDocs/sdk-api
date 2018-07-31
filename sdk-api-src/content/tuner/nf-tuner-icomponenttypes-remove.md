@@ -7,7 +7,7 @@ old-location: mstv\icomponenttypes_remove.htm
 old-project: mstv
 ms.assetid: 7344851a-51ba-41c0-b368-e5eecfb5fb08
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IComponentTypes interface [Microsoft TV Technologies],Remove method, IComponentTypes.Remove, IComponentTypes::Remove, IComponentTypesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IComponentTypes interface, mstv.icomponenttypes_remove, tuner/IComponentTypes::Remove
 ms.prod: windows
 ms.technology: windows-sdk

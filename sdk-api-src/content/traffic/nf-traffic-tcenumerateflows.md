@@ -4,10 +4,10 @@ title: TcEnumerateFlows function
 author: windows-sdk-content
 description: The TcEnumerateFlows function enumerates installed flows and their associated filters on an interface.
 old-location: qos\tcenumerateflows.htm
-old-project: qos
+old-project: QOS
 ms.assetid: eae90fae-a29a-4005-b8c6-a5e2c9a6c07f
 ms.author: windowssdkdev
-ms.date: 03/26/2018
+ms.date: 07/29/2018
 ms.keywords: TcEnumerateFlows, TcEnumerateFlows function [QOS], _gqos_tcenumerateflows, qos.tcenumerateflows, traffic/TcEnumerateFlows
 ms.prod: windows
 ms.technology: windows-sdk

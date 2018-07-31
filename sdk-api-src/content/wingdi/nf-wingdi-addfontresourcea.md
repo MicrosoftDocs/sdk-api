@@ -7,7 +7,7 @@ old-location: gdi\addfontresource.htm
 old-project: gdi
 ms.assetid: e553a25a-f281-4ddc-8e95-1f61ed8238f9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: ".fnt, .fon, .fot, .mmm, .otf, .pfb, .pfm, .ttc, .ttf, AddFontResource, AddFontResource function [Windows GDI], AddFontResourceA, AddFontResourceW, _win32_AddFontResource, gdi.addfontresource, wingdi/AddFontResource, wingdi/AddFontResourceA, wingdi/AddFontResourceW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -208,8 +208,7 @@ A font listed in the registry and installed to a location other than the %windir
 
 
 
-<a href="https://msdn.microsoft.com/eaf8ebf0-1b06-4a09-a842-83540245a117">
-        AddFontResourceEx
+<a href="https://msdn.microsoft.com/eaf8ebf0-1b06-4a09-a842-83540245a117">AddFontResourceEx
       </a>
 
 
@@ -222,8 +221,7 @@ A font listed in the registry and installed to a location other than the %windir
 
 
 
-<a href="https://msdn.microsoft.com/ccc0ac8b-e373-47a9-a362-64fd79a33d0c">
-        RemoveFontResource
+<a href="https://msdn.microsoft.com/ccc0ac8b-e373-47a9-a362-64fd79a33d0c">RemoveFontResource
       </a>
 
 

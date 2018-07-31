@@ -4,10 +4,10 @@ title: freeaddrinfo function
 author: windows-sdk-content
 description: Frees address information that the getaddrinfo function dynamically allocates in addrinfo structures.
 old-location: winsock\freeaddrinfo_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: d2d944df-3773-4918-a89a-3402baf8f5e3
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: FreeAddrInfoA, _win32_freeaddrinfo_2, freeaddrinfo, freeaddrinfo function [Winsock], winsock.freeaddrinfo_2, ws2tcpip/freeaddrinfo
 ms.prod: windows
 ms.technology: windows-sdk

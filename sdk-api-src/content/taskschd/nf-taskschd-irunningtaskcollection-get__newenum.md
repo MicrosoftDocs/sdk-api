@@ -4,10 +4,10 @@ title: IRunningTaskCollection::get__NewEnum
 author: windows-sdk-content
 description: Gets the collection enumerator for the running task collection.
 old-location: taskschd\irunningtaskcollection__newenum.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 933bb50b-7c9c-46f4-8746-dd14b0050d6c
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IRunningTaskCollection interface [Task Scheduler],_NewEnum property, IRunningTaskCollection._NewEnum, IRunningTaskCollection.get__NewEnum, IRunningTaskCollection::_NewEnum, IRunningTaskCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],IRunningTaskCollection interface, get__NewEnum, taskschd.irunningtaskcollection__newenum, taskschd/IRunningTaskCollection::_NewEnum, taskschd/IRunningTaskCollection::get__NewEnum
 ms.prod: windows
 ms.technology: windows-sdk

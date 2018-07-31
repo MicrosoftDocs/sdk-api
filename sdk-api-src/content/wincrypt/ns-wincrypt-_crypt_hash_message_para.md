@@ -4,10 +4,10 @@ title: "_CRYPT_HASH_MESSAGE_PARA"
 author: windows-sdk-content
 description: Contains data for hashing messages.
 old-location: security\crypt_hash_message_para.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 60415136-3ac0-4fab-bdbf-faa16e8e43e1
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCRYPT_HASH_MESSAGE_PARA, CRYPT_HASH_MESSAGE_PARA, CRYPT_HASH_MESSAGE_PARA structure [Security], PCRYPT_HASH_MESSAGE_PARA, PCRYPT_HASH_MESSAGE_PARA structure pointer [Security], _CRYPT_HASH_MESSAGE_PARA, _crypto2_crypt_hash_message_para, security.crypt_hash_message_para, wincrypt/CRYPT_HASH_MESSAGE_PARA, wincrypt/PCRYPT_HASH_MESSAGE_PARA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CRYPT_HASH_MESSAGE_PARA</b> structure contains data for <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hashing</a> messages.
+The <b>CRYPT_HASH_MESSAGE_PARA</b> structure contains data for <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hashing</a> messages.
 
 
 ## -struct-fields

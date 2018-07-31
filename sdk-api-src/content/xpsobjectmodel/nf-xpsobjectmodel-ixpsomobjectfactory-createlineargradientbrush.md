@@ -7,7 +7,7 @@ old-location: xps\ixpsomobjectfactory_createlineargradientbrush.htm
 old-project: printdocs
 ms.assetid: b829e8fe-5ef0-43d8-b115-9cddbfe1a255
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CreateLinearGradientBrush, CreateLinearGradientBrush method [XPS Documents and Packaging], CreateLinearGradientBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateLinearGradientBrush method, IXpsOMObjectFactory.CreateLinearGradientBrush, IXpsOMObjectFactory::CreateLinearGradientBrush, xps.ixpsomobjectfactory_createlineargradientbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateLinearGradientBrush
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Creates an <a href="https://msdn.microsoft.com/739bf088-0f09-47c1-9b49-6c279395f
 
 ### -param gradStop1 [in]
 
-
-            The <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interface that specifies the  gradient properties at  the beginning of  the gradient's vector. This parameter must not be <b>NULL</b>.
+The <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IXpsOMGradientStop</a> interface that specifies the  gradient properties at  the beginning of  the gradient's vector. This parameter must not be <b>NULL</b>.
 
 
 ### -param gradStop2 [in]
@@ -82,8 +81,7 @@ The <a href="https://msdn.microsoft.com/3e5f693a-a0e4-41cf-a2a6-1f61c8e189e3">XP
 
 ### -param linearGradientBrush [out, retval]
 
-
-            A pointer to the new <a href="https://msdn.microsoft.com/739bf088-0f09-47c1-9b49-6c279395f15b">IXpsOMLinearGradientBrush</a> interface.
+A pointer to the new <a href="https://msdn.microsoft.com/739bf088-0f09-47c1-9b49-6c279395f15b">IXpsOMLinearGradientBrush</a> interface.
 
 
 ## -returns

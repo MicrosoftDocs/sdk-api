@@ -7,7 +7,7 @@ old-location: multimedia\iavifile_info.htm
 old-project: Multimedia
 ms.assetid: cac01da4-b979-4386-8fc7-f47a7771e6f4
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: IAVIFile interface [Windows Multimedia],Info method, IAVIFile.Info, IAVIFile::Info, Info, Info method [Windows Multimedia], Info method [Windows Multimedia],IAVIFile interface, _win32_IAVIFile_Info, multimedia.iavifile_info, vfw/IAVIFile::Info
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,8 +65,7 @@ The <b>Info</b> method returns with information about an AVI file. Called when a
 
 ### -param pfi
 
-
-            A pointer to an <a href="https://msdn.microsoft.com/d3fda342-2ade-41b1-b709-c194f132e015">AVIFILEINFO</a> structure. The method fills the structure with information about the file.
+A pointer to an <a href="https://msdn.microsoft.com/d3fda342-2ade-41b1-b709-c194f132e015">AVIFILEINFO</a> structure. The method fills the structure with information about the file.
 
 
 ### -param lSize
@@ -76,8 +75,7 @@ The size, in bytes, of the buffer specified by <i>pfi</i>.
 
 #### - pf
 
-
-            Pointer to the interface to a file.
+Pointer to the interface to a file.
           
 
 
@@ -85,8 +83,7 @@ The size, in bytes, of the buffer specified by <i>pfi</i>.
 
 
 
-
-            Returns the HRESULT defined by OLE.
+Returns the HRESULT defined by OLE.
           
 
 

@@ -4,10 +4,10 @@ title: WlanGetSecuritySettings function
 author: windows-sdk-content
 description: Gets the security settings associated with a configurable object.
 old-location: nwifi\wlangetsecuritysettings.htm
-old-project: nativewifi
+old-project: NativeWiFi
 ms.assetid: 5e14a70c-c049-4cd1-8675-2b01ed11463f
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: WlanGetSecuritySettings, WlanGetSecuritySettings function [NativeWIFI], nwifi.wlangetsecuritysettings, wlan_opcode_value_type_set_by_group_policy, wlan_opcode_value_type_set_by_user, wlanapi/WlanGetSecuritySettings
 ms.prod: windows
 ms.technology: windows-sdk

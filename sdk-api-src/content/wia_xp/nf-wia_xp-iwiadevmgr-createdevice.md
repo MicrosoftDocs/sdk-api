@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaDevMgr_CreateDevice.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\createdevice.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: CreateDevice, CreateDevice method [WIA], CreateDevice method [WIA],IWiaDevMgr interface, IWiaDevMgr interface [WIA],CreateDevice method, IWiaDevMgr.CreateDevice, IWiaDevMgr::CreateDevice, _wia_IWiaDevMgr_CreateDevice, wia._wia_IWiaDevMgr_CreateDevice, wia_xp/IWiaDevMgr::CreateDevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>IWiaDevMgr::CreateDevice</b> creates a hierarchical tree of <a href="https://msdn.microsoft.com/library/ms630113(v=VS.85).aspx">IWiaItem</a> objects for a Windows Image Acquisition (WIA) device.
+The <b>IWiaDevMgr::CreateDevice</b> creates a hierarchical tree of <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> objects for a Windows Image Acquisition (WIA) device.
 
 
 ## -parameters
@@ -68,9 +68,9 @@ Specifies the unique identifier of the WIA device.
 
 ### -param ppWiaItemRoot [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/ms630113(v=VS.85).aspx">IWiaItem</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a>**</b>
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/library/ms630113(v=VS.85).aspx">IWiaItem</a> interface of the root item in the hierarchical tree for the WIA device.
+Pointer to a pointer to the <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> interface of the root item in the hierarchical tree for the WIA device.
 
 
 ## -returns
@@ -90,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 Applications use the <b>IWiaDevMgr::CreateDevice</b> method to create a device object for the WIA devices specified by the <i>bstrDeviceID</i> parameter. 
 
-When it returns, the <b>IWiaDevMgr::CreateDevice</b> method stores an address of a pointer in the parameter <i>ppWiaItemRoot</i>. The pointer points to the root item of the tree of <a href="https://msdn.microsoft.com/library/ms630113(v=VS.85).aspx">IWiaItem</a> objects created by <b>IWiaDevMgr::CreateDevice</b>. Applications can use this tree of objects to control and retrieve data from the WIA device.
+When it returns, the <b>IWiaDevMgr::CreateDevice</b> method stores an address of a pointer in the parameter <i>ppWiaItemRoot</i>. The pointer points to the root item of the tree of <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> objects created by <b>IWiaDevMgr::CreateDevice</b>. Applications can use this tree of objects to control and retrieve data from the WIA device.
 
 Note that applications must call the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method on the pointers they receive through the <i>ppWiaItemRoot</i> parameter.
 

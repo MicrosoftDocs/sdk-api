@@ -4,10 +4,10 @@ title: IOCTL_DISK_RESET_SNAPSHOT_INFO
 author: windows-sdk-content
 description: Clears all Volume Shadow Copy Service (VSS) hardware-based shadow copy (also called &#0034;snapshot&#0034;) information from the disk.
 old-location: fs\ioctl_disk_reset_snapshot_info.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 522f469e-9630-4fa3-a157-7090c58a9856
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_DISK_RESET_SNAPSHOT_INFO, IOCTL_DISK_RESET_SNAPSHOT_INFO control, IOCTL_DISK_RESET_SNAPSHOT_INFO control code [Files], fs.ioctl_disk_reset_snapshot_info, winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,12 +64,7 @@ To perform this operation, call the
 <td>
 <pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,               // handle to device
-  IOCTL_DISK_RESET_SNAPSHOT_INFO, // dwIoControlCode
-  NULL,                           // lpInBuffer
-  0,                              // nInBufferSize
-  NULL,                           // lpOutBuffer
-  0,                              // nOutBufferSize
-  (LPDWORD) lpBytesReturned,      // number of bytes returned
+  IOCTL_DISK_RESET_SNAPSHOT_INFO, // dwIoControlCodeNULL,                           // lpInBuffer0,                              // nInBufferSizeNULL,                           // lpOutBuffer0,                              // nOutBufferSize(LPDWORD) lpBytesReturned,      // number of bytes returned
   (LPOVERLAPPED) lpOverlapped     // OVERLAPPED structure
 );</pre>
 </td>

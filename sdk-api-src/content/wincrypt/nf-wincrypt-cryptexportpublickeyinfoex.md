@@ -4,10 +4,10 @@ title: CryptExportPublicKeyInfoEx function
 author: windows-sdk-content
 description: Exports the public key information associated with the provider's corresponding private key.
 old-location: security\cryptexportpublickeyinfoex.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 38274222-90b3-4038-86d3-6b2813100ce2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptExportPublicKeyInfoEx, CryptExportPublicKeyInfoEx function [Security], _crypto2_cryptexportpublickeyinfoex, security.cryptexportpublickeyinfoex, wincrypt/CryptExportPublicKeyInfoEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CryptExportPublicKeyInfoEx</b> function exports the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> information associated with the provider's corresponding <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a>. This function allows the application to specify the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key algorithm</a>, overriding the default provided by the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP).
+The <b>CryptExportPublicKeyInfoEx</b> function exports the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> information associated with the provider's corresponding <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a>. This function allows the application to specify the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key algorithm</a>, overriding the default provided by the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP).
 
 
 ## -parameters
@@ -151,8 +150,7 @@ A pointer to a <b>DWORD</b> that contains the size, in bytes, of the buffer poin
 
 
 
-
-						If the function succeeds, the return value is nonzero (<b>TRUE</b>).
+If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
@@ -208,7 +206,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

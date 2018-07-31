@@ -4,10 +4,10 @@ title: ldap_free_controlsA function
 author: windows-sdk-content
 description: Obsolete function which frees an array of LDAPControl structures.
 old-location: ldap\ldap_free_controls.htm
-old-project: ldap
+old-project: LDAP
 ms.assetid: 0c663189-5aa7-4dad-b265-c9af873bf576
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "_ldap_ldap_free_controls, ldap.ldap__free__controls, ldap.ldap_free_controls, ldap_free_controls, ldap_free_controls function [LDAP], ldap_free_controlsA, ldap_free_controlsW, winldap/ldap_free_controls, winldap/ldap_free_controlsA, winldap/ldap_free_controlsW"
 ms.prod: windows
 ms.technology: windows-sdk

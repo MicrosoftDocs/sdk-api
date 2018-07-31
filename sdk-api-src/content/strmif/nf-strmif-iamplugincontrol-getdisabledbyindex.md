@@ -7,7 +7,7 @@ old-location: dshow\iamplugincontrol_getdisabledbyindex.htm
 old-project: DirectShow
 ms.assetid: 7c55e37b-46f1-4283-bea4-3884ae730906
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetDisabledByIndex, GetDisabledByIndex method [DirectShow], GetDisabledByIndex method [DirectShow],IAMPluginControl interface, IAMPluginControl interface [DirectShow],GetDisabledByIndex method, IAMPluginControl.GetDisabledByIndex, IAMPluginControl::GetDisabledByIndex, dshow.iamplugincontrol_getdisabledbyindex, strmif/IAMPluginControl::GetDisabledByIndex
 ms.prod: windows
 ms.technology: windows-sdk

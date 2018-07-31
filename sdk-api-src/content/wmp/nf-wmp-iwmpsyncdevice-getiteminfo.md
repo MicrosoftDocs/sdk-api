@@ -7,7 +7,7 @@ old-location: wmp\iwmpsyncdevice_getiteminfo.htm
 old-project: WMP
 ms.assetid: a25b91b8-fe14-4fde-8b68-4e61515e0e5c
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],getItemInfo method, IWMPSyncDevice.getItemInfo, IWMPSyncDevice::getItemInfo, IWMPSyncDevicegetItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_getiteminfo, wmp/IWMPSyncDevice::getItemInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,11 +68,9 @@ The <b>getItemInfo</b> method retrieves a metadata value from the device.
 
 <table>
 <tr>
-<th>
-                  Name
+<th>Name
                 </th>
-<th>
-                  Retrieves
+<th>Retrieves
                 </th>
 </tr>
 <tr>

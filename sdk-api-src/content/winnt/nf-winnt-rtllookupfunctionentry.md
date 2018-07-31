@@ -4,10 +4,10 @@ title: RtlLookupFunctionEntry function
 author: windows-sdk-content
 description: Searches the active function tables for an entry that corresponds to the specified PC value.
 old-location: base\rtllookupfunctionentry.htm
-old-project: debug
+old-project: Debug
 ms.assetid: 624b97fb-0453-4f47-b6bd-92aa14705e78
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/29/2018
 ms.keywords: RtlLookupFunctionEntry, RtlLookupFunctionEntry function, base.rtllookupfunctionentry, winnt/RtlLookupFunctionEntry
 ms.prod: windows
 ms.technology: windows-sdk

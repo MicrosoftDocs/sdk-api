@@ -4,10 +4,10 @@ title: IEnumPluggableTerminalClassInfo::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumpluggableterminalclassinfo_next.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 6a661738-06e9-49b8-948a-02c61c621fdd
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: IEnumPluggableTerminalClassInfo interface [TAPI 2.2],Next method, IEnumPluggableTerminalClassInfo.Next, IEnumPluggableTerminalClassInfo::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumPluggableTerminalClassInfo interface, _tapi3_ienumpluggableterminalclassinfo_next, tapi3.ienumpluggableterminalclassinfo_next, tapi3if/IEnumPluggableTerminalClassInfo::Next
 ms.prod: windows
 ms.technology: windows-sdk
@@ -141,8 +141,8 @@ The <i>ppElements</i> parameter is not a valid pointer.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/0f7190c4-c696-4749-82f2-20fdbc8651f4">ITPluggableTerminalClassInfo</a> interface returned by <b>IEnumPluggableTerminalClassInfo::Next</b>. The application must call <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/0f7190c4-c696-4749-82f2-20fdbc8651f4">ITPluggableTerminalClassInfo</a> interface returned by <b>IEnumPluggableTerminalClassInfo::Next</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>ITPluggableTerminalClassInfo</b> interface to free resources associated with it.
 
 

@@ -4,10 +4,10 @@ title: CertFindSubjectInCTL function
 author: windows-sdk-content
 description: The CertFindSubjectInCTL function attempts to find the specified subject in a certificate trust list (CTL).
 old-location: security\certfindsubjectinctl.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: e0c81531-e649-45bb-bafe-bced00c7b16a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CTL_ANY_SUBJECT_TYPE, CTL_CERT_SUBJECT_TYPE, CertFindSubjectInCTL, CertFindSubjectInCTL function [Security], _crypto2_certfindsubjectinctl, security.certfindsubjectinctl, wincrypt/CertFindSubjectInCTL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertFindSubjectInCTL</b> function attempts to find the specified subject in a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL). A subject can be identified either by the certificate's whole context or by any unique identifier of the certificate's subject such as the SHA1 <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> of the certificate's issuer and serial number.
+The <b>CertFindSubjectInCTL</b> function attempts to find the specified subject in a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL). A subject can be identified either by the certificate's whole context or by any unique identifier of the certificate's subject such as the SHA1 <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> of the certificate's issuer and serial number.
 
 
 ## -parameters
@@ -129,8 +128,7 @@ Reserved for future use and must be zero.
 
 
 
-
-						If the function succeeds, the return value is the entry, if it is found.
+If the function succeeds, the return value is the entry, if it is found.
 
 If the function fails, the return value is <b>NULL</b>. For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Some possible error codes follow.
@@ -210,7 +208,7 @@ The certificate's hash or the <b>SubjectIdentifier</b> member of the
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate and Certificate Store Maintenance Functions</a>
+<a href="cryptography_functions.htm">Certificate and Certificate Store Maintenance Functions</a>
  
 
  

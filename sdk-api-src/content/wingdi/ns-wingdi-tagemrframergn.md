@@ -7,7 +7,7 @@ old-location: gdi\emrframergn.htm
 old-project: gdi
 ms.assetid: 578a2824-b42e-401d-b4b0-8426440713c6
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: "*PEMRFRAMERGN, EMRFRAMERGN, EMRFRAMERGN structure [Windows GDI], PEMRFRAMERGN, PEMRFRAMERGN structure pointer [Windows GDI], _win32_EMRFRAMERGN_str, gdi.emrframergn, tagEMRFRAMERGN, wingdi/EMRFRAMERGN, wingdi/PEMRFRAMERGN"
 ms.prod: windows
 ms.technology: windows-sdk

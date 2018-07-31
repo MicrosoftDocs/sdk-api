@@ -4,10 +4,10 @@ title: IOCTL_DISK_GET_CACHE_INFORMATION
 author: windows-sdk-content
 description: Retrieves the disk cache configuration data.
 old-location: fs\ioctl_disk_get_cache_information.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 025a92e8-6169-4d7e-9029-f22acb2bdc9f
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_DISK_GET_CACHE_INFORMATION, IOCTL_DISK_GET_CACHE_INFORMATION control, IOCTL_DISK_GET_CACHE_INFORMATION control code [Files], base.ioctl_disk_get_cache_information, fs.ioctl_disk_get_cache_information, winioctl/IOCTL_DISK_GET_CACHE_INFORMATION
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,13 +61,9 @@ To perform this operation, call the
 </tr>
 <tr>
 <td>
-<pre>
-BOOL DeviceIoControl(
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,                 // handle to device
-  IOCTL_DISK_GET_CACHE_INFORMATION, // dwIoControlCode
-  NULL,                             // lpInBuffer
-  0,                                // nInBufferSize
-  (LPVOID) lpOutBuffer,             // output buffer
+  IOCTL_DISK_GET_CACHE_INFORMATION, // dwIoControlCodeNULL,                             // lpInBuffer0,                                // nInBufferSize(LPVOID) lpOutBuffer,             // output buffer
   (DWORD) nOutBufferSize,           // size of output buffer
   (LPDWORD) lpBytesReturned,        // number of bytes returned
   (LPOVERLAPPED) lpOverlapped       // OVERLAPPED structure

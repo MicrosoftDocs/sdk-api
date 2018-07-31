@@ -7,7 +7,7 @@ old-location: gdi\metaheader.htm
 old-project: gdi
 ms.assetid: 3ad5be24-9558-442e-8c77-dd6a7d33c208
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPMETAHEADER, *PMETAHEADER, METAHEADER, METAHEADER structure [Windows GDI], PMETAHEADER, PMETAHEADER structure pointer [Windows GDI], _win32_METAHEADER_str, gdi.metaheader, tagMETAHEADER, wingdi/METAHEADER, wingdi/PMETAHEADER"
 ms.prod: windows
 ms.technology: windows-sdk

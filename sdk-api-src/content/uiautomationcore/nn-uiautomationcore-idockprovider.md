@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IDockProvider.htm
 old-project: WinAuto
 ms.assetid: 106ca4b4-1304-4942-88a4-79a3895b552f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IDockProvider, IDockProvider interface [Windows Accessibility], IDockProvider interface [Windows Accessibility],described, uiauto.uiauto_IDockProvider, uiauto_IDockProvider, uiautomationcore/IDockProvider, winauto.uiauto_IDockProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,8 +118,7 @@ Indicates the current docking position of this element.
         control in the docking container.
         
 
-
-        Controls are docked relative to each other based on their current z-order; 
+Controls are docked relative to each other based on their current z-order; 
         the higher their z-order placement, the farther they are placed from the specified edge of the docking container.
         
 

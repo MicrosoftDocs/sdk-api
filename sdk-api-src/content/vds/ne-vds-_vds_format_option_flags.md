@@ -4,10 +4,10 @@ title: "_VDS_FORMAT_OPTION_FLAGS"
 author: windows-sdk-content
 description: Defines the set of valid formatting options for the IVdsDiskPartitionMF2::FormatPartitionEx2 method.
 old-location: base\vds_format_option_flags.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 75c92a9a-36c9-4c8d-90f2-a2b88cd8a7b5
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: VDS_FORMAT_OPTION_FLAGS, VDS_FORMAT_OPTION_FLAGS enumeration, VDS_FSOF_COMPRESSION, VDS_FSOF_DUPLICATE_METADATA, VDS_FSOF_FORCE, VDS_FSOF_NONE, VDS_FSOF_QUICK, _VDS_FORMAT_OPTION_FLAGS, base.vds_format_option_flags, vds/VDS_FORMAT_OPTION_FLAGS, vds/VDS_FSOF_COMPRESSION, vds/VDS_FSOF_DUPLICATE_METADATA, vds/VDS_FSOF_FORCE, vds/VDS_FSOF_NONE, vds/VDS_FSOF_QUICK
 ms.prod: windows
 ms.technology: windows-sdk

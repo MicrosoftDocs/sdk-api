@@ -7,7 +7,7 @@ old-location: wsw\wsremovemappedheader.htm
 old-project: wsw
 ms.assetid: aa662c92-4fb4-47af-b260-a3dedf4c6c9a
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsRemoveMappedHeader, WsRemoveMappedHeader function [Web Services for Windows], webservices/WsRemoveMappedHeader, wsw.wsremovemappedheader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Removes all instances of a mapped header from the message.
+Removes all instances of a mapped header from the message.
             
 
 
@@ -63,26 +62,22 @@ req.product: Windows Address Book 5.0
 
 ### -param message [in]
 
-
-                    The message to set the header in.
+The message to set the header in.
                 
 
-
-                    The message can be in any state but <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+The message can be in any state but <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 
 ### -param headerName [in]
 
-
-                    The name of the mapped header to remove.
+The name of the mapped header to remove.
                 
 
 
 ### -param error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -104,8 +99,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    One or more of the parameters are incorrect.
+One or more of the parameters are incorrect.
                 
 
 </td>
@@ -131,8 +125,7 @@ This function may return other errors not listed above.
 
 
 
-
-                A message may contain additional transport-specific information that is
+A message may contain additional transport-specific information that is
                 not part of the message envelope.  This transport-specific information
                 can be exposed programmatically as headers of the Message object.
                 This function is used to remove mapped headers from the message object.

@@ -7,7 +7,7 @@ old-location: wes\evtexportlog.htm
 old-project: WES
 ms.assetid: c177029f-84e3-41ec-bbdb-26b0c1bf481f
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtExportLog, EvtExportLog function [EventLog], wes.evtexportlog, winevt/EvtExportLog
 ms.prod: windows
 ms.technology: windows-sdk

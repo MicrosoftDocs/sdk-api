@@ -7,7 +7,7 @@ old-location: gdi\emrcolorcorrectpalette.htm
 old-project: gdi
 ms.assetid: 12e31e22-b9ac-454d-a423-b3fee582fcba
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: "*PEMRCOLORCORRECTPALETTE, EMRCOLORCORRECTPALETTE, EMRCOLORCORRECTPALETTE structure [Windows GDI], PEMRCOLORCORRECTPALETTE, PEMRCOLORCORRECTPALETTE structure pointer [Windows GDI], _win32_EMRCOLORCORRECTPALETTE_str, gdi.emrcolorcorrectpalette, tagCOLORCORRECTPALETTE, wingdi/EMRCOLORCORRECTPALETTE, wingdi/PEMRCOLORCORRECTPALETTE"
 ms.prod: windows
 ms.technology: windows-sdk

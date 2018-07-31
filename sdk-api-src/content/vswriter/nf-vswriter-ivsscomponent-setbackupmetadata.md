@@ -4,10 +4,10 @@ title: IVssComponent::SetBackupMetadata
 author: windows-sdk-content
 description: The SetBackupMetadata method sets backup metadata with the component.
 old-location: base\ivsscomponent_setbackupmetadata.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 96d0a581-87a5-4f97-b23f-08e90a805de1
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: IVssComponent interface [VSS],SetBackupMetadata method, IVssComponent.SetBackupMetadata, IVssComponent::SetBackupMetadata, SetBackupMetadata, SetBackupMetadata method [VSS], SetBackupMetadata method [VSS],IVssComponent interface, _win32_ivsscomponent_setbackupmetadata, base.ivsscomponent_setbackupmetadata, vswriter/IVssComponent::SetBackupMetadata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,18 +52,16 @@ req.product: Windows UI
 ## -description
 
 
-
-    The 
+The 
     <b>SetBackupMetadata</b> method sets backup
     metadata with the component.
    
 
 A writer can call this method only during a backup operation.
 
-
-    This method cannot be called while handling a 
-    <a href="https://msdn.microsoft.com/library/Aa384652(v=VS.85).aspx">BackupComplete</a> (<a href="https://msdn.microsoft.com/77d0621d-81bd-4d53-8e5d-f5d3bfd86013">CVssWriter::OnBackupComplete</a>) or 
-    <a href="https://msdn.microsoft.com/library/Aa384652(v=VS.85).aspx">BackupShutdown</a> (<a href="https://msdn.microsoft.com/4b6d5efe-703b-4245-81d8-e2fc7f650d4b">CVssWriter::OnBackupShutdown</a>) event.
+This method cannot be called while handling a 
+    <a href="vssgloss_b.htm">BackupComplete</a> (<a href="https://msdn.microsoft.com/77d0621d-81bd-4d53-8e5d-f5d3bfd86013">CVssWriter::OnBackupComplete</a>) or 
+    <a href="vssgloss_b.htm">BackupShutdown</a> (<a href="https://msdn.microsoft.com/4b6d5efe-703b-4245-81d8-e2fc7f650d4b">CVssWriter::OnBackupShutdown</a>) event.
    
 
 
@@ -88,8 +86,7 @@ A <b>NULL</b>-terminated wide character string that contains the backup metadata
 
 
 
-
-      The following are the valid return codes for this method.
+The following are the valid return codes for this method.
      
 
 <table>
@@ -148,8 +145,7 @@ Private metadata has already been written for this component.
 </dl>
 </td>
 <td width="60%">
-
-        This method was not called by a writer or, if called by a writer, it either was not called during a backup
+This method was not called by a writer or, if called by a writer, it either was not called during a backup
         operation or was called while handling a 
         BackupComplete or 
         BackupShutdown event.

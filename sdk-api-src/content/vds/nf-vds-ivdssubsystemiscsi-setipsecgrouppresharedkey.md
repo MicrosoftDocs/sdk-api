@@ -2,12 +2,12 @@
 UID: NF:vds.IVdsSubSystemIscsi.SetIpsecGroupPresharedKey
 title: IVdsSubSystemIscsi::SetIpsecGroupPresharedKey
 author: windows-sdk-content
-description: Not supported. This method is reserved for future use.
+description: Not supported.This method is reserved for future use.
 old-location: base\ivdssubsystemiscsi_setipsecgrouppresharedkey.htm
-old-project: vds
+old-project: VDS
 ms.assetid: f4a06e2b-09c9-438b-ba5b-b12bb846743b
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: IVdsSubSystemIscsi interface,SetIpsecGroupPresharedKey method, IVdsSubSystemIscsi.SetIpsecGroupPresharedKey, IVdsSubSystemIscsi::SetIpsecGroupPresharedKey, SetIpsecGroupPresharedKey, SetIpsecGroupPresharedKey method, SetIpsecGroupPresharedKey method,IVdsSubSystemIscsi interface, base.ivdssubsystemiscsi_setipsecgrouppresharedkey, vds/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey, vdshwprv/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,8 +56,7 @@ req.product: Windows UI
 
 Not supported.
 
-
-   This 
+This 
    method is reserved for future use.
    
 

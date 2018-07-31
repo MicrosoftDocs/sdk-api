@@ -4,10 +4,10 @@ title: CreatePrivateNamespaceA function
 author: windows-sdk-content
 description: Creates a private namespace.
 old-location: base\createprivatenamespace.htm
-old-project: sync
+old-project: Sync
 ms.assetid: bb6331b0-88cb-4695-b159-6e8750440a69
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/29/2018
 ms.keywords: CreatePrivateNamespace, CreatePrivateNamespace function, CreatePrivateNamespaceA, CreatePrivateNamespaceW, base.createprivatenamespace, winbase/CreatePrivateNamespace, winbase/CreatePrivateNamespaceA, winbase/CreatePrivateNamespaceW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,8 +89,7 @@ The system supports multiple private namespaces with the same name, as long as t
 
 If the function succeeds, it returns a handle to the new namespace. 
 
-
-       If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
      
 

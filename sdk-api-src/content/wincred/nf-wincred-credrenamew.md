@@ -4,10 +4,10 @@ title: CredRenameW function
 author: windows-sdk-content
 description: CredRename is no longer supported.
 old-location: security\credrename.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: e598f2ae-f975-4dd2-bf0b-e2fd96d4c940
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: CredRename, CredRename function [Security], CredRenameA, CredRenameW, _cred_credrename, security.credrename, wincred/CredRename, wincred/CredRenameA, wincred/CredRenameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,8 +87,7 @@ Flags to control the operation of the function. Currently reserved and must be z
 
 
 
-
-						The function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function can be called to get a more specific status code. The following status codes can be returned:
+The function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function can be called to get a more specific status code. The following status codes can be returned:
 
 <ul>
 <li>ERROR_NOT_FOUND 

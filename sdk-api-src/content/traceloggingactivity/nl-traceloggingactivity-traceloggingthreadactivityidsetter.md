@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingthreadactivityidsetter.htm
 old-project: tracelogging
 ms.assetid: 16E6E61C-0A3D-4B15-901B-E1302EBF1D1C
 ms.author: windowssdkdev
-ms.date: 04/27/2018
+ms.date: 07/29/2018
 ms.keywords: TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSetter class, TraceLoggingThreadActivityIdSetter class,described, tracelogging.traceloggingthreadactivityidsetter, traceloggingactivity/TraceLoggingThreadActivityIdSetter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,8 +96,7 @@ Restores the original activity ID to the thread.
 
 
 
-
-           All activity that occurs in a thread will be tagged with the associated activity id for the life of this object or until a new activity is nested in the thread. That new nested id will take precedence over the <b>TraceLoggingThreadActivityIdSetter</b> object.
+All activity that occurs in a thread will be tagged with the associated activity id for the life of this object or until a new activity is nested in the thread. That new nested id will take precedence over the <b>TraceLoggingThreadActivityIdSetter</b> object.
          
 
 <div class="alert"><b>Caution</b>  <p class="note">Only use this class when you can guarantee that all activities for this thread are fully nested. In DEBUG builds, the class will raise an assertion during its Stop event, if it detects incorrect activity nesting, or if the Stop event occurs on a thread other than the thread used to start it.

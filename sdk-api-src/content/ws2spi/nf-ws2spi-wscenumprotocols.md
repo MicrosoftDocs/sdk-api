@@ -4,10 +4,10 @@ title: WSCEnumProtocols function
 author: windows-sdk-content
 description: The WSCEnumProtocols function retrieves information about available transport protocols.
 old-location: winsock\wscenumprotocols_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: c2e5332f-3327-4624-96b4-8e321795961d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: WSCEnumProtocols, WSCEnumProtocols function [Winsock], _win32_wscenumprotocols_2, winsock.wscenumprotocols_2, ws2spi/WSCEnumProtocols
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>WSCEnumProtocols</b> function retrieves information about available transport protocols.
 
 
@@ -88,8 +87,7 @@ A pointer to the error code.
 
 
 
-
-						If no error occurs, 
+If no error occurs, 
 <b>WSCEnumProtocols</b> returns the number of protocols to be reported on. Otherwise, a value of SOCKET_ERROR is returned and a specific error code is available in <i>lpErrno</i>.
 
 <table>
@@ -100,7 +98,7 @@ A pointer to the error code.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -111,7 +109,7 @@ One of more of the arguments is not in a valid part of the user address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -122,7 +120,7 @@ Indicates that one of the specified parameters was invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">

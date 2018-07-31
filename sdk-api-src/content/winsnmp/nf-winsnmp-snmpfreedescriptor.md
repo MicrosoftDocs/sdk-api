@@ -4,10 +4,10 @@ title: SnmpFreeDescriptor function
 author: windows-sdk-content
 description: A WinSNMP application uses the SnmpFreeDescriptor function to inform the Microsoft WinSNMP implementation that it no longer requires access to a descriptor object.
 old-location: snmp\snmpfreedescriptor.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: 535f728d-6964-47b6-9913-7cd38356053d
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: SnmpFreeDescriptor, SnmpFreeDescriptor function [SNMP], _snmp_snmpfreedescriptor, snmp.snmpfreedescriptor, winsnmp/SnmpFreeDescriptor
 ms.prod: windows
 ms.technology: windows-sdk

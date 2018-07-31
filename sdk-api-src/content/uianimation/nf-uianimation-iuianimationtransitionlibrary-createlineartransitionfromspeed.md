@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary_createlineartransitionfr
 old-project: UIAnimation
 ms.assetid: 0f9ce1c0-8681-456d-8ab5-76214dc529ba
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateLinearTransitionFromSpeed, CreateLinearTransitionFromSpeed method [Windows Animation], CreateLinearTransitionFromSpeed method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateLinearTransitionFromSpeed method, IUIAnimationTransitionLibrary.CreateLinearTransitionFromSpeed, IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed, uianimation.iuianimationtransitionlibrary_createlineartransitionfromspeed, uianimation/IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates a linear-speed transition.
+Creates a linear-speed transition.
 
 
 ## -parameters
@@ -67,14 +66,12 @@ The absolute value of the velocity.
 
 ### -param finalValue [in]
 
-
-                The value of the animation variable at the end of the transition.
+The value of the animation variable at the end of the transition.
 
 
 ### -param transition [out]
 
-
-                The new linear-speed transition.
+The new linear-speed transition.
 
 
 ## -returns

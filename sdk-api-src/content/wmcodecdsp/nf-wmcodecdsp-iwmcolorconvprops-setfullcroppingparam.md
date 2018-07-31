@@ -7,8 +7,8 @@ old-location: mf\iwmcolorconvpropssetfullcroppingparam.htm
 old-project: medfound
 ms.assetid: 73545bbb-6630-463d-ad58-d24937e3b546
 ms.author: windowssdkdev
-ms.date: 07/18/2018
-ms.keywords: IWMColorConvProps interface [Media Foundation],SetFullCroppingParam method, IWMColorConvProps.SetFullCroppingParam, IWMColorConvProps::SetFullCroppingParam, SetFullCroppingParam, SetFullCroppingParam method [Media Foundation], SetFullCroppingParam method [Media Foundation],IWMColorConvProps interface, codecapi.iwmcolorconvpropssetfullcroppingparam, mf.iwmcolorconvpropssetfullcroppingparam, wmcodecdsp/ IWMColorConvProps::SetFullCroppingParam
+ms.date: 07/29/2018
+ms.keywords: IWMColorConvProps interface [Media Foundation],SetFullCroppingParam method, IWMColorConvProps.SetFullCroppingParam, IWMColorConvProps::SetFullCroppingParam, SetFullCroppingParam, SetFullCroppingParam method [Media Foundation], SetFullCroppingParam method [Media Foundation],IWMColorConvProps interface, codecapi.iwmcolorconvpropssetfullcroppingparam, mf.iwmcolorconvpropssetfullcroppingparam, wmcodecdsp/IWMColorConvProps::SetFullCroppingParam
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: method
@@ -49,7 +49,6 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 ## -description
-
 
 
 Sets the source and destination rectangles. 

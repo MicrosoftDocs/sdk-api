@@ -4,10 +4,10 @@ title: TSPI_providerEnumDevices function
 author: windows-sdk-content
 description: TAPI calls the TSPI_providerEnumDevices function before TSPI_providerInit to determine the number of line and phone devices supported by the service provider.
 old-location: tspi\tspi_providerenumdevices.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 5c7c578d-7200-4807-b89b-5bc39ee83e45
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: TSPI_providerEnumDevices, TSPI_providerEnumDevices function [TAPI 2.2], _tspi_tspi_providerenumdevices, tspi.tspi_providerenumdevices, tspi/TSPI_providerEnumDevices
 ms.prod: windows
 ms.technology: windows-sdk

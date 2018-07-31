@@ -7,7 +7,7 @@ old-location: search\_search_ISchemaProvider_LookupAuthoredNamedEntity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\lookupauthorednamedentity.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: ISchemaProvider interface [search],LookupAuthoredNamedEntity method, ISchemaProvider.LookupAuthoredNamedEntity, ISchemaProvider::LookupAuthoredNamedEntity, LookupAuthoredNamedEntity, LookupAuthoredNamedEntity method [search], LookupAuthoredNamedEntity method [search],ISchemaProvider interface, _search_ISchemaProvider_LookupAuthoredNamedEntity, search._search_ISchemaProvider_LookupAuthoredNamedEntity, structuredquery/ISchemaProvider::LookupAuthoredNamedEntity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Finds named entities of a specified type in a tokenized string, and returns the 
 
 ### -param pEntity [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb231373(v=VS.85).aspx">IEntity</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Bb231373(v=VS.85).aspx">IEntity</a> object identifying the type of named entity to locate.
+A pointer to an <a href="https://msdn.microsoft.com/856018d4-5e72-421e-9760-49f5d8d77e79">IEntity</a> object identifying the type of named entity to locate.
 
 
 ### -param pszInputString [in]
@@ -75,7 +75,7 @@ An input string in which to search for named entity keywords.
 
 ### -param pTokenCollection [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Bb231300(v=VS.85).aspx">ITokenCollection</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/e7f5b3ce-dae2-41ec-90ff-9ab49e0301bd">ITokenCollection</a>*</b>
 
 A pointer to the tokenization of the string in the <i>pszInputString</i> parameter.
 
@@ -98,7 +98,7 @@ Receives a pointer to the number of tokens covered by the named entity keyword t
 
 Type: <b>LPWSTR*</b>
 
-Receives a pointer to the value of the named entity that was found, as a Unicode string. The caller must free the string by calling <a href="https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>. An <a href="https://msdn.microsoft.com/library/Bb231364(v=VS.85).aspx">INamedEntity</a> object can be obtained by calling the <a href="https://msdn.microsoft.com/library/Bb231371(v=VS.85).aspx">GetNamedEntity</a> method of <i>pEntity</i> and passing the string that was received in this parameter.
+Receives a pointer to the value of the named entity that was found, as a Unicode string. The caller must free the string by calling <a href="_com_CoTaskMemFree">CoTaskMemFree</a>. An <a href="https://msdn.microsoft.com/1e5dfef8-0f54-4302-97d8-bcbc0edbef03">INamedEntity</a> object can be obtained by calling the <a href="https://msdn.microsoft.com/aa1a5324-3c23-4e6c-9e97-1a08996a6093">GetNamedEntity</a> method of <i>pEntity</i> and passing the string that was received in this parameter.
 
 
 
@@ -108,8 +108,7 @@ Receives a pointer to the value of the named entity that was found, as a Unicode
 
 Type: <b>HRESULT</b>
 
-
-                    Returns S_OK if the token sequence beginning at position <i>cTokensBegin</i> denotes a named entity of the specified (entity) type. If there is no such token sequence, returns S_FALSE.
+Returns S_OK if the token sequence beginning at position <i>cTokensBegin</i> denotes a named entity of the specified (entity) type. If there is no such token sequence, returns S_FALSE.
                 
 
 
@@ -119,7 +118,7 @@ Type: <b>HRESULT</b>
 
 
 
-The method finds only named entities authored with keywords in the schema, not named entities recognized by an <a href="https://msdn.microsoft.com/library/Bb231380(v=VS.85).aspx">IConditionGenerator</a> object.
+The method finds only named entities authored with keywords in the schema, not named entities recognized by an <a href="https://msdn.microsoft.com/30fa2fb6-7dfd-41e1-ab4f-5fd80c8a81ec">IConditionGenerator</a> object.
             
 
 

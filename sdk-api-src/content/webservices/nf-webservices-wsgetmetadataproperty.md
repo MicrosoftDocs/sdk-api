@@ -2,12 +2,12 @@
 UID: NF:webservices.WsGetMetadataProperty
 title: WsGetMetadataProperty function
 author: windows-sdk-content
-description: Retrieves a specified WS_METADATA object property.
+description: Retrieves a specified WS_METADATA object property. The property to retrieve is identified by a WS_METADATA_PROPERTY_ID input parameter.
 old-location: wsw\wsgetmetadataproperty.htm
 old-project: wsw
 ms.assetid: 21d8dbca-e8a5-4b2f-a1f7-951532922024
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetMetadataProperty, WsGetMetadataProperty function [Web Services for Windows], webservices/WsGetMetadataProperty, wsw.wsgetmetadataproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,7 +122,6 @@ The property Id was not supported for this object or the specified buffer was no
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>

@@ -7,7 +7,7 @@ old-location: uianimation\ui_animation_priority_effect.htm
 old-project: UIAnimation
 ms.assetid: 2da8fa3b-0947-46cb-bdb1-725da08b9aaa
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: UI_ANIMATION_PRIORITY_EFFECT, UI_ANIMATION_PRIORITY_EFFECT enumeration [Windows Animation], UI_ANIMATION_PRIORITY_EFFECT_DELAY, UI_ANIMATION_PRIORITY_EFFECT_FAILURE, __MIDL___MIDL_itf_UIAnimation_0000_0008_0001, uianimation.ui_animation_priority_effect, uianimation/UI_ANIMATION_PRIORITY_EFFECT, uianimation/UI_ANIMATION_PRIORITY_EFFECT_DELAY, uianimation/UI_ANIMATION_PRIORITY_EFFECT_FAILURE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-         Defines potential effects on a storyboard if a priority comparison returns false.
+Defines potential effects on a storyboard if a priority comparison returns false.
 
 
 ## -enum-fields
@@ -62,14 +61,12 @@ req.product: Windows XP with SP1 and later
 
 ### -field UI_ANIMATION_PRIORITY_EFFECT_FAILURE
 
-
-              This storyboard might not be successfully scheduled.
+This storyboard might not be successfully scheduled.
 
 
 ### -field UI_ANIMATION_PRIORITY_EFFECT_DELAY
 
-
-              The storyboard will be scheduled, but might start playing later.
+The storyboard will be scheduled, but might start playing later.
 
 
 ## -remarks
@@ -88,8 +85,7 @@ This enumeration is used as the <i>priorityEffect</i> parameter of  <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/82a90bd1-7bcf-4849-bad1-bae425169a2f">
-               IUIAnimationPriorityComparison::HasPriority</a>
+<a href="https://msdn.microsoft.com/82a90bd1-7bcf-4849-bad1-bae425169a2f">IUIAnimationPriorityComparison::HasPriority</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mstv\ianalogtvtuningspace.htm
 old-project: mstv
 ms.assetid: 2b531f09-bf2e-4eb2-abcf-60f64cbee17b
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IAnalogTVTuningSpace, IAnalogTVTuningSpace interface [Microsoft TV Technologies], IAnalogTVTuningSpace interface [Microsoft TV Technologies],described, IAnalogTVTuningSpaceInterface, mstv.ianalogtvtuningspace, tuner/IAnalogTVTuningSpace
 ms.prod: windows
 ms.technology: windows-sdk

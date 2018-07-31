@@ -4,10 +4,10 @@ title: "_WSMAN_PLUGIN_REQUEST"
 author: windows-sdk-content
 description: Specifies information for a plug-in request.
 old-location: winrm\wsman_plugin_request.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 3191f2b3-e754-4f2d-ae8b-11da859c94b7
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: WSMAN_PLUGIN_REQUEST, WSMAN_PLUGIN_REQUEST structure [Windows Remote Management], _WSMAN_PLUGIN_REQUEST, winrm.wsman_plugin_request, wsman/WSMAN_PLUGIN_REQUEST
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 Specifies information for a plug-in request. A pointer to a <b>WSMAN_PLUGIN_REQUEST</b> structure is passed to all operation
 entry points within the plug-in. All result notification methods use this
-pointer to match the result with the request.  All information in the structure will stay valid until the plug-in calls <a href="https://msdn.microsoft.com/6cb47762-edfc-48d7-88ec-d62056ea1751">WSManPluginOperationComplete</a>
-on the operation.
+pointer to match the result with the request.  All information in the structure will stay valid until the plug-in calls <a href="https://msdn.microsoft.com/6cb47762-edfc-48d7-88ec-d62056ea1751">WSManPluginOperationComplete</a>on the operation.
 
 
 ## -struct-fields
@@ -80,7 +79,7 @@ Any call into the plug-in will have the locale on the thread set to the  locale 
 
 ### -field resourceUri
 
-Specifies the <a href="https://msdn.microsoft.com/library/Aa384465(v=VS.85).aspx">resource URI</a> for this operation.
+Specifies the <a href="windows_remote_management_glossary.htm">resource URI</a> for this operation.
 
 
 ### -field operationInfo

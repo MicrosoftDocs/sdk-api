@@ -7,7 +7,7 @@ old-location: wcs\IDeviceModelPlugIn_GetNeutralAxis.htm
 old-project: WCS
 ms.assetid: 9a3557e0-d533-4357-aa2a-7e168482927a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: GetNeutralAxis, GetNeutralAxis method [Windows Color System], GetNeutralAxis method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetNeutralAxis method, IDeviceModelPlugIn.GetNeutralAxis, IDeviceModelPlugIn::GetNeutralAxis, _color_IDeviceModelPlugIn::GetNeutralAxis, wcs.IDeviceModelPlugIn_GetNeutralAxis, wcsplugin/IDeviceModelPlugIn::GetNeutralAxis
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ The number of points that are returned.
 
 ### -param pXYZColors [out]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/library/Dd372458(v=VS.85).aspx">XYZColorF</a> structures.
+A pointer to an array of <a href="wcs.gamut_map_model_color_structures">XYZColorF</a> structures.
 
 
 ## -returns

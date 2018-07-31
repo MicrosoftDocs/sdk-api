@@ -4,10 +4,10 @@ title: ITAutomatedPhoneControl::put_AutoStopTonesOnOnHook
 author: windows-sdk-content
 description: The put_AutoStopTonesOnOnHook method sets the AutoStopTonesOnOnHook property for this phone.
 old-location: tapi3\itautomatedphonecontrol_put_autostoptonesononhook.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 0047b631-91fc-47fb-aa38-cedb096a5646
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoStopTonesOnOnHook method, ITAutomatedPhoneControl.put_AutoStopTonesOnOnHook, ITAutomatedPhoneControl::put_AutoStopTonesOnOnHook, _tapi3_itautomatedphonecontrol_put_autostoptonesononhook, put_AutoStopTonesOnOnHook, put_AutoStopTonesOnOnHook method [TAPI 2.2], put_AutoStopTonesOnOnHook method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autostoptonesononhook, tapi3if/ITAutomatedPhoneControl::put_AutoStopTonesOnOnHook
 ms.prod: windows
 ms.technology: windows-sdk

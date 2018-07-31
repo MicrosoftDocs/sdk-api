@@ -4,10 +4,10 @@ title: WinHttpSetOption function
 author: windows-sdk-content
 description: The WinHttpSetOption function sets an Internet option.
 old-location: http\winhttpsetoption.htm
-old-project: winhttp
+old-project: WinHttp
 ms.assetid: bcf1da09-5787-4d2a-82ae-6965e27fa477
 ms.author: windowssdkdev
-ms.date: 03/09/2018
+ms.date: 07/29/2018
 ms.keywords: WinHttpSetOption, WinHttpSetOption function [WinHTTP], http.winhttpsetoption, winhttp.winhttpsetoption_function, winhttp/WinHttpSetOption
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ The <b>WinHttpSetOption</b> function sets an Internet option.
 
 ### -param hInternet [in]
 
-
-						The <a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> handle on which to set data. Be aware  that this can be either a Session handle or a Request handle, depending on what option is being set. For more information about how to determine which handle is appropriate to use in setting a particular option, see the  <a href="https://msdn.microsoft.com/2d0441f4-ddba-4f2a-8861-8803cad6f1ac">Option Flags</a>.
+The <a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> handle on which to set data. Be aware  that this can be either a Session handle or a Request handle, depending on what option is being set. For more information about how to determine which handle is appropriate to use in setting a particular option, see the  <a href="https://msdn.microsoft.com/2d0441f4-ddba-4f2a-8861-8803cad6f1ac">Option Flags</a>.
 
 
 ### -param dwOption [in]

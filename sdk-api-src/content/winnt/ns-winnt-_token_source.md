@@ -4,10 +4,10 @@ title: "_TOKEN_SOURCE"
 author: windows-sdk-content
 description: Identifies the source of an access token.
 old-location: security\token_source.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 9c533327-e4a0-4852-828c-622d190b7d1e
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: "*PTOKEN_SOURCE, PTOKEN_SOURCE, PTOKEN_SOURCE structure pointer [Security], TOKEN_SOURCE, TOKEN_SOURCE structure [Security], _TOKEN_SOURCE, _win32_token_source_str, security.token_source, winnt/PTOKEN_SOURCE, winnt/TOKEN_SOURCE"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The <b>TOKEN_SOURCE</b> structure identifies the source of an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access token</a>.
+The <b>TOKEN_SOURCE</b> structure identifies the source of an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access token</a>.
 
 
 ## -struct-fields

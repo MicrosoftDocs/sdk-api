@@ -4,10 +4,10 @@ title: WlanHostedNetworkStartUsing function
 author: windows-sdk-content
 description: Starts the wireless Hosted Network.
 old-location: nwifi\wlanhostednetworkstartusing.htm
-old-project: nativewifi
+old-project: NativeWiFi
 ms.assetid: 923ffc09-f378-442c-a891-34b0c0d04c41
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: WlanHostedNetworkStartUsing, WlanHostedNetworkStartUsing function [NativeWIFI], nwifi.wlanhostednetworkstartusing, wlanapi/WlanHostedNetworkStartUsing
 ms.prod: windows
 ms.technology: windows-sdk

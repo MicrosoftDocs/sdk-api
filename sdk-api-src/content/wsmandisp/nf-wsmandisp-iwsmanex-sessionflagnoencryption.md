@@ -4,10 +4,10 @@ title: IWSManEx::SessionFlagNoEncryption
 author: windows-sdk-content
 description: Returns the value of the authentication flag WSManFlagNoEncryption for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagnoencryption.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: ec96e873-ecb6-4d89-ada3-41c889544091
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagNoEncryption method, IWSManEx.SessionFlagNoEncryption, IWSManEx::SessionFlagNoEncryption, SessionFlagNoEncryption, SessionFlagNoEncryption method [Windows Remote Management], SessionFlagNoEncryption method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagnoencryption, wsmandisp/IWSManEx::SessionFlagNoEncryption
 ms.prod: windows
 ms.technology: windows-sdk

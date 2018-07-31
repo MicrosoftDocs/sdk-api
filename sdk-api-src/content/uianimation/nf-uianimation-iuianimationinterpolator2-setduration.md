@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationinterpolator2_setduration.htm
 old-project: UIAnimation
 ms.assetid: C1E6EC87-283A-4C56-96C5-531C5C5F5575
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationInterpolator2 interface [Windows Animation],SetDuration method, IUIAnimationInterpolator2.SetDuration, IUIAnimationInterpolator2::SetDuration, SetDuration, SetDuration method [Windows Animation], SetDuration method [Windows Animation],IUIAnimationInterpolator2 interface, uianimation.iuianimationinterpolator2_setduration, uianimation/IUIAnimationInterpolator2::SetDuration
 ms.prod: windows
 ms.technology: windows-sdk

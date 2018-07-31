@@ -7,7 +7,7 @@ old-location: wsw\wssetlistenerproperty.htm
 old-project: wsw
 ms.assetid: 5c494651-3944-4424-8cd4-a6e14c239e80
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsSetListenerProperty, WsSetListenerProperty function [Web Services for Windows], webservices/WsSetListenerProperty, wsw.wssetlistenerproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,8 +80,7 @@ A void pointer to the property value to set.
 
 ### -param valueSize [in]
 
-
-                    The size in bytes  of the property value.
+The size in bytes  of the property value.
                 
 
 

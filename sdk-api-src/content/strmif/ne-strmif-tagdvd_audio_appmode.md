@@ -7,7 +7,7 @@ old-location: dshow\dvd_audio_appmode.htm
 old-project: DirectShow
 ms.assetid: 900fd812-7ca0-4dd8-bb30-3c8eff136939
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: DVD_AUDIO_APPMODE, DVD_AUDIO_APPMODE , DVD_AUDIO_APPMODE enumeration [DirectShow], DVD_AUDIO_APPMODEEnumeration, DVD_AudioMode_Karaoke, DVD_AudioMode_None, DVD_AudioMode_Other, DVD_AudioMode_Surround, dshow.dvd_audio_appmode, strmif/DVD_AUDIO_APPMODE, strmif/DVD_AudioMode_Karaoke, strmif/DVD_AudioMode_None, strmif/DVD_AudioMode_Other, strmif/DVD_AudioMode_Surround, tagDVD_AUDIO_APPMODE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # tagDVD_AUDIO_APPMODE enumeration
@@ -64,29 +63,25 @@ Indicates the current audio mode as retrieved in a call to <a href="https://msdn
 
 ### -field DVD_AudioMode_None
 
-
-            No special audio mode. The <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator Filter</a> will send the audio to the decoder with no special processing.
+No special audio mode. The <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator Filter</a> will send the audio to the decoder with no special processing.
           
 
 
 ### -field DVD_AudioMode_Karaoke
 
-
-            The current audio mode is karaoke content.
+The current audio mode is karaoke content.
           
 
 
 ### -field DVD_AudioMode_Surround
 
-
-            The current audio mode is surround sound.
+The current audio mode is surround sound.
           
 
 
 ### -field DVD_AudioMode_Other
 
-
-            Unrecognized audio mode.
+Unrecognized audio mode.
           
 
 

@@ -7,7 +7,7 @@ old-location: wsw\ws_http_url.htm
 old-project: wsw
 ms.assetid: 36f4dda6-d46a-44cd-b4cd-597fa3298870
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_HTTP_URL, WS_HTTP_URL structure [Web Services for Windows], _WS_HTTP_URL, webservices/WS_HTTP_URL, wsw.ws_http_url
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,12 +61,10 @@ The URL subtype for specifying an HTTP URL.
 
 ### -field url
 
-
 The base type from which this URL subtype and all other URL subtypes derive. The <a href="https://msdn.microsoft.com/e8763719-6ba0-4e5e-bb71-625d36a45eaf">WS_URL_SCHEME_TYPE</a> is <b>WS_URL_HTTP_SCHEME_TYPE</b>.
 
 
 ### -field host
-
 
 The host name.
                 
@@ -74,13 +72,11 @@ The host name.
 
 ### -field port
 
-
 The port number.
                 
 
 
 ### -field portAsString
-
 
 The port number as string.
                 
@@ -88,20 +84,17 @@ The port number as string.
 
 ### -field path
 
-
 The path.
                 
 
 
 ### -field query
 
-
 The query.
                 
 
 
 ### -field fragment
-
 
 The fragment.
                 
@@ -111,8 +104,7 @@ The fragment.
 
 
 
-
-                If used with the <a href="https://msdn.microsoft.com/67147b71-ca3a-4a17-a4f1-6ba608eca742">WsDecodeUrl</a> field, portAsString is a zero-length string if no port is specified in url.
+If used with the <a href="https://msdn.microsoft.com/67147b71-ca3a-4a17-a4f1-6ba608eca742">WsDecodeUrl</a> field, portAsString is a zero-length string if no port is specified in url.
             
 
 

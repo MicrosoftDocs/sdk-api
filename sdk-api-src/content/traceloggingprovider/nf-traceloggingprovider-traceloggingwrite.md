@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingwrite.htm
 old-project: tracelogging
 ms.assetid: BFBC6802-64DC-478E-B09D-F550135994AB
 ms.author: windowssdkdev
-ms.date: 04/27/2018
+ms.date: 07/29/2018
 ms.keywords: TraceLoggingWrite, TraceLoggingWrite macro, tracelogging.traceloggingwrite, traceloggingprovider/TraceLoggingWrite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,12 +78,10 @@ Additional parameters added to the event. Up to 99 optional parameters may be sp
 
 
 
-
-       You might get an error that a line is too long or the compiler is out of heap space when you submit optional parameters. This may occur because a line of code is longer than the maximum length allowed by the compiler. In this case, the parameters are too complex and you need to remove some from the macro to get it to work. 
+You might get an error that a line is too long or the compiler is out of heap space when you submit optional parameters. This may occur because a line of code is longer than the maximum length allowed by the compiler. In this case, the parameters are too complex and you need to remove some from the macro to get it to work. 
      
 
-
-       The maximum number of event data descriptors is 128. Since each parameter can have 0, 1, or 2, it is possible to hit the data descriptor limit before the argument limit. In addition, the maximum number of bytes per event is 65536, which includes headers, so actual maximum number may be less than this.
+The maximum number of event data descriptors is 128. Since each parameter can have 0, 1, or 2, it is possible to hit the data descriptor limit before the argument limit. In addition, the maximum number of bytes per event is 65536, which includes headers, so actual maximum number may be less than this.
      
 
 

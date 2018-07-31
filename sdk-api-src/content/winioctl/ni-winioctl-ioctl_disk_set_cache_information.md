@@ -4,10 +4,10 @@ title: IOCTL_DISK_SET_CACHE_INFORMATION
 author: windows-sdk-content
 description: Sets the disk configuration data.
 old-location: fs\ioctl_disk_set_cache_information.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: e921da48-9435-41f0-87dd-abb383fd5208
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_DISK_SET_CACHE_INFORMATION, IOCTL_DISK_SET_CACHE_INFORMATION control, IOCTL_DISK_SET_CACHE_INFORMATION control code [Files], base.ioctl_disk_set_cache_information, fs.ioctl_disk_set_cache_information, winioctl/IOCTL_DISK_SET_CACHE_INFORMATION
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,15 +61,11 @@ To perform this operation, call the
 </tr>
 <tr>
 <td>
-<pre>
-BOOL DeviceIoControl(
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,                 // handle to device
-  IOCTL_DISK_SET_CACHE_INFORMATION, // dwIoControlCode
-  (LPVOID) lpInBuffer,              // input buffer
+  IOCTL_DISK_SET_CACHE_INFORMATION, // dwIoControlCode(LPVOID) lpInBuffer,              // input buffer
   (DWORD) nInBufferSize,            // size of input buffer
-  NULL,                             // lpOutBuffer
-  0,                                // nOutBufferSize
-  (LPDWORD) lpBytesReturned,        // number of bytes returned
+  NULL,                             // lpOutBuffer0,                                // nOutBufferSize(LPDWORD) lpBytesReturned,        // number of bytes returned
   (LPOVERLAPPED) lpOverlapped       // OVERLAPPED structure
 );</pre>
 </td>

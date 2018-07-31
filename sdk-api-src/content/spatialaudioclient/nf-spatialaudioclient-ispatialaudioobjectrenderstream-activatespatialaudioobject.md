@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectrenderstream_activatespatialaudioobje
 old-project: CoreAudio
 ms.assetid: 1B99E7FB-0796-4902-9B00-470FD08F8AFA
 ms.author: windowssdkdev
-ms.date: 06/29/2018
+ms.date: 07/29/2018
 ms.keywords: ActivateSpatialAudioObject, ActivateSpatialAudioObject method [Core Audio], ActivateSpatialAudioObject method [Core Audio],ISpatialAudioObjectRenderStream interface, ISpatialAudioObjectRenderStream interface [Core Audio],ActivateSpatialAudioObject method, ISpatialAudioObjectRenderStream.ActivateSpatialAudioObject, ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject, coreaudio.ispatialaudioobjectrenderstream_activatespatialaudioobject, spatialaudioclient/ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject

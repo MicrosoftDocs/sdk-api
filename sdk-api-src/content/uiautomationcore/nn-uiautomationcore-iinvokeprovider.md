@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IInvokeProvider.htm
 old-project: WinAuto
 ms.assetid: e522b8d5-c6f6-4f71-a8c8-4332f2824f72
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IInvokeProvider, IInvokeProvider interface [Windows Accessibility], IInvokeProvider interface [Windows Accessibility],described, uiauto.uiauto_IInvokeProvider, uiauto_IInvokeProvider, uiautomationcore/IInvokeProvider, winauto.uiauto_IInvokeProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,13 +86,11 @@ Sends a request to activate a control and initiate its single, unambiguous actio
 
 
 
-
-        Implemented on a Microsoft UI Automation provider that must 
+Implemented on a Microsoft UI Automation provider that must 
         support the <a href="https://msdn.microsoft.com/6557a03c-fd1f-4e44-8393-fe367d7a17af">Invoke</a> control pattern.
 		
 
-
-        Controls implement <b>IInvokeProvider</b> if the same behavior is not 
+Controls implement <b>IInvokeProvider</b> if the same behavior is not 
         exposed through another  control pattern provider. For example, if 
         the <a href="https://msdn.microsoft.com/9bd2aba1-0751-412c-a6fe-0c10b9baa01e">Invoke</a> method of a control performs the same 
         action as the <a href="https://msdn.microsoft.com/1ac8c1fd-e754-439a-9bcf-92cb0974df91">IExpandCollapseProvider::Expand</a> or <a href="https://msdn.microsoft.com/a4915a1b-9418-4601-9333-f9508d63079a">Collapse</a> 

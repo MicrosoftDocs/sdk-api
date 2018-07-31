@@ -7,7 +7,7 @@ old-location: dshow\iamvideoacceleratornotify_getcreatevideoacceleratordata.htm
 old-project: DirectShow
 ms.assetid: 72e3331d-1e54-4ec7-9972-7e39eaf2707d
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetCreateVideoAcceleratorData, GetCreateVideoAcceleratorData method [DirectShow], GetCreateVideoAcceleratorData method [DirectShow],IAMVideoAcceleratorNotify interface, IAMVideoAcceleratorNotify interface [DirectShow],GetCreateVideoAcceleratorData method, IAMVideoAcceleratorNotify.GetCreateVideoAcceleratorData, IAMVideoAcceleratorNotify::GetCreateVideoAcceleratorData, IAMVideoAcceleratorNotifyGetCreateVideoAcceleratorData, dshow.iamvideoacceleratornotify_getcreatevideoacceleratordata, videoacc/IAMVideoAcceleratorNotify::GetCreateVideoAcceleratorData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-
-        The <b>GetCreateVideoAcceleratorData</b> method gets information needed to create a video accelerator object.
+The <b>GetCreateVideoAcceleratorData</b> method gets information needed to create a video accelerator object.
 
 
 ## -parameters
@@ -68,16 +67,13 @@ Pointer to a GUID that specifies the DXVA profile in use.
 
 ### -param pdwSizeMiscData [out]
 
-
-            Receives the size of the data returned in <i>ppMiscData</i>, in bytes.
+Receives the size of the data returned in <i>ppMiscData</i>, in bytes.
           
 
 
 ### -param ppMiscData [out]
 
-
-            Receives a pointer to a buffer that contains a <b>DXVA_ConnectMode</b>
-           structure. The decoder must call <b>CoTaskMemAlloc</b> to allocate the memory for the structure. The caller must free the memory by calling <b>CoTaskMemFree</b>.
+Receives a pointer to a buffer that contains a <b>DXVA_ConnectMode</b>structure. The decoder must call <b>CoTaskMemAlloc</b> to allocate the memory for the structure. The caller must free the memory by calling <b>CoTaskMemFree</b>.
 
 
 ## -returns

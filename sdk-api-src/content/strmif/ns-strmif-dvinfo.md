@@ -7,7 +7,7 @@ old-location: dshow\dvinfo.htm
 old-project: DirectShow
 ms.assetid: 285a56fc-9c25-4c5a-ae6a-146c17b00e84
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PDVINFO, DVINFO, DVINFO structure [DirectShow], DVINFOStructure, PDVINFO, PDVINFO structure pointer [DirectShow], dshow.dvinfo, strmif/DVINFO, strmif/PDVINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,50 +64,43 @@ The <b>DVINFO</b> structure describes the format of a digital video (DV) stream.
 
 ### -field dwDVAAuxSrc
 
-
-            Specifies the audio auxiliary (AAUX) source pack for the first audio block.
+Specifies the audio auxiliary (AAUX) source pack for the first audio block.
           
 
 
 ### -field dwDVAAuxCtl
 
-
-            Specifies the AAUX source control Pack for the first audio block.
+Specifies the AAUX source control Pack for the first audio block.
           
 
 
 ### -field dwDVAAuxSrc1
 
-
-            Specifies the AAUX source pack for the second audio block.
+Specifies the AAUX source pack for the second audio block.
           
 
 
 ### -field dwDVAAuxCtl1
 
-
-            Specifies the AAUX source control pack for the second audio block.
+Specifies the AAUX source control pack for the second audio block.
           
 
 
 ### -field dwDVVAuxSrc
 
-
-            Specifies the video auxiliary (VAUX) source pack.
+Specifies the video auxiliary (VAUX) source pack.
           
 
 
 ### -field dwDVVAuxCtl
 
-
-            Specifies the VAUX source control pack.
+Specifies the VAUX source control pack.
           
 
 
 ### -field dwDVReserved
 
-
-            Reserved. Set this array to zero.
+Reserved. Set this array to zero.
           
 
 

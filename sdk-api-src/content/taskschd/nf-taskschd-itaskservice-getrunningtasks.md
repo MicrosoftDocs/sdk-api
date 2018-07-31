@@ -4,10 +4,10 @@ title: ITaskService::GetRunningTasks
 author: windows-sdk-content
 description: Gets a collection of running tasks.
 old-location: taskschd\itaskservice_getrunningtasks.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 6248cf51-acd8-4317-9837-99dcf918e816
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetRunningTasks, GetRunningTasks method [Task Scheduler], GetRunningTasks method [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],GetRunningTasks method, ITaskService.GetRunningTasks, ITaskService::GetRunningTasks, taskschd.itaskservice_getrunningtasks, taskschd/ITaskService::GetRunningTasks
 ms.prod: windows
 ms.technology: windows-sdk

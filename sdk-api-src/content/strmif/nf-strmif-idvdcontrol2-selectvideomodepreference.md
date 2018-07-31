@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_selectvideomodepreference.htm
 old-project: DirectShow
 ms.assetid: d970f48e-374f-43de-a59c-6c2e70161f55
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectVideoModePreference method, IDvdControl2.SelectVideoModePreference, IDvdControl2::SelectVideoModePreference, IDvdControl2SelectVideoModePreference, SelectVideoModePreference, SelectVideoModePreference method [DirectShow], SelectVideoModePreference method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectvideomodepreference, strmif/IDvdControl2::SelectVideoModePreference
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,11 +149,9 @@ The following table shows the Annex J command name to which this method name cor
 
 <table>
 <tr>
-<td>
-              Annex J Command Name
+<td>Annex J Command Name
             </td>
-<td>
-              Valid Domains
+<td>Valid Domains
             </td>
 </tr>
 <tr>

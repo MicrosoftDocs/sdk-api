@@ -4,10 +4,10 @@ title: PFXImportCertStore function
 author: windows-sdk-content
 description: Imports a PFX BLOB and returns the handle of a store that contains certificates and any associated private keys.
 old-location: security\pfximportcertstore.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 2c83774a-f2df-4d28-9abd-e39aa507ba88
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CRYPT_EXPORTABLE, CRYPT_MACHINE_KEYSET, CRYPT_USER_KEYSET, CRYPT_USER_PROTECTED, PFXImportCertStore, PFXImportCertStore function [Security], PKCS12_ALLOW_OVERWRITE_KEY, PKCS12_ALWAYS_CNG_KSP, PKCS12_INCLUDE_EXTENDED_PROPERTIES, PKCS12_NO_PERSIST_KEY, PKCS12_PREFER_CNG_KSP, _crypto2_pfximportcertstore, security.pfximportcertstore, wincrypt/PFXImportCertStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>PFXImportCertStore</b> function imports a PFX BLOB and returns the handle of a store that contains certificates and any associated <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private keys</a>.
+The <b>PFXImportCertStore</b> function imports a PFX BLOB and returns the handle of a store that contains certificates and any associated <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private keys</a>.
 
 
 ## -parameters
@@ -222,8 +221,7 @@ Unpack but do not persist the results.
 
 
 
-
-						If the function succeeds, the function returns a handle to a certificate store that contains the imported certificates, including available private keys.
+If the function succeeds, the function returns a handle to a certificate store that contains the imported certificates, including available private keys.
 
 If the function fails, that is, if the password parameter does not contain an exact match with the password used to encrypt the exported packet or if there were any other problems decoding the PFX BLOB, the function returns <b>NULL</b>, and an error code can be found by calling the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
 

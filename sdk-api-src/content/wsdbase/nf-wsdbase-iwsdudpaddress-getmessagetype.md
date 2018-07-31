@@ -4,10 +4,10 @@ title: IWSDUdpAddress::GetMessageType
 author: windows-sdk-content
 description: Gets the message type for this UDP address configuration.
 old-location: ncd\iwsdudpaddress_getmessagetype.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 258d7067-9b2b-4375-8b1a-c1d45cf55788
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: GetMessageType, GetMessageType method, GetMessageType method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetMessageType method, IWSDUdpAddress.GetMessageType, IWSDUdpAddress::GetMessageType, ncd.iwsdudpaddress_getmessagetype, wsdbase/IWSDUdpAddress::GetMessageType
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpixelformatinfo2_supportstransparency.htm
 old-project: wic
 ms.assetid: 953cc1f0-28ee-4717-ac95-73ab39126b27
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWICPixelFormatInfo2 interface [Windows Imaging Component],SupportsTransparency method, IWICPixelFormatInfo2.SupportsTransparency, IWICPixelFormatInfo2::SupportsTransparency, SupportsTransparency, SupportsTransparency method [Windows Imaging Component], SupportsTransparency method [Windows Imaging Component],IWICPixelFormatInfo2 interface, _wic_codec_iwicpixelformatinfo2_supportstransparency, wic._wic_codec_iwicpixelformatinfo2_supportstransparency, wincodec/IWICPixelFormatInfo2::SupportsTransparency
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,8 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-      An indexed pixel format will not return <b>TRUE</b> even though it may have some transparency support.
+An indexed pixel format will not return <b>TRUE</b> even though it may have some transparency support.
 
 
 

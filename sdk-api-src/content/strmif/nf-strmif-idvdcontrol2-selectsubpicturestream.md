@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_selectsubpicturestream.htm
 old-project: DirectShow
 ms.assetid: 0553a0c4-34d3-4774-9a22-acc01c0a832a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectSubpictureStream method, IDvdControl2.SelectSubpictureStream, IDvdControl2::SelectSubpictureStream, IDvdControl2SelectSubpictureStream, SelectSubpictureStream, SelectSubpictureStream method [DirectShow], SelectSubpictureStream method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectsubpicturestream, strmif/IDvdControl2::SelectSubpictureStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Value that specifies the subpicture stream, which must be from 0 through 31, or 
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -189,11 +187,9 @@ The following table shows the Annex J command name to which this method name cor
 
 <table>
 <tr>
-<td>
-              Annex J Command Name
+<td>Annex J Command Name
             </td>
-<td>
-              Valid Domains
+<td>Valid Domains
             </td>
 </tr>
 <tr>

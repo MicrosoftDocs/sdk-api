@@ -7,7 +7,7 @@ old-location: wes\evtcreaterendercontext.htm
 old-project: WES
 ms.assetid: 729cfd74-c158-463d-9247-ee2c75b259d4
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtCreateRenderContext, EvtCreateRenderContext function [EventLog], wes.evtcreaterendercontext, winevt/EvtCreateRenderContext
 ms.prod: windows
 ms.technology: windows-sdk

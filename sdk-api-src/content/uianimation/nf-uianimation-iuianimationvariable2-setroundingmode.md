@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2_setroundingmode.htm
 old-project: UIAnimation
 ms.assetid: D2FCC17B-0584-4317-8BD7-25454E4A553C
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariable2 interface [Windows Animation],SetRoundingMode method, IUIAnimationVariable2.SetRoundingMode, IUIAnimationVariable2::SetRoundingMode, SetRoundingMode, SetRoundingMode method [Windows Animation], SetRoundingMode method [Windows Animation],IUIAnimationVariable2 interface, uianimation.iuianimationvariable2_setroundingmode, uianimation/IUIAnimationVariable2::SetRoundingMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ Returns S_OK if successful; otherwise an <b>HRESULT</b> error code. See <a href=
 
 
 
-
-      An animation variable's rounding mode determines how a floating-point value is converted to an integer.
+An animation variable's rounding mode determines how a floating-point value is converted to an integer.
       The default mode for each variable is <b>UI_ANIMATION_ROUNDING_NEAREST</b>.
 
 
@@ -97,18 +96,15 @@ Returns S_OK if successful; otherwise an <b>HRESULT</b> error code. See <a href=
 
 
 
-<a href="https://msdn.microsoft.com/C878B86A-87AD-457A-802A-9A329B401B08">
-      IUIAnimationVariable2::GetIntegerValue</a>
+<a href="https://msdn.microsoft.com/C878B86A-87AD-457A-802A-9A329B401B08">IUIAnimationVariable2::GetIntegerValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/8B25BE8D-B12F-44B4-AFBF-3E6994BA0771">
-      IUIAnimationVariable2::GetPreviousIntegerValue</a>
+<a href="https://msdn.microsoft.com/8B25BE8D-B12F-44B4-AFBF-3E6994BA0771">IUIAnimationVariable2::GetPreviousIntegerValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/0221207b-4583-44b8-85aa-dc6cd4cd9d25">
-      UI_ANIMATION_ROUNDING_MODE</a>
+<a href="https://msdn.microsoft.com/0221207b-4583-44b8-85aa-dc6cd4cd9d25">UI_ANIMATION_ROUNDING_MODE</a>
  
 
  

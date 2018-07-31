@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard_addtransition.htm
 old-project: UIAnimation
 ms.assetid: c3213e5d-c8f5-406a-bc44-9de7a740b070
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: AddTransition, AddTransition method [Windows Animation], AddTransition method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],AddTransition method, IUIAnimationStoryboard.AddTransition, IUIAnimationStoryboard::AddTransition, uianimation.iuianimationstoryboard_addtransition, uianimation/IUIAnimationStoryboard::AddTransition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Adds a transition to the storyboard.
+Adds a transition to the storyboard.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param variable [in]
 
-
-               The animation variable for which the transition is to be added.
+The animation variable for which the transition is to be added.
 
 
 ### -param transition [in]
@@ -124,23 +122,19 @@ For an example, see <a href="https://msdn.microsoft.com/e2641c93-e520-4749-a98e-
 
 
 
-<a href="https://msdn.microsoft.com/055206d8-ea9e-4013-89ee-2929bfeb2731">
-      IUIAnimationStoryboard::AddKeyframeAfterTransition</a>
+<a href="https://msdn.microsoft.com/055206d8-ea9e-4013-89ee-2929bfeb2731">IUIAnimationStoryboard::AddKeyframeAfterTransition</a>
 
 
 
-<a href="https://msdn.microsoft.com/75db41ef-526b-40aa-a62d-a4262cc8d80e">
-      IUIAnimationStoryboard::AddTransitionBetweenKeyframes</a>
+<a href="https://msdn.microsoft.com/75db41ef-526b-40aa-a62d-a4262cc8d80e">IUIAnimationStoryboard::AddTransitionBetweenKeyframes</a>
 
 
 
-<a href="https://msdn.microsoft.com/99804a2f-82c9-494c-b75d-69e66f1e49ef">
-      IUIAnimationTransition</a>
+<a href="https://msdn.microsoft.com/99804a2f-82c9-494c-b75d-69e66f1e49ef">IUIAnimationTransition</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d256937-b191-499f-9711-05a5ef3b8e18">
-      IUIAnimationTransitionLibrary</a>
+<a href="https://msdn.microsoft.com/7d256937-b191-499f-9711-05a5ef3b8e18">IUIAnimationTransitionLibrary</a>
  
 
  

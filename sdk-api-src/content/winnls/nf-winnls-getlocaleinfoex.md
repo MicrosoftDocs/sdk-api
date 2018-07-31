@@ -7,7 +7,7 @@ old-location: intl\getlocaleinfoex.htm
 old-project: Intl
 ms.assetid: 20294ff2-b783-41a2-92a8-41cd974a2ccb
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: GetLocaleInfoEx, GetLocaleInfoEx function [Internationalization for Windows Applications], _win32_GetLocaleInfoEx, intl.getlocaleinfoex, winnls/GetLocaleInfoEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,8 +98,7 @@ If <i>LCType</i> is set to <a href="https://msdn.microsoft.com/a944bdfc-6c07-4e7
 
 <div class="alert"><b>Note</b>  To get all alternate calendars, the application should use <a href="https://msdn.microsoft.com/5a313af5-e595-49b1-9651-a5afc158c7a7">EnumCalendarInfoEx</a>.</div>
 <div> </div>
-
-            Starting with Windows Vista, your applications should not use <a href="https://msdn.microsoft.com/8f80a941-8ba6-4a0d-92fa-77230fe0a9d1">LOCALE_ILANGUAGE</a> in the <i>LCType</i> parameter to avoid failure or retrieval of unexpected data. Instead, it is recommended for your applications to call <b>GetLocaleInfoEx</b>.
+Starting with Windows Vista, your applications should not use <a href="https://msdn.microsoft.com/8f80a941-8ba6-4a0d-92fa-77230fe0a9d1">LOCALE_ILANGUAGE</a> in the <i>LCType</i> parameter to avoid failure or retrieval of unexpected data. Instead, it is recommended for your applications to call <b>GetLocaleInfoEx</b>.
 
 
 ### -param lpLCData [out, optional]

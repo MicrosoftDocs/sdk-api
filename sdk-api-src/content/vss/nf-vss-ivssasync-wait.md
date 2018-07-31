@@ -4,10 +4,10 @@ title: IVssAsync::Wait
 author: windows-sdk-content
 description: The Wait method waits until an incomplete asynchronous operation finishes.
 old-location: base\ivssasync_wait.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 27be3bb2-de37-47d1-a2da-7b253ace1199
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: IVssAsync interface [VSS],Wait method, IVssAsync.Wait, IVssAsync::Wait, Wait, Wait method [VSS], Wait method [VSS],IVssAsync interface, _win32_ivssasync_wait, base.ivssasync_wait, vss/IVssAsync::Wait
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,8 +118,7 @@ The wait operation failed because the user did not have the correct privileges.
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

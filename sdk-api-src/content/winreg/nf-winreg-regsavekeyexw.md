@@ -4,10 +4,10 @@ title: RegSaveKeyExW function
 author: windows-sdk-content
 description: Saves the specified key and all of its subkeys and values to a registry file, in the specified format.
 old-location: base\regsavekeyex.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: f93b4162-cac4-42f7-bfd4-9e23fff80a03
 ms.author: windowssdkdev
-ms.date: 06/05/2018
+ms.date: 07/29/2018
 ms.keywords: REG_LATEST_FORMAT, REG_NO_COMPRESSION, REG_STANDARD_FORMAT, RegSaveKeyEx, RegSaveKeyEx function, RegSaveKeyExA, RegSaveKeyExW, _win32_regsavekeyex, base.regsavekeyex, winreg/RegSaveKeyEx, winreg/RegSaveKeyExA, winreg/RegSaveKeyExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -177,8 +177,7 @@ You can use the file created by
 <b>RegReplaceKey</b>, or 
 <b>RegRestoreKey</b> for the file will fail.
 
-
-				Using <b>RegSaveKeyEx</b> together with 
+Using <b>RegSaveKeyEx</b> together with 
 <a href="https://msdn.microsoft.com/6267383d-427a-4ae8-b9cc-9c1861d3b7bb">RegRestoreKey</a> to copy subtrees in the registry is not recommended. This method does not trigger notifications and can invalidate handles used by other applications. Instead, use the 
 <a href="https://msdn.microsoft.com/52521ef4-fe59-4766-8828-acb557b0e968">SHCopyKey</a> function or the <a href="https://msdn.microsoft.com/d16f2b47-e537-42b0-90b3-9f9a00e61e76">RegCopyTree</a> function.
 

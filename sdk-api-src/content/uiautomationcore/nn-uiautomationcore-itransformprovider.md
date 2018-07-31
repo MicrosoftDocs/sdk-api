@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITransformProvider.htm
 old-project: WinAuto
 ms.assetid: cdc2f81b-cf69-469f-9139-e9a73cf8c730
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: ITransformProvider, ITransformProvider interface [Windows Accessibility], ITransformProvider interface [Windows Accessibility],described, uiauto.uiauto_ITransformProvider, uiauto_ITransformProvider, uiautomationcore/ITransformProvider, winauto.uiauto_ITransformProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        Provides access 
+Provides access 
         to controls that can be moved, resized, and/or rotated within a two-dimensional space.
         
 
@@ -163,12 +162,10 @@ Indicates whether the control can be rotated.
 
 
 
-
-            Implemented on a Microsoft UI Automation provider that must support the <a href="https://msdn.microsoft.com/e1d862a0-8085-42b4-9710-cf11e1a467cf">Transform</a> control pattern.
+Implemented on a Microsoft UI Automation provider that must support the <a href="https://msdn.microsoft.com/e1d862a0-8085-42b4-9710-cf11e1a467cf">Transform</a> control pattern.
             
 
-
-            Support for this  control pattern is not limited to objects on the desktop. 
+Support for this  control pattern is not limited to objects on the desktop. 
             This  control pattern must also be implemented by the children of a 
             container object as long as the children can be moved, resized, or rotated freely within the boundaries of the container.
             

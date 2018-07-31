@@ -4,10 +4,10 @@ title: "_WSC_PROVIDER_INFO_TYPE"
 author: windows-sdk-content
 description: Enumeration type is used to specify the information class of a layered service protocol (LSP) in Windows Sockets 2.
 old-location: winsock\wsc_provider_info_type.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 7f93a660-6f53-4e3c-a938-54a13b34258d
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ProviderInfoAudit, ProviderInfoLspCategories, WSC_PROVIDER_INFO_TYPE, WSC_PROVIDER_INFO_TYPE enumeration [Winsock], _WSC_PROVIDER_INFO_TYPE, winsock.wsc_provider_info_type, ws2spi/ProviderInfoAudit, ws2spi/ProviderInfoLspCategories, ws2spi/WSC_PROVIDER_INFO_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-<div class="alert"><b>Note</b>  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="https://msdn.microsoft.com/0436f559-20e6-4199-8391-10eb7d85df23">Windows Filtering Platform</a>.</div><div> </div>
-			The Windows Sockets 
+<div class="alert"><b>Note</b>  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="https://msdn.microsoft.com/0436f559-20e6-4199-8391-10eb7d85df23">Windows Filtering Platform</a>.</div><div> </div>The Windows Sockets 
 <b>WSC_PROVIDER_INFO_TYPE</b>enumeration type is used to specify the information class of a layered service protocol (LSP) in Windows Sockets 2.
 
 

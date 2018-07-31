@@ -7,7 +7,7 @@ old-location: wsw\wssetfaulterrorproperty.htm
 old-project: wsw
 ms.assetid: 193664ab-4688-49c9-97e7-ccf2b3e2d7e8
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsSetFaultErrorProperty, WsSetFaultErrorProperty function [Web Services for Windows], webservices/WsSetFaultErrorProperty, wsw.wssetfaulterrorproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Set a Fault property of a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object.
+Set a Fault property of a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object.
             
 
 
@@ -75,8 +74,7 @@ Identifier of the property to set.
 
 ### -param value
 
-
-                    The property value to set.
+The property value to set.
                     The pointer must have an alignment compatible with the type
                     of the property.
                 

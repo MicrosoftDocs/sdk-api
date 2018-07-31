@@ -7,7 +7,7 @@ old-location: wsw\ws_saml_message_security_binding.htm
 old-project: wsw
 ms.assetid: 713afe9a-49b8-419a-b78b-d3b5a4a8d073
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SAML_MESSAGE_SECURITY_BINDING, WS_SAML_MESSAGE_SECURITY_BINDING structure [Web Services for Windows], _WS_SAML_MESSAGE_SECURITY_BINDING, webservices/WS_SAML_MESSAGE_SECURITY_BINDING, wsw.ws_saml_message_security_binding
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,6 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 The security binding subtype for specifying the use of a SAML
 assertion as a message security token.  The SAML token is expected to
 be presented to a service in a WS-Security header according to the
@@ -60,18 +59,14 @@ bindingUsage specified.  This security binding may be included in a
 server side.
            
 
-
-            Only one instance of this binding may be present in a <a href="https://msdn.microsoft.com/b9490f00-877c-4d9f-b361-eaca343cdee0">security description</a>.
+Only one instance of this binding may be present in a <a href="https://msdn.microsoft.com/b9490f00-877c-4d9f-b361-eaca343cdee0">security description</a>.
           This security binding is not supported with the <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_NAMEDPIPE_CHANNEL_BINDING</a>.
-
 
 For a <a href="https://msdn.microsoft.com/574496df-95dc-45f7-8c42-e646aec12e69">federated security</a> scenario that
 involves getting a security token from an issuer and then presenting
-it to a service, one may use <a href="https://msdn.microsoft.com/ee754a7d-73a9-49ae-afc7-b443fbbe0cce">WsRequestSecurityToken</a>
-together with the <a href="https://msdn.microsoft.com/5ca1e67a-11f5-44bb-afe8-c934837d711b">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> on
+it to a service, one may use <a href="https://msdn.microsoft.com/ee754a7d-73a9-49ae-afc7-b443fbbe0cce">WsRequestSecurityToken</a>together with the <a href="https://msdn.microsoft.com/5ca1e67a-11f5-44bb-afe8-c934837d711b">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> on
 the client side, and this binding on the server side.
            
-
 
 The extent of validation performed on the received SAML depends on the
 authenticator specified.  If additional validation is required, the
@@ -79,7 +74,6 @@ application may get the received SAML assertion using
 <a href="https://msdn.microsoft.com/369f7690-6d70-401a-84aa-e5761dc874b5">WsGetMessageProperty</a> with the key <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_SAML_ASSERTION</a> 
 and do further processing.
             
-
 
 With this security binding, no security binding properties may be specified:
             
@@ -92,13 +86,11 @@ With this security binding, no security binding properties may be specified:
 
 ### -field binding
 
-
 The base type from which this security binding subtype and all other security binding subtypes derive.
                 
 
 
 ### -field bindingUsage
-
 
 How the security token corresponding to this security binding should be bound to a message.
                 
@@ -112,12 +104,10 @@ together with another security binding such as the <a href="https://msdn.microso
 channel.
                 
 
-
-                    To use this binding on HTTP without SSL, the security description property <b>WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL</b> must be explicitly set to <b>WS_PROTECTION_LEVEL_NONE</b>. This is not supported on the client or on TCP.
+To use this binding on HTTP without SSL, the security description property <b>WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL</b> must be explicitly set to <b>WS_PROTECTION_LEVEL_NONE</b>. This is not supported on the client or on TCP.
 
 
 ### -field authenticator
-
 
 The authenticator for validating incoming SAML tokens.  This field is
 required.

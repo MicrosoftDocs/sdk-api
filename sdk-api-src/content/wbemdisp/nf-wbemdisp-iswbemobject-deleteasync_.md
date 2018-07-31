@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_deleteasync_.htm
 old-project: WmiSdk
 ms.assetid: b8d67fa5-5217-422b-acbe-5eea6028deeb
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: DeleteAsync_, DeleteAsync_ method [Windows Management Instrumentation], DeleteAsync_ method [Windows Management Instrumentation],ISWbemObject interface, DeleteAsync_ method [Windows Management Instrumentation],SWbemObject object, ISWbemObject interface [Windows Management Instrumentation],DeleteAsync_ method, ISWbemObject.DeleteAsync_, ISWbemObject::DeleteAsync_, SWbemObject object [Windows Management Instrumentation],DeleteAsync_ method, SWbemObject.DeleteAsync_, _hmm_swbemobject.deleteasync_, wbemFlagDontSendStatus, wbemFlagSendStatus, wmi.swbemobject_deleteasync_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,8 +83,7 @@ Causes asynchronous calls to send status updates to the
 
 
 
-#### wbemFlagDontSendStatus (
-0 (0x0))
+#### wbemFlagDontSendStatus (0 (0x0))
 
 Prevents asynchronous calls from sending status updates to the 
 <a href="https://msdn.microsoft.com/abb43916-f952-41fe-a5ba-0428864c0685">OnProgress</a> event handler for the object sink.

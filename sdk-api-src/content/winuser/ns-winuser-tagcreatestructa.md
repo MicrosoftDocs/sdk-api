@@ -7,7 +7,7 @@ old-location: winmsg\createstruct.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\createstruct.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPCREATESTRUCTA, CREATESTRUCT, CREATESTRUCT structure [Windows and Messages], CREATESTRUCTA, CREATESTRUCTW, LPCREATESTRUCT, LPCREATESTRUCT structure pointer [Windows and Messages], _win32_CREATESTRUCT_str, _win32_createstruct_str_cpp, tagCREATESTRUCTA, winmsg.createstruct, winui._win32_createstruct_str, winuser/CREATESTRUCT, winuser/CREATESTRUCTA, winuser/CREATESTRUCTW, winuser/LPCREATESTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Defines the initialization parameters passed to the window procedure of an application. These members are identical to the parameters of the <a href="https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function.
+Defines the initialization parameters passed to the window procedure of an application. These members are identical to the parameters of the <a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a> function.
 
 
 ## -struct-fields
@@ -65,9 +65,9 @@ Defines the initialization parameters passed to the window procedure of an appli
 
 Type: <b>LPVOID</b>
 
-Contains additional data which may be used to create the window. If the window is being created as a result of a call to the <a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a> or <a href="https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function, this member contains the value of the <i>lpParam</i> parameter specified in the function call.
+Contains additional data which may be used to create the window. If the window is being created as a result of a call to the <a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a> or <a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a> function, this member contains the value of the <i>lpParam</i> parameter specified in the function call.
 
-If the window being created is a MDI client window, this member contains a pointer to a <a href="https://msdn.microsoft.com/library/ms632602(v=VS.85).aspx">CLIENTCREATESTRUCT</a> structure. If the window being created is a MDI child window, this member contains a pointer to an <a href="https://msdn.microsoft.com/library/ms644910(v=VS.85).aspx">MDICREATESTRUCT</a> structure.
+If the window being created is a MDI client window, this member contains a pointer to a <a href="https://msdn.microsoft.com/795396d0-4d3b-4e55-b339-cf02cdfd9b46">CLIENTCREATESTRUCT</a> structure. If the window being created is a MDI child window, this member contains a pointer to an <a href="https://msdn.microsoft.com/aac21a17-4302-4174-9d72-15366d964094">MDICREATESTRUCT</a> structure.
 
  If the window is being created from a dialog template, this member is the address of a <b>SHORT</b> value that specifies the size, in bytes, of the window creation data. The value is immediately followed by the creation data. For more information, see the following Remarks section. 
 
@@ -125,7 +125,7 @@ The x-coordinate of the upper left corner of the new window. If the new window i
 
 Type: <b>LONG</b>
 
-The style for the new window. For a list of possible values, see <a href="https://msdn.microsoft.com/library/ms632600(v=VS.85).aspx">Window Styles</a>.
+The style for the new window. For a list of possible values, see <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">Window Styles</a>.
 
 
 ### -field lpszName
@@ -153,7 +153,7 @@ The extended window style for the new window. For a list of possible values, see
 
 
 
-Because the <b>lpszClass</b> member can contain a pointer to a local (and thus inaccessable) atom, do not obtain the class name by using this member. Use the <a href="https://msdn.microsoft.com/library/ms633582(v=VS.85).aspx">GetClassName</a> function instead.
+Because the <b>lpszClass</b> member can contain a pointer to a local (and thus inaccessable) atom, do not obtain the class name by using this member. Use the <a href="https://msdn.microsoft.com/039dd7cd-07cf-4c8a-9287-365d54da2f43">GetClassName</a> function instead.
 
  You should access the data represented by the <b>lpCreateParams</b> member using a pointer that has been declared using the <b>UNALIGNED</b> type, because the pointer may not be <b>DWORD</b> aligned. This is demonstrated in the following example:
 
@@ -188,7 +188,7 @@ PMYDLGDATA pMyDlgdata = (PMYDLGDATA) (((LPCREATESTRUCT) lParam)-&gt;lpCreatePara
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644908(v=VS.85).aspx">About the Multiple Document Interface</a>
+<a href="https://msdn.microsoft.com/35dff281-3b11-4954-85cf-a0f1c9ed346a">About the Multiple Document Interface</a>
 
 
 
@@ -196,15 +196,15 @@ PMYDLGDATA pMyDlgdata = (PMYDLGDATA) (((LPCREATESTRUCT) lParam)-&gt;lpCreatePara
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632679(v=VS.85).aspx">CreateWindow</a>
+<a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
+<a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644910(v=VS.85).aspx">MDICREATESTRUCT</a>
+<a href="https://msdn.microsoft.com/aac21a17-4302-4174-9d72-15366d964094">MDICREATESTRUCT</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: base\createmailslot.htm
 old-project: ipc
 ms.assetid: a2e8199f-4d00-4315-9562-ff30f4fafcb7
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: CreateMailslot, CreateMailslot function, CreateMailslotA, CreateMailslotW, MAILSLOT_WAIT_FOREVER, _win32_createmailslot, base.createmailslot, winbase/CreateMailslot, winbase/CreateMailslotA, winbase/CreateMailslotW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -178,7 +178,7 @@ To write a message to a mailslot, a process uses the
 </table>
  
 
-If <a href="base.createfile">CreateFile</a> specifies a domain or uses the asterisk format to specify the system's primary domain, the application cannot write more than 424 bytes at a time to the mailslot. If the application attempts to do so, the <a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a> function fails and 
+If <a href="base.createfile">CreateFile</a> specifies a domain or uses the asterisk format to specify the system's primary domain, the application cannot write more than 424 bytes at a time to the mailslot. If the application attempts to do so, the <a href="base.writefile">WriteFile</a> function fails and 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns <b>ERROR_BAD_NETPATH</b>.
 
 An application must specify the <b>FILE_SHARE_READ</b> flag when using <a href="base.createfile">CreateFile</a> to retrieve a client handle to a mailslot.
@@ -228,7 +228,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa365747(v=VS.85).aspx">WriteFile</a>
+<a href="base.writefile">WriteFile</a>
  
 
  

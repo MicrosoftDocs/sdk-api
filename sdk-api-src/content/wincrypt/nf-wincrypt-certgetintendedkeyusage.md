@@ -4,10 +4,10 @@ title: CertGetIntendedKeyUsage function
 author: windows-sdk-content
 description: Acquires the intended key usage bytes from a certificate.
 old-location: security\certgetintendedkeyusage.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: d09c3626-f864-4774-8511-3e912f62e520
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertGetIntendedKeyUsage, CertGetIntendedKeyUsage function [Security], _crypto2_certgetintendedkeyusage, security.certgetintendedkeyusage, wincrypt/CertGetIntendedKeyUsage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertGetIntendedKeyUsage</b> function acquires the intended key usage bytes from a certificate. The intended key usage can be in either the szOID_KEY_USAGE ("2.5.29.15") or szOID_KEY_ATTRIBUTES ("2.5.29.2") extension.
+The <b>CertGetIntendedKeyUsage</b> function acquires the intended key usage bytes from a certificate. The intended key usage can be in either the szOID_KEY_USAGE ("2.5.29.15") or szOID_KEY_ATTRIBUTES ("2.5.29.2") extension.
 
 
 ## -parameters
@@ -102,8 +101,7 @@ The size, in bytes, of the buffer pointed to by <i>pbKeyUsage</i>. Currently, th
 
 
 
-
-						If the certificate does not have any intended key usage bytes, <b>FALSE</b> is returned and <i>pbKeyUsage</i> is zeroed. Otherwise, <b>TRUE</b> is returned and up to <i>cbKeyUsage</i> number of bytes are copied into <i>pbKeyUsage</i>. Any remaining bytes not copied are zeroed.
+If the certificate does not have any intended key usage bytes, <b>FALSE</b> is returned and <i>pbKeyUsage</i> is zeroed. Otherwise, <b>TRUE</b> is returned and up to <i>cbKeyUsage</i> number of bytes are copied into <i>pbKeyUsage</i>. Any remaining bytes not copied are zeroed.
 
 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns zero if none of the required extensions is found.
@@ -119,7 +117,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

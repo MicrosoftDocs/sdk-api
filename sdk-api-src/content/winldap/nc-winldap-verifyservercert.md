@@ -4,10 +4,10 @@ title: VERIFYSERVERCERT
 author: windows-sdk-content
 description: Allows a client to evaluate the certificate chain of the server to which it is connected.
 old-location: ldap\verifyservercert.htm
-old-project: ldap
+old-project: LDAP
 ms.assetid: 3c9993b2-8591-46ff-941b-ff16d42650c9
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: VERIFYSERVERCERT, VERIFYSERVERCERT callback, VERIFYSERVERCERT callback function [LDAP], _ldap_verifyservercert, ldap.verifyservercert, winldap/VERIFYSERVERCERT
 ms.prod: windows
 ms.technology: windows-sdk

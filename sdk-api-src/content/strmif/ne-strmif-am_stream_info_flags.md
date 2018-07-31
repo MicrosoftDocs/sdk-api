@@ -7,7 +7,7 @@ old-location: dshow\am_stream_info_flags.htm
 old-project: DirectShow
 ms.assetid: 48f6ab36-f019-4096-b6e7-6f6ebc7c454a
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: AM_STREAM_INFO_DISCARDING, AM_STREAM_INFO_FLAGS, AM_STREAM_INFO_FLAGS , AM_STREAM_INFO_FLAGS enumeration [DirectShow], AM_STREAM_INFO_FLAGSEnumeration, AM_STREAM_INFO_START_DEFINED, AM_STREAM_INFO_STOP_DEFINED, AM_STREAM_INFO_STOP_SEND_EXTRA, dshow.am_stream_info_flags, strmif/AM_STREAM_INFO_DISCARDING, strmif/AM_STREAM_INFO_FLAGS, strmif/AM_STREAM_INFO_START_DEFINED, strmif/AM_STREAM_INFO_STOP_DEFINED, strmif/AM_STREAM_INFO_STOP_SEND_EXTRA
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # AM_STREAM_INFO_FLAGS enumeration
@@ -64,29 +63,25 @@ The <b>AM_STREAM_INFO_FLAGS</b> enumeration defines flags that indicate a pin's 
 
 ### -field AM_STREAM_INFO_START_DEFINED
 
-
-            Indicates that the pin's start time is set.
+Indicates that the pin's start time is set.
           
 
 
 ### -field AM_STREAM_INFO_STOP_DEFINED
 
-
-            Indicates that the pin's stop time is been set.
+Indicates that the pin's stop time is been set.
           
 
 
 ### -field AM_STREAM_INFO_DISCARDING
 
-
-            Indicates that the pin is currently discarding data.
+Indicates that the pin is currently discarding data.
           
 
 
 ### -field AM_STREAM_INFO_STOP_SEND_EXTRA
 
-
-            Indicates that the pin will send one extra sample after it reaches the stop time.
+Indicates that the pin will send one extra sample after it reaches the stop time.
           
 
 

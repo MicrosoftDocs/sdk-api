@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiframework_setuicommandproperty.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\setuicommandproperty.htm
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],SetUICommandProperty method, IUIFramework.SetUICommandProperty, IUIFramework::SetUICommandProperty, SetUICommandProperty, SetUICommandProperty method [Windows Ribbon], SetUICommandProperty method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_SetUICommandProperty, uiribbon/IUIFramework::SetUICommandProperty, windowsribbon.windowsribbon_iuiframework_setuicommandproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows UI
 ## -description
 
 
-
-			Sets a command property, value, or state.
+Sets a command property, value, or state.
 		
 
 
@@ -65,8 +64,7 @@ req.product: Windows UI
 
 Type: <b>UINT32</b>
 
-
-					The ID for the Command, which is specified in the Markup resource file.
+The ID for the Command, which is specified in the Markup resource file.
 				
 
 
@@ -74,8 +72,7 @@ Type: <b>UINT32</b>
 
 Type: <b>REFPROPERTYKEY</b>
 
-
-					The property key of the command property, value, or state.
+The property key of the command property, value, or state.
 				
 
 
@@ -83,8 +80,7 @@ Type: <b>REFPROPERTYKEY</b>
 
 Type: <b>PROPVARIANT</b>
 
-
-					The property, value, or state.
+The property, value, or state.
 				
 
 
@@ -103,8 +99,7 @@ Returns S_OK if successful, otherwise an error value from the following list.
 </tr>
 <tr>
 <td>HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)</td>
-<td>
-					The property, value, or state does not support <b>IUIFramework::SetUICommandProperty</b>. 
+<td>The property, value, or state does not support <b>IUIFramework::SetUICommandProperty</b>. 
 					They may support being set through invalidation only.
 				</td>
 </tr>
@@ -122,9 +117,9 @@ Returns S_OK if successful, otherwise an error value from the following list.
 
 
 
-A limited number of property keys can be set using <b>IUIFramework::SetUICommandProperty</b>. For those properties where <b>IUIFramework::SetUICommandProperty</b> returns <b>HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)</b>, <a href="https://msdn.microsoft.com/library/Dd371375(v=VS.85).aspx">IUIFramework::InvalidateUICommand</a> should be used instead.
+A limited number of property keys can be set using <b>IUIFramework::SetUICommandProperty</b>. For those properties where <b>IUIFramework::SetUICommandProperty</b> returns <b>HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)</b>, <a href="https://msdn.microsoft.com/6f6f6815-5523-42d9-a6b2-a21dd26756c0">IUIFramework::InvalidateUICommand</a> should be used instead.
 
-For more information on how to set a property key for a specific control, see the <a href="https://msdn.microsoft.com/library/Dd940497(v=VS.85).aspx">Windows Ribbon Framework Control Library</a> page for that control.
+For more information on how to set a property key for a specific control, see the <a href="https://msdn.microsoft.com/bda13e51-7e5f-4600-a6bd-9388bffd6ce2">Windows Ribbon Framework Control Library</a> page for that control.
 
 
 
@@ -134,11 +129,11 @@ For more information on how to set a property key for a specific control, see th
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371467(v=VS.85).aspx">IUIFramework</a>
+<a href="https://msdn.microsoft.com/a9b8a30d-dd00-4088-a588-304fde97b84e">IUIFramework</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

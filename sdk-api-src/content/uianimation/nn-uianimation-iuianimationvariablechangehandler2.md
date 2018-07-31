@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariablechangehandler2.htm
 old-project: UIAnimation
 ms.assetid: A8D3B617-43D6-4541-AE98-1332DB5205CE
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariableChangeHandler2, IUIAnimationVariableChangeHandler2 interface [Windows Animation], IUIAnimationVariableChangeHandler2 interface [Windows Animation],described, uianimation.iuianimationvariablechangehandler2, uianimation/IUIAnimationVariableChangeHandler2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IUIAnimationVariableChangeHandler2</b> interface has these methods.
 <a href="https://msdn.microsoft.com/3C885518-8EAC-4123-83A5-5DEB27523DEF">OnValueChanged</a>
 </td>
 <td align="left" width="63%">
-
-         Handles events that occur when the value of an animation variable changes in the specified dimension.
+Handles events that occur when the value of an animation variable changes in the specified dimension.
 
 </td>
 </tr>
@@ -86,9 +85,7 @@ The <b>IUIAnimationVariableChangeHandler2</b> interface has these methods.
 
 
 
-
-        The <a href="https://msdn.microsoft.com/3C885518-8EAC-4123-83A5-5DEB27523DEF">
-         OnValueChanged</a> method receives animation variable value updates as 
+The <a href="https://msdn.microsoft.com/3C885518-8EAC-4123-83A5-5DEB27523DEF">OnValueChanged</a> method receives animation variable value updates as 
          <b>DOUBLE</b> values.
       
          To receive value updates as <b>INT32</b> values, use
@@ -102,8 +99,7 @@ The <b>IUIAnimationVariableChangeHandler2</b> interface has these methods.
 
 
 
-<a href="https://msdn.microsoft.com/7925D462-C3FD-4BD2-806D-66FE822979EF">
-         IUIAnimationVariable2::GetValue</a>
+<a href="https://msdn.microsoft.com/7925D462-C3FD-4BD2-806D-66FE822979EF">IUIAnimationVariable2::GetValue</a>
 
 
 

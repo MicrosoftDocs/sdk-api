@@ -4,10 +4,10 @@ title: WSMAN_PLUGIN_SEND
 author: windows-sdk-content
 description: Defines the send callback for a plug-in.
 old-location: winrm\wsman_plugin_send.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: d287915b-9af9-4b87-9456-224e96e6dc20
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: WSMAN_PLUGIN_SEND, WSMAN_PLUGIN_SEND callback, WSMAN_PLUGIN_SEND callback function [Windows Remote Management], WSManPluginSend, winrm.wsman_plugin_send, wsman/WSMAN_PLUGIN_SEND
 ms.prod: windows
 ms.technology: windows-sdk

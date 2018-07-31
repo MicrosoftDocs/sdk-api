@@ -7,7 +7,7 @@ old-location: gdi\savedc.htm
 old-project: gdi
 ms.assetid: f438cd7f-436f-436c-b32e-67f5558740cb
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: SaveDC, SaveDC function [Windows GDI], _win32_SaveDC, gdi.savedc, wingdi/SaveDC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,8 +103,7 @@ A saved state can be restored by using the <a href="https://msdn.microsoft.com/7
 
 
 
-<a href="https://msdn.microsoft.com/7043edbb-b3ea-4946-a2ba-cae356b04d1d">
-        RestoreDC
+<a href="https://msdn.microsoft.com/7043edbb-b3ea-4946-a2ba-cae356b04d1d">RestoreDC
       </a>
  
 

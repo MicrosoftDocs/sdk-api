@@ -4,10 +4,10 @@ title: linePickupA function
 author: windows-sdk-content
 description: The linePickup function picks up a call alerting at the specified destination address and returns a call handle for the picked-up call.
 old-location: tapi2\linepickup.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 94773ca0-8ea4-443f-9c61-81969dd72a7a
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "_tapi2_linepickup, linePickup, linePickup function [TAPI 2.2], linePickupA, linePickupW, tapi/linePickup, tapi/linePickupA, tapi/linePickupW, tapi2.linepickup"
 ms.prod: windows
 ms.technology: windows-sdk

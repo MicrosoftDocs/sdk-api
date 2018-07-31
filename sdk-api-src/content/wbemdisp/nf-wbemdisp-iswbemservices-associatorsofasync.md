@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_associatorsofasync.htm
 old-project: WmiSdk
 ms.assetid: 3969d90f-d39c-40f1-9328-fc1afbaa53b1
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: AssociatorsOfAsync, AssociatorsOfAsync method [Windows Management Instrumentation], AssociatorsOfAsync method [Windows Management Instrumentation],ISWbemServices interface, AssociatorsOfAsync method [Windows Management Instrumentation],SWbemServices object, ISWbemServices interface [Windows Management Instrumentation],AssociatorsOfAsync method, ISWbemServices.AssociatorsOfAsync, ISWbemServices::AssociatorsOfAsync, SWbemServices object [Windows Management Instrumentation],AssociatorsOfAsync method, SWbemServices.AssociatorsOfAsync, _hmm_swbemservices.associatorsofasync, wbemFlagDontSendStatus, wbemFlagSendStatus, wbemFlagUseAmendedQualifiers, wmi.swbemservices_associatorsofasync
 ms.prod: windows
 ms.technology: windows-sdk

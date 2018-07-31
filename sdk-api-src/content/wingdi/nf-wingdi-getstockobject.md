@@ -7,7 +7,7 @@ old-location: gdi\getstockobject.htm
 old-project: gdi
 ms.assetid: b14ddc05-7e7b-4fc6-b7e3-efe892df7e21
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: ANSI_FIXED_FONT, ANSI_VAR_FONT, BLACK_BRUSH, BLACK_PEN, DC_BRUSH, DC_PEN, DEFAULT_GUI_FONT, DEFAULT_PALETTE, DEVICE_DEFAULT_FONT, DKGRAY_BRUSH, GRAY_BRUSH, GetStockObject, GetStockObject function [Windows GDI], HOLLOW_BRUSH, LTGRAY_BRUSH, NULL_BRUSH, NULL_PEN, OEM_FIXED_FONT, SYSTEM_FIXED_FONT, SYSTEM_FONT, WHITE_BRUSH, WHITE_PEN, _win32_GetStockObject, gdi.getstockobject, wingdi/GetStockObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -310,8 +310,7 @@ The HOLLOW_BRUSH and NULL_BRUSH stock objects are equivalent.
 
 It is not necessary (but it is not harmful) to delete stock objects by calling <a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a>.
 
-
-         Both DC_BRUSH and DC_PEN can be used interchangeably with other stock objects like BLACK_BRUSH and BLACK_PEN. For information on retrieving the current pen or brush color, see <a href="https://msdn.microsoft.com/98844fb1-7ad8-4fbd-be59-9a19065253da">GetDCBrushColor</a> and <a href="https://msdn.microsoft.com/3a1d579f-fbc6-4021-a37e-0184b2cc7d5d">GetDCPenColor</a>. See <a href="https://msdn.microsoft.com/d1be1db8-e6b6-4d60-8a4a-ce218f8d52fc">Setting the Pen or Brush Color</a> for an example of setting colors. The <b>GetStockObject</b> function with an argument of DC_BRUSH or DC_PEN can be used interchangeably with the <a href="https://msdn.microsoft.com/057608eb-7209-4714-bf02-660a13d59016">SetDCPenColor</a> and <a href="https://msdn.microsoft.com/4feed536-2f1d-4a25-8311-7cae303167ca">SetDCBrushColor</a> functions.
+Both DC_BRUSH and DC_PEN can be used interchangeably with other stock objects like BLACK_BRUSH and BLACK_PEN. For information on retrieving the current pen or brush color, see <a href="https://msdn.microsoft.com/98844fb1-7ad8-4fbd-be59-9a19065253da">GetDCBrushColor</a> and <a href="https://msdn.microsoft.com/3a1d579f-fbc6-4021-a37e-0184b2cc7d5d">GetDCPenColor</a>. See <a href="https://msdn.microsoft.com/d1be1db8-e6b6-4d60-8a4a-ce218f8d52fc">Setting the Pen or Brush Color</a> for an example of setting colors. The <b>GetStockObject</b> function with an argument of DC_BRUSH or DC_PEN can be used interchangeably with the <a href="https://msdn.microsoft.com/057608eb-7209-4714-bf02-660a13d59016">SetDCPenColor</a> and <a href="https://msdn.microsoft.com/4feed536-2f1d-4a25-8311-7cae303167ca">SetDCBrushColor</a> functions.
 
 
 #### Examples

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariableintegerchangehandler.htm
 old-project: UIAnimation
 ms.assetid: acd9ff0f-e2e4-4711-9d9c-54624f170ec6
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationVariableIntegerChangeHandler, IUIAnimationVariableIntegerChangeHandler interface [Windows Animation], IUIAnimationVariableIntegerChangeHandler interface [Windows Animation],described, uianimation.iuianimationvariableintegerchangehandler, uianimation/IUIAnimationVariableIntegerChangeHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Defines a method for handling animation variable update events.
+Defines a method for handling animation variable update events.
 
 
 ## -inheritance
@@ -72,12 +71,10 @@ The <b>IUIAnimationVariableIntegerChangeHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e12224a2-c8f3-45eb-a254-d624de16e12d">
-         OnIntegerValueChanged</a>
+<a href="https://msdn.microsoft.com/e12224a2-c8f3-45eb-a254-d624de16e12d">OnIntegerValueChanged</a>
 </td>
 <td align="left" width="63%">
-
-         Handles events that occur when the value of an animation variable changes.
+Handles events that occur when the value of an animation variable changes.
 
 </td>
 </tr>
@@ -89,8 +86,7 @@ The <b>IUIAnimationVariableIntegerChangeHandler</b> interface has these methods.
 
 
 
-<a href="https://msdn.microsoft.com/e12224a2-c8f3-45eb-a254-d624de16e12d">
-         OnIntegerValueChanged</a> receives animation variable value updates as <b>INT32</b> values.
+<a href="https://msdn.microsoft.com/e12224a2-c8f3-45eb-a254-d624de16e12d">OnIntegerValueChanged</a> receives animation variable value updates as <b>INT32</b> values.
       
          To receive value updates as <b>DOUBLE</b> values, use
          the <a href="https://msdn.microsoft.com/1e865f55-d703-4d91-8690-b816b5fe1a89">IUIAnimationVariableChangeHandler::OnValueChanged</a> method.
@@ -103,8 +99,7 @@ The <b>IUIAnimationVariableIntegerChangeHandler</b> interface has these methods.
 
 
 
-<a href="https://msdn.microsoft.com/044fd6a3-6e40-4f4f-8777-1a1a66c91989">
-         IUIAnimationVariable::GetIntegerValue</a>
+<a href="https://msdn.microsoft.com/044fd6a3-6e40-4f4f-8777-1a1a66c91989">IUIAnimationVariable::GetIntegerValue</a>
 
 
 

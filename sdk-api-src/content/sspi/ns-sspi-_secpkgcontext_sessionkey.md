@@ -4,10 +4,10 @@ title: "_SecPkgContext_SessionKey"
 author: windows-sdk-content
 description: The SecPkgContext_SessionKey structure contains information about the session key used for the security context. This structure is returned by the QueryContextAttributes (General) function.
 old-location: security\secpkgcontext_sessionkey.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 88cf437e-3be0-4f12-9058-ad078deed6a1
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PSecPkgContext_SessionKey, PSecPkgContext_SessionKey, PSecPkgContext_SessionKey structure pointer [Security], SecPkgContext_SessionKey, SecPkgContext_SessionKey structure [Security], _SecPkgContext_SessionKey, security.secpkgcontext_sessionkey, sspi/PSecPkgContext_SessionKey, sspi/SecPkgContext_SessionKey"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_SessionKey structure

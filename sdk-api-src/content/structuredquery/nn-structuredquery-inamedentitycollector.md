@@ -7,7 +7,7 @@ old-location: search\_search_INamedEntityCollector.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentitycollector\inamedentitycollector.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: INamedEntityCollector, INamedEntityCollector interface [search], INamedEntityCollector interface [search],described, _search_INamedEntityCollector, search._search_INamedEntityCollector, structuredquery/INamedEntityCollector
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-          Provides a method to accumulate named entities as identified by an <a href="https://msdn.microsoft.com/library/Bb231380(v=VS.85).aspx">IConditionGenerator</a> object. When a query parser parses an input string into condition nodes, the parser invokes an <a href="https://msdn.microsoft.com/library/Bb231380(v=VS.85).aspx">IConditionGenerator</a> object that, in turn, invokes this interface to collect possible named entities in the input string.
+Provides a method to accumulate named entities as identified by an <a href="https://msdn.microsoft.com/30fa2fb6-7dfd-41e1-ab4f-5fd80c8a81ec">IConditionGenerator</a> object. When a query parser parses an input string into condition nodes, the parser invokes an <a href="https://msdn.microsoft.com/30fa2fb6-7dfd-41e1-ab4f-5fd80c8a81ec">IConditionGenerator</a> object that, in turn, invokes this interface to collect possible named entities in the input string.
         
 
 
@@ -76,8 +75,7 @@ The <b>INamedEntityCollector</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
 </td>
 <td align="left" width="63%">
-
-          Adds a single (potential) named entity to this <b>INamedEntityCollector</b> collection, as identified in a tokenized span of the input string being parsed.
+Adds a single (potential) named entity to this <b>INamedEntityCollector</b> collection, as identified in a tokenized span of the input string being parsed.
         
 
 </td>

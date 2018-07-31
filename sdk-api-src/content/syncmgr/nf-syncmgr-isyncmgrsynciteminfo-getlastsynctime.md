@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItemInfo_GetLastSyncTime.htm
 old-project: shell
 ms.assetid: ce6690fc-bc1b-4177-ad4a-76c51d36e908
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: GetLastSyncTime, GetLastSyncTime method [Windows Shell], GetLastSyncTime method [Windows Shell],ISyncMgrSyncItemInfo interface, ISyncMgrSyncItemInfo interface [Windows Shell],GetLastSyncTime method, ISyncMgrSyncItemInfo.GetLastSyncTime, ISyncMgrSyncItemInfo::GetLastSyncTime, _shell_ISyncMgrSyncItemInfo_GetLastSyncTime, shell.ISyncMgrSyncItemInfo_GetLastSyncTime, syncmgr/ISyncMgrSyncItemInfo::GetLastSyncTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,8 +90,7 @@ Sync Center calls this method whenever the <a href="https://msdn.microsoft.com/d
 
 
 
-
-        	The following example shows an implementation of this method that calls a private class function to retrieve the time and date.
+The following example shows an implementation of this method that calls a private class function to retrieve the time and date.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

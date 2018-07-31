@@ -4,10 +4,10 @@ title: GetUrlCacheEntryInfoA function
 author: windows-sdk-content
 description: Retrieves information about a cache entry.
 old-location: wininet\geturlcacheentryinfo.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: 0f70bcef-2d56-4765-a44e-4549b4ae2ced
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: GetUrlCacheEntryInfo, GetUrlCacheEntryInfo function [WinINet], GetUrlCacheEntryInfoA, GetUrlCacheEntryInfoW, _inet_geturlcacheentryinfo_function, wininet.geturlcacheentryinfo, wininet/GetUrlCacheEntryInfo, wininet/GetUrlCacheEntryInfoA, wininet/GetUrlCacheEntryInfoW
 ms.prod: windows
 ms.technology: windows-sdk

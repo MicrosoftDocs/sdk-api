@@ -7,7 +7,7 @@ old-location: smi\isettingsitem_getdatatype.htm
 old-project: SMI
 ms.assetid: 6ccb99aa-35d5-4f0b-a4f3-a42c4579bc4a
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetDataType, GetDataType method [SMI], GetDataType method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetDataType method, ISettingsItem.GetDataType, ISettingsItem::GetDataType, smi.isettingsitem_getdatatype, wcmconfig/ISettingsItem::GetDataType
 ms.prod: windows
 ms.technology: windows-sdk

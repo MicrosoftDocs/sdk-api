@@ -7,7 +7,7 @@ old-location: wia\_wia_WIA_DEV_CAP.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_dev_cap.htm
 ms.author: windowssdkdev
-ms.date: 05/04/2018
+ms.date: 07/29/2018
 ms.keywords: "*PWIA_DEV_CAP, *PWIA_EVENT_HANDLER, PWIA_DEV_CAP, PWIA_DEV_CAP structure pointer [WIA], PWIA_EVENT_HANDLER, PWIA_EVENT_HANDLER structure pointer [WIA], WIA_DEV_CAP, WIA_DEV_CAP structure [WIA], WIA_EVENT_HANDLER, WIA_EVENT_HANDLER structure [WIA], _WIA_DEV_CAP, _wia_WIA_DEV_CAP, wia._wia_WIA_DEV_CAP, wia_xp/PWIA_DEV_CAP, wia_xp/PWIA_EVENT_HANDLER, wia_xp/WIA_DEV_CAP, wia_xp/WIA_EVENT_HANDLER"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Applications use the <b>WIA_DEV_CAP</b> structure to enumerate device capabilities. A device capability is defined by an event or command that the device supports. For more information, see <a href="https://msdn.microsoft.com/library/ms630166(v=VS.85).aspx">IEnumWIA_DEV_CAPS</a>.
+Applications use the <b>WIA_DEV_CAP</b> structure to enumerate device capabilities. A device capability is defined by an event or command that the device supports. For more information, see <a href="https://msdn.microsoft.com/736a8aba-58e0-4b52-a997-ef1fb80473ba">IEnumWIA_DEV_CAPS</a>.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ Applications use the <b>WIA_DEV_CAP</b> structure to enumerate device capabiliti
 
 Type: <b>GUID</b>
 
-Specifies a GUID that identifies the device capability. This member can be set to any of the values specified in <a href="https://msdn.microsoft.com/library/ms630185(v=VS.85).aspx">WIA Device Commands</a> or <a href="https://msdn.microsoft.com/library/ms630188(v=VS.85).aspx">WIA Event Identifiers</a>.
+Specifies a GUID that identifies the device capability. This member can be set to any of the values specified in <a href="https://msdn.microsoft.com/f86a0944-2f2a-467e-a9e8-4cdecfc50175">WIA Device Commands</a> or <a href="https://msdn.microsoft.com/b94221b3-7cab-40d7-850a-fcc4ec8174b5">WIA Event Identifiers</a>.
 
 
 ### -field ulFlags
@@ -84,11 +84,11 @@ Used when enumerating event handlers. The possible values are listed in this tab
 </tr>
 <tr>
 <td>WIA_ACTION_EVENT</td>
-<td>The event is of the action type, so programs that use persistent registration APIs, <a href="https://msdn.microsoft.com/library/ms630147(v=VS.85).aspx">IWiaDevMgr::RegisterEventCallbackProgram</a> and <a href="https://msdn.microsoft.com/library/ms630145(v=VS.85).aspx">IWiaDevMgr::RegisterEventCallbackCLSID</a>, can receive it. </td>
+<td>The event is of the action type, so programs that use persistent registration APIs, <a href="https://msdn.microsoft.com/177438ff-afeb-4499-9870-647c49209a6e">IWiaDevMgr::RegisterEventCallbackProgram</a> and <a href="https://msdn.microsoft.com/71f1f7f9-583a-423c-bf96-2c2596808079">IWiaDevMgr::RegisterEventCallbackCLSID</a>, can receive it. </td>
 </tr>
 <tr>
 <td>WIA_NOTIFICATION_EVENT</td>
-<td>The event is of the notification type, so programs that use the runtime registration function, <a href="https://msdn.microsoft.com/library/ms630146(v=VS.85).aspx">IWiaDevMgr::RegisterEventCallbackInterface</a>, can receive it. </td>
+<td>The event is of the notification type, so programs that use the runtime registration function, <a href="https://msdn.microsoft.com/81a5bb61-5ec6-4c0b-8627-faccaf54d05a">IWiaDevMgr::RegisterEventCallbackInterface</a>, can receive it. </td>
 </tr>
 </table>
  

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimereventhandler_onpreupdate.htm
 old-project: UIAnimation
 ms.assetid: 4f3dcac0-c800-48e5-82d6-b6bc3fb0409b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationTimerEventHandler interface [Windows Animation],OnPreUpdate method, IUIAnimationTimerEventHandler.OnPreUpdate, IUIAnimationTimerEventHandler::OnPreUpdate, OnPreUpdate, OnPreUpdate method [Windows Animation], OnPreUpdate method [Windows Animation],IUIAnimationTimerEventHandler interface, uianimation.iuianimationtimereventhandler_onpreupdate, uianimation/IUIAnimationTimerEventHandler::OnPreUpdate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Handles events that occur before an animation update begins.
+Handles events that occur before an animation update begins.
 
 
 ## -parameters
@@ -100,8 +99,7 @@ For each tick, a timer calls the following sequence of methods:
 
 
 
-<a href="https://msdn.microsoft.com/ff1bae45-2199-4340-a27b-19865d2877f9">
-      SetTimerEventHandler</a>
+<a href="https://msdn.microsoft.com/ff1bae45-2199-4340-a27b-19865d2877f9">SetTimerEventHandler</a>
  
 
  

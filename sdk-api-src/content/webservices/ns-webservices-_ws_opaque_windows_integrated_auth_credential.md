@@ -7,7 +7,7 @@ old-location: wsw\ws_opaque_windows_integrated_auth_credential.htm
 old-project: wsw
 ms.assetid: 9dc8bde7-b70d-4b1f-9b3f-41af9ea7f215
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL structure [Web Services for Windows], _WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, webservices/WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, wsw.ws_opaque_windows_integrated_auth_credential
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,6 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 Type for supplying a Windows Integrated Authentication credential as an opaque handle created by
 SspiPromptForCredentials and the related family of APIs.  This feature
 is available only on Windows 7 and later.
@@ -65,13 +64,11 @@ is available only on Windows 7 and later.
 
 ### -field credential
 
-
 The base type from which this type and all other Windows Integrated Authentication credential types derive.
                 
 
 
 ### -field opaqueAuthIdentity
-
 
 The opaque form of authentication identity. The supplied value must be of the type PSEC_WINNT_AUTH_IDENTITY_OPAQUE.
                 

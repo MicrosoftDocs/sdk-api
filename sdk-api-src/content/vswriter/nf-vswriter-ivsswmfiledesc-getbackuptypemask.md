@@ -4,10 +4,10 @@ title: IVssWMFiledesc::GetBackupTypeMask
 author: windows-sdk-content
 description: The GetBackupTypeMask method returns the file backup specification for the files specified by the current file descriptor as a bit mask (or bitwise OR) of VSS_FILE_SPEC_BACKUP_TYPE values.
 old-location: base\ivsswmfiledesc_getbackuptypemask.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 9d5f3a16-2053-42dd-867d-740c4a34bdb6
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetBackupTypeMask, GetBackupTypeMask method [VSS], GetBackupTypeMask method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetBackupTypeMask method, IVssWMFiledesc.GetBackupTypeMask, IVssWMFiledesc::GetBackupTypeMask, base.ivsswmfiledesc_getbackuptypemask, vswriter/IVssWMFiledesc::GetBackupTypeMask
 ms.prod: windows
 ms.technology: windows-sdk
@@ -136,8 +136,7 @@ The XML document is not valid. Check the event log for details. For more
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
@@ -157,8 +156,7 @@ The XML document is not valid. Check the event log for details. For more
 A file backup specification is specified by a writer when it adds a file specification to a component using the 
     <a href="https://msdn.microsoft.com/5d5a0155-467c-4c42-876e-a1b245cf6f8e">IVssCreateWriterMetadata::AddFilesToFileGroup</a>, 
    <a href="https://msdn.microsoft.com/37ef5e50-127d-4bd0-9d26-04dc7781b3ff">IVssCreateWriterMetadata::AddDatabaseFiles</a>, or 
-   <a href="https://msdn.microsoft.com/09bdbdf3-d757-4d3c-8b8b-f792b6cd4ef1">IVssCreateWriterMetadata::AddDatabaseLogFiles</a>
-   method.
+   <a href="https://msdn.microsoft.com/09bdbdf3-d757-4d3c-8b8b-f792b6cd4ef1">IVssCreateWriterMetadata::AddDatabaseLogFiles</a>method.
 
 
 

@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamprioritization.htm
 old-project: medfound
 ms.assetid: 6eb79c52-dc81-406c-9000-d25ad380e6b2
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: 6eb79c52-dc81-406c-9000-d25ad380e6b2, IMFASFStreamPrioritization, IMFASFStreamPrioritization interface [Media Foundation], IMFASFStreamPrioritization interface [Media Foundation],described, mf.imfasfstreamprioritization, wmcontainer/IMFASFStreamPrioritization
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ The <b>IMFASFStreamPrioritization</b> interface has these methods.
 <a href="https://msdn.microsoft.com/440d2838-0314-45f7-b73b-653fe5535c88">AddStream</a>
 </td>
 <td align="left" width="63%">
-
-          Adds a stream to the stream priority list.
+Adds a stream to the stream priority list.
         
 
 </td>
@@ -88,8 +87,7 @@ The <b>IMFASFStreamPrioritization</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn938510">Clone</a>
 </td>
 <td align="left" width="63%">
-
-          Creates a copy of the stream prioritization object.
+Creates a copy of the stream prioritization object.
         
 
 </td>
@@ -99,8 +97,7 @@ The <b>IMFASFStreamPrioritization</b> interface has these methods.
 <a href="https://msdn.microsoft.com/460a929b-71bf-4f41-9e7a-af04a8f1c10f">GetStream</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the stream number of a stream in the stream priority list.
+Retrieves the stream number of a stream in the stream priority list.
         
 
 </td>
@@ -110,8 +107,7 @@ The <b>IMFASFStreamPrioritization</b> interface has these methods.
 <a href="https://msdn.microsoft.com/8c9dacbb-a952-411e-82df-0c8768d0b3fe">GetStreamCount</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the number of entries in the stream priority list.
+Retrieves the number of entries in the stream priority list.
         
 
 </td>
@@ -121,8 +117,7 @@ The <b>IMFASFStreamPrioritization</b> interface has these methods.
 <a href="https://msdn.microsoft.com/a6139042-9c78-4fe7-8549-655e35be2862">RemoveStream</a>
 </td>
 <td align="left" width="63%">
-
-          Removes a stream from the stream priority list.
+Removes a stream from the stream priority list.
         
 
 </td>

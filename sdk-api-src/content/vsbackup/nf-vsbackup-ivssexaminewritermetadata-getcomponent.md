@@ -4,10 +4,10 @@ title: IVssExamineWriterMetadata::GetComponent
 author: windows-sdk-content
 description: The GetComponent method obtains a Writer Metadata Document for a specified backup component.
 old-location: base\ivssexaminewritermetadata_getcomponent.htm
-old-project: vss
+old-project: VSS
 ms.assetid: fd03ac7c-8398-4972-85f1-2afe13317950
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetComponent, GetComponent method [VSS], GetComponent method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetComponent method, IVssExamineWriterMetadata.GetComponent, IVssExamineWriterMetadata::GetComponent, _win32_ivssexaminewritermetadata_getcomponent, base.ivssexaminewritermetadata_getcomponent, vsbackup/IVssExamineWriterMetadata::GetComponent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,8 +149,7 @@ The specified component does not exist.
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
@@ -167,7 +166,7 @@ The specified component does not exist.
 
 
 
-The caller is responsible for calling <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the resources of the returned 
+The caller is responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release the resources of the returned 
 <a href="https://msdn.microsoft.com/8567ca7f-dc50-4cf2-b3c1-a2ae8d55dc95">IVssWMComponent</a> object.
 
 

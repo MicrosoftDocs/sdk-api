@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_canonicalization_property_id.htm
 old-project: wsw
 ms.assetid: af96e1e7-d7e8-4e38-a8ae-f8f28cf0eda9
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_CANONICALIZATION_PROPERTY_ALGORITHM, WS_XML_CANONICALIZATION_PROPERTY_ID, WS_XML_CANONICALIZATION_PROPERTY_ID enumeration [Web Services for Windows], WS_XML_CANONICALIZATION_PROPERTY_INCLUSIVE_PREFIXES, WS_XML_CANONICALIZATION_PROPERTY_OMITTED_ELEMENT, WS_XML_CANONICALIZATION_PROPERTY_OUTPUT_BUFFER_SIZE, webservices/WS_XML_CANONICALIZATION_PROPERTY_ALGORITHM, webservices/WS_XML_CANONICALIZATION_PROPERTY_ID, webservices/WS_XML_CANONICALIZATION_PROPERTY_INCLUSIVE_PREFIXES, webservices/WS_XML_CANONICALIZATION_PROPERTY_OMITTED_ELEMENT, webservices/WS_XML_CANONICALIZATION_PROPERTY_OUTPUT_BUFFER_SIZE, wsw.ws_xml_canonicalization_property_id
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,6 @@ req.product: Windows Address Book 5.0
 
 Identifies each XML canonicalization property and its associated
         value.  This enumeration is used within the <a href="https://msdn.microsoft.com/79f65ff2-4fa2-4808-b5cb-ad3aa6200260">WS_XML_CANONICALIZATION_PROPERTY</a> structure, which is used as a parameter to <a href="https://msdn.microsoft.com/5dad9485-db3c-4ae0-b053-e1e4f32ad64d">WsStartReaderCanonicalization</a> and <a href="https://msdn.microsoft.com/e9ea26d6-a136-4103-ac67-42e943ea67b5">WsStartWriterCanonicalization</a>.
-      
 
 
 ## -enum-fields
@@ -92,8 +91,7 @@ A <a href="https://msdn.microsoft.com/54095ad5-e9ba-4fa8-92e2-87b3a8950d5c">WS_X
 ### -field WS_XML_CANONICALIZATION_PROPERTY_OUTPUT_BUFFER_SIZE
 
 A <b>ULONG</b> that specifies the size of the buffer in which canonical bytes are accumulated.  Once at least this
-          many bytes are generated, or canonicalization is ended by a call to <a href="https://msdn.microsoft.com/5cacad47-8581-4713-96cb-3b3a863e6327">WsEndReaderCanonicalization</a>
-          or <a href="https://msdn.microsoft.com/169f971e-0cd2-44e7-81fc-059cc3cd357d">WsEndWriterCanonicalization</a>, the canonical bytes are
+          many bytes are generated, or canonicalization is ended by a call to <a href="https://msdn.microsoft.com/5cacad47-8581-4713-96cb-3b3a863e6327">WsEndReaderCanonicalization</a>or <a href="https://msdn.microsoft.com/169f971e-0cd2-44e7-81fc-059cc3cd357d">WsEndWriterCanonicalization</a>, the canonical bytes are
           written to the output specified at the start of canonicalization.  If this is
           not specified, a default buffer size of 1024 is used.
 

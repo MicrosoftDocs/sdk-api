@@ -7,7 +7,7 @@ old-location: wsw\ws_reset_channel_callback.htm
 old-project: wsw
 ms.assetid: 3f3b4995-72ca-4e93-87de-89996f9c43cb
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_RESET_CHANNEL_CALLBACK, WS_RESET_CHANNEL_CALLBACK callback, WS_RESET_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_RESET_CHANNEL_CALLBACK, wsw.ws_reset_channel_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Handles the <a href="https://msdn.microsoft.com/7aca8ae0-44a0-4ec7-87e8-bec9bd17d04b">WsResetChannel</a> call
+Handles the <a href="https://msdn.microsoft.com/7aca8ae0-44a0-4ec7-87e8-bec9bd17d04b">WsResetChannel</a> call
                 for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
             
 
@@ -64,16 +63,14 @@ req.product: Windows Address Book 5.0
 
 ### -param *channelInstance [in]
 
-
-                    The pointer to the state specific to this channel instance,
+The pointer to the state specific to this channel instance,
                     as created by the <a href="https://msdn.microsoft.com/440114f9-2258-4c33-93cd-7185ccf36f76">WS_CREATE_CHANNEL_CALLBACK</a>.
                 
 
 
 ### -param *error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -93,8 +90,7 @@ req.product: Windows Address Book 5.0
 </dl>
 </td>
 <td width="60%">
-
-                    The channel was in an inappropriate state.
+The channel was in an inappropriate state.
                 
 
 </td>
@@ -109,8 +105,7 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                See <a href="https://msdn.microsoft.com/7aca8ae0-44a0-4ec7-87e8-bec9bd17d04b">WsResetChannel</a> for information about the contract
+See <a href="https://msdn.microsoft.com/7aca8ae0-44a0-4ec7-87e8-bec9bd17d04b">WsResetChannel</a> for information about the contract
                 of this API.
             
 

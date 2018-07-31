@@ -7,7 +7,7 @@ old-location: wes\evtopeneventmetadataenum.htm
 old-project: WES
 ms.assetid: e1d2e5d5-89db-4bda-9803-37f26d1fe30f
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: EvtOpenEventMetadataEnum, EvtOpenEventMetadataEnum function [EventLog], wes.evtopeneventmetadataenum, winevt/EvtOpenEventMetadataEnum
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\codecapieventdata.htm
 old-project: DirectShow
 ms.assetid: 04d0177d-ec9d-4f23-abd1-a37c787c24b2
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CodecAPIEventData, CodecAPIEventData structure [DirectShow], CodecAPIEventDataStructure, dshow.codecapieventdata, strmif/CodecAPIEventData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,22 +64,19 @@ The <b>CodecAPIEventData</b> structure contains event data for the <a href="http
 
 ### -field guid
 
-
-            A GUID that identifies the codec event.
+A GUID that identifies the codec event.
           
 
 
 ### -field dataLength
 
-
-            The length of the additional data that follows this structure, in bytes.
+The length of the additional data that follows this structure, in bytes.
           The value can be zero.
 
 
 ### -field reserved
 
-
-            Reserved; do not use.
+Reserved; do not use.
           
 
 
@@ -87,8 +84,7 @@ The <b>CodecAPIEventData</b> structure contains event data for the <a href="http
 
 
 
-This structure may be followed by addition data, depending on the codec event. For more information, see <a href="https://msdn.microsoft.com/87423ddb-7011-40ab-a449-eb43688efb26">ICodecAPI::RegisterForEvent</a>
-    .
+This structure may be followed by addition data, depending on the codec event. For more information, see <a href="https://msdn.microsoft.com/87423ddb-7011-40ab-a449-eb43688efb26">ICodecAPI::RegisterForEvent</a>.
 
 
 

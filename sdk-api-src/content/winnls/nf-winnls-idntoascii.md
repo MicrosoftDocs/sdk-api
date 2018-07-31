@@ -7,7 +7,7 @@ old-location: intl\idntoascii.htm
 old-project: Intl
 ms.assetid: e39aa5c2-3f76-40b2-9948-bbd795c6c525
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: IDN_ALLOW_UNASSIGNED, IDN_EMAIL_ADDRESS, IDN_RAW_PUNYCODE, IDN_USE_STD3_ASCII_RULES, IdnToAscii, IdnToAscii function [Internationalization for Windows Applications], intl.idntoascii, winnls/IdnToAscii
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,8 +58,7 @@ req.product: Windows Address Book 5.0
 
 
 Converts an internationalized domain name (IDN) or another internationalized label to a Unicode (wide character) representation of the ASCII string that represents the name in the Punycode transfer encoding syntax. 
-        <div class="alert"><b>Caution</b>  
-This function implements the <a href="http://go.microsoft.com/fwlink/p/?linkid=161551">RFC 3490: Internationalizing Domain Names in Applications (IDNA)</a> standard algorithm for converting an IDN to Punycode. The standard introduces some security issues. One issue is that glyphs representing certain characters from different scripts might appear similar or even identical. For example, in many fonts, Cyrillic lowercase A ("а") is indistinguishable from Latin lowercase A ("a"). There is no way to tell visually that "example.com" and "exаmple.com" are two different domain names, one with a Latin lowercase A in the name, the other with a Cyrillic lowercase A. For more information about IDN-related security concerns, see <a href="https://msdn.microsoft.com/e0ca356e-f8c1-4845-ae1e-ce2ae8987515">Handling Internationalized Domain Names (IDNs)</a>.</div>
+        <div class="alert"><b>Caution</b>  This function implements the <a href="http://go.microsoft.com/fwlink/p/?linkid=161551">RFC 3490: Internationalizing Domain Names in Applications (IDNA)</a> standard algorithm for converting an IDN to Punycode. The standard introduces some security issues. One issue is that glyphs representing certain characters from different scripts might appear similar or even identical. For example, in many fonts, Cyrillic lowercase A ("а") is indistinguishable from Latin lowercase A ("a"). There is no way to tell visually that "example.com" and "exаmple.com" are two different domain names, one with a Latin lowercase A in the name, the other with a Cyrillic lowercase A. For more information about IDN-related security concerns, see <a href="https://msdn.microsoft.com/e0ca356e-f8c1-4845-ae1e-ce2ae8987515">Handling Internationalized Domain Names (IDNs)</a>.</div>
 <div> </div>
 
 
@@ -176,8 +175,7 @@ The function returns 0 if it does not succeed. To get extended error information
 
 
 
-
-        The function does not null-terminate an output string if the input string length is explicitly specified without a terminating null character. To null-terminate an output string for this function, the application should supply -1 for the <i>cchUnicodeChar</i> parameter or explicitly count the terminating null character for the input string.
+The function does not null-terminate an output string if the input string length is explicitly specified without a terminating null character. To null-terminate an output string for this function, the application should supply -1 for the <i>cchUnicodeChar</i> parameter or explicitly count the terminating null character for the input string.
 
 Note that the function always fails if the input string contains control characters (U+0001 through U+0020) or the "delete" character (U+007F). Since the character U+0000 can appear only as a terminating null character, the function always fails if U+0000 appears anywhere else in the input string.
 

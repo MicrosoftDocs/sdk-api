@@ -4,10 +4,10 @@ title: IVssExamineWriterMetadata::LoadFromXML
 author: windows-sdk-content
 description: The LoadFromXML method loads an XML document that contains a writer's metadata document into an IVssExamineWriterMetadata interface.
 old-location: base\ivssexaminewritermetadata_loadfromxml.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 8a508a2c-1c42-4414-9c54-a78d1e1564a0
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: IVssExamineWriterMetadata interface [VSS],LoadFromXML method, IVssExamineWriterMetadata.LoadFromXML, IVssExamineWriterMetadata::LoadFromXML, LoadFromXML, LoadFromXML method [VSS], LoadFromXML method [VSS],IVssExamineWriterMetadata interface, _win32_ivssexaminewritermetadata_loadfromxml, base.ivssexaminewritermetadata_loadfromxml, vsbackup/IVssExamineWriterMetadata::LoadFromXML
 ms.prod: windows
 ms.technology: windows-sdk
@@ -141,8 +141,7 @@ The XML document is not valid. Check the event log for details. For more informa
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

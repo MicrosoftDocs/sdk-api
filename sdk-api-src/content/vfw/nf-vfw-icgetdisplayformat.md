@@ -7,7 +7,7 @@ old-location: multimedia\icgetdisplayformat.htm
 old-project: Multimedia
 ms.assetid: 4e588524-4105-4496-bc87-407abc45f598
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: ICGetDisplayFormat, ICGetDisplayFormat function [Windows Multimedia], _win32_ICGetDisplayFormat, multimedia.icgetdisplayformat, vfw/ICGetDisplayFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,43 +64,37 @@ The <b>ICGetDisplayFormat</b> function determines the best format available for 
 
 ### -param hic
 
-
-            Handle to the compressor to use. Specify <b>NULL</b> to have VCM select and open an appropriate compressor.
+Handle to the compressor to use. Specify <b>NULL</b> to have VCM select and open an appropriate compressor.
           
 
 
 ### -param lpbiIn
 
-
-            Pointer to <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the compressed format.
+Pointer to <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the compressed format.
           
 
 
 ### -param lpbiOut
 
-
-            Pointer to a buffer to return the decompressed format. The buffer should be large enough for a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure and 256 color entries.
+Pointer to a buffer to return the decompressed format. The buffer should be large enough for a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure and 256 color entries.
           
 
 
 ### -param BitDepth
 
-
-            Preferred bit depth, if nonzero.
+Preferred bit depth, if nonzero.
           
 
 
 ### -param dx
 
-
-            Width multiplier to stretch the image. If this parameter is zero, that dimension is not stretched.
+Width multiplier to stretch the image. If this parameter is zero, that dimension is not stretched.
           
 
 
 ### -param dy
 
-
-            Height multiplier to stretch the image. If this parameter is zero, that dimension is not stretched.
+Height multiplier to stretch the image. If this parameter is zero, that dimension is not stretched.
           
 
 
@@ -108,8 +102,7 @@ The <b>ICGetDisplayFormat</b> function determines the best format available for 
 
 
 
-
-            Returns a handle to a decompressor if successful or zero otherwise.
+Returns a handle to a decompressor if successful or zero otherwise.
           
 
 

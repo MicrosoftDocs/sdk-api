@@ -7,7 +7,7 @@ old-location: wmp\iwmpsubscriptionservice2.htm
 old-project: WMP
 ms.assetid: 5338a3c1-c44a-4c03-a21a-6cd5cfeef064
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPSubscriptionService2, IWMPSubscriptionService2 interface [Windows Media Player], IWMPSubscriptionService2 interface [Windows Media Player],described, IWMPSubscriptionService2Interface, subscriptionservices/IWMPSubscriptionService2, wmp.iwmpsubscriptionservice2
 ms.prod: windows
 ms.technology: windows-sdk

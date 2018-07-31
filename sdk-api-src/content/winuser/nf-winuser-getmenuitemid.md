@@ -7,7 +7,7 @@ old-location: menurc\getmenuitemid.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenuitemid.htm
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: GetMenuItemID, GetMenuItemID function [Menus and Other Resources], _win32_GetMenuItemID, _win32_getmenuitemid_cpp, menurc.getmenuitemid, winui._win32_getmenuitemid, winuser/GetMenuItemID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,11 +97,11 @@ The return value is the identifier of the specified menu item. If the menu item 
 
 
 
-<a href="https://msdn.microsoft.com/library/ms647978(v=VS.85).aspx">GetMenuItemCount</a>
+<a href="https://msdn.microsoft.com/6a1d542e-b955-48aa-a3b8-e348fefd6f14">GetMenuItemCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 

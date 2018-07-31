@@ -7,7 +7,7 @@ old-location: dshow\dvd_karaoke_contents.htm
 old-project: DirectShow
 ms.assetid: 9d02b0bf-237a-42bf-b946-588b899cd3d9
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: DVD_KARAOKE_CONTENTS, DVD_KARAOKE_CONTENTS , DVD_KARAOKE_CONTENTS enumeration [DirectShow], DVD_KARAOKE_CONTENTSEnumeration, DVD_Karaoke_GuideMelody1, DVD_Karaoke_GuideMelody2, DVD_Karaoke_GuideMelodyA, DVD_Karaoke_GuideMelodyB, DVD_Karaoke_GuideVocal1, DVD_Karaoke_GuideVocal2, DVD_Karaoke_SoundEffectA, DVD_Karaoke_SoundEffectB, dshow.dvd_karaoke_contents, strmif/DVD_KARAOKE_CONTENTS, strmif/DVD_Karaoke_GuideMelody1, strmif/DVD_Karaoke_GuideMelody2, strmif/DVD_Karaoke_GuideMelodyA, strmif/DVD_Karaoke_GuideMelodyB, strmif/DVD_Karaoke_GuideVocal1, strmif/DVD_Karaoke_GuideVocal2, strmif/DVD_Karaoke_SoundEffectA, strmif/DVD_Karaoke_SoundEffectB, tagDVD_KARAOKE_CONTENTS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # tagDVD_KARAOKE_CONTENTS enumeration
@@ -64,57 +63,49 @@ Specifies flags that, when used in a bitwise <b>OR</b> operation, describe the c
 
 ### -field DVD_Karaoke_GuideVocal1
 
-
-            The channel contains guide vocal 1.
+The channel contains guide vocal 1.
           
 
 
 ### -field DVD_Karaoke_GuideVocal2
 
-
-            The channel contains guide vocal 2.
+The channel contains guide vocal 2.
           
 
 
 ### -field DVD_Karaoke_GuideMelody1
 
-
-            The channel contains guide melody 1.
+The channel contains guide melody 1.
           
 
 
 ### -field DVD_Karaoke_GuideMelody2
 
-
-            The channel contains guide melody 2.
+The channel contains guide melody 2.
           
 
 
 ### -field DVD_Karaoke_GuideMelodyA
 
-
-            The channel contains guide melody A.
+The channel contains guide melody A.
           
 
 
 ### -field DVD_Karaoke_GuideMelodyB
 
-
-            The channel contains guide melody B.
+The channel contains guide melody B.
           
 
 
 ### -field DVD_Karaoke_SoundEffectA
 
-
-            The channel contains sound effect A.
+The channel contains sound effect A.
           
 
 
 ### -field DVD_Karaoke_SoundEffectB
 
-
-            The channel contains sound effect B.
+The channel contains sound effect B.
           
 
 

@@ -4,10 +4,10 @@ title: ITTerminalSupport::CreateTerminal
 author: windows-sdk-content
 description: The CreateTerminal method creates and initializes a new ITTerminal object based on the dynamic terminal class and media. The terminal class is identified by a GUID. The GUID must be converted to a string using StringFromIID to pass to this method.
 old-location: tapi3\itterminalsupport_createterminal.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 2a2a037a-753c-4dd4-b6ce-10b69f2e2421
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: CreateTerminal, CreateTerminal method [TAPI 2.2], CreateTerminal method [TAPI 2.2],ITTerminalSupport interface, ITTerminalSupport interface [TAPI 2.2],CreateTerminal method, ITTerminalSupport.CreateTerminal, ITTerminalSupport::CreateTerminal, _tapi3_itterminalsupport_createterminal, tapi3.itterminalsupport_createterminal, tapi3if/ITTerminalSupport::CreateTerminal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ The
 <b>CreateTerminal</b> method creates and initializes a new 
 <a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a> object based on the dynamic terminal class and media. The 
 <a href="https://msdn.microsoft.com/2a16d33c-2d87-4172-a5ff-33ff62e96615">terminal class</a> is identified by a GUID. The GUID must be converted to a string using 
-<a href="https://msdn.microsoft.com/library/ms688692(v=VS.85).aspx">StringFromIID</a> to pass to this method.
+<a href="_com_stringfromiid">StringFromIID</a> to pass to this method.
 
 
 ## -parameters
@@ -176,13 +176,13 @@ Dynamic terminal creation is not supported.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pTerminalClass</i> parameter and use 
-<a href="https://msdn.microsoft.com/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a> to allocate memory for the <i>pTerminalClass</i> parameter and use 
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 Once a terminal is created, it can be selected onto only one call.
 
-TAPI calls the <a href="https://msdn.microsoft.com/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<b>ITTerminal</b> interface returned by <b>ITTerminalSupport::CreateTerminal</b>. The application must call <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<b>ITTerminal</b> interface returned by <b>ITTerminalSupport::CreateTerminal</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>ITTerminal</b> interface to free resources associated with it.
 
 

@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_get.htm
 old-project: WmiSdk
 ms.assetid: 3071aeb2-adab-47aa-a10c-9796766bb630
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: Get, Get method [Windows Management Instrumentation], Get method [Windows Management Instrumentation],ISWbemServices interface, Get method [Windows Management Instrumentation],SWbemServices object, ISWbemServices interface [Windows Management Instrumentation],Get method, ISWbemServices.Get, ISWbemServices::Get, SWbemServices object [Windows Management Instrumentation],Get method, SWbemServices.Get, _hmm_swbemservices.get, wbemFlagUseAmendedQualifiers, wmi.swbemservices_get
 ms.prod: windows
 ms.technology: windows-sdk
@@ -144,9 +144,9 @@ Wscript.Echo "Name:         " &amp; objSWbemObject.Name        &amp; vbCrLf &amp
 </td>
 </tr>
 </table></span></div>
-You can  use this method to obtain <a href="https://msdn.microsoft.com/library/JJ819825(v=VS.85).aspx">singleton</a> objects, such as <a href="https://msdn.microsoft.com/907b65b2-a853-40f4-8b36-5a05a2b1cf85">__CIMOMIdentification</a>, which contains version information about the WMI installation that is running.
+You can  use this method to obtain <a href="gloss_s.htm">singleton</a> objects, such as <a href="https://msdn.microsoft.com/907b65b2-a853-40f4-8b36-5a05a2b1cf85">__CIMOMIdentification</a>, which contains version information about the WMI installation that is running.
 
-You can examine the repository with a viewing tool such as <a href="https://msdn.microsoft.com/library/Dd316906(v=VS.85).aspx">CIM Studio</a> to verify that the new class and instance appear. For an example of removing a class and instance from the repository, see <a href="https://msdn.microsoft.com/7dabab12-e8ee-4d44-932f-f3239b6f066e">SWbemServices.Delete</a> or <a href="https://msdn.microsoft.com/bf1db667-4bd5-4717-bc0b-5bffe9d0f4fb">SWbemObject.Delete_</a>.
+You can examine the repository with a viewing tool such as <a href="further_information.htm">CIM Studio</a> to verify that the new class and instance appear. For an example of removing a class and instance from the repository, see <a href="https://msdn.microsoft.com/7dabab12-e8ee-4d44-932f-f3239b6f066e">SWbemServices.Delete</a> or <a href="https://msdn.microsoft.com/bf1db667-4bd5-4717-bc0b-5bffe9d0f4fb">SWbemObject.Delete_</a>.
 
 
 

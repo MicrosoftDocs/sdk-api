@@ -7,7 +7,7 @@ old-location: multimedia\avifilereaddata.htm
 old-project: Multimedia
 ms.assetid: 9eef2ef4-316e-43e8-8011-14f1c0b46d50
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: AVIFileReadData, AVIFileReadData function [Windows Multimedia], _win32_AVIFileReadData, multimedia.avifilereaddata, vfw/AVIFileReadData
 ms.prod: windows
 ms.technology: windows-sdk

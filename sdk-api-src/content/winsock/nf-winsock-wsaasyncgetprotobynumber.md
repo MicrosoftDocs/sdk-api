@@ -4,10 +4,10 @@ title: WSAAsyncGetProtoByNumber function
 author: windows-sdk-content
 description: The WSAAsyncGetProtoByNumber function asynchronously retrieves protocol information that corresponds to a protocol number.
 old-location: winsock\wsaasyncgetprotobynumber_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 10f28345-c178-47c0-9d0f-87f6743131d9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: WSAAsyncGetProtoByNumber, WSAAsyncGetProtoByNumber function [Winsock], _win32_wsaasyncgetprotobynumber_2, winsock.wsaasyncgetprotobynumber_2, winsock/WSAAsyncGetProtoByNumber
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>WSAAsyncGetProtoByNumber</b> function asynchronously retrieves protocol information that corresponds to a protocol number.
 
 
@@ -114,7 +113,7 @@ The following error codes can be set when an application window receives a messa
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -125,7 +124,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -136,7 +135,7 @@ Insufficient buffer space is available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -147,7 +146,7 @@ The <i>buf</i> parameter is not in a valid part of the process address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAHOST_NOT_FOUND</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAHOST_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -158,7 +157,7 @@ Authoritative answer protocol not found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSATRY_AGAIN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSATRY_AGAIN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -169,7 +168,7 @@ Nonauthoritative protocol not found, or server failure.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANO_RECOVERY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -180,7 +179,7 @@ Nonrecoverable errors, the protocols database is not accessible.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSANO_DATA</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANO_DATA</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -199,20 +198,20 @@ The following errors can occur at the time of the function call, and indicate th
 <th>Meaning</th>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></td>
 <td>A successful 
 <a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> call must occur before using this function.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></td>
 <td>The network subsystem has failed.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></td>
 <td>A blocking Windows Sockets 1.1 call is in progress, or the service provider is still processing a callback function.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a></td>
 <td>The asynchronous operation cannot be scheduled at this time due to resource or other constraints within the Windows Sockets implementation.</td>
 </tr>
 </table>
@@ -236,7 +235,7 @@ On successful completion, the buffer specified to the original function call con
 <b>protoent</b> structure pointer and accessed as appropriate.
 
 If the error code is 
-<a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a>, the size of the buffer specified by <i>buflen</i> in the original call was too small to contain all the resulting information. In this case, the low 16 bits of <i>lParam</i> contain the size of buffer required to supply all the requisite information. If the application decides that the partial data is inadequate, it can reissue the 
+<a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a>, the size of the buffer specified by <i>buflen</i> in the original call was too small to contain all the resulting information. In this case, the low 16 bits of <i>lParam</i> contain the size of buffer required to supply all the requisite information. If the application decides that the partial data is inadequate, it can reissue the 
 <b>WSAAsyncGetProtoByNumber</b> function call with a buffer large enough to receive all the desired information (that is, no smaller than the low 16 bits of <i>lParam</i>).
 
 The buffer specified to this function is used by Windows Sockets to construct a 

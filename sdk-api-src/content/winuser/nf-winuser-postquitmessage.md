@@ -7,7 +7,7 @@ old-location: winmsg\postquitmessage.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\postquitmessage.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: PostQuitMessage, PostQuitMessage function [Windows and Messages], _win32_PostQuitMessage, _win32_postquitmessage_cpp, winmsg.postquitmessage, winui._win32_postquitmessage, winuser/PostQuitMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Indicates to the system that a thread has made a request to terminate (quit). It is typically used in response to a <a href="https://msdn.microsoft.com/library/ms632620(v=VS.85).aspx">WM_DESTROY</a> message.
+Indicates to the system that a thread has made a request to terminate (quit). It is typically used in response to a <a href="https://msdn.microsoft.com/089c0645-199b-4a90-9cbc-740f0cf3267d">WM_DESTROY</a> message.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ Indicates to the system that a thread has made a request to terminate (quit). It
 
 Type: <b>int</b>
 
-The application exit code. This value is used as the <i>wParam</i> parameter of the <a href="https://msdn.microsoft.com/library/ms632641(v=VS.85).aspx">WM_QUIT</a> message.
+The application exit code. This value is used as the <i>wParam</i> parameter of the <a href="https://msdn.microsoft.com/a9bff5dc-cab8-4e08-838e-d92c87c265d6">WM_QUIT</a> message.
 
 
 ## -returns
@@ -88,14 +88,14 @@ This function does not return a value.
 
 
 
-The <b>PostQuitMessage</b> function posts a <a href="https://msdn.microsoft.com/library/ms632641(v=VS.85).aspx">WM_QUIT</a> message to the thread's message queue and returns immediately; the function simply indicates to the system that the thread is requesting to quit at some time in the future. 
+The <b>PostQuitMessage</b> function posts a <a href="https://msdn.microsoft.com/a9bff5dc-cab8-4e08-838e-d92c87c265d6">WM_QUIT</a> message to the thread's message queue and returns immediately; the function simply indicates to the system that the thread is requesting to quit at some time in the future. 
 
-When the thread retrieves the <a href="https://msdn.microsoft.com/library/ms632641(v=VS.85).aspx">WM_QUIT</a> message from its message queue, it should exit its message loop and return control to the system. The exit value returned to the system must be the <i>wParam</i> parameter of the <b>WM_QUIT</b> message. 
+When the thread retrieves the <a href="https://msdn.microsoft.com/a9bff5dc-cab8-4e08-838e-d92c87c265d6">WM_QUIT</a> message from its message queue, it should exit its message loop and return control to the system. The exit value returned to the system must be the <i>wParam</i> parameter of the <b>WM_QUIT</b> message. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms644928(v=VS.85).aspx">Posting a Message</a>.
+For an example, see <a href="using_messages_and_message_queues.htm">Posting a Message</a>.
 
 <div class="code"></div>
 
@@ -110,19 +110,19 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms644928(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644936(v=VS.85).aspx">GetMessage</a>
+<a href="https://msdn.microsoft.com/e92266a7-86ac-43f4-b0eb-762e145a1017">GetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/885bb607-3ec0-4e24-9f55-fbdfb1c538a1">Messages and Message Queues</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644943(v=VS.85).aspx">PeekMessage</a>
+<a href="https://msdn.microsoft.com/b9f5baa4-8166-4d6e-b416-df023aed9bad">PeekMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644944(v=VS.85).aspx">PostMessage</a>
+<a href="https://msdn.microsoft.com/5357de37-1e44-4e4a-bdae-b5a386032dd4">PostMessage</a>
 
 
 
@@ -130,11 +130,11 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms644928(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632620(v=VS.85).aspx">WM_DESTROY</a>
+<a href="https://msdn.microsoft.com/089c0645-199b-4a90-9cbc-740f0cf3267d">WM_DESTROY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632641(v=VS.85).aspx">WM_QUIT</a>
+<a href="https://msdn.microsoft.com/a9bff5dc-cab8-4e08-838e-d92c87c265d6">WM_QUIT</a>
  
 
  

@@ -4,10 +4,10 @@ title: IWTSProtocolLicenseConnection::RequestLicensingCapabilities
 author: windows-sdk-content
 description: IWTSProtocolLicenseConnection::RequestLicensingCapabilities is no longer available. Instead, use IWRdsProtocolLicenseConnection::RequestLicensingCapabilities.
 old-location: termserv\iwtsprotocollicenseconnection_requestlicensingcapabilities.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: ff6123f6-4d78-41d1-8093-916f01de09ef
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],RequestLicensingCapabilities method, IWTSProtocolLicenseConnection.RequestLicensingCapabilities, IWTSProtocolLicenseConnection::RequestLicensingCapabilities, RequestLicensingCapabilities, RequestLicensingCapabilities method [Remote Desktop Services], RequestLicensingCapabilities method [Remote Desktop Services],IWTSProtocolLicenseConnection interface, termserv.iwtsprotocollicenseconnection_requestlicensingcapabilities, wtsprotocol/IWTSProtocolLicenseConnection::RequestLicensingCapabilities
 ms.prod: windows
 ms.technology: windows-sdk

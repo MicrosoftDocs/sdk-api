@@ -4,10 +4,10 @@ title: RequestWakeupLatency function
 author: windows-sdk-content
 description: Has no effect and returns STATUS_NOT_SUPPORTED. This function is provided only for compatibility with earlier versions of Windows.Windows Server 2008 and Windows Vista:  Has no effect and always returns success.
 old-location: base\requestwakeuplatency.htm
-old-project: power
+old-project: Power
 ms.assetid: f30fdfb6-dc7e-47fd-93ad-36655e65d0ae
 ms.author: windowssdkdev
-ms.date: 03/28/2018
+ms.date: 07/29/2018
 ms.keywords: LT_DONT_CARE, LT_LOWEST_LATENCY, RequestWakeupLatency, RequestWakeupLatency function, _win32_requestwakeuplatency, base.requestwakeuplatency, winbase/RequestWakeupLatency
 ms.prod: windows
 ms.technology: windows-sdk

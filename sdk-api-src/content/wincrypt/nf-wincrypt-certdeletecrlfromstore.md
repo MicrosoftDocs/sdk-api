@@ -4,10 +4,10 @@ title: CertDeleteCRLFromStore function
 author: windows-sdk-content
 description: The CertDeleteCRLFromStore function deletes the specified certificate revocation list (CRL) context from the certificate store.
 old-location: security\certdeletecrlfromstore.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: eb542c25-8d2b-4427-8f2a-719b472613a5
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertDeleteCRLFromStore, CertDeleteCRLFromStore function [Security], _crypto2_certdeletecrlfromstore, security.certdeletecrlfromstore, wincrypt/CertDeleteCRLFromStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,7 +117,7 @@ The <i>pCrlContext</i> parameter is always freed by this function by using
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_decimal_text.htm
 old-project: wsw
 ms.assetid: caace753-5c41-4ca7-afdc-df0155505b59
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_XML_DECIMAL_TEXT, WS_XML_DECIMAL_TEXT structure [Web Services for Windows], _WS_XML_DECIMAL_TEXT, webservices/WS_XML_DECIMAL_TEXT, wsw.ws_xml_decimal_text
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Represents a 12 byte fixed point value.  (e.g. The value 1.23 represents the text "1.23")
+Represents a 12 byte fixed point value.  (e.g. The value 1.23 represents the text "1.23")
       
 
 
@@ -63,8 +62,7 @@ req.product: Windows Address Book 5.0
 
 ### -field text
 
-
-          The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
+The base type for all types that derive from <a href="https://msdn.microsoft.com/430edd13-b664-4e10-8d61-ffa6a01dcb90">WS_XML_TEXT</a>.
         
 
 

@@ -7,7 +7,7 @@ old-location: intl\ispellchecker_id.htm
 old-project: Intl
 ms.assetid: ba3a520b-feea-4ea4-b285-f44a1e1fc518
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],Id property, ISpellChecker.Id, ISpellChecker.get_Id, ISpellChecker::Id, ISpellChecker::get_Id, Id property [Internationalization for Windows Applications], Id property [Internationalization for Windows Applications],ISpellChecker interface, get_Id, intl.ispellchecker_id, spellcheck/ISpellChecker::Id, spellcheck/ISpellChecker::get_Id
 ms.prod: windows
 ms.technology: windows-sdk
@@ -43,7 +43,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # ISpellChecker::get_Id

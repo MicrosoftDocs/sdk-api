@@ -4,10 +4,10 @@ title: WlxNetworkProviderLoad function
 author: windows-sdk-content
 description: Winlogon calls this function to collect valid authentication and identification information.
 old-location: security\wlxnetworkproviderload.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: d9a39211-f876-46d8-9a7c-c6bb3ba9edfe
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: WlxNetworkProviderLoad, WlxNetworkProviderLoad function [Security], _gina_wlxnetworkproviderload, security.wlxnetworkproviderload, winwlx/WlxNetworkProviderLoad
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 <p class="CCE_Message">[The WlxNetworkProviderLoad function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-
-			The <b>WlxNetworkProviderLoad</b> function must be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a> calls this function to collect valid authentication and identification information.
+The <b>WlxNetworkProviderLoad</b> function must be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a> calls this function to collect valid authentication and identification information.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters

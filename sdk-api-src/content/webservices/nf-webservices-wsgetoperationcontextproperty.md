@@ -7,7 +7,7 @@ old-location: wsw\wsgetoperationcontextproperty.htm
 old-project: wsw
 ms.assetid: 9ab843ff-8f2c-424e-8bb9-ba71f9355728
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetOperationContextProperty, WsGetOperationContextProperty function [Web Services for Windows], webservices/WsGetOperationContextProperty, wsw.wsgetoperationcontextproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Returns a property of the specified operation context. It should be noted that the 
+Returns a property of the specified operation context. It should be noted that the 
                 validity of these property is limited to the lifetime of the operation context itself. 
                 
 
@@ -69,15 +68,13 @@ The context that the property value is being obtained for.
 
 ### -param id [in]
 
-
-                    The id of the property.
+The id of the property.
                 
 
 
 ### -param value
 
-
-                    The address to place the retrieved value. The contents are not modified in case of a failure.
+The address to place the retrieved value. The contents are not modified in case of a failure.
                     The pointer must have an alignment compatible with the type
                     of the property.
                 
@@ -85,15 +82,13 @@ The context that the property value is being obtained for.
 
 ### -param valueSize [in]
 
-
-                    The size of the buffer that the caller has allocated for the retrieved value.
+The size of the buffer that the caller has allocated for the retrieved value.
                 
 
 
 ### -param error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 

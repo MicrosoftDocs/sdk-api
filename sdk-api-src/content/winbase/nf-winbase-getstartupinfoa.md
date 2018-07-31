@@ -4,10 +4,10 @@ title: GetStartupInfoA function
 author: windows-sdk-content
 description: Retrieves the contents of the STARTUPINFO structure that was specified when the calling process was created.
 old-location: base\getstartupinfo.htm
-old-project: procthread
+old-project: ProcThread
 ms.assetid: 191ea201-dc86-4cde-a0cd-be8d2360b22e
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: GetStartupInfo, GetStartupInfo function, GetStartupInfoA, GetStartupInfoW, _win32_getstartupinfo, base.getstartupinfo, winbase/GetStartupInfo, winbase/GetStartupInfoA, winbase/GetStartupInfoW
 ms.prod: windows
 ms.technology: windows-sdk

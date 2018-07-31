@@ -7,7 +7,7 @@ old-location: windowsribbon\iuieventlogger.htm
 old-project: windowsribbon
 ms.assetid: 54DB1BFF-0657-4027-8C8C-89CE998253F4
 ms.author: windowssdkdev
-ms.date: 05/09/2018
+ms.date: 07/29/2018
 ms.keywords: IUIEventLogger, IUIEventLogger interface [Windows Ribbon], IUIEventLogger interface [Windows Ribbon],described, uiribbon/IUIEventLogger, windowsribbon.iuieventlogger
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,35 @@ req.product: Windows UI
 ## -description
 
 
-
-				The <b>IUIEventLogger</b> interface is implemented by the 
+The <b>IUIEventLogger</b> interface is implemented by the 
 				application and defines the ribbon events callback method.
+
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIEventLogger</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIEventLogger</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
+## -members
+
+The <b>IUIEventLogger</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/1BE6F914-C57D-4A8F-A286-C47BFD48B310">OnUIEvent</a>
+</td>
+<td align="left" width="63%">
+Receives notifications that a ribbon event has occurred.
+
+</td>
+</tr>
+</table> 
 
 
 ## -see-also

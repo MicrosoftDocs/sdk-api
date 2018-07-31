@@ -7,7 +7,7 @@ old-location: wsw\ws_service_metadata_document.htm
 old-project: wsw
 ms.assetid: d15fb735-9f82-4dd2-8586-f67999ab9727
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SERVICE_METADATA_DOCUMENT, WS_SERVICE_METADATA_DOCUMENT structure [Web Services for Windows], _WS_SERVICE_METADATA_DOCUMENT, webservices/WS_SERVICE_METADATA_DOCUMENT, wsw.ws_service_metadata_document
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies the individual documents that make up the service metadata.
+Specifies the individual documents that make up the service metadata.
             
 
 
@@ -63,22 +62,19 @@ req.product: Windows Address Book 5.0
 
 ### -field content
 
-
-                    A <a href="https://msdn.microsoft.com/3daa656f-7f97-4e29-a556-7ff72206f01c">WS_XML_STRING</a>* representing the specific  XML Schema, WSDL or a Policy document.
+A <a href="https://msdn.microsoft.com/3daa656f-7f97-4e29-a556-7ff72206f01c">WS_XML_STRING</a>* representing the specific  XML Schema, WSDL or a Policy document.
                     The service model expects this to be valid for the lifetime of the <a href="https://msdn.microsoft.com/1186e3ae-87d0-4d0b-a7cc-cce63dc091e2">WS_SERVICE_HOST</a>.
                 
 
 
 ### -field name
 
-
-                    The name of the document which will be suffixed to the URL path on which this document is serviced for HTTP GET support
+The name of the document which will be suffixed to the URL path on which this document is serviced for HTTP GET support
                     for metadata retrieval. Note that this can be set to <b>NULL</b> if the application is only using Ws-MetadataExchange 1.1 for servicing
                     metadata request.
                 
 
-
-                    See <a href="https://msdn.microsoft.com/f6b33fe5-a9e9-4733-8b6c-4b01009d3277">WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE</a> service endpoint property to see how to enable HTTP GET support or
+See <a href="https://msdn.microsoft.com/f6b33fe5-a9e9-4733-8b6c-4b01009d3277">WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE</a> service endpoint property to see how to enable HTTP GET support or
                     WS-MetadataExchange 1.1 for servicing metadata request.
                 
 

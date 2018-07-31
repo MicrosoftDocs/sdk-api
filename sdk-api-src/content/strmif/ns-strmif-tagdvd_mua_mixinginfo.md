@@ -7,7 +7,7 @@ old-location: dshow\dvd_mua_mixinginfo.htm
 old-project: DirectShow
 ms.assetid: df830598-f484-483d-a0dc-e6bd9debbe53
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: DVD_MUA_MixingInfo, DVD_MUA_MixingInfo structure [DirectShow], DVD_MUA_MixingInfoStructure, dshow.dvd_mua_mixinginfo, strmif/DVD_MUA_MixingInfo, tagDVD_MUA_MixingInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -104,11 +104,9 @@ Possible values for <b>dwSpeakerPosition</b> are defined in Ksmedia.h as follows
 
 <table>
 <tr>
-<th>
-              Define
+<th>Define
             </th>
-<th>
-              Value
+<th>Value
             </th>
 </tr>
 <tr>

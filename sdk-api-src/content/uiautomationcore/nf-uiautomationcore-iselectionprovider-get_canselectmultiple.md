@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ISelectionProvider_CanSelectMultiple.htm
 old-project: WinAuto
 ms.assetid: 00098f73-4cbe-4cc5-a91a-479721f9b7c1
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: CanSelectMultiple property [Windows Accessibility], CanSelectMultiple property [Windows Accessibility],ISelectionProvider interface, ISelectionProvider interface [Windows Accessibility],CanSelectMultiple property, ISelectionProvider.CanSelectMultiple, ISelectionProvider.get_CanSelectMultiple, ISelectionProvider::CanSelectMultiple, ISelectionProvider::get_CanSelectMultiple, get_CanSelectMultiple, uiauto.uiauto_ISelectionProvider_CanSelectMultiple, uiauto_ISelectionProvider_CanSelectMultiple, uiautomationcore/ISelectionProvider::CanSelectMultiple, uiautomationcore/ISelectionProvider::get_CanSelectMultiple, winauto.uiauto_ISelectionProvider_CanSelectMultiple
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-        Indicates whether the Microsoft UI Automation provider 
+Indicates whether the Microsoft UI Automation provider 
         allows more than one child element to be selected concurrently.
 
 This property is read-only.
@@ -66,8 +65,7 @@ This property is read-only.
 
 
 
-
-        This property may be dynamic. For example, in rare cases a control might allow 
+This property may be dynamic. For example, in rare cases a control might allow 
         multiple items to be selected on initialization but subsequently allow only single selections to be made.
 		
 

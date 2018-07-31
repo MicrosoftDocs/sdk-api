@@ -4,10 +4,10 @@ title: tagSTGC
 author: windows-sdk-content
 description: Specify the conditions for performing the commit operation in the IStorage::Commit and IStream::Commit methods.
 old-location: stg\stgc.htm
-old-project: stg
+old-project: Stg
 ms.assetid: f37260c0-d03d-4ead-a342-d2454ce8b1ac
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: STGC, STGC enumeration [Structured Storage], STGC_CONSOLIDATE, STGC_DANGEROUSLYCOMMITMERELYTODISKCACHE, STGC_DEFAULT, STGC_ONLYIFCURRENT, STGC_OVERWRITE, _stg_stgc, stg.stgc, tagSTGC, wtypes/STGC, wtypes/STGC_CONSOLIDATE, wtypes/STGC_DANGEROUSLYCOMMITMERELYTODISKCACHE, wtypes/STGC_DEFAULT, wtypes/STGC_ONLYIFCURRENT, wtypes/STGC_OVERWRITE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>STGC</b> enumeration constants specify the conditions for performing the commit operation in the 
 <a href="https://msdn.microsoft.com/72831f2c-1e07-429b-af4c-2aaced3f3888">IStorage::Commit</a> and 
 <a href="https://msdn.microsoft.com/335c3a53-ca6a-42f3-bbf9-684ed48591e6">IStream::Commit</a> methods.

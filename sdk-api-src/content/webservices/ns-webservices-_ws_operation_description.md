@@ -7,7 +7,7 @@ old-location: wsw\ws_operation_description.htm
 old-project: wsw
 ms.assetid: d05b55aa-4159-4e48-ae75-2af36c0a7101
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_OPERATION_DESCRIPTION, WS_OPERATION_DESCRIPTION structure [Web Services for Windows], _WS_OPERATION_DESCRIPTION, webservices/WS_OPERATION_DESCRIPTION, wsw.ws_operation_description
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Metadata for the  service operation.
+Metadata for the  service operation.
             
 
 
@@ -63,15 +62,13 @@ req.product: Windows Address Book 5.0
 
 ### -field versionInfo
 
-
-                    Defines the version information. Currently value is 1.
+Defines the version information. Currently value is 1.
                 
 
 
 ### -field inputMessageDescription
 
-
-                    The description of incoming <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> for a given service operation.
+The description of incoming <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> for a given service operation.
                 
 
 
@@ -83,8 +80,7 @@ The description of outgoing <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b
 
 ### -field inputMessageOptions
 
-
-                    Provides additional flags for the in message of the operation. See <a href="https://msdn.microsoft.com/3f54e012-4893-4f70-9f38-55ae9db365e8">WS_SERVICE_OPERATION_MESSAGE_OPTION</a> for
+Provides additional flags for the in message of the operation. See <a href="https://msdn.microsoft.com/3f54e012-4893-4f70-9f38-55ae9db365e8">WS_SERVICE_OPERATION_MESSAGE_OPTION</a> for
                     a list of flags. If no flags are needed, this may be 0.
                 
 
@@ -96,8 +92,7 @@ The description of outgoing <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b
 
 ### -field outputMessageOptions
 
-
-                    Provides additional flags for the out message of the operation. See <a href="https://msdn.microsoft.com/3f54e012-4893-4f70-9f38-55ae9db365e8">WS_SERVICE_OPERATION_MESSAGE_OPTION</a> for
+Provides additional flags for the out message of the operation. See <a href="https://msdn.microsoft.com/3f54e012-4893-4f70-9f38-55ae9db365e8">WS_SERVICE_OPERATION_MESSAGE_OPTION</a> for
                     a list of flags. If out message is not available, or no flags are needed, this may be 0.
                 
 
@@ -109,22 +104,19 @@ The description of outgoing <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b
 
 ### -field parameterCount
 
-
-                    The number of  parameters on the given service operation.
+The number of  parameters on the given service operation.
                 
 
 
 ### -field parameterDescription
 
-
-                    An array defining the individual parameters.
+An array defining the individual parameters.
                 
 
 
 ### -field stubCallback
 
-
-                    A pointer to the stub function for the given operation to which the service model will delegate 
+A pointer to the stub function for the given operation to which the service model will delegate 
                     to do the service operation call. This will be <b>NULL</b> for proxies. 
                 
 

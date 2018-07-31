@@ -7,7 +7,7 @@ old-location: xps\ixpsompackage_setcoreproperties.htm
 old-project: printdocs
 ms.assetid: e1be5c48-1e2b-4f94-98ec-b61bc255e63b
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetCoreProperties method, IXpsOMPackage.SetCoreProperties, IXpsOMPackage::SetCoreProperties, SetCoreProperties, SetCoreProperties method [XPS Documents and Packaging], SetCoreProperties method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_setcoreproperties, xpsobjectmodel/IXpsOMPackage::SetCoreProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,8 +61,7 @@ Sets the <a href="https://msdn.microsoft.com/705ec9c7-5aa9-4fc5-ad2c-441cb545d05
 
 ### -param coreProperties [in]
 
-
-            The <a href="https://msdn.microsoft.com/705ec9c7-5aa9-4fc5-ad2c-441cb545d056">IXpsOMCoreProperties</a> interface pointer to be assigned to the package.
+The <a href="https://msdn.microsoft.com/705ec9c7-5aa9-4fc5-ad2c-441cb545d056">IXpsOMCoreProperties</a> interface pointer to be assigned to the package.
           A <b>NULL</b> pointer releases any previously assigned core properties interface.
 
 

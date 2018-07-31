@@ -4,10 +4,10 @@ title: SetUserFileEncryptionKey function
 author: windows-sdk-content
 description: Sets the user's current key to the specified certificate.
 old-location: fs\setuserfileencryptionkey.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: dd23fab7-1675-4d0d-911c-e2aac2273e7f
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: SetUserFileEncryptionKey, SetUserFileEncryptionKey function [Files], _win32_setuserfileencryptionkey, base.setuserfileencryptionkey, fs.setuserfileencryptionkey, winefs/SetUserFileEncryptionKey
 ms.prod: windows
 ms.technology: windows-sdk

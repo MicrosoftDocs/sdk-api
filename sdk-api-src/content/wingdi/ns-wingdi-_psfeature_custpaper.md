@@ -7,7 +7,7 @@ old-location: gdi\psfeature_custpaper.htm
 old-project: printdocs
 ms.assetid: 3858154c-425f-4333-a637-6d977caf7290
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: "*PPSFEATURE_CUSTPAPER, PPSFEATURE_CUSTPAPER, PPSFEATURE_CUSTPAPER structure pointer [Windows GDI], PSFEATURE_CUSTPAPER, PSFEATURE_CUSTPAPER structure [Windows GDI], _PSFEATURE_CUSTPAPER, _win32_PSFEATURE_CUSTPAPER_str, gdi.psfeature_custpaper, wingdi/PPSFEATURE_CUSTPAPER, wingdi/PSFEATURE_CUSTPAPER"
 ms.prod: windows
 ms.technology: windows-sdk

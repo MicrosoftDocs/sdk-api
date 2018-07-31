@@ -4,10 +4,10 @@ title: IOCTL_TCP_QUERY_INFORMATION_EX
 author: windows-sdk-content
 description: Retrieves information from the TCP/IP driver.
 old-location: winprog\ioctl_tcp_query_information_ex.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: b992b585-e1c8-4262-a6e0-ad8b5047620f
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_TCP_QUERY_INFORMATION_EX, IOCTL_TCP_QUERY_INFORMATION_EX control, IOCTL_TCP_QUERY_INFORMATION_EX control code [Windows API], tcpioctl/IOCTL_TCP_QUERY_INFORMATION_EX, winprog.ioctl_tcp_query_information_ex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,13 +65,10 @@ To perform the <b>IOCTL_TCP_QUERY_INFORMATION_EX</b> operation, call the <a href
 </tr>
 <tr>
 <td>
-<pre>
-BOOL DeviceIoControl(
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,                  // Open handle to the TCP driver
-  IOCTL_TCP_QUERY_INFORMATION_EX,    // dwIoControlCode
-  NULL,                              // lpInBuffer (the output buffer is used for input too)
-  0,                                 // nInBufferSize
-  (LPVOID) lpOutBuffer,              // Pointer to the output buffer
+  IOCTL_TCP_QUERY_INFORMATION_EX,    // dwIoControlCodeNULL,                              // lpInBuffer (the output buffer is used for input too)
+  0,                                 // nInBufferSize(LPVOID) lpOutBuffer,              // Pointer to the output buffer
   (DWORD) nOutBufferSize,            // Size of the output buffer
   (LPDWORD) lpBytesReturned,         // Number of bytes returned (if called synchronously)
   (LPOVERLAPPED) lpOverlapped        // OVERLAPPED structure (if called asynchronously)
@@ -232,8 +229,7 @@ If the <b>ID.toi_entity</b> member of the input
 				structures returned by the enumeration request above), then setting the <b>ID.toi_class</b> to 
 				<b>INFO_CLASS_GENERIC</b>, the <b>ID.toi_type</b> to 
 				<b>INFO_TYPE_PROVIDER</b>, and the <b>ID.toi_id</b> to 
-				<b>ENTITY_TYPE_ID</b> causes one or more flag values to be returned into an <b>unsigned long</b>
-				pointed to by the <i>lpOutBuffer</i> parameter. These flag values identify the type of the specified entity. Once again, the 
+				<b>ENTITY_TYPE_ID</b> causes one or more flag values to be returned into an <b>unsigned long</b>pointed to by the <i>lpOutBuffer</i> parameter. These flag values identify the type of the specified entity. Once again, the 
 				<b>Context</b> member of the input structure is ignored.
 
 The possible type-flag values that can be returned are shown in the following table.

@@ -4,10 +4,10 @@ title: ITextRange::Select
 author: windows-sdk-content
 description: Sets the start and end positions, and story values of the active selection, to those of this range.
 old-location: controls\ITextRange_Select.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\select.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextRange interface [Windows Controls],Select method, ITextRange.Select, ITextRange::Select, Select, Select method [Windows Controls], Select method [Windows Controls],ITextRange interface, _win32_ITextRange_Select, _win32_ITextRange_Select_cpp, controls.ITextRange_Select, controls._win32_ITextRange_Select, tom/ITextRange::Select
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ The caret for an ambiguous character position is displayed at the beginning of t
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -100,7 +100,7 @@ The caret for an ambiguous character position is displayed at the beginning of t
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

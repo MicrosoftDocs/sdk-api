@@ -4,10 +4,10 @@ title: RtlDeleteGrowableFunctionTable function
 author: windows-sdk-content
 description: Informs the system that a previously reported dynamic function table is no longer in use.
 old-location: base\rtldeletegrowablefunctiontable.htm
-old-project: debug
+old-project: Debug
 ms.assetid: 2ae4eef2-5cdc-4ebf-9285-ef6a1a4e9197
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/29/2018
 ms.keywords: RtlDeleteGrowableFunctionTable, RtlDeleteGrowableFunctionTable function, base.rtldeletegrowablefunctiontable, winnt/RtlDeleteGrowableFunctionTable
 ms.prod: windows
 ms.technology: windows-sdk

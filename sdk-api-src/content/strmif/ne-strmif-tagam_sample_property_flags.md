@@ -7,7 +7,7 @@ old-location: dshow\am_sample_property_flags.htm
 old-project: DirectShow
 ms.assetid: d2aa2fc6-282f-4b8d-8bed-4955f60537db
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: AM_SAMPLE_DATADISCONTINUITY, AM_SAMPLE_ENDOFSTREAM, AM_SAMPLE_FLUSH_ON_PAUSE, AM_SAMPLE_PREROLL, AM_SAMPLE_PROPERTY_FLAGS , AM_SAMPLE_PROPERTY_FLAGSEnumeration, AM_SAMPLE_SPLICEPOINT, AM_SAMPLE_STOPVALID, AM_SAMPLE_TIMEDISCONTINUITY, AM_SAMPLE_TIMEVALID, AM_SAMPLE_TYPECHANGED, AM_STREAM_CONTROL, AM_STREAM_MEDIA, dshow.am_sample_property_flags, strmif/AM_SAMPLE_DATADISCONTINUITY, strmif/AM_SAMPLE_ENDOFSTREAM, strmif/AM_SAMPLE_FLUSH_ON_PAUSE, strmif/AM_SAMPLE_PREROLL, strmif/AM_SAMPLE_SPLICEPOINT, strmif/AM_SAMPLE_STOPVALID, strmif/AM_SAMPLE_TIMEDISCONTINUITY, strmif/AM_SAMPLE_TIMEVALID, strmif/AM_SAMPLE_TYPECHANGED, strmif/AM_STREAM_CONTROL, strmif/AM_STREAM_MEDIA, strmif/tagAM_SAMPLE_PROPERTY_FLAGS, tagAM_SAMPLE_PROPERTY_FLAGS, tagAM_SAMPLE_PROPERTY_FLAGS enumeration [DirectShow]
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # tagAM_SAMPLE_PROPERTY_FLAGS enumeration
@@ -64,36 +63,31 @@ Specifies values for the <b>dwSampleFlags</b> and <b>dwStreamId</b> members of t
 
 ### -field AM_SAMPLE_SPLICEPOINT
 
-
-            Sample is a splice point (it can be decoded without reference to previous data).
+Sample is a splice point (it can be decoded without reference to previous data).
           
 
 
 ### -field AM_SAMPLE_PREROLL
 
-
-            Sample is a preroll sample.
+Sample is a preroll sample.
           
 
 
 ### -field AM_SAMPLE_DATADISCONTINUITY
 
-
-            Initial data in this sample is a splice point. The data in the previous sample was not intended to be followed by data in this sample. For more information, see Remarks.
+Initial data in this sample is a splice point. The data in the previous sample was not intended to be followed by data in this sample. For more information, see Remarks.
           
 
 
 ### -field AM_SAMPLE_TYPECHANGED
 
-
-            Sample type changed.
+Sample type changed.
           
 
 
 ### -field AM_SAMPLE_TIMEVALID
 
-
-            Time is valid.
+Time is valid.
           
 
 
@@ -104,36 +98,31 @@ A time gap in the data starts after this sample. The <b>pbBuffer</b> member of t
 
 ### -field AM_SAMPLE_FLUSH_ON_PAUSE
 
-
-            For live data only; indicates discard in the paused state.
+For live data only; indicates discard in the paused state.
           
 
 
 ### -field AM_SAMPLE_STOPVALID
 
-
-            Stop time is valid.
+Stop time is valid.
           
 
 
 ### -field AM_SAMPLE_ENDOFSTREAM
 
-
-            End of stream occurs after this sample. This flag is reserved for kernel streaming. DirectShow currently does not use it.
+End of stream occurs after this sample. This flag is reserved for kernel streaming. DirectShow currently does not use it.
           
 
 
 ### -field AM_STREAM_MEDIA
 
-
-            Normal data stream identifier.
+Normal data stream identifier.
           
 
 
 ### -field AM_STREAM_CONTROL
 
-
-            Control stream identifier. A value greater than 0x7FFFFFFF indicates an application-defined stream.
+Control stream identifier. A value greater than 0x7FFFFFFF indicates an application-defined stream.
           
 
 

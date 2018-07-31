@@ -4,10 +4,10 @@ title: ITextPara::SetHyphenation
 author: windows-sdk-content
 description: Controls hyphenation for the paragraphs in the range.
 old-location: controls\ITextPara_SetHyphenation.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\sethyphenation.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextPara interface [Windows Controls],SetHyphenation method, ITextPara.SetHyphenation, ITextPara::SetHyphenation, SetHyphenation, SetHyphenation method [Windows Controls], SetHyphenation method [Windows Controls],ITextPara interface, _win32_ITextPara_SetHyphenation, _win32_ITextPara_SetHyphenation_cpp, controls.ITextPara_SetHyphenation, controls._win32_ITextPara_SetHyphenation, tom/ITextPara::SetHyphenation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -190,11 +190,11 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb773962(v=VS.85).aspx">GetHyphenation</a>
+<a href="https://msdn.microsoft.com/e7064f54-5c3a-46b2-8d9c-f9dbe037f04c">GetHyphenation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -202,7 +202,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

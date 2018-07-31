@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_put_mode.htm
 old-project: DirectShow
 ms.assetid: cf941c07-6f42-4c63-9bdf-923f7a5b0b02
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMExtTransport interface [DirectShow],put_Mode method, IAMExtTransport.put_Mode, IAMExtTransport::put_Mode, IAMExtTransportput_Mode, dshow.iamexttransport_put_mode, put_Mode, put_Mode method [DirectShow], put_Mode method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_Mode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Specifies the transport mode. Use one of the following values.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

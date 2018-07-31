@@ -7,7 +7,7 @@ old-location: wmp\iwmpskinmanager.htm
 old-project: WMP
 ms.assetid: c1f27a79-837f-4833-af62-2181406ed725
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPSkinManager, IWMPSkinManager interface [Windows Media Player], IWMPSkinManager interface [Windows Media Player],described, IWMPSkinManagerInterface, wmp.iwmpskinmanager, wmp/IWMPSkinManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ The <b>IWMPSkinManager</b> interface provides a method used to synchronize the c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSkinManager</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWMPSkinManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSkinManager</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWMPSkinManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -82,7 +82,6 @@ Specifies the path to a theme file in Windows XP to which Windows Media Player s
 </td>
 </tr>
 </table> 
-
 
 Retrieve a pointer to an <b>IWMPSkinManager</b> interface by calling the COM <b>CoCreateInstance</b> method.
 

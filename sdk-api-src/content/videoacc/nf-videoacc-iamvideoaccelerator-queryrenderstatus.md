@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_queryrenderstatus.htm
 old-project: DirectShow
 ms.assetid: 29d77bd5-2823-4e67-a69f-2898ad4c467c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: AMVA_QUERYRENDERSTATUSF_READ, IAMVideoAccelerator interface [DirectShow],QueryRenderStatus method, IAMVideoAccelerator.QueryRenderStatus, IAMVideoAccelerator::QueryRenderStatus, IAMVideoAcceleratorQueryRenderStatus, QueryRenderStatus, QueryRenderStatus method [DirectShow], QueryRenderStatus method [DirectShow],IAMVideoAccelerator interface, Zero, dshow.iamvideoaccelerator_queryrenderstatus, videoacc/IAMVideoAccelerator::QueryRenderStatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-
-        The <b>QueryRenderStatus</b> method queries the read/write status of a DirectX Video Acceleration (DXVA) decoding surface.
+The <b>QueryRenderStatus</b> method queries the read/write status of a DirectX Video Acceleration (DXVA) decoding surface.
       
 
 
@@ -73,14 +72,12 @@ Specifies the type of surface to query:
 
 ### -param dwBufferIndex [in]
 
-
-            The zero-based index of the surface, within the pool of surfaces that were allocated  for the specified surface type.
+The zero-based index of the surface, within the pool of surfaces that were allocated  for the specified surface type.
 
 
 ### -param dwFlags [in]
 
-
-            Specifies the type of query to perform.
+Specifies the type of query to perform.
 
 <table>
 <tr>
@@ -115,8 +112,7 @@ Test whether the surface is safe to use for reading.
 
 
 
-
-            Returns an <b>HRESULT</b> value. Possible values include the following:
+Returns an <b>HRESULT</b> value. Possible values include the following:
           
 
 <table>
@@ -178,8 +174,7 @@ The pins on the decoder and video renderer filters are not connected.
 
 
 
-
-        If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTED</b>.
+If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTED</b>.
 
 
 

@@ -7,7 +7,7 @@ old-location: dshow\dvd_disc_side.htm
 old-project: DirectShow
 ms.assetid: 50ea509c-15fc-4066-ad86-04e5e87fdfa6
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: DVD_DISC_SIDE, DVD_DISC_SIDE , DVD_DISC_SIDE enumeration [DirectShow], DVD_DISC_SIDEEnumeration, DVD_SIDE_A, DVD_SIDE_B, dshow.dvd_disc_side, strmif/DVD_DISC_SIDE, strmif/DVD_SIDE_A, strmif/DVD_SIDE_B, tagDVD_DISC_SIDE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # tagDVD_DISC_SIDE enumeration
@@ -64,15 +63,13 @@ Indicates the sides of a DVD disc.
 
 ### -field DVD_SIDE_A
 
-
-            Side A.
+Side A.
           
 
 
 ### -field DVD_SIDE_B
 
-
-            Side B.
+Side B.
           
 
 

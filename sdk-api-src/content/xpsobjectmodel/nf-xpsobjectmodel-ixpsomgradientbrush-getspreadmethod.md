@@ -7,7 +7,7 @@ old-location: xps\ixpsomgradientbrush_getspreadmethod.htm
 old-project: printdocs
 ms.assetid: c4c62817-735b-4ef1-84cf-1c9fa63f55ee
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetSpreadMethod, GetSpreadMethod method [XPS Documents and Packaging], GetSpreadMethod method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetSpreadMethod method, IXpsOMGradientBrush.GetSpreadMethod, IXpsOMGradientBrush::GetSpreadMethod, xps.ixpsomgradientbrush_getspreadmethod, xpsobjectmodel/IXpsOMGradientBrush::GetSpreadMethod
 ms.prod: windows
 ms.technology: windows-sdk

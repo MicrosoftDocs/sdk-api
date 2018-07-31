@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicstreamprovider_getstream.htm
 old-project: wic
 ms.assetid: c86e507b-0b1d-4de0-8af5-c46d7870fb09
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetStream, GetStream method [Windows Imaging Component], GetStream method [Windows Imaging Component],IWICStreamProvider interface, IWICStreamProvider interface [Windows Imaging Component],GetStream method, IWICStreamProvider.GetStream, IWICStreamProvider::GetStream, _wic_codec_iwicstreamprovider_getstream, wic._wic_codec_iwicstreamprovider_getstream, wincodecsdk/IWICStreamProvider::GetStream
 ms.prod: windows
 ms.technology: windows-sdk

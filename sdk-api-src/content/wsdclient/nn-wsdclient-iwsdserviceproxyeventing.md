@@ -4,10 +4,10 @@ title: IWSDServiceProxyEventing
 author: windows-sdk-content
 description: Represents a remote WSD service for client applications and middleware. This interface allows for the implementation of multiple asynchronous operations.
 old-location: ncd\iwsdserviceproxyeventing.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: c9454636-6d6a-4344-a954-1bd35195aff9
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: IWSDServiceProxyEventing, IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,described, ncd.iwsdserviceproxyeventing, wsdclient/IWSDServiceProxyEventing
 ms.prod: windows
 ms.technology: windows-sdk

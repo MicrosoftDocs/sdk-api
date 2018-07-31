@@ -4,10 +4,10 @@ title: CryptGetHashParam function
 author: windows-sdk-content
 description: Retrieves data that governs the operations of a hash object.
 old-location: security\cryptgethashparam.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: ed008c07-1a40-4075-bdaa-eb7f7e12d9c3
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptGetHashParam, CryptGetHashParam function [Security], HP_ALGID, HP_HASHSIZE, HP_HASHVAL, _crypto2_cryptgethashparam, security.cryptgethashparam, wincrypt/CryptGetHashParam
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,7 +110,6 @@ An
 The hash value or message hash for the hash object specified by <i>hHash</i>. This value is generated based on the data supplied to the hash object earlier through the 
 <a href="https://msdn.microsoft.com/ec1482a2-c2cb-4c5f-af9c-d493134413d6">CryptHashData</a> and 
 <a href="https://msdn.microsoft.com/75781993-7faf-4149-80cc-ae50dbd4de2a">CryptHashSessionKey</a> functions.
-
 
 The <b>CryptGetHashParam</b> function completes the hash. After <b>CryptGetHashParam</b> has been called, no more data can be added to the hash. Additional calls to <a href="https://msdn.microsoft.com/ec1482a2-c2cb-4c5f-af9c-d493134413d6">CryptHashData</a> or <a href="https://msdn.microsoft.com/75781993-7faf-4149-80cc-ae50dbd4de2a">CryptHashSessionKey</a> fail. After the application is done with the hash, 
 <a href="https://msdn.microsoft.com/0a4d6086-5c4c-4e1e-9ab9-b35ee49ffcae">CryptDestroyHash</a> should be called to destroy the hash object.
@@ -278,7 +277,7 @@ The CSP context that was specified when the hash was created cannot be found.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wsw\ws_security_key_entropy_mode.htm
 old-project: wsw
 ms.assetid: dd6bca9a-e47b-46b3-b9ac-23aecb101337
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SECURITY_KEY_ENTROPY_MODE, WS_SECURITY_KEY_ENTROPY_MODE enumeration [Web Services for Windows], WS_SECURITY_KEY_ENTROPY_MODE_CLIENT_ONLY, WS_SECURITY_KEY_ENTROPY_MODE_COMBINED, WS_SECURITY_KEY_ENTROPY_MODE_SERVER_ONLY, webservices/WS_SECURITY_KEY_ENTROPY_MODE, webservices/WS_SECURITY_KEY_ENTROPY_MODE_CLIENT_ONLY, webservices/WS_SECURITY_KEY_ENTROPY_MODE_COMBINED, webservices/WS_SECURITY_KEY_ENTROPY_MODE_SERVER_ONLY, wsw.ws_security_key_entropy_mode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,6 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 Defines how randomness should be contributed to the issued key during
 a security token negotiation done with message and mixed-mode security.
             
@@ -64,20 +63,17 @@ a security token negotiation done with message and mixed-mode security.
 
 ### -field WS_SECURITY_KEY_ENTROPY_MODE_CLIENT_ONLY
 
-
 Only client contributes entropy.
                 
 
 
 ### -field WS_SECURITY_KEY_ENTROPY_MODE_SERVER_ONLY
 
-
 Only service contributes entropy.
                 
 
 
 ### -field WS_SECURITY_KEY_ENTROPY_MODE_COMBINED
-
 
 Both contribute entropy.
                 

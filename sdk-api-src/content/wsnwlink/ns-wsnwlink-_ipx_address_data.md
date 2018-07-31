@@ -4,10 +4,10 @@ title: "_IPX_ADDRESS_DATA"
 author: windows-sdk-content
 description: The IPX_ADDRESS_DATA structure provides information about a specific adapter to which IPX is bound. Used in conjunction with getsockopt function calls that specify IPX_ADDRESS in the optname parameter.
 old-location: winsock\ipx_address_data_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 8e18ee5a-04fd-4efc-8d0c-e4ff04fd9f1b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "*PIPX_ADDRESS_DATA, IPX_ADDRESS_DATA, IPX_ADDRESS_DATA structure [Winsock], PIPX_ADDRESS_DATA, PIPX_ADDRESS_DATA structure pointer [Winsock], _IPX_ADDRESS_DATA, _win32_ipx_address_data_2, winsock.ipx_address_data_2, wsnwlink/IPX_ADDRESS_DATA, wsnwlink/PIPX_ADDRESS_DATA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>IPX_ADDRESS_DATA</b> structure provides information about a specific adapter to which IPX is bound. Used in conjunction with 
 <a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">getsockopt</a> function calls that specify IPX_ADDRESS in the <i>optname</i> parameter.
 

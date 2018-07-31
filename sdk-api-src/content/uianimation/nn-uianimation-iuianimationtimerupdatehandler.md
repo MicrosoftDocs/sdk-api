@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimerupdatehandler.htm
 old-project: UIAnimation
 ms.assetid: f155ed12-d493-48a0-9bdf-0e1e79cbcd38
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationTimerUpdateHandler, IUIAnimationTimerUpdateHandler interface [Windows Animation], IUIAnimationTimerUpdateHandler interface [Windows Animation],described, uianimation.iuianimationtimerupdatehandler, uianimation/IUIAnimationTimerUpdateHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Defines methods for handling timing update events.
+Defines methods for handling timing update events.
 
 
 ## -inheritance
@@ -75,8 +74,7 @@ The <b>IUIAnimationTimerUpdateHandler</b> interface has these methods.
 <a href="https://msdn.microsoft.com/c7383df5-dbd4-4cae-a682-47f84c2e8106">IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler</a>
 </td>
 <td align="left" width="63%">
-
-      Clears the handler for timer client status change events.
+Clears the handler for timer client status change events.
 
 </td>
 </tr>
@@ -85,8 +83,7 @@ The <b>IUIAnimationTimerUpdateHandler</b> interface has these methods.
 <a href="https://msdn.microsoft.com/06daa961-5f92-451f-958a-cf68f8ae2b0a">IUIAnimationTimerUpdateHandler::OnUpdate</a>
 </td>
 <td align="left" width="63%">
-
-      Handles update events from the timer.
+Handles update events from the timer.
 
 </td>
 </tr>
@@ -95,8 +92,7 @@ The <b>IUIAnimationTimerUpdateHandler</b> interface has these methods.
 <a href="https://msdn.microsoft.com/ce213fc5-1329-413f-abf1-a4ab7c78818e">IUIAnimationTimerUpdateHandler::SetTimerClientEventHandler</a>
 </td>
 <td align="left" width="63%">
-
-      Specifies a handler for timer client status change events.
+Specifies a handler for timer client status change events.
 
 </td>
 </tr>
@@ -121,13 +117,11 @@ The <a href="https://msdn.microsoft.com/45c9c64b-9a06-4396-b715-d984655fe64c">UI
 
 
 
-<a href="https://msdn.microsoft.com/8ca8f7d8-e698-4c55-8241-5c8f7b47f0e8">
-      IUIAnimationTimerClientEventHandler</a>
+<a href="https://msdn.microsoft.com/8ca8f7d8-e698-4c55-8241-5c8f7b47f0e8">IUIAnimationTimerClientEventHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d5c459e-e1f2-470b-8568-e6847acba63a">
-      IUIAnimationTimerEventHandler</a>
+<a href="https://msdn.microsoft.com/7d5c459e-e1f2-470b-8568-e6847acba63a">IUIAnimationTimerEventHandler</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: wmformat\iwmbandwidthsharing_setbandwidth.htm
 old-project: wmformat
 ms.assetid: 1f2ac613-3674-46d9-ae7c-26389dbede02
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMBandwidthSharing interface [windows Media Format],SetBandwidth method, IWMBandwidthSharing.SetBandwidth, IWMBandwidthSharing::SetBandwidth, IWMBandwidthSharingSetBandwidth, SetBandwidth, SetBandwidth method [windows Media Format], SetBandwidth method [windows Media Format],IWMBandwidthSharing interface, wmformat.iwmbandwidthsharing_setbandwidth, wmsdkidl/IWMBandwidthSharing::SetBandwidth
 ms.prod: windows
 ms.technology: windows-sdk

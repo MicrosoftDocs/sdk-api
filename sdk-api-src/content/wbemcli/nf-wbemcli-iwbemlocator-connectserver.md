@@ -7,7 +7,7 @@ old-location: wmi\iwbemlocator_connectserver.htm
 old-project: WmiSdk
 ms.assetid: 92222e08-8622-46c3-9465-cd12260a2ca0
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: ConnectServer, ConnectServer method [Windows Management Instrumentation], ConnectServer method [Windows Management Instrumentation],IWbemLocator interface, ConnectServer method [Windows Management Instrumentation],WbemAdministrativeLocator object, ConnectServer method [Windows Management Instrumentation],WbemAuthenticatedLocator object, ConnectServer method [Windows Management Instrumentation],WbemLocator object, ConnectServer method [Windows Management Instrumentation],WbemUnauthenticatedLocator object, IWbemLocator interface [Windows Management Instrumentation],ConnectServer method, IWbemLocator.ConnectServer, IWbemLocator::ConnectServer, WBEM_FLAG_CONNECT_REPOSITORY_ONLY, WBEM_FLAG_CONNECT_USE_MAX_WAIT, WbemAdministrativeLocator object [Windows Management Instrumentation],ConnectServer method, WbemAuthenticatedLocator object [Windows Management Instrumentation],ConnectServer method, WbemLocator object [Windows Management Instrumentation],ConnectServer method, WbemUnauthenticatedLocator object [Windows Management Instrumentation],ConnectServer method, _hmm_iwbemlocator_connectserver, wbemcli/IWbemLocator::ConnectServer, wmi.iwbemlocator_connectserver
 ms.prod: windows
 ms.technology: windows-sdk
@@ -154,7 +154,7 @@ Typically, this is <b>NULL</b>. Otherwise, this is a pointer to an
 ### -param ppNamespace [out]
 
 Receives a pointer to an 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> object bound to the specified namespace. This pointer has a positive reference count. The caller must call <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IWbemServices::Release</a> on the pointer when it is no longer required. This pointer is set to point to <b>NULL</b> when there is an error.
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> object bound to the specified namespace. This pointer has a positive reference count. The caller must call <a href="_com_iunknown_release">IWbemServices::Release</a> on the pointer when it is no longer required. This pointer is set to point to <b>NULL</b> when there is an error.
 
 
 ## -returns

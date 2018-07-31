@@ -7,7 +7,7 @@ old-location: winauto\uiauto_ITransformProvider_Move.htm
 old-project: WinAuto
 ms.assetid: 5abd6b54-a555-4e6f-9868-9c9b3e2f6e50
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: ITransformProvider interface [Windows Accessibility],Move method, ITransformProvider.Move, ITransformProvider::Move, Move, Move method [Windows Accessibility], Move method [Windows Accessibility],ITransformProvider interface, uiauto.uiauto_ITransformProvider_Move, uiauto_ITransformProvider_Move, uiautomationcore/ITransformProvider::Move, winauto.uiauto_ITransformProvider_Move
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,8 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-        An object cannot be moved, resized or rotated such that its resulting screen 
+An object cannot be moved, resized or rotated such that its resulting screen 
         location would be completely outside the coordinates of its container and 
         inaccessible to keyboard or mouse. For example, when a top-level window is  
         moved completely off-screen or a child object is moved outside the boundaries 

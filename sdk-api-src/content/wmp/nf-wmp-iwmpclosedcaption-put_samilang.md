@@ -7,7 +7,7 @@ old-location: wmp\iwmpclosedcaption_put_samilang.htm
 old-project: WMP
 ms.assetid: 2027d8cd-2528-45ad-9f36-f03cc3001ba7
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_SAMILang method, IWMPClosedCaption.put_SAMILang, IWMPClosedCaption::put_SAMILang, IWMPClosedCaptionput_SAMILang, put_SAMILang, put_SAMILang method [Windows Media Player], put_SAMILang method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_samilang, wmp/IWMPClosedCaption::put_SAMILang
 ms.prod: windows
 ms.technology: windows-sdk

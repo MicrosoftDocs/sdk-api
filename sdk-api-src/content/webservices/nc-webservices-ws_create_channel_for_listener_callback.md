@@ -7,7 +7,7 @@ old-location: wsw\ws_create_channel_for_listener_callback.htm
 old-project: wsw
 ms.assetid: e5644452-8f58-45de-8dc2-878bbb05fcf3
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK, WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK callback, WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK, wsw.ws_create_channel_for_listener_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,73 +62,58 @@ Handles the <a href="https://msdn.microsoft.com/d9a80506-d891-4cfd-b120-0d3fce94
 
 ### -param *listenerInstance [in]
 
-
-                    The pointer to the state specific to this listener instance,
+The pointer to the state specific to this listener instance,
                     as created by the <a href="https://msdn.microsoft.com/2d8e476d-dc68-44b4-b53b-be440a32efda">WS_CREATE_LISTENER_CALLBACK</a>.
                 
 
 
 ### -param *channelParameters
 
-
-                    The pointer to the value that was specified by the
-                    <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>
-                    property when the custom channel is created using <a href="https://msdn.microsoft.com/d9a80506-d891-4cfd-b120-0d3fce946cf5">WsCreateChannelForListener</a>.
+The pointer to the value that was specified by the
+                    <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property when the custom channel is created using <a href="https://msdn.microsoft.com/d9a80506-d891-4cfd-b120-0d3fce946cf5">WsCreateChannelForListener</a>.
                 
 
-
-                    If the <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>
-                    property was not specified, the value will be <b>NULL</b>.
+If the <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property was not specified, the value will be <b>NULL</b>.
                 
 
 
 ### -param channelParametersSize [in]
 
-
-                    The size in bytes of the value pointed to by channelParameters.
+The size in bytes of the value pointed to by channelParameters.
                 
 
-
-                    If the <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>
-                    property was not specified, the size will be 0.
+If the <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property was not specified, the size will be 0.
                 
 
 
 #### - **channelInstance
 
-
-                    A pointer to an structure allocated by the callback
+A pointer to an structure allocated by the callback
                     that contains the data specific to this channel instance.  This pointer
                     will be passed to all the other channel callbacks
                     for this particular channel instance.
                 
 
-
-                    If this callback is successful, then the <a href="https://msdn.microsoft.com/f1781c50-824e-4b79-91b6-97e31581617a">WS_FREE_CHANNEL_CALLBACK</a>
-                    will be used to free the channel instance returned
+If this callback is successful, then the <a href="https://msdn.microsoft.com/f1781c50-824e-4b79-91b6-97e31581617a">WS_FREE_CHANNEL_CALLBACK</a>will be used to free the channel instance returned
                     in this parameter.
                 
 
 
 ### -param *error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
 #### - channelInstance
 
-
-                    A pointer to an structure allocated by the callback
+A pointer to an structure allocated by the callback
                     that contains the data specific to this channel instance.  This pointer
                     will be passed to all the other channel callbacks
                     for this particular channel instance.
                 
 
-
-                    If this callback is successful, then the <a href="https://msdn.microsoft.com/f1781c50-824e-4b79-91b6-97e31581617a">WS_FREE_CHANNEL_CALLBACK</a>
-                    will be used to free the channel instance returned
+If this callback is successful, then the <a href="https://msdn.microsoft.com/f1781c50-824e-4b79-91b6-97e31581617a">WS_FREE_CHANNEL_CALLBACK</a>will be used to free the channel instance returned
                     in this parameter.
                 
 
@@ -149,7 +134,6 @@ Handles the <a href="https://msdn.microsoft.com/d9a80506-d891-4cfd-b120-0d3fce94
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -161,7 +145,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -187,8 +170,7 @@ This function may return other errors not listed above.
 
 
 
-
-                See <a href="https://msdn.microsoft.com/d9a80506-d891-4cfd-b120-0d3fce946cf5">WsCreateChannelForListener</a> for information about the contract
+See <a href="https://msdn.microsoft.com/d9a80506-d891-4cfd-b120-0d3fce946cf5">WsCreateChannelForListener</a> for information about the contract
                 of this API.
             
 

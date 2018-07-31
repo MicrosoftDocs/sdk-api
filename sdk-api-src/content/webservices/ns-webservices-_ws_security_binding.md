@@ -7,7 +7,7 @@ old-location: wsw\ws_security_binding.htm
 old-project: wsw
 ms.assetid: 6c0663e8-ae73-41a2-9273-50f53534926b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SECURITY_BINDING, WS_SECURITY_BINDING structure [Web Services for Windows], _WS_SECURITY_BINDING, webservices/WS_SECURITY_BINDING, wsw.ws_security_binding
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,6 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
 The abstract base type for all security bindings.  One or more
 concrete subtypes of this are specified in the 
 <a href="https://msdn.microsoft.com/b9490f00-877c-4d9f-b361-eaca343cdee0">security description</a> that is
@@ -59,7 +58,6 @@ supplied during channel and listener creation.  Each concrete subtype
 of this corresponds to a security protocol and a way of using it to
 provide authentication and/or protection to a channel.
             
-
 
 Each security binding subtype instance in the security description
 contributes one security token at runtime.  Thus, the fields of this
@@ -76,7 +74,6 @@ using the optional settings.
 
 ### -field bindingType
 
-
 The<a href="https://msdn.microsoft.com/caa3d71c-420c-4be0-a371-0f2d48ebd757"> WS_SECURITY_BINDING_TYPE</a> of the security binding being described.  The type value
 indicates how to obtain the security token corresponding to this
 security binding.
@@ -84,7 +81,6 @@ security binding.
 
 
 ### -field properties
-
 
 The array of properties specifying the optional security binding
 settings.  Each <a href="https://msdn.microsoft.com/f2790fd7-6f51-45a5-b2b6-e5aaaaca9660">WS_SECURITY_BINDING_PROPERTY</a> in the array is a key-value
@@ -95,7 +91,6 @@ setting.
 
 
 ### -field propertyCount
-
 
 The count of elements in the properties array.
                 

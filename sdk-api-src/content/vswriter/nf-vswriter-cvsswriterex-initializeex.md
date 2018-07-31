@@ -4,10 +4,10 @@ title: CVssWriterEx::InitializeEx
 author: windows-sdk-content
 description: Initializes a CVssWriterEx object and allows a writer application to interact with VSS. Unlike the Initialize method, the InitializeEx method allows the caller to specify writer version information.
 old-location: base\cvsswriterex_initializeex.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 08516a5e-b1ad-4256-9eee-261393b031e2
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: CVssWriterEx interface,InitializeEx method, CVssWriterEx.InitializeEx, CVssWriterEx::InitializeEx, InitializeEx, InitializeEx method, InitializeEx method,CVssWriterEx interface, base.cvsswriterex_initializeex, vswriter/CVssWriterEx::InitializeEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ A
 ### -param nLevel [in]
 
 A 
-      <a href="https://msdn.microsoft.com/fc7fbaee-d223-4557-987d-2c09f3877ec2">VSS_APPLICATION_LEVEL</a> enumeration value that indicates the application level at which the writer receives a <a href="https://msdn.microsoft.com/library/Aa384656(v=VS.85).aspx">Freeze</a> event notification. 
+      <a href="https://msdn.microsoft.com/fc7fbaee-d223-4557-987d-2c09f3877ec2">VSS_APPLICATION_LEVEL</a> enumeration value that indicates the application level at which the writer receives a <a href="vssgloss_f.htm">Freeze</a> event notification. 
 
 
 
@@ -110,7 +110,7 @@ The default value for this parameter is VSS_APP_FRONT_END.
 
 ### -param dwTimeoutFreeze [in]
 
-The maximum permitted time, in milliseconds, between the writer's  receipt of a <a href="https://msdn.microsoft.com/library/Aa384656(v=VS.85).aspx">Freeze</a> event notification and its receipt of a matching <a href="https://msdn.microsoft.com/library/Aa384668(v=VS.85).aspx">Thaw</a> event notification from VSS. After the time-out expires, the writer's 
+The maximum permitted time, in milliseconds, between the writer's  receipt of a <a href="vssgloss_f.htm">Freeze</a> event notification and its receipt of a matching <a href="vssgloss_t.htm">Thaw</a> event notification from VSS. After the time-out expires, the writer's 
 <a href="https://msdn.microsoft.com/56ba5f08-4803-4137-9edd-ce05bc19773b">OnAbort</a> method is called automatically. 
 
 
@@ -222,8 +222,7 @@ The caller is out of memory or other system resources.
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

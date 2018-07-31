@@ -7,7 +7,7 @@ old-location: winauto\serialkeys.htm
 old-project: WinAuto
 ms.assetid: 934446ab-b6bc-49f9-ab26-34eb3dc88f05
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPSERIALKEYSW, LPSERIALKEYS, LPSERIALKEYS structure pointer [Windows Accessibility], SERIALKEYS, SERIALKEYS structure [Windows Accessibility], SERIALKEYSW, SERKF_AVAILABLE, SERKF_INDICATOR, SERKF_SERIALKEYSON, _win32_SERIALKEYS_str, msaa.serialkeys, tagSERIALKEYSA, tagSERIALKEYSW, winauto.serialkeys, winuser/LPSERIALKEYS, winuser/SERIALKEYS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-        Contains information about the SerialKeys accessibility feature, which interprets data from a communication aid attached to a serial port as commands causing the system to simulate keyboard and mouse input.
+Contains information about the SerialKeys accessibility feature, which interprets data from a communication aid attached to a serial port as commands causing the system to simulate keyboard and mouse input.
       
 
 

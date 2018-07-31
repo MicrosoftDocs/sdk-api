@@ -7,7 +7,7 @@ old-location: xps\ixpsomcoreproperties_setsubject.htm
 old-project: printdocs
 ms.assetid: aa194dd0-3293-4c09-84ae-516478862f4c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetSubject method, IXpsOMCoreProperties.SetSubject, IXpsOMCoreProperties::SetSubject, SetSubject, SetSubject method [XPS Documents and Packaging], SetSubject method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setsubject, xpsobjectmodel/IXpsOMCoreProperties::SetSubject
 ms.prod: windows
 ms.technology: windows-sdk

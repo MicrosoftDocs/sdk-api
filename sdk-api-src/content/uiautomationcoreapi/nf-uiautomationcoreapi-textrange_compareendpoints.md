@@ -7,7 +7,7 @@ old-location: winauto\uiauto_TextRange_CompareEndpointsConPat.htm
 old-project: WinAuto
 ms.assetid: f396ec3e-f491-48be-8282-42c3b8698f3a
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: TextRange_CompareEndpoints, TextRange_CompareEndpoints function [Windows Accessibility], uiauto.uiauto_TextRange_CompareEndpointsConPat, uiauto_TextRange_CompareEndpointsConPat, uiautomationcoreapi/TextRange_CompareEndpoints, winauto.uiauto_TextRange_CompareEndpointsConPat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,8 +110,7 @@ Returns S_OK if successful or an error value otherwise.
 
 
 
-
-			The returned value is &lt;0 if the caller's endpoint occurs earlier in the text than the target endpoint; 
+The returned value is &lt;0 if the caller's endpoint occurs earlier in the text than the target endpoint; 
 			0 if the caller's endpoint is at the same location as the target endpoint; and 
 			&gt;0 if the caller's endpoint occurs later in the text than the target endpoint.
 			

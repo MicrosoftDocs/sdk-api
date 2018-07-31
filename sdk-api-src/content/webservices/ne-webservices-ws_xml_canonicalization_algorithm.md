@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_canonicalization_algorithm.htm
 old-project: wsw
 ms.assetid: 230e4b9d-f6ce-45a8-9efd-2a6949d3e6f4
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_EXCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM, WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM, WS_XML_CANONICALIZATION_ALGORITHM, WS_XML_CANONICALIZATION_ALGORITHM enumeration [Web Services for Windows], webservices/WS_EXCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, webservices/WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM, webservices/WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, webservices/WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM, webservices/WS_XML_CANONICALIZATION_ALGORITHM, wsw.ws_xml_canonicalization_algorithm
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,7 @@ The values for the XML canonicalization algorithms.
 
 ### -field WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM
 
-
-          The exclusive XML canonicalization algorithm
+The exclusive XML canonicalization algorithm
           represented by the URI 'http://www.w3.org/2001/10/xml-exc-c14n#' and
           defined in <a href=" http://go.microsoft.com/fwlink/p/?linkid=139714">RFC 3741</a>.
         
@@ -71,35 +70,30 @@ The values for the XML canonicalization algorithms.
 
 ### -field WS_EXCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM
 
-
-          The exclusive XML canonicalization with comments algorithm
+The exclusive XML canonicalization with comments algorithm
           defined in <a href=" http://go.microsoft.com/fwlink/p/?linkid=139714">RFC 3741</a>.
         
 
 
 ### -field WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM
 
-
-          The inclusive XML canonicalization algorithm
+The inclusive XML canonicalization algorithm
           defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=139716">Canonical XML
 Version 1.0</a>.
         
 
-
-          Inclusive canonicalization can only be applied to entire xml documents.
+Inclusive canonicalization can only be applied to entire xml documents.
         
 
 
 ### -field WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM
 
-
-          The inclusive XML canonicalization with comments algorithm
+The inclusive XML canonicalization with comments algorithm
           represented by the URI 'http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments' and
           defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=139716">Canonical XML
 Version 1.0</a>.
         
 
-
-          Inclusive canonicalization can only be applied to entire xml documents.
+Inclusive canonicalization can only be applied to entire xml documents.
         
 

@@ -4,10 +4,10 @@ title: LPNSPLOOKUPSERVICEEND
 author: windows-sdk-content
 description: Called to free the handle after previous calls to NSPLookupServiceBegin and NSPLookupServiceNext.
 old-location: winsock\nsplookupserviceend_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: ec72c89a-a74b-449c-996a-02057dff9137
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: LPNSPLOOKUPSERVICEEND, NSPLookupServiceEnd, NSPLookupServiceEnd function [Winsock], _win32_nsplookupserviceend_2, winsock.nsplookupserviceend_2, ws2spi/NSPLookupServiceEnd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>NSPLookupServiceEnd</b> function is called to free the handle after previous calls to 
 <a href="https://msdn.microsoft.com/a0b71821-4434-470f-b729-370d7e1722ec">NSPLookupServiceBegin</a> and 
 <a href="https://msdn.microsoft.com/321732e4-5d48-48f4-8795-ffac208852dc">NSPLookupServiceNext</a>.
@@ -78,8 +77,7 @@ The handle obtained previously by a call to
 
 
 
-
-						The function should return <b>NO_ERROR</b> (zero) if the routine succeeds. It should return <b>SOCKET_ERROR</b> (–1) if the routine fails and it must set the appropriate error code using <a href="https://msdn.microsoft.com/596155ee-3dcc-4ae3-97ab-0653e019cbee">WSASetLastError</a>.
+The function should return <b>NO_ERROR</b> (zero) if the routine succeeds. It should return <b>SOCKET_ERROR</b> (–1) if the routine fails and it must set the appropriate error code using <a href="https://msdn.microsoft.com/596155ee-3dcc-4ae3-97ab-0653e019cbee">WSASetLastError</a>.
 
 
 
@@ -91,7 +89,7 @@ The handle obtained previously by a call to
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_INVALID_HANDLE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_INVALID_HANDLE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -102,7 +100,7 @@ The handle is not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -113,7 +111,7 @@ There is not enough memory available to perform this operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -131,7 +129,7 @@ The operation is not supported. This error is returned if the namespace provider
 
 
 
-In Windows Sockets 2, conflicting error codes are defined for <b>WSAECANCELLED</b> and <a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_E_CANCELLED</a>. The error code <b>WSAECANCELLED</b> will be removed in a future version and only WSA_E_CANCELLED will remain. Namespace Providers should use the WSA_E_CANCELLED error code to maintain compatibility with the widest possible range of applications.
+In Windows Sockets 2, conflicting error codes are defined for <b>WSAECANCELLED</b> and <a href="windows_sockets_error_codes_2.htm">WSA_E_CANCELLED</a>. The error code <b>WSAECANCELLED</b> will be removed in a future version and only WSA_E_CANCELLED will remain. Namespace Providers should use the WSA_E_CANCELLED error code to maintain compatibility with the widest possible range of applications.
 
 
 

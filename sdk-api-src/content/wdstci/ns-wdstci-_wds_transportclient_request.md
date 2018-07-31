@@ -4,10 +4,10 @@ title: "_WDS_TRANSPORTCLIENT_REQUEST"
 author: windows-sdk-content
 description: This structure is used by the WdsTransportClientStartSession function.
 old-location: wds\wds_transportclient_request.htm
-old-project: wds
+old-project: Wds
 ms.assetid: efa1ea12-5234-474b-a859-cd074290e375
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "*PWDS_TRANSPORTCLIENT_REQUEST, PWDS_TRANSPORTCLIENT_REQUEST, PWDS_TRANSPORTCLIENT_REQUEST structure pointer [Windows Deployment Services], WDS_TRANSPORTCLIENT_AUTH, WDS_TRANSPORTCLIENT_NO_AUTH, WDS_TRANSPORTCLIENT_PROTOCOL_MULTICAST, WDS_TRANSPORTCLIENT_REQUEST, WDS_TRANSPORTCLIENT_REQUEST structure [Windows Deployment Services], WDS_TRANSPORT_CLIENT_CURRENT_API_VERSION, _WDS_TRANSPORTCLIENT_REQUEST, wds.wds_transportclient_request, wdstci/PWDS_TRANSPORTCLIENT_REQUEST, wdstci/WDS_TRANSPORTCLIENT_REQUEST"
 ms.prod: windows
 ms.technology: windows-sdk

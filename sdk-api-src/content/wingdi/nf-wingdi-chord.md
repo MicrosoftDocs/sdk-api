@@ -7,7 +7,7 @@ old-location: gdi\chord.htm
 old-project: gdi
 ms.assetid: d6752c47-96a5-4fac-a1bb-0611a91f03f9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: Chord, Chord function [Windows GDI], _win32_Chord, gdi.chord, wingdi/Chord
 ms.prod: windows
 ms.technology: windows-sdk
@@ -177,20 +177,17 @@ The current position is neither used nor updated by <b>Chord</b>.
 
 
 
-<a href="https://msdn.microsoft.com/65c38da1-ab7d-4e80-83e3-ba1db66f8fd9">
-        AngleArc
+<a href="https://msdn.microsoft.com/65c38da1-ab7d-4e80-83e3-ba1db66f8fd9">AngleArc
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/c15a2173-0fad-4a8a-b0f9-cd39fe4e7bac">
-        Arc
+<a href="https://msdn.microsoft.com/c15a2173-0fad-4a8a-b0f9-cd39fe4e7bac">Arc
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/5e358a14-9f39-4267-9a44-c8bf05b5dfbb">
-        ArcTo
+<a href="https://msdn.microsoft.com/5e358a14-9f39-4267-9a44-c8bf05b5dfbb">ArcTo
       </a>
 
 
@@ -203,8 +200,7 @@ The current position is neither used nor updated by <b>Chord</b>.
 
 
 
-<a href="https://msdn.microsoft.com/86daa936-b483-4432-aa32-0b9328ff76f9">
-        Pie
+<a href="https://msdn.microsoft.com/86daa936-b483-4432-aa32-0b9328ff76f9">Pie
       </a>
  
 

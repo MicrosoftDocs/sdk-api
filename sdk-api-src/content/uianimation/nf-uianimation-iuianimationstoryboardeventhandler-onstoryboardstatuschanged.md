@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboardeventhandler_onstoryboardstatusc
 old-project: UIAnimation
 ms.assetid: e1ccf0e3-64fc-444e-a27b-1a5bc1d9d6fd
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationStoryboardEventHandler interface [Windows Animation],OnStoryboardStatusChanged method, IUIAnimationStoryboardEventHandler.OnStoryboardStatusChanged, IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged, OnStoryboardStatusChanged, OnStoryboardStatusChanged method [Windows Animation], OnStoryboardStatusChanged method [Windows Animation],IUIAnimationStoryboardEventHandler interface, uianimation.iuianimationstoryboardeventhandler_onstoryboardstatuschanged, uianimation/IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Handles events that occur when a storyboard's status changes.
+Handles events that occur when a storyboard's status changes.
 
 
 ## -parameters
@@ -62,20 +61,17 @@ req.product: Windows XP with SP1 and later
 
 ### -param storyboard [in]
 
-
-            The storyboard whose status has changed.
+The storyboard whose status has changed.
 
 
 ### -param newStatus [in]
 
-
-            The new status.
+The new status.
 
 
 ### -param previousStatus [in]
 
-
-            The previous status.
+The previous status.
 
 
 ## -returns

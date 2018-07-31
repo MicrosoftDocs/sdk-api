@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamprioritization_setpriorityrecords.htm
 old-project: wmformat
 ms.assetid: 9bd42132-b391-4941-87db-5ce2254e19cf
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMStreamPrioritization interface [windows Media Format],SetPriorityRecords method, IWMStreamPrioritization.SetPriorityRecords, IWMStreamPrioritization::SetPriorityRecords, IWMStreamPrioritizationSetPriorityRecords, SetPriorityRecords, SetPriorityRecords method [windows Media Format], SetPriorityRecords method [windows Media Format],IWMStreamPrioritization interface, wmformat.iwmstreamprioritization_setpriorityrecords, wmsdkidl/IWMStreamPrioritization::SetPriorityRecords
 ms.prod: windows
 ms.technology: windows-sdk

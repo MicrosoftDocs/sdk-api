@@ -7,7 +7,7 @@ old-location: wsw\ws_async_context.htm
 old-project: wsw
 ms.assetid: 3c9ffbef-2f5b-42b0-96b1-f17f0ab98ca4
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_ASYNC_CONTEXT, WS_ASYNC_CONTEXT structure [Web Services for Windows], _WS_ASYNC_CONTEXT, webservices/WS_ASYNC_CONTEXT, wsw.ws_async_context
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Used with the Async Model to specify the asynchronous callback and
+Used with the Async Model to specify the asynchronous callback and
                 a pointer which will be passed to the asynchronous callback.
             
 
@@ -64,16 +63,14 @@ req.product: Windows Address Book 5.0
 
 ### -field callback
 
-
-                    The callback function to call if the operation completes asynchronously.
+The callback function to call if the operation completes asynchronously.
                     This field may not be <b>NULL</b>.
                 
 
 
 ### -field callbackState
 
-
-                    A pointer to user-defined data which will passed to the asynchronous callback
+A pointer to user-defined data which will passed to the asynchronous callback
                     function if the operation completes asynchronously.
                 
 

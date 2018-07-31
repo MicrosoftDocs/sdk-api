@@ -7,7 +7,7 @@ old-location: gdi\polytextout.htm
 old-project: gdi
 ms.assetid: 643b4f6a-843f-4795-adc8-a90223bdc246
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: PolyTextOut, PolyTextOut function [Windows GDI], PolyTextOutA, PolyTextOutW, _win32_PolyTextOut, gdi.polytextout, wingdi/PolyTextOut, wingdi/PolyTextOutA, wingdi/PolyTextOutW
 ms.prod: windows
 ms.technology: windows-sdk

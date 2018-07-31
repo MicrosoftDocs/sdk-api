@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapencoder_commit.htm
 old-project: wic
 ms.assetid: 97e39e73-3494-4679-8962-eb48242f9b9f
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: Commit, Commit method [Windows Imaging Component], Commit method [Windows Imaging Component],IWICBitmapEncoder interface, IWICBitmapEncoder interface [Windows Imaging Component],Commit method, IWICBitmapEncoder.Commit, IWICBitmapEncoder::Commit, _wic_codec_iwicbitmapencoder_commit, wic._wic_codec_iwicbitmapencoder_commit, wincodec/IWICBitmapEncoder::Commit
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_VDS_VOLUME_PLEX_TYPE"
 author: windows-sdk-content
 description: Defines the set of valid types for a volume plex.
 old-location: base\vds_volume_plex_type.htm
-old-project: vds
+old-project: VDS
 ms.assetid: b0cd0418-35fa-40ff-964b-154c7f01f4df
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: VDS_VOLUME_PLEX_TYPE, VDS_VOLUME_PLEX_TYPE enumeration [VDS], VDS_VPT_PARITY, VDS_VPT_SIMPLE, VDS_VPT_SPAN, VDS_VPT_STRIPE, VDS_VPT_UNKNOWN, _VDS_VOLUME_PLEX_TYPE, base.vds_volume_plex_type, vds/VDS_VOLUME_PLEX_TYPE, vds/VDS_VPT_PARITY, vds/VDS_VPT_SIMPLE, vds/VDS_VPT_SPAN, vds/VDS_VPT_STRIPE, vds/VDS_VPT_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,8 +106,7 @@ The <a href="https://msdn.microsoft.com/225cdc5e-045b-407f-b383-8f92025fbbd6">VD
 
 
 
-<a href="https://msdn.microsoft.com/225cdc5e-045b-407f-b383-8f92025fbbd6">
-        VDS_VOLUME_PLEX_PROP</a>
+<a href="https://msdn.microsoft.com/225cdc5e-045b-407f-b383-8f92025fbbd6">VDS_VOLUME_PLEX_PROP</a>
 
 
 

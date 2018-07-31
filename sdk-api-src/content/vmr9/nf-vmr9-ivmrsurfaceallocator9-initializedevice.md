@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocator9_initializedevice.htm
 old-project: DirectShow
 ms.assetid: 44c22dc0-98a9-4a6e-a488-1d70dfff6acd
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IVMRSurfaceAllocator9 interface [DirectShow],InitializeDevice method, IVMRSurfaceAllocator9.InitializeDevice, IVMRSurfaceAllocator9::InitializeDevice, IVMRSurfaceAllocator9InitializeDevice, InitializeDevice, InitializeDevice method [DirectShow], InitializeDevice method [DirectShow],IVMRSurfaceAllocator9 interface, dshow.ivmrsurfaceallocator9_initializedevice, vmr9/IVMRSurfaceAllocator9::InitializeDevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,8 +112,7 @@ The method succeeded.
 
 Implement this method if you are providing a custom allocator-presenter for the VMR-9. You can use the <a href="https://msdn.microsoft.com/b69db9e9-6ab0-40ad-b929-30613c0b9e4b">IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper</a> method on the VMR-9 to allocate the surfaces.
 
-
-        Include DShow.h and D3d9.h before Vmr9.h.
+Include DShow.h and D3d9.h before Vmr9.h.
       
 
 

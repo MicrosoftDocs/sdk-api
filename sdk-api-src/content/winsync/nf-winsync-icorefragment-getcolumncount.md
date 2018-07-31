@@ -7,7 +7,7 @@ old-location: winsync\icorefragment_getcolumncount.htm
 old-project: winsync
 ms.assetid: 5f1aff6d-4fdf-48e1-9c7b-c003ec27f354
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetColumnCount, GetColumnCount method [Windows Sync], GetColumnCount method [Windows Sync],ICoreFragment interface, ICoreFragment interface [Windows Sync],GetColumnCount method, ICoreFragment.GetColumnCount, ICoreFragment::GetColumnCount, winsync.icorefragment_getcolumncount, winsync/ICoreFragment::GetColumnCount
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xps\ixpsomtilebrush_gettransformlocal.htm
 old-project: printdocs
 ms.assetid: e06661dd-387c-46c4-8c37-f4e101d3c536
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetTransformLocal, GetTransformLocal method [XPS Documents and Packaging], GetTransformLocal method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetTransformLocal method, IXpsOMTileBrush.GetTransformLocal, IXpsOMTileBrush::GetTransformLocal, xps.ixpsomtilebrush_gettransformlocal, xpsobjectmodel/IXpsOMTileBrush::GetTransformLocal
 ms.prod: windows
 ms.technology: windows-sdk

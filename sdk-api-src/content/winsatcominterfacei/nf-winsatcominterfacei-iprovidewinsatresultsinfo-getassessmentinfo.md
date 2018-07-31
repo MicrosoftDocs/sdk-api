@@ -7,7 +7,7 @@ old-location: winsat\iprovidewinsatresultsinfo_getassessmentinfo.htm
 old-project: WinSAT
 ms.assetid: dfa4d740-2dfd-41b5-a0be-a241f9ece939
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 07/29/2018
 ms.keywords: GetAssessmentInfo, GetAssessmentInfo method [WinSAT], GetAssessmentInfo method [WinSAT],IProvideWinSATResultsInfo interface, IProvideWinSATResultsInfo interface [WinSAT],GetAssessmentInfo method, IProvideWinSATResultsInfo.GetAssessmentInfo, IProvideWinSATResultsInfo::GetAssessmentInfo, winsat.iprovidewinsatresultsinfo_getassessmentinfo, winsatcominterfacei/IProvideWinSATResultsInfo::GetAssessmentInfo
 ms.prod: windows
 ms.technology: windows-sdk

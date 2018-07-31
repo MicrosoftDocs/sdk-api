@@ -7,7 +7,7 @@ old-location: search\_search_IEntity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\ientity.htm
 ms.author: windowssdkdev
-ms.date: 06/08/2018
+ms.date: 07/29/2018
 ms.keywords: IEntity, IEntity interface [search], IEntity interface [search],described, _search_IEntity, search._search_IEntity, structuredquery/IEntity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-            Provides methods for retrieving information about an entity type in the schema.
+Provides methods for retrieving information about an entity type in the schema.
         
 
 
@@ -73,42 +72,39 @@ The <b>IEntity</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231369(v=VS.85).aspx">Base</a>
+<a href="https://msdn.microsoft.com/6b65dd1e-5d8e-4147-bcc2-abf99930be04">Base</a>
 </td>
 <td align="left" width="63%">
-
-            Retrieves the parent entity of this entity.
+Retrieves the parent entity of this entity.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231370(v=VS.85).aspx">DefaultPhrase</a>
+<a href="https://msdn.microsoft.com/429c59ce-237a-45af-8862-53f371955e0b">DefaultPhrase</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves a default phrase to use for this entity in restatements.
+Retrieves a default phrase to use for this entity in restatements.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231371(v=VS.85).aspx">GetNamedEntity</a>
+<a href="https://msdn.microsoft.com/aa1a5324-3c23-4e6c-9e97-1a08996a6093">GetNamedEntity</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/library/Bb231364(v=VS.85).aspx">INamedEntity</a> object based on an entity name.
+Retrieves an <a href="https://msdn.microsoft.com/1e5dfef8-0f54-4302-97d8-bcbc0edbef03">INamedEntity</a> object based on an entity name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231372(v=VS.85).aspx">GetRelationship</a>
+<a href="https://msdn.microsoft.com/7e6fbe71-d95f-49df-b41b-95102f1fb8aa">GetRelationship</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the <a href="https://msdn.microsoft.com/library/Bb231339(v=VS.85).aspx">IRelationship</a> object for this entity as requested by name.
+Retrieves the <a href="https://msdn.microsoft.com/137f8b7c-568e-469f-83de-468cb6e50319">IRelationship</a> object for this entity as requested by name.
         
 
 </td>
@@ -118,8 +114,7 @@ Retrieves an <a href="https://msdn.microsoft.com/library/Bb231364(v=VS.85).aspx"
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn915567">MetaData</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves an enumeration of <a href="https://msdn.microsoft.com/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects for this entity.
+Retrieves an enumeration of <a href="https://msdn.microsoft.com/2647af6d-af05-4f0d-8613-03248385abec">IMetaData</a> objects for this entity.
         
 
 </td>
@@ -129,28 +124,26 @@ Retrieves an <a href="https://msdn.microsoft.com/library/Bb231364(v=VS.85).aspx"
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves the name of this entity.
+Retrieves the name of this entity.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231376(v=VS.85).aspx">NamedEntities</a>
+<a href="https://msdn.microsoft.com/0fa7e1be-7e01-4bc6-a797-a040a456966d">NamedEntities</a>
 </td>
 <td align="left" width="63%">
-Retrieves an enumeration of <a href="https://msdn.microsoft.com/library/Bb231364(v=VS.85).aspx">INamedEntity</a> objects, one for each known named entity of this type.
+Retrieves an enumeration of <a href="https://msdn.microsoft.com/1e5dfef8-0f54-4302-97d8-bcbc0edbef03">INamedEntity</a> objects, one for each known named entity of this type.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Bb231377(v=VS.85).aspx">Relationships</a>
+<a href="https://msdn.microsoft.com/a8b33485-8ded-4db2-b691-ba73e6cf7801">Relationships</a>
 </td>
 <td align="left" width="63%">
-
-          Retrieves an enumeration of <a href="https://msdn.microsoft.com/library/Bb231339(v=VS.85).aspx">IRelationship</a> objects, one for each relationship this entity has.
+Retrieves an enumeration of <a href="https://msdn.microsoft.com/137f8b7c-568e-469f-83de-468cb6e50319">IRelationship</a> objects, one for each relationship this entity has.
         
 
 </td>

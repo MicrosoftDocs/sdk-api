@@ -7,7 +7,7 @@ old-location: wsw\wsflushbody.htm
 old-project: wsw
 ms.assetid: f94c409b-94c0-4440-8587-74322777261f
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsFlushBody, WsFlushBody function [Web Services for Windows], webservices/WsFlushBody, wsw.wsflushbody
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,14 +54,11 @@ req.product: Windows Address Book 5.0
 Flushes all accumulated message body data that has been written.
             
 
-
-                When message uses <a href="https://msdn.microsoft.com/70ff43f5-6f1a-4bbb-aa39-6fb9476e6a37">WsWriteBody</a> or XML Writer
-                the data is accumulated in a buffer.   WsFlushBody subsequently performs the actual
+When message uses <a href="https://msdn.microsoft.com/70ff43f5-6f1a-4bbb-aa39-6fb9476e6a37">WsWriteBody</a> or XML Writerthe data is accumulated in a buffer.   WsFlushBody subsequently performs the actual
                 I/O.
             
 
-
-                WsFlushBody is typically used when  channel I/O is set to 
+WsFlushBody is typically used when  channel I/O is set to 
                 <a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_STREAMED_OUTPUT_TRANSFER_MODE</a>, or when using an 
                 XML Writer  set to use <a href="https://msdn.microsoft.com/8ee4ea59-5cdc-43bf-80c0-8f8632fee274">WS_XML_WRITER_STREAM_OUTPUT</a>.
             
@@ -74,8 +71,7 @@ Flushes all accumulated message body data that has been written.
 
 ### -param message [in]
 
-
-          A pointer to the <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> structure containing the accumulated message body data.
+A pointer to the <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> structure containing the accumulated message body data.
 
 
 ### -param minSize [in]
@@ -123,8 +119,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    The asynchronous operation is still pending.
+The asynchronous operation is still pending.
                 
 
 </td>
@@ -136,7 +131,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -148,7 +142,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -160,7 +153,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -186,13 +178,11 @@ This function may return other errors not listed above.
 
 
 
-
-        This function is a "no-op" when <a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_STREAMED_OUTPUT_TRANSFER_MODE</a> is not set, or when using an
+This function is a "no-op" when <a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_STREAMED_OUTPUT_TRANSFER_MODE</a> is not set, or when using an
                 XML Writer with <a href="https://msdn.microsoft.com/46c0595c-9aa5-47cf-931a-8dc35e265fa0">WS_XML_WRITER_BUFFER_OUTPUT</a> set.
       
 
-
-                This function is shortcut for calling <a href="https://msdn.microsoft.com/ba631942-d5a0-4d93-9899-c3f0ebd4aae5">WsFlushWriter</a> for 
+This function is shortcut for calling <a href="https://msdn.microsoft.com/ba631942-d5a0-4d93-9899-c3f0ebd4aae5">WsFlushWriter</a> for 
                 the XML Writer being used to write the message.  Calling 
                 <b>WsFlushWriter</b> directly is equivalent to calling this function.
             

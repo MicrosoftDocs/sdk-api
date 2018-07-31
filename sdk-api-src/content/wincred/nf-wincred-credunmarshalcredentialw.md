@@ -4,10 +4,10 @@ title: CredUnmarshalCredentialW function
 author: windows-sdk-content
 description: The CredUnmarshalCredential function transforms a marshaled credential back into its original form.
 old-location: security\credunmarshalcredential.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 65757235-d92c-479f-8e2b-1f8d8564792b
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: CredUnmarshalCredential, CredUnmarshalCredential function [Security], CredUnmarshalCredentialA, CredUnmarshalCredentialW, _cred_credunmarshalcredential, security.credunmarshalcredential, wincred/CredUnmarshalCredential, wincred/CredUnmarshalCredentialA, wincred/CredUnmarshalCredentialW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,8 +56,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CredUnmarshalCredential</b> function transforms a marshaled credential back into its original form.
+The <b>CredUnmarshalCredential</b> function transforms a marshaled credential back into its original form.
 
 
 ## -parameters
@@ -73,8 +72,7 @@ Pointer to a null-terminated string that contains the marshaled credential.
 
 ### -param CredType [out]
 
-
-						Type of credential specified by <i>MarshaledCredential</i>. 
+Type of credential specified by <i>MarshaledCredential</i>. 
 
 
 This is one of the <a href="https://msdn.microsoft.com/612fdd6f-2b4c-4f41-a00b-250f90eb85d3">CRED_MARSHAL_TYPE</a> values.
@@ -91,8 +89,7 @@ The caller should free the returned buffer using <a href="https://msdn.microsoft
 
 
 
-
-						This function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function can be called to get a more specific status code. The following status code can be returned:
+This function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function can be called to get a more specific status code. The following status code can be returned:
 
 ERROR_INVALID_PARAMETER
 

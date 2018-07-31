@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard_getelapsedtime.htm
 old-project: UIAnimation
 ms.assetid: 901afd34-03cc-4421-a467-9d096e1458fe
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetElapsedTime, GetElapsedTime method [Windows Animation], GetElapsedTime method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],GetElapsedTime method, IUIAnimationStoryboard.GetElapsedTime, IUIAnimationStoryboard::GetElapsedTime, uianimation.iuianimationstoryboard_getelapsedtime, uianimation/IUIAnimationStoryboard::GetElapsedTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Gets the time that has elapsed since the storyboard started playing.
+Gets the time that has elapsed since the storyboard started playing.
 
 
 ## -parameters
@@ -62,16 +61,14 @@ req.product: Windows XP with SP1 and later
 
 ### -param elapsedTime [out]
 
-
-            The elapsed time.
+The elapsed time.
 
 
 ## -returns
 
 
 
-
-            If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code.            
+If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code.            
              See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
 
 <table>
@@ -105,13 +102,11 @@ The storyboard is not playing.
 
 
 
-<a href="https://msdn.microsoft.com/8ee9a17f-c57c-49df-950d-491e05ba8768">
-      IUIAnimationStoryboard::GetStatus</a>
+<a href="https://msdn.microsoft.com/8ee9a17f-c57c-49df-950d-491e05ba8768">IUIAnimationStoryboard::GetStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/02830092-0070-44dc-8db2-239941134473">
-      UI_ANIMATION_STORYBOARD_STATUS</a>
+<a href="https://msdn.microsoft.com/02830092-0070-44dc-8db2-239941134473">UI_ANIMATION_STORYBOARD_STATUS</a>
  
 
  

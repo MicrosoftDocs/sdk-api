@@ -4,10 +4,10 @@ title: ListBox_SetCaretIndex macro
 author: windows-sdk-content
 description: Sets the focus rectangle to the item at the specified index in a multiple-selection list box. If the item is not visible, it is scrolled into view. You can use this macro or send the LB_SETCARETINDEX message explicitly.
 old-location: controls\ListBox_SetCaretIndex.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setcaretindex.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ListBox_SetCaretIndex, ListBox_SetCaretIndex macro [Windows Controls], _win32_ListBox_SetCaretIndex, _win32_ListBox_SetCaretIndex_cpp, controls.ListBox_SetCaretIndex, controls._win32_ListBox_SetCaretIndex, windowsx/ListBox_SetCaretIndex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the focus rectangle to the item at the specified index in a multiple-selection list box. If the item is not visible, it is scrolled into view. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761336(v=VS.85).aspx">LB_SETCARETINDEX</a> message explicitly.
+Sets the focus rectangle to the item at the specified index in a multiple-selection list box. If the item is not visible, it is scrolled into view. You can use this macro or send the <a href="https://msdn.microsoft.com/077c2b9b-6c52-49e2-b5be-ab91c067d5b2">LB_SETCARETINDEX</a> message explicitly.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Type: <b>int</b>
 
 The contents of the list box are scrolled till the item is fully visible.
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb761336(v=VS.85).aspx">LB_SETCARETINDEX</a>.
+For more information, see <a href="https://msdn.microsoft.com/077c2b9b-6c52-49e2-b5be-ab91c067d5b2">LB_SETCARETINDEX</a>.
 
 
 

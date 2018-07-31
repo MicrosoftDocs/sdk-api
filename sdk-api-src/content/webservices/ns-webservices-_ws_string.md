@@ -7,7 +7,7 @@ old-location: wsw\ws_string.htm
 old-project: wsw
 ms.assetid: eb6c7397-6b15-4e79-89ec-585861113edf
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_STRING, WS_STRING structure [Web Services for Windows], _WS_STRING, webservices/WS_STRING, wsw.ws_string
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                An array of Unicode characters and a length.
+An array of Unicode characters and a length.
             
 
 
@@ -63,15 +62,13 @@ req.product: Windows Address Book 5.0
 
 ### -field length
 
-
-                    The number of characters in the string.
+The number of characters in the string.
                 
 
 
 ### -field chars
 
-
-                    The array of characters that make up the string.
+The array of characters that make up the string.
                 
 
 
@@ -79,14 +76,12 @@ req.product: Windows Address Book 5.0
 
 
 
-
-                The string is not required to be zero terminated.  If it is
+The string is not required to be zero terminated.  If it is
                 zero terminated, then the terminating character is not included
                 in the length.
             
 
-
-                The macro <a href="https://msdn.microsoft.com/692aa04e-f061-465c-b2ae-27d424d708bc">WS_STRING_VALUE</a> can be used to initialize
+The macro <a href="https://msdn.microsoft.com/692aa04e-f061-465c-b2ae-27d424d708bc">WS_STRING_VALUE</a> can be used to initialize
                 this structure if the string is a constant string.
             
 

@@ -7,7 +7,7 @@ old-location: wmp\iwmplibrary.htm
 old-project: WMP
 ms.assetid: add0ed43-d83f-4793-b1f6-ccad0f01854c
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPLibrary, IWMPLibrary interface [Windows Media Player], IWMPLibrary interface [Windows Media Player],described, IWMPLibraryInterface, wmp.iwmplibrary, wmp/IWMPLibrary
 ms.prod: windows
 ms.technology: windows-sdk

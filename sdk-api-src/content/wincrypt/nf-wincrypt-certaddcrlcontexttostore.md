@@ -4,10 +4,10 @@ title: CertAddCRLContextToStore function
 author: windows-sdk-content
 description: Adds a certificate revocation list (CRL) context to the specified certificate store.
 old-location: security\certaddcrlcontexttostore.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 5dfa1c08-5d75-4ee4-bd65-ce56eb61ecce
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddCRLContextToStore, CertAddCRLContextToStore function [Security], _crypto2_certaddcrlcontexttostore, security.certaddcrlcontexttostore, wincrypt/CertAddCRLContextToStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertAddCRLContextToStore</b> function adds a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) context to the specified <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a>.
+The <b>CertAddCRLContextToStore</b> function adds a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) context to the specified <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a>.
 
 
 ## -parameters
@@ -173,8 +172,7 @@ A pointer to a pointer to the decoded CRL context. This is an optional parameter
 
 
 
-
-						If the function succeeds, the return value is <b>TRUE</b>.
+If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. Errors from the called functions 
 <a href="https://msdn.microsoft.com/ec2361e6-a1e6-413a-828e-d543a09c88f8">CertAddEncodedCRLToStore</a> and 
@@ -249,7 +247,7 @@ To remove the CRL context from the certificate store, use the  <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Revocation List Functions</a>
+<a href="cryptography_functions.htm">Certificate Revocation List Functions</a>
  
 
  

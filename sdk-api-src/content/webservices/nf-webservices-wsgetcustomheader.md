@@ -7,7 +7,7 @@ old-location: wsw\wsgetcustomheader.htm
 old-project: wsw
 ms.assetid: bdfb441b-afc4-4be8-b437-f299a31ce84b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetCustomHeader, WsGetCustomHeader function [Web Services for Windows], webservices/WsGetCustomHeader, wsw.wsgetcustomheader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Finds an application-defined header of the message and deserializes it.
+Finds an application-defined header of the message and deserializes it.
             
 
 
@@ -63,61 +62,52 @@ req.product: Windows Address Book 5.0
 
 ### -param message [in]
 
-
-                    The message containing the header.
+The message containing the header.
                 
 
-
-                    The message can be in any state but <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+The message can be in any state but <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 
 ### -param customHeaderDescription [in]
 
-
-                    A <a href="https://msdn.microsoft.com/17035b64-9b2c-40d3-bdce-45e9b132e9f1">WS_ELEMENT_DESCRIPTION</a> which describes the header element.
+A <a href="https://msdn.microsoft.com/17035b64-9b2c-40d3-bdce-45e9b132e9f1">WS_ELEMENT_DESCRIPTION</a> which describes the header element.
                 
 
 
 ### -param repeatingOption [in]
 
-
-                    Whether the header may appear more than once in
+Whether the header may appear more than once in
                     the message.
                 
 
-
-                    If <a href="https://msdn.microsoft.com/7bbe5aba-e7b6-483d-8782-714a38ef4a99">WS_REPEATING_HEADER</a> is used, then
+If <a href="https://msdn.microsoft.com/7bbe5aba-e7b6-483d-8782-714a38ef4a99">WS_REPEATING_HEADER</a> is used, then
                     the header index indicates which of the headers
                     with the specified headerName to return.
                 
 
-
-                    If <a href="https://msdn.microsoft.com/7bbe5aba-e7b6-483d-8782-714a38ef4a99">WS_SINGLETON_HEADER</a> is used, then
+If <a href="https://msdn.microsoft.com/7bbe5aba-e7b6-483d-8782-714a38ef4a99">WS_SINGLETON_HEADER</a> is used, then
                     the headerIndex must be zero.
                 
 
 
 ### -param headerIndex [in]
 
-
-                    The zero-based index of the header within
+The zero-based index of the header within
                     the set of headers with the specified headerName.
                 
 
 
 ### -param readOption [in]
 
-
-                    Whether the value is required, and how to allocate the value.
+Whether the value is required, and how to allocate the value.
                     See <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a> for more information.
                 
 
 
 ### -param heap [in, optional]
 
-
-                    The heap to store the deserialized header data in.
+The heap to store the deserialized header data in.
                     If this is <b>NULL</b>, then the message heap will be used
                     as required by the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
                 
@@ -125,30 +115,26 @@ req.product: Windows Address Book 5.0
 
 ### -param value
 
-
-                    The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
                 
 
 
 ### -param valueSize [in]
 
-
-                    The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
                 
 
 
 ### -param headerAttributes
 
-
-                    Returns the <a href="https://msdn.microsoft.com/2796253d-3b8d-490d-987d-5bf7cd48c8ea">WS_HEADER_ATTRIBUTES</a> for this header.
+Returns the <a href="https://msdn.microsoft.com/2796253d-3b8d-490d-987d-5bf7cd48c8ea">WS_HEADER_ATTRIBUTES</a> for this header.
                     The pointer may be <b>NULL</b>, in which case no attributes are returned.
                 
 
 
 ### -param error [in, optional]
 
-
-                    Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
                 
 
 
@@ -170,8 +156,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    The header does not exist, and is required.
+The header does not exist, and is required.
                 
 
 
@@ -179,8 +164,7 @@ This function can return one of these values.
                     multiple instances of the type of header present in the message.
                 
 
-
-                    The input data was not in the expected format.
+The input data was not in the expected format.
                 
 
 </td>
@@ -192,8 +176,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    There size quota of the heap was exceeded.
+There size quota of the heap was exceeded.
                 
 
 </td>
@@ -205,8 +188,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    There was not enough memory available to deserialize the header.
+There was not enough memory available to deserialize the header.
                 
 
 </td>
@@ -218,8 +200,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    One or more of the parameters are incorrect.
+One or more of the parameters are incorrect.
                 
 
 </td>
@@ -245,8 +226,7 @@ This function may return other errors not listed above.
 
 
 
-
-                This API operates on headers targeted at the ultimate receiver.  
+This API operates on headers targeted at the ultimate receiver.  
                 Headers targeted with a role/actor other than ultimate receiver are 
                 ignored by this API.
             

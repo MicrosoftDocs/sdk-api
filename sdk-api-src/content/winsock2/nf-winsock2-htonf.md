@@ -4,10 +4,10 @@ title: htonf function
 author: windows-sdk-content
 description: Converts a float from host to TCP/IP network byte order (which is big-endian).
 old-location: winsock\htonf.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 93011B2E-2B3C-4EDD-90F7-82A11542A154
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: htonf, htonf function [Winsock], winsock.htonf, winsock2/htonf
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,8 +76,7 @@ A float that contains a number in host byte order.
 
 
 
-
-						The 
+The 
 <b>htonf</b> function returns the value in TCP/IP's network byte order.
 
 
@@ -93,8 +92,7 @@ The
 The 
 <b>htonf</b> inline function can be used to convert an IPv4 address in host byte order to the IPv4 address in network byte order. This function does not do any checking to determine if the <i>value</i> parameter is a valid IPv4 address.
 
-The <b>htonf</b>
-			inline function does not require that the Winsock DLL has previously been loaded with a successful 
+The <b>htonf</b>inline function does not require that the Winsock DLL has previously been loaded with a successful 
 call to the <a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> function.
 
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.

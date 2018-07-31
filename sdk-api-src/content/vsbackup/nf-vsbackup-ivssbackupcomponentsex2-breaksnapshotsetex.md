@@ -4,10 +4,10 @@ title: IVssBackupComponentsEx2::BreakSnapshotSetEx
 author: windows-sdk-content
 description: Breaks a shadow copy set according to requester-specified options.
 old-location: base\ivssbackupcomponentsex2_breaksnapshotsetex.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 595fe295-082d-4130-9698-952df49a922e
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: BreakSnapshotSetEx, BreakSnapshotSetEx method, BreakSnapshotSetEx method,IVssBackupComponentsEx2 interface, IVssBackupComponentsEx2 interface,BreakSnapshotSetEx method, IVssBackupComponentsEx2.BreakSnapshotSetEx, IVssBackupComponentsEx2::BreakSnapshotSetEx, base.ivssbackupcomponentsex2_breaksnapshotsetex, vsbackup/IVssBackupComponentsEx2::BreakSnapshotSetEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ A bitmask of <a href="https://msdn.microsoft.com/545977ae-7f62-4a8e-9d2f-936224f
 
 ### -param ppAsync [out]
 
-A pointer to a variable that receives an <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface pointer that can be used to retrieve the status of the shadow copy set break operation. When the break operation is complete, the <a href="https://msdn.microsoft.com/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method must be called for this interface pointer.
+A pointer to a variable that receives an <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface pointer that can be used to retrieve the status of the shadow copy set break operation. When the break operation is complete, the <a href="_com_iunknown_release">IUnknown::Release</a> method must be called for this interface pointer.
 
 
 ## -returns
@@ -176,8 +176,7 @@ The shadow copy was created by a software provider and cannot be broken.
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

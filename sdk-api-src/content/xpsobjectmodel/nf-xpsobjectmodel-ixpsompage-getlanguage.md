@@ -7,7 +7,7 @@ old-location: xps\ixpsompage_getlanguage.htm
 old-project: printdocs
 ms.assetid: d16378cc-dd1c-49f9-9c1b-1eb0d78067f7
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetLanguage, GetLanguage method [XPS Documents and Packaging], GetLanguage method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetLanguage method, IXpsOMPage.GetLanguage, IXpsOMPage::GetLanguage, xps.ixpsompage_getlanguage, xpsobjectmodel/IXpsOMPage::GetLanguage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,7 +111,7 @@ The default value is the language tag string that is passed to <a href="https://
 
 Internet Engineering Task Force (IETF) RFC 3066 describes the recommended encoding of the language tag string that is returned in <i>language</i>.
 
-This method allocates the memory used by the string that is returned in <i>language</i>.  If <i>language</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>language</i>.  If <i>language</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

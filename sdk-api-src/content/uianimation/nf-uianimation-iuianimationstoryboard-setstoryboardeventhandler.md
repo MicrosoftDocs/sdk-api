@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard_setstoryboardeventhandler.htm
 old-project: UIAnimation
 ms.assetid: 8fbe8e94-8585-4adc-8643-3962aff6a031
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationStoryboard interface [Windows Animation],SetStoryboardEventHandler method, IUIAnimationStoryboard.SetStoryboardEventHandler, IUIAnimationStoryboard::SetStoryboardEventHandler, SetStoryboardEventHandler, SetStoryboardEventHandler method [Windows Animation], SetStoryboardEventHandler method [Windows Animation],IUIAnimationStoryboard interface, uianimation.iuianimationstoryboard_setstoryboardeventhandler, uianimation/IUIAnimationStoryboard::SetStoryboardEventHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Specifies a handler for storyboard events.
+Specifies a handler for storyboard events.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param handler [in, optional]
 
-
-            The handler to be called whenever storyboard status and update events occur.
+The handler to be called whenever storyboard status and update events occur.
             
             The specified object must implement the
             <a href="https://msdn.microsoft.com/f43f53f9-1491-4847-89ef-e65ba98a2127">IUIAnimationStoryboardEventHandler</a> interface or be <b>NULL</b>. See Remarks.

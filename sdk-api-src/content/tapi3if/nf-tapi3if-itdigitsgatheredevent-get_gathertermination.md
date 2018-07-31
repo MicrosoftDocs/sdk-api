@@ -4,10 +4,10 @@ title: ITDigitsGatheredEvent::get_GatherTermination
 author: windows-sdk-content
 description: The get_GatherTermination method gets the reason why the TAPI Server terminated the gathering of digits on the call.
 old-location: tapi3\itdigitsgatheredevent_get_gathertermination.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 97c123b9-4497-43f3-b747-660d3f9f5848
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_GatherTermination method, ITDigitsGatheredEvent.get_GatherTermination, ITDigitsGatheredEvent::get_GatherTermination, _tapi3_itdigitsgatheredevent_get_gathertermination, get_GatherTermination, get_GatherTermination method [TAPI 2.2], get_GatherTermination method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_gathertermination, tapi3if/ITDigitsGatheredEvent::get_GatherTermination
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: OpenJobObjectA function
 author: windows-sdk-content
 description: Opens an existing job object.
 old-location: base\openjobobject.htm
-old-project: procthread
+old-project: ProcThread
 ms.assetid: cb6ebc6f-5c61-408d-a781-ba029c83ddeb
 ms.author: windowssdkdev
-ms.date: 07/13/2018
+ms.date: 07/29/2018
 ms.keywords: OpenJobObject, OpenJobObject function, OpenJobObjectA, OpenJobObjectW, _win32_openjobobject, base.openjobobject, winbase/OpenJobObject, winbase/OpenJobObjectA, winbase/OpenJobObjectW
 ms.prod: windows
 ms.technology: windows-sdk

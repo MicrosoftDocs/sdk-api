@@ -7,7 +7,7 @@ old-location: shell\DEVICE_SCALE_FACTOR.htm
 old-project: shell
 ms.assetid: DB42E7D5-4E42-4b78-89F8-0B76320E2C5F
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: DEVICE_SCALE_FACTOR, DEVICE_SCALE_FACTOR enumeration [Windows Shell], SCALE_100_PERCENT, SCALE_120_PERCENT, SCALE_140_PERCENT, SCALE_150_PERCENT, SCALE_160_PERCENT, SCALE_180_PERCENT, SCALE_225_PERCENT, shell.DEVICE_SCALE_FACTOR, shtypes/DEVICE_SCALE_FACTOR, shtypes/SCALE_100_PERCENT, shtypes/SCALE_120_PERCENT, shtypes/SCALE_140_PERCENT, shtypes/SCALE_150_PERCENT, shtypes/SCALE_160_PERCENT, shtypes/SCALE_180_PERCENT, shtypes/SCALE_225_PERCENT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -39,10 +39,6 @@ api_name:
  - DEVICE_SCALE_FACTOR
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
-req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # DEVICE_SCALE_FACTOR enumeration

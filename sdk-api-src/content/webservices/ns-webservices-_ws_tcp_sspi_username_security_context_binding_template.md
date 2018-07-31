@@ -7,7 +7,7 @@ old-location: wsw\ws_tcp_sspi_username_security_context_binding_template.htm
 old-project: wsw
 ms.assetid: e72dc719-df42-42c8-98c0-d997c5876dd4
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE, WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE structure [Web Services for Windows], _WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE, webservices/WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE, wsw.ws_tcp_sspi_username_security_context_binding_template
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Security template information to be filled in by application.
+Security template information to be filled in by application.
         Associated with <a href="https://msdn.microsoft.com/831001f4-619d-4128-a645-85077701c28c">WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE_TYPE</a>.
       
 
@@ -64,38 +63,33 @@ req.product: Windows Address Book 5.0
 
 ### -field channelProperties
 
-
-          Application provided additional channel properties for both bootstrap channel and service channel
+Application provided additional channel properties for both bootstrap channel and service channel
           that cannot be represented in policy.
         
 
 
 ### -field securityProperties
 
-
-          Application provided additional security properties for the bootstrap channel 
+Application provided additional security properties for the bootstrap channel 
           that cannot be represented in policy.
         
 
 
 ### -field sspiTransportSecurityBinding
 
-
-          Application provided SSPI transport security information for both bootstrap channel and service
+Application provided SSPI transport security information for both bootstrap channel and service
           channel that cannot be represented in policy.
         
 
 
 ### -field usernameMessageSecurityBinding
 
-
-          Application provided username binding information for the bootstrap channel that cannot be represented in policy.
+Application provided username binding information for the bootstrap channel that cannot be represented in policy.
         
 
 
 ### -field securityContextSecurityBinding
 
-
-          Application provided security context message binding information for the service channel that cannot be represented in policy.
+Application provided security context message binding information for the service channel that cannot be represented in policy.
         
 

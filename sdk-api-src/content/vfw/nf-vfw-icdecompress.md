@@ -7,7 +7,7 @@ old-location: multimedia\icdecompress.htm
 old-project: Multimedia
 ms.assetid: 779b63db-6b1d-4eb5-9df5-bb847b35863d
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: ICDecompress, ICDecompress function [Windows Multimedia], _win32_ICDecompress, multimedia.icdecompress, vfw/ICDecompress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ The <b>ICDecompress</b> function decompresses a single video frame.
 
 ### -param hic
 
-
-            Handle to the decompressor to use.
+Handle to the decompressor to use.
           
 
 
@@ -75,11 +74,9 @@ Applicable decompression flags. The following values are defined.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Meaning
+<th>Meaning
                 </th>
 </tr>
 <tr>
@@ -108,29 +105,25 @@ Applicable decompression flags. The following values are defined.
 
 ### -param lpbiFormat
 
-
-            Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the format of the compressed data.
+Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the format of the compressed data.
           
 
 
 ### -param lpData
 
-
-            Pointer to the input data.
+Pointer to the input data.
           
 
 
 ### -param lpbi
 
-
-            Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the output format.
+Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the output format.
           
 
 
 ### -param lpBits
 
-
-            Pointer to a buffer that is large enough to contain the decompressed data.
+Pointer to a buffer that is large enough to contain the decompressed data.
           
 
 
@@ -138,8 +131,7 @@ Applicable decompression flags. The following values are defined.
 
 
 
-
-            Returns ICERR_OK if successful or an error otherwise.
+Returns ICERR_OK if successful or an error otherwise.
           
 
 

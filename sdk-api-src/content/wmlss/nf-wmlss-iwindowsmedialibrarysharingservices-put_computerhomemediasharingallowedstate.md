@@ -4,10 +4,10 @@ title: IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedS
 author: windows-sdk-content
 description: The put_computerHomeMediaSharingAllowedState method specifies whether media libraries on the computer are allowed to be shared on the home network.
 old-location: wmlss\IWMLSSput_computerHomeMediaSharingAllowedState.htm
-old-project: wmlss
+old-project: WMLSS
 ms.assetid: f844f79e-ae6f-4f57-abec-2b6d5951961f
 ms.author: windowssdkdev
-ms.date: 06/12/2018
+ms.date: 07/29/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_computerHomeMediaSharingAllowedState method, IWindowsMediaLibrarySharingServices.put_computerHomeMediaSharingAllowedState, IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState, put_computerHomeMediaSharingAllowedState, put_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services], put_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_computerHomeMediaSharingAllowedState, wmlss/IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The <b>put_computerHomeMediaSharingAllowedState</b> method specifies whether media libraries on the computer are allowed to be shared on the home network.
+The <b>put_computerHomeMediaSharingAllowedState</b> method specifies whether media libraries on the computer are allowed to be shared on the home network.
 
 
 ## -parameters

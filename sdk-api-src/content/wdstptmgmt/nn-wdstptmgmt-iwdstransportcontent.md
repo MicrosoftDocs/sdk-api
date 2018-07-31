@@ -4,10 +4,10 @@ title: IWdsTransportContent
 author: windows-sdk-content
 description: Represents content being transmitted under a namespace over one or more sessions.
 old-location: wds\iwdstransportcontent.htm
-old-project: wds
+old-project: Wds
 ms.assetid: d7ed1f64-578f-4b3a-b9af-9a48800b9ca4
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IWdsTransportContent, IWdsTransportContent interface [Windows Deployment Services], IWdsTransportContent interface [Windows Deployment Services],described, wds.iwdstransportcontent, wdstptmgmt/IWdsTransportContent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Represents content being transmitted under a namespace over one or more sessions
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportContent</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWdsTransportContent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportContent</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWdsTransportContent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

@@ -4,10 +4,10 @@ title: WSManDataType
 author: windows-sdk-content
 description: Specifies the current data type of the union in the WSMAN_DATA structure.
 old-location: winrm\wsmandatatype.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: c5f58532-cd84-4440-909d-7d3dba0cff50
 ms.author: windowssdkdev
-ms.date: 06/11/2018
+ms.date: 07/29/2018
 ms.keywords: WSMAN_DATA_NONE, WSMAN_DATA_TYPE_BINARY, WSMAN_DATA_TYPE_DWORD, WSMAN_DATA_TYPE_TEXT, WSManDataType, WSManDataType enumeration [Windows Remote Management], winrm.wsmandatatype, wsman/WSMAN_DATA_NONE, wsman/WSMAN_DATA_TYPE_BINARY, wsman/WSMAN_DATA_TYPE_DWORD, wsman/WSMAN_DATA_TYPE_TEXT, wsman/WSManDataType
 ms.prod: windows
 ms.technology: windows-sdk

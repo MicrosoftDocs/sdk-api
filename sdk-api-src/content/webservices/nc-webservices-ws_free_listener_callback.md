@@ -7,7 +7,7 @@ old-location: wsw\ws_free_listener_callback.htm
 old-project: wsw
 ms.assetid: fd60ae42-5b3f-4482-b785-541f7379ab3e
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_FREE_LISTENER_CALLBACK, WS_FREE_LISTENER_CALLBACK callback, WS_FREE_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_FREE_LISTENER_CALLBACK, wsw.ws_free_listener_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,13 +63,11 @@ Handles the <a href="https://msdn.microsoft.com/3a8a4cd3-d98e-467b-bbed-5cbd66f8
 
 ### -param *listenerInstance [in]
 
-
-                    The pointer to the state specific to this listener instance,
+The pointer to the state specific to this listener instance,
                     as created by the <a href="https://msdn.microsoft.com/2d8e476d-dc68-44b4-b53b-be440a32efda">WS_CREATE_LISTENER_CALLBACK</a>.
                 
 
-
-                    The callback should free this pointer.
+The callback should free this pointer.
                 
 
 
@@ -86,8 +84,7 @@ This callback function does not return a value.
 
 
 
-
-                See <a href="https://msdn.microsoft.com/36226881-3fe7-4510-b147-7ee30146482c">WsOpenListener</a> for information about the contract
+See <a href="https://msdn.microsoft.com/36226881-3fe7-4510-b147-7ee30146482c">WsOpenListener</a> for information about the contract
                 of this API.
             
 

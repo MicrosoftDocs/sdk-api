@@ -4,10 +4,10 @@ title: WdsTransportProviderGetContentMetadata function
 author: windows-sdk-content
 description: Retrieves metadata for an open content stream.
 old-location: wds\wdstransportprovidergetcontentmetadata.htm
-old-project: wds
+old-project: Wds
 ms.assetid: ed243373-b5ff-418d-811c-544589ea11ac
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: WdsTransportProviderGetContentMetadata, WdsTransportProviderGetContentMetadata callback, WdsTransportProviderGetContentMetadata callback function [Windows Deployment Services], wds.wdstransportprovidergetcontentmetadata, wdstpdi/WdsTransportProviderGetContentMetadata
 ms.prod: windows
 ms.technology: windows-sdk

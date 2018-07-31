@@ -7,7 +7,7 @@ old-location: intl\idntounicode.htm
 old-project: Intl
 ms.assetid: 90707414-aef7-4265-bc2b-d48ac79db099
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: IdnToUnicode, IdnToUnicode function [Internationalization for Windows Applications], _win32_IdnToUnicode, intl.idntounicode, winnls/IdnToUnicode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,8 +57,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Converts the Punycode form of an internationalized domain name (IDN) or another internationalized label to the normal <a href="https://msdn.microsoft.com/ca5bcdee-ea13-4745-a565-5426c462892d">Unicode</a> UTF-16 encoding syntax.         <div class="alert"><b>Caution</b>  
-This function implements the <a href="http://go.microsoft.com/fwlink/p/?linkid=161551">RFC 3490: Internationalizing Domain Names in Applications (IDNA)</a> standard algorithms for the Punycode encoding of Unicode. The standard introduces some security issues. One issue is that glyphs representing certain characters from different scripts might appear similar or even identical. For example, in many fonts, Cyrillic lowercase A ("а") is indistinguishable from Latin lowercase A ("a"). There is no way to tell visually that "example.com" and "exаmple.com" are two different domain names, one with a Latin lowercase A in the name, the other with a Cyrillic lowercase A. For more information about IDN-related security concerns, see <a href="https://msdn.microsoft.com/e0ca356e-f8c1-4845-ae1e-ce2ae8987515">Handling Internationalized Domain Names (IDNs)</a>.</div>
+Converts the Punycode form of an internationalized domain name (IDN) or another internationalized label to the normal <a href="https://msdn.microsoft.com/ca5bcdee-ea13-4745-a565-5426c462892d">Unicode</a> UTF-16 encoding syntax.         <div class="alert"><b>Caution</b>  This function implements the <a href="http://go.microsoft.com/fwlink/p/?linkid=161551">RFC 3490: Internationalizing Domain Names in Applications (IDNA)</a> standard algorithms for the Punycode encoding of Unicode. The standard introduces some security issues. One issue is that glyphs representing certain characters from different scripts might appear similar or even identical. For example, in many fonts, Cyrillic lowercase A ("а") is indistinguishable from Latin lowercase A ("a"). There is no way to tell visually that "example.com" and "exаmple.com" are two different domain names, one with a Latin lowercase A in the name, the other with a Cyrillic lowercase A. For more information about IDN-related security concerns, see <a href="https://msdn.microsoft.com/e0ca356e-f8c1-4845-ae1e-ce2ae8987515">Handling Internationalized Domain Names (IDNs)</a>.</div>
 <div> </div>
 
 

@@ -7,7 +7,7 @@ old-location: wmp\iwmpremotemediaservices.htm
 old-project: WMP
 ms.assetid: 594a614a-8da1-4ef0-a6af-01284fb48ef7
 ms.author: windowssdkdev
-ms.date: 05/07/2018
+ms.date: 07/29/2018
 ms.keywords: IWMPRemoteMediaServices, IWMPRemoteMediaServices interface [Windows Media Player], IWMPRemoteMediaServices interface [Windows Media Player],described, IWMPRemoteMediaServicesInterface, wmp.iwmpremotemediaservices, wmp/IWMPRemoteMediaServices
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,6 @@ Called by Windows Media Player to determine whether a host program wants to run 
 </td>
 </tr>
 </table> 
-
 
 A pointer to an <b>IWMPRemoteMediaServices</b> interface is retrieved by calling the COM <b>CoCreateInstance</b> method.
 	

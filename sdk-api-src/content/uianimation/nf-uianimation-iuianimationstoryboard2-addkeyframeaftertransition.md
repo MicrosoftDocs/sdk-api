@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard2_addkeyframeaftertransition.htm
 old-project: UIAnimation
 ms.assetid: F5D13D36-1AEE-4D47-9683-A428E9ADF1D6
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: AddKeyframeAfterTransition, AddKeyframeAfterTransition method [Windows Animation], AddKeyframeAfterTransition method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],AddKeyframeAfterTransition method, IUIAnimationStoryboard2.AddKeyframeAfterTransition, IUIAnimationStoryboard2::AddKeyframeAfterTransition, uianimation.iuianimationstoryboard2_addkeyframeaftertransition, uianimation/IUIAnimationStoryboard2::AddKeyframeAfterTransition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-   Adds a keyframe at the end of the specified transition.
+Adds a keyframe at the end of the specified transition.
 
 
 ## -parameters
@@ -62,14 +61,12 @@ req.product: Windows XP with SP1 and later
 
 ### -param transition [in]
 
-
-            The transition after which a keyframe is to be added.
+The transition after which a keyframe is to be added.
 
 
 ### -param keyframe [out]
 
-
-            The keyframe to be added.
+The keyframe to be added.
 
 
 ## -returns
@@ -106,8 +103,7 @@ See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Wi
 
 
 
-
-         A keyframe represents a moment in time within a storyboard and can be used to specify the start and end times of transitions. Because keyframes can be added at the ends of transitions, their offsets from the start of the storyboard may not be known until the storyboard is playing.
+A keyframe represents a moment in time within a storyboard and can be used to specify the start and end times of transitions. Because keyframes can be added at the ends of transitions, their offsets from the start of the storyboard may not be known until the storyboard is playing.
 
 
 
@@ -121,8 +117,7 @@ See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Wi
 
 
 
-<a href="https://msdn.microsoft.com/6AB47BC1-4437-4191-8B66-8545EB4102A9">
-      IUIAnimationStoryboard2::AddKeyframeAtOffset</a>
+<a href="https://msdn.microsoft.com/6AB47BC1-4437-4191-8B66-8545EB4102A9">IUIAnimationStoryboard2::AddKeyframeAtOffset</a>
 
 
 
@@ -130,23 +125,19 @@ See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Wi
 
 
 
-<a href="https://msdn.microsoft.com/F4DAB833-E857-4FD8-87E2-8F32AF460F90">
-      IUIAnimationStoryboard2::AddTransitionAtKeyframe</a>
+<a href="https://msdn.microsoft.com/F4DAB833-E857-4FD8-87E2-8F32AF460F90">IUIAnimationStoryboard2::AddTransitionAtKeyframe</a>
 
 
 
-<a href="https://msdn.microsoft.com/55AEA5EA-7D9E-4669-8315-7A6F4428EDF9">
-      IUIAnimationStoryboard2::AddTransitionBetweenKeyframes</a>
+<a href="https://msdn.microsoft.com/55AEA5EA-7D9E-4669-8315-7A6F4428EDF9">IUIAnimationStoryboard2::AddTransitionBetweenKeyframes</a>
 
 
 
-<a href="https://msdn.microsoft.com/CACB8053-7716-42E4-9C3B-9CCBBC30808A">
-      IUIAnimationTransition2</a>
+<a href="https://msdn.microsoft.com/CACB8053-7716-42E4-9C3B-9CCBBC30808A">IUIAnimationTransition2</a>
 
 
 
-<a href="https://msdn.microsoft.com/92C10ED5-DCE6-4B1D-8608-E2C3C6AD97BA">
-      IUIAnimationTransitionLibrary2</a>
+<a href="https://msdn.microsoft.com/92C10ED5-DCE6-4B1D-8608-E2C3C6AD97BA">IUIAnimationTransitionLibrary2</a>
 
 
 

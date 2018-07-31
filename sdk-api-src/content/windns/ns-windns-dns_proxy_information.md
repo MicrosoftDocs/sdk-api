@@ -4,10 +4,10 @@ title: DNS_PROXY_INFORMATION
 author: windows-sdk-content
 description: Contains the proxy information for a DNS server's name resolution policy table.
 old-location: dns\dns_proxy_information.htm
-old-project: dns
+old-project: DNS
 ms.assetid: cfe7653f-7e68-4e50-ba67-bd441f837ef8
 ms.author: windowssdkdev
-ms.date: 05/14/2018
+ms.date: 07/29/2018
 ms.keywords: DNS_PROXY_INFORMATION, DNS_PROXY_INFORMATION structure [DNS], PDNS_PROXY_INFORMATION, PDNS_PROXY_INFORMATION structure pointer [DNS], dns.dns_proxy_information, windns/DNS_PROXY_INFORMATION, windns/PDNS_PROXY_INFORMATION
 ms.prod: windows
 ms.technology: windows-sdk

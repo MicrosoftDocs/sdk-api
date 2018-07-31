@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable_getvalue.htm
 old-project: UIAnimation
 ms.assetid: 51ae200a-a630-44fd-afd4-33d1b1dbf6d7
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetValue, GetValue method [Windows Animation], GetValue method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetValue method, IUIAnimationVariable.GetValue, IUIAnimationVariable::GetValue, uianimation.iuianimationvariable_getvalue, uianimation/IUIAnimationVariable::GetValue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Gets the current value of the animation variable.
+Gets the current value of the animation variable.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param value [out]
 
-
-            The current value of the animation variable.
+The current value of the animation variable.
 
 
 ## -returns
@@ -99,8 +97,7 @@ For an example, see <a href="https://msdn.microsoft.com/7abf084a-31f5-4e32-bfd1-
 
 
 
-<a href="https://msdn.microsoft.com/577f83c1-aba7-4a51-82dc-68a103a31377">
-      IUIAnimationVariable::GetFinalValue</a>
+<a href="https://msdn.microsoft.com/577f83c1-aba7-4a51-82dc-68a103a31377">IUIAnimationVariable::GetFinalValue</a>
 
 
 
@@ -108,8 +105,7 @@ For an example, see <a href="https://msdn.microsoft.com/7abf084a-31f5-4e32-bfd1-
 
 
 
-<a href="https://msdn.microsoft.com/405bc35e-8b38-40fb-acf4-107fa6dd161a">
-      IUIAnimationVariable::GetPreviousValue</a>
+<a href="https://msdn.microsoft.com/405bc35e-8b38-40fb-acf4-107fa6dd161a">IUIAnimationVariable::GetPreviousValue</a>
 
 
 

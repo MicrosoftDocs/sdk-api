@@ -7,7 +7,7 @@ old-location: display\engunloadimage.htm
 old-project: display
 ms.assetid: e5b96929-1f57-4b98-8398-69a933e6ff99
 ms.author: windowssdkdev
-ms.date: 07/12/2018
+ms.date: 07/29/2018
 ms.keywords: EngUnloadImage, EngUnloadImage function [Display Devices], display.engunloadimage, gdifncs_e20ef926-cd02-4fdc-bd92-3a9d201b7566.xml, winddi/EngUnloadImage
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IEnroll4::getCertContextFromFileResponseWStr
 author: windows-sdk-content
 description: Retrieves the certificate from a file containing a response from a certification authority.
 old-location: security\ienroll4_getcertcontextfromfileresponsewstr.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 04a57bd4-4e04-41eb-97c9-87bfb51be645
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IEnroll4 interface [Security],getCertContextFromFileResponseWStr method, IEnroll4.getCertContextFromFileResponseWStr, IEnroll4::getCertContextFromFileResponseWStr, getCertContextFromFileResponseWStr, getCertContextFromFileResponseWStr method [Security], getCertContextFromFileResponseWStr method [Security],IEnroll4 interface, security.ienroll4_getcertcontextfromfileresponsewstr, xenroll/IEnroll4::getCertContextFromFileResponseWStr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>getCertContextFromFileResponseWStr</b> method retrieves the certificate from a file containing a response from a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>.
-			 This method was first defined in the <a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll4</a> interface.
+The <b>getCertContextFromFileResponseWStr</b> method retrieves the certificate from a file containing a response from a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>.This method was first defined in the <a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll4</a> interface.
 
 
 ## -parameters

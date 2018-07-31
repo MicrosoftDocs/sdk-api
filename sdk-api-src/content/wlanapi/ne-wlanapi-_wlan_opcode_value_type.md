@@ -4,10 +4,10 @@ title: "_WLAN_OPCODE_VALUE_TYPE"
 author: windows-sdk-content
 description: Specifies the origin of automatic configuration (auto config) settings.
 old-location: nwifi\wlan_opcode_value_type.htm
-old-project: nativewifi
+old-project: NativeWiFi
 ms.assetid: 36f74ee5-499e-4d3d-ae32-a57c5e3b2eac
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PWLAN_OPCODE_VALUE_TYPE, PWLAN_OPCODE_VALUE_TYPE, PWLAN_OPCODE_VALUE_TYPE enumeration pointer [NativeWIFI], WLAN_OPCODE_VALUE_TYPE, WLAN_OPCODE_VALUE_TYPE enumeration [NativeWIFI], _WLAN_OPCODE_VALUE_TYPE, nwifi.wlan_opcode_value_type, wlan_opcode_value_type_invalid, wlan_opcode_value_type_query_only, wlan_opcode_value_type_set_by_group_policy, wlan_opcode_value_type_set_by_user, wlanapi/PWLAN_OPCODE_VALUE_TYPE, wlanapi/WLAN_OPCODE_VALUE_TYPE, wlanapi/wlan_opcode_value_type_invalid, wlanapi/wlan_opcode_value_type_query_only, wlanapi/wlan_opcode_value_type_set_by_group_policy, wlanapi/wlan_opcode_value_type_set_by_user"
 ms.prod: windows
 ms.technology: windows-sdk

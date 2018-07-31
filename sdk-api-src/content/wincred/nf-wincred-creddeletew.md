@@ -4,10 +4,10 @@ title: CredDeleteW function
 author: windows-sdk-content
 description: Deletes a credential from the user's credential set.
 old-location: security\creddelete.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 154af9c8-18fd-412d-899d-7c6d2138380d
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: CredDelete, CredDelete function [Security], CredDeleteA, CredDeleteW, _cred_creddelete, security.creddelete, wincred/CredDelete, wincred/CredDeleteA, wincred/CredDeleteW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,8 +57,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CredDelete</b> function deletes a credential from the user's credential set. The credential set used is the one associated with the logon session of the current token. The token must not have the user's SID disabled.
+The <b>CredDelete</b> function deletes a credential from the user's credential set. The credential set used is the one associated with the logon session of the current token. The token must not have the user's SID disabled.
 
 
 ## -parameters
@@ -87,8 +86,7 @@ Reserved and must be zero.
 
 
 
-
-						The function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function can be called to get a more specific status code. The following status codes can be returned:
+The function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function can be called to get a more specific status code. The following status codes can be returned:
 						
 
 <ul>

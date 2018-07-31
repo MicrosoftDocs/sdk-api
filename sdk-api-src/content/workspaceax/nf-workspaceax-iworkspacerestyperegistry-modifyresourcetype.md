@@ -4,10 +4,10 @@ title: IWorkspaceResTypeRegistry::ModifyResourceType
 author: windows-sdk-content
 description: Modifies a third-party file name extension that is registered with the RemoteApp and Desktop Connections runtime.
 old-location: termserv\iworkspacerestyperegistry_modifyresourcetype.htm
-old-project: termserv
+old-project: TermServ
 ms.assetid: a1feac54-218c-4c17-87d6-27d764d355f9
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWorkspaceResTypeRegistry interface [Remote Desktop Services],ModifyResourceType method, IWorkspaceResTypeRegistry.ModifyResourceType, IWorkspaceResTypeRegistry::ModifyResourceType, ModifyResourceType, ModifyResourceType method [Remote Desktop Services], ModifyResourceType method [Remote Desktop Services],IWorkspaceResTypeRegistry interface, ModifyResourceType method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],ModifyResourceType method, termserv.iworkspacerestyperegistry_modifyresourcetype, workspaceax/IWorkspaceResTypeRegistry::ModifyResourceType
 ms.prod: windows
 ms.technology: windows-sdk

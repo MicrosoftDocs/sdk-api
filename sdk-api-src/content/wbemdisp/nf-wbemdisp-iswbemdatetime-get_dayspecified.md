@@ -7,7 +7,7 @@ old-location: wmi\swbemdatetime_dayspecified.htm
 old-project: WmiSdk
 ms.assetid: a713378b-3953-49d8-9c6a-44aa9337eae2
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: DaySpecified property [Windows Management Instrumentation], DaySpecified property [Windows Management Instrumentation],ISWbemDateTime interface, DaySpecified property [Windows Management Instrumentation],SWbemDateTime object, ISWbemDateTime interface [Windows Management Instrumentation],DaySpecified property, ISWbemDateTime.get_DaySpecified, ISWbemDateTime.put_DaySpecified, ISWbemDateTime::get_DaySpecified, SWbemDateTime object [Windows Management Instrumentation],DaySpecified property, SWbemDateTime.DaySpecified, _hmm_swbemdatetime.dayspecified, get_DaySpecified, wmi.swbemdatetime_dayspecified
 ms.prod: windows
 ms.technology: windows-sdk

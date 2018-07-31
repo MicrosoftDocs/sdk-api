@@ -7,7 +7,7 @@ old-location: wsw\wsreadenvelopestart.htm
 old-project: wsw
 ms.assetid: f2b20e6b-fac0-47b0-8ce9-ad06dc93f0e6
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsReadEnvelopeStart, WsReadEnvelopeStart function [Web Services for Windows], webservices/WsReadEnvelopeStart, wsw.wsreadenvelopestart
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,8 +56,7 @@ Reads the headers of the message and prepare to read the body elements.
                 the message.
             The process allows for reading of messages from other sources than channels.  To read
                 a message using a channel, use <a href="https://msdn.microsoft.com/e4f92e99-f272-47b5-8eaa-56713b22df7e">WsReadMessageStart</a>.
-            <div class="alert"><b>Note</b>  
-                On success the headers is stored in the message and can be retrieved randomly
+            <div class="alert"><b>Note</b>  On success the headers is stored in the message and can be retrieved randomly
                 using functions such as <a href="https://msdn.microsoft.com/ff6e639f-715d-4a4f-b0ef-35202aa54dc5">WsGetHeader</a> or <a href="https://msdn.microsoft.com/bdfb441b-afc4-4be8-b437-f299a31ce84b">WsGetCustomHeader</a>.</div>
 <div> </div>
 
@@ -130,7 +129,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -142,7 +140,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -154,7 +151,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -180,12 +176,10 @@ This function may return other errors not listed above.
 
 
 
-
-                The message must be in <b>WS_MESSAGE_STATE_EMPTY</b> state.  On success
+The message must be in <b>WS_MESSAGE_STATE_EMPTY</b> state.  On success
                 the message state is set to <b>WS_MESSAGE_STATE_READING</b>. 
 
-
-                To read an Element of the message body, use <a href="https://msdn.microsoft.com/43ceeb1e-aeb2-4482-90f0-d7f6013b239f">WsReadBody</a>.  To read
+To read an Element of the message body, use <a href="https://msdn.microsoft.com/43ceeb1e-aeb2-4482-90f0-d7f6013b239f">WsReadBody</a>.  To read
                 directly from the XML Reader get the Reader with 
                 the <b>message property Id</b> set to  <b>WS_MESSAGE_PROPERTY_BODY_READER</b>.
             

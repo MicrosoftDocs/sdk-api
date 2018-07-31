@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced_getstreamselected.htm
 old-project: wmformat
 ms.assetid: 083fc743-79be-43c6-ac4b-458c74f42fa0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetStreamSelected, GetStreamSelected method [windows Media Format], GetStreamSelected method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetStreamSelected method, IWMReaderAdvanced.GetStreamSelected, IWMReaderAdvanced::GetStreamSelected, IWMReaderAdvancedGetStreamSelected, wmformat.iwmreaderadvanced_getstreamselected, wmsdkidl/IWMReaderAdvanced::GetStreamSelected
 ms.prod: windows
 ms.technology: windows-sdk

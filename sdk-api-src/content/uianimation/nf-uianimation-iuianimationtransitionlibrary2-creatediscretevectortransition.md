@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary2_creatediscretevectortra
 old-project: UIAnimation
 ms.assetid: 8580FED2-7F39-4EA8-B2C5-CDB887121359
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateDiscreteVectorTransition, CreateDiscreteVectorTransition method [Windows Animation], CreateDiscreteVectorTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateDiscreteVectorTransition method, IUIAnimationTransitionLibrary2.CreateDiscreteVectorTransition, IUIAnimationTransitionLibrary2::CreateDiscreteVectorTransition, uianimation.iuianimationtransitionlibrary2_creatediscretevectortransition, uianimation/IUIAnimationTransitionLibrary2::CreateDiscreteVectorTransition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates a discrete vector transition for each specified dimension.
+Creates a discrete vector transition for each specified dimension.
 
 
 ## -parameters
@@ -82,8 +81,7 @@ The amount of time by which to hold the variable at its final value.
 
 ### -param transition [out]
 
-
-               The new discrete transition.
+The new discrete transition.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: xps\ixpsomimagebrush_setimageresource.htm
 old-project: printdocs
 ms.assetid: 2c3c5189-0090-48c7-bc36-c9014758b968
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMImageBrush interface [XPS Documents and Packaging],SetImageResource method, IXpsOMImageBrush.SetImageResource, IXpsOMImageBrush::SetImageResource, SetImageResource, SetImageResource method [XPS Documents and Packaging], SetImageResource method [XPS Documents and Packaging],IXpsOMImageBrush interface, xps.ixpsomimagebrush_setimageresource, xpsobjectmodel/IXpsOMImageBrush::SetImageResource
 ms.prod: windows
 ms.technology: windows-sdk

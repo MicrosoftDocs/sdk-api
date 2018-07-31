@@ -4,10 +4,10 @@ title: CertGetPublicKeyLength function
 author: windows-sdk-content
 description: The CertGetPublicKeyLength function acquires the bit length of public/private keys from a public key BLOB.
 old-location: security\certgetpublickeylength.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: e67923f4-cd1f-4952-88f1-92ee26423f87
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertGetPublicKeyLength, CertGetPublicKeyLength function [Security], _crypto2_certgetpublickeylength, security.certgetpublickeylength, wincrypt/CertGetPublicKeyLength
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertGetPublicKeyLength</b> function acquires the bit length of public/private keys from a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key BLOB</a>.
+The <b>CertGetPublicKeyLength</b> function acquires the bit length of public/private keys from a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key BLOB</a>.
 
 
 ## -parameters
@@ -82,8 +81,7 @@ A pointer to the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332
 
 
 
-
-						Returns the length of the public/private keys in bits. If unable to determine the key's length, returns zero.
+Returns the length of the public/private keys in bits. If unable to determine the key's length, returns zero.
 
 Call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> to see the reason for any failures.
 
@@ -95,7 +93,7 @@ Call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">G
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

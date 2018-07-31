@@ -4,10 +4,10 @@ title: CryptSetKeyParam function
 author: windows-sdk-content
 description: Customizes various aspects of a session key's operations.
 old-location: security\cryptsetkeyparam.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: e99a84a2-c23e-4251-8062-dd286ccc29b7
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptSetKeyParam, CryptSetKeyParam function [Security], KP_ALGID, KP_CERTIFICATE, KP_CMS_DH_KEY_INFO, KP_EFFECTIVE_KEYLEN, KP_G, KP_HIGHEST_VERSION, KP_IV, KP_KEYVAL, KP_MODE, KP_MODE_BITS, KP_OAEP_PARAMS, KP_P, KP_PADDING, KP_PERMISSIONS, KP_PUB_PARAMS, KP_Q, KP_SALT, KP_SALT_EX, KP_X, _crypto2_cryptsetkeyparam, security.cryptsetkeyparam, wincrypt/CryptSetKeyParam
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,15 +71,13 @@ A handle to the key for which values are to be set.
 
 ### -param dwParam [in]
 
-
-					The following tables contain predefined values that can be used. 
-
+The following tables contain predefined values that can be used. 
 
 
 
 
 
-						For all key types, this parameter can contain one of the following values.
+For all key types, this parameter can contain one of the following values.
 
 
 
@@ -148,8 +146,7 @@ the <a href="https://msdn.microsoft.com/07956d74-0e22-484b-9bf1-e0184a2ff32f">Cr
  
 
 
-
-							If a <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Digital Signature Standard</a> (DSS) key is specified by the <i>hKey</i> parameter, the <i>dwParam</i> value can also be set to one of the following values.
+If a <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Digital Signature Standard</a> (DSS) key is specified by the <i>hKey</i> parameter, the <i>dwParam</i> value can also be set to one of the following values.
 
 
 
@@ -237,8 +234,7 @@ Sets the public parameters (P, Q, G, and so on) of a DSS or Diffie-Hellman key. 
  
 
 
-
-							If a <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">block cipher</a> <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">session key</a> is specified by the <i>hKey</i> parameter, the <i>dwParam</i> value can also be set to one of the following values.
+If a <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">block cipher</a> <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">session key</a> is specified by the <i>hKey</i> parameter, the <i>dwParam</i> value can also be set to one of the following values.
 
 
 
@@ -548,7 +544,7 @@ For more code that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Key Generation and Exchange Functions</a>
+<a href="cryptography_functions.htm">Key Generation and Exchange Functions</a>
  
 
  

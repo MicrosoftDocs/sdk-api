@@ -4,10 +4,10 @@ title: PFN_CERT_STORE_PROV_SET_CERT_PROPERTY
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertSetCertificateContextProperty before setting the certificate's property.
 old-location: security\certstoreprovsetcertpropertycallback.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 03d7e1f6-030f-4eae-b76d-5465748d9583
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CertStoreProvSetCertPropertyCallback, CertStoreProvSetCertPropertyCallback callback, CertStoreProvSetCertPropertyCallback callback function [Security], PFN_CERT_STORE_PROV_SET_CERT_PROPERTY, PFN_CERT_STORE_PROV_SET_CERT_PROPERTY callback function [Security], _crypto2_certstoreprovsetcertpropertycallback, security.certstoreprovsetcertpropertycallback, wincrypt/CertStoreProvSetCertPropertyCallback, wincrypt/PFN_CERT_STORE_PROV_SET_CERT_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			An application-defined callback function that is called by 
+An application-defined callback function that is called by 
 <a href="https://msdn.microsoft.com/b4a0c66d-997f-49cb-935a-9187320037f1">CertSetCertificateContextProperty</a> before setting the certificate's property. It is also called by 
 <a href="https://msdn.microsoft.com/f766db64-3121-4f70-ac83-ce25ee634efa">CertGetCertificateContextProperty</a> when getting a <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> property that needs to be created and then persisted through the set.
 
@@ -96,8 +95,7 @@ See <a href="https://msdn.microsoft.com/b4a0c66d-997f-49cb-935a-9187320037f1">Ce
 
 
 
-
-						Returns <b>TRUE</b> if it is okay to set the property.
+Returns <b>TRUE</b> if it is okay to set the property.
 
 
 
@@ -111,7 +109,7 @@ See <a href="https://msdn.microsoft.com/b4a0c66d-997f-49cb-935a-9187320037f1">Ce
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
+<a href="cryptography_functions.htm">Callback Functions</a>
 
 
 

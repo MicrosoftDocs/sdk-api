@@ -7,7 +7,7 @@ old-location: gdi\getgraphicsmode.htm
 old-project: gdi
 ms.assetid: 62e2960b-d414-4e84-a94f-60b192071402
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetGraphicsMode, GetGraphicsMode function [Windows GDI], _win32_GetGraphicsMode, gdi.getgraphicsmode, wingdi/GetGraphicsMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,8 +83,7 @@ If the function succeeds, the return value is the current graphics mode. It can 
 </tr>
 <tr>
 <td>GM_ADVANCED</td>
-<td>
-                   The current graphics mode is the advanced graphics mode, a mode that allows world transformations. In this graphics mode, an application can set or modify the world transformation for the specified device context.</td>
+<td>The current graphics mode is the advanced graphics mode, a mode that allows world transformations. In this graphics mode, an application can set or modify the world transformation for the specified device context.</td>
 </tr>
 </table>
  

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmap_setresolution.htm
 old-project: wic
 ms.assetid: d8b6c600-0ef0-4fa7-a70f-0299e640c196
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWICBitmap interface [Windows Imaging Component],SetResolution method, IWICBitmap.SetResolution, IWICBitmap::SetResolution, SetResolution, SetResolution method [Windows Imaging Component], SetResolution method [Windows Imaging Component],IWICBitmap interface, _wic_codec_iwicbitmap_setresolution, wic._wic_codec_iwicbitmap_setresolution, wincodec/IWICBitmap::SetResolution
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,8 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-
-            This method has no effect on the actual pixels or samples stored in the bitmap. 
+This method has no effect on the actual pixels or samples stored in the bitmap. 
             Instead the interpretation of the sampling rate is modified. 
             This means that a 96 DPI image which is 96 pixels wide is one inch. 
             If the physical resolution is modified to 48 DPI, then the bitmap is considered to be 2 inches wide but has the same number of pixels.  

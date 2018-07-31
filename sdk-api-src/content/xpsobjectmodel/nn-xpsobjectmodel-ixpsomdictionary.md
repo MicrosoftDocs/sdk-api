@@ -7,7 +7,7 @@ old-location: xps\ixpsomdictionary.htm
 old-project: printdocs
 ms.assetid: f887e3d3-973c-4267-a785-6bc190c13082
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMDictionary, IXpsOMDictionary interface [XPS Documents and Packaging], IXpsOMDictionary interface [XPS Documents and Packaging],described, xps.ixpsomdictionary, xpsobjectmodel/IXpsOMDictionary
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IXpsOMDictionary</b> interface has these methods.
 <a href="https://msdn.microsoft.com/69df1cdc-a965-4ea8-b1af-75176caa39ee">Append</a>
 </td>
 <td align="left" width="63%">
-
-              Appends an <a href="https://msdn.microsoft.com/2071292f-b898-4ec8-99f7-294c8d820965">IXpsOMShareable</a> interface along with its <i>key</i> to the end of the dictionary.
+Appends an <a href="https://msdn.microsoft.com/2071292f-b898-4ec8-99f7-294c8d820965">IXpsOMShareable</a> interface along with its <i>key</i> to the end of the dictionary.
             
 
 </td>
@@ -94,8 +93,7 @@ Makes a deep copy of the interface.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <a href="https://msdn.microsoft.com/2071292f-b898-4ec8-99f7-294c8d820965">IXpsOMShareable</a> interface pointer and the key name string of the entry at a specified index in the dictionary.
+Gets the <a href="https://msdn.microsoft.com/2071292f-b898-4ec8-99f7-294c8d820965">IXpsOMShareable</a> interface pointer and the key name string of the entry at a specified index in the dictionary.
             
 
 </td>
@@ -105,8 +103,7 @@ Makes a deep copy of the interface.
 <a href="https://msdn.microsoft.com/6efc2fed-e372-4416-9645-50c1430f0e75">GetByKey</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <a href="https://msdn.microsoft.com/2071292f-b898-4ec8-99f7-294c8d820965">IXpsOMShareable</a> interface pointer of the entry that contains the specified key.
+Gets the <a href="https://msdn.microsoft.com/2071292f-b898-4ec8-99f7-294c8d820965">IXpsOMShareable</a> interface pointer of the entry that contains the specified key.
             
 
 </td>
@@ -125,8 +122,7 @@ Gets the number of entries in the dictionary.
 <a href="https://msdn.microsoft.com/dd3d8ff2-8674-4669-b7c5-6f97c957cc64">GetIndex</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the index of an <a href="https://msdn.microsoft.com/2071292f-b898-4ec8-99f7-294c8d820965">IXpsOMShareable</a> interface from the dictionary.
+Gets the index of an <a href="https://msdn.microsoft.com/2071292f-b898-4ec8-99f7-294c8d820965">IXpsOMShareable</a> interface from the dictionary.
             
 
 </td>
@@ -145,8 +141,7 @@ Gets a pointer to the interface that contains the dictionary.
 <a href="https://msdn.microsoft.com/a47b7130-a3c3-44d2-a987-e78b7feb52d6">InsertAt</a>
 </td>
 <td align="left" width="63%">
-
-              Inserts an <a href="https://msdn.microsoft.com/2071292f-b898-4ec8-99f7-294c8d820965">IXpsOMShareable</a> interface at a specified location in the dictionary and sets the key to identify the interface.
+Inserts an <a href="https://msdn.microsoft.com/2071292f-b898-4ec8-99f7-294c8d820965">IXpsOMShareable</a> interface at a specified location in the dictionary and sets the key to identify the interface.
             
 
 </td>

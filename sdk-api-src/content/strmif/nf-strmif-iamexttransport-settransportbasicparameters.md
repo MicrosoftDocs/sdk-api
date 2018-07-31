@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_settransportbasicparameters.htm
 old-project: DirectShow
 ms.assetid: 798fa8d0-3834-4168-86a6-069cae3c3e8e
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetTransportBasicParameters method, IAMExtTransport.SetTransportBasicParameters, IAMExtTransport::SetTransportBasicParameters, IAMExtTransportSetTransportBasicParameters, SetTransportBasicParameters, SetTransportBasicParameters method [DirectShow], SetTransportBasicParameters method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_settransportbasicparameters, strmif/IAMExtTransport::SetTransportBasicParameters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -266,11 +266,9 @@ For the following flags, use a numeric value in the <i>Value</i> parameter.
 
 <table>
 <tr>
-<th>
-              Flag
+<th>Flag
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>
@@ -296,11 +294,9 @@ For the following flags, use a string in the <i>pszData</i> parameter.
 
 <table>
 <tr>
-<th>
-              Flag
+<th>Flag
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>

@@ -4,10 +4,10 @@ title: WdsTransportClientAddRefBuffer function
 author: windows-sdk-content
 description: Increments the reference count on a buffer owned by the multicast client.
 old-location: wds\wdstransportclientaddrefbuffer.htm
-old-project: wds
+old-project: Wds
 ms.assetid: 941cac20-cca9-4351-8dee-f3910062c6b4
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: WdsTransportClientAddRefBuffer, WdsTransportClientAddRefBuffer function [Windows Deployment Services], wds.wdstransportclientaddrefbuffer, wdstci/WdsTransportClientAddRefBuffer
 ms.prod: windows
 ms.technology: windows-sdk

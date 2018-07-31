@@ -4,10 +4,10 @@ title: RtlUnwindEx function
 author: windows-sdk-content
 description: Initiates an unwind of procedure call frames.
 old-location: base\rtlunwindex.htm
-old-project: debug
+old-project: Debug
 ms.assetid: 3d2d8778-311e-4cc1-b280-4f83ab457755
 ms.author: windowssdkdev
-ms.date: 05/18/2018
+ms.date: 07/29/2018
 ms.keywords: RtlUnwindEx, RtlUnwindEx function, base.rtlunwindex, winnt/RtlUnwindEx
 ms.prod: windows
 ms.technology: windows-sdk

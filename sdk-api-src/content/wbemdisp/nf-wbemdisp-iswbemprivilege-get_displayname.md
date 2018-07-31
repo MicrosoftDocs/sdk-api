@@ -7,7 +7,7 @@ old-location: wmi\swbemprivilege_displayname.htm
 old-project: WmiSdk
 ms.assetid: 9ed91a6a-e513-4a72-b8a9-3180e42b811f
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: DisplayName property [Windows Management Instrumentation], DisplayName property [Windows Management Instrumentation],ISWbemPrivilege interface, DisplayName property [Windows Management Instrumentation],SWbemPrivilege object, ISWbemPrivilege interface [Windows Management Instrumentation],DisplayName property, ISWbemPrivilege.get_DisplayName, ISWbemPrivilege::get_DisplayName, SWbemPrivilege object [Windows Management Instrumentation],DisplayName property, SWbemPrivilege.DisplayName, _hmm_swbemprivilege.displayname, get_DisplayName, wmi.swbemprivilege_displayname
 ms.prod: windows
 ms.technology: windows-sdk

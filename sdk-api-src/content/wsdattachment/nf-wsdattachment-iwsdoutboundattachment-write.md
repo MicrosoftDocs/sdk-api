@@ -4,10 +4,10 @@ title: IWSDOutboundAttachment::Write
 author: windows-sdk-content
 description: Sends attachment data to the remote host using a MIME container.
 old-location: ncd\iwsdoutboundattachment_write_method.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 5bd24e7c-f2f4-4cc4-abc0-176ed024fa43
 ms.author: windowssdkdev
-ms.date: 07/04/2018
+ms.date: 07/29/2018
 ms.keywords: IWSDOutboundAttachment interface,Write method, IWSDOutboundAttachment.Write, IWSDOutboundAttachment::Write, Write, Write method, Write method,IWSDOutboundAttachment interface, ncd.iwsdoutboundattachment_write_method, wsdattachment/IWSDOutboundAttachment::Write
 ms.prod: windows
 ms.technology: windows-sdk
@@ -161,7 +161,6 @@ The <b>Write</b> method allows an application program to send arbitrary data to 
 
  The <b>Write</b> operation may block under several conditions. On the initial operation, <b>Write</b> will block until the HTTP headers and XML content have been transmitted. When sending multiple attachments in a single message, the first call to <b>Write</b> on any attachment may block until any prior attachment streams have been completely transmitted.
 <b>Write</b> may block for up to 30 seconds (per HTTP transmission timeouts) if the remote host does not reply.
-
 
 If an error occurs in establishing a connection or transmitting headers, <b>Write</b> will return the error code immediately. If a data transfer error occurs, the error may be delayed to a future call of <b>Write</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>.
 

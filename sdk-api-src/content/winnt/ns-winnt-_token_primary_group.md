@@ -4,10 +4,10 @@ title: "_TOKEN_PRIMARY_GROUP"
 author: windows-sdk-content
 description: Specifies a group security identifier (SID) for an access token.
 old-location: security\token_primary_group.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: d23ebe6c-36a3-434a-a0fa-fcdf50dd19a0
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: "*PTOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP, PTOKEN_PRIMARY_GROUP structure pointer [Security], TOKEN_PRIMARY_GROUP, TOKEN_PRIMARY_GROUP structure [Security], _TOKEN_PRIMARY_GROUP, _win32_token_primary_group_str, security.token_primary_group, winnt/PTOKEN_PRIMARY_GROUP, winnt/TOKEN_PRIMARY_GROUP"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The <b>TOKEN_PRIMARY_GROUP</b> structure specifies a group <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) for an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access token</a>.
+The <b>TOKEN_PRIMARY_GROUP</b> structure specifies a group <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) for an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access token</a>.
 
 
 ## -struct-fields

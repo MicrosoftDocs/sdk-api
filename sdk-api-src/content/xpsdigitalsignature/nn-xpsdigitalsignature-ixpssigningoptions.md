@@ -7,7 +7,7 @@ old-location: xps\ixpssigningoptions.htm
 old-project: printdocs
 ms.assetid: 71b9b348-1078-4f55-a071-e5e2f273f85c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsSigningOptions, IXpsSigningOptions interface [XPS Documents and Packaging], IXpsSigningOptions interface [XPS Documents and Packaging],described, xps.ixpssigningoptions, xpsdigitalsignature/IXpsSigningOptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The <b>IXpsSigningOptions</b> interface has these methods.
 <a href="https://msdn.microsoft.com/40e96263-03dd-4fbe-8383-0c0bf1abd8c4">GetCertificateSet</a>
 </td>
 <td align="left" width="63%">
-
-              Gets an <a href="https://msdn.microsoft.com/0ac56b41-a120-4a9b-9bfa-afba1ba0f3b4">IOpcCertificateSet</a> interface, which can be used to add additional certificates to the signature.
+Gets an <a href="https://msdn.microsoft.com/0ac56b41-a120-4a9b-9bfa-afba1ba0f3b4">IOpcCertificateSet</a> interface, which can be used to add additional certificates to the signature.
             
 
 </td>
@@ -85,8 +84,7 @@ The <b>IXpsSigningOptions</b> interface has these methods.
 <a href="https://msdn.microsoft.com/17a3f913-57f2-40e1-b886-6cefb9e42a83">GetCustomObjects</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to an <a href="https://msdn.microsoft.com/eb2a561d-2723-45dc-98a6-ecf11101016b">IOpcSignatureCustomObjectSet</a> interface that contains a set of signature custom objects.
+Gets a pointer to an <a href="https://msdn.microsoft.com/eb2a561d-2723-45dc-98a6-ecf11101016b">IOpcSignatureCustomObjectSet</a> interface that contains a set of signature custom objects.
             
 
 </td>
@@ -96,8 +94,7 @@ The <b>IXpsSigningOptions</b> interface has these methods.
 <a href="https://msdn.microsoft.com/1a9ab939-4581-40a9-acd3-2afe02c5e201">GetCustomReferences</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to an <a href="https://msdn.microsoft.com/7955ac86-de6e-4911-a107-a1617c14e685">IOpcSignatureReferenceSet</a> interface, which contains a set of signature custom references.
+Gets a pointer to an <a href="https://msdn.microsoft.com/7955ac86-de6e-4911-a107-a1617c14e685">IOpcSignatureReferenceSet</a> interface, which contains a set of signature custom references.
             
 
 </td>
@@ -116,8 +113,7 @@ Gets the current digest method.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546791">GetFlags</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <a href="https://msdn.microsoft.com/36fa92d4-ffd4-4666-8d3e-02436e3bb464">XPS_SIGN_FLAGS</a> value that specifies the signing flags to be used for this signature.
+Gets the <a href="https://msdn.microsoft.com/36fa92d4-ffd4-4666-8d3e-02436e3bb464">XPS_SIGN_FLAGS</a> value that specifies the signing flags to be used for this signature.
 
 </td>
 </tr>
@@ -126,8 +122,7 @@ Gets the current digest method.
 <a href="https://msdn.microsoft.com/0643ee4d-7991-4570-8dce-8166f007abc8">GetPolicy</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the <a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b10">XPS_SIGN_POLICY</a> value that specifies the signing policy.
+Gets the <a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b10">XPS_SIGN_POLICY</a> value that specifies the signing policy.
             
 
 </td>
@@ -137,8 +132,7 @@ Gets the current digest method.
 <a href="https://msdn.microsoft.com/ebcb9f75-c9da-4559-9a9f-915b166801bf">GetSignatureId</a>
 </td>
 <td align="left" width="63%">
-
-              Gets the value of the <b>Id</b> attribute of the <b>Signature</b> element.
+Gets the value of the <b>Id</b> attribute of the <b>Signature</b> element.
             
 
 </td>
@@ -184,8 +178,7 @@ Sets the URI of the digest method.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556703">SetFlags</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <a href="https://msdn.microsoft.com/36fa92d4-ffd4-4666-8d3e-02436e3bb464">XPS_SIGN_FLAGS</a> value that specifies the signing flags to use for this signature.
+Sets the <a href="https://msdn.microsoft.com/36fa92d4-ffd4-4666-8d3e-02436e3bb464">XPS_SIGN_FLAGS</a> value that specifies the signing flags to use for this signature.
             
 
 </td>
@@ -195,8 +188,7 @@ Sets the URI of the digest method.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451328">SetPolicy</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the <a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b10">XPS_SIGN_POLICY</a> value that represents the signing policy.
+Sets the <a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b10">XPS_SIGN_POLICY</a> value that represents the signing policy.
             
 
 </td>
@@ -206,8 +198,7 @@ Sets the URI of the digest method.
 <a href="https://msdn.microsoft.com/314199f2-15bc-4ede-b18c-96c1dbfe5367">SetSignatureId</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the value of the <b>Id</b> attribute of the <b>Signature</b> element.
+Sets the value of the <b>Id</b> attribute of the <b>Signature</b> element.
             
 
 </td>

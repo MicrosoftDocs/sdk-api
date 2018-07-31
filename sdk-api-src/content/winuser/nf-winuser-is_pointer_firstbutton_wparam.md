@@ -7,7 +7,7 @@ old-location: inputmsg\is_pointer_firstbutton_wparam.htm
 old-project: InputMsg
 ms.assetid: 35f7dde6-1486-4050-b9b6-ffc2ed9912a8
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: IS_POINTER_FIRSTBUTTON_WPARAM, IS_POINTER_FIRSTBUTTON_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_firstbutton_wparam, winuser/IS_POINTER_FIRSTBUTTON_WPARAM
 ms.prod: windows
 ms.technology: windows-sdk

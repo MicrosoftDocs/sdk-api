@@ -7,7 +7,7 @@ old-location: dshow\ivmrdeinterlacecontrol9_getdeinterlacemodecaps.htm
 old-project: DirectShow
 ms.assetid: 62b71df5-7665-4023-90cd-e426b751c1df
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetDeinterlaceModeCaps, GetDeinterlaceModeCaps method [DirectShow], GetDeinterlaceModeCaps method [DirectShow],IVMRDeinterlaceControl9 interface, IVMRDeinterlaceControl9 interface [DirectShow],GetDeinterlaceModeCaps method, IVMRDeinterlaceControl9.GetDeinterlaceModeCaps, IVMRDeinterlaceControl9::GetDeinterlaceModeCaps, IVMRDeinterlaceControl9GetDeinterlaceModeCaps, dshow.ivmrdeinterlacecontrol9_getdeinterlacemodecaps, vmr9/IVMRDeinterlaceControl9::GetDeinterlaceModeCaps
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,22 +65,19 @@ The <b>GetDeinterlaceModeCaps</b> method gets the capabilities of a deinterlacin
 
 ### -param lpDeinterlaceMode [in]
 
-
-            Pointer to a GUID that identifies the deinterlacing mode. Call the <a href="https://msdn.microsoft.com/5d7d72f3-140c-4af4-8876-80a558575a57">IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes</a> method to obtain a list of GUIDs supported by the driver.
+Pointer to a GUID that identifies the deinterlacing mode. Call the <a href="https://msdn.microsoft.com/5d7d72f3-140c-4af4-8876-80a558575a57">IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes</a> method to obtain a list of GUIDs supported by the driver.
           
 
 
 ### -param lpVideoDescription [in]
 
-
-            Pointer to a <a href="https://msdn.microsoft.com/af4bf46a-fae7-4485-b5fb-3fd1857f383f">VMR9VideoDesc</a> structure describing the video to deinterlace.
+Pointer to a <a href="https://msdn.microsoft.com/af4bf46a-fae7-4485-b5fb-3fd1857f383f">VMR9VideoDesc</a> structure describing the video to deinterlace.
           Set the <b>dwSize</b> member of the structure before calling the method. 
 
 
 ### -param lpDeinterlaceCaps [out]
 
-
-            Pointer to a <a href="https://msdn.microsoft.com/ae71c9d6-2540-4679-927c-e1d759df7009">VMR9DeinterlaceCaps</a> structure. Set the <b>dwSize</b> member of the structure before calling the method. The method fills the structure with information about the specified deinterlacing mode.
+Pointer to a <a href="https://msdn.microsoft.com/ae71c9d6-2540-4679-927c-e1d759df7009">VMR9DeinterlaceCaps</a> structure. Set the <b>dwSize</b> member of the structure before calling the method. The method fills the structure with information about the specified deinterlacing mode.
           
 
 

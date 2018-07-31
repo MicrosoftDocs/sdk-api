@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationinterpolator_getdependencies.htm
 old-project: UIAnimation
 ms.assetid: a897caa9-8a03-465e-8b74-b4614efce00c
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetDependencies, GetDependencies method [Windows Animation], GetDependencies method [Windows Animation],IUIAnimationInterpolator interface, IUIAnimationInterpolator interface [Windows Animation],GetDependencies method, IUIAnimationInterpolator.GetDependencies, IUIAnimationInterpolator::GetDependencies, uianimation.iuianimationinterpolator_getdependencies, uianimation/IUIAnimationInterpolator::GetDependencies
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,9 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-   
-   Gets the aspects of the interpolator that depend on the initial value or velocity passed to <a href="https://msdn.microsoft.com/a1c5451a-b8d0-4eb7-883c-6bd1d585cb11">SetInitialValueAndVelocity</a>, or that depend on the duration passed to <a href="https://msdn.microsoft.com/79038ada-ebc2-4259-862a-d81403c2f6b8">SetDuration</a>.
+Gets the aspects of the interpolator that depend on the initial value or velocity passed to <a href="https://msdn.microsoft.com/a1c5451a-b8d0-4eb7-883c-6bd1d585cb11">SetInitialValueAndVelocity</a>, or that depend on the duration passed to <a href="https://msdn.microsoft.com/79038ada-ebc2-4259-862a-d81403c2f6b8">SetDuration</a>.
 
 
 ## -parameters
@@ -63,16 +61,12 @@ req.product: Windows XP with SP1 and later
 
 ### -param initialValueDependencies [out]
 
-
-                
-                Aspects of the interpolator that depend on the  initial value passed to <a href="https://msdn.microsoft.com/a1c5451a-b8d0-4eb7-883c-6bd1d585cb11">SetInitialValueAndVelocity</a>.
+Aspects of the interpolator that depend on the  initial value passed to <a href="https://msdn.microsoft.com/a1c5451a-b8d0-4eb7-883c-6bd1d585cb11">SetInitialValueAndVelocity</a>.
 
 
 ### -param initialVelocityDependencies [out]
 
-
-                
-                Aspects of the interpolator that depend on the initial velocity passed to <a href="https://msdn.microsoft.com/a1c5451a-b8d0-4eb7-883c-6bd1d585cb11">SetInitialValueAndVelocity</a>.
+Aspects of the interpolator that depend on the initial velocity passed to <a href="https://msdn.microsoft.com/a1c5451a-b8d0-4eb7-883c-6bd1d585cb11">SetInitialValueAndVelocity</a>.
 
 
 ### -param durationDependencies [out]
@@ -113,8 +107,7 @@ It is important that an interpolator return correct set of flags. If a flag is n
 
 
 
-<a href="https://msdn.microsoft.com/8e1f2a9a-ab93-485a-83b2-baebb9ee4bcc">
-         IUIAnimationInterpolator</a>
+<a href="https://msdn.microsoft.com/8e1f2a9a-ab93-485a-83b2-baebb9ee4bcc">IUIAnimationInterpolator</a>
 
 
 

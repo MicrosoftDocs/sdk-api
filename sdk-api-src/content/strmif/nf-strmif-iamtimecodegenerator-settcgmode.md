@@ -7,7 +7,7 @@ old-location: dshow\iamtimecodegenerator_settcgmode.htm
 old-project: DirectShow
 ms.assetid: 61434534-0a43-4bf3-81d1-3b27ac601cb4
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMTimecodeGenerator interface [DirectShow],SetTCGMode method, IAMTimecodeGenerator.SetTCGMode, IAMTimecodeGenerator::SetTCGMode, IAMTimecodeGeneratorSetTCGMode, SetTCGMode, SetTCGMode method [DirectShow], SetTCGMode method [DirectShow],IAMTimecodeGenerator interface, dshow.iamtimecodegenerator_settcgmode, strmif/IAMTimecodeGenerator::SetTCGMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,11 +69,9 @@ Timecode generator mode. Specify one of the following modes.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -104,11 +102,9 @@ If ED_TCG_FRAMERATE is specified in <i>Param</i>, this parameter is set to one o
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -134,11 +130,9 @@ If ED_TCG_REFERENCE_SOURCE is specified in <i>Param</i>, set one of the followin
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -156,11 +150,9 @@ If ED_TCG_SYNC_SOURCE is specified in <i>Param</i>, set one of the following.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>
@@ -182,11 +174,9 @@ If ED_TCG_TIMECODE_TYPE is specified in <i>Param</i>, set one of the following.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Description
+<th>Description
                 </th>
 </tr>
 <tr>

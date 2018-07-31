@@ -4,10 +4,10 @@ title: WNetAddConnection2W function
 author: windows-sdk-content
 description: The WNetAddConnection2 function makes a connection to a network resource and can redirect a local device to the network resource.
 old-location: wnet\wnetaddconnection2.htm
-old-project: wnet
+old-project: WNet
 ms.assetid: faec728c-f19e-418c-9bdb-cde93e7d98fb
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: CONNECT_CMD_SAVECRED, CONNECT_COMMANDLINE, CONNECT_CRED_RESET, CONNECT_CURRENT_MEDIA, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_REDIRECT, CONNECT_TEMPORARY, CONNECT_UPDATE_PROFILE, CONNECT_UPDATE_RECENT, WNetAddConnection2, WNetAddConnection2 function [Windows Networking (WNet)], WNetAddConnection2A, WNetAddConnection2W, _win32_wnetaddconnection2, dwType, lpLocalName, lpProvider, lpRemoteName, winnetwk/WNetAddConnection2, winnetwk/WNetAddConnection2A, winnetwk/WNetAddConnection2W, wnet.wnetaddconnection2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -605,14 +605,12 @@ ipv6-address with the ':' characters replaced by '-' characters followed by the 
 
 For example, for the following IPv6 address:
 
-<code>
-  2001:4898:9:3:c069:aa97:fe76:2449
+<code>2001:4898:9:3:c069:aa97:fe76:2449
 </code>
 
 an example for a share might be the following:
 
-<code>
-  \\2001-4898-9-3-c069-aa97-fe76-2449.ipv6-literal.net\share</code>
+<code>\\2001-4898-9-3-c069-aa97-fe76-2449.ipv6-literal.net\share</code>
 
 Other network providers may support the <b>lpRemoteName</b> member of the <a href="https://msdn.microsoft.com/c53d078e-188a-4371-bdb9-fc023bc0c1ba">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter that contains an IPv4 or IPv6 address, but this is up to specific network provider.
 

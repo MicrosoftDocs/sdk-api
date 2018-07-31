@@ -4,10 +4,10 @@ title: CryptRegisterOIDFunction function
 author: windows-sdk-content
 description: Registers a DLL that contains the function to be called for the specified encoding type, function name, and object identifier (OID).
 old-location: security\cryptregisteroidfunction.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: b625597d-28fd-4a40-afbe-a09201d36512
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CryptRegisterOIDFunction, CryptRegisterOIDFunction function [Security], _crypto2_cryptregisteroidfunction, security.cryptregisteroidfunction, wincrypt/CryptRegisterOIDFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CryptRegisterOIDFunction</b> function registers a DLL that contains the function to be called for the specified encoding type, function name, and <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).
+The <b>CryptRegisterOIDFunction</b> function registers a DLL that contains the function to be called for the specified encoding type, function name, and <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).
 
 By default, new function names are installed at the end of the list. To register a new function before the installed functions, call 
 the <a href="https://msdn.microsoft.com/3e167c5d-0000-4359-a7b0-9b3e4e64c50c">CryptSetOIDFunctionValue</a> function with <i>dwValueType</i> set to <b>REG_DWORD</b> and <i>pwszValueName</i> set to CRYPT_OID_REG_FLAGS_VALUE_NAME.
@@ -99,8 +98,7 @@ String that specifies a name for the function exported in the DLL. If <i>pszOver
 
 
 
-
-						If the function succeeds, the return value is nonzero (<b>TRUE</b>).
+If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>).
 
@@ -129,7 +127,7 @@ When you have finished using an OID function, unregister it by calling the <a hr
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

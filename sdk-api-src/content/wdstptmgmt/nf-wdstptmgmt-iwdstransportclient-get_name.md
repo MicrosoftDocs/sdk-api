@@ -4,10 +4,10 @@ title: IWdsTransportClient::get_Name
 author: windows-sdk-content
 description: Receives the name of the WDS client on the WDS server.
 old-location: wds\iwdstransportclient_name.htm
-old-project: wds
+old-project: Wds
 ms.assetid: e0517a4e-5312-4663-955d-1a2892492308
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],Name property, IWdsTransportClient.Name, IWdsTransportClient.get_Name, IWdsTransportClient::Name, IWdsTransportClient::get_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services],IWdsTransportClient interface, get_Name, wds.iwdstransportclient_name, wdstptmgmt/IWdsTransportClient::Name, wdstptmgmt/IWdsTransportClient::get_Name
 ms.prod: windows
 ms.technology: windows-sdk

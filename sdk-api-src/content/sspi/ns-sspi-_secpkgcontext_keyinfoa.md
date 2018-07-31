@@ -4,10 +4,10 @@ title: "_SecPkgContext_KeyInfoA"
 author: windows-sdk-content
 description: The SecPkgContext_KeyInfo structure contains information about the session keys used in a security context.
 old-location: security\secpkgcontext_keyinfo.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: ec146329-6789-460c-ae62-629a1765a4c1
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PSecPkgContext_KeyInfoA, PSecPkgContext_KeyInfo, PSecPkgContext_KeyInfo structure pointer [Security], SecPkgContext_KeyInfo, SecPkgContext_KeyInfo structure [Security], SecPkgContext_KeyInfoA, SecPkgContext_KeyInfoW, _SecPkgContext_KeyInfoA, _ssp_secpkgcontext_keyinfo, security.secpkgcontext_keyinfo, sspi/PSecPkgContext_KeyInfo, sspi/SecPkgContext_KeyInfo, sspi/SecPkgContext_KeyInfoA, sspi/SecPkgContext_KeyInfoW"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,6 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_KeyInfoA structure
@@ -53,8 +52,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-
-			The <b>SecPkgContext_KeyInfo</b> structure contains information about the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">session keys</a> used in a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. The 
+The <b>SecPkgContext_KeyInfo</b> structure contains information about the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">session keys</a> used in a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. The 
 <a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a> function uses this structure.
 
 Applications using the Schannel <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security support provider</a> (SSP) should not use the <b>SecPkgContext_KeyInfo</b> structure. Instead, use the <a href="https://msdn.microsoft.com/5380c03b-d2c5-4a0d-96a1-c39305b9c9ac">SecPkgContext_ConnectionInfo</a> structure.

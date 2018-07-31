@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IRangeValueProvider.htm
 old-project: WinAuto
 ms.assetid: 1e9e39f9-e728-4ed6-bc62-80d3bbe6302d
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IRangeValueProvider, IRangeValueProvider interface [Windows Accessibility], IRangeValueProvider interface [Windows Accessibility],described, uiauto.uiauto_IRangeValueProvider, uiauto_IRangeValueProvider, uiautomationcore/IRangeValueProvider, winauto.uiauto_IRangeValueProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,8 +116,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-
-        Specifies the value that is added to or subtracted from the <a href="https://msdn.microsoft.com/b17ca8c8-948b-4d92-a6c7-79e610aa8e4a">IRangeValueProvider::Value</a> 
+Specifies the value that is added to or subtracted from the <a href="https://msdn.microsoft.com/b17ca8c8-948b-4d92-a6c7-79e610aa8e4a">IRangeValueProvider::Value</a> 
         property when a large change is made, such as when the PAGE DOWN key is pressed.
         
 
@@ -167,8 +166,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-
-        Specifies the value that is added to or subtracted from the <a href="https://msdn.microsoft.com/b17ca8c8-948b-4d92-a6c7-79e610aa8e4a">IRangeValueProvider::Value</a> property 
+Specifies the value that is added to or subtracted from the <a href="https://msdn.microsoft.com/b17ca8c8-948b-4d92-a6c7-79e610aa8e4a">IRangeValueProvider::Value</a> property 
         when a small change is made, such as when an arrow key is pressed.
         
 
@@ -197,8 +195,7 @@ Specifies the value of the control.
 
 
 
-
-            Implemented on a Microsoft UI Automation provider that must support the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546453">RangeValue</a> control pattern.
+Implemented on a Microsoft UI Automation provider that must support the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546453">RangeValue</a> control pattern.
             
 
 

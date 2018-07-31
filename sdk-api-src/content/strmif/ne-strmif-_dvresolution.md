@@ -7,7 +7,7 @@ old-location: dshow\_dvresolution.htm
 old-project: DirectShow
 ms.assetid: 8ae9b402-e7cc-4e11-b956-974b53fd8934
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: DVDECODERRESOLUTIONEnumeration, DVRESOLUTION_DC, DVRESOLUTION_FULL, DVRESOLUTION_HALF, DVRESOLUTION_QUARTER, _DVRESOLUTION, _DVRESOLUTION enumeration [DirectShow], dshow._dvresolution, strmif/DVRESOLUTION_DC, strmif/DVRESOLUTION_FULL, strmif/DVRESOLUTION_HALF, strmif/DVRESOLUTION_QUARTER, strmif/_DVRESOLUTION
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,29 +64,25 @@ Indicates the digital video (DV) decoding resolution.
 
 ### -field DVRESOLUTION_FULL
 
-
-            Decode at full size.
+Decode at full size.
           
 
 
 ### -field DVRESOLUTION_HALF
 
-
-            Decode at half size.
+Decode at half size.
           
 
 
 ### -field DVRESOLUTION_QUARTER
 
-
-            Decode at quarter size.
+Decode at quarter size.
           
 
 
 ### -field DVRESOLUTION_DC
 
-
-            Decode at one-eighth size.
+Decode at one-eighth size.
           
 
 

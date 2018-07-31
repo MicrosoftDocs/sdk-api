@@ -7,7 +7,7 @@ old-location: gdi\fillrect.htm
 old-project: gdi
 ms.assetid: 98ab34da-ea07-4446-a62e-509c849d95f9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: FillRect, FillRect function [Windows GDI], _win32_FillRect, gdi.fillrect, winuser/FillRect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -128,20 +128,17 @@ For an example, see <a href="https://msdn.microsoft.com/e8861240-9345-43e6-820d-
 
 
 
-<a href="https://msdn.microsoft.com/0b5849d6-1e22-4ac5-980c-2f2a73b16adb">
-        CreateHatchBrush
+<a href="https://msdn.microsoft.com/0b5849d6-1e22-4ac5-980c-2f2a73b16adb">CreateHatchBrush
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/a3cf347e-9803-4bb0-bdb3-98929ef859ab">
-        CreatePatternBrush
+<a href="https://msdn.microsoft.com/a3cf347e-9803-4bb0-bdb3-98929ef859ab">CreatePatternBrush
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e39b5f77-97d8-4ea6-8277-7da12b3367f3">
-        CreateSolidBrush
+<a href="https://msdn.microsoft.com/e39b5f77-97d8-4ea6-8277-7da12b3367f3">CreateSolidBrush
       </a>
 
 
@@ -154,14 +151,12 @@ For an example, see <a href="https://msdn.microsoft.com/e8861240-9345-43e6-820d-
 
 
 
-<a href="https://msdn.microsoft.com/b14ddc05-7e7b-4fc6-b7e3-efe892df7e21">
-        GetStockObject
+<a href="https://msdn.microsoft.com/b14ddc05-7e7b-4fc6-b7e3-efe892df7e21">GetStockObject
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">
-        RECT
+<a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT
       </a>
  
 

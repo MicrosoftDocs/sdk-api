@@ -7,7 +7,7 @@ old-location: xps\ixpsomvisual_setname.htm
 old-project: printdocs
 ms.assetid: 8bf30b4c-bddf-4ca8-91c6-af739125829c
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetName method, IXpsOMVisual.SetName, IXpsOMVisual::SetName, SetName, SetName method [XPS Documents and Packaging], SetName method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setname, xpsobjectmodel/IXpsOMVisual::SetName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-
-        Sets the <b>Name</b>  property of the visual.
+Sets the <b>Name</b>  property of the visual.
       
 
 
@@ -63,8 +62,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 
 ### -param name [in]
 
-
-            The name of the visual. A <b>NULL</b> pointer clears the <b>Name</b> property.
+The name of the visual. A <b>NULL</b> pointer clears the <b>Name</b> property.
           
 
 
@@ -72,8 +70,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
           
 
 <table>
@@ -99,8 +96,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-
-                According to the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>, the string that is passed in <i>name</i>  is not a valid name.
+According to the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>, the string that is passed in <i>name</i>  is not a valid name.
               
 
 </td>
@@ -117,8 +113,7 @@ The method succeeded.
 
 Names must be unique.
 
-
-        Clearing the <b>Name</b> property by passing a <b>NULL</b> pointer in <i>name</i> sets the <b>IsHyperlinkTarget</b> property to <b>FALSE</b>.
+Clearing the <b>Name</b> property by passing a <b>NULL</b> pointer in <i>name</i> sets the <b>IsHyperlinkTarget</b> property to <b>FALSE</b>.
       
 
 

@@ -4,10 +4,10 @@ title: ITPhoneEvent
 author: windows-sdk-content
 description: The ITPhoneEvent interface contains methods that retrieve the description of phone events that have occurred.
 old-location: tapi3\itphoneevent.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: cc3ca533-d523-4889-b3c7-bb306e49b85b
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: ITPhoneEvent, ITPhoneEvent interface [TAPI 2.2], ITPhoneEvent interface [TAPI 2.2],described, _tapi3_itphoneevent, tapi3.itphoneevent, tapi3if/ITPhoneEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ The
 <b>ITPhoneEvent</b> interface contains methods that retrieve the description of phone events that have occurred. When the application's implementation of the 
 <a href="https://msdn.microsoft.com/8cd57c81-cd71-4fe5-a176-805c96c06c31">ITTAPIEventNotification::Event</a> method indicates a 
 <a href="https://msdn.microsoft.com/94faa4a1-7d86-48bc-9e94-f2b8f83f5280">TAPI_EVENT</a> equal to <b>TE_PHONEEVENT</b>, the method's <i>pEvent</i> parameter is an 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> pointer for the 
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> pointer for the 
 <b>ITPhoneEvent</b> interface.
 <div class="alert"><b>Note</b>  You must call the 
 <a href="https://msdn.microsoft.com/126ec551-aade-47d8-987f-1f735f10bd28">ITTAPI::put_EventFilter</a> method and set an event filter mask that includes <b>TE_PHONEEVENT</b> to enable reception of phone events. If you do not call <b>ITTAPI::put_EventFilter</b>, your application will not receive any events. For more information, see the 
@@ -63,7 +63,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPhoneEvent</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITPhoneEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPhoneEvent</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITPhoneEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

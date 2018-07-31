@@ -7,7 +7,7 @@ old-location: dshow\vmrdeinterlaceprefs.htm
 old-project: DirectShow
 ms.assetid: 3f88abac-fc57-4f31-9a4c-cf0f7317d6f8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: DeinterlacePref_BOB, DeinterlacePref_Mask, DeinterlacePref_NextBest, DeinterlacePref_Weave, VMRDeinterlacePrefs, VMRDeinterlacePrefs enumeration [DirectShow], VMRDeinterlacePrefsEnumeration, dshow.vmrdeinterlaceprefs, strmif/DeinterlacePref_BOB, strmif/DeinterlacePref_Mask, strmif/DeinterlacePref_NextBest, strmif/DeinterlacePref_Weave, strmif/VMRDeinterlacePrefs
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,29 +61,25 @@ The <b>VMRDeinterlacePrefs</b> enumeration type describes the deinterlacing meth
 
 ### -field DeinterlacePref_NextBest
 
-
-            Use the next best mode offered by the driver.
+Use the next best mode offered by the driver.
           
 
 
 ### -field DeinterlacePref_BOB
 
-
-            Use the bob method.
+Use the bob method.
           
 
 
 ### -field DeinterlacePref_Weave
 
-
-            Use the weave method (that is, no deinterlacing).
+Use the weave method (that is, no deinterlacing).
           
 
 
 ### -field DeinterlacePref_Mask
 
-
-            Bitwise <b>OR</b> of the previous flags. This value is not a valid flag.
+Bitwise <b>OR</b> of the previous flags. This value is not a valid flag.
           
 
 

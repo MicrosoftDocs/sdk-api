@@ -7,7 +7,7 @@ old-location: intl\setlocaleinfo.htm
 old-project: Intl
 ms.assetid: 96e031cb-0d9f-4556-b9b3-3451d8f80da5
 ms.author: windowssdkdev
-ms.date: 07/19/2018
+ms.date: 07/29/2018
 ms.keywords: SetLocaleInfo, SetLocaleInfo function [Internationalization for Windows Applications], SetLocaleInfoA, SetLocaleInfoW, _win32_SetLocaleInfo, intl.setlocaleinfo, winnls/SetLocaleInfo, winnls/SetLocaleInfoA, winnls/SetLocaleInfoW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -137,8 +137,7 @@ For the <i>LCType</i> parameter, the application should set <a href="https://msd
 
 When the ANSI version of this function is used with a Unicode-only locale identifier, the function can succeed because the operating system uses the system code page. However, characters that are undefined in the system code page appear in the string as a question mark (?). 
 
-
-        As of Windows Vista, the <a href="https://msdn.microsoft.com/18b62bee-b167-4499-aae4-21e215cb6377">LOCALE_SDATE</a> and <a href="https://msdn.microsoft.com/d16e7e0c-93f1-4f08-a319-02b717b7d33b">LOCALE_STIME</a> constants are obsolete. Do not use these constants. Use <a href="https://msdn.microsoft.com/55333a53-1205-42eb-aa1a-c248c52a8a3f">LOCALE_SSHORTDATE</a> and <a href="https://msdn.microsoft.com/d16e7e0c-93f1-4f08-a319-02b717b7d33b">LOCALE_STIMEFORMAT</a> instead. A custom locale might not have a single, uniform separator character within the date or time format: for example, a format such as "12/31, 2006" or "03:56'23" might be valid.
+As of Windows Vista, the <a href="https://msdn.microsoft.com/18b62bee-b167-4499-aae4-21e215cb6377">LOCALE_SDATE</a> and <a href="https://msdn.microsoft.com/d16e7e0c-93f1-4f08-a319-02b717b7d33b">LOCALE_STIME</a> constants are obsolete. Do not use these constants. Use <a href="https://msdn.microsoft.com/55333a53-1205-42eb-aa1a-c248c52a8a3f">LOCALE_SSHORTDATE</a> and <a href="https://msdn.microsoft.com/d16e7e0c-93f1-4f08-a319-02b717b7d33b">LOCALE_STIMEFORMAT</a> instead. A custom locale might not have a single, uniform separator character within the date or time format: for example, a format such as "12/31, 2006" or "03:56'23" might be valid.
 
 
 

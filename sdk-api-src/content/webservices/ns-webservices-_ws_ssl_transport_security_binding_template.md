@@ -2,12 +2,12 @@
 UID: NS:webservices._WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE
 title: "_WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE"
 author: windows-sdk-content
-description: The security binding template for specifying the use of SSL/TLS protocol based transport security. See also WS_SSL_TRANSPORT_SECURITY_BINDING .This security binding is supported only with the WS_HTTP_CHANNEL_BINDING.
+description: The security binding template for specifying the use of SSL/TLS protocol based transport security.
 old-location: wsw\ws_ssl_transport_security_binding_template.htm
 old-project: wsw
 ms.assetid: 6b7e9ed6-0337-479d-9a83-dec5770c050d
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE, WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], _WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE, webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE, wsw.ws_ssl_transport_security_binding_template
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,13 +51,11 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        The security binding template for specifying the use of SSL/TLS
+The security binding template for specifying the use of SSL/TLS
         protocol based transport security. 
       
 
-See also <a href="https://msdn.microsoft.com/078efc1d-a1bc-4035-919c-f927a8ceb8e6">WS_SSL_TRANSPORT_SECURITY_BINDING</a>
-      .
+See also <a href="https://msdn.microsoft.com/078efc1d-a1bc-4035-919c-f927a8ceb8e6">WS_SSL_TRANSPORT_SECURITY_BINDING</a>.
 
 This security binding is supported only with the
         <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>.
@@ -71,25 +69,21 @@ This security binding is supported only with the
 
 ### -field securityBindingProperties
 
-
-          Application provided security binding properties that cannot be represented in policy.
+Application provided security binding properties that cannot be represented in policy.
         
 
 
 ### -field localCertCredential
 
-
-          The local certificate credential to be used with this security binding.
+The local certificate credential to be used with this security binding.
         
 
-
-          Server side: When SSL is used for transport security with <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>, the server certificate must be
+Server side: When SSL is used for transport security with <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>, the server certificate must be
           registered by the application using the <a href="http://go.microsoft.com/fwlink/p/?linkid=95010">HttpCfg.exe</a> and this field must be set to <b>NULL</b>.  In all other cases, the
           server SSL certificate must be specified using this field.
         
 
-
-          Client side: If a client certificate is to be used with SSL, it must
+Client side: If a client certificate is to be used with SSL, it must
           be specified using this field.  If no client certificate is to be
           used, this field must be set to <b>NULL</b>.
         

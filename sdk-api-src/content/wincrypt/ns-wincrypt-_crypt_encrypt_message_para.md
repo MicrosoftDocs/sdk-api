@@ -4,10 +4,10 @@ title: "_CRYPT_ENCRYPT_MESSAGE_PARA"
 author: windows-sdk-content
 description: Contains information used to encrypt messages.
 old-location: security\crypt_encrypt_message_para.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: c683c515-3061-48e3-a64a-2798bd1245b0
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: "*PCRYPT_ENCRYPT_MESSAGE_PARA, CRYPT_ENCRYPT_MESSAGE_PARA, CRYPT_ENCRYPT_MESSAGE_PARA structure [Security], PCRYPT_ENCRYPT_MESSAGE_PARA, PCRYPT_ENCRYPT_MESSAGE_PARA structure pointer [Security], _CRYPT_ENCRYPT_MESSAGE_PARA, _crypto2_crypt_encrypt_message_para, security.crypt_encrypt_message_para, wincrypt/CRYPT_ENCRYPT_MESSAGE_PARA, wincrypt/PCRYPT_ENCRYPT_MESSAGE_PARA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CRYPT_ENCRYPT_MESSAGE_PARA</b> structure contains information used to encrypt messages.
+The <b>CRYPT_ENCRYPT_MESSAGE_PARA</b> structure contains information used to encrypt messages.
 
 
 ## -struct-fields
@@ -94,8 +93,7 @@ This member's data type is <b>HCRYPTPROV</b>.
 
 ### -field ContentEncryptionAlgorithm
 
-
-						A <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) of the encryption algorithm to use. The CSP specified by the <b>hCryptProv</b> must support this encryption algorithm.
+A <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) of the encryption algorithm to use. The CSP specified by the <b>hCryptProv</b> must support this encryption algorithm.
 
 The <b>szOID_OIWSEC_desCBC</b> (CALG_DES) and <b>szOID_RSA_DES_EDE3_CBC</b> (CALG_3DES) encryption algorithms require the <b>Parameters</b> member of this structure to contain an encoded eight-byte <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">initialization vector</a> (IV).  If the <b>cbData</b> member of the <b>Parameters</b> member is zero, an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1)-encoded OCTET STRING that contains the IV is generated using 
 <a href="https://msdn.microsoft.com/3e5a437f-7439-43c9-a191-2908d2df0eb6">CryptGenRandom</a>. For more information about the KP_IV parameter, see 

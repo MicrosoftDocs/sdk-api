@@ -7,7 +7,7 @@ old-location: gdi\bitmapinfo.htm
 old-project: gdi
 ms.assetid: 84cc51e8-78f3-4ee6-bc08-94feff89afb0
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPBITMAPINFO, *PBITMAPINFO, BITMAPINFO, BITMAPINFO structure [Windows GDI], PBITMAPINFO, PBITMAPINFO structure pointer [Windows GDI], _win32_BITMAPINFO_str, gdi.bitmapinfo, tagBITMAPINFO, wingdi/BITMAPINFO, wingdi/PBITMAPINFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\wsreadarray.htm
 old-project: wsw
 ms.assetid: ab545d74-7a61-48db-8c84-11017ee65605
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsReadArray, WsReadArray function [Web Services for Windows], webservices/WsReadArray, wsw.wsreadarray
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-        Reads a series of elements from the reader and interprets their 
+Reads a series of elements from the reader and interprets their 
         content according to the specified value type.
       
 
@@ -64,8 +63,7 @@ req.product: Windows Address Book 5.0
 
 ### -param reader [in]
 
-
-          The reader from which the array should be read.
+The reader from which the array should be read.
         
 
 
@@ -86,45 +84,39 @@ The value type to use to parse the content of each element.
 
 ### -param array
 
-
-          The array to populate with parsed values.  The size of the array items is determined by the value type.
+The array to populate with parsed values.  The size of the array items is determined by the value type.
           See <a href="https://msdn.microsoft.com/6075ed1c-ceb5-421a-8a76-3a64b9e6dbe3">WS_VALUE_TYPE</a> for more information.
         
 
 
 ### -param arraySize [in]
 
-
-          The size in bytes (not items) of the array.
+The size in bytes (not items) of the array.
         
 
 
 ### -param itemOffset [in]
 
-
-          The item (not byte) offset within the array at which to read.
+The item (not byte) offset within the array at which to read.
         
 
 
 ### -param itemCount [in]
 
-
-          The number of items (not bytes) to read into the array.
+The number of items (not bytes) to read into the array.
         
 
 
 ### -param actualItemCount [out]
 
-
-          The actual number of items that were read.  This may be less than itemCount even when there
+The actual number of items that were read.  This may be less than itemCount even when there
           are more items remaining.  There are no more elements when this returns zero.
         
 
 
 ### -param error [in, optional]
 
-
-          Specifies where additional error information should be stored if the function fails.
+Specifies where additional error information should be stored if the function fails.
         
 
 
@@ -146,7 +138,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -158,7 +149,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 A quota was exceeded.
 
 </td>
@@ -173,13 +163,11 @@ A quota was exceeded.
 
 
 
-
-        This function is semantically equivalent to using <a href="https://msdn.microsoft.com/88661ae5-2112-4a41-8fcd-03c74f6ec170">WsReadStartElement</a>,
+This function is semantically equivalent to using <a href="https://msdn.microsoft.com/88661ae5-2112-4a41-8fcd-03c74f6ec170">WsReadStartElement</a>,
         <a href="https://msdn.microsoft.com/d2dbeaf1-29cb-4848-8188-7922fdc15091">WsReadValue</a> and <a href="https://msdn.microsoft.com/cd2e0e5a-9c73-4180-9c54-6742d87cb141">WsReadEndElement</a> in a loop, but is more efficient.
       
 
-
-        This function can fail for any of the reasons listed in <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a>.
+This function can fail for any of the reasons listed in <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a>.
       
 
 

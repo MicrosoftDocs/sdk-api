@@ -4,10 +4,10 @@ title: SetProcessDEPPolicy function
 author: windows-sdk-content
 description: Changes data execution prevention (DEP) and DEP-ATL thunk emulation settings for a 32-bit process.
 old-location: base\setprocessdeppolicy.htm
-old-project: memory
+old-project: Memory
 ms.assetid: 17c9f522-fd64-4061-9212-8fc91cc96b18
 ms.author: windowssdkdev
-ms.date: 06/07/2018
+ms.date: 07/29/2018
 ms.keywords: PROCESS_DEP_DISABLE_ATL_THUNK_EMULATION, PROCESS_DEP_ENABLE, SetProcessDEPPolicy, SetProcessDEPPolicy function, base.setprocessdeppolicy, winbase/SetProcessDEPPolicy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,7 +130,6 @@ DEP policy specified at process creation with the <a href="https://msdn.microsof
 Applications written to ATL 7.1 and earlier can attempt to execute code on pages marked as non-executable, which triggers an NX fault and terminates the application. DEP-ATL thunk emulation allows an application that would otherwise trigger an NX fault to run with DEP enabled. For information about ATL versions, see <a href="http://go.microsoft.com/fwlink/p/?linkid=95266">ATL and MFC Version Numbers</a>.
 
 If DEP-ATL thunk emulation is enabled, the system intercepts NX faults, emulates the instructions, and handles the exceptions so the application can continue to run. If DEP-ATL thunk emulation is disabled by setting <b>PROCESS_DEP_DISABLE_ATL_THUNK_EMULATION</b> for the process, NX faults are not intercepted, which is useful when testing applications for compatibility with DEP.
-
 
 The following table summarizes the interactions between system DEP policy, DEP-ATL thunk emulation, and  <b>SetProcessDEPPolicy</b>.
 To get the system DEP policy setting, use the <a href="https://msdn.microsoft.com/82cb1d4e-c0e5-4601-aa55-9171a106c286">GetSystemDEPPolicy</a> function.

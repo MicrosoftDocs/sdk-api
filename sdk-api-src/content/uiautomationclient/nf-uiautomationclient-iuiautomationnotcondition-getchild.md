@@ -7,7 +7,7 @@ old-location: winauto\uiauto_IUIAutomationNotCondition_GetChild.htm
 old-project: WinAuto
 ms.assetid: 5d3a5df4-045a-41bf-aa98-3e9ac20c1c52
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: GetChild, GetChild method [Windows Accessibility], GetChild method [Windows Accessibility],IUIAutomationNotCondition interface, IUIAutomationNotCondition interface [Windows Accessibility],GetChild method, IUIAutomationNotCondition.GetChild, IUIAutomationNotCondition::GetChild, uiauto.uiauto_IUIAutomationNotCondition_GetChild, uiauto_IUIAutomationNotCondition_GetChild, uiautomationclient/IUIAutomationNotCondition::GetChild, winauto.uiauto_IUIAutomationNotCondition_GetChild
 ms.prod: windows
 ms.technology: windows-sdk

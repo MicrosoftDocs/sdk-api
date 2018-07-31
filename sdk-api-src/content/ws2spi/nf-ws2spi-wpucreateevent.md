@@ -4,10 +4,10 @@ title: WPUCreateEvent function
 author: windows-sdk-content
 description: The WPUCreateEvent function creates a new event object.
 old-location: winsock\wpucreateevent_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 61e71e93-e35f-4122-bd4d-c103f652d2ca
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: WPUCreateEvent, WPUCreateEvent function [Winsock], _win32_wpucreateevent_2, winsock.wpucreateevent_2, ws2spi/WPUCreateEvent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>WPUCreateEvent</b> function creates a new event object.
 
 
@@ -70,8 +69,7 @@ Pointer to the error code.
 
 
 
-
-						If no error occurs, 
+If no error occurs, 
 <b>WPUCreateEvent</b> function returns the handle of the event object.
 
 Otherwise, the return value is WSA_INVALID_EVENT and a specific error code is available in <i>lpErrno</i>.
@@ -86,7 +84,7 @@ Otherwise, the return value is WSA_INVALID_EVENT and a specific error code is av
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">

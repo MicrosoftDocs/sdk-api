@@ -7,7 +7,7 @@ old-location: mf\imfasfmultiplexer_processsample.htm
 old-project: medfound
 ms.assetid: 30a693bb-255c-47a4-8102-1543872b0a5e
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: 30a693bb-255c-47a4-8102-1543872b0a5e, IMFASFMultiplexer interface [Media Foundation],ProcessSample method, IMFASFMultiplexer.ProcessSample, IMFASFMultiplexer::ProcessSample, ProcessSample, ProcessSample method [Media Foundation], ProcessSample method [Media Foundation],IMFASFMultiplexer interface, mf.imfasfmultiplexer_processsample, wmcontainer/IMFASFMultiplexer::ProcessSample
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-          Delivers input samples to the multiplexer.
+Delivers input samples to the multiplexer.
         
 
 
@@ -64,22 +63,19 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 ### -param wStreamNumber [in]
 
-
-            The stream number of the stream to which the sample belongs.
+The stream number of the stream to which the sample belongs.
           
 
 
 ### -param pISample [in]
 
-
-            Pointer to the <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> interface of the input sample. The input sample contains the media data to be converted to ASF data packets. When possible, the time stamp of this sample should be accurate.
+Pointer to the <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> interface of the input sample. The input sample contains the media data to be converted to ASF data packets. When possible, the time stamp of this sample should be accurate.
           
 
 
 ### -param hnsTimestampAdjust [in]
 
-
-            The adjustment to apply to the time stamp of the sample. This parameter is used if the caller wants to shift the sample time on <i>pISample</i>. This value should be positive if the time stamp should be pushed ahead and negative if the time stamp should be pushed back. This time stamp is added to sample time on <i>pISample</i>, and the resulting time is used by the multiplexer instead of the original sample time. If no adjustment is needed, set this value to 0.
+The adjustment to apply to the time stamp of the sample. This parameter is used if the caller wants to shift the sample time on <i>pISample</i>. This value should be positive if the time stamp should be pushed ahead and negative if the time stamp should be pushed back. This time stamp is added to sample time on <i>pISample</i>, and the resulting time is used by the multiplexer instead of the original sample time. If no adjustment is needed, set this value to 0.
           
 
 
@@ -87,8 +83,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-
-            The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
 
 <table>
@@ -103,8 +98,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 </dl>
 </td>
 <td width="60%">
-
-                The method succeeded.
+The method succeeded.
               
 
 </td>
@@ -116,8 +110,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 </dl>
 </td>
 <td width="60%">
-
-                There are too many packets waiting to be retrieved from the multiplexer. Call <a href="https://msdn.microsoft.com/39b9f8a0-fb26-4f46-98fd-b4636f8f88c7">IMFASFMultiplexer::GetNextPacket</a> to get the packets.
+There are too many packets waiting to be retrieved from the multiplexer. Call <a href="https://msdn.microsoft.com/39b9f8a0-fb26-4f46-98fd-b4636f8f88c7">IMFASFMultiplexer::GetNextPacket</a> to get the packets.
 
 </td>
 </tr>
@@ -128,8 +121,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 </dl>
 </td>
 <td width="60%">
-
-                The sample that was processed violates the bandwidth limitations specified for the stream in the ASF ContentInfo object. When this error is generated, the sample is dropped.
+The sample that was processed violates the bandwidth limitations specified for the stream in the ASF ContentInfo object. When this error is generated, the sample is dropped.
               
 
 </td>
@@ -141,8 +133,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 </dl>
 </td>
 <td width="60%">
-
-                The value passed in <i>wStreamNumber</i> is invalid.
+The value passed in <i>wStreamNumber</i> is invalid.
               
 
 </td>
@@ -154,8 +145,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 </dl>
 </td>
 <td width="60%">
-
-                The presentation time of the input media sample is earlier than the send time.
+The presentation time of the input media sample is earlier than the send time.
               
 
 </td>
@@ -170,8 +160,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-
-        The application passes samples to <b>ProcessSample</b>, and the ASF multiplexer queues them internally until they are ready to be placed into ASF packets. Call <a href="https://msdn.microsoft.com/39b9f8a0-fb26-4f46-98fd-b4636f8f88c7">IMFASFMultiplexer::GetNextPacket</a> to get the ASF data packet.
+The application passes samples to <b>ProcessSample</b>, and the ASF multiplexer queues them internally until they are ready to be placed into ASF packets. Call <a href="https://msdn.microsoft.com/39b9f8a0-fb26-4f46-98fd-b4636f8f88c7">IMFASFMultiplexer::GetNextPacket</a> to get the ASF data packet.
       
 
 After each call to <b>ProcessSample</b>, call <a href="https://msdn.microsoft.com/39b9f8a0-fb26-4f46-98fd-b4636f8f88c7">GetNextPacket</a> in a loop to get all of the available data packets. For a code example, see <a href="https://msdn.microsoft.com/7afa9694-c965-40e2-8549-e32ff48def2a">Generating New ASF Data Packets</a>.

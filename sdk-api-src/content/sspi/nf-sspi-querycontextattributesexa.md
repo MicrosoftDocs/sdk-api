@@ -4,10 +4,10 @@ title: QueryContextAttributesExA function
 author: windows-sdk-content
 description: Enables a transport application to query a security package for certain attributes of a security context.
 old-location: security\querycontextattributesex.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: FD91EE99-F94E-44CE-9331-933D0CAA5F75
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: QueryContextAttributesEx, QueryContextAttributesEx function [Security], QueryContextAttributesExA, QueryContextAttributesExW, SECPKG_ATTR_ACCESS_TOKEN, SECPKG_ATTR_APP_DATA, SECPKG_ATTR_AUTHORITY, SECPKG_ATTR_CLIENT_SPECIFIED_TARGET, SECPKG_ATTR_CONNECTION_INFO, SECPKG_ATTR_CREDS_2, SECPKG_ATTR_DCE_INFO, SECPKG_ATTR_EAP_KEY_BLOCK, SECPKG_ATTR_ENDPOINT_BINDINGS, SECPKG_ATTR_FLAGS, SECPKG_ATTR_ISSUER_LIST_EX, SECPKG_ATTR_KEY_INFO, SECPKG_ATTR_LAST_CLIENT_TOKEN_STATUS, SECPKG_ATTR_LIFESPAN, SECPKG_ATTR_LOCAL_CERT_CONTEXT, SECPKG_ATTR_LOCAL_CRED, SECPKG_ATTR_NAMES, SECPKG_ATTR_NATIVE_NAMES, SECPKG_ATTR_NEGOTIATION_INFO, SECPKG_ATTR_PACKAGE_INFO, SECPKG_ATTR_PASSWORD_EXPIRY, SECPKG_ATTR_REMOTE_CERT_CONTEXT, SECPKG_ATTR_ROOT_STORE, SECPKG_ATTR_SESSION_INFO, SECPKG_ATTR_SESSION_KEY, SECPKG_ATTR_SIZES, SECPKG_ATTR_STREAM_SIZES, SECPKG_ATTR_SUBJECT_SECURITY_ATTRIBUTES, SECPKG_ATTR_SUPPORTED_SIGNATURES, SECPKG_ATTR_TARGET_INFORMATION, SECPKG_ATTR_UNIQUE_BINDINGS, security.querycontextattributesex, sspi/QueryContextAttributesEx, sspi/QueryContextAttributesExA, sspi/QueryContextAttributesExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -44,7 +44,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # QueryContextAttributesExA function
@@ -273,8 +272,7 @@ This value is supported only by the Negotiate, Kerberos, and NTLM security packa
 <td width="60%">
 The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/7ef45795-f6af-4dac-a498-c6f8c915a168">SecPkgContext_Lifespan</a> structure.
 
-
-									Queries the life span of the context.
+Queries the life span of the context.
 
 </td>
 </tr>
@@ -285,8 +283,7 @@ The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.micro
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">PCCERT_CONTEXT</a>
-							structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">PCCERT_CONTEXT</a>structure.
 
 Finds a certificate context that contains a local end certificate.
 
@@ -352,8 +349,7 @@ Returns information about the security package to be used with the negotiation p
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/94c21f22-d974-4ae5-beef-d4567e6ea7e1">SecPkgContext_PackageInfo</a>
-							structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/94c21f22-d974-4ae5-beef-d4567e6ea7e1">SecPkgContext_PackageInfo</a>structure.
 
 Returns information on the SSP in use.
 
@@ -379,8 +375,7 @@ Returns password expiration information.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">PCCERT_CONTEXT</a>
-							structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">PCCERT_CONTEXT</a>structure.
 
 Finds a certificate context that contains the end certificate supplied by the server.
 
@@ -538,8 +533,7 @@ The size, in bytes, of the <i>pBuffer</i> parameter.
 
 
 
-
-						If the function succeeds, the return value is SEC_E_OK.
+If the function succeeds, the return value is SEC_E_OK.
 
 If the function fails, the return value is a nonzero error code.
 
@@ -559,7 +553,7 @@ If the function fails, the return value is a nonzero error code.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

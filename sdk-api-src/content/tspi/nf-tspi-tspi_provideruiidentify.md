@@ -4,10 +4,10 @@ title: TSPI_providerUIIdentify function
 author: windows-sdk-content
 description: The TSPI_providerUIIdentify function extracts from the service provider the fully qualified path to load the service provider's UI DLL component.
 old-location: tspi\tspi_provideruiidentify.htm
-old-project: tapi
+old-project: Tapi
 ms.assetid: 4ff4b695-8947-4ece-998c-6b443025c2d9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: TSPI_providerUIIdentify, TSPI_providerUIIdentify function [TAPI 2.2], _tspi_tspi_provideruiidentify, tspi.tspi_provideruiidentify, tspi/TSPI_providerUIIdentify
 ms.prod: windows
 ms.technology: windows-sdk

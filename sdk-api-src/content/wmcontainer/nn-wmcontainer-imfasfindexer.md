@@ -7,7 +7,7 @@ old-location: mf\imfasfindexer.htm
 old-project: medfound
 ms.assetid: 93127fe4-bca9-4674-ae21-012367d7dd2f
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: 93127fe4-bca9-4674-ae21-012367d7dd2f, IMFASFIndexer, IMFASFIndexer interface [Media Foundation], IMFASFIndexer interface [Media Foundation],described, mf.imfasfindexer, wmcontainer/IMFASFIndexer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -183,7 +183,6 @@ Sets the byte stream that contains the index entries.
 <a href="https://msdn.microsoft.com/bad10893-07af-4b46-bab1-2878553813b5">SetIndexStatus</a>
 </td>
 <td align="left" width="63%">
-
 Specifies the type of index entries that the indexer must generate for the ASF file.
 
 

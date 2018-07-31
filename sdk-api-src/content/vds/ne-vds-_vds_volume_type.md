@@ -4,10 +4,10 @@ title: "_VDS_VOLUME_TYPE"
 author: windows-sdk-content
 description: Defines the set of valid types for a volume object.
 old-location: base\vds_volume_type.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 07a44bbf-0726-4094-9b5f-2d26b0030796
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: VDS_VOLUME_TYPE, VDS_VOLUME_TYPE enumeration [VDS], VDS_VT_MIRROR, VDS_VT_PARITY, VDS_VT_SIMPLE, VDS_VT_SPAN, VDS_VT_STRIPE, VDS_VT_UNKNOWN, _VDS_VOLUME_TYPE, base.vds_volume_type, vds/VDS_VOLUME_TYPE, vds/VDS_VT_MIRROR, vds/VDS_VT_PARITY, vds/VDS_VT_SIMPLE, vds/VDS_VT_SPAN, vds/VDS_VT_STRIPE, vds/VDS_VT_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,9 +95,7 @@ The volume type is striped with parity, which accounts for RAID levels 3, 4, 5, 
 
 
 
-The  <a href="https://msdn.microsoft.com/26fea1a4-f060-49e2-a7ac-0e751f798c72">IVdsPack::CreateVolume</a>
-      method passes a <b>VDS_VOLUME_TYPE</b> value as an argument to set a new volume type, and the <a href="https://msdn.microsoft.com/3628b312-f830-4a1c-beb7-ad002a94313c">VDS_VOLUME_PROP</a>
-        structure includes a <b>VDS_VOLUME_TYPE</b> value as a member to indicate  the existing volume type.
+The  <a href="https://msdn.microsoft.com/26fea1a4-f060-49e2-a7ac-0e751f798c72">IVdsPack::CreateVolume</a>method passes a <b>VDS_VOLUME_TYPE</b> value as an argument to set a new volume type, and the <a href="https://msdn.microsoft.com/3628b312-f830-4a1c-beb7-ad002a94313c">VDS_VOLUME_PROP</a>structure includes a <b>VDS_VOLUME_TYPE</b> value as a member to indicate  the existing volume type.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_VOLUME_TYPE</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_VOLUME_TYPE</b> enumeration constant.</div>
 <div> </div>
@@ -109,8 +107,7 @@ The  <a href="https://msdn.microsoft.com/26fea1a4-f060-49e2-a7ac-0e751f798c72">I
 
 
 
-<a href="https://msdn.microsoft.com/26fea1a4-f060-49e2-a7ac-0e751f798c72">
-        IVdsPack::CreateVolume</a>
+<a href="https://msdn.microsoft.com/26fea1a4-f060-49e2-a7ac-0e751f798c72">IVdsPack::CreateVolume</a>
 
 
 
@@ -118,8 +115,7 @@ The  <a href="https://msdn.microsoft.com/26fea1a4-f060-49e2-a7ac-0e751f798c72">I
 
 
 
-<a href="https://msdn.microsoft.com/3628b312-f830-4a1c-beb7-ad002a94313c">
-        VDS_VOLUME_PROP</a>
+<a href="https://msdn.microsoft.com/3628b312-f830-4a1c-beb7-ad002a94313c">VDS_VOLUME_PROP</a>
  
 
  

@@ -4,10 +4,10 @@ title: IVdsSubSystem::GetDrive
 author: windows-sdk-content
 description: Returns the specified drive.
 old-location: base\ivdssubsystem_getdrive.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 855e9991-606c-4fcc-ba1d-ebdb928d4c3e
 ms.author: windowssdkdev
-ms.date: 05/28/2018
+ms.date: 07/29/2018
 ms.keywords: GetDrive, GetDrive method [VDS], GetDrive method [VDS],IVdsSubSystem interface, IVdsSubSystem interface [VDS],GetDrive method, IVdsSubSystem.GetDrive, IVdsSubSystem::GetDrive, base.ivdssubsystem_getdrive, vds/IVdsSubSystem::GetDrive, vdshwprv/IVdsSubSystem::GetDrive
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,8 +74,7 @@ The number of the slot the drive occupies.
 
 ### -param ppDrive [out]
 
-
-      The address of an <a href="https://msdn.microsoft.com/597917cf-fb02-4949-98c3-3da3f7449ed1">IVdsDrive</a> interface pointer. Callers 
+The address of an <a href="https://msdn.microsoft.com/597917cf-fb02-4949-98c3-3da3f7449ed1">IVdsDrive</a> interface pointer. Callers 
       must release the interface.
 
 
@@ -83,7 +82,7 @@ The number of the slot the drive occupies.
 
 
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -98,8 +97,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 </dl>
 </td>
 <td width="60%">
-
-        This return value signals a software or communication problem inside a provider that caches information about 
+This return value signals a software or communication problem inside a provider that caches information about 
         the array. Use the <a href="https://msdn.microsoft.com/aeb06a98-8896-446f-abd5-ea40be0bea40">IVdsHwProvider::Reenumerate</a> 
         method followed by the  <a href="https://msdn.microsoft.com/25ddc73c-5d1b-4bec-bbc2-9f22a5f82ffe">IVdsHwProvider::Refresh</a> 
         method to restore the cache.
@@ -139,8 +137,7 @@ The subsystem is in a failed state and is unable to perform the requested operat
 </dl>
 </td>
 <td width="60%">
-
-        Another operation is in progress; this operation cannot proceed until the previous operation or operations 
+Another operation is in progress; this operation cannot proceed until the previous operation or operations 
         are complete.
        
 
@@ -156,8 +153,7 @@ The subsystem is in a failed state and is unable to perform the requested operat
 
 
 
-
-    Because <i>sSlotNumber</i> and  <i>sBusNumber</i> identify a drive 
+Because <i>sSlotNumber</i> and  <i>sBusNumber</i> identify a drive 
     exclusively, implementers can assign arbitrary (but consistent) values to each as an internal way of identifying 
     the drives. For more information about bus and slot numbers, see the <b>sInternalBusNumber</b> and <b>sSlotNumber</b> members of the <a href="https://msdn.microsoft.com/c17f13f6-ccea-4370-84d1-b422efb63e73">VDS_DRIVE_PROP</a> structure.
 

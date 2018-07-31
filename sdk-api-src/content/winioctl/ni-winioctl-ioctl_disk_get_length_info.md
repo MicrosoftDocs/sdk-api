@@ -4,10 +4,10 @@ title: IOCTL_DISK_GET_LENGTH_INFO
 author: windows-sdk-content
 description: Retrieves the length of the specified disk, volume, or partition.
 old-location: fs\ioctl_disk_get_length_info.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: 8d4bd6e3-f0f3-40d6-b0ba-75155282f64a
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_DISK_GET_LENGTH_INFO, IOCTL_DISK_GET_LENGTH_INFO control, IOCTL_DISK_GET_LENGTH_INFO control code [Files], _win32_ioctl_disk_get_length_info, base.ioctl_disk_get_length_info, fs.ioctl_disk_get_length_info, winioctl/IOCTL_DISK_GET_LENGTH_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,13 +61,9 @@ To perform this operation, call the
 </tr>
 <tr>
 <td>
-<pre>
-BOOL DeviceIoControl(
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,              // handle to device
-  IOCTL_DISK_GET_LENGTH_INFO,    // dwIoControlCode
-  NULL,                          // lpInBuffer
-  0,                             // nInBufferSize
-  (LPVOID) lpOutBuffer,          // output buffer
+  IOCTL_DISK_GET_LENGTH_INFO,    // dwIoControlCodeNULL,                          // lpInBuffer0,                             // nInBufferSize(LPVOID) lpOutBuffer,          // output buffer
   (DWORD) nOutBufferSize,        // size of output buffer
   (LPDWORD) lpBytesReturned,     // number of bytes returned
   (LPOVERLAPPED) lpOverlapped    // OVERLAPPED structure

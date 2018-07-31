@@ -4,10 +4,10 @@ title: LPWSPSTRINGTOADDRESS
 author: windows-sdk-content
 description: The WSPStringToAddress function converts a human-readable numeric string to a socket address structure (sockaddr) suitable to passing to Windows Sockets routines that take such a structure.
 old-location: winsock\wspstringtoaddress_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 65cf8f7e-7ef0-472c-82d8-e8f7df9976a9
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: LPWSPSTRINGTOADDRESS, WSPStringToAddress, WSPStringToAddress function [Winsock], _win32_wspstringtoaddress_2, winsock.wspstringtoaddress_2, ws2spi/WSPStringToAddress
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>WSPStringToAddress</b> function converts a human-readable numeric string to a socket address structure (<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a>) suitable to passing to Windows Sockets routines that take such a structure. Any missing components of the address are defaulted to a reasonable value, if possible. For example, a missing port number  defaults to zero.
 
 
@@ -85,7 +84,7 @@ Buffer that is filled with a single
 
 ### -param lpAddressLength [in, out]
 
-Length of the Address buffer, in bytes. Returns the size of the resultant <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure. If the supplied buffer is not large enough, the function fails with a specific error of <a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a> and this parameter is updated with the required size in bytes.
+Length of the Address buffer, in bytes. Returns the size of the resultant <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">sockaddr</a> structure. If the supplied buffer is not large enough, the function fails with a specific error of <a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a> and this parameter is updated with the required size in bytes.
 
 
 ### -param lpErrno [out]
@@ -97,8 +96,7 @@ Pointer to the error code.
 
 
 
-
-						If no error occurs, 
+If no error occurs, 
 <b>WSPStringToAddress</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>.
 
 <table>
@@ -109,7 +107,7 @@ Pointer to the error code.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -120,7 +118,7 @@ The specified address buffer is too small, pass in a larger buffer.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">

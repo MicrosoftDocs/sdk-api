@@ -4,10 +4,10 @@ title: ITaskHandlerStatus::TaskCompleted
 author: windows-sdk-content
 description: Tells the Task Scheduler that the COM handler is completed.
 old-location: taskschd\itaskhandlerstatus_taskcompleted.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: e6f7adf5-3cdb-4691-bc0a-682df7f019e2
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: ITaskHandlerStatus interface [Task Scheduler],TaskCompleted method, ITaskHandlerStatus.TaskCompleted, ITaskHandlerStatus::TaskCompleted, TaskCompleted, TaskCompleted method [Task Scheduler], TaskCompleted method [Task Scheduler],ITaskHandlerStatus interface, taskschd.itaskhandlerstatus_taskcompleted, taskschd/ITaskHandlerStatus::TaskCompleted
 ms.prod: windows
 ms.technology: windows-sdk

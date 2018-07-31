@@ -7,7 +7,7 @@ old-location: wsw\wsreadenvelopeend.htm
 old-project: wsw
 ms.assetid: 1252fa10-d19a-4335-8dc5-f230141eef79
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsReadEnvelopeEnd, WsReadEnvelopeEnd function [Web Services for Windows], webservices/WsReadEnvelopeEnd, wsw.wsreadenvelopeend
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,8 +64,7 @@ Reads the closing elements of a message.
 
 ### -param message [in]
 
-
-                    A pointer to the <b>Message</b> object read.  The pointer must reference a valid <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a>.
+A pointer to the <b>Message</b> object read.  The pointer must reference a valid <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a>.
                 
                 
 
@@ -94,7 +93,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>
@@ -106,7 +104,6 @@ The input data was not in the expected format or did not have the expected value
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>
@@ -118,7 +115,6 @@ Ran out of memory.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -144,8 +140,7 @@ This function may return other errors not listed above.
 
 
 
-
-                The message state must be <b>WS_MESSAGE_STATE_READING</b>.  If called in the correct
+The message state must be <b>WS_MESSAGE_STATE_READING</b>.  If called in the correct
                 state the message state is set to  <b>WS_MESSAGE_STATE_DONE</b> regardless
                 of function success or failure.
             

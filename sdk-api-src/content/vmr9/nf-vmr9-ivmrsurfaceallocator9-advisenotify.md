@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocator9_advisenotify.htm
 old-project: DirectShow
 ms.assetid: 2c367444-50bf-4fbe-b2d9-ed32275576e9
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: AdviseNotify, AdviseNotify method [DirectShow], AdviseNotify method [DirectShow],IVMRSurfaceAllocator9 interface, IVMRSurfaceAllocator9 interface [DirectShow],AdviseNotify method, IVMRSurfaceAllocator9.AdviseNotify, IVMRSurfaceAllocator9::AdviseNotify, IVMRSurfaceAllocator9AdviseNotify, dshow.ivmrsurfaceallocator9_advisenotify, vmr9/IVMRSurfaceAllocator9::AdviseNotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,8 +102,7 @@ The method succeeded.
 
 
 
-
-        Include DShow.h and D3d9.h before Vmr9.h.
+Include DShow.h and D3d9.h before Vmr9.h.
       
 
 

@@ -4,10 +4,10 @@ title: "_DISCDLGSTRUCTA"
 author: windows-sdk-content
 description: Used in the WNetDisconnectDialog1 function. The structure contains required information for the disconnect attempt.
 old-location: wnet\discdlgstruct_str.htm
-old-project: wnet
+old-project: WNet
 ms.assetid: ae415815-f247-4217-a4f1-6a7ca9288890
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPDISCDLGSTRUCTA, DISCDLGSTRUCT, DISCDLGSTRUCT structure [Windows Networking (WNet)], DISCDLGSTRUCTA, DISCDLGSTRUCTW, DISC_NO_FORCE, DISC_UPDATE_PROFILE, LPDISCDLGSTRUCT, LPDISCDLGSTRUCT structure pointer [Windows Networking (WNet)], _DISCDLGSTRUCTA, _win32_discdlgstruct_str, winnetwk/DISCDLGSTRUCT, winnetwk/DISCDLGSTRUCTA, winnetwk/DISCDLGSTRUCTW, winnetwk/LPDISCDLGSTRUCT, wnet.discdlgstruct_str"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mf\iwmvideodecoderhurryupinterface.htm
 old-project: medfound
 ms.assetid: 5e33be5f-5ce8-4f4f-94db-4be2dfcaeec0
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: IWMVideoDecoderHurryup, IWMVideoDecoderHurryup interface [Media Foundation], IWMVideoDecoderHurryup interface [Media Foundation],described, codecapi.iwmvideodecoderhurryupinterface, mf.iwmvideodecoderhurryup, mf.iwmvideodecoderhurryupinterface, wmcodecdsp/IWMVideoDecoderHurryup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Controls the speed of the video decoder.
 
 
 
-This interface is implemented by the video decoder objects. You can obtain a pointer to <a href="https://msdn.microsoft.com/library/Ff819262(v=VS.85).aspx">IWMVideoDecoderHurryup</a> by calling the <b>QueryInterface</b> method of any other interface of the decoder, such as <a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject</a> or <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a>
+This interface is implemented by the video decoder objects. You can obtain a pointer to <a href="mf.iwmvideodecoderhurryup">IWMVideoDecoderHurryup</a> by calling the <b>QueryInterface</b> method of any other interface of the decoder, such as <a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject</a> or <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a>
 
 
 

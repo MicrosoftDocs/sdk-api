@@ -7,7 +7,7 @@ old-location: winsync\icorefragmentinspector_reset.htm
 old-project: winsync
 ms.assetid: 57621ce0-c484-4687-9f2f-98d285b041ca
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: ICoreFragmentInspector interface [Windows Sync],Reset method, ICoreFragmentInspector.Reset, ICoreFragmentInspector::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],ICoreFragmentInspector interface, winsync.icorefragmentinspector_reset, winsync/ICoreFragmentInspector::Reset
 ms.prod: windows
 ms.technology: windows-sdk

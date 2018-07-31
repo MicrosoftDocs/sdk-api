@@ -4,10 +4,10 @@ title: GetThemeSysFont function
 author: windows-sdk-content
 description: Retrieves the LOGFONT of a system font.
 old-location: controls\GetThemeSysFont.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysfont.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetThemeSysFont, GetThemeSysFont function [Windows Controls], TMT_CAPTIONFONT, TMT_ICONTITLEFONT, TMT_MENUFONT, TMT_MSGBOXFONT, TMT_SMALLCAPTIONFONT, TMT_STATUSFONT, controls.GetThemeSysFont, controls.inet_GetThemeSysFont, inet_GetThemeSysFont, inet_GetThemeSysFont_cpp, uxtheme/GetThemeSysFont
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard_conclude.htm
 old-project: UIAnimation
 ms.assetid: 82f915df-c031-41e9-8347-044b37793182
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: Conclude, Conclude method [Windows Animation], Conclude method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],Conclude method, IUIAnimationStoryboard.Conclude, IUIAnimationStoryboard::Conclude, uianimation.iuianimationstoryboard_conclude, uianimation/IUIAnimationStoryboard::Conclude
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,8 +100,7 @@ If this method is called  at the end  of a keyframe loop iteration, the loop is 
 
 
 
-<a href="https://msdn.microsoft.com/b47d4ffd-ae51-40e7-8f91-9d7b7b2901c8">
-      IUIAnimationStoryboard::Schedule</a>
+<a href="https://msdn.microsoft.com/b47d4ffd-ae51-40e7-8f91-9d7b7b2901c8">IUIAnimationStoryboard::Schedule</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: gdi\resetdc.htm
 old-project: gdi
 ms.assetid: 3f77db51-90d1-4a87-812b-1e129ae8fde9
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: ResetDC, ResetDC function [Windows GDI], ResetDCA, ResetDCW, _win32_ResetDC, gdi.resetdc, wingdi/ResetDC, wingdi/ResetDCA, wingdi/ResetDCW
 ms.prod: windows
 ms.technology: windows-sdk

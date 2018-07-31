@@ -7,7 +7,7 @@ old-location: dshow\ivmrdeinterlacecontrol_getnumberofdeinterlacemodes.htm
 old-project: DirectShow
 ms.assetid: 0e6abb00-95fb-453d-9427-178058b217b8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: GetNumberOfDeinterlaceModes, GetNumberOfDeinterlaceModes method [DirectShow], GetNumberOfDeinterlaceModes method [DirectShow],IVMRDeinterlaceControl interface, IVMRDeinterlaceControl interface [DirectShow],GetNumberOfDeinterlaceModes method, IVMRDeinterlaceControl.GetNumberOfDeinterlaceModes, IVMRDeinterlaceControl::GetNumberOfDeinterlaceModes, IVMRDeinterlaceControlGetNumberOfDeinterlaceModes, dshow.ivmrdeinterlacecontrol_getnumberofdeinterlacemodes, strmif/IVMRDeinterlaceControl::GetNumberOfDeinterlaceModes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -147,8 +147,7 @@ All drivers are required to support the following mode:
 <table>
 <tr>
 <th><b>GUID</b></th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>

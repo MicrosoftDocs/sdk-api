@@ -7,7 +7,7 @@ old-location: winsync\ienumfeedclockvector_skip.htm
 old-project: winsync
 ms.assetid: eabe3389-2c1f-4b0e-a062-24bbe3fa87f9
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IEnumFeedClockVector interface [Windows Sync],Skip method, IEnumFeedClockVector.Skip, IEnumFeedClockVector::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumFeedClockVector interface, winsync.ienumfeedclockvector_skip, winsync/IEnumFeedClockVector::Skip
 ms.prod: windows
 ms.technology: windows-sdk

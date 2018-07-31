@@ -7,7 +7,7 @@ old-location: xps\ixpsompath.htm
 old-project: printdocs
 ms.assetid: 93257a77-3fef-400e-bfe1-06e760ba4b93
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], IXpsOMPath interface [XPS Documents and Packaging],described, xps.ixpsompath, xpsobjectmodel/IXpsOMPath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,8 +101,7 @@ Gets the short textual description of the object's contents.
 <a href="https://msdn.microsoft.com/fc121659-c04f-433a-aaf7-ab7ecd1fd763">GetFillBrush</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the resolved <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface that contains the fill brush for the path.
+Gets a pointer to the resolved <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface that contains the fill brush for the path.
             
 
 </td>
@@ -112,8 +111,7 @@ Gets the short textual description of the object's contents.
 <a href="https://msdn.microsoft.com/5c5a7150-19d6-40aa-871b-5600c0b0a947">GetFillBrushLocal</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the local, unshared <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface that contains the fill brush for the path.
+Gets a pointer to the local, unshared <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface that contains the fill brush for the path.
             
 
 </td>
@@ -132,8 +130,7 @@ Gets the lookup key of the brush that is stored in a resource dictionary and use
 <a href="https://msdn.microsoft.com/c4a99bf6-09d8-426a-8878-1126578c4518">GetGeometry</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the path's <a href="https://msdn.microsoft.com/d3f74c1e-49ef-40ee-a2f4-b6d198b57624">IXpsOMGeometry</a> interface, which describes the  resolved fill area for this path.
+Gets a pointer to the path's <a href="https://msdn.microsoft.com/d3f74c1e-49ef-40ee-a2f4-b6d198b57624">IXpsOMGeometry</a> interface, which describes the  resolved fill area for this path.
             
 
 </td>
@@ -170,8 +167,7 @@ Gets a Boolean value that indicates whether the path is to  be snapped to device
 <a href="https://msdn.microsoft.com/dbf786b0-5603-4735-8770-4c5e17a67253">GetStrokeBrush</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the resolved <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface that contains the stroke brush that has been set for the path.
+Gets a pointer to the resolved <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface that contains the stroke brush that has been set for the path.
             
 
 </td>
@@ -181,8 +177,7 @@ Gets a Boolean value that indicates whether the path is to  be snapped to device
 <a href="https://msdn.microsoft.com/cf816750-8381-4c04-af20-e5ce3f8ad63c">GetStrokeBrushLocal</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the local, unshared <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface that contains the stroke brush for the path.
+Gets a pointer to the local, unshared <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface that contains the stroke brush for the path.
             
 
 </td>
@@ -210,8 +205,7 @@ Gets the style of the end cap to be used on the stroke dash.
 <a href="https://msdn.microsoft.com/60c76c8f-1434-4347-9639-a886d6ae133c">GetStrokeDashes</a>
 </td>
 <td align="left" width="63%">
-
-              Gets a pointer to the <a href="https://msdn.microsoft.com/02a152a1-e117-42fb-8428-a2b28e6540a9">IXpsOMDashCollection</a> interface that contains the <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structures that  define the dash pattern of the stroke.
+Gets a pointer to the <a href="https://msdn.microsoft.com/02a152a1-e117-42fb-8428-a2b28e6540a9">IXpsOMDashCollection</a> interface that contains the <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structures that  define the dash pattern of the stroke.
             
 
 </td>
@@ -293,8 +287,7 @@ Sets the short textual description of the object's contents.
 <a href="https://msdn.microsoft.com/ddec7d68-16a5-4c34-87c1-6a5de97aaa0c">SetFillBrushLocal</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the pointer to the local, unshared <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface to be used as the fill brush.
+Sets the pointer to the local, unshared <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface to be used as the fill brush.
             
 
 </td>
@@ -313,8 +306,7 @@ Sets the lookup key name of a shared brush in a resource dictionary, to be used 
 <a href="https://msdn.microsoft.com/32657c0d-3be5-466c-98a7-6bbd46f710d1">SetGeometryLocal</a>
 </td>
 <td align="left" width="63%">
-
-              Sets the pointer to the local, unshared <a href="https://msdn.microsoft.com/d3f74c1e-49ef-40ee-a2f4-b6d198b57624">IXpsOMGeometry</a> interface that contains the  geometry of the resolved fill area to be set for this path.
+Sets the pointer to the local, unshared <a href="https://msdn.microsoft.com/d3f74c1e-49ef-40ee-a2f4-b6d198b57624">IXpsOMGeometry</a> interface that contains the  geometry of the resolved fill area to be set for this path.
             
 
 </td>
@@ -342,8 +334,7 @@ Sets a Boolean value that indicates whether the path will be snapped to device p
 <a href="https://msdn.microsoft.com/551bc4e2-2bf3-455b-a7f1-35b3b66697c0">SetStrokeBrushLocal</a>
 </td>
 <td align="left" width="63%">
-
-              Sets a pointer to a local, unshared <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface to be used as a stroke brush.
+Sets a pointer to a local, unshared <a href="https://msdn.microsoft.com/43cb56db-e09e-47cb-b50b-7827131659fd">IXpsOMBrush</a> interface to be used as a stroke brush.
             
 
 </td>

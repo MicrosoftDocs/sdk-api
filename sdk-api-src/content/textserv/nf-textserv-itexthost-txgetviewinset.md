@@ -4,10 +4,10 @@ title: ITextHost::TxGetViewInset
 author: windows-sdk-content
 description: Requests the dimensions of the white space inset around the text in the text host window.
 old-location: controls\ITextHost_TxGetViewInset.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetviewinset.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetViewInset method, ITextHost.TxGetViewInset, ITextHost::TxGetViewInset, TxGetViewInset, TxGetViewInset method [Windows Controls], TxGetViewInset method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetViewInset, _win32_ITextHost_TxGetViewInset_cpp, controls.ITextHost_TxGetViewInset, controls._win32_ITextHost_TxGetViewInset, textserv/ITextHost::TxGetViewInset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,11 +102,11 @@ The view inset is available from the host at all times, active or inactive.
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls Overview</a>
+<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls Overview</a>
  
 
  

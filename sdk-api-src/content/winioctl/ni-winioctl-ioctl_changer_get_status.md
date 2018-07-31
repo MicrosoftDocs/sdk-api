@@ -4,10 +4,10 @@ title: IOCTL_CHANGER_GET_STATUS
 author: windows-sdk-content
 description: Retrieves the current status of the specified device.
 old-location: base\ioctl_changer_get_status.htm
-old-project: devio
+old-project: DevIO
 ms.assetid: 6073230e-0ee7-40be-8fb5-1dd90c01de10
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IOCTL_CHANGER_GET_STATUS, IOCTL_CHANGER_GET_STATUS control, IOCTL_CHANGER_GET_STATUS control code, _win32_ioctl_changer_get_status, base.ioctl_changer_get_status, winioctl/IOCTL_CHANGER_GET_STATUS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,12 +62,7 @@ To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087
 <tr>
 <td>
 <pre>BOOL DeviceIoControl( (HANDLE) hDevice,              // handle to device
-                      IOCTL_CHANGER_GET_STATUS,      // dwIoControlCode
-                      NULL,                          // lpInBuffer
-                      0,                             // nInBufferSize
-                      NULL,                          // lpOutBuffer
-                      0,                             // nOutBufferSize
-                      (LPDWORD) lpBytesReturned,     // number of bytes returned
+                      IOCTL_CHANGER_GET_STATUS,      // dwIoControlCodeNULL,                          // lpInBuffer0,                             // nInBufferSizeNULL,                          // lpOutBuffer0,                             // nOutBufferSize(LPDWORD) lpBytesReturned,     // number of bytes returned
                       (LPOVERLAPPED) lpOverlapped ); // OVERLAPPED structure</pre>
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: wsw\wswritequalifiedname.htm
 old-project: wsw
 ms.assetid: 1e0f6419-ef76-4465-bd1d-a92f4bf11903
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsWriteQualifiedName, WsWriteQualifiedName function [Web Services for Windows], webservices/WsWriteQualifiedName, wsw.wswritequalifiedname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,16 +62,13 @@ Writes an XML qualified name to the Writer.
 
 ### -param writer [in]
 
-
-                    
-                    A pointer to the <a href="https://msdn.microsoft.com/8f413e60-8a30-492c-8f2d-80be511fee11">WS_XML_WRITER</a> object to which the qualified name is written.  The pointer must reference a valid <b>XML Writer</b> object.
+A pointer to the <a href="https://msdn.microsoft.com/8f413e60-8a30-492c-8f2d-80be511fee11">WS_XML_WRITER</a> object to which the qualified name is written.  The pointer must reference a valid <b>XML Writer</b> object.
                 
 
 
 ### -param prefix [in, optional]
 
-
-          A WS_XML_STRING pointer to the prefix used by the qualified name.  If the value referenced by this parameter is <b>NULL</b> the Writer will choose a prefix.
+A WS_XML_STRING pointer to the prefix used by the qualified name.  If the value referenced by this parameter is <b>NULL</b> the Writer will choose a prefix.
         
 
 
@@ -116,7 +113,6 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
 One or more arguments are invalid.
 
 </td>
@@ -128,7 +124,6 @@ One or more arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-
 The input data was not in the expected format or did not have the expected value.
 
 </td>

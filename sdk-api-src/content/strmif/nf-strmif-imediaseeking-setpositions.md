@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking_setpositions.htm
 old-project: DirectShow
 ms.assetid: aa1369fd-a57a-4246-bb23-969f6ce3cad8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IMediaSeeking interface [DirectShow],SetPositions method, IMediaSeeking.SetPositions, IMediaSeeking::SetPositions, IMediaSeekingSetPositions, SetPositions, SetPositions method [DirectShow], SetPositions method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_setpositions, strmif/IMediaSeeking::SetPositions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -163,11 +163,9 @@ The <i>dwCurrentFlags</i> and <i>dwStopFlags</i> parameters define the type of s
 
 <table>
 <tr>
-<th>
-              Positioning Flags
+<th>Positioning Flags
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>
@@ -191,11 +189,9 @@ The <i>dwCurrentFlags</i> and <i>dwStopFlags</i> parameters define the type of s
 
 <table>
 <tr>
-<th>
-              Modifier Flags
+<th>Modifier Flags
             </th>
-<th>
-              Description
+<th>Description
             </th>
 </tr>
 <tr>

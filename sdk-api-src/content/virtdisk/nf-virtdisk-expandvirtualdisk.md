@@ -7,7 +7,7 @@ old-location: vhd\expandvirtualdisk.htm
 old-project: VStor
 ms.assetid: 96d1b603-c019-4868-9b81-3a5628fbb50c
 ms.author: windowssdkdev
-ms.date: 05/30/2018
+ms.date: 07/29/2018
 ms.keywords: ExpandVirtualDisk, ExpandVirtualDisk function [VHD], vdssys/ExpandVirtualDisk, vhd.expandvirtualdisk, virtdisk/ExpandVirtualDisk
 ms.prod: windows
 ms.technology: windows-sdk

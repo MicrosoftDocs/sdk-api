@@ -7,7 +7,7 @@ old-location: wsw\wsremovecustomheader.htm
 old-project: wsw
 ms.assetid: def38214-2de9-4a26-93cb-e2f34d8dd6ef
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsRemoveCustomHeader, WsRemoveCustomHeader function [Web Services for Windows], webservices/WsRemoveCustomHeader, wsw.wsremovecustomheader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,18 +71,12 @@ A pointer to the <b>Message</b> object with the header  to be removed.
 
 ### -param headerName [in]
 
-
-          
-                    
-                    A pointer to the <a href="https://msdn.microsoft.com/3daa656f-7f97-4e29-a556-7ff72206f01c">WS_XML_STRING</a> object that references the "local name" of the header element to be  removed.
+A pointer to the <a href="https://msdn.microsoft.com/3daa656f-7f97-4e29-a556-7ff72206f01c">WS_XML_STRING</a> object that references the "local name" of the header element to be  removed.
 
 
 ### -param headerNs [in]
 
-
-          
-                    
-                    A pointer to the <a href="https://msdn.microsoft.com/3daa656f-7f97-4e29-a556-7ff72206f01c">WS_XML_STRING</a> object that references the namespace of the header element to be removed.
+A pointer to the <a href="https://msdn.microsoft.com/3daa656f-7f97-4e29-a556-7ff72206f01c">WS_XML_STRING</a> object that references the namespace of the header element to be removed.
 
 
 ### -param error [in, optional]
@@ -109,8 +103,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    There are multiple instances of the type of header present in the message.
+There are multiple instances of the type of header present in the message.
 
 </td>
 </tr>
@@ -121,8 +114,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    There was not enough memory available to serialize the header.
+There was not enough memory available to serialize the header.
 
 </td>
 </tr>
@@ -133,8 +125,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-
-                    One or more of the parameters are incorrect.
+One or more of the parameters are incorrect.
 
 </td>
 </tr>
@@ -159,8 +150,7 @@ This function may return other errors not listed above.
 
 
 
-
-                If a header of the given type exists in the message it is removed.  If the header does not exist, the function takes no action and completes successfully.
+If a header of the given type exists in the message it is removed.  If the header does not exist, the function takes no action and completes successfully.
 
 
 

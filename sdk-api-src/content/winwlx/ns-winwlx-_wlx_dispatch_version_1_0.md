@@ -4,10 +4,10 @@ title: "_WLX_DISPATCH_VERSION_1_0"
 author: windows-sdk-content
 description: Defines the format of the Winlogon version 1.0 function dispatch table passed to your GINA DLL in the WlxInitialize call.
 old-location: security\wlx_dispatch_version_1_0.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 13b08978-5112-44d8-ae41-207e0040eb73
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: "*PWLX_DISPATCH_VERSION_1_0, PWLX_DISPATCH_VERSION_1_0, PWLX_DISPATCH_VERSION_1_0 structure pointer [Security], WLX_DISPATCH_VERSION_1_0, WLX_DISPATCH_VERSION_1_0 structure [Security], _WLX_DISPATCH_VERSION_1_0, _gina_wlx_dispatch_version_1_0, security.wlx_dispatch_version_1_0, winwlx/PWLX_DISPATCH_VERSION_1_0, winwlx/WLX_DISPATCH_VERSION_1_0"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 <p class="CCE_Message">[The WLX_DISPATCH_VERSION_1_0 structure is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-
-			The <b>WLX_DISPATCH_VERSION_1_0</b> structure defines the format of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a> version 1.0 function dispatch table passed to your <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL in the 
+The <b>WLX_DISPATCH_VERSION_1_0</b> structure defines the format of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn927313">Winlogon</a> version 1.0 function dispatch table passed to your <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL in the 
 <a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a> call.
 
 This dispatch table is used if your GINA DLL specifies version 1.0 in its implementation of 

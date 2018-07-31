@@ -7,7 +7,7 @@ old-location: winmsg\broadcastsystemmessage.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\broadcastsystemmessage.htm
 ms.author: windowssdkdev
-ms.date: 07/09/2018
+ms.date: 07/29/2018
 ms.keywords: BSF_ALLOWSFW, BSF_FLUSHDISK, BSF_FORCEIFHUNG, BSF_IGNORECURRENTTASK, BSF_NOHANG, BSF_NOTIMEOUTIFNOTHUNG, BSF_POSTMESSAGE, BSF_QUERY, BSF_SENDNOTIFYMESSAGE, BSM_ALLCOMPONENTS, BSM_ALLDESKTOPS, BSM_APPLICATIONS, BroadcastSystemMessage, BroadcastSystemMessage function [Windows and Messages], BroadcastSystemMessageW, _win32_BroadcastSystemMessage, _win32_broadcastsystemmessage_cpp, winmsg.broadcastsystemmessage, winui._win32_broadcastsystemmessage, winuser/BroadcastSystemMessage, winuser/BroadcastSystemMessageW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,12 +52,11 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			Sends a message to the specified recipients. The recipients can be applications, installable drivers, network drivers, system-level device drivers, or any combination of these system components. 
+Sends a message to the specified recipients. The recipients can be applications, installable drivers, network drivers, system-level device drivers, or any combination of these system components. 
 
 			
 
-To receive additional information if the request is defined, use the <a href="https://msdn.microsoft.com/library/ms644933(v=VS.85).aspx">BroadcastSystemMessageEx</a> function.
+To receive additional information if the request is defined, use the <a href="https://msdn.microsoft.com/bfc9f836-7960-4249-98c9-1c73b7641f77">BroadcastSystemMessageEx</a> function.
 
 
 ## -parameters
@@ -200,7 +199,7 @@ Sends the message to one recipient at a time, sending to a subsequent recipient 
 </dl>
 </td>
 <td width="60%">
- Sends the message using <a href="https://msdn.microsoft.com/library/ms644953(v=VS.85).aspx">SendNotifyMessage</a> function. Do not use in combination with <b>BSF_QUERY</b>.
+ Sends the message using <a href="https://msdn.microsoft.com/08767153-34f5-4d31-9705-5a1862b9dd10">SendNotifyMessage</a> function. Do not use in combination with <b>BSF_QUERY</b>.
 
 </td>
 </tr>
@@ -269,7 +268,7 @@ Type: <b>UINT</b>
 
 The message to be sent. 
 
-For lists of the system-provided messages, see <a href="https://msdn.microsoft.com/library/ms644927(v=VS.85).aspx">System-Defined Messages</a>.
+For lists of the system-provided messages, see <a href="about_messages_and_message_queues.htm">System-Defined Messages</a>.
 
 
 ## -returns
@@ -294,12 +293,12 @@ If the <i>dwFlags</i> parameter is <b>BSF_QUERY</b> and at least one recipient r
 
 If <b>BSF_QUERY</b> is not specified, the function sends the specified message to all requested recipients, ignoring values returned by those recipients.
 
-The system only does marshalling for system messages (those in the range 0 to (<a href="https://msdn.microsoft.com/library/ms644931(v=VS.85).aspx">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
+The system only does marshalling for system messages (those in the range 0 to (<a href="https://msdn.microsoft.com/4115c587-fcb4-4170-9948-fe33bcb8742a">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/library/ms686722(v=VS.85).aspx">Terminating a Process</a>.
+For an example, see <a href="_win32_Terminating_a_Process">Terminating a Process</a>.
 
 <div class="code"></div>
 
@@ -310,7 +309,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms686722(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644933(v=VS.85).aspx">BroadcastSystemMessageEx</a>
+<a href="https://msdn.microsoft.com/bfc9f836-7960-4249-98c9-1c73b7641f77">BroadcastSystemMessageEx</a>
 
 
 
@@ -318,7 +317,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms686722(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/885bb607-3ec0-4e24-9f55-fbdfb1c538a1">Messages and Message Queues</a>
 
 
 
@@ -326,7 +325,7 @@ For an example, see <a href="https://msdn.microsoft.com/library/ms686722(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/library/ms644953(v=VS.85).aspx">SendNotifyMessage</a>
+<a href="https://msdn.microsoft.com/08767153-34f5-4d31-9705-5a1862b9dd10">SendNotifyMessage</a>
  
 
  

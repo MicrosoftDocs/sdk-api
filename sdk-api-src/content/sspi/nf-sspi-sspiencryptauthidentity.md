@@ -4,10 +4,10 @@ title: SspiEncryptAuthIdentity function
 author: windows-sdk-content
 description: Encrypts the specified identity structure.
 old-location: security\sspiencryptauthidentity.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 4460f7ec-35fd-4ad1-8c20-dda9f4d3477a
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: SspiEncryptAuthIdentity, SspiEncryptAuthIdentity function [Security], security.sspiencryptauthidentity, sspi/SspiEncryptAuthIdentity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -42,7 +42,6 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
-req.product: Outlook Express 6.0
 ---
 
 # SspiEncryptAuthIdentity function
@@ -68,8 +67,7 @@ On input, the identity structure to encrypt. On output, the encrypted identity s
 
 
 
-
-						If the function succeeds, it returns <b>SEC_E_OK</b>.
+If the function succeeds, it returns <b>SEC_E_OK</b>.
 
 If the function fails, it returns a nonzero error code.
 

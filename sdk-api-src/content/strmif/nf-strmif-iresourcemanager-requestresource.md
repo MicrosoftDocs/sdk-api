@@ -7,7 +7,7 @@ old-location: dshow\iresourcemanager_requestresource.htm
 old-project: DirectShow
 ms.assetid: b52dc38a-9246-4cef-ba1a-cf1927223183
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IResourceManager interface [DirectShow],RequestResource method, IResourceManager.RequestResource, IResourceManager::RequestResource, IResourceManagerRequestResource, RequestResource, RequestResource method [DirectShow], RequestResource method [DirectShow],IResourceManager interface, dshow.iresourcemanager_requestresource, strmif/IResourceManager::RequestResource
 ms.prod: windows
 ms.technology: windows-sdk

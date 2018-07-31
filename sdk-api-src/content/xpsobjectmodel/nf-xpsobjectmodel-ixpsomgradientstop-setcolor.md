@@ -7,7 +7,7 @@ old-location: xps\ixpsomgradientstop_setcolor.htm
 old-project: printdocs
 ms.assetid: 535b14f3-6d17-4c3c-b310-b018922d48e8
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IXpsOMGradientStop interface [XPS Documents and Packaging],SetColor method, IXpsOMGradientStop.SetColor, IXpsOMGradientStop::SetColor, SetColor, SetColor method [XPS Documents and Packaging], SetColor method [XPS Documents and Packaging],IXpsOMGradientStop interface, xps.ixpsomgradientstop_setcolor, xpsobjectmodel/IXpsOMGradientStop::SetColor
 ms.prod: windows
 ms.technology: windows-sdk

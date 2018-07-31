@@ -4,10 +4,10 @@ title: fd_set
 author: windows-sdk-content
 description: Fd_set structure is used by Windows Sockets (Winsock) functions and service providers to place sockets into a set.
 old-location: winsock\fd_set_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 2af5d69d-190e-4814-8d8b-438431808625
 ms.author: windowssdkdev
-ms.date: 07/18/2018
+ms.date: 07/29/2018
 ms.keywords: "*LPFD_SET, *PFD_SET, FD_SET, _win32_fd_set_2, fd_set, fd_set structure [Winsock], winsock.fd_set_2, winsock/fd_set"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-
-			The 
+The 
 <b>fd_set</b> structure is used by various Windows Sockets functions and service providers, such as the 
 <a href="https://msdn.microsoft.com/f9f1092d-7e15-41cd-a42f-abe8a4f33e15">select</a> function, to place sockets into a "set" for various purposes, such as testing a given socket for readability using the <i>readfds</i> parameter of the 
 <b>select</b> function.

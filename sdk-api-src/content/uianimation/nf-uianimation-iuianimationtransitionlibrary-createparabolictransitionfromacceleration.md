@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary_createparabolictransitio
 old-project: UIAnimation
 ms.assetid: 96dd5287-36b1-4620-88ae-a52b252620d2
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateParabolicTransitionFromAcceleration, CreateParabolicTransitionFromAcceleration method [Windows Animation], CreateParabolicTransitionFromAcceleration method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateParabolicTransitionFromAcceleration method, IUIAnimationTransitionLibrary.CreateParabolicTransitionFromAcceleration, IUIAnimationTransitionLibrary::CreateParabolicTransitionFromAcceleration, uianimation.iuianimationtransitionlibrary_createparabolictransitionfromacceleration, uianimation/IUIAnimationTransitionLibrary::CreateParabolicTransitionFromAcceleration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates a parabolic-acceleration transition.
+Creates a parabolic-acceleration transition.
 
 
 ## -parameters
@@ -62,8 +61,7 @@ req.product: Windows XP with SP1 and later
 
 ### -param finalValue [in]
 
-
-               The value of the animation variable at the end of the transition.
+The value of the animation variable at the end of the transition.
 
 
 ### -param finalVelocity [in]
@@ -73,15 +71,12 @@ The velocity at the end of the transition.
 
 ### -param acceleration [in]
 
-
-                
-            The acceleration during the transition.
+The acceleration during the transition.
 
 
 ### -param transition [out]
 
-
-               The new parabolic-acceleration transition.
+The new parabolic-acceleration transition.
 
 
 ## -returns
@@ -97,8 +92,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 
-
-         During a parabolic-acceleration transition, the value of the animation variable changes from the  initial value to the final value ending at the specified velocity.  You can control how quickly the variable reaches the final value by specifying the rate of acceleration.
+During a parabolic-acceleration transition, the value of the animation variable changes from the  initial value to the final value ending at the specified velocity.  You can control how quickly the variable reaches the final value by specifying the rate of acceleration.
 
 The figure below shows the effect on an animation variable over time during a parabolic-acceleration transition.
 

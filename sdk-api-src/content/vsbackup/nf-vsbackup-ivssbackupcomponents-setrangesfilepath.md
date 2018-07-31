@@ -4,10 +4,10 @@ title: IVssBackupComponents::SetRangesFilePath
 author: windows-sdk-content
 description: The SetRangesFilePath method is used when a partial file operation requires a ranges file, and that file has been restored to a location other than its original one.
 old-location: base\ivssbackupcomponents_setrangesfilepath.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 170f9ea0-4846-49d4-ab06-eb1ce580e827
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetRangesFilePath method, IVssBackupComponents.SetRangesFilePath, IVssBackupComponents::SetRangesFilePath, SetRangesFilePath, SetRangesFilePath method [VSS], SetRangesFilePath method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setrangesfilepath, base.ivssbackupcomponents_setrangesfilepath, vsbackup/IVssBackupComponents::SetRangesFilePath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -195,8 +195,7 @@ The XML document is not valid. Check the event log for details. For more informa
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

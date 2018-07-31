@@ -4,10 +4,10 @@ title: "_STORAGE_DEVICE_DESCRIPTOR"
 author: windows-sdk-content
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY control code to retrieve the storage device descriptor data for a device.
 old-location: fs\storage_device_descriptor.htm
-old-project: fileio
+old-project: FileIO
 ms.assetid: f84f8a88-b6fc-4b22-b858-52955c8d537d
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: PSTORAGE_DEVICE_DESCRIPTOR, PSTORAGE_DEVICE_DESCRIPTOR structure pointer [Files], STORAGE_DEVICE_DESCRIPTOR, STORAGE_DEVICE_DESCRIPTOR structure [Files], _STORAGE_DEVICE_DESCRIPTOR, fs.storage_device_descriptor, winioctl/PSTORAGE_DEVICE_DESCRIPTOR, winioctl/STORAGE_DEVICE_DESCRIPTOR
 ms.prod: windows
 ms.technology: windows-sdk
@@ -146,8 +146,7 @@ Contains an array of length one that serves as a place holder for the first byte
 
 
 
-
-    An application can determine the required buffer size by issuing a 
+An application can determine the required buffer size by issuing a 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a> control code 
     passing a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566968">STORAGE_DESCRIPTOR_HEADER</a> structure 
     for the output buffer, and then using the returned <b>Size</b> member of the 

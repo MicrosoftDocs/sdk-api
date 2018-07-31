@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimereventhandler_onpostupdate.htm
 old-project: UIAnimation
 ms.assetid: 3a09537a-6cf7-4824-90c6-265dafa07a1b
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationTimerEventHandler interface [Windows Animation],OnPostUpdate method, IUIAnimationTimerEventHandler.OnPostUpdate, IUIAnimationTimerEventHandler::OnPostUpdate, OnPostUpdate, OnPostUpdate method [Windows Animation], OnPostUpdate method [Windows Animation],IUIAnimationTimerEventHandler interface, uianimation.iuianimationtimereventhandler_onpostupdate, uianimation/IUIAnimationTimerEventHandler::OnPostUpdate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Handles events that occur after an animation update is finished.
+Handles events that occur after an animation update is finished.
 
 
 ## -parameters

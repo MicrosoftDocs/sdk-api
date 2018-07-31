@@ -4,10 +4,10 @@ title: ldap_err2stringA function
 author: windows-sdk-content
 description: Converts a numeric LDAP error code into a null-terminated character string that describes the error.
 old-location: ldap\ldap_err2string.htm
-old-project: ldap
+old-project: LDAP
 ms.assetid: ebdccc79-e9c7-4a25-a1ab-01ba2b6f2d59
 ms.author: windowssdkdev
-ms.date: 06/14/2018
+ms.date: 07/29/2018
 ms.keywords: "_ldap_ldap_err2string, ldap.ldap__err2string, ldap.ldap_err2string, ldap_err2string, ldap_err2string function [LDAP], ldap_err2stringA, ldap_err2stringW, winldap/ldap_err2string, winldap/ldap_err2stringA, winldap/ldap_err2stringW"
 ms.prod: windows
 ms.technology: windows-sdk

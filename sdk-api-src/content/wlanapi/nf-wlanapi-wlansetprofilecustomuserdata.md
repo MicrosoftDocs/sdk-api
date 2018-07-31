@@ -4,10 +4,10 @@ title: WlanSetProfileCustomUserData function
 author: windows-sdk-content
 description: Sets the custom user data associated with a profile.
 old-location: nwifi\wlansetuserdata.htm
-old-project: nativewifi
+old-project: NativeWiFi
 ms.assetid: 3b37ff29-4c9b-42c8-b00a-a9dfca1d3fed
 ms.author: windowssdkdev
-ms.date: 07/10/2018
+ms.date: 07/29/2018
 ms.keywords: WlanSetProfileCustomUserData, WlanSetProfileCustomUserData function [NativeWIFI], nwifi.wlansetuserdata, wlanapi/WlanSetProfileCustomUserData
 ms.prod: windows
 ms.technology: windows-sdk

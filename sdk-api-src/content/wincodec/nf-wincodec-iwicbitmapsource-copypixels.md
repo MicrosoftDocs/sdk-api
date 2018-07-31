@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapsource_copypixels.htm
 old-project: wic
 ms.assetid: d4908a75-e7de-4b8f-bdc8-d86cf6b49f8c
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: CopyPixels, CopyPixels method [Windows Imaging Component], CopyPixels method [Windows Imaging Component],IWICBitmapSource interface, IWICBitmapSource interface [Windows Imaging Component],CopyPixels method, IWICBitmapSource.CopyPixels, IWICBitmapSource::CopyPixels, _wic_codec_iwicbitmapsource_copypixels, wic._wic_codec_iwicbitmapsource_copypixels, wincodec/IWICBitmapSource::CopyPixels
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,25 +107,21 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
          The algorithm is completely dependent on the object implementing the interface.
       
 
-
-         The caller can restrict the operation to a rectangle of interest (ROI) using the prc parameter. 
+The caller can restrict the operation to a rectangle of interest (ROI) using the prc parameter. 
          The ROI sub-rectangle must be fully contained in the bounds of the bitmap. 
          Specifying a <b>NULL</b> ROI implies that the whole bitmap should be returned. 
 
 
-
-         The caller controls the memory management and must provide an output buffer (<i>pbBuffer</i>) for the results of the copy along with the buffer's bounds (<i>cbBufferSize</i>). 
+The caller controls the memory management and must provide an output buffer (<i>pbBuffer</i>) for the results of the copy along with the buffer's bounds (<i>cbBufferSize</i>). 
          The cbStride parameter defines the count of bytes between two vertically adjacent pixels in the output buffer. 
          The caller must ensure that there is sufficient buffer to complete the call based on the width, height and pixel format of the bitmap and the sub-rectangle provided to the copy method.
       
 
-
-         If the caller needs to perform numerous copies of an expensive <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a> such as a JPEG, it is recommended to create an in-memory <a href="https://msdn.microsoft.com/15dcc80d-ef58-453d-a57a-348ffc7ddc6b">IWICBitmap</a> first.
+If the caller needs to perform numerous copies of an expensive <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a> such as a JPEG, it is recommended to create an in-memory <a href="https://msdn.microsoft.com/15dcc80d-ef58-453d-a57a-348ffc7ddc6b">IWICBitmap</a> first.
       
 
 <h3><a id="Codec_Developer_Remarks"></a><a id="codec_developer_remarks"></a><a id="CODEC_DEVELOPER_REMARKS"></a>Codec Developer Remarks</h3>
-
-         The callee must only write to the first (prc-&gt;Width*bitsperpixel+7)/8 bytes of each line of the output buffer (in this case, a line is a consecutive string of <i>cbStride</i> bytes).
+The callee must only write to the first (prc-&gt;Width*bitsperpixel+7)/8 bytes of each line of the output buffer (in this case, a line is a consecutive string of <i>cbStride</i> bytes).
       
 
 

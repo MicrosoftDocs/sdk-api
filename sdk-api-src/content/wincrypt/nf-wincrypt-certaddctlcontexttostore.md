@@ -4,10 +4,10 @@ title: CertAddCTLContextToStore function
 author: windows-sdk-content
 description: Adds a certificate trust list (CTL) context to a certificate store.
 old-location: security\certaddctlcontexttostore.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: e8858f75-77a1-4c5f-a3e3-a645c5e0f053
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddCTLContextToStore, CertAddCTLContextToStore function [Security], _crypto2_certaddctlcontexttostore, security.certaddctlcontexttostore, wincrypt/CertAddCTLContextToStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>CertAddCTLContextToStore</b> function adds a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL) context to a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a>.
+The <b>CertAddCTLContextToStore</b> function adds a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL) context to a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a>.
 
 
 ## -parameters
@@ -170,8 +169,7 @@ Pointer to a pointer to the decoded CTL <a href="https://msdn.microsoft.com/libr
 
 
 
-
-						If the function succeeds, the return value is <b>TRUE</b>.
+If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. Errors from the called functions 
 <a href="https://msdn.microsoft.com/ec2361e6-a1e6-413a-828e-d543a09c88f8">CertAddEncodedCRLToStore</a> and 
@@ -238,7 +236,7 @@ To remove the CTL context from the certificate store, use the  <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa380252(v=VS.85).aspx">Certificate Trust List Functions</a>
+<a href="cryptography_functions.htm">Certificate Trust List Functions</a>
  
 
  

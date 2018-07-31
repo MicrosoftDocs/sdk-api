@@ -7,7 +7,7 @@ old-location: wsw\wsgetsecuritytokenproperty.htm
 old-project: wsw
 ms.assetid: ce41062f-5125-4a4b-acc1-5df15b26276b
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WsGetSecurityTokenProperty, WsGetSecurityTokenProperty function [Web Services for Windows], webservices/WsGetSecurityTokenProperty, wsw.wsgetsecuritytokenproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,13 +65,11 @@ If the <i>heap</i> parameter is required by the property, then the returned data
 
 ### -param securityToken [in]
 
-
 The security token from which the property should be extracted.
                 
 
 
 ### -param id [in]
-
 
 The id of the property to retrieve.
                 
@@ -79,8 +77,7 @@ The id of the property to retrieve.
 
 ### -param value
 
-
-                    The location to store the retrieved property.
+The location to store the retrieved property.
                     The pointer must have an alignment compatible with the type
                     of the property.
                 
@@ -88,22 +85,19 @@ The id of the property to retrieve.
 
 ### -param valueSize [in]
 
-
-                    The number of bytes allocated by the caller to
+The number of bytes allocated by the caller to
                     store the retrieved property.
                 
 
 
 ### -param heap [in, optional]
 
-
-                    Heap to store additional property data. This parameter must be non-<b>NULL</b> when the queried property is
+Heap to store additional property data. This parameter must be non-<b>NULL</b> when the queried property is
                     <a href="https://msdn.microsoft.com/d5ba0170-2345-4144-9a60-25c0e638a283">WS_SECURITY_TOKEN_PROPERTY_SYMMETRIC_KEY</a> and must be <b>NULL</b> otherwise.
                 
 
 
 ### -param error [in, optional]
-
 
 Specifies where additional error information should be stored if the function fails.
                 
@@ -138,7 +132,6 @@ The property id was not supported for this object or the specified buffer was no
 </dl>
 </td>
 <td width="60%">
-
 Ran out of memory.
 
 </td>

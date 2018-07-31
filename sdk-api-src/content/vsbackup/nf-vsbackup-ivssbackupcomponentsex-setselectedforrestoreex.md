@@ -4,10 +4,10 @@ title: IVssBackupComponentsEx::SetSelectedForRestoreEx
 author: windows-sdk-content
 description: The SetSelectedForRestoreEx method indicates whether the specified selectable component is selected for restoration to a specified writer instance.
 old-location: base\ivssbackupcomponentsex_setselectedforrestoreex.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 469e6d61-85c6-4385-92be-df6addefe37f
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: IVssBackupComponentsEx interface [VSS],SetSelectedForRestoreEx method, IVssBackupComponentsEx.SetSelectedForRestoreEx, IVssBackupComponentsEx::SetSelectedForRestoreEx, SetSelectedForRestoreEx, SetSelectedForRestoreEx method [VSS], SetSelectedForRestoreEx method [VSS],IVssBackupComponentsEx interface, base.ivssbackupcomponentsex_setselectedforrestoreex, vsbackup/IVssBackupComponentsEx::SetSelectedForRestoreEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -196,8 +196,7 @@ The XML document is not valid. Check the event log for details. For more
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.

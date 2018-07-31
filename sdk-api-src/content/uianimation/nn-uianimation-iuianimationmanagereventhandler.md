@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanagereventhandler.htm
 old-project: UIAnimation
 ms.assetid: caefafb8-55f8-47c3-adc7-26708b90d2cd
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: IUIAnimationManagerEventHandler, IUIAnimationManagerEventHandler interface [Windows Animation], IUIAnimationManagerEventHandler interface [Windows Animation],described, uianimation.iuianimationmanagereventhandler, uianimation/IUIAnimationManagerEventHandler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Defines a method for handling status updates to an animation manager.
+Defines a method for handling status updates to an animation manager.
 
 
 ## -inheritance
@@ -72,12 +71,10 @@ The <b>IUIAnimationManagerEventHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17f98ff5-f18e-44be-a8bd-bc5a6467fa83">
-         OnManagerStatusChanged</a>
+<a href="https://msdn.microsoft.com/17f98ff5-f18e-44be-a8bd-bc5a6467fa83">OnManagerStatusChanged</a>
 </td>
 <td align="left" width="63%">
-
-				Handles status changes to the animation manager.
+Handles status changes to the animation manager.
 
 </td>
 </tr>
@@ -89,8 +86,7 @@ The <b>IUIAnimationManagerEventHandler</b> interface has these methods.
 
 
 
-<a href="https://msdn.microsoft.com/8ee9a17f-c57c-49df-950d-491e05ba8768">
-      IUIAnimationManager::GetStatus</a>
+<a href="https://msdn.microsoft.com/8ee9a17f-c57c-49df-950d-491e05ba8768">IUIAnimationManager::GetStatus</a>
 
 
 
@@ -98,8 +94,7 @@ The <b>IUIAnimationManagerEventHandler</b> interface has these methods.
 
 
 
-<a href="https://msdn.microsoft.com/499c74c0-d1e7-4ab4-9c3a-19c2e1abeda8">
-      UI_ANIMATION_MANAGER_STATUS</a>
+<a href="https://msdn.microsoft.com/499c74c0-d1e7-4ab4-9c3a-19c2e1abeda8">UI_ANIMATION_MANAGER_STATUS</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicfastmetadataencoder.htm
 old-project: wic
 ms.assetid: c7b57a71-f1fe-4e30-a52e-72ab6ce021f7
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: IWICFastMetadataEncoder, IWICFastMetadataEncoder interface [Windows Imaging Component], IWICFastMetadataEncoder interface [Windows Imaging Component],described, _wic_codec_iwicfastmetadataencoder, wic._wic_codec_iwicfastmetadataencoder, wincodec/IWICFastMetadataEncoder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,17 +94,14 @@ Retrieves a metadata query writer for fast metadata encoding.
 
 
 
-
-            A decoder must be created using the <a href="https://msdn.microsoft.com/27b9d6e1-e171-4c7f-8f96-fa5a93923e35">WICDecodeOptions</a> value <b>WICDecodeMetadataCacheOnDemand</b> to perform in-place metadata updates. 
+A decoder must be created using the <a href="https://msdn.microsoft.com/27b9d6e1-e171-4c7f-8f96-fa5a93923e35">WICDecodeOptions</a> value <b>WICDecodeMetadataCacheOnDemand</b> to perform in-place metadata updates. 
             Using the <b>WICDecodeMetadataCacheOnLoad</b> option causes the decoder to release the file stream necessary to perform the metadata updates. 
          
 
-
-            Not all metadata formats support fast metadata encoding. The native metadata handlers that support metadata are IFD, Exif, XMP, and GPS.
+Not all metadata formats support fast metadata encoding. The native metadata handlers that support metadata are IFD, Exif, XMP, and GPS.
          
 
-
-            If a fast metadata encoder fails, the image will need to be fully re-encoded to add the metadata.
+If a fast metadata encoder fails, the image will need to be fully re-encoded to add the metadata.
          
 
 

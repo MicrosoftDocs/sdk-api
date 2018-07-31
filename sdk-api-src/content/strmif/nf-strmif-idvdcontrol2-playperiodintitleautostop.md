@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_playperiodintitleautostop.htm
 old-project: DirectShow
 ms.assetid: 6c0d647c-a0c3-428e-8368-9204049dfea8
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayPeriodInTitleAutoStop method, IDvdControl2.PlayPeriodInTitleAutoStop, IDvdControl2::PlayPeriodInTitleAutoStop, IDvdControl2PlayPeriodInTitleAutoStop, PlayPeriodInTitleAutoStop, PlayPeriodInTitleAutoStop method [DirectShow], PlayPeriodInTitleAutoStop method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playperiodintitleautostop, strmif/IDvdControl2::PlayPeriodInTitleAutoStop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -148,11 +148,9 @@ The following table shows the Annex J command name to which this method name cor
 
 <table>
 <tr>
-<td>
-              Annex J Command Name
+<td>Annex J Command Name
             </td>
-<td>
-              Valid Domains
+<td>Valid Domains
             </td>
 </tr>
 <tr>

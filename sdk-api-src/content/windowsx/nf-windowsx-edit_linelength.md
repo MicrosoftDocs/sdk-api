@@ -4,10 +4,10 @@ title: Edit_LineLength macro
 author: windows-sdk-content
 description: Retrieves the length, in characters, of a line in an edit or rich edit control. You can use this macro or send the EM_LINELENGTH message explicitly.
 old-location: controls\Edit_LineLength.htm
-old-project: controls
+old-project: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_linelength.htm
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: Edit_LineLength, Edit_LineLength macro [Windows Controls], _win32_Edit_LineLength, _win32_Edit_LineLength_cpp, controls.Edit_LineLength, controls._win32_Edit_LineLength, windowsx/Edit_LineLength
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Retrieves the length, in characters, of a line in an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/library/Bb761613(v=VS.85).aspx">EM_LINELENGTH</a> message explicitly.
+Retrieves the length, in characters, of a line in an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/cfb0632c-9ba9-4864-939a-dbbaed6c177e">EM_LINELENGTH</a> message explicitly.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ The zero-based index of the line.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/Bb761613(v=VS.85).aspx">EM_LINELENGTH</a>.
+For more information, see <a href="https://msdn.microsoft.com/cfb0632c-9ba9-4864-939a-dbbaed6c177e">EM_LINELENGTH</a>.
 
 
 

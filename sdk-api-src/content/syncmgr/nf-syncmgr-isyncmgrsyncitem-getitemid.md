@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItem_GetItemID.htm
 old-project: shell
 ms.assetid: 2add1902-1258-49ed-ad44-35d28d0776c1
 ms.author: windowssdkdev
-ms.date: 07/20/2018
+ms.date: 07/29/2018
 ms.keywords: GetItemID, GetItemID method [Windows Shell], GetItemID method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetItemID method, ISyncMgrSyncItem.GetItemID, ISyncMgrSyncItem::GetItemID, _shell_ISyncMgrSyncItem_GetItemID, shell.ISyncMgrSyncItem_GetItemID, syncmgr/ISyncMgrSyncItem::GetItemID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,8 +96,7 @@ In older Sync Manager implementations, this data was retrieved through the <a hr
 
 
 
-
-        	The following example shows an implementation of this method.
+The following example shows an implementation of this method.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

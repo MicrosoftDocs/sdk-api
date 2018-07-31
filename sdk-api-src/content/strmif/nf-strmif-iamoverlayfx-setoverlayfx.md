@@ -7,7 +7,7 @@ old-location: dshow\iamoverlayfx_setoverlayfx.htm
 old-project: DirectShow
 ms.assetid: 08e44f4e-924a-4a4d-9fc5-c13b3c21c038
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IAMOverlayFX interface [DirectShow],SetOverlayFX method, IAMOverlayFX.SetOverlayFX, IAMOverlayFX::SetOverlayFX, IAMOverlayFXSetOverlayFX, SetOverlayFX, SetOverlayFX method [DirectShow], SetOverlayFX method [DirectShow],IAMOverlayFX interface, dshow.iamoverlayfx_setoverlayfx, strmif/IAMOverlayFX::SetOverlayFX
 ms.prod: windows
 ms.technology: windows-sdk

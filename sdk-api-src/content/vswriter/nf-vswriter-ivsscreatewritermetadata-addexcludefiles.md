@@ -4,10 +4,10 @@ title: IVssCreateWriterMetadata::AddExcludeFiles
 author: windows-sdk-content
 description: The AddExcludeFiles method is used to explicitly exclude a file set (a specified file or files) that might otherwise be implicitly included when a component of the current writer is backed up.
 old-location: base\ivsscreatewritermetadata_addexcludefiles.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 705bb666-9080-4b42-af58-9cc21fbf88cf
 ms.author: windowssdkdev
-ms.date: 05/23/2018
+ms.date: 07/29/2018
 ms.keywords: AddExcludeFiles, AddExcludeFiles method [VSS], AddExcludeFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddExcludeFiles method, IVssCreateWriterMetadata.AddExcludeFiles, IVssCreateWriterMetadata::AddExcludeFiles, _win32_ivsscreatewritermetadata_addexcludefiles, base.ivsscreatewritermetadata_addexcludefiles, vswriter/IVssCreateWriterMetadata::AddExcludeFiles
 ms.prod: windows
 ms.technology: windows-sdk
@@ -161,8 +161,7 @@ The XML document is not valid. Check the event log for details. For more informa
 </dl>
 </td>
 <td width="60%">
-
-        Unexpected error. The error code is logged in the error log file. For more information, see 
+Unexpected error. The error code is logged in the error log file. For more information, see 
         <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
@@ -186,7 +185,7 @@ For example, it is often convenient to define a component to include all files i
 <b>AddExcludeFiles</b> to explicitly remove some files (for instance, temporary files) from a backup.
 
 For more information on excluding files, see 
-<a href="https://msdn.microsoft.com/library/Aa384996(v=VS.85).aspx">Exclude File List Specification</a>.
+<a href="writer_metadata_document_contents.htm">Exclude File List Specification</a>.
 
 
 

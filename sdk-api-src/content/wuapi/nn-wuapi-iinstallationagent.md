@@ -4,10 +4,10 @@ title: IInstallationAgent
 author: windows-sdk-content
 description: Records the result for an update.
 old-location: wua\iinstallationagent.htm
-old-project: wua_sdk
+old-project: Wua_Sdk
 ms.assetid: B24B527C-D92B-4BEB-ADCC-5E2BA684A478
 ms.author: windowssdkdev
-ms.date: 07/23/2018
+ms.date: 07/29/2018
 ms.keywords: IInstallationAgent, IInstallationAgent interface [Windows Update Agent], IInstallationAgent interface [Windows Update Agent],described, wua.iinstallationagent, wuapi/IInstallationAgent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ Records the result for an update.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInstallationAgent</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IInstallationAgent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInstallationAgent</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IInstallationAgent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

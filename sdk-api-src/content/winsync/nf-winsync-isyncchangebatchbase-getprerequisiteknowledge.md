@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatchbase_getprerequisiteknowledge.htm
 old-project: winsync
 ms.assetid: dd078725-7fd8-4d6c-9b43-f6741b03f1e6
 ms.author: windowssdkdev
-ms.date: 05/10/2018
+ms.date: 07/29/2018
 ms.keywords: GetPrerequisiteKnowledge, GetPrerequisiteKnowledge method [Windows Sync], GetPrerequisiteKnowledge method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetPrerequisiteKnowledge method, ISyncChangeBatchBase.GetPrerequisiteKnowledge, ISyncChangeBatchBase::GetPrerequisiteKnowledge, winsync.isyncchangebatchbase_getprerequisiteknowledge, winsync/ISyncChangeBatchBase::GetPrerequisiteKnowledge
 ms.prod: windows
 ms.technology: windows-sdk

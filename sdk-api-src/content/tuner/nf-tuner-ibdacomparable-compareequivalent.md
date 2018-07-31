@@ -7,7 +7,7 @@ old-location: mstv\ibdacomparable_compareequivalent.htm
 old-project: mstv
 ms.assetid: 132c326e-053c-41be-b0fd-bea484fb0acd
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: CompareEquivalent, CompareEquivalent method [Microsoft TV Technologies], CompareEquivalent method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],CompareEquivalent method, IBDAComparable.CompareEquivalent, IBDAComparable::CompareEquivalent, IBDAComparableCompareEquivalent, mstv.ibdacomparable_compareequivalent, tuner/IBDAComparable::CompareEquivalent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-<div class="alert"><b>Note</b>  
-          This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.</div><div> </div>The <b>CompareEquivalent</b> method compares two objects to determine whether they contain equivalent tuning information.
+<div class="alert"><b>Note</b>  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.</div><div> </div>The <b>CompareEquivalent</b> method compares two objects to determine whether they contain equivalent tuning information.
 
 
 ## -parameters

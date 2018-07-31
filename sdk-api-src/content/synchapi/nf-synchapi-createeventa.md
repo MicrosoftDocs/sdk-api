@@ -4,10 +4,10 @@ title: CreateEventA function
 author: windows-sdk-content
 description: Creates or opens a named or unnamed event object.
 old-location: base\createevent.htm
-old-project: sync
+old-project: Sync
 ms.assetid: 1f6d946e-c74c-4599-ac3d-b709216a0900
 ms.author: windowssdkdev
-ms.date: 07/06/2018
+ms.date: 07/29/2018
 ms.keywords: CreateEvent, CreateEvent function, CreateEventA, CreateEventW, _win32_createevent, base.createevent, synchapi/CreateEvent, synchapi/CreateEventA, synchapi/CreateEventW, winbase/CreateEvent, winbase/CreateEventA, winbase/CreateEventW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,7 @@ To specify an access mask for the object, use the <a href="https://msdn.microsof
 
 ### -param lpEventAttributes [in, optional]
 
-
-      A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure. If 
+A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure. If 
       this parameter is <b>NULL</b>, the handle cannot be inherited by child processes. 
       
 
@@ -84,8 +83,7 @@ The <b>lpSecurityDescriptor</b> member of the structure specifies a
 
 ### -param bManualReset [in]
 
-
-      If this parameter is <b>TRUE</b>, the function creates a manual-reset event object, which requires the use of the 
+If this parameter is <b>TRUE</b>, the function creates a manual-reset event object, which requires the use of the 
       <a href="https://msdn.microsoft.com/bba7caab-d1ed-4261-aeca-49f847458f4c">ResetEvent</a> function to set the event state to nonsignaled. If 
       this parameter is <b>FALSE</b>, the function creates an auto-reset event object, and system automatically resets the 
       event state to nonsignaled after a single waiting thread has been released.
@@ -93,8 +91,7 @@ The <b>lpSecurityDescriptor</b> member of the structure specifies a
 
 ### -param bInitialState [in]
 
-
-      If this parameter is <b>TRUE</b>, the initial state of the event object is signaled; otherwise, it is nonsignaled.
+If this parameter is <b>TRUE</b>, the initial state of the event object is signaled; otherwise, it is nonsignaled.
 
 
 ### -param lpName [in, optional]

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary_createsmoothstoptransiti
 old-project: UIAnimation
 ms.assetid: fce15425-5529-4ebf-9961-7e125cc64edb
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: CreateSmoothStopTransition, CreateSmoothStopTransition method [Windows Animation], CreateSmoothStopTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateSmoothStopTransition method, IUIAnimationTransitionLibrary.CreateSmoothStopTransition, IUIAnimationTransitionLibrary::CreateSmoothStopTransition, uianimation.iuianimationtransitionlibrary_createsmoothstoptransition, uianimation/IUIAnimationTransitionLibrary::CreateSmoothStopTransition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Creates a smooth-stop transition.
+Creates a smooth-stop transition.
 
 
 ## -parameters
@@ -62,20 +61,17 @@ req.product: Windows XP with SP1 and later
 
 ### -param maximumDuration [in]
 
-
-                The maximum duration of the transition.
+The maximum duration of the transition.
 
 
 ### -param finalValue [in]
 
-
-                The value of the animation variable at the end of the transition.
+The value of the animation variable at the end of the transition.
 
 
 ### -param transition [out]
 
-
-               The new smooth-stop transition.
+The new smooth-stop transition.
 
 
 ## -returns

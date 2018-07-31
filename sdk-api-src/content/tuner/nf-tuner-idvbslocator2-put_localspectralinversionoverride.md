@@ -7,7 +7,7 @@ old-location: mstv\idvbslocator2_localspectralinversionoverride.htm
 old-project: mstv
 ms.assetid: 1ba386d4-f058-4e8b-9eb3-e2a6f4e76ca6
 ms.author: windowssdkdev
-ms.date: 06/06/2018
+ms.date: 07/29/2018
 ms.keywords: IDVBSLocator2 interface [Microsoft TV Technologies],LocalSpectralInversionOverride property, IDVBSLocator2.LocalSpectralInversionOverride, IDVBSLocator2.put_LocalSpectralInversionOverride, IDVBSLocator2::LocalSpectralInversionOverride, IDVBSLocator2::get_LocalSpectralInversionOverride, IDVBSLocator2::put_LocalSpectralInversionOverride, LocalSpectralInversionOverride property [Microsoft TV Technologies], LocalSpectralInversionOverride property [Microsoft TV Technologies],IDVBSLocator2 interface, mstv.idvbslocator2_localspectralinversionoverride, put_LocalSpectralInversionOverride, tuner/IDVBSLocator2::LocalSpectralInversionOverride, tuner/IDVBSLocator2::get_LocalSpectralInversionOverride, tuner/IDVBSLocator2::put_LocalSpectralInversionOverride
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,8 +53,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-
-      Specifies the spectral inversion state for a Digital Video Broadcasting-Satellite, Second Generation (DVB-S2) signal.
+Specifies the spectral inversion state for a Digital Video Broadcasting-Satellite, Second Generation (DVB-S2) signal.
     
 
 This property is read/write.

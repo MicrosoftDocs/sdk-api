@@ -7,7 +7,7 @@ old-location: wsw\ws_service_property_close_callback.htm
 old-project: wsw
 ms.assetid: 3806c87d-6abe-4dee-90cf-0a6d26826189
 ms.author: windowssdkdev
-ms.date: 05/21/2018
+ms.date: 07/29/2018
 ms.keywords: WS_SERVICE_PROPERTY_CLOSE_CALLBACK, WS_SERVICE_PROPERTY_CLOSE_CALLBACK structure [Web Services for Windows], _WS_SERVICE_PROPERTY_CLOSE_CALLBACK, webservices/WS_SERVICE_PROPERTY_CLOSE_CALLBACK, wsw.ws_service_property_close_callback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-                Specifies the callback which is called when a channel is about to be closed. 
+Specifies the callback which is called when a channel is about to be closed. 
                 See, <a href="https://msdn.microsoft.com/e2860015-219b-46be-921d-7ced0d95fc60">WS_SERVICE_CLOSE_CHANNEL_CALLBACK</a> for details.
             
 
@@ -64,7 +63,6 @@ req.product: Windows Address Book 5.0
 
 ### -field callback
 
-
-                The close channel callback function reference.
+The close channel callback function reference.
             
 

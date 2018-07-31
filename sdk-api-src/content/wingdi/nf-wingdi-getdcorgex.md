@@ -7,7 +7,7 @@ old-location: gdi\getdcorgex.htm
 old-project: gdi
 ms.assetid: 795c6a69-7146-4d1a-abf9-ce1d740ca946
 ms.author: windowssdkdev
-ms.date: 05/25/2018
+ms.date: 07/29/2018
 ms.keywords: GetDCOrgEx, GetDCOrgEx function [Windows GDI], _win32_GetDCOrgEx, gdi.getdcorgex, wingdi/GetDCOrgEx
 ms.prod: windows
 ms.technology: windows-sdk

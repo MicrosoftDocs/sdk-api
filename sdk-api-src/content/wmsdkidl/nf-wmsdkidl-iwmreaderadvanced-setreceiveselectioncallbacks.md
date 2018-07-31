@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced_setreceiveselectioncallbacks.htm
 old-project: wmformat
 ms.assetid: 8cb0bd59-2a46-4cdc-9a88-ee6a8f170f3c
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetReceiveSelectionCallbacks method, IWMReaderAdvanced.SetReceiveSelectionCallbacks, IWMReaderAdvanced::SetReceiveSelectionCallbacks, IWMReaderAdvancedSetReceiveSelectionCallbacks, SetReceiveSelectionCallbacks, SetReceiveSelectionCallbacks method [windows Media Format], SetReceiveSelectionCallbacks method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setreceiveselectioncallbacks, wmsdkidl/IWMReaderAdvanced::SetReceiveSelectionCallbacks
 ms.prod: windows
 ms.technology: windows-sdk

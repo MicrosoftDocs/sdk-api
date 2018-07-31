@@ -4,10 +4,10 @@ title: PFXExportCertStore function
 author: windows-sdk-content
 description: Exports the certificates and, if available, the associated private keys from the referenced certificate store.
 old-location: security\pfxexportcertstore.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 003602c6-d6c9-4695-9c60-ffaf0aa02266
 ms.author: windowssdkdev
-ms.date: 07/16/2018
+ms.date: 07/29/2018
 ms.keywords: EXPORT_PRIVATE_KEYS, PFXExportCertStore, PFXExportCertStore function [Security], REPORT_NOT_ABLE_TO_EXPORT_PRIVATE_KEY, REPORT_NO_PRIVATE_KEY, _crypto2_pfxexportcertstore, security.pfxexportcertstore, wincrypt/PFXExportCertStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-
-			The <b>PFXExportCertStore</b> function exports the certificates and, if available, the associated private keys from the referenced certificate store. This is an old function kept for compatibility with Internet Explorer 4.0 clients. New applications should use the 
+The <b>PFXExportCertStore</b> function exports the certificates and, if available, the associated private keys from the referenced certificate store. This is an old function kept for compatibility with Internet Explorer 4.0 clients. New applications should use the 
 <a href="https://msdn.microsoft.com/e8bd54b1-946f-4c65-8a86-96f0dbec07ff">PfxExportCertStoreEx</a> function that provides enhanced private key security.
 
 
@@ -123,8 +122,7 @@ If a certificate is encountered that has a non-exportable private key, the funct
 
 
 
-
-						Returns <b>TRUE</b> (nonzero) if the function succeeds, and <b>FALSE</b> (zero) if the function fails. For extended error information, call 
+Returns <b>TRUE</b> (nonzero) if the function succeeds, and <b>FALSE</b> (zero) if the function fails. For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
 

@@ -7,7 +7,7 @@ old-location: multimedia\icdecompress_struct.htm
 old-project: Multimedia
 ms.assetid: bc9c2416-cc1c-4571-82ee-7d93307f5114
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: ICDECOMPRESS, ICDECOMPRESS structure [Windows Multimedia], ICDECOMPRESS_HURRYUP, ICDECOMPRESS_NOTKEYFRAME, ICDECOMPRESS_NULLFRAME, ICDECOMPRESS_PREROLL, ICDECOMPRESS_UPDATE, multimedia.icdecompress_COLLISION813, multimedia.icdecompress_struct, vfw/ICDECOMPRESS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,8 +77,7 @@ Applicable flags. The following values are defined:
 </dl>
 </td>
 <td width="60%">
-
-                Tries to decompress at a faster rate. When an application uses this flag, the driver should buffer the decompressed data but not draw the image.
+Tries to decompress at a faster rate. When an application uses this flag, the driver should buffer the decompressed data but not draw the image.
               
 
 </td>
@@ -89,8 +88,7 @@ Applicable flags. The following values are defined:
 </dl>
 </td>
 <td width="60%">
-
-                Current frame is not a key frame.
+Current frame is not a key frame.
               
 
 </td>
@@ -101,8 +99,7 @@ Applicable flags. The following values are defined:
 </dl>
 </td>
 <td width="60%">
-
-                Current frame does not contain data and the decompressed image should be left the same.
+Current frame does not contain data and the decompressed image should be left the same.
               
 
 </td>
@@ -113,8 +110,7 @@ Applicable flags. The following values are defined:
 </dl>
 </td>
 <td width="60%">
-
-                Current frame precedes the point in the movie where playback starts and, therefore, will not be drawn.
+Current frame precedes the point in the movie where playback starts and, therefore, will not be drawn.
               
 
 </td>
@@ -125,8 +121,7 @@ Applicable flags. The following values are defined:
 </dl>
 </td>
 <td width="60%">
-
-                Screen is being updated or refreshed.
+Screen is being updated or refreshed.
               
 
 </td>
@@ -137,36 +132,31 @@ Applicable flags. The following values are defined:
 
 ### -field lpbiInput
 
-
-            Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the input format.
+Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the input format.
           
 
 
 ### -field lpInput
 
-
-            Pointer to a buffer containing the input data.
+Pointer to a buffer containing the input data.
           
 
 
 ### -field lpbiOutput
 
-
-            Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the output format.
+Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the output format.
           
 
 
 ### -field lpOutput
 
-
-            Pointer to a buffer where the driver should write the decompressed image.
+Pointer to a buffer where the driver should write the decompressed image.
           
 
 
 ### -field ckid
 
-
-            Chunk identifier from the AVI file.
+Chunk identifier from the AVI file.
           
 
 

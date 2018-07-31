@@ -7,7 +7,7 @@ old-location: multimedia\icdraw.htm
 old-project: Multimedia
 ms.assetid: 0bf2c264-6adf-4773-95df-9cd77e73c022
 ms.author: windowssdkdev
-ms.date: 07/17/2018
+ms.date: 07/29/2018
 ms.keywords: ICDraw, ICDraw function [Windows Multimedia], _win32_ICDraw, multimedia.icdraw, vfw/ICDraw
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,11 +73,9 @@ Decompression flags. The following values are defined.
 
 <table>
 <tr>
-<th>
-                  Value
+<th>Value
                 </th>
-<th>
-                  Meaning
+<th>Meaning
                 </th>
 </tr>
 <tr>
@@ -106,29 +104,25 @@ Decompression flags. The following values are defined.
 
 ### -param lpFormat
 
-
-            Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the input format of the data.
+Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the input format of the data.
           
 
 
 ### -param lpData
 
-
-            Pointer to the input data.
+Pointer to the input data.
           
 
 
 ### -param cbData
 
-
-            Size of the input data, in bytes.
+Size of the input data, in bytes.
           
 
 
 ### -param lTime
 
-
-            Time, in samples, to draw this frame. The units for video data are frames. For a definition of the playback rate, see the <b>dwRate</b> and <b>dwScale</b> members of the <a href="https://msdn.microsoft.com/1ec2309c-7ea8-423e-aee3-5e0c650f0b3d">ICDRAWBEGIN</a> structure.
+Time, in samples, to draw this frame. The units for video data are frames. For a definition of the playback rate, see the <b>dwRate</b> and <b>dwScale</b> members of the <a href="https://msdn.microsoft.com/1ec2309c-7ea8-423e-aee3-5e0c650f0b3d">ICDRAWBEGIN</a> structure.
           
 
 
@@ -136,8 +130,7 @@ Decompression flags. The following values are defined.
 
 
 
-
-            Returns<b> ICERR_OK</b> if successful or an error otherwise.
+Returns<b> ICERR_OK</b> if successful or an error otherwise.
           
 
 
